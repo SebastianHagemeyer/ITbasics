@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Python Basics | Hallam IT Basics</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">&lt;/&gt;</span>
+        <span>Hallam IT Basics</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="programming-basics.html">Programming</a>
+        <a href="html-basics.html">HTML</a>
+        <a href="python-basics.html" class="active">Python</a>
+        <a href="quizzes.html">Quizzes</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Module 3</p>
+        <h1>Python Basics</h1>
+        <p class="lead">Python is one of the easiest languages to read and one of the most powerful to use. Let&rsquo;s get coding.</p>
+      </div>
+    </section>
+
+    <div class="container lesson-layout">
+      <aside class="lesson-toc" aria-label="On this page">
+        <h4>On this page</h4>
+        <ol>
+          <li><a href="#setup">Getting set up</a></li>
+          <li><a href="#print">Printing output</a></li>
+          <li><a href="#vars">Variables</a></li>
+          <li><a href="#input">Asking for input</a></li>
+          <li><a href="#maths">Doing maths</a></li>
+          <li><a href="#if">If / else</a></li>
+          <li><a href="#loops">Loops</a></li>
+          <li><a href="#functions">Functions</a></li>
+          <li><a href="#challenges">Challenges</a></li>
+        </ol>
+      </aside>
+
+      <article class="lesson">
+        <section id="setup">
+          <h2>1. Getting set up</h2>
+          <p>You don&rsquo;t need to install anything to start. Try one of these:</p>
+          <ul class="tips">
+            <li><strong>replit.com</strong> or <strong>trinket.io</strong> &mdash; Python in your browser.</li>
+            <li>At home: install <strong>Python</strong> from python.org, then use <strong>IDLE</strong> or <strong>VS Code</strong>.</li>
+          </ul>
+        </section>
+
+        <section id="print">
+          <h2>2. Printing output</h2>
+          <p>The <code>print()</code> function shows something on the screen.</p>
+          <pre class="code"><span class="c-keyword">print</span>(<span class="c-string">"Hello, world!"</span>)
+<span class="c-keyword">print</span>(<span class="c-string">"My name is Alex."</span>)</pre>
+          <div class="preview">
+            <h4 class="preview-label">Output</h4>
+            <pre class="preview-body mono">Hello, world!
+My name is Alex.</pre>
+          </div>
+        </section>
+
+        <section id="vars">
+          <h2>3. Variables</h2>
+          <p>Store information with an <code>=</code> sign. The name comes first.</p>
+          <pre class="code">name <span class="c-op">=</span> <span class="c-string">"Priya"</span>
+age <span class="c-op">=</span> <span class="c-num">12</span>
+<span class="c-keyword">print</span>(name, <span class="c-string">"is"</span>, age)</pre>
+          <div class="preview">
+            <h4 class="preview-label">Output</h4>
+            <pre class="preview-body mono">Priya is 12</pre>
+          </div>
+        </section>
+
+        <section id="input">
+          <h2>4. Asking for input</h2>
+          <p>Use <code>input()</code> to ask the user a question. Whatever they type is stored as text.</p>
+          <pre class="code">name <span class="c-op">=</span> <span class="c-keyword">input</span>(<span class="c-string">"What is your name? "</span>)
+<span class="c-keyword">print</span>(<span class="c-string">"Hi,"</span>, name<span class="c-op">+</span><span class="c-string">"!"</span>)</pre>
+          <div class="callout">
+            <strong>Heads up:</strong> <code>input()</code> always gives you a <em>string</em>. To do maths with it, convert to a number with <code>int()</code> or <code>float()</code>.
+          </div>
+          <pre class="code">age <span class="c-op">=</span> <span class="c-keyword">int</span>(<span class="c-keyword">input</span>(<span class="c-string">"How old are you? "</span>))
+<span class="c-keyword">print</span>(<span class="c-string">"Next year you will be"</span>, age <span class="c-op">+</span> <span class="c-num">1</span>)</pre>
+        </section>
+
+        <section id="maths">
+          <h2>5. Doing maths</h2>
+          <table class="data-table">
+            <thead><tr><th>Symbol</th><th>Meaning</th><th>Example</th><th>Result</th></tr></thead>
+            <tbody>
+              <tr><td><code>+</code></td><td>Add</td><td><code>5 + 2</code></td><td><code>7</code></td></tr>
+              <tr><td><code>-</code></td><td>Subtract</td><td><code>5 - 2</code></td><td><code>3</code></td></tr>
+              <tr><td><code>*</code></td><td>Multiply</td><td><code>5 * 2</code></td><td><code>10</code></td></tr>
+              <tr><td><code>/</code></td><td>Divide</td><td><code>5 / 2</code></td><td><code>2.5</code></td></tr>
+              <tr><td><code>//</code></td><td>Whole divide</td><td><code>5 // 2</code></td><td><code>2</code></td></tr>
+              <tr><td><code>%</code></td><td>Remainder</td><td><code>5 % 2</code></td><td><code>1</code></td></tr>
+              <tr><td><code>**</code></td><td>Power</td><td><code>5 ** 2</code></td><td><code>25</code></td></tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section id="if">
+          <h2>6. If / else</h2>
+          <pre class="code">age <span class="c-op">=</span> <span class="c-keyword">int</span>(<span class="c-keyword">input</span>(<span class="c-string">"Your age? "</span>))
+
+<span class="c-keyword">if</span> age <span class="c-op">&gt;=</span> <span class="c-num">13</span>:
+    <span class="c-keyword">print</span>(<span class="c-string">"You are a teenager."</span>)
+<span class="c-keyword">elif</span> age <span class="c-op">&gt;=</span> <span class="c-num">5</span>:
+    <span class="c-keyword">print</span>(<span class="c-string">"You are at school."</span>)
+<span class="c-keyword">else</span>:
+    <span class="c-keyword">print</span>(<span class="c-string">"You are little!"</span>)</pre>
+          <div class="callout">
+            <strong>Indentation matters.</strong> Python uses spaces (usually 4) to show which lines belong inside an <code>if</code>, <code>for</code>, or <code>def</code>.
+          </div>
+        </section>
+
+        <section id="loops">
+          <h2>7. Loops</h2>
+          <p><strong>For</strong> loops repeat a fixed number of times:</p>
+          <pre class="code"><span class="c-keyword">for</span> i <span class="c-keyword">in</span> <span class="c-keyword">range</span>(<span class="c-num">3</span>):
+    <span class="c-keyword">print</span>(<span class="c-string">"Hip hip hooray!"</span>)</pre>
+          <p><strong>While</strong> loops repeat as long as something is true:</p>
+          <pre class="code">lives <span class="c-op">=</span> <span class="c-num">3</span>
+<span class="c-keyword">while</span> lives <span class="c-op">&gt;</span> <span class="c-num">0</span>:
+    <span class="c-keyword">print</span>(<span class="c-string">"Still alive!"</span>)
+    lives <span class="c-op">=</span> lives <span class="c-op">-</span> <span class="c-num">1</span></pre>
+        </section>
+
+        <section id="functions">
+          <h2>8. Functions</h2>
+          <p>A <strong>function</strong> is a reusable block of code. Define it once with <code>def</code>, then call it whenever.</p>
+          <pre class="code"><span class="c-keyword">def</span> greet(name):
+    <span class="c-keyword">print</span>(<span class="c-string">"Hello,"</span>, name<span class="c-op">+</span><span class="c-string">"!"</span>)
+
+greet(<span class="c-string">"Leo"</span>)
+greet(<span class="c-string">"Mia"</span>)</pre>
+          <div class="preview">
+            <h4 class="preview-label">Output</h4>
+            <pre class="preview-body mono">Hello, Leo!
+Hello, Mia!</pre>
+          </div>
+        </section>
+
+        <section id="challenges" class="project">
+          <h2>Challenges</h2>
+          <p>Try these in your Python editor. Start simple, then add features.</p>
+          <ol class="steps">
+            <li><strong>Greeter:</strong> Ask for a name and say hello back.</li>
+            <li><strong>Age checker:</strong> Ask for an age and print whether they can watch a PG-13 film.</li>
+            <li><strong>Times table:</strong> Ask for a number and print its times table up to 12.</li>
+            <li><strong>Guessing game:</strong> Pick a secret number 1&ndash;10. Keep asking the user to guess until they get it right.</li>
+          </ol>
+        </section>
+
+        <div class="lesson-nav">
+          <a href="html-basics.html" class="btn btn-ghost">&larr; HTML</a>
+          <a href="quizzes.html#python" class="btn btn-primary">Take the Python quiz &rarr;</a>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; Hallam IT Basics &middot; For Years 7&ndash;9 computing classes.</p>
+    </div>
+  </footer>
+</body>
+</html>
