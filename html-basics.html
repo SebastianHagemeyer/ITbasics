@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HTML Basics | Hallam IT Basics</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">&lt;/&gt;</span>
+        <span>Hallam IT Basics</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="programming-basics.html">Programming</a>
+        <a href="html-basics.html" class="active">HTML</a>
+        <a href="python-basics.html">Python</a>
+        <a href="quizzes.html">Quizzes</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Module 2</p>
+        <h1>HTML Basics</h1>
+        <p class="lead">Every web page you&rsquo;ve ever visited is built from HTML. Let&rsquo;s make one.</p>
+      </div>
+    </section>
+
+    <div class="container lesson-layout">
+      <aside class="lesson-toc" aria-label="On this page">
+        <h4>On this page</h4>
+        <ol>
+          <li><a href="#what">What is HTML?</a></li>
+          <li><a href="#tags">Tags &amp; elements</a></li>
+          <li><a href="#page">A full page</a></li>
+          <li><a href="#text">Text content</a></li>
+          <li><a href="#links">Links &amp; images</a></li>
+          <li><a href="#lists">Lists</a></li>
+          <li><a href="#project">Mini project</a></li>
+        </ol>
+      </aside>
+
+      <article class="lesson">
+        <section id="what">
+          <h2>1. What is HTML?</h2>
+          <p><strong>HTML</strong> stands for <em>HyperText Markup Language</em>. It&rsquo;s the language we use to describe the <em>structure</em> of a web page &mdash; headings, paragraphs, images, links and so on.</p>
+          <p>HTML doesn&rsquo;t &ldquo;do&rdquo; anything like Python. It just tells the browser: <em>this is a heading, this is a paragraph, this is a picture</em>.</p>
+        </section>
+
+        <section id="tags">
+          <h2>2. Tags &amp; elements</h2>
+          <p>HTML is written using <strong>tags</strong>, which always sit inside angle brackets: <code>&lt; &gt;</code>. Most tags come in pairs &mdash; an opening tag and a closing tag with a slash.</p>
+          <pre class="code">&lt;h1&gt;My favourite game&lt;/h1&gt;
+&lt;p&gt;Minecraft is amazing.&lt;/p&gt;</pre>
+          <p>Together, the tags plus the content between them make an <strong>element</strong>.</p>
+          <table class="data-table">
+            <thead><tr><th>Tag</th><th>Meaning</th></tr></thead>
+            <tbody>
+              <tr><td><code>&lt;h1&gt;</code>&ndash;<code>&lt;h6&gt;</code></td><td>Headings (big to small)</td></tr>
+              <tr><td><code>&lt;p&gt;</code></td><td>Paragraph</td></tr>
+              <tr><td><code>&lt;a&gt;</code></td><td>Link (&ldquo;anchor&rdquo;)</td></tr>
+              <tr><td><code>&lt;img&gt;</code></td><td>Image</td></tr>
+              <tr><td><code>&lt;ul&gt;</code> &amp; <code>&lt;li&gt;</code></td><td>Bulleted list</td></tr>
+              <tr><td><code>&lt;strong&gt;</code></td><td>Important (bold)</td></tr>
+              <tr><td><code>&lt;em&gt;</code></td><td>Emphasis (italic)</td></tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section id="page">
+          <h2>3. A full page</h2>
+          <p>Every HTML page has the same skeleton. Don&rsquo;t worry about memorising it &mdash; just recognise it.</p>
+          <pre class="code">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;My First Page&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Hello, web!&lt;/h1&gt;
+    &lt;p&gt;This is my first page.&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</pre>
+          <ul class="tips">
+            <li><code>&lt;head&gt;</code> is for information <em>about</em> the page (like the title in the browser tab).</li>
+            <li><code>&lt;body&gt;</code> is for the content you actually see.</li>
+          </ul>
+        </section>
+
+        <section id="text">
+          <h2>4. Text content</h2>
+          <pre class="code">&lt;h1&gt;About me&lt;/h1&gt;
+&lt;p&gt;My name is &lt;strong&gt;Sam&lt;/strong&gt; and I love &lt;em&gt;skateboarding&lt;/em&gt;.&lt;/p&gt;</pre>
+          <div class="preview">
+            <h4 class="preview-label">Preview</h4>
+            <div class="preview-body">
+              <h3 style="margin-top:0">About me</h3>
+              <p>My name is <strong>Sam</strong> and I love <em>skateboarding</em>.</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="links">
+          <h2>5. Links &amp; images</h2>
+          <p>A <strong>link</strong> takes you somewhere else when clicked:</p>
+          <pre class="code">&lt;a href="https://www.bbc.co.uk/bitesize"&gt;BBC Bitesize&lt;/a&gt;</pre>
+          <p>An <strong>image</strong> has no closing tag. It uses <code>src</code> (source) and <code>alt</code> (description for accessibility):</p>
+          <pre class="code">&lt;img src="dog.jpg" alt="A golden dog smiling." /&gt;</pre>
+          <div class="callout">
+            <strong>Always</strong> add an <code>alt</code> attribute. It helps people who use screen readers, and shows if the image fails to load.
+          </div>
+        </section>
+
+        <section id="lists">
+          <h2>6. Lists</h2>
+          <pre class="code">&lt;ul&gt;
+  &lt;li&gt;Football&lt;/li&gt;
+  &lt;li&gt;Chess&lt;/li&gt;
+  &lt;li&gt;Drawing&lt;/li&gt;
+&lt;/ul&gt;</pre>
+          <p>Use <code>&lt;ul&gt;</code> for bullet points and <code>&lt;ol&gt;</code> for numbered lists. Each item goes in an <code>&lt;li&gt;</code>.</p>
+        </section>
+
+        <section id="project" class="project">
+          <h2>Mini project: About Me page</h2>
+          <p>Open a text editor (VS Code, Notepad, or TextEdit). Save a new file called <code>about.html</code> and try to build a page with:</p>
+          <ul class="tips">
+            <li>A heading with your name</li>
+            <li>A paragraph saying one thing you like</li>
+            <li>A bulleted list of 3 hobbies</li>
+            <li>A link to your favourite website</li>
+          </ul>
+          <p>Open the file in a browser to see the result. Every website started like this!</p>
+        </section>
+
+        <div class="lesson-nav">
+          <a href="programming-basics.html" class="btn btn-ghost">&larr; Programming</a>
+          <a href="quizzes.html#html" class="btn btn-primary">Take the HTML quiz &rarr;</a>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; Hallam IT Basics &middot; For Years 7&ndash;9 computing classes.</p>
+    </div>
+  </footer>
+</body>
+</html>

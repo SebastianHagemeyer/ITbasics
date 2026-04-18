@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Programming Basics | Hallam IT Basics</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">&lt;/&gt;</span>
+        <span>Hallam IT Basics</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="programming-basics.html" class="active">Programming</a>
+        <a href="html-basics.html">HTML</a>
+        <a href="python-basics.html">Python</a>
+        <a href="quizzes.html">Quizzes</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Module 1</p>
+        <h1>Programming Basics</h1>
+        <p class="lead">Before we write any code, let&rsquo;s understand what programming actually is and how computers think.</p>
+      </div>
+    </section>
+
+    <div class="container lesson-layout">
+      <aside class="lesson-toc" aria-label="On this page">
+        <h4>On this page</h4>
+        <ol>
+          <li><a href="#what-is">What is a program?</a></li>
+          <li><a href="#algorithms">Algorithms</a></li>
+          <li><a href="#variables">Variables</a></li>
+          <li><a href="#decisions">Decisions (if / else)</a></li>
+          <li><a href="#loops">Loops</a></li>
+          <li><a href="#bugs">Bugs &amp; debugging</a></li>
+          <li><a href="#glossary">Glossary</a></li>
+        </ol>
+      </aside>
+
+      <article class="lesson">
+        <section id="what-is">
+          <h2>1. What is a program?</h2>
+          <p>A <strong>program</strong> is a set of instructions that tells a computer what to do. Computers are fast but not clever &mdash; they only do exactly what we tell them.</p>
+          <p>Think about making a cup of tea. You know to boil the kettle <em>before</em> pouring water into the cup. A computer needs that same order of steps written down.</p>
+          <div class="callout">
+            <strong>Key idea:</strong> Programming is just <em>clear instructions in the right order</em>.
+          </div>
+        </section>
+
+        <section id="algorithms">
+          <h2>2. Algorithms</h2>
+          <p>An <strong>algorithm</strong> is a step-by-step plan for solving a problem. It doesn&rsquo;t have to be in code &mdash; a recipe is an algorithm!</p>
+          <p>Algorithm for making toast:</p>
+          <ol class="steps">
+            <li>Take a slice of bread.</li>
+            <li>Put it in the toaster.</li>
+            <li>Push the lever down.</li>
+            <li>Wait until it pops up.</li>
+            <li>Add butter.</li>
+          </ol>
+          <div class="try-box">
+            <h4>You try</h4>
+            <p>Write an algorithm with 5&ndash;7 steps for <em>brushing your teeth</em>. Swap with a partner. Did you miss any steps they thought were obvious?</p>
+          </div>
+        </section>
+
+        <section id="variables">
+          <h2>3. Variables</h2>
+          <p>A <strong>variable</strong> is a named box that stores a piece of information so we can use it later. Picture a labelled drawer.</p>
+          <pre class="code"><span class="c-comment"># Variables in Python</span>
+name <span class="c-op">=</span> <span class="c-string">"Ava"</span>
+age <span class="c-op">=</span> <span class="c-num">13</span>
+score <span class="c-op">=</span> <span class="c-num">0</span></pre>
+          <p>The name on the left is the <em>label</em>; the value on the right is what&rsquo;s in the drawer. You can change what&rsquo;s in the drawer at any time.</p>
+          <table class="data-table">
+            <thead><tr><th>Type</th><th>Holds</th><th>Example</th></tr></thead>
+            <tbody>
+              <tr><td>String</td><td>text</td><td><code>"hello"</code></td></tr>
+              <tr><td>Integer</td><td>whole number</td><td><code>42</code></td></tr>
+              <tr><td>Float</td><td>decimal number</td><td><code>3.14</code></td></tr>
+              <tr><td>Boolean</td><td>true or false</td><td><code>True</code></td></tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section id="decisions">
+          <h2>4. Decisions (if / else)</h2>
+          <p>Programs make decisions using <code>if</code> statements. The computer checks a condition, then chooses what to do.</p>
+          <pre class="code"><span class="c-keyword">if</span> score <span class="c-op">&gt;=</span> <span class="c-num">10</span>:
+    <span class="c-keyword">print</span>(<span class="c-string">"Well done!"</span>)
+<span class="c-keyword">else</span>:
+    <span class="c-keyword">print</span>(<span class="c-string">"Keep trying."</span>)</pre>
+          <p>Read it in English: &ldquo;If the score is at least 10, say &lsquo;Well done!&rsquo;. Otherwise, say &lsquo;Keep trying.&rsquo;&rdquo;</p>
+        </section>
+
+        <section id="loops">
+          <h2>5. Loops</h2>
+          <p>A <strong>loop</strong> repeats a block of code. Instead of writing the same thing 10 times, we tell the computer to repeat.</p>
+          <pre class="code"><span class="c-keyword">for</span> i <span class="c-keyword">in</span> <span class="c-keyword">range</span>(<span class="c-num">5</span>):
+    <span class="c-keyword">print</span>(<span class="c-string">"Hello!"</span>)</pre>
+          <p>This prints &ldquo;Hello!&rdquo; five times. Loops are what make games, animations and data processing possible.</p>
+        </section>
+
+        <section id="bugs">
+          <h2>6. Bugs &amp; debugging</h2>
+          <p>A <strong>bug</strong> is a mistake in your code. <strong>Debugging</strong> is the skill of finding and fixing bugs. Every programmer &mdash; even experts &mdash; writes bugs. That&rsquo;s normal.</p>
+          <ul class="tips">
+            <li>Read the error message carefully &mdash; it usually points to the line.</li>
+            <li>Check your spelling and capital letters.</li>
+            <li>Try the smallest possible version of your code to isolate the problem.</li>
+            <li>Explain the code out loud to a classmate (or a rubber duck!).</li>
+          </ul>
+        </section>
+
+        <section id="glossary">
+          <h2>Glossary</h2>
+          <dl class="glossary">
+            <dt>Algorithm</dt><dd>A step-by-step plan to solve a problem.</dd>
+            <dt>Variable</dt><dd>A named store for data.</dd>
+            <dt>Condition</dt><dd>An expression that is either true or false.</dd>
+            <dt>Loop</dt><dd>A block of code that repeats.</dd>
+            <dt>Bug</dt><dd>A mistake in a program.</dd>
+            <dt>Syntax</dt><dd>The grammar rules of a programming language.</dd>
+          </dl>
+        </section>
+
+        <div class="lesson-nav">
+          <a href="index.html" class="btn btn-ghost">&larr; Home</a>
+          <a href="quizzes.html#programming" class="btn btn-primary">Take the Programming quiz &rarr;</a>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; Hallam IT Basics &middot; For Years 7&ndash;9 computing classes.</p>
+    </div>
+  </footer>
+</body>
+</html>

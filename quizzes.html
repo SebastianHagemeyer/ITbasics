@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quizzes | Hallam IT Basics</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">&lt;/&gt;</span>
+        <span>Hallam IT Basics</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="programming-basics.html">Programming</a>
+        <a href="html-basics.html">HTML</a>
+        <a href="python-basics.html">Python</a>
+        <a href="quizzes.html" class="active">Quizzes</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Check your understanding</p>
+        <h1>Quizzes</h1>
+        <p class="lead">Three short quizzes, one per module. You get instant feedback and can retake any quiz as many times as you like.</p>
+      </div>
+    </section>
+
+    <div class="container section">
+      <div class="quiz-tabs" role="tablist">
+        <button class="quiz-tab active" data-tab="programming" role="tab">Programming</button>
+        <button class="quiz-tab" data-tab="html" role="tab">HTML</button>
+        <button class="quiz-tab" data-tab="python" role="tab">Python</button>
+      </div>
+
+      <section id="programming" class="quiz" aria-label="Programming quiz">
+        <h2>Programming Basics Quiz</h2>
+        <p class="section-sub">5 questions &middot; based on Module 1.</p>
+        <form class="quiz-form" data-quiz="programming"></form>
+        <div class="quiz-result" data-result="programming" hidden></div>
+      </section>
+
+      <section id="html" class="quiz" aria-label="HTML quiz" hidden>
+        <h2>HTML Basics Quiz</h2>
+        <p class="section-sub">5 questions &middot; based on Module 2.</p>
+        <form class="quiz-form" data-quiz="html"></form>
+        <div class="quiz-result" data-result="html" hidden></div>
+      </section>
+
+      <section id="python" class="quiz" aria-label="Python quiz" hidden>
+        <h2>Python Basics Quiz</h2>
+        <p class="section-sub">5 questions &middot; based on Module 3.</p>
+        <form class="quiz-form" data-quiz="python"></form>
+        <div class="quiz-result" data-result="python" hidden></div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; Hallam IT Basics &middot; For Years 7&ndash;9 computing classes.</p>
+    </div>
+  </footer>
+
+  <script src="quiz.js"></script>
+</body>
+</html>
