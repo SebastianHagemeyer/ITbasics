@@ -322,8 +322,15 @@
     }
   }
 
+  // Expose the quizzes data so other tools (e.g. the Student Work Feedback
+  // page) can reuse the same answer keys without duplicating them.
+  window.HallamQuizzes = quizzes;
+
   document.addEventListener("DOMContentLoaded", function () {
-    ["programming", "html", "python"].forEach(buildQuiz);
-    setupTabs();
+    // Only wire up quiz UI if the quiz containers are on this page.
+    if (document.querySelector(".quiz-form")) {
+      ["programming", "html", "python"].forEach(buildQuiz);
+      setupTabs();
+    }
   });
 })();

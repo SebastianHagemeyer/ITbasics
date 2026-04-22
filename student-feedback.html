@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Work Feedback | Hallam IT Basics</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="feedback.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">&lt;/&gt;</span>
+        <span>Hallam IT Basics</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="programming-basics.html">Programming</a>
+        <a href="html-basics.html">HTML</a>
+        <a href="python-basics.html">Python</a>
+        <a href="quizzes.html">Quizzes</a>
+        <a href="student-feedback.html" class="active">Feedback</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Teacher &amp; student tool</p>
+        <h1>Student Work Feedback</h1>
+        <p class="lead">
+          Upload a photo or scan of completed quiz work. The tool finds the
+          question regions, reads each one, compares it to the answer key, and
+          writes back feedback next to the cropped image of that question.
+        </p>
+      </div>
+    </section>
+
+    <div class="container section">
+      <ol class="fb-steps">
+        <li><strong>Upload</strong> an image of the student's work.</li>
+        <li><strong>Pick a module</strong> so the tool knows which answer key to use.</li>
+        <li><strong>Auto-detect</strong> question regions, or drag on the image to draw your own boxes.</li>
+        <li><strong>Analyse</strong> to get AI-style feedback per question, with the cropped image shown alongside.</li>
+        <li><strong>Export</strong> the feedback as a printable report.</li>
+      </ol>
+
+      <div class="fb-controls">
+        <label class="fb-field">
+          <span>Image of student work</span>
+          <input type="file" id="fb-file" accept="image/*" />
+        </label>
+
+        <label class="fb-field">
+          <span>Module / answer key</span>
+          <select id="fb-module">
+            <option value="programming">Programming Basics</option>
+            <option value="html">HTML Basics</option>
+            <option value="python">Python Basics</option>
+          </select>
+        </label>
+
+        <label class="fb-field">
+          <span>Student name (optional)</span>
+          <input type="text" id="fb-student" placeholder="e.g. Jordan B." />
+        </label>
+      </div>
+
+      <div class="fb-actions">
+        <button type="button" class="btn btn-ghost" id="fb-detect" disabled>Auto-detect regions</button>
+        <button type="button" class="btn btn-ghost" id="fb-clear" disabled>Clear regions</button>
+        <button type="button" class="btn btn-primary" id="fb-analyse" disabled>Analyse &amp; give feedback</button>
+        <button type="button" class="btn btn-ghost" id="fb-print" disabled>Print / save report</button>
+      </div>
+
+      <p class="fb-hint" id="fb-hint">Drop in an image to get started. Once it loads, drag on it to draw a box around a question, or click <em>Auto-detect regions</em>.</p>
+
+      <div class="fb-workspace" id="fb-workspace" hidden>
+        <div class="fb-canvas-wrap">
+          <canvas id="fb-canvas"></canvas>
+          <div class="fb-overlay" id="fb-overlay"></div>
+        </div>
+        <div class="fb-boxlist" id="fb-boxlist" aria-label="Detected question regions"></div>
+      </div>
+
+      <section class="fb-report" id="fb-report" hidden aria-label="Feedback report"></section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; Hallam IT Basics &middot; For Years 7&ndash;9 computing classes.</p>
+    </div>
+  </footer>
+
+  <!-- Tesseract.js for in-browser OCR. Loaded from CDN; the tool falls back
+       to manual text entry if OCR isn't available. -->
+  <script src="https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js"></script>
+  <script src="quiz.js"></script>
+  <script src="feedback.js"></script>
+</body>
+</html>
