@@ -2,6 +2,8 @@
 
 A beginner-friendly IT / computing website for Year 7&ndash;9 students at Hallam.
 
+https://sebastianhagemeyer.github.io/ITbasics/
+
 ## What's inside
 
 - **index.html**: Home page with an overview of all modules.
