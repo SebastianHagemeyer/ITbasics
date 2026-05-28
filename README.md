@@ -1,6 +1,6 @@
 # Hallam IT Basics
 
-A beginner-friendly IT / computing website for Year 7&ndash;9 students at Hallam.
+A beginner-friendly IT / computing website for Year 7-9 students at Hallam.
 
 https://sebastianhagemeyer.github.io/ITbasics/
 
@@ -26,16 +26,16 @@ python3 -m http.server 8000
 # then visit http://localhost:8000
 ```
 
-The site works without any backend — progress just stays in the student's browser
+The site works without any backend, progress just stays in the student's browser
 (localStorage) until you connect Supabase.
 
 ## Setting up Supabase (saves student progress to a real database)
 
-1. **Create a free project** at https://supabase.com (free tier: 500 MB — plenty for 58 students).
-2. **Run the schema.** In Supabase: SQL Editor &rarr; New query &rarr; paste the contents of
-   `supabase-schema.sql` &rarr; Run. This creates the tables, the row-level-security
+1. **Create a free project** at https://supabase.com (free tier: 500 MB, plenty for 58 students).
+2. **Run the schema.** In Supabase, open the SQL Editor, start a new query, paste the contents of
+   `supabase-schema.sql` and click Run. This creates the tables, the row-level-security
    policies, and seeds the 58-student roster for 7A, 7B and 9ITAA.
-3. **Copy your keys.** Project Settings &rarr; API &rarr; copy *Project URL* and *anon public* key.
+3. **Copy your keys.** Open Project Settings, then API, then copy the *Project URL* and *anon public* key.
 4. **Paste them** into `supabase-config.js`:
    ```js
    window.SUPABASE_URL      = "https://YOUR-PROJECT-REF.supabase.co";
@@ -44,7 +44,7 @@ The site works without any backend — progress just stays in the student's brow
    Commit and deploy. Students can now sign in with their code (e.g. `DRA0222`) and
    their answers + scores save to the database.
 
-The anon key is *meant* to be public &mdash; it ships in client-side JS. Security comes
+The anon key is *meant* to be public, it ships in client-side JS. Security comes
 from the RLS policies in the schema file.
 
 ### Teacher view
@@ -61,8 +61,8 @@ select * from teacher_scoreboard;
 
 Frontend stays static, so any static host works. Recommended for Hallam:
 
-- **Cloudflare Pages** or **Netlify** &mdash; connect the GitHub repo, auto-deploys on push, free HTTPS.
-- **Custom domain**: in your DNS for qmark.com, add `CNAME learn &rarr; your-site.pages.dev`
+- **Cloudflare Pages** or **Netlify**, connect the GitHub repo, auto-deploys on push, free HTTPS.
+- **Custom domain**: in your DNS for qmark.com, add a `CNAME` record from `learn` to `your-site.pages.dev`
   (or `your-site.netlify.app`). Then add `learn.qmark.com` as a custom domain in the host&rsquo;s settings.
 - **Zscaler**: ask Hallam IT to allowlist `learn.qmark.com` and `*.supabase.co`.
 

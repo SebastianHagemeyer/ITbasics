@@ -109,7 +109,7 @@
   }
 
   function scoreCell(v) {
-    if (v == null) return '<td class="col-score muted">—</td>';
+    if (v == null) return '<td class="col-score muted">-</td>';
     return '<td class="col-score">' + v + '</td>';
   }
 

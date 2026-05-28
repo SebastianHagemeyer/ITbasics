@@ -13,7 +13,7 @@
  */
 window.SCENARIOS = [
   // ======================================================================
-  // PYTHON — arithmetic & numbers
+  // PYTHON: arithmetic & numbers
   // ======================================================================
   { id: "py-001", topic: "python", difficulty: "easy",
     prompt: "What does this code print?",
@@ -88,7 +88,7 @@ window.SCENARIOS = [
     explain: "Mixing int and float gives a float: 8.0." },
 
   // ======================================================================
-  // PYTHON — strings
+  // PYTHON: strings
   // ======================================================================
   { id: "py-013", topic: "python", difficulty: "easy",
     prompt: "What does this code print?",
@@ -148,13 +148,13 @@ window.SCENARIOS = [
     prompt: "What does this code print?",
     code: "s = \"Hallam\"\nprint(s[0])",
     options: ["H", "a", "Hallam", "1"], answer: 0,
-    explain: "Indexes start at 0, so s[0] is the FIRST character — H." },
+    explain: "Indexes start at 0, so s[0] is the FIRST character, H." },
 
   { id: "py-023", topic: "python", difficulty: "medium",
     prompt: "What does this code print?",
     code: "s = \"Hallam\"\nprint(s[-1])",
     options: ["H", "m", "Error", "a"], answer: 1,
-    explain: "Negative indexes count from the end. -1 is the LAST character — m." },
+    explain: "Negative indexes count from the end. -1 is the LAST character, m." },
 
   { id: "py-024", topic: "python", difficulty: "hard",
     prompt: "What does this code print?",
@@ -190,7 +190,7 @@ window.SCENARIOS = [
     prompt: "What does this code print?",
     code: "print(\"Python\"[0:3])",
     options: ["Py", "Pyt", "Pyth", "PYT"], answer: 1,
-    explain: "Slice [0:3] takes characters at index 0, 1, 2 → \"Pyt\"." },
+    explain: "Slice [0:3] takes characters at index 0, 1 and 2, giving \"Pyt\"." },
 
   { id: "py-030", topic: "python", difficulty: "medium",
     prompt: "What does this code print?",
@@ -205,7 +205,7 @@ window.SCENARIOS = [
     explain: "\"sep\".join(list) glues list items together with sep between them." },
 
   // ======================================================================
-  // PYTHON — variables
+  // PYTHON: variables
   // ======================================================================
   { id: "py-032", topic: "python", difficulty: "easy",
     prompt: "What does this code print?",
@@ -229,7 +229,7 @@ window.SCENARIOS = [
     prompt: "What does this code print?",
     code: "x = 10\ny = x\nx = 99\nprint(y)",
     options: ["10", "99", "x", "Error"], answer: 0,
-    explain: "y was set to 10 BEFORE x changed. y did not “follow” x — it just took a copy." },
+    explain: "y was set to 10 BEFORE x changed. y did not “follow” x, it just took a copy." },
 
   { id: "py-036", topic: "python", difficulty: "medium",
     prompt: "What is the value of x?",
@@ -249,7 +249,7 @@ window.SCENARIOS = [
     explain: "Multiple assignment: a = 1, b = 2, c = 3." },
 
   // ======================================================================
-  // PYTHON — if / else
+  // PYTHON: if / else
   // ======================================================================
   { id: "py-039", topic: "python", difficulty: "medium",
     prompt: "What does this code print?",
@@ -279,22 +279,22 @@ window.SCENARIOS = [
     prompt: "What does this code print?",
     code: "x = 10\nif x > 0:\n    print(\"positive\")\nif x > 5:\n    print(\"big\")",
     options: ["positive", "big", "positive (then) big", "big (then) positive"], answer: 2,
-    explain: "Both ifs are SEPARATE statements. Both conditions are True, so both print — on two lines." },
+    explain: "Both ifs are SEPARATE statements. Both conditions are True, so both print, on two lines." },
 
   { id: "py-044", topic: "python", difficulty: "medium",
     prompt: "What does this code print?",
     code: "x = 7\nprint(\"odd\" if x % 2 else \"even\")",
     options: ["odd", "even", "7", "Error"], answer: 0,
-    explain: "x % 2 = 1 (truthy), so the if part runs → \"odd\"." },
+    explain: "x % 2 = 1 (truthy), so the if part runs and prints \"odd\"." },
 
   // ======================================================================
-  // PYTHON — loops
+  // PYTHON: loops
   // ======================================================================
   { id: "py-045", topic: "python", difficulty: "medium",
     prompt: "How many times does this loop run?",
     code: "for i in range(5):\n    print(i)",
     options: ["4", "5", "6", "infinite"], answer: 1,
-    explain: "range(5) gives 0, 1, 2, 3, 4 — that’s 5 numbers." },
+    explain: "range(5) gives 0, 1, 2, 3, 4, that’s 5 numbers." },
 
   { id: "py-046", topic: "python", difficulty: "medium",
     prompt: "What does this code print (each on its own line)?",
@@ -318,13 +318,13 @@ window.SCENARIOS = [
     prompt: "What is the final value of total?",
     code: "total = 0\nfor i in range(4):\n    total = total + i\nprint(total)",
     options: ["4", "6", "10", "0"], answer: 1,
-    explain: "i takes 0, 1, 2, 3 — adding them all gives 0+1+2+3 = 6." },
+    explain: "i takes 0, 1, 2, 3, adding them all gives 0+1+2+3 = 6." },
 
   { id: "py-050", topic: "python", difficulty: "medium",
     prompt: "What does this code print (each on its own line)?",
     code: "for letter in \"cat\":\n    print(letter)",
     options: ["cat", "c, a, t", "Just the letter t", "3"], answer: 1,
-    explain: "You can loop over a string letter by letter — c, then a, then t." },
+    explain: "You can loop over a string letter by letter, c, then a, then t." },
 
   { id: "py-051", topic: "python", difficulty: "hard",
     prompt: "What does this code print?",
@@ -336,7 +336,7 @@ window.SCENARIOS = [
     prompt: "What does this code print (each on its own line)?",
     code: "x = 0\nwhile x < 3:\n    print(x)\n    x = x + 1",
     options: ["0, 1, 2", "0, 1, 2, 3", "1, 2, 3", "infinite loop"], answer: 0,
-    explain: "Loop runs while x is below 3, printing 0, then 1, then 2 — stops when x = 3." },
+    explain: "Loop runs while x is below 3, printing 0, then 1, then 2, stops when x = 3." },
 
   { id: "py-053", topic: "python", difficulty: "hard",
     prompt: "What does this code print?",
@@ -345,7 +345,7 @@ window.SCENARIOS = [
     explain: "x counts down 4, 3, 2, 1, 0. Loop stops when x = 0. Final value: 0." },
 
   // ======================================================================
-  // PYTHON — lists
+  // PYTHON: lists
   // ======================================================================
   { id: "py-054", topic: "python", difficulty: "medium",
     prompt: "What does this code print?",
@@ -426,7 +426,7 @@ window.SCENARIOS = [
     explain: "The loop doubles each number and adds it to a new list." },
 
   // ======================================================================
-  // PYTHON — booleans
+  // PYTHON: booleans
   // ======================================================================
   { id: "py-067", topic: "python", difficulty: "medium",
     prompt: "What does this code print?",
@@ -474,13 +474,13 @@ window.SCENARIOS = [
     prompt: "What does this code print?",
     code: "print(bool(\"\"))",
     options: ["True", "False", "None", "Error"], answer: 1,
-    explain: "An empty string is “falsy” — bool(\"\") is False." },
+    explain: "An empty string is “falsy”, bool(\"\") is False." },
 
   { id: "py-075", topic: "python", difficulty: "medium",
     prompt: "What does this code print?",
     code: "print(bool(\"False\"))",
     options: ["True", "False", "None", "Error"], answer: 0,
-    explain: "A non-empty string is truthy — even if it spells \"False\". bool(\"False\") = True." },
+    explain: "A non-empty string is truthy, even if it spells \"False\". bool(\"False\") = True." },
 
   { id: "py-076", topic: "python", difficulty: "medium",
     prompt: "What does this code print?",
@@ -495,7 +495,7 @@ window.SCENARIOS = [
     explain: "Python chains comparisons. 3 > 2 AND 2 > 1, both True, so the whole thing is True." },
 
   // ======================================================================
-  // PYTHON — functions
+  // PYTHON: functions
   // ======================================================================
   { id: "py-078", topic: "python", difficulty: "hard",
     prompt: "What does this code print?",
@@ -528,7 +528,7 @@ window.SCENARIOS = [
     explain: "When you don’t pass a name, the default \"World\" is used." },
 
   // ======================================================================
-  // PYTHON — type conversion / misc
+  // PYTHON: type conversion / misc
   // ======================================================================
   { id: "py-083", topic: "python", difficulty: "medium",
     prompt: "What does this code print?",
@@ -557,7 +557,7 @@ window.SCENARIOS = [
     prompt: "What does this code print?",
     code: "print(type(\"5\"))",
     options: ["<class 'int'>", "<class 'str'>", "text", "string"], answer: 1,
-    explain: "\"5\" is in quotes — it’s a string, type str." },
+    explain: "\"5\" is in quotes, it’s a string, type str." },
 
   { id: "py-088", topic: "python", difficulty: "easy",
     prompt: "How do you write a one-line comment in Python?",
@@ -604,7 +604,7 @@ window.SCENARIOS = [
     prompt: "What does this code print?",
     code: "data = {\"name\": \"Sam\", \"age\": 12}\nprint(data[\"name\"])",
     options: ["name", "Sam", "12", "Error"], answer: 1,
-    explain: "A dictionary stores key → value. data[\"name\"] looks up \"Sam\"." },
+    explain: "A dictionary stores key/value pairs. data[\"name\"] looks up \"Sam\"." },
 
   { id: "py-096", topic: "python", difficulty: "medium",
     prompt: "What is the output type of   3 / 2   in Python 3?",
@@ -613,14 +613,14 @@ window.SCENARIOS = [
 
   { id: "py-097", topic: "python", difficulty: "easy",
     prompt: "How do you start a Python program in IDLE / VS Code?",
-    options: ["Press F5 or click Run", "Right-click → Cook", "Drag the file to the bin", "Print the file"], answer: 0,
+    options: ["Press F5 or click Run", "Right-click, then Cook", "Drag the file to the bin", "Print the file"], answer: 0,
     explain: "F5 (or the Run button) runs the script." },
 
   { id: "py-098", topic: "python", difficulty: "medium",
     prompt: "What does this code print?",
     code: "nums = [3, 1, 4, 1, 5]\nnums.sort()\nprint(nums)",
     options: ["[3, 1, 4, 1, 5]", "[1, 1, 3, 4, 5]", "[5, 4, 3, 1, 1]", "[1, 3, 4, 5]"], answer: 1,
-    explain: ".sort() puts the list in ASCENDING order (small → big). Duplicates stay." },
+    explain: ".sort() puts the list in ASCENDING order (low to high). Duplicates stay." },
 
   { id: "py-099", topic: "python", difficulty: "medium",
     prompt: "Which of these creates a LIST in Python?",
@@ -658,7 +658,7 @@ window.SCENARIOS = [
   { id: "html-005", topic: "html", difficulty: "medium",
     prompt: "Which tag creates a BULLET (unordered) list?",
     options: ["<ul>", "<ol>", "<bl>", "<dot>"], answer: 0,
-    explain: "<ul> = unordered list — shows bullet points." },
+    explain: "<ul> = unordered list, shows bullet points." },
 
   { id: "html-006", topic: "html", difficulty: "easy",
     prompt: "What does <br> do?",
@@ -719,7 +719,7 @@ window.SCENARIOS = [
   { id: "html-015", topic: "html", difficulty: "medium",
     prompt: "Which attribute points <link> at a CSS file?",
     options: ["src", "href", "rel", "file"], answer: 1,
-    explain: "<link rel=\"stylesheet\" href=\"styles.css\"> — href points to the CSS file." },
+    explain: "<link rel=\"stylesheet\" href=\"styles.css\">, href points to the CSS file." },
 
   { id: "html-016", topic: "html", difficulty: "easy",
     prompt: "Which tag holds everything the user SEES on the page?",
@@ -740,7 +740,7 @@ window.SCENARIOS = [
   { id: "html-018", topic: "html", difficulty: "medium",
     prompt: "Which is a self-closing tag (no end tag needed)?",
     options: ["<p>", "<img>", "<div>", "<a>"], answer: 1,
-    explain: "<img> is a void / self-closing element — you don’t write </img>." },
+    explain: "<img> is a void / self-closing element, you don’t write </img>." },
 
   { id: "html-019", topic: "html", difficulty: "medium",
     prompt: "What does lang=\"en\" on <html> do?",
@@ -782,7 +782,7 @@ window.SCENARIOS = [
       "<h1 color=\"red\">",
       "red(h1)"
     ], answer: 0,
-    explain: "CSS uses selector { property: value; } — h1 { color: red; }." },
+    explain: "CSS uses selector { property: value; }, h1 { color: red; }." },
 
   { id: "html-024", topic: "html", difficulty: "medium",
     prompt: "What is <div> for?",
@@ -830,7 +830,7 @@ window.SCENARIOS = [
     prompt: "What does count become?",
     code: "count = 0\nfor letter in \"hello\":\n    if letter == \"l\":\n        count += 1\nprint(count)",
     options: ["1", "2", "3", "5"], answer: 1,
-    explain: "\"hello\" has two l’s, so count goes up twice — final value 2." },
+    explain: "\"hello\" has two l’s, so count goes up twice, final value 2." },
 
   { id: "logic-006", topic: "logic", difficulty: "medium",
     prompt: "What does this code print?",
@@ -870,7 +870,7 @@ window.SCENARIOS = [
     prompt: "The goal is to print “Even” when n is even. Which line has the bug?",
     code: "n = 4\nif n % 2 == 1:\n    print(\"Even\")\nelse:\n    print(\"Odd\")",
     options: ["n = 4", "if n % 2 == 1:", "print(\"Even\")", "print(\"Odd\")"], answer: 1,
-    explain: "n % 2 == 1 catches ODD numbers. The condition is the wrong way round — should be == 0." },
+    explain: "n % 2 == 1 catches ODD numbers. The condition is the wrong way round, should be == 0." },
 
   { id: "logic-012", topic: "logic", difficulty: "medium",
     prompt: "What does this code print?",
@@ -907,7 +907,7 @@ window.SCENARIOS = [
       "A programming language",
       "A type of monitor"
     ], answer: 1,
-    explain: "An algorithm is just a clear list of steps in the right order — like a recipe." },
+    explain: "An algorithm is just a clear list of steps in the right order, like a recipe." },
 
   { id: "con-002", topic: "concept", difficulty: "easy",
     prompt: "What is debugging?",
@@ -917,7 +917,7 @@ window.SCENARIOS = [
       "Finding and fixing mistakes in code",
       "Deleting projects you don’t need"
     ], answer: 2,
-    explain: "Every programmer debugs — it’s a normal, important skill." },
+    explain: "Every programmer debugs, it’s a normal, important skill." },
 
   { id: "con-003", topic: "concept", difficulty: "easy",
     prompt: "A variable is best described as…",
@@ -947,7 +947,7 @@ window.SCENARIOS = [
       "The code won’t open",
       "The computer is broken"
     ], answer: 1,
-    explain: "Logic errors are sneaky — code runs fine, but the result is wrong." },
+    explain: "Logic errors are sneaky, code runs fine, but the result is wrong." },
 
   { id: "con-006", topic: "concept", difficulty: "medium",
     prompt: "Pseudocode is…",
@@ -957,7 +957,7 @@ window.SCENARIOS = [
       "A type of password",
       "The first language Python ran on"
     ], answer: 1,
-    explain: "Pseudocode means “fake code” — used to plan an algorithm before writing real code." },
+    explain: "Pseudocode means “fake code”, used to plan an algorithm before writing real code." },
 
   { id: "con-007", topic: "concept", difficulty: "medium",
     prompt: "Which symbol checks if two values are EQUAL in Python?",
@@ -1002,7 +1002,7 @@ window.SCENARIOS = [
   { id: "con-013", topic: "concept", difficulty: "easy",
     prompt: "Which of these is software?",
     options: ["Monitor", "Mouse", "Operating system", "RAM"], answer: 2,
-    explain: "An OS like Windows or macOS is software — instructions, not a physical thing." },
+    explain: "An OS like Windows or macOS is software, instructions, not a physical thing." },
 
   { id: "con-014", topic: "concept", difficulty: "medium",
     prompt: "What does HTML stand for?",
@@ -1017,7 +1017,7 @@ window.SCENARIOS = [
   { id: "con-015", topic: "concept", difficulty: "medium",
     prompt: "What does a website URL usually start with?",
     options: ["html://", "http:// or https://", "www://", "file://"], answer: 1,
-    explain: "http:// or https:// — the s means it’s a SECURE connection." },
+    explain: "http:// or https://, the s means it’s a SECURE connection." },
 
   { id: "con-016", topic: "concept", difficulty: "easy",
     prompt: "Which is faster: RAM or hard drive?",
@@ -1027,7 +1027,7 @@ window.SCENARIOS = [
   { id: "con-017", topic: "concept", difficulty: "medium",
     prompt: "Computers store data in…",
     options: ["Words", "Decimals", "Binary (0s and 1s)", "Pictures only"], answer: 2,
-    explain: "Everything inside a computer is stored as 0s and 1s — binary." },
+    explain: "Everything inside a computer is stored as 0s and 1s, binary." },
 
   { id: "con-018", topic: "concept", difficulty: "medium",
     prompt: "A byte is how many bits?",

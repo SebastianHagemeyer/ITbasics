@@ -931,8 +931,26 @@ html[data-auth="out"] .site-footer { display: none; }
   .lesson h2 { font-size: 1.25rem; }
 }
 
+/* Inline SVG arrow icon: inherits currentColor, scales with font-size. */
+.arrow {
+  display: inline-block;
+  width: 0.95em;
+  height: 0.95em;
+  vertical-align: -0.13em;
+  margin-left: 0.35em;
+  background-color: currentColor;
+  -webkit-mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M5 12h14M13 5l7 7-7 7' stroke='black' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round' fill='none'/></svg>");
+  mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M5 12h14M13 5l7 7-7 7' stroke='black' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round' fill='none'/></svg>");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+          mask-size: contain;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
+
 /* ======================================================================
-   Modules hub — featured card + smaller card variants
+   Modules hub: featured card + smaller card variants
    ====================================================================== */
 .section-title {
   font-size: 1.5rem;
@@ -1014,7 +1032,7 @@ html[data-auth="out"] .site-footer { display: none; }
 }
 
 /* ======================================================================
-   Freeplay — toolbar, question card, options, feedback
+   Freeplay: toolbar, question card, options, feedback
    ====================================================================== */
 .freeplay { padding-top: 32px; padding-bottom: 60px; }
 

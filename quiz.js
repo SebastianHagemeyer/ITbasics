@@ -302,7 +302,7 @@
           "An error"
         ],
         answer: 1,
-        explain: "len() counts the characters — h, e, l, l, o = 5."
+        explain: "len() counts the characters, h, e, l, l, o = 5."
       },
       {
         q: "Which of these creates a LIST in Python?",
@@ -377,7 +377,7 @@
         q: "Which Python data type holds ONLY True or False?",
         options: ["int", "str", "list", "bool"],
         answer: 3,
-        explain: "bool is short for boolean — true or false."
+        explain: "bool is short for boolean, true or false."
       },
       {
         q: "Which HTML element creates a clickable link?",
@@ -553,7 +553,7 @@
     badge.className = "quiz-scores";
     const s = await window.ITBasics.getScores(name);
     if (!s) {
-      badge.textContent = "No attempts yet — give it a go!";
+      badge.textContent = "No attempts yet,give it a go!";
       return;
     }
     badge.innerHTML =
