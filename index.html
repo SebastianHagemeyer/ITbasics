@@ -5,8 +5,79 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Hallam IT Basics | Home</title>
   <link rel="stylesheet" href="styles.css" />
+  <script>
+    // Set auth state on <html> before the body parses so signed-in users
+    // never see the login screen flash.
+    (function () {
+      try {
+        const s = JSON.parse(localStorage.getItem("itbasics-session"));
+        document.documentElement.dataset.auth = s ? "in" : "out";
+      } catch (e) {
+        document.documentElement.dataset.auth = "out";
+      }
+    })();
+  </script>
 </head>
 <body>
+  <!-- Login screen: shown when data-auth="out" -->
+  <section class="login-screen" aria-label="Sign in">
+    <div class="login-bg-blob blob-a" aria-hidden="true"></div>
+    <div class="login-bg-blob blob-b" aria-hidden="true"></div>
+
+    <div class="login-card">
+      <div class="login-mascot" aria-hidden="true">
+        <svg viewBox="0 0 220 220" class="python-mascot" xmlns="http://www.w3.org/2000/svg">
+          <ellipse cx="110" cy="200" rx="78" ry="7" fill="rgba(0,0,0,0.12)"/>
+
+          <!-- coiled body -->
+          <path d="M 110 130 C 30 130 30 200 110 200 C 175 200 185 160 175 140 C 165 120 130 125 130 145"
+                fill="none" stroke="#1C4587" stroke-width="34" stroke-linecap="round"/>
+          <!-- yellow belly stripe along coil -->
+          <path d="M 110 142 C 50 142 50 188 110 188 C 162 188 172 160 165 145"
+                fill="none" stroke="#FFFF00" stroke-width="10" stroke-linecap="round" opacity="0.95"/>
+
+          <!-- head -->
+          <circle cx="110" cy="86" r="52" fill="#1C4587"/>
+          <!-- yellow muzzle/belly -->
+          <path d="M 70 100 Q 110 132 150 100 Q 145 130 110 138 Q 75 130 70 100 Z"
+                fill="#FFFF00" opacity="0.95"/>
+
+          <!-- eyes (whites) -->
+          <circle cx="92" cy="76" r="14" fill="white"/>
+          <circle cx="128" cy="76" r="14" fill="white"/>
+          <!-- pupils (tracked by JS) -->
+          <circle cx="92" cy="76" r="6.5" fill="#0f1226" class="py-pupil" data-cx="92" data-cy="76"/>
+          <circle cx="128" cy="76" r="6.5" fill="#0f1226" class="py-pupil" data-cx="128" data-cy="76"/>
+          <!-- highlights -->
+          <circle cx="95" cy="72" r="2.2" fill="white" pointer-events="none"/>
+          <circle cx="131" cy="72" r="2.2" fill="white" pointer-events="none"/>
+
+          <!-- smile -->
+          <path d="M 90 116 Q 110 130 130 116" stroke="#0f1226" stroke-width="3.5"
+                fill="none" stroke-linecap="round"/>
+          <!-- forked tongue -->
+          <path d="M 110 130 L 110 146 L 104 152 M 110 146 L 116 152"
+                stroke="#FF4444" stroke-width="2.8" fill="none" stroke-linecap="round"/>
+        </svg>
+      </div>
+
+      <p class="login-eyebrow">Welcome to</p>
+      <h1 class="login-title">Hallam IT Basics</h1>
+      <p class="login-sub">Sssssign in with your student code to start learning.</p>
+
+      <form id="login-form" class="login-form" autocomplete="off">
+        <label for="login-code" class="sr-only">Student code</label>
+        <input id="login-code" name="code" class="login-input" type="text"
+               placeholder="e.g. ALI0111" maxlength="12" autofocus required />
+        <button type="submit" class="login-btn">Sign in</button>
+        <p class="login-msg" role="status"></p>
+      </form>
+
+      <p class="login-help">Forgot your code? Ask your teacher — it&rsquo;s the same code from your school enrolment.</p>
+    </div>
+  </section>
+
+  <!-- Home (signed-in): shown when data-auth="in" -->
   <header class="site-header">
     <div class="container header-inner">
       <a href="index.html" class="logo">
@@ -19,6 +90,7 @@
         <a href="html-basics.html">HTML</a>
         <a href="python-basics.html">Python</a>
         <a href="quizzes.html">Quizzes</a>
+        <a href="leaderboard.html">Leaderboard</a>
       </nav>
     </div>
   </header>
@@ -28,10 +100,9 @@
       <div class="container hero-inner">
         <div class="hero-copy">
           <p class="eyebrow">Years 7&ndash;9 &middot; Computing</p>
-          <h1>Learn to think like a programmer.</h1>
+          <h1>Hey <span class="hero-name">there</span>, let&rsquo;s code.</h1>
           <p class="lead">
-            A friendly starting point for Hallam students. Explore how
-            computers follow instructions, build your first web page with
+            Explore how computers follow instructions, build your first web page with
             HTML, and write real code with Python.
           </p>
           <div class="hero-ctas">
@@ -75,27 +146,9 @@
         <a class="card" href="quizzes.html">
           <div class="card-icon" style="--accent: #ffbe0b;">?</div>
           <h3>Quizzes</h3>
-          <p>Check what you remember with three short quizzes. Instant feedback, no stress.</p>
+          <p>Four quizzes (now with a Mixed Review). Instant feedback. Climb the leaderboard.</p>
           <span class="card-link">Take a quiz &rarr;</span>
         </a>
-      </div>
-    </section>
-
-    <section class="container section">
-      <h2>Why learn this?</h2>
-      <div class="value-grid">
-        <div class="value">
-          <h3>Think clearly</h3>
-          <p>Programming teaches you to break big problems into small, solvable steps. Useful in every subject.</p>
-        </div>
-        <div class="value">
-          <h3>Build things</h3>
-          <p>With a web browser and a bit of Python, you can make games, tools and web pages from scratch.</p>
-        </div>
-        <div class="value">
-          <h3>Open doors</h3>
-          <p>Coding skills are used in science, art, music, engineering and business. The earlier you start, the further you go.</p>
-        </div>
       </div>
     </section>
 
@@ -105,6 +158,7 @@
         <li>Read through a module: short sections with examples.</li>
         <li>Try the &ldquo;You try&rdquo; boxes on paper or in your editor.</li>
         <li>Take the matching quiz and aim to improve your score.</li>
+        <li>Check the <a href="leaderboard.html">leaderboard</a> to see how your class is going.</li>
       </ol>
     </section>
   </main>
@@ -114,6 +168,64 @@
       <p>&copy; Hallam IT Basics &middot; For Years 7&ndash;9 computing classes.</p>
     </div>
   </footer>
+
+  <script>
+    // Make pupils follow the cursor on the login screen.
+    (function () {
+      function init() {
+        const svg = document.querySelector(".python-mascot");
+        if (!svg) return;
+        const pupils = svg.querySelectorAll(".py-pupil");
+        window.addEventListener("mousemove", function (e) {
+          const r = svg.getBoundingClientRect();
+          const cx = r.left + r.width / 2;
+          const cy = r.top + r.height / 2;
+          let dx = e.clientX - cx;
+          let dy = e.clientY - cy;
+          const dist = Math.hypot(dx, dy) || 1;
+          const reach = Math.min(5, dist / 40);
+          const ox = (dx / dist) * reach;
+          const oy = (dy / dist) * reach;
+          pupils.forEach(function (p) {
+            p.setAttribute("cx", parseFloat(p.dataset.cx) + ox);
+            p.setAttribute("cy", parseFloat(p.dataset.cy) + oy);
+          });
+        });
+      }
+      if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", init);
+      } else { init(); }
+    })();
+
+    // Wire up the login form on the login screen.
+    (function () {
+      function init() {
+        const form = document.getElementById("login-form");
+        if (!form) return;
+        const input = form.querySelector(".login-input");
+        const msg   = form.querySelector(".login-msg");
+        form.addEventListener("submit", async function (e) {
+          e.preventDefault();
+          msg.textContent = "";
+          msg.classList.remove("error");
+          if (!window.ITBasics) {
+            msg.textContent = "Still loading… try again in a moment.";
+            return;
+          }
+          const res = await window.ITBasics.signIn(input.value);
+          if (!res.ok) {
+            msg.textContent = res.error;
+            msg.classList.add("error");
+            input.focus();
+            input.select();
+          }
+        });
+      }
+      if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", init);
+      } else { init(); }
+    })();
+  </script>
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
   <script src="supabase-config.js"></script>

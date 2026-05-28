@@ -20,8 +20,18 @@
   function setSession(student) {
     if (student) localStorage.setItem(SESSION_KEY, JSON.stringify(student));
     else localStorage.removeItem(SESSION_KEY);
+    applyAuthState();
     renderAuthBar();
     window.dispatchEvent(new CustomEvent("itbasics:auth", { detail: { student: student } }));
+  }
+
+  function applyAuthState() {
+    const s = getSession();
+    document.documentElement.dataset.auth = s ? "in" : "out";
+    const nameEls = document.querySelectorAll(".hero-name");
+    nameEls.forEach(function (el) {
+      el.textContent = s ? (s.first_name || s.code) : "there";
+    });
   }
 
   async function signIn(rawCode) {
@@ -41,7 +51,13 @@
     return { ok: true };
   }
 
-  function signOut() { setSession(null); }
+  function signOut() {
+    setSession(null);
+    // Always go back to the login screen.
+    if (!/(^|\/)index\.html$/.test(location.pathname) && location.pathname !== "/") {
+      location.replace("index.html");
+    }
+  }
 
   async function saveProgress(quizName, answers) {
     const s = getSession();
@@ -171,12 +187,18 @@
     loadProgress: loadProgress,
     saveAttempt: saveAttempt,
     getScores: getScores,
-    isOnline: function () { return Boolean(supabase); }
+    isOnline: function () { return Boolean(supabase); },
+    client: function () { return supabase; }
   };
 
-  if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", renderAuthBar);
-  } else {
+  function boot() {
+    applyAuthState();
     renderAuthBar();
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", boot);
+  } else {
+    boot();
   }
 })();

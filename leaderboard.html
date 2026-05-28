@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Leaderboard | Hallam IT Basics</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script>
+    (function () {
+      try {
+        if (!JSON.parse(localStorage.getItem("itbasics-session"))) {
+          location.replace("index.html");
+        }
+      } catch (e) { location.replace("index.html"); }
+    })();
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">&lt;/&gt;</span>
+        <span>Hallam IT Basics</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="programming-basics.html">Programming</a>
+        <a href="html-basics.html">HTML</a>
+        <a href="python-basics.html">Python</a>
+        <a href="quizzes.html">Quizzes</a>
+        <a href="leaderboard.html" class="active">Leaderboard</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Class standings</p>
+        <h1>Leaderboard</h1>
+        <p class="lead">Best score per quiz, summed for a grand total. Retake any quiz to climb the ladder.</p>
+      </div>
+    </section>
+
+    <div class="container section">
+      <div class="quiz-tabs" role="tablist" data-tabs="class">
+        <button class="quiz-tab active" data-class="7A" role="tab">7A</button>
+        <button class="quiz-tab" data-class="7B" role="tab">7B</button>
+        <button class="quiz-tab" data-class="9ITAA" role="tab">9ITAA</button>
+        <button class="quiz-tab" data-class="ALL" role="tab">All</button>
+      </div>
+
+      <div id="leaderboard-status" class="leaderboard-status">Loading…</div>
+
+      <div class="leaderboard-wrap">
+        <table class="leaderboard-table" id="leaderboard">
+          <thead>
+            <tr>
+              <th class="col-rank">#</th>
+              <th>Student</th>
+              <th class="col-class">Class</th>
+              <th>Programming</th>
+              <th>HTML</th>
+              <th>Python</th>
+              <th>Mixed</th>
+              <th class="col-total">Total</th>
+            </tr>
+          </thead>
+          <tbody id="leaderboard-body"></tbody>
+        </table>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; Hallam IT Basics &middot; For Years 7&ndash;9 computing classes.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+  <script src="supabase-config.js"></script>
+  <script src="app.js"></script>
+  <script src="leaderboard.js"></script>
+</body>
+</html>

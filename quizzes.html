@@ -5,6 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Quizzes | Hallam IT Basics</title>
   <link rel="stylesheet" href="styles.css" />
+  <script>
+    (function () {
+      try {
+        if (!JSON.parse(localStorage.getItem("itbasics-session"))) {
+          location.replace("index.html");
+        }
+      } catch (e) { location.replace("index.html"); }
+    })();
+  </script>
 </head>
 <body>
   <header class="site-header">
@@ -19,6 +28,7 @@
         <a href="html-basics.html">HTML</a>
         <a href="python-basics.html">Python</a>
         <a href="quizzes.html" class="active">Quizzes</a>
+        <a href="leaderboard.html">Leaderboard</a>
       </nav>
     </div>
   </header>
@@ -28,7 +38,7 @@
       <div class="container">
         <p class="eyebrow">Check your understanding</p>
         <h1>Quizzes</h1>
-        <p class="lead">Three short quizzes, one per module. You get instant feedback and can retake any quiz as many times as you like.</p>
+        <p class="lead">Four short quizzes. You get instant feedback and can retake any quiz as many times as you like — your best score sticks on the leaderboard.</p>
       </div>
     </section>
 
@@ -37,27 +47,35 @@
         <button class="quiz-tab active" data-tab="programming" role="tab">Programming</button>
         <button class="quiz-tab" data-tab="html" role="tab">HTML</button>
         <button class="quiz-tab" data-tab="python" role="tab">Python</button>
+        <button class="quiz-tab" data-tab="mixed" role="tab">Mixed Review</button>
       </div>
 
       <section id="programming" class="quiz" aria-label="Programming quiz">
         <h2>Programming Basics Quiz</h2>
-        <p class="section-sub">5 questions &middot; based on Module 1.</p>
+        <p class="section-sub">10 questions &middot; based on Module 1.</p>
         <form class="quiz-form" data-quiz="programming"></form>
         <div class="quiz-result" data-result="programming" hidden></div>
       </section>
 
       <section id="html" class="quiz" aria-label="HTML quiz" hidden>
         <h2>HTML Basics Quiz</h2>
-        <p class="section-sub">5 questions &middot; based on Module 2.</p>
+        <p class="section-sub">10 questions &middot; based on Module 2.</p>
         <form class="quiz-form" data-quiz="html"></form>
         <div class="quiz-result" data-result="html" hidden></div>
       </section>
 
       <section id="python" class="quiz" aria-label="Python quiz" hidden>
         <h2>Python Basics Quiz</h2>
-        <p class="section-sub">5 questions &middot; based on Module 3.</p>
+        <p class="section-sub">10 questions &middot; based on Module 3.</p>
         <form class="quiz-form" data-quiz="python"></form>
         <div class="quiz-result" data-result="python" hidden></div>
+      </section>
+
+      <section id="mixed" class="quiz" aria-label="Mixed review quiz" hidden>
+        <h2>Mixed Review</h2>
+        <p class="section-sub">10 questions &middot; a bit of everything. Great for revision.</p>
+        <form class="quiz-form" data-quiz="mixed"></form>
+        <div class="quiz-result" data-result="mixed" hidden></div>
       </section>
     </div>
   </main>
