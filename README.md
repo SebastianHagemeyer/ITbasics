@@ -41,7 +41,7 @@ The site works without any backend — progress just stays in the student's brow
    window.SUPABASE_URL      = "https://YOUR-PROJECT-REF.supabase.co";
    window.SUPABASE_ANON_KEY = "YOUR-ANON-KEY";
    ```
-   Commit and deploy. Students can now sign in with their code (e.g. `ALI0111`) and
+   Commit and deploy. Students can now sign in with their code (e.g. `DRA0222`) and
    their answers + scores save to the database.
 
 The anon key is *meant* to be public &mdash; it ships in client-side JS. Security comes
@@ -73,5 +73,5 @@ Frontend stays static, so any static host works. Recommended for Hallam:
 - Quizzes can be retaken any number of times. Last + best score show above each quiz.
 - The three quiz tabs share a URL hash (`#programming`, `#html`, `#python`) so you can
   link students directly to a specific quiz.
-- Sign-in is just the student&rsquo;s `ImportIdentifier` code (e.g. `ALI0111`). No passwords,
+- Sign-in is just the student&rsquo;s `ImportIdentifier` code (e.g. `DRA0222`). No passwords,
   no emails stored in the database.
