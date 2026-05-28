@@ -1,0 +1,153 @@
+-- Hallam IT Basics: Supabase schema + roster seed.
+-- Run this once in the Supabase SQL Editor for your project.
+-- Safe to re-run: tables use IF NOT EXISTS and the roster uses UPSERT.
+
+-- ============================================================
+-- Tables
+-- ============================================================
+
+create table if not exists students (
+  code        text primary key,
+  first_name  text not null,
+  last_name   text not null,
+  class       text not null,
+  year_level  int  not null
+);
+
+create table if not exists quiz_attempts (
+  id            bigserial primary key,
+  student_code  text not null references students(code) on delete cascade,
+  quiz_name     text not null,
+  score         int  not null,
+  total         int  not null,
+  answers       jsonb not null,
+  attempted_at  timestamptz not null default now()
+);
+
+create index if not exists quiz_attempts_student_idx on quiz_attempts(student_code);
+create index if not exists quiz_attempts_quiz_idx    on quiz_attempts(quiz_name);
+
+create table if not exists quiz_progress (
+  student_code  text not null references students(code) on delete cascade,
+  quiz_name     text not null,
+  answers       jsonb not null,
+  updated_at    timestamptz not null default now(),
+  primary key (student_code, quiz_name)
+);
+
+-- ============================================================
+-- Row Level Security
+-- ============================================================
+-- This is a classroom self-check tool. The anon key is in the browser, so
+-- anyone with a valid student code can read/write attempts for that code.
+-- No emails, DOBs or other PII are stored here.
+
+alter table students       enable row level security;
+alter table quiz_attempts  enable row level security;
+alter table quiz_progress  enable row level security;
+
+drop policy if exists students_select_anon  on students;
+drop policy if exists attempts_select_anon  on quiz_attempts;
+drop policy if exists attempts_insert_anon  on quiz_attempts;
+drop policy if exists progress_select_anon  on quiz_progress;
+drop policy if exists progress_insert_anon  on quiz_progress;
+drop policy if exists progress_update_anon  on quiz_progress;
+
+create policy students_select_anon  on students       for select to anon using (true);
+create policy attempts_select_anon  on quiz_attempts  for select to anon using (true);
+create policy attempts_insert_anon  on quiz_attempts  for insert to anon with check (true);
+create policy progress_select_anon  on quiz_progress  for select to anon using (true);
+create policy progress_insert_anon  on quiz_progress  for insert to anon with check (true);
+create policy progress_update_anon  on quiz_progress  for update to anon using (true) with check (true);
+
+-- ============================================================
+-- Roster seed (58 students across 7A, 7B, 9ITAA)
+-- ============================================================
+
+insert into students (code, first_name, last_name, class, year_level) values
+  -- 7A
+  ('ALI0111', 'Fahmida',    'Alizada',        '7A',     7),
+  ('AMI0029', 'Hajir',      'Amir',           '7A',     7),
+  ('CRE0009', 'Taylem',     'Crew',           '7A',     7),
+  ('DIP0011', 'Sebastian',  'Di Pietro',      '7A',     7),
+  ('FAR0028', 'Arya',       'Fard',           '7A',     7),
+  ('FAT0012', 'Sidra',      'Fatima',         '7A',     7),
+  ('FIT0007', 'Eddie',      'Fiti',           '7A',     7),
+  ('FRA0020', 'Elias',      'Frazer',         '7A',     7),
+  ('GAL0023', 'Levi',       'Gallagher',      '7A',     7),
+  ('GAZ0001', 'Poppy-Rose', 'Gazzara',        '7A',     7),
+  ('HUE0001', 'Ashton',     'Huergo',         '7A',     7),
+  ('IAK0001', 'Maddox',     'Iakopo',         '7A',     7),
+  ('LAB0005', 'Henry',      'Laban',          '7A',     7),
+  ('MAA0005', 'Samir',      'Maas',           '7A',     7),
+  ('MAD0020', 'Laila',      'Madeira',        '7A',     7),
+  ('MOQ0004', 'Soraya',     'Moqaddam',       '7A',     7),
+  ('PAL0031', 'Amaris',     'Palu',           '7A',     7),
+  ('PET0050', 'Reily',      'Peterson',       '7A',     7),
+  ('ROO0003', 'Hannah',     'Rooney',         '7A',     7),
+  ('SHE0036', 'Cruz',       'Sheppard',       '7A',     7),
+  ('VHO0003', 'Amrin',      'Vhora',          '7A',     7),
+  ('WRI0041', 'Phillip',    'Wright',         '7A',     7),
+  -- 7B
+  ('ALI0107', 'Tamar',      'Ali',            '7B',     7),
+  ('AWA0007', 'Sara',       'Awaszada',       '7B',     7),
+  ('CON0036', 'Aa',         'Contencin',      '7B',     7),
+  ('DAM0015', 'Harris',     'Damen',          '7B',     7),
+  ('DRI0009', 'Francis',    'Drio',           '7B',     7),
+  ('DUG0004', 'Harrison',   'Duguid',         '7B',     7),
+  ('GRA0060', 'Isabella',   'Gray',           '7B',     7),
+  ('HAM0052', 'Mudasser',   'Hamidi',         '7B',     7),
+  ('HOW0032', 'Layla',      'Howard',         '7B',     7),
+  ('IBR0021', 'Pola',       'Ibrahim',        '7B',     7),
+  ('MCD0031', 'Kianah',     'McDonald',       '7B',     7),
+  ('MOQ0003', 'Sohaila',    'Moqaddam',       '7B',     7),
+  ('NAB0014', 'Losalini',   'Nabalarua',      '7B',     7),
+  ('NOO0037', 'Arash',      'Noory',          '7B',     7),
+  ('OTU0005', 'Jaylin',     'Otukolo',        '7B',     7),
+  ('REN0009', 'Sophia',     'Rendon',         '7B',     7),
+  ('RIT0008', 'Shannon',    'Ritchie',        '7B',     7),
+  ('SAD0024', 'Ameer',      'Sadat',          '7B',     7),
+  ('TEP0011', 'William',    'Tep',            '7B',     7),
+  ('THA0023', 'Ava',        'Thao',           '7B',     7),
+  ('TOK0008', 'Faith',      'Toki',           '7B',     7),
+  -- 9ITAA
+  ('ALI0090', 'Kamran',     'Ali Zada',       '9ITAA',  9),
+  ('BLA0054', 'Saxon',      'Blackwell',      '9ITAA',  9),
+  ('CUR0013', 'Aj',         'Currie',         '9ITAA',  9),
+  ('GHA0022', 'Zainab',     'Gharwal',        '9ITAA',  9),
+  ('KNI0008', 'Brayden',    'Knight',         '9ITAA',  9),
+  ('MAW0006', 'Harrison',   'Mawhinney',      '9ITAA',  9),
+  ('MUJ0010', 'Bibi Arzo',  'Mujaddidi',      '9ITAA',  9),
+  ('RAW0005', 'Summer',     'Rawlings',       '9ITAA',  9),
+  ('ROB0073', 'Jaden',      'Robson',         '9ITAA',  9),
+  ('SCO0031', 'Summer',     'Scott-Johns',    '9ITAA',  9),
+  ('SHI0022', 'Rabiullah',  'Shirzad',        '9ITAA',  9),
+  ('TAO0003', 'Cyrus',      'Taofia',         '9ITAA',  9),
+  ('UPO0004', 'Cameron',    'Upokoina',       '9ITAA',  9),
+  ('URR0001', 'TJ',         'Urrutia-Buchanan','9ITAA', 9),
+  ('WIL0114', 'Jack',       'Williams',       '9ITAA',  9)
+on conflict (code) do update set
+  first_name = excluded.first_name,
+  last_name  = excluded.last_name,
+  class      = excluded.class,
+  year_level = excluded.year_level;
+
+-- ============================================================
+-- Teacher view: latest & best score per student per quiz
+-- ============================================================
+create or replace view teacher_scoreboard as
+select
+  s.code,
+  s.first_name,
+  s.last_name,
+  s.class,
+  qa.quiz_name,
+  max(qa.score)                                                                       as best_score,
+  qa.total,
+  (array_agg(qa.score        order by qa.attempted_at desc))[1]                       as last_score,
+  (array_agg(qa.attempted_at order by qa.attempted_at desc))[1]                       as last_attempt,
+  count(*)                                                                            as attempts
+from students s
+join quiz_attempts qa on qa.student_code = s.code
+group by s.code, s.first_name, s.last_name, s.class, qa.quiz_name, qa.total
+order by s.class, s.last_name, s.first_name, qa.quiz_name;

@@ -200,6 +200,7 @@
         input.name = name + "-q" + qIndex;
         input.value = String(oIndex);
         input.id = id;
+        input.addEventListener("change", function () { persistAnswers(name); });
 
         const span = document.createElement("span");
         span.innerHTML = opt;
@@ -241,7 +242,72 @@
       const result = document.querySelector('[data-result="' + name + '"]');
       result.hidden = true;
       result.innerHTML = "";
+      persistAnswers(name);
     });
+
+    restoreAnswers(name);
+    refreshScoreBadge(name);
+  }
+
+  function readAnswers(name) {
+    const form = document.querySelector('.quiz-form[data-quiz="' + name + '"]');
+    const out = {};
+    quizzes[name].forEach(function (_item, qIndex) {
+      const picked = form.querySelector('input[name="' + name + "-q" + qIndex + '"]:checked');
+      if (picked) out[qIndex] = parseInt(picked.value, 10);
+    });
+    return out;
+  }
+
+  function applyAnswers(name, answers) {
+    if (!answers) return;
+    const form = document.querySelector('.quiz-form[data-quiz="' + name + '"]');
+    Object.keys(answers).forEach(function (qIndex) {
+      const input = form.querySelector(
+        'input[name="' + name + "-q" + qIndex + '"][value="' + answers[qIndex] + '"]'
+      );
+      if (input) input.checked = true;
+    });
+  }
+
+  function persistAnswers(name) {
+    if (!window.ITBasics || !window.ITBasics.getSession()) return;
+    window.ITBasics.saveProgress(name, readAnswers(name));
+  }
+
+  async function restoreAnswers(name) {
+    if (!window.ITBasics || !window.ITBasics.getSession()) return;
+    const saved = await window.ITBasics.loadProgress(name);
+    applyAnswers(name, saved);
+  }
+
+  async function refreshScoreBadge(name) {
+    const section = document.getElementById(name);
+    if (!section) return;
+    let badge = section.querySelector(".quiz-scores");
+    if (!badge) {
+      badge = document.createElement("div");
+      badge.className = "quiz-scores";
+      const form = section.querySelector(".quiz-form");
+      section.insertBefore(badge, form);
+    }
+    badge.innerHTML = "";
+
+    if (!window.ITBasics || !window.ITBasics.getSession()) {
+      badge.className = "quiz-scores hint";
+      badge.textContent = "Sign in with your student code (top right) to save your progress.";
+      return;
+    }
+    badge.className = "quiz-scores";
+    const s = await window.ITBasics.getScores(name);
+    if (!s) {
+      badge.textContent = "No attempts yet — give it a go!";
+      return;
+    }
+    badge.innerHTML =
+      '<span class="score-pill">Last: <strong>' + s.last.score + " / " + s.last.total + '</strong></span>' +
+      '<span class="score-pill best">Best: <strong>' + s.best.score + " / " + s.best.total + '</strong></span>' +
+      '<span class="score-meta">' + s.attempts + ' attempt' + (s.attempts === 1 ? '' : 's') + '</span>';
   }
 
   function scoreQuiz(name) {
@@ -293,6 +359,11 @@
       '<h3>Your score: ' + correct + " / " + total + " (" + pct + "%)</h3>" +
       '<p>' + message + '</p>';
     result.scrollIntoView({ behavior: "smooth", block: "nearest" });
+
+    if (window.ITBasics && window.ITBasics.getSession()) {
+      window.ITBasics.saveAttempt(name, correct, total, readAnswers(name))
+        .then(function () { refreshScoreBadge(name); });
+    }
   }
 
   function stripTags(html) {
@@ -325,5 +396,15 @@
   document.addEventListener("DOMContentLoaded", function () {
     ["programming", "html", "python"].forEach(buildQuiz);
     setupTabs();
+  });
+
+  window.addEventListener("itbasics:auth", function () {
+    ["programming", "html", "python"].forEach(function (name) {
+      const form = document.querySelector('.quiz-form[data-quiz="' + name + '"]');
+      if (!form) return;
+      form.reset();
+      restoreAnswers(name);
+      refreshScoreBadge(name);
+    });
   });
 })();
