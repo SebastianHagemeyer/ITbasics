@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Hallam IT Basics — binary 1010 logo">
+  <title>Hallam IT Basics</title>
+
+  <defs>
+    <linearGradient id="navy" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#23579E"/>
+      <stop offset="100%" stop-color="#1C4587"/>
+    </linearGradient>
+    <linearGradient id="lemon" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFA45"/>
+      <stop offset="100%" stop-color="#FFEE00"/>
+    </linearGradient>
+    <filter id="tileShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="1.6"/>
+      <feOffset dx="0" dy="3" result="off"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.24"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!--
+    2x2 checkerboard. Read clockwise from top-left → 1, 0, 1, 0.
+      1 0
+      0 1
+    Tile 108x108, gap 8, padding 16 → 2*108 + 8 + 2*16 = 256.
+  -->
+  <g filter="url(#tileShadow)" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="800" font-size="76" text-anchor="middle">
+
+    <!-- (0,0) 1 -->
+    <g transform="translate(16, 16)">
+      <rect width="108" height="108" rx="20" fill="url(#navy)"/>
+      <text x="54" y="80" fill="#FFFF00">1</text>
+    </g>
+    <!-- (1,0) 0 -->
+    <g transform="translate(132, 16)">
+      <rect width="108" height="108" rx="20" fill="url(#lemon)" stroke="#1C4587" stroke-width="3"/>
+      <text x="54" y="80" fill="#1C4587">0</text>
+    </g>
+    <!-- (0,1) 0 -->
+    <g transform="translate(16, 132)">
+      <rect width="108" height="108" rx="20" fill="url(#lemon)" stroke="#1C4587" stroke-width="3"/>
+      <text x="54" y="80" fill="#1C4587">0</text>
+    </g>
+    <!-- (1,1) 1 -->
+    <g transform="translate(132, 132)">
+      <rect width="108" height="108" rx="20" fill="url(#navy)"/>
+      <text x="54" y="80" fill="#FFFF00">1</text>
+    </g>
+  </g>
+</svg>

@@ -22,11 +22,17 @@
       return [];
     }
 
-    // Best score per (student, quiz)
+    // Best score per (student, quiz) for the fixed quizzes;
+    // freeplay is summed (every correct answer adds 1 forever).
     const best = {};
+    const freeplay = {};
     (attempts || []).forEach(function (a) {
-      const key = a.student_code + "|" + a.quiz_name;
-      if (!best[key] || a.score > best[key].score) best[key] = a;
+      if (a.quiz_name === "freeplay") {
+        freeplay[a.student_code] = (freeplay[a.student_code] || 0) + (a.score || 0);
+      } else {
+        const key = a.student_code + "|" + a.quiz_name;
+        if (!best[key] || a.score > best[key].score) best[key] = a;
+      }
     });
 
     return (students || []).map(function (s) {
@@ -36,6 +42,7 @@
         last_name: s.last_name,
         class: s.class,
         scores: {},
+        freeplay: freeplay[s.code] || 0,
         total: 0
       };
       QUIZZES.forEach(function (q) {
@@ -43,6 +50,7 @@
         row.scores[q] = b ? b.score : null;
         if (b) row.total += b.score;
       });
+      row.total += row.freeplay;
       return row;
     });
   }
@@ -94,6 +102,7 @@
         scoreCell(r.scores.html) +
         scoreCell(r.scores.python) +
         scoreCell(r.scores.mixed) +
+        scoreCell(r.freeplay || null) +
         '<td class="col-total"><strong>' + r.total + '</strong></td>';
       body.appendChild(tr);
     });

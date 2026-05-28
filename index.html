@@ -81,7 +81,7 @@
   <header class="site-header">
     <div class="container header-inner">
       <a href="index.html" class="logo">
-        <span class="logo-mark">&lt;/&gt;</span>
+        <img class="logo-mark" src="logo-binary.svg" alt="" width="32" height="32" />
         <span>Hallam IT Basics</span>
       </a>
       <nav class="site-nav" aria-label="Primary">
@@ -89,7 +89,8 @@
         <a href="programming-basics.html">Programming</a>
         <a href="html-basics.html">HTML</a>
         <a href="python-basics.html">Python</a>
-        <a href="quizzes.html">Quizzes</a>
+        <a href="modules.html">Modules</a>
+        <a href="freeplay.html">Freeplay</a>
         <a href="leaderboard.html">Leaderboard</a>
       </nav>
     </div>
@@ -106,8 +107,8 @@
             HTML, and write real code with Python.
           </p>
           <div class="hero-ctas">
-            <a href="programming-basics.html" class="btn btn-primary">Start with the basics</a>
-            <a href="quizzes.html" class="btn btn-ghost">Try a quiz</a>
+            <a href="modules.html" class="btn btn-primary">Open the modules</a>
+            <a href="freeplay.html" class="btn btn-ghost">Play Freeplay</a>
           </div>
         </div>
         <div class="hero-art" aria-hidden="true">
@@ -122,8 +123,24 @@
     </section>
 
     <section class="container section">
-      <h2>Pick a path</h2>
-      <p class="section-sub">Four short modules. Work through them in order, or jump to what interests you.</p>
+      <a class="module-feature" href="freeplay.html">
+        <div class="module-feature-body">
+          <p class="eyebrow">New</p>
+          <h2>Freeplay <span class="module-feature-emoji" aria-hidden="true">🎮</span></h2>
+          <p class="lead">160+ random coding scenarios, one question at a time. Pick an answer and you see instantly whether you got it right &mdash; with the correct answer and a short explanation.</p>
+          <span class="btn btn-primary">Start Freeplay &rarr;</span>
+        </div>
+        <pre class="module-feature-code" aria-hidden="true"><span class="c-comment"># What does this print?</span>
+<span class="c-keyword">print</span>(<span class="c-string">"ha"</span> * <span class="c-num">3</span>)
+
+<span class="c-comment"># A. ha 3</span>
+<span class="c-comment"># B. hahaha</span>
+<span class="c-comment"># C. ha ha ha</span>
+<span class="c-comment"># D. Error</span></pre>
+      </a>
+
+      <h2 class="section-title">Pick a lesson</h2>
+      <p class="section-sub">Three short modules. Work through them in order, or jump to what interests you. <a href="modules.html">See everything in Modules &rarr;</a></p>
       <div class="card-grid">
         <a class="card" href="programming-basics.html">
           <div class="card-icon" style="--accent: #7c5cff;">1</div>
@@ -143,22 +160,16 @@
           <p>Write real code. Print messages, store data, ask questions and make decisions.</p>
           <span class="card-link">Start the module &rarr;</span>
         </a>
-        <a class="card" href="quizzes.html">
-          <div class="card-icon" style="--accent: #ffbe0b;">?</div>
-          <h3>Quizzes</h3>
-          <p>Four quizzes (now with a Mixed Review). Instant feedback. Climb the leaderboard.</p>
-          <span class="card-link">Take a quiz &rarr;</span>
-        </a>
       </div>
     </section>
 
     <section class="container section tip">
       <h2>How to use this site</h2>
       <ol class="steps">
-        <li>Read through a module: short sections with examples.</li>
+        <li>Read a module &mdash; short sections with worked examples.</li>
         <li>Try the &ldquo;You try&rdquo; boxes on paper or in your editor.</li>
-        <li>Take the matching quiz and aim to improve your score.</li>
-        <li>Check the <a href="leaderboard.html">leaderboard</a> to see how your class is going.</li>
+        <li>Drill yourself in <a href="freeplay.html">Freeplay</a>: one question, instant feedback, the correct answer is always shown.</li>
+        <li>When you&rsquo;re feeling sharp, take a <a href="modules.html">quick quiz</a> for the leaderboard.</li>
       </ol>
     </section>
   </main>

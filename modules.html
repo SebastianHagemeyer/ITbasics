@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Modules | Hallam IT Basics</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script>
+    (function () {
+      try {
+        if (!JSON.parse(localStorage.getItem("itbasics-session"))) {
+          location.replace("index.html");
+        }
+      } catch (e) { location.replace("index.html"); }
+    })();
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <img class="logo-mark" src="logo-binary.svg" alt="" width="32" height="32" />
+        <span>Hallam IT Basics</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="programming-basics.html">Programming</a>
+        <a href="html-basics.html">HTML</a>
+        <a href="python-basics.html">Python</a>
+        <a href="modules.html" class="active">Modules</a>
+        <a href="freeplay.html">Freeplay</a>
+        <a href="leaderboard.html">Leaderboard</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Everything in one place</p>
+        <h1>Modules</h1>
+        <p class="lead">Pick a lesson, run through Freeplay, or have a quick quiz. Sign-in keeps your scores and streak.</p>
+      </div>
+    </section>
+
+    <div class="container section">
+      <!-- Featured: Freeplay -->
+      <a class="module-feature" href="freeplay.html">
+        <div class="module-feature-body">
+          <p class="eyebrow">Featured</p>
+          <h2>Freeplay <span class="module-feature-emoji" aria-hidden="true">🎮</span></h2>
+          <p class="lead">160+ random coding scenarios. One question at a time. Instant grading. The correct answer is always revealed.</p>
+          <span class="btn btn-primary">Start Freeplay &rarr;</span>
+        </div>
+        <pre class="module-feature-code" aria-hidden="true"><span class="c-comment"># What does this print?</span>
+<span class="c-keyword">print</span>(<span class="c-string">"ha"</span> * <span class="c-num">3</span>)
+
+<span class="c-comment"># A. ha 3</span>
+<span class="c-comment"># B. hahaha</span>
+<span class="c-comment"># C. ha ha ha</span>
+<span class="c-comment"># D. Error</span></pre>
+      </a>
+
+      <h2 class="section-title">Lessons</h2>
+      <p class="section-sub">Read through, try the worked examples, then test yourself in Freeplay.</p>
+      <div class="card-grid">
+        <a class="card" href="programming-basics.html">
+          <div class="card-icon" style="--accent: #7c5cff;">1</div>
+          <h3>Programming Basics</h3>
+          <p>Algorithms, variables, loops and decisions in plain English.</p>
+          <span class="card-link">Open the lesson &rarr;</span>
+        </a>
+        <a class="card" href="html-basics.html">
+          <div class="card-icon" style="--accent: #ff7a59;">2</div>
+          <h3>HTML Basics</h3>
+          <p>Build your first web page: headings, paragraphs, links, images, lists.</p>
+          <span class="card-link">Open the lesson &rarr;</span>
+        </a>
+        <a class="card" href="python-basics.html">
+          <div class="card-icon" style="--accent: #2ec4b6;">3</div>
+          <h3>Python Basics</h3>
+          <p>Write real code: print, variables, input, maths, loops, functions.</p>
+          <span class="card-link">Open the lesson &rarr;</span>
+        </a>
+      </div>
+
+      <h2 class="section-title">Other ways to practise</h2>
+      <div class="card-grid card-grid-small">
+        <a class="card card-small" href="quizzes.html">
+          <div class="card-icon card-icon-small" style="--accent: #ffbe0b;">?</div>
+          <h3>Quick Quizzes</h3>
+          <p>Four 10-question quizzes &mdash; one per topic, plus mixed review. Scores feed the leaderboard.</p>
+          <span class="card-link">Take a quiz &rarr;</span>
+        </a>
+        <a class="card card-small" href="leaderboard.html">
+          <div class="card-icon card-icon-small" style="--accent: #1C4587;">★</div>
+          <h3>Leaderboard</h3>
+          <p>See who is climbing the ranks across your class and the whole year.</p>
+          <span class="card-link">See the leaderboard &rarr;</span>
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; Hallam IT Basics &middot; For Years 7&ndash;9 computing classes.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+  <script src="supabase-config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
