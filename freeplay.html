@@ -57,7 +57,7 @@
         </div>
         <div class="freeplay-stats" aria-live="polite">
           <span class="fp-chip" id="fp-score">Score: 0 / 0</span>
-          <span class="fp-chip fp-streak" id="fp-streak">Streak: 0 🔥</span>
+          <span class="fp-chip fp-streak" id="fp-streak">Streak: 0</span>
         </div>
       </div>
 
@@ -70,7 +70,7 @@
         </header>
 
         <p class="fp-prompt" id="fp-prompt">Loading…</p>
-        <pre class="fp-code" id="fp-code" hidden></pre>
+        <pre class="fp-code" id="fp-code" hidden><code id="fp-code-inner"></code></pre>
 
         <div class="fp-options" id="fp-options" role="listbox" aria-label="Answer options"></div>
 
@@ -95,6 +95,9 @@
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/prism.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-python.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-markup.min.js"></script>
   <script src="supabase-config.js"></script>
   <script src="app.js"></script>
   <script src="scenarios.js"></script>

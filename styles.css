@@ -987,9 +987,12 @@ html[data-auth="out"] .site-footer { display: none; }
   letter-spacing: -0.02em;
 }
 
-.module-feature-emoji {
-  font-size: 1.5rem;
-  vertical-align: middle;
+.module-feature-icon {
+  height: 1.45em;
+  width: auto;
+  vertical-align: -0.32em;
+  margin-left: 8px;
+  filter: drop-shadow(0 2px 4px rgba(20, 22, 50, 0.15));
 }
 
 .module-feature-code {
@@ -1150,6 +1153,40 @@ html[data-auth="out"] .site-footer { display: none; }
   white-space: pre;
   overflow-x: auto;
 }
+.fp-code code {
+  background: transparent;
+  padding: 0;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  white-space: pre;
+}
+
+/* Prism token colours, tuned for the Hallam navy code background. */
+.fp-code .token.comment,
+.fp-code .token.prolog,
+.fp-code .token.doctype,
+.fp-code .token.cdata        { color: #8a93b3; font-style: italic; }
+.fp-code .token.punctuation  { color: #c9d1e7; }
+.fp-code .token.keyword,
+.fp-code .token.boolean,
+.fp-code .token.constant,
+.fp-code .token.operator,
+.fp-code .token.symbol       { color: #FFFA45; }
+.fp-code .token.string,
+.fp-code .token.char,
+.fp-code .token.attr-value,
+.fp-code .token.regex        { color: #9be59b; }
+.fp-code .token.number       { color: #ffb070; }
+.fp-code .token.function,
+.fp-code .token.builtin,
+.fp-code .token.class-name   { color: #82c8ff; }
+.fp-code .token.tag,
+.fp-code .token.attr-name    { color: #82c8ff; }
+.fp-code .token.selector,
+.fp-code .token.important    { color: #ff8fb3; }
+.fp-code .token.entity,
+.fp-code .token.url          { color: #ffb070; }
 
 .fp-options {
   display: grid;

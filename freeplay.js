@@ -73,10 +73,15 @@
     prompt.textContent = current.prompt;
 
     if (current.code) {
-      codeEl.textContent = current.code;
+      const inner = document.getElementById("fp-code-inner");
+      inner.textContent = current.code;
+      inner.className = "language-" + (current.topic === "html" ? "markup" : "python");
+      if (window.Prism && Prism.highlightElement) Prism.highlightElement(inner);
       codeEl.hidden = false;
     } else {
-      codeEl.textContent = "";
+      const inner = document.getElementById("fp-code-inner");
+      inner.textContent = "";
+      inner.removeAttribute("class");
       codeEl.hidden = true;
     }
 
@@ -167,7 +172,7 @@
     document.getElementById("fp-score").textContent =
       "Score: " + correct + " / " + answered;
     const streakEl = document.getElementById("fp-streak");
-    streakEl.textContent = "Streak: " + streak + " 🔥";
+    streakEl.textContent = "Streak: " + streak;
     streakEl.classList.toggle("hot", streak >= 3);
   }
 
