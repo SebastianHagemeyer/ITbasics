@@ -5,6 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>HTML Basics | Hallam IT Basics</title>
   <link rel="stylesheet" href="styles.css" />
+  <script>
+    (function () {
+      try {
+        if (!JSON.parse(localStorage.getItem("itbasics-session"))) {
+          location.replace("index.html");
+        }
+      } catch (e) { location.replace("index.html"); }
+    })();
+  </script>
 </head>
 <body>
   <header class="site-header">
@@ -19,6 +28,7 @@
         <a href="html-basics.html" class="active">HTML</a>
         <a href="python-basics.html">Python</a>
         <a href="quizzes.html">Quizzes</a>
+        <a href="leaderboard.html">Leaderboard</a>
       </nav>
     </div>
   </header>

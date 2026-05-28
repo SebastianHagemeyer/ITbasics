@@ -57,6 +57,61 @@
         ],
         answer: 1,
         explain: "Every programmer debugs \u2014 it\u2019s a normal, important skill."
+      },
+      {
+        q: "What is a function in code?",
+        options: [
+          "A reusable block of code that does a specific job",
+          "A single number used in maths",
+          "Another word for a website",
+          "A type of error"
+        ],
+        answer: 0,
+        explain: "Functions group code under a name so we can call (run) it whenever we need."
+      },
+      {
+        q: "Which of these is a SYNTAX error?",
+        options: [
+          "Forgetting to close a bracket",
+          "Choosing a slow algorithm",
+          "Using the wrong icon",
+          "Saving the file to the wrong folder"
+        ],
+        answer: 0,
+        explain: "Syntax errors break the rules of the language \u2014 the computer can\u2019t even start running the code."
+      },
+      {
+        q: "Pseudocode is\u2026",
+        options: [
+          "Real, working code in a special language",
+          "A way to plan code in plain language before writing it",
+          "A type of secret password",
+          "The first language Python was written in"
+        ],
+        answer: 1,
+        explain: "Pseudocode means \u2018fake code\u2019 \u2014 we use it to plan, not to run."
+      },
+      {
+        q: "Which symbol checks if two values are EQUAL in most languages?",
+        options: [
+          "=",
+          "==",
+          "!=",
+          "<>"
+        ],
+        answer: 1,
+        explain: "= assigns a value, == compares them. Mixing them up is a very common bug."
+      },
+      {
+        q: "A boolean value can only be\u2026",
+        options: [
+          "A whole number",
+          "True or False",
+          "A list of words",
+          "Either a 1 or a letter"
+        ],
+        answer: 1,
+        explain: "Booleans are yes/no values. Computers use them for every decision."
       }
     ],
     html: [
@@ -114,6 +169,61 @@
         ],
         answer: 2,
         explain: "alt text makes the web accessible for everyone."
+      },
+      {
+        q: "What kind of content goes inside the &lt;head&gt; tag?",
+        options: [
+          "Everything the user sees on the page",
+          "Info ABOUT the page (title, links to CSS, etc.)",
+          "Just the main heading",
+          "A picture of the website owner"
+        ],
+        answer: 1,
+        explain: "&lt;head&gt; holds meta-info; &lt;body&gt; holds what\u2019s shown on screen."
+      },
+      {
+        q: "Which tag creates a NUMBERED list?",
+        options: [
+          "&lt;ul&gt;",
+          "&lt;list&gt;",
+          "&lt;ol&gt;",
+          "&lt;nl&gt;"
+        ],
+        answer: 2,
+        explain: "&lt;ol&gt; = ordered list (numbered). &lt;ul&gt; = unordered (bullets)."
+      },
+      {
+        q: "What does &lt;br&gt; do?",
+        options: [
+          "Makes text bold",
+          "Adds a line break",
+          "Builds a border",
+          "Breaks the page"
+        ],
+        answer: 1,
+        explain: "&lt;br&gt; forces a new line without starting a new paragraph."
+      },
+      {
+        q: "What is a CSS class used for?",
+        options: [
+          "Naming a group of elements that should share the same style",
+          "Picking the only element with that ID",
+          "Replacing JavaScript",
+          "Adding sound effects"
+        ],
+        answer: 0,
+        explain: "Multiple elements can share a class; an id should be unique to one element."
+      },
+      {
+        q: "Which tag means \u2018this text is important\u2019 (with strong styling)?",
+        options: [
+          "&lt;big&gt;",
+          "&lt;b&gt;",
+          "&lt;strong&gt;",
+          "&lt;loud&gt;"
+        ],
+        answer: 2,
+        explain: "&lt;strong&gt; tells the browser AND screen readers that the text matters."
       }
     ],
     python: [
@@ -171,6 +281,148 @@
         ],
         answer: 1,
         explain: "Indentation is how Python knows which block code belongs to."
+      },
+      {
+        q: "How do you write a one-line comment in Python?",
+        options: [
+          "// like this",
+          "/* like this */",
+          "# like this",
+          "&lt;!-- like this --&gt;"
+        ],
+        answer: 2,
+        explain: "Python uses # for single-line comments."
+      },
+      {
+        q: "What does   len('hello')   return?",
+        options: [
+          "4",
+          "5",
+          "6",
+          "An error"
+        ],
+        answer: 1,
+        explain: "len() counts the characters — h, e, l, l, o = 5."
+      },
+      {
+        q: "Which of these creates a LIST in Python?",
+        options: [
+          "(1, 2, 3)",
+          "{1, 2, 3}",
+          "[1, 2, 3]",
+          "&lt;1, 2, 3&gt;"
+        ],
+        answer: 2,
+        explain: "Square brackets make a list. Round brackets make a tuple, curly braces a set."
+      },
+      {
+        q: "Which operator gives the REMAINDER of a division?",
+        options: [
+          "/",
+          "//",
+          "%",
+          "**"
+        ],
+        answer: 2,
+        explain: "% is the modulo operator. 13 % 5 = 3."
+      },
+      {
+        q: "What does   True and False   evaluate to?",
+        options: [
+          "True",
+          "False",
+          "Both",
+          "An error"
+        ],
+        answer: 1,
+        explain: "‘and’ is only True when BOTH sides are True."
+      }
+    ],
+    mixed: [
+      {
+        q: "Which of these is NOT a programming concept?",
+        options: ["Variable", "Loop", "Paragraph", "Function"],
+        answer: 2,
+        explain: "Paragraphs belong to HTML. Variables, loops and functions are programming."
+      },
+      {
+        q: "What does an algorithm describe?",
+        options: [
+          "A piece of hardware",
+          "A series of steps to solve a problem",
+          "A type of computer mouse",
+          "The shape of a website"
+        ],
+        answer: 1,
+        explain: "Algorithms are step-by-step plans. Computers follow them exactly."
+      },
+      {
+        q: "Where does the &lt;title&gt; tag belong?",
+        options: [
+          "Inside &lt;head&gt;",
+          "At the top of &lt;body&gt;",
+          "Inside &lt;footer&gt;",
+          "Anywhere on the page"
+        ],
+        answer: 0,
+        explain: "&lt;title&gt; goes in &lt;head&gt;. It shows up in the browser tab."
+      },
+      {
+        q: "What does this Python code print?   print('ha' * 3)",
+        options: ["ha 3", "hahaha", "ha ha ha", "An error"],
+        answer: 1,
+        explain: "Multiplying a string by 3 repeats it three times: hahaha."
+      },
+      {
+        q: "Which Python data type holds ONLY True or False?",
+        options: ["int", "str", "list", "bool"],
+        answer: 3,
+        explain: "bool is short for boolean — true or false."
+      },
+      {
+        q: "Which HTML element creates a clickable link?",
+        options: [
+          "&lt;link&gt;",
+          "&lt;href&gt;",
+          "&lt;a&gt;",
+          "&lt;click&gt;"
+        ],
+        answer: 2,
+        explain: "&lt;a&gt; is the anchor tag. Use href to set the destination."
+      },
+      {
+        q: "What is   13 % 5   in Python?",
+        options: ["2", "2.6", "3", "8"],
+        answer: 2,
+        explain: "% gives the remainder. 13 ÷ 5 = 2 with 3 left over."
+      },
+      {
+        q: "What is a ‘bug’ in software?",
+        options: [
+          "An insect inside the computer",
+          "A mistake or error in the code",
+          "A type of virus",
+          "A feature nobody likes"
+        ],
+        answer: 1,
+        explain: "Any mistake that makes code misbehave is called a bug."
+      },
+      {
+        q: "Which HTML tag is for the BIGGEST heading?",
+        options: [
+          "&lt;head&gt;",
+          "&lt;h1&gt;",
+          "&lt;h6&gt;",
+          "&lt;heading&gt;"
+        ],
+        answer: 1,
+        explain: "&lt;h1&gt; is the biggest, &lt;h6&gt; is the smallest."
+      },
+      {
+        q: "Which loop runs WHILE a condition is True?",
+        options: ["for loop", "while loop", "if loop", "spin loop"],
+        answer: 1,
+        explain: "while loops keep going as long as their condition stays True."
       }
     ]
   };
@@ -394,12 +646,12 @@
   }
 
   document.addEventListener("DOMContentLoaded", function () {
-    ["programming", "html", "python"].forEach(buildQuiz);
+    ["programming", "html", "python", "mixed"].forEach(buildQuiz);
     setupTabs();
   });
 
   window.addEventListener("itbasics:auth", function () {
-    ["programming", "html", "python"].forEach(function (name) {
+    ["programming", "html", "python", "mixed"].forEach(function (name) {
       const form = document.querySelector('.quiz-form[data-quiz="' + name + '"]');
       if (!form) return;
       form.reset();
