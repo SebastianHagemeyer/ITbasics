@@ -13,45 +13,29 @@
       return [];
     }
     const sb = window.ITBasics.client();
-    const [{ data: students, error: e1 }, { data: attempts, error: e2 }] = await Promise.all([
-      sb.from("students").select("code,first_name,last_name,class,year_level"),
-      sb.from("quiz_attempts").select("student_code,quiz_name,score,total")
-    ]);
-    if (e1 || e2) {
-      status.textContent = "Couldn’t load scores. " + ((e1 || e2).message || "");
+    // leaderboard_view aggregates server-side: one row per student, ~58 rows total.
+    // Querying quiz_attempts directly hits the 1000-row REST cap once Freeplay accumulates.
+    const { data, error } = await sb.from("leaderboard_view").select("*");
+    if (error) {
+      status.textContent = "Couldn't load scores. " + (error.message || "");
       return [];
     }
-
-    // Best score per (student, quiz) for the fixed quizzes;
-    // freeplay is summed (every correct answer adds 1 forever).
-    const best = {};
-    const freeplay = {};
-    (attempts || []).forEach(function (a) {
-      if (a.quiz_name === "freeplay") {
-        freeplay[a.student_code] = (freeplay[a.student_code] || 0) + (a.score || 0);
-      } else {
-        const key = a.student_code + "|" + a.quiz_name;
-        if (!best[key] || a.score > best[key].score) best[key] = a;
-      }
-    });
-
-    return (students || []).map(function (s) {
-      const row = {
-        code: s.code,
-        first_name: s.first_name,
-        last_name: s.last_name,
-        class: s.class,
-        scores: {},
-        freeplay: freeplay[s.code] || 0,
-        total: 0
+    return (data || []).map(function (r) {
+      return {
+        code: r.code,
+        first_name: r.first_name,
+        last_name: r.last_name,
+        class: r.class,
+        scores: {
+          programming: r.programming,
+          html: r.html,
+          python: r.python,
+          mixed: r.mixed
+        },
+        freeplay: r.freeplay || 0,
+        total: (r.programming || 0) + (r.html || 0) + (r.python || 0) +
+               (r.mixed || 0) + (r.freeplay || 0)
       };
-      QUIZZES.forEach(function (q) {
-        const b = best[s.code + "|" + q];
-        row.scores[q] = b ? b.score : null;
-        if (b) row.total += b.score;
-      });
-      row.total += row.freeplay;
-      return row;
     });
   }
 

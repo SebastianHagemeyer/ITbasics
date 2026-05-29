@@ -151,3 +151,37 @@ from students s
 join quiz_attempts qa on qa.student_code = s.code
 group by s.code, s.first_name, s.last_name, s.class, qa.quiz_name, qa.total
 order by s.class, s.last_name, s.first_name, qa.quiz_name;
+
+-- ============================================================
+-- Leaderboard view: one row per student, fully aggregated.
+-- Selecting raw quiz_attempts client-side hits PostgREST's 1000-row
+-- cap once Freeplay activity piles up; this view stays at ~58 rows.
+-- ============================================================
+create or replace view leaderboard_view with (security_invoker = on) as
+with best_named as (
+  select student_code, quiz_name, max(score) as best_score
+  from quiz_attempts
+  where quiz_name in ('programming', 'html', 'python', 'mixed')
+  group by student_code, quiz_name
+),
+freeplay_sum as (
+  select student_code, sum(score)::int as total
+  from quiz_attempts
+  where quiz_name = 'freeplay'
+  group by student_code
+)
+select
+  s.code,
+  s.first_name,
+  s.last_name,
+  s.class,
+  s.year_level,
+  max(case when bn.quiz_name = 'programming' then bn.best_score end) as programming,
+  max(case when bn.quiz_name = 'html'        then bn.best_score end) as html,
+  max(case when bn.quiz_name = 'python'      then bn.best_score end) as python,
+  max(case when bn.quiz_name = 'mixed'       then bn.best_score end) as mixed,
+  coalesce(f.total, 0)                                               as freeplay
+from students s
+left join best_named bn on bn.student_code = s.code
+left join freeplay_sum f on f.student_code = s.code
+group by s.code, s.first_name, s.last_name, s.class, s.year_level, f.total;
