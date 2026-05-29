@@ -39,6 +39,7 @@
           </div>
         </div>
         <a href="sandbox.html">Sandbox</a>
+        <a href="challenges.html">Challenges</a>
         <a href="freeplay.html">Freeplay</a>
         <a href="leaderboard.html" class="active">Leaderboard</a>
       </nav>
@@ -50,11 +51,16 @@
       <div class="container">
         <p class="eyebrow">Class standings</p>
         <h1>Leaderboard</h1>
-        <p class="lead">Best score per quiz plus every correct Freeplay answer, summed for a grand total. Retake quizzes or grind Freeplay to climb the ladder.</p>
+        <p class="lead">Two boards in one. <strong>Quiz</strong> ranks your quiz and Freeplay points; <strong>Live Coding</strong> ranks how many coding challenges you've cracked. Switch between them and filter by class.</p>
       </div>
     </section>
 
     <div class="container section">
+      <div class="quiz-tabs leaderboard-modes" role="tablist" data-tabs="mode">
+        <button class="quiz-tab active" data-mode="quiz" role="tab">Quiz</button>
+        <button class="quiz-tab" data-mode="livecoding" role="tab">Live Coding</button>
+      </div>
+
       <div class="quiz-tabs" role="tablist" data-tabs="class">
         <button class="quiz-tab active" data-class="7A" role="tab">7A</button>
         <button class="quiz-tab" data-class="7B" role="tab">7B</button>
@@ -66,19 +72,7 @@
 
       <div class="leaderboard-wrap">
         <table class="leaderboard-table" id="leaderboard">
-          <thead>
-            <tr>
-              <th class="col-rank">#</th>
-              <th>Student</th>
-              <th class="col-class">Class</th>
-              <th>Programming</th>
-              <th>HTML</th>
-              <th>Python</th>
-              <th>Mixed</th>
-              <th>Freeplay</th>
-              <th class="col-total">Total</th>
-            </tr>
-          </thead>
+          <thead id="leaderboard-head"></thead>
           <tbody id="leaderboard-body"></tbody>
         </table>
       </div>

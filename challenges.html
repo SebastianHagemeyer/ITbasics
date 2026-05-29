@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Freeplay | Hallam IT Basics</title>
+  <title>Challenges | Hallam IT Basics</title>
   <link rel="icon" type="image/svg+xml" href="logo-binary.svg" />
   <link rel="apple-touch-icon" href="logo-binary.svg" />
   <link rel="stylesheet" href="styles.css" />
@@ -39,8 +39,8 @@
           </div>
         </div>
         <a href="sandbox.html">Sandbox</a>
-        <a href="challenges.html">Challenges</a>
-        <a href="freeplay.html" class="active">Freeplay</a>
+        <a href="challenges.html" class="active">Challenges</a>
+        <a href="freeplay.html">Freeplay</a>
         <a href="leaderboard.html">Leaderboard</a>
       </nav>
     </div>
@@ -49,51 +49,50 @@
   <main>
     <section class="page-hero">
       <div class="container">
-        <p class="eyebrow">Practice mode</p>
-        <h1>Freeplay</h1>
-        <p class="lead">Pick the right answer. You get instant feedback,right or wrong, you see the correct answer and a short explanation. No timer, no end. Keep going as long as you like.</p>
+        <p class="eyebrow">Prove it</p>
+        <h1>Live Coding Challenges</h1>
+        <p class="lead">Real tasks, real Python. Write the code, hit <strong>Run</strong> to try it, then <strong>Check</strong> to stress-test it. Pass every test and the challenge is yours &mdash; it counts on the leaderboard.</p>
       </div>
     </section>
 
-    <div class="container section freeplay">
-      <!-- Topic filter + stats -->
-      <div class="freeplay-toolbar">
-        <div class="freeplay-filter" role="tablist" aria-label="Filter by topic">
-          <button class="fp-tab active" data-filter="all" role="tab">All</button>
-          <button class="fp-tab" data-filter="python" role="tab">Python</button>
-          <button class="fp-tab" data-filter="html" role="tab">HTML</button>
-          <button class="fp-tab" data-filter="logic" role="tab">Logic</button>
-          <button class="fp-tab" data-filter="concept" role="tab">Concepts</button>
+    <div class="container section">
+      <div id="challenge-scoreboard" class="challenge-scoreboard"></div>
+
+      <div class="quiz-tabs" role="tablist" id="challenge-tabs"></div>
+
+      <div class="challenge-brief" id="challenge-brief"></div>
+
+      <div class="sandbox-shell challenge-shell">
+        <div class="sandbox-editor">
+          <div class="sandbox-bar">
+            <span class="sandbox-title" id="challenge-file">solution.py</span>
+            <div class="sandbox-bar-actions">
+              <button type="button" class="btn btn-ghost challenge-reset" title="Reset to the starter code">Reset</button>
+              <button type="button" class="btn btn-ghost challenge-run" id="challenge-run">
+                <span class="challenge-run-label">Run</span>
+              </button>
+              <button type="button" class="btn btn-primary challenge-check" id="challenge-check">
+                <span class="challenge-check-label">Check</span>
+              </button>
+            </div>
+          </div>
+          <div class="sandbox-code language-python" id="challenge-code" spellcheck="false"></div>
         </div>
-        <div class="freeplay-stats" aria-live="polite">
-          <span class="fp-chip" id="fp-score">Score: 0 / 0</span>
-          <span class="fp-chip fp-streak" id="fp-streak">Streak: 0</span>
+        <div class="sandbox-output">
+          <div class="sandbox-bar">
+            <span class="sandbox-title">Output</span>
+            <button type="button" class="btn btn-ghost challenge-clear" title="Clear the output">Clear</button>
+          </div>
+          <pre class="sandbox-out-body" id="challenge-output"></pre>
         </div>
       </div>
 
-      <!-- Question card -->
-      <article class="fp-card" id="fp-card" aria-live="polite">
-        <header class="fp-card-head">
-          <span class="fp-tag" id="fp-topic">Topic</span>
-          <span class="fp-tag fp-diff" id="fp-diff">easy</span>
-          <span class="fp-card-id" id="fp-id">#0</span>
-        </header>
+      <div class="challenge-results" id="challenge-results" hidden></div>
 
-        <p class="fp-prompt" id="fp-prompt">Loading…</p>
-        <pre class="fp-code" id="fp-code" hidden><code id="fp-code-inner"></code></pre>
-
-        <div class="fp-options" id="fp-options" role="listbox" aria-label="Answer options"></div>
-
-        <div class="fp-feedback" id="fp-feedback" hidden></div>
-
-        <div class="fp-actions">
-          <button type="button" class="btn btn-ghost" id="fp-skip">Skip</button>
-          <button type="button" class="btn btn-primary" id="fp-next" hidden>Next question <span class="arrow" aria-hidden="true"></span></button>
-        </div>
-      </article>
-
-      <p class="fp-foot section-sub">
-        Tip: the bank has 160+ scenarios. Use the filter to focus on one topic, or leave it on “All” for a mixed workout.
+      <p class="sandbox-hint">
+        <kbd>Ctrl</kbd>+<kbd>Enter</kbd> runs your code &middot;
+        <kbd>Tab</kbd> inserts 4 spaces &middot;
+        Python loads the first time you press Run or Check (5-10 seconds), then it's instant.
       </p>
     </div>
   </main>
@@ -107,10 +106,8 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/prism.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-python.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-markup.min.js"></script>
   <script src="supabase-config.js"></script>
   <script src="app.js"></script>
-  <script src="scenarios.js"></script>
-  <script src="freeplay.js"></script>
+  <script src="challenges.js"></script>
 </body>
 </html>

@@ -1094,6 +1094,85 @@ html[data-auth="out"] .site-footer { display: none; }
   .sandbox-cursor { animation: none; }
 }
 
+/* ===== Live Coding challenges ===== */
+.challenge-scoreboard { margin-bottom: 18px; }
+.challenge-progress { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.challenge-progress-count { font-size: 1.6rem; font-weight: 800; color: var(--primary); }
+.challenge-progress-label { color: var(--muted); font-weight: 600; }
+.challenge-progress-bar {
+  flex: 1; min-width: 160px; height: 10px; background: var(--surface);
+  border: 1px solid var(--border); border-radius: 999px; overflow: hidden;
+}
+.challenge-progress-bar > span {
+  display: block; height: 100%; background: linear-gradient(90deg, var(--primary), #3a7bd5);
+  transition: width 0.4s ease;
+}
+.challenge-progress-hint { margin: 8px 0 0; color: var(--muted); font-size: 0.9rem; }
+
+.challenge-tab.done { color: var(--success); }
+.challenge-tab.done.active { color: #fff; }
+.challenge-tick { font-weight: 800; }
+
+.challenge-brief {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 20px 24px; margin-bottom: 18px;
+  box-shadow: var(--shadow-sm);
+}
+.challenge-brief-title { margin: 0 0 6px; font-size: 1.3rem; display: flex; align-items: center; gap: 10px; }
+.challenge-badge-done {
+  font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em;
+  color: var(--success); background: var(--success-bg); border: 1px solid var(--success);
+  padding: 2px 10px; border-radius: 999px;
+}
+.challenge-brief-task { margin: 0 0 8px; font-weight: 700; }
+.challenge-brief-detail { margin: 0 0 12px; color: var(--muted); }
+.challenge-steps { margin: 8px 0 0; padding-left: 22px; }
+.challenge-steps li { margin: 3px 0; }
+
+/* Leaderboard mode toggle (Quiz / Live Coding) sits just above the class filter. */
+.leaderboard-modes { margin-bottom: 12px; }
+.challenge-brief code, .challenge-accept code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  background: var(--bg); border: 1px solid var(--border); border-radius: 6px;
+  padding: 1px 6px; font-size: 0.88em; color: var(--primary-dark);
+}
+.challenge-accept {
+  margin: 0; padding: 10px 14px; background: var(--bg);
+  border: 1px dashed var(--border); border-radius: var(--radius-sm); font-size: 0.92rem;
+}
+.challenge-accept-tag {
+  font-weight: 700; color: var(--primary); margin-right: 6px;
+  text-transform: uppercase; font-size: 0.72rem; letter-spacing: 0.04em;
+}
+
+.challenge-shell { margin-bottom: 18px; }
+.challenge-run[disabled], .challenge-check[disabled] { opacity: 0.55; cursor: not-allowed; }
+
+.challenge-results {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow-sm);
+}
+.challenge-results-head { padding: 14px 20px; font-weight: 700; font-size: 1.05rem; }
+.challenge-results-head.win  { background: var(--success-bg); color: var(--success); border-bottom: 1px solid var(--success); }
+.challenge-results-head.fail { background: var(--danger-bg);  color: var(--danger);  border-bottom: 1px solid var(--danger); }
+.challenge-test-list { list-style: none; margin: 0; padding: 0; }
+.ct { display: flex; gap: 12px; padding: 14px 20px; border-bottom: 1px solid var(--border); }
+.ct:last-child { border-bottom: none; }
+.ct-icon {
+  flex: none; width: 24px; height: 24px; border-radius: 50%; display: grid; place-items: center;
+  font-weight: 800; color: #fff; font-size: 0.85rem;
+}
+.ct.pass .ct-icon { background: var(--success); }
+.ct.fail .ct-icon { background: var(--danger); }
+.ct-body { flex: 1; min-width: 0; }
+.ct-label { font-weight: 700; }
+.ct-why { color: var(--muted); font-size: 0.92rem; margin-top: 2px; }
+.ct-output {
+  margin: 8px 0 0; padding: 10px 12px; background: var(--code-bg); color: var(--code-text);
+  border-radius: var(--radius-sm); font-size: 0.85rem; line-height: 1.5;
+  white-space: pre-wrap; overflow-x: auto; max-height: 180px;
+}
+
 .sandbox-hint {
   margin: 14px 0 0;
   color: var(--muted);

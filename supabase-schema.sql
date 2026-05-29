@@ -169,6 +169,14 @@ freeplay_sum as (
   from quiz_attempts
   where quiz_name = 'freeplay'
   group by student_code
+),
+-- Live Coding: each passed challenge is one attempt row with
+-- answers->>'challenge' set; count how many DISTINCT challenges are done.
+livecoding_done as (
+  select student_code, count(distinct (answers->>'challenge'))::int as total
+  from quiz_attempts
+  where quiz_name = 'livecoding'
+  group by student_code
 )
 select
   s.code,
@@ -180,8 +188,10 @@ select
   max(case when bn.quiz_name = 'html'        then bn.best_score end) as html,
   max(case when bn.quiz_name = 'python'      then bn.best_score end) as python,
   max(case when bn.quiz_name = 'mixed'       then bn.best_score end) as mixed,
-  coalesce(f.total, 0)                                               as freeplay
+  coalesce(f.total, 0)                                               as freeplay,
+  coalesce(lc.total, 0)                                              as livecoding
 from students s
 left join best_named bn on bn.student_code = s.code
 left join freeplay_sum f on f.student_code = s.code
-group by s.code, s.first_name, s.last_name, s.class, s.year_level, f.total;
+left join livecoding_done lc on lc.student_code = s.code
+group by s.code, s.first_name, s.last_name, s.class, s.year_level, f.total, lc.total;
