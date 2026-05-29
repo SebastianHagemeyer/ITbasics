@@ -1063,6 +1063,37 @@ html[data-auth="out"] .site-footer { display: none; }
 .sandbox-out-body .out-stderr { color: #ff8a8a; }
 .sandbox-out-body .out-info   { color: #8b92b0; font-style: italic; }
 
+/* Inline, terminal-style input() field and its echoed value. */
+.sandbox-out-body .out-stdin { color: var(--accent); }
+.sandbox-stdin {
+  font: inherit;
+  color: var(--accent);
+  background: transparent;
+  border: 0;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  caret-color: transparent;   /* hidden in favour of the flashing block cursor */
+  vertical-align: baseline;
+}
+/* Flashing block cursor shown while input() is waiting. */
+.sandbox-cursor {
+  display: inline-block;
+  width: 0.55ch;
+  height: 1.15em;
+  margin-left: -2px;
+  background: var(--accent);
+  vertical-align: text-bottom;
+  animation: sandbox-cursor-blink 1.06s steps(1, end) infinite;
+}
+@keyframes sandbox-cursor-blink {
+  0%, 50%      { opacity: 1; }
+  50.01%, 100% { opacity: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .sandbox-cursor { animation: none; }
+}
+
 .sandbox-hint {
   margin: 14px 0 0;
   color: var(--muted);

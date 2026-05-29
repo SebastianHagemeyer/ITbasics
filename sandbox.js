@@ -1,7 +1,7 @@
 (function () {
   "use strict";
 
-  const PYODIDE_VERSION = "0.26.4";
+  const PYODIDE_VERSION = "0.27.7";
   const PYODIDE_URL = "https://cdn.jsdelivr.net/pyodide/v" + PYODIDE_VERSION + "/full/pyodide.js";
   const CODEJAR_URL = "https://cdn.jsdelivr.net/npm/codejar@4.0.0/dist/codejar.min.js";
   const STORAGE_KEY = "itbasics-sandbox-code";
@@ -20,6 +20,37 @@
     '# Maths\n' +
     'total = sum(range(1, 11))\n' +
     'print("Sum of 1 to 10 is", total)\n';
+
+  // Wires Python's input() to the inline reader below. run_sync blocks the
+  // Python program (via JSPI stack switching) until readLine's promise
+  // resolves, so input() behaves exactly like a real terminal. The helpers
+  // live in a throwaway function so nothing leaks into the student's globals.
+  const PY_INSTALL_INPUT = `
+import builtins as _b
+def _sandbox_install_input():
+    from pyodide.ffi import run_sync
+    from _sandbox_io import readLine
+    def input(prompt=""):
+        return run_sync(readLine(str(prompt)))
+    _b.input = input
+_sandbox_install_input()
+del _sandbox_install_input, _b
+`;
+
+  // Fallback for browsers without JSPI (e.g. Safari): a clear message
+  // instead of the old window.prompt() popup.
+  const PY_DISABLE_INPUT = `
+import builtins as _b
+def _sandbox_install_input():
+    def input(*args, **kwargs):
+        raise RuntimeError(
+            "Interactive input() needs Chrome or Edge in this sandbox. "
+            "Open this page there, or set a variable instead, e.g. name = 'Alex'"
+        )
+    _b.input = input
+_sandbox_install_input()
+del _sandbox_install_input, _b
+`;
 
   let pyodide = null;
   let loadingPromise = null;
@@ -65,6 +96,79 @@
   }
   function clearOut() { output.innerHTML = ""; }
 
+  // Reads one line of input from the student, terminal-style: shows the
+  // prompt (if any) inline in the output, drops in a focused text field with
+  // a blinking caret, and resolves with the typed text once Enter is pressed.
+  function readLineInteractive(promptText) {
+    return new Promise(function (resolve) {
+      const line = document.createElement("span");
+      line.className = "out-stdin-line";
+      if (promptText) line.appendChild(document.createTextNode(promptText));
+
+      const field = document.createElement("input");
+      field.type = "text";
+      field.className = "sandbox-stdin";
+      field.autocomplete = "off";
+      field.autocapitalize = "off";
+      field.spellcheck = false;
+      field.size = 1;
+      line.appendChild(field);
+
+      // A flashing block cursor so it's obvious the program is paused waiting
+      // for input - even when input() has no prompt and the line is otherwise
+      // empty. The native caret is hidden via CSS in favour of this.
+      const cursor = document.createElement("span");
+      cursor.className = "sandbox-cursor";
+      cursor.setAttribute("aria-hidden", "true");
+      line.appendChild(cursor);
+
+      output.appendChild(line);
+      output.scrollTop = output.scrollHeight;
+
+      // Grow the field with its contents so the cursor sits after the text.
+      function resize() { field.size = Math.max(1, field.value.length + 1); }
+      field.addEventListener("input", resize);
+      // Clicking anywhere on the line re-focuses the (invisible) field.
+      line.addEventListener("mousedown", function (e) {
+        if (e.target !== field) { e.preventDefault(); field.focus(); }
+      });
+
+      setRunLabel("Waiting for input…", true);
+      field.focus();
+
+      function onKey(e) {
+        if (e.key !== "Enter") return;
+        e.preventDefault();
+        const value = field.value;
+        field.removeEventListener("input", resize);
+        field.removeEventListener("keydown", onKey);
+        // Echo what was typed into the transcript, then drop the live widgets.
+        const echo = document.createElement("span");
+        echo.className = "out-stdin";
+        echo.textContent = value;
+        line.replaceChild(echo, field);
+        line.removeChild(cursor);
+        line.appendChild(document.createTextNode("\n"));
+        setRunLabel("Running…", true);
+        output.scrollTop = output.scrollHeight;
+        resolve(value);
+      }
+      field.addEventListener("keydown", onKey);
+    });
+  }
+
+  // JSPI (WebAssembly stack switching) lets input() block on the main thread
+  // without freezing the page. Present in Chrome/Edge 137+; not in Safari.
+  function jspiSupported() {
+    return typeof WebAssembly !== "undefined" &&
+      typeof WebAssembly.Suspending === "function";
+  }
+
+  async function setupInput(py) {
+    py.registerJsModule("_sandbox_io", { readLine: readLineInteractive });
+    await py.runPythonAsync(jspiSupported() ? PY_INSTALL_INPUT : PY_DISABLE_INPUT);
+  }
+
   function loadPyodideScript() {
     if (window.loadPyodide) return Promise.resolve();
     return new Promise(function (resolve, reject) {
@@ -89,16 +193,7 @@
       });
       pyodide.setStdout({ batched: function (s) { appendOut(s, "stdout"); } });
       pyodide.setStderr({ batched: function (s) { appendOut(s, "stderr"); } });
-      // input() isn't wired up in the sandbox yet - give a clear error
-      // instead of the browser's prompt() dialog.
-      await pyodide.runPythonAsync(
-        "def __no_input(*args, **kwargs):\n" +
-        "    raise RuntimeError(\"input() isn't supported in the sandbox yet. \" +\n" +
-        "        \"Try setting a variable instead, e.g. name = 'Alex'\")\n" +
-        "import builtins\n" +
-        "builtins.input = __no_input\n" +
-        "del __no_input\n"
-      );
+      await setupInput(pyodide);
       appendOut("Python ready. Running your code…", "info");
       return pyodide;
     })();
