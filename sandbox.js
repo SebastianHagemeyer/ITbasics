@@ -3,6 +3,7 @@
 
   const PYODIDE_VERSION = "0.26.4";
   const PYODIDE_URL = "https://cdn.jsdelivr.net/pyodide/v" + PYODIDE_VERSION + "/full/pyodide.js";
+  const CODEJAR_URL = "https://cdn.jsdelivr.net/npm/codejar@4.0.0/dist/codejar.min.js";
   const STORAGE_KEY = "itbasics-sandbox-code";
 
   const DEFAULT_CODE =
@@ -129,22 +130,45 @@
     editor.focus();
   }
 
+  function enableHighlighting(CodeJar) {
+    jar = CodeJar(editor, function (el) {
+      window.Prism.highlightElement(el);
+    }, {
+      tab: "    ",
+      indentOn: /[(\[{:]\s*$/
+    });
+    jar.updateCode(loadCode());
+    jar.onUpdate(function (code) { saveCode(code); });
+  }
+
+  function enablePlainEditor() {
+    // Fallback: plain contenteditable, no highlighting.
+    editor.contentEditable = "plaintext-only";
+    editor.textContent = loadCode();
+    editor.addEventListener("input", function () { saveCode(); });
+  }
+
   function initEditor() {
-    if (window.CodeJar && window.Prism) {
-      jar = window.CodeJar(editor, function (el) {
-        window.Prism.highlightElement(el);
-      }, {
-        tab: "    ",
-        indentOn: /[(\[{:]\s*$/
-      });
-      jar.updateCode(loadCode());
-      jar.onUpdate(function (code) { saveCode(code); });
-    } else {
-      // Fallback: plain contenteditable, no highlighting.
-      editor.contentEditable = "plaintext-only";
-      editor.textContent = loadCode();
-      editor.addEventListener("input", function () { saveCode(); });
+    // Show the starter code immediately so the editor never looks empty
+    // while CodeJar streams in.
+    editor.textContent = loadCode();
+
+    // CodeJar 4.x is published as an ES module, so a classic <script src>
+    // tag can't load it - the browser throws on the top-level `export` and
+    // never defines CodeJar. Pull it in with a dynamic import() (which does
+    // understand ES modules) and then layer Prism highlighting on top.
+    // Fall back to a plain editable area if either piece is unavailable.
+    if (!window.Prism) {
+      enablePlainEditor();
+      return;
     }
+
+    import(CODEJAR_URL)
+      .then(function (mod) {
+        if (mod && typeof mod.CodeJar === "function") enableHighlighting(mod.CodeJar);
+        else enablePlainEditor();
+      })
+      .catch(function () { enablePlainEditor(); });
   }
 
   // Ctrl/Cmd + Enter runs the code (works whether CodeJar is loaded or not).
