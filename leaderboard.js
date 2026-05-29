@@ -56,7 +56,7 @@
     // Mr H: untouchable, always on top, regardless of class filter or data state.
     body.appendChild(buildTeacherRow());
 
-    if (!cachedRows) { status.textContent = "Loading…"; return; }
+    if (!cachedRows) { status.textContent = "Loading…"; appendGremlinRows(body); return; }
 
     let rows = cachedRows;
     // Teacher accounts never appear in the regular rankings - Mr H lives in
@@ -74,7 +74,7 @@
       return (a.first_name + a.last_name).localeCompare(b.first_name + b.last_name);
     });
 
-    if (!rows.length) { status.textContent = emptyMessage(); return; }
+    if (!rows.length) { status.textContent = emptyMessage(); appendGremlinRows(body); return; }
     status.textContent = "";
 
     const session = window.ITBasics && window.ITBasics.getSession();
@@ -93,6 +93,29 @@
       const rankClass = rank === 1 ? "gold" : rank === 2 ? "silver" : rank === 3 ? "bronze" : "";
       tr.innerHTML =
         '<td class="col-rank"><span class="rank-pill ' + rankClass + '">' + rank + '</span></td>' +
+        '<td class="col-name">' + name + '</td>' +
+        '<td class="col-class">' + escapeHtml(r.class) + '</td>' +
+        bodyCells(r);
+      body.appendChild(tr);
+    });
+
+    appendGremlinRows(body);
+  }
+
+  // The TEST class (gremlin test account) is shown but never ranked: it sits
+  // in its own row at the bottom with its real scores and no rank number, so
+  // it can't bump or affect the real standings.
+  function appendGremlinRows(body) {
+    if (!cachedRows) return;
+    const session = window.ITBasics && window.ITBasics.getSession();
+    const myCode = session ? session.code : null;
+    cachedRows.filter(function (r) { return r.class === "TEST"; }).forEach(function (r) {
+      const tr = document.createElement("tr");
+      tr.className = "gremlin" + (r.code === myCode ? " me" : "");
+      const name = escapeHtml(r.first_name) + " " + escapeHtml(r.last_name) +
+        ' <span class="ghost-tag">test</span>';
+      tr.innerHTML =
+        '<td class="col-rank"><span class="rank-pill gremlin-rank" title="Test account - not ranked">-</span></td>' +
         '<td class="col-name">' + name + '</td>' +
         '<td class="col-class">' + escapeHtml(r.class) + '</td>' +
         bodyCells(r);

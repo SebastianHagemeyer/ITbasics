@@ -958,6 +958,26 @@ html[data-auth="out"] .site-footer { display: none; }
   border-color: var(--primary-dark);
   color: white;
 }
+/* Gremlin / test account: visible on the board but never ranked. */
+.leaderboard-table tbody tr.gremlin { background: #f3f0fb; }
+.leaderboard-table tbody tr.gremlin td { color: var(--muted); }
+.rank-pill.gremlin-rank {
+  background: var(--surface);
+  border-style: dashed;
+  border-color: var(--border);
+  color: var(--muted);
+}
+.ghost-tag {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 1px 8px;
+  background: var(--highlight);
+  color: #fff;
+  font-size: 0.72rem;
+  border-radius: 999px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
 
 /* Sandbox (Pyodide placeholder layout) */
 .sandbox-shell {
