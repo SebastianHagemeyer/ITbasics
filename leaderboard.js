@@ -60,8 +60,9 @@
 
     let rows = cachedRows;
     // Teacher accounts never appear in the regular rankings - Mr H lives in
-    // his own pinned row above.
-    rows = rows.filter(function (r) { return r.class !== "TEACHER"; });
+    // his own pinned row above. The TEST class (gremlin test account) is
+    // hidden too, so testing never pollutes the standings.
+    rows = rows.filter(function (r) { return r.class !== "TEACHER" && r.class !== "TEST"; });
     if (currentClass !== "ALL") rows = rows.filter(function (r) { return r.class === currentClass; });
 
     // Only show students who have something on this board; sort by the

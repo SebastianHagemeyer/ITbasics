@@ -133,6 +133,20 @@ on conflict (code) do update set
   year_level = excluded.year_level;
 
 -- ============================================================
+-- Test "gremlin" account
+-- ============================================================
+-- A throwaway account for trying the site as a student without using a
+-- real kid's code. Its class is TEST, which leaderboard.js hides from the
+-- rankings, so testing never pollutes the standings. Sign in with: GREMLIN
+insert into students (code, first_name, last_name, class, year_level) values
+  ('GREMLIN', 'Gremlin', 'McTest', 'TEST', 0)
+on conflict (code) do update set
+  first_name = excluded.first_name,
+  last_name  = excluded.last_name,
+  class      = excluded.class,
+  year_level = excluded.year_level;
+
+-- ============================================================
 -- Teacher view: latest & best score per student per quiz
 -- ============================================================
 create or replace view teacher_scoreboard as
