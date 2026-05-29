@@ -44,6 +44,9 @@
     const status = document.getElementById("leaderboard-status");
     body.innerHTML = "";
 
+    // Mr H: untouchable, always on top, regardless of class filter or data state.
+    body.appendChild(buildTeacherRow());
+
     if (!cachedRows) { status.textContent = "Loading…"; return; }
 
     let rows = cachedRows;
@@ -90,6 +93,22 @@
         '<td class="col-total"><strong>' + r.total + '</strong></td>';
       body.appendChild(tr);
     });
+  }
+
+  function buildTeacherRow() {
+    const tr = document.createElement("tr");
+    tr.className = "teacher";
+    tr.innerHTML =
+      '<td class="col-rank"><span class="rank-pill aura">∞</span></td>' +
+      '<td class="col-name">Mr H <span class="teacher-tag">GOAT</span></td>' +
+      '<td class="col-class">STAFF</td>' +
+      '<td class="col-score">∞</td>' +
+      '<td class="col-score">∞</td>' +
+      '<td class="col-score">∞</td>' +
+      '<td class="col-score">∞</td>' +
+      '<td class="col-score">∞</td>' +
+      '<td class="col-total"><strong>∞</strong></td>';
+    return tr;
   }
 
   function scoreCell(v) {
