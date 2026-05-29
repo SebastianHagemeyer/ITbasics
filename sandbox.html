@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Leaderboard | Hallam IT Basics</title>
+  <title>Sandbox | Hallam IT Basics</title>
   <link rel="icon" type="image/svg+xml" href="logo-binary.svg" />
   <link rel="apple-touch-icon" href="logo-binary.svg" />
   <link rel="stylesheet" href="styles.css" />
@@ -38,9 +38,9 @@
             <a href="quizzes.html" role="menuitem">Quizzes</a>
           </div>
         </div>
-        <a href="sandbox.html">Sandbox</a>
+        <a href="sandbox.html" class="active">Sandbox</a>
         <a href="freeplay.html">Freeplay</a>
-        <a href="leaderboard.html" class="active">Leaderboard</a>
+        <a href="leaderboard.html">Leaderboard</a>
       </nav>
     </div>
   </header>
@@ -48,39 +48,33 @@
   <main>
     <section class="page-hero">
       <div class="container">
-        <p class="eyebrow">Class standings</p>
-        <h1>Leaderboard</h1>
-        <p class="lead">Best score per quiz plus every correct Freeplay answer, summed for a grand total. Retake quizzes or grind Freeplay to climb the ladder.</p>
+        <p class="eyebrow">Coming soon</p>
+        <h1>Python Sandbox</h1>
+        <p class="lead">Real Python, running right in your browser. No install, no setup. Hit Run and see what your code does.</p>
       </div>
     </section>
 
     <div class="container section">
-      <div class="quiz-tabs" role="tablist" data-tabs="class">
-        <button class="quiz-tab active" data-class="7A" role="tab">7A</button>
-        <button class="quiz-tab" data-class="7B" role="tab">7B</button>
-        <button class="quiz-tab" data-class="9ITAA" role="tab">9ITAA</button>
-        <button class="quiz-tab" data-class="ALL" role="tab">All</button>
-      </div>
+      <div class="sandbox-shell">
+        <div class="sandbox-editor">
+          <div class="sandbox-bar">
+            <span class="sandbox-title">main.py</span>
+            <button type="button" class="btn btn-primary sandbox-run" disabled>Run</button>
+          </div>
+          <textarea class="sandbox-code" spellcheck="false" disabled># Sandbox isn't wired up yet.
+# Soon you'll be able to type and run real Python here.
 
-      <div id="leaderboard-status" class="leaderboard-status">Loading…</div>
-
-      <div class="leaderboard-wrap">
-        <table class="leaderboard-table" id="leaderboard">
-          <thead>
-            <tr>
-              <th class="col-rank">#</th>
-              <th>Student</th>
-              <th class="col-class">Class</th>
-              <th>Programming</th>
-              <th>HTML</th>
-              <th>Python</th>
-              <th>Mixed</th>
-              <th>Freeplay</th>
-              <th class="col-total">Total</th>
-            </tr>
-          </thead>
-          <tbody id="leaderboard-body"></tbody>
-        </table>
+print("Hello, Hallam!")
+for i in range(3):
+    print("ready?", i)
+</textarea>
+        </div>
+        <div class="sandbox-output">
+          <div class="sandbox-bar">
+            <span class="sandbox-title">Output</span>
+          </div>
+          <pre class="sandbox-out-body">Output will appear here once the sandbox is wired up.</pre>
+        </div>
       </div>
     </div>
   </main>
@@ -94,6 +88,5 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
   <script src="supabase-config.js"></script>
   <script src="app.js"></script>
-  <script src="leaderboard.js"></script>
 </body>
 </html>
