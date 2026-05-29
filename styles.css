@@ -902,6 +902,53 @@ html[data-auth="out"] .site-footer { display: none; }
   border-color: #8B4513;
   color: white;
 }
+.rank-pill.aura {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--highlight) 100%);
+  border-color: #FFD700;
+  color: #FFFF00;
+  font-size: 1.15rem;
+  box-shadow: 0 0 14px rgba(255, 215, 0, 0.65);
+  animation: aura-glow 2.4s ease-in-out infinite;
+}
+
+/* Mr H — always pinned to the top of the leaderboard. */
+.leaderboard-table tr.teacher {
+  background: linear-gradient(90deg, #FFE680 0%, #FFFF00 25%, #FFD700 50%, #FFFF00 75%, #FFE680 100%) !important;
+  background-size: 220% 100%;
+  animation: aura-shimmer 4s linear infinite;
+  font-weight: 700;
+  position: relative;
+}
+.leaderboard-table tr.teacher td { border-bottom-color: #B8860B; color: var(--primary-dark); }
+.leaderboard-table tr.teacher .col-class { color: var(--primary-dark); font-weight: 700; letter-spacing: 0.05em; }
+.leaderboard-table tr.teacher .col-total strong {
+  font-size: 1.5rem;
+  color: var(--primary-dark);
+  text-shadow: 0 0 8px rgba(255, 215, 0, 0.8);
+}
+.leaderboard-table tr.teacher .col-score { font-size: 1.1rem; color: var(--primary-dark); }
+
+.teacher-tag {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 1px 8px;
+  background: var(--primary);
+  color: var(--accent);
+  font-size: 0.72rem;
+  border-radius: 999px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+@keyframes aura-shimmer {
+  0%   { background-position: 0% 0%; }
+  100% { background-position: 220% 0%; }
+}
+@keyframes aura-glow {
+  0%, 100% { box-shadow: 0 0 10px rgba(255, 215, 0, 0.5); }
+  50%      { box-shadow: 0 0 18px rgba(255, 215, 0, 0.9); }
+}
 
 /* Footer */
 .site-footer {
