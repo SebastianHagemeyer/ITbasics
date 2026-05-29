@@ -48,9 +48,9 @@
   <main>
     <section class="page-hero">
       <div class="container">
-        <p class="eyebrow">Coming soon</p>
+        <p class="eyebrow">Try it live</p>
         <h1>Python Sandbox</h1>
-        <p class="lead">Real Python, running right in your browser. No install, no setup. Hit Run and see what your code does.</p>
+        <p class="lead">Real Python, running right in your browser. Edit the code, hit Run, see what happens. No install, no setup.</p>
       </div>
     </section>
 
@@ -59,23 +59,29 @@
         <div class="sandbox-editor">
           <div class="sandbox-bar">
             <span class="sandbox-title">main.py</span>
-            <button type="button" class="btn btn-primary sandbox-run" disabled>Run</button>
+            <div class="sandbox-bar-actions">
+              <button type="button" class="btn btn-ghost sandbox-reset" title="Reset to the example">Reset</button>
+              <button type="button" class="btn btn-primary sandbox-run" id="sandbox-run">
+                <span class="sandbox-run-label">Run</span>
+              </button>
+            </div>
           </div>
-          <textarea class="sandbox-code" spellcheck="false" disabled># Sandbox isn't wired up yet.
-# Soon you'll be able to type and run real Python here.
-
-print("Hello, Hallam!")
-for i in range(3):
-    print("ready?", i)
-</textarea>
+          <textarea class="sandbox-code" id="sandbox-code" spellcheck="false"></textarea>
         </div>
         <div class="sandbox-output">
           <div class="sandbox-bar">
             <span class="sandbox-title">Output</span>
+            <button type="button" class="btn btn-ghost sandbox-clear" title="Clear the output">Clear</button>
           </div>
-          <pre class="sandbox-out-body">Output will appear here once the sandbox is wired up.</pre>
+          <pre class="sandbox-out-body" id="sandbox-output"></pre>
         </div>
       </div>
+
+      <p class="sandbox-hint">
+        <kbd>Ctrl</kbd>+<kbd>Enter</kbd> to run &middot;
+        <kbd>Tab</kbd> inserts 4 spaces &middot;
+        Python loads the first time you press Run (5-10 seconds), then it's instant.
+      </p>
     </div>
   </main>
 
@@ -88,5 +94,6 @@ for i in range(3):
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
   <script src="supabase-config.js"></script>
   <script src="app.js"></script>
+  <script src="sandbox.js"></script>
 </body>
 </html>
