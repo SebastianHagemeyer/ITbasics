@@ -6,17 +6,24 @@
   const STORAGE_KEY = "itbasics-sandbox-code";
 
   const DEFAULT_CODE =
-    '# Welcome to the Python sandbox. Edit the code and hit Run.\n' +
+    '# Try editing and hit Run.\n' +
     '# Press Ctrl+Enter to run, Tab to indent.\n\n' +
     'print("Hello, Hallam!")\n\n' +
-    'for i in range(3):\n' +
-    '    print("Loop iteration", i)\n\n' +
-    'name = input("What is your name? ")\n' +
-    'print("Nice to meet you,", name)\n';
+    '# A loop\n' +
+    'for i in range(5):\n' +
+    '    print("Number:", i, "squared is", i ** 2)\n\n' +
+    '# A list\n' +
+    'names = ["Ava", "Saxon", "Kamran"]\n' +
+    'for name in names:\n' +
+    '    print("Hey,", name + "!")\n\n' +
+    '# Maths\n' +
+    'total = sum(range(1, 11))\n' +
+    'print("Sum of 1 to 10 is", total)\n';
 
   let pyodide = null;
   let loadingPromise = null;
   let running = false;
+  let jar = null;
 
   const editor   = document.getElementById("sandbox-code");
   const output   = document.getElementById("sandbox-output");
@@ -27,13 +34,19 @@
 
   if (!editor || !output || !runBtn) return;
 
+  function getCode() {
+    return jar ? jar.toString() : editor.textContent;
+  }
+  function setCode(code) {
+    if (jar) jar.updateCode(code);
+    else editor.textContent = code;
+  }
   function loadCode() {
     const saved = localStorage.getItem(STORAGE_KEY);
-    editor.value = (saved && saved.length) ? saved : DEFAULT_CODE;
+    return (saved && saved.length) ? saved : DEFAULT_CODE;
   }
-
-  function saveCode() {
-    localStorage.setItem(STORAGE_KEY, editor.value);
+  function saveCode(code) {
+    localStorage.setItem(STORAGE_KEY, code == null ? getCode() : code);
   }
 
   function setRunLabel(text, busy) {
@@ -49,7 +62,6 @@
     output.appendChild(span);
     output.scrollTop = output.scrollHeight;
   }
-
   function clearOut() { output.innerHTML = ""; }
 
   function loadPyodideScript() {
@@ -76,15 +88,15 @@
       });
       pyodide.setStdout({ batched: function (s) { appendOut(s, "stdout"); } });
       pyodide.setStderr({ batched: function (s) { appendOut(s, "stderr"); } });
-      // Replace input() with a JS prompt so it works in the browser.
-      pyodide.globals.set("__browser_input", function (p) {
-        const v = window.prompt(p == null ? "" : String(p));
-        return v == null ? "" : v;
-      });
+      // input() isn't wired up in the sandbox yet - give a clear error
+      // instead of the browser's prompt() dialog.
       await pyodide.runPythonAsync(
+        "def __no_input(*args, **kwargs):\n" +
+        "    raise RuntimeError(\"input() isn't supported in the sandbox yet. \" +\n" +
+        "        \"Try setting a variable instead, e.g. name = 'Alex'\")\n" +
         "import builtins\n" +
-        "builtins.input = __browser_input\n" +
-        "del __browser_input\n"
+        "builtins.input = __no_input\n" +
+        "del __no_input\n"
       );
       appendOut("Python ready. Running your code…", "info");
       return pyodide;
@@ -100,7 +112,7 @@
     setRunLabel("Running…", true);
     try {
       const py = await ensurePyodide();
-      await py.runPythonAsync(editor.value);
+      await py.runPythonAsync(getCode());
     } catch (err) {
       const msg = (err && err.message) ? err.message : String(err);
       appendOut(msg, "stderr");
@@ -112,24 +124,30 @@
 
   function reset() {
     if (!window.confirm("Reset the editor to the example code? Your current code will be lost.")) return;
-    editor.value = DEFAULT_CODE;
-    saveCode();
+    setCode(DEFAULT_CODE);
+    saveCode(DEFAULT_CODE);
     editor.focus();
   }
 
-  // Tab key inserts 4 spaces instead of moving focus.
-  editor.addEventListener("keydown", function (e) {
-    if (e.key === "Tab") {
-      e.preventDefault();
-      const start = editor.selectionStart;
-      const end = editor.selectionEnd;
-      const value = editor.value;
-      editor.value = value.substring(0, start) + "    " + value.substring(end);
-      editor.selectionStart = editor.selectionEnd = start + 4;
+  function initEditor() {
+    if (window.CodeJar && window.Prism) {
+      jar = window.CodeJar(editor, function (el) {
+        window.Prism.highlightElement(el);
+      }, {
+        tab: "    ",
+        indentOn: /[(\[{:]\s*$/
+      });
+      jar.updateCode(loadCode());
+      jar.onUpdate(function (code) { saveCode(code); });
+    } else {
+      // Fallback: plain contenteditable, no highlighting.
+      editor.contentEditable = "plaintext-only";
+      editor.textContent = loadCode();
+      editor.addEventListener("input", function () { saveCode(); });
     }
-  });
+  }
 
-  // Ctrl/Cmd + Enter runs the code.
+  // Ctrl/Cmd + Enter runs the code (works whether CodeJar is loaded or not).
   editor.addEventListener("keydown", function (e) {
     if ((e.ctrlKey || e.metaKey) && e.key === "Enter") {
       e.preventDefault();
@@ -137,10 +155,9 @@
     }
   });
 
-  editor.addEventListener("input", saveCode);
   runBtn.addEventListener("click", run);
   if (resetBtn) resetBtn.addEventListener("click", reset);
   if (clearBtn) clearBtn.addEventListener("click", clearOut);
 
-  loadCode();
+  initEditor();
 })();

@@ -991,17 +991,39 @@ html[data-auth="out"] .site-footer { display: none; }
   opacity: 0.85;
 }
 .sandbox-code {
+  display: block;
   flex: 1;
   background: transparent;
   color: var(--code-text);
-  border: 0;
-  resize: none;
   padding: 14px 18px;
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   font-size: 0.95rem;
   line-height: 1.55;
   outline: none;
+  overflow: auto;
+  white-space: pre;
+  tab-size: 4;
+  -moz-tab-size: 4;
+  caret-color: var(--accent);
+  min-height: 280px;
+  word-break: normal;
 }
+.sandbox-code:focus { outline: none; }
+
+/* Prism token colours - match the project's static code palette */
+.sandbox-code .token.keyword,
+.sandbox-code .token.class-name      { color: #c792ea; }
+.sandbox-code .token.string,
+.sandbox-code .token.attr-value      { color: #c3e88d; }
+.sandbox-code .token.number,
+.sandbox-code .token.boolean         { color: #f78c6c; }
+.sandbox-code .token.comment         { color: #8b92b0; font-style: italic; }
+.sandbox-code .token.operator,
+.sandbox-code .token.punctuation     { color: #89ddff; }
+.sandbox-code .token.function,
+.sandbox-code .token.builtin         { color: #82aaff; }
+.sandbox-code .token.decorator       { color: #ffcb6b; }
+.sandbox-code .token.namespace       { opacity: 0.7; }
 .sandbox-out-body {
   flex: 1;
   margin: 0;
@@ -1027,14 +1049,14 @@ html[data-auth="out"] .site-footer { display: none; }
   border-radius: 8px;
 }
 .sandbox-bar .btn-ghost {
-  background: transparent;
+  background: rgba(255, 255, 255, 0.1);
   color: var(--code-text);
-  border-color: rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.35);
 }
 .sandbox-bar .btn-ghost:hover {
-  background: rgba(255, 255, 255, 0.08);
-  border-color: rgba(255, 255, 255, 0.32);
-  color: var(--code-text);
+  background: rgba(255, 255, 255, 0.22);
+  border-color: rgba(255, 255, 255, 0.6);
+  color: white;
 }
 
 .sandbox-out-body .out-stdout { color: var(--code-text); }
