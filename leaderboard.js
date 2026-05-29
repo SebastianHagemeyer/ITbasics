@@ -50,6 +50,9 @@
     if (!cachedRows) { status.textContent = "Loading…"; return; }
 
     let rows = cachedRows;
+    // Teacher accounts never appear in the regular rankings - Mr H lives in
+    // his own pinned row above.
+    rows = rows.filter(function (r) { return r.class !== "TEACHER"; });
     if (currentClass !== "ALL") rows = rows.filter(function (r) { return r.class === currentClass; });
 
     // Only show students with at least one attempt; sort by total desc, then by name.
@@ -96,12 +99,15 @@
   }
 
   function buildTeacherRow() {
+    const session = window.ITBasics && window.ITBasics.getSession();
+    const isMe = !!(session && session.class === "TEACHER");
     const tr = document.createElement("tr");
-    tr.className = "teacher";
+    tr.className = "teacher" + (isMe ? " me" : "");
+    const tag = isMe ? ' <span class="you-tag">you</span>' : '';
     tr.innerHTML =
-      '<td class="col-rank"><span class="rank-pill aura">∞</span></td>' +
-      '<td class="col-name">Mr H <span class="teacher-tag">GOAT</span></td>' +
-      '<td class="col-class">STAFF</td>' +
+      '<td class="col-rank"><span class="rank-pill teacher-rank">0</span></td>' +
+      '<td class="col-name">Mr H' + tag + '</td>' +
+      '<td class="col-class">TEACHER</td>' +
       '<td class="col-score">∞</td>' +
       '<td class="col-score">∞</td>' +
       '<td class="col-score">∞</td>' +
