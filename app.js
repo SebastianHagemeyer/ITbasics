@@ -191,9 +191,48 @@
     client: function () { return supabase; }
   };
 
+  function setupNavDropdowns() {
+    const dropdowns = document.querySelectorAll(".nav-dropdown");
+    if (!dropdowns.length) return;
+
+    function closeAll() {
+      dropdowns.forEach(function (dd) {
+        dd.dataset.open = "false";
+        const t = dd.querySelector(".nav-dropdown-toggle");
+        if (t) t.setAttribute("aria-expanded", "false");
+      });
+    }
+
+    dropdowns.forEach(function (dd) {
+      const toggle = dd.querySelector(".nav-dropdown-toggle");
+      if (!toggle) return;
+      toggle.addEventListener("click", function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        const wasOpen = dd.dataset.open === "true";
+        closeAll();
+        if (!wasOpen) {
+          dd.dataset.open = "true";
+          toggle.setAttribute("aria-expanded", "true");
+        }
+      });
+    });
+
+    document.addEventListener("click", function (e) {
+      let inside = false;
+      dropdowns.forEach(function (dd) { if (dd.contains(e.target)) inside = true; });
+      if (!inside) closeAll();
+    });
+
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape") closeAll();
+    });
+  }
+
   function boot() {
     applyAuthState();
     renderAuthBar();
+    setupNavDropdowns();
   }
 
   if (document.readyState === "loading") {

@@ -26,9 +26,17 @@
       </a>
       <nav class="site-nav" aria-label="Primary">
         <a href="index.html">Home</a>
-        <a href="programming-basics.html" class="active">Programming</a>
-        <a href="html-basics.html">HTML</a>
-        <a href="python-basics.html">Python</a>
+        <div class="nav-dropdown" data-open="false">
+          <button type="button" class="nav-dropdown-toggle active" aria-haspopup="true" aria-expanded="false">
+            Topics
+            <svg class="nav-chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="nav-dropdown-menu" role="menu">
+            <a href="programming-basics.html" class="active" role="menuitem">Programming</a>
+            <a href="html-basics.html" role="menuitem">HTML</a>
+            <a href="python-basics.html" role="menuitem">Python</a>
+          </div>
+        </div>
         <a href="modules.html">Modules</a>
         <a href="freeplay.html">Freeplay</a>
         <a href="leaderboard.html">Leaderboard</a>
