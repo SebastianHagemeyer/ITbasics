@@ -3,7 +3,7 @@
 
   let cachedRows = null;
   let currentClass = "7A";
-  let currentMode = "quiz"; // "quiz" | "livecoding"
+  let currentMode = "quiz"; // "quiz" | "livecoding" | "freeplay"
 
   async function loadRows() {
     const status = document.getElementById("leaderboard-status");
@@ -37,13 +37,16 @@
     });
   }
 
-  // The ranking metric depends on the mode.
+  // The ranking metric depends on the mode. Quiz total covers only the four
+  // structured quizzes - Freeplay has its own board now.
   function quizTotal(r) {
     return (r.scores.programming || 0) + (r.scores.html || 0) + (r.scores.python || 0) +
-           (r.scores.mixed || 0) + (r.freeplay || 0);
+           (r.scores.mixed || 0);
   }
   function metricFor(r) {
-    return currentMode === "livecoding" ? (r.livecoding || 0) : quizTotal(r);
+    if (currentMode === "livecoding") return r.livecoding || 0;
+    if (currentMode === "freeplay")   return r.freeplay   || 0;
+    return quizTotal(r);
   }
 
   function render() {
@@ -127,8 +130,10 @@
     let cols;
     if (currentMode === "livecoding") {
       cols = '<th class="col-total">Challenges done</th>';
+    } else if (currentMode === "freeplay") {
+      cols = '<th class="col-total">Freeplay correct</th>';
     } else {
-      cols = '<th>Programming</th><th>HTML</th><th>Python</th><th>Mixed</th><th>Freeplay</th>' +
+      cols = '<th>Programming</th><th>HTML</th><th>Python</th><th>Mixed</th>' +
              '<th class="col-total">Total</th>';
     }
     return '<tr><th class="col-rank">#</th><th>Student</th><th class="col-class">Class</th>' + cols + '</tr>';
@@ -138,11 +143,13 @@
     if (currentMode === "livecoding") {
       return '<td class="col-total"><strong>' + (r.livecoding || 0) + '</strong></td>';
     }
+    if (currentMode === "freeplay") {
+      return '<td class="col-total"><strong>' + (r.freeplay || 0) + '</strong></td>';
+    }
     return scoreCell(r.scores.programming) +
            scoreCell(r.scores.html) +
            scoreCell(r.scores.python) +
            scoreCell(r.scores.mixed) +
-           scoreCell(r.freeplay || null) +
            '<td class="col-total"><strong>' + quizTotal(r) + '</strong></td>';
   }
 
@@ -153,11 +160,11 @@
     tr.className = "teacher" + (isMe ? " me" : "");
     const tag = isMe ? ' <span class="you-tag">you</span>' : '';
     let mid;
-    if (currentMode === "livecoding") {
+    if (currentMode === "livecoding" || currentMode === "freeplay") {
       mid = '<td class="col-total"><strong>∞</strong></td>';
     } else {
       mid = '<td class="col-score">∞</td><td class="col-score">∞</td><td class="col-score">∞</td>' +
-            '<td class="col-score">∞</td><td class="col-score">∞</td>' +
+            '<td class="col-score">∞</td>' +
             '<td class="col-total"><strong>∞</strong></td>';
     }
     tr.innerHTML =
@@ -168,7 +175,9 @@
   }
 
   function emptyMessage() {
-    const what = currentMode === "livecoding" ? "cracked a challenge" : "tried a quiz";
+    const what = currentMode === "livecoding" ? "cracked a challenge"
+               : currentMode === "freeplay"   ? "tried Freeplay"
+               :                                "tried a quiz";
     return currentClass === "ALL"
       ? "No one has " + what + " yet. Be the first!"
       : "No one in " + currentClass + " has " + what + " yet. You could be first!";
