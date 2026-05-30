@@ -10,9 +10,13 @@
   // ---- Challenge definitions ------------------------------------------------
   // Each test feeds scripted input() values and (for the guessing game) forces
   // the "random" secret to a known value. check(result, test) -> {pass, why}.
+  const TIER_LABELS = { beginner: "Beginner", intermediate: "Intermediate", stretch: "Stretch" };
+
   const CHALLENGES = [
+    // -------- Beginner --------
     {
       id: "greeter",
+      tier: "beginner",
       title: "Greeter",
       brief: "Ask for a name and say hello back.",
       detail: "Read a name with <code>input()</code>, then print a greeting that includes the name they typed.",
@@ -22,12 +26,116 @@
         'name = input("What is your name? ")\n' +
         '# Now print a friendly greeting that uses their name\n',
       tests: [
-        { label: 'Name: "Alex"', inputs: ["Alex"], check: function (r) { return checkGreeter(r, "Alex"); } },
+        { label: 'Name: "Alex"',  inputs: ["Alex"],  check: function (r) { return checkGreeter(r, "Alex"); } },
         { label: 'Name: "Priya"', inputs: ["Priya"], check: function (r) { return checkGreeter(r, "Priya"); } }
       ]
     },
     {
+      id: "shout",
+      tier: "beginner",
+      title: "Shout it",
+      brief: "Take a word and print it in CAPITAL LETTERS.",
+      detail: "Read a word with <code>input()</code>, then print it back, all in capitals. Hint: every string has an <code>.upper()</code> method.",
+      accept: "Your output must contain the typed word, all in capitals (e.g. \"hello\" &rarr; \"HELLO\").",
+      starter:
+        '# Shout it\n' +
+        'word = input("A word? ")\n' +
+        '# print the word in capital letters\n',
+      tests: [
+        { label: 'Word: "hello"',  inputs: ["hello"],  check: function (r) { return checkShout(r, "hello"); } },
+        { label: 'Word: "python"', inputs: ["python"], check: function (r) { return checkShout(r, "python"); } },
+        { label: 'Word: "Hallam"', inputs: ["Hallam"], check: function (r) { return checkShout(r, "Hallam"); } }
+      ]
+    },
+    {
+      id: "double",
+      tier: "beginner",
+      title: "Double it",
+      brief: "Ask for a number and print double its value.",
+      detail: "Read a number with <code>input()</code> (remember to convert with <code>int()</code>) and print it doubled.",
+      accept: "Your output must contain the doubled value.",
+      starter:
+        '# Double it\n' +
+        'n = int(input("A number? "))\n' +
+        '# print double the value\n',
+      tests: [
+        { label: "Input: 5",   inputs: ["5"],   check: function (r) { return checkDouble(r, 5); } },
+        { label: "Input: 12",  inputs: ["12"],  check: function (r) { return checkDouble(r, 12); } },
+        { label: "Input: 100", inputs: ["100"], check: function (r) { return checkDouble(r, 100); } },
+        { label: "Input: 0",   inputs: ["0"],   check: function (r) { return checkDouble(r, 0); } }
+      ]
+    },
+    {
+      id: "add-two",
+      tier: "beginner",
+      title: "Add two numbers",
+      brief: "Ask for two numbers and print their sum.",
+      detail: "Read two numbers (don't forget <code>int()</code>) and print the result of adding them.",
+      accept: "Your output must contain the correct sum.",
+      starter:
+        '# Add two numbers\n' +
+        'a = int(input("First number? "))\n' +
+        'b = int(input("Second number? "))\n' +
+        '# print the sum\n',
+      tests: [
+        { label: "3 + 4",   inputs: ["3", "4"],   check: function (r) { return checkAdd(r, 3, 4); } },
+        { label: "10 + 5",  inputs: ["10", "5"],  check: function (r) { return checkAdd(r, 10, 5); } },
+        { label: "12 + 8",  inputs: ["12", "8"],  check: function (r) { return checkAdd(r, 12, 8); } },
+        { label: "25 + 17", inputs: ["25", "17"], check: function (r) { return checkAdd(r, 25, 17); } }
+      ]
+    },
+    {
+      id: "countdown",
+      tier: "beginner",
+      title: "Countdown",
+      brief: "Print 5, 4, 3, 2, 1, then GO!",
+      detail: "Print the numbers 5 down to 1, then print <strong>GO!</strong>. You can use a loop (with <code>range</code> and step <code>-1</code>) or just print them one at a time.",
+      accept: "Your output must contain 5, 4, 3, 2, 1 and the word GO.",
+      starter:
+        '# Countdown\n' +
+        '# print 5, 4, 3, 2, 1 (one per line) then GO!\n',
+      tests: [
+        { label: "Counts down to GO", inputs: [], check: checkCountdown }
+      ]
+    },
+    {
+      id: "even-odd",
+      tier: "beginner",
+      title: "Even or odd",
+      brief: "Tell the user whether their number is even or odd.",
+      detail: "Read a number with <code>int(input())</code>. If it divides evenly by 2 print <strong>Even</strong>, otherwise print <strong>Odd</strong>. Hint: <code>n % 2</code> gives the remainder.",
+      accept: 'Your output must say "Even" for even numbers and "Odd" for odd ones &mdash; not both.',
+      starter:
+        '# Even or odd\n' +
+        'n = int(input("A number? "))\n' +
+        '# print "Even" if n is even, otherwise print "Odd"\n',
+      tests: [
+        { label: "Input: 10 (even)", inputs: ["10"], check: function (r) { return checkEvenOdd(r, 10); } },
+        { label: "Input: 7 (odd)",   inputs: ["7"],  check: function (r) { return checkEvenOdd(r, 7); } },
+        { label: "Input: 0 (even)",  inputs: ["0"],  check: function (r) { return checkEvenOdd(r, 0); } },
+        { label: "Input: 21 (odd)",  inputs: ["21"], check: function (r) { return checkEvenOdd(r, 21); } }
+      ]
+    },
+    {
+      id: "letter-count",
+      tier: "beginner",
+      title: "Letter count",
+      brief: "Tell the user how many letters are in their word.",
+      detail: "Read a word with <code>input()</code> and print the number of letters in it. Hint: <code>len(word)</code> gives the length.",
+      accept: "Your output must contain the correct letter count.",
+      starter:
+        '# Letter count\n' +
+        'word = input("A word? ")\n' +
+        '# print how many letters are in the word\n',
+      tests: [
+        { label: 'Word: "cat" (3)',     inputs: ["cat"],     check: function (r) { return checkLetterCount(r, "cat"); } },
+        { label: 'Word: "python" (6)',  inputs: ["python"],  check: function (r) { return checkLetterCount(r, "python"); } },
+        { label: 'Word: "computer" (8)', inputs: ["computer"], check: function (r) { return checkLetterCount(r, "computer"); } }
+      ]
+    },
+    {
       id: "age",
+      tier: "beginner",
       title: "Age checker",
       brief: "Ask for an age and say whether they can watch a PG-13 film.",
       detail: "Read an age with <code>input()</code> (remember <code>input()</code> gives text &mdash; convert with <code>int()</code>). PG-13 films are for ages <strong>13 and over</strong>.",
@@ -43,8 +151,11 @@
         { label: "Age 7 (refused)", inputs: ["7"], check: function (r) { return checkAge(r, false); } }
       ]
     },
+
+    // -------- Intermediate --------
     {
       id: "times",
+      tier: "intermediate",
       title: "Times table",
       brief: "Ask for a number and print its times table up to 12.",
       detail: "Read a number with <code>int(input())</code>, then print its times table from 1 to 12 so every result (n&times;1 up to n&times;12) appears.",
@@ -59,7 +170,117 @@
       ]
     },
     {
+      id: "sum-to-n",
+      tier: "intermediate",
+      title: "Sum to n",
+      brief: "Ask for n, then print the sum of 1 + 2 + ... + n.",
+      detail: "Read n, then add up every number from 1 to n. You can use a loop with an accumulator, or the formula <code>n*(n+1)//2</code>.",
+      accept: "Your output must contain the correct total.",
+      starter:
+        '# Sum 1 + 2 + ... + n\n' +
+        'n = int(input("Sum 1 to what? "))\n' +
+        '# print the total\n',
+      tests: [
+        { label: "n = 5 -> 15",  inputs: ["5"],  check: function (r) { return checkSumToN(r, 5); } },
+        { label: "n = 10 -> 55", inputs: ["10"], check: function (r) { return checkSumToN(r, 10); } },
+        { label: "n = 3 -> 6",   inputs: ["3"],  check: function (r) { return checkSumToN(r, 3); } },
+        { label: "n = 100 -> 5050", inputs: ["100"], check: function (r) { return checkSumToN(r, 100); } }
+      ]
+    },
+    {
+      id: "multiples",
+      tier: "intermediate",
+      title: "First 5 multiples",
+      brief: "Ask for a number and print its first 5 multiples.",
+      detail: "Read n, then print n, 2n, 3n, 4n, 5n. A loop with <code>range(1, 6)</code> is a tidy way to do it.",
+      accept: "Your output must contain all 5 multiples (n&times;1 through n&times;5).",
+      starter:
+        '# First 5 multiples\n' +
+        'n = int(input("Number? "))\n' +
+        '# print the first 5 multiples of n\n',
+      tests: [
+        { label: "n = 3", inputs: ["3"], check: function (r) { return checkMultiples(r, 3); } },
+        { label: "n = 7", inputs: ["7"], check: function (r) { return checkMultiples(r, 7); } },
+        { label: "n = 11", inputs: ["11"], check: function (r) { return checkMultiples(r, 11); } }
+      ]
+    },
+    {
+      id: "biggest3",
+      tier: "intermediate",
+      title: "Biggest of three",
+      brief: "Ask for three numbers and print the biggest.",
+      detail: "Read three numbers and print the largest. You could compare them with <code>if</code> statements, or use the built-in <code>max()</code> function.",
+      accept: "Your output must include the biggest of the three.",
+      starter:
+        '# Biggest of three\n' +
+        'a = int(input("First? "))\n' +
+        'b = int(input("Second? "))\n' +
+        'c = int(input("Third? "))\n' +
+        '# print the biggest\n',
+      tests: [
+        { label: "5, 9, 2 -> 9",   inputs: ["5", "9", "2"],   check: function (r) { return checkBiggest3(r, 5, 9, 2); } },
+        { label: "10, 3, 7 -> 10", inputs: ["10", "3", "7"],  check: function (r) { return checkBiggest3(r, 10, 3, 7); } },
+        { label: "4, 8, 6 -> 8",   inputs: ["4", "8", "6"],   check: function (r) { return checkBiggest3(r, 4, 8, 6); } },
+        { label: "1, 2, 9 -> 9",   inputs: ["1", "2", "9"],   check: function (r) { return checkBiggest3(r, 1, 2, 9); } }
+      ]
+    },
+    {
+      id: "vowels",
+      tier: "intermediate",
+      title: "Count the vowels",
+      brief: "Count how many vowels are in a word.",
+      detail: "Read a word with <code>input()</code> and count how many letters are vowels (a, e, i, o, u). Print the count.",
+      accept: "Your output must contain the correct number of vowels.",
+      starter:
+        '# Count the vowels\n' +
+        'word = input("A word? ")\n' +
+        '# count the vowels (a, e, i, o, u) and print the count\n',
+      tests: [
+        { label: 'Word: "hello"  (2)',  inputs: ["hello"],  check: function (r) { return checkVowels(r, "hello"); } },
+        { label: 'Word: "python" (1)',  inputs: ["python"], check: function (r) { return checkVowels(r, "python"); } },
+        { label: 'Word: "aeiou"  (5)',  inputs: ["aeiou"],  check: function (r) { return checkVowels(r, "aeiou"); } },
+        { label: 'Word: "rhythm" (0)',  inputs: ["rhythm"], check: function (r) { return checkVowels(r, "rhythm"); } }
+      ]
+    },
+    {
+      id: "reverse",
+      tier: "intermediate",
+      title: "Reverse a word",
+      brief: "Print a word backwards.",
+      detail: "Read a word with <code>input()</code> and print it reversed. Hint: in Python, <code>word[::-1]</code> reverses a string.",
+      accept: "Your output must contain the reversed word.",
+      starter:
+        '# Reverse a word\n' +
+        'word = input("A word? ")\n' +
+        '# print the word backwards\n',
+      tests: [
+        { label: 'Word: "hello"  -> "olleh"',  inputs: ["hello"],  check: function (r) { return checkReverse(r, "hello"); } },
+        { label: 'Word: "python" -> "nohtyp"', inputs: ["python"], check: function (r) { return checkReverse(r, "python"); } },
+        { label: 'Word: "abc"    -> "cba"',    inputs: ["abc"],    check: function (r) { return checkReverse(r, "abc"); } }
+      ]
+    },
+    {
+      id: "fizz",
+      tier: "intermediate",
+      title: "Fizz",
+      brief: "Count to n, but say Fizz on multiples of 3.",
+      detail: "Read n, then print every number from 1 to n. But if a number is a multiple of 3, print <strong>Fizz</strong> instead of the number.",
+      accept: "Every number from 1 to n must appear, but multiples of 3 must be replaced by \"Fizz\".",
+      starter:
+        '# Fizz\n' +
+        'n = int(input("Count to? "))\n' +
+        '# for each i from 1 to n, print Fizz if i is a multiple of 3, otherwise print i\n',
+      tests: [
+        { label: "n = 5",  inputs: ["5"],  check: function (r) { return checkFizz(r, 5); } },
+        { label: "n = 9",  inputs: ["9"],  check: function (r) { return checkFizz(r, 9); } },
+        { label: "n = 12", inputs: ["12"], check: function (r) { return checkFizz(r, 12); } }
+      ]
+    },
+
+    // -------- Stretch --------
+    {
       id: "guess",
+      tier: "stretch",
       title: "Guessing game",
       brief: "The computer picks a secret number from 1 to 10. The player keeps guessing until they get it right.",
       detail: "The computer hides the number &mdash; the player has to find it." +
@@ -81,8 +302,75 @@
         '# 3) When guess == secret, print a success message like "Correct!".\n',
       tests: [
         { label: "Secret 7 - guesses 3, 1, 7", forceSecret: 7, inputs: ["3", "1", "7"], check: checkGuess },
-        { label: "Secret 2 - guesses 5, 2", forceSecret: 2, inputs: ["5", "2"], check: checkGuess },
-        { label: "Secret 4 - guessed first try", forceSecret: 4, inputs: ["4"], check: checkGuess }
+        { label: "Secret 2 - guesses 5, 2",    forceSecret: 2, inputs: ["5", "2"],      check: checkGuess },
+        { label: "Secret 4 - guessed first try", forceSecret: 4, inputs: ["4"],         check: checkGuess }
+      ]
+    },
+    {
+      id: "fizzbuzz",
+      tier: "stretch",
+      title: "FizzBuzz",
+      brief: "The classic. Print 1 to 15, with Fizz, Buzz and FizzBuzz.",
+      detail: "Print every number from 1 to 15, but: multiples of 3 print <strong>Fizz</strong>, multiples of 5 print <strong>Buzz</strong>, multiples of <strong>both</strong> print <strong>FizzBuzz</strong>.",
+      accept: "1, 2, 4, 7, 8, 11, 13, 14 appear as numbers. 3, 6, 9, 12 appear as Fizz. 5, 10 appear as Buzz. 15 appears as FizzBuzz.",
+      starter:
+        '# FizzBuzz: 1 to 15\n' +
+        '# Multiples of 3 -> Fizz, of 5 -> Buzz, of both -> FizzBuzz\n',
+      tests: [
+        { label: "FizzBuzz 1 to 15", inputs: [], check: checkFizzBuzz }
+      ]
+    },
+    {
+      id: "palindrome",
+      tier: "stretch",
+      title: "Palindrome check",
+      brief: "Check whether a word reads the same backwards.",
+      detail: "Read a word with <code>input()</code>. If it reads the same backwards (like \"racecar\"), print <strong>Palindrome</strong>. Otherwise print <strong>Not a palindrome</strong>.",
+      accept: 'For a palindrome, your output must contain "Palindrome" and not say "not". For a non-palindrome it must clearly say "not a palindrome".',
+      starter:
+        '# Palindrome check\n' +
+        'word = input("A word? ")\n' +
+        '# print "Palindrome" if it reads the same backwards, otherwise "Not a palindrome"\n',
+      tests: [
+        { label: '"racecar" (palindrome)',     inputs: ["racecar"], check: function (r) { return checkPalindrome(r, "racecar", true); } },
+        { label: '"hello"   (not)',            inputs: ["hello"],   check: function (r) { return checkPalindrome(r, "hello", false); } },
+        { label: '"abba"    (palindrome)',     inputs: ["abba"],    check: function (r) { return checkPalindrome(r, "abba", true); } },
+        { label: '"python"  (not)',            inputs: ["python"],  check: function (r) { return checkPalindrome(r, "python", false); } }
+      ]
+    },
+    {
+      id: "password",
+      tier: "stretch",
+      title: "Password lock",
+      brief: "Keep asking until the user types the secret password.",
+      detail: "Use a loop to ask for a password. If they type <code>hallam</code>, print a welcome message and stop. Otherwise, ask again.",
+      accept: "Your program must keep asking until \"hallam\" is entered, then print a welcome word (welcome / access / granted / correct).",
+      starter:
+        '# Password lock\n' +
+        '# Keep asking "Password? " until the user types: hallam\n' +
+        '# Then print "Welcome!"\n',
+      tests: [
+        { label: 'Got it first try',          inputs: ["hallam"],                  check: checkPassword },
+        { label: 'Wrong once, then right',    inputs: ["wrong", "hallam"],         check: checkPassword },
+        { label: 'Wrong three times',         inputs: ["a", "bcd", "nope", "hallam"], check: checkPassword }
+      ]
+    },
+    {
+      id: "sum-many",
+      tier: "stretch",
+      title: "Sum a list of numbers",
+      brief: "User enters numbers separated by spaces. Print the total.",
+      detail: "Read one line of input like <code>3 7 12 5</code>. Split it on spaces, convert each piece to a number, and print the sum.",
+      accept: "Your output must contain the correct sum.",
+      starter:
+        '# Sum a list of numbers\n' +
+        'line = input("Numbers separated by spaces: ")\n' +
+        '# split on spaces, convert each to int, print the total\n',
+      tests: [
+        { label: '"1 2 3" -> 6',          inputs: ["1 2 3"],          check: function (r) { return checkSumMany(r, "1 2 3"); } },
+        { label: '"10 20 30 40" -> 100',  inputs: ["10 20 30 40"],    check: function (r) { return checkSumMany(r, "10 20 30 40"); } },
+        { label: '"5" -> 5',              inputs: ["5"],              check: function (r) { return checkSumMany(r, "5"); } },
+        { label: '"7 13 21" -> 41',       inputs: ["7 13 21"],        check: function (r) { return checkSumMany(r, "7 13 21"); } }
       ]
     }
   ];
@@ -151,6 +439,181 @@
     }
     if (!success) return fail("You stopped at the right guess but didn't print a success message (try \"Correct!\").");
     return pass("Looped to the correct guess and celebrated.");
+  }
+
+  // ---- New check functions for the expanded challenge set -------------------
+  function intHint(err) {
+    return /str.*int|int.*str|not supported between|can't multiply/.test(err)
+      ? "  (Hint: convert text to a number with int().)" : "";
+  }
+
+  function checkShout(r, word) {
+    if (r.error) return fail("Your code stopped with an error: " + r.error);
+    if (r.output.indexOf(word.toUpperCase()) === -1) {
+      return fail('I typed "' + word + '" but I didn\'t see "' + word.toUpperCase() + '" in the output. Try the .upper() method.');
+    }
+    return pass("Shouted " + word.toUpperCase() + ".");
+  }
+
+  function checkDouble(r, n) {
+    if (r.error) return fail("Your code stopped: " + r.error + intHint(r.error));
+    const want = n * 2;
+    const tokens = numberTokens(r.output);
+    if (tokens.has(want)) return pass(n + " doubled is " + want + ".");
+    return fail("Expected " + want + " (double of " + n + ") in your output.");
+  }
+
+  function checkAdd(r, a, b) {
+    if (r.error) return fail("Your code stopped: " + r.error + intHint(r.error));
+    const sum = a + b;
+    const tokens = numberTokens(r.output);
+    if (tokens.has(sum)) return pass(a + " + " + b + " = " + sum + ".");
+    return fail("Expected the sum " + sum + " in your output, but I didn't see it.");
+  }
+
+  function checkCountdown(r) {
+    if (r.error) return fail("Your code stopped: " + r.error);
+    const tokens = numberTokens(r.output);
+    const missing = [5, 4, 3, 2, 1].filter(function (n) { return !tokens.has(n); });
+    if (missing.length) return fail("Missing number(s): " + missing.join(", ") + ". Print every step from 5 down to 1.");
+    if (!/\bgo\b/i.test(r.output)) return fail("Don't forget to print GO at the end!");
+    return pass("Counted down to GO!");
+  }
+
+  function checkEvenOdd(r, n) {
+    if (r.error) return fail("Your code stopped: " + r.error + intHint(r.error));
+    const isEven = n % 2 === 0;
+    const sawEven = /\beven\b/i.test(r.output);
+    const sawOdd  = /\bodd\b/i.test(r.output);
+    if (isEven && sawEven && !sawOdd) return pass(n + " is even.");
+    if (!isEven && sawOdd && !sawEven) return pass(n + " is odd.");
+    if (sawEven && sawOdd) return fail("You printed both \"Even\" and \"Odd\" — only print one.");
+    if (isEven) return fail(n + " is even, but your output didn't say \"Even\".");
+    return fail(n + " is odd, but your output didn't say \"Odd\".");
+  }
+
+  function checkLetterCount(r, word) {
+    if (r.error) return fail("Your code stopped: " + r.error);
+    const tokens = numberTokens(r.output);
+    if (tokens.has(word.length)) return pass('"' + word + '" has ' + word.length + " letters.");
+    return fail('Expected the number ' + word.length + ' (the length of "' + word + '") in your output.');
+  }
+
+  function checkSumToN(r, n) {
+    if (r.error) return fail("Your code stopped: " + r.error + intHint(r.error));
+    const sum = (n * (n + 1)) / 2;
+    const tokens = numberTokens(r.output);
+    if (tokens.has(sum)) return pass("Sum 1..." + n + " = " + sum + ".");
+    return fail("Expected " + sum + " (the sum from 1 to " + n + ").");
+  }
+
+  function checkMultiples(r, n) {
+    if (r.error) return fail("Your code stopped: " + r.error + intHint(r.error));
+    const tokens = numberTokens(r.output);
+    const want = [n, n * 2, n * 3, n * 4, n * 5];
+    const missing = want.filter(function (x) { return !tokens.has(x); });
+    if (!missing.length) return pass("All 5 multiples of " + n + " are there.");
+    return fail("Missing multiple(s): " + missing.join(", ") + ".");
+  }
+
+  function checkBiggest3(r, a, b, c) {
+    if (r.error) return fail("Your code stopped: " + r.error + intHint(r.error));
+    const biggest = Math.max(a, b, c);
+    const re = new RegExp("\\b" + biggest + "\\b", "g");
+    const occurrences = (String(r.output).match(re) || []).length;
+    const inEcho = [a, b, c].filter(function (x) { return x === biggest; }).length;
+    if (occurrences > inEcho) return pass("Biggest is " + biggest + ".");
+    return fail("The biggest of " + a + ", " + b + ", " + c + " is " + biggest + ". Make sure you print it.");
+  }
+
+  function checkVowels(r, word) {
+    if (r.error) return fail("Your code stopped: " + r.error);
+    const expected = (word.match(/[aeiou]/gi) || []).length;
+    const tokens = numberTokens(r.output);
+    if (tokens.has(expected)) return pass('"' + word + '" has ' + expected + " vowel(s).");
+    return fail('Expected ' + expected + ' vowel(s) for "' + word + '".');
+  }
+
+  function checkReverse(r, word) {
+    if (r.error) return fail("Your code stopped: " + r.error);
+    const reversed = word.split("").reverse().join("");
+    if (r.output.indexOf(reversed) === -1) {
+      return fail('Expected to see "' + reversed + '" (the reverse of "' + word + '") in your output.');
+    }
+    return pass('Reversed to "' + reversed + '".');
+  }
+
+  function checkFizz(r, n) {
+    if (r.error) return fail("Your code stopped: " + r.error + intHint(r.error));
+    const expectedFizz = Math.floor(n / 3);
+    const actualFizz = (r.output.match(/fizz/gi) || []).length;
+    if (actualFizz !== expectedFizz) {
+      return fail("Expected " + expectedFizz + " \"Fizz\" line(s), but I saw " + actualFizz + ".");
+    }
+    const tokens = numberTokens(r.output);
+    const missing = [];
+    for (let i = 1; i <= n; i++) {
+      if (i % 3 !== 0 && !tokens.has(i)) missing.push(i);
+    }
+    if (missing.length) return fail("Missing non-Fizz number(s): " + missing.slice(0, 5).join(", ") + (missing.length > 5 ? "..." : "") + ".");
+    return pass("Fizz pattern up to " + n + " is right.");
+  }
+
+  function checkFizzBuzz(r) {
+    if (r.error) return fail("Your code stopped: " + r.error);
+    const out = r.output;
+    const fb = (out.match(/fizzbuzz/gi) || []).length;
+    if (fb !== 1) return fail('Expected exactly one "FizzBuzz" (for 15), but I saw ' + fb + ".");
+    // strip FizzBuzz before counting plain Fizz / Buzz
+    const stripped = out.replace(/fizzbuzz/gi, "");
+    const fizz = (stripped.match(/fizz/gi) || []).length;
+    const buzz = (stripped.match(/buzz/gi) || []).length;
+    if (fizz !== 4) return fail('Expected 4 plain "Fizz" (for 3, 6, 9, 12), but I saw ' + fizz + ".");
+    if (buzz !== 2) return fail('Expected 2 plain "Buzz" (for 5, 10), but I saw ' + buzz + ".");
+    const tokens = numberTokens(out);
+    const others = [1, 2, 4, 7, 8, 11, 13, 14];
+    const missing = others.filter(function (x) { return !tokens.has(x); });
+    if (missing.length) return fail("Missing number(s): " + missing.join(", ") + ".");
+    return pass("FizzBuzz 1 to 15 is perfect!");
+  }
+
+  function checkPalindrome(r, word, isPalindrome) {
+    if (r.error) return fail("Your code stopped: " + r.error);
+    const out = r.output;
+    const negative = /not\s*a?\s*palindrome|isn'?t\s*a\s*palindrome|is\s+not\s+a\s+palindrome/i.test(out);
+    const positive = /\bpalindrome\b/i.test(out) && !negative;
+    if (isPalindrome) {
+      if (positive) return pass('"' + word + '" is a palindrome.');
+      return fail('"' + word + '" IS a palindrome but your output didn\'t say so.');
+    }
+    if (negative) return pass('"' + word + '" is not a palindrome.');
+    return fail('"' + word + '" is NOT a palindrome but your output didn\'t say "not".');
+  }
+
+  function checkPassword(r, test) {
+    const want = test.inputs.length;
+    if (r.error) {
+      if (r.error.indexOf("EOFError") !== -1) {
+        return fail("Your program kept asking even after \"hallam\" was typed. Make sure typing it ends the loop.");
+      }
+      return fail("Your code stopped: " + r.error);
+    }
+    if (r.used !== want) {
+      if (r.used < want) return fail("You stopped after " + r.used + " tries but should have kept asking through all " + want + ".");
+      return fail("Read more inputs than expected - check your loop condition.");
+    }
+    const welcome = /welcome|access|granted|correct|you'?re in|come in|let me in|nice/i.test(r.output);
+    if (!welcome) return fail('After they got it right, print a welcome message (try "Welcome!").');
+    return pass("Looped to the right password and welcomed them.");
+  }
+
+  function checkSumMany(r, line) {
+    if (r.error) return fail("Your code stopped: " + r.error + intHint(r.error));
+    const parts = String(line).trim().split(/\s+/).map(function (s) { return parseInt(s, 10); });
+    const total = parts.reduce(function (a, b) { return a + b; }, 0);
+    const tokens = numberTokens(r.output);
+    if (tokens.has(total)) return pass("Sum is " + total + ".");
+    return fail("Expected the sum " + total + " in your output.");
   }
 
   // ---- Python grading runner (installed once after Pyodide loads) ----------
@@ -481,21 +944,33 @@ del _sandbox_install_input, _b
   // ---- Rendering ------------------------------------------------------------
   function renderTabs() {
     tabsEl.innerHTML = "";
+    let lastTier = null;
     CHALLENGES.forEach(function (ch) {
+      if (ch.tier && ch.tier !== lastTier) {
+        const sep = document.createElement("span");
+        sep.className = "challenge-tier-divider tier-" + ch.tier;
+        sep.textContent = TIER_LABELS[ch.tier] || ch.tier;
+        tabsEl.appendChild(sep);
+        lastTier = ch.tier;
+      }
       const btn = document.createElement("button");
       btn.type = "button";
       btn.className = "quiz-tab challenge-tab" + (ch.id === current.id ? " active" : "");
       btn.dataset.id = ch.id;
       const done = passed.has(ch.id);
-      btn.innerHTML = (done ? '<span class="challenge-tick" aria-label="completed">✓</span> ' : '') + escapeHtml(ch.title);
+      const tierDot = ch.tier ? '<span class="tier-dot tier-' + ch.tier + '" title="' + (TIER_LABELS[ch.tier] || "") + '" aria-hidden="true"></span>' : '';
+      btn.innerHTML = tierDot + (done ? '<span class="challenge-tick" aria-label="completed">✓</span> ' : '') + escapeHtml(ch.title);
       if (done) btn.classList.add("done");
       btn.addEventListener("click", function () { selectChallenge(ch.id); });
       tabsEl.appendChild(btn);
     });
   }
   function renderBrief() {
+    const tierBadge = current.tier
+      ? ' <span class="challenge-tier-badge tier-' + current.tier + '">' + (TIER_LABELS[current.tier] || current.tier) + '</span>'
+      : '';
     briefEl.innerHTML =
-      '<h2 class="challenge-brief-title">' + escapeHtml(current.title) +
+      '<h2 class="challenge-brief-title">' + escapeHtml(current.title) + tierBadge +
         (passed.has(current.id) ? ' <span class="challenge-badge-done">Completed</span>' : '') + '</h2>' +
       '<p class="challenge-brief-task">' + current.brief + '</p>' +
       '<div class="challenge-brief-detail">' + current.detail + '</div>' +

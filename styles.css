@@ -1133,6 +1133,68 @@ html[data-auth="out"] .site-footer { display: none; }
 .challenge-tab.done.active { color: #fff; }
 .challenge-tick { font-weight: 800; }
 
+/* Tier indicators (Beginner / Intermediate / Stretch) on tabs and brief */
+.tier-dot {
+  display: inline-block;
+  width: 9px; height: 9px;
+  border-radius: 50%;
+  margin-right: 6px;
+  vertical-align: middle;
+  border: 1.5px solid rgba(0,0,0,0.18);
+}
+.tier-dot.tier-beginner     { background: #1f9d55; }      /* green */
+.tier-dot.tier-intermediate { background: #FFB400; }      /* amber */
+.tier-dot.tier-stretch      { background: #9900FF; }      /* purple */
+
+.challenge-tier-divider {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px 4px 8px;
+  margin: 0 4px 0 2px;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  border-radius: 999px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+}
+.challenge-tier-divider::before {
+  content: "";
+  display: inline-block;
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  margin-right: 6px;
+}
+.challenge-tier-divider.tier-beginner     { color: #186a3b; }
+.challenge-tier-divider.tier-beginner::before     { background: #1f9d55; }
+.challenge-tier-divider.tier-intermediate { color: #8a6500; }
+.challenge-tier-divider.tier-intermediate::before { background: #FFB400; }
+.challenge-tier-divider.tier-stretch      { color: #6b00b3; }
+.challenge-tier-divider.tier-stretch::before      { background: #9900FF; }
+
+.challenge-tier-badge {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  vertical-align: middle;
+  border: 1.5px solid transparent;
+}
+.challenge-tier-badge.tier-beginner {
+  background: #e4f6ec; color: #186a3b; border-color: #1f9d55;
+}
+.challenge-tier-badge.tier-intermediate {
+  background: #FFF6D5; color: #8a6500; border-color: #FFB400;
+}
+.challenge-tier-badge.tier-stretch {
+  background: #F3E6FF; color: #6b00b3; border-color: #9900FF;
+}
+
 .challenge-brief {
   background: var(--surface); border: 1px solid var(--border);
   border-radius: var(--radius); padding: 20px 24px; margin-bottom: 18px;
