@@ -1474,6 +1474,24 @@ html[data-auth="out"] .site-footer { display: none; }
 .fp-card.answered-correct { border-color: var(--success); }
 .fp-card.answered-wrong   { border-color: var(--danger); }
 
+/* Cooldown bar that fills along the top of the card while answers are
+   locked, so kids can't speed-cheese by hammering buttons. */
+.fp-cooldown-bar {
+  position: absolute;
+  top: 0; left: 0;
+  height: 4px;
+  width: 0%;
+  background: linear-gradient(90deg, var(--accent), #FFCB00);
+  border-top-left-radius: var(--radius);
+  border-top-right-radius: var(--radius);
+  pointer-events: none;
+}
+.fp-card.cooling .fp-option {
+  opacity: 0.55;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
 .fp-card-head {
   display: flex;
   align-items: center;

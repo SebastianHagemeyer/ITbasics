@@ -1,6 +1,8 @@
 (function () {
   "use strict";
 
+  const READ_COOLDOWN_MS = 2000;
+
   const all = window.SCENARIOS || [];
   let pool = [];
   let current = null;
@@ -10,6 +12,8 @@
   let bestStreak = 0;
   let topicFilter = "all";
   let locked = false;
+  let readingDone = false;
+  let readingTimer = null;
 
   function shuffle(arr) {
     const a = arr.slice();
@@ -109,10 +113,46 @@
     fbEl.hidden = true;
     fbEl.textContent = "";
     nextBtn.hidden = true;
+
+    // Enforce a brief read-the-question cooldown before any answer counts.
+    startReadingCooldown(card);
+  }
+
+  // Blocks answers for READ_COOLDOWN_MS after a new question loads, so kids
+  // can't speed-cheese Freeplay by hammering A then Enter. A thin yellow bar
+  // along the top of the card fills over the cooldown so it's obvious why
+  // the options are unclickable.
+  function startReadingCooldown(card) {
+    readingDone = false;
+    if (readingTimer) { clearTimeout(readingTimer); readingTimer = null; }
+    if (!card) return;
+    card.classList.add("cooling");
+
+    let bar = document.getElementById("fp-cooldown-bar");
+    if (!bar) {
+      bar = document.createElement("div");
+      bar.id = "fp-cooldown-bar";
+      bar.className = "fp-cooldown-bar";
+      card.appendChild(bar);
+    }
+    // Snap to 0 with no transition, then animate to 100% over the cooldown.
+    bar.style.transition = "none";
+    bar.style.width = "0%";
+    void bar.offsetWidth; // force reflow so the next transition takes effect
+    bar.style.transition = "width " + READ_COOLDOWN_MS + "ms linear";
+    bar.style.width = "100%";
+
+    readingTimer = setTimeout(function () {
+      readingDone = true;
+      readingTimer = null;
+      card.classList.remove("cooling");
+      bar.style.transition = "none";
+      bar.style.width = "0%";
+    }, READ_COOLDOWN_MS);
   }
 
   function pick(index) {
-    if (locked || !current) return;
+    if (locked || !current || !readingDone) return;
     locked = true;
 
     const card    = document.getElementById("fp-card");
@@ -203,7 +243,7 @@
     document.addEventListener("keydown", function (e) {
       if (e.target && (e.target.tagName === "INPUT" || e.target.tagName === "TEXTAREA")) return;
       const k = e.key;
-      if (!locked && /^[1-4]$/.test(k)) {
+      if (!locked && readingDone && /^[1-4]$/.test(k)) {
         e.preventDefault();
         pick(parseInt(k, 10) - 1);
       } else if (locked && (k === "Enter" || k === " ")) {
@@ -211,7 +251,7 @@
         if (next && !next.hidden) { e.preventDefault(); nextQuestion(); }
       } else if (k === "s" || k === "S") {
         e.preventDefault();
-        if (!locked) skip();
+        if (!locked && readingDone) skip();
       }
     });
   }
