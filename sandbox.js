@@ -75,6 +75,20 @@
         "    print('Roll', i + 1, ':', roll)\n"
     },
     {
+      title: "Heat map dice",
+      desc: "Rolls coloured red (cold) to green (hot) by value.",
+      code:
+        "import random\n" +
+        "import time\n" +
+        "\n" +
+        "for i in range(10):\n" +
+        "    roll = random.randint(1, 6)\n" +
+        "    hue = (roll - 1) * 24   # 0=red ... 120=green\n" +
+        "    color = f\"hsl({hue}, 100%, 50%)\"\n" +
+        "    print(f\"Roll {i+1}: {'*' * roll}  ({roll})\", col=color)\n" +
+        "    time.sleep(0.2)\n"
+    },
+    {
       title: "Letter staircase",
       desc: "Build up a word, one letter per line.",
       code:
@@ -153,6 +167,36 @@
         "    time.sleep(0.05)\n"
     },
     {
+      title: "Colored spiral",
+      desc: "Animated spiral with a rainbow hue rotating as it draws.",
+      code:
+        "import time\n" +
+        "\n" +
+        "n = int(input(\"Grid size (try 7): \"))\n" +
+        "grid   = [[' '] * n for _ in range(n)]\n" +
+        "colors = [[''] * n for _ in range(n)]\n" +
+        "x, y, dx, dy = 0, 0, 1, 0\n" +
+        "\n" +
+        "for i in range(n * n):\n" +
+        "    grid[y][x] = str((i + 1) % 10)\n" +
+        "    colors[y][x] = f\"hsl({i * 360 // (n * n)}, 90%, 60%)\"\n" +
+        "    nx, ny = x + dx, y + dy\n" +
+        "    if not (0 <= nx < n and 0 <= ny < n) or grid[ny][nx] != ' ':\n" +
+        "        dx, dy = -dy, dx\n" +
+        "        nx, ny = x + dx, y + dy\n" +
+        "    x, y = nx, ny\n" +
+        "    clear()\n" +
+        "    for r in range(n):\n" +
+        "        for c in range(n):\n" +
+        "            ch = grid[r][c]\n" +
+        "            if ch != ' ':\n" +
+        "                print(f\"{ch} \", col=colors[r][c], end='')\n" +
+        "            else:\n" +
+        "                print('. ', col='#444', end='')\n" +
+        "        print(col='white')\n" +
+        "    time.sleep(0.05)\n"
+    },
+    {
       title: "Sine wave",
       desc: "An ASCII wave drawn with math.sin().",
       code:
@@ -190,6 +234,31 @@
         "colors = ['#ff0000', '#ff7f00', '#ffff00', '#00cc00', '#1e90ff', '#4b0082', '#9400d3']\n" +
         "for w, c in zip(words, colors):\n" +
         "    print(w, col=c)\n"
+    },
+    {
+      title: "Christmas tree",
+      desc: "Green tree with random coloured ornaments and a trunk.",
+      code:
+        "import random\n" +
+        "\n" +
+        "n = int(input(\"Tree height (try 8): \"))\n" +
+        "GREEN = '#0aa84a'\n" +
+        "BROWN = '#7b4a1a'\n" +
+        "ORNAMENTS = ['#ff2b2b', '#ffd400', '#ff5cb0', '#3aaeff', '#ff8800']\n" +
+        "\n" +
+        "for i in range(n):\n" +
+        "    pad = ' ' * (n - i - 1)\n" +
+        "    print(pad, col=GREEN, end='')\n" +
+        "    for j in range(2 * i + 1):\n" +
+        "        if 0 < j < 2 * i and random.random() < 0.25:\n" +
+        "            print('o', col=random.choice(ORNAMENTS), end='')\n" +
+        "        else:\n" +
+        "            print('*', col=GREEN, end='')\n" +
+        "    print(col=GREEN)\n" +
+        "\n" +
+        "# Trunk\n" +
+        "print(' ' * (n - 1), col=BROWN, end='')\n" +
+        "print('|||', col=BROWN)\n"
     },
     {
       title: "Caesar cipher",
