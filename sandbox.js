@@ -115,6 +115,24 @@ _sandbox_install_input()
 del _sandbox_install_input, _b
 `;
 
+  // Patches time.sleep to yield back to the JS event loop while sleeping,
+  // so anything print()ed before sleep actually shows up in the output
+  // panel during the pause instead of all at the end. Same JSPI trick
+  // we already use for input(): run_sync suspends Python until the
+  // asyncio.sleep promise resolves, freeing JS to repaint in between.
+  // Also flushes stdout/stderr so end="" prints aren't stuck in the buffer.
+  const PY_PATCH_SLEEP = `
+import time as _time, asyncio as _asyncio, sys as _sys
+from pyodide.ffi import run_sync as _run_sync
+def _yielding_sleep(seconds):
+    _sys.stdout.flush()
+    _sys.stderr.flush()
+    if seconds and seconds > 0:
+        _run_sync(_asyncio.sleep(seconds))
+_time.sleep = _yielding_sleep
+del _time, _asyncio, _sys, _run_sync, _yielding_sleep
+`;
+
   let pyodide = null;
   let loadingPromise = null;
   let running = false;
@@ -229,7 +247,11 @@ del _sandbox_install_input, _b
 
   async function setupInput(py) {
     py.registerJsModule("_sandbox_io", { readLine: readLineInteractive });
-    await py.runPythonAsync(jspiSupported() ? PY_INSTALL_INPUT : PY_DISABLE_INPUT);
+    const useJspi = jspiSupported();
+    await py.runPythonAsync(useJspi ? PY_INSTALL_INPUT : PY_DISABLE_INPUT);
+    if (useJspi) {
+      await py.runPythonAsync(PY_PATCH_SLEEP);
+    }
   }
 
   function loadPyodideScript() {
@@ -282,10 +304,7 @@ del _sandbox_install_input, _b
   }
 
   function reset() {
-    if (!window.confirm("Reset the editor to the example code? Your current code will be lost.")) return;
-    setCode(DEFAULT_CODE);
-    saveCode(DEFAULT_CODE);
-    editor.focus();
+    loadInto(DEFAULT_CODE, "Reset to the example");
   }
 
   function enableHighlighting(CodeJar) {
@@ -352,24 +371,77 @@ del _sandbox_install_input, _b
       btn.innerHTML =
         '<span class="sandbox-example-title">' + escapeHtml(ex.title) + '</span>' +
         '<span class="sandbox-example-desc">' + escapeHtml(ex.desc) + '</span>';
-      btn.addEventListener("click", function () { loadExample(ex.code); });
+      btn.addEventListener("click", function () {
+        loadInto(ex.code, 'Loaded "' + ex.title + '"');
+        editor.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
       grid.appendChild(btn);
     });
   }
 
-  function loadExample(code) {
-    const cur = (getCode() || "").trim();
-    const isDefault  = cur === DEFAULT_CODE.trim();
-    const isSnippet  = EXAMPLES.some(function (e) { return cur === e.code.trim(); });
-    const isEmpty    = cur.length === 0;
-    // Only nag if they actually have their own custom code in the editor.
-    if (!isDefault && !isSnippet && !isEmpty) {
-      if (!window.confirm("Replace your current code with this snippet? Your code will be lost.")) return;
+  // Generic "swap the editor for this code, but offer Undo via a toast"
+  // helper. Used by both Reset and the snippet cards so the UX is the
+  // same everywhere - no more blocking confirm() dialogs.
+  let previousCode = null;
+  function loadInto(code, message) {
+    const cur = getCode();
+    if (cur === code) {
+      showToast({ message: message + " (already there)" });
+      return;
     }
+    previousCode = cur;
     setCode(code);
     saveCode(code);
     editor.focus();
-    editor.scrollIntoView({ behavior: "smooth", block: "start" });
+    showToast({
+      message: message,
+      actionLabel: "Undo",
+      action: function () {
+        if (previousCode == null) return;
+        const swap = previousCode;
+        previousCode = null;
+        setCode(swap);
+        saveCode(swap);
+      }
+    });
+  }
+
+  function showToast(opts) {
+    let toast = document.getElementById("it-toast");
+    if (!toast) {
+      toast = document.createElement("div");
+      toast.id = "it-toast";
+      toast.className = "toast";
+      document.body.appendChild(toast);
+      toast.addEventListener("mouseenter", function () {
+        if (toast._timer) { clearTimeout(toast._timer); toast._timer = null; }
+      });
+      toast.addEventListener("mouseleave", function () {
+        toast._timer = setTimeout(hideToast, 3000);
+      });
+    }
+    toast.innerHTML = "";
+    const msg = document.createElement("span");
+    msg.className = "toast-msg";
+    msg.textContent = opts.message;
+    toast.appendChild(msg);
+    if (opts.action) {
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "toast-action";
+      btn.textContent = opts.actionLabel || "Undo";
+      btn.addEventListener("click", function () { opts.action(); hideToast(); });
+      toast.appendChild(btn);
+    }
+    requestAnimationFrame(function () { toast.classList.add("show"); });
+    if (toast._timer) clearTimeout(toast._timer);
+    toast._timer = setTimeout(hideToast, 6000);
+  }
+  function hideToast() {
+    const toast = document.getElementById("it-toast");
+    if (!toast) return;
+    toast.classList.remove("show");
+    if (toast._timer) { clearTimeout(toast._timer); toast._timer = null; }
   }
 
   function escapeHtml(s) {
