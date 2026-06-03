@@ -55,19 +55,7 @@
   </header>
 
   <main>
-    <section class="page-hero">
-      <div class="container">
-        <p class="eyebrow">Prove it</p>
-        <h1>Live Coding Challenges</h1>
-        <p class="lead">Real tasks, real Python. Write the code, hit <strong>Run</strong> to try it, then <strong>Check</strong> to stress-test it. Pass every test and the challenge is yours &mdash; it counts on the leaderboard.</p>
-      </div>
-    </section>
-
-    <div class="container section">
-      <div id="challenge-scoreboard" class="challenge-scoreboard"></div>
-
-      <div class="quiz-tabs" role="tablist" id="challenge-tabs"></div>
-
+    <div class="container section challenge-section">
       <div class="challenge-brief" id="challenge-brief"></div>
 
       <div class="sandbox-shell challenge-shell">
@@ -102,6 +90,10 @@
         <kbd>Tab</kbd> inserts 4 spaces &middot;
         Python loads the first time you press Run or Check (5-10 seconds), then it's instant.
       </p>
+
+      <div id="challenge-scoreboard" class="challenge-scoreboard"></div>
+
+      <div class="challenge-picker" id="challenge-tabs"></div>
     </div>
   </main>
 

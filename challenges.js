@@ -944,25 +944,42 @@ del _sandbox_install_input, _b
   // ---- Rendering ------------------------------------------------------------
   function renderTabs() {
     tabsEl.innerHTML = "";
-    let lastTier = null;
+    const byTier = { beginner: [], intermediate: [], stretch: [] };
     CHALLENGES.forEach(function (ch) {
-      if (ch.tier && ch.tier !== lastTier) {
-        const sep = document.createElement("span");
-        sep.className = "challenge-tier-divider tier-" + ch.tier;
-        sep.textContent = TIER_LABELS[ch.tier] || ch.tier;
-        tabsEl.appendChild(sep);
-        lastTier = ch.tier;
-      }
-      const btn = document.createElement("button");
-      btn.type = "button";
-      btn.className = "quiz-tab challenge-tab" + (ch.id === current.id ? " active" : "");
-      btn.dataset.id = ch.id;
-      const done = passed.has(ch.id);
-      const tierDot = ch.tier ? '<span class="tier-dot tier-' + ch.tier + '" title="' + (TIER_LABELS[ch.tier] || "") + '" aria-hidden="true"></span>' : '';
-      btn.innerHTML = tierDot + (done ? '<span class="challenge-tick" aria-label="completed">✓</span> ' : '') + escapeHtml(ch.title);
-      if (done) btn.classList.add("done");
-      btn.addEventListener("click", function () { selectChallenge(ch.id); });
-      tabsEl.appendChild(btn);
+      const tier = ch.tier || "stretch";
+      (byTier[tier] || byTier.stretch).push(ch);
+    });
+    ["beginner", "intermediate", "stretch"].forEach(function (tier) {
+      const list = byTier[tier];
+      if (!list || !list.length) return;
+      const done = list.filter(function (c) { return passed.has(c.id); }).length;
+
+      const section = document.createElement("section");
+      section.className = "challenge-tier-block tier-" + tier;
+
+      const heading = document.createElement("h3");
+      heading.className = "challenge-tier-heading";
+      heading.innerHTML =
+        '<span class="tier-dot tier-' + tier + '" aria-hidden="true"></span>' +
+        '<span class="challenge-tier-name">' + (TIER_LABELS[tier] || tier) + '</span>' +
+        '<span class="challenge-tier-count">' + done + ' / ' + list.length + '</span>';
+      section.appendChild(heading);
+
+      const listEl = document.createElement("div");
+      listEl.className = "challenge-tier-list";
+      list.forEach(function (ch) {
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "quiz-tab challenge-tab" + (ch.id === current.id ? " active" : "");
+        btn.dataset.id = ch.id;
+        const isDone = passed.has(ch.id);
+        btn.innerHTML = (isDone ? '<span class="challenge-tick" aria-label="completed">✓</span> ' : '') + escapeHtml(ch.title);
+        if (isDone) btn.classList.add("done");
+        btn.addEventListener("click", function () { selectChallenge(ch.id); });
+        listEl.appendChild(btn);
+      });
+      section.appendChild(listEl);
+      tabsEl.appendChild(section);
     });
   }
   function renderBrief() {
