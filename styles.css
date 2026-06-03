@@ -1098,14 +1098,17 @@ html[data-auth="out"] .site-footer { display: none; }
 .sandbox-stdin {
   font: inherit;
   color: var(--accent);
-  background: transparent;
+  background: rgba(255, 255, 0, 0.09);
   border: 0;
+  border-radius: 3px;
   outline: none;
-  padding: 0;
+  padding: 0 2px;
   margin: 0;
+  min-width: 1ch;
   caret-color: transparent;   /* hidden in favour of the flashing block cursor */
   vertical-align: baseline;
 }
+.sandbox-stdin:focus { background: rgba(255, 255, 0, 0.18); }
 /* Flashing block cursor shown while input() is waiting. */
 .sandbox-cursor {
   display: inline-block;
