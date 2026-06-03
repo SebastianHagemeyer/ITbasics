@@ -1058,6 +1058,16 @@ html[data-auth="out"] .site-footer { display: none; }
 .sandbox-run[disabled] { opacity: 0.55; cursor: not-allowed; }
 .sandbox-run.is-busy { position: relative; }
 
+/* Stop variant: Run button turns red while code is executing so it's
+   obvious you can click it again to terminate. */
+.btn.btn-danger {
+  background: var(--danger);
+  color: white;
+  border: 1px solid var(--danger);
+}
+.btn.btn-danger:hover { background: #b32d2d; border-color: #b32d2d; }
+.btn.btn-danger:active { transform: translateY(1px); }
+
 .sandbox-bar-actions {
   display: flex;
   align-items: center;
