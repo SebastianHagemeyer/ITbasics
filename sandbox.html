@@ -1,110 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sandbox | Hallam IT Basics</title>
-  <link rel="icon" type="image/svg+xml" href="logo-binary.svg" />
-  <link rel="apple-touch-icon" href="logo-binary.svg" />
-  <link rel="stylesheet" href="styles.css" />
-  <script>
-    (function () {
-      try {
-        if (!JSON.parse(localStorage.getItem("itbasics-session"))) {
-          location.replace("index.html");
-        }
-      } catch (e) { location.replace("index.html"); }
-    })();
-  </script>
+<meta charset="UTF-8">
+<title>Moved</title>
+<meta http-equiv="refresh" content="0; url=/sandbox/">
+<link rel="canonical" href="/sandbox/">
+<script>location.replace("/sandbox/");</script>
 </head>
-<body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <a href="index.html" class="logo">
-        <img class="logo-mark" src="logo-binary.svg" alt="" width="32" height="32" />
-        <span>Hallam IT Basics</span>
-      </a>
-      <nav class="site-nav" aria-label="Primary">
-        <a href="index.html">Home</a>
-        <div class="nav-dropdown" data-open="false">
-          <button type="button" class="nav-dropdown-toggle" aria-haspopup="true" aria-expanded="false">
-            Topics
-            <svg class="nav-chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          </button>
-          <div class="nav-dropdown-menu" role="menu">
-            <a href="programming-basics.html" role="menuitem">Programming</a>
-            <a href="html-basics.html" role="menuitem">HTML</a>
-            <a href="python-basics.html" role="menuitem">Python</a>
-            <a href="quizzes.html" role="menuitem">Quizzes</a>
-          </div>
-        </div>
-        <div class="nav-dropdown" data-open="false">
-          <button type="button" class="nav-dropdown-toggle" aria-haspopup="true" aria-expanded="false">
-            Play
-            <svg class="nav-chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          </button>
-          <div class="nav-dropdown-menu" role="menu">
-            <a href="freeplay.html" role="menuitem">Freeplay</a>
-            <a href="challenges.html" role="menuitem">Live Coding</a>
-            <a href="sandbox.html" class="active" role="menuitem">Sandbox</a>
-          </div>
-        </div>
-        <a href="leaderboard.html">Leaderboard</a>
-      </nav>
-    </div>
-  </header>
-
-  <main>
-    <section class="page-hero">
-      <div class="container">
-        <p class="eyebrow">Try it live</p>
-        <h1>Python Sandbox</h1>
-        <p class="lead">Real Python, running right in your browser. Edit the code, hit Run, see what happens. No install, no setup.</p>
-      </div>
-    </section>
-
-    <div class="container section">
-      <div class="sandbox-shell">
-        <div class="sandbox-editor">
-          <div class="sandbox-bar">
-            <span class="sandbox-title">main.py</span>
-            <div class="sandbox-bar-actions">
-              <button type="button" class="btn btn-ghost sandbox-reset" title="Reset to the example">Reset</button>
-              <button type="button" class="btn btn-primary sandbox-run" id="sandbox-run">
-                <span class="sandbox-run-label">Run</span>
-              </button>
-            </div>
-          </div>
-          <div class="sandbox-code language-python" id="sandbox-code" spellcheck="false"></div>
-        </div>
-        <div class="sandbox-output">
-          <div class="sandbox-bar">
-            <span class="sandbox-title">Output</span>
-            <button type="button" class="btn btn-ghost sandbox-clear" title="Clear the output">Clear</button>
-          </div>
-          <pre class="sandbox-out-body" id="sandbox-output"></pre>
-        </div>
-      </div>
-
-      <p class="sandbox-hint">
-        <kbd>Ctrl</kbd>+<kbd>Enter</kbd> to run &middot;
-        <kbd>Tab</kbd> inserts 4 spaces &middot;
-        Python loads the first time you press Run (5-10 seconds), then it's instant.
-      </p>
-    </div>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <p>&copy; Hallam IT Basics &middot; For Years 7-9 computing classes.</p>
-    </div>
-  </footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/prism.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-python.min.js"></script>
-  <script src="supabase-config.js"></script>
-  <script src="app.js"></script>
-  <script src="sandbox.js"></script>
-</body>
+<body><p>This page has moved to <a href="/sandbox/">/sandbox/</a>.</p></body>
 </html>
