@@ -121,16 +121,24 @@ del _sandbox_install_input, _b
   // we already use for input(): run_sync suspends Python until the
   // asyncio.sleep promise resolves, freeing JS to repaint in between.
   // Also flushes stdout/stderr so end="" prints aren't stuck in the buffer.
+  //
+  // Wrapped in an installer so the imports get captured in the closure
+  // of _yielding_sleep. A top-level `del` after the def would remove
+  // the names from the global namespace, and Python resolves names in
+  // function bodies at call time - so the inner function would NameError
+  // the first time it ran.
   const PY_PATCH_SLEEP = `
-import time as _time, asyncio as _asyncio, sys as _sys
-from pyodide.ffi import run_sync as _run_sync
-def _yielding_sleep(seconds):
-    _sys.stdout.flush()
-    _sys.stderr.flush()
-    if seconds and seconds > 0:
-        _run_sync(_asyncio.sleep(seconds))
-_time.sleep = _yielding_sleep
-del _time, _asyncio, _sys, _run_sync, _yielding_sleep
+def _sandbox_install_sleep():
+    import time, asyncio, sys
+    from pyodide.ffi import run_sync
+    def _yielding_sleep(seconds):
+        sys.stdout.flush()
+        sys.stderr.flush()
+        if seconds and seconds > 0:
+            run_sync(asyncio.sleep(seconds))
+    time.sleep = _yielding_sleep
+_sandbox_install_sleep()
+del _sandbox_install_sleep
 `;
 
   let pyodide = null;
