@@ -170,10 +170,16 @@
     },
     {
       title: "Caesar cipher",
-      desc: "Encode a secret message by shifting letters.",
+      desc: "Encode OR decode a secret message by shifting letters.",
       code:
-        "msg = input(\"What message would you like to encode? \")\n" +
+        "choice = input(\"Encode or decode? (e/d): \")\n" +
+        "msg = input(\"Your message: \")\n" +
         "shift = int(input(\"Shift by how many letters? \"))\n" +
+        "\n" +
+        "# Decoding is just encoding in the opposite direction.\n" +
+        "if choice.lower().startswith(\"d\"):\n" +
+        "    shift = -shift\n" +
+        "\n" +
         "out = ''\n" +
         "for ch in msg:\n" +
         "    if ch.isalpha():\n" +
@@ -181,7 +187,7 @@
         "    else:\n" +
         "        out += ch\n" +
         "print('Original:', msg)\n" +
-        "print('Encoded: ', out)\n"
+        "print('Result:  ', out)\n"
     }
   ];
 
