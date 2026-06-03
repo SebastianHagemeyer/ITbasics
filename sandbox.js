@@ -175,6 +175,23 @@
         "    print(row)\n"
     },
     {
+      title: "Rainbow print",
+      desc: "Colour text with print(\"hi\", col=\"#FF00AA\"). Any CSS colour works.",
+      code:
+        "# col= takes hex codes, colour names, rgb() or hsl()\n" +
+        "print(\"Hello in red!\", col=\"red\")\n" +
+        "print(\"Hex teal\",       col=\"#1abc9c\")\n" +
+        "print(\"RGB orange\",     col=\"rgb(255, 165, 0)\")\n" +
+        "print(\"HSL navy\",       col=\"hsl(220, 100%, 30%)\")\n" +
+        "print()\n" +
+        "\n" +
+        "print(\"Now a rainbow:\")\n" +
+        "words  = \"RED ORANGE YELLOW GREEN BLUE INDIGO VIOLET\".split()\n" +
+        "colors = ['#ff0000', '#ff7f00', '#ffff00', '#00cc00', '#1e90ff', '#4b0082', '#9400d3']\n" +
+        "for w, c in zip(words, colors):\n" +
+        "    print(w, col=c)\n"
+    },
+    {
       title: "Caesar cipher",
       desc: "Encode OR decode a secret message by shifting letters.",
       code:
@@ -300,6 +317,31 @@ def _sandbox_install_clear():
     builtins.clear = clear
 _sandbox_install_clear()
 del _sandbox_install_clear
+`;
+
+  // Adds a col= keyword to the built-in print(). When provided, the
+  // text bypasses stdout and goes straight to the output panel with
+  // the colour applied via inline CSS, so any valid CSS colour works
+  // (hex, name, rgb(), hsl()). Falls back to the real print() when
+  // col is None so all existing prints keep working unchanged. Also
+  // accepts color= as an alias.
+  const PY_INSTALL_COLOR_PRINT = `
+def _sandbox_install_color_print():
+    import sys, builtins
+    from _sandbox_io import writeColored
+    real_print = builtins.print
+    def print(*args, col=None, color=None, sep=' ', end='\\n', file=None, flush=False):
+        chosen = col if col is not None else color
+        if chosen is not None and file is None:
+            sys.stdout.flush()
+            sys.stderr.flush()
+            text = sep.join(str(a) for a in args) + end
+            writeColored(text, str(chosen))
+        else:
+            real_print(*args, sep=sep, end=end, file=file, flush=flush)
+    builtins.print = print
+_sandbox_install_color_print()
+del _sandbox_install_color_print
 `;
 
   let pyodide = null;
@@ -499,7 +541,16 @@ del _sandbox_install_clear
       },
       // Wipes the output panel - exposed to Python as the clear() builtin
       // so students can animate things frame by frame.
-      clearOutput: function () { output.innerHTML = ""; }
+      clearOutput: function () { output.innerHTML = ""; },
+      // Writes text directly to the output panel with a CSS colour applied.
+      // Used by the col= keyword on the patched print().
+      writeColored: function (text, color) {
+        const span = document.createElement("span");
+        span.style.color = String(color || "");
+        span.textContent = String(text);
+        output.appendChild(span);
+        output.scrollTop = output.scrollHeight;
+      }
     });
     const useJspi = jspiSupported();
     await py.runPythonAsync(useJspi ? PY_INSTALL_INPUT : PY_DISABLE_INPUT);
@@ -508,6 +559,7 @@ del _sandbox_install_clear
     }
     await py.runPythonAsync(PY_INSTALL_INTERRUPT);
     await py.runPythonAsync(PY_INSTALL_CLEAR);
+    await py.runPythonAsync(PY_INSTALL_COLOR_PRINT);
   }
 
   function loadPyodideScript() {
