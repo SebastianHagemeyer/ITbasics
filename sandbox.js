@@ -21,6 +21,69 @@
     'total = sum(range(1, 11))\n' +
     'print("Sum of 1 to 10 is", total)\n';
 
+  // Click-to-load snippets. Each gets a card at the bottom of the page.
+  const EXAMPLES = [
+    {
+      title: "Star triangle",
+      desc: "Right-aligned stars climbing up.",
+      code:
+        "x = 1\n" +
+        "while x < 10:\n" +
+        "    print('%10s' % ('*' * x))\n" +
+        "    x = x + 1\n"
+    },
+    {
+      title: "Diamond",
+      desc: "Centered stars going up then back down.",
+      code:
+        "n = 5\n" +
+        "for i in range(n):\n" +
+        "    print(' ' * (n - i - 1) + '*' * (2 * i + 1))\n" +
+        "for i in range(n - 2, -1, -1):\n" +
+        "    print(' ' * (n - i - 1) + '*' * (2 * i + 1))\n"
+    },
+    {
+      title: "Times table",
+      desc: "The 7 times table, one row at a time.",
+      code:
+        "n = 7\n" +
+        "for i in range(1, 13):\n" +
+        "    print(n, 'x', i, '=', n * i)\n"
+    },
+    {
+      title: "FizzBuzz",
+      desc: "Count 1 to 20. Fizz, Buzz, FizzBuzz on the multiples.",
+      code:
+        "for i in range(1, 21):\n" +
+        "    if i % 15 == 0:\n" +
+        "        print('FizzBuzz')\n" +
+        "    elif i % 3 == 0:\n" +
+        "        print('Fizz')\n" +
+        "    elif i % 5 == 0:\n" +
+        "        print('Buzz')\n" +
+        "    else:\n" +
+        "        print(i)\n"
+    },
+    {
+      title: "Roll a dice",
+      desc: "Random rolls, 10 in a row.",
+      code:
+        "import random\n" +
+        "\n" +
+        "for i in range(10):\n" +
+        "    roll = random.randint(1, 6)\n" +
+        "    print('Roll', i + 1, ':', roll)\n"
+    },
+    {
+      title: "Letter staircase",
+      desc: "Build up a word, one letter per line.",
+      code:
+        "word = 'PYTHON'\n" +
+        "for i in range(1, len(word) + 1):\n" +
+        "    print(word[:i])\n"
+    }
+  ];
+
   // Wires Python's input() to the inline reader below. run_sync blocks the
   // Python program (via JSPI stack switching) until readLine's promise
   // resolves, so input() behaves exactly like a real terminal. The helpers
@@ -278,5 +341,43 @@ del _sandbox_install_input, _b
   if (resetBtn) resetBtn.addEventListener("click", reset);
   if (clearBtn) clearBtn.addEventListener("click", clearOut);
 
+  function renderExamples() {
+    const grid = document.getElementById("sandbox-examples");
+    if (!grid) return;
+    grid.innerHTML = "";
+    EXAMPLES.forEach(function (ex) {
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "sandbox-example-card";
+      btn.innerHTML =
+        '<span class="sandbox-example-title">' + escapeHtml(ex.title) + '</span>' +
+        '<span class="sandbox-example-desc">' + escapeHtml(ex.desc) + '</span>';
+      btn.addEventListener("click", function () { loadExample(ex.code); });
+      grid.appendChild(btn);
+    });
+  }
+
+  function loadExample(code) {
+    const cur = (getCode() || "").trim();
+    const isDefault  = cur === DEFAULT_CODE.trim();
+    const isSnippet  = EXAMPLES.some(function (e) { return cur === e.code.trim(); });
+    const isEmpty    = cur.length === 0;
+    // Only nag if they actually have their own custom code in the editor.
+    if (!isDefault && !isSnippet && !isEmpty) {
+      if (!window.confirm("Replace your current code with this snippet? Your code will be lost.")) return;
+    }
+    setCode(code);
+    saveCode(code);
+    editor.focus();
+    editor.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
+  function escapeHtml(s) {
+    return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+
   initEditor();
+  renderExamples();
 })();
