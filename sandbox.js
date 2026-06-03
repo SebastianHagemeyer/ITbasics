@@ -88,12 +88,18 @@
   // Python program (via JSPI stack switching) until readLine's promise
   // resolves, so input() behaves exactly like a real terminal. The helpers
   // live in a throwaway function so nothing leaks into the student's globals.
+  // Flushing stdout/stderr first so that anything just print()ed shows up
+  // before the prompt - otherwise back-to-back print()/input() can render
+  // out of order in the panel.
   const PY_INSTALL_INPUT = `
 import builtins as _b
 def _sandbox_install_input():
+    import sys
     from pyodide.ffi import run_sync
     from _sandbox_io import readLine
     def input(prompt=""):
+        sys.stdout.flush()
+        sys.stderr.flush()
         return run_sync(readLine(str(prompt)))
     _b.input = input
 _sandbox_install_input()
@@ -252,10 +258,12 @@ del _sandbox_install_interrupt
       field.autocomplete = "off";
       field.autocapitalize = "off";
       field.spellcheck = false;
-      // A real width from the start so the field is obviously click/typable
-      // - the old size=1 made it nearly invisible until the student typed
-      // something, which looked like the page was frozen.
-      field.size = 8;
+      // Hug the typed text so the flashing cursor (a separate element
+      // pinned just after the field) sits right next to the last char.
+      // size=1 is the minimum HTML allows; the line-wide mousedown
+      // handler below makes click-to-focus work anywhere on the line,
+      // so the tight field doesn't hurt clickability.
+      field.size = 1;
       line.appendChild(field);
 
       // Flashing block cursor so it's obvious Python is paused waiting for
@@ -269,7 +277,11 @@ del _sandbox_install_interrupt
       output.appendChild(line);
       output.scrollTop = output.scrollHeight;
 
-      function resize() { field.size = Math.max(8, field.value.length + 1); }
+      function resize() {
+        // No +1 padding: that's what made the cursor drift away from text.
+        // Math.max with 1 because size=0 is invalid HTML.
+        field.size = Math.max(1, field.value.length);
+      }
       field.addEventListener("input", resize);
       // Clicking anywhere on the line re-focuses the field, so a stray
       // click in the output panel doesn't leave the prompt unresponsive.
@@ -277,10 +289,11 @@ del _sandbox_install_interrupt
         if (e.target !== field) { e.preventDefault(); field.focus(); }
       });
 
-      // Defer focus to after this microtask: Pyodide's run_sync sometimes
-      // settles the promise before the DOM has a chance to paint, and an
-      // immediate .focus() can race with layout.
-      setTimeout(function () { field.focus(); }, 0);
+      // Focus immediately, with a microtask fallback. Some Chromium
+      // builds need a beat after appendChild before focus sticks.
+      // preventScroll keeps focus from fighting the scrollTop set above.
+      field.focus({ preventScroll: true });
+      Promise.resolve().then(function () { field.focus({ preventScroll: true }); });
 
       function cleanup() {
         pendingReject = null;
