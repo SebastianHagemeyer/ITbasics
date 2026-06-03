@@ -127,24 +127,56 @@ del _sandbox_install_input, _b
   // the names from the global namespace, and Python resolves names in
   // function bodies at call time - so the inner function would NameError
   // the first time it ran.
+  //
+  // Uses sleepMs from _sandbox_io (not asyncio.sleep directly) so the
+  // sleep is interruptible by the Stop button - JS can reject the
+  // promise to wake Python early with an exception.
   const PY_PATCH_SLEEP = `
 def _sandbox_install_sleep():
-    import time, asyncio, sys
+    import time, sys
     from pyodide.ffi import run_sync
+    from _sandbox_io import sleepMs
     def _yielding_sleep(seconds):
         sys.stdout.flush()
         sys.stderr.flush()
         if seconds and seconds > 0:
-            run_sync(asyncio.sleep(seconds))
+            run_sync(sleepMs(seconds))
     time.sleep = _yielding_sleep
 _sandbox_install_sleep()
 del _sandbox_install_sleep
+`;
+
+  // Installs a tracing hook that periodically checks a JS-side stop flag
+  // and raises KeyboardInterrupt when the user clicks Stop. Without this,
+  // tight CPU loops (no sleep / no input) can't be interrupted - run_sync
+  // never gets a chance to fire. The counter > N gate keeps overhead low.
+  const PY_INSTALL_INTERRUPT = `
+def _sandbox_install_interrupt():
+    import sys
+    from _sandbox_io import shouldStop
+    counter = [0]
+    def trace(frame, event, arg):
+        counter[0] += 1
+        if counter[0] >= 500:
+            counter[0] = 0
+            if shouldStop():
+                raise KeyboardInterrupt("Stopped by user")
+        return trace
+    sys.settrace(trace)
+_sandbox_install_interrupt()
+del _sandbox_install_interrupt
 `;
 
   let pyodide = null;
   let loadingPromise = null;
   let running = false;
   let jar = null;
+  // Set by readLineInteractive / interruptibleSleep while they're awaiting
+  // a JS promise. stop() rejects this to unstick Python early.
+  let pendingReject = null;
+  // Polled by the Python trace hook so tight CPU loops can be interrupted
+  // too - cleared on read so user catch-blocks don't loop on KeyboardInterrupt.
+  let stopRequested = false;
 
   const editor   = document.getElementById("sandbox-code");
   const output   = document.getElementById("sandbox-output");
@@ -170,10 +202,29 @@ del _sandbox_install_sleep
     localStorage.setItem(STORAGE_KEY, code == null ? getCode() : code);
   }
 
-  function setRunLabel(text, busy) {
-    if (runLabel) runLabel.textContent = text;
-    runBtn.disabled = !!busy;
-    runBtn.classList.toggle("is-busy", !!busy);
+  // The Run button doubles as Stop while code is executing. setRunMode
+  // flips its label, colour and disabled state. "loading" is the brief
+  // initial Pyodide download - it can't be interrupted.
+  function setRunMode(mode) {
+    const isLoading = mode === "loading";
+    const isBusy = mode === "busy" || isLoading;
+    if (runLabel) {
+      runLabel.textContent = isLoading ? "Loading…" : isBusy ? "Stop" : "Run";
+    }
+    runBtn.disabled = isLoading;
+    runBtn.classList.toggle("is-busy", isBusy);
+    runBtn.classList.toggle("btn-primary", !isBusy);
+    runBtn.classList.toggle("btn-danger", isBusy && !isLoading);
+  }
+
+  function stop() {
+    if (!running) return;
+    stopRequested = true;
+    if (pendingReject) {
+      const r = pendingReject;
+      pendingReject = null;
+      r(new Error("Stopped by user"));
+    }
   }
 
   function appendOut(text, kind) {
@@ -188,8 +239,9 @@ del _sandbox_install_sleep
   // Reads one line of input from the student, terminal-style: shows the
   // prompt (if any) inline in the output, drops in a focused text field with
   // a blinking caret, and resolves with the typed text once Enter is pressed.
+  // Stop button rejects via pendingReject; the line is then marked [stopped].
   function readLineInteractive(promptText) {
-    return new Promise(function (resolve) {
+    return new Promise(function (resolve, reject) {
       const line = document.createElement("span");
       line.className = "out-stdin-line";
       if (promptText) line.appendChild(document.createTextNode(promptText));
@@ -200,12 +252,15 @@ del _sandbox_install_sleep
       field.autocomplete = "off";
       field.autocapitalize = "off";
       field.spellcheck = false;
-      field.size = 1;
+      // A real width from the start so the field is obviously click/typable
+      // - the old size=1 made it nearly invisible until the student typed
+      // something, which looked like the page was frozen.
+      field.size = 8;
       line.appendChild(field);
 
-      // A flashing block cursor so it's obvious the program is paused waiting
-      // for input - even when input() has no prompt and the line is otherwise
-      // empty. The native caret is hidden via CSS in favour of this.
+      // Flashing block cursor so it's obvious Python is paused waiting for
+      // input, even when input() has no prompt. The native caret is hidden
+      // via CSS in favour of this.
       const cursor = document.createElement("span");
       cursor.className = "sandbox-cursor";
       cursor.setAttribute("aria-hidden", "true");
@@ -214,35 +269,70 @@ del _sandbox_install_sleep
       output.appendChild(line);
       output.scrollTop = output.scrollHeight;
 
-      // Grow the field with its contents so the cursor sits after the text.
-      function resize() { field.size = Math.max(1, field.value.length + 1); }
+      function resize() { field.size = Math.max(8, field.value.length + 1); }
       field.addEventListener("input", resize);
-      // Clicking anywhere on the line re-focuses the (invisible) field.
+      // Clicking anywhere on the line re-focuses the field, so a stray
+      // click in the output panel doesn't leave the prompt unresponsive.
       line.addEventListener("mousedown", function (e) {
         if (e.target !== field) { e.preventDefault(); field.focus(); }
       });
 
-      setRunLabel("Waiting for input…", true);
-      field.focus();
+      // Defer focus to after this microtask: Pyodide's run_sync sometimes
+      // settles the promise before the DOM has a chance to paint, and an
+      // immediate .focus() can race with layout.
+      setTimeout(function () { field.focus(); }, 0);
+
+      function cleanup() {
+        pendingReject = null;
+        field.removeEventListener("input", resize);
+        field.removeEventListener("keydown", onKey);
+      }
 
       function onKey(e) {
         if (e.key !== "Enter") return;
         e.preventDefault();
         const value = field.value;
-        field.removeEventListener("input", resize);
-        field.removeEventListener("keydown", onKey);
+        cleanup();
         // Echo what was typed into the transcript, then drop the live widgets.
         const echo = document.createElement("span");
         echo.className = "out-stdin";
         echo.textContent = value;
         line.replaceChild(echo, field);
-        line.removeChild(cursor);
+        if (cursor.parentNode === line) line.removeChild(cursor);
         line.appendChild(document.createTextNode("\n"));
-        setRunLabel("Running…", true);
         output.scrollTop = output.scrollHeight;
         resolve(value);
       }
+
+      pendingReject = function (err) {
+        cleanup();
+        if (field.parentNode === line) {
+          const stop = document.createElement("span");
+          stop.className = "out-stderr";
+          stop.textContent = "[stopped]";
+          line.replaceChild(stop, field);
+        }
+        if (cursor.parentNode === line) line.removeChild(cursor);
+        line.appendChild(document.createTextNode("\n"));
+        reject(err);
+      };
+
       field.addEventListener("keydown", onKey);
+    });
+  }
+
+  // setTimeout-based sleep we can cancel from JS. Used by the patched
+  // time.sleep so the Stop button can wake Python early from a long sleep.
+  function interruptibleSleep(seconds) {
+    return new Promise(function (resolve, reject) {
+      const timer = setTimeout(function () {
+        pendingReject = null;
+        resolve();
+      }, Math.max(0, seconds * 1000));
+      pendingReject = function (err) {
+        clearTimeout(timer);
+        reject(err);
+      };
     });
   }
 
@@ -254,12 +344,24 @@ del _sandbox_install_sleep
   }
 
   async function setupInput(py) {
-    py.registerJsModule("_sandbox_io", { readLine: readLineInteractive });
+    py.registerJsModule("_sandbox_io", {
+      readLine: readLineInteractive,
+      sleepMs: interruptibleSleep,
+      // Consume-on-read: the Python trace hook gets True once per Stop
+      // click, then we clear it so user try/except blocks don't loop
+      // forever on KeyboardInterrupt.
+      shouldStop: function () {
+        if (!stopRequested) return false;
+        stopRequested = false;
+        return true;
+      }
+    });
     const useJspi = jspiSupported();
     await py.runPythonAsync(useJspi ? PY_INSTALL_INPUT : PY_DISABLE_INPUT);
     if (useJspi) {
       await py.runPythonAsync(PY_PATCH_SLEEP);
     }
+    await py.runPythonAsync(PY_INSTALL_INTERRUPT);
   }
 
   function loadPyodideScript() {
@@ -278,7 +380,7 @@ del _sandbox_install_sleep
     if (loadingPromise) return loadingPromise;
 
     loadingPromise = (async function () {
-      setRunLabel("Loading Python…", true);
+      setRunMode("loading");
       appendOut("Loading Python runtime (one-time, ~10 MB)…", "info");
       await loadPyodideScript();
       pyodide = await window.loadPyodide({
@@ -295,19 +397,29 @@ del _sandbox_install_sleep
   }
 
   async function run() {
-    if (running) return;
+    // The Run button doubles as Stop while we're busy.
+    if (running) { stop(); return; }
     running = true;
+    stopRequested = false;
+    pendingReject = null;
     clearOut();
-    setRunLabel("Running…", true);
+    setRunMode("busy");
     try {
       const py = await ensurePyodide();
+      setRunMode("busy"); // ensurePyodide flips to "loading" on first run
       await py.runPythonAsync(getCode());
     } catch (err) {
-      const msg = (err && err.message) ? err.message : String(err);
-      appendOut(msg, "stderr");
+      const msg = (err && err.message) ? String(err.message) : String(err);
+      if (/Stopped by user|KeyboardInterrupt/.test(msg)) {
+        appendOut("[stopped]", "info");
+      } else {
+        appendOut(msg, "stderr");
+      }
     } finally {
-      setRunLabel("Run", false);
       running = false;
+      stopRequested = false;
+      pendingReject = null;
+      setRunMode("idle");
     }
   }
 
