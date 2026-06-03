@@ -131,11 +131,14 @@
     },
     {
       title: "Spiral",
-      desc: "A grid of digits spiralling inward.",
+      desc: "Watch a grid of digits spiral inward, one cell per frame.",
       code:
+        "import time\n" +
+        "\n" +
         "n = int(input(\"Grid size (try 7): \"))\n" +
         "grid = [[' '] * n for _ in range(n)]\n" +
         "x, y, dx, dy = 0, 0, 1, 0\n" +
+        "\n" +
         "for i in range(n * n):\n" +
         "    grid[y][x] = str((i + 1) % 10)\n" +
         "    nx, ny = x + dx, y + dy\n" +
@@ -143,8 +146,11 @@
         "        dx, dy = -dy, dx\n" +
         "        nx, ny = x + dx, y + dy\n" +
         "    x, y = nx, ny\n" +
-        "for row in grid:\n" +
-        "    print(' '.join(row))\n"
+        "    # clear() wipes the output panel - then we redraw the whole grid.\n" +
+        "    clear()\n" +
+        "    for row in grid:\n" +
+        "        print(' '.join(row))\n" +
+        "    time.sleep(0.05)\n"
     },
     {
       title: "Sine wave",
@@ -278,6 +284,22 @@ def _sandbox_install_interrupt():
     sys.settrace(trace)
 _sandbox_install_interrupt()
 del _sandbox_install_interrupt
+`;
+
+  // Adds clear() as a Python builtin so students can wipe the output
+  // panel and animate things frame by frame. Flushes stdout/stderr
+  // first so buffered text doesn't end up appearing AFTER the clear.
+  const PY_INSTALL_CLEAR = `
+def _sandbox_install_clear():
+    import sys, builtins
+    from _sandbox_io import clearOutput
+    def clear():
+        sys.stdout.flush()
+        sys.stderr.flush()
+        clearOutput()
+    builtins.clear = clear
+_sandbox_install_clear()
+del _sandbox_install_clear
 `;
 
   let pyodide = null;
@@ -474,7 +496,10 @@ del _sandbox_install_interrupt
         if (!stopRequested) return false;
         stopRequested = false;
         return true;
-      }
+      },
+      // Wipes the output panel - exposed to Python as the clear() builtin
+      // so students can animate things frame by frame.
+      clearOutput: function () { output.innerHTML = ""; }
     });
     const useJspi = jspiSupported();
     await py.runPythonAsync(useJspi ? PY_INSTALL_INPUT : PY_DISABLE_INPUT);
@@ -482,6 +507,7 @@ del _sandbox_install_interrupt
       await py.runPythonAsync(PY_PATCH_SLEEP);
     }
     await py.runPythonAsync(PY_INSTALL_INTERRUPT);
+    await py.runPythonAsync(PY_INSTALL_CLEAR);
   }
 
   function loadPyodideScript() {
