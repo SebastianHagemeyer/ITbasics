@@ -81,6 +81,18 @@
         "word = 'PYTHON'\n" +
         "for i in range(1, len(word) + 1):\n" +
         "    print(word[:i])\n"
+    },
+    {
+      title: "Countdown",
+      desc: "Ask for a number, then count down to GO!",
+      code:
+        "import time\n" +
+        "\n" +
+        "n = int(input(\"Count down from: \"))\n" +
+        "for i in range(n, 0, -1):\n" +
+        "    print(i)\n" +
+        "    time.sleep(0.5)\n" +
+        "print(\"GO!\")\n"
     }
   ];
 
