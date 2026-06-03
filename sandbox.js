@@ -93,6 +93,95 @@
         "    print(i)\n" +
         "    time.sleep(0.5)\n" +
         "print(\"GO!\")\n"
+    },
+    {
+      title: "Loading bar",
+      desc: "Animated progress bar filling step by step.",
+      code:
+        "import time\n" +
+        "\n" +
+        "n = int(input(\"How many steps? \"))\n" +
+        "for i in range(n + 1):\n" +
+        "    print('[' + '=' * i + ' ' * (n - i) + ']')\n" +
+        "    time.sleep(0.1)\n" +
+        "print(\"Done!\")\n"
+    },
+    {
+      title: "Fibonacci",
+      desc: "Each number is the sum of the previous two.",
+      code:
+        "count = int(input(\"How many Fibonacci numbers? \"))\n" +
+        "a, b = 0, 1\n" +
+        "for _ in range(count):\n" +
+        "    print(a)\n" +
+        "    a, b = b, a + b\n"
+    },
+    {
+      title: "Hailstone",
+      desc: "Halve if even, 3n+1 if odd. Always reaches 1!",
+      code:
+        "n = int(input(\"Starting number (try 27): \"))\n" +
+        "print(\"Start:\", n)\n" +
+        "steps = 0\n" +
+        "while n != 1:\n" +
+        "    n = n // 2 if n % 2 == 0 else 3 * n + 1\n" +
+        "    print(n)\n" +
+        "    steps += 1\n" +
+        "print(\"Reached 1 in\", steps, \"steps!\")\n"
+    },
+    {
+      title: "Spiral",
+      desc: "A grid of digits spiralling inward.",
+      code:
+        "n = int(input(\"Grid size (try 7): \"))\n" +
+        "grid = [[' '] * n for _ in range(n)]\n" +
+        "x, y, dx, dy = 0, 0, 1, 0\n" +
+        "for i in range(n * n):\n" +
+        "    grid[y][x] = str((i + 1) % 10)\n" +
+        "    nx, ny = x + dx, y + dy\n" +
+        "    if not (0 <= nx < n and 0 <= ny < n) or grid[ny][nx] != ' ':\n" +
+        "        dx, dy = -dy, dx\n" +
+        "        nx, ny = x + dx, y + dy\n" +
+        "    x, y = nx, ny\n" +
+        "for row in grid:\n" +
+        "    print(' '.join(row))\n"
+    },
+    {
+      title: "Sine wave",
+      desc: "An ASCII wave drawn with math.sin().",
+      code:
+        "import math\n" +
+        "\n" +
+        "lines = int(input(\"How many lines? (try 40) \"))\n" +
+        "for x in range(lines):\n" +
+        "    y = math.sin(x / 4) * 10\n" +
+        "    print(' ' * int(y + 12) + '*')\n"
+    },
+    {
+      title: "Sierpinski triangle",
+      desc: "A fractal pattern from one bitwise trick.",
+      code:
+        "n = int(input(\"Size - try 8, 16 or 32: \"))\n" +
+        "for y in range(n):\n" +
+        "    row = ''\n" +
+        "    for x in range(n):\n" +
+        "        row += '* ' if (x & (n - 1 - y)) == 0 else '  '\n" +
+        "    print(row)\n"
+    },
+    {
+      title: "Caesar cipher",
+      desc: "Encode a secret message by shifting letters.",
+      code:
+        "msg = input(\"What message would you like to encode? \")\n" +
+        "shift = int(input(\"Shift by how many letters? \"))\n" +
+        "out = ''\n" +
+        "for ch in msg:\n" +
+        "    if ch.isalpha():\n" +
+        "        out += chr((ord(ch.upper()) - 65 + shift) % 26 + 65)\n" +
+        "    else:\n" +
+        "        out += ch\n" +
+        "print('Original:', msg)\n" +
+        "print('Encoded: ', out)\n"
     }
   ];
 
