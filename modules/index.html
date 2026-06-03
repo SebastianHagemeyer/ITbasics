@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Modules | Hallam IT Basics</title>
+  <link rel="icon" type="image/svg+xml" href="/logo-binary.svg" />
+  <link rel="apple-touch-icon" href="/logo-binary.svg" />
+  <link rel="stylesheet" href="/styles.css" />
+  <script>
+    (function () {
+      try {
+        if (!JSON.parse(localStorage.getItem("itbasics-session"))) {
+          location.replace("/");
+        }
+      } catch (e) { location.replace("/"); }
+    })();
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/" class="logo">
+        <img class="logo-mark" src="/logo-binary.svg" alt="" width="32" height="32" />
+        <span>Hallam IT Basics</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="/">Home</a>
+        <div class="nav-dropdown" data-open="false">
+          <button type="button" class="nav-dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+            Topics
+            <svg class="nav-chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="nav-dropdown-menu" role="menu">
+            <a href="/topics/programming/" role="menuitem">Programming</a>
+            <a href="/topics/html/" role="menuitem">HTML</a>
+            <a href="/topics/python/" role="menuitem">Python</a>
+            <a href="/quizzes/" role="menuitem">Quizzes</a>
+          </div>
+        </div>
+        <div class="nav-dropdown" data-open="false">
+          <button type="button" class="nav-dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+            Play
+            <svg class="nav-chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="nav-dropdown-menu" role="menu">
+            <a href="/freeplay/" role="menuitem">Freeplay</a>
+            <a href="/challenges/" role="menuitem">Live Coding</a>
+            <a href="/sandbox/" role="menuitem">Sandbox</a>
+          </div>
+        </div>
+        <a href="/leaderboard/">Leaderboard</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Everything in one place</p>
+        <h1>Modules</h1>
+        <p class="lead">Pick a lesson, run through Freeplay, or have a quick quiz. Sign-in keeps your scores and streak.</p>
+      </div>
+    </section>
+
+    <div class="container section">
+      <!-- Featured: Freeplay -->
+      <a class="module-feature" href="/freeplay/">
+        <div class="module-feature-body">
+          <p class="eyebrow">Featured</p>
+          <h2>Freeplay <svg class="module-feature-icon" viewBox="0 0 64 36" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M16 4 C8 4 4 12 4 18 C4 28 8 32 14 32 L20 32 L22 26 L42 26 L44 32 L50 32 C56 32 60 28 60 18 C60 12 56 4 48 4 Z" fill="#1C4587"/><path d="M16 4 C9 4 5 11 4 18 C5 14 8 10 13 8 Z" fill="#FFFFFF" opacity="0.18"/><rect x="11" y="14.5" width="11" height="3" rx="0.9" fill="#FFEE00"/><rect x="15" y="10.5" width="3" height="11" rx="0.9" fill="#FFEE00"/><circle cx="44" cy="12" r="2.5" fill="#FFEE00"/><circle cx="50" cy="18" r="2.5" fill="#FFEE00"/><circle cx="44" cy="24" r="2.5" fill="#FFEE00"/><circle cx="38" cy="18" r="2.5" fill="#FFEE00"/></svg></h2>
+          <p class="lead">160+ random coding scenarios. One question at a time. Instant grading. The correct answer is always revealed.</p>
+          <span class="btn btn-primary">Start Freeplay <span class="arrow" aria-hidden="true"></span></span>
+        </div>
+        <pre class="module-feature-code" aria-hidden="true"><span class="c-comment"># What does this print?</span>
+<span class="c-keyword">print</span>(<span class="c-string">"ha"</span> * <span class="c-num">3</span>)
+
+<span class="c-comment"># A. ha 3</span>
+<span class="c-comment"># B. hahaha</span>
+<span class="c-comment"># C. ha ha ha</span>
+<span class="c-comment"># D. Error</span></pre>
+      </a>
+
+      <h2 class="section-title">Lessons</h2>
+      <p class="section-sub">Read through, try the worked examples, then test yourself in Freeplay.</p>
+      <div class="card-grid">
+        <a class="card" href="/topics/programming/">
+          <div class="card-icon" style="--accent: #7c5cff;">1</div>
+          <h3>Programming Basics</h3>
+          <p>Algorithms, variables, loops and decisions in plain English.</p>
+          <span class="card-link">Open the lesson <span class="arrow" aria-hidden="true"></span></span>
+        </a>
+        <a class="card" href="/topics/html/">
+          <div class="card-icon" style="--accent: #ff7a59;">2</div>
+          <h3>HTML Basics</h3>
+          <p>Build your first web page: headings, paragraphs, links, images, lists.</p>
+          <span class="card-link">Open the lesson <span class="arrow" aria-hidden="true"></span></span>
+        </a>
+        <a class="card" href="/topics/python/">
+          <div class="card-icon" style="--accent: #2ec4b6;">3</div>
+          <h3>Python Basics</h3>
+          <p>Write real code: print, variables, input, maths, loops, functions.</p>
+          <span class="card-link">Open the lesson <span class="arrow" aria-hidden="true"></span></span>
+        </a>
+      </div>
+
+      <h2 class="section-title">Other ways to practise</h2>
+      <div class="card-grid card-grid-small">
+        <a class="card card-small" href="/quizzes/">
+          <div class="card-icon card-icon-small" style="--accent: #ffbe0b;">?</div>
+          <h3>Quick Quizzes</h3>
+          <p>Four 10-question quizzes,one per topic, plus mixed review. Scores feed the leaderboard.</p>
+          <span class="card-link">Take a quiz <span class="arrow" aria-hidden="true"></span></span>
+        </a>
+        <a class="card card-small" href="/challenges/">
+          <div class="card-icon card-icon-small" style="--accent: #1f9d55;">&gt;_</div>
+          <h3>Live Coding</h3>
+          <p>Real coding tasks, auto-graded in your browser. Pass the stress tests to score on the leaderboard.</p>
+          <span class="card-link">Take a challenge <span class="arrow" aria-hidden="true"></span></span>
+        </a>
+        <a class="card card-small" href="/leaderboard/">
+          <div class="card-icon card-icon-small" style="--accent: #1C4587;">★</div>
+          <h3>Leaderboard</h3>
+          <p>See who is climbing the ranks across your class and the whole year.</p>
+          <span class="card-link">See the leaderboard <span class="arrow" aria-hidden="true"></span></span>
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; Hallam IT Basics &middot; For Years 7-9 computing classes.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+  <script src="/supabase-config.js"></script>
+  <script src="/app.js"></script>
+</body>
+</html>

@@ -53,9 +53,9 @@
 
   function signOut() {
     setSession(null);
-    // Always go back to the login screen.
-    if (!/(^|\/)index\.html$/.test(location.pathname) && location.pathname !== "/") {
-      location.replace("index.html");
+    // Always go back to the login screen at the site root.
+    if (location.pathname !== "/") {
+      location.replace("/");
     }
   }
 
