@@ -1993,3 +1993,131 @@ a.auth-user {
   transition: border-color 0.15s ease, box-shadow 0.15s ease;
 }
 a.auth-user:hover { border-color: var(--primary); box-shadow: var(--shadow-sm); }
+
+/* ======================================================================
+   Binary & Data module
+   ====================================================================== */
+
+/* Place-value reference strip */
+.place-strip { display: flex; gap: 6px; flex-wrap: wrap; margin: 8px 0 16px; }
+.place-strip span {
+  flex: 1; min-width: 44px; text-align: center;
+  background: var(--bg); border: 1px solid var(--border); border-radius: var(--radius-sm);
+  padding: 8px 4px; font-weight: 800; color: var(--primary); font-variant-numeric: tabular-nums;
+}
+
+/* The interactive binary machine */
+.bitconv {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); box-shadow: var(--shadow-sm);
+  padding: 22px; margin: 8px 0 18px;
+}
+.bitconv-bits { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; }
+.bit {
+  display: flex; flex-direction: column; align-items: center; gap: 6px;
+  width: 60px; padding: 10px 0 12px; cursor: pointer;
+  background: var(--bg); border: 2px solid var(--border); border-radius: var(--radius-sm);
+  font-family: inherit; transition: background 0.12s, border-color 0.12s, transform 0.06s, box-shadow 0.12s;
+}
+.bit:hover { border-color: var(--primary); }
+.bit:active { transform: translateY(1px); }
+.bit-place { font-size: 0.72rem; font-weight: 700; color: var(--muted); }
+.bit-digit {
+  font-size: 1.7rem; font-weight: 800; line-height: 1; color: var(--muted);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+.bit.on {
+  background: var(--accent); border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(255, 255, 0, 0.25);
+}
+.bit.on .bit-place { color: var(--primary-dark); }
+.bit.on .bit-digit { color: #000; }
+
+.bitconv-readout {
+  display: flex; align-items: center; justify-content: center; gap: 14px;
+  flex-wrap: wrap; margin: 20px 0 6px; text-align: center;
+}
+.bitconv-sum {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 1.1rem; font-weight: 700; color: var(--muted);
+}
+.bitconv-eq { font-size: 1.6rem; color: var(--muted); font-weight: 700; }
+.bitconv-decimal {
+  font-size: 2.8rem; font-weight: 800; color: var(--primary); line-height: 1;
+  font-variant-numeric: tabular-nums; min-width: 1.5em;
+}
+.bitconv-controls {
+  display: flex; align-items: center; gap: 10px; flex-wrap: wrap; justify-content: center;
+  margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--border);
+}
+.bitconv-controls label { font-weight: 600; color: var(--muted); font-size: 0.95rem; }
+.bitconv-controls input {
+  width: 90px; padding: 8px 10px; font-family: inherit; font-size: 1rem;
+  border: 1px solid var(--border); border-radius: var(--radius-sm);
+}
+.bitconv-controls input:focus { outline: none; border-color: var(--primary); box-shadow: 0 0 0 3px rgba(28,69,135,0.18); }
+
+/* Knowledge checks (formative, Khan-style) */
+.kcheck {
+  background: var(--bg); border: 1px solid var(--border); border-left: 4px solid var(--primary);
+  border-radius: var(--radius); padding: 16px 18px; margin: 18px 0;
+}
+.kcheck-q { margin: 0 0 12px; }
+.kcheck-options { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; }
+.kcheck-opt {
+  text-align: left; background: var(--surface); border: 1.5px solid var(--border);
+  border-radius: var(--radius-sm); padding: 11px 14px; font-family: inherit; font-size: 1rem;
+  color: var(--text); cursor: pointer; transition: border-color 0.12s, background 0.12s;
+}
+.kcheck-opt:hover:not(:disabled) { border-color: var(--primary); background: rgba(28,69,135,0.05); }
+.kcheck-opt:disabled { cursor: default; }
+.kcheck-opt.correct { background: var(--success-bg); border-color: var(--success); font-weight: 700; }
+.kcheck-opt.wrong { background: var(--danger-bg); border-color: var(--danger); opacity: 0.85; }
+.kcheck-feedback { margin: 12px 0 0; font-weight: 700; }
+.kcheck-feedback.correct { color: var(--success); }
+.kcheck-feedback.wrong { color: var(--danger); }
+.kcheck-explain { margin: 8px 0 0; color: var(--muted); }
+
+/* Text -> ASCII -> binary decoder */
+.secret { margin: 8px 0 6px; }
+.secret > label { display: block; font-weight: 600; color: var(--muted); margin-bottom: 8px; }
+.secret > input {
+  width: 100%; max-width: 260px; padding: 10px 12px; font-family: inherit; font-size: 1.05rem;
+  border: 1px solid var(--border); border-radius: var(--radius-sm); text-transform: uppercase; letter-spacing: 0.08em;
+}
+.secret > input:focus { outline: none; border-color: var(--primary); box-shadow: 0 0 0 3px rgba(28,69,135,0.18); }
+.secret-out { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 16px; }
+.secret-cell {
+  display: flex; flex-direction: column; align-items: center; gap: 4px;
+  background: var(--code-bg); color: var(--code-text); border-radius: var(--radius-sm); padding: 10px 12px; min-width: 56px;
+}
+.secret-char { font-size: 1.4rem; font-weight: 800; }
+.secret-code { font-size: 0.85rem; color: #82c8ff; font-weight: 700; }
+.secret-bin {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 0.8rem; color: #9be59b; letter-spacing: 0.04em;
+}
+.muted-note { color: var(--muted); font-size: 0.9rem; }
+
+/* Class word cloud */
+.wordcloud { margin: 8px 0; }
+.wordcloud-form { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-bottom: 16px; }
+.wordcloud-form input {
+  flex: 1; min-width: 180px; padding: 10px 12px; font-family: inherit; font-size: 1rem;
+  border: 1px solid var(--border); border-radius: var(--radius-sm);
+}
+.wordcloud-form input:focus { outline: none; border-color: var(--primary); box-shadow: 0 0 0 3px rgba(28,69,135,0.18); }
+.wordcloud-msg { font-size: 0.9rem; color: var(--success); font-weight: 600; }
+.wordcloud-msg.error { color: var(--danger); }
+.wordcloud-cloud {
+  display: flex; flex-wrap: wrap; gap: 6px 18px; align-items: center; justify-content: center;
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+  box-shadow: var(--shadow-sm); padding: 26px 22px; min-height: 90px;
+}
+.wc-word { font-weight: 800; line-height: 1.1; }
+.wordcloud-empty { color: var(--muted); margin: 0; }
+
+@media (max-width: 540px) {
+  .kcheck-options { grid-template-columns: 1fr; }
+  .bit { width: 50px; }
+  .bit-digit { font-size: 1.4rem; }
+}

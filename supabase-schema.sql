@@ -303,3 +303,31 @@ left join best_named bn on bn.student_code = s.code
 left join freeplay_sum f on f.student_code = s.code
 left join livecoding_done lc on lc.student_code = s.code
 group by s.code, s.first_name, s.last_name, s.class, s.year_level, f.total, lc.total;
+
+-- ============================================================
+-- Word cloud (interactive module contributions)
+-- ============================================================
+-- One word per student per topic (e.g. topic = 'binary'). The primary key
+-- (student_code, topic) means upsert lets a student change their word
+-- rather than spam new ones. Tied to student_code so a teacher can moderate:
+-- delete a row in the Supabase Table Editor to remove a word.
+
+create table if not exists wordcloud (
+  student_code  text not null references students(code) on delete cascade,
+  topic         text not null,
+  word          text not null,
+  updated_at    timestamptz not null default now(),
+  primary key (student_code, topic)
+);
+
+create index if not exists wordcloud_topic_idx on wordcloud(topic);
+
+alter table wordcloud enable row level security;
+
+drop policy if exists wordcloud_select_anon on wordcloud;
+drop policy if exists wordcloud_insert_anon on wordcloud;
+drop policy if exists wordcloud_update_anon on wordcloud;
+
+create policy wordcloud_select_anon on wordcloud for select to anon using (true);
+create policy wordcloud_insert_anon on wordcloud for insert to anon with check (true);
+create policy wordcloud_update_anon on wordcloud for update to anon using (true) with check (true);
