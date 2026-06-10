@@ -133,6 +133,100 @@ on conflict (code) do update set
   year_level = excluded.year_level;
 
 -- ============================================================
+-- Additional IT classes added June 2026 (65 students)
+-- 10ITB: 23, 7ITC: 21, 7ITD: 21. Same UPSERT pattern, safe to re-run.
+-- ============================================================
+
+insert into students (code, first_name, last_name, class, year_level) values
+  -- 10ITB
+  ('AMI0032', 'Bilal Ahmad',   'Amin',         '10ITB', 10),
+  ('ASH0028', 'Muhammad',      'Asher',        '10ITB', 10),
+  ('BER0026', 'Noah',          'Berton',       '10ITB', 10),
+  ('CAN0025', 'Rishi',         'Canistan',     '10ITB', 10),
+  ('CHI0019', 'Stan',          'Chikazhe',     '10ITB', 10),
+  ('FAR0025', 'Pouriya',       'Fard',         '10ITB', 10),
+  ('FAR0027', 'Mirwais',       'Farid',        '10ITB', 10),
+  ('GAR0048', 'Troy',          'Gartside',     '10ITB', 10),
+  ('HAV0003', 'Makai',         'Havea',        '10ITB', 10),
+  ('KAK0010', 'Rahmatulla',    'Kakar',        '10ITB', 10),
+  ('LAU0021', 'Sariah',        'Lauano',       '10ITB', 10),
+  ('LEA0028', 'Archer',        'Lean',         '10ITB', 10),
+  ('MOH0085', 'Noyan',         'Mohammadi',    '10ITB', 10),
+  ('NAZ0033', 'Naseer',        'Nazari',       '10ITB', 10),
+  ('NAZ0037', 'Mohammad Asif', 'Nazari',       '10ITB', 10),
+  ('NOO0032', 'Irfan Ali',     'Noori',        '10ITB', 10),
+  ('PAT0030', 'Johnny',        'Patton-Gear',  '10ITB', 10),
+  ('QAS0009', 'Abbas',         'Qasemi',       '10ITB', 10),
+  ('RAH0048', 'Azlan',         'Rahman',       '10ITB', 10),
+  ('SAD0015', 'Tareq',         'Sadat',        '10ITB', 10),
+  ('SAL0051', 'Bibi Saira',    'Salozai',      '10ITB', 10),
+  ('SHE0035', 'Shehla Bibi',   'Shehla Bibi',  '10ITB', 10),
+  ('ZAH0027', 'Nazia',         'Zahedi',       '10ITB', 10)
+on conflict (code) do update set
+  first_name = excluded.first_name,
+  last_name  = excluded.last_name,
+  class      = excluded.class,
+  year_level = excluded.year_level;
+
+insert into students (code, first_name, last_name, class, year_level) values
+  -- 7ITC
+  ('ADA0039', 'Cameron',   'Adamson',           '7ITC', 7),
+  ('BAL0025', 'Aaron',     'Baliton',           '7ITC', 7),
+  ('BAT0044', 'Henry',     'Bath',              '7ITC', 7),
+  ('BUR0045', 'Eliza',     'Burney',            '7ITC', 7),
+  ('CRI0013', 'Jasel',     'Crichton',          '7ITC', 7),
+  ('ERU0002', 'Hepara',    'Eruera',            '7ITC', 7),
+  ('ESP0010', 'Jack',      'Espie',             '7ITC', 7),
+  ('FIA0004', 'Mariana',   'Fiame Teo',         '7ITC', 7),
+  ('FUI0008', 'Jaden',     'Fuiono',            '7ITC', 7),
+  ('HOS0019', 'Mahya',     'Hosseini',          '7ITC', 7),
+  ('JAM0041', 'Ali Reza',  'Jamili',            '7ITC', 7),
+  ('LAU0022', 'Jarom',     'Lauano',            '7ITC', 7),
+  ('MAC0066', 'Phoebe',    'Mackenzie',         '7ITC', 7),
+  ('MAH0031', 'Khadijah',  'Mahbob',            '7ITC', 7),
+  ('MAH0032', 'Asher',     'Mahmood',           '7ITC', 7),
+  ('MAN0056', 'Asenath',   'Mansori',           '7ITC', 7),
+  ('OZB0005', 'Haron',     'Ozbek',             '7ITC', 7),
+  ('TUM0009', 'Navaheina', 'Tumu',              '7ITC', 7),
+  ('VIN0013', 'Harry',     'Viney',             '7ITC', 7),
+  ('WIL0128', 'Aarona',    'Williams-McGregor', '7ITC', 7),
+  ('WOR0009', 'Charlotte', 'Worroll',           '7ITC', 7)
+on conflict (code) do update set
+  first_name = excluded.first_name,
+  last_name  = excluded.last_name,
+  class      = excluded.class,
+  year_level = excluded.year_level;
+
+insert into students (code, first_name, last_name, class, year_level) values
+  -- 7ITD
+  ('AHM0112', 'Irfan',   'Ahmadi',       '7ITD', 7),
+  ('AZA0009', 'Noah',    'Azagra',       '7ITD', 7),
+  ('CLI0023', 'Tate',    'Clissold',     '7ITD', 7),
+  ('ELC0001', 'Tatiana', 'El-Chikhani',  '7ITD', 7),
+  ('GHA0024', 'Adnan',   'Ghasimy',      '7ITD', 7),
+  ('GLE0008', 'Cooper',  'Glenton',      '7ITD', 7),
+  ('HET0002', 'Ella',    'Hettig',       '7ITD', 7),
+  ('HUN0042', 'Vincent', 'Hunter',       '7ITD', 7),
+  ('JOH0080', 'Koda',    'Johnstone',    '7ITD', 7),
+  ('LIN0014', 'Shayon',  'Lingeswaran',  '7ITD', 7),
+  ('LOR0009', 'Souljah', 'Lord',         '7ITD', 7),
+  ('MAS0055', 'Tarrkyn', 'Masofa',       '7ITD', 7),
+  ('MIH0008', 'Gabriel', 'Mihelcic',     '7ITD', 7),
+  ('MOR0082', 'Marzya',  'Moradi',       '7ITD', 7),
+  ('MOT0011', 'Sione',   'Motu''apuaka', '7ITD', 7),
+  ('PAI0015', 'Estelle', 'Paine',        '7ITD', 7),
+  ('PAP0017', 'Anna',    'Papatua',      '7ITD', 7),
+  ('PRI0022', 'River',   'Price',        '7ITD', 7),
+  ('SER0007', 'Lara',    'Serdzeff',     '7ITD', 7),
+  ('SHE0040', 'Yusuf',   'Shereen',      '7ITD', 7),
+  ('TUI0043', 'Alofa',   'Tuimavave',    '7ITD', 7)
+on conflict (code) do update set
+  first_name = excluded.first_name,
+  last_name  = excluded.last_name,
+  class      = excluded.class,
+  year_level = excluded.year_level;
+
+-- ============================================================
 -- Test "gremlin" account
 -- ============================================================
 -- A throwaway account for trying the site as a student without using a
