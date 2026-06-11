@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Digital Systems | Hallam IT Basics</title>
+  <link rel="icon" type="image/svg+xml" href="/logo-binary.svg" />
+  <link rel="apple-touch-icon" href="/logo-binary.svg" />
+  <link rel="stylesheet" href="/styles.css" />
+  <script>
+    (function () {
+      try {
+        if (!JSON.parse(localStorage.getItem("itbasics-session"))) {
+          location.replace("/");
+        }
+      } catch (e) { location.replace("/"); }
+    })();
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/" class="logo">
+        <img class="logo-mark" src="/logo-binary.svg" alt="" width="32" height="32" />
+        <span>Hallam IT Basics</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="/">Home</a>
+        <a href="/modules/">All modules</a>
+        <a href="/leaderboard/">Leaderboard</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Digital Systems</p>
+        <h1>Inside a computer</h1>
+        <p class="lead">A computer is really a team of parts working together. Even one you build in Minecraft has the same jobs: take data <strong>in</strong>, <strong>process</strong> it, <strong>store</strong> it, and put it back <strong>out</strong>.</p>
+        <div class="hero-ctas hero-ctas-quick">
+          <a href="#sort" class="btn btn-primary">Jump to the sorting game <span class="arrow" aria-hidden="true"></span></a>
+        </div>
+      </div>
+    </section>
+
+    <div class="container lesson-layout">
+      <aside class="lesson-toc" aria-label="On this page">
+        <h4>On this page</h4>
+        <ol>
+          <li><a href="#system">What is a digital system?</a></li>
+          <li><a href="#io">Input &amp; output</a></li>
+          <li><a href="#sort">Sort the devices</a></li>
+          <li><a href="#storage">Storage</a></li>
+          <li><a href="#cpu">The processor (CPU)</a></li>
+          <li><a href="#memory">RAM vs ROM</a></li>
+          <li><a href="#test">Module test</a></li>
+          <li><a href="#glossary">Glossary</a></li>
+        </ol>
+      </aside>
+
+      <article class="lesson">
+        <section id="system">
+          <h2>1. What is a digital system?</h2>
+          <p>A <strong>digital system</strong> is hardware and software working together to do four jobs, in order:</p>
+          <div class="ipos">
+            <div class="ipos-step"><span class="ipos-num">1</span><strong>Input</strong><span>Take data in</span></div>
+            <div class="ipos-arrow" aria-hidden="true">&rarr;</div>
+            <div class="ipos-step"><span class="ipos-num">2</span><strong>Process</strong><span>Work on it</span></div>
+            <div class="ipos-arrow" aria-hidden="true">&rarr;</div>
+            <div class="ipos-step"><span class="ipos-num">3</span><strong>Store</strong><span>Keep it</span></div>
+            <div class="ipos-arrow" aria-hidden="true">&rarr;</div>
+            <div class="ipos-step"><span class="ipos-num">4</span><strong>Output</strong><span>Put it out</span></div>
+          </div>
+          <p><strong>Hardware</strong> is the physical parts you can touch (keyboard, screen, the chips inside). <strong>Software</strong> is the programs that run on it (games, a web browser, the code you write).</p>
+          <div class="callout">
+            <strong>Key idea:</strong> Input &rarr; Process &rarr; Store &rarr; Output. Every device, from a phone to a games console, does these four jobs.
+          </div>
+        </section>
+
+        <section id="io">
+          <h2>2. Input &amp; output</h2>
+          <p>An <strong>input device</strong> sends data <em>into</em> the computer. An <strong>output device</strong> sends data <em>out</em> to you. A quick way to tell them apart: input is how <em>you</em> talk to the computer; output is how the <em>computer</em> talks back.</p>
+          <table class="data-table">
+            <thead><tr><th>Input (data in)</th><th>Output (data out)</th></tr></thead>
+            <tbody>
+              <tr><td>Keyboard, mouse</td><td>Monitor (screen)</td></tr>
+              <tr><td>Microphone</td><td>Speakers, headphones</td></tr>
+              <tr><td>Webcam, scanner</td><td>Printer</td></tr>
+            </tbody>
+          </table>
+          <div class="kcheck" data-answer="c">
+            <p class="kcheck-q"><strong>Check your understanding:</strong> Which of these is an <strong>output</strong> device?</p>
+            <div class="kcheck-options">
+              <button type="button" class="kcheck-opt" data-key="a">Keyboard</button>
+              <button type="button" class="kcheck-opt" data-key="b">Microphone</button>
+              <button type="button" class="kcheck-opt" data-key="c">Printer</button>
+              <button type="button" class="kcheck-opt" data-key="d">Webcam</button>
+            </div>
+            <p class="kcheck-feedback" hidden></p>
+            <p class="kcheck-explain" hidden>A printer takes data from the computer and puts it out onto paper, so it is an output device. Keyboard, microphone and webcam all send data in, so they are inputs.</p>
+          </div>
+          <div class="exam-box">
+            <p class="exam-tag">Exam practice</p>
+            <p>Name THREE different input devices. <span class="exam-marks">(1 mark)</span></p>
+            <details>
+              <summary>Show what earns the marks</summary>
+              <ul>
+                <li><strong>1 mark</strong> for three correct input devices, for example: keyboard, mouse, microphone, webcam, scanner, game controller, touchscreen.</li>
+                <li>You get <strong>0</strong> if any of your three is an <strong>output</strong> device (printer, monitor or speakers). Read the question carefully!</li>
+              </ul>
+            </details>
+          </div>
+        </section>
+
+        <section id="sort">
+          <h2>3. Sort the devices</h2>
+          <p>Tap a device, then tap the bin it belongs in: <strong>Input</strong>, <strong>Output</strong> or <strong>Storage</strong>. Then press Check.</p>
+          <div class="ds-sorter">
+            <div class="ds-tray" id="ds-tray">
+              <button type="button" class="ds-chip" data-cat="input">Keyboard</button>
+              <button type="button" class="ds-chip" data-cat="output">Monitor</button>
+              <button type="button" class="ds-chip" data-cat="storage">USB stick</button>
+              <button type="button" class="ds-chip" data-cat="input">Mouse</button>
+              <button type="button" class="ds-chip" data-cat="output">Speakers</button>
+              <button type="button" class="ds-chip" data-cat="storage">Hard drive</button>
+              <button type="button" class="ds-chip" data-cat="input">Microphone</button>
+              <button type="button" class="ds-chip" data-cat="output">Printer</button>
+              <button type="button" class="ds-chip" data-cat="storage">SD card</button>
+              <button type="button" class="ds-chip" data-cat="input">Webcam</button>
+              <button type="button" class="ds-chip" data-cat="output">Headphones</button>
+              <button type="button" class="ds-chip" data-cat="storage">SSD</button>
+            </div>
+            <div class="ds-bins">
+              <div class="ds-bin" data-cat="input"><h4>Input</h4><div class="ds-drop"></div></div>
+              <div class="ds-bin" data-cat="output"><h4>Output</h4><div class="ds-drop"></div></div>
+              <div class="ds-bin" data-cat="storage"><h4>Storage</h4><div class="ds-drop"></div></div>
+            </div>
+            <div class="ds-actions">
+              <button type="button" class="btn btn-primary ds-check">Check</button>
+              <button type="button" class="btn btn-ghost ds-reset">Reset</button>
+              <span class="ds-result" aria-live="polite"></span>
+            </div>
+          </div>
+        </section>
+
+        <section id="storage">
+          <h2>4. Storage</h2>
+          <p>A <strong>storage device</strong> keeps data for later, even when the power is off. Examples: a <strong>hard drive</strong> (HDD), a faster <strong>solid state drive</strong> (SSD), a <strong>USB stick</strong> or an SD card. Storage is measured in the units you met in the <a href="/topics/binary/">Binary module</a>: KB, MB, GB.</p>
+          <div class="try-box">
+            <h4>You try</h4>
+            <p>Your school laptop is almost full. Write down <strong>three</strong> things you could do to free up space (and why each helps). Hint: think about files you no longer need, apps you do not use, and moving things somewhere else.</p>
+          </div>
+        </section>
+
+        <section id="cpu">
+          <h2>5. The processor (CPU)</h2>
+          <p>The <strong>processor</strong>, or <strong>CPU</strong>, is the <em>brain</em> of the computer. It does the <strong>process</strong> step: it follows the program's instructions, does the maths and the decisions, billions of times a second. When you hear a computer is "fast", that is mostly the CPU.</p>
+        </section>
+
+        <section id="memory">
+          <h2>6. RAM vs ROM</h2>
+          <p>These two sound alike but do opposite jobs:</p>
+          <table class="data-table">
+            <thead><tr><th></th><th>RAM</th><th>ROM</th></tr></thead>
+            <tbody>
+              <tr><td>Job</td><td>Working memory the computer uses <em>right now</em></td><td>Permanent instructions to <em>start up</em></td></tr>
+              <tr><td>When the power goes off</td><td>It is <strong>wiped</strong> (temporary)</td><td>It <strong>stays</strong> (permanent)</td></tr>
+            </tbody>
+          </table>
+          <div class="kcheck" data-answer="a">
+            <p class="kcheck-q"><strong>Check your understanding:</strong> Which memory is <strong>temporary</strong> and gets wiped when you turn the computer off?</p>
+            <div class="kcheck-options">
+              <button type="button" class="kcheck-opt" data-key="a">RAM</button>
+              <button type="button" class="kcheck-opt" data-key="b">ROM</button>
+              <button type="button" class="kcheck-opt" data-key="c">A hard drive</button>
+              <button type="button" class="kcheck-opt" data-key="d">A USB stick</button>
+            </div>
+            <p class="kcheck-feedback" hidden></p>
+            <p class="kcheck-explain" hidden>RAM is the computer's short-term working memory, and it is wiped every time the power goes off. ROM keeps its data permanently and holds the instructions that start the computer up.</p>
+          </div>
+        </section>
+
+        <section id="test">
+          <h2>Module test</h2>
+          <p>Five quick questions to check you have got it. Your best score shows on your <a href="/progress/">My Progress</a> page.</p>
+          <div class="module-test" data-test="systems">
+            <div class="mtest-q" data-answer="a">
+              <p class="mtest-prompt">1. Which of these is an <strong>input</strong> device?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">Microphone</button>
+                <button type="button" class="mtest-opt" data-key="b">Monitor</button>
+                <button type="button" class="mtest-opt" data-key="c">Speakers</button>
+                <button type="button" class="mtest-opt" data-key="d">Printer</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="b">
+              <p class="mtest-prompt">2. What is the main job of the processor (CPU)?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">To store your files permanently</button>
+                <button type="button" class="mtest-opt" data-key="b">To follow the instructions and process the data</button>
+                <button type="button" class="mtest-opt" data-key="c">To show pictures on the screen</button>
+                <button type="button" class="mtest-opt" data-key="d">To connect the computer to the internet</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="d">
+              <p class="mtest-prompt">3. Which memory is temporary and is wiped when the power goes off?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">ROM</button>
+                <button type="button" class="mtest-opt" data-key="b">A hard drive</button>
+                <button type="button" class="mtest-opt" data-key="c">An SSD</button>
+                <button type="button" class="mtest-opt" data-key="d">RAM</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="c">
+              <p class="mtest-prompt">4. Which of these is a <strong>storage</strong> device?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">Keyboard</button>
+                <button type="button" class="mtest-opt" data-key="b">Speakers</button>
+                <button type="button" class="mtest-opt" data-key="c">USB stick</button>
+                <button type="button" class="mtest-opt" data-key="d">Monitor</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="b">
+              <p class="mtest-prompt">5. A digital system does four jobs. What is the right order?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">Output, Store, Process, Input</button>
+                <button type="button" class="mtest-opt" data-key="b">Input, Process, Store, Output</button>
+                <button type="button" class="mtest-opt" data-key="c">Process, Input, Output, Store</button>
+                <button type="button" class="mtest-opt" data-key="d">Input, Output, Store, Process</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="cloud">
+          <h2>Class word cloud</h2>
+          <p>Every gadget is a digital system. Add one you have used today.</p>
+          <div class="wordcloud"
+               data-topic="systems"
+               data-prompt="In one word, name a device you have used today."
+               data-placeholder="e.g. phone"></div>
+        </section>
+
+        <section id="glossary">
+          <h2>Glossary</h2>
+          <dl class="glossary">
+            <dt>Digital system</dt><dd>Hardware and software working together to input, process, store and output data.</dd>
+            <dt>Hardware</dt><dd>The physical parts of a computer you can touch.</dd>
+            <dt>Software</dt><dd>The programs that run on the hardware.</dd>
+            <dt>Input device</dt><dd>Sends data into the computer (keyboard, mouse, microphone).</dd>
+            <dt>Output device</dt><dd>Sends data out to the user (monitor, speakers, printer).</dd>
+            <dt>Storage device</dt><dd>Keeps data for later, even when off (hard drive, SSD, USB stick).</dd>
+            <dt>CPU (processor)</dt><dd>The brain that follows instructions and processes data.</dd>
+            <dt>RAM</dt><dd>Temporary working memory, wiped when the power is off.</dd>
+            <dt>ROM</dt><dd>Permanent memory holding the start-up instructions.</dd>
+          </dl>
+        </section>
+
+        <div class="lesson-nav">
+          <a href="/modules/" class="btn btn-ghost">&larr; All modules</a>
+          <a href="/topics/binary/" class="btn btn-primary">Next: Binary &amp; Data <span class="arrow" aria-hidden="true"></span></a>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; Hallam IT Basics &middot; For Years 7-9 computing classes.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+  <script src="/supabase-config.js"></script>
+  <script src="/app.js"></script>
+  <script src="/systems.js"></script>
+  <script src="/wordcloud.js"></script>
+  <script src="/moduletest.js"></script>
+</body>
+</html>
