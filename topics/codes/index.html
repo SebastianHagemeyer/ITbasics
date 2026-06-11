@@ -159,6 +159,58 @@
           </dl>
         </section>
 
+        <section id="test">
+          <h2>Module test</h2>
+          <p>Five quick questions to check you have got it. Your best score shows on your <a href="/progress/">My Progress</a> page.</p>
+          <div class="module-test" data-test="codes">
+            <div class="mtest-q" data-answer="c">
+              <p class="mtest-prompt">1. In ASCII, the letter <code>A</code> is stored as which number?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">1</button>
+                <button type="button" class="mtest-opt" data-key="b">26</button>
+                <button type="button" class="mtest-opt" data-key="c">65</button>
+                <button type="button" class="mtest-opt" data-key="d">100</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="d">
+              <p class="mtest-prompt">2. What is the hex number <code>FF</code> in decimal?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">15</button>
+                <button type="button" class="mtest-opt" data-key="b">99</button>
+                <button type="button" class="mtest-opt" data-key="c">160</button>
+                <button type="button" class="mtest-opt" data-key="d">255</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="b">
+              <p class="mtest-prompt">3. How many hex digits make up one byte?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">1</button>
+                <button type="button" class="mtest-opt" data-key="b">2</button>
+                <button type="button" class="mtest-opt" data-key="c">4</button>
+                <button type="button" class="mtest-opt" data-key="d">8</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="a">
+              <p class="mtest-prompt">4. Which hex code is pure red?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">#FF0000</button>
+                <button type="button" class="mtest-opt" data-key="b">#00FF00</button>
+                <button type="button" class="mtest-opt" data-key="c">#0000FF</button>
+                <button type="button" class="mtest-opt" data-key="d">#FFFFFF</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="b">
+              <p class="mtest-prompt">5. In the colour code <code>#00FF00</code>, which light is fully on?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">Red</button>
+                <button type="button" class="mtest-opt" data-key="b">Green</button>
+                <button type="button" class="mtest-opt" data-key="c">Blue</button>
+                <button type="button" class="mtest-opt" data-key="d">All three</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <div class="lesson-nav">
           <a href="/topics/binary/" class="btn btn-ghost">&larr; Binary &amp; Data</a>
           <a href="/modules/" class="btn btn-primary">All modules <span class="arrow" aria-hidden="true"></span></a>
@@ -178,5 +230,6 @@
   <script src="/app.js"></script>
   <script src="/codes.js"></script>
   <script src="/wordcloud.js"></script>
+  <script src="/moduletest.js"></script>
 </body>
 </html>
