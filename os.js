@@ -31,7 +31,7 @@
         statusEl.className = "sc-status";
         active = false;
         startBtn.textContent = "Try again";
-        startBtn.hidden = false;
+        startBtn.disabled = false;
         return;
       }
       promptEl.innerHTML = "Press the shortcut for <strong>" + challenges[i].label + "</strong>";
@@ -68,7 +68,10 @@
     });
 
     startBtn.addEventListener("click", function () {
-      i = 0; correct = 0; active = true; startBtn.hidden = true; show();
+      i = 0; correct = 0; active = true;
+      startBtn.disabled = true;
+      startBtn.textContent = "Try again";
+      show();
     });
   }
 
