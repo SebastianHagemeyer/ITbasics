@@ -2383,3 +2383,50 @@ kbd {
 .sc-start:disabled { opacity: 0.5; cursor: not-allowed; }
 .ds-chip { display: inline-flex; align-items: center; gap: 7px; }
 .ds-chip svg { width: 18px; height: 18px; flex-shrink: 0; }
+
+/* Mini file explorer */
+.fx {
+  position: relative; border: 1px solid var(--border); border-radius: var(--radius);
+  overflow: hidden; box-shadow: var(--shadow-sm); margin: 8px 0 10px; user-select: none;
+}
+.fx-bar { background: var(--bg); border-bottom: 1px solid var(--border); padding: 7px 10px; }
+.fx-path { display: flex; flex-wrap: wrap; align-items: center; }
+.fx-crumb {
+  background: none; border: none; border-radius: 5px; padding: 3px 7px; cursor: pointer;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.88rem; font-weight: 700; color: var(--primary);
+}
+.fx-crumb:hover { background: rgba(28, 69, 135, 0.1); }
+.fx-sep { color: var(--muted); font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+.fx-body {
+  min-height: 180px; background: linear-gradient(135deg, #eef2fb, #f5f2fc);
+  padding: 14px; display: flex; flex-wrap: wrap; gap: 6px; align-content: flex-start;
+}
+.fx-empty { width: 100%; margin: 0; color: var(--muted); font-weight: 600; }
+.fx-icon {
+  width: 86px; padding: 8px 4px; border-radius: var(--radius-sm); cursor: pointer;
+  display: flex; flex-direction: column; align-items: center; gap: 4px; text-align: center;
+  border: 1.5px solid transparent;
+}
+.fx-icon:hover { background: rgba(28, 69, 135, 0.06); }
+.fx-icon.selected { background: rgba(28, 69, 135, 0.14); border-color: var(--primary); }
+.fx-glyph { font-size: 2rem; line-height: 1; }
+.fx-name { font-size: 0.78rem; color: var(--text); word-break: break-word; }
+.fx-rename {
+  width: 80px; font-family: inherit; font-size: 0.75rem; text-align: center;
+  border: 1px solid var(--primary); border-radius: 4px; padding: 1px 2px;
+}
+.fx-menu {
+  position: absolute; min-width: 170px; background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius-sm); box-shadow: var(--shadow-md); padding: 5px; z-index: 5;
+}
+.fx-item {
+  display: block; width: 100%; text-align: left; background: none; border: none; border-radius: 6px;
+  padding: 8px 12px; font-family: inherit; font-size: 0.92rem; color: var(--text); cursor: pointer;
+}
+.fx-item:hover { background: var(--primary); color: #fff; }
+.fx-challenge {
+  margin: 0; padding: 12px 16px; border-radius: var(--radius); font-weight: 600;
+  background: var(--bg); border: 1px solid var(--border); color: var(--muted);
+}
+.fx-challenge.done { background: var(--success-bg); border-color: var(--success); color: #0d6b3a; }

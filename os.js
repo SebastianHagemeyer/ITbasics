@@ -76,43 +76,156 @@
   }
 
   // ------------------------------------------------------------------
-  // Right-click simulator: right-click the pretend desktop to get a menu,
-  // then make a New folder / text document.
+  // Mini file explorer: a path bar (breadcrumbs), single-click to select
+  // (blue), double-click a folder to go in, and a right-click menu with
+  // New / Rename / Delete. Challenge: get three folders deep and drop a
+  // secret.txt in the deepest one.
   // ------------------------------------------------------------------
-  function initRightClick() {
-    var desk = document.querySelector(".rc-desk");
-    if (!desk) return;
-    var menu = desk.querySelector(".rc-menu");
-    var hint = desk.querySelector(".rc-hint");
+  function initExplorer() {
+    var fx = document.querySelector(".fx");
+    if (!fx) return;
+    var pathEl = fx.querySelector(".fx-path");
+    var bodyEl = fx.querySelector(".fx-body");
+    var menu = fx.querySelector(".fx-menu");
+    var challengeEl = document.querySelector(".fx-challenge");
 
-    desk.addEventListener("contextmenu", function (e) {
-      e.preventDefault();
-      var rect = desk.getBoundingClientRect();
-      var x = Math.max(0, Math.min(e.clientX - rect.left, rect.width - 180));
-      var y = Math.max(0, Math.min(e.clientY - rect.top, rect.height - 120));
-      menu.style.left = x + "px";
-      menu.style.top = y + "px";
-      menu.hidden = false;
-    });
-    desk.addEventListener("click", function (e) {
-      if (!e.target.closest(".rc-menu")) menu.hidden = true;
-    });
-    menu.querySelectorAll(".rc-item[data-action]").forEach(function (item) {
-      item.addEventListener("click", function (e) {
-        e.stopPropagation();
-        var a = item.dataset.action;
-        if (a === "folder" || a === "file") {
-          var icon = document.createElement("div");
-          icon.className = "rc-icon";
-          icon.innerHTML =
-            '<span class="rc-glyph">' + (a === "folder" ? "📁" : "📄") + "</span>" +
-            '<span class="rc-name">' + (a === "folder" ? "New folder" : "New Text Document.txt") + "</span>";
-          desk.insertBefore(icon, menu);
-          if (hint) hint.hidden = true;
-        }
-        menu.hidden = true;
+    var root = { type: "folder", name: "C:", children: [] };
+    var stack = [root];
+    var selected = null, editing = null, nFolder = 0, nFile = 0;
+
+    function esc(s) {
+      return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
+        return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
       });
-    });
+    }
+    function current() { return stack[stack.length - 1]; }
+    function closeMenu() { menu.hidden = true; }
+
+    function renderPath() {
+      pathEl.innerHTML = "";
+      stack.forEach(function (node, i) {
+        var b = document.createElement("button");
+        b.type = "button";
+        b.className = "fx-crumb";
+        b.textContent = node.name;
+        b.addEventListener("click", function () {
+          stack = stack.slice(0, i + 1); selected = null; editing = null; closeMenu(); render();
+        });
+        pathEl.appendChild(b);
+        var sep = document.createElement("span");
+        sep.className = "fx-sep";
+        sep.textContent = "\\";
+        pathEl.appendChild(sep);
+      });
+    }
+
+    function makeIcon(node) {
+      var el = document.createElement("div");
+      el.className = "fx-icon" + (node === selected ? " selected" : "");
+      var glyph = '<span class="fx-glyph">' + (node.type === "folder" ? "📁" : "📄") + "</span>";
+      if (node === editing) {
+        el.innerHTML = glyph;
+        var inp = document.createElement("input");
+        inp.className = "fx-rename";
+        inp.value = node.name;
+        var commit = function () {
+          if (editing !== node) return;
+          if (inp.value.trim()) node.name = inp.value.trim();
+          editing = null; render();
+        };
+        inp.addEventListener("keydown", function (ev) {
+          if (ev.key === "Enter") { ev.preventDefault(); commit(); }
+          else if (ev.key === "Escape") { editing = null; render(); }
+        });
+        inp.addEventListener("blur", commit);
+        inp.addEventListener("click", function (ev) { ev.stopPropagation(); });
+        el.appendChild(inp);
+        setTimeout(function () { inp.focus(); inp.select(); }, 0);
+        return el;
+      }
+      el.innerHTML = glyph + '<span class="fx-name">' + esc(node.name) + "</span>";
+      el.addEventListener("click", function (ev) { ev.stopPropagation(); selected = node; closeMenu(); renderBody(); });
+      el.addEventListener("dblclick", function (ev) {
+        ev.stopPropagation();
+        if (node.type === "folder") { stack.push(node); selected = null; closeMenu(); render(); }
+      });
+      el.addEventListener("contextmenu", function (ev) {
+        ev.preventDefault(); ev.stopPropagation();
+        selected = node; renderBody(); openMenu(ev, node);
+      });
+      return el;
+    }
+
+    function renderBody() {
+      bodyEl.innerHTML = "";
+      var items = current().children;
+      if (!items.length) {
+        bodyEl.innerHTML = '<p class="fx-empty">This folder is empty. Right-click to make something.</p>';
+        return;
+      }
+      items.forEach(function (node) { bodyEl.appendChild(makeIcon(node)); });
+    }
+
+    function render() { renderPath(); renderBody(); checkChallenge(); }
+
+    function openMenu(e, node) {
+      var rect = fx.getBoundingClientRect();
+      var html = "";
+      if (node) {
+        if (node.type === "folder") html += '<button type="button" class="fx-item" data-act="open">Open</button>';
+        html += '<button type="button" class="fx-item" data-act="rename">Rename</button>';
+        html += '<button type="button" class="fx-item" data-act="delete">Delete</button>';
+      } else {
+        html += '<button type="button" class="fx-item" data-act="newfolder">New folder</button>';
+        html += '<button type="button" class="fx-item" data-act="newfile">New text document</button>';
+      }
+      menu.innerHTML = html;
+      menu.style.left = Math.max(0, Math.min(e.clientX - rect.left, rect.width - 180)) + "px";
+      menu.style.top = Math.max(0, Math.min(e.clientY - rect.top, rect.height - 120)) + "px";
+      menu.hidden = false;
+      menu.querySelectorAll(".fx-item").forEach(function (item) {
+        item.addEventListener("click", function (ev) { ev.stopPropagation(); doAction(item.dataset.act, node); closeMenu(); });
+      });
+    }
+
+    function doAction(act, node) {
+      if (act === "open" && node) { stack.push(node); selected = null; render(); }
+      else if (act === "rename" && node) { editing = node; renderBody(); }
+      else if (act === "delete" && node) {
+        var arr = current().children, i = arr.indexOf(node);
+        if (i >= 0) arr.splice(i, 1);
+        if (selected === node) selected = null;
+        render();
+      } else if (act === "newfolder") {
+        nFolder++;
+        current().children.push({ type: "folder", name: nFolder === 1 ? "New folder" : "New folder (" + nFolder + ")", children: [] });
+        render();
+      } else if (act === "newfile") {
+        nFile++;
+        current().children.push({ type: "file", name: nFile === 1 ? "New Text Document.txt" : "New Text Document (" + nFile + ").txt" });
+        render();
+      }
+    }
+
+    function checkChallenge() {
+      var found = false;
+      (function walk(folder, depth) {
+        folder.children.forEach(function (c) {
+          if (c.type === "file" && c.name.toLowerCase() === "secret.txt" && depth >= 4) found = true;
+          else if (c.type === "folder") walk(c, depth + 1);
+        });
+      })(root, 1);
+      challengeEl.className = "fx-challenge" + (found ? " done" : "");
+      challengeEl.textContent = found
+        ? "🎉 Challenge complete! Three folders deep and secret.txt saved inside. That is real file-explorer skill."
+        : "Challenge: make three folders inside each other (right-click → New folder, double-click to open), then create a file in the deepest one and rename it to secret.txt.";
+    }
+
+    bodyEl.addEventListener("click", function () { selected = null; closeMenu(); renderBody(); });
+    bodyEl.addEventListener("contextmenu", function (e) { e.preventDefault(); selected = null; renderBody(); openMenu(e, null); });
+    document.addEventListener("click", function (e) { if (!e.target.closest(".fx-menu")) closeMenu(); });
+
+    render();
   }
 
   // Knowledge checks (formative), shared shape with the other modules.
@@ -148,7 +261,7 @@
   function boot() {
     if (!window.ITBasics || !window.ITBasics.getSession()) { location.replace("/"); return; }
     initShortcuts();
-    initRightClick();
+    initExplorer();
     initChecks();
   }
 
