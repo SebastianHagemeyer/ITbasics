@@ -1848,3 +1848,276 @@ html[data-auth="out"] .site-footer { display: none; }
   .fp-code { font-size: 0.85rem; padding: 14px 14px; }
   .fp-tab { padding: 7px 10px; font-size: 0.85rem; }
 }
+
+/* ======================================================================
+   My Progress
+   ====================================================================== */
+.progress-summary-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  padding: 18px 22px;
+  margin-bottom: 28px;
+}
+.progress-count {
+  font-weight: 700;
+  color: var(--primary);
+  line-height: 1;
+  white-space: nowrap;
+}
+.progress-count span { font-size: 2rem; }
+.progress-count small {
+  display: block;
+  margin-top: 4px;
+  font-size: 0.72rem;
+  color: var(--muted);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.progress-summary-text {
+  margin: 0;
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: var(--text);
+}
+
+.progress-quiz-list {
+  display: grid;
+  gap: 14px;
+  margin-bottom: 34px;
+}
+.progress-quiz {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  padding: 16px 18px;
+}
+.progress-quiz.done    { border-left-color: var(--primary); }
+.progress-quiz.perfect { border-left-color: var(--success); }
+.progress-quiz-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+}
+.progress-quiz-label { font-weight: 700; font-size: 1.05rem; }
+.progress-quiz-right {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  white-space: nowrap;
+}
+.progress-quiz-score { font-weight: 800; color: var(--primary); }
+.progress-quiz-state {
+  font-size: 0.7rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 2px 9px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  color: var(--muted);
+  background: var(--bg);
+}
+.progress-quiz-state.done {
+  color: var(--primary);
+  background: white;
+  border-color: var(--primary);
+}
+.progress-quiz-state.perfect {
+  color: white;
+  background: var(--success);
+  border-color: var(--success);
+}
+.progress-bar {
+  height: 10px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  overflow: hidden;
+  margin: 12px 0 8px;
+}
+.progress-bar > span {
+  display: block;
+  height: 100%;
+  width: 0;
+  background: linear-gradient(90deg, var(--primary), #3a7bd5);
+  transition: width 0.5s ease;
+}
+.progress-quiz.perfect .progress-bar > span {
+  background: linear-gradient(90deg, var(--success), #58c98a);
+}
+.progress-quiz-note { margin: 0; color: var(--muted); font-size: 0.85rem; }
+
+.progress-stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+  margin-bottom: 34px;
+}
+.progress-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  text-decoration: none;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  padding: 20px 22px;
+  color: var(--text);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+.progress-stat:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); }
+.progress-stat-num { font-size: 2.2rem; font-weight: 800; color: var(--primary); line-height: 1; }
+.progress-stat-label { color: var(--muted); font-weight: 600; font-size: 0.95rem; }
+
+.progress-cta { display: flex; gap: 12px; flex-wrap: wrap; }
+
+@media (max-width: 540px) {
+  .progress-stats { grid-template-columns: 1fr; }
+}
+
+/* The signed-in name pill in the header doubles as a link to My Progress. */
+a.auth-user {
+  text-decoration: none;
+  cursor: pointer;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+a.auth-user:hover { border-color: var(--primary); box-shadow: var(--shadow-sm); }
+
+/* ======================================================================
+   Binary & Data module
+   ====================================================================== */
+
+/* Place-value reference strip */
+.place-strip { display: flex; gap: 6px; flex-wrap: wrap; margin: 8px 0 16px; }
+.place-strip span {
+  flex: 1; min-width: 44px; text-align: center;
+  background: var(--bg); border: 1px solid var(--border); border-radius: var(--radius-sm);
+  padding: 8px 4px; font-weight: 800; color: var(--primary); font-variant-numeric: tabular-nums;
+}
+
+/* The interactive binary machine */
+.bitconv {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); box-shadow: var(--shadow-sm);
+  padding: 22px; margin: 8px 0 18px;
+}
+.bitconv-bits { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; }
+.bit {
+  display: flex; flex-direction: column; align-items: center; gap: 6px;
+  width: 60px; padding: 10px 0 12px; cursor: pointer;
+  background: var(--bg); border: 2px solid var(--border); border-radius: var(--radius-sm);
+  font-family: inherit; transition: background 0.12s, border-color 0.12s, transform 0.06s, box-shadow 0.12s;
+}
+.bit:hover { border-color: var(--primary); }
+.bit:active { transform: translateY(1px); }
+.bit-place { font-size: 0.72rem; font-weight: 700; color: var(--muted); }
+.bit-digit {
+  font-size: 1.7rem; font-weight: 800; line-height: 1; color: var(--muted);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+.bit.on {
+  background: var(--accent); border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(255, 255, 0, 0.25);
+}
+.bit.on .bit-place { color: var(--primary-dark); }
+.bit.on .bit-digit { color: #000; }
+
+.bitconv-readout {
+  display: flex; align-items: center; justify-content: center; gap: 14px;
+  flex-wrap: wrap; margin: 20px 0 6px; text-align: center;
+}
+.bitconv-sum {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 1.1rem; font-weight: 700; color: var(--muted);
+}
+.bitconv-eq { font-size: 1.6rem; color: var(--muted); font-weight: 700; }
+.bitconv-decimal {
+  font-size: 2.8rem; font-weight: 800; color: var(--primary); line-height: 1;
+  font-variant-numeric: tabular-nums; min-width: 1.5em;
+}
+.bitconv-controls {
+  display: flex; align-items: center; gap: 10px; flex-wrap: wrap; justify-content: center;
+  margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--border);
+}
+.bitconv-controls label { font-weight: 600; color: var(--muted); font-size: 0.95rem; }
+.bitconv-controls input {
+  width: 90px; padding: 8px 10px; font-family: inherit; font-size: 1rem;
+  border: 1px solid var(--border); border-radius: var(--radius-sm);
+}
+.bitconv-controls input:focus { outline: none; border-color: var(--primary); box-shadow: 0 0 0 3px rgba(28,69,135,0.18); }
+
+/* Knowledge checks (formative, Khan-style) */
+.kcheck {
+  background: var(--bg); border: 1px solid var(--border); border-left: 4px solid var(--primary);
+  border-radius: var(--radius); padding: 16px 18px; margin: 18px 0;
+}
+.kcheck-q { margin: 0 0 12px; }
+.kcheck-options { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; }
+.kcheck-opt {
+  text-align: left; background: var(--surface); border: 1.5px solid var(--border);
+  border-radius: var(--radius-sm); padding: 11px 14px; font-family: inherit; font-size: 1rem;
+  color: var(--text); cursor: pointer; transition: border-color 0.12s, background 0.12s;
+}
+.kcheck-opt:hover:not(:disabled) { border-color: var(--primary); background: rgba(28,69,135,0.05); }
+.kcheck-opt:disabled { cursor: default; }
+.kcheck-opt.correct { background: var(--success-bg); border-color: var(--success); font-weight: 700; }
+.kcheck-opt.wrong { background: var(--danger-bg); border-color: var(--danger); opacity: 0.85; }
+.kcheck-feedback { margin: 12px 0 0; font-weight: 700; }
+.kcheck-feedback.correct { color: var(--success); }
+.kcheck-feedback.wrong { color: var(--danger); }
+.kcheck-explain { margin: 8px 0 0; color: var(--muted); }
+
+/* Text -> ASCII -> binary decoder */
+.secret { margin: 8px 0 6px; }
+.secret > label { display: block; font-weight: 600; color: var(--muted); margin-bottom: 8px; }
+.secret > input {
+  width: 100%; max-width: 260px; padding: 10px 12px; font-family: inherit; font-size: 1.05rem;
+  border: 1px solid var(--border); border-radius: var(--radius-sm); text-transform: uppercase; letter-spacing: 0.08em;
+}
+.secret > input:focus { outline: none; border-color: var(--primary); box-shadow: 0 0 0 3px rgba(28,69,135,0.18); }
+.secret-out { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 16px; }
+.secret-cell {
+  display: flex; flex-direction: column; align-items: center; gap: 4px;
+  background: var(--code-bg); color: var(--code-text); border-radius: var(--radius-sm); padding: 10px 12px; min-width: 56px;
+}
+.secret-char { font-size: 1.4rem; font-weight: 800; }
+.secret-code { font-size: 0.85rem; color: #82c8ff; font-weight: 700; }
+.secret-bin {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 0.8rem; color: #9be59b; letter-spacing: 0.04em;
+}
+.muted-note { color: var(--muted); font-size: 0.9rem; }
+
+/* Class word cloud */
+.wordcloud { margin: 8px 0; }
+.wordcloud-form { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-bottom: 16px; }
+.wordcloud-form input {
+  flex: 1; min-width: 180px; padding: 10px 12px; font-family: inherit; font-size: 1rem;
+  border: 1px solid var(--border); border-radius: var(--radius-sm);
+}
+.wordcloud-form input:focus { outline: none; border-color: var(--primary); box-shadow: 0 0 0 3px rgba(28,69,135,0.18); }
+.wordcloud-msg { font-size: 0.9rem; color: var(--success); font-weight: 600; }
+.wordcloud-msg.error { color: var(--danger); }
+.wordcloud-cloud {
+  display: flex; flex-wrap: wrap; gap: 6px 18px; align-items: center; justify-content: center;
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+  box-shadow: var(--shadow-sm); padding: 26px 22px; min-height: 90px;
+}
+.wc-word { font-weight: 800; line-height: 1.1; }
+.wordcloud-empty { color: var(--muted); margin: 0; }
+
+@media (max-width: 540px) {
+  .kcheck-options { grid-template-columns: 1fr; }
+  .bit { width: 50px; }
+  .bit-digit { font-size: 1.4rem; }
+}

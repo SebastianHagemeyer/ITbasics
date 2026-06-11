@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Binary &amp; Data | Hallam IT Basics</title>
+  <link rel="icon" type="image/svg+xml" href="/logo-binary.svg" />
+  <link rel="apple-touch-icon" href="/logo-binary.svg" />
+  <link rel="stylesheet" href="/styles.css" />
+  <script>
+    (function () {
+      try {
+        if (!JSON.parse(localStorage.getItem("itbasics-session"))) {
+          location.replace("/");
+        }
+      } catch (e) { location.replace("/"); }
+    })();
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/" class="logo">
+        <img class="logo-mark" src="/logo-binary.svg" alt="" width="32" height="32" />
+        <span>Hallam IT Basics</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="/">Home</a>
+        <div class="nav-dropdown" data-open="false">
+          <button type="button" class="nav-dropdown-toggle active" aria-haspopup="true" aria-expanded="false">
+            Topics
+            <svg class="nav-chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="nav-dropdown-menu" role="menu">
+            <a href="/topics/programming/" role="menuitem">Programming</a>
+            <a href="/topics/html/" role="menuitem">HTML</a>
+            <a href="/topics/python/" role="menuitem">Python</a>
+            <a href="/topics/binary/" class="active" role="menuitem">Binary &amp; Data</a>
+            <a href="/quizzes/" role="menuitem">Quizzes</a>
+          </div>
+        </div>
+        <div class="nav-dropdown" data-open="false">
+          <button type="button" class="nav-dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+            Play
+            <svg class="nav-chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="nav-dropdown-menu" role="menu">
+            <a href="/freeplay/" role="menuitem">Freeplay</a>
+            <a href="/challenges/" role="menuitem">Live Coding</a>
+            <a href="/sandbox/" role="menuitem">Sandbox</a>
+          </div>
+        </div>
+        <a href="/leaderboard/">Leaderboard</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Data Representation</p>
+        <h1>Binary: how computers count</h1>
+        <p class="lead">Every photo, song, message and game on a computer is stored as just two symbols: <strong>1</strong> and <strong>0</strong>. Let&rsquo;s find out how, and why.</p>
+        <div class="hero-ctas hero-ctas-quick">
+          <a href="#machine" class="btn btn-primary">Jump to the binary machine <span class="arrow" aria-hidden="true"></span></a>
+        </div>
+      </div>
+    </section>
+
+    <div class="container lesson-layout">
+      <aside class="lesson-toc" aria-label="On this page">
+        <h4>On this page</h4>
+        <ol>
+          <li><a href="#why">Why binary?</a></li>
+          <li><a href="#bits">Bits &amp; bytes</a></li>
+          <li><a href="#places">Place values</a></li>
+          <li><a href="#machine">The binary machine</a></li>
+          <li><a href="#to-binary">Decimal &rarr; binary</a></li>
+          <li><a href="#secret">Text is binary too</a></li>
+          <li><a href="#cloud">Class word cloud</a></li>
+          <li><a href="#glossary">Glossary</a></li>
+        </ol>
+      </aside>
+
+      <article class="lesson">
+        <section id="why">
+          <h2>1. Why binary?</h2>
+          <p>Inside every computer are billions of tiny switches. A switch can only be in one of two states: <strong>on</strong> or <strong>off</strong>. We write <em>on</em> as <strong>1</strong> and <em>off</em> as <strong>0</strong>.</p>
+          <p>Because a switch has only two states, computers count in <strong>base 2</strong> (binary), not base 10 like we do. With enough switches you can represent <em>any</em> number, letter, colour or sound. That is the big idea of this whole topic: <strong>everything is 1s and 0s underneath</strong>.</p>
+          <div class="callout">
+            <strong>Key idea:</strong> A computer is a huge pile of on/off switches. <strong>1 = on, 0 = off.</strong>
+          </div>
+        </section>
+
+        <section id="bits">
+          <h2>2. Bits &amp; bytes</h2>
+          <p>A single 1 or 0 is called a <strong>bit</strong> (short for <em>binary digit</em>). One bit on its own can only say two things, like yes/no. To store something useful we group bits together.</p>
+          <p>Eight bits make one <strong>byte</strong>. A byte can store 256 different patterns (from <code>00000000</code> to <code>11111111</code>), which is enough for a number from 0 to 255, or one text character.</p>
+          <table class="data-table">
+            <thead><tr><th>Unit</th><th>Size</th><th>Rough idea</th></tr></thead>
+            <tbody>
+              <tr><td>Bit</td><td>a single 1 or 0</td><td>one switch</td></tr>
+              <tr><td>Byte</td><td>8 bits</td><td>one letter</td></tr>
+              <tr><td>Kilobyte (KB)</td><td>about 1,000 bytes</td><td>a short paragraph</td></tr>
+              <tr><td>Megabyte (MB)</td><td>about 1,000 KB</td><td>a song</td></tr>
+              <tr><td>Gigabyte (GB)</td><td>about 1,000 MB</td><td>a couple of hours of video</td></tr>
+            </tbody>
+          </table>
+
+          <div class="kcheck" data-answer="b">
+            <p class="kcheck-q"><strong>Check your understanding:</strong> How many bits are in one byte?</p>
+            <div class="kcheck-options">
+              <button type="button" class="kcheck-opt" data-key="a">1</button>
+              <button type="button" class="kcheck-opt" data-key="b">8</button>
+              <button type="button" class="kcheck-opt" data-key="c">100</button>
+              <button type="button" class="kcheck-opt" data-key="d">1,000</button>
+            </div>
+            <p class="kcheck-feedback" hidden></p>
+            <p class="kcheck-explain" hidden>A byte is a group of <strong>8 bits</strong>. That is why a byte can store 2&times;2&times;2&times;2&times;2&times;2&times;2&times;2 = 256 different patterns.</p>
+          </div>
+        </section>
+
+        <section id="places">
+          <h2>3. Place values</h2>
+          <p>In our normal base 10, each column is worth ten times the one to its right: ones, tens, hundreds. In binary each column is worth <strong>twice</strong> the one to its right. For one byte the eight columns are:</p>
+          <div class="place-strip" aria-hidden="true">
+            <span>128</span><span>64</span><span>32</span><span>16</span><span>8</span><span>4</span><span>2</span><span>1</span>
+          </div>
+          <p>To read a binary number, you <strong>add up the place values that have a 1 under them</strong>. A column with a 0 is worth nothing. For example <code>1010</code> means 8 + 0 + 2 + 0 = <strong>10</strong>.</p>
+          <div class="callout">
+            <strong>Tip:</strong> Learn the doubling pattern off by heart: 1, 2, 4, 8, 16, 32, 64, 128. It is the key to every binary question.
+          </div>
+        </section>
+
+        <section id="machine">
+          <h2>4. The binary machine</h2>
+          <p>Click the switches to turn bits on and off, or type a number into the box. Watch how the 1s and 0s and the everyday number stay in step.</p>
+
+          <div class="bitconv" id="bitconv">
+            <div class="bitconv-bits" id="bitconv-bits" role="group" aria-label="Binary bits, click to toggle on or off"></div>
+            <div class="bitconv-readout">
+              <span class="bitconv-sum" id="bitconv-sum">0</span>
+              <span class="bitconv-eq">=</span>
+              <span class="bitconv-decimal" id="bitconv-decimal">0</span>
+            </div>
+            <div class="bitconv-controls">
+              <label for="bitconv-input">Type a number (0&ndash;255):</label>
+              <input type="number" id="bitconv-input" min="0" max="255" inputmode="numeric" value="0" />
+              <button type="button" class="btn btn-ghost" id="bitconv-clear">Clear</button>
+            </div>
+          </div>
+
+          <div class="kcheck" data-answer="c">
+            <p class="kcheck-q"><strong>Check your understanding:</strong> What is the binary number <code>1010</code> in our normal numbers? (Try it on the machine above.)</p>
+            <div class="kcheck-options">
+              <button type="button" class="kcheck-opt" data-key="a">4</button>
+              <button type="button" class="kcheck-opt" data-key="b">8</button>
+              <button type="button" class="kcheck-opt" data-key="c">10</button>
+              <button type="button" class="kcheck-opt" data-key="d">1,010</button>
+            </div>
+            <p class="kcheck-feedback" hidden></p>
+            <p class="kcheck-explain" hidden>Reading <code>1010</code> with place values 8&middot;4&middot;2&middot;1: the 8 is on and the 2 is on, so 8 + 2 = <strong>10</strong>.</p>
+          </div>
+        </section>
+
+        <section id="to-binary">
+          <h2>5. Decimal &rarr; binary</h2>
+          <p>Going the other way (a normal number into binary) is like packing a suitcase from biggest to smallest. Start at 128 and ask: <em>does it fit?</em></p>
+          <ol class="steps">
+            <li>Take your number, say <strong>37</strong>.</li>
+            <li>Does 128 fit? No &rarr; write <strong>0</strong>. Does 64 fit? No &rarr; <strong>0</strong>. Does 32 fit? Yes &rarr; write <strong>1</strong>, and 37 &minus; 32 = 5 is left.</li>
+            <li>Does 16 fit into 5? No &rarr; <strong>0</strong>. 8? No &rarr; <strong>0</strong>. 4? Yes &rarr; <strong>1</strong>, 1 left. 2? No &rarr; <strong>0</strong>. 1? Yes &rarr; <strong>1</strong>.</li>
+            <li>Reading the columns: <code>00100101</code> = 37. Check it on the machine!</li>
+          </ol>
+          <div class="try-box">
+            <h4>You try</h4>
+            <p>Without the machine, work out <strong>50</strong> in binary. Then check yourself by typing 50 into the box above. (Hint: 32 fits, then what is left?)</p>
+          </div>
+
+          <div class="kcheck" data-answer="d">
+            <p class="kcheck-q"><strong>Check your understanding:</strong> What is the biggest number you can store in one byte (8 bits)?</p>
+            <div class="kcheck-options">
+              <button type="button" class="kcheck-opt" data-key="a">8</button>
+              <button type="button" class="kcheck-opt" data-key="b">100</button>
+              <button type="button" class="kcheck-opt" data-key="c">128</button>
+              <button type="button" class="kcheck-opt" data-key="d">255</button>
+            </div>
+            <p class="kcheck-feedback" hidden></p>
+            <p class="kcheck-explain" hidden>Turn every switch on: 128 + 64 + 32 + 16 + 8 + 4 + 2 + 1 = <strong>255</strong>. That is 256 values in total, counting zero.</p>
+          </div>
+        </section>
+
+        <section id="secret">
+          <h2>6. Text is binary too</h2>
+          <p>If computers only store numbers, how do they store <em>words</em>? Easy: every character is given a number using a code called <strong>ASCII</strong>. For example <code>A</code> is 65 and <code>a</code> is 97. That number is then stored as binary, just like before.</p>
+          <p>Type something below and watch each letter turn into its ASCII number, then into 8 bits.</p>
+          <div class="secret">
+            <label for="secret-input">Your word (up to 10 letters):</label>
+            <input type="text" id="secret-input" maxlength="10" value="HI" autocomplete="off" />
+            <div class="secret-out" id="secret-out"></div>
+          </div>
+          <p class="muted-note">This is exactly how a text message is stored: letter &rarr; number &rarr; binary. You will go deeper into ASCII and colour codes in the next lesson.</p>
+        </section>
+
+        <section id="cloud">
+          <h2>7. Class word cloud</h2>
+          <p>Everything digital is binary underneath. <strong>In one word, name a device or thing that stores data as 1s and 0s</strong> (like <em>phone</em>, <em>console</em>, <em>camera</em>). Add yours and watch the class&rsquo;s answers grow. The more people say a word, the bigger it gets.</p>
+          <div class="wordcloud" id="wordcloud">
+            <form class="wordcloud-form" id="wordcloud-form" autocomplete="off">
+              <input type="text" id="wordcloud-input" maxlength="16" placeholder="e.g. phone" aria-label="Your one word" />
+              <button type="submit" class="btn btn-primary">Add my word</button>
+              <span class="wordcloud-msg" id="wordcloud-msg" role="status"></span>
+            </form>
+            <div class="wordcloud-cloud" id="wordcloud-cloud" aria-live="polite">
+              <p class="wordcloud-empty">Loading…</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="glossary">
+          <h2>Glossary</h2>
+          <dl class="glossary">
+            <dt>Binary</dt><dd>A number system with only two digits, 1 and 0 (base 2).</dd>
+            <dt>Bit</dt><dd>A single binary digit: one 1 or one 0.</dd>
+            <dt>Byte</dt><dd>A group of 8 bits. Stores a number 0&ndash;255, or one character.</dd>
+            <dt>Place value</dt><dd>What a column is worth. In binary the columns are 1, 2, 4, 8, 16, 32, 64, 128.</dd>
+            <dt>ASCII</dt><dd>A code that gives every text character a number, so it can be stored as binary.</dd>
+            <dt>Base 10 / base 2</dt><dd>Base 10 is our everyday numbers; base 2 is binary, the way computers count.</dd>
+          </dl>
+        </section>
+
+        <div class="lesson-nav">
+          <a href="/modules/" class="btn btn-ghost">&larr; All modules</a>
+          <a href="/freeplay/" class="btn btn-primary">Practise in Freeplay <span class="arrow" aria-hidden="true"></span></a>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; Hallam IT Basics &middot; For Years 7-9 computing classes.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+  <script src="/supabase-config.js"></script>
+  <script src="/app.js"></script>
+  <script src="/binary.js"></script>
+</body>
+</html>

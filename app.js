@@ -142,11 +142,11 @@
       const initial = (s.first_name || s.code)[0].toUpperCase();
       const meta = s.class ? '<span class="auth-meta">' + escapeHtml(s.class) + '</span>' : "";
       bar.innerHTML =
-        '<span class="auth-user" title="' + escapeHtml(s.code) + '">' +
+        '<a class="auth-user" href="/progress/" title="See your progress">' +
           '<span class="auth-avatar">' + escapeHtml(initial) + '</span>' +
           '<span class="auth-name">' + escapeHtml(name) + '</span>' +
           meta +
-        '</span>' +
+        '</a>' +
         '<button type="button" class="auth-btn auth-signout">Sign out</button>';
       bar.querySelector(".auth-signout").addEventListener("click", signOut);
     } else {
