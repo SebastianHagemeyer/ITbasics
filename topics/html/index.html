@@ -173,6 +173,14 @@
           <p>Open the file in a browser to see the result. Every website started like this!</p>
         </section>
 
+        <section id="cloud">
+          <h2>Class word cloud</h2>
+          <div class="wordcloud"
+               data-topic="html"
+               data-prompt="In one word, name a website you visit a lot."
+               data-placeholder="e.g. youtube"></div>
+        </section>
+
         <div class="lesson-nav">
           <a href="/topics/programming/" class="btn btn-ghost">&larr; Programming</a>
           <a href="/quizzes/#html" class="btn btn-primary">Take the HTML quiz <span class="arrow" aria-hidden="true"></span></a>
@@ -190,5 +198,6 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
   <script src="/supabase-config.js"></script>
   <script src="/app.js"></script>
+  <script src="/wordcloud.js"></script>
 </body>
 </html>
