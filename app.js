@@ -237,16 +237,14 @@
     if (!nav) return;
     var path = location.pathname.replace(/index\.html$/, "");
     var chev = '<svg class="nav-chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+    // The Topics dropdown stays short: the three entry topics + their quizzes.
+    // Every module (Binary, Codes, Digital Systems, Networks, Computer Skills)
+    // is reached through "All modules" -> the /modules/ hub.
     var topics = [
       { href: "/modules/", label: "All modules" },
       { href: "/topics/programming/", label: "Programming" },
       { href: "/topics/html/", label: "HTML" },
       { href: "/topics/python/", label: "Python" },
-      { href: "/topics/binary/", label: "Binary &amp; Data" },
-      { href: "/topics/codes/", label: "Codes &amp; Colour" },
-      { href: "/topics/systems/", label: "Digital Systems" },
-      { href: "/topics/networks/", label: "Networks &amp; Safety" },
-      { href: "/topics/os/", label: "Computer Skills" },
       { href: "/quizzes/", label: "Quizzes" }
     ];
     var play = [
