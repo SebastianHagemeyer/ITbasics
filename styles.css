@@ -2294,3 +2294,51 @@ a.progress-quiz:hover { box-shadow: var(--shadow-md); transform: translateY(-1px
   .ds-bins { grid-template-columns: 1fr; }
   .ipos-arrow { transform: rotate(90deg); }
 }
+
+/* Networks: packets, hub/switch demo, phishing spotter */
+.packets { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; margin: 14px 0; }
+.packet {
+  display: inline-flex; align-items: center; justify-content: center; width: 36px; height: 36px;
+  border-radius: var(--radius-sm); background: var(--bg); border: 1px solid var(--border);
+  font-weight: 800; color: var(--muted);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+.packet.ok { background: var(--success-bg); border-color: var(--success); color: #0d6b3a; }
+.packet-arrow { color: var(--muted); font-size: 1.3rem; font-weight: 700; margin: 0 6px; }
+
+.netdemo {
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+  box-shadow: var(--shadow-sm); padding: 18px; margin: 8px 0 12px;
+}
+.netdemo-pcs { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-bottom: 16px; }
+.netpc {
+  width: 60px; height: 56px; display: flex; align-items: center; justify-content: center;
+  border-radius: var(--radius-sm); background: var(--bg); border: 2px solid var(--border);
+  font-weight: 800; font-size: 1.1rem; color: var(--muted); transition: all 0.2s ease;
+}
+.netpc.lit { background: var(--accent); border-color: var(--primary); color: #000; box-shadow: 0 0 0 3px rgba(255, 255, 0, 0.25); }
+.netpc.target { background: var(--success-bg); border-color: var(--success); color: #0d6b3a; box-shadow: 0 0 0 3px rgba(31, 157, 85, 0.2); }
+.netdemo-actions { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-bottom: 12px; }
+.netdemo-msg { margin: 0; text-align: center; color: var(--muted); font-weight: 600; }
+.netdemo-msg.warn { color: var(--danger); }
+.netdemo-msg.ok { color: var(--success); }
+
+.phish { display: grid; gap: 14px; margin: 8px 0; }
+.phish-card {
+  background: var(--surface); border: 1px solid var(--border); border-left: 4px solid var(--border);
+  border-radius: var(--radius); box-shadow: var(--shadow-sm); padding: 16px 18px;
+}
+.phish-card.is-scam { border-left-color: var(--danger); }
+.phish-card.is-safe { border-left-color: var(--success); }
+.phish-from { margin: 0 0 6px; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 0.85rem; color: var(--muted); }
+.phish-body { margin: 0 0 12px; }
+.phish-choices { display: flex; gap: 8px; }
+.phish-opt {
+  background: var(--bg); border: 1.5px solid var(--border); border-radius: var(--radius-sm);
+  padding: 8px 18px; font-family: inherit; font-size: 0.95rem; font-weight: 700; color: var(--text); cursor: pointer;
+}
+.phish-opt:hover:not(:disabled) { border-color: var(--primary); }
+.phish-opt:disabled { cursor: default; }
+.phish-opt.right { background: var(--success-bg); border-color: var(--success); }
+.phish-opt.wrongpick { background: var(--danger-bg); border-color: var(--danger); }
+.phish-explain { margin: 12px 0 0; color: var(--muted); }
