@@ -85,10 +85,53 @@
       <article class="lesson">
         <section id="why">
           <h2>1. Why binary?</h2>
-          <p>Inside every computer are billions of tiny switches. A switch can only be in one of two states: <strong>on</strong> or <strong>off</strong>. We write <em>on</em> as <strong>1</strong> and <em>off</em> as <strong>0</strong>.</p>
-          <p>Because a switch has only two states, computers count in <strong>base 2</strong> (binary), not base 10 like we do. With enough switches you can represent <em>any</em> number, letter, colour or sound. That is the big idea of this whole topic: <strong>everything is 1s and 0s underneath</strong>.</p>
+          <p>Inside every computer are billions of tiny <strong>switches</strong>. A switch can only be one of two things: <strong>on</strong> or <strong>off</strong>. We write <em>on</em> as <strong>1</strong> and <em>off</em> as <strong>0</strong>. Counting with only those two symbols is what we call <strong>binary</strong>.</p>
+
+          <p>But hang on. Our normal numbers use ten digits, <strong>0 to 9</strong>, so you could fit more into each switch that way. So <em>why</em> would a computer throw that away and use only 1 and 0? Let&rsquo;s work it out.</p>
+
+          <p>A switch is really just a wire with <strong>electricity</strong> on it, and the computer reads the <strong>voltage</strong>. Here are the two options:</p>
+
+          <div class="voltage-compare">
+            <div class="volt-col bad">
+              <p class="volt-title">Use 0&ndash;9: ten voltage levels</p>
+              <div class="volt-bar ten"><span>0</span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span></div>
+              <p class="volt-note">Ten levels crammed together. Voltage always wobbles a little (heat, interference), so a 5 can easily look like a 6. Hard to read without mistakes.</p>
+            </div>
+            <div class="volt-col good">
+              <p class="volt-title">Use binary: just two</p>
+              <div class="volt-bar two"><span>0<small>OFF</small></span><span>1<small>ON</small></span></div>
+              <p class="volt-note">Only two levels, with a big gap between them. Even if the voltage wobbles, OFF is clearly OFF and ON is clearly ON. Quick and certain.</p>
+            </div>
+          </div>
+
+          <p>So which one can a computer read <strong>quickly and without mistakes, every single time</strong>? Make your choice:</p>
+
+          <div class="kcheck" data-answer="c">
+            <p class="kcheck-q"><strong>Why binary?</strong> Why do computers use only 1 and 0 instead of the digits 0 to 9?</p>
+            <div class="kcheck-options">
+              <button type="button" class="kcheck-opt" data-key="a">1 and 0 are smaller, so they take up less room</button>
+              <button type="button" class="kcheck-opt" data-key="b">Computers are not able to count higher than 1</button>
+              <button type="button" class="kcheck-opt" data-key="c">A switch has two clear states (on/off) that are easy and reliable to tell apart</button>
+              <button type="button" class="kcheck-opt" data-key="d">Because 1s and 0s look more like a secret code</button>
+            </div>
+            <p class="kcheck-feedback" hidden></p>
+            <p class="kcheck-explain" hidden>A switch is either off (0) or on (1), and those two states are easy to detect even when the voltage wobbles. Telling apart 10 different voltage levels for 0&ndash;9 would be far harder, slower and more expensive to build.</p>
+          </div>
+
           <div class="callout">
-            <strong>Key idea:</strong> A computer is a huge pile of on/off switches. <strong>1 = on, 0 = off.</strong>
+            <strong>The big idea:</strong> a computer is a huge pile of on/off switches (<strong>1 = on, 0 = off</strong>). Two states are used because they are the most <strong>reliable</strong> thing to detect with electricity, and with enough of them you can store <em>any</em> number, letter, colour or sound.
+          </div>
+
+          <div class="exam-box">
+            <p class="exam-tag">Exam practice</p>
+            <p>Computers store all data using only 0s and 1s. Explain in your own words why computers use binary instead of normal numbers like 0 to 9. <span class="exam-marks">(2 marks)</span></p>
+            <details>
+              <summary>Show what earns the marks</summary>
+              <ul>
+                <li><strong>1 mark</strong> for saying a component has <strong>two states</strong>: on / off (also accepted: high / low signal, or voltage / no voltage). 0 = off, 1 = on.</li>
+                <li><strong>1 mark</strong> for linking that to <strong>why binary is simpler or more reliable</strong>: it would be much harder and more expensive to build hardware that reliably tells apart 10 different voltage levels for 0 to 9.</li>
+              </ul>
+            </details>
           </div>
         </section>
 
