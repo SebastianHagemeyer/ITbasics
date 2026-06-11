@@ -2380,3 +2380,4 @@ kbd {
 .rc-icon { width: 84px; display: flex; flex-direction: column; align-items: center; gap: 4px; text-align: center; }
 .rc-glyph { font-size: 2rem; line-height: 1; }
 .rc-name { font-size: 0.78rem; color: var(--text); word-break: break-word; }
+.sc-start:disabled { opacity: 0.5; cursor: not-allowed; }
