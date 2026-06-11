@@ -70,11 +70,28 @@
     }
     var max = entries[0].n;
     var palette = ["#1C4587", "#7c5cff", "#2ec4b6", "#ff7a59", "#1f9d55", "#9900FF"];
+    // If a word is actually a colour - a hex code like ff0000, or a CSS colour
+    // name like teal - paint the word that colour instead of a palette colour.
+    var probe = document.createElement("span");
+    function colourOf(word) {
+      if (/^[0-9a-f]{3}$/.test(word) || /^[0-9a-f]{6}$/.test(word)) return "#" + word;
+      if (word === "transparent") return null;
+      probe.style.color = "";
+      probe.style.color = word;
+      return probe.style.color ? word : null;
+    }
     entries.forEach(function (e, i) {
       var span = document.createElement("span");
       span.className = "wc-word";
       span.style.fontSize = (1 + (max > 1 ? (e.n - 1) / (max - 1) : 0) * 1.7).toFixed(2) + "rem";
-      span.style.color = palette[i % palette.length];
+      var col = colourOf(e.word);
+      if (col) {
+        span.classList.add("wc-color");
+        span.style.color = col;
+        span.style.setProperty("--wc-c", col);
+      } else {
+        span.style.color = palette[i % palette.length];
+      }
       span.textContent = e.word;
       if (e.n > 1) span.title = e.n + " students said this";
       cloudEl.appendChild(span);
