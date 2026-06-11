@@ -2248,3 +2248,49 @@ a.progress-quiz { text-decoration: none; color: inherit; transition: box-shadow 
 a.progress-quiz:hover { box-shadow: var(--shadow-md); transform: translateY(-1px); }
 
 @media (max-width: 540px) { .mtest-opts { grid-template-columns: 1fr; } }
+
+/* Digital Systems: IPOS flow + device sorter */
+.ipos { display: flex; align-items: stretch; gap: 8px; flex-wrap: wrap; margin: 16px 0; }
+.ipos-step {
+  flex: 1; min-width: 92px; display: flex; flex-direction: column; align-items: center; gap: 2px;
+  background: var(--surface); border: 1px solid var(--border); border-top: 3px solid var(--primary);
+  border-radius: var(--radius-sm); box-shadow: var(--shadow-sm); padding: 12px 8px; text-align: center;
+}
+.ipos-step strong { font-size: 1.02rem; }
+.ipos-step span:last-child { font-size: 0.8rem; color: var(--muted); }
+.ipos-num {
+  width: 24px; height: 24px; border-radius: 50%; background: var(--primary); color: #fff;
+  display: inline-flex; align-items: center; justify-content: center; font-weight: 800; font-size: 0.8rem;
+}
+.ipos-arrow { display: flex; align-items: center; color: var(--muted); font-size: 1.3rem; font-weight: 700; }
+
+.ds-sorter { margin: 8px 0 4px; }
+.ds-tray {
+  display: flex; flex-wrap: wrap; gap: 8px; min-height: 56px;
+  background: var(--bg); border: 1px dashed var(--border); border-radius: var(--radius); padding: 12px; margin-bottom: 14px;
+}
+.ds-chip {
+  background: var(--surface); border: 1.5px solid var(--border); border-radius: 999px;
+  padding: 8px 14px; font-family: inherit; font-size: 0.95rem; font-weight: 600; color: var(--text); cursor: pointer;
+  transition: border-color 0.12s, background 0.12s;
+}
+.ds-chip:hover { border-color: var(--primary); }
+.ds-chip.selected { border-color: var(--primary); background: var(--accent); color: var(--accent-ink); box-shadow: 0 0 0 3px rgba(255, 255, 0, 0.25); }
+.ds-chip.correct { border-color: var(--success); background: var(--success-bg); }
+.ds-chip.wrong { border-color: var(--danger); background: var(--danger-bg); }
+.ds-bins { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 14px; }
+.ds-bin {
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+  box-shadow: var(--shadow-sm); padding: 12px; cursor: pointer; min-height: 120px;
+}
+.ds-bin:hover { border-color: var(--primary); }
+.ds-bin h4 { margin: 0 0 10px; text-align: center; color: var(--primary); }
+.ds-drop { display: flex; flex-wrap: wrap; gap: 8px; align-content: flex-start; min-height: 60px; }
+.ds-actions { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.ds-result { font-weight: 700; color: var(--muted); }
+.ds-result.all { color: var(--success); }
+
+@media (max-width: 540px) {
+  .ds-bins { grid-template-columns: 1fr; }
+  .ipos-arrow { transform: rotate(90deg); }
+}
