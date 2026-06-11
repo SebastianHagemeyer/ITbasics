@@ -243,6 +243,7 @@
       { href: "/topics/html/", label: "HTML" },
       { href: "/topics/python/", label: "Python" },
       { href: "/topics/binary/", label: "Binary &amp; Data" },
+      { href: "/topics/codes/", label: "Codes &amp; Colour" },
       { href: "/quizzes/", label: "Quizzes" }
     ];
     var play = [

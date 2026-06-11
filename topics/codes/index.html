@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Codes &amp; Colour | Hallam IT Basics</title>
+  <link rel="icon" type="image/svg+xml" href="/logo-binary.svg" />
+  <link rel="apple-touch-icon" href="/logo-binary.svg" />
+  <link rel="stylesheet" href="/styles.css" />
+  <script>
+    (function () {
+      try {
+        if (!JSON.parse(localStorage.getItem("itbasics-session"))) {
+          location.replace("/");
+        }
+      } catch (e) { location.replace("/"); }
+    })();
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/" class="logo">
+        <img class="logo-mark" src="/logo-binary.svg" alt="" width="32" height="32" />
+        <span>Hallam IT Basics</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="/">Home</a>
+        <a href="/modules/">All modules</a>
+        <a href="/leaderboard/">Leaderboard</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Data Representation &middot; Part 2</p>
+        <h1>Codes &amp; Colour</h1>
+        <p class="lead">You already know everything is 1s and 0s. So how do those bits turn into the <strong>letters</strong> you type, a <strong>shorter</strong> way to write them, and the <strong>colours</strong> on your screen?</p>
+        <div class="hero-ctas hero-ctas-quick">
+          <a href="#colour" class="btn btn-primary">Jump to the colour mixer <span class="arrow" aria-hidden="true"></span></a>
+        </div>
+      </div>
+    </section>
+
+    <div class="container lesson-layout">
+      <aside class="lesson-toc" aria-label="On this page">
+        <h4>On this page</h4>
+        <ol>
+          <li><a href="#ascii">Letters: ASCII</a></li>
+          <li><a href="#hex">Hexadecimal</a></li>
+          <li><a href="#colour">Colour: RGB</a></li>
+          <li><a href="#cloud">Class word cloud</a></li>
+          <li><a href="#glossary">Glossary</a></li>
+        </ol>
+      </aside>
+
+      <article class="lesson">
+        <section id="ascii">
+          <h2>1. Letters: ASCII</h2>
+          <p>A computer only stores numbers (as binary). So how does it store the word <em>HELLO</em>? Simple: every character is given a number using a code called <strong>ASCII</strong>. For example <code>A</code> is 65, <code>B</code> is 66, and a space is 32. That number is then stored as binary, just like in the <a href="/topics/binary/">Binary module</a>.</p>
+          <p>Type something and watch each letter turn into its ASCII number (shown here in decimal and in hex, which is next):</p>
+          <div class="secret">
+            <label for="ascii-input">Your text (up to 10 characters):</label>
+            <input type="text" id="ascii-input" maxlength="10" value="Hi!" autocomplete="off" />
+            <div class="secret-out" id="ascii-out"></div>
+          </div>
+          <div class="kcheck" data-answer="b">
+            <p class="kcheck-q"><strong>Check your understanding:</strong> What does ASCII actually do?</p>
+            <div class="kcheck-options">
+              <button type="button" class="kcheck-opt" data-key="a">It makes text bigger so it is easier to read</button>
+              <button type="button" class="kcheck-opt" data-key="b">It gives every character a number, so text can be stored as binary</button>
+              <button type="button" class="kcheck-opt" data-key="c">It turns pictures into text</button>
+              <button type="button" class="kcheck-opt" data-key="d">It hides your messages from hackers</button>
+            </div>
+            <p class="kcheck-feedback" hidden></p>
+            <p class="kcheck-explain" hidden>ASCII is a lookup table: each character has an agreed number (A = 65, a = 97, space = 32). The computer stores that number as binary, so text ends up as 1s and 0s like everything else.</p>
+          </div>
+        </section>
+
+        <section id="hex">
+          <h2>2. Hexadecimal</h2>
+          <p>Binary is correct but <em>long</em>: one byte is eight digits, like <code>11001000</code>. <strong>Hexadecimal</strong> (hex, base 16) is a neat shorthand. It uses sixteen digits: <code>0 1 2 3 4 5 6 7 8 9</code> and then <code>A B C D E F</code> for ten to fifteen.</p>
+          <p>The magic: <strong>two hex digits = exactly one byte</strong> (0 to 255). So that long byte above is just <code>C8</code> in hex. Try it, the same number shown three ways:</p>
+          <div class="byteconv">
+            <label for="byte-input">Type a number (0&ndash;255):</label>
+            <input type="number" id="byte-input" min="0" max="255" value="200" inputmode="numeric" />
+            <div class="byteconv-out">
+              <div class="bc-cell"><span class="bc-label">Decimal</span><span class="bc-val" id="byte-dec">200</span></div>
+              <div class="bc-cell"><span class="bc-label">Hex</span><span class="bc-val" id="byte-hex">0xC8</span></div>
+              <div class="bc-cell"><span class="bc-label">Binary</span><span class="bc-val bc-mono" id="byte-bin">11001000</span></div>
+            </div>
+          </div>
+          <div class="kcheck" data-answer="d">
+            <p class="kcheck-q"><strong>Check your understanding:</strong> What is the hex number <code>FF</code> as a normal (decimal) number?</p>
+            <div class="kcheck-options">
+              <button type="button" class="kcheck-opt" data-key="a">15</button>
+              <button type="button" class="kcheck-opt" data-key="b">99</button>
+              <button type="button" class="kcheck-opt" data-key="c">160</button>
+              <button type="button" class="kcheck-opt" data-key="d">255</button>
+            </div>
+            <p class="kcheck-feedback" hidden></p>
+            <p class="kcheck-explain" hidden><code>F</code> is 15, the biggest hex digit. <code>FF</code> is the biggest two-digit hex number, and it equals 255 (the biggest value in one byte). Type 255 into the box above to see it.</p>
+          </div>
+        </section>
+
+        <section id="colour">
+          <h2>3. Colour: RGB</h2>
+          <p>Here is where hex shows up everywhere. Every colour on a screen is a mix of three lights: <strong style="color:#cc0000">Red</strong>, <strong style="color:#0a8a0a">Green</strong> and <strong style="color:#1763d6">Blue</strong>. Each one has a brightness from 0 to 255, and we write the three of them together as a <strong>hex colour code</strong> like <code>#FF8800</code> (that is FF red, 88 green, 00 blue).</p>
+          <p>More of a value (closer to FF) means more of that light. Slide the three channels and watch the colour and its code change:</p>
+          <div class="rgb-mixer">
+            <div class="rgb-sliders">
+              <label class="rgb-row r">Red <strong id="rgb-rv">255</strong><input type="range" id="rgb-r" min="0" max="255" value="255" aria-label="Red" /></label>
+              <label class="rgb-row g">Green <strong id="rgb-gv">136</strong><input type="range" id="rgb-g" min="0" max="255" value="136" aria-label="Green" /></label>
+              <label class="rgb-row b">Blue <strong id="rgb-bv">0</strong><input type="range" id="rgb-b" min="0" max="255" value="0" aria-label="Blue" /></label>
+            </div>
+            <div class="rgb-result">
+              <div class="rgb-swatch" id="rgb-swatch"></div>
+              <div class="rgb-codes">
+                <span class="rgb-hex" id="rgb-hex">#FF8800</span>
+                <span class="rgb-rgb" id="rgb-rgb">rgb(255, 136, 0)</span>
+              </div>
+            </div>
+          </div>
+          <div class="callout">
+            <strong>Handy ones to know:</strong> <code>#000000</code> is black (all off), <code>#FFFFFF</code> is white (all full on), <code>#FF0000</code> is pure red, <code>#00FF00</code> green, <code>#0000FF</code> blue.
+          </div>
+          <div class="kcheck" data-answer="a">
+            <p class="kcheck-q"><strong>Check your understanding:</strong> Which hex code is pure <strong>red</strong>?</p>
+            <div class="kcheck-options">
+              <button type="button" class="kcheck-opt" data-key="a">#FF0000</button>
+              <button type="button" class="kcheck-opt" data-key="b">#00FF00</button>
+              <button type="button" class="kcheck-opt" data-key="c">#0000FF</button>
+              <button type="button" class="kcheck-opt" data-key="d">#FFFFFF</button>
+            </div>
+            <p class="kcheck-feedback" hidden></p>
+            <p class="kcheck-explain" hidden>In <code>#RRGGBB</code> the first pair is red. <code>#FF0000</code> means red full on (FF), green off (00), blue off (00), so it is pure red. Check it on the mixer above.</p>
+          </div>
+        </section>
+
+        <section id="cloud">
+          <h2>4. Class word cloud</h2>
+          <p>Every colour you can name is just three numbers underneath. Add yours and watch the class palette grow.</p>
+          <div class="wordcloud"
+               data-topic="codes"
+               data-prompt="In one word, name your favourite colour."
+               data-placeholder="e.g. teal"></div>
+        </section>
+
+        <section id="glossary">
+          <h2>Glossary</h2>
+          <dl class="glossary">
+            <dt>ASCII</dt><dd>A code that gives every text character a number (for example A = 65), so text can be stored as binary.</dd>
+            <dt>Hexadecimal (hex)</dt><dd>Base 16: the digits 0&ndash;9 then A&ndash;F. A short way to write binary, where two hex digits make one byte.</dd>
+            <dt>Byte</dt><dd>8 bits. Holds 0 to 255, which is exactly two hex digits (00 to FF).</dd>
+            <dt>RGB</dt><dd>Red, Green, Blue. Every screen colour is a mix of these three lights, each from 0 to 255.</dd>
+            <dt>Hex colour code</dt><dd>A colour written as <code>#RRGGBB</code>, for example <code>#FF8800</code>. More of a value means more of that light.</dd>
+          </dl>
+        </section>
+
+        <div class="lesson-nav">
+          <a href="/topics/binary/" class="btn btn-ghost">&larr; Binary &amp; Data</a>
+          <a href="/modules/" class="btn btn-primary">All modules <span class="arrow" aria-hidden="true"></span></a>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; Hallam IT Basics &middot; For Years 7-9 computing classes.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+  <script src="/supabase-config.js"></script>
+  <script src="/app.js"></script>
+  <script src="/codes.js"></script>
+  <script src="/wordcloud.js"></script>
+</body>
+</html>
