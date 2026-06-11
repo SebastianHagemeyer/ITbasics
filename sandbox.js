@@ -257,8 +257,36 @@
         "    print(col=GREEN)\n" +
         "\n" +
         "# Trunk\n" +
-        "print(' ' * (n - 1), col=BROWN, end='')\n" +
+        "print(' ' * (n - 2), col=BROWN, end='')\n" +
         "print('|||', col=BROWN)\n"
+    },
+    {
+      title: "Christmas tree (sparkling)",
+      desc: "The tree redraws each frame, so the ornaments keep sparkling.",
+      code:
+        "import random\n" +
+        "import time\n" +
+        "\n" +
+        "n = 8\n" +
+        "GREEN = '#0aa84a'\n" +
+        "BROWN = '#7b4a1a'\n" +
+        "ORNAMENTS = ['#ff2b2b', '#ffd400', '#ff5cb0', '#3aaeff', '#ff8800']\n" +
+        "\n" +
+        "for frame in range(90):\n" +
+        "    for i in range(n):\n" +
+        "        pad = ' ' * (n - i - 1)\n" +
+        "        print(pad, col=GREEN, end='')\n" +
+        "        for j in range(2 * i + 1):\n" +
+        "            if 0 < j < 2 * i and random.random() < 0.25:\n" +
+        "                print('o', col=random.choice(ORNAMENTS), end='')\n" +
+        "            else:\n" +
+        "                print('*', col=GREEN, end='')\n" +
+        "        print(col=GREEN)\n" +
+        "    # Trunk\n" +
+        "    print(' ' * (n - 2), col=BROWN, end='')\n" +
+        "    print('|||', col=BROWN)\n" +
+        "    time.sleep(0.5)\n" +
+        "    clear()\n"
     },
     {
       title: "Caesar cipher",
