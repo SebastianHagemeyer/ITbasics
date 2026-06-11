@@ -2342,3 +2342,41 @@ a.progress-quiz:hover { box-shadow: var(--shadow-md); transform: translateY(-1px
 .phish-opt.right { background: var(--success-bg); border-color: var(--success); }
 .phish-opt.wrongpick { background: var(--danger-bg); border-color: var(--danger); }
 .phish-explain { margin: 12px 0 0; color: var(--muted); }
+
+/* Computer Skills: kbd keys, shortcut trainer, right-click simulator */
+kbd {
+  display: inline-block; padding: 1px 7px; font-size: 0.85em;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  background: var(--bg); border: 1px solid var(--border); border-bottom-width: 2px;
+  border-radius: 5px; color: var(--text); white-space: nowrap;
+}
+.data-table kbd { font-size: 0.8rem; }
+
+.sc-trainer {
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+  box-shadow: var(--shadow-sm); padding: 24px; margin: 8px 0 12px; text-align: center;
+}
+.sc-prompt { margin: 0 0 6px; font-size: 1.25rem; }
+.sc-status { margin: 0 0 14px; min-height: 1.2em; font-weight: 700; color: var(--muted); }
+.sc-status.ok { color: var(--success); }
+.sc-status.no { color: var(--danger); }
+
+.rc-desk {
+  position: relative; min-height: 220px; user-select: none;
+  background: linear-gradient(135deg, #e9eef9, #f4f1fb);
+  border: 1px solid var(--border); border-radius: var(--radius); padding: 14px;
+  margin: 8px 0 12px; display: flex; flex-wrap: wrap; gap: 14px; align-content: flex-start;
+}
+.rc-hint { width: 100%; margin: 0; color: var(--muted); font-weight: 600; }
+.rc-menu {
+  position: absolute; min-width: 170px; background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius-sm); box-shadow: var(--shadow-md); padding: 5px; z-index: 5;
+}
+.rc-item {
+  display: block; width: 100%; text-align: left; background: none; border: none; border-radius: 6px;
+  padding: 8px 12px; font-family: inherit; font-size: 0.92rem; color: var(--text); cursor: pointer;
+}
+.rc-item:hover { background: var(--primary); color: #fff; }
+.rc-icon { width: 84px; display: flex; flex-direction: column; align-items: center; gap: 4px; text-align: center; }
+.rc-glyph { font-size: 2rem; line-height: 1; }
+.rc-name { font-size: 0.78rem; color: var(--text); word-break: break-word; }

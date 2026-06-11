@@ -12,7 +12,8 @@
     { key: "binary",      label: "Binary & Data",  href: "/topics/binary/" },
     { key: "codes",       label: "Codes & Colour", href: "/topics/codes/" },
     { key: "systems",     label: "Digital Systems", href: "/topics/systems/" },
-    { key: "networks",    label: "Networks & Safety", href: "/topics/networks/" }
+    { key: "networks",    label: "Networks & Safety", href: "/topics/networks/" },
+    { key: "os",          label: "Computer Skills", href: "/topics/os/" }
   ];
 
   function el(id) { return document.getElementById(id); }
@@ -35,7 +36,7 @@
       if (res.error) return { error: res.error.message, rows: [] };
       return { rows: res.data || [] };
     }
-    var names = ["programming", "html", "python", "binary", "codes", "systems", "networks", "freeplay", "livecoding"];
+    var names = ["programming", "html", "python", "binary", "codes", "systems", "networks", "os", "freeplay", "livecoding"];
     var rows = [];
     names.forEach(function (name) {
       var raw = localStorage.getItem("itbasics-attempts-" + student.code + "-" + name);
