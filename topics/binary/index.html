@@ -204,17 +204,11 @@
 
         <section id="cloud">
           <h2>7. Class word cloud</h2>
-          <p>Everything digital is binary underneath. <strong>In one word, name a device or thing that stores data as 1s and 0s</strong> (like <em>phone</em>, <em>console</em>, <em>camera</em>). Add yours and watch the class&rsquo;s answers grow. The more people say a word, the bigger it gets.</p>
-          <div class="wordcloud" id="wordcloud">
-            <form class="wordcloud-form" id="wordcloud-form" autocomplete="off">
-              <input type="text" id="wordcloud-input" maxlength="16" placeholder="e.g. phone" aria-label="Your one word" />
-              <button type="submit" class="btn btn-primary">Add my word</button>
-              <span class="wordcloud-msg" id="wordcloud-msg" role="status"></span>
-            </form>
-            <div class="wordcloud-cloud" id="wordcloud-cloud" aria-live="polite">
-              <p class="wordcloud-empty">Loading…</p>
-            </div>
-          </div>
+          <p>Everything digital is binary underneath. Add your word and watch the cloud grow. The more people say the same word, the bigger it gets.</p>
+          <div class="wordcloud"
+               data-topic="binary"
+               data-prompt="In one word, name a device or thing that stores data as 1s and 0s."
+               data-placeholder="e.g. phone"></div>
         </section>
 
         <section id="glossary">
@@ -247,5 +241,6 @@
   <script src="/supabase-config.js"></script>
   <script src="/app.js"></script>
   <script src="/binary.js"></script>
+  <script src="/wordcloud.js"></script>
 </body>
 </html>
