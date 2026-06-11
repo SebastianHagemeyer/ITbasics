@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Networks &amp; Cyber Safety | Hallam IT Basics</title>
+  <link rel="icon" type="image/svg+xml" href="/logo-binary.svg" />
+  <link rel="apple-touch-icon" href="/logo-binary.svg" />
+  <link rel="stylesheet" href="/styles.css" />
+  <script>
+    (function () {
+      try {
+        if (!JSON.parse(localStorage.getItem("itbasics-session"))) {
+          location.replace("/");
+        }
+      } catch (e) { location.replace("/"); }
+    })();
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/" class="logo">
+        <img class="logo-mark" src="/logo-binary.svg" alt="" width="32" height="32" />
+        <span>Hallam IT Basics</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="/">Home</a>
+        <a href="/modules/">All modules</a>
+        <a href="/leaderboard/">Leaderboard</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Networks &amp; Cyber Safety</p>
+        <h1>How computers talk</h1>
+        <p class="lead">Every time you open a website, data races across the world and back in a fraction of a second. Let&rsquo;s see how it travels, how it finds the right place, and how to stay safe out there.</p>
+        <div class="hero-ctas hero-ctas-quick">
+          <a href="#safety" class="btn btn-primary">Jump to the phishing game <span class="arrow" aria-hidden="true"></span></a>
+        </div>
+      </div>
+    </section>
+
+    <div class="container lesson-layout">
+      <aside class="lesson-toc" aria-label="On this page">
+        <h4>On this page</h4>
+        <ol>
+          <li><a href="#network">What is a network?</a></li>
+          <li><a href="#packets">Packets</a></li>
+          <li><a href="#dns">Addresses &amp; domains</a></li>
+          <li><a href="#switch">Hubs, switches &amp; collisions</a></li>
+          <li><a href="#http">HTTP &amp; HTTPS</a></li>
+          <li><a href="#hosting">Where websites live</a></li>
+          <li><a href="#safety">Cyber safety</a></li>
+          <li><a href="#test">Module test</a></li>
+          <li><a href="#glossary">Glossary</a></li>
+        </ol>
+      </aside>
+
+      <article class="lesson">
+        <section id="network">
+          <h2>1. What is a network?</h2>
+          <p>A <strong>network</strong> is two or more computers connected so they can share data. Your home Wi-Fi is a small network. The <strong>internet</strong> is the biggest one of all: a network <em>of</em> networks, joining billions of devices around the world.</p>
+          <div class="callout">
+            <strong>Key idea:</strong> a network just means devices connected to share data. The internet is simply networks joined to other networks.
+          </div>
+        </section>
+
+        <section id="packets">
+          <h2>2. Packets</h2>
+          <p>Big things do not travel across a network in one piece. The data is chopped into small <strong>packets</strong>, each numbered and labelled with where it is going. They can take different routes, arrive out of order, and get put back together at the other end.</p>
+          <div class="packets" aria-hidden="true">
+            <span class="packet">3</span><span class="packet">1</span><span class="packet">4</span><span class="packet">2</span>
+            <span class="packet-arrow">&rarr;</span>
+            <span class="packet ok">1</span><span class="packet ok">2</span><span class="packet ok">3</span><span class="packet ok">4</span>
+          </div>
+          <p class="muted-note">Why bother? If one little packet gets lost, only that one is resent, not the whole file. It is faster and more reliable.</p>
+        </section>
+
+        <section id="dns">
+          <h2>3. Addresses &amp; domains</h2>
+          <p>Every device on a network has an <strong>IP address</strong>, a string of numbers like <code>142.250.70.196</code>. Computers love numbers, but people do not. So we use <strong>domain names</strong> like <code>google.com</code> instead.</p>
+          <p>When you type a domain, the <strong>DNS</strong> (Domain Name System) looks it up and finds the matching IP address. Think of DNS as the internet&rsquo;s <strong>phonebook</strong>: you know the name, it finds the number.</p>
+          <div class="kcheck" data-answer="b">
+            <p class="kcheck-q"><strong>Check your understanding:</strong> What is a domain name like <code>google.com</code> for?</p>
+            <div class="kcheck-options">
+              <button type="button" class="kcheck-opt" data-key="a">It is the computer's password</button>
+              <button type="button" class="kcheck-opt" data-key="b">A human-friendly name that points to a computer's IP address</button>
+              <button type="button" class="kcheck-opt" data-key="c">The speed of your internet</button>
+              <button type="button" class="kcheck-opt" data-key="d">A type of cable</button>
+            </div>
+            <p class="kcheck-feedback" hidden></p>
+            <p class="kcheck-explain" hidden>A domain name is an easy-to-remember name for a website. DNS translates it into the numeric IP address the computers actually use.</p>
+          </div>
+          <div class="exam-box">
+            <p class="exam-tag">Exam practice &middot; Year 9</p>
+            <p>In the URL <code>https://www.bom.gov.au/weather/today</code>, which part is the <strong>domain name</strong>? <span class="exam-marks">(1 mark)</span></p>
+            <details>
+              <summary>Show the answer</summary>
+              <ul>
+                <li><strong>www.bom.gov.au</strong> is the domain name (the address of the website).</li>
+                <li><code>https</code> is the protocol, and <code>/weather/today</code> is the path to a particular page.</li>
+              </ul>
+            </details>
+          </div>
+        </section>
+
+        <section id="switch">
+          <h2>4. Hubs, switches &amp; collisions</h2>
+          <p>Inside a network, a device in the middle passes data between computers. There are two ways to do it, and the difference is the whole point:</p>
+          <ul class="tips">
+            <li>A <strong>hub</strong> (the old way) copies every message to <em>every</em> computer. If two send at once, the signals <strong>collide</strong> and have to be resent.</li>
+            <li>A <strong>switch</strong> (the modern way) is smart: it sends each message <em>only</em> to the computer it is meant for. Far fewer collisions.</li>
+            <li>A <strong>router</strong> connects your whole network to other networks, including the internet.</li>
+          </ul>
+          <p>A wants to message D. Try both:</p>
+          <div class="netdemo">
+            <div class="netdemo-pcs">
+              <div class="netpc">A</div>
+              <div class="netpc">B</div>
+              <div class="netpc">C</div>
+              <div class="netpc" data-target>D</div>
+            </div>
+            <div class="netdemo-actions">
+              <button type="button" class="btn btn-ghost netdemo-hub">Send with a hub</button>
+              <button type="button" class="btn btn-primary netdemo-switch">Send with a switch</button>
+            </div>
+            <p class="netdemo-msg">A wants to send a message to D. Try each device and watch who receives it.</p>
+          </div>
+          <p class="muted-note">Hubs are basically extinct now (switches replaced them), but the idea explains <strong>data collisions</strong>, which is exactly why we moved to switches.</p>
+          <div class="kcheck" data-answer="a">
+            <p class="kcheck-q"><strong>Check your understanding:</strong> A hub sends data to every computer. What problem can that cause?</p>
+            <div class="kcheck-options">
+              <button type="button" class="kcheck-opt" data-key="a">Collisions when two computers send at the same time</button>
+              <button type="button" class="kcheck-opt" data-key="b">The data becomes binary</button>
+              <button type="button" class="kcheck-opt" data-key="c">The internet speeds up</button>
+              <button type="button" class="kcheck-opt" data-key="d">The IP address changes</button>
+            </div>
+            <p class="kcheck-feedback" hidden></p>
+            <p class="kcheck-explain" hidden>Because a hub shouts to everyone, two computers sending at once cause a collision. The messages clash and must be resent. A switch avoids this by sending only to the right computer.</p>
+          </div>
+        </section>
+
+        <section id="http">
+          <h2>5. HTTP &amp; HTTPS</h2>
+          <p>When your <strong>browser</strong> (the <em>client</em>) wants a web page, it sends a request to a <strong>server</strong> (the computer that stores the site). The server responds with the page. The language they use is <strong>HTTP</strong>: <em>HyperText Transfer Protocol</em>.</p>
+          <p><strong>HTTPS</strong> is the same, but the <strong>S is for Secure</strong>: the data is encrypted so no one in between can read it. That is the little padlock in your address bar. If a site asks for a password and there is no padlock, be careful.</p>
+          <div class="exam-box">
+            <p class="exam-tag">Exam practice &middot; Year 9</p>
+            <p>What does <strong>HTTP</strong> stand for? <span class="exam-marks">(1 mark)</span></p>
+            <details>
+              <summary>Show the answer</summary>
+              <ul>
+                <li><strong>HyperText Transfer Protocol</strong> - the rules a browser and server use to send web pages.</li>
+                <li><strong>HTTPS</strong> is the same thing but <strong>Secure</strong> (encrypted).</li>
+              </ul>
+            </details>
+          </div>
+        </section>
+
+        <section id="hosting">
+          <h2>6. Where websites live</h2>
+          <p>A website is just files (like the HTML you met in that module) sitting on a <strong>server</strong> that is always on, so anyone can request it. Putting your files on a server so the world can see them is called <strong>hosting</strong>.</p>
+          <p>You do not need to buy a server. You can host a site <strong>for free</strong> on services like <strong>GitHub Pages</strong>, <strong>Vercel</strong>, <strong>Netlify</strong> or <strong>Cloudflare Pages</strong>. Fun fact: <strong>this very site runs on GitHub Pages</strong>.</p>
+          <p>These services run in the <strong>cloud</strong>, which just means powerful computers in big data centres that you use over the internet instead of owning yourself. "The cloud" is really just someone else&rsquo;s computer, somewhere, that you rent or use for free.</p>
+          <div class="kcheck" data-answer="c">
+            <p class="kcheck-q"><strong>Check your understanding:</strong> What does it mean to "host" a website?</p>
+            <div class="kcheck-options">
+              <button type="button" class="kcheck-opt" data-key="a">To design its colours</button>
+              <button type="button" class="kcheck-opt" data-key="b">To write it in binary</button>
+              <button type="button" class="kcheck-opt" data-key="c">To put its files on an always-on server so others can visit it</button>
+              <button type="button" class="kcheck-opt" data-key="d">To connect to Wi-Fi</button>
+            </div>
+            <p class="kcheck-feedback" hidden></p>
+            <p class="kcheck-explain" hidden>Hosting means storing your site&rsquo;s files on a server that is always on, so anyone can request and view them. Free hosts like GitHub Pages, Vercel and Netlify do this for you.</p>
+          </div>
+        </section>
+
+        <section id="safety">
+          <h2>7. Cyber safety</h2>
+          <p><strong>Phishing</strong> is when a scammer pretends to be someone you trust to trick you into giving up a password, money or personal details. Watch for the red flags: a <strong>fake address</strong>, <strong>panic and urgency</strong>, a request for your <strong>password</strong>, or a deal that is <strong>too good to be true</strong>.</p>
+          <p>Tap <strong>Safe</strong> or <strong>Scam</strong> for each message, then see the red flags:</p>
+          <div class="phish">
+            <div class="phish-card" data-answer="scam">
+              <div class="phish-msg">
+                <p class="phish-from">From: security@app1e-support.com</p>
+                <p class="phish-body">Your account is LOCKED. Verify your password in the next 24 hours or it will be deleted. Click here: bit.ly/ver1fy</p>
+              </div>
+              <div class="phish-choices">
+                <button type="button" class="phish-opt" data-key="safe">Safe</button>
+                <button type="button" class="phish-opt" data-key="scam">Scam</button>
+              </div>
+              <p class="phish-explain" hidden><strong>Scam.</strong> The address is misspelled (app<strong>1</strong>e), it creates panic ("24 hours"), it asks for your password, and it hides the link. Real companies never ask for your password by link.</p>
+            </div>
+            <div class="phish-card" data-answer="scam">
+              <div class="phish-msg">
+                <p class="phish-from">From: prizes@free-iphone-now.net</p>
+                <p class="phish-body">CONGRATULATIONS! You have been chosen to win a free iPhone. Just enter your address and card details to claim your prize!</p>
+              </div>
+              <div class="phish-choices">
+                <button type="button" class="phish-opt" data-key="safe">Safe</button>
+                <button type="button" class="phish-opt" data-key="scam">Scam</button>
+              </div>
+              <p class="phish-explain" hidden><strong>Scam.</strong> If it sounds too good to be true, it is. Real prizes never need your card details. The address is a giveaway too.</p>
+            </div>
+            <div class="phish-card" data-answer="safe">
+              <div class="phish-msg">
+                <p class="phish-from">From: mr.h@school.vic.edu.au</p>
+                <p class="phish-body">Hi class, a reminder that your Python task is due Friday. No need to reply, just bring it to the lesson. See you then.</p>
+              </div>
+              <div class="phish-choices">
+                <button type="button" class="phish-opt" data-key="safe">Safe</button>
+                <button type="button" class="phish-opt" data-key="scam">Scam</button>
+              </div>
+              <p class="phish-explain" hidden><strong>Safe.</strong> A known school address, no panic, no links, and it does not ask for anything private. This is a normal message.</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="test">
+          <h2>Module test</h2>
+          <p>Five quick questions to check you have got it. Your best score shows on your <a href="/progress/">My Progress</a> page.</p>
+          <div class="module-test" data-test="networks">
+            <div class="mtest-q" data-answer="b">
+              <p class="mtest-prompt">1. What is a network?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">A single very fast computer</button>
+                <button type="button" class="mtest-opt" data-key="b">Two or more computers connected to share data</button>
+                <button type="button" class="mtest-opt" data-key="c">A type of website</button>
+                <button type="button" class="mtest-opt" data-key="d">A programming language</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="c">
+              <p class="mtest-prompt">2. Data is broken into small numbered pieces to travel across a network. What are they called?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">Bytes</button>
+                <button type="button" class="mtest-opt" data-key="b">Pixels</button>
+                <button type="button" class="mtest-opt" data-key="c">Packets</button>
+                <button type="button" class="mtest-opt" data-key="d">Domains</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="a">
+              <p class="mtest-prompt">3. What does a domain name (like <code>google.com</code>) do?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">Gives a website an easy name that points to its IP address</button>
+                <button type="button" class="mtest-opt" data-key="b">Encrypts your password</button>
+                <button type="button" class="mtest-opt" data-key="c">Speeds up your Wi-Fi</button>
+                <button type="button" class="mtest-opt" data-key="d">Stores your files</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="d">
+              <p class="mtest-prompt">4. What does the S in HTTPS give you?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">Speed</button>
+                <button type="button" class="mtest-opt" data-key="b">Storage</button>
+                <button type="button" class="mtest-opt" data-key="c">Sound</button>
+                <button type="button" class="mtest-opt" data-key="d">Security (an encrypted connection)</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="b">
+              <p class="mtest-prompt">5. An email says "You won! Click here and enter your password to claim." What should you do?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">Click quickly before the offer ends</button>
+                <button type="button" class="mtest-opt" data-key="b">Do not click - it is almost certainly phishing</button>
+                <button type="button" class="mtest-opt" data-key="c">Reply with your password</button>
+                <button type="button" class="mtest-opt" data-key="d">Forward it to all your friends</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="cloud">
+          <h2>Class word cloud</h2>
+          <p>We all use the internet every day. Add one thing you use it for.</p>
+          <div class="wordcloud"
+               data-topic="networks"
+               data-prompt="In one word, what do you use the internet for most?"
+               data-placeholder="e.g. youtube"></div>
+        </section>
+
+        <section id="glossary">
+          <h2>Glossary</h2>
+          <dl class="glossary">
+            <dt>Network</dt><dd>Two or more computers connected to share data.</dd>
+            <dt>Internet</dt><dd>A worldwide network of networks.</dd>
+            <dt>Packet</dt><dd>A small numbered piece of data that travels across a network.</dd>
+            <dt>IP address</dt><dd>The numeric address of a device on a network.</dd>
+            <dt>Domain name</dt><dd>A human-friendly name (like google.com) that points to an IP address.</dd>
+            <dt>DNS</dt><dd>The Domain Name System: the internet&rsquo;s phonebook, turning names into IP addresses.</dd>
+            <dt>Switch</dt><dd>Sends data only to the computer it is meant for (a hub sends to everyone).</dd>
+            <dt>Router</dt><dd>Connects a network to other networks, including the internet.</dd>
+            <dt>HTTP / HTTPS</dt><dd>The rules a browser and server use to send web pages. HTTPS is the secure (encrypted) version.</dd>
+            <dt>Hosting</dt><dd>Storing a website&rsquo;s files on an always-on server so others can visit it.</dd>
+            <dt>Phishing</dt><dd>A scam that pretends to be someone you trust to steal passwords, money or data.</dd>
+          </dl>
+        </section>
+
+        <div class="lesson-nav">
+          <a href="/modules/" class="btn btn-ghost">&larr; All modules</a>
+          <a href="/progress/" class="btn btn-primary">See your progress <span class="arrow" aria-hidden="true"></span></a>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; Hallam IT Basics &middot; For Years 7-9 computing classes.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+  <script src="/supabase-config.js"></script>
+  <script src="/app.js"></script>
+  <script src="/networks.js"></script>
+  <script src="/wordcloud.js"></script>
+  <script src="/moduletest.js"></script>
+</body>
+</html>

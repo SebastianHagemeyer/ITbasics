@@ -245,6 +245,7 @@
       { href: "/topics/binary/", label: "Binary &amp; Data" },
       { href: "/topics/codes/", label: "Codes &amp; Colour" },
       { href: "/topics/systems/", label: "Digital Systems" },
+      { href: "/topics/networks/", label: "Networks &amp; Safety" },
       { href: "/quizzes/", label: "Quizzes" }
     ];
     var play = [
