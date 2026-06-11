@@ -229,9 +229,53 @@
     });
   }
 
+  // Build the primary nav from one place so every page stays in sync and new
+  // sections only need adding here. The hardcoded <nav> in each page is a
+  // no-JS fallback that this overwrites on load.
+  function renderNav() {
+    var nav = document.querySelector(".site-nav");
+    if (!nav) return;
+    var path = location.pathname.replace(/index\.html$/, "");
+    var chev = '<svg class="nav-chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+    var topics = [
+      { href: "/modules/", label: "All modules" },
+      { href: "/topics/programming/", label: "Programming" },
+      { href: "/topics/html/", label: "HTML" },
+      { href: "/topics/python/", label: "Python" },
+      { href: "/topics/binary/", label: "Binary &amp; Data" },
+      { href: "/quizzes/", label: "Quizzes" }
+    ];
+    var play = [
+      { href: "/freeplay/", label: "Freeplay" },
+      { href: "/challenges/", label: "Live Coding" },
+      { href: "/sandbox/", label: "Sandbox" }
+    ];
+    function active(href) { return href === "/" ? path === "/" : path.indexOf(href) === 0; }
+    function items(list) {
+      return list.map(function (it) {
+        return '<a href="' + it.href + '"' + (active(it.href) ? ' class="active"' : '') +
+          ' role="menuitem">' + it.label + '</a>';
+      }).join("");
+    }
+    function dropdown(label, list) {
+      var on = list.some(function (it) { return active(it.href); });
+      return '<div class="nav-dropdown" data-open="false">' +
+        '<button type="button" class="nav-dropdown-toggle' + (on ? ' active' : '') +
+          '" aria-haspopup="true" aria-expanded="false">' + label + ' ' + chev + '</button>' +
+        '<div class="nav-dropdown-menu" role="menu">' + items(list) + '</div>' +
+      '</div>';
+    }
+    nav.innerHTML =
+      '<a href="/"' + (path === "/" ? ' class="active"' : '') + '>Home</a>' +
+      dropdown("Topics", topics) +
+      dropdown("Play", play) +
+      '<a href="/leaderboard/"' + (active("/leaderboard/") ? ' class="active"' : '') + '>Leaderboard</a>';
+  }
+
   function boot() {
     applyAuthState();
     renderAuthBar();
+    renderNav();
     setupNavDropdowns();
   }
 
