@@ -108,15 +108,13 @@
           <h2>3. Files, folders &amp; right-click</h2>
           <p><strong>File Explorer</strong> (the yellow folder on the taskbar) is where all your stuff lives. Things are kept in <strong>folders</strong>, which can hold more folders, like boxes inside boxes. The trail to a file is its <strong>path</strong>, for example <code>Documents\Year 7\essay.docx</code>.</p>
           <p>The end of a file name is its <strong>extension</strong>, and it tells you the type: <code>.txt</code> plain text, <code>.docx</code> a Word document, <code>.png</code>/<code>.jpg</code> an image, <code>.mp4</code> a video, <code>.py</code> Python code.</p>
-          <p>The <strong>right-click</strong> (or two-finger tap on a laptop) opens a menu of things you can do <em>right here</em>: copy, rename, delete, and <strong>New &rarr; Folder</strong> or <strong>New &rarr; Text Document</strong>. Try it on this pretend desktop:</p>
-          <div class="rc-desk">
-            <p class="rc-hint">Right-click anywhere in this box.</p>
-            <div class="rc-menu" hidden>
-              <button type="button" class="rc-item" data-action="folder">New folder</button>
-              <button type="button" class="rc-item" data-action="file">New text document</button>
-              <button type="button" class="rc-item" data-action="refresh">Refresh</button>
-            </div>
+          <p>The <strong>right-click</strong> (or two-finger tap on a laptop) opens a menu of things you can do <em>right here</em>: <strong>New &rarr; Folder</strong>, rename, delete. Here is a mini File Explorer to play in: <strong>double-click</strong> a folder to go inside (watch the path at the top), <strong>single-click</strong> to select it, and <strong>right-click</strong> for the menu.</p>
+          <div class="fx">
+            <div class="fx-bar"><div class="fx-path" aria-label="Current folder path"></div></div>
+            <div class="fx-body" aria-label="Folder contents"></div>
+            <div class="fx-menu" hidden></div>
           </div>
+          <p class="fx-challenge"></p>
           <div class="kcheck" data-answer="c">
             <p class="kcheck-q"><strong>Check your understanding:</strong> A file is called <code>holiday.png</code>. What kind of file is it?</p>
             <div class="kcheck-options">
