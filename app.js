@@ -246,6 +246,7 @@
       { href: "/topics/codes/", label: "Codes &amp; Colour" },
       { href: "/topics/systems/", label: "Digital Systems" },
       { href: "/topics/networks/", label: "Networks &amp; Safety" },
+      { href: "/topics/os/", label: "Computer Skills" },
       { href: "/quizzes/", label: "Quizzes" }
     ];
     var play = [

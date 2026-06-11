@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Computer Skills | Hallam IT Basics</title>
+  <link rel="icon" type="image/svg+xml" href="/logo-binary.svg" />
+  <link rel="apple-touch-icon" href="/logo-binary.svg" />
+  <link rel="stylesheet" href="/styles.css" />
+  <script>
+    (function () {
+      try {
+        if (!JSON.parse(localStorage.getItem("itbasics-session"))) {
+          location.replace("/");
+        }
+      } catch (e) { location.replace("/"); }
+    })();
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/" class="logo">
+        <img class="logo-mark" src="/logo-binary.svg" alt="" width="32" height="32" />
+        <span>Hallam IT Basics</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="/">Home</a>
+        <a href="/modules/">All modules</a>
+        <a href="/leaderboard/">Leaderboard</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Using a computer</p>
+        <h1>Computer skills</h1>
+        <p class="lead">The quiet superpowers: keyboard shortcuts, finding your files, the right-click menu, and what that scary black "terminal" actually is. Learn these and you will fly.</p>
+        <div class="hero-ctas hero-ctas-quick">
+          <a href="#shortcuts" class="btn btn-primary">Try the shortcut trainer <span class="arrow" aria-hidden="true"></span></a>
+        </div>
+      </div>
+    </section>
+
+    <div class="container lesson-layout">
+      <aside class="lesson-toc" aria-label="On this page">
+        <h4>On this page</h4>
+        <ol>
+          <li><a href="#shortcuts">Keyboard shortcuts</a></li>
+          <li><a href="#trainer">Shortcut trainer</a></li>
+          <li><a href="#files">Files, folders &amp; right-click</a></li>
+          <li><a href="#terminal">What is a terminal?</a></li>
+          <li><a href="#tips">Handy tips</a></li>
+          <li><a href="#test">Module test</a></li>
+          <li><a href="#glossary">Glossary</a></li>
+        </ol>
+      </aside>
+
+      <article class="lesson">
+        <section id="shortcuts">
+          <h2>1. Keyboard shortcuts</h2>
+          <p>A shortcut does in one keypress what takes several clicks. The big ones, used everywhere:</p>
+          <table class="data-table">
+            <thead><tr><th>Shortcut</th><th>What it does</th></tr></thead>
+            <tbody>
+              <tr><td><kbd>Ctrl</kbd>+<kbd>C</kbd></td><td>Copy</td></tr>
+              <tr><td><kbd>Ctrl</kbd>+<kbd>V</kbd></td><td>Paste</td></tr>
+              <tr><td><kbd>Ctrl</kbd>+<kbd>X</kbd></td><td>Cut</td></tr>
+              <tr><td><kbd>Ctrl</kbd>+<kbd>Z</kbd></td><td>Undo</td></tr>
+              <tr><td><kbd>Ctrl</kbd>+<kbd>A</kbd></td><td>Select all</td></tr>
+              <tr><td><kbd>Ctrl</kbd>+<kbd>S</kbd></td><td>Save</td></tr>
+              <tr><td><kbd>Ctrl</kbd>+<kbd>F</kbd></td><td>Find on the page</td></tr>
+              <tr><td><kbd>Alt</kbd>+<kbd>Tab</kbd></td><td>Switch between open windows</td></tr>
+              <tr><td><kbd>Alt</kbd>+<kbd>F4</kbd></td><td>Close the current window</td></tr>
+              <tr><td><kbd>Win</kbd></td><td>Open the Start menu (then just type to search)</td></tr>
+            </tbody>
+          </table>
+          <div class="callout">
+            <strong>On a Mac?</strong> Swap <kbd>Ctrl</kbd> for <kbd>Cmd</kbd> (&#8984;): Cmd+C, Cmd+V, Cmd+Z, and so on.
+          </div>
+          <div class="kcheck" data-answer="b">
+            <p class="kcheck-q"><strong>Check your understanding:</strong> You made a mistake and want to undo it. Which shortcut?</p>
+            <div class="kcheck-options">
+              <button type="button" class="kcheck-opt" data-key="a">Ctrl+C</button>
+              <button type="button" class="kcheck-opt" data-key="b">Ctrl+Z</button>
+              <button type="button" class="kcheck-opt" data-key="c">Ctrl+S</button>
+              <button type="button" class="kcheck-opt" data-key="d">Alt+F4</button>
+            </div>
+            <p class="kcheck-feedback" hidden></p>
+            <p class="kcheck-explain" hidden>Ctrl+Z undoes your last action. (Ctrl+C copies, Ctrl+S saves, and Alt+F4 would close the whole window!)</p>
+          </div>
+        </section>
+
+        <section id="trainer">
+          <h2>2. Shortcut trainer</h2>
+          <p>Real practice beats reading. Press <strong>Start</strong>, then actually press the keys for each action. (We catch the keypress, so Save and Find will not pop up.)</p>
+          <div class="sc-trainer">
+            <p class="sc-prompt">Press Start to begin.</p>
+            <p class="sc-status">&nbsp;</p>
+            <button type="button" class="btn btn-primary sc-start">Start</button>
+          </div>
+          <p class="muted-note">Alt+Tab, Alt+F4 and the Win key are controlled by the operating system, so a web page cannot catch them. Try those for real on your own computer!</p>
+        </section>
+
+        <section id="files">
+          <h2>3. Files, folders &amp; right-click</h2>
+          <p><strong>File Explorer</strong> (the yellow folder on the taskbar) is where all your stuff lives. Things are kept in <strong>folders</strong>, which can hold more folders, like boxes inside boxes. The trail to a file is its <strong>path</strong>, for example <code>Documents\Year 7\essay.docx</code>.</p>
+          <p>The end of a file name is its <strong>extension</strong>, and it tells you the type: <code>.txt</code> plain text, <code>.docx</code> a Word document, <code>.png</code>/<code>.jpg</code> an image, <code>.mp4</code> a video, <code>.py</code> Python code.</p>
+          <p>The <strong>right-click</strong> (or two-finger tap on a laptop) opens a menu of things you can do <em>right here</em>: copy, rename, delete, and <strong>New &rarr; Folder</strong> or <strong>New &rarr; Text Document</strong>. Try it on this pretend desktop:</p>
+          <div class="rc-desk">
+            <p class="rc-hint">Right-click anywhere in this box.</p>
+            <div class="rc-menu" hidden>
+              <button type="button" class="rc-item" data-action="folder">New folder</button>
+              <button type="button" class="rc-item" data-action="file">New text document</button>
+              <button type="button" class="rc-item" data-action="refresh">Refresh</button>
+            </div>
+          </div>
+          <div class="kcheck" data-answer="c">
+            <p class="kcheck-q"><strong>Check your understanding:</strong> A file is called <code>holiday.png</code>. What kind of file is it?</p>
+            <div class="kcheck-options">
+              <button type="button" class="kcheck-opt" data-key="a">A Word document</button>
+              <button type="button" class="kcheck-opt" data-key="b">A video</button>
+              <button type="button" class="kcheck-opt" data-key="c">An image</button>
+              <button type="button" class="kcheck-opt" data-key="d">Python code</button>
+            </div>
+            <p class="kcheck-feedback" hidden></p>
+            <p class="kcheck-explain" hidden>The <code>.png</code> extension means it is an image. The extension after the dot tells you the file type.</p>
+          </div>
+        </section>
+
+        <section id="terminal">
+          <h2>4. What is a terminal?</h2>
+          <p>The <strong>terminal</strong> (also called the command line, Command Prompt, or PowerShell on Windows) looks scary, but it is simple: instead of <em>clicking</em> to do things, you <em>type</em> commands. It is just another way to talk to the computer, and it is how programmers do a lot of their work.</p>
+          <pre class="code"><span class="c-comment"># list what is in this folder</span>
+dir
+
+<span class="c-comment"># go into a folder</span>
+cd Documents</pre>
+          <p>You will not break anything by looking. Many powerful tools only have a terminal, so it is worth not being scared of it.</p>
+        </section>
+
+        <section id="tips">
+          <h2>5. Handy tips</h2>
+          <ul class="tips">
+            <li><strong>Snap windows:</strong> drag a window to the left or right edge (or press <kbd>Win</kbd>+<kbd>&larr;</kbd>/<kbd>&rarr;</kbd>) to fit two side by side.</li>
+            <li><strong>Search anything:</strong> tap the <kbd>Win</kbd> key and just start typing the app or file you want.</li>
+            <li><strong>Screenshot:</strong> <kbd>Win</kbd>+<kbd>Shift</kbd>+<kbd>S</kbd> lets you snip part of the screen.</li>
+            <li><strong>Find on a page:</strong> <kbd>Ctrl</kbd>+<kbd>F</kbd> jumps to any word on a website or document.</li>
+            <li><strong>Re-open a closed tab:</strong> <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>T</kbd> in a browser.</li>
+          </ul>
+        </section>
+
+        <section id="test">
+          <h2>Module test</h2>
+          <p>Five quick questions to check you have got it. Your best score shows on your <a href="/progress/">My Progress</a> page.</p>
+          <div class="module-test" data-test="os">
+            <div class="mtest-q" data-answer="a">
+              <p class="mtest-prompt">1. Which shortcut copies the selected thing?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">Ctrl+C</button>
+                <button type="button" class="mtest-opt" data-key="b">Ctrl+V</button>
+                <button type="button" class="mtest-opt" data-key="c">Ctrl+Z</button>
+                <button type="button" class="mtest-opt" data-key="d">Ctrl+S</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="c">
+              <p class="mtest-prompt">2. What does <kbd>Alt</kbd>+<kbd>Tab</kbd> do?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">Saves your work</button>
+                <button type="button" class="mtest-opt" data-key="b">Deletes a file</button>
+                <button type="button" class="mtest-opt" data-key="c">Switches between open windows</button>
+                <button type="button" class="mtest-opt" data-key="d">Opens the terminal</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="d">
+              <p class="mtest-prompt">3. A file ends in <code>.txt</code>. What is it?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">An image</button>
+                <button type="button" class="mtest-opt" data-key="b">A video</button>
+                <button type="button" class="mtest-opt" data-key="c">A folder</button>
+                <button type="button" class="mtest-opt" data-key="d">A plain text file</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="b">
+              <p class="mtest-prompt">4. How do you make a new folder on the desktop?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">Press Alt+F4</button>
+                <button type="button" class="mtest-opt" data-key="b">Right-click, then New &rarr; Folder</button>
+                <button type="button" class="mtest-opt" data-key="c">Double-click the screen</button>
+                <button type="button" class="mtest-opt" data-key="d">Press Ctrl+C</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="b">
+              <p class="mtest-prompt">5. What is a terminal (command line)?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">A type of monitor</button>
+                <button type="button" class="mtest-opt" data-key="b">A place to type commands to control the computer</button>
+                <button type="button" class="mtest-opt" data-key="c">A virus</button>
+                <button type="button" class="mtest-opt" data-key="d">A storage device</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="cloud">
+          <h2>Class word cloud</h2>
+          <p>Shortcuts are personal. Add the one you use the most.</p>
+          <div class="wordcloud"
+               data-topic="os"
+               data-prompt="In one word or shortcut, what is your most-used keyboard trick?"
+               data-placeholder="e.g. ctrlz"></div>
+        </section>
+
+        <section id="glossary">
+          <h2>Glossary</h2>
+          <dl class="glossary">
+            <dt>Shortcut</dt><dd>A key combination that does a task instantly, like Ctrl+C to copy.</dd>
+            <dt>File Explorer</dt><dd>The Windows app for browsing your files and folders.</dd>
+            <dt>Folder</dt><dd>A container that holds files and other folders.</dd>
+            <dt>Path</dt><dd>The trail of folders that leads to a file, e.g. <code>Documents\essay.docx</code>.</dd>
+            <dt>File extension</dt><dd>The bit after the dot (.txt, .png, .py) that tells you the file type.</dd>
+            <dt>Right-click</dt><dd>Opens a context menu of actions for whatever you clicked.</dd>
+            <dt>Terminal</dt><dd>A window where you type commands to control the computer instead of clicking.</dd>
+          </dl>
+        </section>
+
+        <div class="lesson-nav">
+          <a href="/modules/" class="btn btn-ghost">&larr; All modules</a>
+          <a href="/progress/" class="btn btn-primary">See your progress <span class="arrow" aria-hidden="true"></span></a>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; Hallam IT Basics &middot; For Years 7-9 computing classes.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+  <script src="/supabase-config.js"></script>
+  <script src="/app.js"></script>
+  <script src="/os.js"></script>
+  <script src="/wordcloud.js"></script>
+  <script src="/moduletest.js"></script>
+</body>
+</html>
