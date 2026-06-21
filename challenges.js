@@ -519,10 +519,10 @@
   function checkBiggest3(r, a, b, c) {
     if (r.error) return fail("Your code stopped: " + r.error + intHint(r.error));
     const biggest = Math.max(a, b, c);
-    const re = new RegExp("\\b" + biggest + "\\b", "g");
-    const occurrences = (String(r.output).match(re) || []).length;
-    const inEcho = [a, b, c].filter(function (x) { return x === biggest; }).length;
-    if (occurrences > inEcho) return pass("Biggest is " + biggest + ".");
+    // r.output now contains only what the student print()ed (typed input is no
+    // longer echoed here), so simply check that the biggest value was printed.
+    const re = new RegExp("\\b" + biggest + "\\b");
+    if (re.test(String(r.output))) return pass("Biggest is " + biggest + ".");
     return fail("The biggest of " + a + ", " + b + ", " + c + " is " + biggest + ". Make sure you print it.");
   }
 
@@ -619,6 +619,13 @@
   // ---- Python grading runner (installed once after Pyodide loads) ----------
   // Runs the student's code with scripted input(), captures stdout, guards
   // against endless loops, and (optionally) forces random's secret number.
+  //
+  // Two outputs are captured separately:
+  //   * "output"  - ONLY what the student actually print()ed. Grading checks
+  //                 use this so a typed input value (e.g. a name) is never
+  //                 mistaken for something the program printed.
+  //   * "display" - the full transcript (prompts + echoed input + prints),
+  //                 shown in the results panel so the interaction looks real.
   const PY_RUNNER = `
 import json, io, sys, builtins, random
 from contextlib import redirect_stdout
@@ -631,15 +638,28 @@ def _run_student(code, inputs_json, force_secret_json):
     orig_input = builtins.input
     orig_rand = (random.randint, random.randrange, random.choice)
 
+    printed = io.StringIO()   # what the student print()ed (used for grading)
+    display = io.StringIO()    # full transcript incl. prompts + echoed input
+
+    class _Tee:
+        def write(self, s):
+            printed.write(s)
+            display.write(s)
+            return len(s)
+        def flush(self):
+            pass
+
     def _inp(prompt=""):
         if prompt:
-            sys.stdout.write(str(prompt))
+            display.write(str(prompt))
         try:
             v = next(it)
         except StopIteration:
             raise EOFError("no more input")
         used["n"] += 1
-        sys.stdout.write(str(v) + "\\n")
+        # Echo the typed value to the display transcript only - NOT to the
+        # grading buffer - so it can't be counted as program output.
+        display.write(str(v) + "\\n")
         return str(v)
 
     builtins.input = _inp
@@ -656,12 +676,11 @@ def _run_student(code, inputs_json, force_secret_json):
             raise RuntimeError("ran too long (possible endless loop)")
         return guard
 
-    buf = io.StringIO()
     err = None
     g = {"__name__": "__main__"}
     sys.settrace(guard)
     try:
-        with redirect_stdout(buf):
+        with redirect_stdout(_Tee()):
             exec(compile(code, "<solution>", "exec"), g)
     except BaseException as e:
         err = type(e).__name__ + ": " + str(e)
@@ -670,7 +689,12 @@ def _run_student(code, inputs_json, force_secret_json):
         builtins.input = orig_input
         random.randint, random.randrange, random.choice = orig_rand
 
-    return json.dumps({"output": buf.getvalue(), "used": used["n"], "error": err})
+    return json.dumps({
+        "output": printed.getvalue(),
+        "display": display.getvalue(),
+        "used": used["n"],
+        "error": err
+    })
 `;
 
   // ---- Interactive input() (JSPI), shared with the sandbox -----------------
@@ -920,7 +944,7 @@ del _sandbox_install_input, _b
         inputs: test.inputs,
         pass: verdict.pass,
         why: verdict.why,
-        output: res.output,
+        output: (res.display != null ? res.display : res.output),
         error: res.error
       };
     });
