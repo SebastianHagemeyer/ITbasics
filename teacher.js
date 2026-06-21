@@ -12,18 +12,47 @@
   var GATE_KEY = "itbasics-teacher-ok";
 
   // Each task says which quiz_names to pull and how to turn a student's rows
-  // into { pct, completed, detail }.
-  var TASKS = [
-    { key: "decisions",   label: "Making Decisions (module)", quizzes: ["decisions", "decisions-task"], compute: computeDecisions },
-    { key: "programming", label: "Programming quiz",          quizzes: ["programming"], compute: testCompute("programming") },
-    { key: "html",        label: "HTML quiz",                 quizzes: ["html"],        compute: testCompute("html") },
-    { key: "python",      label: "Python quiz",               quizzes: ["python"],      compute: testCompute("python") },
-    { key: "binary",      label: "Binary & Data test",        quizzes: ["binary"],      compute: testCompute("binary") },
-    { key: "codes",       label: "Codes & Colour test",       quizzes: ["codes"],       compute: testCompute("codes") },
-    { key: "systems",     label: "Digital Systems test",      quizzes: ["systems"],     compute: testCompute("systems") },
-    { key: "networks",    label: "Networks & Safety test",    quizzes: ["networks"],    compute: testCompute("networks") },
-    { key: "os",          label: "Computer Skills test",      quizzes: ["os"],          compute: testCompute("os") }
+  // into { pct, completed, detail }. Module/quiz tasks are fixed; Live Coding
+  // tasks are built at load time from the challenge catalog (see buildTasks).
+  var MODULE_TASKS = [
+    { key: "decisions",   label: "Making Decisions (module)", group: "Modules & quizzes", quizzes: ["decisions", "decisions-task"], compute: computeDecisions },
+    { key: "programming", label: "Programming quiz",          group: "Modules & quizzes", quizzes: ["programming"], compute: testCompute("programming") },
+    { key: "html",        label: "HTML quiz",                 group: "Modules & quizzes", quizzes: ["html"],        compute: testCompute("html") },
+    { key: "python",      label: "Python quiz",               group: "Modules & quizzes", quizzes: ["python"],      compute: testCompute("python") },
+    { key: "binary",      label: "Binary & Data test",        group: "Modules & quizzes", quizzes: ["binary"],      compute: testCompute("binary") },
+    { key: "codes",       label: "Codes & Colour test",       group: "Modules & quizzes", quizzes: ["codes"],       compute: testCompute("codes") },
+    { key: "systems",     label: "Digital Systems test",      group: "Modules & quizzes", quizzes: ["systems"],     compute: testCompute("systems") },
+    { key: "networks",    label: "Networks & Safety test",    group: "Modules & quizzes", quizzes: ["networks"],    compute: testCompute("networks") },
+    { key: "os",          label: "Computer Skills test",      group: "Modules & quizzes", quizzes: ["os"],          compute: testCompute("os") }
   ];
+
+  // Built once we know the challenge catalog; combined list the dropdown uses.
+  var ALL_TASKS = MODULE_TASKS.slice();
+
+  function buildTasks() {
+    ALL_TASKS = MODULE_TASKS.slice();
+    var catalog = window.ITBASICS_CHALLENGE_CATALOG || [];
+    if (!catalog.length) return;
+    var ids = catalog.map(function (c) { return c.id; });
+    // Overall: how many of the live-coding challenges each student has cracked.
+    ALL_TASKS.push({
+      key: "livecoding-all",
+      label: "Live Coding — all challenges (" + ids.length + ")",
+      group: "Live Coding",
+      quizzes: ["livecoding"],
+      compute: computeLivecodingAll(ids)
+    });
+    // One task per individual challenge.
+    catalog.forEach(function (c) {
+      ALL_TASKS.push({
+        key: "lc:" + c.id,
+        label: "Live Coding: " + c.title,
+        group: "Live Coding",
+        quizzes: ["livecoding"],
+        compute: computeChallenge(c.id)
+      });
+    });
+  }
 
   function el(id) { return document.getElementById(id); }
 
@@ -63,6 +92,38 @@
       pct: pct,
       completed: pct === 100,
       detail: "Test " + testStr + " · Task " + (taskDone ? "done" : "not yet")
+    };
+  }
+
+  // Distinct live-coding challenge ids this student has passed (clamped to the
+  // known catalog so stray/old ids can't push the count past the total).
+  function doneChallengeSet(rows, allowedIds) {
+    var allow = allowedIds ? {} : null;
+    if (allowedIds) allowedIds.forEach(function (id) { allow[id] = true; });
+    var set = {};
+    rows.forEach(function (r) {
+      if (r.quiz_name !== "livecoding") return;
+      var id = r.answers && r.answers.challenge;
+      if (id && (!allow || allow[id])) set[id] = true;
+    });
+    return set;
+  }
+
+  function computeLivecodingAll(ids) {
+    return function (rows) {
+      var n = Object.keys(doneChallengeSet(rows, ids)).length;
+      var total = ids.length;
+      var pct = total ? Math.round((n / total) * 100) : 0;
+      return { pct: pct, completed: total > 0 && n >= total, detail: n + " / " + total + " challenges" };
+    };
+  }
+
+  function computeChallenge(id) {
+    return function (rows) {
+      var done = rows.some(function (r) {
+        return r.quiz_name === "livecoding" && r.answers && r.answers.challenge === id;
+      });
+      return { pct: done ? 100 : 0, completed: done, detail: done ? "done" : "not yet" };
     };
   }
 
@@ -211,7 +272,7 @@
   async function refresh() {
     var cls = el("teacher-class").value;
     var taskKey = el("teacher-task").value;
-    var task = TASKS.filter(function (t) { return t.key === taskKey; })[0];
+    var task = ALL_TASKS.filter(function (t) { return t.key === taskKey; })[0];
     if (!cls || !task) return;
     el("teacher-status").textContent = "Loading…";
     el("teacher-summary").hidden = true;
@@ -229,9 +290,21 @@
         "This page needs the Supabase database (it is offline right now).";
       return;
     }
+    buildTasks();
     var taskSel = el("teacher-task");
-    taskSel.innerHTML = TASKS.map(function (t) {
-      return '<option value="' + t.key + '">' + escapeHtml(t.label) + '</option>';
+    var groups = [];
+    var byGroup = {};
+    ALL_TASKS.forEach(function (t) {
+      var g = t.group || "Other";
+      if (!byGroup[g]) { byGroup[g] = []; groups.push(g); }
+      byGroup[g].push(t);
+    });
+    taskSel.innerHTML = groups.map(function (g) {
+      return '<optgroup label="' + escapeHtml(g) + '">' +
+        byGroup[g].map(function (t) {
+          return '<option value="' + escapeHtml(t.key) + '">' + escapeHtml(t.label) + '</option>';
+        }).join("") +
+        '</optgroup>';
     }).join("");
 
     try {

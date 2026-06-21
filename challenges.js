@@ -414,6 +414,15 @@
   // and scoreboard. Everything else is a free-play challenge.
   const PUBLIC_CHALLENGES = CHALLENGES.filter(function (c) { return !c.module; });
 
+  // Lightweight catalog (id/title/tier) of the public Live Coding challenges,
+  // exposed so other pages (e.g. the teacher export) can list them without
+  // duplicating the definitions. Set early, before any DOM lookups bail out.
+  try {
+    window.ITBASICS_CHALLENGE_CATALOG = PUBLIC_CHALLENGES.map(function (c) {
+      return { id: c.id, title: c.title, tier: c.tier };
+    });
+  } catch (e) {}
+
   // ---- Grading checks -------------------------------------------------------
   function norm(s) { return String(s || "").toLowerCase(); }
   function pass(why) { return { pass: true, why: why || "Looks good." }; }
