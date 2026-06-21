@@ -446,6 +446,36 @@ img { max-width: 100%; display: block; }
   font-size: 0.97rem;
 }
 
+.key-points {
+  list-style: none;
+  padding: 0;
+  margin: 8px 0 16px;
+  display: grid;
+  gap: 8px;
+}
+.key-points li {
+  background: #f6f8fc;
+  border: 1px solid var(--border);
+  border-left: 4px solid #7c5cff;
+  border-radius: var(--radius-sm);
+  padding: 10px 14px;
+  font-size: 0.97rem;
+}
+
+.lesson-step-tag {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 8px;
+  padding: 2px 10px;
+  border-radius: 999px;
+  background: #ece7ff;
+  color: #5b3fd6;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
 .try-box {
   background: #eef6ff;
   border: 1px solid #c8dcf3;
@@ -2437,3 +2467,49 @@ kbd {
   content: ""; display: inline-block; width: 0.62em; height: 0.62em; border-radius: 50%;
   background: var(--wc-c); border: 1px solid rgba(0, 0, 0, 0.2); margin-right: 0.32em; vertical-align: middle;
 }
+
+/* ---- Teacher export page ------------------------------------------------- */
+.teacher-gate {
+  max-width: 460px;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 22px 24px;
+}
+.teacher-gate-form { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+.teacher-gate-form label { width: 100%; font-weight: 600; }
+
+.teacher-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+.teacher-field { display: flex; flex-direction: column; gap: 4px; font-weight: 600; }
+.teacher-field span { font-size: 0.85rem; color: var(--muted); }
+.teacher-select {
+  min-width: 220px;
+  padding: 9px 12px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: #fff;
+  font: inherit;
+}
+.teacher-actions { display: flex; gap: 10px; margin-left: auto; }
+
+.teacher-status { color: var(--muted); margin: 6px 0; }
+.teacher-summary {
+  background: #f0edff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 10px 14px;
+  margin-bottom: 14px;
+}
+
+.table-wrap { overflow-x: auto; }
+.teacher-table td, .teacher-table th { white-space: nowrap; }
+.teacher-table .col-rank { color: var(--muted); }
+.teacher-yes { color: #1f9d55; font-weight: 700; }
+.teacher-no { color: #c0392b; font-weight: 700; }
+.teacher-detail { color: var(--muted); white-space: normal; }

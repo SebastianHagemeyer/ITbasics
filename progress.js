@@ -9,6 +9,7 @@
     { key: "programming", label: "Programming",    href: "/topics/programming/" },
     { key: "html",        label: "HTML",           href: "/topics/html/" },
     { key: "python",      label: "Python",         href: "/topics/python/" },
+    { key: "decisions",   label: "Making Decisions", href: "/topics/decisions/" },
     { key: "binary",      label: "Binary & Data",  href: "/topics/binary/" },
     { key: "codes",       label: "Codes & Colour", href: "/topics/codes/" },
     { key: "systems",     label: "Digital Systems", href: "/topics/systems/" },
@@ -36,7 +37,7 @@
       if (res.error) return { error: res.error.message, rows: [] };
       return { rows: res.data || [] };
     }
-    var names = ["programming", "html", "python", "binary", "codes", "systems", "networks", "os", "freeplay", "livecoding"];
+    var names = ["programming", "html", "python", "decisions", "decisions-task", "binary", "codes", "systems", "networks", "os", "freeplay", "livecoding"];
     var rows = [];
     names.forEach(function (name) {
       var raw = localStorage.getItem("itbasics-attempts-" + student.code + "-" + name);
@@ -61,6 +62,29 @@
       modules[m.key] = { attempted: true, best: best.score, total: total, attempts: mine.length };
     });
 
+    // Making Decisions blends two halves: the quick test (quiz_name "decisions",
+    // worth 50%) and the coding task (quiz_name "decisions-task", worth 50%).
+    // Half marks if you do one, 100% only when both are done.
+    var decTestRows = rows.filter(function (r) { return r.quiz_name === "decisions"; });
+    var decTaskDone = rows.some(function (r) {
+      return r.quiz_name === "decisions-task" && r.answers && r.answers.challenge;
+    });
+    var testBest = 0, testTotal = 0, testPct = 0;
+    if (decTestRows.length) {
+      var db = decTestRows.reduce(function (a, r) { return r.score > a.score ? r : a; }, decTestRows[0]);
+      testTotal = decTestRows.reduce(function (t, r) { return Math.max(t, r.total || 0); }, 0);
+      testBest = db.score;
+      testPct = testTotal ? Math.round((testBest / testTotal) * 100) : 0;
+    }
+    var attemptedDec = decTestRows.length > 0 || decTaskDone;
+    modules.decisions = {
+      attempted: attemptedDec,
+      pct: Math.round(0.5 * testPct + 0.5 * (decTaskDone ? 100 : 0)),
+      note: attemptedDec
+        ? ("Test " + testBest + "/" + (testTotal || 6) + " · Task " + (decTaskDone ? "done" : "not yet"))
+        : "Take the quick check and the coding task"
+    };
+
     var freeplay = rows
       .filter(function (r) { return r.quiz_name === "freeplay"; })
       .reduce(function (s, r) { return s + (r.score || 0); }, 0);
@@ -75,19 +99,25 @@
   }
 
   function moduleCard(m, data) {
-    var pct = data.attempted && data.total ? Math.round((data.best / data.total) * 100) : 0;
+    // Most modules derive % from best/total; some (Making Decisions) supply a
+    // pre-blended pct and a custom note.
+    var pct = data.pct != null
+      ? data.pct
+      : (data.attempted && data.total ? Math.round((data.best / data.total) * 100) : 0);
     var state, right, note;
     if (!data.attempted) {
       state = "todo";
       right = '<span class="progress-quiz-state">Not tried</span>';
-      note = "No test taken yet";
+      note = data.note || "No test taken yet";
     } else {
       var perfect = pct === 100;
       state = perfect ? "perfect" : "done";
       right =
         '<span class="progress-quiz-score">' + pct + '%</span>' +
         '<span class="progress-quiz-state ' + state + '">' + (perfect ? "Perfect!" : "Done") + '</span>';
-      note = "Best " + data.best + "/" + data.total + (data.attempts > 1 ? " · " + data.attempts + " tries" : "");
+      note = data.note != null
+        ? data.note
+        : "Best " + data.best + "/" + data.total + (data.attempts > 1 ? " · " + data.attempts + " tries" : "");
     }
     return (
       '<a class="progress-quiz ' + state + '" href="' + m.href + '">' +

@@ -9,3 +9,8 @@
 
 window.SUPABASE_URL      = "https://wjajffetmzylqghmezez.supabase.co";
 window.SUPABASE_ANON_KEY = "sb_publishable_Esqv1g5FhX8wYbfb17XdKA_bAoasYdt";
+
+// Passphrase for the teacher export page (/teacher/). This is only a speed
+// bump so students don't casually open it - the anon key above can already
+// read all scores, so it is NOT real security. Change it to whatever you like.
+window.TEACHER_PASSCODE = "hallam-staff";

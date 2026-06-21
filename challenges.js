@@ -151,6 +151,31 @@
         { label: "Age 7 (refused)", inputs: ["7"], check: function (r) { return checkAge(r, false); } }
       ]
     },
+    {
+      // The "Making Decisions" module task. Same idea as Age checker, but it
+      // records under its own quiz_name (recordAs) so passing it counts towards
+      // completing the Making Decisions module (see progress.js / teacher.js).
+      // It is embedded on /topics/decisions/ via window.CHALLENGE_ONLY.
+      id: "decisions-age",
+      tier: "beginner",
+      module: "decisions",
+      recordAs: "decisions-task",
+      title: "Old enough to sign up?",
+      brief: "Use if / else to decide if someone is old enough to sign up.",
+      detail: "Read an age with <code>int(input(...))</code>. Our app is for ages <strong>13 and over</strong>. Use an <code>if</code> / <code>else</code> with <code>&gt;=</code> to either let them in or turn them away.",
+      accept: 'If the age is 13 or more, clearly allow it (e.g. "you can sign up"). Under 13, clearly refuse it (e.g. "you can\'t" / "too young").',
+      starter:
+        '# Old enough to sign up?\n' +
+        'age = int(input("How old are you? "))\n' +
+        '# Our app is for ages 13 and over.\n' +
+        '# Use if / else to allow them or turn them away.\n',
+      tests: [
+        { label: "Age 15 (allowed)", inputs: ["15"], check: function (r) { return checkAge(r, true); } },
+        { label: "Age 13 (allowed, boundary)", inputs: ["13"], check: function (r) { return checkAge(r, true); } },
+        { label: "Age 12 (refused, boundary)", inputs: ["12"], check: function (r) { return checkAge(r, false); } },
+        { label: "Age 8 (refused)", inputs: ["8"], check: function (r) { return checkAge(r, false); } }
+      ]
+    },
 
     // -------- Intermediate --------
     {
@@ -374,6 +399,20 @@
       ]
     }
   ];
+
+  // Every quiz_name a challenge pass can be saved under. Most save under
+  // "livecoding"; module-linked tasks add their own (e.g. "decisions-task").
+  // loadPassed() reads all of these so ticks show up wherever a challenge runs.
+  const RECORD_NAMES = (function () {
+    const set = { livecoding: true };
+    CHALLENGES.forEach(function (c) { if (c.recordAs) set[c.recordAs] = true; });
+    return Object.keys(set);
+  })();
+
+  // Challenges tagged with a "module" belong to that module's page (embedded via
+  // window.CHALLENGE_ONLY) and are hidden from the public Live Coding tab list
+  // and scoreboard. Everything else is a free-play challenge.
+  const PUBLIC_CHALLENGES = CHALLENGES.filter(function (c) { return !c.module; });
 
   // ---- Grading checks -------------------------------------------------------
   function norm(s) { return String(s || "").toLowerCase(); }
@@ -744,7 +783,10 @@ del _sandbox_install_input, _b
   let loadingPromise = null;
   let jar = null;
   let busy = false;
-  let current = CHALLENGES[0];
+  // Embedded mode: a host page (e.g. /topics/decisions/) sets window.CHALLENGE_ONLY
+  // to a challenge id and omits the tabs/scoreboard markup, so a single challenge
+  // runs inline. challengeById is hoisted, so it is safe to call here.
+  let current = (window.CHALLENGE_ONLY && challengeById(window.CHALLENGE_ONLY)) || CHALLENGES[0];
   let passed = new Set();
   let codeMap = loadCodeMap();
 
@@ -959,7 +1001,9 @@ del _sandbox_install_input, _b
       renderTabs();
       renderScoreboard();
       if (window.ITBasics && window.ITBasics.getSession()) {
-        window.ITBasics.saveAttempt(QUIZ_NAME, 1, 1, { challenge: ch.id, code: code });
+        // Module-linked tasks record under their own quiz_name (recordAs) so
+        // they count towards that module; everything else is generic livecoding.
+        window.ITBasics.saveAttempt(ch.recordAs || QUIZ_NAME, 1, 1, { challenge: ch.id, code: code });
       }
     }
     renderResults({ rows: rows, allPass: allPass, challenge: ch });
@@ -967,9 +1011,10 @@ del _sandbox_install_input, _b
 
   // ---- Rendering ------------------------------------------------------------
   function renderTabs() {
+    if (!tabsEl) return; // embedded single-challenge mode has no tab strip
     tabsEl.innerHTML = "";
     const byTier = { beginner: [], intermediate: [], stretch: [] };
-    CHALLENGES.forEach(function (ch) {
+    PUBLIC_CHALLENGES.forEach(function (ch) {
       const tier = ch.tier || "stretch";
       (byTier[tier] || byTier.stretch).push(ch);
     });
@@ -1018,8 +1063,9 @@ del _sandbox_install_input, _b
       '<p class="challenge-accept"><span class="challenge-accept-tag">To pass</span> ' + current.accept + '</p>';
   }
   function renderScoreboard() {
-    const total = CHALLENGES.length;
-    const done = CHALLENGES.filter(function (c) { return passed.has(c.id); }).length;
+    if (!scoreboardEl) return; // embedded single-challenge mode has no scoreboard
+    const total = PUBLIC_CHALLENGES.length;
+    const done = PUBLIC_CHALLENGES.filter(function (c) { return passed.has(c.id); }).length;
     const signedIn = window.ITBasics && window.ITBasics.getSession();
     let html =
       '<div class="challenge-progress">' +
@@ -1065,7 +1111,7 @@ del _sandbox_install_input, _b
     if (busy) return;
     if (jar) { codeMap[current.id] = jar.toString(); saveCodeMap(); }
     current = challengeById(id) || CHALLENGES[0];
-    fileEl.textContent = current.id + ".py";
+    if (fileEl) fileEl.textContent = current.id + ".py";
     setCode(codeFor(current));
     clearOut();
     renderResults(null);
@@ -1090,17 +1136,19 @@ del _sandbox_install_input, _b
       try {
         const sb = window.ITBasics.client();
         const res = await sb.from("quiz_attempts").select("answers")
-          .eq("student_code", s.code).eq("quiz_name", QUIZ_NAME);
+          .eq("student_code", s.code).in("quiz_name", RECORD_NAMES);
         (res.data || []).forEach(function (r) {
           const c = r.answers && r.answers.challenge;
           if (c) out.add(c);
         });
       } catch (e) {}
     } else {
-      try {
-        const arr = JSON.parse(localStorage.getItem("itbasics-attempts-" + s.code + "-" + QUIZ_NAME) || "[]");
-        arr.forEach(function (a) { const c = a.answers && a.answers.challenge; if (c) out.add(c); });
-      } catch (e) {}
+      RECORD_NAMES.forEach(function (name) {
+        try {
+          const arr = JSON.parse(localStorage.getItem("itbasics-attempts-" + s.code + "-" + name) || "[]");
+          arr.forEach(function (a) { const c = a.answers && a.answers.challenge; if (c) out.add(c); });
+        } catch (e) {}
+      });
     }
     return out;
   }
@@ -1121,7 +1169,7 @@ del _sandbox_install_input, _b
   if (clearBtn) clearBtn.addEventListener("click", clearOut);
 
   async function boot() {
-    fileEl.textContent = current.id + ".py";
+    if (fileEl) fileEl.textContent = current.id + ".py";
     initEditor();
     renderTabs();
     renderBrief();
