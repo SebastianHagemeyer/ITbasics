@@ -549,6 +549,12 @@ img { max-width: 100%; display: block; }
   min-width: 110px;
 }
 .snippet-input:focus { outline: none; border-color: var(--accent); }
+.snippet-set-wrap { display: inline-flex; align-items: center; gap: 6px; }
+.snippet-set-label { font-size: 0.82rem; color: var(--muted); }
+.snippet-set-label code { font-size: 0.9em; }
+.snippet-set-input { min-width: 64px; }
+/* the live-linked value inside the code block */
+.snippet-set { border-radius: 3px; padding: 0 3px; background: rgba(130, 170, 255, 0.18); }
 .snippet-run {
   display: inline-flex;
   align-items: center;

@@ -39,6 +39,37 @@
     var bar = document.createElement("div");
     bar.className = "snippet-bar";
 
+    // Live "Set x = …" controls: each .snippet-set token in the code is editable.
+    // Changing it rewrites the value shown in the code above, so Run uses it.
+    var sets = pre.querySelectorAll(".snippet-set");
+    for (var si = 0; si < sets.length; si++) {
+      (function (span) {
+        var def = span.textContent.trim();
+        var wrap = document.createElement("label");
+        wrap.className = "snippet-set-wrap";
+        var lab = document.createElement("span");
+        lab.className = "snippet-set-label";
+        lab.appendChild(document.createTextNode("Set "));
+        var nm = document.createElement("code");
+        nm.textContent = span.getAttribute("data-label") || "value";
+        lab.appendChild(nm);
+        lab.appendChild(document.createTextNode(" ="));
+        var inp = document.createElement("input");
+        inp.type = (def !== "" && !isNaN(Number(def))) ? "number" : "text";
+        inp.className = "snippet-input snippet-set-input";
+        inp.value = def;
+        inp.spellcheck = false;
+        inp.autocomplete = "off";
+        inp.addEventListener("input", function () { span.textContent = inp.value; });
+        inp.addEventListener("keydown", function (e) {
+          if (e.key === "Enter") { e.preventDefault(); go(); }
+        });
+        wrap.appendChild(lab);
+        wrap.appendChild(inp);
+        bar.appendChild(wrap);
+      })(sets[si]);
+    }
+
     // Editable input box for input() snippets, seeded with the example value(s).
     var field = null;
     var defaults = defaultsOf(pre);
