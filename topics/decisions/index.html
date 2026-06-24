@@ -114,7 +114,7 @@
         <section id="if">
           <h2>3. The if statement</h2>
           <p>An <code>if</code> runs the indented code <strong>only when its condition is True</strong>. Two things matter: the <strong>colon</strong> at the end of the <code>if</code> line, and the <strong>indentation</strong> (4 spaces) that marks the body.</p>
-          <pre class="code">age <span class="c-op">=</span> <span class="c-num">15</span>
+          <pre class="code" data-norun>age <span class="c-op">=</span> <span class="c-num">15</span>
 <span class="c-keyword">if</span> age <span class="c-op">&gt;=</span> <span class="c-num">13</span><span class="c-op">:</span>
     <span class="c-keyword">print</span>(<span class="c-string">"You are old enough."</span>)</pre>
           <div class="preview">
@@ -127,7 +127,7 @@
         <section id="else">
           <h2>4. if / else</h2>
           <p><code>else</code> covers <em>everything the <code>if</code> did not</em>. Exactly one of the two blocks runs.</p>
-          <pre class="code">age <span class="c-op">=</span> <span class="c-keyword">int</span>(<span class="c-keyword">input</span>(<span class="c-string">"How old are you? "</span>))
+          <pre class="code" data-inputs='["15"]'>age <span class="c-op">=</span> <span class="c-keyword">int</span>(<span class="c-keyword">input</span>(<span class="c-string">"How old are you? "</span>))
 
 <span class="c-keyword">if</span> age <span class="c-op">&gt;=</span> <span class="c-num">13</span><span class="c-op">:</span>
     <span class="c-keyword">print</span>(<span class="c-string">"You can sign up."</span>)
@@ -141,7 +141,7 @@
         <section id="secret">
           <h2>5. Worked example: secret-word game</h2>
           <p>This pulls Lesson 1 (<code>input()</code>) and today&rsquo;s lesson (<code>if</code> / <code>else</code> with <code>==</code>) together.</p>
-          <pre class="code">secret <span class="c-op">=</span> <span class="c-string">"python"</span>
+          <pre class="code" data-inputs='["python"]'>secret <span class="c-op">=</span> <span class="c-string">"python"</span>
 guess <span class="c-op">=</span> <span class="c-keyword">input</span>(<span class="c-string">"Guess the secret word: "</span>)
 
 <span class="c-keyword">if</span> guess <span class="c-op">==</span> secret<span class="c-op">:</span>
@@ -275,5 +275,6 @@ guess <span class="c-op">=</span> <span class="c-keyword">input</span>(<span cla
   <script src="/moduletest.js"></script>
   <script src="/challenges.js"></script>
   <script src="/code-maximise.js"></script>
+  <script src="/snippet-run.js"></script>
 </body>
 </html>

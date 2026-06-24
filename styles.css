@@ -533,6 +533,34 @@ img { max-width: 100%; display: block; }
 .preview-body { margin: 0; }
 .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
 
+/* Runnable lesson snippets (snippet-run.js): a Run button + output panel added
+   under a read-only <pre class="code"> so readers can see what it does. */
+.snippet-bar { display: flex; justify-content: flex-end; margin: -6px 0 0; }
+.snippet-run {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 5px 13px;
+  font-size: 0.82rem;
+  border-radius: 8px;
+}
+.snippet-run-icon { display: block; flex: none; }
+.snippet-run.is-busy { opacity: 0.7; cursor: progress; }
+.snippet-output {
+  margin: 10px 0 16px;
+  padding: 14px 18px;
+  background: var(--code-bg);
+  color: var(--code-text);
+  border-radius: var(--radius-sm);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  overflow-x: auto;
+}
+.snippet-output.is-loading { color: var(--muted); font-style: italic; }
+.snippet-output.is-error { color: #ff8a8a; }
+
 .lesson-nav {
   display: flex;
   justify-content: space-between;

@@ -134,7 +134,7 @@
         <section id="while">
           <h2>5. The while loop</h2>
           <p>A <code>while</code> loop keeps repeating <strong>as long as a condition is True</strong>. Use it when you don&rsquo;t know how many goes it will take &mdash; like asking for a password until the user gets it right:</p>
-          <pre class="code">password <span class="c-op">=</span> <span class="c-string">""</span>
+          <pre class="code" data-inputs='["wrong","swordfish"]'>password <span class="c-op">=</span> <span class="c-string">""</span>
 
 <span class="c-keyword">while</span> password <span class="c-op">!=</span> <span class="c-string">"swordfish"</span><span class="c-op">:</span>
     password <span class="c-op">=</span> <span class="c-keyword">input</span>(<span class="c-string">"Password? "</span>)
@@ -146,7 +146,7 @@
         <section id="infinite">
           <h2>6. Watch out: infinite loops</h2>
           <p>A <code>while</code> loop only stops when its condition becomes False. If nothing inside the loop ever changes that condition, it runs <strong>forever</strong> &mdash; an <em>infinite loop</em>:</p>
-          <pre class="code">count <span class="c-op">=</span> <span class="c-num">0</span>
+          <pre class="code" data-norun>count <span class="c-op">=</span> <span class="c-num">0</span>
 
 <span class="c-keyword">while</span> count <span class="c-op">&lt;</span> <span class="c-num">5</span><span class="c-op">:</span>
     <span class="c-keyword">print</span>(count)
@@ -309,5 +309,6 @@
   <script src="/moduletest.js"></script>
   <script src="/challenges.js"></script>
   <script src="/code-maximise.js"></script>
+  <script src="/snippet-run.js"></script>
 </body>
 </html>

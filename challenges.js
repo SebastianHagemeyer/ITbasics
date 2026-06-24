@@ -977,8 +977,11 @@ del _sandbox_install_input, _b
     if (pyodide) return pyodide;
     if (loadingPromise) return loadingPromise;
     loadingPromise = (async function () {
-      if (announce) { setRunLabel("Loading Python…", true); appendOut("Loading Python runtime (one-time, ~10 MB)…", "info"); }
-      setCheckBusy(true, "Loading…");
+      if (announce) {
+        setRunLabel("Loading Python…", true);
+        appendOut("Loading Python runtime (one-time, ~10 MB)…", "info");
+        setCheckBusy(true, "Loading…");
+      }
       await loadPyodideScript();
       pyodide = await window.loadPyodide({
         indexURL: "https://cdn.jsdelivr.net/pyodide/v" + PYODIDE_VERSION + "/full/"
@@ -1239,6 +1242,27 @@ del _sandbox_install_input, _b
     editor.focus();
   });
   if (clearBtn) clearBtn.addEventListener("click", clearOut);
+
+  // Expose a tiny shared runner for read-only lesson snippets (snippet-run.js).
+  // Reuses the shared Pyodide and the sandboxed grader, behind the same page lock
+  // so a snippet and a coding task never execute at once. Registered once.
+  if (!window.ITCode) {
+    window.ITCode = {
+      run: async function (code, inputs) {
+        if (pageBusy) return { error: "Busy — let the current run finish, then try again." };
+        pageBusy = true; active = null;
+        try {
+          const py = await ensurePyodide(false);
+          py.globals.set("_code", String(code));
+          py.globals.set("_inputs", JSON.stringify(inputs || []));
+          py.globals.set("_force", "null");
+          return JSON.parse(py.runPython("_run_student(_code, _inputs, _force)"));
+        } finally {
+          pageBusy = false;
+        }
+      }
+    };
+  }
 
   async function boot() {
     if (fileEl) fileEl.textContent = current.id + ".py";
