@@ -1119,6 +1119,60 @@ html[data-auth="out"] .site-footer { display: none; }
   color: white;
 }
 
+/* ---- Maximise / full-screen focus mode for code shells (code-maximise.js) - */
+.code-maximise { display: inline-flex; align-items: center; gap: 6px; }
+.code-maximise-icon { display: block; flex: none; }
+
+.sandbox-shell.is-maximised {
+  position: fixed;
+  inset: 0;
+  z-index: 50;                 /* above the sticky header (10), below toasts (100) */
+  margin: 0;
+  padding: 16px;
+  gap: 16px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: minmax(0, 1fr) auto;
+  background: rgba(9, 13, 21, 0.92);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  animation: codeMaxFade 0.16s ease-out;
+}
+/* Panels fill the overlay height instead of their fixed min-height. */
+.sandbox-shell.is-maximised > .sandbox-editor,
+.sandbox-shell.is-maximised > .sandbox-output {
+  min-height: 0;
+  height: 100%;
+}
+/* A pulled-in results panel spans the full width beneath the two panes. */
+.sandbox-shell.is-maximised > .challenge-results {
+  grid-column: 1 / -1;
+  margin: 0;
+  max-height: 32vh;
+  overflow: auto;
+}
+body.has-maximised-code { overflow: hidden; }
+
+@keyframes codeMaxFade { from { opacity: 0; } to { opacity: 1; } }
+
+/* On phones the panes stack and the overlay scrolls, so each stays roomy. */
+@media (max-width: 760px) {
+  .sandbox-shell.is-maximised {
+    grid-template-columns: 1fr;
+    grid-template-rows: none;
+    grid-auto-rows: auto;
+    overflow-y: auto;
+  }
+  .sandbox-shell.is-maximised > .sandbox-editor,
+  .sandbox-shell.is-maximised > .sandbox-output {
+    height: auto;
+    min-height: 60vh;
+  }
+  .sandbox-shell.is-maximised > .challenge-results { max-height: none; }
+}
+@media (max-width: 520px) {
+  .code-maximise-label { display: none; }
+}
+
 .sandbox-out-body .out-stdout { color: var(--code-text); }
 .sandbox-out-body .out-stderr { color: #ff8a8a; }
 .sandbox-out-body .out-info   { color: #8b92b0; font-style: italic; }
