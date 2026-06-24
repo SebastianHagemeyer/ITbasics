@@ -36,6 +36,12 @@
     if (pre.dataset.runReady) return; // idempotent
     pre.dataset.runReady = "1";
 
+    // Optional colour map: { "exact message": "green" } paints matching text in
+    // the output. Kept in the markup so the lesson code stays plain Python.
+    var colourMap = null;
+    var rawColour = pre.getAttribute("data-colour");
+    if (rawColour) { try { colourMap = JSON.parse(rawColour); } catch (e) { colourMap = null; } }
+
     var bar = document.createElement("div");
     bar.className = "snippet-bar";
 
@@ -113,10 +119,27 @@
       btn.classList.toggle("is-busy", !!running);
       btn.disabled = !!running;
     }
+    function escHtml(s) {
+      return String(s).replace(/[&<>]/g, function (c) {
+        return c === "&" ? "&amp;" : c === "<" ? "&lt;" : "&gt;";
+      });
+    }
+    function colourise(text) {
+      var html = escHtml(text);
+      Object.keys(colourMap).forEach(function (msg) {
+        var safe = escHtml(msg);
+        if (safe) html = html.split(safe).join('<span class="out-' + colourMap[msg] + '">' + safe + "</span>");
+      });
+      return html;
+    }
     function show(text, kind) {
       out.hidden = false;
       out.className = "snippet-output" + (kind ? " is-" + kind : "");
-      out.textContent = text;
+      if (colourMap && kind !== "error" && kind !== "loading") {
+        out.innerHTML = colourise(text);
+      } else {
+        out.textContent = text;
+      }
     }
     function readInputs() {
       if (!field) return [];

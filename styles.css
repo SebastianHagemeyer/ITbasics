@@ -579,6 +579,10 @@ img { max-width: 100%; display: block; }
 }
 .snippet-output.is-loading { color: var(--muted); font-style: italic; }
 .snippet-output.is-error { color: #ff8a8a; }
+.snippet-output .out-green  { color: #5fdd8f; }
+.snippet-output .out-red    { color: #ff8a8a; }
+.snippet-output .out-yellow { color: #ffd166; }
+.snippet-output .out-blue   { color: #82aaff; }
 
 .lesson-nav {
   display: flex;
