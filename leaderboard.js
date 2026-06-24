@@ -4,6 +4,9 @@
   let cachedRows = null;
   let currentClass = "7A";
   let currentMode = "quiz"; // "quiz" | "livecoding" | "freeplay"
+  let todayOnly = false;    // "Today" toggle: count only scores made today
+  let todayRows = null;     // aggregated today-only scores (lazy, refreshed live)
+  let todayTimer = null;    // auto-refresh interval while Today is active
 
   async function loadRows() {
     const status = document.getElementById("leaderboard-status");
@@ -37,6 +40,72 @@
     });
   }
 
+  // Whichever dataset is on screen: the live "Today" aggregate or the all-time view.
+  function activeRows() { return todayOnly ? todayRows : cachedRows; }
+
+  // "Today" board: aggregate just today's attempts (the teacher's local day)
+  // client-side, reusing names/class from the all-time rows. The time filter
+  // keeps the row count small, but we page through anyway so a busy day can't
+  // silently truncate at PostgREST's 1000-row cap.
+  async function loadTodayRows() {
+    if (!window.ITBasics || !window.ITBasics.isOnline()) return [];
+    const sb = window.ITBasics.client();
+    const start = new Date();
+    start.setHours(0, 0, 0, 0);
+    const startISO = start.toISOString();
+
+    const nameMap = {};
+    (cachedRows || []).forEach(function (r) {
+      nameMap[r.code] = { first_name: r.first_name, last_name: r.last_name, class: r.class };
+    });
+
+    const agg = {};
+    const PAGE = 1000;
+    let from = 0;
+    while (true) {
+      const res = await sb.from("quiz_attempts")
+        .select("student_code, quiz_name, score, answers")
+        .gte("attempted_at", startISO)
+        .order("id", { ascending: true })
+        .range(from, from + PAGE - 1);
+      if (res.error) break;
+      const data = res.data || [];
+      data.forEach(function (a) {
+        const m = agg[a.student_code] || (agg[a.student_code] = { scores: {}, freeplay: 0, ch: {} });
+        if (a.quiz_name === "freeplay") {
+          m.freeplay += (a.score || 0);
+        } else if (a.quiz_name === "livecoding") {
+          const ch = a.answers && a.answers.challenge;
+          if (ch) m.ch[ch] = true;
+        } else if (a.quiz_name === "programming" || a.quiz_name === "html" ||
+                   a.quiz_name === "python" || a.quiz_name === "mixed") {
+          m.scores[a.quiz_name] = Math.max(m.scores[a.quiz_name] || 0, a.score || 0);
+        }
+      });
+      if (data.length < PAGE) break;
+      from += PAGE;
+    }
+
+    return Object.keys(agg).map(function (code) {
+      const info = nameMap[code] || { first_name: "Unknown", last_name: "", class: "?" };
+      const m = agg[code];
+      return {
+        code: code,
+        first_name: info.first_name,
+        last_name: info.last_name,
+        class: info.class,
+        scores: {
+          programming: m.scores.programming,
+          html: m.scores.html,
+          python: m.scores.python,
+          mixed: m.scores.mixed
+        },
+        freeplay: m.freeplay,
+        livecoding: Object.keys(m.ch).length
+      };
+    });
+  }
+
   // The ranking metric depends on the mode. Quiz total covers only the four
   // structured quizzes - Freeplay has its own board now.
   function quizTotal(r) {
@@ -59,9 +128,10 @@
     // Mr H: untouchable, always on top, regardless of class filter or data state.
     body.appendChild(buildTeacherRow());
 
-    if (!cachedRows) { status.textContent = "Loading…"; appendGremlinRows(body); return; }
+    const source = activeRows();
+    if (!source) { status.textContent = todayOnly ? "Loading today's scores…" : "Loading…"; appendGremlinRows(body); return; }
 
-    let rows = cachedRows;
+    let rows = source;
     // Teacher accounts never appear in the regular rankings - Mr H lives in
     // his own pinned row above. The TEST class (gremlin test account) is
     // hidden too, so testing never pollutes the standings.
@@ -78,7 +148,7 @@
     });
 
     if (!rows.length) { status.textContent = emptyMessage(); appendGremlinRows(body); return; }
-    status.textContent = "";
+    status.textContent = todayOnly ? "Today only · updates live" : "";
 
     const session = window.ITBasics && window.ITBasics.getSession();
     const myCode = session ? session.code : null;
@@ -109,10 +179,11 @@
   // in its own row at the bottom with its real scores and no rank number, so
   // it can't bump or affect the real standings.
   function appendGremlinRows(body) {
-    if (!cachedRows) return;
+    const source = activeRows();
+    if (!source) return;
     const session = window.ITBasics && window.ITBasics.getSession();
     const myCode = session ? session.code : null;
-    cachedRows.filter(function (r) { return r.class === "TEST"; }).forEach(function (r) {
+    source.filter(function (r) { return r.class === "TEST"; }).forEach(function (r) {
       const tr = document.createElement("tr");
       tr.className = "gremlin" + (r.code === myCode ? " me" : "");
       const name = escapeHtml(r.first_name) + " " + escapeHtml(r.last_name) +
@@ -178,9 +249,10 @@
     const what = currentMode === "livecoding" ? "cracked a challenge"
                : currentMode === "freeplay"   ? "tried Freeplay"
                :                                "tried a quiz";
+    const when = todayOnly ? " today" : "";
     return currentClass === "ALL"
-      ? "No one has " + what + " yet. Be the first!"
-      : "No one in " + currentClass + " has " + what + " yet. You could be first!";
+      ? "No one has " + what + when + " yet. Be the first!"
+      : "No one in " + currentClass + " has " + what + when + " yet. You could be first!";
   }
 
   function scoreCell(v) {
@@ -229,9 +301,44 @@
     });
   }
 
+  function startTodayRefresh() {
+    stopTodayRefresh();
+    // Live board: refresh today's scores every 20s so a class challenge updates
+    // on screen without anyone reloading the page.
+    todayTimer = window.setInterval(async function () {
+      if (!todayOnly) { stopTodayRefresh(); return; }
+      todayRows = await loadTodayRows();
+      render();
+    }, 20000);
+  }
+  function stopTodayRefresh() {
+    if (todayTimer) { window.clearInterval(todayTimer); todayTimer = null; }
+  }
+
+  function setupPeriodTabs() {
+    const tabs = document.querySelectorAll('[data-tabs="period"] .quiz-tab');
+    tabs.forEach(function (t) {
+      t.addEventListener("click", async function () {
+        tabs.forEach(function (x) { x.classList.remove("active"); });
+        t.classList.add("active");
+        todayOnly = t.dataset.period === "today";
+        if (todayOnly) {
+          document.getElementById("leaderboard-status").textContent = "Loading today's scores…";
+          todayRows = await loadTodayRows();
+          render();
+          startTodayRefresh();
+        } else {
+          stopTodayRefresh();
+          render();
+        }
+      });
+    });
+  }
+
   async function boot() {
     setupModeTabs();
     setupClassTabs();
+    setupPeriodTabs();
     cachedRows = await loadRows();
     render();
   }
@@ -243,6 +350,7 @@
   // Reload when the user signs in/out (mostly relevant if they sign out from the leaderboard).
   window.addEventListener("itbasics:auth", async function () {
     cachedRows = await loadRows();
+    if (todayOnly) todayRows = await loadTodayRows();
     render();
   });
 })();
