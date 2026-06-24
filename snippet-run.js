@@ -1,13 +1,15 @@
 /* snippet-run.js
  *
  * Makes the read-only code snippets in a lesson runnable: it adds a Run button
- * and an output panel under each <pre class="code"> and runs the snippet through
- * the shared Pyodide grader that challenges.js exposes as window.ITCode.run.
- * The code stays uneditable — this only shows what it does.
+ * (and, for input() snippets, an editable input box) under each
+ * <pre class="code"> and runs the snippet through the shared Pyodide grader
+ * that challenges.js exposes as window.ITCode.run. The code stays uneditable —
+ * this only runs it and shows the output.
  *
  *   - Opt a snippet OUT with  data-norun  (e.g. a deliberately broken example).
- *   - Give input() snippets scripted answers with  data-inputs='["a","b"]'  so
- *     Run "just works" without the reader having to type.
+ *   - Mark an input() snippet with  data-inputs='["a","b"]' : its value(s) become
+ *     the starting text of an editable input box, so the reader can try their own
+ *     (comma-separated for more than one). Works in every browser.
  *
  * Reusable: drop the <script> on any lesson page that also loads challenges.js.
  * Pyodide is lazy — nothing loads until the reader actually presses Run.
@@ -23,9 +25,9 @@
   // (&lt; -> <, &amp; -> &), leaving real, runnable Python. Trim trailing space.
   function codeOf(pre) { return pre.textContent.replace(/\s+$/, ""); }
 
-  function inputsOf(pre) {
+  function defaultsOf(pre) {
     var raw = pre.getAttribute("data-inputs");
-    if (!raw) return [];
+    if (!raw) return null; // no input() — no input box
     try { var v = JSON.parse(raw); return Array.isArray(v) ? v : []; }
     catch (e) { return []; }
   }
@@ -36,6 +38,28 @@
 
     var bar = document.createElement("div");
     bar.className = "snippet-bar";
+
+    // Editable input box for input() snippets, seeded with the example value(s).
+    var field = null;
+    var defaults = defaultsOf(pre);
+    if (defaults) {
+      var wrap = document.createElement("label");
+      wrap.className = "snippet-input-wrap";
+      var lab = document.createElement("span");
+      lab.className = "snippet-input-label";
+      lab.textContent = "Input";
+      field = document.createElement("input");
+      field.type = "text";
+      field.className = "snippet-input";
+      field.value = defaults.join(", ");
+      field.spellcheck = false;
+      field.autocomplete = "off";
+      if (defaults.length > 1) field.title = "Separate multiple inputs with commas";
+      wrap.appendChild(lab);
+      wrap.appendChild(field);
+      bar.appendChild(wrap);
+    }
+
     var btn = document.createElement("button");
     btn.type = "button";
     btn.className = "btn btn-primary snippet-run";
@@ -63,8 +87,13 @@
       out.className = "snippet-output" + (kind ? " is-" + kind : "");
       out.textContent = text;
     }
+    function readInputs() {
+      if (!field) return [];
+      return field.value.split(",").map(function (s) { return s.trim(); })
+        .filter(function (s) { return s.length; });
+    }
 
-    btn.addEventListener("click", async function () {
+    async function go() {
       if (busy) return;
       if (!window.ITCode || !window.ITCode.run) {
         show("Python isn’t available on this page yet — try again in a moment.", "error");
@@ -74,9 +103,14 @@
       label("Running…", true);
       show("Loading Python… (first run only, ~10 seconds)", "loading");
       try {
-        var res = await window.ITCode.run(codeOf(pre), inputsOf(pre));
+        var res = await window.ITCode.run(codeOf(pre), readInputs());
         var body = res && (res.display != null ? res.display : res.output);
-        if (res && res.error && !body) {
+        if (res && res.error && /EOFError/.test(res.error)) {
+          // Ran out of scripted input — the program asked more times than typed.
+          show((body ? body + "\n" : "") +
+            "⚠ The program asked for more input than you typed. Add another value" +
+            (field ? " (comma-separated)." : "."), "error");
+        } else if (res && res.error && !body) {
           show(res.error, "error");
         } else {
           var text = body || "";
@@ -89,7 +123,14 @@
         label("Run again", false);
         busy = false;
       }
-    });
+    }
+
+    btn.addEventListener("click", go);
+    if (field) {
+      field.addEventListener("keydown", function (e) {
+        if (e.key === "Enter") { e.preventDefault(); go(); }
+      });
+    }
   }
 
   function init() {

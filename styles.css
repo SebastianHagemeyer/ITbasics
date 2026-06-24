@@ -535,7 +535,20 @@ img { max-width: 100%; display: block; }
 
 /* Runnable lesson snippets (snippet-run.js): a Run button + output panel added
    under a read-only <pre class="code"> so readers can see what it does. */
-.snippet-bar { display: flex; justify-content: flex-end; margin: -6px 0 0; }
+.snippet-bar { display: flex; justify-content: flex-end; align-items: center; flex-wrap: wrap; gap: 10px; margin: -6px 0 0; }
+.snippet-input-wrap { display: inline-flex; align-items: center; gap: 6px; }
+.snippet-input-label { font-size: 0.78rem; color: var(--muted); }
+.snippet-input {
+  font: inherit;
+  font-size: 0.85rem;
+  padding: 4px 9px;
+  border: 1px solid var(--border);
+  border-radius: 7px;
+  background: var(--surface);
+  color: var(--text);
+  min-width: 110px;
+}
+.snippet-input:focus { outline: none; border-color: var(--accent); }
 .snippet-run {
   display: inline-flex;
   align-items: center;
