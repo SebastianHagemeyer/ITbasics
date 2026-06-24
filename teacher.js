@@ -16,6 +16,7 @@
   // tasks are built at load time from the challenge catalog (see buildTasks).
   var MODULE_TASKS = [
     { key: "decisions",   label: "Making Decisions (module)", group: "Modules & quizzes", quizzes: ["decisions", "decisions-task"], compute: computeDecisions },
+    { key: "loops",       label: "Loops (module)",            group: "Modules & quizzes", quizzes: ["loops", "loops-for-task", "loops-while-task"], compute: computeLoops },
     { key: "programming", label: "Programming quiz",          group: "Modules & quizzes", quizzes: ["programming"], compute: testCompute("programming") },
     { key: "html",        label: "HTML quiz",                 group: "Modules & quizzes", quizzes: ["html"],        compute: testCompute("html") },
     { key: "python",      label: "Python quiz",               group: "Modules & quizzes", quizzes: ["python"],      compute: testCompute("python") },
@@ -92,6 +93,27 @@
       pct: pct,
       completed: pct === 100,
       detail: "Test " + testStr + " · Task " + (taskDone ? "done" : "not yet")
+    };
+  }
+
+  // Loops blends the quick check (quiz_name "loops", 50%) with two coding tasks
+  // (loops-for-task and loops-while-task, 25% each) — 100% only when all three.
+  function computeLoops(rows) {
+    var b = bestTest(rows, "loops");
+    var testPct = b && b.total ? Math.round((b.score / b.total) * 100) : 0;
+    var forDone = rows.some(function (r) {
+      return r.quiz_name === "loops-for-task" && r.answers && r.answers.challenge;
+    });
+    var whileDone = rows.some(function (r) {
+      return r.quiz_name === "loops-while-task" && r.answers && r.answers.challenge;
+    });
+    var tasksDone = (forDone ? 1 : 0) + (whileDone ? 1 : 0);
+    var pct = Math.round(0.5 * testPct + 25 * tasksDone);
+    var testStr = b ? (b.score + "/" + b.total) : "0/5";
+    return {
+      pct: pct,
+      completed: pct === 100,
+      detail: "Test " + testStr + " · Tasks " + tasksDone + "/2"
     };
   }
 

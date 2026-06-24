@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Loops | Hallam IT Basics</title>
+  <link rel="icon" type="image/svg+xml" href="/logo-binary.svg" />
+  <link rel="apple-touch-icon" href="/logo-binary.svg" />
+  <link rel="stylesheet" href="/styles.css" />
+  <script>
+    (function () {
+      try {
+        if (!JSON.parse(localStorage.getItem("itbasics-session"))) {
+          location.replace("/");
+        }
+      } catch (e) { location.replace("/"); }
+    })();
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/" class="logo">
+        <img class="logo-mark" src="/logo-binary.svg" alt="" width="32" height="32" />
+        <span>Hallam IT Basics</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="/">Home</a>
+        <div class="nav-dropdown" data-open="false">
+          <button type="button" class="nav-dropdown-toggle active" aria-haspopup="true" aria-expanded="false">
+            Topics
+            <svg class="nav-chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="nav-dropdown-menu" role="menu">
+            <a href="/modules/" role="menuitem">All modules</a>
+            <a href="/topics/programming/" role="menuitem">Programming</a>
+            <a href="/topics/html/" role="menuitem">HTML</a>
+            <a href="/topics/python/" role="menuitem">Python</a>
+            <a href="/quizzes/" role="menuitem">Quizzes</a>
+          </div>
+        </div>
+        <div class="nav-dropdown" data-open="false">
+          <button type="button" class="nav-dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+            Play
+            <svg class="nav-chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="nav-dropdown-menu" role="menu">
+            <a href="/freeplay/" role="menuitem">Freeplay</a>
+            <a href="/challenges/" role="menuitem">Live Coding</a>
+            <a href="/sandbox/" role="menuitem">Sandbox</a>
+          </div>
+        </div>
+        <a href="/leaderboard/">Leaderboard</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Python &middot; Lesson 3</p>
+        <h1>Loops</h1>
+        <p class="lead">Computers are brilliant at doing the same thing over and over without getting bored. A <em>loop</em> is how you tell your program to repeat &mdash; either a set number of times, or until something happens.</p>
+      </div>
+    </section>
+
+    <div class="container lesson-layout">
+      <aside class="lesson-toc" aria-label="On this page">
+        <h4>On this page</h4>
+        <ol>
+          <li><a href="#why">Why loops?</a></li>
+          <li><a href="#for">The for loop</a></li>
+          <li><a href="#range">Counting with range</a></li>
+          <li><a href="#through">Looping through things</a></li>
+          <li><a href="#while">The while loop</a></li>
+          <li><a href="#infinite">Avoiding infinite loops</a></li>
+          <li><a href="#test">Quick check</a></li>
+          <li><a href="#tasks">Coding tasks</a></li>
+        </ol>
+      </aside>
+
+      <article class="lesson">
+        <section id="why">
+          <h2>1. Why bother with loops?</h2>
+          <p>Imagine you want to print &ldquo;Hello&rdquo; five times. You <em>could</em> write it out five times:</p>
+          <pre class="code"><span class="c-keyword">print</span>(<span class="c-string">"Hello"</span>)
+<span class="c-keyword">print</span>(<span class="c-string">"Hello"</span>)
+<span class="c-keyword">print</span>(<span class="c-string">"Hello"</span>)
+<span class="c-keyword">print</span>(<span class="c-string">"Hello"</span>)
+<span class="c-keyword">print</span>(<span class="c-string">"Hello"</span>)</pre>
+          <p>But what about 100 times? Or a million? That is exactly what loops are for: <strong>say it once, repeat it as many times as you like.</strong> There are two kinds, and the trick is knowing which to reach for.</p>
+          <ul class="key-points">
+            <li><strong><code>for</code> loop</strong> &mdash; use it when you know <em>how many times</em> (or you have a list of things to go through).</li>
+            <li><strong><code>while</code> loop</strong> &mdash; use it when you <em>don&rsquo;t</em> know how many times, and you just want to keep going <em>until</em> something becomes true.</li>
+          </ul>
+        </section>
+
+        <section id="for">
+          <h2>2. The for loop</h2>
+          <p>A <code>for</code> loop repeats its block once for each item it is given. The indented lines underneath are the body &mdash; the part that repeats.</p>
+          <pre class="code"><span class="c-keyword">for</span> i <span class="c-keyword">in</span> <span class="c-keyword">range</span>(<span class="c-num">5</span>)<span class="c-op">:</span>
+    <span class="c-keyword">print</span>(<span class="c-string">"Hello"</span>)</pre>
+          <p>That prints &ldquo;Hello&rdquo; five times. Two things to notice, exactly like with <code>if</code>:</p>
+          <ul class="key-points">
+            <li>The first line ends with a <strong>colon</strong> <code>:</code></li>
+            <li>The repeating part is <strong>indented</strong> (4 spaces).</li>
+          </ul>
+        </section>
+
+        <section id="range">
+          <h2>3. Counting with range</h2>
+          <p><code>range</code> makes a sequence of numbers for the loop to walk through. The variable (often <code>i</code>) holds the current number each time around:</p>
+          <pre class="code"><span class="c-keyword">for</span> i <span class="c-keyword">in</span> <span class="c-keyword">range</span>(<span class="c-num">1</span>, <span class="c-num">4</span>)<span class="c-op">:</span>
+    <span class="c-keyword">print</span>(i)
+
+<span class="c-comment"># prints 1, then 2, then 3  (4 is the stopping point, not included)</span></pre>
+          <p>You can also count <em>backwards</em> with a step of <code>-1</code> &mdash; handy for a countdown:</p>
+          <pre class="code"><span class="c-keyword">for</span> i <span class="c-keyword">in</span> <span class="c-keyword">range</span>(<span class="c-num">5</span>, <span class="c-num">0</span>, <span class="c-op">-</span><span class="c-num">1</span>)<span class="c-op">:</span>
+    <span class="c-keyword">print</span>(i)
+
+<span class="c-comment"># prints 5, 4, 3, 2, 1</span></pre>
+        </section>
+
+        <section id="through">
+          <h2>4. Looping through things</h2>
+          <p>A <code>for</code> loop can also walk through the letters of a word (or items in a list) &mdash; no numbers needed:</p>
+          <pre class="code"><span class="c-keyword">for</span> letter <span class="c-keyword">in</span> <span class="c-string">"cat"</span><span class="c-op">:</span>
+    <span class="c-keyword">print</span>(letter)
+
+<span class="c-comment"># prints c, then a, then t</span></pre>
+          <p>It reads almost like English: &ldquo;for each letter in cat, print the letter.&rdquo;</p>
+        </section>
+
+        <section id="while">
+          <h2>5. The while loop</h2>
+          <p>A <code>while</code> loop keeps repeating <strong>as long as a condition is True</strong>. Use it when you don&rsquo;t know how many goes it will take &mdash; like asking for a password until the user gets it right:</p>
+          <pre class="code">password <span class="c-op">=</span> <span class="c-string">""</span>
+
+<span class="c-keyword">while</span> password <span class="c-op">!=</span> <span class="c-string">"swordfish"</span><span class="c-op">:</span>
+    password <span class="c-op">=</span> <span class="c-keyword">input</span>(<span class="c-string">"Password? "</span>)
+
+<span class="c-keyword">print</span>(<span class="c-string">"Welcome in!"</span>)</pre>
+          <p>It checks the condition, runs the body, then checks again &mdash; over and over &mdash; until the condition is finally False. Here it keeps asking <em>while</em> the password is wrong, and only moves on once it&rsquo;s right.</p>
+        </section>
+
+        <section id="infinite">
+          <h2>6. Watch out: infinite loops</h2>
+          <p>A <code>while</code> loop only stops when its condition becomes False. If nothing inside the loop ever changes that condition, it runs <strong>forever</strong> &mdash; an <em>infinite loop</em>:</p>
+          <pre class="code">count <span class="c-op">=</span> <span class="c-num">0</span>
+
+<span class="c-keyword">while</span> count <span class="c-op">&lt;</span> <span class="c-num">5</span><span class="c-op">:</span>
+    <span class="c-keyword">print</span>(count)
+    <span class="c-comment"># oops! count never changes, so this never stops</span></pre>
+          <p>The fix is to make sure something in the loop moves you towards the exit &mdash; here, adding <code>count = count + 1</code> so <code>count</code> eventually reaches 5:</p>
+          <pre class="code">count <span class="c-op">=</span> <span class="c-num">0</span>
+
+<span class="c-keyword">while</span> count <span class="c-op">&lt;</span> <span class="c-num">5</span><span class="c-op">:</span>
+    <span class="c-keyword">print</span>(count)
+    count <span class="c-op">=</span> count <span class="c-op">+</span> <span class="c-num">1</span>   <span class="c-comment"># now it counts up and stops at 5</span></pre>
+          <p class="callout"><strong>Golden rule:</strong> every <code>while</code> loop needs a way to end. Before you run it, ask yourself: &ldquo;what will eventually make this condition False?&rdquo;</p>
+        </section>
+
+        <section id="test">
+          <h2>7. Quick check <span class="lesson-step-tag">Part 1 of 3</span></h2>
+          <p>Five quick questions. This is half of completing the module &mdash; the two coding tasks below make up the other half.</p>
+          <div class="module-test" data-test="loops">
+            <div class="mtest-q" data-answer="c">
+              <p class="mtest-prompt">Which loop is best when you know exactly how many times to repeat?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">A <code>while</code> loop</button>
+                <button type="button" class="mtest-opt" data-key="b">An <code>if</code> statement</button>
+                <button type="button" class="mtest-opt" data-key="c">A <code>for</code> loop</button>
+                <button type="button" class="mtest-opt" data-key="d">No loop &mdash; write it out by hand</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="b">
+              <p class="mtest-prompt">What does <code>range(1, 4)</code> give the loop?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">1, 2, 3, 4</button>
+                <button type="button" class="mtest-opt" data-key="b">1, 2, 3</button>
+                <button type="button" class="mtest-opt" data-key="c">2, 3, 4</button>
+                <button type="button" class="mtest-opt" data-key="d">Just the number 4</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="c">
+              <p class="mtest-prompt">When does a <code>while</code> loop keep repeating?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">Exactly 10 times, always</button>
+                <button type="button" class="mtest-opt" data-key="b">Only once</button>
+                <button type="button" class="mtest-opt" data-key="c">As long as its condition is True</button>
+                <button type="button" class="mtest-opt" data-key="d">Until you press a key</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="a">
+              <p class="mtest-prompt">What causes an <strong>infinite loop</strong>?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">The condition never becomes False</button>
+                <button type="button" class="mtest-opt" data-key="b">Using a <code>for</code> loop with <code>range</code></button>
+                <button type="button" class="mtest-opt" data-key="c">Forgetting to print anything</button>
+                <button type="button" class="mtest-opt" data-key="d">Counting backwards</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="b">
+              <p class="mtest-prompt">What goes at the end of the <code>for</code> / <code>while</code> line, before the indented body?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">A semicolon ;</button>
+                <button type="button" class="mtest-opt" data-key="b">A colon :</button>
+                <button type="button" class="mtest-opt" data-key="c">A full stop .</button>
+                <button type="button" class="mtest-opt" data-key="d">Nothing at all</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="tasks" class="project">
+          <h2>8. Coding tasks <span class="lesson-step-tag">Parts 2 &amp; 3 of 3</span></h2>
+          <p>Two real programs to write. Each one is worth <strong>25%</strong> of the module &mdash; pass both (plus the quick check above) to reach 100%. Press <strong>Check</strong> to mark each one. Python loads the first time you press Run or Check (5&ndash;10 seconds), then it&rsquo;s instant &mdash; and both tasks share the same Python, so it only loads once.</p>
+
+          <div class="module-task" data-challenge="loops-for">
+            <h3 class="module-task-step">Task 1 of 2 &middot; the <code>for</code> loop</h3>
+            <div class="challenge-brief"></div>
+            <div class="sandbox-shell challenge-shell">
+              <div class="sandbox-editor">
+                <div class="sandbox-bar">
+                  <span class="sandbox-title">solution.py</span>
+                  <div class="sandbox-bar-actions">
+                    <button type="button" class="btn btn-ghost challenge-reset" title="Reset to the starter code">Reset</button>
+                    <button type="button" class="btn btn-ghost challenge-run">
+                      <span class="challenge-run-label">Run</span>
+                    </button>
+                    <button type="button" class="btn btn-primary challenge-check">
+                      <span class="challenge-check-label">Check</span>
+                    </button>
+                  </div>
+                </div>
+                <div class="sandbox-code language-python" spellcheck="false"></div>
+              </div>
+              <div class="sandbox-output">
+                <div class="sandbox-bar">
+                  <span class="sandbox-title">Output</span>
+                  <button type="button" class="btn btn-ghost challenge-clear" title="Clear the output">Clear</button>
+                </div>
+                <pre class="sandbox-out-body"></pre>
+              </div>
+            </div>
+            <div class="challenge-results" hidden></div>
+          </div>
+
+          <div class="module-task" data-challenge="loops-while">
+            <h3 class="module-task-step">Task 2 of 2 &middot; the <code>while</code> loop</h3>
+            <div class="challenge-brief"></div>
+            <div class="sandbox-shell challenge-shell">
+              <div class="sandbox-editor">
+                <div class="sandbox-bar">
+                  <span class="sandbox-title">solution.py</span>
+                  <div class="sandbox-bar-actions">
+                    <button type="button" class="btn btn-ghost challenge-reset" title="Reset to the starter code">Reset</button>
+                    <button type="button" class="btn btn-ghost challenge-run">
+                      <span class="challenge-run-label">Run</span>
+                    </button>
+                    <button type="button" class="btn btn-primary challenge-check">
+                      <span class="challenge-check-label">Check</span>
+                    </button>
+                  </div>
+                </div>
+                <div class="sandbox-code language-python" spellcheck="false"></div>
+              </div>
+              <div class="sandbox-output">
+                <div class="sandbox-bar">
+                  <span class="sandbox-title">Output</span>
+                  <button type="button" class="btn btn-ghost challenge-clear" title="Clear the output">Clear</button>
+                </div>
+                <pre class="sandbox-out-body"></pre>
+              </div>
+            </div>
+            <div class="challenge-results" hidden></div>
+          </div>
+
+          <p class="sandbox-hint">
+            <kbd>Ctrl</kbd>+<kbd>Enter</kbd> runs your code &middot;
+            <kbd>Tab</kbd> inserts 4 spaces &middot;
+            use the <strong>Maximise</strong> button on either editor for more room.
+          </p>
+
+          <div class="callout">
+            <strong>How the module is marked:</strong> the quick check is worth 50% and each coding task is worth 25%. Do all three to reach 100% &mdash; your teacher can see your score on the progress page.
+          </div>
+        </section>
+
+        <div class="lesson-nav">
+          <a href="/topics/decisions/" class="btn btn-ghost">&larr; Making Decisions</a>
+          <a href="/challenges/" class="btn btn-primary">More Live Coding <span class="arrow" aria-hidden="true"></span></a>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; Hallam IT Basics &middot; For Years 7-9 computing classes.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/prism.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-python.min.js"></script>
+  <script src="/supabase-config.js"></script>
+  <script src="/app.js"></script>
+  <script src="/moduletest.js"></script>
+  <script src="/challenges.js"></script>
+  <script src="/code-maximise.js"></script>
+</body>
+</html>

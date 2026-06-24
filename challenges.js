@@ -176,6 +176,54 @@
         { label: "Age 8 (refused)", inputs: ["8"], check: function (r) { return checkAge(r, false); } }
       ]
     },
+    {
+      // Loops module — "for" task. Same grader as Countdown, but tagged with a
+      // module + its own recordAs so passing it is one quarter of the Loops
+      // module. Embedded on /topics/loops/ via a .module-task wrapper.
+      id: "loops-for",
+      tier: "beginner",
+      module: "loops",
+      recordAs: "loops-for-task",
+      title: "Countdown with a for loop",
+      brief: "Use a for loop to count down from 5, then blast off.",
+      detail: "Use a <code>for</code> loop with <code>range</code> to print <strong>5, 4, 3, 2, 1</strong> (each on its own line), then print <strong>GO!</strong> after the loop. Hint: <code>range(5, 0, -1)</code> counts from 5 down to 1.",
+      accept: "Your output must contain 5, 4, 3, 2, 1 and the word GO.",
+      starter:
+        '# Countdown with a for loop\n' +
+        'for i in range(5, 0, -1):\n' +
+        '    # print each number\n' +
+        '    pass\n' +
+        '# after the loop, print GO!\n',
+      tests: [
+        { label: "Counts down to GO", inputs: [], check: checkCountdown }
+      ]
+    },
+    {
+      // Loops module — "while" task. Same grader as the Guessing game, with its
+      // own module + recordAs so passing it is the other quarter of the module.
+      id: "loops-while",
+      tier: "beginner",
+      module: "loops",
+      recordAs: "loops-while-task",
+      title: "Guess the number with a while loop",
+      brief: "Use a while loop to keep asking until the guess is right.",
+      detail: "The computer hides a number from 1 to 10. Read a guess with <code>int(input(...))</code>, then use a <code>while</code> loop to keep asking <em>while</em> the guess is wrong. When it finally matches, print a success message like <code>Correct!</code>.",
+      accept: "Your program must keep asking for a guess until one matches the secret, then print a success word (correct / well done / got it / you win). A wrong guess should lead to another guess.",
+      starter:
+        '# Guess the number (while loop)\n' +
+        'import random\n' +
+        '\n' +
+        'secret = random.randint(1, 10)   # the hidden number, 1 to 10\n' +
+        '\n' +
+        '# 1) Read a first guess:  guess = int(input("Your guess: "))\n' +
+        '# 2) while guess != secret:  say "wrong", then ask again\n' +
+        '# 3) when guess == secret, print "Correct!"\n',
+      tests: [
+        { label: "Secret 7 - guesses 3, 1, 7",   forceSecret: 7, inputs: ["3", "1", "7"], check: checkGuess },
+        { label: "Secret 2 - guesses 5, 2",      forceSecret: 2, inputs: ["5", "2"],      check: checkGuess },
+        { label: "Secret 4 - guessed first try", forceSecret: 4, inputs: ["4"],           check: checkGuess }
+      ]
+    },
 
     // -------- Intermediate --------
     {
@@ -770,34 +818,49 @@ _sandbox_install_input()
 del _sandbox_install_input, _b
 `;
 
-  // ---- DOM ------------------------------------------------------------------
-  const editor      = document.getElementById("challenge-code");
-  const output      = document.getElementById("challenge-output");
-  const runBtn      = document.getElementById("challenge-run");
-  const runLabel    = runBtn ? runBtn.querySelector(".challenge-run-label") : null;
-  const checkBtn    = document.getElementById("challenge-check");
-  const checkLabel  = checkBtn ? checkBtn.querySelector(".challenge-check-label") : null;
-  const resetBtn    = document.querySelector(".challenge-reset");
-  const clearBtn    = document.querySelector(".challenge-clear");
-  const tabsEl      = document.getElementById("challenge-tabs");
-  const briefEl     = document.getElementById("challenge-brief");
-  const resultsEl   = document.getElementById("challenge-results");
-  const scoreboardEl = document.getElementById("challenge-scoreboard");
-  const fileEl      = document.getElementById("challenge-file");
-
-  if (!editor || !runBtn || !checkBtn) return;
-
-  // ---- State ----------------------------------------------------------------
+  // ---- Shared across the editor instances on a page -------------------------
+  // A page can host more than one editor (e.g. the Loops module has a "for" task
+  // and a "while" task). Pyodide, the saved-code map and the passed set are
+  // shared so the runtime boots only once and the two editors can't clobber each
+  // other's saved code. `active` is whichever instance is currently running, so
+  // the single set of stdout/stderr/input callbacks routes to the right panel.
   let pyodide = null;
   let loadingPromise = null;
-  let jar = null;
-  let busy = false;
-  // Embedded mode: a host page (e.g. /topics/decisions/) sets window.CHALLENGE_ONLY
-  // to a challenge id and omits the tabs/scoreboard markup, so a single challenge
-  // runs inline. challengeById is hoisted, so it is safe to call here.
-  let current = (window.CHALLENGE_ONLY && challengeById(window.CHALLENGE_ONLY)) || CHALLENGES[0];
-  let passed = new Set();
-  let codeMap = loadCodeMap();
+  let active = null;
+  let pageBusy = false;
+  let codeMap = null;
+  const passed = new Set();
+
+  // One editor instance, scoped to `root`: the whole document on the standalone
+  // Live Coding page (and single-embed pages), or one .module-task wrapper for a
+  // task embedded in a lesson. Lookups prefer the legacy ids, then fall back to
+  // classes so several instances can coexist without duplicate ids.
+  function createApp(root, onlyId) {
+    function q(sel) { return root.querySelector(sel); }
+    const editor      = q("#challenge-code") || q(".sandbox-code");
+    const output      = q("#challenge-output") || q(".sandbox-out-body");
+    const runBtn      = q("#challenge-run") || q(".challenge-run");
+    const runLabel    = runBtn ? runBtn.querySelector(".challenge-run-label") : null;
+    const checkBtn    = q("#challenge-check") || q(".challenge-check");
+    const checkLabel  = checkBtn ? checkBtn.querySelector(".challenge-check-label") : null;
+    const resetBtn    = q(".challenge-reset");
+    const clearBtn    = q(".challenge-clear");
+    const tabsEl      = q("#challenge-tabs");
+    const briefEl     = q("#challenge-brief") || q(".challenge-brief");
+    const resultsEl   = q("#challenge-results") || q(".challenge-results");
+    const scoreboardEl = q("#challenge-scoreboard");
+    const fileEl      = q("#challenge-file") || q(".sandbox-editor .sandbox-title");
+
+    if (!editor || !runBtn || !checkBtn) return;
+
+    if (codeMap === null) codeMap = loadCodeMap();
+    let jar = null;
+    let busy = false;
+    // onlyId pins this instance to one challenge (embedded task or single embed);
+    // the standalone page passes null and starts on the first challenge.
+    let current = (onlyId && challengeById(onlyId)) || CHALLENGES[0];
+    // Routing handle for the shared stdout/stderr/input callbacks.
+    const io = { appendOut: appendOut, readLine: readLineInteractive };
 
   function challengeById(id) {
     return CHALLENGES.filter(function (c) { return c.id === id; })[0];
@@ -920,9 +983,9 @@ del _sandbox_install_input, _b
       pyodide = await window.loadPyodide({
         indexURL: "https://cdn.jsdelivr.net/pyodide/v" + PYODIDE_VERSION + "/full/"
       });
-      pyodide.setStdout({ batched: function (s) { appendOut(s, "stdout"); } });
-      pyodide.setStderr({ batched: function (s) { appendOut(s, "stderr"); } });
-      pyodide.registerJsModule("_sandbox_io", { readLine: readLineInteractive });
+      pyodide.setStdout({ batched: function (s) { if (active) active.appendOut(s, "stdout"); } });
+      pyodide.setStderr({ batched: function (s) { if (active) active.appendOut(s, "stderr"); } });
+      pyodide.registerJsModule("_sandbox_io", { readLine: function (p) { return active ? active.readLine(p) : Promise.resolve(""); } });
       await pyodide.runPythonAsync(jspiSupported() ? PY_INSTALL_INPUT : PY_DISABLE_INPUT);
       pyodide.runPython(PY_RUNNER);
       return pyodide;
@@ -943,8 +1006,8 @@ del _sandbox_install_input, _b
   }
 
   async function run() {
-    if (busy) return;
-    busy = true;
+    if (busy || pageBusy) return;
+    busy = true; pageBusy = true; active = io;
     clearOut();
     setRunLabel("Running…", true);
     setCheckBusy(true, "Check");
@@ -956,7 +1019,7 @@ del _sandbox_install_input, _b
     } finally {
       setRunLabel("Run", false);
       setCheckBusy(false);
-      busy = false;
+      busy = false; pageBusy = false;
     }
   }
 
@@ -970,8 +1033,8 @@ del _sandbox_install_input, _b
   }
 
   async function check() {
-    if (busy) return;
-    busy = true;
+    if (busy || pageBusy) return;
+    busy = true; pageBusy = true; active = io;
     setCheckBusy(true, "Checking…");
     setRunLabel("Run", true);
     renderResults(null); // clears
@@ -981,7 +1044,7 @@ del _sandbox_install_input, _b
     } catch (err) {
       setCheckBusy(false);
       setRunLabel("Run", false);
-      busy = false;
+      busy = false; pageBusy = false;
       renderResults({ error: (err && err.message) ? err.message : String(err) });
       return;
     }
@@ -1003,7 +1066,7 @@ del _sandbox_install_input, _b
 
     setCheckBusy(false);
     setRunLabel("Run", false);
-    busy = false;
+    busy = false; pageBusy = false;
 
     if (allPass && !passed.has(ch.id)) {
       passed.add(ch.id);
@@ -1183,7 +1246,7 @@ del _sandbox_install_input, _b
     renderTabs();
     renderBrief();
     renderScoreboard();
-    passed = await loadPassed();
+    (await loadPassed()).forEach(function (id) { passed.add(id); });
     renderTabs();
     renderBrief();
     renderScoreboard();
@@ -1191,9 +1254,24 @@ del _sandbox_install_input, _b
   boot();
 
   window.addEventListener("itbasics:auth", async function () {
-    passed = await loadPassed();
+    passed.clear();
+    (await loadPassed()).forEach(function (id) { passed.add(id); });
     renderTabs();
     renderBrief();
     renderScoreboard();
   });
+  } // end createApp
+
+  // Dispatch. A lesson can stack several embedded tasks (e.g. the Loops module's
+  // "for" and "while" tasks), each in a .module-task[data-challenge] wrapper and
+  // all sharing the single Pyodide runtime. Otherwise there is one page-wide app
+  // for the standalone Live Coding page and single-embed module pages.
+  const moduleTasks = document.querySelectorAll(".module-task[data-challenge]");
+  if (moduleTasks.length) {
+    Array.prototype.forEach.call(moduleTasks, function (wrap) {
+      createApp(wrap, wrap.getAttribute("data-challenge"));
+    });
+  } else if (document.getElementById("challenge-code")) {
+    createApp(document, window.CHALLENGE_ONLY || null);
+  }
 })();

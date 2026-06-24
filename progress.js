@@ -10,6 +10,7 @@
     { key: "html",        label: "HTML",           href: "/topics/html/" },
     { key: "python",      label: "Python",         href: "/topics/python/" },
     { key: "decisions",   label: "Making Decisions", href: "/topics/decisions/" },
+    { key: "loops",       label: "Loops",          href: "/topics/loops/" },
     { key: "binary",      label: "Binary & Data",  href: "/topics/binary/" },
     { key: "codes",       label: "Codes & Colour", href: "/topics/codes/" },
     { key: "systems",     label: "Digital Systems", href: "/topics/systems/" },
@@ -37,7 +38,7 @@
       if (res.error) return { error: res.error.message, rows: [] };
       return { rows: res.data || [] };
     }
-    var names = ["programming", "html", "python", "decisions", "decisions-task", "binary", "codes", "systems", "networks", "os", "freeplay", "livecoding"];
+    var names = ["programming", "html", "python", "decisions", "decisions-task", "loops", "loops-for-task", "loops-while-task", "binary", "codes", "systems", "networks", "os", "freeplay", "livecoding"];
     var rows = [];
     names.forEach(function (name) {
       var raw = localStorage.getItem("itbasics-attempts-" + student.code + "-" + name);
@@ -83,6 +84,32 @@
       note: attemptedDec
         ? ("Test " + testBest + "/" + (testTotal || 6) + " · Task " + (decTaskDone ? "done" : "not yet"))
         : "Take the quick check and the coding task"
+    };
+
+    // Loops blends three parts: the quick check (quiz_name "loops", 50%) and two
+    // coding tasks (loops-for-task and loops-while-task, worth 25% each).
+    var loopTestRows = rows.filter(function (r) { return r.quiz_name === "loops"; });
+    var loopForDone = rows.some(function (r) {
+      return r.quiz_name === "loops-for-task" && r.answers && r.answers.challenge;
+    });
+    var loopWhileDone = rows.some(function (r) {
+      return r.quiz_name === "loops-while-task" && r.answers && r.answers.challenge;
+    });
+    var loopTestBest = 0, loopTestTotal = 0, loopTestPct = 0;
+    if (loopTestRows.length) {
+      var lb = loopTestRows.reduce(function (a, r) { return r.score > a.score ? r : a; }, loopTestRows[0]);
+      loopTestTotal = loopTestRows.reduce(function (t, r) { return Math.max(t, r.total || 0); }, 0);
+      loopTestBest = lb.score;
+      loopTestPct = loopTestTotal ? Math.round((loopTestBest / loopTestTotal) * 100) : 0;
+    }
+    var loopTasksDone = (loopForDone ? 1 : 0) + (loopWhileDone ? 1 : 0);
+    var attemptedLoops = loopTestRows.length > 0 || loopTasksDone > 0;
+    modules.loops = {
+      attempted: attemptedLoops,
+      pct: Math.round(0.5 * loopTestPct + 25 * loopTasksDone),
+      note: attemptedLoops
+        ? ("Test " + loopTestBest + "/" + (loopTestTotal || 5) + " · Tasks " + loopTasksDone + "/2")
+        : "Take the quick check and the two coding tasks"
     };
 
     var freeplay = rows

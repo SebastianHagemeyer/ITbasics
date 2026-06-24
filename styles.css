@@ -1377,6 +1377,20 @@ body.has-maximised-code { overflow: hidden; }
 .challenge-shell { margin-bottom: 18px; }
 .challenge-run[disabled], .challenge-check[disabled] { opacity: 0.55; cursor: not-allowed; }
 
+/* Embedded module coding tasks. A lesson can stack several (the Loops module has
+   a "for" task and a "while" task), each with its own brief, editor and results. */
+.module-task { margin: 0 0 30px; }
+.module-task:last-of-type { margin-bottom: 0; }
+.module-task-step {
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+  margin: 0 0 10px;
+}
+.module-task .challenge-brief { margin-bottom: 14px; }
+
 .challenge-results {
   background: var(--surface); border: 1px solid var(--border);
   border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow-sm);
