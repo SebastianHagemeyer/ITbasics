@@ -104,7 +104,7 @@
       title: "Even or odd",
       brief: "Tell the user whether their number is even or odd.",
       detail: "Read a number with <code>int(input())</code>. If it divides evenly by 2 print <strong>Even</strong>, otherwise print <strong>Odd</strong>. Hint: <code>n % 2</code> gives the remainder.",
-      accept: 'Your output must say "Even" for even numbers and "Odd" for odd ones &mdash; not both.',
+      accept: 'Your output must say "Even" for even numbers and "Odd" for odd ones, not both.',
       starter:
         '# Even or odd\n' +
         'n = int(input("A number? "))\n' +
@@ -138,7 +138,7 @@
       tier: "beginner",
       title: "Age checker",
       brief: "Ask for an age and say whether they can watch a PG-13 film.",
-      detail: "Read an age with <code>input()</code> (remember <code>input()</code> gives text &mdash; convert with <code>int()</code>). PG-13 films are for ages <strong>13 and over</strong>.",
+      detail: "Read an age with <code>input()</code> (remember <code>input()</code> gives text, so convert with <code>int()</code>). PG-13 films are for ages <strong>13 and over</strong>.",
       accept: 'If the age is 13 or more, your message must clearly allow it (e.g. "you can watch"). Under 13, it must clearly refuse (e.g. "you can\'t" / "too young").',
       starter:
         '# Age checker\n' +
@@ -177,7 +177,7 @@
       ]
     },
     {
-      // Loops module — "for" task. Same grader as Countdown, but tagged with a
+      // Loops module, "for" task. Same grader as Countdown, but tagged with a
       // module + its own recordAs so passing it is one quarter of the Loops
       // module. Embedded on /topics/loops/ via a .module-task wrapper.
       id: "loops-for",
@@ -199,7 +199,7 @@
       ]
     },
     {
-      // Loops module — "while" task. Same grader as the Guessing game, with its
+      // Loops module, "while" task. Same grader as the Guessing game, with its
       // own module + recordAs so passing it is the other quarter of the module.
       id: "loops-while",
       tier: "beginner",
@@ -356,14 +356,14 @@
       tier: "stretch",
       title: "Guessing game",
       brief: "The computer picks a secret number from 1 to 10. The player keeps guessing until they get it right.",
-      detail: "The computer hides the number &mdash; the player has to find it." +
+      detail: "The computer hides the number, and the player has to find it." +
         '<ol class="challenge-steps">' +
         "<li>Pick the secret with <code>random.randint(1, 10)</code>.</li>" +
         "<li>Ask for a guess with <code>input()</code>, and convert it to a number with <code>int()</code> so you can compare it.</li>" +
         "<li>Use a loop: <em>while</em> the guess is wrong, tell them and ask again.</li>" +
         "<li>When the guess matches the secret, print a success message like <code>Correct!</code>.</li>" +
         "</ol>",
-      accept: "Your program must keep asking for a guess until one matches the secret, then print a success word (correct / well done / got it / you win). A wrong guess should lead to another guess &mdash; not stop the program.",
+      accept: "Your program must keep asking for a guess until one matches the secret, then print a success word (correct / well done / got it / you win). A wrong guess should lead to another guess, not stop the program.",
       starter:
         '# Guessing game\n' +
         'import random\n' +
@@ -583,7 +583,7 @@
     const sawOdd  = /\bodd\b/i.test(r.output);
     if (isEven && sawEven && !sawOdd) return pass(n + " is even.");
     if (!isEven && sawOdd && !sawEven) return pass(n + " is odd.");
-    if (sawEven && sawOdd) return fail("You printed both \"Even\" and \"Odd\" — only print one.");
+    if (sawEven && sawOdd) return fail("You printed both \"Even\" and \"Odd\", only print one.");
     if (isEven) return fail(n + " is even, but your output didn't say \"Even\".");
     return fail(n + " is odd, but your output didn't say \"Odd\".");
   }
@@ -833,7 +833,7 @@ del _sandbox_install_input, _b
 
   // ---- Pyodide bootstrap (shared, hoisted above createApp) ------------------
   // Kept at IIFE scope so the read-only snippet runner (window.ITCode, below)
-  // works even on lesson pages with no coding task at all — e.g. Programming /
+  // works even on lesson pages with no coding task at all, e.g. Programming /
   // Python Basics, which only run inline snippets.
   function jspiSupported() {
     return typeof WebAssembly !== "undefined" && typeof WebAssembly.Suspending === "function";
@@ -877,7 +877,7 @@ del _sandbox_install_input, _b
   if (!window.ITCode) {
     window.ITCode = {
       run: async function (code, inputs) {
-        if (pageBusy) return { error: "Busy — let the current run finish, then try again." };
+        if (pageBusy) return { error: "Busy, let the current run finish, then try again." };
         pageBusy = true; active = null;
         try {
           const py = await ensurePyodide();
@@ -1196,8 +1196,8 @@ del _sandbox_install_input, _b
     const passCount = rows.filter(function (r) { return r.pass; }).length;
     let html = '<div class="challenge-results-head ' + (state.allPass ? "win" : "fail") + '">' +
       (state.allPass
-        ? '🎉 Passed all ' + rows.length + ' tests &mdash; <strong>' + escapeHtml(state.challenge.title) + '</strong> complete!'
-        : passCount + ' / ' + rows.length + ' tests passed &mdash; keep going!') +
+        ? '🎉 Passed all ' + rows.length + ' tests, <strong>' + escapeHtml(state.challenge.title) + '</strong> complete!'
+        : passCount + ' / ' + rows.length + ' tests passed, keep going!') +
       '</div><ul class="challenge-test-list">';
     rows.forEach(function (r) {
       html += '<li class="ct ' + (r.pass ? "pass" : "fail") + '">' +

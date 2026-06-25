@@ -60,7 +60,7 @@
       <div class="container">
         <p class="eyebrow">Python &middot; Lesson 3</p>
         <h1>Loops</h1>
-        <p class="lead">Computers are brilliant at doing the same thing over and over without getting bored. A <em>loop</em> is how you tell your program to repeat &mdash; either a set number of times, or until something happens.</p>
+        <p class="lead">Computers are brilliant at doing the same thing over and over without getting bored. A <em>loop</em> is how you tell your program to repeat, either a set number of times, or until something happens.</p>
       </div>
     </section>
 
@@ -90,14 +90,14 @@
 <span class="c-keyword">print</span>(<span class="c-string">"Hello"</span>)</pre>
           <p>But what about 100 times? Or a million? That is exactly what loops are for: <strong>say it once, repeat it as many times as you like.</strong> There are two kinds, and the trick is knowing which to reach for.</p>
           <ul class="key-points">
-            <li><strong><code>for</code> loop</strong> &mdash; use it when you know <em>how many times</em> (or you have a list of things to go through).</li>
-            <li><strong><code>while</code> loop</strong> &mdash; use it when you <em>don&rsquo;t</em> know how many times, and you just want to keep going <em>until</em> something becomes true.</li>
+            <li><strong><code>for</code> loop</strong>: use it when you know <em>how many times</em> (or you have a list of things to go through).</li>
+            <li><strong><code>while</code> loop</strong>: use it when you <em>don&rsquo;t</em> know how many times, and you just want to keep going <em>until</em> something becomes true.</li>
           </ul>
         </section>
 
         <section id="for">
           <h2>2. The for loop</h2>
-          <p>A <code>for</code> loop repeats its block once for each item it is given. The indented lines underneath are the body &mdash; the part that repeats.</p>
+          <p>A <code>for</code> loop repeats its block once for each item it is given. The indented lines underneath are the body, the part that repeats.</p>
           <pre class="code"><span class="c-keyword">for</span> i <span class="c-keyword">in</span> <span class="c-keyword">range</span>(<span class="c-num">5</span>)<span class="c-op">:</span>
     <span class="c-keyword">print</span>(<span class="c-string">"Hello"</span>)</pre>
           <p>That prints &ldquo;Hello&rdquo; five times. Two things to notice, exactly like with <code>if</code>:</p>
@@ -114,7 +114,7 @@
     <span class="c-keyword">print</span>(i)
 
 <span class="c-comment"># prints 1, then 2, then 3  (4 is the stopping point, not included)</span></pre>
-          <p>You can also count <em>backwards</em> with a step of <code>-1</code> &mdash; handy for a countdown:</p>
+          <p>You can also count <em>backwards</em> with a step of <code>-1</code>, handy for a countdown:</p>
           <pre class="code"><span class="c-keyword">for</span> i <span class="c-keyword">in</span> <span class="c-keyword">range</span>(<span class="c-num">5</span>, <span class="c-num">0</span>, <span class="c-op">-</span><span class="c-num">1</span>)<span class="c-op">:</span>
     <span class="c-keyword">print</span>(i)
 
@@ -123,7 +123,7 @@
 
         <section id="through">
           <h2>4. Looping through things</h2>
-          <p>A <code>for</code> loop can also walk through the letters of a word (or items in a list) &mdash; no numbers needed:</p>
+          <p>A <code>for</code> loop can also walk through the letters of a word (or items in a list), no numbers needed:</p>
           <pre class="code"><span class="c-keyword">for</span> letter <span class="c-keyword">in</span> <span class="c-string">"cat"</span><span class="c-op">:</span>
     <span class="c-keyword">print</span>(letter)
 
@@ -133,25 +133,25 @@
 
         <section id="while">
           <h2>5. The while loop</h2>
-          <p>A <code>while</code> loop keeps repeating <strong>as long as a condition is True</strong>. Use it when you don&rsquo;t know how many goes it will take &mdash; like asking for a password until the user gets it right:</p>
+          <p>A <code>while</code> loop keeps repeating <strong>as long as a condition is True</strong>. Use it when you don&rsquo;t know how many goes it will take, like asking for a password until the user gets it right:</p>
           <pre class="code" data-inputs='["wrong","swordfish"]'>password <span class="c-op">=</span> <span class="c-string">""</span>
 
 <span class="c-keyword">while</span> password <span class="c-op">!=</span> <span class="c-string">"swordfish"</span><span class="c-op">:</span>
     password <span class="c-op">=</span> <span class="c-keyword">input</span>(<span class="c-string">"Password? "</span>)
 
 <span class="c-keyword">print</span>(<span class="c-string">"Welcome in!"</span>)</pre>
-          <p>It checks the condition, runs the body, then checks again &mdash; over and over &mdash; until the condition is finally False. Here it keeps asking <em>while</em> the password is wrong, and only moves on once it&rsquo;s right.</p>
+          <p>It checks the condition, runs the body, then checks again, over and over, until the condition is finally False. Here it keeps asking <em>while</em> the password is wrong, and only moves on once it&rsquo;s right.</p>
         </section>
 
         <section id="infinite">
           <h2>6. Watch out: infinite loops</h2>
-          <p>A <code>while</code> loop only stops when its condition becomes False. If nothing inside the loop ever changes that condition, it runs <strong>forever</strong> &mdash; an <em>infinite loop</em>:</p>
+          <p>A <code>while</code> loop only stops when its condition becomes False. If nothing inside the loop ever changes that condition, it runs <strong>forever</strong>, an <em>infinite loop</em>:</p>
           <pre class="code" data-norun>count <span class="c-op">=</span> <span class="c-num">0</span>
 
 <span class="c-keyword">while</span> count <span class="c-op">&lt;</span> <span class="c-num">5</span><span class="c-op">:</span>
     <span class="c-keyword">print</span>(count)
     <span class="c-comment"># oops! count never changes, so this never stops</span></pre>
-          <p>The fix is to make sure something in the loop moves you towards the exit &mdash; here, adding <code>count = count + 1</code> so <code>count</code> eventually reaches 5:</p>
+          <p>The fix is to make sure something in the loop moves you towards the exit; here, adding <code>count = count + 1</code> so <code>count</code> eventually reaches 5:</p>
           <pre class="code">count <span class="c-op">=</span> <span class="c-num">0</span>
 
 <span class="c-keyword">while</span> count <span class="c-op">&lt;</span> <span class="c-num">5</span><span class="c-op">:</span>
@@ -162,7 +162,7 @@
 
         <section id="test">
           <h2>7. Quick check <span class="lesson-step-tag">Part 1 of 3</span></h2>
-          <p>Five quick questions. This is half of completing the module &mdash; the two coding tasks below make up the other half.</p>
+          <p>Five quick questions. This is half of completing the module. The two coding tasks below make up the other half.</p>
           <div class="module-test" data-test="loops">
             <div class="mtest-q" data-answer="c">
               <p class="mtest-prompt">Which loop is best when you know exactly how many times to repeat?</p>
@@ -170,7 +170,7 @@
                 <button type="button" class="mtest-opt" data-key="a">A <code>while</code> loop</button>
                 <button type="button" class="mtest-opt" data-key="b">An <code>if</code> statement</button>
                 <button type="button" class="mtest-opt" data-key="c">A <code>for</code> loop</button>
-                <button type="button" class="mtest-opt" data-key="d">No loop &mdash; write it out by hand</button>
+                <button type="button" class="mtest-opt" data-key="d">No loop, write it out by hand</button>
               </div>
             </div>
             <div class="mtest-q" data-answer="b">
@@ -214,7 +214,7 @@
 
         <section id="tasks" class="project">
           <h2>8. Coding tasks <span class="lesson-step-tag">Parts 2 &amp; 3 of 3</span></h2>
-          <p>Two real programs to write. Each one is worth <strong>25%</strong> of the module &mdash; pass both (plus the quick check above) to reach 100%. Press <strong>Check</strong> to mark each one. Python loads the first time you press Run or Check (5&ndash;10 seconds), then it&rsquo;s instant &mdash; and both tasks share the same Python, so it only loads once.</p>
+          <p>Two real programs to write. Each one is worth <strong>25%</strong> of the module. Pass both (plus the quick check above) to reach 100%. Press <strong>Check</strong> to mark each one. Python loads the first time you press Run or Check (5&ndash;10 seconds), then it&rsquo;s instant, and both tasks share the same Python, so it only loads once.</p>
 
           <div class="module-task" data-challenge="loops-for">
             <h3 class="module-task-step">Task 1 of 2 &middot; the <code>for</code> loop</h3>
@@ -283,7 +283,7 @@
           </p>
 
           <div class="callout">
-            <strong>How the module is marked:</strong> the quick check is worth 50% and each coding task is worth 25%. Do all three to reach 100% &mdash; your teacher can see your score on the progress page.
+            <strong>How the module is marked:</strong> the quick check is worth 50% and each coding task is worth 25%. Do all three to reach 100%. Your teacher can see your score on the progress page.
           </div>
         </section>
 

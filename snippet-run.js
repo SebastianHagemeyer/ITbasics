@@ -3,7 +3,7 @@
  * Makes the read-only code snippets in a lesson runnable: it adds a Run button
  * (and, for input() snippets, an editable input box) under each
  * <pre class="code"> and runs the snippet through the shared Pyodide grader
- * that challenges.js exposes as window.ITCode.run. The code stays uneditable —
+ * that challenges.js exposes as window.ITCode.run. The code stays uneditable;
  * this only runs it and shows the output.
  *
  *   - Opt a snippet OUT with  data-norun  (e.g. a deliberately broken example).
@@ -12,7 +12,7 @@
  *     (comma-separated for more than one). Works in every browser.
  *
  * Reusable: drop the <script> on any lesson page that also loads challenges.js.
- * Pyodide is lazy — nothing loads until the reader actually presses Run.
+ * Pyodide is lazy: nothing loads until the reader actually presses Run.
  */
 (function () {
   "use strict";
@@ -27,7 +27,7 @@
 
   function defaultsOf(pre) {
     var raw = pre.getAttribute("data-inputs");
-    if (!raw) return null; // no input() — no input box
+    if (!raw) return null; // no input(), no input box
     try { var v = JSON.parse(raw); return Array.isArray(v) ? v : []; }
     catch (e) { return []; }
   }
@@ -150,7 +150,7 @@
     async function go() {
       if (busy) return;
       if (!window.ITCode || !window.ITCode.run) {
-        show("Python isn’t available on this page yet — try again in a moment.", "error");
+        show("Python isn’t available on this page yet. Try again in a moment.", "error");
         return;
       }
       busy = true;
@@ -160,7 +160,7 @@
         var res = await window.ITCode.run(codeOf(pre), readInputs());
         var body = res && (res.display != null ? res.display : res.output);
         if (res && res.error && /EOFError/.test(res.error)) {
-          // Ran out of scripted input — the program asked more times than typed.
+          // Ran out of scripted input: the program asked more times than typed.
           show((body ? body + "\n" : "") +
             "⚠ The program asked for more input than you typed. Add another value" +
             (field ? " (comma-separated)." : "."), "error");

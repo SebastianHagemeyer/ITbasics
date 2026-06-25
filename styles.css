@@ -1619,10 +1619,10 @@ body.has-maximised-code { overflow: hidden; }
 }
 
 /* The editor toolbar (filename · Maximise · Reset · Run · Check) has to fit the
-   panel it lives in — which is far narrower than the viewport: the shell is a
+   panel it lives in, which is far narrower than the viewport: the shell is a
    two-column editor|output grid, and the Maximise overlay splits the width
    again. So react to the PANEL's render width with container queries, not the
-   viewport — it then declutters correctly whether inline OR maximised. Only the
+   viewport, so it declutters correctly whether inline OR maximised. Only the
    challenge editors opt in as containers, never the standalone Sandbox. */
 .challenge-shell .sandbox-editor { container-type: inline-size; }
 

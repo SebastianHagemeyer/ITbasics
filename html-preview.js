@@ -2,13 +2,13 @@
  *
  * Turns the read-only HTML snippets in a lesson (<pre class="code">) into a live
  * "try it" editor: the code becomes editable and a sandboxed <iframe> renders it,
- * updating as you type. It's the HTML counterpart to snippet-run.js — there's no
+ * updating as you type. It's the HTML counterpart to snippet-run.js. There's no
  * Python here, just the browser drawing your markup, so nothing extra has to load.
  *
  *   - Opt a snippet OUT with  data-nopreview  (e.g. a non-HTML example).
  *
  * The <iframe> uses  sandbox=""  (no scripts, no same-origin) so a pasted snippet
- * can never run code or reach the page around it — safe for a classroom.
+ * can never run code or reach the page around it, so it's safe for a classroom.
  *
  * Reusable: drop the <script> on any lesson page whose code snippets are HTML.
  */
@@ -44,7 +44,7 @@
     editor.value = original;
     editor.spellcheck = false;
     editor.autocomplete = "off";
-    editor.setAttribute("aria-label", "Editable HTML — change it and watch the preview update");
+    editor.setAttribute("aria-label", "Editable HTML: change it and watch the preview update");
     editor.rows = Math.min(22, Math.max(3, lines));
 
     // Tab inserts two spaces instead of leaving the box.
@@ -61,7 +61,7 @@
     bar.className = "snippet-bar html-preview-bar";
     var tag = document.createElement("span");
     tag.className = "html-preview-tag";
-    tag.textContent = "Live preview — edit the code above";
+    tag.textContent = "Live preview: edit the code above";
     var reset = document.createElement("button");
     reset.type = "button";
     reset.className = "btn btn-ghost html-preview-reset";

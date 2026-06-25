@@ -4,7 +4,7 @@
  * used on the Live Coding page, the Sandbox, and the embedded module tasks
  * (e.g. /topics/decisions/). It adds a Maximise button to each shell's editor
  * bar that expands the shell into a full-screen focus overlay so learners get
- * real room to type — editor and terminal side by side, plus any pass/fail
+ * real room to type: editor and terminal side by side, plus any pass/fail
  * results panel pulled in so feedback stays visible.
  *
  * Purely additive: it scans for .sandbox-shell on load and wires itself up.
@@ -92,7 +92,7 @@
   function setup(shell) {
     if (shell.dataset.maximiseReady) return; // idempotent if the script loads twice
     var actions = shell.querySelector(".sandbox-editor .sandbox-bar-actions");
-    if (!actions) return; // no editor bar to attach to — skip
+    if (!actions) return; // no editor bar to attach to, skip
     shell.dataset.maximiseReady = "1";
 
     var btn = document.createElement("button");

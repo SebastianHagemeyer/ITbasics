@@ -38,7 +38,7 @@
     // Overall: how many of the live-coding challenges each student has cracked.
     ALL_TASKS.push({
       key: "livecoding-all",
-      label: "Live Coding — all challenges (" + ids.length + ")",
+      label: "Live Coding: all challenges (" + ids.length + ")",
       group: "Live Coding",
       quizzes: ["livecoding"],
       compute: computeLivecodingAll(ids)
@@ -97,7 +97,7 @@
   }
 
   // Loops blends the quick check (quiz_name "loops", 50%) with two coding tasks
-  // (loops-for-task and loops-while-task, 25% each) — 100% only when all three.
+  // (loops-for-task and loops-while-task, 25% each), 100% only when all three.
   function computeLoops(rows) {
     var b = bestTest(rows, "loops");
     var testPct = b && b.total ? Math.round((b.score / b.total) * 100) : 0;
