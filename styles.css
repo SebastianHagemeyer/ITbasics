@@ -1618,19 +1618,34 @@ body.has-maximised-code { overflow: hidden; }
   .sandbox-shell { grid-template-columns: 1fr; }
 }
 
-/* On a phone the editor toolbar (filename · Maximise · Reset · Run · Check) is
-   too crowded. While inline, hide the filename and Reset and drop Maximise to
-   its icon, so the two primary actions — Run and Check — get room. Everything
-   comes back in the full-screen Maximise view (:not(.is-maximised)), where the
-   width is there for it. Only the challenge editors are touched, not the
-   standalone Sandbox. */
-@media (max-width: 560px) {
-  .challenge-shell:not(.is-maximised) .sandbox-editor .sandbox-title { display: none; }
-  .challenge-shell:not(.is-maximised) .challenge-reset { display: none; }
-  .challenge-shell:not(.is-maximised) .code-maximise .code-maximise-label { display: none; }
-  .challenge-shell:not(.is-maximised) .sandbox-editor .sandbox-bar { padding: 8px 10px; }
-  .challenge-shell:not(.is-maximised) .sandbox-bar-actions { gap: 6px; }
-  .challenge-shell:not(.is-maximised) .sandbox-bar .btn { padding: 6px 12px; }
+/* The editor toolbar (filename · Maximise · Reset · Run · Check) has to fit the
+   panel it lives in — which is far narrower than the viewport: the shell is a
+   two-column editor|output grid, and the Maximise overlay splits the width
+   again. So react to the PANEL's render width with container queries, not the
+   viewport — it then declutters correctly whether inline OR maximised. Only the
+   challenge editors opt in as containers, never the standalone Sandbox. */
+.challenge-shell .sandbox-editor { container-type: inline-size; }
+
+/* Belt and braces so a button is never clipped by the panel's overflow:hidden:
+   let the bar wrap, and ellipsis the filename so it can't shove the actions. */
+.challenge-shell .sandbox-bar { flex-wrap: wrap; row-gap: 8px; }
+.challenge-shell .sandbox-editor .sandbox-title {
+  min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+
+/* Tight panel: drop the filename and shrink Maximise to its icon. */
+@container (max-width: 500px) {
+  .sandbox-editor .sandbox-title { display: none; }
+  .sandbox-editor .code-maximise-label { display: none; }
+  .sandbox-editor .sandbox-bar { padding: 8px 10px; }
+  .sandbox-editor .sandbox-bar-actions { gap: 6px; margin-left: auto; }
+  .sandbox-editor .sandbox-bar .btn { padding: 6px 11px; }
+}
+/* Very tight: also drop Reset, leaving Maximise · Run · Check. */
+@container (max-width: 360px) {
+  .sandbox-editor .challenge-reset { display: none; }
+  .sandbox-editor .sandbox-bar-actions { gap: 5px; }
+  .sandbox-editor .sandbox-bar .btn { padding: 6px 9px; font-size: 0.8rem; }
 }
 
 /* Footer */

@@ -831,6 +831,67 @@ del _sandbox_install_input, _b
   let codeMap = null;
   const passed = new Set();
 
+  // ---- Pyodide bootstrap (shared, hoisted above createApp) ------------------
+  // Kept at IIFE scope so the read-only snippet runner (window.ITCode, below)
+  // works even on lesson pages with no coding task at all — e.g. Programming /
+  // Python Basics, which only run inline snippets.
+  function jspiSupported() {
+    return typeof WebAssembly !== "undefined" && typeof WebAssembly.Suspending === "function";
+  }
+  function loadPyodideScript() {
+    if (window.loadPyodide) return Promise.resolve();
+    return new Promise(function (resolve, reject) {
+      const s = document.createElement("script");
+      s.src = PYODIDE_URL;
+      s.onload = resolve;
+      s.onerror = function () { reject(new Error("Couldn't reach the Python runtime CDN.")); };
+      document.head.appendChild(s);
+    });
+  }
+  // `announce` is an optional callback run once, just before the (one-time) load
+  // begins, so a calling editor can show its own "Loading Python…" state. The
+  // snippet runner passes nothing.
+  async function ensurePyodide(announce) {
+    if (pyodide) return pyodide;
+    if (loadingPromise) return loadingPromise;
+    loadingPromise = (async function () {
+      if (typeof announce === "function") announce();
+      await loadPyodideScript();
+      pyodide = await window.loadPyodide({
+        indexURL: "https://cdn.jsdelivr.net/pyodide/v" + PYODIDE_VERSION + "/full/"
+      });
+      pyodide.setStdout({ batched: function (s) { if (active) active.appendOut(s, "stdout"); } });
+      pyodide.setStderr({ batched: function (s) { if (active) active.appendOut(s, "stderr"); } });
+      pyodide.registerJsModule("_sandbox_io", { readLine: function (p) { return active ? active.readLine(p) : Promise.resolve(""); } });
+      await pyodide.runPythonAsync(jspiSupported() ? PY_INSTALL_INPUT : PY_DISABLE_INPUT);
+      pyodide.runPython(PY_RUNNER);
+      return pyodide;
+    })();
+    return loadingPromise;
+  }
+
+  // Tiny shared runner for read-only lesson snippets (snippet-run.js): reuses the
+  // shared Pyodide + sandboxed grader behind the same page lock, so a snippet and
+  // a coding task never execute at once. Registered as soon as this script loads,
+  // independent of whether the page has an editor.
+  if (!window.ITCode) {
+    window.ITCode = {
+      run: async function (code, inputs) {
+        if (pageBusy) return { error: "Busy — let the current run finish, then try again." };
+        pageBusy = true; active = null;
+        try {
+          const py = await ensurePyodide();
+          py.globals.set("_code", String(code));
+          py.globals.set("_inputs", JSON.stringify(inputs || []));
+          py.globals.set("_force", "null");
+          return JSON.parse(py.runPython("_run_student(_code, _inputs, _force)"));
+        } finally {
+          pageBusy = false;
+        }
+      }
+    };
+  }
+
   // One editor instance, scoped to `root`: the whole document on the standalone
   // Live Coding page (and single-embed pages), or one .module-task wrapper for a
   // task embedded in a lesson. Lookups prefer the legacy ids, then fall back to
@@ -958,43 +1019,10 @@ del _sandbox_install_input, _b
       field.addEventListener("keydown", onKey);
     });
   }
-  function jspiSupported() {
-    return typeof WebAssembly !== "undefined" && typeof WebAssembly.Suspending === "function";
-  }
+  // Pyodide bootstrap (jspiSupported / loadPyodideScript / ensurePyodide) and the
+  // shared window.ITCode snippet runner now live at the top of the IIFE, above
+  // createApp, so read-only lesson snippets can run on pages with no coding task.
 
-  // ---- Pyodide --------------------------------------------------------------
-  function loadPyodideScript() {
-    if (window.loadPyodide) return Promise.resolve();
-    return new Promise(function (resolve, reject) {
-      const s = document.createElement("script");
-      s.src = PYODIDE_URL;
-      s.onload = resolve;
-      s.onerror = function () { reject(new Error("Couldn't reach the Python runtime CDN.")); };
-      document.head.appendChild(s);
-    });
-  }
-  async function ensurePyodide(announce) {
-    if (pyodide) return pyodide;
-    if (loadingPromise) return loadingPromise;
-    loadingPromise = (async function () {
-      if (announce) {
-        setRunLabel("Loading Python…", true);
-        appendOut("Loading Python runtime (one-time, ~10 MB)…", "info");
-        setCheckBusy(true, "Loading…");
-      }
-      await loadPyodideScript();
-      pyodide = await window.loadPyodide({
-        indexURL: "https://cdn.jsdelivr.net/pyodide/v" + PYODIDE_VERSION + "/full/"
-      });
-      pyodide.setStdout({ batched: function (s) { if (active) active.appendOut(s, "stdout"); } });
-      pyodide.setStderr({ batched: function (s) { if (active) active.appendOut(s, "stderr"); } });
-      pyodide.registerJsModule("_sandbox_io", { readLine: function (p) { return active ? active.readLine(p) : Promise.resolve(""); } });
-      await pyodide.runPythonAsync(jspiSupported() ? PY_INSTALL_INPUT : PY_DISABLE_INPUT);
-      pyodide.runPython(PY_RUNNER);
-      return pyodide;
-    })();
-    return loadingPromise;
-  }
 
   // ---- Run (interactive) ----------------------------------------------------
   function setRunLabel(text, on) {
@@ -1015,7 +1043,11 @@ del _sandbox_install_input, _b
     setRunLabel("Running…", true);
     setCheckBusy(true, "Check");
     try {
-      const py = await ensurePyodide(true);
+      const py = await ensurePyodide(function () {
+        setRunLabel("Loading Python…", true);
+        appendOut("Loading Python runtime (one-time, ~10 MB)…", "info");
+        setCheckBusy(true, "Loading…");
+      });
       await py.runPythonAsync(getCode());
     } catch (err) {
       appendOut((err && err.message) ? err.message : String(err), "stderr");
@@ -1043,7 +1075,7 @@ del _sandbox_install_input, _b
     renderResults(null); // clears
     const code = getCode();
     try {
-      await ensurePyodide(false);
+      await ensurePyodide();
     } catch (err) {
       setCheckBusy(false);
       setRunLabel("Run", false);
@@ -1242,27 +1274,6 @@ del _sandbox_install_input, _b
     editor.focus();
   });
   if (clearBtn) clearBtn.addEventListener("click", clearOut);
-
-  // Expose a tiny shared runner for read-only lesson snippets (snippet-run.js).
-  // Reuses the shared Pyodide and the sandboxed grader, behind the same page lock
-  // so a snippet and a coding task never execute at once. Registered once.
-  if (!window.ITCode) {
-    window.ITCode = {
-      run: async function (code, inputs) {
-        if (pageBusy) return { error: "Busy — let the current run finish, then try again." };
-        pageBusy = true; active = null;
-        try {
-          const py = await ensurePyodide(false);
-          py.globals.set("_code", String(code));
-          py.globals.set("_inputs", JSON.stringify(inputs || []));
-          py.globals.set("_force", "null");
-          return JSON.parse(py.runPython("_run_student(_code, _inputs, _force)"));
-        } finally {
-          pageBusy = false;
-        }
-      }
-    };
-  }
 
   async function boot() {
     if (fileEl) fileEl.textContent = current.id + ".py";
