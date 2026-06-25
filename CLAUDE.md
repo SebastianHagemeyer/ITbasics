@@ -1,7 +1,7 @@
 # CLAUDE.md
 
 Guidance for Claude when working in this repo: **Hallam IT Basics**, a static
-educational website for Year 7-9 computing students.
+educational website for Year 7-10 computing students.
 
 ## Writing style
 
