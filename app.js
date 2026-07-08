@@ -271,6 +271,7 @@
       '<a href="/"' + (path === "/" ? ' class="active"' : '') + '>Home</a>' +
       dropdown("Topics", topics) +
       dropdown("Play", play) +
+      '<a href="/assignments/"' + (active("/assignments/") ? ' class="active"' : '') + '>Assignments</a>' +
       '<a href="/leaderboard/"' + (active("/leaderboard/") ? ' class="active"' : '') + '>Leaderboard</a>';
   }
 

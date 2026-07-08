@@ -16,6 +16,13 @@
     { key: "os",          label: "Computer Skills", href: "/topics/os/" }
   ];
 
+  // Assignments shown on the progress page. Keys match the `assignment`
+  // column in assignment_submissions (and assignments.js).
+  var ASSIGNMENTS = [
+    { key: "petprogram", label: "Task 1: My First Program", href: "/assignments/pet-program/" }
+  ];
+  var TRACK_NAMES = { calc: "Pet Age Calculator", turtle: "Pet Turtle" };
+
   function el(id) { return document.getElementById(id); }
 
   function escapeHtml(s) {
@@ -101,6 +108,53 @@
     );
   }
 
+  // Submission per assignment: Supabase when online, else the local
+  // fallback copy the assignment page keeps.
+  async function loadSubmissions(student) {
+    var byKey = {};
+    if (window.ITBasics.isOnline()) {
+      var sb = window.ITBasics.client();
+      var res = await sb.from("assignment_submissions")
+        .select("assignment, track, submitted_at, updated_at")
+        .eq("student_code", student.code);
+      if (!res.error && res.data) {
+        res.data.forEach(function (r) { byKey[r.assignment] = r; });
+      }
+    }
+    ASSIGNMENTS.forEach(function (a) {
+      if (byKey[a.key]) return;
+      var raw = localStorage.getItem("itbasics-" + a.key + "-" + student.code + "-submission");
+      if (!raw) return;
+      try { byKey[a.key] = JSON.parse(raw); } catch (e) { /* ignore */ }
+    });
+    return byKey;
+  }
+
+  function assignmentCard(a, sub) {
+    var state, right, note;
+    if (!sub) {
+      state = "todo";
+      right = '<span class="progress-quiz-state">Not submitted</span>';
+      note = "Nothing handed in yet. Tap to start.";
+    } else {
+      state = "perfect";
+      right = '<span class="progress-quiz-state perfect">Submitted</span>';
+      var when = sub.updated_at || sub.submitted_at;
+      var date = when ? new Date(when).toLocaleDateString("en-AU", { day: "numeric", month: "short" }) : "";
+      note = (TRACK_NAMES[sub.track] || "Submitted") + (date ? " · handed in " + date : "");
+    }
+    return (
+      '<a class="progress-quiz ' + state + '" href="' + a.href + '">' +
+        '<div class="progress-quiz-top">' +
+          '<span class="progress-quiz-label">' + escapeHtml(a.label) + '</span>' +
+          '<span class="progress-quiz-right">' + right + '</span>' +
+        '</div>' +
+        '<div class="progress-bar"><span style="width:' + (sub ? 100 : 0) + '%"></span></div>' +
+        '<p class="progress-quiz-note">' + escapeHtml(note) + '</p>' +
+      '</a>'
+    );
+  }
+
   function render(student, summary) {
     el("progress-greeting").textContent = "Hey " + (student.first_name || student.code) + "!";
 
@@ -136,6 +190,14 @@
       return;
     }
     render(student, summarise(result.rows));
+
+    var subs = await loadSubmissions(student);
+    var assignBox = el("progress-assignments");
+    if (assignBox) {
+      assignBox.innerHTML = ASSIGNMENTS.map(function (a) {
+        return assignmentCard(a, subs[a.key]);
+      }).join("");
+    }
     status.textContent = "";
     el("progress-content").hidden = false;
   }

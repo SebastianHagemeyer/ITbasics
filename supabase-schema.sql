@@ -331,3 +331,52 @@ drop policy if exists wordcloud_update_anon on wordcloud;
 create policy wordcloud_select_anon on wordcloud for select to anon using (true);
 create policy wordcloud_insert_anon on wordcloud for insert to anon with check (true);
 create policy wordcloud_update_anon on wordcloud for update to anon using (true) with check (true);
+
+-- ============================================================
+-- Assignments (added July 2026)
+-- ============================================================
+-- One submission per student per assignment; resubmitting upserts, so the
+-- newest version wins and updated_at tracks when. `track` records which
+-- path the student chose (petprogram: 'calc' or 'turtle'), `code` is the
+-- full program text and `note` is their short reflection.
+
+create table if not exists assignment_submissions (
+  student_code  text not null references students(code) on delete cascade,
+  assignment    text not null,
+  track         text,
+  code          text not null,
+  note          text,
+  submitted_at  timestamptz not null default now(),
+  updated_at    timestamptz not null default now(),
+  primary key (student_code, assignment)
+);
+
+create index if not exists assignment_submissions_assignment_idx
+  on assignment_submissions(assignment);
+
+alter table assignment_submissions enable row level security;
+
+drop policy if exists assignments_select_anon on assignment_submissions;
+drop policy if exists assignments_insert_anon on assignment_submissions;
+drop policy if exists assignments_update_anon on assignment_submissions;
+
+create policy assignments_select_anon on assignment_submissions for select to anon using (true);
+create policy assignments_insert_anon on assignment_submissions for insert to anon with check (true);
+create policy assignments_update_anon on assignment_submissions for update to anon using (true) with check (true);
+
+-- Teacher view: everything you need to mark, one row per submission.
+create or replace view teacher_assignments as
+select
+  s.class,
+  s.last_name,
+  s.first_name,
+  s.code,
+  a.assignment,
+  a.track,
+  a.note,
+  a.code as program,
+  a.submitted_at,
+  a.updated_at
+from students s
+join assignment_submissions a on a.student_code = s.code
+order by s.class, s.last_name, s.first_name, a.assignment;
