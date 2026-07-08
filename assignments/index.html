@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Progress | Hallam IT Basics</title>
+  <title>Assignments | Hallam IT Basics</title>
   <link rel="icon" type="image/svg+xml" href="/logo-binary.svg" />
   <link rel="apple-touch-icon" href="/logo-binary.svg" />
   <link rel="stylesheet" href="/styles.css" />
@@ -49,6 +49,7 @@
             <a href="/sandbox/" role="menuitem">Sandbox</a>
           </div>
         </div>
+        <a href="/assignments/" class="active">Assignments</a>
         <a href="/leaderboard/">Leaderboard</a>
       </nav>
     </div>
@@ -57,47 +58,18 @@
   <main>
     <section class="page-hero">
       <div class="container">
-        <p class="eyebrow">Your journey</p>
-        <h1 id="progress-greeting">My Progress</h1>
-        <p class="lead">Everything you've done in IT Basics so far. Retake any quiz to beat your best score; your highest stays on the leaderboard.</p>
+        <p class="eyebrow">Show what you can do</p>
+        <h1>Assignments</h1>
+        <p class="lead">
+          Real tasks that get marked. Everything happens on the site: write your code, run it,
+          submit it, done. You can resubmit any time; your newest version counts.
+        </p>
       </div>
     </section>
 
     <div class="container section">
-      <div id="progress-status" class="leaderboard-status">Loading…</div>
-
-      <div id="progress-content" hidden>
-        <div class="progress-summary-card">
-          <div class="progress-count">
-            <span id="progress-done-count">0</span>/<span id="progress-total-count">8</span>
-            <small>modules done</small>
-          </div>
-          <p id="progress-summary" class="progress-summary-text"></p>
-        </div>
-
-        <h2 class="section-title">My Modules</h2>
-        <div id="progress-quizzes" class="progress-quiz-list"></div>
-
-        <h2 class="section-title">My Assignments</h2>
-        <div id="progress-assignments" class="progress-quiz-list"></div>
-
-        <h2 class="section-title">Coding &amp; Freeplay</h2>
-        <div class="progress-stats">
-          <a class="progress-stat" href="/challenges/">
-            <span class="progress-stat-num" id="progress-livecoding">0</span>
-            <span class="progress-stat-label">Live Coding challenges cracked</span>
-          </a>
-          <a class="progress-stat" href="/freeplay/">
-            <span class="progress-stat-num" id="progress-freeplay">0</span>
-            <span class="progress-stat-label">Freeplay questions correct</span>
-          </a>
-        </div>
-
-        <div class="progress-cta">
-          <a href="/quizzes/" class="btn btn-primary">Take a quiz</a>
-          <a href="/leaderboard/" class="btn btn-ghost">See the leaderboard</a>
-        </div>
-      </div>
+      <div id="assignments-status" class="leaderboard-status">Loading&hellip;</div>
+      <div id="assignments-list" class="assignments-list"></div>
     </div>
   </main>
 
@@ -110,6 +82,6 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
   <script src="/supabase-config.js"></script>
   <script src="/app.js"></script>
-  <script src="/progress.js"></script>
+  <script src="/assignments.js"></script>
 </body>
 </html>

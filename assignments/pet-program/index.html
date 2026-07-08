@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My First Program | Hallam IT Basics</title>
+  <link rel="icon" type="image/svg+xml" href="/logo-binary.svg" />
+  <link rel="apple-touch-icon" href="/logo-binary.svg" />
+  <link rel="stylesheet" href="/styles.css" />
+  <script>
+    (function () {
+      try {
+        if (!JSON.parse(localStorage.getItem("itbasics-session"))) {
+          location.replace("/");
+        }
+      } catch (e) { location.replace("/"); }
+    })();
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/" class="logo">
+        <img class="logo-mark" src="/logo-binary.svg" alt="" width="32" height="32" />
+        <span>Hallam IT Basics</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="/">Home</a>
+        <div class="nav-dropdown" data-open="false">
+          <button type="button" class="nav-dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+            Topics
+            <svg class="nav-chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="nav-dropdown-menu" role="menu">
+            <a href="/topics/programming/" role="menuitem">Programming</a>
+            <a href="/topics/html/" role="menuitem">HTML</a>
+            <a href="/topics/python/" role="menuitem">Python</a>
+            <a href="/quizzes/" role="menuitem">Quizzes</a>
+          </div>
+        </div>
+        <div class="nav-dropdown" data-open="false">
+          <button type="button" class="nav-dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+            Play
+            <svg class="nav-chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="nav-dropdown-menu" role="menu">
+            <a href="/freeplay/" role="menuitem">Freeplay</a>
+            <a href="/challenges/" role="menuitem">Live Coding</a>
+            <a href="/sandbox/" role="menuitem">Sandbox</a>
+          </div>
+        </div>
+        <a href="/assignments/" class="active">Assignments</a>
+        <a href="/leaderboard/">Leaderboard</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Assignments &middot; Task 1</p>
+        <h1>My First Program: The Pet Project</h1>
+        <p class="lead">
+          Build a real, working Python program from scratch, one small step at a time.
+          You choose the pet <em>and</em> you choose the path: crunch numbers, or draw with a turtle.
+        </p>
+      </div>
+    </section>
+
+    <div class="container section assign-page">
+
+      <!-- ============ intro ============ -->
+      <section class="assign-intro">
+        <div class="callout">
+          <strong>How this works:</strong> everything happens on this page. Write and run your code in
+          the editor below, follow the steps in order, and press <strong>Submit</strong> at the bottom
+          when you're done. Your code saves automatically on this computer as you type.
+          <a href="#rubric">How you'll be marked</a> is at the bottom (11 marks).
+        </div>
+      </section>
+
+      <!-- ============ track picker ============ -->
+      <section class="assign-tracks">
+        <h2>Step 0: Pick your path</h2>
+        <p>
+          Both paths teach the exact same skills (<code>input()</code>, <code>int()</code>, loops,
+          <code>if</code>, and handling silly input) and both are marked with the same rubric.
+          Pick the one that sounds more fun. You can switch any time; each path keeps its own saved code.
+        </p>
+        <div class="track-picker">
+          <button type="button" class="track-card" data-track="calc">
+            <span class="track-emoji" aria-hidden="true">&#128054;</span>
+            <span class="track-name">Pet Age Calculator</span>
+            <span class="track-desc">How old is your dog, cat or goldfish in pet years?
+              A question-and-answer program that does the maths for you.</span>
+            <span class="track-tag">For the number crunchers</span>
+          </button>
+          <button type="button" class="track-card" data-track="turtle">
+            <span class="track-emoji" aria-hidden="true">&#128034;</span>
+            <span class="track-name">Pet Turtle</span>
+            <span class="track-desc">Adopt a turtle that lives in your browser and draws
+              whatever you code: shapes, spirals, even its own portrait.</span>
+            <span class="track-tag">For the artists</span>
+          </button>
+        </div>
+      </section>
+
+      <!-- ============ workspace ============ -->
+      <section id="workspace" class="assign-workspace" hidden>
+        <h2>Your workspace</h2>
+        <div class="assign-shell">
+          <div class="sandbox-editor assign-editor">
+            <div class="sandbox-bar">
+              <span class="sandbox-title" id="assign-file-label">pet_age.py</span>
+              <div class="sandbox-bar-actions">
+                <button type="button" class="btn btn-primary sandbox-run" id="assign-run">
+                  <span class="sandbox-run-label">Run</span>
+                </button>
+              </div>
+            </div>
+            <div class="sandbox-code language-python" id="assign-code" spellcheck="false"></div>
+          </div>
+          <div class="assign-right">
+            <div class="sandbox-output turtle-panel" id="turtle-panel" hidden>
+              <div class="sandbox-bar">
+                <span class="sandbox-title">Your pet turtle</span>
+              </div>
+              <div class="turtle-stage">
+                <canvas id="turtle-canvas" width="560" height="380"></canvas>
+                <canvas id="turtle-sprite" width="560" height="380"></canvas>
+              </div>
+            </div>
+            <div class="sandbox-output assign-output">
+              <div class="sandbox-bar">
+                <span class="sandbox-title">Output</span>
+              </div>
+              <pre class="sandbox-out-body" id="assign-output"></pre>
+            </div>
+          </div>
+        </div>
+        <p class="sandbox-hint">
+          <kbd>Ctrl</kbd>+<kbd>Enter</kbd> to run &middot; <kbd>Tab</kbd> inserts 4 spaces &middot;
+          Python loads the first time you press Run (5-10 seconds), then it's instant &middot;
+          the Run button turns into <strong>Stop</strong> while your program is going.
+        </p>
+      </section>
+
+      <!-- ================================================================
+           CALCULATOR TRACK
+           ================================================================ -->
+      <div class="track-pane" data-track="calc" hidden>
+
+        <section class="assign-step">
+          <h2><span class="step-num">Part 0</span> Choose your pet</h2>
+          <p>
+            The maths for "pet years" is the same idea for every animal: take the human years and
+            multiply by a number. Different pets get different numbers because they age at different speeds.
+          </p>
+          <table class="data-table">
+            <thead><tr><th>Pet</th><th>Multiplier</th><th>A good variable name</th></tr></thead>
+            <tbody>
+              <tr><td>&#128054; Dog</td><td><code>&times; 7</code></td><td><code>dog_years</code></td></tr>
+              <tr><td>&#128049; Cat</td><td><code>&times; 6</code></td><td><code>cat_years</code></td></tr>
+              <tr><td>&#128031; Goldfish</td><td><code>&times; 5</code></td><td><code>fish_years</code></td></tr>
+              <tr><td>&#129409; Or make one up!</td><td><code>&times; ?</code></td><td>your call</td></tr>
+            </tbody>
+          </table>
+          <p>
+            The example code below uses <code>pet_years</code> and you fill in the multiplier.
+            Vets have fancier formulas; we get to those at the end if you're quick.
+          </p>
+          <div class="callout">
+            <strong>Before we start: comments.</strong> Anything after a <code>#</code> is a
+            <em>comment</em>: a note to yourself that Python completely ignores. Lazy comments repeat
+            the code (<code>age = 5  # set age to 5</code>). Good comments explain <em>why</em>
+            (<code>age = 5  # the pet's age in human years</code>). Every time you see
+            <strong>ADD A COMMENT HERE</strong> in this task, that's your job, not mine.
+          </div>
+        </section>
+
+        <section class="assign-step">
+          <h2><span class="step-num">Part 1</span> The keep-alive loop</h2>
+          <p>
+            Before we calculate anything, we need a program that keeps running and asks questions over
+            and over until we tell it to stop. This pattern is called a <strong>loop</strong>.
+            Load this into the editor (or type it in exactly) and press Run:
+          </p>
+          <div class="snippet" data-snippet="calc-1"></div>
+          <p>
+            Notice how it never stops asking? <code>while True:</code> means
+            <em>"keep going forever"</em>. Press the red <strong>Stop</strong> button to kill it.
+            We'll fix this politely in Part 4.
+          </p>
+          <div class="check-list">
+            <label class="check-item"><input type="checkbox" class="self-check" data-check="c1-run" /> I ran the program.</label>
+            <label class="check-item"><input type="checkbox" class="self-check" data-check="c1-forever" /> I understand that <code>while True</code> means "keep going forever".</label>
+            <label class="check-item"><input type="checkbox" class="self-check" data-check="c1-stop" /> I know how to stop a program that won't stop on its own.</label>
+          </div>
+        </section>
+
+        <section class="assign-step">
+          <h2><span class="step-num">Part 2</span> Turn the answer into a number</h2>
+          <p>
+            Right now the program treats the age like <em>text</em>, not a number. If you try to do
+            maths on it, Python throws a tantrum. Convert the input into an integer with <code>int()</code>:
+          </p>
+          <div class="snippet" data-snippet="calc-2"></div>
+          <p><strong>Try this:</strong> run it and type <code>5</code>. Works? Now run it again and type
+            <code>five</code> (the word). What happens?</p>
+          <label class="reflect-label" for="c-reflect-err">Write down the error message you got, and why you think it happened:</label>
+          <textarea id="c-reflect-err" class="reflect" data-reflect="c-err" rows="2" placeholder="ValueError: ..."></textarea>
+        </section>
+
+        <section class="assign-step">
+          <h2><span class="step-num">Part 3</span> Do the maths</h2>
+          <p>
+            Now that <code>age</code> is a real number, multiply it by your pet's number.
+            Fill in the blank (7 for dog, 6 for cat, 5 for goldfish):
+          </p>
+          <div class="snippet" data-snippet="calc-3"></div>
+          <p><strong>Test cases.</strong> Run your program and check each one:</p>
+          <table class="data-table">
+            <thead><tr><th>Pet age (human years)</th><th>What you expect</th><th>What the program said</th></tr></thead>
+            <tbody>
+              <tr><td>1</td><td>?</td><td>&nbsp;</td></tr>
+              <tr><td>3</td><td>?</td><td>&nbsp;</td></tr>
+              <tr><td>10</td><td>?</td><td>&nbsp;</td></tr>
+              <tr><td>0</td><td>?</td><td>&nbsp;</td></tr>
+            </tbody>
+          </table>
+          <label class="reflect-label" for="c-reflect-surprise">Did anything surprise you?</label>
+          <textarea id="c-reflect-surprise" class="reflect" data-reflect="c-surprise" rows="2" placeholder="e.g. what happened with 0?"></textarea>
+        </section>
+
+        <section class="assign-step">
+          <h2><span class="step-num">Part 4</span> A polite way to quit</h2>
+          <p>
+            Forever-loops are annoying. Let's give the user a way out: typing <code>quit</code> should
+            end the program neatly.
+          </p>
+          <div class="snippet" data-snippet="calc-4"></div>
+          <p><strong>Two new things to notice:</strong></p>
+          <ul>
+            <li><code>if</code> only runs the indented code below it when the condition is True.</li>
+            <li><code>break</code> jumps out of the loop straight away.</li>
+          </ul>
+          <div class="check-list">
+            <label class="check-item"><input type="checkbox" class="self-check" data-check="c4-28" /> Typing <code>4</code> gives me the right answer for my pet (28 for a dog).</label>
+            <label class="check-item"><input type="checkbox" class="self-check" data-check="c4-quit" /> Typing <code>quit</code> ends the program neatly.</label>
+            <label class="check-item"><input type="checkbox" class="self-check" data-check="c4-caps" /> Typing <code>QUIT</code> (capitals) does NOT end the program, and I can explain why.</label>
+          </div>
+          <label class="reflect-label" for="c-reflect-caps">Why doesn't <code>QUIT</code> in capitals work?</label>
+          <textarea id="c-reflect-caps" class="reflect" data-reflect="c-caps" rows="2" placeholder='Hint: is "QUIT" == "quit"?'></textarea>
+        </section>
+
+        <section class="assign-step">
+          <h2><span class="step-num">Part 5</span> Handling silly input</h2>
+          <p>
+            What happens if someone types <code>banana</code> instead of a number? Crash. Not great.
+            <code>try</code> and <code>except</code> let us catch the mistake instead:
+          </p>
+          <div class="snippet" data-snippet="calc-5"></div>
+          <p><strong>Try to break it:</strong> type <code>banana</code>. Type a decimal like
+            <code>2.5</code>. Type a negative number like <code>-3</code>.</p>
+          <label class="reflect-label" for="c-reflect-break">Which inputs still caused problems? What would a real vet program do about them?</label>
+          <textarea id="c-reflect-break" class="reflect" data-reflect="c-break" rows="2"></textarea>
+        </section>
+
+        <section class="assign-step assign-extensions">
+          <h2><span class="step-num">Extension</span> For the keen ones</h2>
+          <p>Pick <strong>at least one</strong>. There's a rubric mark waiting for it.</p>
+          <ol class="steps">
+            <li><strong>Ask for the pet's name too.</strong> Print something like
+              <em>"Rex is 35 in dog years."</em></li>
+            <li><strong>A more accurate formula.</strong> Vets often say: year 1 of a dog's life = 15
+              human years, year 2 adds another 9, and every year after that adds 5. So a 4-year-old dog
+              = 15 + 9 + 5 + 5 = 34. Build it.</li>
+            <li><strong>Keep a list.</strong> Save every pet the user enters into a list. When they type
+              <code>quit</code>, print all the pets and their pet-year ages.</li>
+            <li><strong>Support multiple pet types.</strong> Ask what kind of pet it is (dog, cat or
+              goldfish) and use the right multiplier for each. Hint: <code>if / elif / else</code>.</li>
+          </ol>
+        </section>
+
+        <section class="assign-step">
+          <h2><span class="step-num">Finish</span> Final self-check</h2>
+          <div class="check-list">
+            <label class="check-item"><input type="checkbox" class="self-check" data-check="c-final-ask" /> My program asks for the pet's age.</label>
+            <label class="check-item"><input type="checkbox" class="self-check" data-check="c-final-maths" /> It calculates pet years correctly for the pet I chose.</label>
+            <label class="check-item"><input type="checkbox" class="self-check" data-check="c-final-quit" /> It keeps asking until the user types <code>quit</code>.</label>
+            <label class="check-item"><input type="checkbox" class="self-check" data-check="c-final-crash" /> It does not crash when someone types nonsense.</label>
+            <label class="check-item"><input type="checkbox" class="self-check" data-check="c-final-comments" /> I added comments that explain what each part does.</label>
+            <label class="check-item"><input type="checkbox" class="self-check" data-check="c-final-ext" /> I tried at least one extension (or gave it a real go).</label>
+          </div>
+        </section>
+      </div>
+
+      <!-- ================================================================
+           TURTLE TRACK
+           ================================================================ -->
+      <div class="track-pane" data-track="turtle" hidden>
+
+        <section class="assign-step">
+          <h2><span class="step-num">Part 0</span> Meet your pet turtle</h2>
+          <p>
+            Congratulations, you've adopted a turtle. It lives in the panel above, it holds a pen, and
+            it does <em>exactly</em> what your code says, nothing more, nothing less. These are the
+            commands it understands (after <code>import turtle</code>):
+          </p>
+          <table class="data-table">
+            <thead><tr><th>Command</th><th>What the turtle does</th></tr></thead>
+            <tbody>
+              <tr><td><code>turtle.forward(100)</code></td><td>Walks 100 steps in the direction it's facing</td></tr>
+              <tr><td><code>turtle.left(90)</code> / <code>turtle.right(90)</code></td><td>Turns on the spot (degrees)</td></tr>
+              <tr><td><code>turtle.pencolor("red")</code></td><td>Changes the pen colour (names or hex codes)</td></tr>
+              <tr><td><code>turtle.pensize(5)</code></td><td>Makes the line thicker</td></tr>
+              <tr><td><code>turtle.penup()</code> / <code>turtle.pendown()</code></td><td>Stops / starts drawing while walking</td></tr>
+              <tr><td><code>turtle.circle(50)</code></td><td>Draws a circle</td></tr>
+              <tr><td><code>turtle.speed(10)</code></td><td>Walks faster (1 = slow, 10 = fast, 0 = instant)</td></tr>
+              <tr><td><code>turtle.write("hi")</code></td><td>Writes text where it's standing</td></tr>
+            </tbody>
+          </table>
+          <div class="callout">
+            <strong>Before we start: comments.</strong> Anything after a <code>#</code> is a
+            <em>comment</em>: a note to yourself that Python completely ignores. Lazy comments repeat
+            the code (<code>turtle.left(90)  # turn left 90</code>). Good comments explain <em>why</em>
+            (<code>turtle.left(90)  # corner of the square</code>). Every time you see
+            <strong>ADD A COMMENT HERE</strong> in this task, that's your job, not mine.
+          </div>
+        </section>
+
+        <section class="assign-step">
+          <h2><span class="step-num">Part 1</span> First steps</h2>
+          <p>
+            Load this into the editor and press Run. Watch the panel above: your turtle should walk
+            three sides of a square, one instruction at a time, in order. That's what a
+            <strong>program</strong> is: a sequence of instructions.
+          </p>
+          <div class="snippet" data-snippet="turtle-1"></div>
+          <p><strong>Your turn:</strong> finish the square (one more <code>forward</code> and
+            <code>left</code>), then try changing a number and see what happens.</p>
+          <div class="check-list">
+            <label class="check-item"><input type="checkbox" class="self-check" data-check="t1-run" /> I ran the program and watched the turtle draw.</label>
+            <label class="check-item"><input type="checkbox" class="self-check" data-check="t1-square" /> I finished the square myself.</label>
+            <label class="check-item"><input type="checkbox" class="self-check" data-check="t1-order" /> I understand the instructions run in order, top to bottom.</label>
+          </div>
+        </section>
+
+        <section class="assign-step">
+          <h2><span class="step-num">Part 2</span> Ask the user how big</h2>
+          <p>
+            Hard-coded numbers are boring. Let's ask the user how big the square should be.
+            <code>input()</code> asks a question, but it always gives back <em>text</em>, and the turtle
+            needs a <em>number</em> of steps. <code>int()</code> converts text into an integer:
+          </p>
+          <div class="snippet" data-snippet="turtle-2"></div>
+          <p><strong>Try this:</strong> run it and type <code>150</code>. Works? Run it again and type
+            <code>five</code> (the word). What happens?</p>
+          <label class="reflect-label" for="t-reflect-err">Write down the error message you got, and why you think it happened:</label>
+          <textarea id="t-reflect-err" class="reflect" data-reflect="t-err" rows="2" placeholder="ValueError: ..."></textarea>
+          <div class="callout">
+            <strong>Also: ugh.</strong> Did you notice we typed <code>forward</code> and
+            <code>left</code> four times each? Programmers hate repeating themselves. Part 3 fixes it.
+          </div>
+        </section>
+
+        <section class="assign-step">
+          <h2><span class="step-num">Part 3</span> Loops: draw any shape</h2>
+          <p>
+            A <code>for</code> loop repeats code a set number of times. Four repeats with a 90&deg; turn
+            makes a square. But here's the magic: the turns in <em>any</em> closed shape always add up
+            to 360&deg;. So <code>angle = 360 / sides</code> draws <em>any</em> regular shape:
+          </p>
+          <div class="snippet" data-snippet="turtle-3"></div>
+          <p><strong>Test cases.</strong> Run it and check each one:</p>
+          <table class="data-table">
+            <thead><tr><th>Sides</th><th>What you expect</th><th>What you got</th></tr></thead>
+            <tbody>
+              <tr><td>3</td><td>Triangle</td><td>&nbsp;</td></tr>
+              <tr><td>4</td><td>Square</td><td>&nbsp;</td></tr>
+              <tr><td>6</td><td>Hexagon</td><td>&nbsp;</td></tr>
+              <tr><td>50</td><td>?</td><td>&nbsp;</td></tr>
+            </tbody>
+          </table>
+          <label class="reflect-label" for="t-reflect-fifty">What happened with 50 sides? Why?</label>
+          <textarea id="t-reflect-fifty" class="reflect" data-reflect="t-fifty" rows="2"></textarea>
+        </section>
+
+        <section class="assign-step">
+          <h2><span class="step-num">Part 4</span> A shape menu (and a polite quit)</h2>
+          <p>
+            Real programs keep going until you're done with them. <code>while True:</code> means "keep
+            going forever", <code>break</code> jumps out of the loop, and <code>if / elif / else</code>
+            picks what to draw. All together now:
+          </p>
+          <div class="snippet" data-snippet="turtle-4"></div>
+          <p><strong>Two new things to notice:</strong></p>
+          <ul>
+            <li><code>if</code> only runs the indented code below it when the condition is True.</li>
+            <li><code>break</code> jumps out of the loop straight away.</li>
+          </ul>
+          <div class="check-list">
+            <label class="check-item"><input type="checkbox" class="self-check" data-check="t4-star" /> I drew a star. (Why 144&deg;? Try working it out!)</label>
+            <label class="check-item"><input type="checkbox" class="self-check" data-check="t4-quit" /> Typing <code>quit</code> ends the program neatly.</label>
+            <label class="check-item"><input type="checkbox" class="self-check" data-check="t4-caps" /> Typing <code>QUIT</code> (capitals) does NOT end the program, and I can explain why.</label>
+          </div>
+          <label class="reflect-label" for="t-reflect-caps">Why doesn't <code>QUIT</code> in capitals work?</label>
+          <textarea id="t-reflect-caps" class="reflect" data-reflect="t-caps" rows="2" placeholder='Hint: is "QUIT" == "quit"?'></textarea>
+        </section>
+
+        <section class="assign-step">
+          <h2><span class="step-num">Part 5</span> Handling silly input</h2>
+          <p>
+            What happens if someone answers <code>banana</code> when your program asks "How big?"
+            Crash. Not great. <code>try</code> and <code>except</code> let us catch the mistake instead:
+          </p>
+          <div class="snippet" data-snippet="turtle-5"></div>
+          <p><strong>Try to break it:</strong> type <code>banana</code> for the size. Type a decimal
+            like <code>2.5</code>. Type a negative number like <code>-100</code>.</p>
+          <label class="reflect-label" for="t-reflect-break">Which inputs still caused problems? What did a negative size do?</label>
+          <textarea id="t-reflect-break" class="reflect" data-reflect="t-break" rows="2"></textarea>
+        </section>
+
+        <section class="assign-step assign-extensions">
+          <h2><span class="step-num">Extension</span> For the keen ones</h2>
+          <p>Pick <strong>at least one</strong>. There's a rubric mark waiting for it.</p>
+          <ol class="steps">
+            <li><strong>Rainbow spiral.</strong> Load the example below: the loop counter changes the
+              size <em>and</em> the colour each time round. Make it your own.</li>
+            <li><strong>Draw your pet's face.</strong> Load the second example: circles, fills and a
+              name tag. Turn it into YOUR pet: ears, whiskers, a hat, anything.</li>
+            <li><strong>More shapes in the menu.</strong> Add <code>hexagon</code>, <code>circle</code>
+              or your own shape to the Part 5 program.</li>
+            <li><strong>Name tag.</strong> Ask the user for the pet's name with <code>input()</code>
+              and <code>turtle.write()</code> it under the drawing.</li>
+          </ol>
+          <div class="snippet" data-snippet="turtle-x1"></div>
+          <div class="snippet" data-snippet="turtle-x2"></div>
+        </section>
+
+        <section class="assign-step">
+          <h2><span class="step-num">Finish</span> Final self-check</h2>
+          <div class="check-list">
+            <label class="check-item"><input type="checkbox" class="self-check" data-check="t-final-input" /> My program asks the user at least one question with <code>input()</code>.</label>
+            <label class="check-item"><input type="checkbox" class="self-check" data-check="t-final-int" /> It converts the answer to a number with <code>int()</code>.</label>
+            <label class="check-item"><input type="checkbox" class="self-check" data-check="t-final-loop" /> It uses a loop, and it keeps going until the user types <code>quit</code>.</label>
+            <label class="check-item"><input type="checkbox" class="self-check" data-check="t-final-crash" /> It does not crash when someone types nonsense.</label>
+            <label class="check-item"><input type="checkbox" class="self-check" data-check="t-final-comments" /> I added comments that explain what each part does.</label>
+            <label class="check-item"><input type="checkbox" class="self-check" data-check="t-final-ext" /> I tried at least one extension (or gave it a real go).</label>
+          </div>
+        </section>
+      </div>
+
+      <!-- ============ rubric (shared) ============ -->
+      <section class="assign-step" id="rubric">
+        <h2><span class="step-num">Rubric</span> How you'll be marked (11 marks)</h2>
+        <table class="data-table rubric-table">
+          <thead><tr><th>Criterion</th><th>Marks</th><th>Description</th></tr></thead>
+          <tbody>
+            <tr><td rowspan="3"><strong>Code works</strong></td>
+                <td>5</td><td>Runs without errors and does the right thing</td></tr>
+            <tr><td>3</td><td>Runs but has bugs or wrong output sometimes</td></tr>
+            <tr><td>1</td><td>Doesn't run properly</td></tr>
+            <tr><td rowspan="3"><strong>Input handling</strong></td>
+                <td>2</td><td>Asks the user for input and copes with bad answers (letters, empty, negatives)</td></tr>
+            <tr><td>1</td><td>Takes input but doesn't check for problems</td></tr>
+            <tr><td>0</td><td>Input is broken or missing</td></tr>
+            <tr><td rowspan="3"><strong>Code quality</strong></td>
+                <td>2</td><td>Tidy, with helpful comments</td></tr>
+            <tr><td>1</td><td>Readable but few or no comments</td></tr>
+            <tr><td>0</td><td>Messy or hard to follow</td></tr>
+            <tr><td rowspan="2"><strong>Going further</strong></td>
+                <td>1</td><td>Attempted an extension or added something extra</td></tr>
+            <tr><td>0</td><td>Stuck to the basics (still fine)</td></tr>
+            <tr><td rowspan="2"><strong>Short note</strong></td>
+                <td>1</td><td>Wrote a short note: what you built and what was trickiest</td></tr>
+            <tr><td>0</td><td>No note</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- ============ submit (shared) ============ -->
+      <section class="assign-step assign-submit">
+        <h2><span class="step-num">Submit</span> Hand it in</h2>
+        <p>
+          Make sure your finished program is in the editor above (run it one last time!), write a short
+          note, and press Submit. You can submit again as many times as you like; your newest version
+          is the one that counts.
+        </p>
+        <label class="reflect-label" for="submit-note">
+          Your note (2-3 sentences): what did you build, and what was the trickiest part?
+        </label>
+        <textarea id="submit-note" rows="3"
+          placeholder="I built a cat age calculator. The trickiest part was..."></textarea>
+        <div class="submit-row">
+          <button type="button" class="btn btn-primary" id="submit-btn">Submit my program</button>
+          <div id="submit-status" class="submit-status" role="status"></div>
+        </div>
+        <p class="assign-stuck">
+          Stuck? Talk to the person next to you first. If you're both stuck, ask the teacher.
+        </p>
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; Hallam IT Basics &middot; For Years 7-9 computing classes.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/prism.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-python.min.js"></script>
+  <script src="/supabase-config.js"></script>
+  <script src="/app.js"></script>
+  <script src="/pyrun.js"></script>
+  <script src="/petprogram.js"></script>
+</body>
+</html>
