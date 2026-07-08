@@ -6,12 +6,45 @@
 (function () {
   "use strict";
 
+  // Custom SVG pet icons (same art as the track picker on the task page).
+  var ICON_DOG =
+    '<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">' +
+      '<path d="M20 15 C9 16 6 30 12 39 C15 31 19 25 26 21 Z" fill="#8a5a2b"/>' +
+      '<path d="M44 15 C55 16 58 30 52 39 C49 31 45 25 38 21 Z" fill="#8a5a2b"/>' +
+      '<circle cx="32" cy="33" r="20" fill="#d99a5b"/>' +
+      '<circle cx="40" cy="28" r="6.5" fill="#8a5a2b" opacity="0.85"/>' +
+      '<circle cx="24" cy="28" r="2.6" fill="#1a202c"/>' +
+      '<circle cx="40" cy="28" r="2.6" fill="#1a202c"/>' +
+      '<circle cx="24.9" cy="27.1" r="0.9" fill="#ffffff"/>' +
+      '<circle cx="40.9" cy="27.1" r="0.9" fill="#ffffff"/>' +
+      '<ellipse cx="32" cy="42.5" rx="11" ry="8.5" fill="#f3d4ae"/>' +
+      '<ellipse cx="32" cy="39.5" rx="3.6" ry="2.8" fill="#3b2a1d"/>' +
+      '<path d="M32 42 v3.2 M32 45.2 c-2 3 -5.2 3 -6.8 0.8 M32 45.2 c2 3 5.2 3 6.8 0.8" ' +
+            'stroke="#3b2a1d" stroke-width="1.8" fill="none" stroke-linecap="round"/>' +
+      '<path d="M29.4 47.5 c0 4.4 5.2 4.4 5.2 0 v-1.6 h-5.2 Z" fill="#f27d93"/>' +
+    '</svg>';
+  var ICON_TURTLE =
+    '<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">' +
+      '<path d="M14 32 L5 27.5 L7.5 32 L5 36.5 Z" fill="#2f855a"/>' +
+      '<ellipse cx="23" cy="16.5" rx="7" ry="4.5" transform="rotate(-35 23 16.5)" fill="#38a169"/>' +
+      '<ellipse cx="41" cy="16.5" rx="7" ry="4.5" transform="rotate(35 41 16.5)" fill="#38a169"/>' +
+      '<ellipse cx="23" cy="47.5" rx="7" ry="4.5" transform="rotate(35 23 47.5)" fill="#38a169"/>' +
+      '<ellipse cx="41" cy="47.5" rx="7" ry="4.5" transform="rotate(-35 41 47.5)" fill="#38a169"/>' +
+      '<circle cx="52" cy="32" r="7.5" fill="#48bb78"/>' +
+      '<circle cx="55" cy="29.3" r="1.4" fill="#1a202c"/>' +
+      '<circle cx="55" cy="34.7" r="1.4" fill="#1a202c"/>' +
+      '<ellipse cx="30" cy="32" rx="18" ry="15" fill="#2e9e63" stroke="#1f7a4a" stroke-width="2"/>' +
+      '<polygon points="30,24 37,28 37,36 30,40 23,36 23,28" fill="#3db878" stroke="#1f7a4a" stroke-width="1.5"/>' +
+      '<path d="M30 24 L30 18 M37 28 L43.5 24.5 M37 36 L43.5 39.5 M30 40 L30 46 M23 36 L16.5 39.5 M23 28 L16.5 24.5" ' +
+            'stroke="#1f7a4a" stroke-width="1.5" fill="none"/>' +
+    '</svg>';
+
   var ASSIGNMENTS = [
     {
       key: "petprogram",
       title: "Task 1 · My First Program: The Pet Project",
       href: "/assignments/pet-program/",
-      emoji: "\u{1F436}\u{1F422}",
+      icon: ICON_DOG + ICON_TURTLE,
       desc: "Build your first real Python program, step by step. Choose your path: " +
             "a Pet Age Calculator for the number crunchers, or a drawing Pet Turtle for the artists.",
       marks: 11
@@ -65,7 +98,7 @@
     }
     return (
       '<a class="assignment-card ' + cls + '" href="' + a.href + '">' +
-        '<span class="assignment-emoji" aria-hidden="true">' + a.emoji + '</span>' +
+        '<span class="assignment-icon" aria-hidden="true">' + a.icon + '</span>' +
         '<span class="assignment-body">' +
           '<span class="assignment-title">' + escapeHtml(a.title) + '</span>' +
           '<span class="assignment-desc">' + escapeHtml(a.desc) + '</span>' +
