@@ -371,6 +371,27 @@ del _pyrun_install_turtle
   function tx(c, x) { return c.canvas.width / 2 + x; }
   function ty(c, y) { return c.canvas.height / 2 - y; }
 
+  // The turtle sprite: custom SVG art (top-down, facing right = heading 0),
+  // rendered onto the overlay canvas via an Image. Same drawing as the
+  // track-picker icon on the assignment page.
+  const TURTLE_SPRITE_SVG =
+    '<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">' +
+      '<path d="M14 32 L5 27.5 L7.5 32 L5 36.5 Z" fill="#2f855a"/>' +
+      '<ellipse cx="23" cy="16.5" rx="7" ry="4.5" transform="rotate(-35 23 16.5)" fill="#38a169"/>' +
+      '<ellipse cx="41" cy="16.5" rx="7" ry="4.5" transform="rotate(35 41 16.5)" fill="#38a169"/>' +
+      '<ellipse cx="23" cy="47.5" rx="7" ry="4.5" transform="rotate(35 23 47.5)" fill="#38a169"/>' +
+      '<ellipse cx="41" cy="47.5" rx="7" ry="4.5" transform="rotate(-35 41 47.5)" fill="#38a169"/>' +
+      '<circle cx="52" cy="32" r="7.5" fill="#48bb78"/>' +
+      '<circle cx="55" cy="29.3" r="1.4" fill="#1a202c"/>' +
+      '<circle cx="55" cy="34.7" r="1.4" fill="#1a202c"/>' +
+      '<ellipse cx="30" cy="32" rx="18" ry="15" fill="#2e9e63" stroke="#1f7a4a" stroke-width="2"/>' +
+      '<polygon points="30,24 37,28 37,36 30,40 23,36 23,28" fill="#3db878" stroke="#1f7a4a" stroke-width="1.5"/>' +
+      '<path d="M30 24 L30 18 M37 28 L43.5 24.5 M37 36 L43.5 39.5 M30 40 L30 46 M23 36 L16.5 39.5 M23 28 L16.5 24.5" ' +
+            'stroke="#1f7a4a" stroke-width="1.5" fill="none"/>' +
+    '</svg>';
+  const turtleSpriteImg = new Image();
+  turtleSpriteImg.src = "data:image/svg+xml;utf8," + encodeURIComponent(TURTLE_SPRITE_SVG);
+
   const TURTLE_IO = {
     animateOk: function () { return jspiSupported(); },
     sleepMs: function (seconds) { return interruptibleSleep(seconds); },
@@ -432,13 +453,20 @@ del _pyrun_install_turtle
       if (!visible) return;
       c.save();
       c.translate(tx(c, x), ty(c, y));
-      // Heading 0 = east. The emoji faces left on most platforms, so
-      // point it by rotating an extra 180 degrees.
-      c.rotate(-heading * Math.PI / 180 + Math.PI);
-      c.font = "22px 'Segoe UI Emoji', 'Apple Color Emoji', 'Noto Color Emoji', sans-serif";
-      c.textAlign = "center";
-      c.textBaseline = "middle";
-      c.fillText("\u{1F422}", 0, 0);
+      // Heading 0 = east; the sprite art faces right, so just counter the
+      // canvas's flipped y axis.
+      c.rotate(-heading * Math.PI / 180);
+      const size = 30;
+      if (turtleSpriteImg.complete && turtleSpriteImg.naturalWidth) {
+        c.drawImage(turtleSpriteImg, -size / 2, -size / 2, size, size);
+      } else {
+        // Image still decoding on the very first frame: simple pointer stand-in.
+        c.fillStyle = "#2e9e63";
+        c.beginPath();
+        c.moveTo(10, 0); c.lineTo(-7, 6); c.lineTo(-4, 0); c.lineTo(-7, -6);
+        c.closePath();
+        c.fill();
+      }
       c.restore();
     }
   };
