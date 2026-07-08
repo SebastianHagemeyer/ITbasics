@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Making Decisions | Hallam IT Basics</title>
+  <link rel="icon" type="image/svg+xml" href="/logo-binary.svg" />
+  <link rel="apple-touch-icon" href="/logo-binary.svg" />
+  <link rel="stylesheet" href="/styles.css" />
+  <script>
+    (function () {
+      try {
+        if (!JSON.parse(localStorage.getItem("itbasics-session"))) {
+          location.replace("/");
+        }
+      } catch (e) { location.replace("/"); }
+    })();
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/" class="logo">
+        <img class="logo-mark" src="/logo-binary.svg" alt="" width="32" height="32" />
+        <span>Hallam IT Basics</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="/">Home</a>
+        <div class="nav-dropdown" data-open="false">
+          <button type="button" class="nav-dropdown-toggle active" aria-haspopup="true" aria-expanded="false">
+            Topics
+            <svg class="nav-chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="nav-dropdown-menu" role="menu">
+            <a href="/modules/" role="menuitem">All modules</a>
+            <a href="/topics/programming/" role="menuitem">Programming</a>
+            <a href="/topics/html/" role="menuitem">HTML</a>
+            <a href="/topics/python/" role="menuitem">Python</a>
+            <a href="/quizzes/" role="menuitem">Quizzes</a>
+          </div>
+        </div>
+        <div class="nav-dropdown" data-open="false">
+          <button type="button" class="nav-dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+            Play
+            <svg class="nav-chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="nav-dropdown-menu" role="menu">
+            <a href="/freeplay/" role="menuitem">Freeplay</a>
+            <a href="/challenges/" role="menuitem">Live Coding</a>
+            <a href="/sandbox/" role="menuitem">Sandbox</a>
+          </div>
+        </div>
+        <a href="/leaderboard/">Leaderboard</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Python &middot; Lesson 2</p>
+        <h1>Making Decisions</h1>
+        <p class="lead">Last lesson your program could <em>talk</em>. Today it starts to <em>think</em>: comparing values and using <code>if</code> / <code>else</code> so it responds differently depending on what the user types.</p>
+      </div>
+    </section>
+
+    <div class="container lesson-layout">
+      <aside class="lesson-toc" aria-label="On this page">
+        <h4>On this page</h4>
+        <ol>
+          <li><a href="#store-compare">= vs ==</a></li>
+          <li><a href="#operators">Comparison operators</a></li>
+          <li><a href="#if">The if statement</a></li>
+          <li><a href="#else">if / else</a></li>
+          <li><a href="#secret">Secret-word game</a></li>
+          <li><a href="#test">Quick check</a></li>
+          <li><a href="#task">Coding task</a></li>
+        </ol>
+      </aside>
+
+      <article class="lesson">
+        <section id="store-compare">
+          <h2>1. One equals stores, two equals compares</h2>
+          <p>This is the number-one beginner mix-up, so get it straight first:</p>
+          <ul class="key-points">
+            <li><strong><code>=</code> stores.</strong> <code>age = 13</code> puts the value <code>13</code> into the variable <code>age</code>.</li>
+            <li><strong><code>==</code> compares.</strong> <code>age == 13</code> asks a <em>question</em>, &ldquo;is age equal to 13?&rdquo;, and answers <code>True</code> or <code>False</code>.</li>
+          </ul>
+          <pre class="code">age <span class="c-op">=</span> <span class="c-num snippet-set" data-label="age">13</span>        <span class="c-comment"># change this with the control below</span>
+<span class="c-keyword">print</span>(age <span class="c-op">==</span> <span class="c-num">13</span>)  <span class="c-comment"># is age equal to 13?</span>
+<span class="c-keyword">print</span>(age <span class="c-op">==</span> <span class="c-num">10</span>)  <span class="c-comment"># is age equal to 10?</span></pre>
+          <div class="callout">
+            <strong>Read it out loud.</strong> <code>=</code> is &ldquo;becomes&rdquo;. <code>==</code> is &ldquo;is equal to?&rdquo;. They are <em>not</em> the same thing.
+          </div>
+        </section>
+
+        <section id="operators">
+          <h2>2. Comparison operators and Booleans</h2>
+          <p>Every comparison gives back a <strong>Boolean</strong>, either <code>True</code> or <code>False</code>.</p>
+          <table class="data-table">
+            <thead><tr><th>Operator</th><th>Means</th><th>Example</th><th>Result</th></tr></thead>
+            <tbody>
+              <tr><td><code>==</code></td><td>is equal to</td><td><code>5 == 5</code></td><td><code>True</code></td></tr>
+              <tr><td><code>!=</code></td><td>is not equal to</td><td><code>3 != 3</code></td><td><code>False</code></td></tr>
+              <tr><td><code>&gt;</code></td><td>is greater than</td><td><code>9 &gt; 4</code></td><td><code>True</code></td></tr>
+              <tr><td><code>&lt;</code></td><td>is less than</td><td><code>9 &lt; 4</code></td><td><code>False</code></td></tr>
+              <tr><td><code>&gt;=</code></td><td>greater than or equal</td><td><code>13 &gt;= 13</code></td><td><code>True</code></td></tr>
+              <tr><td><code>&lt;=</code></td><td>less than or equal</td><td><code>12 &lt;= 11</code></td><td><code>False</code></td></tr>
+            </tbody>
+          </table>
+          <p>Try reading each of these and deciding the answer before you check: is <code>5 == 5</code>? is <code>3 != 3</code>? is <code>9 &gt; 4</code>?</p>
+        </section>
+
+        <section id="if">
+          <h2>3. The if statement</h2>
+          <p>An <code>if</code> runs the indented code <strong>only when its condition is True</strong>. Two things matter: the <strong>colon</strong> at the end of the <code>if</code> line, and the <strong>indentation</strong> (4 spaces) that marks the body.</p>
+          <pre class="code">age <span class="c-op">=</span> <span class="c-num snippet-set" data-label="age">15</span>
+<span class="c-keyword">if</span> age <span class="c-op">&gt;=</span> <span class="c-num">13</span><span class="c-op">:</span>
+    <span class="c-keyword">print</span>(<span class="c-string">"You are old enough."</span>)</pre>
+          <p>If the condition is <code>False</code>, the indented line simply does not run, so nothing is printed.</p>
+        </section>
+
+        <section id="else">
+          <h2>4. if / else</h2>
+          <p><code>else</code> covers <em>everything the <code>if</code> did not</em>. Exactly one of the two blocks runs.</p>
+          <pre class="code" data-inputs='["62"]' data-colour='{"You passed! Well done.":"green","Not quite, have another go.":"red"}'>score <span class="c-op">=</span> <span class="c-keyword">int</span>(<span class="c-keyword">input</span>(<span class="c-string">"What did you score on the test? "</span>))
+
+<span class="c-keyword">if</span> score <span class="c-op">&gt;=</span> <span class="c-num">50</span><span class="c-op">:</span>
+    <span class="c-keyword">print</span>(<span class="c-string">"You passed! Well done."</span>)
+<span class="c-keyword">else</span><span class="c-op">:</span>
+    <span class="c-keyword">print</span>(<span class="c-string">"Not quite, have another go."</span>)</pre>
+          <div class="callout">
+            <strong>Indentation marks the blocks.</strong> Python uses the spaces to know which lines belong to the <code>if</code> and which belong to the <code>else</code>.
+          </div>
+        </section>
+
+        <section id="secret">
+          <h2>5. Worked example: secret-word game</h2>
+          <p>This pulls Lesson 1 (<code>input()</code>) and today&rsquo;s lesson (<code>if</code> / <code>else</code> with <code>==</code>) together.</p>
+          <pre class="code" data-inputs='["python"]'>secret <span class="c-op">=</span> <span class="c-string">"python"</span>
+guess <span class="c-op">=</span> <span class="c-keyword">input</span>(<span class="c-string">"Guess the secret word: "</span>)
+
+<span class="c-keyword">if</span> guess <span class="c-op">==</span> secret<span class="c-op">:</span>
+    <span class="c-keyword">print</span>(<span class="c-string">"Correct! You got it."</span>)
+<span class="c-keyword">else</span><span class="c-op">:</span>
+    <span class="c-keyword">print</span>(<span class="c-string">"Nope, try again."</span>)</pre>
+          <p>Notice we compare with <code>==</code> (a question), never <code>=</code> (which would try to store).</p>
+        </section>
+
+        <section id="test">
+          <h2>6. Quick check <span class="lesson-step-tag">Part 1 of 2</span></h2>
+          <p>Six quick questions. This is half of completing the module. The coding task below is the other half.</p>
+          <div class="module-test" data-test="decisions">
+            <div class="mtest-q" data-answer="b">
+              <p class="mtest-prompt">What does <code>==</code> do?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">Stores a value in a variable</button>
+                <button type="button" class="mtest-opt" data-key="b">Compares two values and gives True or False</button>
+                <button type="button" class="mtest-opt" data-key="c">Adds two numbers together</button>
+                <button type="button" class="mtest-opt" data-key="d">Prints something to the screen</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="b">
+              <p class="mtest-prompt">In <code>age = 13</code>, what does the single <code>=</code> do?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">Asks whether age is 13</button>
+                <button type="button" class="mtest-opt" data-key="b">Stores 13 in the variable age</button>
+                <button type="button" class="mtest-opt" data-key="c">Checks if the two sides are equal</button>
+                <button type="button" class="mtest-opt" data-key="d">Nothing, it is an error</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="a">
+              <p class="mtest-prompt">Is this condition True or False? <code>5 == 5</code></p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">True</button>
+                <button type="button" class="mtest-opt" data-key="b">False</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="b">
+              <p class="mtest-prompt">Is this condition True or False? <code>3 != 3</code></p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">True</button>
+                <button type="button" class="mtest-opt" data-key="b">False</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="c">
+              <p class="mtest-prompt">In an <code>if</code> / <code>else</code>, when does the <code>else</code> block run?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">Always, every time</button>
+                <button type="button" class="mtest-opt" data-key="b">When the if condition is True</button>
+                <button type="button" class="mtest-opt" data-key="c">When the if condition is False</button>
+                <button type="button" class="mtest-opt" data-key="d">Never, it is optional</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="b">
+              <p class="mtest-prompt">What must go at the end of an <code>if</code> line in Python?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">A semicolon ;</button>
+                <button type="button" class="mtest-opt" data-key="b">A colon :</button>
+                <button type="button" class="mtest-opt" data-key="c">A full stop .</button>
+                <button type="button" class="mtest-opt" data-key="d">Nothing at all</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="task" class="project">
+          <h2>7. Coding task: Old enough to sign up? <span class="lesson-step-tag">Part 2 of 2</span></h2>
+          <p>Write a real program below and press <strong>Check</strong>. Our app is for ages <strong>13 and over</strong>. Read an age, then use <code>if</code> / <code>else</code> to either let them in or turn them away. Passing this is the other half of completing the module.</p>
+
+          <div class="challenge-brief" id="challenge-brief"></div>
+
+          <div class="sandbox-shell challenge-shell">
+            <div class="sandbox-editor">
+              <div class="sandbox-bar">
+                <span class="sandbox-title" id="challenge-file">solution.py</span>
+                <div class="sandbox-bar-actions">
+                  <button type="button" class="btn btn-ghost challenge-reset" title="Reset to the starter code">Reset</button>
+                  <button type="button" class="btn btn-ghost challenge-run" id="challenge-run">
+                    <span class="challenge-run-label">Run</span>
+                  </button>
+                  <button type="button" class="btn btn-primary challenge-check" id="challenge-check">
+                    <span class="challenge-check-label">Check</span>
+                  </button>
+                </div>
+              </div>
+              <div class="sandbox-code language-python" id="challenge-code" spellcheck="false"></div>
+            </div>
+            <div class="sandbox-output">
+              <div class="sandbox-bar">
+                <span class="sandbox-title">Output</span>
+                <button type="button" class="btn btn-ghost challenge-clear" title="Clear the output">Clear</button>
+              </div>
+              <pre class="sandbox-out-body" id="challenge-output"></pre>
+            </div>
+          </div>
+
+          <div class="challenge-results" id="challenge-results" hidden></div>
+
+          <p class="sandbox-hint">
+            <kbd>Ctrl</kbd>+<kbd>Enter</kbd> runs your code &middot;
+            <kbd>Tab</kbd> inserts 4 spaces &middot;
+            Python loads the first time you press Run or Check (5-10 seconds), then it&rsquo;s instant.
+          </p>
+
+          <div class="callout">
+            <strong>How the module is marked:</strong> the quick check is worth 50% and this coding task is worth 50%. Do both to reach 100%. Your teacher can see your score on the progress page.
+          </div>
+        </section>
+
+        <div class="lesson-nav">
+          <a href="/topics/python/" class="btn btn-ghost">&larr; Python Basics</a>
+          <a href="/challenges/" class="btn btn-primary">More Live Coding <span class="arrow" aria-hidden="true"></span></a>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; Hallam IT Basics &middot; For Years 7-10 computing classes.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/prism.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-python.min.js"></script>
+  <script src="/supabase-config.js"></script>
+  <script src="/app.js"></script>
+  <script>window.CHALLENGE_ONLY = "decisions-age";</script>
+  <script src="/moduletest.js"></script>
+  <script src="/challenges.js"></script>
+  <script src="/code-maximise.js"></script>
+  <script src="/snippet-run.js"></script>
+</body>
+</html>

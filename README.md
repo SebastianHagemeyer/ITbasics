@@ -1,6 +1,6 @@
 # Hallam IT Basics
 
-A beginner-friendly IT / computing website for Year 7-9 students at Hallam.
+A beginner-friendly IT / computing website for Year 7-10 students at Hallam.
 
 https://sebastianhagemeyer.github.io/ITbasics/
 

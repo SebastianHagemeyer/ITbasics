@@ -104,7 +104,7 @@
       title: "Even or odd",
       brief: "Tell the user whether their number is even or odd.",
       detail: "Read a number with <code>int(input())</code>. If it divides evenly by 2 print <strong>Even</strong>, otherwise print <strong>Odd</strong>. Hint: <code>n % 2</code> gives the remainder.",
-      accept: 'Your output must say "Even" for even numbers and "Odd" for odd ones &mdash; not both.',
+      accept: 'Your output must say "Even" for even numbers and "Odd" for odd ones, not both.',
       starter:
         '# Even or odd\n' +
         'n = int(input("A number? "))\n' +
@@ -138,7 +138,7 @@
       tier: "beginner",
       title: "Age checker",
       brief: "Ask for an age and say whether they can watch a PG-13 film.",
-      detail: "Read an age with <code>input()</code> (remember <code>input()</code> gives text &mdash; convert with <code>int()</code>). PG-13 films are for ages <strong>13 and over</strong>.",
+      detail: "Read an age with <code>input()</code> (remember <code>input()</code> gives text, so convert with <code>int()</code>). PG-13 films are for ages <strong>13 and over</strong>.",
       accept: 'If the age is 13 or more, your message must clearly allow it (e.g. "you can watch"). Under 13, it must clearly refuse (e.g. "you can\'t" / "too young").',
       starter:
         '# Age checker\n' +
@@ -149,6 +149,79 @@
         { label: "Age 13 (allowed, boundary)", inputs: ["13"], check: function (r) { return checkAge(r, true); } },
         { label: "Age 12 (refused, boundary)", inputs: ["12"], check: function (r) { return checkAge(r, false); } },
         { label: "Age 7 (refused)", inputs: ["7"], check: function (r) { return checkAge(r, false); } }
+      ]
+    },
+    {
+      // The "Making Decisions" module task. Same idea as Age checker, but it
+      // records under its own quiz_name (recordAs) so passing it counts towards
+      // completing the Making Decisions module (see progress.js / teacher.js).
+      // It is embedded on /topics/decisions/ via window.CHALLENGE_ONLY.
+      id: "decisions-age",
+      tier: "beginner",
+      module: "decisions",
+      recordAs: "decisions-task",
+      title: "Old enough to sign up?",
+      brief: "Use if / else to decide if someone is old enough to sign up.",
+      detail: "Read an age with <code>int(input(...))</code>. Our app is for ages <strong>13 and over</strong>. Use an <code>if</code> / <code>else</code> with <code>&gt;=</code> to either let them in or turn them away.",
+      accept: 'If the age is 13 or more, clearly allow it (e.g. "you can sign up"). Under 13, clearly refuse it (e.g. "you can\'t" / "too young").',
+      starter:
+        '# Old enough to sign up?\n' +
+        'age = int(input("How old are you? "))\n' +
+        '# Our app is for ages 13 and over.\n' +
+        '# Use if / else to allow them or turn them away.\n',
+      tests: [
+        { label: "Age 15 (allowed)", inputs: ["15"], check: function (r) { return checkAge(r, true); } },
+        { label: "Age 13 (allowed, boundary)", inputs: ["13"], check: function (r) { return checkAge(r, true); } },
+        { label: "Age 12 (refused, boundary)", inputs: ["12"], check: function (r) { return checkAge(r, false); } },
+        { label: "Age 8 (refused)", inputs: ["8"], check: function (r) { return checkAge(r, false); } }
+      ]
+    },
+    {
+      // Loops module, "for" task. Same grader as Countdown, but tagged with a
+      // module + its own recordAs so passing it is one quarter of the Loops
+      // module. Embedded on /topics/loops/ via a .module-task wrapper.
+      id: "loops-for",
+      tier: "beginner",
+      module: "loops",
+      recordAs: "loops-for-task",
+      title: "Countdown with a for loop",
+      brief: "Use a for loop to count down from 5, then blast off.",
+      detail: "Use a <code>for</code> loop with <code>range</code> to print <strong>5, 4, 3, 2, 1</strong> (each on its own line), then print <strong>GO!</strong> after the loop. Hint: <code>range(5, 0, -1)</code> counts from 5 down to 1.",
+      accept: "Your output must contain 5, 4, 3, 2, 1 and the word GO.",
+      starter:
+        '# Countdown with a for loop\n' +
+        'for i in range(5, 0, -1):\n' +
+        '    # print each number\n' +
+        '    pass\n' +
+        '# after the loop, print GO!\n',
+      tests: [
+        { label: "Counts down to GO", inputs: [], check: checkCountdown }
+      ]
+    },
+    {
+      // Loops module, "while" task. Same grader as the Guessing game, with its
+      // own module + recordAs so passing it is the other quarter of the module.
+      id: "loops-while",
+      tier: "beginner",
+      module: "loops",
+      recordAs: "loops-while-task",
+      title: "Guess the number with a while loop",
+      brief: "Use a while loop to keep asking until the guess is right.",
+      detail: "The computer hides a number from 1 to 10. Read a guess with <code>int(input(...))</code>, then use a <code>while</code> loop to keep asking <em>while</em> the guess is wrong. When it finally matches, print a success message like <code>Correct!</code>.",
+      accept: "Your program must keep asking for a guess until one matches the secret, then print a success word (correct / well done / got it / you win). A wrong guess should lead to another guess.",
+      starter:
+        '# Guess the number (while loop)\n' +
+        'import random\n' +
+        '\n' +
+        'secret = random.randint(1, 10)   # the hidden number, 1 to 10\n' +
+        '\n' +
+        '# 1) Read a first guess:  guess = int(input("Your guess: "))\n' +
+        '# 2) while guess != secret:  say "wrong", then ask again\n' +
+        '# 3) when guess == secret, print "Correct!"\n',
+      tests: [
+        { label: "Secret 7 - guesses 3, 1, 7",   forceSecret: 7, inputs: ["3", "1", "7"], check: checkGuess },
+        { label: "Secret 2 - guesses 5, 2",      forceSecret: 2, inputs: ["5", "2"],      check: checkGuess },
+        { label: "Secret 4 - guessed first try", forceSecret: 4, inputs: ["4"],           check: checkGuess }
       ]
     },
 
@@ -283,14 +356,14 @@
       tier: "stretch",
       title: "Guessing game",
       brief: "The computer picks a secret number from 1 to 10. The player keeps guessing until they get it right.",
-      detail: "The computer hides the number &mdash; the player has to find it." +
+      detail: "The computer hides the number, and the player has to find it." +
         '<ol class="challenge-steps">' +
         "<li>Pick the secret with <code>random.randint(1, 10)</code>.</li>" +
         "<li>Ask for a guess with <code>input()</code>, and convert it to a number with <code>int()</code> so you can compare it.</li>" +
         "<li>Use a loop: <em>while</em> the guess is wrong, tell them and ask again.</li>" +
         "<li>When the guess matches the secret, print a success message like <code>Correct!</code>.</li>" +
         "</ol>",
-      accept: "Your program must keep asking for a guess until one matches the secret, then print a success word (correct / well done / got it / you win). A wrong guess should lead to another guess &mdash; not stop the program.",
+      accept: "Your program must keep asking for a guess until one matches the secret, then print a success word (correct / well done / got it / you win). A wrong guess should lead to another guess, not stop the program.",
       starter:
         '# Guessing game\n' +
         'import random\n' +
@@ -374,6 +447,29 @@
       ]
     }
   ];
+
+  // Every quiz_name a challenge pass can be saved under. Most save under
+  // "livecoding"; module-linked tasks add their own (e.g. "decisions-task").
+  // loadPassed() reads all of these so ticks show up wherever a challenge runs.
+  const RECORD_NAMES = (function () {
+    const set = { livecoding: true };
+    CHALLENGES.forEach(function (c) { if (c.recordAs) set[c.recordAs] = true; });
+    return Object.keys(set);
+  })();
+
+  // Challenges tagged with a "module" belong to that module's page (embedded via
+  // window.CHALLENGE_ONLY) and are hidden from the public Live Coding tab list
+  // and scoreboard. Everything else is a free-play challenge.
+  const PUBLIC_CHALLENGES = CHALLENGES.filter(function (c) { return !c.module; });
+
+  // Lightweight catalog (id/title/tier) of the public Live Coding challenges,
+  // exposed so other pages (e.g. the teacher export) can list them without
+  // duplicating the definitions. Set early, before any DOM lookups bail out.
+  try {
+    window.ITBASICS_CHALLENGE_CATALOG = PUBLIC_CHALLENGES.map(function (c) {
+      return { id: c.id, title: c.title, tier: c.tier };
+    });
+  } catch (e) {}
 
   // ---- Grading checks -------------------------------------------------------
   function norm(s) { return String(s || "").toLowerCase(); }
@@ -487,7 +583,7 @@
     const sawOdd  = /\bodd\b/i.test(r.output);
     if (isEven && sawEven && !sawOdd) return pass(n + " is even.");
     if (!isEven && sawOdd && !sawEven) return pass(n + " is odd.");
-    if (sawEven && sawOdd) return fail("You printed both \"Even\" and \"Odd\" — only print one.");
+    if (sawEven && sawOdd) return fail("You printed both \"Even\" and \"Odd\", only print one.");
     if (isEven) return fail(n + " is even, but your output didn't say \"Even\".");
     return fail(n + " is odd, but your output didn't say \"Odd\".");
   }
@@ -519,10 +615,10 @@
   function checkBiggest3(r, a, b, c) {
     if (r.error) return fail("Your code stopped: " + r.error + intHint(r.error));
     const biggest = Math.max(a, b, c);
-    const re = new RegExp("\\b" + biggest + "\\b", "g");
-    const occurrences = (String(r.output).match(re) || []).length;
-    const inEcho = [a, b, c].filter(function (x) { return x === biggest; }).length;
-    if (occurrences > inEcho) return pass("Biggest is " + biggest + ".");
+    // r.output now contains only what the student print()ed (typed input is no
+    // longer echoed here), so simply check that the biggest value was printed.
+    const re = new RegExp("\\b" + biggest + "\\b");
+    if (re.test(String(r.output))) return pass("Biggest is " + biggest + ".");
     return fail("The biggest of " + a + ", " + b + ", " + c + " is " + biggest + ". Make sure you print it.");
   }
 
@@ -619,6 +715,13 @@
   // ---- Python grading runner (installed once after Pyodide loads) ----------
   // Runs the student's code with scripted input(), captures stdout, guards
   // against endless loops, and (optionally) forces random's secret number.
+  //
+  // Two outputs are captured separately:
+  //   * "output"  - ONLY what the student actually print()ed. Grading checks
+  //                 use this so a typed input value (e.g. a name) is never
+  //                 mistaken for something the program printed.
+  //   * "display" - the full transcript (prompts + echoed input + prints),
+  //                 shown in the results panel so the interaction looks real.
   const PY_RUNNER = `
 import json, io, sys, builtins, random
 from contextlib import redirect_stdout
@@ -631,15 +734,28 @@ def _run_student(code, inputs_json, force_secret_json):
     orig_input = builtins.input
     orig_rand = (random.randint, random.randrange, random.choice)
 
+    printed = io.StringIO()   # what the student print()ed (used for grading)
+    display = io.StringIO()    # full transcript incl. prompts + echoed input
+
+    class _Tee:
+        def write(self, s):
+            printed.write(s)
+            display.write(s)
+            return len(s)
+        def flush(self):
+            pass
+
     def _inp(prompt=""):
         if prompt:
-            sys.stdout.write(str(prompt))
+            display.write(str(prompt))
         try:
             v = next(it)
         except StopIteration:
             raise EOFError("no more input")
         used["n"] += 1
-        sys.stdout.write(str(v) + "\\n")
+        # Echo the typed value to the display transcript only - NOT to the
+        # grading buffer - so it can't be counted as program output.
+        display.write(str(v) + "\\n")
         return str(v)
 
     builtins.input = _inp
@@ -656,12 +772,11 @@ def _run_student(code, inputs_json, force_secret_json):
             raise RuntimeError("ran too long (possible endless loop)")
         return guard
 
-    buf = io.StringIO()
     err = None
     g = {"__name__": "__main__"}
     sys.settrace(guard)
     try:
-        with redirect_stdout(buf):
+        with redirect_stdout(_Tee()):
             exec(compile(code, "<solution>", "exec"), g)
     except BaseException as e:
         err = type(e).__name__ + ": " + str(e)
@@ -670,7 +785,12 @@ def _run_student(code, inputs_json, force_secret_json):
         builtins.input = orig_input
         random.randint, random.randrange, random.choice = orig_rand
 
-    return json.dumps({"output": buf.getvalue(), "used": used["n"], "error": err})
+    return json.dumps({
+        "output": printed.getvalue(),
+        "display": display.getvalue(),
+        "used": used["n"],
+        "error": err
+    })
 `;
 
   // ---- Interactive input() (JSPI), shared with the sandbox -----------------
@@ -698,31 +818,110 @@ _sandbox_install_input()
 del _sandbox_install_input, _b
 `;
 
-  // ---- DOM ------------------------------------------------------------------
-  const editor      = document.getElementById("challenge-code");
-  const output      = document.getElementById("challenge-output");
-  const runBtn      = document.getElementById("challenge-run");
-  const runLabel    = runBtn ? runBtn.querySelector(".challenge-run-label") : null;
-  const checkBtn    = document.getElementById("challenge-check");
-  const checkLabel  = checkBtn ? checkBtn.querySelector(".challenge-check-label") : null;
-  const resetBtn    = document.querySelector(".challenge-reset");
-  const clearBtn    = document.querySelector(".challenge-clear");
-  const tabsEl      = document.getElementById("challenge-tabs");
-  const briefEl     = document.getElementById("challenge-brief");
-  const resultsEl   = document.getElementById("challenge-results");
-  const scoreboardEl = document.getElementById("challenge-scoreboard");
-  const fileEl      = document.getElementById("challenge-file");
-
-  if (!editor || !runBtn || !checkBtn) return;
-
-  // ---- State ----------------------------------------------------------------
+  // ---- Shared across the editor instances on a page -------------------------
+  // A page can host more than one editor (e.g. the Loops module has a "for" task
+  // and a "while" task). Pyodide, the saved-code map and the passed set are
+  // shared so the runtime boots only once and the two editors can't clobber each
+  // other's saved code. `active` is whichever instance is currently running, so
+  // the single set of stdout/stderr/input callbacks routes to the right panel.
   let pyodide = null;
   let loadingPromise = null;
-  let jar = null;
-  let busy = false;
-  let current = CHALLENGES[0];
-  let passed = new Set();
-  let codeMap = loadCodeMap();
+  let active = null;
+  let pageBusy = false;
+  let codeMap = null;
+  const passed = new Set();
+
+  // ---- Pyodide bootstrap (shared, hoisted above createApp) ------------------
+  // Kept at IIFE scope so the read-only snippet runner (window.ITCode, below)
+  // works even on lesson pages with no coding task at all, e.g. Programming /
+  // Python Basics, which only run inline snippets.
+  function jspiSupported() {
+    return typeof WebAssembly !== "undefined" && typeof WebAssembly.Suspending === "function";
+  }
+  function loadPyodideScript() {
+    if (window.loadPyodide) return Promise.resolve();
+    return new Promise(function (resolve, reject) {
+      const s = document.createElement("script");
+      s.src = PYODIDE_URL;
+      s.onload = resolve;
+      s.onerror = function () { reject(new Error("Couldn't reach the Python runtime CDN.")); };
+      document.head.appendChild(s);
+    });
+  }
+  // `announce` is an optional callback run once, just before the (one-time) load
+  // begins, so a calling editor can show its own "Loading Python…" state. The
+  // snippet runner passes nothing.
+  async function ensurePyodide(announce) {
+    if (pyodide) return pyodide;
+    if (loadingPromise) return loadingPromise;
+    loadingPromise = (async function () {
+      if (typeof announce === "function") announce();
+      await loadPyodideScript();
+      pyodide = await window.loadPyodide({
+        indexURL: "https://cdn.jsdelivr.net/pyodide/v" + PYODIDE_VERSION + "/full/"
+      });
+      pyodide.setStdout({ batched: function (s) { if (active) active.appendOut(s, "stdout"); } });
+      pyodide.setStderr({ batched: function (s) { if (active) active.appendOut(s, "stderr"); } });
+      pyodide.registerJsModule("_sandbox_io", { readLine: function (p) { return active ? active.readLine(p) : Promise.resolve(""); } });
+      await pyodide.runPythonAsync(jspiSupported() ? PY_INSTALL_INPUT : PY_DISABLE_INPUT);
+      pyodide.runPython(PY_RUNNER);
+      return pyodide;
+    })();
+    return loadingPromise;
+  }
+
+  // Tiny shared runner for read-only lesson snippets (snippet-run.js): reuses the
+  // shared Pyodide + sandboxed grader behind the same page lock, so a snippet and
+  // a coding task never execute at once. Registered as soon as this script loads,
+  // independent of whether the page has an editor.
+  if (!window.ITCode) {
+    window.ITCode = {
+      run: async function (code, inputs) {
+        if (pageBusy) return { error: "Busy, let the current run finish, then try again." };
+        pageBusy = true; active = null;
+        try {
+          const py = await ensurePyodide();
+          py.globals.set("_code", String(code));
+          py.globals.set("_inputs", JSON.stringify(inputs || []));
+          py.globals.set("_force", "null");
+          return JSON.parse(py.runPython("_run_student(_code, _inputs, _force)"));
+        } finally {
+          pageBusy = false;
+        }
+      }
+    };
+  }
+
+  // One editor instance, scoped to `root`: the whole document on the standalone
+  // Live Coding page (and single-embed pages), or one .module-task wrapper for a
+  // task embedded in a lesson. Lookups prefer the legacy ids, then fall back to
+  // classes so several instances can coexist without duplicate ids.
+  function createApp(root, onlyId) {
+    function q(sel) { return root.querySelector(sel); }
+    const editor      = q("#challenge-code") || q(".sandbox-code");
+    const output      = q("#challenge-output") || q(".sandbox-out-body");
+    const runBtn      = q("#challenge-run") || q(".challenge-run");
+    const runLabel    = runBtn ? runBtn.querySelector(".challenge-run-label") : null;
+    const checkBtn    = q("#challenge-check") || q(".challenge-check");
+    const checkLabel  = checkBtn ? checkBtn.querySelector(".challenge-check-label") : null;
+    const resetBtn    = q(".challenge-reset");
+    const clearBtn    = q(".challenge-clear");
+    const tabsEl      = q("#challenge-tabs");
+    const briefEl     = q("#challenge-brief") || q(".challenge-brief");
+    const resultsEl   = q("#challenge-results") || q(".challenge-results");
+    const scoreboardEl = q("#challenge-scoreboard");
+    const fileEl      = q("#challenge-file") || q(".sandbox-editor .sandbox-title");
+
+    if (!editor || !runBtn || !checkBtn) return;
+
+    if (codeMap === null) codeMap = loadCodeMap();
+    let jar = null;
+    let busy = false;
+    // onlyId pins this instance to one challenge (embedded task or single embed);
+    // the standalone page passes null and starts on the first challenge.
+    let current = (onlyId && challengeById(onlyId)) || CHALLENGES[0];
+    // Routing handle for the shared stdout/stderr/input callbacks.
+    const io = { appendOut: appendOut, readLine: readLineInteractive };
 
   function challengeById(id) {
     return CHALLENGES.filter(function (c) { return c.id === id; })[0];
@@ -820,40 +1019,10 @@ del _sandbox_install_input, _b
       field.addEventListener("keydown", onKey);
     });
   }
-  function jspiSupported() {
-    return typeof WebAssembly !== "undefined" && typeof WebAssembly.Suspending === "function";
-  }
+  // Pyodide bootstrap (jspiSupported / loadPyodideScript / ensurePyodide) and the
+  // shared window.ITCode snippet runner now live at the top of the IIFE, above
+  // createApp, so read-only lesson snippets can run on pages with no coding task.
 
-  // ---- Pyodide --------------------------------------------------------------
-  function loadPyodideScript() {
-    if (window.loadPyodide) return Promise.resolve();
-    return new Promise(function (resolve, reject) {
-      const s = document.createElement("script");
-      s.src = PYODIDE_URL;
-      s.onload = resolve;
-      s.onerror = function () { reject(new Error("Couldn't reach the Python runtime CDN.")); };
-      document.head.appendChild(s);
-    });
-  }
-  async function ensurePyodide(announce) {
-    if (pyodide) return pyodide;
-    if (loadingPromise) return loadingPromise;
-    loadingPromise = (async function () {
-      if (announce) { setRunLabel("Loading Python…", true); appendOut("Loading Python runtime (one-time, ~10 MB)…", "info"); }
-      setCheckBusy(true, "Loading…");
-      await loadPyodideScript();
-      pyodide = await window.loadPyodide({
-        indexURL: "https://cdn.jsdelivr.net/pyodide/v" + PYODIDE_VERSION + "/full/"
-      });
-      pyodide.setStdout({ batched: function (s) { appendOut(s, "stdout"); } });
-      pyodide.setStderr({ batched: function (s) { appendOut(s, "stderr"); } });
-      pyodide.registerJsModule("_sandbox_io", { readLine: readLineInteractive });
-      await pyodide.runPythonAsync(jspiSupported() ? PY_INSTALL_INPUT : PY_DISABLE_INPUT);
-      pyodide.runPython(PY_RUNNER);
-      return pyodide;
-    })();
-    return loadingPromise;
-  }
 
   // ---- Run (interactive) ----------------------------------------------------
   function setRunLabel(text, on) {
@@ -868,20 +1037,24 @@ del _sandbox_install_input, _b
   }
 
   async function run() {
-    if (busy) return;
-    busy = true;
+    if (busy || pageBusy) return;
+    busy = true; pageBusy = true; active = io;
     clearOut();
     setRunLabel("Running…", true);
     setCheckBusy(true, "Check");
     try {
-      const py = await ensurePyodide(true);
+      const py = await ensurePyodide(function () {
+        setRunLabel("Loading Python…", true);
+        appendOut("Loading Python runtime (one-time, ~10 MB)…", "info");
+        setCheckBusy(true, "Loading…");
+      });
       await py.runPythonAsync(getCode());
     } catch (err) {
       appendOut((err && err.message) ? err.message : String(err), "stderr");
     } finally {
       setRunLabel("Run", false);
       setCheckBusy(false);
-      busy = false;
+      busy = false; pageBusy = false;
     }
   }
 
@@ -895,18 +1068,18 @@ del _sandbox_install_input, _b
   }
 
   async function check() {
-    if (busy) return;
-    busy = true;
+    if (busy || pageBusy) return;
+    busy = true; pageBusy = true; active = io;
     setCheckBusy(true, "Checking…");
     setRunLabel("Run", true);
     renderResults(null); // clears
     const code = getCode();
     try {
-      await ensurePyodide(false);
+      await ensurePyodide();
     } catch (err) {
       setCheckBusy(false);
       setRunLabel("Run", false);
-      busy = false;
+      busy = false; pageBusy = false;
       renderResults({ error: (err && err.message) ? err.message : String(err) });
       return;
     }
@@ -920,7 +1093,7 @@ del _sandbox_install_input, _b
         inputs: test.inputs,
         pass: verdict.pass,
         why: verdict.why,
-        output: res.output,
+        output: (res.display != null ? res.display : res.output),
         error: res.error
       };
     });
@@ -928,14 +1101,16 @@ del _sandbox_install_input, _b
 
     setCheckBusy(false);
     setRunLabel("Run", false);
-    busy = false;
+    busy = false; pageBusy = false;
 
     if (allPass && !passed.has(ch.id)) {
       passed.add(ch.id);
       renderTabs();
       renderScoreboard();
       if (window.ITBasics && window.ITBasics.getSession()) {
-        window.ITBasics.saveAttempt(QUIZ_NAME, 1, 1, { challenge: ch.id, code: code });
+        // Module-linked tasks record under their own quiz_name (recordAs) so
+        // they count towards that module; everything else is generic livecoding.
+        window.ITBasics.saveAttempt(ch.recordAs || QUIZ_NAME, 1, 1, { challenge: ch.id, code: code });
       }
     }
     renderResults({ rows: rows, allPass: allPass, challenge: ch });
@@ -943,9 +1118,10 @@ del _sandbox_install_input, _b
 
   // ---- Rendering ------------------------------------------------------------
   function renderTabs() {
+    if (!tabsEl) return; // embedded single-challenge mode has no tab strip
     tabsEl.innerHTML = "";
     const byTier = { beginner: [], intermediate: [], stretch: [] };
-    CHALLENGES.forEach(function (ch) {
+    PUBLIC_CHALLENGES.forEach(function (ch) {
       const tier = ch.tier || "stretch";
       (byTier[tier] || byTier.stretch).push(ch);
     });
@@ -994,8 +1170,9 @@ del _sandbox_install_input, _b
       '<p class="challenge-accept"><span class="challenge-accept-tag">To pass</span> ' + current.accept + '</p>';
   }
   function renderScoreboard() {
-    const total = CHALLENGES.length;
-    const done = CHALLENGES.filter(function (c) { return passed.has(c.id); }).length;
+    if (!scoreboardEl) return; // embedded single-challenge mode has no scoreboard
+    const total = PUBLIC_CHALLENGES.length;
+    const done = PUBLIC_CHALLENGES.filter(function (c) { return passed.has(c.id); }).length;
     const signedIn = window.ITBasics && window.ITBasics.getSession();
     let html =
       '<div class="challenge-progress">' +
@@ -1019,8 +1196,8 @@ del _sandbox_install_input, _b
     const passCount = rows.filter(function (r) { return r.pass; }).length;
     let html = '<div class="challenge-results-head ' + (state.allPass ? "win" : "fail") + '">' +
       (state.allPass
-        ? '🎉 Passed all ' + rows.length + ' tests &mdash; <strong>' + escapeHtml(state.challenge.title) + '</strong> complete!'
-        : passCount + ' / ' + rows.length + ' tests passed &mdash; keep going!') +
+        ? '🎉 Passed all ' + rows.length + ' tests, <strong>' + escapeHtml(state.challenge.title) + '</strong> complete!'
+        : passCount + ' / ' + rows.length + ' tests passed, keep going!') +
       '</div><ul class="challenge-test-list">';
     rows.forEach(function (r) {
       html += '<li class="ct ' + (r.pass ? "pass" : "fail") + '">' +
@@ -1041,7 +1218,7 @@ del _sandbox_install_input, _b
     if (busy) return;
     if (jar) { codeMap[current.id] = jar.toString(); saveCodeMap(); }
     current = challengeById(id) || CHALLENGES[0];
-    fileEl.textContent = current.id + ".py";
+    if (fileEl) fileEl.textContent = current.id + ".py";
     setCode(codeFor(current));
     clearOut();
     renderResults(null);
@@ -1066,17 +1243,19 @@ del _sandbox_install_input, _b
       try {
         const sb = window.ITBasics.client();
         const res = await sb.from("quiz_attempts").select("answers")
-          .eq("student_code", s.code).eq("quiz_name", QUIZ_NAME);
+          .eq("student_code", s.code).in("quiz_name", RECORD_NAMES);
         (res.data || []).forEach(function (r) {
           const c = r.answers && r.answers.challenge;
           if (c) out.add(c);
         });
       } catch (e) {}
     } else {
-      try {
-        const arr = JSON.parse(localStorage.getItem("itbasics-attempts-" + s.code + "-" + QUIZ_NAME) || "[]");
-        arr.forEach(function (a) { const c = a.answers && a.answers.challenge; if (c) out.add(c); });
-      } catch (e) {}
+      RECORD_NAMES.forEach(function (name) {
+        try {
+          const arr = JSON.parse(localStorage.getItem("itbasics-attempts-" + s.code + "-" + name) || "[]");
+          arr.forEach(function (a) { const c = a.answers && a.answers.challenge; if (c) out.add(c); });
+        } catch (e) {}
+      });
     }
     return out;
   }
@@ -1097,12 +1276,12 @@ del _sandbox_install_input, _b
   if (clearBtn) clearBtn.addEventListener("click", clearOut);
 
   async function boot() {
-    fileEl.textContent = current.id + ".py";
+    if (fileEl) fileEl.textContent = current.id + ".py";
     initEditor();
     renderTabs();
     renderBrief();
     renderScoreboard();
-    passed = await loadPassed();
+    (await loadPassed()).forEach(function (id) { passed.add(id); });
     renderTabs();
     renderBrief();
     renderScoreboard();
@@ -1110,9 +1289,24 @@ del _sandbox_install_input, _b
   boot();
 
   window.addEventListener("itbasics:auth", async function () {
-    passed = await loadPassed();
+    passed.clear();
+    (await loadPassed()).forEach(function (id) { passed.add(id); });
     renderTabs();
     renderBrief();
     renderScoreboard();
   });
+  } // end createApp
+
+  // Dispatch. A lesson can stack several embedded tasks (e.g. the Loops module's
+  // "for" and "while" tasks), each in a .module-task[data-challenge] wrapper and
+  // all sharing the single Pyodide runtime. Otherwise there is one page-wide app
+  // for the standalone Live Coding page and single-embed module pages.
+  const moduleTasks = document.querySelectorAll(".module-task[data-challenge]");
+  if (moduleTasks.length) {
+    Array.prototype.forEach.call(moduleTasks, function (wrap) {
+      createApp(wrap, wrap.getAttribute("data-challenge"));
+    });
+  } else if (document.getElementById("challenge-code")) {
+    createApp(document, window.CHALLENGE_ONLY || null);
+  }
 })();

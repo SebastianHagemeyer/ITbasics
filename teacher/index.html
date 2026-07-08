@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Teacher export | Hallam IT Basics</title>
+  <meta name="robots" content="noindex" />
+  <link rel="icon" type="image/svg+xml" href="/logo-binary.svg" />
+  <link rel="apple-touch-icon" href="/logo-binary.svg" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/" class="logo">
+        <img class="logo-mark" src="/logo-binary.svg" alt="" width="32" height="32" />
+        <span>Hallam IT Basics</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="/">Home</a>
+        <a href="/modules/">Modules</a>
+        <a href="/leaderboard/">Leaderboard</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Staff only</p>
+        <h1>Task export</h1>
+        <p class="lead">Pick a class and a task to see who has completed it and their percentage, then copy or download it as CSV for your record sheets or Questionmark cohort view.</p>
+      </div>
+    </section>
+
+    <div class="container section">
+      <!-- Passphrase gate -->
+      <div id="teacher-gate" class="teacher-gate">
+        <form id="teacher-gate-form" class="teacher-gate-form" autocomplete="off">
+          <label for="teacher-pass">Staff passphrase</label>
+          <input type="password" id="teacher-pass" class="auth-input" placeholder="Passphrase" />
+          <button type="submit" class="btn btn-primary">Unlock</button>
+          <span id="teacher-gate-msg" class="auth-msg" role="status"></span>
+        </form>
+      </div>
+
+      <!-- Main tool -->
+      <div id="teacher-tool" hidden>
+        <div class="teacher-controls">
+          <label class="teacher-field">
+            <span>Class</span>
+            <select id="teacher-class" class="teacher-select"></select>
+          </label>
+          <label class="teacher-field">
+            <span>Task</span>
+            <select id="teacher-task" class="teacher-select"></select>
+          </label>
+          <div class="teacher-actions">
+            <button type="button" id="teacher-copy" class="btn btn-ghost">Copy CSV</button>
+            <button type="button" id="teacher-download" class="btn btn-primary">Download CSV</button>
+          </div>
+        </div>
+
+        <p id="teacher-status" class="teacher-status"></p>
+        <div id="teacher-summary" class="teacher-summary" hidden></div>
+
+        <div class="table-wrap">
+          <table class="data-table teacher-table" id="teacher-table">
+            <thead id="teacher-head"></thead>
+            <tbody id="teacher-body"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; Hallam IT Basics &middot; For Years 7-10 computing classes.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+  <script src="/supabase-config.js"></script>
+  <script src="/app.js"></script>
+  <!-- Loaded only to expose window.ITBASICS_CHALLENGE_CATALOG (the page has no
+       challenge shell, so the challenge engine bails out without running). -->
+  <script src="/challenges.js"></script>
+  <script src="/teacher.js"></script>
+</body>
+</html>
