@@ -2728,6 +2728,14 @@ kbd {
   box-shadow: 0 0 0 3px rgba(28, 69, 135, 0.15), var(--shadow-md);
 }
 .track-card.selected .track-tag { background: var(--primary); color: #fff; }
+/* Small inline pet icons (e.g. the choose-your-pet table) */
+.pet-icon {
+  display: inline-flex;
+  vertical-align: middle;
+  margin-right: 7px;
+}
+.pet-icon svg { width: 26px; height: 26px; display: block; }
+
 .track-icon svg {
   width: 56px;
   height: 56px;
