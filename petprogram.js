@@ -279,6 +279,59 @@
 
   // ---- Step snippets ----------------------------------------------------------
 
+  // Snippets ADD to the bottom of the student's code rather than wiping it,
+  // so merging the new step into their program (and deleting the old bits)
+  // is part of the work. The editor is only replaced outright when it holds
+  // no real work: empty, or still an untouched starter/snippet.
+  let previousCode = null;
+
+  function isUntouched(text) {
+    const t = (text || "").trim();
+    if (!t) return true;
+    if (STARTERS.calc.trim() === t || STARTERS.turtle.trim() === t) return true;
+    return Object.keys(SNIPPETS).some(function (k) { return SNIPPETS[k].trim() === t; });
+  }
+
+  function focusWorkspace() {
+    const ws = $("#workspace");
+    if (!ws) return;
+    ws.scrollIntoView({ behavior: "smooth", block: "start" });
+    ws.classList.remove("flash");
+    void ws.offsetWidth;
+    ws.classList.add("flash");
+    const editor = $("#assign-code");
+    if (editor) editor.scrollTop = editor.scrollHeight;
+  }
+
+  function loadSnippet(code) {
+    const current = runner.getCode();
+    if (current.trim() === code.trim() || current.trim().endsWith(code.trim())) {
+      showToast({ message: "That code is already in your editor" });
+      focusWorkspace();
+      return;
+    }
+    previousCode = current;
+    let message;
+    if (isUntouched(current)) {
+      runner.setCode(code);
+      message = "Loaded into the editor";
+    } else {
+      runner.setCode(current.replace(/\s+$/, "") + "\n\n" + code);
+      message = "Added below your code. Merge it in: delete the old bits you've replaced.";
+    }
+    showToast({
+      message: message,
+      actionLabel: "Undo",
+      action: function () {
+        if (previousCode == null) return;
+        const swap = previousCode;
+        previousCode = null;
+        runner.setCode(swap);
+      }
+    });
+    focusWorkspace();
+  }
+
   function renderSnippets() {
     $all(".snippet").forEach(function (holder) {
       const id = holder.dataset.snippet;
@@ -294,22 +347,52 @@
       const btn = document.createElement("button");
       btn.type = "button";
       btn.className = "btn btn-ghost snippet-load";
-      btn.textContent = "Load into editor";
-      btn.addEventListener("click", function () {
-        runner.setCode(code);
-        const ws = $("#workspace");
-        if (ws) {
-          ws.scrollIntoView({ behavior: "smooth", block: "start" });
-          ws.classList.remove("flash");
-          void ws.offsetWidth;
-          ws.classList.add("flash");
-        }
-      });
+      btn.textContent = "Add to editor";
+      btn.addEventListener("click", function () { loadSnippet(code); });
       box.appendChild(pre);
       box.appendChild(btn);
       holder.appendChild(box);
       if (window.Prism) window.Prism.highlightElement(codeEl);
     });
+  }
+
+  // Same toast as the sandbox page: message plus an optional Undo action.
+  function showToast(opts) {
+    let toast = document.getElementById("it-toast");
+    if (!toast) {
+      toast = document.createElement("div");
+      toast.id = "it-toast";
+      toast.className = "toast";
+      document.body.appendChild(toast);
+      toast.addEventListener("mouseenter", function () {
+        if (toast._timer) { clearTimeout(toast._timer); toast._timer = null; }
+      });
+      toast.addEventListener("mouseleave", function () {
+        toast._timer = setTimeout(hideToast, 3000);
+      });
+    }
+    toast.innerHTML = "";
+    const msg = document.createElement("span");
+    msg.className = "toast-msg";
+    msg.textContent = opts.message;
+    toast.appendChild(msg);
+    if (opts.action) {
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "toast-action";
+      btn.textContent = opts.actionLabel || "Undo";
+      btn.addEventListener("click", function () { opts.action(); hideToast(); });
+      toast.appendChild(btn);
+    }
+    requestAnimationFrame(function () { toast.classList.add("show"); });
+    if (toast._timer) clearTimeout(toast._timer);
+    toast._timer = setTimeout(hideToast, 6000);
+  }
+  function hideToast() {
+    const toast = document.getElementById("it-toast");
+    if (!toast) return;
+    toast.classList.remove("show");
+    if (toast._timer) { clearTimeout(toast._timer); toast._timer = null; }
   }
 
   // ---- Persisted self-checks and reflections ----------------------------------
