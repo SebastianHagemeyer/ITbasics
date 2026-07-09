@@ -678,8 +678,11 @@ del _pyrun_install_turtle
     }
     function saveCode(code) {
       const k = storageKey();
-      if (!k) return;
-      localStorage.setItem(k, code == null ? getCode() : code);
+      const val = code == null ? getCode() : code;
+      if (k) localStorage.setItem(k, val);
+      // Fires on typing, snippet loads and setCode, so pages can react to
+      // what the code contains (e.g. show the turtle canvas on import).
+      if (opts.onChange) opts.onChange(val);
     }
 
     function setRunMode(mode) {

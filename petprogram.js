@@ -233,11 +233,22 @@
     runBtn: $("#assign-run"),
     storageKey: codeKey,
     defaultCode: function () { return STARTERS[track || "calc"]; },
+    onChange: function (code) { updateTurtlePanel(code); },
     turtle: {
       canvas: $("#turtle-canvas"),
       sprite: $("#turtle-sprite")
     }
   });
+
+  // The turtle window only appears when the program actually uses turtle,
+  // whatever the track; the output console always stays for print()s.
+  function usesTurtle(code) {
+    return /(^|\n)\s*(import\s+turtle|from\s+turtle\s+import)/.test(code || "");
+  }
+  function updateTurtlePanel(code) {
+    const panel = $("#turtle-panel");
+    if (panel) panel.hidden = !usesTurtle(code == null ? runner.getCode() : code);
+  }
 
   function applyTrack(next, save) {
     track = next;
@@ -249,8 +260,7 @@
     $all(".track-pane").forEach(function (pane) {
       pane.hidden = pane.dataset.track !== track;
     });
-    const turtlePanel = $("#turtle-panel");
-    if (turtlePanel) turtlePanel.hidden = track !== "turtle";
+    updateTurtlePanel();
     const label = $("#assign-file-label");
     if (label) label.textContent = track === "turtle" ? "pet_turtle.py" : "pet_age.py";
     const ws = $("#workspace");

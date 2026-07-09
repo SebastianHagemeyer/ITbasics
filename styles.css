@@ -2782,6 +2782,11 @@ kbd {
 
 /* Turtle stage: drawing canvas + sprite overlay */
 .turtle-panel { min-height: 0; }
+/* The hidden attribute must beat .sandbox-output's display: flex, or the
+   empty turtle box shows up for calculator-track students. */
+.turtle-panel[hidden] { display: none; }
+/* With no turtle panel (calculator track), the output fills the column. */
+.assign-right .assign-output { flex: 1; }
 .turtle-stage {
   position: relative;
   background:
