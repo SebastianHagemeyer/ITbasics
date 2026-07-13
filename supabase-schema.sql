@@ -380,3 +380,34 @@ select
 from students s
 join assignment_submissions a on a.student_code = s.code
 order by s.class, s.last_name, s.first_name, a.assignment;
+
+-- ============================================================
+-- Private sandbox snippets (added July 2026)
+-- ============================================================
+-- Students can save the program in the Python Sandbox under a name and
+-- load it back later, on any machine. One row per student per name;
+-- saving the same name again upserts, so the newest version wins.
+-- "Private" means the site only ever shows a student their own snippets.
+-- As with every table here, the anon key could technically read all rows;
+-- that matches the classroom security model (no PII beyond the roster).
+
+create table if not exists snippets (
+  student_code  text not null references students(code) on delete cascade,
+  name          text not null,
+  code          text not null,
+  created_at    timestamptz not null default now(),
+  updated_at    timestamptz not null default now(),
+  primary key (student_code, name)
+);
+
+alter table snippets enable row level security;
+
+drop policy if exists snippets_select_anon on snippets;
+drop policy if exists snippets_insert_anon on snippets;
+drop policy if exists snippets_update_anon on snippets;
+drop policy if exists snippets_delete_anon on snippets;
+
+create policy snippets_select_anon on snippets for select to anon using (true);
+create policy snippets_insert_anon on snippets for insert to anon with check (true);
+create policy snippets_update_anon on snippets for update to anon using (true) with check (true);
+create policy snippets_delete_anon on snippets for delete to anon using (true);
