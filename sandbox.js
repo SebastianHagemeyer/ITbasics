@@ -865,6 +865,124 @@ del _sandbox_install_color_print
     });
   }
 
+  // --- "My code": private saved snippets, stored per student via ITBasics ---
+
+  const snippetForm  = document.getElementById("snippet-save-form");
+  const snippetName  = document.getElementById("snippet-name");
+  const snippetGrid  = document.getElementById("snippet-grid");
+
+  function snippetPreview(code) {
+    // First non-comment, non-blank line makes the best one-line description.
+    const lines = String(code || "").split("\n");
+    for (let i = 0; i < lines.length; i++) {
+      const t = lines[i].trim();
+      if (t && t[0] !== "#") return t.length > 60 ? t.slice(0, 57) + "…" : t;
+    }
+    return "(empty program)";
+  }
+
+  function snippetWhen(iso) {
+    const d = new Date(iso);
+    if (isNaN(d)) return "";
+    return d.toLocaleDateString(undefined, { day: "numeric", month: "short" });
+  }
+
+  function renderSnippets(list) {
+    if (!snippetGrid) return;
+    snippetGrid.innerHTML = "";
+    if (!list.length) {
+      const p = document.createElement("p");
+      p.className = "snippet-empty";
+      p.textContent = "Nothing saved yet. Write something in the editor, give it a name above and hit Save.";
+      snippetGrid.appendChild(p);
+      return;
+    }
+    list.forEach(function (sn) {
+      const card = document.createElement("div");
+      card.className = "sandbox-example-card snippet-card";
+      card.tabIndex = 0;
+      card.setAttribute("role", "button");
+      card.setAttribute("aria-label", 'Load "' + sn.name + '"');
+
+      const title = document.createElement("span");
+      title.className = "sandbox-example-title";
+      title.textContent = sn.name;
+
+      const desc = document.createElement("span");
+      desc.className = "sandbox-example-desc";
+      const when = snippetWhen(sn.updated_at);
+      desc.textContent = snippetPreview(sn.code) + (when ? "  ·  saved " + when : "");
+
+      const del = document.createElement("button");
+      del.type = "button";
+      del.className = "snippet-delete";
+      del.title = 'Delete "' + sn.name + '"';
+      del.setAttribute("aria-label", 'Delete "' + sn.name + '"');
+      del.textContent = "×";
+
+      function load() {
+        loadInto(sn.code, 'Loaded "' + sn.name + '"');
+        editor.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+      card.addEventListener("click", function (e) {
+        if (e.target === del) return;
+        load();
+      });
+      card.addEventListener("keydown", function (e) {
+        if (e.key === "Enter" || e.key === " ") { e.preventDefault(); load(); }
+      });
+      del.addEventListener("click", async function (e) {
+        e.stopPropagation();
+        await window.ITBasics.deleteSnippet(sn.name);
+        refreshSnippets();
+        // Undo re-saves the same name and code, so a slip isn't fatal.
+        showToast({
+          message: 'Deleted "' + sn.name + '"',
+          actionLabel: "Undo",
+          action: async function () {
+            await window.ITBasics.saveSnippet(sn.name, sn.code);
+            refreshSnippets();
+          }
+        });
+      });
+
+      card.appendChild(title);
+      card.appendChild(desc);
+      card.appendChild(del);
+      snippetGrid.appendChild(card);
+    });
+  }
+
+  async function refreshSnippets() {
+    if (!snippetGrid || !window.ITBasics || !window.ITBasics.getSession()) return;
+    renderSnippets(await window.ITBasics.listSnippets());
+  }
+
+  function initSnippets() {
+    if (!snippetForm || !snippetGrid) return;
+    snippetForm.addEventListener("submit", async function (e) {
+      e.preventDefault();
+      const name = (snippetName.value || "").trim();
+      if (!name) {
+        snippetName.focus();
+        showToast({ message: "Give your program a name first." });
+        return;
+      }
+      const res = await window.ITBasics.saveSnippet(name, getCode());
+      if (res.ok) {
+        snippetName.value = "";
+        showToast({ message: 'Saved "' + name + '"' });
+        refreshSnippets();
+      } else {
+        showToast({ message: "Couldn't save: " + res.error });
+      }
+    });
+    refreshSnippets();
+    // Re-fetch when the signed-in student changes.
+    window.addEventListener("itbasics:auth", refreshSnippets);
+  }
+
   initEditor();
   renderExamples();
+  initSnippets();
 })();

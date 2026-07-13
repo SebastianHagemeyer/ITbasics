@@ -122,6 +122,57 @@
     return "itbasics-" + kind + "-" + s.code + "-" + quizName;
   }
 
+  // --- Private sandbox snippets ---
+  // Named programs a student saves from the Python Sandbox. One row per
+  // student per name; saving the same name replaces the old version.
+  // Offline they live in localStorage under the student's code instead.
+
+  async function listSnippets() {
+    const s = getSession();
+    if (!s) return [];
+    if (supabase) {
+      const { data } = await supabase
+        .from("snippets").select("name, code, updated_at")
+        .eq("student_code", s.code)
+        .order("updated_at", { ascending: false });
+      return data || [];
+    }
+    return readLocalSnippets(s);
+  }
+
+  async function saveSnippet(name, code) {
+    const s = getSession();
+    if (!s) return { ok: false, error: "Sign in to save your code." };
+    if (supabase) {
+      const { error } = await supabase.from("snippets").upsert(
+        { student_code: s.code, name: name, code: code, updated_at: new Date().toISOString() },
+        { onConflict: "student_code,name" }
+      );
+      return error ? { ok: false, error: error.message } : { ok: true };
+    }
+    const arr = readLocalSnippets(s).filter(function (sn) { return sn.name !== name; });
+    arr.unshift({ name: name, code: code, updated_at: new Date().toISOString() });
+    localStorage.setItem(localKey(s, "snippets", "all"), JSON.stringify(arr));
+    return { ok: true };
+  }
+
+  async function deleteSnippet(name) {
+    const s = getSession();
+    if (!s) return;
+    if (supabase) {
+      await supabase.from("snippets").delete()
+        .eq("student_code", s.code).eq("name", name);
+    } else {
+      const arr = readLocalSnippets(s).filter(function (sn) { return sn.name !== name; });
+      localStorage.setItem(localKey(s, "snippets", "all"), JSON.stringify(arr));
+    }
+  }
+
+  function readLocalSnippets(s) {
+    try { return JSON.parse(localStorage.getItem(localKey(s, "snippets", "all")) || "[]"); }
+    catch (e) { return []; }
+  }
+
   function renderAuthBar() {
     const header = document.querySelector(".site-header .header-inner");
     if (!header) return;
@@ -187,6 +238,9 @@
     loadProgress: loadProgress,
     saveAttempt: saveAttempt,
     getScores: getScores,
+    listSnippets: listSnippets,
+    saveSnippet: saveSnippet,
+    deleteSnippet: deleteSnippet,
     isOnline: function () { return Boolean(supabase); },
     client: function () { return supabase; }
   };
