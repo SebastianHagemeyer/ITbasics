@@ -14,3 +14,8 @@ window.SUPABASE_ANON_KEY = "sb_publishable_Esqv1g5FhX8wYbfb17XdKA_bAoasYdt";
 // bump so students don't casually open it - the anon key above can already
 // read all scores, so it is NOT real security. Change it to whatever you like.
 window.TEACHER_PASSCODE = "hallam-staff";
+
+// Student codes that count as staff. Anyone signed in with one of these
+// skips the passphrase gate on /teacher/ entirely. Same caveat as above:
+// a speed bump, not real security, since codes have no passwords.
+window.TEACHER_CODES = ["MRH0001"];

@@ -353,9 +353,17 @@
     startTool();
   }
 
+  // Signed in with a staff code (see TEACHER_CODES in supabase-config.js)?
+  // Then the passphrase gate is skipped entirely.
+  function isStaff() {
+    var codes = window.TEACHER_CODES || [];
+    var s = window.ITBasics && window.ITBasics.getSession();
+    return Boolean(s && codes.indexOf(s.code) !== -1);
+  }
+
   function boot() {
     var pass = window.TEACHER_PASSCODE || "hallam-staff";
-    if (sessionStorage.getItem(GATE_KEY) === "1") { unlock(); return; }
+    if (sessionStorage.getItem(GATE_KEY) === "1" || isStaff()) { unlock(); return; }
 
     var form = el("teacher-gate-form");
     form.addEventListener("submit", function (e) {
