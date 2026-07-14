@@ -411,3 +411,45 @@ create policy snippets_select_anon on snippets for select to anon using (true);
 create policy snippets_insert_anon on snippets for insert to anon with check (true);
 create policy snippets_update_anon on snippets for update to anon using (true) with check (true);
 create policy snippets_delete_anon on snippets for delete to anon using (true);
+
+-- ============================================================
+-- Assignment progress autosave (added July 2026)
+-- ============================================================
+-- Work-in-progress state for assignment pages, synced continuously so a
+-- student can move to a different computer without losing anything. One
+-- row per student per assignment; `state` is a JSON blob owned by the
+-- page (for petprogram: track, code per track, self-checks, reflections,
+-- note). Submissions stay in assignment_submissions; this is the draft.
+
+create table if not exists assignment_progress (
+  student_code  text not null references students(code) on delete cascade,
+  assignment    text not null,
+  state         jsonb not null,
+  updated_at    timestamptz not null default now(),
+  primary key (student_code, assignment)
+);
+
+alter table assignment_progress enable row level security;
+
+drop policy if exists progress_draft_select_anon on assignment_progress;
+drop policy if exists progress_draft_insert_anon on assignment_progress;
+drop policy if exists progress_draft_update_anon on assignment_progress;
+
+create policy progress_draft_select_anon on assignment_progress for select to anon using (true);
+create policy progress_draft_insert_anon on assignment_progress for insert to anon with check (true);
+create policy progress_draft_update_anon on assignment_progress for update to anon using (true) with check (true);
+
+-- Teacher view: see every student's draft state (reflection answers live
+-- in state->'reflects'), newest first.
+create or replace view teacher_assignment_progress as
+select
+  s.class,
+  s.last_name,
+  s.first_name,
+  s.code,
+  p.assignment,
+  p.state,
+  p.updated_at
+from students s
+join assignment_progress p on p.student_code = s.code
+order by p.updated_at desc;
