@@ -1621,6 +1621,79 @@ body.has-maximised-code { overflow: hidden; }
   font-style: italic;
 }
 
+/* Explore the Screen: the RGB persistence-of-vision lab. */
+.screenlab {
+  position: relative;
+  background: #000;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+}
+.screenlab canvas {
+  display: block;
+  width: 100%;
+  height: min(62vh, 560px);
+}
+.screenlab:fullscreen canvas {
+  height: 100vh;
+}
+.screenlab-controls {
+  position: absolute;
+  left: 50%;
+  bottom: 14px;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: calc(100% - 24px);
+  padding: 10px 16px;
+  border-radius: 12px;
+  background: rgba(10, 10, 14, 0.72);
+  backdrop-filter: blur(6px);
+  color: #fff;
+  font-size: 0.88rem;
+}
+.screenlab-slider {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.screenlab-slider input[type="range"] { width: 130px; }
+.screenlab-val {
+  font-weight: 400;
+  opacity: 0.85;
+  min-width: 120px;
+}
+.screenlab-check {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.screenlab-cap {
+  position: absolute;
+  left: 50%;
+  bottom: 76px;
+  transform: translateX(-50%);
+  margin: 0;
+  padding: 6px 14px;
+  border-radius: 10px;
+  background: rgba(255, 238, 0, 0.92);
+  color: #222;
+  font-size: 0.85rem;
+  max-width: min(92%, 520px);
+  text-align: center;
+}
+.screenlab-guide { margin-top: 30px; }
+@media (max-width: 640px) {
+  .screenlab-val { min-width: 0; }
+  .screenlab-controls { gap: 10px; padding: 8px 10px; }
+}
+
 /* Toast notification (bottom-center, slides up, auto-dismisses). */
 .toast {
   position: fixed;
