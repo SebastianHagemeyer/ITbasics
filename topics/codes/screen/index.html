@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Explore the Screen | Hallam IT Basics</title>
+  <link rel="icon" type="image/svg+xml" href="/logo-binary.svg" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/" class="logo">
+        <img class="logo-mark" src="/logo-binary.svg" alt="" width="32" height="32" />
+        <span>Hallam IT Basics</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="/">Home</a>
+        <a href="/topics/codes/">Codes &amp; Colour</a>
+        <a href="/leaderboard/">Leaderboard</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Codes &amp; Colour: extra</p>
+        <h1>Explore the Screen</h1>
+        <p class="lead">Your screen can only make three colours of light: <strong style="color:#cc0000">red</strong>, <strong style="color:#0a8a0a">green</strong> and <strong style="color:#1763d6">blue</strong>. So where does white come from? Let's trick your eyes and find out.</p>
+      </div>
+    </section>
+
+    <div class="container section">
+      <div class="screenlab" id="screenlab-stage">
+        <canvas id="screenlab-canvas" aria-label="Colour mixing demo: cells of red, green and blue"></canvas>
+        <div class="screenlab-controls">
+          <label class="screenlab-slider">
+            Speed
+            <input type="range" id="screenlab-speed" min="0" max="30" step="1" value="1" aria-label="Colour swap speed" />
+            <span class="screenlab-val" id="screenlab-speed-val">1 swap a second</span>
+          </label>
+          <label class="screenlab-slider">
+            Subdivide
+            <input type="range" id="screenlab-size" min="0" max="10" step="1" value="0" aria-label="How many cells the screen is split into" />
+            <span class="screenlab-val" id="screenlab-size-val">3 lights</span>
+          </label>
+          <label class="screenlab-check">
+            <input type="checkbox" id="screenlab-white" />
+            Compare with real white
+          </label>
+          <button type="button" class="btn btn-primary" id="screenlab-fs">Full screen</button>
+        </div>
+        <p class="screenlab-cap" id="screenlab-cap" hidden>
+          Top speed unlocks when the lights are smaller. Big flashing panels are hard on some people's eyes, so slide Subdivide up first.
+        </p>
+      </div>
+
+      <section class="screenlab-guide">
+        <h2>Try this, in order</h2>
+        <ol>
+          <li><strong>Start:</strong> three big stripes, swapping colours once a second. Easy to follow.</li>
+          <li><strong>Slide Subdivide up a few steps.</strong> The stripes break into smaller and smaller rectangles, like the screen is growing its own pixels.</li>
+          <li><strong>Now push Speed up.</strong> Once the lights are tiny and swapping fast, your eyes give up trying to follow each one... and the whole thing starts to look <strong>pale, washed out, almost white</strong>.</li>
+          <li><strong>Tick "Compare with real white".</strong> A circle of genuine white (<code>#FFFFFF</code>) appears in the middle. How close is the illusion? Step back from the screen, or squint, and watch them merge.</li>
+        </ol>
+
+        <h2>What's the trick?</h2>
+        <p>There is no white light coming from this page at all, only red, green and blue taking turns. Two things blend them together:</p>
+        <ul>
+          <li><strong>Your eyes are slow.</strong> They hold onto what they just saw for a fraction of a second (this is called <em>persistence of vision</em>). If red, green and blue arrive in the same spot fast enough, your brain averages them into one colour: white.</li>
+          <li><strong>Your eyes are blurry at a distance.</strong> When the lights get tiny, side-by-side red, green and blue smear together into a single dot, even without any flashing. That's why stepping back makes it whiter.</li>
+        </ul>
+        <p>Here's the punchline: <strong>your screen is doing this trick right now.</strong> Every single "white" pixel on this page is really three microscopic lights (one red, one green, one blue) sitting so close together that your eyes cannot tell them apart. If you have a magnifying glass or a drop of water on an old monitor (ask first!), you can actually see them.</p>
+
+        <div class="callout">
+          <strong>Connect it to hex codes:</strong> white is <code>#FFFFFF</code>, which is red full on, green full on, blue full on. This page shows you what "all three full on" physically means. Try making white in the <a href="/topics/codes/#colour">colour mixer</a> too.
+        </div>
+
+        <h2>Challenge questions</h2>
+        <ul>
+          <li>What's the <em>smallest</em> speed that still looks whitish when Subdivide is at maximum? Why does it need less speed when the lights are smaller?</li>
+          <li>Why does the illusion get stronger when you walk to the back of the room?</li>
+          <li>TVs used to draw their whole picture as flashes like this, 50 times every second. Why did nobody notice the flashing?</li>
+        </ul>
+
+        <p><a class="btn btn-ghost" href="/topics/codes/#colour">&larr; Back to Codes &amp; Colour</a></p>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; Hallam IT Basics &middot; For Years 7-10 computing classes.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+  <script src="/supabase-config.js"></script>
+  <script src="/app.js"></script>
+  <script src="/screenlab.js"></script>
+</body>
+</html>
