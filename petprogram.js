@@ -233,7 +233,7 @@
     runBtn: $("#assign-run"),
     storageKey: codeKey,
     defaultCode: function () { return STARTERS[track || "calc"]; },
-    onChange: function (code) { updateTurtlePanel(code); },
+    onChange: function (code) { updateTurtlePanel(code); scheduleSync(); },
     turtle: {
       canvas: $("#turtle-canvas"),
       sprite: $("#turtle-sprite")
@@ -252,7 +252,10 @@
 
   function applyTrack(next, save) {
     track = next;
-    if (save) localStorage.setItem(localKey("track"), track);
+    if (save) {
+      localStorage.setItem(localKey("track"), track);
+      scheduleSync();
+    }
     document.body.dataset.track = track || "none";
     $all(".track-card").forEach(function (card) {
       card.classList.toggle("selected", card.dataset.track === track);
@@ -404,6 +407,7 @@
       cb.addEventListener("change", function () {
         if (cb.checked) localStorage.setItem(key, "1");
         else localStorage.removeItem(key);
+        scheduleSync();
       });
     });
     $all(".reflect").forEach(function (ta) {
@@ -411,9 +415,115 @@
       ta.value = localStorage.getItem(key) || "";
       ta.addEventListener("input", function () {
         localStorage.setItem(key, ta.value);
+        scheduleSync();
       });
     });
   }
+
+  // ---- Cross-device progress sync ----------------------------------------------
+  // Everything on this page already autosaves to localStorage as the student
+  // works. That dies with the machine, so a few seconds after each change the
+  // whole state (track, code for both tracks, self-checks, reflections, note)
+  // is also upserted to assignment_progress, and pulled back down when the
+  // page opens on any computer. localStorage stays as the offline fallback;
+  // whichever side changed most recently wins.
+
+  const SYNC_DELAY_MS = 2500;
+  let syncTimer = null;
+  let lastSyncedJson = "";
+
+  function collectState() {
+    const state = {
+      track: track || "",
+      code: {},
+      checks: {},
+      reflects: {},
+      note: noteEl ? noteEl.value : ""
+    };
+    ["calc", "turtle"].forEach(function (t) {
+      const v = localStorage.getItem(localKey("code-" + t));
+      if (v != null) state.code[t] = v;
+    });
+    $all(".self-check").forEach(function (cb) {
+      if (cb.checked) state.checks[cb.dataset.check] = true;
+    });
+    $all(".reflect").forEach(function (ta) {
+      if (ta.value) state.reflects[ta.dataset.reflect] = ta.value;
+    });
+    return state;
+  }
+
+  // Writes a remote state into localStorage; the normal init code then reads
+  // it from there. Union-merges checks and keeps local text where the remote
+  // has none, so restoring can add work but never blank something out.
+  function applyState(state) {
+    if (!state) return;
+    if (state.track) localStorage.setItem(localKey("track"), state.track);
+    Object.keys(state.code || {}).forEach(function (t) {
+      if (state.code[t]) localStorage.setItem(localKey("code-" + t), state.code[t]);
+    });
+    Object.keys(state.checks || {}).forEach(function (k) {
+      if (state.checks[k]) localStorage.setItem(localKey("check-" + k), "1");
+    });
+    Object.keys(state.reflects || {}).forEach(function (k) {
+      if (state.reflects[k]) localStorage.setItem(localKey("reflect-" + k), state.reflects[k]);
+    });
+    if (state.note && !localStorage.getItem(localKey("note"))) {
+      localStorage.setItem(localKey("note"), state.note);
+    }
+  }
+
+  function scheduleSync() {
+    localStorage.setItem(localKey("progress-ts"), String(Date.now()));
+    if (syncTimer) clearTimeout(syncTimer);
+    syncTimer = setTimeout(pushProgress, SYNC_DELAY_MS);
+  }
+
+  async function pushProgress() {
+    syncTimer = null;
+    if (!window.ITBasics.isOnline()) return;
+    const state = collectState();
+    const json = JSON.stringify(state);
+    if (json === lastSyncedJson) return;
+    try {
+      const res = await window.ITBasics.client().from("assignment_progress").upsert({
+        student_code: student.code,
+        assignment: ASSIGNMENT,
+        state: state,
+        updated_at: new Date().toISOString()
+      }, { onConflict: "student_code,assignment" });
+      if (!res.error) lastSyncedJson = json;
+    } catch (e) { /* offline or table missing: local saves still cover us */ }
+  }
+
+  async function hydrateProgress() {
+    if (!window.ITBasics.isOnline()) return;
+    try {
+      const res = await window.ITBasics.client()
+        .from("assignment_progress")
+        .select("state, updated_at")
+        .eq("student_code", student.code)
+        .eq("assignment", ASSIGNMENT)
+        .maybeSingle();
+      if (res.error || !res.data) return;
+      const remoteTs = Date.parse(res.data.updated_at) || 0;
+      const localTs = parseInt(localStorage.getItem(localKey("progress-ts")) || "0", 10);
+      if (remoteTs > localTs) {
+        applyState(res.data.state);
+        localStorage.setItem(localKey("progress-ts"), String(remoteTs));
+        lastSyncedJson = JSON.stringify(res.data.state);
+      }
+    } catch (e) { /* fine: the page just uses what this machine has */ }
+  }
+
+  // Debounce means a change made just before closing the tab could miss its
+  // push; fire one last attempt when the page is backgrounded or left.
+  document.addEventListener("visibilitychange", function () {
+    if (document.visibilityState === "hidden" && syncTimer) {
+      clearTimeout(syncTimer);
+      pushProgress();
+    }
+  });
 
   // ---- Submission ---------------------------------------------------------------
 
@@ -513,10 +623,24 @@
   // ---- Boot -----------------------------------------------------------------------
 
   renderSnippets();
-  initChecks();
-  applyTrack(track, false);
-  if (track) runner.reloadSaved();
-  loadSubmission();
+
+  (async function boot() {
+    // Pull any newer cloud progress into localStorage first, so the init
+    // below (which reads localStorage) shows work from other machines too.
+    await hydrateProgress();
+    track = localStorage.getItem(localKey("track")) || track;
+    initChecks();
+    if (noteEl) {
+      if (!noteEl.value) noteEl.value = localStorage.getItem(localKey("note")) || "";
+      noteEl.addEventListener("input", function () {
+        localStorage.setItem(localKey("note"), noteEl.value);
+        scheduleSync();
+      });
+    }
+    applyTrack(track, false);
+    if (track) runner.reloadSaved();
+    loadSubmission();
+  })();
 
   window.addEventListener("itbasics:auth", function (e) {
     if (!e.detail || !e.detail.student) location.replace("/");
