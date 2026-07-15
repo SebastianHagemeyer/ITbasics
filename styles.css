@@ -1674,6 +1674,31 @@ body.has-maximised-code { overflow: hidden; }
   white-space: nowrap;
   cursor: pointer;
 }
+.screenlab-modes {
+  display: flex;
+  gap: 4px;
+  padding: 3px;
+  border-radius: 9px;
+  background: rgba(255, 255, 255, 0.12);
+}
+.screenlab-mode {
+  border: none;
+  border-radius: 7px;
+  padding: 5px 10px;
+  background: transparent;
+  color: #fff;
+  font-family: inherit;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.screenlab-mode:hover { background: rgba(255, 255, 255, 0.12); }
+.screenlab-mode.active {
+  background: #fff;
+  color: #111;
+}
+.screenlab-slider input[type="range"]:disabled { opacity: 0.4; }
 .screenlab-cap {
   position: absolute;
   left: 50%;
