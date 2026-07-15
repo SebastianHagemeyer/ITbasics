@@ -1223,6 +1223,15 @@ html[data-auth="out"] .site-footer { display: none; }
   min-height: 0;
   height: 100%;
 }
+/* The sandbox page nests its output (plus the turtle window) in a column. */
+.sandbox-shell.is-maximised > .assign-right {
+  min-height: 0;
+  height: 100%;
+}
+.sandbox-shell.is-maximised > .assign-right .sandbox-output {
+  min-height: 0;
+  flex: 1;
+}
 /* A pulled-in results panel spans the full width beneath the two panes. */
 .sandbox-shell.is-maximised > .challenge-results {
   grid-column: 1 / -1;

@@ -1,9 +1,14 @@
+/*
+ * Python Sandbox page. The actual Python engine (Pyodide with input(),
+ * interruptible time.sleep, the Stop button, clear(), print(col=) and the
+ * canvas turtle) lives in pyrun.js and is shared with the assignment pages.
+ * This file owns the page furniture: starter code, the example snippet
+ * cards, private saves ("My code") and toasts. The turtle window appears
+ * automatically when the code imports turtle and hides when it doesn't.
+ */
 (function () {
   "use strict";
 
-  const PYODIDE_VERSION = "0.27.7";
-  const PYODIDE_URL = "https://cdn.jsdelivr.net/pyodide/v" + PYODIDE_VERSION + "/full/pyodide.js";
-  const CODEJAR_URL = "https://cdn.jsdelivr.net/npm/codejar@4.0.0/dist/codejar.min.js";
   const STORAGE_KEY = "itbasics-sandbox-code";
 
   const DEFAULT_CODE =
@@ -63,6 +68,30 @@
         "        print('Buzz')\n" +
         "    else:\n" +
         "        print(i)\n"
+    },
+    {
+      title: "Turtle: first drawing",
+      desc: "import turtle opens the drawing window. Draw a square.",
+      code:
+        "import turtle\n" +
+        "\n" +
+        "for i in range(4):\n" +
+        "    turtle.forward(120)\n" +
+        "    turtle.left(90)\n"
+    },
+    {
+      title: "Turtle: rainbow spiral",
+      desc: "The loop grows the size and rotates the colour.",
+      code:
+        "import turtle\n" +
+        "\n" +
+        'colors = ["red", "orange", "yellow", "green", "blue", "purple"]\n' +
+        "turtle.speed(10)\n" +
+        "\n" +
+        "for i in range(48):\n" +
+        "    turtle.pencolor(colors[i % 6])\n" +
+        "    turtle.forward(i * 5)\n" +
+        "    turtle.left(60)\n"
     },
     {
       title: "Roll a dice",
@@ -311,469 +340,43 @@
     }
   ];
 
-  // Wires Python's input() to the inline reader below. run_sync blocks the
-  // Python program (via JSPI stack switching) until readLine's promise
-  // resolves, so input() behaves exactly like a real terminal. The helpers
-  // live in a throwaway function so nothing leaks into the student's globals.
-  // Flushing stdout/stderr first so that anything just print()ed shows up
-  // before the prompt - otherwise back-to-back print()/input() can render
-  // out of order in the panel.
-  const PY_INSTALL_INPUT = `
-import builtins as _b
-def _sandbox_install_input():
-    import sys
-    from pyodide.ffi import run_sync
-    from _sandbox_io import readLine
-    def input(prompt=""):
-        sys.stdout.flush()
-        sys.stderr.flush()
-        return run_sync(readLine(str(prompt)))
-    _b.input = input
-_sandbox_install_input()
-del _sandbox_install_input, _b
-`;
-
-  // Fallback for browsers without JSPI (e.g. Safari): a clear message
-  // instead of the old window.prompt() popup.
-  const PY_DISABLE_INPUT = `
-import builtins as _b
-def _sandbox_install_input():
-    def input(*args, **kwargs):
-        raise RuntimeError(
-            "Interactive input() needs Chrome or Edge in this sandbox. "
-            "Open this page there, or set a variable instead, e.g. name = 'Alex'"
-        )
-    _b.input = input
-_sandbox_install_input()
-del _sandbox_install_input, _b
-`;
-
-  // Patches time.sleep to yield back to the JS event loop while sleeping,
-  // so anything print()ed before sleep actually shows up in the output
-  // panel during the pause instead of all at the end. Same JSPI trick
-  // we already use for input(): run_sync suspends Python until the
-  // asyncio.sleep promise resolves, freeing JS to repaint in between.
-  // Also flushes stdout/stderr so end="" prints aren't stuck in the buffer.
-  //
-  // Wrapped in an installer so the imports get captured in the closure
-  // of _yielding_sleep. A top-level `del` after the def would remove
-  // the names from the global namespace, and Python resolves names in
-  // function bodies at call time - so the inner function would NameError
-  // the first time it ran.
-  //
-  // Uses sleepMs from _sandbox_io (not asyncio.sleep directly) so the
-  // sleep is interruptible by the Stop button - JS can reject the
-  // promise to wake Python early with an exception.
-  const PY_PATCH_SLEEP = `
-def _sandbox_install_sleep():
-    import time, sys
-    from pyodide.ffi import run_sync
-    from _sandbox_io import sleepMs
-    def _yielding_sleep(seconds):
-        sys.stdout.flush()
-        sys.stderr.flush()
-        if seconds and seconds > 0:
-            run_sync(sleepMs(seconds))
-    time.sleep = _yielding_sleep
-_sandbox_install_sleep()
-del _sandbox_install_sleep
-`;
-
-  // Installs a tracing hook that periodically checks a JS-side stop flag
-  // and raises KeyboardInterrupt when the user clicks Stop. Without this,
-  // tight CPU loops (no sleep / no input) can't be interrupted - run_sync
-  // never gets a chance to fire. The counter > N gate keeps overhead low.
-  const PY_INSTALL_INTERRUPT = `
-def _sandbox_install_interrupt():
-    import sys
-    from _sandbox_io import shouldStop
-    counter = [0]
-    def trace(frame, event, arg):
-        counter[0] += 1
-        if counter[0] >= 500:
-            counter[0] = 0
-            if shouldStop():
-                raise KeyboardInterrupt("Stopped by user")
-        return trace
-    sys.settrace(trace)
-_sandbox_install_interrupt()
-del _sandbox_install_interrupt
-`;
-
-  // Adds clear() as a Python builtin so students can wipe the output
-  // panel and animate things frame by frame. Flushes stdout/stderr
-  // first so buffered text doesn't end up appearing AFTER the clear.
-  const PY_INSTALL_CLEAR = `
-def _sandbox_install_clear():
-    import sys, builtins
-    from _sandbox_io import clearOutput
-    def clear():
-        sys.stdout.flush()
-        sys.stderr.flush()
-        clearOutput()
-    builtins.clear = clear
-_sandbox_install_clear()
-del _sandbox_install_clear
-`;
-
-  // Adds a col= keyword to the built-in print(). When provided, the
-  // text bypasses stdout and goes straight to the output panel with
-  // the colour applied via inline CSS, so any valid CSS colour works
-  // (hex, name, rgb(), hsl()). Falls back to the real print() when
-  // col is None so all existing prints keep working unchanged. Also
-  // accepts color= as an alias.
-  const PY_INSTALL_COLOR_PRINT = `
-def _sandbox_install_color_print():
-    import sys, builtins
-    from _sandbox_io import writeColored
-    real_print = builtins.print
-    def print(*args, col=None, color=None, sep=' ', end='\\n', file=None, flush=False):
-        chosen = col if col is not None else color
-        if chosen is not None and file is None:
-            sys.stdout.flush()
-            sys.stderr.flush()
-            text = sep.join(str(a) for a in args) + end
-            writeColored(text, str(chosen))
-        else:
-            real_print(*args, sep=sep, end=end, file=file, flush=flush)
-    builtins.print = print
-_sandbox_install_color_print()
-del _sandbox_install_color_print
-`;
-
-  let pyodide = null;
-  let loadingPromise = null;
-  let running = false;
-  let jar = null;
-  // Set by readLineInteractive / interruptibleSleep while they're awaiting
-  // a JS promise. stop() rejects this to unstick Python early.
-  let pendingReject = null;
-  // Polled by the Python trace hook so tight CPU loops can be interrupted
-  // too - cleared on read so user catch-blocks don't loop on KeyboardInterrupt.
-  let stopRequested = false;
-
   const editor   = document.getElementById("sandbox-code");
   const output   = document.getElementById("sandbox-output");
   const runBtn   = document.getElementById("sandbox-run");
-  const runLabel = runBtn ? runBtn.querySelector(".sandbox-run-label") : null;
   const resetBtn = document.querySelector(".sandbox-reset");
   const clearBtn = document.querySelector(".sandbox-clear");
 
-  if (!editor || !output || !runBtn) return;
+  if (!editor || !output || !runBtn || !window.PyRun) return;
 
-  function getCode() {
-    return jar ? jar.toString() : editor.textContent;
+  // The turtle window only appears when the program actually uses turtle;
+  // the output console always stays for print()s.
+  function usesTurtle(code) {
+    return /(^|\n)\s*(import\s+turtle|from\s+turtle\s+import)/.test(code || "");
   }
-  function setCode(code) {
-    if (jar) jar.updateCode(code);
-    else editor.textContent = code;
-  }
-  function loadCode() {
-    const saved = localStorage.getItem(STORAGE_KEY);
-    return (saved && saved.length) ? saved : DEFAULT_CODE;
-  }
-  function saveCode(code) {
-    localStorage.setItem(STORAGE_KEY, code == null ? getCode() : code);
+  function updateTurtlePanel(code) {
+    const panel = document.getElementById("turtle-panel");
+    if (panel) panel.hidden = !usesTurtle(code == null ? runner.getCode() : code);
   }
 
-  // The Run button doubles as Stop while code is executing. setRunMode
-  // flips its label, colour and disabled state. "loading" is the brief
-  // initial Pyodide download - it can't be interrupted.
-  function setRunMode(mode) {
-    const isLoading = mode === "loading";
-    const isBusy = mode === "busy" || isLoading;
-    if (runLabel) {
-      runLabel.textContent = isLoading ? "Loading…" : isBusy ? "Stop" : "Run";
-    }
-    runBtn.disabled = isLoading;
-    runBtn.classList.toggle("is-busy", isBusy);
-    runBtn.classList.toggle("btn-primary", !isBusy);
-    runBtn.classList.toggle("btn-danger", isBusy && !isLoading);
-  }
-
-  function stop() {
-    if (!running) return;
-    stopRequested = true;
-    if (pendingReject) {
-      const r = pendingReject;
-      pendingReject = null;
-      r(new Error("Stopped by user"));
-    }
-  }
-
-  function appendOut(text, kind) {
-    const span = document.createElement("span");
-    if (kind) span.className = "out-" + kind;
-    span.textContent = text + (text.endsWith("\n") ? "" : "\n");
-    output.appendChild(span);
-    output.scrollTop = output.scrollHeight;
-  }
-  function clearOut() { output.innerHTML = ""; }
-
-  // Reads one line of input from the student, terminal-style: shows the
-  // prompt (if any) inline in the output, drops in a focused text field with
-  // a blinking caret, and resolves with the typed text once Enter is pressed.
-  // Stop button rejects via pendingReject; the line is then marked [stopped].
-  function readLineInteractive(promptText) {
-    return new Promise(function (resolve, reject) {
-      const line = document.createElement("span");
-      line.className = "out-stdin-line";
-      if (promptText) line.appendChild(document.createTextNode(promptText));
-
-      const field = document.createElement("input");
-      field.type = "text";
-      field.className = "sandbox-stdin";
-      field.autocomplete = "off";
-      field.autocapitalize = "off";
-      field.spellcheck = false;
-      // Hug the typed text so the flashing cursor (a separate element
-      // pinned just after the field) sits right next to the last char.
-      // size=1 is the minimum HTML allows; the line-wide mousedown
-      // handler below makes click-to-focus work anywhere on the line,
-      // so the tight field doesn't hurt clickability.
-      field.size = 1;
-      line.appendChild(field);
-
-      // Flashing block cursor so it's obvious Python is paused waiting for
-      // input, even when input() has no prompt. The native caret is hidden
-      // via CSS in favour of this.
-      const cursor = document.createElement("span");
-      cursor.className = "sandbox-cursor";
-      cursor.setAttribute("aria-hidden", "true");
-      line.appendChild(cursor);
-
-      output.appendChild(line);
-      output.scrollTop = output.scrollHeight;
-
-      function resize() {
-        // No +1 padding: that's what made the cursor drift away from text.
-        // Math.max with 1 because size=0 is invalid HTML.
-        field.size = Math.max(1, field.value.length);
-      }
-      field.addEventListener("input", resize);
-      // Clicking anywhere on the line re-focuses the field, so a stray
-      // click in the output panel doesn't leave the prompt unresponsive.
-      line.addEventListener("mousedown", function (e) {
-        if (e.target !== field) { e.preventDefault(); field.focus(); }
-      });
-
-      // Focus immediately, with a microtask fallback. Some Chromium
-      // builds need a beat after appendChild before focus sticks.
-      // preventScroll keeps focus from fighting the scrollTop set above.
-      field.focus({ preventScroll: true });
-      Promise.resolve().then(function () { field.focus({ preventScroll: true }); });
-
-      function cleanup() {
-        pendingReject = null;
-        field.removeEventListener("input", resize);
-        field.removeEventListener("keydown", onKey);
-      }
-
-      function onKey(e) {
-        if (e.key !== "Enter") return;
-        e.preventDefault();
-        const value = field.value;
-        cleanup();
-        // Echo what was typed into the transcript, then drop the live widgets.
-        const echo = document.createElement("span");
-        echo.className = "out-stdin";
-        echo.textContent = value;
-        line.replaceChild(echo, field);
-        if (cursor.parentNode === line) line.removeChild(cursor);
-        line.appendChild(document.createTextNode("\n"));
-        output.scrollTop = output.scrollHeight;
-        resolve(value);
-      }
-
-      pendingReject = function (err) {
-        cleanup();
-        if (field.parentNode === line) {
-          const stop = document.createElement("span");
-          stop.className = "out-stderr";
-          stop.textContent = "[stopped]";
-          line.replaceChild(stop, field);
-        }
-        if (cursor.parentNode === line) line.removeChild(cursor);
-        line.appendChild(document.createTextNode("\n"));
-        reject(err);
-      };
-
-      field.addEventListener("keydown", onKey);
-    });
-  }
-
-  // setTimeout-based sleep we can cancel from JS. Used by the patched
-  // time.sleep so the Stop button can wake Python early from a long sleep.
-  function interruptibleSleep(seconds) {
-    return new Promise(function (resolve, reject) {
-      const timer = setTimeout(function () {
-        pendingReject = null;
-        resolve();
-      }, Math.max(0, seconds * 1000));
-      pendingReject = function (err) {
-        clearTimeout(timer);
-        reject(err);
-      };
-    });
-  }
-
-  // JSPI (WebAssembly stack switching) lets input() block on the main thread
-  // without freezing the page. Present in Chrome/Edge 137+; not in Safari.
-  function jspiSupported() {
-    return typeof WebAssembly !== "undefined" &&
-      typeof WebAssembly.Suspending === "function";
-  }
-
-  async function setupInput(py) {
-    py.registerJsModule("_sandbox_io", {
-      readLine: readLineInteractive,
-      sleepMs: interruptibleSleep,
-      // Consume-on-read: the Python trace hook gets True once per Stop
-      // click, then we clear it so user try/except blocks don't loop
-      // forever on KeyboardInterrupt.
-      shouldStop: function () {
-        if (!stopRequested) return false;
-        stopRequested = false;
-        return true;
-      },
-      // Wipes the output panel - exposed to Python as the clear() builtin
-      // so students can animate things frame by frame.
-      clearOutput: function () { output.innerHTML = ""; },
-      // Writes text directly to the output panel with a CSS colour applied.
-      // Used by the col= keyword on the patched print().
-      writeColored: function (text, color) {
-        const span = document.createElement("span");
-        span.style.color = String(color || "");
-        span.textContent = String(text);
-        output.appendChild(span);
-        output.scrollTop = output.scrollHeight;
-      }
-    });
-    const useJspi = jspiSupported();
-    await py.runPythonAsync(useJspi ? PY_INSTALL_INPUT : PY_DISABLE_INPUT);
-    if (useJspi) {
-      await py.runPythonAsync(PY_PATCH_SLEEP);
-    }
-    await py.runPythonAsync(PY_INSTALL_INTERRUPT);
-    await py.runPythonAsync(PY_INSTALL_CLEAR);
-    await py.runPythonAsync(PY_INSTALL_COLOR_PRINT);
-  }
-
-  function loadPyodideScript() {
-    if (window.loadPyodide) return Promise.resolve();
-    return new Promise(function (resolve, reject) {
-      const s = document.createElement("script");
-      s.src = PYODIDE_URL;
-      s.onload = resolve;
-      s.onerror = function () { reject(new Error("Couldn't reach the Python runtime CDN.")); };
-      document.head.appendChild(s);
-    });
-  }
-
-  async function ensurePyodide() {
-    if (pyodide) return pyodide;
-    if (loadingPromise) return loadingPromise;
-
-    loadingPromise = (async function () {
-      setRunMode("loading");
-      appendOut("Loading Python runtime (one-time, ~10 MB)…", "info");
-      await loadPyodideScript();
-      pyodide = await window.loadPyodide({
-        indexURL: "https://cdn.jsdelivr.net/pyodide/v" + PYODIDE_VERSION + "/full/"
-      });
-      pyodide.setStdout({ batched: function (s) { appendOut(s, "stdout"); } });
-      pyodide.setStderr({ batched: function (s) { appendOut(s, "stderr"); } });
-      await setupInput(pyodide);
-      appendOut("Python ready. Running your code…", "info");
-      return pyodide;
-    })();
-
-    return loadingPromise;
-  }
-
-  async function run() {
-    // The Run button doubles as Stop while we're busy.
-    if (running) { stop(); return; }
-    running = true;
-    stopRequested = false;
-    pendingReject = null;
-    clearOut();
-    setRunMode("busy");
-    try {
-      const py = await ensurePyodide();
-      setRunMode("busy"); // ensurePyodide flips to "loading" on first run
-      await py.runPythonAsync(getCode());
-    } catch (err) {
-      const msg = (err && err.message) ? String(err.message) : String(err);
-      if (/Stopped by user|KeyboardInterrupt/.test(msg)) {
-        appendOut("[stopped]", "info");
-      } else {
-        appendOut(msg, "stderr");
-      }
-    } finally {
-      running = false;
-      stopRequested = false;
-      pendingReject = null;
-      setRunMode("idle");
-    }
-  }
-
-  function reset() {
-    loadInto(DEFAULT_CODE, "Reset to the example");
-  }
-
-  function enableHighlighting(CodeJar) {
-    jar = CodeJar(editor, function (el) {
-      window.Prism.highlightElement(el);
-    }, {
-      tab: "    ",
-      indentOn: /[(\[{:]\s*$/
-    });
-    jar.updateCode(loadCode());
-    jar.onUpdate(function (code) { saveCode(code); });
-  }
-
-  function enablePlainEditor() {
-    // Fallback: plain contenteditable, no highlighting.
-    editor.contentEditable = "plaintext-only";
-    editor.textContent = loadCode();
-    editor.addEventListener("input", function () { saveCode(); });
-  }
-
-  function initEditor() {
-    // Show the starter code immediately so the editor never looks empty
-    // while CodeJar streams in.
-    editor.textContent = loadCode();
-
-    // CodeJar 4.x is published as an ES module, so a classic <script src>
-    // tag can't load it - the browser throws on the top-level `export` and
-    // never defines CodeJar. Pull it in with a dynamic import() (which does
-    // understand ES modules) and then layer Prism highlighting on top.
-    // Fall back to a plain editable area if either piece is unavailable.
-    if (!window.Prism) {
-      enablePlainEditor();
-      return;
-    }
-
-    import(CODEJAR_URL)
-      .then(function (mod) {
-        if (mod && typeof mod.CodeJar === "function") enableHighlighting(mod.CodeJar);
-        else enablePlainEditor();
-      })
-      .catch(function () { enablePlainEditor(); });
-  }
-
-  // Ctrl/Cmd + Enter runs the code (works whether CodeJar is loaded or not).
-  editor.addEventListener("keydown", function (e) {
-    if ((e.ctrlKey || e.metaKey) && e.key === "Enter") {
-      e.preventDefault();
-      run();
+  const runner = window.PyRun.create({
+    editor: editor,
+    output: output,
+    runBtn: runBtn,
+    storageKey: STORAGE_KEY,
+    defaultCode: DEFAULT_CODE,
+    onChange: function (code) { updateTurtlePanel(code); },
+    turtle: {
+      canvas: document.getElementById("turtle-canvas"),
+      sprite: document.getElementById("turtle-sprite")
     }
   });
 
-  runBtn.addEventListener("click", run);
-  if (resetBtn) resetBtn.addEventListener("click", reset);
-  if (clearBtn) clearBtn.addEventListener("click", clearOut);
+  function getCode() { return runner.getCode(); }
+
+  if (resetBtn) resetBtn.addEventListener("click", function () {
+    loadInto(DEFAULT_CODE, "Reset to the example");
+  });
+  if (clearBtn) clearBtn.addEventListener("click", function () { runner.clearOutput(); });
 
   function renderExamples() {
     const grid = document.getElementById("sandbox-examples");
@@ -795,7 +398,7 @@ del _sandbox_install_color_print
   }
 
   // Generic "swap the editor for this code, but offer Undo via a toast"
-  // helper. Used by both Reset and the snippet cards so the UX is the
+  // helper. Used by Reset, the snippet cards and My code so the UX is the
   // same everywhere - no more blocking confirm() dialogs.
   let previousCode = null;
   function loadInto(code, message) {
@@ -805,8 +408,7 @@ del _sandbox_install_color_print
       return;
     }
     previousCode = cur;
-    setCode(code);
-    saveCode(code);
+    runner.setCode(code);
     editor.focus();
     showToast({
       message: message,
@@ -815,8 +417,7 @@ del _sandbox_install_color_print
         if (previousCode == null) return;
         const swap = previousCode;
         previousCode = null;
-        setCode(swap);
-        saveCode(swap);
+        runner.setCode(swap);
       }
     });
   }
@@ -982,7 +583,7 @@ del _sandbox_install_color_print
     window.addEventListener("itbasics:auth", refreshSnippets);
   }
 
-  initEditor();
   renderExamples();
   initSnippets();
+  updateTurtlePanel();
 })();

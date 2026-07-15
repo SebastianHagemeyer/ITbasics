@@ -77,19 +77,31 @@
           </div>
           <div class="sandbox-code language-python" id="sandbox-code" spellcheck="false"></div>
         </div>
-        <div class="sandbox-output">
-          <div class="sandbox-bar">
-            <span class="sandbox-title">Output</span>
-            <button type="button" class="btn btn-ghost sandbox-clear" title="Clear the output">Clear</button>
+        <div class="assign-right">
+          <div class="sandbox-output turtle-panel" id="turtle-panel" hidden>
+            <div class="sandbox-bar">
+              <span class="sandbox-title">Turtle window</span>
+            </div>
+            <div class="turtle-stage">
+              <canvas id="turtle-canvas" width="560" height="380"></canvas>
+              <canvas id="turtle-sprite" width="560" height="380"></canvas>
+            </div>
           </div>
-          <pre class="sandbox-out-body" id="sandbox-output"></pre>
+          <div class="sandbox-output">
+            <div class="sandbox-bar">
+              <span class="sandbox-title">Output</span>
+              <button type="button" class="btn btn-ghost sandbox-clear" title="Clear the output">Clear</button>
+            </div>
+            <pre class="sandbox-out-body" id="sandbox-output"></pre>
+          </div>
         </div>
       </div>
 
       <p class="sandbox-hint">
         <kbd>Ctrl</kbd>+<kbd>Enter</kbd> to run &middot;
         <kbd>Tab</kbd> inserts 4 spaces &middot;
-        Python loads the first time you press Run (5-10 seconds), then it's instant.
+        Python loads the first time you press Run (5-10 seconds), then it's instant &middot;
+        type <code>import turtle</code> and a drawing window appears.
       </p>
 
       <section class="sandbox-examples sandbox-snippets" id="sandbox-snippets">
@@ -127,6 +139,7 @@
   <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-python.min.js"></script>
   <script src="/supabase-config.js"></script>
   <script src="/app.js"></script>
+  <script src="/pyrun.js"></script>
   <script src="/sandbox.js"></script>
   <script src="/code-maximise.js"></script>
 </body>
