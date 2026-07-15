@@ -227,6 +227,17 @@ on conflict (code) do update set
   year_level = excluded.year_level;
 
 -- ============================================================
+-- Later roster additions (July 2026)
+-- ============================================================
+insert into students (code, first_name, last_name, class, year_level) values
+  ('SIL0015', 'Logan', 'Silver', '10F', 10)
+on conflict (code) do update set
+  first_name = excluded.first_name,
+  last_name  = excluded.last_name,
+  class      = excluded.class,
+  year_level = excluded.year_level;
+
+-- ============================================================
 -- Test "gremlin" account
 -- ============================================================
 -- A throwaway account for trying the site as a student without using a
