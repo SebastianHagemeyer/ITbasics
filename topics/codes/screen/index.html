@@ -51,9 +51,14 @@
             <input type="range" id="screenlab-size" min="0" max="16" step="1" value="0" aria-label="How many cells the screen is split into" />
             <span class="screenlab-val" id="screenlab-size-val">3 lights</span>
           </label>
+          <label class="screenlab-colour-wrap">
+            Colour
+            <input type="color" id="screenlab-colour" value="#ffffff" aria-label="Colour the lights should mix" />
+            <span class="screenlab-val" id="screenlab-colour-val">#FFFFFF</span>
+          </label>
           <label class="screenlab-check">
             <input type="checkbox" id="screenlab-white" />
-            Compare with real white
+            Compare with the real colour
           </label>
           <button type="button" class="btn btn-primary" id="screenlab-fs">Full screen</button>
         </div>
@@ -68,7 +73,8 @@
           <li><strong>Start:</strong> three big stripes, swapping colours once a second. Easy to follow.</li>
           <li><strong>Slide Subdivide up a few steps.</strong> The stripes break into smaller and smaller rectangles, like the screen is growing its own pixels.</li>
           <li><strong>Now push Speed up.</strong> Once the lights are tiny and swapping fast, your eyes give up trying to follow each one... and the whole thing starts to look <strong>pale, washed out, almost white</strong>.</li>
-          <li><strong>Tick "Compare with real white".</strong> A circle of genuine white (<code>#FFFFFF</code>) appears in the middle. How close is the illusion? Step back from the screen, or squint, and watch them merge.</li>
+          <li><strong>Tick "Compare with the real colour".</strong> A circle of the genuine mixed colour appears in the middle. How close is the illusion? Step back from the screen, or squint, and watch them merge.</li>
+          <li><strong>Now pick a colour.</strong> Try orange. Watch what the lights do: the red ones stay bright, the green ones go dimmer, and the blue ones switch off completely. Step back... orange. No orange light anywhere on the screen, ever.</li>
         </ol>
 
         <h2>The three modes</h2>
@@ -86,8 +92,11 @@
         </ul>
         <p>Here's the punchline: <strong>your screen is doing this trick right now.</strong> Every single "white" pixel on this page is really three microscopic lights (one red, one green, one blue) sitting so close together that your eyes cannot tell them apart. If you have a magnifying glass or a drop of water on an old monitor (ask first!), you can actually see them.</p>
 
+        <h2>Any colour, three dimmer switches</h2>
+        <p>The colour picker shows the deepest part of the trick: the lights never change colour, they only change <strong>brightness</strong>. Pick orange (<code>#FF8800</code>) and the red lights run at full power (FF), the green lights at just over half (88), and the blue lights turn off (00). Your eye blends those brightnesses into orange, even though there is no orange light anywhere. Every colour you have ever seen on a screen, every photo, every game, every skin tone, is just these three dimmer switches.</p>
+
         <div class="callout">
-          <strong>Connect it to hex codes:</strong> white is <code>#FFFFFF</code>, which is red full on, green full on, blue full on. This page shows you what "all three full on" physically means. Try making white in the <a href="/topics/codes/#colour">colour mixer</a> too.
+          <strong>Connect it to hex codes:</strong> the picker's hex code is literally the recipe the lights follow: <code>#RRGGBB</code> is red brightness, green brightness, blue brightness. White is <code>#FFFFFF</code> (all full on), and this page shows you what that physically means. Try the same codes in the <a href="/topics/codes/#colour">colour mixer</a> too.
         </div>
 
         <h2>Challenge questions</h2>
