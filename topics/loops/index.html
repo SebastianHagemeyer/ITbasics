@@ -93,6 +93,10 @@
             <li><strong><code>for</code> loop</strong>: use it when you know <em>how many times</em> (or you have a list of things to go through).</li>
             <li><strong><code>while</code> loop</strong>: use it when you <em>don&rsquo;t</em> know how many times, and you just want to keep going <em>until</em> something becomes true.</li>
           </ul>
+          <div class="wordcloud"
+               data-topic="loops-why"
+               data-prompt="In one word, why do programmers use loops instead of copy-pasting code?"
+               data-placeholder="e.g. lazy"></div>
         </section>
 
         <section id="for">
@@ -158,6 +162,10 @@
     <span class="c-keyword">print</span>(count)
     count <span class="c-op">=</span> count <span class="c-op">+</span> <span class="c-num">1</span>   <span class="c-comment"># now it counts up and stops at 5</span></pre>
           <p class="callout"><strong>Golden rule:</strong> every <code>while</code> loop needs a way to end. Before you run it, ask yourself: &ldquo;what will eventually make this condition False?&rdquo;</p>
+          <div class="wordcloud"
+               data-topic="loops-forwhile"
+               data-prompt="You've now met both loops. In one word, when do you grab a WHILE loop instead of a FOR loop?"
+               data-placeholder="e.g. until"></div>
         </section>
 
         <section id="test">
@@ -306,6 +314,7 @@
   <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-python.min.js"></script>
   <script src="/supabase-config.js"></script>
   <script src="/app.js"></script>
+  <script src="/wordcloud.js"></script>
   <script src="/moduletest.js"></script>
   <script src="/challenges.js"></script>
   <script src="/code-maximise.js"></script>
