@@ -22,8 +22,6 @@
   const fsBtn    = document.getElementById("screenlab-fs");
   const capNote  = document.getElementById("screenlab-cap");
 
-  const COLORS = ["#f00", "#0f0", "#00f"];
-
   // Big flashing panels are rough on some eyes (and on photosensitive
   // epilepsy in particular), so full speed only unlocks once the cells
   // are small. Below this subdivision level the speed is capped.
@@ -71,6 +69,14 @@
     }
   }
 
+  // Cells are rendered one pixel each into a small offscreen buffer, then
+  // scaled up with smoothing off (nearest neighbour keeps the edges crisp).
+  // That stays fast even at hundreds of thousands of cells, where drawing
+  // a fillRect per cell would crawl.
+  const buf = document.createElement("canvas");
+  const bctx = buf.getContext("2d");
+  let bufImg = null;
+
   function draw(nowMs) {
     resize();
     const s = settings();
@@ -79,16 +85,26 @@
     const h = canvas.height;
     const phase = s.speed > 0 ? Math.floor((nowMs / 1000) * s.speed) : 0;
 
+    if (buf.width !== g.cols || buf.height !== g.rows) {
+      buf.width = g.cols;
+      buf.height = g.rows;
+      bufImg = bctx.createImageData(g.cols, g.rows);
+    }
+    const d = bufImg.data;
+    let i = 0;
     for (let row = 0; row < g.rows; row++) {
-      const y0 = Math.round(row * h / g.rows);
-      const y1 = Math.round((row + 1) * h / g.rows);
       for (let col = 0; col < g.cols; col++) {
-        const x0 = Math.round(col * w / g.cols);
-        const x1 = Math.round((col + 1) * w / g.cols);
-        ctx.fillStyle = COLORS[(col + row + phase) % 3];
-        ctx.fillRect(x0, y0, x1 - x0, y1 - y0);
+        const c = (col + row + phase) % 3;
+        d[i]     = c === 0 ? 255 : 0;
+        d[i + 1] = c === 1 ? 255 : 0;
+        d[i + 2] = c === 2 ? 255 : 0;
+        d[i + 3] = 255;
+        i += 4;
       }
     }
+    bctx.putImageData(bufImg, 0, 0);
+    ctx.imageSmoothingEnabled = false;
+    ctx.drawImage(buf, 0, 0, w, h);
 
     // Optional comparison spot: a circle of REAL white in the middle. When
     // the illusion is working, the surroundings match it.
