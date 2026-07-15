@@ -36,6 +36,11 @@
       <div class="screenlab" id="screenlab-stage">
         <canvas id="screenlab-canvas" aria-label="Colour mixing demo: cells of red, green and blue"></canvas>
         <div class="screenlab-controls">
+          <div class="screenlab-modes" role="group" aria-label="Mixing mode">
+            <button type="button" class="screenlab-mode active" data-mode="turns">Take turns</button>
+            <button type="button" class="screenlab-mode" data-mode="swap">Swap</button>
+            <button type="button" class="screenlab-mode" data-mode="steady">Steady</button>
+          </div>
           <label class="screenlab-slider">
             Speed
             <input type="range" id="screenlab-speed" min="0" max="30" step="1" value="1" aria-label="Colour swap speed" />
@@ -65,6 +70,13 @@
           <li><strong>Now push Speed up.</strong> Once the lights are tiny and swapping fast, your eyes give up trying to follow each one... and the whole thing starts to look <strong>pale, washed out, almost white</strong>.</li>
           <li><strong>Tick "Compare with real white".</strong> A circle of genuine white (<code>#FFFFFF</code>) appears in the middle. How close is the illusion? Step back from the screen, or squint, and watch them merge.</li>
         </ol>
+
+        <h2>The three modes</h2>
+        <ul>
+          <li><strong>Take turns:</strong> every light keeps its own colour, and only one colour is switched on at a time: all the reds, then all the greens, then all the blues. Every spot on the screen is actually <em>dark two thirds of the time</em>, but your eye never notices. Old projectors really worked this way, with a spinning colour wheel. Notice the "white" it makes is dimmer, because the lights spend most of their time off.</li>
+          <li><strong>Swap:</strong> every light stays on and they pass the three colours around. The brightest blend, and both tricks at once.</li>
+          <li><strong>Steady:</strong> nothing flashes at all. Red, green and blue just sit side by side, and it STILL turns white when the lights are small enough. This is exactly, literally, what your real screen is doing right now: no flashing needed, just three tiny lights too close together to tell apart.</li>
+        </ul>
 
         <h2>What's the trick?</h2>
         <p>There is no white light coming from this page at all, only red, green and blue taking turns. Two things blend them together:</p>

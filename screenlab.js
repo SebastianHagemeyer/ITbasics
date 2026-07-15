@@ -36,11 +36,21 @@
     return { cols: cols, rows: rows };
   }
 
+  // How the three colours combine:
+  //   turns  - each cell has a fixed colour and only one colour is lit at a
+  //            time (like a colour-wheel projector). Pure persistence of
+  //            vision, dimmer blend.
+  //   swap   - every cell stays lit and the colours rotate around. Brightest
+  //            blend, temporal + spatial mixing at once.
+  //   steady - nothing flashes; fixed colours side by side, exactly like the
+  //            subpixels of a real screen. Pure spatial mixing.
+  let mode = "turns";
+
   function settings() {
     const level = parseInt(sizeIn.value, 10) || 0;
     let speed = parseFloat(speedIn.value) || 0;
     let capped = false;
-    if (level < SAFE_LEVEL && speed > CAPPED_SPEED) {
+    if (mode !== "steady" && level < SAFE_LEVEL && speed > CAPPED_SPEED) {
       speed = CAPPED_SPEED;
       capped = true;
     }
@@ -50,9 +60,14 @@
   function updateLabels() {
     const s = settings();
     const g = grid(s.level);
-    speedVal.textContent = s.speed === 0
-      ? "paused"
-      : s.speed + (s.speed === 1 ? " swap" : " swaps") + " a second";
+    if (mode === "steady") {
+      speedVal.textContent = "no flashing in Steady";
+    } else {
+      speedVal.textContent = s.speed === 0
+        ? "paused"
+        : s.speed + (s.speed === 1 ? " swap" : " swaps") + " a second";
+    }
+    speedIn.disabled = mode === "steady";
     sizeVal.textContent = (g.cols * g.rows) + " lights";
     if (capNote) {
       capNote.hidden = !s.capped;
@@ -91,10 +106,20 @@
       bufImg = bctx.createImageData(g.cols, g.rows);
     }
     const d = bufImg.data;
+    const litColor = phase % 3;
     let i = 0;
     for (let row = 0; row < g.rows; row++) {
       for (let col = 0; col < g.cols; col++) {
-        const c = (col + row + phase) % 3;
+        let c;
+        if (mode === "swap") {
+          // Every cell lit; the colours rotate around the grid.
+          c = (col + row + phase) % 3;
+        } else {
+          // Fixed colour per cell, like real subpixels. In "turns" only one
+          // colour is lit at a time; the rest go dark. "steady" never flashes.
+          c = (col + row) % 3;
+          if (mode === "turns" && c !== litColor) c = -1;
+        }
         d[i]     = c === 0 ? 255 : 0;
         d[i + 1] = c === 1 ? 255 : 0;
         d[i + 2] = c === 2 ? 255 : 0;
@@ -124,6 +149,15 @@
 
   speedIn.addEventListener("input", updateLabels);
   sizeIn.addEventListener("input", updateLabels);
+
+  const modeBtns = document.querySelectorAll(".screenlab-mode");
+  modeBtns.forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      mode = btn.dataset.mode;
+      modeBtns.forEach(function (b) { b.classList.toggle("active", b === btn); });
+      updateLabels();
+    });
+  });
 
   if (fsBtn && stage.requestFullscreen) {
     fsBtn.addEventListener("click", function () {
