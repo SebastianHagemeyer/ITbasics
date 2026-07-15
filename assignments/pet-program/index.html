@@ -132,8 +132,8 @@
               </svg>
             </span>
             <span class="track-name">Pet Turtle</span>
-            <span class="track-desc">Adopt a turtle that lives in your browser and draws
-              whatever you code: shapes, spirals, even its own portrait.</span>
+            <span class="track-desc">Adopt a turtle that lives in your browser, then turn it
+              into a Drawing Robot your classmates can order shapes from.</span>
             <span class="track-tag">For the artists</span>
           </button>
         </div>
@@ -183,6 +183,15 @@
            CALCULATOR TRACK
            ================================================================ -->
       <div class="track-pane" data-track="calc" hidden>
+
+        <div class="callout assign-goal">
+          <strong>The goal: build a machine a vet could use.</strong>
+          A customer types their pet's age, your program answers in pet years, then it serves the
+          next customer, and the next, until someone types <code>quit</code>. And no matter what
+          nonsense gets typed (banana, 2.5, nothing at all), it never crashes.
+          <em>The test of success:</em> swap seats with a classmate. If they can get three answers
+          out of it and can't crash it, you've built it.
+        </div>
 
         <section class="assign-step">
           <h2><span class="step-num">Part 0</span> Choose your pet</h2>
@@ -377,6 +386,7 @@
             <label class="check-item"><input type="checkbox" class="self-check" data-check="c-final-maths" /> It calculates pet years correctly for the pet I chose.</label>
             <label class="check-item"><input type="checkbox" class="self-check" data-check="c-final-quit" /> It keeps asking until the user types <code>quit</code>.</label>
             <label class="check-item"><input type="checkbox" class="self-check" data-check="c-final-crash" /> It does not crash when someone types nonsense.</label>
+            <label class="check-item"><input type="checkbox" class="self-check" data-check="c-final-tester" /> A classmate used my calculator and could not crash it.</label>
             <label class="check-item"><input type="checkbox" class="self-check" data-check="c-final-comments" /> I added comments that explain what each part does.</label>
             <label class="check-item"><input type="checkbox" class="self-check" data-check="c-final-ext" /> I tried at least one extension (or gave it a real go).</label>
           </div>
@@ -387,6 +397,17 @@
            TURTLE TRACK
            ================================================================ -->
       <div class="track-pane" data-track="turtle" hidden>
+
+        <div class="callout assign-goal">
+          <strong>The goal: build a Drawing Robot you could hand to a stranger.</strong>
+          By the end, your turtle isn't a pet you steer, it's a vending machine for art. Anyone
+          can walk up to your program and, without reading any code, get asked what shape they
+          want and how big, watch the turtle draw it, and get served again and again until they
+          type <code>quit</code>. And no matter what nonsense they type, your robot never
+          crashes, it just asks again.
+          <em>The test of success:</em> swap seats with a classmate. If they can order three
+          drawings and can't crash it, you've built it.
+        </div>
 
         <section class="assign-step">
           <h2><span class="step-num">Part 0</span> Meet your pet turtle</h2>
@@ -475,7 +496,7 @@
         </section>
 
         <section class="assign-step">
-          <h2><span class="step-num">Part 4</span> A shape menu (and a polite quit)</h2>
+          <h2><span class="step-num">Part 4</span> The Drawing Robot: a shape menu and a polite quit (this is the goal!)</h2>
           <p>
             Real programs keep going until you're done with them. <code>while True:</code> means "keep
             going forever", <code>break</code> jumps out of the loop, and <code>if / elif / else</code>
@@ -533,6 +554,7 @@
             <label class="check-item"><input type="checkbox" class="self-check" data-check="t-final-int" /> It converts the answer to a number with <code>int()</code>.</label>
             <label class="check-item"><input type="checkbox" class="self-check" data-check="t-final-loop" /> It uses a loop, and it keeps going until the user types <code>quit</code>.</label>
             <label class="check-item"><input type="checkbox" class="self-check" data-check="t-final-crash" /> It does not crash when someone types nonsense.</label>
+            <label class="check-item"><input type="checkbox" class="self-check" data-check="t-final-robot" /> A classmate ordered a drawing from my robot and could not crash it.</label>
             <label class="check-item"><input type="checkbox" class="self-check" data-check="t-final-comments" /> I added comments that explain what each part does.</label>
             <label class="check-item"><input type="checkbox" class="self-check" data-check="t-final-ext" /> I tried at least one extension (or gave it a real go).</label>
           </div>
