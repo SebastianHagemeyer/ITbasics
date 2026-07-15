@@ -21,6 +21,23 @@
   const whiteIn  = document.getElementById("screenlab-white");
   const fsBtn    = document.getElementById("screenlab-fs");
   const capNote  = document.getElementById("screenlab-cap");
+  const colourIn  = document.getElementById("screenlab-colour");
+  const colourVal = document.getElementById("screenlab-colour-val");
+
+  // The colour the lights are asked to mix. Each family of lights only ever
+  // shows its own channel of this, at that channel's brightness: this is
+  // exactly how a real screen dims its subpixels to make any colour.
+  let target = [255, 255, 255];
+
+  function readColour() {
+    const hex = (colourIn && colourIn.value) || "#ffffff";
+    target = [
+      parseInt(hex.slice(1, 3), 16) || 0,
+      parseInt(hex.slice(3, 5), 16) || 0,
+      parseInt(hex.slice(5, 7), 16) || 0
+    ];
+    if (colourVal) colourVal.textContent = hex.toUpperCase();
+  }
 
   // Big flashing panels are rough on some eyes (and on photosensitive
   // epilepsy in particular), so full speed only unlocks once the cells
@@ -120,9 +137,9 @@
           c = (col + row) % 3;
           if (mode === "turns" && c !== litColor) c = -1;
         }
-        d[i]     = c === 0 ? 255 : 0;
-        d[i + 1] = c === 1 ? 255 : 0;
-        d[i + 2] = c === 2 ? 255 : 0;
+        d[i]     = c === 0 ? target[0] : 0;
+        d[i + 1] = c === 1 ? target[1] : 0;
+        d[i + 2] = c === 2 ? target[2] : 0;
         d[i + 3] = 255;
         i += 4;
       }
@@ -131,13 +148,13 @@
     ctx.imageSmoothingEnabled = false;
     ctx.drawImage(buf, 0, 0, w, h);
 
-    // Optional comparison spot: a circle of REAL white in the middle. When
-    // the illusion is working, the surroundings match it.
+    // Optional comparison spot: a circle of the REAL mixed colour in the
+    // middle. When the illusion is working, the surroundings match it.
     if (whiteIn && whiteIn.checked) {
       const r = Math.min(w, h) / 7;
       ctx.beginPath();
       ctx.arc(w / 2, h / 2, r, 0, Math.PI * 2);
-      ctx.fillStyle = "#fff";
+      ctx.fillStyle = "rgb(" + target[0] + "," + target[1] + "," + target[2] + ")";
       ctx.fill();
       ctx.lineWidth = Math.max(2, r / 24);
       ctx.strokeStyle = "rgba(0,0,0,0.35)";
@@ -149,6 +166,7 @@
 
   speedIn.addEventListener("input", updateLabels);
   sizeIn.addEventListener("input", updateLabels);
+  if (colourIn) colourIn.addEventListener("input", readColour);
 
   const modeBtns = document.querySelectorAll(".screenlab-mode");
   modeBtns.forEach(function (btn) {
@@ -171,6 +189,7 @@
     fsBtn.hidden = true;
   }
 
+  readColour();
   updateLabels();
   requestAnimationFrame(draw);
 })();

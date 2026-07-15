@@ -1698,6 +1698,27 @@ body.has-maximised-code { overflow: hidden; }
   background: #fff;
   color: #111;
 }
+.screenlab-colour-wrap {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.screenlab-colour-wrap input[type="color"] {
+  width: 34px;
+  height: 26px;
+  padding: 0;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 6px;
+  background: transparent;
+  cursor: pointer;
+}
+.screenlab-colour-wrap .screenlab-val {
+  min-width: 0;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
 .screenlab-slider input[type="range"]:disabled { opacity: 0.4; }
 .screenlab-cap {
   position: absolute;
