@@ -33,6 +33,31 @@
     });
   }
 
+  // Teacher accounts get a shortcut to the export tool (/teacher/) right on their
+  // own profile, so it does not have to be reached by typing the URL. Add more
+  // staff codes here if other teachers need the same shortcut.
+  var TEACHER_CODES = ["MRH0001"];
+  function isTeacher(student) {
+    return !!student && TEACHER_CODES.indexOf(String(student.code || "").toUpperCase()) !== -1;
+  }
+
+  // Insert (or remove) the teacher-only link at the top of the progress page.
+  function renderTeacherLink(student) {
+    var existing = el("progress-teacher");
+    if (!isTeacher(student)) { if (existing) existing.remove(); return; }
+    if (existing) return;
+    var content = el("progress-content");
+    if (!content) return;
+    var box = document.createElement("div");
+    box.id = "progress-teacher";
+    box.innerHTML =
+      '<h2 class="section-title">Teacher</h2>' +
+      '<div class="progress-cta">' +
+        '<a href="/teacher/" class="btn btn-primary">Open the export tool</a>' +
+      '</div>';
+    content.insertBefore(box, content.firstChild);
+  }
+
   // Every attempt row for the signed-in student. Online: one query scoped to
   // this student. Offline: rebuild rows from the localStorage buckets app.js
   // (and the module tests) write per quiz_name.
@@ -257,6 +282,7 @@
     }
     status.textContent = "";
     el("progress-content").hidden = false;
+    renderTeacherLink(student);
   }
 
   if (document.readyState === "loading") {
