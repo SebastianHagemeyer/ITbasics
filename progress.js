@@ -34,11 +34,12 @@
   }
 
   // Teacher accounts get a shortcut to the export tool (/teacher/) right on their
-  // own profile, so it does not have to be reached by typing the URL. Add more
-  // staff codes here if other teachers need the same shortcut.
-  var TEACHER_CODES = ["MRH0001"];
+  // own profile, so it does not have to be reached by typing the URL. Reuses the
+  // same staff list as the /teacher/ passphrase skip (window.TEACHER_CODES in
+  // supabase-config.js) so the two never drift apart.
   function isTeacher(student) {
-    return !!student && TEACHER_CODES.indexOf(String(student.code || "").toUpperCase()) !== -1;
+    var codes = window.TEACHER_CODES || [];
+    return Boolean(student && codes.indexOf(student.code) !== -1);
   }
 
   // Insert (or remove) the teacher-only link at the top of the progress page.
