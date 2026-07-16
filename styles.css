@@ -1744,6 +1744,9 @@ body.has-maximised-code { overflow: hidden; }
   text-align: center;
 }
 .screenlab-guide { margin-top: 30px; }
+
+/* Pixel Painter: pack the ██ rows tight so pictures don't have gaps. */
+.pixel-out { line-height: 1.05; }
 @media (max-width: 640px) {
   .screenlab-val { min-width: 0; }
   .screenlab-controls { gap: 10px; padding: 8px 10px; }
