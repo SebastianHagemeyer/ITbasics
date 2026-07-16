@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pixel Painter | Hallam IT Basics</title>
+  <link rel="icon" type="image/svg+xml" href="/logo-binary.svg" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="stylesheet" href="/styles.css" />
+  <script>
+    (function () {
+      try {
+        if (!JSON.parse(localStorage.getItem("itbasics-session"))) {
+          location.replace("/");
+        }
+      } catch (e) { location.replace("/"); }
+    })();
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/" class="logo">
+        <img class="logo-mark" src="/logo-binary.svg" alt="" width="32" height="32" />
+        <span>Hallam IT Basics</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="/">Home</a>
+        <div class="nav-dropdown" data-open="false">
+          <button type="button" class="nav-dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+            Topics
+            <svg class="nav-chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="nav-dropdown-menu" role="menu">
+            <a href="/topics/programming/" role="menuitem">Programming</a>
+            <a href="/topics/html/" role="menuitem">HTML</a>
+            <a href="/topics/python/" role="menuitem">Python</a>
+            <a href="/quizzes/" role="menuitem">Quizzes</a>
+          </div>
+        </div>
+        <div class="nav-dropdown" data-open="false">
+          <button type="button" class="nav-dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+            Play
+            <svg class="nav-chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="nav-dropdown-menu" role="menu">
+            <a href="/freeplay/" role="menuitem">Freeplay</a>
+            <a href="/challenges/" role="menuitem">Live Coding</a>
+            <a href="/sandbox/" role="menuitem">Sandbox</a>
+          </div>
+        </div>
+        <a href="/assignments/" class="active">Assignments</a>
+        <a href="/leaderboard/">Leaderboard</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Assignments &middot; Task 2</p>
+        <h1>Pixel Painter: Pictures Are Data</h1>
+        <p class="lead">
+          Every image you have ever seen on a screen is secretly a grid of numbers.
+          In this task you'll store a drawing as pure data, and write the code that turns it into art.
+        </p>
+      </div>
+    </section>
+
+    <div class="container section assign-page">
+
+      <!-- ============ intro ============ -->
+      <section class="assign-intro">
+        <div class="callout">
+          <strong>How this works:</strong> everything happens on this page. Write and run your code in
+          the editor below, follow the steps in order, and press <strong>Submit</strong> at the bottom
+          when you're done. Your work saves automatically as you go, and it follows you between
+          computers. The <strong>Add to editor</strong> buttons drop example code at the <em>bottom</em>
+          of whatever you've already written; merging it in (and deleting the old bits it replaces)
+          is your job. There's always an Undo if it goes wrong.
+          <a href="#rubric">How you'll be marked</a> is at the bottom (11 marks).
+        </div>
+        <div class="callout assign-goal">
+          <strong>The goal: build a Picture Printer.</strong>
+          By the end, your drawing will live in your program as pure <em>data</em>: a grid of letters,
+          plus a palette that says what colour each letter means. A loop turns that data into coloured
+          pixels. The magic test: change the <em>data</em> and you get completely different art
+          <em>without touching the loop</em>. That's exactly how real image files work, and why one
+          photo viewer can show every photo ever taken.
+        </div>
+      </section>
+
+      <!-- ============ workspace ============ -->
+      <section id="workspace" class="assign-workspace">
+        <h2>Your workspace</h2>
+        <div class="assign-shell">
+          <div class="sandbox-editor assign-editor">
+            <div class="sandbox-bar">
+              <span class="sandbox-title">pixel_art.py</span>
+              <div class="sandbox-bar-actions">
+                <button type="button" class="btn btn-primary sandbox-run" id="assign-run">
+                  <span class="sandbox-run-label">Run</span>
+                </button>
+              </div>
+            </div>
+            <div class="sandbox-code language-python" id="assign-code" spellcheck="false"></div>
+          </div>
+          <div class="assign-right">
+            <div class="sandbox-output assign-output">
+              <div class="sandbox-bar">
+                <span class="sandbox-title">Your picture</span>
+              </div>
+              <pre class="sandbox-out-body pixel-out" id="assign-output"></pre>
+            </div>
+          </div>
+        </div>
+        <p class="sandbox-hint">
+          <kbd>Ctrl</kbd>+<kbd>Enter</kbd> to run &middot; <kbd>Tab</kbd> inserts 4 spaces &middot;
+          Python loads the first time you press Run (5-10 seconds), then it's instant &middot;
+          the Run button turns into <strong>Stop</strong> while your program is going.
+        </p>
+      </section>
+
+      <section class="assign-step">
+        <h2><span class="step-num">Part 0</span> Pictures are secretly data</h2>
+        <p>
+          Zoom far enough into any photo and it falls apart into little coloured squares:
+          <strong>pixels</strong>. A phone photo is about 12 <em>million</em> of them, and each one is
+          just a colour code, the same <code>#RRGGBB</code> hex codes from the
+          <a href="/topics/codes/#colour">Codes &amp; Colour</a> lesson. A picture is nothing but a
+          very long list of colour codes. Data.
+        </p>
+        <p>
+          We'll paint our pixels with the block character <code>██</code> and the <code>col=</code>
+          colour trick. The starter code in the editor prints three pixels. Run it!
+        </p>
+        <div class="check-list">
+          <label class="check-item"><input type="checkbox" class="self-check" data-check="p0-run" /> I ran the starter code and saw three coloured pixels.</label>
+          <label class="check-item"><input type="checkbox" class="self-check" data-check="p0-hex" /> I changed one of the hex codes and got a different colour (the <a href="/topics/codes/#colour">colour mixer</a> helps).</label>
+        </div>
+      </section>
+
+      <section class="assign-step">
+        <h2><span class="step-num">Part 1</span> A row of pixels</h2>
+        <p>
+          Printing pixels one line at a time only makes a stripe. To build a <em>row</em>, we need the
+          pixels to sit side by side. <code>end=""</code> tells Python "don't jump to a new line after
+          this print". Then one empty <code>print()</code> finishes the row.
+        </p>
+        <div class="snippet" data-snippet="px-1"></div>
+        <p><strong>Your turn:</strong> make the row longer, then shorter. Then make a second row
+          in a different colour under it.</p>
+        <div class="check-list">
+          <label class="check-item"><input type="checkbox" class="self-check" data-check="p1-end" /> I can explain what <code>end=""</code> does (try deleting it and running).</label>
+          <label class="check-item"><input type="checkbox" class="self-check" data-check="p1-rows" /> I drew at least two rows in different colours.</label>
+        </div>
+        <label class="reflect-label" for="px-reflect-end">What happened when you deleted <code>end=""</code>, and why?</label>
+        <textarea id="px-reflect-end" class="reflect" data-reflect="px-end" rows="2" placeholder="The pixels went..."></textarea>
+      </section>
+
+      <section class="assign-step">
+        <h2><span class="step-num">Part 2</span> The palette: letters become colours</h2>
+        <p>
+          Here's the big idea of the whole task. Instead of writing the colour of every pixel by hand,
+          we store the picture as a <strong>string of letters</strong>, and keep a
+          <strong>palette</strong> that says what colour each letter means. The letters are the
+          <em>data</em>. The loop is the <em>code</em> that reads the data.
+        </p>
+        <div class="snippet" data-snippet="px-2"></div>
+        <p>
+          <strong>Your turn:</strong> change the <code>row</code> string (just the letters!) and run it
+          again. Notice you're changing the picture <em>without touching the loop</em>. Then add a new
+          letter to the palette and use it in the row.
+        </p>
+        <div class="check-list">
+          <label class="check-item"><input type="checkbox" class="self-check" data-check="p2-data" /> I changed the row data and the picture changed, without touching the loop.</label>
+          <label class="check-item"><input type="checkbox" class="self-check" data-check="p2-letter" /> I added my own letter to the palette and used it.</label>
+        </div>
+      </section>
+
+      <section class="assign-step">
+        <h2><span class="step-num">Part 3</span> The whole picture: rows of data</h2>
+        <p>
+          A picture is just rows stacked up, so our data becomes a <strong>list of strings</strong>,
+          one string per row. To draw it we need a <strong>loop inside a loop</strong>: the outer loop
+          takes each row, the inner loop takes each letter in that row.
+        </p>
+        <div class="snippet" data-snippet="px-3"></div>
+        <div class="check-list">
+          <label class="check-item"><input type="checkbox" class="self-check" data-check="p3-face" /> I ran it and got the face.</label>
+          <label class="check-item"><input type="checkbox" class="self-check" data-check="p3-loops" /> I can point at the outer loop (rows) and the inner loop (letters).</label>
+        </div>
+        <label class="reflect-label" for="px-reflect-loops">In your own words: what does the outer loop do, and what does the inner loop do?</label>
+        <textarea id="px-reflect-loops" class="reflect" data-reflect="px-loops" rows="2" placeholder="The outer loop... the inner loop..."></textarea>
+      </section>
+
+      <section class="assign-step">
+        <h2><span class="step-num">Part 4</span> Make it YOURS (this is the goal!)</h2>
+        <p>
+          Now replace the face with your own art. Design it on paper first if it helps: a grid about
+          8 wide and 8 tall is a good size, bigger if you're brave. Ideas: a space invader, a flag,
+          your initial, a sword, a heart, your pet from Task 1.
+        </p>
+        <p>The rules for full marks:</p>
+        <ul class="key-points">
+          <li>Your picture is stored as a <strong>list of strings</strong> (the data), drawn by your
+            <strong>nested loop</strong>, no long chains of hand-written prints.</li>
+          <li>At least <strong>three colours</strong> in your palette, each with a comment saying what
+            it's for.</li>
+          <li>It's <strong>your own picture</strong>, not the example face.</li>
+        </ul>
+        <div class="check-list">
+          <label class="check-item"><input type="checkbox" class="self-check" data-check="p4-own" /> My own picture draws correctly.</label>
+          <label class="check-item"><input type="checkbox" class="self-check" data-check="p4-three" /> My palette has at least three commented colours.</label>
+          <label class="check-item"><input type="checkbox" class="self-check" data-check="p4-swap" /> A classmate looked at my DATA (just the letters) and could guess what the picture was before I ran it.</label>
+        </div>
+      </section>
+
+      <section class="assign-step">
+        <h2><span class="step-num">Part 5</span> How much data is your art?</h2>
+        <p>
+          Time to think like a computer. Your picture is a grid: count the rows and the columns.
+          Every letter in your data is one pixel.
+        </p>
+        <label class="reflect-label" for="px-reflect-pixels">How many pixels does your picture have, and how did you work it out?</label>
+        <textarea id="px-reflect-pixels" class="reflect" data-reflect="px-pixels" rows="2" placeholder="My picture is __ wide and __ tall, so..."></textarea>
+        <p>
+          A "true colour" image stores 3 bytes per pixel (one byte each for red, green and blue).
+          Your program stores just <em>one letter</em> per pixel, three times smaller, and it only
+          works because your palette has a few colours. This trick is real: it's how GIFs and old
+          video games stored their graphics.
+        </p>
+        <label class="reflect-label" for="px-reflect-palette">Why does the one-letter-per-pixel trick only work when the picture uses a small number of colours?</label>
+        <textarea id="px-reflect-palette" class="reflect" data-reflect="px-palette" rows="2" placeholder="Because every letter has to..."></textarea>
+        <label class="reflect-label" for="px-reflect-photo">A phone photo is about 12 million pixels at 3 bytes each. Roughly how big is that in MB, and why do photos eat your phone's storage?</label>
+        <textarea id="px-reflect-photo" class="reflect" data-reflect="px-photo" rows="2" placeholder="12 million x 3 bytes is about..."></textarea>
+      </section>
+
+      <section class="assign-step assign-extensions">
+        <h2><span class="step-num">Extensions</span> For the speedy</h2>
+        <ol>
+          <li><strong>Twinkle.</strong> Redraw your picture in a loop with <code>clear()</code> and
+            <code>time.sleep()</code>, giving one of your colours a random shade each frame.</li>
+          <li><strong>Recolour on demand.</strong> Use <code>input()</code> to let the user pick a
+            colour for one of your palette letters before the picture draws. Same data, new look.</li>
+          <li><strong>Go big.</strong> A 16-wide picture with 5+ colours. How many pixels now?</li>
+        </ol>
+        <div class="snippet" data-snippet="px-x1"></div>
+        <div class="snippet" data-snippet="px-x2"></div>
+      </section>
+
+      <section class="assign-step">
+        <h2><span class="step-num">Finish</span> Final self-check</h2>
+        <div class="check-list">
+          <label class="check-item"><input type="checkbox" class="self-check" data-check="px-final-data" /> My picture is stored as DATA (a list of strings), not hundreds of print lines.</label>
+          <label class="check-item"><input type="checkbox" class="self-check" data-check="px-final-palette" /> My palette maps every letter I used to a colour, with comments.</label>
+          <label class="check-item"><input type="checkbox" class="self-check" data-check="px-final-loops" /> A loop inside a loop turns my data into pixels.</label>
+          <label class="check-item"><input type="checkbox" class="self-check" data-check="px-final-own" /> The picture is my own design, not the example.</label>
+          <label class="check-item"><input type="checkbox" class="self-check" data-check="px-final-count" /> I answered the how-much-data questions in Part 5.</label>
+          <label class="check-item"><input type="checkbox" class="self-check" data-check="px-final-ext" /> I tried at least one extension (or gave it a real go).</label>
+        </div>
+      </section>
+
+      <!-- ============ rubric ============ -->
+      <section class="assign-step" id="rubric">
+        <h2><span class="step-num">Rubric</span> How you'll be marked (11 marks)</h2>
+        <table class="data-table rubric-table">
+          <thead><tr><th>Criterion</th><th>Marks</th><th>Description</th></tr></thead>
+          <tbody>
+            <tr><td rowspan="3"><strong>Code works</strong></td>
+                <td>4</td><td>Nested loop draws your picture from the data, no errors</td></tr>
+            <tr><td>2</td><td>Draws something, but with bugs or hand-written print chains</td></tr>
+            <tr><td>1</td><td>Doesn't run properly</td></tr>
+            <tr><td rowspan="3"><strong>Data &amp; palette</strong></td>
+                <td>3</td><td>Picture stored as a list of strings; palette of 3+ colours with helpful comments</td></tr>
+            <tr><td>2</td><td>Data and palette there, but thin or uncommented</td></tr>
+            <tr><td>1</td><td>Mostly hard-coded prints</td></tr>
+            <tr><td rowspan="2"><strong>Originality</strong></td>
+                <td>2</td><td>Your own recognisable design, not the example face</td></tr>
+            <tr><td>1</td><td>A light edit of the example</td></tr>
+            <tr><td rowspan="2"><strong>Data thinking</strong></td>
+                <td>1</td><td>Part 5 questions answered with real numbers and reasoning</td></tr>
+            <tr><td>0</td><td>Not answered</td></tr>
+            <tr><td rowspan="2"><strong>Short note</strong></td>
+                <td>1</td><td>Wrote a short note: what you drew and what was trickiest</td></tr>
+            <tr><td>0</td><td>No note</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- ============ submit ============ -->
+      <section class="assign-step assign-submit">
+        <h2><span class="step-num">Submit</span> Hand it in</h2>
+        <p>
+          Make sure your finished program is in the editor above (run it one last time!), write a short
+          note, and press Submit. You can submit again as many times as you like; your newest version
+          is the one that counts.
+        </p>
+        <label class="reflect-label" for="submit-note">
+          Your note (2-3 sentences): what did you draw, and what was the trickiest part?
+        </label>
+        <textarea id="submit-note" rows="3"
+          placeholder="I drew a space invader. The trickiest part was..."></textarea>
+        <div class="submit-row">
+          <button type="button" class="btn btn-primary" id="submit-btn">Submit my program</button>
+          <div id="submit-status" class="submit-status" role="status"></div>
+        </div>
+        <p class="assign-stuck">
+          Stuck? Talk to the person next to you first. If you're both stuck, ask the teacher.
+        </p>
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; Hallam IT Basics &middot; For Years 7-9 computing classes.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/prism.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-python.min.js"></script>
+  <script src="/supabase-config.js"></script>
+  <script src="/app.js"></script>
+  <script src="/pyrun.js"></script>
+  <script src="/pixelart.js"></script>
+</body>
+</html>

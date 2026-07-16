@@ -39,6 +39,19 @@
             'stroke="#1f7a4a" stroke-width="1.5" fill="none"/>' +
     '</svg>';
 
+  var ICON_PIXEL =
+    '<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">' +
+      '<rect x="8"  y="8"  width="12" height="12" rx="2" fill="#FF4136"/>' +
+      '<rect x="22" y="8"  width="12" height="12" rx="2" fill="#FFDC00"/>' +
+      '<rect x="36" y="8"  width="12" height="12" rx="2" fill="#2ECC40"/>' +
+      '<rect x="8"  y="22" width="12" height="12" rx="2" fill="#0074D9"/>' +
+      '<rect x="22" y="22" width="12" height="12" rx="2" fill="#B10DC9"/>' +
+      '<rect x="36" y="22" width="12" height="12" rx="2" fill="#FF851B"/>' +
+      '<rect x="8"  y="36" width="12" height="12" rx="2" fill="#39CCCC"/>' +
+      '<rect x="22" y="36" width="12" height="12" rx="2" fill="#F012BE"/>' +
+      '<rect x="36" y="36" width="12" height="12" rx="2" fill="#1C4587"/>' +
+    '</svg>';
+
   var ASSIGNMENTS = [
     {
       key: "petprogram",
@@ -47,6 +60,15 @@
       icon: ICON_DOG + ICON_TURTLE,
       desc: "Build your first real Python program, step by step. Choose your path: " +
             "a Pet Age Calculator for the number crunchers, or a drawing Pet Turtle for the artists.",
+      marks: 11
+    },
+    {
+      key: "pixelart",
+      title: "Task 2 · Pixel Painter: Pictures Are Data",
+      href: "/assignments/pixel-painter/",
+      icon: ICON_PIXEL,
+      desc: "Every image is secretly a grid of numbers. Store your own drawing as pure data, " +
+            "build a colour palette with hex codes, and write the loop that paints it.",
       marks: 11
     }
   ];
