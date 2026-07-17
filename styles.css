@@ -1748,13 +1748,23 @@ body.has-maximised-code { overflow: hidden; }
 /* Pixel Painter: pack the ██ rows tight so pictures don't have gaps. */
 .pixel-out { line-height: 1.05; }
 
-/* Live indentation hint strip under code editors. */
+/* Live indentation hint strip under code editors, plus the transparent
+   red wash over the offending line. */
+.sandbox-editor { position: relative; }
 .indent-hint {
   padding: 6px 12px;
   background: #fff3cd;
   color: #6b5200;
   font-size: 0.84rem;
   border-top: 1px solid #e6d9a8;
+}
+.indent-flag {
+  position: absolute;
+  pointer-events: none;
+  background: rgba(255, 82, 82, 0.14);
+  border-left: 3px solid rgba(255, 82, 82, 0.65);
+  border-radius: 2px;
+  z-index: 2;
 }
 
 /* Short written answers ("explain WHY") on lesson pages. */
