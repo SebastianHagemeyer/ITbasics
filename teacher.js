@@ -780,8 +780,10 @@
       // challenge catalog (like the student home page) still show nice names.
       items.push({ type: cb.dataset.type, key: cb.dataset.key, label: cb.dataset.label });
     });
-    if (!title) { msg.textContent = "Give it a title."; msg.classList.add("error"); return; }
     if (!items.length) { msg.textContent = "Tick at least one item."; msg.classList.add("error"); return; }
+    if (!title) {
+      title = "Homework: " + new Date().toLocaleDateString("en-AU", { day: "numeric", month: "short" });
+    }
 
     var row = {
       class: el("hw-class").value,
