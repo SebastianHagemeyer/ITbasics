@@ -186,6 +186,11 @@
     return problems;
   }
 
+  // Wait for a real pause in typing before saying anything, and never flag
+  // the line the caret is on (or the one just above a fresh blank line),
+  // so kids aren't nagged about code they're mid-way through writing.
+  const LINT_DELAY_MS = 1400;
+
   function attachLint(editor) {
     const host = editor.closest(".sandbox-editor") || editor.parentNode;
     const hint = document.createElement("div");
@@ -193,22 +198,82 @@
     hint.hidden = true;
     host.appendChild(hint);
 
+    // Transparent red wash over the offending line, positioned over the
+    // editor. pointer-events: none so it never blocks clicks or typing.
+    const flag = document.createElement("div");
+    flag.className = "indent-flag";
+    flag.hidden = true;
+    host.appendChild(flag);
+
     let timer = null;
+    let flaggedLine = 0;
+
+    function caretLine() {
+      const pos = selectionOffsets(editor);
+      if (!pos) return -1;
+      return editor.textContent.slice(0, pos.start).split("\n").length; // 1-based
+    }
+
+    function lineIsBlank(n) {
+      const lines = editor.textContent.split("\n");
+      return !((lines[n - 1] || "").trim());
+    }
+
+    function positionFlag() {
+      if (!flaggedLine) { flag.hidden = true; return; }
+      const cs = getComputedStyle(editor);
+      let lh = parseFloat(cs.lineHeight);
+      if (isNaN(lh)) lh = (parseFloat(cs.fontSize) || 14) * 1.5;
+      const padTop = parseFloat(cs.paddingTop) || 0;
+      const top = editor.offsetTop + padTop + (flaggedLine - 1) * lh - editor.scrollTop;
+      // Hide when the line is scrolled out of the visible editor area.
+      if (top < editor.offsetTop || top > editor.offsetTop + editor.clientHeight - lh * 0.5) {
+        flag.hidden = true;
+        return;
+      }
+      flag.style.top = top + "px";
+      flag.style.height = lh + "px";
+      flag.style.left = editor.offsetLeft + "px";
+      flag.style.width = editor.clientWidth + "px";
+      flag.hidden = false;
+    }
+
+    function clear() {
+      hint.hidden = true;
+      flaggedLine = 0;
+      flag.hidden = true;
+    }
+
     function schedule() {
       if (timer) clearTimeout(timer);
-      timer = setTimeout(run, 600);
+      timer = setTimeout(run, LINT_DELAY_MS);
     }
+
     function run() {
       timer = null;
-      const problems = lintIndent(editor.textContent);
-      if (!problems.length) { hint.hidden = true; return; }
+      let problems = lintIndent(editor.textContent);
+      const at = caretLine();
+      if (at !== -1) {
+        problems = problems.filter(function (p) {
+          if (p.line === at) return false;
+          // Sitting on a fresh blank line right under the flagged one: they
+          // are (probably) about to fix it themselves.
+          if (p.line === at - 1 && lineIsBlank(at)) return false;
+          return true;
+        });
+      }
+      if (!problems.length) { clear(); return; }
       const p = problems[0];
       hint.hidden = false;
-      hint.textContent = "⚠ Line " + p.line + ": " + p.msg +
+      hint.textContent = "Line " + p.line + ": " + p.msg +
         (problems.length > 1 ? "  (and " + (problems.length - 1) + " more)" : "");
+      flaggedLine = p.line;
+      positionFlag();
     }
+
     editor.addEventListener("input", schedule);
     editor.addEventListener("keyup", schedule);
+    editor.addEventListener("scroll", positionFlag);
   }
 
   function boot() {
