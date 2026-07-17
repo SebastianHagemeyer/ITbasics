@@ -1009,8 +1009,11 @@ del _sandbox_install_color_print
     let jar = null;
     let busy = false;
     // onlyId pins this instance to one challenge (embedded task or single embed);
-    // the standalone page passes null and starts on the first challenge.
-    let current = (onlyId && challengeById(onlyId)) || CHALLENGES[0];
+    // the standalone page passes null and starts on the first challenge, or on
+    // the challenge named in the URL hash (used by homework links).
+    let current = (onlyId && challengeById(onlyId)) ||
+      (!onlyId && location.hash && challengeById(decodeURIComponent(location.hash.slice(1)))) ||
+      CHALLENGES[0];
     // Routing handle for the shared stdout/stderr/input callbacks.
     const io = { appendOut: appendOut, readLine: readLineInteractive, writeColored: writeColored };
 
