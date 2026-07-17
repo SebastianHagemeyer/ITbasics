@@ -70,6 +70,32 @@
             <tbody id="teacher-body"></tbody>
           </table>
         </div>
+
+        <!-- Homework builder -->
+        <section class="hw-builder" id="hw-builder">
+          <h2>Set homework</h2>
+          <p class="section-sub">Pick a class, tick the items, give it a name. Students see it (with their own status per item) on their home page the moment they sign in; check who's done it via the Homework entries in the Task dropdown above.</p>
+          <div class="hw-form">
+            <label class="teacher-field">
+              <span>Class</span>
+              <select id="hw-class" class="teacher-select"></select>
+            </label>
+            <label class="teacher-field">
+              <span>Title</span>
+              <input type="text" id="hw-title" class="auth-input hw-title-input" placeholder="e.g. Week 3 homework" maxlength="60" />
+            </label>
+            <label class="teacher-field">
+              <span>Due date (optional)</span>
+              <input type="date" id="hw-due" class="auth-input" />
+            </label>
+          </div>
+          <div class="hw-items" id="hw-items"></div>
+          <div class="submit-row">
+            <button type="button" class="btn btn-primary" id="hw-create">Set this homework</button>
+            <span id="hw-msg" class="auth-msg" role="status"></span>
+          </div>
+          <div id="hw-existing"></div>
+        </section>
       </div>
     </div>
   </main>
@@ -86,6 +112,7 @@
   <!-- Loaded only to expose window.ITBASICS_CHALLENGE_CATALOG (the page has no
        challenge shell, so the challenge engine bails out without running). -->
   <script src="/challenges.js"></script>
+  <script src="/hw-status.js"></script>
   <script src="/teacher.js"></script>
 </body>
 </html>

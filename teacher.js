@@ -63,11 +63,25 @@
     "px-photo":   "How big is a phone photo, and why?"
   };
 
+  // Homework rows fetched from the homework table; each becomes a Task
+  // dropdown entry showing per-student status on every item.
+  var HOMEWORK_ROWS = [];
+
   // Built once we know the challenge catalog; combined list the dropdown uses.
   var ALL_TASKS = MODULE_TASKS.slice();
 
   function buildTasks() {
     ALL_TASKS = MODULE_TASKS.slice().concat(ASSIGNMENT_TASKS);
+    HOMEWORK_ROWS.forEach(function (hw) {
+      ALL_TASKS.push({
+        key: "hw:" + hw.id,
+        label: hw.title + " (" + hw.class + ")",
+        group: "Homework",
+        kind: "homework",
+        hw: hw,
+        compute: computeHomework(hw)
+      });
+    });
     var catalog = window.ITBASICS_CHALLENGE_CATALOG || [];
     if (!catalog.length) return;
     var ids = catalog.map(function (c) { return c.id; });
@@ -273,8 +287,88 @@
     };
   }
 
+  // Homework: "Completed" means every item done; the % is items done, and
+  // the detail lists each item's status (✓ done, ~ started, ✗ not started).
+  function computeHomework(hw) {
+    return function (bundle) {
+      bundle = bundle || {};
+      var items = hw.items || [];
+      var done = 0, started = 0;
+      var bits = items.map(function (item) {
+        var status = window.HWStatus.itemStatus(item, bundle);
+        if (status === "done") done++;
+        if (status === "started") started++;
+        var mark = status === "done" ? "✓" : status === "started" ? "~" : "✗";
+        var short = window.HWStatus.itemLabel(item).replace(/\s*\(.*\)$/, "");
+        return short + " " + mark;
+      });
+      return {
+        pct: items.length ? Math.round((done / items.length) * 100) : 0,
+        completed: items.length > 0 && done === items.length,
+        detail: bits.join(" · ") + (started ? "" : "")
+      };
+    };
+  }
+
   // ---- Data -----------------------------------------------------------------
   function sb() { return window.ITBasics.client(); }
+
+  async function loadHomeworkRows() {
+    var res = await sb().from("homework")
+      .select("id, class, title, items, due_date, created_at")
+      .order("created_at", { ascending: false });
+    HOMEWORK_ROWS = (!res.error && res.data) ? res.data : [];
+  }
+
+  // Per-student bundles for a homework task: only the quiz names the items
+  // actually need (freeplay noise would blow the row cap otherwise).
+  async function loadHomeworkData(cls, task) {
+    var hw = task.hw;
+    var sres = await sb().from("students")
+      .select("code, first_name, last_name, class")
+      .eq("class", cls)
+      .order("last_name", { ascending: true });
+    if (sres.error) throw new Error(sres.error.message);
+    var students = sres.data || [];
+    if (!students.length) return { students: [], byStudent: {} };
+    var codes = students.map(function (s) { return s.code; });
+
+    var byStudent = {};
+    function bundle(code) {
+      return (byStudent[code] = byStudent[code] || { attempts: [], submissions: {}, drafts: {}, answers: {} });
+    }
+
+    var quizNames = window.HWStatus.neededQuizNames(hw.items);
+    if (quizNames.length) {
+      var ares = await sb().from("quiz_attempts")
+        .select("student_code, quiz_name, score, total, answers")
+        .in("student_code", codes)
+        .in("quiz_name", quizNames);
+      if (ares.error) throw new Error(ares.error.message);
+      (ares.data || []).forEach(function (r) { bundle(r.student_code).attempts.push(r); });
+    }
+
+    if ((hw.items || []).some(function (i) { return i.type === "assignment"; })) {
+      var subs = await sb().from("assignment_submissions")
+        .select("student_code, assignment").in("student_code", codes);
+      if (!subs.error) (subs.data || []).forEach(function (r) { bundle(r.student_code).submissions[r.assignment] = true; });
+      var drafts = await sb().from("assignment_progress")
+        .select("student_code, assignment").in("student_code", codes);
+      if (!drafts.error) (drafts.data || []).forEach(function (r) { bundle(r.student_code).drafts[r.assignment] = true; });
+    }
+
+    var answerNames = window.HWStatus.neededAnswerNames(hw.items);
+    for (var i = 0; i < answerNames.length; i++) {
+      var qres = await sb().from("quiz_progress")
+        .select("student_code, answers").in("student_code", codes).eq("quiz_name", answerNames[i]);
+      if (!qres.error) {
+        (qres.data || []).forEach(function (r) {
+          bundle(r.student_code).answers[answerNames[i]] = r.answers || {};
+        });
+      }
+    }
+    return { students: students, byStudent: byStudent };
+  }
 
   async function loadClasses() {
     var res = await sb().from("students").select("class");
@@ -551,23 +645,29 @@
     el("teacher-status").textContent = "Loading…";
     el("teacher-summary").hidden = true;
     try {
-      var data = task.kind === "assignment"
-        ? await loadAssignmentData(cls, task)
-        : await loadClassData(cls, task);
+      var data;
+      if (task.kind === "homework") {
+        // A homework set belongs to one class; follow it so the table always
+        // shows the class it was actually set for ('ALL' uses the picker).
+        if (task.hw.class !== "ALL" && task.hw.class !== cls) {
+          cls = task.hw.class;
+          el("teacher-class").value = cls;
+        }
+        data = await loadHomeworkData(cls, task);
+      } else if (task.kind === "assignment") {
+        data = await loadAssignmentData(cls, task);
+      } else {
+        data = await loadClassData(cls, task);
+      }
       render(cls, task, data);
     } catch (e) {
       el("teacher-status").textContent = "Couldn't load: " + (e.message || e);
     }
   }
 
-  async function startTool() {
-    if (!window.ITBasics || !window.ITBasics.isOnline()) {
-      el("teacher-status").textContent =
-        "This page needs the Supabase database (it is offline right now).";
-      return;
-    }
-    buildTasks();
+  function fillTaskSelect() {
     var taskSel = el("teacher-task");
+    var previous = taskSel.value;
     var groups = [];
     var byGroup = {};
     ALL_TASKS.forEach(function (t) {
@@ -582,9 +682,24 @@
         }).join("") +
         '</optgroup>';
     }).join("");
+    if (previous && ALL_TASKS.some(function (t) { return t.key === previous; })) {
+      taskSel.value = previous;
+    }
+  }
 
+  async function startTool() {
+    if (!window.ITBasics || !window.ITBasics.isOnline()) {
+      el("teacher-status").textContent =
+        "This page needs the Supabase database (it is offline right now).";
+      return;
+    }
+    try { await loadHomeworkRows(); } catch (e) { /* table may not exist yet */ }
+    buildTasks();
+    fillTaskSelect();
+
+    var classes;
     try {
-      var classes = await loadClasses();
+      classes = await loadClasses();
       var classSel = el("teacher-class");
       classSel.innerHTML = classes.map(function (c) {
         return '<option value="' + escapeHtml(c) + '">' + escapeHtml(c) + '</option>';
@@ -598,7 +713,128 @@
     el("teacher-task").addEventListener("change", refresh);
     el("teacher-copy").addEventListener("click", copyCsv);
     el("teacher-download").addEventListener("click", downloadCsv);
+    initHomeworkBuilder(classes);
     refresh();
+  }
+
+  // ---- Homework builder -------------------------------------------------------
+
+  function hwCatalog() {
+    var groups = [];
+    var HS = window.HWStatus;
+    groups.push({
+      label: "Modules",
+      items: Object.keys(HS.MODULE_RULES).map(function (k) {
+        return { type: "module", key: k, label: HS.MODULE_RULES[k].label };
+      })
+    });
+    groups.push({
+      label: "Assignments",
+      items: Object.keys(HS.ASSIGNMENT_INFO).map(function (k) {
+        return { type: "assignment", key: k, label: HS.ASSIGNMENT_INFO[k].label.replace(/\s*\(.*\)$/, "") };
+      })
+    });
+    var catalog = window.ITBASICS_CHALLENGE_CATALOG || [];
+    if (catalog.length) {
+      groups.push({
+        label: "Coding challenges",
+        items: catalog.map(function (c) {
+          return { type: "challenge", key: c.id, label: c.title };
+        })
+      });
+    }
+    return groups;
+  }
+
+  function initHomeworkBuilder(classes) {
+    var box = el("hw-builder");
+    if (!box || !window.HWStatus) return;
+
+    el("hw-class").innerHTML =
+      classes.map(function (c) {
+        return '<option value="' + escapeHtml(c) + '">' + escapeHtml(c) + '</option>';
+      }).join("") + '<option value="ALL">ALL classes</option>';
+
+    el("hw-items").innerHTML = hwCatalog().map(function (g) {
+      return '<fieldset class="hw-group"><legend>' + escapeHtml(g.label) + '</legend>' +
+        g.items.map(function (it) {
+          return '<label class="hw-pick"><input type="checkbox" ' +
+            'data-type="' + escapeHtml(it.type) + '" data-key="' + escapeHtml(it.key) + '" ' +
+            'data-label="' + escapeHtml(it.label) + '" /> ' + escapeHtml(it.label) + '</label>';
+        }).join("") +
+      '</fieldset>';
+    }).join("");
+
+    el("hw-create").addEventListener("click", createHomework);
+    renderExistingHomework();
+  }
+
+  async function createHomework() {
+    var msg = el("hw-msg");
+    msg.textContent = "";
+    msg.className = "auth-msg";
+    var title = el("hw-title").value.trim();
+    var items = [];
+    el("hw-items").querySelectorAll("input:checked").forEach(function (cb) {
+      // The label is stored with the item so pages that don't load the
+      // challenge catalog (like the student home page) still show nice names.
+      items.push({ type: cb.dataset.type, key: cb.dataset.key, label: cb.dataset.label });
+    });
+    if (!title) { msg.textContent = "Give it a title."; msg.classList.add("error"); return; }
+    if (!items.length) { msg.textContent = "Tick at least one item."; msg.classList.add("error"); return; }
+
+    var row = {
+      class: el("hw-class").value,
+      title: title,
+      items: items,
+      due_date: el("hw-due").value || null
+    };
+    var res = await sb().from("homework").insert(row);
+    if (res.error) {
+      var m = String(res.error.message || "");
+      msg.textContent = /does not exist|schema cache/i.test(m)
+        ? "The homework table isn't set up yet: run the homework block from supabase-schema.sql."
+        : "Couldn't save: " + m;
+      msg.classList.add("error");
+      return;
+    }
+    msg.textContent = "Set! Students in " + row.class + " will see it when they sign in.";
+    el("hw-title").value = "";
+    el("hw-items").querySelectorAll("input:checked").forEach(function (cb) { cb.checked = false; });
+    await loadHomeworkRows();
+    buildTasks();
+    fillTaskSelect();
+    renderExistingHomework();
+  }
+
+  function renderExistingHomework() {
+    var host = el("hw-existing");
+    if (!host) return;
+    if (!HOMEWORK_ROWS.length) { host.innerHTML = ""; return; }
+    host.innerHTML = "<h3>Current homework</h3>" + HOMEWORK_ROWS.map(function (hw) {
+      var names = (hw.items || []).map(function (it) {
+        return window.HWStatus.itemLabel(it).replace(/\s*\(.*\)$/, "");
+      }).join(", ");
+      return '<div class="hw-row" data-id="' + hw.id + '">' +
+        '<span><strong>' + escapeHtml(hw.title) + '</strong> · ' + escapeHtml(hw.class) +
+          (hw.due_date ? ' · due ' + escapeHtml(hw.due_date) : '') +
+          '<span class="hw-row-items">' + escapeHtml(names) + '</span></span>' +
+        '<button type="button" class="btn btn-ghost hw-delete">Remove</button>' +
+      '</div>';
+    }).join("");
+    host.querySelectorAll(".hw-delete").forEach(function (btn) {
+      btn.addEventListener("click", async function () {
+        var rowEl = btn.closest(".hw-row");
+        var id = parseInt(rowEl.dataset.id, 10);
+        var hw = HOMEWORK_ROWS.filter(function (h) { return h.id === id; })[0];
+        if (!window.confirm('Remove homework "' + (hw ? hw.title : id) + '"? Students will no longer see it.')) return;
+        await sb().from("homework").delete().eq("id", id);
+        await loadHomeworkRows();
+        buildTasks();
+        fillTaskSelect();
+        renderExistingHomework();
+      });
+    });
   }
 
   function unlock() {

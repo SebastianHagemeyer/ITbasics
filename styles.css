@@ -1748,6 +1748,82 @@ body.has-maximised-code { overflow: hidden; }
 /* Pixel Painter: pack the ██ rows tight so pictures don't have gaps. */
 .pixel-out { line-height: 1.05; }
 
+/* Homework: the student panel on the home page. */
+.homework-panel h2 { margin: 0 0 12px; }
+.hw-set {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--primary);
+  border-radius: var(--radius-sm);
+  padding: 14px 18px;
+  margin-bottom: 14px;
+}
+.hw-set.all-done { border-left-color: #1f9d55; }
+.hw-set-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+.hw-set-meta { color: var(--muted); font-size: 0.9rem; }
+.hw-due.urgent { color: #c0392b; font-weight: 700; }
+.hw-list { list-style: none; margin: 0; padding: 0; }
+.hw-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 6px 0;
+  border-top: 1px dashed var(--border);
+}
+.hw-item:first-child { border-top: none; }
+.hw-chip {
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+.hw-chip.done    { background: rgba(31, 157, 85, 0.15); color: #1f7a45; }
+.hw-chip.started { background: rgba(255, 196, 0, 0.2);  color: #7a5c00; }
+.hw-chip.todo    { background: rgba(220, 53, 69, 0.12); color: #b02a37; }
+
+/* Homework builder on the teacher page. */
+.hw-builder {
+  margin-top: 34px;
+  padding-top: 22px;
+  border-top: 1.5px solid var(--border);
+}
+.hw-form { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 12px; }
+.hw-title-input { width: 240px; text-transform: none; letter-spacing: 0; }
+.hw-items { display: grid; gap: 10px; margin-bottom: 12px; }
+.hw-group {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 8px 12px 10px;
+}
+.hw-group legend { font-weight: 700; font-size: 0.9rem; padding: 0 6px; }
+.hw-pick {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin: 3px 14px 3px 0;
+  font-size: 0.92rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.hw-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 0;
+  border-top: 1px dashed var(--border);
+}
+.hw-row-items { display: block; color: var(--muted); font-size: 0.85rem; }
+
 /* Live indentation hint strip under code editors, plus the transparent
    red wash over the offending line. */
 .sandbox-editor { position: relative; }

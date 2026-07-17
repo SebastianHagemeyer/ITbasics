@@ -424,6 +424,36 @@ create policy snippets_update_anon on snippets for update to anon using (true) w
 create policy snippets_delete_anon on snippets for delete to anon using (true);
 
 -- ============================================================
+-- Homework (added July 2026)
+-- ============================================================
+-- A homework row is a list of items (modules, assignments, coding
+-- challenges) set for one class (or 'ALL'). Students see their own status
+-- per item on the home page; the teacher export shows who has started or
+-- completed each item. Item statuses are computed from the existing
+-- attempt/submission/progress tables, so this table only stores the list.
+
+create table if not exists homework (
+  id          bigserial primary key,
+  class       text not null,
+  title       text not null,
+  items       jsonb not null,
+  due_date    date,
+  created_at  timestamptz not null default now()
+);
+
+alter table homework enable row level security;
+
+drop policy if exists homework_select_anon on homework;
+drop policy if exists homework_insert_anon on homework;
+drop policy if exists homework_update_anon on homework;
+drop policy if exists homework_delete_anon on homework;
+
+create policy homework_select_anon on homework for select to anon using (true);
+create policy homework_insert_anon on homework for insert to anon with check (true);
+create policy homework_update_anon on homework for update to anon using (true) with check (true);
+create policy homework_delete_anon on homework for delete to anon using (true);
+
+-- ============================================================
 -- Assignment progress autosave (added July 2026)
 -- ============================================================
 -- Work-in-progress state for assignment pages, synced continuously so a
