@@ -22,7 +22,8 @@
     { key: "python",      label: "Python (module)",           group: "Modules & quizzes", quizzes: ["python", "python-task"], compute: computePython },
     { key: "binary",      label: "Binary & Data test",        group: "Modules & quizzes", quizzes: ["binary"],      compute: testCompute("binary") },
     { key: "codes",       label: "Codes & Colour test",       group: "Modules & quizzes", quizzes: ["codes"],       compute: testCompute("codes") },
-    { key: "systems",     label: "Digital Systems test",      group: "Modules & quizzes", quizzes: ["systems"],     compute: testCompute("systems") },
+    { key: "systems",     label: "Digital Systems (module)",  group: "Modules & quizzes", quizzes: ["systems"],
+      answersModule: "systems", answersTotal: 3, compute: computeWithAnswers("systems", "systems", 3) },
     { key: "networks",    label: "Networks & Safety test",    group: "Modules & quizzes", quizzes: ["networks"],    compute: testCompute("networks") },
     { key: "os",          label: "Computer Skills test",      group: "Modules & quizzes", quizzes: ["os"],          compute: testCompute("os") }
   ];
@@ -41,8 +42,12 @@
   ASSIGNMENT_TASKS.forEach(function (t) { t.compute = computeAssignment(t); });
 
   // Friendly labels for the reflection boxes, so answers read like a marking
-  // sheet instead of raw keys. Keys match data-reflect on the task pages.
+  // sheet instead of raw keys. Keys match data-reflect on the task pages and
+  // data-q on lesson brainboxes.
   var REFLECT_LABELS = {
+    "io-touch":       "Why is a touchscreen both input AND output?",
+    "storage-why":    "Why does a computer need storage?",
+    "ram-vs-storage": "RAM vs storage: what does each do?",
     "c-err":      "Error message from typing letters, and why",
     "c-surprise": "Did anything surprise you?",
     "c-caps":     "Why doesn't QUIT in capitals work?",
@@ -124,6 +129,31 @@
       pct: pct,
       completed: pct === 100,
       detail: "Test " + testStr + " · Task " + (taskDone ? "done" : "not yet")
+    };
+  }
+
+  // Modules with written "explain WHY" boxes blend the test (60%) with the
+  // short answers (40%, scaled by how many of the module's questions have a
+  // real answer: 15+ characters). The answers ride along in the rows as a
+  // pseudo-row with quiz_name "answers-<module>" (see loadClassData).
+  function computeWithAnswers(quiz, module, totalQs) {
+    return function (rows) {
+      var b = bestTest(rows, quiz);
+      var testPct = b && b.total ? Math.round((b.score / b.total) * 100) : 0;
+      var ansRow = rows.filter(function (r) { return r.quiz_name === "answers-" + module; })[0];
+      var written = 0;
+      if (ansRow && ansRow.answers) {
+        written = Object.keys(ansRow.answers).filter(function (k) {
+          return String(ansRow.answers[k] || "").trim().length >= 15;
+        }).length;
+      }
+      var pct = Math.round(0.6 * testPct + 40 * Math.min(1, written / totalQs));
+      var testStr = b ? (b.score + "/" + b.total) : "no attempt";
+      return {
+        pct: pct,
+        completed: pct === 100,
+        detail: "Test " + testStr + " · Answers " + written + "/" + totalQs
+      };
     };
   }
 
@@ -274,6 +304,24 @@
     (ares.data || []).forEach(function (r) {
       (byStudent[r.student_code] = byStudent[r.student_code] || []).push(r);
     });
+
+    // Modules with written-answer boxes: pull each student's saved answers
+    // (quiz_progress row "answers-<module>") in as a pseudo-row so the
+    // compute and the click-to-expand drawer can see them.
+    if (task.answersModule) {
+      var qres = await sb().from("quiz_progress")
+        .select("student_code, answers, updated_at")
+        .in("student_code", codes)
+        .eq("quiz_name", "answers-" + task.answersModule);
+      if (!qres.error) {
+        (qres.data || []).forEach(function (r) {
+          (byStudent[r.student_code] = byStudent[r.student_code] || []).push({
+            quiz_name: "answers-" + task.answersModule,
+            answers: r.answers
+          });
+        });
+      }
+    }
     return { students: students, byStudent: byStudent };
   }
 
@@ -355,12 +403,23 @@
         '<td><strong>' + r.pct + '%</strong></td>' +
         '<td class="teacher-detail">' + escapeHtml(r.detail) + '</td>';
       body.appendChild(tr);
-      // Assignment views: click a student to see what they actually wrote.
+      // Assignment views and answer-bearing modules: click a student to see
+      // what they actually wrote.
       if (task.kind === "assignment") {
         tr.classList.add("t-expandable");
         tr.title = "Click to see their answers and code";
         tr.addEventListener("click", function () {
           toggleAnswers(tr, data.byStudent[r.code] || {});
+        });
+      } else if (task.answersModule) {
+        tr.classList.add("t-expandable");
+        tr.title = "Click to read their written answers";
+        tr.addEventListener("click", function () {
+          var rows2 = data.byStudent[r.code] || [];
+          var ansRow = rows2.filter ? rows2.filter(function (x) {
+            return x.quiz_name === "answers-" + task.answersModule;
+          })[0] : null;
+          toggleAnswers(tr, { progress: { state: { reflects: (ansRow && ansRow.answers) || {} } } });
         });
       }
     });

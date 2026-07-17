@@ -21,7 +21,8 @@
   // Assignments shown on the progress page. Keys match the `assignment`
   // column in assignment_submissions (and assignments.js).
   var ASSIGNMENTS = [
-    { key: "petprogram", label: "Task 1: My First Program", href: "/assignments/pet-program/" }
+    { key: "petprogram", label: "Task 1: My First Program", href: "/assignments/pet-program/" },
+    { key: "pixelart",   label: "Task 2: Pixel Painter",    href: "/assignments/pixel-painter/" }
   ];
   var TRACK_NAMES = { calc: "Pet Age Calculator", turtle: "Pet Turtle" };
 
@@ -86,7 +87,9 @@
   }
 
   // Best score per module, plus Freeplay and Live Coding totals.
-  function summarise(rows) {
+  // sysAnswers is the student's saved "explain WHY" answers for the Digital
+  // Systems module (quiz_progress row "answers-systems"), or null.
+  function summarise(rows, sysAnswers) {
     var modules = {};
     MODULES.forEach(function (m) {
       var mine = rows.filter(function (r) { return r.quiz_name === m.key; });
@@ -165,6 +168,31 @@
       note: attemptedLoops
         ? ("Test " + loopTestBest + "/" + (loopTestTotal || 5) + " · Tasks " + loopTasksDone + "/2")
         : "Take the quick check and the two coding tasks"
+    };
+
+    // Digital Systems blends the test (60%) with the three written
+    // "explain WHY" answers on the lesson page (40%).
+    var sysRows = rows.filter(function (r) { return r.quiz_name === "systems"; });
+    var sysBest = 0, sysTotal = 0, sysPct = 0;
+    if (sysRows.length) {
+      var sb2 = sysRows.reduce(function (a, r) { return r.score > a.score ? r : a; }, sysRows[0]);
+      sysTotal = sysRows.reduce(function (t, r) { return Math.max(t, r.total || 0); }, 0);
+      sysBest = sb2.score;
+      sysPct = sysTotal ? Math.round((sysBest / sysTotal) * 100) : 0;
+    }
+    var sysWritten = 0;
+    if (sysAnswers) {
+      sysWritten = Object.keys(sysAnswers).filter(function (k) {
+        return String(sysAnswers[k] || "").trim().length >= 15;
+      }).length;
+    }
+    var attemptedSys = sysRows.length > 0 || sysWritten > 0;
+    modules.systems = {
+      attempted: attemptedSys,
+      pct: Math.round(0.6 * sysPct + 40 * Math.min(1, sysWritten / 3)),
+      note: attemptedSys
+        ? ("Test " + sysBest + "/" + (sysTotal || 10) + " · Answers " + sysWritten + "/3")
+        : "Take the test and write the three answers on the lesson page"
     };
 
     var freeplay = rows
@@ -294,7 +322,9 @@
       status.textContent = "Couldn't load your progress. " + result.error;
       return;
     }
-    render(student, summarise(result.rows));
+    var sysAnswers = null;
+    try { sysAnswers = await window.ITBasics.loadProgress("answers-systems"); } catch (e) { /* fine */ }
+    render(student, summarise(result.rows, sysAnswers));
 
     var subs = await loadSubmissions(student);
     var assignBox = el("progress-assignments");
