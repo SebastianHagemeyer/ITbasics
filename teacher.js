@@ -19,9 +19,9 @@
     { key: "loops",       label: "Loops (module)",            group: "Modules & quizzes", quizzes: ["loops", "loops-for-task", "loops-while-task"], compute: computeLoops },
     { key: "programming", label: "Programming quiz",          group: "Modules & quizzes", quizzes: ["programming"], compute: testCompute("programming") },
     { key: "html",        label: "HTML quiz",                 group: "Modules & quizzes", quizzes: ["html"],        compute: testCompute("html") },
-    { key: "python",      label: "Python (module)",           group: "Modules & quizzes", quizzes: ["python", "python-task"], compute: computePython },
+    { key: "python",      label: "Python quiz",               group: "Modules & quizzes", quizzes: ["python"],      compute: testCompute("python") },
     { key: "binary",      label: "Binary & Data test",        group: "Modules & quizzes", quizzes: ["binary"],      compute: testCompute("binary") },
-    { key: "codes",       label: "Codes & Colour test",       group: "Modules & quizzes", quizzes: ["codes"],       compute: testCompute("codes") },
+    { key: "codes",       label: "Codes & Colour (module)",   group: "Modules & quizzes", quizzes: ["codes", "codes-task"], compute: computeCodes },
     { key: "systems",     label: "Digital Systems (module)",  group: "Modules & quizzes", quizzes: ["systems"],
       answersModule: "systems", answersTotal: 3, compute: computeWithAnswers("systems", "systems", 3) },
     { key: "networks",    label: "Networks & Safety test",    group: "Modules & quizzes", quizzes: ["networks"],    compute: testCompute("networks") },
@@ -45,7 +45,7 @@
   // sheet instead of raw keys. Keys match data-reflect on the task pages and
   // data-q on lesson brainboxes.
   var REFLECT_LABELS = {
-    "io-touch":       "Why is a touchscreen both input AND output?",
+    "device-why":     "Pick a device: which bin, and why?",
     "storage-why":    "Why does a computer need storage?",
     "ram-vs-storage": "RAM vs storage: what does each do?",
     "c-err":      "Error message from typing letters, and why",
@@ -157,20 +157,20 @@
     };
   }
 
-  // Python blends the quiz (50%) with the Hello World colour task (50%),
-  // same shape as Making Decisions.
-  function computePython(rows) {
-    var b = bestTest(rows, "python");
+  // Codes & Colour blends the module test (50%) with the Hello World colour
+  // task (50%), same shape as Making Decisions.
+  function computeCodes(rows) {
+    var b = bestTest(rows, "codes");
     var testPct = b && b.total ? Math.round((b.score / b.total) * 100) : 0;
     var taskDone = rows.some(function (r) {
-      return r.quiz_name === "python-task" && r.answers && r.answers.challenge;
+      return r.quiz_name === "codes-task" && r.answers && r.answers.challenge;
     });
     var pct = Math.round(0.5 * testPct + 0.5 * (taskDone ? 100 : 0));
     var testStr = b ? (b.score + "/" + b.total) : "no attempt";
     return {
       pct: pct,
       completed: pct === 100,
-      detail: "Quiz " + testStr + " · Task " + (taskDone ? "done" : "not yet")
+      detail: "Test " + testStr + " · Task " + (taskDone ? "done" : "not yet")
     };
   }
 
