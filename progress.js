@@ -45,7 +45,7 @@
       if (res.error) return { error: res.error.message, rows: [] };
       return { rows: res.data || [] };
     }
-    var names = ["programming", "html", "python", "decisions", "decisions-task", "loops", "loops-for-task", "loops-while-task", "binary", "codes", "systems", "networks", "os", "freeplay", "livecoding"];
+    var names = ["programming", "html", "python", "python-task", "decisions", "decisions-task", "loops", "loops-for-task", "loops-while-task", "binary", "codes", "systems", "networks", "os", "freeplay", "livecoding"];
     var rows = [];
     names.forEach(function (name) {
       var raw = localStorage.getItem("itbasics-attempts-" + student.code + "-" + name);
@@ -91,6 +91,28 @@
       note: attemptedDec
         ? ("Test " + testBest + "/" + (testTotal || 6) + " · Task " + (decTaskDone ? "done" : "not yet"))
         : "Take the quick check and the coding task"
+    };
+
+    // Python blends two halves the same way: the quiz (50%) and the Hello
+    // World colour task (quiz_name "python-task", 50%).
+    var pyTestRows = rows.filter(function (r) { return r.quiz_name === "python"; });
+    var pyTaskDone = rows.some(function (r) {
+      return r.quiz_name === "python-task" && r.answers && r.answers.challenge;
+    });
+    var pyBest = 0, pyTotal = 0, pyPct = 0;
+    if (pyTestRows.length) {
+      var pb = pyTestRows.reduce(function (a, r) { return r.score > a.score ? r : a; }, pyTestRows[0]);
+      pyTotal = pyTestRows.reduce(function (t, r) { return Math.max(t, r.total || 0); }, 0);
+      pyBest = pb.score;
+      pyPct = pyTotal ? Math.round((pyBest / pyTotal) * 100) : 0;
+    }
+    var attemptedPy = pyTestRows.length > 0 || pyTaskDone;
+    modules.python = {
+      attempted: attemptedPy,
+      pct: Math.round(0.5 * pyPct + 0.5 * (pyTaskDone ? 100 : 0)),
+      note: attemptedPy
+        ? ("Quiz " + pyBest + "/" + (pyTotal || 10) + " · Task " + (pyTaskDone ? "done" : "not yet"))
+        : "Take the quiz and the coding task"
     };
 
     // Loops blends three parts: the quick check (quiz_name "loops", 50%) and two

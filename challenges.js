@@ -224,6 +224,32 @@
         { label: "Secret 4 - guessed first try", forceSecret: 4, inputs: ["4"],           check: checkGuess }
       ]
     },
+    {
+      // Python module task, embedded on /topics/python/. input + if/else +
+      // the col= colour print, verified across two runs: answering
+      // "favourite" and "least" must produce two DIFFERENT colours.
+      id: "python-hello",
+      tier: "beginner",
+      module: "python",
+      recordAs: "python-task",
+      title: "Hello World, in YOUR colours",
+      brief: "Ask favourite or least favourite, then print Hello World in a matching colour.",
+      detail: 'Ask the user with <code>input()</code>: do they want your <strong>favourite</strong> or your <strong>least</strong> favourite colour? If they answer <code>favourite</code>, print <strong>Hello World</strong> in a colour you love. Otherwise print it in a colour you can\'t stand. Colour any print with <code>col=</code>, like <code>print("Hello World", col="#FF8800")</code>. Colour names work too (<code>col="hotpink"</code>), and the <a href="/topics/codes/#colour">colour mixer</a> is full of hex codes.',
+      accept: 'Answering favourite prints Hello World in one colour; answering least prints it in a DIFFERENT colour. Any two colours you like, as long as they differ.',
+      starter:
+        '# Hello World, in YOUR colours\n' +
+        'answer = input("Favourite or least favourite? ")\n' +
+        '\n' +
+        '# if the answer is "favourite":\n' +
+        '#     print Hello World in a colour you love\n' +
+        '# else:\n' +
+        "#     print it in a colour you can't stand\n" +
+        '# colour a print like this:  print("Hello World", col="#FF8800")\n',
+      tests: [
+        { label: 'Answering "favourite"', inputs: ["favourite"], check: function (r) { return checkHelloColour(r, "favourite"); } },
+        { label: 'Answering "least"',     inputs: ["least"],     check: function (r) { return checkHelloColour(r, "least"); } }
+      ]
+    },
 
     // -------- Intermediate --------
     {
@@ -475,6 +501,32 @@
   function norm(s) { return String(s || "").toLowerCase(); }
   function pass(why) { return { pass: true, why: why || "Looks good." }; }
   function fail(why) { return { pass: false, why: why }; }
+
+  // The Hello World colour task compares colours ACROSS its two test runs:
+  // the "favourite" run records its colour, the "least" run must differ.
+  // Tests always run in order within one Check, so this is safe.
+  var helloColourSeen = null;
+  function checkHelloColour(r, mode) {
+    if (r.error) return fail("Your program hit an error: " + r.error);
+    if (!/hello[\s,!]*world/i.test(String(r.output))) {
+      return fail('I need to see "Hello World" in the output.');
+    }
+    var cols = (r.colors || []).map(function (c) {
+      return String(c).trim().toLowerCase();
+    }).filter(Boolean);
+    if (!cols.length) {
+      return fail('Hello World has no colour yet. Print it with col=, like print("Hello World", col="#FF8800").');
+    }
+    var last = cols[cols.length - 1];
+    if (mode === "favourite") {
+      helloColourSeen = last;
+      return pass("Hello World in " + last + ". Nice choice.");
+    }
+    if (helloColourSeen !== null && last === helloColourSeen) {
+      return fail("Both answers came out in the SAME colour (" + last + "). favourite and least favourite need two different colours: that's what the if / else is for.");
+    }
+    return pass("Two answers, two colours. That's an if / else doing its job.");
+  }
   function numberTokens(s) {
     const set = new Set();
     (String(s).match(/\d+/g) || []).forEach(function (t) { set.add(parseInt(t, 10)); });
@@ -772,8 +824,18 @@ def _run_student(code, inputs_json, force_secret_json):
             raise RuntimeError("ran too long (possible endless loop)")
         return guard
 
+    # Colour-aware print: records every col=/color= value so graders can
+    # check WHICH colours a program used, while the text still lands in the
+    # captured stdout like a normal print.
+    colors = []
+    def _student_print(*args, col=None, color=None, sep=" ", end="\\n", file=None, flush=False):
+        chosen = col if col is not None else color
+        if chosen is not None:
+            colors.append(str(chosen))
+        builtins.print(*args, sep=sep, end=end, file=file, flush=flush)
+
     err = None
-    g = {"__name__": "__main__"}
+    g = {"__name__": "__main__", "print": _student_print}
     sys.settrace(guard)
     try:
         with redirect_stdout(_Tee()):
@@ -789,6 +851,7 @@ def _run_student(code, inputs_json, force_secret_json):
         "output": printed.getvalue(),
         "display": display.getvalue(),
         "used": used["n"],
+        "colors": colors,
         "error": err
     })
 `;
@@ -816,6 +879,28 @@ def _sandbox_install_input():
     _b.input = input
 _sandbox_install_input()
 del _sandbox_install_input, _b
+`;
+
+  // The col= keyword on print(), same as the sandbox, so colour challenges
+  // behave identically under the interactive Run button. Graded runs use
+  // their own print wrapper inside _run_student instead.
+  const PY_INSTALL_COLOR_PRINT = `
+def _sandbox_install_color_print():
+    import sys, builtins
+    from _sandbox_io import writeColored
+    real_print = builtins.print
+    def print(*args, col=None, color=None, sep=' ', end='\\n', file=None, flush=False):
+        chosen = col if col is not None else color
+        if chosen is not None and file is None:
+            sys.stdout.flush()
+            sys.stderr.flush()
+            text = sep.join(str(a) for a in args) + end
+            writeColored(text, str(chosen))
+        else:
+            real_print(*args, sep=sep, end=end, file=file, flush=flush)
+    builtins.print = print
+_sandbox_install_color_print()
+del _sandbox_install_color_print
 `;
 
   // ---- Shared across the editor instances on a page -------------------------
@@ -862,8 +947,14 @@ del _sandbox_install_input, _b
       });
       pyodide.setStdout({ batched: function (s) { if (active) active.appendOut(s, "stdout"); } });
       pyodide.setStderr({ batched: function (s) { if (active) active.appendOut(s, "stderr"); } });
-      pyodide.registerJsModule("_sandbox_io", { readLine: function (p) { return active ? active.readLine(p) : Promise.resolve(""); } });
+      pyodide.registerJsModule("_sandbox_io", {
+        readLine: function (p) { return active ? active.readLine(p) : Promise.resolve(""); },
+        writeColored: function (text, color) {
+          if (active && active.writeColored) active.writeColored(text, color);
+        }
+      });
       await pyodide.runPythonAsync(jspiSupported() ? PY_INSTALL_INPUT : PY_DISABLE_INPUT);
+      await pyodide.runPythonAsync(PY_INSTALL_COLOR_PRINT);
       pyodide.runPython(PY_RUNNER);
       return pyodide;
     })();
@@ -921,7 +1012,7 @@ del _sandbox_install_input, _b
     // the standalone page passes null and starts on the first challenge.
     let current = (onlyId && challengeById(onlyId)) || CHALLENGES[0];
     // Routing handle for the shared stdout/stderr/input callbacks.
-    const io = { appendOut: appendOut, readLine: readLineInteractive };
+    const io = { appendOut: appendOut, readLine: readLineInteractive, writeColored: writeColored };
 
   function challengeById(id) {
     return CHALLENGES.filter(function (c) { return c.id === id; })[0];
@@ -971,6 +1062,15 @@ del _sandbox_install_input, _b
     output.scrollTop = output.scrollHeight;
   }
   function clearOut() { output.innerHTML = ""; }
+
+  // Coloured text from print(col=...) during interactive runs.
+  function writeColored(text, color) {
+    const span = document.createElement("span");
+    span.style.color = String(color || "");
+    span.textContent = String(text);
+    output.appendChild(span);
+    output.scrollTop = output.scrollHeight;
+  }
 
   function readLineInteractive(promptText) {
     return new Promise(function (resolve) {

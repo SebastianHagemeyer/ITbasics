@@ -19,7 +19,7 @@
     { key: "loops",       label: "Loops (module)",            group: "Modules & quizzes", quizzes: ["loops", "loops-for-task", "loops-while-task"], compute: computeLoops },
     { key: "programming", label: "Programming quiz",          group: "Modules & quizzes", quizzes: ["programming"], compute: testCompute("programming") },
     { key: "html",        label: "HTML quiz",                 group: "Modules & quizzes", quizzes: ["html"],        compute: testCompute("html") },
-    { key: "python",      label: "Python quiz",               group: "Modules & quizzes", quizzes: ["python"],      compute: testCompute("python") },
+    { key: "python",      label: "Python (module)",           group: "Modules & quizzes", quizzes: ["python", "python-task"], compute: computePython },
     { key: "binary",      label: "Binary & Data test",        group: "Modules & quizzes", quizzes: ["binary"],      compute: testCompute("binary") },
     { key: "codes",       label: "Codes & Colour test",       group: "Modules & quizzes", quizzes: ["codes"],       compute: testCompute("codes") },
     { key: "systems",     label: "Digital Systems test",      group: "Modules & quizzes", quizzes: ["systems"],     compute: testCompute("systems") },
@@ -124,6 +124,23 @@
       pct: pct,
       completed: pct === 100,
       detail: "Test " + testStr + " · Task " + (taskDone ? "done" : "not yet")
+    };
+  }
+
+  // Python blends the quiz (50%) with the Hello World colour task (50%),
+  // same shape as Making Decisions.
+  function computePython(rows) {
+    var b = bestTest(rows, "python");
+    var testPct = b && b.total ? Math.round((b.score / b.total) * 100) : 0;
+    var taskDone = rows.some(function (r) {
+      return r.quiz_name === "python-task" && r.answers && r.answers.challenge;
+    });
+    var pct = Math.round(0.5 * testPct + 0.5 * (taskDone ? 100 : 0));
+    var testStr = b ? (b.score + "/" + b.total) : "no attempt";
+    return {
+      pct: pct,
+      completed: pct === 100,
+      detail: "Quiz " + testStr + " · Task " + (taskDone ? "done" : "not yet")
     };
   }
 
