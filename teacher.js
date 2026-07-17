@@ -40,6 +40,24 @@
   ];
   ASSIGNMENT_TASKS.forEach(function (t) { t.compute = computeAssignment(t); });
 
+  // Friendly labels for the reflection boxes, so answers read like a marking
+  // sheet instead of raw keys. Keys match data-reflect on the task pages.
+  var REFLECT_LABELS = {
+    "c-err":      "Error message from typing letters, and why",
+    "c-surprise": "Did anything surprise you?",
+    "c-caps":     "Why doesn't QUIT in capitals work?",
+    "c-break":    "Which inputs still caused problems?",
+    "t-err":      "Error message from typing letters, and why",
+    "t-fifty":    "What happened with 50 sides? Why?",
+    "t-caps":     "Why doesn't QUIT in capitals work?",
+    "t-break":    "Which inputs still caused problems?",
+    "px-end":     "What happened when you deleted end=\"\"?",
+    "px-loops":   "What do the outer and inner loops each do?",
+    "px-pixels":  "How many pixels does your picture have?",
+    "px-palette": "Why does 1 letter per pixel need few colours?",
+    "px-photo":   "How big is a phone photo, and why?"
+  };
+
   // Built once we know the challenge catalog; combined list the dropdown uses.
   var ALL_TASKS = MODULE_TASKS.slice();
 
@@ -268,7 +286,7 @@
     }
 
     var ares = await sb().from("assignment_submissions")
-      .select("student_code, track, note, submitted_at, updated_at")
+      .select("student_code, track, code, note, submitted_at, updated_at")
       .in("student_code", codes)
       .eq("assignment", task.assignment);
     if (!ares.error) {
@@ -320,6 +338,14 @@
         '<td><strong>' + r.pct + '%</strong></td>' +
         '<td class="teacher-detail">' + escapeHtml(r.detail) + '</td>';
       body.appendChild(tr);
+      // Assignment views: click a student to see what they actually wrote.
+      if (task.kind === "assignment") {
+        tr.classList.add("t-expandable");
+        tr.title = "Click to see their answers and code";
+        tr.addEventListener("click", function () {
+          toggleAnswers(tr, data.byStudent[r.code] || {});
+        });
+      }
     });
 
     var doneCount = rows.filter(function (r) { return r.completed; }).length;
@@ -333,6 +359,59 @@
       doneCount + ' of ' + rows.length + ' completed &middot; class average ' + avg + '%';
 
     el("teacher-status").textContent = "";
+  }
+
+  // Expandable per-student drawer for assignment views: reflection answers,
+  // note, and the code (draft from progress, or the submitted version).
+  function toggleAnswers(tr, bundle) {
+    var next = tr.nextElementSibling;
+    if (next && next.classList.contains("t-answers-row")) { next.remove(); return; }
+    // Only one drawer open at a time keeps the table readable.
+    var open = tr.parentNode.querySelector(".t-answers-row");
+    if (open) open.remove();
+
+    var state = (bundle.progress && bundle.progress.state) || {};
+    var sub = bundle.submission;
+    var html = "";
+
+    var reflects = state.reflects || {};
+    var rkeys = Object.keys(reflects).filter(function (k) { return String(reflects[k] || "").trim(); });
+    if (rkeys.length) {
+      html += "<h4>Written answers</h4><dl>";
+      rkeys.forEach(function (k) {
+        html += "<dt>" + escapeHtml(REFLECT_LABELS[k] || k) + "</dt>" +
+                "<dd>" + escapeHtml(reflects[k]) + "</dd>";
+      });
+      html += "</dl>";
+    } else {
+      html += "<h4>Written answers</h4><p class='t-none'>Nothing written yet.</p>";
+    }
+
+    var note = (sub && sub.note) || state.note || "";
+    if (String(note).trim()) {
+      html += "<h4>Note</h4><p>" + escapeHtml(note) + "</p>";
+    }
+
+    var code = "";
+    var codeLabel = "";
+    if (sub && sub.code) {
+      code = sub.code;
+      codeLabel = "Submitted code" + (sub.track ? " (" + escapeHtml(sub.track) + ")" : "");
+    } else {
+      var codes = state.code || {};
+      Object.keys(codes).forEach(function (k) {
+        if (String(codes[k] || "").trim().length > String(code).trim().length) code = codes[k];
+      });
+      codeLabel = "Draft code (not submitted)";
+    }
+    if (String(code).trim()) {
+      html += "<h4>" + codeLabel + "</h4><pre>" + escapeHtml(code) + "</pre>";
+    }
+
+    var drawer = document.createElement("tr");
+    drawer.className = "t-answers-row";
+    drawer.innerHTML = '<td colspan="6"><div class="t-answers">' + html + "</div></td>";
+    tr.parentNode.insertBefore(drawer, tr.nextSibling);
   }
 
   // ---- CSV ------------------------------------------------------------------
