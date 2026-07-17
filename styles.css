@@ -1748,6 +1748,39 @@ body.has-maximised-code { overflow: hidden; }
 /* Pixel Painter: pack the ██ rows tight so pictures don't have gaps. */
 .pixel-out { line-height: 1.05; }
 
+/* Short written answers ("explain WHY") on lesson pages. */
+.brainbox {
+  margin: 18px 0;
+  padding: 14px 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--primary);
+  border-radius: var(--radius-sm);
+}
+.brainbox-prompt { margin: 0 0 8px; }
+.brainbox-input {
+  width: 100%;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: 0.95rem;
+  padding: 8px 10px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  resize: vertical;
+}
+.brainbox-input:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(28, 69, 135, 0.15);
+}
+.brainbox-status {
+  display: inline-block;
+  margin-top: 4px;
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+.brainbox-status.ok { color: #1f9d55; }
+
 /* Teacher tool: expandable per-student answers in assignment views. */
 .t-expandable { cursor: pointer; }
 .t-expandable:hover td { background: rgba(28, 69, 135, 0.06); }
