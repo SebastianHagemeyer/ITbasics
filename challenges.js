@@ -225,13 +225,13 @@
       ]
     },
     {
-      // Python module task, embedded on /topics/python/. input + if/else +
-      // the col= colour print, verified across two runs: answering
+      // Codes & Colour module task, embedded on /topics/codes/. input +
+      // if/else + the col= colour print, verified across two runs: answering
       // "favourite" and "least" must produce two DIFFERENT colours.
-      id: "python-hello",
+      id: "codes-hello",
       tier: "beginner",
-      module: "python",
-      recordAs: "python-task",
+      module: "codes",
+      recordAs: "codes-task",
       title: "Hello World, in YOUR colours",
       brief: "Ask favourite or least favourite, then print Hello World in a matching colour.",
       detail: 'Ask the user with <code>input()</code>: do they want your <strong>favourite</strong> or your <strong>least</strong> favourite colour? If they answer <code>favourite</code>, print <strong>Hello World</strong> in a colour you love. Otherwise print it in a colour you can\'t stand. Colour any print with <code>col=</code>, like <code>print("Hello World", col="#FF8800")</code>. Colour names work too (<code>col="hotpink"</code>), and the <a href="/topics/codes/#colour">colour mixer</a> is full of hex codes.',

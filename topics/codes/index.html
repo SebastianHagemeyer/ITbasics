@@ -51,6 +51,7 @@
           <li><a href="#ascii">Letters: ASCII</a></li>
           <li><a href="#hex">Hexadecimal</a></li>
           <li><a href="#colour">Colour: RGB</a></li>
+          <li><a href="#task">Coding task</a></li>
           <li><a href="#cloud">Class word cloud</a></li>
           <li><a href="#glossary">Glossary</a></li>
         </ol>
@@ -143,8 +144,42 @@
           </div>
         </section>
 
+        <section id="task" class="project">
+          <h2>4. Coding task: Hello World, in YOUR colours</h2>
+          <p>Time to <em>use</em> those hex codes in real code. This task is half of the module (the test below is the other half). Press <strong>Check</strong> to mark it. Python loads the first time you press Run or Check (5-10 seconds), then it's instant.</p>
+
+          <div class="module-task" data-challenge="codes-hello">
+            <div class="challenge-brief"></div>
+            <div class="sandbox-shell challenge-shell">
+              <div class="sandbox-editor">
+                <div class="sandbox-bar">
+                  <span class="sandbox-title">solution.py</span>
+                  <div class="sandbox-bar-actions">
+                    <button type="button" class="btn btn-ghost challenge-reset" title="Reset to the starter code">Reset</button>
+                    <button type="button" class="btn btn-ghost challenge-run">
+                      <span class="challenge-run-label">Run</span>
+                    </button>
+                    <button type="button" class="btn btn-primary challenge-check">
+                      <span class="challenge-check-label">Check</span>
+                    </button>
+                  </div>
+                </div>
+                <div class="sandbox-code language-python" spellcheck="false"></div>
+              </div>
+              <div class="sandbox-output">
+                <div class="sandbox-bar">
+                  <span class="sandbox-title">Output</span>
+                  <button type="button" class="btn btn-ghost challenge-clear" title="Clear the output">Clear</button>
+                </div>
+                <pre class="sandbox-out-body"></pre>
+              </div>
+            </div>
+            <div class="challenge-results" hidden></div>
+          </div>
+        </section>
+
         <section id="cloud">
-          <h2>4. Class word cloud</h2>
+          <h2>5. Class word cloud</h2>
           <p>Every colour you can name is just three numbers underneath. Add yours and watch the class palette grow.</p>
           <div class="wordcloud"
                data-topic="codes"
@@ -230,10 +265,14 @@
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/prism.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-python.min.js"></script>
   <script src="/supabase-config.js"></script>
   <script src="/app.js"></script>
   <script src="/codes.js"></script>
   <script src="/wordcloud.js"></script>
   <script src="/moduletest.js"></script>
+  <script src="/editor-tools.js"></script>
+  <script src="/challenges.js"></script>
 </body>
 </html>
