@@ -1748,6 +1748,15 @@ body.has-maximised-code { overflow: hidden; }
 /* Pixel Painter: pack the ██ rows tight so pictures don't have gaps. */
 .pixel-out { line-height: 1.05; }
 
+/* Live indentation hint strip under code editors. */
+.indent-hint {
+  padding: 6px 12px;
+  background: #fff3cd;
+  color: #6b5200;
+  font-size: 0.84rem;
+  border-top: 1px solid #e6d9a8;
+}
+
 /* Short written answers ("explain WHY") on lesson pages. */
 .brainbox {
   margin: 18px 0;
