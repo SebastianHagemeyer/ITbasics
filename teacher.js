@@ -27,11 +27,24 @@
     { key: "os",          label: "Computer Skills test",      group: "Modules & quizzes", quizzes: ["os"],          compute: testCompute("os") }
   ];
 
+  // Assignment drafts: reads assignment_progress (live autosaved state:
+  // code, self-check ticks, reflection answers, note) plus
+  // assignment_submissions, so you can see who has actually started.
+  // checksTotal/reflectsTotal are the per-student expected counts used for
+  // the progress %; for the Pet Project they are per-track (both tracks 13/4).
+  var ASSIGNMENT_TASKS = [
+    { key: "assign:petprogram", label: "Pet Project (Task 1): draft progress", group: "Assignments",
+      kind: "assignment", assignment: "petprogram", checksTotal: 13, reflectsTotal: 4 },
+    { key: "assign:pixelart", label: "Pixel Painter (Task 2): draft progress", group: "Assignments",
+      kind: "assignment", assignment: "pixelart", checksTotal: 17, reflectsTotal: 5 }
+  ];
+  ASSIGNMENT_TASKS.forEach(function (t) { t.compute = computeAssignment(t); });
+
   // Built once we know the challenge catalog; combined list the dropdown uses.
   var ALL_TASKS = MODULE_TASKS.slice();
 
   function buildTasks() {
-    ALL_TASKS = MODULE_TASKS.slice();
+    ALL_TASKS = MODULE_TASKS.slice().concat(ASSIGNMENT_TASKS);
     var catalog = window.ITBASICS_CHALLENGE_CATALOG || [];
     if (!catalog.length) return;
     var ids = catalog.map(function (c) { return c.id; });
@@ -149,6 +162,52 @@
     };
   }
 
+  // "Completed" = actually submitted. The % is draft progress so you can see
+  // who has started: ticks are worth half, written answers 30%, and having
+  // real code in the editor the rest. The detail column shows the raw counts.
+  function computeAssignment(task) {
+    return function (bundle) {
+      bundle = bundle || {};
+      var p = bundle.progress, sub = bundle.submission;
+      var state = (p && p.state) || {};
+      var codeObj = state.code || {};
+      var codeChars = 0;
+      Object.keys(codeObj).forEach(function (k) {
+        codeChars = Math.max(codeChars, String(codeObj[k] || "").trim().length);
+      });
+      var ticks = Object.keys(state.checks || {}).length;
+      var answers = Object.keys(state.reflects || {}).filter(function (k) {
+        return String(state.reflects[k] || "").trim();
+      }).length;
+      var hasNote = Boolean(String(state.note || "").trim() || (sub && sub.note));
+      // The untouched starter code is well under 200 chars; real work isn't.
+      var hasCode = codeChars >= 200;
+
+      var when = (sub && (sub.updated_at || sub.submitted_at)) || (p && p.updated_at) || null;
+      var whenStr = "";
+      if (when) {
+        var d = new Date(when);
+        if (!isNaN(d)) whenStr = d.toLocaleDateString("en-AU", { day: "numeric", month: "short" });
+      }
+
+      var pct = sub ? 100 : Math.round(
+        50 * Math.min(1, ticks / task.checksTotal) +
+        30 * Math.min(1, answers / task.reflectsTotal) +
+        (hasCode ? 20 : 0)
+      );
+
+      var bits = [];
+      bits.push(hasCode ? "code " + codeChars + " chars" : "no real code yet");
+      bits.push("ticks " + ticks);
+      bits.push("answers " + answers);
+      if (hasNote) bits.push("note ✓");
+      if (sub) bits.push("submitted" + (whenStr ? " " + whenStr : ""));
+      else if (p) bits.push("last active " + whenStr);
+      else bits.push("not started");
+      return { pct: pct, completed: Boolean(sub), detail: bits.join(" · ") };
+    };
+  }
+
   // ---- Data -----------------------------------------------------------------
   function sb() { return window.ITBasics.client(); }
 
@@ -180,6 +239,44 @@
     (ares.data || []).forEach(function (r) {
       (byStudent[r.student_code] = byStudent[r.student_code] || []).push(r);
     });
+    return { students: students, byStudent: byStudent };
+  }
+
+  // Assignment tasks read progress drafts + submissions instead of attempts.
+  async function loadAssignmentData(cls, task) {
+    var sres = await sb().from("students")
+      .select("code, first_name, last_name, class")
+      .eq("class", cls)
+      .order("last_name", { ascending: true });
+    if (sres.error) throw new Error(sres.error.message);
+    var students = sres.data || [];
+    if (!students.length) return { students: [], byStudent: {} };
+
+    var codes = students.map(function (s) { return s.code; });
+    var byStudent = {};
+
+    var pres = await sb().from("assignment_progress")
+      .select("student_code, state, updated_at")
+      .in("student_code", codes)
+      .eq("assignment", task.assignment);
+    // A missing table just means the sync SQL hasn't been run; show
+    // submissions only rather than erroring out.
+    if (!pres.error) {
+      (pres.data || []).forEach(function (r) {
+        (byStudent[r.student_code] = byStudent[r.student_code] || {}).progress = r;
+      });
+    }
+
+    var ares = await sb().from("assignment_submissions")
+      .select("student_code, track, note, submitted_at, updated_at")
+      .in("student_code", codes)
+      .eq("assignment", task.assignment);
+    if (!ares.error) {
+      (ares.data || []).forEach(function (r) {
+        (byStudent[r.student_code] = byStudent[r.student_code] || {}).submission = r;
+      });
+    }
+
     return { students: students, byStudent: byStudent };
   }
 
@@ -299,7 +396,9 @@
     el("teacher-status").textContent = "Loading…";
     el("teacher-summary").hidden = true;
     try {
-      var data = await loadClassData(cls, task);
+      var data = task.kind === "assignment"
+        ? await loadAssignmentData(cls, task)
+        : await loadClassData(cls, task);
       render(cls, task, data);
     } catch (e) {
       el("teacher-status").textContent = "Couldn't load: " + (e.message || e);
