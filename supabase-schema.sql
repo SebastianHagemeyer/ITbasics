@@ -230,7 +230,7 @@ on conflict (code) do update set
 -- Later roster additions (July 2026)
 -- ============================================================
 insert into students (code, first_name, last_name, class, year_level) values
-  ('SIL0015', 'Logan', 'Silver', '10F', 10)
+  ('SIL0015', 'Logan', 'Silver', '10ITB', 10)
 on conflict (code) do update set
   first_name = excluded.first_name,
   last_name  = excluded.last_name,
