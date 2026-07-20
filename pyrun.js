@@ -744,7 +744,16 @@ del _pyrun_install_turtle
           "    sys.modules['turtle']._reset_all()\n"
         );
         resetTurtle();
-        await py.runPythonAsync(getCode());
+        // Run in a FRESH namespace each time, so variables from a previous
+        // run can't linger and produce "ghost" results after the code has
+        // changed. Without this, a value set last run (e.g. age) is still
+        // there this run if the new code reads it before assigning it.
+        const ns = py.runPython("dict(__name__='__main__')");
+        try {
+          await py.runPythonAsync(getCode(), { globals: ns });
+        } finally {
+          ns.destroy();
+        }
       } catch (err) {
         const msg = (err && err.message) ? String(err.message) : String(err);
         if (/Stopped by user|KeyboardInterrupt/.test(msg)) {
