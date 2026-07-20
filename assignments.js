@@ -83,39 +83,37 @@
     });
   }
 
-  // Submission rows for this student: Supabase when online, with the
-  // page's local fallback copy as a backup source.
+  // One assignment_progress row per student per assignment now holds
+  // everything: the live state plus submitted_at (the "ready to grade" flag).
+  // A row with submitted_at set = submitted; a row without = started.
   async function loadSubmissions(student) {
     var byKey = {};
     if (window.ITBasics.isOnline()) {
       var sb = window.ITBasics.client();
-      var res = await sb.from("assignment_submissions")
-        .select("assignment, track, submitted_at, updated_at")
+      var res = await sb.from("assignment_progress")
+        .select("assignment, state, submitted_at, updated_at")
         .eq("student_code", student.code);
       if (!res.error && res.data) {
         res.data.forEach(function (r) { byKey[r.assignment] = r; });
       }
     }
-    ASSIGNMENTS.forEach(function (a) {
-      if (byKey[a.key]) return;
-      var raw = localStorage.getItem("itbasics-" + a.key + "-" + student.code + "-submission");
-      if (!raw) return;
-      try { byKey[a.key] = JSON.parse(raw); } catch (e) { /* ignore */ }
-    });
     return byKey;
   }
 
   function card(a, sub) {
     var status, cls;
-    if (sub) {
-      var when = sub.updated_at || sub.submitted_at;
-      var date = when ? new Date(when).toLocaleDateString("en-AU", { day: "numeric", month: "short" }) : "";
+    if (sub && sub.submitted_at) {
+      var date = new Date(sub.submitted_at);
+      var track = sub.state && sub.state.track;
       status = "&#10003; Submitted" +
-        (sub.track ? " &middot; " + escapeHtml(TRACK_NAMES[sub.track] || sub.track) : "") +
-        (date ? " &middot; " + escapeHtml(date) : "");
+        (track ? " &middot; " + escapeHtml(TRACK_NAMES[track] || track) : "") +
+        (isNaN(date) ? "" : " &middot; " + escapeHtml(date.toLocaleDateString("en-AU", { day: "numeric", month: "short" })));
       cls = "done";
+    } else if (sub) {
+      status = "In progress";
+      cls = "todo";
     } else {
-      status = "Not submitted yet";
+      status = "Not started yet";
       cls = "todo";
     }
     return (

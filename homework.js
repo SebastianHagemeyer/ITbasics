@@ -16,7 +16,7 @@
   }
 
   async function loadStudentData(sb, student, items) {
-    var data = { attempts: [], submissions: {}, drafts: {}, answers: {} };
+    var data = { attempts: [], assignments: {}, answers: {} };
     var quizNames = window.HWStatus.neededQuizNames(items);
     if (quizNames.length) {
       var ares = await sb.from("quiz_attempts")
@@ -27,12 +27,11 @@
     }
     var hasAssignments = items.some(function (i) { return i.type === "assignment"; });
     if (hasAssignments) {
-      var sres = await sb.from("assignment_submissions")
-        .select("assignment").eq("student_code", student.code);
-      if (!sres.error) (sres.data || []).forEach(function (r) { data.submissions[r.assignment] = true; });
       var pres = await sb.from("assignment_progress")
-        .select("assignment").eq("student_code", student.code);
-      if (!pres.error) (pres.data || []).forEach(function (r) { data.drafts[r.assignment] = true; });
+        .select("assignment, submitted_at").eq("student_code", student.code);
+      if (!pres.error) (pres.data || []).forEach(function (r) {
+        data.assignments[r.assignment] = { submitted: Boolean(r.submitted_at) };
+      });
     }
     var answerNames = window.HWStatus.neededAnswerNames(items);
     for (var i = 0; i < answerNames.length; i++) {

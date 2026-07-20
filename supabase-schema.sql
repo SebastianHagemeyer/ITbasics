@@ -375,7 +375,10 @@ create policy assignments_select_anon on assignment_submissions for select to an
 create policy assignments_insert_anon on assignment_submissions for insert to anon with check (true);
 create policy assignments_update_anon on assignment_submissions for update to anon using (true) with check (true);
 
--- Teacher view: everything you need to mark, one row per submission.
+-- DEPRECATED (July 2026): the site no longer writes to assignment_submissions.
+-- Submitting is now a submitted_at flag on assignment_progress, and marking is
+-- done from teacher_assignment_progress (further down). This table and view are
+-- kept only so any historical submissions remain readable; nothing writes here.
 create or replace view teacher_assignments as
 select
   s.class,
@@ -462,13 +465,22 @@ create policy homework_delete_anon on homework for delete to anon using (true);
 -- page (for petprogram: track, code per track, self-checks, reflections,
 -- note). Submissions stay in assignment_submissions; this is the draft.
 
+-- The continuously-synced state already holds the code, note, self-checks
+-- and reflections, so "submitting" is just a flag: submitted_at is stamped
+-- when the student says their work is ready to grade (null = not yet).
+-- There is no separate submissions copy any more; the teacher marks from
+-- this same row (submitted_at plus the live state).
 create table if not exists assignment_progress (
   student_code  text not null references students(code) on delete cascade,
   assignment    text not null,
   state         jsonb not null,
+  submitted_at  timestamptz,
   updated_at    timestamptz not null default now(),
   primary key (student_code, assignment)
 );
+
+-- Safe to re-run on an existing table that predates the flag.
+alter table assignment_progress add column if not exists submitted_at timestamptz;
 
 alter table assignment_progress enable row level security;
 
@@ -480,8 +492,9 @@ create policy progress_draft_select_anon on assignment_progress for select to an
 create policy progress_draft_insert_anon on assignment_progress for insert to anon with check (true);
 create policy progress_draft_update_anon on assignment_progress for update to anon using (true) with check (true);
 
--- Teacher view: see every student's draft state (reflection answers live
--- in state->'reflects'), newest first.
+-- Teacher view: everything you need to mark, one row per student per
+-- assignment. The reflection answers live in state->'reflects', the code
+-- in state->'code'; submitted_at is null until the student hands it in.
 create or replace view teacher_assignment_progress as
 select
   s.class,
@@ -490,7 +503,8 @@ select
   s.code,
   p.assignment,
   p.state,
+  p.submitted_at,
   p.updated_at
 from students s
 join assignment_progress p on p.student_code = s.code
-order by p.updated_at desc;
+order by (p.submitted_at is not null) desc, p.updated_at desc;

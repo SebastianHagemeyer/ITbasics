@@ -4,7 +4,7 @@
  * plus a palette, and a nested loop paints it with print(col=). Progress
  * (code, self-checks, reflections, note) autosaves locally and syncs to
  * assignment_progress so it follows the student between computers, same as
- * the Pet Project. Submit upserts to assignment_submissions.
+ * the Pet Project. Submit just stamps submitted_at on the progress row.
  */
 (function () {
   "use strict";
@@ -375,34 +375,36 @@
     statusEl.innerHTML = html;
   }
 
-  function showSubmitted(sub) {
-    const when = sub.updated_at || sub.submitted_at;
+  // Submitting is just a flag: the code, note, checks and reflections are
+  // already synced to assignment_progress. "Submit" stamps submitted_at so
+  // the teacher can see the student marked it ready. Editing afterwards
+  // keeps syncing (and keeps the submitted flag) so the teacher always sees
+  // the latest work.
+  function showSubmitted(when) {
     const date = when ? new Date(when).toLocaleString("en-AU", {
       day: "numeric", month: "short", hour: "numeric", minute: "2-digit"
     }) : "";
     setStatus(
-      "&#10003; Submitted" + (date ? " &middot; " + escapeHtml(date) : "") +
-      " &mdash; you can update and submit again any time.",
+      "&#10003; Marked as ready to grade" + (date ? " &middot; " + escapeHtml(date) : "") +
+      ". You can keep editing and resubmit any time; your teacher always sees your latest.",
       "ok"
     );
     if (submitBtn) submitBtn.textContent = "Submit again";
-    if (noteEl && !noteEl.value && sub.note) noteEl.value = sub.note;
   }
 
   async function loadSubmission() {
     if (window.ITBasics.isOnline()) {
       const sb = window.ITBasics.client();
-      const res = await sb.from("assignment_submissions")
-        .select("note, submitted_at, updated_at")
+      const res = await sb.from("assignment_progress")
+        .select("submitted_at")
         .eq("student_code", student.code)
         .eq("assignment", ASSIGNMENT)
         .maybeSingle();
-      if (!res.error && res.data) { showSubmitted(res.data); return; }
+      if (!res.error && res.data && res.data.submitted_at) { showSubmitted(res.data.submitted_at); return; }
+      if (!res.error) return; // online, just not submitted yet
     }
-    const raw = localStorage.getItem(localKey("submission"));
-    if (raw) {
-      try { showSubmitted(JSON.parse(raw)); } catch (e) { /* ignore */ }
-    }
+    const local = localStorage.getItem(localKey("submitted-at"));
+    if (local) showSubmitted(local);
   }
 
   async function submit() {
@@ -415,40 +417,38 @@
       setStatus("Your program needs a loop that draws the picture from the data (see Part 3).", "error");
       return;
     }
-    const note = noteEl ? noteEl.value.trim() : "";
-    const payload = {
-      student_code: student.code,
-      assignment: ASSIGNMENT,
-      track: null,
-      code: code,
-      note: note,
-      updated_at: new Date().toISOString()
-    };
 
+    const submittedAt = new Date().toISOString();
     submitBtn.disabled = true;
     setStatus("Submitting…", "");
-    // Always keep a local copy, so nothing is lost even if the network dies.
-    localStorage.setItem(localKey("submission"), JSON.stringify(payload));
+    localStorage.setItem(localKey("submitted-at"), submittedAt);
 
     if (window.ITBasics.isOnline()) {
-      const sb = window.ITBasics.client();
-      const res = await sb.from("assignment_submissions")
-        .upsert(payload, { onConflict: "student_code,assignment" });
+      // Push the current state and stamp submitted_at in one upsert, so the
+      // handed-in copy is exactly what's in the editor right now.
+      const res = await window.ITBasics.client().from("assignment_progress").upsert({
+        student_code: student.code,
+        assignment: ASSIGNMENT,
+        state: collectState(),
+        submitted_at: submittedAt,
+        updated_at: submittedAt
+      }, { onConflict: "student_code,assignment" });
       submitBtn.disabled = false;
       if (res.error) {
         const msg = String(res.error.message || "");
         if (/relation|does not exist|schema cache|not find the table/i.test(msg)) {
-          setStatus("Submissions aren't switched on yet. Your work is saved on this device; ask your teacher.", "error");
+          setStatus("Progress saving isn't switched on yet. Your work is saved on this device; ask your teacher to run the setup SQL.", "error");
         } else {
           setStatus("Couldn't submit: " + escapeHtml(msg) + " (your work is saved on this device)", "error");
         }
         return;
       }
-      showSubmitted(payload);
+      lastSyncedJson = JSON.stringify(collectState());
+      showSubmitted(submittedAt);
       return;
     }
     submitBtn.disabled = false;
-    showSubmitted(payload);
+    showSubmitted(submittedAt);
   }
 
   if (submitBtn) submitBtn.addEventListener("click", submit);

@@ -6,7 +6,7 @@
  *
  * A homework item is { type, key }:
  *   type "module"     - key is the module (e.g. "loops")
- *   type "assignment" - key matches assignment_submissions.assignment
+ *   type "assignment" - key matches assignment_progress.assignment
  *   type "challenge"  - key is a Live Coding challenge id (e.g. "greeter")
  *
  * Status is one of "done", "started", "todo".
@@ -93,17 +93,16 @@
 
   // data per student:
   //   attempts     - quiz_attempts rows [{quiz_name, score, total, answers}]
-  //   submissions  - { assignmentKey: true } (has a submission)
-  //   drafts       - { assignmentKey: true } (has an assignment_progress row)
+  //   assignments  - { assignmentKey: { submitted: bool } } from assignment_progress
   //   answers      - { "answers-systems": {q: text} }
   function itemStatus(item, data) {
     data = data || {};
     var attempts = data.attempts || [];
 
     if (item.type === "assignment") {
-      if ((data.submissions || {})[item.key]) return "done";
-      if ((data.drafts || {})[item.key]) return "started";
-      return "todo";
+      var a = (data.assignments || {})[item.key];
+      if (!a) return "todo";        // no progress row = never opened it
+      return a.submitted ? "done" : "started";
     }
 
     if (item.type === "challenge") {
