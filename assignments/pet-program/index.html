@@ -554,10 +554,12 @@
             Crash. Not great. <code>try</code> and <code>except</code> let us catch the mistake instead:
           </p>
           <div class="snippet" data-snippet="turtle-5"></div>
-          <p><strong>Try to break it:</strong> type <code>banana</code> for the size. Type a decimal
-            like <code>2.5</code>. Type a negative number like <code>-100</code>.</p>
-          <label class="reflect-label" for="t-reflect-break">Which inputs still caused problems? What did a negative size do?</label>
-          <textarea id="t-reflect-break" class="reflect" data-reflect="t-break" rows="2"></textarea>
+          <p><strong>Try to break it:</strong> the crashes are gone, but weirdness is not. Type
+            <code>banana</code> for the size (caught!). Type <code>2.5</code> (also caught, but read
+            the message it gives you...). Type <code>-100</code>. Type <code>0</code>. Watch what the
+            turtle actually draws each time.</p>
+          <label class="reflect-label" for="t-reflect-break">Nothing crashes any more, but is the robot <em>polite</em>? What did -100 draw? What did 0 do? And 2.5 got told "that is not a number", is that fair? What would a really polite robot say or do instead?</label>
+          <textarea id="t-reflect-break" class="reflect" data-reflect="t-break" rows="3" placeholder="-100 drew... 0 did... 2.5 IS a number though, so a fairer message would be..."></textarea>
         </section>
 
         <section class="assign-step assign-extensions">
