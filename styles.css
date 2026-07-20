@@ -1896,6 +1896,15 @@ h2.step-toggle {
   border-radius: 2px;
   z-index: 2;
 }
+/* A single misspelled/undefined variable: red wash + underline on the word. */
+.name-flag {
+  position: absolute;
+  pointer-events: none;
+  background: rgba(255, 82, 82, 0.16);
+  border-bottom: 2px solid #e53935;
+  border-radius: 2px;
+  z-index: 2;
+}
 
 /* Short written answers ("explain WHY") on lesson pages. */
 .brainbox {
