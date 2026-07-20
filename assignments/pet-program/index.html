@@ -324,6 +324,21 @@
             Fill in the blank (7 for dog, 6 for cat, 5 for goldfish):
           </p>
           <div class="snippet" data-snippet="calc-3"></div>
+          <div class="callout">
+            <strong>New word: hardcoding.</strong> Typing the raw number straight into the maths,
+            like <code>pet_years = age * 7</code>, is called <em>hardcoding</em> the value. It works,
+            but that 7 is a mystery number: nobody reading the code knows what it means, and if it
+            ever changes you have to hunt down every 7 in the program. The classier way is the big
+            idea from the variables lesson: <strong>a variable is a name that embodies a value you
+            set</strong>. Give the multiplier a name once, then use the name:
+          </div>
+          <div class="snippet" data-snippet="calc-3b"></div>
+          <p>
+            Now the maths reads like English (<code>age * dog_years</code>), and if the vet tells you
+            dogs actually age 6 times as fast, you change <strong>one</strong> line. From here on,
+            keep using your named variable even where our example snippets are lazy and hardcode the 7;
+            swapping it out is part of the job.
+          </p>
           <p><strong>Test cases.</strong> Run your program and check each one:</p>
           <table class="data-table">
             <thead><tr><th>Pet age (human years)</th><th>What you expect</th><th>What the program said</th></tr></thead>
@@ -334,8 +349,8 @@
               <tr><td>0</td><td>?</td><td>&nbsp;</td></tr>
             </tbody>
           </table>
-          <label class="reflect-label" for="c-reflect-surprise">Did anything surprise you?</label>
-          <textarea id="c-reflect-surprise" class="reflect" data-reflect="c-surprise" rows="2" placeholder="e.g. what happened with 0?"></textarea>
+          <label class="reflect-label" for="c-reflect-surprise">Did anything surprise you? And did you <em>hardcode</em> your multiplier, or use a variable to store it?</label>
+          <textarea id="c-reflect-surprise" class="reflect" data-reflect="c-surprise" rows="2" placeholder="e.g. what happened with 0? I used a variable called dog_years because..."></textarea>
         </section>
 
         <section class="assign-step">
