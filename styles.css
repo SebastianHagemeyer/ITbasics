@@ -2587,6 +2587,9 @@ h2.step-toggle {
 .progress-stat-label { color: var(--muted); font-weight: 600; font-size: 0.95rem; }
 
 .progress-cta { display: flex; gap: 12px; flex-wrap: wrap; }
+/* The teacher shortcut box injected at the top of the progress page needs
+   air below the button before the student sections start. */
+#progress-teacher { margin-bottom: 30px; }
 
 @media (max-width: 540px) {
   .progress-stats { grid-template-columns: 1fr; }
