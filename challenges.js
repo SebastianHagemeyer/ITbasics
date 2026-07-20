@@ -474,6 +474,146 @@
     }
   ];
 
+  // Hand-holding hints, appended into the editor as comments by the Hint
+  // button. Year 7 depth: the last line is one inch from the answer. Each
+  // entry is an array of lines; the engine prefixes "# " and a header.
+  const CHALLENGE_HINTS = {
+    "greeter": [
+      "we are looking for print()",
+      "the typed name is saved in the variable called name",
+      "a comma joins things inside a print",
+      'print("Hello,", name)'
+    ],
+    "shout": [
+      "word.upper() gives the word in CAPITALS",
+      "we want to print that",
+      "print(word.upper())"
+    ],
+    "double": [
+      "double means times 2, and times is *",
+      "we are looking for print()",
+      "print(n * something)"
+    ],
+    "add-two": [
+      "we are looking for print()",
+      "then inside the brackets something + something",
+      "what variables do we want to add together?",
+      "print(something + something)"
+    ],
+    "countdown": [
+      "easiest way: five prints, then GO",
+      "print(5) then print(4) ... down to print(1)",
+      'then print("GO!")',
+      "fancy way: for i in range(5, 0, -1): with print(i) indented under it"
+    ],
+    "even-odd": [
+      "n % 2 gives the remainder after dividing by 2",
+      "even numbers have remainder 0",
+      'if n % 2 == 0: print("Even")',
+      'else: print("Odd")'
+    ],
+    "letter-count": [
+      "len(word) counts the letters",
+      "we want to print that number",
+      "print(len(word))"
+    ],
+    "age": [
+      "13 and over means age >= 13",
+      'if age >= 13: print("You can watch it!")',
+      'else: print("Too young, sorry")'
+    ],
+    "decisions-age": [
+      "13 and over means age >= 13",
+      'if age >= 13: print a message that lets them in',
+      "else: print a message that turns them away"
+    ],
+    "loops-for": [
+      "range(5, 0, -1) counts 5, 4, 3, 2, 1",
+      "inside the loop, print(i)",
+      'AFTER the loop (no indent), print("GO!")'
+    ],
+    "loops-while": [
+      'first read a guess: guess = int(input("Your guess: "))',
+      "while guess != secret: means keep going while it's wrong",
+      'inside the loop: print("Wrong!") then guess = int(input("Guess again: "))',
+      'after the loop: print("Correct!")'
+    ],
+    "codes-hello": [
+      'if answer == "favourite":',
+      '    print("Hello World", col="#00FF00")',
+      "else: print it again with a DIFFERENT colour",
+      "any two colours work, as long as they're different"
+    ],
+    "times": [
+      "a loop can count 1 to 12: for i in range(1, 13):",
+      "inside the loop we print one row of the table",
+      "print(n * i)"
+    ],
+    "sum-to-n": [
+      "make a total that starts at 0: total = 0",
+      "for i in range(1, n + 1): visits every number",
+      "inside the loop: total = total + i",
+      "after the loop: print(total)"
+    ],
+    "multiples": [
+      "for i in range(1, 6): counts 1, 2, 3, 4, 5",
+      "inside the loop, print(n * i)"
+    ],
+    "biggest3": [
+      "the shortcut: max() picks the biggest of whatever you give it",
+      "print(max(a, b, c))"
+    ],
+    "vowels": [
+      "make a counter: count = 0",
+      "for letter in word: looks at each letter in turn",
+      'if letter in "aeiou": count = count + 1',
+      "after the loop: print(count)",
+      "capitals tricky? use word.lower() first"
+    ],
+    "reverse": [
+      "the slice trick [::-1] reverses a word",
+      "print(word[::-1])"
+    ],
+    "fizz": [
+      "for i in range(1, n + 1): visits 1 up to n",
+      "a multiple of 3 has remainder 0: i % 3 == 0",
+      'if i % 3 == 0: print("Fizz")',
+      "else: print(i)"
+    ],
+    "guess": [
+      'read the first guess: guess = int(input("Your guess: "))',
+      "while guess != secret:",
+      '    print("Wrong!")',
+      '    guess = int(input("Guess again: "))',
+      'after the loop: print("Correct!")'
+    ],
+    "fizzbuzz": [
+      "check BOTH first, because 15 is a multiple of 3 and 5",
+      'if i % 15 == 0: print("FizzBuzz")',
+      'elif i % 3 == 0: print("Fizz")',
+      'elif i % 5 == 0: print("Buzz")',
+      "else: print(i)"
+    ],
+    "palindrome": [
+      "word[::-1] is the word backwards",
+      "a palindrome means word == word[::-1]",
+      'if word == word[::-1]: print("Palindrome")',
+      'else: print("Not a palindrome")'
+    ],
+    "password": [
+      'read one answer first: pw = input("Password? ")',
+      'while pw != "hallam": keep asking',
+      '    pw = input("Password? ")',
+      'after the loop: print("Welcome!")'
+    ],
+    "sum-many": [
+      'line.split() chops "3 7 12" into ["3", "7", "12"]',
+      "make a total = 0, then loop: for piece in line.split():",
+      "    total = total + int(piece)",
+      "after the loop: print(total)"
+    ]
+  };
+
   // Every quiz_name a challenge pass can be saved under. Most save under
   // "livecoding"; module-linked tasks add their own (e.g. "decisions-task").
   // loadPassed() reads all of these so ticks show up wherever a challenge runs.
@@ -1271,6 +1411,51 @@ del _sandbox_install_color_print
       '<p class="challenge-brief-task">' + current.brief + '</p>' +
       '<div class="challenge-brief-detail">' + current.detail + '</div>' +
       '<p class="challenge-accept"><span class="challenge-accept-tag">To pass</span> ' + current.accept + '</p>';
+    updateHintBtn();
+  }
+
+  // ---- Hint button (under the editor) ---------------------------------------
+  // Appends the challenge's hand-holding hint into the editor as comments,
+  // so the help stays with the student's code. One hint per challenge; the
+  // button greys out while the hint block is in the editor.
+  let hintBtn = null;
+  (function initHintBtn() {
+    const editorBox = editor.closest(".sandbox-editor");
+    if (!editorBox) return;
+    const row = document.createElement("div");
+    row.className = "hint-row";
+    hintBtn = document.createElement("button");
+    hintBtn.type = "button";
+    hintBtn.className = "btn btn-hint";
+    hintBtn.textContent = "Hint?";
+    row.appendChild(hintBtn);
+    editorBox.appendChild(row);
+    hintBtn.addEventListener("click", addHint);
+    editor.addEventListener("keyup", updateHintBtn);
+  })();
+
+  function updateHintBtn() {
+    if (!hintBtn) return;
+    const lines = CHALLENGE_HINTS[current.id];
+    hintBtn.parentNode.style.display = lines ? "" : "none";
+    if (!lines) return;
+    const used = getCode().indexOf("*** hint ***") !== -1;
+    hintBtn.disabled = used;
+    hintBtn.textContent = used ? "Hint added below your code ↓" : "Hint?";
+  }
+
+  function addHint() {
+    const lines = CHALLENGE_HINTS[current.id];
+    if (!lines) return;
+    if (getCode().indexOf("*** hint ***") !== -1) { updateHintBtn(); return; }
+    const block = "\n\n# *** hint ***\n" +
+      lines.map(function (l) { return "# " + l; }).join("\n") + "\n";
+    const newCode = getCode().replace(/\s+$/, "") + block;
+    setCode(newCode);
+    codeMap[current.id] = newCode;
+    saveCodeMap();
+    editor.scrollTop = editor.scrollHeight;
+    updateHintBtn();
   }
   function renderScoreboard() {
     if (!scoreboardEl) return; // embedded single-challenge mode has no scoreboard

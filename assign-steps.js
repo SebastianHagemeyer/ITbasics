@@ -50,6 +50,7 @@
       steps.push(st);
     });
     if (!steps.length) return;
+    attachCounters();
 
     // Anything the student does can change completion; recompute on a short
     // debounce. The timers catch programmatic state (saved ticks restored
@@ -65,6 +66,33 @@
   function schedule() {
     if (timer) clearTimeout(timer);
     timer = setTimeout(update, 200);
+  }
+
+  // Live character targets under every reflection box, so students can see
+  // exactly how much the 15-character bar still needs.
+  function attachCounters() {
+    $all(".reflect").forEach(function (ta) {
+      if (ta._countEl) return;
+      var c = document.createElement("span");
+      c.className = "reflect-count";
+      ta.parentNode.insertBefore(c, ta.nextSibling);
+      ta._countEl = c;
+      ta._updCount = function () {
+        var n = ta.value.trim().length;
+        if (!n) {
+          c.textContent = "write at least 15 characters";
+          c.className = "reflect-count";
+        } else if (n < 15) {
+          c.textContent = "keep going: " + n + "/15 characters";
+          c.className = "reflect-count";
+        } else {
+          c.textContent = "✓ that's enough (more is welcome)";
+          c.className = "reflect-count ok";
+        }
+      };
+      ta.addEventListener("input", ta._updCount);
+      ta._updCount();
+    });
   }
 
   function onToggle(st) {
@@ -94,6 +122,9 @@
 
   function update() {
     timer = null;
+    // Counters also refresh here so answers restored from the cloud show
+    // their state without a keypress.
+    $all(".reflect").forEach(function (ta) { if (ta._updCount) ta._updCount(); });
     var visible = steps.filter(isVisible);
     if (!visible.length) return;
 
