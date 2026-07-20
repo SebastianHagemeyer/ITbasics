@@ -1291,7 +1291,14 @@ del _sandbox_install_color_print
         appendOut("Loading Python runtime (one-time, ~10 MB)…", "info");
         setCheckBusy(true, "Loading…");
       });
-      await py.runPythonAsync(getCode());
+      // Fresh namespace each run so a previous run's variables can't linger
+      // (the Check button already runs each attempt in a clean namespace).
+      const ns = py.runPython("dict(__name__='__main__')");
+      try {
+        await py.runPythonAsync(getCode(), { globals: ns });
+      } finally {
+        ns.destroy();
+      }
     } catch (err) {
       appendOut((err && err.message) ? err.message : String(err), "stderr");
     } finally {
