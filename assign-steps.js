@@ -133,7 +133,7 @@
       st.sec.classList.toggle("step-done", Boolean(st._complete));
       st.sec.classList.toggle("step-open", open);
       st.h2.setAttribute("aria-expanded", open ? "true" : "false");
-      st.badge.textContent = st._complete ? "✓ done" : locked ? "locked" : open ? "" : "show";
+      st.badge.textContent = st._complete ? "✓ done" : locked ? "locked" : open ? "hide" : "show";
       st.h2.title = locked ? "Finish the part above to unlock this one" : "";
     });
   }

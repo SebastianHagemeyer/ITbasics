@@ -48,6 +48,7 @@
     "device-why":     "Pick a device: which bin, and why?",
     "storage-why":    "Why does a computer need storage?",
     "ram-vs-storage": "RAM vs storage: what does each do?",
+    "c-pet":      "Which pet, and how many pet years per human year?",
     "c-err":      "Error message from typing letters, and why",
     "c-surprise": "Did anything surprise you?",
     "c-caps":     "Why doesn't QUIT in capitals work?",
