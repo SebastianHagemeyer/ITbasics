@@ -1748,6 +1748,33 @@ body.has-maximised-code { overflow: hidden; }
 /* Pixel Painter: pack the ██ rows tight so pictures don't have gaps. */
 .pixel-out { line-height: 1.05; }
 
+/* Character targets under reflection boxes. */
+.reflect-count {
+  display: block;
+  margin: 3px 0 0;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.reflect-count.ok { color: #1f9d55; }
+
+/* Hint button under challenge editors. */
+.hint-row {
+  padding: 8px 12px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+.btn-hint {
+  background: #2b7de9;
+  color: #fff;
+  border: 1px solid #2b7de9;
+}
+.btn-hint:hover:not(:disabled) { background: #1e6ad0; }
+.btn-hint:disabled {
+  background: transparent;
+  color: var(--muted);
+  border-color: transparent;
+  cursor: default;
+}
+
 /* Progressive assignment steps (assign-steps.js accordion). */
 h2.step-toggle {
   cursor: pointer;

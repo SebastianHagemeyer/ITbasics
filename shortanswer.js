@@ -65,7 +65,8 @@
       box._status = status;
 
       ta.addEventListener("input", function () {
-        status.textContent = "…";
+        var n = ta.value.trim().length;
+        status.textContent = (n && n < 15) ? "keep going: " + n + "/15 characters" : "…";
         status.className = "brainbox-status";
         if (timer) clearTimeout(timer);
         timer = setTimeout(save, SAVE_DELAY_MS);
@@ -94,8 +95,15 @@
       try {
         await window.ITBasics.saveProgress(quizName, collect());
         boxes.forEach(function (box) {
-          box._status.textContent = box._ta.value.trim() ? "Saved ✓" : "";
-          box._status.className = "brainbox-status ok";
+          var n = box._ta.value.trim().length;
+          if (!n) { box._status.textContent = ""; return; }
+          if (n < 15) {
+            box._status.textContent = "saved, but a bit short to count: " + n + "/15 characters";
+            box._status.className = "brainbox-status";
+          } else {
+            box._status.textContent = "Saved ✓";
+            box._status.className = "brainbox-status ok";
+          }
         });
       } catch (e) {
         boxes.forEach(function (box) { box._status.textContent = "Couldn't save, will retry"; });
