@@ -79,6 +79,23 @@
       "        # ADD A COMMENT HERE: when does this run?\n" +
       '        print("That is not a number. Try again.")\n',
 
+    "calc-5b":
+      "# The tidy way: try ONLY the risky line, then continue if it fails.\n" +
+      "dog_years = 7   # use YOUR pet's number here\n" +
+      "while True:\n" +
+      '    answer = input("How old is the pet? (or type quit) ")\n' +
+      '    if answer == "quit":\n' +
+      '        print("Goodbye!")\n' +
+      "        break\n" +
+      "    try:\n" +
+      "        age = int(answer)\n" +
+      "    except ValueError:\n" +
+      '        print("That is not a number. Try again.")\n' +
+      "        continue   # ADD A COMMENT HERE: what does continue do, and why?\n" +
+      "    # We only get here if age is a REAL number\n" +
+      "    pet_years = age * dog_years\n" +
+      '    print("In pet years that is:", pet_years)\n',
+
     "turtle-1":
       "# ADD A COMMENT HERE saying what this program draws\n" +
       "import turtle\n" +
