@@ -46,6 +46,14 @@
       '    age = int(input("How old is the pet? "))\n' +
       "    pet_years = age * ____   # ADD A COMMENT explaining the maths (7, 6 or 5)\n" +
       '    print("In pet years that is:", pet_years)\n',
+    "calc-3b":
+      "# No hardcoding: the pet's number gets a NAME\n" +
+      "dog_years = 7   # ADD A COMMENT: what does this 7 actually mean?\n" +
+      "\n" +
+      "while True:\n" +
+      '    age = int(input("How old is the pet? "))\n' +
+      "    pet_years = age * dog_years\n" +
+      '    print("In pet years that is:", pet_years)\n',
     "calc-4":
       "# ADD A COMMENT HERE saying what the whole program does\n" +
       "while True:\n" +
