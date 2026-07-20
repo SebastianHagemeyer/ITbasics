@@ -243,13 +243,14 @@
     };
   }
 
-  // "Completed" = actually submitted. The % is draft progress so you can see
-  // who has started: ticks are worth half, written answers 30%, and having
-  // real code in the editor the rest. The detail column shows the raw counts.
+  // "Completed" = the student marked it ready (submitted_at is set). The %
+  // is draft progress so you can see who has started: ticks are worth half,
+  // written answers 30%, real code the rest. Detail shows the raw counts.
   function computeAssignment(task) {
     return function (bundle) {
       bundle = bundle || {};
-      var p = bundle.progress, sub = bundle.submission;
+      var p = bundle.progress;
+      var submitted = Boolean(p && p.submitted_at);
       var state = (p && p.state) || {};
       var codeObj = state.code || {};
       var codeChars = 0;
@@ -260,18 +261,15 @@
       var answers = Object.keys(state.reflects || {}).filter(function (k) {
         return String(state.reflects[k] || "").trim();
       }).length;
-      var hasNote = Boolean(String(state.note || "").trim() || (sub && sub.note));
+      var hasNote = Boolean(String(state.note || "").trim());
       // The untouched starter code is well under 200 chars; real work isn't.
       var hasCode = codeChars >= 200;
 
-      var when = (sub && (sub.updated_at || sub.submitted_at)) || (p && p.updated_at) || null;
-      var whenStr = "";
-      if (when) {
-        var d = new Date(when);
-        if (!isNaN(d)) whenStr = d.toLocaleDateString("en-AU", { day: "numeric", month: "short" });
-      }
+      var subWhen = submitted ? new Date(p.submitted_at) : null;
+      var actWhen = (p && p.updated_at) ? new Date(p.updated_at) : null;
+      function short(d) { return (d && !isNaN(d)) ? d.toLocaleDateString("en-AU", { day: "numeric", month: "short" }) : ""; }
 
-      var pct = sub ? 100 : Math.round(
+      var pct = submitted ? 100 : Math.round(
         50 * Math.min(1, ticks / task.checksTotal) +
         30 * Math.min(1, answers / task.reflectsTotal) +
         (hasCode ? 20 : 0)
@@ -282,10 +280,10 @@
       bits.push("ticks " + ticks);
       bits.push("answers " + answers);
       if (hasNote) bits.push("note ✓");
-      if (sub) bits.push("submitted" + (whenStr ? " " + whenStr : ""));
-      else if (p) bits.push("last active " + whenStr);
+      if (submitted) bits.push("submitted " + short(subWhen));
+      else if (p) bits.push("last active " + short(actWhen));
       else bits.push("not started");
-      return { pct: pct, completed: Boolean(sub), detail: bits.join(" · ") };
+      return { pct: pct, completed: submitted, detail: bits.join(" · ") };
     };
   }
 
@@ -337,7 +335,7 @@
 
     var byStudent = {};
     function bundle(code) {
-      return (byStudent[code] = byStudent[code] || { attempts: [], submissions: {}, drafts: {}, answers: {} });
+      return (byStudent[code] = byStudent[code] || { attempts: [], assignments: {}, answers: {} });
     }
 
     var quizNames = window.HWStatus.neededQuizNames(hw.items);
@@ -351,12 +349,11 @@
     }
 
     if ((hw.items || []).some(function (i) { return i.type === "assignment"; })) {
-      var subs = await sb().from("assignment_submissions")
-        .select("student_code, assignment").in("student_code", codes);
-      if (!subs.error) (subs.data || []).forEach(function (r) { bundle(r.student_code).submissions[r.assignment] = true; });
-      var drafts = await sb().from("assignment_progress")
-        .select("student_code, assignment").in("student_code", codes);
-      if (!drafts.error) (drafts.data || []).forEach(function (r) { bundle(r.student_code).drafts[r.assignment] = true; });
+      var prog = await sb().from("assignment_progress")
+        .select("student_code, assignment, submitted_at").in("student_code", codes);
+      if (!prog.error) (prog.data || []).forEach(function (r) {
+        bundle(r.student_code).assignments[r.assignment] = { submitted: Boolean(r.submitted_at) };
+      });
     }
 
     var answerNames = window.HWStatus.neededAnswerNames(hw.items);
@@ -421,7 +418,9 @@
     return { students: students, byStudent: byStudent };
   }
 
-  // Assignment tasks read progress drafts + submissions instead of attempts.
+  // Assignment tasks read the single assignment_progress row per student:
+  // the live state (code, checks, reflections, note) plus submitted_at, the
+  // flag the student sets when they mark it ready to grade.
   async function loadAssignmentData(cls, task) {
     var sres = await sb().from("students")
       .select("code, first_name, last_name, class")
@@ -435,24 +434,12 @@
     var byStudent = {};
 
     var pres = await sb().from("assignment_progress")
-      .select("student_code, state, updated_at")
+      .select("student_code, state, submitted_at, updated_at")
       .in("student_code", codes)
       .eq("assignment", task.assignment);
-    // A missing table just means the sync SQL hasn't been run; show
-    // submissions only rather than erroring out.
     if (!pres.error) {
       (pres.data || []).forEach(function (r) {
         (byStudent[r.student_code] = byStudent[r.student_code] || {}).progress = r;
-      });
-    }
-
-    var ares = await sb().from("assignment_submissions")
-      .select("student_code, track, code, note, submitted_at, updated_at")
-      .in("student_code", codes)
-      .eq("assignment", task.assignment);
-    if (!ares.error) {
-      (ares.data || []).forEach(function (r) {
-        (byStudent[r.student_code] = byStudent[r.student_code] || {}).submission = r;
       });
     }
 
@@ -542,9 +529,17 @@
     var open = tr.parentNode.querySelector(".t-answers-row");
     if (open) open.remove();
 
-    var state = (bundle.progress && bundle.progress.state) || {};
-    var sub = bundle.submission;
+    var prog = bundle.progress || null;
+    var state = (prog && prog.state) || {};
+    var submittedAt = prog && prog.submitted_at;
     var html = "";
+
+    if (submittedAt) {
+      var d = new Date(submittedAt);
+      html += "<p class='t-submitted'>&#10003; Marked ready to grade" +
+        (isNaN(d) ? "" : " on " + escapeHtml(d.toLocaleString("en-AU", { day: "numeric", month: "short", hour: "numeric", minute: "2-digit" }))) +
+        "</p>";
+    }
 
     var reflects = state.reflects || {};
     var rkeys = Object.keys(reflects).filter(function (k) { return String(reflects[k] || "").trim(); });
@@ -559,25 +554,25 @@
       html += "<h4>Written answers</h4><p class='t-none'>Nothing written yet.</p>";
     }
 
-    var note = (sub && sub.note) || state.note || "";
-    if (String(note).trim()) {
-      html += "<h4>Note</h4><p>" + escapeHtml(note) + "</p>";
+    if (String(state.note || "").trim()) {
+      html += "<h4>Note</h4><p>" + escapeHtml(state.note) + "</p>";
     }
 
-    var code = "";
-    var codeLabel = "";
-    if (sub && sub.code) {
-      code = sub.code;
-      codeLabel = "Submitted code" + (sub.track ? " (" + escapeHtml(sub.track) + ")" : "");
-    } else {
-      var codes = state.code || {};
-      Object.keys(codes).forEach(function (k) {
-        if (String(codes[k] || "").trim().length > String(code).trim().length) code = codes[k];
-      });
-      codeLabel = "Draft code (not submitted)";
+    // The code lives in state.code: one entry for pixelart (main), two for
+    // the Pet Project (calc / turtle). Show the track the student chose, or
+    // the longest if we can't tell.
+    var codes = state.code || {};
+    var codeKeys = Object.keys(codes).filter(function (k) { return String(codes[k] || "").trim(); });
+    var chosen = state.track && codes[state.track] ? state.track : null;
+    if (!chosen && codeKeys.length) {
+      chosen = codeKeys.reduce(function (best, k) {
+        return String(codes[k]).length > String(codes[best] || "").length ? k : best;
+      }, codeKeys[0]);
     }
-    if (String(code).trim()) {
-      html += "<h4>" + codeLabel + "</h4><pre>" + escapeHtml(code) + "</pre>";
+    if (chosen) {
+      var trackName = ({ calc: "Pet Age Calculator", turtle: "Pet Turtle" })[chosen];
+      var codeLabel = "Code" + (trackName ? " (" + escapeHtml(trackName) + ")" : "");
+      html += "<h4>" + codeLabel + "</h4><pre>" + escapeHtml(codes[chosen]) + "</pre>";
     }
 
     var drawer = document.createElement("tr");

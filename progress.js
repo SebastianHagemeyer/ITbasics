@@ -19,7 +19,7 @@
   ];
 
   // Assignments shown on the progress page. Keys match the `assignment`
-  // column in assignment_submissions (and assignments.js).
+  // column in assignment_progress (and assignments.js).
   var ASSIGNMENTS = [
     { key: "petprogram", label: "Task 1: My First Program", href: "/assignments/pet-program/" },
     { key: "pixelart",   label: "Task 2: Pixel Painter",    href: "/assignments/pixel-painter/" }
@@ -241,40 +241,43 @@
     );
   }
 
-  // Submission per assignment: Supabase when online, else the local
-  // fallback copy the assignment page keeps.
+  // One assignment_progress row per assignment holds the state plus the
+  // submitted_at flag: submitted_at set = handed in, row with no flag = in
+  // progress, no row = not started.
   async function loadSubmissions(student) {
     var byKey = {};
     if (window.ITBasics.isOnline()) {
       var sb = window.ITBasics.client();
-      var res = await sb.from("assignment_submissions")
-        .select("assignment, track, submitted_at, updated_at")
+      var res = await sb.from("assignment_progress")
+        .select("assignment, state, submitted_at, updated_at")
         .eq("student_code", student.code);
       if (!res.error && res.data) {
         res.data.forEach(function (r) { byKey[r.assignment] = r; });
       }
     }
-    ASSIGNMENTS.forEach(function (a) {
-      if (byKey[a.key]) return;
-      var raw = localStorage.getItem("itbasics-" + a.key + "-" + student.code + "-submission");
-      if (!raw) return;
-      try { byKey[a.key] = JSON.parse(raw); } catch (e) { /* ignore */ }
-    });
     return byKey;
   }
 
   function assignmentCard(a, sub) {
-    var state, right, note;
-    if (!sub) {
-      state = "todo";
-      right = '<span class="progress-quiz-state">Not submitted</span>';
-      note = "Nothing handed in yet. Tap to start.";
-    } else {
+    var state, right, note, pct;
+    var submitted = sub && sub.submitted_at;
+    if (submitted) {
       state = "perfect";
       right = '<span class="progress-quiz-state perfect">Submitted</span>';
-      var when = sub.updated_at || sub.submitted_at;
-      var date = when ? new Date(when).toLocaleDateString("en-AU", { day: "numeric", month: "short" }) : "";
-      note = (TRACK_NAMES[sub.track] || "Submitted") + (date ? " · handed in " + date : "");
+      var track = sub.state && sub.state.track;
+      var date = new Date(sub.submitted_at);
+      note = (TRACK_NAMES[track] || "Submitted") + (isNaN(date) ? "" : " · handed in " + date.toLocaleDateString("en-AU", { day: "numeric", month: "short" }));
+      pct = 100;
+    } else if (sub) {
+      state = "partial";
+      right = '<span class="progress-quiz-state">In progress</span>';
+      note = "Started but not handed in yet. Tap to keep going.";
+      pct = 50;
+    } else {
+      state = "todo";
+      right = '<span class="progress-quiz-state">Not started</span>';
+      note = "Nothing here yet. Tap to start.";
+      pct = 0;
     }
     return (
       '<a class="progress-quiz ' + state + '" href="' + a.href + '">' +
@@ -282,7 +285,7 @@
           '<span class="progress-quiz-label">' + escapeHtml(a.label) + '</span>' +
           '<span class="progress-quiz-right">' + right + '</span>' +
         '</div>' +
-        '<div class="progress-bar"><span style="width:' + (sub ? 100 : 0) + '%"></span></div>' +
+        '<div class="progress-bar"><span style="width:' + pct + '%"></span></div>' +
         '<p class="progress-quiz-note">' + escapeHtml(note) + '</p>' +
       '</a>'
     );
