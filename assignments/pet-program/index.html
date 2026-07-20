@@ -381,10 +381,27 @@
             <code>try</code> and <code>except</code> let us catch the mistake instead:
           </p>
           <div class="snippet" data-snippet="calc-5"></div>
+          <div class="callout">
+            <strong>Careful: catching an error is not the same as handling it.</strong> The version
+            above hides everything inside the <code>try</code>, which works, but it is tempting to
+            <code>try</code> only the risky line (the <code>int()</code>) and leave the maths below.
+            If you do that naively, watch what happens: the <code>except</code> prints "that is not a
+            number"... and then Python <em>keeps going</em> to the maths anyway, using whatever
+            <code>age</code> was left over from last time. You have seen this exact bug: type a word
+            and the program still announces a pet age, often a weird one like <code>-70</code>! The
+            crash is caught, but the bad calculation still ran.
+          </div>
+          <p>
+            The fix is one word: <code>continue</code>. It jumps straight back to the top of the loop,
+            so the maths never runs with a broken number. This is the tidy pattern real programs use,
+            <code>try</code> the one risky line, and <code>continue</code> the moment it fails:
+          </p>
+          <div class="snippet" data-snippet="calc-5b"></div>
           <p><strong>Try to break it:</strong> type <code>banana</code>. Type a decimal like
-            <code>2.5</code>. Type a negative number like <code>-3</code>.</p>
-          <label class="reflect-label" for="c-reflect-break">Which inputs still caused problems? What would a real vet program do about them?</label>
-          <textarea id="c-reflect-break" class="reflect" data-reflect="c-break" rows="2"></textarea>
+            <code>2.5</code>. Type a negative number like <code>-3</code>. Then try deleting the
+            <code>continue</code> and typing <code>banana</code> again, what changes?</p>
+          <label class="reflect-label" for="c-reflect-break">What does <code>continue</code> do, and what went wrong when you deleted it? Which inputs (like <code>-3</code>) still slip through even with try/except, and what would a real vet program do about them?</label>
+          <textarea id="c-reflect-break" class="reflect" data-reflect="c-break" rows="3" placeholder="continue jumps back to... When I deleted it, banana caused... A negative age still gives... a real program would..."></textarea>
         </section>
 
         <section class="assign-step assign-extensions">
