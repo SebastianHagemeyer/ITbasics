@@ -50,7 +50,7 @@
     "ram-vs-storage": "RAM vs storage: what does each do?",
     "c-pet":      "Which pet, and how many pet years per human year?",
     "c-err":      "Error message from typing letters, and why",
-    "c-surprise": "Any surprises? Hardcoded multiplier, or a variable?",
+    "c-surprise": "What did -3 give, and why is that a problem? Hardcoded or variable?",
     "c-caps":     "Why doesn't QUIT in capitals work?",
     "c-break":    "Which inputs still caused problems?",
     "t-err":      "Error message from typing letters, and why",
