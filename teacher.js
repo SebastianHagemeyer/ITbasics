@@ -57,7 +57,7 @@
     "t-err":      "Error message from typing letters, and why",
     "t-fifty":    "What happened with 50 sides? Why?",
     "t-caps":     "Why doesn't QUIT in capitals work?",
-    "t-break":    "Which inputs still caused problems?",
+    "t-break":    "No crashes now, but: -100? 0? Is the 2.5 message fair?",
     "px-end":     "What happened when you deleted end=\"\"?",
     "px-loops":   "What do the outer and inner loops each do?",
     "px-pixels":  "How many pixels does your picture have?",
