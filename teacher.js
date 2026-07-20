@@ -35,7 +35,7 @@
   // the progress %; for the Pet Project they are per-track (both tracks 13/4).
   var ASSIGNMENT_TASKS = [
     { key: "assign:petprogram", label: "Pet Project (Task 1): draft progress", group: "Assignments",
-      kind: "assignment", assignment: "petprogram", checksTotal: 13, reflectsTotal: 4 },
+      kind: "assignment", assignment: "petprogram", checksTotal: 14, reflectsTotal: 5 },
     { key: "assign:pixelart", label: "Pixel Painter (Task 2): draft progress", group: "Assignments",
       kind: "assignment", assignment: "pixelart", checksTotal: 17, reflectsTotal: 5 }
   ];

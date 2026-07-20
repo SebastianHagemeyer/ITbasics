@@ -84,8 +84,10 @@
   function isComplete(st) {
     var req = requirements(st);
     if (!req) return false;
+    // A reflection only counts once it's a real sentence (same 15-character
+    // bar the teacher export uses), so a single keystroke can't finish a step.
     return req.checks.every(function (c) { return c.checked; }) &&
-           req.reflects.every(function (t) { return t.value.trim(); });
+           req.reflects.every(function (t) { return t.value.trim().length >= 15; });
   }
 
   function isVisible(st) { return st.sec.offsetParent !== null; }
@@ -107,9 +109,11 @@
     visible.forEach(function (st) {
       if (st === current) passedCurrent = true;
 
-      // A step that just got finished: collapse it and move on.
+      // A step that just got finished stays open (nothing ever collapses
+      // under the student's cursor); it keeps its ✓ badge and they can hide
+      // it themselves. The next step unlocks and opens below.
       if (st._req && st.wasComplete === false && st._complete) {
-        st.userOpen = null;
+        st.userOpen = true;
         var i = visible.indexOf(st);
         if (visible[i + 1]) visible[i + 1].userOpen = null;
       }
