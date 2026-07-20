@@ -1748,6 +1748,33 @@ body.has-maximised-code { overflow: hidden; }
 /* Pixel Painter: pack the ██ rows tight so pictures don't have gaps. */
 .pixel-out { line-height: 1.05; }
 
+/* Progressive assignment steps (assign-steps.js accordion). */
+h2.step-toggle {
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.step-status {
+  margin-left: auto;
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 999px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--muted);
+  white-space: nowrap;
+}
+.step-done > h2 .step-status {
+  background: rgba(31, 157, 85, 0.14);
+  border-color: rgba(31, 157, 85, 0.4);
+  color: #1f7a45;
+}
+.assign-step.step-locked { opacity: 0.55; }
+.assign-step.step-locked h2 { cursor: not-allowed; }
+
 /* Homework: the student panel on the home page. */
 .homework-panel h2 { margin: 0 0 12px; }
 .hw-set {
