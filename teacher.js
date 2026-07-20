@@ -53,6 +53,7 @@
     "c-surprise": "What did -3 give, and why is that a problem? Hardcoded or variable?",
     "c-caps":     "Why doesn't QUIT in capitals work?",
     "c-break":    "Which inputs still caused problems?",
+    "t-pet":      "Which commands walk and turn? How to draw an L?",
     "t-err":      "Error message from typing letters, and why",
     "t-fifty":    "What happened with 50 sides? Why?",
     "t-caps":     "Why doesn't QUIT in capitals work?",
