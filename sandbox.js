@@ -271,17 +271,17 @@
         'game.window(480, 360, background="#87ceeb")\n' +
         'game.box(240, 340, 480, 40, "#5b8f3a")   # the grassy ground\n' +
         "\n" +
-        'runner = game.sprite("🐔", 240, 300, size=60)\n' +
+        'runner = game.sprite("chicken", 240, 300, size=60)\n' +
         "\n" +
-        "# scale_x = -1 mirrors the sprite left-to-right. If your emoji already\n" +
-        "# faces the other way, just swap the -1 and the 1 below.\n" +
+        "# scale_x = -1 mirrors the sprite left-to-right. The chicken faces\n" +
+        "# right to start, so we flip it when walking left.\n" +
         "while game.playing():\n" +
         '    if game.pressed("left"):\n' +
         "        runner.x = runner.x - 5\n" +
-        "        runner.scale_x = 1     # face left (the chicken's default)\n" +
+        "        runner.scale_x = -1    # mirror it to face left\n" +
         '    if game.pressed("right"):\n' +
         "        runner.x = runner.x + 5\n" +
-        "        runner.scale_x = -1    # mirror it to face right\n" +
+        "        runner.scale_x = 1     # face right (the chicken's default)\n" +
         "    game.frame()\n"
     },
     {

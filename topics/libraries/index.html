@@ -159,7 +159,7 @@ screen <span class="c-op">=</span> pygame.display.set_mode((<span class="c-num">
           <p>It is not a cut-down copy of pygame; it is our own little thing. But it teaches the very same ideas, a window, sprites, a game loop, reading the keyboard, spotting collisions, so if you ever move on to pygame or another engine later, it will all feel familiar.</p>
           <ul class="key-points">
             <li><strong>No install.</strong> Just type <code>import game</code> in the Sandbox and go.</li>
-            <li><strong>Emoji are your artwork.</strong> Every emoji is a free, ready-made sprite. 🐔 🧺 🥚 🚀 👾, take your pick.</li>
+            <li><strong>Ready-made art, or any emoji.</strong> Six built-in Hallam sprites give your game a matching look (see the table below), and every emoji works too. 🚀 👾 take your pick.</li>
             <li><strong>It runs in Chrome or Edge.</strong> The trick that keeps the game moving without freezing the tab needs those browsers, the same as <code>input()</code> and <code>time.sleep()</code> do here.</li>
           </ul>
         </section>
@@ -283,6 +283,23 @@ chicken <span class="c-op">=</span> game.sprite(<span class="c-string">"🐔"</s
         <section id="custom">
           <h2>8. Customising: how far can you push it?</h2>
           <p>You asked what you can change. Quite a lot, actually.</p>
+
+          <h3>The built-in sprites</h3>
+          <p>The library comes with six ready-made sprites in a matching style. Give <code>game.sprite</code> the <strong>number</strong> or the <strong>name</strong>, whichever you find easier to remember:</p>
+          <div class="sprite-table-wrap">
+            <table class="sprite-table">
+              <tr><th>Picture</th><th>Number</th><th>Name</th></tr>
+              <tr><td class="sprite-pic"><svg viewBox="0 0 64 64" role="img" aria-label="chicken"><path d="M20 41 q-10 0 -6 11 q7 -4 12 -5z" fill="#e6dcc2"/><ellipse cx="30" cy="42" rx="17" ry="15" fill="#f4efe0"/><circle cx="41" cy="26" r="11" fill="#fbf7ec"/><path d="M35 15 q2 -6 5 -1 q3 -6 6 0 q3 -5 4 3 q-9 3 -15 0z" fill="#e23b3b"/><path d="M51 25 l9 2 l-9 3z" fill="#f6a623"/><circle cx="44" cy="24" r="2.3" fill="#20242e"/><path d="M26 56 v6 M36 56 v6" stroke="#f6a623" stroke-width="3.4" stroke-linecap="round"/></svg></td><td><code>0</code></td><td><code>"chicken"</code></td></tr>
+              <tr><td class="sprite-pic"><svg viewBox="0 0 64 64" role="img" aria-label="dog"><path d="M12 44 q-6 2 -3 9" stroke="#c8894e" stroke-width="6" fill="none" stroke-linecap="round"/><ellipse cx="28" cy="46" rx="16" ry="12" fill="#c8894e"/><ellipse cx="34" cy="23" rx="5.5" ry="10" transform="rotate(24 34 23)" fill="#a56a34"/><ellipse cx="51" cy="23" rx="5.5" ry="10" transform="rotate(-24 51 23)" fill="#a56a34"/><circle cx="42" cy="32" r="13" fill="#d89a5b"/><ellipse cx="46" cy="38" rx="7.5" ry="6" fill="#f3ddc0"/><ellipse cx="50" cy="36" rx="2.6" ry="2.1" fill="#3b2a1d"/><circle cx="38" cy="30" r="2.3" fill="#20242e"/><circle cx="46" cy="30" r="2.3" fill="#20242e"/></svg></td><td><code>1</code></td><td><code>"dog"</code></td></tr>
+              <tr><td class="sprite-pic"><svg viewBox="0 0 64 64" role="img" aria-label="bird"><path d="M16 33 q-9 4 -3 13 q7 -5 11 -7z" fill="#e0a92e"/><ellipse cx="30" cy="34" rx="18" ry="15" fill="#f6c945"/><circle cx="42" cy="28" r="9" fill="#ffd75e"/><path d="M50 27 l9 1 l-9 3z" fill="#f2903a"/><circle cx="44" cy="26" r="2.1" fill="#20242e"/><path d="M30 48 v6 M37 48 v6" stroke="#f2903a" stroke-width="2.8" stroke-linecap="round"/></svg></td><td><code>2</code></td><td><code>"bird"</code></td></tr>
+              <tr><td class="sprite-pic"><svg viewBox="0 0 64 64" role="img" aria-label="egg"><path d="M32 7 C19 7 13 31 13 41 a19 20 0 0 0 38 0 C51 31 45 7 32 7 Z" fill="#f7f2e6"/><ellipse cx="25" cy="30" rx="5" ry="8" fill="#fffef8" opacity="0.7"/></svg></td><td><code>3</code></td><td><code>"egg"</code></td></tr>
+              <tr><td class="sprite-pic"><svg viewBox="0 0 64 64" role="img" aria-label="coin"><circle cx="32" cy="32" r="24" fill="#e0a92e"/><circle cx="32" cy="32" r="18" fill="#f6d066"/><path d="M32 18 l4.2 8.6 9.5 1.4 -6.9 6.7 1.6 9.4 -8.4 -4.4 -8.4 4.4 1.6 -9.4 -6.9 -6.7 9.5 -1.4z" fill="#e0a92e"/></svg></td><td><code>4</code></td><td><code>"coin"</code></td></tr>
+              <tr><td class="sprite-pic"><svg viewBox="0 0 64 64" role="img" aria-label="basket"><path d="M18 27 a14 10 0 0 1 28 0" stroke="#a56a34" stroke-width="3.5" fill="none"/><path d="M13 27 h38 l-4 27 a5 4 0 0 1 -5 4 H22 a5 4 0 0 1 -5 -4 Z" fill="#c8894e"/><path d="M19 36 h26 M20 44 h24 M21 52 h22" stroke="#9a6330" stroke-width="2" fill="none"/><path d="M27 30 v30 M37 30 v30" stroke="#9a6330" stroke-width="1.6" fill="none" opacity="0.5"/><rect x="10" y="24" width="44" height="8" rx="4" fill="#dca86a"/></svg></td><td><code>5</code></td><td><code>"basket"</code></td></tr>
+            </table>
+          </div>
+          <pre class="code" data-norun>hero <span class="c-op">=</span> game.sprite(<span class="c-string">"chicken"</span>, <span class="c-num">100</span>, <span class="c-num">200</span>)   <span class="c-comment"># by name</span>
+coin <span class="c-op">=</span> game.sprite(<span class="c-num">4</span>, <span class="c-num">250</span>, <span class="c-num">100</span>)           <span class="c-comment"># or by number</span>
+foe  <span class="c-op">=</span> game.sprite(<span class="c-string">"🦖"</span>, <span class="c-num">300</span>, <span class="c-num">200</span>)         <span class="c-comment"># any emoji still works</span></pre>
 
           <h3>Swap the sprite</h3>
           <p>Any emoji is a sprite, and you can change it mid-game just by setting <code>.text</code>:</p>

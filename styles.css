@@ -3601,3 +3601,22 @@ kbd {
   white-space: pre;
 }
 .docs-empty { color: var(--muted); font-style: italic; }
+
+/* Built-in sprite table (topics/libraries) */
+.sprite-table-wrap { overflow-x: auto; margin: 14px 0; }
+.sprite-table { border-collapse: collapse; }
+.sprite-table th, .sprite-table td {
+  border: 1px solid var(--border);
+  padding: 8px 16px;
+  text-align: left;
+  vertical-align: middle;
+}
+.sprite-table th {
+  font-size: 0.76rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+}
+.sprite-table td code { background: var(--code-bg); color: var(--code-text); }
+.sprite-table .sprite-pic { background: #eaf3ff; }   /* so the white egg and chicken show */
+.sprite-table .sprite-pic svg { display: block; width: 46px; height: 46px; }
