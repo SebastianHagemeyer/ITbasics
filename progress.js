@@ -249,7 +249,7 @@
     if (window.ITBasics.isOnline()) {
       var sb = window.ITBasics.client();
       var res = await sb.from("assignment_progress")
-        .select("assignment, state, submitted_at, updated_at")
+        .select("*")
         .eq("student_code", student.code);
       if (!res.error && res.data) {
         res.data.forEach(function (r) { byKey[r.assignment] = r; });

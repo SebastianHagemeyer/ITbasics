@@ -33,9 +33,14 @@
   // assignment_submissions, so you can see who has actually started.
   // checksTotal/reflectsTotal are the per-student expected counts used for
   // the progress %; for the Pet Project they are per-track (both tracks 13/4).
+  // The Pet Project has two tracks; a student can do either (or switch), so it
+  // gets a dropdown entry per track. track/prefix filter the checks, reflections
+  // and code to that track (calc keys start "c", turtle keys start "t").
   var ASSIGNMENT_TASKS = [
-    { key: "assign:petprogram", label: "Pet Project (Task 1): draft progress", group: "Assignments",
-      kind: "assignment", assignment: "petprogram", checksTotal: 14, reflectsTotal: 5 },
+    { key: "assign:petprogram:calc", label: "Pet Project (Task 1) - Calculator track", group: "Assignments",
+      kind: "assignment", assignment: "petprogram", track: "calc", prefix: "c", checksTotal: 14, reflectsTotal: 5 },
+    { key: "assign:petprogram:turtle", label: "Pet Project (Task 1) - Turtle track", group: "Assignments",
+      kind: "assignment", assignment: "petprogram", track: "turtle", prefix: "t", checksTotal: 13, reflectsTotal: 5 },
     { key: "assign:pixelart", label: "Pixel Painter (Task 2): draft progress", group: "Assignments",
       kind: "assignment", assignment: "pixelart", checksTotal: 17, reflectsTotal: 5 }
   ];
@@ -247,6 +252,9 @@
   // is draft progress so you can see who has started: ticks are worth half,
   // written answers 30%, real code the rest. Detail shows the raw counts.
   function computeAssignment(task) {
+    // When the task is track-specific (Pet Project), only count that track's
+    // keys: calc keys start "c", turtle keys start "t".
+    function ofTrack(key) { return !task.prefix || key.charAt(0) === task.prefix; }
     return function (bundle) {
       bundle = bundle || {};
       var p = bundle.progress;
@@ -254,12 +262,16 @@
       var state = (p && p.state) || {};
       var codeObj = state.code || {};
       var codeChars = 0;
-      Object.keys(codeObj).forEach(function (k) {
-        codeChars = Math.max(codeChars, String(codeObj[k] || "").trim().length);
-      });
-      var ticks = Object.keys(state.checks || {}).length;
+      if (task.track) {
+        codeChars = String(codeObj[task.track] || "").trim().length;
+      } else {
+        Object.keys(codeObj).forEach(function (k) {
+          codeChars = Math.max(codeChars, String(codeObj[k] || "").trim().length);
+        });
+      }
+      var ticks = Object.keys(state.checks || {}).filter(ofTrack).length;
       var answers = Object.keys(state.reflects || {}).filter(function (k) {
-        return String(state.reflects[k] || "").trim();
+        return ofTrack(k) && String(state.reflects[k] || "").trim();
       }).length;
       var hasNote = Boolean(String(state.note || "").trim());
       // The untouched starter code is well under 200 chars; real work isn't.
@@ -350,7 +362,7 @@
 
     if ((hw.items || []).some(function (i) { return i.type === "assignment"; })) {
       var prog = await sb().from("assignment_progress")
-        .select("student_code, assignment, submitted_at").in("student_code", codes);
+        .select("*").in("student_code", codes);
       if (!prog.error) (prog.data || []).forEach(function (r) {
         bundle(r.student_code).assignments[r.assignment] = { submitted: Boolean(r.submitted_at) };
       });
@@ -433,8 +445,11 @@
     var codes = students.map(function (s) { return s.code; });
     var byStudent = {};
 
+    // select("*") so a database that hasn't had the submitted_at column added
+    // yet still returns the rows (submitted_at just comes back undefined)
+    // instead of erroring and blanking the whole view.
     var pres = await sb().from("assignment_progress")
-      .select("student_code, state, submitted_at, updated_at")
+      .select("*")
       .in("student_code", codes)
       .eq("assignment", task.assignment);
     if (!pres.error) {
@@ -492,7 +507,7 @@
         tr.classList.add("t-expandable");
         tr.title = "Click to see their answers and code";
         tr.addEventListener("click", function () {
-          toggleAnswers(tr, data.byStudent[r.code] || {});
+          toggleAnswers(tr, data.byStudent[r.code] || {}, task.track);
         });
       } else if (task.answersModule) {
         tr.classList.add("t-expandable");
@@ -522,7 +537,7 @@
 
   // Expandable per-student drawer for assignment views: reflection answers,
   // note, and the code (draft from progress, or the submitted version).
-  function toggleAnswers(tr, bundle) {
+  function toggleAnswers(tr, bundle, track) {
     var next = tr.nextElementSibling;
     if (next && next.classList.contains("t-answers-row")) { next.remove(); return; }
     // Only one drawer open at a time keeps the table readable.
@@ -532,6 +547,8 @@
     var prog = bundle.progress || null;
     var state = (prog && prog.state) || {};
     var submittedAt = prog && prog.submitted_at;
+    var prefix = track ? track.charAt(0) : null; // "c" or "t"
+    var inTrack = function (k) { return !prefix || k.charAt(0) === prefix; };
     var html = "";
 
     if (submittedAt) {
@@ -542,7 +559,7 @@
     }
 
     var reflects = state.reflects || {};
-    var rkeys = Object.keys(reflects).filter(function (k) { return String(reflects[k] || "").trim(); });
+    var rkeys = Object.keys(reflects).filter(function (k) { return inTrack(k) && String(reflects[k] || "").trim(); });
     if (rkeys.length) {
       html += "<h4>Written answers</h4><dl>";
       rkeys.forEach(function (k) {
@@ -551,28 +568,32 @@
       });
       html += "</dl>";
     } else {
-      html += "<h4>Written answers</h4><p class='t-none'>Nothing written yet.</p>";
+      html += "<h4>Written answers</h4><p class='t-none'>Nothing written for this track yet.</p>";
     }
 
     if (String(state.note || "").trim()) {
       html += "<h4>Note</h4><p>" + escapeHtml(state.note) + "</p>";
     }
 
-    // The code lives in state.code: one entry for pixelart (main), two for
-    // the Pet Project (calc / turtle). Show the track the student chose, or
-    // the longest if we can't tell.
+    // The code lives in state.code: one entry for pixelart (main), two for the
+    // Pet Project (calc / turtle). For a track-specific view show that track;
+    // otherwise show whichever has the most in it.
     var codes = state.code || {};
-    var codeKeys = Object.keys(codes).filter(function (k) { return String(codes[k] || "").trim(); });
-    var chosen = state.track && codes[state.track] ? state.track : null;
-    if (!chosen && codeKeys.length) {
-      chosen = codeKeys.reduce(function (best, k) {
-        return String(codes[k]).length > String(codes[best] || "").length ? k : best;
-      }, codeKeys[0]);
+    var chosen = track && String(codes[track] || "").trim() ? track : null;
+    if (!chosen && !track) {
+      var codeKeys = Object.keys(codes).filter(function (k) { return String(codes[k] || "").trim(); });
+      if (codeKeys.length) {
+        chosen = codeKeys.reduce(function (best, k) {
+          return String(codes[k]).length > String(codes[best] || "").length ? k : best;
+        }, codeKeys[0]);
+      }
     }
     if (chosen) {
       var trackName = ({ calc: "Pet Age Calculator", turtle: "Pet Turtle" })[chosen];
       var codeLabel = "Code" + (trackName ? " (" + escapeHtml(trackName) + ")" : "");
       html += "<h4>" + codeLabel + "</h4><pre>" + escapeHtml(codes[chosen]) + "</pre>";
+    } else if (track) {
+      html += "<h4>Code</h4><p class='t-none'>No code on this track yet.</p>";
     }
 
     var drawer = document.createElement("tr");
