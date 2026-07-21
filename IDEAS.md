@@ -15,6 +15,7 @@ import game
 game.window(480, 360, background="#0b1020")
 basket = game.sprite("🧺", 240, 330, size=48)
 egg = game.sprite("🥚", 200, 0, size=34)
+board = game.label("Score: 0", 12, 22)   # the scoreboard is a drawable label
 
 while game.playing():
     if game.pressed("left"):  basket.x -= 8
@@ -22,13 +23,14 @@ while game.playing():
     egg.y += 5
     if basket.touches(egg):
         game.score(1)
+        board.text = "Score: " + str(game.score())
         egg.y = 0
     game.frame()
 ```
 
-- Shipped: `window`, `sprite` (emoji), `box`, `label`, `pressed`, `score`,
-  `playing`, `frame`, `game_over`; sprite `.x/.y/.size/.color/.text`,
-  `.touches()`, `.hide()/.show()`.
+- Shipped: `window`, `sprite` (emoji), `box`, `label`, `pressed`, `score`
+  (a plain counter, draws nothing: show it with a label), `playing`, `frame`,
+  `game_over`; sprite `.x/.y/.size/.color/.text`, `.touches()`, `.hide()/.show()`.
 - `game.frame()` uses the JSPI trick like time.sleep; Stop interrupts it;
   arrow keys/space/letters via a global keydown tracker gated on run state.
 - Game window appears on `import game` (sandbox), inherits editor, Stop,
