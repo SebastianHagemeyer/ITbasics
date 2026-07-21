@@ -233,6 +233,86 @@
         "    game.frame()\n"
     },
     {
+      title: "Game: flappy bird",
+      desc: "Tap SPACE to flap. Gravity pulls you down, dodge the pipes, one point each.",
+      code:
+        "import game\n" +
+        "import random\n" +
+        "\n" +
+        'game.window(480, 360, background="#4ec0ca")\n' +
+        "\n" +
+        "GRAVITY = 0.4      # pulls the bird down every frame\n" +
+        "FLAP = -6.5        # a tap of space gives this much lift (up is negative)\n" +
+        "GAP = 130          # the gap the bird flies through\n" +
+        "SPEED = 2.2        # how fast the pipes slide left\n" +
+        "FLOOR = 330        # the top of the ground\n" +
+        "\n" +
+        'game.box(240, 348, 480, 36, "#ded895")   # the ground\n' +
+        "\n" +
+        "# Two pipe pairs, spaced out. Each one is a top box and a bottom box,\n" +
+        "# and we keep its details together in a dictionary.\n" +
+        "pipes = []\n" +
+        "for i in range(2):\n" +
+        "    x = 520 + i * 240\n" +
+        '    pipes.append({"x": x,\n' +
+        '                  "gy": random.randint(100, 240),\n' +
+        '                  "top": game.box(x, 0, 60, 0, "#5fbf3a"),\n' +
+        '                  "bottom": game.box(x, 0, 60, 0, "#5fbf3a"),\n' +
+        '                  "scored": False})\n' +
+        "\n" +
+        'bird = game.sprite("🐤", 110, 160, size=36)\n' +
+        'board = game.label("0", 240, 46, size=36)\n' +
+        "\n" +
+        "vel = 0\n" +
+        "score = 0\n" +
+        "space_was = False\n" +
+        "\n" +
+        "while game.playing():\n" +
+        "    # Flap on a fresh SPACE press (tap it, do not hold it).\n" +
+        '    space_now = game.pressed("space")\n' +
+        "    if space_now and not space_was:\n" +
+        "        vel = FLAP\n" +
+        "    space_was = space_now\n" +
+        "\n" +
+        "    # Gravity: speed up downwards, then move, then tilt to match.\n" +
+        "    vel = vel + GRAVITY\n" +
+        "    bird.y = bird.y + vel\n" +
+        "    bird.angle = max(-25, min(70, vel * 5))\n" +
+        "\n" +
+        "    for p in pipes:\n" +
+        '        p["x"] = p["x"] - SPEED\n' +
+        '        if p["x"] < -40:                      # off the left: send it back\n' +
+        '            p["x"] = p["x"] + 480\n' +
+        '            p["gy"] = random.randint(100, 240)\n' +
+        '            p["scored"] = False\n' +
+        "\n" +
+        "        # Put the two green boxes above and below the gap.\n" +
+        '        top_h = p["gy"] - GAP // 2\n' +
+        '        p["top"].x = p["x"]\n' +
+        '        p["top"].h = top_h\n' +
+        '        p["top"].y = top_h / 2\n' +
+        '        floor_top = p["gy"] + GAP // 2\n' +
+        '        p["bottom"].x = p["x"]\n' +
+        '        p["bottom"].h = FLOOR - floor_top\n' +
+        '        p["bottom"].y = (floor_top + FLOOR) / 2\n' +
+        "\n" +
+        "        # A point each time a pipe slips past the bird.\n" +
+        '        if not p["scored"] and p["x"] < bird.x:\n' +
+        '            p["scored"] = True\n' +
+        "            score = score + 1\n" +
+        "            board.text = str(score)\n" +
+        "\n" +
+        "        # Crashed into a pipe?\n" +
+        '        if bird.touches(p["top"]) or bird.touches(p["bottom"]):\n' +
+        '            game.game_over("Crashed! Score: " + str(score))\n' +
+        "\n" +
+        "    # Hit the ground or shot off the top.\n" +
+        "    if bird.y > FLOOR - 12 or bird.y < 0:\n" +
+        '        game.game_over("Score: " + str(score))\n' +
+        "\n" +
+        "    game.frame()\n"
+    },
+    {
       title: "Roll a dice",
       desc: "Random rolls, 10 in a row.",
       code:
