@@ -319,10 +319,10 @@
             <strong>Your code, your way.</strong> You do not have to write it exactly like that.
             The example wraps <code>input()</code> straight inside <code>int()</code>, but you could
             split it into two smaller steps with your own names instead. This does the same job:
-            <pre class="code">while True:
-    typed_in = input("How old is the pet? ")
-    as_a_number = int(typed_in)    # int() turns the text into a whole number
-    print("1 more than that is:", as_a_number + 1)</pre>
+            <pre class="code"><span class="c-keyword">while</span> <span class="c-keyword">True</span><span class="c-op">:</span>
+    typed_in <span class="c-op">=</span> <span class="c-keyword">input</span>(<span class="c-string">"How old is the pet? "</span>)
+    as_a_number <span class="c-op">=</span> <span class="c-keyword">int</span>(typed_in)    <span class="c-comment"># int() turns the text into a whole number</span>
+    <span class="c-keyword">print</span>(<span class="c-string">"1 more than that is:"</span>, as_a_number <span class="c-op">+</span> <span class="c-num">1</span>)</pre>
             Both are correct. Pick whichever is clearer to you.
           </div>
           <p><strong>Try this:</strong> run it and type <code>5</code>. Works? Now run it again and type
