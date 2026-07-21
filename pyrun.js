@@ -443,12 +443,10 @@ def _pyrun_install_game():
     def background(color):
         W["bg"] = str(color)
 
-    # Built-in skins. 0-5 are drawn art; 6-7 are emoji faces. You can pass the
-    # number, the name ("chicken"), or any emoji of your own.
+    # Built-in drawn skins. You can pass the number, the name ("chicken"), or
+    # any emoji of your own.
     _ART_NAMES = ["chicken", "dog", "bird", "egg", "coin", "basket",
-                  "shocked", "calm"]
-    _ART_EMOJI = {6: "😮", 7: "😐"}   # 6 shocked, 7 calm
-    _NUM_SVG = 6
+                  "shocked", "calm", "turtle", "car"]
 
     def _resolve_skin(skin):
         # Work out (kind, art_index, display_text) for a skin value.
@@ -459,8 +457,6 @@ def _pyrun_install_game():
             idx = skin
         elif isinstance(skin, str) and skin in _ART_NAMES:
             idx = _ART_NAMES.index(skin)
-        if idx in _ART_EMOJI:
-            return ("emoji", -1, _ART_EMOJI[idx])
         if idx >= 0:
             return ("art", idx, "")
         return ("emoji", -1, str(skin))
@@ -623,13 +619,56 @@ del _pyrun_install_game
       '<circle cx="32" cy="32" r="18" fill="#f6d066"/>' +
       '<path d="M32 18 l4.2 8.6 9.5 1.4 -6.9 6.7 1.6 9.4 -8.4 -4.4 -8.4 4.4 1.6 -9.4 -6.9 -6.7 9.5 -1.4z" fill="#e0a92e"/>' +
     '</svg>',
-    // 5: basket
+    // 5: basket (the weave is clipped to the body so it never pokes out)
     '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">' +
-      '<path d="M18 27 a14 10 0 0 1 28 0" stroke="#a56a34" stroke-width="3.5" fill="none"/>' +
-      '<path d="M13 27 h38 l-4 27 a5 4 0 0 1 -5 4 H22 a5 4 0 0 1 -5 -4 Z" fill="#c8894e"/>' +
-      '<path d="M19 36 h26 M20 44 h24 M21 52 h22" stroke="#9a6330" stroke-width="2" fill="none"/>' +
-      '<path d="M27 30 v30 M37 30 v30" stroke="#9a6330" stroke-width="1.6" fill="none" opacity="0.5"/>' +
-      '<rect x="10" y="24" width="44" height="8" rx="4" fill="#dca86a"/>' +
+      '<defs><clipPath id="bkt"><path d="M14 25 h36 l-3.5 22 a5 5 0 0 1 -5 4 H22.5 a5 5 0 0 1 -5 -4 Z"/></clipPath></defs>' +
+      '<path d="M19 24 a13 9 0 0 1 26 0" stroke="#a56a34" stroke-width="3.5" fill="none"/>' +
+      '<path d="M14 25 h36 l-3.5 22 a5 5 0 0 1 -5 4 H22.5 a5 5 0 0 1 -5 -4 Z" fill="#c8894e"/>' +
+      '<g clip-path="url(#bkt)" stroke="#9a6330" fill="none">' +
+        '<path d="M12 33 h40 M12 40 h40 M12 47 h40" stroke-width="2"/>' +
+        '<path d="M28 25 v30 M36 25 v30" stroke-width="1.6" opacity="0.5"/>' +
+      '</g>' +
+      '<rect x="11" y="22" width="42" height="7.5" rx="3.75" fill="#dca86a"/>' +
+    '</svg>',
+    // 6: shocked face
+    '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">' +
+      '<circle cx="32" cy="32" r="24" fill="#ffd35e"/>' +
+      '<circle cx="24" cy="27" r="3.2" fill="#20242e"/>' +
+      '<circle cx="40" cy="27" r="3.2" fill="#20242e"/>' +
+      '<ellipse cx="32" cy="42" rx="6" ry="7.5" fill="#20242e"/>' +
+    '</svg>',
+    // 7: calm face
+    '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">' +
+      '<circle cx="32" cy="32" r="24" fill="#ffd35e"/>' +
+      '<circle cx="24" cy="28" r="3.2" fill="#20242e"/>' +
+      '<circle cx="40" cy="28" r="3.2" fill="#20242e"/>' +
+      '<path d="M23 42 h18" stroke="#20242e" stroke-width="3.2" stroke-linecap="round"/>' +
+    '</svg>',
+    // 8: turtle (faces right)
+    '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">' +
+      '<path d="M14 32 L5 27.5 L7.5 32 L5 36.5 Z" fill="#2f855a"/>' +
+      '<ellipse cx="23" cy="16.5" rx="7" ry="4.5" transform="rotate(-35 23 16.5)" fill="#38a169"/>' +
+      '<ellipse cx="41" cy="16.5" rx="7" ry="4.5" transform="rotate(35 41 16.5)" fill="#38a169"/>' +
+      '<ellipse cx="23" cy="47.5" rx="7" ry="4.5" transform="rotate(35 23 47.5)" fill="#38a169"/>' +
+      '<ellipse cx="41" cy="47.5" rx="7" ry="4.5" transform="rotate(-35 41 47.5)" fill="#38a169"/>' +
+      '<circle cx="52" cy="32" r="7.5" fill="#48bb78"/>' +
+      '<circle cx="55" cy="29.3" r="1.4" fill="#1a202c"/>' +
+      '<circle cx="55" cy="34.7" r="1.4" fill="#1a202c"/>' +
+      '<ellipse cx="30" cy="32" rx="18" ry="15" fill="#2e9e63" stroke="#1f7a4a" stroke-width="2"/>' +
+      '<polygon points="30,24 37,28 37,36 30,40 23,36 23,28" fill="#3db878" stroke="#1f7a4a" stroke-width="1.5"/>' +
+      '<path d="M30 24 L30 18 M37 28 L43.5 24.5 M37 36 L43.5 39.5 M30 40 L30 46 M23 36 L16.5 39.5 M23 28 L16.5 24.5" stroke="#1f7a4a" stroke-width="1.5" fill="none"/>' +
+    '</svg>',
+    // 9: car (top-down, faces right)
+    '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">' +
+      '<rect x="17" y="16" width="9" height="6" rx="2" fill="#20242e"/>' +
+      '<rect x="17" y="42" width="9" height="6" rx="2" fill="#20242e"/>' +
+      '<rect x="38" y="16" width="9" height="6" rx="2" fill="#20242e"/>' +
+      '<rect x="38" y="42" width="9" height="6" rx="2" fill="#20242e"/>' +
+      '<rect x="11" y="21" width="43" height="22" rx="8" fill="#e2483d"/>' +
+      '<path d="M33 24 h8 l6 8 -6 8 h-8 z" fill="#bfe0ff"/>' +
+      '<rect x="18" y="26" width="13" height="12" rx="3" fill="#c33a30"/>' +
+      '<circle cx="52" cy="27" r="1.9" fill="#fff0a6"/>' +
+      '<circle cx="52" cy="37" r="1.9" fill="#fff0a6"/>' +
     '</svg>'
   ];
   const SPRITE_ART = SPRITE_SVGS.map(function (svg) {

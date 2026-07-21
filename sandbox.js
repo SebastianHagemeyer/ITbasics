@@ -366,6 +366,42 @@
         "    game.frame()\n"
     },
     {
+      title: "Game: drive a car",
+      desc: "Top-down driving: arrows turn and drive, and it coasts to a stop.",
+      code:
+        "import game\n" +
+        "import math\n" +
+        "\n" +
+        'game.window(480, 360, background="#3a7d3a")   # grass\n' +
+        'car = game.sprite("car", 240, 180, size=64)\n' +
+        "\n" +
+        "speed = 0\n" +
+        "TURN = 4          # degrees per press\n" +
+        "POWER = 0.4       # how hard the pedal pushes\n" +
+        "GRIP = 0.96       # below 1 means it slows down on its own\n" +
+        "\n" +
+        "while game.playing():\n" +
+        '    if game.pressed("left"):  car.angle = car.angle - TURN\n' +
+        '    if game.pressed("right"): car.angle = car.angle + TURN\n' +
+        '    if game.pressed("up"):    speed = speed + POWER\n' +
+        '    if game.pressed("down"):  speed = speed - POWER\n' +
+        "\n" +
+        "    speed = speed * GRIP        # friction: coast to a stop\n" +
+        "\n" +
+        "    # Move in the direction the car is pointing.\n" +
+        "    a = car.angle * math.pi / 180\n" +
+        "    car.x = car.x + math.cos(a) * speed\n" +
+        "    car.y = car.y + math.sin(a) * speed\n" +
+        "\n" +
+        "    # Drive off one edge, come back on the other.\n" +
+        "    if car.x < 0:   car.x = 480\n" +
+        "    if car.x > 480: car.x = 0\n" +
+        "    if car.y < 0:   car.y = 360\n" +
+        "    if car.y > 360: car.y = 0\n" +
+        "\n" +
+        "    game.frame()\n"
+    },
+    {
       title: "Roll a dice",
       desc: "Random rolls, 10 in a row.",
       code:
