@@ -29,7 +29,56 @@
   // Click-to-load snippets. Each gets a card at the bottom of the page.
   const EXAMPLES = [
     {
+      title: "Say hello",
+      desc: "Your very first program: print a few messages.",
+      code:
+        'print("Hello, world!")\n' +
+        'print("My name is ...")\n' +
+        'print("I am learning Python.")\n'
+    },
+    {
+      title: "Ask your name",
+      desc: "Ask a question, then use the answer.",
+      code:
+        'name = input("What is your name? ")\n' +
+        'print("Hello,", name)\n' +
+        'print("Nice to meet you!")\n'
+    },
+    {
+      title: "Add two numbers",
+      desc: "Type two numbers and add them together.",
+      code:
+        'a = int(input("First number: "))\n' +
+        'b = int(input("Second number: "))\n' +
+        'print("The total is", a + b)\n'
+    },
+    {
+      title: "Double it",
+      desc: "Type a number and see it doubled.",
+      code:
+        'n = int(input("Pick a number: "))\n' +
+        'print("Double that is", n * 2)\n'
+    },
+    {
+      title: "Count to ten",
+      desc: "A simple loop that counts from 1 to 10.",
+      code:
+        "for i in range(1, 11):\n" +
+        "    print(i)\n"
+    },
+    {
+      title: "Odd or even",
+      desc: "Ask for a number and say if it is odd or even.",
+      code:
+        'n = int(input("Pick a number: "))\n' +
+        "if n % 2 == 0:\n" +
+        '    print("That is even.")\n' +
+        "else:\n" +
+        '    print("That is odd.")\n'
+    },
+    {
       title: "Star triangle",
+      cat: "Intermediate",
       desc: "Right-aligned stars climbing up.",
       code:
         "x = 1\n" +
@@ -39,6 +88,7 @@
     },
     {
       title: "Diamond",
+      cat: "Intermediate",
       desc: "Centered stars going up then back down.",
       code:
         "n = 5\n" +
@@ -57,6 +107,7 @@
     },
     {
       title: "FizzBuzz",
+      cat: "Intermediate",
       desc: "Count 1 to 20. Fizz, Buzz, FizzBuzz on the multiples.",
       code:
         "for i in range(1, 21):\n" +
@@ -339,6 +390,7 @@
     },
     {
       title: "Letter staircase",
+      cat: "Intermediate",
       desc: "Build up a word, one letter per line.",
       code:
         "word = 'PYTHON'\n" +
@@ -359,6 +411,7 @@
     },
     {
       title: "Loading bar",
+      cat: "Intermediate",
       desc: "Animated progress bar filling step by step.",
       code:
         "import time\n" +
@@ -371,6 +424,7 @@
     },
     {
       title: "Fibonacci",
+      cat: "Intermediate",
       desc: "Each number is the sum of the previous two.",
       code:
         "count = int(input(\"How many Fibonacci numbers? \"))\n" +
@@ -381,6 +435,7 @@
     },
     {
       title: "Hailstone",
+      cat: "Intermediate",
       desc: "Halve if even, 3n+1 if odd. Always reaches 1!",
       code:
         "n = int(input(\"Starting number (try 27): \"))\n" +
@@ -394,6 +449,7 @@
     },
     {
       title: "Spiral",
+      cat: "Intermediate",
       desc: "Watch a grid of digits spiral inward, one cell per frame.",
       code:
         "import time\n" +
@@ -447,6 +503,7 @@
     },
     {
       title: "Sine wave",
+      cat: "Intermediate",
       desc: "An ASCII wave drawn with math.sin().",
       code:
         "import math\n" +
@@ -458,6 +515,7 @@
     },
     {
       title: "Sierpinski triangle",
+      cat: "Intermediate",
       desc: "A fractal pattern from one bitwise trick.",
       code:
         "n = int(input(\"Size - try 8, 16 or 32: \"))\n" +
@@ -539,6 +597,7 @@
     },
     {
       title: "Caesar cipher",
+      cat: "Intermediate",
       desc: "Encode OR decode a secret message by shifting letters.",
       code:
         "choice = input(\"Encode or decode? (e/d): \")\n" +
@@ -616,7 +675,7 @@
   if (clearBtn) clearBtn.addEventListener("click", function () { runner.clearOutput(); });
 
   // The category order shown in the snippet dropdowns, and which one starts open.
-  const EXAMPLE_CATEGORIES = ["Game", "Turtle", "Coloured Text", "Basic"];
+  const EXAMPLE_CATEGORIES = ["Basic", "Intermediate", "Coloured Text", "Turtle", "Game"];
   const EXAMPLE_OPEN = "Basic";
 
   // Work out which category a snippet belongs in. An explicit ex.cat wins;
