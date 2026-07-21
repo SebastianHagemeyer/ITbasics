@@ -24,6 +24,15 @@
       ]
     },
     {
+      name: "Sandbox extras", id: "sandbox",
+      blurb: "A few handy things that work right here in our Sandbox.",
+      items: [
+        { sig: 'clear()', desc: "Wipe the output panel. Print again after it to make animations that redraw each frame.", ex: 'import time\nfor i in range(3):\n    clear()\n    print(i)\n    time.sleep(0.5)' },
+        { sig: 'print(x, col="red")', desc: "Colour a line of output. Any CSS colour works: a name, hex, rgb() or hsl().", ex: 'print("Win!", col="#22cc88")' },
+        { sig: 'input() and time.sleep()', desc: "These pause your program, so they need Chrome or Edge in the Sandbox (the same as the game library).", ex: 'name = input("Name? ")\nprint("Hi", name)' },
+      ]
+    },
+    {
       name: "Variables and comments", id: "vars",
       blurb: "Store values to use later, and leave notes for yourself.",
       items: [
@@ -67,6 +76,9 @@
         { sig: 's.startswith(x) / s.endswith(x)', desc: "Does the string start or end with this?", ex: 'print("cat.py".endswith(".py"))  # True' },
         { sig: 's.isdigit() / s.isalpha()', desc: "Is the string all digits, or all letters?", ex: 'print("123".isdigit())  # True' },
         { sig: 'str(x)', desc: "Turn a number (or anything) into a string, so you can join it to text.", ex: 'print("Score: " + str(10))' },
+        { sig: 'f"{x:.2f}"', desc: "Show a number with an exact number of decimal places. :.2f means 2 decimals, great for money.", ex: 'price = 3.14159\nprint(f"${price:.2f}")  # $3.14' },
+        { sig: 'f"{n:>5}"', desc: "Pad a value to a set width so columns line up. > right-aligns, < left-aligns.", ex: 'print(f"{7:>5}")   # "    7"' },
+        { sig: '"\\n"', desc: "A new line inside a string. \\t makes a tab. Use \\\" to put a quote inside a string.", ex: 'print("Line 1\\nLine 2")\n# Line 1\n# Line 2' },
       ]
     },
     {
@@ -84,6 +96,28 @@
         { sig: 'sorted(list)', desc: "A new list, sorted smallest to largest (or A to Z).", ex: 'print(sorted([3, 1, 2]))  # [1, 2, 3]' },
         { sig: 'sum / min / max', desc: "Add up, or find the smallest or largest, of a list of numbers.", ex: 'print(sum([1, 2, 3]))  # 6\nprint(max([4, 9, 2]))  # 9' },
         { sig: 'for x in list', desc: "Do something with each item in turn.", ex: 'for pet in pets:\n    print(pet)' },
+      ]
+    },
+    {
+      name: "Dictionaries", id: "dicts",
+      blurb: "A dictionary stores pairs: a key, and the value it points to. Like a real dictionary, you look up a word to get its meaning.",
+      items: [
+        { sig: '{"name": "Sam"}', desc: "A dictionary of key: value pairs. Keys are usually strings.", ex: 'player = {"name": "Sam", "score": 0}' },
+        { sig: 'd[key]', desc: "Look up the value for a key.", ex: 'print(player["name"])  # Sam' },
+        { sig: 'd[key] = value', desc: "Add a new pair, or change an existing one.", ex: 'player["score"] = 10' },
+        { sig: 'key in d', desc: "Is this key in the dictionary? True or False.", ex: 'print("score" in player)  # True' },
+        { sig: 'd.get(key, default)', desc: "Look up a key safely: if it is missing you get the default instead of an error.", ex: 'player.get("lives", 3)  # 3 if not set' },
+        { sig: 'for k in d', desc: "Loop over the keys. Use d[k] to reach each value.", ex: 'for k in player:\n    print(k, "=", player[k])' },
+        { sig: 'len(d)', desc: "How many pairs are in the dictionary.", ex: 'print(len(player))  # 2' },
+      ]
+    },
+    {
+      name: "Tuples", id: "tuples",
+      blurb: "A tuple is like a list, but it cannot be changed after you make it. Handy for pairs that belong together, like an (x, y) point.",
+      items: [
+        { sig: '(1, 2)', desc: "A tuple: values in round brackets, in a fixed order.", ex: 'point = (100, 200)' },
+        { sig: 'a, b = pair', desc: "Unpack a tuple straight into variables.", ex: 'x, y = (100, 200)\nprint(x)  # 100' },
+        { sig: 'point[0]', desc: "Get an item by position, just like a list.", ex: 'print((100, 200)[1])  # 200' },
       ]
     },
     {
@@ -107,6 +141,8 @@
         { sig: 'while condition', desc: "Keep repeating as long as the condition stays true. Make sure something changes, or it never stops.", ex: 'n = 3\nwhile n > 0:\n    print(n)\n    n = n - 1' },
         { sig: 'break', desc: "Jump out of a loop straight away.", ex: 'while True:\n    if done: break' },
         { sig: 'continue', desc: "Skip the rest of this turn and go back to the top of the loop.", ex: 'for i in range(5):\n    if i == 2: continue\n    print(i)' },
+        { sig: 'enumerate(list)', desc: "Loop with a counter and the item at the same time.", ex: 'for i, pet in enumerate(pets):\n    print(i, pet)   # 0 cat, 1 dog...' },
+        { sig: 'zip(a, b)', desc: "Loop over two lists together, one pair at a time.", ex: 'for name, age in zip(names, ages):\n    print(name, "is", age)' },
       ]
     },
     {
@@ -130,6 +166,19 @@
       ]
     },
     {
+      name: "When it goes wrong (errors)", id: "errors",
+      blurb: "Red errors are not the end of the world, they tell you what to fix. Here are the ones you will meet most.",
+      items: [
+        { sig: 'NameError', desc: "You used a name Python does not know: a typo, or a variable you have not made yet.", ex: 'print(scoer)   # typo of score\n# fix: check the spelling' },
+        { sig: 'TypeError', desc: "You mixed types that do not go together, often text and numbers.", ex: 'print("age " + 5)   # crash\n# fix: "age " + str(5)' },
+        { sig: 'ValueError', desc: "The right type but a value that will not work, like turning letters into a number.", ex: 'int("cat")   # crash\n# fix: only int() actual numbers' },
+        { sig: 'IndexError', desc: "You asked for a list or string position that does not exist.", ex: 'pets = ["cat"]\npets[5]   # crash, there is no [5]' },
+        { sig: 'KeyError', desc: "You asked a dictionary for a key it does not have. Use d.get() to be safe.", ex: 'player["lives"]   # crash if not set\n# fix: player.get("lives", 3)' },
+        { sig: 'IndentationError', desc: "Your spaces are wrong: a line is missing its indent, or they do not line up.", ex: 'if x > 0:\nprint("hi")   # needs 4 spaces in front' },
+        { sig: 'SyntaxError', desc: "A typo in the shape of the code: a missing colon, bracket or quote.", ex: 'if x > 0   # missing the :\n    print("hi")' },
+      ]
+    },
+    {
       name: "random library", id: "random",
       blurb: 'Start with "import random". For dice, shuffles and surprises.',
       items: [
@@ -150,6 +199,26 @@
         { sig: 'math.pow(a, b)', desc: "a to the power of b (** does this too).", ex: 'math.pow(2, 10)  # 1024.0' },
         { sig: 'math.sin / math.cos', desc: "Sine and cosine, in radians. Great for waves and circles.", ex: 'math.sin(math.pi / 2)  # 1.0' },
         { sig: 'math.factorial(n)', desc: "n! = n * (n-1) * ... * 1.", ex: 'math.factorial(5)  # 120' },
+      ]
+    },
+    {
+      name: "string library", id: "string",
+      blurb: 'Start with "import string". Ready-made sets of letters, handy for ciphers and puzzles.',
+      items: [
+        { sig: 'string.ascii_uppercase', desc: 'The capital letters "A" to "Z" as one string.', ex: 'import string\nprint(string.ascii_uppercase)  # ABC...Z' },
+        { sig: 'string.ascii_lowercase', desc: 'The lowercase letters "a" to "z".', ex: 'print(string.ascii_lowercase)  # abc...z' },
+        { sig: 'string.digits', desc: 'The digits "0" to "9".', ex: 'print(string.digits)  # 0123456789' },
+        { sig: 'string.ascii_letters', desc: "All the letters, lowercase then uppercase.", ex: 'print(len(string.ascii_letters))  # 52' },
+      ]
+    },
+    {
+      name: "statistics library", id: "statistics",
+      blurb: 'Start with "import statistics". Averages and spread for a list of numbers.',
+      items: [
+        { sig: 'statistics.mean(data)', desc: "The average: add them all up and divide by how many.", ex: 'import statistics\nstatistics.mean([2, 4, 6])  # 4' },
+        { sig: 'statistics.median(data)', desc: "The middle value when they are sorted.", ex: 'statistics.median([1, 5, 2])  # 2' },
+        { sig: 'statistics.mode(data)', desc: "The value that appears most often.", ex: 'statistics.mode([3, 3, 1])  # 3' },
+        { sig: 'statistics.stdev(data)', desc: "The standard deviation: how spread out the numbers are.", ex: 'statistics.stdev([2, 4, 6])  # 2.0' },
       ]
     },
     {
