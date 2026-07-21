@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Assignments | Hallam IT Basics</title>
+  <title>Documentation | Hallam IT Basics</title>
+  <meta name="description" content="A friendly, searchable Python reference: variables, strings, lists, loops, functions, and the random, math, turtle and game libraries. Every entry has an example." />
   <link rel="icon" type="image/svg+xml" href="/logo-binary.svg" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
   <link rel="stylesheet" href="/styles.css" />
@@ -27,7 +28,7 @@
       <nav class="site-nav" aria-label="Primary">
         <a href="/">Home</a>
         <div class="nav-dropdown" data-open="false">
-          <button type="button" class="nav-dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+          <button type="button" class="nav-dropdown-toggle active" aria-haspopup="true" aria-expanded="false">
             Learn
             <svg class="nav-chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </button>
@@ -48,7 +49,7 @@
             <a href="/leaderboard/" role="menuitem">Leaderboard</a>
           </div>
         </div>
-        <a href="/assignments/" class="active">Assignments</a>
+        <a href="/assignments/">Assignments</a>
       </nav>
     </div>
   </header>
@@ -56,30 +57,36 @@
   <main>
     <section class="page-hero">
       <div class="container">
-        <p class="eyebrow">Show what you can do</p>
-        <h1>Assignments</h1>
-        <p class="lead">
-          Real tasks that get marked. Everything happens on the site: write your code, run it,
-          submit it, done. You can resubmit any time; your newest version counts.
-        </p>
+        <p class="eyebrow">Look it up</p>
+        <h1>Documentation</h1>
+        <p class="lead">A friendly cheat sheet for Python and the libraries we use here. Search for anything, a keyword like "upper", "random" or "loop", and every entry comes with a tiny example you can try in the <a href="/sandbox/">Sandbox</a>.</p>
       </div>
     </section>
 
     <div class="container section">
-      <div id="assignments-status" class="leaderboard-status">Loading&hellip;</div>
-      <div id="assignments-list" class="assignments-list"></div>
+      <div class="docs-searchbar">
+        <input type="search" id="docs-search" class="docs-search-input"
+               placeholder="Search: try &quot;upper&quot;, &quot;randint&quot;, &quot;range&quot;, &quot;list&quot;..."
+               autocomplete="off" spellcheck="false" aria-label="Search the documentation" />
+        <span class="docs-count" id="docs-count"></span>
+      </div>
+
+      <nav class="docs-jump" id="docs-jump" aria-label="Jump to a section"></nav>
+
+      <div id="docs-body"></div>
+      <p class="docs-empty" id="docs-empty" hidden>Nothing matched that. Try a shorter word, like "str" or "for".</p>
     </div>
   </main>
 
   <footer class="site-footer">
     <div class="container">
-      <p>&copy; Hallam IT Basics &middot; For Years 7-9 computing classes.</p>
+      <p>&copy; Hallam IT Basics &middot; For Years 7-10 computing classes.</p>
     </div>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
   <script src="/supabase-config.js"></script>
   <script src="/app.js"></script>
-  <script src="/assignments.js"></script>
+  <script src="/docs.js"></script>
 </body>
 </html>

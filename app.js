@@ -291,20 +291,18 @@
     if (!nav) return;
     var path = location.pathname.replace(/index\.html$/, "");
     var chev = '<svg class="nav-chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>';
-    // The Topics dropdown stays short: the three entry topics + their quizzes.
-    // Every module (Binary, Codes, Digital Systems, Networks, Computer Skills)
-    // is reached through "All modules" -> the /modules/ hub.
-    var topics = [
+    // Learn gives access to all the modules (via the /modules/ hub) and the
+    // searchable documentation. Play holds the interactive bits plus the
+    // leaderboard. Assignments sits on its own.
+    var learn = [
       { href: "/modules/", label: "All modules" },
-      { href: "/topics/programming/", label: "Programming" },
-      { href: "/topics/html/", label: "HTML" },
-      { href: "/topics/python/", label: "Python" },
-      { href: "/quizzes/", label: "Quizzes" }
+      { href: "/docs/", label: "Documentation" }
     ];
     var play = [
       { href: "/freeplay/", label: "Freeplay" },
       { href: "/challenges/", label: "Live Coding" },
-      { href: "/sandbox/", label: "Sandbox" }
+      { href: "/sandbox/", label: "Sandbox" },
+      { href: "/leaderboard/", label: "Leaderboard" }
     ];
     function active(href) { return href === "/" ? path === "/" : path.indexOf(href) === 0; }
     function items(list) {
@@ -313,8 +311,9 @@
           ' role="menuitem">' + it.label + '</a>';
       }).join("");
     }
-    function dropdown(label, list) {
-      var on = list.some(function (it) { return active(it.href); });
+    function dropdown(label, list, activeOn) {
+      var checks = activeOn || list.map(function (it) { return it.href; });
+      var on = checks.some(function (h) { return active(h); });
       return '<div class="nav-dropdown" data-open="false">' +
         '<button type="button" class="nav-dropdown-toggle' + (on ? ' active' : '') +
           '" aria-haspopup="true" aria-expanded="false">' + label + ' ' + chev + '</button>' +
@@ -323,10 +322,10 @@
     }
     nav.innerHTML =
       '<a href="/"' + (path === "/" ? ' class="active"' : '') + '>Home</a>' +
-      dropdown("Topics", topics) +
+      // Learn lights up on any lesson or quiz page, not only its two menu links.
+      dropdown("Learn", learn, ["/modules/", "/docs/", "/topics/", "/quizzes/"]) +
       dropdown("Play", play) +
-      '<a href="/assignments/"' + (active("/assignments/") ? ' class="active"' : '') + '>Assignments</a>' +
-      '<a href="/leaderboard/"' + (active("/leaderboard/") ? ' class="active"' : '') + '>Leaderboard</a>';
+      '<a href="/assignments/"' + (active("/assignments/") ? ' class="active"' : '') + '>Assignments</a>';
   }
 
   function boot() {

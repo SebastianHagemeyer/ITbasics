@@ -3532,3 +3532,72 @@ kbd {
 .teacher-yes { color: #1f9d55; font-weight: 700; }
 .teacher-no { color: #c0392b; font-weight: 700; }
 .teacher-detail { color: var(--muted); white-space: normal; }
+
+/* Documentation page (/docs) */
+.docs-searchbar { display: flex; align-items: center; gap: 12px; margin-bottom: 14px; }
+.docs-search-input {
+  flex: 1;
+  padding: 12px 18px;
+  font: inherit;
+  font-size: 1rem;
+  border: 2px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--text);
+}
+.docs-search-input:focus { outline: none; border-color: var(--primary); box-shadow: 0 0 0 3px rgba(28, 69, 135, 0.12); }
+.docs-count { color: var(--muted); font-size: 0.85rem; white-space: nowrap; }
+.docs-jump { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 22px; }
+.docs-chip {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--primary);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 5px 12px;
+  text-decoration: none;
+}
+.docs-chip:hover { border-color: var(--primary); background: var(--bg); }
+.docs-section { margin: 0 0 30px; scroll-margin-top: 84px; }
+.docs-section[hidden] { display: none; }
+.docs-section-title { margin: 0 0 4px; color: var(--primary-dark); }
+.docs-section-blurb { margin: 0 0 14px; color: var(--muted); }
+.docs-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; }
+.docs-item {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  padding: 12px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.docs-item[hidden] { display: none; }
+.docs-sig {
+  align-self: flex-start;
+  max-width: 100%;
+  background: var(--code-bg);
+  color: var(--code-text);
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+  font-size: 0.88rem;
+  font-weight: 700;
+  overflow-wrap: anywhere;
+}
+.docs-desc { margin: 0; font-size: 0.92rem; line-height: 1.45; }
+.docs-ex {
+  margin: 0;
+  background: var(--code-bg);
+  color: var(--code-text);
+  padding: 8px 10px;
+  border-radius: 8px;
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  overflow-x: auto;
+  white-space: pre;
+}
+.docs-empty { color: var(--muted); font-style: italic; }
