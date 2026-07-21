@@ -653,5 +653,16 @@
 
   renderExamples();
   initSnippets();
+
+  // A lesson page can hand a code example over to the Sandbox: it stashes the
+  // code under this key and navigates here. Pick it up once, then clear it.
+  try {
+    const pending = localStorage.getItem("itbasics-sandbox-load");
+    if (pending) {
+      localStorage.removeItem("itbasics-sandbox-load");
+      loadInto(pending, "Loaded from the guide");
+    }
+  } catch (e) { /* private mode: nothing to load */ }
+
   updatePanels();
 })();
