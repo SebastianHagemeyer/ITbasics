@@ -2,36 +2,44 @@
 
 Working notes for future builds, so nothing gets lost between sessions.
 
-## Browser game library ("Hallam game") - the big one
+## Browser game library ("Hallam game") - DONE (July 2026)
 
-A proprietary mini game library for the sandbox, in the same style as the
-canvas turtle. NOT a pygame port: pygame can't run in the browser runtime,
-and it doesn't need to, since the browser already provides rendering, input
-and audio. Estimated size: 30-50 KB of JS + Python shim, not megabytes.
+Built into pyrun.js as the `game` module, shipped on the Sandbox. NOT a
+pygame port: the browser already provides rendering and input, so it's a
+small canvas shim (~a few KB of Python + JS), not megabytes.
 
-Sketch of the student-facing API:
+Student API (screen coords, 0,0 top-left):
 
 ```python
 import game
-
-game.window(400, 300)
-player = game.sprite("🐔", x=200, y=260)
+game.window(480, 360, background="#0b1020")
+basket = game.sprite("🧺", 240, 330, size=48)
+egg = game.sprite("🥚", 200, 0, size=34)
 
 while game.playing():
-    if game.pressed("left"):  player.x -= 5
-    if game.pressed("right"): player.x += 5
-    egg.y += 3
-    if player.touches(egg):
+    if game.pressed("left"):  basket.x -= 8
+    if game.pressed("right"): basket.x += 8
+    egg.y += 5
+    if basket.touches(egg):
         game.score(1)
-    game.frame()   # draw everything, wait for the next frame
+        egg.y = 0
+    game.frame()
 ```
 
-- Sprites as emoji (free art), plus rects/circles/text
-- `game.frame()` uses the same JSPI stack-switch trick as input()/time.sleep()
-- Inherits the editor, Stop button, indent checker and "My code" saves for free
-- Example game to ship with it: catch the falling eggs
-- Scope: the biggest single build discussed so far; treat as its own milestone
-- Plan: let Pixel Painter and the colour task survive a real class first
+- Shipped: `window`, `sprite` (emoji), `box`, `label`, `pressed`, `score`,
+  `playing`, `frame`, `game_over`; sprite `.x/.y/.size/.color/.text`,
+  `.touches()`, `.hide()/.show()`.
+- `game.frame()` uses the JSPI trick like time.sleep; Stop interrupts it;
+  arrow keys/space/letters via a global keydown tracker gated on run state.
+- Game window appears on `import game` (sandbox), inherits editor, Stop,
+  indent + name checkers and "My code" saves.
+- Two example cards: "move the chicken", "catch the eggs".
+- Needs Chrome/Edge (JSPI), same as input()/sleep; window() says so on Safari.
+
+### Possible follow-ups (not built)
+- Mouse input (game.mouse_x/y, clicked).
+- A short "Make a game" lesson or Task 3 built on it.
+- Sound (Web Audio) - beep on catch, etc.
 
 ## Smaller parked ideas
 

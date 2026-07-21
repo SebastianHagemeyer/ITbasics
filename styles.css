@@ -3216,6 +3216,32 @@ kbd {
   pointer-events: none;
 }
 
+/* Game window (import game). */
+.game-panel { min-height: 0; }
+.game-panel[hidden] { display: none; }
+.game-hint {
+  margin-left: auto;
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+.game-stage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+}
+.game-stage canvas {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  background: #0b1020;
+  outline: none;
+  cursor: pointer;
+}
+.game-stage canvas:focus-visible {
+  box-shadow: 0 0 0 3px rgba(43, 125, 233, 0.55);
+}
+
 /* Step cards */
 .assign-page .assign-step {
   background: var(--surface);

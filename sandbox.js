@@ -94,6 +94,54 @@
         "    turtle.left(60)\n"
     },
     {
+      title: "Game: move the chicken",
+      desc: "import game. Steer an emoji with the arrow keys.",
+      code:
+        "import game\n" +
+        "\n" +
+        "game.window(480, 360)\n" +
+        'chicken = game.sprite("🐔", 240, 300, size=48)\n' +
+        "\n" +
+        "# The game loop: read the keys, move, draw one frame, repeat.\n" +
+        "while game.playing():\n" +
+        '    if game.pressed("left"):  chicken.x = chicken.x - 6\n' +
+        '    if game.pressed("right"): chicken.x = chicken.x + 6\n' +
+        '    if game.pressed("up"):    chicken.y = chicken.y - 6\n' +
+        '    if game.pressed("down"):  chicken.y = chicken.y + 6\n' +
+        "    game.frame()\n"
+    },
+    {
+      title: "Game: catch the eggs",
+      desc: "Move the basket to catch falling eggs. Miss 3 and it's over.",
+      code:
+        "import game\n" +
+        "import random\n" +
+        "\n" +
+        'game.window(480, 360, background="#0b1020")\n' +
+        'basket = game.sprite("🧺", 240, 330, size=48)\n' +
+        'egg = game.sprite("🥚", random.randint(30, 450), 0, size=34)\n' +
+        "misses = 0\n" +
+        "\n" +
+        "while game.playing():\n" +
+        '    if game.pressed("left"):  basket.x = basket.x - 8\n' +
+        '    if game.pressed("right"): basket.x = basket.x + 8\n' +
+        "\n" +
+        "    egg.y = egg.y + 5          # the egg falls\n" +
+        "\n" +
+        "    if basket.touches(egg):    # caught it!\n" +
+        "        game.score(1)\n" +
+        "        egg.x = random.randint(30, 450)\n" +
+        "        egg.y = 0\n" +
+        "    elif egg.y > 360:          # it hit the floor\n" +
+        "        misses = misses + 1\n" +
+        "        egg.x = random.randint(30, 450)\n" +
+        "        egg.y = 0\n" +
+        "        if misses >= 3:\n" +
+        '            game.game_over("Game Over! Score: " + str(game.score()))\n' +
+        "\n" +
+        "    game.frame()\n"
+    },
+    {
       title: "Roll a dice",
       desc: "Random rolls, 10 in a row.",
       code:
@@ -348,14 +396,20 @@
 
   if (!editor || !output || !runBtn || !window.PyRun) return;
 
-  // The turtle window only appears when the program actually uses turtle;
-  // the output console always stays for print()s.
+  // The turtle / game windows only appear when the program actually uses
+  // them; the output console always stays for print()s.
   function usesTurtle(code) {
     return /(^|\n)\s*(import\s+turtle|from\s+turtle\s+import)/.test(code || "");
   }
-  function updateTurtlePanel(code) {
-    const panel = document.getElementById("turtle-panel");
-    if (panel) panel.hidden = !usesTurtle(code == null ? runner.getCode() : code);
+  function usesGame(code) {
+    return /(^|\n)\s*(import\s+game|from\s+game\s+import)/.test(code || "");
+  }
+  function updatePanels(code) {
+    const src = code == null ? runner.getCode() : code;
+    const tp = document.getElementById("turtle-panel");
+    if (tp) tp.hidden = !usesTurtle(src);
+    const gp = document.getElementById("game-panel");
+    if (gp) gp.hidden = !usesGame(src);
   }
 
   const runner = window.PyRun.create({
@@ -364,10 +418,20 @@
     runBtn: runBtn,
     storageKey: STORAGE_KEY,
     defaultCode: DEFAULT_CODE,
-    onChange: function (code) { updateTurtlePanel(code); },
+    onChange: function (code) { updatePanels(code); },
+    onRunStart: function () {
+      // Give the game canvas focus so the arrow keys reach it immediately.
+      if (usesGame(runner.getCode())) {
+        const cv = document.getElementById("game-canvas");
+        if (cv) cv.focus();
+      }
+    },
     turtle: {
       canvas: document.getElementById("turtle-canvas"),
       sprite: document.getElementById("turtle-sprite")
+    },
+    game: {
+      canvas: document.getElementById("game-canvas")
     }
   });
 
@@ -585,5 +649,5 @@
 
   renderExamples();
   initSnippets();
-  updateTurtlePanel();
+  updatePanels();
 })();

@@ -357,6 +357,224 @@ _pyrun_install_turtle()
 del _pyrun_install_turtle
 `;
 
+  // ---- The game module -----------------------------------------------------
+  // A tiny classroom game library, drawn on a canvas. Sprites are emoji (free
+  // art), plus boxes and text. The whole thing rides the same JSPI trick as
+  // time.sleep: game.frame() draws the scene then blocks one frame, so a plain
+  // "while game.playing():" loop animates without freezing the tab, and Stop
+  // interrupts it. Screen coordinates: (0,0) top-left, x right, y down.
+  const PY_INSTALL_GAME = `
+def _pyrun_install_game():
+    import sys, json, types
+    import _game_io as _io
+    _jspi = bool(_io.jspiOk())
+    if _jspi:
+        from pyodide.ffi import run_sync
+
+    W = {"w": 480, "h": 360, "bg": "#0b1020", "score": 0}
+    _sprites = []
+
+    class Sprite:
+        def __init__(self, kind, **kw):
+            self.kind = kind
+            self.x = kw.get("x", 0)
+            self.y = kw.get("y", 0)
+            self.size = kw.get("size", 40)
+            self.w = kw.get("w", self.size)
+            self.h = kw.get("h", self.size)
+            self.text = kw.get("text", "")
+            self.color = kw.get("color", "#ffffff")
+            self.visible = True
+            _sprites.append(self)
+        def _box(self):
+            if self.kind == "box":
+                return self.x, self.y, self.w, self.h
+            # emoji/text: a slightly-smaller-than-size hit box feels fair
+            return self.x, self.y, self.size * 0.8, self.size * 0.8
+        def touches(self, other):
+            ax, ay, aw, ah = self._box()
+            bx, by, bw, bh = other._box()
+            return abs(ax - bx) * 2 < (aw + bw) and abs(ay - by) * 2 < (ah + bh)
+        def hide(self):
+            self.visible = False
+        def show(self):
+            self.visible = True
+
+    def window(width=480, height=360, background=None):
+        if not _jspi:
+            raise RuntimeError(
+                "Games need Chrome or Edge in this sandbox. Open this page there to play."
+            )
+        W["w"] = int(width); W["h"] = int(height); W["score"] = 0
+        if background is not None:
+            W["bg"] = str(background)
+        _io.setup(W["w"], W["h"], W["bg"])
+
+    def background(color):
+        W["bg"] = str(color)
+
+    def sprite(emoji, x=None, y=None, size=40):
+        return Sprite("emoji", text=str(emoji), size=size,
+                      x=(W["w"] // 2 if x is None else x),
+                      y=(W["h"] // 2 if y is None else y))
+
+    def box(x, y, w, h, color="#ffffff"):
+        return Sprite("box", x=x, y=y, w=w, h=h, color=color)
+
+    def label(message, x, y, size=20, color="#ffffff"):
+        return Sprite("text", text=str(message), x=x, y=y, size=size, color=color)
+
+    def pressed(key):
+        return bool(_io.pressed(str(key).lower()))
+
+    def score(points=None):
+        if points is not None:
+            W["score"] += int(points)
+        return W["score"]
+
+    def playing():
+        return bool(_io.playing())
+
+    def _draw(banner=None):
+        arr = []
+        for s in _sprites:
+            if not s.visible:
+                continue
+            arr.append({"kind": s.kind, "x": s.x, "y": s.y, "size": s.size,
+                        "w": s.w, "h": s.h, "text": str(s.text), "color": s.color})
+        _io.draw(json.dumps({"w": W["w"], "h": W["h"], "bg": W["bg"],
+                             "score": W["score"], "sprites": arr, "banner": banner}))
+
+    def frame(fps=30):
+        _draw()
+        if _jspi:
+            run_sync(_io.nextFrame(1.0 / max(1, int(fps))))
+
+    def game_over(message="Game Over"):
+        _draw(banner=str(message))
+        _io.stop()
+
+    def _reset_all():
+        _sprites.clear()
+        W.update(w=480, h=360, bg="#0b1020", score=0)
+        _io.reset()
+
+    mod = types.ModuleType("game")
+    mod.window = window
+    mod.background = background
+    mod.sprite = sprite
+    mod.box = box
+    mod.label = label
+    mod.pressed = pressed
+    mod.score = score
+    mod.playing = playing
+    mod.frame = frame
+    mod.game_over = game_over
+    mod.Sprite = Sprite
+    mod._reset_all = _reset_all
+    sys.modules["game"] = mod
+
+_pyrun_install_game()
+del _pyrun_install_game
+`;
+
+  // ---- JS side of the game: canvas drawing + keyboard, dispatched to active -
+  let gameKeys = {};
+  let gamePlaying = true;
+
+  function gameCtx() {
+    if (!active || !active.opts.game) return null;
+    return active.gameCtx;
+  }
+  function gameActive() { return running && active && active.opts.game; }
+
+  function gameKeyName(e) {
+    const k = e.key;
+    if (k === "ArrowLeft") return "left";
+    if (k === "ArrowRight") return "right";
+    if (k === "ArrowUp") return "up";
+    if (k === "ArrowDown") return "down";
+    if (k === " " || k === "Spacebar") return "space";
+    return String(k).toLowerCase();
+  }
+  const GAME_KEYS_TO_EAT = { left: 1, right: 1, up: 1, down: 1, space: 1 };
+  window.addEventListener("keydown", function (e) {
+    if (!gameActive()) return;
+    const n = gameKeyName(e);
+    gameKeys[n] = true;
+    if (GAME_KEYS_TO_EAT[n]) e.preventDefault();
+  });
+  window.addEventListener("keyup", function (e) {
+    if (!gameActive()) return;
+    gameKeys[gameKeyName(e)] = false;
+  });
+
+  const GAME_IO = {
+    jspiOk: function () { return jspiSupported(); },
+    playing: function () { return gamePlaying; },
+    stop: function () { gamePlaying = false; },
+    reset: function () {
+      gameKeys = {};
+      gamePlaying = true;
+      const c = gameCtx();
+      if (c) c.clearRect(0, 0, c.canvas.width, c.canvas.height);
+    },
+    setup: function (w, h, bg) {
+      gamePlaying = true;
+      gameKeys = {};
+      const c = gameCtx();
+      if (!c) return;
+      c.canvas.width = Number(w) || 480;
+      c.canvas.height = Number(h) || 360;
+      c.canvas.style.background = String(bg || "#0b1020");
+    },
+    pressed: function (key) { return Boolean(gameKeys[String(key).toLowerCase()]); },
+    nextFrame: function (seconds) { return interruptibleSleep(seconds); },
+    draw: function (json) {
+      const c = gameCtx();
+      if (!c) return;
+      let scene;
+      try { scene = JSON.parse(json); } catch (e) { return; }
+      const cv = c.canvas;
+      c.clearRect(0, 0, cv.width, cv.height);
+      c.fillStyle = scene.bg || "#0b1020";
+      c.fillRect(0, 0, cv.width, cv.height);
+      (scene.sprites || []).forEach(function (s) {
+        if (s.kind === "box") {
+          c.fillStyle = s.color || "#fff";
+          c.fillRect(s.x - s.w / 2, s.y - s.h / 2, s.w, s.h);
+        } else if (s.kind === "text") {
+          c.fillStyle = s.color || "#fff";
+          c.font = "bold " + (s.size || 20) + "px system-ui, sans-serif";
+          c.textAlign = "center";
+          c.textBaseline = "middle";
+          c.fillText(s.text, s.x, s.y);
+        } else {
+          c.font = (s.size || 40) + "px 'Segoe UI Emoji', 'Apple Color Emoji', 'Noto Color Emoji', system-ui, sans-serif";
+          c.textAlign = "center";
+          c.textBaseline = "middle";
+          c.fillText(s.text, s.x, s.y);
+        }
+      });
+      if (scene.score !== null && scene.score !== undefined) {
+        c.fillStyle = "#ffffff";
+        c.font = "bold 18px system-ui, sans-serif";
+        c.textAlign = "left";
+        c.textBaseline = "top";
+        c.fillText("Score: " + scene.score, 10, 8);
+      }
+      if (scene.banner) {
+        c.fillStyle = "rgba(0,0,0,0.55)";
+        c.fillRect(0, 0, cv.width, cv.height);
+        c.fillStyle = "#ffffff";
+        c.font = "bold 30px system-ui, sans-serif";
+        c.textAlign = "center";
+        c.textBaseline = "middle";
+        c.fillText(scene.banner, cv.width / 2, cv.height / 2);
+      }
+    }
+  };
+
   // ---- JS side of the turtle: canvas drawing, dispatched to `active` ------
 
   function turtleCtx() {
@@ -613,6 +831,7 @@ del _pyrun_install_turtle
       py.setStderr({ batched: function (s) { appendToActive(s, "stderr"); } });
       py.registerJsModule("_sandbox_io", SANDBOX_IO);
       py.registerJsModule("_turtle_io", TURTLE_IO);
+      py.registerJsModule("_game_io", GAME_IO);
       const useJspi = jspiSupported();
       await py.runPythonAsync(useJspi ? PY_INSTALL_INPUT : PY_DISABLE_INPUT);
       if (useJspi) await py.runPythonAsync(PY_PATCH_SLEEP);
@@ -620,6 +839,7 @@ del _pyrun_install_turtle
       await py.runPythonAsync(PY_INSTALL_CLEAR);
       await py.runPythonAsync(PY_INSTALL_COLOR_PRINT);
       await py.runPythonAsync(PY_INSTALL_TURTLE);
+      await py.runPythonAsync(PY_INSTALL_GAME);
       appendToActive("Python ready. Running your code…", "info");
       pyodide = py;
       return py;
@@ -641,6 +861,7 @@ del _pyrun_install_turtle
       opts: opts,
       turtleCtx: null,
       spriteCtx: null,
+      gameCtx: null,
       appendOut: function (text, kind) {
         const span = document.createElement("span");
         if (kind) span.className = "out-" + kind;
@@ -653,6 +874,9 @@ del _pyrun_install_turtle
     if (opts.turtle && opts.turtle.canvas) {
       runner.turtleCtx = opts.turtle.canvas.getContext("2d");
       if (opts.turtle.sprite) runner.spriteCtx = opts.turtle.sprite.getContext("2d");
+    }
+    if (opts.game && opts.game.canvas) {
+      runner.gameCtx = opts.game.canvas.getContext("2d");
     }
 
     // storageKey and defaultCode may be plain values or functions, so a
@@ -704,6 +928,7 @@ del _pyrun_install_turtle
     function stop() {
       if (!running) return;
       stopRequested = true;
+      gamePlaying = false; // a game loop checking game.playing() exits cleanly
       if (pendingReject) {
         const r = pendingReject;
         pendingReject = null;
@@ -736,12 +961,14 @@ del _pyrun_install_turtle
       try {
         const py = await ensurePyodide();
         setRunMode("busy");
-        // Fresh turtle position/colour every run, so re-running a
-        // drawing behaves like running a .py file from scratch.
+        // Fresh turtle/game state every run, so re-running behaves like
+        // running a .py file from scratch.
         await py.runPythonAsync(
           "import sys\n" +
           "if 'turtle' in sys.modules:\n" +
-          "    sys.modules['turtle']._reset_all()\n"
+          "    sys.modules['turtle']._reset_all()\n" +
+          "if 'game' in sys.modules:\n" +
+          "    sys.modules['game']._reset_all()\n"
         );
         resetTurtle();
         // Run in a FRESH namespace each time, so variables from a previous
