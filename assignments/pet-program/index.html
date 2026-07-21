@@ -78,6 +78,12 @@
           replaces) is your job. There's always an Undo if it goes wrong.
           <a href="#rubric">How you'll be marked</a> is at the bottom (11 marks).
         </div>
+        <div class="callout">
+          <strong>The code in each step is a guide, not a script to copy.</strong> It shows what
+          working code <em>can</em> look like. You are encouraged to use your <strong>own variable
+          names</strong>, and to break a line into smaller steps if that makes more sense in your
+          head. As long as it works and does the right thing, it is correct.
+        </div>
       </section>
 
       <!-- ============ track picker ============ -->
@@ -309,6 +315,16 @@
             maths on it, Python throws a tantrum. Convert the input into an integer with <code>int()</code>:
           </p>
           <div class="snippet" data-snippet="calc-2"></div>
+          <div class="callout">
+            <strong>Your code, your way.</strong> You do not have to write it exactly like that.
+            The example wraps <code>input()</code> straight inside <code>int()</code>, but you could
+            split it into two smaller steps with your own names instead. This does the same job:
+            <pre class="code">while True:
+    typed_in = input("How old is the pet? ")
+    as_a_number = int(typed_in)    # int() turns the text into a whole number
+    print("1 more than that is:", as_a_number + 1)</pre>
+            Both are correct. Pick whichever is clearer to you.
+          </div>
           <p><strong>Try this:</strong> run it and type <code>5</code>. Works? Now run it again and type
             <code>five</code> (the word). What happens?</p>
           <label class="reflect-label" for="c-reflect-err">Write down the error message you got, and why you think it happened:</label>
