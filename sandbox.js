@@ -123,7 +123,7 @@
         "misses = 0\n" +
         "\n" +
         "# The scoreboard is just a label you draw. Update its text to change it.\n" +
-        'board = game.label("Score: 0", 12, 22, size=22)\n' +
+        'board = game.label("Score: 0", 60, 24, size=22)\n' +
         "\n" +
         "while game.playing():\n" +
         '    if game.pressed("left"):  basket.x = basket.x - 8\n' +
@@ -613,22 +613,53 @@
   });
   if (clearBtn) clearBtn.addEventListener("click", function () { runner.clearOutput(); });
 
+  // The category order shown in the snippet dropdowns. The first one starts open.
+  const EXAMPLE_CATEGORIES = ["Game", "Turtle", "Coloured Text", "Basic"];
+
+  // Work out which category a snippet belongs in. An explicit ex.cat wins;
+  // otherwise we sort by its title and whether it colours its output.
+  function categoryOf(ex) {
+    if (ex.cat) return ex.cat;
+    if (/^Game:/.test(ex.title)) return "Game";
+    if (/^Turtle:/.test(ex.title)) return "Turtle";
+    if (/\bcol\s*=/.test(ex.code)) return "Coloured Text";
+    return "Basic";
+  }
+
   function renderExamples() {
-    const grid = document.getElementById("sandbox-examples");
-    if (!grid) return;
-    grid.innerHTML = "";
-    EXAMPLES.forEach(function (ex) {
-      const btn = document.createElement("button");
-      btn.type = "button";
-      btn.className = "sandbox-example-card";
-      btn.innerHTML =
-        '<span class="sandbox-example-title">' + escapeHtml(ex.title) + '</span>' +
-        '<span class="sandbox-example-desc">' + escapeHtml(ex.desc) + '</span>';
-      btn.addEventListener("click", function () {
-        loadInto(ex.code, 'Loaded "' + ex.title + '"');
-        editor.scrollIntoView({ behavior: "smooth", block: "start" });
+    const wrap = document.getElementById("sandbox-examples");
+    if (!wrap) return;
+    wrap.innerHTML = "";
+    EXAMPLE_CATEGORIES.forEach(function (cat, idx) {
+      const items = EXAMPLES.filter(function (ex) { return categoryOf(ex) === cat; });
+      if (!items.length) return;
+
+      const group = document.createElement("details");
+      group.className = "sandbox-example-group";
+      if (idx === 0) group.open = true;   // open the first category by default
+
+      const summary = document.createElement("summary");
+      summary.innerHTML = escapeHtml(cat) +
+        '<span class="sandbox-example-count">' + items.length + '</span>';
+      group.appendChild(summary);
+
+      const grid = document.createElement("div");
+      grid.className = "sandbox-examples-grid";
+      items.forEach(function (ex) {
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "sandbox-example-card";
+        btn.innerHTML =
+          '<span class="sandbox-example-title">' + escapeHtml(ex.title) + '</span>' +
+          '<span class="sandbox-example-desc">' + escapeHtml(ex.desc) + '</span>';
+        btn.addEventListener("click", function () {
+          loadInto(ex.code, 'Loaded "' + ex.title + '"');
+          editor.scrollIntoView({ behavior: "smooth", block: "start" });
+        });
+        grid.appendChild(btn);
       });
-      grid.appendChild(btn);
+      group.appendChild(grid);
+      wrap.appendChild(group);
     });
   }
 

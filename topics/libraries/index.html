@@ -223,7 +223,7 @@ chicken <span class="c-op">=</span> game.sprite(<span class="c-string">"🐔"</s
                 </tr>
                 <tr>
                   <td><code>game.label(text, x, y, size, color)</code></td>
-                  <td>Draws words on the screen. This is how you show a score or a message.</td>
+                  <td>Draws words on the screen, centred on <code>(x, y)</code>. This is how you show a score or a message. Keep <code>x</code> away from the left edge (say 60 or more) so longer text is not cut off.</td>
                 </tr>
               </table>
             </details>
@@ -340,7 +340,7 @@ wall <span class="c-op">=</span> game.box(<span class="c-num">380</span>, <span 
 
           <h3>A scoreboard is just a label</h3>
           <p>There is no magic score display. You make a label and update its text yourself, which means <em>you</em> decide where it sits and what it says:</p>
-          <pre class="code" data-norun>board <span class="c-op">=</span> game.label(<span class="c-string">"Score: 0"</span>, <span class="c-num">12</span>, <span class="c-num">22</span>, size<span class="c-op">=</span><span class="c-num">22</span>)
+          <pre class="code" data-norun>board <span class="c-op">=</span> game.label(<span class="c-string">"Score: 0"</span>, <span class="c-num">60</span>, <span class="c-num">22</span>, size<span class="c-op">=</span><span class="c-num">22</span>)
 <span class="c-comment"># ... later, when the player scores ...</span>
 game.score(<span class="c-num">1</span>)
 board.text <span class="c-op">=</span> <span class="c-string">"Score: "</span> <span class="c-op">+</span> <span class="c-keyword">str</span>(game.score())</pre>

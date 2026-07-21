@@ -15,7 +15,7 @@ import game
 game.window(480, 360, background="#0b1020")
 basket = game.sprite("🧺", 240, 330, size=48)
 egg = game.sprite("🥚", 200, 0, size=34)
-board = game.label("Score: 0", 12, 22)   # the scoreboard is a drawable label
+board = game.label("Score: 0", 60, 22)   # the scoreboard is a drawable label
 
 while game.playing():
     if game.pressed("left"):  basket.x -= 8
