@@ -267,7 +267,7 @@ chicken <span class="c-op">=</span> game.sprite(<span class="c-string">"🐔"</s
                 <tr><td><code>.x</code> <code>.y</code></td><td>Where it is. Change these to move it.</td></tr>
                 <tr><td><code>.size</code></td><td>How big an emoji or label is.</td></tr>
                 <tr><td><code>.w</code> <code>.h</code></td><td>The width and height of a box.</td></tr>
-                <tr><td><code>.text</code></td><td>The emoji or words shown. Change it to swap the picture: <code>chicken.text = "🍗"</code>.</td></tr>
+                <tr><td><code>.content</code></td><td>What it shows. Set it to a skin number, a name or an emoji to swap the picture: <code>player.content = "coin"</code>. On a label it is the words shown.</td></tr>
                 <tr><td><code>.angle</code></td><td>Spin it. The angle is in degrees, so <code>coin.angle = 45</code> tips it over, and adding a little every frame makes it spin.</td></tr>
                 <tr><td><code>.scale_x</code> <code>.scale_y</code></td><td>Stretch or mirror it. <code>1</code> is normal, <code>2</code> is twice as big, and <code>-1</code> flips it. Set <code>.scale_x = -1</code> to make a sprite face the other way, handy for a side-scroller or a fighter.</td></tr>
                 <tr><td><code>.color</code></td><td>The colour of a box or label. (Emoji keep their own colours, so this does nothing to an emoji.)</td></tr>
@@ -295,6 +295,8 @@ chicken <span class="c-op">=</span> game.sprite(<span class="c-string">"🐔"</s
               <tr><td class="sprite-pic"><svg viewBox="0 0 64 64" role="img" aria-label="egg"><path d="M32 7 C19 7 13 31 13 41 a19 20 0 0 0 38 0 C51 31 45 7 32 7 Z" fill="#f7f2e6"/><ellipse cx="25" cy="30" rx="5" ry="8" fill="#fffef8" opacity="0.7"/></svg></td><td><code>3</code></td><td><code>"egg"</code></td></tr>
               <tr><td class="sprite-pic"><svg viewBox="0 0 64 64" role="img" aria-label="coin"><circle cx="32" cy="32" r="24" fill="#e0a92e"/><circle cx="32" cy="32" r="18" fill="#f6d066"/><path d="M32 18 l4.2 8.6 9.5 1.4 -6.9 6.7 1.6 9.4 -8.4 -4.4 -8.4 4.4 1.6 -9.4 -6.9 -6.7 9.5 -1.4z" fill="#e0a92e"/></svg></td><td><code>4</code></td><td><code>"coin"</code></td></tr>
               <tr><td class="sprite-pic"><svg viewBox="0 0 64 64" role="img" aria-label="basket"><path d="M18 27 a14 10 0 0 1 28 0" stroke="#a56a34" stroke-width="3.5" fill="none"/><path d="M13 27 h38 l-4 27 a5 4 0 0 1 -5 4 H22 a5 4 0 0 1 -5 -4 Z" fill="#c8894e"/><path d="M19 36 h26 M20 44 h24 M21 52 h22" stroke="#9a6330" stroke-width="2" fill="none"/><path d="M27 30 v30 M37 30 v30" stroke="#9a6330" stroke-width="1.6" fill="none" opacity="0.5"/><rect x="10" y="24" width="44" height="8" rx="4" fill="#dca86a"/></svg></td><td><code>5</code></td><td><code>"basket"</code></td></tr>
+              <tr><td class="sprite-pic sprite-emoji">😮</td><td><code>6</code></td><td><code>"shocked"</code></td></tr>
+              <tr><td class="sprite-pic sprite-emoji">😐</td><td><code>7</code></td><td><code>"calm"</code></td></tr>
             </table>
           </div>
           <pre class="code" data-norun>hero <span class="c-op">=</span> game.sprite(<span class="c-string">"chicken"</span>, <span class="c-num">100</span>, <span class="c-num">200</span>)   <span class="c-comment"># by name</span>
@@ -302,10 +304,12 @@ coin <span class="c-op">=</span> game.sprite(<span class="c-num">4</span>, <span
 foe  <span class="c-op">=</span> game.sprite(<span class="c-string">"🦖"</span>, <span class="c-num">300</span>, <span class="c-num">200</span>)         <span class="c-comment"># any emoji still works</span></pre>
 
           <h3>Swap the sprite</h3>
-          <p>Any emoji is a sprite, and you can change it mid-game just by setting <code>.text</code>:</p>
-          <pre class="code" data-norun>player <span class="c-op">=</span> game.sprite(<span class="c-string">"🙂"</span>, <span class="c-num">240</span>, <span class="c-num">180</span>)
-player.text <span class="c-op">=</span> <span class="c-string">"😮"</span>   <span class="c-comment"># now it looks surprised</span>
-player.size <span class="c-op">=</span> <span class="c-num">80</span>       <span class="c-comment"># and twice as big</span></pre>
+          <p>Change what a sprite shows mid-game by setting <code>.content</code>. Give it a skin number, a name, or an emoji, whichever you like:</p>
+          <pre class="code" data-norun>player <span class="c-op">=</span> game.sprite(<span class="c-string">"chicken"</span>, <span class="c-num">240</span>, <span class="c-num">180</span>)
+player.content <span class="c-op">=</span> <span class="c-string">"coin"</span>   <span class="c-comment"># now it is a coin</span>
+player.content <span class="c-op">=</span> <span class="c-num">6</span>        <span class="c-comment"># now a shocked face</span>
+player.content <span class="c-op">=</span> <span class="c-string">"🍗"</span>     <span class="c-comment"># now an emoji</span>
+player.size <span class="c-op">=</span> <span class="c-num">80</span>          <span class="c-comment"># and twice as big</span></pre>
 
           <h3>Make it spin</h3>
           <p>Set <code>.angle</code> (in degrees) to turn a sprite, and add a little every frame to make it spin. Nothing fancy under the hood: the screen just turns before it draws the emoji.</p>
@@ -358,7 +362,7 @@ wall <span class="c-op">=</span> game.box(<span class="c-num">380</span>, <span 
           <pre class="code" data-norun>board <span class="c-op">=</span> game.label(<span class="c-string">"Score: 0"</span>, <span class="c-num">60</span>, <span class="c-num">22</span>, size<span class="c-op">=</span><span class="c-num">22</span>)
 <span class="c-comment"># ... later, when the player scores ...</span>
 game.score(<span class="c-num">1</span>)
-board.text <span class="c-op">=</span> <span class="c-string">"Score: "</span> <span class="c-op">+</span> <span class="c-keyword">str</span>(game.score())</pre>
+board.content <span class="c-op">=</span> <span class="c-string">"Score: "</span> <span class="c-op">+</span> <span class="c-keyword">str</span>(game.score())</pre>
 
           <h3>What it can and cannot do</h3>
           <p>Being honest about the limits, because knowing them helps you plan a game that will actually work:</p>

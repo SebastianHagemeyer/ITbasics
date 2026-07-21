@@ -185,7 +185,7 @@
         "\n" +
         "    if basket.touches(egg):    # caught it!\n" +
         "        game.score(1)\n" +
-        '        board.text = "Score: " + str(game.score())\n' +
+        '        board.content = "Score: " + str(game.score())\n' +
         "        egg.x = random.randint(30, 450)\n" +
         "        egg.y = 0\n" +
         "    elif egg.y > 360:          # it hit the floor\n" +
@@ -207,8 +207,9 @@
         'game.label("SHOUT! Tap your key. First bar to the top wins!", 240, 18, size=15)\n' +
         "\n" +
         "# The mouths flip open on every tap, so it looks like shouting.\n" +
-        'p1_mouth = game.sprite("😐", 150, 62, size=52)\n' +
-        'p2_mouth = game.sprite("😐", 330, 62, size=52)\n' +
+        "# 6 (or \"shocked\") is the open mouth, 7 (\"calm\") is the closed one.\n" +
+        'p1_mouth = game.sprite("calm", 150, 62, size=52)\n' +
+        'p2_mouth = game.sprite("calm", 330, 62, size=52)\n' +
         "\n" +
         "# Grey tracks show how far there is to go...\n" +
         'game.box(150, 210, 60, 240, "#1b2440")\n' +
@@ -237,10 +238,10 @@
         "\n" +
         "    if p1_now and not p1_was:          # a fresh tap\n" +
         "        p1 = p1 + GAIN\n" +
-        '        p1_mouth.text = "😮" if p1_mouth.text == "😐" else "😐"\n' +
+        '        p1_mouth.content = "shocked" if p1_mouth.content == "calm" else "calm"\n' +
         "    if p2_now and not p2_was:\n" +
         "        p2 = p2 + GAIN\n" +
-        '        p2_mouth.text = "😮" if p2_mouth.text == "😐" else "😐"\n' +
+        '        p2_mouth.content = "shocked" if p2_mouth.content == "calm" else "calm"\n' +
         "\n" +
         "    p1_was = p1_now\n" +
         "    p2_was = p2_now\n" +
@@ -352,7 +353,7 @@
         '        if not p["scored"] and p["x"] < bird.x:\n' +
         '            p["scored"] = True\n' +
         "            score = score + 1\n" +
-        "            board.text = str(score)\n" +
+        "            board.content = str(score)\n" +
         "\n" +
         "        # Crashed into a pipe?\n" +
         '        if bird.touches(p["top"]) or bird.touches(p["bottom"]):\n' +

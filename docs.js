@@ -246,7 +246,7 @@
       blurbLink: { href: "/topics/libraries/", text: "Libraries lesson" },
       items: [
         { sig: 'game.window(w, h)', desc: "Open the game window. Always first. Add background=\"#0b1020\" for a colour.", ex: 'import game\ngame.window(480, 360)' },
-        { sig: 'game.sprite(skin, x, y, size=40)', desc: 'A sprite you can move around. skin can be a built-in art number (0 chicken, 1 dog, 2 bird, 3 egg, 4 coin, 5 basket), its name like "chicken", or any emoji.', ex: 'hero = game.sprite("chicken", 100, 200)\nfoe  = game.sprite("🦖", 300, 200)' },
+        { sig: 'game.sprite(skin, x, y, size=40)', desc: 'A sprite you can move around. skin can be a built-in number (0 chicken, 1 dog, 2 bird, 3 egg, 4 coin, 5 basket, 6 shocked face, 7 calm face), its name like "chicken", or any emoji.', ex: 'hero = game.sprite("chicken", 100, 200)\nfoe  = game.sprite("🦖", 300, 200)' },
         { sig: 'game.box(x, y, w, h, color)', desc: "A coloured rectangle, centred on (x, y).", ex: 'wall = game.box(240, 300, 60, 20, "#5fbf3a")' },
         { sig: 'game.label(text, x, y, size, color)', desc: "Draw words (a score or a message), centred on (x, y).", ex: 'board = game.label("Score: 0", 60, 22)' },
         { sig: 'game.pressed(key)', desc: 'True while a key is held. "left", "right", "up", "down", "space", or a letter.', ex: 'if game.pressed("left"):\n    bird.x = bird.x - 5' },
@@ -254,6 +254,7 @@
         { sig: 'game.frame(fps=30)', desc: "Draw one frame and wait. Put it at the end of the loop.", ex: 'game.frame()' },
         { sig: 'game.game_over(message)', desc: "Show a banner and stop the game.", ex: 'game.game_over("You win!")' },
         { sig: 'sprite.x / sprite.y', desc: "Where a sprite is. Change these to move it.", ex: 'bird.y = bird.y + 5' },
+        { sig: 'sprite.content', desc: "What a sprite shows. Set it to a new skin number, a name, or an emoji to change the picture. A label uses it for its text.", ex: 'player.content = "coin"\nboard.content = "Score: " + str(n)' },
         { sig: 'sprite.angle', desc: "Spin a sprite, in degrees.", ex: 'coin.angle = coin.angle + 6' },
         { sig: 'sprite.scale_x / sprite.scale_y', desc: "Stretch or mirror. -1 flips it to face the other way.", ex: 'chicken.scale_x = -1   # face right' },
         { sig: 'a.touches(b)', desc: "True if two sprites overlap. This is how you catch or crash.", ex: 'if basket.touches(egg):\n    game.score(1)' },

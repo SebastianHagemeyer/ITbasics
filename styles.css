@@ -3620,3 +3620,4 @@ kbd {
 .sprite-table td code { background: var(--code-bg); color: var(--code-text); }
 .sprite-table .sprite-pic { background: #eaf3ff; }   /* so the white egg and chicken show */
 .sprite-table .sprite-pic svg { display: block; width: 46px; height: 46px; }
+.sprite-table .sprite-emoji { font-size: 34px; line-height: 1; text-align: center; }
