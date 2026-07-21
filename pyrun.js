@@ -589,10 +589,40 @@ del _pyrun_install_game
         c.fillStyle = "rgba(0,0,0,0.55)";
         c.fillRect(0, 0, cv.width, cv.height);
         c.fillStyle = "#ffffff";
-        c.font = "bold 30px system-ui, sans-serif";
         c.textAlign = "center";
         c.textBaseline = "middle";
-        c.fillText(scene.banner, cv.width / 2, cv.height / 2);
+        // Wrap the banner onto as many lines as it needs, and if a single word
+        // is still too wide, shrink the text, so long messages never run off
+        // the edges of the game window.
+        var maxW = cv.width - 40;
+        var size = 30;
+        c.font = "bold " + size + "px system-ui, sans-serif";
+        var words = String(scene.banner).split(" ");
+        var lines = [];
+        var line = "";
+        for (var wi = 0; wi < words.length; wi++) {
+          var test = line ? line + " " + words[wi] : words[wi];
+          if (line && c.measureText(test).width > maxW) {
+            lines.push(line);
+            line = words[wi];
+          } else {
+            line = test;
+          }
+        }
+        if (line) lines.push(line);
+        var widest = 0;
+        for (var li = 0; li < lines.length; li++) {
+          widest = Math.max(widest, c.measureText(lines[li]).width);
+        }
+        if (widest > maxW) {
+          size = Math.max(12, Math.floor(size * maxW / widest));
+          c.font = "bold " + size + "px system-ui, sans-serif";
+        }
+        var lineH = size * 1.25;
+        var startY = cv.height / 2 - (lines.length - 1) * lineH / 2;
+        for (var k = 0; k < lines.length; k++) {
+          c.fillText(lines[k], cv.width / 2, startY + k * lineH);
+        }
       }
     }
   };
