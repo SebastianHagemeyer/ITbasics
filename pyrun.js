@@ -434,7 +434,7 @@ def _pyrun_install_game():
         # A plain running-total counter. score(1) adds one and returns the new
         # total; score() just reads it. It draws NOTHING on its own: to show the
         # score, make a label and update its text, e.g.
-        #   board = game.label("Score: 0", 12, 22)
+        #   board = game.label("Score: 0", 60, 22)
         #   board.text = "Score: " + str(game.score())
         if points is not None:
             W["score"] += int(points)
