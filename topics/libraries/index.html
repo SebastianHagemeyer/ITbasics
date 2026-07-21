@@ -271,6 +271,7 @@ chicken <span class="c-op">=</span> game.sprite(<span class="c-string">"🐔"</s
                 <tr><td><code>.w</code> <code>.h</code></td><td>The width and height of a box.</td></tr>
                 <tr><td><code>.text</code></td><td>The emoji or words shown. Change it to swap the picture: <code>chicken.text = "🍗"</code>.</td></tr>
                 <tr><td><code>.angle</code></td><td>Spin it. The angle is in degrees, so <code>coin.angle = 45</code> tips it over, and adding a little every frame makes it spin.</td></tr>
+                <tr><td><code>.scale_x</code> <code>.scale_y</code></td><td>Stretch or mirror it. <code>1</code> is normal, <code>2</code> is twice as big, and <code>-1</code> flips it. Set <code>.scale_x = -1</code> to make a sprite face the other way, handy for a side-scroller or a fighter.</td></tr>
                 <tr><td><code>.color</code></td><td>The colour of a box or label. (Emoji keep their own colours, so this does nothing to an emoji.)</td></tr>
                 <tr><td><code>.touches(other)</code></td><td>True if this sprite is overlapping another one. This is how you catch, hit or collide: <code>if basket.touches(egg):</code></td></tr>
                 <tr><td><code>.hide()</code> <code>.show()</code></td><td>Make it vanish or come back.</td></tr>
@@ -302,6 +303,23 @@ coin <span class="c-op">=</span> game.sprite(<span class="c-string">"🪙"</span
     coin.angle <span class="c-op">=</span> coin.angle <span class="c-op">+</span> <span class="c-num">6</span>   <span class="c-comment"># turn 6 degrees every frame</span>
     game.frame()</pre>
           <p><button type="button" class="btn btn-primary" data-sandbox-from="ex-spin">Try it in the Sandbox <span class="arrow" aria-hidden="true"></span></button></p>
+
+          <h3>Face the other way (side-scrollers and fighters)</h3>
+          <p>Set <code>.scale_x = -1</code> to mirror a sprite left-to-right, so it faces the way it is walking. <code>.scale_y</code> flips it top-to-bottom, and any number bigger than 1 stretches it. This is how a side-scroller makes one emoji face both directions.</p>
+          <pre class="code" data-norun id="ex-face"><span class="c-keyword">import</span> game
+game.window(<span class="c-num">480</span>, <span class="c-num">360</span>, background<span class="c-op">=</span><span class="c-string">"#87ceeb"</span>)
+
+runner <span class="c-op">=</span> game.sprite(<span class="c-string">"🐔"</span>, <span class="c-num">240</span>, <span class="c-num">200</span>, size<span class="c-op">=</span><span class="c-num">60</span>)
+
+<span class="c-keyword">while</span> game.playing()<span class="c-op">:</span>
+    <span class="c-keyword">if</span> game.pressed(<span class="c-string">"left"</span>)<span class="c-op">:</span>
+        runner.x <span class="c-op">=</span> runner.x <span class="c-op">-</span> <span class="c-num">5</span>
+        runner.scale_x <span class="c-op">=</span> <span class="c-num">1</span>     <span class="c-comment"># face left</span>
+    <span class="c-keyword">if</span> game.pressed(<span class="c-string">"right"</span>)<span class="c-op">:</span>
+        runner.x <span class="c-op">=</span> runner.x <span class="c-op">+</span> <span class="c-num">5</span>
+        runner.scale_x <span class="c-op">=</span> <span class="c-op">-</span><span class="c-num">1</span>    <span class="c-comment"># mirror to face right</span>
+    game.frame()</pre>
+          <p><button type="button" class="btn btn-primary" data-sandbox-from="ex-face">Try it in the Sandbox <span class="arrow" aria-hidden="true"></span></button></p>
 
           <h3>Coloured squares, no emoji needed</h3>
           <p>If you would rather have plain coloured shapes, use <code>game.box</code>. It has a real <code>.color</code> you can set, and it moves and collides just like an emoji sprite:</p>

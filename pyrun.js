@@ -385,6 +385,8 @@ def _pyrun_install_game():
             self.text = kw.get("text", "")
             self.color = kw.get("color", "#ffffff")
             self.angle = kw.get("angle", 0)
+            self.scale_x = kw.get("scale_x", 1)
+            self.scale_y = kw.get("scale_y", 1)
             self.visible = True
             _sprites.append(self)
         def _box(self):
@@ -448,7 +450,7 @@ def _pyrun_install_game():
                 continue
             arr.append({"kind": s.kind, "x": s.x, "y": s.y, "size": s.size,
                         "w": s.w, "h": s.h, "text": str(s.text), "color": s.color,
-                        "angle": s.angle})
+                        "angle": s.angle, "sx": s.scale_x, "sy": s.scale_y})
         _io.draw(json.dumps({"w": W["w"], "h": W["h"], "bg": W["bg"],
                              "sprites": arr, "banner": banner}))
 
@@ -547,12 +549,20 @@ del _pyrun_install_game
       c.fillStyle = scene.bg || "#0b1020";
       c.fillRect(0, 0, cv.width, cv.height);
       (scene.sprites || []).forEach(function (s) {
-        // A non-zero angle (in degrees) spins the sprite about its own centre:
-        // move the canvas origin to the sprite, rotate, then draw at (0,0).
+        // Angle (degrees) spins the sprite and scale_x / scale_y stretch or
+        // mirror it, all about its own centre: move the canvas origin to the
+        // sprite, rotate, scale, then draw at (0,0). scale -1 flips it.
         var ang = Number(s.angle) || 0;
-        var spun = ang !== 0;
-        if (spun) { c.save(); c.translate(s.x, s.y); c.rotate(ang * Math.PI / 180); }
-        var dx = spun ? 0 : s.x, dy = spun ? 0 : s.y;
+        var sx = (s.sx == null || !isFinite(Number(s.sx))) ? 1 : Number(s.sx);
+        var sy = (s.sy == null || !isFinite(Number(s.sy))) ? 1 : Number(s.sy);
+        var moved = ang !== 0 || sx !== 1 || sy !== 1;
+        if (moved) {
+          c.save();
+          c.translate(s.x, s.y);
+          if (ang !== 0) c.rotate(ang * Math.PI / 180);
+          if (sx !== 1 || sy !== 1) c.scale(sx, sy);
+        }
+        var dx = moved ? 0 : s.x, dy = moved ? 0 : s.y;
         if (s.kind === "box") {
           c.fillStyle = s.color || "#fff";
           c.fillRect(dx - s.w / 2, dy - s.h / 2, s.w, s.h);
@@ -568,7 +578,7 @@ del _pyrun_install_game
           c.textBaseline = "middle";
           c.fillText(s.text, dx, dy);
         }
-        if (spun) c.restore();
+        if (moved) c.restore();
       });
       if (scene.banner) {
         c.fillStyle = "rgba(0,0,0,0.55)";

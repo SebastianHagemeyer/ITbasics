@@ -211,6 +211,28 @@
         "    game.frame()\n"
     },
     {
+      title: "Game: walk and turn around",
+      desc: "Side-scroller basics: the runner faces the way it walks (scale_x flips it).",
+      code:
+        "import game\n" +
+        "\n" +
+        'game.window(480, 360, background="#87ceeb")\n' +
+        'game.box(240, 340, 480, 40, "#5b8f3a")   # the grassy ground\n' +
+        "\n" +
+        'runner = game.sprite("🐔", 240, 300, size=60)\n' +
+        "\n" +
+        "# scale_x = -1 mirrors the sprite left-to-right. If your emoji already\n" +
+        "# faces the other way, just swap the -1 and the 1 below.\n" +
+        "while game.playing():\n" +
+        '    if game.pressed("left"):\n' +
+        "        runner.x = runner.x - 5\n" +
+        "        runner.scale_x = 1     # face left (the chicken's default)\n" +
+        '    if game.pressed("right"):\n' +
+        "        runner.x = runner.x + 5\n" +
+        "        runner.scale_x = -1    # mirror it to face right\n" +
+        "    game.frame()\n"
+    },
+    {
       title: "Roll a dice",
       desc: "Random rolls, 10 in a row.",
       code:
