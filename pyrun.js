@@ -371,7 +371,7 @@ def _pyrun_install_game():
     if _jspi:
         from pyodide.ffi import run_sync
 
-    W = {"w": 480, "h": 360, "bg": "#0b1020", "score": 0}
+    W = {"w": 480, "h": 360, "bg": "#0b1020", "score": 0, "over": None}
     _sprites = []
 
     class Sprite:
@@ -408,7 +408,7 @@ def _pyrun_install_game():
             raise RuntimeError(
                 "Games need Chrome or Edge in this sandbox. Open this page there to play."
             )
-        W["w"] = int(width); W["h"] = int(height); W["score"] = 0
+        W["w"] = int(width); W["h"] = int(height); W["score"] = 0; W["over"] = None
         if background is not None:
             W["bg"] = str(background)
         _io.setup(W["w"], W["h"], W["bg"])
@@ -451,8 +451,12 @@ def _pyrun_install_game():
             arr.append({"kind": s.kind, "x": s.x, "y": s.y, "size": s.size,
                         "w": s.w, "h": s.h, "text": str(s.text), "color": s.color,
                         "angle": s.angle, "sx": s.scale_x, "sy": s.scale_y})
+        # Once the game is over the banner is sticky: every later redraw (like
+        # the frame() at the end of the loop) keeps showing it instead of
+        # painting over it.
+        shown = banner if banner is not None else W["over"]
         _io.draw(json.dumps({"w": W["w"], "h": W["h"], "bg": W["bg"],
-                             "sprites": arr, "banner": banner}))
+                             "sprites": arr, "banner": shown}))
 
     def frame(fps=30):
         _draw()
@@ -460,12 +464,13 @@ def _pyrun_install_game():
             run_sync(_io.nextFrame(1.0 / max(1, int(fps))))
 
     def game_over(message="Game Over"):
-        _draw(banner=str(message))
+        W["over"] = str(message)
+        _draw()
         _io.stop()
 
     def _reset_all():
         _sprites.clear()
-        W.update(w=480, h=360, bg="#0b1020", score=0)
+        W.update(w=480, h=360, bg="#0b1020", score=0, over=None)
         _io.reset()
 
     mod = types.ModuleType("game")
