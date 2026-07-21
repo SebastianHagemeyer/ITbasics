@@ -384,6 +384,7 @@ def _pyrun_install_game():
             self.h = kw.get("h", self.size)
             self.text = kw.get("text", "")
             self.color = kw.get("color", "#ffffff")
+            self.art = kw.get("art", -1)
             self.angle = kw.get("angle", 0)
             self.scale_x = kw.get("scale_x", 1)
             self.scale_y = kw.get("scale_y", 1)
@@ -416,10 +417,23 @@ def _pyrun_install_game():
     def background(color):
         W["bg"] = str(color)
 
-    def sprite(emoji, x=None, y=None, size=40):
-        return Sprite("emoji", text=str(emoji), size=size,
-                      x=(W["w"] // 2 if x is None else x),
-                      y=(W["h"] // 2 if y is None else y))
+    # Built-in themed art. sprite(0) is the chicken, sprite(1) the dog, and so
+    # on; you can also pass the name ("chicken") or an emoji ("\U0001f414").
+    _ART_NAMES = ["chicken", "dog", "bird", "egg", "coin", "basket"]
+
+    def sprite(skin, x=None, y=None, size=40):
+        idx = -1
+        if isinstance(skin, bool):
+            idx = -1
+        elif isinstance(skin, int):
+            idx = skin
+        elif isinstance(skin, str) and skin in _ART_NAMES:
+            idx = _ART_NAMES.index(skin)
+        cx = W["w"] // 2 if x is None else x
+        cy = W["h"] // 2 if y is None else y
+        if idx >= 0:
+            return Sprite("art", art=idx, size=size, x=cx, y=cy)
+        return Sprite("emoji", text=str(skin), size=size, x=cx, y=cy)
 
     def box(x, y, w, h, color="#ffffff"):
         return Sprite("box", x=x, y=y, w=w, h=h, color=color)
@@ -450,7 +464,8 @@ def _pyrun_install_game():
                 continue
             arr.append({"kind": s.kind, "x": s.x, "y": s.y, "size": s.size,
                         "w": s.w, "h": s.h, "text": str(s.text), "color": s.color,
-                        "angle": s.angle, "sx": s.scale_x, "sy": s.scale_y})
+                        "art": s.art, "angle": s.angle,
+                        "sx": s.scale_x, "sy": s.scale_y})
         # Once the game is over the banner is sticky: every later redraw (like
         # the frame() at the end of the loop) keeps showing it instead of
         # painting over it.
@@ -523,6 +538,68 @@ del _pyrun_install_game
     gameKeys[gameKeyName(e)] = false;
   });
 
+  // ---- Built-in themed sprite art (a house style instead of only emoji) -----
+  // Flat SVGs so they stay crisp at any size and spin/mirror with the sprite.
+  // Order must match _ART_NAMES in the Python game module: chicken, dog, bird,
+  // egg, coin. game.sprite(0) draws the first, and so on.
+  const SPRITE_SVGS = [
+    // 0: chicken (faces right)
+    '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">' +
+      '<path d="M20 41 q-10 0 -6 11 q7 -4 12 -5z" fill="#e6dcc2"/>' +
+      '<ellipse cx="30" cy="42" rx="17" ry="15" fill="#f4efe0"/>' +
+      '<circle cx="41" cy="26" r="11" fill="#fbf7ec"/>' +
+      '<path d="M35 15 q2 -6 5 -1 q3 -6 6 0 q3 -5 4 3 q-9 3 -15 0z" fill="#e23b3b"/>' +
+      '<path d="M51 25 l9 2 l-9 3z" fill="#f6a623"/>' +
+      '<circle cx="44" cy="24" r="2.3" fill="#20242e"/>' +
+      '<path d="M26 56 v6 M36 56 v6" stroke="#f6a623" stroke-width="3.4" stroke-linecap="round"/>' +
+    '</svg>',
+    // 1: dog (faces right)
+    '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">' +
+      '<path d="M12 44 q-6 2 -3 9" stroke="#c8894e" stroke-width="6" fill="none" stroke-linecap="round"/>' +
+      '<ellipse cx="28" cy="46" rx="16" ry="12" fill="#c8894e"/>' +
+      '<ellipse cx="34" cy="23" rx="5.5" ry="10" transform="rotate(24 34 23)" fill="#a56a34"/>' +
+      '<ellipse cx="51" cy="23" rx="5.5" ry="10" transform="rotate(-24 51 23)" fill="#a56a34"/>' +
+      '<circle cx="42" cy="32" r="13" fill="#d89a5b"/>' +
+      '<ellipse cx="46" cy="38" rx="7.5" ry="6" fill="#f3ddc0"/>' +
+      '<ellipse cx="50" cy="36" rx="2.6" ry="2.1" fill="#3b2a1d"/>' +
+      '<circle cx="38" cy="30" r="2.3" fill="#20242e"/>' +
+      '<circle cx="46" cy="30" r="2.3" fill="#20242e"/>' +
+    '</svg>',
+    // 2: bird (a yellow chick, faces right)
+    '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">' +
+      '<path d="M16 33 q-9 4 -3 13 q7 -5 11 -7z" fill="#e0a92e"/>' +
+      '<ellipse cx="30" cy="34" rx="18" ry="15" fill="#f6c945"/>' +
+      '<circle cx="42" cy="28" r="9" fill="#ffd75e"/>' +
+      '<path d="M50 27 l9 1 l-9 3z" fill="#f2903a"/>' +
+      '<circle cx="44" cy="26" r="2.1" fill="#20242e"/>' +
+      '<path d="M30 48 v6 M37 48 v6" stroke="#f2903a" stroke-width="2.8" stroke-linecap="round"/>' +
+    '</svg>',
+    // 3: egg
+    '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">' +
+      '<path d="M32 7 C19 7 13 31 13 41 a19 20 0 0 0 38 0 C51 31 45 7 32 7 Z" fill="#f7f2e6"/>' +
+      '<ellipse cx="25" cy="30" rx="5" ry="8" fill="#fffef8" opacity="0.7"/>' +
+    '</svg>',
+    // 4: coin
+    '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">' +
+      '<circle cx="32" cy="32" r="24" fill="#e0a92e"/>' +
+      '<circle cx="32" cy="32" r="18" fill="#f6d066"/>' +
+      '<path d="M32 18 l4.2 8.6 9.5 1.4 -6.9 6.7 1.6 9.4 -8.4 -4.4 -8.4 4.4 1.6 -9.4 -6.9 -6.7 9.5 -1.4z" fill="#e0a92e"/>' +
+    '</svg>',
+    // 5: basket
+    '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">' +
+      '<path d="M18 27 a14 10 0 0 1 28 0" stroke="#a56a34" stroke-width="3.5" fill="none"/>' +
+      '<path d="M13 27 h38 l-4 27 a5 4 0 0 1 -5 4 H22 a5 4 0 0 1 -5 -4 Z" fill="#c8894e"/>' +
+      '<path d="M19 36 h26 M20 44 h24 M21 52 h22" stroke="#9a6330" stroke-width="2" fill="none"/>' +
+      '<path d="M27 30 v30 M37 30 v30" stroke="#9a6330" stroke-width="1.6" fill="none" opacity="0.5"/>' +
+      '<rect x="10" y="24" width="44" height="8" rx="4" fill="#dca86a"/>' +
+    '</svg>'
+  ];
+  const SPRITE_ART = SPRITE_SVGS.map(function (svg) {
+    const img = new Image();
+    img.src = "data:image/svg+xml;charset=utf-8," + encodeURIComponent(svg);
+    return img;
+  });
+
   const GAME_IO = {
     jspiOk: function () { return jspiSupported(); },
     playing: function () { return gamePlaying; },
@@ -571,6 +648,16 @@ del _pyrun_install_game
         if (s.kind === "box") {
           c.fillStyle = s.color || "#fff";
           c.fillRect(dx - s.w / 2, dy - s.h / 2, s.w, s.h);
+        } else if (s.kind === "art") {
+          var img = SPRITE_ART[s.art];
+          var sz = s.size || 40;
+          if (img && img.complete && img.naturalWidth) {
+            c.drawImage(img, dx - sz / 2, dy - sz / 2, sz, sz);
+          } else {
+            // Unknown skin index (or not loaded yet): a purple square shows up.
+            c.fillStyle = "#9b59b6";
+            c.fillRect(dx - sz / 2, dy - sz / 2, sz, sz);
+          }
         } else if (s.kind === "text") {
           c.fillStyle = s.color || "#fff";
           c.font = "bold " + (s.size || 20) + "px system-ui, sans-serif";

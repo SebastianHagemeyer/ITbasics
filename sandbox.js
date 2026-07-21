@@ -146,12 +146,13 @@
     },
     {
       title: "Game: move the chicken",
-      desc: "import game. Steer an emoji with the arrow keys.",
+      desc: "import game. Steer the Hallam chicken with the arrow keys.",
       code:
         "import game\n" +
         "\n" +
         "game.window(480, 360)\n" +
-        'chicken = game.sprite("🐔", 240, 300, size=48)\n' +
+        "# sprite(0) chicken, 1 dog, 2 bird, 3 egg, 4 coin, 5 basket, or an emoji.\n" +
+        'chicken = game.sprite("chicken", 240, 300, size=52)\n' +
         "\n" +
         "# The game loop: read the keys, move, draw one frame, repeat.\n" +
         "while game.playing():\n" +
@@ -169,8 +170,8 @@
         "import random\n" +
         "\n" +
         'game.window(480, 360, background="#0b1020")\n' +
-        'basket = game.sprite("🧺", 240, 330, size=48)\n' +
-        'egg = game.sprite("🥚", random.randint(30, 450), 0, size=34)\n' +
+        'basket = game.sprite("basket", 240, 330, size=52)\n' +
+        'egg = game.sprite("egg", random.randint(30, 450), 0, size=34)\n' +
         "misses = 0\n" +
         "\n" +
         "# The scoreboard is just a label you draw. Update its text to change it.\n" +
@@ -311,8 +312,7 @@
         '                  "bottom": game.box(x, 0, 60, 0, "#5fbf3a"),\n' +
         '                  "scored": False})\n' +
         "\n" +
-        'bird = game.sprite("🐤", 110, 160, size=36)\n' +
-        "bird.scale_x = -1                        # face right, the way it flies\n" +
+        'bird = game.sprite("bird", 110, 160, size=40)\n' +
         'board = game.label("0", 240, 46, size=36)\n' +
         "\n" +
         "vel = 0\n" +
