@@ -122,6 +122,9 @@
         'egg = game.sprite("🥚", random.randint(30, 450), 0, size=34)\n' +
         "misses = 0\n" +
         "\n" +
+        "# The scoreboard is just a label you draw. Update its text to change it.\n" +
+        'board = game.label("Score: 0", 12, 22, size=22)\n' +
+        "\n" +
         "while game.playing():\n" +
         '    if game.pressed("left"):  basket.x = basket.x - 8\n' +
         '    if game.pressed("right"): basket.x = basket.x + 8\n' +
@@ -130,6 +133,7 @@
         "\n" +
         "    if basket.touches(egg):    # caught it!\n" +
         "        game.score(1)\n" +
+        '        board.text = "Score: " + str(game.score())\n' +
         "        egg.x = random.randint(30, 450)\n" +
         "        egg.y = 0\n" +
         "    elif egg.y > 360:          # it hit the floor\n" +

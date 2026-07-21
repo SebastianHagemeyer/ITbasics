@@ -428,6 +428,11 @@ def _pyrun_install_game():
         return bool(_io.pressed(str(key).lower()))
 
     def score(points=None):
+        # A plain running-total counter. score(1) adds one and returns the new
+        # total; score() just reads it. It draws NOTHING on its own: to show the
+        # score, make a label and update its text, e.g.
+        #   board = game.label("Score: 0", 12, 22)
+        #   board.text = "Score: " + str(game.score())
         if points is not None:
             W["score"] += int(points)
         return W["score"]
@@ -443,7 +448,7 @@ def _pyrun_install_game():
             arr.append({"kind": s.kind, "x": s.x, "y": s.y, "size": s.size,
                         "w": s.w, "h": s.h, "text": str(s.text), "color": s.color})
         _io.draw(json.dumps({"w": W["w"], "h": W["h"], "bg": W["bg"],
-                             "score": W["score"], "sprites": arr, "banner": banner}))
+                             "sprites": arr, "banner": banner}))
 
     def frame(fps=30):
         _draw()
@@ -556,13 +561,6 @@ del _pyrun_install_game
           c.fillText(s.text, s.x, s.y);
         }
       });
-      if (scene.score !== null && scene.score !== undefined) {
-        c.fillStyle = "#ffffff";
-        c.font = "bold 18px system-ui, sans-serif";
-        c.textAlign = "left";
-        c.textBaseline = "top";
-        c.fillText("Score: " + scene.score, 10, 8);
-      }
       if (scene.banner) {
         c.fillStyle = "rgba(0,0,0,0.55)";
         c.fillRect(0, 0, cv.width, cv.height);
