@@ -584,7 +584,7 @@
     if (window.ITBasics.isOnline()) {
       const sb = window.ITBasics.client();
       const res = await sb.from("assignment_progress")
-        .select("submitted_at")
+        .select("*")
         .eq("student_code", student.code)
         .eq("assignment", ASSIGNMENT)
         .maybeSingle();

@@ -28,7 +28,7 @@
     var hasAssignments = items.some(function (i) { return i.type === "assignment"; });
     if (hasAssignments) {
       var pres = await sb.from("assignment_progress")
-        .select("assignment, submitted_at").eq("student_code", student.code);
+        .select("*").eq("student_code", student.code);
       if (!pres.error) (pres.data || []).forEach(function (r) {
         data.assignments[r.assignment] = { submitted: Boolean(r.submitted_at) };
       });
