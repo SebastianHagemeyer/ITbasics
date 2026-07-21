@@ -3409,6 +3409,17 @@ kbd {
   outline: 2px solid var(--primary);
   outline-offset: 1px;
 }
+.reflect-note {
+  margin: 8px 0 0;
+  font-size: 0.86rem;
+  color: var(--muted);
+}
+.reflect-note code {
+  background: var(--code-bg);
+  color: var(--code-text);
+  padding: 1px 5px;
+  border-radius: 4px;
+}
 
 /* Rubric */
 .rubric-table td:nth-child(2) { font-weight: 800; white-space: nowrap; }
