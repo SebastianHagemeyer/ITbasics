@@ -613,8 +613,9 @@
   });
   if (clearBtn) clearBtn.addEventListener("click", function () { runner.clearOutput(); });
 
-  // The category order shown in the snippet dropdowns. The first one starts open.
+  // The category order shown in the snippet dropdowns, and which one starts open.
   const EXAMPLE_CATEGORIES = ["Game", "Turtle", "Coloured Text", "Basic"];
+  const EXAMPLE_OPEN = "Basic";
 
   // Work out which category a snippet belongs in. An explicit ex.cat wins;
   // otherwise we sort by its title and whether it colours its output.
@@ -630,13 +631,13 @@
     const wrap = document.getElementById("sandbox-examples");
     if (!wrap) return;
     wrap.innerHTML = "";
-    EXAMPLE_CATEGORIES.forEach(function (cat, idx) {
+    EXAMPLE_CATEGORIES.forEach(function (cat) {
       const items = EXAMPLES.filter(function (ex) { return categoryOf(ex) === cat; });
       if (!items.length) return;
 
       const group = document.createElement("details");
       group.className = "sandbox-example-group";
-      if (idx === 0) group.open = true;   // open the first category by default
+      if (cat === EXAMPLE_OPEN) group.open = true;   // open this category by default
 
       const summary = document.createElement("summary");
       summary.innerHTML = escapeHtml(cat) +
