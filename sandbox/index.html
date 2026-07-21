@@ -87,6 +87,15 @@
               <canvas id="turtle-sprite" width="560" height="380"></canvas>
             </div>
           </div>
+          <div class="sandbox-output game-panel" id="game-panel" hidden>
+            <div class="sandbox-bar">
+              <span class="sandbox-title">Game window</span>
+              <span class="game-hint">click here, then use the arrow keys</span>
+            </div>
+            <div class="game-stage">
+              <canvas id="game-canvas" width="480" height="360" tabindex="0"></canvas>
+            </div>
+          </div>
           <div class="sandbox-output">
             <div class="sandbox-bar">
               <span class="sandbox-title">Output</span>
@@ -102,7 +111,7 @@
         <kbd>Tab</kbd> inserts 4 spaces &middot;
         select lines and <kbd>Tab</kbd> / <kbd>Shift</kbd>+<kbd>Tab</kbd> indents them in and out &middot;
         Python loads the first time you press Run (5-10 seconds), then it's instant &middot;
-        type <code>import turtle</code> and a drawing window appears.
+        type <code>import turtle</code> to draw, or <code>import game</code> to make a game.
       </p>
 
       <section class="sandbox-examples sandbox-snippets" id="sandbox-snippets">
