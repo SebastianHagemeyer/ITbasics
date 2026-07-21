@@ -382,14 +382,40 @@ def _pyrun_install_game():
             self.size = kw.get("size", 40)
             self.w = kw.get("w", self.size)
             self.h = kw.get("h", self.size)
-            self.text = kw.get("text", "")
-            self.color = kw.get("color", "#ffffff")
             self.art = kw.get("art", -1)
+            self._display = kw.get("display", "")
+            self._content = kw.get("content", self._display)
+            self._resolvable = kw.get("resolvable", False)
+            self.color = kw.get("color", "#ffffff")
             self.angle = kw.get("angle", 0)
             self.scale_x = kw.get("scale_x", 1)
             self.scale_y = kw.get("scale_y", 1)
             self.visible = True
             _sprites.append(self)
+
+        @property
+        def content(self):
+            return self._content
+
+        @content.setter
+        def content(self, value):
+            # Setting a sprite's content can switch its skin: an art number, a
+            # name like "coin", or an emoji. A label just shows the new text.
+            self._content = value
+            if self._resolvable:
+                self.kind, self.art, self._display = _resolve_skin(value)
+            else:
+                self._display = str(value)
+
+        # .text is the old name for .content, kept so older code still runs.
+        @property
+        def text(self):
+            return self._content
+
+        @text.setter
+        def text(self, value):
+            self.content = value
+
         def _box(self):
             if self.kind == "box":
                 return self.x, self.y, self.w, self.h
@@ -417,11 +443,15 @@ def _pyrun_install_game():
     def background(color):
         W["bg"] = str(color)
 
-    # Built-in themed art. sprite(0) is the chicken, sprite(1) the dog, and so
-    # on; you can also pass the name ("chicken") or an emoji ("\U0001f414").
-    _ART_NAMES = ["chicken", "dog", "bird", "egg", "coin", "basket"]
+    # Built-in skins. 0-5 are drawn art; 6-7 are emoji faces. You can pass the
+    # number, the name ("chicken"), or any emoji of your own.
+    _ART_NAMES = ["chicken", "dog", "bird", "egg", "coin", "basket",
+                  "shocked", "calm"]
+    _ART_EMOJI = {6: "😮", 7: "😐"}   # 6 shocked, 7 calm
+    _NUM_SVG = 6
 
-    def sprite(skin, x=None, y=None, size=40):
+    def _resolve_skin(skin):
+        # Work out (kind, art_index, display_text) for a skin value.
         idx = -1
         if isinstance(skin, bool):
             idx = -1
@@ -429,17 +459,25 @@ def _pyrun_install_game():
             idx = skin
         elif isinstance(skin, str) and skin in _ART_NAMES:
             idx = _ART_NAMES.index(skin)
+        if idx in _ART_EMOJI:
+            return ("emoji", -1, _ART_EMOJI[idx])
+        if idx >= 0:
+            return ("art", idx, "")
+        return ("emoji", -1, str(skin))
+
+    def sprite(skin, x=None, y=None, size=40):
         cx = W["w"] // 2 if x is None else x
         cy = W["h"] // 2 if y is None else y
-        if idx >= 0:
-            return Sprite("art", art=idx, size=size, x=cx, y=cy)
-        return Sprite("emoji", text=str(skin), size=size, x=cx, y=cy)
+        kind, art, display = _resolve_skin(skin)
+        return Sprite(kind, art=art, display=display, content=skin,
+                      resolvable=True, size=size, x=cx, y=cy)
 
     def box(x, y, w, h, color="#ffffff"):
         return Sprite("box", x=x, y=y, w=w, h=h, color=color)
 
     def label(message, x, y, size=20, color="#ffffff"):
-        return Sprite("text", text=str(message), x=x, y=y, size=size, color=color)
+        return Sprite("text", display=str(message), content=message,
+                      x=x, y=y, size=size, color=color)
 
     def pressed(key):
         return bool(_io.pressed(str(key).lower()))
@@ -463,7 +501,7 @@ def _pyrun_install_game():
             if not s.visible:
                 continue
             arr.append({"kind": s.kind, "x": s.x, "y": s.y, "size": s.size,
-                        "w": s.w, "h": s.h, "text": str(s.text), "color": s.color,
+                        "w": s.w, "h": s.h, "text": str(s._display), "color": s.color,
                         "art": s.art, "angle": s.angle,
                         "sx": s.scale_x, "sy": s.scale_y})
         # Once the game is over the banner is sticky: every later redraw (like
