@@ -270,6 +270,7 @@ chicken <span class="c-op">=</span> game.sprite(<span class="c-string">"🐔"</s
                 <tr><td><code>.size</code></td><td>How big an emoji or label is.</td></tr>
                 <tr><td><code>.w</code> <code>.h</code></td><td>The width and height of a box.</td></tr>
                 <tr><td><code>.text</code></td><td>The emoji or words shown. Change it to swap the picture: <code>chicken.text = "🍗"</code>.</td></tr>
+                <tr><td><code>.angle</code></td><td>Spin it. The angle is in degrees, so <code>coin.angle = 45</code> tips it over, and adding a little every frame makes it spin.</td></tr>
                 <tr><td><code>.color</code></td><td>The colour of a box or label. (Emoji keep their own colours, so this does nothing to an emoji.)</td></tr>
                 <tr><td><code>.touches(other)</code></td><td>True if this sprite is overlapping another one. This is how you catch, hit or collide: <code>if basket.touches(egg):</code></td></tr>
                 <tr><td><code>.hide()</code> <code>.show()</code></td><td>Make it vanish or come back.</td></tr>
@@ -289,6 +290,18 @@ chicken <span class="c-op">=</span> game.sprite(<span class="c-string">"🐔"</s
           <pre class="code" data-norun>player <span class="c-op">=</span> game.sprite(<span class="c-string">"🙂"</span>, <span class="c-num">240</span>, <span class="c-num">180</span>)
 player.text <span class="c-op">=</span> <span class="c-string">"😮"</span>   <span class="c-comment"># now it looks surprised</span>
 player.size <span class="c-op">=</span> <span class="c-num">80</span>       <span class="c-comment"># and twice as big</span></pre>
+
+          <h3>Make it spin</h3>
+          <p>Set <code>.angle</code> (in degrees) to turn a sprite, and add a little every frame to make it spin. Nothing fancy under the hood: the screen just turns before it draws the emoji.</p>
+          <pre class="code" data-norun id="ex-spin"><span class="c-keyword">import</span> game
+game.window(<span class="c-num">480</span>, <span class="c-num">360</span>)
+
+coin <span class="c-op">=</span> game.sprite(<span class="c-string">"🪙"</span>, <span class="c-num">240</span>, <span class="c-num">180</span>, size<span class="c-op">=</span><span class="c-num">80</span>)
+
+<span class="c-keyword">while</span> game.playing()<span class="c-op">:</span>
+    coin.angle <span class="c-op">=</span> coin.angle <span class="c-op">+</span> <span class="c-num">6</span>   <span class="c-comment"># turn 6 degrees every frame</span>
+    game.frame()</pre>
+          <p><button type="button" class="btn btn-primary" data-sandbox-from="ex-spin">Try it in the Sandbox <span class="arrow" aria-hidden="true"></span></button></p>
 
           <h3>Coloured squares, no emoji needed</h3>
           <p>If you would rather have plain coloured shapes, use <code>game.box</code>. It has a real <code>.color</code> you can set, and it moves and collides just like an emoji sprite:</p>
@@ -318,7 +331,7 @@ board.text <span class="c-op">=</span> <span class="c-string">"Score: "</span> <
           <p>Being honest about the limits, because knowing them helps you plan a game that will actually work:</p>
           <ul class="key-points">
             <li><strong>Great for:</strong> catch and dodge games, mazes, top-down movers, two-player keyboard games, simple arcade fun.</li>
-            <li><strong>Not built for:</strong> gravity and physics, spinning sprites, loading your own picture files, mouse control, or sound. Those are the sort of things a full engine like pygame adds.</li>
+            <li><strong>Not built for:</strong> gravity and physics, loading your own picture files, mouse control, or sound. Those are the sort of things a full engine like pygame adds.</li>
           </ul>
           <p>That is the trade. Our library is tiny and instant and needs no install, and in return it keeps things simple. For what you make in Year 7 to 10, simple goes a very long way.</p>
         </section>

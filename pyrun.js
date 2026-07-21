@@ -384,6 +384,7 @@ def _pyrun_install_game():
             self.h = kw.get("h", self.size)
             self.text = kw.get("text", "")
             self.color = kw.get("color", "#ffffff")
+            self.angle = kw.get("angle", 0)
             self.visible = True
             _sprites.append(self)
         def _box(self):
@@ -446,7 +447,8 @@ def _pyrun_install_game():
             if not s.visible:
                 continue
             arr.append({"kind": s.kind, "x": s.x, "y": s.y, "size": s.size,
-                        "w": s.w, "h": s.h, "text": str(s.text), "color": s.color})
+                        "w": s.w, "h": s.h, "text": str(s.text), "color": s.color,
+                        "angle": s.angle})
         _io.draw(json.dumps({"w": W["w"], "h": W["h"], "bg": W["bg"],
                              "sprites": arr, "banner": banner}))
 
@@ -545,21 +547,28 @@ del _pyrun_install_game
       c.fillStyle = scene.bg || "#0b1020";
       c.fillRect(0, 0, cv.width, cv.height);
       (scene.sprites || []).forEach(function (s) {
+        // A non-zero angle (in degrees) spins the sprite about its own centre:
+        // move the canvas origin to the sprite, rotate, then draw at (0,0).
+        var ang = Number(s.angle) || 0;
+        var spun = ang !== 0;
+        if (spun) { c.save(); c.translate(s.x, s.y); c.rotate(ang * Math.PI / 180); }
+        var dx = spun ? 0 : s.x, dy = spun ? 0 : s.y;
         if (s.kind === "box") {
           c.fillStyle = s.color || "#fff";
-          c.fillRect(s.x - s.w / 2, s.y - s.h / 2, s.w, s.h);
+          c.fillRect(dx - s.w / 2, dy - s.h / 2, s.w, s.h);
         } else if (s.kind === "text") {
           c.fillStyle = s.color || "#fff";
           c.font = "bold " + (s.size || 20) + "px system-ui, sans-serif";
           c.textAlign = "center";
           c.textBaseline = "middle";
-          c.fillText(s.text, s.x, s.y);
+          c.fillText(s.text, dx, dy);
         } else {
           c.font = (s.size || 40) + "px 'Segoe UI Emoji', 'Apple Color Emoji', 'Noto Color Emoji', system-ui, sans-serif";
           c.textAlign = "center";
           c.textBaseline = "middle";
-          c.fillText(s.text, s.x, s.y);
+          c.fillText(s.text, dx, dy);
         }
+        if (spun) c.restore();
       });
       if (scene.banner) {
         c.fillStyle = "rgba(0,0,0,0.55)";
