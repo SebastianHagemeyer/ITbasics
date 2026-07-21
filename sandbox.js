@@ -611,6 +611,7 @@
 
   if (resetBtn) resetBtn.addEventListener("click", function () {
     loadInto(DEFAULT_CODE, "Reset to the example");
+    setCurrentName("");
   });
   if (clearBtn) clearBtn.addEventListener("click", function () { runner.clearOutput(); });
 
@@ -656,6 +657,7 @@
           '<span class="sandbox-example-desc">' + escapeHtml(ex.desc) + '</span>';
         btn.addEventListener("click", function () {
           loadInto(ex.code, 'Loaded "' + ex.title + '"');
+          setCurrentName("");   // an example is an untitled main.py, not your save
           editor.scrollIntoView({ behavior: "smooth", block: "start" });
         });
         grid.appendChild(btn);
@@ -739,6 +741,19 @@
   const snippetForm  = document.getElementById("snippet-save-form");
   const snippetName  = document.getElementById("snippet-name");
   const snippetGrid  = document.getElementById("snippet-grid");
+  const filenameEl   = document.getElementById("sandbox-filename");
+
+  // The editor filename and the Save box both track the current program's name:
+  // a saved snippet uses its own name, an example or a reset is "main.py".
+  function fileLabel(name) {
+    name = (name || "").trim();
+    if (!name) return "main.py";
+    return /\.py$/i.test(name) ? name : name + ".py";
+  }
+  function setCurrentName(name) {
+    if (snippetName) snippetName.value = name || "";
+    if (filenameEl) filenameEl.textContent = fileLabel(name);
+  }
 
   function snippetPreview(code) {
     // First non-comment, non-blank line makes the best one-line description.
@@ -791,6 +806,7 @@
 
       function load() {
         loadInto(sn.code, 'Loaded "' + sn.name + '"');
+        setCurrentName(sn.name);   // adopt its name so you can edit and re-save
         editor.scrollIntoView({ behavior: "smooth", block: "start" });
       }
       card.addEventListener("click", function (e) {
@@ -829,6 +845,10 @@
 
   function initSnippets() {
     if (!snippetForm || !snippetGrid) return;
+    // The filename label tracks whatever you type in the Save box.
+    if (snippetName) snippetName.addEventListener("input", function () {
+      if (filenameEl) filenameEl.textContent = fileLabel(snippetName.value);
+    });
     snippetForm.addEventListener("submit", async function (e) {
       e.preventDefault();
       const name = (snippetName.value || "").trim();
@@ -839,7 +859,7 @@
       }
       const res = await window.ITBasics.saveSnippet(name, getCode());
       if (res.ok) {
-        snippetName.value = "";
+        setCurrentName(name);   // keep the name so you can save again after edits
         showToast({ message: 'Saved "' + name + '"' });
         refreshSnippets();
       } else {
@@ -861,6 +881,7 @@
     if (pending) {
       localStorage.removeItem("itbasics-sandbox-load");
       loadInto(pending, "Loaded from the guide");
+      setCurrentName("");
     }
   } catch (e) { /* private mode: nothing to load */ }
 
