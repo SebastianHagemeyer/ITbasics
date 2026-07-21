@@ -261,6 +261,7 @@
         '                  "scored": False})\n' +
         "\n" +
         'bird = game.sprite("🐤", 110, 160, size=36)\n' +
+        "bird.scale_x = -1                        # face right, the way it flies\n" +
         'board = game.label("0", 240, 46, size=36)\n' +
         "\n" +
         "vel = 0\n" +
