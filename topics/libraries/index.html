@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Libraries &amp; import | Hallam IT Basics</title>
+  <meta name="description" content="What import does, the famous pygame library, and the special browser game library we built here at Hallam. A full game reference you can try in the Sandbox." />
+  <link rel="icon" type="image/svg+xml" href="/logo-binary.svg" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="stylesheet" href="/styles.css" />
+  <script>
+    (function () {
+      try {
+        if (!JSON.parse(localStorage.getItem("itbasics-session"))) {
+          location.replace("/");
+        }
+      } catch (e) { location.replace("/"); }
+    })();
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/" class="logo">
+        <img class="logo-mark" src="/logo-binary.svg" alt="" width="32" height="32" />
+        <span>Hallam IT Basics</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="/">Home</a>
+        <div class="nav-dropdown" data-open="false">
+          <button type="button" class="nav-dropdown-toggle active" aria-haspopup="true" aria-expanded="false">
+            Topics
+            <svg class="nav-chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="nav-dropdown-menu" role="menu">
+            <a href="/modules/" role="menuitem">All modules</a>
+            <a href="/topics/programming/" role="menuitem">Programming</a>
+            <a href="/topics/html/" role="menuitem">HTML</a>
+            <a href="/topics/python/" role="menuitem">Python</a>
+            <a href="/quizzes/" role="menuitem">Quizzes</a>
+          </div>
+        </div>
+        <div class="nav-dropdown" data-open="false">
+          <button type="button" class="nav-dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+            Play
+            <svg class="nav-chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="nav-dropdown-menu" role="menu">
+            <a href="/freeplay/" role="menuitem">Freeplay</a>
+            <a href="/challenges/" role="menuitem">Live Coding</a>
+            <a href="/sandbox/" role="menuitem">Sandbox</a>
+          </div>
+        </div>
+        <a href="/leaderboard/">Leaderboard</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Python &middot; Extra</p>
+        <h1>Libraries &amp; <code>import</code></h1>
+        <p class="lead">You do not have to write everything yourself. Other people have already written brilliant, tested code and packed it up so you can borrow it in one line. That is what a <em>library</em> is, and <code>import</code> is how you reach for one. This page shows you the idea, meets the famous <code>pygame</code> library, then introduces the little game library we built right here at Hallam so you can make games in your browser.</p>
+      </div>
+    </section>
+
+    <div class="container lesson-layout">
+      <aside class="lesson-toc" aria-label="On this page">
+        <h4>On this page</h4>
+        <ol>
+          <li><a href="#import">What <code>import</code> does</a></li>
+          <li><a href="#batteries">Batteries included</a></li>
+          <li><a href="#install">Bigger libraries: pip</a></li>
+          <li><a href="#pygame">pygame, the famous one</a></li>
+          <li><a href="#ours">Our Hallam <code>game</code></a></li>
+          <li><a href="#firstgame">Your first game</a></li>
+          <li><a href="#reference">The game cheat sheet</a></li>
+          <li><a href="#custom">Customising sprites</a></li>
+          <li><a href="#wrap">Have a go</a></li>
+        </ol>
+      </aside>
+
+      <article class="lesson">
+        <section id="import">
+          <h2>1. What does <code>import</code> even do?</h2>
+          <p>Think of a library as a toolbox someone else filled and shared. When you write <code>import</code>, you are opening that toolbox and giving yourself all the tools inside. You did not have to build the hammer; you just picked it up.</p>
+          <p>Here is the classic first example, rolling a dice. Python does not know how to be random on its own, but the <code>random</code> library does, so we borrow it:</p>
+          <pre class="code"><span class="c-keyword">import</span> random
+
+roll <span class="c-op">=</span> random.randint(<span class="c-num">1</span>, <span class="c-num">6</span>)
+<span class="c-keyword">print</span>(<span class="c-string">"You rolled a"</span>, roll)</pre>
+          <p class="callout"><strong>Watch the brackets.</strong> It is <code>random.randint(<strong>1, 6</strong>)</code> with <em>two</em> numbers: the lowest and the highest you want. A common slip is writing <code>random.randint(1)</code> with just one number, which crashes, because the computer has no idea where the range should stop.</p>
+          <p>Once a library is imported, you reach into it with a dot: the <strong>library name</strong>, a <strong>dot</strong>, then the <strong>tool</strong> you want. So <code>random.randint</code> means "the <code>randint</code> tool from the <code>random</code> toolbox".</p>
+        </section>
+
+        <section id="batteries">
+          <h2>2. Batteries included</h2>
+          <p>Python comes with a big pile of libraries already built in. Nothing to download; they are just there. People call this the standard library, or "batteries included". Here are three you will use all the time. Press <strong>Run</strong> on any of them (Python loads the first time, then it is instant).</p>
+
+          <h3><code>random</code> &middot; surprises and shuffling</h3>
+          <pre class="code"><span class="c-keyword">import</span> random
+
+<span class="c-comment"># pick a random whole number from 1 to 6</span>
+<span class="c-keyword">print</span>(<span class="c-string">"Dice:"</span>, random.randint(<span class="c-num">1</span>, <span class="c-num">6</span>))
+
+<span class="c-comment"># pick one item out of a list</span>
+fruits <span class="c-op">=</span> [<span class="c-string">"apple"</span>, <span class="c-string">"banana"</span>, <span class="c-string">"cherry"</span>]
+<span class="c-keyword">print</span>(<span class="c-string">"Snack:"</span>, random.choice(fruits))</pre>
+
+          <h3><code>math</code> &middot; the tricky sums</h3>
+          <pre class="code"><span class="c-keyword">import</span> math
+
+<span class="c-keyword">print</span>(math.sqrt(<span class="c-num">144</span>))   <span class="c-comment"># square root: 12.0</span>
+<span class="c-keyword">print</span>(math.pi)         <span class="c-comment"># the number pi</span>
+<span class="c-keyword">print</span>(<span class="c-keyword">round</span>(math.pi, <span class="c-num">2</span>))  <span class="c-comment"># 3.14</span></pre>
+
+          <h3>Three ways to import</h3>
+          <p>They all do a similar job; pick whichever reads best:</p>
+          <pre class="code" data-norun><span class="c-keyword">import</span> random               <span class="c-comment"># then use random.randint(1, 6)</span>
+<span class="c-keyword">from</span> random <span class="c-keyword">import</span> randint    <span class="c-comment"># then just use randint(1, 6)</span>
+<span class="c-keyword">import</span> random <span class="c-keyword">as</span> r          <span class="c-comment"># then use r.randint(1, 6)</span></pre>
+          <p>The first is the safest to read, because <code>random.randint</code> tells you exactly where <code>randint</code> came from. That matters more than you would think once a program gets long.</p>
+        </section>
+
+        <section id="install">
+          <h2>3. Bigger libraries you install</h2>
+          <p>Not every library ships with Python. Some are made by other programmers around the world and you have to <em>install</em> them first, download them onto your computer, before you can import them. The tool that fetches libraries is called <strong>pip</strong>, and on a real computer you would type something like this into a terminal:</p>
+          <pre class="code" data-norun>pip install pygame</pre>
+          <p>After that finishes, <code>import pygame</code> would work in your programs. There are thousands of libraries out there: for drawing charts, reading spreadsheets, controlling robots, building websites, and, yes, making games.</p>
+        </section>
+
+        <section id="pygame">
+          <h2>4. pygame, the famous game library</h2>
+          <p><strong>pygame</strong> is probably the best known way to make games in Python. It is a real, powerful library that people use to build actual desktop games: platformers, shooters, puzzles, the lot. A pygame program opens a window on your computer and looks a bit like this:</p>
+          <pre class="code" data-norun><span class="c-keyword">import</span> pygame
+pygame.init()
+screen <span class="c-op">=</span> pygame.display.set_mode((<span class="c-num">480</span>, <span class="c-num">360</span>))
+
+<span class="c-keyword">while</span> <span class="c-keyword">True</span><span class="c-op">:</span>
+    <span class="c-keyword">for</span> event <span class="c-keyword">in</span> pygame.event.get()<span class="c-op">:</span>
+        <span class="c-keyword">if</span> event.type <span class="c-op">==</span> pygame.QUIT<span class="c-op">:</span>
+            pygame.quit()
+    <span class="c-comment"># ... draw everything, then flip the screen ...</span>
+    pygame.display.flip()</pre>
+          <p>You can already spot the shape of a game here: open a window, then loop forever, checking for input and redrawing the screen each time around. Hold onto that idea, because our library uses exactly the same shape.</p>
+          <div class="callout">
+            <strong>So why can't I <code>import pygame</code> on this website?</strong>
+            <p>Two reasons, and both are actually good news about how browsers work:</p>
+            <ul class="key-points">
+              <li><strong>Browsers are locked down on purpose.</strong> A web page is not allowed to install software or pop open windows on your computer. That is a safety feature: you would not want any old website doing that. But it means pygame, which needs to open a real desktop window, has nowhere to go.</li>
+              <li><strong>pygame is big and built for desktops.</strong> It is megabytes of code that expects a proper operating system underneath it, not a web page.</li>
+            </ul>
+            <p>So instead of forcing a giant desktop library into a place it does not fit, we built a tiny one that speaks the browser's own language.</p>
+          </div>
+        </section>
+
+        <section id="ours">
+          <h2>5. Meet <code>import game</code>, our Hallam library</h2>
+          <p>A browser already knows how to draw shapes and pictures, on something called a <em>canvas</em>, and it already knows when you press a key. So we wrote a small library, just for this website, that hands those powers to you in plain, friendly Python. We called it <code>game</code>.</p>
+          <p>It is not a cut-down copy of pygame; it is our own little thing. But it teaches the very same ideas, a window, sprites, a game loop, reading the keyboard, spotting collisions, so if you ever move on to pygame or another engine later, it will all feel familiar.</p>
+          <ul class="key-points">
+            <li><strong>No install.</strong> Just type <code>import game</code> in the Sandbox and go.</li>
+            <li><strong>Emoji are your artwork.</strong> Every emoji is a free, ready-made sprite. 🐔 🧺 🥚 🚀 👾, take your pick.</li>
+            <li><strong>It runs in Chrome or Edge.</strong> The trick that keeps the game moving without freezing the tab needs those browsers, the same as <code>input()</code> and <code>time.sleep()</code> do here.</li>
+          </ul>
+        </section>
+
+        <section id="firstgame">
+          <h2>6. Your first game, line by line</h2>
+          <p>Here is a whole tiny game: a chicken you steer with the arrow keys. Read the comments, they explain every new piece.</p>
+          <pre class="code" data-norun id="ex-chicken"><span class="c-keyword">import</span> game
+
+<span class="c-comment"># 1. Open the game window (width, height)</span>
+game.window(<span class="c-num">480</span>, <span class="c-num">360</span>)
+
+<span class="c-comment"># 2. Make a sprite: an emoji at a starting spot</span>
+chicken <span class="c-op">=</span> game.sprite(<span class="c-string">"🐔"</span>, <span class="c-num">240</span>, <span class="c-num">300</span>, size<span class="c-op">=</span><span class="c-num">48</span>)
+
+<span class="c-comment"># 3. The game loop: read keys, move, draw one frame, repeat</span>
+<span class="c-keyword">while</span> game.playing()<span class="c-op">:</span>
+    <span class="c-keyword">if</span> game.pressed(<span class="c-string">"left"</span>)<span class="c-op">:</span>  chicken.x <span class="c-op">=</span> chicken.x <span class="c-op">-</span> <span class="c-num">6</span>
+    <span class="c-keyword">if</span> game.pressed(<span class="c-string">"right"</span>)<span class="c-op">:</span> chicken.x <span class="c-op">=</span> chicken.x <span class="c-op">+</span> <span class="c-num">6</span>
+    <span class="c-keyword">if</span> game.pressed(<span class="c-string">"up"</span>)<span class="c-op">:</span>    chicken.y <span class="c-op">=</span> chicken.y <span class="c-op">-</span> <span class="c-num">6</span>
+    <span class="c-keyword">if</span> game.pressed(<span class="c-string">"down"</span>)<span class="c-op">:</span>  chicken.y <span class="c-op">=</span> chicken.y <span class="c-op">+</span> <span class="c-num">6</span>
+    game.frame()</pre>
+          <p><button type="button" class="btn btn-primary" data-sandbox-from="ex-chicken">Try it in the Sandbox <span class="arrow" aria-hidden="true"></span></button></p>
+          <p>The three steps are always the same: <strong>open a window</strong>, <strong>make your sprites</strong>, then <strong>loop</strong>. Inside the loop you read the keys, change where things are, and call <code>game.frame()</code> to draw one picture and pause a heartbeat before the next one. That is what makes it look like it is moving.</p>
+          <p class="callout"><strong>The golden rule of the loop:</strong> every game loop ends with <code>game.frame()</code>. Forget it and the loop spins invisibly forever without ever drawing. Press <strong>Stop</strong> any time to end a game.</p>
+        </section>
+
+        <section id="reference">
+          <h2>7. The game cheat sheet</h2>
+          <p>Everything the <code>game</code> library can do, in one place. Tap a heading to open it.</p>
+
+          <div class="game-ref">
+            <details class="game-ref-group" open>
+              <summary>Starting up</summary>
+              <table class="game-ref-table">
+                <tr><th>Call</th><th>What it does</th></tr>
+                <tr>
+                  <td><code>game.window(w, h)</code></td>
+                  <td>Opens the game window, <code>w</code> wide and <code>h</code> tall. Always call this first. Add <code>background="#0b1020"</code> to set the colour.</td>
+                </tr>
+                <tr>
+                  <td><code>game.background(color)</code></td>
+                  <td>Changes the background colour at any time, e.g. <code>game.background("skyblue")</code>.</td>
+                </tr>
+              </table>
+            </details>
+
+            <details class="game-ref-group">
+              <summary>Things you can put on screen</summary>
+              <table class="game-ref-table">
+                <tr><th>Call</th><th>What it does</th></tr>
+                <tr>
+                  <td><code>game.sprite(emoji, x, y, size=40)</code></td>
+                  <td>An emoji at <code>(x, y)</code>. Any emoji works: <code>game.sprite("🚀", 100, 200)</code>.</td>
+                </tr>
+                <tr>
+                  <td><code>game.box(x, y, w, h, color)</code></td>
+                  <td>A coloured rectangle, <code>w</code> by <code>h</code>, centred on <code>(x, y)</code>. Great for platforms, walls or a plain coloured player.</td>
+                </tr>
+                <tr>
+                  <td><code>game.label(text, x, y, size, color)</code></td>
+                  <td>Draws words on the screen. This is how you show a score or a message.</td>
+                </tr>
+              </table>
+            </details>
+
+            <details class="game-ref-group">
+              <summary>The game loop</summary>
+              <table class="game-ref-table">
+                <tr><th>Call</th><th>What it does</th></tr>
+                <tr>
+                  <td><code>game.playing()</code></td>
+                  <td>Is the game still running? Use it as the loop condition: <code>while game.playing():</code></td>
+                </tr>
+                <tr>
+                  <td><code>game.frame(fps=30)</code></td>
+                  <td>Draws one frame and waits a moment. Put it at the end of the loop. <code>fps</code> is how many frames a second (higher is faster and smoother).</td>
+                </tr>
+                <tr>
+                  <td><code>game.game_over(message)</code></td>
+                  <td>Shows a big banner and stops the game.</td>
+                </tr>
+              </table>
+            </details>
+
+            <details class="game-ref-group">
+              <summary>Input and score</summary>
+              <table class="game-ref-table">
+                <tr><th>Call</th><th>What it does</th></tr>
+                <tr>
+                  <td><code>game.pressed(key)</code></td>
+                  <td>True while a key is held down. Keys: <code>"left"</code>, <code>"right"</code>, <code>"up"</code>, <code>"down"</code>, <code>"space"</code>, or any letter like <code>"a"</code> or <code>"w"</code>.</td>
+                </tr>
+                <tr>
+                  <td><code>game.score(points)</code></td>
+                  <td>A running total counter. <code>game.score(1)</code> adds one and gives back the new total; <code>game.score()</code> just reads it. It draws nothing on its own, show it with a label (see below).</td>
+                </tr>
+              </table>
+            </details>
+
+            <details class="game-ref-group">
+              <summary>Every sprite, box and label can...</summary>
+              <table class="game-ref-table">
+                <tr><th>Property</th><th>What it does</th></tr>
+                <tr><td><code>.x</code> <code>.y</code></td><td>Where it is. Change these to move it.</td></tr>
+                <tr><td><code>.size</code></td><td>How big an emoji or label is.</td></tr>
+                <tr><td><code>.w</code> <code>.h</code></td><td>The width and height of a box.</td></tr>
+                <tr><td><code>.text</code></td><td>The emoji or words shown. Change it to swap the picture: <code>chicken.text = "🍗"</code>.</td></tr>
+                <tr><td><code>.color</code></td><td>The colour of a box or label. (Emoji keep their own colours, so this does nothing to an emoji.)</td></tr>
+                <tr><td><code>.touches(other)</code></td><td>True if this sprite is overlapping another one. This is how you catch, hit or collide: <code>if basket.touches(egg):</code></td></tr>
+                <tr><td><code>.hide()</code> <code>.show()</code></td><td>Make it vanish or come back.</td></tr>
+              </table>
+            </details>
+          </div>
+
+          <p class="callout"><strong>Coordinates.</strong> The top-left corner is <code>(0, 0)</code>. <code>x</code> grows to the <em>right</em>, and <code>y</code> grows <em>downward</em>. So bigger <code>y</code> means further <em>down</em> the screen, which catches everyone out at first.</p>
+        </section>
+
+        <section id="custom">
+          <h2>8. Customising: how far can you push it?</h2>
+          <p>You asked what you can change. Quite a lot, actually.</p>
+
+          <h3>Swap the sprite</h3>
+          <p>Any emoji is a sprite, and you can change it mid-game just by setting <code>.text</code>:</p>
+          <pre class="code" data-norun>player <span class="c-op">=</span> game.sprite(<span class="c-string">"🙂"</span>, <span class="c-num">240</span>, <span class="c-num">180</span>)
+player.text <span class="c-op">=</span> <span class="c-string">"😮"</span>   <span class="c-comment"># now it looks surprised</span>
+player.size <span class="c-op">=</span> <span class="c-num">80</span>       <span class="c-comment"># and twice as big</span></pre>
+
+          <h3>Coloured squares, no emoji needed</h3>
+          <p>If you would rather have plain coloured shapes, use <code>game.box</code>. It has a real <code>.color</code> you can set, and it moves and collides just like an emoji sprite:</p>
+          <pre class="code" data-norun id="ex-box"><span class="c-keyword">import</span> game
+game.window(<span class="c-num">480</span>, <span class="c-num">360</span>)
+
+<span class="c-comment"># a green square you can drive around</span>
+player <span class="c-op">=</span> game.box(<span class="c-num">240</span>, <span class="c-num">180</span>, <span class="c-num">40</span>, <span class="c-num">40</span>, <span class="c-string">"#22cc88"</span>)
+wall <span class="c-op">=</span> game.box(<span class="c-num">380</span>, <span class="c-num">180</span>, <span class="c-num">20</span>, <span class="c-num">200</span>, <span class="c-string">"#ff5577"</span>)
+
+<span class="c-keyword">while</span> game.playing()<span class="c-op">:</span>
+    <span class="c-keyword">if</span> game.pressed(<span class="c-string">"right"</span>)<span class="c-op">:</span> player.x <span class="c-op">=</span> player.x <span class="c-op">+</span> <span class="c-num">5</span>
+    <span class="c-keyword">if</span> game.pressed(<span class="c-string">"left"</span>)<span class="c-op">:</span>  player.x <span class="c-op">=</span> player.x <span class="c-op">-</span> <span class="c-num">5</span>
+    <span class="c-keyword">if</span> player.touches(wall)<span class="c-op">:</span>
+        player.color <span class="c-op">=</span> <span class="c-string">"#ffdd00"</span>   <span class="c-comment"># flash yellow on a bump</span>
+    game.frame()</pre>
+          <p><button type="button" class="btn btn-primary" data-sandbox-from="ex-box">Try it in the Sandbox <span class="arrow" aria-hidden="true"></span></button></p>
+
+          <h3>A scoreboard is just a label</h3>
+          <p>There is no magic score display. You make a label and update its text yourself, which means <em>you</em> decide where it sits and what it says:</p>
+          <pre class="code" data-norun>board <span class="c-op">=</span> game.label(<span class="c-string">"Score: 0"</span>, <span class="c-num">12</span>, <span class="c-num">22</span>, size<span class="c-op">=</span><span class="c-num">22</span>)
+<span class="c-comment"># ... later, when the player scores ...</span>
+game.score(<span class="c-num">1</span>)
+board.text <span class="c-op">=</span> <span class="c-string">"Score: "</span> <span class="c-op">+</span> <span class="c-keyword">str</span>(game.score())</pre>
+
+          <h3>What it can and cannot do</h3>
+          <p>Being honest about the limits, because knowing them helps you plan a game that will actually work:</p>
+          <ul class="key-points">
+            <li><strong>Great for:</strong> catch and dodge games, mazes, top-down movers, two-player keyboard games, simple arcade fun.</li>
+            <li><strong>Not built for:</strong> gravity and physics, spinning sprites, loading your own picture files, mouse control, or sound. Those are the sort of things a full engine like pygame adds.</li>
+          </ul>
+          <p>That is the trade. Our library is tiny and instant and needs no install, and in return it keeps things simple. For what you make in Year 7 to 10, simple goes a very long way.</p>
+        </section>
+
+        <section id="wrap">
+          <h2>9. Now have a go</h2>
+          <p>Open the <a href="/sandbox/">Sandbox</a>, type <code>import game</code>, and build something. The two example cards there, "move the chicken" and "catch the eggs", are a good place to start: load one, then change a number and see what happens.</p>
+          <p><a href="/sandbox/" class="btn btn-primary">Open the Sandbox <span class="arrow" aria-hidden="true"></span></a></p>
+          <div class="wordcloud"
+               data-topic="libraries-why"
+               data-prompt="In one word: what does import save you from having to do yourself?"
+               data-placeholder="e.g. rewriting"></div>
+        </section>
+
+        <div class="lesson-nav">
+          <a href="/modules/" class="btn btn-ghost">&larr; All modules</a>
+          <a href="/sandbox/" class="btn btn-primary">Go to the Sandbox <span class="arrow" aria-hidden="true"></span></a>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; Hallam IT Basics &middot; For Years 7-10 computing classes.</p>
+    </div>
+  </footer>
+
+  <!-- Carry a code example over to the Sandbox: stash it, then navigate. -->
+  <script>
+    (function () {
+      document.addEventListener("click", function (e) {
+        var btn = e.target.closest("[data-sandbox-from]");
+        if (!btn) return;
+        var pre = document.getElementById(btn.getAttribute("data-sandbox-from"));
+        if (!pre) return;
+        try {
+          localStorage.setItem("itbasics-sandbox-load", pre.textContent.replace(/\s+$/, ""));
+        } catch (err) { /* private mode: just navigate */ }
+        location.href = "/sandbox/";
+      });
+    })();
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/prism.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-python.min.js"></script>
+  <script src="/supabase-config.js"></script>
+  <script src="/app.js"></script>
+  <script src="/wordcloud.js"></script>
+  <script src="/challenges.js"></script>
+  <script src="/snippet-run.js"></script>
+</body>
+</html>
