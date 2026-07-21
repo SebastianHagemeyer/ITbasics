@@ -146,6 +146,71 @@
         "    game.frame()\n"
     },
     {
+      title: "Game: 2-player shout-off",
+      desc: "Two players tap A and L. Fill your shout bar to the top first to win.",
+      code:
+        "import game\n" +
+        "\n" +
+        'game.window(480, 360, background="#0b1020")\n' +
+        'game.label("SHOUT! Tap your key. First bar to the top wins!", 240, 18, size=15)\n' +
+        "\n" +
+        "# The mouths flip open on every tap, so it looks like shouting.\n" +
+        'p1_mouth = game.sprite("😐", 150, 62, size=52)\n' +
+        'p2_mouth = game.sprite("😐", 330, 62, size=52)\n' +
+        "\n" +
+        "# Grey tracks show how far there is to go...\n" +
+        'game.box(150, 210, 60, 240, "#1b2440")\n' +
+        'game.box(330, 210, 60, 240, "#1b2440")\n' +
+        "\n" +
+        "# ...and these coloured bars grow with each tap.\n" +
+        'p1_bar = game.box(150, 330, 56, 0, "#4aa3ff")\n' +
+        'p2_bar = game.box(330, 330, 56, 0, "#ff5f8f")\n' +
+        "\n" +
+        'game.label("Player 1  (A)", 150, 348, size=16, color="#4aa3ff")\n' +
+        'game.label("Player 2  (L)", 330, 348, size=16, color="#ff5f8f")\n' +
+        "\n" +
+        "p1 = 0\n" +
+        "p2 = 0\n" +
+        "TOP = 240        # a full bar\n" +
+        "GAIN = 16        # how much one tap adds\n" +
+        "DRAIN = 0.8      # how fast the bar leaks back down\n" +
+        "\n" +
+        "# Remember last frame's keys, so a HELD key counts as one tap, not loads.\n" +
+        "p1_was = False\n" +
+        "p2_was = False\n" +
+        "\n" +
+        "while game.playing():\n" +
+        '    p1_now = game.pressed("a")\n' +
+        '    p2_now = game.pressed("l")\n' +
+        "\n" +
+        "    if p1_now and not p1_was:          # a fresh tap\n" +
+        "        p1 = p1 + GAIN\n" +
+        '        p1_mouth.text = "😮" if p1_mouth.text == "😐" else "😐"\n' +
+        "    if p2_now and not p2_was:\n" +
+        "        p2 = p2 + GAIN\n" +
+        '        p2_mouth.text = "😮" if p2_mouth.text == "😐" else "😐"\n' +
+        "\n" +
+        "    p1_was = p1_now\n" +
+        "    p2_was = p2_now\n" +
+        "\n" +
+        "    # Leak back down a little each frame, so you have to keep tapping.\n" +
+        "    p1 = max(0, p1 - DRAIN)\n" +
+        "    p2 = max(0, p2 - DRAIN)\n" +
+        "\n" +
+        "    # A box grows upward: keep its bottom at 330, push its top up.\n" +
+        "    p1_bar.h = p1\n" +
+        "    p1_bar.y = 330 - p1 / 2\n" +
+        "    p2_bar.h = p2\n" +
+        "    p2_bar.y = 330 - p2 / 2\n" +
+        "\n" +
+        "    if p1 >= TOP:\n" +
+        '        game.game_over("Player 1 wins!")\n' +
+        "    if p2 >= TOP:\n" +
+        '        game.game_over("Player 2 wins!")\n' +
+        "\n" +
+        "    game.frame()\n"
+    },
+    {
       title: "Roll a dice",
       desc: "Random rolls, 10 in a row.",
       code:
