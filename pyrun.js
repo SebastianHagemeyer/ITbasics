@@ -372,7 +372,7 @@ def _pyrun_install_game():
         from pyodide.ffi import run_sync
 
     W = {"w": 480, "h": 360, "bg": "#0b1020", "score": 0, "over": None,
-         "debug": False}
+         "debug": False, "clicks": 0}
     _sprites = []
 
     class Sprite:
@@ -462,6 +462,17 @@ def _pyrun_install_game():
             # True if the two boxes overlap, taking each sprite's rotation and
             # scale into account (see _obb_overlap below).
             return _obb_overlap(self._obb(), other._obb())
+
+        def at_mouse(self):
+            # True while the mouse pointer is inside this sprite's collision
+            # box. Click a plant to grow it:
+            #   if plant.at_mouse() and game.clicked(): plant.size += 10
+            mx, my = float(_io.mouseX()), float(_io.mouseY())
+            cx, cy, hw, hh, a = self._obb()
+            dx, dy = mx - cx, my - cy
+            lx = dx * math.cos(a) + dy * math.sin(a)
+            ly = -dx * math.sin(a) + dy * math.cos(a)
+            return abs(lx) <= hw and abs(ly) <= hh
         def hide(self):
             self.visible = False
         def show(self):
@@ -478,6 +489,7 @@ def _pyrun_install_game():
                 "Games need Chrome or Edge in this sandbox. Open this page there to play."
             )
         W["w"] = int(width); W["h"] = int(height); W["score"] = 0; W["over"] = None
+        W["clicks"] = 0
         if background is not None:
             W["bg"] = str(background)
         _io.setup(W["w"], W["h"], W["bg"])
@@ -551,6 +563,30 @@ def _pyrun_install_game():
     def pressed(key):
         return bool(_io.pressed(str(key).lower()))
 
+    def mouse_x():
+        # Where the mouse pointer is, in game coordinates.
+        return float(_io.mouseX())
+
+    def mouse_y():
+        return float(_io.mouseY())
+
+    def mouse_in():
+        # True while the pointer is over the game window.
+        return bool(_io.mouseIn())
+
+    def mouse_down():
+        # True while the mouse button is held, like pressed() but for clicks.
+        return bool(_io.mouseDown())
+
+    def clicked():
+        # True once per fresh click on the game window, then False until the
+        # next click. Use it for buttons and menus so one tap fires one action.
+        cur = int(_io.mouseClicks())
+        if cur != W["clicks"]:
+            W["clicks"] = cur
+            return True
+        return False
+
     def score(points=None):
         # A plain running-total counter. score(1) adds one and returns the new
         # total; score() just reads it. It draws NOTHING on its own: to show the
@@ -605,7 +641,8 @@ def _pyrun_install_game():
 
     def _reset_all():
         _sprites.clear()
-        W.update(w=480, h=360, bg="#0b1020", score=0, over=None, debug=False)
+        W.update(w=480, h=360, bg="#0b1020", score=0, over=None, debug=False,
+                 clicks=0)
         _io.reset()
 
     mod = types.ModuleType("game")
@@ -615,6 +652,11 @@ def _pyrun_install_game():
     mod.box = box
     mod.label = label
     mod.pressed = pressed
+    mod.mouse_x = mouse_x
+    mod.mouse_y = mouse_y
+    mod.mouse_in = mouse_in
+    mod.mouse_down = mouse_down
+    mod.clicked = clicked
     mod.score = score
     mod.playing = playing
     mod.frame = frame
@@ -658,6 +700,32 @@ del _pyrun_install_game
     if (!gameActive()) return;
     gameKeys[gameKeyName(e)] = false;
   });
+
+  // Mouse (and touch, via pointer events) over the game canvas. Positions are
+  // converted from screen pixels to game coordinates, so a CSS-scaled canvas
+  // still reports the numbers the game logic uses. clicks only ever counts up;
+  // the Python side notices it changing to fire game.clicked() once per press.
+  let gameMouse = { x: 0, y: 0, inside: false, down: false, clicks: 0 };
+  function gameMouseTrack(e) {
+    if (!gameActive()) return;
+    const c = gameCtx();
+    if (!c) return;
+    const cv = c.canvas;
+    const r = cv.getBoundingClientRect();
+    if (!r.width || !r.height) return;
+    gameMouse.x = (e.clientX - r.left) * (cv.width / r.width);
+    gameMouse.y = (e.clientY - r.top) * (cv.height / r.height);
+    gameMouse.inside = e.clientX >= r.left && e.clientX < r.right &&
+                       e.clientY >= r.top && e.clientY < r.bottom;
+  }
+  window.addEventListener("pointermove", gameMouseTrack);
+  window.addEventListener("pointerdown", function (e) {
+    gameMouseTrack(e);
+    if (!gameActive() || !gameMouse.inside) return;
+    gameMouse.down = true;
+    gameMouse.clicks += 1;
+  });
+  window.addEventListener("pointerup", function () { gameMouse.down = false; });
 
   // ---- Built-in themed sprite art (a house style instead of only emoji) -----
   // Flat SVGs so they stay crisp at any size and spin/mirror with the sprite.
@@ -771,12 +839,14 @@ del _pyrun_install_game
     reset: function () {
       gameKeys = {};
       gamePlaying = true;
+      gameMouse.down = false; gameMouse.clicks = 0;
       const c = gameCtx();
       if (c) c.clearRect(0, 0, c.canvas.width, c.canvas.height);
     },
     setup: function (w, h, bg) {
       gamePlaying = true;
       gameKeys = {};
+      gameMouse.down = false; gameMouse.clicks = 0;
       const c = gameCtx();
       if (!c) return;
       c.canvas.width = Number(w) || 480;
@@ -784,6 +854,11 @@ del _pyrun_install_game
       c.canvas.style.background = String(bg || "#0b1020");
     },
     pressed: function (key) { return Boolean(gameKeys[String(key).toLowerCase()]); },
+    mouseX: function () { return gameMouse.x; },
+    mouseY: function () { return gameMouse.y; },
+    mouseIn: function () { return gameMouse.inside; },
+    mouseDown: function () { return gameMouse.down; },
+    mouseClicks: function () { return gameMouse.clicks; },
     nextFrame: function (seconds) { return interruptibleSleep(seconds); },
     draw: function (json) {
       const c = gameCtx();
