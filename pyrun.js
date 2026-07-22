@@ -391,6 +391,10 @@ def _pyrun_install_game():
             self.angle = kw.get("angle", 0)
             self.scale_x = kw.get("scale_x", 1)
             self.scale_y = kw.get("scale_y", 1)
+            # Higher layer draws on top. Sprites on the same layer keep the
+            # order they were made in. Labels default high so a scoreboard
+            # sits above the action.
+            self.layer = kw.get("layer", 0)
             self.visible = True
             _sprites.append(self)
 
@@ -482,7 +486,8 @@ def _pyrun_install_game():
         # behind the text so it stays readable on any scene, e.g.
         #   game.label("Score: 0", 80, 24, color="#ffffff", background="#000000")
         return Sprite("text", display=str(message), content=message,
-                      x=x, y=y, size=size, color=color, background=background)
+                      x=x, y=y, size=size, color=color, background=background,
+                      layer=1000)
 
     def pressed(key):
         return bool(_io.pressed(str(key).lower()))
@@ -502,7 +507,9 @@ def _pyrun_install_game():
 
     def _draw(banner=None):
         arr = []
-        for s in _sprites:
+        # Draw low layers first so high layers land on top. sorted() is stable,
+        # so sprites sharing a layer keep the order they were created in.
+        for s in sorted(_sprites, key=lambda s: s.layer):
             if not s.visible:
                 continue
             arr.append({"kind": s.kind, "x": s.x, "y": s.y, "size": s.size,
