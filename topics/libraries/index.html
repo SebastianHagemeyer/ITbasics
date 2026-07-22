@@ -242,6 +242,10 @@ chicken <span class="c-op">=</span> game.sprite(<span class="c-string">"🐔"</s
                   <td><code>game.game_over(message)</code></td>
                   <td>Shows a big banner and stops the game.</td>
                 </tr>
+                <tr>
+                  <td><code>game.debug(True)</code></td>
+                  <td>Draws a red outline around every sprite's <strong>hit box</strong>: the exact area <code>.touches()</code> checks for a collision. Put it right after <code>game.window(...)</code>. If a collision fires when things only <em>look</em> close, this shows why. The box is a square around the centre and does not spin or stretch with the sprite, so a rotated car keeps a straight box. Turn it off with <code>game.debug(False)</code>.</td>
+                </tr>
               </table>
             </details>
 

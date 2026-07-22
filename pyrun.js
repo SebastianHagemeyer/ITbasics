@@ -371,7 +371,8 @@ def _pyrun_install_game():
     if _jspi:
         from pyodide.ffi import run_sync
 
-    W = {"w": 480, "h": 360, "bg": "#0b1020", "score": 0, "over": None}
+    W = {"w": 480, "h": 360, "bg": "#0b1020", "score": 0, "over": None,
+         "debug": False}
     _sprites = []
 
     class Sprite:
@@ -505,6 +506,12 @@ def _pyrun_install_game():
     def playing():
         return bool(_io.playing())
 
+    def debug(on=True):
+        # Turn on red hit-box outlines to see exactly what touches() checks.
+        # The box is axis-aligned and ignores rotation and scale, on purpose:
+        # that is what collisions really use, so a spun sprite looks off.
+        W["debug"] = bool(on)
+
     def _draw(banner=None):
         arr = []
         # Draw low layers first so high layers land on top. sorted() is stable,
@@ -512,16 +519,21 @@ def _pyrun_install_game():
         for s in sorted(_sprites, key=lambda s: s.layer):
             if not s.visible:
                 continue
+            # hbw/hbh are the collision box touches() actually uses, so debug
+            # mode can outline exactly what the game tests for overlaps.
+            hx, hy, hbw, hbh = s._box()
             arr.append({"kind": s.kind, "x": s.x, "y": s.y, "size": s.size,
                         "w": s.w, "h": s.h, "text": str(s._display), "color": s.color,
                         "art": s.art, "angle": s.angle,
-                        "sx": s.scale_x, "sy": s.scale_y, "back": s.background})
+                        "sx": s.scale_x, "sy": s.scale_y, "back": s.background,
+                        "hbw": hbw, "hbh": hbh})
         # Once the game is over the banner is sticky: every later redraw (like
         # the frame() at the end of the loop) keeps showing it instead of
         # painting over it.
         shown = banner if banner is not None else W["over"]
         _io.draw(json.dumps({"w": W["w"], "h": W["h"], "bg": W["bg"],
-                             "sprites": arr, "banner": shown}))
+                             "sprites": arr, "banner": shown,
+                             "debug": W["debug"]}))
 
     def frame(fps=30):
         _draw()
@@ -535,7 +547,7 @@ def _pyrun_install_game():
 
     def _reset_all():
         _sprites.clear()
-        W.update(w=480, h=360, bg="#0b1020", score=0, over=None)
+        W.update(w=480, h=360, bg="#0b1020", score=0, over=None, debug=False)
         _io.reset()
 
     mod = types.ModuleType("game")
@@ -549,6 +561,7 @@ def _pyrun_install_game():
     mod.playing = playing
     mod.frame = frame
     mod.game_over = game_over
+    mod.debug = debug
     mod.Sprite = Sprite
     mod._reset_all = _reset_all
     sys.modules["game"] = mod
@@ -782,6 +795,20 @@ del _pyrun_install_game
         }
         if (moved) c.restore();
       });
+      // Debug mode: outline each sprite's real collision box. Drawn in world
+      // coordinates (no rotation or scale) because that is exactly the
+      // axis-aligned box touches() compares, so a spun car shows a straight box.
+      if (scene.debug) {
+        c.save();
+        c.strokeStyle = "#ff2d2d";
+        c.lineWidth = 1.5;
+        (scene.sprites || []).forEach(function (s) {
+          var bw = Number(s.hbw) || 0, bh = Number(s.hbh) || 0;
+          if (bw <= 0 || bh <= 0) return;
+          c.strokeRect(s.x - bw / 2, s.y - bh / 2, bw, bh);
+        });
+        c.restore();
+      }
       if (scene.banner) {
         c.fillStyle = "rgba(0,0,0,0.55)";
         c.fillRect(0, 0, cv.width, cv.height);
