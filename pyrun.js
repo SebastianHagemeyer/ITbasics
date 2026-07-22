@@ -429,6 +429,11 @@ def _pyrun_install_game():
             self.visible = False
         def show(self):
             self.visible = True
+        def remove(self):
+            # Take the sprite off the screen for good (unlike hide, it is gone).
+            self.visible = False
+            if self in _sprites:
+                _sprites.remove(self)
 
     def window(width=480, height=360, background=None):
         if not _jspi:
