@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Game Gallery | Hallam IT Basics</title>
+  <meta name="description" content="Play and read the games your class has built on the Hallam game engine." />
+  <link rel="icon" type="image/svg+xml" href="/logo-binary.svg" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="stylesheet" href="/styles.css" />
+  <script>
+    (function () {
+      try {
+        if (!JSON.parse(localStorage.getItem("itbasics-session"))) {
+          location.replace("/");
+        }
+      } catch (e) { location.replace("/"); }
+    })();
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/" class="logo">
+        <img class="logo-mark" src="/logo-binary.svg" alt="" width="32" height="32" />
+        <span>Hallam IT Basics</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="/">Home</a>
+        <div class="nav-dropdown" data-open="false">
+          <button type="button" class="nav-dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+            Learn
+            <svg class="nav-chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="nav-dropdown-menu" role="menu">
+            <a href="/modules/" role="menuitem">All modules</a>
+            <a href="/docs/" role="menuitem">Documentation</a>
+          </div>
+        </div>
+        <div class="nav-dropdown" data-open="false">
+          <button type="button" class="nav-dropdown-toggle active" aria-haspopup="true" aria-expanded="false">
+            Play
+            <svg class="nav-chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="nav-dropdown-menu" role="menu">
+            <a href="/freeplay/" role="menuitem">Freeplay</a>
+            <a href="/challenges/" role="menuitem">Live Coding</a>
+            <a href="/sandbox/" role="menuitem">Sandbox</a>
+            <a href="/leaderboard/" role="menuitem">Leaderboard</a>
+          </div>
+        </div>
+        <a href="/assignments/">Assignments</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Made by your class</p>
+        <h1>Game Gallery</h1>
+        <p class="lead">Every game your class has built on the Hallam engine. Press <strong>Play</strong> to try one, or read the code to see how they did it. Want yours in here? Build it in <a href="/assignments/game-maker/">Make Your Own Game</a>.</p>
+      </div>
+    </section>
+
+    <div class="container section">
+      <!-- The player drops in here when you press Play on a game. -->
+      <div class="game-player" id="game-player" hidden>
+        <div class="player-bar">
+          <span class="player-title" id="player-title"></span>
+          <button type="button" class="btn btn-danger" id="player-stop"><span class="sandbox-run-label">Stop</span></button>
+          <button type="button" class="btn btn-ghost" id="player-close">Close</button>
+        </div>
+        <div class="game-stage">
+          <canvas id="game-canvas" width="480" height="360" tabindex="0"></canvas>
+        </div>
+        <pre class="sandbox-out-body player-output" id="player-output"></pre>
+      </div>
+
+      <div id="gallery-status" class="leaderboard-status">Loading&hellip;</div>
+      <div id="gallery-grid" class="gallery-grid"></div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; Hallam IT Basics &middot; For Years 7-10 computing classes.</p>
+    </div>
+  </footer>
+
+  <!-- Off-screen editor that PyRun reads the code from when playing a game. -->
+  <div class="player-code-holder" aria-hidden="true"><div id="player-code" class="language-python"></div></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+  <script src="/supabase-config.js"></script>
+  <script src="/app.js"></script>
+  <script src="/editor-tools.js"></script>
+  <script src="/pyrun.js"></script>
+  <script src="/games.js"></script>
+</body>
+</html>
