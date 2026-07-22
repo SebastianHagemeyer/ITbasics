@@ -220,8 +220,8 @@ chicken <span class="c-op">=</span> game.sprite(<span class="c-string">"🐔"</s
                   <td>A coloured rectangle, <code>w</code> by <code>h</code>, centred on <code>(x, y)</code>. Great for platforms, walls or a plain coloured player.</td>
                 </tr>
                 <tr>
-                  <td><code>game.label(text, x, y, size, color)</code></td>
-                  <td>Draws words on the screen, centred on <code>(x, y)</code>. This is how you show a score or a message. Keep <code>x</code> away from the left edge (say 60 or more) so longer text is not cut off.</td>
+                  <td><code>game.label(text, x, y, size, color, background)</code></td>
+                  <td>Draws words on the screen, centred on <code>(x, y)</code>. This is how you show a score or a message. <code>color</code> sets the text colour; the optional <code>background</code> draws a filled box behind the words so they stay readable on any scene, e.g. <code>game.label("Score: 0", 80, 24, color="#ffffff", background="#000000")</code>. Keep <code>x</code> away from the left edge (say 60 or more) so longer text is not cut off.</td>
                 </tr>
               </table>
             </details>
