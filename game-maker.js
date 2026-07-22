@@ -228,7 +228,38 @@
     });
   }
 
+  // --- load from the student's saved Sandbox snippets ("My code") ---
+  async function renderSnippets() {
+    const box = document.getElementById("gm-snippets");
+    if (!box) return;
+    if (!window.ITBasics || !window.ITBasics.getSession() || !window.ITBasics.listSnippets) {
+      box.innerHTML = "";
+      return;
+    }
+    const snips = await window.ITBasics.listSnippets();
+    box.innerHTML = "";
+    if (!snips.length) {
+      box.innerHTML = '<p class="gm-empty">No saved snippets yet. Save code in the Sandbox and it shows up here.</p>';
+      return;
+    }
+    snips.forEach(function (sn) {
+      const chip = document.createElement("button");
+      chip.type = "button";
+      chip.className = "gm-snippet-chip";
+      chip.textContent = sn.name;
+      chip.title = "Load \"" + sn.name + "\" into the editor";
+      chip.addEventListener("click", function () {
+        runner.setCode(sn.code);
+        updatePanels(sn.code);
+        editor.focus();
+      });
+      box.appendChild(chip);
+    });
+  }
+
+  function refreshAll() { renderMine(); renderSnippets(); }
+
   updatePanels();
-  renderMine();
-  window.addEventListener("itbasics:auth", renderMine);
+  refreshAll();
+  window.addEventListener("itbasics:auth", refreshAll);
 })();
