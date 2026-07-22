@@ -221,9 +221,10 @@
     try { localStorage.setItem("itbasics-game-votes", JSON.stringify(arr)); } catch (e) {}
   }
 
-  // Every non-hidden game in the viewer's class, ranked by upvotes (most first).
-  // Each game carries its vote count and whether the viewer has upvoted it.
-  async function listClassGames() {
+  // Non-hidden games ranked by upvotes (most first), each carrying its vote
+  // count and whether the viewer has upvoted it. By default only the viewer's
+  // class; pass all=true for the whole-school gallery (still needs a session).
+  async function listClassGames(all) {
     const s = getSession();
     if (!s) return [];
     var games, votes;
@@ -232,10 +233,10 @@
         .select("id, title, code, meta, hidden, updated_at, student_code, students!inner(first_name, last_name, class)")
         .order("updated_at", { ascending: false });
       games = (res.data || [])
-        .filter(function (g) { return g.students && g.students.class === s.class && !g.hidden; })
+        .filter(function (g) { return g.students && !g.hidden && (all || g.students.class === s.class); })
         .map(function (g) {
           return { id: g.id, title: g.title, code: g.code, meta: g.meta || {},
-            student_code: g.student_code,
+            student_code: g.student_code, klass: g.students.class,
             author: ((g.students.first_name || "") + " " + (g.students.last_name || "")).trim(),
             updated_at: g.updated_at };
         });
@@ -243,9 +244,9 @@
       votes = vres.data || [];
     } else {
       games = readLocalGames()
-        .filter(function (g) { return g.class === s.class && !g.hidden; })
+        .filter(function (g) { return !g.hidden && (all || g.class === s.class); })
         .map(function (g) { return { id: g.id, title: g.title, code: g.code, meta: g.meta || {},
-          student_code: g.student_code, author: g.author, updated_at: g.updated_at }; });
+          student_code: g.student_code, klass: g.class, author: g.author, updated_at: g.updated_at }; });
       votes = readLocalVotes();
     }
     games.forEach(function (g) {

@@ -57,9 +57,9 @@
   <main>
     <section class="page-hero">
       <div class="container">
-        <p class="eyebrow">Made by your class</p>
+        <p class="eyebrow">Made by students</p>
         <h1>Game Gallery</h1>
-        <p class="lead">Every game your class has built on the Hallam engine. Press <strong>Play</strong> to try one, or read the code to see how they did it. Want yours in here? Build it in <a href="/assignments/game-maker/">Make Your Own Game</a>.</p>
+        <p class="lead">Games built on the Hallam engine. Press <strong>Play</strong> to try one, or read the code to see how they did it. Switch between <strong>your class</strong> and the <strong>whole school</strong> below. Want yours in here? Build it in <a href="/assignments/game-maker/">Make Your Own Game</a>.</p>
       </div>
     </section>
 
@@ -77,6 +77,10 @@
         <pre class="sandbox-out-body player-output" id="player-output"></pre>
       </div>
 
+      <div class="gallery-scope" id="gallery-scope" role="group" aria-label="Which games to show">
+        <button type="button" class="gallery-scope-btn active" data-scope="class" aria-pressed="true">My class</button>
+        <button type="button" class="gallery-scope-btn" data-scope="all" aria-pressed="false">Whole school</button>
+      </div>
       <div id="gallery-status" class="leaderboard-status">Loading&hellip;</div>
       <div id="gallery-grid" class="gallery-grid"></div>
     </div>
