@@ -387,9 +387,14 @@ def _pyrun_install_game():
             self._content = kw.get("content", self._display)
             self._resolvable = kw.get("resolvable", False)
             self.color = kw.get("color", "#ffffff")
+            self.background = kw.get("background", None)
             self.angle = kw.get("angle", 0)
             self.scale_x = kw.get("scale_x", 1)
             self.scale_y = kw.get("scale_y", 1)
+            # Higher layer draws on top. Sprites on the same layer keep the
+            # order they were made in. Labels default high so a scoreboard
+            # sits above the action.
+            self.layer = kw.get("layer", 0)
             self.visible = True
             _sprites.append(self)
 
@@ -476,9 +481,13 @@ def _pyrun_install_game():
     def box(x, y, w, h, color="#ffffff"):
         return Sprite("box", x=x, y=y, w=w, h=h, color=color)
 
-    def label(message, x, y, size=20, color="#ffffff"):
+    def label(message, x, y, size=20, color="#ffffff", background=None):
+        # color is the text colour; background (optional) draws a filled box
+        # behind the text so it stays readable on any scene, e.g.
+        #   game.label("Score: 0", 80, 24, color="#ffffff", background="#000000")
         return Sprite("text", display=str(message), content=message,
-                      x=x, y=y, size=size, color=color)
+                      x=x, y=y, size=size, color=color, background=background,
+                      layer=1000)
 
     def pressed(key):
         return bool(_io.pressed(str(key).lower()))
@@ -498,13 +507,15 @@ def _pyrun_install_game():
 
     def _draw(banner=None):
         arr = []
-        for s in _sprites:
+        # Draw low layers first so high layers land on top. sorted() is stable,
+        # so sprites sharing a layer keep the order they were created in.
+        for s in sorted(_sprites, key=lambda s: s.layer):
             if not s.visible:
                 continue
             arr.append({"kind": s.kind, "x": s.x, "y": s.y, "size": s.size,
                         "w": s.w, "h": s.h, "text": str(s._display), "color": s.color,
                         "art": s.art, "angle": s.angle,
-                        "sx": s.scale_x, "sy": s.scale_y})
+                        "sx": s.scale_x, "sy": s.scale_y, "back": s.background})
         # Once the game is over the banner is sticky: every later redraw (like
         # the frame() at the end of the loop) keeps showing it instead of
         # painting over it.
@@ -741,10 +752,27 @@ del _pyrun_install_game
             c.fillRect(dx - sz / 2, dy - sz / 2, sz, sz);
           }
         } else if (s.kind === "text") {
-          c.fillStyle = s.color || "#fff";
           c.font = "bold " + (s.size || 20) + "px system-ui, sans-serif";
           c.textAlign = "center";
           c.textBaseline = "middle";
+          if (s.back) {
+            // A rounded box behind the text so it reads on any background.
+            var tw = c.measureText(s.text).width;
+            var th = s.size || 20;
+            var padX = 8, padY = 5, r = 6;
+            var bx = dx - tw / 2 - padX, by = dy - th / 2 - padY;
+            var bw = tw + padX * 2, bh = th + padY * 2;
+            c.fillStyle = s.back;
+            c.beginPath();
+            c.moveTo(bx + r, by);
+            c.arcTo(bx + bw, by, bx + bw, by + bh, r);
+            c.arcTo(bx + bw, by + bh, bx, by + bh, r);
+            c.arcTo(bx, by + bh, bx, by, r);
+            c.arcTo(bx, by, bx + bw, by, r);
+            c.closePath();
+            c.fill();
+          }
+          c.fillStyle = s.color || "#fff";
           c.fillText(s.text, dx, dy);
         } else {
           c.font = (s.size || 40) + "px 'Segoe UI Emoji', 'Apple Color Emoji', 'Noto Color Emoji', system-ui, sans-serif";

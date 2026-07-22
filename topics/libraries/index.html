@@ -159,7 +159,7 @@ screen <span class="c-op">=</span> pygame.display.set_mode((<span class="c-num">
           <p>It is not a cut-down copy of pygame; it is our own little thing. But it teaches the very same ideas, a window, sprites, a game loop, reading the keyboard, spotting collisions, so if you ever move on to pygame or another engine later, it will all feel familiar.</p>
           <ul class="key-points">
             <li><strong>No install.</strong> Just type <code>import game</code> in the Sandbox and go.</li>
-            <li><strong>Ready-made art, or any emoji.</strong> Six built-in Hallam sprites give your game a matching look (see the table below), and every emoji works too. 🚀 👾 take your pick.</li>
+            <li><strong>Ready-made art, or any emoji.</strong> Ten built-in Hallam sprites give your game a matching look (see the table below), and every emoji works too. 🚀 👾 take your pick.</li>
             <li><strong>It runs in Chrome or Edge.</strong> The trick that keeps the game moving without freezing the tab needs those browsers, the same as <code>input()</code> and <code>time.sleep()</code> do here.</li>
           </ul>
         </section>
@@ -220,8 +220,8 @@ chicken <span class="c-op">=</span> game.sprite(<span class="c-string">"🐔"</s
                   <td>A coloured rectangle, <code>w</code> by <code>h</code>, centred on <code>(x, y)</code>. Great for platforms, walls or a plain coloured player.</td>
                 </tr>
                 <tr>
-                  <td><code>game.label(text, x, y, size, color)</code></td>
-                  <td>Draws words on the screen, centred on <code>(x, y)</code>. This is how you show a score or a message. Keep <code>x</code> away from the left edge (say 60 or more) so longer text is not cut off.</td>
+                  <td><code>game.label(text, x, y, size, color, background)</code></td>
+                  <td>Draws words on the screen, centred on <code>(x, y)</code>. This is how you show a score or a message. <code>color</code> sets the text colour; the optional <code>background</code> draws a filled box behind the words so they stay readable on any scene, e.g. <code>game.label("Score: 0", 80, 24, color="#ffffff", background="#000000")</code>. Keep <code>x</code> away from the left edge (say 60 or more) so longer text is not cut off.</td>
                 </tr>
               </table>
             </details>
@@ -271,6 +271,7 @@ chicken <span class="c-op">=</span> game.sprite(<span class="c-string">"🐔"</s
                 <tr><td><code>.angle</code></td><td>Spin it. The angle is in degrees, so <code>coin.angle = 45</code> tips it over, and adding a little every frame makes it spin.</td></tr>
                 <tr><td><code>.scale_x</code> <code>.scale_y</code></td><td>Stretch or mirror it. <code>1</code> is normal, <code>2</code> is twice as big, and <code>-1</code> flips it. Set <code>.scale_x = -1</code> to make a sprite face the other way, handy for a side-scroller or a fighter.</td></tr>
                 <tr><td><code>.color</code></td><td>The colour of a box or label. (Emoji keep their own colours, so this does nothing to an emoji.)</td></tr>
+                <tr><td><code>.layer</code></td><td>Which things draw on top. A higher number sits above a lower one; things on the same layer keep the order you made them in. Everything starts at <code>0</code>, except labels, which start at <code>1000</code> so a scoreboard stays on top of the action. Want a sprite <em>over</em> the text? Give it a bigger number, like <code>player.layer = 2000</code>. Want the label behind instead? Set <code>board.layer = 0</code>.</td></tr>
                 <tr><td><code>.touches(other)</code></td><td>True if this sprite is overlapping another one. This is how you catch, hit or collide: <code>if basket.touches(egg):</code></td></tr>
                 <tr><td><code>.hide()</code> <code>.show()</code></td><td>Make it vanish or come back.</td></tr>
                 <tr><td><code>.remove()</code></td><td>Delete it for good once it is caught or destroyed. Keep many objects in a list and remove them as the player clears them.</td></tr>
@@ -286,7 +287,7 @@ chicken <span class="c-op">=</span> game.sprite(<span class="c-string">"🐔"</s
           <p>You asked what you can change. Quite a lot, actually.</p>
 
           <h3>The built-in sprites</h3>
-          <p>The library comes with six ready-made sprites in a matching style. Give <code>game.sprite</code> the <strong>number</strong> or the <strong>name</strong>, whichever you find easier to remember:</p>
+          <p>The library comes with ten ready-made sprites in a matching style. Give <code>game.sprite</code> the <strong>number</strong> or the <strong>name</strong>, whichever you find easier to remember:</p>
           <div class="sprite-table-wrap">
             <table class="sprite-table">
               <tr><th>Picture</th><th>Number</th><th>Name</th></tr>
