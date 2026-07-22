@@ -196,11 +196,16 @@
     if (!title) return { ok: false, error: "Give your game a title first." };
     if (!String(code || "").trim()) return { ok: false, error: "Write some code first." };
     if (supabase) {
+      // Stash the publisher's class and name on the game itself, so the gallery
+      // never has to join back to the students table to know whose class a game
+      // belongs to (that embed is fragile). notesHtml ignores these keys.
+      const stamped = Object.assign({}, meta || {},
+        { _class: s.class || "", _author: authorName(s) });
       // Delete-then-insert so a re-publish is a fresh game: it gets a new id,
       // which cascade-drops the old upvotes (a new version earns new votes).
       await supabase.from("games").delete().eq("student_code", s.code);
       const { error } = await supabase.from("games").insert(
-        { student_code: s.code, title: title, code: code, meta: meta || {} });
+        { student_code: s.code, title: title, code: code, meta: stamped });
       return error ? { ok: false, error: error.message } : { ok: true };
     }
     const id = "local-" + s.code;
@@ -230,16 +235,26 @@
     var games, votes;
     if (supabase) {
       const res = await supabase.from("games")
-        .select("id, title, code, meta, hidden, updated_at, student_code, students!inner(first_name, last_name, class)")
+        .select("id, title, code, meta, hidden, updated_at, student_code")
         .order("updated_at", { ascending: false });
-      games = (res.data || [])
-        .filter(function (g) { return g.students && !g.hidden && (all || g.students.class === s.class); })
-        .map(function (g) {
-          return { id: g.id, title: g.title, code: g.code, meta: g.meta || {},
-            student_code: g.student_code, klass: g.students.class,
-            author: ((g.students.first_name || "") + " " + (g.students.last_name || "")).trim(),
-            updated_at: g.updated_at };
-        });
+      const rows = (res.data || []).filter(function (g) { return !g.hidden; });
+      // Older games may not carry _class/_author in meta; fall back to a plain
+      // students lookup (no embed) to fill them in.
+      var byCode = {};
+      if (rows.some(function (g) { return !g.meta || !g.meta._class; })) {
+        const sres = await supabase.from("students").select("code, first_name, last_name, class");
+        (sres.data || []).forEach(function (st) { byCode[st.code] = st; });
+      }
+      games = rows.map(function (g) {
+        const m = g.meta || {};
+        const st = byCode[g.student_code] || {};
+        const klass = m._class || st.class || "";
+        const author = m._author ||
+          ((st.first_name || "") + " " + (st.last_name || "")).trim() || "someone";
+        return { id: g.id, title: g.title, code: g.code, meta: m,
+          student_code: g.student_code, klass: klass, author: author,
+          updated_at: g.updated_at };
+      }).filter(function (g) { return all || g.klass === s.class; });
       const vres = await supabase.from("game_votes").select("game_id, student_code");
       votes = vres.data || [];
     } else {

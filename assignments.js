@@ -52,6 +52,24 @@
       '<rect x="36" y="36" width="12" height="12" rx="2" fill="#1C4587"/>' +
     '</svg>';
 
+  // A symmetric gamepad: darker base behind, lighter body on top, with a white
+  // D-pad on the left and four coloured buttons on the right.
+  var GAMEPAD_BODY =
+    'M24 24 H40 C48 24 53 29 54.5 37 L56 45 C56.8 50 53 53.5 48.5 52 ' +
+    'C45 51 42.5 48.5 41 46 L39.5 43.5 H24.5 L23 46 C21.5 48.5 19 51 15.5 52 ' +
+    'C11 53.5 7.2 50 8 45 L9.5 37 C11 29 16 24 24 24 Z';
+  var ICON_GAMEPAD =
+    '<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">' +
+      '<path d="' + GAMEPAD_BODY + '" transform="translate(0 2.4)" fill="#5a3fd6"/>' +
+      '<path d="' + GAMEPAD_BODY + '" fill="#7c5cff"/>' +
+      '<rect x="16.8" y="32" width="4.4" height="12" rx="2.2" fill="#eef0ff"/>' +
+      '<rect x="13" y="35.8" width="12" height="4.4" rx="2.2" fill="#eef0ff"/>' +
+      '<circle cx="45" cy="33" r="3" fill="#ff5d6c"/>' +
+      '<circle cx="50" cy="38" r="3" fill="#ffd35e"/>' +
+      '<circle cx="45" cy="43" r="3" fill="#4fd18b"/>' +
+      '<circle cx="40" cy="38" r="3" fill="#4db5ff"/>' +
+    '</svg>';
+
   var ASSIGNMENTS = [
     {
       key: "petprogram",
@@ -75,7 +93,7 @@
       key: "gamemaker",
       title: "Task 3 · Make Your Own Game",
       href: "/assignments/game-maker/",
-      icon: "🎮",
+      icon: ICON_GAMEPAD,
       desc: "Build your own game on the Hallam engine, from a template or from scratch, " +
             "then publish it to your class Game Gallery for everyone to play.",
       open: true
