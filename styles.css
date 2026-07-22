@@ -3735,3 +3735,41 @@ textarea.gm-input { resize: vertical; }
 .game-hide { color: var(--danger); }
 .game-card-code { margin-top: 6px; }
 .game-card-code pre.code { max-height: 320px; overflow: auto; }
+
+/* Game gallery: upvotes and rank */
+.game-card-headbtns { display: flex; align-items: center; gap: 8px; }
+.game-rank { font-size: 1.1rem; }
+.game-vote {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 5px 11px;
+  font: inherit;
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: var(--primary);
+  background: var(--surface);
+  border: 1.5px solid var(--border);
+  border-radius: 999px;
+  cursor: pointer;
+}
+.game-vote:hover:not(:disabled) { border-color: var(--primary); }
+.game-vote.voted { background: var(--primary); color: #fff; border-color: var(--primary); }
+.game-vote:disabled { opacity: 0.5; cursor: default; }
+.game-vote .vote-arrow { font-size: 0.75rem; }
+
+/* Task 3: load from saved snippets */
+.gm-or { margin: 16px 0 8px; color: var(--muted); }
+.gm-snippets { display: flex; flex-wrap: wrap; gap: 8px; }
+.gm-snippet-chip {
+  font: inherit;
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--primary);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 6px 14px;
+  cursor: pointer;
+}
+.gm-snippet-chip:hover { border-color: var(--primary); background: var(--bg); }

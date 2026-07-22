@@ -196,41 +196,91 @@
     if (!title) return { ok: false, error: "Give your game a title first." };
     if (!String(code || "").trim()) return { ok: false, error: "Write some code first." };
     if (supabase) {
-      const { error } = await supabase.from("games").upsert(
-        { student_code: s.code, title: title, code: code, meta: meta || {},
-          updated_at: new Date().toISOString() },
-        { onConflict: "student_code,title" }
-      );
+      // Delete-then-insert so a re-publish is a fresh game: it gets a new id,
+      // which cascade-drops the old upvotes (a new version earns new votes).
+      await supabase.from("games").delete().eq("student_code", s.code);
+      const { error } = await supabase.from("games").insert(
+        { student_code: s.code, title: title, code: code, meta: meta || {} });
       return error ? { ok: false, error: error.message } : { ok: true };
     }
-    const arr = readLocalGames().filter(function (g) {
-      return !(g.student_code === s.code && g.title === title);
-    });
-    arr.unshift({ id: "local-" + s.code + "-" + title, student_code: s.code, title: title,
-      code: code, meta: meta || {}, hidden: false, class: s.class, author: authorName(s),
+    const id = "local-" + s.code;
+    writeLocalVotes(readLocalVotes().filter(function (v) { return v.game_id !== id; }));
+    const arr = readLocalGames().filter(function (g) { return g.student_code !== s.code; });
+    arr.unshift({ id: id, student_code: s.code, title: title, code: code, meta: meta || {},
+      hidden: false, class: s.class, author: authorName(s),
       updated_at: new Date().toISOString() });
     writeLocalGames(arr);
     return { ok: true };
   }
 
-  // Every non-hidden game in the viewer's class, newest first.
+  function readLocalVotes() {
+    try { return JSON.parse(localStorage.getItem("itbasics-game-votes") || "[]"); }
+    catch (e) { return []; }
+  }
+  function writeLocalVotes(arr) {
+    try { localStorage.setItem("itbasics-game-votes", JSON.stringify(arr)); } catch (e) {}
+  }
+
+  // Every non-hidden game in the viewer's class, ranked by upvotes (most first).
+  // Each game carries its vote count and whether the viewer has upvoted it.
   async function listClassGames() {
     const s = getSession();
     if (!s) return [];
+    var games, votes;
     if (supabase) {
-      const { data } = await supabase.from("games")
-        .select("id, title, code, meta, hidden, updated_at, students!inner(first_name, last_name, class)")
+      const res = await supabase.from("games")
+        .select("id, title, code, meta, hidden, updated_at, student_code, students!inner(first_name, last_name, class)")
         .order("updated_at", { ascending: false });
-      return (data || [])
+      games = (res.data || [])
         .filter(function (g) { return g.students && g.students.class === s.class && !g.hidden; })
         .map(function (g) {
           return { id: g.id, title: g.title, code: g.code, meta: g.meta || {},
+            student_code: g.student_code,
             author: ((g.students.first_name || "") + " " + (g.students.last_name || "")).trim(),
             updated_at: g.updated_at };
         });
+      const vres = await supabase.from("game_votes").select("game_id, student_code");
+      votes = vres.data || [];
+    } else {
+      games = readLocalGames()
+        .filter(function (g) { return g.class === s.class && !g.hidden; })
+        .map(function (g) { return { id: g.id, title: g.title, code: g.code, meta: g.meta || {},
+          student_code: g.student_code, author: g.author, updated_at: g.updated_at }; });
+      votes = readLocalVotes();
     }
-    return readLocalGames()
-      .filter(function (g) { return g.class === s.class && !g.hidden; });
+    games.forEach(function (g) {
+      g.votes = votes.filter(function (v) { return v.game_id === g.id; }).length;
+      g.voted = votes.some(function (v) { return v.game_id === g.id && v.student_code === s.code; });
+    });
+    games.sort(function (a, b) {
+      return (b.votes - a.votes) || (new Date(b.updated_at) - new Date(a.updated_at));
+    });
+    return games;
+  }
+
+  // Toggle the viewer's upvote on a game. Returns the new state.
+  async function voteGame(gameId) {
+    const s = getSession();
+    if (!s) return { ok: false };
+    if (supabase) {
+      const { data } = await supabase.from("game_votes")
+        .select("game_id").eq("game_id", gameId).eq("student_code", s.code).maybeSingle();
+      if (data) {
+        await supabase.from("game_votes").delete().eq("game_id", gameId).eq("student_code", s.code);
+        return { ok: true, voted: false };
+      }
+      const { error } = await supabase.from("game_votes")
+        .insert({ game_id: gameId, student_code: s.code });
+      return error ? { ok: false, error: error.message } : { ok: true, voted: true };
+    }
+    var arr = readLocalVotes();
+    if (arr.some(function (v) { return v.game_id === gameId && v.student_code === s.code; })) {
+      writeLocalVotes(arr.filter(function (v) { return !(v.game_id === gameId && v.student_code === s.code); }));
+      return { ok: true, voted: false };
+    }
+    arr.push({ game_id: gameId, student_code: s.code });
+    writeLocalVotes(arr);
+    return { ok: true, voted: true };
   }
 
   // The signed-in student's own games (includes hidden, so they can see if a
@@ -334,6 +384,7 @@
     myGames: myGames,
     deleteGame: deleteGame,
     setGameHidden: setGameHidden,
+    voteGame: voteGame,
     isOnline: function () { return Boolean(supabase); },
     client: function () { return supabase; }
   };

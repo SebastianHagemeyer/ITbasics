@@ -61,24 +61,51 @@
     return html;
   }
 
-  function render(games, staff) {
+  const MEDALS = ["🥇", "🥈", "🥉"];
+
+  function render(games, staff, session) {
     const grid = el("gallery-grid");
     grid.innerHTML = "";
-    games.forEach(function (game) {
+    games.forEach(function (game, i) {
       const card = document.createElement("div");
       card.className = "game-card";
 
       const head = document.createElement("div");
       head.className = "game-card-head";
+      const rank = (game.votes > 0 && i < 3) ? '<span class="game-rank">' + MEDALS[i] + "</span> " : "";
       head.innerHTML =
-        '<div><span class="game-card-title">' + esc(game.title) + "</span>" +
+        '<div>' + rank + '<span class="game-card-title">' + esc(game.title) + "</span>" +
         '<span class="game-card-author">by ' + esc(game.author || "someone") + "</span></div>";
+
+      const btns = document.createElement("div");
+      btns.className = "game-card-headbtns";
+
+      // Upvote (you cannot upvote your own game)
+      const mine = session && game.student_code && game.student_code === session.code;
+      const vote = document.createElement("button");
+      vote.type = "button";
+      vote.className = "game-vote" + (game.voted ? " voted" : "");
+      vote.innerHTML = '<span class="vote-arrow">▲</span><span class="vote-count">' + game.votes + "</span>";
+      if (mine) {
+        vote.disabled = true;
+        vote.title = "You cannot upvote your own game";
+      } else {
+        vote.title = game.voted ? "Remove your upvote" : "Upvote this game";
+        vote.addEventListener("click", async function () {
+          vote.disabled = true;
+          await window.ITBasics.voteGame(game.id);
+          boot();
+        });
+      }
+      btns.appendChild(vote);
+
       const playBtn = document.createElement("button");
       playBtn.type = "button";
       playBtn.className = "btn btn-primary";
       playBtn.textContent = "Play";
       playBtn.addEventListener("click", function () { play(game); });
-      head.appendChild(playBtn);
+      btns.appendChild(playBtn);
+      head.appendChild(btns);
       card.appendChild(head);
 
       const notes = notesHtml(game.meta);
@@ -149,8 +176,8 @@
       return;
     }
     status.textContent = games.length + (games.length === 1 ? " game" : " games") +
-      " from your class" + (staff ? " (teacher: you can hide any game)" : "");
-    render(games, staff);
+      " from your class, ranked by upvotes" + (staff ? " (teacher: you can hide any game)" : "");
+    render(games, staff, session);
   }
 
   boot();
