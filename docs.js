@@ -258,6 +258,7 @@
         { sig: 'sprite.angle', desc: "Spin a sprite, in degrees.", ex: 'coin.angle = coin.angle + 6' },
         { sig: 'sprite.scale_x / sprite.scale_y', desc: "Stretch or mirror. -1 flips it to face the other way.", ex: 'chicken.scale_x = -1   # face right' },
         { sig: 'a.touches(b)', desc: "True if two sprites overlap. This is how you catch or crash.", ex: 'if basket.touches(egg):\n    game.score(1)' },
+        { sig: 'sprite.remove()', desc: "Delete a sprite for good (once it is collected or destroyed). Keep many in a list and loop over a copy to remove them safely.", ex: 'for egg in eggs[:]:\n    if car.touches(egg):\n        egg.remove()\n        eggs.remove(egg)' },
       ]
     }
   ];
