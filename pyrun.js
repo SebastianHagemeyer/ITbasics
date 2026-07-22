@@ -365,14 +365,14 @@ del _pyrun_install_turtle
   // interrupts it. Screen coordinates: (0,0) top-left, x right, y down.
   const PY_INSTALL_GAME = `
 def _pyrun_install_game():
-    import sys, json, types
+    import sys, json, types, math
     import _game_io as _io
     _jspi = bool(_io.jspiOk())
     if _jspi:
         from pyodide.ffi import run_sync
 
     W = {"w": 480, "h": 360, "bg": "#0b1020", "score": 0, "over": None,
-         "debug": False}
+         "debug": False, "clicks": 0}
     _sprites = []
 
     class Sprite:
@@ -396,8 +396,24 @@ def _pyrun_install_game():
             # order they were made in. Labels default high so a scoreboard
             # sits above the action.
             self.layer = kw.get("layer", 0)
+            # A custom collision box (width, height), or None to auto-size it
+            # from the art. Set it with sprite.hitbox = (w, h).
+            self._hitbox = kw.get("hitbox", None)
             self.visible = True
             _sprites.append(self)
+
+        @property
+        def hitbox(self):
+            return self._hitbox
+
+        @hitbox.setter
+        def hitbox(self, value):
+            # (width, height) to fix the collision box, or None to auto-size.
+            if value is None:
+                self._hitbox = None
+            else:
+                w, h = value
+                self._hitbox = (float(w), float(h))
 
         @property
         def content(self):
@@ -422,15 +438,41 @@ def _pyrun_install_game():
         def text(self, value):
             self.content = value
 
-        def _box(self):
-            if self.kind == "box":
-                return self.x, self.y, self.w, self.h
-            # emoji/text: a slightly-smaller-than-size hit box feels fair
-            return self.x, self.y, self.size * 0.8, self.size * 0.8
+        def _hit_wh(self):
+            # The unrotated width and height of the collision box, before angle.
+            if self._hitbox is not None:
+                w, h = self._hitbox
+            elif self.kind == "box":
+                w, h = self.w, self.h
+            elif self.kind == "art":
+                wf, hf = _HIT_ASPECT.get(self.art, (0.8, 0.8))
+                w, h = self.size * wf, self.size * hf
+            else:
+                # emoji/text: a slightly-smaller-than-size box feels fair.
+                w, h = self.size * 0.8, self.size * 0.8
+            return w * abs(self.scale_x), h * abs(self.scale_y)
+
+        def _obb(self):
+            # Oriented box for collisions: centre, half-sizes, angle (radians).
+            w, h = self._hit_wh()
+            return (self.x, self.y, w / 2.0, h / 2.0,
+                    self.angle * math.pi / 180.0)
+
         def touches(self, other):
-            ax, ay, aw, ah = self._box()
-            bx, by, bw, bh = other._box()
-            return abs(ax - bx) * 2 < (aw + bw) and abs(ay - by) * 2 < (ah + bh)
+            # True if the two boxes overlap, taking each sprite's rotation and
+            # scale into account (see _obb_overlap below).
+            return _obb_overlap(self._obb(), other._obb())
+
+        def at_mouse(self):
+            # True while the mouse pointer is inside this sprite's collision
+            # box. Click a plant to grow it:
+            #   if plant.at_mouse() and game.clicked(): plant.size += 10
+            mx, my = float(_io.mouseX()), float(_io.mouseY())
+            cx, cy, hw, hh, a = self._obb()
+            dx, dy = mx - cx, my - cy
+            lx = dx * math.cos(a) + dy * math.sin(a)
+            ly = -dx * math.sin(a) + dy * math.cos(a)
+            return abs(lx) <= hw and abs(ly) <= hh
         def hide(self):
             self.visible = False
         def show(self):
@@ -447,6 +489,7 @@ def _pyrun_install_game():
                 "Games need Chrome or Edge in this sandbox. Open this page there to play."
             )
         W["w"] = int(width); W["h"] = int(height); W["score"] = 0; W["over"] = None
+        W["clicks"] = 0
         if background is not None:
             W["bg"] = str(background)
         _io.setup(W["w"], W["h"], W["bg"])
@@ -458,6 +501,33 @@ def _pyrun_install_game():
     # any emoji of your own.
     _ART_NAMES = ["chicken", "dog", "bird", "egg", "coin", "basket",
                   "shocked", "calm", "turtle", "car"]
+
+    # Default collision-box shape per art (width, height as a fraction of size),
+    # so a wide car gets a wide box and a tall egg a tall one. Anything not
+    # listed falls back to a near-square box. Override any sprite with .hitbox.
+    _HIT_ASPECT = {
+        3: (0.60, 0.80),   # egg: taller than wide
+        8: (0.84, 0.68),   # turtle: a bit wide
+        9: (0.84, 0.50),   # car: wide and low
+    }
+
+    def _obb_overlap(a, b):
+        # Separating Axis Theorem for two oriented boxes. Each box is
+        # (cx, cy, half_w, half_h, angle). They overlap unless some axis (one
+        # of the four box edges' normals) has a gap between the two shadows.
+        ax, ay, ahw, ahh, aa = a
+        bx, by, bhw, bhh, ba = b
+        aux, auy = math.cos(aa), math.sin(aa)      # box A local x-axis
+        avx, avy = -math.sin(aa), math.cos(aa)     # box A local y-axis
+        bux, buy = math.cos(ba), math.sin(ba)      # box B local x-axis
+        bvx, bvy = -math.sin(ba), math.cos(ba)     # box B local y-axis
+        dx, dy = bx - ax, by - ay
+        for lx, ly in ((aux, auy), (avx, avy), (bux, buy), (bvx, bvy)):
+            ra = ahw * abs(aux * lx + auy * ly) + ahh * abs(avx * lx + avy * ly)
+            rb = bhw * abs(bux * lx + buy * ly) + bhh * abs(bvx * lx + bvy * ly)
+            if abs(dx * lx + dy * ly) > ra + rb:
+                return False
+        return True
 
     def _resolve_skin(skin):
         # Work out (kind, art_index, display_text) for a skin value.
@@ -493,6 +563,30 @@ def _pyrun_install_game():
     def pressed(key):
         return bool(_io.pressed(str(key).lower()))
 
+    def mouse_x():
+        # Where the mouse pointer is, in game coordinates.
+        return float(_io.mouseX())
+
+    def mouse_y():
+        return float(_io.mouseY())
+
+    def mouse_in():
+        # True while the pointer is over the game window.
+        return bool(_io.mouseIn())
+
+    def mouse_down():
+        # True while the mouse button is held, like pressed() but for clicks.
+        return bool(_io.mouseDown())
+
+    def clicked():
+        # True once per fresh click on the game window, then False until the
+        # next click. Use it for buttons and menus so one tap fires one action.
+        cur = int(_io.mouseClicks())
+        if cur != W["clicks"]:
+            W["clicks"] = cur
+            return True
+        return False
+
     def score(points=None):
         # A plain running-total counter. score(1) adds one and returns the new
         # total; score() just reads it. It draws NOTHING on its own: to show the
@@ -519,14 +613,14 @@ def _pyrun_install_game():
         for s in sorted(_sprites, key=lambda s: s.layer):
             if not s.visible:
                 continue
-            # hbw/hbh are the collision box touches() actually uses, so debug
-            # mode can outline exactly what the game tests for overlaps.
-            hx, hy, hbw, hbh = s._box()
+            # hbw/hbh/hba are the collision box touches() actually uses (size
+            # and rotation), so debug mode outlines exactly what overlaps.
+            hbw, hbh = s._hit_wh()
             arr.append({"kind": s.kind, "x": s.x, "y": s.y, "size": s.size,
                         "w": s.w, "h": s.h, "text": str(s._display), "color": s.color,
                         "art": s.art, "angle": s.angle,
                         "sx": s.scale_x, "sy": s.scale_y, "back": s.background,
-                        "hbw": hbw, "hbh": hbh})
+                        "hbw": hbw, "hbh": hbh, "hba": s.angle})
         # Once the game is over the banner is sticky: every later redraw (like
         # the frame() at the end of the loop) keeps showing it instead of
         # painting over it.
@@ -547,7 +641,8 @@ def _pyrun_install_game():
 
     def _reset_all():
         _sprites.clear()
-        W.update(w=480, h=360, bg="#0b1020", score=0, over=None, debug=False)
+        W.update(w=480, h=360, bg="#0b1020", score=0, over=None, debug=False,
+                 clicks=0)
         _io.reset()
 
     mod = types.ModuleType("game")
@@ -557,6 +652,11 @@ def _pyrun_install_game():
     mod.box = box
     mod.label = label
     mod.pressed = pressed
+    mod.mouse_x = mouse_x
+    mod.mouse_y = mouse_y
+    mod.mouse_in = mouse_in
+    mod.mouse_down = mouse_down
+    mod.clicked = clicked
     mod.score = score
     mod.playing = playing
     mod.frame = frame
@@ -600,6 +700,32 @@ del _pyrun_install_game
     if (!gameActive()) return;
     gameKeys[gameKeyName(e)] = false;
   });
+
+  // Mouse (and touch, via pointer events) over the game canvas. Positions are
+  // converted from screen pixels to game coordinates, so a CSS-scaled canvas
+  // still reports the numbers the game logic uses. clicks only ever counts up;
+  // the Python side notices it changing to fire game.clicked() once per press.
+  let gameMouse = { x: 0, y: 0, inside: false, down: false, clicks: 0 };
+  function gameMouseTrack(e) {
+    if (!gameActive()) return;
+    const c = gameCtx();
+    if (!c) return;
+    const cv = c.canvas;
+    const r = cv.getBoundingClientRect();
+    if (!r.width || !r.height) return;
+    gameMouse.x = (e.clientX - r.left) * (cv.width / r.width);
+    gameMouse.y = (e.clientY - r.top) * (cv.height / r.height);
+    gameMouse.inside = e.clientX >= r.left && e.clientX < r.right &&
+                       e.clientY >= r.top && e.clientY < r.bottom;
+  }
+  window.addEventListener("pointermove", gameMouseTrack);
+  window.addEventListener("pointerdown", function (e) {
+    gameMouseTrack(e);
+    if (!gameActive() || !gameMouse.inside) return;
+    gameMouse.down = true;
+    gameMouse.clicks += 1;
+  });
+  window.addEventListener("pointerup", function () { gameMouse.down = false; });
 
   // ---- Built-in themed sprite art (a house style instead of only emoji) -----
   // Flat SVGs so they stay crisp at any size and spin/mirror with the sprite.
@@ -713,12 +839,14 @@ del _pyrun_install_game
     reset: function () {
       gameKeys = {};
       gamePlaying = true;
+      gameMouse.down = false; gameMouse.clicks = 0;
       const c = gameCtx();
       if (c) c.clearRect(0, 0, c.canvas.width, c.canvas.height);
     },
     setup: function (w, h, bg) {
       gamePlaying = true;
       gameKeys = {};
+      gameMouse.down = false; gameMouse.clicks = 0;
       const c = gameCtx();
       if (!c) return;
       c.canvas.width = Number(w) || 480;
@@ -726,6 +854,11 @@ del _pyrun_install_game
       c.canvas.style.background = String(bg || "#0b1020");
     },
     pressed: function (key) { return Boolean(gameKeys[String(key).toLowerCase()]); },
+    mouseX: function () { return gameMouse.x; },
+    mouseY: function () { return gameMouse.y; },
+    mouseIn: function () { return gameMouse.inside; },
+    mouseDown: function () { return gameMouse.down; },
+    mouseClicks: function () { return gameMouse.clicks; },
     nextFrame: function (seconds) { return interruptibleSleep(seconds); },
     draw: function (json) {
       const c = gameCtx();
@@ -795,9 +928,8 @@ del _pyrun_install_game
         }
         if (moved) c.restore();
       });
-      // Debug mode: outline each sprite's real collision box. Drawn in world
-      // coordinates (no rotation or scale) because that is exactly the
-      // axis-aligned box touches() compares, so a spun car shows a straight box.
+      // Debug mode: outline each sprite's real collision box, rotated to match
+      // the sprite's angle, so what you see is exactly what touches() compares.
       if (scene.debug) {
         c.save();
         c.strokeStyle = "#ff2d2d";
@@ -805,7 +937,12 @@ del _pyrun_install_game
         (scene.sprites || []).forEach(function (s) {
           var bw = Number(s.hbw) || 0, bh = Number(s.hbh) || 0;
           if (bw <= 0 || bh <= 0) return;
-          c.strokeRect(s.x - bw / 2, s.y - bh / 2, bw, bh);
+          var a = (Number(s.hba) || 0) * Math.PI / 180;
+          c.save();
+          c.translate(s.x, s.y);
+          if (a) c.rotate(a);
+          c.strokeRect(-bw / 2, -bh / 2, bw, bh);
+          c.restore();
         });
         c.restore();
       }

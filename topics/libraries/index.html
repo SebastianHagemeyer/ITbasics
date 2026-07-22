@@ -258,6 +258,18 @@ chicken <span class="c-op">=</span> game.sprite(<span class="c-string">"🐔"</s
                   <td>True while a key is held down. Keys: <code>"left"</code>, <code>"right"</code>, <code>"up"</code>, <code>"down"</code>, <code>"space"</code>, or any letter like <code>"a"</code> or <code>"w"</code>.</td>
                 </tr>
                 <tr>
+                  <td><code>game.mouse_x()</code> <code>game.mouse_y()</code></td>
+                  <td>Where the mouse pointer is, in the same coordinates as your sprites. Make something follow the mouse: <code>pet.x = game.mouse_x()</code>. (<code>game.mouse_in()</code> is True while the pointer is over the game window.)</td>
+                </tr>
+                <tr>
+                  <td><code>game.clicked()</code></td>
+                  <td>True once per fresh click on the game window, then False until the next click. One tap, one action: perfect for buttons and menus. Pair it with <code>.at_mouse()</code> to click on a sprite.</td>
+                </tr>
+                <tr>
+                  <td><code>game.mouse_down()</code></td>
+                  <td>True while the mouse button is held, like <code>pressed()</code> but for the mouse.</td>
+                </tr>
+                <tr>
                   <td><code>game.score(points)</code></td>
                   <td>A running total counter. <code>game.score(1)</code> adds one and gives back the new total; <code>game.score()</code> just reads it. It draws nothing on its own, show it with a label (see below).</td>
                 </tr>
@@ -276,7 +288,9 @@ chicken <span class="c-op">=</span> game.sprite(<span class="c-string">"🐔"</s
                 <tr><td><code>.scale_x</code> <code>.scale_y</code></td><td>Stretch or mirror it. <code>1</code> is normal, <code>2</code> is twice as big, and <code>-1</code> flips it. Set <code>.scale_x = -1</code> to make a sprite face the other way, handy for a side-scroller or a fighter.</td></tr>
                 <tr><td><code>.color</code></td><td>The colour of a box or label. (Emoji keep their own colours, so this does nothing to an emoji.)</td></tr>
                 <tr><td><code>.layer</code></td><td>Which things draw on top. A higher number sits above a lower one; things on the same layer keep the order you made them in. Everything starts at <code>0</code>, except labels, which start at <code>1000</code> so a scoreboard stays on top of the action. Want a sprite <em>over</em> the text? Give it a bigger number, like <code>player.layer = 2000</code>. Want the label behind instead? Set <code>board.layer = 0</code>.</td></tr>
-                <tr><td><code>.touches(other)</code></td><td>True if this sprite is overlapping another one. This is how you catch, hit or collide: <code>if basket.touches(egg):</code></td></tr>
+                <tr><td><code>.touches(other)</code></td><td>True if this sprite is overlapping another one. This is how you catch, hit or collide: <code>if basket.touches(egg):</code>. The collision box turns with the sprite's <code>.angle</code> and stretches with its scale, so a rotated car checks a rotated box. Turn on <code>game.debug(True)</code> to see the boxes.</td></tr>
+                <tr><td><code>.hitbox</code></td><td>The size of the collision box, as <code>(width, height)</code>. By default it is picked to roughly fit the art (a car is wide, an egg is tall), but you can set your own: <code>car.hitbox = (46, 26)</code> for a tighter fit, or <code>car.hitbox = None</code> to go back to automatic. Pair it with <code>game.debug(True)</code> to line it up.</td></tr>
+                <tr><td><code>.at_mouse()</code></td><td>True while the mouse pointer is inside this sprite's box. Click on a sprite: <code>if plant.at_mouse() and game.clicked():</code></td></tr>
                 <tr><td><code>.hide()</code> <code>.show()</code></td><td>Make it vanish or come back.</td></tr>
                 <tr><td><code>.remove()</code></td><td>Delete it for good once it is caught or destroyed. Keep many objects in a list and remove them as the player clears them.</td></tr>
               </table>
