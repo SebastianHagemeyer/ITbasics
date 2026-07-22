@@ -248,7 +248,7 @@
         { sig: 'game.window(w, h)', desc: "Open the game window. Always first. Add background=\"#0b1020\" for a colour.", ex: 'import game\ngame.window(480, 360)' },
         { sig: 'game.sprite(skin, x, y, size=40)', desc: 'A sprite you can move around. skin can be a built-in number (0 chicken, 1 dog, 2 bird, 3 egg, 4 coin, 5 basket, 6 shocked, 7 calm, 8 turtle, 9 car), its name like "chicken", or any emoji.', ex: 'hero = game.sprite("chicken", 100, 200)\nfoe  = game.sprite("🦖", 300, 200)' },
         { sig: 'game.box(x, y, w, h, color)', desc: "A coloured rectangle, centred on (x, y).", ex: 'wall = game.box(240, 300, 60, 20, "#5fbf3a")' },
-        { sig: 'game.label(text, x, y, size, color)', desc: "Draw words (a score or a message), centred on (x, y).", ex: 'board = game.label("Score: 0", 60, 22)' },
+        { sig: 'game.label(text, x, y, size, color, background)', desc: "Draw words (a score or a message), centred on (x, y). color is the text colour; the optional background draws a filled box behind the words so they read on any scene. Labels sit on top of other sprites by default (their .layer starts at 1000).", ex: 'board = game.label("Score: 0", 80, 24, color="#ffffff", background="#000000")' },
         { sig: 'game.pressed(key)', desc: 'True while a key is held. "left", "right", "up", "down", "space", or a letter.', ex: 'if game.pressed("left"):\n    bird.x = bird.x - 5' },
         { sig: 'game.playing()', desc: "The loop condition: true while the game runs.", ex: 'while game.playing():\n    game.frame()' },
         { sig: 'game.frame(fps=30)', desc: "Draw one frame and wait. Put it at the end of the loop.", ex: 'game.frame()' },
@@ -257,6 +257,7 @@
         { sig: 'sprite.content', desc: "What a sprite shows. Set it to a new skin number, a name, or an emoji to change the picture. A label uses it for its text.", ex: 'player.content = "coin"\nboard.content = "Score: " + str(n)' },
         { sig: 'sprite.angle', desc: "Spin a sprite, in degrees.", ex: 'coin.angle = coin.angle + 6' },
         { sig: 'sprite.scale_x / sprite.scale_y', desc: "Stretch or mirror. -1 flips it to face the other way.", ex: 'chicken.scale_x = -1   # face right' },
+        { sig: 'sprite.layer', desc: "Which things draw on top. Higher sits above lower; same layer keeps creation order. Everything starts at 0, except labels which start at 1000. Give a sprite a bigger number to draw it over the score.", ex: 'player.layer = 2000   # over the label\nboard.layer = 0       # label behind' },
         { sig: 'a.touches(b)', desc: "True if two sprites overlap. This is how you catch or crash.", ex: 'if basket.touches(egg):\n    game.score(1)' },
         { sig: 'sprite.remove()', desc: "Delete a sprite for good (once it is collected or destroyed). Keep many in a list and loop over a copy to remove them safely.", ex: 'for egg in eggs[:]:\n    if car.touches(egg):\n        egg.remove()\n        eggs.remove(egg)' },
       ]
