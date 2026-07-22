@@ -3728,6 +3728,42 @@ textarea.gm-input { resize: vertical; }
 .game-card-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; }
 .game-card-title { display: block; font-weight: 800; font-size: 1.05rem; color: var(--primary-dark); }
 .game-card-author { display: block; font-size: 0.85rem; color: var(--muted); }
+.game-card-class {
+  display: inline-block;
+  margin-top: 3px;
+  padding: 1px 8px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--primary-dark);
+  background: var(--primary-tint, rgba(124, 92, 255, 0.12));
+  border-radius: 999px;
+}
+
+/* Game gallery: class vs whole-school scope toggle */
+.gallery-scope {
+  display: inline-flex;
+  gap: 4px;
+  padding: 4px;
+  margin-bottom: 12px;
+  background: var(--surface-2, var(--surface));
+  border: 1px solid var(--border);
+  border-radius: 999px;
+}
+.gallery-scope-btn {
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  font: inherit;
+  font-weight: 700;
+  padding: 6px 16px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+.gallery-scope-btn:hover { color: var(--text); }
+.gallery-scope-btn.active {
+  background: var(--primary);
+  color: #fff;
+}
 .game-card-notes { font-size: 0.9rem; }
 .game-card-facts { margin: 0; color: var(--muted); }
 .game-card-added { margin: 4px 0 0; font-style: italic; }

@@ -63,7 +63,10 @@
 
   const MEDALS = ["🥇", "🥈", "🥉"];
 
-  function render(games, staff, session) {
+  // "class" shows only the viewer's class; "all" is the whole-school gallery.
+  let scope = "class";
+
+  function render(games, staff, session, showClass) {
     const grid = el("gallery-grid");
     grid.innerHTML = "";
     games.forEach(function (game, i) {
@@ -73,9 +76,11 @@
       const head = document.createElement("div");
       head.className = "game-card-head";
       const rank = (game.votes > 0 && i < 3) ? '<span class="game-rank">' + MEDALS[i] + "</span> " : "";
+      const klass = (showClass && game.klass)
+        ? '<span class="game-card-class">' + esc(game.klass) + "</span>" : "";
       head.innerHTML =
         '<div>' + rank + '<span class="game-card-title">' + esc(game.title) + "</span>" +
-        '<span class="game-card-author">by ' + esc(game.author || "someone") + "</span></div>";
+        '<span class="game-card-author">by ' + esc(game.author || "someone") + "</span>" + klass + "</div>";
 
       const btns = document.createElement("div");
       btns.className = "game-card-headbtns";
@@ -159,27 +164,56 @@
     });
   }
 
+  // Scope toggle: My class vs Whole school.
+  function wireScope() {
+    const box = el("gallery-scope");
+    if (!box) return;
+    box.querySelectorAll(".gallery-scope-btn").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        if (scope === btn.dataset.scope) return;
+        scope = btn.dataset.scope;
+        boot();
+      });
+    });
+  }
+  function paintScope() {
+    const box = el("gallery-scope");
+    if (!box) return;
+    box.querySelectorAll(".gallery-scope-btn").forEach(function (btn) {
+      const on = btn.dataset.scope === scope;
+      btn.classList.toggle("active", on);
+      btn.setAttribute("aria-pressed", on ? "true" : "false");
+    });
+  }
+
   async function boot() {
     const session = window.ITBasics.getSession();
     if (!session) { location.replace("/"); return; }
     const staff = Array.isArray(window.TEACHER_CODES) &&
       window.TEACHER_CODES.indexOf(session.code) !== -1;
 
+    paintScope();
+    const all = scope === "all";
     const status = el("gallery-status");
     let games = [];
-    try { games = await window.ITBasics.listClassGames(); } catch (e) { games = []; }
+    try { games = await window.ITBasics.listClassGames(all); } catch (e) { games = []; }
 
     if (!games.length) {
-      status.innerHTML = 'No games yet. Be the first: build one in ' +
-        '<a href="/assignments/game-maker/">Make Your Own Game</a>.';
+      status.innerHTML = all
+        ? 'No games anywhere yet. Be the first: build one in ' +
+          '<a href="/assignments/game-maker/">Make Your Own Game</a>.'
+        : 'No games in your class yet. Be the first: build one in ' +
+          '<a href="/assignments/game-maker/">Make Your Own Game</a>.';
       el("gallery-grid").innerHTML = "";
       return;
     }
-    status.textContent = games.length + (games.length === 1 ? " game" : " games") +
-      " from your class, ranked by upvotes" + (staff ? " (teacher: you can hide any game)" : "");
-    render(games, staff, session);
+    const where = all ? "from across the school" : "from your class";
+    status.textContent = games.length + (games.length === 1 ? " game " : " games ") +
+      where + ", ranked by upvotes" + (staff ? " (teacher: you can hide any game)" : "");
+    render(games, staff, session, all);
   }
 
+  wireScope();
   boot();
   window.addEventListener("itbasics:auth", boot);
 })();
