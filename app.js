@@ -173,6 +173,94 @@
     catch (e) { return []; }
   }
 
+  // ---- Published games (Task 3 "Make your own game" + the class gallery) ----
+
+  function readLocalGames() {
+    try { return JSON.parse(localStorage.getItem("itbasics-games") || "[]"); }
+    catch (e) { return []; }
+  }
+  function writeLocalGames(arr) {
+    try { localStorage.setItem("itbasics-games", JSON.stringify(arr)); } catch (e) {}
+  }
+  function authorName(s) {
+    return ((s.first_name || "") + " " + (s.last_name || "")).trim() || s.code;
+  }
+
+  // Publish (or re-publish) the student's game under a title. Re-using a title
+  // updates that game. hidden is deliberately omitted so a teacher's takedown
+  // survives a re-publish.
+  async function publishGame(title, code, meta) {
+    const s = getSession();
+    if (!s) return { ok: false, error: "Sign in to publish your game." };
+    title = String(title || "").trim();
+    if (!title) return { ok: false, error: "Give your game a title first." };
+    if (!String(code || "").trim()) return { ok: false, error: "Write some code first." };
+    if (supabase) {
+      const { error } = await supabase.from("games").upsert(
+        { student_code: s.code, title: title, code: code, meta: meta || {},
+          updated_at: new Date().toISOString() },
+        { onConflict: "student_code,title" }
+      );
+      return error ? { ok: false, error: error.message } : { ok: true };
+    }
+    const arr = readLocalGames().filter(function (g) {
+      return !(g.student_code === s.code && g.title === title);
+    });
+    arr.unshift({ id: "local-" + s.code + "-" + title, student_code: s.code, title: title,
+      code: code, meta: meta || {}, hidden: false, class: s.class, author: authorName(s),
+      updated_at: new Date().toISOString() });
+    writeLocalGames(arr);
+    return { ok: true };
+  }
+
+  // Every non-hidden game in the viewer's class, newest first.
+  async function listClassGames() {
+    const s = getSession();
+    if (!s) return [];
+    if (supabase) {
+      const { data } = await supabase.from("games")
+        .select("id, title, code, meta, hidden, updated_at, students!inner(first_name, last_name, class)")
+        .order("updated_at", { ascending: false });
+      return (data || [])
+        .filter(function (g) { return g.students && g.students.class === s.class && !g.hidden; })
+        .map(function (g) {
+          return { id: g.id, title: g.title, code: g.code, meta: g.meta || {},
+            author: ((g.students.first_name || "") + " " + (g.students.last_name || "")).trim(),
+            updated_at: g.updated_at };
+        });
+    }
+    return readLocalGames()
+      .filter(function (g) { return g.class === s.class && !g.hidden; });
+  }
+
+  // The signed-in student's own games (includes hidden, so they can see if a
+  // teacher took one down).
+  async function myGames() {
+    const s = getSession();
+    if (!s) return [];
+    if (supabase) {
+      const { data } = await supabase.from("games")
+        .select("id, title, code, meta, hidden, updated_at")
+        .eq("student_code", s.code)
+        .order("updated_at", { ascending: false });
+      return data || [];
+    }
+    return readLocalGames().filter(function (g) { return g.student_code === s.code; });
+  }
+
+  async function deleteGame(id) {
+    if (supabase) { await supabase.from("games").delete().eq("id", id); return; }
+    writeLocalGames(readLocalGames().filter(function (g) { return g.id !== id; }));
+  }
+
+  // Teacher moderation: take a game down (or put it back).
+  async function setGameHidden(id, hidden) {
+    if (supabase) { await supabase.from("games").update({ hidden: !!hidden }).eq("id", id); return; }
+    const arr = readLocalGames();
+    arr.forEach(function (g) { if (g.id === id) g.hidden = !!hidden; });
+    writeLocalGames(arr);
+  }
+
   function renderAuthBar() {
     const header = document.querySelector(".site-header .header-inner");
     if (!header) return;
@@ -241,6 +329,11 @@
     listSnippets: listSnippets,
     saveSnippet: saveSnippet,
     deleteSnippet: deleteSnippet,
+    publishGame: publishGame,
+    listClassGames: listClassGames,
+    myGames: myGames,
+    deleteGame: deleteGame,
+    setGameHidden: setGameHidden,
     isOnline: function () { return Boolean(supabase); },
     client: function () { return supabase; }
   };
@@ -302,6 +395,7 @@
       { href: "/freeplay/", label: "Freeplay" },
       { href: "/challenges/", label: "Live Coding" },
       { href: "/sandbox/", label: "Sandbox" },
+      { href: "/games/", label: "Game Gallery" },
       { href: "/leaderboard/", label: "Leaderboard" }
     ];
     function active(href) { return href === "/" ? path === "/" : path.indexOf(href) === 0; }

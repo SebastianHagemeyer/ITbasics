@@ -70,6 +70,15 @@
       desc: "Every image is secretly a grid of numbers. Store your own drawing as pure data, " +
             "build a colour palette with hex codes, and write the loop that paints it.",
       marks: 11
+    },
+    {
+      key: "gamemaker",
+      title: "Task 3 · Make Your Own Game",
+      href: "/assignments/game-maker/",
+      icon: "🎮",
+      desc: "Build your own game on the Hallam engine, from a template or from scratch, " +
+            "then publish it to your class Game Gallery for everyone to play.",
+      open: true
     }
   ];
 
@@ -131,13 +140,41 @@
     );
   }
 
+  // Open tasks (like "Make your own game") are not graded through
+  // assignment_progress; their status just reflects whether the student has
+  // published anything to the gallery.
+  function openCard(a, count) {
+    var done = count > 0;
+    var status = done
+      ? "&#10003; Published " + count + (count === 1 ? " game" : " games")
+      : "Build &amp; publish";
+    var cls = done ? "done" : "todo";
+    return (
+      '<a class="assignment-card ' + cls + '" href="' + a.href + '">' +
+        '<span class="assignment-icon" aria-hidden="true">' + a.icon + '</span>' +
+        '<span class="assignment-body">' +
+          '<span class="assignment-title">' + escapeHtml(a.title) + '</span>' +
+          '<span class="assignment-desc">' + escapeHtml(a.desc) + '</span>' +
+        '</span>' +
+        '<span class="assignment-side">' +
+          '<span class="assignment-status ' + cls + '">' + status + '</span>' +
+          '<span class="assignment-marks">Open task</span>' +
+        '</span>' +
+      '</a>'
+    );
+  }
+
   async function boot() {
     var student = window.ITBasics && window.ITBasics.getSession();
     if (!student) { location.replace("/"); return; }
 
     var subs = await loadSubmissions(student);
+    var myGames = [];
+    if (window.ITBasics.myGames) {
+      try { myGames = await window.ITBasics.myGames(); } catch (e) { myGames = []; }
+    }
     el("assignments-list").innerHTML = ASSIGNMENTS.map(function (a) {
-      return card(a, subs[a.key]);
+      return a.open ? openCard(a, myGames.length) : card(a, subs[a.key]);
     }).join("");
     el("assignments-status").textContent = "";
   }

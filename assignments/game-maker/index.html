@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Make Your Own Game | Hallam IT Basics</title>
+  <meta name="description" content="Task 3: build your own game on the Hallam game engine, then publish it to your class gallery." />
+  <link rel="icon" type="image/svg+xml" href="/logo-binary.svg" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="stylesheet" href="/styles.css" />
+  <script>
+    (function () {
+      try {
+        if (!JSON.parse(localStorage.getItem("itbasics-session"))) {
+          location.replace("/");
+        }
+      } catch (e) { location.replace("/"); }
+    })();
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/" class="logo">
+        <img class="logo-mark" src="/logo-binary.svg" alt="" width="32" height="32" />
+        <span>Hallam IT Basics</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="/">Home</a>
+        <div class="nav-dropdown" data-open="false">
+          <button type="button" class="nav-dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+            Learn
+            <svg class="nav-chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="nav-dropdown-menu" role="menu">
+            <a href="/modules/" role="menuitem">All modules</a>
+            <a href="/docs/" role="menuitem">Documentation</a>
+          </div>
+        </div>
+        <div class="nav-dropdown" data-open="false">
+          <button type="button" class="nav-dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+            Play
+            <svg class="nav-chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="nav-dropdown-menu" role="menu">
+            <a href="/freeplay/" role="menuitem">Freeplay</a>
+            <a href="/challenges/" role="menuitem">Live Coding</a>
+            <a href="/sandbox/" role="menuitem">Sandbox</a>
+            <a href="/leaderboard/" role="menuitem">Leaderboard</a>
+          </div>
+        </div>
+        <a href="/assignments/" class="active">Assignments</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Assignments &middot; Task 3</p>
+        <h1>Make Your Own Game</h1>
+        <p class="lead">This is the big one: build your <em>own</em> game on the Hallam game engine, give it a name, and publish it to your class. Then head to the <a href="/games/">Game Gallery</a> to play everyone else's.</p>
+      </div>
+    </section>
+
+    <div class="container section assign-page">
+
+      <section class="assign-intro">
+        <div class="callout">
+          <strong>How this works:</strong> pick a template to start from (or a blank page if you are feeling brave), build your game in the editor, and press <strong>Run</strong> to test it. When you are proud of it, fill in the <strong>design notes</strong> and press <strong>Publish</strong>. New to the engine? The
+          <a href="/topics/libraries/">Libraries lesson</a> has the full sprite and game reference, and the <a href="/docs/">docs</a> are searchable.
+        </div>
+      </section>
+
+      <section class="assign-step">
+        <h2><span class="step-num">Step 1</span> Start from a template, or from scratch</h2>
+        <p>Each template is a tiny working game. Load one, run it, then change it: swap the sprite, change the speed, add a score. Or start blank and build it all yourself.</p>
+        <div class="gm-templates" id="gm-templates"></div>
+      </section>
+
+      <section class="assign-step">
+        <h2><span class="step-num">Step 2</span> Build and test it</h2>
+        <p>Steer with the arrow keys, or read the <a href="/topics/libraries/#reference">cheat sheet</a> for everything the engine can do. Click the game window first so the keys reach it.</p>
+        <div class="sandbox-shell">
+          <div class="sandbox-editor">
+            <div class="sandbox-bar">
+              <span class="sandbox-title" id="sandbox-filename">my_game.py</span>
+              <div class="sandbox-bar-actions">
+                <button type="button" class="btn btn-primary sandbox-run" id="sandbox-run">
+                  <span class="sandbox-run-label">Run</span>
+                </button>
+              </div>
+            </div>
+            <div class="sandbox-code language-python" id="sandbox-code" spellcheck="false"></div>
+          </div>
+          <div class="assign-right">
+            <div class="sandbox-output turtle-panel" id="turtle-panel" hidden>
+              <div class="sandbox-bar"><span class="sandbox-title">Turtle window</span></div>
+              <div class="turtle-stage">
+                <canvas id="turtle-canvas" width="560" height="380"></canvas>
+                <canvas id="turtle-sprite" width="560" height="380"></canvas>
+              </div>
+            </div>
+            <div class="sandbox-output game-panel" id="game-panel" hidden>
+              <div class="sandbox-bar">
+                <span class="sandbox-title">Game window</span>
+                <span class="game-hint">click here, then use the keys</span>
+              </div>
+              <div class="game-stage">
+                <canvas id="game-canvas" width="480" height="360" tabindex="0"></canvas>
+              </div>
+            </div>
+            <div class="sandbox-output">
+              <div class="sandbox-bar">
+                <span class="sandbox-title">Output</span>
+                <button type="button" class="btn btn-ghost sandbox-clear" title="Clear the output">Clear</button>
+              </div>
+              <pre class="sandbox-out-body" id="sandbox-output"></pre>
+            </div>
+          </div>
+        </div>
+        <p class="sandbox-hint">
+          <kbd>Ctrl</kbd>+<kbd>Enter</kbd> to run &middot; <kbd>Tab</kbd> inserts 4 spaces &middot;
+          Python loads the first time you press Run (5-10 seconds), then it's instant.
+        </p>
+      </section>
+
+      <section class="assign-step">
+        <h2><span class="step-num">Step 3</span> Design notes</h2>
+        <p>A few quick questions about what you made. These show next to your game in the gallery, so your class can see your thinking.</p>
+        <div class="gm-notes">
+          <label class="gm-field">
+            <span class="gm-label">Game title</span>
+            <input type="text" id="gm-title" class="gm-input" maxlength="48" placeholder="e.g. Chicken Chaser" autocomplete="off" />
+          </label>
+          <label class="gm-field">
+            <span class="gm-label">Did you start from a template or from scratch?</span>
+            <select id="gm-start" class="gm-input">
+              <option value="a template">I started from a template and changed it</option>
+              <option value="scratch">I started from scratch</option>
+            </select>
+          </label>
+          <label class="gm-field">
+            <span class="gm-label">What does the player control?</span>
+            <input type="text" id="gm-controls" class="gm-input" maxlength="60" placeholder="e.g. a rocket, a dog, a coin..." autocomplete="off" />
+          </label>
+          <label class="gm-field">
+            <span class="gm-label">Does your game keep score?</span>
+            <select id="gm-score" class="gm-input">
+              <option value="yes">Yes, it keeps score</option>
+              <option value="no">No score</option>
+              <option value="notyet">Not yet, but I want to add it</option>
+            </select>
+          </label>
+          <label class="gm-field gm-field-wide">
+            <span class="gm-label">What did you add or change? (a sentence or two)</span>
+            <textarea id="gm-added" class="gm-input" rows="3" maxlength="400" placeholder="e.g. I started from the catch game, swapped the basket for a dog, made the eggs fall faster, and added a Game Over message when you miss 3."></textarea>
+          </label>
+        </div>
+        <div class="gm-publish-row">
+          <button type="button" class="btn btn-primary" id="gm-publish">Publish to my class</button>
+          <span class="gm-status" id="gm-status"></span>
+        </div>
+      </section>
+
+      <section class="assign-step">
+        <h2><span class="step-num">Step 4</span> My published games</h2>
+        <p>These are live in the <a href="/games/">Game Gallery</a> for your class. Publishing again with the same title updates it.</p>
+        <div class="gm-mine" id="gm-mine"></div>
+      </section>
+
+      <div class="lesson-nav">
+        <a href="/assignments/" class="btn btn-ghost">&larr; All assignments</a>
+        <a href="/games/" class="btn btn-primary">Game Gallery <span class="arrow" aria-hidden="true"></span></a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; Hallam IT Basics &middot; For Years 7-10 computing classes.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/prism.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-python.min.js"></script>
+  <script src="/supabase-config.js"></script>
+  <script src="/app.js"></script>
+  <script src="/editor-tools.js"></script>
+  <script src="/pyrun.js"></script>
+  <script src="/game-maker.js"></script>
+</body>
+</html>
