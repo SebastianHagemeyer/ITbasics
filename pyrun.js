@@ -600,6 +600,18 @@ def _pyrun_install_game():
     def playing():
         return bool(_io.playing())
 
+    def submit_score(points):
+        # Save this run's score to the game's own leaderboard in the Game
+        # Gallery. Only does something when someone is playing your PUBLISHED
+        # game in the gallery; in the Sandbox it is quietly ignored. Call it
+        # when the run ends, right before game_over:
+        #   game.submit_score(score)
+        #   game.game_over("Score: " + str(score))
+        try:
+            _io.submitScore(float(points))
+        except (TypeError, ValueError):
+            pass
+
     def hide_cursor(hidden=True):
         # Hide the real mouse pointer while it is over the game window, so a
         # sprite can play the pointer instead (a watering can, a crosshair).
@@ -671,6 +683,7 @@ def _pyrun_install_game():
     mod.playing = playing
     mod.frame = frame
     mod.game_over = game_over
+    mod.submit_score = submit_score
     mod.debug = debug
     mod.Sprite = Sprite
     mod._reset_all = _reset_all
@@ -870,6 +883,13 @@ del _pyrun_install_game
     setCursor: function (hidden) {
       const c = gameCtx();
       if (c) c.canvas.style.cursor = hidden ? "none" : "";
+    },
+    submitScore: function (points) {
+      // Only pages that plug in an onScore handler (the Game Gallery player)
+      // receive scores; everywhere else this is a no-op by design.
+      if (gameActive() && typeof active.opts.game.onScore === "function") {
+        active.opts.game.onScore(Number(points));
+      }
     },
     pressed: function (key) { return Boolean(gameKeys[String(key).toLowerCase()]); },
     mouseX: function () { return gameMouse.x; },

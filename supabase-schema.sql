@@ -574,3 +574,28 @@ drop policy if exists game_votes_delete_anon on game_votes;
 create policy game_votes_select_anon on game_votes for select to anon using (true);
 create policy game_votes_insert_anon on game_votes for insert to anon with check (true);
 create policy game_votes_delete_anon on game_votes for delete to anon using (true);
+
+-- Per-game leaderboards, fed by game.submit_score(points) when someone plays
+-- a published game in the gallery. One row per player per game, best score
+-- only, so this stays tiny. Scores die with the game (cascade), the same as
+-- upvotes: republishing starts a fresh board. "name" is stamped at submit
+-- time so the gallery never needs a join to show the board.
+create table if not exists game_scores (
+  game_id       bigint not null references games(id) on delete cascade,
+  student_code  text not null references students(code) on delete cascade,
+  name          text not null default '',
+  score         double precision not null,
+  updated_at    timestamptz not null default now(),
+  primary key (game_id, student_code)
+);
+create index if not exists game_scores_game_idx on game_scores(game_id);
+
+alter table game_scores enable row level security;
+
+drop policy if exists game_scores_select_anon on game_scores;
+drop policy if exists game_scores_insert_anon on game_scores;
+drop policy if exists game_scores_update_anon on game_scores;
+
+create policy game_scores_select_anon on game_scores for select to anon using (true);
+create policy game_scores_insert_anon on game_scores for insert to anon with check (true);
+create policy game_scores_update_anon on game_scores for update to anon using (true) with check (true);
