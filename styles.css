@@ -667,6 +667,14 @@ img { max-width: 100%; display: block; }
   font-size: 1rem;
 }
 .q-num { color: var(--primary); margin-right: 4px; }
+.quiz-form code {
+  background: #eef0fb;
+  color: #2a2d4a;
+  padding: 2px 6px;
+  border-radius: 5px;
+  font-size: 0.9em;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
 
 .quiz-option {
   display: flex;
