@@ -3791,14 +3791,24 @@ textarea.gm-input { resize: vertical; }
 }
 .game-scores-list li:nth-child(odd) { background: rgba(124, 92, 255, 0.06); }
 .game-scores-list li.me { font-weight: 700; background: rgba(124, 92, 255, 0.14); }
-.game-scores-medal { width: 1.3em; }
+.game-scores-list .rank-pill {
+  width: 22px;
+  height: 22px;
+  font-size: 0.75rem;
+  flex: none;
+}
 .game-scores-name { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .game-scores-class { font-size: 0.75em; font-weight: 700; color: var(--muted); }
 .game-scores-score { font-weight: 700; font-variant-numeric: tabular-nums; }
 
 /* Game gallery: upvotes and rank */
 .game-card-headbtns { display: flex; align-items: center; gap: 8px; }
-.game-rank { font-size: 1.1rem; }
+.rank-pill.game-rank {
+  width: 22px;
+  height: 22px;
+  font-size: 0.75rem;
+  vertical-align: text-bottom;
+}
 .game-vote {
   display: inline-flex;
   align-items: center;

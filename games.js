@@ -77,7 +77,10 @@
     return html;
   }
 
-  const MEDALS = ["🥇", "🥈", "🥉"];
+  // Same 1st/2nd/3rd pills as the main leaderboard.
+  function rankClass(rank) {
+    return rank === 1 ? "gold" : rank === 2 ? "silver" : rank === 3 ? "bronze" : "";
+  }
 
   // "class" shows only the viewer's class; "all" is the whole-school gallery.
   let scope = "class";
@@ -91,7 +94,9 @@
 
       const head = document.createElement("div");
       head.className = "game-card-head";
-      const rank = (game.votes > 0 && i < 3) ? '<span class="game-rank">' + MEDALS[i] + "</span> " : "";
+      const rank = (game.votes > 0 && i < 3)
+        ? '<span class="rank-pill game-rank ' + rankClass(i + 1) + '">' + (i + 1) + "</span> "
+        : "";
       const klass = (showClass && game.klass)
         ? '<span class="game-card-class">' + esc(game.klass) + "</span>" : "";
       head.innerHTML =
@@ -193,7 +198,7 @@
             const shown = (r.score % 1 === 0) ? String(r.score) : r.score.toFixed(1);
             const klass = r.klass ? ' <span class="game-scores-class">' + esc(r.klass) + "</span>" : "";
             return "<li" + (me ? ' class="me"' : "") + ">" +
-              (k < 3 ? '<span class="game-scores-medal">' + MEDALS[k] + "</span>" : "") +
+              '<span class="rank-pill ' + rankClass(k + 1) + '">' + (k + 1) + "</span>" +
               '<span class="game-scores-name">' + esc(r.name) + (me ? " (you)" : "") + klass + "</span>" +
               '<span class="game-scores-score">' + esc(shown) + "</span></li>";
           }).join("") + "</ol>";
