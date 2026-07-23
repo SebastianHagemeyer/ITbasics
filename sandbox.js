@@ -444,6 +444,84 @@
         "    game.frame()\n"
     },
     {
+      title: "Game: whack-a-mole",
+      desc: "Click the mouse with your mouse before it scurries to the next hole. It gets faster!",
+      code:
+        "import game\n" +
+        "import random\n" +
+        "\n" +
+        'game.window(480, 360, background="#6b4a2f")   # dirt\n' +
+        'sign = game.label("Whack the mouse!  Score: 0", 240, 26,\n' +
+        '                  size=20, color="#ffffff", background="#3d2a1a")\n' +
+        "\n" +
+        "# Nine holes in a 3 by 3 grid.\n" +
+        "holes = []\n" +
+        "for row in range(3):\n" +
+        "    for col in range(3):\n" +
+        '        holes.append(game.box(120 + col * 120, 130 + row * 95, 70, 22,\n' +
+        '                              color="#3d2a1a"))\n' +
+        "\n" +
+        'mole = game.sprite("🐭", 120, 116, size=44)\n' +
+        "score = 0\n" +
+        "timer = 0\n" +
+        "\n" +
+        "while game.playing():\n" +
+        "    timer = timer + 1\n" +
+        "    # Time to scurry! The higher your score, the faster it moves.\n" +
+        "    if timer >= max(10, 30 - score):\n" +
+        "        hole = random.choice(holes)\n" +
+        "        mole.x = hole.x\n" +
+        "        mole.y = hole.y - 14\n" +
+        "        timer = 0\n" +
+        "\n" +
+        "    if game.clicked() and mole.at_mouse():\n" +
+        "        score = score + 1\n" +
+        '        sign.content = "Whack the mouse!  Score: " + str(score)\n' +
+        "        timer = 99        # whacked! it pops up somewhere else\n" +
+        "\n" +
+        "    game.frame()\n"
+    },
+    {
+      title: "Game: drag and drop",
+      desc: "Hold the mouse button to pick up an animal and carry it into the pen.",
+      code:
+        "import game\n" +
+        "\n" +
+        'game.window(480, 360, background="#4a7dbf")\n' +
+        'sign = game.label("Drag the animals into the pen!", 240, 26,\n' +
+        '                  size=20, color="#ffffff", background="#2a4a73")\n' +
+        "\n" +
+        'pen = game.box(360, 250, 200, 180, color="#8fce6e")\n' +
+        "\n" +
+        'animals = [game.sprite("chicken", 80, 100, size=44),\n' +
+        '           game.sprite("dog", 80, 190, size=44),\n' +
+        '           game.sprite("turtle", 80, 280, size=44)]\n' +
+        "\n" +
+        "held = None      # which animal we are carrying right now\n" +
+        "\n" +
+        "while game.playing():\n" +
+        "    if game.mouse_down():\n" +
+        "        if held is None:              # try to pick something up\n" +
+        "            for a in animals:\n" +
+        "                if a.at_mouse():\n" +
+        "                    held = a\n" +
+        "        if held is not None:          # carry it with the pointer\n" +
+        "            held.x = game.mouse_x()\n" +
+        "            held.y = game.mouse_y()\n" +
+        "    else:\n" +
+        "        held = None                   # let go of the button, let go of it\n" +
+        "\n" +
+        "    # Count who is in the pen. Everyone home? You win.\n" +
+        "    inside = 0\n" +
+        "    for a in animals:\n" +
+        "        if a.touches(pen):\n" +
+        "            inside = inside + 1\n" +
+        "    if inside == len(animals):\n" +
+        '        game.game_over("All the animals are safe!")\n' +
+        "\n" +
+        "    game.frame()\n"
+    },
+    {
       title: "Roll a dice",
       desc: "Random rolls, 10 in a row.",
       code:
