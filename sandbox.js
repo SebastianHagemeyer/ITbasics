@@ -526,7 +526,7 @@
         "    game.frame()\n"
     },
     {
-      title: "Game: 3D maze (Doom-style)",
+      title: "Game: 3D maze",
       desc: "A real first-person maze, the same trick the original Doom used. Pure Python, 80 lines.",
       code:
         "import game\n" +
