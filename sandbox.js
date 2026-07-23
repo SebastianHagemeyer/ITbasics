@@ -402,6 +402,47 @@
         "    game.frame()\n"
     },
     {
+      title: "Game: grow a garden",
+      desc: "Click the sprouts to grow them into flowers. The mouse functions in action.",
+      code:
+        "import game\n" +
+        "\n" +
+        'game.window(480, 360, background="#8fce6e")   # a sunny lawn\n' +
+        'sign = game.label("Click the sprouts to grow them!", 240, 26,\n' +
+        '                  size=20, color="#ffffff", background="#2f6b2f")\n' +
+        "\n" +
+        "# Four little sprouts in a row, kept in a list.\n" +
+        "plants = []\n" +
+        "for i in range(4):\n" +
+        '    plants.append(game.sprite("🌱", 90 + i * 100, 250, size=28))\n' +
+        "\n" +
+        "# The watering can follows your mouse.\n" +
+        'can = game.sprite("🚿", 240, 180, size=36)\n' +
+        "\n" +
+        "while game.playing():\n" +
+        "    can.x = game.mouse_x()\n" +
+        "    can.y = game.mouse_y()\n" +
+        "\n" +
+        "    if game.clicked():                # one tap = one action\n" +
+        "        for p in plants:\n" +
+        "            if p.at_mouse():          # did we click ON this plant?\n" +
+        "                p.size = p.size + 14\n" +
+        "                if p.size >= 70:\n" +
+        '                    p.content = "🌻"  # fully grown!\n' +
+        "                elif p.size >= 42:\n" +
+        '                    p.content = "🌿"\n' +
+        "\n" +
+        "    # Count the flowers. All four bloomed? You win.\n" +
+        "    bloomed = 0\n" +
+        "    for p in plants:\n" +
+        '        if p.content == "🌻":\n' +
+        "            bloomed = bloomed + 1\n" +
+        "    if bloomed == len(plants):\n" +
+        '        game.game_over("Your garden is in full bloom!")\n' +
+        "\n" +
+        "    game.frame()\n"
+    },
+    {
       title: "Roll a dice",
       desc: "Random rolls, 10 in a row.",
       code:
