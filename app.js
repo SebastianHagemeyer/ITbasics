@@ -186,6 +186,14 @@
     return ((s.first_name || "") + " " + (s.last_name || "")).trim() || s.code;
   }
 
+  // First name plus surname initial ("Ali A."), for boards where a full
+  // surname is more than anyone needs.
+  function shortName(s) {
+    const first = (s.first_name || "").trim();
+    const initial = (s.last_name || "").trim().slice(0, 1);
+    return (first + (initial ? " " + initial.toUpperCase() + "." : "")).trim() || s.code;
+  }
+
   // Publish (or re-publish) the student's game under a title. Re-using a title
   // updates that game. hidden is deliberately omitted so a teacher's takedown
   // survives a re-publish.
@@ -299,6 +307,68 @@
     return { ok: true, voted: true };
   }
 
+  function readLocalScores() {
+    try { return JSON.parse(localStorage.getItem("itbasics-game-scores") || "[]"); }
+    catch (e) { return []; }
+  }
+  function writeLocalScores(arr) {
+    try { localStorage.setItem("itbasics-game-scores", JSON.stringify(arr)); } catch (e) {}
+  }
+
+  // Per-game leaderboards. One row per player per game, best score only, so
+  // the table stays tiny. Scores die with the game (cascade), the same as
+  // upvotes: republishing starts a fresh board.
+  async function submitGameScore(gameId, score) {
+    const s = getSession();
+    score = Number(score);
+    if (!s || gameId == null || !isFinite(score)) return { ok: false };
+    if (supabase) {
+      const { data } = await supabase.from("game_scores")
+        .select("score").eq("game_id", gameId).eq("student_code", s.code).maybeSingle();
+      if (data && Number(data.score) >= score) return { ok: true, best: Number(data.score) };
+      const { error } = await supabase.from("game_scores").upsert(
+        { game_id: gameId, student_code: s.code, name: shortName(s),
+          class: s.class || "", score: score,
+          updated_at: new Date().toISOString() },
+        { onConflict: "game_id,student_code" });
+      return error ? { ok: false, error: error.message } : { ok: true, best: score };
+    }
+    const arr = readLocalScores();
+    const mine = arr.find(function (r) { return r.game_id === gameId && r.student_code === s.code; });
+    if (mine) {
+      if (Number(mine.score) >= score) return { ok: true, best: Number(mine.score) };
+      mine.score = score;
+    } else {
+      arr.push({ game_id: gameId, student_code: s.code, name: shortName(s),
+        class: s.class || "", score: score });
+    }
+    writeLocalScores(arr);
+    return { ok: true, best: score };
+  }
+
+  // Top scores for one game, best first.
+  async function listGameScores(gameId, limit) {
+    limit = limit || 10;
+    var rows;
+    if (supabase) {
+      const res = await supabase.from("game_scores")
+        .select("student_code, name, class, score")
+        .eq("game_id", gameId)
+        .order("score", { ascending: false })
+        .limit(limit);
+      rows = res.data || [];
+    } else {
+      rows = readLocalScores()
+        .filter(function (r) { return r.game_id === gameId; })
+        .sort(function (a, b) { return b.score - a.score; })
+        .slice(0, limit);
+    }
+    return rows.map(function (r) {
+      return { student_code: r.student_code, name: r.name || "someone",
+        klass: r.class || "", score: Number(r.score) };
+    });
+  }
+
   // The signed-in student's own games (includes hidden, so they can see if a
   // teacher took one down).
   async function myGames() {
@@ -401,6 +471,8 @@
     deleteGame: deleteGame,
     setGameHidden: setGameHidden,
     voteGame: voteGame,
+    submitGameScore: submitGameScore,
+    listGameScores: listGameScores,
     isOnline: function () { return Boolean(supabase); },
     client: function () { return supabase; }
   };

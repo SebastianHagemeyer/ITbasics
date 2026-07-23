@@ -277,6 +277,10 @@ chicken <span class="c-op">=</span> game.sprite(<span class="c-string">"🐔"</s
                   <td><code>game.score(points)</code></td>
                   <td>A running total counter. <code>game.score(1)</code> adds one and gives back the new total; <code>game.score()</code> just reads it. It draws nothing on its own, show it with a label (see below).</td>
                 </tr>
+                <tr>
+                  <td><code>game.submit_score(points)</code></td>
+                  <td>Gives your game its own <strong>leaderboard</strong> in the Game Gallery. When someone plays your published game, this saves their best score to it. Call it when the run ends, right before <code>game.game_over(...)</code>. In the Sandbox it quietly does nothing, so you can test without filling the board.</td>
+                </tr>
               </table>
             </details>
 

@@ -21,6 +21,11 @@
 
   if (!window.PyRun || !window.ITBasics) return;
 
+  // Which published game is in the player right now, and the best score
+  // submitted so far this run (so one run only writes upwards).
+  let currentGame = null;
+  let runBest = null;
+
   // Shared player: one runner drives the game canvas for whichever game you play.
   const runner = window.PyRun.create({
     editor: el("player-code"),
@@ -28,12 +33,23 @@
     runBtn: el("player-stop"),
     storageKey: "itbasics-gallery-player",
     defaultCode: "",
-    game: { canvas: el("game-canvas") }
+    game: {
+      canvas: el("game-canvas"),
+      onScore: function (points) {
+        // game.submit_score(...) landed here from the running game.
+        if (!currentGame || !isFinite(points)) return;
+        if (runBest != null && points <= runBest) return;
+        runBest = points;
+        window.ITBasics.submitGameScore(currentGame.id, points);
+      }
+    }
   });
 
   async function play(game) {
     el("player-title").textContent = game.title + "  by " + game.author;
     if (runner.isRunning()) { runner.stop(); await sleep(140); }
+    currentGame = game;
+    runBest = null;
     runner.setCode(game.code);
     const player = el("game-player");
     player.hidden = false;
@@ -61,7 +77,10 @@
     return html;
   }
 
-  const MEDALS = ["🥇", "🥈", "🥉"];
+  // Same 1st/2nd/3rd pills as the main leaderboard.
+  function rankClass(rank) {
+    return rank === 1 ? "gold" : rank === 2 ? "silver" : rank === 3 ? "bronze" : "";
+  }
 
   // "class" shows only the viewer's class; "all" is the whole-school gallery.
   let scope = "class";
@@ -75,7 +94,9 @@
 
       const head = document.createElement("div");
       head.className = "game-card-head";
-      const rank = (game.votes > 0 && i < 3) ? '<span class="game-rank">' + MEDALS[i] + "</span> " : "";
+      const rank = (game.votes > 0 && i < 3)
+        ? '<span class="rank-pill game-rank ' + rankClass(i + 1) + '">' + (i + 1) + "</span> "
+        : "";
       const klass = (showClass && game.klass)
         ? '<span class="game-card-class">' + esc(game.klass) + "</span>" : "";
       head.innerHTML =
@@ -146,6 +167,45 @@
       });
       actions.appendChild(viewBtn);
 
+      // Per-game leaderboard, only for games whose code saves scores.
+      let scoresWrap = null;
+      if (/game\s*\.\s*submit_score/.test(game.code || "")) {
+        scoresWrap = document.createElement("div");
+        scoresWrap.className = "game-card-scores";
+        scoresWrap.hidden = true;
+
+        const scoresBtn = document.createElement("button");
+        scoresBtn.type = "button";
+        scoresBtn.className = "btn btn-ghost";
+        scoresBtn.textContent = "Top scores";
+        scoresBtn.addEventListener("click", async function () {
+          if (!scoresWrap.hidden) {
+            scoresWrap.hidden = true;
+            scoresBtn.textContent = "Top scores";
+            return;
+          }
+          scoresWrap.innerHTML = '<p class="game-scores-empty">Loading&hellip;</p>';
+          scoresWrap.hidden = false;
+          scoresBtn.textContent = "Hide scores";
+          const rows = await window.ITBasics.listGameScores(game.id, 10);
+          if (!rows.length) {
+            scoresWrap.innerHTML =
+              '<p class="game-scores-empty">No scores yet. Press Play and set the first one!</p>';
+            return;
+          }
+          scoresWrap.innerHTML = "<ol class='game-scores-list'>" + rows.map(function (r, k) {
+            const me = session && r.student_code === session.code;
+            const shown = (r.score % 1 === 0) ? String(r.score) : r.score.toFixed(1);
+            const klass = r.klass ? ' <span class="game-scores-class">' + esc(r.klass) + "</span>" : "";
+            return "<li" + (me ? ' class="me"' : "") + ">" +
+              '<span class="rank-pill ' + rankClass(k + 1) + '">' + (k + 1) + "</span>" +
+              '<span class="game-scores-name">' + esc(r.name) + (me ? " (you)" : "") + klass + "</span>" +
+              '<span class="game-scores-score">' + esc(shown) + "</span></li>";
+          }).join("") + "</ol>";
+        });
+        actions.appendChild(scoresBtn);
+      }
+
       if (staff) {
         const hideBtn = document.createElement("button");
         hideBtn.type = "button";
@@ -159,6 +219,7 @@
       }
 
       card.appendChild(actions);
+      if (scoresWrap) card.appendChild(scoresWrap);
       card.appendChild(codeWrap);
       grid.appendChild(card);
     });
