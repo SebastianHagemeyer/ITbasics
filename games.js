@@ -191,9 +191,10 @@
           scoresWrap.innerHTML = "<ol class='game-scores-list'>" + rows.map(function (r, k) {
             const me = session && r.student_code === session.code;
             const shown = (r.score % 1 === 0) ? String(r.score) : r.score.toFixed(1);
+            const klass = r.klass ? ' <span class="game-scores-class">' + esc(r.klass) + "</span>" : "";
             return "<li" + (me ? ' class="me"' : "") + ">" +
               (k < 3 ? '<span class="game-scores-medal">' + MEDALS[k] + "</span>" : "") +
-              '<span class="game-scores-name">' + esc(r.name) + (me ? " (you)" : "") + "</span>" +
+              '<span class="game-scores-name">' + esc(r.name) + (me ? " (you)" : "") + klass + "</span>" +
               '<span class="game-scores-score">' + esc(shown) + "</span></li>";
           }).join("") + "</ol>";
         });

@@ -186,6 +186,14 @@
     return ((s.first_name || "") + " " + (s.last_name || "")).trim() || s.code;
   }
 
+  // First name plus surname initial ("Ali A."), for boards where a full
+  // surname is more than anyone needs.
+  function shortName(s) {
+    const first = (s.first_name || "").trim();
+    const initial = (s.last_name || "").trim().slice(0, 1);
+    return (first + (initial ? " " + initial.toUpperCase() + "." : "")).trim() || s.code;
+  }
+
   // Publish (or re-publish) the student's game under a title. Re-using a title
   // updates that game. hidden is deliberately omitted so a teacher's takedown
   // survives a re-publish.
@@ -319,7 +327,8 @@
         .select("score").eq("game_id", gameId).eq("student_code", s.code).maybeSingle();
       if (data && Number(data.score) >= score) return { ok: true, best: Number(data.score) };
       const { error } = await supabase.from("game_scores").upsert(
-        { game_id: gameId, student_code: s.code, name: authorName(s), score: score,
+        { game_id: gameId, student_code: s.code, name: shortName(s),
+          class: s.class || "", score: score,
           updated_at: new Date().toISOString() },
         { onConflict: "game_id,student_code" });
       return error ? { ok: false, error: error.message } : { ok: true, best: score };
@@ -330,7 +339,8 @@
       if (Number(mine.score) >= score) return { ok: true, best: Number(mine.score) };
       mine.score = score;
     } else {
-      arr.push({ game_id: gameId, student_code: s.code, name: authorName(s), score: score });
+      arr.push({ game_id: gameId, student_code: s.code, name: shortName(s),
+        class: s.class || "", score: score });
     }
     writeLocalScores(arr);
     return { ok: true, best: score };
@@ -342,7 +352,7 @@
     var rows;
     if (supabase) {
       const res = await supabase.from("game_scores")
-        .select("student_code, name, score")
+        .select("student_code, name, class, score")
         .eq("game_id", gameId)
         .order("score", { ascending: false })
         .limit(limit);
@@ -354,7 +364,8 @@
         .slice(0, limit);
     }
     return rows.map(function (r) {
-      return { student_code: r.student_code, name: r.name || "someone", score: Number(r.score) };
+      return { student_code: r.student_code, name: r.name || "someone",
+        klass: r.class || "", score: Number(r.score) };
     });
   }
 

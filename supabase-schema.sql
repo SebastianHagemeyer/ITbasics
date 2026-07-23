@@ -578,16 +578,20 @@ create policy game_votes_delete_anon on game_votes for delete to anon using (tru
 -- Per-game leaderboards, fed by game.submit_score(points) when someone plays
 -- a published game in the gallery. One row per player per game, best score
 -- only, so this stays tiny. Scores die with the game (cascade), the same as
--- upvotes: republishing starts a fresh board. "name" is stamped at submit
--- time so the gallery never needs a join to show the board.
+-- upvotes: republishing starts a fresh board. "name" is short ("Ali A.") and
+-- "class" is stamped at submit time too, so the board shows who and where
+-- without a join and without full surnames.
 create table if not exists game_scores (
   game_id       bigint not null references games(id) on delete cascade,
   student_code  text not null references students(code) on delete cascade,
   name          text not null default '',
+  class         text not null default '',
   score         double precision not null,
   updated_at    timestamptz not null default now(),
   primary key (game_id, student_code)
 );
+-- If you created game_scores before the class column existed, run:
+--   alter table game_scores add column if not exists class text not null default '';
 create index if not exists game_scores_game_idx on game_scores(game_id);
 
 alter table game_scores enable row level security;
