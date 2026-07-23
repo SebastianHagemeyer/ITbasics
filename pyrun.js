@@ -600,6 +600,14 @@ def _pyrun_install_game():
     def playing():
         return bool(_io.playing())
 
+    def hide_cursor(hidden=True):
+        # Hide the real mouse pointer while it is over the game window, so a
+        # sprite can play the pointer instead (a watering can, a crosshair).
+        _io.setCursor(bool(hidden))
+
+    def show_cursor():
+        _io.setCursor(False)
+
     def debug(on=True):
         # Turn on red hit-box outlines to see exactly what touches() checks.
         # The box is axis-aligned and ignores rotation and scale, on purpose:
@@ -652,6 +660,8 @@ def _pyrun_install_game():
     mod.box = box
     mod.label = label
     mod.pressed = pressed
+    mod.hide_cursor = hide_cursor
+    mod.show_cursor = show_cursor
     mod.mouse_x = mouse_x
     mod.mouse_y = mouse_y
     mod.mouse_in = mouse_in
@@ -841,7 +851,10 @@ del _pyrun_install_game
       gamePlaying = true;
       gameMouse.down = false; gameMouse.clicks = 0;
       const c = gameCtx();
-      if (c) c.clearRect(0, 0, c.canvas.width, c.canvas.height);
+      if (c) {
+        c.canvas.style.cursor = "";
+        c.clearRect(0, 0, c.canvas.width, c.canvas.height);
+      }
     },
     setup: function (w, h, bg) {
       gamePlaying = true;
@@ -852,6 +865,11 @@ del _pyrun_install_game
       c.canvas.width = Number(w) || 480;
       c.canvas.height = Number(h) || 360;
       c.canvas.style.background = String(bg || "#0b1020");
+      c.canvas.style.cursor = "";
+    },
+    setCursor: function (hidden) {
+      const c = gameCtx();
+      if (c) c.canvas.style.cursor = hidden ? "none" : "";
     },
     pressed: function (key) { return Boolean(gameKeys[String(key).toLowerCase()]); },
     mouseX: function () { return gameMouse.x; },

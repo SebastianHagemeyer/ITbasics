@@ -253,6 +253,7 @@
         { sig: 'game.mouse_x() / game.mouse_y()', desc: "Where the mouse pointer is, in game coordinates. game.mouse_in() is True while the pointer is over the game window.", ex: 'pet.x = game.mouse_x()\npet.y = game.mouse_y()' },
         { sig: 'game.clicked()', desc: "True once per fresh click on the game window, then False until the next click. One tap, one action: great for buttons and menus.", ex: 'if plant.at_mouse() and game.clicked():\n    plant.size = plant.size + 10' },
         { sig: 'game.mouse_down()', desc: "True while the mouse button is held, like pressed() but for the mouse.", ex: 'if game.mouse_down():\n    power = power + 1' },
+        { sig: 'game.hide_cursor()', desc: "Hide the real mouse pointer over the game window, so a sprite can be the pointer instead (a watering can, a crosshair). game.show_cursor() brings it back.", ex: 'game.hide_cursor()\ncan.x = game.mouse_x()' },
         { sig: 'sprite.at_mouse()', desc: "True while the mouse pointer is inside this sprite's collision box. Pair with game.clicked() to make clickable sprites and menu buttons.", ex: 'if start_btn.at_mouse() and game.clicked():\n    menu_open = False' },
         { sig: 'game.playing()', desc: "The loop condition: true while the game runs.", ex: 'while game.playing():\n    game.frame()' },
         { sig: 'game.frame(fps=30)', desc: "Draw one frame and wait. Put it at the end of the loop.", ex: 'game.frame()' },

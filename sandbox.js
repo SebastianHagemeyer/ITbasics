@@ -416,8 +416,10 @@
         "for i in range(4):\n" +
         '    plants.append(game.sprite("🌱", 90 + i * 100, 250, size=28))\n' +
         "\n" +
-        "# The watering can follows your mouse.\n" +
+        "# The watering can follows your mouse. Hide the real pointer so the\n" +
+        "# can IS the pointer.\n" +
         'can = game.sprite("🚿", 240, 180, size=36)\n' +
+        "game.hide_cursor()\n" +
         "\n" +
         "while game.playing():\n" +
         "    can.x = game.mouse_x()\n" +
@@ -518,6 +520,92 @@
         "            inside = inside + 1\n" +
         "    if inside == len(animals):\n" +
         '        game.game_over("All the animals are safe!")\n' +
+        "\n" +
+        "    game.frame()\n"
+    },
+    {
+      title: "Game: 3D maze (Doom-style)",
+      desc: "A real first-person maze, the same trick the original Doom used. Pure Python, 80 lines.",
+      code:
+        "import game\n" +
+        "import math\n" +
+        "\n" +
+        "# The map: # is a wall, . is floor, E is the glowing exit door.\n" +
+        'MAP = ["############",\n' +
+        '       "#..#.......#",\n' +
+        '       "#..#..##...#",\n' +
+        '       "#.....##...#",\n' +
+        '       "#..###.....#",\n' +
+        '       "#....#..#..#",\n' +
+        '       "##.#.#..#..#",\n' +
+        '       "#..#.....#E#",\n' +
+        '       "############"]\n' +
+        "\n" +
+        "W = 480\n" +
+        "H = 360\n" +
+        'game.window(W, H, background="#000000")\n' +
+        "\n" +
+        "# Sky above, floor below. The 3D view is drawn on top of these.\n" +
+        'game.box(W // 2, H // 4, W, H // 2, color="#2a3550")\n' +
+        'game.box(W // 2, 3 * H // 4, W, H // 2, color="#3d3228")\n' +
+        "\n" +
+        "# One thin box per screen column. Every frame we stretch and shade them.\n" +
+        "COLS = 60\n" +
+        "STRIP = W / COLS\n" +
+        "strips = []\n" +
+        "for i in range(COLS):\n" +
+        "    strips.append(game.box(i * STRIP + STRIP / 2, H // 2, STRIP + 1, 10,\n" +
+        '                           color="#000000"))\n' +
+        "\n" +
+        'game.label("Find the glowing door!  Arrows walk and turn.", 240, 20,\n' +
+        '           size=15, color="#ffffff", background="#000000")\n' +
+        "\n" +
+        "px = 1.5          # where the player stands on the map\n" +
+        "py = 1.5\n" +
+        "pa = 0.3          # which way they face, in radians\n" +
+        "FOV = 1.05        # how wide the view is (about 60 degrees)\n" +
+        "\n" +
+        "def cell(x, y):\n" +
+        "    if y < 0 or y >= len(MAP) or x < 0 or x >= len(MAP[0]):\n" +
+        '        return "#"\n' +
+        "    return MAP[int(y)][int(x)]\n" +
+        "\n" +
+        "while game.playing():\n" +
+        '    if game.pressed("left"):  pa = pa - 0.07\n' +
+        '    if game.pressed("right"): pa = pa + 0.07\n' +
+        "    step = 0\n" +
+        '    if game.pressed("up"):    step = 0.12\n' +
+        '    if game.pressed("down"):  step = -0.12\n' +
+        "    if step != 0:\n" +
+        "        nx = px + math.cos(pa) * step\n" +
+        "        ny = py + math.sin(pa) * step\n" +
+        '        if cell(nx, py) != "#": px = nx    # slide along walls\n' +
+        '        if cell(px, ny) != "#": py = ny\n' +
+        '    if cell(px, py) == "E":\n' +
+        '        game.game_over("You escaped the maze!")\n' +
+        "\n" +
+        "    # THE 3D TRICK: send one ray out per column of the screen. The\n" +
+        "    # further it flies before hitting a wall, the shorter we draw\n" +
+        "    # that column. That is the whole illusion.\n" +
+        "    for i in range(COLS):\n" +
+        "        ra = pa + FOV * (i / COLS - 0.5)\n" +
+        "        dx = math.cos(ra)\n" +
+        "        dy = math.sin(ra)\n" +
+        "        d = 0.2\n" +
+        '        hit = "#"\n' +
+        "        while d < 12:\n" +
+        "            hit = cell(px + dx * d, py + dy * d)\n" +
+        '            if hit == "#" or hit == "E":\n' +
+        "                break\n" +
+        "            d = d + 0.08\n" +
+        "        d = d * math.cos(ra - pa)      # straighten the fish-eye lens\n" +
+        "        s = strips[i]\n" +
+        "        s.h = min(H, 300 / d)\n" +
+        "        shade = max(40, 230 - int(d * 24))\n" +
+        '        if hit == "E":                 # the exit door glows green\n' +
+        '            s.color = "#%02x%02x%02x" % (shade // 4, shade, shade // 3)\n' +
+        "        else:\n" +
+        '            s.color = "#%02x%02x%02x" % (shade, shade // 3, shade // 4)\n' +
         "\n" +
         "    game.frame()\n"
     },
