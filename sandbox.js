@@ -425,7 +425,8 @@
         "\n" +
         "    if game.clicked():                # one tap = one action\n" +
         "        for p in plants:\n" +
-        "            if p.at_mouse():          # did we click ON this plant?\n" +
+        "            # Did we click ON this plant? Full-size plants stop growing.\n" +
+        "            if p.at_mouse() and p.size < 110:\n" +
         "                p.size = p.size + 14\n" +
         "                if p.size >= 70:\n" +
         '                    p.content = "🌻"  # fully grown!\n' +
