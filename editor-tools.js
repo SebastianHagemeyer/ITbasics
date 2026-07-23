@@ -1,14 +1,17 @@
 /*
  * Quality-of-life upgrades for every code editor (.sandbox-code) on a page.
  * Load this script before pyrun.js / challenges.js so its key handlers
- * register first. Two features:
+ * register first. Three features:
  *
  * 1. Block indent: with several lines selected, Tab indents them all by 4
  *    spaces and Shift+Tab un-indents. Shift+Tab also un-indents the current
  *    line with no selection. A plain Tab with no selection is left for the
  *    editor's own handler (insert 4 spaces).
  *
- * 2. Live indentation checking: a small strip under the editor warns about
+ * 2. Smart backspace: with the caret sitting after nothing but spaces, one
+ *    Backspace removes a whole indent level instead of one space at a time.
+ *
+ * 3. Live indentation checking: a small strip under the editor warns about
  *    the classic crashes BEFORE they run the code: a missing indent after a
  *    ':' line, an unexpected indent, a dedent that lines up with nothing,
  *    and tab characters in the indent. Pure string checks, debounced, so
@@ -81,6 +84,28 @@
     // Let the editor's own machinery (save-on-change etc.) know.
     editor.dispatchEvent(new Event("input", { bubbles: true }));
     setSelectionOffsets(editor, lineStart, lineStart + newBlock.length);
+  }
+
+  // ---- Smart backspace -------------------------------------------------------
+  // With the caret sitting after nothing but spaces, one Backspace removes a
+  // whole indent level (back to the previous multiple of 4) instead of one
+  // space at a time, like a proper code editor.
+  function onBackspaceKey(e) {
+    if (e.key !== "Backspace" || e.ctrlKey || e.metaKey || e.altKey) return;
+    const editor = e.currentTarget;
+    const pos = selectionOffsets(editor);
+    if (!pos || pos.start !== pos.end || pos.start === 0) return;
+    const text = editor.textContent;
+    const lineStart = text.lastIndexOf("\n", pos.start - 1) + 1;
+    const before = text.slice(lineStart, pos.start);
+    // Only when the line so far is pure indentation, two spaces or more.
+    if (before.length < 2 || /[^ ]/.test(before)) return;
+    // Delete back to the previous tab stop: 5 spaces -> 4, 4 -> 0, 3 -> 0.
+    const remove = ((before.length - 1) % 4) + 1;
+    if (remove < 2) return;
+    // Select the spaces and let the native Backspace delete the selection:
+    // the browser then handles the caret, undo stack and input events.
+    setSelectionOffsets(editor, pos.start - remove, pos.start);
   }
 
   // ---- Indentation linting ---------------------------------------------------
@@ -571,6 +596,7 @@
   function boot() {
     document.querySelectorAll(".sandbox-code").forEach(function (editor) {
       editor.addEventListener("keydown", onTabKey);
+      editor.addEventListener("keydown", onBackspaceKey);
       attachLint(editor);
     });
   }

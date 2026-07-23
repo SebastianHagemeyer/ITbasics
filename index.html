@@ -58,15 +58,15 @@
           <!-- pupils (tracked by JS) -->
           <circle cx="92" cy="76" r="6.5" fill="#0f1226" class="py-pupil" data-cx="92" data-cy="76"/>
           <circle cx="128" cy="76" r="6.5" fill="#0f1226" class="py-pupil" data-cx="128" data-cy="76"/>
-          <!-- highlights -->
-          <circle cx="95" cy="72" r="2.2" fill="white" pointer-events="none"/>
-          <circle cx="131" cy="72" r="2.2" fill="white" pointer-events="none"/>
+          <!-- highlights (ride along with the pupils) -->
+          <circle cx="95" cy="72" r="2.2" fill="white" class="py-shine" data-cx="95" data-cy="72" pointer-events="none"/>
+          <circle cx="131" cy="72" r="2.2" fill="white" class="py-shine" data-cx="131" data-cy="72" pointer-events="none"/>
 
           <!-- smile -->
           <path d="M 90 116 Q 110 130 130 116" stroke="#0f1226" stroke-width="3.5"
                 fill="none" stroke-linecap="round"/>
-          <!-- forked tongue -->
-          <path d="M 110 130 L 110 146 L 104 152 M 110 146 L 116 152"
+          <!-- forked tongue, flicking out of the smile -->
+          <path d="M 110 124 L 110 134 L 105 140 M 110 134 L 115 140"
                 stroke="#FF4444" stroke-width="2.8" fill="none" stroke-linecap="round"/>
         </svg>
       </div>
@@ -183,7 +183,9 @@
       function init() {
         const svg = document.querySelector(".python-mascot");
         if (!svg) return;
-        const pupils = svg.querySelectorAll(".py-pupil");
+        // The white shine dots carry the same data-cx/cy scheme, so they
+        // slide with the pupils instead of getting left behind on the eye.
+        const pupils = svg.querySelectorAll(".py-pupil, .py-shine");
         window.addEventListener("mousemove", function (e) {
           const r = svg.getBoundingClientRect();
           const cx = r.left + r.width / 2;

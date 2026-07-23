@@ -261,7 +261,7 @@
         explain: "range(4) gives 0, 1, 2, 3 \u2014 that\u2019s 4 steps."
       },
       {
-        q: "What will   print(5 // 2)   show?",
+        q: "What will <code>print(5 // 2)</code> show?",
         options: [
           "2.5",
           "2",
@@ -294,7 +294,7 @@
         explain: "Python uses # for single-line comments."
       },
       {
-        q: "What does   len('hello')   return?",
+        q: "What does <code>len('hello')</code> return?",
         options: [
           "4",
           "5",
@@ -327,7 +327,7 @@
         explain: "% is the modulo operator. 13 % 5 = 3."
       },
       {
-        q: "What does   True and False   evaluate to?",
+        q: "What does <code>True and False</code> evaluate to?",
         options: [
           "True",
           "False",
@@ -368,7 +368,7 @@
         explain: "&lt;title&gt; goes in &lt;head&gt;. It shows up in the browser tab."
       },
       {
-        q: "What does this Python code print?   print('ha' * 3)",
+        q: "What does this Python code print? <code>print('ha' * 3)</code>",
         options: ["ha 3", "hahaha", "ha ha ha", "An error"],
         answer: 1,
         explain: "Multiplying a string by 3 repeats it three times: hahaha."
@@ -391,7 +391,7 @@
         explain: "&lt;a&gt; is the anchor tag. Use href to set the destination."
       },
       {
-        q: "What is   13 % 5   in Python?",
+        q: "What is <code>13 % 5</code> in Python?",
         options: ["2", "2.6", "3", "8"],
         answer: 2,
         explain: "% gives the remainder. 13 ÷ 5 = 2 with 3 left over."
