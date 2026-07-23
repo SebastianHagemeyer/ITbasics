@@ -459,11 +459,11 @@
       { href: "/docs/", label: "Documentation" }
     ];
     var play = [
-      { href: "/freeplay/", label: "Freeplay" },
-      { href: "/challenges/", label: "Live Coding" },
       { href: "/sandbox/", label: "Sandbox" },
-      { href: "/games/", label: "Game Gallery" },
-      { href: "/leaderboard/", label: "Leaderboard" }
+      { href: "/challenges/", label: "Live Coding" },
+      { href: "/freeplay/", label: "Freeplay" },
+      { href: "/leaderboard/", label: "Leaderboard" },
+      { href: "/games/", label: "Game Gallery" }
     ];
     function active(href) { return href === "/" ? path === "/" : path.indexOf(href) === 0; }
     function items(list) {
