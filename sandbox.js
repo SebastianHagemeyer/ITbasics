@@ -494,6 +494,8 @@
         '                  size=20, color="#ffffff", background="#2a4a73")\n' +
         "\n" +
         'pen = game.box(360, 250, 200, 180, color="#8fce6e")\n' +
+        "pen.hitbox = (150, 130)   # count them only when properly inside\n" +
+        "#game.debug(True)         # uncomment to see the collision boxes\n" +
         "\n" +
         'animals = [game.sprite("chicken", 80, 100, size=44),\n' +
         '           game.sprite("dog", 80, 190, size=44),\n' +
