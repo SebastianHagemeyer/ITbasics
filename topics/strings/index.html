@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Strings | Hallam IT Basics</title>
+  <link rel="icon" type="image/svg+xml" href="/logo-binary.svg" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="stylesheet" href="/styles.css" />
+  <script>
+    (function () {
+      try {
+        if (!JSON.parse(localStorage.getItem("itbasics-session"))) {
+          location.replace("/");
+        }
+      } catch (e) { location.replace("/"); }
+    })();
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/" class="logo">
+        <img class="logo-mark" src="/logo-binary.svg" alt="" width="32" height="32" />
+        <span>Hallam IT Basics</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="/">Home</a>
+        <div class="nav-dropdown" data-open="false">
+          <button type="button" class="nav-dropdown-toggle active" aria-haspopup="true" aria-expanded="false">
+            Learn
+            <svg class="nav-chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="nav-dropdown-menu" role="menu">
+            <a href="/modules/" role="menuitem">All modules</a>
+            <a href="/docs/" role="menuitem">Documentation</a>
+          </div>
+        </div>
+        <div class="nav-dropdown" data-open="false">
+          <button type="button" class="nav-dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+            Play
+            <svg class="nav-chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="nav-dropdown-menu" role="menu">
+            <a href="/sandbox/" role="menuitem">Sandbox</a>
+            <a href="/challenges/" role="menuitem">Live Coding</a>
+            <a href="/freeplay/" role="menuitem">Freeplay</a>
+            <a href="/leaderboard/" role="menuitem">Leaderboard</a>
+          </div>
+        </div>
+        <a href="/assignments/">Assignments</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Python &middot; Lesson 2</p>
+        <h1>Strings</h1>
+        <p class="lead">Text in Python is called a <strong>string</strong>: a string of characters, one after another. Last lesson you stored them; today you join them, stretch them, shout them and measure them, and meet the sneakiest beginner trap in Python.</p>
+      </div>
+    </section>
+
+    <div class="container lesson-layout">
+      <aside class="lesson-toc" aria-label="On this page">
+        <h4>On this page</h4>
+        <ol>
+          <li><a href="#quotes">Text needs quotes</a></li>
+          <li><a href="#join">Joining strings</a></li>
+          <li><a href="#tools">Stretch, shout, whisper</a></li>
+          <li><a href="#len">Measuring with len()</a></li>
+          <li><a href="#trap">The "55" trap</a></li>
+          <li><a href="#test">Quick check</a></li>
+          <li><a href="#task">Coding task</a></li>
+        </ol>
+      </aside>
+
+      <article class="lesson">
+        <section id="quotes">
+          <h2>1. Text needs quotes</h2>
+          <p>Quotes tell Python &ldquo;this is text, not code&rdquo;. Single or double both work; just close what you open.</p>
+          <pre class="code">food <span class="c-op">=</span> <span class="c-string">"pizza"</span>
+feeling <span class="c-op">=</span> <span class="c-string">'happy'</span>
+
+<span class="c-keyword">print</span>(food)
+<span class="c-keyword">print</span>(<span class="c-string">"food"</span>)   <span class="c-comment"># quotes: prints the word food, not the box</span></pre>
+          <p>That last line is the classic slip: <code>food</code> opens the variable box, <code>"food"</code> is just the four letters f-o-o-d.</p>
+        </section>
+
+        <section id="join">
+          <h2>2. Joining strings with +</h2>
+          <p>On strings, <code>+</code> means <strong>stick together</strong> (the fancy word is <em>concatenation</em>). Python glues exactly what you give it, so spaces are your job:</p>
+          <pre class="code">first <span class="c-op">=</span> <span class="c-string">"Hallam"</span>
+second <span class="c-op">=</span> <span class="c-string">"Coder"</span>
+
+<span class="c-keyword">print</span>(first <span class="c-op">+</span> second)         <span class="c-comment"># HallamCoder, squashed!</span>
+<span class="c-keyword">print</span>(first <span class="c-op">+</span> <span class="c-string">" "</span> <span class="c-op">+</span> second)   <span class="c-comment"># with a space glued between</span></pre>
+        </section>
+
+        <section id="tools">
+          <h2>3. Stretch, shout, whisper</h2>
+          <p>Three tools you will use constantly:</p>
+          <pre class="code">word <span class="c-op">=</span> <span class="c-string">"echo"</span>
+
+<span class="c-keyword">print</span>(word <span class="c-op">*</span> <span class="c-num">3</span>)        <span class="c-comment"># * repeats a string</span>
+<span class="c-keyword">print</span>(word.upper())     <span class="c-comment"># SHOUT IT</span>
+<span class="c-keyword">print</span>(<span class="c-string">"HELLO"</span>.lower())  <span class="c-comment"># whisper it</span></pre>
+          <p><code>.upper()</code> and <code>.lower()</code> are written with a dot after the string, and give back a changed <em>copy</em>: the original stays as it was.</p>
+        </section>
+
+        <section id="len">
+          <h2>4. Measuring with len()</h2>
+          <p><code>len()</code> counts the characters, spaces included:</p>
+          <pre class="code"><span class="c-keyword">print</span>(<span class="c-keyword">len</span>(<span class="c-string">"cat"</span>))        <span class="c-comment"># 3</span>
+<span class="c-keyword">print</span>(<span class="c-keyword">len</span>(<span class="c-string">"hello there"</span>))  <span class="c-comment"># 11: the space counts too</span>
+
+name <span class="c-op">=</span> <span class="c-string">"Alexandra"</span>
+<span class="c-keyword">print</span>(<span class="c-string">"Your name has"</span>, <span class="c-keyword">len</span>(name), <span class="c-string">"letters"</span>)</pre>
+        </section>
+
+        <section id="trap">
+          <h2>5. The "55" trap</h2>
+          <p>Here is the sneakiest beginner trap in Python. <code>input()</code> <strong>always gives back a string</strong>, even when the user types a number. And <code>+</code> on strings joins:</p>
+          <pre class="code" data-inputs='["5"]'>number <span class="c-op">=</span> <span class="c-keyword">input</span>(<span class="c-string">"Type a number: "</span>)
+<span class="c-keyword">print</span>(number <span class="c-op">+</span> number)   <span class="c-comment"># surprise!</span></pre>
+          <p>Type <code>5</code> and you get <code>55</code>, because Python joined the string <code>"5"</code> to the string <code>"5"</code>. To do real maths, convert the string into a number with <code>int()</code>:</p>
+          <pre class="code" data-inputs='["5"]'>number <span class="c-op">=</span> <span class="c-keyword">int</span>(<span class="c-keyword">input</span>(<span class="c-string">"Type a number: "</span>))
+<span class="c-keyword">print</span>(number <span class="c-op">+</span> number)   <span class="c-comment"># now it is 10</span></pre>
+          <div class="callout">
+            <strong>Remember it as a rule:</strong> keyboard gives strings; <code>int()</code> turns a string into a whole number you can do maths on. This one line of knowledge fixes half of all beginner bugs.
+          </div>
+        </section>
+
+        <section id="test">
+          <h2>6. Quick check <span class="lesson-step-tag">Part 1 of 2</span></h2>
+          <p>Six quick questions. This is half of completing the module. The coding task below is the other half.</p>
+          <div class="module-test" data-test="strings">
+            <div class="mtest-q" data-answer="b">
+              <p class="mtest-prompt">Which of these is a string?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a"><code>42</code></button>
+                <button type="button" class="mtest-opt" data-key="b"><code>"42"</code></button>
+                <button type="button" class="mtest-opt" data-key="c"><code>forty_two</code></button>
+                <button type="button" class="mtest-opt" data-key="d"><code>len</code></button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="c">
+              <p class="mtest-prompt">What does <code>"ha" * 3</code> give?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a"><code>ha3</code></button>
+                <button type="button" class="mtest-opt" data-key="b"><code>ha ha ha</code></button>
+                <button type="button" class="mtest-opt" data-key="c"><code>hahaha</code></button>
+                <button type="button" class="mtest-opt" data-key="d">An error</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="a">
+              <p class="mtest-prompt">What does <code>len("apple")</code> give?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">5</button>
+                <button type="button" class="mtest-opt" data-key="b">6</button>
+                <button type="button" class="mtest-opt" data-key="c"><code>"apple"</code></button>
+                <button type="button" class="mtest-opt" data-key="d">4</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="d">
+              <p class="mtest-prompt">What does <code>"5" + "5"</code> give?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a"><code>10</code></button>
+                <button type="button" class="mtest-opt" data-key="b">An error</button>
+                <button type="button" class="mtest-opt" data-key="c"><code>25</code></button>
+                <button type="button" class="mtest-opt" data-key="d"><code>"55"</code></button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="b">
+              <p class="mtest-prompt">What does <code>"hi".upper()</code> give?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a"><code>hi</code></button>
+                <button type="button" class="mtest-opt" data-key="b"><code>HI</code></button>
+                <button type="button" class="mtest-opt" data-key="c"><code>Hi</code></button>
+                <button type="button" class="mtest-opt" data-key="d"><code>hi hi</code></button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="c">
+              <p class="mtest-prompt">The user types <code>7</code> when your code runs <code>answer = input("Number? ")</code>. What is in <code>answer</code>?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">The number 7</button>
+                <button type="button" class="mtest-opt" data-key="b">The number 77</button>
+                <button type="button" class="mtest-opt" data-key="c">The string "7"</button>
+                <button type="button" class="mtest-opt" data-key="d">Nothing, it is an error</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="task" class="project">
+          <h2>7. Coding task: The word machine <span class="lesson-step-tag">Part 2 of 2</span></h2>
+          <p>Write a real program below and press <strong>Check</strong>. Read a word, then shout it, stretch it and count it, using today's three tools. The robot tries different words, so the string tools have to do the work. Passing this is the other half of completing the module.</p>
+
+          <div class="challenge-brief" id="challenge-brief"></div>
+
+          <div class="sandbox-shell challenge-shell">
+            <div class="sandbox-editor">
+              <div class="sandbox-bar">
+                <span class="sandbox-title" id="challenge-file">solution.py</span>
+                <div class="sandbox-bar-actions">
+                  <button type="button" class="btn btn-ghost challenge-reset" title="Reset to the starter code">Reset</button>
+                  <button type="button" class="btn btn-ghost challenge-run" id="challenge-run">
+                    <span class="challenge-run-label">Run</span>
+                  </button>
+                  <button type="button" class="btn btn-primary challenge-check" id="challenge-check">
+                    <span class="challenge-check-label">Check</span>
+                  </button>
+                </div>
+              </div>
+              <div class="sandbox-code language-python" id="challenge-code" spellcheck="false"></div>
+            </div>
+            <div class="sandbox-output">
+              <div class="sandbox-bar">
+                <span class="sandbox-title">Output</span>
+                <button type="button" class="btn btn-ghost challenge-clear" title="Clear the output">Clear</button>
+              </div>
+              <pre class="sandbox-out-body" id="challenge-output"></pre>
+            </div>
+          </div>
+
+          <div class="challenge-results" id="challenge-results" hidden></div>
+
+          <p class="sandbox-hint">
+            <kbd>Ctrl</kbd>+<kbd>Enter</kbd> runs your code &middot;
+            <kbd>Tab</kbd> inserts 4 spaces &middot;
+            Python loads the first time you press Run or Check (5-10 seconds), then it&rsquo;s instant.
+          </p>
+
+          <div class="callout">
+            <strong>How the module is marked:</strong> the quick check is worth 50% and this coding task is worth 50%. Do both to reach 100%. Your teacher can see your score on the progress page.
+          </div>
+        </section>
+
+        <div class="lesson-nav">
+          <a href="/topics/variables/" class="btn btn-ghost">&larr; Variables</a>
+          <a href="/topics/decisions/" class="btn btn-primary">Next: Making Decisions <span class="arrow" aria-hidden="true"></span></a>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; Hallam IT Basics &middot; For Years 7-10 computing classes.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/prism.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-python.min.js"></script>
+  <script src="/supabase-config.js"></script>
+  <script src="/app.js"></script>
+  <script>window.CHALLENGE_ONLY = "strings-shout";</script>
+  <script src="/moduletest.js"></script>
+  <script src="/editor-tools.js"></script>
+  <script src="/challenges.js"></script>
+  <script src="/code-maximise.js"></script>
+  <script src="/snippet-run.js"></script>
+</body>
+</html>

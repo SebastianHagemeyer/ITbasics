@@ -9,6 +9,8 @@
     { key: "programming", label: "Programming",    href: "/topics/programming/" },
     { key: "html",        label: "HTML",           href: "/topics/html/" },
     { key: "python",      label: "Python",         href: "/topics/python/" },
+    { key: "variables",   label: "Variables",      href: "/topics/variables/" },
+    { key: "strings",     label: "Strings",        href: "/topics/strings/" },
     { key: "decisions",   label: "Making Decisions", href: "/topics/decisions/" },
     { key: "loops",       label: "Loops",          href: "/topics/loops/" },
     { key: "binary",      label: "Binary & Data",  href: "/topics/binary/" },
@@ -72,7 +74,7 @@
       if (res.error) return { error: res.error.message, rows: [] };
       return { rows: res.data || [] };
     }
-    var names = ["programming", "html", "python", "decisions", "decisions-task", "loops", "loops-for-task", "loops-while-task", "binary", "codes", "codes-task", "systems", "networks", "os", "freeplay", "livecoding"];
+    var names = ["programming", "html", "python", "variables", "variables-task", "strings", "strings-task", "decisions", "decisions-task", "loops", "loops-for-task", "loops-while-task", "binary", "codes", "codes-task", "systems", "networks", "os", "freeplay", "livecoding"];
     var rows = [];
     names.forEach(function (name) {
       var raw = localStorage.getItem("itbasics-attempts-" + student.code + "-" + name);
@@ -97,6 +99,30 @@
       var best = mine.reduce(function (a, r) { return r.score > a.score ? r : a; }, mine[0]);
       var total = mine.reduce(function (t, r) { return Math.max(t, r.total || 0); }, 0);
       modules[m.key] = { attempted: true, best: best.score, total: total, attempts: mine.length };
+    });
+
+    // Variables and Strings blend two halves the same way as Making Decisions:
+    // the quick check (50%) and the coding task (50%).
+    ["variables", "strings"].forEach(function (key) {
+      var testRows = rows.filter(function (r) { return r.quiz_name === key; });
+      var taskDone = rows.some(function (r) {
+        return r.quiz_name === key + "-task" && r.answers && r.answers.challenge;
+      });
+      var tBest = 0, tTotal = 0, tPct = 0;
+      if (testRows.length) {
+        var tb = testRows.reduce(function (a, r) { return r.score > a.score ? r : a; }, testRows[0]);
+        tTotal = testRows.reduce(function (t, r) { return Math.max(t, r.total || 0); }, 0);
+        tBest = tb.score;
+        tPct = tTotal ? Math.round((tBest / tTotal) * 100) : 0;
+      }
+      var attempted = testRows.length > 0 || taskDone;
+      modules[key] = {
+        attempted: attempted,
+        pct: Math.round(0.5 * tPct + 0.5 * (taskDone ? 100 : 0)),
+        note: attempted
+          ? ("Test " + tBest + "/" + (tTotal || 6) + " · Task " + (taskDone ? "done" : "not yet"))
+          : "Take the quick check and the coding task"
+      };
     });
 
     // Making Decisions blends two halves: the quick test (quiz_name "decisions",

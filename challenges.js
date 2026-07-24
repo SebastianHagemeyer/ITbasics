@@ -177,6 +177,53 @@
       ]
     },
     {
+      // The "Variables" module task, embedded on /topics/variables/. Three
+      // runs with different names force the program to actually USE its
+      // variables: hardcoded prints can't match every run.
+      id: "variables-nametag",
+      tier: "beginner",
+      module: "variables",
+      recordAs: "variables-task",
+      title: "The name tag maker",
+      brief: "Store what the user types in variables, then use them to print a name tag.",
+      detail: "Ask for a <strong>name</strong> and a <strong>favourite animal</strong> with <code>input()</code>, storing each in its own variable. Then print two lines that use them: a greeting with the name, and a line that says what they love. The robot tests it with different people, so the variables have to do the work.",
+      accept: 'With name Sam and animal dogs, printing "Hello Sam!" and then "Sam loves dogs" passes. Any friendly wording works, as long as the output uses whatever was typed.',
+      starter:
+        '# The name tag maker\n' +
+        'name = input("What is your name? ")\n' +
+        '# 1. ask for their favourite animal, store it in a variable\n' +
+        '# 2. print a greeting that uses name\n' +
+        '# 3. print a line that uses BOTH variables\n',
+      tests: [
+        { label: "Sam who loves dogs", inputs: ["Sam", "dogs"], check: function (r) { return checkNametag(r, "Sam", "dogs"); } },
+        { label: "Aisha who loves cats", inputs: ["Aisha", "cats"], check: function (r) { return checkNametag(r, "Aisha", "cats"); } },
+        { label: "Rex who loves turtles", inputs: ["Rex", "turtles"], check: function (r) { return checkNametag(r, "Rex", "turtles"); } }
+      ]
+    },
+    {
+      // The "Strings" module task, embedded on /topics/strings/. Again the
+      // robot varies the word so string tools, not fixed text, must be used.
+      id: "strings-shout",
+      tier: "beginner",
+      module: "strings",
+      recordAs: "strings-task",
+      title: "The word machine",
+      brief: "Read a word, then shout it, stretch it, and count it.",
+      detail: "Ask for a <strong>word</strong> with <code>input()</code>. Then print three lines: the word <strong>shouted</strong> (<code>.upper()</code> with a <code>\"!\"</code>), the word repeated <strong>three times</strong> stuck together (<code>word * 3</code>), and <strong>how many letters</strong> it has (<code>len(word)</code>).",
+      accept: 'For cat: a line with <code>CAT</code>, a line with <code>catcatcat</code>, and the number <code>3</code> somewhere. The robot tries other words too.',
+      starter:
+        '# The word machine\n' +
+        'word = input("Give me a word: ")\n' +
+        '# 1. print it SHOUTED: word.upper() plus a "!"\n' +
+        '# 2. print it three times stuck together: word * 3\n' +
+        '# 3. print how many letters it has: len(word)\n',
+      tests: [
+        { label: "cat", inputs: ["cat"], check: function (r) { return checkWordMachine(r, "cat"); } },
+        { label: "python", inputs: ["python"], check: function (r) { return checkWordMachine(r, "python"); } },
+        { label: "banana", inputs: ["banana"], check: function (r) { return checkWordMachine(r, "banana"); } }
+      ]
+    },
+    {
       // Loops module, "for" task. Same grader as Countdown, but tagged with a
       // module + its own recordAs so passing it is one quarter of the Loops
       // module. Embedded on /topics/loops/ via a .module-task wrapper.
@@ -527,6 +574,16 @@
       'if age >= 13: print a message that lets them in',
       "else: print a message that turns them away"
     ],
+    "variables-nametag": [
+      'animal = input("Favourite animal? ")',
+      'print("Hello " + name + "!")',
+      'print(name + " loves " + animal)'
+    ],
+    "strings-shout": [
+      'print(word.upper() + "!")',
+      "print(word * 3)",
+      "print(len(word))"
+    ],
     "loops-for": [
       "range(5, 0, -1) counts 5, 4, 3, 2, 1",
       "inside the loop, print(i)",
@@ -641,6 +698,42 @@
   function norm(s) { return String(s || "").toLowerCase(); }
   function pass(why) { return { pass: true, why: why || "Looks good." }; }
   function fail(why) { return { pass: false, why: why }; }
+
+  // Variables module: the output must use both typed-in values, and one line
+  // must combine them. Different names across the test runs stop hardcoding.
+  function checkNametag(r, name, animal) {
+    if (r.error) return fail("Your code stopped with an error: " + r.error);
+    const out = String(r.output || "");
+    if (out.indexOf(name) === -1) {
+      return fail('I could not find the name "' + name + '" in your output. Print the variable, not a fixed word.');
+    }
+    if (out.indexOf(animal) === -1) {
+      return fail('I could not find "' + animal + '" in your output. Store the animal in a variable and print it too.');
+    }
+    const together = out.split("\n").some(function (l) {
+      return l.indexOf(name) !== -1 && l.indexOf(animal) !== -1;
+    });
+    if (!together) {
+      return fail("One line should use BOTH variables together, like: " + name + " loves " + animal);
+    }
+    return pass("Name tag printed, variables doing the work.");
+  }
+
+  // Strings module: shout with .upper(), stretch with * 3, count with len().
+  function checkWordMachine(r, w) {
+    if (r.error) return fail("Your code stopped with an error: " + r.error);
+    const out = String(r.output || "");
+    if (out.indexOf(w.toUpperCase()) === -1) {
+      return fail("I could not find " + w.toUpperCase() + " (the word in capitals). Shout it with word.upper().");
+    }
+    if (norm(out).indexOf(w + w + w) === -1) {
+      return fail('I could not find "' + (w + w + w) + '". Stretch it with word * 3.');
+    }
+    if (!new RegExp("\\b" + w.length + "\\b").test(out)) {
+      return fail("I could not find the number " + w.length + " (how many letters). Count them with len(word).");
+    }
+    return pass("Shouted, stretched and counted. The word machine works.");
+  }
 
   // The Hello World colour task compares colours ACROSS its two test runs:
   // the "favourite" run records its colour, the "least" run must differ.
