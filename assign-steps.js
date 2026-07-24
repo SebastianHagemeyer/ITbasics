@@ -1,9 +1,10 @@
 /*
  * Progressive steps for assignment pages: collapses every .assign-step into
- * an accordion to cut cognitive load. The current step is open; steps ahead
- * are locked (collapsed, dimmed, not openable) until the step above has all
- * its self-checks ticked and reflection boxes answered; completed steps
- * auto-collapse with a tick and stay clickable for reference. Sections with
+ * an accordion to cut cognitive load. Exactly one step is open at a time:
+ * opening a step folds the others, and finishing one folds it and opens the
+ * next. Steps ahead are locked (collapsed, dimmed, not openable) until the
+ * step above has all its self-checks ticked and reflection boxes answered;
+ * completed steps keep a tick and stay clickable for reference. Sections with
  * no checks or reflections (extensions, rubric) are never locked, just
  * collapsed by default. The submit section is left alone entirely.
  *
@@ -99,6 +100,11 @@
     if (st.locked) return;
     var isOpen = !st.body.hidden;
     st.userOpen = !isOpen;
+    // One step at a time: opening this one folds every other step away, so
+    // the page never grows a wall of expanded sections.
+    if (st.userOpen) {
+      steps.forEach(function (o) { if (o !== st) o.userOpen = false; });
+    }
     update();
   }
 
@@ -140,11 +146,10 @@
     visible.forEach(function (st) {
       if (st === current) passedCurrent = true;
 
-      // A step that just got finished stays open (nothing ever collapses
-      // under the student's cursor); it keeps its ✓ badge and they can hide
-      // it themselves. The next step unlocks and opens below.
+      // A step that just got finished folds away with its ✓ tick and the
+      // next one opens in its place, so exactly one step is ever expanded.
       if (st._req && st.wasComplete === false && st._complete) {
-        st.userOpen = true;
+        visible.forEach(function (o) { o.userOpen = false; });
         var i = visible.indexOf(st);
         if (visible[i + 1]) visible[i + 1].userOpen = null;
       }

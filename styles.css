@@ -3413,6 +3413,19 @@ kbd {
 .snippet-box .token.builtin         { color: #82aaff; }
 
 /* Self-check lists */
+/* Collapsible callouts: the yellow info boxes fold to one line until asked. */
+details.callout-collapse { padding: 0; }
+details.callout-collapse summary {
+  cursor: pointer;
+  font-weight: 700;
+  padding: 10px 16px;
+  list-style-position: inside;
+}
+details.callout-collapse summary:hover { text-decoration: underline; }
+details.callout-collapse .callout-body { padding: 0 16px 12px; }
+details.callout-collapse .callout-body p { margin: 0 0 10px; }
+details.callout-collapse .callout-body p:last-child { margin-bottom: 0; }
+
 /* Legacy shelf on the Modules page: collapsed, dimmed, clearly retired. */
 .legacy-block {
   margin-top: 36px;
