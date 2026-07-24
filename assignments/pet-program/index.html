@@ -89,6 +89,11 @@
 
       <!-- ============ track picker ============ -->
       <section class="assign-tracks">
+        <!-- Once a path is picked the whole picker collapses to this slim bar. -->
+        <div class="track-current" id="track-current" hidden>
+          <span class="track-current-label">Your path: <strong id="track-current-name"></strong></span>
+          <button type="button" class="btn btn-ghost" id="track-change">Change path</button>
+        </div>
         <h2>Step 0: Pick your path</h2>
         <p>
           Both paths teach the exact same skills (<code>input()</code>, <code>int()</code>, loops,

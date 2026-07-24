@@ -3442,6 +3442,22 @@ details.callout-collapse .callout-body p:last-child { margin-bottom: 0; }
 .legacy-block .card { opacity: 0.75; }
 .legacy-block .card:hover { opacity: 1; }
 
+/* Track picker collapse: once a path is picked, only the slim bar shows. */
+.assign-tracks.track-chosen > h2,
+.assign-tracks.track-chosen > p,
+.assign-tracks.track-chosen .track-picker { display: none; }
+.track-current {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 10px 16px;
+}
+.track-current-label strong { color: var(--primary-dark); }
+
 /* Machine check: the robot vet tester on the Pet Project */
 .pp-test {
   background: var(--surface);
