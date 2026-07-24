@@ -58,14 +58,15 @@
       <div class="container">
         <p class="eyebrow">Class standings</p>
         <h1>Leaderboard</h1>
-        <p class="lead">Two boards in one. <strong>Quiz</strong> ranks your quiz and Freeplay points; <strong>Live Coding</strong> ranks how many coding challenges you've cracked. Switch between them and filter by class.</p>
+        <p class="lead">Two boards in one. <strong>Live Coding</strong> ranks how many coding challenges you've cracked; <strong>Freeplay</strong> ranks your practice points. Switch between them and filter by class.</p>
       </div>
     </section>
 
     <div class="container section">
+      <!-- The Quiz board is retired from display (scores are still stored);
+           the quizzes themselves live on under Legacy on the Modules page. -->
       <div class="quiz-tabs leaderboard-modes" role="tablist" data-tabs="mode">
-        <button class="quiz-tab active" data-mode="quiz" role="tab">Quiz</button>
-        <button class="quiz-tab" data-mode="livecoding" role="tab">Live Coding</button>
+        <button class="quiz-tab active" data-mode="livecoding" role="tab">Live Coding</button>
         <button class="quiz-tab" data-mode="freeplay" role="tab">Freeplay</button>
       </div>
 

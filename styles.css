@@ -3413,6 +3413,76 @@ kbd {
 .snippet-box .token.builtin         { color: #82aaff; }
 
 /* Self-check lists */
+/* Collapsible callouts: the yellow info boxes fold to one line until asked. */
+details.callout-collapse { padding: 0; }
+details.callout-collapse summary {
+  cursor: pointer;
+  font-weight: 700;
+  padding: 10px 16px;
+  list-style-position: inside;
+}
+details.callout-collapse summary:hover { text-decoration: underline; }
+details.callout-collapse .callout-body { padding: 0 16px 12px; }
+details.callout-collapse .callout-body p { margin: 0 0 10px; }
+details.callout-collapse .callout-body p:last-child { margin-bottom: 0; }
+
+/* Legacy shelf on the Modules page: collapsed, dimmed, clearly retired. */
+.legacy-block {
+  margin-top: 36px;
+  border-top: 1px solid var(--border);
+  padding-top: 14px;
+}
+.legacy-block summary {
+  cursor: pointer;
+  font-weight: 700;
+  color: var(--muted);
+}
+.legacy-block summary:hover { color: var(--text); }
+.legacy-note { color: var(--muted); font-size: 0.9rem; margin: 8px 0 12px; }
+.legacy-block .card { opacity: 0.75; }
+.legacy-block .card:hover { opacity: 1; }
+
+/* Machine check: the robot vet tester on the Pet Project */
+.pp-test {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  margin-bottom: 16px;
+}
+.pp-test-blurb { margin: 0 0 10px; }
+.pp-test-bar { display: flex; align-items: center; gap: 12px; }
+.pp-test-score { font-weight: 800; }
+.pp-test-score.all-pass { color: #1c8a4c; }
+.pp-test-score.some-fail { color: var(--danger); }
+.pp-test-results { margin-top: 10px; }
+.pp-test-running { color: var(--muted); margin: 4px 0; }
+.pp-test-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 7px 10px;
+  border-radius: 8px;
+  margin-bottom: 6px;
+}
+.pp-test-row.pass { background: rgba(34, 170, 90, 0.1); }
+.pp-test-row.fail { background: rgba(214, 60, 60, 0.08); }
+.pp-test-pill {
+  flex: none;
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  padding: 2px 8px;
+  border-radius: 999px;
+  color: #fff;
+  margin-top: 2px;
+}
+.pp-test-row.pass .pp-test-pill { background: #1c8a4c; }
+.pp-test-row.fail .pp-test-pill { background: var(--danger); }
+.pp-test-title { font-weight: 700; }
+.pp-test-hint { font-size: 0.9rem; color: var(--muted); margin-top: 2px; }
+.pp-test-bonus { margin: 8px 0 0; font-size: 0.9rem; color: var(--muted); font-style: italic; }
+
 .check-list {
   display: flex;
   flex-direction: column;

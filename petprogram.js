@@ -422,6 +422,134 @@
     if (toast._timer) { clearTimeout(toast._timer); toast._timer = null; }
   }
 
+  // ---- Machine check: the robot vet tests the calculator ----------------------
+  // Feeds the student's program scripted inputs through the shared headless
+  // grader (window.ITCode.run from challenges.js) and marks three things:
+  // does it calculate pet years, does it survive silly input, does it quit.
+
+  // Work out the student's multiplier from a run where the robot typed 6 then
+  // 10: whatever m makes both 6*m and 10*m appear (in order) in the output.
+  function inferMultiplier(out) {
+    const nums = (String(out || "").match(/-?\d+/g) || []).map(Number);
+    for (let m = 2; m <= 15; m++) {
+      const i = nums.indexOf(6 * m);
+      if (i !== -1 && nums.indexOf(10 * m, i + 1) !== -1) return m;
+    }
+    return 0;
+  }
+
+  function initTester() {
+    const btn = $("#pp-test-btn");
+    if (!btn) return;
+    const box = $("#pp-test-results");
+    const scoreEl = $("#pp-test-score");
+
+    function render(results, bonus) {
+      box.innerHTML = "";
+      let passed = 0;
+      results.forEach(function (r) {
+        if (r.ok) passed++;
+        const row = document.createElement("div");
+        row.className = "pp-test-row " + (r.ok ? "pass" : "fail");
+        const pill = document.createElement("span");
+        pill.className = "pp-test-pill";
+        pill.textContent = r.ok ? "PASS" : "FIX";
+        row.appendChild(pill);
+        const body = document.createElement("div");
+        const title = document.createElement("div");
+        title.className = "pp-test-title";
+        title.textContent = r.title;
+        body.appendChild(title);
+        if (!r.ok && r.hint) {
+          const hint = document.createElement("div");
+          hint.className = "pp-test-hint";
+          hint.textContent = r.hint;
+          body.appendChild(hint);
+        }
+        row.appendChild(body);
+        box.appendChild(row);
+      });
+      if (bonus) {
+        const note = document.createElement("p");
+        note.className = "pp-test-bonus";
+        note.textContent = bonus;
+        box.appendChild(note);
+      }
+      scoreEl.textContent = passed + "/" + results.length +
+        (passed === results.length ? " - all working!" : "");
+      scoreEl.className = "pp-test-score " +
+        (passed === results.length ? "all-pass" : "some-fail");
+    }
+
+    btn.addEventListener("click", async function () {
+      if (!window.ITCode || !window.ITCode.run) {
+        box.textContent = "The tester could not load. Refresh the page and try again.";
+        return;
+      }
+      const code = runner.getCode();
+      btn.disabled = true;
+      scoreEl.textContent = "";
+      scoreEl.className = "pp-test-score";
+      box.innerHTML = '<p class="pp-test-running">The robot vet is trying your program' +
+        " (the first go loads Python, give it a few seconds)&hellip;</p>";
+      try {
+        const results = [];
+
+        // 1. The maths: robot types 6, then 10, then quits.
+        const r1 = await window.ITCode.run(code, ["6", "10", "quit", "quit", "quit"]);
+        const m = inferMultiplier(r1.output);
+        if (m) {
+          results.push({ ok: true, title: "Calculates pet years (your multiplier looks like x" + m + ")" });
+        } else {
+          results.push({ ok: false, title: "Calculates pet years",
+            hint: "The robot typed 6 and then 10 as ages, but the output never showed " +
+              "6 x your multiplier followed by 10 x your multiplier. Check the maths in Part 3." +
+              (r1.error ? " (The program stopped with: " + r1.error + ")" : "") });
+        }
+
+        // 2. Silly input: robot types banana, then a real age, then quits.
+        const r2 = await window.ITCode.run(code, ["banana", "5", "quit", "quit", "quit"]);
+        const crashed = r2.error && !/^EOFError/.test(r2.error);
+        if (!crashed) {
+          results.push({ ok: true, title: "Survives silly input (the robot typed banana)" });
+        } else {
+          results.push({ ok: false, title: "Survives silly input (the robot typed banana)",
+            hint: "Typing banana crashed it with: " + r2.error + ". Guard the int() " +
+              "conversion with try/except, that is exactly what Part 5 shows." });
+        }
+
+        // 3. The polite quit: robot types quit straight away.
+        const r3 = await window.ITCode.run(code, ["quit"]);
+        if (!r3.error) {
+          results.push({ ok: true, title: "Ends politely when the user types quit" });
+        } else {
+          results.push({ ok: false, title: "Ends politely when the user types quit",
+            hint: /^EOFError/.test(r3.error)
+              ? "The robot typed quit but your program kept asking for more. You need " +
+                'if answer == "quit": break inside the loop, that is Part 4.'
+              : "Typing quit stopped the program with an error: " + r3.error +
+                ". Check for quit BEFORE turning the answer into a number." });
+        }
+
+        // Bonus observation (not marked): the sneaky negative age from Part 3.
+        let bonus = null;
+        if (m) {
+          const r4 = await window.ITCode.run(code, ["-3", "quit", "quit"]);
+          if (!r4.error && new RegExp("-" + 3 * m + "\\b").test(r4.output || "")) {
+            bonus = "Bonus idea: the robot typed -3 and your calculator happily answered " +
+              (-3 * m) + " pet years. Catching impossible ages is one of the extensions.";
+          }
+        }
+
+        render(results, bonus);
+      } catch (e) {
+        box.textContent = "The tester hit a problem: " + (e && e.message ? e.message : e);
+      } finally {
+        btn.disabled = false;
+      }
+    });
+  }
+
   // ---- Persisted self-checks and reflections ----------------------------------
 
   function initChecks() {
@@ -652,6 +780,7 @@
     await hydrateProgress();
     track = localStorage.getItem(localKey("track")) || track;
     initChecks();
+    initTester();
     if (noteEl) {
       if (!noteEl.value) noteEl.value = localStorage.getItem(localKey("note")) || "";
       noteEl.addEventListener("input", function () {

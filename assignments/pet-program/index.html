@@ -69,21 +69,22 @@
 
       <!-- ============ intro ============ -->
       <section class="assign-intro">
-        <div class="callout">
-          <strong>How this works:</strong> everything happens on this page. Write and run your code in
-          the editor below, follow the steps in order, and press <strong>Submit</strong> at the bottom
-          when you're done. Your code saves automatically on this computer as you type.
-          The <strong>Add to editor</strong> buttons drop example code at the <em>bottom</em> of
-          whatever you've already written; merging it into your program (and deleting the old bits it
-          replaces) is your job. There's always an Undo if it goes wrong.
-          <a href="#rubric">How you'll be marked</a> is at the bottom (11 marks).
-        </div>
-        <div class="callout">
-          <strong>The code in each step is a guide, not a script to copy.</strong> It shows what
-          working code <em>can</em> look like. You are encouraged to use your <strong>own variable
-          names</strong>, and to break a line into smaller steps if that makes more sense in your
-          head. As long as it works and does the right thing, it is correct.
-        </div>
+        <details class="callout callout-collapse">
+          <summary>Confused? How this page works</summary>
+          <div class="callout-body">
+            <p><strong>How this works:</strong> everything happens on this page. Write and run your code in
+            the editor below, follow the steps in order, and press <strong>Submit</strong> at the bottom
+            when you're done. Your code saves automatically on this computer as you type.
+            The <strong>Add to editor</strong> buttons drop example code at the <em>bottom</em> of
+            whatever you've already written; merging it into your program (and deleting the old bits it
+            replaces) is your job. There's always an Undo if it goes wrong.
+            <a href="#rubric">How you'll be marked</a> is at the bottom (11 marks).</p>
+            <p><strong>The code in each step is a guide, not a script to copy.</strong> It shows what
+            working code <em>can</em> look like. You are encouraged to use your <strong>own variable
+            names</strong>, and to break a line into smaller steps if that makes more sense in your
+            head. As long as it works and does the right thing, it is correct.</p>
+          </div>
+        </details>
       </section>
 
       <!-- ============ track picker ============ -->
@@ -188,14 +189,16 @@
            ================================================================ -->
       <div class="track-pane" data-track="calc" hidden>
 
-        <div class="callout assign-goal">
-          <strong>The goal: build a machine a vet could use.</strong>
-          A customer types their pet's age, your program answers in pet years, then it serves the
-          next customer, and the next, until someone types <code>quit</code>. And no matter what
-          nonsense gets typed (banana, 2.5, nothing at all), it never crashes.
-          <em>The test of success:</em> swap seats with a classmate. If they can get three answers
-          out of it and can't crash it, you've built it.
-        </div>
+        <details class="callout assign-goal callout-collapse">
+          <summary>The goal: build a machine a vet could use</summary>
+          <div class="callout-body">
+            A customer types their pet's age, your program answers in pet years, then it serves the
+            next customer, and the next, until someone types <code>quit</code>. And no matter what
+            nonsense gets typed (banana, 2.5, nothing at all), it never crashes.
+            <em>The test of success:</em> swap seats with a classmate. If they can get three answers
+            out of it and can't crash it, you've built it.
+          </div>
+        </details>
 
         <section class="assign-step">
           <h2><span class="step-num">Part 0</span> Choose your pet</h2>
@@ -437,6 +440,19 @@
 
         <section class="assign-step">
           <h2><span class="step-num">Finish</span> Final self-check</h2>
+
+          <div class="pp-test">
+            <p class="pp-test-blurb"><strong>Machine check.</strong> Press the button and our robot vet
+            takes your program for a spin: it types real ages, types <code>banana</code>, and types
+            <code>quit</code>, then marks what happened. Green means that part works; red tells you
+            exactly what to fix and which Part explains it.</p>
+            <div class="pp-test-bar">
+              <button type="button" class="btn btn-primary" id="pp-test-btn">Test my code</button>
+              <span class="pp-test-score" id="pp-test-score"></span>
+            </div>
+            <div class="pp-test-results" id="pp-test-results"></div>
+          </div>
+
           <div class="check-list">
             <label class="check-item"><input type="checkbox" class="self-check" data-check="c-final-ask" /> My program asks for the pet's age.</label>
             <label class="check-item"><input type="checkbox" class="self-check" data-check="c-final-maths" /> It calculates pet years correctly for the pet I chose.</label>
@@ -454,8 +470,9 @@
            ================================================================ -->
       <div class="track-pane" data-track="turtle" hidden>
 
-        <div class="callout assign-goal">
-          <strong>The goal: build a Drawing Robot you could hand to a stranger.</strong>
+        <details class="callout assign-goal callout-collapse">
+          <summary>The goal: build a Drawing Robot you could hand to a stranger</summary>
+          <div class="callout-body">
           By the end, your turtle isn't a pet you steer, it's a vending machine for art. Anyone
           can walk up to your program and, without reading any code, get asked what shape they
           want and how big, watch the turtle draw it, and get served again and again until they
@@ -463,7 +480,8 @@
           crashes, it just asks again.
           <em>The test of success:</em> swap seats with a classmate. If they can order three
           drawings and can't crash it, you've built it.
-        </div>
+          </div>
+        </details>
 
         <section class="assign-step">
           <h2><span class="step-num">Part 0</span> Meet your pet turtle</h2>
@@ -692,6 +710,9 @@
   <script src="/app.js"></script>
   <script src="/editor-tools.js"></script>
   <script src="/pyrun.js"></script>
+  <!-- challenges.js provides the shared headless grader (window.ITCode.run)
+       that the "Test my code" machine check feeds scripted inputs through. -->
+  <script src="/challenges.js"></script>
   <script src="/petprogram.js"></script>
   <script src="/assign-steps.js"></script>
 </body>

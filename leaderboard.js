@@ -3,7 +3,9 @@
 
   let cachedRows = null;
   let currentClass = "7A";
-  let currentMode = "quiz"; // "quiz" | "livecoding" | "freeplay"
+  // The quiz board is retired from display (its tab is gone, so "quiz" is
+  // never selected), but quiz scores are still stored and fetched untouched.
+  let currentMode = "livecoding"; // "livecoding" | "freeplay"
   let todayOnly = false;    // "Today" toggle: count only scores made today
   let todayRows = null;     // aggregated today-only scores (lazy, refreshed live)
   let todayTimer = null;    // auto-refresh interval while Today is active
