@@ -3413,6 +3413,47 @@ kbd {
 .snippet-box .token.builtin         { color: #82aaff; }
 
 /* Self-check lists */
+/* Machine check: the robot vet tester on the Pet Project */
+.pp-test {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  margin-bottom: 16px;
+}
+.pp-test-blurb { margin: 0 0 10px; }
+.pp-test-bar { display: flex; align-items: center; gap: 12px; }
+.pp-test-score { font-weight: 800; }
+.pp-test-score.all-pass { color: #1c8a4c; }
+.pp-test-score.some-fail { color: var(--danger); }
+.pp-test-results { margin-top: 10px; }
+.pp-test-running { color: var(--muted); margin: 4px 0; }
+.pp-test-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 7px 10px;
+  border-radius: 8px;
+  margin-bottom: 6px;
+}
+.pp-test-row.pass { background: rgba(34, 170, 90, 0.1); }
+.pp-test-row.fail { background: rgba(214, 60, 60, 0.08); }
+.pp-test-pill {
+  flex: none;
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  padding: 2px 8px;
+  border-radius: 999px;
+  color: #fff;
+  margin-top: 2px;
+}
+.pp-test-row.pass .pp-test-pill { background: #1c8a4c; }
+.pp-test-row.fail .pp-test-pill { background: var(--danger); }
+.pp-test-title { font-weight: 700; }
+.pp-test-hint { font-size: 0.9rem; color: var(--muted); margin-top: 2px; }
+.pp-test-bonus { margin: 8px 0 0; font-size: 0.9rem; color: var(--muted); font-style: italic; }
+
 .check-list {
   display: flex;
   flex-direction: column;

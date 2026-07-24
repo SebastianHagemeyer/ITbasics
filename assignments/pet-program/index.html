@@ -437,6 +437,19 @@
 
         <section class="assign-step">
           <h2><span class="step-num">Finish</span> Final self-check</h2>
+
+          <div class="pp-test">
+            <p class="pp-test-blurb"><strong>Machine check.</strong> Press the button and our robot vet
+            takes your program for a spin: it types real ages, types <code>banana</code>, and types
+            <code>quit</code>, then marks what happened. Green means that part works; red tells you
+            exactly what to fix and which Part explains it.</p>
+            <div class="pp-test-bar">
+              <button type="button" class="btn btn-primary" id="pp-test-btn">Test my code</button>
+              <span class="pp-test-score" id="pp-test-score"></span>
+            </div>
+            <div class="pp-test-results" id="pp-test-results"></div>
+          </div>
+
           <div class="check-list">
             <label class="check-item"><input type="checkbox" class="self-check" data-check="c-final-ask" /> My program asks for the pet's age.</label>
             <label class="check-item"><input type="checkbox" class="self-check" data-check="c-final-maths" /> It calculates pet years correctly for the pet I chose.</label>
@@ -692,6 +705,9 @@
   <script src="/app.js"></script>
   <script src="/editor-tools.js"></script>
   <script src="/pyrun.js"></script>
+  <!-- challenges.js provides the shared headless grader (window.ITCode.run)
+       that the "Test my code" machine check feeds scripted inputs through. -->
+  <script src="/challenges.js"></script>
   <script src="/petprogram.js"></script>
   <script src="/assign-steps.js"></script>
 </body>
