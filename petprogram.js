@@ -292,11 +292,36 @@
     if (label) label.textContent = track === "turtle" ? "pet_turtle.py" : "pet_age.py";
     const ws = $("#workspace");
     if (ws) ws.hidden = !track;
+    renderTrackPicker();
   }
+
+  // Once a path is picked, the big picker folds away into a one-line bar
+  // ("Your path: ... / Change path") so the page stays uncluttered. Pressing
+  // Change path brings the cards back.
+  const TRACK_LABELS = { calc: "Pet Age Calculator", turtle: "Pet Turtle" };
+  let pickerOpen = false;
+
+  function renderTrackPicker() {
+    const sec = document.querySelector(".assign-tracks");
+    const bar = $("#track-current");
+    if (!sec || !bar) return;
+    const collapsed = Boolean(track) && !pickerOpen;
+    sec.classList.toggle("track-chosen", collapsed);
+    bar.hidden = !collapsed;
+    const nameEl = $("#track-current-name");
+    if (nameEl) nameEl.textContent = TRACK_LABELS[track] || "";
+  }
+
+  const changeBtn = $("#track-change");
+  if (changeBtn) changeBtn.addEventListener("click", function () {
+    pickerOpen = true;
+    renderTrackPicker();
+  });
 
   $all(".track-card").forEach(function (card) {
     card.addEventListener("click", function () {
-      if (track === card.dataset.track) return;
+      pickerOpen = false;
+      if (track === card.dataset.track) { renderTrackPicker(); return; }
       applyTrack(card.dataset.track, true);
       runner.reloadSaved();
       const ws = $("#workspace");
