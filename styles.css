@@ -3413,6 +3413,22 @@ kbd {
 .snippet-box .token.builtin         { color: #82aaff; }
 
 /* Self-check lists */
+/* Legacy shelf on the Modules page: collapsed, dimmed, clearly retired. */
+.legacy-block {
+  margin-top: 36px;
+  border-top: 1px solid var(--border);
+  padding-top: 14px;
+}
+.legacy-block summary {
+  cursor: pointer;
+  font-weight: 700;
+  color: var(--muted);
+}
+.legacy-block summary:hover { color: var(--text); }
+.legacy-note { color: var(--muted); font-size: 0.9rem; margin: 8px 0 12px; }
+.legacy-block .card { opacity: 0.75; }
+.legacy-block .card:hover { opacity: 1; }
+
 /* Machine check: the robot vet tester on the Pet Project */
 .pp-test {
   background: var(--surface);

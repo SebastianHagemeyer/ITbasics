@@ -162,8 +162,8 @@
       recordAs: "decisions-task",
       title: "Old enough to sign up?",
       brief: "Use if / else to decide if someone is old enough to sign up.",
-      detail: "Read an age with <code>int(input(...))</code>. Our app is for ages <strong>13 and over</strong>. Use an <code>if</code> / <code>else</code> with <code>&gt;=</code> to either let them in or turn them away.",
-      accept: 'If the age is 13 or more, clearly allow it (e.g. "you can sign up"). Under 13, clearly refuse it (e.g. "you can\'t" / "too young").',
+      detail: "Read an age with <code>int(input(...))</code>. Our app is for ages <strong>13 and over</strong>. Use an <code>if</code> / <code>else</code> with <code>&gt;=</code>, and <strong>print a message to the user either way</strong>: one that lets them in, or one that turns them away.",
+      accept: 'Age 13 or more: print a clear yes, and <code>print("you can sign up")</code> is exactly the kind of line that passes. Under 13: print a clear no, like <code>print("you can\'t sign up")</code> or "too young".',
       starter:
         '# Old enough to sign up?\n' +
         'age = int(input("How old are you? "))\n' +
