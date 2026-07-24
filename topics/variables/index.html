@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Variables | Hallam IT Basics</title>
+  <link rel="icon" type="image/svg+xml" href="/logo-binary.svg" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="stylesheet" href="/styles.css" />
+  <script>
+    (function () {
+      try {
+        if (!JSON.parse(localStorage.getItem("itbasics-session"))) {
+          location.replace("/");
+        }
+      } catch (e) { location.replace("/"); }
+    })();
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/" class="logo">
+        <img class="logo-mark" src="/logo-binary.svg" alt="" width="32" height="32" />
+        <span>Hallam IT Basics</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="/">Home</a>
+        <div class="nav-dropdown" data-open="false">
+          <button type="button" class="nav-dropdown-toggle active" aria-haspopup="true" aria-expanded="false">
+            Learn
+            <svg class="nav-chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="nav-dropdown-menu" role="menu">
+            <a href="/modules/" role="menuitem">All modules</a>
+            <a href="/docs/" role="menuitem">Documentation</a>
+          </div>
+        </div>
+        <div class="nav-dropdown" data-open="false">
+          <button type="button" class="nav-dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+            Play
+            <svg class="nav-chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="nav-dropdown-menu" role="menu">
+            <a href="/sandbox/" role="menuitem">Sandbox</a>
+            <a href="/challenges/" role="menuitem">Live Coding</a>
+            <a href="/freeplay/" role="menuitem">Freeplay</a>
+            <a href="/leaderboard/" role="menuitem">Leaderboard</a>
+          </div>
+        </div>
+        <a href="/assignments/">Assignments</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Python &middot; Lesson 1</p>
+        <h1>Variables</h1>
+        <p class="lead">Your first real Python lesson. A <strong>variable</strong> is a labelled box that stores a value. Every program you will ever write, from a calculator to a game, is variables being made, changed and used. Press <strong>Run</strong> on any example to try it right here.</p>
+      </div>
+    </section>
+
+    <div class="container lesson-layout">
+      <aside class="lesson-toc" aria-label="On this page">
+        <h4>On this page</h4>
+        <ol>
+          <li><a href="#box">A labelled box</a></li>
+          <li><a href="#change">Changing a variable</a></li>
+          <li><a href="#names">Naming rules</a></li>
+          <li><a href="#maths">Maths with variables</a></li>
+          <li><a href="#input">Filling the box from the keyboard</a></li>
+          <li><a href="#test">Quick check</a></li>
+          <li><a href="#task">Coding task</a></li>
+        </ol>
+      </aside>
+
+      <article class="lesson">
+        <section id="box">
+          <h2>1. A labelled box</h2>
+          <p>Making a variable takes one line: a <strong>name</strong>, a single <code>=</code>, and a <strong>value</strong>. Read <code>=</code> as &ldquo;becomes&rdquo;.</p>
+          <pre class="code">age <span class="c-op">=</span> <span class="c-num snippet-set" data-label="age">12</span>
+name <span class="c-op">=</span> <span class="c-string">"Sam"</span>
+
+<span class="c-keyword">print</span>(age)
+<span class="c-keyword">print</span>(name)</pre>
+          <p>Once a value is in the box, you use the <em>name</em> and Python swaps in the value. Notice <code>print(age)</code> has no quotes: quotes would print the literal word <code>age</code> instead of opening the box.</p>
+          <div class="callout">
+            <strong>Two kinds of value already:</strong> <code>12</code> is a number, <code>"Sam"</code> is text (a <em>string</em>, next lesson's star). Numbers have no quotes; text always has quotes.
+          </div>
+        </section>
+
+        <section id="change">
+          <h2>2. Changing a variable</h2>
+          <p><em>Vary</em>-able: the value can change. Storing something new just replaces what was in the box. A variable can even use <strong>its own current value</strong> to work out its next one:</p>
+          <pre class="code">score <span class="c-op">=</span> <span class="c-num">0</span>
+<span class="c-keyword">print</span>(score)
+
+score <span class="c-op">=</span> <span class="c-num">10</span>      <span class="c-comment"># replaced: the 0 is gone</span>
+<span class="c-keyword">print</span>(score)
+
+score <span class="c-op">=</span> score <span class="c-op">+</span> <span class="c-num">5</span>  <span class="c-comment"># take the 10, add 5, store 15 back</span>
+<span class="c-keyword">print</span>(score)</pre>
+          <p>That last line is the most important pattern in this lesson. Read it right-to-left: <em>work out</em> <code>score + 5</code> first, <em>then</em> store the answer back into <code>score</code>. Every game score, every counter, every level-up works exactly like this.</p>
+        </section>
+
+        <section id="names">
+          <h2>3. Naming rules</h2>
+          <p>Python is fussy about names. The rules:</p>
+          <table class="data-table">
+            <thead><tr><th>Rule</th><th>Fine</th><th>Not allowed</th></tr></thead>
+            <tbody>
+              <tr><td>No spaces (use _ instead)</td><td><code>pet_name</code></td><td><code>pet name</code></td></tr>
+              <tr><td>Cannot start with a number</td><td><code>player2</code></td><td><code>2player</code></td></tr>
+              <tr><td>Only letters, numbers and _</td><td><code>high_score</code></td><td><code>high-score!</code></td></tr>
+              <tr><td>Capitals matter</td><td colspan="2"><code>Age</code> and <code>age</code> are two different boxes</td></tr>
+            </tbody>
+          </table>
+          <div class="callout">
+            <strong>Pick names that say what is inside.</strong> <code>pet_age</code> beats <code>x</code> every time. In a week you will reread your code and thank yourself.
+          </div>
+        </section>
+
+        <section id="maths">
+          <h2>4. Maths with variables</h2>
+          <p>Anywhere a number works, a variable holding a number works too:</p>
+          <pre class="code">price <span class="c-op">=</span> <span class="c-num snippet-set" data-label="price">4</span>
+how_many <span class="c-op">=</span> <span class="c-num">3</span>
+
+total <span class="c-op">=</span> price <span class="c-op">*</span> how_many
+<span class="c-keyword">print</span>(<span class="c-string">"That costs"</span>, total, <span class="c-string">"dollars"</span>)</pre>
+          <p><code>total</code> is a brand-new variable made from the other two. Change <code>price</code> with the control and run it again: the maths follows the box, not the number that used to be in it.</p>
+        </section>
+
+        <section id="input">
+          <h2>5. Filling the box from the keyboard</h2>
+          <p>Variables get powerful when the <em>user</em> fills them. <code>input()</code> shows a question, waits for typing, and hands you whatever they typed, ready to store:</p>
+          <pre class="code" data-inputs='["Alex"]'>name <span class="c-op">=</span> <span class="c-keyword">input</span>(<span class="c-string">"What is your name? "</span>)
+<span class="c-keyword">print</span>(<span class="c-string">"Nice to meet you,"</span> , name)</pre>
+          <p>Same box idea: the value just arrives from the keyboard instead of being typed into the code. Whoever runs the program gets a different, personal answer.</p>
+        </section>
+
+        <section id="test">
+          <h2>6. Quick check <span class="lesson-step-tag">Part 1 of 2</span></h2>
+          <p>Six quick questions. This is half of completing the module. The coding task below is the other half.</p>
+          <div class="module-test" data-test="variables">
+            <div class="mtest-q" data-answer="c">
+              <p class="mtest-prompt">What is a variable?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">A kind of error message</button>
+                <button type="button" class="mtest-opt" data-key="b">A program that runs forever</button>
+                <button type="button" class="mtest-opt" data-key="c">A named box that stores a value</button>
+                <button type="button" class="mtest-opt" data-key="d">A button on the keyboard</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="b">
+              <p class="mtest-prompt">After <code>score = 10</code> and then <code>score = score + 5</code>, what is in <code>score</code>?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">10</button>
+                <button type="button" class="mtest-opt" data-key="b">15</button>
+                <button type="button" class="mtest-opt" data-key="c">5</button>
+                <button type="button" class="mtest-opt" data-key="d">105</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="c">
+              <p class="mtest-prompt">Which of these is a correct variable name?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a"><code>2cool</code></button>
+                <button type="button" class="mtest-opt" data-key="b"><code>my name</code></button>
+                <button type="button" class="mtest-opt" data-key="c"><code>pet_name</code></button>
+                <button type="button" class="mtest-opt" data-key="d"><code>high-score!</code></button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="a">
+              <p class="mtest-prompt">What does <code>name = "Sam"</code> do?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">Stores the text "Sam" in a variable called name</button>
+                <button type="button" class="mtest-opt" data-key="b">Checks whether name equals "Sam"</button>
+                <button type="button" class="mtest-opt" data-key="c">Prints Sam to the screen</button>
+                <button type="button" class="mtest-opt" data-key="d">Renames the program to Sam</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="d">
+              <p class="mtest-prompt">After <code>x = 4</code> and <code>y = x * 2</code>, what is in <code>y</code>?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">4</button>
+                <button type="button" class="mtest-opt" data-key="b">2</button>
+                <button type="button" class="mtest-opt" data-key="c">42</button>
+                <button type="button" class="mtest-opt" data-key="d">8</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="b">
+              <p class="mtest-prompt">What does <code>age = age + 1</code> mean?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">It is an error: a variable cannot use itself</button>
+                <button type="button" class="mtest-opt" data-key="b">Take the current value of age, add 1, store the answer back</button>
+                <button type="button" class="mtest-opt" data-key="c">Make a second variable also called age</button>
+                <button type="button" class="mtest-opt" data-key="d">Compare age with age + 1</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="task" class="project">
+          <h2>7. Coding task: The name tag maker <span class="lesson-step-tag">Part 2 of 2</span></h2>
+          <p>Write a real program below and press <strong>Check</strong>. Ask for a name and a favourite animal, store both in variables, and print a name tag that uses them. The robot tests it with different people, so your variables have to do the work. Passing this is the other half of completing the module.</p>
+
+          <div class="challenge-brief" id="challenge-brief"></div>
+
+          <div class="sandbox-shell challenge-shell">
+            <div class="sandbox-editor">
+              <div class="sandbox-bar">
+                <span class="sandbox-title" id="challenge-file">solution.py</span>
+                <div class="sandbox-bar-actions">
+                  <button type="button" class="btn btn-ghost challenge-reset" title="Reset to the starter code">Reset</button>
+                  <button type="button" class="btn btn-ghost challenge-run" id="challenge-run">
+                    <span class="challenge-run-label">Run</span>
+                  </button>
+                  <button type="button" class="btn btn-primary challenge-check" id="challenge-check">
+                    <span class="challenge-check-label">Check</span>
+                  </button>
+                </div>
+              </div>
+              <div class="sandbox-code language-python" id="challenge-code" spellcheck="false"></div>
+            </div>
+            <div class="sandbox-output">
+              <div class="sandbox-bar">
+                <span class="sandbox-title">Output</span>
+                <button type="button" class="btn btn-ghost challenge-clear" title="Clear the output">Clear</button>
+              </div>
+              <pre class="sandbox-out-body" id="challenge-output"></pre>
+            </div>
+          </div>
+
+          <div class="challenge-results" id="challenge-results" hidden></div>
+
+          <p class="sandbox-hint">
+            <kbd>Ctrl</kbd>+<kbd>Enter</kbd> runs your code &middot;
+            <kbd>Tab</kbd> inserts 4 spaces &middot;
+            Python loads the first time you press Run or Check (5-10 seconds), then it&rsquo;s instant.
+          </p>
+
+          <div class="callout">
+            <strong>How the module is marked:</strong> the quick check is worth 50% and this coding task is worth 50%. Do both to reach 100%. Your teacher can see your score on the progress page.
+          </div>
+        </section>
+
+        <div class="lesson-nav">
+          <a href="/modules/" class="btn btn-ghost">&larr; All modules</a>
+          <a href="/topics/strings/" class="btn btn-primary">Next: Strings <span class="arrow" aria-hidden="true"></span></a>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; Hallam IT Basics &middot; For Years 7-10 computing classes.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/prism.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-python.min.js"></script>
+  <script src="/supabase-config.js"></script>
+  <script src="/app.js"></script>
+  <script>window.CHALLENGE_ONLY = "variables-nametag";</script>
+  <script src="/moduletest.js"></script>
+  <script src="/editor-tools.js"></script>
+  <script src="/challenges.js"></script>
+  <script src="/code-maximise.js"></script>
+  <script src="/snippet-run.js"></script>
+</body>
+</html>

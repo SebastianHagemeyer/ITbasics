@@ -15,6 +15,8 @@
   // into { pct, completed, detail }. Module/quiz tasks are fixed; Live Coding
   // tasks are built at load time from the challenge catalog (see buildTasks).
   var MODULE_TASKS = [
+    { key: "variables",   label: "Variables (module)",        group: "Modules & quizzes", quizzes: ["variables", "variables-task"], compute: computeTestPlusTask("variables") },
+    { key: "strings",     label: "Strings (module)",          group: "Modules & quizzes", quizzes: ["strings", "strings-task"], compute: computeTestPlusTask("strings") },
     { key: "decisions",   label: "Making Decisions (module)", group: "Modules & quizzes", quizzes: ["decisions", "decisions-task"], compute: computeDecisions },
     { key: "loops",       label: "Loops (module)",            group: "Modules & quizzes", quizzes: ["loops", "loops-for-task", "loops-while-task"], compute: computeLoops },
     { key: "programming", label: "Programming quiz",          group: "Modules & quizzes", quizzes: ["programming"], compute: testCompute("programming") },
@@ -135,6 +137,25 @@
       if (!b) return { pct: 0, completed: false, detail: "no attempt" };
       var pct = b.total ? Math.round((b.score / b.total) * 100) : 0;
       return { pct: pct, completed: pct === 100, detail: "best " + b.score + "/" + b.total };
+    };
+  }
+
+  // Generic module marker for the quick-check + coding-task modules
+  // (Variables, Strings): test 50%, task 50%, same shape as Making Decisions.
+  function computeTestPlusTask(key) {
+    return function (rows) {
+      var b = bestTest(rows, key);
+      var testPct = b && b.total ? Math.round((b.score / b.total) * 100) : 0;
+      var taskDone = rows.some(function (r) {
+        return r.quiz_name === key + "-task" && r.answers && r.answers.challenge;
+      });
+      var pct = Math.round(0.5 * testPct + 0.5 * (taskDone ? 100 : 0));
+      var testStr = b ? (b.score + "/" + b.total) : "0/6";
+      return {
+        pct: pct,
+        completed: pct === 100,
+        detail: "Test " + testStr + " · Task " + (taskDone ? "done" : "not yet")
+      };
     };
   }
 
