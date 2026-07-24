@@ -120,7 +120,8 @@
         attempted: attempted,
         pct: Math.round(0.5 * tPct + 0.5 * (taskDone ? 100 : 0)),
         note: attempted
-          ? ("Test " + tBest + "/" + (tTotal || 6) + " · Task " + (taskDone ? "done" : "not yet"))
+          ? ("Test " + (testRows.length ? tBest + "/" + tTotal : "not yet") +
+             " · Task " + (taskDone ? "done" : "not yet"))
           : "Take the quick check and the coding task"
       };
     });

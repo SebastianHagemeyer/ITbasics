@@ -150,7 +150,7 @@
         return r.quiz_name === key + "-task" && r.answers && r.answers.challenge;
       });
       var pct = Math.round(0.5 * testPct + 0.5 * (taskDone ? 100 : 0));
-      var testStr = b ? (b.score + "/" + b.total) : "0/6";
+      var testStr = b ? (b.score + "/" + b.total) : "not yet";
       return {
         pct: pct,
         completed: pct === 100,
