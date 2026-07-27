@@ -60,25 +60,34 @@
     todo:    { cls: "todo",    text: "Not started" }
   };
 
-  async function boot() {
+  // Signing in happens without a page load, so every early return has to
+  // leave the panel hidden and empty: otherwise a signed-out (or signed-in
+  // as someone else) view would linger until a refresh.
+  function clearPanel(host) {
+    if (!host) return;
+    host.innerHTML = "";
+    host.hidden = true;
+  }
+
+  async function boot(run) {
     var host = el("homework-panel");
     if (!host || !window.ITBasics || !window.HWStatus) return;
     var student = window.ITBasics.getSession();
-    if (!student || !window.ITBasics.isOnline()) return;
+    if (!student || !window.ITBasics.isOnline()) { clearPanel(host); return; }
     var sb = window.ITBasics.client();
 
     var res = await sb.from("homework")
       .select("id, class, title, items, due_date")
       .in("class", [student.class || "", "ALL"])
       .order("created_at", { ascending: false });
-    if (res.error || !res.data || !res.data.length) return;
+    if (res.error || !res.data || !res.data.length) { clearPanel(host); return; }
 
     // Status is computed once from the union of all items across sets.
     var allItems = [];
     res.data.forEach(function (hw) { allItems = allItems.concat(hw.items || []); });
     var data;
     try { data = await loadStudentData(sb, student, allItems); }
-    catch (e) { return; }
+    catch (e) { clearPanel(host); return; }
 
     var html = "";
     res.data.forEach(function (hw) {
@@ -108,11 +117,25 @@
         '</div>';
     });
 
+    if (run !== latestRun) return;   // a newer sign-in overtook this one
     host.innerHTML = '<h2>Your homework</h2>' + html;
     host.hidden = false;
   }
 
+  // Every boot gets a ticket; only the newest one is allowed to paint, so a
+  // slow fetch from a previous session can never overwrite a newer render.
+  var latestRun = 0;
+  function refresh() {
+    latestRun = latestRun + 1;
+    var run = latestRun;
+    return boot(run);
+  }
+
   if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", boot);
-  } else { boot(); }
+    document.addEventListener("DOMContentLoaded", refresh);
+  } else { refresh(); }
+
+  // Signing in and out happens without a page load, so re-render on the
+  // auth event: homework appears immediately instead of after a refresh.
+  window.addEventListener("itbasics:auth", refresh);
 })();
