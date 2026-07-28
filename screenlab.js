@@ -19,6 +19,7 @@
   const speedVal = document.getElementById("screenlab-speed-val");
   const sizeVal  = document.getElementById("screenlab-size-val");
   const whiteIn  = document.getElementById("screenlab-white");
+  const backIn   = document.getElementById("screenlab-backlight");
   const fsBtn    = document.getElementById("screenlab-fs");
   const capNote  = document.getElementById("screenlab-cap");
   const colourIn  = document.getElementById("screenlab-colour");
@@ -124,6 +125,11 @@
     }
     const d = bufImg.data;
     const litColor = phase % 3;
+    // Backlight mode: an LCD has a white lamp behind the glass, so a
+    // subpixel that is switched off does not go black, it lets the lamp
+    // through. Any cell dimmer than DIM flips to white instead.
+    const backlight = Boolean(backIn && backIn.checked);
+    const DIM = 64;
     let i = 0;
     for (let row = 0; row < g.rows; row++) {
       for (let col = 0; col < g.cols; col++) {
@@ -137,9 +143,15 @@
           c = (col + row) % 3;
           if (mode === "turns" && c !== litColor) c = -1;
         }
-        d[i]     = c === 0 ? target[0] : 0;
-        d[i + 1] = c === 1 ? target[1] : 0;
-        d[i + 2] = c === 2 ? target[2] : 0;
+        let r = c === 0 ? target[0] : 0;
+        let gr = c === 1 ? target[1] : 0;
+        let bl = c === 2 ? target[2] : 0;
+        if (backlight && r < DIM && gr < DIM && bl < DIM) {
+          r = 255; gr = 255; bl = 255;
+        }
+        d[i]     = r;
+        d[i + 1] = gr;
+        d[i + 2] = bl;
         d[i + 3] = 255;
         i += 4;
       }
