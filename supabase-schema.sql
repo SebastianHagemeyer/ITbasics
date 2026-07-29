@@ -160,6 +160,7 @@ insert into students (code, first_name, last_name, class, year_level) values
   ('RAH0048', 'Azlan',         'Rahman',       '10ITB', 10),
   ('SAD0015', 'Tareq',         'Sadat',        '10ITB', 10),
   ('SAL0051', 'Bibi Saira',    'Salozai',      '10ITB', 10),
+  ('SHA0088', 'Hassan',        'Sharifi',      '10ITB', 10),
   ('SHE0035', 'Shehla Bibi',   'Shehla Bibi',  '10ITB', 10),
   ('ZAH0027', 'Nazia',         'Zahedi',       '10ITB', 10)
 on conflict (code) do update set
