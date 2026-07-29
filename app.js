@@ -98,6 +98,11 @@
       arr.push({ score: score, total: total, answers: answers, attempted_at: new Date().toISOString() });
       localStorage.setItem(k, JSON.stringify(arr));
     }
+    // Let anything showing progress (the lesson page tick markers) refresh
+    // without waiting for a reload.
+    window.dispatchEvent(new CustomEvent("itbasics:attempt", {
+      detail: { quizName: quizName, score: score, total: total }
+    }));
   }
 
   async function getScores(quizName) {
