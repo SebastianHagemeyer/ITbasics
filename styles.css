@@ -308,6 +308,22 @@ img { max-width: 100%; display: block; }
 .card-badge.started circle { fill: #ffbe0b; }
 .card-badge.started path { stroke: #6b4a00; }
 
+/* Per-part markers on a lesson page: empty circle until that part is done,
+   green tick after. Shown beside the heading and in the "On this page" list. */
+.part-tick {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  margin-left: 0.45em;
+  vertical-align: -0.12em;
+  line-height: 0;
+}
+.part-tick svg { width: 100%; height: 100%; display: block; }
+.part-tick.done circle { fill: #1c8a4c; stroke: none; }
+.part-tick.done path { stroke: #ffffff; }
+.part-tick.todo circle { stroke: var(--border); }
+.lesson-toc .part-tick { width: 0.85em; height: 0.85em; }
+
 .card h3 { margin: 4px 0 0; font-size: 1.15rem; }
 .card p { margin: 0; color: var(--muted); font-size: 0.95rem; }
 .card-link {
