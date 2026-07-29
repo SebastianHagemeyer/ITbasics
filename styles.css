@@ -308,6 +308,29 @@ img { max-width: 100%; display: block; }
 .card-badge.started circle { fill: #ffbe0b; }
 .card-badge.started path { stroke: #6b4a00; }
 
+/* Progressive reveal on lesson pages: sections you have not reached yet
+   collapse to a greyed heading, so the page opens up as you work. */
+.ls-locked > h2 {
+  color: var(--muted);
+  opacity: 0.55;
+}
+.ls-locked > h2 .part-tick { opacity: 0.6; }
+.ls-locked-note {
+  margin: 4px 0 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-style: italic;
+}
+.ls-body[hidden], .ls-locked-note[hidden] { display: none; }
+.ls-continue { margin-top: 6px; }
+/* .btn sets its own display, which would beat the browser's rule for
+   [hidden], so the finished Continue button needs telling twice. */
+.ls-continue[hidden] { display: none; }
+.lesson-toc a.ls-link-locked {
+  opacity: 0.45;
+  pointer-events: none;
+}
+
 /* Per-part markers on a lesson page: empty circle until that part is done,
    green tick after. Shown beside the heading and in the "On this page" list. */
 .part-tick {
