@@ -17,6 +17,7 @@
   var MODULE_TASKS = [
     { key: "variables",   label: "Variables (module)",        group: "Modules & quizzes", quizzes: ["variables", "variables-task"], compute: computeTestPlusTask("variables") },
     { key: "strings",     label: "Strings (module)",          group: "Modules & quizzes", quizzes: ["strings", "strings-task"], compute: computeTestPlusTask("strings") },
+    { key: "errors",      label: "Spot the Error (module)",   group: "Modules & quizzes", quizzes: ["errors"],      compute: testCompute("errors") },
     { key: "decisions",   label: "Making Decisions (module)", group: "Modules & quizzes", quizzes: ["decisions", "decisions-task"], compute: computeDecisions },
     { key: "loops",       label: "Loops (module)",            group: "Modules & quizzes", quizzes: ["loops", "loops-for-task", "loops-while-task"], compute: computeLoops },
     { key: "programming", label: "Programming quiz",          group: "Modules & quizzes", quizzes: ["programming"], compute: testCompute("programming") },
