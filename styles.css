@@ -3518,6 +3518,33 @@ details.callout-collapse .callout-body p:last-child { margin-bottom: 0; }
 .se-text { white-space: pre; }
 .se-line.is-answer { background: rgba(34, 170, 90, 0.32); }
 .se-line.is-wrong { background: rgba(214, 60, 60, 0.3); }
+.se-hard-wrap {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+  color: var(--muted);
+  cursor: pointer;
+}
+.se-fix { margin-top: 10px; }
+.se-fix-label { display: block; font-weight: 700; margin-bottom: 6px; }
+.se-fix-row { display: flex; gap: 8px; flex-wrap: wrap; }
+.se-fix-input {
+  flex: 1;
+  min-width: 220px;
+  padding: 10px 12px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.95rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+}
+.se-fix-input:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(28, 69, 135, 0.18);
+}
+.se-fix-input:disabled { background: var(--bg); color: var(--muted); }
 .se-kind { margin: 10px 0 0; font-weight: 800; }
 .se-msg { margin: 6px 0 10px; }
 .se-msg.ok { color: #1c8a4c; }
