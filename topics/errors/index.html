@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spot the Error | Hallam IT Basics</title>
+  <meta name="description" content="What syntax is, the five mistakes every beginner makes, and a five round game where you hunt the broken line." />
+  <link rel="icon" type="image/svg+xml" href="/logo-binary.svg" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="stylesheet" href="/styles.css" />
+  <script>
+    (function () {
+      try {
+        if (!JSON.parse(localStorage.getItem("itbasics-session"))) {
+          location.replace("/");
+        }
+      } catch (e) { location.replace("/"); }
+    })();
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/" class="logo">
+        <img class="logo-mark" src="/logo-binary.svg" alt="" width="32" height="32" />
+        <span>Hallam IT Basics</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="/">Home</a>
+        <div class="nav-dropdown" data-open="false">
+          <button type="button" class="nav-dropdown-toggle active" aria-haspopup="true" aria-expanded="false">
+            Learn
+            <svg class="nav-chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="nav-dropdown-menu" role="menu">
+            <a href="/modules/" role="menuitem">All modules</a>
+            <a href="/docs/" role="menuitem">Documentation</a>
+          </div>
+        </div>
+        <div class="nav-dropdown" data-open="false">
+          <button type="button" class="nav-dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+            Play
+            <svg class="nav-chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="nav-dropdown-menu" role="menu">
+            <a href="/sandbox/" role="menuitem">Sandbox</a>
+            <a href="/challenges/" role="menuitem">Live Coding</a>
+            <a href="/freeplay/" role="menuitem">Freeplay</a>
+            <a href="/leaderboard/" role="menuitem">Leaderboard</a>
+          </div>
+        </div>
+        <a href="/assignments/">Assignments</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Python &middot; Skills</p>
+        <h1>Spot the Error</h1>
+        <p class="lead">Python is fussy on purpose. One missing colon and the whole program refuses to run. This module is about <strong>syntax</strong>: the exact shape Python demands, why it demands it, and how to find the one broken line fast. Then you hunt five broken programs yourself.</p>
+      </div>
+    </section>
+
+    <div class="container lesson-layout">
+      <aside class="lesson-toc" aria-label="On this page">
+        <h4>On this page</h4>
+        <ol>
+          <li><a href="#syntax">What syntax means</a></li>
+          <li><a href="#read">Read the error message</a></li>
+          <li><a href="#five">The five usual suspects</a></li>
+          <li><a href="#game">The game</a></li>
+        </ol>
+      </aside>
+
+      <article class="lesson">
+        <section id="syntax">
+          <h2>1. What syntax means</h2>
+          <p>Syntax is the <strong>grammar</strong> of a language. In English, &ldquo;dog the barked&rdquo; uses real words in the wrong shape, and you still roughly understand it. Python does not do roughly. It reads your line strictly, left to right, and if the shape is wrong it stops and refuses to run <em>any</em> of your program.</p>
+          <p>That sounds harsh, but it is the friendlier choice. Imagine if Python guessed what you meant and got it wrong halfway through marking a test. A refusal at the start is much easier to fix than a wrong answer at the end.</p>
+          <div class="callout">
+            <strong>Good news:</strong> a syntax error means your program never ran at all. Nothing is broken, nothing is lost. You have a typo, and typos are the easiest bug there is.
+          </div>
+        </section>
+
+        <section id="read">
+          <h2>2. Read the error message, it is a clue</h2>
+          <p>Beginners see red text and panic. Programmers read it. Every Python error hands you three things:</p>
+          <ul class="key-points">
+            <li><strong>A line number.</strong> Where Python <em>noticed</em> the problem.</li>
+            <li><strong>A type.</strong> <code>SyntaxError</code>, <code>IndentationError</code>, <code>NameError</code>, and so on.</li>
+            <li><strong>A short description</strong>, often with a <code>^</code> pointing at the exact spot.</li>
+          </ul>
+          <p>One catch worth knowing: the line number is where Python <em>gave up</em>, not always where you went wrong. Leave a bracket open and Python keeps reading on, hoping to find it, so the mistake can be a line or two above the number it prints. If a line looks perfect, <strong>check the one above it</strong>.</p>
+          <p>Python has got much better at this lately. Miss a closing bracket and it now says <code>'(' was never closed</code> and points back at the right line; get a name slightly wrong and it even guesses what you meant: <code>NameError: name 'highscore' is not defined. Did you mean: 'high_score'?</code> Read the whole message, not just the red.</p>
+        </section>
+
+        <section id="five">
+          <h2>3. The five usual suspects</h2>
+          <p>Almost every beginner error is one of these. Learn the five and you can debug most of your own code.</p>
+          <table class="data-table">
+            <thead><tr><th>Mistake</th><th>Looks like</th><th>Python says</th></tr></thead>
+            <tbody>
+              <tr>
+                <td><strong>Missing colon</strong></td>
+                <td><code>if age &gt; 12</code></td>
+                <td>SyntaxError: expected ':'</td>
+              </tr>
+              <tr>
+                <td><strong>Missing indentation</strong></td>
+                <td>a line after <code>:</code> starting at the far left</td>
+                <td>IndentationError: expected an indented block</td>
+              </tr>
+              <tr>
+                <td><strong>Name does not match</strong></td>
+                <td><code>user_name</code> made, <code>username</code> used</td>
+                <td>NameError: name 'username' is not defined</td>
+              </tr>
+              <tr>
+                <td><strong>One = instead of two</strong></td>
+                <td><code>if age = 13:</code></td>
+                <td>SyntaxError: invalid syntax</td>
+              </tr>
+              <tr>
+                <td><strong>Bracket or quote left open</strong></td>
+                <td><code>print("hello</code></td>
+                <td>SyntaxError: unterminated string / was never closed</td>
+              </tr>
+            </tbody>
+          </table>
+          <p>Two habits that catch nearly all of them. <strong>Count your brackets</strong>: every <code>(</code> needs a <code>)</code>, every <code>"</code> needs a partner. And <strong>read the colon line and the line under it together</strong>: colon, then indent, every single time.</p>
+        </section>
+
+        <section id="game" class="project">
+          <h2>4. The game: hunt the broken line</h2>
+          <p>Five short programs, each with <strong>exactly one</strong> mistake. Click the line you think is wrong. You get one guess each, and the answer is explained either way.</p>
+          <div class="callout">
+            <strong>Note the colours are gone.</strong> Normally the editor colours your code, and a broken quote turns half the screen the wrong colour, which hands you the answer. Here it is plain text, so you have to read it the way Python does. That is the whole skill.
+          </div>
+
+          <div class="spot-error" id="spot-error">
+            <div class="se-bar">
+              <span class="se-progress">Program 1 of 5</span>
+              <span class="se-score">Spotted: 0 / 5</span>
+              <span class="se-best" hidden></span>
+            </div>
+            <div class="se-stage" role="group" aria-label="Click the line with the mistake"></div>
+            <p class="se-kind" hidden></p>
+            <p class="se-msg" hidden></p>
+            <button type="button" class="btn btn-primary se-next" hidden>Next program</button>
+          </div>
+
+          <div class="callout">
+            <strong>How the module is marked:</strong> your best score out of 5 is the module score, so replay it as often as you like. Your teacher can see it on the progress page.
+          </div>
+        </section>
+
+        <div class="lesson-nav">
+          <a href="/topics/strings/" class="btn btn-ghost">&larr; Strings</a>
+          <a href="/sandbox/" class="btn btn-primary">Try breaking code yourself <span class="arrow" aria-hidden="true"></span></a>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; Hallam IT Basics &middot; For Years 7-10 computing classes.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+  <script src="/supabase-config.js"></script>
+  <script src="/app.js"></script>
+  <script src="/spoterror.js"></script>
+</body>
+</html>

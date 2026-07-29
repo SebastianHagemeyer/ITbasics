@@ -11,6 +11,7 @@
     { key: "python",      label: "Python",         href: "/topics/python/" },
     { key: "variables",   label: "Variables",      href: "/topics/variables/" },
     { key: "strings",     label: "Strings",        href: "/topics/strings/" },
+    { key: "errors",      label: "Spot the Error", href: "/topics/errors/" },
     { key: "decisions",   label: "Making Decisions", href: "/topics/decisions/" },
     { key: "loops",       label: "Loops",          href: "/topics/loops/" },
     { key: "binary",      label: "Binary & Data",  href: "/topics/binary/" },
@@ -74,7 +75,7 @@
       if (res.error) return { error: res.error.message, rows: [] };
       return { rows: res.data || [] };
     }
-    var names = ["programming", "html", "python", "variables", "variables-task", "strings", "strings-task", "decisions", "decisions-task", "loops", "loops-for-task", "loops-while-task", "binary", "codes", "codes-task", "systems", "networks", "os", "freeplay", "livecoding"];
+    var names = ["programming", "html", "python", "variables", "variables-task", "strings", "strings-task", "errors", "decisions", "decisions-task", "loops", "loops-for-task", "loops-while-task", "binary", "codes", "codes-task", "systems", "networks", "os", "freeplay", "livecoding"];
     var rows = [];
     names.forEach(function (name) {
       var raw = localStorage.getItem("itbasics-attempts-" + student.code + "-" + name);
