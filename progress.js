@@ -14,11 +14,11 @@
     { key: "errors",      label: "Spot the Error", href: "/topics/errors/" },
     { key: "decisions",   label: "Making Decisions", href: "/topics/decisions/" },
     { key: "loops",       label: "Loops",          href: "/topics/loops/" },
+    { key: "os",          label: "Computer Skills", href: "/topics/os/" },
+    { key: "systems",     label: "Digital Systems", href: "/topics/systems/" },
     { key: "binary",      label: "Binary & Data",  href: "/topics/binary/" },
     { key: "codes",       label: "Codes & Colour", href: "/topics/codes/" },
-    { key: "systems",     label: "Digital Systems", href: "/topics/systems/" },
-    { key: "networks",    label: "Networks & Safety", href: "/topics/networks/" },
-    { key: "os",          label: "Computer Skills", href: "/topics/os/" }
+    { key: "networks",    label: "Networks & Safety", href: "/topics/networks/" }
   ];
 
   // Assignments shown on the progress page. Keys match the `assignment`

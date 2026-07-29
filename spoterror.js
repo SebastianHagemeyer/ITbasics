@@ -8,9 +8,16 @@
  * editor would paint the broken quote red and hand them the answer, so the
  * code is plain monospace text and they have to read it like Python does.
  *
+ * Hard mode (a checkbox, remembered between visits) adds a second stage:
+ * after spotting the line you have to TYPE it correctly before the point is
+ * awarded. Each round's `fix` pattern is forgiving about spacing and quote
+ * style but strict about the actual repair, and about indentation where the
+ * indentation IS the fix.
+ *
  * The final score records as quiz_name "errors" (out of 5) via
  * ITBasics.saveAttempt, so it feeds the progress page and teacher export
- * exactly like the other module tests.
+ * exactly like the other module tests. Hard mode keeps the same denominator:
+ * it is a harder route to the same 5, not a different scale.
  */
 (function () {
   "use strict";
@@ -27,6 +34,8 @@
         '    print("Hello, stranger!")'
       ],
       bad: 2,
+      fix: /^if\s+name\s*==\s*(["'])Ada\1\s*:\s*$/,
+      fixHint: 'if name == "Ada":',
       why: 'Every line that opens a block (if, else, for, while, def) ends with a colon. ' +
            'This if has none, so Python reaches the end of the line still waiting for it. ' +
            'Notice the else: below got its colon right.'
@@ -41,6 +50,8 @@
         '    print("New record!")'
       ],
       bad: 3,
+      fix: /^if\s+player_score\s*>\s*high_score\s*:\s*$/,
+      fixHint: 'if player_score > high_score:',
       why: 'The variable was made as high_score, with an underscore, but this line asks ' +
            'for highscore without one. To Python those are two completely different names, ' +
            'so it says: NameError: name \'highscore\' is not defined.'
@@ -56,6 +67,9 @@
         'print("That is all of them.")'
       ],
       bad: 3,
+      // Leading whitespace is the whole point of this one, so it is required.
+      fix: /^[ \t]+print\s*\(\s*pet\s*\)\s*$/,
+      fixHint: '    print(pet)',
       why: 'The for line ends with a colon, so Python expects the next line to be indented ' +
            'to show what belongs inside the loop. This one starts at the far left, so ' +
            'Python complains: IndentationError: expected an indented block.'
@@ -71,6 +85,8 @@
         '    print("Not 13 yet.")'
       ],
       bad: 2,
+      fix: /^if\s+age\s*==\s*13\s*:\s*$/,
+      fixHint: 'if age == 13:',
       why: 'One equals STORES a value, two equals ASKS a question. Inside an if you are ' +
            'asking, so it needs age == 13. With a single = Python thinks you are trying ' +
            'to store something in the middle of a question.'
@@ -84,6 +100,8 @@
         'print("Total:", total)'
       ],
       bad: 1,
+      fix: /^total\s*=\s*total\s*\+\s*int\s*\(\s*input\s*\(\s*(["']).*?\1\s*\)\s*\)\s*$/,
+      fixHint: 'total = total + int(input("First number? "))',
       why: 'Count them: this line opens three brackets and closes only two. Python reads on ' +
            'looking for the missing one, so it cannot tell where the line was meant to end. ' +
            'Modern Python is kind and reports "\'(\' was never closed", pointing back here.'
@@ -106,10 +124,24 @@
     var nextBtn = root.querySelector(".se-next");
     var bestEl  = root.querySelector(".se-best");
 
+    var hardIn  = root.querySelector(".se-hard");
+    var fixWrap = root.querySelector(".se-fix");
+    var fixIn   = root.querySelector(".se-fix-input");
+    var fixBtn  = root.querySelector(".se-fix-go");
+
     var round = 0;
     var score = 0;
     var locked = false;
     var log = {};
+
+    var HARD_KEY = "itbasics-spoterror-hard";
+    if (hardIn) {
+      try { hardIn.checked = localStorage.getItem(HARD_KEY) === "1"; } catch (e) {}
+      hardIn.addEventListener("change", function () {
+        try { localStorage.setItem(HARD_KEY, hardIn.checked ? "1" : "0"); } catch (e) {}
+      });
+    }
+    function hardMode() { return Boolean(hardIn && hardIn.checked); }
 
     function showBest() {
       if (!window.ITBasics || !window.ITBasics.getScores) return;
@@ -132,6 +164,7 @@
       msgEl.textContent = "";
       msgEl.className = "se-msg";
       nextBtn.hidden = true;
+      if (fixWrap) fixWrap.hidden = true;
 
       var html = "";
       r.code.forEach(function (line, i) {
@@ -151,8 +184,11 @@
       locked = true;
       var r = ROUNDS[round];
       var right = line === r.bad;
-      if (right) score++;
-      log["p" + (round + 1)] = { picked: line + 1, answer: r.bad + 1, right: right };
+      var hard = hardMode() && Boolean(r.fix);
+      // In hard mode the point is not awarded yet: they still have to type
+      // the repair. A wrong click loses the round either way.
+      if (right && !hard) score++;
+      log["p" + (round + 1)] = { picked: line + 1, answer: r.bad + 1, right: right, hard: hard };
 
       // Always reveal the real culprit, whether they got it or not.
       var lines = stage.querySelectorAll(".se-line");
@@ -166,13 +202,53 @@
       msgEl.className = "se-msg " + (right ? "ok" : "err");
       msgEl.textContent = (right ? "Spotted it. " : "Not that one. ") + r.why;
       scoreEl.textContent = "Spotted: " + score + " / " + ROUNDS.length;
+
+      if (right && hard) {
+        // Stage two: retype the line properly to earn the point.
+        msgEl.textContent = "Spotted it. Now fix it: retype line " + (r.bad + 1) + " correctly.";
+        fixWrap.hidden = false;
+        fixIn.value = r.code[r.bad];
+        fixIn.disabled = false;
+        fixBtn.disabled = false;
+        fixIn.focus();
+        fixIn.setSelectionRange(fixIn.value.length, fixIn.value.length);
+        return;
+      }
+      showNext();
+    }
+
+    function showNext() {
       nextBtn.hidden = false;
       nextBtn.textContent = round === ROUNDS.length - 1 ? "See my score" : "Next program";
     }
 
+    function submitFix() {
+      var r = ROUNDS[round];
+      if (!r.fix || fixIn.disabled) return;
+      var typed = String(fixIn.value).replace(/\s+$/, "");
+      var ok = r.fix.test(typed);
+      if (ok) score++;
+      var entry = log["p" + (round + 1)];
+      if (entry) { entry.typed = typed; entry.fixed = ok; }
+      fixIn.disabled = true;
+      fixBtn.disabled = true;
+      msgEl.className = "se-msg " + (ok ? "ok" : "err");
+      msgEl.textContent = ok
+        ? "Fixed. " + r.why
+        : "Not quite. The line should read: " + r.fixHint + "  |  " + r.why;
+      scoreEl.textContent = "Spotted: " + score + " / " + ROUNDS.length;
+      showNext();
+    }
+
+    if (fixBtn) fixBtn.addEventListener("click", submitFix);
+    if (fixIn) fixIn.addEventListener("keydown", function (e) {
+      if (e.key === "Enter") { e.preventDefault(); submitFix(); }
+    });
+
     function finish() {
       stage.innerHTML = "";
       kindEl.hidden = true;
+      if (fixWrap) fixWrap.hidden = true;
       progEl.textContent = "Done!";
       var msg = score === ROUNDS.length ? "Perfect. You read code like Python does."
               : score >= 3 ? "Good spotting. Run it again to catch the rest."

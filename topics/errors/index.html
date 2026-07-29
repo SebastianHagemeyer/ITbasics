@@ -145,8 +145,19 @@
               <span class="se-score">Spotted: 0 / 5</span>
               <span class="se-best" hidden></span>
             </div>
+            <label class="se-hard-wrap">
+              <input type="checkbox" class="se-hard" />
+              Hard mode: after spotting it, type the line correctly
+            </label>
             <div class="se-stage" role="group" aria-label="Click the line with the mistake"></div>
             <p class="se-kind" hidden></p>
+            <div class="se-fix" hidden>
+              <label class="se-fix-label" for="se-fix-input">Retype the line, fixed:</label>
+              <div class="se-fix-row">
+                <input type="text" class="se-fix-input" id="se-fix-input" spellcheck="false" autocomplete="off" />
+                <button type="button" class="btn btn-primary se-fix-go">Check my fix</button>
+              </div>
+            </div>
             <p class="se-msg" hidden></p>
             <button type="button" class="btn btn-primary se-next" hidden>Next program</button>
           </div>
@@ -154,6 +165,7 @@
           <div class="callout">
             <strong>How the module is marked:</strong> your best score out of 5 is the module score, so replay it as often as you like. Your teacher can see it on the progress page.
           </div>
+          <p><strong>Ready to make it harder?</strong> Tick <strong>Hard mode</strong> above. Spotting the line is then only half of it: you have to retype that line correctly before the point counts, which means actually knowing the repair, not just recognising the shape. Still out of 5, just a tougher route to it.</p>
         </section>
 
         <div class="lesson-nav">
