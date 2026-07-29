@@ -153,7 +153,7 @@
   }
 
   async function renderLesson() {
-    var mine = ++run;
+    var mine = ++lessonRun;
     var m = location.pathname.match(/^\/topics\/([a-z0-9-]+)\/$/);
     if (!m || !window.ITBasics || !window.HWStatus) return;
     var key = m[1];
@@ -168,7 +168,7 @@
 
     var data;
     try { data = await loadData(student, [key]); } catch (e) { return; }
-    if (mine !== run) return;
+    if (mine !== lessonRun) return;
 
     parts.forEach(function (p) {
       var state = p.kind === "test" ? testDone(data.attempts, p.quiz)
@@ -185,10 +185,14 @@
     });
   }
 
-  var run = 0;
+  // One run ticket each. They must NOT share a counter: boot() starts both,
+  // and whichever one bails out early still bumps the number, which would
+  // make the other think it had been overtaken and quietly paint nothing.
+  var cardRun = 0;
+  var lessonRun = 0;
 
   async function render() {
-    var mine = ++run;
+    var mine = ++cardRun;
     var cards = Array.prototype.slice.call(document.querySelectorAll("a.card[href^='/topics/']"));
     if (!cards.length || !window.ITBasics || !window.HWStatus) return;
 
@@ -209,7 +213,7 @@
     var data;
     try { data = await loadData(student, pairs.map(function (p) { return p.key; })); }
     catch (e) { return; }
-    if (mine !== run) return;   // a newer render overtook this one
+    if (mine !== cardRun) return;   // a newer render overtook this one
 
     pairs.forEach(function (p) {
       var status = window.HWStatus.itemStatus({ type: "module", key: p.key }, data);
