@@ -28,19 +28,41 @@
 
   var RATES = { task: 50, quiz: 25, freeplay: 1, freeplayErrors: 2 };
 
-  // Gaps grow by 25 a step: the first level is one coding task away, the last
-  // is about three quarters of everything on the site.
+  // Twenty levels, eleven titles. Initiate and Mastermind stand alone at the
+  // ends; every title in between covers two levels, so there is a number to
+  // climb most weeks and a name to earn every other time.
+  //
+  // The curve is deliberately longer than the site. Everything currently on
+  // here is worth about 1845 XP, which is Level 11, Builder: a student who
+  // finishes every module, every challenge and the whole freeplay bank has
+  // done well and is nowhere near the end. That leaves Engineer upwards as
+  // headroom for content that does not exist yet, so the ladder does not
+  // plateau the moment someone completes the site.
+  //
+  // Gaps follow (level - 1) ^ 1.5, so the early rungs stay close together
+  // and the top ones stretch out. Level 2 is one coding task away; Level 20
+  // would need roughly 2750 XP more than the site currently offers.
   var LEVELS = [
     { level: 1,  name: "Initiate",    xp: 0 },
-    { level: 2,  name: "Tinkerer",    xp: 50 },
-    { level: 3,  name: "Scripter",    xp: 125 },
-    { level: 4,  name: "Coder",       xp: 225 },
-    { level: 5,  name: "Debugger",    xp: 350 },
-    { level: 6,  name: "Builder",     xp: 500 },
-    { level: 7,  name: "Engineer",    xp: 675 },
-    { level: 8,  name: "Architect",   xp: 875 },
-    { level: 9,  name: "Grandmaster", xp: 1100 },
-    { level: 10, name: "Mastermind",  xp: 1350 }
+    { level: 2,  name: "Tinkerer",    xp: 55 },
+    { level: 3,  name: "Tinkerer",    xp: 155 },
+    { level: 4,  name: "Scripter",    xp: 290 },
+    { level: 5,  name: "Scripter",    xp: 445 },
+    { level: 6,  name: "Coder",       xp: 620 },
+    { level: 7,  name: "Coder",       xp: 815 },
+    { level: 8,  name: "Debugger",    xp: 1030 },
+    { level: 9,  name: "Debugger",    xp: 1255 },
+    { level: 10, name: "Builder",     xp: 1500 },
+    { level: 11, name: "Builder",     xp: 1755 },
+    { level: 12, name: "Engineer",    xp: 2025 },
+    { level: 13, name: "Engineer",    xp: 2305 },
+    { level: 14, name: "Architect",   xp: 2600 },
+    { level: 15, name: "Architect",   xp: 2905 },
+    { level: 16, name: "Wizard",      xp: 3225 },
+    { level: 17, name: "Wizard",      xp: 3550 },
+    { level: 18, name: "Grandmaster", xp: 3890 },
+    { level: 19, name: "Grandmaster", xp: 4240 },
+    { level: 20, name: "Mastermind",  xp: 4600 }
   ];
 
   function levelFor(xp) {
@@ -176,6 +198,16 @@
 
   // ---- the badge in the header -------------------------------------------
 
+  // Titles span two levels, so the next level is often the SAME title.
+  // Naming it anyway reads as "56 XP to Scripter" while you are already a
+  // Scripter, so the name is only mentioned when it actually changes.
+  function nextLabel(state) {
+    if (!state.next) return "max level";
+    var same = state.next.name === state.name;
+    return state.toNext + " XP to Level " + state.next.level +
+           (same ? "" : ", " + state.next.name);
+  }
+
   function paintBadge(state) {
     var host = document.querySelector(".auth-bar .auth-user");
     if (!host) return;
@@ -188,8 +220,7 @@
       else host.appendChild(tag);
     }
     tag.textContent = "Lv " + state.level;
-    tag.title = state.name + " . " + state.xp + " XP" +
-      (state.next ? " . " + state.toNext + " to " + state.next.name : " . max level");
+    tag.title = state.name + " . " + state.xp + " XP . " + nextLabel(state);
   }
 
   async function refresh() {
@@ -207,8 +238,7 @@
     var b = state.breakdown;
     var bar = state.next
       ? '<div class="xp-bar"><span style="width:' + Math.max(2, state.pct) + '%"></span></div>' +
-        '<p class="xp-next">' + state.toNext + " XP to Level " + state.next.level +
-        ", " + state.next.name + "</p>"
+        '<p class="xp-next">' + nextLabel(state) + "</p>"
       : '<p class="xp-next">Top level reached. Nothing left to climb.</p>';
     host.innerHTML =
       '<div class="xp-head">' +
