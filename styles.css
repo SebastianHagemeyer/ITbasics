@@ -4204,3 +4204,21 @@ textarea.gm-input { resize: vertical; }
 @media (max-width: 640px) {
   .lb-level-name { display: none; }
 }
+
+/* Reset the test account: a destructive button, so it looks quiet until it
+   is armed, then turns red and says exactly what it is about to do. */
+.reset-tool .is-armed {
+  background: var(--danger);
+  border-color: var(--danger);
+  color: #fff;
+}
+.reset-rows { list-style: none; margin: 14px 0 0; padding: 0; max-width: 420px; }
+.reset-rows li {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 6px 0;
+  border-top: 1px solid var(--border);
+  font-size: 0.9rem;
+}
+.reset-rows li span { color: var(--muted); }
