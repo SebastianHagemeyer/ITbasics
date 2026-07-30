@@ -3585,6 +3585,7 @@ details.callout-collapse .callout-body p:last-child { margin-bottom: 0; }
 }
 .se-fix { margin-top: 10px; }
 .se-fix-label { display: block; font-weight: 700; margin-bottom: 6px; }
+.se-fix-tip { display: block; font-weight: 400; font-size: 0.85rem; color: var(--muted); }
 .se-fix-row { display: flex; gap: 8px; flex-wrap: wrap; }
 .se-fix-input {
   flex: 1;
