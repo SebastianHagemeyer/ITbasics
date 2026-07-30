@@ -4162,3 +4162,45 @@ textarea.gm-input { resize: vertical; }
 .xp-rows li span:first-child { flex: 1; font-weight: 700; }
 .xp-rows li span:nth-child(2) { color: var(--muted); font-size: 0.85rem; }
 .xp-rows li strong { min-width: 56px; text-align: right; }
+
+/* Leaderboard: your own class shows on its own, the rest fold away behind an
+   arrow. A row of tabs for classes you are not in is just noise. */
+.lb-classes { align-items: center; }
+.lb-classes .quiz-tab.lb-tucked { display: none; }
+.lb-classes.lb-open .quiz-tab.lb-tucked { display: inline-flex; }
+.lb-more {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border: 1px dashed var(--border);
+  border-radius: 999px;
+  background: none;
+  color: var(--muted);
+  font: inherit;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+.lb-more:hover { color: var(--text); border-color: var(--muted); }
+.lb-more-chev { width: 8px; height: 12px; transition: transform 0.15s; }
+.lb-classes.lb-open .lb-more-chev { transform: rotate(180deg); }
+
+/* Level badge in the XP board. */
+.col-level { white-space: nowrap; }
+.lb-level { display: inline-flex; align-items: center; gap: 7px; }
+.lb-level-num {
+  display: grid;
+  place-items: center;
+  min-width: 24px;
+  height: 24px;
+  padding: 0 6px;
+  border-radius: 999px;
+  background: var(--primary);
+  color: #fff;
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+.lb-level-name { font-size: 0.85rem; color: var(--muted); font-weight: 700; }
+@media (max-width: 640px) {
+  .lb-level-name { display: none; }
+}
