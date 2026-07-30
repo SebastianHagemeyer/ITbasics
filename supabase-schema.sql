@@ -1,6 +1,39 @@
 -- Hallam IT Basics: Supabase schema + roster seed.
--- Run this once in the Supabase SQL Editor for your project.
--- Safe to re-run: tables use IF NOT EXISTS and the roster uses UPSERT.
+--
+-- ============================================================
+-- HOW TO APPLY THIS
+-- ============================================================
+-- Paste the WHOLE file into the Supabase SQL Editor and hit Run. That is
+-- always the right answer, whether it is the first time or the tenth.
+--
+-- Re-running is safe and loses nothing. Tables use IF NOT EXISTS, the views
+-- and functions use CREATE OR REPLACE, the roster uses UPSERT, and policies
+-- are dropped and recreated. Verified by applying this file three times over
+-- a database holding real attempts, progress, games and word cloud rows: the
+-- counts and every student's XP came out identical.
+--
+-- If the site says a column or function is missing, you are behind. Re-run
+-- the file. If it still complains, PostgREST is caching the old shape, so
+-- run:  notify pgrst, 'reload schema';
+--
+-- ============================================================
+-- WHAT CHANGED, NEWEST FIRST
+-- ============================================================
+-- Re-run the whole file after any of these. The dates are when the change
+-- landed on main, so you can tell at a glance whether you are current.
+--
+-- 2026-07-30  reset_test_student()   Reset button on the teacher page. A
+--                                    security definer function that wipes one
+--                                    TEST-class account across all nine
+--                                    student tables and refuses everyone else.
+-- 2026-07-30  leaderboard_view.xp    XP column for the leaderboard's XP board.
+--                                    Without it that board ranks nobody.
+-- 2026-07-30  students               Hassan Sharifi (SHA0088) added to 10ITB.
+-- (earlier)   games, game_votes,
+--             game_scores            Game gallery: publishing, upvotes and
+--                                    per-game high scores.
+--
+-- ============================================================
 
 -- ============================================================
 -- Tables
