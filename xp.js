@@ -28,19 +28,34 @@
 
   var RATES = { task: 50, quiz: 25, freeplay: 1, freeplayErrors: 2 };
 
-  // Gaps grow by 25 a step: the first level is one coding task away, the last
-  // is about three quarters of everything on the site.
+  // Twenty levels, eleven titles. Initiate and Mastermind stand alone at the
+  // ends; every title in between covers two levels, so there is a number to
+  // climb most weeks and a name to earn every other time.
+  //
+  // Gaps grow by 5 a step, from 25 up to 115. Level 2 is a single full-marks
+  // quiz away, so nobody sits on Level 1 after their first lesson, and Level
+  // 20 is about three quarters of everything on the site.
   var LEVELS = [
     { level: 1,  name: "Initiate",    xp: 0 },
-    { level: 2,  name: "Tinkerer",    xp: 50 },
-    { level: 3,  name: "Scripter",    xp: 125 },
-    { level: 4,  name: "Coder",       xp: 225 },
-    { level: 5,  name: "Debugger",    xp: 350 },
-    { level: 6,  name: "Builder",     xp: 500 },
-    { level: 7,  name: "Engineer",    xp: 675 },
-    { level: 8,  name: "Architect",   xp: 875 },
-    { level: 9,  name: "Grandmaster", xp: 1100 },
-    { level: 10, name: "Mastermind",  xp: 1350 }
+    { level: 2,  name: "Tinkerer",    xp: 25 },
+    { level: 3,  name: "Tinkerer",    xp: 55 },
+    { level: 4,  name: "Scripter",    xp: 90 },
+    { level: 5,  name: "Scripter",    xp: 130 },
+    { level: 6,  name: "Coder",       xp: 175 },
+    { level: 7,  name: "Coder",       xp: 225 },
+    { level: 8,  name: "Debugger",    xp: 285 },
+    { level: 9,  name: "Debugger",    xp: 350 },
+    { level: 10, name: "Builder",     xp: 420 },
+    { level: 11, name: "Builder",     xp: 495 },
+    { level: 12, name: "Engineer",    xp: 575 },
+    { level: 13, name: "Engineer",    xp: 660 },
+    { level: 14, name: "Architect",   xp: 750 },
+    { level: 15, name: "Architect",   xp: 845 },
+    { level: 16, name: "Wizard",      xp: 945 },
+    { level: 17, name: "Wizard",      xp: 1050 },
+    { level: 18, name: "Grandmaster", xp: 1160 },
+    { level: 19, name: "Grandmaster", xp: 1275 },
+    { level: 20, name: "Mastermind",  xp: 1395 }
   ];
 
   function levelFor(xp) {
