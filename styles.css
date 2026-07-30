@@ -4102,3 +4102,63 @@ textarea.gm-input { resize: vertical; }
   cursor: pointer;
 }
 .gm-snippet-chip:hover { border-color: var(--primary); background: var(--bg); }
+
+/* XP and levels. The badge rides in the header chip; the panel lives on the
+   progress page. Derived from quiz_attempts, so there is nothing to store. */
+.auth-level {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 8px;
+  margin-left: 6px;
+  border-radius: 999px;
+  background: var(--primary);
+  color: #fff;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+.xp-panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 22px;
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 24px;
+}
+.xp-head { display: flex; align-items: center; gap: 14px; }
+.xp-head h3 { margin: 0; font-size: 1.15rem; }
+.xp-head p { margin: 2px 0 0; color: var(--muted); font-weight: 700; }
+.xp-ring {
+  display: grid;
+  place-items: center;
+  width: 52px;
+  height: 52px;
+  flex: none;
+  border-radius: 50%;
+  background: var(--primary);
+  color: #fff;
+  font-size: 1.35rem;
+  font-weight: 800;
+}
+.xp-bar {
+  height: 10px;
+  margin-top: 14px;
+  border-radius: 999px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  overflow: hidden;
+}
+.xp-bar span { display: block; height: 100%; background: var(--primary); }
+.xp-next { margin: 8px 0 0; color: var(--muted); font-size: 0.9rem; }
+.xp-rows { list-style: none; margin: 16px 0 0; padding: 0; }
+.xp-rows li {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  padding: 8px 0;
+  border-top: 1px solid var(--border);
+}
+.xp-rows li span:first-child { flex: 1; font-weight: 700; }
+.xp-rows li span:nth-child(2) { color: var(--muted); font-size: 0.85rem; }
+.xp-rows li strong { min-width: 56px; text-align: right; }

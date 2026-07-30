@@ -44,7 +44,8 @@
   }
 
   function topicLabel(t) {
-    return { python: "Python", html: "HTML", logic: "Logic", concept: "Concept" }[t] || t;
+    return { python: "Python", html: "HTML", logic: "Logic",
+             concept: "Concept", errors: "Spot the Error" }[t] || t;
   }
 
   function render() {
