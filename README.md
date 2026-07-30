@@ -47,6 +47,23 @@ The site works without any backend, progress just stays in the student's browser
 The anon key is *meant* to be public, it ships in client-side JS. Security comes
 from the RLS policies in the schema file.
 
+### Keeping the database up to date
+
+Some site features need database changes: a new table, a new column on a view,
+a new function. When one lands, **paste the whole of `supabase-schema.sql` into
+the SQL Editor again and Run it**. That is always the right move, first time or
+tenth. Re-running is safe and loses nothing (tables use `IF NOT EXISTS`, views
+and functions use `CREATE OR REPLACE`, the roster upserts, policies are dropped
+and recreated). Applying the file three times over a database full of real
+attempts, progress, games and word cloud rows leaves every count and every
+student's XP identical.
+
+The top of `supabase-schema.sql` has a dated list of what changed and when, so
+you can tell at a glance whether you are current. If a board or button reports
+a missing column or function, you are behind: re-run the file. If it still
+complains afterwards, PostgREST is caching the old shape, so run
+`notify pgrst, 'reload schema';` and reload the page.
+
 ### Teacher view
 
 After students start using it, you can see who&rsquo;s done what:
