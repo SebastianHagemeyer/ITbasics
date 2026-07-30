@@ -654,3 +654,66 @@ drop policy if exists game_scores_update_anon on game_scores;
 create policy game_scores_select_anon on game_scores for select to anon using (true);
 create policy game_scores_insert_anon on game_scores for insert to anon with check (true);
 create policy game_scores_update_anon on game_scores for update to anon using (true) with check (true);
+
+-- ============================================================
+-- Reset a test account
+-- ============================================================
+-- Wipes every trace of one student's work so the site can be tried again
+-- from scratch. Used by the Reset button on the teacher page.
+--
+-- It is security definer, which means it runs with the owner's rights, so
+-- the anon role does NOT need delete permission on any of these tables and
+-- none has been granted. The function is the only way in, and it refuses
+-- any student whose class is not TEST. The worst anyone can do by calling
+-- it directly is wipe the throwaway Gremlin account.
+
+create or replace function reset_test_student(p_code text)
+returns table (part text, rows_deleted int)
+language plpgsql
+security definer
+set search_path = public
+as $$
+declare
+  v_class text;
+  n int;
+begin
+  select class into v_class from students where code = p_code;
+
+  if v_class is null then
+    raise exception 'No student with code %', p_code;
+  end if;
+  if v_class <> 'TEST' then
+    raise exception 'reset_test_student only works on TEST accounts. % is in %', p_code, v_class;
+  end if;
+
+  delete from game_scores where student_code = p_code;
+  get diagnostics n = row_count; part := 'game scores'; rows_deleted := n; return next;
+
+  delete from game_votes where student_code = p_code;
+  get diagnostics n = row_count; part := 'game votes'; rows_deleted := n; return next;
+
+  delete from games where student_code = p_code;
+  get diagnostics n = row_count; part := 'published games'; rows_deleted := n; return next;
+
+  delete from snippets where student_code = p_code;
+  get diagnostics n = row_count; part := 'saved snippets'; rows_deleted := n; return next;
+
+  delete from assignment_progress where student_code = p_code;
+  get diagnostics n = row_count; part := 'assignment progress'; rows_deleted := n; return next;
+
+  delete from assignment_submissions where student_code = p_code;
+  get diagnostics n = row_count; part := 'assignment submissions'; rows_deleted := n; return next;
+
+  delete from wordcloud where student_code = p_code;
+  get diagnostics n = row_count; part := 'word cloud words'; rows_deleted := n; return next;
+
+  delete from quiz_progress where student_code = p_code;
+  get diagnostics n = row_count; part := 'saved progress'; rows_deleted := n; return next;
+
+  delete from quiz_attempts where student_code = p_code;
+  get diagnostics n = row_count; part := 'quiz and freeplay attempts'; rows_deleted := n; return next;
+end;
+$$;
+
+revoke all on function reset_test_student(text) from public;
+grant execute on function reset_test_student(text) to anon;

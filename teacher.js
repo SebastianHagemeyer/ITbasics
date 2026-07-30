@@ -727,6 +727,81 @@
     }
   }
 
+
+  // ---- Reset the throwaway test account ---------------------------------
+  // The delete happens in reset_test_student, a security definer function
+  // that refuses any student whose class is not TEST. The browser has no
+  // delete permission on these tables and does not need any, so a mis-click
+  // here cannot reach a real student's work.
+  var TEST_CODE = "GREMLIN";
+
+  function clearLocalFor(code) {
+    // The database is only half of it. The level badge, which lesson
+    // sections are unlocked, saved sandbox code and the hard-mode flag all
+    // live in this browser, and would survive the wipe and look like the
+    // reset failed.
+    var kill = [];
+    for (var i = 0; i < localStorage.length; i++) {
+      var k = localStorage.key(i);
+      if (k && k.indexOf("itbasics-") === 0 && k.indexOf(code) !== -1) kill.push(k);
+    }
+    ["itbasics-spoterror-hard", "itbasics-challenge-code", "itbasics-sandbox-code",
+     "itbasics-gamemaker-code", "itbasics-gallery-player"].forEach(function (k) {
+      if (localStorage.getItem(k) !== null) kill.push(k);
+    });
+    kill.forEach(function (k) { localStorage.removeItem(k); });
+    return kill.length;
+  }
+
+  function setupReset() {
+    var btn = el("reset-go");
+    if (!btn) return;
+    var msg = el("reset-msg");
+    var detail = el("reset-detail");
+    var armed = false;
+
+    btn.addEventListener("click", async function () {
+      if (!armed) {
+        armed = true;
+        btn.textContent = "Yes, wipe " + TEST_CODE;
+        btn.classList.add("is-armed");
+        msg.textContent = "This cannot be undone. Click again to confirm.";
+        window.setTimeout(function () {
+          if (!armed) return;
+          armed = false;
+          btn.textContent = "Reset " + TEST_CODE;
+          btn.classList.remove("is-armed");
+          msg.textContent = "";
+        }, 6000);
+        return;
+      }
+      armed = false;
+      btn.disabled = true;
+      btn.textContent = "Resetting...";
+      btn.classList.remove("is-armed");
+      msg.textContent = "";
+      detail.innerHTML = "";
+
+      var res = await sb().rpc("reset_test_student", { p_code: TEST_CODE });
+      if (res.error) {
+        msg.textContent = /function .* does not exist/i.test(res.error.message || "")
+          ? "The reset_test_student function is not in the database yet. Run the SQL from supabase-schema.sql."
+          : "Could not reset: " + (res.error.message || "unknown error");
+      } else {
+        var rows = res.data || [];
+        var total = rows.reduce(function (t, r) { return t + (r.rows_deleted || 0); }, 0);
+        var local = clearLocalFor(TEST_CODE);
+        msg.textContent = total + " rows deleted, " + local + " browser keys cleared. " +
+          TEST_CODE + " is blank again.";
+        detail.innerHTML = '<ul class="reset-rows">' + rows.map(function (r) {
+          return "<li><span>" + escapeHtml(r.part) + "</span><strong>" + (r.rows_deleted || 0) + "</strong></li>";
+        }).join("") + "</ul>";
+      }
+      btn.disabled = false;
+      btn.textContent = "Reset " + TEST_CODE;
+    });
+  }
+
   async function startTool() {
     if (!window.ITBasics || !window.ITBasics.isOnline()) {
       el("teacher-status").textContent =
@@ -734,6 +809,7 @@
       return;
     }
     try { await loadHomeworkRows(); } catch (e) { /* table may not exist yet */ }
+    setupReset();
     buildTasks();
     fillTaskSelect();
 
