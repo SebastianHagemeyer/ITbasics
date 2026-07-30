@@ -9,6 +9,11 @@
   let todayOnly = false;    // "Today" toggle: count only scores made today
   let todayRows = null;     // aggregated today-only scores (lazy, refreshed live)
   let todayTimer = null;    // auto-refresh interval while Today is active
+  // True when leaderboard_view has no xp column yet, i.e. the SQL in
+  // supabase-schema.sql has not been run. Without this the all-time XP board
+  // reads 0 for everyone, filters everyone out, and claims nobody has earned
+  // anything, which looks like lost data rather than a missing migration.
+  let xpColumnMissing = false;
 
   async function loadRows() {
     const status = document.getElementById("leaderboard-status");
@@ -24,7 +29,9 @@
       status.textContent = "Couldn't load scores. " + (error.message || "");
       return [];
     }
-    return (data || []).map(function (r) {
+    const raw = data || [];
+    xpColumnMissing = raw.length > 0 && !("xp" in raw[0]);
+    return raw.map(function (r) {
       return {
         code: r.code,
         first_name: r.first_name,
@@ -136,6 +143,16 @@
 
     const source = activeRows();
     if (!source) { status.textContent = todayOnly ? "Loading today's scores…" : "Loading…"; appendGremlinRows(body); return; }
+
+    // Today scores XP client-side, so it works either way; only the all-time
+    // board depends on the view.
+    if (currentMode === "xp" && !todayOnly && xpColumnMissing) {
+      status.textContent = "The XP board needs one SQL statement running in Supabase: " +
+        "leaderboard_view has no xp column yet. Live Coding, Freeplay and the Today " +
+        "board are unaffected. Nothing has been lost.";
+      appendGremlinRows(body);
+      return;
+    }
 
     let rows = source;
     // Teacher accounts never appear in the regular rankings - Mr H lives in
