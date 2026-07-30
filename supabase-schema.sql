@@ -22,6 +22,10 @@
 -- Re-run the whole file after any of these. The dates are when the change
 -- landed on main, so you can tell at a glance whether you are current.
 --
+-- 2026-07-30  students               Staff accounts section added, so MRH0001
+--                                    survives a rebuild from this file. A staff
+--                                    row is only half of it: the code must also
+--                                    be in TEACHER_CODES in supabase-config.js.
 -- 2026-07-30  reset_test_student()   Reset button on the teacher page. A
 --                                    security definer function that wipes one
 --                                    TEST-class account across all nine
@@ -279,6 +283,26 @@ on conflict (code) do update set
 -- rankings, so testing never pollutes the standings. Sign in with: GREMLIN
 insert into students (code, first_name, last_name, class, year_level) values
   ('GREMLIN', 'Gremlin', 'McTest', 'TEST', 0)
+on conflict (code) do update set
+  first_name = excluded.first_name,
+  last_name  = excluded.last_name,
+  class      = excluded.class,
+  year_level = excluded.year_level;
+
+-- ============================================================
+-- Staff accounts
+-- ============================================================
+-- Sign-in looks every code up in this table, so a staff member needs a row
+-- here like anyone else. Class TEACHER keeps them out of the leaderboard
+-- rankings and off the class filters.
+--
+-- The row alone does NOT grant staff powers. The code must ALSO be listed in
+-- window.TEACHER_CODES in supabase-config.js, which is what skips the
+-- passphrase gate on /teacher/, leaves lesson pages ungated, and shows the
+-- take-a-game-down buttons in the gallery.
+
+insert into students (code, first_name, last_name, class, year_level) values
+  ('MRH0001', 'Mr', 'H', 'TEACHER', 0)
 on conflict (code) do update set
   first_name = excluded.first_name,
   last_name  = excluded.last_name,

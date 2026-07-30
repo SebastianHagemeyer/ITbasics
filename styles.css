@@ -4222,3 +4222,55 @@ textarea.gm-input { resize: vertical; }
   font-size: 0.9rem;
 }
 .reset-rows li span { color: var(--muted); }
+
+/* Bottom expansion on the code editors (code-maximise.js).
+   A program longer than the box gets cut at a hard edge with nothing to say
+   so. Fade the last stretch and float a pill over it that opens full screen;
+   both lift once they have scrolled to the end. */
+.sandbox-editor { position: relative; }
+/* Long code scrolls inside the box instead of stretching it down the page.
+   Without this the editor has no maximum, so a 200 line program pushes the
+   output panel off the bottom of the screen and there is nothing for the
+   fade below to fade. Full screen lifts the cap. */
+.sandbox-shell:not(.is-maximised) .sandbox-code { max-height: 62vh; }
+@media (max-width: 760px) {
+  .sandbox-shell:not(.is-maximised) .sandbox-code { max-height: 60vh; }
+}
+.code-fade {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 84px;
+  background: linear-gradient(to bottom, rgba(15, 18, 38, 0), var(--code-bg) 82%);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.15s ease;
+  z-index: 2;
+}
+.code-more {
+  position: absolute;
+  left: 50%;
+  bottom: 12px;
+  transform: translateX(-50%);
+  display: none;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 13px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: rgba(255, 255, 255, 0.12);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  color: var(--code-text);
+  font: 600 0.8rem ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  cursor: pointer;
+  z-index: 3;
+}
+.code-more:hover { background: rgba(255, 255, 255, 0.22); }
+.code-more:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
+.sandbox-editor.can-expand:not(.scrolled-end) .code-fade { opacity: 1; }
+.sandbox-editor.can-expand:not(.scrolled-end) .code-more { display: inline-flex; }
+/* Full screen already shows the lot, so neither belongs there. */
+.is-maximised .code-fade,
+.is-maximised .code-more { display: none; opacity: 0; }

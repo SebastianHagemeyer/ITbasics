@@ -56,6 +56,7 @@
 
     var code = shell.querySelector(".sandbox-code");
     if (code) { try { code.focus(); } catch (e) {} }
+    if (shell._refreshOverflow) shell._refreshOverflow();
   }
 
   function close() {
@@ -82,11 +83,82 @@
 
     var btn = shell.querySelector(".code-maximise");
     if (btn) { paint(btn, false); try { btn.focus(); } catch (e) {} }
+    // Back in the small box, so the "more code" hint may be needed again.
+    if (shell._refreshOverflow) setTimeout(shell._refreshOverflow, 0);
   }
 
   function toggle(shell) {
     if (shell.classList.contains("is-maximised")) close();
     else open(shell);
+  }
+
+  /* Bottom expansion, borrowed from PyWebLib.
+   *
+   * The editor is a fixed-height box with the code scrolling inside it, so a
+   * program longer than the box just gets cut off at a hard edge. Nothing
+   * tells a student the rest of their program is down there, and plenty of
+   * them never think to scroll a panel that does not look scrollable.
+   *
+   * So: fade the last stretch out when there is more below, and float a pill
+   * over it that opens the editor full screen. The fade lifts once they reach
+   * the end, because at that point it is only hiding the last line.
+   */
+  var CHEV =
+    '<svg viewBox="0 0 12 8" width="11" height="8" aria-hidden="true" fill="none"' +
+    ' stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">' +
+    '<path d="M1 1l5 5 5-5"/></svg>';
+
+  function setupOverflow(shell, editor) {
+    var code = editor.querySelector(".sandbox-code");
+    if (!code) return;
+    /* Why the code box is capped (see styles.css .sandbox-code max-height).
+     *
+     * The editor is flex: 1 in a stretch grid with no maximum, so a long
+     * program does not scroll inside its box: it makes the box taller and
+     * shoves the output panel off the bottom of the screen. Capping it means
+     * long code scrolls in place, which is what makes a fade and an expand
+     * pill meaningful in the first place.
+     *
+     * The cap is a viewport fraction in CSS rather than the height of the
+     * output column, which would be circular: the columns stretch to match
+     * each other, so measuring the output while the editor is uncapped just
+     * measures the editor again.
+     */
+    var fade = document.createElement("div");
+    fade.className = "code-fade";
+    editor.appendChild(fade);
+
+    var pill = document.createElement("button");
+    pill.type = "button";
+    pill.className = "code-more";
+    pill.innerHTML = "<span>More code</span>" + CHEV;
+    pill.title = "Open the editor full screen";
+    pill.addEventListener("click", function () { open(shell); });
+    editor.appendChild(pill);
+
+    function refresh() {
+      // Maximised already shows everything, so there is nothing to hint at.
+      if (shell.classList.contains("is-maximised")) {
+        editor.classList.remove("can-expand");
+        return;
+      }
+      var over = code.scrollHeight > code.clientHeight + 4;
+      editor.classList.toggle("can-expand", over);
+      var atEnd = code.scrollTop + code.clientHeight >= code.scrollHeight - 6;
+      editor.classList.toggle("scrolled-end", atEnd);
+    }
+
+    code.addEventListener("scroll", refresh);
+    code.addEventListener("input", refresh);
+    code.addEventListener("keyup", refresh);
+    window.addEventListener("resize", refresh);
+    if (window.ResizeObserver) {
+      try { new ResizeObserver(refresh).observe(editor); } catch (e) {}
+    }
+    // The editor is filled in by another script, so check again once it has.
+    requestAnimationFrame(refresh);
+    setTimeout(refresh, 400);
+    shell._refreshOverflow = refresh;
   }
 
   function setup(shell) {
@@ -101,6 +173,9 @@
     paint(btn, false);
     btn.addEventListener("click", function () { toggle(shell); });
     actions.insertBefore(btn, actions.firstChild);
+
+    var editor = shell.querySelector(".sandbox-editor");
+    if (editor) setupOverflow(shell, editor);
 
     // Click the dimmed area around the panels to exit.
     shell.addEventListener("click", function (e) {

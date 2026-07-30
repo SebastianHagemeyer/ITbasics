@@ -18,4 +18,4 @@ window.TEACHER_PASSCODE = "hallam-staff";
 // Student codes that count as staff. Anyone signed in with one of these
 // skips the passphrase gate on /teacher/ entirely. Same caveat as above:
 // a speed bump, not real security, since codes have no passwords.
-window.TEACHER_CODES = ["MRH0001"];
+window.TEACHER_CODES = ["MRH0001", "MAZ0001"];
