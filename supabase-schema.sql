@@ -160,6 +160,7 @@ insert into students (code, first_name, last_name, class, year_level) values
   ('RAH0048', 'Azlan',         'Rahman',       '10ITB', 10),
   ('SAD0015', 'Tareq',         'Sadat',        '10ITB', 10),
   ('SAL0051', 'Bibi Saira',    'Salozai',      '10ITB', 10),
+  ('SHA0088', 'Hassan',        'Sharifi',      '10ITB', 10),
   ('SHE0035', 'Shehla Bibi',   'Shehla Bibi',  '10ITB', 10),
   ('ZAH0027', 'Nazia',         'Zahedi',       '10ITB', 10)
 on conflict (code) do update set
@@ -296,6 +297,49 @@ livecoding_done as (
   from quiz_attempts
   where quiz_name = 'livecoding'
   group by student_code
+),
+-- ---- XP -------------------------------------------------------------
+-- These three must stay in step with xp.js, which applies the same rules
+-- one student at a time for the progress page. Everything counts ONCE,
+-- keyed on the thing that was done, so replaying cannot inflate a score.
+--
+-- Coding tasks, 50 XP each. Counted across every quiz_name, not just
+-- 'livecoding', because the module tasks record under their own names.
+xp_tasks as (
+  select student_code, count(distinct (answers->>'challenge'))::int as n
+  from quiz_attempts
+  where answers ? 'challenge'
+  group by student_code
+),
+-- Module quizzes, 25 XP each, best attempt, full marks only.
+xp_quiz_best as (
+  select student_code, quiz_name, max(score) as best, max(total) as tot
+  from quiz_attempts
+  where quiz_name in ('programming', 'html', 'python', 'variables', 'strings',
+                      'errors', 'decisions', 'loops', 'binary', 'codes',
+                      'systems', 'networks', 'os')
+  group by student_code, quiz_name
+),
+xp_quizzes as (
+  select student_code, count(*)::int as n
+  from xp_quiz_best
+  where tot > 0 and best = tot
+  group by student_code
+),
+-- Freeplay, first correct answer per scenario only. Spot the Error
+-- scenarios are worth 2, everything else 1.
+xp_fp_seen as (
+  select distinct student_code,
+         answers->>'id'    as scenario_id,
+         answers->>'topic' as topic
+  from quiz_attempts
+  where quiz_name = 'freeplay' and score > 0 and answers ? 'id'
+),
+xp_freeplay as (
+  select student_code,
+         sum(case when topic = 'errors' then 2 else 1 end)::int as xp
+  from xp_fp_seen
+  group by student_code
 )
 select
   s.code,
@@ -308,12 +352,19 @@ select
   max(case when bn.quiz_name = 'python'      then bn.best_score end) as python,
   max(case when bn.quiz_name = 'mixed'       then bn.best_score end) as mixed,
   coalesce(f.total, 0)                                               as freeplay,
-  coalesce(lc.total, 0)                                              as livecoding
+  coalesce(lc.total, 0)                                              as livecoding,
+  (coalesce(xt.n, 0) * 50
+   + coalesce(xq.n, 0) * 25
+   + coalesce(xf.xp, 0))                                             as xp
 from students s
 left join best_named bn on bn.student_code = s.code
 left join freeplay_sum f on f.student_code = s.code
 left join livecoding_done lc on lc.student_code = s.code
-group by s.code, s.first_name, s.last_name, s.class, s.year_level, f.total, lc.total;
+left join xp_tasks xt on xt.student_code = s.code
+left join xp_quizzes xq on xq.student_code = s.code
+left join xp_freeplay xf on xf.student_code = s.code
+group by s.code, s.first_name, s.last_name, s.class, s.year_level,
+         f.total, lc.total, xt.n, xq.n, xf.xp;
 
 -- ============================================================
 -- Word cloud (interactive module contributions)

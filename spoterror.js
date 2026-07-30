@@ -42,19 +42,25 @@
     },
     {
       kind: "A name that does not match",
+      // The rest of the program uses high_score on purpose. Without that, a
+      // name mismatch has two equally good repairs (rename the line, or rename
+      // where it was made) and only one of them can be typed here, which marks
+      // a student wrong for a perfectly sound idea.
       code: [
         'high_score = 100',
         'player_score = int(input("Your score? "))',
         '',
         'if player_score > highscore:',
-        '    print("New record!")'
+        '    print("New record! The old one was", high_score)'
       ],
       bad: 3,
       fix: /^if\s+player_score\s*>\s*high_score\s*:\s*$/,
       fixHint: 'if player_score > high_score:',
       why: 'The variable was made as high_score, with an underscore, but this line asks ' +
            'for highscore without one. To Python those are two completely different names, ' +
-           'so it says: NameError: name \'highscore\' is not defined.'
+           'so it says: NameError: name \'highscore\' is not defined. You could fix a mismatch ' +
+           'from either end, but not here: the last line uses high_score too, so renaming the ' +
+           'top line would just break that one instead. The broken line is the one to repair.'
     },
     {
       kind: "Missing indentation",
@@ -240,9 +246,38 @@
       showNext();
     }
 
+    // Indent by four, the way the editors do. Round 3 is repaired BY indenting,
+    // so reaching for Tab is the natural move and it should not throw them out
+    // of the box. Shift+Tab takes an indent back off. Enter submits and Escape
+    // steps out, so this never becomes a keyboard trap.
+    var INDENT = "    ";
+    function retab(e) {
+      var v = fixIn.value;
+      var a = fixIn.selectionStart;
+      var b = fixIn.selectionEnd;
+      if (e.shiftKey) {
+        var lead = v.length - v.replace(/^[ \t]+/, "").length;
+        if (!lead) return;
+        var cut = Math.min(lead, INDENT.length);
+        fixIn.value = v.slice(cut);
+        var back = function (n) { return Math.max(0, n - cut); };
+        fixIn.setSelectionRange(back(a), back(b));
+        return;
+      }
+      fixIn.value = v.slice(0, a) + INDENT + v.slice(b);
+      fixIn.setSelectionRange(a + INDENT.length, a + INDENT.length);
+    }
+
     if (fixBtn) fixBtn.addEventListener("click", submitFix);
     if (fixIn) fixIn.addEventListener("keydown", function (e) {
-      if (e.key === "Enter") { e.preventDefault(); submitFix(); }
+      if (e.key === "Enter") { e.preventDefault(); submitFix(); return; }
+      if (e.key === "Tab" && !e.ctrlKey && !e.metaKey && !e.altKey) {
+        if (fixIn.disabled) return;
+        e.preventDefault();
+        retab(e);
+        return;
+      }
+      if (e.key === "Escape") { fixIn.blur(); }
     });
 
     function finish() {
@@ -266,6 +301,10 @@
     }
 
     nextBtn.addEventListener("click", function () {
+      // A hidden button must not act. Double-clicking, or holding Enter while
+      // it has focus, fires the handler again before the browser has taken
+      // the hidden button away, which used to skip whole programs unanswered.
+      if (nextBtn.hidden) return;
       if (round === ROUNDS.length - 1 && nextBtn.textContent === "See my score") {
         finish();
         return;

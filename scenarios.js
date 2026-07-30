@@ -3,13 +3,14 @@
  *
  * Each scenario has:
  *   id         unique key
- *   topic      python | html | logic | concept
+ *   topic      python | html | logic | concept | errors
  *   difficulty easy | medium | hard
  *   prompt     the question text (plain text)
  *   code       optional code/HTML snippet, rendered as literal text in a <pre>
  *   options    4 multiple-choice options (plain text)
  *   answer     index of the correct option (0-3)
  *   explain    short reason shown after the student picks
+ *   xp         optional XP override; anything without one is worth 1
  */
 window.SCENARIOS = [
   // ======================================================================
@@ -1047,5 +1048,287 @@ window.SCENARIOS = [
   { id: "con-020", topic: "concept", difficulty: "easy",
     prompt: "Which file extension is used for a Python script?",
     options: [".py", ".python", ".txt", ".js"], answer: 0,
-    explain: "Python files end in .py." }
+    explain: "Python files end in .py." },
+
+  // ======================================================================
+  // SPOT THE ERROR: every snippet below was run through real Python 3, and
+  // the line numbers and messages quoted here are the ones it actually
+  // prints. Worth 2 XP each: reading broken code is harder than reading
+  // working code, and it is the skill that unblocks everything else.
+  // ======================================================================
+
+  { id: "err-001", topic: "errors", difficulty: "easy", xp: 2,
+    prompt: "Which line has the mistake?",
+    code: "age = 15\nif age > 12\n    print(\"Teen\")",
+    options: ["Line 1", "Line 2", "Line 3", "The code is fine"], answer: 1,
+    explain: "Line 2 opens a block, so it must end with a colon. Python says: SyntaxError: expected ':'" },
+
+  { id: "err-002", topic: "errors", difficulty: "easy", xp: 2,
+    prompt: "What is wrong with this code?",
+    code: "name = \"Ada\nprint(name)",
+    options: [
+      "The closing quote after Ada is missing",
+      "print needs a colon",
+      "name is a reserved word",
+      "Nothing, it runs fine"
+    ], answer: 0,
+    explain: "Every \" needs a partner. Python says: SyntaxError: unterminated string literal (detected at line 1)" },
+
+  { id: "err-003", topic: "errors", difficulty: "medium", xp: 2,
+    prompt: "What is wrong with this code?",
+    code: "greeting = Hello\"\nprint(greeting)",
+    options: [
+      "The opening quote before Hello is missing",
+      "greeting is spelled wrong on line 2",
+      "print should be Print",
+      "Nothing, it runs fine"
+    ], answer: 0,
+    explain: "The text has a closing quote but no opening one, so Python reads on looking for the partner: SyntaxError: unterminated string literal" },
+
+  { id: "err-004", topic: "errors", difficulty: "medium", xp: 2,
+    prompt: "What is wrong with this code?",
+    code: "message = \"Good morning'\nprint(message)",
+    options: [
+      "The quotes do not match: it opens with \" and closes with '",
+      "message is too long",
+      "You cannot put a space inside a string",
+      "Nothing, it runs fine"
+    ], answer: 0,
+    explain: "Quotes come in matching pairs. A \" must be closed by a \", not by a '. Python says: unterminated string literal" },
+
+  { id: "err-005", topic: "errors", difficulty: "easy", xp: 2,
+    prompt: "What is wrong with this code?",
+    code: "total = 10\nprint(\"Total is\", total",
+    options: [
+      "The closing bracket on line 2 is missing",
+      "total should be in quotes",
+      "There should be a colon after print",
+      "Nothing, it runs fine"
+    ], answer: 0,
+    explain: "Count the brackets: line 2 opens one and closes none. Python says: SyntaxError: '(' was never closed" },
+
+  { id: "err-006", topic: "errors", difficulty: "hard", xp: 2,
+    prompt: "How many closing brackets does line 1 still need?",
+    code: "age = int(input(\"Age? \")\nprint(age)",
+    options: ["None, it is fine", "One", "Two", "Three"], answer: 1,
+    explain: "int( and input( both opened, only one ) closed them. One more ) is needed. Python says: '(' was never closed" },
+
+  { id: "err-007", topic: "errors", difficulty: "easy", xp: 2,
+    prompt: "Which line has the mistake?",
+    code: "score = 10\nif score > 5:\nprint(\"Good\")",
+    options: ["Line 1", "Line 2", "Line 3", "The code is fine"], answer: 2,
+    explain: "Line 2 ends with a colon, so line 3 must be indented to show it belongs inside the if. Python says: IndentationError: expected an indented block" },
+
+  { id: "err-008", topic: "errors", difficulty: "easy", xp: 2,
+    prompt: "What is wrong with this code?",
+    code: "for i in range(3):\nprint(i)",
+    options: [
+      "Line 2 needs to be indented",
+      "range(3) should be range[3]",
+      "i needs to be created first",
+      "Nothing, it runs fine"
+    ], answer: 0,
+    explain: "Colon, then indent, every time. Python says: IndentationError: expected an indented block after 'for' statement on line 1" },
+
+  { id: "err-009", topic: "errors", difficulty: "medium", xp: 2,
+    prompt: "What is wrong with this code?",
+    code: "name = \"Sam\"\n    print(name)",
+    options: [
+      "Line 2 is indented when it should not be",
+      "name should be in single quotes",
+      "print is spelled wrong",
+      "Nothing, it runs fine"
+    ], answer: 0,
+    explain: "Nothing on line 1 opened a block, so line 2 has no reason to be indented. Python says: IndentationError: unexpected indent" },
+
+  { id: "err-010", topic: "errors", difficulty: "easy", xp: 2,
+    prompt: "Which line has the mistake?",
+    code: "age = 13\nif age = 13:\n    print(\"Yes\")",
+    options: ["Line 1", "Line 2", "Line 3", "The code is fine"], answer: 1,
+    explain: "One = stores, two == asks. Inside an if you are asking. Python even guesses: Maybe you meant '==' instead of '='?" },
+
+  { id: "err-011", topic: "errors", difficulty: "easy", xp: 2,
+    prompt: "What is wrong with this code?",
+    code: "user_name = \"Ada\"\nprint(username)",
+    options: [
+      "Line 2 is missing the underscore in user_name",
+      "The quotes should be single quotes",
+      "print cannot take a variable",
+      "Nothing, it runs fine"
+    ], answer: 0,
+    explain: "user_name and username are two different names to Python. It says: NameError: name 'username' is not defined. Did you mean: 'user_name'?" },
+
+  { id: "err-012", topic: "errors", difficulty: "medium", xp: 2,
+    prompt: "What is wrong with this code?",
+    code: "Score = 100\nprint(score)",
+    options: [
+      "The capital S: Score and score are different names",
+      "100 should be in quotes",
+      "Variables cannot start with a capital letter",
+      "Nothing, it runs fine"
+    ], answer: 0,
+    explain: "Python is case sensitive. Score and score are unrelated. It says: NameError: name 'score' is not defined. Did you mean: 'Score'?" },
+
+  { id: "err-013", topic: "errors", difficulty: "easy", xp: 2,
+    prompt: "What is wrong with this code?",
+    code: "pirnt(\"Hello\")",
+    options: [
+      "print is spelled wrong",
+      "Hello needs single quotes",
+      "It is missing a colon",
+      "Nothing, it runs fine"
+    ], answer: 0,
+    explain: "Python does not know a command called pirnt, so it treats it as a name: NameError: name 'pirnt' is not defined. Did you mean: 'print'?" },
+
+  { id: "err-014", topic: "errors", difficulty: "medium", xp: 2,
+    prompt: "What is wrong with this code?",
+    code: "game_over = true\nprint(game_over)",
+    options: [
+      "true needs a capital T",
+      "game_over cannot have an underscore",
+      "It needs quotes around true",
+      "Nothing, it runs fine"
+    ], answer: 0,
+    explain: "Python spells it True with a capital T. Lowercase true is just an unknown name: NameError: name 'true' is not defined. Did you mean: 'True'?" },
+
+  { id: "err-015", topic: "errors", difficulty: "easy", xp: 2,
+    prompt: "Which line has the mistake?",
+    code: "count = 0\nwhile count < 3\n    count = count + 1",
+    options: ["Line 1", "Line 2", "Line 3", "The code is fine"], answer: 1,
+    explain: "while opens a block, so it needs a colon on the end. Python says: SyntaxError: expected ':'" },
+
+  { id: "err-016", topic: "errors", difficulty: "medium", xp: 2,
+    prompt: "What is wrong with this code?",
+    code: "def greet()\n    print(\"Hi\")",
+    options: [
+      "Line 1 is missing the colon",
+      "greet needs to be called",
+      "print should not be indented",
+      "Nothing, it runs fine"
+    ], answer: 0,
+    explain: "def opens a block just like if and for, so it ends with a colon: def greet():" },
+
+  { id: "err-017", topic: "errors", difficulty: "easy", xp: 2,
+    prompt: "What is wrong with this code?",
+    code: "print \"Hello\"",
+    options: [
+      "print needs brackets around what it prints",
+      "Hello should not have quotes",
+      "It needs a colon on the end",
+      "Nothing, it runs fine"
+    ], answer: 0,
+    explain: "In Python 3 print is a function, so it needs brackets. Python says: SyntaxError: Missing parentheses in call to 'print'" },
+
+  { id: "err-018", topic: "errors", difficulty: "medium", xp: 2,
+    prompt: "What error does this give?",
+    code: "age = 15\nprint(\"You are \" + age)",
+    options: [
+      "TypeError: you cannot join text to a number",
+      "NameError: age is not defined",
+      "SyntaxError: invalid syntax",
+      "No error, it prints You are 15"
+    ], answer: 0,
+    explain: "+ joins text to text, or adds number to number, never one of each. Wrap it: \"You are \" + str(age). Python says: can only concatenate str (not \"int\") to str" },
+
+  { id: "err-019", topic: "errors", difficulty: "medium", xp: 2,
+    prompt: "Which line has the mistake?",
+    code: "score = 100\nmessage = \"Score: \" + score\nprint(message)",
+    options: ["Line 1", "Line 2", "Line 3", "The code is fine"], answer: 1,
+    explain: "Line 2 tries to glue a number onto text. It needs str(score) to turn the number into text first." },
+
+  { id: "err-020", topic: "errors", difficulty: "hard", xp: 2,
+    prompt: "Which line has the mistake?",
+    code: "age = input(\"How old are you? \")\nif age > 18:\n    print(\"Adult\")",
+    options: ["Line 1", "Line 2", "Line 3", "The code is fine"], answer: 1,
+    explain: "input always hands back text, so line 2 compares text to a number. Python says: '>' not supported between instances of 'str' and 'int'. Fix it with int(input(...))" },
+
+  { id: "err-021", topic: "errors", difficulty: "medium", xp: 2,
+    prompt: "What error does this give?",
+    code: "number = input(\"Pick a number: \")\nprint(number + 10)",
+    options: [
+      "TypeError: number is text, not a number",
+      "ValueError: 10 is not valid",
+      "SyntaxError: missing bracket",
+      "No error, it adds 10"
+    ], answer: 0,
+    explain: "input gives text even when they type digits, so + tries to glue 10 onto text. Wrap it: int(input(...))" },
+
+  { id: "err-022", topic: "errors", difficulty: "hard", xp: 2,
+    prompt: "What does this print?",
+    code: "a = \"5\"\nb = \"3\"\nprint(a + b)",
+    options: ["8", "53", "An error", "5 + 3"], answer: 1,
+    explain: "Both are text because of the quotes, so + joins them instead of adding: 53. This one runs happily and still gives the wrong answer, which makes it harder to spot than a crash. Use int(a) + int(b) for 8." },
+
+  { id: "err-023", topic: "errors", difficulty: "easy", xp: 2,
+    prompt: "What is wrong with this code?",
+    code: "scores = [10, 20, 30\nprint(scores)",
+    options: [
+      "The closing square bracket is missing",
+      "Lists cannot hold numbers",
+      "It needs a colon after scores",
+      "Nothing, it runs fine"
+    ], answer: 0,
+    explain: "A list opens with [ and must close with ]. Python says: SyntaxError: '[' was never closed" },
+
+  { id: "err-024", topic: "errors", difficulty: "medium", xp: 2,
+    prompt: "Which line has the mistake?",
+    code: "word = \"hello\"\nprint(len(word)",
+    options: ["Line 1", "Line 2", "Both lines", "The code is fine"], answer: 1,
+    explain: "Line 2 opens two brackets and closes one. print( needs its own closing bracket too: print(len(word))" },
+
+  { id: "err-025", topic: "errors", difficulty: "hard", xp: 2,
+    prompt: "What is wrong with this code?",
+    code: "print(\"She said \"hello\" to me\")",
+    options: [
+      "The inner quotes end the string early",
+      "You cannot use the word hello",
+      "print can only take one word",
+      "Nothing, it runs fine"
+    ], answer: 0,
+    explain: "The second \" closes the string, so Python sees hello sitting outside it. Use single quotes inside: \"She said 'hello' to me\"" },
+
+  { id: "err-026", topic: "errors", difficulty: "hard", xp: 2,
+    prompt: "Which line has the mistake?",
+    code: "age = 10\nif age > 12:\n    print(\"Teen\")\n  else:\n    print(\"Child\")",
+    options: ["Line 2", "Line 3", "Line 4", "Line 5"], answer: 2,
+    explain: "else must line up exactly with its if. Line 4 is indented two spaces, matching nothing. Python says: IndentationError: unindent does not match any outer indentation level" },
+
+  { id: "err-027", topic: "errors", difficulty: "medium", xp: 2,
+    prompt: "Which line has the mistake?",
+    code: "print(total)\ntotal = 10",
+    options: ["Line 1", "Line 2", "Both lines", "The code is fine"], answer: 0,
+    explain: "Python runs top to bottom, so on line 1 total does not exist yet. Make it before you use it. NameError: name 'total' is not defined" },
+
+  { id: "err-028", topic: "errors", difficulty: "medium", xp: 2,
+    prompt: "What is wrong with this code?",
+    code: "for i range(5):\n    print(i)",
+    options: [
+      "The word in is missing",
+      "range(5) should be range[5]",
+      "i should be in quotes",
+      "Nothing, it runs fine"
+    ], answer: 0,
+    explain: "The shape is always: for <name> in <something>:. Without in, Python says: SyntaxError: invalid syntax" },
+
+  { id: "err-029", topic: "errors", difficulty: "hard", xp: 2,
+    prompt: "What error does this give?",
+    code: "word = \"Python\"\nprint(word[10])",
+    options: [
+      "IndexError: there is no letter number 10",
+      "TypeError: you cannot index a string",
+      "SyntaxError: invalid syntax",
+      "No error, it prints n"
+    ], answer: 0,
+    explain: "Python has 6 letters, numbered 0 to 5, so there is no position 10. Python says: IndexError: string index out of range" },
+
+  { id: "err-030", topic: "errors", difficulty: "medium", xp: 2,
+    prompt: "What error does this give?",
+    code: "age = int(\"fifteen\")\nprint(age)",
+    options: [
+      "ValueError: int() cannot read a word as a number",
+      "TypeError: int() takes no arguments",
+      "NameError: fifteen is not defined",
+      "No error, it prints 15"
+    ], answer: 0,
+    explain: "int() converts digits like \"15\", not words. Python says: ValueError: invalid literal for int() with base 10: 'fifteen'" },
 ];

@@ -5,7 +5,7 @@
   let currentClass = "7A";
   // The quiz board is retired from display (its tab is gone, so "quiz" is
   // never selected), but quiz scores are still stored and fetched untouched.
-  let currentMode = "livecoding"; // "livecoding" | "freeplay"
+  let currentMode = "xp";         // "xp" | "livecoding" | "freeplay"
   let todayOnly = false;    // "Today" toggle: count only scores made today
   let todayRows = null;     // aggregated today-only scores (lazy, refreshed live)
   let todayTimer = null;    // auto-refresh interval while Today is active
@@ -37,7 +37,8 @@
           mixed: r.mixed
         },
         freeplay: r.freeplay || 0,
-        livecoding: r.livecoding || 0
+        livecoding: r.livecoding || 0,
+        xp: r.xp || 0
       };
     });
   }
@@ -73,7 +74,8 @@
       if (res.error) break;
       const data = res.data || [];
       data.forEach(function (a) {
-        const m = agg[a.student_code] || (agg[a.student_code] = { scores: {}, freeplay: 0, ch: {} });
+        const m = agg[a.student_code] || (agg[a.student_code] = { scores: {}, freeplay: 0, ch: {}, raw: [] });
+        m.raw.push({ quiz_name: a.quiz_name, score: a.score, total: a.total, answers: a.answers });
         if (a.quiz_name === "freeplay") {
           m.freeplay += (a.score || 0);
         } else if (a.quiz_name === "livecoding") {
@@ -103,7 +105,8 @@
           mixed: m.scores.mixed
         },
         freeplay: m.freeplay,
-        livecoding: Object.keys(m.ch).length
+        livecoding: Object.keys(m.ch).length,
+        xp: window.ITXP ? window.ITXP.fromAttempts(m.raw).xp : 0
       };
     });
   }
@@ -115,6 +118,7 @@
            (r.scores.mixed || 0);
   }
   function metricFor(r) {
+    if (currentMode === "xp")         return r.xp         || 0;
     if (currentMode === "livecoding") return r.livecoding || 0;
     if (currentMode === "freeplay")   return r.freeplay   || 0;
     return quizTotal(r);
@@ -201,7 +205,9 @@
 
   function headerRow() {
     let cols;
-    if (currentMode === "livecoding") {
+    if (currentMode === "xp") {
+      cols = '<th class="col-level">Level</th><th class="col-total">XP</th>';
+    } else if (currentMode === "livecoding") {
       cols = '<th class="col-total">Challenges done</th>';
     } else if (currentMode === "freeplay") {
       cols = '<th class="col-total">Freeplay correct</th>';
@@ -213,6 +219,10 @@
   }
 
   function bodyCells(r) {
+    if (currentMode === "xp") {
+      return '<td class="col-level">' + levelPill(r.xp || 0) + '</td>' +
+             '<td class="col-total"><strong>' + (r.xp || 0) + '</strong></td>';
+    }
     if (currentMode === "livecoding") {
       return '<td class="col-total"><strong>' + (r.livecoding || 0) + '</strong></td>';
     }
@@ -226,6 +236,17 @@
            '<td class="col-total"><strong>' + quizTotal(r) + '</strong></td>';
   }
 
+  // The level badge beside a score. Names and thresholds come from xp.js, so
+  // the leaderboard can never disagree with the progress page.
+  function levelPill(xp) {
+    if (!window.ITXP) return "";
+    const s = window.ITXP.levelFor(xp);
+    return '<span class="lb-level" title="' + escapeHtml(s.name) + '">' +
+             '<span class="lb-level-num">' + s.level + '</span>' +
+             '<span class="lb-level-name">' + escapeHtml(s.name) + '</span>' +
+           '</span>';
+  }
+
   function buildTeacherRow() {
     const session = window.ITBasics && window.ITBasics.getSession();
     const isMe = !!(session && session.class === "TEACHER");
@@ -233,7 +254,11 @@
     tr.className = "teacher" + (isMe ? " me" : "");
     const tag = isMe ? ' <span class="you-tag">you</span>' : '';
     let mid;
-    if (currentMode === "livecoding" || currentMode === "freeplay") {
+    if (currentMode === "xp") {
+      mid = '<td class="col-level"><span class="lb-level"><span class="lb-level-num">&infin;</span>' +
+            '<span class="lb-level-name">Mastermind</span></span></td>' +
+            '<td class="col-total"><strong>∞</strong></td>';
+    } else if (currentMode === "livecoding" || currentMode === "freeplay") {
       mid = '<td class="col-total"><strong>∞</strong></td>';
     } else {
       mid = '<td class="col-score">∞</td><td class="col-score">∞</td><td class="col-score">∞</td>' +
@@ -248,7 +273,8 @@
   }
 
   function emptyMessage() {
-    const what = currentMode === "livecoding" ? "cracked a challenge"
+    const what = currentMode === "xp"         ? "earned any XP"
+               : currentMode === "livecoding" ? "cracked a challenge"
                : currentMode === "freeplay"   ? "tried Freeplay"
                :                                "tried a quiz";
     const when = todayOnly ? " today" : "";
@@ -270,6 +296,7 @@
 
   function setupClassTabs() {
     const tabs = document.querySelectorAll('[data-tabs="class"] .quiz-tab');
+    const more = document.querySelector('[data-tabs="class"] .lb-more');
     tabs.forEach(function (t) {
       t.addEventListener("click", function () {
         tabs.forEach(function (x) { x.classList.remove("active"); });
@@ -279,6 +306,25 @@
       });
     });
 
+    // Only your own class is on show. The other six fold away behind the
+    // arrow, because a row of tabs for classes you are not in is just noise.
+    function fold(mine) {
+      if (!more) return;
+      tabs.forEach(function (t) {
+        t.classList.toggle("lb-tucked", t.dataset.class !== mine);
+      });
+      more.hidden = false;
+    }
+    if (more) {
+      more.hidden = true;   // fold() reveals it once we know their class
+      more.addEventListener("click", function () {
+        const open = more.getAttribute("aria-expanded") === "true";
+        more.setAttribute("aria-expanded", open ? "false" : "true");
+        document.querySelector('[data-tabs="class"]').classList.toggle("lb-open", !open);
+        more.querySelector(".lb-more-text").textContent = open ? "Other classes" : "Hide";
+      });
+    }
+
     // Default tab to the signed-in student's class.
     const s = window.ITBasics && window.ITBasics.getSession();
     if (s && s.class) {
@@ -287,6 +333,7 @@
         tabs.forEach(function (x) { x.classList.remove("active"); });
         match.classList.add("active");
         currentClass = s.class;
+        fold(s.class);
       }
     }
   }
