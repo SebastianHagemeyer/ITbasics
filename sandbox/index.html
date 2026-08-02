@@ -54,15 +54,9 @@
   </header>
 
   <main>
-    <section class="page-hero">
-      <div class="container">
-        <p class="eyebrow">Try it live</p>
-        <h1>Python Sandbox</h1>
-        <p class="lead">Real Python, running right in your browser. Edit the code, hit Run, see what happens. No install, no setup.</p>
-      </div>
-    </section>
+    <div class="container section sandbox-page">
+      <h1 class="sandbox-page-title">Python Sandbox</h1>
 
-    <div class="container section">
       <div class="sandbox-shell">
         <div class="sandbox-editor">
           <div class="sandbox-bar">
@@ -114,21 +108,25 @@
         New to games? Read the <a href="/topics/libraries/">Libraries &amp; import guide</a>.
       </p>
 
-      <section class="sandbox-examples sandbox-snippets" id="sandbox-snippets">
-        <div class="snippet-head">
-          <h2 class="sandbox-examples-heading">My code</h2>
+      <details class="sandbox-examples sandbox-snippets snippet-drawer" id="sandbox-snippets">
+        <summary class="snippet-summary">
+          <svg class="snippet-chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span class="sandbox-examples-heading">My code</span>
+          <span class="snippet-count" id="snippet-count"></span>
+        </summary>
+        <div class="snippet-body">
           <form class="snippet-save-form" id="snippet-save-form" autocomplete="off">
             <input type="text" class="snippet-name-input" id="snippet-name"
                    placeholder="Name your program" maxlength="40" aria-label="Snippet name" />
             <button type="submit" class="btn btn-primary">Save current code</button>
           </form>
+          <p class="sandbox-examples-sub">
+            Your private saves. Only you see these, and they follow you to any computer you sign in on.
+            Saving with a name you already used replaces that version.
+          </p>
+          <div class="sandbox-examples-grid" id="snippet-grid"></div>
         </div>
-        <p class="sandbox-examples-sub">
-          Your private saves. Only you see these, and they follow you to any computer you sign in on.
-          Saving with a name you already used replaces that version.
-        </p>
-        <div class="sandbox-examples-grid" id="snippet-grid"></div>
-      </section>
+      </details>
 
       <section class="sandbox-examples">
         <h2 class="sandbox-examples-heading">Try a snippet</h2>
