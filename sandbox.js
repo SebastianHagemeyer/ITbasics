@@ -1079,6 +1079,10 @@
 
   function renderSnippets(list) {
     if (!snippetGrid) return;
+    // The drawer is shut by default, so put the number on the summary line:
+    // that is the only way to tell there is anything in there without opening it.
+    var countEl = document.getElementById("snippet-count");
+    if (countEl) countEl.textContent = list.length ? String(list.length) : "";
     snippetGrid.innerHTML = "";
     if (!list.length) {
       const p = document.createElement("p");

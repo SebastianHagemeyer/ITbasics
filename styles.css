@@ -4274,3 +4274,45 @@ textarea.gm-input { resize: vertical; }
 /* Full screen already shows the lot, so neither belongs there. */
 .is-maximised .code-fade,
 .is-maximised .code-more { display: none; opacity: 0; }
+
+/* Sandbox: slim page title instead of the tall hero, so the editor is the
+   first thing on screen rather than the third. */
+.sandbox-page-title {
+  margin: 0 0 18px;
+  font-size: 1.6rem;
+}
+
+/* "My code" as a drawer, shut by default. It is a personal filing cabinet,
+   not something you need in view while writing code. */
+.snippet-drawer { padding: 0; }
+.snippet-summary {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 18px;
+  cursor: pointer;
+  list-style: none;
+  border-radius: var(--radius);
+}
+.snippet-summary::-webkit-details-marker { display: none; }
+.snippet-summary:hover { background: rgba(0, 0, 0, 0.03); }
+.snippet-summary .sandbox-examples-heading { margin: 0; }
+.snippet-chev {
+  width: 12px;
+  height: 8px;
+  flex: none;
+  color: var(--muted);
+  transition: transform 0.15s ease;
+}
+.snippet-drawer[open] .snippet-chev { transform: rotate(180deg); }
+.snippet-count {
+  padding: 1px 9px;
+  border-radius: 999px;
+  background: var(--primary);
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 800;
+}
+.snippet-count:empty { display: none; }
+.snippet-body { padding: 0 18px 18px; }
+.snippet-body .snippet-save-form { margin-bottom: 10px; }
