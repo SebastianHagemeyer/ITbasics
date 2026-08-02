@@ -4229,18 +4229,32 @@ textarea.gm-input { resize: vertical; }
    both lift once they have scrolled to the end. */
 .sandbox-editor { position: relative; }
 /* Long code scrolls inside the box instead of stretching it down the page.
-   Without this the editor has no maximum, so a 200 line program pushes the
-   output panel off the bottom of the screen and there is nothing for the
-   fade below to fade. Full screen lifts the cap. */
-.sandbox-shell:not(.is-maximised) .sandbox-code { max-height: 62vh; }
+   Without a cap the editor has no maximum, so a 200 line program pushes the
+   output panel off the bottom of the screen.
+
+   The cap goes on the PANEL, not on the code area. Capping the code left the
+   panel free to stretch taller than it (the grid matches the two columns), so
+   a tall right-hand side produced a band of dead space under the code, with
+   the fade and pill stranded in it instead of sitting at the code's edge.
+
+   min-height: 0 is what actually lets the code scroll: a flex item will not
+   shrink below its content without it, which is why the editor grew in the
+   first place. Full screen lifts both. */
+.sandbox-shell:not(.is-maximised) > .sandbox-editor { max-height: 78vh; }
+.sandbox-code { min-height: 0; }
+/* Columns size to their own content rather than stretching to match. That is
+   what makes the height in code-maximise.js safe to measure: with stretch on,
+   reading the output column while the editor is uncapped just reads the
+   editor back. */
+.sandbox-shell:not(.is-maximised) { align-items: start; }
 @media (max-width: 760px) {
-  .sandbox-shell:not(.is-maximised) .sandbox-code { max-height: 60vh; }
+  .sandbox-shell:not(.is-maximised) > .sandbox-editor { max-height: 60vh; }
 }
 .code-fade {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 0;
+  bottom: var(--code-bottom-gap, 0px);
   height: 84px;
   background: linear-gradient(to bottom, rgba(15, 18, 38, 0), var(--code-bg) 82%);
   pointer-events: none;
@@ -4251,7 +4265,7 @@ textarea.gm-input { resize: vertical; }
 .code-more {
   position: absolute;
   left: 50%;
-  bottom: 12px;
+  bottom: calc(var(--code-bottom-gap, 0px) + 12px);
   transform: translateX(-50%);
   display: none;
   align-items: center;
