@@ -111,19 +111,47 @@
   function setupOverflow(shell, editor) {
     var code = editor.querySelector(".sandbox-code");
     if (!code) return;
-    /* Why the code box is capped (see styles.css .sandbox-code max-height).
+    /* Match the editor to the column beside it.
      *
-     * The editor is flex: 1 in a stretch grid with no maximum, so a long
-     * program does not scroll inside its box: it makes the box taller and
-     * shoves the output panel off the bottom of the screen. Capping it means
-     * long code scrolls in place, which is what makes a fade and an expand
-     * pill meaningful in the first place.
+     * Left alone, the editor is flex: 1 with no maximum, so a long program
+     * does not scroll inside its box, it makes the box taller and shoves the
+     * output panel off the bottom of the screen. A CSS cap alone is not
+     * enough either: the panel can then be taller than the code inside it,
+     * which leaves a band of dead space with the fade and pill stranded in
+     * the middle of it rather than at the code's edge.
      *
-     * The cap is a viewport fraction in CSS rather than the height of the
-     * output column, which would be circular: the columns stretch to match
-     * each other, so measuring the output while the editor is uncapped just
-     * measures the editor again.
+     * So the editor is sized to the output column, which is what PyWebLib
+     * does. It is only safe to measure because .sandbox-shell now uses
+     * align-items: start, so that column sizes to its own content instead of
+     * stretching to match the editor. With stretch on it would just report
+     * the editor's height back.
      */
+    function otherColumn() {
+      var kids = shell.children, best = null;
+      for (var i = 0; i < kids.length; i++) {
+        var k = kids[i];
+        if (k === editor || !k.classList) continue;
+        if (k.classList.contains("challenge-results")) continue;
+        if (!best || k.offsetHeight > best.offsetHeight) best = k;
+      }
+      return best && best.offsetHeight > 0 ? best : null;
+    }
+
+    function matchHeight() {
+      if (shell.classList.contains("is-maximised") ||
+          window.matchMedia("(max-width: 760px)").matches) {
+        editor.style.removeProperty("height");
+        return;
+      }
+      var col = otherColumn();
+      if (!col) { editor.style.removeProperty("height"); return; }
+      // Floored so a bare terminal cannot squash the editor, and ceilinged so
+      // a very tall game window cannot push it past the CSS cap.
+      // Floor matches .sandbox-editor's own min-height, so the two columns
+      // agree rather than the editor sitting 60px prouder than the terminal.
+      var h = Math.max(360, Math.min(col.offsetHeight, Math.round(window.innerHeight * 0.78)));
+      editor.style.height = h + "px";
+    }
     var fade = document.createElement("div");
     fade.className = "code-fade";
     editor.appendChild(fade);
@@ -137,11 +165,18 @@
     editor.appendChild(pill);
 
     function refresh() {
+      matchHeight();
       // Maximised already shows everything, so there is nothing to hint at.
       if (shell.classList.contains("is-maximised")) {
         editor.classList.remove("can-expand");
         return;
       }
+      // Some pages put a hint row under the code. The fade and pill belong at
+      // the CODE's bottom edge, not the panel's, or they float over that row.
+      var gap = Math.max(0, Math.round(
+        editor.getBoundingClientRect().bottom - code.getBoundingClientRect().bottom));
+      editor.style.setProperty("--code-bottom-gap", gap + "px");
+
       var over = code.scrollHeight > code.clientHeight + 4;
       editor.classList.toggle("can-expand", over);
       var atEnd = code.scrollTop + code.clientHeight >= code.scrollHeight - 6;
@@ -153,7 +188,13 @@
     code.addEventListener("keyup", refresh);
     window.addEventListener("resize", refresh);
     if (window.ResizeObserver) {
-      try { new ResizeObserver(refresh).observe(editor); } catch (e) {}
+      try {
+        var ro = new ResizeObserver(refresh);
+        ro.observe(editor);
+        for (var i = 0; i < shell.children.length; i++) {
+          if (shell.children[i] !== editor) ro.observe(shell.children[i]);
+        }
+      } catch (e) {}
     }
     // The editor is filled in by another script, so check again once it has.
     requestAnimationFrame(refresh);
