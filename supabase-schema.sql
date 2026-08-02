@@ -718,6 +718,13 @@ create policy game_scores_update_anon on game_scores for update to anon using (t
 -- Wipes every trace of one student's work so the site can be tried again
 -- from scratch. Used by the Reset button on the teacher page.
 --
+-- Every table is written out as public.<table> and search_path is emptied.
+-- A security definer function keeps whatever search_path it was created with,
+-- and if that does not resolve the way you expect, the body fails with
+-- "relation students does not exist" even though the table is plainly there.
+-- Naming the schema outright removes the guesswork, and is also what stops
+-- anyone shadowing these tables with their own via the search path.
+--
 -- It is security definer, which means it runs with the owner's rights, so
 -- the anon role does NOT need delete permission on any of these tables and
 -- none has been granted. The function is the only way in, and it refuses
@@ -728,13 +735,13 @@ create or replace function reset_test_student(p_code text)
 returns table (part text, rows_deleted int)
 language plpgsql
 security definer
-set search_path = public
+set search_path = ''
 as $$
 declare
   v_class text;
   n int;
 begin
-  select class into v_class from students where code = p_code;
+  select class into v_class from public.students where code = p_code;
 
   if v_class is null then
     raise exception 'No student with code %', p_code;
@@ -743,31 +750,31 @@ begin
     raise exception 'reset_test_student only works on TEST accounts. % is in %', p_code, v_class;
   end if;
 
-  delete from game_scores where student_code = p_code;
+  delete from public.game_scores where student_code = p_code;
   get diagnostics n = row_count; part := 'game scores'; rows_deleted := n; return next;
 
-  delete from game_votes where student_code = p_code;
+  delete from public.game_votes where student_code = p_code;
   get diagnostics n = row_count; part := 'game votes'; rows_deleted := n; return next;
 
-  delete from games where student_code = p_code;
+  delete from public.games where student_code = p_code;
   get diagnostics n = row_count; part := 'published games'; rows_deleted := n; return next;
 
-  delete from snippets where student_code = p_code;
+  delete from public.snippets where student_code = p_code;
   get diagnostics n = row_count; part := 'saved snippets'; rows_deleted := n; return next;
 
-  delete from assignment_progress where student_code = p_code;
+  delete from public.assignment_progress where student_code = p_code;
   get diagnostics n = row_count; part := 'assignment progress'; rows_deleted := n; return next;
 
-  delete from assignment_submissions where student_code = p_code;
+  delete from public.assignment_submissions where student_code = p_code;
   get diagnostics n = row_count; part := 'assignment submissions'; rows_deleted := n; return next;
 
-  delete from wordcloud where student_code = p_code;
+  delete from public.wordcloud where student_code = p_code;
   get diagnostics n = row_count; part := 'word cloud words'; rows_deleted := n; return next;
 
-  delete from quiz_progress where student_code = p_code;
+  delete from public.quiz_progress where student_code = p_code;
   get diagnostics n = row_count; part := 'saved progress'; rows_deleted := n; return next;
 
-  delete from quiz_attempts where student_code = p_code;
+  delete from public.quiz_attempts where student_code = p_code;
   get diagnostics n = row_count; part := 'quiz and freeplay attempts'; rows_deleted := n; return next;
 end;
 $$;
