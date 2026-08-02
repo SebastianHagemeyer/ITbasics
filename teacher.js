@@ -784,9 +784,16 @@
 
       var res = await sb().rpc("reset_test_student", { p_code: TEST_CODE });
       if (res.error) {
-        msg.textContent = /function .* does not exist/i.test(res.error.message || "")
-          ? "The reset_test_student function is not in the database yet. Run the SQL from supabase-schema.sql."
-          : "Could not reset: " + (res.error.message || "unknown error");
+        // Postgres says "function ... does not exist"; PostgREST says "Could
+        // not find the function ... in the schema cache", which it also says
+        // when the function IS there but its cache is stale. Catch both, and
+        // name the cache reload, because re-running the SQL alone does not
+        // always clear it.
+        var m = res.error.message || "";
+        msg.textContent = /does not exist|schema cache|could not find the function/i.test(m)
+          ? "The database does not have reset_test_student yet. Run supabase-schema.sql " +
+            "in the Supabase SQL Editor, then run:  notify pgrst, 'reload schema';"
+          : "Could not reset: " + (m || "unknown error");
       } else {
         var rows = res.data || [];
         var total = rows.reduce(function (t, r) { return t + (r.rows_deleted || 0); }, 0);
