@@ -4330,3 +4330,36 @@ textarea.gm-input { resize: vertical; }
 .snippet-count:empty { display: none; }
 .snippet-body { padding: 0 18px 18px; }
 .snippet-body .snippet-save-form { margin-bottom: 10px; }
+
+/* Progress page: modules not started yet fold away, so the list reads as what
+   you have done rather than a wall of "Not tried". */
+.progress-todo { margin-top: 10px; }
+.progress-todo > summary {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 10px 4px;
+  cursor: pointer;
+  list-style: none;
+  color: var(--muted);
+  font-weight: 700;
+  font-size: 0.92rem;
+}
+.progress-todo > summary::-webkit-details-marker { display: none; }
+.progress-todo > summary:hover { color: var(--text); }
+.progress-todo-chev {
+  width: 12px;
+  height: 8px;
+  flex: none;
+  transition: transform 0.15s ease;
+}
+.progress-todo[open] .progress-todo-chev { transform: rotate(180deg); }
+.progress-todo-count {
+  padding: 1px 8px;
+  border-radius: 999px;
+  background: var(--border);
+  color: var(--muted);
+  font-size: 0.75rem;
+  font-weight: 800;
+}
+.progress-todo-body { display: grid; gap: 10px; }

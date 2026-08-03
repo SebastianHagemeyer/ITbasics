@@ -21,6 +21,13 @@
     { key: "networks",    label: "Networks & Safety", href: "/topics/networks/" }
   ];
 
+  // The three retired lessons. They live behind the Legacy shelf on the
+  // modules page, so they should not headline a student's progress either.
+  // A score from one still shows if they actually sat it, just not a row of
+  // "Not tried" for lessons nobody is being asked to do.
+  var LEGACY = { programming: 1, html: 1, python: 1 };
+  var CURRENT = MODULES.filter(function (m) { return !LEGACY[m.key]; });
+
   // Assignments shown on the progress page. Keys match the `assignment`
   // column in assignment_progress (and assignments.js).
   var ASSIGNMENTS = [
@@ -322,23 +329,51 @@
   function render(student, summary) {
     el("progress-greeting").textContent = "Hey " + (student.first_name || student.code) + "!";
 
-    el("progress-quizzes").innerHTML =
-      MODULES.map(function (m) { return moduleCard(m, summary.modules[m.key]); }).join("");
+    // Anything they have actually sat comes first, retired lessons included:
+    // a score they earned is still theirs. Everything untouched drops into a
+    // shut drawer, so the page reads as what you have done rather than a wall
+    // of "Not tried".
+    var tried = MODULES.filter(function (m) { return summary.modules[m.key].attempted; });
+    var todo  = CURRENT.filter(function (m) { return !summary.modules[m.key].attempted; });
+
+    var html = tried.map(function (m) { return moduleCard(m, summary.modules[m.key]); }).join("");
+    if (todo.length) {
+      html +=
+        '<details class="progress-todo">' +
+          '<summary>' +
+            '<svg class="progress-todo-chev" viewBox="0 0 12 8" aria-hidden="true">' +
+              '<path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.8" ' +
+                    'stroke-linecap="round" stroke-linejoin="round"/></svg>' +
+            (tried.length ? "Not started yet" : "Modules to try") +
+            '<span class="progress-todo-count">' + todo.length + '</span>' +
+          '</summary>' +
+          '<div class="progress-todo-body">' +
+            todo.map(function (m) { return moduleCard(m, summary.modules[m.key]); }).join("") +
+          '</div>' +
+        '</details>';
+    }
+    el("progress-quizzes").innerHTML = html;
 
     el("progress-livecoding").textContent = summary.livecoding;
     el("progress-freeplay").textContent = summary.freeplay;
 
-    var done = MODULES.filter(function (m) { return summary.modules[m.key].attempted; }).length;
+    // Counted against the modules actually set, so the retired three cannot
+    // make the total unreachable.
+    var done = CURRENT.filter(function (m) { return summary.modules[m.key].attempted; }).length;
     el("progress-done-count").textContent = done;
-    el("progress-total-count").textContent = MODULES.length;
+    el("progress-total-count").textContent = CURRENT.length;
 
     var msg;
-    if (done === 0) {
+    if (done === 0 && tried.length) {
+      // Everything they have sat is a retired lesson, so "nothing taken yet"
+      // would be calling their own score above a lie.
+      msg = "Nothing from this term's modules yet. Open one and try its test at the bottom!";
+    } else if (done === 0) {
       msg = "You haven't taken a module test yet. Open a module and try its test at the bottom!";
-    } else if (done === MODULES.length) {
-      msg = "All " + MODULES.length + " module tests done. Legend! Now chase those 100%s.";
+    } else if (done === CURRENT.length) {
+      msg = "All " + CURRENT.length + " module tests done. Legend! Now chase those 100%s.";
     } else {
-      msg = done + " of " + MODULES.length + " module tests done. Keep going!";
+      msg = done + " of " + CURRENT.length + " module tests done. Keep going!";
     }
     el("progress-summary").textContent = msg;
   }
