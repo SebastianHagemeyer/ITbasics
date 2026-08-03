@@ -395,9 +395,27 @@
     var subs = await loadSubmissions(student);
     var assignBox = el("progress-assignments");
     if (assignBox) {
-      assignBox.innerHTML = ASSIGNMENTS.map(function (a) {
-        return assignmentCard(a, subs[a.key]);
-      }).join("");
+      // Same rule as the modules: what they have touched comes first, the
+      // rest folds away. A row of "Not started" is not progress.
+      var started = ASSIGNMENTS.filter(function (a) { return subs[a.key]; });
+      var untouched = ASSIGNMENTS.filter(function (a) { return !subs[a.key]; });
+      var out = started.map(function (a) { return assignmentCard(a, subs[a.key]); }).join("");
+      if (untouched.length) {
+        out +=
+          '<details class="progress-todo">' +
+            '<summary>' +
+              '<svg class="progress-todo-chev" viewBox="0 0 12 8" aria-hidden="true">' +
+                '<path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.8" ' +
+                      'stroke-linecap="round" stroke-linejoin="round"/></svg>' +
+              (started.length ? "Not started yet" : "Assignments to try") +
+              '<span class="progress-todo-count">' + untouched.length + '</span>' +
+            '</summary>' +
+            '<div class="progress-todo-body">' +
+              untouched.map(function (a) { return assignmentCard(a, null); }).join("") +
+            '</div>' +
+          '</details>';
+      }
+      assignBox.innerHTML = out;
     }
     status.textContent = "";
     el("progress-content").hidden = false;
