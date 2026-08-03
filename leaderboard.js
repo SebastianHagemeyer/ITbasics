@@ -15,6 +15,13 @@
   // anything, which looks like lost data rather than a missing migration.
   let xpColumnMissing = false;
 
+  // Classes that have finished. Their scores stay in the database, they just
+  // stop cluttering the board: no tab, and left out of "All" so this term's
+  // students are not ranked against last term's finished work. One list, one
+  // place to edit when the semester turns over.
+  const ARCHIVED_CLASSES = ["7A", "7B", "9ITAA"];
+  function archived(c) { return ARCHIVED_CLASSES.indexOf(c) !== -1; }
+
   async function loadRows() {
     const status = document.getElementById("leaderboard-status");
     if (!window.ITBasics || !window.ITBasics.isOnline()) {
@@ -158,7 +165,9 @@
     // Teacher accounts never appear in the regular rankings - Mr H lives in
     // his own pinned row above. The TEST class (gremlin test account) is
     // hidden too, so testing never pollutes the standings.
-    rows = rows.filter(function (r) { return r.class !== "TEACHER" && r.class !== "TEST"; });
+    rows = rows.filter(function (r) {
+      return r.class !== "TEACHER" && r.class !== "TEST" && !archived(r.class);
+    });
     if (currentClass !== "ALL") rows = rows.filter(function (r) { return r.class === currentClass; });
 
     // Only show students who have something on this board; sort by the
@@ -312,6 +321,10 @@
   }
 
   function setupClassTabs() {
+    // Drop the finished classes' tabs before anything else reads the list.
+    document.querySelectorAll('[data-tabs="class"] .quiz-tab').forEach(function (t) {
+      if (archived(t.dataset.class)) t.remove();
+    });
     const tabs = document.querySelectorAll('[data-tabs="class"] .quiz-tab');
     const more = document.querySelector('[data-tabs="class"] .lb-more');
     tabs.forEach(function (t) {
