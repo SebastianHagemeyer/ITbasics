@@ -100,8 +100,12 @@
     }
     // Let anything showing progress (the lesson page tick markers) refresh
     // without waiting for a reload.
+    // answers rides along on purpose. Without it a listener cannot tell a
+    // passed challenge from a freeplay answer from a module test, because
+    // that is what the id inside it distinguishes, so its only option is to
+    // re-read the student's whole history to find out what just happened.
     window.dispatchEvent(new CustomEvent("itbasics:attempt", {
-      detail: { quizName: quizName, score: score, total: total }
+      detail: { quizName: quizName, score: score, total: total, answers: answers }
     }));
   }
 

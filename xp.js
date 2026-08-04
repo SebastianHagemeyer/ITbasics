@@ -180,13 +180,83 @@
 
   function cacheKey(student) { return "itbasics-xp-" + student.code; }
 
+  // The attempts behind whatever is currently on screen. Keeping them lets a
+  // new attempt be folded in without asking the database again: fromAttempts
+  // is pure and works on a plain array, so the recompute is a loop over rows
+  // already in memory.
+  var cachedFor = null;      // student code these belong to
+  var cachedAttempts = null;
+
   async function load(student) {
-    var rows = await fetchAttempts(student);
-    var state = fromAttempts(rows);
+    var fetched = await fetchAttempts(student);
+    cachedFor = student.code;
+    cachedAttempts = fetched;
+    var state = fromAttempts(fetched);
     try {
       localStorage.setItem(cacheKey(student), JSON.stringify({ at: Date.now(), state: state }));
     } catch (e) {}
     return state;
+  }
+
+  /* One new attempt, scored without a round trip.
+   *
+   * Freeplay saves an attempt per question, so re-reading the student's whole
+   * history on every event meant a lesson of sixty questions pulled their
+   * entire record back sixty times. The event now carries enough to score the
+   * attempt here instead. Falls back to a real load if we have no rows yet,
+   * so it can never invent a number.
+   */
+  // Which of the three things this attempt was. Same test fromAttempts uses,
+  // so the animation can never disagree with the scoring about what happened.
+  function kindOf(detail) {
+    var a = detail.answers || {};
+    if (a.challenge) return "task";
+    if (detail.quizName === "freeplay") return "freeplay";
+    return "quiz";
+  }
+
+  function applyOne(detail) {
+    if (!detail || !window.ITBasics) return false;
+    var student = window.ITBasics.getSession();
+    if (!student || cachedFor !== student.code || !cachedAttempts) return false;
+
+    var before = fromAttempts(cachedAttempts);
+    cachedAttempts.push({
+      quiz_name: detail.quizName,
+      score: detail.score,
+      total: detail.total,
+      answers: detail.answers || {}
+    });
+    var state = fromAttempts(cachedAttempts);
+
+    // Painting is the reward, so it is handed to the effect to run at the
+    // right moment: the badge should tick over as the chip lands on it, not
+    // a second before it sets off.
+    function commit() {
+      try {
+        localStorage.setItem(cacheKey(student), JSON.stringify({ at: Date.now(), state: state }));
+      } catch (e) {}
+      paintBadge(state);
+      var host = document.getElementById("xp-panel");
+      if (host && !host.hidden) renderPanel(host, state);
+    }
+
+    var gained = state.xp - before.xp;
+    if (gained > 0 && window.ITXPFX) {
+      var levelled = null;
+      if (state.level > before.level) {
+        levelled = state;
+        // Only call it a new title when the name actually changed: titles
+        // span two levels, so half of all level ups keep the same one.
+        state.newTitle = state.name !== before.name;
+      }
+      window.ITXPFX.award(kindOf(detail), gained, commit, levelled);
+    } else {
+      // Nothing earned (a repeat scenario, a quiz short of full marks), so
+      // no animation. The state still needs writing: the attempt happened.
+      commit();
+    }
+    return true;
   }
 
   function cached(student) {
@@ -279,6 +349,11 @@
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", boot);
   } else { boot(); }
-  window.addEventListener("itbasics:auth", boot);
-  window.addEventListener("itbasics:attempt", boot);
+  window.addEventListener("itbasics:auth", function () {
+    cachedAttempts = null; cachedFor = null; boot();
+  });
+  // Score it here if we can; only go back to the database if we cannot.
+  window.addEventListener("itbasics:attempt", function (e) {
+    if (!applyOne(e && e.detail)) boot();
+  });
 })();
