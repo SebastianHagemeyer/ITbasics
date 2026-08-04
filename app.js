@@ -424,12 +424,18 @@
     if (s) {
       const name = (s.first_name || s.code) + (s.last_name ? " " + s.last_name : "");
       const initial = (s.first_name || s.code)[0].toUpperCase();
+      // Their chosen icon if avatars.js is on the page and they have picked
+      // one, otherwise the initial. Drawn from localStorage so it is instant;
+      // avatars.js corrects it from the database a moment later.
+      const A = window.ITAvatars;
+      const face = A ? A.render(A.cached(s.code), s.first_name || s.code, 30)
+                     : escapeHtml(initial);
       const meta = s.class ? '<span class="auth-meta">' + escapeHtml(s.class) + '</span>' : "";
       // The name sits in its own column so xp.js has somewhere to hang the XP
       // bar underneath it. Pages that do not load xp.js just get the name.
       bar.innerHTML =
         '<a class="auth-user" href="/progress/" title="See your progress">' +
-          '<span class="auth-avatar">' + escapeHtml(initial) + '</span>' +
+          '<span class="auth-avatar' + (A ? " has-avatar" : "") + '">' + face + '</span>' +
           '<span class="auth-id"><span class="auth-name">' + escapeHtml(name) + '</span></span>' +
           meta +
         '</a>' +

@@ -237,6 +237,44 @@
     return out;
   }
 
+  /* The header chip. app.js draws it with whatever is in localStorage, which
+     is instant but can be stale or empty on a computer they have not used
+     before. So once per page load we ask the database, and repaint only if it
+     actually disagrees. Nothing here blocks the chip appearing. */
+  function paintChip() {
+    var slot = document.querySelector(".auth-avatar");
+    if (!slot || !window.ITBasics) return;
+    var s = window.ITBasics.getSession();
+    if (!s) return;
+    slot.innerHTML = render(cached(s.code), s.first_name || s.code, 30);
+    slot.classList.add("has-avatar");
+  }
+
+  async function syncChip() {
+    if (!window.ITBasics || !window.ITBasics.getSession()) return;
+    var s = window.ITBasics.getSession();
+    var here = cached(s.code);
+    var there = await mine();
+    if (!there) return;
+    var same = here && here.shape === there.shape && here.house === there.house;
+    if (same) return;
+    try { localStorage.setItem(localKey(s.code), JSON.stringify(there)); } catch (e) {}
+    paintChip();
+  }
+
+  function bootChip() {
+    paintChip();
+    syncChip();
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", bootChip);
+  } else { bootChip(); }
+
+  // A new pick on the settings page repaints the chip without a reload.
+  window.addEventListener("itbasics:avatar", paintChip);
+  window.addEventListener("itbasics:auth", function () { window.setTimeout(bootChip, 0); });
+
   window.ITAvatars = {
     SHAPES: SHAPES,
     HOUSES: HOUSES,

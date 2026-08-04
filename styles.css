@@ -4879,3 +4879,32 @@ body[data-xp-gate="checking"] main > * { display: none; }
   .avatar-choice:hover { transform: none; }
   .settings-saved.show { animation: none; }
 }
+
+/* Chosen icons: the header chip and the leaderboard name column ------------ */
+
+/* The chip normally draws a letter on a coloured background. Once an icon is
+   in there the SVG brings its own disc, so the background has to go or it
+   shows as a ring behind the icon. */
+.auth-avatar.has-avatar {
+  background: none;
+  padding: 0;
+  overflow: hidden;
+}
+.auth-avatar.has-avatar svg { display: block; border-radius: 50%; }
+
+/* Kept inside a span rather than making the td a flex container, which would
+   drop the cell out of the table layout and break the column widths. */
+.lb-who {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  min-width: 0;
+}
+.lb-face { display: inline-flex; flex: none; line-height: 0; }
+.lb-face svg { display: block; }
+.lb-nm { min-width: 0; }
+
+@media (max-width: 560px) {
+  .lb-who { gap: 7px; }
+  .lb-face svg { width: 20px; height: 20px; }
+}

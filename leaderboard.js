@@ -63,6 +63,26 @@
   // Whichever dataset is on screen: the live "Today" aggregate or the all-time view.
   function activeRows() { return todayOnly ? todayRows : cachedRows; }
 
+  // Everyone's chosen icon, keyed by student code. One query for the whole
+  // school, so it costs the same whether one student has picked or all of
+  // them have. Nobody has to have picked: students without one get their
+  // initial on a house disc instead, so the column never looks half-built.
+  var avatarBy = {};
+
+  function faceFor(code, firstName) {
+    if (!window.ITAvatars) return "";
+    return '<span class="lb-face">' +
+      window.ITAvatars.render(avatarBy[code], firstName, 24) + "</span>";
+  }
+
+  // The board must never wait on this: it is decoration hanging off a
+  // separate query, so it loads alongside and repaints when it arrives.
+  async function loadAvatars() {
+    if (!window.ITAvatars) return;
+    try { avatarBy = await window.ITAvatars.forEveryone(); } catch (e) { return; }
+    render();
+  }
+
   // "Today" board: aggregate just today's attempts (the teacher's local day)
   // client-side, reusing names/class from the all-time rows. The time filter
   // keeps the row count small, but we page through anyway so a busy day can't
@@ -207,7 +227,8 @@
       const rankClass = rank === 1 ? "gold" : rank === 2 ? "silver" : rank === 3 ? "bronze" : "";
       tr.innerHTML =
         '<td class="col-rank"><span class="rank-pill ' + rankClass + '">' + rank + '</span></td>' +
-        '<td class="col-name">' + name + '</td>' +
+        '<td class="col-name"><span class="lb-who">' + faceFor(r.code, r.first_name) +
+          '<span class="lb-nm">' + name + '</span></span></td>' +
         '<td class="col-class">' + escapeHtml(r.class) + '</td>' +
         bodyCells(r);
       body.appendChild(tr);
@@ -231,7 +252,8 @@
         ' <span class="ghost-tag">test</span>';
       tr.innerHTML =
         '<td class="col-rank"><span class="rank-pill gremlin-rank" title="Test account - not ranked">-</span></td>' +
-        '<td class="col-name">' + name + '</td>' +
+        '<td class="col-name"><span class="lb-who">' + faceFor(r.code, r.first_name) +
+          '<span class="lb-nm">' + name + '</span></span></td>' +
         '<td class="col-class">' + escapeHtml(r.class) + '</td>' +
         bodyCells(r);
       body.appendChild(tr);
@@ -303,7 +325,8 @@
     }
     tr.innerHTML =
       '<td class="col-rank"><span class="rank-pill teacher-rank">0</span></td>' +
-      '<td class="col-name">Mr H' + tag + '</td>' +
+      '<td class="col-name"><span class="lb-who">' + faceFor("__teacher__", "H") +
+        '<span class="lb-nm">Mr H' + tag + '</span></span></td>' +
       '<td class="col-class">TEACHER</td>' + mid;
     return tr;
   }
@@ -437,6 +460,7 @@
     setupPeriodTabs();
     cachedRows = await loadRows();
     render();
+    loadAvatars();
   }
 
   if (document.readyState === "loading") {
