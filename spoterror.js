@@ -131,6 +131,7 @@
     var bestEl  = root.querySelector(".se-best");
 
     var hardIn  = root.querySelector(".se-hard");
+    var hardWrap = root.querySelector(".se-hard-wrap");
     var fixWrap = root.querySelector(".se-fix");
     var fixIn   = root.querySelector(".se-fix-input");
     var fixBtn  = root.querySelector(".se-fix-go");
@@ -149,6 +150,17 @@
     }
     function hardMode() { return Boolean(hardIn && hardIn.checked); }
 
+    /* You pick the difficulty before you start, not partway through. It is
+       only changeable on program 1 and only until the first guess, so nobody
+       can spot four the easy way, switch on hard mode for the last one, and
+       call the 5 out of 5 the same thing. Playing again unlocks it. */
+    function lockHard() {
+      if (!hardIn) return;
+      var open = round === 0 && !locked;
+      hardIn.disabled = !open;
+      if (hardWrap) hardWrap.classList.toggle("is-locked", !open);
+    }
+
     function showBest() {
       if (!window.ITBasics || !window.ITBasics.getScores) return;
       Promise.resolve(window.ITBasics.getScores("errors")).then(function (s) {
@@ -162,6 +174,8 @@
     function paintRound() {
       var r = ROUNDS[round];
       locked = false;
+      stage.hidden = false;
+      if (hardWrap) hardWrap.hidden = false;
       progEl.textContent = "Program " + (round + 1) + " of " + ROUNDS.length;
       scoreEl.textContent = "Spotted: " + score + " / " + ROUNDS.length;
       kindEl.hidden = true;
@@ -183,11 +197,13 @@
       stage.querySelectorAll(".se-line").forEach(function (b) {
         b.addEventListener("click", function () { guess(Number(b.dataset.line), b); });
       });
+      lockHard();
     }
 
     function guess(line, btn) {
       if (locked) return;
       locked = true;
+      lockHard();
       var r = ROUNDS[round];
       var right = line === r.bad;
       var hard = hardMode() && Boolean(r.fix);
@@ -281,7 +297,11 @@
     });
 
     function finish() {
+      // An emptied stage is just a black bar with nothing in it, so it goes
+      // entirely. The finished screen is the score and Play again.
       stage.innerHTML = "";
+      stage.hidden = true;
+      if (hardWrap) hardWrap.hidden = true;
       kindEl.hidden = true;
       if (fixWrap) fixWrap.hidden = true;
       progEl.textContent = "Done!";

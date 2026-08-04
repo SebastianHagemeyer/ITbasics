@@ -4569,3 +4569,23 @@ textarea.gm-input { resize: vertical; }
 }
 @media (max-width: 520px) {
   .lu-ring { width: 116px; height: 116px; font-size: 2.6rem; }
+  .lu-title { font-size: 2rem; }
+}
+
+/* Spot the Error: the difficulty is picked before the run starts, so the
+   checkbox greys out for the rest of it rather than vanishing. */
+.se-stage[hidden], .se-hard-wrap[hidden] { display: none; }
+.se-hard-wrap.is-locked { opacity: 0.5; cursor: default; }
+.se-hard-wrap.is-locked input { cursor: default; }
+
+/* Anyone whose machine has asked for less motion gets the numbers changing
+   and nothing flying across the screen. xp-fx.js already skips the glow and
+   the arc; this covers what CSS drives. The level up card still shows and
+   still times itself out: only the scaling and rotating come off, and the
+   outer fade has to stay because it is what removes the card when it ends. */
+@media (prefers-reduced-motion: reduce) {
+  #xp-glow, .ring, .spark, .confetti { display: none !important; }
+  .xp-pop { animation: popTick 700ms ease-out forwards !important; }
+  .auth-level.thump, .auth-level.nudge { animation: none !important; }
+  .lu-card, .lu-ring, .lu-new { animation: none !important; opacity: 1 !important; }
+}
