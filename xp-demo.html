@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>XP animation sandbox | Hallam IT Basics</title>
+<link rel="icon" href="favicon.ico">
+<style>
+/* ------------------------------------------------------------------
+   XP animation sandbox.
+
+   Every place the site pays XP, mocked up, with the reward animation
+   tuned to what that place is worth. Nothing here is wired into the
+   real site: it is a page to look at and argue about. Once a feel is
+   picked the CSS moves into styles.css and the JS becomes an xp-fx.js
+   that listens for the itbasics:attempt event xp.js already handles.
+
+   The four earners, straight out of xp.js RATES:
+
+     coding challenge   50   once per challenge, the rare big one
+     module test        25   full marks only, best attempt, once
+     freeplay            1   first correct answer per scenario
+     spot the error      2   same, doubled
+
+   The design problem is that a 1 XP freeplay answer and a 50 XP coding
+   challenge cannot get the same fanfare. If they do, either freeplay is
+   exhausting or the challenge is a let down. So the loudness of the
+   effect scales with what was actually earned.
+   ------------------------------------------------------------------ */
+:root {
+  --bg: #f7f8fb;
+  --surface: #ffffff;
+  --text: #000000;
+  --muted: #5a5d77;
+  --border: #d9deea;
+  --primary: #1C4587;
+  --primary-dark: #1B3867;
+  --accent: #FFFF00;
+  --highlight: #9900FF;
+  --success: #1f9d55;
+  --success-bg: #e4f6ec;
+  --danger: #d23c3c;
+  --danger-bg: #fbe6e6;
+  --code-bg: #0f1226;
+  --code-text: #e6e7ef;
+  --radius: 12px;
+  --radius-sm: 8px;
+  --shadow-md: 0 8px 24px rgba(20, 22, 50, 0.08);
+
+  --xp: #1f9d55;
+  --xp-lift: #3fd07c;
+  --xp-glow-1: rgba(31, 157, 85, 0.55);
+  --xp-glow-2: rgba(31, 157, 85, 0.18);
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: "Comic Sans MS", "Comic Sans", "Chalkboard SE", system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.55;
+}
+.wrap { max-width: 960px; margin: 0 auto; padding: 0 20px 90px; }
+h1 { font-size: 1.55rem; margin: 26px 0 6px; }
+h2 { font-size: 1.15rem; margin: 0; }
+h3 { font-size: 0.95rem; margin: 0 0 6px; }
+.lede { color: var(--muted); margin: 0 0 22px; }
+.muted { color: var(--muted); }
+
+/* ---- mock site header, so the badge has somewhere to live ---------- */
+.mock-header {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  position: sticky; top: 0; z-index: 20;
+}
+.mock-header-inner {
+  max-width: 960px; margin: 0 auto; padding: 10px 20px;
+  display: flex; align-items: center; justify-content: space-between; gap: 16px;
+}
+.logo { display: flex; align-items: center; gap: 10px; font-weight: 700; }
+.logo-disc {
+  width: 30px; height: 30px; border-radius: 50%; background: var(--accent);
+  display: grid; place-items: center; font-size: 0.8rem;
+}
+.auth-user { display: flex; align-items: center; gap: 10px; font-weight: 700; }
+.badge-stack { display: flex; flex-direction: column; align-items: flex-end; gap: 3px; }
+
+.auth-level {
+  position: relative; display: inline-grid; place-items: center;
+  min-width: 46px; height: 30px; padding: 0 10px;
+  border-radius: 999px; background: var(--primary); color: #fff;
+  font-size: 0.85rem; font-weight: 700; transform-origin: 50% 50%;
+}
+.mini-bar { width: 104px; height: 6px; border-radius: 999px; background: #e6e9f2; overflow: hidden; }
+.mini-bar > span {
+  display: block; height: 100%; width: 0%; position: relative;
+  background: var(--xp); border-radius: 999px;
+  transition: width 900ms cubic-bezier(.2,.9,.25,1);
+}
+.mini-bar.shine > span::after {
+  content: ""; position: absolute; inset: 0;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,.95), transparent);
+  transform: translateX(-100%); animation: barShine 900ms ease-out;
+}
+@keyframes barShine { to { transform: translateX(240%); } }
+.xp-count { font-size: 0.75rem; color: var(--muted); font-weight: 700; }
+
+/* ---- page furniture ---------------------------------------------- */
+.toolbar {
+  display: flex; flex-wrap: wrap; gap: 8px; align-items: center;
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 12px 14px; margin: 0 0 26px;
+}
+.toolbar .grow { flex: 1; min-width: 140px; font-size: .88rem; }
+
+.area {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); box-shadow: var(--shadow-md);
+  padding: 18px; margin: 0 0 22px;
+}
+.area-head {
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px; margin: 0 0 4px;
+}
+.worth {
+  font-size: .78rem; font-weight: 700; color: #fff; background: var(--xp);
+  border-radius: 999px; padding: 2px 10px;
+}
+.worth.small { background: #8a8fa8; }
+.area > .why { margin: 0 0 14px; color: var(--muted); font-size: .93rem; }
+.area-body { display: grid; gap: 14px; }
+@media (min-width: 760px) { .area-body { grid-template-columns: 1.15fr 1fr; align-items: start; } }
+
+.btn {
+  font: inherit; font-weight: 700; cursor: pointer;
+  border: 0; border-radius: 999px; padding: 9px 18px;
+  background: var(--primary); color: #fff;
+}
+.btn:hover { background: var(--primary-dark); }
+.btn.ghost { background: #fff; color: var(--primary); border: 2px solid var(--primary); padding: 7px 16px; }
+.btn.small { padding: 6px 13px; font-size: .85rem; }
+.btn.danger { background: #fff; color: var(--danger); border: 2px solid var(--danger); }
+.btn.danger:hover { background: var(--danger-bg); }
+.row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+
+/* the feel picker on each area */
+.feels { display: flex; flex-wrap: wrap; gap: 6px; margin: 10px 0 0; }
+.feel {
+  font: inherit; font-size: .8rem; cursor: pointer;
+  border: 1px solid var(--border); background: #fff; color: var(--muted);
+  border-radius: 999px; padding: 4px 12px;
+}
+.feel[aria-pressed="true"] {
+  background: var(--primary); border-color: var(--primary); color: #fff; font-weight: 700;
+}
+.feel-note { margin: 8px 0 0; font-size: .84rem; color: var(--muted); min-height: 2.4em; }
+
+/* ---- mock: coding challenge editor -------------------------------- */
+.editor {
+  background: var(--code-bg); color: var(--code-text);
+  border-radius: var(--radius-sm); overflow: hidden;
+  font-family: ui-monospace, "SFMono-Regular", Consolas, monospace; font-size: .82rem;
+}
+.editor-bar {
+  display: flex; align-items: center; gap: 8px;
+  padding: 7px 12px; background: rgba(255,255,255,.06); font-size: .76rem;
+}
+.dot { width: 9px; height: 9px; border-radius: 50%; background: #4b4f6d; }
+.editor pre { margin: 0; padding: 12px; white-space: pre; overflow-x: auto; }
+.editor .kw { color: #ff9ecd; } .editor .st { color: #a8e6a3; } .editor .fn { color: #8fd3ff; }
+
+.tests { list-style: none; margin: 10px 0 0; padding: 0; display: grid; gap: 6px; }
+.tests li {
+  display: flex; align-items: center; gap: 8px;
+  font-size: .86rem; padding: 6px 10px; border-radius: var(--radius-sm);
+  background: #f2f4f9; color: var(--muted); opacity: .45;
+}
+.tests li.pass {
+  background: var(--success-bg); color: #14663a; opacity: 1;
+  animation: testIn 380ms cubic-bezier(.2,1.4,.4,1);
+}
+.tests li .tick { font-weight: 700; }
+@keyframes testIn {
+  0% { transform: translateX(-8px) scale(.98); opacity: 0; }
+  100% { transform: none; opacity: 1; }
+}
+
+/* ---- mock: module test result ------------------------------------- */
+.result {
+  border: 1px solid var(--border); border-radius: var(--radius-sm);
+  padding: 14px; text-align: center;
+}
+.result .score { font-size: 2rem; font-weight: 700; margin: 0; }
+.result.full { border-color: var(--success); background: var(--success-bg); }
+.result.part { border-color: var(--border); }
+.result .verdict { margin: 2px 0 0; font-size: .88rem; color: var(--muted); }
+
+/* ---- mock: freeplay ----------------------------------------------- */
+.fp {
+  border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 14px;
+}
+.fp-meta { display: flex; gap: 10px; font-size: .8rem; color: var(--muted); font-weight: 700; margin: 0 0 8px; }
+.fp-streak.hot { color: #d2600d; }
+.fp-q { font-weight: 700; margin: 0 0 10px; }
+.fp-opts { display: grid; gap: 6px; }
+.fp-opt {
+  font: inherit; font-size: .88rem; text-align: left; cursor: pointer;
+  border: 1px solid var(--border); background: #fff; border-radius: var(--radius-sm);
+  padding: 8px 12px;
+}
+.fp-opt.is-correct { border-color: var(--success); background: var(--success-bg); }
+
+/* the streak counter takes the hit instead of the whole screen */
+.fp-streak.bump { animation: streakBump 420ms cubic-bezier(.2,1.6,.35,1); display: inline-block; }
+@keyframes streakBump {
+  0% { transform: scale(1); } 40% { transform: scale(1.4); } 100% { transform: scale(1); }
+}
+
+/* ---- mock: spot the error ----------------------------------------- */
+.buggy { position: relative; }
+.buggy .bug {
+  background: rgba(210,60,60,.28); border-radius: 3px; padding: 0 2px; cursor: pointer;
+}
+.buggy.found .bug {
+  background: rgba(63,208,124,.35);
+  box-shadow: 0 0 0 2px var(--xp-lift);
+  animation: bugFound 500ms cubic-bezier(.2,1.5,.4,1);
+}
+@keyframes bugFound {
+  0% { transform: scale(1); } 45% { transform: scale(1.12); } 100% { transform: scale(1); }
+}
+
+/* =====================================================================
+   EFFECT 1. Screen glow. A green vignette breathes in from the edges of
+   the whole window. Pointer events off so it never eats a click.
+   ===================================================================== */
+#glow {
+  position: fixed; inset: 0; z-index: 60; pointer-events: none; opacity: 0;
+  background: radial-gradient(ellipse at 50% 50%,
+    transparent 45%, var(--xp-glow-2) 78%, var(--xp-glow-1) 100%);
+}
+#glow.on   { animation: glowPulse 760ms ease-out; }
+#glow.soft { animation: glowSoft 620ms ease-out; }
+#glow.big  { animation: glowBig 1100ms ease-out; }
+@keyframes glowPulse {
+  0% { opacity: 0; transform: scale(1.06); }
+  22% { opacity: 1; transform: scale(1); }
+  100% { opacity: 0; transform: scale(1); }
+}
+@keyframes glowSoft { 0% { opacity: 0; } 25% { opacity: .5; } 100% { opacity: 0; } }
+@keyframes glowBig { 0% { opacity: 0; } 15% { opacity: 1; } 100% { opacity: 0; } }
+
+/* the ring that wipes out from the middle on a level up */
+.ring {
+  position: fixed; z-index: 61; pointer-events: none;
+  left: 50%; top: 45%; width: 40px; height: 40px; margin: -20px 0 0 -20px;
+  border-radius: 50%; border: 3px solid var(--xp-lift);
+  animation: ringOut 900ms cubic-bezier(.15,.7,.3,1) forwards;
+}
+@keyframes ringOut {
+  0% { transform: scale(.2); opacity: 0; border-width: 10px; }
+  12% { opacity: 1; }
+  100% { transform: scale(28); opacity: 0; border-width: 1px; }
+}
+
+/* =====================================================================
+   EFFECT 2. The floating XP chip, spawned where the XP was earned.
+   ===================================================================== */
+.xp-pop {
+  position: fixed; z-index: 62; pointer-events: none;
+  transform: translate(-50%, -50%);
+  font-weight: 700; font-size: 1.5rem; color: #fff; background: var(--xp);
+  border-radius: 999px; padding: 6px 16px; white-space: nowrap;
+  box-shadow: 0 6px 18px rgba(31, 157, 85, .35);
+}
+.xp-pop.rise { animation: popRise 1100ms cubic-bezier(.2,.8,.3,1) forwards; }
+@keyframes popRise {
+  0% { transform: translate(-50%,-50%) scale(.6); opacity: 0; }
+  18% { transform: translate(-50%,-60%) scale(1.12); opacity: 1; }
+  32% { transform: translate(-50%,-66%) scale(1); opacity: 1; }
+  100% { transform: translate(-50%,-190%) scale(.92); opacity: 0; }
+}
+.xp-pop.spring { animation: popSpring 1300ms cubic-bezier(.2,1.5,.35,1) forwards; }
+@keyframes popSpring {
+  0% { transform: translate(-50%,-50%) scale(.2) rotate(-8deg); opacity: 0; }
+  25% { transform: translate(-50%,-90%) scale(1.35) rotate(3deg); opacity: 1; }
+  40% { transform: translate(-50%,-96%) scale(1) rotate(0deg); }
+  75% { transform: translate(-50%,-104%) scale(1); opacity: 1; }
+  100% { transform: translate(-50%,-150%) scale(.9); opacity: 0; }
+}
+/* the tiny one, for XP that lands every few seconds */
+.xp-pop.tick {
+  font-size: .9rem; padding: 2px 9px; box-shadow: none;
+  background: var(--success-bg); color: #14663a;
+  border: 1px solid rgba(31,157,85,.4);
+  animation: popTick 850ms ease-out forwards;
+}
+@keyframes popTick {
+  0% { opacity: 0; transform: translate(-50%,-40%) scale(.8); }
+  18% { opacity: 1; transform: translate(-50%,-58%) scale(1); }
+  100% { opacity: 0; transform: translate(-50%,-118%) scale(1); }
+}
+/* the same tick, doubled up, for spot the error */
+.xp-pop.tick.double { background: #fff2d6; color: #8a5a00; border-color: rgba(180,120,0,.45); }
+
+/* =====================================================================
+   EFFECT 3. Sparks and confetti. JS sets --tx / --ty per particle.
+   ===================================================================== */
+.spark {
+  position: fixed; z-index: 61; pointer-events: none;
+  width: 8px; height: 8px; border-radius: 50%; background: var(--xp-lift);
+  transform: translate(-50%,-50%);
+  animation: sparkOut 700ms cubic-bezier(.15,.8,.3,1) forwards;
+}
+@keyframes sparkOut {
+  0% { opacity: 1; transform: translate(-50%,-50%) translate(0,0) scale(1); }
+  100% { opacity: 0; transform: translate(-50%,-50%) translate(var(--tx), var(--ty)) scale(.2); }
+}
+.confetti {
+  position: fixed; z-index: 61; pointer-events: none;
+  width: 9px; height: 14px; border-radius: 2px;
+  animation: confettiFall var(--dur) cubic-bezier(.25,.6,.5,1) forwards;
+}
+@keyframes confettiFall {
+  0% { opacity: 1; transform: translate(-50%,-50%) rotate(0deg); }
+  100% { opacity: 0; transform: translate(-50%,-50%) translate(var(--tx), var(--ty)) rotate(var(--spin)); }
+}
+
+/* =====================================================================
+   EFFECT 4. What the badge itself does.
+   ===================================================================== */
+.auth-level.thump { animation: badgeThump 520ms cubic-bezier(.2,1.6,.35,1); }
+@keyframes badgeThump {
+  0% { transform: scale(1); }
+  35% { transform: scale(1.32); box-shadow: 0 0 0 8px rgba(31,157,85,.25); }
+  100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(31,157,85,0); }
+}
+.auth-level.nudge { animation: badgeNudge 320ms ease-out; }
+@keyframes badgeNudge {
+  0% { transform: scale(1); } 45% { transform: scale(1.1); } 100% { transform: scale(1); }
+}
+.auth-level.flip { animation: badgeFlip 760ms cubic-bezier(.4,.1,.2,1); }
+@keyframes badgeFlip {
+  0% { transform: rotateX(0deg) scale(1); background: var(--primary); }
+  49% { transform: rotateX(90deg) scale(1.15); background: var(--primary); }
+  51% { transform: rotateX(-90deg) scale(1.15); background: var(--xp); }
+  100% { transform: rotateX(0deg) scale(1); background: var(--xp); }
+}
+.auth-level.levelled { background: var(--xp); }
+
+.levelup {
+  position: fixed; z-index: 63; left: 50%; top: 74px; transform: translateX(-50%);
+  background: var(--primary); color: #fff; border-radius: 999px;
+  padding: 10px 24px; font-weight: 700; white-space: nowrap;
+  box-shadow: 0 12px 30px rgba(20,22,50,.28);
+  animation: bannerIn 2600ms cubic-bezier(.2,1.3,.3,1) forwards;
+}
+.levelup b { color: var(--accent); }
+@keyframes bannerIn {
+  0% { opacity: 0; transform: translateX(-50%) translateY(-24px) scale(.9); }
+  10% { opacity: 1; transform: translateX(-50%) translateY(0) scale(1); }
+  86% { opacity: 1; transform: translateX(-50%) translateY(0) scale(1); }
+  100% { opacity: 0; transform: translateX(-50%) translateY(-14px) scale(.96); }
+}
+
+/* Anyone whose machine has asked for less motion gets the numbers
+   changing and nothing flying across the screen. */
+@media (prefers-reduced-motion: reduce) {
+  #glow, .ring, .spark, .confetti { display: none !important; }
+  .xp-pop { animation: popTick 700ms ease-out forwards !important; }
+  .auth-level.thump, .auth-level.flip, .auth-level.nudge,
+  .tests li.pass, .buggy.found .bug, .fp-streak.bump { animation: none !important; }
+  .mini-bar > span { transition: none; }
+}
+
+.note { color: var(--muted); font-size: .88rem; margin-top: 26px; }
+code { background: #eef1f7; border-radius: 4px; padding: 1px 5px; font-size: .88em; }
+table.rates { border-collapse: collapse; width: 100%; font-size: .88rem; margin: 6px 0 0; }
+table.rates th, table.rates td { text-align: left; padding: 5px 8px; border-bottom: 1px solid var(--border); }
+table.rates th { color: var(--muted); font-weight: 700; }
+</style>
+</head>
+<body>
+
+<header class="mock-header">
+  <div class="mock-header-inner">
+    <div class="logo"><span class="logo-disc">IT</span> Hallam IT Basics</div>
+    <div class="auth-user">
+      <span>Sam</span>
+      <div class="badge-stack">
+        <span class="auth-level" id="badge">Lv 4</span>
+        <div class="mini-bar" id="bar"><span></span></div>
+        <span class="xp-count" id="count">320 XP</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+  <h1>XP animation sandbox</h1>
+  <p class="lede">
+    Every place the site pays XP, mocked up with the reward tuned to what it is
+    worth. The badge, bar and XP number in the header are live and use the real
+    ladder out of <code>xp.js</code>, so awards stack up and a level actually
+    turns over when you cross 445. Each area has its own default feel and a row
+    of alternatives to try.
+  </p>
+
+  <div class="toolbar">
+    <span class="grow muted">Sam is Level 4, Scripter. Level 5 lands at 445 XP.</span>
+    <button class="btn small ghost" id="force">Push to the edge of Level 5</button>
+    <button class="btn small danger" id="reset">Reset to 320 XP</button>
+  </div>
+
+  <!-- =========================== 1. CODING CHALLENGE ================ -->
+  <section class="area" data-area="challenge">
+    <div class="area-head">
+      <h2>Coding challenge</h2>
+      <span class="worth">50 XP</span>
+      <span class="muted" style="font-size:.85rem">once per challenge</span>
+    </div>
+    <p class="why">
+      The biggest single payout on the site and the hardest to get, so this is
+      the one that earns real fanfare. Sparks out of the editor, the chip springs
+      in and hangs a beat, the bar visibly jumps a chunk. A student should feel
+      the difference between this and getting a quiz question right.
+    </p>
+    <div class="area-body">
+      <div>
+        <div class="editor">
+          <div class="editor-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+            <span style="margin-left:6px">loops-for-task</span></div>
+          <pre><span class="kw">for</span> i <span class="kw">in</span> <span class="fn">range</span>(1, 11):
+    <span class="fn">print</span>(i * <span class="st">7</span>)</pre>
+        </div>
+        <ul class="tests" id="ch-tests">
+          <li><span class="tick">.</span> prints 10 lines</li>
+          <li><span class="tick">.</span> starts at 7</li>
+          <li><span class="tick">.</span> ends at 70</li>
+          <li><span class="tick">.</span> uses a for loop</li>
+        </ul>
+      </div>
+      <div>
+        <div class="row">
+          <button class="btn" data-run="challenge">Run tests</button>
+        </div>
+        <div class="feels" data-feels="challenge">
+          <button class="feel" data-feel="burst" aria-pressed="true">Burst</button>
+          <button class="feel" data-feel="fly" aria-pressed="false">Fly to badge</button>
+          <button class="feel" data-feel="pop" aria-pressed="false">Classic pop</button>
+          <button class="feel" data-feel="quiet" aria-pressed="false">Quiet</button>
+        </div>
+        <p class="feel-note" data-note="challenge"></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================== 2. MODULE TEST ===================== -->
+  <section class="area" data-area="test">
+    <div class="area-head">
+      <h2>Module test</h2>
+      <span class="worth">25 XP</span>
+      <span class="muted" style="font-size:.85rem">full marks only, best attempt, once per test</span>
+    </div>
+    <p class="why">
+      Full marks or nothing, which makes the moment sharp: the last question
+      turns green and the whole result panel pays out at once. The default here
+      flies the chip up into the badge, because after a whole test a student
+      should be shown exactly where their XP went. The 8 out of 10 button is
+      worth clicking too: no XP has to feel like no XP, not like a bug.
+    </p>
+    <div class="area-body">
+      <div>
+        <div class="result part" id="test-result">
+          <p class="score" id="test-score">- / 10</p>
+          <p class="verdict" id="test-verdict">Not submitted yet</p>
+        </div>
+      </div>
+      <div>
+        <div class="row">
+          <button class="btn" data-run="test">Submit 10 out of 10</button>
+          <button class="btn ghost small" data-run="test-partial">Submit 8 out of 10</button>
+        </div>
+        <div class="feels" data-feels="test">
+          <button class="feel" data-feel="fly" aria-pressed="true">Fly to badge</button>
+          <button class="feel" data-feel="pop" aria-pressed="false">Classic pop</button>
+          <button class="feel" data-feel="burst" aria-pressed="false">Burst</button>
+          <button class="feel" data-feel="quiet" aria-pressed="false">Quiet</button>
+        </div>
+        <p class="feel-note" data-note="test"></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================== 3. FREEPLAY ======================== -->
+  <section class="area" data-area="freeplay">
+    <div class="area-head">
+      <h2>Freeplay</h2>
+      <span class="worth small">1 XP</span>
+      <span class="muted" style="font-size:.85rem">first correct answer per scenario</span>
+    </div>
+    <p class="why">
+      This one fires every few seconds, so it gets the opposite treatment: no
+      screen glow, no sparks, just a small tick that drifts off the answer and a
+      streak counter that bumps. Try the rapid fire button, then switch the feel
+      to Burst and press it again. That second run is the argument for keeping
+      freeplay quiet.
+    </p>
+    <div class="area-body">
+      <div class="fp">
+        <div class="fp-meta">
+          <span id="fp-score">Score: 0 / 0</span>
+          <span class="fp-streak" id="fp-streak">Streak: 0</span>
+        </div>
+        <p class="fp-q" id="fp-q">What does <code>len("hello")</code> give you?</p>
+        <div class="fp-opts" id="fp-opts">
+          <button class="fp-opt">4</button>
+          <button class="fp-opt" data-right="1">5</button>
+          <button class="fp-opt">"hello"</button>
+        </div>
+      </div>
+      <div>
+        <div class="row">
+          <button class="btn" data-run="freeplay">Answer correctly</button>
+          <button class="btn ghost small" data-run="freeplay-rapid">Rapid fire, 6 in a row</button>
+        </div>
+        <div class="feels" data-feels="freeplay">
+          <button class="feel" data-feel="quiet" aria-pressed="true">Quiet</button>
+          <button class="feel" data-feel="pop" aria-pressed="false">Classic pop</button>
+          <button class="feel" data-feel="fly" aria-pressed="false">Fly to badge</button>
+          <button class="feel" data-feel="burst" aria-pressed="false">Burst</button>
+        </div>
+        <p class="feel-note" data-note="freeplay"></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================== 4. SPOT THE ERROR ================== -->
+  <section class="area" data-area="errors">
+    <div class="area-head">
+      <h2>Spot the Error</h2>
+      <span class="worth small">2 XP</span>
+      <span class="muted" style="font-size:.85rem">first correct answer per scenario, doubled</span>
+    </div>
+    <p class="why">
+      Same shape as freeplay but worth double, so it needs to look like double
+      without becoming a party. The tick is amber instead of green and the found
+      bug snaps from red to green under the cursor. The colour change does the
+      work: a student learns to read the amber tick as the better one.
+    </p>
+    <div class="area-body">
+      <div>
+        <div class="editor buggy" id="err-code">
+          <div class="editor-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+            <span style="margin-left:6px">find the mistake</span></div>
+          <pre>name = <span class="fn">input</span>(<span class="st">"Your name: "</span>)
+<span class="fn">print</span>(<span class="st">"Hi "</span> <span class="bug" id="err-bug">+</span> <span class="st">5</span>)</pre>
+        </div>
+        <p class="muted" style="font-size:.84rem;margin:8px 0 0" id="err-msg">
+          Click the part of the code that breaks.
+        </p>
+      </div>
+      <div>
+        <div class="row">
+          <button class="btn" data-run="errors">Find the bug</button>
+          <button class="btn ghost small" data-run="errors-rapid">Rapid fire, 4 in a row</button>
+        </div>
+        <div class="feels" data-feels="errors">
+          <button class="feel" data-feel="quiet" aria-pressed="true">Quiet, doubled</button>
+          <button class="feel" data-feel="pop" aria-pressed="false">Classic pop</button>
+          <button class="feel" data-feel="fly" aria-pressed="false">Fly to badge</button>
+          <button class="feel" data-feel="burst" aria-pressed="false">Burst</button>
+        </div>
+        <p class="feel-note" data-note="errors"></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================== 5. LEVEL UP ======================== -->
+  <section class="area" data-area="levelup">
+    <div class="area-head">
+      <h2>Crossing a level</h2>
+      <span class="worth">rare</span>
+    </div>
+    <p class="why">
+      This is not a fifth earner, it is what happens on top of any of the four
+      when the total crosses a rung. Ring wipes out from the middle, confetti,
+      the badge flips to the new number and a banner names the title, but only
+      when the title actually changes: Levels 4 and 5 are both Scripter, so
+      crossing 445 says Level 5 and nothing more. Level 6 at 620 is where
+      Scripter becomes Coder, and that one gets the name.
+    </p>
+    <div class="row">
+      <button class="btn" data-run="levelup">Play a level up</button>
+      <button class="btn ghost" data-run="levelup-name">Play a level up with a new title</button>
+    </div>
+  </section>
+
+  <section class="area">
+    <h3>What the site pays, out of <code>xp.js</code></h3>
+    <table class="rates">
+      <tr><th>Where</th><th>Worth</th><th>Counted</th><th>Default feel</th></tr>
+      <tr><td>Coding challenge</td><td>50 XP</td><td>once per challenge</td><td>Burst</td></tr>
+      <tr><td>Module test</td><td>25 XP</td><td>full marks, best attempt, once</td><td>Fly to badge</td></tr>
+      <tr><td>Spot the Error</td><td>2 XP</td><td>first correct answer per scenario</td><td>Quiet, amber</td></tr>
+      <tr><td>Freeplay</td><td>1 XP</td><td>first correct answer per scenario</td><td>Quiet, green</td></tr>
+    </table>
+    <p class="note" style="margin-top:14px">
+      Nothing here is wired into the real site. The whole thing is one HTML file
+      so it can be deleted in one go. When a set of feels is picked, the CSS
+      moves into <code>styles.css</code> and the JS becomes an
+      <code>xp-fx.js</code> that listens for the <code>itbasics:attempt</code>
+      event <code>xp.js</code> already reacts to, reads which kind of thing was
+      just saved, and picks the matching feel.
+    </p>
+  </section>
+</div>
+
+<div id="glow"></div>
+
+<script>
+(function () {
+  "use strict";
+
+  /* The real ladder, trimmed to the rungs this page can reach. Same
+     numbers and names as LEVELS in xp.js. */
+  var LEVELS = [
+    { level: 4, name: "Scripter", xp: 290 },
+    { level: 5, name: "Scripter", xp: 445 },
+    { level: 6, name: "Coder",    xp: 620 },
+    { level: 7, name: "Coder",    xp: 815 }
+  ];
+  var START = 320;
+  var xp = START;
+
+  var badge = document.getElementById("badge");
+  var bar   = document.getElementById("bar");
+  var fill  = bar.querySelector("span");
+  var count = document.getElementById("count");
+  var glow  = document.getElementById("glow");
+
+  function levelFor(v) {
+    var at = LEVELS[0], i;
+    for (i = 0; i < LEVELS.length; i++) if (v >= LEVELS[i].xp) at = LEVELS[i];
+    var next = null;
+    for (i = 0; i < LEVELS.length; i++) if (LEVELS[i].level === at.level + 1) next = LEVELS[i];
+    return { level: at.level, name: at.name, floor: at.xp, next: next };
+  }
+
+  function paint() {
+    var st = levelFor(xp);
+    var span = st.next ? st.next.xp - st.floor : 1;
+    var pct = st.next ? Math.min(100, Math.round(((xp - st.floor) / span) * 100)) : 100;
+    fill.style.width = Math.max(2, pct) + "%";
+    count.textContent = xp + " XP";
+    badge.textContent = "Lv " + st.level;
+  }
+
+  /* Count the number up rather than snapping it. The climbing number is
+     half the payoff on its own, and it is the one part of this that
+     still works with the motion effects switched off. */
+  function countUp(from, to, ms) {
+    var t0 = performance.now();
+    (function step(now) {
+      var p = Math.min(1, (now - t0) / ms);
+      count.textContent = Math.round(from + (to - from) * (1 - Math.pow(1 - p, 3))) + " XP";
+      if (p < 1) requestAnimationFrame(step);
+    })(t0);
+  }
+
+  function centreOf(el) {
+    var r = el.getBoundingClientRect();
+    return { x: r.left + r.width / 2, y: r.top + r.height / 2 };
+  }
+  function badgePoint() { return centreOf(badge); }
+
+  // ---- the parts everything is built from ---------------------------
+
+  function screenGlow(kind) {
+    glow.className = "";
+    void glow.offsetWidth;                       // restart the animation
+    glow.className = kind;
+  }
+
+  function chip(pt, text, style) {
+    var el = document.createElement("div");
+    el.className = "xp-pop " + (style || "");
+    el.textContent = text;
+    el.style.left = pt.x + "px";
+    el.style.top = pt.y + "px";
+    document.body.appendChild(el);
+    el.addEventListener("animationend", function () { el.remove(); });
+    return el;
+  }
+
+  function sparks(pt, n, colours) {
+    for (var i = 0; i < n; i++) {
+      var el = document.createElement("div");
+      el.className = "spark";
+      var a = (Math.PI * 2 * i) / n + Math.random() * 0.4;
+      var d = 55 + Math.random() * 75;
+      el.style.setProperty("--tx", Math.cos(a) * d + "px");
+      el.style.setProperty("--ty", Math.sin(a) * d + "px");
+      el.style.left = pt.x + "px";
+      el.style.top = pt.y + "px";
+      el.style.background = colours[i % colours.length];
+      el.style.animationDelay = (Math.random() * 90) + "ms";
+      document.body.appendChild(el);
+      el.addEventListener("animationend", function () { this.remove(); });
+    }
+  }
+
+  function confetti(n) {
+    var colours = ["#FFFF00", "#1f9d55", "#1C4587", "#3fd07c", "#9900FF"];
+    for (var i = 0; i < n; i++) {
+      var el = document.createElement("div");
+      el.className = "confetti";
+      el.style.left = (window.innerWidth * (0.2 + Math.random() * 0.6)) + "px";
+      el.style.top = "30vh";
+      el.style.background = colours[i % colours.length];
+      el.style.setProperty("--tx", (Math.random() * 260 - 130) + "px");
+      el.style.setProperty("--ty", (window.innerHeight * 0.6 + Math.random() * 160) + "px");
+      el.style.setProperty("--spin", (Math.random() * 900 - 450) + "deg");
+      el.style.setProperty("--dur", (1300 + Math.random() * 900) + "ms");
+      document.body.appendChild(el);
+      el.addEventListener("animationend", function () { this.remove(); });
+    }
+  }
+
+  function badgeHit(cls) {
+    badge.classList.remove("thump", "nudge");
+    void badge.offsetWidth;
+    badge.classList.add(cls);
+  }
+
+  /* The bar and the number are the actual reward. Everything else is
+     decoration pointing at them. */
+  function bank(amount) {
+    var from = xp, wasLevel = levelFor(xp).level;
+    xp += amount;
+    paint();
+    countUp(from, xp, amount >= 25 ? 750 : 420);
+    bar.classList.remove("shine");
+    void bar.offsetWidth;
+    bar.classList.add("shine");
+    var now = levelFor(xp);
+    if (now.level > wasLevel) setTimeout(function () { levelUp(now); }, 450);
+  }
+
+  /* The arc into the badge. Web Animations rather than CSS, because how
+     far away the badge is only becomes known when it fires. */
+  function flyToBadge(from, amount, then) {
+    var b = badgePoint();
+    var el = chip(from, "+" + amount + " XP", "");
+    var dx = b.x - from.x, dy = b.y - from.y;
+    var anim = el.animate([
+      { transform: "translate(-50%,-50%) scale(.5)", opacity: 0 },
+      { transform: "translate(-50%,-50%) translate(0,-40px) scale(1.15)", opacity: 1, offset: .22 },
+      { transform: "translate(-50%,-50%) translate(0,-46px) scale(1)", opacity: 1, offset: .48 },
+      { transform: "translate(-50%,-50%) translate(" + dx * .5 + "px," + (dy * .5 - 70) + "px) scale(.9)", opacity: 1, offset: .74 },
+      { transform: "translate(-50%,-50%) translate(" + dx + "px," + dy + "px) scale(.35)", opacity: 0 }
+    ], { duration: 1150, easing: "cubic-bezier(.35,.05,.2,1)", fill: "forwards" });
+    anim.onfinish = function () { el.remove(); if (then) then(); };
+  }
+
+  function levelUp(state) {
+    screenGlow("on big");
+    var ring = document.createElement("div");
+    ring.className = "ring";
+    document.body.appendChild(ring);
+    ring.addEventListener("animationend", function () { ring.remove(); });
+    confetti(38);
+    badge.classList.remove("flip");
+    void badge.offsetWidth;
+    badge.classList.add("flip");
+    setTimeout(function () { badge.classList.add("levelled"); }, 380);
+
+    // Titles span two levels, so only say the name when it changes.
+    var prev = null;
+    for (var i = 0; i < LEVELS.length; i++) if (LEVELS[i].level === state.level - 1) prev = LEVELS[i];
+    var newTitle = !prev || prev.name !== state.name;
+    var b = document.createElement("div");
+    b.className = "levelup";
+    b.innerHTML = "Level " + state.level + " reached" +
+      (newTitle ? ": <b>" + state.name + "</b>" : "");
+    document.body.appendChild(b);
+    b.addEventListener("animationend", function () { b.remove(); });
+  }
+
+  // ---- the four feels ------------------------------------------------
+
+  var FEELS = {
+    pop: function (at, amount) {
+      screenGlow("on");
+      chip(at, "+" + amount + " XP", "rise");
+      badgeHit("thump");
+      setTimeout(function () { bank(amount); }, 120);
+    },
+    burst: function (at, amount) {
+      screenGlow("on");
+      sparks(at, 14, ["#3fd07c", "#1f9d55", "#FFFF00"]);
+      chip(at, "+" + amount + " XP", "spring");
+      badgeHit("thump");
+      setTimeout(function () { bank(amount); }, 200);
+    },
+    fly: function (at, amount) {
+      screenGlow("soft");
+      flyToBadge(at, amount, function () { badgeHit("thump"); bank(amount); });
+    },
+    quiet: function (at, amount, opts) {
+      chip(at, "+" + amount, "tick" + (opts && opts.double ? " double" : ""));
+      badgeHit("nudge");
+      bank(amount);
+    }
+  };
+
+  var NOTES = {
+    burst: "Sparks, a springy chip and a full screen glow. Reads as a big deal, which is exactly wrong for anything a student does more than once a lesson.",
+    fly:   "The chip arcs into the badge and the bar only fills once it lands. The clearest of the four: it shows where the XP went and what it did.",
+    pop:   "Glow, chip rises, badge thumps. The middle setting. Cheap enough to fire often, still obviously a reward.",
+    quiet: "No screen effect at all. A small tick near the answer, the badge nudges, the bar creeps. The one to reach for when XP lands every few seconds."
+  };
+
+  /* Which feel each area is currently set to. These are the defaults the
+     page is arguing for. */
+  var picked = { challenge: "burst", test: "fly", freeplay: "quiet", errors: "quiet" };
+
+  function award(area, at, amount, opts) {
+    FEELS[picked[area]](at, amount, opts);
+  }
+
+  // ---- area 1: coding challenge --------------------------------------
+
+  function runChallenge() {
+    var rows = document.querySelectorAll("#ch-tests li");
+    rows.forEach(function (r) { r.classList.remove("pass"); });
+    rows.forEach(function (r, i) {
+      setTimeout(function () {
+        r.classList.add("pass");
+        r.querySelector(".tick").textContent = "✓";
+        if (i === rows.length - 1) {
+          award("challenge", centreOf(document.querySelector("#ch-tests")), 50);
+        }
+      }, 220 * (i + 1));
+    });
+  }
+
+  // ---- area 2: module test -------------------------------------------
+
+  function runTest(full) {
+    var panel = document.getElementById("test-result");
+    panel.className = "result " + (full ? "full" : "part");
+    document.getElementById("test-score").textContent = (full ? "10" : "8") + " / 10";
+    document.getElementById("test-verdict").textContent = full
+      ? "Full marks. 25 XP earned."
+      : "8 out of 10. Full marks earns 25 XP, so have another go.";
+    if (full) award("test", centreOf(panel), 25);
+  }
+
+  // ---- area 3: freeplay ----------------------------------------------
+
+  var fpScore = 0, fpAnswered = 0, fpStreak = 0;
+  var FP_QUESTIONS = [
+    ['What does <code>len("hello")</code> give you?', ["4", "5", '"hello"'], 1],
+    ["Which one is a whole number type?", ["float", "int", "str"], 1],
+    ["What does <code>3 + 4 * 2</code> give you?", ["14", "11", "24"], 1],
+    ["Which one repeats code?", ["if", "for", "print"], 1],
+    ["What does <code>#FF0000</code> mean?", ["green", "red", "blue"], 1],
+    ["How many bits in a byte?", ["4", "8", "16"], 1],
+    ["Which one asks the user for text?", ["input()", "print()", "len()"], 1]
+  ];
+  var fpAt = 0;
+
+  function fpPaint() {
+    document.getElementById("fp-score").textContent = "Score: " + fpScore + " / " + fpAnswered;
+    var s = document.getElementById("fp-streak");
+    s.textContent = "Streak: " + fpStreak;
+    s.classList.toggle("hot", fpStreak >= 3);
+    s.classList.remove("bump");
+    void s.offsetWidth;
+    s.classList.add("bump");
+  }
+
+  function fpNext() {
+    fpAt = (fpAt + 1) % FP_QUESTIONS.length;
+    var q = FP_QUESTIONS[fpAt];
+    document.getElementById("fp-q").innerHTML = q[0];
+    var opts = document.getElementById("fp-opts");
+    opts.innerHTML = "";
+    q[1].forEach(function (label, i) {
+      var b = document.createElement("button");
+      b.className = "fp-opt";
+      b.textContent = label;
+      if (i === q[2]) b.dataset.right = "1";
+      opts.appendChild(b);
+    });
+  }
+
+  function runFreeplay() {
+    var right = document.querySelector("#fp-opts .fp-opt[data-right]");
+    if (!right) return;
+    right.classList.add("is-correct");
+    fpScore++; fpAnswered++; fpStreak++;
+    fpPaint();
+    award("freeplay", centreOf(right), 1);
+    setTimeout(fpNext, 700);
+  }
+
+  // ---- area 4: spot the error ----------------------------------------
+
+  function runErrors() {
+    var code = document.getElementById("err-code");
+    code.classList.add("found");
+    document.getElementById("err-msg").textContent =
+      'Found it. You cannot join text to a number with +, so this one raises a TypeError.';
+    award("errors", centreOf(document.getElementById("err-bug")), 2, { double: true });
+    setTimeout(function () {
+      code.classList.remove("found");
+      document.getElementById("err-msg").textContent = "Click the part of the code that breaks.";
+    }, 1600);
+  }
+
+  // ---- wiring ----------------------------------------------------------
+
+  var RUN = {
+    challenge: runChallenge,
+    test: function () { runTest(true); },
+    "test-partial": function () { runTest(false); },
+    freeplay: runFreeplay,
+    "freeplay-rapid": function () {
+      for (var i = 0; i < 6; i++) setTimeout(runFreeplay, i * 750);
+    },
+    errors: runErrors,
+    "errors-rapid": function () {
+      for (var i = 0; i < 4; i++) setTimeout(runErrors, i * 900);
+    },
+    levelup: function () {
+      xp = 440; paint();
+      award("test", centreOf(document.querySelector('[data-area="levelup"]')), 25);
+    },
+    "levelup-name": function () {
+      xp = 615; paint();
+      award("challenge", centreOf(document.querySelector('[data-area="levelup"]')), 50);
+    }
+  };
+
+  document.querySelectorAll("[data-run]").forEach(function (b) {
+    b.addEventListener("click", function () { RUN[b.dataset.run](); });
+  });
+
+  document.querySelectorAll("[data-feels]").forEach(function (group) {
+    var area = group.dataset.feels;
+    var note = document.querySelector('[data-note="' + area + '"]');
+    note.textContent = NOTES[picked[area]];
+    group.addEventListener("click", function (e) {
+      var b = e.target.closest(".feel");
+      if (!b) return;
+      picked[area] = b.dataset.feel;
+      group.querySelectorAll(".feel").forEach(function (o) {
+        o.setAttribute("aria-pressed", String(o === b));
+      });
+      note.textContent = NOTES[b.dataset.feel];
+    });
+  });
+
+  // Clicking an answer or the bug directly does the same as the buttons.
+  document.getElementById("fp-opts").addEventListener("click", function (e) {
+    if (e.target.closest(".fp-opt")) runFreeplay();
+  });
+  document.getElementById("err-code").addEventListener("click", function (e) {
+    if (e.target.closest(".bug")) runErrors();
+  });
+
+  document.getElementById("force").addEventListener("click", function () {
+    xp = 440; paint();
+  });
+  document.getElementById("reset").addEventListener("click", function () {
+    xp = START;
+    fpScore = fpAnswered = fpStreak = 0;
+    badge.classList.remove("levelled", "flip", "thump", "nudge");
+    fpPaint();
+    document.getElementById("test-result").className = "result part";
+    document.getElementById("test-score").textContent = "- / 10";
+    document.getElementById("test-verdict").textContent = "Not submitted yet";
+    document.querySelectorAll("#ch-tests li").forEach(function (r) {
+      r.classList.remove("pass");
+      r.querySelector(".tick").textContent = ".";
+    });
+    paint();
+  });
+
+  paint();
+})();
+</script>
+</body>
+</html>
