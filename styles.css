@@ -4363,3 +4363,209 @@ textarea.gm-input { resize: vertical; }
   font-weight: 800;
 }
 .progress-todo-body { display: grid; gap: 10px; }
+
+
+/* The XP palette these effects are built from. Lifted from xp-demo.html
+   along with the effects themselves; without them every chip, glow and
+   ring renders with no colour at all. */
+:root {
+  --xp: #1f9d55;
+  --xp-lift: #3fd07c;
+  --xp-glow-1: rgba(31, 157, 85, 0.55);
+  --xp-glow-2: rgba(31, 157, 85, 0.18);
+}
+
+/* ============================================================
+   XP reward animations. Ported from xp-demo.html, which is where the
+   choices were argued out: fly-to-badge for the 50s and 25s, classic pop
+   for the 1s and 2s, and a full screen card for crossing a level.
+   ============================================================ */
+/* =====================================================================
+   EFFECT 1. Screen glow. A green vignette breathes in from the edges of
+   the whole window. Pointer events off so it never eats a click.
+   ===================================================================== */
+#xp-glow {
+  position: fixed; inset: 0; z-index: 60; pointer-events: none; opacity: 0;
+  background: radial-gradient(ellipse at 50% 50%,
+    transparent 45%, var(--xp-glow-2) 78%, var(--xp-glow-1) 100%);
+}
+#xp-glow.on   { animation: glowPulse 760ms ease-out; }
+#xp-glow.soft { animation: glowSoft 620ms ease-out; }
+#xp-glow.big  { animation: glowBig 1100ms ease-out; }
+@keyframes glowPulse {
+  0% { opacity: 0; transform: scale(1.06); }
+  22% { opacity: 1; transform: scale(1); }
+  100% { opacity: 0; transform: scale(1); }
+}
+@keyframes glowSoft { 0% { opacity: 0; } 25% { opacity: .5; } 100% { opacity: 0; } }
+@keyframes glowBig { 0% { opacity: 0; } 15% { opacity: 1; } 100% { opacity: 0; } }
+
+/* the ring that wipes out from the middle on a level up */
+.ring {
+  position: fixed; z-index: 61; pointer-events: none;
+  left: 50%; top: 45%; width: 40px; height: 40px; margin: -20px 0 0 -20px;
+  border-radius: 50%; border: 3px solid var(--xp-lift);
+  animation: ringOut 900ms cubic-bezier(.15,.7,.3,1) forwards;
+}
+@keyframes ringOut {
+  0% { transform: scale(.2); opacity: 0; border-width: 10px; }
+  12% { opacity: 1; }
+  100% { transform: scale(28); opacity: 0; border-width: 1px; }
+}
+
+/* =====================================================================
+   EFFECT 2. The floating XP chip, spawned where the XP was earned.
+   ===================================================================== */
+.xp-pop {
+  position: fixed; z-index: 62; pointer-events: none;
+  transform: translate(-50%, -50%);
+  font-weight: 700; font-size: 1.5rem; color: #fff; background: var(--xp);
+  border-radius: 999px; padding: 6px 16px; white-space: nowrap;
+  box-shadow: 0 6px 18px rgba(31, 157, 85, .35);
+}
+.xp-pop.rise { animation: popRise 1100ms cubic-bezier(.2,.8,.3,1) forwards; }
+@keyframes popRise {
+  0% { transform: translate(-50%,-50%) scale(.6); opacity: 0; }
+  18% { transform: translate(-50%,-60%) scale(1.12); opacity: 1; }
+  32% { transform: translate(-50%,-66%) scale(1); opacity: 1; }
+  100% { transform: translate(-50%,-190%) scale(.92); opacity: 0; }
+}
+.xp-pop.spring { animation: popSpring 1300ms cubic-bezier(.2,1.5,.35,1) forwards; }
+@keyframes popSpring {
+  0% { transform: translate(-50%,-50%) scale(.2) rotate(-8deg); opacity: 0; }
+  25% { transform: translate(-50%,-90%) scale(1.35) rotate(3deg); opacity: 1; }
+  40% { transform: translate(-50%,-96%) scale(1) rotate(0deg); }
+  75% { transform: translate(-50%,-104%) scale(1); opacity: 1; }
+  100% { transform: translate(-50%,-150%) scale(.9); opacity: 0; }
+}
+/* the tiny one, for XP that lands every few seconds */
+.xp-pop.tick {
+  font-size: .9rem; padding: 2px 9px; box-shadow: none;
+  background: var(--success-bg); color: #14663a;
+  border: 1px solid rgba(31,157,85,.4);
+  animation: popTick 850ms ease-out forwards;
+}
+@keyframes popTick {
+  0% { opacity: 0; transform: translate(-50%,-40%) scale(.8); }
+  18% { opacity: 1; transform: translate(-50%,-58%) scale(1); }
+  100% { opacity: 0; transform: translate(-50%,-118%) scale(1); }
+}
+/* the same tick, doubled up, for spot the error */
+.xp-pop.tick.double { background: #fff2d6; color: #8a5a00; border-color: rgba(180,120,0,.45); }
+
+/* =====================================================================
+   EFFECT 3. Sparks and confetti. JS sets --tx / --ty per particle.
+   ===================================================================== */
+.spark {
+  position: fixed; z-index: 61; pointer-events: none;
+  width: 8px; height: 8px; border-radius: 50%; background: var(--xp-lift);
+  transform: translate(-50%,-50%);
+  animation: sparkOut 700ms cubic-bezier(.15,.8,.3,1) forwards;
+}
+@keyframes sparkOut {
+  0% { opacity: 1; transform: translate(-50%,-50%) translate(0,0) scale(1); }
+  100% { opacity: 0; transform: translate(-50%,-50%) translate(var(--tx), var(--ty)) scale(.2); }
+}
+.confetti {
+  position: fixed; z-index: 61; pointer-events: none;
+  width: 9px; height: 14px; border-radius: 2px;
+  animation: confettiFall var(--dur) cubic-bezier(.25,.6,.5,1) forwards;
+}
+@keyframes confettiFall {
+  0% { opacity: 1; transform: translate(-50%,-50%) rotate(0deg); }
+  100% { opacity: 0; transform: translate(-50%,-50%) translate(var(--tx), var(--ty)) rotate(var(--spin)); }
+}
+
+/* =====================================================================
+   EFFECT 4. What the badge itself does.
+   ===================================================================== */
+.auth-level.thump { animation: badgeThump 520ms cubic-bezier(.2,1.6,.35,1); }
+@keyframes badgeThump {
+  0% { transform: scale(1); }
+  35% { transform: scale(1.32); box-shadow: 0 0 0 8px rgba(31,157,85,.25); }
+  100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(31,157,85,0); }
+}
+.auth-level.nudge { animation: badgeNudge 320ms ease-out; }
+@keyframes badgeNudge {
+  0% { transform: scale(1); } 45% { transform: scale(1.1); } 100% { transform: scale(1); }
+}
+.auth-level.flip { animation: badgeFlip 760ms cubic-bezier(.4,.1,.2,1); }
+@keyframes badgeFlip {
+  0% { transform: rotateX(0deg) scale(1); background: var(--primary); }
+  49% { transform: rotateX(90deg) scale(1.15); background: var(--primary); }
+  51% { transform: rotateX(-90deg) scale(1.15); background: var(--xp); }
+  100% { transform: rotateX(0deg) scale(1); background: var(--xp); }
+}
+.auth-level.levelled { background: var(--xp); }
+
+/* The level up takes over the whole screen. It happens a handful of times
+   a term, so it is allowed to interrupt: a dimmed page, the new level
+   number the size of a fist, and the title underneath it. */
+.levelup {
+  position: fixed; inset: 0; z-index: 63; pointer-events: none;
+  display: grid; place-items: center;
+  animation: luHold 3400ms ease forwards;
+}
+/* The scrim has to properly kill the page behind it. A light wash left
+   the lesson text legible and fighting the card for attention, which is
+   the opposite of what a take-over is for. */
+.levelup::before {
+  content: ""; position: absolute; inset: 0;
+  background: radial-gradient(ellipse at 50% 45%,
+    rgba(14, 19, 46, .90), rgba(8, 10, 26, .96));
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+@keyframes luHold {
+  0% { opacity: 0; } 7% { opacity: 1; } 84% { opacity: 1; } 100% { opacity: 0; }
+}
+
+.lu-card {
+  position: relative; text-align: center; color: #fff; padding: 0 20px;
+  animation: luPop 3400ms cubic-bezier(.18,1.5,.3,1) forwards;
+}
+@keyframes luPop {
+  0%   { transform: scale(.55) translateY(26px); }
+  9%   { transform: scale(1.08) translateY(0); }
+  15%  { transform: scale(1) translateY(0); }
+  84%  { transform: scale(1) translateY(0); }
+  100% { transform: scale(1.07) translateY(-10px); }
+}
+
+.lu-eyebrow {
+  margin: 0 0 14px; font-size: .95rem; font-weight: 700;
+  letter-spacing: .28em; text-transform: uppercase; color: var(--accent);
+}
+.lu-ring {
+  width: 148px; height: 148px; margin: 0 auto; border-radius: 50%;
+  display: grid; place-items: center;
+  background: var(--accent); color: var(--accent-ink, #000);
+  font-size: 3.4rem; font-weight: 700; line-height: 1;
+  box-shadow: 0 0 0 10px rgba(255,255,0,.16), 0 0 60px 8px rgba(255,255,0,.35),
+              0 20px 50px rgba(0,0,0,.45);
+  animation: luRing 3400ms cubic-bezier(.2,1.6,.3,1) forwards;
+}
+/* the ring lands a beat after the card, so the number is what you look at */
+@keyframes luRing {
+  0%   { transform: scale(.2) rotate(-14deg); opacity: 0; }
+  10%  { transform: scale(.2) rotate(-14deg); opacity: 0; }
+  20%  { transform: scale(1.22) rotate(4deg); opacity: 1; }
+  27%  { transform: scale(1) rotate(0deg); opacity: 1; }
+  100% { transform: scale(1) rotate(0deg); opacity: 1; }
+}
+.lu-title { margin: 20px 0 0; font-size: 2.6rem; line-height: 1.1; font-weight: 700; }
+.lu-sub { margin: 6px 0 0; font-size: 1rem; opacity: .8; }
+.lu-new {
+  display: inline-block; margin: 16px 0 0; padding: 5px 16px;
+  border-radius: 999px; background: rgba(255,255,255,.14);
+  border: 1px solid rgba(255,255,0,.5); color: var(--accent);
+  font-size: .85rem; font-weight: 700;
+  animation: luNew 3400ms ease forwards;
+}
+@keyframes luNew {
+  0%, 26% { opacity: 0; transform: translateY(8px); }
+  36% { opacity: 1; transform: translateY(0); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+@media (max-width: 520px) {
+  .lu-ring { width: 116px; height: 116px; font-size: 2.6rem; }
