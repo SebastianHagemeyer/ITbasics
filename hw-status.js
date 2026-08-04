@@ -19,6 +19,7 @@
     programming: { label: "Programming",      test: "programming" },
     html:        { label: "HTML",             test: "html" },
     python:      { label: "Python",           test: "python" },
+    pseudocode:  { label: "Pseudocode",       test: "pseudocode", tasks: ["pseudocode-task"], weights: [0.5, 0.5] },
     variables:   { label: "Variables",        test: "variables", tasks: ["variables-task"], weights: [0.5, 0.5] },
     strings:     { label: "Strings",          test: "strings", tasks: ["strings-task"], weights: [0.5, 0.5] },
     errors:      { label: "Spot the Error",   test: "errors" },

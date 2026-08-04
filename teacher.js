@@ -15,6 +15,7 @@
   // into { pct, completed, detail }. Module/quiz tasks are fixed; Live Coding
   // tasks are built at load time from the challenge catalog (see buildTasks).
   var MODULE_TASKS = [
+    { key: "pseudocode",  label: "Pseudocode (module)",       group: "Modules & quizzes", quizzes: ["pseudocode", "pseudocode-task"], compute: computeTestPlusTask("pseudocode") },
     { key: "variables",   label: "Variables (module)",        group: "Modules & quizzes", quizzes: ["variables", "variables-task"], compute: computeTestPlusTask("variables") },
     { key: "strings",     label: "Strings (module)",          group: "Modules & quizzes", quizzes: ["strings", "strings-task"], compute: computeTestPlusTask("strings") },
     { key: "errors",      label: "Spot the Error (module)",   group: "Modules & quizzes", quizzes: ["errors"],      compute: testCompute("errors") },
