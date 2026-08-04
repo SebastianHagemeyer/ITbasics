@@ -27,6 +27,34 @@
     catch (e) { return false; }
   }
 
+  /* How loud the rewards are, set by the student on their progress page.
+   *
+   *   full   the flying chip, the screen flash, the level up card
+   *   quiet  the number ticks up on the badge and nothing else moves
+   *   off    silence, and the XP still counts
+   *
+   * Quiet and off are genuinely different wants, which is why this is not a
+   * checkbox: some students want to know it happened without the fireworks,
+   * others want the page to leave them alone. Kept per device in
+   * localStorage, not in the database: it is about the screen in front of
+   * them, not about their account.
+   */
+  var FX_KEY = "itbasics-xpfx";
+
+  function mode() {
+    try {
+      var m = localStorage.getItem(FX_KEY);
+      if (m === "full" || m === "quiet" || m === "off") return m;
+    } catch (e) {}
+    return reduced() ? "quiet" : "full";
+  }
+
+  function setMode(m) {
+    if (m !== "full" && m !== "quiet" && m !== "off") return false;
+    try { localStorage.setItem(FX_KEY, m); } catch (e) { return false; }
+    return true;
+  }
+
   function centreOf(el) {
     var r = el.getBoundingClientRect();
     return { x: r.left + r.width / 2, y: r.top + r.height / 2 };
@@ -171,17 +199,19 @@
    * levelled  the new state when a level was crossed, otherwise null
    */
   function award(kind, amount, commit, levelled) {
-    var run = FEELS[PICKED[kind]] || FEELS.pop;
-    if (reduced()) run = FEELS.quiet;
+    var m = mode();
+    if (m === "off") { commit(); return; }
+    var run = m === "quiet" ? FEELS.quiet : (FEELS[PICKED[kind]] || FEELS.pop);
     try {
       run(originFor(kind), amount, commit);
     } catch (e) {
       commit();                        // a broken effect must never cost XP
     }
-    if (levelled) {
+    // The level up card is the loudest thing here, so it is full only.
+    if (levelled && m === "full") {
       window.setTimeout(function () { levelUp(levelled); }, kind === "freeplay" ? 700 : 1400);
     }
   }
 
-  window.ITXPFX = { award: award, levelUp: levelUp };
+  window.ITXPFX = { award: award, levelUp: levelUp, mode: mode, setMode: setMode };
 })();

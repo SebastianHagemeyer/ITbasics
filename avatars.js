@@ -88,7 +88,7 @@
              '<circle cx="20.4" cy="19.8" r="1.3" fill="' + disc + '"/>';
     }},
 
-    { id: "gamepad", label: "Game controller", draw: function (ink, disc) {
+    { id: "gamepad", label: "Controller", draw: function (ink, disc) {
       return '<path d="M14 14.6h12c3.4 0 5.8 3 5.8 7s-2 6.4-4.8 6.4c-1.8 0-2.8-.9-3.8-2h-6.4c-1 1.1-2 2-3.8 2-2.8 0-4.8-2.4-4.8-6.4s2.4-7 5.8-7z" fill="' + ink + '"/>' +
              '<path d="M16 18.4v4M14 20.4h4" stroke="' + disc + '" stroke-width="2" stroke-linecap="round"/>' +
              '<circle cx="24.4" cy="19.4" r="1.5" fill="' + disc + '"/>' +
@@ -136,6 +136,35 @@
     return Boolean(SHAPE_BY[shapeId]) && Boolean(HOUSE_BY[houseId]);
   }
 
+  /* A saved pick is allowed to be a house with no shape yet. Someone who taps
+     their house colour and then wanders off should still keep that much. */
+  function usable(pick) {
+    if (!pick || !HOUSE_BY[pick.house]) return false;
+    return !pick.shape || Boolean(SHAPE_BY[pick.shape]);
+  }
+
+  /* Before anyone picks a shape: their first initial on the house disc, so a
+     class that has never opened the settings page still looks finished. */
+  function letterSvg(name, houseId, size) {
+    var h = HOUSE_BY[houseId] || HOUSE_BY[DEFAULT_HOUSE];
+    var ch = String(name || "").trim().charAt(0).toUpperCase();
+    if (!/^[A-Z0-9]$/.test(ch)) ch = "?";
+    var px = size || 32;
+    return '<svg class="avatar-svg" viewBox="0 0 40 40" width="' + px + '" height="' + px +
+      '" role="img" aria-label="' + ch + '">' +
+      '<circle cx="20" cy="20" r="20" fill="' + h.colour + '"/>' +
+      '<text x="20" y="20" text-anchor="middle" dominant-baseline="central" font-size="21" ' +
+      'font-weight="700" font-family="system-ui, -apple-system, sans-serif" fill="' + h.ink + '">' +
+      ch + '</text></svg>';
+  }
+
+  /* The one call a page should make: hand it whatever pick you have (or none)
+     and the student's name, get back something to show either way. */
+  function render(pick, name, size) {
+    if (pick && valid(pick.shape, pick.house)) return svg(pick.shape, pick.house, size);
+    return letterSvg(name, (pick && pick.house) || DEFAULT_HOUSE, size);
+  }
+
   // ---- saving and loading ------------------------------------------------
   var KEY = "avatar";
 
@@ -145,14 +174,15 @@
     if (!window.ITBasics || !window.ITBasics.getSession()) return null;
     try {
       var saved = await window.ITBasics.loadProgress(KEY);
-      if (saved && valid(saved.shape, saved.house)) return saved;
+      if (usable(saved)) return saved;
     } catch (e) {}
     return null;
   }
 
   async function choose(shapeId, houseId) {
-    if (!valid(shapeId, houseId) || !window.ITBasics) return false;
-    var pick = { shape: shapeId, house: houseId };
+    if (!window.ITBasics || !HOUSE_BY[houseId]) return false;
+    if (shapeId && !SHAPE_BY[shapeId]) return false;
+    var pick = { shape: shapeId || null, house: houseId };
     try { await window.ITBasics.saveProgress(KEY, pick); } catch (e) { return false; }
     var s = window.ITBasics.getSession();
     if (s) { try { localStorage.setItem(localKey(s.code), JSON.stringify(pick)); } catch (e) {} }
@@ -164,7 +194,7 @@
   function cached(code) {
     try {
       var pick = JSON.parse(localStorage.getItem(localKey(code)));
-      return pick && valid(pick.shape, pick.house) ? pick : null;
+      return usable(pick) ? pick : null;
     } catch (e) { return null; }
   }
 
@@ -178,8 +208,7 @@
       .eq("quiz_name", KEY);
     if (res.error || !res.data) return out;
     res.data.forEach(function (r) {
-      var a = r.answers;
-      if (a && valid(a.shape, a.house)) out[r.student_code] = a;
+      if (usable(r.answers)) out[r.student_code] = r.answers;
     });
     return out;
   }
@@ -189,7 +218,10 @@
     HOUSES: HOUSES,
     DEFAULT_HOUSE: DEFAULT_HOUSE,
     svg: svg,
+    letterSvg: letterSvg,
+    render: render,
     valid: valid,
+    usable: usable,
     mine: mine,
     choose: choose,
     cached: cached,
