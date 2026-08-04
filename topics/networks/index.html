@@ -34,6 +34,7 @@
           <div class="nav-dropdown-menu" role="menu">
             <a href="/modules/" role="menuitem">All modules</a>
             <a href="/docs/" role="menuitem">Documentation</a>
+            <a href="/assignments/" role="menuitem">Assignments</a>
           </div>
         </div>
         <div class="nav-dropdown" data-open="false">
@@ -48,7 +49,6 @@
             <a href="/leaderboard/" role="menuitem">Leaderboard</a>
           </div>
         </div>
-        <a href="/assignments/">Assignments</a>
       </nav>
     </div>
   </header>
@@ -95,7 +95,7 @@
           <p>Big things do not travel across a network in one piece. The data is chopped into small <strong>packets</strong>, each numbered and labelled with where it is going. They can take different routes, arrive out of order, and get put back together at the other end.</p>
           <div class="packets" aria-hidden="true">
             <span class="packet">3</span><span class="packet">1</span><span class="packet">4</span><span class="packet">2</span>
-            <span class="packet-arrow">&rarr;</span>
+            <span class="packet-arrow"><span class="arrow step"></span></span>
             <span class="packet ok">1</span><span class="packet ok">2</span><span class="packet ok">3</span><span class="packet ok">4</span>
           </div>
           <p class="muted-note">Why bother? If one little packet gets lost, only that one is resent, not the whole file. It is faster and more reliable.</p>
@@ -320,7 +320,7 @@
         </section>
 
         <div class="lesson-nav">
-          <a href="/modules/" class="btn btn-ghost">&larr; All modules</a>
+          <a href="/modules/" class="btn btn-ghost"><span class="arrow back" aria-hidden="true"></span>All modules</a>
           <a href="/progress/" class="btn btn-primary">See your progress <span class="arrow" aria-hidden="true"></span></a>
         </div>
       </article>

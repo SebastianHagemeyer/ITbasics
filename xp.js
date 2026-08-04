@@ -236,7 +236,7 @@
       try {
         localStorage.setItem(cacheKey(student), JSON.stringify({ at: Date.now(), state: state }));
       } catch (e) {}
-      paintBadge(state);
+      announce(state);
       var host = document.getElementById("xp-panel");
       if (host && !host.hidden) renderPanel(host, state);
     }
@@ -268,6 +268,14 @@
 
   // ---- the badge in the header -------------------------------------------
 
+  var shownXP = null;    // the number currently on the chip
+  var ticking = null;    // the count up frame in flight, if any
+
+  function reducedMotion() {
+    try { return window.matchMedia("(prefers-reduced-motion: reduce)").matches; }
+    catch (e) { return false; }
+  }
+
   // Titles span two levels, so the next level is often the SAME title.
   // Naming it anyway reads as "56 XP to Scripter" while you are already a
   // Scripter, so the name is only mentioned when it actually changes.
@@ -278,19 +286,112 @@
            (same ? "" : ", " + state.next.name);
   }
 
-  function paintBadge(state) {
+  /* The header chip, built here rather than in app.js so a page that never
+     loads xp.js still renders a perfectly good name pill:
+
+       [ S ]  Sebastian H          [ Lv 4 ]  [ 7A ]
+              ====------  620 XP
+
+     The parts are made once and then only ever have their text and width
+     rewritten, because the count up rewrites them sixty times a second. */
+  function badgeParts() {
     var host = document.querySelector(".auth-bar .auth-user");
-    if (!host) return;
+    if (!host) return null;
+    var id = host.querySelector(".auth-id") || host;
     var tag = host.querySelector(".auth-level");
     if (!tag) {
       tag = document.createElement("span");
       tag.className = "auth-level";
-      var name = host.querySelector(".auth-name");
-      if (name && name.nextSibling) host.insertBefore(tag, name.nextSibling);
+      if (id !== host && id.nextSibling) host.insertBefore(tag, id.nextSibling);
       else host.appendChild(tag);
     }
-    tag.textContent = "Lv " + state.level;
-    tag.title = state.name + " . " + state.xp + " XP . " + nextLabel(state);
+    var wrap = host.querySelector(".auth-xp");
+    if (!wrap) {
+      wrap = document.createElement("span");
+      wrap.className = "auth-xp";
+      wrap.innerHTML = '<span class="auth-xp-bar"><i></i></span>' +
+                       '<span class="auth-xp-num"></span>';
+      // Take the wrap flash off once it has played, so the class is not left
+      // sitting on the bar for the rest of the page's life.
+      wrap.querySelector(".auth-xp-bar").addEventListener("animationend", function (e) {
+        e.target.classList.remove("wrapped");
+      });
+      id.appendChild(wrap);
+    }
+    var bar = wrap.querySelector(".auth-xp-bar");
+    return {
+      tag: tag,
+      wrap: wrap,
+      bar: bar,
+      fill: bar.querySelector("i"),
+      num: wrap.querySelector(".auth-xp-num")
+    };
+  }
+
+  // Everything on the chip is a function of one number, which is what lets the
+  // count up drive it: feed it the XP mid-tick and the level and the bar
+  // follow along, so the bar fills, wraps at a level and carries on climbing.
+  function drawBadge(xp, title) {
+    var p = badgeParts();
+    if (!p) return;
+    var at = levelFor(xp);
+    p.tag.textContent = "Lv " + at.level;
+    p.num.textContent = xp + " XP";
+    p.fill.style.width = (at.next ? Math.max(3, at.pct) : 100) + "%";
+    p.wrap.title = title || (at.name + " . " + xp + " XP . " + nextLabel(at));
+    return p;
+  }
+
+  function paintBadge(state) {
+    var to = state.xp;
+    var title = state.name + " . " + to + " XP . " + nextLabel(state);
+    // First paint of the page, or nothing actually moved: just draw it.
+    if (shownXP === null || shownXP === to || reducedMotion()) {
+      shownXP = to;
+      drawBadge(to, title);
+      return;
+    }
+    countTo(shownXP, to, title);
+    shownXP = to;
+  }
+
+  /* Roll the number from one value to the other. Longer for a bigger jump,
+     but capped: 50 XP off a coding task should feel like a haul and 1 XP off a
+     freeplay answer should be over before you look up, and neither should
+     still be going when the next thing is finished. */
+  function countTo(from, to, title) {
+    if (ticking) { window.cancelAnimationFrame(ticking); ticking = null; }
+    var first = drawBadge(from, title);
+    if (!first || !window.requestAnimationFrame) { drawBadge(to, title); return; }
+    var span = to - from;
+    var ms = Math.min(1500, 400 + Math.abs(span) * 16);
+    var was = levelFor(from).level;
+    var start = null;
+    first.num.classList.add("counting");
+
+    function frame(now) {
+      if (start === null) start = now;
+      var t = Math.min(1, (now - start) / ms);
+      // Ease out, so it sprints away and settles on the number.
+      var eased = 1 - Math.pow(1 - t, 3);
+      var at = Math.round(from + span * eased);
+      // Redrawing through badgeParts each frame costs a handful of lookups and
+      // means an auth bar rebuilt mid-count is picked straight back up.
+      var p = drawBadge(at, title);
+      if (!p) { ticking = null; return; }
+      var lvl = levelFor(at).level;
+      if (lvl !== was) {
+        was = lvl;
+        p.bar.classList.remove("wrapped");
+        void p.bar.offsetWidth;                  // restart the flash
+        p.bar.classList.add("wrapped");
+      }
+      if (t < 1) { ticking = window.requestAnimationFrame(frame); return; }
+      ticking = null;
+      p = drawBadge(to, title);
+      if (p) p.num.classList.remove("counting");
+    }
+    ticking = window.requestAnimationFrame(frame);
   }
 
   async function refresh() {
@@ -298,8 +399,139 @@
     var student = window.ITBasics.getSession();
     if (!student) return;
     var was = cached(student);
-    if (was) paintBadge(was);          // instant, from last time
-    try { paintBadge(await load(student)); } catch (e) {}
+    if (was) announce(was);            // instant, from last time
+    try { announce(await load(student)); } catch (e) {}
+  }
+
+  // Everything that reacts to a new XP figure goes through here, so a page
+  // script can listen for the event instead of polling for the number.
+  var latest = null;
+  function announce(state) {
+    latest = state;
+    paintBadge(state);
+    applyGate(state.xp);
+    try {
+      window.dispatchEvent(new CustomEvent("itbasics:xp", { detail: state }));
+    } catch (e) {}
+  }
+
+  // ---- level gates --------------------------------------------------------
+
+  /* Parts of the site open up as you climb. A page declares its own gate on
+     the body tag:
+
+       <body data-xp-min="3" data-xp-what="The Game Gallery">
+
+     and everything inside <main> is swapped for a card saying how far off the
+     student is. The first decision is made from the cached level the moment
+     this script is read, which is why xp.js sits at the end of the body: a
+     locked page must never flash its contents on the way to being locked.
+     Until a level is known the page shows neither, so nobody at Level 9 gets
+     told they are locked out for half a second.
+
+     This is a signpost, not a security control. What actually matters is
+     guarded by the row level security policies in supabase-schema.sql. */
+  function gateMin() {
+    var n = parseInt((document.body && document.body.getAttribute("data-xp-min")) || "", 10);
+    return n > 1 ? n : 0;
+  }
+
+  function levelRow(level) {
+    for (var i = 0; i < LEVELS.length; i++) {
+      if (LEVELS[i].level === level) return LEVELS[i];
+    }
+    return LEVELS[LEVELS.length - 1];
+  }
+
+  var PADLOCK =
+    '<svg class="xp-lock-icon" viewBox="0 0 24 24" aria-hidden="true">' +
+      '<rect x="4" y="10" width="16" height="11" rx="2.5" fill="currentColor"/>' +
+      '<path d="M8 10V7a4 4 0 0 1 8 0v3" fill="none" stroke="currentColor" ' +
+            'stroke-width="2.2" stroke-linecap="round"/>' +
+      '<circle cx="12" cy="15.5" r="1.7" fill="#fff"/>' +
+      '<rect x="11.2" y="15.5" width="1.6" height="3.4" rx=".8" fill="#fff"/>' +
+    '</svg>';
+
+  function lockCard(min, xp) {
+    var need = levelRow(min);
+    var at = levelFor(xp);
+    var what = (document.body.getAttribute("data-xp-what") || "This page");
+    var togo = Math.max(0, need.xp - xp);
+    var pct = need.xp > 0 ? Math.min(100, Math.round((xp / need.xp) * 100)) : 100;
+    return (
+      '<div class="container section">' +
+        '<div class="xp-lock">' +
+          PADLOCK +
+          "<h1>" + what + " unlocks at Level " + min + "</h1>" +
+          '<p class="lead">You are Level ' + at.level + ", " + at.name + ", on " +
+            xp + " XP. That is " + togo + " XP to go.</p>" +
+          '<div class="xp-bar"><span style="width:' + Math.max(2, pct) + '%"></span></div>' +
+          '<p class="xp-lock-how">XP comes from coding tasks (50 each), full marks ' +
+            "on a module test (25 each) and Freeplay questions. Keep going and this " +
+            "opens itself: no one has to let you in.</p>" +
+          '<p class="xp-lock-go">' +
+            '<a class="btn btn-primary" href="/modules/">Open the modules</a> ' +
+            '<a class="btn btn-ghost" href="/progress/">See your progress</a>' +
+          "</p>" +
+        "</div>" +
+      "</div>"
+    );
+  }
+
+  var gateCard = null;      // the lock card, while it is up
+  var gateWaiters = [];     // page scripts holding off until it opens
+  var gateOpen = false;
+
+  /* Run whatever builds the page, once the student is known to be allowed it.
+     Page scripts on a gated page boot through this instead of on their own, so
+     a locked student never has the gallery fetched or the editor wired up. */
+  function onUnlocked(fn) {
+    if (!gateMin() || gateOpen) { fn(); return; }
+    gateWaiters.push(fn);
+  }
+
+  // Staff are never gated. A teacher moderating the gallery has no XP of their
+  // own, and locking them out of the page they take games down from would be
+  // the gate working exactly backwards.
+  function isStaff() {
+    var s = window.ITBasics && window.ITBasics.getSession();
+    var codes = window.TEACHER_CODES;
+    return Boolean(s && Array.isArray(codes) && codes.indexOf(s.code) !== -1);
+  }
+
+  function applyGate(xp) {
+    var min = gateMin();
+    if (!min) return;
+    var main = document.querySelector("main");
+    if (!main) return;
+    if (isStaff() || levelFor(xp).level >= min) {
+      document.body.setAttribute("data-xp-gate", "open");
+      if (gateCard) { gateCard.remove(); gateCard = null; }
+      if (!gateOpen) {
+        gateOpen = true;
+        var q = gateWaiters;
+        gateWaiters = [];
+        q.forEach(function (fn) { try { fn(); } catch (e) {} });
+      }
+      return;
+    }
+    document.body.setAttribute("data-xp-gate", "locked");
+    if (!gateCard) {
+      gateCard = document.createElement("section");
+      gateCard.className = "xp-gate";
+      main.appendChild(gateCard);
+    }
+    gateCard.innerHTML = lockCard(min, xp);
+  }
+
+  // The first pass, before anything has been fetched. No cache means no level,
+  // and no level means we say nothing rather than guess at zero.
+  function gateFromCache() {
+    if (!gateMin()) return;
+    var student = window.ITBasics && window.ITBasics.getSession();
+    var was = student && cached(student);
+    if (was || isStaff()) applyGate(was ? was.xp : 0);
+    else document.body.setAttribute("data-xp-gate", "checking");
   }
 
   // ---- the panel on the progress page -------------------------------------
@@ -343,14 +575,25 @@
     levelFor: levelFor,
     fromAttempts: fromAttempts,
     load: load,
-    refresh: boot
+    refresh: boot,
+    // The last figure worked out, for anything that has to draw before the
+    // fresh one lands. Null until the first cache read or fetch.
+    current: function () { return latest; },
+    onUnlocked: onUnlocked
   };
 
+  gateFromCache();
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", boot);
   } else { boot(); }
   window.addEventListener("itbasics:auth", function () {
-    cachedAttempts = null; cachedFor = null; boot();
+    // A different student is a different number. Draw theirs, do not roll the
+    // old one up or down to it.
+    cachedAttempts = null; cachedFor = null; shownXP = null; latest = null;
+    // A gate the last student was through says nothing about this one.
+    gateOpen = false;
+    gateFromCache();
+    boot();
   });
   // Score it here if we can; only go back to the database if we cannot.
   window.addEventListener("itbasics:attempt", function (e) {

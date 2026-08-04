@@ -259,7 +259,15 @@
 
   function refreshAll() { renderMine(); renderSnippets(); }
 
+  // The task is level gated (data-xp-min on the body). The editor markup is
+  // hidden by CSS either way; holding the lists back until xp.js opens the
+  // gate is what stops a locked page fetching a student's games behind it.
+  function start() {
+    if (window.ITXP && window.ITXP.onUnlocked) window.ITXP.onUnlocked(refreshAll);
+    else refreshAll();
+  }
+
   updatePanels();
-  refreshAll();
-  window.addEventListener("itbasics:auth", refreshAll);
+  start();
+  window.addEventListener("itbasics:auth", start);
 })();

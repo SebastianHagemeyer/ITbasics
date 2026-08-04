@@ -27,13 +27,14 @@
       <nav class="site-nav" aria-label="Primary">
         <a href="/">Home</a>
         <div class="nav-dropdown" data-open="false">
-          <button type="button" class="nav-dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+          <button type="button" class="nav-dropdown-toggle active" aria-haspopup="true" aria-expanded="false">
             Learn
             <svg class="nav-chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </button>
           <div class="nav-dropdown-menu" role="menu">
             <a href="/modules/" role="menuitem">All modules</a>
             <a href="/docs/" role="menuitem">Documentation</a>
+            <a href="/assignments/" class="active" role="menuitem">Assignments</a>
           </div>
         </div>
         <div class="nav-dropdown" data-open="false">
@@ -48,7 +49,6 @@
             <a href="/leaderboard/" role="menuitem">Leaderboard</a>
           </div>
         </div>
-        <a href="/assignments/" class="active">Assignments</a>
       </nav>
     </div>
   </header>
@@ -327,6 +327,9 @@
   <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-python.min.js"></script>
   <script src="/supabase-config.js"></script>
   <script src="/app.js"></script>
+  <script src="/hw-status.js"></script>
+  <script src="/xp.js"></script>
+  <script src="/xp-fx.js"></script>
   <script src="/editor-tools.js"></script>
   <script src="/pyrun.js"></script>
   <script src="/pixelart.js"></script>

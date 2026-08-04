@@ -274,7 +274,15 @@
     render(games, staff, session, all);
   }
 
+  // The gallery is level gated (data-xp-min on the body), so nothing is
+  // fetched until xp.js says the student is past it. On an ungated page, or
+  // one without xp.js at all, this runs straight away.
+  function start() {
+    if (window.ITXP && window.ITXP.onUnlocked) window.ITXP.onUnlocked(boot);
+    else boot();
+  }
+
   wireScope();
-  boot();
-  window.addEventListener("itbasics:auth", boot);
+  start();
+  window.addEventListener("itbasics:auth", start);
 })();

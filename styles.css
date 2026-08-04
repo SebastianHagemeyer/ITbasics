@@ -855,7 +855,54 @@ img { max-width: 100%; display: block; }
   font-weight: 700;
   border: 2px solid var(--primary);
 }
-.auth-name { color: var(--text); }
+/* Name on top, the XP bar and total underneath it. The column is what keeps
+   the two lines together while the level badge and class chip stay centred
+   against the pair of them. */
+.auth-id {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  min-width: 0;
+}
+.auth-name { color: var(--text); line-height: 1.15; }
+.auth-xp {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.auth-xp-bar {
+  position: relative;
+  width: 78px;
+  height: 5px;
+  flex: none;
+  border-radius: 999px;
+  background: var(--border);
+  overflow: hidden;
+}
+.auth-xp-bar i {
+  display: block;
+  height: 100%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--xp), var(--xp-lift));
+}
+.auth-xp-num {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--muted);
+  white-space: nowrap;
+  /* Fixed width digits, or the pill twitches wider and narrower all the way
+     through a count up. */
+  font-variant-numeric: tabular-nums;
+}
+/* While the number is rolling it belongs to the reward, not to the furniture. */
+.auth-xp-num.counting { color: var(--xp); }
+/* The bar filling, emptying and setting off again is the only sign that a
+   level went past mid count, so it gets a ring as it wraps. */
+.auth-xp-bar.wrapped { animation: xpWrap 700ms ease-out; }
+@keyframes xpWrap {
+  0%   { box-shadow: 0 0 0 0 rgba(63, 208, 124, 0.85); }
+  100% { box-shadow: 0 0 0 7px rgba(63, 208, 124, 0); }
+}
 .auth-meta {
   font-size: 0.78rem;
   color: var(--primary);
@@ -2205,6 +2252,24 @@ h2.step-toggle {
           mask-size: contain;
   -webkit-mask-position: center;
           mask-position: center;
+}
+/* The same icon turned round, so the back link at the foot of a lesson and
+   the forward one beside it are visibly the same arrow. It leads rather than
+   trails, so the margin swaps sides with it. */
+.arrow.back {
+  transform: scaleX(-1);
+  margin-left: 0;
+  margin-right: 0.35em;
+}
+/* Pointing down, for a button that says the thing it made is below it. */
+.arrow.down {
+  transform: rotate(90deg);
+}
+/* Standing on its own between two boxes rather than trailing a word, so it
+   loses the gap it would use to sit off the end of a phrase. */
+.arrow.step {
+  margin: 0;
+  vertical-align: middle;
 }
 
 /* ======================================================================
@@ -4163,6 +4228,52 @@ textarea.gm-input { resize: vertical; }
 .xp-rows li span:nth-child(2) { color: var(--muted); font-size: 0.85rem; }
 .xp-rows li strong { min-width: 56px; text-align: right; }
 
+/* Level gates. A page with data-xp-min on its body hides its own contents
+   until xp.js has decided, then either drops the lock card in or gets out of
+   the way. "checking" hides everything and shows nothing, so a student who is
+   well past the gate is never told for half a second that they are not. */
+body[data-xp-gate="locked"] main > *:not(.xp-gate),
+body[data-xp-gate="checking"] main > * { display: none; }
+
+.xp-lock {
+  max-width: 620px;
+  margin: 40px auto;
+  padding: 38px 32px;
+  text-align: center;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+}
+.xp-lock-icon {
+  width: 54px;
+  height: 54px;
+  color: var(--primary);
+  opacity: 0.9;
+}
+.xp-lock h1 { margin: 12px 0 8px; font-size: 1.6rem; }
+.xp-lock .lead { margin: 0 0 20px; color: var(--muted); }
+.xp-lock .xp-bar { margin-top: 0; }
+.xp-lock-how {
+  margin: 16px 0 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+.xp-lock-go { margin: 22px 0 0; display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+
+/* The same lock, shrunk to fit a card in a list. */
+.assignment-card.locked { opacity: 0.72; cursor: default; }
+.assignment-card.locked:hover { border-color: var(--border); box-shadow: none; transform: none; }
+.assignment-status.locked { color: var(--muted); }
+.assignment-status.locked .xp-lock-icon {
+  width: 0.95em;
+  height: 0.95em;
+  vertical-align: -0.15em;
+  margin-right: 0.35em;
+  color: var(--muted);
+}
+
 /* Leaderboard: your own class shows on its own, the rest fold away behind an
    arrow. A row of tabs for classes you are not in is just noise. */
 .lb-classes { align-items: center; }
@@ -4587,5 +4698,8 @@ textarea.gm-input { resize: vertical; }
   #xp-glow, .ring, .spark, .confetti { display: none !important; }
   .xp-pop { animation: popTick 700ms ease-out forwards !important; }
   .auth-level.thump, .auth-level.nudge { animation: none !important; }
+  /* xp.js already skips the roll and sets the number straight; this is the
+     wrap flash, which is the only part of the chip CSS drives. */
+  .auth-xp-bar.wrapped { animation: none !important; }
   .lu-card, .lu-ring, .lu-new { animation: none !important; opacity: 1 !important; }
 }
