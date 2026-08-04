@@ -51,18 +51,13 @@
              '<circle cx="23.6" cy="19.4" r="1.6" fill="' + disc + '"/>';
     }},
 
-    { id: "penguin", label: "Penguin", draw: function (ink, disc) {
-      return '<ellipse cx="20" cy="20.2" rx="8.6" ry="9.8" fill="' + ink + '"/>' +
-             '<path d="M20 13.2c2.8 0 5 2.6 5 6.2 0 4.4-2.2 8.4-5 8.4s-5-4-5-8.4c0-3.6 2.2-6.2 5-6.2z" fill="' + disc + '"/>' +
-             '<circle cx="17.4" cy="17" r="1.5" fill="' + disc + '"/>' +
-             '<circle cx="22.6" cy="17" r="1.5" fill="' + disc + '"/>' +
-             '<path d="m20 19 2.4 2-2.4 2-2.4-2z" fill="' + ink + '"/>';
-    }},
-
+    /* The pentagon and its five spokes are the whole reason a football reads
+       as a football. Drawn from real geometry, not by eye: a regular pentagon
+       at the centre with a spoke running out from each vertex to the rim. */
     { id: "football", label: "Football", draw: function (ink, disc) {
-      return '<circle cx="20" cy="20" r="9.6" fill="' + ink + '"/>' +
-             '<path d="m20 14.2 4.2 3-1.6 5h-5.2l-1.6-5z" fill="' + disc + '"/>' +
-             '<path d="m20 10.4-2.6 1.9 1.4 1 1.2-.9 1.2.9 1.4-1zM11.3 17.9l2.5 1.8.5-1.7-1.2-.9.5-1.4-1.6-1.1zM28.7 17.9l-2.5 1.8-.5-1.7 1.2-.9-.5-1.4 1.6-1.1zM15.1 28.2l1-2.9h1.8l.5 1.4-1.2.9.6 1.5zM24.9 28.2l-1-2.9h-1.8l-.5 1.4 1.2.9-.6 1.5z" fill="' + disc + '"/>';
+      return '<circle cx="20" cy="20" r="9.4" fill="none" stroke="' + ink + '" stroke-width="2.2"/>' +
+             '<path d="M20 15.7 24.1 18.7 22.5 23.5 17.5 23.5 15.9 18.7z" fill="' + ink + '"/>' +
+             '<path d="M20 15.7V10.6M24.1 18.7 28.9 17.1M22.5 23.5 25.5 27.6M17.5 23.5 14.5 27.6M15.9 18.7 11.1 17.1" stroke="' + ink + '" stroke-width="2" stroke-linecap="round"/>';
     }},
 
     { id: "basketball", label: "Basketball", draw: function (ink, disc) {
@@ -71,10 +66,11 @@
              '<path d="M13.2 13.2a9.6 9.6 0 0 1 0 13.6M26.8 13.2a9.6 9.6 0 0 0 0 13.6" stroke="' + disc + '" stroke-width="2" fill="none"/>';
     }},
 
-    { id: "knight", label: "Chess knight", draw: function (ink, disc) {
-      return '<path d="M23.4 9.6c3.6 1.9 5.6 5.3 5.6 9.6v9.2H13.6v-2.6c0-3 1.3-5.3 3.6-7.2l-2.4-.8-2.6 2.6-2.2-2.2 4.4-4.8c1.2-1.3 2.6-2 4.4-2.2z" fill="' + ink + '"/>' +
-             '<circle cx="17.5" cy="15.6" r="1.1" fill="' + disc + '"/>' +
-             '<path d="M12.4 30.4h15.2v1.8H12.4z" fill="' + ink + '"/>';
+    { id: "planet", label: "Planet", draw: function (ink, disc) {
+      return '<ellipse cx="20" cy="20.6" rx="13" ry="4.4" transform="rotate(-18 20 20.6)" fill="none" stroke="' + ink + '" stroke-width="2.4"/>' +
+             '<circle cx="20" cy="19.2" r="7.1" fill="' + ink + '"/>' +
+             '<circle cx="17.4" cy="17.2" r="1.7" fill="' + disc + '"/>' +
+             '<circle cx="22.6" cy="21" r="1.2" fill="' + disc + '"/>';
     }},
 
     { id: "rocket", label: "Rocket", draw: function (ink, disc) {
@@ -84,6 +80,14 @@
              '<path d="M17.2 26.6h5.6L20 32.2z" fill="' + ink + '"/>';
     }},
 
+    { id: "mushroom", label: "Mushroom", draw: function (ink, disc) {
+      return '<path d="M9 21.6c0-6.3 4.9-11.2 11-11.2s11 4.9 11 11.2z" fill="' + ink + '"/>' +
+             '<path d="M16.4 21.6h7.2v6.6c0 1.9-1.5 3.1-3.6 3.1s-3.6-1.2-3.6-3.1z" fill="' + ink + '"/>' +
+             '<circle cx="15.2" cy="17.6" r="2.1" fill="' + disc + '"/>' +
+             '<circle cx="24.4" cy="16.6" r="1.6" fill="' + disc + '"/>' +
+             '<circle cx="20.4" cy="19.8" r="1.3" fill="' + disc + '"/>';
+    }},
+
     { id: "gamepad", label: "Game controller", draw: function (ink, disc) {
       return '<path d="M14 14.6h12c3.4 0 5.8 3 5.8 7s-2 6.4-4.8 6.4c-1.8 0-2.8-.9-3.8-2h-6.4c-1 1.1-2 2-3.8 2-2.8 0-4.8-2.4-4.8-6.4s2.4-7 5.8-7z" fill="' + ink + '"/>' +
              '<path d="M16 18.4v4M14 20.4h4" stroke="' + disc + '" stroke-width="2" stroke-linecap="round"/>' +
@@ -91,19 +95,15 @@
              '<circle cx="26.8" cy="21.8" r="1.5" fill="' + disc + '"/>';
     }},
 
-    { id: "guitar", label: "Guitar", draw: function (ink, disc) {
-      return '<path d="M26.6 8.8 30 12.2l-4.6 4.6a7 7 0 0 1 .4 2.4c0 2.6-1.4 4.6-3.4 5.8-1.4.9-2 1.8-2.6 2.8-.8 1.4-2.2 2.4-4 2.4a5 5 0 0 1-5-5c0-1.8 1-3.2 2.4-4 1-.6 1.9-1.2 2.8-2.6 1.2-2 3.2-3.4 5.8-3.4.8 0 1.6.1 2.4.4z" fill="' + ink + '"/>' +
-             '<circle cx="17.4" cy="22.6" r="2.8" fill="' + disc + '"/>' +
-             '<path d="m24.2 11.6 4.2 4.2" stroke="' + disc + '" stroke-width="1.6" stroke-linecap="round"/>';
+    { id: "music", label: "Music note", draw: function (ink, disc) {
+      return '<ellipse cx="15.4" cy="26.2" rx="3.8" ry="3" transform="rotate(-20 15.4 26.2)" fill="' + ink + '"/>' +
+             '<ellipse cx="25.9" cy="24" rx="3.8" ry="3" transform="rotate(-20 25.9 24)" fill="' + ink + '"/>' +
+             '<path d="M17.4 25.8V12.8h2.2v13zM27.9 23.6V10.6h2.2v13z" fill="' + ink + '"/>' +
+             '<path d="M17.4 12.8 30.1 10.6v3.8L17.4 16.6z" fill="' + ink + '"/>';
     }},
 
-    { id: "skate", label: "Skateboard", draw: function (ink, disc) {
-      return '<path d="M11.2 17.4c0-1.4 1.1-2.4 2.8-2.4h12c1.7 0 2.8 1 2.8 2.4s-1.1 2.4-2.8 2.4H14c-1.7 0-2.8-1-2.8-2.4z" fill="' + ink + '"/>' +
-             '<path d="M15.4 19.8v1.6M24.6 19.8v1.6" stroke="' + ink + '" stroke-width="2" stroke-linecap="round"/>' +
-             '<circle cx="15.4" cy="23.6" r="2.6" fill="' + ink + '"/>' +
-             '<circle cx="24.6" cy="23.6" r="2.6" fill="' + ink + '"/>' +
-             '<circle cx="15.4" cy="23.6" r=".9" fill="' + disc + '"/>' +
-             '<circle cx="24.6" cy="23.6" r=".9" fill="' + disc + '"/>';
+    { id: "bolt", label: "Lightning bolt", draw: function (ink, disc) {
+      return '<path d="M23.8 8.4 11.8 22.6h6.6L16 31.6l12-14.6h-6.8z" fill="' + ink + '"/>';
     }},
 
     { id: "palette", label: "Art palette", draw: function (ink, disc) {
