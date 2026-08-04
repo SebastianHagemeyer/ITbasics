@@ -428,7 +428,7 @@
       // one, otherwise the initial. Drawn from localStorage so it is instant;
       // avatars.js corrects it from the database a moment later.
       const A = window.ITAvatars;
-      const face = A ? A.render(A.cached(s.code), s.first_name || s.code, 30)
+      const face = A ? A.render(A.cached(s.code), s.first_name || s.code, 26)
                      : escapeHtml(initial);
       const meta = s.class ? '<span class="auth-meta">' + escapeHtml(s.class) + '</span>' : "";
       // The name sits in its own column so xp.js has somewhere to hang the XP

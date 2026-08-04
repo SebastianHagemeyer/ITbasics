@@ -9,6 +9,7 @@
     { key: "programming", label: "Programming",    href: "/topics/programming/" },
     { key: "html",        label: "HTML",           href: "/topics/html/" },
     { key: "python",      label: "Python",         href: "/topics/python/" },
+    { key: "pseudocode",  label: "Pseudocode",     href: "/topics/pseudocode/" },
     { key: "variables",   label: "Variables",      href: "/topics/variables/" },
     { key: "strings",     label: "Strings",        href: "/topics/strings/" },
     { key: "errors",      label: "Spot the Error", href: "/topics/errors/" },
@@ -82,7 +83,7 @@
       if (res.error) return { error: res.error.message, rows: [] };
       return { rows: res.data || [] };
     }
-    var names = ["programming", "html", "python", "variables", "variables-task", "strings", "strings-task", "errors", "decisions", "decisions-task", "loops", "loops-for-task", "loops-while-task", "binary", "codes", "codes-task", "systems", "networks", "os", "freeplay", "livecoding"];
+    var names = ["programming", "html", "python", "pseudocode", "pseudocode-task", "variables", "variables-task", "strings", "strings-task", "errors", "decisions", "decisions-task", "loops", "loops-for-task", "loops-while-task", "binary", "codes", "codes-task", "systems", "networks", "os", "freeplay", "livecoding"];
     var rows = [];
     names.forEach(function (name) {
       var raw = localStorage.getItem("itbasics-attempts-" + student.code + "-" + name);
@@ -109,9 +110,11 @@
       modules[m.key] = { attempted: true, best: best.score, total: total, attempts: mine.length };
     });
 
-    // Variables and Strings blend two halves the same way as Making Decisions:
-    // the quick check (50%) and the coding task (50%).
-    ["variables", "strings"].forEach(function (key) {
+    // Pseudocode, Variables and Strings blend two halves the same way as Making
+    // Decisions: the quick check (50%) and the task (50%). For Pseudocode the
+    // task is the written exam answer rather than a coding challenge, but it
+    // records the same "challenge" signal, so the sum is identical.
+    ["pseudocode", "variables", "strings"].forEach(function (key) {
       var testRows = rows.filter(function (r) { return r.quiz_name === key; });
       var taskDone = rows.some(function (r) {
         return r.quiz_name === key + "-task" && r.answers && r.answers.challenge;

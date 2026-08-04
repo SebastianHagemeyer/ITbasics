@@ -4214,7 +4214,14 @@ textarea.gm-input { resize: vertical; }
   border: 1px solid var(--border);
   overflow: hidden;
 }
-.xp-bar span { display: block; height: 100%; background: var(--primary); }
+/* Same green gradient as the header bar. XP is green everywhere it appears,
+   so the bar on My Journey should not be the one place it is navy. */
+.xp-bar span {
+  display: block;
+  height: 100%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--xp), var(--xp-lift));
+}
 .xp-next { margin: 8px 0 0; color: var(--muted); font-size: 0.9rem; }
 .xp-rows { list-style: none; margin: 16px 0 0; padding: 0; }
 .xp-rows li {
@@ -4885,12 +4892,22 @@ body[data-xp-gate="checking"] main > * { display: none; }
 /* The chip normally draws a letter on a coloured background. Once an icon is
    in there the SVG brings its own disc, so the background has to go or it
    shows as a ring behind the icon. */
+/* The chip normally draws a letter on an accent disc with a navy ring round
+   it. An icon brings its own disc, so both have to go.
+   The ring goes because it is --primary navy, which fights a Marram red or
+   Walert yellow icon. The clipping goes because the box is border-box: a 26px
+   chip with a 2px border leaves 22px of content, the SVG shrinks to fit it,
+   and then the circle's own antialiased edge sits exactly on the border-radius
+   clip edge. Two soft edges on the same radius leave part-transparent pixels
+   and the white chip shows through them as a pale rind. Letting the SVG be the
+   whole 26px, with nothing to clip against, removes the seam entirely. */
 .auth-avatar.has-avatar {
   background: none;
+  border: none;
   padding: 0;
-  overflow: hidden;
+  overflow: visible;
 }
-.auth-avatar.has-avatar svg { display: block; border-radius: 50%; }
+.auth-avatar.has-avatar svg { display: block; flex: none; }
 
 /* Kept inside a span rather than making the td a flex container, which would
    drop the cell out of the table layout and break the column widths. */
@@ -4964,4 +4981,311 @@ body[data-xp-gate="checking"] main > * { display: none; }
 }
 @media (prefers-reduced-motion: reduce) {
   .settings-drawer-chev { transition: none; }
+}
+
+/* ---------------------------------------------------------------------------
+   Pseudocode & Flowcharts module (topics/pseudocode)
+   --------------------------------------------------------------------------- */
+
+/* Two things side by side: a plan and its translation, a flowchart and its
+   pseudocode, a good answer and a poor one. Stacks on narrow screens. */
+.split-two {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  margin: 18px 0;
+  align-items: start;
+}
+.split-col { min-width: 0; }
+.split-col .code { margin-bottom: 0; }
+.split-head {
+  margin: 0 0 8px;
+  font-weight: 800;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+}
+.split-head.bad-head { color: var(--danger); }
+.split-flow { grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); }
+
+/* Flowchart drawing */
+.flowchart {
+  width: 100%;
+  max-width: 420px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+.flowchart .fc-shape {
+  fill: var(--surface);
+  stroke: var(--primary);
+  stroke-width: 2.2;
+}
+.flowchart .fc-decide { fill: rgba(255, 190, 11, 0.18); }
+.flowchart .fc-line {
+  stroke: var(--primary);
+  stroke-width: 2;
+  marker-end: url(#fc-arrow);
+}
+.flowchart .fc-join {
+  fill: none;
+  stroke: var(--primary);
+  stroke-width: 2;
+}
+.flowchart marker path { fill: var(--primary); }
+.flowchart .fc-t {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 13px;
+  fill: var(--text);
+  text-anchor: middle;
+}
+.flowchart .fc-small { font-size: 12px; }
+.flowchart .fc-label {
+  font-size: 13px;
+  font-weight: 800;
+  fill: var(--primary-dark);
+}
+
+/* The four shape reference cards */
+.shape-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 14px;
+  margin: 18px 0;
+}
+.shape-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  padding: 14px 16px;
+}
+.shape-card h3 { margin: 10px 0 6px; font-size: 1.05rem; }
+.shape-card p { margin: 0; font-size: 0.94rem; color: var(--muted); }
+.shape-words { margin-top: 10px !important; }
+.shape-words code { margin-right: 6px; }
+.shape-art { display: block; }
+.shape-svg {
+  width: 100%;
+  max-width: 140px;
+  height: auto;
+  display: block;
+}
+.shape-svg rect, .shape-svg polygon {
+  fill: var(--surface);
+  stroke: var(--primary);
+  stroke-width: 2.2;
+}
+
+/* "Which shape holds this line?" */
+.shapegame {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--primary);
+  border-radius: var(--radius);
+  padding: 16px 18px;
+  margin: 18px 0;
+}
+.sg-prog {
+  margin: 0 0 10px;
+  font-weight: 700;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.sg-line {
+  margin-bottom: 14px;
+  padding: 14px 16px;
+  font-size: 1rem;
+}
+.sg-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 10px;
+}
+.sg-opt {
+  background: var(--surface);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 10px;
+  cursor: pointer;
+  font-family: inherit;
+  color: var(--text);
+  transition: border-color 0.12s, background 0.12s;
+}
+.sg-opt:hover:not(:disabled) { border-color: var(--primary); background: rgba(28, 69, 135, 0.05); }
+.sg-opt:disabled { cursor: default; }
+.sg-opt .shape-svg { margin: 0 auto 6px; max-width: 110px; }
+.sg-opt-name { font-size: 0.85rem; font-weight: 700; color: var(--muted); }
+.sg-opt.right { background: var(--success-bg); border-color: var(--success); }
+.sg-opt.right .shape-svg rect, .sg-opt.right .shape-svg polygon { stroke: var(--success); }
+.sg-opt.wrongpick { background: var(--danger-bg); border-color: var(--danger); opacity: 0.85; }
+.sg-why { margin: 14px 0 0; font-weight: 600; }
+.sg-why.ok { color: var(--success); }
+.sg-why.err { color: var(--danger); }
+.sg-next { margin-top: 14px; }
+/* .btn sets a display, which beats the browser's own rule for [hidden], so the
+   Next button has to be told twice (same as .ls-continue above). */
+.sg-next[hidden] { display: none; }
+
+/* Put the lines in order */
+.lineup { margin: 18px 0; }
+.lineup-pool {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 14px;
+  background: var(--bg);
+  border: 1px dashed var(--border);
+  border-radius: var(--radius);
+  min-height: 62px;
+}
+.lineup-chip {
+  background: var(--surface);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 8px 12px;
+  cursor: pointer;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.88rem;
+  color: var(--text);
+}
+.lineup-chip:hover { border-color: var(--primary); background: rgba(28, 69, 135, 0.05); }
+.lineup-answer {
+  margin-top: 12px;
+  padding: 14px 0;
+  background: var(--code-bg);
+  border-radius: var(--radius-sm);
+  min-height: 62px;
+}
+.lineup-line {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  border-left: 3px solid transparent;
+  color: var(--code-text);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.88rem;
+  padding: 4px 14px;
+  cursor: pointer;
+}
+.lineup-line:hover { background: rgba(255, 255, 255, 0.08); }
+.lineup-line.ok { border-left-color: #9be59b; }
+.lineup-line.bad { border-left-color: #ff8a8a; background: rgba(255, 138, 138, 0.14); }
+.lineup-empty {
+  margin: 0;
+  padding: 0 14px;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.lineup-answer .lineup-empty { color: #8b92b0; }
+.lineup-actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 12px; }
+.lineup-msg { margin: 12px 0 0; font-weight: 700; }
+.lineup-msg.ok { color: var(--success); }
+.lineup-msg.err { color: var(--danger); }
+
+/* ENDIF vs curly brackets vs indentation. One language per row: Java's lines
+   are long enough that three columns would have them scrolling sideways, which
+   defeats the point of showing the three side by side. */
+.lang-row {
+  display: grid;
+  gap: 14px;
+  margin: 18px 0;
+}
+.lang-col {
+  display: grid;
+  grid-template-columns: minmax(0, 190px) minmax(0, 1fr);
+  grid-template-rows: auto 1fr;
+  gap: 4px 18px;
+  align-items: start;
+}
+.lang-head { grid-column: 1; grid-row: 1; margin: 0; font-weight: 800; }
+.lang-how { grid-column: 1; grid-row: 2; margin: 0; font-size: 0.88rem; color: var(--muted); }
+.lang-col .code {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  margin-bottom: 0;
+  font-size: 0.84rem;
+}
+
+/* The graded writing task */
+.pseudo-writer {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  padding: 16px 18px;
+  margin: 18px 0;
+}
+.pw-label {
+  display: block;
+  font-weight: 700;
+  color: var(--muted);
+  margin-bottom: 8px;
+}
+.pw-input {
+  width: 100%;
+  padding: 14px 16px;
+  background: var(--code-bg);
+  color: var(--code-text);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  resize: vertical;
+  tab-size: 4;
+}
+.pw-input:focus { outline: none; border-color: var(--primary); box-shadow: 0 0 0 3px rgba(28, 69, 135, 0.18); }
+.pw-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 12px;
+}
+.pw-best { color: var(--muted); font-size: 0.9rem; font-weight: 700; }
+.pw-result {
+  margin-top: 14px;
+  padding: 14px 16px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  background: var(--bg);
+}
+.pw-result.full { border-color: var(--success); background: var(--success-bg); }
+.pw-result.part { border-color: #ffbe0b; background: rgba(255, 190, 11, 0.12); }
+.pw-result.low { border-color: var(--danger); background: var(--danger-bg); }
+.pw-score { margin: 0 0 10px; font-size: 1.05rem; }
+.pw-score.full strong { color: var(--success); }
+.pw-score.part strong { color: var(--primary-dark); }
+.pw-score.none strong { color: var(--danger); }
+.pw-marks, .pw-tips { margin: 0; padding: 0; list-style: none; }
+.pw-marks li { margin: 8px 0; padding-left: 26px; position: relative; }
+.pw-tick { position: absolute; left: 0; font-weight: 800; }
+.pw-marks li.got .pw-tick { color: var(--success); }
+.pw-marks li.lost .pw-tick { color: var(--danger); }
+.pw-tips-head {
+  margin: 14px 0 6px;
+  font-weight: 700;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.pw-tips li {
+  margin: 4px 0 4px 18px;
+  list-style: disc;
+  color: var(--muted);
+  font-size: 0.93rem;
+}
+.pw-model { margin-top: 14px; }
+.pw-model summary { cursor: pointer; font-weight: 700; color: var(--primary); }
+.pw-model summary:hover { color: var(--primary-dark); }
+.pw-model .code { margin-top: 10px; }
+
+@media (max-width: 760px) {
+  .split-two, .split-flow { grid-template-columns: 1fr; }
+  .lang-col { grid-template-columns: 1fr; }
+  .lang-head, .lang-how { grid-column: 1; }
+  .lang-col .code { grid-column: 1; grid-row: auto; margin-top: 8px; }
 }
