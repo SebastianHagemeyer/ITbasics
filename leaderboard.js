@@ -292,7 +292,7 @@
     let mid;
     if (currentMode === "xp") {
       mid = '<td class="col-level"><span class="lb-level"><span class="lb-level-num">&infin;</span>' +
-            '<span class="lb-level-name">Mastermind</span></span></td>' +
+            '<span class="lb-level-name">Always Learning</span></span></td>' +
             '<td class="col-total"><strong>∞</strong></td>';
     } else if (currentMode === "livecoding" || currentMode === "freeplay") {
       mid = '<td class="col-total"><strong>∞</strong></td>';
