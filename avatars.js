@@ -44,20 +44,39 @@
              '<ellipse cx="20" cy="23.8" rx="2.2" ry="1.7" fill="' + disc + '"/>';
     }},
 
+    /* A fox is a cat that narrows to a point. The whole read is the snout, so
+       the head tapers to a tip rather than being cut off flat at the chin. */
     { id: "fox", label: "Fox", draw: function (ink, disc) {
-      return '<path d="m10.4 10.2 5 4.2a10.9 10.9 0 0 1 9.2 0l5-4.2-.9 7.2c.5 1.1.8 2.3.8 3.6 0 4.5-4.2 8-9.5 8s-9.5-3.5-9.5-8c0-1.3.3-2.5.8-3.6z" fill="' + ink + '"/>' +
-             '<path d="M20 29.2c-2.9 0-5.5-1.1-7.2-2.9h14.4c-1.7 1.8-4.3 2.9-7.2 2.9z" fill="' + disc + '"/>' +
-             '<circle cx="16.4" cy="19.4" r="1.6" fill="' + disc + '"/>' +
-             '<circle cx="23.6" cy="19.4" r="1.6" fill="' + disc + '"/>';
+      return '<path d="M10.3 9.8 16 14.3a11.4 11.4 0 0 1 8 0l5.7-4.5-.9 7.7c.6 1.2.9 2.5.9 3.8 0 2.6-1.8 4.7-4.4 6L20 31l-5.3-3.7c-2.6-1.3-4.4-3.4-4.4-6 0-1.3.3-2.6.9-3.8z" fill="' + ink + '"/>' +
+             '<circle cx="16.3" cy="19.6" r="1.7" fill="' + disc + '"/>' +
+             '<circle cx="23.7" cy="19.6" r="1.7" fill="' + disc + '"/>' +
+             '<circle cx="20" cy="26.4" r="1.5" fill="' + disc + '"/>';
     }},
 
-    /* The pentagon and its five spokes are the whole reason a football reads
-       as a football. Drawn from real geometry, not by eye: a regular pentagon
-       at the centre with a spoke running out from each vertex to the rim. */
+    /* A football is the hardest thing here, because its identity is a
+       black-and-white contrast pattern and we only get two colours.
+       Everything built radially, a rim with spokes running out to it, reads
+       as a car wheel: the five-fold symmetry is the problem, not the line
+       weight. What works is how a real ball actually looks: a solid ball with
+       one pentagon near the middle and the neighbouring ones running off the
+       edge, asymmetric, no spokes.
+       The patches deliberately overshoot the ball, then an annulus of house
+       colour trims them back to it. A clipPath would need an id, and an id
+       repeated across the twelve icons on the picker collides.
+       The last ring matters more than it looks. Without it the edge patches
+       run into the surrounding house colour and the ball loses its outline,
+       so it reads as a disc with bites out of it. Ringing the rim back in
+       gives every edge patch a white border facing outward, and the ball
+       gets its silhouette back. */
     { id: "football", label: "Football", draw: function (ink, disc) {
-      return '<circle cx="20" cy="20" r="9.4" fill="none" stroke="' + ink + '" stroke-width="2.2"/>' +
-             '<path d="M20 15.7 24.1 18.7 22.5 23.5 17.5 23.5 15.9 18.7z" fill="' + ink + '"/>' +
-             '<path d="M20 15.7V10.6M24.1 18.7 28.9 17.1M22.5 23.5 25.5 27.6M17.5 23.5 14.5 27.6M15.9 18.7 11.1 17.1" stroke="' + ink + '" stroke-width="2" stroke-linecap="round"/>';
+      return '<circle cx="20" cy="20" r="9.7" fill="' + ink + '"/>' +
+             '<path d="M20 13.9 24.1 16.9 22.5 21.7 17.5 21.7 15.9 16.9z' +
+                     'M15.2 24.5 14.8 28 11.4 28.7 9.6 25.7 12 23.1z' +
+                     'M25.3 24.5 28.7 23.6 30.6 26.6 28.3 29.3 25.1 28z' +
+                     'M28.7 16 26.6 13.8 28.1 11.1 31.1 11.6 31.5 14.6z' +
+                     'M11.9 15.3 8.9 14.9 8.2 11.9 10.9 10.4 13.1 12.5z" fill="' + disc + '"/>' +
+             '<circle cx="20" cy="20" r="14.85" fill="none" stroke="' + disc + '" stroke-width="10.3"/>' +
+             '<circle cx="20" cy="20" r="9.28" fill="none" stroke="' + ink + '" stroke-width="0.85"/>';
     }},
 
     { id: "basketball", label: "Basketball", draw: function (ink, disc) {
@@ -88,18 +107,23 @@
              '<circle cx="20.4" cy="19.8" r="1.3" fill="' + disc + '"/>';
     }},
 
-    { id: "gamepad", label: "Game controller", draw: function (ink, disc) {
+    { id: "gamepad", label: "Controller", draw: function (ink, disc) {
       return '<path d="M14 14.6h12c3.4 0 5.8 3 5.8 7s-2 6.4-4.8 6.4c-1.8 0-2.8-.9-3.8-2h-6.4c-1 1.1-2 2-3.8 2-2.8 0-4.8-2.4-4.8-6.4s2.4-7 5.8-7z" fill="' + ink + '"/>' +
              '<path d="M16 18.4v4M14 20.4h4" stroke="' + disc + '" stroke-width="2" stroke-linecap="round"/>' +
              '<circle cx="24.4" cy="19.4" r="1.5" fill="' + disc + '"/>' +
              '<circle cx="26.8" cy="21.8" r="1.5" fill="' + disc + '"/>';
     }},
 
+    /* The beam reaches further right than the left note head does left, so the
+       drawn shape spans 11.7 to 30.1 and sits 0.9 right of centre. Nudged back
+       as a group rather than by editing eight coordinates. */
     { id: "music", label: "Music note", draw: function (ink, disc) {
-      return '<ellipse cx="15.4" cy="26.2" rx="3.8" ry="3" transform="rotate(-20 15.4 26.2)" fill="' + ink + '"/>' +
+      return '<g transform="translate(-0.9 0)">' +
+             '<ellipse cx="15.4" cy="26.2" rx="3.8" ry="3" transform="rotate(-20 15.4 26.2)" fill="' + ink + '"/>' +
              '<ellipse cx="25.9" cy="24" rx="3.8" ry="3" transform="rotate(-20 25.9 24)" fill="' + ink + '"/>' +
              '<path d="M17.4 25.8V12.8h2.2v13zM27.9 23.6V10.6h2.2v13z" fill="' + ink + '"/>' +
-             '<path d="M17.4 12.8 30.1 10.6v3.8L17.4 16.6z" fill="' + ink + '"/>';
+             '<path d="M17.4 12.8 30.1 10.6v3.8L17.4 16.6z" fill="' + ink + '"/>' +
+             "</g>";
     }},
 
     { id: "bolt", label: "Lightning bolt", draw: function (ink, disc) {
@@ -136,6 +160,35 @@
     return Boolean(SHAPE_BY[shapeId]) && Boolean(HOUSE_BY[houseId]);
   }
 
+  /* A saved pick is allowed to be a house with no shape yet. Someone who taps
+     their house colour and then wanders off should still keep that much. */
+  function usable(pick) {
+    if (!pick || !HOUSE_BY[pick.house]) return false;
+    return !pick.shape || Boolean(SHAPE_BY[pick.shape]);
+  }
+
+  /* Before anyone picks a shape: their first initial on the house disc, so a
+     class that has never opened the settings page still looks finished. */
+  function letterSvg(name, houseId, size) {
+    var h = HOUSE_BY[houseId] || HOUSE_BY[DEFAULT_HOUSE];
+    var ch = String(name || "").trim().charAt(0).toUpperCase();
+    if (!/^[A-Z0-9]$/.test(ch)) ch = "?";
+    var px = size || 32;
+    return '<svg class="avatar-svg" viewBox="0 0 40 40" width="' + px + '" height="' + px +
+      '" role="img" aria-label="' + ch + '">' +
+      '<circle cx="20" cy="20" r="20" fill="' + h.colour + '"/>' +
+      '<text x="20" y="20" text-anchor="middle" dominant-baseline="central" font-size="21" ' +
+      'font-weight="700" font-family="system-ui, -apple-system, sans-serif" fill="' + h.ink + '">' +
+      ch + '</text></svg>';
+  }
+
+  /* The one call a page should make: hand it whatever pick you have (or none)
+     and the student's name, get back something to show either way. */
+  function render(pick, name, size) {
+    if (pick && valid(pick.shape, pick.house)) return svg(pick.shape, pick.house, size);
+    return letterSvg(name, (pick && pick.house) || DEFAULT_HOUSE, size);
+  }
+
   // ---- saving and loading ------------------------------------------------
   var KEY = "avatar";
 
@@ -145,14 +198,15 @@
     if (!window.ITBasics || !window.ITBasics.getSession()) return null;
     try {
       var saved = await window.ITBasics.loadProgress(KEY);
-      if (saved && valid(saved.shape, saved.house)) return saved;
+      if (usable(saved)) return saved;
     } catch (e) {}
     return null;
   }
 
   async function choose(shapeId, houseId) {
-    if (!valid(shapeId, houseId) || !window.ITBasics) return false;
-    var pick = { shape: shapeId, house: houseId };
+    if (!window.ITBasics || !HOUSE_BY[houseId]) return false;
+    if (shapeId && !SHAPE_BY[shapeId]) return false;
+    var pick = { shape: shapeId || null, house: houseId };
     try { await window.ITBasics.saveProgress(KEY, pick); } catch (e) { return false; }
     var s = window.ITBasics.getSession();
     if (s) { try { localStorage.setItem(localKey(s.code), JSON.stringify(pick)); } catch (e) {} }
@@ -164,7 +218,7 @@
   function cached(code) {
     try {
       var pick = JSON.parse(localStorage.getItem(localKey(code)));
-      return pick && valid(pick.shape, pick.house) ? pick : null;
+      return usable(pick) ? pick : null;
     } catch (e) { return null; }
   }
 
@@ -178,8 +232,7 @@
       .eq("quiz_name", KEY);
     if (res.error || !res.data) return out;
     res.data.forEach(function (r) {
-      var a = r.answers;
-      if (a && valid(a.shape, a.house)) out[r.student_code] = a;
+      if (usable(r.answers)) out[r.student_code] = r.answers;
     });
     return out;
   }
@@ -189,7 +242,10 @@
     HOUSES: HOUSES,
     DEFAULT_HOUSE: DEFAULT_HOUSE,
     svg: svg,
+    letterSvg: letterSvg,
+    render: render,
     valid: valid,
+    usable: usable,
     mine: mine,
     choose: choose,
     cached: cached,

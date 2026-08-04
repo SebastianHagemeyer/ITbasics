@@ -4703,3 +4703,179 @@ body[data-xp-gate="checking"] main > * { display: none; }
   .auth-xp-bar.wrapped { animation: none !important; }
   .lu-card, .lu-ring, .lu-new { animation: none !important; opacity: 1 !important; }
 }
+
+/* ---------------------------------------------------------------------------
+   Settings on My Journey: pick your icon, pick your house, quiet the XP
+   --------------------------------------------------------------------------- */
+.settings-panel {
+  display: grid;
+  gap: 18px;
+  margin-bottom: 12px;
+}
+.settings-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  padding: 18px 22px 22px;
+}
+.settings-card h3 {
+  margin: 0 0 4px;
+  font-size: 1.05rem;
+}
+.settings-hint {
+  margin: 0 0 16px;
+  color: var(--muted);
+  font-size: .9rem;
+  line-height: 1.5;
+}
+.settings-label {
+  margin: 18px 0 8px;
+  font-size: .78rem;
+  font-weight: 700;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.settings-note {
+  margin: 14px 0 0;
+  color: var(--muted);
+  font-size: .82rem;
+}
+
+/* The live preview. This is the thing they are actually choosing, so it sits
+   above the controls and never moves. */
+.avatar-preview {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding: 14px 16px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--bg);
+}
+.avatar-preview-pic {
+  display: flex;
+  line-height: 0;
+}
+.avatar-preview-text {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  min-width: 0;
+}
+.avatar-preview-text strong { font-size: 1.05rem; }
+.avatar-preview-text span { color: var(--muted); font-size: .86rem; }
+
+.settings-saved {
+  margin-left: auto;
+  font-size: .8rem;
+  font-weight: 700;
+  color: var(--success, #1f8f4e);
+  white-space: nowrap;
+}
+.settings-saved.show { animation: settings-saved-in .22s ease-out; }
+@keyframes settings-saved-in {
+  from { opacity: 0; transform: translateY(4px); }
+  to   { opacity: 1; transform: none; }
+}
+
+.house-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.house-choice {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px 8px 10px;
+  border: 2px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--text);
+  font: inherit;
+  font-size: .88rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: border-color .15s, background .15s;
+}
+.house-choice:hover { border-color: var(--muted); }
+.house-choice.on {
+  border-color: var(--text);
+  background: var(--bg);
+}
+.house-dot {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  flex: none;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, .18);
+}
+
+/* auto-fill rather than a fixed column count: twelve icons want four across on
+   a laptop and three on a phone, and nobody needs to be told where the break
+   is. */
+.avatar-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(96px, 1fr));
+  gap: 10px;
+}
+.avatar-choice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 12px 6px 10px;
+  border: 2px solid var(--border);
+  border-radius: 12px;
+  background: var(--surface);
+  color: var(--text);
+  font: inherit;
+  cursor: pointer;
+  transition: border-color .15s, transform .12s, background .15s;
+}
+.avatar-choice:hover { border-color: var(--muted); transform: translateY(-2px); }
+.avatar-choice.on {
+  border-color: var(--text);
+  background: var(--bg);
+}
+.avatar-choice-label {
+  font-size: .74rem;
+  color: var(--muted);
+  text-align: center;
+  line-height: 1.25;
+}
+.avatar-choice.on .avatar-choice-label { color: var(--text); font-weight: 600; }
+.avatar-svg { display: block; }
+
+.fx-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 10px;
+}
+.fx-choice {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  text-align: left;
+  padding: 12px 14px;
+  border: 2px solid var(--border);
+  border-radius: 12px;
+  background: var(--surface);
+  color: var(--text);
+  font: inherit;
+  cursor: pointer;
+  transition: border-color .15s, background .15s;
+}
+.fx-choice:hover { border-color: var(--muted); }
+.fx-choice.on { border-color: var(--text); background: var(--bg); }
+.fx-choice strong { font-size: .95rem; }
+.fx-choice span { color: var(--muted); font-size: .8rem; line-height: 1.35; }
+
+@media (prefers-reduced-motion: reduce) {
+  .avatar-choice:hover { transform: none; }
+  .settings-saved.show { animation: none; }
+}
