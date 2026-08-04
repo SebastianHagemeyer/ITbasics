@@ -76,7 +76,7 @@
                      'M28.7 16 26.6 13.8 28.1 11.1 31.1 11.6 31.5 14.6z' +
                      'M11.9 15.3 8.9 14.9 8.2 11.9 10.9 10.4 13.1 12.5z" fill="' + disc + '"/>' +
              '<circle cx="20" cy="20" r="14.85" fill="none" stroke="' + disc + '" stroke-width="10.3"/>' +
-             '<circle cx="20" cy="20" r="9.1" fill="none" stroke="' + ink + '" stroke-width="1.2"/>';
+             '<circle cx="20" cy="20" r="9.28" fill="none" stroke="' + ink + '" stroke-width="0.85"/>';
     }},
 
     { id: "basketball", label: "Basketball", draw: function (ink, disc) {
