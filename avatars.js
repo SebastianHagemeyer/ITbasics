@@ -62,7 +62,12 @@
        edge, asymmetric, no spokes.
        The patches deliberately overshoot the ball, then an annulus of house
        colour trims them back to it. A clipPath would need an id, and an id
-       repeated across the twelve icons on the picker collides. */
+       repeated across the twelve icons on the picker collides.
+       The last ring matters more than it looks. Without it the edge patches
+       run into the surrounding house colour and the ball loses its outline,
+       so it reads as a disc with bites out of it. Ringing the rim back in
+       gives every edge patch a white border facing outward, and the ball
+       gets its silhouette back. */
     { id: "football", label: "Football", draw: function (ink, disc) {
       return '<circle cx="20" cy="20" r="9.7" fill="' + ink + '"/>' +
              '<path d="M20 13.9 24.1 16.9 22.5 21.7 17.5 21.7 15.9 16.9z' +
@@ -70,7 +75,8 @@
                      'M25.3 24.5 28.7 23.6 30.6 26.6 28.3 29.3 25.1 28z' +
                      'M28.7 16 26.6 13.8 28.1 11.1 31.1 11.6 31.5 14.6z' +
                      'M11.9 15.3 8.9 14.9 8.2 11.9 10.9 10.4 13.1 12.5z" fill="' + disc + '"/>' +
-             '<circle cx="20" cy="20" r="14.85" fill="none" stroke="' + disc + '" stroke-width="10.3"/>';
+             '<circle cx="20" cy="20" r="14.85" fill="none" stroke="' + disc + '" stroke-width="10.3"/>' +
+             '<circle cx="20" cy="20" r="9.1" fill="none" stroke="' + ink + '" stroke-width="1.2"/>';
     }},
 
     { id: "basketball", label: "Basketball", draw: function (ink, disc) {
@@ -108,11 +114,16 @@
              '<circle cx="26.8" cy="21.8" r="1.5" fill="' + disc + '"/>';
     }},
 
+    /* The beam reaches further right than the left note head does left, so the
+       drawn shape spans 11.7 to 30.1 and sits 0.9 right of centre. Nudged back
+       as a group rather than by editing eight coordinates. */
     { id: "music", label: "Music note", draw: function (ink, disc) {
-      return '<ellipse cx="15.4" cy="26.2" rx="3.8" ry="3" transform="rotate(-20 15.4 26.2)" fill="' + ink + '"/>' +
+      return '<g transform="translate(-0.9 0)">' +
+             '<ellipse cx="15.4" cy="26.2" rx="3.8" ry="3" transform="rotate(-20 15.4 26.2)" fill="' + ink + '"/>' +
              '<ellipse cx="25.9" cy="24" rx="3.8" ry="3" transform="rotate(-20 25.9 24)" fill="' + ink + '"/>' +
              '<path d="M17.4 25.8V12.8h2.2v13zM27.9 23.6V10.6h2.2v13z" fill="' + ink + '"/>' +
-             '<path d="M17.4 12.8 30.1 10.6v3.8L17.4 16.6z" fill="' + ink + '"/>';
+             '<path d="M17.4 12.8 30.1 10.6v3.8L17.4 16.6z" fill="' + ink + '"/>' +
+             "</g>";
     }},
 
     { id: "bolt", label: "Lightning bolt", draw: function (ink, disc) {
