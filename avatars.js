@@ -246,7 +246,7 @@
     if (!slot || !window.ITBasics) return;
     var s = window.ITBasics.getSession();
     if (!s) return;
-    slot.innerHTML = render(cached(s.code), s.first_name || s.code, 30);
+    slot.innerHTML = render(cached(s.code), s.first_name || s.code, 26);
     slot.classList.add("has-avatar");
   }
 

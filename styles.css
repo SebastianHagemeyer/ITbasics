@@ -4214,7 +4214,14 @@ textarea.gm-input { resize: vertical; }
   border: 1px solid var(--border);
   overflow: hidden;
 }
-.xp-bar span { display: block; height: 100%; background: var(--primary); }
+/* Same green gradient as the header bar. XP is green everywhere it appears,
+   so the bar on My Journey should not be the one place it is navy. */
+.xp-bar span {
+  display: block;
+  height: 100%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--xp), var(--xp-lift));
+}
 .xp-next { margin: 8px 0 0; color: var(--muted); font-size: 0.9rem; }
 .xp-rows { list-style: none; margin: 16px 0 0; padding: 0; }
 .xp-rows li {
@@ -4885,12 +4892,22 @@ body[data-xp-gate="checking"] main > * { display: none; }
 /* The chip normally draws a letter on a coloured background. Once an icon is
    in there the SVG brings its own disc, so the background has to go or it
    shows as a ring behind the icon. */
+/* The chip normally draws a letter on an accent disc with a navy ring round
+   it. An icon brings its own disc, so both have to go.
+   The ring goes because it is --primary navy, which fights a Marram red or
+   Walert yellow icon. The clipping goes because the box is border-box: a 26px
+   chip with a 2px border leaves 22px of content, the SVG shrinks to fit it,
+   and then the circle's own antialiased edge sits exactly on the border-radius
+   clip edge. Two soft edges on the same radius leave part-transparent pixels
+   and the white chip shows through them as a pale rind. Letting the SVG be the
+   whole 26px, with nothing to clip against, removes the seam entirely. */
 .auth-avatar.has-avatar {
   background: none;
+  border: none;
   padding: 0;
-  overflow: hidden;
+  overflow: visible;
 }
-.auth-avatar.has-avatar svg { display: block; border-radius: 50%; }
+.auth-avatar.has-avatar svg { display: block; flex: none; }
 
 /* Kept inside a span rather than making the td a flex container, which would
    drop the cell out of the table layout and break the column widths. */
