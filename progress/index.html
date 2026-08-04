@@ -66,6 +66,15 @@
       <div id="progress-status" class="leaderboard-status">Loading…</div>
 
       <div id="progress-content" hidden>
+        <details class="settings-drawer">
+          <summary>
+            <svg class="settings-drawer-chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span class="settings-drawer-title">Settings</span>
+            <span class="settings-drawer-hint">Your icon, house colour and XP notifications</span>
+          </summary>
+          <div id="settings-panel" class="settings-panel"></div>
+        </details>
+
         <div class="progress-summary-card">
           <div class="progress-count">
             <span id="progress-done-count">0</span>/<span id="progress-total-count">8</span>
@@ -99,9 +108,6 @@
           <a href="/quizzes/" class="btn btn-primary">Take a quiz</a>
           <a href="/leaderboard/" class="btn btn-ghost">See the leaderboard</a>
         </div>
-
-        <h2 class="section-title">Settings</h2>
-        <div id="settings-panel" class="settings-panel"></div>
       </div>
     </div>
   </main>

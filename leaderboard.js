@@ -69,6 +69,10 @@
   // initial on a house disc instead, so the column never looks half-built.
   var avatarBy = {};
 
+  // The pinned row at the top is Mr H specifically, not "whichever teacher is
+  // looking", so his icon is looked up by his own code. Everyone sees it.
+  var TEACHER_ROW_CODE = "MRH0001";
+
   function faceFor(code, firstName) {
     if (!window.ITAvatars) return "";
     return '<span class="lb-face">' +
@@ -325,7 +329,7 @@
     }
     tr.innerHTML =
       '<td class="col-rank"><span class="rank-pill teacher-rank">0</span></td>' +
-      '<td class="col-name"><span class="lb-who">' + faceFor("__teacher__", "H") +
+      '<td class="col-name"><span class="lb-who">' + faceFor(TEACHER_ROW_CODE, "H") +
         '<span class="lb-nm">Mr H' + tag + '</span></span></td>' +
       '<td class="col-class">TEACHER</td>' + mid;
     return tr;
