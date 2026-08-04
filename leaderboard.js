@@ -2,7 +2,10 @@
   "use strict";
 
   let cachedRows = null;
-  let currentClass = "7A";
+  // Set from whichever tab ends up active, never hardcoded: a fixed default
+  // silently pointed at 7A after that class was archived, so the board
+  // filtered to a class with no tab and rendered nothing until you clicked.
+  let currentClass = null;
   // The quiz board is retired from display (its tab is gone, so "quiz" is
   // never selected), but quiz scores are still stored and fetched untouched.
   let currentMode = "xp";         // "xp" | "livecoding" | "freeplay"
@@ -334,13 +337,19 @@
     });
     const tabs = document.querySelectorAll('[data-tabs="class"] .quiz-tab');
     const more = document.querySelector('[data-tabs="class"] .lb-more');
+
+    // One place that moves the highlight and the filter together, so the two
+    // cannot disagree the way they did when the tab said 7ITC and the board
+    // was still filtering on 7A.
+    function activate(tab) {
+      if (!tab) return;
+      tabs.forEach(function (x) { x.classList.remove("active"); });
+      tab.classList.add("active");
+      currentClass = tab.dataset.class;
+    }
+
     tabs.forEach(function (t) {
-      t.addEventListener("click", function () {
-        tabs.forEach(function (x) { x.classList.remove("active"); });
-        t.classList.add("active");
-        currentClass = t.dataset.class;
-        render();
-      });
+      t.addEventListener("click", function () { activate(t); render(); });
     });
 
     // Only your own class is on show. The other six fold away behind the
@@ -362,16 +371,17 @@
       });
     }
 
-    // Default tab to the signed-in student's class.
+    // Start on the student's own class. Staff, the test account and anyone
+    // from an archived class have no tab of their own, so they land on the
+    // first one that is left rather than on a class that is not there.
     const s = window.ITBasics && window.ITBasics.getSession();
-    if (s && s.class) {
-      const match = Array.prototype.find.call(tabs, function (t) { return t.dataset.class === s.class; });
-      if (match) {
-        tabs.forEach(function (x) { x.classList.remove("active"); });
-        match.classList.add("active");
-        currentClass = s.class;
-        fold(s.class);
-      }
+    const match = s && s.class &&
+      Array.prototype.find.call(tabs, function (t) { return t.dataset.class === s.class; });
+    if (match) {
+      activate(match);
+      fold(s.class);
+    } else {
+      activate(document.querySelector('[data-tabs="class"] .quiz-tab.active') || tabs[0]);
     }
   }
 
