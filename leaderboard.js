@@ -73,7 +73,8 @@
 
     const nameMap = {};
     (cachedRows || []).forEach(function (r) {
-      nameMap[r.code] = { first_name: r.first_name, last_name: r.last_name, class: r.class };
+      nameMap[r.code] = { first_name: r.first_name, last_name: r.last_name,
+                          class: r.class, xp: r.xp };
     });
 
     const agg = {};
@@ -81,7 +82,9 @@
     let from = 0;
     while (true) {
       const res = await sb.from("quiz_attempts")
-        .select("student_code, quiz_name, score, answers")
+        // total matters: XP for a quiz is only awarded at full marks, and
+        // without this column every score compares against 0 and never counts.
+        .select("student_code, quiz_name, score, total, answers")
         .gte("attempted_at", startISO)
         .order("id", { ascending: true })
         .range(from, from + PAGE - 1);
@@ -105,7 +108,7 @@
     }
 
     return Object.keys(agg).map(function (code) {
-      const info = nameMap[code] || { first_name: "Unknown", last_name: "", class: "?" };
+      const info = nameMap[code] || { first_name: "Unknown", last_name: "", class: "?", xp: 0 };
       const m = agg[code];
       return {
         code: code,
@@ -120,7 +123,10 @@
         },
         freeplay: m.freeplay,
         livecoding: Object.keys(m.ch).length,
-        xp: window.ITXP ? window.ITXP.fromAttempts(m.raw).xp : 0
+        xp: window.ITXP ? window.ITXP.fromAttempts(m.raw).xp : 0,
+        // A level is a lifetime thing. Deriving it from today's XP alone
+        // labelled a Level 6 student "Initiate" for having a quiet morning.
+        lifetimeXp: info.xp || 0
       };
     });
   }
@@ -246,7 +252,8 @@
 
   function bodyCells(r) {
     if (currentMode === "xp") {
-      return '<td class="col-level">' + levelPill(r.xp || 0) + '</td>' +
+      var forLevel = r.lifetimeXp != null ? r.lifetimeXp : r.xp;
+      return '<td class="col-level">' + levelPill(forLevel || 0) + '</td>' +
              '<td class="col-total"><strong>' + (r.xp || 0) + '</strong></td>';
     }
     if (currentMode === "livecoding") {
