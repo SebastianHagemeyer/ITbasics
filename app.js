@@ -425,10 +425,12 @@
       const name = (s.first_name || s.code) + (s.last_name ? " " + s.last_name : "");
       const initial = (s.first_name || s.code)[0].toUpperCase();
       const meta = s.class ? '<span class="auth-meta">' + escapeHtml(s.class) + '</span>' : "";
+      // The name sits in its own column so xp.js has somewhere to hang the XP
+      // bar underneath it. Pages that do not load xp.js just get the name.
       bar.innerHTML =
         '<a class="auth-user" href="/progress/" title="See your progress">' +
           '<span class="auth-avatar">' + escapeHtml(initial) + '</span>' +
-          '<span class="auth-name">' + escapeHtml(name) + '</span>' +
+          '<span class="auth-id"><span class="auth-name">' + escapeHtml(name) + '</span></span>' +
           meta +
         '</a>' +
         '<button type="button" class="auth-btn auth-signout">Sign out</button>';
@@ -532,19 +534,22 @@
     if (!nav) return;
     var path = location.pathname.replace(/index\.html$/, "");
     var chev = '<svg class="nav-chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>';
-    // Learn gives access to all the modules (via the /modules/ hub) and the
-    // searchable documentation. Play holds the interactive bits plus the
-    // leaderboard. Assignments sits on its own.
+    // Learn gives access to all the modules (via the /modules/ hub), the
+    // searchable documentation and the marked assignments. Play holds the
+    // interactive bits plus the leaderboard and the gallery.
     var learn = [
       { href: "/modules/", label: "All modules" },
-      { href: "/docs/", label: "Documentation" }
+      { href: "/docs/", label: "Documentation" },
+      { href: "/assignments/", label: "Assignments" }
     ];
+    // The Game Gallery is deliberately not in here. Five items made the menu
+    // busy, and the gallery is level gated anyway: you reach it from Make Your
+    // Own Game, which is the thing that puts games in it.
     var play = [
       { href: "/sandbox/", label: "Sandbox" },
       { href: "/challenges/", label: "Live Coding" },
       { href: "/freeplay/", label: "Freeplay" },
-      { href: "/leaderboard/", label: "Leaderboard" },
-      { href: "/games/", label: "Game Gallery" }
+      { href: "/leaderboard/", label: "Leaderboard" }
     ];
     function active(href) { return href === "/" ? path === "/" : path.indexOf(href) === 0; }
     function items(list) {
@@ -565,9 +570,11 @@
     nav.innerHTML =
       '<a href="/"' + (path === "/" ? ' class="active"' : '') + '>Home</a>' +
       // Learn lights up on any lesson or quiz page, not only its two menu links.
-      dropdown("Learn", learn, ["/modules/", "/docs/", "/topics/", "/quizzes/"]) +
-      dropdown("Play", play) +
-      '<a href="/assignments/"' + (active("/assignments/") ? ' class="active"' : '') + '>Assignments</a>';
+      dropdown("Learn", learn, ["/modules/", "/docs/", "/assignments/", "/topics/", "/quizzes/"]) +
+      // The gallery is not a menu item any more, but standing in it should
+      // still light this section up.
+      dropdown("Play", play, ["/sandbox/", "/challenges/", "/freeplay/",
+                              "/leaderboard/", "/games/"]);
   }
 
   function boot() {

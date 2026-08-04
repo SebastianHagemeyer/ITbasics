@@ -96,7 +96,10 @@
       icon: ICON_GAMEPAD,
       desc: "Build your own game on the Hallam engine, from a template or from scratch, " +
             "then publish it to your class Game Gallery for everyone to play.",
-      open: true
+      open: true,
+      // Matches data-xp-min on the task page and the gallery. Kept here as
+      // well so the card says so before anyone clicks through to find out.
+      minLevel: 3
     }
   ];
 
@@ -182,6 +185,43 @@
     );
   }
 
+  // A task that has not opened up yet. Shown rather than hidden: knowing
+  // there is a game to build at Level 3 is most of the reason to get there.
+  var PADLOCK =
+    '<svg class="xp-lock-icon" viewBox="0 0 24 24" aria-hidden="true">' +
+      '<rect x="4" y="10" width="16" height="11" rx="2.5" fill="currentColor"/>' +
+      '<path d="M8 10V7a4 4 0 0 1 8 0v3" fill="none" stroke="currentColor" ' +
+            'stroke-width="2.2" stroke-linecap="round"/>' +
+    "</svg>";
+
+  function lockedCard(a) {
+    return (
+      '<div class="assignment-card locked">' +
+        '<span class="assignment-icon" aria-hidden="true">' + a.icon + "</span>" +
+        '<span class="assignment-body">' +
+          '<span class="assignment-title">' + escapeHtml(a.title) + "</span>" +
+          '<span class="assignment-desc">' + escapeHtml(a.desc) + "</span>" +
+        "</span>" +
+        '<span class="assignment-side">' +
+          '<span class="assignment-status locked">' + PADLOCK +
+            "Level " + a.minLevel + "</span>" +
+          '<span class="assignment-marks">Open task</span>' +
+        "</span>" +
+      "</div>"
+    );
+  }
+
+  // Null until xp.js has a figure. Treated as "not yet", so a gated card is
+  // never briefly clickable on a slow connection. Staff skip the gate, same as
+  // they do on the task page itself.
+  function levelNow() {
+    var me = window.ITBasics && window.ITBasics.getSession();
+    var codes = window.TEACHER_CODES;
+    if (me && Array.isArray(codes) && codes.indexOf(me.code) !== -1) return Infinity;
+    var s = window.ITXP && window.ITXP.current();
+    return s ? s.level : 0;
+  }
+
   async function boot() {
     var student = window.ITBasics && window.ITBasics.getSession();
     if (!student) { location.replace("/"); return; }
@@ -191,7 +231,9 @@
     if (window.ITBasics.myGames) {
       try { myGames = await window.ITBasics.myGames(); } catch (e) { myGames = []; }
     }
+    var level = levelNow();
     el("assignments-list").innerHTML = ASSIGNMENTS.map(function (a) {
+      if (a.minLevel && level < a.minLevel) return lockedCard(a);
       return a.open ? openCard(a, myGames.length) : card(a, subs[a.key]);
     }).join("");
     el("assignments-status").textContent = "";
@@ -200,6 +242,19 @@
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", boot);
   } else { boot(); }
+
+  // xp.js paints from a cache first and a fetch second, so the level can go up
+  // a moment after the cards are drawn. Redraw when it does, but only if a
+  // gate actually changed sides.
+  var drawnAt = -1;
+  window.addEventListener("itbasics:xp", function () {
+    var level = levelNow();
+    var moved = ASSIGNMENTS.some(function (a) {
+      return a.minLevel && (drawnAt < a.minLevel) !== (level < a.minLevel);
+    });
+    drawnAt = level;
+    if (moved) boot();
+  });
 
   window.addEventListener("itbasics:auth", function (e) {
     if (!e.detail || !e.detail.student) { location.replace("/"); return; }

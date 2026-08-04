@@ -1541,7 +1541,9 @@ del _sandbox_install_color_print
     if (!lines) return;
     const used = getCode().indexOf("*** hint ***") !== -1;
     hintBtn.disabled = used;
-    hintBtn.textContent = used ? "Hint added below your code ↓" : "Hint?";
+    hintBtn.innerHTML = used
+      ? 'Hint added below your code <span class="arrow down" aria-hidden="true"></span>'
+      : "Hint?";
   }
 
   function addHint() {
