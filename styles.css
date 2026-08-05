@@ -5289,3 +5289,34 @@ body[data-xp-gate="checking"] main > * { display: none; }
   .lang-head, .lang-how { grid-column: 1; }
   .lang-col .code { grid-column: 1; grid-row: auto; margin-top: 8px; }
 }
+
+/* Locked icons: dimmed, not hidden. The point of a locked icon is that you
+   can see what you are working towards. */
+.avatar-choice.locked {
+  cursor: default;
+  position: relative;
+}
+.avatar-choice.locked svg { opacity: .3; }
+.avatar-choice.locked .avatar-choice-label { opacity: .5; }
+.avatar-choice.locked:hover { border-color: var(--border); transform: none; }
+.avatar-lock {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  font-size: .66rem;
+  font-weight: 700;
+  letter-spacing: .02em;
+  color: var(--muted);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 1px 6px;
+  line-height: 1.5;
+}
+.settings-sub {
+  margin: -4px 0 8px;
+  color: var(--muted);
+  font-size: .82rem;
+}
+/* A level requirement is information, not a success. */
+.settings-saved.info { color: var(--muted); font-weight: 600; }
