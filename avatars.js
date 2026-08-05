@@ -2,7 +2,7 @@
  *
  * A student's icon on the leaderboard: pick a shape, pick your house.
  *
- *   12 shapes  x  4 houses  =  48 combinations
+ *   13 shapes  x  4 houses  =  52 combinations
  *
  * The shape is a single flat silhouette and the colour comes from the house,
  * which is what makes these survive being shrunk to 24px in a table cell.
@@ -136,6 +136,19 @@
              '<circle cx="21.4" cy="14.2" r="1.7" fill="' + disc + '"/>' +
              '<circle cx="25.8" cy="18" r="1.7" fill="' + disc + '"/>' +
              '<circle cx="15" cy="21.8" r="1.7" fill="' + disc + '"/>';
+    }},
+
+    /* Three ink bands with the house colour showing between them, rather than
+       one silhouette with detail drawn on. The gaps are what make it a stack
+       instead of a blob, so they are the last thing to give up as it shrinks.
+       Sesame seeds are cut out of the bun for the same reason. */
+    { id: "burger", label: "Burger", draw: function (ink, disc) {
+      return '<path d="M9 17.6c0-5 4.9-8.4 11-8.4s11 3.4 11 8.4z" fill="' + ink + '"/>' +
+             '<ellipse cx="15.4" cy="14.2" rx="1.5" ry="1" fill="' + disc + '"/>' +
+             '<ellipse cx="20" cy="12.7" rx="1.5" ry="1" fill="' + disc + '"/>' +
+             '<ellipse cx="24.6" cy="14.2" rx="1.5" ry="1" fill="' + disc + '"/>' +
+             '<path d="M10.2 19h19.6a1.8 1.8 0 0 1 0 3.6H10.2a1.8 1.8 0 0 1 0-3.6z" fill="' + ink + '"/>' +
+             '<path d="M9 24h22v2.4c0 2.4-2.2 4.4-5 4.4H14c-2.8 0-5-2-5-4.4z" fill="' + ink + '"/>';
     }}
   ];
 
