@@ -5332,3 +5332,23 @@ body[data-xp-gate="checking"] main > * { display: none; }
 }
 .footer-link:hover,
 .footer-link:focus-visible { color: var(--primary); }
+
+/* Long unbroken output must break rather than stretch the page.
+   These panels already had `white-space: pre-wrap`, which only wraps at
+   spaces, so a run of 400 characters with no space in it (a loop printing
+   without a newline, a long traceback path, a kid holding down a key) has no
+   break opportunity and the box grows instead.
+   `anywhere` rather than `break-word` on purpose: only `anywhere` is taken
+   into account when the browser works out min-content width, so only
+   `anywhere` stops a grid or flex child from forcing its parent wider. That
+   is the difference between the box scrolling and the whole page scrolling. */
+.sandbox-out-body,
+.snippet-output,
+.ct-output {
+  overflow-wrap: anywhere;
+}
+
+/* Grid children default to min-width: auto, which lets contents push the
+   column wider than its track. */
+.sandbox-editor,
+.sandbox-output { min-width: 0; }
