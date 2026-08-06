@@ -36,6 +36,11 @@
   let active = null;
   let running = false;
   let pendingReject = null;
+  /* Set only while input() is waiting, unlike pendingReject which is also
+     used by sleep(). Clearing the output destroys the input box, so Clear has
+     to end the wait; but Clear should not kill a program that merely happens
+     to be asleep. */
+  let pendingInput = null;
   let stopRequested = false;
 
   // JSPI (WebAssembly stack switching) lets input() and sleep block on
@@ -1184,9 +1189,11 @@ del _pyrun_install_game
 
       function cleanup() {
         pendingReject = null;
+        pendingInput = null;
         field.removeEventListener("input", resize);
         field.removeEventListener("keydown", onKey);
       }
+      pendingInput = true;
 
       function onKey(e) {
         if (e.key !== "Enter") return;
@@ -1389,6 +1396,16 @@ del _pyrun_install_game
 
     function clearOut() { output.innerHTML = ""; }
 
+    /* What the Clear button calls. Same as clearOut, except that if the
+       program is sat waiting for input then wiping the box would strand it,
+       so the run is stopped as well. Kept separate from clearOut because
+       Python's own clearOutput() must never stop the program calling it. */
+    function clearFromUser() {
+      const waiting = pendingInput && running && active === runner;
+      clearOut();
+      if (waiting) stop();
+    }
+
     function resetTurtle() {
       if (!runner.turtleCtx) return;
       const c = runner.turtleCtx;
@@ -1496,6 +1513,7 @@ del _pyrun_install_game
       setCode: setCode,
       reloadSaved: function () { setCode(loadSaved()); },
       clearOutput: clearOut,
+      clearFromUser: clearFromUser,
       isRunning: function () { return running && active === runner; }
     };
   }
