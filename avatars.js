@@ -2,7 +2,10 @@
  *
  * A student's icon on the leaderboard: pick a shape, pick your house.
  *
- *   13 shapes  x  4 houses  =  52 combinations
+ *   16 shapes  x  4 houses  =  64 combinations
+ *
+ * Thirteen are there from day one. Three are earned: gem at Level 3, robot
+ * at Level 5, crown at Level 7.
  *
  * The shape is a single flat silhouette and the colour comes from the house,
  * which is what makes these survive being shrunk to 24px in a table cell.
@@ -149,6 +152,37 @@
              '<ellipse cx="24.6" cy="14.2" rx="1.5" ry="1" fill="' + disc + '"/>' +
              '<path d="M10.2 19h19.6a1.8 1.8 0 0 1 0 3.6H10.2a1.8 1.8 0 0 1 0-3.6z" fill="' + ink + '"/>' +
              '<path d="M9 24h22v2.4c0 2.4-2.2 4.4-5 4.4H14c-2.8 0-5-2-5-4.4z" fill="' + ink + '"/>';
+    }},
+
+    /* The three below are earned, not given. `level` is the level you have to
+       reach before the picker will let you choose one; everything above has no
+       `level` and is available from the start.
+       They are deliberately the three that read best of everything drawn for
+       this, because a reward that turns to mush at 22px is not a reward. An
+       astronaut helmet and a dragon were tried and dropped: the helmet read as
+       a blob and the dragon read as a speech bubble. */
+
+    { id: "gem", label: "Gem", level: 3, draw: function (ink, disc) {
+      return '<path d="M13.4 12.6H26.6L30.6 18.6 20 30.6 9.4 18.6z" fill="' + ink + '"/>' +
+             '<path d="M9.4 18.6H30.6M16.6 18.6 20 30.6M23.4 18.6 20 30.6" ' +
+                   'stroke="' + disc + '" stroke-width="1.5" fill="none"/>';
+    }},
+
+    { id: "robot", label: "Robot", level: 5, draw: function (ink, disc) {
+      return '<circle cx="20" cy="8.6" r="1.8" fill="' + ink + '"/>' +
+             '<path d="M20 10.4v2.4" stroke="' + ink + '" stroke-width="1.8"/>' +
+             '<rect x="10.2" y="12.8" width="19.6" height="17" rx="4.4" fill="' + ink + '"/>' +
+             '<circle cx="16" cy="19.2" r="2.3" fill="' + disc + '"/>' +
+             '<circle cx="24" cy="19.2" r="2.3" fill="' + disc + '"/>' +
+             '<rect x="15" y="24" width="10" height="2.6" rx="1.3" fill="' + disc + '"/>';
+    }},
+
+    { id: "crown", label: "Crown", level: 7, draw: function (ink, disc) {
+      return '<path d="M9.2 14.2 14.6 20.4 20 11.8 25.4 20.4 30.8 14.2 29 27.4H11z" fill="' + ink + '"/>' +
+             '<path d="M11.4 23.6H28.6" stroke="' + disc + '" stroke-width="1.5"/>' +
+             '<circle cx="15.6" cy="26" r="1" fill="' + disc + '"/>' +
+             '<circle cx="20" cy="26" r="1" fill="' + disc + '"/>' +
+             '<circle cx="24.4" cy="26" r="1" fill="' + disc + '"/>';
     }}
   ];
 
@@ -171,6 +205,15 @@
 
   function valid(shapeId, houseId) {
     return Boolean(SHAPE_BY[shapeId]) && Boolean(HOUSE_BY[houseId]);
+  }
+
+  /* The level a shape is locked behind, 1 for the ones everybody starts with.
+     Only the picker consults this. A shape someone already wears keeps
+     rendering whatever their level, because taking an icon back off a student
+     because a threshold moved would be worse than letting them keep it. */
+  function requiredLevel(shapeId) {
+    var s = SHAPE_BY[shapeId];
+    return (s && s.level) || 1;
   }
 
   /* A saved pick is allowed to be a house with no shape yet. Someone who taps
@@ -297,6 +340,7 @@
     render: render,
     valid: valid,
     usable: usable,
+    requiredLevel: requiredLevel,
     mine: mine,
     choose: choose,
     cached: cached,

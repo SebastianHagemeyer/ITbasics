@@ -10,9 +10,11 @@
  * a choice by wandering off the page, and there is nothing here worth
  * confirming: every option is one tap to undo.
  *
- * The twelve icons are drawn in the colour you have currently got selected,
- * not in grey. You are choosing the actual thing that will sit next to your
- * name, so it should look like the actual thing while you choose it.
+ * The icons are drawn in the colour you have currently got selected, not in
+ * grey. You are choosing the actual thing that will sit next to your name,
+ * so it should look like the actual thing while you choose it. Locked ones
+ * are dimmed rather than hidden, for the same reason: you cannot want an
+ * icon you have never seen.
  */
 (function () {
   "use strict";
@@ -37,6 +39,34 @@
   var student = null;
   var savedTimer = 0;
   var touched = false;   // has the student changed anything on this page yet
+  var myLevel = 1;
+
+  /* Staff have no XP of their own worth speaking of, so gating them out of
+     three icons would be the lock working backwards. Same rule xp.js uses for
+     its own content gate. */
+  function isStaff() {
+    var codes = window.TEACHER_CODES;
+    return Boolean(student && Array.isArray(codes) && codes.indexOf(student.code) !== -1);
+  }
+
+  function locked(shapeId) {
+    if (isStaff()) return false;
+    return myLevel < A().requiredLevel(shapeId);
+  }
+
+  /* xp.js has usually worked the level out already, from its cache, before
+     this panel is built. If it has not, ask it once. Missing xp.js entirely
+     means no level information, and in that case nothing is locked: a student
+     should never be shut out of an icon by a script that failed to load. */
+  async function loadLevel() {
+    if (!window.ITXP) { myLevel = 99; return; }
+    var now = window.ITXP.current();
+    if (now && typeof now.level === "number") { myLevel = now.level; return; }
+    try {
+      var state = await window.ITXP.load(student);
+      if (state && typeof state.level === "number") myLevel = state.level;
+    } catch (e) { /* leave it at 1 */ }
+  }
 
   function A() { return window.ITAvatars; }
 
@@ -67,10 +97,19 @@
     if (!grid) return;
     grid.innerHTML = A().SHAPES.map(function (s) {
       var on = s.id === pick.shape;
-      return '<button type="button" class="avatar-choice' + (on ? " on" : "") + '" ' +
-        'role="radio" aria-checked="' + (on ? "true" : "false") + '" ' +
-        'data-shape="' + s.id + '" title="' + escapeHtml(s.label) + '">' +
+      var shut = locked(s.id);
+      var need = A().requiredLevel(s.id);
+      // Locked ones are still drawn in full colour, just dimmed. Showing a
+      // grey blank would hide the thing they are working towards, which is
+      // the entire point of locking it.
+      return '<button type="button" class="avatar-choice' + (on ? " on" : "") +
+        (shut ? " locked" : "") + '" role="radio" ' +
+        'aria-checked="' + (on ? "true" : "false") + '" ' +
+        (shut ? 'aria-disabled="true" ' : "") +
+        'data-shape="' + s.id + '" title="' +
+        escapeHtml(shut ? s.label + ", unlocks at Level " + need : s.label) + '">' +
         A().svg(s.id, pick.house, 44) +
+        (shut ? '<span class="avatar-lock">Lv ' + need + "</span>" : "") +
         '<span class="avatar-choice-label">' + escapeHtml(s.label) + "</span></button>";
     }).join("");
   }
@@ -87,16 +126,18 @@
     }).join("");
   }
 
-  function flashSaved(msg) {
+  // Doubles as the "locked" nudge, so it carries a tone: a level requirement
+  // is information, not a success, and should not read as a green tick.
+  function flashSaved(msg, tone) {
     var tag = document.getElementById("avatar-saved");
     if (!tag) return;
     tag.textContent = msg || "Saved";
+    tag.className = "settings-saved" + (tone === "info" ? " info" : "");
     tag.hidden = false;
-    tag.classList.remove("show");
     void tag.offsetWidth;
     tag.classList.add("show");
     window.clearTimeout(savedTimer);
-    savedTimer = window.setTimeout(function () { tag.hidden = true; }, 1800);
+    savedTimer = window.setTimeout(function () { tag.hidden = true; }, 2600);
   }
 
   async function commitPick() {
@@ -138,6 +179,7 @@
         '<p class="settings-label">House colour</p>' +
         '<div class="house-row" id="avatar-houses" role="radiogroup" aria-label="House colour"></div>' +
         '<p class="settings-label">Icon</p>' +
+        '<p class="settings-sub">Three of these unlock as you level up.</p>' +
         '<div class="avatar-grid" id="avatar-shapes" role="radiogroup" aria-label="Icon"></div>' +
       "</section>" +
       '<section class="settings-card">' +
@@ -154,9 +196,13 @@
     panel.addEventListener("click", function (e) {
       var shape = e.target.closest("[data-shape]");
       if (shape) {
+        var id = shape.getAttribute("data-shape");
+        if (locked(id)) {
+          flashSaved("Reach Level " + A().requiredLevel(id) + " to unlock this one", "info");
+          return;
+        }
         // Tapping the icon you already have turns it back off, which is the
         // only way back to the plain initial once you have chosen one.
-        var id = shape.getAttribute("data-shape");
         pick.shape = pick.shape === id ? null : id;
         commitPick();
         return;
@@ -188,6 +234,7 @@
       house: (known && known.house) || A().DEFAULT_HOUSE
     };
 
+    await loadLevel();
     panel.innerHTML = markup();
     var nameEl = document.getElementById("avatar-preview-name");
     if (nameEl) {
@@ -215,4 +262,14 @@
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", boot);
   } else { boot(); }
+
+  /* Earning XP with this page open can cross a threshold, so the grid
+     re-checks rather than staying locked until a reload. */
+  window.addEventListener("itbasics:attempt", function () {
+    if (!document.getElementById("avatar-shapes") || !window.ITXP) return;
+    var now = window.ITXP.current();
+    if (!now || typeof now.level !== "number" || now.level === myLevel) return;
+    myLevel = now.level;
+    paintShapes();
+  });
 })();
