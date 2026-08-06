@@ -1241,6 +1241,12 @@ del _sandbox_install_color_print
     if (codeMap === null) codeMap = loadCodeMap();
     let jar = null;
     let busy = false;
+    /* Set while a run is blocked on input(), so Clear can get the student out.
+       Clearing the output wipes the DOM node holding the input box, and
+       without this the run would sit awaiting a promise that can never
+       resolve, with Run disabled and no way back except reloading the page
+       and losing their code. */
+    let pendingInput = null;
     // onlyId pins this instance to one challenge (embedded task or single embed);
     // the standalone page passes null and starts on the first challenge, or on
     // the challenge named in the URL hash (used by homework links).
@@ -1309,7 +1315,7 @@ del _sandbox_install_color_print
   }
 
   function readLineInteractive(promptText) {
-    return new Promise(function (resolve) {
+    return new Promise(function (resolve, reject) {
       const line = document.createElement("span");
       line.className = "out-stdin-line";
       if (promptText) line.appendChild(document.createTextNode(promptText));
@@ -1336,10 +1342,20 @@ del _sandbox_install_color_print
       setRunLabel("Waiting for input…", true);
       field.focus();
 
+      pendingInput = function () {
+        pendingInput = null;
+        field.removeEventListener("input", resize);
+        field.removeEventListener("keydown", onKey);
+        const err = new Error("Stopped");
+        err.itStopped = true;
+        reject(err);
+      };
+
       function onKey(e) {
         if (e.key !== "Enter") return;
         e.preventDefault();
         const value = field.value;
+        pendingInput = null;
         field.removeEventListener("input", resize);
         field.removeEventListener("keydown", onKey);
         const echo = document.createElement("span");
@@ -1393,8 +1409,10 @@ del _sandbox_install_color_print
         ns.destroy();
       }
     } catch (err) {
-      appendOut((err && err.message) ? err.message : String(err), "stderr");
+      if (err && err.itStopped) appendOut("Stopped.", "info");
+      else appendOut((err && err.message) ? err.message : String(err), "stderr");
     } finally {
+      pendingInput = null;
       setRunLabel("Run", false);
       setCheckBusy(false);
       busy = false; pageBusy = false;
@@ -1663,7 +1681,14 @@ del _sandbox_install_color_print
     setCode(current.starter);
     editor.focus();
   });
-  if (clearBtn) clearBtn.addEventListener("click", clearOut);
+  if (clearBtn) clearBtn.addEventListener("click", function () {
+    // Clearing while something waits for input ends the run rather than
+    // stranding it. Cancel after clearing, so the "Stopped." note lands in
+    // the freshly emptied panel instead of being wiped by it.
+    const waiting = pendingInput;
+    clearOut();
+    if (waiting) waiting();
+  });
 
   async function boot() {
     if (fileEl) fileEl.textContent = current.id + ".py";

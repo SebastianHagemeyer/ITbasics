@@ -919,7 +919,7 @@
     loadInto(DEFAULT_CODE, "Reset to the example");
     setCurrentName("");
   });
-  if (clearBtn) clearBtn.addEventListener("click", function () { runner.clearOutput(); });
+  if (clearBtn) clearBtn.addEventListener("click", function () { runner.clearFromUser(); });
 
   // The category order shown in the snippet dropdowns, and which one starts open.
   const EXAMPLE_CATEGORIES = ["Basic", "Intermediate", "Coloured Text", "Turtle", "Game"];

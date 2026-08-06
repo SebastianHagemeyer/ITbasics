@@ -110,7 +110,7 @@
     game: { canvas: document.getElementById("game-canvas") }
   });
 
-  if (clearBtn) clearBtn.addEventListener("click", function () { runner.clearOutput(); });
+  if (clearBtn) clearBtn.addEventListener("click", function () { runner.clearFromUser(); });
 
   function esc(s) {
     return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
