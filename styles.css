@@ -5320,3 +5320,15 @@ body[data-xp-gate="checking"] main > * { display: none; }
 }
 /* A level requirement is information, not a success. */
 .settings-saved.info { color: var(--muted); font-weight: 600; }
+
+/* PyWebLib in the footer. Underlined rather than colour alone, because the
+   footer text is already muted and colour on its own is a weak signal that
+   something is a link. */
+.footer-link {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  font-weight: 600;
+}
+.footer-link:hover,
+.footer-link:focus-visible { color: var(--primary); }
