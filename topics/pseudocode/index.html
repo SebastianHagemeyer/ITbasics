@@ -155,7 +155,17 @@
           <h3>The same program, both ways</h3>
           <p>Here is a program that asks your age and tells you whether you can vote. On the left is the flowchart, on the right is the pseudocode. Read them side by side: every shape becomes a line.</p>
 
-          <div class="split-two split-flow">
+          <div class="flowwalk" id="flowwalk">
+            <div class="flowwalk-bar">
+              <p class="flowwalk-step" id="fw-step" role="status" aria-live="polite"></p>
+              <div class="flowwalk-btns">
+                <button type="button" class="btn btn-ghost fw-back">Back</button>
+                <button type="button" class="btn btn-primary fw-next">Next step</button>
+                <button type="button" class="btn btn-ghost fw-all">Show all</button>
+              </div>
+            </div>
+
+            <div class="split-two split-flow">
             <div class="split-col">
               <svg class="flowchart" viewBox="0 0 440 560" role="img" aria-label="Flowchart: begin; output how old are you; input age; decision, is age 18 or over; yes leads to output you can vote, no leads to output too young; both join and lead to end.">
                 <defs>
@@ -164,49 +174,67 @@
                   </marker>
                 </defs>
 
-                <rect class="fc-shape" x="160" y="8" width="120" height="44" rx="22" />
-                <text class="fc-t" x="220" y="35">BEGIN</text>
-                <line class="fc-line" x1="220" y1="52" x2="220" y2="78" />
+                <g data-fw="1">
+                  <rect class="fc-shape" x="160" y="8" width="120" height="44" rx="22" />
+                  <text class="fc-t" x="220" y="35">BEGIN</text>
+                  <line class="fc-line" x1="220" y1="52" x2="220" y2="78" />
+                </g>
 
-                <polygon class="fc-shape" points="115,80 345,80 325,124 95,124" />
-                <text class="fc-t fc-small" x="220" y="106">OUTPUT "How old are you?"</text>
-                <line class="fc-line" x1="220" y1="124" x2="220" y2="150" />
+                <g data-fw="2">
+                  <polygon class="fc-shape" points="115,80 345,80 325,124 95,124" />
+                  <text class="fc-t fc-small" x="220" y="106">OUTPUT "How old are you?"</text>
+                  <line class="fc-line" x1="220" y1="124" x2="220" y2="150" />
+                </g>
 
-                <polygon class="fc-shape" points="115,152 345,152 325,196 95,196" />
-                <text class="fc-t fc-small" x="220" y="178">INPUT age</text>
-                <line class="fc-line" x1="220" y1="196" x2="220" y2="222" />
+                <g data-fw="3">
+                  <polygon class="fc-shape" points="115,152 345,152 325,196 95,196" />
+                  <text class="fc-t fc-small" x="220" y="178">INPUT age</text>
+                  <line class="fc-line" x1="220" y1="196" x2="220" y2="222" />
+                </g>
 
-                <polygon class="fc-shape fc-decide" points="220,224 335,286 220,348 105,286" />
-                <text class="fc-t" x="220" y="290">age &gt;= 18 ?</text>
+                <g data-fw="4">
+                  <polygon class="fc-shape fc-decide" points="220,224 335,286 220,348 105,286" />
+                  <text class="fc-t" x="220" y="290">age &gt;= 18 ?</text>
+                </g>
 
-                <line class="fc-line" x1="105" y1="286" x2="105" y2="390" />
-                <text class="fc-label" x="97" y="322" text-anchor="end">No</text>
-                <line class="fc-line" x1="335" y1="286" x2="335" y2="390" />
-                <text class="fc-label" x="343" y="322" text-anchor="start">Yes</text>
+                <g data-fw="5">
+                  <line class="fc-line" x1="335" y1="286" x2="335" y2="390" />
+                  <text class="fc-label" x="343" y="322" text-anchor="start">Yes</text>
+                  <polygon class="fc-shape" points="260,392 410,392 390,436 240,436" />
+                  <text class="fc-t fc-small" x="335" y="410">OUTPUT<tspan x="335" dy="15">"You can vote"</tspan></text>
+                </g>
 
-                <polygon class="fc-shape" points="40,392 190,392 170,436 20,436" />
-                <text class="fc-t fc-small" x="105" y="410">OUTPUT<tspan x="105" dy="15">"Too young"</tspan></text>
-                <polygon class="fc-shape" points="260,392 410,392 390,436 240,436" />
-                <text class="fc-t fc-small" x="335" y="410">OUTPUT<tspan x="335" dy="15">"You can vote"</tspan></text>
+                <g data-fw="6">
+                  <line class="fc-line" x1="105" y1="286" x2="105" y2="390" />
+                  <text class="fc-label" x="97" y="322" text-anchor="end">No</text>
+                  <polygon class="fc-shape" points="40,392 190,392 170,436 20,436" />
+                  <text class="fc-t fc-small" x="105" y="410">OUTPUT<tspan x="105" dy="15">"Too young"</tspan></text>
+                </g>
 
-                <path class="fc-join" d="M105,436 L105,480 L335,480 L335,436" />
-                <line class="fc-line" x1="220" y1="480" x2="220" y2="506" />
+                <g data-fw="7">
+                  <path class="fc-join" d="M105,436 L105,480 L335,480 L335,436" />
+                  <line class="fc-line" x1="220" y1="480" x2="220" y2="506" />
+                </g>
 
-                <rect class="fc-shape" x="160" y="508" width="120" height="44" rx="22" />
-                <text class="fc-t" x="220" y="535">END</text>
+                <g data-fw="8">
+                  <rect class="fc-shape" x="160" y="508" width="120" height="44" rx="22" />
+                  <text class="fc-t" x="220" y="535">END</text>
+                </g>
               </svg>
             </div>
             <div class="split-col">
-              <pre class="code"><span class="c-keyword">BEGIN</span>
-    <span class="c-keyword">OUTPUT</span> <span class="c-string">"How old are you?"</span>
-    <span class="c-keyword">INPUT</span> age
-    <span class="c-keyword">IF</span> age <span class="c-op">&gt;=</span> <span class="c-num">18</span> <span class="c-keyword">THEN</span>
-        <span class="c-keyword">OUTPUT</span> <span class="c-string">"You can vote"</span>
-    <span class="c-keyword">ELSE</span>
-        <span class="c-keyword">OUTPUT</span> <span class="c-string">"Too young"</span>
-    <span class="c-keyword">ENDIF</span>
-<span class="c-keyword">END</span></pre>
+              <pre class="code fw-code"><span class="fw-line" data-fw="1"><span class="c-keyword">BEGIN</span></span>
+<span class="fw-line" data-fw="2">    <span class="c-keyword">OUTPUT</span> <span class="c-string">"How old are you?"</span></span>
+<span class="fw-line" data-fw="3">    <span class="c-keyword">INPUT</span> age</span>
+<span class="fw-line" data-fw="4">    <span class="c-keyword">IF</span> age <span class="c-op">&gt;=</span> <span class="c-num">18</span> <span class="c-keyword">THEN</span></span>
+<span class="fw-line" data-fw="5">        <span class="c-keyword">OUTPUT</span> <span class="c-string">"You can vote"</span></span>
+<span class="fw-line" data-fw="6">    <span class="c-keyword">ELSE</span></span>
+<span class="fw-line" data-fw="6">        <span class="c-keyword">OUTPUT</span> <span class="c-string">"Too young"</span></span>
+<span class="fw-line" data-fw="7">    <span class="c-keyword">ENDIF</span></span>
+<span class="fw-line" data-fw="8"><span class="c-keyword">END</span></span></pre>
+              <p class="flowwalk-say" id="fw-say"></p>
               <p class="muted-note">The diamond is the <code>IF</code>. The Yes arrow is the line under <code>THEN</code>; the No arrow is the line under <code>ELSE</code>. Where the two arrows join back up is exactly where <code>ENDIF</code> goes.</p>
+            </div>
             </div>
           </div>
 

@@ -5038,7 +5038,11 @@ body[data-xp-gate="checking"] main > * { display: none; }
   stroke: var(--primary);
   stroke-width: 2;
 }
-.flowchart marker path { fill: var(--primary); }
+/* The arrowhead follows its own line's colour, so highlighting a step tints
+   the head along with the shaft instead of leaving a navy tip on an amber
+   arrow. The plain fill stays first as the fallback for anything without
+   context-stroke. */
+.flowchart marker path { fill: var(--primary); fill: context-stroke; }
 .flowchart .fc-t {
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   font-size: 13px;
@@ -5357,3 +5361,70 @@ body[data-xp-gate="checking"] main > * { display: none; }
    column wider than its track. */
 .sandbox-editor,
 .sandbox-output { min-width: 0; }
+
+/* ---------------------------------------------------------------------------
+   "The same program, both ways", walked one step at a time
+   --------------------------------------------------------------------------- */
+.flowwalk-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+}
+.flowwalk-step {
+  margin: 0;
+  font-size: .82rem;
+  font-weight: 700;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.flowwalk-btns { display: flex; gap: 8px; flex-wrap: wrap; }
+.flowwalk-btns .btn { padding: 7px 14px; font-size: .88rem; }
+.flowwalk-btns .btn[hidden] { display: none; }
+.flowwalk-say {
+  margin: 12px 0 0;
+  min-height: 3em;            /* reserve the tallest line so nothing jumps */
+  font-size: .92rem;
+  line-height: 1.5;
+  color: var(--text);
+}
+
+/* Ghosting only exists once the script attaches. Without it the section is
+   the plain side-by-side it has always been. */
+.flowwalk.fw-on [data-fw] {
+  opacity: .1;
+  transition: opacity .25s ease;
+}
+.flowwalk.fw-on [data-fw].fw-shown { opacity: 1; }
+
+/* The step just reached, marked the same way on both sides so the pair reads
+   as one thing. Amber because the diagram is navy on white and the decision
+   diamond is already tinted amber, and because it is one of the few colours
+   that holds up on the light flowchart and the dark code panel alike.
+   Not --accent: that is #FFFF00, which is a logo colour, not a legible
+   highlight on white. */
+.flowwalk.fw-on { --fw-now: #d9822b; }
+.flowwalk.fw-on .fw-line.fw-now {
+  background: rgba(217, 130, 43, .22);
+  border-radius: 3px;
+  box-shadow: -8px 0 0 0 var(--fw-now);
+}
+.flowwalk.fw-on g.fw-now .fc-shape {
+  stroke: var(--fw-now);
+  stroke-width: 3.2;
+}
+.flowwalk.fw-on g.fw-now .fc-line,
+.flowwalk.fw-on g.fw-now .fc-join,
+.flowwalk.fw-on g.fw-now .fc-label { stroke: var(--fw-now); }
+.flowwalk.fw-on g.fw-now .fc-label { fill: var(--fw-now); stroke: none; }
+
+/* A pre cannot have block children, so the lines are inline spans that are
+   made to behave like rows. */
+.fw-code .fw-line { display: inline-block; width: 100%; }
+
+@media (prefers-reduced-motion: reduce) {
+  .flowwalk.fw-on [data-fw] { transition: none; }
+}
