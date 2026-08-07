@@ -592,7 +592,11 @@
       html += "</ul>";
       if (res.tips.length) {
         html += '<p class="pw-tips-head">No marks in it, but the marker will notice:</p><ul class="pw-tips">';
-        res.tips.forEach(function (t) { html += "<li>" + t + "</li>"; });
+        // The marker is decorative: the heading above already says these are
+        // notes rather than lost marks, so it is hidden from screen readers.
+        res.tips.forEach(function (t) {
+          html += '<li><span class="pw-tip-mark" aria-hidden="true">!</span>' + t + "</li>";
+        });
         html += "</ul>";
       }
       out.className = "pw-result " + (res.score === TASK.total ? "full" : res.score ? "part" : "low");
