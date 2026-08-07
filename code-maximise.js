@@ -1,6 +1,7 @@
 /* code-maximise.js
  *
- * Reusable "maximise / pop-out" control for the code shells (.sandbox-shell)
+ * Reusable "maximise / pop-out" control for the code shells (.sandbox-shell
+ * and the assignment pages' .assign-shell)
  * used on the Live Coding page, the Sandbox, and the embedded module tasks
  * (e.g. /topics/decisions/). It adds a Maximise button to each shell's editor
  * bar that expands the shell into a full-screen focus overlay so learners get
@@ -225,7 +226,9 @@
   }
 
   function init() {
-    var shells = document.querySelectorAll(".sandbox-shell");
+    // The assignment pages call their wrapper .assign-shell. Same idea, same
+    // overlay, different normal-state grid, so both are scanned.
+    var shells = document.querySelectorAll(".sandbox-shell, .assign-shell");
     for (var i = 0; i < shells.length; i++) setup(shells[i]);
   }
 
