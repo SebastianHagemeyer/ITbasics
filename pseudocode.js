@@ -382,7 +382,21 @@
     var raw = String(text || "").split(/\r?\n/);
     var rows = [];
     raw.forEach(function (line) {
-      if (line.trim()) rows.push({ raw: line, flat: flat(line) });
+      if (!line.trim()) return;
+      /* Two readings of every line, because they answer different questions.
+       *
+       *   flat  keeps what is inside the quotes, so the password and the two
+       *         messages can be found
+       *   code  throws the quoted text away, so only real keywords are found
+       *
+       * Keyword hunting has to use `code`. A perfectly ordinary prompt,
+       * OUTPUT "Enter the password", contains ENTER, and ENTER is one of the
+       * words accepted for INPUT. Searching the quoted text for keywords made
+       * that line look like the INPUT line, so the marker went looking for a
+       * variable in it, found none, and took a mark off an answer that had
+       * earned it. "Get ready" and "Read this" did the same thing.
+       */
+      rows.push({ raw: line, flat: flat(line), code: flat(stripStrings(line)) });
     });
 
     var marks = [];
@@ -391,7 +405,7 @@
     // --- Mark 1: INPUT into a variable ---
     var inIdx = -1;
     for (var i = 0; i < rows.length; i++) {
-      if (RE_INPUT.test(rows[i].flat)) { inIdx = i; break; }
+      if (RE_INPUT.test(rows[i].code)) { inIdx = i; break; }
     }
     var varName = null;
     if (inIdx !== -1) {
@@ -412,16 +426,17 @@
     // --- Mark 2: the IF tests that variable against the password ---
     var ifIdx = -1;
     for (var j = 0; j < rows.length; j++) {
-      if (/(^|\s)IF(\s|$)/.test(rows[j].flat)) { ifIdx = j; break; }
+      if (/(^|\s)IF(\s|$)/.test(rows[j].code)) { ifIdx = j; break; }
     }
     if (ifIdx === -1) {
       marks.push({ got: false, label: "IF that tests the password",
         note: "There is no IF line, so the program cannot make a decision." });
     } else {
-      var ifFlat = rows[ifIdx].flat;
+      var ifFlat = rows[ifIdx].flat;      // the password is inside the quotes
+      var ifCode = rows[ifIdx].code;      // = and the variable name are not
       var hasValue = ifFlat.indexOf(TASK.value) !== -1;
-      var hasVar = !varName || ifFlat.indexOf(varName) !== -1;
-      var eq = hasEquality(ifFlat);
+      var hasVar = !varName || ifCode.indexOf(varName) !== -1;
+      var eq = hasEquality(ifCode);
       if (hasValue && hasVar && eq) {
         marks.push({ got: true, label: "IF that tests the password",
           note: "Your IF asks the right question." });
@@ -441,11 +456,13 @@
     // --- Mark 3: both branches, right message on each side ---
     var elseIdx = -1;
     for (var k = 0; k < rows.length; k++) {
-      if (/^ELSE\b/.test(rows[k].flat)) { elseIdx = k; break; }
+      if (/^ELSE\b/.test(rows[k].code)) { elseIdx = k; break; }
     }
     function outputAt(from, to, needle) {
       for (var n = Math.max(0, from); n < (to === -1 ? rows.length : to); n++) {
-        if (RE_OUTPUT.test(rows[n].flat) && rows[n].flat.indexOf(needle) !== -1) return n;
+        // OUTPUT is a keyword, so read `code`; the message lives in the
+        // quoted text, so read `flat`.
+        if (RE_OUTPUT.test(rows[n].code) && rows[n].flat.indexOf(needle) !== -1) return n;
       }
       return -1;
     }
@@ -468,15 +485,39 @@
         note: "Both messages are there but on the wrong sides. Welcome in belongs after the IF, Access denied after the ELSE." });
     }
 
-    // --- Style tips: no marks, but they are what the marker notices next ---
-    var all = rows.map(function (r) { return r.flat; }).join("\n");
-    if (ifIdx !== -1 && !/\bENDIF\b|\bEND IF\b/.test(all)) {
-      tips.push("Close the decision with ENDIF. Pseudocode says out loud where the IF stops.");
+    /* --- Style tips: no marks, but they are what the marker notices next ---
+     *
+     * Named one by one rather than lumped together. "Wrap it in BEGIN and END"
+     * is no help to someone who wrote BEGIN and forgot END: they read it,
+     * see their BEGIN, and move on. Say which word is missing.
+     *
+     * Checked per line rather than across the whole answer, because ENDIF
+     * contains END. Searching the blob for END finds the D in ENDIF and
+     * reports a closed program that never closed.
+     */
+    function hasLine(re) {
+      return rows.some(function (r) { return re.test(r.code); });
     }
-    if (!/\bBEGIN\b|\bSTART\b/.test(all) || !/(^|\n)END(\s|$)/.test(all + "\n")) {
-      tips.push("Wrap the whole thing in BEGIN and END so it is obvious where the program starts and finishes.");
+    var hasBegin = hasLine(/^(BEGIN|START)\b/);
+    var hasEndIf = hasLine(/^END ?IF\b/);
+    var hasEnd = rows.some(function (r) {
+      return /^END\b/.test(r.code) && !/^END ?IF\b/.test(r.code);
+    });
+
+    if (ifIdx !== -1 && !/\bTHEN\b/.test(rows[ifIdx].code)) {
+      tips.push("Your IF line is missing THEN. The exam writes the whole thing as IF ... THEN.");
     }
-    if (inIdx !== -1 && !rows.slice(0, inIdx).some(function (r) { return RE_OUTPUT.test(r.flat); })) {
+    if (ifIdx !== -1 && !hasEndIf) {
+      tips.push("You are missing ENDIF. You opened an IF, so close it with ENDIF on its own line: pseudocode says out loud where the IF stops.");
+    }
+    if (!hasBegin && !hasEnd) {
+      tips.push("You are missing BEGIN and END. Wrap the whole thing in them so it is obvious where the program starts and finishes.");
+    } else if (!hasEnd) {
+      tips.push("You are missing END. You opened with BEGIN, so finish with END on its own line.");
+    } else if (!hasBegin) {
+      tips.push("You are missing BEGIN. You finished with END, so open with BEGIN on its own line.");
+    }
+    if (inIdx !== -1 && !rows.slice(0, inIdx).some(function (r) { return RE_OUTPUT.test(r.code); })) {
       tips.push("Ask the question before you read the answer: an OUTPUT prompt above your INPUT.");
     }
     if (!raw.some(function (l) { return /^\s+\S/.test(l); })) {
