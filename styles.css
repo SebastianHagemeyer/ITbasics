@@ -1314,7 +1314,12 @@ html[data-auth="out"] .site-footer { display: none; }
 .code-maximise { display: inline-flex; align-items: center; gap: 6px; }
 .code-maximise-icon { display: block; flex: none; }
 
-.sandbox-shell.is-maximised {
+/* The assignment pages lay their editor out as .assign-shell rather than
+   .sandbox-shell, but once maximised the overlay is the same thing, so the
+   rules below cover both. Only the maximised state is shared: each keeps its
+   own normal-state grid, which are different on purpose. */
+
+:is(.sandbox-shell, .assign-shell).is-maximised {
   position: fixed;
   inset: 0;
   z-index: 50;                 /* above the sticky header (10), below toasts (100) */
@@ -1329,22 +1334,22 @@ html[data-auth="out"] .site-footer { display: none; }
   animation: codeMaxFade 0.16s ease-out;
 }
 /* Panels fill the overlay height instead of their fixed min-height. */
-.sandbox-shell.is-maximised > .sandbox-editor,
-.sandbox-shell.is-maximised > .sandbox-output {
+:is(.sandbox-shell, .assign-shell).is-maximised > .sandbox-editor,
+:is(.sandbox-shell, .assign-shell).is-maximised > .sandbox-output {
   min-height: 0;
   height: 100%;
 }
 /* The sandbox page nests its output (plus the turtle window) in a column. */
-.sandbox-shell.is-maximised > .assign-right {
+:is(.sandbox-shell, .assign-shell).is-maximised > .assign-right {
   min-height: 0;
   height: 100%;
 }
-.sandbox-shell.is-maximised > .assign-right .sandbox-output {
+:is(.sandbox-shell, .assign-shell).is-maximised > .assign-right .sandbox-output {
   min-height: 0;
   flex: 1;
 }
 /* A pulled-in results panel spans the full width beneath the two panes. */
-.sandbox-shell.is-maximised > .challenge-results {
+:is(.sandbox-shell, .assign-shell).is-maximised > .challenge-results {
   grid-column: 1 / -1;
   margin: 0;
   max-height: 32vh;
@@ -1356,18 +1361,18 @@ body.has-maximised-code { overflow: hidden; }
 
 /* On phones the panes stack and the overlay scrolls, so each stays roomy. */
 @media (max-width: 760px) {
-  .sandbox-shell.is-maximised {
+  :is(.sandbox-shell, .assign-shell).is-maximised {
     grid-template-columns: 1fr;
     grid-template-rows: none;
     grid-auto-rows: auto;
     overflow-y: auto;
   }
-  .sandbox-shell.is-maximised > .sandbox-editor,
-  .sandbox-shell.is-maximised > .sandbox-output {
+  :is(.sandbox-shell, .assign-shell).is-maximised > .sandbox-editor,
+  :is(.sandbox-shell, .assign-shell).is-maximised > .sandbox-output {
     height: auto;
     min-height: 60vh;
   }
-  .sandbox-shell.is-maximised > .challenge-results { max-height: none; }
+  :is(.sandbox-shell, .assign-shell).is-maximised > .challenge-results { max-height: none; }
 }
 @media (max-width: 520px) {
   .code-maximise-label { display: none; }
