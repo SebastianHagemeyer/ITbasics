@@ -584,6 +584,76 @@
     best();
   }
 
+  /* ---- "the same program, both ways", one step at a time -----------------
+   *
+   * The point of the section is that a shape and a line are the same thing,
+   * so the two sides move together: each step lights the shape and the line
+   * it becomes, side by side. Reading a finished flowchart next to finished
+   * pseudocode makes that a claim; walking them together makes it visible.
+   *
+   * Steps that have not been reached are ghosted rather than removed, so
+   * nothing shifts as it fills in and you can see how much is left. Steps
+   * already passed stay fully visible: the whole point is the growing pair.
+   *
+   * The markup is complete and readable on its own; the ghosting only comes
+   * on once this attaches. If the script never runs, the section is exactly
+   * what it was before.
+   */
+  var FW_SAYS = [
+    "",
+    "Every flowchart starts with BEGIN in a rounded box.",
+    "A parallelogram is output. This is the question being printed.",
+    "Same shape for input. The answer is stored in a variable called age.",
+    "The diamond is the question, and it is the only shape with two ways out. In pseudocode that is IF ... THEN.",
+    "Follow Yes. That branch is the line under THEN.",
+    "Follow No. That branch is ELSE, and the line under it.",
+    "The two arrows join back up. That join is exactly where ENDIF goes.",
+    "END closes the program, in a rounded box like BEGIN."
+  ];
+
+  function initFlowWalk() {
+    var root = document.getElementById("flowwalk");
+    if (!root) return;
+    var parts = $all("[data-fw]", root);
+    if (!parts.length) return;
+
+    var last = parts.reduce(function (n, el) {
+      return Math.max(n, parseInt(el.getAttribute("data-fw"), 10) || 0);
+    }, 0);
+    var stepEl = $("#fw-step", root);
+    var sayEl = $("#fw-say", root);
+    var backBtn = $(".fw-back", root);
+    var nextBtn = $(".fw-next", root);
+    var allBtn = $(".fw-all", root);
+    var at = 1;
+
+    function paint() {
+      parts.forEach(function (el) {
+        var n = parseInt(el.getAttribute("data-fw"), 10);
+        el.classList.toggle("fw-shown", n <= at);
+        el.classList.toggle("fw-now", n === at);
+      });
+      var done = at >= last;
+      stepEl.textContent = "Step " + at + " of " + last;
+      if (sayEl) sayEl.textContent = FW_SAYS[at] || "";
+      backBtn.disabled = at <= 1;
+      nextBtn.textContent = done ? "Start again" : "Next step";
+      allBtn.hidden = done;
+    }
+
+    nextBtn.addEventListener("click", function () {
+      at = at >= last ? 1 : at + 1;
+      paint();
+    });
+    backBtn.addEventListener("click", function () {
+      if (at > 1) { at -= 1; paint(); }
+    });
+    allBtn.addEventListener("click", function () { at = last; paint(); });
+
+    root.classList.add("fw-on");
+    paint();
+  }
+
   // ---- boot ----------------------------------------------------------------
 
   function boot() {
@@ -591,6 +661,7 @@
     paintShapeArt();
     initChecks();
     initShapeGame();
+    initFlowWalk();
     initLineup();
     initWriter();
   }
