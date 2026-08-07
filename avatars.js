@@ -2,10 +2,11 @@
  *
  * A student's icon on the leaderboard: pick a shape, pick your house.
  *
- *   16 shapes  x  4 houses  =  64 combinations
+ *   19 shapes  x  4 houses  =  76 combinations
  *
- * Thirteen are there from day one. Three are earned: gem at Level 3, robot
- * at Level 5, crown at Level 7.
+ * Thirteen are there from day one. Six are earned: gem at Level 3, the
+ * gridiron ball, noodles and ogre at Level 4, robot at Level 5, crown at
+ * Level 7.
  *
  * The shape is a single flat silhouette and the colour comes from the house,
  * which is what makes these survive being shrunk to 24px in a table cell.
@@ -166,6 +167,36 @@
       return '<path d="M13.4 12.6H26.6L30.6 18.6 20 30.6 9.4 18.6z" fill="' + ink + '"/>' +
              '<path d="M9.4 18.6H30.6M16.6 18.6 20 30.6M23.4 18.6 20 30.6" ' +
                    'stroke="' + disc + '" stroke-width="1.5" fill="none"/>';
+    }},
+
+    /* Level 4. Approved from the sample sheet; the rest of that batch is still
+       being redrawn. */
+
+    /* Built from the real thing rather than a generic oval: pointed ends, the
+       two bands near each tip, laces across the middle. The bands are what
+       separate it from the football, so they stay even as it shrinks. */
+    { id: "gridiron", label: "Football (gridiron)", level: 4, draw: function (ink, disc) {
+      return '<path d="M6.2 20Q12.8 11.2 20 11.2 27.2 11.2 33.8 20 27.2 28.8 20 28.8 12.8 28.8 6.2 20z" fill="' + ink + '"/>' +
+             '<path d="M11.6 14.6Q10.2 20 11.6 25.4M28.4 14.6Q29.8 20 28.4 25.4" stroke="' + disc + '" stroke-width="1.9" fill="none"/>' +
+             '<path d="M15.8 20h8.4" stroke="' + disc + '" stroke-width="1.4"/>' +
+             '<path d="M16.8 18.4v3.2M18.8 18.4v3.2M20.8 18.4v3.2M22.8 18.4v3.2" stroke="' + disc + '" stroke-width="1.3"/>';
+    }},
+
+    { id: "noodles", label: "Noodles", level: 4, draw: function (ink, disc) {
+      return '<path d="M7.6 20.4h24.8c0 5.9-5.6 10-12.4 10s-12.4-4.1-12.4-10z" fill="' + ink + '"/>' +
+             '<path d="M6.4 20.4h27.2" stroke="' + ink + '" stroke-width="2.2" stroke-linecap="round"/>' +
+             '<path d="M12 19.4c0-3 1.8-4.6 4-4.6s4 1.6 4 4.6M20 19.4c0-3.6 1.8-5.6 4-5.6s4 2 4 5.6" stroke="' + ink + '" stroke-width="1.8" fill="none" stroke-linecap="round"/>' +
+             '<path d="M24 9.4 33 6.6M25 12.2 34 9.4" stroke="' + ink + '" stroke-width="1.8" stroke-linecap="round"/>';
+    }},
+
+    /* Ears tilt up and out. Horizontal they read as a hairband, and the ears
+       are the only thing telling you this is an ogre rather than a face. */
+    { id: "ogre", label: "Ogre", level: 4, draw: function (ink, disc) {
+      return '<path d="M11.8 16.6 5.8 11.8l-.4 3.4 5.6 3.4zM28.2 16.6 34.2 11.8l.4 3.4-5.6 3.4z" fill="' + ink + '"/>' +
+             '<path d="M20 9.8c5.2 0 8.6 3.4 8.6 8.4v3.4c0 4.6-3.6 7.8-8.6 7.8s-8.6-3.2-8.6-7.8v-3.4c0-5 3.4-8.4 8.6-8.4z" fill="' + ink + '"/>' +
+             '<circle cx="16.4" cy="18.6" r="1.5" fill="' + disc + '"/>' +
+             '<circle cx="23.6" cy="18.6" r="1.5" fill="' + disc + '"/>' +
+             '<path d="M16 23.8c1.2 1.2 6.8 1.2 8 0" stroke="' + disc + '" stroke-width="1.5" fill="none" stroke-linecap="round"/>';
     }},
 
     { id: "robot", label: "Robot", level: 5, draw: function (ink, disc) {
