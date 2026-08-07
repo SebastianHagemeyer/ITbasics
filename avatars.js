@@ -2,11 +2,11 @@
  *
  * A student's icon on the leaderboard: pick a shape, pick your house.
  *
- *   19 shapes  x  4 houses  =  76 combinations
+ *   21 shapes  x  4 houses  =  84 combinations
  *
- * Thirteen are there from day one. Six are earned: gem at Level 3, the
- * gridiron ball, noodles and ogre at Level 4, robot at Level 5, crown at
- * Level 7.
+ * Thirteen are there from day one. Eight are earned: gem at Level 3, the
+ * gridiron ball, noodles, ogre, T-rex and pointe shoes at Level 4, robot at
+ * Level 5, crown at Level 7.
  *
  * The shape is a single flat silhouette and the colour comes from the house,
  * which is what makes these survive being shrunk to 24px in a table cell.
@@ -197,6 +197,29 @@
              '<circle cx="16.4" cy="18.6" r="1.5" fill="' + disc + '"/>' +
              '<circle cx="23.6" cy="18.6" r="1.5" fill="' + disc + '"/>' +
              '<path d="M16 23.8c1.2 1.2 6.8 1.2 8 0" stroke="' + disc + '" stroke-width="1.5" fill="none" stroke-linecap="round"/>';
+    }},
+
+    /* Facing left with the jaw open, from the reference. Earlier attempts drew
+       it with smooth curves and no arms and it read as a pig, then a parrot.
+       The arm is short and thick with two claws on purpose: a thin one is
+       correct anatomically and disappears entirely by 22px. */
+    { id: "trex", label: "T-rex", level: 4, draw: function (ink, disc) {
+      return '<path d="M7 12.6c0-2.2 2.2-4 5.4-4 2.8 0 5 1.2 6 3 5 .4 8.8 3.8 8.8 8.4v1.2c2-.8 3.8-2.6 5.4-5.4l2.8-4.6-.4 6.4c-.4 5.6-3.4 9.4-8 10.6l1.4 5.4h-3.6l-1.8-4.8h-2l-1.6 4.8h-3.6l1.2-5.4c-2.6-1.8-4.2-4.6-4.2-7.8V17H9.8c-1.8 0-2.8-1.8-2.8-4.4z" fill="' + ink + '"/>' +
+             '<path d="M14.6 18.8 12 21.2" stroke="' + ink + '" stroke-width="2.6" stroke-linecap="round"/>' +
+             '<path d="M12 21.2 10.6 22.2M12 21.2 12.4 22.9" stroke="' + ink + '" stroke-width="1.5" stroke-linecap="round"/>' +
+             '<circle cx="11" cy="11.8" r="1.3" fill="' + disc + '"/>' +
+             '<path d="M7.4 14.8h5.8" stroke="' + disc + '" stroke-width="1.3"/>';
+    }},
+
+    /* A pair, en pointe, toe down. Five earlier attempts drew a single shoe
+       lying flat and it read as a boot, then an anvil, then an acorn. The
+       recognisable thing about a pointe shoe is the pose, not the shoe: a leg
+       going straight down onto a blunt toe, with the ribbon across the ankle. */
+    { id: "pointe", label: "Pointe shoes", level: 4, draw: function (ink, disc) {
+      return '<path d="M9.6 6.4h4.6v7h-4.6zM25.8 6.4h4.6v7h-4.6z" fill="' + ink + '"/>' +
+             '<path d="M9.4 13.2c-2 2.4-3 5.2-3 8.2 0 3.4 1.4 6.2 3.6 7.8h2.8c1.2 0 2-1 2-2.6 0-4.6.8-8.6 2.2-12v-1.4z' +
+                     'M30.6 13.2c2 2.4 3 5.2 3 8.2 0 3.4-1.4 6.2-3.6 7.8h-2.8c-1.2 0-2-1-2-2.6 0-4.6-.8-8.6-2.2-12v-1.4z" fill="' + ink + '"/>' +
+             '<path d="M7.2 17.2 16.8 19.4M23.2 19.4 32.8 17.2" stroke="' + disc + '" stroke-width="1.4"/>';
     }},
 
     { id: "robot", label: "Robot", level: 5, draw: function (ink, disc) {
