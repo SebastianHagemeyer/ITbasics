@@ -5281,11 +5281,40 @@ body[data-xp-gate="checking"] main > * { display: none; }
   color: var(--muted);
   font-size: 0.9rem;
 }
+/* The tips sit inside the result panel, which is green at full marks, amber
+   at partial and red at zero. A neutral card with an amber rule down the side
+   reads on all three; an amber tint would vanish into the amber one. */
+.pw-tips {
+  background: var(--surface);
+  border-left: 4px solid #ffbe0b;
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  padding: 10px 14px;
+}
 .pw-tips li {
-  margin: 4px 0 4px 18px;
-  list-style: disc;
-  color: var(--muted);
+  margin: 7px 0;
+  padding-left: 26px;
+  position: relative;
+  list-style: none;
+  color: var(--text);
   font-size: 0.93rem;
+  line-height: 1.5;
+}
+/* Same shape and offset as the marks' tick above, so the eye reads the two
+   lists as one column of verdicts rather than two unrelated blocks. */
+.pw-tip-mark {
+  position: absolute;
+  left: 0;
+  top: 1px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #ffbe0b;
+  color: #4a3200;
+  font-size: 0.76rem;
+  font-weight: 800;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 .pw-model { margin-top: 14px; }
 .pw-model summary { cursor: pointer; font-weight: 700; color: var(--primary); }
