@@ -837,6 +837,45 @@
     paint();
   }
 
+  /* ---- Blur a worked example until they ask for it ------------------------
+   *
+   * Section 5 shows the same IF in three languages. Read straight through,
+   * the eye takes all three at once and the comparison does no work. Blurring
+   * the second and third buys a couple of seconds of "how would Java say
+   * this?", which is the whole question the section is asking.
+   *
+   * Each one reveals on its own: guessing Java tells you nothing about
+   * Python, so one button for both would throw half the exercise away.
+   *
+   * The text stays in the DOM, blurred rather than removed, so it is still
+   * there for a screen reader and for anyone who searches the page. This is a
+   * nudge to think first, not a lock.
+   */
+  function initReveals() {
+    $all("[data-reveal]").forEach(function (col) {
+      var pre = col.querySelector("pre");
+      if (!pre) return;
+      var wrap = document.createElement("div");
+      wrap.className = "reveal";
+      pre.parentNode.insertBefore(wrap, pre);
+      wrap.appendChild(pre);
+
+      var btn = el("button", "reveal-btn");
+      btn.type = "button";
+      btn.innerHTML = '<span class="reveal-pill">Reveal ' +
+        escapeHtml(col.getAttribute("data-reveal")) + "</span>";
+      wrap.appendChild(btn);
+
+      btn.addEventListener("click", function () {
+        wrap.classList.add("shown");
+        // Focus moves to the code so a keyboard user is not left on a button
+        // that has just vanished from under them.
+        pre.setAttribute("tabindex", "-1");
+        pre.focus();
+      });
+    });
+  }
+
   // ---- boot ----------------------------------------------------------------
 
   function boot() {
@@ -846,6 +885,7 @@
     initShapeGame();
     initFlowWalk();
     initIfSteps();
+    initReveals();
     initLineup();
     initWriter();
   }

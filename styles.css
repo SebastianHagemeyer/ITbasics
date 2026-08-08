@@ -5546,3 +5546,69 @@ body[data-xp-gate="checking"] main > * { display: none; }
 /* The text is transparent, so without this a selection would be invisible. */
 .pw-editor .pw-input::selection { background: rgba(130, 170, 255, 0.35); }
 .pw-editor .pw-input::placeholder { color: #6a7290; }
+
+/* ---------------------------------------------------------------------------
+   Worked examples blurred until asked for
+   --------------------------------------------------------------------------- */
+/* Clipped, because a blur spreads past the edge it came from and the code box
+   would otherwise wear a soft halo where the other two have a clean corner.
+   The same background sits behind it so the edge the blur softens inwards
+   fades into its own colour rather than into the page. */
+.reveal {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius-sm);
+  background: var(--code-bg);
+}
+
+/* .lang-col is a grid and the code sits in a named cell. Wrapping the code
+   puts the wrapper in the grid instead, so the wrapper has to take the cell
+   the code used to hold, or the heading and the code fall out of line. Both
+   layouts live here, together, because the narrow rule further up the file
+   would lose to this one on equal specificity. */
+.lang-col > .reveal { grid-column: 2; grid-row: 1 / span 2; }
+@media (max-width: 760px) {
+  .lang-col > .reveal { grid-column: 1; grid-row: auto; margin-top: 8px; }
+}
+
+/* The wrapper is painted now, so a margin on the code inside it would show up
+   as a band of empty dark. Spacing belongs on the wrapper. */
+.reveal > pre {
+  margin: 0;
+  filter: blur(6px);
+  user-select: none;
+  transition: filter .28s ease;
+}
+.reveal.shown > pre { filter: none; user-select: auto; }
+.reveal.shown > pre:focus { outline: none; }
+.reveal-btn {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+  border-radius: var(--radius);
+}
+.reveal.shown .reveal-btn { display: none; }
+.reveal-pill {
+  background: var(--surface);
+  color: var(--primary);
+  border: 1.5px solid var(--border);
+  border-radius: 999px;
+  padding: 9px 18px;
+  font-weight: 700;
+  font-size: .9rem;
+  box-shadow: var(--shadow-md);
+  transition: transform .12s ease, border-color .15s;
+}
+.reveal-btn:hover .reveal-pill { border-color: var(--primary); transform: translateY(-1px); }
+.reveal-btn:focus-visible .reveal-pill { outline: 3px solid var(--primary); outline-offset: 2px; }
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal > pre { transition: none; }
+  .reveal-btn:hover .reveal-pill { transform: none; }
+}
