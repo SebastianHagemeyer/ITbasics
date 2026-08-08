@@ -571,8 +571,11 @@
 
           <div class="pseudo-writer" id="pseudo-writer">
             <label class="pw-label" for="pw-input">Your pseudocode</label>
-            <textarea class="pw-input" id="pw-input" rows="10" spellcheck="false"
-              placeholder="BEGIN&#10;    ...&#10;END"></textarea>
+            <div class="pw-editor">
+              <pre class="pw-hl" aria-hidden="true"></pre>
+              <textarea class="pw-input" id="pw-input" rows="10" spellcheck="false"
+                placeholder="BEGIN&#10;    ...&#10;END"></textarea>
+            </div>
             <div class="pw-actions">
               <button type="button" class="btn btn-primary pw-check">Check my pseudocode</button>
               <button type="button" class="btn btn-ghost pw-clear">Clear</button>

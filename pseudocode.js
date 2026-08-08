@@ -27,6 +27,12 @@
   function $(sel, root) { return (root || document).querySelector(sel); }
   function $all(sel, root) { return Array.prototype.slice.call((root || document).querySelectorAll(sel)); }
 
+  function escapeHtml(s) {
+    return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+
   function el(tag, cls, text) {
     var n = document.createElement(tag);
     if (cls) n.className = cls;
@@ -222,6 +228,39 @@
     { t: "END", i: 0 }
   ];
 
+  /* Colour a pseudocode line the same way the <pre> blocks on this page are
+     coloured, so a line looks the same whether it is in the pool, in the
+     answer, or being typed into the writer.
+     Strings are split out and the code between them is coloured separately.
+     Doing it with one pass of sequential regex replaces over the whole line
+     does not work: the operator pass rewrites the = inside the class="..."
+     that the keyword pass has just inserted, and the markup comes apart.
+     Within a code segment the order still matters, so each pass only ever
+     inserts characters that no later pass looks for: operators first (their
+     markup holds no keywords and no digits), then keywords, then numbers. */
+  var LINEUP_KEYWORDS = /\b(BEGIN|END|ENDIF|IF|THEN|ELSE|OUTPUT|INPUT|SET|WHILE|ENDWHILE|FOR|ENDFOR|REPEAT|UNTIL)\b/g;
+
+  function colourCode(seg) {
+    var s = escapeHtml(seg);
+    s = s.replace(/(&gt;=|&lt;=|&gt;|&lt;|=|\+|\*|\/)/g, '<span class="c-op">$1</span>');
+    s = s.replace(LINEUP_KEYWORDS, '<span class="c-keyword">$1</span>');
+    return s.replace(/\b(\d+)\b/g, '<span class="c-num">$1</span>');
+  }
+
+  function colourLine(text) {
+    var src = String(text == null ? "" : text);
+    // No newline inside a string, so an unclosed quote colours its own line
+    // and stops, rather than swallowing everything down to the next quote.
+    var re = /"[^"\n]*"/g;
+    var out = "", last = 0, m;
+    while ((m = re.exec(src)) !== null) {
+      out += colourCode(src.slice(last, m.index));
+      out += '<span class="c-string">' + escapeHtml(m[0]) + "</span>";
+      last = m.index + m[0].length;
+    }
+    return out + colourCode(src.slice(last));
+  }
+
   function initLineup() {
     var root = document.getElementById("lineup");
     if (!root) return;
@@ -250,8 +289,9 @@
       poolWrap.innerHTML = "";
       order.forEach(function (idx) {
         if (placed.indexOf(idx) !== -1) return;
-        var b = el("button", "lineup-chip", LINEUP[idx].t);
+        var b = el("button", "lineup-chip");
         b.type = "button";
+        b.innerHTML = colourLine(LINEUP[idx].t);
         b.addEventListener("click", function () { placed.push(idx); paint(); });
         poolWrap.appendChild(b);
       });
@@ -264,8 +304,9 @@
         answer.appendChild(el("p", "lineup-empty", "Your program will build up here."));
       }
       placed.forEach(function (idx, pos) {
-        var b = el("button", "lineup-line", LINEUP[idx].t);
+        var b = el("button", "lineup-line");
         b.type = "button";
+        b.innerHTML = colourLine(LINEUP[idx].t);
         b.style.paddingLeft = (14 + LINEUP[idx].i * 26) + "px";
         b.title = "Take this line back out";
         b.addEventListener("click", function () {
@@ -557,6 +598,9 @@
       var s = ta.selectionStart, t = ta.selectionEnd;
       ta.value = ta.value.slice(0, s) + "    " + ta.value.slice(t);
       ta.selectionStart = ta.selectionEnd = s + 4;
+      // Setting .value in script fires no input event, so the colour layer
+      // has to be told by hand or it keeps showing the pre-Tab text.
+      paintHl();
     });
 
     function best() {
@@ -619,8 +663,32 @@
         ta.value = "";
         try { localStorage.removeItem(DRAFT); } catch (e) {}
         out.hidden = true;
+        paintHl();
         ta.focus();
       });
+    }
+
+    /* Colour what they type. A textarea cannot hold coloured text, so a <pre>
+       sits behind it with the same metrics and the textarea's own text is made
+       transparent, leaving just the caret. The two only stay lined up while
+       the font, size, line height, padding and wrapping match exactly, which
+       is why those live in one CSS block covering both.
+       The trailing newline matters: a <pre> drops a final line break, so
+       without it the last line drifts out of step once the box scrolls. */
+    var hl = $(".pw-hl", box);
+    function paintHl() {
+      if (!hl) return;
+      hl.innerHTML = colourLine(ta.value) + "\n";
+      hl.scrollTop = ta.scrollTop;
+      hl.scrollLeft = ta.scrollLeft;
+    }
+    if (hl) {
+      ta.addEventListener("input", paintHl);
+      ta.addEventListener("scroll", function () {
+        hl.scrollTop = ta.scrollTop;
+        hl.scrollLeft = ta.scrollLeft;
+      });
+      paintHl();
     }
 
     var pre = modelWrap && $("pre", modelWrap);
@@ -699,6 +767,76 @@
     paint();
   }
 
+  /* ---- Section 4, one step at a time --------------------------------------
+   *
+   * Five worked steps, each a paragraph and the program so far. Shown all at
+   * once it is a wall of nearly identical code blocks and the eye skips to
+   * the last one, which is the only one that does not teach anything.
+   *
+   * Done here rather than in the markup so the page still reads as five plain
+   * steps with the script off, and so adding a sixth step later needs no JS
+   * change: it groups whatever "Step N." paragraphs it finds.
+   */
+  function initIfSteps() {
+    var sec = document.getElementById("writing");
+    if (!sec) return;
+
+    var steps = [];
+    $all("p", sec).forEach(function (para) {
+      var strong = para.querySelector("strong");
+      if (!strong || !/^Step\s*\d/.test(strong.textContent)) return;
+      var pre = para.nextElementSibling;
+      if (!pre || pre.tagName !== "PRE") return;
+      var box = document.createElement("div");
+      box.className = "ifstep";
+      para.parentNode.insertBefore(box, para);
+      box.appendChild(para);
+      box.appendChild(pre);
+      steps.push(box);
+    });
+    if (steps.length < 2) return;
+
+    var bar = document.createElement("div");
+    bar.className = "ifstep-bar";
+    var count = el("p", "ifstep-count");
+    var next = el("button", "btn btn-primary", "Next step");
+    next.type = "button";
+    var all = el("button", "btn btn-ghost", "Show all");
+    all.type = "button";
+    bar.appendChild(count);
+    bar.appendChild(next);
+    bar.appendChild(all);
+    steps[steps.length - 1].parentNode.insertBefore(bar, steps[steps.length - 1].nextSibling);
+
+    /* Everything between the last step and the next callout is the wrap-up:
+       "That is the finished answer" and the summary of the skeleton. Left
+       showing at step 1 it claims the walkthrough is over before it has
+       started, so it waits for the last step like the steps themselves. */
+    var after = [];
+    var node = bar.nextElementSibling;
+    while (node && !node.classList.contains("callout") && !node.classList.contains("kcheck")) {
+      after.push(node);
+      node = node.nextElementSibling;
+    }
+
+    var at = 1;
+    function paint() {
+      steps.forEach(function (box, i) { box.hidden = i + 1 > at; });
+      var finished = at >= steps.length;
+      after.forEach(function (n) { n.hidden = !finished; });
+      count.textContent = "Step " + at + " of " + steps.length;
+      bar.hidden = finished;
+    }
+    next.addEventListener("click", function () {
+      at = Math.min(at + 1, steps.length);
+      paint();
+      // Land on the step just revealed rather than leaving it below the fold.
+      steps[at - 1].scrollIntoView({ block: "nearest", behavior: "smooth" });
+    });
+    all.addEventListener("click", function () { at = steps.length; paint(); });
+    paint();
+  }
+
   // ---- boot ----------------------------------------------------------------
 
   function boot() {
@@ -707,6 +845,7 @@
     initChecks();
     initShapeGame();
     initFlowWalk();
+    initIfSteps();
     initLineup();
     initWriter();
   }
