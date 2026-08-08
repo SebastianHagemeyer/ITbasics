@@ -5457,3 +5457,92 @@ body[data-xp-gate="checking"] main > * { display: none; }
 @media (prefers-reduced-motion: reduce) {
   .flowwalk.fw-on [data-fw] { transition: none; }
 }
+
+/* The lineup shows the same coloured line in two places: the pool, which is
+   white, and the answer, which is the dark code panel. The c-* palette is
+   tuned for the dark panel, so on the light chips it would be pale text on
+   white. The chips get their own darker set of the same hues instead, so the
+   colours still mean the same thing in both halves. */
+.lineup-chip .c-keyword { color: #7b3fb8; }
+.lineup-chip .c-string  { color: #2f7d32; }
+.lineup-chip .c-num     { color: #c1531b; }
+.lineup-chip .c-op      { color: #1668a8; }
+
+/* ---------------------------------------------------------------------------
+   Section 4, revealed a step at a time
+   --------------------------------------------------------------------------- */
+/* [hidden] is only a UA-level display:none, so any author rule that sets
+   display beats it. .key-points is display:grid, so hiding the wrap-up with
+   the attribute alone left it fully on screen while reporting hidden.
+   Descendant, not child: lesson-steps.js wraps each section body in a
+   .ls-body div, so the wrap-up is a grandchild of #writing, not a child. */
+.ifstep[hidden],
+#writing [hidden] { display: none; }
+.ifstep-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 14px 0 18px;
+}
+.ifstep-bar[hidden] { display: none; }
+.ifstep-bar .btn { padding: 7px 14px; font-size: .88rem; }
+.ifstep-count {
+  margin: 0 auto 0 0;
+  font-size: .8rem;
+  font-weight: 700;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* ---------------------------------------------------------------------------
+   The writer, coloured as you type
+   ---------------------------------------------------------------------------
+   A textarea cannot hold coloured text, so a <pre> sits behind it showing the
+   colours while the textarea's own text goes transparent, leaving the caret.
+   The two only line up while every metric matches, so the shared properties
+   are set on both in one block rather than being repeated and drifting. */
+.pw-editor {
+  position: relative;
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+}
+.pw-editor:focus-within {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(28, 69, 135, 0.18);
+}
+.pw-hl,
+.pw-editor .pw-input {
+  margin: 0;
+  padding: 14px 16px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  tab-size: 4;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  border: none;
+  background: none;
+}
+.pw-hl {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  color: var(--code-text);
+}
+.pw-editor .pw-input {
+  position: relative;
+  display: block;
+  width: 100%;
+  color: transparent;
+  caret-color: var(--code-text);
+  resize: vertical;
+  border-radius: inherit;
+}
+.pw-editor .pw-input:focus { outline: none; box-shadow: none; }
+/* The text is transparent, so without this a selection would be invisible. */
+.pw-editor .pw-input::selection { background: rgba(130, 170, 255, 0.35); }
+.pw-editor .pw-input::placeholder { color: #6a7290; }
