@@ -365,6 +365,8 @@
     var done = CURRENT.filter(function (m) { return summary.modules[m.key].attempted; }).length;
     el("progress-done-count").textContent = done;
     el("progress-total-count").textContent = CURRENT.length;
+    var mCount = el("progress-done-count").parentNode;
+    if (mCount) mCount.classList.toggle("is-done", done === CURRENT.length && done > 0);
 
     var msg;
     if (done === 0 && tried.length) {
@@ -419,6 +421,21 @@
           '</details>';
       }
       assignBox.innerHTML = out;
+
+      var aCount = el("assign-count");
+      var aSum = el("assign-summary");
+      if (aCount) {
+        aCount.textContent = started.length + "/" + ASSIGNMENTS.length;
+        aCount.classList.toggle("is-done",
+          started.length === ASSIGNMENTS.length && started.length > 0);
+      }
+      if (aSum) {
+        aSum.textContent = started.length === 0
+          ? "Nothing started yet. Pick one and have a go!"
+          : started.length === ASSIGNMENTS.length
+            ? "Every assignment started. Nice."
+            : started.length + " of " + ASSIGNMENTS.length + " started.";
+      }
     }
     status.textContent = "";
     el("progress-content").hidden = false;

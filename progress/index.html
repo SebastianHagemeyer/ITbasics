@@ -97,31 +97,41 @@
       <div id="progress-status" class="leaderboard-status">Loading…</div>
 
       <div id="progress-content" hidden>
-        <details class="settings-drawer">
+        <details class="settings-drawer jd-drawer">
           <summary>
-            <svg class="settings-drawer-chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            <span class="settings-drawer-title">Settings</span>
-            <span class="settings-drawer-hint">Your icon, house colour, light or dark, and XP notifications</span>
+            <svg class="jd-chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span class="jd-title">Settings</span>
+            <span class="jd-hint">Your icon, house colour, light or dark, and XP notifications</span>
           </summary>
           <div id="settings-panel" class="settings-panel"></div>
         </details>
 
-        <div class="progress-summary-card">
-          <div class="progress-count">
-            <span id="progress-done-count">0</span>/<span id="progress-total-count">8</span>
-            <small>modules done</small>
-          </div>
-          <p id="progress-summary" class="progress-summary-text"></p>
-        </div>
-
         <h2 class="section-title">My Level</h2>
         <div id="xp-panel" class="xp-panel" hidden></div>
 
-        <h2 class="section-title">My Modules</h2>
-        <div id="progress-quizzes" class="progress-quiz-list"></div>
+        <details class="jd-drawer">
+          <summary>
+            <svg class="jd-chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span class="jd-title">My Modules</span>
+            <span class="jd-count"><span id="progress-done-count">0</span>/<span id="progress-total-count">8</span></span>
+            <span class="jd-hint" id="progress-summary"></span>
+          </summary>
+          <div class="jd-body">
+            <div id="progress-quizzes" class="progress-quiz-list"></div>
+          </div>
+        </details>
 
-        <h2 class="section-title">My Assignments</h2>
-        <div id="progress-assignments" class="progress-quiz-list"></div>
+        <details class="jd-drawer">
+          <summary>
+            <svg class="jd-chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span class="jd-title">My Assignments</span>
+            <span class="jd-count" id="assign-count">0/0</span>
+            <span class="jd-hint" id="assign-summary"></span>
+          </summary>
+          <div class="jd-body">
+            <div id="progress-assignments" class="progress-quiz-list"></div>
+          </div>
+        </details>
 
         <h2 class="section-title">Coding &amp; Freeplay</h2>
         <div class="progress-stats">
