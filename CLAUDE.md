@@ -46,6 +46,35 @@ Not everything shared is a partial. The seven common `<script>` tags are
 interleaved differently on different pages, and making them contiguous would
 change script execution order, so they are still per-page on purpose.
 
+## Colours and dark mode
+
+Every colour comes from a token in the `:root` block at the top of `styles.css`.
+Dark mode is a single `:root[data-theme="dark"]` block at the bottom that
+restates those tokens. There is no `prefers-color-scheme` media query: the
+inline script in `partials/head-top.html` reads the saved choice or the system
+setting and stamps `data-theme` on `<html>` before the page paints, so the
+stylesheet only ever describes dark once and the two copies cannot drift.
+
+Three rules, each of which came from an actual bug:
+
+- **A fill is not an ink.** `--primary` is a fill and always carries white text,
+  so it stays dark enough for white in both themes. The brand colour used *as*
+  text is `--primary-ink`, which is navy in light and pale blue in dark. Same
+  split for `--danger` (ink) and `--danger-fill`. Do not "fix" a fill by
+  lightening it; you will break the white text sitting on it.
+- **Tints and their ink move together.** A pale panel (`--tint-cool` and
+  friends) has a matching `--ink-cool`. Darkening a panel without lightening
+  the writing on it is how you get navy on navy.
+- **Not every white is a light-mode leftover.** White text on a navy button is
+  correct in both themes. Look at what a colour sits *on* before flipping it.
+  Two whites are deliberately hardcoded and commented as such: the HTML preview
+  frame (it shows the student's own page, as a browser would) and the Screen Lab
+  panel (its own dark instrument in both themes).
+
+Check contrast after changing colours. There is a throwaway auditor pattern
+worth rebuilding: walk every element, composite its background up the tree, and
+flag text below 4.5:1. Dark currently sits slightly cleaner than light.
+
 ## Interactive code on lesson pages
 
 - **Python snippets** are made runnable by `snippet-run.js`: it adds a Run
