@@ -1,9 +1,13 @@
-/* The dark/light switch in the header.
+/* Light and dark.
  *
  * The theme itself is already decided by the inline script in
- * partials/head-top.html, which runs before the page paints. This file only
- * handles the button: keeping its label honest, writing the choice down, and
- * following the system setting for anyone who has never pressed it.
+ * partials/head-top.html, which runs before the page paints so nobody sees a
+ * white flash on the way to a dark page. This file is the part that can wait:
+ * changing the choice, remembering it, and following the machine for anyone
+ * who has never expressed a preference.
+ *
+ * Three states, not two. "Match my device" is a real answer, and a plain
+ * on/off switch cannot get back to it once pressed.
  */
 (function () {
   "use strict";
@@ -11,74 +15,66 @@
   var KEY = "itbasics-theme";
   var root = document.documentElement;
 
-  function isDark() {
-    return root.dataset.theme === "dark";
+  function stored() {
+    try {
+      var v = localStorage.getItem(KEY);
+      return v === "light" || v === "dark" ? v : null;
+    } catch (e) {
+      return null;
+    }
   }
 
-  function apply(dark) {
+  function systemPrefersDark() {
+    try {
+      return window.matchMedia("(prefers-color-scheme: dark)").matches;
+    } catch (e) {
+      return false;
+    }
+  }
+
+  function paint(dark) {
     if (dark) root.dataset.theme = "dark";
     else delete root.dataset.theme;
-    paint();
   }
 
-  function paint() {
-    var btn = document.getElementById("theme-toggle");
-    if (!btn) return;
-    var dark = isDark();
-    // The button says what pressing it will do, not what the page currently is.
-    var next = dark ? "Light" : "Dark";
-    btn.setAttribute("aria-pressed", dark ? "true" : "false");
-    btn.setAttribute("aria-label", "Switch to " + next.toLowerCase() + " mode");
-    btn.title = "Switch to " + next.toLowerCase() + " mode";
-    var label = btn.querySelector(".theme-toggle-label");
-    if (label) label.textContent = next;
+  // "light" | "dark" | "system"
+  function mode() {
+    return stored() || "system";
   }
 
-  function boot() {
-    var btn = document.getElementById("theme-toggle");
-    if (!btn) return;
-    paint();
+  function setMode(next) {
+    try {
+      if (next === "system") localStorage.removeItem(KEY);
+      else localStorage.setItem(KEY, next);
+    } catch (e) {
+      /* Private browsing. The theme still applies for this page. */
+    }
+    apply();
+    try {
+      window.dispatchEvent(new CustomEvent("itbasics:theme", {
+        detail: { mode: mode(), dark: root.dataset.theme === "dark" }
+      }));
+    } catch (e) {}
+  }
 
-    btn.addEventListener("click", function () {
-      var dark = !isDark();
-      apply(dark);
-      try {
-        localStorage.setItem(KEY, dark ? "dark" : "light");
-      } catch (e) {
-        /* Nothing to do: the theme still applies for this page. */
-      }
-      // Other tabs of the site should not sit on the old theme.
-      try {
-        window.dispatchEvent(new CustomEvent("itbasics:theme", {
-          detail: { dark: dark }
-        }));
-      } catch (e) {}
-    });
+  function apply() {
+    var saved = stored();
+    paint(saved ? saved === "dark" : systemPrefersDark());
   }
 
   // Someone who has never chosen keeps following their machine, including when
   // it flips at sunset.
   try {
     var mq = window.matchMedia("(prefers-color-scheme: dark)");
-    var onSystem = function (e) {
-      var saved = null;
-      try {
-        saved = localStorage.getItem(KEY);
-      } catch (err) {}
-      if (!saved) apply(e.matches);
-    };
+    var onSystem = function () { if (!stored()) apply(); };
     if (mq.addEventListener) mq.addEventListener("change", onSystem);
     else if (mq.addListener) mq.addListener(onSystem);
   } catch (e) {}
 
   // A choice made in one tab should reach the others.
   window.addEventListener("storage", function (e) {
-    if (e.key === KEY && e.newValue) apply(e.newValue === "dark");
+    if (e.key === KEY) apply();
   });
 
-  if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", boot);
-  } else {
-    boot();
-  }
+  window.ITTheme = { mode: mode, setMode: setMode, apply: apply };
 })();

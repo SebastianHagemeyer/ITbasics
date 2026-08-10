@@ -162,6 +162,27 @@
     }).join("");
   }
 
+  // "Match my device" is a real answer and has to stay reachable, which is why
+  // this is a three-way choice and not a switch.
+  var THEME_OPTIONS = [
+    { id: "system", label: "Match my device", note: "Follows your settings" },
+    { id: "light", label: "Light", note: "Always the pale one" },
+    { id: "dark", label: "Dark", note: "Always the dark one" },
+  ];
+
+  function paintTheme() {
+    var row = document.getElementById("theme-choices");
+    if (!row || !window.ITTheme) return;
+    var now = window.ITTheme.mode();
+    row.innerHTML = THEME_OPTIONS.map(function (o) {
+      var on = o.id === now;
+      return '<button type="button" class="fx-choice' + (on ? " on" : "") + '" ' +
+        'role="radio" aria-checked="' + (on ? "true" : "false") + '" data-theme-set="' + o.id + '">' +
+        "<strong>" + escapeHtml(o.label) + "</strong>" +
+        "<span>" + escapeHtml(o.note) + "</span></button>";
+    }).join("");
+  }
+
   function markup() {
     return (
       '<section class="settings-card">' +
@@ -187,6 +208,14 @@
         '<p class="settings-hint">How much the screen celebrates when you earn XP. ' +
           "This only changes what you see; your XP is counted the same either way.</p>" +
         '<div class="fx-row" id="fx-choices" role="radiogroup" aria-label="XP notifications"></div>' +
+        '<p class="settings-note">Saved on this device. If you sign in on another computer, set it there too.</p>' +
+      "</section>" +
+      '<section class="settings-card">' +
+        "<h3>Light or dark</h3>" +
+        '<p class="settings-hint">Dark is easier on the eyes in a dim room. ' +
+          '"Match my device" follows whatever your computer or phone is already set to, ' +
+          "including when it changes by itself in the evening.</p>" +
+        '<div class="fx-row" id="theme-choices" role="radiogroup" aria-label="Light or dark"></div>' +
         '<p class="settings-note">Saved on this device. If you sign in on another computer, set it there too.</p>' +
       "</section>"
     );
@@ -218,6 +247,13 @@
         window.ITXPFX.setMode(fx.getAttribute("data-fx"));
         paintFx();
         flashSaved("Saved");
+        return;
+      }
+      var theme = e.target.closest("[data-theme-set]");
+      if (theme && window.ITTheme) {
+        window.ITTheme.setMode(theme.getAttribute("data-theme-set"));
+        paintTheme();
+        flashSaved("Saved");
       }
     });
   }
@@ -245,6 +281,7 @@
     paintHouses();
     paintShapes();
     paintFx();
+    paintTheme();
     wire(panel);
 
     // Then let the database correct us, in case they picked on another
