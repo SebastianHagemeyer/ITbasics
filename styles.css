@@ -2679,40 +2679,6 @@ h2.step-toggle {
 /* ======================================================================
    My Progress
    ====================================================================== */
-.progress-summary-card {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  flex-wrap: wrap;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  box-shadow: var(--shadow-sm);
-  padding: 18px 22px;
-  margin-bottom: 28px;
-}
-.progress-count {
-  font-weight: 700;
-  color: var(--primary-ink);
-  line-height: 1;
-  white-space: nowrap;
-}
-.progress-count span { font-size: 2rem; }
-.progress-count small {
-  display: block;
-  margin-top: 4px;
-  font-size: 0.72rem;
-  color: var(--muted);
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-}
-.progress-summary-text {
-  margin: 0;
-  font-weight: 600;
-  font-size: 1.05rem;
-  color: var(--text);
-}
 
 .progress-quiz-list {
   display: grid;
@@ -4972,14 +4938,18 @@ body[data-xp-gate="checking"] main > * { display: none; }
 /* The Settings drawer at the top of My Journey. Shut by default: the page is
    about their progress, and settings are something you go looking for once,
    not something that should push the scores down the screen every visit. */
-.settings-drawer {
+/* One collapsible section on My Journey. Settings, Modules and Assignments are
+   all the same object: a header that says the thing worth knowing at a glance,
+   and a body you open when you want the detail. The summary carries the count
+   and the one-line verdict, which is what makes closing it acceptable. */
+.jd-drawer {
   border: 1px solid var(--border);
   border-radius: var(--radius);
   background: var(--surface);
   box-shadow: var(--shadow-sm);
   margin-bottom: 24px;
 }
-.settings-drawer > summary {
+.jd-drawer > summary {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -4990,22 +4960,50 @@ body[data-xp-gate="checking"] main > * { display: none; }
   color: var(--muted);
   border-radius: var(--radius);
 }
-.settings-drawer > summary::-webkit-details-marker { display: none; }
-.settings-drawer > summary:hover { color: var(--text); }
-.settings-drawer-title {
+.jd-drawer > summary::-webkit-details-marker { display: none; }
+.jd-drawer > summary:hover { color: var(--text); }
+.jd-drawer > summary:focus-visible {
+  outline: 3px solid var(--primary-ink);
+  outline-offset: -3px;
+}
+.jd-title {
   font-weight: 700;
   font-size: 1.05rem;
   color: var(--text);
 }
-.settings-drawer-hint { font-size: .86rem; }
-.settings-drawer-chev {
+.jd-hint { font-size: .86rem; }
+/* The score that used to sit in its own card above everything. It belongs to
+   the thing it counts. */
+.jd-count {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-weight: 800;
+  font-size: .92rem;
+  color: var(--primary-ink);
+  background: rgba(var(--primary-rgb), 0.1);
+  border-radius: 999px;
+  padding: 2px 10px;
+  flex: none;
+}
+.jd-count.is-done {
+  color: var(--success-text);
+  background: var(--success-bg);
+}
+.jd-chev {
   width: 12px;
   flex: none;
   transition: transform .18s ease;
 }
-.settings-drawer[open] > summary > .settings-drawer-chev { transform: rotate(180deg); }
-.settings-drawer[open] > summary { border-bottom: 1px solid var(--border); border-radius: var(--radius) var(--radius) 0 0; }
+.jd-drawer[open] > summary > .jd-chev { transform: rotate(180deg); }
+.jd-drawer[open] > summary { border-bottom: 1px solid var(--border); border-radius: var(--radius) var(--radius) 0 0; }
+.jd-body { padding: 18px; }
+/* The cards inside already carry their own surface, so the last one should not
+   leave a gap under itself against the drawer's edge. */
+.jd-body > *:last-child { margin-bottom: 0; }
 .settings-drawer .settings-panel { padding: 18px; margin-bottom: 0; }
+
+@media (prefers-reduced-motion: reduce) {
+  .jd-chev { transition: none; }
+}
 
 /* Inside the drawer the cards already sit on a panel, so they lose the second
    border and shadow rather than stacking box inside box. */
@@ -5020,10 +5018,10 @@ body[data-xp-gate="checking"] main > * { display: none; }
 }
 
 @media (max-width: 560px) {
-  .settings-drawer-hint { display: none; }
+  .jd-hint { display: none; }
 }
 @media (prefers-reduced-motion: reduce) {
-  .settings-drawer-chev { transition: none; }
+  .jd-chev { transition: none; }
 }
 
 /* ---------------------------------------------------------------------------
@@ -5751,3 +5749,11 @@ body[data-xp-gate="checking"] main > * { display: none; }
 :root[data-theme="dark"] .rgb-word-r { color: #ff6b6b; }
 :root[data-theme="dark"] .rgb-word-g { color: #4ade4a; }
 :root[data-theme="dark"] .rgb-word-b { color: #6ba6ff; }
+
+/* Freeplay topic tags. Same pale-tint-with-matching-ink pair as everywhere
+   else, but written as attribute selectors, which is why two sweeps of
+   colour-by-hex walked straight past them. On a dark surface the tints go dark
+   and the ink has to come up with them: logic was sitting at 1.75:1. */
+:root[data-theme="dark"] .fp-tag[data-topic="html"]    { color: #ff9d7a; }
+:root[data-theme="dark"] .fp-tag[data-topic="logic"]   { color: #b9a8f7; }
+:root[data-theme="dark"] .fp-tag[data-topic="concept"] { color: #6fdbd0; }
