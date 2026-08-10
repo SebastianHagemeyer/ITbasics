@@ -21,7 +21,9 @@
   --wash-rgb: 255, 255, 0;
   --accent-ink: #000000;    /* text colour over yellow */
   --highlight: #9900FF;     /* answer reveals */
-  --success: #1f9d55;
+  --success: #1f9d55;       /* fill: carries --success-ink */
+  --success-ink: #06231a;   /* ink that sits on that fill */
+  --success-text: #157a41;  /* the green used as text on the page */
   --success-bg: #e4f6ec;
   --danger: #d23c3c;        /* ink: what red text is */
   --danger-fill: #d23c3c;   /* fill: what white ink sits on */
@@ -388,7 +390,10 @@ img { max-width: 100%; display: block; }
   height: 38px;
   border-radius: 10px;
   background: var(--accent);
-  color: white;
+  /* Each card sets --accent inline. White on the bright ones (amber at 1.66:1,
+     teal at 2.17:1) was never readable, so the ink comes from the same pair as
+     the fill and the cards that need white say so. */
+  color: var(--accent-ink);
   font-weight: 700;
   display: inline-flex;
   align-items: center;
@@ -788,7 +793,7 @@ img { max-width: 100%; display: block; }
   font-size: 0.92rem;
   min-height: 0;
 }
-.quiz-feedback.correct { color: var(--success); }
+.quiz-feedback.correct { color: var(--success-text); }
 .quiz-feedback.incorrect { color: var(--danger); }
 .quiz-feedback:empty { display: none; }
 
@@ -1460,7 +1465,7 @@ body.has-maximised-code { overflow: hidden; }
 }
 .challenge-progress-hint { margin: 8px 0 0; color: var(--muted); font-size: 0.9rem; }
 
-.challenge-tab.done { color: var(--success); }
+.challenge-tab.done { color: var(--success-text); }
 .challenge-tab.done.active { color: #fff; }
 .challenge-tick { font-weight: 800; }
 
@@ -1584,7 +1589,7 @@ body.has-maximised-code { overflow: hidden; }
 .challenge-brief-title { margin: 0 0 6px; font-size: 1.3rem; display: flex; align-items: center; gap: 10px; }
 .challenge-badge-done {
   font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em;
-  color: var(--success); background: var(--success-bg); border: 1px solid var(--success);
+  color: var(--success-text); background: var(--success-bg); border: 1px solid var(--success);
   padding: 2px 10px; border-radius: 999px;
 }
 .challenge-brief-task { margin: 0 0 8px; font-weight: 700; }
@@ -1630,7 +1635,7 @@ body.has-maximised-code { overflow: hidden; }
   border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow-sm);
 }
 .challenge-results-head { padding: 14px 20px; font-weight: 700; font-size: 1.05rem; }
-.challenge-results-head.win  { background: var(--success-bg); color: var(--success); border-bottom: 1px solid var(--success); }
+.challenge-results-head.win  { background: var(--success-bg); color: var(--success-text); border-bottom: 1px solid var(--success); }
 .challenge-results-head.fail { background: var(--danger-bg);  color: var(--danger);  border-bottom: 1px solid var(--danger); }
 .challenge-test-list { list-style: none; margin: 0; padding: 0; }
 .ct { display: flex; gap: 12px; padding: 14px 20px; border-bottom: 1px solid var(--border); }
@@ -1952,11 +1957,11 @@ body.has-maximised-code { overflow: hidden; }
   border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
 .btn-hint {
-  background: #2b7de9;
+  background: #1c6ad2;
   color: #fff;
-  border: 1px solid #2b7de9;
+  border: 1px solid #1c6ad2;
 }
-.btn-hint:hover:not(:disabled) { background: #1e6ad0; }
+.btn-hint:hover:not(:disabled) { background: #15579f; }
 .btn-hint:disabled {
   background: transparent;
   color: var(--muted);
@@ -2501,7 +2506,7 @@ h2.step-toggle {
 .fp-tag[data-topic="logic"]   { background: rgba(124, 92, 255, 0.15); color: #5436c1; }
 .fp-tag[data-topic="concept"] { background: rgba(46, 196, 182, 0.18); color: #146d65; }
 .fp-tag.fp-diff               { background: rgba(0, 0, 0, 0.06); color: var(--muted); }
-.fp-tag.fp-diff[data-diff="medium"] { background: rgba(255, 190, 11, 0.2); color: #8a5a00; }
+.fp-tag.fp-diff[data-diff="medium"] { background: rgba(255, 190, 11, 0.2); color: var(--ink-warm); }
 .fp-tag.fp-diff[data-diff="hard"]   { background: rgba(210, 60, 60, 0.15); color: var(--ink-red); }
 
 .fp-card-id {
@@ -2899,7 +2904,7 @@ a.auth-user:hover { border-color: var(--primary); box-shadow: var(--shadow-sm); 
 .kcheck-opt.correct { background: var(--success-bg); border-color: var(--success); font-weight: 700; }
 .kcheck-opt.wrong { background: var(--danger-bg); border-color: var(--danger); opacity: 0.85; }
 .kcheck-feedback { margin: 12px 0 0; font-weight: 700; }
-.kcheck-feedback.correct { color: var(--success); }
+.kcheck-feedback.correct { color: var(--success-text); }
 .kcheck-feedback.wrong { color: var(--danger); }
 .kcheck-explain { margin: 8px 0 0; color: var(--muted); }
 
@@ -2931,7 +2936,7 @@ a.auth-user:hover { border-color: var(--primary); box-shadow: var(--shadow-sm); 
   border: 1px solid var(--border); border-radius: var(--radius-sm);
 }
 .wordcloud-form input:focus { outline: none; border-color: var(--primary); box-shadow: 0 0 0 3px rgba(var(--primary-rgb), 0.18); }
-.wordcloud-msg { font-size: 0.9rem; color: var(--success); font-weight: 600; }
+.wordcloud-msg { font-size: 0.9rem; color: var(--success-text); font-weight: 600; }
 .wordcloud-msg.error { color: var(--danger); }
 .wordcloud-form select.wordcloud-tag {
   padding: 10px 12px;
@@ -2982,17 +2987,18 @@ a.auth-user:hover { border-color: var(--primary); box-shadow: var(--shadow-sm); 
   border-radius: var(--radius); box-shadow: var(--shadow-sm); padding: 14px 16px;
 }
 .volt-col.bad .volt-title { color: var(--danger); }
-.volt-col.good .volt-title { color: var(--success); }
+.volt-col.good .volt-title { color: var(--success-text); }
 .volt-title { margin: 0 0 10px; font-weight: 700; font-size: 0.95rem; }
 .volt-bar { display: flex; gap: 2px; height: 48px; margin: 0 0 10px; }
 .volt-bar span {
   flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center;
-  border-radius: 4px; color: #fff; font-weight: 800; font-size: 0.85rem;
+  border-radius: 4px; font-weight: 800; font-size: 0.85rem;
+  /* Ink is set per bar below: the red bar is a dark fill, the green one is not. */
 }
-.volt-bar.ten span { background: var(--danger-fill); opacity: 0.5; }
+.volt-bar.ten span { background: var(--danger-fill); color: #fff; opacity: 0.5; }
 .volt-bar.ten span:nth-child(even) { opacity: 0.72; }
 .volt-bar.two { gap: 42px; }
-.volt-bar.two span { background: var(--success); }
+.volt-bar.two span { background: var(--success); color: var(--success-ink); }
 .volt-bar.two span small { font-weight: 600; font-size: 0.62rem; opacity: 0.9; }
 .volt-note { margin: 0; color: var(--muted); font-size: 0.85rem; }
 
@@ -3144,7 +3150,7 @@ a.auth-user:hover { border-color: var(--primary); box-shadow: var(--shadow-sm); 
 .mtest-footer { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; margin-top: 4px; }
 .mtest-result { font-size: 1.02rem; }
 .mtest-result strong { font-size: 1.2rem; }
-.mtest-result.perfect strong { color: var(--success); }
+.mtest-result.perfect strong { color: var(--success-text); }
 .mtest-result.pass strong { color: var(--primary-ink); }
 .mtest-result.low strong { color: var(--danger); }
 .mtest-warn { color: var(--danger); font-size: 0.85rem; }
@@ -3194,7 +3200,7 @@ a.progress-quiz:hover { box-shadow: var(--shadow-md); transform: translateY(-1px
 .ds-drop { display: flex; flex-wrap: wrap; gap: 8px; align-content: flex-start; min-height: 60px; }
 .ds-actions { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
 .ds-result { font-weight: 700; color: var(--muted); }
-.ds-result.all { color: var(--success); }
+.ds-result.all { color: var(--success-text); }
 
 @media (max-width: 540px) {
   .ds-bins { grid-template-columns: 1fr; }
@@ -3227,7 +3233,7 @@ a.progress-quiz:hover { box-shadow: var(--shadow-md); transform: translateY(-1px
 .netdemo-actions { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-bottom: 12px; }
 .netdemo-msg { margin: 0; text-align: center; color: var(--muted); font-weight: 600; }
 .netdemo-msg.warn { color: var(--danger); }
-.netdemo-msg.ok { color: var(--success); }
+.netdemo-msg.ok { color: var(--success-text); }
 
 .phish { display: grid; gap: 14px; margin: 8px 0; }
 .phish-card {
@@ -3264,7 +3270,7 @@ kbd {
 }
 .sc-prompt { margin: 0 0 6px; font-size: 1.25rem; }
 .sc-status { margin: 0 0 14px; min-height: 1.2em; font-weight: 700; color: var(--muted); }
-.sc-status.ok { color: var(--success); }
+.sc-status.ok { color: var(--success-text); }
 .sc-status.no { color: var(--danger); }
 
 .rc-desk {
@@ -3393,7 +3399,7 @@ kbd {
   background: var(--bg);
   color: var(--muted);
 }
-.assignment-status.done { background: var(--success-bg); color: var(--success); }
+.assignment-status.done { background: var(--success-bg); color: var(--success-text); }
 .assignment-marks { font-size: 0.78rem; color: var(--muted); }
 
 /* Track picker */
@@ -3509,7 +3515,8 @@ kbd {
 .game-panel[hidden] { display: none; }
 .game-hint {
   margin-left: auto;
-  color: var(--muted);
+  /* Sits on the game's own dark panel, so page --muted is too dark here. */
+  color: #a7aecb;
   font-size: 0.78rem;
 }
 .game-stage {
@@ -3558,7 +3565,7 @@ kbd {
   border-radius: 999px;
 }
 .assign-extensions .step-num { background: var(--highlight); }
-.assign-submit .step-num { background: var(--success); }
+.assign-submit .step-num { background: var(--success); color: var(--success-ink); }
 
 /* Snippets: code + a Load button */
 .snippet-box { position: relative; margin: 14px 0; }
@@ -3669,7 +3676,7 @@ details.callout-collapse .callout-body p:last-child { margin-bottom: 0; }
   flex: none;
   width: 1.6em;
   text-align: right;
-  color: #6b74a8;
+  color: #8b95c8;
   user-select: none;
 }
 .se-text { white-space: pre; }
@@ -3835,7 +3842,7 @@ details.callout-collapse .callout-body p:last-child { margin-bottom: 0; }
   flex-wrap: wrap;
 }
 .submit-status { font-weight: 700; font-size: 0.95rem; }
-.submit-status.ok    { color: var(--success); }
+.submit-status.ok    { color: var(--success-text); }
 .submit-status.error { color: var(--danger); }
 .assign-stuck { margin-top: 18px; color: var(--muted); font-size: 0.9rem; }
 
@@ -4027,7 +4034,7 @@ details.callout-collapse .callout-body p:last-child { margin-bottom: 0; }
 textarea.gm-input { resize: vertical; }
 .gm-publish-row { display: flex; align-items: center; gap: 14px; margin-top: 16px; flex-wrap: wrap; }
 .gm-status { font-size: 0.9rem; color: var(--muted); }
-.gm-status-ok { color: var(--success); font-weight: 700; }
+.gm-status-ok { color: var(--success-text); font-weight: 700; }
 .gm-status-err { color: var(--danger); font-weight: 700; }
 .gm-mine { display: flex; flex-direction: column; gap: 10px; margin-top: 12px; }
 .gm-mine-card {
@@ -4815,7 +4822,7 @@ body[data-xp-gate="checking"] main > * { display: none; }
   margin-left: auto;
   font-size: .8rem;
   font-weight: 700;
-  color: var(--success, #1f8f4e);
+  color: var(--success-text, #157a41);
   white-space: nowrap;
 }
 .settings-saved.show { animation: settings-saved-in .22s ease-out; }
@@ -5161,7 +5168,7 @@ body[data-xp-gate="checking"] main > * { display: none; }
 .sg-opt.right .shape-svg rect, .sg-opt.right .shape-svg polygon { stroke: var(--success); }
 .sg-opt.wrongpick { background: var(--danger-bg); border-color: var(--danger); opacity: 0.85; }
 .sg-why { margin: 14px 0 0; font-weight: 600; }
-.sg-why.ok { color: var(--success); }
+.sg-why.ok { color: var(--success-text); }
 .sg-why.err { color: var(--danger); }
 .sg-next { margin-top: 14px; }
 /* .btn sets a display, which beats the browser's own rule for [hidden], so the
@@ -5223,7 +5230,7 @@ body[data-xp-gate="checking"] main > * { display: none; }
 .lineup-answer .lineup-empty { color: #8b92b0; }
 .lineup-actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 12px; }
 .lineup-msg { margin: 12px 0 0; font-weight: 700; }
-.lineup-msg.ok { color: var(--success); }
+.lineup-msg.ok { color: var(--success-text); }
 .lineup-msg.err { color: var(--danger); }
 
 /* ENDIF vs curly brackets vs indentation. One language per row: Java's lines
@@ -5298,13 +5305,13 @@ body[data-xp-gate="checking"] main > * { display: none; }
 .pw-result.part { border-color: #ffbe0b; background: rgba(255, 190, 11, 0.12); }
 .pw-result.low { border-color: var(--danger); background: var(--danger-bg); }
 .pw-score { margin: 0 0 10px; font-size: 1.05rem; }
-.pw-score.full strong { color: var(--success); }
+.pw-score.full strong { color: var(--success-text); }
 .pw-score.part strong { color: var(--primary-ink-hover); }
 .pw-score.none strong { color: var(--danger); }
 .pw-marks, .pw-tips { margin: 0; padding: 0; list-style: none; }
 .pw-marks li { margin: 8px 0; padding-left: 26px; position: relative; }
 .pw-tick { position: absolute; left: 0; font-weight: 800; }
-.pw-marks li.got .pw-tick { color: var(--success); }
+.pw-marks li.got .pw-tick { color: var(--success-text); }
 .pw-marks li.lost .pw-tick { color: var(--danger); }
 .pw-tips-head {
   margin: 14px 0 6px;
@@ -5689,6 +5696,8 @@ body[data-xp-gate="checking"] main > * { display: none; }
 
   --highlight: #9d4edd;
   --success: #45d183;
+  --success-ink: #06231a;
+  --success-text: #6fdba4;
   --success-bg: #133023;
   --danger: #ff8080;
   --danger-fill: #b83232;
@@ -5770,7 +5779,7 @@ body[data-xp-gate="checking"] main > * { display: none; }
 
 /* Keeping white ink legible on the green fill means the fill must not drift as
    light as the text version of the same green. */
-:root[data-theme="dark"] { --success: #2f9e63; }
+:root[data-theme="dark"] { --success: #45d183; }
 
 /* The three primaries, named in the Codes lesson. The words have to actually
    look like the colour they name, which means lifting them off a dark page
