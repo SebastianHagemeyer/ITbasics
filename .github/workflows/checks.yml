@@ -1,0 +1,49 @@
+# These checks exist because each of them has already caught a real bug.
+name: Checks
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # The point of the whole thing: partials/ and the pages it stamps have to
+      # agree. Editing a partial and forgetting to run the build would otherwise
+      # look completely fine in the diff and ship nothing.
+      - name: Pages are up to date with partials/
+        run: node build.js --check
+
+      # A syntax error in one of these takes out a lesson silently: the page
+      # still loads, the interactive part just never starts.
+      - name: JavaScript parses
+        run: |
+          fail=0
+          for f in *.js; do
+            node --check "$f" || { echo "::error file=$f::$f does not parse"; fail=1; }
+          done
+          exit $fail
+
+      # A stray brace in styles.css closes a block early and silently drops
+      # every rule after it. That is exactly how the dark-mode palette lost the
+      # pseudocode chips, and nothing else would have noticed.
+      - name: styles.css braces balance
+        run: |
+          node -e '
+            const s = require("fs").readFileSync("styles.css", "utf8");
+            const open = (s.match(/{/g) || []).length;
+            const close = (s.match(/}/g) || []).length;
+            if (open !== close) {
+              console.error(`::error file=styles.css::${open} { but ${close} }`);
+              process.exit(1);
+            }
+            console.log(`braces balanced: ${open} pairs`);
+          '

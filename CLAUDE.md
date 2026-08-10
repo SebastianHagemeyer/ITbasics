@@ -97,5 +97,10 @@ flag text below 4.5:1. Dark currently sits slightly cleaner than light.
 - After editing anything in `partials/`, run `node build.js` and commit the
   pages it rewrites alongside the partial. `node build.js --check` fails if you
   forgot.
+- `.github/workflows/checks.yml` runs three things on every pull request, each
+  of which has already caught a real bug here: pages in step with `partials/`,
+  every `*.js` parsing, and the braces in `styles.css` balancing. A stray brace
+  closes a block early and silently drops every rule after it, which is how the
+  dark palette once lost the pseudocode chips.
 - For lesson Python snippets, strip the tags and `compile()` the result to catch
   syntax slips before pushing.
