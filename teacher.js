@@ -32,9 +32,9 @@
     { key: "os",          label: "Computer Skills test",      group: "Modules & quizzes", quizzes: ["os"],          compute: testCompute("os") }
   ];
 
-  // Assignment drafts: reads assignment_progress (live autosaved state:
-  // code, self-check ticks, reflection answers, note) plus
-  // assignment_submissions, so you can see who has actually started.
+  // Assignment drafts: reads assignment_progress, which holds both the live
+  // autosaved state (code, self-check ticks, reflection answers, note) and
+  // submitted_at, the "ready to grade" flag. One row per student per task.
   // checksTotal/reflectsTotal are the per-student expected counts used for
   // the progress %; for the Pet Project they are per-track (both tracks 13/4).
   // The Pet Project has two tracks; a student can do either (or switch), so it
