@@ -452,58 +452,6 @@ create policy wordcloud_insert_anon on wordcloud for insert to anon with check (
 create policy wordcloud_update_anon on wordcloud for update to anon using (true) with check (true);
 
 -- ============================================================
--- Assignments (added July 2026)
--- ============================================================
--- One submission per student per assignment; resubmitting upserts, so the
--- newest version wins and updated_at tracks when. `track` records which
--- path the student chose (petprogram: 'calc' or 'turtle'), `code` is the
--- full program text and `note` is their short reflection.
-
-create table if not exists assignment_submissions (
-  student_code  text not null references students(code) on delete cascade,
-  assignment    text not null,
-  track         text,
-  code          text not null,
-  note          text,
-  submitted_at  timestamptz not null default now(),
-  updated_at    timestamptz not null default now(),
-  primary key (student_code, assignment)
-);
-
-create index if not exists assignment_submissions_assignment_idx
-  on assignment_submissions(assignment);
-
-alter table assignment_submissions enable row level security;
-
-drop policy if exists assignments_select_anon on assignment_submissions;
-drop policy if exists assignments_insert_anon on assignment_submissions;
-drop policy if exists assignments_update_anon on assignment_submissions;
-
-create policy assignments_select_anon on assignment_submissions for select to anon using (true);
-create policy assignments_insert_anon on assignment_submissions for insert to anon with check (true);
-create policy assignments_update_anon on assignment_submissions for update to anon using (true) with check (true);
-
--- DEPRECATED (July 2026): the site no longer writes to assignment_submissions.
--- Submitting is now a submitted_at flag on assignment_progress, and marking is
--- done from teacher_assignment_progress (further down). This table and view are
--- kept only so any historical submissions remain readable; nothing writes here.
-create or replace view teacher_assignments as
-select
-  s.class,
-  s.last_name,
-  s.first_name,
-  s.code,
-  a.assignment,
-  a.track,
-  a.note,
-  a.code as program,
-  a.submitted_at,
-  a.updated_at
-from students s
-join assignment_submissions a on a.student_code = s.code
-order by s.class, s.last_name, s.first_name, a.assignment;
-
--- ============================================================
 -- Private sandbox snippets (added July 2026)
 -- ============================================================
 -- Students can save the program in the Python Sandbox under a name and
@@ -571,7 +519,7 @@ create policy homework_delete_anon on homework for delete to anon using (true);
 -- student can move to a different computer without losing anything. One
 -- row per student per assignment; `state` is a JSON blob owned by the
 -- page (for petprogram: track, code per track, self-checks, reflections,
--- note). Submissions stay in assignment_submissions; this is the draft.
+-- note). submitted_at on this row is the "ready to grade" flag.
 
 -- The continuously-synced state already holds the code, note, self-checks
 -- and reflections, so "submitting" is just a flag: submitted_at is stamped
@@ -764,9 +712,6 @@ begin
 
   delete from public.assignment_progress where student_code = p_code;
   get diagnostics n = row_count; part := 'assignment progress'; rows_deleted := n; return next;
-
-  delete from public.assignment_submissions where student_code = p_code;
-  get diagnostics n = row_count; part := 'assignment submissions'; rows_deleted := n; return next;
 
   delete from public.wordcloud where student_code = p_code;
   get diagnostics n = row_count; part := 'word cloud words'; rows_deleted := n; return next;
