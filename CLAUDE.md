@@ -16,13 +16,35 @@ educational website for Year 7-10 computing students.
 
 ## Project shape
 
-- Pure static HTML/CSS/JS, no build step. Open `index.html`, or serve with
+- Pure static HTML/CSS/JS. Open `index.html`, or serve with
   `python3 -m http.server 8000`. Deployed as a static site (GitHub Pages).
 - `styles.css` is the single stylesheet for the whole site.
 - Lessons live in `topics/<name>/index.html` and share the global scripts.
 - Sign-in and progress use Supabase with a localStorage fallback (`app.js`,
   `supabase-config.js`). The anon key is public by design; security comes from
   the row-level-security policies in `supabase-schema.sql`.
+
+## Shared markup: partials and `build.js`
+
+The head, nav and footer used to be copied into all 31 pages by hand, which is
+how three assignment pages ended up on the wrong year range for months. They now
+live in `partials/` and are stamped into the pages by `build.js`.
+
+- **Never hand-edit inside an include region.** Anything between
+  `<!-- include: name -->` and `<!-- /include -->` is overwritten on the next
+  build. Edit `partials/<name>.html` and run `node build.js`.
+- Everything outside those regions is ordinary page markup, edited as usual.
+- The pages stay real files: nothing to install, nothing to deploy differently,
+  and opening `index.html` off disk still works. `build.js` only rewrites marked
+  regions in place, so there is no generated copy that can drift.
+- `node build.js --check` reports out-of-date pages without writing, for use
+  before pushing.
+- `partials/nav.html` takes `active="home|learn|play|assignments|none"` on the
+  marker. Picking `assignments` lights up Learn too, since it sits in that menu.
+
+Not everything shared is a partial. The seven common `<script>` tags are
+interleaved differently on different pages, and making them contiguous would
+change script execution order, so they are still per-page on purpose.
 
 ## Interactive code on lesson pages
 
@@ -43,5 +65,8 @@ educational website for Year 7-10 computing students.
 ## Verifying changes
 
 - There is no test suite. After editing a JS file, run `node --check <file>`.
+- After editing anything in `partials/`, run `node build.js` and commit the
+  pages it rewrites alongside the partial. `node build.js --check` fails if you
+  forgot.
 - For lesson Python snippets, strip the tags and `compile()` the result to catch
   syntax slips before pushing.
