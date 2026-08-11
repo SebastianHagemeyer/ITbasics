@@ -390,10 +390,12 @@ img { max-width: 100%; display: block; }
   height: 38px;
   border-radius: 10px;
   background: var(--accent);
-  /* Each card sets --accent inline. White on the bright ones (amber at 1.66:1,
-     teal at 2.17:1) was never readable, so the ink comes from the same pair as
-     the fill and the cards that need white say so. */
-  color: var(--accent-ink);
+  /* White in both themes, on purpose, and not an oversight to "fix" later.
+     A contrast auditor flags these (white on the amber tile measures 1.66:1)
+     and it is wrong to here: the glyph is decorative and the card's real
+     label sits beside it at full contrast. Turning them dark to satisfy a
+     number made a set of bright tiles look broken. */
+  color: #fff;
   font-weight: 700;
   display: inline-flex;
   align-items: center;
@@ -523,6 +525,9 @@ img { max-width: 100%; display: block; }
 .c-num { color: #f78c6c; }
 .c-comment { color: #8b92b0; font-style: italic; }
 .c-op { color: #89ddff; }
+/* Function and builtin names, matching the Sandbox's Prism palette so a
+   snippet looks the same in the docs as it does in the editor. */
+.c-func { color: #82aaff; }
 
 /* Callouts & extras */
 .callout {
