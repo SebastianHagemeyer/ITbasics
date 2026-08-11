@@ -16,10 +16,15 @@
  * over the editor's left edge rather than a wrapper around it, and the editor
  * simply gains enough left padding to sit clear of it.
  *
- * Alignment is only possible because .sandbox-code is white-space: pre. One
- * logical line is one visual line, so numbering is a count, not a measurement.
- * If that ever becomes pre-wrap, this stops lining up and would need to
- * measure wrapped rows instead.
+ * Numbering is a measurement, not a count. The stylesheet says white-space:
+ * pre, but that only holds for the plain fallback editor: when CodeJar loads
+ * it sets pre-wrap inline, which beats the stylesheet, and a long line then
+ * takes several rows. So rowsPerLine asks the element what it actually does
+ * and measures the wrapped rows with a Range when it needs to.
+ *
+ * Keep the stylesheet's white-space: pre. It is not dead: it is the only thing
+ * preserving Python indentation when CodeJar fails to load, which is exactly
+ * what happens on a network that blocks the CDN.
  */
 (function () {
   "use strict";
@@ -43,17 +48,88 @@
     }
   }
 
-  var editors = [];           // { code, gutter }
+  var editors = [];           // { code, gutter, inner }
 
-  function countLines(code) {
-    // textContent rather than innerText: innerText collapses and re-inserts
-    // newlines by rendered layout, which is a different number from the one
-    // the student is looking at.
-    var t = code.textContent || "";
-    var n = t.split("\n").length;
-    // A trailing newline makes an empty last line that is not worth numbering.
-    if (n > 1 && t.charAt(t.length - 1) === "\n") n--;
-    return Math.max(n, 1);
+  // How many visual rows each logical line occupies.
+  //
+  // The old version assumed one line was one row, on the strength of
+  // white-space: pre in the stylesheet. That is true only while the plain
+  // fallback editor is in use. When CodeJar loads it sets white-space:
+  // pre-wrap inline, which beats the stylesheet, and a long line then takes
+  // several rows while the gutter still spends one number on it, so every
+  // number below the wrap points at the wrong line.
+  //
+  // So ask the element what it actually does, and when it wraps, measure.
+  // Deliberately NOT scrollHeight: .sandbox-code has a min-height, so
+  // scrollHeight is floored and reports rows that are not there.
+  function rowsPerLine(code) {
+    var text = code.textContent || "";
+    var lines = text.split("\n");
+    if (lines.length > 1 && lines[lines.length - 1] === "") lines.pop();
+    if (!lines.length) lines = [""];
+
+    var ws = "";
+    try { ws = window.getComputedStyle(code).whiteSpace; } catch (err) {}
+    var wraps = ws === "pre-wrap" || ws === "pre-line" || ws === "normal" || ws === "break-spaces";
+    if (!wraps) return lines.map(function () { return 1; });
+
+    // Character offsets have to be mapped onto real DOM positions, because
+    // once Prism has run the code is not one text node but a few hundred.
+    var nodes = [];
+    var acc = 0;
+    try {
+      var walk = document.createTreeWalker(code, NodeFilter.SHOW_TEXT, null);
+      var t;
+      while ((t = walk.nextNode())) {
+        nodes.push({ node: t, start: acc, len: t.nodeValue.length });
+        acc += t.nodeValue.length;
+      }
+    } catch (err) { /* fall through to one row each */ }
+    if (!nodes.length) return lines.map(function () { return 1; });
+
+    function locate(offset) {
+      for (var i = 0; i < nodes.length; i++) {
+        if (offset <= nodes[i].start + nodes[i].len) {
+          return { node: nodes[i].node, offset: offset - nodes[i].start };
+        }
+      }
+      var last = nodes[nodes.length - 1];
+      return { node: last.node, offset: last.len };
+    }
+
+    var range = document.createRange();
+    var out = [];
+    var pos = 0;
+    for (var i = 0; i < lines.length; i++) {
+      var len = lines[i].length;
+      var rows = 1;
+      if (len > 0) {
+        try {
+          var a = locate(pos);
+          var b = locate(pos + len);
+          range.setStart(a.node, a.offset);
+          range.setEnd(b.node, b.offset);
+          // One client rect per fragment, so count distinct tops rather than
+          // rects: a wrapped line split across several spans still has one top
+          // per visual row.
+          var rects = range.getClientRects();
+          var tops = [];
+          for (var r = 0; r < rects.length; r++) {
+            if (rects[r].height < 1) continue;
+            var top = rects[r].top;
+            var seen = false;
+            for (var k = 0; k < tops.length; k++) {
+              if (Math.abs(tops[k] - top) < 2) { seen = true; break; }
+            }
+            if (!seen) tops.push(top);
+          }
+          if (tops.length) rows = tops.length;
+        } catch (err) { /* leave it at one */ }
+      }
+      out.push(rows);
+      pos += len + 1;     // the newline itself
+    }
+    return out;
   }
 
   // The gutter is positioned against .sandbox-editor, which also contains the
@@ -66,14 +142,23 @@
   }
 
   function paintGutter(e) {
-    if (!e.gutter) return;
+    if (!e.gutter || !e.inner) return;
     placeGutter(e);
-    var n = countLines(e.code);
-    var out = [];
-    for (var i = 1; i <= n; i++) out.push(i);
-    e.gutter.textContent = out.join("\n");
-    // The gutter does not scroll on its own; it rides the editor's scroll.
-    e.gutter.style.transform = "translateY(" + -e.code.scrollTop + "px)";
+
+    var rows = rowsPerLine(e.code);
+    var labels = [];
+    for (var i = 0; i < rows.length; i++) {
+      labels.push(String(i + 1));
+      // A line that wrapped gets blank rows under its number, so the next
+      // number stays opposite the line it belongs to.
+      for (var j = 1; j < rows[i]; j++) labels.push("");
+    }
+    e.inner.textContent = labels.join("\n");
+
+    // Scroll the CONTENTS, not the box. Transforming the gutter itself slid
+    // the whole thing out of its slot: up over the toolbar at the top, and
+    // clipped at the bottom so the lowest numbers vanished entirely.
+    e.inner.style.transform = "translateY(" + -e.code.scrollTop + "px)";
   }
 
   function apply(e, on) {
@@ -98,9 +183,12 @@
     var gutter = document.createElement("div");
     gutter.className = "sandbox-gutter";
     gutter.setAttribute("aria-hidden", "true");
+    var inner = document.createElement("div");
+    inner.className = "sandbox-gutter-inner";
+    gutter.appendChild(inner);
     host.insertBefore(gutter, code);
 
-    var e = { code: code, gutter: gutter };
+    var e = { code: code, gutter: gutter, inner: inner };
     editors.push(e);
 
     // Typing changes the count; scrolling changes which numbers are opposite

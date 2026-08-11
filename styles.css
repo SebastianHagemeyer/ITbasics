@@ -5841,6 +5841,7 @@ body[data-xp-gate="checking"] main > * { display: none; }
    Metrics below MUST match .sandbox-code: same font, size and line-height, or
    the numbers drift further from their lines the further down you read. */
 .has-gutter-host { position: relative; }
+/* The box: pinned over the code area and clipping. It never moves. */
 .sandbox-gutter {
   position: absolute;
   /* top and height are set by line-numbers.js from the code element's own box:
@@ -5849,12 +5850,6 @@ body[data-xp-gate="checking"] main > * { display: none; }
   width: 44px;
   padding: 14px 8px 14px 0;
   box-sizing: border-box;
-  text-align: right;
-  white-space: pre;
-  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-  font-size: 0.95rem;
-  line-height: 1.55;
-  color: #7b84ad;
   background: var(--code-bg);
   border-right: 1px solid rgba(255, 255, 255, 0.08);
   user-select: none;
@@ -5862,6 +5857,20 @@ body[data-xp-gate="checking"] main > * { display: none; }
   pointer-events: none;      /* clicks belong to the editor underneath */
   overflow: hidden;
   z-index: 1;
+}
+/* The contents: this is what slides on scroll. Transforming the box instead
+   slid the whole gutter out of its slot, over the toolbar going up and past
+   its own clipped edge going down, so the lower numbers simply vanished.
+   Metrics MUST match .sandbox-code, or the numbers drift further from their
+   lines the further down you read. */
+.sandbox-gutter-inner {
+  text-align: right;
+  white-space: pre;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: #7b84ad;
+  will-change: transform;
 }
 .sandbox-code.has-linenums { padding-left: 56px; }
 
