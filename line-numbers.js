@@ -1,8 +1,14 @@
 /* Line numbers down the side of a code editor, off by default, remembered.
  *
  * Ten pages share the .sandbox-code editor: the Sandbox, Live Coding, the
- * three assignments and five lesson pages. This adds one button to each of
- * their toolbars, so the choice is made once and applies everywhere.
+ * three assignments and five lesson pages. This file only draws them. The
+ * switch lives in Settings on My Journey, next to the theme and the XP
+ * notifications, so all the "how the site looks" choices are in one place
+ * rather than scattered into whichever toolbar happens to be nearby.
+ *
+ * Settings writes the same localStorage key directly; it cannot call in here
+ * because this script is not loaded on My Journey. The key is the contract
+ * between them, which is why its name is spelled out in both files.
  *
  * The editor element is never moved in the DOM. code-maximise.js has the same
  * rule and says why: it is contenteditable, Prism re-highlights it in place,
@@ -37,7 +43,7 @@
     }
   }
 
-  var editors = [];           // { code, gutter, btn }
+  var editors = [];           // { code, gutter }
 
   function countLines(code) {
     // textContent rather than innerText: innerText collapses and re-inserts
@@ -70,16 +76,9 @@
     e.gutter.style.transform = "translateY(" + -e.code.scrollTop + "px)";
   }
 
-  function paintBtn(e, on) {
-    if (!e.btn) return;
-    e.btn.setAttribute("aria-pressed", on ? "true" : "false");
-    e.btn.title = on ? "Hide line numbers" : "Show line numbers";
-  }
-
   function apply(e, on) {
     e.code.classList.toggle("has-linenums", on);
     if (e.gutter) e.gutter.hidden = !on;
-    paintBtn(e, on);
     if (on) paintGutter(e);
   }
 
@@ -89,8 +88,7 @@
 
   function setup(shell) {
     var code = shell.querySelector(".sandbox-code");
-    var actions = shell.querySelector(".sandbox-editor .sandbox-bar-actions");
-    if (!code || !actions || code._lineNums) return;
+    if (!code || code._lineNums) return;
     code._lineNums = true;
 
     var host = code.parentNode;
@@ -102,27 +100,8 @@
     gutter.setAttribute("aria-hidden", "true");
     host.insertBefore(gutter, code);
 
-    var btn = document.createElement("button");
-    btn.type = "button";
-    btn.className = "btn btn-ghost code-linenums";
-    btn.setAttribute("aria-pressed", "false");
-    btn.innerHTML =
-      '<svg class="code-linenums-icon" viewBox="0 0 16 16" width="15" height="15" aria-hidden="true">' +
-        '<g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">' +
-          '<path d="M2 3.5h1.4M2 8h1.4M2 12.5h1.4"/>' +
-          '<path d="M6.5 3.5H14M6.5 8H14M6.5 12.5H11"/>' +
-        "</g></svg>" +
-      '<span class="code-linenums-label">Lines</span>';
-    actions.insertBefore(btn, actions.firstChild);
-
-    var e = { code: code, gutter: gutter, btn: btn };
+    var e = { code: code, gutter: gutter };
     editors.push(e);
-
-    btn.addEventListener("click", function () {
-      var on = !code.classList.contains("has-linenums");
-      remember(on);
-      applyAll(on);           // one choice, every editor on the page
-    });
 
     // Typing changes the count; scrolling changes which numbers are opposite
     // which lines. Both are cheap enough to do on the event.
@@ -168,5 +147,14 @@
 
   window.addEventListener("resize", recount);
 
-  window.ITLineNums = { refresh: recount, GUTTER_W: GUTTER_W };
+  window.ITLineNums = {
+    refresh: recount,
+    GUTTER_W: GUTTER_W,
+    mode: function () { return wanted() ? "on" : "off"; },
+    setMode: function (m) {
+      var on = m === "on";
+      remember(on);
+      applyAll(on);
+    }
+  };
 })();

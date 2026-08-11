@@ -162,6 +162,45 @@
     }).join("");
   }
 
+  // Line numbers in the code editors. The key is the contract with
+  // line-numbers.js, which does the drawing on the ten pages that have an
+  // editor; it is not loaded here, so this writes the key directly.
+  var LINE_KEY = "itbasics-linenums";
+  var LINE_OPTIONS = [
+    { id: "off", label: "Off", note: "Just the code" },
+    { id: "on", label: "On", note: "Numbered down the side" },
+  ];
+
+  function lineMode() {
+    try {
+      return localStorage.getItem(LINE_KEY) === "on" ? "on" : "off";
+    } catch (e) {
+      return "off";
+    }
+  }
+
+  function setLineMode(m) {
+    try {
+      localStorage.setItem(LINE_KEY, m === "on" ? "on" : "off");
+    } catch (e) { /* nothing to do */ }
+    // If an editor happens to be on this page, update it now rather than on
+    // the next load. My Journey has none today, but that is not a guarantee.
+    if (window.ITLineNums && window.ITLineNums.setMode) window.ITLineNums.setMode(m);
+  }
+
+  function paintLines() {
+    var row = document.getElementById("lines-choices");
+    if (!row) return;
+    var now = lineMode();
+    row.innerHTML = LINE_OPTIONS.map(function (o) {
+      var on = o.id === now;
+      return '<button type="button" class="fx-choice' + (on ? " on" : "") + '" ' +
+        'role="radio" aria-checked="' + (on ? "true" : "false") + '" data-lines="' + o.id + '">' +
+        "<strong>" + escapeHtml(o.label) + "</strong>" +
+        "<span>" + escapeHtml(o.note) + "</span></button>";
+    }).join("");
+  }
+
   // "Match my device" is a real answer and has to stay reachable, which is why
   // this is a three-way choice and not a switch.
   var THEME_OPTIONS = [
@@ -217,6 +256,14 @@
           "including when it changes by itself in the evening.</p>" +
         '<div class="fx-row" id="theme-choices" role="radiogroup" aria-label="Light or dark"></div>' +
         '<p class="settings-note">Saved on this device. If you sign in on another computer, set it there too.</p>' +
+      "</section>" +
+      '<section class="settings-card">' +
+        "<h3>Line numbers</h3>" +
+        '<p class="settings-hint">Numbers down the side of the code editors, in the Sandbox, ' +
+          "Live Coding, the assignments and the lessons. Handy when someone says " +
+          '"look at line 7", and easy to switch off if they get in the way.</p>' +
+        '<div class="fx-row" id="lines-choices" role="radiogroup" aria-label="Line numbers"></div>' +
+        '<p class="settings-note">Saved on this device. If you sign in on another computer, set it there too.</p>' +
       "</section>"
     );
   }
@@ -254,6 +301,13 @@
         window.ITTheme.setMode(theme.getAttribute("data-theme-set"));
         paintTheme();
         flashSaved("Saved");
+        return;
+      }
+      var lines = e.target.closest("[data-lines]");
+      if (lines) {
+        setLineMode(lines.getAttribute("data-lines"));
+        paintLines();
+        flashSaved("Saved");
       }
     });
   }
@@ -282,6 +336,7 @@
     paintShapes();
     paintFx();
     paintTheme();
+    paintLines();
     wire(panel);
 
     // Then let the database correct us, in case they picked on another

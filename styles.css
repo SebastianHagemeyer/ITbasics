@@ -5864,16 +5864,4 @@ body[data-xp-gate="checking"] main > * { display: none; }
   z-index: 1;
 }
 .sandbox-code.has-linenums { padding-left: 56px; }
-.code-linenums { display: inline-flex; align-items: center; gap: 6px; }
-.code-linenums[aria-pressed="true"] {
-  border-color: var(--primary);
-  color: var(--primary-ink);
-  background: rgba(var(--primary-rgb), 0.1);
-}
-.code-linenums-icon { display: block; flex: none; }
 
-@media (max-width: 700px) {
-  /* First thing to go when the toolbar runs out of room, same as the theme
-     switch used to do in the header. */
-  .code-linenums-label { display: none; }
-}
