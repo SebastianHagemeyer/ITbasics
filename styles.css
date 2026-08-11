@@ -3193,14 +3193,66 @@ a.progress-quiz:hover { box-shadow: var(--shadow-md); transform: translateY(-1px
   background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
   box-shadow: var(--shadow-sm); padding: 18px; margin: 8px 0 12px;
 }
-.netdemo-pcs { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-bottom: 16px; }
-.netpc {
-  width: 60px; height: 56px; display: flex; align-items: center; justify-content: center;
-  border-radius: var(--radius-sm); background: var(--bg); border: 2px solid var(--border);
-  font-weight: 800; font-size: 1.1rem; color: var(--muted); transition: all 0.2s ease;
+/* The hub/switch diagram. Everything is drawn from tokens so it follows the
+   theme; the only literal colours are the packet greens and the collision red,
+   which are the same in both because they are signals, not surfaces. */
+.netdemo-svg { display: block; width: 100%; max-width: 460px; margin: 0 auto 14px; height: auto; }
+.nd-wires line { stroke: var(--border); stroke-width: 2; }
+.nd-device rect {
+  fill: var(--bg); stroke: var(--border); stroke-width: 2;
+  transition: fill .2s ease, stroke .2s ease;
 }
-.netpc.lit { background: var(--accent); border-color: var(--primary); color: #000; box-shadow: 0 0 0 3px rgba(var(--accent-rgb), 0.25); }
-.netpc.target { background: var(--success-bg); border-color: var(--success); color: var(--ink-mint); box-shadow: 0 0 0 3px rgba(31, 157, 85, 0.2); }
+.nd-device.is-busy rect { stroke: var(--primary); }
+.nd-device.is-clash rect { stroke: var(--danger); fill: var(--danger-bg); }
+
+/* The router and the internet beyond it. They sit greyed out while the data
+   stays inside the network, which is the whole distinction: a hub or a switch
+   passes data around in here, a router is the way out. */
+.nd-router rect, .nd-cloud rect {
+  fill: var(--bg); stroke: var(--border); stroke-width: 2;
+  transition: fill .2s ease, stroke .2s ease, opacity .2s ease;
+}
+.nd-router, .nd-cloud { opacity: .45; transition: opacity .2s ease; }
+.nd-router.is-busy, .nd-cloud.is-busy { opacity: 1; }
+.nd-router.is-busy rect { stroke: var(--primary); }
+.nd-cloud.is-busy rect { stroke: var(--success); fill: var(--success-bg); }
+.nd-router-name, .nd-cloud-name {
+  text-anchor: middle; font-weight: 800; font-size: 13px;
+  fill: var(--text); letter-spacing: .05em;
+}
+.nd-router-sub, .nd-cloud-sub { text-anchor: middle; font-size: 9px; fill: var(--muted); }
+/* The two wires above the switch are the route out, so they dim with it. */
+.nd-wire-out, .nd-wire-up { opacity: .45; }
+.nd-device-name {
+  text-anchor: middle; font-weight: 800; font-size: 15px;
+  fill: var(--text); letter-spacing: .06em;
+}
+.nd-device-sub { text-anchor: middle; font-size: 10px; fill: var(--muted); }
+.nd-pc rect {
+  fill: var(--bg); stroke: var(--border); stroke-width: 2;
+  transition: fill .2s ease, stroke .2s ease;
+}
+.nd-pc text { text-anchor: middle; font-weight: 800; font-size: 19px; fill: var(--muted); }
+/* 8px, because the lesson font is wide: "not for me" measures 112 units at
+   10px and the columns are only 108 apart, so the labels collided. */
+/* Has to out-specify ".nd-pc text" above, which would otherwise impose the
+   19px computer letter on this label. 8px because the lesson font is wide:
+   "not for me" measures 112 units at 10px and the columns are 108 apart. */
+.nd-pc .nd-pc-note { font-size: 8px; font-weight: 700; fill: var(--muted); }
+/* The sender, so it is obvious where the ball came from. */
+.nd-pc.is-sending rect { stroke: var(--primary); fill: rgba(var(--primary-rgb), 0.12); }
+.nd-pc.is-sending text { fill: var(--primary-ink); }
+/* Got it, and it was for them. */
+.nd-pc.is-target rect { stroke: var(--success); fill: var(--success-bg); }
+.nd-pc.is-target text { fill: var(--ink-mint); }
+/* Got it, had to check, threw it away. The hub's whole cost, on screen. */
+.nd-pc.is-ignoring rect { stroke: var(--muted); stroke-dasharray: 4 3; }
+.nd-pc.is-hit rect { stroke: var(--danger); fill: var(--danger-bg); }
+.nd-pc.is-hit text, .nd-pc.is-hit .nd-pc-note { fill: var(--danger); }
+.nd-packet { fill: #35c46a; stroke: #0d3d22; stroke-width: 1.5; }
+/* A copy nobody asked for is still moving, just not worth anything. */
+.nd-packet.is-wasted { fill: #35c46a; opacity: .45; }
+.nd-packet.is-clash { fill: var(--danger); stroke: none; r: 11; }
 .netdemo-actions { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-bottom: 12px; }
 .netdemo-msg { margin: 0; text-align: center; color: var(--muted); font-weight: 600; }
 .netdemo-msg.warn { color: var(--danger); }
