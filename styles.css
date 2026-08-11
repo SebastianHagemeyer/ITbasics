@@ -2529,6 +2529,7 @@ h2.step-toggle {
 }
 
 .fp-code {
+  display: flex;
   background: var(--code-bg);
   color: var(--code-text);
   border-radius: var(--radius-sm);
@@ -2547,7 +2548,21 @@ h2.step-toggle {
   font-size: inherit;
   color: inherit;
   white-space: pre;
+  min-width: 0;
 }
+/* Line numbers beside the snippet. A flex row of two "pre" columns sharing one
+   line-height lines up exactly, and unlike a counter it survives Prism, which
+   emits a flat run of token spans with no per-line element to hang one on.
+   Not selectable, so copying the code does not drag the numbers along. */
+.fp-gutter {
+  flex: none;
+  white-space: pre;
+  text-align: right;
+  color: #7b84ad;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.fp-gutter:not(:empty) { margin-right: 14px; border-right: 1px solid rgba(255, 255, 255, 0.08); padding-right: 10px; }
 
 /* Prism token colours, tuned for the Hallam navy code background. */
 .fp-code .token.comment,
@@ -5814,3 +5829,39 @@ body[data-xp-gate="checking"] main > * { display: none; }
 :root[data-theme="dark"] .fp-tag[data-topic="html"]    { color: #ff9d7a; }
 :root[data-theme="dark"] .fp-tag[data-topic="logic"]   { color: #b9a8f7; }
 :root[data-theme="dark"] .fp-tag[data-topic="concept"] { color: #6fdbd0; }
+
+/* ---------------------------------------------------------------------------
+   Editor line numbers (line-numbers.js)
+   ---------------------------------------------------------------------------
+   The gutter is a sibling laid over the editor's left edge, not a wrapper: the
+   editor is contenteditable and Prism rehighlights it in place, so it must not
+   be moved in the DOM. The editor gains left padding instead, and the numbers
+   ride its scroll via a transform.
+
+   Metrics below MUST match .sandbox-code: same font, size and line-height, or
+   the numbers drift further from their lines the further down you read. */
+.has-gutter-host { position: relative; }
+.sandbox-gutter {
+  position: absolute;
+  /* top and height are set by line-numbers.js from the code element's own box:
+     this is positioned against .sandbox-editor, which also holds the toolbar. */
+  left: 0;
+  width: 44px;
+  padding: 14px 8px 14px 0;
+  box-sizing: border-box;
+  text-align: right;
+  white-space: pre;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: #7b84ad;
+  background: var(--code-bg);
+  border-right: 1px solid rgba(255, 255, 255, 0.08);
+  user-select: none;
+  -webkit-user-select: none;
+  pointer-events: none;      /* clicks belong to the editor underneath */
+  overflow: hidden;
+  z-index: 1;
+}
+.sandbox-code.has-linenums { padding-left: 56px; }
+
