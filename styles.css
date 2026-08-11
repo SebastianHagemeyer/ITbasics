@@ -525,6 +525,9 @@ img { max-width: 100%; display: block; }
 .c-num { color: #f78c6c; }
 .c-comment { color: #8b92b0; font-style: italic; }
 .c-op { color: #89ddff; }
+/* Function and builtin names, matching the Sandbox's Prism palette so a
+   snippet looks the same in the docs as it does in the editor. */
+.c-func { color: #82aaff; }
 
 /* Callouts & extras */
 .callout {

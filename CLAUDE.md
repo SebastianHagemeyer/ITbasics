@@ -67,9 +67,13 @@ Three rules, each of which came from an actual bug:
   the writing on it is how you get navy on navy.
 - **Not every white is a light-mode leftover.** White text on a navy button is
   correct in both themes. Look at what a colour sits *on* before flipping it.
-  Two whites are deliberately hardcoded and commented as such: the HTML preview
-  frame (it shows the student's own page, as a browser would) and the Screen Lab
-  panel (its own dark instrument in both themes).
+  Three whites are deliberately hardcoded and commented as such: the HTML
+  preview frame (it shows the student's own page, as a browser would), the
+  Screen Lab panel (its own dark instrument in both themes), and the glyphs in
+  the module `.card-icon` tiles. That last one was turned dark once to satisfy
+  an auditor and had to be put back: the glyph is decorative, the card's real
+  label sits beside it at full contrast, and black marks on bright tiles look
+  broken. A contrast sweep will flag all ten of them every time. Leave them.
 
 Check contrast after changing colours. There is a throwaway auditor pattern
 worth rebuilding: walk every element, composite its background up the tree, and

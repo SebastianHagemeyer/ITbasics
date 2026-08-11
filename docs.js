@@ -283,6 +283,57 @@
     }
   ];
 
+  // ---- Lightweight Python colouring ------------------------------------
+  //
+  // Prism is not loaded here and does not need to be: it is a CDN download,
+  // and its token styling on this site is scoped to the Sandbox, so it would
+  // need new CSS as well. The .c-* classes already exist and already carry the
+  // Sandbox's palette, and these cards sit on --code-bg, which is dark in both
+  // themes. So this is a regex, not a dependency.
+  //
+  // One pass with a single alternation, on purpose. A version that replaces
+  // comments, then strings, then keywords has to re-scan text it has already
+  // marked up, and the markup contains the very words it is hunting for:
+  // class="c-op" holds the Python keyword `class`, so the keyword pass would
+  // rewrite its own output. One walk means every character is decided exactly
+  // once and nothing can corrupt what came before it.
+  var PY_KEYWORDS = "and|as|assert|async|await|break|class|continue|def|del|" +
+    "elif|else|except|finally|for|from|global|if|import|in|is|lambda|None|" +
+    "nonlocal|not|or|pass|raise|return|try|while|with|yield|True|False";
+
+  // Comments and strings come first in the alternation, so a # inside quotes
+  // is not a comment and a quote inside a comment does not open a string.
+  var PY_TOKEN = new RegExp(
+    "(#[^\\n]*)" +
+    "|(\"\"\"[\\s\\S]*?\"\"\"|'''[\\s\\S]*?'''" +
+      "|\"(?:[^\"\\\\\\n]|\\\\.)*\"" +
+      "|'(?:[^'\\\\\\n]|\\\\.)*')" +
+    "|\\b(" + PY_KEYWORDS + ")\\b" +
+    "|\\b(\\d+(?:\\.\\d+)?)\\b" +
+    "|([A-Za-z_]\\w*)(?=\\s*\\()" +
+    "|(==|!=|<=|>=|\\*\\*|//|[-+*/%=<>])",
+    "g");
+
+  function pyColour(src) {
+    var s = String(src == null ? "" : src);
+    var out = "";
+    var last = 0;
+    var m;
+    PY_TOKEN.lastIndex = 0;
+    while ((m = PY_TOKEN.exec(s)) !== null) {
+      out += esc(s.slice(last, m.index));
+      var cls = m[1] ? "c-comment"
+              : m[2] ? "c-string"
+              : m[3] ? "c-keyword"
+              : m[4] ? "c-num"
+              : m[5] ? "c-func"
+              : "c-op";
+      out += '<span class="' + cls + '">' + esc(m[0]) + "</span>";
+      last = m.index + m[0].length;
+    }
+    return out + esc(s.slice(last));
+  }
+
   function el(tag, cls, html) {
     var e = document.createElement(tag);
     if (cls) e.className = cls;
@@ -331,9 +382,9 @@
     var itemEls = [];
     sec.items.forEach(function (it) {
       var card = el("div", "docs-item");
-      card.appendChild(el("code", "docs-sig", esc(it.sig)));
+      card.appendChild(el("code", "docs-sig", pyColour(it.sig)));
       card.appendChild(el("p", "docs-desc", esc(it.desc)));
-      if (it.ex) card.appendChild(el("pre", "docs-ex", esc(it.ex)));
+      if (it.ex) card.appendChild(el("pre", "docs-ex", pyColour(it.ex)));
       card._hay = (it.sig + " " + it.desc + " " + (it.ex || "")).toLowerCase();
       grid.appendChild(card);
       itemEls.push(card);
