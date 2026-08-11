@@ -17,15 +17,21 @@
   // The SVG is aria-hidden and the paragraph under it is the live region: the
   // explanation is the thing worth reading out, not the geometry.
   // ------------------------------------------------------------------
-  // y sits just above the box tops (168) so an arriving ball reads as landing
-  // on the computer rather than embedded in its border.
+  // Stacked the way you would draw it on a board: the internet at the top, the
+  // router as the only way out of the building, the hub or switch handing data
+  // around inside, and the computers along the bottom. y for a computer sits
+  // just above its box top (238) so an arriving ball lands on it rather than
+  // inside its border.
   var NET_PC = {
-    A: { x: 50, y: 160 },
-    B: { x: 158, y: 160 },
-    C: { x: 266, y: 160 },
-    D: { x: 374, y: 160 }
+    A: { x: 50, y: 230 },
+    B: { x: 158, y: 230 },
+    C: { x: 266, y: 230 },
+    D: { x: 374, y: 230 }
   };
-  var NET_HUB = { x: 220, y: 70 };
+  var NET_HUB = { x: 220, y: 200 };     // bottom edge of the hub/switch
+  var NET_HUB_TOP = { x: 220, y: 148 };
+  var NET_ROUTER = { x: 220, y: 116 };  // bottom edge of the router
+  var NET_CLOUD = { x: 220, y: 56 };
   var SVG_NS = "http://www.w3.org/2000/svg";
 
   function initNetDemo() {
@@ -37,6 +43,8 @@
     var deviceName = net.querySelector(".nd-device-name");
     var deviceSub = net.querySelector(".nd-device-sub");
     var deviceBox = net.querySelector(".nd-device");
+    var routerBox = net.querySelector(".nd-router");
+    var cloudBox = net.querySelector(".nd-cloud");
     var pcs = {};
     net.querySelectorAll(".nd-pc").forEach(function (g) { pcs[g.dataset.pc] = g; });
     if (!svg || !layer || !msg) return;
@@ -56,6 +64,9 @@
         if (note) note.textContent = "";
       });
       deviceBox.classList.remove("is-busy", "is-clash");
+      if (routerBox) routerBox.classList.remove("is-busy");
+      if (cloudBox) cloudBox.classList.remove("is-busy");
+      net.classList.remove("is-leaving");
     }
 
     function setDevice(name, sub, cls) {
@@ -142,6 +153,29 @@
         return;
       }
 
+      if (mode === "router") {
+        // The point of the router is that this message is not for anyone in
+        // the room, so the switch hands it upwards instead of sideways.
+        setDevice("SWITCH", "not for anyone here", "is-busy");
+        msg.className = "netdemo-msg";
+        msg.textContent = "A asks for a website, which is not on this network…";
+        var r1 = ball();
+        fly([{ ball: r1, from: NET_PC.A, to: NET_HUB }], 600, function () {
+          routerBox.classList.add("is-busy");
+          fly([{ ball: r1, from: NET_HUB_TOP, to: NET_ROUTER }], 420, function () {
+            cloudBox.classList.add("is-busy");
+            fly([{ ball: r1, from: NET_ROUTER, to: NET_CLOUD }], 480, function () {
+              msg.className = "netdemo-msg ok";
+              msg.textContent = "Nobody on this network is the website, so the switch passes it " +
+                "up to the router, and the router is the way out to every other " +
+                "network. A hub or a switch moves data around inside your network; " +
+                "a router is what joins your network to the internet.";
+            });
+          });
+        });
+        return;
+      }
+
       var isHub = mode === "hub";
       setDevice(isHub ? "HUB" : "SWITCH",
                 isHub ? "copies to everyone" : "sends it to D only",
@@ -185,6 +219,8 @@
     net.querySelector(".netdemo-switch").addEventListener("click", function () { send("switch"); });
     var clash = net.querySelector(".netdemo-collide");
     if (clash) clash.addEventListener("click", function () { send("collide"); });
+    var out = net.querySelector(".netdemo-router");
+    if (out) out.addEventListener("click", function () { send("router"); });
   }
 
   // ------------------------------------------------------------------

@@ -3204,6 +3204,25 @@ a.progress-quiz:hover { box-shadow: var(--shadow-md); transform: translateY(-1px
 }
 .nd-device.is-busy rect { stroke: var(--primary); }
 .nd-device.is-clash rect { stroke: var(--danger); fill: var(--danger-bg); }
+
+/* The router and the internet beyond it. They sit greyed out while the data
+   stays inside the network, which is the whole distinction: a hub or a switch
+   passes data around in here, a router is the way out. */
+.nd-router rect, .nd-cloud rect {
+  fill: var(--bg); stroke: var(--border); stroke-width: 2;
+  transition: fill .2s ease, stroke .2s ease, opacity .2s ease;
+}
+.nd-router, .nd-cloud { opacity: .45; transition: opacity .2s ease; }
+.nd-router.is-busy, .nd-cloud.is-busy { opacity: 1; }
+.nd-router.is-busy rect { stroke: var(--primary); }
+.nd-cloud.is-busy rect { stroke: var(--success); fill: var(--success-bg); }
+.nd-router-name, .nd-cloud-name {
+  text-anchor: middle; font-weight: 800; font-size: 13px;
+  fill: var(--text); letter-spacing: .05em;
+}
+.nd-router-sub, .nd-cloud-sub { text-anchor: middle; font-size: 9px; fill: var(--muted); }
+/* The two wires above the switch are the route out, so they dim with it. */
+.nd-wire-out, .nd-wire-up { opacity: .45; }
 .nd-device-name {
   text-anchor: middle; font-weight: 800; font-size: 15px;
   fill: var(--text); letter-spacing: .06em;

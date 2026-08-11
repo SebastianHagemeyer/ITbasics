@@ -168,40 +168,56 @@
             <li>A <strong>switch</strong> (the modern way) is smart: it sends each message <em>only</em> to the computer it is meant for. Far fewer collisions.</li>
             <li>A <strong>router</strong> connects your whole network to other networks, including the internet.</li>
           </ul>
-          <p>A wants to message D. Watch where the data actually goes:</p>
+          <p>A wants to message D, and then to open a website. Try each one and watch where the data actually goes:</p>
           <div class="netdemo">
-            <svg class="netdemo-svg" viewBox="0 0 440 250" aria-hidden="true" focusable="false">
+            <svg class="netdemo-svg" viewBox="0 0 440 306" aria-hidden="true" focusable="false">
               <g class="nd-wires">
-                <line x1="220" y1="70" x2="50"  y2="168" />
-                <line x1="220" y1="70" x2="158" y2="168" />
-                <line x1="220" y1="70" x2="266" y2="168" />
-                <line x1="220" y1="70" x2="374" y2="168" />
+                <line class="nd-wire-out" x1="220" y1="56" x2="220" y2="70" />
+                <line class="nd-wire-up"  x1="220" y1="116" x2="220" y2="148" />
+                <line x1="220" y1="200" x2="50"  y2="238" />
+                <line x1="220" y1="200" x2="158" y2="238" />
+                <line x1="220" y1="200" x2="266" y2="238" />
+                <line x1="220" y1="200" x2="374" y2="238" />
               </g>
+
+              <g class="nd-cloud">
+                <rect x="146" y="8" width="148" height="48" rx="24" />
+                <text class="nd-cloud-name" x="220" y="30">THE INTERNET</text>
+                <text class="nd-cloud-sub" x="220" y="45">everyone else's networks</text>
+              </g>
+
+              <g class="nd-router">
+                <rect x="160" y="70" width="120" height="46" rx="10" />
+                <text class="nd-router-name" x="220" y="90">ROUTER</text>
+                <text class="nd-router-sub" x="220" y="106">the way out</text>
+              </g>
+
               <g class="nd-device">
-                <rect x="160" y="18" width="120" height="52" rx="10" />
-                <text class="nd-device-name" x="220" y="42">HUB</text>
-                <text class="nd-device-sub" x="220" y="59">copies to everyone</text>
+                <rect x="160" y="148" width="120" height="52" rx="10" />
+                <text class="nd-device-name" x="220" y="172">HUB</text>
+                <text class="nd-device-sub" x="220" y="189">copies to everyone</text>
               </g>
+
               <g class="nd-pcs">
                 <g class="nd-pc" data-pc="A">
-                  <rect x="14" y="168" width="72" height="54" rx="9" />
-                  <text x="50" y="196">A</text>
-                  <text class="nd-pc-note" x="50" y="238"></text>
+                  <rect x="14" y="238" width="72" height="54" rx="9" />
+                  <text x="50" y="266">A</text>
+                  <text class="nd-pc-note" x="50" y="304"></text>
                 </g>
                 <g class="nd-pc" data-pc="B">
-                  <rect x="122" y="168" width="72" height="54" rx="9" />
-                  <text x="158" y="196">B</text>
-                  <text class="nd-pc-note" x="158" y="238"></text>
+                  <rect x="122" y="238" width="72" height="54" rx="9" />
+                  <text x="158" y="266">B</text>
+                  <text class="nd-pc-note" x="158" y="304"></text>
                 </g>
                 <g class="nd-pc" data-pc="C">
-                  <rect x="230" y="168" width="72" height="54" rx="9" />
-                  <text x="266" y="196">C</text>
-                  <text class="nd-pc-note" x="266" y="238"></text>
+                  <rect x="230" y="238" width="72" height="54" rx="9" />
+                  <text x="266" y="266">C</text>
+                  <text class="nd-pc-note" x="266" y="304"></text>
                 </g>
                 <g class="nd-pc" data-pc="D" data-target>
-                  <rect x="338" y="168" width="72" height="54" rx="9" />
-                  <text x="374" y="196">D</text>
-                  <text class="nd-pc-note" x="374" y="238"></text>
+                  <rect x="338" y="238" width="72" height="54" rx="9" />
+                  <text x="374" y="266">D</text>
+                  <text class="nd-pc-note" x="374" y="304"></text>
                 </g>
               </g>
               <g class="nd-packets"></g>
@@ -210,6 +226,7 @@
               <button type="button" class="btn btn-ghost netdemo-hub">Send with a hub</button>
               <button type="button" class="btn btn-primary netdemo-switch">Send with a switch</button>
               <button type="button" class="btn btn-ghost netdemo-collide">Two send at once</button>
+              <button type="button" class="btn btn-ghost netdemo-router">Send to a website</button>
             </div>
             <p class="netdemo-msg" aria-live="polite">A wants to send a message to D. Try each device and watch where the data actually goes.</p>
           </div>
