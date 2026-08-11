@@ -82,11 +82,26 @@
       inner.textContent = current.code;
       inner.className = "language-" + (current.topic === "html" ? "markup" : "python");
       if (window.Prism && Prism.highlightElement) Prism.highlightElement(inner);
+      // Thirteen of these ask which LINE has the mistake, and the options are
+      // literally "Line 1", "Line 2". Counting them by eye is not the skill
+      // being tested. Numbered from two lines up; a lone "1" is just noise.
+      const gutter = document.getElementById("fp-gutter");
+      if (gutter) {
+        const n = current.code.split("\n").length;
+        gutter.textContent = n > 1
+          ? Array.from({ length: n }, (_, i) => i + 1).join("\n")
+          : "";
+      }
       codeEl.hidden = false;
     } else {
       const inner = document.getElementById("fp-code-inner");
       inner.textContent = "";
       inner.removeAttribute("class");
+      // Clear the numbers too. The block is hidden so nobody sees them, but a
+      // gutter left holding the previous question's line count is a trap for
+      // whoever next makes this visible.
+      const gutter = document.getElementById("fp-gutter");
+      if (gutter) gutter.textContent = "";
       codeEl.hidden = true;
     }
 
