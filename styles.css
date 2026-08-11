@@ -2541,6 +2541,11 @@ h2.step-toggle {
   white-space: pre;
   overflow-x: auto;
 }
+/* Concept questions carry no snippet, and freeplay.js hides the block for them.
+   [hidden] is only a user-agent display: none, so the display: flex above beat
+   it and code-less questions grew an empty navy bar. Any explicit display needs
+   this guard; the same trap has caught .btn and .key-points here before. */
+.fp-code[hidden] { display: none; }
 .fp-code code {
   background: transparent;
   padding: 0;
