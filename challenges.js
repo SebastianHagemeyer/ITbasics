@@ -12,6 +12,13 @@
   // the "random" secret to a known value. check(result, test) -> {pass, why}.
   const TIER_LABELS = { beginner: "Beginner", intermediate: "Intermediate", stretch: "Stretch" };
 
+  // The two faces the Face swap challenge swaps in. Written as escapes so this
+  // file stays plain ASCII: an emoji glyph sitting in the source is one bad
+  // save or one copy-paste through the wrong editor away from turning into
+  // question marks, and it would take the challenge's answer with it.
+  const FACE_SMILE = "\uD83D\uDE42";   // U+1F642 slightly smiling face
+  const FACE_FROWN = "\uD83D\uDE41";   // U+1F641 slightly frowning face
+
   const CHALLENGES = [
     // -------- Beginner --------
     {
@@ -45,6 +52,24 @@
         { label: 'Word: "hello"',  inputs: ["hello"],  check: function (r) { return checkShout(r, "hello"); } },
         { label: 'Word: "python"', inputs: ["python"], check: function (r) { return checkShout(r, "python"); } },
         { label: 'Word: "Hallam"', inputs: ["Hallam"], check: function (r) { return checkShout(r, "Hallam"); } }
+      ]
+    },
+    {
+      id: "indoor",
+      tier: "beginner",
+      title: "Indoor voice",
+      brief: "Somebody is TYPING IN CAPITALS. Quieten them down.",
+      detail: "Read a message with <code>input()</code>, then print it back in an indoor voice: all lowercase. Hint: <code>.upper()</code> has an opposite, and it is called <code>.lower()</code>.",
+      accept: "Your output must contain the message in lowercase, and must not still have the shouty version in it. Anything that is not a letter, like a number, comes out unchanged.",
+      starter:
+        '# Indoor voice\n' +
+        'message = input("SAY SOMETHING: ")\n' +
+        '# print the message back quietly, all in lowercase\n',
+      tests: [
+        { label: 'They typed: "HELLO"',           inputs: ["HELLO"],           check: function (r) { return checkIndoor(r, "HELLO"); } },
+        { label: 'They typed: "THIS IS IT BASICS"', inputs: ["THIS IS IT BASICS"], check: function (r) { return checkIndoor(r, "THIS IS IT BASICS"); } },
+        { label: 'They typed: "HALLAM SECONDARY COLLEGE"', inputs: ["HALLAM SECONDARY COLLEGE"], check: function (r) { return checkIndoor(r, "HALLAM SECONDARY COLLEGE"); } },
+        { label: 'They typed: "50"  (nothing to quieten)', inputs: ["50"],      check: function (r) { return checkIndoor(r, "50"); } }
       ]
     },
     {
@@ -406,6 +431,30 @@
       ]
     },
     {
+      id: "faces",
+      tier: "intermediate",
+      title: "Face swap",
+      brief: "Turn typed-out faces like :) into real emoji, the way a chat app does.",
+      detail: 'Long before emoji, people made faces out of punctuation: <code>:)</code> was happy and <code>:(</code> was sad. Chat apps now swap them for you as you type. Read a message with <code>input()</code>, turn every <code>:)</code> into ' + FACE_SMILE +
+        ' and every <code>:(</code> into ' + FACE_FROWN + ', then print it. The two faces are already in the starter code as <code>SMILE</code> and <code>FROWN</code>, so you never have to type an emoji yourself. Hint: <code>.replace(old, new)</code> swaps every copy it finds.',
+      accept: 'Every <code>:)</code> comes out as ' + FACE_SMILE + ' and every <code>:(</code> as ' + FACE_FROWN +
+        ', the rest of the message is unchanged, and no <code>:)</code> or <code>:(</code> is left behind. A message with no faces in it must come out exactly as it went in.',
+      starter:
+        '# Face swap\n' +
+        'SMILE = "' + FACE_SMILE + '"\n' +
+        'FROWN = "' + FACE_FROWN + '"\n' +
+        '\n' +
+        'message = input("Your message: ")\n' +
+        '# swap every :) for SMILE and every :( for FROWN, then print the message\n',
+      tests: [
+        { label: 'Message: "hi :)"',            inputs: ["hi :)"],            check: function (r) { return checkFaces(r, "hi :)"); } },
+        { label: 'Message: "lost my homework :("', inputs: ["lost my homework :("], check: function (r) { return checkFaces(r, "lost my homework :("); } },
+        { label: 'Message: "test today :( party after :)"', inputs: ["test today :( party after :)"], check: function (r) { return checkFaces(r, "test today :( party after :)"); } },
+        { label: 'Message: "yes :) yes :) yes :)"', inputs: ["yes :) yes :) yes :)"], check: function (r) { return checkFaces(r, "yes :) yes :) yes :)"); } },
+        { label: 'Message: "no faces in this one"', inputs: ["no faces in this one"], check: function (r) { return checkFaces(r, "no faces in this one"); } }
+      ]
+    },
+    {
       id: "fizz",
       tier: "intermediate",
       title: "Fizz",
@@ -518,6 +567,50 @@
         { label: '"5" -> 5',              inputs: ["5"],              check: function (r) { return checkSumMany(r, "5"); } },
         { label: '"7 13 21" -> 41',       inputs: ["7 13 21"],        check: function (r) { return checkSumMany(r, "7 13 21"); } }
       ]
+    },
+    {
+      // The only challenge whose starter is a program the student joins rather
+      // than writes: main() is finished and calls two functions that are not.
+      // The stubs return 0.0 so the starter RUNS from the first click. An empty
+      // "# TODO" body is a SyntaxError, and a red error before you have typed
+      // anything is a rotten first impression of functions.
+      id: "fete-discount",
+      tier: "stretch",
+      title: "Fete stall discount",
+      brief: "Finish two small functions so the fete price board works out the discount.",
+      detail: "Your stall at the Hallam fete has a sale on. The price comes in as text like <code>$12.50</code> and the discount as text like <code>20%</code>, and neither can be multiplied while it still has that symbol stuck to it. " +
+        "<code>main()</code> is already written and calls two functions that are not: <code>dollars_to_float</code> must take <code>\"$12.50\"</code> and give back the number <code>12.5</code>, and <code>percent_to_float</code> must take <code>\"20%\"</code> and give back <code>0.2</code>. " +
+        "Hint: <code>text[1:]</code> is everything after the first character, <code>text[:-1]</code> is everything before the last one, and <code>float()</code> turns what is left into a number.",
+      accept: "Both printed amounts must be right, to the cent. Remember 20% off means 0.2 of the price, not 20 times it.",
+      starter:
+        '# Fete stall discount\n' +
+        '# main() is finished. Fill in the two functions underneath it.\n' +
+        '\n' +
+        'def main():\n' +
+        '    price = dollars_to_float(input("Price on the tag? "))\n' +
+        '    percent = percent_to_float(input("How much off? "))\n' +
+        '    saving = price * percent\n' +
+        '    print(f"You save ${saving:.2f}")\n' +
+        '    print(f"You pay ${price - saving:.2f}")\n' +
+        '\n' +
+        '\n' +
+        'def dollars_to_float(d):\n' +
+        '    # d arrives as "$12.50". Give back the number 12.5\n' +
+        '    return 0.0\n' +
+        '\n' +
+        '\n' +
+        'def percent_to_float(p):\n' +
+        '    # p arrives as "20%". Give back the number 0.2\n' +
+        '    return 0.0\n' +
+        '\n' +
+        '\n' +
+        'main()\n',
+      tests: [
+        { label: '$50.00, 20% off  -> save $10.00, pay $40.00', inputs: ["$50.00", "20%"],  check: function (r) { return checkFete(r, 50, 0.2); } },
+        { label: '$12.50, 10% off  -> save $1.25, pay $11.25',  inputs: ["$12.50", "10%"],  check: function (r) { return checkFete(r, 12.5, 0.1); } },
+        { label: '$8.00, 25% off   -> save $2.00, pay $6.00',   inputs: ["$8.00", "25%"],   check: function (r) { return checkFete(r, 8, 0.25); } },
+        { label: '$100.00, 5% off  -> save $5.00, pay $95.00',  inputs: ["$100.00", "5%"],  check: function (r) { return checkFete(r, 100, 0.05); } }
+      ]
     }
   ];
 
@@ -535,6 +628,11 @@
       "word.upper() gives the word in CAPITALS",
       "we want to print that",
       "print(word.upper())"
+    ],
+    "indoor": [
+      "message.lower() gives the quiet version",
+      "we want to print that",
+      "print(message.lower())"
     ],
     "double": [
       "double means times 2, and times is *",
@@ -631,6 +729,13 @@
       "the slice trick [::-1] reverses a word",
       "print(word[::-1])"
     ],
+    "faces": [
+      '.replace(old, new) swaps every copy it finds',
+      'replace hands you back a NEW message, so you have to save it',
+      'message = message.replace(":)", SMILE)',
+      'now the same line again for ":(" and FROWN',
+      "then print(message)"
+    ],
     "fizz": [
       "for i in range(1, n + 1): visits 1 up to n",
       "a multiple of 3 has remainder 0: i % 3 == 0",
@@ -668,6 +773,14 @@
       "make a total = 0, then loop: for piece in line.split():",
       "    total = total + int(piece)",
       "after the loop: print(total)"
+    ],
+    "fete-discount": [
+      'd arrives as "$12.50", and d[1:] is that without the dollar sign',
+      "float() turns the leftover text into a number",
+      "return float(d[1:])",
+      'p arrives as "20%", and p[:-1] is that without the percent sign',
+      "20% means 20 out of 100, so divide by 100",
+      "return float(p[:-1]) / 100"
     ]
   };
 
@@ -834,6 +947,91 @@
       return fail('I typed "' + word + '" but I didn\'t see "' + word.toUpperCase() + '" in the output. Try the .upper() method.');
     }
     return pass("Shouted " + word.toUpperCase() + ".");
+  }
+
+  // The mirror of checkShout. The second test is the interesting one: printing
+  // the message straight back passes for "50", which has no capitals to lose,
+  // so every other case also insists the SHOUTY original is gone.
+  function checkIndoor(r, message) {
+    if (r.error) return fail("Your code stopped with an error: " + r.error);
+    const out = String(r.output || "");
+    const quiet = message.toLowerCase();
+    if (out.indexOf(quiet) === -1) {
+      return fail('I typed "' + message + '" but I didn\'t see "' + quiet + '" in the output. Try the .lower() method.');
+    }
+    if (quiet !== message && out.indexOf(message) !== -1) {
+      return fail("The shouty version is still in your output. Print only the quiet one.");
+    }
+    return pass(quiet === message ? "Nothing to quieten, and it came through unchanged." : '"' + message + '" said quietly.');
+  }
+
+  // Face swap. The expected line is built the same way the student's code
+  // should build it, so the whole message has to survive, not just the faces.
+  function checkFaces(r, message) {
+    if (r.error) return fail("Your code stopped with an error: " + r.error);
+    const out = String(r.output || "");
+    const want = message.split(":)").join(FACE_SMILE).split(":(").join(FACE_FROWN);
+    if (out.indexOf(want) !== -1) {
+      return pass(want === message ? "No faces in that one, and it came through untouched." : "Swapped to: " + want);
+    }
+    // Swapping the two over leaves both faces present, so spotting it needs the
+    // back-to-front line built and compared, not a hunt for a missing emoji.
+    const backwards = message.split(":)").join(FACE_FROWN).split(":(").join(FACE_SMILE);
+    if (backwards !== want && out.indexOf(backwards) !== -1) {
+      return fail("The faces came out the wrong way round: :) is the happy one, :( is the sad one.");
+    }
+    // A face still sitting there in punctuation form. Two different mistakes
+    // land here, missing that face's .replace() and writing it without saving
+    // the result, and a single run cannot tell them apart: a message with only
+    // a :( in it comes out identical either way. So name the face that is left
+    // and point at both causes rather than guessing at one.
+    const stillHappy = message.indexOf(":)") !== -1 && out.indexOf(":)") !== -1;
+    const stillSad   = message.indexOf(":(") !== -1 && out.indexOf(":(") !== -1;
+    if (stillHappy || stillSad) {
+      const which = (stillHappy && stillSad) ? ":) and :(" : (stillHappy ? ":)" : ":(");
+      const shown = stillHappy ? '":)", SMILE' : '":(", FROWN';
+      return fail("There is still a " + which + " in your output. Check that face has a .replace() of its own, " +
+        "and that you SAVED what it handed back: message = message.replace(" + shown + ")");
+    }
+    if (message.indexOf(":)") !== -1 && out.indexOf(FACE_SMILE) === -1) {
+      return fail("That message had a :) in it, but no " + FACE_SMILE + " came out. Swap it for SMILE.");
+    }
+    if (message.indexOf(":(") !== -1 && out.indexOf(FACE_FROWN) === -1) {
+      return fail("That message had a :( in it, but no " + FACE_FROWN + " came out. Swap it for FROWN.");
+    }
+    return fail("I expected this line: " + want + "  ...but I didn't find it. The rest of the message has to come out unchanged.");
+  }
+
+  // Fete stall discount. Only the two printed amounts are graded: main() is
+  // given, so a wrong total means one of the two conversions is wrong, and the
+  // two usual wrong answers (symbol left on, percent not divided) get named.
+  function checkFete(r, price, percent) {
+    if (r.error) {
+      if (/could not convert string to float/.test(r.error)) {
+        return fail("Your code stopped: " + r.error +
+          '  (Hint: float() cannot read the $ or the %. Chop the symbol off first with d[1:] or p[:-1].)');
+      }
+      return fail("Your code stopped: " + r.error);
+    }
+    const out = String(r.output || "");
+    const saving = price * percent;
+    const money = (out.match(/\d+\.\d\d/g) || []);
+    const has = function (v) {
+      const want = v.toFixed(2);
+      return money.indexOf(want) !== -1;
+    };
+    if (has(saving) && has(price - saving)) {
+      return pass("$" + price.toFixed(2) + " less " + Math.round(percent * 100) + "% is $" + (price - saving).toFixed(2) + ".");
+    }
+    if (has(price * percent * 100)) {
+      return fail("Your discount is 100 times too big. " + Math.round(percent * 100) +
+        "% means " + Math.round(percent * 100) + " out of 100, so percent_to_float has to divide by 100.");
+    }
+    if (money.indexOf("0.00") !== -1) {
+      return fail("Everything came out as $0.00, so the two functions are still handing back the 0.0 they started with. Give back the real numbers instead.");
+    }
+    return fail("Expected to see $" + saving.toFixed(2) + " saved and $" + (price - saving).toFixed(2) +
+      " to pay, but I saw " + (money.length ? "$" + money.join(", $") : "no amounts at all") + ".");
   }
 
   function checkDouble(r, n) {
