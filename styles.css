@@ -5879,3 +5879,365 @@ body[data-xp-gate="checking"] main > * { display: none; }
 }
 .sandbox-code.has-linenums { padding-left: 56px; }
 
+
+/* ---------------------------------------------------------------------------
+   Game Ideas & Design (/topics/ideas/) and the Idea Machine (/ideas/)
+
+   Everything here is built from the palette tokens, so there is no dark-mode
+   block below: the panels are --surface on --bg, the writing is --text and
+   --muted, and the two places that use a fill (the triangles, the pipeline and
+   the win/fail boxes) use a FILL token with its matching ink, which is exactly
+   the pairing that already survives the theme flip. White on the navy
+   triangles is deliberate in both themes.
+   --------------------------------------------------------------------------- */
+
+/* The mini spinner in the lesson */
+.gd-taster {
+  background: var(--tint-warm);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 18px;
+  margin: 16px 0 10px;
+}
+.gd-taster-out {
+  margin: 0 0 14px;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--ink-warm);
+  min-height: 2.6em;
+}
+.gd-taster-actions { display: flex; flex-wrap: wrap; gap: 10px; }
+
+/* Top down / bottom up */
+.gd-tris {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 18px;
+  margin: 18px 0;
+}
+.gd-tri { margin: 0; }
+.gd-tri svg { display: block; width: 100%; height: auto; }
+.gd-tri-shape { fill: var(--primary); }
+/* White on the navy triangle: correct in light and dark, same as a button. */
+.gd-tri-word {
+  fill: #ffffff;
+  font-weight: 800;
+  font-size: 22px;
+  text-anchor: middle;
+}
+.gd-tri-arrow {
+  stroke: #ffffff;
+  stroke-width: 7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+}
+.gd-tri figcaption {
+  margin-top: 8px;
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+
+/* The win / fail skeleton */
+.gd-skeleton {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 18px;
+  margin: 16px 0;
+}
+.gd-skel {
+  display: grid;
+  grid-template-columns: 1fr minmax(140px, 1.2fr) 1fr;
+  align-items: center;
+  gap: 12px;
+}
+.gd-skel-state {
+  border-radius: var(--radius);
+  padding: 14px 12px;
+  text-align: center;
+  min-height: 104px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6px;
+}
+.gd-skel-tag {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  opacity: 0.85;
+}
+.gd-skel-state strong { font-size: 1rem; line-height: 1.35; }
+.gd-skel-fail { background: var(--danger-fill); color: #ffffff; }
+.gd-skel-win { background: var(--success); color: var(--success-ink); }
+.gd-skel-mid { display: grid; gap: 8px; }
+.gd-skel-arrow {
+  background: var(--accent);
+  color: var(--accent-ink);
+  font-weight: 700;
+  font-size: 0.85rem;
+  text-align: center;
+  padding: 12px 10px;
+  min-height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* The arrow heads are cut out of the block, so the label sits inside the shaft
+   the way it does on a whiteboard drawing. */
+.gd-skel-left {
+  clip-path: polygon(0 50%, 18% 0, 18% 22%, 100% 22%, 100% 78%, 18% 78%, 18% 100%);
+  padding-left: 22%;
+}
+.gd-skel-right {
+  clip-path: polygon(100% 50%, 82% 0, 82% 22%, 0 22%, 0 78%, 82% 78%, 82% 100%);
+  padding-right: 22%;
+}
+.gd-skel-picks {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-top: 16px;
+}
+.gd-skel-label { font-weight: 700; color: var(--muted); font-size: 0.9rem; }
+.gd-pick { padding: 6px 12px; font-size: 0.9rem; }
+.gd-pick.is-on {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: #ffffff;
+}
+@media (max-width: 640px) {
+  .gd-skel { grid-template-columns: 1fr; }
+  .gd-skel-left, .gd-skel-right {
+    clip-path: none;
+    padding: 10px;
+    border-radius: var(--radius-sm);
+  }
+}
+
+/* The nine shapes */
+.shape-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 14px;
+  margin: 16px 0;
+}
+.shape-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
+}
+.shape-card h3 { margin: 0 0 6px; font-size: 1.05rem; }
+.shape-card p { margin: 0 0 8px; font-size: 0.95rem; }
+.shape-emoji { font-size: 1.2rem; margin-right: 4px; }
+.shape-loop {
+  color: var(--muted);
+  font-size: 0.88rem !important;
+  border-left: 3px solid var(--border);
+  padding-left: 10px;
+}
+.shape-twist { color: var(--ink-cool); font-size: 0.9rem !important; margin-bottom: 0 !important; }
+
+/* Idea, prototype, planning, production, playtesting, release */
+.gd-pipe {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 18px 0;
+}
+.gd-pipe-step {
+  border-radius: var(--radius-sm);
+  padding: 12px 14px;
+  font-weight: 800;
+  font-size: 0.95rem;
+}
+.gd-pipe-warm { background: var(--accent); color: var(--accent-ink); }
+.gd-pipe-hot { background: var(--primary); color: #ffffff; }
+.gd-pipe-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--muted);
+  flex: none;
+}
+
+/* The scope cutter */
+.gd-cutter {
+  background: var(--tint-cool);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 18px;
+  margin: 16px 0;
+}
+.gd-chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+.gd-chip {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 7px 14px;
+  font: inherit;
+  font-size: 0.9rem;
+  color: var(--text);
+  cursor: pointer;
+}
+.gd-chip:hover { border-color: var(--primary); }
+.gd-chip.is-cut {
+  text-decoration: line-through;
+  opacity: 0.45;
+  background: transparent;
+}
+.gd-cutter-status {
+  margin: 0 0 12px;
+  font-weight: 700;
+  color: var(--ink-cool);
+}
+.gd-cutter-status.is-good { color: var(--success-text); }
+
+/* A source list is a footnote, not a warning, so it is quieter than a callout */
+.callout-source { background: var(--tint-neutral); font-size: 0.92rem; }
+
+/* ---- the Idea Machine --------------------------------------------------- */
+.idea-machine {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-md);
+  padding: 22px;
+}
+.im-modes { display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; }
+.im-mode {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 8px 16px;
+  font: inherit;
+  font-weight: 700;
+  color: var(--muted);
+  cursor: pointer;
+}
+.im-mode.is-on {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: #ffffff;
+}
+.im-sentence {
+  margin: 0 0 18px;
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 1.35;
+  color: var(--primary-ink);
+  min-height: 2.7em;
+}
+.im-slots {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 12px;
+  margin-bottom: 16px;
+}
+.im-slot {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.im-slot.is-locked { border-color: var(--primary); background: var(--tint-cool); }
+.im-slot-title {
+  margin: 0;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+}
+.im-slot-value { margin: 0; font-weight: 700; font-size: 1.02rem; flex: 1; }
+.im-slot-actions { display: flex; gap: 6px; }
+.im-mini { padding: 5px 11px; font-size: 0.82rem; }
+.im-slot.is-locked .im-lock {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: #ffffff;
+}
+.im-actions { display: flex; flex-wrap: wrap; gap: 10px; }
+.im-spin { font-size: 1.05rem; }
+.im-count { margin: 12px 0 0; color: var(--muted); font-size: 0.9rem; }
+
+.im-mvp {
+  margin-top: 18px;
+  background: var(--tint-warm);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px 18px;
+}
+.im-mvp-head {
+  margin: 0 0 10px;
+  font-weight: 800;
+  color: var(--ink-warm);
+}
+.im-mvp-grid {
+  margin: 0;
+  display: grid;
+  grid-template-columns: minmax(110px, auto) 1fr;
+  gap: 6px 14px;
+}
+.im-mvp-grid dt { font-weight: 700; color: var(--muted); font-size: 0.9rem; }
+.im-mvp-grid dd { margin: 0; }
+
+.im-starter { margin-top: 18px; }
+.im-starter-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+}
+.im-starter-title { font-weight: 700; color: var(--muted); font-size: 0.9rem; }
+.im-starter-links { display: flex; flex-wrap: wrap; gap: 10px; margin: 12px 0 0; }
+/* The two modes send you to different places: a game goes to the Sandbox, a
+   website has no Python in it at all. */
+.idea-machine[data-mode="game"] .im-for-web { display: none; }
+.idea-machine[data-mode="web"] .im-for-game { display: none; }
+
+.im-shortlist { margin-bottom: 10px; }
+.im-empty { color: var(--muted); margin: 0; }
+.im-kept { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.im-kept li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 10px 12px;
+}
+.im-kept li span { font-weight: 600; }
+
+.im-lists { display: grid; gap: 10px; }
+.im-list {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 12px 16px;
+}
+.im-list summary { cursor: pointer; font-weight: 700; }
+.im-list-chips { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 12px; }
+.im-list-chip {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 6px 12px;
+  font: inherit;
+  font-size: 0.88rem;
+  color: var(--text);
+  cursor: pointer;
+  text-align: left;
+}
+.im-list-chip:hover { border-color: var(--primary); color: var(--primary-ink); }

@@ -29,7 +29,8 @@
     codes:       { label: "Codes & Colour",   test: "codes", tasks: ["codes-task"], weights: [0.5, 0.5] },
     systems:     { label: "Digital Systems",  test: "systems", answers: { name: "answers-systems", total: 3 } },
     networks:    { label: "Networks & Safety", test: "networks" },
-    os:          { label: "Computer Skills",  test: "os" }
+    os:          { label: "Computer Skills",  test: "os" },
+    ideas:       { label: "Game Ideas & Design", test: "ideas", answers: { name: "answers-ideas", total: 4 } }
   };
 
   var ASSIGNMENT_INFO = {

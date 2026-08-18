@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- include: head-top -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script>
+    // Decide the theme before the page paints, or a dark-mode student gets a
+    // white flash on every single navigation. This has to be inline and it has
+    // to be here: app.js loads at the end of <body>, which is far too late.
+    // It is also the only place prefers-color-scheme is read, so the stylesheet
+    // needs just one dark block instead of two that can drift apart.
+    (function () {
+      try {
+        var saved = localStorage.getItem("itbasics-theme");
+        var dark = saved
+          ? saved === "dark"
+          : window.matchMedia("(prefers-color-scheme: dark)").matches;
+        if (dark) document.documentElement.dataset.theme = "dark";
+      } catch (e) {
+        /* Private browsing can throw on localStorage. Light is a fine default. */
+      }
+    })();
+  </script>
+  <!-- Only drives the header button. Deferred, because the theme itself is
+       already settled by the script above. -->
+  <script src="/theme.js" defer></script>
+  <!-- /include -->
+  <title>Game Ideas &amp; Design | Hallam IT Basics</title>
+  <!-- include: head-assets -->
+  <link rel="icon" type="image/svg+xml" href="/logo-binary.svg" />
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="stylesheet" href="/styles.css" />
+  <!-- /include -->
+  <!-- include: head-gate -->
+  <script>
+    (function () {
+      try {
+        if (!JSON.parse(localStorage.getItem("itbasics-session"))) {
+          location.replace("/");
+        }
+      } catch (e) { location.replace("/"); }
+    })();
+  </script>
+  <!-- /include -->
+</head>
+<body>
+  <!-- include: nav active="learn" -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/" class="logo">
+        <img class="logo-mark" src="/logo-binary.svg" alt="" width="32" height="32" />
+        <span>Hallam IT Basics</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="/">Home</a>
+        <div class="nav-dropdown" data-open="false">
+          <button type="button" class="nav-dropdown-toggle active" aria-haspopup="true" aria-expanded="false">
+            Learn
+            <svg class="nav-chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="nav-dropdown-menu" role="menu">
+            <a href="/modules/" role="menuitem">All modules</a>
+            <a href="/docs/" role="menuitem">Documentation</a>
+            <a href="/ideas/" role="menuitem">Idea Machine</a>
+            <a href="/assignments/" role="menuitem">Assignments</a>
+          </div>
+        </div>
+        <div class="nav-dropdown" data-open="false">
+          <button type="button" class="nav-dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+            Play
+            <svg class="nav-chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="nav-dropdown-menu" role="menu">
+            <a href="/sandbox/" role="menuitem">Sandbox</a>
+            <a href="/challenges/" role="menuitem">Live Coding</a>
+            <a href="/freeplay/" role="menuitem">Freeplay</a>
+            <a href="/leaderboard/" role="menuitem">Leaderboard</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- /include -->
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Game Ideas &amp; Design</p>
+        <h1>Where do ideas come from?</h1>
+        <p class="lead">"I don't know what to make" is the number one reason a project never starts. Good news: ideas are not magic, they are a method. Here is the method, plus a machine that will hand you 300,000 starting points.</p>
+        <div class="hero-ctas hero-ctas-quick">
+          <a href="/ideas/" class="btn btn-primary">Open the Idea Machine <span class="arrow" aria-hidden="true"></span></a>
+        </div>
+      </div>
+    </section>
+
+    <div class="container lesson-layout">
+      <aside class="lesson-toc" aria-label="On this page">
+        <h4>On this page</h4>
+        <ol>
+          <li><a href="#blank">The blank page</a></li>
+          <li><a href="#three">Three ways to find an idea</a></li>
+          <li><a href="#direction">Top down or bottom up</a></li>
+          <li><a href="#skeleton">The skeleton of every game</a></li>
+          <li><a href="#shapes">Nine 2D games you could build</a></li>
+          <li><a href="#mvp">Start stupidly small</a></li>
+          <li><a href="#web">The same trick for websites</a></li>
+          <li><a href="#doc">Your one page design doc</a></li>
+          <li><a href="#test">Module test</a></li>
+          <li><a href="#glossary">Glossary</a></li>
+        </ol>
+      </aside>
+
+      <article class="lesson">
+        <section id="blank">
+          <h2>1. The blank page</h2>
+          <p>Ask a professional game designer where their ideas come from and you will not hear "I sat very still and waited for lightning to strike". You will hear about a notes app full of half-thoughts, a shelf of games they have taken apart in their head, and a pile of prototypes that went nowhere.</p>
+          <p>Two things are true at once, and both are good news:</p>
+          <ul class="key-points">
+            <li><strong>Ideas are cheap.</strong> You can have ten before lunch. Nobody is going to steal yours, and nobody is going to pay you for one on its own.</li>
+            <li><strong>Ideas are made, not found.</strong> They come from a small number of moves you can practise, the same way you practise a loop or a function.</li>
+          </ul>
+          <p>The rest of this lesson is those moves, then the part everyone skips: shrinking your idea down to something you can actually finish before the end of term.</p>
+          <div class="callout">
+            <strong>Start a list today.</strong> Notes app, back of your book, anywhere. Every time a game annoys you, delights you, or makes you think "why doesn't it just...", write the sentence down. In three weeks you will have more ideas than you have lessons to build them.
+          </div>
+        </section>
+
+        <section id="three">
+          <h2>2. Three ways to find an idea</h2>
+          <p>Nearly every idea you have ever loved came from one of these three moves. None of them is cheating.</p>
+
+          <h3>Move 1: take a game you already love, and change one thing</h3>
+          <p>Pick a game you know inside out. Now break one rule of it on purpose and ask what would happen:</p>
+          <ul class="tips">
+            <li>What if Mario could not jump, only build stairs?</li>
+            <li>What if the Pac-Man ghosts were the players, and the dots ran away?</li>
+            <li>What if Flappy Bird had two birds and you steered both at once?</li>
+            <li>What if a racing game scored you on how <em>slowly</em> you could go without stopping?</li>
+          </ul>
+          <p>This is not copying. Copying is making the same game. This is asking a question the original never asked, which is where new games come from. Change one thing, keep the rest, and play the answer in your head.</p>
+
+          <h3>Move 2: combine two things that do not belong together</h3>
+          <p>Take a thing and a completely unrelated twist, and force them together. Your brain fills the gap, and the gap is the game. "Football, but the ball is a bomb." "A cooking game where the kitchen is a spaceship in a meteor shower." Half of these are rubbish. The other half are the reason the machine below exists.</p>
+          <div class="gd-taster">
+            <p class="gd-taster-out" id="gd-taster-out" aria-live="polite"></p>
+            <div class="gd-taster-actions">
+              <button type="button" class="btn btn-primary" id="gd-taster-btn">Give me another</button>
+              <a class="btn btn-ghost" href="/ideas/">Open the full Idea Machine <span class="arrow" aria-hidden="true"></span></a>
+            </div>
+          </div>
+          <p class="muted-note">Silly is fine. Silly is memorable, and a game about agile turtles running from people is far easier to picture (and to draw) than "a 2D action platformer".</p>
+
+          <h3>Move 3: be a critic</h3>
+          <p>This is the move most people never make. When you play a game, do not just enjoy it. Notice things:</p>
+          <ul class="tips">
+            <li><strong>What annoyed you?</strong> A menu you had to click through every single time. A level you failed for a reason you could not see. Fixing an annoyance is a real design idea.</li>
+            <li><strong>What was the best five seconds?</strong> Not the story, the <em>five seconds</em>. The perfect jump, the slide, the moment everything exploded. A whole small game can be built out of one great five seconds.</li>
+            <li><strong>What did they leave out?</strong> Every game cuts things. What would you have kept?</li>
+          </ul>
+          <p>Being critical is not being negative. It is taking games apart to see what makes them tick, which is exactly what a designer does all day.</p>
+
+          <div class="kcheck" data-answer="b">
+            <p class="kcheck-q"><strong>Check your understanding:</strong> You take a racing game and ask "what if the track was made of ice and there were no brakes?". Which move is that?</p>
+            <div class="kcheck-options">
+              <button type="button" class="kcheck-opt" data-key="a">Combining two unrelated things</button>
+              <button type="button" class="kcheck-opt" data-key="b">Taking a game you love and changing one thing</button>
+              <button type="button" class="kcheck-opt" data-key="c">Being a critic</button>
+              <button type="button" class="kcheck-opt" data-key="d">None of them, it is copying</button>
+            </div>
+            <p class="kcheck-feedback" hidden></p>
+            <p class="kcheck-explain" hidden>You kept the whole game and changed exactly one rule, which is move 1. It is not copying: the original never asked what happens when you take the brakes away, and the answer is a different game.</p>
+          </div>
+
+          <div class="callout callout-source">
+            <strong>Where this comes from.</strong> These three moves are the short version of advice that working developers give again and again:
+            <a href="https://gmtk.substack.com/p/how-to-find-amazing-game-ideas" target="_blank" rel="noopener">Game Maker's Toolkit on finding game ideas</a>,
+            <a href="https://abagames.github.io/joys-of-small-game-development-en/ideas/" target="_blank" rel="noopener">the ideas chapter of Joys of Small Game Development</a>,
+            and <a href="https://www.reddit.com/r/gamedev/comments/7gdl27/how_do_you_guys_come_up_with_ideas_for_your_games/" target="_blank" rel="noopener">a long r/gamedev thread on the same question</a>.
+            Worth a read when you have finished here.
+          </div>
+        </section>
+
+        <section id="direction">
+          <h2>3. Top down or bottom up</h2>
+          <p>Every idea starts at one end of the same triangle. The bottom is <strong>mechanics</strong>: the rules, the systems, what the player actually does with their fingers. The top is <strong>story, theme and experience</strong>: what it is about and how it should feel.</p>
+          <div class="gd-tris">
+            <figure class="gd-tri">
+              <svg viewBox="0 0 260 170" role="img" aria-labelledby="tri-top-title">
+                <title id="tri-top-title">A triangle with story and theme at the top and mechanics at the base, with an arrow pointing down</title>
+                <polygon class="gd-tri-shape" points="130,12 248,158 12,158" />
+                <text class="gd-tri-word" x="130" y="86"><tspan x="130">Top</tspan><tspan x="130" dy="24">down</tspan></text>
+                <path class="gd-tri-arrow" d="M130 120 L130 146" />
+                <path class="gd-tri-arrow" d="M119 136 L130 150 L141 136" />
+              </svg>
+              <figcaption><strong>Top down:</strong> you start with the feeling. "A game about being a very small thing in a very big kitchen." Then you invent rules that create that feeling.</figcaption>
+            </figure>
+            <figure class="gd-tri">
+              <svg viewBox="0 0 260 170" role="img" aria-labelledby="tri-bot-title">
+                <title id="tri-bot-title">The same triangle with an arrow pointing up from mechanics to story</title>
+                <polygon class="gd-tri-shape" points="130,12 248,158 12,158" />
+                <text class="gd-tri-word" x="130" y="132">Bottom up</text>
+                <path class="gd-tri-arrow" d="M130 116 L130 60" />
+                <path class="gd-tri-arrow" d="M119 72 L130 56 L141 72" />
+              </svg>
+              <figcaption><strong>Bottom up:</strong> you start with a rule that feels good. "What if you could stick to any wall you touched?" Then you find a theme that suits it. A spider? A magnet? Chewing gum?</figcaption>
+            </figure>
+          </div>
+          <p>Neither end is the correct one, but they fail in different ways. Top down ideas can sound amazing and turn out to be no fun to press buttons in. Bottom up ideas are fun immediately but can end up being about nothing.</p>
+          <p class="callout"><strong>For a small game, start at the bottom.</strong> A mechanic can be tested in an afternoon: build it, press the keys, see if it feels good. A theme cannot be tested until there is a game under it. Work out what the player <em>does</em> first, then decide what they are.</p>
+        </section>
+
+        <section id="skeleton">
+          <h2>4. The skeleton of every game</h2>
+          <p>Strip any game right back and the same four bones are there. Something you are trying to reach, something that ends the run, the things you do, and the things in your way.</p>
+          <div class="gd-skeleton" id="gd-skeleton">
+            <div class="gd-skel">
+              <div class="gd-skel-state gd-skel-fail">
+                <span class="gd-skel-tag">Fail state</span>
+                <strong id="sk-fail">A ghost touches you</strong>
+              </div>
+              <div class="gd-skel-mid" aria-hidden="true">
+                <div class="gd-skel-arrow gd-skel-left"><span id="sk-obstacle">Four ghosts and dead ends</span></div>
+                <div class="gd-skel-arrow gd-skel-right"><span id="sk-action">Steer, turn corners, grab a power pellet</span></div>
+              </div>
+              <div class="gd-skel-state gd-skel-win">
+                <span class="gd-skel-tag">Win state</span>
+                <strong id="sk-win">Eat every dot in the maze</strong>
+              </div>
+            </div>
+            <div class="gd-skel-picks">
+              <span class="gd-skel-label">Show me:</span>
+              <button type="button" class="btn btn-ghost gd-pick is-on">Pac-Man</button>
+              <button type="button" class="btn btn-ghost gd-pick">Flappy Bird</button>
+              <button type="button" class="btn btn-ghost gd-pick">Taxi driver</button>
+              <button type="button" class="btn btn-ghost gd-pick">Catch the eggs</button>
+            </div>
+          </div>
+          <ul class="key-points">
+            <li><strong>Win state.</strong> What counts as doing it. Even an endless game has one: "beat your last score".</li>
+            <li><strong>Fail state.</strong> What ends the run. Without one there is no tension, and without tension there is no game, just a toy.</li>
+            <li><strong>Actions.</strong> What the player's fingers actually do. Usually one or two things in a small game. Move, and maybe jump.</li>
+            <li><strong>Obstacles.</strong> What stands between the two. This is where the fun lives, so make it the interesting part.</li>
+          </ul>
+          <p>Test your own idea on this diagram before you write a line of code. If you cannot fill in all four boxes in one short sentence each, you do not have a game yet, you have a setting. That is fine, it just means the next job is inventing the missing bones.</p>
+          <div class="kcheck" data-answer="c">
+            <p class="kcheck-q"><strong>Check your understanding:</strong> A student describes "a peaceful world where you wander around a forest looking at animals". What is missing from the skeleton?</p>
+            <div class="kcheck-options">
+              <button type="button" class="kcheck-opt" data-key="a">Actions</button>
+              <button type="button" class="kcheck-opt" data-key="b">A setting</button>
+              <button type="button" class="kcheck-opt" data-key="c">A win state and a fail state</button>
+              <button type="button" class="kcheck-opt" data-key="d">Obstacles and a theme</button>
+            </div>
+            <p class="kcheck-feedback" hidden></p>
+            <p class="kcheck-explain" hidden>There is an action (wandering) and a rich setting, but nothing to reach and nothing to lose. Add a goal ("photograph all six rare animals") and a way to fail ("the sun sets in three minutes") and the same forest becomes a game.</p>
+          </div>
+        </section>
+
+        <section id="shapes">
+          <h2>5. Nine 2D games you could actually build</h2>
+          <p>Everything here can be made with the <a href="/topics/libraries/#reference">Hallam <code>game</code> library</a>: sprites, keys, collisions and a score. That is genuinely enough for all nine of these. Pick a shape, then pour your own idea into it.</p>
+          <div class="shape-grid">
+            <div class="shape-card">
+              <h3><span class="shape-emoji" aria-hidden="true">🌧️</span> Dodger</h3>
+              <p>Things fall or fly at you. Do not get hit.</p>
+              <p class="shape-loop">Move left and right &middot; things spawn at the top &middot; <code>touches()</code> ends the run.</p>
+              <p class="shape-twist"><strong>Twist it:</strong> one falling thing is good and must be caught.</p>
+            </div>
+            <div class="shape-card">
+              <h3><span class="shape-emoji" aria-hidden="true">🧺</span> Catcher</h3>
+              <p>The opposite of a dodger. Catch the good stuff before it lands.</p>
+              <p class="shape-loop">Move a basket &middot; <code>score(1)</code> on a catch &middot; three misses and you are out.</p>
+              <p class="shape-twist"><strong>Twist it:</strong> the basket shrinks every ten points.</p>
+            </div>
+            <div class="shape-card">
+              <h3><span class="shape-emoji" aria-hidden="true">🏃</span> Chaser</h3>
+              <p>Something hunts you, or you hunt it. The whole game is one clever chase.</p>
+              <p class="shape-loop">The enemy moves a little towards your <code>.x</code> each frame &middot; survive the timer.</p>
+              <p class="shape-twist"><strong>Twist it:</strong> the chaser copies the move you made one second ago.</p>
+            </div>
+            <div class="shape-card">
+              <h3><span class="shape-emoji" aria-hidden="true">🪙</span> Collector</h3>
+              <p>Grab all the things scattered around the screen before the clock runs out.</p>
+              <p class="shape-loop">Move freely &middot; each pickup <code>.hide()</code>s and scores &middot; the timer is the enemy.</p>
+              <p class="shape-twist"><strong>Twist it:</strong> every coin you take makes you slower.</p>
+            </div>
+            <div class="shape-card">
+              <h3><span class="shape-emoji" aria-hidden="true">🎯</span> Aim and click</h3>
+              <p>Targets appear, you click them. Reaction time is the whole skill.</p>
+              <p class="shape-loop"><code>clicked()</code> plus <code>at_mouse()</code> &middot; targets shrink or speed up as you improve.</p>
+              <p class="shape-twist"><strong>Twist it:</strong> one target type costs you points if you hit it.</p>
+            </div>
+            <div class="shape-card">
+              <h3><span class="shape-emoji" aria-hidden="true">⏱️</span> Timing</h3>
+              <p>One button, pressed at exactly the right moment. Easy to build, brutal to master.</p>
+              <p class="shape-loop">A bar sweeps back and forth &middot; press <code>space</code> in the green zone &middot; the zone narrows.</p>
+              <p class="shape-twist"><strong>Twist it:</strong> the bar becomes invisible for the last stretch.</p>
+            </div>
+            <div class="shape-card">
+              <h3><span class="shape-emoji" aria-hidden="true">🚗</span> Delivery run</h3>
+              <p>Get something from A to B without wrecking it. A taxi, a pizza, a full cup of tea.</p>
+              <p class="shape-loop">Steer &middot; reach the drop-off marker &middot; the clock or the damage counter ends it.</p>
+              <p class="shape-twist"><strong>Twist it:</strong> the passenger complains and changes the destination.</p>
+            </div>
+            <div class="shape-card">
+              <h3><span class="shape-emoji" aria-hidden="true">🗂️</span> Sorter</h3>
+              <p>Things arrive, each belongs somewhere. Send it left or right before the queue backs up.</p>
+              <p class="shape-loop">Arrow keys choose a bin &middot; right bin scores, wrong bin costs a life &middot; the belt speeds up.</p>
+              <p class="shape-twist"><strong>Twist it:</strong> the rules swap over halfway through.</p>
+            </div>
+            <div class="shape-card">
+              <h3><span class="shape-emoji" aria-hidden="true">🧗</span> Climber</h3>
+              <p>Get higher. Platforms, gaps, and a floor of lava that never stops rising.</p>
+              <p class="shape-loop">Jump between boxes &middot; the screen scrolls up &middot; touching the bottom ends it.</p>
+              <p class="shape-twist"><strong>Twist it:</strong> every platform disappears one second after you land on it.</p>
+            </div>
+          </div>
+          <p class="muted-note">Notice how small each one is. Not one of them needs a story, a menu, or more than two keys. That is not a limitation, that is the reason they get finished.</p>
+        </section>
+
+        <section id="mvp">
+          <h2>6. Start stupidly small: the MVP</h2>
+          <p><strong>MVP</strong> stands for <strong>Minimum Viable Product</strong>: the smallest version of your idea that someone can actually play. Not a demo of one bit. Not a menu with nothing behind it. The whole loop, tiny.</p>
+          <p>Here is the shape of a real project. Look where the prototype sits:</p>
+          <div class="gd-pipe">
+            <span class="gd-pipe-step gd-pipe-warm">Idea</span>
+            <span class="gd-pipe-dot" aria-hidden="true"></span>
+            <span class="gd-pipe-step gd-pipe-hot">Prototype</span>
+            <span class="gd-pipe-dot" aria-hidden="true"></span>
+            <span class="gd-pipe-step gd-pipe-warm">Planning</span>
+            <span class="gd-pipe-dot" aria-hidden="true"></span>
+            <span class="gd-pipe-step gd-pipe-hot">Production</span>
+            <span class="gd-pipe-dot" aria-hidden="true"></span>
+            <span class="gd-pipe-step gd-pipe-warm">Playtesting</span>
+            <span class="gd-pipe-dot" aria-hidden="true"></span>
+            <span class="gd-pipe-step gd-pipe-hot">Release</span>
+          </div>
+          <p>The prototype comes <em>before</em> the planning, and that is not a mistake. You cannot plan a game you have not felt yet. Build the ugly playable version first, in emoji, with no title screen, and find out whether the idea is any fun. If it is not, you have lost an afternoon instead of a term.</p>
+
+          <h3>The dream game problem</h3>
+          <p>Here is a student's first game plan. Every single feature is reasonable. Together they are about two years of work. Click features to cut them until three are left, and see how it feels:</p>
+          <div class="gd-cutter" id="gd-cutter">
+            <div class="gd-chips">
+              <button type="button" class="gd-chip" aria-pressed="false">Open world map</button>
+              <button type="button" class="gd-chip" aria-pressed="false">Character creator</button>
+              <button type="button" class="gd-chip" aria-pressed="false">Story with cutscenes</button>
+              <button type="button" class="gd-chip" aria-pressed="false">Three boss fights</button>
+              <button type="button" class="gd-chip" aria-pressed="false">Shop and coins</button>
+              <button type="button" class="gd-chip" aria-pressed="false">Multiplayer</button>
+              <button type="button" class="gd-chip" aria-pressed="false">Save games</button>
+              <button type="button" class="gd-chip" aria-pressed="false">Music and sound</button>
+              <button type="button" class="gd-chip" aria-pressed="false">Ten levels</button>
+              <button type="button" class="gd-chip" aria-pressed="false">Hand-drawn art</button>
+              <button type="button" class="gd-chip" aria-pressed="false">A player you can move</button>
+              <button type="button" class="gd-chip" aria-pressed="false">One thing to avoid</button>
+              <button type="button" class="gd-chip" aria-pressed="false">A score on screen</button>
+            </div>
+            <p class="gd-cutter-status" id="gd-cutter-status" aria-live="polite"></p>
+            <button type="button" class="btn btn-ghost" id="gd-cutter-reset">Put them all back</button>
+          </div>
+          <p class="muted-note">The three that have to survive are the last three: something to move, something to avoid, and a score. That is a game. Everything above it is decoration on a game that does not exist yet.</p>
+
+          <h3>Three rules for your first version</h3>
+          <ul class="key-points">
+            <li><strong>One screen.</strong> No levels, no scrolling, no menus. If it does not fit in one 480 by 360 window, it is version 2.</li>
+            <li><strong>One verb.</strong> The player does one interesting thing. Move. Or jump. Or click. Two at most, and the second one had better be worth it.</li>
+            <li><strong>One reason to fail.</strong> Exactly one. A timer, or a collision, or three misses. Not all three.</li>
+          </ul>
+          <p class="callout"><strong>The thirty second test.</strong> Hand your game to someone without saying a word. If they cannot work out what to do in thirty seconds, the problem is the game, not them. This is the single most useful thing you can do, and it costs nothing.</p>
+          <div class="kcheck" data-answer="a">
+            <p class="kcheck-q"><strong>Check your understanding:</strong> Which of these is the best MVP for "a spooky game where a ghost haunts a mansion"?</p>
+            <div class="kcheck-options">
+              <button type="button" class="kcheck-opt" data-key="a">One room, one ghost you move with arrows, one guard to avoid, a score</button>
+              <button type="button" class="kcheck-opt" data-key="b">A title screen and a menu, with the game to be added later</button>
+              <button type="button" class="kcheck-opt" data-key="c">Ten mansion rooms drawn beautifully, with no player yet</button>
+              <button type="button" class="kcheck-opt" data-key="d">The full story written out, and a plan for the code</button>
+            </div>
+            <p class="kcheck-feedback" hidden></p>
+            <p class="kcheck-explain" hidden>Only option a is playable. The other three are pieces of a game that nobody can press a key in yet, so nobody can tell you whether the idea is fun. Build the tiny playable loop first and add the mansion afterwards.</p>
+          </div>
+        </section>
+
+        <section id="web">
+          <h2>7. The same trick for websites</h2>
+          <p>Stuck for a website idea instead? The three moves work exactly the same way, and so does the MVP rule.</p>
+          <ul class="tips">
+            <li><strong>Steal a page you like.</strong> Find a site you enjoy using, and rebuild one page of it about something else entirely.</li>
+            <li><strong>Combine.</strong> A review site, but for school dinners. A fact file, but about your neighbours' cats.</li>
+            <li><strong>Be a critic.</strong> The last website that made you cross: what would you have done differently? Build that.</li>
+          </ul>
+          <p>A website MVP is even smaller than a game's. <strong>One page. One heading. One list. One picture.</strong> That is a complete, finished thing you can show someone. A menu bar linking to four empty pages is not.</p>
+          <p>The <a href="/ideas/">Idea Machine</a> has a website mode that spins you a kind of site, a topic and a twist, then tells you the smallest version to build. The <a href="/topics/html/">HTML lesson</a> covers the tags you need.</p>
+        </section>
+
+        <section id="doc">
+          <h2>8. Your one page design doc</h2>
+          <p>Before you code anything, write it down. Professionals call this a design document, and for a small game it fits on one page. It is not homework for its own sake: writing the four answers below is how you find out whether your idea has all its bones.</p>
+          <p>Answer these about the game <em>you</em> want to make. They save as you type, and your teacher can see them.</p>
+          <div class="brainbox" data-module="ideas" data-q="pitch"
+               data-prompt="The pitch, in one sentence. Who or what does the player control, and what are they trying to do?"
+               data-placeholder="You play as a... and you have to...">
+          </div>
+          <div class="brainbox" data-module="ideas" data-q="skeleton"
+               data-prompt="The skeleton: how do you win, and how do you lose?"
+               data-placeholder="You win when... You lose when...">
+          </div>
+          <div class="brainbox" data-module="ideas" data-q="mvp"
+               data-prompt="Your MVP: name the three things version 1 will have, and two things you are saving for later."
+               data-placeholder="Version 1 has... Saved for later...">
+          </div>
+          <div class="brainbox" data-module="ideas" data-q="first"
+               data-prompt="What is the very first thing you will build and test, and how will you know it works?"
+               data-placeholder="First I will... I will know it works when...">
+          </div>
+          <p class="callout"><strong>Then go and build it.</strong> The <a href="/sandbox/">Sandbox</a> is the fastest place to try a mechanic, and <a href="/assignments/game-maker/">Make Your Own Game</a> is where you turn it into something your class can play.</p>
+        </section>
+
+        <section id="test">
+          <h2>Module test</h2>
+          <p>Five quick questions on designing a game. Your best score shows on your <a href="/progress/">My Progress</a> page.</p>
+          <div class="module-test" data-test="ideas">
+            <div class="mtest-q" data-answer="c">
+              <p class="mtest-prompt">1. What does <strong>MVP</strong> stand for in a project like this?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">Most Valuable Player</button>
+                <button type="button" class="mtest-opt" data-key="b">Massive Video Project</button>
+                <button type="button" class="mtest-opt" data-key="c">Minimum Viable Product</button>
+                <button type="button" class="mtest-opt" data-key="d">Multi Version Prototype</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="b">
+              <p class="mtest-prompt">2. A game has actions, obstacles and a win state, but nothing can ever end the run. What is missing?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">A theme</button>
+                <button type="button" class="mtest-opt" data-key="b">A fail state</button>
+                <button type="button" class="mtest-opt" data-key="c">A prototype</button>
+                <button type="button" class="mtest-opt" data-key="d">A second level</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="a">
+              <p class="mtest-prompt">3. You start with the rule "you stick to any wall you touch", then decide the player is a spider. Which direction is that?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">Bottom up: mechanic first, theme after</button>
+                <button type="button" class="mtest-opt" data-key="b">Top down: theme first, mechanic after</button>
+                <button type="button" class="mtest-opt" data-key="c">Neither, that is playtesting</button>
+                <button type="button" class="mtest-opt" data-key="d">Neither, that is production</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="d">
+              <p class="mtest-prompt">4. Why does the prototype come before the planning?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">Because planning is a waste of time</button>
+                <button type="button" class="mtest-opt" data-key="b">Because the art has to be finished first</button>
+                <button type="button" class="mtest-opt" data-key="c">Because prototypes are quicker to sell</button>
+                <button type="button" class="mtest-opt" data-key="d">Because you cannot plan a game until you know whether it is fun to play</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="b">
+              <p class="mtest-prompt">5. Which of these is the best first version to build in one lesson?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">An open world with a map and a shop</button>
+                <button type="button" class="mtest-opt" data-key="b">One screen, one sprite you steer, one thing that ends the run, a score</button>
+                <button type="button" class="mtest-opt" data-key="c">A title screen, a menu and a settings page</button>
+                <button type="button" class="mtest-opt" data-key="d">Ten levels with no player in them yet</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="glossary">
+          <h2>Glossary</h2>
+          <dl class="glossary">
+            <dt>Mechanic</dt><dd>One rule of a game, and what the player does with it: jumping, stacking, reloading, sticking to walls.</dd>
+            <dt>Theme</dt><dd>What the game is dressed as. The same mechanic can be a spider, a magnet or chewing gum.</dd>
+            <dt>Win state</dt><dd>The condition that means the player has done it. Even an endless game has one: beat the last score.</dd>
+            <dt>Fail state</dt><dd>The condition that ends the run. No fail state, no tension.</dd>
+            <dt>Prototype</dt><dd>A rough, ugly, playable version built to answer one question: is this fun?</dd>
+            <dt>MVP</dt><dd>Minimum Viable Product. The smallest complete version of your idea that somebody can actually play.</dd>
+            <dt>Scope</dt><dd>How big a project is. "Scope creep" is what happens when features keep sneaking in and nothing ever gets finished.</dd>
+            <dt>Playtesting</dt><dd>Watching someone else play without helping them, and writing down what confused them.</dd>
+            <dt>Design document</dt><dd>The written plan for a game: the pitch, the rules, the win and fail states, what is in version 1.</dd>
+          </dl>
+        </section>
+
+        <div class="lesson-nav">
+          <a href="/modules/" class="btn btn-ghost"><span class="arrow back" aria-hidden="true"></span>All modules</a>
+          <a href="/ideas/" class="btn btn-primary">Open the Idea Machine <span class="arrow" aria-hidden="true"></span></a>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <!-- include: footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; Hallam IT Basics &middot; For Years 7-10 computing classes. &middot; <a class="footer-link" href="https://pyweb.qmarkapp.com/" target="_blank" rel="noopener">PyWebLib</a></p>
+    </div>
+  </footer>
+  <!-- /include -->
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+  <script src="/supabase-config.js"></script>
+  <script src="/app.js"></script>
+  <script src="/avatars.js"></script>
+  <script src="/lesson-steps.js"></script>
+  <script src="/hw-status.js"></script>
+  <script src="/xp.js"></script>
+  <script src="/xp-fx.js"></script>
+  <script src="/module-badges.js"></script>
+  <script src="/ideas.js"></script>
+  <script src="/shortanswer.js"></script>
+  <script src="/moduletest.js"></script>
+</body>
+</html>
