@@ -3657,20 +3657,33 @@ details.callout-collapse .callout-body p { margin: 0 0 10px; }
 details.callout-collapse .callout-body p:last-child { margin-bottom: 0; }
 
 /* Legacy shelf on the Modules page: collapsed, dimmed, clearly retired. */
-.legacy-block {
+.legacy-block,
+.advanced-block {
   margin-top: 36px;
   border-top: 1px solid var(--border);
   padding-top: 14px;
 }
-.legacy-block summary {
+.legacy-block summary,
+.advanced-block summary {
   cursor: pointer;
   font-weight: 700;
   color: var(--muted);
 }
-.legacy-block summary:hover { color: var(--text); }
-.legacy-note { color: var(--muted); font-size: 0.9rem; margin: 8px 0 12px; }
+.legacy-block summary:hover,
+.advanced-block summary:hover { color: var(--text); }
+.legacy-note,
+.advanced-note { color: var(--muted); font-size: 0.9rem; margin: 8px 0 12px; }
+/* Legacy pages are retired, so they are dimmed. The Advanced shelf shares the
+   shape but not the dimming: those modules are current, just optional, and a
+   faded card would read as "do not bother". */
 .legacy-block .card { opacity: 0.75; }
 .legacy-block .card:hover { opacity: 1; }
+.advanced-block summary { color: var(--text); }
+/* One card on the shelf today. auto-fit collapses the empty tracks and would
+   stretch a lone card across the whole page; auto-fill keeps it the same width
+   as the module cards above it, and the shelf grows into a row on its own as
+   more advanced modules land. */
+.advanced-block .card-grid { grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); }
 
 /* Spot the Error minigame. Deliberately unhighlighted: plain monospace text
    so students read the code the way Python does, with no colour crutch. */
