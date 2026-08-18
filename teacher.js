@@ -29,7 +29,9 @@
     { key: "systems",     label: "Digital Systems (module)",  group: "Modules & quizzes", quizzes: ["systems"],
       answersModule: "systems", answersTotal: 3, compute: computeWithAnswers("systems", "systems", 3) },
     { key: "networks",    label: "Networks & Safety test",    group: "Modules & quizzes", quizzes: ["networks"],    compute: testCompute("networks") },
-    { key: "os",          label: "Computer Skills test",      group: "Modules & quizzes", quizzes: ["os"],          compute: testCompute("os") }
+    { key: "os",          label: "Computer Skills test",      group: "Modules & quizzes", quizzes: ["os"],          compute: testCompute("os") },
+    { key: "ideas",       label: "Game Ideas & Design (module)", group: "Modules & quizzes", quizzes: ["ideas"],
+      answersModule: "ideas", answersTotal: 4, compute: computeWithAnswers("ideas", "ideas", 4) }
   ];
 
   // Assignment drafts: reads assignment_progress, which holds both the live
@@ -54,6 +56,10 @@
   // sheet instead of raw keys. Keys match data-reflect on the task pages and
   // data-q on lesson brainboxes.
   var REFLECT_LABELS = {
+    "pitch":          "The pitch: who do you control, and what are they trying to do?",
+    "skeleton":       "How do you win, and how do you lose?",
+    "mvp":            "MVP: three things in version 1, two saved for later",
+    "first":          "First thing to build, and how you will know it works",
     "device-why":     "Pick a device: which bin, and why?",
     "storage-why":    "Why does a computer need storage?",
     "ram-vs-storage": "RAM vs storage: what does each do?",

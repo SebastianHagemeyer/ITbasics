@@ -43,6 +43,27 @@ while game.playing():
 - A short "Make a game" lesson or Task 3 built on it.
 - Sound (Web Audio) - beep on catch, etc.
 
+## Game Ideas & Design module + Idea Machine - DONE (August 2026)
+
+Built because students kept stalling at "I don't know what to make". Two pages:
+
+- `topics/ideas/`: the lesson. Three ways to find an idea (change one thing in a
+  game you love, combine two things that do not belong, be a critic), top down
+  vs bottom up, the win/fail/actions/obstacles skeleton with a switcher, nine 2D
+  shapes that the Hallam `game` library can actually do, the MVP section with a
+  scope cutter, the same moves applied to websites, and a four box design doc
+  that saves as `answers-ideas`. Blends 60% test + 40% written, like Digital
+  Systems, and is registered in hw-status/progress/teacher.
+- `ideas/`: the Idea Machine. Four slots (twist, star, goal, danger) with lock
+  and re-roll, a website mode, an MVP panel derived from the slots, and starter
+  code using the star's emoji. Word lists live in `ideas.js`, which also drives
+  the lesson widgets.
+
+### Possible follow-ups (not built)
+- A teacher-set "idea of the week" seeded into the machine.
+- Publishing a shortlisted idea straight into the Game Maker design notes.
+- More word lists per year level, or a class-voted list built from a wordcloud.
+
 ## Smaller parked ideas
 
 - **Basic data SAT**: a module test on data quantities (bit/byte/KB/MB/GB

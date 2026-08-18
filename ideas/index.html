@@ -26,7 +26,7 @@
        already settled by the script above. -->
   <script src="/theme.js" defer></script>
   <!-- /include -->
-  <title>Quizzes | Hallam IT Basics</title>
+  <title>Idea Machine | Hallam IT Basics</title>
   <!-- include: head-assets -->
   <link rel="icon" type="image/svg+xml" href="/logo-binary.svg" />
   <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png" />
@@ -88,47 +88,82 @@
   <main>
     <section class="page-hero">
       <div class="container">
-        <p class="eyebrow">Check your understanding</p>
-        <h1>Quizzes</h1>
-        <p class="lead">Four short quizzes. You get instant feedback and can retake any quiz as many times as you like,your best score sticks on the leaderboard.</p>
+        <p class="eyebrow">For when you are truly stuck</p>
+        <h1>The Idea Machine</h1>
+        <p class="lead">Four slots, one silly sentence, and the smallest version of it you could actually finish. Spin until something makes you laugh, then lock the bits you like and spin the rest.</p>
       </div>
     </section>
 
     <div class="container section">
-      <div class="quiz-tabs" role="tablist">
-        <button class="quiz-tab active" data-tab="programming" role="tab">Programming</button>
-        <button class="quiz-tab" data-tab="html" role="tab">HTML</button>
-        <button class="quiz-tab" data-tab="python" role="tab">Python</button>
-        <button class="quiz-tab" data-tab="mixed" role="tab">Mixed Review</button>
+      <div class="idea-machine" id="idea-machine" data-mode="game">
+        <div class="im-modes" role="group" aria-label="What are you making?">
+          <button type="button" class="im-mode is-on" data-mode="game" aria-pressed="true">Game idea</button>
+          <button type="button" class="im-mode" data-mode="web" aria-pressed="false">Website idea</button>
+        </div>
+
+        <p class="im-sentence" id="im-sentence" aria-live="polite"></p>
+
+        <div class="im-slots" id="im-slots"></div>
+
+        <div class="im-actions">
+          <button type="button" class="btn btn-primary im-spin" id="im-spin">Spin the whole thing</button>
+          <button type="button" class="btn btn-ghost" id="im-save">Keep this one</button>
+        </div>
+        <p class="im-count" id="im-count"></p>
+
+        <div class="im-mvp" id="im-mvp"></div>
+
+        <div class="im-starter">
+          <div class="im-starter-bar">
+            <span class="im-starter-title" id="im-starter-title">Something to paste in and run</span>
+            <button type="button" class="btn btn-ghost im-mini" id="im-copy">Copy the code</button>
+          </div>
+          <pre class="code" id="im-code" data-norun data-nopreview></pre>
+          <p class="im-starter-links">
+            <a class="btn btn-ghost im-for-game" href="/sandbox/">Open the Sandbox <span class="arrow" aria-hidden="true"></span></a>
+            <a class="btn btn-ghost im-for-game" href="/assignments/game-maker/">Make Your Own Game <span class="arrow" aria-hidden="true"></span></a>
+            <a class="btn btn-ghost im-for-web" href="/topics/html/">The HTML lesson <span class="arrow" aria-hidden="true"></span></a>
+            <a class="btn btn-ghost im-for-web" href="/topics/ideas/#web">Website ideas in the lesson <span class="arrow" aria-hidden="true"></span></a>
+          </p>
+        </div>
       </div>
 
-      <section id="programming" class="quiz" aria-label="Programming quiz">
-        <h2>Programming Basics Quiz</h2>
-        <p class="section-sub">10 questions &middot; based on Module 1.</p>
-        <form class="quiz-form" data-quiz="programming"></form>
-        <div class="quiz-result" data-result="programming" hidden></div>
-      </section>
+      <h2 class="section-title">Ideas you kept</h2>
+      <p class="section-sub">Saved to your account, so they are still here next lesson.</p>
+      <div class="im-shortlist" id="im-shortlist"></div>
 
-      <section id="html" class="quiz" aria-label="HTML quiz" hidden>
-        <h2>HTML Basics Quiz</h2>
-        <p class="section-sub">10 questions &middot; based on Module 2.</p>
-        <form class="quiz-form" data-quiz="html"></form>
-        <div class="quiz-result" data-result="html" hidden></div>
-      </section>
+      <h2 class="section-title">How to use this properly</h2>
+      <div class="card-grid card-grid-small">
+        <div class="card card-small">
+          <div class="card-icon card-icon-small" style="--accent: #ffbe0b;">1</div>
+          <h3>Spin until you laugh</h3>
+          <p>The one that makes you snort is the one you will still care about in three weeks. Boring but sensible ideas do not survive week two.</p>
+        </div>
+        <div class="card card-small">
+          <div class="card-icon card-icon-small" style="--accent: #2ec4b6;">2</div>
+          <h3>Lock and re-roll</h3>
+          <p>Love the flamingos but not the maze? Lock the star, spin the rest. That is you designing, not the machine.</p>
+        </div>
+        <div class="card card-small">
+          <div class="card-icon card-icon-small" style="--accent: #7c5cff;">3</div>
+          <h3>Steal one word</h3>
+          <p>You are allowed to throw the whole sentence away and keep a single word from it. "Magnetic" on its own has started plenty of good games.</p>
+        </div>
+        <div class="card card-small">
+          <div class="card-icon card-icon-small" style="--accent: #d63c3c;">4</div>
+          <h3>Build the small version</h3>
+          <p>The panel above tells you what version 1 looks like: one thing to steer, one way to win, one way to lose. Build that first, always.</p>
+        </div>
+      </div>
 
-      <section id="python" class="quiz" aria-label="Python quiz" hidden>
-        <h2>Python Basics Quiz</h2>
-        <p class="section-sub">10 questions &middot; based on Module 3.</p>
-        <form class="quiz-form" data-quiz="python"></form>
-        <div class="quiz-result" data-result="python" hidden></div>
-      </section>
+      <h2 class="section-title">The whole word list</h2>
+      <p class="section-sub">Sometimes it is easier to read the lists and mix them yourself. Everything the machine can say is in here.</p>
+      <div class="im-lists" id="im-lists"></div>
 
-      <section id="mixed" class="quiz" aria-label="Mixed review quiz" hidden>
-        <h2>Mixed Review</h2>
-        <p class="section-sub">10 questions &middot; a bit of everything. Great for revision.</p>
-        <form class="quiz-form" data-quiz="mixed"></form>
-        <div class="quiz-result" data-result="mixed" hidden></div>
-      </section>
+      <div class="lesson-nav">
+        <a href="/topics/ideas/" class="btn btn-ghost"><span class="arrow back" aria-hidden="true"></span>Back to the design lesson</a>
+        <a href="/assignments/game-maker/" class="btn btn-primary">Go and build one <span class="arrow" aria-hidden="true"></span></a>
+      </div>
     </div>
   </main>
 
@@ -144,9 +179,8 @@
   <script src="/supabase-config.js"></script>
   <script src="/app.js"></script>
   <script src="/avatars.js"></script>
-  <script src="/hw-status.js"></script>
   <script src="/xp.js"></script>
   <script src="/xp-fx.js"></script>
-  <script src="/quiz.js"></script>
+  <script src="/ideas.js"></script>
 </body>
 </html>

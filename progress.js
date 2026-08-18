@@ -19,7 +19,8 @@
     { key: "systems",     label: "Digital Systems", href: "/topics/systems/" },
     { key: "binary",      label: "Binary & Data",  href: "/topics/binary/" },
     { key: "codes",       label: "Codes & Colour", href: "/topics/codes/" },
-    { key: "networks",    label: "Networks & Safety", href: "/topics/networks/" }
+    { key: "networks",    label: "Networks & Safety", href: "/topics/networks/" },
+    { key: "ideas",       label: "Game Ideas & Design", href: "/topics/ideas/" }
   ];
 
   // The three retired lessons. They live behind the Legacy shelf on the
@@ -83,7 +84,7 @@
       if (res.error) return { error: res.error.message, rows: [] };
       return { rows: res.data || [] };
     }
-    var names = ["programming", "html", "python", "pseudocode", "pseudocode-task", "variables", "variables-task", "strings", "strings-task", "errors", "decisions", "decisions-task", "loops", "loops-for-task", "loops-while-task", "binary", "codes", "codes-task", "systems", "networks", "os", "freeplay", "livecoding"];
+    var names = ["programming", "html", "python", "pseudocode", "pseudocode-task", "variables", "variables-task", "strings", "strings-task", "errors", "decisions", "decisions-task", "loops", "loops-for-task", "loops-while-task", "binary", "codes", "codes-task", "systems", "networks", "os", "ideas", "freeplay", "livecoding"];
     var rows = [];
     names.forEach(function (name) {
       var raw = localStorage.getItem("itbasics-attempts-" + student.code + "-" + name);
@@ -98,9 +99,11 @@
   }
 
   // Best score per module, plus Freeplay and Live Coding totals.
-  // sysAnswers is the student's saved "explain WHY" answers for the Digital
-  // Systems module (quiz_progress row "answers-systems"), or null.
-  function summarise(rows, sysAnswers) {
+  // written holds the saved written answers for the two modules that blend
+  // them in: { systems: <answers-systems>, ideas: <answers-ideas> }, either of
+  // which may be null if they have not written anything yet.
+  function summarise(rows, written) {
+    written = written || {};
     var modules = {};
     MODULES.forEach(function (m) {
       var mine = rows.filter(function (r) { return r.quiz_name === m.key; });
@@ -208,30 +211,38 @@
         : "Take the quick check and the two coding tasks"
     };
 
-    // Digital Systems blends the test (60%) with the three written
-    // "explain WHY" answers on the lesson page (40%).
-    var sysRows = rows.filter(function (r) { return r.quiz_name === "systems"; });
-    var sysBest = 0, sysTotal = 0, sysPct = 0;
-    if (sysRows.length) {
-      var sb2 = sysRows.reduce(function (a, r) { return r.score > a.score ? r : a; }, sysRows[0]);
-      sysTotal = sysRows.reduce(function (t, r) { return Math.max(t, r.total || 0); }, 0);
-      sysBest = sb2.score;
-      sysPct = sysTotal ? Math.round((sysBest / sysTotal) * 100) : 0;
+    // Two modules blend the test (60%) with the written answers on their
+    // lesson page (40%): Digital Systems explains WHY, Game Ideas & Design
+    // writes the design doc. Same sum, so it is one function.
+    function blendWritten(key, answers, wanted, testOutOf, todo) {
+      var testRows = rows.filter(function (r) { return r.quiz_name === key; });
+      var best = 0, outOf = 0, testPct = 0;
+      if (testRows.length) {
+        var top = testRows.reduce(function (a, r) { return r.score > a.score ? r : a; }, testRows[0]);
+        outOf = testRows.reduce(function (t, r) { return Math.max(t, r.total || 0); }, 0);
+        best = top.score;
+        testPct = outOf ? Math.round((best / outOf) * 100) : 0;
+      }
+      var count = 0;
+      if (answers) {
+        count = Object.keys(answers).filter(function (k) {
+          return String(answers[k] || "").trim().length >= 15;
+        }).length;
+      }
+      var attempted = testRows.length > 0 || count > 0;
+      modules[key] = {
+        attempted: attempted,
+        pct: Math.round(0.6 * testPct + 40 * Math.min(1, count / wanted)),
+        note: attempted
+          ? ("Test " + best + "/" + (outOf || testOutOf) + " · Answers " + count + "/" + wanted)
+          : todo
+      };
     }
-    var sysWritten = 0;
-    if (sysAnswers) {
-      sysWritten = Object.keys(sysAnswers).filter(function (k) {
-        return String(sysAnswers[k] || "").trim().length >= 15;
-      }).length;
-    }
-    var attemptedSys = sysRows.length > 0 || sysWritten > 0;
-    modules.systems = {
-      attempted: attemptedSys,
-      pct: Math.round(0.6 * sysPct + 40 * Math.min(1, sysWritten / 3)),
-      note: attemptedSys
-        ? ("Test " + sysBest + "/" + (sysTotal || 10) + " · Answers " + sysWritten + "/3")
-        : "Take the test and write the three answers on the lesson page"
-    };
+
+    blendWritten("systems", written.systems, 3, 10,
+      "Take the test and write the three answers on the lesson page");
+    blendWritten("ideas", written.ideas, 4, 5,
+      "Take the test and fill in the design doc on the lesson page");
 
     var freeplay = rows
       .filter(function (r) { return r.quiz_name === "freeplay"; })
@@ -393,9 +404,10 @@
       status.textContent = "Couldn't load your progress. " + result.error;
       return;
     }
-    var sysAnswers = null;
-    try { sysAnswers = await window.ITBasics.loadProgress("answers-systems"); } catch (e) { /* fine */ }
-    render(student, summarise(result.rows, sysAnswers));
+    var written = {};
+    try { written.systems = await window.ITBasics.loadProgress("answers-systems"); } catch (e) { /* fine */ }
+    try { written.ideas = await window.ITBasics.loadProgress("answers-ideas"); } catch (e) { /* fine */ }
+    render(student, summarise(result.rows, written));
 
     var subs = await loadSubmissions(student);
     var assignBox = el("progress-assignments");

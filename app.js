@@ -541,11 +541,16 @@
     var path = location.pathname.replace(/index\.html$/, "");
     var chev = '<svg class="nav-chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>';
     // Learn gives access to all the modules (via the /modules/ hub), the
-    // searchable documentation and the marked assignments. Play holds the
-    // interactive bits plus the leaderboard and the gallery.
+    // searchable documentation, the Idea Machine and the marked assignments.
+    // Play holds the interactive bits plus the leaderboard and the gallery.
+    // The Idea Machine sits under Learn rather than Play for the same reason
+    // the gallery is not in Play at all: four items is already the point where
+    // a menu starts to look busy, and the machine belongs next to the design
+    // lesson that explains what to do with what it gives you.
     var learn = [
       { href: "/modules/", label: "All modules" },
       { href: "/docs/", label: "Documentation" },
+      { href: "/ideas/", label: "Idea Machine" },
       { href: "/assignments/", label: "Assignments" }
     ];
     // The Game Gallery is deliberately not in here. Five items made the menu
@@ -576,7 +581,8 @@
     nav.innerHTML =
       '<a href="/"' + (path === "/" ? ' class="active"' : '') + '>Home</a>' +
       // Learn lights up on any lesson or quiz page, not only its two menu links.
-      dropdown("Learn", learn, ["/modules/", "/docs/", "/assignments/", "/topics/", "/quizzes/"]) +
+      dropdown("Learn", learn, ["/modules/", "/docs/", "/ideas/", "/assignments/",
+                                "/topics/", "/quizzes/"]) +
       // The gallery is not a menu item any more, but standing in it should
       // still light this section up.
       dropdown("Play", play, ["/sandbox/", "/challenges/", "/freeplay/",
