@@ -716,7 +716,16 @@
     { name: "Taxi driver", win: "Deliver the passenger", fail: "Time runs out",
       action: "Reckless driving", obstacle: "A ticking clock" },
     { name: "Catch the eggs", win: "Catch 20 eggs", fail: "You miss three eggs",
-      action: "Slide the basket left and right", obstacle: "Eggs fall faster and faster" }
+      action: "Slide the basket left and right", obstacle: "Eggs fall faster and faster" },
+    // The two that prove the rule is not a law. Their missing bones are drawn
+    // as empty boxes rather than left blank, because "there isn't one" is the
+    // thing worth seeing.
+    { name: "Minecraft (2010)", win: "Nothing. There was no way to finish", noWin: true,
+      fail: "You die, and drop everything you were carrying",
+      action: "Mine, craft, build, explore", obstacle: "Night, monsters, hunger and gravity" },
+    { name: "RollerCoaster Tycoon (sandbox)", win: "Nothing. The park just runs", noWin: true,
+      fail: "Nothing forced. You can always keep building", noFail: true,
+      action: "Build rides, set prices, hire staff", obstacle: "Money, queues and guests who hate your coaster" }
   ];
 
   function initSkeleton() {
@@ -730,6 +739,10 @@
       text(fail, sk.fail);
       text(action, sk.action);
       text(obstacle, sk.obstacle);
+      // A missing bone is drawn as an empty outline, not a coloured box: a
+      // sandbox has no win state, and the diagram should say so out loud.
+      if (win && win.parentNode) win.parentNode.classList.toggle("is-empty", Boolean(sk.noWin));
+      if (fail && fail.parentNode) fail.parentNode.classList.toggle("is-empty", Boolean(sk.noFail));
       Array.prototype.forEach.call(host.querySelectorAll(".gd-pick"), function (b) {
         b.classList.toggle("is-on", b === btn);
       });

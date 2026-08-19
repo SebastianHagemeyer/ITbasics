@@ -104,7 +104,7 @@
           <li><a href="#blank">The blank page</a></li>
           <li><a href="#three">Three ways to find an idea</a></li>
           <li><a href="#direction">Top down or bottom up</a></li>
-          <li><a href="#skeleton">The skeleton of every game</a></li>
+          <li><a href="#skeleton">The skeleton of most games</a></li>
           <li><a href="#shapes">Nine 2D games you could build</a></li>
           <li><a href="#mvp">Start stupidly small</a></li>
           <li><a href="#web">The same trick for websites</a></li>
@@ -214,8 +214,8 @@
         </section>
 
         <section id="skeleton">
-          <h2>4. The skeleton of every game</h2>
-          <p>Strip any game right back and the same four bones are there. Something you are trying to reach, something that ends the run, the things you do, and the things in your way.</p>
+          <h2>4. The skeleton of most games</h2>
+          <p>Strip most games right back and the same four bones are there. Something you are trying to reach, something that ends the run, the things you do, and the things in your way. Try the last two buttons for the games where some of those bones are simply missing.</p>
           <div class="gd-skeleton" id="gd-skeleton">
             <div class="gd-skel">
               <div class="gd-skel-state gd-skel-fail">
@@ -237,18 +237,29 @@
               <button type="button" class="btn btn-ghost gd-pick">Flappy Bird</button>
               <button type="button" class="btn btn-ghost gd-pick">Taxi driver</button>
               <button type="button" class="btn btn-ghost gd-pick">Catch the eggs</button>
+              <button type="button" class="btn btn-ghost gd-pick">Minecraft (2010)</button>
+              <button type="button" class="btn btn-ghost gd-pick">RollerCoaster Tycoon (sandbox)</button>
             </div>
           </div>
           <ul class="key-points">
-            <li><strong>Win state.</strong> What counts as doing it. Even an endless game has one: "beat your last score".</li>
-            <li><strong>Fail state.</strong> What ends the run. Without one there is no tension, and without tension there is no game, just a toy.</li>
+            <li><strong>Win state.</strong> What counts as doing it. Even an endless game usually has one: "beat your last score". Sandboxes are the exception, see below.</li>
+            <li><strong>Fail state.</strong> What ends the run. Without one there is no tension, and a game with no tension is a sandbox: a real kind of game, and a different one. Decide which you are making.</li>
             <li><strong>Actions.</strong> What the player's fingers actually do. Usually one or two things in a small game. Move, and maybe jump.</li>
             <li><strong>Obstacles.</strong> What stands between the two. This is where the fun lives, so make it the interesting part.</li>
           </ul>
           <p class="callout"><strong>You do not need a character.</strong> Plenty of games have nobody to be: in Cookie Clicker you are not the cookie, in Whack-a-Mole you are not the mole, and Tetris, tower defence and most puzzle games have no hero at all. You act on the world with a mouse instead of steering somebody around it. The four bones are exactly the same, which is the point of having them.</p>
-          <p>Test your own idea on this diagram before you write a line of code. If you cannot fill in all four boxes in one short sentence each, you do not have a game yet, you have a setting. That is fine, it just means the next job is inventing the missing bones.</p>
+          <div class="callout">
+            <strong>"Most games", not "every game".</strong>
+            <p>Plenty of games break this diagram on purpose, and they are not broken games.</p>
+            <ul class="key-points">
+              <li><strong>Sandboxes and simulators.</strong> RollerCoaster Tycoon in sandbox mode has nothing to win and nothing to lose: you build the park and watch it run. Its scenarios do set targets, which is the interesting bit, the same game plays completely differently once somebody bolts a goal onto it. The Sims, city builders and flight simulators sit in the same place: the fun is the system, not the finish line.</li>
+              <li><strong>Games change.</strong> Minecraft had no win state at all for its first two and a half years. There was a way to lose, a creeper at 2am, but nothing that counted as finishing. A win condition, beat the Ender Dragon and the credits roll, only arrived on 18 November 2011, with the Java Edition 1.0.0 release announced at Minecon. It was already one of the biggest games in the world without one.</li>
+            </ul>
+            <p>So use the four bones as a tool, not a law. If your idea fills all four, you know it will hold together. If it does not, ask the honest question: is this a sandbox on purpose, or is it a game I have not finished designing?</p>
+          </div>
+          <p>Either way, test your own idea on the diagram before you write a line of code, and if you are building a sandbox, give version 1 something to aim at anyway while you are testing it. A target is how you find out whether your systems actually work. You can always take it out again.</p>
           <div class="kcheck" data-answer="c">
-            <p class="kcheck-q"><strong>Check your understanding:</strong> A student describes "a peaceful world where you wander around a forest looking at animals". What is missing from the skeleton?</p>
+            <p class="kcheck-q"><strong>Check your understanding:</strong> A student describes "a peaceful world where you wander around a forest looking at animals". They want it to have some tension. What is missing from the skeleton?</p>
             <div class="kcheck-options">
               <button type="button" class="kcheck-opt" data-key="a">Actions</button>
               <button type="button" class="kcheck-opt" data-key="b">A setting</button>
@@ -256,7 +267,7 @@
               <button type="button" class="kcheck-opt" data-key="d">Obstacles and a theme</button>
             </div>
             <p class="kcheck-feedback" hidden></p>
-            <p class="kcheck-explain" hidden>There is an action (wandering) and a rich setting, but nothing to reach and nothing to lose. Add a goal ("photograph all six rare animals") and a way to fail ("the sun sets in three minutes") and the same forest becomes a game.</p>
+            <p class="kcheck-explain" hidden>There is an action (wandering) and a rich setting, but nothing to reach and nothing to lose. Add a goal ("photograph all six rare animals") and a way to fail ("the sun sets in three minutes") and the same forest gets its tension. Leave them out and it is a sandbox, which is a perfectly good thing to build on purpose, just not the thing they asked for.</p>
           </div>
         </section>
 
@@ -433,7 +444,7 @@
               </div>
             </div>
             <div class="mtest-q" data-answer="b">
-              <p class="mtest-prompt">2. A game has actions, obstacles and a win state, but nothing can ever end the run. What is missing?</p>
+              <p class="mtest-prompt">2. You want your game to have tension. It has actions, obstacles and a win state, but nothing can ever end the run. What is missing?</p>
               <div class="mtest-opts">
                 <button type="button" class="mtest-opt" data-key="a">A theme</button>
                 <button type="button" class="mtest-opt" data-key="b">A fail state</button>
@@ -476,11 +487,12 @@
           <dl class="glossary">
             <dt>Mechanic</dt><dd>One rule of a game, and what the player does with it: jumping, stacking, reloading, sticking to walls.</dd>
             <dt>Theme</dt><dd>What the game is dressed as. The same mechanic can be a spider, a magnet or chewing gum.</dd>
-            <dt>Win state</dt><dd>The condition that means the player has done it. Even an endless game has one: beat the last score.</dd>
-            <dt>Fail state</dt><dd>The condition that ends the run. No fail state, no tension.</dd>
+            <dt>Win state</dt><dd>The condition that means the player has done it. Even an endless game usually has one: beat the last score. Sandboxes go without.</dd>
+            <dt>Fail state</dt><dd>The condition that ends the run. No fail state, no tension, which is exactly what makes a sandbox a sandbox.</dd>
             <dt>Prototype</dt><dd>A rough, ugly, playable version built to answer one question: is this fun?</dd>
             <dt>MVP</dt><dd>Minimum Viable Product. The smallest complete version of your idea that somebody can actually play.</dd>
             <dt>Scope</dt><dd>How big a project is. "Scope creep" is what happens when features keep sneaking in and nothing ever gets finished.</dd>
+            <dt>Sandbox game</dt><dd>A game with no win state, and often no fail state: the system is the point. Minecraft, The Sims, most city builders.</dd>
             <dt>Playtesting</dt><dd>Watching someone else play without helping them, and writing down what confused them.</dd>
             <dt>Design document</dt><dd>The written plan for a game: the pitch, the rules, the win and fail states, what is in version 1.</dd>
           </dl>

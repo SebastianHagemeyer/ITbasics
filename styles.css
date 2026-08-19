@@ -5984,6 +5984,13 @@ body[data-xp-gate="checking"] main > * { display: none; }
 .gd-skel-state strong { font-size: 1rem; line-height: 1.35; }
 .gd-skel-fail { background: var(--danger-fill); color: #ffffff; }
 .gd-skel-win { background: var(--success); color: var(--success-ink); }
+/* Sandboxes are missing a bone or two on purpose. An empty outline says "there
+   is no win state here" far better than a green box claiming there is one. */
+.gd-skel-state.is-empty {
+  background: transparent;
+  border: 2px dashed var(--border);
+  color: var(--muted);
+}
 .gd-skel-mid { display: grid; gap: 8px; }
 .gd-skel-arrow {
   background: var(--accent);
