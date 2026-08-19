@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- include: head-top -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script>
+    // Decide the theme before the page paints, or a dark-mode student gets a
+    // white flash on every single navigation. This has to be inline and it has
+    // to be here: app.js loads at the end of <body>, which is far too late.
+    // It is also the only place prefers-color-scheme is read, so the stylesheet
+    // needs just one dark block instead of two that can drift apart.
+    (function () {
+      try {
+        var saved = localStorage.getItem("itbasics-theme");
+        var dark = saved
+          ? saved === "dark"
+          : window.matchMedia("(prefers-color-scheme: dark)").matches;
+        if (dark) document.documentElement.dataset.theme = "dark";
+      } catch (e) {
+        /* Private browsing can throw on localStorage. Light is a fine default. */
+      }
+    })();
+  </script>
+  <!-- Only drives the header button. Deferred, because the theme itself is
+       already settled by the script above. -->
+  <script src="/theme.js" defer></script>
+  <!-- /include -->
+  <title>The Terminal | Hallam IT Basics</title>
+  <!-- include: head-assets -->
+  <link rel="icon" type="image/svg+xml" href="/logo-binary.svg" />
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="stylesheet" href="/styles.css" />
+  <!-- /include -->
+  <!-- include: head-gate -->
+  <script>
+    (function () {
+      try {
+        if (!JSON.parse(localStorage.getItem("itbasics-session"))) {
+          location.replace("/");
+        }
+      } catch (e) { location.replace("/"); }
+    })();
+  </script>
+  <!-- /include -->
+</head>
+<body>
+  <!-- include: nav active="learn" -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/" class="logo">
+        <img class="logo-mark" src="/logo-binary.svg" alt="" width="32" height="32" />
+        <span>Hallam IT Basics</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="/">Home</a>
+        <div class="nav-dropdown" data-open="false">
+          <button type="button" class="nav-dropdown-toggle active" aria-haspopup="true" aria-expanded="false">
+            Learn
+            <svg class="nav-chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="nav-dropdown-menu" role="menu">
+            <a href="/modules/" role="menuitem">All modules</a>
+            <a href="/docs/" role="menuitem">Documentation</a>
+            <a href="/ideas/" role="menuitem">Idea Machine</a>
+            <a href="/assignments/" role="menuitem">Assignments</a>
+          </div>
+        </div>
+        <div class="nav-dropdown" data-open="false">
+          <button type="button" class="nav-dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+            Play
+            <svg class="nav-chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="nav-dropdown-menu" role="menu">
+            <a href="/sandbox/" role="menuitem">Sandbox</a>
+            <a href="/challenges/" role="menuitem">Live Coding</a>
+            <a href="/freeplay/" role="menuitem">Freeplay</a>
+            <a href="/leaderboard/" role="menuitem">Leaderboard</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- /include -->
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">The Terminal</p>
+        <h1>The oldest window on your computer</h1>
+        <p class="lead">Black background, blinking cursor, no buttons anywhere. It looks like the bit you are not supposed to touch. It's actually the oldest and plainest way to talk to a computer, and once you know where it came from, none of it is scary.</p>
+        <div class="hero-ctas hero-ctas-quick">
+          <a href="#try" class="btn btn-primary">Jump to the terminal you can type in <span class="arrow" aria-hidden="true"></span></a>
+        </div>
+      </div>
+    </section>
+
+    <div class="container lesson-layout">
+      <aside class="lesson-toc" aria-label="On this page">
+        <h4>On this page</h4>
+        <ol>
+          <li><a href="#what">Typing instead of clicking</a></li>
+          <li><a href="#name">Why "terminal"?</a></li>
+          <li><a href="#teletype">It used to print on paper</a></li>
+          <li><a href="#glass">From paper to glass</a></li>
+          <li><a href="#shell">Terminal or shell?</a></li>
+          <li><a href="#python">Terminal or Python shell?</a></li>
+          <li><a href="#try">Have a go</a></li>
+          <li><a href="#commands">The cheat sheet</a></li>
+          <li><a href="#careful">Never paste what you cannot read</a></li>
+          <li><a href="#test">Module test</a></li>
+          <li><a href="#glossary">Glossary</a></li>
+        </ol>
+      </aside>
+
+      <article class="lesson">
+        <section id="what">
+          <h2>1. Typing instead of clicking</h2>
+          <p>Everything you do by clicking, you could do by typing instead. Open a folder, copy a file, rename fifty photos, start a program. The <strong>terminal</strong> is the window where you type those instructions, one line at a time, and the computer types back.</p>
+          <p>That sounds like the slow way round, and for opening one folder it is. It stops being the slow way the moment there are fifty folders, or you have to do the same job every Monday, because a typed command can be saved, repeated and sent to somebody else. You cannot email somebody a mouse movement.</p>
+          <div class="callout">
+            <strong>You will not break anything by looking.</strong> Opening a terminal and typing the commands on this page is about as risky as opening a folder. The genuinely dangerous part is pasting in a command you do not understand, and there's a whole section on that below.
+          </div>
+        </section>
+
+        <section id="name">
+          <h2>2. Why is it called a "terminal"?</h2>
+          <p>Because it was the <em>end of the line</em>. Same word as a bus terminus, and the same word as when a program terminates: the end.</p>
+          <p>In the 1960s and 70s a computer was a room. One extremely expensive machine, and dozens of people who all needed a turn on it. So you did not sit at the computer, you sat at a <strong>terminal</strong>: a keyboard and a screen (or a printer) on the end of a long cable, with the actual computer somewhere down the corridor.</p>
+          <p>The terminal itself could not compute anything. It sent your keystrokes down the wire and displayed whatever came back. That is exactly why they were called <strong>dumb terminals</strong>, and it's not an insult: all the thinking happened at the other end.</p>
+          <p class="muted-note">The word never went away. In the <a href="/topics/networks/">Networks</a> lesson you will meet an <strong>endpoint</strong>: a device sitting at the end of a network connection. Same idea, sixty years later, with the cable replaced by wifi.</p>
+          <div class="kcheck" data-answer="b">
+            <p class="kcheck-q"><strong>Check your understanding:</strong> Why were the first terminals called "dumb"?</p>
+            <div class="kcheck-options">
+              <button type="button" class="kcheck-opt" data-key="a">They kept breaking down</button>
+              <button type="button" class="kcheck-opt" data-key="b">They did no computing themselves, they just sent keys and showed the reply</button>
+              <button type="button" class="kcheck-opt" data-key="c">They could only show numbers</button>
+              <button type="button" class="kcheck-opt" data-key="d">They were cheap to build</button>
+            </div>
+            <p class="kcheck-feedback" hidden></p>
+            <p class="kcheck-explain" hidden>A dumb terminal was a keyboard and a display on the end of a wire. Every calculation happened on the big computer down the corridor, and the terminal just carried your typing there and painted the answer.</p>
+          </div>
+        </section>
+
+        <section id="teletype">
+          <h2>3. It used to print on paper. That's why it's <code>print</code></h2>
+          <p>Before screens were cheap, a terminal was an electric typewriter. You typed a line, it clattered off down the wire, and the computer's answer was <em>typed back onto a roll of paper</em>. The famous one was the Teletype Model 33, from 1963, and programmers worked on machines like it for years.</p>
+          <p>That is not a bit of trivia you can safely forget, because you use it every single lesson:</p>
+          <ul class="key-points">
+            <li><strong><code>print()</code> is named after an actual printer.</strong> When you write <code>print("Hello")</code> in Python, you are using the word that meant the machine physically printed your text onto paper. The name outlived the paper by fifty years.</li>
+            <li><strong><code>\n</code> is a lever.</strong> The <em>line feed</em> rolled the paper up one line. The <em>carriage return</em> shoved the print head back to the left margin. Two separate physical actions, which is why Windows text files still end their lines with both (<code>\r\n</code>) and Mac and Linux with just one (<code>\n</code>).</li>
+            <li><strong>Linux and macOS still call terminals <code>tty</code>.</strong> Short for teletype. Open a terminal on a Mac, type <code>tty</code>, and it will answer with something like <code>/dev/ttys003</code>. You are being told which teletype you are sitting at, on a machine that has never seen one.</li>
+          </ul>
+          <div class="kcheck" data-answer="c">
+            <p class="kcheck-q"><strong>Check your understanding:</strong> Why is Python's output command called <code>print</code>?</p>
+            <div class="kcheck-options">
+              <button type="button" class="kcheck-opt" data-key="a">Because it was shorter than "display"</button>
+              <button type="button" class="kcheck-opt" data-key="b">Because it sends the text to your printer</button>
+              <button type="button" class="kcheck-opt" data-key="c">Because the first terminals really did print the answer onto paper</button>
+              <button type="button" class="kcheck-opt" data-key="d">Because it was named after a person called Print</button>
+            </div>
+            <p class="kcheck-feedback" hidden></p>
+            <p class="kcheck-explain" hidden>Early terminals were electric typewriters, so the computer's reply was printed onto a roll of paper. The screen replaced the paper, the word stayed. <code>print()</code> does not touch your printer.</p>
+          </div>
+        </section>
+
+        <section id="glass">
+          <h2>4. From paper to glass</h2>
+          <p>Screens arrived and terminals became <strong>glass teletypes</strong>: same job, no paper, no noise, no forest destroyed. The most famous was the DEC VT100 in 1978, and it mattered so much that we are still copying it today.</p>
+          <ul class="tips">
+            <li><strong>Colours.</strong> The VT100 understood short bursts of odd-looking characters that meant "go red now" or "move the cursor up two lines". Those are called <strong>escape codes</strong>, and they are still how a terminal does colour in 2026.</li>
+            <li><strong>80 characters wide.</strong> A VT100 screen was 80 columns across, because the punched cards before it were 80 columns across. That is why so much code is still written to fit in 80 characters a line, on screens the size of a door.</li>
+            <li><strong>The one on your laptop is a copy.</strong> Terminal, iTerm, PowerShell, the black window in VS Code: they are <strong>terminal emulators</strong>, software pretending to be a hardware terminal from 1978. There's no terminal in your laptop. There's a program drawing one.</li>
+          </ul>
+        </section>
+
+        <section id="shell">
+          <h2>5. Terminal or shell? They are different things</h2>
+          <p>People use the two words for the same window, and they are not the same thing.</p>
+          <ul class="key-points">
+            <li><strong>The terminal</strong> is the window: the black rectangle, the font, the cursor, the scrollbar. It shows characters and collects your keystrokes. That's all it does.</li>
+            <li><strong>The shell</strong> is the program running inside it that actually reads your command and does something about it. On a Mac that is usually <code>zsh</code>, on Linux usually <code>bash</code>, on Windows <code>PowerShell</code> or the older <code>cmd</code>.</li>
+          </ul>
+          <p>The window is the letterbox; the shell is the person who reads the post. Now look at what the shell prints while it waits for you, which is called the <strong>prompt</strong>:</p>
+          <div class="term-anatomy">
+            <p class="term-anatomy-line">sam@laptop:~/Homework$</p>
+            <dl class="term-anatomy-key">
+              <dt>sam</dt><dd>who you are logged in as</dd>
+              <dt>laptop</dt><dd>which machine you are on</dd>
+              <dt>~/Homework</dt><dd>which folder you are standing in. <code>~</code> is your home folder</dd>
+              <dt>$</dt><dd>the shell saying it is your turn to type</dd>
+            </dl>
+            <p class="term-anatomy-line">C:\Users\sam\Homework&gt;</p>
+            <dl class="term-anatomy-key">
+              <dt>C:\Users\sam\Homework</dt><dd>the same folder, spelled the Windows way</dd>
+              <dt>&gt;</dt><dd>the same "your turn to type"</dd>
+            </dl>
+          </div>
+          <p>Everything before the <code>$</code> or the <code>&gt;</code> is the shell telling you where you are. Read it before every command, and half of all terminal confusion disappears: nearly every "it says no such file" is really "you are not standing in the folder you thought you were".</p>
+          <div class="kcheck" data-answer="a">
+            <p class="kcheck-q"><strong>Check your understanding:</strong> Which part is the <em>shell</em>?</p>
+            <div class="kcheck-options">
+              <button type="button" class="kcheck-opt" data-key="a">The program that reads your command and runs it, like zsh or PowerShell</button>
+              <button type="button" class="kcheck-opt" data-key="b">The black window with the cursor in it</button>
+              <button type="button" class="kcheck-opt" data-key="c">The font the text is drawn in</button>
+              <button type="button" class="kcheck-opt" data-key="d">The cable to the computer</button>
+            </div>
+            <p class="kcheck-feedback" hidden></p>
+            <p class="kcheck-explain" hidden>The terminal is the window that shows characters. The shell is the program inside it that understands <code>cd</code> and <code>dir</code> and decides what happens. You can run the same shell in a different terminal, and the same terminal can run a different shell.</p>
+          </div>
+        </section>
+
+        <section id="python">
+          <h2>6. Terminal or Python shell? Also different</h2>
+          <p>If you use <strong>IDLE</strong> at school, you have already met a window with a prompt in it, and it's not a terminal. Two different prompts, two different languages:</p>
+          <table class="data-table">
+            <thead><tr><th></th><th>A system terminal</th><th>The Python shell (IDLE, or the Sandbox here)</th></tr></thead>
+            <tbody>
+              <tr><td><strong>Speaks</strong></td><td>Commands for the whole computer: <code>cd</code>, <code>dir</code>, <code>python</code></td><td>Python, and only Python</td></tr>
+              <tr><td><strong>Prompt</strong></td><td><code>$</code> or <code>&gt;</code></td><td><code>&gt;&gt;&gt;</code></td></tr>
+              <tr><td><strong>Typing <code>print("hi")</code></strong></td><td>"command not found", it isn't a computer command</td><td>Prints <code>hi</code></td></tr>
+              <tr><td><strong>Typing <code>dir</code></strong></td><td>Lists the folder</td><td>An error, unless you mean Python's own <code>dir()</code></td></tr>
+              <tr><td><strong>It is</strong></td><td>Text, and the whole machine behind it</td><td>A friendlier, Python-only place built for learning</td></tr>
+            </tbody>
+          </table>
+          <p>They meet in one place: from a terminal you can type <code>python hello.py</code> and the terminal starts Python for you, hands it your file, and prints whatever your program prints. IDLE's Run button is doing the same job with a button on it. That's the whole difference: the terminal drives the computer, the Python shell drives Python.</p>
+        </section>
+
+        <section id="try">
+          <h2>7. Have a go</h2>
+          <p>This is a pretend terminal. Nothing in it is real, so nothing you type can go wrong. Type <code>help</code> and press Enter, then have a poke around. Press the up arrow to bring back your last command, the way a real one does.</p>
+          <div class="term" id="term" data-mode="unix">
+            <div class="term-bar">
+              <span class="term-title">pretend terminal</span>
+              <span class="term-dialects">
+                <button type="button" class="term-dialect is-on" data-dialect="unix" aria-pressed="true">macOS &amp; Linux</button>
+                <button type="button" class="term-dialect" data-dialect="win" aria-pressed="false">Windows</button>
+                <button type="button" class="term-dialect" id="term-reset">Start again</button>
+              </span>
+            </div>
+            <div class="term-screen"></div>
+            <label class="term-inputline">
+              <span class="term-prompt"></span>
+              <input type="text" class="term-input" spellcheck="false" autocomplete="off"
+                     autocapitalize="off" autocorrect="off" aria-label="Type a command" />
+            </label>
+          </div>
+          <div class="term-goals">
+            <p class="term-goals-head">Three things to do in there:</p>
+            <ul>
+              <li class="term-goal" data-goal="look">List what's inside <code>Homework/Term1</code></li>
+              <li class="term-goal" data-goal="read">Read <code>notes.txt</code></li>
+              <li class="term-goal" data-goal="echo">Make the computer say something back with <code>echo</code></li>
+            </ul>
+            <p class="term-goals-done" id="term-goals-done" hidden>All three. You have just navigated a file system without touching a mouse.</p>
+          </div>
+          <div class="callout">
+            <strong>So is this a real terminal? No. And the honest word for it is not "pseudoterminal" either.</strong>
+            <p>A <strong>pseudoterminal</strong> is a genuine thing with a job: when your Terminal app opens, the operating system hands it a pretend cable, so the shell can carry on believing it is wired to a 1978 machine with a keyboard on the end. The shell is fooled on purpose, and everything it does is real. Type <code>tty</code> in a real terminal and the name it prints is one of those.</p>
+            <p>This one is not fooling any shell, because there isn't one. There's no operating system on the other end and no files: just a web page reading your words and deciding what to print. The right word is a <strong>simulator</strong>. A flight simulator is not a pseudo-aeroplane.</p>
+          </div>
+        </section>
+
+        <section id="commands">
+          <h2>8. The cheat sheet</h2>
+          <p>The commands split into two families, because Windows grew up separately from macOS and Linux. Learn one column, and recognise the other.</p>
+          <table class="data-table">
+            <thead><tr><th>What you want</th><th>macOS &amp; Linux</th><th>Windows</th></tr></thead>
+            <tbody>
+              <tr><td>Where am I?</td><td><code>pwd</code></td><td><code>cd</code></td></tr>
+              <tr><td>What is in this folder?</td><td><code>ls</code></td><td><code>dir</code></td></tr>
+              <tr><td>Go into a folder</td><td><code>cd Homework</code></td><td><code>cd Homework</code></td></tr>
+              <tr><td>Go back out one</td><td><code>cd ..</code></td><td><code>cd ..</code></td></tr>
+              <tr><td>Print a text file</td><td><code>cat notes.txt</code></td><td><code>type notes.txt</code></td></tr>
+              <tr><td>Make a folder</td><td><code>mkdir Term3</code></td><td><code>mkdir Term3</code></td></tr>
+              <tr><td>Copy a file</td><td><code>cp a.txt b.txt</code></td><td><code>copy a.txt b.txt</code></td></tr>
+              <tr><td>Wipe the screen</td><td><code>clear</code></td><td><code>cls</code></td></tr>
+              <tr><td>Run a Python file</td><td><code>python3 hello.py</code></td><td><code>python hello.py</code></td></tr>
+            </tbody>
+          </table>
+          <p class="muted-note">Two habits worth stealing on day one: press <kbd>Tab</kbd> to finish a name you have started typing (the shell knows what is in the folder, and it never makes typos), and press the up arrow to bring back the command you just ran instead of typing it again.</p>
+        </section>
+
+        <section id="careful">
+          <h2>9. Never paste what you cannot read</h2>
+          <p>Everything above is safe. Here is the one rule that keeps it that way.</p>
+          <p>A command does exactly what it says, instantly, to your real files, without an "are you sure?" and usually without an undo. Deleting a folder full of work is one short line. So is downloading a program from a stranger and running it.</p>
+          <p>This is why a very old scam still works: a website or a video says "your computer is slow, just paste this into the terminal to fix it". The command is deliberately long and full of things that look technical. People paste it. It's ransomware.</p>
+          <div class="callout callout-danger">
+            <strong>The habit:</strong> if you did not write it and cannot say what every word of it does, do not paste it into a terminal. Not from a forum, not from a video, not from a chatbot, not from a friend who says it worked for them. Ask somebody who can read it, or look up the words one at a time. Nothing you actually need is ever a mystery command from a stranger.
+          </div>
+          <div class="kcheck" data-answer="d">
+            <p class="kcheck-q"><strong>Check your understanding:</strong> A video says to fix your slow laptop by pasting a long command into the terminal. What do you do?</p>
+            <div class="kcheck-options">
+              <button type="button" class="kcheck-opt" data-key="a">Paste it, the video had a lot of views</button>
+              <button type="button" class="kcheck-opt" data-key="b">Paste it, but close the terminal quickly afterwards</button>
+              <button type="button" class="kcheck-opt" data-key="c">Type it out by hand instead, that is safer</button>
+              <button type="button" class="kcheck-opt" data-key="d">Do not run it until somebody can tell you what every part of it does</button>
+            </div>
+            <p class="kcheck-feedback" hidden></p>
+            <p class="kcheck-explain" hidden>Typing it by hand is exactly as dangerous as pasting it: the computer cannot tell the difference. Views and likes are not a safety check either. The only real check is understanding the command, or asking somebody who does.</p>
+          </div>
+        </section>
+
+        <section id="test">
+          <h2>Module test</h2>
+          <p>Five questions on the terminal. Your best score shows on your <a href="/progress/">My Progress</a> page.</p>
+          <div class="module-test" data-test="terminal">
+            <div class="mtest-q" data-answer="b">
+              <p class="mtest-prompt">1. Where does the name "terminal" come from?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">It terminates programs</button>
+                <button type="button" class="mtest-opt" data-key="b">It sat at the end of a line to a computer in another room</button>
+                <button type="button" class="mtest-opt" data-key="c">It was invented by a company called Terminal</button>
+                <button type="button" class="mtest-opt" data-key="d">It is the last window you open before shutting down</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="c">
+              <p class="mtest-prompt">2. Why is Python's <code>print()</code> called print?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">It sends your text to a printer</button>
+                <button type="button" class="mtest-opt" data-key="b">It is short for "print screen"</button>
+                <button type="button" class="mtest-opt" data-key="c">Early terminals printed the computer's answer onto paper</button>
+                <button type="button" class="mtest-opt" data-key="d">Because printing is faster than displaying</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="a">
+              <p class="mtest-prompt">3. What is the difference between a terminal and a shell?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">The terminal is the window; the shell is the program that reads your commands</button>
+                <button type="button" class="mtest-opt" data-key="b">The shell is the window; the terminal is the keyboard</button>
+                <button type="button" class="mtest-opt" data-key="c">They are two words for exactly the same thing</button>
+                <button type="button" class="mtest-opt" data-key="d">A shell only works on Windows</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="d">
+              <p class="mtest-prompt">4. You see the prompt <code>&gt;&gt;&gt;</code>. What are you typing into?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">A Windows command prompt</button>
+                <button type="button" class="mtest-opt" data-key="b">A folder</button>
+                <button type="button" class="mtest-opt" data-key="c">A text file</button>
+                <button type="button" class="mtest-opt" data-key="d">A Python shell, so it only understands Python</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="b">
+              <p class="mtest-prompt">5. On macOS or Linux, which command lists what is in the folder you are standing in?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">cd</button>
+                <button type="button" class="mtest-opt" data-key="b">ls</button>
+                <button type="button" class="mtest-opt" data-key="c">cat</button>
+                <button type="button" class="mtest-opt" data-key="d">echo</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="glossary">
+          <h2>Glossary</h2>
+          <dl class="glossary">
+            <dt>Terminal</dt><dd>The window that shows text and collects your keystrokes. Named after the terminals on the end of a cable to a shared computer.</dd>
+            <dt>Terminal emulator</dt><dd>The program on your laptop that draws a terminal. Terminal, PowerShell and the panel in VS Code are all emulators of hardware from the 1970s.</dd>
+            <dt>Dumb terminal</dt><dd>A terminal with no computing power of its own: it sent keys down the wire and displayed the reply.</dd>
+            <dt>Teletype (tty)</dt><dd>An electric typewriter used as a terminal. Linux and macOS still name terminal devices after them.</dd>
+            <dt>Shell</dt><dd>The program that reads your commands and runs them: zsh, bash, PowerShell, cmd.</dd>
+            <dt>Prompt</dt><dd>What the shell prints while it waits for you. It usually says who you are and which folder you are standing in.</dd>
+            <dt>Python shell</dt><dd>A prompt that only understands Python, like IDLE's window or the <code>&gt;&gt;&gt;</code> you get by typing <code>python</code>. Not the same as a terminal.</dd>
+            <dt>Pseudoterminal</dt><dd>The pretend cable the operating system gives a terminal emulator so the shell believes it is talking to real hardware.</dd>
+            <dt>Escape code</dt><dd>A short burst of characters that means "change colour" or "move the cursor". How terminals have done colour since the VT100.</dd>
+          </dl>
+        </section>
+
+        <div class="lesson-nav">
+          <a href="/topics/os/" class="btn btn-ghost"><span class="arrow back" aria-hidden="true"></span>Computer Skills</a>
+          <a href="/sandbox/" class="btn btn-primary">Go and write some Python <span class="arrow" aria-hidden="true"></span></a>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <!-- include: footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; Hallam IT Basics &middot; For Years 7-10 computing classes. &middot; <a class="footer-link" href="https://pyweb.qmarkapp.com/" target="_blank" rel="noopener">PyWebLib</a></p>
+    </div>
+  </footer>
+  <!-- /include -->
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+  <script src="/supabase-config.js"></script>
+  <script src="/app.js"></script>
+  <script src="/avatars.js"></script>
+  <script src="/lesson-steps.js"></script>
+  <script src="/hw-status.js"></script>
+  <script src="/xp.js"></script>
+  <script src="/xp-fx.js"></script>
+  <script src="/module-badges.js"></script>
+  <script src="/terminal.js"></script>
+  <script src="/moduletest.js"></script>
+</body>
+</html>

@@ -31,7 +31,8 @@
     { key: "networks",    label: "Networks & Safety test",    group: "Modules & quizzes", quizzes: ["networks"],    compute: testCompute("networks") },
     { key: "os",          label: "Computer Skills test",      group: "Modules & quizzes", quizzes: ["os"],          compute: testCompute("os") },
     { key: "ideas",       label: "Game Ideas & Design (module)", group: "Modules & quizzes", quizzes: ["ideas"],
-      answersModule: "ideas", answersTotal: 4, compute: computeWithAnswers("ideas", "ideas", 4) }
+      answersModule: "ideas", answersTotal: 4, compute: computeWithAnswers("ideas", "ideas", 4) },
+    { key: "terminal",    label: "The Terminal (module)",      group: "Modules & quizzes", quizzes: ["terminal"],   compute: testCompute("terminal") }
   ];
 
   // Assignment drafts: reads assignment_progress, which holds both the live

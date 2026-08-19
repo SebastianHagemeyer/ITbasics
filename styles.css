@@ -6120,6 +6120,10 @@ body[data-xp-gate="checking"] main > * { display: none; }
 
 /* A source list is a footnote, not a warning, so it is quieter than a callout */
 .callout-source { background: var(--tint-neutral); font-size: 0.92rem; }
+/* The one callout on the site that is a warning rather than an aside: the
+   don't-paste-strange-commands rule. --danger is the ink here, not a fill, so
+   it is the stripe and the writing stays --text. */
+.callout-danger { background: var(--danger-bg); border-left-color: var(--danger); }
 
 /* ---- the Idea Machine --------------------------------------------------- */
 .idea-machine {
@@ -6274,3 +6278,136 @@ body[data-xp-gate="checking"] main > * { display: none; }
   text-align: left;
 }
 .im-list-chip:hover { border-color: var(--primary); color: var(--primary-ink); }
+
+/* ---------------------------------------------------------------------------
+   The Terminal module (/topics/terminal/)
+
+   The pretend terminal is a dark instrument in both themes, the same call the
+   Screen Lab makes: a terminal that turns white in light mode stops looking
+   like a terminal. It borrows --code-bg and --code-text, so it sits at the same
+   depth as every code block on the site rather than being its own hardcoded
+   black.
+   --------------------------------------------------------------------------- */
+.term {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  margin: 16px 0;
+  background: var(--code-bg);
+  cursor: text;
+}
+.term-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 8px 12px;
+  background: rgba(255, 255, 255, 0.06);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+.term-title {
+  color: #b9c0e0;
+  font-size: 0.82rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.term-dialects { display: flex; gap: 6px; flex-wrap: wrap; }
+.term-dialect {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #cfd5f0;
+  border-radius: 999px;
+  padding: 4px 11px;
+  font: inherit;
+  font-size: 0.78rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.term-dialect:hover { border-color: rgba(255, 255, 255, 0.45); }
+.term-dialect.is-on { background: #ffffff; color: #14172c; border-color: #ffffff; }
+.term-screen {
+  height: 260px;
+  overflow-y: auto;
+  padding: 12px 14px 4px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--code-text);
+}
+/* Scoped to .term because these are <p> elements inside article.lesson, whose
+   own paragraph spacing is more specific than a bare class and would otherwise
+   double-space the transcript. */
+.term .term-line { margin: 0; white-space: pre-wrap; word-break: break-word; }
+.term-echo { color: #9fb4e8; }
+.term-dim { color: #8a93bb; }
+.term-dir { color: #7fd3ff; }
+.term-err { color: #ff9d9d; }
+.term-inputline {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  padding: 6px 14px 12px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.9rem;
+}
+.term-prompt { color: #7fe3a1; white-space: nowrap; }
+.term-input {
+  flex: 1;
+  min-width: 0;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--code-text);
+  font: inherit;
+  caret-color: #7fe3a1;
+}
+
+/* The three little goals under the terminal */
+.term-goals {
+  background: var(--tint-cool);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 18px;
+  margin-bottom: 16px;
+}
+.term-goals-head { margin: 0 0 8px; font-weight: 700; }
+.term-goals ul { margin: 0; padding-left: 22px; }
+.term-goal { color: var(--ink-cool); }
+.term-goal.is-done { color: var(--success-text); text-decoration: line-through; }
+.term-goal.is-done::marker { content: "\2713  "; }
+.term-goals-done { margin: 10px 0 0; font-weight: 700; color: var(--success-text); }
+
+/* Pulling the prompt apart. Labels hanging under each piece of the line was
+   the obvious drawing and the wrong one: four notes under one short line
+   overlap each other and everything below them. A key underneath survives long
+   labels, narrow phones and translation. */
+.term-anatomy {
+  background: var(--code-bg);
+  border-radius: var(--radius);
+  padding: 16px 18px;
+  margin: 16px 0;
+  overflow-x: auto;
+}
+.term-anatomy-line {
+  margin: 0 0 10px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 1rem;
+  color: #7fe3a1;
+  white-space: nowrap;
+}
+.term-anatomy-key {
+  margin: 0 0 20px;
+  display: grid;
+  grid-template-columns: minmax(70px, max-content) 1fr;
+  gap: 4px 16px;
+  font-size: 0.9rem;
+}
+.term-anatomy-key:last-child { margin-bottom: 0; }
+.term-anatomy-key dt {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  color: var(--code-text);
+  white-space: nowrap;
+}
+.term-anatomy-key dd { margin: 0; color: #a7afd4; }
+.term-anatomy-key dd code { background: rgba(255, 255, 255, 0.1); color: inherit; }
