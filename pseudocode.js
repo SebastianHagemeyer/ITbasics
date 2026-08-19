@@ -124,7 +124,7 @@
     { line: 'IF age >= 18 THEN', answer: "decision",
       why: "An IF asks a question with two ways out, Yes and No. That is always the diamond." },
     { line: 'END', answer: "terminator",
-      why: "END stops the program, so it is a terminator, exactly like BEGIN." }
+      why: "END stops the program, so it's a terminator, exactly like BEGIN." }
   ];
 
   function initShapeGame() {

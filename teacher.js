@@ -31,7 +31,8 @@
     { key: "networks",    label: "Networks & Safety test",    group: "Modules & quizzes", quizzes: ["networks"],    compute: testCompute("networks") },
     { key: "os",          label: "Computer Skills test",      group: "Modules & quizzes", quizzes: ["os"],          compute: testCompute("os") },
     { key: "ideas",       label: "Game Ideas & Design (module)", group: "Modules & quizzes", quizzes: ["ideas"],
-      answersModule: "ideas", answersTotal: 4, compute: computeWithAnswers("ideas", "ideas", 4) }
+      answersModule: "ideas", answersTotal: 4, compute: computeWithAnswers("ideas", "ideas", 4) },
+    { key: "terminal",    label: "The Terminal (module)",      group: "Modules & quizzes", quizzes: ["terminal"],   compute: testCompute("terminal") }
   ];
 
   // Assignment drafts: reads assignment_progress, which holds both the live
@@ -819,7 +820,7 @@
   async function startTool() {
     if (!window.ITBasics || !window.ITBasics.isOnline()) {
       el("teacher-status").textContent =
-        "This page needs the Supabase database (it is offline right now).";
+        "This page needs the Supabase database (it's offline right now).";
       return;
     }
     try { await loadHomeworkRows(); } catch (e) { /* table may not exist yet */ }

@@ -68,7 +68,7 @@
     },
     {
       title: "Odd or even",
-      desc: "Ask for a number and say if it is odd or even.",
+      desc: "Ask for a number and say if it's odd or even.",
       code:
         'n = int(input("Pick a number: "))\n' +
         "if n % 2 == 0:\n" +

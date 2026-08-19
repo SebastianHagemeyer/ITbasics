@@ -117,9 +117,9 @@ name <span class="c-op">=</span> <span class="c-string">"Sam"</span>
 
 <span class="c-keyword">print</span>(age)
 <span class="c-keyword">print</span>(name)</pre>
-          <p>Once a value is in the box, you use the <em>name</em> and Python swaps in the value. Notice <code>print(age)</code> has no quotes: quotes would print the literal word <code>age</code> instead of opening the box.</p>
+          <p>Once a value is in the box, you use the <em>name</em> and Python swaps in the value. Notice <code>print(age)</code> doesn't have quotes: quotes would print the literal word <code>age</code> instead of opening the box.</p>
           <div class="callout">
-            <strong>Two kinds of value already:</strong> <code>12</code> is a number, <code>"Sam"</code> is text (a <em>string</em>, next lesson's star). Numbers have no quotes; text always has quotes.
+            <strong>Two kinds of value already:</strong> <code>12</code> is a number (an <em>integer</em>), <code>"Sam"</code> is text (a <em>string</em>, next lesson's star). Numbers have no quotes; text always has quotes.
           </div>
         </section>
 
@@ -134,7 +134,7 @@ score <span class="c-op">=</span> <span class="c-num">10</span>      <span class
 
 score <span class="c-op">=</span> score <span class="c-op">+</span> <span class="c-num">5</span>  <span class="c-comment"># take the 10, add 5, store 15 back</span>
 <span class="c-keyword">print</span>(score)</pre>
-          <p>That last line is the most important pattern in this lesson. Read it right-to-left: <em>work out</em> <code>score + 5</code> first, <em>then</em> store the answer back into <code>score</code>. Every game score, every counter, every level-up works exactly like this.</p>
+          <p>That last line is the most important pattern in this lesson. Read it right-to-left: <em>work out</em> <code>score + 5</code> first, <em>then</em> store the answer back into <code>score</code>. Every game score and every level-up works exactly like this.</p>
         </section>
 
         <section id="names">
@@ -150,7 +150,7 @@ score <span class="c-op">=</span> score <span class="c-op">+</span> <span class=
             </tbody>
           </table>
           <div class="callout">
-            <strong>Pick names that say what is inside.</strong> <code>pet_age</code> beats <code>x</code> every time. In a week you will reread your code and thank yourself.
+            <strong>Pick names that say what's inside.</strong> <code>pet_age</code> beats <code>x</code> every time. In a week you will reread your code and thank yourself.
           </div>
         </section>
 
@@ -167,9 +167,9 @@ total <span class="c-op">=</span> price <span class="c-op">*</span> how_many
 
         <section id="input">
           <h2>5. Filling the box from the keyboard</h2>
-          <p>Variables get powerful when the <em>user</em> fills them. <code>input()</code> shows a question, waits for typing, and hands you whatever they typed, ready to store:</p>
+          <p>Variables get powerful when the <em>user</em> fills them. <code>input()</code> shows a question and waits. Whatever they type comes back to you, ready to store:</p>
           <pre class="code" data-inputs='["Alex"]'>name <span class="c-op">=</span> <span class="c-keyword">input</span>(<span class="c-string">"What is your name? "</span>)
-<span class="c-keyword">print</span>(<span class="c-string">"Nice to meet you,"</span> , name)</pre>
+<span class="c-keyword">print</span>(<span class="c-string">"Nice to meet you,"</span>, name)</pre>
           <p>Same box idea: the value just arrives from the keyboard instead of being typed into the code. Whoever runs the program gets a different, personal answer.</p>
         </section>
 
@@ -225,7 +225,7 @@ total <span class="c-op">=</span> price <span class="c-op">*</span> how_many
             <div class="mtest-q" data-answer="b">
               <p class="mtest-prompt">What does <code>age = age + 1</code> mean?</p>
               <div class="mtest-opts">
-                <button type="button" class="mtest-opt" data-key="a">It is an error: a variable cannot use itself</button>
+                <button type="button" class="mtest-opt" data-key="a">It's an error: a variable cannot use itself</button>
                 <button type="button" class="mtest-opt" data-key="b">Take the current value of age, add 1, store the answer back</button>
                 <button type="button" class="mtest-opt" data-key="c">Make a second variable also called age</button>
                 <button type="button" class="mtest-opt" data-key="d">Compare age with age + 1</button>

@@ -91,7 +91,7 @@
       <div class="container">
         <p class="eyebrow">Planning &middot; Before you write any code</p>
         <h1>Pseudocode &amp; Flowcharts</h1>
-        <p class="lead">Every program is thought out before it is typed. Pseudocode is that thinking, written down: plain English arranged like code. Flowcharts are the same plan drawn as shapes. Both turn up in the exam, so this module teaches you to <em>write</em> them, not just recognise them.</p>
+        <p class="lead">Every program is thought out before it's typed. Pseudocode is that thinking, written down: plain English arranged like code. Flowcharts are the same plan drawn as shapes. Both turn up in the exam, so this module teaches you to <em>write</em> them, not just recognise them.</p>
       </div>
     </section>
 
@@ -114,15 +114,15 @@
       <article class="lesson">
         <section id="what">
           <h2>1. What pseudocode actually is</h2>
-          <p><strong>Pseudocode</strong> means &ldquo;fake code&rdquo;. It is a plan for a program, written in short English sentences and laid out like code, with the important words in CAPITALS.</p>
+          <p><strong>Pseudocode</strong> means &ldquo;fake code&rdquo;. It's a plan for a program, written in short English sentences and laid out like code, with the important words in CAPITALS.</p>
           <p>The thing to get straight first: <strong>no computer ever runs pseudocode</strong>. A person reads it. That is the whole point of it existing.</p>
           <ul class="key-points">
             <li><strong>It has no fussy rules.</strong> No colons, no brackets, no semicolons to forget. You cannot get a syntax error, because nothing is checking.</li>
             <li><strong>It works for any language.</strong> The same plan can be turned into Python, Java, JavaScript or C#. The plan is the idea; the language is just how you spell it.</li>
-            <li><strong>It is how you think first and type second.</strong> Sort out <em>what</em> the program does while it is cheap to change your mind, then translate.</li>
-            <li><strong>It is on the exam.</strong> Writing pseudocode shows you can think like a programmer without the marker needing to check whether you remembered Python&rsquo;s punctuation.</li>
+            <li><strong>It's how you think first and type second.</strong> Sort out <em>what</em> the program does while it's cheap to change your mind, then translate.</li>
+            <li><strong>It's on the exam.</strong> Writing pseudocode shows you can think like a programmer without the marker needing to check whether you remembered Python&rsquo;s punctuation.</li>
           </ul>
-          <p>Think of a recipe. &ldquo;Boil the water, add the pasta, wait 10 minutes, drain it.&rdquo; Nobody can eat the recipe. It is instructions for a human, in order, and that is exactly what pseudocode is for a program.</p>
+          <p>Think of a recipe. &ldquo;Boil the water, add the pasta, wait 10 minutes, drain it.&rdquo; Nobody can eat the recipe. They're instructions for a human, in order, and that's exactly what pseudocode is for a program.</p>
 
           <div class="split-two">
             <div class="split-col">
@@ -148,7 +148,7 @@
               <button type="button" class="kcheck-opt" data-key="d">It turns itself into Python automatically</button>
             </div>
             <p class="kcheck-feedback" hidden></p>
-            <p class="kcheck-explain" hidden>Pseudocode is a plan. It is written to be read by a person, so nothing runs it. You translate it into a real language yourself.</p>
+            <p class="kcheck-explain" hidden>Pseudocode is a plan. It's written to be read by a person, so nothing runs it. You translate it into a real language yourself.</p>
           </div>
         </section>
 
@@ -277,9 +277,9 @@
           <div class="kcheck" data-answer="b">
             <p class="kcheck-q"><strong>Check your understanding:</strong> Why is the decision shape a diamond and not a rectangle?</p>
             <div class="kcheck-options">
-              <button type="button" class="kcheck-opt" data-key="a">Because it is the most important step</button>
-              <button type="button" class="kcheck-opt" data-key="b">Because it is the only step with two ways out, Yes and No</button>
-              <button type="button" class="kcheck-opt" data-key="c">Because it is always last</button>
+              <button type="button" class="kcheck-opt" data-key="a">Because it's the most important step</button>
+              <button type="button" class="kcheck-opt" data-key="b">Because it's the only step with two ways out, Yes and No</button>
+              <button type="button" class="kcheck-opt" data-key="c">Because it's always last</button>
               <button type="button" class="kcheck-opt" data-key="d">Because it takes input from the keyboard</button>
             </div>
             <p class="kcheck-feedback" hidden></p>
@@ -321,14 +321,14 @@
 
         <section id="writing">
           <h2>4. Writing an IF, line by line</h2>
-          <p>This is the bit worth practising, because it is the bit the exam asks for. We will build one up a line at a time. The job: <em>ask how tall someone is, and tell them whether they can go on the ride (140 cm or more).</em></p>
+          <p>This is the bit worth practising, because it's the bit the exam asks for. We will build one up a line at a time. The job: <em>ask how tall someone is, and tell them whether they can go on the ride (140 cm or more).</em></p>
 
           <p><strong>Step 1.</strong> Every program is wrapped in <code>BEGIN</code> and <code>END</code>. Write those first and fill in the middle.</p>
           <pre class="code"><span class="c-keyword">BEGIN</span>
 
 <span class="c-keyword">END</span></pre>
 
-          <p><strong>Step 2.</strong> Ask the question. Asking is something the user sees, so it is an <code>OUTPUT</code>.</p>
+          <p><strong>Step 2.</strong> Ask the question. Asking is something the user sees, so it's an <code>OUTPUT</code>.</p>
           <pre class="code"><span class="c-keyword">BEGIN</span>
     <span class="c-keyword">OUTPUT</span> <span class="c-string">"How tall are you in cm?"</span>
 
@@ -361,7 +361,7 @@
     <span class="c-keyword">ENDIF</span>
 <span class="c-keyword">END</span></pre>
 
-          <p>That is the finished answer, and it is the same skeleton every question of this type wants:</p>
+          <p>That is the finished answer, and it's the same skeleton every question of this type wants:</p>
           <ul class="key-points">
             <li><strong>Ask, then read.</strong> An <code>OUTPUT</code> question, then an <code>INPUT</code> that stores the answer in a variable.</li>
             <li><strong>Test the variable.</strong> The <code>IF</code> line has to mention the thing you just read in. Testing anything else scores nothing.</li>
@@ -422,7 +422,7 @@
           <p>Three ways of drawing the same box round the same two lines. Java writes <code>}</code>, pseudocode writes <code>ENDIF</code>, and Python has nothing to write at all: <strong>in Python the block ends when the indenting stops</strong>. That is why a stray space matters so much in Python and matters not at all in Java.</p>
 
           <div class="callout">
-            <strong>So do I indent my pseudocode?</strong> Yes. Pseudocode does both: <code>ENDIF</code> for the marker to see, and indentation so the shape reads at a glance. Indenting is never wrong, and it is the habit that saves you when you move to Python.
+            <strong>So do I indent my pseudocode?</strong> Yes. Pseudocode does both: <code>ENDIF</code> for the marker to see, and indentation so the shape reads at a glance. Indenting is never wrong, and it's the habit that saves you when you move to Python.
           </div>
 
           <div class="kcheck" data-answer="d">
@@ -440,7 +440,7 @@
 
         <section id="build">
           <h2>6. Put the lines in order</h2>
-          <p>Here are the nine lines of a weather program, shuffled. It should ask how hot it is, then say <em>Hot day</em> if it is 30 or more and <em>Not too bad</em> if it is not.</p>
+          <p>Here are the nine lines of a weather program, shuffled. It should ask how hot it is, then say <em>Hot day</em> if it is 30 or more and <em>Not too bad</em> if it's not.</p>
           <p>Tap the lines in the right order. The indenting is drawn in for you, so watch the shape appear. Tap a line you have already placed to take it back out.</p>
           <div class="lineup" id="lineup"></div>
         </section>
@@ -557,7 +557,7 @@
               </div>
             </div>
             <div class="mtest-q" data-answer="c">
-              <p class="mtest-prompt">A program says one thing when the answer is right and something different when it is wrong. Which keyword gives you the second message?</p>
+              <p class="mtest-prompt">A program says one thing when the answer is right and something different when it's wrong. Which keyword gives you the second message?</p>
               <div class="mtest-opts">
                 <button type="button" class="mtest-opt" data-key="a">THEN</button>
                 <button type="button" class="mtest-opt" data-key="b">ENDIF</button>
@@ -568,10 +568,10 @@
             <div class="mtest-q" data-answer="a">
               <p class="mtest-prompt">In pseudocode, what does the single <code>=</code> in <code>IF name = "Sam" THEN</code> mean?</p>
               <div class="mtest-opts">
-                <button type="button" class="mtest-opt" data-key="a">Is equal to (it is asking a question)</button>
+                <button type="button" class="mtest-opt" data-key="a">Is equal to (it's asking a question)</button>
                 <button type="button" class="mtest-opt" data-key="b">Store "Sam" in name</button>
                 <button type="button" class="mtest-opt" data-key="c">Is not equal to</button>
-                <button type="button" class="mtest-opt" data-key="d">Nothing, it is a mistake</button>
+                <button type="button" class="mtest-opt" data-key="d">Nothing, it's a mistake</button>
               </div>
             </div>
             <div class="mtest-q" data-answer="d">
@@ -596,7 +596,7 @@
             <ol>
               <li>asks the user for the password</li>
               <li>prints <em>Welcome in</em> if the password is <strong>equal to</strong> <code>hallam</code></li>
-              <li>prints <em>Access denied</em> if it is not</li>
+              <li>prints <em>Access denied</em> if it's not</li>
             </ol>
             <p class="muted-note">Note the difference from the voting question: that one tested <em>18 or older</em> with <code>&gt;=</code>. This one tests <em>is exactly equal to</em>, so you need <code>=</code> (or <code>EQUALS</code>) instead.</p>
           </div>
@@ -617,7 +617,7 @@
             <details class="pw-model" hidden>
               <summary>Show one full-mark answer</summary>
               <pre class="code"></pre>
-              <p class="muted-note">Yours does not have to match this word for word. As long as the input is stored, the <code>IF</code> tests it against the password, and both messages sit on the right branch, it is worth the marks.</p>
+              <p class="muted-note">Yours does not have to match this word for word. As long as the input is stored, the <code>IF</code> tests it against the password, and both messages sit on the right branch, it's worth the marks.</p>
             </details>
           </div>
 

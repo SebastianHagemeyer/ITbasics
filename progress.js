@@ -20,7 +20,8 @@
     { key: "binary",      label: "Binary & Data",  href: "/topics/binary/" },
     { key: "codes",       label: "Codes & Colour", href: "/topics/codes/" },
     { key: "networks",    label: "Networks & Safety", href: "/topics/networks/" },
-    { key: "ideas",       label: "Game Ideas & Design", href: "/topics/ideas/" }
+    { key: "ideas",       label: "Game Ideas & Design", href: "/topics/ideas/" },
+    { key: "terminal",    label: "The Terminal",   href: "/topics/terminal/" }
   ];
 
   // The three retired lessons. They live behind the Legacy shelf on the
@@ -84,7 +85,7 @@
       if (res.error) return { error: res.error.message, rows: [] };
       return { rows: res.data || [] };
     }
-    var names = ["programming", "html", "python", "pseudocode", "pseudocode-task", "variables", "variables-task", "strings", "strings-task", "errors", "decisions", "decisions-task", "loops", "loops-for-task", "loops-while-task", "binary", "codes", "codes-task", "systems", "networks", "os", "ideas", "freeplay", "livecoding"];
+    var names = ["programming", "html", "python", "pseudocode", "pseudocode-task", "variables", "variables-task", "strings", "strings-task", "errors", "decisions", "decisions-task", "loops", "loops-for-task", "loops-while-task", "binary", "codes", "codes-task", "systems", "networks", "os", "ideas", "terminal", "freeplay", "livecoding"];
     var rows = [];
     names.forEach(function (name) {
       var raw = localStorage.getItem("itbasics-attempts-" + student.code + "-" + name);

@@ -120,13 +120,13 @@
 
 roll <span class="c-op">=</span> random.randint(<span class="c-num">1</span>, <span class="c-num">6</span>)
 <span class="c-keyword">print</span>(<span class="c-string">"You rolled a"</span>, roll)</pre>
-          <p class="callout"><strong>Watch the brackets.</strong> It is <code>random.randint(<strong>1, 6</strong>)</code> with <em>two</em> numbers: the lowest and the highest you want. A common slip is writing <code>random.randint(1)</code> with just one number, which crashes, because the computer has no idea where the range should stop.</p>
+          <p class="callout"><strong>Watch the brackets.</strong> It's <code>random.randint(<strong>1, 6</strong>)</code> with <em>two</em> numbers: the lowest and the highest you want. A common slip is writing <code>random.randint(1)</code> with just one number, which crashes, because the computer has no idea where the range should stop.</p>
           <p>Once a library is imported, you reach into it with a dot: the <strong>library name</strong>, a <strong>dot</strong>, then the <strong>tool</strong> you want. So <code>random.randint</code> means "the <code>randint</code> tool from the <code>random</code> toolbox".</p>
         </section>
 
         <section id="batteries">
           <h2>2. Batteries included</h2>
-          <p>Python comes with a big pile of libraries already built in. Nothing to download; they are just there. People call this the standard library, or "batteries included". Here are three you will use all the time. Press <strong>Run</strong> on any of them (Python loads the first time, then it is instant).</p>
+          <p>Python comes with a big pile of libraries already built in. Nothing to download; they are just there. People call this the standard library, or "batteries included". Here are three you will use all the time. Press <strong>Run</strong> on any of them (Python loads the first time, then it's instant).</p>
 
           <h3><code>random</code> &middot; surprises and shuffling</h3>
           <pre class="code"><span class="c-keyword">import</span> random
@@ -162,7 +162,7 @@ fruits <span class="c-op">=</span> [<span class="c-string">"apple"</span>, <span
 
         <section id="pygame">
           <h2>4. pygame, the famous game library</h2>
-          <p><strong>pygame</strong> is probably the best known way to make games in Python. It is a real, powerful library that people use to build actual desktop games: platformers, shooters, puzzles, the lot. A pygame program opens a window on your computer and looks a bit like this:</p>
+          <p><strong>pygame</strong> is probably the best known way to make games in Python. It's a real, powerful library that people use to build actual desktop games: platformers, shooters, puzzles, the lot. A pygame program opens a window on your computer and looks a bit like this:</p>
           <pre class="code" data-norun><span class="c-keyword">import</span> pygame
 pygame.init()
 screen <span class="c-op">=</span> pygame.display.set_mode((<span class="c-num">480</span>, <span class="c-num">360</span>))
@@ -179,7 +179,7 @@ screen <span class="c-op">=</span> pygame.display.set_mode((<span class="c-num">
             <p>Two reasons, and both are actually good news about how browsers work:</p>
             <ul class="key-points">
               <li><strong>Browsers are locked down on purpose.</strong> A web page is not allowed to install software or pop open windows on your computer. That is a safety feature: you would not want any old website doing that. But it means pygame, which needs to open a real desktop window, has nowhere to go.</li>
-              <li><strong>pygame is big and built for desktops.</strong> It is megabytes of code that expects a proper operating system underneath it, not a web page.</li>
+              <li><strong>pygame is big and built for desktops.</strong> It's megabytes of code that expects a proper operating system underneath it, not a web page.</li>
             </ul>
             <p>So instead of forcing a giant desktop library into a place it does not fit, we built a tiny one that speaks the browser's own language.</p>
           </div>
@@ -188,7 +188,7 @@ screen <span class="c-op">=</span> pygame.display.set_mode((<span class="c-num">
         <section id="ours">
           <h2>5. Meet <code>import game</code>, our Hallam library</h2>
           <p>A browser already knows how to draw shapes and pictures, on something called a <em>canvas</em>, and it already knows when you press a key. So we wrote a small library, just for this website, that hands those powers to you in plain, friendly Python. We called it <code>game</code>.</p>
-          <p>It is not a cut-down copy of pygame; it is our own little thing. But it teaches the very same ideas, a window, sprites, a game loop, reading the keyboard, spotting collisions, so if you ever move on to pygame or another engine later, it will all feel familiar.</p>
+          <p>It's not a cut-down copy of pygame; it's our own little thing. But it teaches the very same ideas, a window, sprites, a game loop, reading the keyboard, spotting collisions, so if you ever move on to pygame or another engine later, it will all feel familiar.</p>
           <ul class="key-points">
             <li><strong>No install.</strong> Just type <code>import game</code> in the Sandbox and go.</li>
             <li><strong>Ready-made art, or any emoji.</strong> Ten built-in Hallam sprites give your game a matching look (see the table below), and every emoji works too. 🚀 👾 take your pick.</li>
@@ -215,7 +215,7 @@ chicken <span class="c-op">=</span> game.sprite(<span class="c-string">"🐔"</s
     <span class="c-keyword">if</span> game.pressed(<span class="c-string">"down"</span>)<span class="c-op">:</span>  chicken.y <span class="c-op">=</span> chicken.y <span class="c-op">+</span> <span class="c-num">6</span>
     game.frame()</pre>
           <p><button type="button" class="btn btn-primary" data-sandbox-from="ex-chicken">Try it in the Sandbox <span class="arrow" aria-hidden="true"></span></button></p>
-          <p>The three steps are always the same: <strong>open a window</strong>, <strong>make your sprites</strong>, then <strong>loop</strong>. Inside the loop you read the keys, change where things are, and call <code>game.frame()</code> to draw one picture and pause a heartbeat before the next one. That is what makes it look like it is moving.</p>
+          <p>The three steps are always the same: <strong>open a window</strong>, <strong>make your sprites</strong>, then <strong>loop</strong>. Inside the loop you read the keys, change where things are, and call <code>game.frame()</code> to draw one picture and pause a heartbeat before the next one. That is what makes it look like it's moving.</p>
           <p class="callout"><strong>The golden rule of the loop:</strong> every game loop ends with <code>game.frame()</code>. Forget it and the loop spins invisibly forever without ever drawing. Press <strong>Stop</strong> any time to end a game.</p>
         </section>
 
@@ -276,7 +276,7 @@ chicken <span class="c-op">=</span> game.sprite(<span class="c-string">"🐔"</s
                 </tr>
                 <tr>
                   <td><code>game.hide_cursor()</code></td>
-                  <td>Hides the real mouse pointer while it is over the game window, so a sprite can be the pointer instead (a watering can, a crosshair). <code>game.show_cursor()</code> brings it back.</td>
+                  <td>Hides the real mouse pointer while it's over the game window, so a sprite can be the pointer instead (a watering can, a crosshair). <code>game.show_cursor()</code> brings it back.</td>
                 </tr>
                 <tr>
                   <td><code>game.debug(True)</code></td>
@@ -323,16 +323,16 @@ chicken <span class="c-op">=</span> game.sprite(<span class="c-string">"🐔"</s
                 <tr><td><code>.x</code> <code>.y</code></td><td>Where it is. Change these to move it.</td></tr>
                 <tr><td><code>.size</code></td><td>How big an emoji or label is.</td></tr>
                 <tr><td><code>.w</code> <code>.h</code></td><td>The width and height of a box.</td></tr>
-                <tr><td><code>.content</code></td><td>What it shows. Set it to a skin number, a name or an emoji to swap the picture: <code>player.content = "coin"</code>. On a label it is the words shown.</td></tr>
+                <tr><td><code>.content</code></td><td>What it shows. Set it to a skin number, a name or an emoji to swap the picture: <code>player.content = "coin"</code>. On a label it's the words shown.</td></tr>
                 <tr><td><code>.angle</code></td><td>Spin it. The angle is in degrees, so <code>coin.angle = 45</code> tips it over, and adding a little every frame makes it spin.</td></tr>
                 <tr><td><code>.scale_x</code> <code>.scale_y</code></td><td>Stretch or mirror it. <code>1</code> is normal, <code>2</code> is twice as big, and <code>-1</code> flips it. Set <code>.scale_x = -1</code> to make a sprite face the other way, handy for a side-scroller or a fighter.</td></tr>
                 <tr><td><code>.color</code></td><td>The colour of a box or label. (Emoji keep their own colours, so this does nothing to an emoji.)</td></tr>
                 <tr><td><code>.layer</code></td><td>Which things draw on top. A higher number sits above a lower one; things on the same layer keep the order you made them in. Everything starts at <code>0</code>, except labels, which start at <code>1000</code> so a scoreboard stays on top of the action. Want a sprite <em>over</em> the text? Give it a bigger number, like <code>player.layer = 2000</code>. Want the label behind instead? Set <code>board.layer = 0</code>.</td></tr>
                 <tr><td><code>.touches(other)</code></td><td>True if this sprite is overlapping another one. This is how you catch, hit or collide: <code>if basket.touches(egg):</code>. The collision box turns with the sprite's <code>.angle</code> and stretches with its scale, so a rotated car checks a rotated box. Turn on <code>game.debug(True)</code> to see the boxes.</td></tr>
-                <tr><td><code>.hitbox</code></td><td>The size of the collision box, as <code>(width, height)</code>. By default it is picked to roughly fit the art (a car is wide, an egg is tall), but you can set your own: <code>car.hitbox = (46, 26)</code> for a tighter fit, or <code>car.hitbox = None</code> to go back to automatic. Pair it with <code>game.debug(True)</code> to line it up.</td></tr>
+                <tr><td><code>.hitbox</code></td><td>The size of the collision box, as <code>(width, height)</code>. By default it's picked to roughly fit the art (a car is wide, an egg is tall), but you can set your own: <code>car.hitbox = (46, 26)</code> for a tighter fit, or <code>car.hitbox = None</code> to go back to automatic. Pair it with <code>game.debug(True)</code> to line it up.</td></tr>
                 <tr><td><code>.at_mouse()</code></td><td>True while the mouse pointer is inside this sprite's box. Click on a sprite: <code>if plant.at_mouse() and game.clicked():</code></td></tr>
                 <tr><td><code>.hide()</code> <code>.show()</code></td><td>Make it vanish or come back.</td></tr>
-                <tr><td><code>.remove()</code></td><td>Delete it for good once it is caught or destroyed. Keep many objects in a list and remove them as the player clears them.</td></tr>
+                <tr><td><code>.remove()</code></td><td>Delete it for good once it's caught or destroyed. Keep many objects in a list and remove them as the player clears them.</td></tr>
               </table>
             </details>
           </div>
@@ -368,7 +368,7 @@ foe  <span class="c-op">=</span> game.sprite(<span class="c-string">"🦖"</span
           <h3>Swap the sprite</h3>
           <p>Change what a sprite shows mid-game by setting <code>.content</code>. Give it a skin number, a name, or an emoji, whichever you like:</p>
           <pre class="code" data-norun>player <span class="c-op">=</span> game.sprite(<span class="c-string">"chicken"</span>, <span class="c-num">240</span>, <span class="c-num">180</span>)
-player.content <span class="c-op">=</span> <span class="c-string">"coin"</span>   <span class="c-comment"># now it is a coin</span>
+player.content <span class="c-op">=</span> <span class="c-string">"coin"</span>   <span class="c-comment"># now it's a coin</span>
 player.content <span class="c-op">=</span> <span class="c-num">6</span>        <span class="c-comment"># now a shocked face</span>
 player.content <span class="c-op">=</span> <span class="c-string">"🍗"</span>     <span class="c-comment"># now an emoji</span>
 player.size <span class="c-op">=</span> <span class="c-num">80</span>          <span class="c-comment"># and twice as big</span></pre>
@@ -386,7 +386,7 @@ coin <span class="c-op">=</span> game.sprite(<span class="c-string">"🪙"</span
           <p><button type="button" class="btn btn-primary" data-sandbox-from="ex-spin">Try it in the Sandbox <span class="arrow" aria-hidden="true"></span></button></p>
 
           <h3>Face the other way (side-scrollers and fighters)</h3>
-          <p>Set <code>.scale_x = -1</code> to mirror a sprite left-to-right, so it faces the way it is walking. <code>.scale_y</code> flips it top-to-bottom, and any number bigger than 1 stretches it. This is how a side-scroller makes one emoji face both directions.</p>
+          <p>Set <code>.scale_x = -1</code> to mirror a sprite left-to-right, so it faces the way it's walking. <code>.scale_y</code> flips it top-to-bottom, and any number bigger than 1 stretches it. This is how a side-scroller makes one emoji face both directions.</p>
           <pre class="code" data-norun id="ex-face"><span class="c-keyword">import</span> game
 game.window(<span class="c-num">480</span>, <span class="c-num">360</span>, background<span class="c-op">=</span><span class="c-string">"#87ceeb"</span>)
 
