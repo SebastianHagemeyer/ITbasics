@@ -98,12 +98,15 @@
       <div class="idea-machine" id="idea-machine" data-mode="game">
         <div class="im-modes" role="group" aria-label="What are you making?">
           <button type="button" class="im-mode is-on" data-mode="game" aria-pressed="true">Game idea</button>
+          <button type="button" class="im-mode" data-mode="noplayer" aria-pressed="false">No-character game</button>
           <button type="button" class="im-mode" data-mode="web" aria-pressed="false">Website idea</button>
         </div>
+        <p class="im-mode-hint" id="im-mode-hint"></p>
 
         <p class="im-sentence" id="im-sentence" aria-live="polite"></p>
 
         <div class="im-slots" id="im-slots"></div>
+        <p class="im-hint">Switch a slot off if you would rather invent that bit yourself: the sentence leaves the gap and says whose job it is. <strong>No-character games</strong> are the ones where you are not anybody on screen, so you click, drag or whack instead. Cookie Clicker, Whack-a-Mole, Tetris and tower defence all work that way.</p>
 
         <div class="im-actions">
           <button type="button" class="btn btn-primary im-spin" id="im-spin">Spin the whole thing</button>
@@ -141,8 +144,8 @@
         </div>
         <div class="card card-small">
           <div class="card-icon card-icon-small" style="--accent: #2ec4b6;">2</div>
-          <h3>Lock and re-roll</h3>
-          <p>Love the flamingos but not the maze? Lock the star, spin the rest. That is you designing, not the machine.</p>
+          <h3>Lock, re-roll, switch off</h3>
+          <p>Love the flamingos but not the maze? Lock the star and spin the rest. Got your own idea for the danger? Switch that slot off and the machine leaves it to you. That is you designing, not the machine.</p>
         </div>
         <div class="card card-small">
           <div class="card-icon card-icon-small" style="--accent: #7c5cff;">3</div>
