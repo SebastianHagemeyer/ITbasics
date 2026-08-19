@@ -3679,6 +3679,14 @@ details.callout-collapse .callout-body p:last-child { margin-bottom: 0; }
 .legacy-block .card { opacity: 0.75; }
 .legacy-block .card:hover { opacity: 1; }
 .advanced-block summary { color: var(--text); }
+/* Closed, the Advanced shelf is one line of text sitting between two sections,
+   and with a rule above it only, it read as a heading belonging to whatever
+   came next. It gets a rule underneath as well, so it is a shelf either way.
+   The legacy shelf does not need one: nothing follows it on the page. */
+.advanced-block {
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 16px;
+}
 /* One card on the shelf today. auto-fit collapses the empty tracks and would
    stretch a lone card across the whole page; auto-fill keeps it the same width
    as the module cards above it, and the shelf grows into a row on its own as
