@@ -6334,6 +6334,22 @@ body[data-xp-gate="checking"] main > * { display: none; }
 }
 .term-dialect:hover { border-color: rgba(255, 255, 255, 0.45); }
 .term-dialect.is-on { background: #ffffff; color: #14172c; border-color: #ffffff; }
+/* Clear is not a third dialect, so it does not look like one: no pill, set off
+   from the pair by a divider. Wearing the same shape as the two mode buttons
+   is what made it look like a choice you were making rather than an action. */
+.term-clear {
+  background: transparent;
+  border: none;
+  border-left: 1px solid rgba(255, 255, 255, 0.18);
+  color: #a7afd4;
+  padding: 4px 0 4px 10px;
+  margin-left: 4px;
+  font: inherit;
+  font-size: 0.78rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.term-clear:hover { color: #ffffff; }
 .term-screen {
   height: 260px;
   overflow-y: auto;
