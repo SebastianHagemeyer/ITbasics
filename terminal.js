@@ -227,11 +227,13 @@
       input.focus();
     });
 
-    Array.prototype.forEach.call(root.querySelectorAll(".term-dialect"), function (btn) {
+    // Selected on data-dialect, not on the class: any other button that ends up
+    // in this bar must not be able to change the dialect by accident.
+    Array.prototype.forEach.call(root.querySelectorAll(".term-dialect[data-dialect]"), function (btn) {
       btn.addEventListener("click", function () {
         mode = btn.dataset.dialect === "win" ? "win" : "unix";
         root.dataset.mode = mode;
-        Array.prototype.forEach.call(root.querySelectorAll(".term-dialect"), function (b) {
+        Array.prototype.forEach.call(root.querySelectorAll(".term-dialect[data-dialect]"), function (b) {
           var on = b === btn;
           b.classList.toggle("is-on", on);
           b.setAttribute("aria-pressed", on ? "true" : "false");
@@ -243,13 +245,10 @@
       });
     });
 
-    var resetBtn = document.getElementById("term-reset");
-    if (resetBtn) {
-      resetBtn.addEventListener("click", function () {
-        path = [];
+    var clearBtn = document.getElementById("term-clear");
+    if (clearBtn) {
+      clearBtn.addEventListener("click", function () {
         screen.innerHTML = "";
-        boot();
-        paintPrompt();
         input.focus();
       });
     }
