@@ -97,7 +97,7 @@
     { text: "photograph a very rare bird", win: "you get one clear photo" },
     { text: "walk a dog around the block", win: "you get home with the dog" },
     { text: "park in an impossibly tight space", win: "the car fits between the lines" },
-    { text: "keep a plant alive for seven days", win: "day seven arrives and it is still green" },
+    { text: "keep a plant alive for seven days", win: "day seven arrives and it's still green" },
     { text: "guide a lost tourist to the station", win: "the tourist reaches the platform" },
     { text: "clean a classroom before the bell", win: "the last bit of mess is gone" },
     { text: "post ten letters through the right doors", win: "all ten letters are posted" },
@@ -479,7 +479,7 @@
           ["One page", "A heading, a picture, and one list. That is a website."],
           ["Build first", on.kind ? capital(picks.kind.build) + "." : "Your call: pick the shape of the page first, then fill it."],
           ["The twist", on.twist
-            ? capital(picks.twist) + ". Do this bit properly, it is the reason anyone visits."
+            ? capital(picks.twist) + ". Do this bit properly, it's the reason anyone visits."
             : "Your call. A page with no angle is a page nobody reads twice."],
           ["For later", capital(pick(["a second page", "a menu bar", "a colour theme", "a contact form", "a photo gallery"])) + "."]
         ];

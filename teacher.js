@@ -819,7 +819,7 @@
   async function startTool() {
     if (!window.ITBasics || !window.ITBasics.isOnline()) {
       el("teacher-status").textContent =
-        "This page needs the Supabase database (it is offline right now).";
+        "This page needs the Supabase database (it's offline right now).";
       return;
     }
     try { await loadHomeworkRows(); } catch (e) { /* table may not exist yet */ }

@@ -1110,7 +1110,7 @@ window.SCENARIOS = [
   { id: "err-006", topic: "errors", difficulty: "hard", xp: 2,
     prompt: "How many closing brackets does line 1 still need?",
     code: "age = int(input(\"Age? \")\nprint(age)",
-    options: ["None, it is fine", "One", "Two", "Three"], answer: 1,
+    options: ["None, it's fine", "One", "Two", "Three"], answer: 1,
     explain: "int( and input( both opened, only one ) closed them. One more ) is needed. Python says: '(' was never closed" },
 
   { id: "err-007", topic: "errors", difficulty: "easy", xp: 2,
