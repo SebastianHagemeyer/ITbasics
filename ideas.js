@@ -259,6 +259,7 @@
     game: {
       label: "game",
       hint: "You are somebody on screen, and you steer them.",
+      dealt: "This one has a character: somebody on screen for you to steer.",
       slots: [
         { key: "twist", title: "The twist", list: TWISTS, show: function (v) { return capital(v); } },
         { key: "star",  title: "The star",  list: STARS,  show: function (v) { return v.emoji + " " + v.name; } },
@@ -281,6 +282,7 @@
     noplayer: {
       label: "no-character game",
       hint: "You are not anybody on screen. You click, drag, place or whack.",
+      dealt: "This one has nobody to be: you click, drag, place or whack instead.",
       slots: [
         { key: "twist", title: "The twist", list: TWISTS, show: function (v) { return capital(v); } },
         { key: "star",  title: "The things on screen", list: STARS, show: function (v) { return v.emoji + " " + v.name; } },
@@ -340,6 +342,12 @@
     var count = el("im-count");
     var codeBox = el("im-code");
     var shortlistBox = el("im-shortlist");
+    // Two different things, and keeping them apart is the whole trick here.
+    // tab is what the student pressed. modeName is the shape THIS spin came out
+    // as: the Game idea tab deals a character game or a no-character one at
+    // random, so the two shapes turn up in the same session and the student
+    // meets the idea that a game does not need somebody to be.
+    var tab = "game";
     var modeName = "game";
     var picks = {};        // slot key -> chosen entry, for the live mode
     var locked = {};       // slot key -> true while the student is holding it
@@ -347,6 +355,21 @@
     var shortlist = [];
 
     function mode() { return MODES[modeName]; }
+
+    function mixes() { return tab === "game"; }
+
+    // The shape only re-rolls when the slot that differs between the two, the
+    // goal, is free. Locking "whack them before they duck back down" and then
+    // being handed a character game would throw that pick away, which is the
+    // opposite of what a lock is for.
+    function dealShape() {
+      if (!mixes() || locked.goal) return false;
+      var next = Math.random() < 0.5 ? "game" : "noplayer";
+      if (next === modeName) return false;
+      modeName = next;
+      root.dataset.mode = modeName;
+      return true;
+    }
 
     // Which slots are in play. Switched-off slots keep their pick, so turning
     // one back on returns the word that was there rather than a fresh spin.
@@ -361,17 +384,36 @@
     }
 
     function spin(only) {
+      // A per-slot re-roll keeps the shape: they are re-rolling one word, not
+      // asking for a different kind of game.
+      var flipped = only ? false : dealShape();
       mode().slots.forEach(function (slot) {
         if (only && slot.key !== only) return;
-        if (off[slot.key]) return;
-        if (!only && locked[slot.key]) return;
+        // After a flip the goal slot is holding a word from the other shape's
+        // list, so it is refreshed whatever its lock or switch says. Skipping a
+        // switched-off one here would leave a goal in the actions slot, ready
+        // to be rendered by the wrong shape the moment it is switched back on.
+        var stale = flipped && slot.key === "goal";
+        if (!stale) {
+          if (off[slot.key]) return;
+          if (!only && locked[slot.key]) return;
+        }
         picks[slot.key] = pickDifferent(slot.list, picks[slot.key]);
       });
+      if (flipped) renderLists();
       render();
     }
 
+    // On the mixed tab the machine can say either shape, so the count is both
+    // of them. They differ only in the goal list, and the switched-off slots
+    // apply to both.
     function combinations() {
-      return liveSlots().reduce(function (n, s) { return n * s.list.length; }, 1);
+      var live = liveSlots().reduce(function (n, s) { return n * s.list.length; }, 1);
+      if (!mixes()) return live;
+      var other = MODES[modeName === "game" ? "noplayer" : "game"].slots
+        .filter(function (slot) { return !off[slot.key]; })
+        .reduce(function (n, s) { return n * s.list.length; }, 1);
+      return live + other;
     }
 
     // The starter code is deliberately the smallest thing that runs. A game
@@ -540,9 +582,12 @@
         ? "A page skeleton to start from"
         : "Something to paste in and run");
       text(count, "This machine can spell out " + commas(combinations()) +
-        " different " + mode().label + " ideas" +
+        " different " + (mixes() ? "game" : mode().label) + " ideas" +
         (live < mode().slots.length ? " with those slots switched off" : "") +
         ". You only need one.");
+      // On the mixed tab the hint is a label for the idea in front of them,
+      // not a description of the tab, since the shape changes under their feet.
+      text(el("im-mode-hint"), mixes() ? mode().dealt : mode().hint);
     }
 
     // The browsable version of the same data. Some students would rather read
@@ -665,14 +710,14 @@
 
     Array.prototype.forEach.call(root.querySelectorAll(".im-mode"), function (btn) {
       btn.addEventListener("click", function () {
-        modeName = MODES[btn.dataset.mode] ? btn.dataset.mode : "game";
+        tab = MODES[btn.dataset.mode] ? btn.dataset.mode : "game";
+        modeName = tab;
         root.dataset.mode = modeName;
         Array.prototype.forEach.call(root.querySelectorAll(".im-mode"), function (b) {
           var on = b === btn;
           b.classList.toggle("is-on", on);
           b.setAttribute("aria-pressed", on ? "true" : "false");
         });
-        text(el("im-mode-hint"), mode().hint);
         locked = {};
         picks = {};
         off = {};
@@ -681,7 +726,6 @@
       });
     });
 
-    text(el("im-mode-hint"), mode().hint);
     spin(null);
     renderLists();
     renderShortlist();
