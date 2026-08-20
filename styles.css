@@ -5967,6 +5967,29 @@ body[data-xp-gate="checking"] main > * { display: none; }
   padding: 18px;
   margin: 16px 0;
 }
+/* The picture of the game, when there is one. Pixel art is upscaled with
+   pixelated rather than smoothed: a 1980 arcade screen blurred by the browser
+   looks like a bad photocopy of itself. */
+.gd-shot {
+  margin: 0 0 16px;
+  text-align: center;
+}
+.gd-shot img {
+  display: inline-block;
+  max-height: 200px;
+  max-width: 100%;
+  width: auto;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  background: #000000;
+  image-rendering: pixelated;
+}
+.gd-shot figcaption {
+  margin-top: 6px;
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+
 .gd-skel {
   display: grid;
   grid-template-columns: 1fr minmax(140px, 1.2fr) 1fr;
