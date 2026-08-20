@@ -438,6 +438,52 @@ img { max-width: 100%; display: block; }
   margin: 8px 0 12px;
   letter-spacing: -0.02em;
 }
+/* A hero that is only a title and a question mark. The blurb under a page
+   title is read once and then in the way forever, so it folds into the "?"
+   and the content starts a screen and a half higher. Same move PyWebLib makes.
+   No script: a <details> already opens and closes, and works with a keyboard
+   for free. */
+.page-hero-slim { padding: 22px 0 18px; }
+.page-hero-slim h1 { margin: 0; }
+.hero-about summary {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  list-style: none;          /* Firefox's default triangle */
+}
+.hero-about summary::-webkit-details-marker { display: none; }
+.hero-about-mark {
+  width: 30px;
+  height: 30px;
+  flex: none;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--muted);
+  font-weight: 800;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+.hero-about summary:hover .hero-about-mark,
+.hero-about summary:focus-visible .hero-about-mark {
+  border-color: var(--primary);
+  color: var(--primary-ink);
+}
+/* The hover rule above carries one more class than a plain [open] selector
+   would, so it wins, and the pointer is still sitting on the chip the instant
+   you open it: the ? went navy on navy. The open state has to out-specify
+   hover, not just follow it. */
+.hero-about[open] summary .hero-about-mark,
+.hero-about[open] summary:hover .hero-about-mark {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: #ffffff;            /* white on the navy fill, correct in both themes */
+}
+.hero-about .lead { margin: 12px 0 0; max-width: 68ch; }
 
 /* Lesson layout */
 .lesson-layout {
