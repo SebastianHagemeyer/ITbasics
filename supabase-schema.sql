@@ -22,6 +22,7 @@
 -- Re-run the whole file after any of these. The dates are when the change
 -- landed on main, so you can tell at a glance whether you are current.
 --
+-- 2026-08-20  students               Year 9 IT class (9ITAB): 25 students added.
 -- 2026-07-30  students               Staff accounts section added, so MRH0001
 --                                    survives a rebuild from this file. A staff
 --                                    row is only half of it: the code must also
@@ -269,6 +270,46 @@ on conflict (code) do update set
 -- ============================================================
 insert into students (code, first_name, last_name, class, year_level) values
   ('SIL0015', 'Logan', 'Silver', '10ITB', 10)
+on conflict (code) do update set
+  first_name = excluded.first_name,
+  last_name  = excluded.last_name,
+  class      = excluded.class,
+  year_level = excluded.year_level;
+
+-- ============================================================
+-- Year 9 IT class added August 2026 (25 students, 9ITAB)
+-- ============================================================
+-- Dates of birth come with the enrolment export and are deliberately not
+-- stored: the site never asks anyone's age, so there is nothing here to leak.
+-- The form groups they sit in (9A, 9B, 9C, 9E) are not stored either, because
+-- class is what the leaderboard filters on and the teacher export groups by,
+-- and these 25 are one IT class.
+insert into students (code, first_name, last_name, class, year_level) values
+  ('AMI0033', 'Najma',        'Amin',     '9ITAB', 9),
+  ('BUS0014', 'Charlie',      'Bush',     '9ITAB', 9),
+  ('CAS0026', 'Noah',         'Cashen',   '9ITAB', 9),
+  ('COO0046', 'Alexander',    'Cooper',   '9ITAB', 9),
+  ('DAC0003', 'Cohan',        'Dacombe',  '9ITAB', 9),
+  ('DEM0012', 'Festim',       'Demiri',   '9ITAB', 9),
+  ('DEV0024', 'Arlen',        'Deville',  '9ITAB', 9),
+  ('FAZ0010', 'Hedayatullah', 'Fazli',    '9ITAB', 9),
+  ('HAS0047', 'Mohammad',     'Hashimi',  '9ITAB', 9),
+  ('HOS0008', 'Sajjad',       'Hosseini', '9ITAB', 9),
+  ('JAF0039', 'Ali',          'Jafari',   '9ITAB', 9),
+  ('KHA0079', 'Saif',         'Khail',    '9ITAB', 9),
+  ('KHA0077', 'Fez',          'Khan',     '9ITAB', 9),
+  ('KID0005', 'Kellan',       'Kidd',     '9ITAB', 9),
+  ('LAU0019', 'Oscar',        'Lauano',   '9ITAB', 9),
+  ('LAU0020', 'Spencer',      'Lauano',   '9ITAB', 9),
+  ('MCL0035', 'Andrew',       'Mc Lean',  '9ITAB', 9),
+  ('RON0010', 'Keira',        'Ronald',   '9ITAB', 9),
+  ('SAD0013', 'Latif',        'Sadat',    '9ITAB', 9),
+  ('SAF0016', 'Ahmad',        'Safari',   '9ITAB', 9),
+  ('TAS0004', 'Naveed',       'Tasal',    '9ITAB', 9),
+  ('TAU0022', 'Tee Jay',      'Taumaoe',  '9ITAB', 9),
+  ('THA0021', 'Tristan',      'Thao',     '9ITAB', 9),
+  ('VIN0010', 'Jack',         'Viney',    '9ITAB', 9),
+  ('WAT0033', 'Korben',       'Watson',   '9ITAB', 9)
 on conflict (code) do update set
   first_name = excluded.first_name,
   last_name  = excluded.last_name,

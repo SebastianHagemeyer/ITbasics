@@ -754,7 +754,16 @@
   // their own idea.
   var SKELETONS = [
     { name: "Pac-Man", win: "Eat every dot in the maze", fail: "A ghost touches you",
-      action: "Steer, turn corners, grab a power pellet", obstacle: "Four ghosts and dead ends" },
+      action: "Steer, turn corners, grab a power pellet", obstacle: "Four ghosts and dead ends",
+      // credit is not optional: the picture only renders when both src and
+      // credit are filled in (see showArt). Read the author and the licence off
+      // the file page and put them here, then drop the PNG into images/:
+      //   commons.wikimedia.org/wiki/File:Pac-Man_gameplay_(1x_pixel-perfect_recreation).png
+      art: {
+        src: "/images/pacman-gameplay.png",
+        alt: "The Pac-Man arcade screen: a blue maze full of dots, four ghosts, and the yellow player.",
+        credit: ""
+      } },
     { name: "Flappy Bird", win: "Get through the next gap, forever", fail: "You hit a pipe or the ground",
       action: "One tap to flap", obstacle: "Gravity and narrow gaps" },
     { name: "Taxi driver", win: "Deliver the passenger", fail: "Time runs out",
@@ -778,7 +787,28 @@
     var win = el("sk-win"), fail = el("sk-fail"),
         action = el("sk-action"), obstacle = el("sk-obstacle");
 
+    var shot = el("gd-shot");
+    var shotImg = el("gd-shot-img");
+    var shotCredit = el("gd-shot-credit");
+
+    // No credit, no picture. Enforcing that here rather than trusting whoever
+    // adds the next one to remember: an unattributed screenshot is the whole
+    // problem, and a rule that lives in the code cannot be forgotten. A file
+    // that fails to load hides the figure too, so a missing image is invisible
+    // rather than a broken icon in the middle of the diagram.
+    function showArt(sk) {
+      if (!shot || !shotImg) return;
+      var art = sk.art;
+      if (!art || !art.src || !art.credit) { shot.hidden = true; return; }
+      shotImg.onerror = function () { shot.hidden = true; };
+      shotImg.src = art.src;
+      shotImg.alt = art.alt || "";
+      text(shotCredit, art.credit);
+      shot.hidden = false;
+    }
+
     function show(sk, btn) {
+      showArt(sk);
       text(win, sk.win);
       text(fail, sk.fail);
       text(action, sk.action);
