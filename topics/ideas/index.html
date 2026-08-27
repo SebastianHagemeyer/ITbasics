@@ -64,7 +64,6 @@
           <div class="nav-dropdown-menu" role="menu">
             <a href="/modules/" role="menuitem">All modules</a>
             <a href="/docs/" role="menuitem">Documentation</a>
-            <a href="/ideas/" role="menuitem">Idea Machine</a>
             <a href="/assignments/" role="menuitem">Assignments</a>
           </div>
         </div>
@@ -256,8 +255,18 @@
             <strong>"Most games", not "every game".</strong>
             <p>Plenty of games break this diagram on purpose, and they are not broken games.</p>
             <ul class="key-points">
-              <li><strong>Sandboxes and simulators.</strong> RollerCoaster Tycoon in sandbox mode has nothing to win and nothing to lose: you build the park and watch it run. Its scenarios do set targets, which is the interesting bit, the same game plays completely differently once somebody bolts a goal onto it. The Sims, city builders and flight simulators sit in the same place: the fun is the system, not the finish line.</li>
-              <li><strong>Games change.</strong> Minecraft had no win state at all for its first two and a half years. There was a way to lose, a creeper at 2am, but nothing that counted as finishing. A win condition, beat the Ender Dragon and the credits roll, only arrived on 18 November 2011, with the Java Edition 1.0.0 release announced at Minecon. It was already one of the biggest games in the world without one.</li>
+              <li><strong>Sandboxes and simulators.</strong> RollerCoaster Tycoon in sandbox mode has nothing to win and nothing to lose: you build the park and watch it run. Its scenarios do set targets, which is the interesting bit, the same game plays completely differently once somebody bolts a goal onto it. The Sims, city builders and flight simulators sit in the same place: the fun is the system, not the finish line.
+                <figure class="callout-shot">
+                  <img src="/images/rollercoaster-tycoon.jpg" alt="A RollerCoaster Tycoon park from above: wooden and steel coasters winding between stalls, paths and crowds of guests." loading="lazy" />
+                  <figcaption>RollerCoaster Tycoon (Chris Sawyer, 2000). Screenshot used by reference.</figcaption>
+                </figure>
+              </li>
+              <li><strong>Games change.</strong> Minecraft had no win state at all for its first two and a half years. There was a way to lose, a creeper at 2am, but nothing that counted as finishing. A win condition, beat the Ender Dragon and the credits roll, only arrived on 18 November 2011, with the Java Edition 1.0.0 release announced at Minecon. It was already one of the biggest games in the world without one.
+                <figure class="callout-shot">
+                  <img src="/images/minecraft-alpha.jpg" alt="Minecraft Alpha: a blocky grass and sand shore by the sea, a crafting table ahead, and the version label in the corner. The hotbar shows hearts but no hunger bar." loading="lazy" />
+                  <figcaption>Minecraft Alpha v1.0.4 (Mojang, 2010), a year before it had any way to win. Screenshot by Xbox Mexico, via Wikimedia Commons, CC BY 3.0.</figcaption>
+                </figure>
+              </li>
             </ul>
             <p>So use the four bones as a tool, not a law. If your idea fills all four, you know it will hold together. If it does not, ask the honest question: is this a sandbox on purpose, or is it a game I have not finished designing?</p>
           </div>
@@ -356,28 +365,53 @@
           </div>
           <p>The prototype comes <em>before</em> the planning, and that is not a mistake. You cannot plan a game you have not felt yet. Build the ugly playable version first, in emoji, with no title screen, and find out whether the idea is any fun. If it's not, you have lost an afternoon instead of a term.</p>
 
-          <h3>The dream game problem</h3>
-          <p>Here is a student's first game plan. Every single feature is reasonable. Together they are about two years of work. Click features to cut them until three are left, and see how it feels:</p>
-          <div class="gd-cutter" id="gd-cutter">
-            <div class="gd-chips">
-              <button type="button" class="gd-chip" aria-pressed="false">Open world map</button>
-              <button type="button" class="gd-chip" aria-pressed="false">Character creator</button>
-              <button type="button" class="gd-chip" aria-pressed="false">Story with cutscenes</button>
-              <button type="button" class="gd-chip" aria-pressed="false">Three boss fights</button>
-              <button type="button" class="gd-chip" aria-pressed="false">Shop and coins</button>
-              <button type="button" class="gd-chip" aria-pressed="false">Multiplayer</button>
-              <button type="button" class="gd-chip" aria-pressed="false">Save games</button>
-              <button type="button" class="gd-chip" aria-pressed="false">Music and sound</button>
-              <button type="button" class="gd-chip" aria-pressed="false">Ten levels</button>
-              <button type="button" class="gd-chip" aria-pressed="false">Hand-drawn art</button>
-              <button type="button" class="gd-chip" aria-pressed="false">A player you can move</button>
-              <button type="button" class="gd-chip" aria-pressed="false">One thing to avoid</button>
-              <button type="button" class="gd-chip" aria-pressed="false">A score on screen</button>
+          <h3>Could you actually start this?</h3>
+          <p>Here are five things students have really said they want to make. Some are a good first game. Some are years of work for a whole studio. Flag the ones that are too big to start with, then check.</p>
+          <div class="gd-scope" id="gd-scope">
+            <ul class="gd-pitches">
+              <li class="gd-pitch-item">
+                <button type="button" class="gd-pitch" data-verdict="toobig" aria-pressed="false">
+                  <span class="gd-pitch-mark" aria-hidden="true"></span>
+                  <span class="gd-pitch-text">"I want to make GTA 7."</span>
+                </button>
+                <p class="gd-pitch-why">One of the biggest studios in the world spends about five years and hundreds of people on a Grand Theft Auto. It is not a first game, or a hundredth. Pick one tiny piece of it and build that.</p>
+              </li>
+              <li class="gd-pitch-item">
+                <button type="button" class="gd-pitch" data-verdict="toobig" aria-pressed="false">
+                  <span class="gd-pitch-mark" aria-hidden="true"></span>
+                  <span class="gd-pitch-text">"I want to make Mario Kart, with multiplayer and an open world map where you can drive anywhere."</span>
+                </button>
+                <p class="gd-pitch-why">Three of the hardest things in games at once: split-second multiplayer, a whole open world, and driving physics. Any one of them is a project on its own, and this asks for all three.</p>
+              </li>
+              <li class="gd-pitch-item">
+                <button type="button" class="gd-pitch" data-verdict="ok" aria-pressed="false">
+                  <span class="gd-pitch-mark" aria-hidden="true"></span>
+                  <span class="gd-pitch-text">"I want to put a car on the screen and the player can move it around and point it."</span>
+                </button>
+                <p class="gd-pitch-why">A real first game. One sprite, a few keys, an angle to point it. You built almost exactly this in the taxi further up the page.</p>
+              </li>
+              <li class="gd-pitch-item">
+                <button type="button" class="gd-pitch" data-verdict="ok" aria-pressed="false">
+                  <span class="gd-pitch-mark" aria-hidden="true"></span>
+                  <span class="gd-pitch-text">"I want to make simple multiplayer where movement is supported."</span>
+                </button>
+                <p class="gd-pitch-why">Two players on one keyboard, a couple of keys each: that is a normal first game, and this site has them. It is networked multiplayer, players on different computers, that turns into a nightmare, and nobody asked for that here.</p>
+              </li>
+              <li class="gd-pitch-item">
+                <button type="button" class="gd-pitch" data-verdict="ok" aria-pressed="false">
+                  <span class="gd-pitch-mark" aria-hidden="true"></span>
+                  <span class="gd-pitch-text">"I want a game where bowling balls fall from the sky and you're a bowling pin dodging them."</span>
+                </button>
+                <p class="gd-pitch-why">One thing to avoid, one thing to move, a screen that fills up. All four bones are there and it fits in one window. Good scope for a first go.</p>
+              </li>
+            </ul>
+            <div class="gd-scope-actions">
+              <button type="button" class="btn btn-primary" id="gd-scope-check">Check my flags</button>
+              <button type="button" class="btn btn-ghost" id="gd-scope-reset">Start over</button>
             </div>
-            <p class="gd-cutter-status" id="gd-cutter-status" aria-live="polite"></p>
-            <button type="button" class="btn btn-ghost" id="gd-cutter-reset">Put them all back</button>
+            <p class="gd-scope-status" id="gd-scope-status" aria-live="polite"></p>
           </div>
-          <p class="muted-note">The three that have to survive are the last three: something to move, something to avoid, and a score. That is a game. Everything above it is decoration on a game that does not exist yet.</p>
+          <p class="muted-note">The two to flag need a whole studio and years. The three to keep are one screen, a few keys, and one idea each. A first game is not a shrunk-down GTA: it is a different, finishable thing.</p>
 
           <h3>Three rules for your first version</h3>
           <ul class="key-points">

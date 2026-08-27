@@ -13,17 +13,33 @@ belong to their publishers. Wikimedia Commons only hosts freely licensed
 files, so it is the safe place to shop; the file page tells you the author
 and the licence, and both go in the credit line.
 
-## Still to add
+## What is here
 
-`pacman-gameplay.png`
+| File | Where it came from |
+| --- | --- |
+| `pacman-gameplay.png` | Commons, CC BY 3.0. Redrawn at the original 224x288, so leave it unscaled and let the browser do the enlarging. |
+| `flappy-bird-arcade.jpg` | Commons, CC BY 2.0. A photo of an arcade cabinet by daveynin, cropped down to the screen. |
+| `minecraft-classic.jpg` | Commons, CC BY 3.0. Minecraft Classic v0.30, chosen over a modern screenshot because that row of the lesson is about the 2010 game. |
+| `catch-the-eggs.jpg` | Ours. The sandbox snippet of the same name, screenshotted mid-game. |
+| `taxi-driver.jpg` | Ours. A little taxi game built in the same sandbox engine, screenshotted mid-drive. |
+| `minecraft-alpha.jpg` | Commons, CC BY 3.0. Minecraft Alpha v1.0.4, hearts but no hunger bar. Used in the "games change" callout on `/topics/ideas/`. |
+| `rollercoaster-tycoon.jpg` | A commercial screenshot, not freely licensed. No free equivalent exists on Commons, and the site owner chose to use it by reference. Its credit line says exactly that rather than dressing it up as a licence. It is the one exception to the rule below, made deliberately and with eyes open, not the default. |
 
-1. Open
-   <https://commons.wikimedia.org/wiki/File:Pac-Man_gameplay_(1x_pixel-perfect_recreation).png>
-2. Download the PNG and save it here under exactly that name.
-3. Read the author and the licence off the file page, and fill in `credit`
-   in the Pac-Man entry in `ideas.js`, in this shape:
+## All six skeleton games now have a picture
 
-       credit: "Pac-Man (Namco, 1980). Pixel-perfect recreation by NAME, via Wikimedia Commons, LICENCE."
+Every game in the win/fail skeleton switcher on `/topics/ideas/` renders a
+figure. Four came from Wikimedia Commons (freely licensed), one is the
+RollerCoaster Tycoon exception above, and two (`catch-the-eggs.jpg`,
+`taxi-driver.jpg`) are our own sandbox games screenshotted mid-play. That
+last route, build the game and screenshot it, is the honest way to add any
+more: it is unarguably ours and it doubles as a worked example.
 
-Until step 3 is done the picture stays hidden, so nothing half-finished
-can ship.
+## Adding one
+
+1. Find the file on Wikimedia Commons and check the licence on its file page.
+2. **Look at the picture before you download it.** A Commons search for a
+   game title returns plenty of things that are not the game, and at least
+   one Flappy Bird result is not safe for a classroom.
+3. Save it here, then fill in `src`, `alt` and `credit` on that game's entry
+   in `ideas.js`. Until the credit is filled in the picture stays hidden, so
+   nothing half-finished can ship.
