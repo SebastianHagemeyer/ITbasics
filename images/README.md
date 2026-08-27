@@ -19,7 +19,7 @@ and the licence, and both go in the credit line.
 | --- | --- |
 | `pacman-gameplay.png` | Commons, CC BY 3.0. Redrawn at the original 224x288, so leave it unscaled and let the browser do the enlarging. |
 | `flappy-bird-arcade.jpg` | Commons, CC BY 2.0. A photo of an arcade cabinet by daveynin, cropped down to the screen. |
-| `catch-the-eggs.jpg` | Ours. The sandbox snippet of the same name, screenshotted mid-game. |
+| `catch-the-eggs.gif` | Ours. Our own catch-the-eggs game, recorded live in the PyWebLib playground. The animated tile in the skeleton switcher. |
 | `critic-egg-catcher.png` | Ours. The catch-the-eggs screenshot with two annotations (one good, one bad) baked in, for Move 3 (be a critic). Built with PIL, not AI. |
 | `taxi-driver.jpg` | Ours. A little taxi game built in the same sandbox engine, screenshotted mid-drive. |
 | `minecraft-alpha.jpg` | Commons, CC BY 3.0. Minecraft Alpha v1.0.4 (2010 survival), hearts but no hunger bar. Used both in the skeleton switcher's "Minecraft (2010)" row (it shows a game you can die in, unlike the old creative Classic shot) and as the 2010 frame of the version timeline. |
@@ -33,7 +33,7 @@ and the licence, and both go in the credit line.
 
 Every game in the win/fail skeleton switcher on `/topics/ideas/` renders a
 figure. Four came from Wikimedia Commons (freely licensed), one is the
-RollerCoaster Tycoon exception above, and two (`catch-the-eggs.jpg`,
+RollerCoaster Tycoon exception above, and two (`catch-the-eggs.gif`,
 `taxi-driver.jpg`) are our own sandbox games screenshotted mid-play. That
 last route, build the game and screenshot it, is the honest way to add any
 more: it is unarguably ours and it doubles as a worked example.
