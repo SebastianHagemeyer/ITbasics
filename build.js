@@ -59,7 +59,7 @@ function readPartial(name) {
   }
   // Partials are stored already indented to match where they land, and with a
   // trailing newline that the region supplies itself.
-  return fs.readFileSync(file, "utf8").replace(/\n$/, "");
+  return toLF(fs.readFileSync(file, "utf8")).replace(/\n$/, "");
 }
 
 function render(name, params) {
@@ -91,7 +91,21 @@ function render(name, params) {
 // Opening marker, body, closing marker. The body is matched lazily so a page
 // with several regions does not swallow everything between the first opener
 // and the last closer.
-const REGION = /([ \t]*)<!-- include: ([a-z-]+)((?: [a-z-]+="[^"]*")*) -->\n[\s\S]*?\n[ \t]*<!-- \/include -->/g;
+const REGION = /([ \t]*)<!-- include: ([a-z-]+)((?: [a-z-]+="[^"]*")*) -->\r?\n[\s\S]*?\r?\n[ \t]*<!-- \/include -->/g;
+
+// Git here runs with core.autocrlf, so the same page is LF in the repo and CRLF
+// in the working tree. Everything below works on LF text and the original line
+// ending goes back on at write time. Without this the region regex matches
+// nothing at all on a Windows checkout: the script reports "0 changed" and
+// --check exits clean, so the safety net reads green while the pages quietly
+// drift away from partials/.
+function toLF(src) {
+  return src.replace(/\r\n/g, "\n");
+}
+
+function eolOf(src) {
+  return src.indexOf("\r\n") === -1 ? "\n" : "\r\n";
+}
 
 function parseParams(raw) {
   const params = {};
@@ -137,15 +151,17 @@ function main() {
 
   files.forEach(function (file) {
     const rel = path.relative(ROOT, file);
-    const before = fs.readFileSync(file, "utf8");
-    if (before.indexOf("<!-- include:") === -1) return;
+    const raw = fs.readFileSync(file, "utf8");
+    if (raw.indexOf("<!-- include:") === -1) return;
     touched++;
+    const eol = eolOf(raw);
+    const before = toLF(raw);
     const after = expand(before, rel);
     if (after === before) return;
     changed++;
     if (check) console.log("out of date: " + rel);
     else {
-      fs.writeFileSync(file, after);
+      fs.writeFileSync(file, eol === "\n" ? after : after.split("\n").join(eol));
       console.log("updated: " + rel);
     }
   });

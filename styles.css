@@ -600,6 +600,31 @@ img { max-width: 100%; display: block; }
   padding: 10px 14px;
   font-size: 0.97rem;
 }
+/* A screenshot tucked into a key-points item. It floats beside the text on a
+   wide card and drops below it once the card gets narrow, so the prose never
+   has to squeeze past a sliver of picture. */
+.callout-shot {
+  float: right;
+  width: 240px;
+  max-width: 42%;
+  margin: 2px 0 8px 14px;
+}
+.callout-shot img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+}
+.callout-shot figcaption {
+  margin-top: 5px;
+  font-size: 0.72rem;
+  line-height: 1.3;
+  color: var(--muted);
+}
+@media (max-width: 560px) {
+  .callout-shot { float: none; width: 100%; max-width: 100%; margin: 10px 0 4px; }
+}
 
 .lesson-step-tag {
   display: inline-block;
@@ -6164,36 +6189,74 @@ body[data-xp-gate="checking"] main > * { display: none; }
 }
 
 /* The scope cutter */
-.gd-cutter {
+/* Flag the over-scoped ideas. The container matches the other lesson widgets;
+   each pitch is a full-width card the student toggles a flag on, then checks. */
+.gd-scope {
   background: var(--tint-cool);
   border: 1px solid var(--border);
   border-radius: var(--radius);
   padding: 18px;
   margin: 16px 0;
 }
-.gd-chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
-.gd-chip {
+.gd-pitches { list-style: none; padding: 0; margin: 0 0 14px; display: grid; gap: 10px; }
+.gd-pitch {
+  width: 100%;
+  text-align: left;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
   background: var(--surface);
   border: 1px solid var(--border);
-  border-radius: 999px;
-  padding: 7px 14px;
+  border-left: 4px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 12px 14px;
   font: inherit;
-  font-size: 0.9rem;
+  font-size: 0.97rem;
   color: var(--text);
   cursor: pointer;
 }
-.gd-chip:hover { border-color: var(--primary); }
-.gd-chip.is-cut {
-  text-decoration: line-through;
-  opacity: 0.45;
-  background: transparent;
+.gd-pitch:hover { border-color: var(--primary); }
+.gd-pitch-mark {
+  flex: 0 0 1.4em;
+  font-size: 1.05rem;
+  line-height: 1.3;
+  text-align: center;
 }
-.gd-cutter-status {
-  margin: 0 0 12px;
+.gd-pitch-text { flex: 1; }
+/* Before checking, a flagged card is tinted like a warning the student is
+   raising: "I think this one is too big." */
+.gd-pitch.is-flagged {
+  border-left-color: var(--danger);
+  background: var(--danger-bg);
+}
+/* After checking, the card shows the truth: red for a studio-scale project,
+   green for a fine first game. The tick or cross in the margin says whether the
+   student's own flag matched. */
+.gd-scope.is-checked .gd-pitch { cursor: default; }
+.gd-scope.is-checked .gd-pitch[data-verdict="toobig"] {
+  border-left-color: var(--danger);
+  background: var(--danger-bg);
+}
+.gd-scope.is-checked .gd-pitch[data-verdict="ok"] {
+  border-left-color: var(--success);
+  background: var(--success-bg);
+}
+.gd-pitch.is-correct .gd-pitch-mark { color: var(--success-text); }
+.gd-pitch.is-wrong .gd-pitch-mark { color: var(--danger); }
+.gd-pitch-why {
+  display: none;
+  margin: 6px 0 0;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+.gd-scope.is-checked .gd-pitch-why { display: block; }
+.gd-scope-actions { display: flex; flex-wrap: wrap; gap: 10px; }
+.gd-scope-status {
+  margin: 12px 0 0;
   font-weight: 700;
   color: var(--ink-cool);
 }
-.gd-cutter-status.is-good { color: var(--success-text); }
+.gd-scope-status.is-good { color: var(--success-text); }
 
 /* A source list is a footnote, not a warning, so it is quieter than a callout */
 .callout-source { background: var(--tint-neutral); font-size: 0.92rem; }
@@ -6265,6 +6328,31 @@ body[data-xp-gate="checking"] main > * { display: none; }
   letter-spacing: 0.06em;
   color: var(--muted);
 }
+/* The character / no-character switch, which lives on the star slot because
+   that is the slot whose meaning changes: somebody you steer, or the things you
+   click. Two halves of one control, so they share a border rather than sitting
+   apart like the Re-roll and Lock buttons below them. */
+.im-shape {
+  display: flex;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  overflow: hidden;
+  align-self: start;
+}
+.im-shape-btn {
+  background: var(--surface);
+  border: 0;
+  padding: 4px 12px;
+  font: inherit;
+  font-size: 0.76rem;
+  font-weight: 700;
+  color: var(--muted);
+  cursor: pointer;
+  white-space: nowrap;
+}
+.im-shape-btn + .im-shape-btn { border-left: 1px solid var(--border); }
+.im-shape-btn.is-on { background: var(--primary); color: #ffffff; }
+
 .im-slot-value { margin: 0; font-weight: 700; font-size: 1.02rem; flex: 1; }
 /* Three buttons on a narrow slot card: they wrap onto a second row rather than
    breaking "Re-roll" across two lines. */
