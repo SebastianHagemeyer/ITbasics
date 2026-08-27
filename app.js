@@ -541,16 +541,17 @@
     var path = location.pathname.replace(/index\.html$/, "");
     var chev = '<svg class="nav-chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>';
     // Learn gives access to all the modules (via the /modules/ hub), the
-    // searchable documentation, the Idea Machine and the marked assignments.
-    // Play holds the interactive bits plus the leaderboard and the gallery.
-    // The Idea Machine sits under Learn rather than Play for the same reason
-    // the gallery is not in Play at all: four items is already the point where
-    // a menu starts to look busy, and the machine belongs next to the design
-    // lesson that explains what to do with what it gives you.
+    // searchable documentation and the marked assignments. Play holds the
+    // interactive bits plus the leaderboard.
+    // The Idea Machine is deliberately not in this menu. It lives at /ideas/
+    // and is reached from the Game Ideas design lesson that explains what to do
+    // with what it gives you, which keeps this menu to a tidy three. This list
+    // is the one that actually renders: renderNav() overwrites the static nav
+    // on load, so the copy in partials/nav.html has to match it but does not
+    // drive it.
     var learn = [
       { href: "/modules/", label: "All modules" },
       { href: "/docs/", label: "Documentation" },
-      { href: "/ideas/", label: "Idea Machine" },
       { href: "/assignments/", label: "Assignments" }
     ];
     // The Game Gallery is deliberately not in here. Five items made the menu
