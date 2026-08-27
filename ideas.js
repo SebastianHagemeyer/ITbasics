@@ -818,12 +818,12 @@
       } },
     { name: "Catch the eggs", win: "Catch 20 eggs", fail: "You miss three eggs",
       action: "Slide the basket left and right", obstacle: "Eggs fall faster and faster",
-      // Ours, so there is nothing to attribute to anyone else: this is the
-      // sandbox snippet of the same name, photographed mid-game.
+      // Ours, so there is nothing to attribute to anyone else: our own game,
+      // recorded live in the PyWebLib playground.
       art: {
-        src: "/images/catch-the-eggs.jpg",
-        alt: "The catch the eggs game: a basket near the bottom, an egg falling from the top, and Score: 1 in the corner.",
-        credit: "Catch the eggs, running in our own Python sandbox."
+        src: "/images/catch-the-eggs.gif",
+        alt: "The catch the eggs game: a basket slides along the bottom to catch an egg falling from the top, with the score in the corner.",
+        credit: "Catch the eggs, running in the PyWebLib playground."
       } },
     // The two that prove the rule is not a law. Their missing bones are drawn
     // as empty boxes rather than left blank, because "there isn't one" is the
