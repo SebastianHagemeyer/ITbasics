@@ -4,6 +4,13 @@
   <!-- include: head-top -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- We do our own light/dark, driven by data-theme (see the script below).
+       This tells the browser so, so it does not run its own "force dark" over
+       the top: without it some mobile browsers auto-darken the light theme's
+       backgrounds while leaving our dark text dark, which is dark-on-dark. The
+       CSS color-scheme property says the same thing, but a few browsers only
+       act on the meta tag. -->
+  <meta name="color-scheme" content="light dark" />
   <script>
     // Decide the theme before the page paints, or a dark-mode student gets a
     // white flash on every single navigation. This has to be inline and it has
@@ -140,6 +147,10 @@
             <li>What if Flappy Bird had two birds and you steered both at once?</li>
             <li>What if a racing game scored you on how <em>slowly</em> you could go without stopping?</li>
           </ul>
+          <figure class="gd-demo">
+            <img class="gd-zoom" src="/images/reverse-pacman.gif" alt="Reverse Pac-Man: you steer the smiling ghost around a dark field while the white dots flee from you, with an Eaten score in the corner." loading="lazy" />
+            <figcaption>"What if the Pac-Man ghosts were the players, and the dots ran away?" Here it is, built in our own sandbox: you are the ghost now, and the dots run.</figcaption>
+          </figure>
           <p>This is not copying. Copying is making the same game. This is asking a question the original never asked, which is where new games come from. Change one thing, keep the rest, and play the answer in your head.</p>
 
           <h3>Move 2: combine two things that do not belong together</h3>
@@ -217,7 +228,7 @@
           <p>Strip most games right back and the same four bones are there. Something you are trying to reach, something that ends the run, the things you do, and the things in your way. Try the last two buttons for the games where some of those bones are simply missing.</p>
           <div class="gd-skeleton" id="gd-skeleton">
             <figure class="gd-shot" id="gd-shot" hidden>
-              <img id="gd-shot-img" src="" alt="" />
+              <img class="gd-zoom" id="gd-shot-img" src="" alt="" />
               <figcaption id="gd-shot-credit"></figcaption>
             </figure>
             <div class="gd-skel">
@@ -257,14 +268,28 @@
             <ul class="key-points">
               <li><strong>Sandboxes and simulators.</strong> RollerCoaster Tycoon in sandbox mode has nothing to win and nothing to lose: you build the park and watch it run. Its scenarios do set targets, which is the interesting bit, the same game plays completely differently once somebody bolts a goal onto it. The Sims, city builders and flight simulators sit in the same place: the fun is the system, not the finish line.
                 <figure class="callout-shot">
-                  <img src="/images/rollercoaster-tycoon.jpg" alt="A RollerCoaster Tycoon park from above: wooden and steel coasters winding between stalls, paths and crowds of guests." loading="lazy" />
+                  <img class="gd-zoom" src="/images/rollercoaster-tycoon.jpg" alt="A RollerCoaster Tycoon park from above: wooden and steel coasters winding between stalls, paths and crowds of guests." loading="lazy" />
                   <figcaption>RollerCoaster Tycoon (Chris Sawyer, 2000). Screenshot used by reference.</figcaption>
                 </figure>
               </li>
               <li><strong>Games change.</strong> Minecraft had no win state at all for its first two and a half years. There was a way to lose, a creeper at 2am, but nothing that counted as finishing. A win condition, beat the Ender Dragon and the credits roll, only arrived on 18 November 2011, with the Java Edition 1.0.0 release announced at Minecon. It was already one of the biggest games in the world without one.
-                <figure class="callout-shot">
-                  <img src="/images/minecraft-alpha.jpg" alt="Minecraft Alpha: a blocky grass and sand shore by the sea, a crafting table ahead, and the version label in the corner. The hotbar shows hearts but no hunger bar." loading="lazy" />
-                  <figcaption>Minecraft Alpha v1.0.4 (Mojang, 2010), a year before it had any way to win. Screenshot by Xbox Mexico, via Wikimedia Commons, CC BY 3.0.</figcaption>
+                <figure class="callout-shot gd-timeline" id="mc-timeline">
+                  <img class="gd-zoom" src="/images/minecraft-alpha.jpg" alt="Minecraft Alpha: a blocky grass and sand shore, a crafting table ahead, and a hotbar with hearts but no hunger bar." loading="lazy" />
+                  <figcaption>2010, Alpha v1.0.4. Hearts, but no hunger and no way to win. Xbox Mexico, via Wikimedia Commons, CC BY 3.0.</figcaption>
+                  <div class="gd-years" role="group" aria-label="Minecraft over time">
+                    <button type="button" class="gd-year is-on" aria-pressed="true"
+                      data-src="/images/minecraft-alpha.jpg"
+                      data-alt="Minecraft Alpha: a blocky grass and sand shore, a crafting table ahead, and a hotbar with hearts but no hunger bar."
+                      data-caption="2010, Alpha v1.0.4. Hearts, but no hunger and no way to win. Xbox Mexico, via Wikimedia Commons, CC BY 3.0.">2010</button>
+                    <button type="button" class="gd-year" aria-pressed="false"
+                      data-src="/images/minecraft-end.jpg"
+                      data-alt="The End in Minecraft: a dark sky, tall obsidian pillars over pale endstone, and the Ender Dragon's wing in the foreground."
+                      data-caption="2011, version 1.0. The Ender Dragon and a real ending arrive, two and a half years in. Xbox Mexico, via Wikimedia Commons, CC BY 3.0.">2011</button>
+                    <button type="button" class="gd-year" aria-pressed="false"
+                      data-src="/images/minecraft-lush-caves.jpg"
+                      data-alt="A lush caves biome in modern Minecraft: hanging vines, glow berries and moss deep underground."
+                      data-caption="2021, lush caves. A decade on, bigger than ever, and still no story you have to finish. Xbox Mexico, via Wikimedia Commons, CC BY 3.0.">2021</button>
+                  </div>
                 </figure>
               </li>
             </ul>
