@@ -626,6 +626,110 @@ img { max-width: 100%; display: block; }
   .callout-shot { float: none; width: 100%; max-width: 100%; margin: 10px 0 4px; }
 }
 
+/* A version timeline: the callout picture with a row of year buttons under it.
+   Clicking a year swaps the picture and caption (see initTimelines). */
+.gd-years {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 8px;
+}
+.gd-year {
+  flex: 1 1 auto;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 4px 8px;
+  font: inherit;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--muted);
+  cursor: pointer;
+}
+.gd-year:hover { border-color: var(--primary); }
+.gd-year.is-on {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: #ffffff;
+}
+
+/* A centred demo clip (the reverse Pac-Man gif under Move 1), sitting in the
+   flow rather than floated like the callout shots. */
+.gd-demo { margin: 12px 0 18px; text-align: center; }
+.gd-demo img {
+  width: 420px;
+  max-width: 100%;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+}
+.gd-demo figcaption {
+  margin-top: 7px;
+  font-size: 0.82rem;
+  color: var(--muted);
+  max-width: 46ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Any picture that opens larger tells you so with the cursor. */
+.gd-zoom { cursor: zoom-in; }
+
+/* The zoom lightbox. Its own dark instrument in both themes, like a photo
+   viewer, so the deliberate hardcoded darks here are correct, not light-mode
+   leftovers. */
+.gd-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 4vmin;
+  background: rgba(6, 8, 16, 0.86);
+}
+.gd-lightbox[hidden] { display: none; }
+body.gd-lightbox-open { overflow: hidden; }
+.gd-lightbox-fig {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  max-width: 100%;
+  max-height: 100%;
+}
+.gd-lightbox-img {
+  max-width: 92vw;
+  max-height: 82vh;
+  width: auto;
+  height: auto;
+  border-radius: var(--radius-sm);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5);
+}
+.gd-lightbox-cap {
+  color: #e7ebf5;
+  font-size: 0.85rem;
+  text-align: center;
+  max-width: 60ch;
+}
+.gd-lightbox-close {
+  position: absolute;
+  top: 14px;
+  right: 16px;
+  width: 40px;
+  height: 40px;
+  border: 0;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.14);
+  color: #ffffff;
+  font-size: 1.6rem;
+  line-height: 1;
+  cursor: pointer;
+}
+.gd-lightbox-close:hover { background: rgba(255, 255, 255, 0.26); }
+
 .lesson-step-tag {
   display: inline-block;
   vertical-align: middle;

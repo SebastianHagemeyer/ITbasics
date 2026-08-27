@@ -1000,11 +1000,93 @@
     });
   }
 
+  // ------------------------------------------------- lesson: version timelines
+
+  // A figure with a row of year buttons under it. Clicking a year swaps the
+  // picture and its caption, so "games change" is something the student watches
+  // happen rather than just reads: the same game in 2010, 2011 and 2021. The
+  // per-year picture, alt text and caption all live on the buttons, so adding a
+  // year is a matter of adding a button.
+  function initTimelines() {
+    document.querySelectorAll(".gd-timeline").forEach(function (fig) {
+      var img = fig.querySelector("img");
+      var cap = fig.querySelector("figcaption");
+      var years = Array.prototype.slice.call(fig.querySelectorAll(".gd-year"));
+      if (!img || !years.length) return;
+      years.forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          img.src = btn.dataset.src;
+          img.alt = btn.dataset.alt || "";
+          if (cap) text(cap, btn.dataset.caption || "");
+          years.forEach(function (b) {
+            var on = b === btn;
+            b.classList.toggle("is-on", on);
+            b.setAttribute("aria-pressed", on ? "true" : "false");
+          });
+        });
+      });
+    });
+  }
+
+  // ---------------------------------------------------------- the zoom lightbox
+
+  // Any picture marked .gd-zoom opens larger in an overlay. One overlay is built
+  // and reused; the click reads the image live, so the switcher and the timeline
+  // (whose img.src changes as you click) zoom whatever is on screen right now.
+  // The caption follows from the figure the picture sits in. The overlay is a
+  // dark instrument in both themes on purpose, like a photo viewer.
+  function initLightbox() {
+    if (!document.querySelector(".gd-zoom")) return;
+    var overlay = document.createElement("div");
+    overlay.className = "gd-lightbox";
+    overlay.hidden = true;
+    overlay.innerHTML =
+      '<button type="button" class="gd-lightbox-close" aria-label="Close">×</button>' +
+      '<figure class="gd-lightbox-fig">' +
+      '<img class="gd-lightbox-img" src="" alt="" />' +
+      '<figcaption class="gd-lightbox-cap"></figcaption>' +
+      "</figure>";
+    document.body.appendChild(overlay);
+    var big = overlay.querySelector(".gd-lightbox-img");
+    var cap = overlay.querySelector(".gd-lightbox-cap");
+
+    function open(img) {
+      big.src = img.currentSrc || img.src;
+      big.alt = img.alt || "";
+      var fig = img.closest("figure");
+      var fc = fig ? fig.querySelector("figcaption") : null;
+      text(cap, fc ? fc.textContent : img.alt || "");
+      cap.hidden = !cap.textContent;
+      // Match the pixelated rendering of the source so a zoomed retro screen
+      // stays crisp instead of going soft.
+      big.style.imageRendering = getComputedStyle(img).imageRendering;
+      overlay.hidden = false;
+      document.body.classList.add("gd-lightbox-open");
+    }
+    function close() {
+      overlay.hidden = true;
+      document.body.classList.remove("gd-lightbox-open");
+      big.src = "";
+    }
+
+    Array.prototype.forEach.call(document.querySelectorAll(".gd-zoom"), function (img) {
+      img.addEventListener("click", function () { open(img); });
+    });
+    overlay.addEventListener("click", function (e) {
+      if (e.target === overlay || e.target.classList.contains("gd-lightbox-close")) close();
+    });
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape" && !overlay.hidden) close();
+    });
+  }
+
   function boot() {
     try { initMachine(); } catch (e) { /* the page is still readable without it */ }
     try { initTaster(); } catch (e) {}
     try { initSkeleton(); } catch (e) {}
     try { initScope(); } catch (e) {}
+    try { initTimelines(); } catch (e) {}
+    try { initLightbox(); } catch (e) {}
     try { initChecks(); } catch (e) {}
   }
 
