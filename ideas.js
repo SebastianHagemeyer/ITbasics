@@ -831,12 +831,13 @@
     { name: "Minecraft (2010)", win: "Nothing. There was no way to finish", noWin: true,
       fail: "You die, and drop everything you were carrying",
       action: "Mine, craft, build, explore", obstacle: "Night, monsters, hunger and gravity",
-      // Minecraft Classic on purpose rather than a modern screenshot: this row
-      // is about the 2010 game, which had no way to win.
+      // The 2010 survival game, not Classic: the fail line here is about dying
+      // to monsters and hunger, and the flat creative Classic screenshot read
+      // as the wrong mode. This is Alpha, with hearts and a threat.
       art: {
-        src: "/images/minecraft-classic.jpg",
-        alt: "Minecraft Classic: a blocky green landscape by the sea with a single red brick block placed on the grass.",
-        credit: "Minecraft Classic v0.30 (Mojang, 2009). Screenshot by Xbox Mexico, via Wikimedia Commons, CC BY 3.0."
+        src: "/images/minecraft-alpha.jpg",
+        alt: "Minecraft Alpha: a blocky grass and sand shore, a crafting table ahead, and a hotbar with hearts but no hunger bar.",
+        credit: "Minecraft Alpha v1.0.4 (Mojang, 2010). Screenshot by Xbox Mexico, via Wikimedia Commons, CC BY 3.0."
       } },
     { name: "RollerCoaster Tycoon (sandbox)", win: "Nothing. The park just runs", noWin: true,
       fail: "Nothing forced. You can always keep building", noFail: true,
@@ -901,17 +902,31 @@
 
   // ------------------------------------------- lesson: flag the over-scoped ideas
 
-  // Five real pitches, two of which need a studio and years. The student flags
-  // the ones that are too big to start with, then checks. The teaching is in
-  // the sort: telling "years of work" apart from "a weekend" is the whole skill
-  // this lesson is about, and it is easier to see across five examples than to
-  // feel about your own idea.
+  // Real pitches, half of which need a studio and years. The student flags the
+  // ones that are too big to start with, then checks. The teaching is in the
+  // sort: telling "years of work" apart from "a weekend" is the whole skill this
+  // lesson is about, and it is easier to see across a handful of examples than
+  // to feel about your own idea.
   function initScope() {
     var host = el("gd-scope");
     if (!host) return;
     var status = el("gd-scope-status");
     var checkBtn = el("gd-scope-check");
     var resetBtn = el("gd-scope-reset");
+
+    // Shuffle the order so a fixed answer key ("flag 1 and 2") is useless: the
+    // same list turns up in a different order for the student sitting next to
+    // you, and the only way through it is to actually judge each one.
+    var list = host.querySelector(".gd-pitches");
+    if (list) {
+      var items = Array.prototype.slice.call(list.children);
+      for (var i = items.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
+        var t = items[i]; items[i] = items[j]; items[j] = t;
+      }
+      items.forEach(function (it) { list.appendChild(it); });
+    }
+
     var pitches = Array.prototype.slice.call(host.querySelectorAll(".gd-pitch"));
     var checked = false;
 
@@ -943,8 +958,8 @@
         text(mark(p), correct ? "✓" : "✗");
       });
       var msg = right === pitches.length
-        ? "All five. The two you flagged would take a studio years; the three you kept are a weekend each. That sort, big from startable, is the whole skill."
-        : right + " of 5. The two to flag are the ones that need a whole studio: GTA 7 and the open-world Mario Kart. The other three are one screen and a few keys.";
+        ? "All " + pitches.length + ". The three you flagged would take a studio years; the three you kept are a weekend each. That sort, big from startable, is the whole skill."
+        : right + " of " + pitches.length + ". The three to flag are the ones that need a whole studio: GTA 7, the open-world Mario Kart, and the 3D shooter with its own renderer. The other three are one screen and a few keys.";
       text(status, msg);
       status.className = "gd-scope-status" + (right === pitches.length ? " is-good" : "");
       checkBtn.disabled = true;

@@ -19,10 +19,10 @@ and the licence, and both go in the credit line.
 | --- | --- |
 | `pacman-gameplay.png` | Commons, CC BY 3.0. Redrawn at the original 224x288, so leave it unscaled and let the browser do the enlarging. |
 | `flappy-bird-arcade.jpg` | Commons, CC BY 2.0. A photo of an arcade cabinet by daveynin, cropped down to the screen. |
-| `minecraft-classic.jpg` | Commons, CC BY 3.0. Minecraft Classic v0.30, chosen over a modern screenshot because that row of the lesson is about the 2010 game. |
 | `catch-the-eggs.jpg` | Ours. The sandbox snippet of the same name, screenshotted mid-game. |
+| `critic-egg-catcher.png` | Ours. The catch-the-eggs screenshot with two annotations (one good, one bad) baked in, for Move 3 (be a critic). Built with PIL, not AI. |
 | `taxi-driver.jpg` | Ours. A little taxi game built in the same sandbox engine, screenshotted mid-drive. |
-| `minecraft-alpha.jpg` | Commons, CC BY 3.0. Minecraft Alpha v1.0.4, hearts but no hunger bar. The 2010 frame of the version timeline in the "games change" callout on `/topics/ideas/`. |
+| `minecraft-alpha.jpg` | Commons, CC BY 3.0. Minecraft Alpha v1.0.4 (2010 survival), hearts but no hunger bar. Used both in the skeleton switcher's "Minecraft (2010)" row (it shows a game you can die in, unlike the old creative Classic shot) and as the 2010 frame of the version timeline. |
 | `minecraft-end.jpg` | Commons, CC BY 3.0. The End, with the Ender Dragon: the 2011 frame of the timeline, when a way to win first arrived. |
 | `minecraft-lush-caves.jpg` | Commons, CC BY 3.0. A lush caves biome: the 2021 frame, a decade on and still no ending you must reach. |
 | `reverse-pacman.gif` | Ours. A short clip of a reverse Pac-Man (the red ghost chases the fleeing Pac-Men), illustrating Move 1. Rendered in the PyWebLib playground, which has the real `ghost` and `pacman` sprites, and screen-recorded. Not AI-generated. |
