@@ -26,7 +26,7 @@ and the licence, and both go in the credit line.
 | `minecraft-end.jpg` | Commons, CC BY 3.0. The End, with the Ender Dragon: the 2011 frame of the timeline, when a way to win first arrived. |
 | `minecraft-lush-caves.jpg` | Commons, CC BY 3.0. A lush caves biome: the 2021 frame, a decade on and still no ending you must reach. |
 | `reverse-pacman.gif` | Ours. A short clip of a reverse Pac-Man (the red ghost chases the fleeing Pac-Men), illustrating Move 1. Rendered in the PyWebLib playground, which has the real `ghost` and `pacman` sprites, and screen-recorded. Not AI-generated. |
-| `bomb-football.gif` | Ours. "Football, but the ball is a bomb": two players knock a bomb between two goals, illustrating Move 2. Same PyWebLib playground, screen-recorded. Not AI-generated. |
+| `bomb-football.gif` | Ours. "Football, but the ball is a bomb": two `kid` players knock a bomb between two goals, illustrating Move 2. Rendered in the PyWebLib playground with its `kid` sprite plus a `bomb` and `goal` sprite added to that lib for the purpose. Not AI-generated. |
 | `rollercoaster-tycoon.jpg` | A commercial screenshot, not freely licensed. No free equivalent exists on Commons, and the site owner chose to use it by reference. Its credit line says exactly that rather than dressing it up as a licence. It is the one exception to the rule below, made deliberately and with eyes open, not the default. |
 
 ## All six skeleton games now have a picture
