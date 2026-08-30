@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- include: head-top -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- We do our own light/dark, driven by data-theme (see the script below).
+       This tells the browser so, so it does not run its own "force dark" over
+       the top: without it some mobile browsers auto-darken the light theme's
+       backgrounds while leaving our dark text dark, which is dark-on-dark. The
+       CSS color-scheme property says the same thing, but a few browsers only
+       act on the meta tag. -->
+  <meta name="color-scheme" content="light dark" />
+  <script>
+    // Decide the theme before the page paints, or a dark-mode student gets a
+    // white flash on every single navigation. This has to be inline and it has
+    // to be here: app.js loads at the end of <body>, which is far too late.
+    // It is also the only place prefers-color-scheme is read, so the stylesheet
+    // needs just one dark block instead of two that can drift apart.
+    (function () {
+      try {
+        var saved = localStorage.getItem("itbasics-theme");
+        var dark = saved
+          ? saved === "dark"
+          : window.matchMedia("(prefers-color-scheme: dark)").matches;
+        if (dark) document.documentElement.dataset.theme = "dark";
+      } catch (e) {
+        /* Private browsing can throw on localStorage. Light is a fine default. */
+      }
+    })();
+  </script>
+  <!-- Only drives the header button. Deferred, because the theme itself is
+       already settled by the script above. -->
+  <script src="/theme.js" defer></script>
+  <!-- /include -->
+  <title>The Number Guesser | Hallam IT Basics</title>
+  <meta name="description" content="Task 2: write a number guessing game from scratch. The computer hides a number from 1 to 10 and the player keeps guessing until they get it right." />
+  <!-- include: head-assets -->
+  <link rel="icon" type="image/svg+xml" href="/logo-binary.svg" />
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="stylesheet" href="/styles.css" />
+  <!-- /include -->
+  <!-- include: head-gate -->
+  <script>
+    (function () {
+      try {
+        if (!JSON.parse(localStorage.getItem("itbasics-session"))) {
+          location.replace("/");
+        }
+      } catch (e) { location.replace("/"); }
+    })();
+  </script>
+  <!-- /include -->
+</head>
+<body>
+  <!-- include: nav active="assignments" -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/" class="logo">
+        <img class="logo-mark" src="/logo-binary.svg" alt="" width="32" height="32" />
+        <span>Hallam IT Basics</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="/">Home</a>
+        <div class="nav-dropdown" data-open="false">
+          <button type="button" class="nav-dropdown-toggle active" aria-haspopup="true" aria-expanded="false">
+            Learn
+            <svg class="nav-chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="nav-dropdown-menu" role="menu">
+            <a href="/modules/" role="menuitem">All modules</a>
+            <a href="/docs/" role="menuitem">Documentation</a>
+            <a href="/assignments/" class="active" role="menuitem">Assignments</a>
+          </div>
+        </div>
+        <div class="nav-dropdown" data-open="false">
+          <button type="button" class="nav-dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+            Play
+            <svg class="nav-chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="nav-dropdown-menu" role="menu">
+            <a href="/sandbox/" role="menuitem">Sandbox</a>
+            <a href="/challenges/" role="menuitem">Live Coding</a>
+            <a href="/freeplay/" role="menuitem">Freeplay</a>
+            <a href="/leaderboard/" role="menuitem">Leaderboard</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- /include -->
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Assignments &middot; Task 2</p>
+        <h1>The Number Guesser</h1>
+        <p class="lead">
+          The computer hides a number from 1 to 10. The player keeps guessing until they get it
+          right. You have already met every piece of this in Task 1, now you put them together
+          <strong>on your own</strong>.
+        </p>
+      </div>
+    </section>
+
+    <div class="container section assign-single">
+
+      <section class="assign-step">
+        <h2><span class="step-num">Brief</span> What to build</h2>
+        <p>Write a program that:</p>
+        <ol class="steps">
+          <li>Picks a <strong>secret number from 1 to 10</strong> that the player cannot see.</li>
+          <li>Asks the player to <strong>guess</strong>, and turns their answer into a number.</li>
+          <li>Keeps asking, <strong>over and over</strong>, while the guess is wrong.</li>
+          <li>When the guess matches the secret, prints a success message like <code>Correct!</code> and stops.</li>
+        </ol>
+        <div class="callout">
+          <strong>This one is all yours.</strong> There is no starter code and no "load into editor"
+          button on this page on purpose. Everything you need you used in the Pet Age Calculator:
+          asking a question, turning text into a number, and a loop that keeps going until something
+          is true. The one new tool is a way to pick a random number, that is the bit worth looking
+          up. When you think it works, press <strong>Test my code</strong> below.
+        </div>
+        <div class="callout callout-source">
+          <strong>The only new idea: a random number.</strong> Python can pick one for you. The
+          module is called <code>random</code>, and there is a function in it that gives back a whole
+          number between a low and a high value you choose. Finding its name is part of the task, the
+          <a href="/docs/">documentation</a> and the <a href="/topics/libraries/">libraries lesson</a>
+          are fair game.
+        </div>
+      </section>
+
+      <!-- ============ workspace ============ -->
+      <section id="workspace" class="assign-workspace">
+        <h2>Your workspace</h2>
+        <div class="assign-shell">
+          <div class="sandbox-editor assign-editor">
+            <div class="sandbox-bar">
+              <span class="sandbox-title" id="assign-file-label">number_guess.py</span>
+              <div class="sandbox-bar-actions">
+                <button type="button" class="btn btn-primary sandbox-run" id="assign-run">
+                  <span class="sandbox-run-label">Run</span>
+                </button>
+              </div>
+            </div>
+            <div class="sandbox-code language-python" id="assign-code" spellcheck="false"></div>
+          </div>
+          <div class="assign-right">
+            <div class="sandbox-output assign-output">
+              <div class="sandbox-bar">
+                <span class="sandbox-title">Output</span>
+              </div>
+              <pre class="sandbox-out-body" id="assign-output"></pre>
+            </div>
+          </div>
+        </div>
+        <p class="sandbox-hint">
+          <kbd>Ctrl</kbd>+<kbd>Enter</kbd> to run &middot; <kbd>Tab</kbd> inserts 4 spaces &middot;
+          Python loads the first time you press Run (5-10 seconds), then it's instant &middot;
+          the Run button turns into <strong>Stop</strong> while your program is going.
+        </p>
+      </section>
+
+      <!-- ============ machine check ============ -->
+      <section class="assign-step">
+        <h2><span class="step-num">Check</span> Does your game actually work?</h2>
+        <div class="pp-test">
+          <p class="pp-test-blurb"><strong>Robot playtester.</strong> Press the button and a robot
+          plays your game many times. It secretly knows the number each round (it forces Python's
+          random pick), then checks the important things: that you keep asking until the guess is
+          right, that a wrong guess leads to another guess, and that you only celebrate when the guess
+          really matches the hidden number. Green means that part works; red tells you what to fix.</p>
+          <div class="pp-test-bar">
+            <button type="button" class="btn btn-primary" id="ng-test-btn">Test my code</button>
+            <span class="pp-test-score" id="ng-test-score"></span>
+          </div>
+          <div class="pp-test-results" id="ng-test-results"></div>
+        </div>
+        <div class="check-list">
+          <label class="check-item"><input type="checkbox" class="self-check" data-check="ng-random" /> My program picks a random secret with the <code>random</code> module (I did not hardcode it).</label>
+          <label class="check-item"><input type="checkbox" class="self-check" data-check="ng-loop" /> It keeps asking until the guess is right, a wrong guess never ends the game.</label>
+          <label class="check-item"><input type="checkbox" class="self-check" data-check="ng-win" /> When the guess matches, it prints a clear success message and stops.</label>
+          <label class="check-item"><input type="checkbox" class="self-check" data-check="ng-comments" /> I added a comment or two explaining what my code does.</label>
+        </div>
+        <label class="reflect-label" for="ng-reflect-loop">In your own words: how does your program know when to <em>stop</em> asking for a guess?</label>
+        <textarea id="ng-reflect-loop" class="reflect" data-reflect="ng-loop-why" rows="2" placeholder="It keeps going while... and stops when..."></textarea>
+      </section>
+
+      <!-- ============ extension ============ -->
+      <section class="assign-step assign-extensions">
+        <h2><span class="step-num">Extension</span> For the keen ones</h2>
+        <p>Pick <strong>at least one</strong>. There is a rubric mark waiting for it.</p>
+        <ol class="steps">
+          <li><strong>Warmer or colder.</strong> After a wrong guess, tell the player whether the
+            secret is <em>higher</em> or <em>lower</em> than what they typed.</li>
+          <li><strong>Count the guesses.</strong> When they win, tell them how many tries it took.</li>
+          <li><strong>Play again.</strong> When the game is won, ask if they want another round, and a
+            fresh secret, without restarting the program.</li>
+          <li><strong>Survive silly input.</strong> Typing <code>banana</code> should not crash it.
+            (Remember <code>try</code> and <code>except</code> from Task 1.)</li>
+        </ol>
+      </section>
+
+      <!-- ============ rubric ============ -->
+      <section class="assign-step" id="rubric">
+        <h2><span class="step-num">Rubric</span> How you'll be marked (6 marks)</h2>
+        <table class="data-table rubric-table">
+          <thead><tr><th>Criterion</th><th>Marks</th><th>Description</th></tr></thead>
+          <tbody>
+            <tr><td rowspan="2"><strong>It works</strong></td>
+                <td>3</td><td>Picks a random secret, keeps asking until the guess is right, then celebrates. Passes the robot playtester.</td></tr>
+            <tr><td>1</td><td>Runs but has a bug: stops too early, never wins, or the secret is not really random.</td></tr>
+            <tr><td rowspan="2"><strong>Code quality</strong></td>
+                <td>2</td><td>Tidy and readable, with a helpful comment or two.</td></tr>
+            <tr><td>1</td><td>Works but messy or uncommented.</td></tr>
+            <tr><td><strong>Going further</strong></td>
+                <td>1</td><td>Attempted an extension.</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- ============ submit ============ -->
+      <section class="assign-step assign-submit">
+        <h2><span class="step-num">Submit</span> Hand it in</h2>
+        <p>
+          Make sure your finished program is in the editor above (run it one last time!), write a short
+          note, and press Submit. You can submit again as many times as you like; your newest version
+          is the one that counts.
+        </p>
+        <label class="reflect-label" for="submit-note">
+          Your note (2-3 sentences): what was the trickiest part, and how did you get the loop to keep going?
+        </label>
+        <textarea id="submit-note" rows="3"
+          placeholder="The trickiest part was... I got the loop to keep asking by..."></textarea>
+        <div class="submit-row">
+          <button type="button" class="btn btn-primary" id="submit-btn">Submit my program</button>
+          <div id="submit-status" class="submit-status" role="status"></div>
+        </div>
+        <p class="assign-stuck">
+          Stuck? Talk to the person next to you first. If you're both stuck, ask the teacher.
+        </p>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- include: footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; Hallam IT Basics &middot; For Years 7-10 computing classes. &middot; <a class="footer-link" href="https://pyweb.qmarkapp.com/" target="_blank" rel="noopener">PyWebLib</a></p>
+    </div>
+  </footer>
+  <!-- /include -->
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/prism.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-python.min.js"></script>
+  <script src="/supabase-config.js"></script>
+  <script src="/app.js"></script>
+  <script src="/avatars.js"></script>
+  <script src="/hw-status.js"></script>
+  <script src="/xp.js"></script>
+  <script src="/xp-fx.js"></script>
+  <script src="/editor-tools.js"></script>
+  <script src="/pyrun.js"></script>
+  <!-- challenges.js provides the shared headless grader (window.ITCode.run),
+       which the robot playtester feeds scripted guesses through, forcing the
+       "random" secret so the check is deterministic. -->
+  <script src="/challenges.js"></script>
+  <script src="/numberguess.js"></script>
+  <script src="/code-maximise.js"></script>
+  <script src="/line-numbers.js"></script>
+</body>
+</html>

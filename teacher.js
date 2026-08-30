@@ -48,7 +48,9 @@
       kind: "assignment", assignment: "petprogram", track: "calc", prefix: "c", checksTotal: 14, reflectsTotal: 5 },
     { key: "assign:petprogram:turtle", label: "Pet Project (Task 1) - Turtle track", group: "Assignments",
       kind: "assignment", assignment: "petprogram", track: "turtle", prefix: "t", checksTotal: 13, reflectsTotal: 5 },
-    { key: "assign:pixelart", label: "Pixel Painter (Task 2): draft progress", group: "Assignments",
+    { key: "assign:numberguess", label: "The Number Guesser (Task 2): draft progress", group: "Assignments",
+      kind: "assignment", assignment: "numberguess", checksTotal: 4, reflectsTotal: 1 },
+    { key: "assign:pixelart", label: "Pixel Painter (Task 3): draft progress", group: "Assignments",
       kind: "assignment", assignment: "pixelart", checksTotal: 17, reflectsTotal: 5 }
   ];
   ASSIGNMENT_TASKS.forEach(function (t) { t.compute = computeAssignment(t); });

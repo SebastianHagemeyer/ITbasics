@@ -1398,14 +1398,18 @@ del _sandbox_install_color_print
   // independent of whether the page has an editor.
   if (!window.ITCode) {
     window.ITCode = {
-      run: async function (code, inputs) {
+      // forceSecret (optional): pin random.randint/randrange/choice to a fixed
+      // value, so a marker can make a "random" guessing game deterministic and
+      // prove the compared secret really comes from random. Omit for a normal
+      // run. Returns { output, display, used, colors, error }.
+      run: async function (code, inputs, forceSecret) {
         if (pageBusy) return { error: "Busy, let the current run finish, then try again." };
         pageBusy = true; active = null;
         try {
           const py = await ensurePyodide();
           py.globals.set("_code", String(code));
           py.globals.set("_inputs", JSON.stringify(inputs || []));
-          py.globals.set("_force", "null");
+          py.globals.set("_force", JSON.stringify(forceSecret == null ? null : forceSecret));
           return JSON.parse(py.runPython("_run_student(_code, _inputs, _force)"));
         } finally {
           pageBusy = false;
