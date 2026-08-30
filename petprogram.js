@@ -16,8 +16,8 @@
     calc:
       "# ADD A COMMENT HERE saying what this program does\n" +
       "while True:\n" +
-      '    age = input("How old is the pet? ")\n' +
-      '    print("You typed:", age)\n',
+      '    typed = input("How old is the pet? ")\n' +
+      '    print("You typed:", typed)\n',
     turtle:
       "# Your pet turtle! Give it instructions, then press Run.\n" +
       "import turtle\n" +
@@ -34,16 +34,17 @@
     "calc-1":
       "# ADD A COMMENT HERE saying what this program does\n" +
       "while True:\n" +
-      '    age = input("How old is the pet? ")\n' +
-      '    print("You typed:", age)\n',
+      '    typed = input("How old is the pet? ")\n' +
+      '    print("You typed:", typed)\n',
     "calc-2":
       "while True:\n" +
-      "    # ADD A COMMENT HERE explaining what int() does\n" +
-      '    age = int(input("How old is the pet? "))\n' +
+      '    typed = input("How old is the pet? ")\n' +
+      '    age = int(typed)   # ADD A COMMENT HERE explaining what int() does\n' +
       '    print("You typed:", age)\n',
     "calc-3":
       "while True:\n" +
-      '    age = int(input("How old is the pet? "))\n' +
+      '    typed = input("How old is the pet? ")\n' +
+      '    age = int(typed)\n' +
       "    pet_years = age * ____   # ADD A COMMENT explaining the maths (7, 6 or 5)\n" +
       '    print("In pet years that is:", pet_years)\n',
     "calc-3b":
@@ -51,28 +52,29 @@
       "dog_years = 7   # ADD A COMMENT: what does this 7 actually mean?\n" +
       "\n" +
       "while True:\n" +
-      '    age = int(input("How old is the pet? "))\n' +
+      '    typed = input("How old is the pet? ")\n' +
+      '    age = int(typed)\n' +
       "    pet_years = age * dog_years\n" +
       '    print("In pet years that is:", pet_years)\n',
     "calc-4":
       "# ADD A COMMENT HERE saying what the whole program does\n" +
       "while True:\n" +
-      '    answer = input("How old is the pet? (or type quit) ")\n' +
-      '    if answer == "quit":            # ADD A COMMENT explaining this line\n' +
+      '    typed = input("How old is the pet? (or type quit) ")\n' +
+      '    if typed == "quit":            # ADD A COMMENT explaining this line\n' +
       '        print("Goodbye!")\n' +
       "        break\n" +
-      "    age = int(answer)\n" +
+      "    age = int(typed)\n" +
       "    pet_years = age * 7\n" +
       '    print("In pet years that is:", pet_years)\n',
     "calc-5":
       "while True:\n" +
-      '    answer = input("How old is the pet? (or type quit) ")\n' +
-      '    if answer == "quit":\n' +
+      '    typed = input("How old is the pet? (or type quit) ")\n' +
+      '    if typed == "quit":\n' +
       '        print("Goodbye!")\n' +
       "        break\n" +
       "    try:\n" +
       "        # ADD A COMMENT HERE: what are we trying to do?\n" +
-      "        age = int(answer)\n" +
+      "        age = int(typed)\n" +
       "        pet_years = age * 7\n" +
       '        print("In pet years that is:", pet_years)\n' +
       "    except ValueError:\n" +
@@ -82,12 +84,12 @@
     "calc-5b":
       "# The tidy way: try ONLY the risky line, then continue if it fails.\n" +
       "while True:\n" +
-      '    answer = input("How old is the pet? (or type quit) ")\n' +
-      '    if answer == "quit":\n' +
+      '    typed = input("How old is the pet? (or type quit) ")\n' +
+      '    if typed == "quit":\n' +
       '        print("Goodbye!")\n' +
       "        break\n" +
       "    try:\n" +
-      "        age = int(answer)\n" +
+      "        age = int(typed)\n" +
       "    except ValueError:\n" +
       '        print("That is not a number. Try again.")\n' +
       "        continue   # ADD A COMMENT HERE: what does continue do, and why?\n" +
@@ -551,7 +553,7 @@
           results.push({ ok: false, title: "Ends politely when the user types quit",
             hint: /^EOFError/.test(r3.error)
               ? "The robot typed quit but your program kept asking for more. You need " +
-                'if answer == "quit": break inside the loop, that is Part 4.'
+                'if typed == "quit": break inside the loop, that is Part 4.'
               : "Typing quit stopped the program with an error: " + r3.error +
                 ". Check for quit BEFORE turning the answer into a number." });
         }
