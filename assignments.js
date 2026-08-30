@@ -70,6 +70,13 @@
       '<circle cx="40" cy="38" r="3" fill="#4db5ff"/>' +
     '</svg>';
 
+  var ICON_GUESS =
+    '<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">' +
+      '<rect x="8" y="8" width="48" height="48" rx="12" fill="#1f9d55"/>' +
+      '<text x="32" y="46" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" ' +
+            'font-size="40" font-weight="bold" fill="#ffffff">?</text>' +
+    '</svg>';
+
   var ASSIGNMENTS = [
     {
       key: "petprogram",
@@ -81,8 +88,18 @@
       marks: 11
     },
     {
+      key: "numberguess",
+      title: "Task 2 · The Number Guesser",
+      href: "/assignments/number-guess/",
+      icon: ICON_GUESS,
+      desc: "The computer hides a number from 1 to 10 and the player keeps guessing until they " +
+            "get it right. No starter code: you write the whole thing yourself, then a robot " +
+            "playtests it.",
+      marks: 6
+    },
+    {
       key: "pixelart",
-      title: "Task 2 · Pixel Painter: Pictures Are Data",
+      title: "Task 3 · Pixel Painter: Pictures Are Data",
       href: "/assignments/pixel-painter/",
       icon: ICON_PIXEL,
       desc: "Every image is secretly a grid of numbers. Store your own drawing as pure data, " +
@@ -91,7 +108,7 @@
     },
     {
       key: "gamemaker",
-      title: "Task 3 · Make Your Own Game",
+      title: "Task 4 · Make Your Own Game",
       href: "/assignments/game-maker/",
       icon: ICON_GAMEPAD,
       desc: "Build your own game on the Hallam engine, from a template or from scratch, " +

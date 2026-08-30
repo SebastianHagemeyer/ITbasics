@@ -35,7 +35,8 @@
   // column in assignment_progress (and assignments.js).
   var ASSIGNMENTS = [
     { key: "petprogram", label: "Task 1: My First Program", href: "/assignments/pet-program/" },
-    { key: "pixelart",   label: "Task 2: Pixel Painter",    href: "/assignments/pixel-painter/" }
+    { key: "numberguess", label: "Task 2: The Number Guesser", href: "/assignments/number-guess/" },
+    { key: "pixelart",   label: "Task 3: Pixel Painter",    href: "/assignments/pixel-painter/" }
   ];
   var TRACK_NAMES = { calc: "Pet Age Calculator", turtle: "Pet Turtle" };
 
