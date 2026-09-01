@@ -83,8 +83,9 @@
       title: "Task 1 · My First Program: The Pet Project",
       href: "/assignments/pet-program/",
       icon: ICON_DOG + ICON_TURTLE,
-      desc: "Build your first real Python program, step by step. Choose your path: " +
-            "a Pet Age Calculator for the number crunchers, or a drawing Pet Turtle for the artists.",
+      desc: "Build your first real Python program, step by step: a Pet Age Calculator that asks for " +
+            "a pet's age and works out how old it is in pet years, then keeps serving customers until " +
+            "someone quits.",
       marks: 11
     },
     {
