@@ -518,14 +518,19 @@
     return 0;
   }
 
+  // The same robot vet drives every "Test my code" button on the page: the one
+  // in the Final check section and the quick one above the editor. A click on
+  // either runs the checks once and paints the result into all of them, so the
+  // student sees the outcome wherever they are looking.
   function initTester() {
-    const btn = $("#pp-test-btn");
-    if (!btn) return;
-    const box = $("#pp-test-results");
-    const scoreEl = $("#pp-test-score");
+    const targets = [
+      { btn: $("#pp-test-btn"),     box: $("#pp-test-results"),     score: $("#pp-test-score") },
+      { btn: $("#pp-test-btn-top"), box: $("#pp-test-results-top"), score: $("#pp-test-score-top") }
+    ].filter(function (t) { return t.btn && t.box && t.score; });
+    if (!targets.length) return;
 
-    function render(results, bonus) {
-      box.innerHTML = "";
+    function render(t, results, bonus) {
+      t.box.innerHTML = "";
       let passed = 0;
       results.forEach(function (r) {
         if (r.ok) passed++;
@@ -547,31 +552,33 @@
           body.appendChild(hint);
         }
         row.appendChild(body);
-        box.appendChild(row);
+        t.box.appendChild(row);
       });
       if (bonus) {
         const note = document.createElement("p");
         note.className = "pp-test-bonus";
         note.textContent = bonus;
-        box.appendChild(note);
+        t.box.appendChild(note);
       }
-      scoreEl.textContent = passed + "/" + results.length +
+      t.score.textContent = passed + "/" + results.length +
         (passed === results.length ? " - all working!" : "");
-      scoreEl.className = "pp-test-score " +
+      t.score.className = "pp-test-score " +
         (passed === results.length ? "all-pass" : "some-fail");
     }
 
-    btn.addEventListener("click", async function () {
+    async function runAll() {
       if (!window.ITCode || !window.ITCode.run) {
-        box.textContent = "The tester could not load. Refresh the page and try again.";
+        targets.forEach(function (t) { t.box.textContent = "The tester could not load. Refresh the page and try again."; });
         return;
       }
       const code = runner.getCode();
-      btn.disabled = true;
-      scoreEl.textContent = "";
-      scoreEl.className = "pp-test-score";
-      box.innerHTML = '<p class="pp-test-running">The robot vet is trying your program' +
-        " (the first go loads Python, give it a few seconds)&hellip;</p>";
+      targets.forEach(function (t) {
+        t.btn.disabled = true;
+        t.score.textContent = "";
+        t.score.className = "pp-test-score";
+        t.box.innerHTML = '<p class="pp-test-running">The robot vet is trying your program' +
+          " (the first go loads Python, give it a few seconds)&hellip;</p>";
+      });
       try {
         const results = [];
 
@@ -621,13 +628,15 @@
           }
         }
 
-        render(results, bonus);
+        targets.forEach(function (t) { render(t, results, bonus); });
       } catch (e) {
-        box.textContent = "The tester hit a problem: " + (e && e.message ? e.message : e);
+        targets.forEach(function (t) { t.box.textContent = "The tester hit a problem: " + (e && e.message ? e.message : e); });
       } finally {
-        btn.disabled = false;
+        targets.forEach(function (t) { t.btn.disabled = false; });
       }
-    });
+    }
+
+    targets.forEach(function (t) { t.btn.addEventListener("click", runAll); });
   }
 
   // ---- Persisted self-checks and reflections ----------------------------------
