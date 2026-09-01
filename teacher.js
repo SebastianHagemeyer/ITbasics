@@ -45,9 +45,9 @@
   // and code to that track (calc keys start "c", turtle keys start "t").
   var ASSIGNMENT_TASKS = [
     { key: "assign:petprogram:calc", label: "Pet Project (Task 1) - Calculator track", group: "Assignments",
-      kind: "assignment", assignment: "petprogram", track: "calc", prefix: "c", checksTotal: 14, reflectsTotal: 5 },
+      kind: "assignment", assignment: "petprogram", track: "calc", prefix: "c", checksTotal: 13, reflectsTotal: 5 },
     { key: "assign:petprogram:turtle", label: "Pet Project (Task 1) - Turtle track", group: "Assignments",
-      kind: "assignment", assignment: "petprogram", track: "turtle", prefix: "t", checksTotal: 13, reflectsTotal: 5 },
+      kind: "assignment", assignment: "petprogram", track: "turtle", prefix: "t", checksTotal: 12, reflectsTotal: 5 },
     { key: "assign:numberguess", label: "The Number Guesser (Task 2): draft progress", group: "Assignments",
       kind: "assignment", assignment: "numberguess", checksTotal: 4, reflectsTotal: 1 },
     { key: "assign:pixelart", label: "Pixel Painter (Task 3): draft progress", group: "Assignments",
