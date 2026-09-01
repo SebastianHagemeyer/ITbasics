@@ -326,18 +326,20 @@
               </span> Or make one up!</td><td><code>&times; ?</code></td><td>your call</td></tr>
             </tbody>
           </table>
-          <div class="callout pet-mult">
-            <strong>Picked something not on the list, and not sure of its multiplier?</strong>
-            Here is the trick: a "pet years" multiplier is roughly <strong>100 divided by how long
-            that animal lives</strong> (its longest lifespan in years). A dog lives about 14 years,
-            and 100 &divide; 14.2 is about 7, so every human year is about 7 years for a dog. That is
-            where the 7 comes from. Type your creature's longest lifespan and see yours:
-            <div class="pet-mult-row">
-              <label for="pet-mult-input">Longest lifespan (years):</label>
-              <input type="number" id="pet-mult-input" min="0.1" max="1000" step="any" inputmode="decimal" placeholder="e.g. 14.2" />
-              <span class="pet-mult-out" id="pet-mult-out" aria-live="polite">100 &divide; ? = ?</span>
+          <details class="callout callout-collapse pet-mult">
+            <summary>Picked something not on the list, and not sure of its multiplier?</summary>
+            <div class="callout-body">
+              Here is the trick: a "pet years" multiplier is roughly <strong>100 divided by how long
+              that animal lives</strong> (its longest lifespan in years). A dog lives about 14 years,
+              and 100 &divide; 14.2 is about 7, so every human year is about 7 years for a dog. That is
+              where the 7 comes from. Type your creature's longest lifespan and see yours:
+              <div class="pet-mult-row">
+                <label for="pet-mult-input">Longest lifespan (years):</label>
+                <input type="number" id="pet-mult-input" min="0.1" max="1000" step="any" inputmode="decimal" placeholder="e.g. 14.2" />
+                <span class="pet-mult-out" id="pet-mult-out" aria-live="polite">100 &divide; ? = ?</span>
+              </div>
             </div>
-          </div>
+          </details>
           <p>
             The example code below uses <code>pet_years</code> and you fill in the multiplier.
             Vets have fancier formulas; we get to those at the end if you're quick.
