@@ -639,6 +639,30 @@
     targets.forEach(function (t) { t.btn.addEventListener("click", runAll); });
   }
 
+  // ---- Part 0 multiplier helper -----------------------------------------------
+  // For a pet that isn't in the table: a rough "pet years" multiplier is
+  // 100 / (its longest lifespan). Live-updates as they type, and says it in
+  // words so the number means something.
+  function initMultiplierHelper() {
+    const input = $("#pet-mult-input");
+    const out = $("#pet-mult-out");
+    if (!input || !out) return;
+    function update() {
+      const raw = input.value.trim();
+      const life = parseFloat(raw);
+      if (!raw || isNaN(life) || life <= 0) {
+        out.textContent = "100 ÷ ? = ?";
+        return;
+      }
+      const mult = Math.round(100 / life);
+      const lifeText = raw.replace(/\s+/g, "");
+      out.textContent = "100 ÷ " + lifeText + " = " + mult +
+        ", so every human year is about " + mult + " years for your pet.";
+    }
+    input.addEventListener("input", update);
+    update();
+  }
+
   // ---- Persisted self-checks and reflections ----------------------------------
 
   function initChecks() {
@@ -876,6 +900,7 @@
     track = "calc";
     initChecks();
     initTester();
+    initMultiplierHelper();
     if (noteEl) {
       if (!noteEl.value) noteEl.value = localStorage.getItem(localKey("note")) || "";
       noteEl.addEventListener("input", function () {

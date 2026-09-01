@@ -3793,6 +3793,19 @@ kbd {
    to action rather than body text. */
 .assign-tryit { font-size: 1.12rem; margin: 14px 0; }
 
+/* Part 0 helper: type a lifespan, see 100 / lifespan worked out live. */
+.pet-mult-row { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-top: 12px; }
+.pet-mult-row input {
+  width: 120px;
+  padding: 6px 10px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font: inherit;
+  background: var(--surface);
+  color: var(--text);
+}
+.pet-mult-out { font-weight: 700; color: var(--ink-warm); }
+
 /* Snippet cycler: show one version of an idea at a time with left/right arrows,
    instead of stacking several code blocks and a wall of explanation. */
 .snippet-cycler { margin: 16px 0; }
