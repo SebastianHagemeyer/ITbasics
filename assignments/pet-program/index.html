@@ -195,6 +195,15 @@
       <!-- ============ workspace ============ -->
       <section id="workspace" class="assign-workspace" hidden>
         <h2>Your workspace</h2>
+        <!-- Quick tester above the editor: same robot vet as the Final check,
+             so students can test without scrolling to the bottom. -->
+        <div class="pp-test pp-test-top">
+          <div class="pp-test-bar">
+            <button type="button" class="btn btn-primary" id="pp-test-btn-top">Run tests</button>
+            <span class="pp-test-score" id="pp-test-score-top"></span>
+          </div>
+          <div class="pp-test-results" id="pp-test-results-top"></div>
+        </div>
         <div class="assign-shell">
           <div class="sandbox-editor assign-editor">
             <div class="sandbox-bar">
