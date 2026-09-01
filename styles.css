@@ -3788,6 +3788,31 @@ kbd {
 /* Snippets: code + a Load button */
 .snippet-box { position: relative; margin: 14px 0; }
 .snippet-box pre.code { margin: 0; padding-right: 150px; }
+
+/* A "Try this / Try to break it" instruction, bumped up so it reads as a call
+   to action rather than body text. */
+.assign-tryit { font-size: 1.12rem; margin: 14px 0; }
+
+/* Snippet cycler: show one version of an idea at a time with left/right arrows,
+   instead of stacking several code blocks and a wall of explanation. */
+.snippet-cycler { margin: 16px 0; }
+.cyc-head { display: flex; align-items: center; gap: 12px; margin-bottom: 8px; }
+.cyc-arrow {
+  flex: 0 0 auto;
+  width: 34px;
+  height: 34px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--ink-cool);
+  font-size: 1.3rem;
+  line-height: 1;
+  cursor: pointer;
+}
+.cyc-arrow:hover { border-color: var(--primary); color: var(--primary-ink); }
+.cyc-arrow:disabled { opacity: 0.4; cursor: default; }
+.cyc-label { font-weight: 700; color: var(--ink-cool); font-size: 0.95rem; }
+.snippet-cycler .snippet-box { margin: 0; }
 .snippet-load {
   position: absolute;
   top: 10px;

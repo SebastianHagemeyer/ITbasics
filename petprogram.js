@@ -410,6 +410,59 @@
     });
   }
 
+  // A compact "one at a time" carousel for showing a few versions of the same
+  // idea without a wall of stacked code. data-snippets is a comma list of
+  // snippet ids, data-labels a matching pipe list. Left/right arrows flip
+  // between them; the Add button loads whichever is on screen.
+  function renderCyclers() {
+    $all(".snippet-cycler").forEach(function (host) {
+      var ids = (host.dataset.snippets || "").split(",").map(function (s) { return s.trim(); }).filter(Boolean);
+      var labels = (host.dataset.labels || "").split("|");
+      var items = ids.map(function (id) { return SNIPPETS[id]; }).filter(Boolean);
+      if (!items.length) return;
+      var idx = 0;
+
+      var head = document.createElement("div");
+      head.className = "cyc-head";
+      var prev = document.createElement("button");
+      prev.type = "button"; prev.className = "cyc-arrow"; prev.setAttribute("aria-label", "Previous way");
+      prev.innerHTML = "&#8249;";
+      var label = document.createElement("span");
+      label.className = "cyc-label";
+      var next = document.createElement("button");
+      next.type = "button"; next.className = "cyc-arrow"; next.setAttribute("aria-label", "Next way");
+      next.innerHTML = "&#8250;";
+      head.appendChild(prev); head.appendChild(label); head.appendChild(next);
+
+      var box = document.createElement("div");
+      box.className = "snippet-box";
+      var pre = document.createElement("pre");
+      pre.className = "code language-python";
+      var codeEl = document.createElement("code");
+      pre.appendChild(codeEl);
+      var load = document.createElement("button");
+      load.type = "button"; load.className = "btn btn-ghost snippet-load";
+      load.textContent = "Add to editor";
+      box.appendChild(pre); box.appendChild(load);
+
+      host.appendChild(head);
+      host.appendChild(box);
+
+      function paint() {
+        codeEl.textContent = items[idx];
+        var name = (labels[idx] || "").trim();
+        label.textContent = (items.length > 1 ? (idx + 1) + " of " + items.length : "") +
+          (name ? (items.length > 1 ? " · " : "") + name : "");
+        if (window.Prism) window.Prism.highlightElement(codeEl);
+      }
+      prev.addEventListener("click", function () { idx = (idx - 1 + items.length) % items.length; paint(); });
+      next.addEventListener("click", function () { idx = (idx + 1) % items.length; paint(); });
+      load.addEventListener("click", function () { loadSnippet(items[idx]); });
+      if (items.length < 2) { prev.disabled = true; next.disabled = true; }
+      paint();
+    });
+  }
+
   // Same toast as the sandbox page: message plus an optional Undo action.
   function showToast(opts) {
     let toast = document.getElementById("it-toast");
@@ -800,12 +853,18 @@
   // ---- Boot -----------------------------------------------------------------------
 
   renderSnippets();
+  renderCyclers();
 
   (async function boot() {
     // Pull any newer cloud progress into localStorage first, so the init
     // below (which reads localStorage) shows work from other machines too.
     await hydrateProgress();
-    track = localStorage.getItem(localKey("track")) || track;
+    // The Pet Turtle track is disabled for now: everyone does the Pet Age
+    // Calculator first. Force calc regardless of any previously saved track, so
+    // even a student who had picked turtle lands on the calculator. Their turtle
+    // code is kept (collectState still saves it), just not reachable right now.
+    // To re-enable choice: restore the saved-track line and unhide .assign-tracks.
+    track = "calc";
     initChecks();
     initTester();
     if (noteEl) {
@@ -815,8 +874,8 @@
         scheduleSync();
       });
     }
-    applyTrack(track, false);
-    if (track) runner.reloadSaved();
+    applyTrack("calc", false);
+    runner.reloadSaved();
     loadSubmission();
   })();
 
