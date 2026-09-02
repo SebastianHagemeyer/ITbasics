@@ -97,6 +97,21 @@
       "    pet_years = age * 7\n" +
       '    print("In pet years that is:", pet_years)\n',
 
+    "calc-5c":
+      "# A catch-all: except by itself catches ANY error, not just ValueError.\n" +
+      "while True:\n" +
+      '    typed = input("How old is the pet? (or type quit) ")\n' +
+      '    if typed == "quit":\n' +
+      '        print("Goodbye!")\n' +
+      "        break\n" +
+      "    try:\n" +
+      "        age = int(typed)\n" +
+      "    except:            # ADD A COMMENT HERE: what does a bare except catch?\n" +
+      '        print("That is not a number. Try again.")\n' +
+      "        continue\n" +
+      "    pet_years = age * 7\n" +
+      '    print("In pet years that is:", pet_years)\n',
+
     "turtle-1":
       "# ADD A COMMENT HERE saying what this program draws\n" +
       "import turtle\n" +
@@ -422,6 +437,10 @@
       if (!items.length) return;
       var idx = 0;
 
+      // Optional per-slide explanation blocks already in the HTML
+      // (.cyc-note[data-for="N"]); the matching one shows for slide N.
+      var notes = $all(".cyc-note", host);
+
       var head = document.createElement("div");
       head.className = "cyc-head";
       var prev = document.createElement("button");
@@ -445,7 +464,8 @@
       load.textContent = "Add to editor";
       box.appendChild(pre); box.appendChild(load);
 
-      host.appendChild(head);
+      // Arrows on top, notes stay where they are in the middle, code at bottom.
+      host.insertBefore(head, host.firstChild);
       host.appendChild(box);
 
       function paint() {
@@ -453,6 +473,7 @@
         var name = (labels[idx] || "").trim();
         label.textContent = (items.length > 1 ? (idx + 1) + " of " + items.length : "") +
           (name ? (items.length > 1 ? " · " : "") + name : "");
+        notes.forEach(function (n) { n.hidden = (n.dataset.for !== String(idx)); });
         if (window.Prism) window.Prism.highlightElement(codeEl);
       }
       prev.addEventListener("click", function () { idx = (idx - 1 + items.length) % items.length; paint(); });
