@@ -95,7 +95,7 @@
   <main>
     <section class="page-hero">
       <div class="container">
-        <p class="eyebrow">Python &middot; Extra</p>
+        <p class="eyebrow">Python &middot; Module</p>
         <h1>Libraries &amp; <code>import</code></h1>
         <p class="lead">You do not have to write everything yourself. Other people have already written brilliant, tested code and packed it up so you can borrow it in one line. That is what a <em>library</em> is, and <code>import</code> is how you reach for one. This page shows you the idea, meets the famous <code>pygame</code> library, then introduces the little game library we built right here at Hallam so you can make games in your browser.</p>
       </div>
@@ -114,6 +114,7 @@
           <li><a href="#reference">The game cheat sheet</a></li>
           <li><a href="#custom">Customising sprites</a></li>
           <li><a href="#wrap">Have a go</a></li>
+          <li><a href="#test">Quick check</a></li>
         </ol>
       </aside>
 
@@ -452,6 +453,76 @@ board.content <span class="c-op">=</span> <span class="c-string">"Score: "</span
                data-placeholder="e.g. rewriting"></div>
         </section>
 
+        <section id="test">
+          <h2>10. Quick check</h2>
+          <p>Seven quick questions to finish the module.</p>
+          <div class="module-test" data-test="libraries">
+            <div class="mtest-q" data-answer="c">
+              <p class="mtest-prompt">What does <code>import</code> let you do in a program?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">Delete a file from the computer</button>
+                <button type="button" class="mtest-opt" data-key="b">Restart the program from the top</button>
+                <button type="button" class="mtest-opt" data-key="c">Use code from a library someone else already wrote</button>
+                <button type="button" class="mtest-opt" data-key="d">Rename one of your variables</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="b">
+              <p class="mtest-prompt"><code>import random</code> works without installing anything. Code that ships with Python like this is called the...</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">internet</button>
+                <button type="button" class="mtest-opt" data-key="b">standard library</button>
+                <button type="button" class="mtest-opt" data-key="c">hard drive</button>
+                <button type="button" class="mtest-opt" data-key="d">operating system</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="c">
+              <p class="mtest-prompt">To use a library that does <em>not</em> come with Python, such as pygame, what do you do first?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">Nothing, every library is already built in</button>
+                <button type="button" class="mtest-opt" data-key="b">Rename your file to match the library</button>
+                <button type="button" class="mtest-opt" data-key="c">Install it (for example with <code>pip</code>)</button>
+                <button type="button" class="mtest-opt" data-key="d">Turn the computer off and on again</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="a">
+              <p class="mtest-prompt">What is <code>pygame</code>?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">A popular library for making games in Python</button>
+                <button type="button" class="mtest-opt" data-key="b">A type of variable</button>
+                <button type="button" class="mtest-opt" data-key="c">A website for buying games</button>
+                <button type="button" class="mtest-opt" data-key="d">An error message</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="b">
+              <p class="mtest-prompt">On this site, which line gives you our Hallam browser game library?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a"><code>import pygame</code></button>
+                <button type="button" class="mtest-opt" data-key="b"><code>import game</code></button>
+                <button type="button" class="mtest-opt" data-key="c"><code>install game</code></button>
+                <button type="button" class="mtest-opt" data-key="d"><code>game.download()</code></button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="c">
+              <p class="mtest-prompt">After <code>import game</code>, which line opens the game window?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a"><code>game.start()</code></button>
+                <button type="button" class="mtest-opt" data-key="b"><code>game.open()</code></button>
+                <button type="button" class="mtest-opt" data-key="c"><code>game.window(480, 360)</code></button>
+                <button type="button" class="mtest-opt" data-key="d"><code>window.game()</code></button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="d">
+              <p class="mtest-prompt">Why reach for a library instead of writing everything yourself?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">It always makes the program slower</button>
+                <button type="button" class="mtest-opt" data-key="b">It is against the rules to write your own code</button>
+                <button type="button" class="mtest-opt" data-key="c">It uses more memory for no reason</button>
+                <button type="button" class="mtest-opt" data-key="d">The code is already written and tested, so you save time</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <div class="lesson-nav">
           <a href="/modules/" class="btn btn-ghost"><span class="arrow back" aria-hidden="true"></span>All modules</a>
           <a href="/sandbox/" class="btn btn-primary">Go to the Sandbox <span class="arrow" aria-hidden="true"></span></a>
@@ -497,5 +568,7 @@ board.content <span class="c-op">=</span> <span class="c-string">"Score: "</span
   <script src="/wordcloud.js"></script>
   <script src="/challenges.js"></script>
   <script src="/snippet-run.js"></script>
+  <script src="/module-badges.js"></script>
+  <script src="/moduletest.js"></script>
 </body>
 </html>

@@ -20,6 +20,7 @@
     { key: "binary",      label: "Binary & Data",  href: "/topics/binary/" },
     { key: "codes",       label: "Codes & Colour", href: "/topics/codes/" },
     { key: "networks",    label: "Networks & Safety", href: "/topics/networks/" },
+    { key: "libraries",   label: "Libraries & import", href: "/topics/libraries/" },
     { key: "ideas",       label: "Game Ideas & Design", href: "/topics/ideas/" },
     { key: "terminal",    label: "The Terminal",   href: "/topics/terminal/" }
   ];
