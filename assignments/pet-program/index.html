@@ -402,25 +402,27 @@
         <section class="assign-step">
           <h2><span class="step-num">Part 3</span> Do the maths</h2>
           <p>
-            Now that <code>age</code> is a real number, multiply it by your pet's number.
-            Fill in the blank (7 for dog, 6 for cat, 5 for goldfish):
+            Now that <code>age</code> is a real number, multiply it by your pet's number. There are
+            two ways to write it. Flip between them with the arrows:
           </p>
-          <div class="snippet" data-snippet="calc-3"></div>
-          <div class="callout">
-            <strong>New word: hardcoding.</strong> Typing the raw number straight into the maths,
-            like <code>pet_years = age * 7</code>, is called <em>hardcoding</em> the value. It works,
-            but that 7 is a mystery number: nobody reading the code knows what it means, and if it
-            ever changes you have to hunt down every 7 in the program. The classier way is the big
-            idea from the variables lesson: <strong>a variable is a name that embodies a value you
-            set</strong>. Give the multiplier a name once, then use the name:
+          <div class="snippet-cycler" data-snippets="calc-3,calc-3b"
+               data-labels="The quick way: hardcode the number|The tidy way: give the number a name">
+            <div class="cyc-note" data-for="0">
+              <p>Type your pet's number straight into the maths and fill in the blank
+                (7 for dog, 6 for cat, 5 for goldfish). Putting a raw number in like this is called
+                <strong>hardcoding</strong>. It works fine, then press the arrow to see a tidier way.</p>
+            </div>
+            <div class="cyc-note" data-for="1">
+              <div class="callout">
+                <strong>Why bother?</strong> That <code>7</code> is a mystery number: nobody reading
+                the code knows what it means, and if it ever changes you have to hunt down every
+                <code>7</code>. The tidy way is the big idea from the variables lesson:
+                <strong>a variable is a name that holds a value you set</strong>. Name the multiplier
+                once (<code>dog_years = 7</code>), then use the name, so the maths reads like English
+                (<code>age * dog_years</code>) and a change is one line.
+              </div>
+            </div>
           </div>
-          <div class="snippet" data-snippet="calc-3b"></div>
-          <p>
-            Now the maths reads like English (<code>age * dog_years</code>), and if the vet tells you
-            dogs actually age 6 times as fast, you change <strong>one</strong> line. From here on,
-            keep using your named variable even where our example snippets are lazy and hardcode the 7;
-            swapping it out is part of the job.
-          </p>
           <p class="assign-tryit"><strong>Try a sneaky one.</strong> Run your program and enter <code>-3</code> as the age. What does it say?</p>
           <label class="reflect-label" for="c-reflect-surprise">What did the program say for -3, and why is that a problem? Also: did you <em>hardcode</em> your multiplier, or use a variable to store it?</label>
           <textarea id="c-reflect-surprise" class="reflect" data-reflect="c-surprise" rows="2" placeholder="For -3 it said... which is silly because... And I stored my multiplier in a variable called..."></textarea>
@@ -456,8 +458,18 @@
           </p>
           <p>There is more than one tidy way to do it. Use the arrows to flip between them, then pick
             the one you like and add it to your editor:</p>
-          <div class="snippet-cycler" data-snippets="calc-5,calc-5b"
-               data-labels="Wrap the whole thing in a try|Try just the risky line, then ask again"></div>
+          <div class="snippet-cycler" data-snippets="calc-5,calc-5b,calc-5c"
+               data-labels="Wrap the whole thing in a try|Try just the risky line, then ask again|Explicit error, or a catch-all?">
+            <div class="cyc-note" data-for="2">
+              <div class="callout">
+                <strong>Explicit, or a catch-all?</strong> <code>except ValueError:</code> only
+                catches the "that is not a number" error. A bare <code>except:</code> catches
+                <em>everything</em>. Handy, but here is the downside: a catch-all also hides mistakes
+                you would want to see, like a typo in your own code, so bugs get harder to find.
+                Being explicit (naming the error you expect) is usually the safer habit.
+              </div>
+            </div>
+          </div>
           <p class="assign-tryit"><strong>Try to break it:</strong> type <code>banana</code>. Type a decimal like
             <code>2.5</code>. Type a negative number like <code>-3</code>. Does your program survive each one?</p>
           <label class="reflect-label" for="c-reflect-break">In your own words: what does <code>try</code> and <code>except</code> do when someone types a word instead of a number?</label>
