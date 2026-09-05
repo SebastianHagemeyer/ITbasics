@@ -233,19 +233,6 @@ img { max-width: 100%; display: block; }
   overflow: hidden;
 }
 
-.hero-art::before {
-  content: "";
-  position: absolute;
-  top: 12px;
-  left: 16px;
-  width: 48px;
-  height: 10px;
-  background:
-    radial-gradient(circle at 5px 5px, #ff5f56 5px, transparent 5px),
-    radial-gradient(circle at 21px 5px, #ffbd2e 5px, transparent 5px),
-    radial-gradient(circle at 37px 5px, #27c93f 5px, transparent 5px);
-}
-
 .code-preview {
   margin: 24px 0 0;
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
@@ -2543,7 +2530,7 @@ h2.step-toggle {
   background: var(--code-bg);
   color: var(--code-text);
   border-radius: var(--radius-sm);
-  padding: 22px 20px 18px;
+  padding: 18px 20px;
   margin: 0;
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   font-size: 0.92rem;
@@ -2552,18 +2539,6 @@ h2.step-toggle {
   white-space: pre;
   overflow-x: auto;
   position: relative;
-}
-.module-feature-code::before {
-  content: "";
-  position: absolute;
-  top: 10px;
-  left: 14px;
-  width: 44px;
-  height: 8px;
-  background:
-    radial-gradient(circle at 4px 4px, #ff5f56 4px, transparent 4px),
-    radial-gradient(circle at 18px 4px, #ffbd2e 4px, transparent 4px),
-    radial-gradient(circle at 32px 4px, #27c93f 4px, transparent 4px);
 }
 
 .card-grid-small {
@@ -2863,7 +2838,7 @@ h2.step-toggle {
 @media (max-width: 860px) {
   .module-feature { grid-template-columns: 1fr; padding: 26px 22px; }
   .module-feature-body h2 { font-size: 1.6rem; }
-  .module-feature-code { font-size: 0.85rem; padding-top: 26px; }
+  .module-feature-code { font-size: 0.85rem; }
   .fp-options { grid-template-columns: 1fr; }
   .freeplay-toolbar { flex-direction: column; align-items: stretch; }
   .freeplay-stats { justify-content: flex-start; }
