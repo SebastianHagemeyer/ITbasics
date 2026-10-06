@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- include: head-top -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- We do our own light/dark, driven by data-theme (see the script below).
+       This tells the browser so, so it does not run its own "force dark" over
+       the top: without it some mobile browsers auto-darken the light theme's
+       backgrounds while leaving our dark text dark, which is dark-on-dark. The
+       CSS color-scheme property says the same thing, but a few browsers only
+       act on the meta tag. -->
+  <meta name="color-scheme" content="light dark" />
+  <script>
+    // Decide the theme before the page paints, or a dark-mode student gets a
+    // white flash on every single navigation. This has to be inline and it has
+    // to be here: app.js loads at the end of <body>, which is far too late.
+    // It is also the only place prefers-color-scheme is read, so the stylesheet
+    // needs just one dark block instead of two that can drift apart.
+    (function () {
+      try {
+        var saved = localStorage.getItem("itbasics-theme");
+        var dark = saved
+          ? saved === "dark"
+          : window.matchMedia("(prefers-color-scheme: dark)").matches;
+        if (dark) document.documentElement.dataset.theme = "dark";
+      } catch (e) {
+        /* Private browsing can throw on localStorage. Light is a fine default. */
+      }
+    })();
+  </script>
+  <!-- Only drives the header button. Deferred, because the theme itself is
+       already settled by the script above. -->
+  <script src="/theme.js" defer></script>
+  <!-- /include -->
+  <title>Home Group Builder | Hallam staff</title>
+  <!-- Staff-only side app. Not linked from anywhere and kept out of search. -->
+  <meta name="robots" content="noindex, nofollow" />
+  <!-- include: head-assets -->
+  <link rel="icon" type="image/svg+xml" href="/logo-binary.svg" />
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="stylesheet" href="/styles.css" />
+  <!-- /include -->
+</head>
+<body class="hg-body">
+  <header class="hg-top">
+    <div class="hg-top-inner">
+      <div class="hg-brand">
+        <span class="hg-logo" aria-hidden="true">HG</span>
+        <div><strong>Home Group Builder</strong><small>Hallam staff</small></div>
+      </div>
+      <div class="hg-userbar" id="hg-userbar" hidden>
+        <label class="hg-round-pick"><span class="hg-sr">Round</span><select id="hg-round"></select></label>
+        <button type="button" class="hg-btn hg-btn-small" id="hg-round-new">New round</button>
+        <button type="button" class="hg-btn hg-btn-small" id="hg-round-settings">Settings</button>
+        <span class="hg-who" id="hg-who"></span>
+        <button type="button" class="hg-btn hg-btn-small hg-btn-quiet" id="hg-signout">Sign out</button>
+      </div>
+      <button type="button" class="hg-btn hg-btn-small hg-btn-quiet hg-theme" id="hg-theme" aria-label="Switch light or dark">
+        <svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 2a6 6 0 0 1 0 12z" fill="currentColor"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <section class="hg-login" id="hg-login">
+    <form class="hg-card hg-login-card" id="hg-login-form">
+      <h1>Staff sign in</h1>
+      <p class="hg-muted">Use your staff login, for example <strong>staff1</strong>.</p>
+      <label class="hg-field">Username<input id="hg-user" autocomplete="username" required></label>
+      <label class="hg-field">Password<input id="hg-pass" type="password" autocomplete="current-password" required></label>
+      <button type="submit" class="hg-btn hg-btn-primary hg-wide">Sign in</button>
+      <p class="hg-msg" id="hg-login-msg" role="alert"></p>
+      <div class="hg-divider"><span>or</span></div>
+      <button type="button" class="hg-btn hg-wide" id="hg-demo">Explore with demo data</button>
+      <p class="hg-muted hg-small">The demo uses 147 made-up students and stays in this browser. Nothing is shared or saved online.</p>
+    </form>
+  </section>
+
+  <main class="hg-app" id="hg-app" hidden>
+    <div class="hg-banner" id="hg-demo-banner" hidden>
+      <span><strong>Demo mode.</strong> Made-up students, saved only in this browser.</span>
+      <button type="button" class="hg-btn hg-btn-small" id="hg-demo-reset">Reset demo</button>
+    </div>
+
+    <div class="hg-empty-state" id="hg-empty" hidden>
+      <h2>No rounds yet</h2>
+      <p class="hg-muted">A round is one job, like "2027 Year 8 home groups". Create one, import the year group, and the team can start adding pairings.</p>
+      <button type="button" class="hg-btn hg-btn-primary" id="hg-empty-new">Create a round</button>
+    </div>
+
+    <div id="hg-work" hidden>
+      <div class="hg-tabbar">
+        <div class="hg-tabs" role="tablist">
+          <button type="button" class="hg-tab" role="tab" data-tab="students">1. Students <span class="hg-count" id="hg-count-students"></span></button>
+          <button type="button" class="hg-tab" role="tab" data-tab="prefs">2. Pairings <span class="hg-count" id="hg-count-prefs"></span></button>
+          <button type="button" class="hg-tab" role="tab" data-tab="groups">3. Groups</button>
+        </div>
+        <div class="hg-row">
+          <span class="hg-muted hg-small" id="hg-sync"></span>
+          <button type="button" class="hg-btn hg-btn-small hg-btn-quiet" id="hg-refresh" hidden>Refresh</button>
+        </div>
+      </div>
+
+      <!-- 1. Students -->
+      <section class="hg-panel" data-panel="students">
+        <div class="hg-toolbar">
+          <label class="hg-btn hg-btn-primary hg-file">
+            Import CSV or Excel
+            <input type="file" id="hg-s-file" accept=".csv,.xlsx,.xls,.ods,text/csv">
+          </label>
+          <a class="hg-btn hg-btn-quiet" href="/hg-admin/demo-roster.csv" download>Example file</a>
+          <span class="hg-grow"></span>
+          <input type="search" id="hg-s-search" placeholder="Search name, ID, tag" aria-label="Search students">
+          <select id="hg-s-group" aria-label="Filter by current group"></select>
+        </div>
+        <div class="hg-card hg-import" id="hg-import" hidden></div>
+        <div class="hg-empty-state" id="hg-s-empty" hidden>
+          <h3>Import the year group</h3>
+          <p class="hg-muted">A CSV or Excel file with a heading row. The columns it looks for: student ID, first name, last name (or one name column), year level, gender and current home group. An optional "Tags" column is read too. Re-importing updates students with the same ID instead of duplicating them.</p>
+        </div>
+        <div id="hg-s-table-wrap">
+          <p class="hg-muted hg-small" id="hg-s-shown"></p>
+          <div class="hg-table-wrap">
+            <table class="hg-table">
+              <thead><tr><th>Name</th><th>ID</th><th>Gender</th><th>Current group</th><th>Tags</th><th class="hg-num" title="Works well with / keep apart">Pairings</th><th class="hg-num"><span class="hg-sr">Remove</span></th></tr></thead>
+              <tbody id="hg-s-body"></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- 2. Pairings -->
+      <section class="hg-panel" data-panel="prefs" hidden>
+        <div class="hg-prefs">
+          <aside class="hg-card hg-plist">
+            <div class="hg-plist-tools">
+              <input type="search" id="hg-p-search" placeholder="Find a student" aria-label="Find a student">
+              <select id="hg-p-group" aria-label="Filter by current group"></select>
+            </div>
+            <ul class="hg-plist-items" id="hg-p-list"></ul>
+          </aside>
+          <div class="hg-card hg-pdetail" id="hg-p-detail"></div>
+        </div>
+        <div class="hg-card hg-recent-card">
+          <h3>Latest pairings from the team</h3>
+          <ul class="hg-recent" id="hg-recent"></ul>
+        </div>
+      </section>
+
+      <!-- 3. Groups -->
+      <section class="hg-panel" data-panel="groups" hidden>
+        <div class="hg-toolbar">
+          <button type="button" class="hg-btn hg-btn-primary" id="hg-generate">Generate groups</button>
+          <button type="button" class="hg-btn" id="hg-clear-locks">Unlock all</button>
+          <span class="hg-grow"></span>
+          <select id="hg-versions" aria-label="Saved versions"></select>
+          <button type="button" class="hg-btn hg-btn-small" id="hg-version-load">Open</button>
+          <button type="button" class="hg-btn hg-btn-small hg-btn-quiet" id="hg-version-del">Delete</button>
+          <button type="button" class="hg-btn" id="hg-save-version">Save version</button>
+        </div>
+        <div class="hg-toolbar">
+          <details class="hg-card hg-priorities">
+            <summary>Priorities</summary>
+            <div class="hg-weights" id="hg-weights"></div>
+            <p class="hg-muted hg-small">Changes apply next time you press Generate.</p>
+          </details>
+          <details class="hg-card hg-priorities">
+            <summary>Custom gender mix <span class="hg-muted" id="hg-gender-state">(off)</span></summary>
+            <p class="hg-muted hg-small" id="hg-gender-year"></p>
+            <div class="hg-gtargets" id="hg-gender-rows"></div>
+            <p class="hg-muted hg-small">Groups you leave unticked share out everyone else evenly. Changes apply next time you press Generate.</p>
+          </details>
+          <span class="hg-grow"></span>
+          <span class="hg-muted hg-small">Export</span>
+          <button type="button" class="hg-btn hg-btn-small" id="hg-export-xlsx">Excel</button>
+          <button type="button" class="hg-btn hg-btn-small" id="hg-export-csv">CSV</button>
+        </div>
+
+        <div class="hg-empty-state" id="hg-g-nostudents" hidden>
+          <h3>No students yet</h3>
+          <p class="hg-muted">Import the year group on the Students tab first.</p>
+        </div>
+        <div class="hg-empty-state" id="hg-g-empty" hidden>
+          <h3>Ready when you are</h3>
+          <p class="hg-muted">Generate a first suggestion. Then drag students between groups (anyone you move gets locked in place), lock the ones you're happy with, and generate again to reshuffle everyone else.</p>
+          <button type="button" class="hg-btn hg-btn-primary" id="hg-g-start">Generate groups</button>
+        </div>
+
+        <div class="hg-summary" id="hg-summary" hidden></div>
+        <div class="hg-focus" id="hg-focus" hidden></div>
+        <p class="hg-muted hg-small hg-board-hint">Your board is your own working copy. <strong>Save version</strong> shares it with the team. Click a name to see who they pair with; drag to move.</p>
+        <div class="hg-board" id="hg-board"></div>
+      </section>
+    </div>
+  </main>
+
+  <dialog class="hg-dialog" id="hg-dialog"><form id="hg-dialog-form"></form></dialog>
+  <div class="hg-toast" id="hg-toast" role="status" aria-live="polite"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+  <script src="/supabase-config.js"></script>
+  <script src="/hg-admin/demo-data.js"></script>
+  <script src="/hg-admin/solver.js"></script>
+  <script src="/hg-admin/hg-admin.js"></script>
+</body>
+</html>
