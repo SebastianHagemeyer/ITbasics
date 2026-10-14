@@ -173,9 +173,9 @@
 
   function lineMode() {
     try {
-      return localStorage.getItem(LINE_KEY) === "on" ? "on" : "off";
+      return localStorage.getItem(LINE_KEY) === "off" ? "off" : "on";   // on by default
     } catch (e) {
-      return "off";
+      return "on";
     }
   }
 

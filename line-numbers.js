@@ -1,4 +1,4 @@
-/* Line numbers down the side of a code editor, off by default, remembered.
+/* Line numbers down the side of a code editor, on by default, remembered.
  *
  * Ten pages share the .sandbox-code editor: the Sandbox, Live Coding, the
  * three assignments and five lesson pages. This file only draws them. The
@@ -34,9 +34,9 @@
 
   function wanted() {
     try {
-      return localStorage.getItem(KEY) === "on";
+      return localStorage.getItem(KEY) !== "off";   // on unless switched off
     } catch (e) {
-      return false;
+      return true;
     }
   }
 
