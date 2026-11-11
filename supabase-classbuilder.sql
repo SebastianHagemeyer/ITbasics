@@ -105,8 +105,16 @@ create table if not exists classbuilder.students (
   year_level    int,
   current_group text   not null default '',
   tags          text[] not null default '{}',
+  meta          jsonb  not null default '{}',
   unique (round_id, student_id)
 );
+
+-- meta holds any extra details worth seeing beside a student once the groups
+-- are made (attendance, a test score, a note), as {"Label": value}. The app
+-- shows them and averages the numbers per group; it does not balance on them.
+-- This line adds the column to a database set up before it existed.
+alter table classbuilder.students
+  add column if not exists meta jsonb not null default '{}';
 
 -- One row per pair of students: either "together" (works well with) or
 -- "apart" (keep apart). The unique index makes (a, b) and (b, a) one pair.

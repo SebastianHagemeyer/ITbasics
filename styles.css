@@ -6933,6 +6933,17 @@ body[data-xp-gate="checking"] main > * { display: none; }
 .hg-key { display: inline-block; width: 12px; height: 12px; border-radius: 3px; vertical-align: -1px; margin-left: 6px; }
 .hg-key-mate { background: var(--success-bg); border: 2px solid var(--success-text); }
 .hg-key-foe { background: var(--danger-bg); border: 2px solid var(--danger); }
+.hg-focus-more { flex-basis: 100%; display: grid; gap: 4px; }
+.hg-focus-more .hg-legend { margin: 0; }
+.hg-focus-more .hg-key { margin-left: 0; }
+.hg-meta { display: flex; flex-wrap: wrap; gap: 4px 14px; margin: 0; font-size: 0.85rem; }
+.hg-meta div { display: flex; gap: 5px; }
+.hg-meta dt { color: var(--muted); }
+.hg-meta dd { margin: 0; font-weight: 600; }
+.hg-meta .hg-meta-long { flex-basis: 100%; }
+.hg-meta .hg-meta-long dd { font-weight: 400; }
+.hg-focus .hg-meta dt { color: inherit; opacity: 0.85; }
+.hg-detail-head .hg-meta { margin: -6px 0 14px; }
 .hg-board-hint { margin: 0 0 10px; }
 
 .hg-board {

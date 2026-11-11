@@ -397,12 +397,50 @@
   function matches(s, text, group) {
     if (group && s.current_group !== group) return false;
     if (!text) return true;
-    var hay = (fullName(s) + " " + s.student_id + " " + s.current_group + " " + (s.tags || []).join(" ")).toLowerCase();
+    var hay = (fullName(s) + " " + s.student_id + " " + s.current_group + " " + (s.tags || []).join(" ") + " " +
+      metaEntries(s).map(function (kv) { return kv[1]; }).join(" ")).toLowerCase();
     return text.toLowerCase().split(/\s+/).every(function (w) { return hay.indexOf(w) !== -1; });
   }
 
   function tagChips(tags) {
     return (tags || []).map(function (t) { return '<span class="hg-tag">' + esc(t) + "</span>"; }).join(" ");
+  }
+
+  // Extra details a student can carry in the "meta" column (attendance, a test
+  // score, a note...), as { "Label": value }. The app only shows them; nothing
+  // here is balanced on. Short values first, long text such as notes last.
+  function isLong(v) { return String(v).length > 24; }
+  function metaEntries(s) {
+    var m = s.meta && typeof s.meta === "object" ? s.meta : {};
+    return Object.keys(m).filter(function (k) { return m[k] !== null && m[k] !== ""; })
+      .map(function (k) { return [k, m[k]]; })
+      .sort(function (a, b) { return (isLong(a[1]) - isLong(b[1])) || a[0].localeCompare(b[0]); });
+  }
+  function metaHtml(s) {
+    var e = metaEntries(s);
+    if (!e.length) return "";
+    return '<dl class="hg-meta">' + e.map(function (kv) {
+      return "<div" + (isLong(kv[1]) ? ' class="hg-meta-long"' : "") + "><dt>" + esc(kv[0]) + "</dt><dd>" + esc(kv[1]) + "</dd></div>";
+    }).join("") + "</dl>";
+  }
+  function metaKeys() {
+    var seen = {};
+    state.students.forEach(function (s) { metaEntries(s).forEach(function (kv) { seen[kv[0]] = 1; }); });
+    return Object.keys(seen).sort();
+  }
+  // "Attendance 95.2 · PATR 121.4": the average of each numeric detail.
+  function metaAverages(members) {
+    var sum = {}, count = {};
+    members.forEach(function (s) {
+      metaEntries(s).forEach(function (kv) {
+        if (typeof kv[1] !== "number") return;
+        sum[kv[0]] = (sum[kv[0]] || 0) + kv[1];
+        count[kv[0]] = (count[kv[0]] || 0) + 1;
+      });
+    });
+    return Object.keys(sum).sort().map(function (k) {
+      return esc(k) + " " + Math.round(10 * sum[k] / count[k]) / 10;
+    }).join(" &middot; ");
   }
 
   // ------------------------------------------------------------
@@ -613,7 +651,7 @@
     var tags = s.tags || [];
     box.innerHTML =
       '<div class="hg-detail-head"><h3>' + esc(fullName(s)) + '</h3><p class="hg-muted">ID ' + esc(s.student_id) +
-      " &middot; " + esc(s.gender || "gender not set") + " &middot; " + esc(s.current_group || "no current group") + "</p></div>" +
+      " &middot; " + esc(s.gender || "gender not set") + " &middot; " + esc(s.current_group || "no current group") + "</p>" + metaHtml(s) + "</div>" +
       '<div class="hg-field"><span class="hg-label">Tags <span class="hg-muted">(spread evenly across groups)</span></span><div class="hg-tagpick">' +
       Object.keys(known).sort().map(function (t) {
         var on = tags.indexOf(t) !== -1;
@@ -760,10 +798,12 @@
         return '<span class="hg-from-chip">' + esc(k) + " &times;" + stats.from[k] + "</span>";
       }).join("");
       var tags = Object.keys(stats.tags).sort().map(function (k) { return esc(k) + " " + stats.tags[k]; }).join(" &middot; ");
+      var avg = metaAverages(members);
       head += '<div class="hg-col-stats"><div>' + (gender || "&nbsp;") +
         (gt !== undefined ? ' <span class="hg-gt-badge" title="Custom gender mix">aim ' + gt + "% girls</span>" : "") +
         "</div><div class=\"hg-from-row\">" + from + "</div>" +
-        (tags ? '<div class="hg-muted">' + tags + "</div>" : "") + "</div>";
+        (tags ? '<div class="hg-muted">' + tags + "</div>" : "") +
+        (avg ? '<div class="hg-muted" title="Average across this group">avg ' + avg + "</div>" : "") + "</div>";
     }
     members.sort(sortName);
     return '<section class="hg-col' + (g < 0 ? " hg-col-unplaced" : "") + '" data-group="' + g + '">' + head +
@@ -786,9 +826,10 @@
       }
     }
     var locked = Boolean(state.locked[s.id]);
+    var tip = metaEntries(s).map(function (kv) { return kv[0] + ": " + kv[1]; }).join("\n");
     return '<li class="' + cls + '" draggable="true" data-id="' + s.id + '">' +
       '<span class="hg-gender hg-gender-' + esc((s.gender || "").charAt(0).toUpperCase() || "U") + '" title="Gender">' + esc(s.gender || "?") + "</span>" +
-      '<button type="button" class="hg-chip-name" data-act="focus">' + esc(fullName(s)) + "</button>" +
+      '<button type="button" class="hg-chip-name" data-act="focus"' + (tip ? ' title="' + esc(tip) + '"' : "") + ">" + esc(fullName(s)) + "</button>" +
       '<span class="hg-chip-from">' + esc(s.current_group) + "</span>" +
       ((s.tags || []).length ? '<span class="hg-chip-tags" title="' + esc(s.tags.join(", ")) + '">' +
         s.tags.map(function (t) { return esc(t.charAt(0)); }).join("") + "</span>" : "") +
@@ -826,15 +867,20 @@
     if (!s) return;
     var mine = prefsFor(s.id);
     var g = placed(s.id);
-    bar.innerHTML = "<div><strong>" + esc(fullName(s)) + '</strong> <span class="hg-muted">' + esc(s.current_group) + "</span>" +
-      ' <span class="hg-legend"><span class="hg-key hg-key-mate"></span> works well with ' +
-      mine.filter(function (x) { return x.pref.kind !== "apart"; }).length +
-      ' <span class="hg-key hg-key-foe"></span> keep apart ' + mine.filter(function (x) { return x.pref.kind === "apart"; }).length + "</span></div>" +
+    function legend(key, label, list) {
+      return '<p class="hg-legend"><span class="hg-key hg-key-' + key + '"></span> ' + label + " " + list.length +
+        (list.length ? ": " + list.map(function (x) { return esc(fullName(state.byId[x.other])); }).join(", ") : "") + "</p>";
+    }
+    bar.innerHTML = "<div><strong>" + esc(fullName(s)) + '</strong> <span class="hg-muted">' + esc(s.current_group) + "</span> " +
+      tagChips(s.tags) + "</div>" +
       '<div class="hg-row"><label>Move to <select id="hg-move">' +
       (g < 0 ? '<option value="-1" selected>Not placed</option>' : "") +
       groupNames().map(function (n, i) { return '<option value="' + i + '"' + (i === g ? " selected" : "") + ">" + esc(n) + "</option>"; }).join("") +
       '</select></label><button type="button" class="hg-btn hg-btn-small" id="hg-focus-lock">' +
-      (state.locked[s.id] ? "Unlock" : "Lock") + '</button><button type="button" class="hg-btn hg-btn-small" id="hg-focus-close">Done</button></div>';
+      (state.locked[s.id] ? "Unlock" : "Lock") + '</button><button type="button" class="hg-btn hg-btn-small" id="hg-focus-close">Done</button></div>' +
+      '<div class="hg-focus-more">' + metaHtml(s) +
+      legend("mate", "works well with", mine.filter(function (x) { return x.pref.kind !== "apart"; })) +
+      legend("foe", "keep apart", mine.filter(function (x) { return x.pref.kind === "apart"; })) + "</div>";
   }
 
   function moveStudent(id, g) {
@@ -933,22 +979,29 @@
 
   function exportRows() {
     var names = groupNames();
+    var keys = metaKeys();
     return state.students.slice().sort(function (a, b) {
       return (placed(a.id) - placed(b.id)) || sortName(a, b);
     }).map(function (s) {
       var g = placed(s.id);
       return [s.student_id, s.first_name, s.last_name, s.gender, s.year_level || "", s.current_group,
-        g < 0 ? "" : names[g], (s.tags || []).join("; ")];
+        g < 0 ? "" : names[g], (s.tags || []).join("; ")].concat(keys.map(function (k) {
+          var v = (s.meta || {})[k];
+          return v === null || v === undefined ? "" : v;
+        }));
     });
   }
-  var EXPORT_HEAD = ["Student ID", "First name", "Last name", "Gender", "Year", "Current home group", "New home group", "Tags"];
+  // The fixed columns, then one per extra detail any student carries.
+  function exportHead() {
+    return ["Student ID", "First name", "Last name", "Gender", "Year", "Current home group", "New home group", "Tags"].concat(metaKeys());
+  }
 
   function fileBase() {
     return (state.round.name || "groups").replace(/[^\w\- ]+/g, "").trim().replace(/\s+/g, "-") || "groups";
   }
 
   function exportCsv() {
-    var lines = [EXPORT_HEAD].concat(exportRows()).map(function (r) {
+    var lines = [exportHead()].concat(exportRows()).map(function (r) {
       return r.map(function (v) {
         v = String(v);
         return /[",\r\n]/.test(v) ? '"' + v.replace(/"/g, '""') + '"' : v;
@@ -963,11 +1016,11 @@
     var X = window.XLSX;
     var wb = X.utils.book_new();
     var rows = exportRows();
-    X.utils.book_append_sheet(wb, X.utils.aoa_to_sheet([EXPORT_HEAD].concat(rows)), "All students");
+    X.utils.book_append_sheet(wb, X.utils.aoa_to_sheet([exportHead()].concat(rows)), "All students");
     groupNames().forEach(function (n) {
       var mine = rows.filter(function (r) { return r[6] === n; });
       // Sheet names: 31 chars max, no []:*?/\ characters.
-      X.utils.book_append_sheet(wb, X.utils.aoa_to_sheet([EXPORT_HEAD].concat(mine)),
+      X.utils.book_append_sheet(wb, X.utils.aoa_to_sheet([exportHead()].concat(mine)),
         n.replace(/[\[\]:*?\/\\]/g, " ").slice(0, 31) || "Group");
     });
     X.writeFile(wb, fileBase() + ".xlsx");
