@@ -7033,12 +7033,13 @@ body[data-xp-gate="checking"] main > * { display: none; }
   align-items: center; font-size: 0.9rem;
 }
 .hg-gtarget-name { display: flex; align-items: center; gap: 6px; font-weight: 600; cursor: pointer; }
+span.hg-gtarget-name { cursor: default; }
 .hg-gtarget output { color: var(--muted); font-size: 0.85rem; }
 .hg-gtarget.hg-on output { color: var(--text); }
 .hg-gtarget input[type="range"]:disabled { opacity: 0.35; }
 .hg-gt-badge {
   font-size: 0.72rem; font-weight: 600; padding: 0 6px; border-radius: 999px;
-  background: var(--tint-violet); color: var(--ink-violet);
+  background: var(--tint-violet); color: var(--ink-violet); white-space: nowrap;
 }
 
 @media (max-width: 860px) {
