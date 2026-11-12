@@ -3,6 +3,8 @@
  * Takes students, staff preferences and a number of groups, and looks for an
  * assignment that keeps "works well with" pairs together, keeps "keep apart"
  * pairs separated, and spreads gender, old home groups and tags evenly.
+ * A tag can instead be gathered into fewer groups, down to one (say, EAL
+ * students in the one class that has the extra support).
  *
  * How: fill the groups at random to balanced sizes (locked students stay
  * where they are), then simulated annealing over swaps of two students in
@@ -26,6 +28,11 @@
   // A custom gender mix is a deliberate choice, so it outranks a single
   // works-well pairing instead of tying with it.
   var TARGET_BOOST = 3;
+
+  // Gathering a tag into one group is the point of that group, so it acts as a
+  // rule: one student left outside costs more than any pairings they could save.
+  // (Locking a student somewhere else still wins, as locks always do.)
+  var GATHER_WEIGHT = 100;
 
   // Turns the app's rows into flat arrays the hot loop can index cheaply.
   function prepare(input) {
@@ -81,11 +88,57 @@
       return g !== undefined && g !== null && g >= 0 && g < G ? g : -1;
     });
 
-    return { students: students, n: n, G: G, idx: idx, feats: feats, F: F,
+    // Gathered tags: { tagName: how many groups share it }, fewer than all.
+    var gather = [];
+    Object.keys(input.gatherTags || {}).forEach(function (tag) {
+      var k = featId["t:" + tag];
+      var c = Number(input.gatherTags[tag]);
+      if (k === undefined || !(c >= 1 && c < G) || c % 1) return;
+      gather.push({ tag: tag, k: k, groups: c });
+    });
+
+    var P = { students: students, n: n, G: G, idx: idx, feats: feats, F: F,
       featWeight: featWeight, featName: featName, share: share, adj: adj,
-      pairs: pairs, locked: locked,
-      gshare: groupShares(G, n, share, featId, input.genderTargets),
-      gweight: groupWeights(G, featWeight, featId, input.genderTargets) };
+      pairs: pairs, locked: locked, total: total, gather: gather, hosts: {},
+      baseShare: groupShares(G, n, share, featId, input.genderTargets),
+      baseWeight: groupWeights(G, featWeight, featId, input.genderTargets) };
+    P.gshare = P.baseShare;
+    P.gweight = P.baseWeight;
+    return P;
+  }
+
+  /* Sets the targets for gathered tags. Everyone with the tag is shared
+   * between that many groups and kept out of the rest. Nobody picks the
+   * groups by hand: they are the ones that already hold the most of the tag
+   * in grp (the locked students when solving, the whole board when
+   * reporting), so locking one such student into a group chooses it. Ties go
+   * to rnd, or to group order without one. If there are more of them than
+   * the chosen groups hold, the rest are spread over the other groups.
+   * The weight is fixed, so the "spread tags" slider does not switch it off. */
+  function setGather(P, grp, rnd) {
+    P.hosts = {};
+    if (!P.gather.length) return;
+    P.gshare = P.baseShare.map(function (row) { return row.slice(); });
+    P.gweight = P.baseWeight.map(function (row) { return row.slice(); });
+    var size = P.n / P.G;
+    P.gather.forEach(function (ga) {
+      var cnt = new Array(P.G).fill(0);
+      for (var i = 0; i < P.n; i++) {
+        if (grp[i] >= 0 && P.feats[i].indexOf(ga.k) !== -1) cnt[grp[i]]++;
+      }
+      var tie = cnt.map(function () { return rnd ? rnd() : 0; });
+      var order = cnt.map(function (c, g) { return g; }).sort(function (a, b) {
+        return (cnt[b] - cnt[a]) || (tie[a] - tie[b]) || (a - b);
+      });
+      var hosts = order.slice(0, ga.groups);
+      var each = Math.min(P.total[ga.k] / ga.groups, size);
+      var rest = (P.total[ga.k] - each * ga.groups) / (P.G - ga.groups);
+      for (var g = 0; g < P.G; g++) {
+        P.gshare[g][ga.k] = (hosts.indexOf(g) !== -1 ? each : rest) / size;
+        P.gweight[g][ga.k] = GATHER_WEIGHT;
+      }
+      P.hosts[ga.tag] = hosts;
+    });
   }
 
   // Per group, per feature weight: the feature's own, boosted for the gender
@@ -254,6 +307,7 @@
   }
 
   function anneal(P, rnd, iters) {
+    setGather(P, P.locked, rnd);
     var grp = initial(P, rnd);
     var st = counts(P, grp);
     var free = [];
@@ -278,10 +332,12 @@
     return { grp: best, score: fullScore(P, best) };
   }
 
-  /* solve({ students, prefs, groupCount, locked, weights }, { restarts, iters })
+  /* solve({ students, prefs, groupCount, locked, weights, genderTargets,
+   *         gatherTags }, { restarts, iters })
    * students: [{ id, gender, current_group, tags }]
    * prefs:    [{ a: studentId, b: studentId, kind: "together" | "apart" }]
    * locked:   { studentId: groupIndex }
+   * gatherTags: { tagName: how many groups share that tag }
    * Returns { assignment: { studentId: groupIndex }, score }. */
   function solve(input, opts) {
     opts = opts || {};
@@ -320,6 +376,26 @@
       if (s.gender) G2.gender[s.gender] = (G2.gender[s.gender] || 0) + 1;
       if (s.current_group) G2.from[s.current_group] = (G2.from[s.current_group] || 0) + 1;
       (s.tags || []).forEach(function (t) { G2.tags[t] = (G2.tags[t] || 0) + 1; });
+    });
+
+    // Which groups each gathered tag has ended up in, for the board to label.
+    // Only once the board really is gathered (give or take a student per
+    // group), so moving the slider does not label a group before Generate.
+    setGather(P, grp, null);
+    var gatheredNow = {};
+    Object.keys(P.hosts).forEach(function (t) {
+      var hosts = P.hosts[t], all = 0, held = 0;
+      groups.forEach(function (G2, g) {
+        all += G2.tags[t] || 0;
+        if (hosts.indexOf(g) !== -1) held += G2.tags[t] || 0;
+      });
+      var room = Math.min(all, (P.n / P.G) * hosts.length);
+      gatheredNow[t] = held >= room - hosts.length;
+    });
+    groups.forEach(function (G2, g) {
+      G2.gathered = Object.keys(P.hosts).sort().filter(function (t) {
+        return gatheredNow[t] && P.hosts[t].indexOf(g) !== -1 && G2.tags[t];
+      });
     });
 
     var together = { met: 0, total: 0, broken: [] };

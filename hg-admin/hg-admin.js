@@ -280,6 +280,7 @@
     locked: {},         // student row id -> true
     weights: Object.assign({}, window.HGSolver.DEFAULT_WEIGHTS),
     genderTargets: {},  // group index -> percent girls, only for groups opted in
+    gatherTags: {},     // tag -> how many groups share it, only for gathered tags
     tab: "students",
     selected: null,     // student row id on the Preferences tab
     focus: null,        // student row id highlighted on the board
@@ -293,7 +294,7 @@
 
   function saveDraft() {
     lsSet(draftKey(), { assign: state.assign, locked: state.locked, weights: state.weights,
-      genderTargets: state.genderTargets });
+      genderTargets: state.genderTargets, gatherTags: state.gatherTags });
   }
   function loadDraft() {
     var d = lsGet(draftKey()) || {};
@@ -301,6 +302,7 @@
     state.locked = d.locked || {};
     state.weights = Object.assign({}, window.HGSolver.DEFAULT_WEIGHTS, d.weights || {});
     state.genderTargets = d.genderTargets || {};
+    state.gatherTags = d.gatherTags || {};
   }
 
   // Pairs indexed by student, for counts and the detail panel.
@@ -652,7 +654,7 @@
     box.innerHTML =
       '<div class="hg-detail-head"><h3>' + esc(fullName(s)) + '</h3><p class="hg-muted">ID ' + esc(s.student_id) +
       " &middot; " + esc(s.gender || "gender not set") + " &middot; " + esc(s.current_group || "no current group") + "</p>" + metaHtml(s) + "</div>" +
-      '<div class="hg-field"><span class="hg-label">Tags <span class="hg-muted">(spread evenly across groups)</span></span><div class="hg-tagpick">' +
+      '<div class="hg-field"><span class="hg-label">Tags <span class="hg-muted">(spread evenly across groups, unless gathered on the Groups tab)</span></span><div class="hg-tagpick">' +
       Object.keys(known).sort().map(function (t) {
         var on = tags.indexOf(t) !== -1;
         return '<button type="button" class="hg-tagtoggle' + (on ? " hg-on" : "") + '" aria-pressed="' + on +
@@ -733,7 +735,7 @@
       if (state.locked[id] && g !== undefined && g < groupNames().length) locked[id] = g;
     });
     return { students: state.students, prefs: state.prefs, groupCount: groupNames().length,
-      locked: locked, weights: state.weights, genderTargets: activeTargets() };
+      locked: locked, weights: state.weights, genderTargets: activeTargets(), gatherTags: activeGather() };
   }
 
   function placed(id) {
@@ -765,6 +767,7 @@
     $("hg-g-nostudents").hidden = state.students.length > 0;
     renderWeights();
     renderGenderTargets();
+    renderGather();
     renderVersions();
 
     var rep = window.HGSolver.report(solverInput(), state.assign);
@@ -799,10 +802,13 @@
       }).join("");
       var tags = Object.keys(stats.tags).sort().map(function (k) { return esc(k) + " " + stats.tags[k]; }).join(" &middot; ");
       var avg = metaAverages(members);
-      head += '<div class="hg-col-stats"><div>' + (gender || "&nbsp;") +
+      var here = (stats.gathered || []).map(function (t) {
+        return ' <span class="hg-gt-badge" title="Students tagged ' + esc(t) + ' are gathered here">' + esc(t) + " group</span>";
+      }).join("");
+      head +='<div class="hg-col-stats"><div>' + (gender || "&nbsp;") +
         (gt !== undefined ? ' <span class="hg-gt-badge" title="Custom gender mix">aim ' + gt + "% girls</span>" : "") +
         "</div><div class=\"hg-from-row\">" + from + "</div>" +
-        (tags ? '<div class="hg-muted">' + tags + "</div>" : "") +
+        (tags || here ? '<div class="hg-muted">' + tags + here + "</div>" : "") +
         (avg ? '<div class="hg-muted" title="Average across this group">avg ' + avg + "</div>" : "") + "</div>";
     }
     members.sort(sortName);
@@ -962,6 +968,62 @@
     if (focused) {
       var again = box.querySelector('[data-gt="' + focused + '"]');
       if (again) again.focus();
+    }
+  }
+
+  // Tags gathered into fewer groups, dropping any that no longer make sense.
+  function tagCounts() {
+    var c = {};
+    state.students.forEach(function (s) {
+      (s.tags || []).forEach(function (t) { if (t) c[t] = (c[t] || 0) + 1; });
+    });
+    return c;
+  }
+  function activeGather() {
+    var out = {}, n = groupNames().length, have = tagCounts();
+    Object.keys(state.gatherTags).forEach(function (t) {
+      var k = state.gatherTags[t];
+      if (have[t] && k >= 1 && k < n) out[t] = k;
+    });
+    return out;
+  }
+
+  // k is how many groups share the tag; undefined means all of them.
+  function gatherLabel(count, k) {
+    if (k === undefined) return "Spread evenly";
+    var size = groupNames().length ? Math.ceil(state.students.length / groupNames().length) : 0;
+    var over = count > size * k ? " (too many to fit, the rest are spread)" : "";
+    return (k === 1 ? "Together in one group" : "Shared between " + k + " groups") + over;
+  }
+
+  // One slider per tag: far left spreads it over every group, each step right
+  // gathers it into one group fewer, and far right is a single group.
+  // EAL is always listed, so the control is there before anyone is tagged.
+  function renderGather() {
+    // A browser still holding the older page has no panel for this yet.
+    if (!$("hg-gather-rows")) return;
+    var on = activeGather(), have = tagCounts(), names = groupNames();
+    var tags = Object.keys(have);
+    if (tags.indexOf("EAL") === -1) tags.push("EAL");
+    tags.sort();
+    var count = Object.keys(on).length;
+    $("hg-gather-state").textContent = count ? "(" + count + " gathered)" : "(all spread)";
+    var box = $("hg-gather-rows");
+    var focused = document.activeElement && box.contains(document.activeElement) ? document.activeElement.dataset.gather : null;
+    box.innerHTML = tags.map(function (t) {
+      var n = have[t] || 0, k = on[t];
+      var usable = n > 0 && names.length > 1;
+      return '<div class="hg-gtarget' + (k !== undefined ? " hg-on" : "") + '">' +
+        '<span class="hg-gtarget-name" title="' + n + " student" + (n === 1 ? "" : "s") + ' with this tag">' + esc(t) + " (" + n + ")</span>" +
+        '<input type="range" min="0" max="' + Math.max(1, names.length - 1) + '" step="1" data-gather="' + esc(t) + '" value="' +
+        (k !== undefined ? names.length - k : 0) + '"' + (usable ? "" : " disabled") +
+        ' aria-label="Spread or gather ' + esc(t) + ' students" title="Left: spread evenly. Right: together in one group.">' +
+        "<output>" + (n ? gatherLabel(n, k) : "No students tagged yet") + "</output></div>";
+    }).join("");
+    if (focused) {
+      Array.prototype.forEach.call(box.querySelectorAll("[data-gather]"), function (el) {
+        if (el.dataset.gather === focused) el.focus();
+      });
     }
   }
 
@@ -1320,6 +1382,21 @@
       state.genderTargets[g] = parseInt(e.target.value, 10);
       e.target.nextElementSibling.textContent = targetLabel(state.genderTargets[g]);
       saveDraft();
+    });
+
+    // Tags: slider at 0 spreads the tag, each step right gathers it into fewer groups.
+    var gatherBox = $("hg-gather-rows") || document.createElement("div");
+    gatherBox.addEventListener("input", function (e) {
+      var t = e.target.dataset.gather;
+      if (t === undefined) return;
+      var v = parseInt(e.target.value, 10);
+      if (v > 0) state.gatherTags[t] = groupNames().length - v;
+      else delete state.gatherTags[t];
+      e.target.nextElementSibling.textContent = gatherLabel(tagCounts()[t] || 0, state.gatherTags[t]);
+      saveDraft();
+    });
+    gatherBox.addEventListener("change", function (e) {
+      if (e.target.dataset.gather !== undefined) renderGroups();
     });
 
     var board = $("hg-board");
