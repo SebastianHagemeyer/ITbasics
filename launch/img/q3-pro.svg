@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" role="img" aria-label="A number 9 pro jersey lit up by stadium floodlights">
+  <defs>
+    <style>
+      .o { stroke: #2d2346; stroke-width: 5; stroke-linejoin: round; stroke-linecap: round; }
+      .thin { stroke: #2d2346; stroke-width: 3.5; stroke-linejoin: round; stroke-linecap: round; }
+    </style>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1d2257"/>
+      <stop offset="1" stop-color="#5543b8"/>
+    </linearGradient>
+    <linearGradient id="field" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#52d96b"/>
+      <stop offset="1" stop-color="#2aa845"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff7b0" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#fff7b0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#sky)"/>
+  <g fill="#ffffff">
+    <circle cx="150" cy="40" r="2.5"/><circle cx="230" cy="70" r="2"/><circle cx="380" cy="30" r="2.5"/>
+    <circle cx="450" cy="80" r="2"/><circle cx="300" cy="22" r="2"/><circle cx="190" cy="120" r="1.8"/><circle cx="420" cy="140" r="1.8"/>
+  </g>
+  <!-- stands with crowd -->
+  <path d="M0 238 Q300 196 600 238 V300 H0 Z" fill="#373b7d"/>
+  <g>
+    <circle cx="20" cy="246" r="7" fill="#ff5d73"/><circle cx="48" cy="242" r="7" fill="#ffc93c"/><circle cx="76" cy="238" r="7" fill="#3cc7b5"/>
+    <circle cx="104" cy="235" r="7" fill="#ff7a3d"/><circle cx="132" cy="232" r="7" fill="#a35cff"/><circle cx="160" cy="229" r="7" fill="#ff5d73"/>
+    <circle cx="440" cy="229" r="7" fill="#ffc93c"/><circle cx="468" cy="232" r="7" fill="#3cc7b5"/><circle cx="496" cy="235" r="7" fill="#ff5d73"/>
+    <circle cx="524" cy="238" r="7" fill="#4f7cff"/><circle cx="552" cy="242" r="7" fill="#ff7a3d"/><circle cx="580" cy="246" r="7" fill="#a35cff"/>
+    <circle cx="34" cy="270" r="7" fill="#4f7cff"/><circle cx="62" cy="267" r="7" fill="#ff5d73"/><circle cx="90" cy="264" r="7" fill="#ffc93c"/>
+    <circle cx="118" cy="262" r="7" fill="#3cc7b5"/><circle cx="146" cy="260" r="7" fill="#ff7a3d"/>
+    <circle cx="454" cy="260" r="7" fill="#a35cff"/><circle cx="482" cy="262" r="7" fill="#ff5d73"/><circle cx="510" cy="264" r="7" fill="#ffc93c"/>
+    <circle cx="538" cy="267" r="7" fill="#3cc7b5"/><circle cx="566" cy="270" r="7" fill="#4f7cff"/>
+  </g>
+  <!-- field -->
+  <rect x="0" y="290" width="600" height="110" fill="url(#field)"/>
+  <g fill="#ffffff" opacity="0.12">
+    <rect x="0" y="290" width="100" height="110"/><rect x="200" y="290" width="100" height="110"/><rect x="400" y="290" width="100" height="110"/>
+  </g>
+  <line x1="0" y1="290" x2="600" y2="290" stroke="#2d2346" stroke-width="4"/>
+  <ellipse cx="300" cy="350" rx="70" ry="14" fill="none" stroke="#ffffff" stroke-width="4" opacity="0.7"/>
+
+  <!-- floodlights + beams -->
+  <polygon points="48,78 92,78 372,400 196,400" fill="#fff7b0" opacity="0.18"/>
+  <polygon points="508,78 552,78 404,400 228,400" fill="#fff7b0" opacity="0.18"/>
+  <rect x="64" y="70" width="12" height="226" fill="#8e98ad" class="o"/>
+  <rect x="524" y="70" width="12" height="226" fill="#8e98ad" class="o"/>
+  <rect x="34" y="40" width="72" height="40" rx="6" fill="#5b5f7a" class="o"/>
+  <rect x="494" y="40" width="72" height="40" rx="6" fill="#5b5f7a" class="o"/>
+  <g fill="#fff27a">
+    <circle cx="52" cy="54" r="7"/><circle cx="70" cy="54" r="7"/><circle cx="88" cy="54" r="7"/>
+    <circle cx="52" cy="68" r="5"/><circle cx="70" cy="68" r="5"/><circle cx="88" cy="68" r="5"/>
+    <circle cx="512" cy="54" r="7"/><circle cx="530" cy="54" r="7"/><circle cx="548" cy="54" r="7"/>
+    <circle cx="512" cy="68" r="5"/><circle cx="530" cy="68" r="5"/><circle cx="548" cy="68" r="5"/>
+  </g>
+
+  <!-- jersey -->
+  <ellipse cx="300" cy="215" rx="190" ry="150" fill="url(#glow)"/>
+  <path d="M250 112 Q300 142 350 112 L402 134 L436 196 L392 220 L376 194 L376 328 L224 328 L224 194 L208 220 L164 196 L198 134 Z" fill="#ff5d73" class="o"/>
+  <path d="M260 116 Q300 156 340 116 Q300 138 260 116 Z" fill="#ffe14d" class="thin"/>
+  <polygon points="164,196 208,220 214,207 171,183" fill="#ffe14d" class="thin"/>
+  <polygon points="436,196 392,220 386,207 429,183" fill="#ffe14d" class="thin"/>
+  <rect x="236" y="150" width="10" height="160" rx="5" fill="#ffffff" opacity="0.35"/>
+  <text x="300" y="196" text-anchor="middle" font-family="'Arial Rounded MT Bold','Trebuchet MS',Verdana,sans-serif" font-size="26" font-weight="900" letter-spacing="4" fill="#ffffff">PRO</text>
+  <text x="300" y="300" text-anchor="middle" font-family="'Arial Rounded MT Bold','Trebuchet MS',Verdana,sans-serif" font-size="108" font-weight="900" fill="#ffffff" stroke="#2d2346" stroke-width="6" paint-order="stroke">9</text>
+  <g fill="#ffe14d" stroke="#2d2346" stroke-width="3" stroke-linejoin="round">
+    <path d="M150 120 l6 14 l14 6 l-14 6 l-6 14 l-6 -14 l-14 -6 l14 -6 z"/>
+    <path d="M460 120 l5 12 l12 5 l-12 5 l-5 12 l-5 -12 l-12 -5 l12 -5 z"/>
+  </g>
+</svg>

@@ -24,28 +24,43 @@
   // showIf hides a question unless an earlier answer matches.
   // other names the option that opens a short "which one?" box.
   // short is the column heading on the overview.
+  // img is the cartoon shown beside the question (launch/img/).
+  // type "text" is a written answer instead of buttons; optional ones can be
+  // left blank, and minWords only applies once they start writing.
   var QUESTIONS = [
-    { id: "academy", short: "Academy",
+    { id: "academy", short: "Academy", img: "q1-academy.svg",
       text: "Do you want to join the Sports Academy in Year 10?",
       options: ["Yes", "No"] },
-    { id: "sport", short: "Sport",
+    { id: "sport", short: "Sport", img: "q2-sports.svg",
       text: "What is your favourite sport?",
       options: ["Rugby League", "Basketball", "Netball", "AFL", "Soccer", "Other"],
       other: "Other" },
-    { id: "pro", short: "Go pro",
+    { id: "pro", short: "Go pro", img: "q3-pro.svg",
       text: "Do you want to play sport professionally?",
       options: ["Yes", "No"] },
-    { id: "train", short: "Train daily",
+    { id: "train", short: "Train daily", img: "q4-train-daily.svg",
       text: "If yes, would you be willing to train every day, i.e. before school or after school?",
       options: ["Yes", "No"],
       showIf: { id: "pro", value: "Yes" } },
-    { id: "gymbefore", short: "Done gym",
+    { id: "gymbefore", short: "Done gym", img: "q5-gym.svg",
       text: "Have you ever done gym or weights before?",
       options: ["Yes", "No"] },
-    { id: "gymhard", short: "Gym hard",
+    { id: "gymhard", short: "Gym hard", img: "q6-train-hard.svg",
       text: "Would you be willing to train hard in the gym if it was put on?",
-      options: ["Yes", "No"] }
+      options: ["Yes", "No"] },
+    { id: "goals", short: "Goals", img: "q7-goals.svg",
+      type: "text", optional: true, minWords: 10, maxLength: 600,
+      text: "What do you want to get out of Year 9 Launch sport?",
+      hint: "If you answer, use 10 words or more." }
   ];
+
+  var IMG_DIR = "/launch/img/";
+
+  function isText(q) { return q.type === "text"; }
+
+  function wordCount(s) {
+    return String(s || "").trim().split(/\s+/).filter(Boolean).length;
+  }
 
   var db = null;
   var me = null;          // the signed-in row from launch_signin
@@ -117,8 +132,8 @@
       el("launch-eyebrow").textContent = "Year 9 Launch";
       el("launch-title").textContent = "Sport survey";
       el("launch-lead").textContent = view === "signin"
-        ? "Six quick questions about sport in Year 10. Sign in with your student code to start."
-        : "Six quick questions about sport in Year 10. Pick one answer for each.";
+        ? "Six quick questions about sport in Year 10, plus one optional one. Sign in with your student code to start."
+        : "Six quick questions about sport in Year 10, plus one optional one at the end.";
     }
     if (me) el("launch-who-name").textContent = fullName(me);
   }
@@ -184,24 +199,51 @@
 
   function renderSurvey(answers) {
     var html = QUESTIONS.map(function (q, i) {
-      var opts = q.options.map(function (o) {
-        var checked = answers[q.id] === o ? " checked" : "";
-        return '<label class="launch-opt"><input type="radio" name="q-' + q.id + '" value="' +
-          escapeHtml(o) + '"' + checked + ' /><span>' + escapeHtml(o) + '</span></label>';
-      }).join("");
-      var other = "";
-      if (q.other) {
-        other = '<input type="text" class="auth-input launch-other" id="q-' + q.id + '-other" maxlength="40" ' +
-          'placeholder="Which sport?" value="' + escapeHtml(answers[q.id + "_other"] || "") + '" hidden />';
+      var input;
+      if (isText(q)) {
+        input = '<p class="launch-hint" id="q-' + q.id + '-hint">' + escapeHtml(q.hint || "") + '</p>' +
+          '<textarea class="auth-input launch-text" id="q-' + q.id + '" rows="4" maxlength="' + (q.maxLength || 600) + '" ' +
+          'aria-describedby="q-' + q.id + '-hint q-' + q.id + '-count" ' +
+          'placeholder="Write your answer here...">' + escapeHtml(answers[q.id] || "") + '</textarea>' +
+          '<p class="launch-count" id="q-' + q.id + '-count" aria-live="polite"></p>';
+      } else {
+        var opts = q.options.map(function (o) {
+          var checked = answers[q.id] === o ? " checked" : "";
+          return '<label class="launch-opt"><input type="radio" name="q-' + q.id + '" value="' +
+            escapeHtml(o) + '"' + checked + ' /><span>' + escapeHtml(o) + '</span></label>';
+        }).join("");
+        input = '<div class="launch-opts">' + opts + '</div>';
+        if (q.other) {
+          input += '<input type="text" class="auth-input launch-other" id="q-' + q.id + '-other" maxlength="40" ' +
+            'placeholder="Which sport?" value="' + escapeHtml(answers[q.id + "_other"] || "") + '" hidden />';
+        }
       }
-      return '<fieldset class="launch-card launch-q" id="fs-' + q.id + '">' +
-        '<legend><span class="launch-qnum">' + (i + 1) + '</span>' + escapeHtml(q.text) + '</legend>' +
-        '<div class="launch-opts">' + opts + '</div>' + other +
+      var img = q.img
+        ? '<img class="launch-qimg" src="' + IMG_DIR + q.img + '" alt="" width="600" height="400" loading="lazy" />'
+        : "";
+      return '<fieldset class="launch-card launch-q' + (isText(q) ? " launch-q-text" : "") + '" id="fs-' + q.id + '">' +
+        '<legend><span class="launch-qnum">' + (i + 1) + '</span><span>' + escapeHtml(q.text) +
+        (q.optional ? ' <em class="launch-optional">(optional)</em>' : "") + '</span></legend>' +
+        '<div class="launch-q-body"><div class="launch-q-input">' + input + '</div>' + img + '</div>' +
         '</fieldset>';
     }).join("");
     el("launch-questions").innerHTML = html;
     msg("launch-submit-msg", "");
     refreshSurvey();
+  }
+
+  // Live word count under a written answer, so they can see when they have
+  // reached the minimum.
+  function refreshCount(q) {
+    var box = el("q-" + q.id);
+    var out = el("q-" + q.id + "-count");
+    if (!box || !out) return;
+    var n = wordCount(box.value);
+    var need = q.minWords || 0;
+    out.textContent = n === 0
+      ? (q.optional ? "" : "0 words")
+      : n + (n === 1 ? " word" : " words") + (need && n < need ? " (" + (need - n) + " more to go)" : need ? ", nice." : "");
+    out.classList.toggle("is-short", !!(need && n > 0 && n < need));
   }
 
   function currentAnswer(id) {
@@ -224,14 +266,25 @@
       if (q.other) {
         el("q-" + q.id + "-other").hidden = !(visible && currentAnswer(q.id) === q.other);
       }
+      if (isText(q)) refreshCount(q);
     });
   }
 
+  // missing: questions that need an answer. short: written answers that were
+  // started but have not reached their minimum word count.
   function collectAnswers() {
     var answers = {};
     var missing = [];
+    var short = [];
     QUESTIONS.forEach(function (q) {
       if (el("fs-" + q.id).hidden) return;
+      if (isText(q)) {
+        var text = el("q-" + q.id).value.trim().replace(/\s+/g, " ");
+        if (!text) { if (!q.optional) missing.push(q); return; }
+        if (q.minWords && wordCount(text) < q.minWords) { short.push(q); return; }
+        answers[q.id] = text.slice(0, q.maxLength || 600);
+        return;
+      }
       var a = currentAnswer(q.id);
       if (!a) { missing.push(q); return; }
       answers[q.id] = a;
@@ -240,7 +293,7 @@
         if (typed) answers[q.id + "_other"] = typed;
       }
     });
-    return { answers: answers, missing: missing };
+    return { answers: answers, missing: missing, short: short };
   }
 
   function submitSurvey(e) {
@@ -249,12 +302,20 @@
     document.querySelectorAll(".launch-q.is-missing").forEach(function (fs) {
       fs.classList.remove("is-missing");
     });
-    if (got.missing.length) {
-      got.missing.forEach(function (q) { el("fs-" + q.id).classList.add("is-missing"); });
-      el("fs-" + got.missing[0].id).scrollIntoView({ behavior: "smooth", block: "center" });
-      msg("launch-submit-msg", got.missing.length === 1
-        ? "One question still needs an answer."
-        : got.missing.length + " questions still need an answer.", true);
+    var flagged = got.missing.concat(got.short);
+    if (flagged.length) {
+      flagged.forEach(function (q) { el("fs-" + q.id).classList.add("is-missing"); });
+      el("fs-" + flagged[0].id).scrollIntoView({ behavior: "smooth", block: "center" });
+      var parts = [];
+      if (got.missing.length) {
+        parts.push(got.missing.length === 1
+          ? "One question still needs an answer."
+          : got.missing.length + " questions still need an answer.");
+      }
+      got.short.forEach(function (q) {
+        parts.push("Your last answer needs " + q.minWords + " words or more, or leave it blank.");
+      });
+      msg("launch-submit-msg", parts.join(" "), true);
       return;
     }
     el("launch-submit").disabled = true;
@@ -361,6 +422,18 @@
       : "Nobody has answered yet" + (g ? " in " + g : "") + ".";
     el("launch-summary").innerHTML = done.length ? QUESTIONS.map(function (q) {
       var asked = done.filter(function (r) { return r.answers[q.id]; });
+      if (isText(q)) {
+        var items = asked.map(function (r) {
+          return '<li><strong>' + escapeHtml(fullName(r)) + '</strong>' +
+            (r.homegroup ? ' <span class="launch-hg-tag">' + escapeHtml(r.homegroup) + '</span>' : "") +
+            '<span class="launch-said">' + escapeHtml(r.answers[q.id]) + '</span></li>';
+        }).join("");
+        return '<div class="launch-card launch-sum launch-sum-text">' +
+          '<h3>' + escapeHtml(q.text) + '</h3>' +
+          '<p class="launch-note">' + asked.length + ' of ' + done.length + ' wrote an answer' +
+          (q.optional ? ' (optional question)' : '') + '.</p>' +
+          (items ? '<ul class="launch-said-list">' + items + '</ul>' : "") + '</div>';
+      }
       var bars = q.options.map(function (o) {
         var n = asked.filter(function (r) { return r.answers[q.id] === o; }).length;
         var pct = asked.length ? Math.round((n / asked.length) * 100) : 0;
@@ -400,6 +473,10 @@
     el("launch-body").innerHTML = rows.map(function (r) {
       var cells = QUESTIONS.map(function (q) {
         var a = answerText(r, q);
+        if (isText(q)) {
+          var cut = a.length > 48 ? a.slice(0, 46).replace(/\s+\S*$/, "") + "..." : a;
+          return '<td class="launch-text-cell" title="' + escapeHtml(a) + '">' + escapeHtml(cut) + "</td>";
+        }
         var cls = a === "Yes" ? ' class="launch-yes"' : a === "No" ? ' class="launch-no"' : "";
         return "<td" + cls + ">" + escapeHtml(a || (answered(r) ? "-" : "")) + "</td>";
       }).join("");
@@ -613,6 +690,15 @@
       refreshSurvey();
       var fs = e.target.closest(".launch-q");
       if (fs) fs.classList.remove("is-missing");
+    });
+    el("launch-questions").addEventListener("input", function (e) {
+      if (!e.target.matches("textarea.launch-text")) return;
+      var q = byId(e.target.id.replace(/^q-/, ""));
+      refreshCount(q);
+      var fs = e.target.closest(".launch-q");
+      if (fs && !(q.minWords && wordCount(e.target.value) > 0 && wordCount(e.target.value) < q.minWords)) {
+        fs.classList.remove("is-missing");
+      }
     });
     el("launch-edit").addEventListener("click", function () {
       renderSurvey(me.answers || {});

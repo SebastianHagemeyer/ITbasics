@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" role="img" aria-label="A determined kettlebell in a headband lifting two little dumbbells">
+  <defs>
+    <style>
+      .o { stroke: #2d2346; stroke-width: 5; stroke-linejoin: round; stroke-linecap: round; }
+      .thin { stroke: #2d2346; stroke-width: 3.5; stroke-linejoin: round; stroke-linecap: round; }
+      .shine { fill: #ffffff; opacity: 0.45; }
+    </style>
+    <radialGradient id="bg" cx="0.5" cy="0.55" r="0.75">
+      <stop offset="0" stop-color="#ffe58f"/>
+      <stop offset="1" stop-color="#ff8a5c"/>
+    </radialGradient>
+    <clipPath id="body"><circle cx="300" cy="250" r="95"/></clipPath>
+    <path id="drop" d="M0 -16 C9 -3 11 4 0 11 C-11 4 -9 -3 0 -16 Z"/>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg)"/>
+  <g fill="#ffffff" opacity="0.3">
+    <polygon points="300,220 820,220 802,355"/>
+    <polygon points="300,220 750,480 668,588"/>
+    <polygon points="300,220 560,670 435,722"/>
+    <polygon points="300,220 300,740 165,722"/>
+    <polygon points="300,220 40,670 -68,588"/>
+    <polygon points="300,220 -150,480 -202,355"/>
+    <polygon points="300,220 -220,220 -202,85"/>
+    <polygon points="300,220 -150,-40 -68,-148"/>
+    <polygon points="300,220 40,-230 165,-282"/>
+    <polygon points="300,220 300,-300 435,-282"/>
+    <polygon points="300,220 560,-230 668,-148"/>
+    <polygon points="300,220 750,-40 802,85"/>
+  </g>
+  <!-- lightning bolts -->
+  <path d="M86 50 L58 104 L78 104 L66 150 L106 90 L84 90 Z" fill="#ffe14d" class="o"/>
+  <path d="M520 240 L494 290 L512 290 L502 332 L540 276 L520 276 Z" fill="#ffe14d" class="o"/>
+  <g fill="#ffffff" stroke="#2d2346" stroke-width="3" stroke-linejoin="round">
+    <path d="M500 70 l6 15 l15 6 l-15 6 l-6 15 l-6 -15 l-15 -6 l15 -6 z"/>
+    <path d="M110 260 l5 12 l12 5 l-12 5 l-5 12 l-5 -12 l-12 -5 l12 -5 z"/>
+  </g>
+
+  <ellipse cx="300" cy="354" rx="112" ry="13" fill="#2d2346" opacity="0.2"/>
+
+  <!-- arms (behind body) -->
+  <path d="M220 270 Q160 276 150 214" fill="none" stroke="#2d2346" stroke-width="24" stroke-linecap="round"/>
+  <path d="M220 270 Q160 276 150 214" fill="none" stroke="#3cc7b5" stroke-width="13" stroke-linecap="round"/>
+  <path d="M380 270 Q440 276 450 214" fill="none" stroke="#2d2346" stroke-width="24" stroke-linecap="round"/>
+  <path d="M380 270 Q440 276 450 214" fill="none" stroke="#3cc7b5" stroke-width="13" stroke-linecap="round"/>
+  <!-- little dumbbells -->
+  <g class="o">
+    <rect x="126" y="196" width="48" height="11" rx="4" fill="#c3cbdb"/>
+    <rect x="112" y="180" width="18" height="42" rx="6" fill="#ff5d73"/>
+    <rect x="170" y="180" width="18" height="42" rx="6" fill="#ff5d73"/>
+    <rect x="426" y="196" width="48" height="11" rx="4" fill="#c3cbdb"/>
+    <rect x="412" y="180" width="18" height="42" rx="6" fill="#ff5d73"/>
+    <rect x="470" y="180" width="18" height="42" rx="6" fill="#ff5d73"/>
+  </g>
+  <circle cx="150" cy="212" r="11" fill="#3cc7b5" class="thin"/>
+  <circle cx="450" cy="212" r="11" fill="#3cc7b5" class="thin"/>
+  <!-- motion lines -->
+  <g stroke="#2d2346" stroke-width="4" stroke-linecap="round">
+    <line x1="98" y1="168" x2="86" y2="156"/><line x1="122" y1="160" x2="118" y2="144"/>
+    <line x1="502" y1="168" x2="514" y2="156"/><line x1="478" y1="160" x2="482" y2="144"/>
+  </g>
+
+  <!-- kettlebell -->
+  <path d="M232 192 C220 70 380 70 368 192" fill="none" stroke="#2d2346" stroke-width="34" stroke-linecap="round"/>
+  <path d="M232 192 C220 70 380 70 368 192" fill="none" stroke="#3cc7b5" stroke-width="20" stroke-linecap="round"/>
+  <circle cx="300" cy="250" r="95" fill="#3cc7b5"/>
+  <g clip-path="url(#body)">
+    <rect x="200" y="186" width="200" height="28" fill="#ff5d73"/>
+    <line x1="200" y1="186" x2="400" y2="186" stroke="#2d2346" stroke-width="4"/>
+    <line x1="200" y1="214" x2="400" y2="214" stroke="#2d2346" stroke-width="4"/>
+    <ellipse cx="258" cy="246" rx="14" ry="28" class="shine" transform="rotate(20 258 246)"/>
+  </g>
+  <circle cx="300" cy="250" r="95" fill="none" class="o"/>
+  <!-- face -->
+  <line x1="256" y1="232" x2="284" y2="244" stroke="#2d2346" stroke-width="7" stroke-linecap="round"/>
+  <line x1="344" y1="232" x2="316" y2="244" stroke="#2d2346" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="272" cy="258" r="8" fill="#2d2346"/>
+  <circle cx="328" cy="258" r="8" fill="#2d2346"/>
+  <circle cx="275" cy="255" r="2.5" fill="#ffffff"/>
+  <circle cx="331" cy="255" r="2.5" fill="#ffffff"/>
+  <path d="M266 284 Q300 318 334 284 Z" fill="#2d2346" class="thin"/>
+  <path d="M272 286 H328 L324 294 H276 Z" fill="#ffffff"/>
+  <ellipse cx="250" cy="284" rx="10" ry="6" fill="#ff7a9a" opacity="0.7"/>
+  <ellipse cx="350" cy="284" rx="10" ry="6" fill="#ff7a9a" opacity="0.7"/>
+  <!-- sweat -->
+  <use href="#drop" transform="translate(224 176) rotate(-20)" fill="#8fdcff" class="thin"/>
+  <use href="#drop" transform="translate(206 210) rotate(-30) scale(0.8)" fill="#8fdcff" class="thin"/>
+  <use href="#drop" transform="translate(380 150) rotate(20) scale(0.85)" fill="#8fdcff" class="thin"/>
+</svg>

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" role="img" aria-label="A rocket blasting off into a sunset sky">
+  <defs>
+    <style>
+      .o { stroke: #2d2346; stroke-width: 5; stroke-linejoin: round; stroke-linecap: round; }
+      .thin { stroke: #2d2346; stroke-width: 3.5; stroke-linejoin: round; stroke-linecap: round; }
+    </style>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3f3496"/>
+      <stop offset="0.55" stop-color="#ff8fa3"/>
+      <stop offset="1" stop-color="#ffd59e"/>
+    </linearGradient>
+    <path id="bodyShape" d="M300 48 C354 92 364 170 356 262 L244 262 C236 170 246 92 300 48 Z"/>
+    <clipPath id="bodyClip"><use href="#bodyShape"/></clipPath>
+  </defs>
+  <rect width="600" height="400" fill="url(#sky)"/>
+  <g fill="#ffffff">
+    <circle cx="60" cy="40" r="2.5"/><circle cx="160" cy="26" r="2"/><circle cx="440" cy="34" r="2.5"/><circle cx="540" cy="70" r="2"/>
+    <circle cx="500" cy="140" r="1.8"/><circle cx="110" cy="130" r="1.8"/>
+  </g>
+  <g fill="#ffffff" stroke="#2d2346" stroke-width="3" stroke-linejoin="round">
+    <path d="M200 70 l5 12 l12 5 l-12 5 l-5 12 l-5 -12 l-12 -5 l12 -5 z"/>
+    <path d="M430 120 l6 15 l15 6 l-15 6 l-6 15 l-6 -15 l-15 -6 l15 -6 z"/>
+  </g>
+  <!-- ringed planet -->
+  <g>
+    <circle cx="96" cy="86" r="30" fill="#ffc93c" class="o"/>
+    <ellipse cx="96" cy="86" rx="54" ry="14" fill="none" stroke="#2d2346" stroke-width="9" transform="rotate(-18 96 86)"/>
+    <ellipse cx="96" cy="86" rx="54" ry="14" fill="none" stroke="#ff7a3d" stroke-width="4" transform="rotate(-18 96 86)"/>
+    <path d="M70 76 a30 30 0 0 1 52 0" fill="#ffc93c" stroke="#2d2346" stroke-width="5" transform="rotate(-18 96 86)"/>
+  </g>
+  <!-- speed lines -->
+  <g stroke="#ffffff" stroke-width="5" stroke-linecap="round" opacity="0.8">
+    <line x1="200" y1="170" x2="200" y2="230"/><line x1="176" y1="200" x2="176" y2="246"/>
+    <line x1="400" y1="170" x2="400" y2="230"/><line x1="424" y1="200" x2="424" y2="246"/>
+  </g>
+
+  <!-- flame -->
+  <path d="M270 280 C266 330 286 362 300 396 C314 362 334 330 330 280 Z" fill="#ff7a3d" class="o"/>
+  <path d="M284 280 C284 318 294 340 300 362 C306 340 316 318 316 280 Z" fill="#ffe14d"/>
+  <!-- fins -->
+  <path d="M248 200 C214 216 198 250 194 292 L252 262 Z" fill="#ff5d73" class="o"/>
+  <path d="M352 200 C386 216 402 250 406 292 L348 262 Z" fill="#ff5d73" class="o"/>
+  <!-- nozzle -->
+  <path d="M266 260 L334 260 L324 282 L276 282 Z" fill="#8e98ad" class="o"/>
+  <!-- body -->
+  <use href="#bodyShape" fill="#ffffff"/>
+  <g clip-path="url(#bodyClip)">
+    <rect x="200" y="0" width="200" height="110" fill="#ff5d73"/>
+    <line x1="200" y1="110" x2="400" y2="110" stroke="#2d2346" stroke-width="4"/>
+    <rect x="200" y="226" width="200" height="16" fill="#8b7bff"/>
+    <rect x="256" y="120" width="12" height="130" rx="6" fill="#dfe6f3"/>
+  </g>
+  <use href="#bodyShape" fill="none" class="o"/>
+  <rect x="292" y="244" width="16" height="50" rx="6" fill="#ff5d73" class="o"/>
+  <!-- window -->
+  <circle cx="300" cy="164" r="34" fill="#c3cbdb" class="o"/>
+  <circle cx="300" cy="164" r="23" fill="#5fd8ff" class="thin"/>
+  <path d="M287 156 a15 15 0 0 1 16 -9" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- launch smoke -->
+  <g fill="#ffffff" class="o">
+    <circle cx="70" cy="404" r="40"/>
+    <circle cx="140" cy="396" r="38"/>
+    <circle cx="208" cy="392" r="34"/>
+    <circle cx="392" cy="392" r="34"/>
+    <circle cx="460" cy="396" r="38"/>
+    <circle cx="530" cy="404" r="40"/>
+  </g>
+</svg>
