@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" role="img" aria-label="A number 9 pro jersey lit up by stadium floodlights">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" role="img" aria-label="A number 9 jersey lit up by stadium floodlights">
   <defs>
     <style>
       .o { stroke: #2d2346; stroke-width: 5; stroke-linejoin: round; stroke-linecap: round; }
@@ -63,7 +63,6 @@
   <polygon points="164,196 208,220 214,207 171,183" fill="#ffe14d" class="thin"/>
   <polygon points="436,196 392,220 386,207 429,183" fill="#ffe14d" class="thin"/>
   <rect x="236" y="150" width="10" height="160" rx="5" fill="#ffffff" opacity="0.35"/>
-  <text x="300" y="196" text-anchor="middle" font-family="'Arial Rounded MT Bold','Trebuchet MS',Verdana,sans-serif" font-size="26" font-weight="900" letter-spacing="4" fill="#ffffff">PRO</text>
   <text x="300" y="300" text-anchor="middle" font-family="'Arial Rounded MT Bold','Trebuchet MS',Verdana,sans-serif" font-size="108" font-weight="900" fill="#ffffff" stroke="#2d2346" stroke-width="6" paint-order="stroke">9</text>
   <g fill="#ffe14d" stroke="#2d2346" stroke-width="3" stroke-linejoin="round">
     <path d="M150 120 l6 14 l14 6 l-14 6 l-6 14 l-6 -14 l-14 -6 l14 -6 z"/>
