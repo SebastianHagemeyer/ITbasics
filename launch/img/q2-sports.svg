@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 400" width="600" height="400" role="img" aria-label="Six sports balls: basketball, soccer, netball, rugby league, AFL and a question mark for other">
+  <defs>
+    <style>
+      .o { stroke: #2d2346; stroke-width: 5; stroke-linejoin: round; stroke-linecap: round; }
+      .seam { fill: none; stroke: #2d2346; stroke-width: 4; stroke-linecap: round; }
+      .lbl { font-family: 'Arial Rounded MT Bold','Trebuchet MS',Verdana,sans-serif; font-size: 20px; font-weight: 900; fill: #2d2346; text-anchor: middle; }
+      .shine { fill: #ffffff; opacity: 0.45; }
+    </style>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff6e0"/>
+      <stop offset="1" stop-color="#ffdfb3"/>
+    </linearGradient>
+    <polygon id="pent" points="0,-17 16.2,-5.3 10,13.8 -10,13.8 -16.2,-5.3"/>
+    <clipPath id="soccerClip"><circle cx="300" cy="122" r="58"/></clipPath>
+    <path id="oval" d="M-72 0 C-42 -48 42 -48 72 0 C42 48 -42 48 -72 0 Z"/>
+    <clipPath id="ovalClip"><use xlink:href="#oval" href="#oval"/></clipPath>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg)"/>
+  <g fill="#2d2346" opacity="0.06">
+    <circle cx="40" cy="40" r="6"/><circle cx="200" cy="30" r="5"/><circle cx="400" cy="36" r="6"/><circle cx="560" cy="28" r="5"/>
+    <circle cx="30" cy="220" r="5"/><circle cx="570" cy="210" r="6"/><circle cx="200" cy="215" r="4"/><circle cx="400" cy="215" r="4"/>
+  </g>
+  <g fill="#2d2346" opacity="0.15">
+    <ellipse cx="100" cy="184" rx="48" ry="7"/><ellipse cx="300" cy="184" rx="48" ry="7"/><ellipse cx="500" cy="184" rx="48" ry="7"/>
+    <ellipse cx="100" cy="342" rx="56" ry="7"/><ellipse cx="300" cy="342" rx="56" ry="7"/><ellipse cx="500" cy="342" rx="48" ry="7"/>
+  </g>
+
+  <!-- basketball -->
+  <circle cx="100" cy="122" r="58" fill="#ff8a3d" class="o"/>
+  <path class="seam" d="M100 64 V180 M42 122 H158 M60 80 Q86 122 60 164 M140 80 Q114 122 140 164"/>
+  <ellipse cx="78" cy="96" rx="12" ry="7" transform="rotate(-35 78 96)" class="shine"/>
+
+  <!-- soccer -->
+  <circle cx="300" cy="122" r="58" fill="#ffffff" class="o"/>
+  <g clip-path="url(#soccerClip)" fill="#2d2346">
+    <use xlink:href="#pent" href="#pent" transform="translate(300 122)"/>
+    <use xlink:href="#pent" href="#pent" transform="translate(332.3 77.5) rotate(36) scale(0.9)"/>
+    <use xlink:href="#pent" href="#pent" transform="translate(352.3 139) rotate(108) scale(0.9)"/>
+    <use xlink:href="#pent" href="#pent" transform="translate(300 177) rotate(180) scale(0.9)"/>
+    <use xlink:href="#pent" href="#pent" transform="translate(247.7 139) rotate(252) scale(0.9)"/>
+    <use xlink:href="#pent" href="#pent" transform="translate(267.7 77.5) rotate(324) scale(0.9)"/>
+  </g>
+  <path class="seam" stroke-width="3" d="M300 105 V82 M316.2 116.7 L338 109.6 M310 135.8 L323.5 154.4 M290 135.8 L276.5 154.4 M283.8 116.7 L262 109.6"/>
+  <circle cx="300" cy="122" r="58" fill="none" class="o"/>
+
+  <!-- netball -->
+  <circle cx="500" cy="122" r="58" fill="#ffffff"/>
+  <path d="M500 122 Q522 93 500 64 A58 58 0 0 1 550.2 151 Q514 155.5 500 122 Z" fill="#3cc7b5"/>
+  <path d="M500 122 Q514 155.5 550.2 151 A58 58 0 0 1 449.8 151 Q463.9 117.5 500 122 Z" fill="#ff5d73"/>
+  <path class="seam" d="M500 122 Q522 93 500 64 M500 122 Q514 155.5 550.2 151 M500 122 Q463.9 117.5 449.8 151"/>
+  <circle cx="500" cy="122" r="58" fill="none" class="o"/>
+  <ellipse cx="476" cy="98" rx="11" ry="6" transform="rotate(-35 476 98)" class="shine"/>
+
+  <!-- rugby league ball -->
+  <g transform="translate(100 290) rotate(-20)">
+    <use xlink:href="#oval" href="#oval" fill="#ffffff"/>
+    <g clip-path="url(#ovalClip)">
+      <rect x="-56" y="-50" width="14" height="100" fill="#4f7cff"/>
+      <rect x="42" y="-50" width="14" height="100" fill="#4f7cff"/>
+      <rect x="-36" y="-50" width="7" height="100" fill="#ffc93c"/>
+      <rect x="29" y="-50" width="7" height="100" fill="#ffc93c"/>
+    </g>
+    <path class="seam" d="M-60 0 C-30 -8 30 -8 60 0"/>
+    <use xlink:href="#oval" href="#oval" fill="none" class="o"/>
+    <ellipse cx="-14" cy="-22" rx="16" ry="5" class="shine"/>
+  </g>
+
+  <!-- AFL ball -->
+  <g transform="translate(300 290) rotate(20)">
+    <use xlink:href="#oval" href="#oval" fill="#e8323c"/>
+    <path class="seam" d="M-60 0 C-30 -6 30 -6 60 0"/>
+    <path d="M-22 -14 V-2 M-11 -16 V-4 M0 -16 V-4 M11 -16 V-4 M22 -14 V-2" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+    <path d="M-22 -8 H22" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+    <use xlink:href="#oval" href="#oval" fill="none" class="o"/>
+    <ellipse cx="-20" cy="-24" rx="14" ry="4.5" class="shine"/>
+  </g>
+
+  <!-- other -->
+  <circle cx="500" cy="285" r="54" fill="#a35cff" class="o"/>
+  <text x="500" y="310" text-anchor="middle" font-family="'Arial Rounded MT Bold','Trebuchet MS',Verdana,sans-serif" font-size="74" font-weight="900" fill="#ffffff" stroke="#2d2346" stroke-width="5" paint-order="stroke">?</text>
+
+  <text class="lbl" x="100" y="212">Basketball</text>
+  <text class="lbl" x="300" y="212">Soccer</text>
+  <text class="lbl" x="500" y="212">Netball</text>
+  <text class="lbl" x="100" y="374">Rugby League</text>
+  <text class="lbl" x="300" y="374">AFL</text>
+  <text class="lbl" x="500" y="374">Other</text>
+</svg>
