@@ -3,7 +3,6 @@
     <style>
       .o { stroke: #2d2346; stroke-width: 5; stroke-linejoin: round; stroke-linecap: round; }
       .seam { fill: none; stroke: #2d2346; stroke-width: 4; stroke-linecap: round; }
-      .lbl { font-family: 'Arial Rounded MT Bold','Trebuchet MS',Verdana,sans-serif; font-size: 20px; font-weight: 900; fill: #2d2346; text-anchor: middle; }
       .shine { fill: #ffffff; opacity: 0.45; }
     </style>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
@@ -78,11 +77,4 @@
   <!-- other -->
   <circle cx="500" cy="285" r="54" fill="#a35cff" class="o"/>
   <text x="500" y="310" text-anchor="middle" font-family="'Arial Rounded MT Bold','Trebuchet MS',Verdana,sans-serif" font-size="74" font-weight="900" fill="#ffffff" stroke="#2d2346" stroke-width="5" paint-order="stroke">?</text>
-
-  <text class="lbl" x="100" y="212">Basketball</text>
-  <text class="lbl" x="300" y="212">Soccer</text>
-  <text class="lbl" x="500" y="212">Netball</text>
-  <text class="lbl" x="100" y="374">Rugby League</text>
-  <text class="lbl" x="300" y="374">AFL</text>
-  <text class="lbl" x="500" y="374">Other</text>
 </svg>

@@ -3,8 +3,6 @@
     <style>
       .o { stroke: #2d2346; stroke-width: 5; stroke-linejoin: round; stroke-linecap: round; }
       .thin { stroke: #2d2346; stroke-width: 3.5; stroke-linejoin: round; stroke-linecap: round; }
-      .day { font-family: 'Arial Rounded MT Bold','Trebuchet MS',Verdana,sans-serif; font-size: 15px; font-weight: 900; fill: #ffffff; text-anchor: middle; letter-spacing: 1px; }
-      .tag { font-family: 'Arial Rounded MT Bold','Trebuchet MS',Verdana,sans-serif; font-size: 17px; font-weight: 900; letter-spacing: 2px; }
     </style>
     <linearGradient id="morning" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#ffc98a"/>
@@ -30,7 +28,6 @@
   </g>
   <circle cx="90" cy="250" r="56" fill="#ffd23f" class="o"/>
   <path d="M0 250 Q70 214 150 246 T300 240 V290 H0 Z" fill="#7bdc6a" class="o"/>
-  <text class="tag" x="22" y="40" fill="#8a4b12">BEFORE SCHOOL</text>
 
   <!-- evening: moon + stars -->
   <circle cx="508" cy="82" r="30" fill="#fff3b0" class="o" mask="url(#moonMask)"/>
@@ -38,7 +35,6 @@
     <circle cx="420" cy="140" r="3"/><circle cx="560" cy="160" r="2.5"/><circle cx="460" cy="60" r="2"/><circle cx="380" cy="90" r="2.5"/><circle cx="570" cy="230" r="2"/>
   </g>
   <path d="M300 252 Q380 226 460 248 T600 236 V290 H300 Z" fill="#4c3fa3" class="o"/>
-  <text class="tag" x="578" y="40" fill="#ffffff" text-anchor="end">AFTER SCHOOL</text>
 
   <!-- alarm clock -->
   <ellipse cx="300" cy="262" rx="78" ry="10" fill="#2d2346" opacity="0.18"/>
@@ -80,11 +76,6 @@
     <path d="M258 320 V308 a12 12 0 0 1 12 -12 h60 a12 12 0 0 1 12 12 V320 Z" fill="#3cc7b5" class="o"/>
     <path d="M356 320 V308 a12 12 0 0 1 12 -12 h60 a12 12 0 0 1 12 12 V320 Z" fill="#a35cff" class="o"/>
     <path d="M454 320 V308 a12 12 0 0 1 12 -12 h60 a12 12 0 0 1 12 12 V320 Z" fill="#ff5d73" class="o"/>
-    <text class="day" x="104" y="314">MON</text>
-    <text class="day" x="202" y="314">TUE</text>
-    <text class="day" x="300" y="314">WED</text>
-    <text class="day" x="398" y="314">THU</text>
-    <text class="day" x="496" y="314">FRI</text>
     <g fill="none" stroke="#1f9d55" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
       <path d="M88 344 l11 11 l20 -22"/>
       <path d="M186 344 l11 11 l20 -22"/>
