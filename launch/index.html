@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- include: head-top -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- We do our own light/dark, driven by data-theme (see the script below).
+       This tells the browser so, so it does not run its own "force dark" over
+       the top: without it some mobile browsers auto-darken the light theme's
+       backgrounds while leaving our dark text dark, which is dark-on-dark. The
+       CSS color-scheme property says the same thing, but a few browsers only
+       act on the meta tag. -->
+  <meta name="color-scheme" content="light dark" />
+  <script>
+    // Decide the theme before the page paints, or a dark-mode student gets a
+    // white flash on every single navigation. This has to be inline and it has
+    // to be here: app.js loads at the end of <body>, which is far too late.
+    // It is also the only place prefers-color-scheme is read, so the stylesheet
+    // needs just one dark block instead of two that can drift apart.
+    (function () {
+      try {
+        var saved = localStorage.getItem("itbasics-theme");
+        var dark = saved
+          ? saved === "dark"
+          : window.matchMedia("(prefers-color-scheme: dark)").matches;
+        if (dark) document.documentElement.dataset.theme = "dark";
+      } catch (e) {
+        /* Private browsing can throw on localStorage. Light is a fine default. */
+      }
+    })();
+  </script>
+  <!-- Only drives the header button. Deferred, because the theme itself is
+       already settled by the script above. -->
+  <script src="/theme.js" defer></script>
+  <!-- /include -->
+  <title>Year 9 Launch | Hallam</title>
+  <meta name="robots" content="noindex" />
+  <!-- include: head-assets -->
+  <link rel="icon" type="image/svg+xml" href="/logo-binary.svg" />
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="stylesheet" href="/styles.css" />
+  <!-- /include -->
+</head>
+<body class="launch-page">
+  <!-- Its own header on purpose: Launch students are not IT students, so no
+       IT site nav and no IT sign-in. This page has a separate roster and a
+       separate sign-in (see launch.js and supabase-launch.sql). -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <span class="logo">
+        <img class="logo-mark" src="/logo-binary.svg" alt="" width="32" height="32" />
+        <span>Year 9 Launch</span>
+      </span>
+      <div class="launch-who" id="launch-who" hidden>
+        <span id="launch-who-name"></span>
+        <button type="button" class="btn btn-ghost launch-signout" id="launch-signout">Sign out</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow" id="launch-eyebrow">Year 9 Launch</p>
+        <h1 id="launch-title">Sport survey</h1>
+        <p class="lead" id="launch-lead">Six quick questions about sport in Year 10. Sign in with your student code to start.</p>
+      </div>
+    </section>
+
+    <div class="container section">
+      <p class="launch-banner" id="launch-offline" hidden>The survey can't reach its database right now. Check your connection and reload the page.</p>
+
+      <!-- Sign in -->
+      <form id="launch-signin" class="launch-card launch-signin" autocomplete="off" hidden>
+        <label for="launch-code">Your code</label>
+        <div class="launch-signin-row">
+          <input type="text" id="launch-code" class="auth-input" placeholder="e.g. ABC0012" autocapitalize="characters" spellcheck="false" maxlength="40" />
+          <button type="submit" class="btn btn-primary" id="launch-signin-go">Sign in</button>
+        </div>
+        <span id="launch-signin-msg" class="auth-msg" role="status"></span>
+      </form>
+
+      <!-- Student: the survey -->
+      <form id="launch-survey" class="launch-survey" hidden>
+        <div id="launch-questions"></div>
+        <div class="submit-row">
+          <button type="submit" class="btn btn-primary" id="launch-submit">Submit my answers</button>
+          <span id="launch-submit-msg" class="auth-msg" role="status"></span>
+        </div>
+      </form>
+
+      <!-- Student: done -->
+      <div id="launch-done" class="launch-card launch-done" hidden>
+        <h2>Thanks, you're done!</h2>
+        <p id="launch-done-when"></p>
+        <div class="launch-done-actions">
+          <button type="button" class="btn btn-ghost" id="launch-edit">Change my answers</button>
+          <button type="button" class="btn btn-primary" id="launch-done-signout">Sign out</button>
+        </div>
+      </div>
+
+      <!-- Staff: overview -->
+      <div id="launch-staff" hidden>
+        <div class="launch-stats" id="launch-stats"></div>
+
+        <div class="teacher-controls launch-controls">
+          <label class="teacher-field">
+            <span>Homegroup</span>
+            <select id="launch-hg" class="teacher-select"></select>
+          </label>
+          <label class="teacher-field">
+            <span>Show</span>
+            <select id="launch-show" class="teacher-select">
+              <option value="all">Everyone</option>
+              <option value="answered">Answered</option>
+              <option value="academy">Wants the Sports Academy</option>
+              <option value="missing">Not answered yet</option>
+            </select>
+          </label>
+          <div class="teacher-actions">
+            <button type="button" id="launch-refresh" class="btn btn-ghost">Refresh</button>
+            <button type="button" id="launch-csv" class="btn btn-primary">Download CSV</button>
+          </div>
+        </div>
+
+        <p id="launch-staff-msg" class="auth-msg" role="status"></p>
+
+        <h2 class="launch-h2">Summary</h2>
+        <p class="section-sub" id="launch-summary-sub"></p>
+        <div class="launch-summary" id="launch-summary"></div>
+
+        <h2 class="launch-h2">Students</h2>
+        <div class="table-wrap">
+          <table class="data-table launch-table">
+            <thead id="launch-head"></thead>
+            <tbody id="launch-body"></tbody>
+          </table>
+        </div>
+
+        <section class="launch-card launch-add" id="launch-add">
+          <h2>Add students from the class list</h2>
+          <p class="section-sub">Copy the rows straight out of the class list spreadsheet and paste them here. Include the header row if it has one (Code, First name, Surname, Homegroup or similar). With no header row, use the column order <strong>Code, First name, Surname, Homegroup</strong>. Students already on the list are updated, not doubled up.</p>
+          <textarea id="launch-paste" class="auth-input launch-paste" rows="8" spellcheck="false" placeholder="Code&#9;First name&#9;Surname&#9;Homegroup"></textarea>
+          <div class="submit-row">
+            <button type="button" class="btn btn-ghost" id="launch-preview">Check the list</button>
+            <button type="button" class="btn btn-primary" id="launch-import" disabled>Add these students</button>
+            <span id="launch-add-msg" class="auth-msg" role="status"></span>
+          </div>
+          <div id="launch-add-preview"></div>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+  <script src="/supabase-config.js"></script>
+  <script src="/launch.js"></script>
+</body>
+</html>

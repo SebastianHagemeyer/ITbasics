@@ -7053,3 +7053,91 @@ span.hg-gtarget-name { cursor: default; }
   .hg-focus { top: 0; position: static; }
   .hg-top { position: static; }
 }
+
+/* ===========================================================================
+   Year 9 Launch survey (/launch/). Its own little app: see launch.js.
+   Tokens only, so dark mode comes for free from the dark :root block.
+   =========================================================================== */
+.launch-who { display: flex; align-items: center; gap: 12px; color: var(--muted); font-weight: 600; }
+.launch-signout { padding: 6px 14px; }
+.launch-banner {
+  background: var(--danger-bg); color: var(--ink-red);
+  border-radius: var(--radius-sm); padding: 12px 16px; margin-bottom: 20px;
+}
+.launch-card {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); box-shadow: var(--shadow-sm);
+  padding: 20px 22px; margin-bottom: 16px;
+}
+.launch-signin { max-width: 460px; }
+.launch-signin label { display: block; font-weight: 700; margin-bottom: 8px; }
+.launch-signin-row { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 8px; }
+.launch-signin-row .auth-input { flex: 1 1 200px; text-transform: uppercase; letter-spacing: 0.04em; }
+
+.launch-survey { max-width: 760px; }
+.launch-q { min-width: 0; }
+.launch-q legend {
+  display: flex; gap: 12px; align-items: flex-start;
+  font-weight: 700; font-size: 1.08rem; line-height: 1.4; padding: 0; margin-bottom: 14px;
+  float: left; width: 100%;
+}
+.launch-q legend + * { clear: both; }
+.launch-qnum {
+  flex: 0 0 auto; display: inline-grid; place-items: center;
+  width: 30px; height: 30px; border-radius: 50%;
+  background: var(--primary); color: #fff; font-size: 0.95rem;
+}
+.launch-q.is-missing { border-color: var(--danger); box-shadow: 0 0 0 2px var(--danger-bg); }
+.launch-opts { display: flex; flex-wrap: wrap; gap: 10px; }
+.launch-opt { position: relative; cursor: pointer; }
+.launch-opt input { position: absolute; opacity: 0; inset: 0; margin: 0; cursor: pointer; }
+.launch-opt span {
+  display: inline-block; min-width: 88px; text-align: center;
+  padding: 10px 18px; border-radius: 999px;
+  border: 2px solid var(--border); background: var(--tint-neutral); color: var(--text);
+  font-weight: 600; transition: border-color 0.15s, background 0.15s;
+}
+.launch-opt:hover span { border-color: var(--primary-ink); }
+.launch-opt input:focus-visible + span { outline: 3px solid var(--primary-ink); outline-offset: 2px; }
+.launch-opt input:checked + span { background: var(--primary); border-color: var(--primary); color: #fff; }
+.launch-other { margin-top: 12px; width: 100%; max-width: 320px; text-transform: none; letter-spacing: normal; }
+.launch-done { max-width: 560px; }
+.launch-done h2 { margin-top: 0; }
+.launch-done-actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 16px; }
+
+.launch-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin-bottom: 20px; }
+.launch-stat {
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+  padding: 14px 16px; display: flex; flex-direction: column; gap: 2px;
+}
+.launch-stat-num { font-size: 1.9rem; font-weight: 800; color: var(--primary-ink); line-height: 1.1; }
+.launch-stat-label { color: var(--muted); font-weight: 600; font-size: 0.92rem; }
+.launch-controls { margin-bottom: 8px; }
+.launch-h2 { margin: 28px 0 6px; }
+.launch-summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 14px; }
+.launch-sum { margin-bottom: 0; }
+.launch-sum h3 { margin: 0 0 12px; font-size: 1rem; line-height: 1.4; }
+.launch-bar-row { display: grid; grid-template-columns: 110px 1fr 74px; gap: 10px; align-items: center; margin-bottom: 6px; }
+.launch-bar-label { font-weight: 600; font-size: 0.92rem; }
+.launch-bar { height: 12px; border-radius: 999px; background: var(--tint-cool); overflow: hidden; }
+.launch-bar-fill { display: block; height: 100%; background: var(--primary); border-radius: 999px; }
+.launch-bar-num { text-align: right; font-variant-numeric: tabular-nums; font-weight: 700; }
+.launch-bar-num small { color: var(--muted); font-weight: 500; }
+.launch-note, .launch-other-list { color: var(--muted); font-size: 0.88rem; margin: 10px 0 0; }
+.launch-table td, .launch-table th { white-space: nowrap; }
+.launch-table .launch-yes { color: var(--success-text); font-weight: 700; }
+.launch-table .launch-no { color: var(--muted); }
+.launch-row-missing td { color: var(--muted); }
+.launch-empty { text-align: center; color: var(--muted); padding: 24px; }
+.launch-remove {
+  border: 0; background: none; color: var(--muted); font-size: 1.2rem; line-height: 1;
+  cursor: pointer; padding: 2px 6px; border-radius: var(--radius-sm);
+}
+.launch-remove:hover { color: var(--danger); background: var(--danger-bg); }
+.launch-add { margin-top: 28px; }
+.launch-add h2 { margin-top: 0; }
+.launch-paste { width: 100%; text-transform: none; letter-spacing: normal; font-family: ui-monospace, Consolas, monospace; font-size: 0.9rem; margin: 6px 0 10px; }
+@media (max-width: 560px) {
+  .launch-bar-row { grid-template-columns: 90px 1fr 64px; }
+  .launch-opt span { min-width: 72px; padding: 9px 14px; }
+}
