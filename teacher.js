@@ -9,7 +9,13 @@
   // who did the Making Decisions quick check but not the coding task is at 50%).
   // ---------------------------------------------------------------------------
 
-  var GATE_KEY = "itbasics-teacher-ok";
+  // The staff key (see supabase-lockdown.sql) is remembered on this device
+  // so it is typed once. It is checked in the database on every call, so a
+  // key that has been revoked simply stops working.
+  var STAFF_KEY = "itbasics-staff-key";
+  function staffKey() {
+    try { return localStorage.getItem(STAFF_KEY) || ""; } catch (e) { return ""; }
+  }
 
   // Each task says which quiz_names to pull and how to turn a student's rows
   // into { pct, completed, detail }. Module/quiz tasks are fixed; Live Coding
@@ -368,12 +374,7 @@
   // actually need (freeplay noise would blow the row cap otherwise).
   async function loadHomeworkData(cls, task) {
     var hw = task.hw;
-    var sres = await sb().from("students")
-      .select("code, first_name, last_name, class")
-      .eq("class", cls)
-      .order("last_name", { ascending: true });
-    if (sres.error) throw new Error(sres.error.message);
-    var students = sres.data || [];
+    var students = await loadRoster(cls);
     if (!students.length) return { students: [], byStudent: {} };
     var codes = students.map(function (s) { return s.code; });
 
@@ -413,21 +414,22 @@
     return { students: students, byStudent: byStudent };
   }
 
+  // The students table is locked (supabase-lockdown.sql). Names come from
+  // it_classes / it_roster, which check the staff key in the database.
   async function loadClasses() {
-    var res = await sb().from("students").select("class");
+    var res = await sb().rpc("it_classes", { p_key: staffKey() });
     if (res.error) throw new Error(res.error.message);
-    var seen = {};
-    (res.data || []).forEach(function (r) { if (r.class) seen[r.class] = true; });
-    return Object.keys(seen).sort();
+    return (res.data || []).map(function (r) { return r.class; }).filter(Boolean);
+  }
+
+  async function loadRoster(cls) {
+    var res = await sb().rpc("it_roster", { p_key: staffKey(), p_class: cls });
+    if (res.error) throw new Error(res.error.message);
+    return res.data || [];
   }
 
   async function loadClassData(cls, task) {
-    var sres = await sb().from("students")
-      .select("code, first_name, last_name, class")
-      .eq("class", cls)
-      .order("last_name", { ascending: true });
-    if (sres.error) throw new Error(sres.error.message);
-    var students = sres.data || [];
+    var students = await loadRoster(cls);
     if (!students.length) return { students: [], byStudent: {} };
 
     var codes = students.map(function (s) { return s.code; });
@@ -466,12 +468,7 @@
   // the live state (code, checks, reflections, note) plus submitted_at, the
   // flag the student sets when they mark it ready to grade.
   async function loadAssignmentData(cls, task) {
-    var sres = await sb().from("students")
-      .select("code, first_name, last_name, class")
-      .eq("class", cls)
-      .order("last_name", { ascending: true });
-    if (sres.error) throw new Error(sres.error.message);
-    var students = sres.data || [];
+    var students = await loadRoster(cls);
     if (!students.length) return { students: [], byStudent: {} };
 
     var codes = students.map(function (s) { return s.code; });
@@ -978,31 +975,45 @@
     startTool();
   }
 
-  // Signed in with a staff code (see TEACHER_CODES in supabase-config.js)?
-  // Then the passphrase gate is skipped entirely.
-  function isStaff() {
-    var codes = window.TEACHER_CODES || [];
-    var s = window.ITBasics && window.ITBasics.getSession();
-    return Boolean(s && codes.indexOf(s.code) !== -1);
+  function showGate(message) {
+    el("teacher-tool").hidden = true;
+    el("teacher-gate").hidden = false;
+    var msg = el("teacher-gate-msg");
+    msg.textContent = message || "";
+    msg.classList.toggle("error", Boolean(message));
   }
 
-  function boot() {
-    var pass = window.TEACHER_PASSCODE || "hallam-staff";
-    if (sessionStorage.getItem(GATE_KEY) === "1" || isStaff()) { unlock(); return; }
+  async function keyWorks(key) {
+    if (!key || !window.ITBasics || !window.ITBasics.isOnline()) return false;
+    var res = await sb().rpc("it_is_staff", { p_key: key });
+    return !res.error && res.data === true;
+  }
 
+  async function boot() {
     var form = el("teacher-gate-form");
-    form.addEventListener("submit", function (e) {
+    form.addEventListener("submit", async function (e) {
       e.preventDefault();
-      var val = el("teacher-pass").value;
-      var msg = el("teacher-gate-msg");
-      if (val === pass) {
-        sessionStorage.setItem(GATE_KEY, "1");
+      var val = el("teacher-pass").value.trim();
+      if (await keyWorks(val)) {
+        try { localStorage.setItem(STAFF_KEY, val); } catch (err) {}
+        el("teacher-pass").value = "";
         unlock();
       } else {
-        msg.textContent = "Wrong passphrase.";
-        msg.classList.add("error");
+        showGate("That staff key was not recognised.");
       }
     });
+
+    if (!window.ITBasics || !window.ITBasics.isOnline()) {
+      // Offline there are no names to protect; startTool explains the rest.
+      unlock();
+      return;
+    }
+    var saved = staffKey();
+    if (saved && await keyWorks(saved)) { unlock(); return; }
+    if (saved) {
+      try { localStorage.removeItem(STAFF_KEY); } catch (err) {}
+      showGate("Your saved staff key no longer works. Enter a current one.");
+    }
   }
 
   if (document.readyState === "loading") {
