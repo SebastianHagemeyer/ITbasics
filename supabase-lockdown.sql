@@ -24,30 +24,24 @@
 -- before; the key is what unlocks the teacher page's names.
 --
 -- ---------------------------------------------------------------------------
--- HOW TO ROLL THIS OUT (order matters)
+-- HOW TO APPLY
 -- ---------------------------------------------------------------------------
---   1. Run THIS file in the Supabase SQL editor. It only adds things, so the
---      live site keeps working exactly as it does now. Safe to re-run.
---   2. Make yourself a staff key (below), and keep it somewhere safe.
---   3. Push the new JS (sign-in, leaderboard and teacher page call these
---      functions instead of reading the table).
---   4. Check sign-in, the leaderboard and the teacher page on the live site.
---   5. Only then run supabase-lockdown-close.sql, which removes the open
---      policy. After that the public key reads 0 rows from students.
+-- Paste this whole file into the Supabase SQL editor and Run, at the same
+-- time as the matching JS goes live (the old JS reads the table directly,
+-- so sign-in is down in the gap between the two). Do it outside class time.
 --
--- ---------------------------------------------------------------------------
--- MAKING A STAFF KEY
--- ---------------------------------------------------------------------------
--- Keys are NOT stored in this file (the repo is public). Run this on its own
--- in the SQL editor; it invents a random 32-character key and shows it once:
+-- The last result it shows is your staff key. Type it into the teacher page
+-- once per device. Re-running is safe and shows the same key again.
 --
+-- To add a key for another teacher, run on its own:
 --   insert into staff_keys (key, label)
---   values (replace(gen_random_uuid()::text, '-', ''), 'Mr H')
+--   values (replace(gen_random_uuid()::text, '-', ''), 'Their name')
 --   returning key;
+-- To revoke one:   delete from staff_keys where label = 'Their name';
 --
--- Type that key into the teacher page once per device. To revoke one:
---
---   delete from staff_keys where label = 'Mr H';
+-- Emergency undo (reopens the roster, so only to get sign-in back fast):
+--   create policy students_select_anon on students for select to anon using (true);
+--   grant select on students, leaderboard_view to anon;
 -- ===========================================================================
 
 
@@ -198,4 +192,44 @@ grant execute on function it_leaderboard()      to anon, authenticated;
 grant execute on function it_classes(text)      to anon, authenticated;
 grant execute on function it_roster(text, text) to anon, authenticated;
 
+
+
+-- ---------------------------------------------------------------------------
+-- Close the table. The open read policy is what leaked the roster; with row
+-- level security on and no policy, direct reads return nothing. Foreign keys
+-- from quiz_attempts and friends still work, because Postgres checks those
+-- as the table owner, not as the caller.
+-- ---------------------------------------------------------------------------
+drop policy if exists students_select_anon on students;
+revoke all on table students from anon, authenticated;
+
+-- The views. leaderboard_view now goes through it_leaderboard(), and the two
+-- teacher views are not used by the site (the Supabase dashboard runs as the
+-- owner and still sees them). The teacher views ran with owner rights and so
+-- ignored row level security: switch them to the caller's rights as well.
+alter view teacher_scoreboard          set (security_invoker = on);
+alter view teacher_assignment_progress set (security_invoker = on);
+revoke all on table leaderboard_view            from anon, authenticated;
+revoke all on table teacher_scoreboard          from anon, authenticated;
+revoke all on table teacher_assignment_progress from anon, authenticated;
+
+-- Published games used to stamp the author's full name into meta._author,
+-- which anyone can read until phase 2 locks the games table. New publishes
+-- stamp "First L."; this shortens the ones already there.
+update games g
+set meta = jsonb_set(g.meta, '{_author}',
+             to_jsonb(s.first_name || ' ' || upper(left(s.last_name, 1)) || '.'))
+from students s
+where s.code = g.student_code and g.meta ? '_author';
+
 notify pgrst, 'reload schema';
+
+
+-- ---------------------------------------------------------------------------
+-- Your staff key: made once, then the same one is shown on every re-run.
+-- ---------------------------------------------------------------------------
+insert into staff_keys (key, label)
+select replace(gen_random_uuid()::text, '-', ''), 'Mr H'
+where not exists (select 1 from staff_keys where label = 'Mr H');
+
+select key as your_staff_key from staff_keys where label = 'Mr H';
