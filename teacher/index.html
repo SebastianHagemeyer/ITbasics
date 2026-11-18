@@ -91,11 +91,11 @@
     </section>
 
     <div class="container section">
-      <!-- Passphrase gate -->
+      <!-- Staff key gate (checked in the database, see supabase-lockdown.sql) -->
       <div id="teacher-gate" class="teacher-gate">
         <form id="teacher-gate-form" class="teacher-gate-form" autocomplete="off">
-          <label for="teacher-pass">Staff passphrase</label>
-          <input type="password" id="teacher-pass" class="auth-input" placeholder="Passphrase" />
+          <label for="teacher-pass">Staff key</label>
+          <input type="password" id="teacher-pass" class="auth-input" placeholder="Staff key" />
           <button type="submit" class="btn btn-primary">Unlock</button>
           <span id="teacher-gate-msg" class="auth-msg" role="status"></span>
         </form>

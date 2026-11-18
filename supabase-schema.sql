@@ -22,6 +22,11 @@
 -- Re-run the whole file after any of these. The dates are when the change
 -- landed on main, so you can tell at a glance whether you are current.
 --
+-- 2026-11-18  students (LOCKED)      The open read policy on students is gone.
+--                                    Run supabase-lockdown.sql FIRST (sign-in,
+--                                    leaderboard and teacher roster functions),
+--                                    then this file. Re-running this file on its
+--                                    own before that breaks sign-in.
 -- 2026-08-20  students               Year 9 IT class (9ITAB): 25 students added.
 -- 2026-07-30  students               Staff accounts section added, so MRH0001
 --                                    survives a rebuild from this file. A staff
@@ -91,7 +96,10 @@ drop policy if exists progress_select_anon  on quiz_progress;
 drop policy if exists progress_insert_anon  on quiz_progress;
 drop policy if exists progress_update_anon  on quiz_progress;
 
-create policy students_select_anon  on students       for select to anon using (true);
+-- students has NO policy on purpose: it is read only through the security
+-- definer functions in supabase-lockdown.sql, so the public key cannot list
+-- the roster. Do not add a select policy back.
+revoke all on table students from anon, authenticated;
 create policy attempts_select_anon  on quiz_attempts  for select to anon using (true);
 create policy attempts_insert_anon  on quiz_attempts  for insert to anon with check (true);
 create policy progress_select_anon  on quiz_progress  for select to anon using (true);
@@ -353,7 +361,7 @@ on conflict (code) do update set
 -- ============================================================
 -- Teacher view: latest & best score per student per quiz
 -- ============================================================
-create or replace view teacher_scoreboard as
+create or replace view teacher_scoreboard with (security_invoker = on) as
 select
   s.code,
   s.first_name,
@@ -463,6 +471,11 @@ left join xp_quizzes xq on xq.student_code = s.code
 left join xp_freeplay xf on xf.student_code = s.code
 group by s.code, s.first_name, s.last_name, s.class, s.year_level,
          f.total, lc.total, xt.n, xq.n, xf.xp;
+
+-- The browser reads the leaderboard through it_leaderboard() and never
+-- uses teacher_scoreboard, so neither is open to it directly.
+revoke all on table leaderboard_view   from anon, authenticated;
+revoke all on table teacher_scoreboard from anon, authenticated;
 
 -- ============================================================
 -- Word cloud (interactive module contributions)
@@ -592,7 +605,7 @@ create policy progress_draft_update_anon on assignment_progress for update to an
 -- Teacher view: everything you need to mark, one row per student per
 -- assignment. The reflection answers live in state->'reflects', the code
 -- in state->'code'; submitted_at is null until the student hands it in.
-create or replace view teacher_assignment_progress as
+create or replace view teacher_assignment_progress with (security_invoker = on) as
 select
   s.class,
   s.last_name,
@@ -605,6 +618,10 @@ select
 from students s
 join assignment_progress p on p.student_code = s.code
 order by (p.submitted_at is not null) desc, p.updated_at desc;
+
+-- Not used by the site; the Supabase dashboard runs as the owner and still
+-- sees it. Closed to the browser so it cannot leak names.
+revoke all on table teacher_assignment_progress from anon, authenticated;
 
 
 -- ---------------------------------------------------------------------------

@@ -43,11 +43,13 @@
       return { ok: true, offline: true };
     }
 
-    const { data, error } = await supabase
-      .from("students").select("*").eq("code", code).maybeSingle();
+    // The students table is locked (supabase-lockdown.sql): it_signin hands
+    // back the one row for the code typed, and nobody can list the rest.
+    const { data, error } = await supabase.rpc("it_signin", { p_code: code });
     if (error) return { ok: false, error: error.message };
-    if (!data)  return { ok: false, error: "Code not found. Check the spelling." };
-    setSession(data);
+    const row = Array.isArray(data) ? data[0] : data;
+    if (!row)  return { ok: false, error: "Code not found. Check the spelling." };
+    setSession(row);
     return { ok: true };
   }
 
@@ -217,7 +219,7 @@
       // never has to join back to the students table to know whose class a game
       // belongs to (that embed is fragile). notesHtml ignores these keys.
       const stamped = Object.assign({}, meta || {},
-        { _class: s.class || "", _author: authorName(s) });
+        { _class: s.class || "", _author: shortName(s) });
       // Delete-then-insert so a re-publish is a fresh game: it gets a new id,
       // which cascade-drops the old upvotes (a new version earns new votes).
       await supabase.from("games").delete().eq("student_code", s.code);
@@ -255,11 +257,12 @@
         .select("id, title, code, meta, hidden, updated_at, student_code")
         .order("updated_at", { ascending: false });
       const rows = (res.data || []).filter(function (g) { return !g.hidden; });
-      // Older games may not carry _class/_author in meta; fall back to a plain
-      // students lookup (no embed) to fill them in.
+      // Older games may not carry _class/_author in meta; fall back to the
+      // leaderboard list (first name + surname initial, all the roster the
+      // browser is allowed to see) to fill them in.
       var byCode = {};
       if (rows.some(function (g) { return !g.meta || !g.meta._class; })) {
-        const sres = await supabase.from("students").select("code, first_name, last_name, class");
+        const sres = await supabase.rpc("it_leaderboard");
         (sres.data || []).forEach(function (st) { byCode[st.code] = st; });
       }
       games = rows.map(function (g) {
@@ -267,7 +270,8 @@
         const st = byCode[g.student_code] || {};
         const klass = m._class || st.class || "";
         const author = m._author ||
-          ((st.first_name || "") + " " + (st.last_name || "")).trim() || "someone";
+          shortName({ first_name: st.first_name, last_name: st.last_initial, code: "" }) ||
+          "someone";
         return { id: g.id, title: g.title, code: g.code, meta: m,
           student_code: g.student_code, klass: klass, author: author,
           updated_at: g.updated_at };

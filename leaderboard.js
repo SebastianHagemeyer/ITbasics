@@ -32,20 +32,24 @@
       return [];
     }
     const sb = window.ITBasics.client();
-    // leaderboard_view aggregates server-side: one row per student, ~58 rows total.
-    // Querying quiz_attempts directly hits the 1000-row REST cap once Freeplay accumulates.
-    const { data, error } = await sb.from("leaderboard_view").select("*");
+    // it_leaderboard() reads leaderboard_view, which aggregates server-side:
+    // one row per student. Querying quiz_attempts directly hits the 1000-row
+    // REST cap once Freeplay accumulates. It returns a surname INITIAL only;
+    // the viewer's own full surname comes from their session instead.
+    const { data, error } = await sb.rpc("it_leaderboard");
     if (error) {
       status.textContent = "Couldn't load scores. " + (error.message || "");
       return [];
     }
     const raw = data || [];
     xpColumnMissing = raw.length > 0 && !("xp" in raw[0]);
+    const session = window.ITBasics.getSession();
     return raw.map(function (r) {
+      const mine = session && session.code === r.code;
       return {
         code: r.code,
         first_name: r.first_name,
-        last_name: r.last_name,
+        last_name: mine ? (session.last_name || r.last_initial) : r.last_initial,
         class: r.class,
         scores: {
           programming: r.programming,
