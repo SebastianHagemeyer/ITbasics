@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- include: head-top -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- We do our own light/dark, driven by data-theme (see the script below).
+       This tells the browser so, so it does not run its own "force dark" over
+       the top: without it some mobile browsers auto-darken the light theme's
+       backgrounds while leaving our dark text dark, which is dark-on-dark. The
+       CSS color-scheme property says the same thing, but a few browsers only
+       act on the meta tag. -->
+  <meta name="color-scheme" content="light dark" />
+  <script>
+    // Decide the theme before the page paints, or a dark-mode student gets a
+    // white flash on every single navigation. This has to be inline and it has
+    // to be here: app.js loads at the end of <body>, which is far too late.
+    // It is also the only place prefers-color-scheme is read, so the stylesheet
+    // needs just one dark block instead of two that can drift apart.
+    (function () {
+      try {
+        var saved = localStorage.getItem("itbasics-theme");
+        var dark = saved
+          ? saved === "dark"
+          : window.matchMedia("(prefers-color-scheme: dark)").matches;
+        if (dark) document.documentElement.dataset.theme = "dark";
+      } catch (e) {
+        /* Private browsing can throw on localStorage. Light is a fine default. */
+      }
+    })();
+  </script>
+  <!-- Only drives the header button. Deferred, because the theme itself is
+       already settled by the script above. -->
+  <script src="/theme.js" defer></script>
+  <!-- /include -->
+  <title>Hallam Homework Hub (H3) | Year 7 Maths Homework</title>
+  <meta name="description" content="H3, the Hallam Homework Hub: self-marking Year 7 maths homework for Hallam Secondary College. Sign in with your student code, check every answer instantly and earn green notes." />
+  <link rel="canonical" href="https://code.qmarkapp.com/h3/" />
+  <meta property="og:site_name" content="Hallam Homework Hub" />
+  <meta property="og:title" content="Hallam Homework Hub (H3)" />
+  <meta property="og:description" content="Self-marking Year 7 maths homework for Hallam Secondary College. Check answers instantly and earn green notes." />
+  <meta property="og:url" content="https://code.qmarkapp.com/h3/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://code.qmarkapp.com/h3/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="The H3 glowing tritium logo and the words Hallam Homework Hub" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="theme-color" content="#0a1a12" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Hallam Homework Hub",
+    "alternateName": ["H3", "Hallam H3", "H3 Hallam Homework Hub"],
+    "url": "https://code.qmarkapp.com/h3/",
+    "description": "Self-marking Year 7 maths homework for Hallam Secondary College students, with instant feedback on every answer and green notes for finished chapters.",
+    "applicationCategory": "EducationalApplication",
+    "operatingSystem": "Any web browser",
+    "inLanguage": "en-AU",
+    "isAccessibleForFree": true,
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "AUD" },
+    "audience": { "@type": "EducationalAudience", "educationalRole": "student" },
+    "educationalLevel": "Year 7",
+    "about": { "@type": "Thing", "name": "Mathematics" },
+    "image": "https://code.qmarkapp.com/h3/og-image.png",
+    "provider": { "@type": "EducationalOrganization", "name": "Hallam Secondary College" }
+  }
+  </script>
+  <link rel="icon" type="image/svg+xml" href="/h3/h3-mark.svg" />
+  <link rel="icon" type="image/png" sizes="48x48" href="/h3/h3-48.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/h3/h3-192.png" />
+  <link rel="apple-touch-icon" href="/h3/h3-180.png" />
+  <!-- H3 keeps its own look, so it loads h3.css and NOT the IT site's
+       styles.css. The head-top include above still gives it the site's saved
+       light/dark choice before the page paints. -->
+  <link rel="stylesheet" href="/h3/h3.css" />
+  <script>
+    window.MathJax = {
+      tex: { inlineMath: [['$', '$'], ['\\(', '\\)']], processEscapes: true },
+      svg: { fontCache: 'global' },
+      startup: {
+        typeset: false,
+        ready: () => {
+          MathJax.startup.defaultReady();
+          MathJax.startup.promise.then(() => document.dispatchEvent(new Event('mathjax-ready')));
+        }
+      }
+    };
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-svg.min.js" defer></script>
+</head>
+<body>
+  <!-- Its own header on purpose: H3 has its own roster and sign-in, separate
+       from the IT site (see h3.js and supabase-h3.sql). -->
+  <header class="mast">
+    <div class="mast-inner">
+      <a class="brand" href="#home">
+        <img class="brand-logo" src="/h3/hallam-logo.webp" alt="Hallam Secondary College" width="135" height="52">
+        <img class="brand-mark" src="/h3/h3-mark.svg" alt="H3" width="52" height="52">
+        <h1>Hallam Homework Hub</h1>
+      </a>
+      <span id="save-chip" class="chip" hidden>Saved on this device</span>
+      <span class="who" id="who" hidden>
+        <span id="who-name"></span>
+        <button class="btn ghost small" id="signout" type="button">Sign out</button>
+      </span>
+      <nav id="nav">
+        <a href="#home" data-view="home" id="nav-home" hidden>Homework</a>
+        <a href="#teacher" data-view="teacher" id="nav-teacher" hidden>Teacher</a>
+      </nav>
+    </div>
+  </header>
+  <!-- The static text below is what search engines and link previews read
+       first. h3.js replaces it with the sign-in card as soon as it runs. -->
+  <main id="app">
+    <div class="signin-wrap">
+      <div class="signin-card">
+        <img class="h3-mark big" src="/h3/h3-mark.svg" alt="" width="72" height="72">
+        <h2>Welcome to H3</h2>
+        <p class="lede">H3, the Hallam Homework Hub, is self-marking Year 7 maths homework for Hallam Secondary College. Sign in with your student code, check every answer straight away and earn green notes as you finish each chapter.</p>
+        <noscript><p class="hint">H3 needs JavaScript turned on to sign in.</p></noscript>
+      </div>
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+  <script src="/supabase-config.js"></script>
+  <script src="/h3/bank.js"></script>
+  <script src="/h3/checker.js"></script>
+  <script src="/h3/notes.js"></script>
+  <script src="/h3/h3.js"></script>
+</body>
+</html>

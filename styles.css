@@ -49,6 +49,8 @@
   --shadow-md: 0 8px 24px rgba(20, 22, 50, 0.08);
   --radius: 12px;
   --radius-sm: 8px;
+  /* H3 (maths homework) brand red: a FILL under white ink, so it is the same
+     in both themes and dark mode does not restate it. */
 }
 
 * { box-sizing: border-box; }
@@ -1221,6 +1223,37 @@ html[data-auth="out"] .site-footer { display: none; }
   0%, 100% { transform: translateY(0); }
   50%      { transform: translateY(-6px); }
 }
+
+/* Portal switch: the H3 tile sits side by side with the snake and jumps to
+   the maths homework sign-in (/h3/), which has a snake tile pointing back
+   here. Placed from the centre line, since the snake is centred (180px wide). */
+.portal-switch {
+  position: absolute;
+  top: 34px;
+  left: calc(50% + 92px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  text-decoration: none;
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+/* The H3 mark is an image (h3/h3-mark.svg) with its own dark tile, so it
+   looks the same in both themes. drop-shadow follows its rounded shape. */
+.portal-tile {
+  display: block;
+  width: 46px;
+  height: 46px;
+  filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.25));
+  transition: transform 0.15s ease;
+}
+.portal-switch:hover .portal-tile,
+.portal-switch:focus-visible .portal-tile { transform: translateY(-2px) rotate(-4deg); }
+.portal-switch:hover { color: var(--primary-ink); }
 
 .login-eyebrow {
   margin: 0;
