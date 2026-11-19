@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Light-theme H3 mark: the same glowing tritium-tube H and superscript 3
+       as h3-mark.svg, but with no dark tile. The tubes are a deeper green so
+       they still read on white; the pale core keeps the neon-tube look. -->
+  <defs>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1.6" result="b"/>
+      <feColorMatrix in="b" type="matrix" values="0 0 0 0 0.25  0 0 0 0 0.96  0 0 0 0 0.54  0 0 0 0.75 0" result="g"/>
+      <feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <g transform="translate(-1.5 0)">
+    <g filter="url(#glow)" fill="#0b8a43">
+      <rect x="12" y="14" width="9" height="38" rx="4.5"/>
+      <rect x="35" y="14" width="9" height="38" rx="4.5"/>
+      <rect x="19" y="29" width="18" height="8" rx="4"/>
+    </g>
+    <g fill="#5fe39a">
+      <rect x="14.5" y="18" width="4" height="30" rx="2"/>
+      <rect x="37.5" y="18" width="4" height="30" rx="2"/>
+      <rect x="22" y="31.5" width="12" height="3" rx="1.5"/>
+    </g>
+    <path d="M48 11.5H55L51.2 16.2C53.8 16.2 55.6 17.9 55.6 20.3C55.6 22.8 53.6 24.6 51 24.6C49.4 24.6 48.1 24 47.3 22.9"
+          fill="none" stroke="#0b8a43" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+  </g>
+</svg>

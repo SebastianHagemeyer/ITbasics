@@ -198,6 +198,13 @@ textarea, .small-input { width: 100%; font: 15px/1.4 var(--f-mono); color: var(-
 .h3-mark.big { width: 72px; height: 72px; }
 .brand-mark { display: block; width: 52px; height: 52px; }
 @media (max-width: 520px) { .brand-mark { width: 42px; height: 42px; } }
+/* Light theme shows the tubes alone (h3-mark-light.svg, no tile); dark
+   theme shows the tiled mark, where the dark tile blends into the page. */
+.brand-mark.on-dark, .h3-mark.on-dark { display: none; }
+:root[data-theme="dark"] .brand-mark.on-light,
+:root[data-theme="dark"] .h3-mark.on-light { display: none; }
+:root[data-theme="dark"] .brand-mark.on-dark { display: block; }
+:root[data-theme="dark"] .h3-mark.on-dark { display: inline-block; }
 
 /* sign in */
 .signin-wrap { display: grid; place-items: center; padding: 30px 0; }
