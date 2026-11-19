@@ -503,7 +503,119 @@
         ${gained > 0 ? `You earned <b>${gained} green note${gained === 1 ? '' : 's'}</b>${ch && ch.full ? ', including the bonus for finishing the chapter' : ''}. Your teacher can see it.` : ch ? esc(toNextText(ch)) + '.' : ''}
         <a href="#chapter-${esc(chapterIdOf(set))}">Back to the chapter</a></span></div>`;
       document.getElementById('celebrate').scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+      if (ch) celebratePopup(set, ch, gained);
     }
+  }
+
+  // ---------- sub-chapter finished: popup, confetti, progress ring ----------
+  // The ring is the road to the next green note: three sub-chapters make a
+  // note, so each one fills a third of it. It animates from where it was
+  // before this set to where it is now, and fills up completely when a note
+  // is earned (every third set, or the bonus for finishing the chapter).
+  const reduceMotion = () => window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  function celebratePopup(set, ch, gained) {
+    const per = Notes.PER_NOTE;
+    const prevDone = Math.max(0, ch.done - 1);
+    const from = (prevDone % per) / per;
+    const full = gained > 0;
+    const to = full ? 1 : (ch.done % per) / per;
+    const R = 54, C = 2 * Math.PI * R;
+    const ticks = Array.from({ length: per }, (_, i) => {
+      const a = (i * 2 * Math.PI) / per;
+      const p = (r) => `${(70 + r * Math.cos(a)).toFixed(2)} ${(70 + r * Math.sin(a)).toFixed(2)}`;
+      return `<path class="ring-tick" d="M${p(44)}L${p(64)}" stroke-width="4"/>`;
+    }).join('');
+    const code = splitTitle(set.title).code || set.title;
+    const left = ch.toNext;
+    const headline = full
+      ? `You earned ${gained === 1 ? 'a green note' : gained + ' green notes'}!`
+      : `${code} done!`;
+    const line = full
+      ? (ch.full ? `${esc(code)} done, and that finishes the whole chapter, bonus note included. Your teacher can see it.` : `${esc(code)} done. Your teacher can see it.`)
+      : `${left} more sub-chapter${left === 1 ? '' : 's'} for your next green note.`;
+    const mid = full
+      ? `<span class="ring-note">${noteIcon}</span><b class="ring-plus">+${gained}</b>`
+      : `<b>${ch.done % per}/${per}</b><small>next note</small>`;
+
+    const dlg = document.createElement('dialog');
+    dlg.className = 'cele' + (full ? ' is-full' : '');
+    dlg.setAttribute('aria-labelledby', 'cele-h');
+    dlg.innerHTML = `
+      <canvas aria-hidden="true"></canvas>
+      <div class="cele-card">
+        <div class="cele-ring" role="img" aria-label="${full ? 'Green note earned' : `${ch.done % per} of ${per} sub-chapters towards your next green note`}">
+          <svg viewBox="0 0 140 140" aria-hidden="true">
+            <circle class="ring-track" cx="70" cy="70" r="${R}" fill="none" stroke-width="14"/>
+            <circle class="ring-fill" cx="70" cy="70" r="${R}" fill="none" stroke-width="14" stroke-linecap="butt"
+              stroke-dasharray="${C.toFixed(2)}" stroke-dashoffset="${(C * (1 - from)).toFixed(2)}"/>
+            ${ticks}
+          </svg>
+          <div class="ring-mid">${mid}</div>
+        </div>
+        <h2 id="cele-h">${esc(headline)}</h2>
+        <p>${line}</p>
+        <div class="cele-actions">
+          <a class="btn" href="#chapter-${esc(chapterIdOf(set))}" data-close>Back to the chapter</a>
+          <button class="btn ghost" type="button" data-close>Stay here</button>
+        </div>
+      </div>`;
+    document.body.appendChild(dlg);
+    const close = () => { if (dlg.open) dlg.close(); };
+    dlg.addEventListener('close', () => dlg.remove());
+    dlg.addEventListener('click', (e) => { if (e.target === dlg || e.target.closest('[data-close]')) close(); });
+    if (dlg.showModal) dlg.showModal(); else dlg.setAttribute('open', '');
+    dlg.querySelector('.btn').focus();
+
+    const fill = dlg.querySelector('.ring-fill');
+    const target = (C * (1 - to)).toFixed(2);
+    if (reduceMotion()) { fill.style.transition = 'none'; fill.setAttribute('stroke-dashoffset', target); return; }
+    requestAnimationFrame(() => requestAnimationFrame(() => fill.setAttribute('stroke-dashoffset', target)));
+    confetti(dlg.querySelector('canvas'), full ? 220 : 140);
+  }
+
+  // A short burst of green confetti (and a little Hallam red) from the popup.
+  function confetti(canvas, count) {
+    const ctx = canvas.getContext('2d');
+    if (!ctx) return;
+    const dpr = Math.min(window.devicePixelRatio || 1, 2);
+    const W = canvas.clientWidth, H = canvas.clientHeight;
+    canvas.width = W * dpr; canvas.height = H * dpr;
+    ctx.scale(dpr, dpr);
+    const colours = ['#3ff58a', '#1f9d55', '#0c9447', '#4cc985', '#d8ffe7', '#ffffff', '#c31030'];
+    const weights = [4, 3, 3, 3, 2, 2, 1];
+    const pick = () => { let r = Math.random() * 18; for (let i = 0; i < weights.length; i++) { r -= weights[i]; if (r < 0) return colours[i]; } return colours[0]; };
+    const bits = Array.from({ length: count }, () => {
+      const ang = -Math.PI / 2 + (Math.random() - 0.5) * Math.PI * 0.9;
+      const speed = 7 + Math.random() * 9;
+      return {
+        x: W / 2 + (Math.random() - 0.5) * 80, y: H * 0.42,
+        vx: Math.cos(ang) * speed, vy: Math.sin(ang) * speed,
+        w: 6 + Math.random() * 6, h: 4 + Math.random() * 5,
+        rot: Math.random() * Math.PI, vr: (Math.random() - 0.5) * 0.35,
+        c: pick(), round: Math.random() < 0.25
+      };
+    });
+    const start = performance.now();
+    function frame(now) {
+      const t = now - start;
+      ctx.clearRect(0, 0, W, H);
+      const fade = t > 2400 ? Math.max(0, 1 - (t - 2400) / 600) : 1;
+      bits.forEach(b => {
+        b.vy += 0.28; b.vx *= 0.99; b.vy *= 0.99;
+        b.x += b.vx; b.y += b.vy; b.rot += b.vr;
+        ctx.save();
+        ctx.globalAlpha = fade;
+        ctx.translate(b.x, b.y); ctx.rotate(b.rot);
+        ctx.fillStyle = b.c;
+        if (b.round) { ctx.beginPath(); ctx.arc(0, 0, b.h / 2 + 1, 0, Math.PI * 2); ctx.fill(); }
+        else ctx.fillRect(-b.w / 2, -b.h / 2, b.w, b.h * Math.abs(Math.cos(b.rot * 2)) + 1);
+        ctx.restore();
+      });
+      if (t < 3000 && canvas.isConnected) requestAnimationFrame(frame);
+      else ctx.clearRect(0, 0, W, H);
+    }
+    requestAnimationFrame(frame);
   }
 
   // ---------- teacher ----------
