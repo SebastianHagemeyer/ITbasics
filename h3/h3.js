@@ -847,6 +847,26 @@
 
   db = connect();
   document.getElementById('signout').addEventListener('click', signOut);
+
+  // Light/dark switch. theme.js (window.ITTheme) saves the choice under the
+  // same key as the IT site, so picking it here carries over there too.
+  const themeBtn = document.getElementById('theme-btn');
+  function labelThemeBtn() {
+    const dark = document.documentElement.dataset.theme === 'dark';
+    themeBtn.setAttribute('aria-label', dark ? 'Switch to light mode' : 'Switch to dark mode');
+  }
+  themeBtn.addEventListener('click', () => {
+    const dark = document.documentElement.dataset.theme === 'dark';
+    if (window.ITTheme) window.ITTheme.setMode(dark ? 'light' : 'dark');
+    else {
+      if (dark) delete document.documentElement.dataset.theme;
+      else document.documentElement.dataset.theme = 'dark';
+      store('itbasics-theme', dark ? 'light' : 'dark');
+    }
+    labelThemeBtn();
+  });
+  window.addEventListener('itbasics:theme', labelThemeBtn);
+  labelThemeBtn();
   window.addEventListener('hashchange', route);
   document.addEventListener('mathjax-ready', () => { mathReady = true; typeset(app); });
 
