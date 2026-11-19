@@ -120,7 +120,12 @@
   }
   function persist() { saveLocal(); saveCloud(); }
 
-  function setChip(text, cls) { chip.textContent = text; chip.className = 'chip' + (cls ? ' ' + cls : ''); }
+  // The chip only appears when something is wrong (work not reaching the
+  // teacher). "Saving" and "Saved" stay silent: saving is the normal case.
+  function setChip(text, cls) {
+    chip.textContent = text; chip.className = 'chip' + (cls ? ' ' + cls : '');
+    chip.hidden = !(state.me && cls === 'warn');
+  }
 
   // ---------- helpers ----------
   const esc = (s) => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -287,7 +292,7 @@
     if (state.me) {
       who.hidden = false;
       document.getElementById('who-name').textContent = state.me.first_name || state.me.code;
-      chip.hidden = false;
+      chip.hidden = !chip.classList.contains('warn');
     } else {
       who.hidden = true;
       chip.hidden = true;

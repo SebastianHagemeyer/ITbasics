@@ -205,6 +205,16 @@ textarea, .small-input { width: 100%; font: 15px/1.4 var(--f-mono); color: var(-
 :root[data-theme="dark"] .h3-mark.on-light { display: none; }
 :root[data-theme="dark"] .brand-mark.on-dark { display: block; }
 :root[data-theme="dark"] .h3-mark.on-dark { display: inline-block; }
+/* The light-theme tubes breathe: a dark green glow that slowly swells and
+   fades, like a tritium light. Off for anyone who prefers reduced motion. */
+.brand-mark.on-light, .h3-mark.on-light { animation: tube-glow 2.8s ease-in-out infinite alternate; }
+@keyframes tube-glow {
+  from { filter: drop-shadow(0 0 1px rgba(6, 95, 45, 0.25)); }
+  to   { filter: drop-shadow(0 0 7px rgba(6, 95, 45, 0.75)) drop-shadow(0 0 2px rgba(6, 95, 45, 0.5)); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .brand-mark.on-light, .h3-mark.on-light { animation: none; filter: drop-shadow(0 0 4px rgba(6, 95, 45, 0.5)); }
+}
 
 /* sign in */
 .signin-wrap { display: grid; place-items: center; padding: 30px 0; }
