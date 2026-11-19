@@ -1,7 +1,10 @@
 /* H3 question bank. One entry per sub-chapter set; chapters group by the
- * "chapter" field, so adding Chapter 2 sets here adds a Chapter 2 card. */
+ * "chapter" field, so adding Chapter 2 sets here adds a Chapter 2 card.
+ * "year" is the year level shown on the chapter cards. A set can carry its
+ * own "year" to override it, e.g. if Year 8 chapters are added later. */
 window.H3_BANK = {
  "course": "Hallam Homework Hub",
+ "year": 7,
  "sets": [
   {
    "id": "1a",

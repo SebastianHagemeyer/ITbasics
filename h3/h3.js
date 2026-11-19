@@ -151,6 +151,12 @@
     return { correct, tried, total: set.questions.length };
   }
 
+  // Year level a chapter is pitched at: its own sets can say, else the bank.
+  function yearOf(ch) {
+    const s = ch.sets.find(x => x.year);
+    return s ? s.year : (BANK.year || '');
+  }
+
   // Percent of a chapter's questions answered correctly. Rounded, except
   // that any progress shows at least 1% and only a fully finished chapter
   // shows 100%, so one right answer never reads as 0% and 99.6% never
@@ -318,6 +324,7 @@
           return `<a class="set-card chapter-card ${ch.full ? 'is-full' : ''}" href="#chapter-${esc(ch.id)}">
             <div class="chapter-top"><span class="chapter-id"><span class="chapter-num">${esc(ch.id)}</span><span class="chapter-pct" title="${pct}% of this chapter's questions correct">${pct}%</span></span>
               <span class="gn-row" title="${ch.earned} of ${max} green notes">${Array.from({ length: max }, (_, i) => `<span class="gn-dot ${i < ch.earned ? 'on' : ''}">${noteIcon}</span>`).join('')}</span></div>
+            ${yearOf(ch) ? `<p class="chapter-year">Year ${esc(yearOf(ch))}</p>` : ''}
             <h3>${esc(ch.name.replace(/^Chapter\s+\d+:\s*/i, ''))}</h3>
             <div class="meter" aria-hidden="true"><span style="width:${pct}%"></span></div>
             <div class="meter-row"><span>${ch.done} of ${ch.total} sub-chapters done</span><span>${esc(notesLine(ch.earned))}</span></div>
@@ -336,7 +343,7 @@
       <a class="back" href="#home">${backArrow}All chapters</a>
       <div class="set-head">
         <div>
-          <div class="key-meta" style="text-transform:uppercase;letter-spacing:.08em;font-weight:700">Chapter ${esc(ch.id)}</div>
+          <div class="key-meta" style="text-transform:uppercase;letter-spacing:.08em;font-weight:700">${yearOf(ch) ? `Year ${esc(yearOf(ch))} · ` : ''}Chapter ${esc(ch.id)}</div>
           <h2>${esc(ch.name.replace(/^Chapter\s+\d+:\s*/i, ''))}</h2>
         </div>
         <div class="score"><b>${ch.done}/${ch.total}</b><small>sub-chapters done</small></div>
