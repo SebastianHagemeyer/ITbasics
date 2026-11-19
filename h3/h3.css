@@ -97,7 +97,10 @@ main { max-width: 1040px; margin: 0 auto; padding: 28px 20px 64px; }
 .meter-row { display: flex; justify-content: space-between; align-items: center; gap: 8px; font-size: 14px; color: var(--muted); font-variant-numeric: tabular-nums; }
 
 /* set view */
-.back { display: inline-block; color: var(--accent); text-decoration: none; font-weight: 700; font-size: 15px; margin-bottom: 14px; }
+.back { display: inline-flex; align-items: center; gap: 6px; color: var(--accent); text-decoration: none; font-weight: 700; font-size: 15px; margin-bottom: 14px; }
+.back-arrow { flex: 0 0 auto; transition: transform .15s; }
+.back:hover .back-arrow { transform: translateX(-3px); }
+@media (prefers-reduced-motion: reduce) { .back-arrow { transition: none; } }
 .set-head { display: flex; gap: 20px; align-items: flex-end; justify-content: space-between; flex-wrap: wrap; }
 .set-head h2 { font-size: 32px; font-weight: 800; }
 .score { text-align: right; font-variant-numeric: tabular-nums; }

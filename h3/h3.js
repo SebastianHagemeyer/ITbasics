@@ -27,6 +27,8 @@
   const REFRESH_MS = 20000;
 
   const app = document.getElementById('app');
+  // Thick arrow for the back links, drawn in currentColor so it matches the link.
+  const backArrow = '<svg class="back-arrow" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M19 12H6M11.5 5.5 5 12l6.5 6.5" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>';
   const chip = document.getElementById('save-chip');
 
   const state = {
@@ -331,7 +333,7 @@
     const ch = sum.chapters.find(c => c.id === id);
     if (!ch) { location.hash = '#home'; return; }
     app.innerHTML = `
-      <a class="back" href="#home">← All chapters</a>
+      <a class="back" href="#home">${backArrow}All chapters</a>
       <div class="set-head">
         <div>
           <div class="key-meta" style="text-transform:uppercase;letter-spacing:.08em;font-weight:700">Chapter ${esc(ch.id)}</div>
@@ -394,7 +396,7 @@
     const chId = chapterIdOf(set);
     app.innerHTML = `
       <div class="narrow">
-        <a class="back" href="#chapter-${esc(chId)}">← Chapter ${esc(chId)}</a>
+        <a class="back" href="#chapter-${esc(chId)}">${backArrow}Chapter ${esc(chId)}</a>
         <div class="set-head">
           <div>
             ${set.chapter ? `<div class="key-meta" style="text-transform:uppercase;letter-spacing:.08em;font-weight:700">${esc(set.chapter)}</div>` : ''}
