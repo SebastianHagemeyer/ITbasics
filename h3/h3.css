@@ -56,6 +56,11 @@ button, input { font: inherit; color: inherit; }
 .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); }
 .brand { gap: 14px; }
 .brand-logo { display: block; height: 52px; width: auto; background: #ffffff; border-radius: 8px; }
+/* Dark theme swaps in a transparent version with light lettering
+   (hallam-logo-dark.webp), instead of a white box glaring off the header. */
+.brand-logo.logo-dark { display: none; background: none; border-radius: 0; }
+:root[data-theme="dark"] .brand-logo.logo-light { display: none; }
+:root[data-theme="dark"] .brand-logo.logo-dark { display: block; }
 .brand h1 { font-size: 22px; font-weight: 800; padding-left: 14px; border-left: 2px solid var(--line); }
 @media (max-width: 520px) { .brand-logo { height: 42px; } .brand h1 { font-size: 18px; padding-left: 10px; } }
 nav { display: flex; gap: 4px; margin-left: auto; }
