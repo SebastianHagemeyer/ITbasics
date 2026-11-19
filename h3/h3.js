@@ -201,7 +201,7 @@
           <a class="portal-badge portal-snake" href="/" title="IT homework: Hallam IT Basics" aria-label="Go to the Hallam IT Basics sign-in">
             <svg viewBox="40 30 140 115" width="30" height="30" aria-hidden="true"><circle cx="110" cy="86" r="52" fill="#1C4587"/><path d="M 70 100 Q 110 132 150 100 Q 145 130 110 138 Q 75 130 70 100 Z" fill="#FFFF00"/><circle cx="92" cy="76" r="14" fill="#fff"/><circle cx="128" cy="76" r="14" fill="#fff"/><circle cx="94" cy="78" r="6.5" fill="#0f1226"/><circle cx="130" cy="78" r="6.5" fill="#0f1226"/><path d="M 90 116 Q 110 130 130 116" stroke="#0f1226" stroke-width="5" fill="none" stroke-linecap="round"/></svg>
           </a>
-          <div class="h3-tile big" aria-hidden="true"><sup>3</sup>H</div>
+          <img class="h3-mark big" src="/h3/h3-mark.svg" alt="" width="72" height="72">
           <h2>Welcome to H3</h2>
           <p class="lede">The Hallam Homework Hub. Sign in with your student code to start.</p>
           <label for="code" class="sr-only">Student code</label>
