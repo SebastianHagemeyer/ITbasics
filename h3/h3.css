@@ -27,13 +27,17 @@
   --note: #1f9d55;
   --note-fold: #e9f7ef;
   --note-soft: #e3f4ea;
+  /* The H3 logo green. Light uses a deeper shade of it: the logo's glow
+     green itself is too pale to read on white. */
+  --h3-green: #0c9447;
+  --h3-glow: transparent;
   color-scheme: light;
 }
 :root[data-theme="dark"] {
   --paper: #0f1524; --surface: #172036; --ink: #e8edf7; --muted: #9aa6c0; --line: #2a3654;
   --grid: rgba(120, 155, 255, 0.07); --accent: #9db8ec; --accent-ink: #0b1626; --accent-soft: #1d2c48; --brand-red: #e0445e;
   --good: #5fd09a; --good-soft: #16352a; --bad: #ff8a80; --bad-soft: #3d1f22; --warn: #f2c25b; --warn-soft: #3a2f14;
-  --note: #4cc985; --note-fold: #12321f; --note-soft: #16352a;
+  --note: #4cc985; --note-fold: #12321f; --note-soft: #16352a; --h3-green: #3ff58a; --h3-glow: rgba(63, 245, 138, 0.45);
   color-scheme: dark;
 }
 * { box-sizing: border-box; }
@@ -90,7 +94,7 @@ main { max-width: 1040px; margin: 0 auto; padding: 28px 20px 64px; }
 .set-card p { margin: 0; color: var(--muted); font-size: 15px; }
 .meter { height: 8px; border-radius: 99px; background: var(--line); overflow: hidden; }
 .meter > span { display: block; height: 100%; background: var(--good); border-radius: 99px; }
-.meter-row { display: flex; justify-content: space-between; font-size: 14px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.meter-row { display: flex; justify-content: space-between; align-items: center; gap: 8px; font-size: 14px; color: var(--muted); font-variant-numeric: tabular-nums; }
 
 /* set view */
 .back { display: inline-block; color: var(--accent); text-decoration: none; font-weight: 700; font-size: 15px; margin-bottom: 14px; }
@@ -216,7 +220,12 @@ textarea, .small-input { width: 100%; font: 15px/1.4 var(--f-mono); color: var(-
 .gn-row { display: inline-flex; gap: 2px; }
 .gn-dot { color: var(--line); display: inline-flex; }
 .gn-dot.on { color: var(--note); }
-.chapter-top { display: flex; justify-content: space-between; align-items: center; }
+.chapter-top { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+.chapter-id { display: flex; align-items: center; gap: 10px; }
+/* Share of the chapter's questions answered correctly, in the H3 logo green. */
+.chapter-pct { font: 800 22px/1 var(--f-display); color: var(--h3-green); text-shadow: 0 0 10px var(--h3-glow); font-variant-numeric: tabular-nums; }
+/* the same, per sub-chapter, once it has been started */
+.set-pct { font: 800 19px/1 var(--f-display); color: var(--h3-green); text-shadow: 0 0 10px var(--h3-glow); font-variant-numeric: tabular-nums; }
 .chapter-num { display: inline-grid; place-items: center; min-width: 32px; height: 32px; padding: 0 6px; border-radius: 8px; background: var(--accent-soft); color: var(--accent); font: 800 17px/1 var(--f-display); }
 .set-card .next { font-size: 14px; color: var(--muted); }
 .set-card.is-full { border-color: color-mix(in srgb, var(--good) 45%, var(--line)); }

@@ -149,6 +149,21 @@
     return { correct, tried, total: set.questions.length };
   }
 
+  // Percent of a chapter's questions answered correctly. Rounded, except
+  // that any progress shows at least 1% and only a fully finished chapter
+  // shows 100%, so one right answer never reads as 0% and 99.6% never
+  // claims to be done.
+  function pctOf(correct, total) {
+    if (!total || !correct) return 0;
+    if (correct === total) return 100;
+    return Math.min(99, Math.max(1, Math.round(100 * correct / total)));
+  }
+  function chapterPct(ch) {
+    let correct = 0, total = 0;
+    ch.sets.forEach(s => { const sc = setScore(s, state.results[s.id]); correct += sc.correct; total += sc.total; });
+    return pctOf(correct, total);
+  }
+
   // "1B Place value in ..." -> code "1B", rest "Place value in ..."
   function splitTitle(t) {
     const m = String(t || '').match(/^(\d+[A-Z]+)\s+(.*)$/);
@@ -296,10 +311,10 @@
       <h3 class="list-head">Chapters</h3>
       <div class="sets chapters">
         ${sum.chapters.map(ch => {
-          const pct = ch.total ? Math.round(100 * ch.done / ch.total) : 0;
+          const pct = chapterPct(ch);
           const max = Math.floor(ch.total / Notes.PER_NOTE) + 1;
           return `<a class="set-card chapter-card ${ch.full ? 'is-full' : ''}" href="#chapter-${esc(ch.id)}">
-            <div class="chapter-top"><span class="chapter-num">${esc(ch.id)}</span>
+            <div class="chapter-top"><span class="chapter-id"><span class="chapter-num">${esc(ch.id)}</span><span class="chapter-pct" title="${pct}% of this chapter's questions correct">${pct}%</span></span>
               <span class="gn-row" title="${ch.earned} of ${max} green notes">${Array.from({ length: max }, (_, i) => `<span class="gn-dot ${i < ch.earned ? 'on' : ''}">${noteIcon}</span>`).join('')}</span></div>
             <h3>${esc(ch.name.replace(/^Chapter\s+\d+:\s*/i, ''))}</h3>
             <div class="meter" aria-hidden="true"><span style="width:${pct}%"></span></div>
@@ -328,14 +343,14 @@
       <div class="sets">
         ${ch.sets.map(s => {
           const sc = setScore(s, state.results[s.id]);
-          const pct = sc.total ? Math.round(100 * sc.correct / sc.total) : 0;
+          const pct = pctOf(sc.correct, sc.total);
           const done = sc.correct === sc.total && sc.total > 0;
           const t = splitTitle(s.title);
           return `<a class="set-card ${done ? 'is-full' : ''}" href="#set-${esc(s.id)}">
             <h3>${t.code ? `<span class="set-code">${esc(t.code)}</span> ` : ''}${esc(t.rest)}</h3>
             ${s.description ? `<p>${esc(s.description)}</p>` : ''}
             <div class="meter" aria-hidden="true"><span style="width:${pct}%"></span></div>
-            <div class="meter-row"><span>${sc.correct} of ${sc.total} correct</span><span>${done ? 'Done ✓' : sc.tried ? 'In progress' : 'Not started'}</span></div>
+            <div class="meter-row"><span>${sc.correct} of ${sc.total} correct</span>${sc.tried ? `<span class="set-pct">${pct}%</span>` : ''}<span>${done ? 'Done ✓' : sc.tried ? 'In progress' : 'Not started'}</span></div>
           </a>`;
         }).join('')}
       </div>`;
