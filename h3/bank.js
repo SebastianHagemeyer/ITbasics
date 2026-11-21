@@ -14,6 +14,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "roman-write",
      "label": "1a",
      "section": "Fluency",
      "stem": "Write these numbers using Roman numerals.",
@@ -23,6 +24,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "roman-write",
      "label": "1b",
      "section": "Fluency",
      "stem": "Write these numbers using Roman numerals.",
@@ -32,6 +34,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1c",
+     "help": "roman-write",
      "label": "1c",
      "section": "Fluency",
      "stem": "Write these numbers using Roman numerals.",
@@ -41,6 +44,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1d",
+     "help": "roman-write",
      "label": "1d",
      "section": "Fluency",
      "stem": "Write these numbers using Roman numerals.",
@@ -50,6 +54,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1e",
+     "help": "roman-write",
      "label": "1e",
      "section": "Fluency",
      "stem": "Write these numbers using Roman numerals.",
@@ -59,6 +64,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1f",
+     "help": "roman-write",
      "label": "1f",
      "section": "Fluency",
      "stem": "Write these numbers using Roman numerals.",
@@ -68,6 +74,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1g",
+     "help": "roman-write",
      "label": "1g",
      "section": "Fluency",
      "stem": "Write these numbers using Roman numerals.",
@@ -77,6 +84,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "roman-read",
      "label": "2a",
      "section": "Fluency",
      "stem": "What number do these Roman numerals represent?",
@@ -86,6 +94,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "roman-read",
      "label": "2b",
      "section": "Fluency",
      "stem": "What number do these Roman numerals represent?",
@@ -95,6 +104,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "roman-read",
      "label": "2c",
      "section": "Fluency",
      "stem": "What number do these Roman numerals represent?",
@@ -104,6 +114,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "roman-read",
      "label": "2d",
      "section": "Fluency",
      "stem": "What number do these Roman numerals represent?",
@@ -113,6 +124,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2e",
+     "help": "roman-read",
      "label": "2e",
      "section": "Fluency",
      "stem": "What number do these Roman numerals represent?",
@@ -122,6 +134,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2f",
+     "help": "roman-read",
      "label": "2f",
      "section": "Fluency",
      "stem": "What number do these Roman numerals represent?",
@@ -131,6 +144,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "roman-calc",
      "label": "3a",
      "section": "Fluency",
      "stem": "Work out the answer. Write your answer in Roman numerals.",
@@ -140,6 +154,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "roman-calc",
      "label": "3b",
      "section": "Fluency",
      "stem": "Work out the answer. Write your answer in Roman numerals.",
@@ -149,6 +164,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "roman-calc",
      "label": "3c",
      "section": "Fluency",
      "stem": "Work out the answer. Write your answer in Roman numerals.",
@@ -158,6 +174,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3d",
+     "help": "roman-calc",
      "label": "3d",
      "section": "Fluency",
      "stem": "Work out the answer. Write your answer in Roman numerals.",
@@ -167,6 +184,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4",
+     "help": "roman-word",
      "label": "4",
      "section": "Problem-solving",
      "stem": null,
@@ -176,6 +194,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5",
+     "help": "roman-word",
      "label": "5",
      "section": "Problem-solving",
      "stem": null,
@@ -185,6 +204,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6a",
+     "help": "roman-rule",
      "label": "6a",
      "section": "Reasoning",
      "stem": "In Roman numerals, I, X and C can be placed in front of a larger numeral to subtract from it, so 9 is IX (not VIIII) and 40 is XL (not XXXX). Use this rule to write these numbers in Roman numerals.",
@@ -194,6 +214,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6b",
+     "help": "roman-rule",
      "label": "6b",
      "section": "Reasoning",
      "stem": "In Roman numerals, I, X and C can be placed in front of a larger numeral to subtract from it, so 9 is IX (not VIIII) and 40 is XL (not XXXX). Use this rule to write these numbers in Roman numerals.",
@@ -203,6 +224,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6c",
+     "help": "roman-rule",
      "label": "6c",
      "section": "Reasoning",
      "stem": "In Roman numerals, I, X and C can be placed in front of a larger numeral to subtract from it, so 9 is IX (not VIIII) and 40 is XL (not XXXX). Use this rule to write these numbers in Roman numerals.",
@@ -212,6 +234,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6d",
+     "help": "roman-rule",
      "label": "6d",
      "section": "Reasoning",
      "stem": "In Roman numerals, I, X and C can be placed in front of a larger numeral to subtract from it, so 9 is IX (not VIIII) and 40 is XL (not XXXX). Use this rule to write these numbers in Roman numerals.",
@@ -221,6 +244,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6e",
+     "help": "roman-rule",
      "label": "6e",
      "section": "Reasoning",
      "stem": "In Roman numerals, I, X and C can be placed in front of a larger numeral to subtract from it, so 9 is IX (not VIIII) and 40 is XL (not XXXX). Use this rule to write these numbers in Roman numerals.",
@@ -230,6 +254,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6f",
+     "help": "roman-rule",
      "label": "6f",
      "section": "Reasoning",
      "stem": "In Roman numerals, I, X and C can be placed in front of a larger numeral to subtract from it, so 9 is IX (not VIIII) and 40 is XL (not XXXX). Use this rule to write these numbers in Roman numerals.",
@@ -239,6 +264,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6g",
+     "help": "roman-rule",
      "label": "6g",
      "section": "Reasoning",
      "stem": "In Roman numerals, I, X and C can be placed in front of a larger numeral to subtract from it, so 9 is IX (not VIIII) and 40 is XL (not XXXX). Use this rule to write these numbers in Roman numerals.",
@@ -248,6 +274,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6h",
+     "help": "roman-rule",
      "label": "6h",
      "section": "Reasoning",
      "stem": "In Roman numerals, I, X and C can be placed in front of a larger numeral to subtract from it, so 9 is IX (not VIIII) and 40 is XL (not XXXX). Use this rule to write these numbers in Roman numerals.",
@@ -257,6 +284,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6i",
+     "help": "roman-rule",
      "label": "6i",
      "section": "Reasoning",
      "stem": "In Roman numerals, I, X and C can be placed in front of a larger numeral to subtract from it, so 9 is IX (not VIIII) and 40 is XL (not XXXX). Use this rule to write these numbers in Roman numerals.",
@@ -266,6 +294,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6j",
+     "help": "roman-rule",
      "label": "6j",
      "section": "Reasoning",
      "stem": "In Roman numerals, I, X and C can be placed in front of a larger numeral to subtract from it, so 9 is IX (not VIIII) and 40 is XL (not XXXX). Use this rule to write these numbers in Roman numerals.",

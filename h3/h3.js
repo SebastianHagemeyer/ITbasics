@@ -400,6 +400,18 @@
     return ch ? ch.id : '';
   }
 
+  // "How do I work this out?" fold-out. The panels live in helps.js, one per
+  // type of question; a question picks one with "help" in bank.js. Shown until
+  // the question is answered right, the same as a hint.
+  const helpHtml = (q) => {
+    const body = q.help && window.H3_HELPS && window.H3_HELPS[q.help];
+    if (!body) return '';
+    return `<details class="qhelp">
+      <summary><span class="qhelp-mark" aria-hidden="true">?</span>How do I work this out?<svg class="qhelp-chev" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="m6 9 6 6 6-6" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+      <div class="qhelp-body">${body}</div>
+    </details>`;
+  };
+
   function viewSet(id) {
     const set = setById[id];
     if (!set) { location.hash = '#home'; return; }
@@ -445,6 +457,7 @@
                   <button class="btn" type="submit" ${saved && saved.ok ? 'disabled' : ''}>${saved && saved.ok ? 'Done' : 'Check'}</button>
                 </form>
                 ${q.hint && !(saved && saved.ok) ? `<p class="hint">${esc(q.hint)}</p>` : ''}
+                ${!(saved && saved.ok) ? helpHtml(q) : ''}
                 <div class="feedback" aria-live="polite">${feedbackHtml(saved)}</div>
               </div>
             </li>`;
@@ -491,6 +504,7 @@
       form.querySelectorAll('input').forEach(i => { i.readOnly = true; if (i.type === 'radio') i.disabled = true; });
       const b = form.querySelector('button'); b.disabled = true; b.textContent = 'Done';
       const h = card.querySelector('.hint'); if (h) h.remove();
+      const hp = card.querySelector('.qhelp'); if (hp) hp.remove();
       // move focus to the next unanswered question
       const next = card.nextElementSibling && card.nextElementSibling.querySelector('input:not([readonly]):not([disabled])');
       if (next) next.focus();
