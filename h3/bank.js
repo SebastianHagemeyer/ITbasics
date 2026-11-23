@@ -4538,6 +4538,12367 @@ window.H3_BANK = {
      "form": "simplified"
     }
    ]
+  },
+  {
+   "id": "2a",
+   "chapter": "Chapter 2: Number properties and patterns",
+   "title": "2A Factors and multiples",
+   "description": "Listing factors and multiples, factor pairs and word problems.",
+   "questions": [
+    {
+     "id": "q1a",
+     "label": "1a",
+     "section": "Fluency",
+     "stem": "Find the complete set of factors for each of these numbers. Separate them with commas.",
+     "prompt": "$18$",
+     "type": "list",
+     "answer": [
+      "1",
+      "2",
+      "3",
+      "6",
+      "9",
+      "18"
+     ]
+    },
+    {
+     "id": "q1b",
+     "label": "1b",
+     "section": "Fluency",
+     "stem": "Find the complete set of factors for each of these numbers. Separate them with commas.",
+     "prompt": "$40$",
+     "type": "list",
+     "answer": [
+      "1",
+      "2",
+      "4",
+      "5",
+      "8",
+      "10",
+      "20",
+      "40"
+     ]
+    },
+    {
+     "id": "q2a",
+     "label": "2a",
+     "section": "Fluency",
+     "stem": "List the complete set of factors for each of these numbers. Separate them with commas.",
+     "prompt": "$14$",
+     "type": "list",
+     "answer": [
+      "1",
+      "2",
+      "7",
+      "14"
+     ]
+    },
+    {
+     "id": "q2b",
+     "label": "2b",
+     "section": "Fluency",
+     "stem": "List the complete set of factors for each of these numbers. Separate them with commas.",
+     "prompt": "$30$",
+     "type": "list",
+     "answer": [
+      "1",
+      "2",
+      "3",
+      "5",
+      "6",
+      "10",
+      "15",
+      "30"
+     ]
+    },
+    {
+     "id": "q2c",
+     "label": "2c",
+     "section": "Fluency",
+     "stem": "List the complete set of factors for each of these numbers. Separate them with commas.",
+     "prompt": "$19$",
+     "type": "list",
+     "answer": [
+      "1",
+      "19"
+     ]
+    },
+    {
+     "id": "q2d",
+     "label": "2d",
+     "section": "Fluency",
+     "stem": "List the complete set of factors for each of these numbers. Separate them with commas.",
+     "prompt": "$45$",
+     "type": "list",
+     "answer": [
+      "1",
+      "3",
+      "5",
+      "9",
+      "15",
+      "45"
+     ]
+    },
+    {
+     "id": "q2e",
+     "label": "2e",
+     "section": "Fluency",
+     "stem": "List the complete set of factors for each of these numbers. Separate them with commas.",
+     "prompt": "$72$",
+     "type": "list",
+     "answer": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "6",
+      "8",
+      "9",
+      "12",
+      "18",
+      "24",
+      "36",
+      "72"
+     ]
+    },
+    {
+     "id": "q2f",
+     "label": "2f",
+     "section": "Fluency",
+     "stem": "List the complete set of factors for each of these numbers. Separate them with commas.",
+     "prompt": "$54$",
+     "type": "list",
+     "answer": [
+      "1",
+      "2",
+      "3",
+      "6",
+      "9",
+      "18",
+      "27",
+      "54"
+     ]
+    },
+    {
+     "id": "q2g",
+     "label": "2g",
+     "section": "Fluency",
+     "stem": "List the complete set of factors for each of these numbers. Separate them with commas.",
+     "prompt": "$90$",
+     "type": "list",
+     "answer": [
+      "1",
+      "2",
+      "3",
+      "5",
+      "6",
+      "9",
+      "10",
+      "15",
+      "18",
+      "30",
+      "45",
+      "90"
+     ]
+    },
+    {
+     "id": "q2h",
+     "label": "2h",
+     "section": "Fluency",
+     "stem": "List the complete set of factors for each of these numbers. Separate them with commas.",
+     "prompt": "$31$",
+     "type": "list",
+     "answer": [
+      "1",
+      "31"
+     ]
+    },
+    {
+     "id": "q2i",
+     "label": "2i",
+     "section": "Fluency",
+     "stem": "List the complete set of factors for each of these numbers. Separate them with commas.",
+     "prompt": "$32$",
+     "type": "list",
+     "answer": [
+      "1",
+      "2",
+      "4",
+      "8",
+      "16",
+      "32"
+     ]
+    },
+    {
+     "id": "q3a",
+     "label": "3a",
+     "section": "Fluency",
+     "stem": "Write down the first six multiples of each of these numbers, in order, separated by commas.",
+     "prompt": "$6$",
+     "type": "ordered",
+     "answer": [
+      "6",
+      "12",
+      "18",
+      "24",
+      "30",
+      "36"
+     ]
+    },
+    {
+     "id": "q3b",
+     "label": "3b",
+     "section": "Fluency",
+     "stem": "Write down the first six multiples of each of these numbers, in order, separated by commas.",
+     "prompt": "$9$",
+     "type": "ordered",
+     "answer": [
+      "9",
+      "18",
+      "27",
+      "36",
+      "45",
+      "54"
+     ]
+    },
+    {
+     "id": "q3c",
+     "label": "3c",
+     "section": "Fluency",
+     "stem": "Write down the first six multiples of each of these numbers, in order, separated by commas.",
+     "prompt": "$11$",
+     "type": "ordered",
+     "answer": [
+      "11",
+      "22",
+      "33",
+      "44",
+      "55",
+      "66"
+     ]
+    },
+    {
+     "id": "q3d",
+     "label": "3d",
+     "section": "Fluency",
+     "stem": "Write down the first six multiples of each of these numbers, in order, separated by commas.",
+     "prompt": "$4$",
+     "type": "ordered",
+     "answer": [
+      "4",
+      "8",
+      "12",
+      "16",
+      "20",
+      "24"
+     ]
+    },
+    {
+     "id": "q3e",
+     "label": "3e",
+     "section": "Fluency",
+     "stem": "Write down the first six multiples of each of these numbers, in order, separated by commas.",
+     "prompt": "$25$",
+     "type": "ordered",
+     "answer": [
+      "25",
+      "50",
+      "75",
+      "100",
+      "125",
+      "150"
+     ]
+    },
+    {
+     "id": "q3f",
+     "label": "3f",
+     "section": "Fluency",
+     "stem": "Write down the first six multiples of each of these numbers, in order, separated by commas.",
+     "prompt": "$40$",
+     "type": "ordered",
+     "answer": [
+      "40",
+      "80",
+      "120",
+      "160",
+      "200",
+      "240"
+     ]
+    },
+    {
+     "id": "q3g",
+     "label": "3g",
+     "section": "Fluency",
+     "stem": "Write down the first six multiples of each of these numbers, in order, separated by commas.",
+     "prompt": "$14$",
+     "type": "ordered",
+     "answer": [
+      "14",
+      "28",
+      "42",
+      "56",
+      "70",
+      "84"
+     ]
+    },
+    {
+     "id": "q3h",
+     "label": "3h",
+     "section": "Fluency",
+     "stem": "Write down the first six multiples of each of these numbers, in order, separated by commas.",
+     "prompt": "$50$",
+     "type": "ordered",
+     "answer": [
+      "50",
+      "100",
+      "150",
+      "200",
+      "250",
+      "300"
+     ]
+    },
+    {
+     "id": "q3i",
+     "label": "3i",
+     "section": "Fluency",
+     "stem": "Write down the first six multiples of each of these numbers, in order, separated by commas.",
+     "prompt": "$23$",
+     "type": "ordered",
+     "answer": [
+      "23",
+      "46",
+      "69",
+      "92",
+      "115",
+      "138"
+     ]
+    },
+    {
+     "id": "q4a",
+     "label": "4a",
+     "section": "Fluency",
+     "stem": "Fill in the gaps to complete the set of factors for each number. Type the missing factors in order, separated by commas.",
+     "prompt": "$20$: $\\;1, 2, \\_\\_, 5, 10, \\_\\_$",
+     "type": "ordered",
+     "answer": [
+      "4",
+      "20"
+     ]
+    },
+    {
+     "id": "q4b",
+     "label": "4b",
+     "section": "Fluency",
+     "stem": "Fill in the gaps to complete the set of factors for each number. Type the missing factors in order, separated by commas.",
+     "prompt": "$49$: $\\;1, \\_\\_, 49$",
+     "type": "ordered",
+     "answer": [
+      "7"
+     ]
+    },
+    {
+     "id": "q4c",
+     "label": "4c",
+     "section": "Fluency",
+     "stem": "Fill in the gaps to complete the set of factors for each number. Type the missing factors in order, separated by commas.",
+     "prompt": "$60$: $\\;\\_\\_, 2, 3, \\_\\_, 5, 6, \\_\\_, 12, \\_\\_, 20, 30, \\_\\_$",
+     "type": "ordered",
+     "answer": [
+      "1",
+      "4",
+      "10",
+      "15",
+      "60"
+     ]
+    },
+    {
+     "id": "q4d",
+     "label": "4d",
+     "section": "Fluency",
+     "stem": "Fill in the gaps to complete the set of factors for each number. Type the missing factors in order, separated by commas.",
+     "prompt": "$168$: $\\;1, 2, \\_\\_, \\_\\_, \\_\\_, 7, \\_\\_, 12, \\_\\_, \\_\\_, 24, \\_\\_, 42, \\_\\_, 84, \\_\\_$",
+     "type": "ordered",
+     "answer": [
+      "3",
+      "4",
+      "6",
+      "8",
+      "14",
+      "21",
+      "28",
+      "56",
+      "168"
+     ]
+    },
+    {
+     "id": "q5a",
+     "label": "5a",
+     "section": "Fluency",
+     "stem": "Which number is the incorrect multiple in each of these lists?",
+     "prompt": "$4, 8, 12, 16, 21, 24, 28, 32, 36, 40$",
+     "type": "numeric",
+     "answer": "21"
+    },
+    {
+     "id": "q5b",
+     "label": "5b",
+     "section": "Fluency",
+     "stem": "Which number is the incorrect multiple in each of these lists?",
+     "prompt": "$37, 74, 111, 148, 195, 222, 259, 296$",
+     "type": "numeric",
+     "answer": "195"
+    },
+    {
+     "id": "q5c",
+     "label": "5c",
+     "section": "Fluency",
+     "stem": "Which number is the incorrect multiple in each of these lists?",
+     "prompt": "$12, 24, 36, 48, 60, 62, 84, 96, 108, 120$",
+     "type": "numeric",
+     "answer": "62"
+    },
+    {
+     "id": "q5d",
+     "label": "5d",
+     "section": "Fluency",
+     "stem": "Which number is the incorrect multiple in each of these lists?",
+     "prompt": "$19, 38, 57, 76, 95, 114, 133, 142, 171, 190$",
+     "type": "numeric",
+     "answer": "142"
+    },
+    {
+     "id": "q6a",
+     "label": "6a",
+     "section": "Problem-solving",
+     "stem": "Think about the whole numbers from $1$ to $40$ inclusive.",
+     "prompt": "Which number has the most factors?",
+     "type": "numeric",
+     "answer": "36"
+    },
+    {
+     "id": "q6b",
+     "label": "6b",
+     "section": "Problem-solving",
+     "stem": "Think about the whole numbers from $1$ to $40$ inclusive.",
+     "prompt": "Which number has the fewest factors?",
+     "type": "numeric",
+     "answer": "1"
+    },
+    {
+     "id": "q6c",
+     "label": "6c",
+     "section": "Problem-solving",
+     "stem": "Think about the whole numbers from $1$ to $40$ inclusive.",
+     "prompt": "Which numbers have an odd number of factors? Separate them with commas.",
+     "type": "list",
+     "answer": [
+      "1",
+      "4",
+      "9",
+      "16",
+      "25",
+      "36"
+     ]
+    },
+    {
+     "id": "q7a",
+     "label": "7a",
+     "section": "Problem-solving",
+     "stem": "Write each number as a product of two factors, both of which are greater than $10$.",
+     "prompt": "$143$",
+     "type": "product",
+     "answer": "11×13",
+     "hint": "Type it like 12 x 15"
+    },
+    {
+     "id": "q7b",
+     "label": "7b",
+     "section": "Problem-solving",
+     "stem": "Write each number as a product of two factors, both of which are greater than $10$.",
+     "prompt": "$391$",
+     "type": "product",
+     "answer": "17×23",
+     "hint": "Type it like 12 x 15"
+    },
+    {
+     "id": "q7c",
+     "label": "7c",
+     "section": "Problem-solving",
+     "stem": "Write each number as a product of two factors, both of which are greater than $10$.",
+     "prompt": "$247$",
+     "type": "product",
+     "answer": "13×19",
+     "hint": "Type it like 12 x 15"
+    },
+    {
+     "id": "q7d",
+     "label": "7d",
+     "section": "Problem-solving",
+     "stem": "Write each number as a product of two factors, both of which are greater than $10$.",
+     "prompt": "$169$",
+     "type": "product",
+     "answer": "13×13",
+     "hint": "Type it like 12 x 15"
+    },
+    {
+     "id": "q7e",
+     "label": "7e",
+     "section": "Problem-solving",
+     "stem": "Write each number as a product of two factors, both of which are greater than $10$.",
+     "prompt": "$437$",
+     "type": "product",
+     "answer": "19×23",
+     "hint": "Type it like 12 x 15"
+    },
+    {
+     "id": "q7f",
+     "label": "7f",
+     "section": "Problem-solving",
+     "stem": "Write each number as a product of two factors, both of which are greater than $10$.",
+     "prompt": "$551$",
+     "type": "product",
+     "answer": "19×29",
+     "hint": "Type it like 12 x 15"
+    },
+    {
+     "id": "q8a",
+     "label": "8a",
+     "section": "Problem-solving",
+     "stem": "Priya and Leo are training at the school oval. Priya takes $6$ minutes to run one lap and Leo takes $8$ minutes. They start together and keep running until they both cross the start line at the same time.",
+     "prompt": "How long do they run for?",
+     "type": "numeric",
+     "answer": "24",
+     "units": "minutes"
+    },
+    {
+     "id": "q8b",
+     "label": "8b",
+     "section": "Problem-solving",
+     "stem": "Priya and Leo are training at the school oval. Priya takes $6$ minutes to run one lap and Leo takes $8$ minutes. They start together and keep running until they both cross the start line at the same time.",
+     "prompt": "How many laps does Priya run?",
+     "type": "numeric",
+     "answer": "4"
+    },
+    {
+     "id": "q8c",
+     "label": "8c",
+     "section": "Problem-solving",
+     "stem": "Priya and Leo are training at the school oval. Priya takes $6$ minutes to run one lap and Leo takes $8$ minutes. They start together and keep running until they both cross the start line at the same time.",
+     "prompt": "How many laps does Leo run?",
+     "type": "numeric",
+     "answer": "3"
+    },
+    {
+     "id": "q9a",
+     "label": "9a",
+     "section": "Problem-solving",
+     "stem": "Mia has invited $8$ friends to her party. She is filling a party bag for each friend, and every bag must get the same number of stickers. Mia has $240$ stickers altogether.",
+     "prompt": "How many stickers go in each friend's bag?",
+     "type": "numeric",
+     "answer": "30"
+    },
+    {
+     "id": "q9b",
+     "label": "9b",
+     "section": "Problem-solving",
+     "stem": "Mia has invited $8$ friends to her party. She is filling a party bag for each friend, and every bag must get the same number of stickers. Mia has $240$ stickers altogether.",
+     "prompt": "How many stickers are left over for Mia?",
+     "type": "numeric",
+     "answer": "0"
+    },
+    {
+     "id": "q9c",
+     "label": "9c",
+     "section": "Problem-solving",
+     "stem": "Mia has invited $8$ friends to her party. She is filling a party bag for each friend, and every bag must get the same number of stickers. Mia has $240$ stickers altogether.",
+     "prompt": "Mia decides to make a bag for herself too. How many whole stickers go in each of the $9$ bags now?",
+     "type": "numeric",
+     "answer": "26"
+    },
+    {
+     "id": "q9d",
+     "label": "9d",
+     "section": "Problem-solving",
+     "stem": "Mia has invited $8$ friends to her party. She is filling a party bag for each friend, and every bag must get the same number of stickers. Mia has $240$ stickers altogether.",
+     "prompt": "Mia then makes a bag for each of her brothers and sisters too. Now the number of bags is a factor of $240$, so no stickers are left over. Mia has fewer than $10$ brothers and sisters. How many could she have? List every possibility, separated by commas.",
+     "type": "list",
+     "answer": [
+      "1",
+      "3",
+      "6",
+      "7"
+     ]
+    },
+    {
+     "id": "q10a",
+     "label": "10a",
+     "section": "Reasoning",
+     "stem": "Are these statements true or false?",
+     "prompt": "All of the multiples of $7$ are smaller than $7$.",
+     "type": "choice",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "q10b",
+     "label": "10b",
+     "section": "Reasoning",
+     "stem": "Are these statements true or false?",
+     "prompt": "Every even number has $2$ as a factor.",
+     "type": "choice",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q10c",
+     "label": "10c",
+     "section": "Reasoning",
+     "stem": "Are these statements true or false?",
+     "prompt": "Every odd number is a multiple of $3$.",
+     "type": "choice",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "q10d",
+     "label": "10d",
+     "section": "Reasoning",
+     "stem": "Are these statements true or false?",
+     "prompt": "The factors of a number are always bigger than or equal to that number.",
+     "type": "choice",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "q10e",
+     "label": "10e",
+     "section": "Reasoning",
+     "stem": "Are these statements true or false?",
+     "prompt": "Any whole number is both a factor and a multiple of itself.",
+     "type": "choice",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q11a",
+     "label": "11a",
+     "section": "Reasoning",
+     "stem": "The smallest number that has each of $1, 2, 3$ and $4$ as a factor is $12$.",
+     "prompt": "What is the smallest number that has $1, 2, 3, 4, 5, 6$ and $7$ as factors?",
+     "type": "numeric",
+     "answer": "420"
+    },
+    {
+     "id": "q11b",
+     "label": "11b",
+     "section": "Reasoning",
+     "stem": "The smallest number that has each of $1, 2, 3$ and $4$ as a factor is $12$.",
+     "prompt": "What is the smallest number that has $1, 2, 3, 4, 5, 6, 7, 8$ and $9$ as factors?",
+     "type": "numeric",
+     "answer": "2520"
+    },
+    {
+     "id": "q12a",
+     "label": "12a",
+     "section": "Reasoning",
+     "stem": "Answer these questions about the number $80$. Separate your answers with commas.",
+     "prompt": "Which numbers can claim that $80$ is a multiple of them? (For example, $5$ can claim it, because $80$ is a multiple of $5$.)",
+     "type": "list",
+     "answer": [
+      "1",
+      "2",
+      "4",
+      "5",
+      "8",
+      "10",
+      "16",
+      "20",
+      "40",
+      "80"
+     ]
+    },
+    {
+     "id": "q12b",
+     "label": "12b",
+     "section": "Reasoning",
+     "stem": "Answer these questions about the number $80$. Separate your answers with commas.",
+     "prompt": "What are the factors of $80$?",
+     "type": "list",
+     "answer": [
+      "1",
+      "2",
+      "4",
+      "5",
+      "8",
+      "10",
+      "16",
+      "20",
+      "40",
+      "80"
+     ]
+    },
+    {
+     "id": "q13",
+     "label": "13",
+     "section": "Reasoning",
+     "stem": null,
+     "prompt": "Every AM radio station in Australia broadcasts on a frequency (in kHz) that is a multiple of $9$. Which of these could be AM radio frequencies? $531, 612, 700, 891, 1025, 1116$. Separate your answers with commas.",
+     "type": "list",
+     "answer": [
+      "531",
+      "612",
+      "891",
+      "1116"
+     ]
+    },
+    {
+     "id": "q14",
+     "label": "14",
+     "section": "Reasoning",
+     "stem": null,
+     "prompt": "A number is a multiple of $10$ and also a multiple of $15$, so $10$ and $15$ are factors of the number. List all the other numbers that must also be factors of it, separated by commas.",
+     "type": "list",
+     "answer": [
+      "1",
+      "2",
+      "3",
+      "5",
+      "6",
+      "30"
+     ]
+    },
+    {
+     "id": "q15a",
+     "label": "15a",
+     "section": "Enrichment",
+     "stem": "The factor sum of a number is what you get when you add up all its factors except the number itself. For example, the factor sum of $10$ is $1 + 2 + 5 = 8$. Two numbers are called amicable if the factor sum of each one equals the other number.",
+     "prompt": "What is the factor sum of $18$?",
+     "type": "numeric",
+     "answer": "21"
+    },
+    {
+     "id": "q15b",
+     "label": "15b",
+     "section": "Enrichment",
+     "stem": "The factor sum of a number is what you get when you add up all its factors except the number itself. For example, the factor sum of $10$ is $1 + 2 + 5 = 8$. Two numbers are called amicable if the factor sum of each one equals the other number.",
+     "prompt": "What is the factor sum of $220$?",
+     "type": "numeric",
+     "answer": "284"
+    },
+    {
+     "id": "q15c",
+     "label": "15c",
+     "section": "Enrichment",
+     "stem": "The factor sum of a number is what you get when you add up all its factors except the number itself. For example, the factor sum of $10$ is $1 + 2 + 5 = 8$. Two numbers are called amicable if the factor sum of each one equals the other number.",
+     "prompt": "What is the factor sum of $284$?",
+     "type": "numeric",
+     "answer": "220"
+    },
+    {
+     "id": "q15d",
+     "label": "15d",
+     "section": "Enrichment",
+     "stem": "The factor sum of a number is what you get when you add up all its factors except the number itself. For example, the factor sum of $10$ is $1 + 2 + 5 = 8$. Two numbers are called amicable if the factor sum of each one equals the other number.",
+     "prompt": "So are $220$ and $284$ amicable numbers?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "id": "2b",
+   "chapter": "Chapter 2: Number properties and patterns",
+   "title": "2B Highest common factor and lowest common multiple",
+   "description": "Finding the HCF and LCM of pairs and groups of numbers.",
+   "questions": [
+    {
+     "id": "q1a",
+     "label": "1a",
+     "section": "Fluency",
+     "stem": "Find the HCF (highest common factor) of each pair of numbers.",
+     "prompt": "$14$ and $21$",
+     "type": "numeric",
+     "answer": "7"
+    },
+    {
+     "id": "q1b",
+     "label": "1b",
+     "section": "Fluency",
+     "stem": "Find the HCF (highest common factor) of each pair of numbers.",
+     "prompt": "$18$ and $24$",
+     "type": "numeric",
+     "answer": "6"
+    },
+    {
+     "id": "q2a",
+     "label": "2a",
+     "section": "Fluency",
+     "stem": "Find the HCF of each pair of numbers.",
+     "prompt": "$7$ and $8$",
+     "type": "numeric",
+     "answer": "1"
+    },
+    {
+     "id": "q2b",
+     "label": "2b",
+     "section": "Fluency",
+     "stem": "Find the HCF of each pair of numbers.",
+     "prompt": "$9$ and $14$",
+     "type": "numeric",
+     "answer": "1"
+    },
+    {
+     "id": "q2c",
+     "label": "2c",
+     "section": "Fluency",
+     "stem": "Find the HCF of each pair of numbers.",
+     "prompt": "$3$ and $18$",
+     "type": "numeric",
+     "answer": "3"
+    },
+    {
+     "id": "q2d",
+     "label": "2d",
+     "section": "Fluency",
+     "stem": "Find the HCF of each pair of numbers.",
+     "prompt": "$5$ and $20$",
+     "type": "numeric",
+     "answer": "5"
+    },
+    {
+     "id": "q2e",
+     "label": "2e",
+     "section": "Fluency",
+     "stem": "Find the HCF of each pair of numbers.",
+     "prompt": "$16$ and $28$",
+     "type": "numeric",
+     "answer": "4"
+    },
+    {
+     "id": "q2f",
+     "label": "2f",
+     "section": "Fluency",
+     "stem": "Find the HCF of each pair of numbers.",
+     "prompt": "$12$ and $48$",
+     "type": "numeric",
+     "answer": "12"
+    },
+    {
+     "id": "q2g",
+     "label": "2g",
+     "section": "Fluency",
+     "stem": "Find the HCF of each pair of numbers.",
+     "prompt": "$40$ and $120$",
+     "type": "numeric",
+     "answer": "40"
+    },
+    {
+     "id": "q2h",
+     "label": "2h",
+     "section": "Fluency",
+     "stem": "Find the HCF of each pair of numbers.",
+     "prompt": "$36$ and $54$",
+     "type": "numeric",
+     "answer": "18"
+    },
+    {
+     "id": "q2i",
+     "label": "2i",
+     "section": "Fluency",
+     "stem": "Find the HCF of each pair of numbers.",
+     "prompt": "$60$ and $90$",
+     "type": "numeric",
+     "answer": "30"
+    },
+    {
+     "id": "q2j",
+     "label": "2j",
+     "section": "Fluency",
+     "stem": "Find the HCF of each pair of numbers.",
+     "prompt": "$45$ and $75$",
+     "type": "numeric",
+     "answer": "15"
+    },
+    {
+     "id": "q2k",
+     "label": "2k",
+     "section": "Fluency",
+     "stem": "Find the HCF of each pair of numbers.",
+     "prompt": "$56$ and $84$",
+     "type": "numeric",
+     "answer": "28"
+    },
+    {
+     "id": "q2l",
+     "label": "2l",
+     "section": "Fluency",
+     "stem": "Find the HCF of each pair of numbers.",
+     "prompt": "$24$ and $36$",
+     "type": "numeric",
+     "answer": "12"
+    },
+    {
+     "id": "q3a",
+     "label": "3a",
+     "section": "Fluency",
+     "stem": "Find the HCF of each group of numbers. That is, find the highest number that is a factor of every number in the group.",
+     "prompt": "$30, 45, 60$",
+     "type": "numeric",
+     "answer": "15"
+    },
+    {
+     "id": "q3b",
+     "label": "3b",
+     "section": "Fluency",
+     "stem": "Find the HCF of each group of numbers. That is, find the highest number that is a factor of every number in the group.",
+     "prompt": "$8, 20, 36$",
+     "type": "numeric",
+     "answer": "4"
+    },
+    {
+     "id": "q3c",
+     "label": "3c",
+     "section": "Fluency",
+     "stem": "Find the HCF of each group of numbers. That is, find the highest number that is a factor of every number in the group.",
+     "prompt": "$40, 80, 63$",
+     "type": "numeric",
+     "answer": "1"
+    },
+    {
+     "id": "q3d",
+     "label": "3d",
+     "section": "Fluency",
+     "stem": "Find the HCF of each group of numbers. That is, find the highest number that is a factor of every number in the group.",
+     "prompt": "$14, 9, 25$",
+     "type": "numeric",
+     "answer": "1"
+    },
+    {
+     "id": "q3e",
+     "label": "3e",
+     "section": "Fluency",
+     "stem": "Find the HCF of each group of numbers. That is, find the highest number that is a factor of every number in the group.",
+     "prompt": "$18, 54, 24$",
+     "type": "numeric",
+     "answer": "6"
+    },
+    {
+     "id": "q3f",
+     "label": "3f",
+     "section": "Fluency",
+     "stem": "Find the HCF of each group of numbers. That is, find the highest number that is a factor of every number in the group.",
+     "prompt": "$90, 126, 108$",
+     "type": "numeric",
+     "answer": "18"
+    },
+    {
+     "id": "q4a",
+     "label": "4a",
+     "section": "Fluency",
+     "stem": "Find the LCM (lowest common multiple) of each pair of numbers.",
+     "prompt": "$3$ and $8$",
+     "type": "numeric",
+     "answer": "24"
+    },
+    {
+     "id": "q4b",
+     "label": "4b",
+     "section": "Fluency",
+     "stem": "Find the LCM (lowest common multiple) of each pair of numbers.",
+     "prompt": "$5$ and $7$",
+     "type": "numeric",
+     "answer": "35"
+    },
+    {
+     "id": "q4c",
+     "label": "4c",
+     "section": "Fluency",
+     "stem": "Find the LCM (lowest common multiple) of each pair of numbers.",
+     "prompt": "$11$ and $3$",
+     "type": "numeric",
+     "answer": "33"
+    },
+    {
+     "id": "q4d",
+     "label": "4d",
+     "section": "Fluency",
+     "stem": "Find the LCM (lowest common multiple) of each pair of numbers.",
+     "prompt": "$8$ and $9$",
+     "type": "numeric",
+     "answer": "72"
+    },
+    {
+     "id": "q4e",
+     "label": "4e",
+     "section": "Fluency",
+     "stem": "Find the LCM (lowest common multiple) of each pair of numbers.",
+     "prompt": "$6$ and $8$",
+     "type": "numeric",
+     "answer": "24"
+    },
+    {
+     "id": "q4f",
+     "label": "4f",
+     "section": "Fluency",
+     "stem": "Find the LCM (lowest common multiple) of each pair of numbers.",
+     "prompt": "$4$ and $12$",
+     "type": "numeric",
+     "answer": "12"
+    },
+    {
+     "id": "q4g",
+     "label": "4g",
+     "section": "Fluency",
+     "stem": "Find the LCM (lowest common multiple) of each pair of numbers.",
+     "prompt": "$10$ and $15$",
+     "type": "numeric",
+     "answer": "30"
+    },
+    {
+     "id": "q4h",
+     "label": "4h",
+     "section": "Fluency",
+     "stem": "Find the LCM (lowest common multiple) of each pair of numbers.",
+     "prompt": "$8$ and $12$",
+     "type": "numeric",
+     "answer": "24"
+    },
+    {
+     "id": "q4i",
+     "label": "4i",
+     "section": "Fluency",
+     "stem": "Find the LCM (lowest common multiple) of each pair of numbers.",
+     "prompt": "$15$ and $25$",
+     "type": "numeric",
+     "answer": "75"
+    },
+    {
+     "id": "q4j",
+     "label": "4j",
+     "section": "Fluency",
+     "stem": "Find the LCM (lowest common multiple) of each pair of numbers.",
+     "prompt": "$18$ and $24$",
+     "type": "numeric",
+     "answer": "72"
+    },
+    {
+     "id": "q4k",
+     "label": "4k",
+     "section": "Fluency",
+     "stem": "Find the LCM (lowest common multiple) of each pair of numbers.",
+     "prompt": "$9$ and $33$",
+     "type": "numeric",
+     "answer": "99"
+    },
+    {
+     "id": "q4l",
+     "label": "4l",
+     "section": "Fluency",
+     "stem": "Find the LCM (lowest common multiple) of each pair of numbers.",
+     "prompt": "$14$ and $35$",
+     "type": "numeric",
+     "answer": "70"
+    },
+    {
+     "id": "q5a",
+     "label": "5a",
+     "section": "Fluency",
+     "stem": "Find the LCM of each group of numbers. That is, find the lowest number that is a multiple of every number in the group.",
+     "prompt": "$2, 5, 7$",
+     "type": "numeric",
+     "answer": "70"
+    },
+    {
+     "id": "q5b",
+     "label": "5b",
+     "section": "Fluency",
+     "stem": "Find the LCM of each group of numbers. That is, find the lowest number that is a multiple of every number in the group.",
+     "prompt": "$3, 5, 8$",
+     "type": "numeric",
+     "answer": "120"
+    },
+    {
+     "id": "q5c",
+     "label": "5c",
+     "section": "Fluency",
+     "stem": "Find the LCM of each group of numbers. That is, find the lowest number that is a multiple of every number in the group.",
+     "prompt": "$2, 4, 6$",
+     "type": "numeric",
+     "answer": "12"
+    },
+    {
+     "id": "q5d",
+     "label": "5d",
+     "section": "Fluency",
+     "stem": "Find the LCM of each group of numbers. That is, find the lowest number that is a multiple of every number in the group.",
+     "prompt": "$4, 6, 9$",
+     "type": "numeric",
+     "answer": "36"
+    },
+    {
+     "id": "q5e",
+     "label": "5e",
+     "section": "Fluency",
+     "stem": "Find the LCM of each group of numbers. That is, find the lowest number that is a multiple of every number in the group.",
+     "prompt": "$2, 5, 6, 10$",
+     "type": "numeric",
+     "answer": "30"
+    },
+    {
+     "id": "q5f",
+     "label": "5f",
+     "section": "Fluency",
+     "stem": "Find the LCM of each group of numbers. That is, find the lowest number that is a multiple of every number in the group.",
+     "prompt": "$4, 8, 12, 6$",
+     "type": "numeric",
+     "answer": "24"
+    },
+    {
+     "id": "q6a",
+     "label": "6a",
+     "section": "Fluency",
+     "stem": "Find the HCF of each pair of numbers, then use it to help work out the LCM of the same pair. Type the HCF first, then the LCM, separated by a comma.",
+     "prompt": "$12$ and $16$",
+     "type": "ordered",
+     "answer": [
+      "4",
+      "48"
+     ],
+     "hint": "For example, type 4, 60"
+    },
+    {
+     "id": "q6b",
+     "label": "6b",
+     "section": "Fluency",
+     "stem": "Find the HCF of each pair of numbers, then use it to help work out the LCM of the same pair. Type the HCF first, then the LCM, separated by a comma.",
+     "prompt": "$15$ and $30$",
+     "type": "ordered",
+     "answer": [
+      "15",
+      "30"
+     ],
+     "hint": "For example, type 4, 60"
+    },
+    {
+     "id": "q6c",
+     "label": "6c",
+     "section": "Fluency",
+     "stem": "Find the HCF of each pair of numbers, then use it to help work out the LCM of the same pair. Type the HCF first, then the LCM, separated by a comma.",
+     "prompt": "$10$ and $25$",
+     "type": "ordered",
+     "answer": [
+      "5",
+      "50"
+     ],
+     "hint": "For example, type 4, 60"
+    },
+    {
+     "id": "q6d",
+     "label": "6d",
+     "section": "Fluency",
+     "stem": "Find the HCF of each pair of numbers, then use it to help work out the LCM of the same pair. Type the HCF first, then the LCM, separated by a comma.",
+     "prompt": "$30$ and $42$",
+     "type": "ordered",
+     "answer": [
+      "6",
+      "210"
+     ],
+     "hint": "For example, type 4, 60"
+    },
+    {
+     "id": "q7",
+     "label": "7",
+     "section": "Problem-solving",
+     "stem": null,
+     "prompt": "Find the LCM of $11$ and $18$.",
+     "type": "numeric",
+     "answer": "198"
+    },
+    {
+     "id": "q8",
+     "label": "8",
+     "section": "Problem-solving",
+     "stem": null,
+     "prompt": "Find the HCF of $48$ and $80$.",
+     "type": "numeric",
+     "answer": "16"
+    },
+    {
+     "id": "q9a",
+     "label": "9a",
+     "section": "Problem-solving",
+     "stem": "Think about the numbers $180$ and $270$.",
+     "prompt": "Find their LCM.",
+     "type": "numeric",
+     "answer": "540"
+    },
+    {
+     "id": "q9b",
+     "label": "9b",
+     "section": "Problem-solving",
+     "stem": "Think about the numbers $180$ and $270$.",
+     "prompt": "Find their HCF.",
+     "type": "numeric",
+     "answer": "90"
+    },
+    {
+     "id": "q10a",
+     "label": "10a",
+     "section": "Problem-solving",
+     "stem": "Ruby runs a lap of the bike track in $5$ minutes, Sam takes $4$ minutes and Tia takes $10$ minutes. They all start together on the start line and run a race that lasts $40$ minutes.",
+     "prompt": "After the start, what is the first time that all three cross the start line together?",
+     "type": "numeric",
+     "answer": "20",
+     "units": "minutes"
+    },
+    {
+     "id": "q10b",
+     "label": "10b",
+     "section": "Problem-solving",
+     "stem": "Ruby runs a lap of the bike track in $5$ minutes, Sam takes $4$ minutes and Tia takes $10$ minutes. They all start together on the start line and run a race that lasts $40$ minutes.",
+     "prompt": "How many laps does each runner complete in the race? Type Ruby's, then Sam's, then Tia's, separated by commas.",
+     "type": "ordered",
+     "answer": [
+      "8",
+      "10",
+      "4"
+     ]
+    },
+    {
+     "id": "q10c",
+     "label": "10c",
+     "section": "Problem-solving",
+     "stem": "Ruby runs a lap of the bike track in $5$ minutes, Sam takes $4$ minutes and Tia takes $10$ minutes. They all start together on the start line and run a race that lasts $40$ minutes.",
+     "prompt": "Sam laps Ruby each time he gets one whole lap ahead of her. How many times has Sam lapped Ruby by the end of the race?",
+     "type": "numeric",
+     "answer": "2"
+    },
+    {
+     "id": "q11a",
+     "label": "11a",
+     "section": "Reasoning",
+     "stem": "The HCF of a pair of different numbers is $6$. Find the two numbers in each case. Separate them with a comma.",
+     "prompt": "Both numbers are less than $15$.",
+     "type": "list",
+     "answer": [
+      "6",
+      "12"
+     ]
+    },
+    {
+     "id": "q11b",
+     "label": "11b",
+     "section": "Reasoning",
+     "stem": "The HCF of a pair of different numbers is $6$. Find the two numbers in each case. Separate them with a comma.",
+     "prompt": "One number is in the $20$s and the other is in the $30$s.",
+     "type": "list",
+     "answer": [
+      "24",
+      "30"
+     ]
+    },
+    {
+     "id": "q12a",
+     "label": "12a",
+     "section": "Reasoning",
+     "stem": "Some pairs of different numbers have an LCM of $18$. For example, $2$ and $9$.",
+     "prompt": "How many different pairs of different numbers have an LCM of $18$? (Count $2$ and $9$ as one of them.)",
+     "type": "numeric",
+     "answer": "7"
+    },
+    {
+     "id": "q12b",
+     "label": "12b",
+     "section": "Reasoning",
+     "stem": "Some pairs of different numbers have an LCM of $18$. For example, $2$ and $9$.",
+     "prompt": "Which numbers can be paired with $9$ to give an LCM of $18$? Separate them with commas.",
+     "type": "list",
+     "answer": [
+      "2",
+      "6",
+      "18"
+     ]
+    },
+    {
+     "id": "q13a",
+     "label": "13a",
+     "section": "Reasoning",
+     "stem": "For two numbers, LCM $=$ (first number $\\times$ second number) $\\div$ HCF. Does a similar rule work for three numbers? Test it with $4$, $6$ and $10$.",
+     "prompt": "Find the LCM of $4$, $6$ and $10$.",
+     "type": "numeric",
+     "answer": "60"
+    },
+    {
+     "id": "q13b",
+     "label": "13b",
+     "section": "Reasoning",
+     "stem": "For two numbers, LCM $=$ (first number $\\times$ second number) $\\div$ HCF. Does a similar rule work for three numbers? Test it with $4$, $6$ and $10$.",
+     "prompt": "Work out $(4 \\times 6 \\times 10) \\div$ HCF$(4, 6, 10)$.",
+     "type": "numeric",
+     "answer": "120"
+    },
+    {
+     "id": "q13c",
+     "label": "13c",
+     "section": "Reasoning",
+     "stem": "For two numbers, LCM $=$ (first number $\\times$ second number) $\\div$ HCF. Does a similar rule work for three numbers? Test it with $4$, $6$ and $10$.",
+     "prompt": "Does the rule (product of the three numbers) $\\div$ HCF give the LCM of three numbers?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "q14a",
+     "label": "14a",
+     "section": "Enrichment",
+     "stem": "Find the LCM of each group of numbers.",
+     "prompt": "$1, 2, 3, 4, 5$",
+     "type": "numeric",
+     "answer": "60"
+    },
+    {
+     "id": "q14b",
+     "label": "14b",
+     "section": "Enrichment",
+     "stem": "Find the LCM of each group of numbers.",
+     "prompt": "$1, 2, 3, 4, 5, 6$",
+     "type": "numeric",
+     "answer": "60"
+    },
+    {
+     "id": "q14c",
+     "label": "14c",
+     "section": "Enrichment",
+     "stem": "Find the LCM of each group of numbers.",
+     "prompt": "The first $7$ whole numbers: $1, 2, 3, 4, 5, 6, 7$",
+     "type": "numeric",
+     "answer": "420"
+    }
+   ]
+  },
+  {
+   "id": "2c",
+   "chapter": "Chapter 2: Number properties and patterns",
+   "title": "2C Divisibility tests",
+   "description": "Using quick tests to check divisibility by 2, 3, 4, 5, 6, 8, 9 and 10.",
+   "questions": [
+    {
+     "id": "q1a",
+     "label": "1a",
+     "section": "Fluency",
+     "stem": "Use the divisibility test for $3$ to decide whether each number is divisible by $3$.",
+     "prompt": "$471$",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q1b",
+     "label": "1b",
+     "section": "Fluency",
+     "stem": "Use the divisibility test for $3$ to decide whether each number is divisible by $3$.",
+     "prompt": "$94$",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "q1c",
+     "label": "1c",
+     "section": "Fluency",
+     "stem": "Use the divisibility test for $3$ to decide whether each number is divisible by $3$.",
+     "prompt": "$5013$",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q1d",
+     "label": "1d",
+     "section": "Fluency",
+     "stem": "Use the divisibility test for $3$ to decide whether each number is divisible by $3$.",
+     "prompt": "$8204$",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "q2a",
+     "label": "2a",
+     "section": "Fluency",
+     "stem": "Use the divisibility tests for $2$ and $5$ to decide whether each division can be done without leaving a remainder.",
+     "prompt": "$5216 \\div 2$",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q2b",
+     "label": "2b",
+     "section": "Fluency",
+     "stem": "Use the divisibility tests for $2$ and $5$ to decide whether each division can be done without leaving a remainder.",
+     "prompt": "$743 \\div 5$",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "q2c",
+     "label": "2c",
+     "section": "Fluency",
+     "stem": "Use the divisibility tests for $2$ and $5$ to decide whether each division can be done without leaving a remainder.",
+     "prompt": "$6085 \\div 5$",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q2d",
+     "label": "2d",
+     "section": "Fluency",
+     "stem": "Use the divisibility tests for $2$ and $5$ to decide whether each division can be done without leaving a remainder.",
+     "prompt": "$919 \\div 2$",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "q3a",
+     "label": "3a",
+     "section": "Fluency",
+     "stem": "Use the divisibility test for $9$ to decide whether each division can be done without leaving a remainder.",
+     "prompt": "$468 \\div 9$",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q3b",
+     "label": "3b",
+     "section": "Fluency",
+     "stem": "Use the divisibility test for $9$ to decide whether each division can be done without leaving a remainder.",
+     "prompt": "$815 \\div 9$",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "q3c",
+     "label": "3c",
+     "section": "Fluency",
+     "stem": "Use the divisibility test for $9$ to decide whether each division can be done without leaving a remainder.",
+     "prompt": "$3204 \\div 9$",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q3d",
+     "label": "3d",
+     "section": "Fluency",
+     "stem": "Use the divisibility test for $9$ to decide whether each division can be done without leaving a remainder.",
+     "prompt": "$5122 \\div 9$",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "q4a",
+     "label": "4a",
+     "section": "Fluency",
+     "stem": "Use the divisibility test for $6$ to decide whether each number is divisible by $6$.",
+     "prompt": "$414$",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q4b",
+     "label": "4b",
+     "section": "Fluency",
+     "stem": "Use the divisibility test for $6$ to decide whether each number is divisible by $6$.",
+     "prompt": "$520$",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "q4c",
+     "label": "4c",
+     "section": "Fluency",
+     "stem": "Use the divisibility test for $6$ to decide whether each number is divisible by $6$.",
+     "prompt": "$846$",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q4d",
+     "label": "4d",
+     "section": "Fluency",
+     "stem": "Use the divisibility test for $6$ to decide whether each number is divisible by $6$.",
+     "prompt": "$975$",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "q5a",
+     "label": "5a",
+     "section": "Fluency",
+     "stem": "Use the divisibility tests for $4$ and $8$ to decide whether each division can be done without leaving a remainder.",
+     "prompt": "$736 \\div 4$",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q5b",
+     "label": "5b",
+     "section": "Fluency",
+     "stem": "Use the divisibility tests for $4$ and $8$ to decide whether each division can be done without leaving a remainder.",
+     "prompt": "$618 \\div 4$",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "q5c",
+     "label": "5c",
+     "section": "Fluency",
+     "stem": "Use the divisibility tests for $4$ and $8$ to decide whether each division can be done without leaving a remainder.",
+     "prompt": "$7400 \\div 8$",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q5d",
+     "label": "5d",
+     "section": "Fluency",
+     "stem": "Use the divisibility tests for $4$ and $8$ to decide whether each division can be done without leaving a remainder.",
+     "prompt": "$3300 \\div 8$",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "q6a",
+     "label": "6a",
+     "section": "Fluency",
+     "stem": "Decide whether each division can be done without leaving a remainder.",
+     "prompt": "$41\\,271 \\div 3$",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q6b",
+     "label": "6b",
+     "section": "Fluency",
+     "stem": "Decide whether each division can be done without leaving a remainder.",
+     "prompt": "$52\\,847\\,316 \\div 4$",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q6c",
+     "label": "6c",
+     "section": "Fluency",
+     "stem": "Decide whether each division can be done without leaving a remainder.",
+     "prompt": "$2\\,384\\,163 \\div 9$",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q6d",
+     "label": "6d",
+     "section": "Fluency",
+     "stem": "Decide whether each division can be done without leaving a remainder.",
+     "prompt": "$517\\,328 \\div 8$",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q6e",
+     "label": "6e",
+     "section": "Fluency",
+     "stem": "Decide whether each division can be done without leaving a remainder.",
+     "prompt": "$4\\,281\\,935 \\div 6$",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "q6f",
+     "label": "6f",
+     "section": "Fluency",
+     "stem": "Decide whether each division can be done without leaving a remainder.",
+     "prompt": "$3\\,000\\,470 \\div 10$",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q6g",
+     "label": "6g",
+     "section": "Fluency",
+     "stem": "Decide whether each division can be done without leaving a remainder.",
+     "prompt": "$62\\,718\\,493 \\div 5$",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "q6h",
+     "label": "6h",
+     "section": "Fluency",
+     "stem": "Decide whether each division can be done without leaving a remainder.",
+     "prompt": "$418\\,236 \\div 6$",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q6i",
+     "label": "6i",
+     "section": "Fluency",
+     "stem": "Decide whether each division can be done without leaving a remainder.",
+     "prompt": "$7614 \\div 6$",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q6j",
+     "label": "6j",
+     "section": "Fluency",
+     "stem": "Decide whether each division can be done without leaving a remainder.",
+     "prompt": "$38\\,913 \\div 2$",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "q6k",
+     "label": "6k",
+     "section": "Fluency",
+     "stem": "Decide whether each division can be done without leaving a remainder.",
+     "prompt": "$64\\,982 \\div 9$",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "q6l",
+     "label": "6l",
+     "section": "Fluency",
+     "stem": "Decide whether each division can be done without leaving a remainder.",
+     "prompt": "$218\\,347\\,625 \\div 5$",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q7a",
+     "label": "7a",
+     "section": "Fluency",
+     "stem": "Use divisibility tests to decide which of $2, 3, 4, 5, 6, 8, 9$ and $10$ each number is divisible by. Type all of them, separated by commas.",
+     "prompt": "$372\\,615$",
+     "type": "list",
+     "answer": [
+      "3",
+      "5"
+     ]
+    },
+    {
+     "id": "q7b",
+     "label": "7b",
+     "section": "Fluency",
+     "stem": "Use divisibility tests to decide which of $2, 3, 4, 5, 6, 8, 9$ and $10$ each number is divisible by. Type all of them, separated by commas.",
+     "prompt": "$46\\,320$",
+     "type": "list",
+     "answer": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8",
+      "10"
+     ]
+    },
+    {
+     "id": "q7c",
+     "label": "7c",
+     "section": "Fluency",
+     "stem": "Use divisibility tests to decide which of $2, 3, 4, 5, 6, 8, 9$ and $10$ each number is divisible by. Type all of them, separated by commas.",
+     "prompt": "$63\\,900$",
+     "type": "list",
+     "answer": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "9",
+      "10"
+     ]
+    },
+    {
+     "id": "q7d",
+     "label": "7d",
+     "section": "Fluency",
+     "stem": "Use divisibility tests to decide which of $2, 3, 4, 5, 6, 8, 9$ and $10$ each number is divisible by. Type all of them, separated by commas.",
+     "prompt": "$2\\,405\\,160$",
+     "type": "list",
+     "answer": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8",
+      "9",
+      "10"
+     ]
+    },
+    {
+     "id": "q7e",
+     "label": "7e",
+     "section": "Fluency",
+     "stem": "Use divisibility tests to decide which of $2, 3, 4, 5, 6, 8, 9$ and $10$ each number is divisible by. Type all of them, separated by commas.",
+     "prompt": "$1\\,730\\,485$",
+     "type": "list",
+     "answer": [
+      "5"
+     ]
+    },
+    {
+     "id": "q8a",
+     "label": "8a",
+     "section": "Problem-solving",
+     "stem": "Omar has \\$127 to share equally among his 3 grandchildren, in whole dollars.",
+     "prompt": "Can Omar share the \\$127 equally among the 3 grandchildren?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "q8b",
+     "label": "8b",
+     "section": "Problem-solving",
+     "stem": "Omar has \\$127 to share equally among his 3 grandchildren, in whole dollars.",
+     "prompt": "Omar finds another \\$2 in his wallet, and now he can share the money equally. How much does each grandchild get?",
+     "type": "numeric",
+     "answer": "43",
+     "units": "$"
+    },
+    {
+     "id": "q9a",
+     "label": "9a",
+     "section": "Problem-solving",
+     "stem": "Write down all the numbers in each list that are divisible by the number given. Separate them with commas.",
+     "prompt": "Divisible by $5$: $\\;35, 52, 60, 75, 81, 95$",
+     "type": "list",
+     "answer": [
+      "35",
+      "60",
+      "75",
+      "95"
+     ]
+    },
+    {
+     "id": "q9b",
+     "label": "9b",
+     "section": "Problem-solving",
+     "stem": "Write down all the numbers in each list that are divisible by the number given. Separate them with commas.",
+     "prompt": "Divisible by $3$: $\\;27, 41, 54, 62, 78, 93$",
+     "type": "list",
+     "answer": [
+      "27",
+      "54",
+      "78",
+      "93"
+     ]
+    },
+    {
+     "id": "q9c",
+     "label": "9c",
+     "section": "Problem-solving",
+     "stem": "Write down all the numbers in each list that are divisible by the number given. Separate them with commas.",
+     "prompt": "Divisible by $2$: $\\;16, 37, 48, 59, 70, 83$",
+     "type": "list",
+     "answer": [
+      "16",
+      "48",
+      "70"
+     ]
+    },
+    {
+     "id": "q9d",
+     "label": "9d",
+     "section": "Problem-solving",
+     "stem": "Write down all the numbers in each list that are divisible by the number given. Separate them with commas.",
+     "prompt": "Divisible by $6$: $\\;24, 34, 42, 58, 66, 90$",
+     "type": "list",
+     "answer": [
+      "24",
+      "42",
+      "66",
+      "90"
+     ]
+    },
+    {
+     "id": "q9e",
+     "label": "9e",
+     "section": "Problem-solving",
+     "stem": "Write down all the numbers in each list that are divisible by the number given. Separate them with commas.",
+     "prompt": "Divisible by $8$: $\\;32, 44, 56, 68, 72, 84$",
+     "type": "list",
+     "answer": [
+      "32",
+      "56",
+      "72"
+     ]
+    },
+    {
+     "id": "q9f",
+     "label": "9f",
+     "section": "Problem-solving",
+     "stem": "Write down all the numbers in each list that are divisible by the number given. Separate them with commas.",
+     "prompt": "Divisible by $9$: $\\;18, 39, 45, 57, 72, 99$",
+     "type": "list",
+     "answer": [
+      "18",
+      "45",
+      "72",
+      "99"
+     ]
+    },
+    {
+     "id": "q9g",
+     "label": "9g",
+     "section": "Problem-solving",
+     "stem": "Write down all the numbers in each list that are divisible by the number given. Separate them with commas.",
+     "prompt": "Divisible by $10$: $\\;20, 45, 50, 65, 80, 91$",
+     "type": "list",
+     "answer": [
+      "20",
+      "50",
+      "80"
+     ]
+    },
+    {
+     "id": "q9h",
+     "label": "9h",
+     "section": "Problem-solving",
+     "stem": "Write down all the numbers in each list that are divisible by the number given. Separate them with commas.",
+     "prompt": "Divisible by $4$: $\\;28, 38, 52, 66, 76, 94$",
+     "type": "list",
+     "answer": [
+      "28",
+      "52",
+      "76"
+     ]
+    },
+    {
+     "id": "q10",
+     "label": "10",
+     "section": "Problem-solving",
+     "stem": null,
+     "prompt": "In the game of 'clusters', a year level splits into equal-sized groups as fast as possible after a group size is called out. A year level has $84$ students. Which group sizes (bigger than $1$ but smaller than $84$) make sure nobody is left out of a group? Separate them with commas.",
+     "type": "list",
+     "answer": [
+      "2",
+      "3",
+      "4",
+      "6",
+      "7",
+      "12",
+      "14",
+      "21",
+      "28",
+      "42"
+     ]
+    },
+    {
+     "id": "q11",
+     "label": "11",
+     "section": "Problem-solving",
+     "stem": null,
+     "prompt": "How many of the whole numbers from $1$ to $240$ inclusive are not divisible by $3$?",
+     "type": "numeric",
+     "answer": "160"
+    },
+    {
+     "id": "q12",
+     "label": "12",
+     "section": "Problem-solving",
+     "stem": null,
+     "prompt": "How many two-digit numbers are divisible by both $3$ and $4$?",
+     "type": "numeric",
+     "answer": "8"
+    },
+    {
+     "id": "q13",
+     "label": "13",
+     "section": "Problem-solving",
+     "stem": null,
+     "prompt": "Keira is older than $40$ but younger than $70$. Her age is divisible by $2, 3, 5$ and $6$. How old is she?",
+     "type": "numeric",
+     "answer": "60",
+     "units": "years"
+    },
+    {
+     "id": "q14",
+     "label": "14",
+     "section": "Problem-solving",
+     "stem": null,
+     "prompt": "Find the largest three-digit number that is divisible by both $4$ and $9$.",
+     "type": "numeric",
+     "answer": "972"
+    },
+    {
+     "id": "q15a",
+     "label": "15a",
+     "section": "Reasoning",
+     "stem": "A number is divisible by $15$ if it is divisible by both $3$ and $5$.",
+     "prompt": "Is $4815$ divisible by $15$?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q15b",
+     "label": "15b",
+     "section": "Reasoning",
+     "stem": "A number is divisible by $15$ if it is divisible by both $3$ and $5$.",
+     "prompt": "Is $52\\,370$ divisible by $15$?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "q15c",
+     "label": "15c",
+     "section": "Reasoning",
+     "stem": "A number is divisible by $15$ if it is divisible by both $3$ and $5$.",
+     "prompt": "The number $3\\square52\\square$ is divisible by $15$. Each box stands for one missing digit, and the two digits could be the same or different. List every number it could be, separated by commas.",
+     "type": "list",
+     "answer": [
+      "30525",
+      "32520",
+      "33525",
+      "35520",
+      "36525",
+      "38520",
+      "39525"
+     ]
+    },
+    {
+     "id": "q16a",
+     "label": "16a",
+     "section": "Reasoning",
+     "stem": "Look at this $21$-digit number: $639\\,963\\,336\\,217\\,693\\,369\\,947$",
+     "prompt": "Is the number divisible by $3$?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q16b",
+     "label": "16b",
+     "section": "Reasoning",
+     "stem": "Look at this $21$-digit number: $639\\,963\\,336\\,217\\,693\\,369\\,947$",
+     "prompt": "When finding the digit sum to test for divisibility by $3$, some of the digits in this number can be ignored. Which digits are they? Separate them with commas.",
+     "type": "list",
+     "answer": [
+      "3",
+      "6",
+      "9"
+     ]
+    },
+    {
+     "id": "q16c",
+     "label": "16c",
+     "section": "Reasoning",
+     "stem": "Look at this $21$-digit number: $639\\,963\\,336\\,217\\,693\\,369\\,947$",
+     "prompt": "Only 5 of the $21$ digits really need to be added. What is this reduced digit sum?",
+     "type": "numeric",
+     "answer": "21"
+    },
+    {
+     "id": "q17a",
+     "label": "17a",
+     "section": "Reasoning",
+     "stem": "A number is divisible by $4$ if the number made by its last two digits is a multiple of $4$. Finish these more detailed rules. Separate the digits with commas.",
+     "prompt": "If the second-last digit is even, the last digit must be one of these three digits:",
+     "type": "list",
+     "answer": [
+      "0",
+      "4",
+      "8"
+     ]
+    },
+    {
+     "id": "q17b",
+     "label": "17b",
+     "section": "Reasoning",
+     "stem": "A number is divisible by $4$ if the number made by its last two digits is a multiple of $4$. Finish these more detailed rules. Separate the digits with commas.",
+     "prompt": "If the second-last digit is odd, the last digit must be one of these two digits:",
+     "type": "list",
+     "answer": [
+      "2",
+      "6"
+     ]
+    },
+    {
+     "id": "q18a",
+     "label": "18a",
+     "section": "Enrichment",
+     "stem": "These questions explore a quick test for divisibility by $11$.",
+     "prompt": "Write down all the multiples of $11$ between $100$ and $200$, in order, separated by commas.",
+     "type": "ordered",
+     "answer": [
+      "110",
+      "121",
+      "132",
+      "143",
+      "154",
+      "165",
+      "176",
+      "187",
+      "198"
+     ]
+    },
+    {
+     "id": "q18b",
+     "label": "18b",
+     "section": "Enrichment",
+     "stem": "These questions explore a quick test for divisibility by $11$.",
+     "prompt": "The number $5918$ is divisible by $11$. Add its 1st and 3rd digits, then add its 2nd and 4th digits. Subtract the smaller sum from the larger. What do you get?",
+     "type": "numeric",
+     "answer": "11"
+    },
+    {
+     "id": "q18c",
+     "label": "18c",
+     "section": "Enrichment",
+     "stem": "These questions explore a quick test for divisibility by $11$.",
+     "prompt": "A number is divisible by $11$ when that difference is $0$ or a multiple of $11$. Which of these numbers are divisible by $11$? $3762, \\;52\\,481, \\;708\\,191, \\;13\\,057, \\;9\\,284\\,637, \\;4310$. Separate them with commas.",
+     "type": "list",
+     "answer": [
+      "3762",
+      "52481",
+      "708191",
+      "13057"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2d",
+   "chapter": "Chapter 2: Number properties and patterns",
+   "title": "2D Prime numbers",
+   "description": "Spotting primes and composites, finding prime factors and exploring prime puzzles.",
+   "questions": [
+    {
+     "id": "q1a",
+     "label": "1a",
+     "section": "Fluency",
+     "stem": "Decide whether each number is prime or composite.",
+     "prompt": "$11$",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "Prime",
+      "Composite"
+     ]
+    },
+    {
+     "id": "q1b",
+     "label": "1b",
+     "section": "Fluency",
+     "stem": "Decide whether each number is prime or composite.",
+     "prompt": "$26$",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "Prime",
+      "Composite"
+     ]
+    },
+    {
+     "id": "q1c",
+     "label": "1c",
+     "section": "Fluency",
+     "stem": "Decide whether each number is prime or composite.",
+     "prompt": "$41$",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "Prime",
+      "Composite"
+     ]
+    },
+    {
+     "id": "q2a",
+     "label": "2a",
+     "section": "Fluency",
+     "stem": "Decide whether each number is prime or composite.",
+     "prompt": "$17$",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "Prime",
+      "Composite"
+     ]
+    },
+    {
+     "id": "q2b",
+     "label": "2b",
+     "section": "Fluency",
+     "stem": "Decide whether each number is prime or composite.",
+     "prompt": "$22$",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "Prime",
+      "Composite"
+     ]
+    },
+    {
+     "id": "q2c",
+     "label": "2c",
+     "section": "Fluency",
+     "stem": "Decide whether each number is prime or composite.",
+     "prompt": "$43$",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "Prime",
+      "Composite"
+     ]
+    },
+    {
+     "id": "q2d",
+     "label": "2d",
+     "section": "Fluency",
+     "stem": "Decide whether each number is prime or composite.",
+     "prompt": "$57$",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "Prime",
+      "Composite"
+     ]
+    },
+    {
+     "id": "q2e",
+     "label": "2e",
+     "section": "Fluency",
+     "stem": "Decide whether each number is prime or composite.",
+     "prompt": "$33$",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "Prime",
+      "Composite"
+     ]
+    },
+    {
+     "id": "q2f",
+     "label": "2f",
+     "section": "Fluency",
+     "stem": "Decide whether each number is prime or composite.",
+     "prompt": "$47$",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "Prime",
+      "Composite"
+     ]
+    },
+    {
+     "id": "q2g",
+     "label": "2g",
+     "section": "Fluency",
+     "stem": "Decide whether each number is prime or composite.",
+     "prompt": "$13$",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "Prime",
+      "Composite"
+     ]
+    },
+    {
+     "id": "q2h",
+     "label": "2h",
+     "section": "Fluency",
+     "stem": "Decide whether each number is prime or composite.",
+     "prompt": "$5$",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "Prime",
+      "Composite"
+     ]
+    },
+    {
+     "id": "q2i",
+     "label": "2i",
+     "section": "Fluency",
+     "stem": "Decide whether each number is prime or composite.",
+     "prompt": "$10$",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "Prime",
+      "Composite"
+     ]
+    },
+    {
+     "id": "q2j",
+     "label": "2j",
+     "section": "Fluency",
+     "stem": "Decide whether each number is prime or composite.",
+     "prompt": "$63$",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "Prime",
+      "Composite"
+     ]
+    },
+    {
+     "id": "q2k",
+     "label": "2k",
+     "section": "Fluency",
+     "stem": "Decide whether each number is prime or composite.",
+     "prompt": "$91$",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "Prime",
+      "Composite"
+     ]
+    },
+    {
+     "id": "q2l",
+     "label": "2l",
+     "section": "Fluency",
+     "stem": "Decide whether each number is prime or composite.",
+     "prompt": "$61$",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "Prime",
+      "Composite"
+     ]
+    },
+    {
+     "id": "q2m",
+     "label": "2m",
+     "section": "Fluency",
+     "stem": "Decide whether each number is prime or composite.",
+     "prompt": "$29$",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "Prime",
+      "Composite"
+     ]
+    },
+    {
+     "id": "q2n",
+     "label": "2n",
+     "section": "Fluency",
+     "stem": "Decide whether each number is prime or composite.",
+     "prompt": "$77$",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "Prime",
+      "Composite"
+     ]
+    },
+    {
+     "id": "q2o",
+     "label": "2o",
+     "section": "Fluency",
+     "stem": "Decide whether each number is prime or composite.",
+     "prompt": "$79$",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "Prime",
+      "Composite"
+     ]
+    },
+    {
+     "id": "q2p",
+     "label": "2p",
+     "section": "Fluency",
+     "stem": "Decide whether each number is prime or composite.",
+     "prompt": "$87$",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "Prime",
+      "Composite"
+     ]
+    },
+    {
+     "id": "q2q",
+     "label": "2q",
+     "section": "Fluency",
+     "stem": "Decide whether each number is prime or composite.",
+     "prompt": "$97$",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "Prime",
+      "Composite"
+     ]
+    },
+    {
+     "id": "q2r",
+     "label": "2r",
+     "section": "Fluency",
+     "stem": "Decide whether each number is prime or composite.",
+     "prompt": "$101$",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "Prime",
+      "Composite"
+     ]
+    },
+    {
+     "id": "q3a",
+     "label": "3a",
+     "section": "Fluency",
+     "stem": "List the different prime factors of each number.",
+     "prompt": "$66$",
+     "type": "list",
+     "answer": [
+      "2",
+      "3",
+      "11"
+     ]
+    },
+    {
+     "id": "q3b",
+     "label": "3b",
+     "section": "Fluency",
+     "stem": "List the different prime factors of each number.",
+     "prompt": "$51$",
+     "type": "list",
+     "answer": [
+      "3",
+      "17"
+     ]
+    },
+    {
+     "id": "q3c",
+     "label": "3c",
+     "section": "Fluency",
+     "stem": "List the different prime factors of each number.",
+     "prompt": "$90$",
+     "type": "list",
+     "answer": [
+      "2",
+      "3",
+      "5"
+     ]
+    },
+    {
+     "id": "q3d",
+     "label": "3d",
+     "section": "Fluency",
+     "stem": "List the different prime factors of each number.",
+     "prompt": "$49$",
+     "type": "list",
+     "answer": [
+      "7"
+     ]
+    },
+    {
+     "id": "q3e",
+     "label": "3e",
+     "section": "Fluency",
+     "stem": "List the different prime factors of each number.",
+     "prompt": "$52$",
+     "type": "list",
+     "answer": [
+      "2",
+      "13"
+     ]
+    },
+    {
+     "id": "q3f",
+     "label": "3f",
+     "section": "Fluency",
+     "stem": "List the different prime factors of each number.",
+     "prompt": "$54$",
+     "type": "list",
+     "answer": [
+      "2",
+      "3"
+     ]
+    },
+    {
+     "id": "q4a",
+     "label": "4a",
+     "section": "Fluency",
+     "stem": "List all the composite numbers between these two numbers (do not include the two numbers themselves).",
+     "prompt": "$20$ and $35$",
+     "type": "list",
+     "answer": [
+      "21",
+      "22",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "30",
+      "32",
+      "33",
+      "34"
+     ]
+    },
+    {
+     "id": "q4b",
+     "label": "4b",
+     "section": "Fluency",
+     "stem": "List all the composite numbers between these two numbers (do not include the two numbers themselves).",
+     "prompt": "$60$ and $75$",
+     "type": "list",
+     "answer": [
+      "62",
+      "63",
+      "64",
+      "65",
+      "66",
+      "68",
+      "69",
+      "70",
+      "72",
+      "74"
+     ]
+    },
+    {
+     "id": "q4c",
+     "label": "4c",
+     "section": "Fluency",
+     "stem": "List all the composite numbers between these two numbers (do not include the two numbers themselves).",
+     "prompt": "$110$ and $125$",
+     "type": "list",
+     "answer": [
+      "111",
+      "112",
+      "114",
+      "115",
+      "116",
+      "117",
+      "118",
+      "119",
+      "120",
+      "121",
+      "122",
+      "123",
+      "124"
+     ]
+    },
+    {
+     "id": "q5a",
+     "label": "5a",
+     "section": "Problem-solving",
+     "stem": "Each of these numbers is not prime, but it is the product of two prime numbers. Find the two primes.",
+     "prompt": "$77$",
+     "type": "list",
+     "answer": [
+      "7",
+      "11"
+     ]
+    },
+    {
+     "id": "q5b",
+     "label": "5b",
+     "section": "Problem-solving",
+     "stem": "Each of these numbers is not prime, but it is the product of two prime numbers. Find the two primes.",
+     "prompt": "$119$",
+     "type": "list",
+     "answer": [
+      "7",
+      "17"
+     ]
+    },
+    {
+     "id": "q5c",
+     "label": "5c",
+     "section": "Problem-solving",
+     "stem": "Each of these numbers is not prime, but it is the product of two prime numbers. Find the two primes.",
+     "prompt": "$221$",
+     "type": "list",
+     "answer": [
+      "13",
+      "17"
+     ]
+    },
+    {
+     "id": "q5d",
+     "label": "5d",
+     "section": "Problem-solving",
+     "stem": "Each of these numbers is not prime, but it is the product of two prime numbers. Find the two primes.",
+     "prompt": "$209$",
+     "type": "list",
+     "answer": [
+      "11",
+      "19"
+     ]
+    },
+    {
+     "id": "q5e",
+     "label": "5e",
+     "section": "Problem-solving",
+     "stem": "Each of these numbers is not prime, but it is the product of two prime numbers. Find the two primes.",
+     "prompt": "$185$",
+     "type": "list",
+     "answer": [
+      "5",
+      "37"
+     ]
+    },
+    {
+     "id": "q5f",
+     "label": "5f",
+     "section": "Problem-solving",
+     "stem": "Each of these numbers is not prime, but it is the product of two prime numbers. Find the two primes.",
+     "prompt": "$161$",
+     "type": "list",
+     "answer": [
+      "7",
+      "23"
+     ]
+    },
+    {
+     "id": "q6",
+     "label": "6",
+     "section": "Problem-solving",
+     "prompt": "Which one of these composite numbers has the fewest different prime factors?",
+     "type": "choice",
+     "answer": 2,
+     "options": [
+      "18",
+      "22",
+      "27",
+      "30",
+      "42"
+     ]
+    },
+    {
+     "id": "q7a",
+     "label": "7a",
+     "section": "Problem-solving",
+     "stem": "Twin primes are two primes with just one even number between them, for example $5$ and $7$. Find the pair of twin primes between each pair of numbers.",
+     "prompt": "$55$ and $65$",
+     "type": "list",
+     "answer": [
+      "59",
+      "61"
+     ]
+    },
+    {
+     "id": "q7b",
+     "label": "7b",
+     "section": "Problem-solving",
+     "stem": "Twin primes are two primes with just one even number between them, for example $5$ and $7$. Find the pair of twin primes between each pair of numbers.",
+     "prompt": "$68$ and $75$",
+     "type": "list",
+     "answer": [
+      "71",
+      "73"
+     ]
+    },
+    {
+     "id": "q7c",
+     "label": "7c",
+     "section": "Problem-solving",
+     "stem": "Twin primes are two primes with just one even number between them, for example $5$ and $7$. Find the pair of twin primes between each pair of numbers.",
+     "prompt": "$135$ and $145$",
+     "type": "list",
+     "answer": [
+      "137",
+      "139"
+     ]
+    },
+    {
+     "id": "q8",
+     "label": "8",
+     "section": "Problem-solving",
+     "prompt": "$17$ and $71$ are a pair of 'reverse numbers' that are both prime. Apart from $17$ and $71$, list every other two-digit prime whose reverse is a different prime.",
+     "type": "list",
+     "answer": [
+      "13",
+      "31",
+      "37",
+      "73",
+      "79",
+      "97"
+     ]
+    },
+    {
+     "id": "q9a",
+     "label": "9a",
+     "section": "Reasoning",
+     "stem": "Every even number greater than $2$ seems to be the sum of two primes. For example, $40 = 17 + 23$. Write each number as the sum of two primes. Type the two primes separated by a comma.",
+     "prompt": "$52$",
+     "type": "list",
+     "answer": [
+      "5",
+      "47"
+     ],
+     "accept": [
+      "11, 41",
+      "23, 29"
+     ]
+    },
+    {
+     "id": "q9b",
+     "label": "9b",
+     "section": "Reasoning",
+     "stem": "Every even number greater than $2$ seems to be the sum of two primes. For example, $40 = 17 + 23$. Write each number as the sum of two primes. Type the two primes separated by a comma.",
+     "prompt": "$54$",
+     "type": "list",
+     "answer": [
+      "7",
+      "47"
+     ],
+     "accept": [
+      "11, 43",
+      "13, 41",
+      "17, 37",
+      "23, 31"
+     ]
+    },
+    {
+     "id": "q9c",
+     "label": "9c",
+     "section": "Reasoning",
+     "stem": "Every even number greater than $2$ seems to be the sum of two primes. For example, $40 = 17 + 23$. Write each number as the sum of two primes. Type the two primes separated by a comma.",
+     "prompt": "$56$",
+     "type": "list",
+     "answer": [
+      "3",
+      "53"
+     ],
+     "accept": [
+      "13, 43",
+      "19, 37"
+     ]
+    },
+    {
+     "id": "q9d",
+     "label": "9d",
+     "section": "Reasoning",
+     "stem": "Every even number greater than $2$ seems to be the sum of two primes. For example, $40 = 17 + 23$. Write each number as the sum of two primes. Type the two primes separated by a comma.",
+     "prompt": "$58$",
+     "type": "list",
+     "answer": [
+      "5",
+      "53"
+     ],
+     "accept": [
+      "11, 47",
+      "17, 41",
+      "29, 29"
+     ]
+    },
+    {
+     "id": "q10a",
+     "label": "10a",
+     "section": "Reasoning",
+     "prompt": "Which pair of primes adds up to another prime number?",
+     "type": "choice",
+     "answer": 2,
+     "options": [
+      "3 + 7",
+      "5 + 11",
+      "2 + 11",
+      "7 + 13"
+     ]
+    },
+    {
+     "id": "q10b",
+     "label": "10b",
+     "section": "Reasoning",
+     "prompt": "Any pair of primes that adds up to a prime must include one particular prime. Which prime is it?",
+     "type": "numeric",
+     "answer": "2"
+    },
+    {
+     "id": "q11",
+     "label": "11",
+     "section": "Reasoning",
+     "prompt": "Find three different prime numbers that add up to $41$, which is also prime. Type the three primes separated by commas.",
+     "type": "list",
+     "answer": [
+      "3",
+      "7",
+      "31"
+     ],
+     "accept": [
+      "5, 7, 29",
+      "5, 13, 23",
+      "5, 17, 19",
+      "7, 11, 23",
+      "11, 13, 17"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2e",
+   "chapter": "Chapter 2: Number properties and patterns",
+   "title": "2E Using indices",
+   "description": "Writing products in index form, expanding and evaluating powers, and solving problems with powers.",
+   "questions": [
+    {
+     "id": "q1a",
+     "label": "1a",
+     "section": "Fluency",
+     "stem": "Simplify by writing each product in index form.",
+     "prompt": "$7 \\times 7 \\times 7$",
+     "type": "powers",
+     "answer": "7^3",
+     "index": true,
+     "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5"
+    },
+    {
+     "id": "q1b",
+     "label": "1b",
+     "section": "Fluency",
+     "stem": "Simplify by writing each product in index form.",
+     "prompt": "$3 \\times 3 \\times 3 \\times 3 \\times 3 \\times 3$",
+     "type": "powers",
+     "answer": "3^6",
+     "index": true,
+     "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5"
+    },
+    {
+     "id": "q1c",
+     "label": "1c",
+     "section": "Fluency",
+     "stem": "Simplify by writing each product in index form.",
+     "prompt": "$12 \\times 12 \\times 12 \\times 12$",
+     "type": "powers",
+     "answer": "12^4",
+     "index": true,
+     "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5"
+    },
+    {
+     "id": "q1d",
+     "label": "1d",
+     "section": "Fluency",
+     "stem": "Simplify by writing each product in index form.",
+     "prompt": "$20 \\times 20 \\times 20$",
+     "type": "powers",
+     "answer": "20^3",
+     "index": true,
+     "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5"
+    },
+    {
+     "id": "q1e",
+     "label": "1e",
+     "section": "Fluency",
+     "stem": "Simplify by writing each product in index form.",
+     "prompt": "$9 \\times 9$",
+     "type": "powers",
+     "answer": "9^2",
+     "index": true,
+     "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5"
+    },
+    {
+     "id": "q1f",
+     "label": "1f",
+     "section": "Fluency",
+     "stem": "Simplify by writing each product in index form.",
+     "prompt": "$4 \\times 4 \\times 4 \\times 4 \\times 4$",
+     "type": "powers",
+     "answer": "4^5",
+     "index": true,
+     "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5"
+    },
+    {
+     "id": "q2a",
+     "label": "2a",
+     "section": "Fluency",
+     "stem": "Simplify by writing each product in index form.",
+     "prompt": "$6 \\times 6 \\times 7 \\times 7 \\times 7$",
+     "type": "powers",
+     "answer": "6^2×7^3",
+     "index": true,
+     "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5"
+    },
+    {
+     "id": "q2b",
+     "label": "2b",
+     "section": "Fluency",
+     "stem": "Simplify by writing each product in index form.",
+     "prompt": "$2 \\times 2 \\times 2 \\times 2 \\times 5 \\times 5$",
+     "type": "powers",
+     "answer": "2^4×5^2",
+     "index": true,
+     "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5"
+    },
+    {
+     "id": "q2c",
+     "label": "2c",
+     "section": "Fluency",
+     "stem": "Simplify by writing each product in index form.",
+     "prompt": "$3 \\times 3 \\times 3 \\times 11 \\times 11$",
+     "type": "powers",
+     "answer": "3^3×11^2",
+     "index": true,
+     "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5"
+    },
+    {
+     "id": "q3a",
+     "label": "3a",
+     "section": "Fluency",
+     "stem": "Simplify by writing each product using powers.",
+     "prompt": "$2 \\times 2 \\times 7 \\times 7$",
+     "type": "powers",
+     "answer": "2^2×7^2",
+     "index": true,
+     "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5"
+    },
+    {
+     "id": "q3b",
+     "label": "3b",
+     "section": "Fluency",
+     "stem": "Simplify by writing each product using powers.",
+     "prompt": "$5 \\times 5 \\times 3 \\times 3 \\times 5$",
+     "type": "powers",
+     "answer": "5^3×3^2",
+     "index": true,
+     "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5"
+    },
+    {
+     "id": "q3c",
+     "label": "3c",
+     "section": "Fluency",
+     "stem": "Simplify by writing each product using powers.",
+     "prompt": "$11 \\times 8 \\times 8 \\times 11$",
+     "type": "powers",
+     "answer": "11^2×8^2",
+     "index": true,
+     "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5"
+    },
+    {
+     "id": "q3d",
+     "label": "3d",
+     "section": "Fluency",
+     "stem": "Simplify by writing each product using powers.",
+     "prompt": "$6 \\times 6 \\times 9 \\times 9 \\times 9$",
+     "type": "powers",
+     "answer": "6^2×9^3",
+     "index": true,
+     "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5"
+    },
+    {
+     "id": "q3e",
+     "label": "3e",
+     "section": "Fluency",
+     "stem": "Simplify by writing each product using powers.",
+     "prompt": "$4 \\times 5 \\times 4 \\times 5 \\times 4 \\times 5$",
+     "type": "powers",
+     "answer": "4^3×5^3",
+     "index": true,
+     "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5"
+    },
+    {
+     "id": "q3f",
+     "label": "3f",
+     "section": "Fluency",
+     "stem": "Simplify by writing each product using powers.",
+     "prompt": "$17 \\times 3 \\times 17 \\times 3 \\times 3 \\times 3$",
+     "type": "powers",
+     "answer": "17^2×3^4",
+     "index": true,
+     "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5"
+    },
+    {
+     "id": "q3g",
+     "label": "3g",
+     "section": "Fluency",
+     "stem": "Simplify by writing each product using powers.",
+     "prompt": "$8 \\times 11 \\times 8 \\times 8 \\times 5$",
+     "type": "powers",
+     "answer": "8^3×11×5",
+     "index": true,
+     "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5"
+    },
+    {
+     "id": "q3h",
+     "label": "3h",
+     "section": "Fluency",
+     "stem": "Simplify by writing each product using powers.",
+     "prompt": "$12 \\times 7 \\times 12 \\times 7 \\times 7$",
+     "type": "powers",
+     "answer": "12^2×7^3",
+     "index": true,
+     "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5"
+    },
+    {
+     "id": "q3i",
+     "label": "3i",
+     "section": "Fluency",
+     "stem": "Simplify by writing each product using powers.",
+     "prompt": "$3 \\times 5 \\times 7 \\times 7 \\times 5 \\times 3 \\times 3$",
+     "type": "powers",
+     "answer": "3^3×5^2×7^2",
+     "index": true,
+     "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5"
+    },
+    {
+     "id": "q4",
+     "label": "4",
+     "section": "Fluency",
+     "prompt": "Simplify by writing using powers: $3 \\times 2 \\times 7 \\times 7 \\times 2 \\times 2 \\times 3 \\times 5 \\times 7 \\times 2 \\times 3 \\times 3 \\times 7 \\times 2 \\times 5 \\times 3$",
+     "type": "powers",
+     "answer": "2^5×3^5×5^2×7^4",
+     "index": true,
+     "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5"
+    },
+    {
+     "id": "q5a",
+     "label": "5a",
+     "section": "Fluency",
+     "stem": "Write each power as a multiplication. (Do not work out the value.)",
+     "prompt": "$3^{4}$",
+     "type": "product",
+     "answer": "3×3×3×3",
+     "hint": "Write it as a multiplication, for example 4 x 4 x 4"
+    },
+    {
+     "id": "q5b",
+     "label": "5b",
+     "section": "Fluency",
+     "stem": "Write each power as a multiplication. (Do not work out the value.)",
+     "prompt": "$19^{2}$",
+     "type": "product",
+     "answer": "19×19",
+     "hint": "Write it as a multiplication, for example 4 x 4 x 4"
+    },
+    {
+     "id": "q5c",
+     "label": "5c",
+     "section": "Fluency",
+     "stem": "Write each power as a multiplication. (Do not work out the value.)",
+     "prompt": "$8^{3}$",
+     "type": "product",
+     "answer": "8×8×8",
+     "hint": "Write it as a multiplication, for example 4 x 4 x 4"
+    },
+    {
+     "id": "q5d",
+     "label": "5d",
+     "section": "Fluency",
+     "stem": "Write each power as a multiplication. (Do not work out the value.)",
+     "prompt": "$2^{6}$",
+     "type": "product",
+     "answer": "2×2×2×2×2×2",
+     "hint": "Write it as a multiplication, for example 4 x 4 x 4"
+    },
+    {
+     "id": "q5e",
+     "label": "5e",
+     "section": "Fluency",
+     "stem": "Write each power as a multiplication. (Do not work out the value.)",
+     "prompt": "$13^{4}$",
+     "type": "product",
+     "answer": "13×13×13×13",
+     "hint": "Write it as a multiplication, for example 4 x 4 x 4"
+    },
+    {
+     "id": "q5f",
+     "label": "5f",
+     "section": "Fluency",
+     "stem": "Write each power as a multiplication. (Do not work out the value.)",
+     "prompt": "$7^{5}$",
+     "type": "product",
+     "answer": "7×7×7×7×7",
+     "hint": "Write it as a multiplication, for example 4 x 4 x 4"
+    },
+    {
+     "id": "q5g",
+     "label": "5g",
+     "section": "Fluency",
+     "stem": "Write each power as a multiplication. (Do not work out the value.)",
+     "prompt": "$10^{6}$",
+     "type": "product",
+     "answer": "10×10×10×10×10×10",
+     "hint": "Write it as a multiplication, for example 4 x 4 x 4"
+    },
+    {
+     "id": "q5h",
+     "label": "5h",
+     "section": "Fluency",
+     "stem": "Write each power as a multiplication. (Do not work out the value.)",
+     "prompt": "$45^{3}$",
+     "type": "product",
+     "answer": "45×45×45",
+     "hint": "Write it as a multiplication, for example 4 x 4 x 4"
+    },
+    {
+     "id": "q6a",
+     "label": "6a",
+     "section": "Fluency",
+     "stem": "Write each power as a multiplication. (Do not work out the value.)",
+     "prompt": "$2^{5} \\times 3^{3}$",
+     "type": "product",
+     "answer": "2×2×2×2×2×3×3×3",
+     "hint": "Write it as a multiplication, for example 4 x 4 x 4"
+    },
+    {
+     "id": "q6b",
+     "label": "6b",
+     "section": "Fluency",
+     "stem": "Write each power as a multiplication. (Do not work out the value.)",
+     "prompt": "$5^{3} \\times 4^{4}$",
+     "type": "product",
+     "answer": "5×5×5×4×4×4×4",
+     "hint": "Write it as a multiplication, for example 4 x 4 x 4"
+    },
+    {
+     "id": "q6c",
+     "label": "6c",
+     "section": "Fluency",
+     "stem": "Write each power as a multiplication. (Do not work out the value.)",
+     "prompt": "$6^{2} \\times 7^{3}$",
+     "type": "product",
+     "answer": "6×6×7×7×7",
+     "hint": "Write it as a multiplication, for example 4 x 4 x 4"
+    },
+    {
+     "id": "q6d",
+     "label": "6d",
+     "section": "Fluency",
+     "stem": "Write each power as a multiplication. (Do not work out the value.)",
+     "prompt": "$3^{6} \\times 8^{2}$",
+     "type": "product",
+     "answer": "3×3×3×3×3×3×8×8",
+     "hint": "Write it as a multiplication, for example 4 x 4 x 4"
+    },
+    {
+     "id": "q6e",
+     "label": "6e",
+     "section": "Fluency",
+     "stem": "Write each power as a multiplication. (Do not work out the value.)",
+     "prompt": "$9 \\times 2^{4}$",
+     "type": "product",
+     "answer": "9×2×2×2×2",
+     "hint": "Write it as a multiplication, for example 4 x 4 x 4"
+    },
+    {
+     "id": "q6f",
+     "label": "6f",
+     "section": "Fluency",
+     "stem": "Write each power as a multiplication. (Do not work out the value.)",
+     "prompt": "$3^{2} \\times 2^{3} \\times 5^{1}$",
+     "type": "product",
+     "answer": "3×3×2×2×2×5",
+     "hint": "Write it as a multiplication, for example 4 x 4 x 4"
+    },
+    {
+     "id": "q6g",
+     "label": "6g",
+     "section": "Fluency",
+     "stem": "Write each power as a multiplication. (Do not work out the value.)",
+     "prompt": "$12^{4} \\times 7^{2}$",
+     "type": "product",
+     "answer": "12×12×12×12×7×7",
+     "hint": "Write it as a multiplication, for example 4 x 4 x 4"
+    },
+    {
+     "id": "q6h",
+     "label": "6h",
+     "section": "Fluency",
+     "stem": "Write each power as a multiplication. (Do not work out the value.)",
+     "prompt": "$30^{3} \\times 40^{2}$",
+     "type": "product",
+     "answer": "30×30×30×40×40",
+     "hint": "Write it as a multiplication, for example 4 x 4 x 4"
+    },
+    {
+     "id": "q7a",
+     "label": "7a",
+     "section": "Fluency",
+     "stem": "Evaluate (work out the value).",
+     "prompt": "$3^{4}$",
+     "type": "numeric",
+     "answer": "81"
+    },
+    {
+     "id": "q7b",
+     "label": "7b",
+     "section": "Fluency",
+     "stem": "Evaluate (work out the value).",
+     "prompt": "$7^{2}$",
+     "type": "numeric",
+     "answer": "49"
+    },
+    {
+     "id": "q7c",
+     "label": "7c",
+     "section": "Fluency",
+     "stem": "Evaluate (work out the value).",
+     "prompt": "$10^{5}$",
+     "type": "numeric",
+     "answer": "100000"
+    },
+    {
+     "id": "q7d",
+     "label": "7d",
+     "section": "Fluency",
+     "stem": "Evaluate (work out the value).",
+     "prompt": "$2^{2} \\times 5^{2}$",
+     "type": "numeric",
+     "answer": "100"
+    },
+    {
+     "id": "q7e",
+     "label": "7e",
+     "section": "Fluency",
+     "stem": "Evaluate (work out the value).",
+     "prompt": "$4^{3}$",
+     "type": "numeric",
+     "answer": "64"
+    },
+    {
+     "id": "q7f",
+     "label": "7f",
+     "section": "Fluency",
+     "stem": "Evaluate (work out the value).",
+     "prompt": "$2^{4} \\times 5^{3}$",
+     "type": "numeric",
+     "answer": "2000"
+    },
+    {
+     "id": "q7g",
+     "label": "7g",
+     "section": "Fluency",
+     "stem": "Evaluate (work out the value).",
+     "prompt": "$1^{9} \\times 3^{3}$",
+     "type": "numeric",
+     "answer": "27"
+    },
+    {
+     "id": "q7h",
+     "label": "7h",
+     "section": "Fluency",
+     "stem": "Evaluate (work out the value).",
+     "prompt": "$12^{2} \\times 1^{5}$",
+     "type": "numeric",
+     "answer": "144"
+    },
+    {
+     "id": "q8a",
+     "label": "8a",
+     "section": "Fluency",
+     "stem": "Evaluate (work out the value).",
+     "prompt": "$5^{2} + 12^{2}$",
+     "type": "numeric",
+     "answer": "169"
+    },
+    {
+     "id": "q8b",
+     "label": "8b",
+     "section": "Fluency",
+     "stem": "Evaluate (work out the value).",
+     "prompt": "$3 \\times 4^{2} - 6^{2}$",
+     "type": "numeric",
+     "answer": "12"
+    },
+    {
+     "id": "q8c",
+     "label": "8c",
+     "section": "Fluency",
+     "stem": "Evaluate (work out the value).",
+     "prompt": "$9^{2} - 2 \\times 5^{2}$",
+     "type": "numeric",
+     "answer": "31"
+    },
+    {
+     "id": "q8d",
+     "label": "8d",
+     "section": "Fluency",
+     "stem": "Evaluate (work out the value).",
+     "prompt": "$(11 - 8)^{4}$",
+     "type": "numeric",
+     "answer": "81"
+    },
+    {
+     "id": "q8e",
+     "label": "8e",
+     "section": "Fluency",
+     "stem": "Evaluate (work out the value).",
+     "prompt": "$3^{2} \\times 3^{3}$",
+     "type": "numeric",
+     "answer": "243"
+    },
+    {
+     "id": "q8f",
+     "label": "8f",
+     "section": "Fluency",
+     "stem": "Evaluate (work out the value).",
+     "prompt": "$2^{8} - 1 \\times 2 \\times 3 \\times 4$",
+     "type": "numeric",
+     "answer": "232"
+    },
+    {
+     "id": "q8g",
+     "label": "8g",
+     "section": "Fluency",
+     "stem": "Evaluate (work out the value).",
+     "prompt": "$4^{1} + 3^{2} + 2^{3} + 1^{4}$",
+     "type": "numeric",
+     "answer": "22"
+    },
+    {
+     "id": "q8h",
+     "label": "8h",
+     "section": "Fluency",
+     "stem": "Evaluate (work out the value).",
+     "prompt": "$10^{4} - 10^{3}$",
+     "type": "numeric",
+     "answer": "9000"
+    },
+    {
+     "id": "q8i",
+     "label": "8i",
+     "section": "Fluency",
+     "stem": "Evaluate (work out the value).",
+     "prompt": "$(1^{15} + 1^{40}) \\times 3^{2}$",
+     "type": "numeric",
+     "answer": "18"
+    },
+    {
+     "id": "q9a",
+     "label": "9a",
+     "section": "Problem-solving",
+     "stem": "Find the missing index number (the power) that makes each statement true.",
+     "prompt": "$81 = 3^{\\square}$",
+     "type": "numeric",
+     "answer": "4"
+    },
+    {
+     "id": "q9b",
+     "label": "9b",
+     "section": "Problem-solving",
+     "stem": "Find the missing index number (the power) that makes each statement true.",
+     "prompt": "$81 = 9^{\\square}$",
+     "type": "numeric",
+     "answer": "2"
+    },
+    {
+     "id": "q9c",
+     "label": "9c",
+     "section": "Problem-solving",
+     "stem": "Find the missing index number (the power) that makes each statement true.",
+     "prompt": "$125 = 5^{\\square}$",
+     "type": "numeric",
+     "answer": "3"
+    },
+    {
+     "id": "q9d",
+     "label": "9d",
+     "section": "Problem-solving",
+     "stem": "Find the missing index number (the power) that makes each statement true.",
+     "prompt": "$32 = 2^{\\square}$",
+     "type": "numeric",
+     "answer": "5"
+    },
+    {
+     "id": "q9e",
+     "label": "9e",
+     "section": "Problem-solving",
+     "stem": "Find the missing index number (the power) that makes each statement true.",
+     "prompt": "$1000 = 10^{\\square}$",
+     "type": "numeric",
+     "answer": "3"
+    },
+    {
+     "id": "q9f",
+     "label": "9f",
+     "section": "Problem-solving",
+     "stem": "Find the missing index number (the power) that makes each statement true.",
+     "prompt": "$36 = 6^{\\square}$",
+     "type": "numeric",
+     "answer": "2"
+    },
+    {
+     "id": "q9g",
+     "label": "9g",
+     "section": "Problem-solving",
+     "stem": "Find the missing index number (the power) that makes each statement true.",
+     "prompt": "$343 = 7^{\\square}$",
+     "type": "numeric",
+     "answer": "3"
+    },
+    {
+     "id": "q9h",
+     "label": "9h",
+     "section": "Problem-solving",
+     "stem": "Find the missing index number (the power) that makes each statement true.",
+     "prompt": "$256 = 4^{\\square}$",
+     "type": "numeric",
+     "answer": "4"
+    },
+    {
+     "id": "q10a",
+     "label": "10a",
+     "section": "Problem-solving",
+     "stem": "Which symbol, $<$, $=$ or $>$, goes in the box to make each statement true?",
+     "prompt": "$3^{5} \\square 3^{8}$",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "<",
+      "=",
+      ">"
+     ]
+    },
+    {
+     "id": "q10b",
+     "label": "10b",
+     "section": "Problem-solving",
+     "stem": "Which symbol, $<$, $=$ or $>$, goes in the box to make each statement true?",
+     "prompt": "$7^{4} \\square 7^{3}$",
+     "type": "choice",
+     "answer": 2,
+     "options": [
+      "<",
+      "=",
+      ">"
+     ]
+    },
+    {
+     "id": "q10c",
+     "label": "10c",
+     "section": "Problem-solving",
+     "stem": "Which symbol, $<$, $=$ or $>$, goes in the box to make each statement true?",
+     "prompt": "$2^{6} \\square 8^{2}$",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "<",
+      "=",
+      ">"
+     ]
+    },
+    {
+     "id": "q10d",
+     "label": "10d",
+     "section": "Problem-solving",
+     "stem": "Which symbol, $<$, $=$ or $>$, goes in the box to make each statement true?",
+     "prompt": "$5^{2} \\square 3^{3}$",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "<",
+      "=",
+      ">"
+     ]
+    },
+    {
+     "id": "q10e",
+     "label": "10e",
+     "section": "Problem-solving",
+     "stem": "Which symbol, $<$, $=$ or $>$, goes in the box to make each statement true?",
+     "prompt": "$4^{4} \\square 6^{3}$",
+     "type": "choice",
+     "answer": 2,
+     "options": [
+      "<",
+      "=",
+      ">"
+     ]
+    },
+    {
+     "id": "q10f",
+     "label": "10f",
+     "section": "Problem-solving",
+     "stem": "Which symbol, $<$, $=$ or $>$, goes in the box to make each statement true?",
+     "prompt": "$10^{2} \\square 2^{7}$",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "<",
+      "=",
+      ">"
+     ]
+    },
+    {
+     "id": "q10g",
+     "label": "10g",
+     "section": "Problem-solving",
+     "stem": "Which symbol, $<$, $=$ or $>$, goes in the box to make each statement true?",
+     "prompt": "$3^{5} \\square 15^{2}$",
+     "type": "choice",
+     "answer": 2,
+     "options": [
+      "<",
+      "=",
+      ">"
+     ]
+    },
+    {
+     "id": "q10h",
+     "label": "10h",
+     "section": "Problem-solving",
+     "stem": "Which symbol, $<$, $=$ or $>$, goes in the box to make each statement true?",
+     "prompt": "$1^{9} \\square 3^{1}$",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "<",
+      "=",
+      ">"
+     ]
+    },
+    {
+     "id": "q11",
+     "label": "11",
+     "section": "Problem-solving",
+     "prompt": "Noah shares a funny video with $6$ friends. Each of those friends shares it with $6$ new people, and each of those people shares it with $6$ more new people. How many people get the video in that final round of sharing?",
+     "type": "numeric",
+     "answer": "216"
+    },
+    {
+     "id": "q12a",
+     "label": "12a",
+     "section": "Problem-solving",
+     "stem": "Priya emails a riddle to $4$ friends. Everyone who gets the riddle reads it and, within $10$ minutes, sends it on to $4$ new people who have not seen it yet. Count Priya as a reader too.",
+     "prompt": "At least how many people (including Priya) have read the riddle within $30$ minutes?",
+     "type": "numeric",
+     "answer": "85"
+    },
+    {
+     "id": "q12b",
+     "label": "12b",
+     "section": "Problem-solving",
+     "stem": "Priya emails a riddle to $4$ friends. Everyone who gets the riddle reads it and, within $10$ minutes, sends it on to $4$ new people who have not seen it yet. Count Priya as a reader too.",
+     "prompt": "Australia has about $26$ million people. If the riddle always goes to new people, how many minutes until everyone in Australia has read it?",
+     "type": "numeric",
+     "answer": "130",
+     "units": "minutes"
+    },
+    {
+     "id": "q12c",
+     "label": "12c",
+     "section": "Problem-solving",
+     "stem": "Priya emails a riddle to $4$ friends. Everyone who gets the riddle reads it and, within $10$ minutes, sends it on to $4$ new people who have not seen it yet. Count Priya as a reader too.",
+     "prompt": "How many people will have read the riddle within $1$ hour?",
+     "type": "numeric",
+     "answer": "5461"
+    },
+    {
+     "id": "q12d",
+     "label": "12d",
+     "section": "Problem-solving",
+     "stem": "Priya emails a riddle to $4$ friends. Everyone who gets the riddle reads it and, within $10$ minutes, sends it on to $4$ new people who have not seen it yet. Count Priya as a reader too.",
+     "prompt": "The world has about $8$ billion people. How many minutes until everyone in the world has read it?",
+     "type": "numeric",
+     "answer": "170",
+     "units": "minutes"
+    },
+    {
+     "id": "q12e",
+     "label": "12e",
+     "section": "Problem-solving",
+     "stem": "Priya emails a riddle to $4$ friends. Everyone who gets the riddle reads it and, within $10$ minutes, sends it on to $4$ new people who have not seen it yet. Count Priya as a reader too.",
+     "prompt": "How many people will have read the riddle within $2$ hours?",
+     "type": "numeric",
+     "answer": "22369621"
+    },
+    {
+     "id": "q13a",
+     "label": "13a",
+     "section": "Reasoning",
+     "stem": "Which operation, $+$, $-$, $\\times$ or $\\div$, goes in the box to make each statement true?",
+     "prompt": "$6^{2} \\square 8^{2} = 10^{2}$",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "+",
+      "−",
+      "×",
+      "÷"
+     ]
+    },
+    {
+     "id": "q13b",
+     "label": "13b",
+     "section": "Reasoning",
+     "stem": "Which operation, $+$, $-$, $\\times$ or $\\div$, goes in the box to make each statement true?",
+     "prompt": "$3^{3} \\square 3^{2} = 3^{5}$",
+     "type": "choice",
+     "answer": 2,
+     "options": [
+      "+",
+      "−",
+      "×",
+      "÷"
+     ]
+    },
+    {
+     "id": "q13c",
+     "label": "13c",
+     "section": "Reasoning",
+     "stem": "Which operation, $+$, $-$, $\\times$ or $\\div$, goes in the box to make each statement true?",
+     "prompt": "$5^{3} \\square 11^{2} = 2^{2}$",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "+",
+      "−",
+      "×",
+      "÷"
+     ]
+    },
+    {
+     "id": "q13d",
+     "label": "13d",
+     "section": "Reasoning",
+     "stem": "Which operation, $+$, $-$, $\\times$ or $\\div$, goes in the box to make each statement true?",
+     "prompt": "$4^{3} \\square 2^{6} = 1^{9}$",
+     "type": "choice",
+     "answer": 3,
+     "options": [
+      "+",
+      "−",
+      "×",
+      "÷"
+     ]
+    },
+    {
+     "id": "q13e",
+     "label": "13e",
+     "section": "Reasoning",
+     "stem": "Which operation, $+$, $-$, $\\times$ or $\\div$, goes in the box to make each statement true?",
+     "prompt": "$2^{5} \\square 2^{2} = 6^{2}$",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "+",
+      "−",
+      "×",
+      "÷"
+     ]
+    },
+    {
+     "id": "q13f",
+     "label": "13f",
+     "section": "Reasoning",
+     "stem": "Which operation, $+$, $-$, $\\times$ or $\\div$, goes in the box to make each statement true?",
+     "prompt": "$17^{2} \\square 15^{2} = 8^{2}$",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "+",
+      "−",
+      "×",
+      "÷"
+     ]
+    },
+    {
+     "id": "q14a",
+     "label": "14a",
+     "section": "Reasoning",
+     "stem": "The sequence $1, 3, 9, 27, 81, 243, 729$ gives the powers of $3$ that are less than $1000$.",
+     "prompt": "Write the powers of $4$ that are less than $5000$, starting $1, 4, 16, \\ldots$",
+     "type": "ordered",
+     "answer": [
+      "1",
+      "4",
+      "16",
+      "64",
+      "256",
+      "1024",
+      "4096"
+     ]
+    },
+    {
+     "id": "q14b",
+     "label": "14b",
+     "section": "Reasoning",
+     "stem": "The sequence $1, 3, 9, 27, 81, 243, 729$ gives the powers of $3$ that are less than $1000$.",
+     "prompt": "Write the powers of $6$ that are less than $10\\,000$, starting $1, 6, 36, \\ldots$",
+     "type": "ordered",
+     "answer": [
+      "1",
+      "6",
+      "36",
+      "216",
+      "1296",
+      "7776"
+     ]
+    },
+    {
+     "id": "q14c",
+     "label": "14c",
+     "section": "Reasoning",
+     "stem": "The sequence $1, 3, 9, 27, 81, 243, 729$ gives the powers of $3$ that are less than $1000$.",
+     "prompt": "For the powers of $3$, list the difference between each term and the next term ($3 - 1 = 2$, $9 - 3 = 6$, and so on).",
+     "type": "ordered",
+     "answer": [
+      "2",
+      "6",
+      "18",
+      "54",
+      "162",
+      "486"
+     ]
+    },
+    {
+     "id": "q14d",
+     "label": "14d",
+     "section": "Reasoning",
+     "stem": "The sequence $1, 3, 9, 27, 81, 243, 729$ gives the powers of $3$ that are less than $1000$.",
+     "prompt": "What do you notice about the differences in part c?",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "They go up by 2 each time",
+      "Each one is 2 times a power of 3",
+      "They are all odd numbers",
+      "They are exactly the powers of 3"
+     ]
+    },
+    {
+     "id": "q14e",
+     "label": "14e",
+     "section": "Reasoning",
+     "stem": "The sequence $1, 3, 9, 27, 81, 243, 729$ gives the powers of $3$ that are less than $1000$.",
+     "prompt": "List the differences between consecutive terms of the powers of $4$ from part a.",
+     "type": "ordered",
+     "answer": [
+      "3",
+      "12",
+      "48",
+      "192",
+      "768",
+      "3072"
+     ]
+    },
+    {
+     "id": "q14f",
+     "label": "14f",
+     "section": "Reasoning",
+     "stem": "The sequence $1, 3, 9, 27, 81, 243, 729$ gives the powers of $3$ that are less than $1000$.",
+     "prompt": "What do you notice about the differences in part e?",
+     "type": "choice",
+     "answer": 2,
+     "options": [
+      "They go up by 3 each time",
+      "They are exactly the powers of 4",
+      "Each one is 3 times a power of 4",
+      "They are all even numbers"
+     ]
+    },
+    {
+     "id": "q15",
+     "label": "15",
+     "section": "Reasoning",
+     "prompt": "Find two different whole numbers $a$ and $b$, both bigger than $1$, so that $a^{b} = b^{a}$. Type the two numbers separated by a comma.",
+     "type": "list",
+     "answer": [
+      "2",
+      "4"
+     ]
+    },
+    {
+     "id": "q16a",
+     "label": "16a",
+     "section": "Enrichment",
+     "stem": "The exclamation mark (!) means factorial. For example, $4! = 4 \\times 3 \\times 2 \\times 1 = 24$.",
+     "prompt": "Evaluate $2!$, $3!$, $5!$ and $7!$. Type the four answers in that order, separated by commas.",
+     "type": "ordered",
+     "answer": [
+      "2",
+      "6",
+      "120",
+      "5040"
+     ]
+    },
+    {
+     "id": "q16b",
+     "label": "16b",
+     "section": "Enrichment",
+     "stem": "The exclamation mark (!) means factorial. For example, $4! = 4 \\times 3 \\times 2 \\times 1 = 24$.",
+     "prompt": "Write $6!$ in prime factor form using powers. For example, $4! = 2^{3} \\times 3$.",
+     "type": "powers",
+     "answer": "2^4×3^2×5",
+     "index": true,
+     "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5"
+    },
+    {
+     "id": "q16c",
+     "label": "16c",
+     "section": "Enrichment",
+     "stem": "The exclamation mark (!) means factorial. For example, $4! = 4 \\times 3 \\times 2 \\times 1 = 24$.",
+     "prompt": "Write $11!$ in prime factor form using powers. For example, $4! = 2^{3} \\times 3$.",
+     "type": "powers",
+     "answer": "2^8×3^4×5^2×7×11",
+     "index": true,
+     "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5"
+    },
+    {
+     "id": "q16d",
+     "label": "16d",
+     "section": "Enrichment",
+     "stem": "The exclamation mark (!) means factorial. For example, $4! = 4 \\times 3 \\times 2 \\times 1 = 24$.",
+     "prompt": "Write $12!$ in prime factor form using powers. For example, $4! = 2^{3} \\times 3$.",
+     "type": "powers",
+     "answer": "2^10×3^5×5^2×7×11",
+     "index": true,
+     "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5"
+    },
+    {
+     "id": "q16e",
+     "label": "16e",
+     "section": "Enrichment",
+     "stem": "The exclamation mark (!) means factorial. For example, $4! = 4 \\times 3 \\times 2 \\times 1 = 24$.",
+     "prompt": "Write $13!$ in prime factor form using powers. For example, $4! = 2^{3} \\times 3$.",
+     "type": "powers",
+     "answer": "2^10×3^5×5^2×7×11×13",
+     "index": true,
+     "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5"
+    },
+    {
+     "id": "q16f",
+     "label": "16f",
+     "section": "Enrichment",
+     "stem": "The exclamation mark (!) means factorial. For example, $4! = 4 \\times 3 \\times 2 \\times 1 = 24$.",
+     "prompt": "What is the last digit of $15!$?",
+     "type": "numeric",
+     "answer": "0"
+    },
+    {
+     "id": "q16g",
+     "label": "16g",
+     "section": "Enrichment",
+     "stem": "The exclamation mark (!) means factorial. For example, $4! = 4 \\times 3 \\times 2 \\times 1 = 24$.",
+     "prompt": "What is the last digit of $50!$?",
+     "type": "numeric",
+     "answer": "0"
+    },
+    {
+     "id": "q16h",
+     "label": "16h",
+     "section": "Enrichment",
+     "stem": "The exclamation mark (!) means factorial. For example, $4! = 4 \\times 3 \\times 2 \\times 1 = 24$.",
+     "prompt": "How many zeros are on the right-hand end of $10!$ when it is worked out? (Hint: think about the prime factor form.)",
+     "type": "numeric",
+     "answer": "2"
+    },
+    {
+     "id": "q16i",
+     "label": "16i",
+     "section": "Enrichment",
+     "stem": "The exclamation mark (!) means factorial. For example, $4! = 4 \\times 3 \\times 2 \\times 1 = 24$.",
+     "prompt": "How many zeros are on the right-hand end of $14!$ when it is worked out? (Hint: think about the prime factor form.)",
+     "type": "numeric",
+     "answer": "2"
+    },
+    {
+     "id": "q16j",
+     "label": "16j",
+     "section": "Enrichment",
+     "stem": "The exclamation mark (!) means factorial. For example, $4! = 4 \\times 3 \\times 2 \\times 1 = 24$.",
+     "prompt": "How many zeros are on the right-hand end of $20!$ when it is worked out? (Hint: think about the prime factor form.)",
+     "type": "numeric",
+     "answer": "4"
+    },
+    {
+     "id": "q16k",
+     "label": "16k",
+     "section": "Enrichment",
+     "stem": "The exclamation mark (!) means factorial. For example, $4! = 4 \\times 3 \\times 2 \\times 1 = 24$.",
+     "prompt": "How many zeros are on the right-hand end of $30!$ when it is worked out? (Hint: think about the prime factor form.)",
+     "type": "numeric",
+     "answer": "7"
+    },
+    {
+     "id": "q16l",
+     "label": "16l",
+     "section": "Enrichment",
+     "stem": "The exclamation mark (!) means factorial. For example, $4! = 4 \\times 3 \\times 2 \\times 1 = 24$.",
+     "prompt": "$120! = 119! \\times n!$. What whole number is $n$?",
+     "type": "numeric",
+     "answer": "5"
+    }
+   ]
+  },
+  {
+   "id": "2f",
+   "chapter": "Chapter 2: Number properties and patterns",
+   "title": "2F Prime decomposition",
+   "description": "Breaking composite numbers into prime factors and writing them with powers.",
+   "questions": [
+    {
+     "id": "q1a",
+     "label": "1a",
+     "section": "Fluency",
+     "stem": "Write each number in prime factor form.",
+     "prompt": "$48$",
+     "type": "powers",
+     "answer": "2^4×3",
+     "index": true,
+     "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5"
+    },
+    {
+     "id": "q1b",
+     "label": "1b",
+     "section": "Fluency",
+     "stem": "Write each number in prime factor form.",
+     "prompt": "$225$",
+     "type": "powers",
+     "answer": "3^2×5^2",
+     "index": true,
+     "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5"
+    },
+    {
+     "id": "q2a",
+     "label": "2a",
+     "section": "Fluency",
+     "stem": "Write each number in prime factor form.",
+     "prompt": "$84$",
+     "type": "powers",
+     "answer": "2^2×3×7",
+     "index": true,
+     "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5"
+    },
+    {
+     "id": "q2b",
+     "label": "2b",
+     "section": "Fluency",
+     "stem": "Write each number in prime factor form.",
+     "prompt": "$40$",
+     "type": "powers",
+     "answer": "2^3×5",
+     "index": true,
+     "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5"
+    },
+    {
+     "id": "q2c",
+     "label": "2c",
+     "section": "Fluency",
+     "stem": "Write each number in prime factor form.",
+     "prompt": "$46$",
+     "type": "powers",
+     "answer": "2×23",
+     "index": true,
+     "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5"
+    },
+    {
+     "id": "q2d",
+     "label": "2d",
+     "section": "Fluency",
+     "stem": "Write each number in prime factor form.",
+     "prompt": "$52$",
+     "type": "powers",
+     "answer": "2^2×13",
+     "index": true,
+     "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5"
+    },
+    {
+     "id": "q2e",
+     "label": "2e",
+     "section": "Fluency",
+     "stem": "Write each number in prime factor form.",
+     "prompt": "$132$",
+     "type": "powers",
+     "answer": "2^2×3×11",
+     "index": true,
+     "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5"
+    },
+    {
+     "id": "q2f",
+     "label": "2f",
+     "section": "Fluency",
+     "stem": "Write each number in prime factor form.",
+     "prompt": "$90$",
+     "type": "powers",
+     "answer": "2×3^2×5",
+     "index": true,
+     "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5"
+    },
+    {
+     "id": "q2g",
+     "label": "2g",
+     "section": "Fluency",
+     "stem": "Write each number in prime factor form.",
+     "prompt": "$112$",
+     "type": "powers",
+     "answer": "2^4×7",
+     "index": true,
+     "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5"
+    },
+    {
+     "id": "q2h",
+     "label": "2h",
+     "section": "Fluency",
+     "stem": "Write each number in prime factor form.",
+     "prompt": "$32$",
+     "type": "powers",
+     "answer": "2^5",
+     "index": true,
+     "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5"
+    },
+    {
+     "id": "q2i",
+     "label": "2i",
+     "section": "Fluency",
+     "stem": "Write each number in prime factor form.",
+     "prompt": "$63$",
+     "type": "powers",
+     "answer": "3^2×7",
+     "index": true,
+     "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5"
+    },
+    {
+     "id": "q2j",
+     "label": "2j",
+     "section": "Fluency",
+     "stem": "Write each number in prime factor form.",
+     "prompt": "$141$",
+     "type": "powers",
+     "answer": "3×47",
+     "index": true,
+     "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5"
+    },
+    {
+     "id": "q2k",
+     "label": "2k",
+     "section": "Fluency",
+     "stem": "Write each number in prime factor form.",
+     "prompt": "$81$",
+     "type": "powers",
+     "answer": "3^4",
+     "index": true,
+     "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5"
+    },
+    {
+     "id": "q2l",
+     "label": "2l",
+     "section": "Fluency",
+     "stem": "Write each number in prime factor form.",
+     "prompt": "$88$",
+     "type": "powers",
+     "answer": "2^3×11",
+     "index": true,
+     "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5"
+    },
+    {
+     "id": "q3a",
+     "label": "3a",
+     "section": "Fluency",
+     "stem": "Write these larger numbers in prime factor form. (Tip: start your factor tree with a power of $10$, such as $100$, on one branch.)",
+     "prompt": "$700$",
+     "type": "powers",
+     "answer": "2^2×5^2×7",
+     "index": true,
+     "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5"
+    },
+    {
+     "id": "q3b",
+     "label": "3b",
+     "section": "Fluency",
+     "stem": "Write these larger numbers in prime factor form. (Tip: start your factor tree with a power of $10$, such as $100$, on one branch.)",
+     "prompt": "$900$",
+     "type": "powers",
+     "answer": "2^2×3^2×5^2",
+     "index": true,
+     "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5"
+    },
+    {
+     "id": "q3c",
+     "label": "3c",
+     "section": "Fluency",
+     "stem": "Write these larger numbers in prime factor form. (Tip: start your factor tree with a power of $10$, such as $100$, on one branch.)",
+     "prompt": "$3000$",
+     "type": "powers",
+     "answer": "2^3×3×5^3",
+     "index": true,
+     "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5"
+    },
+    {
+     "id": "q3d",
+     "label": "3d",
+     "section": "Fluency",
+     "stem": "Write these larger numbers in prime factor form. (Tip: start your factor tree with a power of $10$, such as $100$, on one branch.)",
+     "prompt": "$3600$",
+     "type": "powers",
+     "answer": "2^4×3^2×5^2",
+     "index": true,
+     "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5"
+    },
+    {
+     "id": "q3e",
+     "label": "3e",
+     "section": "Fluency",
+     "stem": "Write these larger numbers in prime factor form. (Tip: start your factor tree with a power of $10$, such as $100$, on one branch.)",
+     "prompt": "$100\\,000$",
+     "type": "powers",
+     "answer": "2^5×5^5",
+     "index": true,
+     "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5"
+    },
+    {
+     "id": "q3f",
+     "label": "3f",
+     "section": "Fluency",
+     "stem": "Write these larger numbers in prime factor form. (Tip: start your factor tree with a power of $10$, such as $100$, on one branch.)",
+     "prompt": "$36\\,000$",
+     "type": "powers",
+     "answer": "2^5×3^2×5^3",
+     "index": true,
+     "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5"
+    },
+    {
+     "id": "q3g",
+     "label": "3g",
+     "section": "Fluency",
+     "stem": "Write these larger numbers in prime factor form. (Tip: start your factor tree with a power of $10$, such as $100$, on one branch.)",
+     "prompt": "$740$",
+     "type": "powers",
+     "answer": "2^2×5×37",
+     "index": true,
+     "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5"
+    },
+    {
+     "id": "q3h",
+     "label": "3h",
+     "section": "Fluency",
+     "stem": "Write these larger numbers in prime factor form. (Tip: start your factor tree with a power of $10$, such as $100$, on one branch.)",
+     "prompt": "$930$",
+     "type": "powers",
+     "answer": "2×3×5×31",
+     "index": true,
+     "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5"
+    },
+    {
+     "id": "q4a",
+     "label": "4a",
+     "section": "Problem-solving",
+     "stem": "Match each number with the same number written as a product of prime factors.",
+     "prompt": "$168$",
+     "type": "choice",
+     "answer": 3,
+     "options": [
+      "2 × 3² × 5",
+      "2³ × 5²",
+      "5 × 2 × 7 × 2",
+      "2³ × 3 × 7"
+     ]
+    },
+    {
+     "id": "q4b",
+     "label": "4b",
+     "section": "Problem-solving",
+     "stem": "Match each number with the same number written as a product of prime factors.",
+     "prompt": "$90$",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "2 × 3² × 5",
+      "2³ × 5²",
+      "5 × 2 × 7 × 2",
+      "2³ × 3 × 7"
+     ]
+    },
+    {
+     "id": "q4c",
+     "label": "4c",
+     "section": "Problem-solving",
+     "stem": "Match each number with the same number written as a product of prime factors.",
+     "prompt": "$140$",
+     "type": "choice",
+     "answer": 2,
+     "options": [
+      "2 × 3² × 5",
+      "2³ × 5²",
+      "5 × 2 × 7 × 2",
+      "2³ × 3 × 7"
+     ]
+    },
+    {
+     "id": "q4d",
+     "label": "4d",
+     "section": "Problem-solving",
+     "stem": "Match each number with the same number written as a product of prime factors.",
+     "prompt": "$200$",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "2 × 3² × 5",
+      "2³ × 5²",
+      "5 × 2 × 7 × 2",
+      "2³ × 3 × 7"
+     ]
+    },
+    {
+     "id": "q5",
+     "label": "5",
+     "section": "Problem-solving",
+     "prompt": "Find the smallest number that has the four smallest odd prime numbers as factors.",
+     "type": "numeric",
+     "answer": "1155"
+    },
+    {
+     "id": "q6a",
+     "label": "6a",
+     "section": "Problem-solving",
+     "stem": "Use prime factor form to compare $180$ and $126$.",
+     "prompt": "Write $180$ in prime factor form.",
+     "type": "powers",
+     "answer": "2^2×3^2×5",
+     "index": true,
+     "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5"
+    },
+    {
+     "id": "q6b",
+     "label": "6b",
+     "section": "Problem-solving",
+     "stem": "Use prime factor form to compare $180$ and $126$.",
+     "prompt": "Write $126$ in prime factor form.",
+     "type": "powers",
+     "answer": "2×3^2×7",
+     "index": true,
+     "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5"
+    },
+    {
+     "id": "q6c",
+     "label": "6c",
+     "section": "Problem-solving",
+     "stem": "Use prime factor form to compare $180$ and $126$.",
+     "prompt": "Use the prime factor forms to find the highest common factor (HCF) of $180$ and $126$.",
+     "type": "numeric",
+     "answer": "18"
+    },
+    {
+     "id": "q7a",
+     "label": "7a",
+     "section": "Problem-solving",
+     "stem": "Use prime factor form to compare $21\\,600$ and $63\\,000$.",
+     "prompt": "Write $21\\,600$ in prime factor form.",
+     "type": "powers",
+     "answer": "2^5×3^3×5^2",
+     "index": true,
+     "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5"
+    },
+    {
+     "id": "q7b",
+     "label": "7b",
+     "section": "Problem-solving",
+     "stem": "Use prime factor form to compare $21\\,600$ and $63\\,000$.",
+     "prompt": "Write $63\\,000$ in prime factor form.",
+     "type": "powers",
+     "answer": "2^3×3^2×5^3×7",
+     "index": true,
+     "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5"
+    },
+    {
+     "id": "q7c",
+     "label": "7c",
+     "section": "Problem-solving",
+     "stem": "Use prime factor form to compare $21\\,600$ and $63\\,000$.",
+     "prompt": "Use the prime factor forms to find the highest common factor (HCF) of $21\\,600$ and $63\\,000$.",
+     "type": "numeric",
+     "answer": "1800"
+    },
+    {
+     "id": "q8a",
+     "label": "8a",
+     "section": "Reasoning",
+     "stem": "In prime factor form, $10 = 2 \\times 5$ and $35 = 5 \\times 7$, so the lowest common multiple (LCM) of $10$ and $35$ is $2 \\times 5 \\times 7 = 70$.",
+     "prompt": "Use prime factor form to find the LCM of $6$ and $27$.",
+     "type": "numeric",
+     "answer": "54"
+    },
+    {
+     "id": "q8b",
+     "label": "8b",
+     "section": "Reasoning",
+     "stem": "In prime factor form, $10 = 2 \\times 5$ and $35 = 5 \\times 7$, so the lowest common multiple (LCM) of $10$ and $35$ is $2 \\times 5 \\times 7 = 70$.",
+     "prompt": "Use prime factor form to find the LCM of $21$ and $33$.",
+     "type": "numeric",
+     "answer": "231"
+    },
+    {
+     "id": "q8c",
+     "label": "8c",
+     "section": "Reasoning",
+     "stem": "In prime factor form, $10 = 2 \\times 5$ and $35 = 5 \\times 7$, so the lowest common multiple (LCM) of $10$ and $35$ is $2 \\times 5 \\times 7 = 70$.",
+     "prompt": "$84 = 2^{2} \\times 3 \\times 7$ and $90 = 2 \\times 3^{2} \\times 5$. Use this to find the LCM of $84$ and $90$.",
+     "type": "numeric",
+     "answer": "1260"
+    },
+    {
+     "id": "q9a",
+     "label": "9a",
+     "section": "Reasoning",
+     "stem": "Only one of these is the correct prime factor form of $568$. A: $2^{2} \\times 3 \\times 5^{2}$, B: $2 \\times 3^{2} \\times 7^{2}$, C: $71 \\times 8$, D: $2^{3} \\times 71$.",
+     "prompt": "Why can option A be ruled out straight away?",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "It has a 2 in it",
+      "It has 5 as a factor, but 568 does not end in 0 or 5",
+      "It uses powers",
+      "It has too many factors"
+     ]
+    },
+    {
+     "id": "q9b",
+     "label": "9b",
+     "section": "Reasoning",
+     "stem": "Only one of these is the correct prime factor form of $568$. A: $2^{2} \\times 3 \\times 5^{2}$, B: $2 \\times 3^{2} \\times 7^{2}$, C: $71 \\times 8$, D: $2^{3} \\times 71$.",
+     "prompt": "Option C does multiply to give the right number. Why is it still not the prime factor form?",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "8 is not a prime number",
+      "71 is not a prime number",
+      "The numbers are in the wrong order",
+      "It has no powers"
+     ]
+    },
+    {
+     "id": "q9c",
+     "label": "9c",
+     "section": "Reasoning",
+     "stem": "Only one of these is the correct prime factor form of $568$. A: $2^{2} \\times 3 \\times 5^{2}$, B: $2 \\times 3^{2} \\times 7^{2}$, C: $71 \\times 8$, D: $2^{3} \\times 71$.",
+     "prompt": "Which option is correct?",
+     "type": "choice",
+     "answer": 3,
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ]
+    },
+    {
+     "id": "q10a",
+     "label": "10a",
+     "section": "Reasoning",
+     "stem": "Three students tried to write $90$ in prime factor form. Each one made a mistake. What is wrong with each answer?",
+     "prompt": "Ava wrote $90 = 3 \\times 5^{2}$",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "The factors do not multiply to give 90",
+      "Not every factor is a prime number"
+     ]
+    },
+    {
+     "id": "q10b",
+     "label": "10b",
+     "section": "Reasoning",
+     "stem": "Three students tried to write $90$ in prime factor form. Each one made a mistake. What is wrong with each answer?",
+     "prompt": "Leo wrote $90 = 3 \\times 5 \\times 6$",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "The factors do not multiply to give 90",
+      "Not every factor is a prime number"
+     ]
+    },
+    {
+     "id": "q10c",
+     "label": "10c",
+     "section": "Reasoning",
+     "stem": "Three students tried to write $90$ in prime factor form. Each one made a mistake. What is wrong with each answer?",
+     "prompt": "Kai wrote $90 = 2 \\times 3 \\times 5$",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "The factors do not multiply to give 90",
+      "Not every factor is a prime number"
+     ]
+    },
+    {
+     "id": "q10d",
+     "label": "10d",
+     "section": "Reasoning",
+     "stem": "Three students tried to write $90$ in prime factor form. Each one made a mistake. What is wrong with each answer?",
+     "prompt": "What is the correct prime factor form of $90$?",
+     "type": "powers",
+     "answer": "2×3^2×5",
+     "index": true,
+     "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5"
+    },
+    {
+     "id": "q11a",
+     "label": "11a",
+     "section": "Enrichment",
+     "stem": "Some numbers have four different prime factors, for example $546 = 2 \\times 3 \\times 7 \\times 13$.",
+     "prompt": "Write $390$ in prime factor form.",
+     "type": "powers",
+     "answer": "2×3×5×13",
+     "index": true,
+     "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5"
+    },
+    {
+     "id": "q11b",
+     "label": "11b",
+     "section": "Enrichment",
+     "stem": "Some numbers have four different prime factors, for example $546 = 2 \\times 3 \\times 7 \\times 13$.",
+     "prompt": "Write $714$ in prime factor form.",
+     "type": "powers",
+     "answer": "2×3×7×17",
+     "index": true,
+     "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5"
+    },
+    {
+     "id": "q11c",
+     "label": "11c",
+     "section": "Enrichment",
+     "stem": "Some numbers have four different prime factors, for example $546 = 2 \\times 3 \\times 7 \\times 13$.",
+     "prompt": "Write $770$ in prime factor form.",
+     "type": "powers",
+     "answer": "2×5×7×11",
+     "index": true,
+     "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5"
+    },
+    {
+     "id": "q11d",
+     "label": "11d",
+     "section": "Enrichment",
+     "stem": "Some numbers have four different prime factors, for example $546 = 2 \\times 3 \\times 7 \\times 13$.",
+     "prompt": "Write $924$ in prime factor form.",
+     "type": "powers",
+     "answer": "2^2×3×7×11",
+     "index": true,
+     "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5"
+    },
+    {
+     "id": "q11e",
+     "label": "11e",
+     "section": "Enrichment",
+     "stem": "Some numbers have four different prime factors, for example $546 = 2 \\times 3 \\times 7 \\times 13$.",
+     "prompt": "What is the smallest number that has four different prime factors?",
+     "type": "numeric",
+     "answer": "210"
+    },
+    {
+     "id": "q12a",
+     "label": "12a",
+     "section": "Enrichment",
+     "stem": "Goldbach's conjecture says that every even number greater than $2$ is the sum of two primes, for example $62 = 19 + 43$. Write each number as the sum of two primes. Type the two primes separated by a comma.",
+     "prompt": "$70$",
+     "type": "list",
+     "answer": [
+      "3",
+      "67"
+     ],
+     "accept": [
+      "11, 59",
+      "17, 53",
+      "23, 47",
+      "29, 41"
+     ]
+    },
+    {
+     "id": "q12b",
+     "label": "12b",
+     "section": "Enrichment",
+     "stem": "Goldbach's conjecture says that every even number greater than $2$ is the sum of two primes, for example $62 = 19 + 43$. Write each number as the sum of two primes. Type the two primes separated by a comma.",
+     "prompt": "$80$",
+     "type": "list",
+     "answer": [
+      "7",
+      "73"
+     ],
+     "accept": [
+      "13, 67",
+      "19, 61",
+      "37, 43"
+     ]
+    },
+    {
+     "id": "q12c",
+     "label": "12c",
+     "section": "Enrichment",
+     "stem": "Goldbach's conjecture says that every even number greater than $2$ is the sum of two primes, for example $62 = 19 + 43$. Write each number as the sum of two primes. Type the two primes separated by a comma.",
+     "prompt": "$98$",
+     "type": "list",
+     "answer": [
+      "19",
+      "79"
+     ],
+     "accept": [
+      "31, 67",
+      "37, 61"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2g",
+   "chapter": "Chapter 2: Number properties and patterns",
+   "title": "2G Squares and square roots",
+   "description": "Square numbers, square roots, estimating roots and patterns in squares.",
+   "questions": [
+    {
+     "id": "q1a",
+     "label": "1a",
+     "section": "Fluency",
+     "stem": "Evaluate.",
+     "prompt": "$5^2$",
+     "type": "numeric",
+     "answer": "25"
+    },
+    {
+     "id": "q1b",
+     "label": "1b",
+     "section": "Fluency",
+     "stem": "Evaluate.",
+     "prompt": "$9^2$",
+     "type": "numeric",
+     "answer": "81"
+    },
+    {
+     "id": "q1c",
+     "label": "1c",
+     "section": "Fluency",
+     "stem": "Evaluate.",
+     "prompt": "$6^2$",
+     "type": "numeric",
+     "answer": "36"
+    },
+    {
+     "id": "q1d",
+     "label": "1d",
+     "section": "Fluency",
+     "stem": "Evaluate.",
+     "prompt": "$11^2$",
+     "type": "numeric",
+     "answer": "121"
+    },
+    {
+     "id": "q2a",
+     "label": "2a",
+     "section": "Fluency",
+     "stem": "Evaluate.",
+     "prompt": "$7^2$",
+     "type": "numeric",
+     "answer": "49"
+    },
+    {
+     "id": "q2b",
+     "label": "2b",
+     "section": "Fluency",
+     "stem": "Evaluate.",
+     "prompt": "$3^2$",
+     "type": "numeric",
+     "answer": "9"
+    },
+    {
+     "id": "q2c",
+     "label": "2c",
+     "section": "Fluency",
+     "stem": "Evaluate.",
+     "prompt": "$14^2$",
+     "type": "numeric",
+     "answer": "196"
+    },
+    {
+     "id": "q2d",
+     "label": "2d",
+     "section": "Fluency",
+     "stem": "Evaluate.",
+     "prompt": "$1^2$",
+     "type": "numeric",
+     "answer": "1"
+    },
+    {
+     "id": "q2e",
+     "label": "2e",
+     "section": "Fluency",
+     "stem": "Evaluate.",
+     "prompt": "$8^2$",
+     "type": "numeric",
+     "answer": "64"
+    },
+    {
+     "id": "q2f",
+     "label": "2f",
+     "section": "Fluency",
+     "stem": "Evaluate.",
+     "prompt": "$16^2$",
+     "type": "numeric",
+     "answer": "256"
+    },
+    {
+     "id": "q2g",
+     "label": "2g",
+     "section": "Fluency",
+     "stem": "Evaluate.",
+     "prompt": "$0^2$",
+     "type": "numeric",
+     "answer": "0"
+    },
+    {
+     "id": "q2h",
+     "label": "2h",
+     "section": "Fluency",
+     "stem": "Evaluate.",
+     "prompt": "$13^2$",
+     "type": "numeric",
+     "answer": "169"
+    },
+    {
+     "id": "q2i",
+     "label": "2i",
+     "section": "Fluency",
+     "stem": "Evaluate.",
+     "prompt": "$10^2$",
+     "type": "numeric",
+     "answer": "100"
+    },
+    {
+     "id": "q2j",
+     "label": "2j",
+     "section": "Fluency",
+     "stem": "Evaluate.",
+     "prompt": "$30^2$",
+     "type": "numeric",
+     "answer": "900"
+    },
+    {
+     "id": "q2k",
+     "label": "2k",
+     "section": "Fluency",
+     "stem": "Evaluate.",
+     "prompt": "$200^2$",
+     "type": "numeric",
+     "answer": "40000"
+    },
+    {
+     "id": "q2l",
+     "label": "2l",
+     "section": "Fluency",
+     "stem": "Evaluate.",
+     "prompt": "$40^2$",
+     "type": "numeric",
+     "answer": "1600"
+    },
+    {
+     "id": "q3a",
+     "label": "3a",
+     "section": "Fluency",
+     "stem": "Evaluate.",
+     "prompt": "$\\sqrt{36}$",
+     "type": "numeric",
+     "answer": "6"
+    },
+    {
+     "id": "q3b",
+     "label": "3b",
+     "section": "Fluency",
+     "stem": "Evaluate.",
+     "prompt": "$\\sqrt{100}$",
+     "type": "numeric",
+     "answer": "10"
+    },
+    {
+     "id": "q3c",
+     "label": "3c",
+     "section": "Fluency",
+     "stem": "Evaluate.",
+     "prompt": "$\\sqrt{1}$",
+     "type": "numeric",
+     "answer": "1"
+    },
+    {
+     "id": "q3d",
+     "label": "3d",
+     "section": "Fluency",
+     "stem": "Evaluate.",
+     "prompt": "$\\sqrt{196}$",
+     "type": "numeric",
+     "answer": "14"
+    },
+    {
+     "id": "q3e",
+     "label": "3e",
+     "section": "Fluency",
+     "stem": "Evaluate.",
+     "prompt": "$\\sqrt{9}$",
+     "type": "numeric",
+     "answer": "3"
+    },
+    {
+     "id": "q3f",
+     "label": "3f",
+     "section": "Fluency",
+     "stem": "Evaluate.",
+     "prompt": "$\\sqrt{64}$",
+     "type": "numeric",
+     "answer": "8"
+    },
+    {
+     "id": "q3g",
+     "label": "3g",
+     "section": "Fluency",
+     "stem": "Evaluate.",
+     "prompt": "$\\sqrt{225}$",
+     "type": "numeric",
+     "answer": "15"
+    },
+    {
+     "id": "q3h",
+     "label": "3h",
+     "section": "Fluency",
+     "stem": "Evaluate.",
+     "prompt": "$\\sqrt{4}$",
+     "type": "numeric",
+     "answer": "2"
+    },
+    {
+     "id": "q3i",
+     "label": "3i",
+     "section": "Fluency",
+     "stem": "Evaluate.",
+     "prompt": "$\\sqrt{0}$",
+     "type": "numeric",
+     "answer": "0"
+    },
+    {
+     "id": "q3j",
+     "label": "3j",
+     "section": "Fluency",
+     "stem": "Evaluate.",
+     "prompt": "$\\sqrt{256}$",
+     "type": "numeric",
+     "answer": "16"
+    },
+    {
+     "id": "q3k",
+     "label": "3k",
+     "section": "Fluency",
+     "stem": "Evaluate.",
+     "prompt": "$\\sqrt{900}$",
+     "type": "numeric",
+     "answer": "30"
+    },
+    {
+     "id": "q3l",
+     "label": "3l",
+     "section": "Fluency",
+     "stem": "Evaluate.",
+     "prompt": "$\\sqrt{289}$",
+     "type": "numeric",
+     "answer": "17"
+    },
+    {
+     "id": "q4a",
+     "label": "4a",
+     "section": "Fluency",
+     "stem": "Evaluate.",
+     "prompt": "$\\sqrt{3600}$",
+     "type": "numeric",
+     "answer": "60"
+    },
+    {
+     "id": "q4b",
+     "label": "4b",
+     "section": "Fluency",
+     "stem": "Evaluate.",
+     "prompt": "$\\sqrt{4900}$",
+     "type": "numeric",
+     "answer": "70"
+    },
+    {
+     "id": "q4c",
+     "label": "4c",
+     "section": "Fluency",
+     "stem": "Evaluate.",
+     "prompt": "$\\sqrt{1600}$",
+     "type": "numeric",
+     "answer": "40"
+    },
+    {
+     "id": "q4d",
+     "label": "4d",
+     "section": "Fluency",
+     "stem": "Evaluate.",
+     "prompt": "$\\sqrt{625}$",
+     "type": "numeric",
+     "answer": "25"
+    },
+    {
+     "id": "q5a",
+     "label": "5a",
+     "section": "Fluency",
+     "stem": "Which two consecutive whole numbers is each square root between? Type both numbers, separated by a comma.",
+     "prompt": "$\\sqrt{22}$",
+     "type": "list",
+     "answer": [
+      "4",
+      "5"
+     ]
+    },
+    {
+     "id": "q5b",
+     "label": "5b",
+     "section": "Fluency",
+     "stem": "Which two consecutive whole numbers is each square root between? Type both numbers, separated by a comma.",
+     "prompt": "$\\sqrt{45}$",
+     "type": "list",
+     "answer": [
+      "6",
+      "7"
+     ]
+    },
+    {
+     "id": "q5c",
+     "label": "5c",
+     "section": "Fluency",
+     "stem": "Which two consecutive whole numbers is each square root between? Type both numbers, separated by a comma.",
+     "prompt": "$\\sqrt{60}$",
+     "type": "list",
+     "answer": [
+      "7",
+      "8"
+     ]
+    },
+    {
+     "id": "q5d",
+     "label": "5d",
+     "section": "Fluency",
+     "stem": "Which two consecutive whole numbers is each square root between? Type both numbers, separated by a comma.",
+     "prompt": "$\\sqrt{90}$",
+     "type": "list",
+     "answer": [
+      "9",
+      "10"
+     ]
+    },
+    {
+     "id": "q5e",
+     "label": "5e",
+     "section": "Fluency",
+     "stem": "Which two consecutive whole numbers is each square root between? Type both numbers, separated by a comma.",
+     "prompt": "$\\sqrt{75}$",
+     "type": "list",
+     "answer": [
+      "8",
+      "9"
+     ]
+    },
+    {
+     "id": "q5f",
+     "label": "5f",
+     "section": "Fluency",
+     "stem": "Which two consecutive whole numbers is each square root between? Type both numbers, separated by a comma.",
+     "prompt": "$\\sqrt{115}$",
+     "type": "list",
+     "answer": [
+      "10",
+      "11"
+     ]
+    },
+    {
+     "id": "q5g",
+     "label": "5g",
+     "section": "Fluency",
+     "stem": "Which two consecutive whole numbers is each square root between? Type both numbers, separated by a comma.",
+     "prompt": "$\\sqrt{5}$",
+     "type": "list",
+     "answer": [
+      "2",
+      "3"
+     ]
+    },
+    {
+     "id": "q5h",
+     "label": "5h",
+     "section": "Fluency",
+     "stem": "Which two consecutive whole numbers is each square root between? Type both numbers, separated by a comma.",
+     "prompt": "$\\sqrt{2}$",
+     "type": "list",
+     "answer": [
+      "1",
+      "2"
+     ]
+    },
+    {
+     "id": "q6a",
+     "label": "6a",
+     "section": "Fluency",
+     "stem": "Evaluate.",
+     "prompt": "$4^2 + 2^2 - \\sqrt{25}$",
+     "type": "numeric",
+     "answer": "15"
+    },
+    {
+     "id": "q6b",
+     "label": "6b",
+     "section": "Fluency",
+     "stem": "Evaluate.",
+     "prompt": "$3 \\times 5^2$",
+     "type": "numeric",
+     "answer": "75"
+    },
+    {
+     "id": "q6c",
+     "label": "6c",
+     "section": "Fluency",
+     "stem": "Evaluate.",
+     "prompt": "$9^2 - 1^2 + 0^2$",
+     "type": "numeric",
+     "answer": "80"
+    },
+    {
+     "id": "q6d",
+     "label": "6d",
+     "section": "Fluency",
+     "stem": "Evaluate.",
+     "prompt": "$2^2 \\times 1^2 \\times 5^2$",
+     "type": "numeric",
+     "answer": "100"
+    },
+    {
+     "id": "q6e",
+     "label": "6e",
+     "section": "Fluency",
+     "stem": "Evaluate.",
+     "prompt": "$\\sqrt{10^2 - 8^2}$",
+     "type": "numeric",
+     "answer": "6"
+    },
+    {
+     "id": "q6f",
+     "label": "6f",
+     "section": "Fluency",
+     "stem": "Evaluate.",
+     "prompt": "$\\sqrt{100 - 6^2}$",
+     "type": "numeric",
+     "answer": "8"
+    },
+    {
+     "id": "q6g",
+     "label": "6g",
+     "section": "Fluency",
+     "stem": "Evaluate.",
+     "prompt": "$8^2 \\div 4^2 \\times 2^2$",
+     "type": "numeric",
+     "answer": "16"
+    },
+    {
+     "id": "q6h",
+     "label": "6h",
+     "section": "Fluency",
+     "stem": "Evaluate.",
+     "prompt": "$\\sqrt{16} \\times \\sqrt{81} \\div \\sqrt{36}$",
+     "type": "numeric",
+     "answer": "6"
+    },
+    {
+     "id": "q6i",
+     "label": "6i",
+     "section": "Fluency",
+     "stem": "Evaluate.",
+     "prompt": "$\\sqrt{9^2 + 12^2}$",
+     "type": "numeric",
+     "answer": "15"
+    },
+    {
+     "id": "q7a",
+     "label": "7a",
+     "section": "Problem-solving",
+     "stem": "A square patio is paved with 49 square pavers, all the same size.",
+     "prompt": "How many pavers long is each side of the patio?",
+     "type": "numeric",
+     "answer": "7",
+     "units": "pavers"
+    },
+    {
+     "id": "q7b",
+     "label": "7b",
+     "section": "Problem-solving",
+     "stem": "A square patio is paved with 49 square pavers, all the same size.",
+     "prompt": "What is the perimeter of the patio, measured in paver lengths?",
+     "type": "numeric",
+     "answer": "28",
+     "units": "paver lengths"
+    },
+    {
+     "id": "q7c",
+     "label": "7c",
+     "section": "Problem-solving",
+     "stem": "A square patio is paved with 49 square pavers, all the same size.",
+     "prompt": "Another square patio uses 144 pavers. What is its perimeter in paver lengths?",
+     "type": "numeric",
+     "answer": "48",
+     "units": "paver lengths"
+    },
+    {
+     "id": "q8a",
+     "label": "8a",
+     "section": "Problem-solving",
+     "stem": "$\\sqrt{30}$ is between $5$ and $6$, so as a decimal it starts with $5$ (it is $5$ point something). What whole number does each of these start with?",
+     "prompt": "$\\sqrt{58}$",
+     "type": "numeric",
+     "answer": "7"
+    },
+    {
+     "id": "q8b",
+     "label": "8b",
+     "section": "Problem-solving",
+     "stem": "$\\sqrt{30}$ is between $5$ and $6$, so as a decimal it starts with $5$ (it is $5$ point something). What whole number does each of these start with?",
+     "prompt": "$\\sqrt{95}$",
+     "type": "numeric",
+     "answer": "9"
+    },
+    {
+     "id": "q8c",
+     "label": "8c",
+     "section": "Problem-solving",
+     "stem": "$\\sqrt{30}$ is between $5$ and $6$, so as a decimal it starts with $5$ (it is $5$ point something). What whole number does each of these start with?",
+     "prompt": "$\\sqrt{20}$",
+     "type": "numeric",
+     "answer": "4"
+    },
+    {
+     "id": "q8d",
+     "label": "8d",
+     "section": "Problem-solving",
+     "stem": "$\\sqrt{30}$ is between $5$ and $6$, so as a decimal it starts with $5$ (it is $5$ point something). What whole number does each of these start with?",
+     "prompt": "$\\sqrt{47}$",
+     "type": "numeric",
+     "answer": "6"
+    },
+    {
+     "id": "q9",
+     "label": "9",
+     "section": "Problem-solving",
+     "prompt": "List all the square numbers between $300$ and $500$. Separate them with commas. (Hint: there are 5 of them.)",
+     "type": "list",
+     "answer": [
+      "324",
+      "361",
+      "400",
+      "441",
+      "484"
+     ]
+    },
+    {
+     "id": "q10a",
+     "label": "10a",
+     "section": "Problem-solving",
+     "stem": "Answer each part with two square numbers, separated by a comma.",
+     "prompt": "Find two square numbers that add to $74$.",
+     "type": "list",
+     "answer": [
+      "25",
+      "49"
+     ]
+    },
+    {
+     "id": "q10b",
+     "label": "10b",
+     "section": "Problem-solving",
+     "stem": "Answer each part with two square numbers, separated by a comma.",
+     "prompt": "Find two square numbers that have a difference of $45$.",
+     "type": "list",
+     "answer": [
+      "4",
+      "49"
+     ],
+     "accept": [
+      "36, 81",
+      "484, 529"
+     ]
+    },
+    {
+     "id": "q11a",
+     "label": "11a",
+     "section": "Reasoning",
+     "stem": "You can find $52^2$ by splitting a square of width $52$ into a $50 \\times 50$ square, two $50 \\times 2$ rectangles and a $2 \\times 2$ square: $52^2 = 50^2 + 2 \\times 50 \\times 2 + 2^2 = 2500 + 200 + 4 = 2704$. Use the same method to work out these.",
+     "prompt": "$43^2$",
+     "type": "numeric",
+     "answer": "1849"
+    },
+    {
+     "id": "q11b",
+     "label": "11b",
+     "section": "Reasoning",
+     "stem": "You can find $52^2$ by splitting a square of width $52$ into a $50 \\times 50$ square, two $50 \\times 2$ rectangles and a $2 \\times 2$ square: $52^2 = 50^2 + 2 \\times 50 \\times 2 + 2^2 = 2500 + 200 + 4 = 2704$. Use the same method to work out these.",
+     "prompt": "$76^2$",
+     "type": "numeric",
+     "answer": "5776"
+    },
+    {
+     "id": "q11c",
+     "label": "11c",
+     "section": "Reasoning",
+     "stem": "You can find $52^2$ by splitting a square of width $52$ into a $50 \\times 50$ square, two $50 \\times 2$ rectangles and a $2 \\times 2$ square: $52^2 = 50^2 + 2 \\times 50 \\times 2 + 2^2 = 2500 + 200 + 4 = 2704$. Use the same method to work out these.",
+     "prompt": "$105^2$",
+     "type": "numeric",
+     "answer": "11025"
+    },
+    {
+     "id": "q12a",
+     "label": "12a",
+     "section": "Reasoning",
+     "stem": "This question explores the rule $a^2 \\times b^2 = (a \\times b)^2$.",
+     "prompt": "Evaluate $2^2 \\times 7^2$.",
+     "type": "numeric",
+     "answer": "196"
+    },
+    {
+     "id": "q12b",
+     "label": "12b",
+     "section": "Reasoning",
+     "stem": "This question explores the rule $a^2 \\times b^2 = (a \\times b)^2$.",
+     "prompt": "Evaluate $14^2$.",
+     "type": "numeric",
+     "answer": "196"
+    },
+    {
+     "id": "q12c",
+     "label": "12c",
+     "section": "Reasoning",
+     "stem": "This question explores the rule $a^2 \\times b^2 = (a \\times b)^2$.",
+     "prompt": "If $2^2 \\times 7^2 = 14^2$ fits the rule, what are the values of $a$ and $b$? Type both, separated by a comma.",
+     "type": "list",
+     "answer": [
+      "2",
+      "7"
+     ]
+    },
+    {
+     "id": "q13a",
+     "label": "13a",
+     "section": "Reasoning",
+     "stem": "Look for a pattern in these squares.",
+     "prompt": "Evaluate $99^2$.",
+     "type": "numeric",
+     "answer": "9801"
+    },
+    {
+     "id": "q13b",
+     "label": "13b",
+     "section": "Reasoning",
+     "stem": "Look for a pattern in these squares.",
+     "prompt": "Evaluate $999^2$.",
+     "type": "numeric",
+     "answer": "998001"
+    },
+    {
+     "id": "q13c",
+     "label": "13c",
+     "section": "Reasoning",
+     "stem": "Look for a pattern in these squares.",
+     "prompt": "Use the pattern to predict $9999^2$, then check it.",
+     "type": "numeric",
+     "answer": "99980001"
+    },
+    {
+     "id": "q14a",
+     "label": "14a",
+     "section": "Enrichment",
+     "stem": "Exploring square patterns. Separate lists of numbers with commas.",
+     "prompt": "Write down the values of $13^2$, $14^2$, $15^2$ and $16^2$, in that order.",
+     "type": "ordered",
+     "answer": [
+      "169",
+      "196",
+      "225",
+      "256"
+     ],
+     "stemFigure": {
+      "kind": "table",
+      "rows": [
+       [
+        "n",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+       ],
+       [
+        "n squared",
+        "1",
+        "4",
+        "9",
+        "?",
+        "?",
+        "?",
+        "?"
+       ],
+       [
+        "difference",
+        "-",
+        "3",
+        "5",
+        "?",
+        "?",
+        "?",
+        "?"
+       ]
+      ]
+     }
+    },
+    {
+     "id": "q14b",
+     "label": "14b",
+     "section": "Enrichment",
+     "stem": "Exploring square patterns. Separate lists of numbers with commas.",
+     "prompt": "Complete the difference row of the table: the differences between consecutive square numbers from $1^2$ up to $7^2$, starting with $3$.",
+     "type": "ordered",
+     "answer": [
+      "3",
+      "5",
+      "7",
+      "9",
+      "11",
+      "13"
+     ]
+    },
+    {
+     "id": "q14c",
+     "label": "14c",
+     "section": "Enrichment",
+     "stem": "Exploring square patterns. Separate lists of numbers with commas.",
+     "prompt": "Without working out either square, what is the difference between $25^2$ and $26^2$?",
+     "type": "numeric",
+     "answer": "51"
+    },
+    {
+     "id": "q14d",
+     "label": "14d",
+     "section": "Enrichment",
+     "stem": "Exploring square patterns. Separate lists of numbers with commas.",
+     "prompt": "Write the difference between $n^2$ and the next square, $(n + 1)^2$, as an expression. Use the letter n.",
+     "type": "expression",
+     "answer": "2n+1"
+    }
+   ]
+  },
+  {
+   "id": "2h",
+   "chapter": "Chapter 2: Number properties and patterns",
+   "title": "2H Number patterns",
+   "description": "Continuing number patterns with a common difference or ratio, special sequences and pattern problems.",
+   "questions": [
+    {
+     "id": "q1a",
+     "label": "1a",
+     "section": "Fluency",
+     "stem": "Find the next three terms of each number pattern. Each pattern has a common difference. Separate your answers with commas.",
+     "prompt": "$4, 11, 18$, ___, ___, ___",
+     "type": "ordered",
+     "answer": [
+      "25",
+      "32",
+      "39"
+     ]
+    },
+    {
+     "id": "q1b",
+     "label": "1b",
+     "section": "Fluency",
+     "stem": "Find the next three terms of each number pattern. Each pattern has a common difference. Separate your answers with commas.",
+     "prompt": "$23, 35, 47$, ___, ___, ___",
+     "type": "ordered",
+     "answer": [
+      "59",
+      "71",
+      "83"
+     ]
+    },
+    {
+     "id": "q1c",
+     "label": "1c",
+     "section": "Fluency",
+     "stem": "Find the next three terms of each number pattern. Each pattern has a common difference. Separate your answers with commas.",
+     "prompt": "$58, 52, 46$, ___, ___, ___",
+     "type": "ordered",
+     "answer": [
+      "40",
+      "34",
+      "28"
+     ]
+    },
+    {
+     "id": "q1d",
+     "label": "1d",
+     "section": "Fluency",
+     "stem": "Find the next three terms of each number pattern. Each pattern has a common difference. Separate your answers with commas.",
+     "prompt": "$100, 89, 78$, ___, ___, ___",
+     "type": "ordered",
+     "answer": [
+      "67",
+      "56",
+      "45"
+     ]
+    },
+    {
+     "id": "q2a",
+     "label": "2a",
+     "section": "Fluency",
+     "stem": "Find the next three terms of each number pattern. Each pattern has a common difference. Separate your answers with commas.",
+     "prompt": "$2, 9, 16, 23$, ___, ___, ___",
+     "type": "ordered",
+     "answer": [
+      "30",
+      "37",
+      "44"
+     ]
+    },
+    {
+     "id": "q2b",
+     "label": "2b",
+     "section": "Fluency",
+     "stem": "Find the next three terms of each number pattern. Each pattern has a common difference. Separate your answers with commas.",
+     "prompt": "$11, 20, 29, 38$, ___, ___, ___",
+     "type": "ordered",
+     "answer": [
+      "47",
+      "56",
+      "65"
+     ]
+    },
+    {
+     "id": "q2c",
+     "label": "2c",
+     "section": "Fluency",
+     "stem": "Find the next three terms of each number pattern. Each pattern has a common difference. Separate your answers with commas.",
+     "prompt": "$41, 37, 33, 29$, ___, ___, ___",
+     "type": "ordered",
+     "answer": [
+      "25",
+      "21",
+      "17"
+     ]
+    },
+    {
+     "id": "q2d",
+     "label": "2d",
+     "section": "Fluency",
+     "stem": "Find the next three terms of each number pattern. Each pattern has a common difference. Separate your answers with commas.",
+     "prompt": "$205, 210, 215, 220$, ___, ___, ___",
+     "type": "ordered",
+     "answer": [
+      "225",
+      "230",
+      "235"
+     ]
+    },
+    {
+     "id": "q2e",
+     "label": "2e",
+     "section": "Fluency",
+     "stem": "Find the next three terms of each number pattern. Each pattern has a common difference. Separate your answers with commas.",
+     "prompt": "$72, 64, 56, 48$, ___, ___, ___",
+     "type": "ordered",
+     "answer": [
+      "40",
+      "32",
+      "24"
+     ]
+    },
+    {
+     "id": "q2f",
+     "label": "2f",
+     "section": "Fluency",
+     "stem": "Find the next three terms of each number pattern. Each pattern has a common difference. Separate your answers with commas.",
+     "prompt": "$15, 14, 13, 12$, ___, ___, ___",
+     "type": "ordered",
+     "answer": [
+      "11",
+      "10",
+      "9"
+     ]
+    },
+    {
+     "id": "q2g",
+     "label": "2g",
+     "section": "Fluency",
+     "stem": "Find the next three terms of each number pattern. Each pattern has a common difference. Separate your answers with commas.",
+     "prompt": "$125, 250, 375, 500$, ___, ___, ___",
+     "type": "ordered",
+     "answer": [
+      "625",
+      "750",
+      "875"
+     ]
+    },
+    {
+     "id": "q2h",
+     "label": "2h",
+     "section": "Fluency",
+     "stem": "Find the next three terms of each number pattern. Each pattern has a common difference. Separate your answers with commas.",
+     "prompt": "$90, 83, 76, 69$, ___, ___, ___",
+     "type": "ordered",
+     "answer": [
+      "62",
+      "55",
+      "48"
+     ]
+    },
+    {
+     "id": "q3a",
+     "label": "3a",
+     "section": "Fluency",
+     "stem": "Find the next three terms of each number pattern. Each pattern has a common ratio. Separate your answers with commas.",
+     "prompt": "$3, 6, 12, 24$, ___, ___, ___",
+     "type": "ordered",
+     "answer": [
+      "48",
+      "96",
+      "192"
+     ]
+    },
+    {
+     "id": "q3b",
+     "label": "3b",
+     "section": "Fluency",
+     "stem": "Find the next three terms of each number pattern. Each pattern has a common ratio. Separate your answers with commas.",
+     "prompt": "$4, 12, 36, 108$, ___, ___, ___",
+     "type": "ordered",
+     "answer": [
+      "324",
+      "972",
+      "2916"
+     ]
+    },
+    {
+     "id": "q3c",
+     "label": "3c",
+     "section": "Fluency",
+     "stem": "Find the next three terms of each number pattern. Each pattern has a common ratio. Separate your answers with commas.",
+     "prompt": "$160, 80, 40$, ___, ___, ___",
+     "type": "ordered",
+     "answer": [
+      "20",
+      "10",
+      "5"
+     ]
+    },
+    {
+     "id": "q3d",
+     "label": "3d",
+     "section": "Fluency",
+     "stem": "Find the next three terms of each number pattern. Each pattern has a common ratio. Separate your answers with commas.",
+     "prompt": "$3125, 625, 125$, ___, ___, ___",
+     "type": "ordered",
+     "answer": [
+      "25",
+      "5",
+      "1"
+     ]
+    },
+    {
+     "id": "q3e",
+     "label": "3e",
+     "section": "Fluency",
+     "stem": "Find the next three terms of each number pattern. Each pattern has a common ratio. Separate your answers with commas.",
+     "prompt": "$13, 26, 52, 104$, ___, ___, ___",
+     "type": "ordered",
+     "answer": [
+      "208",
+      "416",
+      "832"
+     ]
+    },
+    {
+     "id": "q3f",
+     "label": "3f",
+     "section": "Fluency",
+     "stem": "Find the next three terms of each number pattern. Each pattern has a common ratio. Separate your answers with commas.",
+     "prompt": "$9, 90, 900, 9000$, ___, ___, ___",
+     "type": "ordered",
+     "answer": [
+      "90000",
+      "900000",
+      "9000000"
+     ]
+    },
+    {
+     "id": "q3g",
+     "label": "3g",
+     "section": "Fluency",
+     "stem": "Find the next three terms of each number pattern. Each pattern has a common ratio. Separate your answers with commas.",
+     "prompt": "$729, 243, 81, 27$, ___, ___, ___",
+     "type": "ordered",
+     "answer": [
+      "9",
+      "3",
+      "1"
+     ]
+    },
+    {
+     "id": "q3h",
+     "label": "3h",
+     "section": "Fluency",
+     "stem": "Find the next three terms of each number pattern. Each pattern has a common ratio. Separate your answers with commas.",
+     "prompt": "$2112, 1056, 528, 264$, ___, ___, ___",
+     "type": "ordered",
+     "answer": [
+      "132",
+      "66",
+      "33"
+     ]
+    },
+    {
+     "id": "q4a",
+     "label": "4a",
+     "section": "Fluency",
+     "stem": "Find the missing numbers in each number pattern. Type them in order, separated by commas.",
+     "prompt": "$71, 64, \\_\\_\\_, 50, 43, \\_\\_\\_, \\_\\_\\_$",
+     "type": "ordered",
+     "answer": [
+      "57",
+      "36",
+      "29"
+     ]
+    },
+    {
+     "id": "q4b",
+     "label": "4b",
+     "section": "Fluency",
+     "stem": "Find the missing numbers in each number pattern. Type them in order, separated by commas.",
+     "prompt": "$12, \\_\\_\\_, 30, \\_\\_\\_, \\_\\_\\_, 57, 66$",
+     "type": "ordered",
+     "answer": [
+      "21",
+      "39",
+      "48"
+     ]
+    },
+    {
+     "id": "q4c",
+     "label": "4c",
+     "section": "Fluency",
+     "stem": "Find the missing numbers in each number pattern. Type them in order, separated by commas.",
+     "prompt": "$3, 6, 12, \\_\\_\\_, \\_\\_\\_, 96, \\_\\_\\_$",
+     "type": "ordered",
+     "answer": [
+      "24",
+      "48",
+      "192"
+     ]
+    },
+    {
+     "id": "q4d",
+     "label": "4d",
+     "section": "Fluency",
+     "stem": "Find the missing numbers in each number pattern. Type them in order, separated by commas.",
+     "prompt": "$5, 10, \\_\\_\\_, 20, \\_\\_\\_, 30, \\_\\_\\_$",
+     "type": "ordered",
+     "answer": [
+      "15",
+      "25",
+      "35"
+     ]
+    },
+    {
+     "id": "q4e",
+     "label": "4e",
+     "section": "Fluency",
+     "stem": "Find the missing numbers in each number pattern. Type them in order, separated by commas.",
+     "prompt": "$96, 84, 72, \\_\\_\\_, \\_\\_\\_, \\_\\_\\_, 24$",
+     "type": "ordered",
+     "answer": [
+      "60",
+      "48",
+      "36"
+     ]
+    },
+    {
+     "id": "q4f",
+     "label": "4f",
+     "section": "Fluency",
+     "stem": "Find the missing numbers in each number pattern. Type them in order, separated by commas.",
+     "prompt": "$4374, 1458, \\_\\_\\_, \\_\\_\\_, 54$",
+     "type": "ordered",
+     "answer": [
+      "486",
+      "162"
+     ]
+    },
+    {
+     "id": "q4g",
+     "label": "4g",
+     "section": "Fluency",
+     "stem": "Find the missing numbers in each number pattern. Type them in order, separated by commas.",
+     "prompt": "$11, 33, \\_\\_\\_, \\_\\_\\_, 99, \\_\\_\\_, 143$",
+     "type": "ordered",
+     "answer": [
+      "55",
+      "77",
+      "121"
+     ]
+    },
+    {
+     "id": "q4h",
+     "label": "4h",
+     "section": "Fluency",
+     "stem": "Find the missing numbers in each number pattern. Type them in order, separated by commas.",
+     "prompt": "$11, 33, \\_\\_\\_, \\_\\_\\_, 891, \\_\\_\\_, 8019$",
+     "type": "ordered",
+     "answer": [
+      "99",
+      "297",
+      "2673"
+     ]
+    },
+    {
+     "id": "q5a",
+     "label": "5a",
+     "section": "Fluency",
+     "stem": "Write the next three terms in each sequence. Separate your answers with commas.",
+     "prompt": "$10, 11, 13, 16$, ___, ___, ___",
+     "type": "ordered",
+     "answer": [
+      "20",
+      "25",
+      "31"
+     ]
+    },
+    {
+     "id": "q5b",
+     "label": "5b",
+     "section": "Fluency",
+     "stem": "Write the next three terms in each sequence. Separate your answers with commas.",
+     "prompt": "$5, 7, 11, 17, 25$, ___, ___, ___",
+     "type": "ordered",
+     "answer": [
+      "35",
+      "47",
+      "61"
+     ]
+    },
+    {
+     "id": "q5c",
+     "label": "5c",
+     "section": "Fluency",
+     "stem": "Write the next three terms in each sequence. Separate your answers with commas.",
+     "prompt": "$2, 5, 10, 17, 26$, ___, ___, ___",
+     "type": "ordered",
+     "answer": [
+      "37",
+      "50",
+      "65"
+     ]
+    },
+    {
+     "id": "q5d",
+     "label": "5d",
+     "section": "Fluency",
+     "stem": "Write the next three terms in each sequence. Separate your answers with commas.",
+     "prompt": "$40, 40, 39, 37, 34$, ___, ___, ___",
+     "type": "ordered",
+     "answer": [
+      "30",
+      "25",
+      "19"
+     ]
+    },
+    {
+     "id": "q5e",
+     "label": "5e",
+     "section": "Fluency",
+     "stem": "Write the next three terms in each sequence. Separate your answers with commas.",
+     "prompt": "$11, 13, 17, 19, 23, 29$, ___, ___, ___",
+     "type": "ordered",
+     "answer": [
+      "31",
+      "37",
+      "41"
+     ]
+    },
+    {
+     "id": "q5f",
+     "label": "5f",
+     "section": "Fluency",
+     "stem": "Write the next three terms in each sequence. Separate your answers with commas.",
+     "prompt": "$3, 5, 9, 17$, ___, ___, ___",
+     "type": "ordered",
+     "answer": [
+      "33",
+      "65",
+      "129"
+     ]
+    },
+    {
+     "id": "q5g",
+     "label": "5g",
+     "section": "Fluency",
+     "stem": "Write the next three terms in each sequence. Separate your answers with commas.",
+     "prompt": "$1, 20, 3, 18, 5, 16$, ___, ___, ___",
+     "type": "ordered",
+     "answer": [
+      "7",
+      "14",
+      "9"
+     ]
+    },
+    {
+     "id": "q5h",
+     "label": "5h",
+     "section": "Fluency",
+     "stem": "Write the next three terms in each sequence. Separate your answers with commas.",
+     "prompt": "$5, 64, 12, 32, 19, 16$, ___, ___, ___",
+     "type": "ordered",
+     "answer": [
+      "26",
+      "8",
+      "33"
+     ]
+    },
+    {
+     "id": "q6a",
+     "label": "6a",
+     "section": "Fluency",
+     "stem": "Each of these is a special kind of number sequence. Find the next three terms. Separate your answers with commas.",
+     "prompt": "$9, 16, 25, 36, 49, 64$, ___, ___, ___",
+     "type": "ordered",
+     "answer": [
+      "81",
+      "100",
+      "121"
+     ]
+    },
+    {
+     "id": "q6b",
+     "label": "6b",
+     "section": "Fluency",
+     "stem": "Each of these is a special kind of number sequence. Find the next three terms. Separate your answers with commas.",
+     "prompt": "$3, 5, 8, 13, 21, 34$, ___, ___, ___",
+     "type": "ordered",
+     "answer": [
+      "55",
+      "89",
+      "144"
+     ]
+    },
+    {
+     "id": "q6c",
+     "label": "6c",
+     "section": "Fluency",
+     "stem": "Each of these is a special kind of number sequence. Find the next three terms. Separate your answers with commas.",
+     "prompt": "$8, 27, 64, 125, 216$, ___, ___, ___",
+     "type": "ordered",
+     "answer": [
+      "343",
+      "512",
+      "729"
+     ]
+    },
+    {
+     "id": "q6d",
+     "label": "6d",
+     "section": "Fluency",
+     "stem": "Each of these is a special kind of number sequence. Find the next three terms. Separate your answers with commas.",
+     "prompt": "$19, 23, 29, 31, 37, 41$, ___, ___, ___",
+     "type": "ordered",
+     "answer": [
+      "43",
+      "47",
+      "53"
+     ]
+    },
+    {
+     "id": "q6e",
+     "label": "6e",
+     "section": "Fluency",
+     "stem": "Each of these is a special kind of number sequence. Find the next three terms. Separate your answers with commas.",
+     "prompt": "$20, 21, 22, 24, 25, 26, 27, 28$, ___, ___, ___",
+     "type": "ordered",
+     "answer": [
+      "30",
+      "32",
+      "33"
+     ]
+    },
+    {
+     "id": "q6f",
+     "label": "6f",
+     "section": "Fluency",
+     "stem": "Each of these is a special kind of number sequence. Find the next three terms. Separate your answers with commas.",
+     "prompt": "$232, 242, 252, 262$, ___, ___, ___",
+     "type": "ordered",
+     "answer": [
+      "272",
+      "282",
+      "292"
+     ]
+    },
+    {
+     "id": "q7a",
+     "label": "7a",
+     "section": "Problem-solving",
+     "stem": "Find the next three terms of these challenging number patterns. Separate your answers with commas.",
+     "prompt": "$500, 504, 509, 515$, ___, ___, ___",
+     "type": "ordered",
+     "answer": [
+      "522",
+      "530",
+      "539"
+     ]
+    },
+    {
+     "id": "q7b",
+     "label": "7b",
+     "section": "Problem-solving",
+     "stem": "Find the next three terms of these challenging number patterns. Separate your answers with commas.",
+     "prompt": "$768, 192, 576, 144, 432$, ___, ___, ___",
+     "type": "ordered",
+     "answer": [
+      "108",
+      "324",
+      "81"
+     ]
+    },
+    {
+     "id": "q7c",
+     "label": "7c",
+     "section": "Problem-solving",
+     "stem": "Find the next three terms of these challenging number patterns. Separate your answers with commas.",
+     "prompt": "$2, 5, 10, 13, 26, 29$, ___, ___, ___",
+     "type": "ordered",
+     "answer": [
+      "58",
+      "61",
+      "122"
+     ]
+    },
+    {
+     "id": "q7d",
+     "label": "7d",
+     "section": "Problem-solving",
+     "stem": "Find the next three terms of these challenging number patterns. Separate your answers with commas.",
+     "prompt": "$1, 5, 3, 8, 6, 12, 10$, ___, ___, ___",
+     "type": "ordered",
+     "answer": [
+      "17",
+      "15",
+      "23"
+     ]
+    },
+    {
+     "id": "q8",
+     "label": "8",
+     "section": "Problem-solving",
+     "prompt": "A shop stacks tins of soup in a display. Each row has one tin fewer than the row below it, and the top row has just one tin. The bottom row has 14 tins. How many tins are in the whole display?",
+     "type": "numeric",
+     "answer": "105",
+     "units": "tins"
+    },
+    {
+     "id": "q9a",
+     "label": "9a",
+     "section": "Problem-solving",
+     "stem": "The seats in one section of a netball stadium are numbered like this. The pattern carries on up for another 16 rows, so there are 20 rows altogether.",
+     "prompt": "What is the number of the seat directly above seat 23?",
+     "type": "numeric",
+     "answer": "32",
+     "stemFigure": {
+      "kind": "table",
+      "rows": [
+       [
+        "Row 4",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36"
+       ],
+       [
+        "Row 3",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27"
+       ],
+       [
+        "Row 2",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18"
+       ],
+       [
+        "Row 1",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+       ]
+      ]
+     }
+    },
+    {
+     "id": "q9b",
+     "label": "9b",
+     "section": "Problem-solving",
+     "stem": "The seats in one section of a netball stadium are numbered like this. The pattern carries on up for another 16 rows, so there are 20 rows altogether.",
+     "prompt": "What is the number of the seat on the left-hand edge of row 9?",
+     "type": "numeric",
+     "answer": "73"
+    },
+    {
+     "id": "q9c",
+     "label": "9c",
+     "section": "Problem-solving",
+     "stem": "The seats in one section of a netball stadium are numbered like this. The pattern carries on up for another 16 rows, so there are 20 rows altogether.",
+     "prompt": "What is the number of the fourth seat from the right in row 12?",
+     "type": "numeric",
+     "answer": "105"
+    },
+    {
+     "id": "q9d",
+     "label": "9d",
+     "section": "Problem-solving",
+     "stem": "The seats in one section of a netball stadium are numbered like this. The pattern carries on up for another 16 rows, so there are 20 rows altogether.",
+     "prompt": "How many seats are in this section of the stadium?",
+     "type": "numeric",
+     "answer": "180"
+    },
+    {
+     "id": "q10",
+     "label": "10",
+     "section": "Problem-solving",
+     "prompt": "Find the next five numbers in this pattern. Separate them with commas. $1, 8, 2, 7, 6, 4, 1, 2, 5, 2, 1, 6, 3, 4, 3$, ___, ___, ___, ___, ___",
+     "type": "ordered",
+     "answer": [
+      "5",
+      "1",
+      "2",
+      "7",
+      "2"
+     ]
+    },
+    {
+     "id": "q11a",
+     "label": "11a",
+     "section": "Reasoning",
+     "stem": "Leo writes down the sequence $4, 4, 4, 4, 4, 4, \\dots$ He says it is a number pattern because it has both a common difference and a common ratio.",
+     "prompt": "What is the common difference?",
+     "type": "numeric",
+     "answer": "0"
+    },
+    {
+     "id": "q11b",
+     "label": "11b",
+     "section": "Reasoning",
+     "stem": "Leo writes down the sequence $4, 4, 4, 4, 4, 4, \\dots$ He says it is a number pattern because it has both a common difference and a common ratio.",
+     "prompt": "What is the common ratio?",
+     "type": "numeric",
+     "answer": "1"
+    },
+    {
+     "id": "q12a",
+     "label": "12a",
+     "section": "Reasoning",
+     "stem": "Find the sum of each of these number sequences.",
+     "prompt": "$1 + 2 + 3 + \\dots + 11 + 12$",
+     "type": "numeric",
+     "answer": "78"
+    },
+    {
+     "id": "q12b",
+     "label": "12b",
+     "section": "Reasoning",
+     "stem": "Find the sum of each of these number sequences.",
+     "prompt": "$1 + 3 + 5 + 7 + \\dots + 21 + 23$",
+     "type": "numeric",
+     "answer": "144"
+    },
+    {
+     "id": "q12c",
+     "label": "12c",
+     "section": "Reasoning",
+     "stem": "Find the sum of each of these number sequences.",
+     "prompt": "$1 + 2 + 3 + 4 + \\dots + 78 + 79 + 80$",
+     "type": "numeric",
+     "answer": "3240"
+    },
+    {
+     "id": "q12d",
+     "label": "12d",
+     "section": "Reasoning",
+     "stem": "Find the sum of each of these number sequences.",
+     "prompt": "$4 + 9 + 14 + 19 + 24 + 29 + 34 + 39 + 44 + 49 + 54 + 59$",
+     "type": "numeric",
+     "answer": "378"
+    },
+    {
+     "id": "q13a",
+     "label": "13a",
+     "section": "Reasoning",
+     "stem": "At the end of a game, every player on a team gives every other player exactly one high five. How many high fives are there if the team has:",
+     "prompt": "4 players?",
+     "type": "numeric",
+     "answer": "6"
+    },
+    {
+     "id": "q13b",
+     "label": "13b",
+     "section": "Reasoning",
+     "stem": "At the end of a game, every player on a team gives every other player exactly one high five. How many high fives are there if the team has:",
+     "prompt": "6 players?",
+     "type": "numeric",
+     "answer": "15"
+    },
+    {
+     "id": "q13c",
+     "label": "13c",
+     "section": "Reasoning",
+     "stem": "At the end of a game, every player on a team gives every other player exactly one high five. How many high fives are there if the team has:",
+     "prompt": "12 players?",
+     "type": "numeric",
+     "answer": "66"
+    },
+    {
+     "id": "q13d",
+     "label": "13d",
+     "section": "Reasoning",
+     "stem": "At the end of a game, every player on a team gives every other player exactly one high five. How many high fives are there if the team has:",
+     "prompt": "30 players?",
+     "type": "numeric",
+     "answer": "435"
+    },
+    {
+     "id": "q13e",
+     "label": "13e",
+     "section": "Reasoning",
+     "stem": "At the end of a game, every player on a team gives every other player exactly one high five. How many high fives are there if the team has:",
+     "prompt": "$n$ players? Write an expression using the letter n.",
+     "type": "expression",
+     "answer": "n(n-1)/2"
+    },
+    {
+     "id": "q14a",
+     "label": "14a",
+     "section": "Enrichment",
+     "stem": "Use the clues to work out each mystery number.",
+     "prompt": "I have three digits. I am odd. I am divisible by $5$. The product of my digits is $20$. The sum of my digits is less than $12$. I am less than $13^2$.",
+     "type": "numeric",
+     "answer": "145"
+    },
+    {
+     "id": "q14b",
+     "label": "14b",
+     "section": "Enrichment",
+     "stem": "Use the clues to work out each mystery number.",
+     "prompt": "I have three digits. The sum of my digits is $14$. My digits are all even. My digits are all different. I am divisible by $4$. My hundreds digit is the biggest of my digits. My tens digit is bigger than my units digit.",
+     "type": "numeric",
+     "answer": "860"
+    },
+    {
+     "id": "q14c",
+     "label": "14c",
+     "section": "Enrichment",
+     "stem": "Use the clues to work out each mystery number.",
+     "prompt": "I have three digits. I am odd and divisible by both $5$ and $9$. The product of my digits is $210$. I am less than $27^2$.",
+     "type": "numeric",
+     "answer": "675"
+    }
+   ]
+  },
+  {
+   "id": "2i",
+   "chapter": "Chapter 2: Number properties and patterns",
+   "title": "2I Spatial patterns",
+   "description": "Matchstick and tile patterns: counting, finding the rule and making predictions.",
+   "questions": [
+    {
+     "id": "q1a",
+     "label": "1a",
+     "section": "Fluency",
+     "stem": "Here is a matchstick pattern made from open boxes.",
+     "prompt": "How many sticks are needed to make shape 4 and shape 5? Type both numbers, separated by a comma.",
+     "type": "ordered",
+     "answer": [
+      "9",
+      "11"
+     ],
+     "stemFigure": {
+      "kind": "sticks",
+      "stages": [
+       [
+        [
+         0,
+         0,
+         1,
+         0
+        ],
+        [
+         0,
+         0,
+         0,
+         1
+        ],
+        [
+         1,
+         0,
+         1,
+         1
+        ]
+       ],
+       [
+        [
+         0,
+         0,
+         1,
+         0
+        ],
+        [
+         1,
+         0,
+         2,
+         0
+        ],
+        [
+         0,
+         0,
+         0,
+         1
+        ],
+        [
+         1,
+         0,
+         1,
+         1
+        ],
+        [
+         2,
+         0,
+         2,
+         1
+        ]
+       ],
+       [
+        [
+         0,
+         0,
+         1,
+         0
+        ],
+        [
+         1,
+         0,
+         2,
+         0
+        ],
+        [
+         2,
+         0,
+         3,
+         0
+        ],
+        [
+         0,
+         0,
+         0,
+         1
+        ],
+        [
+         1,
+         0,
+         1,
+         1
+        ],
+        [
+         2,
+         0,
+         2,
+         1
+        ],
+        [
+         3,
+         0,
+         3,
+         1
+        ]
+       ]
+      ],
+      "labels": [
+       "1 box",
+       "2 boxes",
+       "3 boxes"
+      ]
+     }
+    },
+    {
+     "id": "q1b",
+     "label": "1b",
+     "section": "Fluency",
+     "stem": "Here is a matchstick pattern made from open boxes.",
+     "prompt": "Write the pattern as a number pattern: the number of sticks in shapes 1 to 5, separated by commas.",
+     "type": "ordered",
+     "answer": [
+      "3",
+      "5",
+      "7",
+      "9",
+      "11"
+     ]
+    },
+    {
+     "id": "q1c",
+     "label": "1c",
+     "section": "Fluency",
+     "stem": "Here is a matchstick pattern made from open boxes.",
+     "prompt": "How many sticks are needed to make the first shape?",
+     "type": "numeric",
+     "answer": "3"
+    },
+    {
+     "id": "q1d",
+     "label": "1d",
+     "section": "Fluency",
+     "stem": "Here is a matchstick pattern made from open boxes.",
+     "prompt": "How many more sticks are needed to make each new shape?",
+     "type": "numeric",
+     "answer": "2"
+    },
+    {
+     "id": "q2a",
+     "label": "2a",
+     "section": "Fluency",
+     "stem": "For each matchstick pattern, picture the next two shapes. Then write the number of sticks in shapes 1 to 5 as a number pattern, separated by commas.",
+     "prompt": "Tall rectangles. Sticks in shapes 1 to 5:",
+     "type": "ordered",
+     "answer": [
+      "8",
+      "13",
+      "18",
+      "23",
+      "28"
+     ],
+     "figure": {
+      "kind": "sticks",
+      "stages": [
+       [
+        [
+         0,
+         0,
+         1,
+         0
+        ],
+        [
+         0,
+         3,
+         1,
+         3
+        ],
+        [
+         0,
+         0,
+         0,
+         1
+        ],
+        [
+         0,
+         1,
+         0,
+         2
+        ],
+        [
+         0,
+         2,
+         0,
+         3
+        ],
+        [
+         1,
+         0,
+         1,
+         1
+        ],
+        [
+         1,
+         1,
+         1,
+         2
+        ],
+        [
+         1,
+         2,
+         1,
+         3
+        ]
+       ],
+       [
+        [
+         0,
+         0,
+         1,
+         0
+        ],
+        [
+         1,
+         0,
+         2,
+         0
+        ],
+        [
+         0,
+         3,
+         1,
+         3
+        ],
+        [
+         1,
+         3,
+         2,
+         3
+        ],
+        [
+         0,
+         0,
+         0,
+         1
+        ],
+        [
+         0,
+         1,
+         0,
+         2
+        ],
+        [
+         0,
+         2,
+         0,
+         3
+        ],
+        [
+         1,
+         0,
+         1,
+         1
+        ],
+        [
+         1,
+         1,
+         1,
+         2
+        ],
+        [
+         1,
+         2,
+         1,
+         3
+        ],
+        [
+         2,
+         0,
+         2,
+         1
+        ],
+        [
+         2,
+         1,
+         2,
+         2
+        ],
+        [
+         2,
+         2,
+         2,
+         3
+        ]
+       ],
+       [
+        [
+         0,
+         0,
+         1,
+         0
+        ],
+        [
+         1,
+         0,
+         2,
+         0
+        ],
+        [
+         2,
+         0,
+         3,
+         0
+        ],
+        [
+         0,
+         3,
+         1,
+         3
+        ],
+        [
+         1,
+         3,
+         2,
+         3
+        ],
+        [
+         2,
+         3,
+         3,
+         3
+        ],
+        [
+         0,
+         0,
+         0,
+         1
+        ],
+        [
+         0,
+         1,
+         0,
+         2
+        ],
+        [
+         0,
+         2,
+         0,
+         3
+        ],
+        [
+         1,
+         0,
+         1,
+         1
+        ],
+        [
+         1,
+         1,
+         1,
+         2
+        ],
+        [
+         1,
+         2,
+         1,
+         3
+        ],
+        [
+         2,
+         0,
+         2,
+         1
+        ],
+        [
+         2,
+         1,
+         2,
+         2
+        ],
+        [
+         2,
+         2,
+         2,
+         3
+        ],
+        [
+         3,
+         0,
+         3,
+         1
+        ],
+        [
+         3,
+         1,
+         3,
+         2
+        ],
+        [
+         3,
+         2,
+         3,
+         3
+        ]
+       ]
+      ],
+      "labels": [
+       "1 rectangle",
+       "2 rectangles",
+       "3 rectangles"
+      ]
+     }
+    },
+    {
+     "id": "q2b",
+     "label": "2b",
+     "section": "Fluency",
+     "stem": "For each matchstick pattern, picture the next two shapes. Then write the number of sticks in shapes 1 to 5 as a number pattern, separated by commas.",
+     "prompt": "Two rows of squares. Sticks in shapes 1 to 5:",
+     "type": "ordered",
+     "answer": [
+      "7",
+      "12",
+      "17",
+      "22",
+      "27"
+     ],
+     "figure": {
+      "kind": "sticks",
+      "stages": [
+       [
+        [
+         0,
+         0,
+         1,
+         0
+        ],
+        [
+         0,
+         1,
+         1,
+         1
+        ],
+        [
+         0,
+         2,
+         1,
+         2
+        ],
+        [
+         0,
+         0,
+         0,
+         1
+        ],
+        [
+         0,
+         1,
+         0,
+         2
+        ],
+        [
+         1,
+         0,
+         1,
+         1
+        ],
+        [
+         1,
+         1,
+         1,
+         2
+        ]
+       ],
+       [
+        [
+         0,
+         0,
+         1,
+         0
+        ],
+        [
+         1,
+         0,
+         2,
+         0
+        ],
+        [
+         0,
+         1,
+         1,
+         1
+        ],
+        [
+         1,
+         1,
+         2,
+         1
+        ],
+        [
+         0,
+         2,
+         1,
+         2
+        ],
+        [
+         1,
+         2,
+         2,
+         2
+        ],
+        [
+         0,
+         0,
+         0,
+         1
+        ],
+        [
+         0,
+         1,
+         0,
+         2
+        ],
+        [
+         1,
+         0,
+         1,
+         1
+        ],
+        [
+         1,
+         1,
+         1,
+         2
+        ],
+        [
+         2,
+         0,
+         2,
+         1
+        ],
+        [
+         2,
+         1,
+         2,
+         2
+        ]
+       ],
+       [
+        [
+         0,
+         0,
+         1,
+         0
+        ],
+        [
+         1,
+         0,
+         2,
+         0
+        ],
+        [
+         2,
+         0,
+         3,
+         0
+        ],
+        [
+         0,
+         1,
+         1,
+         1
+        ],
+        [
+         1,
+         1,
+         2,
+         1
+        ],
+        [
+         2,
+         1,
+         3,
+         1
+        ],
+        [
+         0,
+         2,
+         1,
+         2
+        ],
+        [
+         1,
+         2,
+         2,
+         2
+        ],
+        [
+         2,
+         2,
+         3,
+         2
+        ],
+        [
+         0,
+         0,
+         0,
+         1
+        ],
+        [
+         0,
+         1,
+         0,
+         2
+        ],
+        [
+         1,
+         0,
+         1,
+         1
+        ],
+        [
+         1,
+         1,
+         1,
+         2
+        ],
+        [
+         2,
+         0,
+         2,
+         1
+        ],
+        [
+         2,
+         1,
+         2,
+         2
+        ],
+        [
+         3,
+         0,
+         3,
+         1
+        ],
+        [
+         3,
+         1,
+         3,
+         2
+        ]
+       ]
+      ],
+      "labels": [
+       "1 column",
+       "2 columns",
+       "3 columns"
+      ]
+     }
+    },
+    {
+     "id": "q2c",
+     "label": "2c",
+     "section": "Fluency",
+     "stem": "For each matchstick pattern, picture the next two shapes. Then write the number of sticks in shapes 1 to 5 as a number pattern, separated by commas.",
+     "prompt": "Crossed squares. Sticks in shapes 1 to 5:",
+     "type": "ordered",
+     "answer": [
+      "6",
+      "11",
+      "16",
+      "21",
+      "26"
+     ],
+     "figure": {
+      "kind": "sticks",
+      "stages": [
+       [
+        [
+         0,
+         0,
+         1,
+         0
+        ],
+        [
+         0,
+         1,
+         1,
+         1
+        ],
+        [
+         0,
+         0,
+         0,
+         1
+        ],
+        [
+         1,
+         0,
+         1,
+         1
+        ],
+        [
+         0,
+         0,
+         1,
+         1
+        ],
+        [
+         0,
+         1,
+         1,
+         0
+        ]
+       ],
+       [
+        [
+         0,
+         0,
+         1,
+         0
+        ],
+        [
+         1,
+         0,
+         2,
+         0
+        ],
+        [
+         0,
+         1,
+         1,
+         1
+        ],
+        [
+         1,
+         1,
+         2,
+         1
+        ],
+        [
+         0,
+         0,
+         0,
+         1
+        ],
+        [
+         1,
+         0,
+         1,
+         1
+        ],
+        [
+         2,
+         0,
+         2,
+         1
+        ],
+        [
+         0,
+         0,
+         1,
+         1
+        ],
+        [
+         1,
+         0,
+         2,
+         1
+        ],
+        [
+         0,
+         1,
+         1,
+         0
+        ],
+        [
+         1,
+         1,
+         2,
+         0
+        ]
+       ],
+       [
+        [
+         0,
+         0,
+         1,
+         0
+        ],
+        [
+         1,
+         0,
+         2,
+         0
+        ],
+        [
+         2,
+         0,
+         3,
+         0
+        ],
+        [
+         0,
+         1,
+         1,
+         1
+        ],
+        [
+         1,
+         1,
+         2,
+         1
+        ],
+        [
+         2,
+         1,
+         3,
+         1
+        ],
+        [
+         0,
+         0,
+         0,
+         1
+        ],
+        [
+         1,
+         0,
+         1,
+         1
+        ],
+        [
+         2,
+         0,
+         2,
+         1
+        ],
+        [
+         3,
+         0,
+         3,
+         1
+        ],
+        [
+         0,
+         0,
+         1,
+         1
+        ],
+        [
+         1,
+         0,
+         2,
+         1
+        ],
+        [
+         2,
+         0,
+         3,
+         1
+        ],
+        [
+         0,
+         1,
+         1,
+         0
+        ],
+        [
+         1,
+         1,
+         2,
+         0
+        ],
+        [
+         2,
+         1,
+         3,
+         0
+        ]
+       ]
+      ],
+      "labels": [
+       "1 square",
+       "2 squares",
+       "3 squares"
+      ]
+     }
+    },
+    {
+     "id": "q2d",
+     "label": "2d",
+     "section": "Fluency",
+     "stem": "For each matchstick pattern, picture the next two shapes. Then write the number of sticks in shapes 1 to 5 as a number pattern, separated by commas.",
+     "prompt": "Plus signs. Sticks in shapes 1 to 5:",
+     "type": "ordered",
+     "answer": [
+      "4",
+      "8",
+      "12",
+      "16",
+      "20"
+     ],
+     "figure": {
+      "kind": "sticks",
+      "stages": [
+       [
+        [
+         1,
+         1,
+         2,
+         1
+        ],
+        [
+         0,
+         1,
+         1,
+         1
+        ],
+        [
+         1,
+         1,
+         1,
+         2
+        ],
+        [
+         1,
+         0,
+         1,
+         1
+        ]
+       ],
+       [
+        [
+         1,
+         1,
+         2,
+         1
+        ],
+        [
+         0,
+         1,
+         1,
+         1
+        ],
+        [
+         1,
+         1,
+         1,
+         2
+        ],
+        [
+         1,
+         0,
+         1,
+         1
+        ],
+        [
+         3.5,
+         1,
+         4.5,
+         1
+        ],
+        [
+         2.5,
+         1,
+         3.5,
+         1
+        ],
+        [
+         3.5,
+         1,
+         3.5,
+         2
+        ],
+        [
+         3.5,
+         0,
+         3.5,
+         1
+        ]
+       ],
+       [
+        [
+         1,
+         1,
+         2,
+         1
+        ],
+        [
+         0,
+         1,
+         1,
+         1
+        ],
+        [
+         1,
+         1,
+         1,
+         2
+        ],
+        [
+         1,
+         0,
+         1,
+         1
+        ],
+        [
+         3.5,
+         1,
+         4.5,
+         1
+        ],
+        [
+         2.5,
+         1,
+         3.5,
+         1
+        ],
+        [
+         3.5,
+         1,
+         3.5,
+         2
+        ],
+        [
+         3.5,
+         0,
+         3.5,
+         1
+        ],
+        [
+         6,
+         1,
+         7,
+         1
+        ],
+        [
+         5,
+         1,
+         6,
+         1
+        ],
+        [
+         6,
+         1,
+         6,
+         2
+        ],
+        [
+         6,
+         0,
+         6,
+         1
+        ]
+       ]
+      ],
+      "labels": [
+       "1 plus",
+       "2 pluses",
+       "3 pluses"
+      ],
+      "unit": 16
+     }
+    },
+    {
+     "id": "q2e",
+     "label": "2e",
+     "section": "Fluency",
+     "stem": "For each matchstick pattern, picture the next two shapes. Then write the number of sticks in shapes 1 to 5 as a number pattern, separated by commas.",
+     "prompt": "A bridge truss. Sticks in shapes 1 to 5:",
+     "type": "ordered",
+     "answer": [
+      "3",
+      "7",
+      "11",
+      "15",
+      "19"
+     ],
+     "figure": {
+      "kind": "sticks",
+      "stages": [
+       [
+        [
+         0,
+         0,
+         1,
+         0
+        ],
+        [
+         0,
+         0,
+         0.5,
+         0.866
+        ],
+        [
+         0.5,
+         0.866,
+         1,
+         0
+        ]
+       ],
+       [
+        [
+         0,
+         0,
+         1,
+         0
+        ],
+        [
+         1,
+         0,
+         2,
+         0
+        ],
+        [
+         0,
+         0,
+         0.5,
+         0.866
+        ],
+        [
+         1,
+         0,
+         1.5,
+         0.866
+        ],
+        [
+         0.5,
+         0.866,
+         1,
+         0
+        ],
+        [
+         1.5,
+         0.866,
+         2,
+         0
+        ],
+        [
+         0.5,
+         0.866,
+         1.5,
+         0.866
+        ]
+       ],
+       [
+        [
+         0,
+         0,
+         1,
+         0
+        ],
+        [
+         1,
+         0,
+         2,
+         0
+        ],
+        [
+         2,
+         0,
+         3,
+         0
+        ],
+        [
+         0,
+         0,
+         0.5,
+         0.866
+        ],
+        [
+         1,
+         0,
+         1.5,
+         0.866
+        ],
+        [
+         2,
+         0,
+         2.5,
+         0.866
+        ],
+        [
+         0.5,
+         0.866,
+         1,
+         0
+        ],
+        [
+         1.5,
+         0.866,
+         2,
+         0
+        ],
+        [
+         2.5,
+         0.866,
+         3,
+         0
+        ],
+        [
+         0.5,
+         0.866,
+         1.5,
+         0.866
+        ],
+        [
+         1.5,
+         0.866,
+         2.5,
+         0.866
+        ]
+       ]
+      ],
+      "labels": [
+       "1 triangle",
+       "2 triangles",
+       "3 triangles"
+      ]
+     }
+    },
+    {
+     "id": "q2f",
+     "label": "2f",
+     "section": "Fluency",
+     "stem": "For each matchstick pattern, picture the next two shapes. Then write the number of sticks in shapes 1 to 5 as a number pattern, separated by commas.",
+     "prompt": "Three rows of squares. Sticks in shapes 1 to 5:",
+     "type": "ordered",
+     "answer": [
+      "10",
+      "17",
+      "24",
+      "31",
+      "38"
+     ],
+     "figure": {
+      "kind": "sticks",
+      "stages": [
+       [
+        [
+         0,
+         0,
+         1,
+         0
+        ],
+        [
+         0,
+         1,
+         1,
+         1
+        ],
+        [
+         0,
+         2,
+         1,
+         2
+        ],
+        [
+         0,
+         3,
+         1,
+         3
+        ],
+        [
+         0,
+         0,
+         0,
+         1
+        ],
+        [
+         0,
+         1,
+         0,
+         2
+        ],
+        [
+         0,
+         2,
+         0,
+         3
+        ],
+        [
+         1,
+         0,
+         1,
+         1
+        ],
+        [
+         1,
+         1,
+         1,
+         2
+        ],
+        [
+         1,
+         2,
+         1,
+         3
+        ]
+       ],
+       [
+        [
+         0,
+         0,
+         1,
+         0
+        ],
+        [
+         1,
+         0,
+         2,
+         0
+        ],
+        [
+         0,
+         1,
+         1,
+         1
+        ],
+        [
+         1,
+         1,
+         2,
+         1
+        ],
+        [
+         0,
+         2,
+         1,
+         2
+        ],
+        [
+         1,
+         2,
+         2,
+         2
+        ],
+        [
+         0,
+         3,
+         1,
+         3
+        ],
+        [
+         1,
+         3,
+         2,
+         3
+        ],
+        [
+         0,
+         0,
+         0,
+         1
+        ],
+        [
+         0,
+         1,
+         0,
+         2
+        ],
+        [
+         0,
+         2,
+         0,
+         3
+        ],
+        [
+         1,
+         0,
+         1,
+         1
+        ],
+        [
+         1,
+         1,
+         1,
+         2
+        ],
+        [
+         1,
+         2,
+         1,
+         3
+        ],
+        [
+         2,
+         0,
+         2,
+         1
+        ],
+        [
+         2,
+         1,
+         2,
+         2
+        ],
+        [
+         2,
+         2,
+         2,
+         3
+        ]
+       ],
+       [
+        [
+         0,
+         0,
+         1,
+         0
+        ],
+        [
+         1,
+         0,
+         2,
+         0
+        ],
+        [
+         2,
+         0,
+         3,
+         0
+        ],
+        [
+         0,
+         1,
+         1,
+         1
+        ],
+        [
+         1,
+         1,
+         2,
+         1
+        ],
+        [
+         2,
+         1,
+         3,
+         1
+        ],
+        [
+         0,
+         2,
+         1,
+         2
+        ],
+        [
+         1,
+         2,
+         2,
+         2
+        ],
+        [
+         2,
+         2,
+         3,
+         2
+        ],
+        [
+         0,
+         3,
+         1,
+         3
+        ],
+        [
+         1,
+         3,
+         2,
+         3
+        ],
+        [
+         2,
+         3,
+         3,
+         3
+        ],
+        [
+         0,
+         0,
+         0,
+         1
+        ],
+        [
+         0,
+         1,
+         0,
+         2
+        ],
+        [
+         0,
+         2,
+         0,
+         3
+        ],
+        [
+         1,
+         0,
+         1,
+         1
+        ],
+        [
+         1,
+         1,
+         1,
+         2
+        ],
+        [
+         1,
+         2,
+         1,
+         3
+        ],
+        [
+         2,
+         0,
+         2,
+         1
+        ],
+        [
+         2,
+         1,
+         2,
+         2
+        ],
+        [
+         2,
+         2,
+         2,
+         3
+        ],
+        [
+         3,
+         0,
+         3,
+         1
+        ],
+        [
+         3,
+         1,
+         3,
+         2
+        ],
+        [
+         3,
+         2,
+         3,
+         3
+        ]
+       ]
+      ],
+      "labels": [
+       "1 column",
+       "2 columns",
+       "3 columns"
+      ]
+     }
+    },
+    {
+     "id": "q3a",
+     "label": "3a",
+     "section": "Fluency",
+     "stem": "Here is a pattern of triangles made from matchsticks.",
+     "prompt": "Complete the table: how many sticks are needed for 1, 2, 3, 4 and 5 triangles? Separate your answers with commas.",
+     "type": "ordered",
+     "answer": [
+      "3",
+      "6",
+      "9",
+      "12",
+      "15"
+     ],
+     "stemFigure": [
+      {
+       "kind": "sticks",
+       "stages": [
+        [
+         [
+          0,
+          0,
+          1,
+          0
+         ],
+         [
+          0,
+          0,
+          0.5,
+          0.866
+         ],
+         [
+          0.5,
+          0.866,
+          1,
+          0
+         ]
+        ],
+        [
+         [
+          0,
+          0,
+          1,
+          0
+         ],
+         [
+          0,
+          0,
+          0.5,
+          0.866
+         ],
+         [
+          0.5,
+          0.866,
+          1,
+          0
+         ],
+         [
+          1.5,
+          0,
+          2.5,
+          0
+         ],
+         [
+          1.5,
+          0,
+          2,
+          0.866
+         ],
+         [
+          2,
+          0.866,
+          2.5,
+          0
+         ]
+        ],
+        [
+         [
+          0,
+          0,
+          1,
+          0
+         ],
+         [
+          0,
+          0,
+          0.5,
+          0.866
+         ],
+         [
+          0.5,
+          0.866,
+          1,
+          0
+         ],
+         [
+          1.5,
+          0,
+          2.5,
+          0
+         ],
+         [
+          1.5,
+          0,
+          2,
+          0.866
+         ],
+         [
+          2,
+          0.866,
+          2.5,
+          0
+         ],
+         [
+          3,
+          0,
+          4,
+          0
+         ],
+         [
+          3,
+          0,
+          3.5,
+          0.866
+         ],
+         [
+          3.5,
+          0.866,
+          4,
+          0
+         ]
+        ]
+       ],
+       "labels": [
+        "1 triangle",
+        "2 triangles",
+        "3 triangles"
+       ]
+      },
+      {
+       "kind": "table",
+       "rows": [
+        [
+         "Number of triangles",
+         "1",
+         "2",
+         "3",
+         "4",
+         "5"
+        ],
+        [
+         "Number of sticks",
+         "?",
+         "?",
+         "?",
+         "?",
+         "?"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "id": "q3b",
+     "label": "3b",
+     "section": "Fluency",
+     "stem": "Here is a pattern of triangles made from matchsticks.",
+     "prompt": "Write a rule for the number of sticks needed to make n triangles. Use the letter n.",
+     "type": "expression",
+     "answer": "3n",
+     "hint": "For example, 2n+5 means 2 times n, plus 5"
+    },
+    {
+     "id": "q3c",
+     "label": "3c",
+     "section": "Fluency",
+     "stem": "Here is a pattern of triangles made from matchsticks.",
+     "prompt": "Use your rule to predict how many sticks are needed to make 20 triangles.",
+     "type": "numeric",
+     "answer": "60"
+    },
+    {
+     "id": "q4a",
+     "label": "4a",
+     "section": "Fluency",
+     "stem": "This garden fence is built from posts and rails. Each section has three rails, with a post at each end. Count posts and rails as pieces of timber.",
+     "prompt": "Complete the table: how many pieces of timber are needed for 1, 2, 3, 4 and 5 sections? Separate your answers with commas.",
+     "type": "ordered",
+     "answer": [
+      "5",
+      "9",
+      "13",
+      "17",
+      "21"
+     ],
+     "stemFigure": [
+      {
+       "kind": "sticks",
+       "stages": [
+        [
+         [
+          0,
+          0,
+          0,
+          2
+         ],
+         [
+          1.5,
+          0,
+          1.5,
+          2
+         ],
+         [
+          0,
+          0.5,
+          1.5,
+          0.5
+         ],
+         [
+          0,
+          1,
+          1.5,
+          1
+         ],
+         [
+          0,
+          1.5,
+          1.5,
+          1.5
+         ]
+        ],
+        [
+         [
+          0,
+          0,
+          0,
+          2
+         ],
+         [
+          1.5,
+          0,
+          1.5,
+          2
+         ],
+         [
+          3,
+          0,
+          3,
+          2
+         ],
+         [
+          0,
+          0.5,
+          1.5,
+          0.5
+         ],
+         [
+          0,
+          1,
+          1.5,
+          1
+         ],
+         [
+          0,
+          1.5,
+          1.5,
+          1.5
+         ],
+         [
+          1.5,
+          0.5,
+          3,
+          0.5
+         ],
+         [
+          1.5,
+          1,
+          3,
+          1
+         ],
+         [
+          1.5,
+          1.5,
+          3,
+          1.5
+         ]
+        ],
+        [
+         [
+          0,
+          0,
+          0,
+          2
+         ],
+         [
+          1.5,
+          0,
+          1.5,
+          2
+         ],
+         [
+          3,
+          0,
+          3,
+          2
+         ],
+         [
+          4.5,
+          0,
+          4.5,
+          2
+         ],
+         [
+          0,
+          0.5,
+          1.5,
+          0.5
+         ],
+         [
+          0,
+          1,
+          1.5,
+          1
+         ],
+         [
+          0,
+          1.5,
+          1.5,
+          1.5
+         ],
+         [
+          1.5,
+          0.5,
+          3,
+          0.5
+         ],
+         [
+          1.5,
+          1,
+          3,
+          1
+         ],
+         [
+          1.5,
+          1.5,
+          3,
+          1.5
+         ],
+         [
+          3,
+          0.5,
+          4.5,
+          0.5
+         ],
+         [
+          3,
+          1,
+          4.5,
+          1
+         ],
+         [
+          3,
+          1.5,
+          4.5,
+          1.5
+         ]
+        ]
+       ],
+       "labels": [
+        "1 section",
+        "2 sections",
+        "3 sections"
+       ]
+      },
+      {
+       "kind": "table",
+       "rows": [
+        [
+         "Number of fence sections",
+         "1",
+         "2",
+         "3",
+         "4",
+         "5"
+        ],
+        [
+         "Pieces of timber",
+         "?",
+         "?",
+         "?",
+         "?",
+         "?"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "id": "q4b",
+     "label": "4b",
+     "section": "Fluency",
+     "stem": "This garden fence is built from posts and rails. Each section has three rails, with a post at each end. Count posts and rails as pieces of timber.",
+     "prompt": "Write a rule for the number of pieces of timber needed for n sections. Use the letter n.",
+     "type": "expression",
+     "answer": "4n+1",
+     "hint": "For example, 2n+5 means 2 times n, plus 5"
+    },
+    {
+     "id": "q4c",
+     "label": "4c",
+     "section": "Fluency",
+     "stem": "This garden fence is built from posts and rails. Each section has three rails, with a post at each end. Count posts and rails as pieces of timber.",
+     "prompt": "Use your rule to predict how many pieces of timber are needed for 20 sections.",
+     "type": "numeric",
+     "answer": "81"
+    },
+    {
+     "id": "q5a",
+     "label": "5a",
+     "section": "Problem-solving",
+     "stem": "The reading tables at Riverbend Library are hexagons, and one person can sit at each side. When tables are pushed together in a straight row, the sides that touch cannot be used.",
+     "prompt": "How many people can sit at a row of 1, 2, 3, 4 and 5 tables? Separate your answers with commas.",
+     "type": "ordered",
+     "answer": [
+      "6",
+      "10",
+      "14",
+      "18",
+      "22"
+     ],
+     "stemFigure": {
+      "kind": "sticks",
+      "stages": [
+       [
+        [
+         0.866,
+         2,
+         1.732,
+         1.5
+        ],
+        [
+         1.732,
+         0.5,
+         1.732,
+         1.5
+        ],
+        [
+         0.866,
+         0,
+         1.732,
+         0.5
+        ],
+        [
+         0,
+         0.5,
+         0.866,
+         0
+        ],
+        [
+         0,
+         0.5,
+         0,
+         1.5
+        ],
+        [
+         0,
+         1.5,
+         0.866,
+         2
+        ]
+       ],
+       [
+        [
+         0.866,
+         2,
+         1.732,
+         1.5
+        ],
+        [
+         1.732,
+         0.5,
+         1.732,
+         1.5
+        ],
+        [
+         0.866,
+         0,
+         1.732,
+         0.5
+        ],
+        [
+         0,
+         0.5,
+         0.866,
+         0
+        ],
+        [
+         0,
+         0.5,
+         0,
+         1.5
+        ],
+        [
+         0,
+         1.5,
+         0.866,
+         2
+        ],
+        [
+         2.598,
+         2,
+         3.464,
+         1.5
+        ],
+        [
+         3.464,
+         0.5,
+         3.464,
+         1.5
+        ],
+        [
+         2.598,
+         0,
+         3.464,
+         0.5
+        ],
+        [
+         1.732,
+         0.5,
+         2.598,
+         0
+        ],
+        [
+         1.732,
+         1.5,
+         2.598,
+         2
+        ]
+       ],
+       [
+        [
+         0.866,
+         2,
+         1.732,
+         1.5
+        ],
+        [
+         1.732,
+         0.5,
+         1.732,
+         1.5
+        ],
+        [
+         0.866,
+         0,
+         1.732,
+         0.5
+        ],
+        [
+         0,
+         0.5,
+         0.866,
+         0
+        ],
+        [
+         0,
+         0.5,
+         0,
+         1.5
+        ],
+        [
+         0,
+         1.5,
+         0.866,
+         2
+        ],
+        [
+         2.598,
+         2,
+         3.464,
+         1.5
+        ],
+        [
+         3.464,
+         0.5,
+         3.464,
+         1.5
+        ],
+        [
+         2.598,
+         0,
+         3.464,
+         0.5
+        ],
+        [
+         1.732,
+         0.5,
+         2.598,
+         0
+        ],
+        [
+         1.732,
+         1.5,
+         2.598,
+         2
+        ],
+        [
+         4.33,
+         2,
+         5.196,
+         1.5
+        ],
+        [
+         5.196,
+         0.5,
+         5.196,
+         1.5
+        ],
+        [
+         4.33,
+         0,
+         5.196,
+         0.5
+        ],
+        [
+         3.464,
+         0.5,
+         4.33,
+         0
+        ],
+        [
+         3.464,
+         1.5,
+         4.33,
+         2
+        ]
+       ]
+      ],
+      "labels": [
+       "1 table",
+       "2 tables",
+       "3 tables"
+      ]
+     }
+    },
+    {
+     "id": "q5b",
+     "label": "5b",
+     "section": "Problem-solving",
+     "stem": "The reading tables at Riverbend Library are hexagons, and one person can sit at each side. When tables are pushed together in a straight row, the sides that touch cannot be used.",
+     "prompt": "Write a rule for the number of people who can sit at a row of n tables. Use the letter n.",
+     "type": "expression",
+     "answer": "4n+2"
+    },
+    {
+     "id": "q5c",
+     "label": "5c",
+     "section": "Problem-solving",
+     "stem": "The reading tables at Riverbend Library are hexagons, and one person can sit at each side. When tables are pushed together in a straight row, the sides that touch cannot be used.",
+     "prompt": "The room has space for 8 tables in a row. How many people can sit around them?",
+     "type": "numeric",
+     "answer": "34",
+     "units": "people"
+    },
+    {
+     "id": "q5d",
+     "label": "5d",
+     "section": "Problem-solving",
+     "stem": "The reading tables at Riverbend Library are hexagons, and one person can sit at each side. When tables are pushed together in a straight row, the sides that touch cannot be used.",
+     "prompt": "A class of 70 students wants to sit together at one long row of tables. How many tables are needed?",
+     "type": "numeric",
+     "answer": "17",
+     "units": "tables"
+    },
+    {
+     "id": "q6a",
+     "label": "6a",
+     "section": "Problem-solving",
+     "stem": "Square tiles are laid in a single border around rectangular pools. Every pool is 2 units wide, and each tile is 1 unit by 1 unit. A pool of length 1 needs 10 tiles and a pool of length 3 needs 14 tiles.",
+     "prompt": "Complete a table of values: how many tiles are needed for pools of length 1, 2, 3, 4, 5 and 6? Separate your answers with commas.",
+     "type": "ordered",
+     "answer": [
+      "10",
+      "12",
+      "14",
+      "16",
+      "18",
+      "20"
+     ],
+     "stemFigure": {
+      "kind": "sticks",
+      "stages": [
+       [
+        [
+         0,
+         0,
+         1,
+         0
+        ],
+        [
+         0,
+         1,
+         1,
+         1
+        ],
+        [
+         0,
+         0,
+         0,
+         1
+        ],
+        [
+         1,
+         0,
+         1,
+         1
+        ],
+        [
+         0,
+         2,
+         1,
+         2
+        ],
+        [
+         0,
+         1,
+         0,
+         2
+        ],
+        [
+         1,
+         1,
+         1,
+         2
+        ],
+        [
+         0,
+         3,
+         1,
+         3
+        ],
+        [
+         0,
+         2,
+         0,
+         3
+        ],
+        [
+         1,
+         2,
+         1,
+         3
+        ],
+        [
+         0,
+         4,
+         1,
+         4
+        ],
+        [
+         0,
+         3,
+         0,
+         4
+        ],
+        [
+         1,
+         3,
+         1,
+         4
+        ],
+        [
+         1,
+         0,
+         2,
+         0
+        ],
+        [
+         1,
+         1,
+         2,
+         1
+        ],
+        [
+         2,
+         0,
+         2,
+         1
+        ],
+        [
+         1,
+         3,
+         2,
+         3
+        ],
+        [
+         1,
+         4,
+         2,
+         4
+        ],
+        [
+         2,
+         3,
+         2,
+         4
+        ],
+        [
+         2,
+         0,
+         3,
+         0
+        ],
+        [
+         2,
+         1,
+         3,
+         1
+        ],
+        [
+         3,
+         0,
+         3,
+         1
+        ],
+        [
+         2,
+         2,
+         3,
+         2
+        ],
+        [
+         2,
+         1,
+         2,
+         2
+        ],
+        [
+         3,
+         1,
+         3,
+         2
+        ],
+        [
+         2,
+         3,
+         3,
+         3
+        ],
+        [
+         2,
+         2,
+         2,
+         3
+        ],
+        [
+         3,
+         2,
+         3,
+         3
+        ],
+        [
+         2,
+         4,
+         3,
+         4
+        ],
+        [
+         3,
+         3,
+         3,
+         4
+        ]
+       ],
+       [
+        [
+         0,
+         0,
+         1,
+         0
+        ],
+        [
+         0,
+         1,
+         1,
+         1
+        ],
+        [
+         0,
+         0,
+         0,
+         1
+        ],
+        [
+         1,
+         0,
+         1,
+         1
+        ],
+        [
+         0,
+         2,
+         1,
+         2
+        ],
+        [
+         0,
+         1,
+         0,
+         2
+        ],
+        [
+         1,
+         1,
+         1,
+         2
+        ],
+        [
+         0,
+         3,
+         1,
+         3
+        ],
+        [
+         0,
+         2,
+         0,
+         3
+        ],
+        [
+         1,
+         2,
+         1,
+         3
+        ],
+        [
+         0,
+         4,
+         1,
+         4
+        ],
+        [
+         0,
+         3,
+         0,
+         4
+        ],
+        [
+         1,
+         3,
+         1,
+         4
+        ],
+        [
+         1,
+         0,
+         2,
+         0
+        ],
+        [
+         1,
+         1,
+         2,
+         1
+        ],
+        [
+         2,
+         0,
+         2,
+         1
+        ],
+        [
+         1,
+         3,
+         2,
+         3
+        ],
+        [
+         1,
+         4,
+         2,
+         4
+        ],
+        [
+         2,
+         3,
+         2,
+         4
+        ],
+        [
+         2,
+         0,
+         3,
+         0
+        ],
+        [
+         2,
+         1,
+         3,
+         1
+        ],
+        [
+         3,
+         0,
+         3,
+         1
+        ],
+        [
+         2,
+         3,
+         3,
+         3
+        ],
+        [
+         2,
+         4,
+         3,
+         4
+        ],
+        [
+         3,
+         3,
+         3,
+         4
+        ],
+        [
+         3,
+         0,
+         4,
+         0
+        ],
+        [
+         3,
+         1,
+         4,
+         1
+        ],
+        [
+         4,
+         0,
+         4,
+         1
+        ],
+        [
+         3,
+         2,
+         4,
+         2
+        ],
+        [
+         3,
+         1,
+         3,
+         2
+        ],
+        [
+         4,
+         1,
+         4,
+         2
+        ],
+        [
+         3,
+         3,
+         4,
+         3
+        ],
+        [
+         3,
+         2,
+         3,
+         3
+        ],
+        [
+         4,
+         2,
+         4,
+         3
+        ],
+        [
+         3,
+         4,
+         4,
+         4
+        ],
+        [
+         4,
+         3,
+         4,
+         4
+        ]
+       ],
+       [
+        [
+         0,
+         0,
+         1,
+         0
+        ],
+        [
+         0,
+         1,
+         1,
+         1
+        ],
+        [
+         0,
+         0,
+         0,
+         1
+        ],
+        [
+         1,
+         0,
+         1,
+         1
+        ],
+        [
+         0,
+         2,
+         1,
+         2
+        ],
+        [
+         0,
+         1,
+         0,
+         2
+        ],
+        [
+         1,
+         1,
+         1,
+         2
+        ],
+        [
+         0,
+         3,
+         1,
+         3
+        ],
+        [
+         0,
+         2,
+         0,
+         3
+        ],
+        [
+         1,
+         2,
+         1,
+         3
+        ],
+        [
+         0,
+         4,
+         1,
+         4
+        ],
+        [
+         0,
+         3,
+         0,
+         4
+        ],
+        [
+         1,
+         3,
+         1,
+         4
+        ],
+        [
+         1,
+         0,
+         2,
+         0
+        ],
+        [
+         1,
+         1,
+         2,
+         1
+        ],
+        [
+         2,
+         0,
+         2,
+         1
+        ],
+        [
+         1,
+         3,
+         2,
+         3
+        ],
+        [
+         1,
+         4,
+         2,
+         4
+        ],
+        [
+         2,
+         3,
+         2,
+         4
+        ],
+        [
+         2,
+         0,
+         3,
+         0
+        ],
+        [
+         2,
+         1,
+         3,
+         1
+        ],
+        [
+         3,
+         0,
+         3,
+         1
+        ],
+        [
+         2,
+         3,
+         3,
+         3
+        ],
+        [
+         2,
+         4,
+         3,
+         4
+        ],
+        [
+         3,
+         3,
+         3,
+         4
+        ],
+        [
+         3,
+         0,
+         4,
+         0
+        ],
+        [
+         3,
+         1,
+         4,
+         1
+        ],
+        [
+         4,
+         0,
+         4,
+         1
+        ],
+        [
+         3,
+         3,
+         4,
+         3
+        ],
+        [
+         3,
+         4,
+         4,
+         4
+        ],
+        [
+         4,
+         3,
+         4,
+         4
+        ],
+        [
+         4,
+         0,
+         5,
+         0
+        ],
+        [
+         4,
+         1,
+         5,
+         1
+        ],
+        [
+         5,
+         0,
+         5,
+         1
+        ],
+        [
+         4,
+         2,
+         5,
+         2
+        ],
+        [
+         4,
+         1,
+         4,
+         2
+        ],
+        [
+         5,
+         1,
+         5,
+         2
+        ],
+        [
+         4,
+         3,
+         5,
+         3
+        ],
+        [
+         4,
+         2,
+         4,
+         3
+        ],
+        [
+         5,
+         2,
+         5,
+         3
+        ],
+        [
+         4,
+         4,
+         5,
+         4
+        ],
+        [
+         5,
+         3,
+         5,
+         4
+        ]
+       ]
+      ],
+      "labels": [
+       "1 unit long",
+       "2 units long",
+       "3 units long"
+      ],
+      "unit": 16
+     }
+    },
+    {
+     "id": "q6b",
+     "label": "6b",
+     "section": "Problem-solving",
+     "stem": "Square tiles are laid in a single border around rectangular pools. Every pool is 2 units wide, and each tile is 1 unit by 1 unit. A pool of length 1 needs 10 tiles and a pool of length 3 needs 14 tiles.",
+     "prompt": "Write a rule for the number of tiles needed for a pool of length n. Use the letter n.",
+     "type": "expression",
+     "answer": "2n+8"
+    },
+    {
+     "id": "q6c",
+     "label": "6c",
+     "section": "Problem-solving",
+     "stem": "Square tiles are laid in a single border around rectangular pools. Every pool is 2 units wide, and each tile is 1 unit by 1 unit. A pool of length 1 needs 10 tiles and a pool of length 3 needs 14 tiles.",
+     "prompt": "The longest pool the company builds is 18 units long. How many tiles are needed to go around it?",
+     "type": "numeric",
+     "answer": "44",
+     "units": "tiles"
+    },
+    {
+     "id": "q6d",
+     "label": "6d",
+     "section": "Problem-solving",
+     "stem": "Square tiles are laid in a single border around rectangular pools. Every pool is 2 units wide, and each tile is 1 unit by 1 unit. A pool of length 1 needs 10 tiles and a pool of length 3 needs 14 tiles.",
+     "prompt": "A tiler has only 37 tiles left. What is the length of the longest pool they can tile around?",
+     "type": "numeric",
+     "answer": "14",
+     "units": "units"
+    },
+    {
+     "id": "q7",
+     "label": "7",
+     "section": "Problem-solving",
+     "prompt": "Which rule correctly describes this matchstick pattern of trees?",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "Number of sticks = 4 × number of trees + 1",
+      "Number of sticks = 5 × number of trees",
+      "Number of sticks = 5 × number of trees + 1",
+      "Number of sticks = 4 × number of trees"
+     ],
+     "figure": {
+      "kind": "sticks",
+      "stages": [
+       [
+        [
+         0,
+         0,
+         1,
+         0
+        ],
+        [
+         0.5,
+         0,
+         0.5,
+         1
+        ],
+        [
+         0,
+         1,
+         1,
+         1
+        ],
+        [
+         0,
+         1,
+         0.5,
+         1.866
+        ],
+        [
+         0.5,
+         1.866,
+         1,
+         1
+        ]
+       ],
+       [
+        [
+         0,
+         0,
+         1,
+         0
+        ],
+        [
+         0.5,
+         0,
+         0.5,
+         1
+        ],
+        [
+         0,
+         1,
+         1,
+         1
+        ],
+        [
+         0,
+         1,
+         0.5,
+         1.866
+        ],
+        [
+         0.5,
+         1.866,
+         1,
+         1
+        ],
+        [
+         1,
+         0,
+         2,
+         0
+        ],
+        [
+         1.5,
+         0,
+         1.5,
+         1
+        ],
+        [
+         1,
+         1,
+         2,
+         1
+        ],
+        [
+         1,
+         1,
+         1.5,
+         1.866
+        ],
+        [
+         1.5,
+         1.866,
+         2,
+         1
+        ]
+       ],
+       [
+        [
+         0,
+         0,
+         1,
+         0
+        ],
+        [
+         0.5,
+         0,
+         0.5,
+         1
+        ],
+        [
+         0,
+         1,
+         1,
+         1
+        ],
+        [
+         0,
+         1,
+         0.5,
+         1.866
+        ],
+        [
+         0.5,
+         1.866,
+         1,
+         1
+        ],
+        [
+         1,
+         0,
+         2,
+         0
+        ],
+        [
+         1.5,
+         0,
+         1.5,
+         1
+        ],
+        [
+         1,
+         1,
+         2,
+         1
+        ],
+        [
+         1,
+         1,
+         1.5,
+         1.866
+        ],
+        [
+         1.5,
+         1.866,
+         2,
+         1
+        ],
+        [
+         2,
+         0,
+         3,
+         0
+        ],
+        [
+         2.5,
+         0,
+         2.5,
+         1
+        ],
+        [
+         2,
+         1,
+         3,
+         1
+        ],
+        [
+         2,
+         1,
+         2.5,
+         1.866
+        ],
+        [
+         2.5,
+         1.866,
+         3,
+         1
+        ]
+       ]
+      ],
+      "labels": [
+       "1 tree",
+       "2 trees",
+       "3 trees"
+      ]
+     }
+    },
+    {
+     "id": "q8",
+     "label": "8",
+     "section": "Problem-solving",
+     "prompt": "Which rule correctly describes this matchstick pattern of squares?",
+     "type": "choice",
+     "answer": 2,
+     "options": [
+      "Number of sticks = 4 × number of squares",
+      "Number of sticks = 3 × number of squares",
+      "Number of sticks = 3 × number of squares + 1",
+      "Number of sticks = 4 × number of squares - 1"
+     ],
+     "figure": {
+      "kind": "sticks",
+      "stages": [
+       [
+        [
+         0,
+         0,
+         1,
+         0
+        ],
+        [
+         0,
+         1,
+         1,
+         1
+        ],
+        [
+         0,
+         0,
+         0,
+         1
+        ],
+        [
+         1,
+         0,
+         1,
+         1
+        ]
+       ],
+       [
+        [
+         0,
+         0,
+         1,
+         0
+        ],
+        [
+         0,
+         1,
+         1,
+         1
+        ],
+        [
+         0,
+         2,
+         1,
+         2
+        ],
+        [
+         0,
+         0,
+         0,
+         1
+        ],
+        [
+         0,
+         1,
+         0,
+         2
+        ],
+        [
+         1,
+         0,
+         1,
+         1
+        ],
+        [
+         1,
+         1,
+         1,
+         2
+        ]
+       ],
+       [
+        [
+         0,
+         0,
+         1,
+         0
+        ],
+        [
+         0,
+         1,
+         1,
+         1
+        ],
+        [
+         0,
+         2,
+         1,
+         2
+        ],
+        [
+         0,
+         3,
+         1,
+         3
+        ],
+        [
+         0,
+         0,
+         0,
+         1
+        ],
+        [
+         0,
+         1,
+         0,
+         2
+        ],
+        [
+         0,
+         2,
+         0,
+         3
+        ],
+        [
+         1,
+         0,
+         1,
+         1
+        ],
+        [
+         1,
+         1,
+         1,
+         2
+        ],
+        [
+         1,
+         2,
+         1,
+         3
+        ]
+       ]
+      ],
+      "labels": [
+       "1 square",
+       "2 squares",
+       "3 squares"
+      ]
+     }
+    },
+    {
+     "id": "q9a",
+     "label": "9a",
+     "section": "Reasoning",
+     "stem": "A rule for a matchstick pattern of boats is $y = 5 \\times x + 3$, where y is the number of sticks and x is the number of boats.",
+     "prompt": "How many sticks are needed to make one boat?",
+     "type": "numeric",
+     "answer": "8"
+    },
+    {
+     "id": "q9b",
+     "label": "9b",
+     "section": "Reasoning",
+     "stem": "A rule for a matchstick pattern of boats is $y = 5 \\times x + 3$, where y is the number of sticks and x is the number of boats.",
+     "prompt": "How many sticks are needed to make 12 boats?",
+     "type": "numeric",
+     "answer": "63"
+    },
+    {
+     "id": "q9c",
+     "label": "9c",
+     "section": "Reasoning",
+     "stem": "A rule for a matchstick pattern of boats is $y = 5 \\times x + 3$, where y is the number of sticks and x is the number of boats.",
+     "prompt": "How many sticks are needed to make g boats? Write an expression using the letter g.",
+     "type": "expression",
+     "answer": "5g+3"
+    },
+    {
+     "id": "q9d",
+     "label": "9d",
+     "section": "Reasoning",
+     "stem": "A rule for a matchstick pattern of boats is $y = 5 \\times x + 3$, where y is the number of sticks and x is the number of boats.",
+     "prompt": "How many boats can be made from 83 sticks?",
+     "type": "numeric",
+     "answer": "16"
+    },
+    {
+     "id": "q10a",
+     "label": "10a",
+     "section": "Reasoning",
+     "stem": "A rule for a garden trellis pattern is $y = m \\times x + n$, where y is the number of pieces of timber and x is the number of panels.",
+     "prompt": "How many pieces of timber are needed to make the first panel? Write your answer using m and n.",
+     "type": "expression",
+     "answer": "m+n"
+    },
+    {
+     "id": "q10b",
+     "label": "10b",
+     "section": "Reasoning",
+     "stem": "A rule for a garden trellis pattern is $y = m \\times x + n$, where y is the number of pieces of timber and x is the number of panels.",
+     "prompt": "What does m represent?",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "The number of extra pieces of timber needed for each new panel",
+      "The number of panels in the trellis",
+      "The total number of pieces of timber",
+      "The number of pieces of timber in the first panel"
+     ]
+    },
+    {
+     "id": "q10c",
+     "label": "10c",
+     "section": "Reasoning",
+     "stem": "A rule for a garden trellis pattern is $y = m \\times x + n$, where y is the number of pieces of timber and x is the number of panels.",
+     "prompt": "If m = 3 and n = 2, how many pieces of timber are needed for 5 panels?",
+     "type": "numeric",
+     "answer": "17"
+    },
+    {
+     "id": "q11a",
+     "label": "11a",
+     "section": "Enrichment",
+     "stem": "Cutting up a circle: what is the greatest number of pieces you can cut a circle into with a given number of straight cuts? For example, 2 cuts can make at most 4 pieces.",
+     "prompt": "Complete the table: the greatest number of pieces for 1 to 7 cuts, in order, separated by commas.",
+     "type": "ordered",
+     "answer": [
+      "2",
+      "4",
+      "7",
+      "11",
+      "16",
+      "22",
+      "29"
+     ],
+     "stemFigure": {
+      "kind": "table",
+      "rows": [
+       [
+        "Number of straight cuts",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+       ],
+       [
+        "Greatest number of pieces",
+        "?",
+        "4",
+        "?",
+        "?",
+        "?",
+        "?",
+        "?"
+       ]
+      ]
+     }
+    },
+    {
+     "id": "q11b",
+     "label": "11b",
+     "section": "Enrichment",
+     "stem": "Cutting up a circle: what is the greatest number of pieces you can cut a circle into with a given number of straight cuts? For example, 2 cuts can make at most 4 pieces.",
+     "prompt": "Continue the pattern. What is the greatest number of pieces you can make with 12 cuts?",
+     "type": "numeric",
+     "answer": "79"
+    },
+    {
+     "id": "q11c",
+     "label": "11c",
+     "section": "Enrichment",
+     "stem": "Cutting up a circle: what is the greatest number of pieces you can cut a circle into with a given number of straight cuts? For example, 2 cuts can make at most 4 pieces.",
+     "prompt": "The rule is: pieces $= \\frac{1}{2} \\times \\text{cuts}^2 + \\frac{1}{2} \\times \\text{cuts} + 1$. Use it to find the greatest number of pieces with 25 cuts.",
+     "type": "numeric",
+     "answer": "326"
+    }
+   ]
+  },
+  {
+   "id": "2j",
+   "chapter": "Chapter 2: Number properties and patterns",
+   "title": "2J Tables and rules",
+   "description": "Complete input and output tables from a rule, and find the rule from a table.",
+   "questions": [
+    {
+     "id": "q1a",
+     "label": "1a",
+     "section": "Fluency",
+     "stem": "Complete each table for the given rule. Type the missing outputs in order from left to right, separated by commas.",
+     "prompt": "$\\text{output} = \\text{input} + 7$",
+     "figure": {
+      "kind": "table",
+      "rows": [
+       [
+        "input",
+        "2",
+        "4",
+        "6",
+        "11",
+        "25"
+       ],
+       [
+        "output",
+        "?",
+        "?",
+        "?",
+        "?",
+        "?"
+       ]
+      ]
+     },
+     "type": "ordered",
+     "answer": [
+      "9",
+      "11",
+      "13",
+      "18",
+      "32"
+     ]
+    },
+    {
+     "id": "q1b",
+     "label": "1b",
+     "section": "Fluency",
+     "stem": "Complete each table for the given rule. Type the missing outputs in order from left to right, separated by commas.",
+     "prompt": "$\\text{output} = 3 \\times \\text{input}$",
+     "figure": {
+      "kind": "table",
+      "rows": [
+       [
+        "input",
+        "4",
+        "8",
+        "2",
+        "10",
+        "7"
+       ],
+       [
+        "output",
+        "?",
+        "?",
+        "?",
+        "?",
+        "?"
+       ]
+      ]
+     },
+     "type": "ordered",
+     "answer": [
+      "12",
+      "24",
+      "6",
+      "30",
+      "21"
+     ]
+    },
+    {
+     "id": "q2a",
+     "label": "2a",
+     "section": "Fluency",
+     "stem": "Complete each table for the given rule. Type the missing outputs in order from left to right, separated by commas.",
+     "prompt": "$\\text{output} = \\text{input} + 6$",
+     "figure": {
+      "kind": "table",
+      "rows": [
+       [
+        "input",
+        "3",
+        "5",
+        "8",
+        "9",
+        "12"
+       ],
+       [
+        "output",
+        "?",
+        "?",
+        "?",
+        "?",
+        "?"
+       ]
+      ]
+     },
+     "type": "ordered",
+     "answer": [
+      "9",
+      "11",
+      "14",
+      "15",
+      "18"
+     ]
+    },
+    {
+     "id": "q2b",
+     "label": "2b",
+     "section": "Fluency",
+     "stem": "Complete each table for the given rule. Type the missing outputs in order from left to right, separated by commas.",
+     "prompt": "$\\text{output} = \\text{input} \\times 5$",
+     "figure": {
+      "kind": "table",
+      "rows": [
+       [
+        "input",
+        "4",
+        "2",
+        "6",
+        "8",
+        "0"
+       ],
+       [
+        "output",
+        "?",
+        "?",
+        "?",
+        "?",
+        "?"
+       ]
+      ]
+     },
+     "type": "ordered",
+     "answer": [
+      "20",
+      "10",
+      "30",
+      "40",
+      "0"
+     ]
+    },
+    {
+     "id": "q2c",
+     "label": "2c",
+     "section": "Fluency",
+     "stem": "Complete each table for the given rule. Type the missing outputs in order from left to right, separated by commas.",
+     "prompt": "$\\text{output} = \\text{input} - 7$",
+     "figure": {
+      "kind": "table",
+      "rows": [
+       [
+        "input",
+        "12",
+        "19",
+        "8",
+        "53",
+        "90"
+       ],
+       [
+        "output",
+        "?",
+        "?",
+        "?",
+        "?",
+        "?"
+       ]
+      ]
+     },
+     "type": "ordered",
+     "answer": [
+      "5",
+      "12",
+      "1",
+      "46",
+      "83"
+     ]
+    },
+    {
+     "id": "q2d",
+     "label": "2d",
+     "section": "Fluency",
+     "stem": "Complete each table for the given rule. Type the missing outputs in order from left to right, separated by commas.",
+     "prompt": "$\\text{output} = \\text{input} \\div 3$",
+     "figure": {
+      "kind": "table",
+      "rows": [
+       [
+        "input",
+        "3",
+        "12",
+        "27",
+        "0",
+        "60"
+       ],
+       [
+        "output",
+        "?",
+        "?",
+        "?",
+        "?",
+        "?"
+       ]
+      ]
+     },
+     "type": "ordered",
+     "answer": [
+      "1",
+      "4",
+      "9",
+      "0",
+      "20"
+     ]
+    },
+    {
+     "id": "q3a",
+     "label": "3a",
+     "section": "Fluency",
+     "stem": "Complete each table for the given rule. Type the missing outputs in order from left to right, separated by commas.",
+     "prompt": "$\\text{output} = (10 \\times \\text{input}) - 4$",
+     "figure": {
+      "kind": "table",
+      "rows": [
+       [
+        "input",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+       ],
+       [
+        "output",
+        "?",
+        "?",
+        "?",
+        "?",
+        "?"
+       ]
+      ]
+     },
+     "type": "ordered",
+     "answer": [
+      "6",
+      "16",
+      "26",
+      "36",
+      "46"
+     ]
+    },
+    {
+     "id": "q3b",
+     "label": "3b",
+     "section": "Fluency",
+     "stem": "Complete each table for the given rule. Type the missing outputs in order from left to right, separated by commas.",
+     "prompt": "$\\text{output} = (\\text{input} \\div 3) + 2$",
+     "figure": {
+      "kind": "table",
+      "rows": [
+       [
+        "input",
+        "6",
+        "9",
+        "12",
+        "15",
+        "18"
+       ],
+       [
+        "output",
+        "?",
+        "?",
+        "?",
+        "?",
+        "?"
+       ]
+      ]
+     },
+     "type": "ordered",
+     "answer": [
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+     ]
+    },
+    {
+     "id": "q3c",
+     "label": "3c",
+     "section": "Fluency",
+     "stem": "Complete each table for the given rule. Type the missing outputs in order from left to right, separated by commas.",
+     "prompt": "$\\text{output} = (4 \\times \\text{input}) + 1$",
+     "figure": {
+      "kind": "table",
+      "rows": [
+       [
+        "input",
+        "3",
+        "10",
+        "2",
+        "8",
+        "12"
+       ],
+       [
+        "output",
+        "?",
+        "?",
+        "?",
+        "?",
+        "?"
+       ]
+      ]
+     },
+     "type": "ordered",
+     "answer": [
+      "13",
+      "41",
+      "9",
+      "33",
+      "49"
+     ]
+    },
+    {
+     "id": "q3d",
+     "label": "3d",
+     "section": "Fluency",
+     "stem": "Complete each table for the given rule. Type the missing outputs in order from left to right, separated by commas.",
+     "prompt": "$\\text{output} = (3 \\times \\text{input}) - 5$",
+     "figure": {
+      "kind": "table",
+      "rows": [
+       [
+        "input",
+        "2",
+        "9",
+        "12",
+        "6",
+        "40"
+       ],
+       [
+        "output",
+        "?",
+        "?",
+        "?",
+        "?",
+        "?"
+       ]
+      ]
+     },
+     "type": "ordered",
+     "answer": [
+      "1",
+      "22",
+      "31",
+      "13",
+      "115"
+     ]
+    },
+    {
+     "id": "q4a",
+     "label": "4a",
+     "section": "Fluency",
+     "stem": "State the rule for each table of values.",
+     "prompt": "Table a: output = ?",
+     "figure": {
+      "kind": "table",
+      "rows": [
+       [
+        "input",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+       ],
+       [
+        "output",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+       ]
+      ]
+     },
+     "type": "expression",
+     "answer": "n+3",
+     "accept": [
+      "output=n+3"
+     ],
+     "hint": "Type only the part after output =, using n for the input. For example, type 7n-1 for output = 7 × input - 1."
+    },
+    {
+     "id": "q4b",
+     "label": "4b",
+     "section": "Fluency",
+     "stem": "State the rule for each table of values.",
+     "prompt": "Table b: output = ?",
+     "figure": {
+      "kind": "table",
+      "rows": [
+       [
+        "input",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+       ],
+       [
+        "output",
+        "6",
+        "12",
+        "18",
+        "24",
+        "30"
+       ]
+      ]
+     },
+     "type": "expression",
+     "answer": "6n",
+     "accept": [
+      "output=6n"
+     ],
+     "hint": "Type only the part after output =, using n for the input. For example, type 7n-1 for output = 7 × input - 1."
+    },
+    {
+     "id": "q5a",
+     "label": "5a",
+     "section": "Fluency",
+     "stem": "State the rule for each table of values.",
+     "prompt": "Table a: output = ?",
+     "figure": {
+      "kind": "table",
+      "rows": [
+       [
+        "input",
+        "12",
+        "7",
+        "2",
+        "1",
+        "15"
+       ],
+       [
+        "output",
+        "20",
+        "15",
+        "10",
+        "9",
+        "23"
+       ]
+      ]
+     },
+     "type": "expression",
+     "answer": "n+8",
+     "accept": [
+      "output=n+8"
+     ],
+     "hint": "Type only the part after output =, using n for the input. For example, type 7n-1 for output = 7 × input - 1."
+    },
+    {
+     "id": "q5b",
+     "label": "5b",
+     "section": "Fluency",
+     "stem": "State the rule for each table of values.",
+     "prompt": "Table b: output = ?",
+     "figure": {
+      "kind": "table",
+      "rows": [
+       [
+        "input",
+        "8",
+        "20",
+        "36",
+        "28",
+        "44"
+       ],
+       [
+        "output",
+        "2",
+        "5",
+        "9",
+        "7",
+        "11"
+       ]
+      ]
+     },
+     "type": "expression",
+     "answer": "n/4",
+     "accept": [
+      "output=n/4"
+     ],
+     "hint": "Type only the part after output =, using n for the input. For example, type 7n-1 for output = 7 × input - 1."
+    },
+    {
+     "id": "q6a",
+     "label": "6a",
+     "section": "Problem-solving",
+     "stem": "Every side of an equilateral triangle is the same length, so perimeter = 3 × side length. In this table the side length is the input and the perimeter is the output.",
+     "stemFigure": {
+      "kind": "table",
+      "rows": [
+       [
+        "input",
+        "1",
+        "2",
+        "4",
+        "9",
+        "?",
+        "?",
+        "?",
+        "?"
+       ],
+       [
+        "output",
+        "?",
+        "?",
+        "?",
+        "?",
+        "18",
+        "33",
+        "90",
+        "141"
+       ]
+      ]
+     },
+     "prompt": "Write the rule using n for the input. Type only the part after output =.",
+     "type": "expression",
+     "answer": "3n",
+     "accept": [
+      "output=3n"
+     ]
+    },
+    {
+     "id": "q6b",
+     "label": "6b",
+     "section": "Problem-solving",
+     "stem": "Every side of an equilateral triangle is the same length, so perimeter = 3 × side length. In this table the side length is the input and the perimeter is the output.",
+     "prompt": "Type the missing outputs, in order from left to right.",
+     "type": "ordered",
+     "answer": [
+      "3",
+      "6",
+      "12",
+      "27"
+     ]
+    },
+    {
+     "id": "q6c",
+     "label": "6c",
+     "section": "Problem-solving",
+     "stem": "Every side of an equilateral triangle is the same length, so perimeter = 3 × side length. In this table the side length is the input and the perimeter is the output.",
+     "prompt": "Type the missing inputs, in order from left to right.",
+     "type": "ordered",
+     "answer": [
+      "6",
+      "11",
+      "30",
+      "47"
+     ]
+    },
+    {
+     "id": "q7a",
+     "label": "7a",
+     "section": "Problem-solving",
+     "stem": "Table A: find a simple rule for the table, then fill in the gaps.",
+     "stemFigure": {
+      "kind": "table",
+      "rows": [
+       [
+        "input",
+        "2",
+        "7",
+        "?",
+        "9",
+        "?",
+        "?",
+        "4",
+        "12",
+        "3"
+       ],
+       [
+        "output",
+        "?",
+        "?",
+        "40",
+        "?",
+        "30",
+        "5",
+        "20",
+        "?",
+        "15"
+       ]
+      ]
+     },
+     "prompt": "Write the rule using n for the input. Type only the part after output =.",
+     "type": "expression",
+     "answer": "5n",
+     "accept": [
+      "output=5n"
+     ]
+    },
+    {
+     "id": "q7b",
+     "label": "7b",
+     "section": "Problem-solving",
+     "stem": "Table A: find a simple rule for the table, then fill in the gaps.",
+     "prompt": "Type the missing outputs, in order from left to right.",
+     "type": "ordered",
+     "answer": [
+      "10",
+      "35",
+      "45",
+      "60"
+     ]
+    },
+    {
+     "id": "q7c",
+     "label": "7c",
+     "section": "Problem-solving",
+     "stem": "Table A: find a simple rule for the table, then fill in the gaps.",
+     "prompt": "Type the missing inputs, in order from left to right.",
+     "type": "ordered",
+     "answer": [
+      "8",
+      "6",
+      "1"
+     ]
+    },
+    {
+     "id": "q7d",
+     "label": "7d",
+     "section": "Problem-solving",
+     "stem": "Table B: find a simple rule for the table, then fill in the gaps.",
+     "stemFigure": {
+      "kind": "table",
+      "rows": [
+       [
+        "input",
+        "14",
+        "85",
+        "13",
+        "19",
+        "?",
+        "9",
+        "?",
+        "?",
+        "?"
+       ],
+       [
+        "output",
+        "8",
+        "?",
+        "?",
+        "13",
+        "20",
+        "3",
+        "41",
+        "0",
+        "150"
+       ]
+      ]
+     },
+     "prompt": "Write the rule using n for the input. Type only the part after output =.",
+     "type": "expression",
+     "answer": "n-6",
+     "accept": [
+      "output=n-6"
+     ]
+    },
+    {
+     "id": "q7e",
+     "label": "7e",
+     "section": "Problem-solving",
+     "stem": "Table B: find a simple rule for the table, then fill in the gaps.",
+     "prompt": "Type the missing outputs, in order from left to right.",
+     "type": "ordered",
+     "answer": [
+      "79",
+      "7"
+     ]
+    },
+    {
+     "id": "q7f",
+     "label": "7f",
+     "section": "Problem-solving",
+     "stem": "Table B: find a simple rule for the table, then fill in the gaps.",
+     "prompt": "Type the missing inputs, in order from left to right.",
+     "type": "ordered",
+     "answer": [
+      "26",
+      "47",
+      "6",
+      "156"
+     ]
+    },
+    {
+     "id": "q8a",
+     "label": "8a",
+     "section": "Problem-solving",
+     "stem": "Complete each table for the given rule. Type the missing outputs in order from left to right, separated by commas.",
+     "prompt": "$\\text{output} = \\text{input} \\times \\text{input} - 3$",
+     "figure": {
+      "kind": "table",
+      "rows": [
+       [
+        "input",
+        "2",
+        "5",
+        "7",
+        "10",
+        "4"
+       ],
+       [
+        "output",
+        "?",
+        "?",
+        "?",
+        "?",
+        "?"
+       ]
+      ]
+     },
+     "type": "ordered",
+     "answer": [
+      "1",
+      "22",
+      "46",
+      "97",
+      "13"
+     ]
+    },
+    {
+     "id": "q8b",
+     "label": "8b",
+     "section": "Problem-solving",
+     "stem": "Complete each table for the given rule. Type the missing outputs in order from left to right, separated by commas.",
+     "prompt": "$\\text{output} = (36 \\div \\text{input}) + 2$",
+     "figure": {
+      "kind": "table",
+      "rows": [
+       [
+        "input",
+        "4",
+        "9",
+        "1",
+        "6",
+        "12"
+       ],
+       [
+        "output",
+        "?",
+        "?",
+        "?",
+        "?",
+        "?"
+       ]
+      ]
+     },
+     "type": "ordered",
+     "answer": [
+      "11",
+      "6",
+      "38",
+      "8",
+      "5"
+     ]
+    },
+    {
+     "id": "q8c",
+     "label": "8c",
+     "section": "Problem-solving",
+     "stem": "Complete each table for the given rule. Type the missing outputs in order from left to right, separated by commas.",
+     "prompt": "$\\text{output} = \\text{input}^2 - \\text{input}$",
+     "figure": {
+      "kind": "table",
+      "rows": [
+       [
+        "input",
+        "4",
+        "10",
+        "3",
+        "8",
+        "1"
+       ],
+       [
+        "output",
+        "?",
+        "?",
+        "?",
+        "?",
+        "?"
+       ]
+      ]
+     },
+     "type": "ordered",
+     "answer": [
+      "12",
+      "90",
+      "6",
+      "56",
+      "0"
+     ]
+    },
+    {
+     "id": "q8d",
+     "label": "8d",
+     "section": "Problem-solving",
+     "stem": "Complete each table for the given rule. Type the missing outputs in order from left to right, separated by commas.",
+     "prompt": "$\\text{output} = 2 \\times \\text{input} \\times \\text{input} + \\text{input}$",
+     "figure": {
+      "kind": "table",
+      "rows": [
+       [
+        "input",
+        "2",
+        "5",
+        "9",
+        "6",
+        "20"
+       ],
+       [
+        "output",
+        "?",
+        "?",
+        "?",
+        "?",
+        "?"
+       ]
+      ]
+     },
+     "type": "ordered",
+     "answer": [
+      "10",
+      "55",
+      "171",
+      "78",
+      "820"
+     ]
+    },
+    {
+     "id": "q9a",
+     "label": "9a",
+     "section": "Reasoning",
+     "stem": "Another way to write output = input + 3 is y = x + 3. Write the rule for each table using y and x.",
+     "prompt": "Table a: y = ?",
+     "figure": {
+      "kind": "table",
+      "rows": [
+       [
+        "x",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+       ],
+       [
+        "y",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+       ]
+      ]
+     },
+     "type": "expression",
+     "answer": "y=x+4",
+     "accept": [
+      "x+4"
+     ],
+     "hint": "Type the whole rule, for example y = 2x - 1. Type x squared as x^2 or x*x."
+    },
+    {
+     "id": "q9b",
+     "label": "9b",
+     "section": "Reasoning",
+     "stem": "Another way to write output = input + 3 is y = x + 3. Write the rule for each table using y and x.",
+     "prompt": "Table b: y = ?",
+     "figure": {
+      "kind": "table",
+      "rows": [
+       [
+        "x",
+        "6",
+        "3",
+        "1",
+        "5",
+        "0"
+       ],
+       [
+        "y",
+        "24",
+        "12",
+        "4",
+        "20",
+        "0"
+       ]
+      ]
+     },
+     "type": "expression",
+     "answer": "y=4x",
+     "accept": [
+      "4x"
+     ],
+     "hint": "Type the whole rule, for example y = 2x - 1. Type x squared as x^2 or x*x."
+    },
+    {
+     "id": "q9c",
+     "label": "9c",
+     "section": "Reasoning",
+     "stem": "Another way to write output = input + 3 is y = x + 3. Write the rule for each table using y and x.",
+     "prompt": "Table c: y = ?",
+     "figure": {
+      "kind": "table",
+      "rows": [
+       [
+        "x",
+        "7",
+        "3",
+        "12",
+        "5",
+        "4"
+       ],
+       [
+        "y",
+        "4",
+        "0",
+        "9",
+        "2",
+        "1"
+       ]
+      ]
+     },
+     "type": "expression",
+     "answer": "y=x-3",
+     "accept": [
+      "x-3"
+     ],
+     "hint": "Type the whole rule, for example y = 2x - 1. Type x squared as x^2 or x*x."
+    },
+    {
+     "id": "q9d",
+     "label": "9d",
+     "section": "Reasoning",
+     "stem": "Another way to write output = input + 3 is y = x + 3. Write the rule for each table using y and x.",
+     "prompt": "Table d: y = ?",
+     "figure": {
+      "kind": "table",
+      "rows": [
+       [
+        "x",
+        "0",
+        "2",
+        "5",
+        "7",
+        "4"
+       ],
+       [
+        "y",
+        "3",
+        "7",
+        "28",
+        "52",
+        "19"
+       ]
+      ]
+     },
+     "type": "expression",
+     "answer": "y=x^2+3",
+     "accept": [
+      "x^2+3"
+     ],
+     "hint": "Type the whole rule, for example y = 2x - 1. Type x squared as x^2 or x*x."
+    },
+    {
+     "id": "q10a",
+     "label": "10a",
+     "section": "Reasoning",
+     "stem": "For an input of 4, a machine gives an output of 9.",
+     "prompt": "Could the rule be $\\text{output} = 2 \\times \\text{input} + 1$?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q10b",
+     "label": "10b",
+     "section": "Reasoning",
+     "stem": "For an input of 4, a machine gives an output of 9.",
+     "prompt": "Could the rule be $\\text{output} = \\text{input} + 5$?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q10c",
+     "label": "10c",
+     "section": "Reasoning",
+     "stem": "For an input of 4, a machine gives an output of 9.",
+     "prompt": "Could the rule be $\\text{output} = 3 \\times \\text{input} - 2$?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "q10d",
+     "label": "10d",
+     "section": "Reasoning",
+     "stem": "For an input of 4, a machine gives an output of 9.",
+     "prompt": "How many different rules could give this input and output?",
+     "type": "choice",
+     "options": [
+      "Only one",
+      "Exactly two",
+      "Exactly three",
+      "As many as you like (there is no limit)"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "q11a",
+     "label": "11a",
+     "section": "Reasoning",
+     "stem": "A reverse rule takes you from the output back to the input. For example, the reverse of output = input + 3 is output = input - 3. Write the reverse rule for each of these, using n for the input. Type only the part after output =.",
+     "prompt": "$\\text{output} = \\text{input} + 9$",
+     "type": "expression",
+     "answer": "n-9",
+     "accept": [
+      "output=n-9"
+     ],
+     "hint": "Use brackets where you need them, for example (n+1)/2 or 2(n-1)."
+    },
+    {
+     "id": "q11b",
+     "label": "11b",
+     "section": "Reasoning",
+     "stem": "A reverse rule takes you from the output back to the input. For example, the reverse of output = input + 3 is output = input - 3. Write the reverse rule for each of these, using n for the input. Type only the part after output =.",
+     "prompt": "$\\text{output} = \\text{input} - 5$",
+     "type": "expression",
+     "answer": "n+5",
+     "accept": [
+      "output=n+5"
+     ],
+     "hint": "Use brackets where you need them, for example (n+1)/2 or 2(n-1)."
+    },
+    {
+     "id": "q11c",
+     "label": "11c",
+     "section": "Reasoning",
+     "stem": "A reverse rule takes you from the output back to the input. For example, the reverse of output = input + 3 is output = input - 3. Write the reverse rule for each of these, using n for the input. Type only the part after output =.",
+     "prompt": "$\\text{output} = 6 \\times \\text{input}$",
+     "type": "expression",
+     "answer": "n/6",
+     "accept": [
+      "output=n/6"
+     ],
+     "hint": "Use brackets where you need them, for example (n+1)/2 or 2(n-1)."
+    },
+    {
+     "id": "q11d",
+     "label": "11d",
+     "section": "Reasoning",
+     "stem": "A reverse rule takes you from the output back to the input. For example, the reverse of output = input + 3 is output = input - 3. Write the reverse rule for each of these, using n for the input. Type only the part after output =.",
+     "prompt": "$\\text{output} = 3 \\times \\text{input} + 2$",
+     "type": "expression",
+     "answer": "(n-2)/3",
+     "accept": [
+      "output=(n-2)/3"
+     ],
+     "hint": "Use brackets where you need them, for example (n+1)/2 or 2(n-1)."
+    },
+    {
+     "id": "q11e",
+     "label": "11e",
+     "section": "Reasoning",
+     "stem": "A reverse rule takes you from the output back to the input. For example, the reverse of output = input + 3 is output = input - 3. Write the reverse rule for each of these, using n for the input. Type only the part after output =.",
+     "prompt": "$\\text{output} = \\text{input} \\div 3 + 5$",
+     "type": "expression",
+     "answer": "3(n-5)",
+     "accept": [
+      "output=3(n-5)"
+     ],
+     "hint": "Use brackets where you need them, for example (n+1)/2 or 2(n-1)."
+    },
+    {
+     "id": "q12a",
+     "label": "12a",
+     "section": "Enrichment",
+     "stem": "Each of these rules uses two operations. Find the rule for each table, using n for the input. Type only the part after output =.",
+     "prompt": "Table a: output = ?",
+     "figure": {
+      "kind": "table",
+      "rows": [
+       [
+        "input",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+       ],
+       [
+        "output",
+        "7",
+        "10",
+        "13",
+        "16",
+        "19"
+       ]
+      ]
+     },
+     "type": "expression",
+     "answer": "3n-2",
+     "accept": [
+      "output=3n-2"
+     ],
+     "hint": "Type only the part after output =, using n for the input. For example, type 7n-1 for output = 7 × input - 1."
+    },
+    {
+     "id": "q12b",
+     "label": "12b",
+     "section": "Enrichment",
+     "stem": "Each of these rules uses two operations. Find the rule for each table, using n for the input. Type only the part after output =.",
+     "prompt": "Table b: output = ?",
+     "figure": {
+      "kind": "table",
+      "rows": [
+       [
+        "input",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+       ],
+       [
+        "output",
+        "7",
+        "12",
+        "17",
+        "22",
+        "27"
+       ]
+      ]
+     },
+     "type": "expression",
+     "answer": "5n+2",
+     "accept": [
+      "output=5n+2"
+     ],
+     "hint": "Type only the part after output =, using n for the input. For example, type 7n-1 for output = 7 × input - 1."
+    },
+    {
+     "id": "q12c",
+     "label": "12c",
+     "section": "Enrichment",
+     "stem": "Each of these rules uses two operations. Find the rule for each table, using n for the input. Type only the part after output =.",
+     "prompt": "Table c: output = ?",
+     "figure": {
+      "kind": "table",
+      "rows": [
+       [
+        "input",
+        "9",
+        "6",
+        "2",
+        "1",
+        "12"
+       ],
+       [
+        "output",
+        "33",
+        "21",
+        "5",
+        "1",
+        "45"
+       ]
+      ]
+     },
+     "type": "expression",
+     "answer": "4n-3",
+     "accept": [
+      "output=4n-3"
+     ],
+     "hint": "Type only the part after output =, using n for the input. For example, type 7n-1 for output = 7 × input - 1."
+    },
+    {
+     "id": "q12d",
+     "label": "12d",
+     "section": "Enrichment",
+     "stem": "Each of these rules uses two operations. Find the rule for each table, using n for the input. Type only the part after output =.",
+     "prompt": "Table d: output = ?",
+     "figure": {
+      "kind": "table",
+      "rows": [
+       [
+        "input",
+        "8",
+        "20",
+        "36",
+        "12",
+        "48"
+       ],
+       [
+        "output",
+        "5",
+        "8",
+        "12",
+        "6",
+        "15"
+       ]
+      ]
+     },
+     "type": "expression",
+     "answer": "n/4+3",
+     "accept": [
+      "output=n/4+3"
+     ],
+     "hint": "Type only the part after output =, using n for the input. For example, type 7n-1 for output = 7 × input - 1."
+    },
+    {
+     "id": "q12e",
+     "label": "12e",
+     "section": "Enrichment",
+     "stem": "Each of these rules uses two operations. Find the rule for each table, using n for the input. Type only the part after output =.",
+     "prompt": "Table e: output = ?",
+     "figure": {
+      "kind": "table",
+      "rows": [
+       [
+        "input",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+       ],
+       [
+        "output",
+        "26",
+        "36",
+        "46",
+        "56",
+        "66"
+       ]
+      ]
+     },
+     "type": "expression",
+     "answer": "10n+6",
+     "accept": [
+      "output=10n+6"
+     ],
+     "hint": "Type only the part after output =, using n for the input. For example, type 7n-1 for output = 7 × input - 1."
+    },
+    {
+     "id": "q12f",
+     "label": "12f",
+     "section": "Enrichment",
+     "stem": "Each of these rules uses two operations. Find the rule for each table, using n for the input. Type only the part after output =.",
+     "prompt": "Table f: output = ?",
+     "figure": {
+      "kind": "table",
+      "rows": [
+       [
+        "input",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+       ],
+       [
+        "output",
+        "0",
+        "3",
+        "6",
+        "9",
+        "12"
+       ]
+      ]
+     },
+     "type": "expression",
+     "answer": "3n-3",
+     "accept": [
+      "output=3n-3"
+     ],
+     "hint": "Type only the part after output =, using n for the input. For example, type 7n-1 for output = 7 × input - 1."
+    }
+   ]
+  },
+  {
+   "id": "2k",
+   "chapter": "Chapter 2: Number properties and patterns",
+   "title": "2K The Cartesian plane and graphs",
+   "description": "Read and plot points on a Cartesian plane, and graph simple rules from a table.",
+   "questions": [
+    {
+     "id": "q1a",
+     "label": "1a",
+     "section": "Fluency",
+     "stem": "Look at the points on this Cartesian plane. Remember: go across for x first, then up for y.",
+     "prompt": "Which letter is at $(1, 4)$?",
+     "type": "text",
+     "answer": "Q",
+     "stemFigure": {
+      "kind": "plane",
+      "x": [
+       0,
+       6
+      ],
+      "y": [
+       0,
+       6
+      ],
+      "points": {
+       "P": [
+        4,
+        1
+       ],
+       "Q": [
+        1,
+        4
+       ],
+       "R": [
+        0,
+        3
+       ],
+       "S": [
+        3,
+        0
+       ],
+       "T": [
+        5,
+        5
+       ],
+       "U": [
+        2,
+        3
+       ]
+      }
+     }
+    },
+    {
+     "id": "q1b",
+     "label": "1b",
+     "section": "Fluency",
+     "stem": "Look at the points on this Cartesian plane. Remember: go across for x first, then up for y.",
+     "prompt": "Which letter is at $(4, 1)$?",
+     "type": "text",
+     "answer": "P"
+    },
+    {
+     "id": "q1c",
+     "label": "1c",
+     "section": "Fluency",
+     "stem": "Look at the points on this Cartesian plane. Remember: go across for x first, then up for y.",
+     "prompt": "Which letter is at $(0, 3)$?",
+     "type": "text",
+     "answer": "R"
+    },
+    {
+     "id": "q1d",
+     "label": "1d",
+     "section": "Fluency",
+     "stem": "Look at the points on this Cartesian plane. Remember: go across for x first, then up for y.",
+     "prompt": "Which letter is at $(3, 0)$?",
+     "type": "text",
+     "answer": "S"
+    },
+    {
+     "id": "q2a",
+     "label": "2a",
+     "section": "Fluency",
+     "stem": "Here are some more points. Which letter is at each pair of coordinates?",
+     "prompt": "Which letter is at $(2, 3)$?",
+     "type": "text",
+     "answer": "B",
+     "stemFigure": {
+      "kind": "plane",
+      "x": [
+       0,
+       6
+      ],
+      "y": [
+       0,
+       6
+      ],
+      "points": {
+       "A": [
+        3,
+        2
+       ],
+       "B": [
+        2,
+        3
+       ],
+       "C": [
+        5,
+        1
+       ],
+       "D": [
+        0,
+        4
+       ],
+       "E": [
+        4,
+        0
+       ],
+       "F": [
+        6,
+        5
+       ],
+       "G": [
+        1,
+        1
+       ],
+       "H": [
+        0,
+        0
+       ],
+       "J": [
+        5,
+        6
+       ],
+       "K": [
+        6,
+        2
+       ]
+      }
+     }
+    },
+    {
+     "id": "q2b",
+     "label": "2b",
+     "section": "Fluency",
+     "stem": "Here are some more points. Which letter is at each pair of coordinates?",
+     "prompt": "Which letter is at $(5, 1)$?",
+     "type": "text",
+     "answer": "C"
+    },
+    {
+     "id": "q2c",
+     "label": "2c",
+     "section": "Fluency",
+     "stem": "Here are some more points. Which letter is at each pair of coordinates?",
+     "prompt": "Which letter is at $(4, 0)$?",
+     "type": "text",
+     "answer": "E"
+    },
+    {
+     "id": "q2d",
+     "label": "2d",
+     "section": "Fluency",
+     "stem": "Here are some more points. Which letter is at each pair of coordinates?",
+     "prompt": "Which letter is at $(6, 5)$?",
+     "type": "text",
+     "answer": "F"
+    },
+    {
+     "id": "q2e",
+     "label": "2e",
+     "section": "Fluency",
+     "stem": "Here are some more points. Which letter is at each pair of coordinates?",
+     "prompt": "Which letter is at $(0, 4)$?",
+     "type": "text",
+     "answer": "D"
+    },
+    {
+     "id": "q2f",
+     "label": "2f",
+     "section": "Fluency",
+     "stem": "Here are some more points. Which letter is at each pair of coordinates?",
+     "prompt": "Which letter is at $(1, 1)$?",
+     "type": "text",
+     "answer": "G"
+    },
+    {
+     "id": "q2g",
+     "label": "2g",
+     "section": "Fluency",
+     "stem": "Here are some more points. Which letter is at each pair of coordinates?",
+     "prompt": "Which letter is at $(5, 6)$?",
+     "type": "text",
+     "answer": "J"
+    },
+    {
+     "id": "q2h",
+     "label": "2h",
+     "section": "Fluency",
+     "stem": "Here are some more points. Which letter is at each pair of coordinates?",
+     "prompt": "Which letter is at $(0, 0)$?",
+     "type": "text",
+     "answer": "H"
+    },
+    {
+     "id": "q3a",
+     "label": "3a",
+     "section": "Fluency",
+     "stem": "Write down the coordinates of these labelled points on the first grid.",
+     "prompt": "What are the coordinates of $A$?",
+     "type": "point",
+     "answer": "(1,5)",
+     "hint": "Type coordinates in brackets, for example (2, 5).",
+     "stemFigure": {
+      "kind": "plane",
+      "x": [
+       0,
+       6
+      ],
+      "y": [
+       0,
+       6
+      ],
+      "points": {
+       "A": [
+        1,
+        5
+       ],
+       "B": [
+        3,
+        1
+       ],
+       "C": [
+        5,
+        4
+       ],
+       "D": [
+        0,
+        2
+       ],
+       "E": [
+        6,
+        0
+       ],
+       "F": [
+        4,
+        6
+       ]
+      }
+     }
+    },
+    {
+     "id": "q3b",
+     "label": "3b",
+     "section": "Fluency",
+     "stem": "Write down the coordinates of these labelled points on the first grid.",
+     "prompt": "What are the coordinates of $B$?",
+     "type": "point",
+     "answer": "(3,1)",
+     "hint": "Type coordinates in brackets, for example (2, 5)."
+    },
+    {
+     "id": "q3c",
+     "label": "3c",
+     "section": "Fluency",
+     "stem": "Write down the coordinates of these labelled points on the first grid.",
+     "prompt": "What are the coordinates of $C$?",
+     "type": "point",
+     "answer": "(5,4)",
+     "hint": "Type coordinates in brackets, for example (2, 5)."
+    },
+    {
+     "id": "q3d",
+     "label": "3d",
+     "section": "Fluency",
+     "stem": "Write down the coordinates of these labelled points on the first grid.",
+     "prompt": "What are the coordinates of $D$?",
+     "type": "point",
+     "answer": "(0,2)",
+     "hint": "Type coordinates in brackets, for example (2, 5)."
+    },
+    {
+     "id": "q3e",
+     "label": "3e",
+     "section": "Fluency",
+     "stem": "Write down the coordinates of these labelled points on the first grid.",
+     "prompt": "What are the coordinates of $E$?",
+     "type": "point",
+     "answer": "(6,0)",
+     "hint": "Type coordinates in brackets, for example (2, 5)."
+    },
+    {
+     "id": "q3f",
+     "label": "3f",
+     "section": "Fluency",
+     "stem": "Write down the coordinates of these labelled points on the second grid.",
+     "prompt": "What are the coordinates of $K$?",
+     "type": "point",
+     "answer": "(2,2)",
+     "hint": "Type coordinates in brackets, for example (2, 5).",
+     "stemFigure": {
+      "kind": "plane",
+      "x": [
+       0,
+       6
+      ],
+      "y": [
+       0,
+       6
+      ],
+      "points": {
+       "K": [
+        2,
+        2
+       ],
+       "L": [
+        5,
+        3
+       ],
+       "M": [
+        3,
+        5
+       ],
+       "N": [
+        6,
+        6
+       ],
+       "P": [
+        4,
+        0
+       ],
+       "R": [
+        0,
+        5
+       ]
+      }
+     }
+    },
+    {
+     "id": "q3g",
+     "label": "3g",
+     "section": "Fluency",
+     "stem": "Write down the coordinates of these labelled points on the second grid.",
+     "prompt": "What are the coordinates of $L$?",
+     "type": "point",
+     "answer": "(5,3)",
+     "hint": "Type coordinates in brackets, for example (2, 5)."
+    },
+    {
+     "id": "q3h",
+     "label": "3h",
+     "section": "Fluency",
+     "stem": "Write down the coordinates of these labelled points on the second grid.",
+     "prompt": "What are the coordinates of $M$?",
+     "type": "point",
+     "answer": "(3,5)",
+     "hint": "Type coordinates in brackets, for example (2, 5)."
+    },
+    {
+     "id": "q3i",
+     "label": "3i",
+     "section": "Fluency",
+     "stem": "Write down the coordinates of these labelled points on the second grid.",
+     "prompt": "What are the coordinates of $P$?",
+     "type": "point",
+     "answer": "(4,0)",
+     "hint": "Type coordinates in brackets, for example (2, 5)."
+    },
+    {
+     "id": "q3j",
+     "label": "3j",
+     "section": "Fluency",
+     "stem": "Write down the coordinates of these labelled points on the second grid.",
+     "prompt": "What are the coordinates of $R$?",
+     "type": "point",
+     "answer": "(0,5)",
+     "hint": "Type coordinates in brackets, for example (2, 5)."
+    },
+    {
+     "id": "q4a",
+     "label": "4a",
+     "section": "Fluency",
+     "stem": "For the rule $\\text{output} = \\text{input} + 3$: complete the table, then picture the points on the grid.",
+     "stemFigure": [
+      {
+       "kind": "table",
+       "rows": [
+        [
+         "input (x)",
+         "0",
+         "1",
+         "2",
+         "3"
+        ],
+        [
+         "output (y)",
+         "3",
+         "?",
+         "?",
+         "?"
+        ]
+       ]
+      },
+      {
+       "kind": "plane",
+       "points": {},
+       "x": [
+        0,
+        4
+       ],
+       "y": [
+        0,
+        7
+       ]
+      }
+     ],
+     "prompt": "Type the missing outputs, in order from left to right.",
+     "type": "ordered",
+     "answer": [
+      "4",
+      "5",
+      "6"
+     ]
+    },
+    {
+     "id": "q4b",
+     "label": "4b",
+     "section": "Fluency",
+     "stem": "For the rule $\\text{output} = \\text{input} + 3$: complete the table, then picture the points on the grid.",
+     "prompt": "If you plot each pair of values as a point (x, y), do the points lie in a straight line?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q5a",
+     "label": "5a",
+     "section": "Fluency",
+     "stem": "For the rule $\\text{output} = \\text{input} - 2$: complete the table, then picture the points on the grid.",
+     "stemFigure": [
+      {
+       "kind": "table",
+       "rows": [
+        [
+         "input (x)",
+         "2",
+         "3",
+         "4",
+         "5"
+        ],
+        [
+         "output (y)",
+         "?",
+         "?",
+         "?",
+         "?"
+        ]
+       ]
+      },
+      {
+       "kind": "plane",
+       "points": {},
+       "x": [
+        0,
+        6
+       ],
+       "y": [
+        0,
+        4
+       ]
+      }
+     ],
+     "prompt": "Type the missing outputs, in order from left to right.",
+     "type": "ordered",
+     "answer": [
+      "0",
+      "1",
+      "2",
+      "3"
+     ]
+    },
+    {
+     "id": "q5b",
+     "label": "5b",
+     "section": "Fluency",
+     "stem": "For the rule $\\text{output} = \\text{input} - 2$: complete the table, then picture the points on the grid.",
+     "prompt": "If you plot each pair of values as a point (x, y), do the points lie in a straight line?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q6a",
+     "label": "6a",
+     "section": "Fluency",
+     "stem": "For the rule $\\text{output} = \\text{input} \\times 3$: complete the table, then picture the points on the grid.",
+     "stemFigure": [
+      {
+       "kind": "table",
+       "rows": [
+        [
+         "input (x)",
+         "0",
+         "1",
+         "2",
+         "3"
+        ],
+        [
+         "output (y)",
+         "?",
+         "?",
+         "?",
+         "?"
+        ]
+       ]
+      },
+      {
+       "kind": "plane",
+       "points": {},
+       "x": [
+        0,
+        4
+       ],
+       "y": [
+        0,
+        10
+       ]
+      }
+     ],
+     "prompt": "Type the missing outputs, in order from left to right.",
+     "type": "ordered",
+     "answer": [
+      "0",
+      "3",
+      "6",
+      "9"
+     ]
+    },
+    {
+     "id": "q6b",
+     "label": "6b",
+     "section": "Fluency",
+     "stem": "For the rule $\\text{output} = \\text{input} \\times 3$: complete the table, then picture the points on the grid.",
+     "prompt": "If you plot each pair of values as a point (x, y), do the points lie in a straight line?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q7a",
+     "label": "7a",
+     "section": "Fluency",
+     "stem": "For the rule $\\text{output} = \\text{input} \\times \\text{input} + 1$: complete the table, then picture the points on the grid.",
+     "stemFigure": [
+      {
+       "kind": "table",
+       "rows": [
+        [
+         "input (x)",
+         "0",
+         "1",
+         "2",
+         "3"
+        ],
+        [
+         "output (y)",
+         "1",
+         "?",
+         "?",
+         "?"
+        ]
+       ]
+      },
+      {
+       "kind": "plane",
+       "points": {},
+       "x": [
+        0,
+        4
+       ],
+       "y": [
+        0,
+        10
+       ]
+      }
+     ],
+     "prompt": "Type the missing outputs, in order from left to right.",
+     "type": "ordered",
+     "answer": [
+      "2",
+      "5",
+      "10"
+     ]
+    },
+    {
+     "id": "q7b",
+     "label": "7b",
+     "section": "Fluency",
+     "stem": "For the rule $\\text{output} = \\text{input} \\times \\text{input} + 1$: complete the table, then picture the points on the grid.",
+     "prompt": "If you plot each pair of values as a point (x, y), do the points lie in a straight line?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "q8a",
+     "label": "8a",
+     "section": "Fluency",
+     "stem": "For the rule $\\text{output} = 12 \\div \\text{input}$: complete the table, then picture the points on the grid.",
+     "stemFigure": [
+      {
+       "kind": "table",
+       "rows": [
+        [
+         "input (x)",
+         "2",
+         "3",
+         "4",
+         "6"
+        ],
+        [
+         "output (y)",
+         "?",
+         "?",
+         "?",
+         "?"
+        ]
+       ]
+      },
+      {
+       "kind": "plane",
+       "points": {},
+       "x": [
+        0,
+        7
+       ],
+       "y": [
+        0,
+        7
+       ]
+      }
+     ],
+     "prompt": "Type the missing outputs, in order from left to right.",
+     "type": "ordered",
+     "answer": [
+      "6",
+      "4",
+      "3",
+      "2"
+     ]
+    },
+    {
+     "id": "q8b",
+     "label": "8b",
+     "section": "Fluency",
+     "stem": "For the rule $\\text{output} = 12 \\div \\text{input}$: complete the table, then picture the points on the grid.",
+     "prompt": "If you plot each pair of values as a point (x, y), do the points lie in a straight line?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "q9a",
+     "label": "9a",
+     "section": "Fluency",
+     "stem": "Think about points whose x-value and y-value are the same, like $(2, 2)$.",
+     "stemFigure": {
+      "kind": "plane",
+      "x": [
+       0,
+       6
+      ],
+      "y": [
+       0,
+       6
+      ],
+      "points": {
+       "A": [
+        2,
+        5
+       ],
+       "B": [
+        4,
+        4
+       ],
+       "C": [
+        5,
+        2
+       ],
+       "D": [
+        0,
+        3
+       ],
+       "E": [
+        6,
+        1
+       ]
+      }
+     },
+     "prompt": "Which labelled point on this grid has the same x-value and y-value?",
+     "type": "text",
+     "answer": "B"
+    },
+    {
+     "id": "q9b",
+     "label": "9b",
+     "section": "Fluency",
+     "stem": "Think about points whose x-value and y-value are the same, like $(2, 2)$.",
+     "prompt": "A Cartesian plane goes from $0$ to $7$ on both axes. How many grid points on it have the same x-value and y-value? Count the origin too.",
+     "type": "numeric",
+     "answer": "8"
+    },
+    {
+     "id": "q9c",
+     "label": "9c",
+     "section": "Fluency",
+     "stem": "Think about points whose x-value and y-value are the same, like $(2, 2)$.",
+     "prompt": "Do all of those points lie in a straight line?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q10a",
+     "label": "10a",
+     "section": "Fluency",
+     "stem": "Mia plotted these points and joined them in order to draw an arrow: $(3, 1)$, $(5, 1)$, $(5, 4)$, $(7, 4)$, $(4, 8)$, $(1, 4)$, $(3, 4)$, $(3, 1)$. Some corners are labelled.",
+     "stemFigure": {
+      "kind": "plane",
+      "x": [
+       0,
+       8
+      ],
+      "y": [
+       0,
+       9
+      ],
+      "points": {
+       "A": [
+        4,
+        8
+       ],
+       "B": [
+        7,
+        4
+       ],
+       "C": [
+        1,
+        4
+       ],
+       "D": [
+        3,
+        1
+       ],
+       "E": [
+        5,
+        1
+       ]
+      },
+      "path": [
+       [
+        3,
+        1
+       ],
+       [
+        5,
+        1
+       ],
+       [
+        5,
+        4
+       ],
+       [
+        7,
+        4
+       ],
+       [
+        4,
+        8
+       ],
+       [
+        1,
+        4
+       ],
+       [
+        3,
+        4
+       ],
+       [
+        3,
+        1
+       ]
+      ]
+     },
+     "prompt": "What are the coordinates of the tip of the arrow, $A$?",
+     "type": "point",
+     "answer": "(4,8)",
+     "hint": "Type coordinates in brackets, for example (2, 5)."
+    },
+    {
+     "id": "q10b",
+     "label": "10b",
+     "section": "Fluency",
+     "stem": "Mia plotted these points and joined them in order to draw an arrow: $(3, 1)$, $(5, 1)$, $(5, 4)$, $(7, 4)$, $(4, 8)$, $(1, 4)$, $(3, 4)$, $(3, 1)$. Some corners are labelled.",
+     "prompt": "What are the coordinates of $B$?",
+     "type": "point",
+     "answer": "(7,4)",
+     "hint": "Type coordinates in brackets, for example (2, 5)."
+    },
+    {
+     "id": "q10c",
+     "label": "10c",
+     "section": "Fluency",
+     "stem": "Mia plotted these points and joined them in order to draw an arrow: $(3, 1)$, $(5, 1)$, $(5, 4)$, $(7, 4)$, $(4, 8)$, $(1, 4)$, $(3, 4)$, $(3, 1)$. Some corners are labelled.",
+     "prompt": "Which letter is at $(5, 1)$?",
+     "type": "text",
+     "answer": "E"
+    },
+    {
+     "id": "q10d",
+     "label": "10d",
+     "section": "Fluency",
+     "stem": "Mia plotted these points and joined them in order to draw an arrow: $(3, 1)$, $(5, 1)$, $(5, 4)$, $(7, 4)$, $(4, 8)$, $(1, 4)$, $(3, 4)$, $(3, 1)$. Some corners are labelled.",
+     "prompt": "Which letter is at $(1, 4)$?",
+     "type": "text",
+     "answer": "C"
+    },
+    {
+     "id": "q11a",
+     "label": "11a",
+     "section": "Problem-solving",
+     "stem": "Leo joined these points in order to draw the outline of a house: $(2, 5)$, $(1, 5)$, $(6, 9)$, $(11, 5)$, $(2, 5)$, $(2, 0)$, $(10, 0)$, $(10, 5)$. The walls go from $x = 2$ to $x = 10$ and the floor is on the x-axis.",
+     "stemFigure": {
+      "kind": "plane",
+      "x": [
+       0,
+       12
+      ],
+      "y": [
+       0,
+       10
+      ],
+      "points": {
+       "A": [
+        6,
+        9
+       ]
+      },
+      "path": [
+       [
+        2,
+        5
+       ],
+       [
+        1,
+        5
+       ],
+       [
+        6,
+        9
+       ],
+       [
+        11,
+        5
+       ],
+       [
+        2,
+        5
+       ],
+       [
+        2,
+        0
+       ],
+       [
+        10,
+        0
+       ],
+       [
+        10,
+        5
+       ]
+      ]
+     },
+     "prompt": "What are the coordinates of the top of the roof, $A$?",
+     "type": "point",
+     "answer": "(6,9)",
+     "hint": "Type coordinates in brackets, for example (2, 5)."
+    },
+    {
+     "id": "q11b",
+     "label": "11b",
+     "section": "Problem-solving",
+     "stem": "Leo joined these points in order to draw the outline of a house: $(2, 5)$, $(1, 5)$, $(6, 9)$, $(11, 5)$, $(2, 5)$, $(2, 0)$, $(10, 0)$, $(10, 5)$. The walls go from $x = 2$ to $x = 10$ and the floor is on the x-axis.",
+     "prompt": "Which set of four points would draw a door that stands on the floor, inside the house?",
+     "type": "choice",
+     "options": [
+      "(5, 1), (7, 1), (7, 4), (5, 4)",
+      "(5, 0), (7, 0), (7, 3), (5, 3)",
+      "(9, 0), (12, 0), (12, 3), (9, 3)",
+      "(0, 5), (2, 5), (2, 8), (0, 8)"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "q11c",
+     "label": "11c",
+     "section": "Problem-solving",
+     "stem": "Leo joined these points in order to draw the outline of a house: $(2, 5)$, $(1, 5)$, $(6, 9)$, $(11, 5)$, $(2, 5)$, $(2, 0)$, $(10, 0)$, $(10, 5)$. The walls go from $x = 2$ to $x = 10$ and the floor is on the x-axis.",
+     "prompt": "A square window has corners at $(3, 2)$, $(4, 2)$ and $(4, 3)$. What is its fourth corner?",
+     "type": "point",
+     "answer": "(3,3)",
+     "hint": "Type coordinates in brackets, for example (2, 5)."
+    },
+    {
+     "id": "q11d",
+     "label": "11d",
+     "section": "Problem-solving",
+     "stem": "Leo joined these points in order to draw the outline of a house: $(2, 5)$, $(1, 5)$, $(6, 9)$, $(11, 5)$, $(2, 5)$, $(2, 0)$, $(10, 0)$, $(10, 5)$. The walls go from $x = 2$ to $x = 10$ and the floor is on the x-axis.",
+     "prompt": "A rectangle-shaped chimney has corners at $(8, 7)$, $(8, 9)$ and $(9, 9)$. What is its fourth corner?",
+     "type": "point",
+     "answer": "(9,7)",
+     "hint": "Type coordinates in brackets, for example (2, 5)."
+    },
+    {
+     "id": "q12a",
+     "label": "12a",
+     "section": "Problem-solving",
+     "stem": "A regular pentagon has five equal sides, so perimeter = 5 × side length. Complete the table (all values are in centimetres), then picture the points on the grid.",
+     "stemFigure": [
+      {
+       "kind": "table",
+       "rows": [
+        [
+         "side length (x)",
+         "1",
+         "2",
+         "3",
+         "4"
+        ],
+        [
+         "perimeter (y)",
+         "5",
+         "?",
+         "?",
+         "?"
+        ]
+       ]
+      },
+      {
+       "kind": "plane",
+       "points": {},
+       "x": [
+        0,
+        5
+       ],
+       "y": [
+        0,
+        20
+       ]
+      }
+     ],
+     "prompt": "Type the missing outputs, in order from left to right.",
+     "type": "ordered",
+     "answer": [
+      "10",
+      "15",
+      "20"
+     ]
+    },
+    {
+     "id": "q12b",
+     "label": "12b",
+     "section": "Problem-solving",
+     "stem": "A regular pentagon has five equal sides, so perimeter = 5 × side length. Complete the table (all values are in centimetres), then picture the points on the grid.",
+     "prompt": "If you plot each pair of values as a point (x, y), do the points lie in a straight line?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q13a",
+     "label": "13a",
+     "section": "Problem-solving",
+     "stem": "Priya hides messages using this grid. Each letter is written as the coordinates of its point.",
+     "stemFigure": {
+      "kind": "plane",
+      "x": [
+       0,
+       6
+      ],
+      "y": [
+       0,
+       6
+      ],
+      "points": {
+       "A": [
+        1,
+        1
+       ],
+       "B": [
+        1,
+        2
+       ],
+       "C": [
+        1,
+        3
+       ],
+       "D": [
+        1,
+        4
+       ],
+       "E": [
+        1,
+        5
+       ],
+       "F": [
+        2,
+        1
+       ],
+       "G": [
+        2,
+        2
+       ],
+       "H": [
+        2,
+        3
+       ],
+       "I": [
+        2,
+        4
+       ],
+       "J": [
+        2,
+        5
+       ],
+       "K": [
+        3,
+        1
+       ],
+       "L": [
+        3,
+        2
+       ],
+       "M": [
+        3,
+        3
+       ],
+       "N": [
+        3,
+        4
+       ],
+       "O": [
+        3,
+        5
+       ],
+       "P": [
+        4,
+        1
+       ],
+       "Q": [
+        4,
+        2
+       ],
+       "R": [
+        4,
+        3
+       ],
+       "S": [
+        4,
+        4
+       ],
+       "T": [
+        4,
+        5
+       ],
+       "U": [
+        5,
+        1
+       ],
+       "V": [
+        5,
+        2
+       ],
+       "W": [
+        5,
+        3
+       ],
+       "X": [
+        5,
+        4
+       ],
+       "Y": [
+        5,
+        5
+       ]
+      }
+     },
+     "prompt": "Decode this message: $(2, 3)$, $(3, 5)$, $(3, 3)$, $(1, 5)$.",
+     "type": "text",
+     "answer": "HOME"
+    },
+    {
+     "id": "q13b",
+     "label": "13b",
+     "section": "Problem-solving",
+     "stem": "Priya hides messages using this grid. Each letter is written as the coordinates of its point.",
+     "prompt": "Code the word GARDEN.",
+     "type": "text",
+     "answer": "221143141534",
+     "accept": [
+      "22 11 43 14 15 34",
+      "(2,2),(1,1),(4,3),(1,4),(1,5),(3,4)",
+      "(2, 2), (1, 1), (4, 3), (1, 4), (1, 5), (3, 4)",
+      "(2,2) (1,1) (4,3) (1,4) (1,5) (3,4)",
+      "(2, 2) (1, 1) (4, 3) (1, 4) (1, 5) (3, 4)"
+     ],
+     "hint": "Type the digits with no brackets or commas, for example (2, 3), (1, 4) is typed 2314."
+    },
+    {
+     "id": "q13c",
+     "label": "13c",
+     "section": "Problem-solving",
+     "stem": "Priya hides messages using this grid. Each letter is written as the coordinates of its point.",
+     "prompt": "To make the code harder, Priya leaves out the brackets and commas and puts $00$ (the origin) between words. What does this say? 33151545001255004523150032113115",
+     "type": "text",
+     "answer": "MEET BY THE LAKE",
+     "accept": [
+      "MEETBYTHELAKE"
+     ]
+    },
+    {
+     "id": "q13d",
+     "label": "13d",
+     "section": "Problem-solving",
+     "stem": "Priya hides messages using this grid. Each letter is written as the coordinates of its point.",
+     "prompt": "Use the same harder code (no brackets or commas, $00$ between words) to code the phrase SEE YOU AT NOON.",
+     "type": "text",
+     "answer": "441515005535510011450034353534",
+     "accept": [
+      "44151500553551001145003435353400"
+     ]
+    },
+    {
+     "id": "q14a",
+     "label": "14a",
+     "section": "Problem-solving",
+     "stem": "$ABCD$ is a rectangle. Use the coordinates of $A$, $B$ and $C$ to find the missing corner $D$. Sketching it on a grid will help.",
+     "prompt": "$A(1, 6)$, $B(1, 2)$, $C(5, 2)$. What are the coordinates of $D$?",
+     "type": "point",
+     "answer": "(5,6)",
+     "hint": "Type coordinates in brackets, for example (2, 5)."
+    },
+    {
+     "id": "q14b",
+     "label": "14b",
+     "section": "Problem-solving",
+     "stem": "$ABCD$ is a rectangle. Use the coordinates of $A$, $B$ and $C$ to find the missing corner $D$. Sketching it on a grid will help.",
+     "prompt": "$A(6, 5)$, $B(2, 5)$, $C(2, 1)$. What are the coordinates of $D$?",
+     "type": "point",
+     "answer": "(6,1)",
+     "hint": "Type coordinates in brackets, for example (2, 5)."
+    },
+    {
+     "id": "q14c",
+     "label": "14c",
+     "section": "Problem-solving",
+     "stem": "$ABCD$ is a rectangle. Use the coordinates of $A$, $B$ and $C$ to find the missing corner $D$. Sketching it on a grid will help.",
+     "prompt": "$A(0, 4)$, $B(5, 4)$, $C(5, 0)$. What are the coordinates of $D$?",
+     "type": "point",
+     "answer": "(0,0)",
+     "hint": "Type coordinates in brackets, for example (2, 5)."
+    },
+    {
+     "id": "q14d",
+     "label": "14d",
+     "section": "Problem-solving",
+     "stem": "$ABCD$ is a rectangle. Use the coordinates of $A$, $B$ and $C$ to find the missing corner $D$. Sketching it on a grid will help.",
+     "prompt": "$A(3, 1)$, $B(7, 3)$, $C(5, 7)$. What are the coordinates of $D$?",
+     "type": "point",
+     "answer": "(1,5)",
+     "hint": "Type coordinates in brackets, for example (2, 5)."
+    },
+    {
+     "id": "q15a",
+     "label": "15a",
+     "section": "Reasoning",
+     "stem": "Each graph shows points made by a rule. Write the rule using y and x, like y = 2x.",
+     "prompt": "Graph a: y = ?",
+     "figure": {
+      "kind": "plane",
+      "points": {
+       "A": [
+        0,
+        3
+       ],
+       "B": [
+        1,
+        4
+       ],
+       "C": [
+        2,
+        5
+       ],
+       "D": [
+        3,
+        6
+       ],
+       "E": [
+        4,
+        7
+       ]
+      },
+      "x": [
+       0,
+       5
+      ],
+      "y": [
+       0,
+       8
+      ]
+     },
+     "type": "expression",
+     "answer": "y=x+3",
+     "accept": [
+      "x+3"
+     ],
+     "hint": "Type the whole rule, for example y = x + 1."
+    },
+    {
+     "id": "q15b",
+     "label": "15b",
+     "section": "Reasoning",
+     "stem": "Each graph shows points made by a rule. Write the rule using y and x, like y = 2x.",
+     "prompt": "Graph b: y = ?",
+     "figure": {
+      "kind": "plane",
+      "points": {
+       "A": [
+        0,
+        0
+       ],
+       "B": [
+        1,
+        4
+       ],
+       "C": [
+        2,
+        8
+       ],
+       "D": [
+        3,
+        12
+       ]
+      },
+      "x": [
+       0,
+       4
+      ],
+      "y": [
+       0,
+       12
+      ]
+     },
+     "type": "expression",
+     "answer": "y=4x",
+     "accept": [
+      "4x"
+     ],
+     "hint": "Type the whole rule, for example y = x + 1."
+    },
+    {
+     "id": "q15c",
+     "label": "15c",
+     "section": "Reasoning",
+     "stem": "Each graph shows points made by a rule. Write the rule using y and x, like y = 2x.",
+     "prompt": "Graph c: y = ?",
+     "figure": {
+      "kind": "plane",
+      "points": {
+       "A": [
+        0,
+        0
+       ],
+       "B": [
+        3,
+        1
+       ],
+       "C": [
+        6,
+        2
+       ],
+       "D": [
+        9,
+        3
+       ]
+      },
+      "x": [
+       0,
+       10
+      ],
+      "y": [
+       0,
+       4
+      ]
+     },
+     "type": "expression",
+     "answer": "y=x/3",
+     "accept": [
+      "x/3"
+     ],
+     "hint": "Type the whole rule, for example y = x + 1."
+    },
+    {
+     "id": "q16a",
+     "label": "16a",
+     "section": "Reasoning",
+     "stem": "$A(2, 0)$ and $B(8, 0)$ are the two base corners of an isosceles triangle. The third corner is above the x-axis.",
+     "prompt": "Which of these points could be the third corner?",
+     "type": "choice",
+     "options": [
+      "(4, 3)",
+      "(5, 7)",
+      "(7, 5)",
+      "(3, 4)"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "q16b",
+     "label": "16b",
+     "section": "Reasoning",
+     "stem": "$A(2, 0)$ and $B(8, 0)$ are the two base corners of an isosceles triangle. The third corner is above the x-axis.",
+     "prompt": "How many different points could be the third corner?",
+     "type": "choice",
+     "options": [
+      "Only one",
+      "Exactly two",
+      "Exactly four",
+      "As many as you like (there is no limit)"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "q16c",
+     "label": "16c",
+     "section": "Reasoning",
+     "stem": "$A(2, 0)$ and $B(8, 0)$ are the two base corners of an isosceles triangle. The third corner is above the x-axis.",
+     "prompt": "The third corner is the same distance from $A$ as from $B$, and the triangle has an area of $12$ square units. What are the coordinates of the third corner?",
+     "type": "point",
+     "answer": "(5,4)",
+     "hint": "Type coordinates in brackets, for example (2, 5)."
+    },
+    {
+     "id": "q17a",
+     "label": "17a",
+     "section": "Enrichment",
+     "stem": "$M$ is the midpoint of the line segment $AB$: it is exactly halfway between $A$ and $B$.",
+     "stemFigure": {
+      "kind": "plane",
+      "x": [
+       0,
+       6
+      ],
+      "y": [
+       0,
+       7
+      ],
+      "points": {
+       "A": [
+        1,
+        6
+       ],
+       "B": [
+        5,
+        2
+       ]
+      },
+      "path": [
+       [
+        1,
+        6
+       ],
+       [
+        5,
+        2
+       ]
+      ]
+     },
+     "prompt": "Look at the grid. What are the coordinates of $M$, the midpoint of $AB$?",
+     "type": "point",
+     "answer": "(3,4)",
+     "hint": "Type coordinates in brackets, for example (2, 5)."
+    },
+    {
+     "id": "q17b",
+     "label": "17b",
+     "section": "Enrichment",
+     "stem": "$M$ is the midpoint of the line segment $AB$: it is exactly halfway between $A$ and $B$.",
+     "prompt": "Find $M$ for $A(4, 6)$ and $B(0, 0)$.",
+     "type": "point",
+     "answer": "(2,3)",
+     "hint": "Type coordinates in brackets, for example (2, 5)."
+    },
+    {
+     "id": "q17c",
+     "label": "17c",
+     "section": "Enrichment",
+     "stem": "$M$ is the midpoint of the line segment $AB$: it is exactly halfway between $A$ and $B$.",
+     "prompt": "Find $M$ for $A(8, 5)$ and $B(2, 1)$.",
+     "type": "point",
+     "answer": "(5,3)",
+     "hint": "Type coordinates in brackets, for example (2, 5)."
+    },
+    {
+     "id": "q17d",
+     "label": "17d",
+     "section": "Enrichment",
+     "stem": "$M$ is the midpoint of the line segment $AB$: it is exactly halfway between $A$ and $B$.",
+     "prompt": "Find $M$ for $A(1, 4)$ and $B(6, 3)$.",
+     "type": "point",
+     "answer": "(3.5,3.5)",
+     "hint": "Coordinates can be decimals, for example (1.5, 2)."
+    },
+    {
+     "id": "q17e",
+     "label": "17e",
+     "section": "Enrichment",
+     "stem": "$M$ is the midpoint of the line segment $AB$: it is exactly halfway between $A$ and $B$.",
+     "prompt": "Find $M$ for $A(-4, 3)$ and $B(2, -5)$.",
+     "type": "point",
+     "answer": "(-1,-1)",
+     "hint": "Type coordinates in brackets, for example (2, 5)."
+    },
+    {
+     "id": "q17f",
+     "label": "17f",
+     "section": "Enrichment",
+     "stem": "$M$ is the midpoint of the line segment $AB$: it is exactly halfway between $A$ and $B$.",
+     "prompt": "$M(4, 3)$ is the midpoint of $AB$, and $A$ is at $(2, 6)$. What are the coordinates of $B$?",
+     "type": "point",
+     "answer": "(6,0)",
+     "hint": "Type coordinates in brackets, for example (2, 5)."
+    }
+   ]
   }
  ]
 };

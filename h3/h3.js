@@ -195,6 +195,7 @@
     product: 'e.g. 5 x 21',
     placevalue: 'e.g. 600 or hundreds',
     ordered: 'Separate with commas, e.g. 12, 21, 112',
+    powers: 'Use ^ for powers, e.g. 2^3 x 5',
   };
 
   const REASONS = {
@@ -211,6 +212,8 @@
     'changed numbers': 'Keep the numbers and operations in the same order. Only add brackets.',
     'not a product': 'Write it as one number multiplied by another.',
     'not simplified': 'Simplify your answer as far as you can.',
+    'not index form': 'Write it as a product using powers, e.g. 2^3 x 5.',
+    'use powers': 'Write repeated factors as a power, e.g. 2^3 instead of 2 x 2 x 2.',
   };
 
   function notesLine(n) {
@@ -400,6 +403,9 @@
     return ch ? ch.id : '';
   }
 
+  // Pictures for a question (figures.js draws them from a spec in bank.js).
+  const figureHtml = (f) => (f && window.H3Figure) ? `<div class="qfig">${[].concat(f).map(window.H3Figure).join('')}</div>` : '';
+
   // "How do I work this out?" fold-out. The panels live in helps.js, one per
   // type of question; a question picks one with "help" in bank.js. Shown until
   // the question is answered right, the same as a hint.
@@ -447,10 +453,11 @@
             let lead = '';
             if (q.section && (!prev || prev.section !== q.section)) lead += `<li class="section-head" aria-hidden="false"><h3>${esc(q.section)}</h3></li>`;
             const qn = (x) => x && String(x.label || '').replace(/[a-z]+$/, '');
-            if (q.stem && (!prev || prev.stem !== q.stem || qn(prev) !== qn(q))) lead += `<li class="stem"><span class="stem-num">${esc(qn(q))}</span><p>${mt(q.stem)}</p></li>`;
+            if (q.stem && (!prev || prev.stem !== q.stem || qn(prev) !== qn(q))) lead += `<li class="stem"><span class="stem-num">${esc(qn(q))}</span><div class="stem-body"><p>${mt(q.stem)}</p>${figureHtml(q.stemFigure)}</div></li>`;
             return lead + `<li class="q ${cls}" id="card-${esc(q.id)}" data-qid="${esc(q.id)}">
               <div class="qnum">${esc(q.label || (i + 1))}</div>
               <div class="qbody">
+                ${figureHtml(q.figure)}
                 <p class="prompt">${mt(q.prompt)}</p>
                 <form class="answer-row" data-qid="${esc(q.id)}">
                   ${inputFor(q, saved)}

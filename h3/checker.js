@@ -392,8 +392,43 @@ const Checker = (() => {
     return { correct: a.every((x, i) => x === b[i]) };
   }
 
+  // index form and prime factors: "2^3 × 5", "2 x 2 x 2 x 5", "5 × 2^3", "a^3 b^2".
+  // Both sides become a map of base -> total power, so the order does not
+  // matter and 2 × 2 × 2 equals 2^3. With q.index, each base must be written
+  // once (2^3, not 2 × 2 × 2). A bare number like 40 is not accepted: the
+  // point of these questions is the form, not the value.
+  function powersMatch(q, raw, key) {
+    const toMap = (src) => {
+      const s = timesNorm(src).replace(/\*\*/g, '^');
+      if (!s || /[^0-9a-z^*]/.test(s)) return null;
+      const map = {}, seen = {};
+      for (const piece of s.split('*')) {
+        if (!piece) return null;
+        const re = /(\d+|[a-z])(?:\^(\d+))?/g;
+        let m, used = '';
+        while ((m = re.exec(piece))) {
+          used += m[0];
+          const base = m[1], pow = m[2] == null ? 1 : Number(m[2]);
+          if (base === '1') continue;
+          map[base] = (map[base] || 0) + pow;
+          seen[base] = (seen[base] || 0) + 1;
+        }
+        if (used !== piece) return null;
+      }
+      return { map, seen };
+    };
+    const st = toMap(raw), ex = toMap(key);
+    if (!st || !ex) return { correct: false, reason: 'unreadable' };
+    const sk = Object.keys(st.map).sort(), ek = Object.keys(ex.map).sort();
+    const same = sk.length === ek.length && sk.every((b, i) => b === ek[i] && st.map[b] === ex.map[b]);
+    const plainNumber = sk.length === 1 && st.map[sk[0]] === 1 && /^\d+$/.test(sk[0]);
+    if (!same) return { correct: false, reason: plainNumber ? 'not index form' : undefined };
+    if (q.index && Object.values(st.seen).some(n => n > 1)) return { correct: false, reason: 'use powers' };
+    return { correct: true };
+  }
+
   // place value of a digit: accept 600, "6 hundreds", "hundreds", "six hundred"
-  const PLACE_NAMES = ['one', 'ten', 'hundred', 'thousand', 'ten thousand', 'hundred thousand', 'million', 'ten million', 'hundred million'];
+  const PLACE_NAMES =['one', 'ten', 'hundred', 'thousand', 'ten thousand', 'hundred thousand', 'million', 'ten million', 'hundred million'];
   const DIGIT_WORDS = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine'];
   function placeValueMatch(q, raw) {
     const value = Number(q.answer);
@@ -429,6 +464,11 @@ const Checker = (() => {
         case 'brackets': return bracketsMatch(q, raw);
         case 'product': return productMatch(q, raw);
         case 'placevalue': return placeValueMatch(q, raw);
+        case 'powers': {
+          let last = { correct: false };
+          for (const k of keys) { last = powersMatch(q, raw, String(k)); if (last.correct) return last; }
+          return last;
+        }
         case 'ordered':
         case 'point':
           return keys.reduce((r, k) => r.correct ? r : listMatch(q, raw, Array.isArray(k) ? k : String(k).replace(/^\(|\)$/g, '').split(','), true), { correct: false });

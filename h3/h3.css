@@ -421,3 +421,29 @@ textarea, .small-input { width: 100%; font: 15px/1.4 var(--f-mono); color: var(-
   .hp-th span:first-child { display: none; }
 }
 @media (max-width: 480px) { .hp-ch-h { font-size: 9.5px; padding: 6px 0; letter-spacing: -0.02em; } }
+
+/* Question figures (figures.js): Cartesian planes, matchstick and dot
+   patterns, and input/output tables. Colours follow the theme tokens. */
+.stem-body { display: grid; gap: 10px; min-width: 0; }
+.qfig { margin: 0 0 12px; overflow-x: auto; }
+.fig { display: block; max-width: 100%; height: auto; }
+.fig-plane { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; }
+.fg-grid { stroke: var(--line); stroke-width: 1; }
+.fg-axis { stroke: var(--ink); stroke-width: 2; }
+.fg-tick { fill: var(--muted); font: 600 11px var(--f-mono); }
+.fg-label { fill: var(--ink); font: 700 italic 14px var(--f-body); }
+.fg-pt { fill: var(--h3-green); }
+.fg-ptl { fill: var(--ink); font: 800 14px var(--f-display); }
+.fg-path { fill: none; stroke: var(--h3-green); stroke-width: 2.5; stroke-linejoin: round; }
+.fig-stages { display: flex; flex-wrap: wrap; gap: 14px 22px; align-items: flex-end; }
+.fig-stage { margin: 0; display: grid; justify-items: center; gap: 4px; }
+.fig-stage svg { max-width: 100%; height: auto; }
+.fig-stage figcaption { font-size: 13px; color: var(--muted); }
+.fg-stick { stroke: var(--accent); stroke-width: 4; stroke-linecap: round; }
+.fg-tip { fill: var(--brand-red); }
+.fg-dot { fill: var(--accent); }
+.fig-table-wrap { overflow-x: auto; }
+.fig-table { border-collapse: collapse; font: 700 16px var(--f-mono); background: var(--surface); }
+.fig-table th, .fig-table td { border: 1px solid var(--line); padding: 7px 12px; text-align: center; min-width: 2.6em; }
+.fig-table th { font: 700 13px var(--f-body); color: var(--muted); background: var(--paper); text-align: left; }
+.fig-table td.gap { color: var(--h3-green); background: color-mix(in srgb, var(--h3-green) 10%, var(--surface)); }
