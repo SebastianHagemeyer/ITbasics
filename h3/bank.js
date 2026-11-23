@@ -108631,6 +108631,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "7a-name",
      "label": "1a",
      "section": "Fluency",
      "stem": "Name these line segments and angles.",
@@ -108680,6 +108681,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "7a-name",
      "label": "1b",
      "section": "Fluency",
      "stem": "Name these line segments and angles.",
@@ -108728,6 +108730,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1c",
+     "help": "7a-name",
      "label": "1c",
      "section": "Fluency",
      "stem": "Name these line segments and angles.",
@@ -108803,6 +108806,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1d",
+     "help": "7a-name",
      "label": "1d",
      "section": "Fluency",
      "stem": "Name these line segments and angles.",
@@ -108877,6 +108881,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "7a-name",
      "label": "2a",
      "section": "Fluency",
      "stem": "Name each of these objects.",
@@ -108905,6 +108910,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "7a-name",
      "label": "2b",
      "section": "Fluency",
      "stem": "Name each of these objects.",
@@ -108950,6 +108956,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "7a-name",
      "label": "2c",
      "section": "Fluency",
      "stem": "Name each of these objects.",
@@ -109026,6 +109033,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "7a-name",
      "label": "2d",
      "section": "Fluency",
      "stem": "Name each of these objects.",
@@ -109105,6 +109113,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2e",
+     "help": "7a-name",
      "label": "2e",
      "section": "Fluency",
      "stem": "Name each of these objects.",
@@ -109148,6 +109157,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2f",
+     "help": "7a-name",
      "label": "2f",
      "section": "Fluency",
      "stem": "Name each of these objects.",
@@ -109197,6 +109207,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "7a-name",
      "label": "3a",
      "section": "Fluency",
      "stem": "Name the angle marked by the arc in each diagram.",
@@ -109305,6 +109316,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "7a-name",
      "label": "3b",
      "section": "Fluency",
      "stem": "Name the angle marked by the arc in each diagram.",
@@ -109400,6 +109412,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "7a-name",
      "label": "3c",
      "section": "Fluency",
      "stem": "Name the angle marked by the arc in each diagram.",
@@ -109507,6 +109520,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3d",
+     "help": "7a-name",
      "label": "3d",
      "section": "Fluency",
      "stem": "Name the angle marked by the arc in each diagram.",
@@ -109630,6 +109644,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "7a-types",
      "label": "4a",
      "section": "Fluency",
      "stem": "State the type of each angle shown.",
@@ -109684,6 +109699,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "7a-types",
      "label": "4b",
      "section": "Fluency",
      "stem": "State the type of each angle shown.",
@@ -109738,6 +109754,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "7a-types",
      "label": "4c",
      "section": "Fluency",
      "stem": "State the type of each angle shown.",
@@ -109792,6 +109809,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "7a-types",
      "label": "4d",
      "section": "Fluency",
      "stem": "State the type of each angle shown.",
@@ -109846,6 +109864,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4e",
+     "help": "7a-types",
      "label": "4e",
      "section": "Fluency",
      "stem": "State the type of each angle shown.",
@@ -109900,6 +109919,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4f",
+     "help": "7a-types",
      "label": "4f",
      "section": "Fluency",
      "stem": "State the type of each angle shown.",
@@ -109954,6 +109974,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4g",
+     "help": "7a-types",
      "label": "4g",
      "section": "Fluency",
      "stem": "State the type of each angle shown.",
@@ -110008,6 +110029,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4h",
+     "help": "7a-types",
      "label": "4h",
      "section": "Fluency",
      "stem": "State the type of each angle shown.",
@@ -110062,6 +110084,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4i",
+     "help": "7a-types",
      "label": "4i",
      "section": "Fluency",
      "stem": "State the type of each angle shown.",
@@ -110116,6 +110139,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "7a-types",
      "label": "5a",
      "section": "Fluency",
      "stem": "State the type of angle for each size.",
@@ -110133,6 +110157,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "7a-types",
      "label": "5b",
      "section": "Fluency",
      "stem": "State the type of angle for each size.",
@@ -110150,6 +110175,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "7a-types",
      "label": "5c",
      "section": "Fluency",
      "stem": "State the type of angle for each size.",
@@ -110167,6 +110193,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5d",
+     "help": "7a-types",
      "label": "5d",
      "section": "Fluency",
      "stem": "State the type of angle for each size.",
@@ -110184,6 +110211,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5e",
+     "help": "7a-types",
      "label": "5e",
      "section": "Fluency",
      "stem": "State the type of angle for each size.",
@@ -110201,6 +110229,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5f",
+     "help": "7a-types",
      "label": "5f",
      "section": "Fluency",
      "stem": "State the type of angle for each size.",
@@ -110218,6 +110247,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5g",
+     "help": "7a-types",
      "label": "5g",
      "section": "Fluency",
      "stem": "State the type of angle for each size.",
@@ -110235,6 +110265,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5h",
+     "help": "7a-types",
      "label": "5h",
      "section": "Fluency",
      "stem": "State the type of angle for each size.",
@@ -110252,6 +110283,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5i",
+     "help": "7a-types",
      "label": "5i",
      "section": "Fluency",
      "stem": "State the type of angle for each size.",
@@ -110269,6 +110301,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5j",
+     "help": "7a-types",
      "label": "5j",
      "section": "Fluency",
      "stem": "State the type of angle for each size.",
@@ -110286,6 +110319,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6a",
+     "help": "7a-estimate",
      "label": "6a",
      "section": "Fluency",
      "stem": "Each diagram is drawn to scale. Choose the size closest to the marked angle.",
@@ -110340,6 +110374,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6b",
+     "help": "7a-estimate",
      "label": "6b",
      "section": "Fluency",
      "stem": "Each diagram is drawn to scale. Choose the size closest to the marked angle.",
@@ -110402,6 +110437,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6c",
+     "help": "7a-estimate",
      "label": "6c",
      "section": "Fluency",
      "stem": "Each diagram is drawn to scale. Choose the size closest to the marked angle.",
@@ -110489,6 +110525,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6d",
+     "help": "7a-estimate",
      "label": "6d",
      "section": "Fluency",
      "stem": "Each diagram is drawn to scale. Choose the size closest to the marked angle.",
@@ -110557,6 +110594,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7a",
+     "help": "7a-points",
      "label": "7a",
      "section": "Fluency",
      "stem": "Name the three labelled points that are collinear in each diagram.",
@@ -110636,6 +110674,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7b",
+     "help": "7a-points",
      "label": "7b",
      "section": "Fluency",
      "stem": "Name the three labelled points that are collinear in each diagram.",
@@ -110732,6 +110771,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8a",
+     "help": "7a-points",
      "label": "8a",
      "section": "Fluency",
      "stem": "State whether each set of lines is concurrent.",
@@ -110793,6 +110833,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8b",
+     "help": "7a-points",
      "label": "8b",
      "section": "Fluency",
      "stem": "State whether each set of lines is concurrent.",
@@ -110839,6 +110880,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9a",
+     "help": "7a-count",
      "label": "9a",
      "section": "Problem-solving",
      "stem": "Count all the angles inside each shape. Include angles that are the same size, and count a corner that is split by a segment as one angle for each part plus the whole corner.",
@@ -110886,6 +110928,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9b",
+     "help": "7a-count",
      "label": "9b",
      "section": "Problem-solving",
      "stem": "Count all the angles inside each shape. Include angles that are the same size, and count a corner that is split by a segment as one angle for each part plus the whole corner.",
@@ -110941,6 +110984,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10a",
+     "help": "7a-clock",
      "label": "10a",
      "section": "Problem-solving",
      "stem": "A clock face is numbered 1 to 12. Find the angle the minute hand turns through in:",
@@ -110951,6 +110995,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10b",
+     "help": "7a-clock",
      "label": "10b",
      "section": "Problem-solving",
      "stem": "A clock face is numbered 1 to 12. Find the angle the minute hand turns through in:",
@@ -110961,6 +111006,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10c",
+     "help": "7a-clock",
      "label": "10c",
      "section": "Problem-solving",
      "stem": "A clock face is numbered 1 to 12. Find the angle the minute hand turns through in:",
@@ -110971,6 +111017,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10d",
+     "help": "7a-clock",
      "label": "10d",
      "section": "Problem-solving",
      "stem": "A clock face is numbered 1 to 12. Find the angle the minute hand turns through in:",
@@ -110981,6 +111028,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10e",
+     "help": "7a-clock",
      "label": "10e",
      "section": "Problem-solving",
      "stem": "A clock face is numbered 1 to 12. Find the angle the minute hand turns through in:",
@@ -110991,6 +111039,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10f",
+     "help": "7a-clock",
      "label": "10f",
      "section": "Problem-solving",
      "stem": "A clock face is numbered 1 to 12. Find the angle the minute hand turns through in:",
@@ -111001,6 +111050,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10g",
+     "help": "7a-clock",
      "label": "10g",
      "section": "Problem-solving",
      "stem": "A clock face is numbered 1 to 12. Find the angle the minute hand turns through in:",
@@ -111011,6 +111061,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10h",
+     "help": "7a-clock",
      "label": "10h",
      "section": "Problem-solving",
      "stem": "A clock face is numbered 1 to 12. Find the angle the minute hand turns through in:",
@@ -111021,6 +111072,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11a",
+     "help": "7a-clock",
      "label": "11a",
      "section": "Problem-solving",
      "stem": "A clock face is numbered 1 to 12. Find the angle between the hour hand and the minute hand at:",
@@ -111031,6 +111083,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11b",
+     "help": "7a-clock",
      "label": "11b",
      "section": "Problem-solving",
      "stem": "A clock face is numbered 1 to 12. Find the angle between the hour hand and the minute hand at:",
@@ -111041,6 +111094,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11c",
+     "help": "7a-clock",
      "label": "11c",
      "section": "Problem-solving",
      "stem": "A clock face is numbered 1 to 12. Find the angle between the hour hand and the minute hand at:",
@@ -111051,6 +111105,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11d",
+     "help": "7a-clock",
      "label": "11d",
      "section": "Problem-solving",
      "stem": "A clock face is numbered 1 to 12. Find the angle between the hour hand and the minute hand at:",
@@ -111061,6 +111116,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12a",
+     "help": "7a-clock",
      "label": "12a",
      "section": "Problem-solving",
      "stem": "Find the angle between the hour hand and the minute hand of a clock at these times. Give the angle that is $180^\\circ$ or less.",
@@ -111071,6 +111127,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12b",
+     "help": "7a-clock",
      "label": "12b",
      "section": "Problem-solving",
      "stem": "Find the angle between the hour hand and the minute hand of a clock at these times. Give the angle that is $180^\\circ$ or less.",
@@ -111081,6 +111138,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12c",
+     "help": "7a-clock",
      "label": "12c",
      "section": "Problem-solving",
      "stem": "Find the angle between the hour hand and the minute hand of a clock at these times. Give the angle that is $180^\\circ$ or less.",
@@ -111091,6 +111149,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12d",
+     "help": "7a-clock",
      "label": "12d",
      "section": "Problem-solving",
      "stem": "Find the angle between the hour hand and the minute hand of a clock at these times. Give the angle that is $180^\\circ$ or less.",
@@ -111101,6 +111160,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12e",
+     "help": "7a-clock",
      "label": "12e",
      "section": "Problem-solving",
      "stem": "Find the angle between the hour hand and the minute hand of a clock at these times. Give the angle that is $180^\\circ$ or less.",
@@ -111111,6 +111171,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12f",
+     "help": "7a-clock",
      "label": "12f",
      "section": "Problem-solving",
      "stem": "Find the angle between the hour hand and the minute hand of a clock at these times. Give the angle that is $180^\\circ$ or less.",
@@ -111121,6 +111182,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13a",
+     "help": "7a-points",
      "label": "13a",
      "section": "Reasoning",
      "stem": "Answer each question. Drawing a diagram may help.",
@@ -111134,6 +111196,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13b",
+     "help": "7a-points",
      "label": "13b",
      "section": "Reasoning",
      "stem": "Answer each question. Drawing a diagram may help.",
@@ -111147,6 +111210,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14",
+     "help": "7a-turn",
      "label": "14",
      "section": "Reasoning",
      "prompt": "The acute angle $\\angle AOB$ is $48^\\circ$. Without using a protractor, find the size of the reflex angle $\\angle AOB$.",
@@ -111227,6 +111291,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15a",
+     "help": "7a-turn",
      "label": "15a",
      "section": "Reasoning",
      "stem": "The arrow on a dial starts pointing straight up. It then turns by the given number of degrees. Find the angle between its final position and its starting position, as an acute or obtuse angle. The diagram shows part i.",
@@ -111294,6 +111359,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15b",
+     "help": "7a-turn",
      "label": "15b",
      "section": "Reasoning",
      "stem": "The arrow on a dial starts pointing straight up. It then turns by the given number of degrees. Find the angle between its final position and its starting position, as an acute or obtuse angle. The diagram shows part i.",
@@ -111304,6 +111370,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15c",
+     "help": "7a-turn",
      "label": "15c",
      "section": "Reasoning",
      "stem": "The arrow on a dial starts pointing straight up. It then turns by the given number of degrees. Find the angle between its final position and its starting position, as an acute or obtuse angle. The diagram shows part i.",
@@ -111314,6 +111381,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15d",
+     "help": "7a-turn",
      "label": "15d",
      "section": "Reasoning",
      "stem": "The arrow on a dial starts pointing straight up. It then turns by the given number of degrees. Find the angle between its final position and its starting position, as an acute or obtuse angle. The diagram shows part i.",
@@ -111324,6 +111392,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15e",
+     "help": "7a-turn",
      "label": "15e",
      "section": "Reasoning",
      "stem": "The arrow on a dial starts pointing straight up. It then turns by the given number of degrees. Find the angle between its final position and its starting position, as an acute or obtuse angle. The diagram shows part i.",
@@ -111334,6 +111403,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15f",
+     "help": "7a-turn",
      "label": "15f",
      "section": "Reasoning",
      "stem": "The arrow on a dial starts pointing straight up. It then turns by the given number of degrees. Find the angle between its final position and its starting position, as an acute or obtuse angle. The diagram shows part i.",
@@ -111344,6 +111414,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15g",
+     "help": "7a-turn",
      "label": "15g",
      "section": "Reasoning",
      "prompt": "Did it matter to the answers whether the dial turned clockwise or anticlockwise?",
@@ -111356,6 +111427,7 @@ window.H3_BANK = {
     },
     {
      "id": "q16a",
+     "help": "7a-segments",
      "label": "16a",
      "section": "Enrichment",
      "stem": "A line has some labelled points on it. A segment joins any two of the labelled points. This line has three points.",
@@ -111435,6 +111507,7 @@ window.H3_BANK = {
     },
     {
      "id": "q16b",
+     "help": "7a-segments",
      "label": "16b",
      "section": "Enrichment",
      "stem": "A line has some labelled points on it. A segment joins any two of the labelled points. This line has three points.",
@@ -111444,6 +111517,7 @@ window.H3_BANK = {
     },
     {
      "id": "q16c",
+     "help": "7a-segments",
      "label": "16c",
      "section": "Enrichment",
      "stem": "A line has some labelled points on it. A segment joins any two of the labelled points. This line has three points.",
@@ -111462,6 +111536,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "7b-adjacent",
      "label": "1a",
      "section": "Fluency",
      "stem": "Without using a protractor, find the value of the pronumeral $a$.",
@@ -111530,6 +111605,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "7b-adjacent",
      "label": "1b",
      "section": "Fluency",
      "stem": "Without using a protractor, find the value of the pronumeral $a$.",
@@ -111598,6 +111674,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1c",
+     "help": "7b-adjacent",
      "label": "1c",
      "section": "Fluency",
      "stem": "Without using a protractor, find the value of the pronumeral $a$.",
@@ -111666,6 +111743,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "7b-adjacent",
      "label": "2a",
      "section": "Fluency",
      "stem": "Without using a protractor, find the value of the pronumeral $a$.",
@@ -111734,6 +111812,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "7b-adjacent",
      "label": "2b",
      "section": "Fluency",
      "stem": "Without using a protractor, find the value of the pronumeral $a$.",
@@ -111802,6 +111881,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "7b-adjacent",
      "label": "2c",
      "section": "Fluency",
      "stem": "Without using a protractor, find the value of the pronumeral $a$.",
@@ -111870,6 +111950,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "7b-adjacent",
      "label": "2d",
      "section": "Fluency",
      "stem": "Without using a protractor, find the value of the pronumeral $a$.",
@@ -111921,6 +112002,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2e",
+     "help": "7b-adjacent",
      "label": "2e",
      "section": "Fluency",
      "stem": "Without using a protractor, find the value of the pronumeral $a$.",
@@ -111972,6 +112054,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2f",
+     "help": "7b-adjacent",
      "label": "2f",
      "section": "Fluency",
      "stem": "Without using a protractor, find the value of the pronumeral $a$.",
@@ -112023,6 +112106,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2g",
+     "help": "7b-adjacent",
      "label": "2g",
      "section": "Fluency",
      "stem": "Without using a protractor, find the value of the pronumeral $a$.",
@@ -112091,6 +112175,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2h",
+     "help": "7b-adjacent",
      "label": "2h",
      "section": "Fluency",
      "stem": "Without using a protractor, find the value of the pronumeral $a$.",
@@ -112159,6 +112244,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2i",
+     "help": "7b-adjacent",
      "label": "2i",
      "section": "Fluency",
      "stem": "Without using a protractor, find the value of the pronumeral $a$.",
@@ -112227,6 +112313,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "7b-around",
      "label": "3a",
      "section": "Fluency",
      "stem": "Without using a protractor, find the value of the pronumeral $a$.",
@@ -112278,6 +112365,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "7b-around",
      "label": "3b",
      "section": "Fluency",
      "stem": "Without using a protractor, find the value of the pronumeral $a$.",
@@ -112329,6 +112417,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "7b-around",
      "label": "3c",
      "section": "Fluency",
      "stem": "Without using a protractor, find the value of the pronumeral $a$.",
@@ -112380,6 +112469,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3d",
+     "help": "7b-around",
      "label": "3d",
      "section": "Fluency",
      "stem": "Without using a protractor, find the value of the pronumeral $a$.",
@@ -112431,6 +112521,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3e",
+     "help": "7b-around",
      "label": "3e",
      "section": "Fluency",
      "stem": "Without using a protractor, find the value of the pronumeral $a$.",
@@ -112482,6 +112573,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3f",
+     "help": "7b-around",
      "label": "3f",
      "section": "Fluency",
      "stem": "Without using a protractor, find the value of the pronumeral $a$.",
@@ -112532,6 +112624,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3g",
+     "help": "7b-around",
      "label": "3g",
      "section": "Fluency",
      "stem": "Without using a protractor, find the value of the pronumeral $a$.",
@@ -112600,6 +112693,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3h",
+     "help": "7b-around",
      "label": "3h",
      "section": "Fluency",
      "stem": "Without using a protractor, find the value of the pronumeral $a$.",
@@ -112668,6 +112762,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3i",
+     "help": "7b-around",
      "label": "3i",
      "section": "Fluency",
      "stem": "Without using a protractor, find the value of the pronumeral $a$.",
@@ -112737,6 +112832,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "7b-pairs",
      "label": "4a",
      "section": "Fluency",
      "stem": "Decide whether each pair of angles is complementary, supplementary or neither.",
@@ -112751,6 +112847,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "7b-pairs",
      "label": "4b",
      "section": "Fluency",
      "stem": "Decide whether each pair of angles is complementary, supplementary or neither.",
@@ -112765,6 +112862,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "7b-pairs",
      "label": "4c",
      "section": "Fluency",
      "stem": "Decide whether each pair of angles is complementary, supplementary or neither.",
@@ -112779,6 +112877,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "7b-pairs",
      "label": "4d",
      "section": "Fluency",
      "stem": "Decide whether each pair of angles is complementary, supplementary or neither.",
@@ -112793,6 +112892,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4e",
+     "help": "7b-pairs",
      "label": "4e",
      "section": "Fluency",
      "stem": "Decide whether each pair of angles is complementary, supplementary or neither.",
@@ -112807,6 +112907,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4f",
+     "help": "7b-pairs",
      "label": "4f",
      "section": "Fluency",
      "stem": "Decide whether each pair of angles is complementary, supplementary or neither.",
@@ -112821,6 +112922,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4g",
+     "help": "7b-pairs",
      "label": "4g",
      "section": "Fluency",
      "stem": "Decide whether each pair of angles is complementary, supplementary or neither.",
@@ -112835,6 +112937,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4h",
+     "help": "7b-pairs",
      "label": "4h",
      "section": "Fluency",
      "stem": "Decide whether each pair of angles is complementary, supplementary or neither.",
@@ -112849,6 +112952,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "7b-perp",
      "label": "5a",
      "section": "Fluency",
      "stem": "Write a statement like $AB \\perp CD$ for each pair of perpendicular line segments.",
@@ -112963,6 +113067,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "7b-perp",
      "label": "5b",
      "section": "Fluency",
      "stem": "Write a statement like $AB \\perp CD$ for each pair of perpendicular line segments.",
@@ -113076,6 +113181,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "7b-perp",
      "label": "5c",
      "section": "Fluency",
      "stem": "Write a statement like $AB \\perp CD$ for each pair of perpendicular line segments.",
@@ -113181,6 +113287,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6a",
+     "help": "7b-multi",
      "label": "6a",
      "section": "Fluency",
      "stem": "Without using a protractor, find the value of $a$ in these diagrams.",
@@ -113250,6 +113357,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6b",
+     "help": "7b-multi",
      "label": "6b",
      "section": "Fluency",
      "stem": "Without using a protractor, find the value of $a$ in these diagrams.",
@@ -113319,6 +113427,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6c",
+     "help": "7b-multi",
      "label": "6c",
      "section": "Fluency",
      "stem": "Without using a protractor, find the value of $a$ in these diagrams.",
@@ -113405,6 +113514,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6d",
+     "help": "7b-multi",
      "label": "6d",
      "section": "Fluency",
      "stem": "Without using a protractor, find the value of $a$ in these diagrams.",
@@ -113473,6 +113583,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6e",
+     "help": "7b-multi",
      "label": "6e",
      "section": "Fluency",
      "stem": "Without using a protractor, find the value of $a$ in these diagrams.",
@@ -113541,6 +113652,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6f",
+     "help": "7b-multi",
      "label": "6f",
      "section": "Fluency",
      "stem": "Without using a protractor, find the value of $a$ in these diagrams.",
@@ -113609,6 +113721,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7a",
+     "help": "7b-multi",
      "label": "7a",
      "section": "Problem-solving",
      "stem": "Decide whether the angle sizes given in each diagram are possible. (The diagrams are not drawn to scale.)",
@@ -113681,6 +113794,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7b",
+     "help": "7b-multi",
      "label": "7b",
      "section": "Problem-solving",
      "stem": "Decide whether the angle sizes given in each diagram are possible. (The diagrams are not drawn to scale.)",
@@ -113736,6 +113850,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7c",
+     "help": "7b-multi",
      "label": "7c",
      "section": "Problem-solving",
      "stem": "Decide whether the angle sizes given in each diagram are possible. (The diagrams are not drawn to scale.)",
@@ -113791,6 +113906,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7d",
+     "help": "7b-multi",
      "label": "7d",
      "section": "Problem-solving",
      "stem": "Decide whether the angle sizes given in each diagram are possible. (The diagrams are not drawn to scale.)",
@@ -113846,6 +113962,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7e",
+     "help": "7b-multi",
      "label": "7e",
      "section": "Problem-solving",
      "stem": "Decide whether the angle sizes given in each diagram are possible. (The diagrams are not drawn to scale.)",
@@ -113901,6 +114018,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7f",
+     "help": "7b-multi",
      "label": "7f",
      "section": "Problem-solving",
      "stem": "Decide whether the angle sizes given in each diagram are possible. (The diagrams are not drawn to scale.)",
@@ -113956,6 +114074,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8a",
+     "help": "7b-algebra",
      "label": "8a",
      "section": "Problem-solving",
      "stem": "Find the value of $a$ in these diagrams.",
@@ -114061,6 +114180,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8b",
+     "help": "7b-algebra",
      "label": "8b",
      "section": "Problem-solving",
      "stem": "Find the value of $a$ in these diagrams.",
@@ -114112,6 +114232,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8c",
+     "help": "7b-algebra",
      "label": "8c",
      "section": "Problem-solving",
      "stem": "Find the value of $a$ in these diagrams.",
@@ -114181,6 +114302,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8d",
+     "help": "7b-algebra",
      "label": "8d",
      "section": "Problem-solving",
      "stem": "Find the value of $a$ in these diagrams.",
@@ -114261,6 +114383,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8e",
+     "help": "7b-algebra",
      "label": "8e",
      "section": "Problem-solving",
      "stem": "Find the value of $a$ in these diagrams.",
@@ -114324,6 +114447,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8f",
+     "help": "7b-algebra",
      "label": "8f",
      "section": "Problem-solving",
      "stem": "Find the value of $a$ in these diagrams.",
@@ -114375,6 +114499,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9",
+     "help": "7b-share",
      "label": "9",
      "section": "Problem-solving",
      "prompt": "A round pizza is shared by four friends. Dee and Cam get the same amount, Ben gets twice as much as Cam, and Ana gets twice as much as Ben. The pizza is cut into slices from the centre outwards. Find the angle at the centre of the pizza for Dee's piece.",
@@ -114384,6 +114509,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10a",
+     "help": "7b-pairs",
      "label": "10a",
      "section": "Reasoning",
      "stem": "Answer yes or no.",
@@ -114397,6 +114523,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10b",
+     "help": "7b-pairs",
      "label": "10b",
      "section": "Reasoning",
      "stem": "Answer yes or no.",
@@ -114410,6 +114537,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11a",
+     "help": "7b-rule",
      "label": "11a",
      "section": "Reasoning",
      "stem": "Write a rule connecting the letters in each diagram, for example $a + b = 180$.",
@@ -114479,6 +114607,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11b",
+     "help": "7b-rule",
      "label": "11b",
      "section": "Reasoning",
      "stem": "Write a rule connecting the letters in each diagram, for example $a + b = 180$.",
@@ -114548,6 +114677,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11c",
+     "help": "7b-rule",
      "label": "11c",
      "section": "Reasoning",
      "stem": "Write a rule connecting the letters in each diagram, for example $a + b = 180$.",
@@ -114616,6 +114746,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12",
+     "help": "7b-rule",
      "label": "12",
      "section": "Reasoning",
      "prompt": "Three straight lines cross at one point, making six angles. What is the smallest number of these angles you would need to measure so that you could work out all six?",
@@ -114654,6 +114785,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13a",
+     "help": "7b-turn",
      "label": "13a",
      "section": "Enrichment",
      "stem": "Imagine walking around a path shaped like this regular hexagon. All sides are the same length and all the inside angles are equal. At each corner you turn through the outside angle $a^\\circ$; the inside angle is $b^\\circ$.",
@@ -114872,6 +115004,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13b",
+     "help": "7b-turn",
      "label": "13b",
      "section": "Enrichment",
      "stem": "Imagine walking around a path shaped like this regular hexagon. All sides are the same length and all the inside angles are equal. At each corner you turn through the outside angle $a^\\circ$; the inside angle is $b^\\circ$.",
@@ -114881,6 +115014,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13c",
+     "help": "7b-turn",
      "label": "13c",
      "section": "Enrichment",
      "stem": "Imagine walking around a path shaped like this regular hexagon. All sides are the same length and all the inside angles are equal. At each corner you turn through the outside angle $a^\\circ$; the inside angle is $b^\\circ$.",
@@ -114890,6 +115024,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13d",
+     "help": "7b-turn",
      "label": "13d",
      "section": "Enrichment",
      "stem": "Imagine walking around a path shaped like this regular hexagon. All sides are the same length and all the inside angles are equal. At each corner you turn through the outside angle $a^\\circ$; the inside angle is $b^\\circ$.",
@@ -114899,6 +115034,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13e",
+     "help": "7b-turn",
      "label": "13e",
      "section": "Enrichment",
      "stem": "Imagine walking around a path shaped like this regular hexagon. All sides are the same length and all the inside angles are equal. At each corner you turn through the outside angle $a^\\circ$; the inside angle is $b^\\circ$.",
@@ -114908,6 +115044,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13f",
+     "help": "7b-turn",
      "label": "13f",
      "section": "Enrichment",
      "stem": "Imagine walking around a path shaped like this regular hexagon. All sides are the same length and all the inside angles are equal. At each corner you turn through the outside angle $a^\\circ$; the inside angle is $b^\\circ$.",
@@ -114925,6 +115062,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "7c-name",
      "label": "1a",
      "section": "Fluency",
      "stem": "Name the angle that is:",
@@ -115061,6 +115199,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "7c-name",
      "label": "1b",
      "section": "Fluency",
      "stem": "Name the angle that is:",
@@ -115081,6 +115220,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1c",
+     "help": "7c-name",
      "label": "1c",
      "section": "Fluency",
      "stem": "Name the angle that is:",
@@ -115101,6 +115241,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1d",
+     "help": "7c-name",
      "label": "1d",
      "section": "Fluency",
      "stem": "Name the angle that is:",
@@ -115121,6 +115262,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "7c-name",
      "label": "2a",
      "section": "Fluency",
      "stem": "Name the angle that is:",
@@ -115256,6 +115398,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "7c-name",
      "label": "2b",
      "section": "Fluency",
      "stem": "Name the angle that is:",
@@ -115276,6 +115419,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "7c-name",
      "label": "2c",
      "section": "Fluency",
      "stem": "Name the angle that is:",
@@ -115296,6 +115440,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "7c-name",
      "label": "2d",
      "section": "Fluency",
      "stem": "Name the angle that is:",
@@ -115316,6 +115461,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "7c-name",
      "label": "3a",
      "section": "Fluency",
      "stem": "Name the angle that is:",
@@ -115451,6 +115597,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "7c-name",
      "label": "3b",
      "section": "Fluency",
      "stem": "Name the angle that is:",
@@ -115471,6 +115618,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "7c-name",
      "label": "3c",
      "section": "Fluency",
      "stem": "Name the angle that is:",
@@ -115491,6 +115639,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3d",
+     "help": "7c-name",
      "label": "3d",
      "section": "Fluency",
      "stem": "Name the angle that is:",
@@ -115511,6 +115660,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "7c-find",
      "label": "4a",
      "section": "Fluency",
      "stem": "Find the value of $a$ in each diagram.",
@@ -115591,6 +115741,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "7c-find",
      "label": "4b",
      "section": "Fluency",
      "stem": "Find the value of $a$ in each diagram.",
@@ -115671,6 +115822,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "7c-find",
      "label": "4c",
      "section": "Fluency",
      "stem": "Find the value of $a$ in each diagram.",
@@ -115751,6 +115903,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "7c-find",
      "label": "4d",
      "section": "Fluency",
      "stem": "Find the value of $a$ in each diagram.",
@@ -115831,6 +115984,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4e",
+     "help": "7c-find",
      "label": "4e",
      "section": "Fluency",
      "stem": "Find the value of $a$ in each diagram.",
@@ -115911,6 +116065,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4f",
+     "help": "7c-find",
      "label": "4f",
      "section": "Fluency",
      "stem": "Find the value of $a$ in each diagram.",
@@ -115991,6 +116146,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4g",
+     "help": "7c-find",
      "label": "4g",
      "section": "Fluency",
      "stem": "Find the value of $a$ in each diagram.",
@@ -116071,6 +116227,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4h",
+     "help": "7c-find",
      "label": "4h",
      "section": "Fluency",
      "stem": "Find the value of $a$ in each diagram.",
@@ -116151,6 +116308,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4i",
+     "help": "7c-find",
      "label": "4i",
      "section": "Fluency",
      "stem": "Find the value of $a$ in each diagram.",
@@ -116231,6 +116389,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4j",
+     "help": "7c-find",
      "label": "4j",
      "section": "Fluency",
      "stem": "Find the value of $a$ in each diagram.",
@@ -116311,6 +116470,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4k",
+     "help": "7c-find",
      "label": "4k",
      "section": "Fluency",
      "stem": "Find the value of $a$ in each diagram.",
@@ -116391,6 +116551,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4l",
+     "help": "7c-find",
      "label": "4l",
      "section": "Fluency",
      "stem": "Find the value of $a$ in each diagram.",
@@ -116471,6 +116632,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "7c-find",
      "label": "5a",
      "section": "Fluency",
      "stem": "Find the value of each pronumeral in these diagrams.",
@@ -116576,6 +116738,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "7c-find",
      "label": "5b",
      "section": "Fluency",
      "stem": "Find the value of each pronumeral in these diagrams.",
@@ -116680,6 +116843,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "7c-find",
      "label": "5c",
      "section": "Fluency",
      "stem": "Find the value of each pronumeral in these diagrams.",
@@ -116795,6 +116959,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5d",
+     "help": "7c-find",
      "label": "5d",
      "section": "Fluency",
      "stem": "Find the value of each pronumeral in these diagrams.",
@@ -116898,6 +117063,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5e",
+     "help": "7c-find",
      "label": "5e",
      "section": "Fluency",
      "stem": "Find the value of each pronumeral in these diagrams.",
@@ -117002,6 +117168,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5f",
+     "help": "7c-find",
      "label": "5f",
      "section": "Fluency",
      "stem": "Find the value of each pronumeral in these diagrams.",
@@ -117095,6 +117262,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6a",
+     "help": "7c-test",
      "label": "6a",
      "section": "Fluency",
      "stem": "Decide whether the two lines cut by the transversal are parallel.",
@@ -117161,6 +117329,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6b",
+     "help": "7c-test",
      "label": "6b",
      "section": "Fluency",
      "stem": "Decide whether the two lines cut by the transversal are parallel.",
@@ -117227,6 +117396,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6c",
+     "help": "7c-test",
      "label": "6c",
      "section": "Fluency",
      "stem": "Decide whether the two lines cut by the transversal are parallel.",
@@ -117293,6 +117463,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6d",
+     "help": "7c-test",
      "label": "6d",
      "section": "Fluency",
      "stem": "Decide whether the two lines cut by the transversal are parallel.",
@@ -117359,6 +117530,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6e",
+     "help": "7c-test",
      "label": "6e",
      "section": "Fluency",
      "stem": "Decide whether the two lines cut by the transversal are parallel.",
@@ -117425,6 +117597,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6f",
+     "help": "7c-test",
      "label": "6f",
      "section": "Fluency",
      "stem": "Decide whether the two lines cut by the transversal are parallel.",
@@ -117491,6 +117664,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7a",
+     "help": "7c-steps",
      "label": "7a",
      "section": "Problem-solving",
      "stem": "Find the value of $a$ in these diagrams.",
@@ -117566,6 +117740,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7b",
+     "help": "7c-steps",
      "label": "7b",
      "section": "Problem-solving",
      "stem": "Find the value of $a$ in these diagrams.",
@@ -117641,6 +117816,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7c",
+     "help": "7c-steps",
      "label": "7c",
      "section": "Problem-solving",
      "stem": "Find the value of $a$ in these diagrams.",
@@ -117718,6 +117894,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7d",
+     "help": "7c-steps",
      "label": "7d",
      "section": "Problem-solving",
      "stem": "Find the value of $a$ in these diagrams.",
@@ -117795,6 +117972,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7e",
+     "help": "7c-steps",
      "label": "7e",
      "section": "Problem-solving",
      "stem": "Find the value of $a$ in these diagrams.",
@@ -117875,6 +118053,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7f",
+     "help": "7c-steps",
      "label": "7f",
      "section": "Problem-solving",
      "stem": "Find the value of $a$ in these diagrams.",
@@ -117955,6 +118134,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8a",
+     "help": "7c-steps",
      "label": "8a",
      "section": "Problem-solving",
      "stem": "Find the value of $a$ in these diagrams.",
@@ -118046,6 +118226,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8b",
+     "help": "7c-steps",
      "label": "8b",
      "section": "Problem-solving",
      "stem": "Find the value of $a$ in these diagrams.",
@@ -118119,6 +118300,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8c",
+     "help": "7c-steps",
      "label": "8c",
      "section": "Problem-solving",
      "stem": "Find the value of $a$ in these diagrams.",
@@ -118196,6 +118378,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8d",
+     "help": "7c-steps",
      "label": "8d",
      "section": "Problem-solving",
      "stem": "Find the value of $a$ in these diagrams.",
@@ -118273,6 +118456,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8e",
+     "help": "7c-steps",
      "label": "8e",
      "section": "Problem-solving",
      "stem": "Find the value of $a$ in these diagrams.",
@@ -118357,6 +118541,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8f",
+     "help": "7c-steps",
      "label": "8f",
      "section": "Problem-solving",
      "stem": "Find the value of $a$ in these diagrams.",
@@ -118441,6 +118626,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9a",
+     "help": "7c-count",
      "label": "9a",
      "section": "Problem-solving",
      "stem": "A transversal cuts a set of four parallel lines.",
@@ -118450,6 +118636,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9b",
+     "help": "7c-count",
      "label": "9b",
      "section": "Problem-solving",
      "stem": "A transversal cuts a set of four parallel lines.",
@@ -118459,6 +118646,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10",
+     "help": "7c-find",
      "label": "10",
      "section": "Problem-solving",
      "prompt": "Two roads join a freeway at the same angle, as shown. The roads are parallel. Find the size of the obtuse angle $a^\\circ$ between the second road and the freeway.",
@@ -118549,6 +118737,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11a",
+     "help": "7c-steps",
      "label": "11a",
      "section": "Reasoning",
      "stem": "Each diagram has two triangles with a pair of parallel sides. Find the values of $a$ and $b$.",
@@ -118658,6 +118847,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11b",
+     "help": "7c-steps",
      "label": "11b",
      "section": "Reasoning",
      "stem": "Each diagram has two triangles with a pair of parallel sides. Find the values of $a$ and $b$.",
@@ -118766,6 +118956,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12a",
+     "help": "7c-steps",
      "label": "12a",
      "section": "Reasoning",
      "stem": "This shape is a parallelogram, with two pairs of parallel sides.",
@@ -118881,6 +119072,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12b",
+     "help": "7c-steps",
      "label": "12b",
      "section": "Reasoning",
      "stem": "This shape is a parallelogram, with two pairs of parallel sides.",
@@ -118890,6 +119082,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12c",
+     "help": "7c-steps",
      "label": "12c",
      "section": "Reasoning",
      "stem": "This shape is a parallelogram, with two pairs of parallel sides.",
@@ -118904,6 +119097,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14a",
+     "help": "7c-proof",
      "label": "14a",
      "section": "Enrichment",
      "stem": "In this diagram, line $PR$ passes through $Q$ and is parallel to $ST$.",
@@ -119019,6 +119213,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14b",
+     "help": "7c-proof",
      "label": "14b",
      "section": "Enrichment",
      "stem": "In this diagram, line $PR$ passes through $Q$ and is parallel to $ST$.",
@@ -119039,6 +119234,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14c",
+     "help": "7c-proof",
      "label": "14c",
      "section": "Enrichment",
      "stem": "In this diagram, line $PR$ passes through $Q$ and is parallel to $ST$.",
@@ -119049,6 +119245,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14d",
+     "help": "7c-proof",
      "label": "14d",
      "section": "Enrichment",
      "stem": "In this diagram, line $PR$ passes through $Q$ and is parallel to $ST$.",
@@ -119059,6 +119256,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15",
+     "help": "7c-proof",
      "label": "15",
      "section": "Enrichment",
      "prompt": "Using the same idea (a quadrilateral can be split into two triangles), what do the four angles inside any quadrilateral add up to?",
@@ -119076,6 +119274,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "7d-steps",
      "label": "1a",
      "section": "Fluency",
      "stem": "Find the value of $a$ in these diagrams.",
@@ -119218,6 +119417,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "7d-steps",
      "label": "1b",
      "section": "Fluency",
      "stem": "Find the value of $a$ in these diagrams.",
@@ -119295,6 +119495,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "7d-steps",
      "label": "2a",
      "section": "Fluency",
      "stem": "Find the value of $a$ in these diagrams.",
@@ -119372,6 +119573,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "7d-steps",
      "label": "2b",
      "section": "Fluency",
      "stem": "Find the value of $a$ in these diagrams.",
@@ -119466,6 +119668,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "7d-steps",
      "label": "2c",
      "section": "Fluency",
      "stem": "Find the value of $a$ in these diagrams.",
@@ -119543,6 +119746,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "7d-steps",
      "label": "2d",
      "section": "Fluency",
      "stem": "Find the value of $a$ in these diagrams.",
@@ -119637,6 +119841,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2e",
+     "help": "7d-steps",
      "label": "2e",
      "section": "Fluency",
      "stem": "Find the value of $a$ in these diagrams.",
@@ -119731,6 +119936,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2f",
+     "help": "7d-steps",
      "label": "2f",
      "section": "Fluency",
      "stem": "Find the value of $a$ in these diagrams.",
@@ -119825,6 +120031,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "7d-steps",
      "label": "3a",
      "section": "Fluency",
      "stem": "Find the value of $a$ in these diagrams.",
@@ -119920,6 +120127,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "7d-steps",
      "label": "3b",
      "section": "Fluency",
      "stem": "Find the value of $a$ in these diagrams.",
@@ -120015,6 +120223,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "7d-steps",
      "label": "4a",
      "section": "Fluency",
      "stem": "Find the value of $a$ in these diagrams.",
@@ -120110,6 +120319,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "7d-steps",
      "label": "4b",
      "section": "Fluency",
      "stem": "Find the value of $a$ in these diagrams.",
@@ -120205,6 +120415,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "7d-steps",
      "label": "4c",
      "section": "Fluency",
      "stem": "Find the value of $a$ in these diagrams.",
@@ -120300,6 +120511,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "7d-steps",
      "label": "4d",
      "section": "Fluency",
      "stem": "Find the value of $a$ in these diagrams.",
@@ -120394,6 +120606,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4e",
+     "help": "7d-steps",
      "label": "4e",
      "section": "Fluency",
      "stem": "Find the value of $a$ in these diagrams.",
@@ -120489,6 +120702,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4f",
+     "help": "7d-steps",
      "label": "4f",
      "section": "Fluency",
      "stem": "Find the value of $a$ in these diagrams.",
@@ -120583,6 +120797,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "7d-bend",
      "label": "5a",
      "section": "Problem-solving",
      "stem": "Find the size of $\\angle ABC$ in these diagrams.",
@@ -120729,6 +120944,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "7d-bend",
      "label": "5b",
      "section": "Problem-solving",
      "stem": "Find the size of $\\angle ABC$ in these diagrams.",
@@ -120875,6 +121091,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "7d-bend",
      "label": "5c",
      "section": "Problem-solving",
      "stem": "Find the size of $\\angle ABC$ in these diagrams.",
@@ -120995,6 +121212,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5d",
+     "help": "7d-bend",
      "label": "5d",
      "section": "Problem-solving",
      "stem": "Find the size of $\\angle ABC$ in these diagrams.",
@@ -121124,6 +121342,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5e",
+     "help": "7d-bend",
      "label": "5e",
      "section": "Problem-solving",
      "stem": "Find the size of $\\angle ABC$ in these diagrams.",
@@ -121253,6 +121472,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5f",
+     "help": "7d-bend",
      "label": "5f",
      "section": "Problem-solving",
      "stem": "Find the size of $\\angle ABC$ in these diagrams.",
@@ -121373,6 +121593,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6a",
+     "help": "7d-bend",
      "label": "6a",
      "section": "Problem-solving",
      "stem": "Find the value of $x$ in each of these diagrams.",
@@ -121468,6 +121689,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6b",
+     "help": "7d-bend",
      "label": "6b",
      "section": "Problem-solving",
      "stem": "Find the value of $x$ in each of these diagrams.",
@@ -121572,6 +121794,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6c",
+     "help": "7d-bend",
      "label": "6c",
      "section": "Problem-solving",
      "stem": "Find the value of $x$ in each of these diagrams.",
@@ -121667,6 +121890,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7a",
+     "help": "7d-count",
      "label": "7a",
      "section": "Reasoning",
      "stem": "What is the smallest number of angles you need to be told so that you can work out every angle at the points where the lines cross? (Lines with matching arrows are parallel.)",
@@ -121727,6 +121951,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7b",
+     "help": "7d-count",
      "label": "7b",
      "section": "Reasoning",
      "stem": "What is the smallest number of angles you need to be told so that you can work out every angle at the points where the lines cross? (Lines with matching arrows are parallel.)",
@@ -121801,6 +122026,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7c",
+     "help": "7d-count",
      "label": "7c",
      "section": "Reasoning",
      "stem": "What is the smallest number of angles you need to be told so that you can work out every angle at the points where the lines cross? (Lines with matching arrows are parallel.)",
@@ -121866,6 +122092,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8a",
+     "help": "7d-algebra",
      "label": "8a",
      "section": "Reasoning",
      "stem": "In these diagrams, $x$ stands for a number and $2x$ means $2 \\times x$. Find the value of $x$ in each case.",
@@ -121949,6 +122176,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8b",
+     "help": "7d-algebra",
      "label": "8b",
      "section": "Reasoning",
      "stem": "In these diagrams, $x$ stands for a number and $2x$ means $2 \\times x$. Find the value of $x$ in each case.",
@@ -122035,6 +122263,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8c",
+     "help": "7d-algebra",
      "label": "8c",
      "section": "Reasoning",
      "stem": "In these diagrams, $x$ stands for a number and $2x$ means $2 \\times x$. Find the value of $x$ in each case.",
@@ -122118,6 +122347,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8d",
+     "help": "7d-algebra",
      "label": "8d",
      "section": "Reasoning",
      "stem": "In these diagrams, $x$ stands for a number and $2x$ means $2 \\times x$. Find the value of $x$ in each case.",
@@ -122201,6 +122431,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8e",
+     "help": "7d-algebra",
      "label": "8e",
      "section": "Reasoning",
      "stem": "In these diagrams, $x$ stands for a number and $2x$ means $2 \\times x$. Find the value of $x$ in each case.",
@@ -122284,6 +122515,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8f",
+     "help": "7d-algebra",
      "label": "8f",
      "section": "Reasoning",
      "stem": "In these diagrams, $x$ stands for a number and $2x$ means $2 \\times x$. Find the value of $x$ in each case.",
@@ -122385,6 +122617,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9a",
+     "help": "7d-algebra",
      "label": "9a",
      "section": "Reasoning",
      "stem": "Find the value of $a$ in these diagrams.",
@@ -122494,6 +122727,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9b",
+     "help": "7d-algebra",
      "label": "9b",
      "section": "Reasoning",
      "stem": "Find the value of $a$ in these diagrams.",
@@ -122577,6 +122811,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9c",
+     "help": "7d-algebra",
      "label": "9c",
      "section": "Reasoning",
      "stem": "Find the value of $a$ in these diagrams.",
@@ -122660,6 +122895,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10a",
+     "help": "7d-bend",
      "label": "10a",
      "section": "Enrichment",
      "stem": "Adding an extra line parallel to the given lines (through the bend) can help. Find the value of $a$ in these diagrams.",
@@ -122755,6 +122991,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10b",
+     "help": "7d-bend",
      "label": "10b",
      "section": "Enrichment",
      "stem": "Adding an extra line parallel to the given lines (through the bend) can help. Find the value of $a$ in these diagrams.",
@@ -122850,6 +123087,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10c",
+     "help": "7d-bend",
      "label": "10c",
      "section": "Enrichment",
      "stem": "Adding an extra line parallel to the given lines (through the bend) can help. Find the value of $a$ in these diagrams.",
@@ -122970,6 +123208,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "7e-sides",
      "label": "1a",
      "section": "Fluency",
      "stem": "Classify each triangle by its side lengths. The marks show which sides are equal.",
@@ -123024,6 +123263,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "7e-sides",
      "label": "1b",
      "section": "Fluency",
      "stem": "Classify each triangle by its side lengths. The marks show which sides are equal.",
@@ -123087,6 +123327,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1c",
+     "help": "7e-sides",
      "label": "1c",
      "section": "Fluency",
      "stem": "Classify each triangle by its side lengths. The marks show which sides are equal.",
@@ -123150,6 +123391,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "7e-angles",
      "label": "2a",
      "section": "Fluency",
      "stem": "These triangles are drawn to scale. Classify each one by its angles.",
@@ -123195,6 +123437,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "7e-angles",
      "label": "2b",
      "section": "Fluency",
      "stem": "These triangles are drawn to scale. Classify each one by its angles.",
@@ -123240,6 +123483,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "7e-angles",
      "label": "2c",
      "section": "Fluency",
      "stem": "These triangles are drawn to scale. Classify each one by its angles.",
@@ -123276,6 +123520,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "7e-angles",
      "label": "3a",
      "section": "Fluency",
      "stem": "These triangles are drawn to scale. Classify each triangle by its side lengths and by its angles.",
@@ -123339,6 +123584,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "7e-angles",
      "label": "3b",
      "section": "Fluency",
      "stem": "These triangles are drawn to scale. Classify each triangle by its side lengths and by its angles.",
@@ -123402,6 +123648,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "7e-angles",
      "label": "3c",
      "section": "Fluency",
      "stem": "These triangles are drawn to scale. Classify each triangle by its side lengths and by its angles.",
@@ -123447,6 +123694,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3d",
+     "help": "7e-angles",
      "label": "3d",
      "section": "Fluency",
      "stem": "These triangles are drawn to scale. Classify each triangle by its side lengths and by its angles.",
@@ -123492,6 +123740,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3e",
+     "help": "7e-angles",
      "label": "3e",
      "section": "Fluency",
      "stem": "These triangles are drawn to scale. Classify each triangle by its side lengths and by its angles.",
@@ -123546,6 +123795,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3f",
+     "help": "7e-angles",
      "label": "3f",
      "section": "Fluency",
      "stem": "These triangles are drawn to scale. Classify each triangle by its side lengths and by its angles.",
@@ -123600,6 +123850,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "7e-sides",
      "label": "5a",
      "section": "Fluency",
      "stem": "Priya is going to construct a triangle with the given side lengths. What type of triangle (by side lengths) will she draw?",
@@ -123614,6 +123865,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "7e-sides",
      "label": "5b",
      "section": "Fluency",
      "stem": "Priya is going to construct a triangle with the given side lengths. What type of triangle (by side lengths) will she draw?",
@@ -123628,6 +123880,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6a",
+     "help": "7e-sides",
      "label": "6a",
      "section": "Fluency",
      "stem": "Liam constructs an isosceles triangle with a pair of compasses, then measures it to check.",
@@ -123638,6 +123891,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6b",
+     "help": "7e-sides",
      "label": "6b",
      "section": "Fluency",
      "stem": "Liam constructs an isosceles triangle with a pair of compasses, then measures it to check.",
@@ -123648,6 +123902,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7a",
+     "help": "7e-sides",
      "label": "7a",
      "section": "Fluency",
      "stem": "Ava constructs an equilateral triangle, starting with a segment $4.5$ cm long.",
@@ -123658,6 +123913,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7b",
+     "help": "7e-sides",
      "label": "7b",
      "section": "Fluency",
      "stem": "Ava constructs an equilateral triangle, starting with a segment $4.5$ cm long.",
@@ -123668,6 +123924,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9a",
+     "help": "7e-possible",
      "label": "9a",
      "section": "Problem-solving",
      "stem": "Is it possible to draw each of these triangles?",
@@ -123681,6 +123938,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9b",
+     "help": "7e-possible",
      "label": "9b",
      "section": "Problem-solving",
      "stem": "Is it possible to draw each of these triangles?",
@@ -123694,6 +123952,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9c",
+     "help": "7e-possible",
      "label": "9c",
      "section": "Problem-solving",
      "stem": "Is it possible to draw each of these triangles?",
@@ -123707,6 +123966,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9d",
+     "help": "7e-possible",
      "label": "9d",
      "section": "Problem-solving",
      "stem": "Is it possible to draw each of these triangles?",
@@ -123720,6 +123980,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11",
+     "help": "7e-possible",
      "label": "11",
      "section": "Problem-solving",
      "prompt": "Each empty cell of this table stands for a triangle that is both the row type and the column type (for example, top left is an acute scalene triangle). For how many of the nine cells is it impossible to draw a triangle?",
@@ -123757,6 +124018,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12a",
+     "help": "7e-possible",
      "label": "12a",
      "section": "Reasoning",
      "stem": "Think about cutting triangles into right triangles.",
@@ -123770,6 +124032,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12b",
+     "help": "7e-possible",
      "label": "12b",
      "section": "Reasoning",
      "stem": "Think about cutting triangles into right triangles.",
@@ -123785,6 +124048,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13",
+     "help": "7e-inequality",
      "label": "13",
      "section": "Reasoning",
      "prompt": "Can a triangle be drawn with side lengths $3$ cm, $6$ cm and $11$ cm?",
@@ -123797,6 +124061,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14a",
+     "help": "7e-possible",
      "label": "14a",
      "section": "Reasoning",
      "stem": "Answer yes or no.",
@@ -123810,6 +124075,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14b",
+     "help": "7e-possible",
      "label": "14b",
      "section": "Reasoning",
      "stem": "Answer yes or no.",
@@ -123831,6 +124097,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "7f-polygon",
      "label": "1a",
      "section": "Fluency",
      "stem": "Look at this polygon.",
@@ -123884,6 +124151,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "7f-polygon",
      "label": "1b",
      "section": "Fluency",
      "stem": "Look at this polygon.",
@@ -123897,6 +124165,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1c",
+     "help": "7f-polygon",
      "label": "1c",
      "section": "Fluency",
      "stem": "Look at this polygon.",
@@ -123910,6 +124179,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "7f-polygon",
      "label": "2a",
      "section": "Fluency",
      "stem": "How many sides does each of these polygons have?",
@@ -123919,6 +124189,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "7f-polygon",
      "label": "2b",
      "section": "Fluency",
      "stem": "How many sides does each of these polygons have?",
@@ -123928,6 +124199,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "7f-polygon",
      "label": "2c",
      "section": "Fluency",
      "stem": "How many sides does each of these polygons have?",
@@ -123937,6 +124209,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "7f-polygon",
      "label": "2d",
      "section": "Fluency",
      "stem": "How many sides does each of these polygons have?",
@@ -123946,6 +124219,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2e",
+     "help": "7f-polygon",
      "label": "2e",
      "section": "Fluency",
      "stem": "How many sides does each of these polygons have?",
@@ -123955,6 +124229,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2f",
+     "help": "7f-polygon",
      "label": "2f",
      "section": "Fluency",
      "stem": "How many sides does each of these polygons have?",
@@ -123964,6 +124239,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2g",
+     "help": "7f-polygon",
      "label": "2g",
      "section": "Fluency",
      "stem": "How many sides does each of these polygons have?",
@@ -123973,6 +124249,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2h",
+     "help": "7f-polygon",
      "label": "2h",
      "section": "Fluency",
      "stem": "How many sides does each of these polygons have?",
@@ -123982,6 +124259,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2i",
+     "help": "7f-polygon",
      "label": "2i",
      "section": "Fluency",
      "stem": "How many sides does each of these polygons have?",
@@ -123991,6 +124269,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2j",
+     "help": "7f-polygon",
      "label": "2j",
      "section": "Fluency",
      "stem": "How many sides does each of these polygons have?",
@@ -124000,6 +124279,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "7f-polygon",
      "label": "3a",
      "section": "Fluency",
      "stem": "Here are six shapes, A to F.",
@@ -124206,6 +124486,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "7f-polygon",
      "label": "3b",
      "section": "Fluency",
      "stem": "Here are six shapes, A to F.",
@@ -124223,6 +124504,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "7f-polygon",
      "label": "3c",
      "section": "Fluency",
      "stem": "Here are six shapes, A to F.",
@@ -124240,6 +124522,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3d",
+     "help": "7f-polygon",
      "label": "3d",
      "section": "Fluency",
      "stem": "Here are six shapes, A to F.",
@@ -124257,6 +124540,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3e",
+     "help": "7f-polygon",
      "label": "3e",
      "section": "Fluency",
      "stem": "Here are six shapes, A to F.",
@@ -124274,6 +124558,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3f",
+     "help": "7f-polygon",
      "label": "3f",
      "section": "Fluency",
      "stem": "Here are six shapes, A to F.",
@@ -124291,6 +124576,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3g",
+     "help": "7f-polygon",
      "label": "3g",
      "section": "Fluency",
      "stem": "Here are six shapes, A to F.",
@@ -124308,6 +124594,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "7f-polygon",
      "label": "4a",
      "section": "Fluency",
      "stem": "Classify each of these quadrilaterals as convex or non-convex.",
@@ -124347,6 +124634,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "7f-polygon",
      "label": "4b",
      "section": "Fluency",
      "stem": "Classify each of these quadrilaterals as convex or non-convex.",
@@ -124386,6 +124674,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "7f-polygon",
      "label": "4c",
      "section": "Fluency",
      "stem": "Classify each of these quadrilaterals as convex or non-convex.",
@@ -124435,6 +124724,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "7f-quads",
      "label": "5a",
      "section": "Fluency",
      "stem": "Name the special quadrilateral shown. The marks show equal sides, parallel sides and right angles.",
@@ -124514,6 +124804,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "7f-quads",
      "label": "5b",
      "section": "Fluency",
      "stem": "Name the special quadrilateral shown. The marks show equal sides, parallel sides and right angles.",
@@ -124575,6 +124866,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "7f-quads",
      "label": "5c",
      "section": "Fluency",
      "stem": "Name the special quadrilateral shown. The marks show equal sides, parallel sides and right angles.",
@@ -124654,6 +124946,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5d",
+     "help": "7f-quads",
      "label": "5d",
      "section": "Fluency",
      "stem": "Name the special quadrilateral shown. The marks show equal sides, parallel sides and right angles.",
@@ -124769,6 +125062,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5e",
+     "help": "7f-quads",
      "label": "5e",
      "section": "Fluency",
      "stem": "Name the special quadrilateral shown. The marks show equal sides, parallel sides and right angles.",
@@ -124884,6 +125178,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5f",
+     "help": "7f-quads",
      "label": "5f",
      "section": "Fluency",
      "stem": "Name the special quadrilateral shown. The marks show equal sides, parallel sides and right angles.",
@@ -124963,6 +125258,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6a",
+     "help": "7f-quads",
      "label": "6a",
      "section": "Fluency",
      "stem": "Which list gives all the special quadrilaterals (square, rectangle, rhombus, parallelogram, trapezium, kite) that have the property?",
@@ -124978,6 +125274,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6b",
+     "help": "7f-quads",
      "label": "6b",
      "section": "Fluency",
      "stem": "Which list gives all the special quadrilaterals (square, rectangle, rhombus, parallelogram, trapezium, kite) that have the property?",
@@ -124993,6 +125290,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6c",
+     "help": "7f-quads",
      "label": "6c",
      "section": "Fluency",
      "stem": "Which list gives all the special quadrilaterals (square, rectangle, rhombus, parallelogram, trapezium, kite) that have the property?",
@@ -125008,6 +125306,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6d",
+     "help": "7f-quads",
      "label": "6d",
      "section": "Fluency",
      "stem": "Which list gives all the special quadrilaterals (square, rectangle, rhombus, parallelogram, trapezium, kite) that have the property?",
@@ -125023,6 +125322,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6e",
+     "help": "7f-quads",
      "label": "6e",
      "section": "Fluency",
      "stem": "Which list gives all the special quadrilaterals (square, rectangle, rhombus, parallelogram, trapezium, kite) that have the property?",
@@ -125038,6 +125338,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7a",
+     "help": "7f-polygon",
      "label": "7a",
      "section": "Fluency",
      "stem": "Is each of these a polygon?",
@@ -125051,6 +125352,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7b",
+     "help": "7f-polygon",
      "label": "7b",
      "section": "Fluency",
      "stem": "Is each of these a polygon?",
@@ -125064,6 +125366,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7c",
+     "help": "7f-polygon",
      "label": "7c",
      "section": "Fluency",
      "stem": "Is each of these a polygon?",
@@ -125077,6 +125380,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7d",
+     "help": "7f-polygon",
      "label": "7d",
      "section": "Fluency",
      "stem": "Is each of these a polygon?",
@@ -125090,6 +125394,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7e",
+     "help": "7f-polygon",
      "label": "7e",
      "section": "Fluency",
      "stem": "Is each of these a polygon?",
@@ -125103,6 +125408,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7f",
+     "help": "7f-polygon",
      "label": "7f",
      "section": "Fluency",
      "stem": "Is each of these a polygon?",
@@ -125116,6 +125422,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7g",
+     "help": "7f-polygon",
      "label": "7g",
      "section": "Fluency",
      "stem": "Is each of these a polygon?",
@@ -125129,6 +125436,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7h",
+     "help": "7f-polygon",
      "label": "7h",
      "section": "Fluency",
      "stem": "Is each of these a polygon?",
@@ -125142,6 +125450,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8a",
+     "help": "7f-find",
      "label": "8a",
      "section": "Fluency",
      "stem": "Use the properties of quadrilaterals to find the value of each pronumeral.",
@@ -125266,6 +125575,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8b",
+     "help": "7f-find",
      "label": "8b",
      "section": "Fluency",
      "stem": "Use the properties of quadrilaterals to find the value of each pronumeral.",
@@ -125390,6 +125700,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8c",
+     "help": "7f-find",
      "label": "8c",
      "section": "Fluency",
      "stem": "Use the properties of quadrilaterals to find the value of each pronumeral.",
@@ -125495,6 +125806,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8d",
+     "help": "7f-find",
      "label": "8d",
      "section": "Fluency",
      "stem": "Use the properties of quadrilaterals to find the value of each pronumeral.",
@@ -125600,6 +125912,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8e",
+     "help": "7f-find",
      "label": "8e",
      "section": "Fluency",
      "stem": "Use the properties of quadrilaterals to find the value of each pronumeral.",
@@ -125701,6 +126014,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8f",
+     "help": "7f-find",
      "label": "8f",
      "section": "Fluency",
      "stem": "Use the properties of quadrilaterals to find the value of each pronumeral.",
@@ -125802,6 +126116,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10a",
+     "help": "7f-diagonals",
      "label": "10a",
      "section": "Problem-solving",
      "stem": "A diagonal joins two vertices of a polygon that are not next to each other.",
@@ -125811,6 +126126,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10b",
+     "help": "7f-diagonals",
      "label": "10b",
      "section": "Problem-solving",
      "stem": "A diagonal joins two vertices of a polygon that are not next to each other.",
@@ -125820,6 +126136,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10c",
+     "help": "7f-diagonals",
      "label": "10c",
      "section": "Problem-solving",
      "stem": "A diagonal joins two vertices of a polygon that are not next to each other.",
@@ -125829,6 +126146,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10d",
+     "help": "7f-diagonals",
      "label": "10d",
      "section": "Problem-solving",
      "stem": "A diagonal joins two vertices of a polygon that are not next to each other.",
@@ -125838,6 +126156,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12a",
+     "help": "7f-true",
      "label": "12a",
      "section": "Reasoning",
      "stem": "Is each statement true or false?",
@@ -125851,6 +126170,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12b",
+     "help": "7f-true",
      "label": "12b",
      "section": "Reasoning",
      "stem": "Is each statement true or false?",
@@ -125864,6 +126184,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12c",
+     "help": "7f-true",
      "label": "12c",
      "section": "Reasoning",
      "stem": "Is each statement true or false?",
@@ -125877,6 +126198,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12d",
+     "help": "7f-true",
      "label": "12d",
      "section": "Reasoning",
      "stem": "Is each statement true or false?",
@@ -125890,6 +126212,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13a",
+     "help": "7f-quads",
      "label": "13a",
      "section": "Reasoning",
      "stem": "The diagonals of a quadrilateral are the two segments that join opposite vertices.",
@@ -125905,6 +126228,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13b",
+     "help": "7f-quads",
      "label": "13b",
      "section": "Reasoning",
      "stem": "The diagonals of a quadrilateral are the two segments that join opposite vertices.",
@@ -125920,6 +126244,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14a",
+     "help": "7f-quads",
      "label": "14a",
      "section": "Reasoning",
      "stem": "Think about how the special quadrilaterals are related.",
@@ -125933,6 +126258,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14b",
+     "help": "7f-quads",
      "label": "14b",
      "section": "Reasoning",
      "stem": "Think about how the special quadrilaterals are related.",
@@ -125946,6 +126272,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14c",
+     "help": "7f-quads",
      "label": "14c",
      "section": "Reasoning",
      "stem": "Think about how the special quadrilaterals are related.",
@@ -125967,6 +126294,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "7g-sum",
      "label": "1a",
      "section": "Fluency",
      "stem": "Find the value of $a$ in these triangles.",
@@ -126028,6 +126356,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "7g-sum",
      "label": "1b",
      "section": "Fluency",
      "stem": "Find the value of $a$ in these triangles.",
@@ -126089,6 +126418,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "7g-sum",
      "label": "2a",
      "section": "Fluency",
      "stem": "Find the value of $a$ in each of these triangles.",
@@ -126150,6 +126480,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "7g-sum",
      "label": "2b",
      "section": "Fluency",
      "stem": "Find the value of $a$ in each of these triangles.",
@@ -126211,6 +126542,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "7g-sum",
      "label": "2c",
      "section": "Fluency",
      "stem": "Find the value of $a$ in each of these triangles.",
@@ -126271,6 +126603,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "7g-sum",
      "label": "2d",
      "section": "Fluency",
      "stem": "Find the value of $a$ in each of these triangles.",
@@ -126331,6 +126664,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2e",
+     "help": "7g-sum",
      "label": "2e",
      "section": "Fluency",
      "stem": "Find the value of $a$ in each of these triangles.",
@@ -126392,6 +126726,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2f",
+     "help": "7g-sum",
      "label": "2f",
      "section": "Fluency",
      "stem": "Find the value of $a$ in each of these triangles.",
@@ -126453,6 +126788,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "7g-iso",
      "label": "3a",
      "section": "Fluency",
      "stem": "Find the value of $a$ in each of these isosceles triangles.",
@@ -126522,6 +126858,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "7g-iso",
      "label": "3b",
      "section": "Fluency",
      "stem": "Find the value of $a$ in each of these isosceles triangles.",
@@ -126591,6 +126928,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "7g-iso",
      "label": "4a",
      "section": "Fluency",
      "stem": "Find the value of $a$ in each of these isosceles triangles.",
@@ -126660,6 +126998,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "7g-iso",
      "label": "4b",
      "section": "Fluency",
      "stem": "Find the value of $a$ in each of these isosceles triangles.",
@@ -126729,6 +127068,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "7g-iso",
      "label": "4c",
      "section": "Fluency",
      "stem": "Find the value of $a$ in each of these isosceles triangles.",
@@ -126798,6 +127138,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "7g-iso",
      "label": "4d",
      "section": "Fluency",
      "stem": "Find the value of $a$ in each of these isosceles triangles.",
@@ -126867,6 +127208,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4e",
+     "help": "7g-iso",
      "label": "4e",
      "section": "Fluency",
      "stem": "Find the value of $a$ in each of these isosceles triangles.",
@@ -126936,6 +127278,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4f",
+     "help": "7g-iso",
      "label": "4f",
      "section": "Fluency",
      "stem": "Find the value of $a$ in each of these isosceles triangles.",
@@ -127005,6 +127348,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "7g-exterior",
      "label": "5a",
      "section": "Fluency",
      "stem": "Each triangle has an exterior angle. Find the value of $x$. For parts b to f, find the value of $a$ first.",
@@ -127064,6 +127408,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "7g-exterior",
      "label": "5b",
      "section": "Fluency",
      "stem": "Each triangle has an exterior angle. Find the value of $x$. For parts b to f, find the value of $a$ first.",
@@ -127143,6 +127488,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "7g-exterior",
      "label": "5c",
      "section": "Fluency",
      "stem": "Each triangle has an exterior angle. Find the value of $x$. For parts b to f, find the value of $a$ first.",
@@ -127221,6 +127567,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5d",
+     "help": "7g-exterior",
      "label": "5d",
      "section": "Fluency",
      "stem": "Each triangle has an exterior angle. Find the value of $x$. For parts b to f, find the value of $a$ first.",
@@ -127300,6 +127647,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5e",
+     "help": "7g-exterior",
      "label": "5e",
      "section": "Fluency",
      "stem": "Each triangle has an exterior angle. Find the value of $x$. For parts b to f, find the value of $a$ first.",
@@ -127387,6 +127735,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5f",
+     "help": "7g-exterior",
      "label": "5f",
      "section": "Fluency",
      "stem": "Each triangle has an exterior angle. Find the value of $x$. For parts b to f, find the value of $a$ first.",
@@ -127466,6 +127815,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6a",
+     "help": "7g-mixed",
      "label": "6a",
      "section": "Problem-solving",
      "stem": "Find the value of $a$ in each of these diagrams.",
@@ -127543,6 +127893,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6b",
+     "help": "7g-mixed",
      "label": "6b",
      "section": "Problem-solving",
      "stem": "Find the value of $a$ in each of these diagrams.",
@@ -127619,6 +127970,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6c",
+     "help": "7g-mixed",
      "label": "6c",
      "section": "Problem-solving",
      "stem": "Find the value of $a$ in each of these diagrams.",
@@ -127696,6 +128048,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6d",
+     "help": "7g-mixed",
      "label": "6d",
      "section": "Problem-solving",
      "stem": "Find the value of $a$ in each of these diagrams.",
@@ -127764,6 +128117,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6e",
+     "help": "7g-mixed",
      "label": "6e",
      "section": "Problem-solving",
      "stem": "Find the value of $a$ in each of these diagrams.",
@@ -127851,6 +128205,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6f",
+     "help": "7g-mixed",
      "label": "6f",
      "section": "Problem-solving",
      "stem": "Find the value of $a$ in each of these diagrams.",
@@ -127911,6 +128266,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7a",
+     "help": "7g-mixed",
      "label": "7a",
      "section": "Problem-solving",
      "stem": "Each of these diagrams has parallel lines. Find the value of $a$.",
@@ -128006,6 +128362,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7b",
+     "help": "7g-mixed",
      "label": "7b",
      "section": "Problem-solving",
      "stem": "Each of these diagrams has parallel lines. Find the value of $a$.",
@@ -128101,6 +128458,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7c",
+     "help": "7g-mixed",
      "label": "7c",
      "section": "Problem-solving",
      "stem": "Each of these diagrams has parallel lines. Find the value of $a$.",
@@ -128195,6 +128553,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7d",
+     "help": "7g-mixed",
      "label": "7d",
      "section": "Problem-solving",
      "stem": "Each of these diagrams has parallel lines. Find the value of $a$.",
@@ -128290,6 +128649,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7e",
+     "help": "7g-mixed",
      "label": "7e",
      "section": "Problem-solving",
      "stem": "Each of these diagrams has parallel lines. Find the value of $a$.",
@@ -128377,6 +128737,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7f",
+     "help": "7g-mixed",
      "label": "7f",
      "section": "Problem-solving",
      "stem": "Each of these diagrams has parallel lines. Find the value of $a$.",
@@ -128472,6 +128833,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8",
+     "help": "7g-mixed",
      "label": "8",
      "section": "Problem-solving",
      "prompt": "A plane flies horizontally $200$ m above the ground and spots two beacons on the ground. Some of the angles are shown in the diagram. Find the value of $a$, the angle between the two lines of sight.",
@@ -128599,6 +128961,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9a",
+     "help": "7g-polygon",
      "label": "9a",
      "section": "Reasoning",
      "stem": "A polygon can be cut into triangles by drawing diagonals from one vertex, without any diagonals crossing.",
@@ -128608,6 +128971,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9b",
+     "help": "7g-polygon",
      "label": "9b",
      "section": "Reasoning",
      "stem": "A polygon can be cut into triangles by drawing diagonals from one vertex, without any diagonals crossing.",
@@ -128617,6 +128981,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9c",
+     "help": "7g-polygon",
      "label": "9c",
      "section": "Reasoning",
      "stem": "A polygon can be cut into triangles by drawing diagonals from one vertex, without any diagonals crossing.",
@@ -128626,6 +128991,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9d",
+     "help": "7g-polygon",
      "label": "9d",
      "section": "Reasoning",
      "stem": "A polygon can be cut into triangles by drawing diagonals from one vertex, without any diagonals crossing.",
@@ -128636,6 +129002,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9e",
+     "help": "7g-polygon",
      "label": "9e",
      "section": "Reasoning",
      "stem": "A polygon can be cut into triangles by drawing diagonals from one vertex, without any diagonals crossing.",
@@ -128646,6 +129013,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9f",
+     "help": "7g-polygon",
      "label": "9f",
      "section": "Reasoning",
      "stem": "A polygon can be cut into triangles by drawing diagonals from one vertex, without any diagonals crossing.",
@@ -128656,6 +129024,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10a",
+     "help": "7g-polygon",
      "label": "10a",
      "section": "Reasoning",
      "stem": "Find the angle sum of each of these polygons.",
@@ -128666,6 +129035,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10b",
+     "help": "7g-polygon",
      "label": "10b",
      "section": "Reasoning",
      "stem": "Find the angle sum of each of these polygons.",
@@ -128676,6 +129046,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10c",
+     "help": "7g-polygon",
      "label": "10c",
      "section": "Reasoning",
      "stem": "Find the angle sum of each of these polygons.",
@@ -128686,6 +129057,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11",
+     "help": "7g-polygon",
      "label": "11",
      "section": "Reasoning",
      "prompt": "A polygon has $n$ sides and its angles add up to $S$ degrees. Write an expression for $S$ using $n$.",
@@ -128695,6 +129067,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12a",
+     "help": "7g-exterior",
      "label": "12a",
      "section": "Enrichment",
      "stem": "Explore the exterior angle of a triangle.",
@@ -128704,6 +129077,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12b",
+     "help": "7g-exterior",
      "label": "12b",
      "section": "Enrichment",
      "stem": "Explore the exterior angle of a triangle.",
@@ -128773,6 +129147,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12c",
+     "help": "7g-exterior",
      "label": "12c",
      "section": "Enrichment",
      "stem": "Explore the exterior angle of a triangle.",
@@ -128787,6 +129162,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13a",
+     "help": "7g-mixed",
      "label": "13a",
      "section": "Enrichment",
      "stem": "This diagram shows a triangle with a line drawn through its top vertex, parallel to the base.",
@@ -128900,6 +129276,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13b",
+     "help": "7g-mixed",
      "label": "13b",
      "section": "Enrichment",
      "stem": "This diagram shows a triangle with a line drawn through its top vertex, parallel to the base.",
@@ -128915,6 +129292,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13c",
+     "help": "7g-mixed",
      "label": "13c",
      "section": "Enrichment",
      "stem": "This diagram shows a triangle with a line drawn through its top vertex, parallel to the base.",
@@ -128932,6 +129310,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1",
+     "help": "7h-count",
      "label": "1",
      "section": "Fluency",
      "prompt": "Give the number of lines of symmetry and the order of rotational symmetry for this regular pentagon.",
@@ -129019,6 +129398,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "7h-count",
      "label": "2a",
      "section": "Fluency",
      "stem": "Give the number of lines of symmetry and the order of rotational symmetry for each shape.",
@@ -129081,6 +129461,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "7h-count",
      "label": "2b",
      "section": "Fluency",
      "stem": "Give the number of lines of symmetry and the order of rotational symmetry for each shape.",
@@ -129156,6 +129537,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "7h-count",
      "label": "2c",
      "section": "Fluency",
      "stem": "Give the number of lines of symmetry and the order of rotational symmetry for each shape.",
@@ -129231,6 +129613,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "7h-count",
      "label": "2d",
      "section": "Fluency",
      "stem": "Give the number of lines of symmetry and the order of rotational symmetry for each shape.",
@@ -129332,6 +129715,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2e",
+     "help": "7h-count",
      "label": "2e",
      "section": "Fluency",
      "stem": "Give the number of lines of symmetry and the order of rotational symmetry for each shape.",
@@ -129407,6 +129791,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2f",
+     "help": "7h-count",
      "label": "2f",
      "section": "Fluency",
      "stem": "Give the number of lines of symmetry and the order of rotational symmetry for each shape.",
@@ -129482,6 +129867,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "7h-shapes",
      "label": "3a",
      "section": "Fluency",
      "stem": "Which type of triangle has these properties?",
@@ -129496,6 +129882,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "7h-shapes",
      "label": "3b",
      "section": "Fluency",
      "stem": "Which type of triangle has these properties?",
@@ -129510,6 +129897,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "7h-shapes",
      "label": "3c",
      "section": "Fluency",
      "stem": "Which type of triangle has these properties?",
@@ -129524,6 +129912,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "7h-shapes",
      "label": "4a",
      "section": "Fluency",
      "stem": "Which special quadrilaterals have the property? (The special quadrilaterals are the square, rectangle, rhombus, parallelogram, trapezium, isosceles trapezium and kite.)",
@@ -129539,6 +129928,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "7h-shapes",
      "label": "4b",
      "section": "Fluency",
      "stem": "Which special quadrilaterals have the property? (The special quadrilaterals are the square, rectangle, rhombus, parallelogram, trapezium, isosceles trapezium and kite.)",
@@ -129554,6 +129944,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "7h-shapes",
      "label": "4c",
      "section": "Fluency",
      "stem": "Which special quadrilaterals have the property? (The special quadrilaterals are the square, rectangle, rhombus, parallelogram, trapezium, isosceles trapezium and kite.)",
@@ -129569,6 +129960,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "7h-shapes",
      "label": "4d",
      "section": "Fluency",
      "stem": "Which special quadrilaterals have the property? (The special quadrilaterals are the square, rectangle, rhombus, parallelogram, trapezium, isosceles trapezium and kite.)",
@@ -129584,6 +129976,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4e",
+     "help": "7h-shapes",
      "label": "4e",
      "section": "Fluency",
      "stem": "Which special quadrilaterals have the property? (The special quadrilaterals are the square, rectangle, rhombus, parallelogram, trapezium, isosceles trapezium and kite.)",
@@ -129599,6 +129992,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4f",
+     "help": "7h-shapes",
      "label": "4f",
      "section": "Fluency",
      "stem": "Which special quadrilaterals have the property? (The special quadrilaterals are the square, rectangle, rhombus, parallelogram, trapezium, isosceles trapezium and kite.)",
@@ -129614,6 +130008,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4g",
+     "help": "7h-shapes",
      "label": "4g",
      "section": "Fluency",
      "stem": "Which special quadrilaterals have the property? (The special quadrilaterals are the square, rectangle, rhombus, parallelogram, trapezium, isosceles trapezium and kite.)",
@@ -129629,6 +130024,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4h",
+     "help": "7h-shapes",
      "label": "4h",
      "section": "Fluency",
      "stem": "Which special quadrilaterals have the property? (The special quadrilaterals are the square, rectangle, rhombus, parallelogram, trapezium, isosceles trapezium and kite.)",
@@ -129644,6 +130040,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "7h-count",
      "label": "5a",
      "section": "Fluency",
      "stem": "Give the number of lines of symmetry and the order of rotational symmetry for each design.",
@@ -129716,6 +130113,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "7h-count",
      "label": "5b",
      "section": "Fluency",
      "stem": "Give the number of lines of symmetry and the order of rotational symmetry for each design.",
@@ -129768,6 +130166,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "7h-count",
      "label": "5c",
      "section": "Fluency",
      "stem": "Give the number of lines of symmetry and the order of rotational symmetry for each design.",
@@ -129838,6 +130237,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5d",
+     "help": "7h-count",
      "label": "5d",
      "section": "Fluency",
      "stem": "Give the number of lines of symmetry and the order of rotational symmetry for each design.",
@@ -129910,6 +130310,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6a",
+     "help": "7h-shapes",
      "label": "6a",
      "section": "Fluency",
      "stem": "Look at these nine capital letters: E, F, H, L, N, T, V, X, Z.",
@@ -129924,6 +130325,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6b",
+     "help": "7h-shapes",
      "label": "6b",
      "section": "Fluency",
      "stem": "Look at these nine capital letters: E, F, H, L, N, T, V, X, Z.",
@@ -129936,6 +130338,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6c",
+     "help": "7h-shapes",
      "label": "6c",
      "section": "Fluency",
      "stem": "Look at these nine capital letters: E, F, H, L, N, T, V, X, Z.",
@@ -129950,6 +130353,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7a",
+     "help": "7h-complete",
      "label": "7a",
      "section": "Fluency",
      "stem": "Imagine completing each shape by reflecting it in the dashed line of symmetry. How many sides will the completed shape have?",
@@ -129999,6 +130403,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7b",
+     "help": "7h-complete",
      "label": "7b",
      "section": "Fluency",
      "stem": "Imagine completing each shape by reflecting it in the dashed line of symmetry. How many sides will the completed shape have?",
@@ -130044,6 +130449,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7c",
+     "help": "7h-complete",
      "label": "7c",
      "section": "Fluency",
      "stem": "Imagine completing each shape by reflecting it in the dashed line of symmetry. How many sides will the completed shape have?",
@@ -130089,6 +130495,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8a",
+     "help": "7h-possible",
      "label": "8a",
      "section": "Problem-solving",
      "stem": "Is it possible to draw each of these?",
@@ -130102,6 +130509,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8b",
+     "help": "7h-possible",
      "label": "8b",
      "section": "Problem-solving",
      "stem": "Is it possible to draw each of these?",
@@ -130115,6 +130523,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8c",
+     "help": "7h-possible",
      "label": "8c",
      "section": "Problem-solving",
      "stem": "Is it possible to draw each of these?",
@@ -130128,6 +130537,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8d",
+     "help": "7h-possible",
      "label": "8d",
      "section": "Problem-solving",
      "stem": "Is it possible to draw each of these?",
@@ -130141,6 +130551,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8e",
+     "help": "7h-possible",
      "label": "8e",
      "section": "Problem-solving",
      "stem": "Is it possible to draw each of these?",
@@ -130154,6 +130565,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9a",
+     "help": "7h-count",
      "label": "9a",
      "section": "Problem-solving",
      "stem": "These designs are made from more than one shape. Give the number of lines of symmetry and the order of rotational symmetry for each.",
@@ -130223,6 +130635,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9b",
+     "help": "7h-count",
      "label": "9b",
      "section": "Problem-solving",
      "stem": "These designs are made from more than one shape. Give the number of lines of symmetry and the order of rotational symmetry for each.",
@@ -130306,6 +130719,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9c",
+     "help": "7h-count",
      "label": "9c",
      "section": "Problem-solving",
      "stem": "These designs are made from more than one shape. Give the number of lines of symmetry and the order of rotational symmetry for each.",
@@ -130393,6 +130807,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10a",
+     "help": "7h-shapes",
      "label": "10a",
      "section": "Reasoning",
      "stem": "Is a diagonal a line of symmetry of this shape?",
@@ -130406,6 +130821,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10b",
+     "help": "7h-shapes",
      "label": "10b",
      "section": "Reasoning",
      "stem": "Is a diagonal a line of symmetry of this shape?",
@@ -130419,6 +130835,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11a",
+     "help": "7h-shapes",
      "label": "11a",
      "section": "Reasoning",
      "stem": "A parallelogram has two pairs of parallel sides.",
@@ -130432,6 +130849,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11b",
+     "help": "7h-shapes",
      "label": "11b",
      "section": "Reasoning",
      "stem": "A parallelogram has two pairs of parallel sides.",
@@ -130445,6 +130863,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11c",
+     "help": "7h-shapes",
      "label": "11c",
      "section": "Reasoning",
      "stem": "A parallelogram has two pairs of parallel sides.",
@@ -130459,6 +130878,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12a",
+     "help": "7h-planes",
      "label": "12a",
      "section": "Enrichment",
      "stem": "Solid objects can have planes of symmetry. A plane of symmetry cuts a solid into two halves that are mirror images of each other. How many planes of symmetry does each solid have?",
@@ -130561,6 +130981,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12b",
+     "help": "7h-planes",
      "label": "12b",
      "section": "Enrichment",
      "stem": "Solid objects can have planes of symmetry. A plane of symmetry cuts a solid into two halves that are mirror images of each other. How many planes of symmetry does each solid have?",
@@ -130643,6 +131064,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12c",
+     "help": "7h-planes",
      "label": "12c",
      "section": "Enrichment",
      "stem": "Solid objects can have planes of symmetry. A plane of symmetry cuts a solid into two halves that are mirror images of each other. How many planes of symmetry does each solid have?",
@@ -130725,6 +131147,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12d",
+     "help": "7h-planes",
      "label": "12d",
      "section": "Enrichment",
      "stem": "Solid objects can have planes of symmetry. A plane of symmetry cuts a solid into two halves that are mirror images of each other. How many planes of symmetry does each solid have?",
@@ -130869,6 +131292,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12e",
+     "help": "7h-planes",
      "label": "12e",
      "section": "Enrichment",
      "stem": "Solid objects can have planes of symmetry. A plane of symmetry cuts a solid into two halves that are mirror images of each other. How many planes of symmetry does each solid have?",
@@ -131103,6 +131527,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "7i-reflect",
      "label": "1a",
      "section": "Fluency",
      "stem": "Shape $ABCD$ is reflected in the $y$-axis (the mirror line). Give the coordinates of each image point.",
@@ -131161,6 +131586,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "7i-reflect",
      "label": "1b",
      "section": "Fluency",
      "stem": "Shape $ABCD$ is reflected in the $y$-axis (the mirror line). Give the coordinates of each image point.",
@@ -131170,6 +131596,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1c",
+     "help": "7i-reflect",
      "label": "1c",
      "section": "Fluency",
      "stem": "Shape $ABCD$ is reflected in the $y$-axis (the mirror line). Give the coordinates of each image point.",
@@ -131179,6 +131606,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1d",
+     "help": "7i-reflect",
      "label": "1d",
      "section": "Fluency",
      "stem": "Shape $ABCD$ is reflected in the $y$-axis (the mirror line). Give the coordinates of each image point.",
@@ -131188,6 +131616,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "7i-reflect",
      "label": "2a",
      "section": "Fluency",
      "stem": "Each shape is reflected in the mirror line given. Give the coordinates of the image point asked for.",
@@ -131246,6 +131675,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "7i-reflect",
      "label": "2b",
      "section": "Fluency",
      "stem": "Each shape is reflected in the mirror line given. Give the coordinates of the image point asked for.",
@@ -131303,6 +131733,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "7i-reflect",
      "label": "2c",
      "section": "Fluency",
      "stem": "Each shape is reflected in the mirror line given. Give the coordinates of the image point asked for.",
@@ -131360,6 +131791,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "7i-reflect",
      "label": "2d",
      "section": "Fluency",
      "stem": "Each shape is reflected in the mirror line given. Give the coordinates of the image point asked for.",
@@ -131417,6 +131849,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2e",
+     "help": "7i-reflect",
      "label": "2e",
      "section": "Fluency",
      "stem": "Each shape is reflected in the mirror line given. Give the coordinates of the image point asked for.",
@@ -131474,6 +131907,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2f",
+     "help": "7i-reflect",
      "label": "2f",
      "section": "Fluency",
      "stem": "Each shape is reflected in the mirror line given. Give the coordinates of the image point asked for.",
@@ -131531,6 +131965,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "7i-rotate",
      "label": "3a",
      "section": "Fluency",
      "stem": "Point $A$ is rotated about the point $C(0, 0)$. Give the coordinates of the image point $A'$ for each rotation.",
@@ -131562,6 +131997,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "7i-rotate",
      "label": "3b",
      "section": "Fluency",
      "stem": "Point $A$ is rotated about the point $C(0, 0)$. Give the coordinates of the image point $A'$ for each rotation.",
@@ -131571,6 +132007,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "7i-rotate",
      "label": "3c",
      "section": "Fluency",
      "stem": "Point $A$ is rotated about the point $C(0, 0)$. Give the coordinates of the image point $A'$ for each rotation.",
@@ -131580,6 +132017,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3d",
+     "help": "7i-rotate",
      "label": "3d",
      "section": "Fluency",
      "stem": "Point $A$ is rotated about the point $C(0, 0)$. Give the coordinates of the image point $A'$ for each rotation.",
@@ -131589,6 +132027,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3e",
+     "help": "7i-rotate",
      "label": "3e",
      "section": "Fluency",
      "stem": "Point $A$ is rotated about the point $C(0, 0)$. Give the coordinates of the image point $A'$ for each rotation.",
@@ -131598,6 +132037,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3f",
+     "help": "7i-rotate",
      "label": "3f",
      "section": "Fluency",
      "stem": "Point $A$ is rotated about the point $C(0, 0)$. Give the coordinates of the image point $A'$ for each rotation.",
@@ -131607,6 +132047,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "7i-centre",
      "label": "4a",
      "section": "Fluency",
      "stem": "Shape $ABCD$ is rotated about the point $C$, which is one of its corners. Give the coordinates of the image point asked for.",
@@ -131665,6 +132106,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "7i-centre",
      "label": "4b",
      "section": "Fluency",
      "stem": "Shape $ABCD$ is rotated about the point $C$, which is one of its corners. Give the coordinates of the image point asked for.",
@@ -131674,6 +132116,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "7i-centre",
      "label": "4c",
      "section": "Fluency",
      "stem": "Shape $ABCD$ is rotated about the point $C$, which is one of its corners. Give the coordinates of the image point asked for.",
@@ -131683,6 +132126,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "7i-rotate",
      "label": "5a",
      "section": "Fluency",
      "stem": "Triangle $ABD$ is rotated about the point $C(0, 0)$. Give the coordinates of the image point asked for.",
@@ -131737,6 +132181,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "7i-rotate",
      "label": "5b",
      "section": "Fluency",
      "stem": "Triangle $ABD$ is rotated about the point $C(0, 0)$. Give the coordinates of the image point asked for.",
@@ -131746,6 +132191,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "7i-rotate",
      "label": "5c",
      "section": "Fluency",
      "stem": "Triangle $ABD$ is rotated about the point $C(0, 0)$. Give the coordinates of the image point asked for.",
@@ -131755,6 +132201,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6a",
+     "help": "7i-mirror45",
      "label": "6a",
      "section": "Problem-solving",
      "stem": "The green line on each grid is a mirror line at a $45^\\circ$ angle. The point shown is reflected in the mirror line. Give the coordinates of its image.",
@@ -131793,6 +132240,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6b",
+     "help": "7i-mirror45",
      "label": "6b",
      "section": "Problem-solving",
      "stem": "The green line on each grid is a mirror line at a $45^\\circ$ angle. The point shown is reflected in the mirror line. Give the coordinates of its image.",
@@ -131830,6 +132278,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6c",
+     "help": "7i-mirror45",
      "label": "6c",
      "section": "Problem-solving",
      "stem": "The green line on each grid is a mirror line at a $45^\\circ$ angle. The point shown is reflected in the mirror line. Give the coordinates of its image.",
@@ -131867,6 +132316,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6d",
+     "help": "7i-mirror45",
      "label": "6d",
      "section": "Problem-solving",
      "stem": "The green line on each grid is a mirror line at a $45^\\circ$ angle. The point shown is reflected in the mirror line. Give the coordinates of its image.",
@@ -131904,6 +132354,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6e",
+     "help": "7i-mirror45",
      "label": "6e",
      "section": "Problem-solving",
      "stem": "The green line on each grid is a mirror line at a $45^\\circ$ angle. The point shown is reflected in the mirror line. Give the coordinates of its image.",
@@ -131941,6 +132392,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6f",
+     "help": "7i-mirror45",
      "label": "6f",
      "section": "Problem-solving",
      "stem": "The green line on each grid is a mirror line at a $45^\\circ$ angle. The point shown is reflected in the mirror line. Give the coordinates of its image.",
@@ -131978,6 +132430,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7",
+     "help": "7i-reflect",
      "label": "7",
      "section": "Problem-solving",
      "prompt": "On the Cartesian plane, the point $P(4, -3)$ is reflected in the $x$-axis, and this image point is then reflected in the $y$-axis. What are the coordinates of the final image?",
@@ -131987,6 +132440,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8a",
+     "help": "7i-centre",
      "label": "8a",
      "section": "Problem-solving",
      "stem": "The point $B(3, 4)$ is rotated about the point $C(1, 2)$. Give the coordinates of the image point $B'$ for each rotation.",
@@ -132018,6 +132472,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8b",
+     "help": "7i-centre",
      "label": "8b",
      "section": "Problem-solving",
      "stem": "The point $B(3, 4)$ is rotated about the point $C(1, 2)$. Give the coordinates of the image point $B'$ for each rotation.",
@@ -132027,6 +132482,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8c",
+     "help": "7i-centre",
      "label": "8c",
      "section": "Problem-solving",
      "stem": "The point $B(3, 4)$ is rotated about the point $C(1, 2)$. Give the coordinates of the image point $B'$ for each rotation.",
@@ -132036,6 +132492,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9a",
+     "help": "7i-which",
      "label": "9a",
      "section": "Problem-solving",
      "stem": "The shaded shape has been rotated about the point $C$ to give the unshaded shape. By how many degrees has it been rotated, and in which direction?",
@@ -132140,6 +132597,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9b",
+     "help": "7i-which",
      "label": "9b",
      "section": "Problem-solving",
      "stem": "The shaded shape has been rotated about the point $C$ to give the unshaded shape. By how many degrees has it been rotated, and in which direction?",
@@ -132228,6 +132686,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9c",
+     "help": "7i-which",
      "label": "9c",
      "section": "Problem-solving",
      "stem": "The shaded shape has been rotated about the point $C$ to give the unshaded shape. By how many degrees has it been rotated, and in which direction?",
@@ -132332,6 +132791,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11a",
+     "help": "7i-same",
      "label": "11a",
      "section": "Reasoning",
      "stem": "Write the missing number of degrees.",
@@ -132342,6 +132802,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11b",
+     "help": "7i-same",
      "label": "11b",
      "section": "Reasoning",
      "stem": "Write the missing number of degrees.",
@@ -132352,6 +132813,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11c",
+     "help": "7i-same",
      "label": "11c",
      "section": "Reasoning",
      "stem": "Write the missing number of degrees.",
@@ -132362,6 +132824,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12a",
+     "help": "7i-reflect",
      "label": "12a",
      "section": "Reasoning",
      "stem": "The point $S$ has coordinates $(-3, 4)$, and the point $T$ has coordinates $(-5, -2)$.",
@@ -132372,6 +132835,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12b",
+     "help": "7i-reflect",
      "label": "12b",
      "section": "Reasoning",
      "stem": "The point $S$ has coordinates $(-3, 4)$, and the point $T$ has coordinates $(-5, -2)$.",
@@ -132381,6 +132845,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12c",
+     "help": "7i-reflect",
      "label": "12c",
      "section": "Reasoning",
      "stem": "The point $S$ has coordinates $(-3, 4)$, and the point $T$ has coordinates $(-5, -2)$.",
@@ -132395,6 +132860,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12d",
+     "help": "7i-reflect",
      "label": "12d",
      "section": "Reasoning",
      "stem": "The point $S$ has coordinates $(-3, 4)$, and the point $T$ has coordinates $(-5, -2)$.",
@@ -132404,6 +132870,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12e",
+     "help": "7i-reflect",
      "label": "12e",
      "section": "Reasoning",
      "stem": "The point $S$ has coordinates $(-3, 4)$, and the point $T$ has coordinates $(-5, -2)$.",
@@ -132421,6 +132888,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "7j-move",
      "label": "1a",
      "section": "Fluency",
      "stem": "Triangle $ABC$ is translated 4 units right and 1 unit up. Give the coordinates of each image point.",
@@ -132471,6 +132939,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "7j-move",
      "label": "1b",
      "section": "Fluency",
      "stem": "Triangle $ABC$ is translated 4 units right and 1 unit up. Give the coordinates of each image point.",
@@ -132480,6 +132949,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1c",
+     "help": "7j-move",
      "label": "1c",
      "section": "Fluency",
      "stem": "Triangle $ABC$ is translated 4 units right and 1 unit up. Give the coordinates of each image point.",
@@ -132489,6 +132959,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "7j-move",
      "label": "2a",
      "section": "Fluency",
      "stem": "Each shape is translated as described. Give the coordinates of the image point asked for.",
@@ -132539,6 +133010,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "7j-move",
      "label": "2b",
      "section": "Fluency",
      "stem": "Each shape is translated as described. Give the coordinates of the image point asked for.",
@@ -132596,6 +133068,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "7j-move",
      "label": "2c",
      "section": "Fluency",
      "stem": "Each shape is translated as described. Give the coordinates of the image point asked for.",
@@ -132653,6 +133126,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "7j-move",
      "label": "2d",
      "section": "Fluency",
      "stem": "Each shape is translated as described. Give the coordinates of the image point asked for.",
@@ -132718,6 +133192,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "7j-move",
      "label": "3a",
      "section": "Fluency",
      "stem": "Point $A$ has coordinates $(1, -2)$. Write the coordinates of the image point $A'$ when $A$ is translated:",
@@ -132745,6 +133220,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "7j-move",
      "label": "3b",
      "section": "Fluency",
      "stem": "Point $A$ has coordinates $(1, -2)$. Write the coordinates of the image point $A'$ when $A$ is translated:",
@@ -132754,6 +133230,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "7j-move",
      "label": "3c",
      "section": "Fluency",
      "stem": "Point $A$ has coordinates $(1, -2)$. Write the coordinates of the image point $A'$ when $A$ is translated:",
@@ -132763,6 +133240,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3d",
+     "help": "7j-move",
      "label": "3d",
      "section": "Fluency",
      "stem": "Point $A$ has coordinates $(1, -2)$. Write the coordinates of the image point $A'$ when $A$ is translated:",
@@ -132772,6 +133250,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3e",
+     "help": "7j-move",
      "label": "3e",
      "section": "Fluency",
      "stem": "Point $A$ has coordinates $(1, -2)$. Write the coordinates of the image point $A'$ when $A$ is translated:",
@@ -132781,6 +133260,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3f",
+     "help": "7j-move",
      "label": "3f",
      "section": "Fluency",
      "stem": "Point $A$ has coordinates $(1, -2)$. Write the coordinates of the image point $A'$ when $A$ is translated:",
@@ -132790,6 +133270,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3g",
+     "help": "7j-move",
      "label": "3g",
      "section": "Fluency",
      "stem": "Point $A$ has coordinates $(1, -2)$. Write the coordinates of the image point $A'$ when $A$ is translated:",
@@ -132799,6 +133280,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3h",
+     "help": "7j-move",
      "label": "3h",
      "section": "Fluency",
      "stem": "Point $A$ has coordinates $(1, -2)$. Write the coordinates of the image point $A'$ when $A$ is translated:",
@@ -132808,6 +133290,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3i",
+     "help": "7j-move",
      "label": "3i",
      "section": "Fluency",
      "stem": "Point $A$ has coordinates $(1, -2)$. Write the coordinates of the image point $A'$ when $A$ is translated:",
@@ -132817,6 +133300,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3j",
+     "help": "7j-move",
      "label": "3j",
      "section": "Fluency",
      "stem": "Point $A$ has coordinates $(1, -2)$. Write the coordinates of the image point $A'$ when $A$ is translated:",
@@ -132826,6 +133310,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3k",
+     "help": "7j-move",
      "label": "3k",
      "section": "Fluency",
      "stem": "Point $A$ has coordinates $(1, -2)$. Write the coordinates of the image point $A'$ when $A$ is translated:",
@@ -132835,6 +133320,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3l",
+     "help": "7j-move",
      "label": "3l",
      "section": "Fluency",
      "stem": "Point $A$ has coordinates $(1, -2)$. Write the coordinates of the image point $A'$ when $A$ is translated:",
@@ -132844,6 +133330,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "7j-describe",
      "label": "4a",
      "section": "Fluency",
      "stem": "Each point is translated to its image. Which description of the translation is correct?",
@@ -132859,6 +133346,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "7j-describe",
      "label": "4b",
      "section": "Fluency",
      "stem": "Each point is translated to its image. Which description of the translation is correct?",
@@ -132874,6 +133362,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "7j-describe",
      "label": "4c",
      "section": "Fluency",
      "stem": "Each point is translated to its image. Which description of the translation is correct?",
@@ -132889,6 +133378,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "7j-describe",
      "label": "4d",
      "section": "Fluency",
      "stem": "Each point is translated to its image. Which description of the translation is correct?",
@@ -132904,6 +133394,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4e",
+     "help": "7j-describe",
      "label": "4e",
      "section": "Fluency",
      "stem": "Each point is translated to its image. Which description of the translation is correct?",
@@ -132919,6 +133410,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4f",
+     "help": "7j-describe",
      "label": "4f",
      "section": "Fluency",
      "stem": "Each point is translated to its image. Which description of the translation is correct?",
@@ -132934,6 +133426,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4g",
+     "help": "7j-describe",
      "label": "4g",
      "section": "Fluency",
      "stem": "Each point is translated to its image. Which description of the translation is correct?",
@@ -132949,6 +133442,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4h",
+     "help": "7j-describe",
      "label": "4h",
      "section": "Fluency",
      "stem": "Each point is translated to its image. Which description of the translation is correct?",
@@ -132964,6 +133458,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4i",
+     "help": "7j-describe",
      "label": "4i",
      "section": "Fluency",
      "stem": "Each point is translated to its image. Which description of the translation is correct?",
@@ -132979,6 +133474,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4j",
+     "help": "7j-describe",
      "label": "4j",
      "section": "Fluency",
      "stem": "Each point is translated to its image. Which description of the translation is correct?",
@@ -132994,6 +133490,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4k",
+     "help": "7j-describe",
      "label": "4k",
      "section": "Fluency",
      "stem": "Each point is translated to its image. Which description of the translation is correct?",
@@ -133009,6 +133506,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4l",
+     "help": "7j-describe",
      "label": "4l",
      "section": "Fluency",
      "stem": "Each point is translated to its image. Which description of the translation is correct?",
@@ -133024,6 +133522,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "7j-describe",
      "label": "5a",
      "section": "Problem-solving",
      "stem": "A point is translated to its image. Which translation takes the image back to the starting point (the reverse translation)?",
@@ -133039,6 +133538,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "7j-describe",
      "label": "5b",
      "section": "Problem-solving",
      "stem": "A point is translated to its image. Which translation takes the image back to the starting point (the reverse translation)?",
@@ -133054,6 +133554,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "7j-describe",
      "label": "5c",
      "section": "Problem-solving",
      "stem": "A point is translated to its image. Which translation takes the image back to the starting point (the reverse translation)?",
@@ -133069,6 +133570,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5d",
+     "help": "7j-describe",
      "label": "5d",
      "section": "Problem-solving",
      "stem": "A point is translated to its image. Which translation takes the image back to the starting point (the reverse translation)?",
@@ -133084,6 +133586,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6a",
+     "help": "7j-paths",
      "label": "6a",
      "section": "Problem-solving",
      "stem": "Only moves of $1$ unit left, right, up or down along the dots are allowed, and no dot can be visited more than once. How many different paths are there from $A$ to $B$?",
@@ -133151,6 +133654,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6b",
+     "help": "7j-paths",
      "label": "6b",
      "section": "Problem-solving",
      "stem": "Only moves of $1$ unit left, right, up or down along the dots are allowed, and no dot can be visited more than once. How many different paths are there from $A$ to $B$?",
@@ -133242,6 +133746,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7",
+     "help": "7j-count",
      "label": "7",
      "section": "Problem-solving",
      "prompt": "Starting at $(0, 0)$, you may translate a point left, right, up or down, in whole numbers of units, with at most $4$ units in total. How many different points can you reach? Do not count $(0, 0)$.",
@@ -133250,6 +133755,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9a",
+     "help": "7j-describe",
      "label": "9a",
      "section": "Reasoning",
      "stem": "Which single translation replaces each pair of translations?",
@@ -133265,6 +133771,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9b",
+     "help": "7j-describe",
      "label": "9b",
      "section": "Reasoning",
      "stem": "Which single translation replaces each pair of translations?",
@@ -133280,6 +133787,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9c",
+     "help": "7j-describe",
      "label": "9c",
      "section": "Reasoning",
      "stem": "Which single translation replaces each pair of translations?",
@@ -133295,6 +133803,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9d",
+     "help": "7j-describe",
      "label": "9d",
      "section": "Reasoning",
      "stem": "Which single translation replaces each pair of translations?",
@@ -133310,6 +133819,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10a",
+     "help": "7j-combo",
      "label": "10a",
      "section": "Enrichment",
      "stem": "Write the coordinates of the final image point. Apply each step to the image from the step before.",
@@ -133320,6 +133830,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10b",
+     "help": "7j-combo",
      "label": "10b",
      "section": "Enrichment",
      "stem": "Write the coordinates of the final image point. Apply each step to the image from the step before.",
@@ -133329,6 +133840,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10c",
+     "help": "7j-combo",
      "label": "10c",
      "section": "Enrichment",
      "stem": "Write the coordinates of the final image point. Apply each step to the image from the step before.",
@@ -133338,6 +133850,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10d",
+     "help": "7j-combo",
      "label": "10d",
      "section": "Enrichment",
      "stem": "Write the coordinates of the final image point. Apply each step to the image from the step before.",
@@ -133347,6 +133860,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10e",
+     "help": "7j-combo",
      "label": "10e",
      "section": "Enrichment",
      "stem": "Write the coordinates of the final image point. Apply each step to the image from the step before.",
@@ -133364,6 +133878,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1",
+     "help": "7k-solid",
      "label": "1",
      "section": "Fluency",
      "prompt": "How many edges does this triangular prism have?",
@@ -133443,6 +133958,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "7k-solid",
      "label": "2a",
      "section": "Fluency",
      "stem": "Name each solid.",
@@ -133532,6 +134048,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "7k-solid",
      "label": "2b",
      "section": "Fluency",
      "stem": "Name each solid.",
@@ -133749,6 +134266,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "7k-solid",
      "label": "2c",
      "section": "Fluency",
      "stem": "Name each solid.",
@@ -133863,6 +134381,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "7k-solid",
      "label": "2d",
      "section": "Fluency",
      "stem": "Name each solid.",
@@ -133954,6 +134473,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2e",
+     "help": "7k-solid",
      "label": "2e",
      "section": "Fluency",
      "stem": "Name each solid.",
@@ -134323,6 +134843,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2f",
+     "help": "7k-solid",
      "label": "2f",
      "section": "Fluency",
      "stem": "Name each solid.",
@@ -134398,6 +134919,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "7k-solid",
      "label": "3a",
      "section": "Fluency",
      "stem": "These solids have been drawn on square dot paper.",
@@ -134503,6 +135025,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "7k-solid",
      "label": "3b",
      "section": "Fluency",
      "stem": "These solids have been drawn on square dot paper.",
@@ -134618,6 +135141,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "7k-cubes",
      "label": "4a",
      "section": "Fluency",
      "stem": "Each solid is made of cubes. No cubes are hidden from view. How many cubes are in each solid?",
@@ -134948,6 +135472,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "7k-cubes",
      "label": "4b",
      "section": "Fluency",
      "stem": "Each solid is made of cubes. No cubes are hidden from view. How many cubes are in each solid?",
@@ -135341,6 +135866,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "7k-cubes",
      "label": "4c",
      "section": "Fluency",
      "stem": "Each solid is made of cubes. No cubes are hidden from view. How many cubes are in each solid?",
@@ -135797,6 +136323,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "7k-views",
      "label": "5a",
      "section": "Fluency",
      "stem": "Choose the shape you would see for each view.",
@@ -135812,6 +136339,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "7k-views",
      "label": "5b",
      "section": "Fluency",
      "stem": "Choose the shape you would see for each view.",
@@ -135827,6 +136355,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "7k-views",
      "label": "5c",
      "section": "Fluency",
      "stem": "Choose the shape you would see for each view.",
@@ -135842,6 +136371,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5d",
+     "help": "7k-views",
      "label": "5d",
      "section": "Fluency",
      "stem": "Choose the shape you would see for each view.",
@@ -135857,6 +136387,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5e",
+     "help": "7k-views",
      "label": "5e",
      "section": "Fluency",
      "stem": "Choose the shape you would see for each view.",
@@ -135872,6 +136403,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5f",
+     "help": "7k-views",
      "label": "5f",
      "section": "Fluency",
      "stem": "Choose the shape you would see for each view.",
@@ -135887,6 +136419,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5g",
+     "help": "7k-views",
      "label": "5g",
      "section": "Fluency",
      "stem": "Choose the shape you would see for each view.",
@@ -135902,6 +136435,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5h",
+     "help": "7k-views",
      "label": "5h",
      "section": "Fluency",
      "stem": "Choose the shape you would see for each view.",
@@ -135917,6 +136451,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5i",
+     "help": "7k-views",
      "label": "5i",
      "section": "Fluency",
      "stem": "Choose the shape you would see for each view.",
@@ -135932,6 +136467,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6",
+     "help": "7k-stacks",
      "label": "6",
      "section": "Problem-solving",
      "prompt": "This is the top view (plan view) of a stack of $6$ cubes. Every square has at least one cube on it and the cubes sit in columns. How many different stacks of $6$ cubes could it be?",
@@ -136006,6 +136542,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7",
+     "help": "7k-stacks",
      "label": "7",
      "section": "Problem-solving",
      "prompt": "This is the top view of a stack of $8$ cubes. Every square has at least one cube on it and the cubes sit in columns. How many different stacks of $8$ cubes could it be?",
@@ -136100,6 +136637,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8a",
+     "help": "7k-solid",
      "label": "8a",
      "section": "Problem-solving",
      "stem": "Picture each solid drawn with all of its vertices showing and dashed lines for hidden edges.",
@@ -136109,6 +136647,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8b",
+     "help": "7k-solid",
      "label": "8b",
      "section": "Problem-solving",
      "stem": "Picture each solid drawn with all of its vertices showing and dashed lines for hidden edges.",
@@ -136118,6 +136657,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8c",
+     "help": "7k-solid",
      "label": "8c",
      "section": "Problem-solving",
      "stem": "Picture each solid drawn with all of its vertices showing and dashed lines for hidden edges.",
@@ -136127,6 +136667,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9",
+     "help": "7k-same",
      "label": "9",
      "section": "Reasoning",
      "prompt": "Mia draws these two solids made of cubes. Leo says they are drawings of exactly the same solid, just turned around. Is Leo correct?",
@@ -136783,6 +137324,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10a",
+     "help": "7k-same",
      "label": "10a",
      "section": "Reasoning",
      "stem": "Match each solid with the identical solid (turned around) chosen from A, B, C and D.",
@@ -138346,6 +138888,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10b",
+     "help": "7k-same",
      "label": "10b",
      "section": "Reasoning",
      "stem": "Match each solid with the identical solid (turned around) chosen from A, B, C and D.",
@@ -138682,6 +139225,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10c",
+     "help": "7k-same",
      "label": "10c",
      "section": "Reasoning",
      "stem": "Match each solid with the identical solid (turned around) chosen from A, B, C and D.",
@@ -139081,6 +139625,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10d",
+     "help": "7k-same",
      "label": "10d",
      "section": "Reasoning",
      "stem": "Match each solid with the identical solid (turned around) chosen from A, B, C and D.",
@@ -139417,6 +139962,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11a",
+     "help": "7k-views",
      "label": "11a",
      "section": "Enrichment",
      "stem": "This solid is made of cubes. The arrows show its front and left sides. Each view is drawn as a set of squares.",
@@ -139905,6 +140451,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11b",
+     "help": "7k-views",
      "label": "11b",
      "section": "Enrichment",
      "stem": "This solid is made of cubes. The arrows show its front and left sides. Each view is drawn as a set of squares.",
@@ -139914,6 +140461,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11c",
+     "help": "7k-views",
      "label": "11c",
      "section": "Enrichment",
      "stem": "This solid is made of cubes. The arrows show its front and left sides. Each view is drawn as a set of squares.",
@@ -139931,6 +140479,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1",
+     "help": "7l-nets",
      "label": "1",
      "section": "Fluency",
      "prompt": "Which net folds to make this rectangular prism, which is $4$ cm long, $3$ cm high and $2$ cm deep?",
@@ -140471,6 +141020,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2",
+     "help": "7l-nets",
      "label": "2",
      "section": "Fluency",
      "prompt": "Which net folds to make this square-based pyramid?",
@@ -140809,6 +141359,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "7l-nets",
      "label": "3a",
      "section": "Fluency",
      "stem": "Each net folds up to make a solid.",
@@ -140930,6 +141481,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "7l-nets",
      "label": "3b",
      "section": "Fluency",
      "stem": "Each net folds up to make a solid.",
@@ -141080,6 +141632,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "7l-nets",
      "label": "3c",
      "section": "Fluency",
      "stem": "Each net folds up to make a solid.",
@@ -141141,6 +141694,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3d",
+     "help": "7l-nets",
      "label": "3d",
      "section": "Fluency",
      "stem": "Each net folds up to make a solid.",
@@ -141254,6 +141808,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3e",
+     "help": "7l-nets",
      "label": "3e",
      "section": "Fluency",
      "stem": "Each net folds up to make a solid.",
@@ -141404,6 +141959,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3f",
+     "help": "7l-nets",
      "label": "3f",
      "section": "Fluency",
      "stem": "Each net folds up to make a solid.",
@@ -141496,6 +142052,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "7l-platonic",
      "label": "4a",
      "section": "Fluency",
      "stem": "Which Platonic solid, or solids, fit each description?",
@@ -141514,6 +142071,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "7l-platonic",
      "label": "4b",
      "section": "Fluency",
      "stem": "Which Platonic solid, or solids, fit each description?",
@@ -141532,6 +142090,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "7l-platonic",
      "label": "4c",
      "section": "Fluency",
      "stem": "Which Platonic solid, or solids, fit each description?",
@@ -141550,6 +142109,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "7l-platonic",
      "label": "4d",
      "section": "Fluency",
      "stem": "Which Platonic solid, or solids, fit each description?",
@@ -141568,6 +142128,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4e",
+     "help": "7l-platonic",
      "label": "4e",
      "section": "Fluency",
      "stem": "Which Platonic solid, or solids, fit each description?",
@@ -141586,6 +142147,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4f",
+     "help": "7l-platonic",
      "label": "4f",
      "section": "Fluency",
      "stem": "Which Platonic solid, or solids, fit each description?",
@@ -141604,6 +142166,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "7l-platonic",
      "label": "5a",
      "section": "Fluency",
      "stem": "Each net folds up to make one of the five Platonic solids. Name the solid.",
@@ -141752,6 +142315,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "7l-platonic",
      "label": "5b",
      "section": "Fluency",
      "stem": "Each net folds up to make one of the five Platonic solids. Name the solid.",
@@ -142114,6 +142678,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "7l-platonic",
      "label": "5c",
      "section": "Fluency",
      "stem": "Each net folds up to make one of the five Platonic solids. Name the solid.",
@@ -142204,6 +142769,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5d",
+     "help": "7l-platonic",
      "label": "5d",
      "section": "Fluency",
      "stem": "Each net folds up to make one of the five Platonic solids. Name the solid.",
@@ -142526,6 +143092,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5e",
+     "help": "7l-platonic",
      "label": "5e",
      "section": "Fluency",
      "stem": "Each net folds up to make one of the five Platonic solids. Name the solid.",
@@ -142684,6 +143251,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6a",
+     "help": "7l-platonic",
      "label": "6a",
      "section": "Fluency",
      "stem": "How many faces meet at each vertex of these Platonic solids?",
@@ -142693,6 +143261,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6b",
+     "help": "7l-platonic",
      "label": "6b",
      "section": "Fluency",
      "stem": "How many faces meet at each vertex of these Platonic solids?",
@@ -142702,6 +143271,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6c",
+     "help": "7l-platonic",
      "label": "6c",
      "section": "Fluency",
      "stem": "How many faces meet at each vertex of these Platonic solids?",
@@ -142711,6 +143281,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6d",
+     "help": "7l-platonic",
      "label": "6d",
      "section": "Fluency",
      "stem": "How many faces meet at each vertex of these Platonic solids?",
@@ -142720,6 +143291,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6e",
+     "help": "7l-platonic",
      "label": "6e",
      "section": "Fluency",
      "stem": "How many faces meet at each vertex of these Platonic solids?",
@@ -142729,6 +143301,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7",
+     "help": "7l-curved",
      "label": "7",
      "section": "Problem-solving",
      "prompt": "Jade cuts out a net for a cone. The net is a circle for the base and one other piece that curls round to make the sloping surface. What shape is that other piece?",
@@ -142743,6 +143316,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8a",
+     "help": "7l-count",
      "label": "8a",
      "section": "Problem-solving",
      "stem": "How many different nets are there for these solids? Do not count rotations or reflections of the same net.",
@@ -142752,6 +143326,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8b",
+     "help": "7l-count",
      "label": "8b",
      "section": "Problem-solving",
      "stem": "How many different nets are there for these solids? Do not count rotations or reflections of the same net.",
@@ -142761,6 +143336,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9a",
+     "help": "7l-glued",
      "label": "9a",
      "section": "Reasoning",
      "stem": "A square-based pyramid is glued onto the top of a cube. The base of the pyramid is exactly the same size as the top face of the cube, so they join to make one new solid.",
@@ -142910,6 +143486,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9b",
+     "help": "7l-glued",
      "label": "9b",
      "section": "Reasoning",
      "stem": "A square-based pyramid is glued onto the top of a cube. The base of the pyramid is exactly the same size as the top face of the cube, so they join to make one new solid.",
@@ -142923,6 +143500,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9c",
+     "help": "7l-glued",
      "label": "9c",
      "section": "Reasoning",
      "stem": "A square-based pyramid is glued onto the top of a cube. The base of the pyramid is exactly the same size as the top face of the cube, so they join to make one new solid.",
@@ -142932,6 +143510,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10",
+     "help": "7l-curved",
      "label": "10",
      "section": "Reasoning",
      "prompt": "Is it possible to draw a net for a sphere (one flat shape that folds up exactly into a sphere)?",
@@ -142944,6 +143523,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11a",
+     "help": "7l-cubes",
      "label": "11a",
      "section": "Enrichment",
      "stem": "This large cube is made from $1$ cm cubes, $4$ along each edge, so it contains $4 \\times 4 \\times 4 = 64$ small cubes.",
@@ -143166,6 +143746,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11b",
+     "help": "7l-cubes",
      "label": "11b",
      "section": "Enrichment",
      "stem": "This large cube is made from $1$ cm cubes, $4$ along each edge, so it contains $4 \\times 4 \\times 4 = 64$ small cubes.",
@@ -143175,6 +143756,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11c",
+     "help": "7l-cubes",
      "label": "11c",
      "section": "Enrichment",
      "stem": "Complete the table for large cubes with side length $n$ cm. Type the missing values in order, separated by commas.",
@@ -143225,6 +143807,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11d",
+     "help": "7l-cubes",
      "label": "11d",
      "section": "Enrichment",
      "stem": "Complete the table for large cubes with side length $n$ cm. Type the missing values in order, separated by commas.",
@@ -143239,6 +143822,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11e",
+     "help": "7l-cubes",
      "label": "11e",
      "section": "Enrichment",
      "stem": "Complete the table for large cubes with side length $n$ cm. Type the missing values in order, separated by commas.",
@@ -143253,6 +143837,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11f",
+     "help": "7l-cubes",
      "label": "11f",
      "section": "Enrichment",
      "stem": "For a large cube with side length $n$ cm (where $n$ is $2$ or more), write a rule using $n$ for:",
@@ -143263,6 +143848,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11g",
+     "help": "7l-cubes",
      "label": "11g",
      "section": "Enrichment",
      "stem": "For a large cube with side length $n$ cm (where $n$ is $2$ or more), write a rule using $n$ for:",
@@ -143272,6 +143858,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11h",
+     "help": "7l-cubes",
      "label": "11h",
      "section": "Enrichment",
      "stem": "For a large cube with side length $n$ cm (where $n$ is $2$ or more), write a rule using $n$ for:",

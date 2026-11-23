@@ -502,3 +502,14 @@ textarea, .small-input { width: 100%; font: 15px/1.4 var(--f-mono); color: var(-
 .fig-stemleaf .sl-h { font: 700 12px var(--f-body); color: var(--muted); border-bottom: 1px solid var(--line); }
 
 .fig-cap { flex-basis: 100%; text-align: center; font: 800 14px var(--f-display); color: var(--muted); }
+
+/* Phone-width fixes found in the full preview: long stems of comma-joined
+   data must wrap, the stem column must not grow past the screen, and wide
+   bus-stop working scrolls inside its own box. */
+.stem { grid-template-columns: auto minmax(0, 1fr); }
+.stem p, .prompt { overflow-wrap: anywhere; }
+.hp-bus, .hp-algo { overflow-x: auto; }
+.stem p { overflow-x: auto; }
+.hp-steps > li { grid-template-columns: 28px minmax(0, 1fr); }
+.hp-step > * { max-width: 100%; }
+.hp-step { grid-template-columns: minmax(0, 1fr); }
