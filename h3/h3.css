@@ -458,3 +458,45 @@ textarea, .small-input { width: 100%; font: 15px/1.4 var(--f-mono); color: var(-
 .fg-off { fill: var(--surface); stroke: var(--ink); stroke-width: 1.5; }
 .fg-grid-dark { stroke: var(--muted); stroke-width: 1.5; }
 .fg-dotred { fill: var(--brand-red); }
+
+/* Labelled shapes for algebra (figures.js rect and tri). */
+.fg-shape { fill: color-mix(in srgb, var(--h3-green) 10%, var(--surface)); stroke: var(--ink); stroke-width: 2; }
+.fg-div { stroke: var(--ink); stroke-width: 1.5; stroke-dasharray: 5 4; }
+.fg-side { fill: var(--ink); font: italic 700 16px "Times New Roman", Georgia, serif; }
+.fg-cell { fill: var(--h3-green); font: italic 700 16px "Times New Roman", Georgia, serif; }
+
+/* Geometry, measurement and statistics figures (figures.js diagram, columns,
+   dotplot, stemleaf, linegraph, sector, dividedbar, spinner). */
+.fg-line { stroke: var(--ink); stroke-width: 2; fill: none; }
+.fg-dash { stroke-dasharray: 6 5; }
+.fg-outline { fill: none; stroke: var(--ink); stroke-width: 2; }
+.fg-head { fill: var(--ink); }
+.fg-mark { stroke: var(--ink); stroke-width: 1.8; }
+.fg-angle { fill: none; stroke: var(--h3-green); stroke-width: 2; }
+.fg-alabel { fill: var(--h3-green); font: 700 14px var(--f-body); }
+.fg-dimline { stroke: var(--muted); stroke-width: 1.4; }
+.fg-title { fill: var(--ink); font: 700 14px var(--f-display); }
+.fg-col { fill: color-mix(in srgb, var(--h3-green) 60%, var(--surface)); stroke: var(--ink); stroke-width: 1.2; }
+.fg-spin { fill: var(--ink); font: 700 13px var(--f-body); }
+.fg-c0 { fill: color-mix(in srgb, var(--h3-green) 70%, var(--surface)); }
+.fg-c1 { fill: color-mix(in srgb, var(--accent) 60%, var(--surface)); }
+.fg-c2 { fill: color-mix(in srgb, var(--warn) 65%, var(--surface)); }
+.fg-c3 { fill: color-mix(in srgb, var(--brand-red) 55%, var(--surface)); }
+.fg-c4 { fill: color-mix(in srgb, var(--muted) 55%, var(--surface)); }
+.fg-c5 { fill: color-mix(in srgb, var(--good) 40%, var(--accent)); }
+.fg-c0, .fg-c1, .fg-c2, .fg-c3, .fg-c4, .fg-c5 { stroke: var(--surface); stroke-width: 1.5; }
+.fig-legend { display: flex; flex-wrap: wrap; gap: 6px 14px; justify-content: center; font: 600 13px var(--f-body) !important; color: var(--ink) !important; }
+.fig-key { display: inline-flex; align-items: center; gap: 6px; }
+.fig-key i { width: 14px; height: 14px; border-radius: 3px; display: inline-block; }
+.fig-key i.fg-c0 { background: color-mix(in srgb, var(--h3-green) 70%, var(--surface)); }
+.fig-key i.fg-c1 { background: color-mix(in srgb, var(--accent) 60%, var(--surface)); }
+.fig-key i.fg-c2 { background: color-mix(in srgb, var(--warn) 65%, var(--surface)); }
+.fig-key i.fg-c3 { background: color-mix(in srgb, var(--brand-red) 55%, var(--surface)); }
+.fig-key i.fg-c4 { background: color-mix(in srgb, var(--muted) 55%, var(--surface)); }
+.fig-key i.fg-c5 { background: color-mix(in srgb, var(--good) 40%, var(--accent)); }
+.fig-stemleaf { border-collapse: collapse; font: 700 16px var(--f-mono); background: var(--surface); }
+.fig-stemleaf th, .fig-stemleaf td { padding: 5px 12px; }
+.fig-stemleaf th { border-right: 2px solid var(--ink); text-align: right; }
+.fig-stemleaf td.sl-back { border-right: 2px solid var(--ink); text-align: right; letter-spacing: .12em; }
+.fig-stemleaf td.sl-leaf { letter-spacing: .12em; }
+.fig-stemleaf .sl-h { font: 700 12px var(--f-body); color: var(--muted); border-bottom: 1px solid var(--line); }

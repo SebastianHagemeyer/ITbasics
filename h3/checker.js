@@ -301,8 +301,23 @@ const Checker = (() => {
       }
       if (q.form === 'expanded' && !isExpanded(sTrees[0])) return { correct: false, reason: 'not expanded' };
       if (q.form === 'simplified') {
-        const count = (src) => tokenize(clean(src)).filter(t => !t.implicit).length;
+        const count = (src) => tokenize(clean(src)).filter(t => !t.implicit && !(t.t === 'op' && t.v === '*')).length;
         if (count(String(studentRaw)) > count(String(expectedRaw))) return { correct: false, reason: 'not simplified' };
+        // Being short is not enough: "5g*g" (for 5g^2) and "10y/15" (for 2y/3) are short
+        // but not simplified. Within each bracket-free term, a letter written more than
+        // once, or a number fraction that still cancels, means it can go further.
+        const loose = (src) => {
+          const s = clean(src).toLowerCase().replace(/\s+/g, '').replace(/\*/g, '');
+          if (/[a-z]{3,}/.test(s.replace(/[^a-z]+/g, ' ').split(' ').filter(w => /^(sqrt|sin|cos|tan|log|ln|abs|pi)/.test(w)).join(''))) return false;
+          return s.split(/(?<![\^(])[+-]/).some(term => {
+            if (!term || /[()]/.test(term)) return false;
+            const letters = term.replace(/\^\d+/g, '').match(/[a-z]/g) || [];
+            if (new Set(letters).size !== letters.length) return true;
+            const fr = term.match(/^(\d+)[a-z^0-9]*\/(\d+)$/) || term.match(/^[a-z^0-9]*?(\d+)\/(\d+)[a-z^0-9]*$/);
+            return !!fr && gcd(+fr[1], +fr[2]) > 1;
+          });
+        };
+        if (loose(String(studentRaw)) && !loose(String(expectedRaw))) return { correct: false, reason: 'not simplified' };
       }
       return { correct: true };
     }

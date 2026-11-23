@@ -77,6 +77,14 @@
       <div class="hp-ends"><span>${lo}</span><span>${hi}</span></div>
     </div>`;
 
+  // Any question figure (figures.js) inside a help panel: fig({ kind: 'bar', ... }).
+  // figures.js loads before this file, so it is ready here.
+  const fig = (...specs) => window.H3Figure ? `<div class="qfig hp-fig">${specs.map(window.H3Figure).join('')}</div>` : '';
+
+  // The helpers are shared with the per-chapter files (helps-ch2.js and on),
+  // which add their panels to window.H3_HELPS.
+  window.H3HelpKit = { key, col, tile, tip, steps, sum, ans, now, flow, chips, chart, algo, d, bus, area, line, fig };
+
   const H = {
     // =====================================================================
     // 1A Place value in ancient number systems
