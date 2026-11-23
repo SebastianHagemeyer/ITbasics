@@ -53605,6 +53605,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "8a-classify",
      "label": "1a",
      "section": "Fluency",
      "stem": "Classify each of the following as categorical or numerical data.",
@@ -53618,6 +53619,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "8a-classify",
      "label": "1b",
      "section": "Fluency",
      "stem": "Classify each of the following as categorical or numerical data.",
@@ -53631,6 +53633,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1c",
+     "help": "8a-classify",
      "label": "1c",
      "section": "Fluency",
      "stem": "Classify each of the following as categorical or numerical data.",
@@ -53644,6 +53647,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1d",
+     "help": "8a-classify",
      "label": "1d",
      "section": "Fluency",
      "stem": "Classify each of the following as categorical or numerical data.",
@@ -53657,6 +53661,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1e",
+     "help": "8a-classify",
      "label": "1e",
      "section": "Fluency",
      "stem": "Classify each of the following as categorical or numerical data.",
@@ -53670,6 +53675,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1f",
+     "help": "8a-classify",
      "label": "1f",
      "section": "Fluency",
      "stem": "Classify each of the following as categorical or numerical data.",
@@ -53683,6 +53689,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "8a-classify",
      "label": "2a",
      "section": "Fluency",
      "stem": "Classify each of the following as categorical, discrete numerical or continuous numerical data.",
@@ -53697,6 +53704,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "8a-classify",
      "label": "2b",
      "section": "Fluency",
      "stem": "Classify each of the following as categorical, discrete numerical or continuous numerical data.",
@@ -53711,6 +53719,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "8a-classify",
      "label": "2c",
      "section": "Fluency",
      "stem": "Classify each of the following as categorical, discrete numerical or continuous numerical data.",
@@ -53725,6 +53734,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "8a-classify",
      "label": "2d",
      "section": "Fluency",
      "stem": "Classify each of the following as categorical, discrete numerical or continuous numerical data.",
@@ -53739,6 +53749,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2e",
+     "help": "8a-classify",
      "label": "2e",
      "section": "Fluency",
      "stem": "Classify each of the following as categorical, discrete numerical or continuous numerical data.",
@@ -53753,6 +53764,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2f",
+     "help": "8a-classify",
      "label": "2f",
      "section": "Fluency",
      "stem": "Classify each of the following as categorical, discrete numerical or continuous numerical data.",
@@ -53767,6 +53779,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2g",
+     "help": "8a-classify",
      "label": "2g",
      "section": "Fluency",
      "stem": "Classify each of the following as categorical, discrete numerical or continuous numerical data.",
@@ -53781,6 +53794,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2h",
+     "help": "8a-classify",
      "label": "2h",
      "section": "Fluency",
      "stem": "Classify each of the following as categorical, discrete numerical or continuous numerical data.",
@@ -53795,6 +53809,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2i",
+     "help": "8a-classify",
      "label": "2i",
      "section": "Fluency",
      "stem": "Classify each of the following as categorical, discrete numerical or continuous numerical data.",
@@ -53809,6 +53824,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2j",
+     "help": "8a-classify",
      "label": "2j",
      "section": "Fluency",
      "stem": "Classify each of the following as categorical, discrete numerical or continuous numerical data.",
@@ -53823,6 +53839,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2k",
+     "help": "8a-classify",
      "label": "2k",
      "section": "Fluency",
      "stem": "Classify each of the following as categorical, discrete numerical or continuous numerical data.",
@@ -53837,6 +53854,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2l",
+     "help": "8a-classify",
      "label": "2l",
      "section": "Fluency",
      "stem": "Classify each of the following as categorical, discrete numerical or continuous numerical data.",
@@ -53851,6 +53869,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2m",
+     "help": "8a-classify",
      "label": "2m",
      "section": "Fluency",
      "stem": "Classify each of the following as categorical, discrete numerical or continuous numerical data.",
@@ -53865,6 +53884,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2n",
+     "help": "8a-classify",
      "label": "2n",
      "section": "Fluency",
      "stem": "Classify each of the following as categorical, discrete numerical or continuous numerical data.",
@@ -53879,6 +53899,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2o",
+     "help": "8a-classify",
      "label": "2o",
      "section": "Fluency",
      "stem": "Classify each of the following as categorical, discrete numerical or continuous numerical data.",
@@ -53893,6 +53914,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2p",
+     "help": "8a-classify",
      "label": "2p",
      "section": "Fluency",
      "stem": "Classify each of the following as categorical, discrete numerical or continuous numerical data.",
@@ -53907,6 +53929,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2q",
+     "help": "8a-classify",
      "label": "2q",
      "section": "Fluency",
      "stem": "Classify each of the following as categorical, discrete numerical or continuous numerical data.",
@@ -53921,6 +53944,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2r",
+     "help": "8a-classify",
      "label": "2r",
      "section": "Fluency",
      "stem": "Classify each of the following as categorical, discrete numerical or continuous numerical data.",
@@ -53935,6 +53959,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "8a-collect",
      "label": "3a",
      "section": "Fluency",
      "stem": "Is observation, a sample or a census the most suitable way for a student to collect data on each of the following?",
@@ -53949,6 +53974,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "8a-collect",
      "label": "3b",
      "section": "Fluency",
      "stem": "Is observation, a sample or a census the most suitable way for a student to collect data on each of the following?",
@@ -53963,6 +53989,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "8a-collect",
      "label": "3c",
      "section": "Fluency",
      "stem": "Is observation, a sample or a census the most suitable way for a student to collect data on each of the following?",
@@ -53977,6 +54004,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3d",
+     "help": "8a-collect",
      "label": "3d",
      "section": "Fluency",
      "stem": "Is observation, a sample or a census the most suitable way for a student to collect data on each of the following?",
@@ -53991,6 +54019,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3e",
+     "help": "8a-collect",
      "label": "3e",
      "section": "Fluency",
      "stem": "Is observation, a sample or a census the most suitable way for a student to collect data on each of the following?",
@@ -54005,6 +54034,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3f",
+     "help": "8a-collect",
      "label": "3f",
      "section": "Fluency",
      "stem": "Is observation, a sample or a census the most suitable way for a student to collect data on each of the following?",
@@ -54019,6 +54049,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3g",
+     "help": "8a-collect",
      "label": "3g",
      "section": "Fluency",
      "stem": "Is observation, a sample or a census the most suitable way for a student to collect data on each of the following?",
@@ -54033,6 +54064,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3h",
+     "help": "8a-collect",
      "label": "3h",
      "section": "Fluency",
      "stem": "Is observation, a sample or a census the most suitable way for a student to collect data on each of the following?",
@@ -54047,6 +54079,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3i",
+     "help": "8a-collect",
      "label": "3i",
      "section": "Fluency",
      "stem": "Is observation, a sample or a census the most suitable way for a student to collect data on each of the following?",
@@ -54061,6 +54094,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3j",
+     "help": "8a-collect",
      "label": "3j",
      "section": "Fluency",
      "stem": "Is observation, a sample or a census the most suitable way for a student to collect data on each of the following?",
@@ -54075,6 +54109,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3k",
+     "help": "8a-collect",
      "label": "3k",
      "section": "Fluency",
      "stem": "Is observation, a sample or a census the most suitable way for a student to collect data on each of the following?",
@@ -54089,6 +54124,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3l",
+     "help": "8a-collect",
      "label": "3l",
      "section": "Fluency",
      "stem": "Is observation, a sample or a census the most suitable way for a student to collect data on each of the following?",
@@ -54103,6 +54139,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3m",
+     "help": "8a-collect",
      "label": "3m",
      "section": "Fluency",
      "stem": "Is observation, a sample or a census the most suitable way for a student to collect data on each of the following?",
@@ -54117,6 +54154,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3n",
+     "help": "8a-collect",
      "label": "3n",
      "section": "Fluency",
      "stem": "Is observation, a sample or a census the most suitable way for a student to collect data on each of the following?",
@@ -54131,6 +54169,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "8a-source",
      "label": "4a",
      "section": "Fluency",
      "stem": "Is a primary source (collecting the data yourself) or a secondary source (data someone else has already published) more suitable for each of the following?",
@@ -54144,6 +54183,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "8a-source",
      "label": "4b",
      "section": "Fluency",
      "stem": "Is a primary source (collecting the data yourself) or a secondary source (data someone else has already published) more suitable for each of the following?",
@@ -54157,6 +54197,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "8a-source",
      "label": "4c",
      "section": "Fluency",
      "stem": "Is a primary source (collecting the data yourself) or a secondary source (data someone else has already published) more suitable for each of the following?",
@@ -54170,6 +54211,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "8a-source",
      "label": "4d",
      "section": "Fluency",
      "stem": "Is a primary source (collecting the data yourself) or a secondary source (data someone else has already published) more suitable for each of the following?",
@@ -54183,6 +54225,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4e",
+     "help": "8a-source",
      "label": "4e",
      "section": "Fluency",
      "stem": "Is a primary source (collecting the data yourself) or a secondary source (data someone else has already published) more suitable for each of the following?",
@@ -54196,6 +54239,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7a",
+     "help": "8a-collect",
      "label": "7a",
      "section": "Problem-solving",
      "stem": "When collecting primary data, you can survey the whole population or just a sample.",
@@ -54210,6 +54254,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7b",
+     "help": "8a-collect",
      "label": "7b",
      "section": "Problem-solving",
      "stem": "When collecting primary data, you can survey the whole population or just a sample.",
@@ -54224,6 +54269,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7c",
+     "help": "8a-collect",
      "label": "7c",
      "section": "Problem-solving",
      "stem": "When collecting primary data, you can survey the whole population or just a sample.",
@@ -54238,6 +54284,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8a",
+     "help": "8a-likert",
      "label": "8a",
      "section": "Problem-solving",
      "stem": "A Likert-type scale gives each answer to a survey question a number, so that the answers are in order.",
@@ -54251,6 +54298,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8b",
+     "help": "8a-likert",
      "label": "8b",
      "section": "Problem-solving",
      "stem": "A Likert-type scale gives each answer to a survey question a number, so that the answers are in order.",
@@ -54260,6 +54308,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8c",
+     "help": "8a-likert",
      "label": "8c",
      "section": "Problem-solving",
      "stem": "A Likert-type scale gives each answer to a survey question a number, so that the answers are in order.",
@@ -54269,6 +54318,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8d",
+     "help": "8a-likert",
      "label": "8d",
      "section": "Problem-solving",
      "stem": "A Likert-type scale gives each answer to a survey question a number, so that the answers are in order.",
@@ -54278,6 +54328,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9a",
+     "help": "8a-bias",
      "label": "9a",
      "section": "Problem-solving",
      "stem": "A sample should represent the whole population. For each survey, who is most likely to be left out?",
@@ -54292,6 +54343,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9b",
+     "help": "8a-bias",
      "label": "9b",
      "section": "Problem-solving",
      "stem": "A sample should represent the whole population. For each survey, who is most likely to be left out?",
@@ -54306,6 +54358,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9c",
+     "help": "8a-bias",
      "label": "9c",
      "section": "Problem-solving",
      "stem": "A sample should represent the whole population. For each survey, who is most likely to be left out?",
@@ -54320,6 +54373,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11a",
+     "help": "8a-collect",
      "label": "11a",
      "section": "Reasoning",
      "stem": "Television ratings are worked out by surveying a sample of the population.",
@@ -54334,6 +54388,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11b",
+     "help": "8a-collect",
      "label": "11b",
      "section": "Reasoning",
      "stem": "Television ratings are worked out by surveying a sample of the population.",
@@ -54348,6 +54403,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12",
+     "help": "8a-collect",
      "label": "12",
      "section": "Reasoning",
      "prompt": "Australia's census surveys every person, but only once every five years. Why might Australia not run a census every year?",
@@ -54369,6 +54425,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "8b-range",
      "label": "1a",
      "section": "Fluency",
      "stem": "Find the range of each set of data.",
@@ -54378,6 +54435,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "8b-range",
      "label": "1b",
      "section": "Fluency",
      "stem": "Find the range of each set of data.",
@@ -54387,6 +54445,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1c",
+     "help": "8b-range",
      "label": "1c",
      "section": "Fluency",
      "stem": "Find the range of each set of data.",
@@ -54396,6 +54455,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1d",
+     "help": "8b-range",
      "label": "1d",
      "section": "Fluency",
      "stem": "Find the range of each set of data.",
@@ -54405,6 +54465,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "8b-mean",
      "label": "2a",
      "section": "Fluency",
      "stem": "Find the mean of each set of data.",
@@ -54414,6 +54475,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "8b-mean",
      "label": "2b",
      "section": "Fluency",
      "stem": "Find the mean of each set of data.",
@@ -54423,6 +54485,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "8b-mean",
      "label": "2c",
      "section": "Fluency",
      "stem": "Find the mean of each set of data.",
@@ -54432,6 +54495,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "8b-mean",
      "label": "2d",
      "section": "Fluency",
      "stem": "Find the mean of each set of data.",
@@ -54441,6 +54505,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "8b-all",
      "label": "3a",
      "section": "Fluency",
      "stem": "The ages (in years) of nine people waiting at a bus stop are: $16, 43, 58, 27, 9, 71, 46, 36, 27$.",
@@ -54451,6 +54516,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "8b-all",
      "label": "3b",
      "section": "Fluency",
      "stem": "The ages (in years) of nine people waiting at a bus stop are: $16, 43, 58, 27, 9, 71, 46, 36, 27$.",
@@ -54461,6 +54527,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "8b-all",
      "label": "3c",
      "section": "Fluency",
      "stem": "The ages (in years) of nine people waiting at a bus stop are: $16, 43, 58, 27, 9, 71, 46, 36, 27$.",
@@ -54471,6 +54538,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "8b-all",
      "label": "4a",
      "section": "Fluency",
      "stem": "For the data set $2, 8, 2, 3, 5$, find the:",
@@ -54480,6 +54548,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "8b-all",
      "label": "4b",
      "section": "Fluency",
      "stem": "For the data set $2, 8, 2, 3, 5$, find the:",
@@ -54489,6 +54558,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "8b-all",
      "label": "4c",
      "section": "Fluency",
      "stem": "For the data set $2, 8, 2, 3, 5$, find the:",
@@ -54498,6 +54568,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "8b-all",
      "label": "4d",
      "section": "Fluency",
      "stem": "For the data set $3, 3, 11, 9, 14$, find the:",
@@ -54507,6 +54578,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4e",
+     "help": "8b-all",
      "label": "4e",
      "section": "Fluency",
      "stem": "For the data set $3, 3, 11, 9, 14$, find the:",
@@ -54516,6 +54588,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4f",
+     "help": "8b-all",
      "label": "4f",
      "section": "Fluency",
      "stem": "For the data set $3, 3, 11, 9, 14$, find the:",
@@ -54525,6 +54598,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4g",
+     "help": "8b-all",
      "label": "4g",
      "section": "Fluency",
      "stem": "For the data set $4, 12, 12, 15, 22$, find the:",
@@ -54534,6 +54608,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4h",
+     "help": "8b-all",
      "label": "4h",
      "section": "Fluency",
      "stem": "For the data set $4, 12, 12, 15, 22$, find the:",
@@ -54543,6 +54618,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4i",
+     "help": "8b-all",
      "label": "4i",
      "section": "Fluency",
      "stem": "For the data set $4, 12, 12, 15, 22$, find the:",
@@ -54552,6 +54628,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4j",
+     "help": "8b-all",
      "label": "4j",
      "section": "Fluency",
      "stem": "For the data set $26, 26, 21, 38, 26, 25$, find the:",
@@ -54561,6 +54638,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4k",
+     "help": "8b-all",
      "label": "4k",
      "section": "Fluency",
      "stem": "For the data set $26, 26, 21, 38, 26, 25$, find the:",
@@ -54570,6 +54648,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4l",
+     "help": "8b-all",
      "label": "4l",
      "section": "Fluency",
      "stem": "For the data set $26, 26, 21, 38, 26, 25$, find the:",
@@ -54579,6 +54658,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4m",
+     "help": "8b-all",
      "label": "4m",
      "section": "Fluency",
      "stem": "For the data set $2, 23, 11, 21, 34, 11$, find the:",
@@ -54588,6 +54668,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4n",
+     "help": "8b-all",
      "label": "4n",
      "section": "Fluency",
      "stem": "For the data set $2, 23, 11, 21, 34, 11$, find the:",
@@ -54597,6 +54678,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4o",
+     "help": "8b-all",
      "label": "4o",
      "section": "Fluency",
      "stem": "For the data set $2, 23, 11, 21, 34, 11$, find the:",
@@ -54606,6 +54688,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4p",
+     "help": "8b-all",
      "label": "4p",
      "section": "Fluency",
      "stem": "For the data set $56, 25, 56, 20, 16, 37$, find the:",
@@ -54615,6 +54698,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4q",
+     "help": "8b-all",
      "label": "4q",
      "section": "Fluency",
      "stem": "For the data set $56, 25, 56, 20, 16, 37$, find the:",
@@ -54624,6 +54708,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4r",
+     "help": "8b-all",
      "label": "4r",
      "section": "Fluency",
      "stem": "For the data set $56, 25, 56, 20, 16, 37$, find the:",
@@ -54633,6 +54718,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4s",
+     "help": "8b-all",
      "label": "4s",
      "section": "Fluency",
      "stem": "For the data set $119, 85, 82, 80, 40, 13, 85$, find the:",
@@ -54642,6 +54728,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4t",
+     "help": "8b-all",
      "label": "4t",
      "section": "Fluency",
      "stem": "For the data set $119, 85, 82, 80, 40, 13, 85$, find the:",
@@ -54651,6 +54738,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4u",
+     "help": "8b-all",
      "label": "4u",
      "section": "Fluency",
      "stem": "For the data set $119, 85, 82, 80, 40, 13, 85$, find the:",
@@ -54660,6 +54748,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4v",
+     "help": "8b-all",
      "label": "4v",
      "section": "Fluency",
      "stem": "For the data set $96, 33, 17, 55, 17, 62, 7$, find the:",
@@ -54669,6 +54758,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4w",
+     "help": "8b-all",
      "label": "4w",
      "section": "Fluency",
      "stem": "For the data set $96, 33, 17, 55, 17, 62, 7$, find the:",
@@ -54678,6 +54768,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4x",
+     "help": "8b-all",
      "label": "4x",
      "section": "Fluency",
      "stem": "For the data set $96, 33, 17, 55, 17, 62, 7$, find the:",
@@ -54687,6 +54778,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "8b-median",
      "label": "5a",
      "section": "Fluency",
      "stem": "Find the median of each set of data.",
@@ -54696,6 +54788,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "8b-median",
      "label": "5b",
      "section": "Fluency",
      "stem": "Find the median of each set of data.",
@@ -54705,6 +54798,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "8b-median",
      "label": "5c",
      "section": "Fluency",
      "stem": "Find the median of each set of data.",
@@ -54714,6 +54808,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5d",
+     "help": "8b-median",
      "label": "5d",
      "section": "Fluency",
      "stem": "Find the median of each set of data.",
@@ -54723,6 +54818,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5e",
+     "help": "8b-median",
      "label": "5e",
      "section": "Fluency",
      "stem": "Find the median of each set of data.",
@@ -54732,6 +54828,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5f",
+     "help": "8b-median",
      "label": "5f",
      "section": "Fluency",
      "stem": "Find the median of each set of data.",
@@ -54741,6 +54838,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6a",
+     "help": "8b-median",
      "label": "6a",
      "section": "Fluency",
      "stem": "Find the median of each set of data.",
@@ -54750,6 +54848,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6b",
+     "help": "8b-median",
      "label": "6b",
      "section": "Fluency",
      "stem": "Find the median of each set of data.",
@@ -54759,6 +54858,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6c",
+     "help": "8b-median",
      "label": "6c",
      "section": "Fluency",
      "stem": "Find the median of each set of data.",
@@ -54768,6 +54868,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6d",
+     "help": "8b-median",
      "label": "6d",
      "section": "Fluency",
      "stem": "Find the median of each set of data.",
@@ -54777,6 +54878,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6e",
+     "help": "8b-median",
      "label": "6e",
      "section": "Fluency",
      "stem": "Find the median of each set of data.",
@@ -54786,6 +54888,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6f",
+     "help": "8b-median",
      "label": "6f",
      "section": "Fluency",
      "stem": "Find the median of each set of data.",
@@ -54795,6 +54898,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7a",
+     "help": "8b-median",
      "label": "7a",
      "section": "Fluency",
      "stem": "The median of the data set $4, 6, 6, 9, 11, 12, 16$ is $9$. What would the new median be if this number is added to the data set?",
@@ -54804,6 +54908,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7b",
+     "help": "8b-median",
      "label": "7b",
      "section": "Fluency",
      "stem": "The median of the data set $4, 6, 6, 9, 11, 12, 16$ is $9$. What would the new median be if this number is added to the data set?",
@@ -54813,6 +54918,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7c",
+     "help": "8b-median",
      "label": "7c",
      "section": "Fluency",
      "stem": "The median of the data set $4, 6, 6, 9, 11, 12, 16$ is $9$. What would the new median be if this number is added to the data set?",
@@ -54822,6 +54928,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7d",
+     "help": "8b-median",
      "label": "7d",
      "section": "Fluency",
      "stem": "The median of the data set $4, 6, 6, 9, 11, 12, 16$ is $9$. What would the new median be if this number is added to the data set?",
@@ -54831,6 +54938,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8a",
+     "help": "8b-all",
      "label": "8a",
      "section": "Fluency",
      "stem": "The number of goals a netball goal shooter scores is recorded over eight games.",
@@ -54867,6 +54975,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8b",
+     "help": "8b-all",
      "label": "8b",
      "section": "Fluency",
      "stem": "The number of goals a netball goal shooter scores is recorded over eight games.",
@@ -54876,6 +54985,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8c",
+     "help": "8b-all",
      "label": "8c",
      "section": "Fluency",
      "stem": "The number of goals a netball goal shooter scores is recorded over eight games.",
@@ -54885,6 +54995,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9a",
+     "help": "8b-all",
      "label": "9a",
      "section": "Problem-solving",
      "stem": "Mia and Tom record their maths test marks in a table.",
@@ -54942,6 +55053,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9b",
+     "help": "8b-all",
      "label": "9b",
      "section": "Problem-solving",
      "stem": "Mia and Tom record their maths test marks in a table.",
@@ -54955,6 +55067,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9c",
+     "help": "8b-all",
      "label": "9c",
      "section": "Problem-solving",
      "stem": "Mia and Tom record their maths test marks in a table.",
@@ -54968,6 +55081,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10a",
+     "help": "8b-freq",
      "label": "10a",
      "section": "Problem-solving",
      "stem": "Kai's basketball coach records how many free throws Kai misses in each game. The results are in the table.",
@@ -54998,6 +55112,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10b",
+     "help": "8b-freq",
      "label": "10b",
      "section": "Problem-solving",
      "stem": "Kai's basketball coach records how many free throws Kai misses in each game. The results are in the table.",
@@ -55007,6 +55122,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10c",
+     "help": "8b-freq",
      "label": "10c",
      "section": "Problem-solving",
      "stem": "Kai's basketball coach records how many free throws Kai misses in each game. The results are in the table.",
@@ -55016,6 +55132,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10d",
+     "help": "8b-freq",
      "label": "10d",
      "section": "Problem-solving",
      "stem": "Kai's basketball coach records how many free throws Kai misses in each game. The results are in the table.",
@@ -55025,6 +55142,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10e",
+     "help": "8b-freq",
      "label": "10e",
      "section": "Problem-solving",
      "stem": "Kai's basketball coach records how many free throws Kai misses in each game. The results are in the table.",
@@ -55034,6 +55152,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10f",
+     "help": "8b-freq",
      "label": "10f",
      "section": "Problem-solving",
      "stem": "Kai's basketball coach records how many free throws Kai misses in each game. The results are in the table.",
@@ -55043,6 +55162,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11a",
+     "help": "8b-freq",
      "label": "11a",
      "section": "Problem-solving",
      "stem": "A hockey goalkeeper records the number of saves she makes in each game of a season.",
@@ -55075,6 +55195,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11b",
+     "help": "8b-freq",
      "label": "11b",
      "section": "Problem-solving",
      "stem": "A hockey goalkeeper records the number of saves she makes in each game of a season.",
@@ -55084,6 +55205,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11c",
+     "help": "8b-freq",
      "label": "11c",
      "section": "Problem-solving",
      "stem": "A hockey goalkeeper records the number of saves she makes in each game of a season.",
@@ -55093,6 +55215,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12",
+     "help": "8b-reverse",
      "label": "12",
      "section": "Problem-solving",
      "prompt": "The set $1, 3, 4, 4, 4, 9, 11, 20$ has a mode of $4$ and a mean of $7$. A set of whole numbers has a mode of $4$ (and no other mode) and a mean of $7$. What is the smallest number of values the set could have?",
@@ -55101,6 +55224,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13",
+     "help": "8b-outlier",
      "label": "13",
      "section": "Reasoning",
      "prompt": "Lachlan surveys the students in his class about the distance from home to school. One student has just moved from overseas and gives a distance of 15 230 km. Does this very large value have a greater effect on the mean or on the median distance?",
@@ -55113,6 +55237,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14a",
+     "help": "8b-change",
      "label": "14a",
      "section": "Reasoning",
      "stem": "Consider the set of values $3, 4, 8, 12, 12, 15$.",
@@ -55122,6 +55247,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14b",
+     "help": "8b-change",
      "label": "14b",
      "section": "Reasoning",
      "stem": "Consider the set of values $3, 4, 8, 12, 12, 15$.",
@@ -55131,6 +55257,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14c",
+     "help": "8b-change",
      "label": "14c",
      "section": "Reasoning",
      "stem": "Consider the set of values $3, 4, 8, 12, 12, 15$.",
@@ -55140,6 +55267,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14d",
+     "help": "8b-change",
      "label": "14d",
      "section": "Reasoning",
      "stem": "Consider the set of values $3, 4, 8, 12, 12, 15$.",
@@ -55149,6 +55277,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14e",
+     "help": "8b-change",
      "label": "14e",
      "section": "Reasoning",
      "stem": "Consider the set of values $3, 4, 8, 12, 12, 15$.",
@@ -55163,6 +55292,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14f",
+     "help": "8b-change",
      "label": "14f",
      "section": "Reasoning",
      "stem": "Consider the set of values $3, 4, 8, 12, 12, 15$.",
@@ -55177,6 +55307,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14g",
+     "help": "8b-change",
      "label": "14g",
      "section": "Reasoning",
      "stem": "Consider the set of values $3, 4, 8, 12, 12, 15$.",
@@ -55191,6 +55322,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14h",
+     "help": "8b-change",
      "label": "14h",
      "section": "Reasoning",
      "stem": "Consider the set of values $3, 4, 8, 12, 12, 15$.",
@@ -55205,6 +55337,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14i",
+     "help": "8b-change",
      "label": "14i",
      "section": "Reasoning",
      "stem": "Consider the set of values $3, 4, 8, 12, 12, 15$.",
@@ -55219,6 +55352,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14j",
+     "help": "8b-change",
      "label": "14j",
      "section": "Reasoning",
      "stem": "Consider the set of values $3, 4, 8, 12, 12, 15$.",
@@ -55233,6 +55367,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14k",
+     "help": "8b-change",
      "label": "14k",
      "section": "Reasoning",
      "stem": "Consider the set of values $3, 4, 8, 12, 12, 15$.",
@@ -55247,6 +55382,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14l",
+     "help": "8b-change",
      "label": "14l",
      "section": "Reasoning",
      "stem": "Consider the set of values $3, 4, 8, 12, 12, 15$.",
@@ -55261,6 +55397,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15a",
+     "help": "8b-reverse",
      "label": "15a",
      "section": "Reasoning",
      "prompt": "Two whole numbers have a mean of $12$ and a range of $8$. What are the numbers? Separate them with a comma.",
@@ -55272,6 +55409,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15b",
+     "help": "8b-reverse",
      "label": "15b",
      "section": "Reasoning",
      "prompt": "Three whole numbers have a mean of $12$ and a range of $2$. What are the numbers? Separate them with commas.",
@@ -55284,6 +55422,7 @@ window.H3_BANK = {
     },
     {
      "id": "q18a",
+     "help": "8b-fractions",
      "label": "18a",
      "section": "Enrichment",
      "stem": "Consider the fractions $\\frac{1}{2}, \\frac{1}{3}, \\frac{1}{6}, \\frac{1}{8}$.",
@@ -55294,6 +55433,7 @@ window.H3_BANK = {
     },
     {
      "id": "q18b",
+     "help": "8b-fractions",
      "label": "18b",
      "section": "Enrichment",
      "stem": "Consider the fractions $\\frac{1}{2}, \\frac{1}{3}, \\frac{1}{6}, \\frac{1}{8}$.",
@@ -55311,6 +55451,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "8c-dotplot",
      "label": "1a",
      "section": "Fluency",
      "stem": "The dot plot shows the results of a survey that asked some people how many times they went camping last year.",
@@ -55344,6 +55485,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "8c-dotplot",
      "label": "1b",
      "section": "Fluency",
      "stem": "The dot plot shows the results of a survey that asked some people how many times they went camping last year.",
@@ -55353,6 +55495,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1c",
+     "help": "8c-dotplot",
      "label": "1c",
      "section": "Fluency",
      "stem": "The dot plot shows the results of a survey that asked some people how many times they went camping last year.",
@@ -55362,6 +55505,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1d",
+     "help": "8c-dotplot",
      "label": "1d",
      "section": "Fluency",
      "stem": "The dot plot shows the results of a survey that asked some people how many times they went camping last year.",
@@ -55371,6 +55515,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1e",
+     "help": "8c-dotplot",
      "label": "1e",
      "section": "Fluency",
      "stem": "The dot plot shows the results of a survey that asked some people how many times they went camping last year.",
@@ -55380,6 +55525,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1f",
+     "help": "8c-dotplot",
      "label": "1f",
      "section": "Fluency",
      "stem": "The dot plot shows the results of a survey that asked some people how many times they went camping last year.",
@@ -55389,6 +55535,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "8c-dotplot",
      "label": "2a",
      "section": "Fluency",
      "stem": "The results of a Year 5 times-tables quiz are shown in the dot plot.",
@@ -55426,6 +55573,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "8c-dotplot",
      "label": "2b",
      "section": "Fluency",
      "stem": "The results of a Year 5 times-tables quiz are shown in the dot plot.",
@@ -55435,6 +55583,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "8c-dotplot",
      "label": "2c",
      "section": "Fluency",
      "stem": "The results of a Year 5 times-tables quiz are shown in the dot plot.",
@@ -55444,6 +55593,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "8c-dotplot",
      "label": "2d",
      "section": "Fluency",
      "stem": "The results of a Year 5 times-tables quiz are shown in the dot plot.",
@@ -55453,6 +55603,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2e",
+     "help": "8c-dotplot",
      "label": "2e",
      "section": "Fluency",
      "stem": "The results of a Year 5 times-tables quiz are shown in the dot plot.",
@@ -55462,6 +55613,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "8c-columns",
      "label": "3a",
      "section": "Fluency",
      "stem": "Each student in Year 7C chose their favourite fruit from apple, banana, mango, grapes or orange. The results are graphed below.",
@@ -55493,6 +55645,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "8c-columns",
      "label": "3b",
      "section": "Fluency",
      "stem": "Each student in Year 7C chose their favourite fruit from apple, banana, mango, grapes or orange. The results are graphed below.",
@@ -55502,6 +55655,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "8c-columns",
      "label": "3c",
      "section": "Fluency",
      "stem": "Each student in Year 7C chose their favourite fruit from apple, banana, mango, grapes or orange. The results are graphed below.",
@@ -55518,6 +55672,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3d",
+     "help": "8c-columns",
      "label": "3d",
      "section": "Fluency",
      "stem": "Each student in Year 7C chose their favourite fruit from apple, banana, mango, grapes or orange. The results are graphed below.",
@@ -55527,6 +55682,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "8c-columns",
      "label": "4a",
      "section": "Fluency",
      "stem": "Lena has graphed her height at each of her last five birthdays.",
@@ -55559,6 +55715,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "8c-columns",
      "label": "4b",
      "section": "Fluency",
      "stem": "Lena has graphed her height at each of her last five birthdays.",
@@ -55569,6 +55726,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "8c-columns",
      "label": "4c",
      "section": "Fluency",
      "stem": "Lena has graphed her height at each of her last five birthdays.",
@@ -55579,6 +55737,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "8c-columns",
      "label": "4d",
      "section": "Fluency",
      "stem": "Lena has graphed her height at each of her last five birthdays.",
@@ -55594,6 +55753,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "8c-columns",
      "label": "5a",
      "section": "Fluency",
      "stem": "This column graph shows Hamish's height at each birthday from age 8 to age 12.",
@@ -55626,6 +55786,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "8c-columns",
      "label": "5b",
      "section": "Fluency",
      "stem": "This column graph shows Hamish's height at each birthday from age 8 to age 12.",
@@ -55636,6 +55797,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "8c-columns",
      "label": "5c",
      "section": "Fluency",
      "stem": "This column graph shows Aria's height at each birthday from age 8 to age 12.",
@@ -55668,6 +55830,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5d",
+     "help": "8c-columns",
      "label": "5d",
      "section": "Fluency",
      "stem": "This column graph shows Aria's height at each birthday from age 8 to age 12.",
@@ -55678,6 +55841,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6a",
+     "help": "8c-columns",
      "label": "6a",
      "section": "Fluency",
      "stem": "Every five years, a company surveys its employees about how they get to work. The results are graphed below.",
@@ -55761,6 +55925,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6b",
+     "help": "8c-columns",
      "label": "6b",
      "section": "Fluency",
      "stem": "Every five years, a company surveys its employees about how they get to work. The results are graphed below.",
@@ -55770,6 +55935,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6c",
+     "help": "8c-columns",
      "label": "6c",
      "section": "Fluency",
      "stem": "Every five years, a company surveys its employees about how they get to work. The results are graphed below.",
@@ -55779,6 +55945,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6d",
+     "help": "8c-columns",
      "label": "6d",
      "section": "Fluency",
      "stem": "Every five years, a company surveys its employees about how they get to work. The results are graphed below.",
@@ -55792,6 +55959,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6e",
+     "help": "8c-columns",
      "label": "6e",
      "section": "Fluency",
      "stem": "Every five years, a company surveys its employees about how they get to work. The results are graphed below.",
@@ -55804,6 +55972,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7a",
+     "help": "8c-table",
      "label": "7a",
      "section": "Fluency",
      "stem": "The table shows the number of boys and girls who joined a junior football club each year.",
@@ -55849,6 +56018,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7b",
+     "help": "8c-table",
      "label": "7b",
      "section": "Fluency",
      "stem": "The table shows the number of boys and girls who joined a junior football club each year.",
@@ -55858,6 +56028,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7c",
+     "help": "8c-table",
      "label": "7c",
      "section": "Fluency",
      "stem": "The table shows the number of boys and girls who joined a junior football club each year.",
@@ -55867,6 +56038,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7d",
+     "help": "8c-table",
      "label": "7d",
      "section": "Fluency",
      "stem": "The table shows the number of boys and girls who joined a junior football club each year.",
@@ -55880,6 +56052,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8a",
+     "help": "8c-columns",
      "label": "8a",
      "section": "Problem-solving",
      "stem": "The average price of a movie ticket at a cinema is graphed over a 6-year period.",
@@ -55918,6 +56091,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8b",
+     "help": "8c-columns",
      "label": "8b",
      "section": "Problem-solving",
      "stem": "The average price of a movie ticket at a cinema is graphed over a 6-year period.",
@@ -55928,6 +56102,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8c",
+     "help": "8c-columns",
      "label": "8c",
      "section": "Problem-solving",
      "stem": "The average price of a movie ticket at a cinema is graphed over a 6-year period.",
@@ -55938,6 +56113,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9a",
+     "help": "8c-scale",
      "label": "9a",
      "section": "Problem-solving",
      "stem": "A survey asked students to choose their favourite subject from Art, Maths, English, History and Science. Someone drew this column graph of the results.",
@@ -56217,6 +56393,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9b",
+     "help": "8c-scale",
      "label": "9b",
      "section": "Problem-solving",
      "stem": "A survey asked students to choose their favourite subject from Art, Maths, English, History and Science. Someone drew this column graph of the results.",
@@ -56226,6 +56403,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9c",
+     "help": "8c-scale",
      "label": "9c",
      "section": "Problem-solving",
      "stem": "A survey asked students to choose their favourite subject from Art, Maths, English, History and Science. Someone drew this column graph of the results.",
@@ -56235,6 +56413,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9d",
+     "help": "8c-scale",
      "label": "9d",
      "section": "Problem-solving",
      "stem": "A survey asked students to choose their favourite subject from Art, Maths, English, History and Science. Someone drew this column graph of the results.",
@@ -56252,6 +56431,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10a",
+     "help": "8c-compare",
      "label": "10a",
      "section": "Problem-solving",
      "stem": "Two Year 7 classes did the same spelling test, scored out of 10. Their scores are shown in the dot plots.",
@@ -56308,6 +56488,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10b",
+     "help": "8c-compare",
      "label": "10b",
      "section": "Problem-solving",
      "stem": "Two Year 7 classes did the same spelling test, scored out of 10. Their scores are shown in the dot plots.",
@@ -56317,6 +56498,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10c",
+     "help": "8c-compare",
      "label": "10c",
      "section": "Problem-solving",
      "stem": "Two Year 7 classes did the same spelling test, scored out of 10. Their scores are shown in the dot plots.",
@@ -56326,6 +56508,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10d",
+     "help": "8c-compare",
      "label": "10d",
      "section": "Problem-solving",
      "stem": "Two Year 7 classes did the same spelling test, scored out of 10. Their scores are shown in the dot plots.",
@@ -56335,6 +56518,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10e",
+     "help": "8c-compare",
      "label": "10e",
      "section": "Problem-solving",
      "stem": "Two Year 7 classes did the same spelling test, scored out of 10. Their scores are shown in the dot plots.",
@@ -56348,6 +56532,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10f",
+     "help": "8c-compare",
      "label": "10f",
      "section": "Problem-solving",
      "stem": "Two Year 7 classes did the same spelling test, scored out of 10. Their scores are shown in the dot plots.",
@@ -56361,6 +56546,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11a",
+     "help": "8c-table",
      "label": "11a",
      "section": "Reasoning",
      "stem": "At Riverton Station, three types of train run: local, country and interstate. The table shows the average number of passengers departing each week.",
@@ -56411,6 +56597,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11b",
+     "help": "8c-table",
      "label": "11b",
      "section": "Reasoning",
      "stem": "At Riverton Station, three types of train run: local, country and interstate. The table shows the average number of passengers departing each week.",
@@ -56420,6 +56607,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11c",
+     "help": "8c-table",
      "label": "11c",
      "section": "Reasoning",
      "stem": "At Riverton Station, three types of train run: local, country and interstate. The table shows the average number of passengers departing each week.",
@@ -56433,6 +56621,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11d",
+     "help": "8c-table",
      "label": "11d",
      "section": "Reasoning",
      "stem": "At Riverton Station, three types of train run: local, country and interstate. The table shows the average number of passengers departing each week.",
@@ -56442,6 +56631,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12",
+     "help": "8c-dotplot",
      "label": "12",
      "section": "Reasoning",
      "prompt": "The dot plot shows the number of children in each of 12 households. Find the mean number of children per household by adding the values of all the dots and dividing by the number of dots.",
@@ -56470,6 +56660,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13a",
+     "help": "8c-shape",
      "label": "13a",
      "section": "Reasoning",
      "stem": "Look at dot plot a.",
@@ -56507,6 +56698,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13b",
+     "help": "8c-shape",
      "label": "13b",
      "section": "Reasoning",
      "stem": "Look at dot plot a.",
@@ -56516,6 +56708,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13c",
+     "help": "8c-shape",
      "label": "13c",
      "section": "Reasoning",
      "stem": "Look at dot plot a.",
@@ -56525,6 +56718,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13d",
+     "help": "8c-shape",
      "label": "13d",
      "section": "Reasoning",
      "stem": "Look at dot plot b.",
@@ -56562,6 +56756,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13e",
+     "help": "8c-shape",
      "label": "13e",
      "section": "Reasoning",
      "stem": "Look at dot plot b.",
@@ -56571,6 +56766,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13f",
+     "help": "8c-shape",
      "label": "13f",
      "section": "Reasoning",
      "stem": "Look at dot plot b.",
@@ -56580,6 +56776,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13g",
+     "help": "8c-shape",
      "label": "13g",
      "section": "Reasoning",
      "stem": "Look at dot plot c.",
@@ -56617,6 +56814,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13h",
+     "help": "8c-shape",
      "label": "13h",
      "section": "Reasoning",
      "stem": "Look at dot plot c.",
@@ -56626,6 +56824,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13i",
+     "help": "8c-shape",
      "label": "13i",
      "section": "Reasoning",
      "stem": "Look at dot plot c.",
@@ -56635,6 +56834,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13j",
+     "help": "8c-shape",
      "label": "13j",
      "section": "Reasoning",
      "stem": "Look at dot plot d.",
@@ -56680,6 +56880,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13k",
+     "help": "8c-shape",
      "label": "13k",
      "section": "Reasoning",
      "stem": "Look at dot plot d.",
@@ -56689,6 +56890,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13l",
+     "help": "8c-shape",
      "label": "13l",
      "section": "Reasoning",
      "stem": "Look at dot plot d.",
@@ -56698,6 +56900,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14",
+     "help": "8c-count",
      "label": "14",
      "section": "Enrichment",
      "prompt": "A column graph can be drawn with its columns going up (vertical) or across (horizontal), and the categories can be put in any order. Counting only these changes, how many different column graphs could show these survey results?",
@@ -56734,6 +56937,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "8d-read",
      "label": "1a",
      "section": "Fluency",
      "stem": "A cat is weighed at the start of each month for five months. The results are shown in the line graph.",
@@ -56767,6 +56971,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "8d-read",
      "label": "1b",
      "section": "Fluency",
      "stem": "A cat is weighed at the start of each month for five months. The results are shown in the line graph.",
@@ -56777,6 +56982,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "8d-read",
      "label": "2a",
      "section": "Fluency",
      "stem": "Priya weighs her dog Biscuit at the start of each month for a year. The results are shown in the line graph.",
@@ -56824,6 +57030,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "8d-read",
      "label": "2b",
      "section": "Fluency",
      "stem": "Priya weighs her dog Biscuit at the start of each month for a year. The results are shown in the line graph.",
@@ -56839,6 +57046,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "8d-read",
      "label": "2c",
      "section": "Fluency",
      "stem": "Priya weighs her dog Biscuit at the start of each month for a year. The results are shown in the line graph.",
@@ -56854,6 +57062,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "8d-read",
      "label": "3a",
      "section": "Fluency",
      "stem": "The graph shows the outside temperature over a 24-hour period, starting and finishing at midnight (12am).",
@@ -56903,6 +57112,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "8d-read",
      "label": "3b",
      "section": "Fluency",
      "stem": "The graph shows the outside temperature over a 24-hour period, starting and finishing at midnight (12am).",
@@ -56919,6 +57129,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "8d-read",
      "label": "3c",
      "section": "Fluency",
      "stem": "The graph shows the outside temperature over a 24-hour period, starting and finishing at midnight (12am).",
@@ -56935,6 +57146,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3d",
+     "help": "8d-read",
      "label": "3d",
      "section": "Fluency",
      "stem": "Use the graph of the temperature during the day to estimate the temperature at each of these times.",
@@ -56945,6 +57157,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3e",
+     "help": "8d-read",
      "label": "3e",
      "section": "Fluency",
      "stem": "Use the graph of the temperature during the day to estimate the temperature at each of these times.",
@@ -56956,6 +57169,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3f",
+     "help": "8d-read",
      "label": "3f",
      "section": "Fluency",
      "stem": "Use the graph of the temperature during the day to estimate the temperature at each of these times.",
@@ -56967,6 +57181,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3g",
+     "help": "8d-read",
      "label": "3g",
      "section": "Fluency",
      "stem": "Use the graph of the temperature during the day to estimate the temperature at each of these times.",
@@ -56978,6 +57193,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "8d-travel",
      "label": "4a",
      "section": "Fluency",
      "stem": "This travel graph shows the distance travelled by a van over 6 hours.",
@@ -57015,6 +57231,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "8d-travel",
      "label": "4b",
      "section": "Fluency",
      "stem": "This travel graph shows the distance travelled by a van over 6 hours.",
@@ -57025,6 +57242,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "8d-travel",
      "label": "4c",
      "section": "Fluency",
      "stem": "This travel graph shows the distance travelled by a van over 6 hours.",
@@ -57039,6 +57257,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "8d-travel",
      "label": "4d",
      "section": "Fluency",
      "stem": "This travel graph shows the distance travelled by a van over 6 hours.",
@@ -57056,6 +57275,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4e",
+     "help": "8d-travel",
      "label": "4e",
      "section": "Fluency",
      "stem": "This travel graph shows the distance travelled by a van over 6 hours.",
@@ -57066,6 +57286,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "8d-travel",
      "label": "5a",
      "section": "Fluency",
      "stem": "This travel graph shows the distance walked by a bushwalker over 5 hours.",
@@ -57101,6 +57322,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "8d-travel",
      "label": "5b",
      "section": "Fluency",
      "stem": "This travel graph shows the distance walked by a bushwalker over 5 hours.",
@@ -57111,6 +57333,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "8d-travel",
      "label": "5c",
      "section": "Fluency",
      "stem": "This travel graph shows the distance walked by a bushwalker over 5 hours.",
@@ -57127,6 +57350,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6a",
+     "help": "8d-story",
      "label": "6a",
      "section": "Problem-solving",
      "stem": "The water storage level for a town is graphed as a percentage, on the first day of each month. Assume the amount of water used is the same every month.",
@@ -57179,6 +57403,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6b",
+     "help": "8d-story",
      "label": "6b",
      "section": "Problem-solving",
      "stem": "The water storage level for a town is graphed as a percentage, on the first day of each month. Assume the amount of water used is the same every month.",
@@ -57188,6 +57413,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6c",
+     "help": "8d-story",
      "label": "6c",
      "section": "Problem-solving",
      "stem": "The water storage level for a town is graphed as a percentage, on the first day of each month. Assume the amount of water used is the same every month.",
@@ -57198,6 +57424,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7a",
+     "help": "8d-story",
      "label": "7a",
      "section": "Problem-solving",
      "stem": "The temperature in a living room is recorded every two hours on a cold winter day. The room has a heater, and one person lives in the house and works during the day.",
@@ -57248,6 +57475,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7b",
+     "help": "8d-story",
      "label": "7b",
      "section": "Problem-solving",
      "stem": "The temperature in a living room is recorded every two hours on a cold winter day. The room has a heater, and one person lives in the house and works during the day.",
@@ -57263,6 +57491,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7c",
+     "help": "8d-story",
      "label": "7c",
      "section": "Problem-solving",
      "stem": "The temperature in a living room is recorded every two hours on a cold winter day. The room has a heater, and one person lives in the house and works during the day.",
@@ -57278,6 +57507,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7d",
+     "help": "8d-story",
      "label": "7d",
      "section": "Problem-solving",
      "stem": "The temperature in a living room is recorded every two hours on a cold winter day. The room has a heater, and one person lives in the house and works during the day.",
@@ -57293,6 +57523,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7e",
+     "help": "8d-story",
      "label": "7e",
      "section": "Problem-solving",
      "stem": "The temperature in a living room is recorded every two hours on a cold winter day. The room has a heater, and one person lives in the house and works during the day.",
@@ -57308,6 +57539,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7f",
+     "help": "8d-story",
      "label": "7f",
      "section": "Problem-solving",
      "stem": "The temperature in a living room is recorded every two hours on a cold winter day. The room has a heater, and one person lives in the house and works during the day.",
@@ -57323,6 +57555,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8a",
+     "help": "8d-travel",
      "label": "8a",
      "section": "Reasoning",
      "stem": "Choose the travel graph that matches each journey.",
@@ -57414,6 +57647,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8b",
+     "help": "8d-travel",
      "label": "8b",
      "section": "Reasoning",
      "stem": "Choose the travel graph that matches each journey.",
@@ -57505,6 +57739,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11a",
+     "help": "8d-seasons",
      "label": "11a",
      "section": "Enrichment",
      "stem": "These line graphs show the maximum temperature on the first day of each month for two cities.",
@@ -57594,6 +57829,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11b",
+     "help": "8d-seasons",
      "label": "11b",
      "section": "Enrichment",
      "stem": "These line graphs show the maximum temperature on the first day of each month for two cities.",
@@ -57607,6 +57843,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11c",
+     "help": "8d-seasons",
      "label": "11c",
      "section": "Enrichment",
      "stem": "These line graphs show the maximum temperature on the first day of each month for two cities.",
@@ -57628,6 +57865,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "8e-read",
      "label": "1a",
      "section": "Fluency",
      "stem": "The number of pages in some short story books is shown in this stem-and-leaf plot.",
@@ -57665,6 +57903,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "8e-read",
      "label": "1b",
      "section": "Fluency",
      "stem": "The number of pages in some short story books is shown in this stem-and-leaf plot.",
@@ -57674,6 +57913,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1c",
+     "help": "8e-read",
      "label": "1c",
      "section": "Fluency",
      "stem": "The number of pages in some short story books is shown in this stem-and-leaf plot.",
@@ -57686,6 +57926,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1d",
+     "help": "8e-read",
      "label": "1d",
      "section": "Fluency",
      "stem": "The number of pages in some short story books is shown in this stem-and-leaf plot.",
@@ -57695,6 +57936,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1e",
+     "help": "8e-read",
      "label": "1e",
      "section": "Fluency",
      "stem": "The number of pages in some short story books is shown in this stem-and-leaf plot.",
@@ -57704,6 +57946,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "8e-read",
      "label": "2a",
      "section": "Fluency",
      "stem": "This stem-and-leaf plot shows the ages of the people in a group.",
@@ -57742,6 +57985,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "8e-read",
      "label": "2b",
      "section": "Fluency",
      "stem": "This stem-and-leaf plot shows the ages of the people in a group.",
@@ -57751,6 +57995,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "8e-read",
      "label": "2c",
      "section": "Fluency",
      "stem": "True or false? Use the stem-and-leaf plot of the ages of the people in the group.",
@@ -57764,6 +58009,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "8e-read",
      "label": "2d",
      "section": "Fluency",
      "stem": "True or false? Use the stem-and-leaf plot of the ages of the people in the group.",
@@ -57777,6 +58023,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2e",
+     "help": "8e-read",
      "label": "2e",
      "section": "Fluency",
      "stem": "True or false? Use the stem-and-leaf plot of the ages of the people in the group.",
@@ -57790,6 +58037,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2f",
+     "help": "8e-read",
      "label": "2f",
      "section": "Fluency",
      "stem": "True or false? Use the stem-and-leaf plot of the ages of the people in the group.",
@@ -57803,6 +58051,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "8e-stats",
      "label": "3a",
      "section": "Fluency",
      "stem": "For stem-and-leaf plot a, state:",
@@ -57830,6 +58079,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "8e-stats",
      "label": "3b",
      "section": "Fluency",
      "stem": "For stem-and-leaf plot a, state:",
@@ -57839,6 +58089,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "8e-stats",
      "label": "3c",
      "section": "Fluency",
      "stem": "For stem-and-leaf plot b, state:",
@@ -57870,6 +58121,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3d",
+     "help": "8e-stats",
      "label": "3d",
      "section": "Fluency",
      "stem": "For stem-and-leaf plot b, state:",
@@ -57879,6 +58131,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3e",
+     "help": "8e-stats",
      "label": "3e",
      "section": "Fluency",
      "stem": "For stem-and-leaf plot c, state:",
@@ -57906,6 +58159,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3f",
+     "help": "8e-stats",
      "label": "3f",
      "section": "Fluency",
      "stem": "For stem-and-leaf plot c, state:",
@@ -57915,6 +58169,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "8e-build",
      "label": "4a",
      "section": "Fluency",
      "stem": "These data are being shown in a stem-and-leaf plot: $12, 13, 15, 16, 16, 17, 19, 21, 23, 27, 28, 30, 34, 34, 36$.",
@@ -57947,6 +58202,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "8e-build",
      "label": "4b",
      "section": "Fluency",
      "stem": "These data are being shown in a stem-and-leaf plot: $30, 33, 41, 46, 48, 48, 52, 53, 53, 54, 57, 59, 61, 64, 64$.",
@@ -57985,6 +58241,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "8e-build",
      "label": "4c",
      "section": "Fluency",
      "stem": "These data are being shown in a stem-and-leaf plot: $23, 37, 26, 32, 15, 29, 46, 17, 47, 43, 52, 35, 28, 15, 34$.",
@@ -58025,6 +58282,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "8e-build",
      "label": "4d",
      "section": "Fluency",
      "stem": "These data are being shown in a stem-and-leaf plot: $34, 26, 39, 61, 28, 76, 85, 61, 36, 83, 39, 13, 72, 14, 16$.",
@@ -58077,6 +58335,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "8e-build",
      "label": "5a",
      "section": "Fluency",
      "stem": "These data are being shown in a stem-and-leaf plot: $81, 83, 85, 87, 92, 95, 102, 103, 106, 111, 112, 112, 114, 116, 118$.",
@@ -58112,6 +58371,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "8e-build",
      "label": "5b",
      "section": "Fluency",
      "stem": "These data are being shown in a stem-and-leaf plot: $121, 82, 107, 114, 97, 99, 93, 114, 112, 87, 103, 118, 109, 92, 96$.",
@@ -58153,6 +58413,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "8e-build",
      "label": "5c",
      "section": "Fluency",
      "stem": "These data are being shown in a stem-and-leaf plot: $191, 176, 154, 197, 186, 179, 163, 158, 172, 182, 159, 194, 168, 191, 183, 188, 195, 166, 198, 185$.",
@@ -58194,6 +58455,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5d",
+     "help": "8e-build",
      "label": "5d",
      "section": "Fluency",
      "stem": "These data are being shown in a stem-and-leaf plot: $402, 421, 407, 414, 417, 407, 413, 403, 409, 419, 405, 406, 392, 412, 411, 408, 394, 397, 416$.",
@@ -58233,6 +58495,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6a",
+     "help": "8e-back",
      "label": "6a",
      "section": "Problem-solving",
      "stem": "This back-to-back stem-and-leaf plot shows the ages of all the people in two shops. For each statement, say whether it is true for Shop 1 only, Shop 2 only, both shops or neither shop.",
@@ -58298,6 +58561,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6b",
+     "help": "8e-back",
      "label": "6b",
      "section": "Problem-solving",
      "stem": "This back-to-back stem-and-leaf plot shows the ages of all the people in two shops. For each statement, say whether it is true for Shop 1 only, Shop 2 only, both shops or neither shop.",
@@ -58313,6 +58577,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6c",
+     "help": "8e-back",
      "label": "6c",
      "section": "Problem-solving",
      "stem": "This back-to-back stem-and-leaf plot shows the ages of all the people in two shops. For each statement, say whether it is true for Shop 1 only, Shop 2 only, both shops or neither shop.",
@@ -58328,6 +58593,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6d",
+     "help": "8e-back",
      "label": "6d",
      "section": "Problem-solving",
      "stem": "This back-to-back stem-and-leaf plot shows the ages of all the people in two shops. For each statement, say whether it is true for Shop 1 only, Shop 2 only, both shops or neither shop.",
@@ -58343,6 +58609,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6e",
+     "help": "8e-back",
      "label": "6e",
      "section": "Problem-solving",
      "stem": "This back-to-back stem-and-leaf plot shows the ages of all the people in two shops. For each statement, say whether it is true for Shop 1 only, Shop 2 only, both shops or neither shop.",
@@ -58358,6 +58625,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6f",
+     "help": "8e-back",
      "label": "6f",
      "section": "Problem-solving",
      "stem": "This back-to-back stem-and-leaf plot shows the ages of all the people in two shops. For each statement, say whether it is true for Shop 1 only, Shop 2 only, both shops or neither shop.",
@@ -58373,6 +58641,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6g",
+     "help": "8e-back",
      "label": "6g",
      "section": "Problem-solving",
      "stem": "This back-to-back stem-and-leaf plot shows the ages of all the people in two shops. For each statement, say whether it is true for Shop 1 only, Shop 2 only, both shops or neither shop.",
@@ -58388,6 +58657,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6h",
+     "help": "8e-back",
      "label": "6h",
      "section": "Problem-solving",
      "stem": "This back-to-back stem-and-leaf plot shows the ages of all the people in two shops. For each statement, say whether it is true for Shop 1 only, Shop 2 only, both shops or neither shop.",
@@ -58403,6 +58673,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6i",
+     "help": "8e-back",
      "label": "6i",
      "section": "Problem-solving",
      "stem": "This back-to-back stem-and-leaf plot shows the ages of all the people in two shops. For each statement, say whether it is true for Shop 1 only, Shop 2 only, both shops or neither shop.",
@@ -58418,6 +58689,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7a",
+     "help": "8e-stats",
      "label": "7a",
      "section": "Problem-solving",
      "stem": "A company recorded how many seconds visitors spent on the home page of its website.",
@@ -58457,6 +58729,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7b",
+     "help": "8e-stats",
      "label": "7b",
      "section": "Problem-solving",
      "stem": "A company recorded how many seconds visitors spent on the home page of its website.",
@@ -58466,6 +58739,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7c",
+     "help": "8e-stats",
      "label": "7c",
      "section": "Problem-solving",
      "stem": "A company recorded how many seconds visitors spent on the home page of its website.",
@@ -58475,6 +58749,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7d",
+     "help": "8e-stats",
      "label": "7d",
      "section": "Problem-solving",
      "stem": "A company recorded how many seconds visitors spent on the home page of its website.",
@@ -58485,6 +58760,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7e",
+     "help": "8e-stats",
      "label": "7e",
      "section": "Problem-solving",
      "stem": "A company recorded how many seconds visitors spent on the home page of its website.",
@@ -58495,6 +58771,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8a",
+     "help": "8e-back",
      "label": "8a",
      "section": "Problem-solving",
      "stem": "Two radio stations asked their listeners how old they are. The results are shown in the back-to-back stem-and-leaf plot.",
@@ -58555,6 +58832,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8b",
+     "help": "8e-back",
      "label": "8b",
      "section": "Problem-solving",
      "stem": "Two radio stations asked their listeners how old they are. The results are shown in the back-to-back stem-and-leaf plot.",
@@ -58565,6 +58843,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8c",
+     "help": "8e-back",
      "label": "8c",
      "section": "Problem-solving",
      "stem": "Two radio stations asked their listeners how old they are. The results are shown in the back-to-back stem-and-leaf plot.",
@@ -58578,6 +58857,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9a",
+     "help": "8e-back",
      "label": "9a",
      "section": "Problem-solving",
      "stem": "The heights of a group of Year 6 and Year 7 students are shown in this back-to-back stem-and-leaf plot.",
@@ -58646,6 +58926,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9b",
+     "help": "8e-back",
      "label": "9b",
      "section": "Problem-solving",
      "stem": "The heights of a group of Year 6 and Year 7 students are shown in this back-to-back stem-and-leaf plot.",
@@ -58656,6 +58937,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9c",
+     "help": "8e-back",
      "label": "9c",
      "section": "Problem-solving",
      "stem": "The heights of a group of Year 6 and Year 7 students are shown in this back-to-back stem-and-leaf plot.",
@@ -58669,6 +58951,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9d",
+     "help": "8e-back",
      "label": "9d",
      "section": "Problem-solving",
      "stem": "The heights of a group of Year 6 and Year 7 students are shown in this back-to-back stem-and-leaf plot.",
@@ -58679,6 +58962,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9e",
+     "help": "8e-back",
      "label": "9e",
      "section": "Problem-solving",
      "stem": "The heights of a group of Year 6 and Year 7 students are shown in this back-to-back stem-and-leaf plot.",
@@ -58689,6 +58973,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9f",
+     "help": "8e-back",
      "label": "9f",
      "section": "Problem-solving",
      "stem": "The heights of a group of Year 6 and Year 7 students are shown in this back-to-back stem-and-leaf plot.",
@@ -58702,6 +58987,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10a",
+     "help": "8e-missing",
      "label": "10a",
      "section": "Problem-solving",
      "stem": "A teacher shows her students' test scores out of 50 in a stem-and-leaf plot, but some leaves are missing. They are shown by the letters a, b, c and d.",
@@ -58737,6 +59023,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10b",
+     "help": "8e-missing",
      "label": "10b",
      "section": "Problem-solving",
      "stem": "A teacher shows her students' test scores out of 50 in a stem-and-leaf plot, but some leaves are missing. They are shown by the letters a, b, c and d.",
@@ -58746,6 +59033,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10c",
+     "help": "8e-missing",
      "label": "10c",
      "section": "Problem-solving",
      "stem": "A teacher shows her students' test scores out of 50 in a stem-and-leaf plot, but some leaves are missing. They are shown by the letters a, b, c and d.",
@@ -58759,6 +59047,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10d",
+     "help": "8e-missing",
      "label": "10d",
      "section": "Problem-solving",
      "stem": "A teacher shows her students' test scores out of 50 in a stem-and-leaf plot, but some leaves are missing. They are shown by the letters a, b, c and d.",
@@ -58772,6 +59061,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10e",
+     "help": "8e-missing",
      "label": "10e",
      "section": "Problem-solving",
      "stem": "A teacher shows her students' test scores out of 50 in a stem-and-leaf plot, but some leaves are missing. They are shown by the letters a, b, c and d.",
@@ -58784,6 +59074,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10f",
+     "help": "8e-missing",
      "label": "10f",
      "section": "Problem-solving",
      "stem": "A teacher shows her students' test scores out of 50 in a stem-and-leaf plot, but some leaves are missing. They are shown by the letters a, b, c and d.",
@@ -58793,6 +59084,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13a",
+     "help": "8e-read",
      "label": "13a",
      "section": "Reasoning",
      "stem": "This stem-and-leaf plot shows the ages of the people at a farmers' market at one time of the day, but the leaves cannot be read.",
@@ -58828,6 +59120,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13b",
+     "help": "8e-read",
      "label": "13b",
      "section": "Reasoning",
      "stem": "This stem-and-leaf plot shows the ages of the people at a farmers' market at one time of the day, but the leaves cannot be read.",
@@ -58837,6 +59130,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13c",
+     "help": "8e-read",
      "label": "13c",
      "section": "Reasoning",
      "stem": "This stem-and-leaf plot shows the ages of the people at a farmers' market at one time of the day, but the leaves cannot be read.",
@@ -58846,6 +59140,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13d",
+     "help": "8e-read",
      "label": "13d",
      "section": "Reasoning",
      "stem": "True or false? Use the stem-and-leaf plot of the ages at the farmers' market.",
@@ -58859,6 +59154,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13e",
+     "help": "8e-read",
      "label": "13e",
      "section": "Reasoning",
      "stem": "True or false? Use the stem-and-leaf plot of the ages at the farmers' market.",
@@ -58872,6 +59168,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13f",
+     "help": "8e-read",
      "label": "13f",
      "section": "Reasoning",
      "stem": "True or false? Use the stem-and-leaf plot of the ages at the farmers' market.",
@@ -58885,6 +59182,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13g",
+     "help": "8e-read",
      "label": "13g",
      "section": "Reasoning",
      "stem": "True or false? Use the stem-and-leaf plot of the ages at the farmers' market.",
@@ -58898,6 +59196,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13h",
+     "help": "8e-read",
      "label": "13h",
      "section": "Reasoning",
      "stem": "True or false? Use the stem-and-leaf plot of the ages at the farmers' market.",
@@ -58911,6 +59210,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13i",
+     "help": "8e-read",
      "label": "13i",
      "section": "Reasoning",
      "stem": "True or false? Use the stem-and-leaf plot of the ages at the farmers' market.",
@@ -58924,6 +59224,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14a",
+     "help": "8e-negative",
      "label": "14a",
      "section": "Enrichment",
      "stem": "This stem-and-leaf plot shows the average winter temperature (in °C) in 15 cities.",
@@ -58967,6 +59268,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14b",
+     "help": "8e-negative",
      "label": "14b",
      "section": "Enrichment",
      "stem": "This stem-and-leaf plot shows the average winter temperature (in °C) in 15 cities.",
@@ -58976,6 +59278,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14c",
+     "help": "8e-negative",
      "label": "14c",
      "section": "Enrichment",
      "stem": "This stem-and-leaf plot shows the average winter temperature (in °C) in 15 cities.",
@@ -58985,6 +59288,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14d",
+     "help": "8e-negative",
      "label": "14d",
      "section": "Enrichment",
      "stem": "This stem-and-leaf plot shows the average winter temperature (in °C) in 15 cities.",
@@ -58994,6 +59298,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14e",
+     "help": "8e-negative",
      "label": "14e",
      "section": "Enrichment",
      "stem": "This stem-and-leaf plot shows the average winter temperature (in °C) in 15 cities.",
@@ -59004,6 +59309,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14f",
+     "help": "8e-negative",
      "label": "14f",
      "section": "Enrichment",
      "stem": "This stem-and-leaf plot shows the average winter temperature (in °C) in 15 cities.",
@@ -59022,6 +59328,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "8f-percent",
      "label": "1a",
      "section": "Fluency",
      "stem": "A family records how it spends its weekly budget, as shown in the table. They want to show the results in a divided bar graph that is $20$ cm long, and in a sector graph.",
@@ -59051,6 +59358,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "8f-percent",
      "label": "1b",
      "section": "Fluency",
      "stem": "A family records how it spends its weekly budget, as shown in the table. They want to show the results in a divided bar graph that is $20$ cm long, and in a sector graph.",
@@ -59061,6 +59369,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1c",
+     "help": "8f-percent",
      "label": "1c",
      "section": "Fluency",
      "stem": "A family records how it spends its weekly budget, as shown in the table. They want to show the results in a divided bar graph that is $20$ cm long, and in a sector graph.",
@@ -59071,6 +59380,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1d",
+     "help": "8f-percent",
      "label": "1d",
      "section": "Fluency",
      "stem": "A family records how it spends its weekly budget, as shown in the table. They want to show the results in a divided bar graph that is $20$ cm long, and in a sector graph.",
@@ -59081,6 +59391,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1e",
+     "help": "8f-percent",
      "label": "1e",
      "section": "Fluency",
      "stem": "A family records how it spends its weekly budget, as shown in the table. They want to show the results in a divided bar graph that is $20$ cm long, and in a sector graph.",
@@ -59091,6 +59402,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1f",
+     "help": "8f-percent",
      "label": "1f",
      "section": "Fluency",
      "stem": "A family records how it spends its weekly budget, as shown in the table. They want to show the results in a divided bar graph that is $20$ cm long, and in a sector graph.",
@@ -59101,6 +59413,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1g",
+     "help": "8f-percent",
      "label": "1g",
      "section": "Fluency",
      "stem": "A family records how it spends its weekly budget, as shown in the table. They want to show the results in a divided bar graph that is $20$ cm long, and in a sector graph.",
@@ -59111,6 +59424,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1h",
+     "help": "8f-percent",
      "label": "1h",
      "section": "Fluency",
      "stem": "A family records how it spends its weekly budget, as shown in the table. They want to show the results in a divided bar graph that is $20$ cm long, and in a sector graph.",
@@ -59121,6 +59435,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "8f-angles",
      "label": "2a",
      "section": "Fluency",
      "stem": "Visitors at a lookout were asked which country they live in. The results are shown in the table.",
@@ -59149,6 +59464,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "8f-angles",
      "label": "2b",
      "section": "Fluency",
      "stem": "Visitors at a lookout were asked which country they live in. The results are shown in the table.",
@@ -59160,6 +59476,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "8f-angles",
      "label": "2c",
      "section": "Fluency",
      "stem": "Visitors at a lookout were asked which country they live in. The results are shown in the table.",
@@ -59170,6 +59487,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "8f-angles",
      "label": "2d",
      "section": "Fluency",
      "stem": "Visitors at a lookout were asked which country they live in. The results are shown in the table.",
@@ -59180,6 +59498,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2e",
+     "help": "8f-angles",
      "label": "2e",
      "section": "Fluency",
      "stem": "Visitors at a lookout were asked which country they live in. The results are shown in the table.",
@@ -59190,6 +59509,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2f",
+     "help": "8f-angles",
      "label": "2f",
      "section": "Fluency",
      "stem": "Visitors at a lookout were asked which country they live in. The results are shown in the table.",
@@ -59200,6 +59520,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2g",
+     "help": "8f-angles",
      "label": "2g",
      "section": "Fluency",
      "stem": "Visitors at a lookout were asked which country they live in. The results are shown in the table.",
@@ -59210,6 +59531,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2h",
+     "help": "8f-angles",
      "label": "2h",
      "section": "Fluency",
      "stem": "Visitors at a lookout were asked which country they live in. The results are shown in the table.",
@@ -59220,6 +59542,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2i",
+     "help": "8f-angles",
      "label": "2i",
      "section": "Fluency",
      "stem": "Visitors at a lookout were asked which country they live in. The results are shown in the table.",
@@ -59230,6 +59553,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "8f-angles",
      "label": "3a",
      "section": "Fluency",
      "stem": "Some Year 7 and Year 8 students voted for their favourite fruit. The results are shown in the table.",
@@ -59269,6 +59593,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "8f-angles",
      "label": "3b",
      "section": "Fluency",
      "stem": "Some Year 7 and Year 8 students voted for their favourite fruit. The results are shown in the table.",
@@ -59279,6 +59604,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "8f-angles",
      "label": "3c",
      "section": "Fluency",
      "stem": "Some Year 7 and Year 8 students voted for their favourite fruit. The results are shown in the table.",
@@ -59289,6 +59615,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3d",
+     "help": "8f-angles",
      "label": "3d",
      "section": "Fluency",
      "stem": "Some Year 7 and Year 8 students voted for their favourite fruit. The results are shown in the table.",
@@ -59299,6 +59626,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3e",
+     "help": "8f-angles",
      "label": "3e",
      "section": "Fluency",
      "stem": "Some Year 7 and Year 8 students voted for their favourite fruit. The results are shown in the table.",
@@ -59315,6 +59643,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3f",
+     "help": "8f-angles",
      "label": "3f",
      "section": "Fluency",
      "stem": "Some Year 7 and Year 8 students voted for their favourite fruit. The results are shown in the table.",
@@ -59331,6 +59660,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3g",
+     "help": "8f-angles",
      "label": "3g",
      "section": "Fluency",
      "stem": "Some Year 7 and Year 8 students voted for their favourite fruit. The results are shown in the table.",
@@ -59341,6 +59671,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3h",
+     "help": "8f-angles",
      "label": "3h",
      "section": "Fluency",
      "stem": "Some Year 7 and Year 8 students voted for their favourite fruit. The results are shown in the table.",
@@ -59351,6 +59682,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "8f-read",
      "label": "4a",
      "section": "Problem-solving",
      "stem": "A group of Year 7 students was asked to name their favourite lunch. The results are shown in this sector graph. $48$ students took part.",
@@ -59381,6 +59713,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "8f-read",
      "label": "4b",
      "section": "Problem-solving",
      "stem": "A group of Year 7 students was asked to name their favourite lunch. The results are shown in this sector graph. $48$ students took part.",
@@ -59390,6 +59723,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "8f-read",
      "label": "4c",
      "section": "Problem-solving",
      "stem": "A group of Year 7 students was asked to name their favourite lunch. The results are shown in this sector graph. $48$ students took part.",
@@ -59399,6 +59733,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "8f-read",
      "label": "4d",
      "section": "Problem-solving",
      "stem": "A group of Year 7 students was asked to name their favourite lunch. The results are shown in this sector graph. $48$ students took part.",
@@ -59408,6 +59743,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4e",
+     "help": "8f-read",
      "label": "4e",
      "section": "Problem-solving",
      "stem": "Another $24$ students were surveyed: $9$ chose pasta and $15$ chose salad. Their votes are added to the sector graph above.",
@@ -59423,6 +59759,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4f",
+     "help": "8f-read",
      "label": "4f",
      "section": "Problem-solving",
      "stem": "Another $24$ students were surveyed: $9$ chose pasta and $15$ chose salad. Their votes are added to the sector graph above.",
@@ -59438,6 +59775,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4g",
+     "help": "8f-read",
      "label": "4g",
      "section": "Problem-solving",
      "stem": "Another $24$ students were surveyed: $9$ chose pasta and $15$ chose salad. Their votes are added to the sector graph above.",
@@ -59451,6 +59789,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "8f-read",
      "label": "5a",
      "section": "Problem-solving",
      "stem": "Mia asked $40$ classmates what type of movie they like best, and drew this divided bar graph of the results.",
@@ -59481,6 +59820,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "8f-read",
      "label": "5b",
      "section": "Problem-solving",
      "stem": "Mia asked $40$ classmates what type of movie they like best, and drew this divided bar graph of the results.",
@@ -59490,6 +59830,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "8f-read",
      "label": "5c",
      "section": "Problem-solving",
      "stem": "Mia asked $40$ classmates what type of movie they like best, and drew this divided bar graph of the results.",
@@ -59499,6 +59840,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5d",
+     "help": "8f-read",
      "label": "5d",
      "section": "Problem-solving",
      "stem": "Mia asked $40$ classmates what type of movie they like best, and drew this divided bar graph of the results.",
@@ -59509,6 +59851,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6a",
+     "help": "8f-read",
      "label": "6a",
      "section": "Problem-solving",
      "stem": "Friends Priya and Leo each drew a sector graph of how they spend their leisure time. The first graph is Priya's and the second graph is Leo's.",
@@ -59562,6 +59905,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6b",
+     "help": "8f-read",
      "label": "6b",
      "section": "Problem-solving",
      "stem": "Friends Priya and Leo each drew a sector graph of how they spend their leisure time. The first graph is Priya's and the second graph is Leo's.",
@@ -59575,6 +59919,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6c",
+     "help": "8f-read",
      "label": "6c",
      "section": "Problem-solving",
      "stem": "Friends Priya and Leo each drew a sector graph of how they spend their leisure time. The first graph is Priya's and the second graph is Leo's.",
@@ -59585,6 +59930,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6d",
+     "help": "8f-read",
      "label": "6d",
      "section": "Problem-solving",
      "stem": "Friends Priya and Leo each drew a sector graph of how they spend their leisure time. The first graph is Priya's and the second graph is Leo's.",
@@ -59595,6 +59941,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6e",
+     "help": "8f-read",
      "label": "6e",
      "section": "Problem-solving",
      "stem": "Friends Priya and Leo each drew a sector graph of how they spend their leisure time. The first graph is Priya's and the second graph is Leo's.",
@@ -59608,6 +59955,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7a",
+     "help": "8f-read",
      "label": "7a",
      "section": "Reasoning",
      "stem": "In two surveys, students were asked how they usually get to school. The first graph is survey 1 and the second graph is survey 2.",
@@ -59653,6 +60001,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7b",
+     "help": "8f-read",
      "label": "7b",
      "section": "Reasoning",
      "stem": "In two surveys, students were asked how they usually get to school. The first graph is survey 1 and the second graph is survey 2.",
@@ -59662,6 +60011,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7c",
+     "help": "8f-read",
      "label": "7c",
      "section": "Reasoning",
      "stem": "In two surveys, students were asked how they usually get to school. The first graph is survey 1 and the second graph is survey 2.",
@@ -59676,6 +60026,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7d",
+     "help": "8f-read",
      "label": "7d",
      "section": "Reasoning",
      "stem": "In two surveys, students were asked how they usually get to school. The first graph is survey 1 and the second graph is survey 2.",
@@ -59690,6 +60041,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7e",
+     "help": "8f-read",
      "label": "7e",
      "section": "Reasoning",
      "stem": "In two surveys, students were asked how they usually get to school. The first graph is survey 1 and the second graph is survey 2.",
@@ -59704,6 +60056,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8a",
+     "help": "8f-fractions",
      "label": "8a",
      "section": "Reasoning",
      "prompt": "A sector graph has three sectors: red, blue and green. Red is $\\frac{2}{5}$ of the graph and blue is $\\frac{1}{3}$. What fraction of the graph is green?",
@@ -59715,6 +60068,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8b",
+     "help": "8f-fractions",
      "label": "8b",
      "section": "Reasoning",
      "prompt": "How many degrees is the green sector?",
@@ -59724,6 +60078,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8c",
+     "help": "8f-fractions",
      "label": "8c",
      "section": "Reasoning",
      "prompt": "Sam wants to draw a sector graph where red is $\\frac{1}{2}$, green is $\\frac{1}{4}$ and blue is $\\frac{1}{3}$ of the graph. Can he do it?",
@@ -59737,6 +60092,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9a",
+     "help": "8f-orders",
      "label": "9a",
      "section": "Enrichment",
      "stem": "This divided bar graph has five segments, A to E.",
@@ -59771,6 +60127,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9b",
+     "help": "8f-orders",
      "label": "9b",
      "section": "Enrichment",
      "stem": "This divided bar graph has five segments, A to E.",
@@ -59780,6 +60137,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9c",
+     "help": "8f-orders",
      "label": "9c",
      "section": "Enrichment",
      "stem": "This divided bar graph has five segments, A to E.",
@@ -59797,6 +60155,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "8g-words",
      "label": "1a",
      "section": "Fluency",
      "stem": "Decide whether each statement is true or false.",
@@ -59810,6 +60169,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "8g-words",
      "label": "1b",
      "section": "Fluency",
      "stem": "Decide whether each statement is true or false.",
@@ -59823,6 +60183,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1c",
+     "help": "8g-words",
      "label": "1c",
      "section": "Fluency",
      "stem": "Decide whether each statement is true or false.",
@@ -59836,6 +60197,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1d",
+     "help": "8g-words",
      "label": "1d",
      "section": "Fluency",
      "stem": "Decide whether each statement is true or false.",
@@ -59849,6 +60211,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "8g-words",
      "label": "2a",
      "section": "Fluency",
      "stem": "A fair $6$-sided die has the numbers $1$ to $6$ on it. Decide whether each statement is true or false.",
@@ -59862,6 +60225,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "8g-words",
      "label": "2b",
      "section": "Fluency",
      "stem": "A fair $6$-sided die has the numbers $1$ to $6$ on it. Decide whether each statement is true or false.",
@@ -59875,6 +60239,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "8g-words",
      "label": "2c",
      "section": "Fluency",
      "stem": "A fair $6$-sided die has the numbers $1$ to $6$ on it. Decide whether each statement is true or false.",
@@ -59888,6 +60253,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "8g-words",
      "label": "2d",
      "section": "Fluency",
      "stem": "A fair $6$-sided die has the numbers $1$ to $6$ on it. Decide whether each statement is true or false.",
@@ -59901,6 +60267,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2e",
+     "help": "8g-words",
      "label": "2e",
      "section": "Fluency",
      "stem": "A fair $6$-sided die has the numbers $1$ to $6$ on it. Decide whether each statement is true or false.",
@@ -59914,6 +60281,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2f",
+     "help": "8g-words",
      "label": "2f",
      "section": "Fluency",
      "stem": "A fair $6$-sided die has the numbers $1$ to $6$ on it. Decide whether each statement is true or false.",
@@ -59927,6 +60295,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "8g-words",
      "label": "3a",
      "section": "Fluency",
      "stem": "Which event, A to D, is equally likely to this event?",
@@ -59942,6 +60311,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "8g-words",
      "label": "3b",
      "section": "Fluency",
      "stem": "Which event, A to D, is equally likely to this event?",
@@ -59957,6 +60327,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "8g-words",
      "label": "3c",
      "section": "Fluency",
      "stem": "Which event, A to D, is equally likely to this event?",
@@ -59972,6 +60343,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3d",
+     "help": "8g-words",
      "label": "3d",
      "section": "Fluency",
      "stem": "Which event, A to D, is equally likely to this event?",
@@ -59987,6 +60359,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "8g-spinner",
      "label": "4a",
      "section": "Fluency",
      "stem": "This spinner is spun once. (If it lands on a line, it is spun again.) Decide whether each statement is true or false.",
@@ -60011,6 +60384,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "8g-spinner",
      "label": "4b",
      "section": "Fluency",
      "stem": "This spinner is spun once. (If it lands on a line, it is spun again.) Decide whether each statement is true or false.",
@@ -60024,6 +60398,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "8g-spinner",
      "label": "4c",
      "section": "Fluency",
      "stem": "This spinner is spun once. (If it lands on a line, it is spun again.) Decide whether each statement is true or false.",
@@ -60037,6 +60412,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "8g-spinner",
      "label": "4d",
      "section": "Fluency",
      "stem": "This spinner is spun once. (If it lands on a line, it is spun again.) Decide whether each statement is true or false.",
@@ -60050,6 +60426,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4e",
+     "help": "8g-spinner",
      "label": "4e",
      "section": "Fluency",
      "stem": "This spinner is spun once. (If it lands on a line, it is spun again.) Decide whether each statement is true or false.",
@@ -60063,6 +60440,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4f",
+     "help": "8g-spinner",
      "label": "4f",
      "section": "Fluency",
      "stem": "Use the same spinner.",
@@ -60077,6 +60455,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4g",
+     "help": "8g-spinner",
      "label": "4g",
      "section": "Fluency",
      "stem": "Use the same spinner.",
@@ -60091,6 +60470,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4h",
+     "help": "8g-spinner",
      "label": "4h",
      "section": "Fluency",
      "stem": "Use the same spinner.",
@@ -60105,6 +60485,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4i",
+     "help": "8g-spinner",
      "label": "4i",
      "section": "Fluency",
      "stem": "Use the same spinner.",
@@ -60119,6 +60500,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "8g-spinner",
      "label": "5a",
      "section": "Problem-solving",
      "stem": "Three spinners are shown. Which spinner matches the description?",
@@ -60168,6 +60550,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "8g-spinner",
      "label": "5b",
      "section": "Problem-solving",
      "stem": "Three spinners are shown. Which spinner matches the description?",
@@ -60182,6 +60565,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "8g-spinner",
      "label": "5c",
      "section": "Problem-solving",
      "stem": "Three spinners are shown. Which spinner matches the description?",
@@ -60196,6 +60580,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6a",
+     "help": "8g-spinner",
      "label": "6a",
      "section": "Problem-solving",
      "stem": "Which spinner, A, B or C, matches the description?",
@@ -60240,6 +60625,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6b",
+     "help": "8g-spinner",
      "label": "6b",
      "section": "Problem-solving",
      "stem": "Which spinner, A, B or C, matches the description?",
@@ -60281,6 +60667,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6c",
+     "help": "8g-spinner",
      "label": "6c",
      "section": "Problem-solving",
      "stem": "Which spinner, A, B or C, matches the description?",
@@ -60326,6 +60713,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6d",
+     "help": "8g-spinner",
      "label": "6d",
      "section": "Problem-solving",
      "stem": "Which spinner, A, B or C, matches the description?",
@@ -60372,6 +60760,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6e",
+     "help": "8g-spinner",
      "label": "6e",
      "section": "Problem-solving",
      "stem": "Which spinner, A, B or C, matches the description?",
@@ -60417,6 +60806,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6f",
+     "help": "8g-spinner",
      "label": "6f",
      "section": "Problem-solving",
      "stem": "Which spinner, A, B or C, matches the description?",
@@ -60459,6 +60849,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6g",
+     "help": "8g-spinner",
      "label": "6g",
      "section": "Problem-solving",
      "stem": "Which spinner, A, B or C, matches the description?",
@@ -60511,6 +60902,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6h",
+     "help": "8g-spinner",
      "label": "6h",
      "section": "Problem-solving",
      "stem": "Which spinner, A, B or C, matches the description?",
@@ -60559,6 +60951,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7a",
+     "help": "8g-spinner",
      "label": "7a",
      "section": "Problem-solving",
      "stem": "Which description matches this spinner?",
@@ -60581,6 +60974,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7b",
+     "help": "8g-spinner",
      "label": "7b",
      "section": "Problem-solving",
      "stem": "Which description matches this spinner?",
@@ -60604,6 +60998,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7c",
+     "help": "8g-spinner",
      "label": "7c",
      "section": "Problem-solving",
      "stem": "Which description matches this spinner?",
@@ -60627,6 +61022,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7d",
+     "help": "8g-spinner",
      "label": "7d",
      "section": "Problem-solving",
      "stem": "Which description matches this spinner?",
@@ -60647,6 +61043,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7e",
+     "help": "8g-spinner",
      "label": "7e",
      "section": "Problem-solving",
      "stem": "Which description matches this spinner?",
@@ -60672,6 +61069,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7f",
+     "help": "8g-spinner",
      "label": "7f",
      "section": "Problem-solving",
      "stem": "Which description matches this spinner?",
@@ -60693,6 +61091,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8a",
+     "help": "8g-marbles",
      "label": "8a",
      "section": "Reasoning",
      "stem": "A bag contains $6$ green marbles, $6$ purple marbles and $3$ white marbles. One marble is chosen at random.",
@@ -60707,6 +61106,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8b",
+     "help": "8g-marbles",
      "label": "8b",
      "section": "Reasoning",
      "stem": "A marble is chosen and is not put back in the bag. Then a second marble is chosen.",
@@ -60721,6 +61121,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8c",
+     "help": "8g-marbles",
      "label": "8c",
      "section": "Reasoning",
      "stem": "A marble is chosen and is not put back in the bag. Then a second marble is chosen.",
@@ -60735,6 +61136,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8d",
+     "help": "8g-marbles",
      "label": "8d",
      "section": "Reasoning",
      "stem": "A marble is chosen and is not put back in the bag. Then a second marble is chosen.",
@@ -60749,6 +61151,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9a",
+     "help": "8g-equiv",
      "label": "9a",
      "section": "Reasoning",
      "stem": "A coin and a spinner with two equal halves (red and blue) are equivalent: heads is as likely as red, and tails is as likely as blue. In the same way, a die and a spinner are equivalent if every outcome has the same chance on both.",
@@ -60758,6 +61161,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9b",
+     "help": "8g-equiv",
      "label": "9b",
      "section": "Reasoning",
      "stem": "A coin and a spinner with two equal halves (red and blue) are equivalent: heads is as likely as red, and tails is as likely as blue. In the same way, a die and a spinner are equivalent if every outcome has the same chance on both.",
@@ -60768,6 +61172,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9c",
+     "help": "8g-equiv",
      "label": "9c",
      "section": "Reasoning",
      "stem": "A coin and a spinner with two equal halves (red and blue) are equivalent: heads is as likely as red, and tails is as likely as blue. In the same way, a die and a spinner are equivalent if every outcome has the same chance on both.",
@@ -60777,6 +61182,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9d",
+     "help": "8g-equiv",
      "label": "9d",
      "section": "Reasoning",
      "stem": "A coin and a spinner with two equal halves (red and blue) are equivalent: heads is as likely as red, and tails is as likely as blue. In the same way, a die and a spinner are equivalent if every outcome has the same chance on both.",
@@ -60791,6 +61197,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9e",
+     "help": "8g-equiv",
      "label": "9e",
      "section": "Reasoning",
      "stem": "A coin and a spinner with two equal halves (red and blue) are equivalent: heads is as likely as red, and tails is as likely as blue. In the same way, a die and a spinner are equivalent if every outcome has the same chance on both.",
@@ -60800,6 +61207,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10a",
+     "help": "8g-fraction",
      "label": "10a",
      "section": "Enrichment",
      "stem": "In each of these spinners, red is unlikely, but the chance of red is different. What fraction of the spinner is red?",
@@ -60849,6 +61257,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10b",
+     "help": "8g-fraction",
      "label": "10b",
      "section": "Enrichment",
      "stem": "In each of these spinners, red is unlikely, but the chance of red is different. What fraction of the spinner is red?",
@@ -60858,6 +61267,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10c",
+     "help": "8g-fraction",
      "label": "10c",
      "section": "Enrichment",
      "stem": "In each of these spinners, red is unlikely, but the chance of red is different. What fraction of the spinner is red?",
@@ -60867,6 +61277,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10d",
+     "help": "8g-fraction",
      "label": "10d",
      "section": "Enrichment",
      "prompt": "What fraction of a spinner would be red if red had an even chance?",
@@ -60875,6 +61286,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10e",
+     "help": "8g-fraction",
      "label": "10e",
      "section": "Enrichment",
      "stem": "Fill in the gap.",
@@ -60884,6 +61296,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10f",
+     "help": "8g-fraction",
      "label": "10f",
      "section": "Enrichment",
      "stem": "Fill in the gap.",
@@ -60894,6 +61307,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10g",
+     "help": "8g-fraction",
      "label": "10g",
      "section": "Enrichment",
      "stem": "Fill in the gap.",
@@ -60906,6 +61320,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10h",
+     "help": "8g-fraction",
      "label": "10h",
      "section": "Enrichment",
      "stem": "Fill in the gap.",
@@ -60926,6 +61341,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "8h-sample",
      "label": "1a",
      "section": "Fluency",
      "stem": "List the sample space for each experiment.",
@@ -60945,6 +61361,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "8h-sample",
      "label": "1b",
      "section": "Fluency",
      "stem": "List the sample space for each experiment.",
@@ -60961,6 +61378,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1c",
+     "help": "8h-sample",
      "label": "1c",
      "section": "Fluency",
      "stem": "List the sample space for each experiment.",
@@ -60976,6 +61394,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1d",
+     "help": "8h-sample",
      "label": "1d",
      "section": "Fluency",
      "stem": "List the sample space for each experiment.",
@@ -60991,6 +61410,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "8h-sample",
      "label": "2a",
      "section": "Fluency",
      "stem": "A $6$-sided die is rolled. List the favourable outcomes for each event.",
@@ -61005,6 +61425,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "8h-sample",
      "label": "2b",
      "section": "Fluency",
      "stem": "A $6$-sided die is rolled. List the favourable outcomes for each event.",
@@ -61019,6 +61440,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "8h-sample",
      "label": "2c",
      "section": "Fluency",
      "stem": "A $6$-sided die is rolled. List the favourable outcomes for each event.",
@@ -61034,6 +61456,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "8h-sample",
      "label": "2d",
      "section": "Fluency",
      "stem": "A $6$-sided die is rolled. List the favourable outcomes for each event.",
@@ -61048,6 +61471,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "8h-sample",
      "label": "3a",
      "section": "Fluency",
      "stem": "A letter is chosen at random from the word PLANET.",
@@ -61065,6 +61489,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "8h-sample",
      "label": "3b",
      "section": "Fluency",
      "stem": "A letter is chosen at random from the word PLANET.",
@@ -61078,6 +61503,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "8h-sample",
      "label": "3c",
      "section": "Fluency",
      "stem": "A letter is chosen at random from the word PLANET.",
@@ -61093,6 +61519,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3d",
+     "help": "8h-sample",
      "label": "3d",
      "section": "Fluency",
      "stem": "A letter is chosen at random from the word PLANET.",
@@ -61108,6 +61535,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "8h-prob",
      "label": "4a",
      "section": "Fluency",
      "stem": "A fair $8$-sided die, numbered $1$ to $8$, is rolled.",
@@ -61127,6 +61555,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "8h-prob",
      "label": "4b",
      "section": "Fluency",
      "stem": "A fair $8$-sided die, numbered $1$ to $8$, is rolled.",
@@ -61138,6 +61567,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "8h-prob",
      "label": "4c",
      "section": "Fluency",
      "stem": "A fair $8$-sided die, numbered $1$ to $8$, is rolled.",
@@ -61148,6 +61578,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "8h-prob",
      "label": "4d",
      "section": "Fluency",
      "stem": "A fair $8$-sided die, numbered $1$ to $8$, is rolled.",
@@ -61158,6 +61589,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "8h-prob",
      "label": "5a",
      "section": "Fluency",
      "stem": "This spinner is spun once.",
@@ -61176,6 +61608,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "8h-prob",
      "label": "5b",
      "section": "Fluency",
      "stem": "This spinner is spun once.",
@@ -61191,6 +61624,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "8h-prob",
      "label": "5c",
      "section": "Fluency",
      "stem": "This spinner is spun once.",
@@ -61201,6 +61635,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5d",
+     "help": "8h-prob",
      "label": "5d",
      "section": "Fluency",
      "stem": "This spinner is spun once.",
@@ -61210,6 +61645,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5e",
+     "help": "8h-prob",
      "label": "5e",
      "section": "Fluency",
      "stem": "This spinner is spun once.",
@@ -61219,6 +61655,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5f",
+     "help": "8h-prob",
      "label": "5f",
      "section": "Fluency",
      "stem": "This spinner is spun once.",
@@ -61228,6 +61665,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6a",
+     "help": "8h-prob",
      "label": "6a",
      "section": "Fluency",
      "stem": "A spinner with the numbers $1$ to $9$, evenly spaced, is spun.",
@@ -61262,6 +61700,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6b",
+     "help": "8h-prob",
      "label": "6b",
      "section": "Fluency",
      "stem": "A spinner with the numbers $1$ to $9$, evenly spaced, is spun.",
@@ -61272,6 +61711,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6c",
+     "help": "8h-prob",
      "label": "6c",
      "section": "Fluency",
      "stem": "A spinner with the numbers $1$ to $9$, evenly spaced, is spun.",
@@ -61281,6 +61721,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6d",
+     "help": "8h-prob",
      "label": "6d",
      "section": "Fluency",
      "stem": "A spinner with the numbers $1$ to $9$, evenly spaced, is spun.",
@@ -61290,6 +61731,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6e",
+     "help": "8h-prob",
      "label": "6e",
      "section": "Fluency",
      "stem": "A spinner with the numbers $1$ to $9$, evenly spaced, is spun.",
@@ -61299,6 +61741,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6f",
+     "help": "8h-prob",
      "label": "6f",
      "section": "Fluency",
      "stem": "A spinner with the numbers $1$ to $9$, evenly spaced, is spun.",
@@ -61308,6 +61751,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6g",
+     "help": "8h-prob",
      "label": "6g",
      "section": "Fluency",
      "stem": "A spinner with the numbers $1$ to $9$, evenly spaced, is spun.",
@@ -61322,6 +61766,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7a",
+     "help": "8h-prob",
      "label": "7a",
      "section": "Fluency",
      "stem": "The letters of the word BRICK are written on $5$ cards, and one card is drawn from a hat.",
@@ -61338,6 +61783,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7b",
+     "help": "8h-prob",
      "label": "7b",
      "section": "Fluency",
      "stem": "The letters of the word BRICK are written on $5$ cards, and one card is drawn from a hat.",
@@ -61348,6 +61794,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7c",
+     "help": "8h-prob",
      "label": "7c",
      "section": "Fluency",
      "stem": "The letters of the word BRICK are written on $5$ cards, and one card is drawn from a hat.",
@@ -61358,6 +61805,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7d",
+     "help": "8h-prob",
      "label": "7d",
      "section": "Fluency",
      "stem": "The letters of the word BRICK are written on $5$ cards, and one card is drawn from a hat.",
@@ -61368,6 +61816,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8a",
+     "help": "8h-prob",
      "label": "8a",
      "section": "Fluency",
      "stem": "The letters of the word PARALLELOGRAM are written on $13$ cards, and one card is drawn from a hat.",
@@ -61378,6 +61827,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8b",
+     "help": "8h-prob",
      "label": "8b",
      "section": "Fluency",
      "stem": "The letters of the word PARALLELOGRAM are written on $13$ cards, and one card is drawn from a hat.",
@@ -61387,6 +61837,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8c",
+     "help": "8h-prob",
      "label": "8c",
      "section": "Fluency",
      "stem": "The letters of the word PARALLELOGRAM are written on $13$ cards, and one card is drawn from a hat.",
@@ -61396,6 +61847,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8d",
+     "help": "8h-prob",
      "label": "8d",
      "section": "Fluency",
      "stem": "The letters of the word PARALLELOGRAM are written on $13$ cards, and one card is drawn from a hat.",
@@ -61405,6 +61857,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8e",
+     "help": "8h-prob",
      "label": "8e",
      "section": "Fluency",
      "stem": "The letters of the word PARALLELOGRAM are written on $13$ cards, and one card is drawn from a hat.",
@@ -61414,6 +61867,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8f",
+     "help": "8h-prob",
      "label": "8f",
      "section": "Fluency",
      "stem": "The letters of the word PARALLELOGRAM are written on $13$ cards, and one card is drawn from a hat.",
@@ -61428,6 +61882,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9a",
+     "help": "8h-prob",
      "label": "9a",
      "section": "Problem-solving",
      "stem": "A bag contains $7$ yellow marbles, $5$ pink marbles and $8$ white marbles, all the same size and weight. One marble is chosen at random. Give each answer as a percentage.",
@@ -61438,6 +61893,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9b",
+     "help": "8h-prob",
      "label": "9b",
      "section": "Problem-solving",
      "stem": "A bag contains $7$ yellow marbles, $5$ pink marbles and $8$ white marbles, all the same size and weight. One marble is chosen at random. Give each answer as a percentage.",
@@ -61448,6 +61904,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9c",
+     "help": "8h-prob",
      "label": "9c",
      "section": "Problem-solving",
      "stem": "A bag contains $7$ yellow marbles, $5$ pink marbles and $8$ white marbles, all the same size and weight. One marble is chosen at random. Give each answer as a percentage.",
@@ -61458,6 +61915,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10a",
+     "help": "8h-prime",
      "label": "10a",
      "section": "Problem-solving",
      "stem": "This spinner has the numbers $1$ to $10$ in equal sectors. Give each probability as a decimal.",
@@ -61494,6 +61952,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10b",
+     "help": "8h-prime",
      "label": "10b",
      "section": "Problem-solving",
      "stem": "This spinner has the numbers $1$ to $10$ in equal sectors. Give each probability as a decimal.",
@@ -61504,6 +61963,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10c",
+     "help": "8h-prime",
      "label": "10c",
      "section": "Problem-solving",
      "stem": "This spinner has the numbers $1$ to $10$ in equal sectors. Give each probability as a decimal.",
@@ -61514,6 +61974,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10d",
+     "help": "8h-prime",
      "label": "10d",
      "section": "Problem-solving",
      "stem": "This spinner has the numbers $1$ to $10$ in equal sectors. Give each probability as a decimal.",
@@ -61524,6 +61985,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10e",
+     "help": "8h-prime",
      "label": "10e",
      "section": "Problem-solving",
      "stem": "This spinner has the numbers $1$ to $10$ in equal sectors. Give each probability as a decimal.",
@@ -61534,6 +61996,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10f",
+     "help": "8h-prime",
      "label": "10f",
      "section": "Problem-solving",
      "stem": "This spinner has the numbers $1$ to $10$ in equal sectors. Give each probability as a decimal.",
@@ -61548,6 +62011,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11a",
+     "help": "8h-counts",
      "label": "11a",
      "section": "Problem-solving",
      "stem": "A bag contains purple, orange, white and green marbles. You are told that Pr(purple) $= \\frac{1}{3}$, Pr(orange) $= \\frac{1}{4}$ and Pr(white) $= \\frac{1}{6}$. You are not told Pr(green).",
@@ -61563,6 +62027,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11b",
+     "help": "8h-counts",
      "label": "11b",
      "section": "Problem-solving",
      "stem": "A bag contains purple, orange, white and green marbles. You are told that Pr(purple) $= \\frac{1}{3}$, Pr(orange) $= \\frac{1}{4}$ and Pr(white) $= \\frac{1}{6}$. You are not told Pr(green).",
@@ -61572,6 +62037,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11c",
+     "help": "8h-counts",
      "label": "11c",
      "section": "Problem-solving",
      "stem": "A bag contains purple, orange, white and green marbles. You are told that Pr(purple) $= \\frac{1}{3}$, Pr(orange) $= \\frac{1}{4}$ and Pr(white) $= \\frac{1}{6}$. You are not told Pr(green).",
@@ -61587,6 +62053,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11d",
+     "help": "8h-counts",
      "label": "11d",
      "section": "Problem-solving",
      "stem": "A bag contains purple, orange, white and green marbles. You are told that Pr(purple) $= \\frac{1}{3}$, Pr(orange) $= \\frac{1}{4}$ and Pr(white) $= \\frac{1}{6}$. You are not told Pr(green).",
@@ -61596,6 +62063,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11e",
+     "help": "8h-counts",
      "label": "11e",
      "section": "Problem-solving",
      "stem": "A bag contains purple, orange, white and green marbles. You are told that Pr(purple) $= \\frac{1}{3}$, Pr(orange) $= \\frac{1}{4}$ and Pr(white) $= \\frac{1}{6}$. You are not told Pr(green).",
@@ -61605,6 +62073,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11f",
+     "help": "8h-counts",
      "label": "11f",
      "section": "Problem-solving",
      "stem": "A bag contains purple, orange, white and green marbles. You are told that Pr(purple) $= \\frac{1}{3}$, Pr(orange) $= \\frac{1}{4}$ and Pr(white) $= \\frac{1}{6}$. You are not told Pr(green).",
@@ -61618,6 +62087,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12a",
+     "help": "8h-prob",
      "label": "12a",
      "section": "Reasoning",
      "stem": "A spinner has the numbers $1$ to $15$, each equally likely to be spun.",
@@ -61636,6 +62106,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12b",
+     "help": "8h-prob",
      "label": "12b",
      "section": "Reasoning",
      "stem": "A spinner has the numbers $1$ to $15$, each equally likely to be spun.",
@@ -61655,6 +62126,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12c",
+     "help": "8h-prob",
      "label": "12c",
      "section": "Reasoning",
      "stem": "A spinner has the numbers $1$ to $15$, each equally likely to be spun.",
@@ -61668,6 +62140,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12d",
+     "help": "8h-prob",
      "label": "12d",
      "section": "Reasoning",
      "stem": "A spinner has the numbers $1$ to $15$, each equally likely to be spun.",
@@ -61677,6 +62150,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12e",
+     "help": "8h-prob",
      "label": "12e",
      "section": "Reasoning",
      "stem": "A spinner has the numbers $1$ to $15$, each equally likely to be spun.",
@@ -61691,6 +62165,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12f",
+     "help": "8h-prob",
      "label": "12f",
      "section": "Reasoning",
      "stem": "A spinner has the numbers $1$ to $15$, each equally likely to be spun.",
@@ -61700,6 +62175,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12g",
+     "help": "8h-prob",
      "label": "12g",
      "section": "Reasoning",
      "stem": "A spinner has the numbers $1$ to $15$, each equally likely to be spun.",
@@ -61714,6 +62190,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13a",
+     "help": "8h-complement",
      "label": "13a",
      "section": "Reasoning",
      "stem": "A die is rolled, a coin is tossed, and a letter is chosen at random from the word CHAIR. In the table, Pr(does not) is the probability that the event does not happen. Find the value of each letter.",
@@ -61759,6 +62236,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13b",
+     "help": "8h-complement",
      "label": "13b",
      "section": "Reasoning",
      "stem": "A die is rolled, a coin is tossed, and a letter is chosen at random from the word CHAIR. In the table, Pr(does not) is the probability that the event does not happen. Find the value of each letter.",
@@ -61768,6 +62246,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13c",
+     "help": "8h-complement",
      "label": "13c",
      "section": "Reasoning",
      "stem": "A die is rolled, a coin is tossed, and a letter is chosen at random from the word CHAIR. In the table, Pr(does not) is the probability that the event does not happen. Find the value of each letter.",
@@ -61777,6 +62256,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13d",
+     "help": "8h-complement",
      "label": "13d",
      "section": "Reasoning",
      "stem": "A die is rolled, a coin is tossed, and a letter is chosen at random from the word CHAIR. In the table, Pr(does not) is the probability that the event does not happen. Find the value of each letter.",
@@ -61786,6 +62266,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13e",
+     "help": "8h-complement",
      "label": "13e",
      "section": "Reasoning",
      "stem": "A die is rolled, a coin is tossed, and a letter is chosen at random from the word CHAIR. In the table, Pr(does not) is the probability that the event does not happen. Find the value of each letter.",
@@ -61795,6 +62276,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13f",
+     "help": "8h-complement",
      "label": "13f",
      "section": "Reasoning",
      "stem": "A die is rolled, a coin is tossed, and a letter is chosen at random from the word CHAIR. In the table, Pr(does not) is the probability that the event does not happen. Find the value of each letter.",
@@ -61804,6 +62286,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13g",
+     "help": "8h-complement",
      "label": "13g",
      "section": "Reasoning",
      "stem": "A die is rolled, a coin is tossed, and a letter is chosen at random from the word CHAIR. In the table, Pr(does not) is the probability that the event does not happen. Find the value of each letter.",
@@ -61813,6 +62296,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13h",
+     "help": "8h-complement",
      "label": "13h",
      "section": "Reasoning",
      "stem": "A die is rolled, a coin is tossed, and a letter is chosen at random from the word CHAIR. In the table, Pr(does not) is the probability that the event does not happen. Find the value of each letter.",
@@ -61822,6 +62306,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13i",
+     "help": "8h-complement",
      "label": "13i",
      "section": "Reasoning",
      "prompt": "The probability of choosing a vowel from a particular word is $\\frac{5}{17}$. What is the probability of choosing a consonant?",
@@ -61830,6 +62315,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13j",
+     "help": "8h-complement",
      "label": "13j",
      "section": "Reasoning",
      "prompt": "The probability of spinning blue on a particular spinner is $\\frac{3}{8}$. What is the probability of spinning a colour other than blue?",
@@ -61838,6 +62324,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14a",
+     "help": "8h-counts",
      "label": "14a",
      "section": "Reasoning",
      "stem": "A box contains coloured counters that are all the same size and shape. One counter is drawn, with Pr(pink) $= 20\\%$, Pr(yellow) $= \\frac{1}{3}$ and Pr(orange) $= \\frac{1}{4}$.",
@@ -61851,6 +62338,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14b",
+     "help": "8h-counts",
      "label": "14b",
      "section": "Reasoning",
      "stem": "A box contains coloured counters that are all the same size and shape. One counter is drawn, with Pr(pink) $= 20\\%$, Pr(yellow) $= \\frac{1}{3}$ and Pr(orange) $= \\frac{1}{4}$.",
@@ -61860,6 +62348,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14c",
+     "help": "8h-counts",
      "label": "14c",
      "section": "Reasoning",
      "stem": "A box contains coloured counters that are all the same size and shape. One counter is drawn, with Pr(pink) $= 20\\%$, Pr(yellow) $= \\frac{1}{3}$ and Pr(orange) $= \\frac{1}{4}$.",
@@ -61869,6 +62358,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14d",
+     "help": "8h-counts",
      "label": "14d",
      "section": "Reasoning",
      "stem": "A box contains coloured counters that are all the same size and shape. One counter is drawn, with Pr(pink) $= 20\\%$, Pr(yellow) $= \\frac{1}{3}$ and Pr(orange) $= \\frac{1}{4}$.",
@@ -61878,6 +62368,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15a",
+     "help": "8h-possible",
      "label": "15a",
      "section": "Enrichment",
      "stem": "A spinner is to be made using only red, green and blue sectors. Is it possible to get these probabilities?",
@@ -61892,6 +62383,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15b",
+     "help": "8h-possible",
      "label": "15b",
      "section": "Enrichment",
      "stem": "A spinner is to be made using only red, green and blue sectors. Is it possible to get these probabilities?",
@@ -61906,6 +62398,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15c",
+     "help": "8h-possible",
      "label": "15c",
      "section": "Enrichment",
      "stem": "A spinner is to be made using only red, green and blue sectors. Is it possible to get these probabilities?",
@@ -61920,6 +62413,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15d",
+     "help": "8h-possible",
      "label": "15d",
      "section": "Enrichment",
      "stem": "A spinner is to be made using only red, green and blue sectors. Is it possible to get these probabilities?",
@@ -61934,6 +62428,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15e",
+     "help": "8h-possible",
      "label": "15e",
      "section": "Enrichment",
      "prompt": "If Pr(red) $= r$ and Pr(green) $= g$, write an expression for Pr(blue) using $r$ and $g$.",
@@ -61950,6 +62445,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "8i-exp",
      "label": "1a",
      "section": "Fluency",
      "stem": "A spinner with the numbers $1$ to $5$ is spun, and these numbers come up: $3, 1, 4, 4, 2, 5, 1, 3, 4, 2, 4, 5, 1, 4, 3$",
@@ -61960,6 +62456,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "8i-exp",
      "label": "1b",
      "section": "Fluency",
      "stem": "A spinner with the numbers $1$ to $5$ is spun, and these numbers come up: $3, 1, 4, 4, 2, 5, 1, 3, 4, 2, 4, 5, 1, 4, 3$",
@@ -61969,6 +62466,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1c",
+     "help": "8i-exp",
      "label": "1c",
      "section": "Fluency",
      "stem": "A spinner with the numbers $1$ to $5$ is spun, and these numbers come up: $3, 1, 4, 4, 2, 5, 1, 3, 4, 2, 4, 5, 1, 4, 3$",
@@ -61978,6 +62476,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "8i-exp",
      "label": "2a",
      "section": "Fluency",
      "stem": "Some students were asked how many minutes it takes them to get to school.",
@@ -62008,6 +62507,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "8i-exp",
      "label": "2b",
      "section": "Fluency",
      "stem": "Some students were asked how many minutes it takes them to get to school.",
@@ -62018,6 +62518,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "8i-exp",
      "label": "2c",
      "section": "Fluency",
      "stem": "Some students were asked how many minutes it takes them to get to school.",
@@ -62027,6 +62528,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "8i-exp",
      "label": "2d",
      "section": "Fluency",
      "stem": "Some students were asked how many minutes it takes them to get to school.",
@@ -62036,6 +62538,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2e",
+     "help": "8i-exp",
      "label": "2e",
      "section": "Fluency",
      "stem": "Some students were asked how many minutes it takes them to get to school.",
@@ -62049,6 +62552,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "8i-expect",
      "label": "3a",
      "section": "Fluency",
      "stem": "A fair coin is flipped.",
@@ -62058,6 +62562,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "8i-expect",
      "label": "3b",
      "section": "Fluency",
      "stem": "A fair coin is flipped.",
@@ -62067,6 +62572,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "8i-expect",
      "label": "3c",
      "section": "Fluency",
      "stem": "A fair coin is flipped.",
@@ -62076,6 +62582,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3d",
+     "help": "8i-expect",
      "label": "3d",
      "section": "Fluency",
      "stem": "A fair coin is flipped.",
@@ -62089,6 +62596,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "8i-expect",
      "label": "4a",
      "section": "Fluency",
      "stem": "A fair $6$-sided die is rolled.",
@@ -62098,6 +62606,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "8i-expect",
      "label": "4b",
      "section": "Fluency",
      "stem": "A fair $6$-sided die is rolled.",
@@ -62107,6 +62616,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "8i-expect",
      "label": "4c",
      "section": "Fluency",
      "stem": "A fair $6$-sided die is rolled.",
@@ -62120,6 +62630,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "8i-expect",
      "label": "4d",
      "section": "Fluency",
      "stem": "A fair $6$-sided die is rolled.",
@@ -62133,6 +62644,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "8i-sim",
      "label": "5a",
      "section": "Fluency",
      "stem": "A netball player has a $5$ in $6$ chance of scoring each shot. Ben simulates her shots by rolling a die: $1$ to $5$ means the shot goes in and $6$ means it misses. His $12$ rolls are: $2, 6, 1, 5, 3, 4, 6, 2, 1, 5, 3, 6$",
@@ -62142,6 +62654,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "8i-sim",
      "label": "5b",
      "section": "Fluency",
      "stem": "A netball player has a $5$ in $6$ chance of scoring each shot. Ben simulates her shots by rolling a die: $1$ to $5$ means the shot goes in and $6$ means it misses. His $12$ rolls are: $2, 6, 1, 5, 3, 4, 6, 2, 1, 5, 3, 6$",
@@ -62151,6 +62664,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "8i-sim",
      "label": "5c",
      "section": "Fluency",
      "stem": "A netball player has a $5$ in $6$ chance of scoring each shot. Ben simulates her shots by rolling a die: $1$ to $5$ means the shot goes in and $6$ means it misses. His $12$ rolls are: $2, 6, 1, 5, 3, 4, 6, 2, 1, 5, 3, 6$",
@@ -62166,6 +62680,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6a",
+     "help": "8i-exp",
      "label": "6a",
      "section": "Fluency",
      "stem": "The colours of the bikes in a school bike rack are recorded.",
@@ -62199,6 +62714,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6b",
+     "help": "8i-exp",
      "label": "6b",
      "section": "Fluency",
      "stem": "The colours of the bikes in a school bike rack are recorded.",
@@ -62208,6 +62724,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6c",
+     "help": "8i-exp",
      "label": "6c",
      "section": "Fluency",
      "stem": "The colours of the bikes in a school bike rack are recorded.",
@@ -62217,6 +62734,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6d",
+     "help": "8i-exp",
      "label": "6d",
      "section": "Fluency",
      "stem": "The colours of the bikes in a school bike rack are recorded.",
@@ -62226,6 +62744,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7a",
+     "help": "8i-exp",
      "label": "7a",
      "section": "Fluency",
      "stem": "The number of pets in some households is recorded in the table.",
@@ -62256,6 +62775,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7b",
+     "help": "8i-exp",
      "label": "7b",
      "section": "Fluency",
      "stem": "The number of pets in some households is recorded in the table.",
@@ -62265,6 +62785,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7c",
+     "help": "8i-exp",
      "label": "7c",
      "section": "Fluency",
      "stem": "The number of pets in some households is recorded in the table.",
@@ -62274,6 +62795,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7d",
+     "help": "8i-exp",
      "label": "7d",
      "section": "Fluency",
      "stem": "The number of pets in some households is recorded in the table.",
@@ -62283,6 +62805,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7e",
+     "help": "8i-exp",
      "label": "7e",
      "section": "Fluency",
      "stem": "The number of pets in some households is recorded in the table.",
@@ -62292,6 +62815,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7f",
+     "help": "8i-exp",
      "label": "7f",
      "section": "Fluency",
      "stem": "The number of pets in some households is recorded in the table.",
@@ -62301,6 +62825,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8a",
+     "help": "8i-bag",
      "label": "8a",
      "section": "Problem-solving",
      "stem": "A bag holds $10$ counters of different colours. A counter is chosen at random, its colour is recorded, and it is put back. This is done $100$ times, with the results in the table.",
@@ -62332,6 +62857,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8b",
+     "help": "8i-bag",
      "label": "8b",
      "section": "Problem-solving",
      "stem": "Could the $10$ counters in the bag be these colours?",
@@ -62345,6 +62871,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8c",
+     "help": "8i-bag",
      "label": "8c",
      "section": "Problem-solving",
      "stem": "Could the $10$ counters in the bag be these colours?",
@@ -62358,6 +62885,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8d",
+     "help": "8i-bag",
      "label": "8d",
      "section": "Problem-solving",
      "stem": "Could the $10$ counters in the bag be these colours?",
@@ -62371,6 +62899,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8e",
+     "help": "8i-bag",
      "label": "8e",
      "section": "Problem-solving",
      "stem": "Could the $10$ counters in the bag be these colours?",
@@ -62384,6 +62913,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8f",
+     "help": "8i-bag",
      "label": "8f",
      "section": "Problem-solving",
      "stem": "Could the $10$ counters in the bag be these colours?",
@@ -62397,6 +62927,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9a",
+     "help": "8i-bag",
      "label": "9a",
      "section": "Problem-solving",
      "stem": "Each spinner A to D was spun $100$ times. Which spinner most likely gave these results?",
@@ -62486,6 +63017,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9b",
+     "help": "8i-bag",
      "label": "9b",
      "section": "Problem-solving",
      "stem": "Each spinner A to D was spun $100$ times. Which spinner most likely gave these results?",
@@ -62501,6 +63033,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9c",
+     "help": "8i-bag",
      "label": "9c",
      "section": "Problem-solving",
      "stem": "Each spinner A to D was spun $100$ times. Which spinner most likely gave these results?",
@@ -62516,6 +63049,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9d",
+     "help": "8i-bag",
      "label": "9d",
      "section": "Problem-solving",
      "stem": "Each spinner A to D was spun $100$ times. Which spinner most likely gave these results?",
@@ -62531,6 +63065,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10a",
+     "help": "8i-sim",
      "label": "10a",
      "section": "Reasoning",
      "stem": "Ava throws a ball and her dog Biscuit tries to catch it. Each throw has a $50\\%$ chance of being caught. They do 4 throws in a row. Ava simulates this by flipping a coin 4 times (heads means a catch) and counts the catches. She does this $20$ times. Her results are in the table.",
@@ -62564,6 +63099,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10b",
+     "help": "8i-sim",
      "label": "10b",
      "section": "Reasoning",
      "stem": "Ava throws a ball and her dog Biscuit tries to catch it. Each throw has a $50\\%$ chance of being caught. They do 4 throws in a row. Ava simulates this by flipping a coin 4 times (heads means a catch) and counts the catches. She does this $20$ times. Her results are in the table.",
@@ -62573,6 +63109,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10c",
+     "help": "8i-sim",
      "label": "10c",
      "section": "Reasoning",
      "stem": "Ava throws a ball and her dog Biscuit tries to catch it. Each throw has a $50\\%$ chance of being caught. They do 4 throws in a row. Ava simulates this by flipping a coin 4 times (heads means a catch) and counts the catches. She does this $20$ times. Her results are in the table.",
@@ -62582,6 +63119,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10d",
+     "help": "8i-sim",
      "label": "10d",
      "section": "Reasoning",
      "stem": "Ava throws a ball and her dog Biscuit tries to catch it. Each throw has a $50\\%$ chance of being caught. They do 4 throws in a row. Ava simulates this by flipping a coin 4 times (heads means a catch) and counts the catches. She does this $20$ times. Her results are in the table.",
@@ -62596,6 +63134,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10e",
+     "help": "8i-sim",
      "label": "10e",
      "section": "Reasoning",
      "stem": "Ava throws a ball and her dog Biscuit tries to catch it. Each throw has a $50\\%$ chance of being caught. They do 4 throws in a row. Ava simulates this by flipping a coin 4 times (heads means a catch) and counts the catches. She does this $20$ times. Her results are in the table.",
@@ -62610,6 +63149,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11a",
+     "help": "8i-theory",
      "label": "11a",
      "section": "Reasoning",
      "stem": "Decide whether each statement is true or false.",
@@ -62623,6 +63163,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11b",
+     "help": "8i-theory",
      "label": "11b",
      "section": "Reasoning",
      "stem": "Decide whether each statement is true or false.",
@@ -62636,6 +63177,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11c",
+     "help": "8i-theory",
      "label": "11c",
      "section": "Reasoning",
      "stem": "Decide whether each statement is true or false.",
@@ -62649,6 +63191,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11d",
+     "help": "8i-theory",
      "label": "11d",
      "section": "Reasoning",
      "stem": "Decide whether each statement is true or false.",
@@ -62662,6 +63205,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11e",
+     "help": "8i-theory",
      "label": "11e",
      "section": "Reasoning",
      "stem": "Decide whether each statement is true or false.",
@@ -62675,6 +63219,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11f",
+     "help": "8i-theory",
      "label": "11f",
      "section": "Reasoning",
      "stem": "Decide whether each statement is true or false.",
@@ -62688,6 +63233,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12a",
+     "help": "8i-combine",
      "label": "12a",
      "section": "Enrichment",
      "stem": "A spinner is spun $500$ times. The table shows the results for each set of $100$ spins.",
@@ -62738,6 +63284,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12b",
+     "help": "8i-combine",
      "label": "12b",
      "section": "Enrichment",
      "stem": "A spinner is spun $500$ times. The table shows the results for each set of $100$ spins.",
@@ -62747,6 +63294,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12c",
+     "help": "8i-combine",
      "label": "12c",
      "section": "Enrichment",
      "stem": "A spinner is spun $500$ times. The table shows the results for each set of $100$ spins.",
@@ -62756,6 +63304,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12d",
+     "help": "8i-combine",
      "label": "12d",
      "section": "Enrichment",
      "stem": "A spinner is spun $500$ times. The table shows the results for each set of $100$ spins.",
@@ -62772,6 +63321,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12e",
+     "help": "8i-combine",
      "label": "12e",
      "section": "Enrichment",
      "stem": "A spinner is spun $500$ times. The table shows the results for each set of $100$ spins.",
@@ -62794,6 +63344,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "10a-units",
      "label": "1a",
      "section": "Fluency",
      "stem": "Which metric unit would be the most appropriate for measuring the following?",
@@ -62809,6 +63360,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "10a-units",
      "label": "1b",
      "section": "Fluency",
      "stem": "Which metric unit would be the most appropriate for measuring the following?",
@@ -62824,6 +63376,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1c",
+     "help": "10a-units",
      "label": "1c",
      "section": "Fluency",
      "stem": "Which metric unit would be the most appropriate for measuring the following?",
@@ -62839,6 +63392,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1d",
+     "help": "10a-units",
      "label": "1d",
      "section": "Fluency",
      "stem": "Which metric unit would be the most appropriate for measuring the following?",
@@ -62854,6 +63408,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1e",
+     "help": "10a-units",
      "label": "1e",
      "section": "Fluency",
      "stem": "Which metric unit would be the most appropriate for measuring the following?",
@@ -62869,6 +63424,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1f",
+     "help": "10a-units",
      "label": "1f",
      "section": "Fluency",
      "stem": "Which metric unit would be the most appropriate for measuring the following?",
@@ -62884,6 +63440,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "10a-units",
      "label": "2a",
      "section": "Fluency",
      "stem": "Choose the most suitable metric unit for measuring each real-life length.",
@@ -62899,6 +63456,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "10a-units",
      "label": "2b",
      "section": "Fluency",
      "stem": "Choose the most suitable metric unit for measuring each real-life length.",
@@ -62914,6 +63472,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "10a-units",
      "label": "2c",
      "section": "Fluency",
      "stem": "Choose the most suitable metric unit for measuring each real-life length.",
@@ -62929,6 +63488,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "10a-units",
      "label": "2d",
      "section": "Fluency",
      "stem": "Choose the most suitable metric unit for measuring each real-life length.",
@@ -62944,6 +63504,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2e",
+     "help": "10a-units",
      "label": "2e",
      "section": "Fluency",
      "stem": "Choose the most suitable metric unit for measuring each real-life length.",
@@ -62959,6 +63520,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2f",
+     "help": "10a-units",
      "label": "2f",
      "section": "Fluency",
      "stem": "Choose the most suitable metric unit for measuring each real-life length.",
@@ -62974,6 +63536,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "10a-convert",
      "label": "3a",
      "section": "Fluency",
      "stem": "Convert to the units given in the brackets.",
@@ -62984,6 +63547,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "10a-convert",
      "label": "3b",
      "section": "Fluency",
      "stem": "Convert to the units given in the brackets.",
@@ -62994,6 +63558,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "10a-convert",
      "label": "3c",
      "section": "Fluency",
      "stem": "Convert to the units given in the brackets.",
@@ -63004,6 +63569,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3d",
+     "help": "10a-convert",
      "label": "3d",
      "section": "Fluency",
      "stem": "Convert to the units given in the brackets.",
@@ -63014,6 +63580,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "10a-convert",
      "label": "4a",
      "section": "Fluency",
      "stem": "Convert these measurements to the units shown in brackets.",
@@ -63024,6 +63591,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "10a-convert",
      "label": "4b",
      "section": "Fluency",
      "stem": "Convert these measurements to the units shown in brackets.",
@@ -63034,6 +63602,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "10a-convert",
      "label": "4c",
      "section": "Fluency",
      "stem": "Convert these measurements to the units shown in brackets.",
@@ -63044,6 +63613,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "10a-convert",
      "label": "4d",
      "section": "Fluency",
      "stem": "Convert these measurements to the units shown in brackets.",
@@ -63054,6 +63624,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4e",
+     "help": "10a-convert",
      "label": "4e",
      "section": "Fluency",
      "stem": "Convert these measurements to the units shown in brackets.",
@@ -63064,6 +63635,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4f",
+     "help": "10a-convert",
      "label": "4f",
      "section": "Fluency",
      "stem": "Convert these measurements to the units shown in brackets.",
@@ -63074,6 +63646,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4g",
+     "help": "10a-convert",
      "label": "4g",
      "section": "Fluency",
      "stem": "Convert these measurements to the units shown in brackets.",
@@ -63084,6 +63657,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4h",
+     "help": "10a-convert",
      "label": "4h",
      "section": "Fluency",
      "stem": "Convert these measurements to the units shown in brackets.",
@@ -63094,6 +63668,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4i",
+     "help": "10a-convert",
      "label": "4i",
      "section": "Fluency",
      "stem": "Convert these measurements to the units shown in brackets.",
@@ -63104,6 +63679,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4j",
+     "help": "10a-convert",
      "label": "4j",
      "section": "Fluency",
      "stem": "Convert these measurements to the units shown in brackets.",
@@ -63114,6 +63690,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4k",
+     "help": "10a-convert",
      "label": "4k",
      "section": "Fluency",
      "stem": "Convert these measurements to the units shown in brackets.",
@@ -63124,6 +63701,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4l",
+     "help": "10a-convert",
      "label": "4l",
      "section": "Fluency",
      "stem": "Convert these measurements to the units shown in brackets.",
@@ -63134,6 +63712,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "10a-addsub",
      "label": "5a",
      "section": "Fluency",
      "stem": "Add these lengths together and give the result in the units shown in brackets.",
@@ -63144,6 +63723,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "10a-addsub",
      "label": "5b",
      "section": "Fluency",
      "stem": "Add these lengths together and give the result in the units shown in brackets.",
@@ -63154,6 +63734,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "10a-addsub",
      "label": "5c",
      "section": "Fluency",
      "stem": "Add these lengths together and give the result in the units shown in brackets.",
@@ -63164,6 +63745,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5d",
+     "help": "10a-addsub",
      "label": "5d",
      "section": "Fluency",
      "stem": "Add these lengths together and give the result in the units shown in brackets.",
@@ -63174,6 +63756,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5e",
+     "help": "10a-addsub",
      "label": "5e",
      "section": "Fluency",
      "stem": "Add these lengths together and give the result in the units shown in brackets.",
@@ -63184,6 +63767,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5f",
+     "help": "10a-addsub",
      "label": "5f",
      "section": "Fluency",
      "stem": "Add these lengths together and give the result in the units shown in brackets.",
@@ -63194,6 +63778,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6a",
+     "help": "10a-convert-2",
      "label": "6a",
      "section": "Fluency",
      "stem": "Convert to the units shown in the brackets.",
@@ -63204,6 +63789,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6b",
+     "help": "10a-convert-2",
      "label": "6b",
      "section": "Fluency",
      "stem": "Convert to the units shown in the brackets.",
@@ -63215,6 +63801,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6c",
+     "help": "10a-convert-2",
      "label": "6c",
      "section": "Fluency",
      "stem": "Convert to the units shown in the brackets.",
@@ -63225,6 +63812,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6d",
+     "help": "10a-convert-2",
      "label": "6d",
      "section": "Fluency",
      "stem": "Convert to the units shown in the brackets.",
@@ -63235,6 +63823,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6e",
+     "help": "10a-convert-2",
      "label": "6e",
      "section": "Fluency",
      "stem": "Convert to the units shown in the brackets.",
@@ -63245,6 +63834,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6f",
+     "help": "10a-convert-2",
      "label": "6f",
      "section": "Fluency",
      "stem": "Convert to the units shown in the brackets.",
@@ -63255,6 +63845,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6g",
+     "help": "10a-convert-2",
      "label": "6g",
      "section": "Fluency",
      "stem": "Convert to the units shown in the brackets.",
@@ -63265,6 +63856,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6h",
+     "help": "10a-convert-2",
      "label": "6h",
      "section": "Fluency",
      "stem": "Convert to the units shown in the brackets.",
@@ -63275,6 +63867,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6i",
+     "help": "10a-convert-2",
      "label": "6i",
      "section": "Fluency",
      "stem": "Convert to the units shown in the brackets.",
@@ -63286,6 +63879,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7a",
+     "help": "10a-ruler",
      "label": "7a",
      "section": "Fluency",
      "stem": "These rulers show centimetres with millimetre divisions. Read the scale to measure the marked length, in the unit asked for.",
@@ -63609,6 +64203,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7b",
+     "help": "10a-ruler",
      "label": "7b",
      "section": "Fluency",
      "stem": "These rulers show centimetres with millimetre divisions. Read the scale to measure the marked length, in the unit asked for.",
@@ -64161,6 +64756,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7c",
+     "help": "10a-ruler",
      "label": "7c",
      "section": "Fluency",
      "stem": "These rulers show centimetres with millimetre divisions. Read the scale to measure the marked length, in the unit asked for.",
@@ -64444,6 +65040,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7d",
+     "help": "10a-ruler",
      "label": "7d",
      "section": "Fluency",
      "stem": "These rulers show centimetres with millimetre divisions. Read the scale to measure the marked length, in the unit asked for.",
@@ -64854,6 +65451,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7e",
+     "help": "10a-ruler",
      "label": "7e",
      "section": "Fluency",
      "stem": "These rulers show centimetres with millimetre divisions. Read the scale to measure the marked length, in the unit asked for.",
@@ -65351,6 +65949,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7f",
+     "help": "10a-ruler",
      "label": "7f",
      "section": "Fluency",
      "stem": "These rulers show centimetres with millimetre divisions. Read the scale to measure the marked length, in the unit asked for.",
@@ -65903,6 +66502,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7g",
+     "help": "10a-ruler",
      "label": "7g",
      "section": "Fluency",
      "stem": "These rulers show centimetres with millimetre divisions. Read the scale to measure the marked length, in the unit asked for.",
@@ -66313,6 +66913,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7h",
+     "help": "10a-ruler",
      "label": "7h",
      "section": "Fluency",
      "stem": "These rulers show centimetres with millimetre divisions. Read the scale to measure the marked length, in the unit asked for.",
@@ -66810,6 +67411,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8a",
+     "help": "10a-ruler",
      "label": "8a",
      "section": "Fluency",
      "stem": "Read the scale on these tape measures. Be careful with the units given!",
@@ -67212,6 +67814,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8b",
+     "help": "10a-ruler",
      "label": "8b",
      "section": "Fluency",
      "stem": "Read the scale on these tape measures. Be careful with the units given!",
@@ -67527,6 +68130,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9a",
+     "help": "10a-addsub",
      "label": "9a",
      "section": "Fluency",
      "stem": "Use subtraction to find the difference between the measurements, and give your answer with the units shown in brackets.",
@@ -67537,6 +68141,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9b",
+     "help": "10a-addsub",
      "label": "9b",
      "section": "Fluency",
      "stem": "Use subtraction to find the difference between the measurements, and give your answer with the units shown in brackets.",
@@ -67547,6 +68152,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9c",
+     "help": "10a-addsub",
      "label": "9c",
      "section": "Fluency",
      "stem": "Use subtraction to find the difference between the measurements, and give your answer with the units shown in brackets.",
@@ -67557,6 +68163,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10a",
+     "help": "10a-order",
      "label": "10a",
      "section": "Problem-solving",
      "stem": "Arrange these measurements from smallest to largest.",
@@ -67571,6 +68178,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10b",
+     "help": "10a-order",
      "label": "10b",
      "section": "Problem-solving",
      "stem": "Arrange these measurements from smallest to largest.",
@@ -67585,6 +68193,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10c",
+     "help": "10a-order",
      "label": "10c",
      "section": "Problem-solving",
      "stem": "Arrange these measurements from smallest to largest.",
@@ -67599,6 +68208,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10d",
+     "help": "10a-order",
      "label": "10d",
      "section": "Problem-solving",
      "stem": "Arrange these measurements from smallest to largest.",
@@ -67613,6 +68223,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11",
+     "help": "10a-addsub",
      "label": "11",
      "section": "Problem-solving",
      "prompt": "Mia widens a $0.9$ m gate by $150$ mm. What is the new width of the gate, in centimetres?",
@@ -67622,6 +68233,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12",
+     "help": "10a-order",
      "label": "12",
      "section": "Problem-solving",
      "prompt": "Three architects each plan to build the world's next tallest tower. The Aurora tower is to be $1.08$ km tall, the Zenith tower is to be $112\\,500$ cm tall and the Summit tower is to be $1095$ m tall. Which tower will be the tallest?",
@@ -67635,6 +68247,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13a",
+     "help": "10a-rate",
      "label": "13a",
      "section": "Problem-solving",
      "stem": "Rope costs $\\$6.40$ per metre. How much does it cost to buy rope of the following lengths?",
@@ -67645,6 +68258,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13b",
+     "help": "10a-rate",
      "label": "13b",
      "section": "Problem-solving",
      "stem": "Rope costs $\\$6.40$ per metre. How much does it cost to buy rope of the following lengths?",
@@ -67655,6 +68269,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13c",
+     "help": "10a-rate",
      "label": "13c",
      "section": "Problem-solving",
      "stem": "Rope costs $\\$6.40$ per metre. How much does it cost to buy rope of the following lengths?",
@@ -67665,6 +68280,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14",
+     "help": "10a-rate",
      "label": "14",
      "section": "Problem-solving",
      "prompt": "A shed is $18$ metres from the edge of a riverbank. The bank is wearing away at a rate of $30$ mm per year. How many years will pass before the river reaches the shed?",
@@ -67674,6 +68290,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15",
+     "help": "10a-rate",
      "label": "15",
      "section": "Problem-solving",
      "prompt": "A glacier slides downhill at a rate of about $20$ cm per year. How many years will it take to move $3$ km?",
@@ -67683,6 +68300,7 @@ window.H3_BANK = {
     },
     {
      "id": "q16",
+     "help": "10a-rate",
      "label": "16",
      "section": "Problem-solving",
      "prompt": "A pack of $200$ sheets of card is $5$ cm thick. How thick is $1$ sheet of card, in millimetres?",
@@ -67692,6 +68310,7 @@ window.H3_BANK = {
     },
     {
      "id": "q17",
+     "help": "10a-rate",
      "label": "17",
      "section": "Problem-solving",
      "prompt": "A slug crawls $3$ mm every $4$ seconds. How long will it take to crawl $1.5$ m? Give your answer in seconds.",
@@ -67701,6 +68320,7 @@ window.H3_BANK = {
     },
     {
      "id": "q18a",
+     "help": "10a-factor",
      "label": "18a",
      "section": "Reasoning",
      "stem": "Think about the conversion chart for km, m, cm and mm. What number do you multiply or divide by to convert:",
@@ -67710,6 +68330,7 @@ window.H3_BANK = {
     },
     {
      "id": "q18b",
+     "help": "10a-factor",
      "label": "18b",
      "section": "Reasoning",
      "stem": "Think about the conversion chart for km, m, cm and mm. What number do you multiply or divide by to convert:",
@@ -67719,6 +68340,7 @@ window.H3_BANK = {
     },
     {
      "id": "q18c",
+     "help": "10a-factor",
      "label": "18c",
      "section": "Reasoning",
      "stem": "Think about the conversion chart for km, m, cm and mm. What number do you multiply or divide by to convert:",
@@ -67728,6 +68350,7 @@ window.H3_BANK = {
     },
     {
      "id": "q18d",
+     "help": "10a-factor",
      "label": "18d",
      "section": "Reasoning",
      "stem": "Think about the conversion chart for km, m, cm and mm. What number do you multiply or divide by to convert:",
@@ -67738,6 +68361,7 @@ window.H3_BANK = {
     },
     {
      "id": "q18e",
+     "help": "10a-factor",
      "label": "18e",
      "section": "Reasoning",
      "stem": "Think about the conversion chart for km, m, cm and mm. What number do you multiply or divide by to convert:",
@@ -67747,6 +68371,7 @@ window.H3_BANK = {
     },
     {
      "id": "q20a",
+     "help": "10a-factor",
      "label": "20a",
      "section": "Enrichment",
      "stem": "When $1$ metre is divided into $1$ million equal parts, each part is called a micrometre ($\\mu$m). How many micrometres are there in:",
@@ -67758,6 +68383,7 @@ window.H3_BANK = {
     },
     {
      "id": "q20b",
+     "help": "10a-factor",
      "label": "20b",
      "section": "Enrichment",
      "stem": "When $1$ metre is divided into $1$ million equal parts, each part is called a micrometre ($\\mu$m). How many micrometres are there in:",
@@ -67768,6 +68394,7 @@ window.H3_BANK = {
     },
     {
      "id": "q20c",
+     "help": "10a-factor",
      "label": "20c",
      "section": "Enrichment",
      "stem": "When $1$ metre is divided into $1$ million equal parts, each part is called a micrometre ($\\mu$m). How many micrometres are there in:",
@@ -67778,6 +68405,7 @@ window.H3_BANK = {
     },
     {
      "id": "q20d",
+     "help": "10a-factor",
      "label": "20d",
      "section": "Enrichment",
      "stem": "When $1$ metre is divided into $1$ million equal parts, each part is called a micrometre ($\\mu$m). How many micrometres are there in:",
@@ -67788,6 +68416,7 @@ window.H3_BANK = {
     },
     {
      "id": "q20e",
+     "help": "10a-factor",
      "label": "20e",
      "section": "Enrichment",
      "prompt": "A bacterium is $0.00175$ mm wide. How many micrometres is this?",
@@ -67805,6 +68434,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "10b-perimeter",
      "label": "1a",
      "section": "Fluency",
      "stem": "Find the perimeter of each of the shapes.",
@@ -67871,6 +68501,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "10b-perimeter",
      "label": "1b",
      "section": "Fluency",
      "stem": "Find the perimeter of each of the shapes.",
@@ -67937,6 +68568,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "10b-perimeter",
      "label": "2a",
      "section": "Fluency",
      "stem": "Find the perimeter of these shapes.",
@@ -67993,6 +68625,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "10b-perimeter",
      "label": "2b",
      "section": "Fluency",
      "stem": "Find the perimeter of these shapes.",
@@ -68072,6 +68705,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "10b-perimeter",
      "label": "2c",
      "section": "Fluency",
      "stem": "Find the perimeter of these shapes.",
@@ -68160,6 +68794,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "10b-perimeter",
      "label": "2d",
      "section": "Fluency",
      "stem": "Find the perimeter of these shapes.",
@@ -68248,6 +68883,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2e",
+     "help": "10b-perimeter",
      "label": "2e",
      "section": "Fluency",
      "stem": "Find the perimeter of these shapes.",
@@ -68314,6 +68950,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2f",
+     "help": "10b-perimeter",
      "label": "2f",
      "section": "Fluency",
      "stem": "Find the perimeter of these shapes.",
@@ -68395,6 +69032,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "10b-perimeter",
      "label": "3a",
      "section": "Fluency",
      "stem": "Find the perimeter of each of these shapes.",
@@ -68515,6 +69153,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "10b-perimeter",
      "label": "3b",
      "section": "Fluency",
      "stem": "Find the perimeter of each of these shapes.",
@@ -68637,6 +69276,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "10b-rectilinear",
      "label": "4a",
      "section": "Fluency",
      "stem": "Find the perimeter of these shapes. All corner angles are $90°$.",
@@ -68712,6 +69352,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "10b-rectilinear",
      "label": "4b",
      "section": "Fluency",
      "stem": "Find the perimeter of these shapes. All corner angles are $90°$.",
@@ -68787,6 +69428,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "10b-rectilinear",
      "label": "4c",
      "section": "Fluency",
      "stem": "Find the perimeter of these shapes. All corner angles are $90°$.",
@@ -68863,6 +69505,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "10b-rectilinear",
      "label": "4d",
      "section": "Fluency",
      "stem": "Find the perimeter of these shapes. All corner angles are $90°$.",
@@ -68966,6 +69609,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "10b-perimeter",
      "label": "5a",
      "section": "Fluency",
      "prompt": "A square has a side length of $3.4$ cm. Find its perimeter.",
@@ -68975,6 +69619,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "10b-perimeter",
      "label": "5b",
      "section": "Fluency",
      "prompt": "A rectangle has a length of $5.7$ m and a width of $1.9$ m. Find its perimeter.",
@@ -68984,6 +69629,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "10b-perimeter",
      "label": "5c",
      "section": "Fluency",
      "prompt": "An equilateral triangle has all sides the same length. If each side is $12.5$ mm, find its perimeter.",
@@ -68993,6 +69639,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6",
+     "help": "10b-fence",
      "label": "6",
      "section": "Problem-solving",
      "prompt": "A sheep paddock is to be fenced on all sides. It is rectangular, with a length of $315$ m and a width of $178$ m. If fencing costs $\\$32$ per metre, find the cost of the fencing.",
@@ -69002,6 +69649,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7a",
+     "help": "10b-court",
      "label": "7a",
      "section": "Problem-solving",
      "stem": "The lines on a grass court are marked with chalk. Every solid line in the diagram is a chalk line; the dashed net is not. All the measurements are in feet, and the court is symmetrical about the net.",
@@ -69147,6 +69795,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7b",
+     "help": "10b-court",
      "label": "7b",
      "section": "Problem-solving",
      "stem": "The lines on a grass court are marked with chalk. Every solid line in the diagram is a chalk line; the dashed net is not. All the measurements are in feet, and the court is symmetrical about the net.",
@@ -69157,6 +69806,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8a",
+     "help": "10b-rectilinear",
      "label": "8a",
      "section": "Problem-solving",
      "stem": "Only some side lengths are shown for these shapes. Find the perimeter. (All corner angles are $90°$.)",
@@ -69241,6 +69891,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8b",
+     "help": "10b-rectilinear",
      "label": "8b",
      "section": "Problem-solving",
      "stem": "Only some side lengths are shown for these shapes. Find the perimeter. (All corner angles are $90°$.)",
@@ -69370,6 +70021,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9a",
+     "help": "10b-units",
      "label": "9a",
      "section": "Problem-solving",
      "stem": "Find the perimeter of each of these shapes. Give your answers in centimetres.",
@@ -69436,6 +70088,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9b",
+     "help": "10b-units",
      "label": "9b",
      "section": "Problem-solving",
      "stem": "Find the perimeter of each of these shapes. Give your answers in centimetres.",
@@ -69520,6 +70173,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9c",
+     "help": "10b-units",
      "label": "9c",
      "section": "Problem-solving",
      "stem": "Find the perimeter of each of these shapes. Give your answers in centimetres.",
@@ -69609,6 +70263,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10",
+     "help": "10b-fence",
      "label": "10",
      "section": "Problem-solving",
      "prompt": "A square paddock has $120$ equally spaced posts that are $3$ metres apart, including one in each corner. What is the perimeter of the paddock?",
@@ -69618,6 +70273,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11a",
+     "help": "10b-missing",
      "label": "11a",
      "section": "Problem-solving",
      "stem": "The perimeter of each shape is given. Find the missing side length.",
@@ -69681,6 +70337,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11b",
+     "help": "10b-missing",
      "label": "11b",
      "section": "Problem-solving",
      "stem": "The perimeter of each shape is given. Find the missing side length.",
@@ -69769,6 +70426,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11c",
+     "help": "10b-missing",
      "label": "11c",
      "section": "Problem-solving",
      "stem": "The perimeter of each shape is given. Find the missing side length.",
@@ -69864,6 +70522,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12",
+     "help": "10b-missing",
      "label": "12",
      "section": "Problem-solving",
      "prompt": "A rectangle has a perimeter of $22$ cm. Using only whole numbers for the length and width, how many different rectangles can be drawn? Do not count rotations of the same rectangle as different.",
@@ -69872,6 +70531,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13a",
+     "help": "10b-rule",
      "label": "13a",
      "section": "Reasoning",
      "stem": "Write an algebraic rule for the perimeter $P$ of each shape, using the letters shown.",
@@ -69942,6 +70602,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13b",
+     "help": "10b-rule",
      "label": "13b",
      "section": "Reasoning",
      "stem": "Write an algebraic rule for the perimeter $P$ of each shape, using the letters shown.",
@@ -70032,6 +70693,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13c",
+     "help": "10b-rule",
      "label": "13c",
      "section": "Reasoning",
      "stem": "Write an algebraic rule for the perimeter $P$ of each shape, using the letters shown.",
@@ -70100,6 +70762,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13d",
+     "help": "10b-rule",
      "label": "13d",
      "section": "Reasoning",
      "stem": "Write an algebraic rule for the perimeter $P$ of each shape, using the letters shown.",
@@ -70208,6 +70871,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13e",
+     "help": "10b-rule",
      "label": "13e",
      "section": "Reasoning",
      "stem": "Write an algebraic rule for the perimeter $P$ of each shape, using the letters shown.",
@@ -70299,6 +70963,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13f",
+     "help": "10b-rule",
      "label": "13f",
      "section": "Reasoning",
      "stem": "Write an algebraic rule for the perimeter $P$ of each shape, using the letters shown.",
@@ -70378,6 +71043,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14a",
+     "help": "10b-rule",
      "label": "14a",
      "section": "Reasoning",
      "stem": "Write an algebraic rule for the perimeter $P$ of each given shape.",
@@ -70493,6 +71159,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14b",
+     "help": "10b-rule",
      "label": "14b",
      "section": "Reasoning",
      "stem": "Write an algebraic rule for the perimeter $P$ of each given shape.",
@@ -70615,6 +71282,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15a",
+     "help": "10b-rule",
      "label": "15a",
      "section": "Reasoning",
      "prompt": "A square has perimeter $P$. Write an expression for its side length.",
@@ -70624,6 +71292,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15b",
+     "help": "10b-rule",
      "label": "15b",
      "section": "Reasoning",
      "prompt": "A rectangle has perimeter $P$ and width $w$. Write an expression for its length.",
@@ -70633,6 +71302,7 @@ window.H3_BANK = {
     },
     {
      "id": "q16a",
+     "help": "10b-frame",
      "label": "16a",
      "section": "Enrichment",
      "stem": "The amount of timber used to frame a picture depends on the outside lengths of the frame. Each side is first cut as a rectangular piece, and then the two corners are cut at $45°$ to make the frame.",
@@ -70749,6 +71419,7 @@ window.H3_BANK = {
     },
     {
      "id": "q16b",
+     "help": "10b-frame",
      "label": "16b",
      "section": "Enrichment",
      "stem": "The amount of timber used to frame a picture depends on the outside lengths of the frame. Each side is first cut as a rectangular piece, and then the two corners are cut at $45°$ to make the frame.",
@@ -70759,6 +71430,7 @@ window.H3_BANK = {
     },
     {
      "id": "q16c",
+     "help": "10b-frame",
      "label": "16c",
      "section": "Enrichment",
      "stem": "The amount of timber used to frame a picture depends on the outside lengths of the frame. Each side is first cut as a rectangular piece, and then the two corners are cut at $45°$ to make the frame.",
@@ -70769,6 +71441,7 @@ window.H3_BANK = {
     },
     {
      "id": "q16d",
+     "help": "10b-frame",
      "label": "16d",
      "section": "Enrichment",
      "stem": "The amount of timber used to frame a picture depends on the outside lengths of the frame. Each side is first cut as a rectangular piece, and then the two corners are cut at $45°$ to make the frame.",
@@ -70787,6 +71460,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "10c-approx",
      "label": "1a",
      "section": "Fluency",
      "stem": "A reasonable approximation of $\\pi$ is the fraction $\\frac{47}{15}$.",
@@ -70796,6 +71470,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "10c-approx",
      "label": "1b",
      "section": "Fluency",
      "stem": "A reasonable approximation of $\\pi$ is the fraction $\\frac{47}{15}$.",
@@ -70805,6 +71480,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1c",
+     "help": "10c-approx",
      "label": "1c",
      "section": "Fluency",
      "stem": "A reasonable approximation of $\\pi$ is the fraction $\\frac{47}{15}$.",
@@ -70818,6 +71494,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "10c-approx",
      "label": "2a",
      "section": "Fluency",
      "stem": "A good approximation of $\\pi$ is the fraction $\\frac{377}{120}$.",
@@ -70827,6 +71504,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "10c-approx",
      "label": "2b",
      "section": "Fluency",
      "stem": "A good approximation of $\\pi$ is the fraction $\\frac{377}{120}$.",
@@ -70836,6 +71514,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "10c-approx",
      "label": "2c",
      "section": "Fluency",
      "stem": "A good approximation of $\\pi$ is the fraction $\\frac{377}{120}$.",
@@ -70849,6 +71528,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "10c-circ",
      "label": "3a",
      "section": "Fluency",
      "stem": "Calculate the circumference of these circles using $C = \\pi d$ and round your answer correct to two decimal places.",
@@ -70896,6 +71576,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "10c-circ",
      "label": "3b",
      "section": "Fluency",
      "stem": "Calculate the circumference of these circles using $C = \\pi d$ and round your answer correct to two decimal places.",
@@ -70942,6 +71623,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "10c-circ",
      "label": "3c",
      "section": "Fluency",
      "stem": "Calculate the circumference of these circles using $C = \\pi d$ and round your answer correct to two decimal places.",
@@ -70988,6 +71670,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3d",
+     "help": "10c-circ",
      "label": "3d",
      "section": "Fluency",
      "stem": "Calculate the circumference of these circles using $C = \\pi d$ and round your answer correct to two decimal places.",
@@ -71034,6 +71717,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "10c-circ",
      "label": "4a",
      "section": "Fluency",
      "stem": "Calculate the circumference of these circles using $C = 2\\pi r$ and round your answer correct to two decimal places.",
@@ -71080,6 +71764,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "10c-circ",
      "label": "4b",
      "section": "Fluency",
      "stem": "Calculate the circumference of these circles using $C = 2\\pi r$ and round your answer correct to two decimal places.",
@@ -71125,6 +71810,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "10c-circ",
      "label": "4c",
      "section": "Fluency",
      "stem": "Calculate the circumference of these circles using $C = 2\\pi r$ and round your answer correct to two decimal places.",
@@ -71171,6 +71857,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "10c-circ",
      "label": "4d",
      "section": "Fluency",
      "stem": "Calculate the circumference of these circles using $C = 2\\pi r$ and round your answer correct to two decimal places.",
@@ -71216,6 +71903,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "10c-circ",
      "label": "5a",
      "section": "Fluency",
      "stem": "Estimate the circumference of these circles using the given approximation of $\\pi$.",
@@ -71262,6 +71950,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "10c-circ",
      "label": "5b",
      "section": "Fluency",
      "stem": "Estimate the circumference of these circles using the given approximation of $\\pi$.",
@@ -71307,6 +71996,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "10c-circ",
      "label": "5c",
      "section": "Fluency",
      "stem": "Estimate the circumference of these circles using the given approximation of $\\pi$.",
@@ -71353,6 +72043,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5d",
+     "help": "10c-circ",
      "label": "5d",
      "section": "Fluency",
      "stem": "Estimate the circumference of these circles using the given approximation of $\\pi$.",
@@ -71399,6 +72090,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6",
+     "help": "10c-circ",
      "label": "6",
      "section": "Problem-solving",
      "prompt": "A tree trunk has a diameter of $55$ cm. Find its circumference, correct to one decimal place.",
@@ -71409,6 +72101,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7a",
+     "help": "10c-backwards",
      "label": "7a",
      "section": "Problem-solving",
      "stem": "We know that the rule $C = \\pi d$ can be rearranged to give $d = \\frac{C}{\\pi}$. Use this rearranged rule to calculate the following, correct to two decimal places.",
@@ -71420,6 +72113,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7b",
+     "help": "10c-backwards",
      "label": "7b",
      "section": "Problem-solving",
      "stem": "We know that the rule $C = \\pi d$ can be rearranged to give $d = \\frac{C}{\\pi}$. Use this rearranged rule to calculate the following, correct to two decimal places.",
@@ -71431,6 +72125,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7c",
+     "help": "10c-backwards",
      "label": "7c",
      "section": "Problem-solving",
      "stem": "We know that the rule $C = \\pi d$ can be rearranged to give $d = \\frac{C}{\\pi}$. Use this rearranged rule to calculate the following, correct to two decimal places.",
@@ -71442,6 +72137,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7d",
+     "help": "10c-backwards",
      "label": "7d",
      "section": "Problem-solving",
      "stem": "We know that the rule $C = \\pi d$ can be rearranged to give $d = \\frac{C}{\\pi}$. Use this rearranged rule to calculate the following, correct to two decimal places.",
@@ -71453,6 +72149,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8",
+     "help": "10c-circ",
      "label": "8",
      "section": "Problem-solving",
      "prompt": "A circular garden bed has a radius of $2.4$ metres. Find its circumference, correct to one decimal place.",
@@ -71463,6 +72160,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9",
+     "help": "10c-wheel",
      "label": "9",
      "section": "Problem-solving",
      "prompt": "A unicycle wheel turns $850$ times during a ride. The wheel's diameter is $60$ cm. Find the distance travelled, in metres, rounded to the nearest metre.",
@@ -71473,6 +72171,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10",
+     "help": "10c-approx",
      "label": "10",
      "section": "Reasoning",
      "prompt": "Four students suggest fractions to approximate $\\pi$: $\\frac{19}{6}$, $\\frac{22}{7}$, $\\frac{245}{78}$ and $\\frac{311}{99}$. Which one is closest to the true value of $\\pi$? ($\\pi$ written to five decimal places is $3.14159$.)",
@@ -71487,6 +72186,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11a",
+     "help": "10c-backwards",
      "label": "11a",
      "section": "Reasoning",
      "stem": "The rule $C = \\pi d$ links the circumference $C$ and diameter $d$ of a circle.",
@@ -71500,6 +72200,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11b",
+     "help": "10c-backwards",
      "label": "11b",
      "section": "Reasoning",
      "stem": "The rule $C = \\pi d$ links the circumference $C$ and diameter $d$ of a circle.",
@@ -71511,6 +72212,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12a",
+     "help": "10c-exact",
      "label": "12a",
      "section": "Reasoning",
      "stem": "The exact circumference of a circle with diameter $4$ cm is $4\\pi$ cm. Give the exact circumference of a circle with the given diameter or radius.",
@@ -71522,6 +72224,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12b",
+     "help": "10c-exact",
      "label": "12b",
      "section": "Reasoning",
      "stem": "The exact circumference of a circle with diameter $4$ cm is $4\\pi$ cm. Give the exact circumference of a circle with the given diameter or radius.",
@@ -71532,6 +72235,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13a",
+     "help": "10c-planets",
      "label": "13a",
      "section": "Enrichment",
      "stem": "The planets are not perfect spheres, but their circumference can be estimated using a circle. Find the missing numbers in the table, rounded to the nearest whole number.",
@@ -71569,6 +72273,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13b",
+     "help": "10c-planets",
      "label": "13b",
      "section": "Enrichment",
      "stem": "The planets are not perfect spheres, but their circumference can be estimated using a circle. Find the missing numbers in the table, rounded to the nearest whole number.",
@@ -71580,6 +72285,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13c",
+     "help": "10c-planets",
      "label": "13c",
      "section": "Enrichment",
      "stem": "The planets are not perfect spheres, but their circumference can be estimated using a circle. Find the missing numbers in the table, rounded to the nearest whole number.",
@@ -71591,6 +72297,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13d",
+     "help": "10c-planets",
      "label": "13d",
      "section": "Enrichment",
      "stem": "The planets are not perfect spheres, but their circumference can be estimated using a circle. Find the missing numbers in the table, rounded to the nearest whole number.",
@@ -71610,6 +72317,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "10d-arc",
      "label": "1a",
      "section": "Fluency",
      "stem": "Find the length of each of the following arcs, correct to two decimal places.",
@@ -71720,6 +72428,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "10d-arc",
      "label": "1b",
      "section": "Fluency",
      "stem": "Find the length of each of the following arcs, correct to two decimal places.",
@@ -71850,6 +72559,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1c",
+     "help": "10d-arc",
      "label": "1c",
      "section": "Fluency",
      "stem": "Find the length of each of the following arcs, correct to two decimal places.",
@@ -72019,6 +72729,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1d",
+     "help": "10d-arc",
      "label": "1d",
      "section": "Fluency",
      "stem": "Find the length of each of the following arcs, correct to two decimal places.",
@@ -72321,6 +73032,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1e",
+     "help": "10d-arc",
      "label": "1e",
      "section": "Fluency",
      "stem": "Find the length of each of the following arcs, correct to two decimal places.",
@@ -72671,6 +73383,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1f",
+     "help": "10d-arc",
      "label": "1f",
      "section": "Fluency",
      "stem": "Find the length of each of the following arcs, correct to two decimal places.",
@@ -73041,6 +73754,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "10d-sector",
      "label": "2a",
      "section": "Fluency",
      "stem": "Find the perimeter of each of these quadrants, correct to one decimal place.",
@@ -73175,6 +73889,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "10d-sector",
      "label": "2b",
      "section": "Fluency",
      "stem": "Find the perimeter of each of these quadrants, correct to one decimal place.",
@@ -73310,6 +74025,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "10d-sector",
      "label": "2c",
      "section": "Fluency",
      "stem": "Find the perimeter of each of these quadrants, correct to one decimal place.",
@@ -73445,6 +74161,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "10d-sector",
      "label": "2d",
      "section": "Fluency",
      "stem": "Find the perimeter of each of these quadrants, correct to one decimal place.",
@@ -73579,6 +74296,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "10d-semi",
      "label": "3a",
      "section": "Fluency",
      "stem": "Find the perimeter of these semicircles, correct to one decimal place.",
@@ -73799,6 +74517,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "10d-semi",
      "label": "3b",
      "section": "Fluency",
      "stem": "Find the perimeter of these semicircles, correct to one decimal place.",
@@ -74019,6 +74738,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "10d-semi",
      "label": "3c",
      "section": "Fluency",
      "stem": "Find the perimeter of these semicircles, correct to one decimal place.",
@@ -74238,6 +74958,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3d",
+     "help": "10d-semi",
      "label": "3d",
      "section": "Fluency",
      "stem": "Find the perimeter of these semicircles, correct to one decimal place.",
@@ -74458,6 +75179,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "10d-sector",
      "label": "4a",
      "section": "Fluency",
      "stem": "Find the perimeter of these sectors, correct to one decimal place. Include the two radii in each case.",
@@ -74554,6 +75276,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "10d-sector",
      "label": "4b",
      "section": "Fluency",
      "stem": "Find the perimeter of these sectors, correct to one decimal place. Include the two radii in each case.",
@@ -74725,6 +75448,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "10d-sector",
      "label": "4c",
      "section": "Fluency",
      "stem": "Find the perimeter of these sectors, correct to one decimal place. Include the two radii in each case.",
@@ -75053,6 +75777,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "10d-sector",
      "label": "4d",
      "section": "Fluency",
      "stem": "Find the perimeter of these sectors, correct to one decimal place. Include the two radii in each case.",
@@ -75341,6 +76066,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "10d-composite",
      "label": "5a",
      "section": "Problem-solving",
      "stem": "Find the perimeter of each of these composite shapes, correct to one decimal place.",
@@ -75804,6 +76530,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "10d-composite",
      "label": "5b",
      "section": "Problem-solving",
      "stem": "Find the perimeter of each of these composite shapes, correct to one decimal place.",
@@ -76259,6 +76986,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "10d-composite",
      "label": "5c",
      "section": "Problem-solving",
      "stem": "Find the perimeter of each of these composite shapes, correct to one decimal place.",
@@ -76695,6 +77423,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5d",
+     "help": "10d-composite",
      "label": "5d",
      "section": "Problem-solving",
      "stem": "Find the perimeter of each of these composite shapes, correct to one decimal place.",
@@ -77131,6 +77860,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5e",
+     "help": "10d-composite",
      "label": "5e",
      "section": "Problem-solving",
      "stem": "Find the perimeter of each of these composite shapes, correct to one decimal place.",
@@ -78022,6 +78752,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5f",
+     "help": "10d-composite",
      "label": "5f",
      "section": "Problem-solving",
      "stem": "Find the perimeter of each of these composite shapes, correct to one decimal place.",
@@ -78808,6 +79539,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6",
+     "help": "10d-composite",
      "label": "6",
      "section": "Problem-solving",
      "prompt": "A window is a rectangle of height $1.9$ m and width $1.1$ m, with a semicircular top of diameter $1.1$ m. Find its perimeter in metres, correct to the nearest centimetre (two decimal places).",
@@ -78818,6 +79550,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7a",
+     "help": "10d-arc",
      "label": "7a",
      "section": "Problem-solving",
      "stem": "For these sectors, find only the length of the arc, correct to two decimal places.",
@@ -79028,6 +79761,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7b",
+     "help": "10d-arc",
      "label": "7b",
      "section": "Problem-solving",
      "stem": "For these sectors, find only the length of the arc, correct to two decimal places.",
@@ -79390,6 +80124,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7c",
+     "help": "10d-arc",
      "label": "7c",
      "section": "Problem-solving",
      "stem": "For these sectors, find only the length of the arc, correct to two decimal places.",
@@ -79523,6 +80258,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8a",
+     "help": "10d-composite",
      "label": "8a",
      "section": "Problem-solving",
      "stem": "Calculate the perimeter of each of these shapes, correct to two decimal places.",
@@ -80584,6 +81320,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8b",
+     "help": "10d-composite",
      "label": "8b",
      "section": "Problem-solving",
      "stem": "Calculate the perimeter of each of these shapes, correct to two decimal places.",
@@ -81480,6 +82217,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8c",
+     "help": "10d-composite",
      "label": "8c",
      "section": "Problem-solving",
      "stem": "Calculate the perimeter of each of these shapes, correct to two decimal places.",
@@ -82017,6 +82755,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11a",
+     "help": "10d-radius",
      "label": "11a",
      "section": "Reasoning",
      "stem": "Find the radius of each of these sectors for the given arc lengths, correct to one decimal place.",
@@ -82126,6 +82865,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11b",
+     "help": "10d-radius",
      "label": "11b",
      "section": "Reasoning",
      "stem": "Find the radius of each of these sectors for the given arc lengths, correct to one decimal place.",
@@ -82315,6 +83055,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11c",
+     "help": "10d-radius",
      "label": "11c",
      "section": "Reasoning",
      "stem": "Find the radius of each of these sectors for the given arc lengths, correct to one decimal place.",
@@ -82651,6 +83392,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12a",
+     "help": "10d-exact",
      "label": "12a",
      "section": "Enrichment",
      "stem": "The exact perimeter of a rectangle $10$ cm by $4$ cm with a semicircle on one $4$ cm end is $P = 10 + 4 + 10 + \\frac{1}{2}\\pi \\times 4 = 24 + 2\\pi$ cm. Find the exact perimeter of each of these composite shapes.",
@@ -83098,6 +83840,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12b",
+     "help": "10d-exact",
      "label": "12b",
      "section": "Enrichment",
      "stem": "The exact perimeter of a rectangle $10$ cm by $4$ cm with a semicircle on one $4$ cm end is $P = 10 + 4 + 10 + \\frac{1}{2}\\pi \\times 4 = 24 + 2\\pi$ cm. Find the exact perimeter of each of these composite shapes.",
@@ -83533,6 +84276,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13a",
+     "help": "10d-exact",
      "label": "13a",
      "section": "Enrichment",
      "stem": "Find the exact perimeters of the shapes in Question 8, in terms of $\\pi$.",
@@ -84594,6 +85338,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13b",
+     "help": "10d-exact",
      "label": "13b",
      "section": "Enrichment",
      "stem": "Find the exact perimeters of the shapes in Question 8, in terms of $\\pi$.",
@@ -85489,6 +86234,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13c",
+     "help": "10d-exact",
      "label": "13c",
      "section": "Enrichment",
      "stem": "Find the exact perimeters of the shapes in Question 8, in terms of $\\pi$.",
@@ -86033,6 +86779,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "10e-count",
      "label": "1a",
      "section": "Fluency",
      "stem": "Count the number of squares to find the area of these shapes on centimetre grids.",
@@ -86198,6 +86945,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "10e-count",
      "label": "1b",
      "section": "Fluency",
      "stem": "Count the number of squares to find the area of these shapes on centimetre grids.",
@@ -86370,6 +87118,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "10e-count",
      "label": "2a",
      "section": "Fluency",
      "stem": "Count the number of squares to find the area of these shapes on centimetre grids.",
@@ -86518,6 +87267,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "10e-count",
      "label": "2b",
      "section": "Fluency",
      "stem": "Count the number of squares to find the area of these shapes on centimetre grids.",
@@ -86681,6 +87431,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "10e-count",
      "label": "2c",
      "section": "Fluency",
      "stem": "Count the number of squares to find the area of these shapes on centimetre grids.",
@@ -86837,6 +87588,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "10e-count",
      "label": "2d",
      "section": "Fluency",
      "stem": "Count the number of squares to find the area of these shapes on centimetre grids.",
@@ -87018,6 +87770,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "10e-rect",
      "label": "3a",
      "section": "Fluency",
      "stem": "Find the area of these rectangles and squares.",
@@ -87110,6 +87863,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "10e-rect",
      "label": "3b",
      "section": "Fluency",
      "stem": "Find the area of these rectangles and squares.",
@@ -87202,6 +87956,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "10e-rect",
      "label": "3c",
      "section": "Fluency",
      "stem": "Find the area of these rectangles and squares.",
@@ -87294,6 +88049,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3d",
+     "help": "10e-rect",
      "label": "3d",
      "section": "Fluency",
      "stem": "Find the area of these rectangles and squares.",
@@ -87376,6 +88132,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3e",
+     "help": "10e-rect",
      "label": "3e",
      "section": "Fluency",
      "stem": "Find the area of these rectangles and squares.",
@@ -87458,6 +88215,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3f",
+     "help": "10e-rect",
      "label": "3f",
      "section": "Fluency",
      "stem": "Find the area of these rectangles and squares.",
@@ -87540,6 +88298,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3g",
+     "help": "10e-rect",
      "label": "3g",
      "section": "Fluency",
      "stem": "Find the area of these rectangles and squares.",
@@ -87632,6 +88391,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3h",
+     "help": "10e-rect",
      "label": "3h",
      "section": "Fluency",
      "stem": "Find the area of these rectangles and squares.",
@@ -87714,6 +88474,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3i",
+     "help": "10e-rect",
      "label": "3i",
      "section": "Fluency",
      "stem": "Find the area of these rectangles and squares.",
@@ -87806,6 +88567,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "10e-square",
      "label": "4a",
      "section": "Fluency",
      "stem": "Find the side length of a square with each of these areas. Use trial and error if you are unsure.",
@@ -87816,6 +88578,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "10e-square",
      "label": "4b",
      "section": "Fluency",
      "stem": "Find the side length of a square with each of these areas. Use trial and error if you are unsure.",
@@ -87826,6 +88589,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "10e-square",
      "label": "4c",
      "section": "Fluency",
      "stem": "Find the side length of a square with each of these areas. Use trial and error if you are unsure.",
@@ -87836,6 +88600,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "10e-units",
      "label": "5a",
      "section": "Fluency",
      "stem": "There are $10\\,000$ m² in one hectare (ha). Convert these measurements to hectares.",
@@ -87846,6 +88611,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "10e-units",
      "label": "5b",
      "section": "Fluency",
      "stem": "There are $10\\,000$ m² in one hectare (ha). Convert these measurements to hectares.",
@@ -87856,6 +88622,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "10e-units",
      "label": "5c",
      "section": "Fluency",
      "stem": "There are $10\\,000$ m² in one hectare (ha). Convert these measurements to hectares.",
@@ -87866,6 +88633,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6",
+     "help": "10e-rect",
      "label": "6",
      "section": "Fluency",
      "prompt": "A rectangular netball court is being resurfaced. The court is $30$ m long and $15$ m wide. Find the area of the court.",
@@ -87875,6 +88643,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7",
+     "help": "10e-rect",
      "label": "7",
      "section": "Fluency",
      "prompt": "A square mirror has a side length of $40$ cm. Find the area of the mirror.",
@@ -87884,6 +88653,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8",
+     "help": "10e-problems",
      "label": "8",
      "section": "Fluency",
      "prompt": "One hundred and fifty square tiles, each measuring $20$ cm by $20$ cm, are used to tile a patio. Find the area of the patio that is tiled, in square centimetres.",
@@ -87894,6 +88664,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9a",
+     "help": "10e-square",
      "label": "9a",
      "section": "Problem-solving",
      "prompt": "A square has a perimeter of $28$ cm. Find its area.",
@@ -87903,6 +88674,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9b",
+     "help": "10e-square",
      "label": "9b",
      "section": "Problem-solving",
      "prompt": "A square has an area of $25$ cm². Find its perimeter.",
@@ -87912,6 +88684,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9c",
+     "help": "10e-square",
      "label": "9c",
      "section": "Problem-solving",
      "prompt": "A square's area and perimeter are the same number. How many units long is each side?",
@@ -87920,6 +88693,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10",
+     "help": "10e-problems",
      "label": "10",
      "section": "Problem-solving",
      "prompt": "The carpet chosen for a bedroom costs $\\$65$ per square metre. The room is rectangular, $7$ m long and $4$ m wide. What is the cost of carpeting the room?",
@@ -87929,6 +88703,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11",
+     "help": "10e-problems",
      "label": "11",
      "section": "Problem-solving",
      "prompt": "Mia wants to paint a fence that is $13$ m long and $2$ m high. It needs two coats of paint. The paint is sold only in whole litres, and one litre covers $12$ m². How many litres of paint must Mia buy?",
@@ -87938,6 +88713,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12",
+     "help": "10e-units",
      "label": "12",
      "section": "Problem-solving",
      "prompt": "A rectangular paddock measures $300$ m by $500$ m. Find its area in hectares.",
@@ -87947,6 +88723,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13a",
+     "help": "10e-missing",
      "label": "13a",
      "section": "Reasoning",
      "stem": "Find the missing length for each of these rectangles.",
@@ -88046,6 +88823,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13b",
+     "help": "10e-missing",
      "label": "13b",
      "section": "Reasoning",
      "stem": "Find the missing length for each of these rectangles.",
@@ -88145,6 +88923,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14",
+     "help": "10e-count",
      "label": "14",
      "section": "Reasoning",
      "prompt": "The shaded triangle is drawn on a centimetre grid. Find its area.",
@@ -88285,6 +89064,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15a",
+     "help": "10e-square",
      "label": "15a",
      "section": "Reasoning",
      "stem": "A square has a perimeter of $P$ cm.",
@@ -88295,6 +89075,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15b",
+     "help": "10e-square",
      "label": "15b",
      "section": "Reasoning",
      "stem": "A square has a perimeter of $P$ cm.",
@@ -88308,6 +89089,7 @@ window.H3_BANK = {
     },
     {
      "id": "q16",
+     "help": "10e-square",
      "label": "16",
      "section": "Reasoning",
      "prompt": "A square has all of its side lengths tripled. How does this change the area?",
@@ -88322,6 +89104,7 @@ window.H3_BANK = {
     },
     {
      "id": "q17a",
+     "help": "10e-units",
      "label": "17a",
      "section": "Enrichment",
      "stem": "Use $1$ cm $= 10$ mm, $1$ m $= 100$ cm, $1$ km $= 1000$ m and $1$ ha $= 10\\,000$ m² to answer these.",
@@ -88332,6 +89115,7 @@ window.H3_BANK = {
     },
     {
      "id": "q17b",
+     "help": "10e-units",
      "label": "17b",
      "section": "Enrichment",
      "stem": "Use $1$ cm $= 10$ mm, $1$ m $= 100$ cm, $1$ km $= 1000$ m and $1$ ha $= 10\\,000$ m² to answer these.",
@@ -88341,6 +89125,7 @@ window.H3_BANK = {
     },
     {
      "id": "q17c",
+     "help": "10e-units",
      "label": "17c",
      "section": "Enrichment",
      "stem": "Use $1$ cm $= 10$ mm, $1$ m $= 100$ cm, $1$ km $= 1000$ m and $1$ ha $= 10\\,000$ m² to answer these.",
@@ -88350,6 +89135,7 @@ window.H3_BANK = {
     },
     {
      "id": "q17d",
+     "help": "10e-units",
      "label": "17d",
      "section": "Enrichment",
      "stem": "Use $1$ cm $= 10$ mm, $1$ m $= 100$ cm, $1$ km $= 1000$ m and $1$ ha $= 10\\,000$ m² to answer these.",
@@ -88360,6 +89146,7 @@ window.H3_BANK = {
     },
     {
      "id": "q17e",
+     "help": "10e-units",
      "label": "17e",
      "section": "Enrichment",
      "stem": "Use $1$ cm $= 10$ mm, $1$ m $= 100$ cm, $1$ km $= 1000$ m and $1$ ha $= 10\\,000$ m² to answer these.",
@@ -88370,6 +89157,7 @@ window.H3_BANK = {
     },
     {
      "id": "q17f",
+     "help": "10e-units",
      "label": "17f",
      "section": "Enrichment",
      "stem": "Use $1$ cm $= 10$ mm, $1$ m $= 100$ cm, $1$ km $= 1000$ m and $1$ ha $= 10\\,000$ m² to answer these.",
@@ -88380,6 +89168,7 @@ window.H3_BANK = {
     },
     {
      "id": "q17g",
+     "help": "10e-units",
      "label": "17g",
      "section": "Enrichment",
      "stem": "Use $1$ cm $= 10$ mm, $1$ m $= 100$ cm, $1$ km $= 1000$ m and $1$ ha $= 10\\,000$ m² to answer these.",
@@ -88390,6 +89179,7 @@ window.H3_BANK = {
     },
     {
      "id": "q17h",
+     "help": "10e-units",
      "label": "17h",
      "section": "Enrichment",
      "stem": "Use $1$ cm $= 10$ mm, $1$ m $= 100$ cm, $1$ km $= 1000$ m and $1$ ha $= 10\\,000$ m² to answer these.",
@@ -88400,6 +89190,7 @@ window.H3_BANK = {
     },
     {
      "id": "q17i",
+     "help": "10e-units",
      "label": "17i",
      "section": "Enrichment",
      "stem": "Use $1$ cm $= 10$ mm, $1$ m $= 100$ cm, $1$ km $= 1000$ m and $1$ ha $= 10\\,000$ m² to answer these.",
@@ -88410,6 +89201,7 @@ window.H3_BANK = {
     },
     {
      "id": "q17j",
+     "help": "10e-units",
      "label": "17j",
      "section": "Enrichment",
      "stem": "Use $1$ cm $= 10$ mm, $1$ m $= 100$ cm, $1$ km $= 1000$ m and $1$ ha $= 10\\,000$ m² to answer these.",
@@ -88420,6 +89212,7 @@ window.H3_BANK = {
     },
     {
      "id": "q17k",
+     "help": "10e-units",
      "label": "17k",
      "section": "Enrichment",
      "stem": "Use $1$ cm $= 10$ mm, $1$ m $= 100$ cm, $1$ km $= 1000$ m and $1$ ha $= 10\\,000$ m² to answer these.",
@@ -88430,6 +89223,7 @@ window.H3_BANK = {
     },
     {
      "id": "q17l",
+     "help": "10e-units",
      "label": "17l",
      "section": "Enrichment",
      "stem": "Use $1$ cm $= 10$ mm, $1$ m $= 100$ cm, $1$ km $= 1000$ m and $1$ ha $= 10\\,000$ m² to answer these.",
@@ -88448,6 +89242,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "10f-area",
      "label": "1a",
      "section": "Fluency",
      "stem": "Find the area of these parallelograms.",
@@ -88556,6 +89351,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "10f-area",
      "label": "1b",
      "section": "Fluency",
      "stem": "Find the area of these parallelograms.",
@@ -88664,6 +89460,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "10f-area",
      "label": "2a",
      "section": "Fluency",
      "stem": "Find the area of these parallelograms.",
@@ -88772,6 +89569,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "10f-area",
      "label": "2b",
      "section": "Fluency",
      "stem": "Find the area of these parallelograms.",
@@ -88880,6 +89678,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "10f-area",
      "label": "2c",
      "section": "Fluency",
      "stem": "Find the area of these parallelograms.",
@@ -88997,6 +89796,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "10f-area",
      "label": "2d",
      "section": "Fluency",
      "stem": "Find the area of these parallelograms.",
@@ -89105,6 +89905,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "10f-area",
      "label": "3a",
      "section": "Fluency",
      "stem": "Find the area of these parallelograms.",
@@ -89221,6 +90022,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "10f-area",
      "label": "3b",
      "section": "Fluency",
      "stem": "Find the area of these parallelograms.",
@@ -89337,6 +90139,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "10f-area",
      "label": "4a",
      "section": "Fluency",
      "stem": "Find the area of these parallelograms. Think carefully about which lengths are the base and the height.",
@@ -89455,6 +90258,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "10f-area",
      "label": "4b",
      "section": "Fluency",
      "stem": "Find the area of these parallelograms. Think carefully about which lengths are the base and the height.",
@@ -89572,6 +90376,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "10f-area",
      "label": "4c",
      "section": "Fluency",
      "stem": "Find the area of these parallelograms. Think carefully about which lengths are the base and the height.",
@@ -89689,6 +90494,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "10f-area",
      "label": "4d",
      "section": "Fluency",
      "stem": "Find the area of these parallelograms. Think carefully about which lengths are the base and the height.",
@@ -89816,6 +90622,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "10f-grid",
      "label": "5a",
      "section": "Fluency",
      "stem": "These parallelograms are drawn on $1$ cm grids. Find their area.",
@@ -89981,6 +90788,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "10f-grid",
      "label": "5b",
      "section": "Fluency",
      "stem": "These parallelograms are drawn on $1$ cm grids. Find their area.",
@@ -90146,6 +90954,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "10f-grid",
      "label": "5c",
      "section": "Fluency",
      "stem": "These parallelograms are drawn on $1$ cm grids. Find their area.",
@@ -90338,6 +91147,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5d",
+     "help": "10f-grid",
      "label": "5d",
      "section": "Fluency",
      "stem": "These parallelograms are drawn on $1$ cm grids. Find their area.",
@@ -90530,6 +91340,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6",
+     "help": "10f-area",
      "label": "6",
      "section": "Fluency",
      "prompt": "The floor of a classroom is in the shape of a parallelogram. The longest sides are $12$ m and the perpendicular distance between them is $7$ m. Find the area of the floor.",
@@ -90539,6 +91350,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7a",
+     "help": "10f-missing",
      "label": "7a",
      "section": "Problem-solving",
      "stem": "Find the height of a parallelogram when its:",
@@ -90549,6 +91361,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7b",
+     "help": "10f-missing",
      "label": "7b",
      "section": "Problem-solving",
      "stem": "Find the height of a parallelogram when its:",
@@ -90559,6 +91372,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7c",
+     "help": "10f-missing",
      "label": "7c",
      "section": "Problem-solving",
      "stem": "Find the height of a parallelogram when its:",
@@ -90569,6 +91383,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8a",
+     "help": "10f-missing",
      "label": "8a",
      "section": "Problem-solving",
      "stem": "Find the base of a parallelogram when its:",
@@ -90579,6 +91394,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8b",
+     "help": "10f-missing",
      "label": "8b",
      "section": "Problem-solving",
      "stem": "Find the base of a parallelogram when its:",
@@ -90589,6 +91405,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8c",
+     "help": "10f-missing",
      "label": "8c",
      "section": "Problem-solving",
      "stem": "Find the base of a parallelogram when its:",
@@ -90599,6 +91416,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9",
+     "help": "10f-problems",
      "label": "9",
      "section": "Problem-solving",
      "prompt": "A large wall in the shape of a parallelogram is to be painted with a special blue paint that costs $\\$18$ per litre. Each litre covers $6$ m². The wall has a base length of $24$ m and a height of $8$ m. Find the cost of painting the wall.",
@@ -90608,6 +91426,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10a",
+     "help": "10f-problems",
      "label": "10a",
      "section": "Problem-solving",
      "stem": "A rectangular flag is white with a green stripe in the shape of a parallelogram, as shown.",
@@ -90694,6 +91513,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10b",
+     "help": "10f-problems",
      "label": "10b",
      "section": "Problem-solving",
      "stem": "A rectangular flag is white with a green stripe in the shape of a parallelogram, as shown.",
@@ -90704,6 +91524,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11",
+     "help": "10f-reason",
      "label": "11",
      "section": "Reasoning",
      "prompt": "A parallelogram and a rectangle both have sides of $8$ cm and $4$ cm. Which shape has the larger area?",
@@ -90885,6 +91706,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12",
+     "help": "10f-reason",
      "label": "12",
      "section": "Reasoning",
      "prompt": "A parallelogram has a shaded triangle drawn inside it, as shown. The triangle uses the whole bottom side, and its top corner is on the top side. What fraction of the parallelogram's area is shaded?",
@@ -90973,6 +91795,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13a",
+     "help": "10f-reason",
      "label": "13a",
      "section": "Reasoning",
      "stem": "A diagonal cuts this parallelogram into two identical triangles, each with base $b$ and height $h$.",
@@ -91087,6 +91910,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13b",
+     "help": "10f-reason",
      "label": "13b",
      "section": "Reasoning",
      "stem": "A diagonal cuts this parallelogram into two identical triangles, each with base $b$ and height $h$.",
@@ -91097,6 +91921,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14",
+     "help": "10f-problems",
      "label": "14",
      "section": "Enrichment",
      "prompt": "Two office towers lean towards each other. Each tower has a square base of side $40$ m, a vertical height of $96$ m and a slant height of $104$ m. Two of its sides are parallelograms (like the one shown) and the other two sides are rectangles $40$ m wide and $104$ m long. All four sides are covered in glass that costs $\\$150$ per square metre. Find the cost of the glass for one tower.",
@@ -91232,6 +92057,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "10g-area",
      "label": "1a",
      "section": "Fluency",
      "stem": "Find the area of each triangle.",
@@ -91300,6 +92126,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "10g-area",
      "label": "1b",
      "section": "Fluency",
      "stem": "Find the area of each triangle.",
@@ -91367,6 +92194,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "10g-area",
      "label": "2a",
      "section": "Fluency",
      "stem": "Find the area of each triangle.",
@@ -91435,6 +92263,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "10g-area",
      "label": "2b",
      "section": "Fluency",
      "stem": "Find the area of each triangle.",
@@ -91502,6 +92331,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "10g-area",
      "label": "2c",
      "section": "Fluency",
      "stem": "Find the area of each triangle.",
@@ -91570,6 +92400,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "10g-area",
      "label": "2d",
      "section": "Fluency",
      "stem": "Find the area of each triangle.",
@@ -91631,6 +92462,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2e",
+     "help": "10g-area",
      "label": "2e",
      "section": "Fluency",
      "stem": "Find the area of each triangle.",
@@ -91692,6 +92524,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2f",
+     "help": "10g-area",
      "label": "2f",
      "section": "Fluency",
      "stem": "Find the area of each triangle.",
@@ -91753,6 +92586,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "10g-area",
      "label": "3a",
      "section": "Fluency",
      "stem": "Find the area of each triangle.",
@@ -91830,6 +92664,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "10g-area",
      "label": "3b",
      "section": "Fluency",
      "stem": "Find the area of each triangle.",
@@ -91907,6 +92742,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "10g-area",
      "label": "4a",
      "section": "Fluency",
      "stem": "Find the area of each of the following triangles.",
@@ -91984,6 +92820,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "10g-area",
      "label": "4b",
      "section": "Fluency",
      "stem": "Find the area of each of the following triangles.",
@@ -92060,6 +92897,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "10g-area",
      "label": "4c",
      "section": "Fluency",
      "stem": "Find the area of each of the following triangles.",
@@ -92137,6 +92975,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "10g-area",
      "label": "4d",
      "section": "Fluency",
      "stem": "Find the area of each of the following triangles.",
@@ -92213,6 +93052,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4e",
+     "help": "10g-area",
      "label": "4e",
      "section": "Fluency",
      "stem": "Find the area of each of the following triangles.",
@@ -92289,6 +93129,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4f",
+     "help": "10g-area",
      "label": "4f",
      "section": "Fluency",
      "stem": "Find the area of each of the following triangles.",
@@ -92365,6 +93206,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "10g-grid",
      "label": "5a",
      "section": "Fluency",
      "stem": "Find the area of these triangles, which have been drawn on $1$ cm grids. Give your answer in cm².",
@@ -92514,6 +93356,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "10g-grid",
      "label": "5b",
      "section": "Fluency",
      "stem": "Find the area of these triangles, which have been drawn on $1$ cm grids. Give your answer in cm².",
@@ -92698,6 +93541,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "10g-grid",
      "label": "5c",
      "section": "Fluency",
      "stem": "Find the area of these triangles, which have been drawn on $1$ cm grids. Give your answer in cm².",
@@ -92873,6 +93717,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5d",
+     "help": "10g-grid",
      "label": "5d",
      "section": "Fluency",
      "stem": "Find the area of these triangles, which have been drawn on $1$ cm grids. Give your answer in cm².",
@@ -93039,6 +93884,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6",
+     "help": "10g-problems",
      "label": "6",
      "section": "Fluency",
      "prompt": "A rectangular block of land measuring $50$ m long by $32$ m wide is cut in half along a diagonal. Find the area of each triangular block of land.",
@@ -93048,6 +93894,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7",
+     "help": "10g-problems",
      "label": "7",
      "section": "Fluency",
      "prompt": "A square pyramid has a base length of $140$ m, and each triangular face has a height of $90$ m. Find the area of one triangular face of the pyramid.",
@@ -93115,6 +93962,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8",
+     "help": "10g-problems",
      "label": "8",
      "section": "Problem-solving",
      "prompt": "Each face of a $4$-sided die is a triangle with a base of $3$ cm and a height of $2.6$ cm. Find the total area of all $4$ faces of the die.",
@@ -93124,6 +93972,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9",
+     "help": "10g-problems",
      "label": "9",
      "section": "Problem-solving",
      "prompt": "A farmer builds a fence (the dashed line) to divide a triangular paddock into two smaller triangles, as shown. What is the difference between the two areas?",
@@ -93203,6 +94052,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10",
+     "help": "10g-problems",
      "label": "10",
      "section": "Problem-solving",
      "prompt": "Two sails on a yacht need replacing. One sail has a base length of $3$ m and a height of $7$ m. The bigger sail has a base length of $4.5$ m and a height of $14$ m. Sail material costs $\\$120$ per square metre. Find the total cost to replace both sails.",
@@ -93212,6 +94062,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11a",
+     "help": "10g-missing",
      "label": "11a",
      "section": "Problem-solving",
      "prompt": "The area of a triangle is $15$ cm² and its base length is $5$ cm. Find its height.",
@@ -93221,6 +94072,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11b",
+     "help": "10g-missing",
      "label": "11b",
      "section": "Problem-solving",
      "prompt": "The area of a triangle is $36$ mm² and its height is $8$ mm. Find its base length.",
@@ -93230,6 +94082,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12",
+     "help": "10g-reason",
      "label": "12",
      "section": "Reasoning",
      "prompt": "$M$ is the midpoint of the base of this triangle, and it is joined to the opposite corner. Does this split the triangle into two parts with exactly the same area?",
@@ -93324,6 +94177,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13",
+     "help": "10g-reason",
      "label": "13",
      "section": "Reasoning",
      "prompt": "The corner $C$ of this triangle slides along the dashed line, which is parallel to the base $AB$. What happens to the area of the triangle?",
@@ -93411,6 +94265,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14",
+     "help": "10g-missing",
      "label": "14",
      "section": "Reasoning",
      "prompt": "The area of a triangle is given by $A = \\frac{1}{2}bh$. Write a formula for the base $b$ if you know the area $A$ and the height $h$. Type only the right-hand side, using $A$ and $h$.",
@@ -93428,6 +94283,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "10h-add",
      "label": "1a",
      "section": "Fluency",
      "stem": "Find the area of these composite shapes. Assume that all angles that look like right angles are right angles.",
@@ -93521,6 +94377,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "10h-add",
      "label": "1b",
      "section": "Fluency",
      "stem": "Find the area of these composite shapes. Assume that all angles that look like right angles are right angles.",
@@ -93587,6 +94444,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "10h-add",
      "label": "2a",
      "section": "Fluency",
      "stem": "Find the area of these composite shapes by adding together the areas of simpler shapes. Assume that all angles that look like right angles are right angles.",
@@ -93662,6 +94520,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "10h-add",
      "label": "2b",
      "section": "Fluency",
      "stem": "Find the area of these composite shapes by adding together the areas of simpler shapes. Assume that all angles that look like right angles are right angles.",
@@ -93757,6 +94616,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "10h-add",
      "label": "2c",
      "section": "Fluency",
      "stem": "Find the area of these composite shapes by adding together the areas of simpler shapes. Assume that all angles that look like right angles are right angles.",
@@ -93867,6 +94727,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "10h-add",
      "label": "2d",
      "section": "Fluency",
      "stem": "Find the area of these composite shapes by adding together the areas of simpler shapes. Assume that all angles that look like right angles are right angles.",
@@ -93933,6 +94794,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2e",
+     "help": "10h-add",
      "label": "2e",
      "section": "Fluency",
      "stem": "Find the area of these composite shapes by adding together the areas of simpler shapes. Assume that all angles that look like right angles are right angles.",
@@ -93999,6 +94861,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2f",
+     "help": "10h-add",
      "label": "2f",
      "section": "Fluency",
      "stem": "Find the area of these composite shapes by adding together the areas of simpler shapes. Assume that all angles that look like right angles are right angles.",
@@ -94069,6 +94932,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "10h-add",
      "label": "3a",
      "section": "Fluency",
      "stem": "Find the area of these composite shapes. Assume that all angles that look like right angles are right angles.",
@@ -94167,6 +95031,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "10h-add",
      "label": "3b",
      "section": "Fluency",
      "stem": "Find the area of these composite shapes. Assume that all angles that look like right angles are right angles.",
@@ -94262,6 +95127,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "10h-subtract",
      "label": "4a",
      "section": "Fluency",
      "stem": "Use subtraction to find the area of these composite shapes. Assume that all angles that look like right angles are right angles.",
@@ -94360,6 +95226,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "10h-subtract",
      "label": "4b",
      "section": "Fluency",
      "stem": "Use subtraction to find the area of these composite shapes. Assume that all angles that look like right angles are right angles.",
@@ -94466,6 +95333,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "10h-subtract",
      "label": "4c",
      "section": "Fluency",
      "stem": "Use subtraction to find the area of these composite shapes. Assume that all angles that look like right angles are right angles.",
@@ -94558,6 +95426,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "10h-subtract",
      "label": "4d",
      "section": "Fluency",
      "stem": "Use subtraction to find the area of these composite shapes. Assume that all angles that look like right angles are right angles.",
@@ -94653,6 +95522,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4e",
+     "help": "10h-subtract",
      "label": "4e",
      "section": "Fluency",
      "stem": "Use subtraction to find the area of these composite shapes. Assume that all angles that look like right angles are right angles.",
@@ -94765,6 +95635,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4f",
+     "help": "10h-subtract",
      "label": "4f",
      "section": "Fluency",
      "stem": "Use subtraction to find the area of these composite shapes. Assume that all angles that look like right angles are right angles.",
@@ -94870,6 +95741,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "10h-add",
      "label": "5a",
      "section": "Problem-solving",
      "stem": "Find the areas of these composite shapes. Assume that all angles that look like right angles are right angles.",
@@ -94980,6 +95852,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "10h-add",
      "label": "5b",
      "section": "Problem-solving",
      "stem": "Find the areas of these composite shapes. Assume that all angles that look like right angles are right angles.",
@@ -95189,6 +96062,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "10h-add",
      "label": "5c",
      "section": "Problem-solving",
      "stem": "Find the areas of these composite shapes. Assume that all angles that look like right angles are right angles.",
@@ -95281,6 +96155,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6a",
+     "help": "10h-missing",
      "label": "6a",
      "section": "Problem-solving",
      "stem": "By finding the missing lengths first, calculate the area of these composite shapes.",
@@ -95467,6 +96342,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6b",
+     "help": "10h-missing",
      "label": "6b",
      "section": "Problem-solving",
      "stem": "By finding the missing lengths first, calculate the area of these composite shapes.",
@@ -95542,6 +96418,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6c",
+     "help": "10h-missing",
      "label": "6c",
      "section": "Problem-solving",
      "stem": "By finding the missing lengths first, calculate the area of these composite shapes.",
@@ -95650,6 +96527,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6d",
+     "help": "10h-missing",
      "label": "6d",
      "section": "Problem-solving",
      "stem": "By finding the missing lengths first, calculate the area of these composite shapes.",
@@ -95738,6 +96616,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7",
+     "help": "10h-subtract",
      "label": "7",
      "section": "Problem-solving",
      "prompt": "A wall has three square holes cut into it for windows, as shown. Each hole is a square of side $1.1$ m. Find the remaining area of the wall.",
@@ -95960,6 +96839,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8a",
+     "help": "10h-missing",
      "label": "8a",
      "section": "Problem-solving",
      "stem": "A workshop floor, with the dimensions shown, is to be covered with vinyl. Including installation, the vinyl costs $\\$28$ per square metre. The budget for the job is $\\$3000$.",
@@ -96040,6 +96920,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8b",
+     "help": "10h-missing",
      "label": "8b",
      "section": "Problem-solving",
      "stem": "A workshop floor, with the dimensions shown, is to be covered with vinyl. Including installation, the vinyl costs $\\$28$ per square metre. The budget for the job is $\\$3000$.",
@@ -96053,6 +96934,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10",
+     "help": "10h-add",
      "label": "10",
      "section": "Reasoning",
      "prompt": "A trapezium has one pair of parallel sides. This trapezium can be split into a rectangle and two triangles, as shown by the dashed lines. Find its area.",
@@ -96152,6 +97034,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11a",
+     "help": "10h-pattern",
      "label": "11a",
      "section": "Enrichment",
      "stem": "A square with an area of $1$ unit is divided into pieces with areas $\\frac{1}{2}, \\frac{1}{4}, \\frac{1}{8}, \\ldots$, each piece half the size of the one before.",
@@ -96168,6 +97051,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11b",
+     "help": "10h-pattern",
      "label": "11b",
      "section": "Enrichment",
      "stem": "A square with an area of $1$ unit is divided into pieces with areas $\\frac{1}{2}, \\frac{1}{4}, \\frac{1}{8}, \\ldots$, each piece half the size of the one before.",
@@ -96181,6 +97065,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11c",
+     "help": "10h-pattern",
      "label": "11c",
      "section": "Enrichment",
      "stem": "A square with an area of $1$ unit is divided into pieces with areas $\\frac{1}{2}, \\frac{1}{4}, \\frac{1}{8}, \\ldots$, each piece half the size of the one before.",
@@ -96191,6 +97076,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11d",
+     "help": "10h-pattern",
      "label": "11d",
      "section": "Enrichment",
      "stem": "A square with an area of $1$ unit is divided into pieces with areas $\\frac{1}{2}, \\frac{1}{4}, \\frac{1}{8}, \\ldots$, each piece half the size of the one before.",
@@ -96208,6 +97094,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "10i-volume",
      "label": "1a",
      "section": "Fluency",
      "stem": "Find the volume of this rectangular prism.",
@@ -96316,6 +97203,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "10i-volume",
      "label": "1b",
      "section": "Fluency",
      "stem": "Find the volume of this rectangular prism.",
@@ -96424,6 +97312,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "10i-volume",
      "label": "2a",
      "section": "Fluency",
      "stem": "Find the volume of these rectangular prisms. Edges with the same mark are equal.",
@@ -96532,6 +97421,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "10i-volume",
      "label": "2b",
      "section": "Fluency",
      "stem": "Find the volume of these rectangular prisms. Edges with the same mark are equal.",
@@ -96647,6 +97537,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "10i-volume",
      "label": "2c",
      "section": "Fluency",
      "stem": "Find the volume of these rectangular prisms. Edges with the same mark are equal.",
@@ -96762,6 +97653,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "10i-volume",
      "label": "2d",
      "section": "Fluency",
      "stem": "Find the volume of these rectangular prisms. Edges with the same mark are equal.",
@@ -96877,6 +97769,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2e",
+     "help": "10i-volume",
      "label": "2e",
      "section": "Fluency",
      "stem": "Find the volume of these rectangular prisms. Edges with the same mark are equal.",
@@ -96985,6 +97878,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2f",
+     "help": "10i-volume",
      "label": "2f",
      "section": "Fluency",
      "stem": "Find the volume of these rectangular prisms. Edges with the same mark are equal.",
@@ -97093,6 +97987,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3",
+     "help": "10i-volume",
      "label": "3",
      "section": "Fluency",
      "type": "numeric",
@@ -97102,6 +97997,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4",
+     "help": "10i-volume",
      "label": "4",
      "section": "Fluency",
      "type": "numeric",
@@ -97111,6 +98007,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5",
+     "help": "10i-volume",
      "label": "5",
      "section": "Fluency",
      "type": "numeric",
@@ -97120,6 +98017,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6",
+     "help": "10i-volume",
      "label": "6",
      "section": "Fluency",
      "type": "numeric",
@@ -97129,6 +98027,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7a",
+     "help": "10i-composite",
      "label": "7a",
      "section": "Problem-solving",
      "stem": "These solids are made from more than one rectangular prism. Use addition or subtraction to find the volume of each solid.",
@@ -97316,6 +98215,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7b",
+     "help": "10i-composite",
      "label": "7b",
      "section": "Problem-solving",
      "stem": "These solids are made from more than one rectangular prism. Use addition or subtraction to find the volume of each solid.",
@@ -97460,6 +98360,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7c",
+     "help": "10i-composite",
      "label": "7c",
      "section": "Problem-solving",
      "stem": "These solids are made from more than one rectangular prism. Use addition or subtraction to find the volume of each solid.",
@@ -97635,6 +98536,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7d",
+     "help": "10i-composite",
      "label": "7d",
      "section": "Problem-solving",
      "stem": "These solids are made from more than one rectangular prism. Use addition or subtraction to find the volume of each solid.",
@@ -97802,6 +98704,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8",
+     "help": "10i-packing",
      "label": "8",
      "section": "Problem-solving",
      "type": "numeric",
@@ -97811,6 +98714,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9",
+     "help": "10i-composite",
      "label": "9",
      "section": "Problem-solving",
      "type": "numeric",
@@ -97820,6 +98724,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10a",
+     "help": "10i-volume",
      "label": "10a",
      "section": "Problem-solving",
      "type": "numeric",
@@ -97829,6 +98734,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10b",
+     "help": "10i-volume",
      "label": "10b",
      "section": "Problem-solving",
      "type": "numeric",
@@ -97838,6 +98744,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11a",
+     "help": "10i-half",
      "label": "11a",
      "section": "Reasoning",
      "stem": "A rectangular prism is cut in half along a diagonal of its front face, right through to the back. The shaded solid is one half and the dashed lines show the half that was removed. Find the volume of the half that is left.",
@@ -97978,6 +98885,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11b",
+     "help": "10i-half",
      "label": "11b",
      "section": "Reasoning",
      "stem": "A rectangular prism is cut in half along a diagonal of its front face, right through to the back. The shaded solid is one half and the dashed lines show the half that was removed. Find the volume of the half that is left.",
@@ -98118,6 +99026,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11c",
+     "help": "10i-half",
      "label": "11c",
      "section": "Reasoning",
      "stem": "A rectangular prism is cut in half along a diagonal of its front face, right through to the back. The shaded solid is one half and the dashed lines show the half that was removed. Find the volume of the half that is left.",
@@ -98258,6 +99167,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12a",
+     "help": "10i-height",
      "label": "12a",
      "section": "Reasoning",
      "stem": "Find the height $h$ of each rectangular prism, using its volume $V$.",
@@ -98366,6 +99276,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12b",
+     "help": "10i-height",
      "label": "12b",
      "section": "Reasoning",
      "stem": "Find the height $h$ of each rectangular prism, using its volume $V$.",
@@ -98474,6 +99385,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12c",
+     "help": "10i-height",
      "label": "12c",
      "section": "Reasoning",
      "stem": "Find the height $h$ of each rectangular prism, using its volume $V$.",
@@ -98582,6 +99494,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12d",
+     "help": "10i-height",
      "label": "12d",
      "section": "Reasoning",
      "stem": "Find the height $h$ of each rectangular prism, using its volume $V$.",
@@ -98690,6 +99603,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12e",
+     "help": "10i-height",
      "label": "12e",
      "section": "Reasoning",
      "type": "expression",
@@ -98702,6 +99616,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13a",
+     "help": "10i-units",
      "label": "13a",
      "section": "Enrichment",
      "stem": "A cube with side length $1$ cm is cut up into tiny cubes with side length $1$ mm.",
@@ -98711,6 +99626,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13b",
+     "help": "10i-units",
      "label": "13b",
      "section": "Enrichment",
      "stem": "A cube with side length $1$ cm is cut up into tiny cubes with side length $1$ mm.",
@@ -98720,6 +99636,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13c",
+     "help": "10i-units",
      "label": "13c",
      "section": "Enrichment",
      "stem": "A cube with side length $1$ cm is cut up into tiny cubes with side length $1$ mm.",
@@ -98729,6 +99646,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13d",
+     "help": "10i-units",
      "label": "13d",
      "section": "Enrichment",
      "stem": "A cube with side length $1$ cm is cut up into tiny cubes with side length $1$ mm.",
@@ -98739,6 +99657,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13e",
+     "help": "10i-units",
      "label": "13e",
      "section": "Enrichment",
      "stem": "Use the same method to find the number of:",
@@ -98749,6 +99668,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13f",
+     "help": "10i-units",
      "label": "13f",
      "section": "Enrichment",
      "stem": "Use the same method to find the number of:",
@@ -98759,6 +99679,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13g",
+     "help": "10i-units",
      "label": "13g",
      "section": "Enrichment",
      "stem": "Use your answers to convert to the units in brackets.",
@@ -98769,6 +99690,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13h",
+     "help": "10i-units",
      "label": "13h",
      "section": "Enrichment",
      "stem": "Use your answers to convert to the units in brackets.",
@@ -98779,6 +99701,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13i",
+     "help": "10i-units",
      "label": "13i",
      "section": "Enrichment",
      "stem": "Use your answers to convert to the units in brackets.",
@@ -98789,6 +99712,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13j",
+     "help": "10i-units",
      "label": "13j",
      "section": "Enrichment",
      "stem": "Use your answers to convert to the units in brackets.",
@@ -98807,6 +99731,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "10j-volume",
      "label": "1a",
      "section": "Fluency",
      "stem": "Find the volume of this triangular prism.",
@@ -98926,6 +99851,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "10j-volume",
      "label": "1b",
      "section": "Fluency",
      "stem": "Find the volume of this triangular prism.",
@@ -99025,6 +99951,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "10j-volume",
      "label": "2a",
      "section": "Fluency",
      "stem": "Find the volume of these triangular prisms.",
@@ -99144,6 +100071,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "10j-volume",
      "label": "2b",
      "section": "Fluency",
      "stem": "Find the volume of these triangular prisms.",
@@ -99263,6 +100191,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "10j-volume",
      "label": "2c",
      "section": "Fluency",
      "stem": "Find the volume of these triangular prisms.",
@@ -99382,6 +100311,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "10j-volume",
      "label": "2d",
      "section": "Fluency",
      "stem": "Find the volume of these triangular prisms.",
@@ -99481,6 +100411,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2e",
+     "help": "10j-volume",
      "label": "2e",
      "section": "Fluency",
      "stem": "Find the volume of these triangular prisms.",
@@ -99580,6 +100511,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2f",
+     "help": "10j-volume",
      "label": "2f",
      "section": "Fluency",
      "stem": "Find the volume of these triangular prisms.",
@@ -99700,6 +100632,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "10j-volume",
      "label": "3a",
      "section": "Fluency",
      "stem": "Find the volume of these triangular prisms. The height of each triangle is measured outside the triangle.",
@@ -99810,6 +100743,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "10j-volume",
      "label": "3b",
      "section": "Fluency",
      "stem": "Find the volume of these triangular prisms. The height of each triangle is measured outside the triangle.",
@@ -99920,6 +100854,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "10j-volume",
      "label": "4a",
      "section": "Fluency",
      "stem": "Find the volume of these triangular prisms.",
@@ -100030,6 +100965,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "10j-volume",
      "label": "4b",
      "section": "Fluency",
      "stem": "Find the volume of these triangular prisms.",
@@ -100140,6 +101076,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "10j-volume",
      "label": "4c",
      "section": "Fluency",
      "stem": "Find the volume of these triangular prisms.",
@@ -100250,6 +101187,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5",
+     "help": "10j-volume",
      "label": "5",
      "section": "Fluency",
      "type": "numeric",
@@ -100348,6 +101286,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6",
+     "help": "10j-volume",
      "label": "6",
      "section": "Fluency",
      "type": "numeric",
@@ -100469,6 +101408,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7",
+     "help": "10j-volume",
      "label": "7",
      "section": "Problem-solving",
      "type": "numeric",
@@ -100478,6 +101418,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8a",
+     "help": "10j-composite",
      "label": "8a",
      "section": "Problem-solving",
      "stem": "These solids are made from rectangular and triangular prisms. Find the volume of each solid.",
@@ -100637,6 +101578,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8b",
+     "help": "10j-composite",
      "label": "8b",
      "section": "Problem-solving",
      "stem": "These solids are made from rectangular and triangular prisms. Find the volume of each solid.",
@@ -100764,6 +101706,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8c",
+     "help": "10j-composite",
      "label": "8c",
      "section": "Problem-solving",
      "stem": "These solids are made from rectangular and triangular prisms. Find the volume of each solid.",
@@ -100891,6 +101834,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8d",
+     "help": "10j-composite",
      "label": "8d",
      "section": "Problem-solving",
      "stem": "These solids are made from rectangular and triangular prisms. Find the volume of each solid.",
@@ -101024,6 +101968,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9",
+     "help": "10j-composite",
      "label": "9",
      "section": "Problem-solving",
      "type": "numeric",
@@ -101033,6 +101978,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10a",
+     "help": "10j-missing",
      "label": "10a",
      "section": "Reasoning",
      "stem": "These questions are about triangular prisms with a given volume. Find the missing measurement.",
@@ -101043,6 +101989,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10b",
+     "help": "10j-missing",
      "label": "10b",
      "section": "Reasoning",
      "stem": "These questions are about triangular prisms with a given volume. Find the missing measurement.",
@@ -101053,6 +102000,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10c",
+     "help": "10j-missing",
      "label": "10c",
      "section": "Reasoning",
      "stem": "These questions are about triangular prisms with a given volume. Find the missing measurement.",
@@ -101063,6 +102011,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10d",
+     "help": "10j-missing",
      "label": "10d",
      "section": "Reasoning",
      "stem": "These questions are about triangular prisms with a given volume. Find the missing measurement.",
@@ -101073,6 +102022,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11",
+     "help": "10j-missing",
      "label": "11",
      "section": "Reasoning",
      "type": "numeric",
@@ -101082,6 +102032,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12",
+     "help": "10j-missing",
      "label": "12",
      "section": "Reasoning",
      "type": "numeric",
@@ -101091,6 +102042,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13a",
+     "help": "10j-rules",
      "label": "13a",
      "section": "Enrichment",
      "stem": "A triangular prism has volume $V$ and length $l$. Its triangular cross-section has base $b$ and height $h$.",
@@ -101193,6 +102145,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13b",
+     "help": "10j-rules",
      "label": "13b",
      "section": "Enrichment",
      "stem": "A triangular prism has volume $V$ and length $l$. Its triangular cross-section has base $b$ and height $h$.",
@@ -101206,6 +102159,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13c",
+     "help": "10j-rules",
      "label": "13c",
      "section": "Enrichment",
      "stem": "A triangular prism has volume $V$ and length $l$. Its triangular cross-section has base $b$ and height $h$.",
@@ -101219,6 +102173,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13d",
+     "help": "10j-rules",
      "label": "13d",
      "section": "Enrichment",
      "stem": "A triangular prism has volume $V$ and length $l$. Its triangular cross-section has base $b$ and height $h$.",
@@ -101232,6 +102187,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13e",
+     "help": "10j-rules",
      "label": "13e",
      "section": "Enrichment",
      "stem": "Use one of your rules to find the missing value.",
@@ -101241,6 +102197,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13f",
+     "help": "10j-rules",
      "label": "13f",
      "section": "Enrichment",
      "stem": "Use one of your rules to find the missing value.",
@@ -101250,6 +102207,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13g",
+     "help": "10j-rules",
      "label": "13g",
      "section": "Enrichment",
      "stem": "Use one of your rules to find the missing value.",
@@ -101267,6 +102225,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "10k-convert",
      "label": "1a",
      "section": "Fluency",
      "stem": "Convert to the units shown in the brackets.",
@@ -101277,6 +102236,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "10k-convert",
      "label": "1b",
      "section": "Fluency",
      "stem": "Convert to the units shown in the brackets.",
@@ -101287,6 +102247,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1c",
+     "help": "10k-convert",
      "label": "1c",
      "section": "Fluency",
      "stem": "Convert to the units shown in the brackets.",
@@ -101297,6 +102258,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1d",
+     "help": "10k-convert",
      "label": "1d",
      "section": "Fluency",
      "stem": "Convert to the units shown in the brackets.",
@@ -101307,6 +102269,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1e",
+     "help": "10k-convert",
      "label": "1e",
      "section": "Fluency",
      "stem": "Convert to the units shown in the brackets.",
@@ -101317,6 +102280,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1f",
+     "help": "10k-convert",
      "label": "1f",
      "section": "Fluency",
      "stem": "Convert to the units shown in the brackets.",
@@ -101327,6 +102291,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "10k-convert",
      "label": "2a",
      "section": "Fluency",
      "stem": "Convert to the units shown in the brackets.",
@@ -101337,6 +102302,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "10k-convert",
      "label": "2b",
      "section": "Fluency",
      "stem": "Convert to the units shown in the brackets.",
@@ -101347,6 +102313,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "10k-convert",
      "label": "2c",
      "section": "Fluency",
      "stem": "Convert to the units shown in the brackets.",
@@ -101357,6 +102324,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "10k-convert",
      "label": "2d",
      "section": "Fluency",
      "stem": "Convert to the units shown in the brackets.",
@@ -101367,6 +102335,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2e",
+     "help": "10k-convert",
      "label": "2e",
      "section": "Fluency",
      "stem": "Convert to the units shown in the brackets.",
@@ -101377,6 +102346,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2f",
+     "help": "10k-convert",
      "label": "2f",
      "section": "Fluency",
      "stem": "Convert to the units shown in the brackets.",
@@ -101387,6 +102357,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2g",
+     "help": "10k-convert",
      "label": "2g",
      "section": "Fluency",
      "stem": "Convert to the units shown in the brackets.",
@@ -101397,6 +102368,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2h",
+     "help": "10k-convert",
      "label": "2h",
      "section": "Fluency",
      "stem": "Convert to the units shown in the brackets.",
@@ -101407,6 +102379,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2i",
+     "help": "10k-convert",
      "label": "2i",
      "section": "Fluency",
      "stem": "Convert to the units shown in the brackets.",
@@ -101417,6 +102390,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2j",
+     "help": "10k-convert",
      "label": "2j",
      "section": "Fluency",
      "stem": "Convert to the units shown in the brackets.",
@@ -101427,6 +102401,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2k",
+     "help": "10k-convert",
      "label": "2k",
      "section": "Fluency",
      "stem": "Convert to the units shown in the brackets.",
@@ -101437,6 +102412,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2l",
+     "help": "10k-convert",
      "label": "2l",
      "section": "Fluency",
      "stem": "Convert to the units shown in the brackets.",
@@ -101447,6 +102423,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2m",
+     "help": "10k-convert",
      "label": "2m",
      "section": "Fluency",
      "stem": "Convert to the units shown in the brackets.",
@@ -101457,6 +102434,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2n",
+     "help": "10k-convert",
      "label": "2n",
      "section": "Fluency",
      "stem": "Convert to the units shown in the brackets.",
@@ -101467,6 +102445,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2o",
+     "help": "10k-convert",
      "label": "2o",
      "section": "Fluency",
      "stem": "Convert to the units shown in the brackets.",
@@ -101477,6 +102456,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2p",
+     "help": "10k-convert",
      "label": "2p",
      "section": "Fluency",
      "stem": "Convert to the units shown in the brackets.",
@@ -101487,6 +102467,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "10k-scale",
      "label": "3a",
      "section": "Fluency",
      "stem": "Read the scale to find the amount of water in each container.",
@@ -101753,6 +102734,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "10k-scale",
      "label": "3b",
      "section": "Fluency",
      "stem": "Read the scale to find the amount of water in each container.",
@@ -101971,6 +102953,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "10k-scale",
      "label": "3c",
      "section": "Fluency",
      "stem": "Read the scale to find the amount of water in each container.",
@@ -102237,6 +103220,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "10k-problems",
      "label": "4a",
      "section": "Fluency",
      "stem": "A glass holding $300$ mL of juice is poured into a jug that already holds $2$ L of juice. Find the total amount of juice in:",
@@ -102247,6 +103231,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "10k-problems",
      "label": "4b",
      "section": "Fluency",
      "stem": "A glass holding $300$ mL of juice is poured into a jug that already holds $2$ L of juice. Find the total amount of juice in:",
@@ -102257,6 +103242,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "10k-convert",
      "label": "5a",
      "section": "Fluency",
      "stem": "Convert to the units shown in the brackets.",
@@ -102267,6 +103253,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "10k-convert",
      "label": "5b",
      "section": "Fluency",
      "stem": "Convert to the units shown in the brackets.",
@@ -102277,6 +103264,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "10k-convert",
      "label": "5c",
      "section": "Fluency",
      "stem": "Convert to the units shown in the brackets.",
@@ -102287,6 +103275,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5d",
+     "help": "10k-convert",
      "label": "5d",
      "section": "Fluency",
      "stem": "Convert to the units shown in the brackets.",
@@ -102297,6 +103286,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5e",
+     "help": "10k-convert",
      "label": "5e",
      "section": "Fluency",
      "stem": "Convert to the units shown in the brackets.",
@@ -102307,6 +103297,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5f",
+     "help": "10k-convert",
      "label": "5f",
      "section": "Fluency",
      "stem": "Convert to the units shown in the brackets.",
@@ -102317,6 +103308,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5g",
+     "help": "10k-convert",
      "label": "5g",
      "section": "Fluency",
      "stem": "Convert to the units shown in the brackets.",
@@ -102327,6 +103319,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5h",
+     "help": "10k-convert",
      "label": "5h",
      "section": "Fluency",
      "stem": "Convert to the units shown in the brackets.",
@@ -102337,6 +103330,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6",
+     "help": "10k-convert",
      "label": "6",
      "section": "Fluency",
      "type": "numeric",
@@ -102346,6 +103340,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7a",
+     "help": "10k-volume",
      "label": "7a",
      "section": "Fluency",
      "stem": "Find the capacity of each rectangular prism container, in litres. Remember $1000$ cm³ $= 1$ L.",
@@ -102454,6 +103449,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7b",
+     "help": "10k-volume",
      "label": "7b",
      "section": "Fluency",
      "stem": "Find the capacity of each rectangular prism container, in litres. Remember $1000$ cm³ $= 1$ L.",
@@ -102562,6 +103558,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7c",
+     "help": "10k-volume",
      "label": "7c",
      "section": "Fluency",
      "stem": "Find the capacity of each rectangular prism container, in litres. Remember $1000$ cm³ $= 1$ L.",
@@ -102670,6 +103667,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7d",
+     "help": "10k-volume",
      "label": "7d",
      "section": "Fluency",
      "stem": "Find the capacity of each rectangular prism container, in litres. Remember $1000$ cm³ $= 1$ L.",
@@ -102778,6 +103776,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7e",
+     "help": "10k-volume",
      "label": "7e",
      "section": "Fluency",
      "stem": "Find the capacity of each rectangular prism container, in litres. Remember $1000$ cm³ $= 1$ L.",
@@ -102886,6 +103885,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7f",
+     "help": "10k-volume",
      "label": "7f",
      "section": "Fluency",
      "stem": "Find the capacity of each rectangular prism container, in litres. Remember $1000$ cm³ $= 1$ L.",
@@ -103001,6 +104001,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8a",
+     "help": "10k-volume",
      "label": "8a",
      "section": "Problem-solving",
      "stem": "A swimming pool in the shape of a rectangular prism is $25$ m long, $10$ m wide and $1.5$ m deep. Find the pool's:",
@@ -103011,6 +104012,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8b",
+     "help": "10k-volume",
      "label": "8b",
      "section": "Problem-solving",
      "stem": "A swimming pool in the shape of a rectangular prism is $25$ m long, $10$ m wide and $1.5$ m deep. Find the pool's:",
@@ -103021,6 +104023,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9a",
+     "help": "10k-problems",
      "label": "9a",
      "section": "Problem-solving",
      "stem": "A dripping tap leaks about $12$ mL of water every minute.",
@@ -103031,6 +104034,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9b",
+     "help": "10k-problems",
      "label": "9b",
      "section": "Problem-solving",
      "stem": "A dripping tap leaks about $12$ mL of water every minute.",
@@ -103041,6 +104045,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9c",
+     "help": "10k-problems",
      "label": "9c",
      "section": "Problem-solving",
      "stem": "A dripping tap leaks about $12$ mL of water every minute.",
@@ -103051,6 +104056,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9d",
+     "help": "10k-problems",
      "label": "9d",
      "section": "Problem-solving",
      "stem": "A dripping tap leaks about $12$ mL of water every minute.",
@@ -103061,6 +104067,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9e",
+     "help": "10k-problems",
      "label": "9e",
      "section": "Problem-solving",
      "stem": "A dripping tap leaks about $12$ mL of water every minute.",
@@ -103071,6 +104078,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10",
+     "help": "10k-problems",
      "label": "10",
      "section": "Problem-solving",
      "type": "numeric",
@@ -103080,6 +104088,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11",
+     "help": "10k-problems",
      "label": "11",
      "section": "Problem-solving",
      "type": "numeric",
@@ -103089,6 +104098,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12",
+     "help": "10k-problems",
      "label": "12",
      "section": "Problem-solving",
      "type": "numeric",
@@ -103098,6 +104108,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13a",
+     "help": "10k-rules",
      "label": "13a",
      "section": "Reasoning",
      "stem": "If $p$ is any number, then $p$ litres is the same as $1000 \\times p = 1000p$ millilitres, because there are $1000$ mL in $1$ L. Write an expression for $p$ litres in these units.",
@@ -103108,6 +104119,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13b",
+     "help": "10k-rules",
      "label": "13b",
      "section": "Reasoning",
      "stem": "If $p$ is any number, then $p$ litres is the same as $1000 \\times p = 1000p$ millilitres, because there are $1000$ mL in $1$ L. Write an expression for $p$ litres in these units.",
@@ -103117,6 +104129,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13c",
+     "help": "10k-rules",
      "label": "13c",
      "section": "Reasoning",
      "stem": "If $p$ is any number, then $p$ litres is the same as $1000 \\times p = 1000p$ millilitres, because there are $1000$ mL in $1$ L. Write an expression for $p$ litres in these units.",
@@ -103126,6 +104139,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13d",
+     "help": "10k-rules",
      "label": "13d",
      "section": "Reasoning",
      "stem": "If $p$ is any number, then $p$ litres is the same as $1000 \\times p = 1000p$ millilitres, because there are $1000$ mL in $1$ L. Write an expression for $p$ litres in these units.",
@@ -103135,6 +104149,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14a",
+     "help": "10k-rules",
      "label": "14a",
      "section": "Reasoning",
      "stem": "A rectangular prism container is $l$ cm long, $w$ cm wide and $h$ cm high. Write an expression for its capacity in:",
@@ -103145,6 +104160,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14b",
+     "help": "10k-rules",
      "label": "14b",
      "section": "Reasoning",
      "stem": "A rectangular prism container is $l$ cm long, $w$ cm wide and $h$ cm high. Write an expression for its capacity in:",
@@ -103154,6 +104170,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14c",
+     "help": "10k-rules",
      "label": "14c",
      "section": "Reasoning",
      "stem": "A rectangular prism container is $l$ cm long, $w$ cm wide and $h$ cm high. Write an expression for its capacity in:",
@@ -103163,6 +104180,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14d",
+     "help": "10k-rules",
      "label": "14d",
      "section": "Reasoning",
      "stem": "A rectangular prism container is $l$ cm long, $w$ cm wide and $h$ cm high. Write an expression for its capacity in:",
@@ -103172,6 +104190,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14e",
+     "help": "10k-rules",
      "label": "14e",
      "section": "Reasoning",
      "stem": "A rectangular prism container is $l$ m long, $w$ m wide and $h$ m high. Write an expression for its capacity in:",
@@ -103181,6 +104200,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14f",
+     "help": "10k-rules",
      "label": "14f",
      "section": "Reasoning",
      "stem": "A rectangular prism container is $l$ m long, $w$ m wide and $h$ m high. Write an expression for its capacity in:",
@@ -103190,6 +104210,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14g",
+     "help": "10k-rules",
      "label": "14g",
      "section": "Reasoning",
      "stem": "A rectangular prism container is $l$ m long, $w$ m wide and $h$ m high. Write an expression for its capacity in:",
@@ -103199,6 +104220,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14h",
+     "help": "10k-rules",
      "label": "14h",
      "section": "Reasoning",
      "stem": "A rectangular prism container is $l$ m long, $w$ m wide and $h$ m high. Write an expression for its capacity in:",
@@ -103208,6 +104230,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15a",
+     "help": "10k-depth",
      "label": "15a",
      "section": "Enrichment",
      "stem": "A container is $20$ cm long, $10$ cm wide and $12$ cm high. Remember $1$ mL $= 1$ cm³. Find the depth of water when this amount is poured into the empty container:",
@@ -103316,6 +104339,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15b",
+     "help": "10k-depth",
      "label": "15b",
      "section": "Enrichment",
      "stem": "A container is $20$ cm long, $10$ cm wide and $12$ cm high. Remember $1$ mL $= 1$ cm³. Find the depth of water when this amount is poured into the empty container:",
@@ -103326,6 +104350,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15c",
+     "help": "10k-depth",
      "label": "15c",
      "section": "Enrichment",
      "stem": "A container is $20$ cm long, $10$ cm wide and $12$ cm high. Remember $1$ mL $= 1$ cm³. Find the depth of water when this amount is poured into the empty container:",
@@ -103336,6 +104361,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15d",
+     "help": "10k-depth",
      "label": "15d",
      "section": "Enrichment",
      "type": "numeric",
@@ -103345,6 +104371,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15e",
+     "help": "10k-depth",
      "label": "15e",
      "section": "Enrichment",
      "type": "numeric",
@@ -103362,6 +104389,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "10l-convert",
      "label": "1a",
      "section": "Fluency",
      "stem": "Convert to the units shown in the brackets.",
@@ -103372,6 +104400,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "10l-convert",
      "label": "1b",
      "section": "Fluency",
      "stem": "Convert to the units shown in the brackets.",
@@ -103382,6 +104411,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1c",
+     "help": "10l-convert",
      "label": "1c",
      "section": "Fluency",
      "stem": "Convert to the units shown in the brackets.",
@@ -103392,6 +104422,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1d",
+     "help": "10l-convert",
      "label": "1d",
      "section": "Fluency",
      "stem": "Convert to the units shown in the brackets.",
@@ -103402,6 +104433,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "10l-convert",
      "label": "2a",
      "section": "Fluency",
      "stem": "Convert to the units shown in the brackets.",
@@ -103412,6 +104444,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "10l-convert",
      "label": "2b",
      "section": "Fluency",
      "stem": "Convert to the units shown in the brackets.",
@@ -103422,6 +104455,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "10l-convert",
      "label": "2c",
      "section": "Fluency",
      "stem": "Convert to the units shown in the brackets.",
@@ -103432,6 +104466,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "10l-convert",
      "label": "2d",
      "section": "Fluency",
      "stem": "Convert to the units shown in the brackets.",
@@ -103442,6 +104477,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2e",
+     "help": "10l-convert",
      "label": "2e",
      "section": "Fluency",
      "stem": "Convert to the units shown in the brackets.",
@@ -103452,6 +104488,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2f",
+     "help": "10l-convert",
      "label": "2f",
      "section": "Fluency",
      "stem": "Convert to the units shown in the brackets.",
@@ -103462,6 +104499,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2g",
+     "help": "10l-convert",
      "label": "2g",
      "section": "Fluency",
      "stem": "Convert to the units shown in the brackets.",
@@ -103472,6 +104510,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2h",
+     "help": "10l-convert",
      "label": "2h",
      "section": "Fluency",
      "stem": "Convert to the units shown in the brackets.",
@@ -103482,6 +104521,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2i",
+     "help": "10l-convert",
      "label": "2i",
      "section": "Fluency",
      "stem": "Convert to the units shown in the brackets.",
@@ -103492,6 +104532,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2j",
+     "help": "10l-convert",
      "label": "2j",
      "section": "Fluency",
      "stem": "Convert to the units shown in the brackets.",
@@ -103502,6 +104543,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2k",
+     "help": "10l-convert",
      "label": "2k",
      "section": "Fluency",
      "stem": "Convert to the units shown in the brackets.",
@@ -103512,6 +104554,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2l",
+     "help": "10l-convert",
      "label": "2l",
      "section": "Fluency",
      "stem": "Convert to the units shown in the brackets.",
@@ -103522,6 +104565,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2m",
+     "help": "10l-convert",
      "label": "2m",
      "section": "Fluency",
      "stem": "Convert to the units shown in the brackets.",
@@ -103532,6 +104576,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2n",
+     "help": "10l-convert",
      "label": "2n",
      "section": "Fluency",
      "stem": "Convert to the units shown in the brackets.",
@@ -103542,6 +104587,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2o",
+     "help": "10l-convert",
      "label": "2o",
      "section": "Fluency",
      "stem": "Convert to the units shown in the brackets.",
@@ -103552,6 +104598,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2p",
+     "help": "10l-convert",
      "label": "2p",
      "section": "Fluency",
      "stem": "Convert to the units shown in the brackets.",
@@ -103562,6 +104609,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "10l-scale",
      "label": "3a",
      "section": "Fluency",
      "stem": "What mass is shown on each scale?",
@@ -103869,6 +104917,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "10l-scale",
      "label": "3b",
      "section": "Fluency",
      "stem": "What mass is shown on each scale?",
@@ -104410,6 +105459,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "10l-scale",
      "label": "3c",
      "section": "Fluency",
      "stem": "What mass is shown on each scale?",
@@ -104644,6 +105694,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "10l-scale",
      "label": "4a",
      "section": "Fluency",
      "stem": "What temperature is shown on each scale?",
@@ -104926,6 +105977,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "10l-scale",
      "label": "4b",
      "section": "Fluency",
      "stem": "What temperature is shown on each scale?",
@@ -105176,6 +106228,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "10l-scale",
      "label": "4c",
      "section": "Fluency",
      "stem": "What temperature is shown on each scale?",
@@ -105410,6 +106463,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "10l-scale",
      "label": "4d",
      "section": "Fluency",
      "stem": "What temperature is shown on each scale?",
@@ -105753,6 +106807,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4e",
+     "help": "10l-scale",
      "label": "4e",
      "section": "Fluency",
      "stem": "What temperature is shown on each scale?",
@@ -106200,6 +107255,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4f",
+     "help": "10l-scale",
      "label": "4f",
      "section": "Fluency",
      "stem": "What temperature is shown on each scale?",
@@ -106788,6 +107844,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "10l-convert",
      "label": "5a",
      "section": "Fluency",
      "stem": "A delivery van drops off $0.08$ t of sand for a sandpit. Write the mass of sand in:",
@@ -106798,6 +107855,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "10l-convert",
      "label": "5b",
      "section": "Fluency",
      "stem": "A delivery van drops off $0.08$ t of sand for a sandpit. Write the mass of sand in:",
@@ -106808,6 +107866,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "10l-convert",
      "label": "5c",
      "section": "Fluency",
      "stem": "A delivery van drops off $0.08$ t of sand for a sandpit. Write the mass of sand in:",
@@ -106818,6 +107877,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6a",
+     "help": "10l-problems",
      "label": "6a",
      "section": "Fluency",
      "stem": "A crate holds $24$ bags of rice, each with a mass of $250$ g. What is the approximate mass of the rice in the crate in:",
@@ -106828,6 +107888,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6b",
+     "help": "10l-problems",
      "label": "6b",
      "section": "Fluency",
      "stem": "A crate holds $24$ bags of rice, each with a mass of $250$ g. What is the approximate mass of the rice in the crate in:",
@@ -106838,6 +107899,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7",
+     "help": "10l-temp",
      "label": "7",
      "section": "Fluency",
      "type": "numeric",
@@ -106847,6 +107909,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8",
+     "help": "10l-temp",
      "label": "8",
      "section": "Fluency",
      "type": "numeric",
@@ -106856,6 +107919,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9a",
+     "help": "10l-mixed",
      "label": "9a",
      "section": "Fluency",
      "stem": "Add these masses and give the total in kg.",
@@ -106866,6 +107930,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9b",
+     "help": "10l-mixed",
      "label": "9b",
      "section": "Fluency",
      "stem": "Add these masses and give the total in kg.",
@@ -106876,6 +107941,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10a",
+     "help": "10l-mixed",
      "label": "10a",
      "section": "Problem-solving",
      "stem": "Write these masses in order from smallest to largest.",
@@ -106891,6 +107957,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10b",
+     "help": "10l-mixed",
      "label": "10b",
      "section": "Problem-solving",
      "stem": "Write these masses in order from smallest to largest.",
@@ -106905,6 +107972,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11a",
+     "help": "10l-temp",
      "label": "11a",
      "section": "Problem-solving",
      "stem": "The lowest and highest temperatures each day for a week are shown in the table.",
@@ -106949,6 +108017,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11b",
+     "help": "10l-temp",
      "label": "11b",
      "section": "Problem-solving",
      "stem": "The lowest and highest temperatures each day for a week are shown in the table.",
@@ -106959,6 +108028,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11c",
+     "help": "10l-temp",
      "label": "11c",
      "section": "Problem-solving",
      "stem": "The lowest and highest temperatures each day for a week are shown in the table.",
@@ -106969,6 +108039,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12",
+     "help": "10l-problems",
      "label": "12",
      "section": "Problem-solving",
      "type": "numeric",
@@ -106978,6 +108049,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13a",
+     "help": "10l-problems",
      "label": "13a",
      "section": "Problem-solving",
      "stem": "A boat can safely carry up to $4$ t. It is loaded with $1200$ tins of tomatoes at $400$ g each, $40$ bags of flour at $25$ kg each, $160$ boxes of pineapples at $6.5$ kg each, and $12$ people with an average mass of $75$ kg.",
@@ -106988,6 +108060,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13b",
+     "help": "10l-problems",
      "label": "13b",
      "section": "Problem-solving",
      "stem": "A boat can safely carry up to $4$ t. It is loaded with $1200$ tins of tomatoes at $400$ g each, $40$ bags of flour at $25$ kg each, $160$ boxes of pineapples at $6.5$ kg each, and $12$ people with an average mass of $75$ kg.",
@@ -107001,6 +108074,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14a",
+     "help": "10l-problems",
      "label": "14a",
      "section": "Problem-solving",
      "stem": "A truck has a tare mass (its mass with no load) of $12.6$ t. Its gross mass limit (the most it may weigh, including the load) is $52.8$ t.",
@@ -107011,6 +108085,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14b",
+     "help": "10l-problems",
      "label": "14b",
      "section": "Problem-solving",
      "stem": "A truck has a tare mass (its mass with no load) of $12.6$ t. Its gross mass limit (the most it may weigh, including the load) is $52.8$ t.",
@@ -107024,6 +108099,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15a",
+     "help": "10l-water",
      "label": "15a",
      "section": "Reasoning",
      "stem": "Water has a mass of $1$ kg per litre. Find the mass of these amounts of water.",
@@ -107034,6 +108110,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15b",
+     "help": "10l-water",
      "label": "15b",
      "section": "Reasoning",
      "stem": "Water has a mass of $1$ kg per litre. Find the mass of these amounts of water.",
@@ -107044,6 +108121,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15c",
+     "help": "10l-water",
      "label": "15c",
      "section": "Reasoning",
      "stem": "Water has a mass of $1$ kg per litre. Find the mass of these amounts of water.",
@@ -107054,6 +108132,7 @@ window.H3_BANK = {
     },
     {
      "id": "q16a",
+     "help": "10l-water",
      "label": "16a",
      "section": "Reasoning",
      "stem": "Each container is a rectangular prism filled with water. Find the mass of the water, in kg.",
@@ -107162,6 +108241,7 @@ window.H3_BANK = {
     },
     {
      "id": "q16b",
+     "help": "10l-water",
      "label": "16b",
      "section": "Reasoning",
      "stem": "Each container is a rectangular prism filled with water. Find the mass of the water, in kg.",
@@ -107277,6 +108357,7 @@ window.H3_BANK = {
     },
     {
      "id": "q16c",
+     "help": "10l-water",
      "label": "16c",
      "section": "Reasoning",
      "stem": "Each container is a rectangular prism filled with water. Find the mass of the water, in kg.",
@@ -107385,6 +108466,7 @@ window.H3_BANK = {
     },
     {
      "id": "q17a",
+     "help": "10l-kelvin",
      "label": "17a",
      "section": "Reasoning",
      "stem": "The kelvin (K) is a temperature unit used by scientists. $273$ K is about $0$°C, and a rise of $1$ K is the same as a rise of $1$°C.",
@@ -107395,6 +108477,7 @@ window.H3_BANK = {
     },
     {
      "id": "q17b",
+     "help": "10l-kelvin",
      "label": "17b",
      "section": "Reasoning",
      "stem": "The kelvin (K) is a temperature unit used by scientists. $273$ K is about $0$°C, and a rise of $1$ K is the same as a rise of $1$°C.",
@@ -107405,6 +108488,7 @@ window.H3_BANK = {
     },
     {
      "id": "q17c",
+     "help": "10l-kelvin",
      "label": "17c",
      "section": "Reasoning",
      "stem": "The kelvin (K) is a temperature unit used by scientists. $273$ K is about $0$°C, and a rise of $1$ K is the same as a rise of $1$°C.",
@@ -107415,6 +108499,7 @@ window.H3_BANK = {
     },
     {
      "id": "q17d",
+     "help": "10l-kelvin",
      "label": "17d",
      "section": "Reasoning",
      "stem": "The kelvin (K) is a temperature unit used by scientists. $273$ K is about $0$°C, and a rise of $1$ K is the same as a rise of $1$°C.",
@@ -107425,6 +108510,7 @@ window.H3_BANK = {
     },
     {
      "id": "q17e",
+     "help": "10l-kelvin",
      "label": "17e",
      "section": "Reasoning",
      "stem": "The kelvin (K) is a temperature unit used by scientists. $273$ K is about $0$°C, and a rise of $1$ K is the same as a rise of $1$°C.",
@@ -107435,6 +108521,7 @@ window.H3_BANK = {
     },
     {
      "id": "q17f",
+     "help": "10l-kelvin",
      "label": "17f",
      "section": "Reasoning",
      "stem": "The kelvin (K) is a temperature unit used by scientists. $273$ K is about $0$°C, and a rise of $1$ K is the same as a rise of $1$°C.",
@@ -107445,6 +108532,7 @@ window.H3_BANK = {
     },
     {
      "id": "q18a",
+     "help": "10l-fahrenheit",
      "label": "18a",
      "section": "Enrichment",
      "stem": "On the Fahrenheit scale, water freezes at $32$°F and boils at $212$°F.",
@@ -107455,6 +108543,7 @@ window.H3_BANK = {
     },
     {
      "id": "q18b",
+     "help": "10l-fahrenheit",
      "label": "18b",
      "section": "Enrichment",
      "stem": "On the Fahrenheit scale, water freezes at $32$°F and boils at $212$°F.",
@@ -107466,6 +108555,7 @@ window.H3_BANK = {
     },
     {
      "id": "q18c",
+     "help": "10l-fahrenheit",
      "label": "18c",
      "section": "Enrichment",
      "stem": "On the Fahrenheit scale, water freezes at $32$°F and boils at $212$°F.",
@@ -107476,6 +108566,7 @@ window.H3_BANK = {
     },
     {
      "id": "q18d",
+     "help": "10l-fahrenheit",
      "label": "18d",
      "section": "Enrichment",
      "stem": "To convert from °F to °C we use the rule $C = (F - 32) \\times \\frac{5}{9}$. Convert these temperatures to °C.",
@@ -107486,6 +108577,7 @@ window.H3_BANK = {
     },
     {
      "id": "q18e",
+     "help": "10l-fahrenheit",
      "label": "18e",
      "section": "Enrichment",
      "stem": "To convert from °F to °C we use the rule $C = (F - 32) \\times \\frac{5}{9}$. Convert these temperatures to °C.",
@@ -107496,6 +108588,7 @@ window.H3_BANK = {
     },
     {
      "id": "q18f",
+     "help": "10l-fahrenheit",
      "label": "18f",
      "section": "Enrichment",
      "stem": "To convert from °F to °C we use the rule $C = (F - 32) \\times \\frac{5}{9}$. Convert these temperatures to °C.",
@@ -107506,6 +108599,7 @@ window.H3_BANK = {
     },
     {
      "id": "q18g",
+     "help": "10l-fahrenheit",
      "label": "18g",
      "section": "Enrichment",
      "stem": "To convert from °F to °C we use the rule $C = (F - 32) \\times \\frac{5}{9}$. Convert these temperatures to °C.",
@@ -107516,6 +108610,7 @@ window.H3_BANK = {
     },
     {
      "id": "q18h",
+     "help": "10l-fahrenheit",
      "label": "18h",
      "section": "Enrichment",
      "type": "expression",
