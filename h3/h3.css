@@ -500,3 +500,5 @@ textarea, .small-input { width: 100%; font: 15px/1.4 var(--f-mono); color: var(-
 .fig-stemleaf td.sl-back { border-right: 2px solid var(--ink); text-align: right; letter-spacing: .12em; }
 .fig-stemleaf td.sl-leaf { letter-spacing: .12em; }
 .fig-stemleaf .sl-h { font: 700 12px var(--f-body); color: var(--muted); border-bottom: 1px solid var(--line); }
+
+.fig-cap { flex-basis: 100%; text-align: center; font: 800 14px var(--f-display); color: var(--muted); }

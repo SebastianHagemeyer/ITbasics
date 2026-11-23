@@ -342,9 +342,13 @@ const Checker = (() => {
   }
 
   // compare one value as number if possible, else as expression
+  // A list item that is a word (red, blue, heads) is compared as text. Comparing it as
+  // algebra would let the letters come in any order, so "bleu" would pass for "blue".
+  const isWord = (e) => /^[a-z]{3,}$/i.test(String(e).trim()) && /[aeiou]/i.test(String(e));
   function valueMatch(q, s, e) {
     const en = toNumber(e);
     if (en.ok) return numericMatch(q, s, e).correct;
+    if (isWord(e)) return clean(String(s)).trim().toLowerCase() === clean(String(e)).trim().toLowerCase();
     return expressionMatch(q, s, e).correct;
   }
 

@@ -377,7 +377,7 @@
       legend += `<span class="fig-key"><i class="fg-c${i % 6}"></i>${esc(lab)}</span>`;
       a = a1;
     });
-    return `<figure class="fig fig-frac"><svg viewBox="0 0 160 160" width="160" height="160" role="img" aria-label="${esc(f.alt || 'A sector graph')}">${g}</svg><figcaption class="fig-legend">${legend}</figcaption></figure>`;
+    return `<figure class="fig fig-frac"><svg viewBox="0 0 160 160" width="160" height="160" role="img" aria-label="${esc(f.alt || 'A sector graph')}">${g}</svg><figcaption class="fig-legend">${f.caption ? `<b class="fig-cap">${esc(f.caption)}</b>` : ''}${legend}</figcaption></figure>`;
   }
   function dividedbar(f) {
     const parts = f.parts || [], tot = parts.reduce((a, p) => a + p[1], 0) || 1, W = 340;
@@ -388,7 +388,7 @@
       legend += `<span class="fig-key"><i class="fg-c${i % 6}"></i>${esc(lab)}</span>`;
       x += w;
     });
-    return `<figure class="fig fig-frac"><svg viewBox="0 0 ${W + 4} 44" width="${W + 4}" role="img" aria-label="${esc(f.alt || 'A divided bar graph')}">${g}</svg><figcaption class="fig-legend">${legend}</figcaption></figure>`;
+    return `<figure class="fig fig-frac"><svg viewBox="0 0 ${W + 4} 44" width="${W + 4}" role="img" aria-label="${esc(f.alt || 'A divided bar graph')}">${g}</svg><figcaption class="fig-legend">${f.caption ? `<b class="fig-cap">${esc(f.caption)}</b>` : ''}${legend}</figcaption></figure>`;
   }
   function spinner(f) {
     const labs = f.labels || [], n = labs.length, R = 70, c = 80;
