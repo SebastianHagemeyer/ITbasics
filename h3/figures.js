@@ -187,7 +187,7 @@
   // ---- geometry and measurement diagrams ----
   // { "kind": "diagram", "unit": 36, "items": [ ... ] }  coordinates in units, y up.
   // Items (any mix):
-  //   { "seg": [x1, y1, x2, y2], "dash": true, "arrow": "end" | "start" | "both" }
+  //   { "seg": [x1, y1, x2, y2], "dash": true, "thin": true, "arrow": "end" | "start" | "both" }   (thin = grid line)
   //   { "poly": [[x, y], ...], "open": true, "fill": true }
   //   { "circle": [cx, cy, r], "fill": true }
   //   { "arc": [cx, cy, r, a1, a2] }               degrees, anticlockwise from east
@@ -254,7 +254,7 @@
       }
       if (it.seg) {
         const [ax, ay, bx, by] = it.seg;
-        g += `<line class="fg-line${it.dash ? ' fg-dash' : ''}" x1="${X(ax)}" y1="${Y(ay)}" x2="${X(bx)}" y2="${Y(by)}"/>`;
+        g += `<line class="${it.thin ? 'fg-dimline' : 'fg-line'}${it.dash ? ' fg-dash' : ''}" x1="${X(ax)}" y1="${Y(ay)}" x2="${X(bx)}" y2="${Y(by)}"/>`;
         if (it.arrow === 'end' || it.arrow === 'both') g += arrowAt(ax, ay, bx, by);
         if (it.arrow === 'start' || it.arrow === 'both') g += arrowAt(bx, by, ax, ay);
       }

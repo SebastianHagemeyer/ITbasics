@@ -204,7 +204,7 @@ const Checker = (() => {
     let r = tryParse(s);
     if (!r) {
       // strip trailing units such as "cm", "m^2", "kg", "degrees", "°"
-      const u = s.replace(/\s*(°|degrees?|[a-z]{1,4}(\^?[23])?|sq\.?\s*[a-z]+|per\s+[a-z]+)\s*$/, '').trim();
+      const u = s.replace(/\s*(°\s*[cfk]?|degrees?(\s*[cfk])?|[a-z]{1,4}(\^?[23])?|sq\.?\s*[a-z]+|per\s+[a-z]+)\s*$/, '').trim();
       if (u !== s) r = tryParse(u);
       s = u;
     }

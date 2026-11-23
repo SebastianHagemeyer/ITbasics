@@ -27416,6 +27416,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "4a-terms",
      "label": "1a",
      "section": "Fluency",
      "stem": "List the individual terms in each expression.",
@@ -27429,6 +27430,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "4a-terms",
      "label": "1b",
      "section": "Fluency",
      "stem": "List the individual terms in each expression.",
@@ -27442,6 +27444,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1c",
+     "help": "4a-terms",
      "label": "1c",
      "section": "Fluency",
      "stem": "List the individual terms in each expression.",
@@ -27455,6 +27458,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1d",
+     "help": "4a-terms",
      "label": "1d",
      "section": "Fluency",
      "stem": "List the individual terms in each expression.",
@@ -27467,6 +27471,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "4a-terms",
      "label": "2a",
      "section": "Fluency",
      "stem": "State the constant term in each expression.",
@@ -27476,6 +27481,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "4a-terms",
      "label": "2b",
      "section": "Fluency",
      "stem": "State the constant term in each expression.",
@@ -27485,6 +27491,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "4a-terms",
      "label": "2c",
      "section": "Fluency",
      "stem": "State the constant term in each expression.",
@@ -27494,6 +27501,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "4a-terms",
      "label": "2d",
      "section": "Fluency",
      "stem": "State the constant term in each expression.",
@@ -27503,6 +27511,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "4a-terms",
      "label": "3a",
      "section": "Fluency",
      "stem": "State the coefficient of each pronumeral. Type them in the order asked, separated by commas.",
@@ -27516,6 +27525,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "4a-terms",
      "label": "3b",
      "section": "Fluency",
      "stem": "State the coefficient of each pronumeral. Type them in the order asked, separated by commas.",
@@ -27530,6 +27540,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "4a-terms",
      "label": "4a",
      "section": "Fluency",
      "stem": "For each expression, state (i) the number of terms and (ii) the coefficient of $n$. Type the two answers in that order, separated by a comma.",
@@ -27543,6 +27554,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "4a-terms",
      "label": "4b",
      "section": "Fluency",
      "stem": "For each expression, state (i) the number of terms and (ii) the coefficient of $n$. Type the two answers in that order, separated by a comma.",
@@ -27555,6 +27567,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "4a-terms",
      "label": "4c",
      "section": "Fluency",
      "stem": "For each expression, state (i) the number of terms and (ii) the coefficient of $n$. Type the two answers in that order, separated by a comma.",
@@ -27567,6 +27580,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "4a-terms",
      "label": "4d",
      "section": "Fluency",
      "stem": "For each expression, state (i) the number of terms and (ii) the coefficient of $n$. Type the two answers in that order, separated by a comma.",
@@ -27579,6 +27593,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4e",
+     "help": "4a-terms",
      "label": "4e",
      "section": "Fluency",
      "stem": "For each expression, state (i) the number of terms and (ii) the coefficient of $n$. Type the two answers in that order, separated by a comma.",
@@ -27591,6 +27606,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4f",
+     "help": "4a-terms",
      "label": "4f",
      "section": "Fluency",
      "stem": "For each expression, state (i) the number of terms and (ii) the coefficient of $n$. Type the two answers in that order, separated by a comma.",
@@ -27603,6 +27619,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "4a-words",
      "label": "5a",
      "section": "Fluency",
      "stem": "Write an expression for each of the following without using the × or ÷ symbols.",
@@ -27613,6 +27630,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "4a-words",
      "label": "5b",
      "section": "Fluency",
      "stem": "Write an expression for each of the following without using the × or ÷ symbols.",
@@ -27622,6 +27640,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "4a-words",
      "label": "5c",
      "section": "Fluency",
      "stem": "Write an expression for each of the following without using the × or ÷ symbols.",
@@ -27631,6 +27650,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5d",
+     "help": "4a-words",
      "label": "5d",
      "section": "Fluency",
      "stem": "Write an expression for each of the following without using the × or ÷ symbols.",
@@ -27640,6 +27660,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5e",
+     "help": "4a-words",
      "label": "5e",
      "section": "Fluency",
      "stem": "Write an expression for each of the following without using the × or ÷ symbols.",
@@ -27649,6 +27670,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5f",
+     "help": "4a-words",
      "label": "5f",
      "section": "Fluency",
      "stem": "Write an expression for each of the following without using the × or ÷ symbols.",
@@ -27658,6 +27680,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5g",
+     "help": "4a-words",
      "label": "5g",
      "section": "Fluency",
      "stem": "Write an expression for each of the following without using the × or ÷ symbols.",
@@ -27667,6 +27690,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5h",
+     "help": "4a-words",
      "label": "5h",
      "section": "Fluency",
      "stem": "Write an expression for each of the following without using the × or ÷ symbols.",
@@ -27676,6 +27700,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5i",
+     "help": "4a-words",
      "label": "5i",
      "section": "Fluency",
      "stem": "Write an expression for each of the following without using the × or ÷ symbols.",
@@ -27685,6 +27710,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5j",
+     "help": "4a-words",
      "label": "5j",
      "section": "Fluency",
      "stem": "Write an expression for each of the following without using the × or ÷ symbols.",
@@ -27694,6 +27720,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6a",
+     "help": "4a-words",
      "label": "6a",
      "section": "Fluency",
      "stem": "Write an expression for each of the following without using the × or ÷ symbols.",
@@ -27704,6 +27731,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6b",
+     "help": "4a-words",
      "label": "6b",
      "section": "Fluency",
      "stem": "Write an expression for each of the following without using the × or ÷ symbols.",
@@ -27713,6 +27741,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6c",
+     "help": "4a-words",
      "label": "6c",
      "section": "Fluency",
      "stem": "Write an expression for each of the following without using the × or ÷ symbols.",
@@ -27722,6 +27751,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6d",
+     "help": "4a-words",
      "label": "6d",
      "section": "Fluency",
      "stem": "Write an expression for each of the following without using the × or ÷ symbols.",
@@ -27731,6 +27761,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6e",
+     "help": "4a-words",
      "label": "6e",
      "section": "Fluency",
      "stem": "Write an expression for each of the following without using the × or ÷ symbols.",
@@ -27740,6 +27771,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6f",
+     "help": "4a-words",
      "label": "6f",
      "section": "Fluency",
      "stem": "Write an expression for each of the following without using the × or ÷ symbols.",
@@ -27749,6 +27781,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6g",
+     "help": "4a-words",
      "label": "6g",
      "section": "Fluency",
      "stem": "Write an expression for each of the following without using the × or ÷ symbols.",
@@ -27758,6 +27791,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6h",
+     "help": "4a-words",
      "label": "6h",
      "section": "Fluency",
      "stem": "Write an expression for each of the following without using the × or ÷ symbols.",
@@ -27767,6 +27801,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7a",
+     "help": "4a-words",
      "label": "7a",
      "section": "Fluency",
      "stem": "Choose the description in words that matches each expression.",
@@ -27782,6 +27817,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7b",
+     "help": "4a-words",
      "label": "7b",
      "section": "Fluency",
      "stem": "Choose the description in words that matches each expression.",
@@ -27797,6 +27833,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7c",
+     "help": "4a-words",
      "label": "7c",
      "section": "Fluency",
      "stem": "Choose the description in words that matches each expression.",
@@ -27812,6 +27849,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7d",
+     "help": "4a-words",
      "label": "7d",
      "section": "Fluency",
      "stem": "Choose the description in words that matches each expression.",
@@ -27827,6 +27865,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8a",
+     "help": "4a-story",
      "label": "8a",
      "section": "Problem-solving",
      "stem": "Priya buys 6 packets of stickers from a newsagent.",
@@ -27836,6 +27875,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8b",
+     "help": "4a-story",
      "label": "8b",
      "section": "Problem-solving",
      "stem": "Priya buys 6 packets of stickers from a newsagent.",
@@ -27845,6 +27885,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9a",
+     "help": "4a-story",
      "label": "9a",
      "section": "Problem-solving",
      "stem": "Tomas is paid $\\$y$ per hour at his weekend job. Write an expression for each of the following amounts, in dollars.",
@@ -27854,6 +27895,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9b",
+     "help": "4a-story",
      "label": "9b",
      "section": "Problem-solving",
      "stem": "Tomas is paid $\\$y$ per hour at his weekend job. Write an expression for each of the following amounts, in dollars.",
@@ -27863,6 +27905,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9c",
+     "help": "4a-story",
      "label": "9c",
      "section": "Problem-solving",
      "stem": "Tomas is paid $\\$y$ per hour at his weekend job. Write an expression for each of the following amounts, in dollars.",
@@ -27873,6 +27916,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10a",
+     "help": "4a-story",
      "label": "10a",
      "section": "Problem-solving",
      "stem": "Recall that there are $60$ seconds in $1$ minute and $60$ minutes in $1$ hour. Write an expression for each of the following.",
@@ -27882,6 +27926,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10b",
+     "help": "4a-story",
      "label": "10b",
      "section": "Problem-solving",
      "stem": "Recall that there are $60$ seconds in $1$ minute and $60$ minutes in $1$ hour. Write an expression for each of the following.",
@@ -27891,6 +27936,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10c",
+     "help": "4a-story",
      "label": "10c",
      "section": "Problem-solving",
      "stem": "Recall that there are $60$ seconds in $1$ minute and $60$ minutes in $1$ hour. Write an expression for each of the following.",
@@ -27900,6 +27946,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11a",
+     "help": "4a-story",
      "label": "11a",
      "section": "Problem-solving",
      "stem": "A group of friends rents a holiday house for a total cost of $\\$p$. They split the cost equally. Write an expression for each answer.",
@@ -27910,6 +27957,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11b",
+     "help": "4a-story",
      "label": "11b",
      "section": "Problem-solving",
      "stem": "A group of friends rents a holiday house for a total cost of $\\$p$. They split the cost equally. Write an expression for each answer.",
@@ -27919,6 +27967,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11c",
+     "help": "4a-story",
      "label": "11c",
      "section": "Problem-solving",
      "stem": "A group of friends rents a holiday house for a total cost of $\\$p$. They split the cost equally. Write an expression for each answer.",
@@ -27928,6 +27977,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12",
+     "help": "4a-words",
      "label": "12",
      "section": "Problem-solving",
      "prompt": "One way to describe $\\frac{m + n}{5}$ in words is: \"The sum of $m$ and $n$ is divided by $5$.\" Which of these is another correct way to describe it?",
@@ -27942,6 +27992,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13a",
+     "help": "4a-truefalse",
      "label": "13a",
      "section": "Reasoning",
      "stem": "If $y$ is a whole number between $20$ and $80$, decide whether each statement is true or false.",
@@ -27955,6 +28006,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13b",
+     "help": "4a-truefalse",
      "label": "13b",
      "section": "Reasoning",
      "stem": "If $y$ is a whole number between $20$ and $80$, decide whether each statement is true or false.",
@@ -27968,6 +28020,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13c",
+     "help": "4a-truefalse",
      "label": "13c",
      "section": "Reasoning",
      "stem": "If $y$ is a whole number between $20$ and $80$, decide whether each statement is true or false.",
@@ -27981,6 +28034,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13d",
+     "help": "4a-truefalse",
      "label": "13d",
      "section": "Reasoning",
      "stem": "If $y$ is a whole number between $20$ and $80$, decide whether each statement is true or false.",
@@ -27994,6 +28048,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13e",
+     "help": "4a-truefalse",
      "label": "13e",
      "section": "Reasoning",
      "stem": "If $y$ is a whole number between $20$ and $80$, decide whether each statement is true or false.",
@@ -28007,6 +28062,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14a",
+     "help": "4a-truefalse",
      "label": "14a",
      "section": "Reasoning",
      "stem": "If $k$ is an odd number greater than $4$, decide whether each statement is true or false.",
@@ -28020,6 +28076,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14b",
+     "help": "4a-truefalse",
      "label": "14b",
      "section": "Reasoning",
      "stem": "If $k$ is an odd number greater than $4$, decide whether each statement is true or false.",
@@ -28033,6 +28090,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14c",
+     "help": "4a-truefalse",
      "label": "14c",
      "section": "Reasoning",
      "stem": "If $k$ is an odd number greater than $4$, decide whether each statement is true or false.",
@@ -28046,6 +28104,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14d",
+     "help": "4a-truefalse",
      "label": "14d",
      "section": "Reasoning",
      "stem": "If $k$ is an odd number greater than $4$, decide whether each statement is true or false.",
@@ -28059,6 +28118,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15",
+     "help": "4a-truefalse",
      "label": "15",
      "section": "Reasoning",
      "prompt": "If $d$ is a number between $20$ and $90$, sort these expressions in ascending order (smallest to largest): $4d,\\ d + 3,\\ d - 6,\\ d \\div 3,\\ 2d,\\ 4d + 1,\\ 5d - 3,\\ d \\times d$",
@@ -28077,6 +28137,7 @@ window.H3_BANK = {
     },
     {
      "id": "q16",
+     "help": "4a-words",
      "label": "16",
      "section": "Enrichment",
      "prompt": "Writing in symbols saves space. Write this as an expression: \"The sum of $a$ and $6$ is doubled, and then the result is divided by $5$.\"",
@@ -28094,6 +28155,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "4b-sub-one",
      "label": "1a",
      "section": "Fluency",
      "stem": "Given $m = 6$, evaluate:",
@@ -28103,6 +28165,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "4b-sub-one",
      "label": "1b",
      "section": "Fluency",
      "stem": "Given $m = 6$, evaluate:",
@@ -28112,6 +28175,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1c",
+     "help": "4b-sub-one",
      "label": "1c",
      "section": "Fluency",
      "stem": "Given $m = 6$, evaluate:",
@@ -28121,6 +28185,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1d",
+     "help": "4b-sub-one",
      "label": "1d",
      "section": "Fluency",
      "stem": "Given $m = 6$, evaluate:",
@@ -28130,6 +28195,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "4b-sub-one",
      "label": "2a",
      "section": "Fluency",
      "stem": "Given $y = 9$, evaluate:",
@@ -28139,6 +28205,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "4b-sub-one",
      "label": "2b",
      "section": "Fluency",
      "stem": "Given $y = 9$, evaluate:",
@@ -28148,6 +28215,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "4b-sub-one",
      "label": "2c",
      "section": "Fluency",
      "stem": "Given $y = 9$, evaluate:",
@@ -28157,6 +28225,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "4b-sub-one",
      "label": "2d",
      "section": "Fluency",
      "stem": "Given $y = 9$, evaluate:",
@@ -28166,6 +28235,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "4b-sub-one",
      "label": "3a",
      "section": "Fluency",
      "stem": "If $p = 3$, evaluate:",
@@ -28175,6 +28245,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "4b-sub-one",
      "label": "3b",
      "section": "Fluency",
      "stem": "If $p = 3$, evaluate:",
@@ -28184,6 +28255,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "4b-sub-one",
      "label": "3c",
      "section": "Fluency",
      "stem": "If $p = 3$, evaluate:",
@@ -28193,6 +28265,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3d",
+     "help": "4b-sub-one",
      "label": "3d",
      "section": "Fluency",
      "stem": "If $p = 3$, evaluate:",
@@ -28202,6 +28275,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "4b-order",
      "label": "4a",
      "section": "Fluency",
      "stem": "If $x = 4$, evaluate each of the following.",
@@ -28211,6 +28285,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "4b-order",
      "label": "4b",
      "section": "Fluency",
      "stem": "If $x = 4$, evaluate each of the following.",
@@ -28220,6 +28295,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "4b-order",
      "label": "4c",
      "section": "Fluency",
      "stem": "If $x = 4$, evaluate each of the following.",
@@ -28229,6 +28305,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "4b-order",
      "label": "4d",
      "section": "Fluency",
      "stem": "If $x = 4$, evaluate each of the following.",
@@ -28238,6 +28315,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4e",
+     "help": "4b-order",
      "label": "4e",
      "section": "Fluency",
      "stem": "If $x = 4$, evaluate each of the following.",
@@ -28247,6 +28325,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4f",
+     "help": "4b-order",
      "label": "4f",
      "section": "Fluency",
      "stem": "If $x = 4$, evaluate each of the following.",
@@ -28256,6 +28335,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4g",
+     "help": "4b-order",
      "label": "4g",
      "section": "Fluency",
      "stem": "If $x = 4$, evaluate each of the following.",
@@ -28265,6 +28345,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4h",
+     "help": "4b-order",
      "label": "4h",
      "section": "Fluency",
      "stem": "If $x = 4$, evaluate each of the following.",
@@ -28274,6 +28355,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4i",
+     "help": "4b-order",
      "label": "4i",
      "section": "Fluency",
      "stem": "If $x = 4$, evaluate each of the following.",
@@ -28283,6 +28365,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4j",
+     "help": "4b-order",
      "label": "4j",
      "section": "Fluency",
      "stem": "If $x = 4$, evaluate each of the following.",
@@ -28292,6 +28375,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4k",
+     "help": "4b-order",
      "label": "4k",
      "section": "Fluency",
      "stem": "If $x = 4$, evaluate each of the following.",
@@ -28301,6 +28385,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4l",
+     "help": "4b-order",
      "label": "4l",
      "section": "Fluency",
      "stem": "If $x = 4$, evaluate each of the following.",
@@ -28310,6 +28395,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "4b-sub-two",
      "label": "5a",
      "section": "Fluency",
      "stem": "Substitute $c = 4$ and $d = 3$ into each of these expressions and evaluate.",
@@ -28319,6 +28405,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "4b-sub-two",
      "label": "5b",
      "section": "Fluency",
      "stem": "Substitute $c = 4$ and $d = 3$ into each of these expressions and evaluate.",
@@ -28328,6 +28415,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "4b-sub-two",
      "label": "5c",
      "section": "Fluency",
      "stem": "Substitute $c = 4$ and $d = 3$ into each of these expressions and evaluate.",
@@ -28337,6 +28425,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5d",
+     "help": "4b-sub-two",
      "label": "5d",
      "section": "Fluency",
      "stem": "Substitute $c = 4$ and $d = 3$ into each of these expressions and evaluate.",
@@ -28346,6 +28435,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5e",
+     "help": "4b-sub-two",
      "label": "5e",
      "section": "Fluency",
      "stem": "Substitute $c = 4$ and $d = 3$ into each of these expressions and evaluate.",
@@ -28355,6 +28445,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5f",
+     "help": "4b-sub-two",
      "label": "5f",
      "section": "Fluency",
      "stem": "Substitute $c = 4$ and $d = 3$ into each of these expressions and evaluate.",
@@ -28364,6 +28455,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5g",
+     "help": "4b-sub-two",
      "label": "5g",
      "section": "Fluency",
      "stem": "Substitute $c = 4$ and $d = 3$ into each of these expressions and evaluate.",
@@ -28373,6 +28465,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5h",
+     "help": "4b-sub-two",
      "label": "5h",
      "section": "Fluency",
      "stem": "Substitute $c = 4$ and $d = 3$ into each of these expressions and evaluate.",
@@ -28382,6 +28475,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6a",
+     "help": "4b-sub-two",
      "label": "6a",
      "section": "Fluency",
      "stem": "Evaluate the expression $4a + 3b$ when:",
@@ -28391,6 +28485,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6b",
+     "help": "4b-sub-two",
      "label": "6b",
      "section": "Fluency",
      "stem": "Evaluate the expression $4a + 3b$ when:",
@@ -28400,6 +28495,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6c",
+     "help": "4b-sub-two",
      "label": "6c",
      "section": "Fluency",
      "stem": "Evaluate the expression $4a + 3b$ when:",
@@ -28409,6 +28505,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6d",
+     "help": "4b-sub-two",
      "label": "6d",
      "section": "Fluency",
      "stem": "Evaluate the expression $4a + 3b$ when:",
@@ -28418,6 +28515,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6e",
+     "help": "4b-sub-two",
      "label": "6e",
      "section": "Fluency",
      "stem": "Evaluate the expression $4a + 3b$ when:",
@@ -28427,6 +28525,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6f",
+     "help": "4b-sub-two",
      "label": "6f",
      "section": "Fluency",
      "stem": "Evaluate the expression $4a + 3b$ when:",
@@ -28436,6 +28535,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7a",
+     "help": "4b-table",
      "label": "7a",
      "section": "Fluency",
      "stem": "Complete each table. Type the missing values in order from left to right, separated by commas.",
@@ -28473,6 +28573,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7b",
+     "help": "4b-table",
      "label": "7b",
      "section": "Fluency",
      "stem": "Complete each table. Type the missing values in order from left to right, separated by commas.",
@@ -28511,6 +28612,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7c",
+     "help": "4b-table",
      "label": "7c",
      "section": "Fluency",
      "stem": "Complete each table. Type the missing values in order from left to right, separated by commas.",
@@ -28550,6 +28652,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7d",
+     "help": "4b-table",
      "label": "7d",
      "section": "Fluency",
      "stem": "Complete each table. Type the missing values in order from left to right, separated by commas.",
@@ -28589,6 +28692,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8a",
+     "help": "4b-powers",
      "label": "8a",
      "section": "Fluency",
      "stem": "Evaluate each of the following, given $m = 4$, $n = 3$ and $k = 6$.",
@@ -28598,6 +28702,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8b",
+     "help": "4b-powers",
      "label": "8b",
      "section": "Fluency",
      "stem": "Evaluate each of the following, given $m = 4$, $n = 3$ and $k = 6$.",
@@ -28607,6 +28712,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8c",
+     "help": "4b-powers",
      "label": "8c",
      "section": "Fluency",
      "stem": "Evaluate each of the following, given $m = 4$, $n = 3$ and $k = 6$.",
@@ -28616,6 +28722,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8d",
+     "help": "4b-powers",
      "label": "8d",
      "section": "Fluency",
      "stem": "Evaluate each of the following, given $m = 4$, $n = 3$ and $k = 6$.",
@@ -28625,6 +28732,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8e",
+     "help": "4b-powers",
      "label": "8e",
      "section": "Fluency",
      "stem": "Evaluate each of the following, given $m = 4$, $n = 3$ and $k = 6$.",
@@ -28634,6 +28742,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8f",
+     "help": "4b-powers",
      "label": "8f",
      "section": "Fluency",
      "stem": "Evaluate each of the following, given $m = 4$, $n = 3$ and $k = 6$.",
@@ -28643,6 +28752,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8g",
+     "help": "4b-powers",
      "label": "8g",
      "section": "Fluency",
      "stem": "Evaluate each of the following, given $m = 4$, $n = 3$ and $k = 6$.",
@@ -28652,6 +28762,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8h",
+     "help": "4b-powers",
      "label": "8h",
      "section": "Fluency",
      "stem": "Evaluate each of the following, given $m = 4$, $n = 3$ and $k = 6$.",
@@ -28661,6 +28772,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9",
+     "help": "4b-backwards",
      "label": "9",
      "section": "Problem-solving",
      "prompt": "A number is substituted for $c$ in the expression $9 + c$ and the result is $15$. What is the value of $c$?",
@@ -28669,6 +28781,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10a",
+     "help": "4b-backwards",
      "label": "10a",
      "section": "Problem-solving",
      "stem": "A whole number is substituted for $y$ in the expression $4y + 3$. The result is a two-digit number.",
@@ -28678,6 +28791,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10b",
+     "help": "4b-backwards",
      "label": "10b",
      "section": "Problem-solving",
      "stem": "A whole number is substituted for $y$ in the expression $4y + 3$. The result is a two-digit number.",
@@ -28687,6 +28801,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11a",
+     "help": "4b-table",
      "label": "11a",
      "section": "Problem-solving",
      "stem": "Copy and complete the table. Type the missing values in each row from left to right, separated by commas.",
@@ -28732,6 +28847,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11b",
+     "help": "4b-table",
      "label": "11b",
      "section": "Problem-solving",
      "stem": "Copy and complete the table. Type the missing values in each row from left to right, separated by commas.",
@@ -28746,6 +28862,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11c",
+     "help": "4b-table",
      "label": "11c",
      "section": "Problem-solving",
      "stem": "Copy and complete the table. Type the missing values in each row from left to right, separated by commas.",
@@ -28759,6 +28876,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12a",
+     "help": "4b-backwards",
      "label": "12a",
      "section": "Reasoning",
      "stem": "The numbers $x$ and $y$ are such that $xy = 30$.",
@@ -28778,6 +28896,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12b",
+     "help": "4b-backwards",
      "label": "12b",
      "section": "Reasoning",
      "stem": "The numbers $x$ and $y$ are such that $xy = 30$.",
@@ -28787,6 +28906,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13a",
+     "help": "4b-pattern",
      "label": "13a",
      "section": "Reasoning",
      "stem": "Lena substitutes different whole numbers into the expression $2 \\times (m + m + m + m + m)$. She notices that the result always ends in the digit $0$.",
@@ -28796,6 +28916,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13b",
+     "help": "4b-pattern",
      "label": "13b",
      "section": "Reasoning",
      "stem": "Lena substitutes different whole numbers into the expression $2 \\times (m + m + m + m + m)$. She notices that the result always ends in the digit $0$.",
@@ -28805,6 +28926,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13c",
+     "help": "4b-pattern",
      "label": "13c",
      "section": "Reasoning",
      "stem": "Lena substitutes different whole numbers into the expression $2 \\times (m + m + m + m + m)$. She notices that the result always ends in the digit $0$.",
@@ -28820,6 +28942,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14a",
+     "help": "4b-pattern",
      "label": "14a",
      "section": "Reasoning",
      "stem": "Values of $a$ and $b$ are substituted into the expression $a + 3b$ and the result is $60$.",
@@ -28829,6 +28952,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14b",
+     "help": "4b-pattern",
      "label": "14b",
      "section": "Reasoning",
      "stem": "Values of $a$ and $b$ are substituted into the expression $a + 3b$ and the result is $60$.",
@@ -28838,6 +28962,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14c",
+     "help": "4b-pattern",
      "label": "14c",
      "section": "Reasoning",
      "stem": "Values of $a$ and $b$ are substituted into the expression $a + 3b$ and the result is $60$.",
@@ -28853,6 +28978,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15a",
+     "help": "4b-table",
      "label": "15a",
      "section": "Enrichment",
      "stem": "In this table $x$ and $y$ are whole numbers ($0, 1, 2, 3, \\ldots$). Complete the table, typing the missing values in each row from left to right, separated by commas.",
@@ -28916,6 +29042,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15b",
+     "help": "4b-table",
      "label": "15b",
      "section": "Enrichment",
      "stem": "In this table $x$ and $y$ are whole numbers ($0, 1, 2, 3, \\ldots$). Complete the table, typing the missing values in each row from left to right, separated by commas.",
@@ -28929,6 +29056,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15c",
+     "help": "4b-table",
      "label": "15c",
      "section": "Enrichment",
      "stem": "In this table $x$ and $y$ are whole numbers ($0, 1, 2, 3, \\ldots$). Complete the table, typing the missing values in each row from left to right, separated by commas.",
@@ -28942,6 +29070,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15d",
+     "help": "4b-table",
      "label": "15d",
      "section": "Enrichment",
      "stem": "In this table $x$ and $y$ are whole numbers ($0, 1, 2, 3, \\ldots$). Complete the table, typing the missing values in each row from left to right, separated by commas.",
@@ -28955,6 +29084,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15e",
+     "help": "4b-table",
      "label": "15e",
      "section": "Enrichment",
      "stem": "In this table $x$ and $y$ are whole numbers ($0, 1, 2, 3, \\ldots$). Complete the table, typing the missing values in each row from left to right, separated by commas.",
@@ -28968,6 +29098,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15f",
+     "help": "4b-table",
      "label": "15f",
      "section": "Enrichment",
      "stem": "For some pairs of numbers, $x + y$ and $x \\times y$ are equal. The numbers do not have to be whole numbers.",
@@ -28986,6 +29117,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "4c-equivalent",
      "label": "1a",
      "section": "Fluency",
      "stem": "Decide if each pair of expressions is equivalent or not equivalent.",
@@ -28999,6 +29131,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "4c-equivalent",
      "label": "1b",
      "section": "Fluency",
      "stem": "Decide if each pair of expressions is equivalent or not equivalent.",
@@ -29012,6 +29145,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1c",
+     "help": "4c-equivalent",
      "label": "1c",
      "section": "Fluency",
      "stem": "Decide if each pair of expressions is equivalent or not equivalent.",
@@ -29025,6 +29159,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "4c-equivalent",
      "label": "2a",
      "section": "Fluency",
      "stem": "Two of the three expressions are equivalent. Which two?",
@@ -29039,6 +29174,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "4c-equivalent",
      "label": "2b",
      "section": "Fluency",
      "stem": "Two of the three expressions are equivalent. Which two?",
@@ -29053,6 +29189,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "4c-equivalent",
      "label": "2c",
      "section": "Fluency",
      "stem": "Two of the three expressions are equivalent. Which two?",
@@ -29067,6 +29204,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "4c-equivalent",
      "label": "2d",
      "section": "Fluency",
      "stem": "Two of the three expressions are equivalent. Which two?",
@@ -29081,6 +29219,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2e",
+     "help": "4c-equivalent",
      "label": "2e",
      "section": "Fluency",
      "stem": "Two of the three expressions are equivalent. Which two?",
@@ -29095,6 +29234,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2f",
+     "help": "4c-equivalent",
      "label": "2f",
      "section": "Fluency",
      "stem": "Two of the three expressions are equivalent. Which two?",
@@ -29109,6 +29249,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "4c-generalise",
      "label": "3a",
      "section": "Fluency",
      "stem": "Generalise these number facts, using x to stand for the number that changes.",
@@ -29120,6 +29261,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "4c-generalise",
      "label": "3b",
      "section": "Fluency",
      "stem": "Generalise these number facts, using x to stand for the number that changes.",
@@ -29130,6 +29272,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "4c-generalise",
      "label": "3c",
      "section": "Fluency",
      "stem": "Generalise these number facts, using x to stand for the number that changes.",
@@ -29140,6 +29283,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3d",
+     "help": "4c-generalise",
      "label": "3d",
      "section": "Fluency",
      "stem": "Generalise these number facts, using x to stand for the number that changes.",
@@ -29150,6 +29294,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "4c-generalise",
      "label": "4a",
      "section": "Fluency",
      "stem": "Generalise these number facts, using a and b to stand for the numbers that change.",
@@ -29161,6 +29306,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "4c-generalise",
      "label": "4b",
      "section": "Fluency",
      "stem": "Generalise these number facts, using a and b to stand for the numbers that change.",
@@ -29176,6 +29322,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "4c-generalise",
      "label": "4c",
      "section": "Fluency",
      "stem": "Generalise these number facts, using a and b to stand for the numbers that change.",
@@ -29187,6 +29334,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "4c-generalise",
      "label": "4d",
      "section": "Fluency",
      "stem": "Generalise these number facts, using a and b to stand for the numbers that change.",
@@ -29197,6 +29345,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "4c-equivalent",
      "label": "5a",
      "section": "Fluency",
      "stem": "Match each expression with the equivalent expression from the list.",
@@ -29214,6 +29363,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "4c-equivalent",
      "label": "5b",
      "section": "Fluency",
      "stem": "Match each expression with the equivalent expression from the list.",
@@ -29231,6 +29381,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "4c-equivalent",
      "label": "5c",
      "section": "Fluency",
      "stem": "Match each expression with the equivalent expression from the list.",
@@ -29248,6 +29399,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5d",
+     "help": "4c-equivalent",
      "label": "5d",
      "section": "Fluency",
      "stem": "Match each expression with the equivalent expression from the list.",
@@ -29265,6 +29417,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5e",
+     "help": "4c-equivalent",
      "label": "5e",
      "section": "Fluency",
      "stem": "Match each expression with the equivalent expression from the list.",
@@ -29282,6 +29435,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5f",
+     "help": "4c-equivalent",
      "label": "5f",
      "section": "Fluency",
      "stem": "Match each expression with the equivalent expression from the list.",
@@ -29299,6 +29453,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6",
+     "help": "4c-table",
      "label": "6",
      "section": "Fluency",
      "prompt": "Complete the table to show that $5x + 3$ and $2x + 3 + 3x$ are likely to be equivalent. Type the missing values in the top row first, then the bottom row, left to right, separated by commas (8 numbers).",
@@ -29342,6 +29497,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7",
+     "help": "4c-equivalent",
      "label": "7",
      "section": "Problem-solving",
      "prompt": "Which expression is equivalent to $5y + 3$?",
@@ -29356,6 +29512,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8a",
+     "help": "4c-perimeter",
      "label": "8a",
      "section": "Problem-solving",
      "stem": "Write an expression for the perimeter of each shape in its simplest form.",
@@ -29384,6 +29541,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8b",
+     "help": "4c-perimeter",
      "label": "8b",
      "section": "Problem-solving",
      "stem": "Write an expression for the perimeter of each shape in its simplest form.",
@@ -29399,6 +29557,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8c",
+     "help": "4c-perimeter",
      "label": "8c",
      "section": "Problem-solving",
      "stem": "Write an expression for the perimeter of each shape in its simplest form.",
@@ -29415,6 +29574,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9",
+     "help": "4c-perimeter",
      "label": "9",
      "section": "Problem-solving",
      "prompt": "Write an expression equivalent to $4m + 2n + 3m - n + 5m$ with as few terms as possible.",
@@ -29424,6 +29584,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10",
+     "help": "4c-table",
      "label": "10",
      "section": "Reasoning",
      "prompt": "Substitute $x = 12$ into each of $3 + x$, $3x$, $x - 3$, $x \\div 3$. Type the four values in that order, separated by commas. (Because they are all different, no two of these expressions are equivalent.)",
@@ -29437,6 +29598,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11a",
+     "help": "4c-generalise",
      "label": "11a",
      "section": "Reasoning",
      "stem": "Generalise each observation using pronumerals starting at a (as many as you need). For example, $3 + 5 = 5 + 3$ and $2 + 7 = 7 + 2$ generalise to $a + b = b + a$.",
@@ -29452,6 +29614,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11b",
+     "help": "4c-generalise",
      "label": "11b",
      "section": "Reasoning",
      "stem": "Generalise each observation using pronumerals starting at a (as many as you need). For example, $3 + 5 = 5 + 3$ and $2 + 7 = 7 + 2$ generalise to $a + b = b + a$.",
@@ -29463,6 +29626,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11c",
+     "help": "4c-generalise",
      "label": "11c",
      "section": "Reasoning",
      "stem": "Generalise each observation using pronumerals starting at a (as many as you need). For example, $3 + 5 = 5 + 3$ and $2 + 7 = 7 + 2$ generalise to $a + b = b + a$.",
@@ -29473,6 +29637,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11d",
+     "help": "4c-generalise",
      "label": "11d",
      "section": "Reasoning",
      "stem": "Generalise each observation using pronumerals starting at a (as many as you need). For example, $3 + 5 = 5 + 3$ and $2 + 7 = 7 + 2$ generalise to $a + b = b + a$.",
@@ -29483,6 +29648,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11e",
+     "help": "4c-generalise",
      "label": "11e",
      "section": "Reasoning",
      "stem": "Generalise each observation using pronumerals starting at a (as many as you need). For example, $3 + 5 = 5 + 3$ and $2 + 7 = 7 + 2$ generalise to $a + b = b + a$.",
@@ -29494,6 +29660,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12a",
+     "help": "4c-table",
      "label": "12a",
      "section": "Reasoning",
      "stem": "Each pair of expressions is equivalent. Substitute the values given into both expressions. What number does each pair give?",
@@ -29503,6 +29670,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12b",
+     "help": "4c-table",
      "label": "12b",
      "section": "Reasoning",
      "stem": "Each pair of expressions is equivalent. Substitute the values given into both expressions. What number does each pair give?",
@@ -29512,6 +29680,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12c",
+     "help": "4c-table",
      "label": "12c",
      "section": "Reasoning",
      "stem": "Each pair of expressions is equivalent. Substitute the values given into both expressions. What number does each pair give?",
@@ -29521,6 +29690,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13a",
+     "help": "4c-brackets",
      "label": "13a",
      "section": "Reasoning",
      "prompt": "Complete the table of values to show that $3 \\times (a + 5)$ is equivalent to $15 + 3a$. Type the top row first, then the bottom row, left to right, separated by commas (8 numbers).",
@@ -29564,6 +29734,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13b",
+     "help": "4c-brackets",
      "label": "13b",
      "section": "Reasoning",
      "prompt": "Write an expression using brackets that is equivalent to $18 + 6a$.",
@@ -29574,6 +29745,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13c",
+     "help": "4c-brackets",
      "label": "13c",
      "section": "Reasoning",
      "prompt": "Write an expression without brackets that is equivalent to $7 \\times (3 + a)$.",
@@ -29583,6 +29755,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14",
+     "help": "4c-equivalent",
      "label": "14",
      "section": "Enrichment",
      "prompt": "$4a + 7b$ has two terms. Which of these expressions, with three terms, is equivalent to it?",
@@ -29597,6 +29770,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15a",
+     "help": "4c-logic",
      "label": "15a",
      "section": "Enrichment",
      "stem": "Think about three expressions: A, B and C.",
@@ -29610,6 +29784,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15b",
+     "help": "4c-logic",
      "label": "15b",
      "section": "Enrichment",
      "stem": "Think about three expressions: A, B and C.",
@@ -29631,6 +29806,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "4d-like",
      "label": "1a",
      "section": "Fluency",
      "stem": "Decide whether each pair are like terms or not like terms.",
@@ -29644,6 +29820,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "4d-like",
      "label": "1b",
      "section": "Fluency",
      "stem": "Decide whether each pair are like terms or not like terms.",
@@ -29657,6 +29834,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1c",
+     "help": "4d-like",
      "label": "1c",
      "section": "Fluency",
      "stem": "Decide whether each pair are like terms or not like terms.",
@@ -29670,6 +29848,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1d",
+     "help": "4d-like",
      "label": "1d",
      "section": "Fluency",
      "stem": "Decide whether each pair are like terms or not like terms.",
@@ -29683,6 +29862,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "4d-like",
      "label": "2a",
      "section": "Fluency",
      "stem": "Decide whether each pair are like terms or not like terms.",
@@ -29696,6 +29876,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "4d-like",
      "label": "2b",
      "section": "Fluency",
      "stem": "Decide whether each pair are like terms or not like terms.",
@@ -29709,6 +29890,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "4d-like",
      "label": "2c",
      "section": "Fluency",
      "stem": "Decide whether each pair are like terms or not like terms.",
@@ -29722,6 +29904,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "4d-like",
      "label": "2d",
      "section": "Fluency",
      "stem": "Decide whether each pair are like terms or not like terms.",
@@ -29735,6 +29918,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2e",
+     "help": "4d-like",
      "label": "2e",
      "section": "Fluency",
      "stem": "Decide whether each pair are like terms or not like terms.",
@@ -29748,6 +29932,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2f",
+     "help": "4d-like",
      "label": "2f",
      "section": "Fluency",
      "stem": "Decide whether each pair are like terms or not like terms.",
@@ -29761,6 +29946,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2g",
+     "help": "4d-like",
      "label": "2g",
      "section": "Fluency",
      "stem": "Decide whether each pair are like terms or not like terms.",
@@ -29774,6 +29960,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2h",
+     "help": "4d-like",
      "label": "2h",
      "section": "Fluency",
      "stem": "Decide whether each pair are like terms or not like terms.",
@@ -29787,6 +29974,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2i",
+     "help": "4d-like",
      "label": "2i",
      "section": "Fluency",
      "stem": "Decide whether each pair are like terms or not like terms.",
@@ -29800,6 +29988,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2j",
+     "help": "4d-like",
      "label": "2j",
      "section": "Fluency",
      "stem": "Decide whether each pair are like terms or not like terms.",
@@ -29813,6 +30002,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2k",
+     "help": "4d-like",
      "label": "2k",
      "section": "Fluency",
      "stem": "Decide whether each pair are like terms or not like terms.",
@@ -29826,6 +30016,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2l",
+     "help": "4d-like",
      "label": "2l",
      "section": "Fluency",
      "stem": "Decide whether each pair are like terms or not like terms.",
@@ -29839,6 +30030,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "4d-collect",
      "label": "3a",
      "section": "Fluency",
      "stem": "Simplify by collecting like terms.",
@@ -29850,6 +30042,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "4d-collect",
      "label": "3b",
      "section": "Fluency",
      "stem": "Simplify by collecting like terms.",
@@ -29860,6 +30053,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "4d-collect",
      "label": "3c",
      "section": "Fluency",
      "stem": "Simplify by collecting like terms.",
@@ -29870,6 +30064,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3d",
+     "help": "4d-collect",
      "label": "3d",
      "section": "Fluency",
      "stem": "Simplify by collecting like terms.",
@@ -29880,6 +30075,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3e",
+     "help": "4d-collect",
      "label": "3e",
      "section": "Fluency",
      "stem": "Simplify by collecting like terms.",
@@ -29890,6 +30086,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3f",
+     "help": "4d-collect",
      "label": "3f",
      "section": "Fluency",
      "stem": "Simplify by collecting like terms.",
@@ -29900,6 +30097,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3g",
+     "help": "4d-collect",
      "label": "3g",
      "section": "Fluency",
      "stem": "Simplify by collecting like terms.",
@@ -29910,6 +30108,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3h",
+     "help": "4d-collect",
      "label": "3h",
      "section": "Fluency",
      "stem": "Simplify by collecting like terms.",
@@ -29920,6 +30119,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "4d-collect",
      "label": "4a",
      "section": "Fluency",
      "stem": "Simplify by collecting like terms.",
@@ -29930,6 +30130,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "4d-collect",
      "label": "4b",
      "section": "Fluency",
      "stem": "Simplify by collecting like terms.",
@@ -29940,6 +30141,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "4d-collect",
      "label": "4c",
      "section": "Fluency",
      "stem": "Simplify by collecting like terms.",
@@ -29950,6 +30152,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "4d-collect",
      "label": "4d",
      "section": "Fluency",
      "stem": "Simplify by collecting like terms.",
@@ -29960,6 +30163,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4e",
+     "help": "4d-collect",
      "label": "4e",
      "section": "Fluency",
      "stem": "Simplify by collecting like terms.",
@@ -29970,6 +30174,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4f",
+     "help": "4d-collect",
      "label": "4f",
      "section": "Fluency",
      "stem": "Simplify by collecting like terms.",
@@ -29980,6 +30185,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4g",
+     "help": "4d-collect",
      "label": "4g",
      "section": "Fluency",
      "stem": "Simplify by collecting like terms.",
@@ -29990,6 +30196,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4h",
+     "help": "4d-collect",
      "label": "4h",
      "section": "Fluency",
      "stem": "Simplify by collecting like terms.",
@@ -30000,6 +30207,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4i",
+     "help": "4d-collect",
      "label": "4i",
      "section": "Fluency",
      "stem": "Simplify by collecting like terms.",
@@ -30010,6 +30218,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4j",
+     "help": "4d-collect",
      "label": "4j",
      "section": "Fluency",
      "stem": "Simplify by collecting like terms.",
@@ -30020,6 +30229,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4k",
+     "help": "4d-collect",
      "label": "4k",
      "section": "Fluency",
      "stem": "Simplify by collecting like terms.",
@@ -30030,6 +30240,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4l",
+     "help": "4d-collect",
      "label": "4l",
      "section": "Fluency",
      "stem": "Simplify by collecting like terms.",
@@ -30040,6 +30251,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4m",
+     "help": "4d-collect",
      "label": "4m",
      "section": "Fluency",
      "stem": "Simplify by collecting like terms.",
@@ -30050,6 +30262,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4n",
+     "help": "4d-collect",
      "label": "4n",
      "section": "Fluency",
      "stem": "Simplify by collecting like terms.",
@@ -30060,6 +30273,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4o",
+     "help": "4d-collect",
      "label": "4o",
      "section": "Fluency",
      "stem": "Simplify by collecting like terms.",
@@ -30070,6 +30284,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "4d-pairs",
      "label": "5a",
      "section": "Fluency",
      "stem": "Simplify by collecting like terms.",
@@ -30080,6 +30295,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "4d-pairs",
      "label": "5b",
      "section": "Fluency",
      "stem": "Simplify by collecting like terms.",
@@ -30090,6 +30306,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "4d-pairs",
      "label": "5c",
      "section": "Fluency",
      "stem": "Simplify by collecting like terms.",
@@ -30100,6 +30317,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5d",
+     "help": "4d-pairs",
      "label": "5d",
      "section": "Fluency",
      "stem": "Simplify by collecting like terms.",
@@ -30110,6 +30328,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5e",
+     "help": "4d-pairs",
      "label": "5e",
      "section": "Fluency",
      "stem": "Simplify by collecting like terms.",
@@ -30120,6 +30339,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5f",
+     "help": "4d-pairs",
      "label": "5f",
      "section": "Fluency",
      "stem": "Simplify by collecting like terms.",
@@ -30130,6 +30350,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6a",
+     "help": "4d-story",
      "label": "6a",
      "section": "Problem-solving",
      "stem": "Priya and Tom each work $h$ hours per week. Priya earns $\\$24$ per hour and Tom earns $\\$29$ per hour.",
@@ -30140,6 +30361,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6b",
+     "help": "4d-story",
      "label": "6b",
      "section": "Problem-solving",
      "stem": "Priya and Tom each work $h$ hours per week. Priya earns $\\$24$ per hour and Tom earns $\\$29$ per hour.",
@@ -30149,6 +30371,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6c",
+     "help": "4d-story",
      "label": "6c",
      "section": "Problem-solving",
      "stem": "Priya and Tom each work $h$ hours per week. Priya earns $\\$24$ per hour and Tom earns $\\$29$ per hour.",
@@ -30159,6 +30382,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7a",
+     "help": "4d-story",
      "label": "7a",
      "section": "Problem-solving",
      "stem": "A line segment is made of five pieces joined end to end, with lengths $b$, $2$, $b$, $b$ and $5$. So its length can be written as $b + 2 + b + b + 5$.",
@@ -30169,6 +30393,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7b",
+     "help": "4d-story",
      "label": "7b",
      "section": "Problem-solving",
      "stem": "A line segment is made of five pieces joined end to end, with lengths $b$, $2$, $b$, $b$ and $5$. So its length can be written as $b + 2 + b + b + 5$.",
@@ -30178,6 +30403,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8a",
+     "help": "4d-story",
      "label": "8a",
      "section": "Problem-solving",
      "stem": "Let $p$ stand for the number of pencils in a standard pack. Mia buys $3$ packs and Leo buys $8$ packs. Write a simplified expression for:",
@@ -30188,6 +30414,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8b",
+     "help": "4d-story",
      "label": "8b",
      "section": "Problem-solving",
      "stem": "Let $p$ stand for the number of pencils in a standard pack. Mia buys $3$ packs and Leo buys $8$ packs. Write a simplified expression for:",
@@ -30198,6 +30425,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8c",
+     "help": "4d-story",
      "label": "8c",
      "section": "Problem-solving",
      "stem": "Let $p$ stand for the number of pencils in a standard pack. Mia buys $3$ packs and Leo buys $8$ packs. Write a simplified expression for:",
@@ -30208,6 +30436,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8d",
+     "help": "4d-story",
      "label": "8d",
      "section": "Problem-solving",
      "stem": "Let $p$ stand for the number of pencils in a standard pack. Mia buys $3$ packs and Leo buys $8$ packs. Write a simplified expression for:",
@@ -30218,6 +30447,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9a",
+     "help": "4d-pairs",
      "label": "9a",
      "section": "Problem-solving",
      "stem": "Simplify these expressions as much as possible.",
@@ -30228,6 +30458,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9b",
+     "help": "4d-pairs",
      "label": "9b",
      "section": "Problem-solving",
      "stem": "Simplify these expressions as much as possible.",
@@ -30238,6 +30469,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9c",
+     "help": "4d-pairs",
      "label": "9c",
      "section": "Problem-solving",
      "stem": "Simplify these expressions as much as possible.",
@@ -30248,6 +30480,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9d",
+     "help": "4d-pairs",
      "label": "9d",
      "section": "Problem-solving",
      "stem": "Simplify these expressions as much as possible.",
@@ -30258,6 +30491,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9e",
+     "help": "4d-pairs",
      "label": "9e",
      "section": "Problem-solving",
      "stem": "Simplify these expressions as much as possible.",
@@ -30268,6 +30502,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9f",
+     "help": "4d-pairs",
      "label": "9f",
      "section": "Problem-solving",
      "stem": "Simplify these expressions as much as possible.",
@@ -30278,6 +30513,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9g",
+     "help": "4d-pairs",
      "label": "9g",
      "section": "Problem-solving",
      "stem": "Simplify these expressions as much as possible.",
@@ -30288,6 +30524,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9h",
+     "help": "4d-pairs",
      "label": "9h",
      "section": "Problem-solving",
      "stem": "Simplify these expressions as much as possible.",
@@ -30298,6 +30535,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9i",
+     "help": "4d-pairs",
      "label": "9i",
      "section": "Problem-solving",
      "stem": "Simplify these expressions as much as possible.",
@@ -30308,6 +30546,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10a",
+     "help": "4d-check",
      "label": "10a",
      "section": "Reasoning",
      "prompt": "Complete the table of values to show that $4y + 3y$ is equivalent to $7y$. Type the top row first, then the bottom row, left to right, separated by commas (8 numbers).",
@@ -30351,6 +30590,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10b",
+     "help": "4d-check",
      "label": "10b",
      "section": "Reasoning",
      "prompt": "Substitute $y = 2$ and $z = 3$ into $4y + 3z$ and into $7yz$. Type the two values in that order, separated by a comma. (They are different, which proves the expressions are not equivalent.)",
@@ -30362,6 +30602,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11a",
+     "help": "4d-check",
      "label": "11a",
      "section": "Reasoning",
      "prompt": "Collect like terms to show that $6m + 5 - 2m$ is equivalent to a shorter expression. Write that expression.",
@@ -30371,6 +30612,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11b",
+     "help": "4d-check",
      "label": "11b",
      "section": "Reasoning",
      "stem": "Substitute $m = 3$ into $6m + 5 - 2m$ and into the expression given. Type the two values in that order, separated by a comma. (Different values prove the expressions are not equivalent.)",
@@ -30383,6 +30625,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11c",
+     "help": "4d-check",
      "label": "11c",
      "section": "Reasoning",
      "stem": "Substitute $m = 3$ into $6m + 5 - 2m$ and into the expression given. Type the two values in that order, separated by a comma. (Different values prove the expressions are not equivalent.)",
@@ -30395,6 +30638,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12a",
+     "help": "4d-generalise",
      "label": "12a",
      "section": "Reasoning",
      "prompt": "Facts: $23 \\times 10 - 19 \\times 10 = 4 \\times 10$, $23 \\times 6 - 19 \\times 6 = 4 \\times 6$, $23 \\times 12 - 19 \\times 12 = 4 \\times 12$. Using $x$ for the number that changes, the left side becomes $23 \\times x - 19 \\times x$. Write the right side as simply as you can.",
@@ -30405,6 +30649,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12b",
+     "help": "4d-generalise",
      "label": "12b",
      "section": "Reasoning",
      "prompt": "Use your answer to part a to find the value of $23 \\times 26 - 19 \\times 26$.",
@@ -30413,6 +30658,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13a",
+     "help": "4d-count",
      "label": "13a",
      "section": "Enrichment",
      "stem": "The expression $a + 2b + 3a$ is equivalent to $4a + 2b$ and has three terms.",
@@ -30428,6 +30674,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13b",
+     "help": "4d-count",
      "label": "13b",
      "section": "Enrichment",
      "stem": "The expression $a + 2b + 3a$ is equivalent to $4a + 2b$ and has three terms.",
@@ -30445,6 +30692,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "4e-no-signs",
      "label": "1a",
      "section": "Fluency",
      "stem": "Write the following without multiplication signs.",
@@ -30456,6 +30704,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "4e-no-signs",
      "label": "1b",
      "section": "Fluency",
      "stem": "Write the following without multiplication signs.",
@@ -30466,6 +30715,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1c",
+     "help": "4e-no-signs",
      "label": "1c",
      "section": "Fluency",
      "stem": "Write the following without multiplication signs.",
@@ -30476,6 +30726,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1d",
+     "help": "4e-no-signs",
      "label": "1d",
      "section": "Fluency",
      "stem": "Write the following without multiplication signs.",
@@ -30486,6 +30737,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1e",
+     "help": "4e-no-signs",
      "label": "1e",
      "section": "Fluency",
      "stem": "Write the following without multiplication signs.",
@@ -30496,6 +30748,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1f",
+     "help": "4e-no-signs",
      "label": "1f",
      "section": "Fluency",
      "stem": "Write the following without multiplication signs.",
@@ -30506,6 +30759,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1g",
+     "help": "4e-no-signs",
      "label": "1g",
      "section": "Fluency",
      "stem": "Write the following without multiplication signs.",
@@ -30516,6 +30770,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1h",
+     "help": "4e-no-signs",
      "label": "1h",
      "section": "Fluency",
      "stem": "Write the following without multiplication signs.",
@@ -30526,6 +30781,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1i",
+     "help": "4e-no-signs",
      "label": "1i",
      "section": "Fluency",
      "stem": "Write the following without multiplication signs.",
@@ -30536,6 +30792,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1j",
+     "help": "4e-no-signs",
      "label": "1j",
      "section": "Fluency",
      "stem": "Write the following without multiplication signs.",
@@ -30546,6 +30803,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1k",
+     "help": "4e-no-signs",
      "label": "1k",
      "section": "Fluency",
      "stem": "Write the following without multiplication signs.",
@@ -30556,6 +30814,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1l",
+     "help": "4e-no-signs",
      "label": "1l",
      "section": "Fluency",
      "stem": "Write the following without multiplication signs.",
@@ -30566,6 +30825,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "4e-multiply",
      "label": "2a",
      "section": "Fluency",
      "stem": "Simplify these expressions.",
@@ -30576,6 +30836,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "4e-multiply",
      "label": "2b",
      "section": "Fluency",
      "stem": "Simplify these expressions.",
@@ -30586,6 +30847,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "4e-multiply",
      "label": "2c",
      "section": "Fluency",
      "stem": "Simplify these expressions.",
@@ -30596,6 +30858,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "4e-multiply",
      "label": "2d",
      "section": "Fluency",
      "stem": "Simplify these expressions.",
@@ -30606,6 +30869,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2e",
+     "help": "4e-multiply",
      "label": "2e",
      "section": "Fluency",
      "stem": "Simplify these expressions.",
@@ -30616,6 +30880,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2f",
+     "help": "4e-multiply",
      "label": "2f",
      "section": "Fluency",
      "stem": "Simplify these expressions.",
@@ -30626,6 +30891,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2g",
+     "help": "4e-multiply",
      "label": "2g",
      "section": "Fluency",
      "stem": "Simplify these expressions.",
@@ -30636,6 +30902,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2h",
+     "help": "4e-multiply",
      "label": "2h",
      "section": "Fluency",
      "stem": "Simplify these expressions.",
@@ -30646,6 +30913,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2i",
+     "help": "4e-multiply",
      "label": "2i",
      "section": "Fluency",
      "stem": "Simplify these expressions.",
@@ -30656,6 +30924,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2j",
+     "help": "4e-multiply",
      "label": "2j",
      "section": "Fluency",
      "stem": "Simplify these expressions.",
@@ -30666,6 +30935,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2k",
+     "help": "4e-multiply",
      "label": "2k",
      "section": "Fluency",
      "stem": "Simplify these expressions.",
@@ -30676,6 +30946,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2l",
+     "help": "4e-multiply",
      "label": "2l",
      "section": "Fluency",
      "stem": "Simplify these expressions.",
@@ -30686,6 +30957,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "4e-powers",
      "label": "3a",
      "section": "Fluency",
      "stem": "Simplify these expressions.",
@@ -30697,6 +30969,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "4e-powers",
      "label": "3b",
      "section": "Fluency",
      "stem": "Simplify these expressions.",
@@ -30707,6 +30980,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "4e-powers",
      "label": "3c",
      "section": "Fluency",
      "stem": "Simplify these expressions.",
@@ -30717,6 +30991,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3d",
+     "help": "4e-powers",
      "label": "3d",
      "section": "Fluency",
      "stem": "Simplify these expressions.",
@@ -30727,6 +31002,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3e",
+     "help": "4e-powers",
      "label": "3e",
      "section": "Fluency",
      "stem": "Simplify these expressions.",
@@ -30737,6 +31013,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3f",
+     "help": "4e-powers",
      "label": "3f",
      "section": "Fluency",
      "stem": "Simplify these expressions.",
@@ -30747,6 +31024,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3g",
+     "help": "4e-powers",
      "label": "3g",
      "section": "Fluency",
      "stem": "Simplify these expressions.",
@@ -30757,6 +31035,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3h",
+     "help": "4e-powers",
      "label": "3h",
      "section": "Fluency",
      "stem": "Simplify these expressions.",
@@ -30767,6 +31046,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "4e-divide",
      "label": "4a",
      "section": "Fluency",
      "stem": "Write each expression without a division sign.",
@@ -30777,6 +31057,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "4e-divide",
      "label": "4b",
      "section": "Fluency",
      "stem": "Write each expression without a division sign.",
@@ -30786,6 +31067,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "4e-divide",
      "label": "4c",
      "section": "Fluency",
      "stem": "Write each expression without a division sign.",
@@ -30795,6 +31077,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "4e-divide",
      "label": "4d",
      "section": "Fluency",
      "stem": "Write each expression without a division sign.",
@@ -30804,6 +31087,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4e",
+     "help": "4e-divide",
      "label": "4e",
      "section": "Fluency",
      "stem": "Write each expression without a division sign.",
@@ -30813,6 +31097,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4f",
+     "help": "4e-divide",
      "label": "4f",
      "section": "Fluency",
      "stem": "Write each expression without a division sign.",
@@ -30822,6 +31107,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4g",
+     "help": "4e-divide",
      "label": "4g",
      "section": "Fluency",
      "stem": "Write each expression without a division sign.",
@@ -30831,6 +31117,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4h",
+     "help": "4e-divide",
      "label": "4h",
      "section": "Fluency",
      "stem": "Write each expression without a division sign.",
@@ -30840,6 +31127,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4i",
+     "help": "4e-divide",
      "label": "4i",
      "section": "Fluency",
      "stem": "Write each expression without a division sign.",
@@ -30849,6 +31137,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4j",
+     "help": "4e-divide",
      "label": "4j",
      "section": "Fluency",
      "stem": "Write each expression without a division sign.",
@@ -30858,6 +31147,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4k",
+     "help": "4e-divide",
      "label": "4k",
      "section": "Fluency",
      "stem": "Write each expression without a division sign.",
@@ -30867,6 +31157,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4l",
+     "help": "4e-divide",
      "label": "4l",
      "section": "Fluency",
      "stem": "Write each expression without a division sign.",
@@ -30876,6 +31167,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "4e-cancel",
      "label": "5a",
      "section": "Fluency",
      "stem": "Simplify the following by dividing by any common factors. Remember that $\\frac{a}{1} = a$.",
@@ -30887,6 +31179,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "4e-cancel",
      "label": "5b",
      "section": "Fluency",
      "stem": "Simplify the following by dividing by any common factors. Remember that $\\frac{a}{1} = a$.",
@@ -30897,6 +31190,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "4e-cancel",
      "label": "5c",
      "section": "Fluency",
      "stem": "Simplify the following by dividing by any common factors. Remember that $\\frac{a}{1} = a$.",
@@ -30907,6 +31201,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5d",
+     "help": "4e-cancel",
      "label": "5d",
      "section": "Fluency",
      "stem": "Simplify the following by dividing by any common factors. Remember that $\\frac{a}{1} = a$.",
@@ -30917,6 +31212,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5e",
+     "help": "4e-cancel",
      "label": "5e",
      "section": "Fluency",
      "stem": "Simplify the following by dividing by any common factors. Remember that $\\frac{a}{1} = a$.",
@@ -30927,6 +31223,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5f",
+     "help": "4e-cancel",
      "label": "5f",
      "section": "Fluency",
      "stem": "Simplify the following by dividing by any common factors. Remember that $\\frac{a}{1} = a$.",
@@ -30937,6 +31234,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5g",
+     "help": "4e-cancel",
      "label": "5g",
      "section": "Fluency",
      "stem": "Simplify the following by dividing by any common factors. Remember that $\\frac{a}{1} = a$.",
@@ -30947,6 +31245,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5h",
+     "help": "4e-cancel",
      "label": "5h",
      "section": "Fluency",
      "stem": "Simplify the following by dividing by any common factors. Remember that $\\frac{a}{1} = a$.",
@@ -30957,6 +31256,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5i",
+     "help": "4e-cancel",
      "label": "5i",
      "section": "Fluency",
      "stem": "Simplify the following by dividing by any common factors. Remember that $\\frac{a}{1} = a$.",
@@ -30967,6 +31267,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5j",
+     "help": "4e-cancel",
      "label": "5j",
      "section": "Fluency",
      "stem": "Simplify the following by dividing by any common factors. Remember that $\\frac{a}{1} = a$.",
@@ -30977,6 +31278,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5k",
+     "help": "4e-cancel",
      "label": "5k",
      "section": "Fluency",
      "stem": "Simplify the following by dividing by any common factors. Remember that $\\frac{a}{1} = a$.",
@@ -30987,6 +31289,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5l",
+     "help": "4e-cancel",
      "label": "5l",
      "section": "Fluency",
      "stem": "Simplify the following by dividing by any common factors. Remember that $\\frac{a}{1} = a$.",
@@ -30997,6 +31300,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6a",
+     "help": "4e-area",
      "label": "6a",
      "section": "Problem-solving",
      "stem": "Write a simplified expression for the area of each rectangle. Remember that Area = length × width.",
@@ -31022,6 +31326,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6b",
+     "help": "4e-area",
      "label": "6b",
      "section": "Problem-solving",
      "stem": "Write a simplified expression for the area of each rectangle. Remember that Area = length × width.",
@@ -31047,6 +31352,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6c",
+     "help": "4e-area",
      "label": "6c",
      "section": "Problem-solving",
      "stem": "Write a simplified expression for the area of each rectangle. Remember that Area = length × width.",
@@ -31072,6 +31378,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7a",
+     "help": "4e-story",
      "label": "7a",
      "section": "Problem-solving",
      "stem": "A packet of rice crackers weighs $w$ grams.",
@@ -31081,6 +31388,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7b",
+     "help": "4e-story",
      "label": "7b",
      "section": "Problem-solving",
      "stem": "A packet of rice crackers weighs $w$ grams.",
@@ -31091,6 +31399,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7c",
+     "help": "4e-story",
      "label": "7c",
      "section": "Problem-solving",
      "stem": "A packet of rice crackers weighs $w$ grams.",
@@ -31100,6 +31409,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8a",
+     "help": "4e-story",
      "label": "8a",
      "section": "Problem-solving",
      "stem": "Six friends share the cost of a dinner equally, so they each pay the same amount.",
@@ -31110,6 +31420,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8b",
+     "help": "4e-story",
      "label": "8b",
      "section": "Problem-solving",
      "stem": "Six friends share the cost of a dinner equally, so they each pay the same amount.",
@@ -31119,6 +31430,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9a",
+     "help": "4e-cancel",
      "label": "9a",
      "section": "Problem-solving",
      "stem": "Find the term that replaces the question mark to make each statement true.",
@@ -31128,6 +31440,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9b",
+     "help": "4e-cancel",
      "label": "9b",
      "section": "Problem-solving",
      "stem": "Find the term that replaces the question mark to make each statement true.",
@@ -31137,6 +31450,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9c",
+     "help": "4e-cancel",
      "label": "9c",
      "section": "Problem-solving",
      "stem": "Find the term that replaces the question mark to make each statement true.",
@@ -31146,6 +31460,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9d",
+     "help": "4e-cancel",
      "label": "9d",
      "section": "Problem-solving",
      "stem": "Find the term that replaces the question mark to make each statement true.",
@@ -31155,6 +31470,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9e",
+     "help": "4e-cancel",
      "label": "9e",
      "section": "Problem-solving",
      "stem": "Find the term that replaces the question mark to make each statement true.",
@@ -31164,6 +31480,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10",
+     "help": "4e-multiply",
      "label": "10",
      "section": "Reasoning",
      "prompt": "The expression $4 \\times 3k$ is the same as $3k + 3k + 3k + 3k$. Write $3k + 3k + 3k + 3k$ in its simplest form.",
@@ -31173,6 +31490,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11a",
+     "help": "4e-area",
      "label": "11a",
      "section": "Reasoning",
      "stem": "This rectangle has width $4$ and length $b$, so its area is $4b$. Its length and its width are now both doubled.",
@@ -31197,6 +31515,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11b",
+     "help": "4e-area",
      "label": "11b",
      "section": "Reasoning",
      "stem": "This rectangle has width $4$ and length $b$, so its area is $4b$. Its length and its width are now both doubled.",
@@ -31207,6 +31526,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11c",
+     "help": "4e-area",
      "label": "11c",
      "section": "Reasoning",
      "stem": "This rectangle has width $4$ and length $b$, so its area is $4b$. Its length and its width are now both doubled.",
@@ -31216,6 +31536,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11d",
+     "help": "4e-area",
      "label": "11d",
      "section": "Reasoning",
      "stem": "This rectangle has width $4$ and length $b$, so its area is $4b$. Its length and its width are now both doubled.",
@@ -31225,6 +31546,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12a",
+     "help": "4e-multiply",
      "label": "12a",
      "section": "Reasoning",
      "stem": "Consider the expression $2m \\times 5n \\times 3p$.",
@@ -31235,6 +31557,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12b",
+     "help": "4e-multiply",
      "label": "12b",
      "section": "Reasoning",
      "stem": "Consider the expression $2m \\times 5n \\times 3p$.",
@@ -31244,6 +31567,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13a",
+     "help": "4e-mixed",
      "label": "13a",
      "section": "Reasoning",
      "stem": "Simplify each multiplication first, then collect like terms. For example, $2a \\times 5b - 3a \\times 2b = 10ab - 6ab = 4ab$.",
@@ -31254,6 +31578,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13b",
+     "help": "4e-mixed",
      "label": "13b",
      "section": "Reasoning",
      "stem": "Simplify each multiplication first, then collect like terms. For example, $2a \\times 5b - 3a \\times 2b = 10ab - 6ab = 4ab$.",
@@ -31264,6 +31589,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13c",
+     "help": "4e-mixed",
      "label": "13c",
      "section": "Reasoning",
      "stem": "Simplify each multiplication first, then collect like terms. For example, $2a \\times 5b - 3a \\times 2b = 10ab - 6ab = 4ab$.",
@@ -31274,6 +31600,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14a",
+     "help": "4e-powers",
      "label": "14a",
      "section": "Enrichment",
      "stem": "The expression $a \\times a$ can be written as $a^2$, and $a \\times a \\times a$ can be written as $a^3$.",
@@ -31289,6 +31616,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14b",
+     "help": "4e-powers",
      "label": "14b",
      "section": "Enrichment",
      "stem": "The expression $a \\times a$ can be written as $a^2$, and $a \\times a \\times a$ can be written as $a^3$.",
@@ -31300,6 +31628,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14c",
+     "help": "4e-powers",
      "label": "14c",
      "section": "Enrichment",
      "stem": "The expression $a \\times a$ can be written as $a^2$, and $a \\times a \\times a$ can be written as $a^3$.",
@@ -31310,6 +31639,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14d",
+     "help": "4e-powers",
      "label": "14d",
      "section": "Enrichment",
      "stem": "The expression $a \\times a$ can be written as $a^2$, and $a \\times a \\times a$ can be written as $a^3$.",
@@ -31328,6 +31658,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "4f-rect",
      "label": "1a",
      "section": "Fluency",
      "stem": "Each rectangle is split into two parts. Write two expressions for its area: one with brackets and one without.",
@@ -31358,6 +31689,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "4f-rect",
      "label": "1b",
      "section": "Fluency",
      "stem": "Each rectangle is split into two parts. Write two expressions for its area: one with brackets and one without.",
@@ -31387,6 +31719,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1c",
+     "help": "4f-rect",
      "label": "1c",
      "section": "Fluency",
      "stem": "Each rectangle is split into two parts. Write two expressions for its area: one with brackets and one without.",
@@ -31416,6 +31749,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1d",
+     "help": "4f-rect",
      "label": "1d",
      "section": "Fluency",
      "stem": "Each rectangle is split into two parts. Write two expressions for its area: one with brackets and one without.",
@@ -31445,6 +31779,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1e",
+     "help": "4f-rect",
      "label": "1e",
      "section": "Fluency",
      "stem": "Each rectangle is split into two parts. Write two expressions for its area: one with brackets and one without.",
@@ -31474,6 +31809,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1f",
+     "help": "4f-rect",
      "label": "1f",
      "section": "Fluency",
      "stem": "Each rectangle is split into two parts. Write two expressions for its area: one with brackets and one without.",
@@ -31503,6 +31839,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1g",
+     "help": "4f-rect",
      "label": "1g",
      "section": "Fluency",
      "stem": "Each rectangle is split into two parts. Write two expressions for its area: one with brackets and one without.",
@@ -31532,6 +31869,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1h",
+     "help": "4f-rect",
      "label": "1h",
      "section": "Fluency",
      "stem": "Each rectangle is split into two parts. Write two expressions for its area: one with brackets and one without.",
@@ -31561,6 +31899,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "4f-expand",
      "label": "2a",
      "section": "Fluency",
      "stem": "Use the distributive law to expand the following.",
@@ -31572,6 +31911,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "4f-expand",
      "label": "2b",
      "section": "Fluency",
      "stem": "Use the distributive law to expand the following.",
@@ -31582,6 +31922,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "4f-expand",
      "label": "2c",
      "section": "Fluency",
      "stem": "Use the distributive law to expand the following.",
@@ -31592,6 +31933,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "4f-expand",
      "label": "2d",
      "section": "Fluency",
      "stem": "Use the distributive law to expand the following.",
@@ -31602,6 +31944,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2e",
+     "help": "4f-expand",
      "label": "2e",
      "section": "Fluency",
      "stem": "Use the distributive law to expand the following.",
@@ -31612,6 +31955,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2f",
+     "help": "4f-expand",
      "label": "2f",
      "section": "Fluency",
      "stem": "Use the distributive law to expand the following.",
@@ -31622,6 +31966,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "4f-expand",
      "label": "3a",
      "section": "Fluency",
      "stem": "Use the distributive law to expand the following.",
@@ -31632,6 +31977,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "4f-expand",
      "label": "3b",
      "section": "Fluency",
      "stem": "Use the distributive law to expand the following.",
@@ -31642,6 +31988,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "4f-expand",
      "label": "3c",
      "section": "Fluency",
      "stem": "Use the distributive law to expand the following.",
@@ -31652,6 +31999,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3d",
+     "help": "4f-expand",
      "label": "3d",
      "section": "Fluency",
      "stem": "Use the distributive law to expand the following.",
@@ -31662,6 +32010,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3e",
+     "help": "4f-expand",
      "label": "3e",
      "section": "Fluency",
      "stem": "Use the distributive law to expand the following.",
@@ -31672,6 +32021,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3f",
+     "help": "4f-expand",
      "label": "3f",
      "section": "Fluency",
      "stem": "Use the distributive law to expand the following.",
@@ -31682,6 +32032,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "4f-expand",
      "label": "4a",
      "section": "Fluency",
      "stem": "Use the distributive law to expand the following.",
@@ -31692,6 +32043,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "4f-expand",
      "label": "4b",
      "section": "Fluency",
      "stem": "Use the distributive law to expand the following.",
@@ -31702,6 +32054,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "4f-expand",
      "label": "4c",
      "section": "Fluency",
      "stem": "Use the distributive law to expand the following.",
@@ -31712,6 +32065,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "4f-expand",
      "label": "4d",
      "section": "Fluency",
      "stem": "Use the distributive law to expand the following.",
@@ -31722,6 +32076,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4e",
+     "help": "4f-expand",
      "label": "4e",
      "section": "Fluency",
      "stem": "Use the distributive law to expand the following.",
@@ -31732,6 +32087,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4f",
+     "help": "4f-expand",
      "label": "4f",
      "section": "Fluency",
      "stem": "Use the distributive law to expand the following.",
@@ -31742,6 +32098,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4g",
+     "help": "4f-expand",
      "label": "4g",
      "section": "Fluency",
      "stem": "Use the distributive law to expand the following.",
@@ -31752,6 +32109,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4h",
+     "help": "4f-expand",
      "label": "4h",
      "section": "Fluency",
      "stem": "Use the distributive law to expand the following.",
@@ -31762,6 +32120,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4i",
+     "help": "4f-expand",
      "label": "4i",
      "section": "Fluency",
      "stem": "Use the distributive law to expand the following.",
@@ -31772,6 +32131,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4j",
+     "help": "4f-expand",
      "label": "4j",
      "section": "Fluency",
      "stem": "Use the distributive law to expand the following.",
@@ -31782,6 +32142,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4k",
+     "help": "4f-expand",
      "label": "4k",
      "section": "Fluency",
      "stem": "Use the distributive law to expand the following.",
@@ -31792,6 +32153,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4l",
+     "help": "4f-expand",
      "label": "4l",
      "section": "Fluency",
      "stem": "Use the distributive law to expand the following.",
@@ -31802,6 +32164,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "4f-letter",
      "label": "5a",
      "section": "Fluency",
      "stem": "Use the distributive law to expand the following.",
@@ -31812,6 +32175,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "4f-letter",
      "label": "5b",
      "section": "Fluency",
      "stem": "Use the distributive law to expand the following.",
@@ -31822,6 +32186,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "4f-letter",
      "label": "5c",
      "section": "Fluency",
      "stem": "Use the distributive law to expand the following.",
@@ -31832,6 +32197,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5d",
+     "help": "4f-letter",
      "label": "5d",
      "section": "Fluency",
      "stem": "Use the distributive law to expand the following.",
@@ -31842,6 +32208,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5e",
+     "help": "4f-letter",
      "label": "5e",
      "section": "Fluency",
      "stem": "Use the distributive law to expand the following.",
@@ -31852,6 +32219,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5f",
+     "help": "4f-letter",
      "label": "5f",
      "section": "Fluency",
      "stem": "Use the distributive law to expand the following.",
@@ -31862,6 +32230,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5g",
+     "help": "4f-letter",
      "label": "5g",
      "section": "Fluency",
      "stem": "Use the distributive law to expand the following.",
@@ -31872,6 +32241,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5h",
+     "help": "4f-letter",
      "label": "5h",
      "section": "Fluency",
      "stem": "Use the distributive law to expand the following.",
@@ -31882,6 +32252,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5i",
+     "help": "4f-letter",
      "label": "5i",
      "section": "Fluency",
      "stem": "Use the distributive law to expand the following.",
@@ -31892,6 +32263,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5j",
+     "help": "4f-letter",
      "label": "5j",
      "section": "Fluency",
      "stem": "Use the distributive law to expand the following.",
@@ -31902,6 +32274,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5k",
+     "help": "4f-letter",
      "label": "5k",
      "section": "Fluency",
      "stem": "Use the distributive law to expand the following.",
@@ -31912,6 +32285,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5l",
+     "help": "4f-letter",
      "label": "5l",
      "section": "Fluency",
      "stem": "Use the distributive law to expand the following.",
@@ -31922,6 +32296,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6a",
+     "help": "4f-words",
      "label": "6a",
      "section": "Problem-solving",
      "stem": "Write an expression with brackets for each of the following, then expand it. Type the expanded form.",
@@ -31932,6 +32307,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6b",
+     "help": "4f-words",
      "label": "6b",
      "section": "Problem-solving",
      "stem": "Write an expression with brackets for each of the following, then expand it. Type the expanded form.",
@@ -31942,6 +32318,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6c",
+     "help": "4f-words",
      "label": "6c",
      "section": "Problem-solving",
      "stem": "Write an expression with brackets for each of the following, then expand it. Type the expanded form.",
@@ -31952,6 +32329,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6d",
+     "help": "4f-words",
      "label": "6d",
      "section": "Problem-solving",
      "stem": "Write an expression with brackets for each of the following, then expand it. Type the expanded form.",
@@ -31962,6 +32340,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7a",
+     "help": "4f-words",
      "label": "7a",
      "section": "Problem-solving",
      "stem": "At a netball carnival there are $p$ players and $c$ coaches, and nobody else.",
@@ -31971,6 +32350,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7b",
+     "help": "4f-words",
      "label": "7b",
      "section": "Problem-solving",
      "stem": "At a netball carnival there are $p$ players and $c$ coaches, and nobody else.",
@@ -31981,6 +32361,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7c",
+     "help": "4f-words",
      "label": "7c",
      "section": "Problem-solving",
      "stem": "At a netball carnival there are $p$ players and $c$ coaches, and nobody else.",
@@ -31991,6 +32372,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8a",
+     "help": "4f-missing",
      "label": "8a",
      "section": "Problem-solving",
      "stem": "When expanded, $6(2a + 5b)$ gives $12a + 30b$. Other expressions also expand to $12a + 30b$. Find the number that goes in the box.",
@@ -32000,6 +32382,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8b",
+     "help": "4f-missing",
      "label": "8b",
      "section": "Problem-solving",
      "stem": "When expanded, $6(2a + 5b)$ gives $12a + 30b$. Other expressions also expand to $12a + 30b$. Find the number that goes in the box.",
@@ -32009,6 +32392,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9",
+     "help": "4f-words",
      "label": "9",
      "section": "Problem-solving",
      "prompt": "The distance around a rectangular picture frame is $2(h + w)$ cm, where $h$ is its height and $w$ is its width. Write an equivalent expression without brackets.",
@@ -32018,6 +32402,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10a",
+     "help": "4f-rect",
      "label": "10a",
      "section": "Reasoning",
      "stem": "Use a rectangle diagram to expand the brackets. Work out the area of each part, then add the parts together.",
@@ -32047,6 +32432,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10b",
+     "help": "4f-rect",
      "label": "10b",
      "section": "Reasoning",
      "stem": "Use a rectangle diagram to expand the brackets. Work out the area of each part, then add the parts together.",
@@ -32080,6 +32466,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10c",
+     "help": "4f-rect",
      "label": "10c",
      "section": "Reasoning",
      "stem": "Use a rectangle diagram to expand the brackets. Work out the area of each part, then add the parts together.",
@@ -32090,6 +32477,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11",
+     "help": "4f-99",
      "label": "11",
      "section": "Reasoning",
      "prompt": "To multiply a number by $99$, you can multiply it by $100$ and then subtract the number, because $99n = 100n - n$. Use this method to work out $38 \\times 99$.",
@@ -32098,6 +32486,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12a",
+     "help": "4f-missing",
      "label": "12a",
      "section": "Reasoning",
      "stem": "When expanded, $3(4m + 8n)$ gives $12m + 24n$.",
@@ -32107,6 +32496,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12b",
+     "help": "4f-missing",
      "label": "12b",
      "section": "Reasoning",
      "stem": "When expanded, $3(4m + 8n)$ gives $12m + 24n$.",
@@ -32130,6 +32520,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "4g-formula",
      "label": "1a",
      "section": "Fluency",
      "stem": "The perimeter of a rectangle is given by the expression $2a + 2b$, where $a$ is the length and $b$ is the width.",
@@ -32154,6 +32545,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "4g-formula",
      "label": "1b",
      "section": "Fluency",
      "stem": "The perimeter of a rectangle is given by the expression $2a + 2b$, where $a$ is the length and $b$ is the width.",
@@ -32164,6 +32556,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "4g-formula",
      "label": "2a",
      "section": "Fluency",
      "stem": "The perimeter of an isosceles triangle is given by the expression $p + 2q$, where $p$ is the length of the base and $q$ is the length of each of the two equal sides.",
@@ -32178,6 +32571,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "4g-formula",
      "label": "2b",
      "section": "Fluency",
      "stem": "The perimeter of an isosceles triangle is given by the expression $p + 2q$, where $p$ is the length of the base and $q$ is the length of each of the two equal sides.",
@@ -32188,6 +32582,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3",
+     "help": "4g-write",
      "label": "3",
      "section": "Fluency",
      "prompt": "Rulers cost \\$3 each. Write an expression for the cost, in dollars, of $k$ rulers.",
@@ -32197,6 +32592,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "4g-write",
      "label": "4a",
      "section": "Fluency",
      "stem": "Erasers cost $\\$m$ each. Write an expression for the cost, in dollars, of:",
@@ -32206,6 +32602,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "4g-write",
      "label": "4b",
      "section": "Fluency",
      "stem": "Erasers cost $\\$m$ each. Write an expression for the cost, in dollars, of:",
@@ -32215,6 +32612,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "4g-write",
      "label": "4c",
      "section": "Fluency",
      "stem": "Erasers cost $\\$m$ each. Write an expression for the cost, in dollars, of:",
@@ -32225,6 +32623,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "4g-formula",
      "label": "5a",
      "section": "Fluency",
      "stem": "A train travels at $80$ km/h, so in $t$ hours it travels $80t$ kilometres.",
@@ -32235,6 +32634,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "4g-formula",
      "label": "5b",
      "section": "Fluency",
      "stem": "A train travels at $80$ km/h, so in $t$ hours it travels $80t$ kilometres.",
@@ -32245,6 +32645,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "4g-formula",
      "label": "5c",
      "section": "Fluency",
      "stem": "A train travels at $80$ km/h, so in $t$ hours it travels $80t$ kilometres.",
@@ -32254,6 +32655,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6a",
+     "help": "4g-fee",
      "label": "6a",
      "section": "Fluency",
      "stem": "An electrician charges a \\$65 call-out fee and then \\$90 per hour. So the total cost, in dollars, for $h$ hours of work is $65 + 90h$.",
@@ -32264,6 +32666,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6b",
+     "help": "4g-fee",
      "label": "6b",
      "section": "Fluency",
      "stem": "An electrician charges a \\$65 call-out fee and then \\$90 per hour. So the total cost, in dollars, for $h$ hours of work is $65 + 90h$.",
@@ -32274,6 +32677,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6c",
+     "help": "4g-fee",
      "label": "6c",
      "section": "Fluency",
      "stem": "An electrician charges a \\$65 call-out fee and then \\$90 per hour. So the total cost, in dollars, for $h$ hours of work is $65 + 90h$.",
@@ -32283,6 +32687,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7a",
+     "help": "4g-write",
      "label": "7a",
      "section": "Fluency",
      "stem": "Match each word problem with the correct expression: A $7 + y$, B $12 + 7y$, C $7y$, D $14 + 2y$, E $y$.",
@@ -32299,6 +32704,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7b",
+     "help": "4g-write",
      "label": "7b",
      "section": "Fluency",
      "stem": "Match each word problem with the correct expression: A $7 + y$, B $12 + 7y$, C $7y$, D $14 + 2y$, E $y$.",
@@ -32315,6 +32721,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7c",
+     "help": "4g-write",
      "label": "7c",
      "section": "Fluency",
      "stem": "Match each word problem with the correct expression: A $7 + y$, B $12 + 7y$, C $7y$, D $14 + 2y$, E $y$.",
@@ -32331,6 +32738,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7d",
+     "help": "4g-write",
      "label": "7d",
      "section": "Fluency",
      "stem": "Match each word problem with the correct expression: A $7 + y$, B $12 + 7y$, C $7y$, D $14 + 2y$, E $y$.",
@@ -32347,6 +32755,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7e",
+     "help": "4g-write",
      "label": "7e",
      "section": "Fluency",
      "stem": "Match each word problem with the correct expression: A $7 + y$, B $12 + 7y$, C $7y$, D $14 + 2y$, E $y$.",
@@ -32363,6 +32772,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8a",
+     "help": "4g-fee",
      "label": "8a",
      "section": "Problem-solving",
      "stem": "A gardener charges a \\$35 call-out fee and \\$45 per hour.",
@@ -32399,6 +32809,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8b",
+     "help": "4g-fee",
      "label": "8b",
      "section": "Problem-solving",
      "stem": "A gardener charges a \\$35 call-out fee and \\$45 per hour.",
@@ -32408,6 +32819,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8c",
+     "help": "4g-fee",
      "label": "8c",
      "section": "Problem-solving",
      "stem": "A gardener charges a \\$35 call-out fee and \\$45 per hour.",
@@ -32418,6 +32830,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9a",
+     "help": "4g-fee",
      "label": "9a",
      "section": "Problem-solving",
      "stem": "To hire a squash court, you pay a \\$8 booking fee plus \\$14 per hour.",
@@ -32428,6 +32841,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9b",
+     "help": "4g-fee",
      "label": "9b",
      "section": "Problem-solving",
      "stem": "To hire a squash court, you pay a \\$8 booking fee plus \\$14 per hour.",
@@ -32437,6 +32851,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9c",
+     "help": "4g-fee",
      "label": "9c",
      "section": "Problem-solving",
      "stem": "To hire a squash court, you pay a \\$8 booking fee plus \\$14 per hour.",
@@ -32447,6 +32862,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10a",
+     "help": "4g-fee",
      "label": "10a",
      "section": "Problem-solving",
      "stem": "Mia's mobile phone plan charges $25$ cents to connect a call, plus $45$ cents per minute of talking. So a $t$-minute call costs $25 + 45t$ cents.",
@@ -32457,6 +32873,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10b",
+     "help": "4g-fee",
      "label": "10b",
      "section": "Problem-solving",
      "stem": "Mia's mobile phone plan charges $25$ cents to connect a call, plus $45$ cents per minute of talking. So a $t$-minute call costs $25 + 45t$ cents.",
@@ -32467,6 +32884,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10c",
+     "help": "4g-fee",
      "label": "10c",
      "section": "Problem-solving",
      "stem": "Mia's mobile phone plan charges $25$ cents to connect a call, plus $45$ cents per minute of talking. So a $t$-minute call costs $25 + 45t$ cents.",
@@ -32477,6 +32895,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11a",
+     "help": "4g-score",
      "label": "11a",
      "section": "Problem-solving",
      "stem": "In a basketball game (ignoring free throws), a long shot is worth $3$ points and a regular basket is worth $2$ points. So a team that scores $t$ three-pointers and $w$ two-pointers has a total score of $3t + 2w$.",
@@ -32486,6 +32905,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11b",
+     "help": "4g-score",
      "label": "11b",
      "section": "Problem-solving",
      "stem": "In a basketball game (ignoring free throws), a long shot is worth $3$ points and a regular basket is worth $2$ points. So a team that scores $t$ three-pointers and $w$ two-pointers has a total score of $3t + 2w$.",
@@ -32498,6 +32918,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11c",
+     "help": "4g-score",
      "label": "11c",
      "section": "Problem-solving",
      "stem": "In a basketball game (ignoring free throws), a long shot is worth $3$ points and a regular basket is worth $2$ points. So a team that scores $t$ three-pointers and $w$ two-pointers has a total score of $3t + 2w$.",
@@ -32507,6 +32928,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12a",
+     "help": "4g-write",
      "label": "12a",
      "section": "Problem-solving",
      "stem": "At a toy shop sale, books cost $\\$b$ each, puzzles cost $\\$p$ each and games cost $\\$g$ each. Ravi buys $3$ books, $5$ puzzles and $4$ games.",
@@ -32516,6 +32938,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12b",
+     "help": "4g-write",
      "label": "12b",
      "section": "Problem-solving",
      "stem": "At a toy shop sale, books cost $\\$b$ each, puzzles cost $\\$p$ each and games cost $\\$g$ each. Ravi buys $3$ books, $5$ puzzles and $4$ games.",
@@ -32525,6 +32948,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12c",
+     "help": "4g-write",
      "label": "12c",
      "section": "Problem-solving",
      "stem": "At a toy shop sale, books cost $\\$b$ each, puzzles cost $\\$p$ each and games cost $\\$g$ each. Ravi buys $3$ books, $5$ puzzles and $4$ games.",
@@ -32535,6 +32959,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13a",
+     "help": "4g-write",
      "label": "13a",
      "section": "Reasoning",
      "stem": "A newsagent charges $\\$k$ for a notebook.",
@@ -32544,6 +32969,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13b",
+     "help": "4g-write",
      "label": "13b",
      "section": "Reasoning",
      "stem": "A newsagent charges $\\$k$ for a notebook.",
@@ -32553,6 +32979,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13c",
+     "help": "4g-write",
      "label": "13c",
      "section": "Reasoning",
      "stem": "A newsagent charges $\\$k$ for a notebook.",
@@ -32562,6 +32989,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14a",
+     "help": "4g-fee",
      "label": "14a",
      "section": "Reasoning",
      "stem": "Hiring a school hall costs a \\$20 booking fee plus \\$40 per hour.",
@@ -32571,6 +32999,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14b",
+     "help": "4g-fee",
      "label": "14b",
      "section": "Reasoning",
      "stem": "Hiring a school hall costs a \\$20 booking fee plus \\$40 per hour.",
@@ -32581,6 +33010,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14c",
+     "help": "4g-fee",
      "label": "14c",
      "section": "Reasoning",
      "stem": "Hiring a school hall costs a \\$20 booking fee plus \\$40 per hour.",
@@ -32591,6 +33021,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15a",
+     "help": "4g-plans",
      "label": "15a",
      "section": "Enrichment",
      "stem": "Jade and Leo are on different mobile phone plans, shown in the table.",
@@ -32620,6 +33051,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15b",
+     "help": "4g-plans",
      "label": "15b",
      "section": "Enrichment",
      "stem": "Jade and Leo are on different mobile phone plans, shown in the table.",
@@ -32629,6 +33061,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15c",
+     "help": "4g-plans",
      "label": "15c",
      "section": "Enrichment",
      "stem": "Jade and Leo are on different mobile phone plans, shown in the table.",
@@ -32643,6 +33076,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15d",
+     "help": "4g-plans",
      "label": "15d",
      "section": "Enrichment",
      "stem": "Jade and Leo are on different mobile phone plans, shown in the table.",
@@ -60660,6 +61094,44748 @@ window.H3_BANK = {
       "3"
      ],
      "hint": "Type three numbers in the order red, green, blue, separated by commas."
+    }
+   ]
+  },
+  {
+   "id": "10a",
+   "chapter": "Chapter 10: Measurement",
+   "title": "10A Metric units of length",
+   "description": "Choose sensible metric units, convert between mm, cm, m and km, and read scales.",
+   "questions": [
+    {
+     "id": "q1a",
+     "label": "1a",
+     "section": "Fluency",
+     "stem": "Which metric unit would be the most appropriate for measuring the following?",
+     "prompt": "The distance between two capital cities",
+     "type": "choice",
+     "answer": 3,
+     "options": [
+      "mm",
+      "cm",
+      "m",
+      "km"
+     ]
+    },
+    {
+     "id": "q1b",
+     "label": "1b",
+     "section": "Fluency",
+     "stem": "Which metric unit would be the most appropriate for measuring the following?",
+     "prompt": "The width of a pencil lead",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "mm",
+      "cm",
+      "m",
+      "km"
+     ]
+    },
+    {
+     "id": "q1c",
+     "label": "1c",
+     "section": "Fluency",
+     "stem": "Which metric unit would be the most appropriate for measuring the following?",
+     "prompt": "The height of a two-storey house",
+     "type": "choice",
+     "answer": 2,
+     "options": [
+      "mm",
+      "cm",
+      "m",
+      "km"
+     ]
+    },
+    {
+     "id": "q1d",
+     "label": "1d",
+     "section": "Fluency",
+     "stem": "Which metric unit would be the most appropriate for measuring the following?",
+     "prompt": "The length of a swimming pool",
+     "type": "choice",
+     "answer": 2,
+     "options": [
+      "mm",
+      "cm",
+      "m",
+      "km"
+     ]
+    },
+    {
+     "id": "q1e",
+     "label": "1e",
+     "section": "Fluency",
+     "stem": "Which metric unit would be the most appropriate for measuring the following?",
+     "prompt": "The length of a mobile phone",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "mm",
+      "cm",
+      "m",
+      "km"
+     ]
+    },
+    {
+     "id": "q1f",
+     "label": "1f",
+     "section": "Fluency",
+     "stem": "Which metric unit would be the most appropriate for measuring the following?",
+     "prompt": "The length of a long river",
+     "type": "choice",
+     "answer": 3,
+     "options": [
+      "mm",
+      "cm",
+      "m",
+      "km"
+     ]
+    },
+    {
+     "id": "q2a",
+     "label": "2a",
+     "section": "Fluency",
+     "stem": "Choose the most suitable metric unit for measuring each real-life length.",
+     "prompt": "The height of a giraffe",
+     "type": "choice",
+     "answer": 2,
+     "options": [
+      "mm",
+      "cm",
+      "m",
+      "km"
+     ]
+    },
+    {
+     "id": "q2b",
+     "label": "2b",
+     "section": "Fluency",
+     "stem": "Choose the most suitable metric unit for measuring each real-life length.",
+     "prompt": "The length of a grain of rice",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "mm",
+      "cm",
+      "m",
+      "km"
+     ]
+    },
+    {
+     "id": "q2c",
+     "label": "2c",
+     "section": "Fluency",
+     "stem": "Choose the most suitable metric unit for measuring each real-life length.",
+     "prompt": "The length of a mountain range seen from a plane",
+     "type": "choice",
+     "answer": 3,
+     "options": [
+      "mm",
+      "cm",
+      "m",
+      "km"
+     ]
+    },
+    {
+     "id": "q2d",
+     "label": "2d",
+     "section": "Fluency",
+     "stem": "Choose the most suitable metric unit for measuring each real-life length.",
+     "prompt": "The distance across Australia from east to west",
+     "type": "choice",
+     "answer": 3,
+     "options": [
+      "mm",
+      "cm",
+      "m",
+      "km"
+     ]
+    },
+    {
+     "id": "q2e",
+     "label": "2e",
+     "section": "Fluency",
+     "stem": "Choose the most suitable metric unit for measuring each real-life length.",
+     "prompt": "The length of a school shoe",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "mm",
+      "cm",
+      "m",
+      "km"
+     ]
+    },
+    {
+     "id": "q2f",
+     "label": "2f",
+     "section": "Fluency",
+     "stem": "Choose the most suitable metric unit for measuring each real-life length.",
+     "prompt": "The height of a coffee mug",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "mm",
+      "cm",
+      "m",
+      "km"
+     ]
+    },
+    {
+     "id": "q3a",
+     "label": "3a",
+     "section": "Fluency",
+     "stem": "Convert to the units given in the brackets.",
+     "prompt": "$7$ m (cm)",
+     "type": "numeric",
+     "answer": "700",
+     "units": "cm"
+    },
+    {
+     "id": "q3b",
+     "label": "3b",
+     "section": "Fluency",
+     "stem": "Convert to the units given in the brackets.",
+     "prompt": "$9$ km (m)",
+     "type": "numeric",
+     "answer": "9000",
+     "units": "m"
+    },
+    {
+     "id": "q3c",
+     "label": "3c",
+     "section": "Fluency",
+     "stem": "Convert to the units given in the brackets.",
+     "prompt": "$80$ mm (cm)",
+     "type": "numeric",
+     "answer": "8",
+     "units": "cm"
+    },
+    {
+     "id": "q3d",
+     "label": "3d",
+     "section": "Fluency",
+     "stem": "Convert to the units given in the brackets.",
+     "prompt": "$300$ cm (m)",
+     "type": "numeric",
+     "answer": "3",
+     "units": "m"
+    },
+    {
+     "id": "q4a",
+     "label": "4a",
+     "section": "Fluency",
+     "stem": "Convert these measurements to the units shown in brackets.",
+     "prompt": "$8$ cm (mm)",
+     "type": "numeric",
+     "answer": "80",
+     "units": "mm"
+    },
+    {
+     "id": "q4b",
+     "label": "4b",
+     "section": "Fluency",
+     "stem": "Convert these measurements to the units shown in brackets.",
+     "prompt": "$6$ m (cm)",
+     "type": "numeric",
+     "answer": "600",
+     "units": "cm"
+    },
+    {
+     "id": "q4c",
+     "label": "4c",
+     "section": "Fluency",
+     "stem": "Convert these measurements to the units shown in brackets.",
+     "prompt": "$4.7$ km (m)",
+     "type": "numeric",
+     "answer": "4700",
+     "units": "m"
+    },
+    {
+     "id": "q4d",
+     "label": "4d",
+     "section": "Fluency",
+     "stem": "Convert these measurements to the units shown in brackets.",
+     "prompt": "$31.4$ m (cm)",
+     "type": "numeric",
+     "answer": "3140",
+     "units": "cm"
+    },
+    {
+     "id": "q4e",
+     "label": "4e",
+     "section": "Fluency",
+     "stem": "Convert these measurements to the units shown in brackets.",
+     "prompt": "$90$ mm (cm)",
+     "type": "numeric",
+     "answer": "9",
+     "units": "cm"
+    },
+    {
+     "id": "q4f",
+     "label": "4f",
+     "section": "Fluency",
+     "stem": "Convert these measurements to the units shown in brackets.",
+     "prompt": "$800$ cm (m)",
+     "type": "numeric",
+     "answer": "8",
+     "units": "m"
+    },
+    {
+     "id": "q4g",
+     "label": "4g",
+     "section": "Fluency",
+     "stem": "Convert these measurements to the units shown in brackets.",
+     "prompt": "$6300$ m (km)",
+     "type": "numeric",
+     "answer": "6.3",
+     "units": "km"
+    },
+    {
+     "id": "q4h",
+     "label": "4h",
+     "section": "Fluency",
+     "stem": "Convert these measurements to the units shown in brackets.",
+     "prompt": "$586$ mm (cm)",
+     "type": "numeric",
+     "answer": "58.6",
+     "units": "cm"
+    },
+    {
+     "id": "q4i",
+     "label": "4i",
+     "section": "Fluency",
+     "stem": "Convert these measurements to the units shown in brackets.",
+     "prompt": "$3.27$ m (cm)",
+     "type": "numeric",
+     "answer": "327",
+     "units": "cm"
+    },
+    {
+     "id": "q4j",
+     "label": "4j",
+     "section": "Fluency",
+     "stem": "Convert these measurements to the units shown in brackets.",
+     "prompt": "$0.05$ km (m)",
+     "type": "numeric",
+     "answer": "50",
+     "units": "m"
+    },
+    {
+     "id": "q4k",
+     "label": "4k",
+     "section": "Fluency",
+     "stem": "Convert these measurements to the units shown in brackets.",
+     "prompt": "$7438$ mm (cm)",
+     "type": "numeric",
+     "answer": "743.8",
+     "units": "cm"
+    },
+    {
+     "id": "q4l",
+     "label": "4l",
+     "section": "Fluency",
+     "stem": "Convert these measurements to the units shown in brackets.",
+     "prompt": "$5160$ m (km)",
+     "type": "numeric",
+     "answer": "5.16",
+     "units": "km"
+    },
+    {
+     "id": "q5a",
+     "label": "5a",
+     "section": "Fluency",
+     "stem": "Add these lengths together and give the result in the units shown in brackets.",
+     "prompt": "$4$ cm and $7$ mm (cm)",
+     "type": "numeric",
+     "answer": "4.7",
+     "units": "cm"
+    },
+    {
+     "id": "q5b",
+     "label": "5b",
+     "section": "Fluency",
+     "stem": "Add these lengths together and give the result in the units shown in brackets.",
+     "prompt": "$6$ cm and $9$ mm (mm)",
+     "type": "numeric",
+     "answer": "69",
+     "units": "mm"
+    },
+    {
+     "id": "q5c",
+     "label": "5c",
+     "section": "Fluency",
+     "stem": "Add these lengths together and give the result in the units shown in brackets.",
+     "prompt": "$5$ m and $30$ cm (m)",
+     "type": "numeric",
+     "answer": "5.3",
+     "units": "m"
+    },
+    {
+     "id": "q5d",
+     "label": "5d",
+     "section": "Fluency",
+     "stem": "Add these lengths together and give the result in the units shown in brackets.",
+     "prompt": "$3$ m and $45$ cm (cm)",
+     "type": "numeric",
+     "answer": "345",
+     "units": "cm"
+    },
+    {
+     "id": "q5e",
+     "label": "5e",
+     "section": "Fluency",
+     "stem": "Add these lengths together and give the result in the units shown in brackets.",
+     "prompt": "$8$ km and $400$ m (m)",
+     "type": "numeric",
+     "answer": "8400",
+     "units": "m"
+    },
+    {
+     "id": "q5f",
+     "label": "5f",
+     "section": "Fluency",
+     "stem": "Add these lengths together and give the result in the units shown in brackets.",
+     "prompt": "$14$ km and $286$ m (km)",
+     "type": "numeric",
+     "answer": "14.286",
+     "units": "km"
+    },
+    {
+     "id": "q6a",
+     "label": "6a",
+     "section": "Fluency",
+     "stem": "Convert to the units shown in the brackets.",
+     "prompt": "$5$ m (mm)",
+     "type": "numeric",
+     "answer": "5000",
+     "units": "mm"
+    },
+    {
+     "id": "q6b",
+     "label": "6b",
+     "section": "Fluency",
+     "stem": "Convert to the units shown in the brackets.",
+     "prompt": "$3$ km (cm)",
+     "type": "numeric",
+     "answer": "300000",
+     "units": "cm",
+     "hint": "Type large numbers without spaces, for example 250000"
+    },
+    {
+     "id": "q6c",
+     "label": "6c",
+     "section": "Fluency",
+     "stem": "Convert to the units shown in the brackets.",
+     "prompt": "$1.8$ m (mm)",
+     "type": "numeric",
+     "answer": "1800",
+     "units": "mm"
+    },
+    {
+     "id": "q6d",
+     "label": "6d",
+     "section": "Fluency",
+     "stem": "Convert to the units shown in the brackets.",
+     "prompt": "$0.07$ km (cm)",
+     "type": "numeric",
+     "answer": "7000",
+     "units": "cm"
+    },
+    {
+     "id": "q6e",
+     "label": "6e",
+     "section": "Fluency",
+     "stem": "Convert to the units shown in the brackets.",
+     "prompt": "$62\\,000$ cm (km)",
+     "type": "numeric",
+     "answer": "0.62",
+     "units": "km"
+    },
+    {
+     "id": "q6f",
+     "label": "6f",
+     "section": "Fluency",
+     "stem": "Convert to the units shown in the brackets.",
+     "prompt": "$584\\,000$ mm (m)",
+     "type": "numeric",
+     "answer": "584",
+     "units": "m"
+    },
+    {
+     "id": "q6g",
+     "label": "6g",
+     "section": "Fluency",
+     "stem": "Convert to the units shown in the brackets.",
+     "prompt": "$347\\,000$ mm (km)",
+     "type": "numeric",
+     "answer": "0.347",
+     "units": "km"
+    },
+    {
+     "id": "q6h",
+     "label": "6h",
+     "section": "Fluency",
+     "stem": "Convert to the units shown in the brackets.",
+     "prompt": "$0.8$ mm (m)",
+     "type": "numeric",
+     "answer": "0.0008",
+     "units": "m"
+    },
+    {
+     "id": "q6i",
+     "label": "6i",
+     "section": "Fluency",
+     "stem": "Convert to the units shown in the brackets.",
+     "prompt": "$0.3$ km (mm)",
+     "type": "numeric",
+     "answer": "300000",
+     "units": "mm",
+     "hint": "Type large numbers without spaces, for example 250000"
+    },
+    {
+     "id": "q7a",
+     "label": "7a",
+     "section": "Fluency",
+     "stem": "These rulers show centimetres with millimetre divisions. Read the scale to measure the marked length, in the unit asked for.",
+     "prompt": "Give the marked length in centimetres.",
+     "type": "numeric",
+     "answer": "2.3",
+     "figure": {
+      "kind": "diagram",
+      "unit": 80,
+      "items": [
+       {
+        "poly": [
+         [
+          -0.25,
+          0
+         ],
+         [
+          3,
+          0
+         ],
+         [
+          3,
+          1
+         ],
+         [
+          -0.25,
+          1
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0,
+         1,
+         0,
+         0.64
+        ]
+       },
+       {
+        "label": "0",
+        "at": [
+         0,
+         0.42
+        ]
+       },
+       {
+        "seg": [
+         0.1,
+         1,
+         0.1,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.2,
+         1,
+         0.2,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.3,
+         1,
+         0.3,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.4,
+         1,
+         0.4,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.5,
+         1,
+         0.5,
+         0.75
+        ]
+       },
+       {
+        "seg": [
+         0.6,
+         1,
+         0.6,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.7,
+         1,
+         0.7,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.8,
+         1,
+         0.8,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.9,
+         1,
+         0.9,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1,
+         1,
+         1,
+         0.64
+        ]
+       },
+       {
+        "label": "1",
+        "at": [
+         1,
+         0.42
+        ]
+       },
+       {
+        "seg": [
+         1.1,
+         1,
+         1.1,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.2,
+         1,
+         1.2,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.3,
+         1,
+         1.3,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.4,
+         1,
+         1.4,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.5,
+         1,
+         1.5,
+         0.75
+        ]
+       },
+       {
+        "seg": [
+         1.6,
+         1,
+         1.6,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.7,
+         1,
+         1.7,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.8,
+         1,
+         1.8,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.9,
+         1,
+         1.9,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2,
+         1,
+         2,
+         0.64
+        ]
+       },
+       {
+        "label": "2",
+        "at": [
+         2,
+         0.42
+        ]
+       },
+       {
+        "seg": [
+         2.1,
+         1,
+         2.1,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.2,
+         1,
+         2.2,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.3,
+         1,
+         2.3,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.4,
+         1,
+         2.4,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.5,
+         1,
+         2.5,
+         0.75
+        ]
+       },
+       {
+        "seg": [
+         2.6,
+         1,
+         2.6,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.7,
+         1,
+         2.7,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.8,
+         1,
+         2.8,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.9,
+         1,
+         2.9,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0,
+         1.38,
+         2.3,
+         1.38
+        ],
+        "arrow": "both"
+       },
+       {
+        "seg": [
+         0,
+         1.24,
+         0,
+         1.52
+        ]
+       },
+       {
+        "seg": [
+         2.3,
+         1.24,
+         2.3,
+         1.52
+        ]
+       }
+      ]
+     },
+     "units": "cm"
+    },
+    {
+     "id": "q7b",
+     "label": "7b",
+     "section": "Fluency",
+     "stem": "These rulers show centimetres with millimetre divisions. Read the scale to measure the marked length, in the unit asked for.",
+     "prompt": "Give the marked length in millimetres.",
+     "type": "numeric",
+     "answer": "42",
+     "figure": {
+      "kind": "diagram",
+      "unit": 80,
+      "items": [
+       {
+        "poly": [
+         [
+          -0.25,
+          0
+         ],
+         [
+          5.6,
+          0
+         ],
+         [
+          5.6,
+          1
+         ],
+         [
+          -0.25,
+          1
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0,
+         1,
+         0,
+         0.64
+        ]
+       },
+       {
+        "label": "0",
+        "at": [
+         0,
+         0.42
+        ]
+       },
+       {
+        "seg": [
+         0.1,
+         1,
+         0.1,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.2,
+         1,
+         0.2,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.3,
+         1,
+         0.3,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.4,
+         1,
+         0.4,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.5,
+         1,
+         0.5,
+         0.75
+        ]
+       },
+       {
+        "seg": [
+         0.6,
+         1,
+         0.6,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.7,
+         1,
+         0.7,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.8,
+         1,
+         0.8,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.9,
+         1,
+         0.9,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1,
+         1,
+         1,
+         0.64
+        ]
+       },
+       {
+        "label": "1",
+        "at": [
+         1,
+         0.42
+        ]
+       },
+       {
+        "seg": [
+         1.1,
+         1,
+         1.1,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.2,
+         1,
+         1.2,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.3,
+         1,
+         1.3,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.4,
+         1,
+         1.4,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.5,
+         1,
+         1.5,
+         0.75
+        ]
+       },
+       {
+        "seg": [
+         1.6,
+         1,
+         1.6,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.7,
+         1,
+         1.7,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.8,
+         1,
+         1.8,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.9,
+         1,
+         1.9,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2,
+         1,
+         2,
+         0.64
+        ]
+       },
+       {
+        "label": "2",
+        "at": [
+         2,
+         0.42
+        ]
+       },
+       {
+        "seg": [
+         2.1,
+         1,
+         2.1,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.2,
+         1,
+         2.2,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.3,
+         1,
+         2.3,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.4,
+         1,
+         2.4,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.5,
+         1,
+         2.5,
+         0.75
+        ]
+       },
+       {
+        "seg": [
+         2.6,
+         1,
+         2.6,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.7,
+         1,
+         2.7,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.8,
+         1,
+         2.8,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.9,
+         1,
+         2.9,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         3,
+         1,
+         3,
+         0.64
+        ]
+       },
+       {
+        "label": "3",
+        "at": [
+         3,
+         0.42
+        ]
+       },
+       {
+        "seg": [
+         3.1,
+         1,
+         3.1,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         3.2,
+         1,
+         3.2,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         3.3,
+         1,
+         3.3,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         3.4,
+         1,
+         3.4,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         3.5,
+         1,
+         3.5,
+         0.75
+        ]
+       },
+       {
+        "seg": [
+         3.6,
+         1,
+         3.6,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         3.7,
+         1,
+         3.7,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         3.8,
+         1,
+         3.8,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         3.9,
+         1,
+         3.9,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         4,
+         1,
+         4,
+         0.64
+        ]
+       },
+       {
+        "label": "4",
+        "at": [
+         4,
+         0.42
+        ]
+       },
+       {
+        "seg": [
+         4.1,
+         1,
+         4.1,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         4.2,
+         1,
+         4.2,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         4.3,
+         1,
+         4.3,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         4.4,
+         1,
+         4.4,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         4.5,
+         1,
+         4.5,
+         0.75
+        ]
+       },
+       {
+        "seg": [
+         4.6,
+         1,
+         4.6,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         4.7,
+         1,
+         4.7,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         4.8,
+         1,
+         4.8,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         4.9,
+         1,
+         4.9,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         5,
+         1,
+         5,
+         0.64
+        ]
+       },
+       {
+        "label": "5",
+        "at": [
+         5,
+         0.42
+        ]
+       },
+       {
+        "seg": [
+         5.1,
+         1,
+         5.1,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         5.2,
+         1,
+         5.2,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         5.3,
+         1,
+         5.3,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         5.4,
+         1,
+         5.4,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         5.5,
+         1,
+         5.5,
+         0.75
+        ]
+       },
+       {
+        "seg": [
+         0,
+         1.38,
+         4.2,
+         1.38
+        ],
+        "arrow": "both"
+       },
+       {
+        "seg": [
+         0,
+         1.24,
+         0,
+         1.52
+        ]
+       },
+       {
+        "seg": [
+         4.2,
+         1.24,
+         4.2,
+         1.52
+        ]
+       }
+      ]
+     },
+     "units": "mm"
+    },
+    {
+     "id": "q7c",
+     "label": "7c",
+     "section": "Fluency",
+     "stem": "These rulers show centimetres with millimetre divisions. Read the scale to measure the marked length, in the unit asked for.",
+     "prompt": "Give the marked length in centimetres.",
+     "type": "numeric",
+     "answer": "1.6",
+     "figure": {
+      "kind": "diagram",
+      "unit": 80,
+      "items": [
+       {
+        "poly": [
+         [
+          -0.25,
+          0
+         ],
+         [
+          2.5,
+          0
+         ],
+         [
+          2.5,
+          1
+         ],
+         [
+          -0.25,
+          1
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0,
+         1,
+         0,
+         0.64
+        ]
+       },
+       {
+        "label": "0",
+        "at": [
+         0,
+         0.42
+        ]
+       },
+       {
+        "seg": [
+         0.1,
+         1,
+         0.1,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.2,
+         1,
+         0.2,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.3,
+         1,
+         0.3,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.4,
+         1,
+         0.4,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.5,
+         1,
+         0.5,
+         0.75
+        ]
+       },
+       {
+        "seg": [
+         0.6,
+         1,
+         0.6,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.7,
+         1,
+         0.7,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.8,
+         1,
+         0.8,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.9,
+         1,
+         0.9,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1,
+         1,
+         1,
+         0.64
+        ]
+       },
+       {
+        "label": "1",
+        "at": [
+         1,
+         0.42
+        ]
+       },
+       {
+        "seg": [
+         1.1,
+         1,
+         1.1,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.2,
+         1,
+         1.2,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.3,
+         1,
+         1.3,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.4,
+         1,
+         1.4,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.5,
+         1,
+         1.5,
+         0.75
+        ]
+       },
+       {
+        "seg": [
+         1.6,
+         1,
+         1.6,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.7,
+         1,
+         1.7,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.8,
+         1,
+         1.8,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.9,
+         1,
+         1.9,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2,
+         1,
+         2,
+         0.64
+        ]
+       },
+       {
+        "label": "2",
+        "at": [
+         2,
+         0.42
+        ]
+       },
+       {
+        "seg": [
+         2.1,
+         1,
+         2.1,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.2,
+         1,
+         2.2,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.3,
+         1,
+         2.3,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.4,
+         1,
+         2.4,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0,
+         1.38,
+         1.6,
+         1.38
+        ],
+        "arrow": "both"
+       },
+       {
+        "seg": [
+         0,
+         1.24,
+         0,
+         1.52
+        ]
+       },
+       {
+        "seg": [
+         1.6,
+         1.24,
+         1.6,
+         1.52
+        ]
+       }
+      ]
+     },
+     "units": "cm"
+    },
+    {
+     "id": "q7d",
+     "label": "7d",
+     "section": "Fluency",
+     "stem": "These rulers show centimetres with millimetre divisions. Read the scale to measure the marked length, in the unit asked for.",
+     "prompt": "Give the marked length in millimetres.",
+     "type": "numeric",
+     "answer": "34",
+     "figure": {
+      "kind": "diagram",
+      "unit": 80,
+      "items": [
+       {
+        "poly": [
+         [
+          -0.25,
+          0
+         ],
+         [
+          4,
+          0
+         ],
+         [
+          4,
+          1
+         ],
+         [
+          -0.25,
+          1
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0,
+         1,
+         0,
+         0.64
+        ]
+       },
+       {
+        "label": "0",
+        "at": [
+         0,
+         0.42
+        ]
+       },
+       {
+        "seg": [
+         0.1,
+         1,
+         0.1,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.2,
+         1,
+         0.2,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.3,
+         1,
+         0.3,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.4,
+         1,
+         0.4,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.5,
+         1,
+         0.5,
+         0.75
+        ]
+       },
+       {
+        "seg": [
+         0.6,
+         1,
+         0.6,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.7,
+         1,
+         0.7,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.8,
+         1,
+         0.8,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.9,
+         1,
+         0.9,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1,
+         1,
+         1,
+         0.64
+        ]
+       },
+       {
+        "label": "1",
+        "at": [
+         1,
+         0.42
+        ]
+       },
+       {
+        "seg": [
+         1.1,
+         1,
+         1.1,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.2,
+         1,
+         1.2,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.3,
+         1,
+         1.3,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.4,
+         1,
+         1.4,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.5,
+         1,
+         1.5,
+         0.75
+        ]
+       },
+       {
+        "seg": [
+         1.6,
+         1,
+         1.6,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.7,
+         1,
+         1.7,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.8,
+         1,
+         1.8,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.9,
+         1,
+         1.9,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2,
+         1,
+         2,
+         0.64
+        ]
+       },
+       {
+        "label": "2",
+        "at": [
+         2,
+         0.42
+        ]
+       },
+       {
+        "seg": [
+         2.1,
+         1,
+         2.1,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.2,
+         1,
+         2.2,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.3,
+         1,
+         2.3,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.4,
+         1,
+         2.4,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.5,
+         1,
+         2.5,
+         0.75
+        ]
+       },
+       {
+        "seg": [
+         2.6,
+         1,
+         2.6,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.7,
+         1,
+         2.7,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.8,
+         1,
+         2.8,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.9,
+         1,
+         2.9,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         3,
+         1,
+         3,
+         0.64
+        ]
+       },
+       {
+        "label": "3",
+        "at": [
+         3,
+         0.42
+        ]
+       },
+       {
+        "seg": [
+         3.1,
+         1,
+         3.1,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         3.2,
+         1,
+         3.2,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         3.3,
+         1,
+         3.3,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         3.4,
+         1,
+         3.4,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         3.5,
+         1,
+         3.5,
+         0.75
+        ]
+       },
+       {
+        "seg": [
+         3.6,
+         1,
+         3.6,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         3.7,
+         1,
+         3.7,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         3.8,
+         1,
+         3.8,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         3.9,
+         1,
+         3.9,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0,
+         1.38,
+         3.4,
+         1.38
+        ],
+        "arrow": "both"
+       },
+       {
+        "seg": [
+         0,
+         1.24,
+         0,
+         1.52
+        ]
+       },
+       {
+        "seg": [
+         3.4,
+         1.24,
+         3.4,
+         1.52
+        ]
+       }
+      ]
+     },
+     "units": "mm"
+    },
+    {
+     "id": "q7e",
+     "label": "7e",
+     "section": "Fluency",
+     "stem": "These rulers show centimetres with millimetre divisions. Read the scale to measure the marked length, in the unit asked for.",
+     "prompt": "Give the marked length in centimetres.",
+     "type": "numeric",
+     "answer": "2.8",
+     "figure": {
+      "kind": "diagram",
+      "unit": 80,
+      "items": [
+       {
+        "poly": [
+         [
+          -0.25,
+          0
+         ],
+         [
+          5,
+          0
+         ],
+         [
+          5,
+          1
+         ],
+         [
+          -0.25,
+          1
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0,
+         1,
+         0,
+         0.64
+        ]
+       },
+       {
+        "label": "0",
+        "at": [
+         0,
+         0.42
+        ]
+       },
+       {
+        "seg": [
+         0.1,
+         1,
+         0.1,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.2,
+         1,
+         0.2,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.3,
+         1,
+         0.3,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.4,
+         1,
+         0.4,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.5,
+         1,
+         0.5,
+         0.75
+        ]
+       },
+       {
+        "seg": [
+         0.6,
+         1,
+         0.6,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.7,
+         1,
+         0.7,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.8,
+         1,
+         0.8,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.9,
+         1,
+         0.9,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1,
+         1,
+         1,
+         0.64
+        ]
+       },
+       {
+        "label": "1",
+        "at": [
+         1,
+         0.42
+        ]
+       },
+       {
+        "seg": [
+         1.1,
+         1,
+         1.1,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.2,
+         1,
+         1.2,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.3,
+         1,
+         1.3,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.4,
+         1,
+         1.4,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.5,
+         1,
+         1.5,
+         0.75
+        ]
+       },
+       {
+        "seg": [
+         1.6,
+         1,
+         1.6,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.7,
+         1,
+         1.7,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.8,
+         1,
+         1.8,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.9,
+         1,
+         1.9,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2,
+         1,
+         2,
+         0.64
+        ]
+       },
+       {
+        "label": "2",
+        "at": [
+         2,
+         0.42
+        ]
+       },
+       {
+        "seg": [
+         2.1,
+         1,
+         2.1,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.2,
+         1,
+         2.2,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.3,
+         1,
+         2.3,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.4,
+         1,
+         2.4,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.5,
+         1,
+         2.5,
+         0.75
+        ]
+       },
+       {
+        "seg": [
+         2.6,
+         1,
+         2.6,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.7,
+         1,
+         2.7,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.8,
+         1,
+         2.8,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.9,
+         1,
+         2.9,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         3,
+         1,
+         3,
+         0.64
+        ]
+       },
+       {
+        "label": "3",
+        "at": [
+         3,
+         0.42
+        ]
+       },
+       {
+        "seg": [
+         3.1,
+         1,
+         3.1,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         3.2,
+         1,
+         3.2,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         3.3,
+         1,
+         3.3,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         3.4,
+         1,
+         3.4,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         3.5,
+         1,
+         3.5,
+         0.75
+        ]
+       },
+       {
+        "seg": [
+         3.6,
+         1,
+         3.6,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         3.7,
+         1,
+         3.7,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         3.8,
+         1,
+         3.8,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         3.9,
+         1,
+         3.9,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         4,
+         1,
+         4,
+         0.64
+        ]
+       },
+       {
+        "label": "4",
+        "at": [
+         4,
+         0.42
+        ]
+       },
+       {
+        "seg": [
+         4.1,
+         1,
+         4.1,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         4.2,
+         1,
+         4.2,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         4.3,
+         1,
+         4.3,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         4.4,
+         1,
+         4.4,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         4.5,
+         1,
+         4.5,
+         0.75
+        ]
+       },
+       {
+        "seg": [
+         4.6,
+         1,
+         4.6,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         4.7,
+         1,
+         4.7,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         4.8,
+         1,
+         4.8,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         4.9,
+         1,
+         4.9,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1,
+         1.38,
+         3.8,
+         1.38
+        ],
+        "arrow": "both"
+       },
+       {
+        "seg": [
+         1,
+         1.24,
+         1,
+         1.52
+        ]
+       },
+       {
+        "seg": [
+         3.8,
+         1.24,
+         3.8,
+         1.52
+        ]
+       }
+      ]
+     },
+     "units": "cm"
+    },
+    {
+     "id": "q7f",
+     "label": "7f",
+     "section": "Fluency",
+     "stem": "These rulers show centimetres with millimetre divisions. Read the scale to measure the marked length, in the unit asked for.",
+     "prompt": "Give the marked length in millimetres.",
+     "type": "numeric",
+     "answer": "33",
+     "figure": {
+      "kind": "diagram",
+      "unit": 80,
+      "items": [
+       {
+        "poly": [
+         [
+          -0.25,
+          0
+         ],
+         [
+          5.6,
+          0
+         ],
+         [
+          5.6,
+          1
+         ],
+         [
+          -0.25,
+          1
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0,
+         1,
+         0,
+         0.64
+        ]
+       },
+       {
+        "label": "0",
+        "at": [
+         0,
+         0.42
+        ]
+       },
+       {
+        "seg": [
+         0.1,
+         1,
+         0.1,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.2,
+         1,
+         0.2,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.3,
+         1,
+         0.3,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.4,
+         1,
+         0.4,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.5,
+         1,
+         0.5,
+         0.75
+        ]
+       },
+       {
+        "seg": [
+         0.6,
+         1,
+         0.6,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.7,
+         1,
+         0.7,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.8,
+         1,
+         0.8,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.9,
+         1,
+         0.9,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1,
+         1,
+         1,
+         0.64
+        ]
+       },
+       {
+        "label": "1",
+        "at": [
+         1,
+         0.42
+        ]
+       },
+       {
+        "seg": [
+         1.1,
+         1,
+         1.1,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.2,
+         1,
+         1.2,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.3,
+         1,
+         1.3,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.4,
+         1,
+         1.4,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.5,
+         1,
+         1.5,
+         0.75
+        ]
+       },
+       {
+        "seg": [
+         1.6,
+         1,
+         1.6,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.7,
+         1,
+         1.7,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.8,
+         1,
+         1.8,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.9,
+         1,
+         1.9,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2,
+         1,
+         2,
+         0.64
+        ]
+       },
+       {
+        "label": "2",
+        "at": [
+         2,
+         0.42
+        ]
+       },
+       {
+        "seg": [
+         2.1,
+         1,
+         2.1,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.2,
+         1,
+         2.2,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.3,
+         1,
+         2.3,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.4,
+         1,
+         2.4,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.5,
+         1,
+         2.5,
+         0.75
+        ]
+       },
+       {
+        "seg": [
+         2.6,
+         1,
+         2.6,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.7,
+         1,
+         2.7,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.8,
+         1,
+         2.8,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.9,
+         1,
+         2.9,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         3,
+         1,
+         3,
+         0.64
+        ]
+       },
+       {
+        "label": "3",
+        "at": [
+         3,
+         0.42
+        ]
+       },
+       {
+        "seg": [
+         3.1,
+         1,
+         3.1,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         3.2,
+         1,
+         3.2,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         3.3,
+         1,
+         3.3,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         3.4,
+         1,
+         3.4,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         3.5,
+         1,
+         3.5,
+         0.75
+        ]
+       },
+       {
+        "seg": [
+         3.6,
+         1,
+         3.6,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         3.7,
+         1,
+         3.7,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         3.8,
+         1,
+         3.8,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         3.9,
+         1,
+         3.9,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         4,
+         1,
+         4,
+         0.64
+        ]
+       },
+       {
+        "label": "4",
+        "at": [
+         4,
+         0.42
+        ]
+       },
+       {
+        "seg": [
+         4.1,
+         1,
+         4.1,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         4.2,
+         1,
+         4.2,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         4.3,
+         1,
+         4.3,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         4.4,
+         1,
+         4.4,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         4.5,
+         1,
+         4.5,
+         0.75
+        ]
+       },
+       {
+        "seg": [
+         4.6,
+         1,
+         4.6,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         4.7,
+         1,
+         4.7,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         4.8,
+         1,
+         4.8,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         4.9,
+         1,
+         4.9,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         5,
+         1,
+         5,
+         0.64
+        ]
+       },
+       {
+        "label": "5",
+        "at": [
+         5,
+         0.42
+        ]
+       },
+       {
+        "seg": [
+         5.1,
+         1,
+         5.1,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         5.2,
+         1,
+         5.2,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         5.3,
+         1,
+         5.3,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         5.4,
+         1,
+         5.4,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         5.5,
+         1,
+         5.5,
+         0.75
+        ]
+       },
+       {
+        "seg": [
+         1.6,
+         1.38,
+         4.9,
+         1.38
+        ],
+        "arrow": "both"
+       },
+       {
+        "seg": [
+         1.6,
+         1.24,
+         1.6,
+         1.52
+        ]
+       },
+       {
+        "seg": [
+         4.9,
+         1.24,
+         4.9,
+         1.52
+        ]
+       }
+      ]
+     },
+     "units": "mm"
+    },
+    {
+     "id": "q7g",
+     "label": "7g",
+     "section": "Fluency",
+     "stem": "These rulers show centimetres with millimetre divisions. Read the scale to measure the marked length, in the unit asked for.",
+     "prompt": "Give the marked length in centimetres.",
+     "type": "numeric",
+     "answer": "1.8",
+     "figure": {
+      "kind": "diagram",
+      "unit": 80,
+      "items": [
+       {
+        "poly": [
+         [
+          -0.25,
+          0
+         ],
+         [
+          4,
+          0
+         ],
+         [
+          4,
+          1
+         ],
+         [
+          -0.25,
+          1
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0,
+         1,
+         0,
+         0.64
+        ]
+       },
+       {
+        "label": "0",
+        "at": [
+         0,
+         0.42
+        ]
+       },
+       {
+        "seg": [
+         0.1,
+         1,
+         0.1,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.2,
+         1,
+         0.2,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.3,
+         1,
+         0.3,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.4,
+         1,
+         0.4,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.5,
+         1,
+         0.5,
+         0.75
+        ]
+       },
+       {
+        "seg": [
+         0.6,
+         1,
+         0.6,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.7,
+         1,
+         0.7,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.8,
+         1,
+         0.8,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.9,
+         1,
+         0.9,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1,
+         1,
+         1,
+         0.64
+        ]
+       },
+       {
+        "label": "1",
+        "at": [
+         1,
+         0.42
+        ]
+       },
+       {
+        "seg": [
+         1.1,
+         1,
+         1.1,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.2,
+         1,
+         1.2,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.3,
+         1,
+         1.3,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.4,
+         1,
+         1.4,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.5,
+         1,
+         1.5,
+         0.75
+        ]
+       },
+       {
+        "seg": [
+         1.6,
+         1,
+         1.6,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.7,
+         1,
+         1.7,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.8,
+         1,
+         1.8,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.9,
+         1,
+         1.9,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2,
+         1,
+         2,
+         0.64
+        ]
+       },
+       {
+        "label": "2",
+        "at": [
+         2,
+         0.42
+        ]
+       },
+       {
+        "seg": [
+         2.1,
+         1,
+         2.1,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.2,
+         1,
+         2.2,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.3,
+         1,
+         2.3,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.4,
+         1,
+         2.4,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.5,
+         1,
+         2.5,
+         0.75
+        ]
+       },
+       {
+        "seg": [
+         2.6,
+         1,
+         2.6,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.7,
+         1,
+         2.7,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.8,
+         1,
+         2.8,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.9,
+         1,
+         2.9,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         3,
+         1,
+         3,
+         0.64
+        ]
+       },
+       {
+        "label": "3",
+        "at": [
+         3,
+         0.42
+        ]
+       },
+       {
+        "seg": [
+         3.1,
+         1,
+         3.1,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         3.2,
+         1,
+         3.2,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         3.3,
+         1,
+         3.3,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         3.4,
+         1,
+         3.4,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         3.5,
+         1,
+         3.5,
+         0.75
+        ]
+       },
+       {
+        "seg": [
+         3.6,
+         1,
+         3.6,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         3.7,
+         1,
+         3.7,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         3.8,
+         1,
+         3.8,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         3.9,
+         1,
+         3.9,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.7,
+         1.38,
+         2.5,
+         1.38
+        ],
+        "arrow": "both"
+       },
+       {
+        "seg": [
+         0.7,
+         1.24,
+         0.7,
+         1.52
+        ]
+       },
+       {
+        "seg": [
+         2.5,
+         1.24,
+         2.5,
+         1.52
+        ]
+       }
+      ]
+     },
+     "units": "cm"
+    },
+    {
+     "id": "q7h",
+     "label": "7h",
+     "section": "Fluency",
+     "stem": "These rulers show centimetres with millimetre divisions. Read the scale to measure the marked length, in the unit asked for.",
+     "prompt": "Give the marked length in millimetres.",
+     "type": "numeric",
+     "answer": "23",
+     "figure": {
+      "kind": "diagram",
+      "unit": 80,
+      "items": [
+       {
+        "poly": [
+         [
+          -0.25,
+          0
+         ],
+         [
+          5,
+          0
+         ],
+         [
+          5,
+          1
+         ],
+         [
+          -0.25,
+          1
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0,
+         1,
+         0,
+         0.64
+        ]
+       },
+       {
+        "label": "0",
+        "at": [
+         0,
+         0.42
+        ]
+       },
+       {
+        "seg": [
+         0.1,
+         1,
+         0.1,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.2,
+         1,
+         0.2,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.3,
+         1,
+         0.3,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.4,
+         1,
+         0.4,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.5,
+         1,
+         0.5,
+         0.75
+        ]
+       },
+       {
+        "seg": [
+         0.6,
+         1,
+         0.6,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.7,
+         1,
+         0.7,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.8,
+         1,
+         0.8,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.9,
+         1,
+         0.9,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1,
+         1,
+         1,
+         0.64
+        ]
+       },
+       {
+        "label": "1",
+        "at": [
+         1,
+         0.42
+        ]
+       },
+       {
+        "seg": [
+         1.1,
+         1,
+         1.1,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.2,
+         1,
+         1.2,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.3,
+         1,
+         1.3,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.4,
+         1,
+         1.4,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.5,
+         1,
+         1.5,
+         0.75
+        ]
+       },
+       {
+        "seg": [
+         1.6,
+         1,
+         1.6,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.7,
+         1,
+         1.7,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.8,
+         1,
+         1.8,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.9,
+         1,
+         1.9,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2,
+         1,
+         2,
+         0.64
+        ]
+       },
+       {
+        "label": "2",
+        "at": [
+         2,
+         0.42
+        ]
+       },
+       {
+        "seg": [
+         2.1,
+         1,
+         2.1,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.2,
+         1,
+         2.2,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.3,
+         1,
+         2.3,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.4,
+         1,
+         2.4,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.5,
+         1,
+         2.5,
+         0.75
+        ]
+       },
+       {
+        "seg": [
+         2.6,
+         1,
+         2.6,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.7,
+         1,
+         2.7,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.8,
+         1,
+         2.8,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.9,
+         1,
+         2.9,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         3,
+         1,
+         3,
+         0.64
+        ]
+       },
+       {
+        "label": "3",
+        "at": [
+         3,
+         0.42
+        ]
+       },
+       {
+        "seg": [
+         3.1,
+         1,
+         3.1,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         3.2,
+         1,
+         3.2,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         3.3,
+         1,
+         3.3,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         3.4,
+         1,
+         3.4,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         3.5,
+         1,
+         3.5,
+         0.75
+        ]
+       },
+       {
+        "seg": [
+         3.6,
+         1,
+         3.6,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         3.7,
+         1,
+         3.7,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         3.8,
+         1,
+         3.8,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         3.9,
+         1,
+         3.9,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         4,
+         1,
+         4,
+         0.64
+        ]
+       },
+       {
+        "label": "4",
+        "at": [
+         4,
+         0.42
+        ]
+       },
+       {
+        "seg": [
+         4.1,
+         1,
+         4.1,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         4.2,
+         1,
+         4.2,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         4.3,
+         1,
+         4.3,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         4.4,
+         1,
+         4.4,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         4.5,
+         1,
+         4.5,
+         0.75
+        ]
+       },
+       {
+        "seg": [
+         4.6,
+         1,
+         4.6,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         4.7,
+         1,
+         4.7,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         4.8,
+         1,
+         4.8,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         4.9,
+         1,
+         4.9,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.3,
+         1.38,
+         3.6,
+         1.38
+        ],
+        "arrow": "both"
+       },
+       {
+        "seg": [
+         1.3,
+         1.24,
+         1.3,
+         1.52
+        ]
+       },
+       {
+        "seg": [
+         3.6,
+         1.24,
+         3.6,
+         1.52
+        ]
+       }
+      ]
+     },
+     "units": "mm"
+    },
+    {
+     "id": "q8a",
+     "label": "8a",
+     "section": "Fluency",
+     "stem": "Read the scale on these tape measures. Be careful with the units given!",
+     "prompt": "This tape is marked in metres. How long is the marked length, in metres?",
+     "type": "numeric",
+     "answer": "2.6",
+     "figure": {
+      "kind": "diagram",
+      "unit": 80,
+      "items": [
+       {
+        "poly": [
+         [
+          -0.25,
+          0
+         ],
+         [
+          3.75,
+          0
+         ],
+         [
+          3.75,
+          1
+         ],
+         [
+          -0.25,
+          1
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0,
+         1,
+         0,
+         0.64
+        ]
+       },
+       {
+        "label": "0",
+        "at": [
+         0,
+         0.42
+        ]
+       },
+       {
+        "seg": [
+         0.1,
+         1,
+         0.1,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.2,
+         1,
+         0.2,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.3,
+         1,
+         0.3,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.4,
+         1,
+         0.4,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.5,
+         1,
+         0.5,
+         0.75
+        ]
+       },
+       {
+        "seg": [
+         0.6,
+         1,
+         0.6,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.7,
+         1,
+         0.7,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.8,
+         1,
+         0.8,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.9,
+         1,
+         0.9,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1,
+         1,
+         1,
+         0.64
+        ]
+       },
+       {
+        "label": "1",
+        "at": [
+         1,
+         0.42
+        ]
+       },
+       {
+        "seg": [
+         1.1,
+         1,
+         1.1,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.2,
+         1,
+         1.2,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.3,
+         1,
+         1.3,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.4,
+         1,
+         1.4,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.5,
+         1,
+         1.5,
+         0.75
+        ]
+       },
+       {
+        "seg": [
+         1.6,
+         1,
+         1.6,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.7,
+         1,
+         1.7,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.8,
+         1,
+         1.8,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.9,
+         1,
+         1.9,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2,
+         1,
+         2,
+         0.64
+        ]
+       },
+       {
+        "label": "2",
+        "at": [
+         2,
+         0.42
+        ]
+       },
+       {
+        "seg": [
+         2.1,
+         1,
+         2.1,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.2,
+         1,
+         2.2,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.3,
+         1,
+         2.3,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.4,
+         1,
+         2.4,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.5,
+         1,
+         2.5,
+         0.75
+        ]
+       },
+       {
+        "seg": [
+         2.6,
+         1,
+         2.6,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.7,
+         1,
+         2.7,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.8,
+         1,
+         2.8,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.9,
+         1,
+         2.9,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         3,
+         1,
+         3,
+         0.64
+        ]
+       },
+       {
+        "label": "3",
+        "at": [
+         3,
+         0.42
+        ]
+       },
+       {
+        "seg": [
+         3.1,
+         1,
+         3.1,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         3.2,
+         1,
+         3.2,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         3.3,
+         1,
+         3.3,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         3.4,
+         1,
+         3.4,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         3.5,
+         1,
+         3.5,
+         0.75
+        ]
+       },
+       {
+        "seg": [
+         3.6,
+         1,
+         3.6,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         3.7,
+         1,
+         3.7,
+         0.85
+        ]
+       },
+       {
+        "label": "m",
+        "at": [
+         3.63,
+         0.3
+        ],
+        "anchor": "end"
+       },
+       {
+        "seg": [
+         0,
+         1.38,
+         2.6,
+         1.38
+        ],
+        "arrow": "both"
+       },
+       {
+        "seg": [
+         0,
+         1.24,
+         0,
+         1.52
+        ]
+       },
+       {
+        "seg": [
+         2.6,
+         1.24,
+         2.6,
+         1.52
+        ]
+       }
+      ]
+     },
+     "units": "m"
+    },
+    {
+     "id": "q8b",
+     "label": "8b",
+     "section": "Fluency",
+     "stem": "Read the scale on these tape measures. Be careful with the units given!",
+     "prompt": "This scale is marked in kilometres. How long is the marked length, in metres?",
+     "type": "numeric",
+     "answer": "400",
+     "figure": {
+      "kind": "diagram",
+      "unit": 80,
+      "items": [
+       {
+        "poly": [
+         [
+          -0.25,
+          0
+         ],
+         [
+          2.8,
+          0
+         ],
+         [
+          2.8,
+          1
+         ],
+         [
+          -0.25,
+          1
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0,
+         1,
+         0,
+         0.64
+        ]
+       },
+       {
+        "label": "21",
+        "at": [
+         0,
+         0.42
+        ]
+       },
+       {
+        "seg": [
+         0.1,
+         1,
+         0.1,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.2,
+         1,
+         0.2,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.3,
+         1,
+         0.3,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.4,
+         1,
+         0.4,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.5,
+         1,
+         0.5,
+         0.75
+        ]
+       },
+       {
+        "seg": [
+         0.6,
+         1,
+         0.6,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.7,
+         1,
+         0.7,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.8,
+         1,
+         0.8,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         0.9,
+         1,
+         0.9,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1,
+         1,
+         1,
+         0.64
+        ]
+       },
+       {
+        "label": "22",
+        "at": [
+         1,
+         0.42
+        ]
+       },
+       {
+        "seg": [
+         1.1,
+         1,
+         1.1,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.2,
+         1,
+         1.2,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.3,
+         1,
+         1.3,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.4,
+         1,
+         1.4,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.5,
+         1,
+         1.5,
+         0.75
+        ]
+       },
+       {
+        "seg": [
+         1.6,
+         1,
+         1.6,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.7,
+         1,
+         1.7,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.8,
+         1,
+         1.8,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         1.9,
+         1,
+         1.9,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2,
+         1,
+         2,
+         0.64
+        ]
+       },
+       {
+        "label": "23",
+        "at": [
+         2,
+         0.42
+        ]
+       },
+       {
+        "seg": [
+         2.1,
+         1,
+         2.1,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.2,
+         1,
+         2.2,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.3,
+         1,
+         2.3,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.4,
+         1,
+         2.4,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.5,
+         1,
+         2.5,
+         0.75
+        ]
+       },
+       {
+        "seg": [
+         2.6,
+         1,
+         2.6,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.7,
+         1,
+         2.7,
+         0.85
+        ]
+       },
+       {
+        "label": "km",
+        "at": [
+         2.68,
+         0.3
+        ],
+        "anchor": "end"
+       },
+       {
+        "seg": [
+         0.7,
+         1.38,
+         1.1,
+         1.38
+        ],
+        "arrow": "both"
+       },
+       {
+        "seg": [
+         0.7,
+         1.24,
+         0.7,
+         1.52
+        ]
+       },
+       {
+        "seg": [
+         1.1,
+         1.24,
+         1.1,
+         1.52
+        ]
+       }
+      ]
+     },
+     "units": "m"
+    },
+    {
+     "id": "q9a",
+     "label": "9a",
+     "section": "Fluency",
+     "stem": "Use subtraction to find the difference between the measurements, and give your answer with the units shown in brackets.",
+     "prompt": "$7$ km, $300$ m (km)",
+     "type": "numeric",
+     "answer": "6.7",
+     "units": "km"
+    },
+    {
+     "id": "q9b",
+     "label": "9b",
+     "section": "Fluency",
+     "stem": "Use subtraction to find the difference between the measurements, and give your answer with the units shown in brackets.",
+     "prompt": "$4.2$ m, $60$ cm (cm)",
+     "type": "numeric",
+     "answer": "360",
+     "units": "cm"
+    },
+    {
+     "id": "q9c",
+     "label": "9c",
+     "section": "Fluency",
+     "stem": "Use subtraction to find the difference between the measurements, and give your answer with the units shown in brackets.",
+     "prompt": "$0.5$ m, $30$ mm (cm)",
+     "type": "numeric",
+     "answer": "47",
+     "units": "cm"
+    },
+    {
+     "id": "q10a",
+     "label": "10a",
+     "section": "Problem-solving",
+     "stem": "Arrange these measurements from smallest to largest.",
+     "prompt": "$47$ cm, $620$ mm, $0.6$ m",
+     "type": "ordered",
+     "answer": [
+      "47 cm",
+      "0.6 m",
+      "620 mm"
+     ],
+     "hint": "Type each measurement with its unit, separated by commas, for example 4 m, 30 cm"
+    },
+    {
+     "id": "q10b",
+     "label": "10b",
+     "section": "Problem-solving",
+     "stem": "Arrange these measurements from smallest to largest.",
+     "prompt": "$0.03$ km, $28$ m, $190$ cm, $2400$ mm",
+     "type": "ordered",
+     "answer": [
+      "190 cm",
+      "2400 mm",
+      "28 m",
+      "0.03 km"
+     ]
+    },
+    {
+     "id": "q10c",
+     "label": "10c",
+     "section": "Problem-solving",
+     "stem": "Arrange these measurements from smallest to largest.",
+     "prompt": "$0.004$ km, $35$ cm, $2.7$ m, $168$ mm",
+     "type": "ordered",
+     "answer": [
+      "168 mm",
+      "35 cm",
+      "2.7 m",
+      "0.004 km"
+     ]
+    },
+    {
+     "id": "q10d",
+     "label": "10d",
+     "section": "Problem-solving",
+     "stem": "Arrange these measurements from smallest to largest.",
+     "prompt": "$0.002$ km, $0.2$ m, $2000$ cm, $20$ mm",
+     "type": "ordered",
+     "answer": [
+      "20 mm",
+      "0.2 m",
+      "0.002 km",
+      "2000 cm"
+     ]
+    },
+    {
+     "id": "q11",
+     "label": "11",
+     "section": "Problem-solving",
+     "prompt": "Mia widens a $0.9$ m gate by $150$ mm. What is the new width of the gate, in centimetres?",
+     "type": "numeric",
+     "answer": "105",
+     "units": "cm"
+    },
+    {
+     "id": "q12",
+     "label": "12",
+     "section": "Problem-solving",
+     "prompt": "Three architects each plan to build the world's next tallest tower. The Aurora tower is to be $1.08$ km tall, the Zenith tower is to be $112\\,500$ cm tall and the Summit tower is to be $1095$ m tall. Which tower will be the tallest?",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "Aurora",
+      "Zenith",
+      "Summit"
+     ]
+    },
+    {
+     "id": "q13a",
+     "label": "13a",
+     "section": "Problem-solving",
+     "stem": "Rope costs $\\$6.40$ per metre. How much does it cost to buy rope of the following lengths?",
+     "prompt": "$1$ km",
+     "type": "numeric",
+     "answer": "6400",
+     "units": "$"
+    },
+    {
+     "id": "q13b",
+     "label": "13b",
+     "section": "Problem-solving",
+     "stem": "Rope costs $\\$6.40$ per metre. How much does it cost to buy rope of the following lengths?",
+     "prompt": "$70$ cm",
+     "type": "numeric",
+     "answer": "4.48",
+     "units": "$"
+    },
+    {
+     "id": "q13c",
+     "label": "13c",
+     "section": "Problem-solving",
+     "stem": "Rope costs $\\$6.40$ per metre. How much does it cost to buy rope of the following lengths?",
+     "prompt": "$50$ mm",
+     "type": "numeric",
+     "answer": "0.32",
+     "units": "$"
+    },
+    {
+     "id": "q14",
+     "label": "14",
+     "section": "Problem-solving",
+     "prompt": "A shed is $18$ metres from the edge of a riverbank. The bank is wearing away at a rate of $30$ mm per year. How many years will pass before the river reaches the shed?",
+     "type": "numeric",
+     "answer": "600",
+     "units": "years"
+    },
+    {
+     "id": "q15",
+     "label": "15",
+     "section": "Problem-solving",
+     "prompt": "A glacier slides downhill at a rate of about $20$ cm per year. How many years will it take to move $3$ km?",
+     "type": "numeric",
+     "answer": "15000",
+     "units": "years"
+    },
+    {
+     "id": "q16",
+     "label": "16",
+     "section": "Problem-solving",
+     "prompt": "A pack of $200$ sheets of card is $5$ cm thick. How thick is $1$ sheet of card, in millimetres?",
+     "type": "numeric",
+     "answer": "0.25",
+     "units": "mm"
+    },
+    {
+     "id": "q17",
+     "label": "17",
+     "section": "Problem-solving",
+     "prompt": "A slug crawls $3$ mm every $4$ seconds. How long will it take to crawl $1.5$ m? Give your answer in seconds.",
+     "type": "numeric",
+     "answer": "2000",
+     "units": "seconds"
+    },
+    {
+     "id": "q18a",
+     "label": "18a",
+     "section": "Reasoning",
+     "stem": "Think about the conversion chart for km, m, cm and mm. What number do you multiply or divide by to convert:",
+     "prompt": "from km to m (multiply by ?)",
+     "type": "numeric",
+     "answer": "1000"
+    },
+    {
+     "id": "q18b",
+     "label": "18b",
+     "section": "Reasoning",
+     "stem": "Think about the conversion chart for km, m, cm and mm. What number do you multiply or divide by to convert:",
+     "prompt": "from cm to m (divide by ?)",
+     "type": "numeric",
+     "answer": "100"
+    },
+    {
+     "id": "q18c",
+     "label": "18c",
+     "section": "Reasoning",
+     "stem": "Think about the conversion chart for km, m, cm and mm. What number do you multiply or divide by to convert:",
+     "prompt": "from m to mm (multiply by ?)",
+     "type": "numeric",
+     "answer": "1000"
+    },
+    {
+     "id": "q18d",
+     "label": "18d",
+     "section": "Reasoning",
+     "stem": "Think about the conversion chart for km, m, cm and mm. What number do you multiply or divide by to convert:",
+     "prompt": "from km to cm (multiply by ?)",
+     "type": "numeric",
+     "answer": "100000",
+     "hint": "Type large numbers without spaces, for example 250000"
+    },
+    {
+     "id": "q18e",
+     "label": "18e",
+     "section": "Reasoning",
+     "stem": "Think about the conversion chart for km, m, cm and mm. What number do you multiply or divide by to convert:",
+     "prompt": "from mm to km (divide by ?)",
+     "type": "numeric",
+     "answer": "1000000"
+    },
+    {
+     "id": "q20a",
+     "label": "20a",
+     "section": "Enrichment",
+     "stem": "When $1$ metre is divided into $1$ million equal parts, each part is called a micrometre ($\\mu$m). How many micrometres are there in:",
+     "prompt": "$2$ m",
+     "type": "numeric",
+     "answer": "2000000",
+     "units": "μm",
+     "hint": "Type large numbers without spaces, for example 250000"
+    },
+    {
+     "id": "q20b",
+     "label": "20b",
+     "section": "Enrichment",
+     "stem": "When $1$ metre is divided into $1$ million equal parts, each part is called a micrometre ($\\mu$m). How many micrometres are there in:",
+     "prompt": "$5$ cm",
+     "type": "numeric",
+     "answer": "50000",
+     "units": "μm"
+    },
+    {
+     "id": "q20c",
+     "label": "20c",
+     "section": "Enrichment",
+     "stem": "When $1$ metre is divided into $1$ million equal parts, each part is called a micrometre ($\\mu$m). How many micrometres are there in:",
+     "prompt": "$8$ mm",
+     "type": "numeric",
+     "answer": "8000",
+     "units": "μm"
+    },
+    {
+     "id": "q20d",
+     "label": "20d",
+     "section": "Enrichment",
+     "stem": "When $1$ metre is divided into $1$ million equal parts, each part is called a micrometre ($\\mu$m). How many micrometres are there in:",
+     "prompt": "$1$ km",
+     "type": "numeric",
+     "answer": "1000000000",
+     "units": "μm"
+    },
+    {
+     "id": "q20e",
+     "label": "20e",
+     "section": "Enrichment",
+     "prompt": "A bacterium is $0.00175$ mm wide. How many micrometres is this?",
+     "type": "numeric",
+     "answer": "1.75",
+     "units": "μm"
+    }
+   ]
+  },
+  {
+   "id": "10b",
+   "chapter": "Chapter 10: Measurement",
+   "title": "10B Perimeter",
+   "description": "Find the perimeter of shapes, including missing sides, mixed units and algebraic rules.",
+   "questions": [
+    {
+     "id": "q1a",
+     "label": "1a",
+     "section": "Fluency",
+     "stem": "Find the perimeter of each of the shapes.",
+     "prompt": "Find the perimeter.",
+     "type": "numeric",
+     "answer": "18",
+     "units": "cm",
+     "figure": {
+      "kind": "diagram",
+      "unit": 35,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          8,
+          0
+         ],
+         [
+          4,
+          3
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "tick": [
+         8,
+         0,
+         4,
+         3
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         4,
+         3,
+         0,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "label": "8 cm",
+        "at": [
+         4,
+         -0.52
+        ]
+       },
+       {
+        "label": "5 cm",
+        "at": [
+         6.24,
+         1.94
+        ],
+        "anchor": "start"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q1b",
+     "label": "1b",
+     "section": "Fluency",
+     "stem": "Find the perimeter of each of the shapes.",
+     "prompt": "Find the perimeter.",
+     "type": "numeric",
+     "answer": "31",
+     "units": "m",
+     "figure": {
+      "kind": "diagram",
+      "unit": 21.54,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          13,
+          0
+         ],
+         [
+          6.5,
+          6.225
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "tick": [
+         13,
+         0,
+         6.5,
+         6.225
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         6.5,
+         6.225,
+         0,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "label": "13 m",
+        "at": [
+         6.5,
+         -0.845
+        ]
+       },
+       {
+        "label": "9 m",
+        "at": [
+         2.8,
+         3.777
+        ],
+        "anchor": "end"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2a",
+     "label": "2a",
+     "section": "Fluency",
+     "stem": "Find the perimeter of these shapes.",
+     "prompt": "Find the perimeter.",
+     "type": "numeric",
+     "answer": "18",
+     "units": "cm",
+     "figure": {
+      "kind": "diagram",
+      "unit": 35,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          8,
+          0
+         ],
+         [
+          2.75,
+          2.905
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "label": "8 cm",
+        "at": [
+         4,
+         -0.52
+        ]
+       },
+       {
+        "label": "6 cm",
+        "at": [
+         5.569,
+         1.922
+        ],
+        "anchor": "start"
+       },
+       {
+        "label": "4 cm",
+        "at": [
+         1.085,
+         1.847
+        ],
+        "anchor": "end"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2b",
+     "label": "2b",
+     "section": "Fluency",
+     "stem": "Find the perimeter of these shapes.",
+     "prompt": "Find the perimeter.",
+     "type": "numeric",
+     "answer": "40",
+     "units": "m",
+     "figure": {
+      "kind": "diagram",
+      "unit": 22.22,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          12,
+          0
+         ],
+         [
+          12,
+          9
+         ],
+         [
+          4,
+          9
+         ],
+         [
+          0,
+          6
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "label": "12 m",
+        "at": [
+         6,
+         -0.819
+        ]
+       },
+       {
+        "label": "9 m",
+        "at": [
+         12.63,
+         4.5
+        ],
+        "anchor": "start"
+       },
+       {
+        "label": "8 m",
+        "at": [
+         8,
+         9.819
+        ]
+       },
+       {
+        "label": "5 m",
+        "at": [
+         1.622,
+         8.193
+        ],
+        "anchor": "end"
+       },
+       {
+        "label": "6 m",
+        "at": [
+         -0.63,
+         3
+        ],
+        "anchor": "end"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2c",
+     "label": "2c",
+     "section": "Fluency",
+     "stem": "Find the perimeter of these shapes.",
+     "prompt": "Find the perimeter.",
+     "type": "numeric",
+     "answer": "38",
+     "units": "km",
+     "figure": {
+      "kind": "diagram",
+      "unit": 16.67,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          7,
+          0
+         ],
+         [
+          7,
+          12
+         ],
+         [
+          0,
+          12
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "tick": [
+         0,
+         0,
+         7,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         7,
+         12,
+         0,
+         12
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         7,
+         0,
+         7,
+         12
+        ],
+        "n": 2
+       },
+       {
+        "tick": [
+         0,
+         12,
+         0,
+         0
+        ],
+        "n": 2
+       },
+       {
+        "label": "7 km",
+        "at": [
+         3.5,
+         -1.092
+        ]
+       },
+       {
+        "label": "12 km",
+        "at": [
+         7.84,
+         6
+        ],
+        "anchor": "start"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2d",
+     "label": "2d",
+     "section": "Fluency",
+     "stem": "Find the perimeter of these shapes.",
+     "prompt": "Find the perimeter.",
+     "type": "numeric",
+     "answer": "3.6",
+     "units": "m",
+     "figure": {
+      "kind": "diagram",
+      "unit": 186.67,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          1.5,
+          0
+         ],
+         [
+          1.5,
+          0.3
+         ],
+         [
+          0,
+          0.3
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "tick": [
+         0,
+         0,
+         1.5,
+         0
+        ],
+        "n": 2
+       },
+       {
+        "tick": [
+         1.5,
+         0.3,
+         0,
+         0.3
+        ],
+        "n": 2
+       },
+       {
+        "tick": [
+         1.5,
+         0,
+         1.5,
+         0.3
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         0,
+         0.3,
+         0,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "label": "1.5 m",
+        "at": [
+         0.75,
+         0.398
+        ]
+       },
+       {
+        "label": "0.3 m",
+        "at": [
+         -0.075,
+         0.15
+        ],
+        "anchor": "end"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2e",
+     "label": "2e",
+     "section": "Fluency",
+     "stem": "Find the perimeter of these shapes.",
+     "prompt": "Find the perimeter.",
+     "type": "numeric",
+     "answer": "23",
+     "units": "cm",
+     "figure": {
+      "kind": "diagram",
+      "unit": 23.13,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          5,
+          0
+         ],
+         [
+          2.5,
+          8.646
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "tick": [
+         5,
+         0,
+         2.5,
+         8.646
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         2.5,
+         8.646,
+         0,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "label": "5 cm",
+        "at": [
+         2.5,
+         -0.787
+        ]
+       },
+       {
+        "label": "9 cm",
+        "at": [
+         4.331,
+         4.491
+        ],
+        "anchor": "start"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2f",
+     "label": "2f",
+     "section": "Fluency",
+     "stem": "Find the perimeter of these shapes.",
+     "prompt": "Find the perimeter.",
+     "type": "numeric",
+     "answer": "14",
+     "units": "cm",
+     "figure": {
+      "kind": "diagram",
+      "unit": 57.14,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          3.5,
+          0
+         ],
+         [
+          3.5,
+          3.5
+         ],
+         [
+          0,
+          3.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "tick": [
+         0,
+         0,
+         3.5,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         3.5,
+         0,
+         3.5,
+         3.5
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         3.5,
+         3.5,
+         0,
+         3.5
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         0,
+         3.5,
+         0,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "label": "3.5 cm",
+        "at": [
+         3.745,
+         1.75
+        ],
+        "anchor": "start"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3a",
+     "label": "3a",
+     "section": "Fluency",
+     "stem": "Find the perimeter of each of these shapes.",
+     "prompt": "Find the perimeter.",
+     "type": "numeric",
+     "answer": "26",
+     "units": "m",
+     "figure": {
+      "kind": "diagram",
+      "unit": 31.11,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          9,
+          0
+         ],
+         [
+          9,
+          2.5
+         ],
+         [
+          3,
+          2.5
+         ],
+         [
+          3,
+          4
+         ],
+         [
+          0,
+          4
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         90
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         9,
+         0,
+         90,
+         180
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         9,
+         2.5,
+         180,
+         270
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         3,
+         4,
+         180,
+         270
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         0,
+         4,
+         270,
+         0
+        ],
+        "right": true
+       },
+       {
+        "label": "4 m",
+        "at": [
+         -0.45,
+         2
+        ],
+        "anchor": "end"
+       },
+       {
+        "label": "3 m",
+        "at": [
+         1.5,
+         4.585
+        ]
+       },
+       {
+        "label": "6 m",
+        "at": [
+         6,
+         3.085
+        ]
+       },
+       {
+        "label": "2.5 m",
+        "at": [
+         9.45,
+         1.25
+        ],
+        "anchor": "start"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3b",
+     "label": "3b",
+     "section": "Fluency",
+     "stem": "Find the perimeter of each of these shapes.",
+     "prompt": "Find the perimeter.",
+     "type": "numeric",
+     "answer": "22",
+     "units": "cm",
+     "figure": {
+      "kind": "diagram",
+      "unit": 35.36,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          4.243,
+          4.243
+         ],
+         [
+          2.828,
+          5.657
+         ],
+         [
+          0,
+          2.828
+         ],
+         [
+          -2.121,
+          4.95
+         ],
+         [
+          -3.536,
+          3.536
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "angle": [
+         0,
+         0,
+         45,
+         135
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         4.243,
+         4.243,
+         135,
+         225
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         2.828,
+         5.657,
+         225,
+         315
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         -2.121,
+         4.95,
+         225,
+         315
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         -3.536,
+         3.536,
+         315,
+         45
+        ],
+        "right": true
+       },
+       {
+        "label": "6 cm",
+        "at": [
+         2.401,
+         1.723
+        ],
+        "anchor": "start"
+       },
+       {
+        "label": "2 cm",
+        "at": [
+         3.816,
+         5.349
+        ],
+        "anchor": "start"
+       },
+       {
+        "label": "2 cm",
+        "at": [
+         -3.108,
+         4.641
+        ],
+        "anchor": "end"
+       },
+       {
+        "label": "5 cm",
+        "at": [
+         -2.048,
+         1.369
+        ],
+        "anchor": "end"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4a",
+     "label": "4a",
+     "section": "Fluency",
+     "stem": "Find the perimeter of these shapes. All corner angles are $90°$.",
+     "prompt": "Find the perimeter.",
+     "type": "numeric",
+     "answer": "36",
+     "units": "cm",
+     "figure": {
+      "kind": "diagram",
+      "unit": 22.22,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          9,
+          0
+         ],
+         [
+          9,
+          4
+         ],
+         [
+          3,
+          4
+         ],
+         [
+          3,
+          9
+         ],
+         [
+          0,
+          9
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "label": "9 cm",
+        "at": [
+         -0.63,
+         4.5
+        ],
+        "anchor": "end"
+       },
+       {
+        "label": "3 cm",
+        "at": [
+         1.5,
+         9.819
+        ]
+       },
+       {
+        "label": "6 cm",
+        "at": [
+         6,
+         4.819
+        ]
+       },
+       {
+        "label": "4 cm",
+        "at": [
+         9.63,
+         2
+        ],
+        "anchor": "start"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4b",
+     "label": "4b",
+     "section": "Fluency",
+     "stem": "Find the perimeter of these shapes. All corner angles are $90°$.",
+     "prompt": "Find the perimeter.",
+     "type": "numeric",
+     "answer": "40",
+     "units": "m",
+     "figure": {
+      "kind": "diagram",
+      "unit": 20,
+      "items": [
+       {
+        "poly": [
+         [
+          6,
+          0
+         ],
+         [
+          10,
+          0
+         ],
+         [
+          10,
+          10
+         ],
+         [
+          0,
+          10
+         ],
+         [
+          0,
+          7
+         ],
+         [
+          6,
+          7
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "label": "3 m",
+        "at": [
+         -0.7,
+         8.5
+        ],
+        "anchor": "end"
+       },
+       {
+        "label": "6 m",
+        "at": [
+         3,
+         6.09
+        ]
+       },
+       {
+        "label": "10 m",
+        "at": [
+         10.7,
+         5
+        ],
+        "anchor": "start"
+       },
+       {
+        "label": "4 m",
+        "at": [
+         8,
+         -0.91
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4c",
+     "label": "4c",
+     "section": "Fluency",
+     "stem": "Find the perimeter of these shapes. All corner angles are $90°$.",
+     "prompt": "Find the perimeter.",
+     "type": "numeric",
+     "answer": "34",
+     "units": "km",
+     "figure": {
+      "kind": "diagram",
+      "unit": 28,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          10,
+          0
+         ],
+         [
+          10,
+          2
+         ],
+         [
+          6.5,
+          2
+         ],
+         [
+          6.5,
+          7
+         ],
+         [
+          3.5,
+          7
+         ],
+         [
+          3.5,
+          2
+         ],
+         [
+          0,
+          2
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "label": "10 km",
+        "at": [
+         5,
+         -0.65
+        ]
+       },
+       {
+        "label": "2 km",
+        "at": [
+         10.5,
+         1
+        ],
+        "anchor": "start"
+       },
+       {
+        "label": "5 km",
+        "at": [
+         7,
+         4.5
+        ],
+        "anchor": "start"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4d",
+     "label": "4d",
+     "section": "Fluency",
+     "stem": "Find the perimeter of these shapes. All corner angles are $90°$.",
+     "prompt": "Find the perimeter. The notch is a square.",
+     "type": "numeric",
+     "answer": "23",
+     "units": "mm",
+     "figure": {
+      "kind": "diagram",
+      "unit": 33.33,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          4,
+          0
+         ],
+         [
+          4,
+          3
+         ],
+         [
+          2.5,
+          3
+         ],
+         [
+          2.5,
+          4.5
+         ],
+         [
+          4,
+          4.5
+         ],
+         [
+          4,
+          6
+         ],
+         [
+          0,
+          6
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "tick": [
+         4,
+         3,
+         2.5,
+         3
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         2.5,
+         3,
+         2.5,
+         4.5
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         2.5,
+         4.5,
+         4,
+         4.5
+        ],
+        "n": 1
+       },
+       {
+        "label": "6 mm",
+        "at": [
+         -0.42,
+         3
+        ],
+        "anchor": "end"
+       },
+       {
+        "label": "4 mm",
+        "at": [
+         2,
+         -0.546
+        ]
+       },
+       {
+        "label": "1.5 mm",
+        "at": [
+         4.25,
+         3.75
+        ],
+        "anchor": "start"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q5a",
+     "label": "5a",
+     "section": "Fluency",
+     "prompt": "A square has a side length of $3.4$ cm. Find its perimeter.",
+     "type": "numeric",
+     "answer": "13.6",
+     "units": "cm"
+    },
+    {
+     "id": "q5b",
+     "label": "5b",
+     "section": "Fluency",
+     "prompt": "A rectangle has a length of $5.7$ m and a width of $1.9$ m. Find its perimeter.",
+     "type": "numeric",
+     "answer": "15.2",
+     "units": "m"
+    },
+    {
+     "id": "q5c",
+     "label": "5c",
+     "section": "Fluency",
+     "prompt": "An equilateral triangle has all sides the same length. If each side is $12.5$ mm, find its perimeter.",
+     "type": "numeric",
+     "answer": "37.5",
+     "units": "mm"
+    },
+    {
+     "id": "q6",
+     "label": "6",
+     "section": "Problem-solving",
+     "prompt": "A sheep paddock is to be fenced on all sides. It is rectangular, with a length of $315$ m and a width of $178$ m. If fencing costs $\\$32$ per metre, find the cost of the fencing.",
+     "type": "numeric",
+     "answer": "31552",
+     "units": "$"
+    },
+    {
+     "id": "q7a",
+     "label": "7a",
+     "section": "Problem-solving",
+     "stem": "The lines on a grass court are marked with chalk. Every solid line in the diagram is a chalk line; the dashed net is not. All the measurements are in feet, and the court is symmetrical about the net.",
+     "prompt": "Find the total number of feet of chalk line on the court.",
+     "type": "numeric",
+     "answer": "396",
+     "stemFigure": {
+      "kind": "diagram",
+      "unit": 6.2,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          64,
+          0
+         ],
+         [
+          64,
+          30
+         ],
+         [
+          0,
+          30
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0,
+         4,
+         64,
+         4
+        ]
+       },
+       {
+        "seg": [
+         0,
+         26,
+         64,
+         26
+        ]
+       },
+       {
+        "seg": [
+         14,
+         4,
+         14,
+         26
+        ]
+       },
+       {
+        "seg": [
+         50,
+         4,
+         50,
+         26
+        ]
+       },
+       {
+        "seg": [
+         14,
+         15,
+         50,
+         15
+        ]
+       },
+       {
+        "seg": [
+         32,
+         -1.5,
+         32,
+         31.5
+        ],
+        "dash": true
+       },
+       {
+        "label": "net",
+        "at": [
+         32,
+         -3.6
+        ]
+       },
+       {
+        "dim": [
+         0,
+         0,
+         0,
+         30
+        ],
+        "off": 2.2
+       },
+       {
+        "label": "30 feet",
+        "at": [
+         -8,
+         15
+        ]
+       },
+       {
+        "dim": [
+         64,
+         26,
+         64,
+         4
+        ],
+        "off": 2.2
+       },
+       {
+        "label": "22 feet",
+        "at": [
+         72,
+         15
+        ]
+       },
+       {
+        "dim": [
+         32,
+         30,
+         64,
+         30
+        ],
+        "label": "32 feet",
+        "off": 2.2
+       },
+       {
+        "dim": [
+         14,
+         22.5,
+         32,
+         22.5
+        ],
+        "label": "18 feet",
+        "off": 0
+       }
+      ]
+     },
+     "units": "feet"
+    },
+    {
+     "id": "q7b",
+     "label": "7b",
+     "section": "Problem-solving",
+     "stem": "The lines on a grass court are marked with chalk. Every solid line in the diagram is a chalk line; the dashed net is not. All the measurements are in feet, and the court is symmetrical about the net.",
+     "prompt": "There are $0.305$ metres in $1$ foot. Convert your answer to part a to metres.",
+     "type": "numeric",
+     "answer": "120.78",
+     "units": "m"
+    },
+    {
+     "id": "q8a",
+     "label": "8a",
+     "section": "Problem-solving",
+     "stem": "Only some side lengths are shown for these shapes. Find the perimeter. (All corner angles are $90°$.)",
+     "prompt": "Find the perimeter.",
+     "type": "numeric",
+     "answer": "84",
+     "units": "mm",
+     "figure": {
+      "kind": "diagram",
+      "unit": 11.11,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          4,
+          0
+         ],
+         [
+          4,
+          3.6
+         ],
+         [
+          9,
+          3.6
+         ],
+         [
+          9,
+          7.2
+         ],
+         [
+          14,
+          7.2
+         ],
+         [
+          14,
+          10.8
+         ],
+         [
+          19,
+          10.8
+         ],
+         [
+          19,
+          14.4
+         ],
+         [
+          24,
+          14.4
+         ],
+         [
+          24,
+          18
+         ],
+         [
+          0,
+          18
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "label": "24 mm",
+        "at": [
+         12,
+         19.638
+        ]
+       },
+       {
+        "label": "18 mm",
+        "at": [
+         -1.26,
+         9
+        ],
+        "anchor": "end"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q8b",
+     "label": "8b",
+     "section": "Problem-solving",
+     "stem": "Only some side lengths are shown for these shapes. Find the perimeter. (All corner angles are $90°$.)",
+     "prompt": "Find the perimeter. Both gaps in the top are $3$ cm deep.",
+     "type": "numeric",
+     "answer": "76",
+     "units": "cm",
+     "figure": {
+      "kind": "diagram",
+      "unit": 14,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          20,
+          0
+         ],
+         [
+          20,
+          12
+         ],
+         [
+          16,
+          12
+         ],
+         [
+          16,
+          9
+         ],
+         [
+          12,
+          9
+         ],
+         [
+          12,
+          12
+         ],
+         [
+          8,
+          12
+         ],
+         [
+          8,
+          9
+         ],
+         [
+          4,
+          9
+         ],
+         [
+          4,
+          12
+         ],
+         [
+          0,
+          12
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "tick": [
+         20,
+         12,
+         16,
+         12
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         16,
+         9,
+         12,
+         9
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         12,
+         12,
+         8,
+         12
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         8,
+         9,
+         4,
+         9
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         4,
+         12,
+         0,
+         12
+        ],
+        "n": 1
+       },
+       {
+        "label": "20 cm",
+        "at": [
+         10,
+         -1.3
+        ]
+       },
+       {
+        "label": "12 cm",
+        "at": [
+         21,
+         6
+        ],
+        "anchor": "start"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q9a",
+     "label": "9a",
+     "section": "Problem-solving",
+     "stem": "Find the perimeter of each of these shapes. Give your answers in centimetres.",
+     "prompt": "Find the perimeter in centimetres.",
+     "type": "numeric",
+     "answer": "37.6",
+     "units": "cm",
+     "figure": {
+      "kind": "diagram",
+      "unit": 14.44,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          8.6,
+          0
+         ],
+         [
+          4.3,
+          13.848
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "tick": [
+         8.6,
+         0,
+         4.3,
+         13.848
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         4.3,
+         13.848,
+         0,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "label": "8.6 cm",
+        "at": [
+         4.3,
+         -1.26
+        ]
+       },
+       {
+        "label": "145 mm",
+        "at": [
+         7.376,
+         7.211
+        ],
+        "anchor": "start"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q9b",
+     "label": "9b",
+     "section": "Problem-solving",
+     "stem": "Find the perimeter of each of these shapes. Give your answers in centimetres.",
+     "prompt": "Find the perimeter in centimetres. All corner angles are $90°$.",
+     "type": "numeric",
+     "answer": "131.2",
+     "units": "cm",
+     "figure": {
+      "kind": "diagram",
+      "unit": 4.76,
+      "items": [
+       {
+        "poly": [
+         [
+          23.6,
+          42
+         ],
+         [
+          0,
+          42
+         ],
+         [
+          0,
+          33.6
+         ],
+         [
+          5,
+          33.6
+         ],
+         [
+          5,
+          25.2
+         ],
+         [
+          10,
+          25.2
+         ],
+         [
+          10,
+          16.8
+         ],
+         [
+          15,
+          16.8
+         ],
+         [
+          15,
+          8.4
+         ],
+         [
+          20,
+          8.4
+         ],
+         [
+          20,
+          0
+         ],
+         [
+          23.6,
+          0
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "label": "0.42 m",
+        "at": [
+         26.54,
+         21
+        ],
+        "anchor": "start"
+       },
+       {
+        "label": "236 mm",
+        "at": [
+         11.8,
+         45.822
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q9c",
+     "label": "9c",
+     "section": "Problem-solving",
+     "stem": "Find the perimeter of each of these shapes. Give your answers in centimetres.",
+     "prompt": "Find the perimeter in centimetres.",
+     "type": "numeric",
+     "answer": "266",
+     "units": "cm",
+     "figure": {
+      "kind": "diagram",
+      "unit": 2.25,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          34,
+          88.707
+         ],
+         [
+          0,
+          71.737
+         ],
+         [
+          -34,
+          88.707
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "tick": [
+         0,
+         0,
+         34,
+         88.707
+        ],
+        "n": 2
+       },
+       {
+        "tick": [
+         -34,
+         88.707,
+         0,
+         0
+        ],
+        "n": 2
+       },
+       {
+        "tick": [
+         34,
+         88.707,
+         0,
+         71.737
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         0,
+         71.737,
+         -34,
+         88.707
+        ],
+        "n": 1
+       },
+       {
+        "label": "0.95 m",
+        "at": [
+         22.798,
+         42.131
+        ],
+        "anchor": "start"
+       },
+       {
+        "label": "380 mm",
+        "at": [
+         -14.227,
+         87.641
+        ],
+        "anchor": "start"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q10",
+     "label": "10",
+     "section": "Problem-solving",
+     "prompt": "A square paddock has $120$ equally spaced posts that are $3$ metres apart, including one in each corner. What is the perimeter of the paddock?",
+     "type": "numeric",
+     "answer": "360",
+     "units": "m"
+    },
+    {
+     "id": "q11a",
+     "label": "11a",
+     "section": "Problem-solving",
+     "stem": "The perimeter of each shape is given. Find the missing side length.",
+     "prompt": "The perimeter is $14$ cm. Find the missing side length.",
+     "type": "numeric",
+     "answer": "5",
+     "units": "cm",
+     "figure": {
+      "kind": "diagram",
+      "unit": 46.67,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          6,
+          0
+         ],
+         [
+          1.667,
+          2.494
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "label": "6 cm",
+        "at": [
+         3,
+         -0.39
+        ]
+       },
+       {
+        "label": "3 cm",
+        "at": [
+         0.584,
+         1.504
+        ],
+        "anchor": "end"
+       },
+       {
+        "label": "?",
+        "at": [
+         3.983,
+         1.597
+        ],
+        "anchor": "start"
+       },
+       {
+        "label": "P = 14 cm",
+        "at": [
+         3,
+         -1.3
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q11b",
+     "label": "11b",
+     "section": "Problem-solving",
+     "stem": "The perimeter of each shape is given. Find the missing side length.",
+     "prompt": "The perimeter of this square is $26$ m. Find the missing side length.",
+     "type": "numeric",
+     "answer": "6.5",
+     "units": "m",
+     "figure": {
+      "kind": "diagram",
+      "unit": 30.77,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          6.5,
+          0
+         ],
+         [
+          6.5,
+          6.5
+         ],
+         [
+          0,
+          6.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "tick": [
+         0,
+         0,
+         6.5,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         6.5,
+         0,
+         6.5,
+         6.5
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         6.5,
+         6.5,
+         0,
+         6.5
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         0,
+         6.5,
+         0,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "label": "?",
+        "at": [
+         6.955,
+         3.25
+        ],
+        "anchor": "start"
+       },
+       {
+        "label": "P = 26 m",
+        "at": [
+         3.25,
+         -1.4
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q11c",
+     "label": "11c",
+     "section": "Problem-solving",
+     "stem": "The perimeter of each shape is given. Find the missing side length.",
+     "prompt": "The perimeter of this rectangle is $46$ km. Find the missing side length.",
+     "type": "numeric",
+     "answer": "8",
+     "units": "km",
+     "figure": {
+      "kind": "diagram",
+      "unit": 18.67,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          15,
+          0
+         ],
+         [
+          15,
+          8
+         ],
+         [
+          0,
+          8
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "tick": [
+         0,
+         0,
+         15,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         15,
+         8,
+         0,
+         8
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         15,
+         0,
+         15,
+         8
+        ],
+        "n": 2
+       },
+       {
+        "tick": [
+         0,
+         8,
+         0,
+         0
+        ],
+        "n": 2
+       },
+       {
+        "label": "15 km",
+        "at": [
+         7.5,
+         -0.975
+        ]
+       },
+       {
+        "label": "?",
+        "at": [
+         15.75,
+         4
+        ],
+        "anchor": "start"
+       },
+       {
+        "label": "P = 46 km",
+        "at": [
+         7.5,
+         -3.2
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q12",
+     "label": "12",
+     "section": "Problem-solving",
+     "prompt": "A rectangle has a perimeter of $22$ cm. Using only whole numbers for the length and width, how many different rectangles can be drawn? Do not count rotations of the same rectangle as different.",
+     "type": "numeric",
+     "answer": "5"
+    },
+    {
+     "id": "q13a",
+     "label": "13a",
+     "section": "Reasoning",
+     "stem": "Write an algebraic rule for the perimeter $P$ of each shape, using the letters shown.",
+     "prompt": "Write a rule for the perimeter.",
+     "type": "expression",
+     "answer": "3a",
+     "figure": {
+      "kind": "diagram",
+      "unit": 57.74,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          4,
+          0
+         ],
+         [
+          2,
+          3.464
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "tick": [
+         0,
+         0,
+         4,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         4,
+         0,
+         2,
+         3.464
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         2,
+         3.464,
+         0,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "label": "a",
+        "at": [
+         2,
+         -0.315
+        ]
+       }
+      ]
+     },
+     "accept": [
+      "P=3a"
+     ],
+     "hint": "Type the rule using the letters, for example 2a+b (you can start with P= or leave it out)."
+    },
+    {
+     "id": "q13b",
+     "label": "13b",
+     "section": "Reasoning",
+     "stem": "Write an algebraic rule for the perimeter $P$ of each shape, using the letters shown.",
+     "prompt": "Write a rule for the perimeter.",
+     "type": "expression",
+     "answer": "2a+2b",
+     "figure": {
+      "kind": "diagram",
+      "unit": 46.67,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          6,
+          0
+         ],
+         [
+          6,
+          3.5
+         ],
+         [
+          0,
+          3.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "tick": [
+         0,
+         0,
+         6,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         6,
+         3.5,
+         0,
+         3.5
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         6,
+         0,
+         6,
+         3.5
+        ],
+        "n": 2
+       },
+       {
+        "tick": [
+         0,
+         3.5,
+         0,
+         0
+        ],
+        "n": 2
+       },
+       {
+        "label": "a",
+        "at": [
+         3,
+         -0.39
+        ]
+       },
+       {
+        "label": "b",
+        "at": [
+         6.3,
+         1.75
+        ],
+        "anchor": "start"
+       }
+      ]
+     },
+     "accept": [
+      "P=2a+2b"
+     ]
+    },
+    {
+     "id": "q13c",
+     "label": "13c",
+     "section": "Reasoning",
+     "stem": "Write an algebraic rule for the perimeter $P$ of each shape, using the letters shown.",
+     "prompt": "Write a rule for the perimeter.",
+     "type": "expression",
+     "answer": "2a+b",
+     "figure": {
+      "kind": "diagram",
+      "unit": 42.7,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          3.5,
+          0
+         ],
+         [
+          1.75,
+          4.684
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "tick": [
+         3.5,
+         0,
+         1.75,
+         4.684
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         1.75,
+         4.684,
+         0,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "label": "b",
+        "at": [
+         1.75,
+         -0.426
+        ]
+       },
+       {
+        "label": "a",
+        "at": [
+         2.932,
+         2.457
+        ],
+        "anchor": "start"
+       }
+      ]
+     },
+     "accept": [
+      "P=2a+b"
+     ]
+    },
+    {
+     "id": "q13d",
+     "label": "13d",
+     "section": "Reasoning",
+     "stem": "Write an algebraic rule for the perimeter $P$ of each shape, using the letters shown.",
+     "prompt": "Write a rule for the perimeter.",
+     "type": "expression",
+     "answer": "6a",
+     "figure": {
+      "kind": "diagram",
+      "unit": 38.49,
+      "items": [
+       {
+        "poly": [
+         [
+          3,
+          0
+         ],
+         [
+          1.5,
+          2.598
+         ],
+         [
+          -1.5,
+          2.598
+         ],
+         [
+          -3,
+          0
+         ],
+         [
+          -1.5,
+          -2.598
+         ],
+         [
+          1.5,
+          -2.598
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "tick": [
+         3,
+         0,
+         1.5,
+         2.598
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         1.5,
+         2.598,
+         -1.5,
+         2.598
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         -1.5,
+         2.598,
+         -3,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         -3,
+         0,
+         -1.5,
+         -2.598
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         -1.5,
+         -2.598,
+         1.5,
+         -2.598
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         1.5,
+         -2.598,
+         3,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "label": "a",
+        "at": [
+         0,
+         -3.071
+        ]
+       }
+      ]
+     },
+     "accept": [
+      "P=6a"
+     ]
+    },
+    {
+     "id": "q13e",
+     "label": "13e",
+     "section": "Reasoning",
+     "stem": "Write an algebraic rule for the perimeter $P$ of each shape, using the letters shown.",
+     "prompt": "Write a rule for the perimeter.",
+     "type": "expression",
+     "answer": "2a+2b",
+     "figure": {
+      "kind": "diagram",
+      "unit": 33.33,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          2.2,
+          4.5
+         ],
+         [
+          0,
+          6
+         ],
+         [
+          -2.2,
+          4.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "tick": [
+         0,
+         0,
+         2.2,
+         4.5
+        ],
+        "n": 2
+       },
+       {
+        "tick": [
+         -2.2,
+         4.5,
+         0,
+         0
+        ],
+        "n": 2
+       },
+       {
+        "tick": [
+         2.2,
+         4.5,
+         0,
+         6
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         0,
+         6,
+         -2.2,
+         4.5
+        ],
+        "n": 1
+       },
+       {
+        "label": "b",
+        "at": [
+         1.477,
+         2.066
+        ],
+        "anchor": "start"
+       },
+       {
+        "label": "a",
+        "at": [
+         1.337,
+         5.723
+        ],
+        "anchor": "start"
+       }
+      ]
+     },
+     "accept": [
+      "P=2a+2b"
+     ]
+    },
+    {
+     "id": "q13f",
+     "label": "13f",
+     "section": "Reasoning",
+     "stem": "Write an algebraic rule for the perimeter $P$ of each shape, using the letters shown.",
+     "prompt": "Write a rule for the perimeter.",
+     "type": "expression",
+     "answer": "a+2b+c",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          7,
+          0
+         ],
+         [
+          5,
+          3
+         ],
+         [
+          2,
+          3
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "tick": [
+         7,
+         0,
+         5,
+         3
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         2,
+         3,
+         0,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "label": "c",
+        "at": [
+         3.5,
+         -0.455
+        ]
+       },
+       {
+        "label": "b",
+        "at": [
+         6.291,
+         1.799
+        ],
+        "anchor": "start"
+       },
+       {
+        "label": "a",
+        "at": [
+         3.5,
+         3.455
+        ]
+       }
+      ]
+     },
+     "accept": [
+      "P=a+2b+c"
+     ]
+    },
+    {
+     "id": "q14a",
+     "label": "14a",
+     "section": "Reasoning",
+     "stem": "Write an algebraic rule for the perimeter $P$ of each given shape.",
+     "prompt": "Write a rule for the perimeter.",
+     "type": "expression",
+     "answer": "2a+2b+2c",
+     "figure": {
+      "kind": "diagram",
+      "unit": 33.33,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          7,
+          0
+         ],
+         [
+          7,
+          3
+         ],
+         [
+          4,
+          3
+         ],
+         [
+          4,
+          6
+         ],
+         [
+          0,
+          6
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         90
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         7,
+         0,
+         90,
+         180
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         7,
+         3,
+         180,
+         270
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         4,
+         6,
+         180,
+         270
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         0,
+         6,
+         270,
+         0
+        ],
+        "right": true
+       },
+       {
+        "label": "c",
+        "at": [
+         -0.42,
+         3
+        ],
+        "anchor": "end"
+       },
+       {
+        "label": "a",
+        "at": [
+         2,
+         6.546
+        ]
+       },
+       {
+        "label": "b",
+        "at": [
+         5.5,
+         3.546
+        ]
+       }
+      ]
+     },
+     "accept": [
+      "P=2a+2b+2c"
+     ],
+     "hint": "Type the rule using the letters, for example 2a+b (you can start with P= or leave it out)."
+    },
+    {
+     "id": "q14b",
+     "label": "14b",
+     "section": "Reasoning",
+     "stem": "Write an algebraic rule for the perimeter $P$ of each given shape.",
+     "prompt": "Write a rule for the perimeter.",
+     "type": "expression",
+     "answer": "2a+2b+2c",
+     "figure": {
+      "kind": "diagram",
+      "unit": 38.89,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          7.2,
+          0
+         ],
+         [
+          5.6,
+          2.6
+         ],
+         [
+          1.6,
+          2.6
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "tick": [
+         7.2,
+         0,
+         5.6,
+         2.6
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         1.6,
+         2.6,
+         0,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "label": "b",
+        "at": [
+         3.6,
+         3.068
+        ]
+       },
+       {
+        "label": "a",
+        "at": [
+         0.493,
+         1.597
+        ],
+        "anchor": "end"
+       },
+       {
+        "seg": [
+         1.6,
+         2.6,
+         1.6,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         5.6,
+         2.6,
+         5.6,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         1.6,
+         0,
+         0,
+         90
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         5.6,
+         0,
+         90,
+         180
+        ],
+        "right": true
+       },
+       {
+        "label": "c",
+        "at": [
+         0.8,
+         -0.437
+        ]
+       },
+       {
+        "label": "c",
+        "at": [
+         6.4,
+         -0.437
+        ]
+       }
+      ]
+     },
+     "accept": [
+      "P=2a+2b+2c"
+     ]
+    },
+    {
+     "id": "q15a",
+     "label": "15a",
+     "section": "Reasoning",
+     "prompt": "A square has perimeter $P$. Write an expression for its side length.",
+     "type": "expression",
+     "answer": "P/4",
+     "hint": "Use / for division, for example P/3"
+    },
+    {
+     "id": "q15b",
+     "label": "15b",
+     "section": "Reasoning",
+     "prompt": "A rectangle has perimeter $P$ and width $w$. Write an expression for its length.",
+     "type": "expression",
+     "answer": "(P-2w)/2",
+     "hint": "Use brackets and / where you need them, for example (P+w)/3"
+    },
+    {
+     "id": "q16a",
+     "label": "16a",
+     "section": "Enrichment",
+     "stem": "The amount of timber used to frame a picture depends on the outside lengths of the frame. Each side is first cut as a rectangular piece, and then the two corners are cut at $45°$ to make the frame.",
+     "prompt": "A square painting of side length $40$ cm is framed with timber of width $6$ cm (shown). Find the total length of timber needed.",
+     "type": "numeric",
+     "answer": "208",
+     "stemFigure": {
+      "kind": "diagram",
+      "unit": 4,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          52,
+          0
+         ],
+         [
+          52,
+          52
+         ],
+         [
+          0,
+          52
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          6,
+          6
+         ],
+         [
+          46,
+          6
+         ],
+         [
+          46,
+          46
+         ],
+         [
+          6,
+          46
+         ]
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         6,
+         6
+        ]
+       },
+       {
+        "seg": [
+         52,
+         0,
+         46,
+         6
+        ]
+       },
+       {
+        "seg": [
+         52,
+         52,
+         46,
+         46
+        ]
+       },
+       {
+        "seg": [
+         0,
+         52,
+         6,
+         46
+        ]
+       },
+       {
+        "dim": [
+         6,
+         29,
+         46,
+         29
+        ],
+        "label": "40 cm",
+        "off": 0
+       },
+       {
+        "dim": [
+         46,
+         16,
+         52,
+         16
+        ],
+        "off": 0
+       },
+       {
+        "label": "6 cm",
+        "at": [
+         53.5,
+         16
+        ],
+        "anchor": "start"
+       }
+      ]
+     },
+     "units": "cm"
+    },
+    {
+     "id": "q16b",
+     "label": "16b",
+     "section": "Enrichment",
+     "stem": "The amount of timber used to frame a picture depends on the outside lengths of the frame. Each side is first cut as a rectangular piece, and then the two corners are cut at $45°$ to make the frame.",
+     "prompt": "A rectangular photo $60$ cm by $45$ cm is framed with timber of width $8$ cm. Find the total length of timber needed.",
+     "type": "numeric",
+     "answer": "274",
+     "units": "cm"
+    },
+    {
+     "id": "q16c",
+     "label": "16c",
+     "section": "Enrichment",
+     "stem": "The amount of timber used to frame a picture depends on the outside lengths of the frame. Each side is first cut as a rectangular piece, and then the two corners are cut at $45°$ to make the frame.",
+     "prompt": "Kai uses $2.4$ m of timber of width $6$ cm to make a square picture frame. What is the side length of the picture?",
+     "type": "numeric",
+     "answer": "48",
+     "units": "cm"
+    },
+    {
+     "id": "q16d",
+     "label": "16d",
+     "section": "Enrichment",
+     "stem": "The amount of timber used to frame a picture depends on the outside lengths of the frame. Each side is first cut as a rectangular piece, and then the two corners are cut at $45°$ to make the frame.",
+     "prompt": "A square piece of embroidery has side length $a$ cm and is framed by timber of width $3$ cm. Write an expression for the total length of timber used, in cm.",
+     "type": "expression",
+     "answer": "4a+24",
+     "hint": "Type an expression using a, for example 2a+10"
+    }
+   ]
+  },
+  {
+   "id": "10c",
+   "chapter": "Chapter 10: Measurement",
+   "title": "10C Circles, π and circumference",
+   "description": "Use π to find the circumference of a circle, and work back from the circumference to the diameter or radius.",
+   "questions": [
+    {
+     "id": "q1a",
+     "label": "1a",
+     "section": "Fluency",
+     "stem": "A reasonable approximation of $\\pi$ is the fraction $\\frac{47}{15}$.",
+     "prompt": "Write $\\frac{47}{15}$ as a decimal rounded to two decimal places.",
+     "type": "numeric",
+     "answer": "3.13"
+    },
+    {
+     "id": "q1b",
+     "label": "1b",
+     "section": "Fluency",
+     "stem": "A reasonable approximation of $\\pi$ is the fraction $\\frac{47}{15}$.",
+     "prompt": "Write $\\frac{47}{15}$ as a decimal rounded to three decimal places.",
+     "type": "numeric",
+     "answer": "3.133"
+    },
+    {
+     "id": "q1c",
+     "label": "1c",
+     "section": "Fluency",
+     "stem": "A reasonable approximation of $\\pi$ is the fraction $\\frac{47}{15}$.",
+     "prompt": "Is $\\frac{47}{15}$ a better approximation to $\\pi$ than the number $3.14$?",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "Yes",
+      "No"
+     ]
+    },
+    {
+     "id": "q2a",
+     "label": "2a",
+     "section": "Fluency",
+     "stem": "A good approximation of $\\pi$ is the fraction $\\frac{377}{120}$.",
+     "prompt": "Write $\\frac{377}{120}$ as a decimal rounded to three decimal places.",
+     "type": "numeric",
+     "answer": "3.142"
+    },
+    {
+     "id": "q2b",
+     "label": "2b",
+     "section": "Fluency",
+     "stem": "A good approximation of $\\pi$ is the fraction $\\frac{377}{120}$.",
+     "prompt": "Write $\\frac{377}{120}$ as a decimal rounded to four decimal places.",
+     "type": "numeric",
+     "answer": "3.1417"
+    },
+    {
+     "id": "q2c",
+     "label": "2c",
+     "section": "Fluency",
+     "stem": "A good approximation of $\\pi$ is the fraction $\\frac{377}{120}$.",
+     "prompt": "Is $\\frac{377}{120}$ a better approximation to $\\pi$ than the number $3.142$?",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "Yes",
+      "No"
+     ]
+    },
+    {
+     "id": "q3a",
+     "label": "3a",
+     "section": "Fluency",
+     "stem": "Calculate the circumference of these circles using $C = \\pi d$ and round your answer correct to two decimal places.",
+     "prompt": "Find the circumference.",
+     "type": "numeric",
+     "answer": "21.99",
+     "dp": 2,
+     "units": "cm",
+     "figure": {
+      "kind": "diagram",
+      "unit": 34,
+      "items": [
+       {
+        "circle": [
+         0,
+         0,
+         3
+        ]
+       },
+       {
+        "seg": [
+         -2.719,
+         -1.268,
+         2.719,
+         1.268
+        ]
+       },
+       {
+        "point": [
+         0,
+         0
+        ]
+       },
+       {
+        "label": "7 cm",
+        "at": [
+         1.046,
+         0.951
+        ],
+        "anchor": "end"
+       }
+      ]
+     },
+     "hint": "Use the π button on your calculator."
+    },
+    {
+     "id": "q3b",
+     "label": "3b",
+     "section": "Fluency",
+     "stem": "Calculate the circumference of these circles using $C = \\pi d$ and round your answer correct to two decimal places.",
+     "prompt": "Find the circumference.",
+     "type": "numeric",
+     "answer": "34.56",
+     "dp": 2,
+     "units": "cm",
+     "figure": {
+      "kind": "diagram",
+      "unit": 34,
+      "items": [
+       {
+        "circle": [
+         0,
+         0,
+         3
+        ]
+       },
+       {
+        "seg": [
+         -2.298,
+         1.928,
+         2.298,
+         -1.928
+        ]
+       },
+       {
+        "point": [
+         0,
+         0
+        ]
+       },
+       {
+        "label": "11 cm",
+        "at": [
+         1.304,
+         -0.546
+        ],
+        "anchor": "start"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3c",
+     "label": "3c",
+     "section": "Fluency",
+     "stem": "Calculate the circumference of these circles using $C = \\pi d$ and round your answer correct to two decimal places.",
+     "prompt": "Find the circumference.",
+     "type": "numeric",
+     "answer": "11.94",
+     "dp": 2,
+     "units": "m",
+     "figure": {
+      "kind": "diagram",
+      "unit": 34,
+      "items": [
+       {
+        "circle": [
+         0,
+         0,
+         3
+        ]
+       },
+       {
+        "seg": [
+         -0.776,
+         -2.898,
+         0.776,
+         2.898
+        ]
+       },
+       {
+        "point": [
+         0,
+         0
+        ]
+       },
+       {
+        "label": "3.8 m",
+        "at": [
+         -0.056,
+         1.413
+        ],
+        "anchor": "end"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3d",
+     "label": "3d",
+     "section": "Fluency",
+     "stem": "Calculate the circumference of these circles using $C = \\pi d$ and round your answer correct to two decimal places.",
+     "prompt": "Find the circumference.",
+     "type": "numeric",
+     "answer": "39.58",
+     "dp": 2,
+     "units": "m",
+     "figure": {
+      "kind": "diagram",
+      "unit": 34,
+      "items": [
+       {
+        "circle": [
+         0,
+         0,
+         3
+        ]
+       },
+       {
+        "seg": [
+         1.5,
+         -2.598,
+         -1.5,
+         2.598
+        ]
+       },
+       {
+        "point": [
+         0,
+         0
+        ]
+       },
+       {
+        "label": "12.6 m",
+        "at": [
+         -0.311,
+         1.379
+        ],
+        "anchor": "start"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4a",
+     "label": "4a",
+     "section": "Fluency",
+     "stem": "Calculate the circumference of these circles using $C = 2\\pi r$ and round your answer correct to two decimal places.",
+     "prompt": "Find the circumference.",
+     "type": "numeric",
+     "answer": "37.70",
+     "dp": 2,
+     "units": "mm",
+     "figure": {
+      "kind": "diagram",
+      "unit": 34,
+      "items": [
+       {
+        "circle": [
+         0,
+         0,
+         3
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         -1.268,
+         2.719
+        ]
+       },
+       {
+        "point": [
+         0,
+         0
+        ]
+       },
+       {
+        "label": "6 mm",
+        "at": [
+         -0.253,
+         1.537
+        ],
+        "anchor": "start"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4b",
+     "label": "4b",
+     "section": "Fluency",
+     "stem": "Calculate the circumference of these circles using $C = 2\\pi r$ and round your answer correct to two decimal places.",
+     "prompt": "Find the circumference.",
+     "type": "numeric",
+     "answer": "106.81",
+     "dp": 2,
+     "units": "cm",
+     "figure": {
+      "kind": "diagram",
+      "unit": 34,
+      "items": [
+       {
+        "circle": [
+         0,
+         0,
+         3
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         2.898,
+         0.776
+        ]
+       },
+       {
+        "point": [
+         0,
+         0
+        ]
+       },
+       {
+        "label": "17 cm",
+        "at": [
+         1.34,
+         0.794
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4c",
+     "label": "4c",
+     "section": "Fluency",
+     "stem": "Calculate the circumference of these circles using $C = 2\\pi r$ and round your answer correct to two decimal places.",
+     "prompt": "Find the circumference.",
+     "type": "numeric",
+     "answer": "33.93",
+     "dp": 2,
+     "units": "mm",
+     "figure": {
+      "kind": "diagram",
+      "unit": 34,
+      "items": [
+       {
+        "circle": [
+         0,
+         0,
+         3
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         0.521,
+         -2.954
+        ]
+       },
+       {
+        "point": [
+         0,
+         0
+        ]
+       },
+       {
+        "label": "5.4 mm",
+        "at": [
+         0.674,
+         -1.404
+        ],
+        "anchor": "start"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4d",
+     "label": "4d",
+     "section": "Fluency",
+     "stem": "Calculate the circumference of these circles using $C = 2\\pi r$ and round your answer correct to two decimal places.",
+     "prompt": "Find the circumference.",
+     "type": "numeric",
+     "answer": "86.08",
+     "dp": 2,
+     "units": "m",
+     "figure": {
+      "kind": "diagram",
+      "unit": 34,
+      "items": [
+       {
+        "circle": [
+         0,
+         0,
+         3
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         2.954,
+         0.521
+        ]
+       },
+       {
+        "point": [
+         0,
+         0
+        ]
+       },
+       {
+        "label": "13.7 m",
+        "at": [
+         1.404,
+         0.674
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q5a",
+     "label": "5a",
+     "section": "Fluency",
+     "stem": "Estimate the circumference of these circles using the given approximation of $\\pi$.",
+     "prompt": "Use $\\pi = 3$.",
+     "type": "numeric",
+     "answer": "18",
+     "units": "cm",
+     "figure": {
+      "kind": "diagram",
+      "unit": 34,
+      "items": [
+       {
+        "circle": [
+         0,
+         0,
+         3
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         2.298,
+         1.928
+        ]
+       },
+       {
+        "point": [
+         0,
+         0
+        ]
+       },
+       {
+        "label": "3 cm",
+        "at": [
+         0.879,
+         1.286
+        ],
+        "anchor": "end"
+       }
+      ],
+      "caption": "π = 3"
+     }
+    },
+    {
+     "id": "q5b",
+     "label": "5b",
+     "section": "Fluency",
+     "stem": "Estimate the circumference of these circles using the given approximation of $\\pi$.",
+     "prompt": "Use $\\pi = 3.14$.",
+     "type": "numeric",
+     "answer": "25.12",
+     "units": "mm",
+     "figure": {
+      "kind": "diagram",
+      "unit": 34,
+      "items": [
+       {
+        "circle": [
+         0,
+         0,
+         3
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         -2.819,
+         -1.026
+        ]
+       },
+       {
+        "point": [
+         0,
+         0
+        ]
+       },
+       {
+        "label": "4 mm",
+        "at": [
+         -1.553,
+         -0.118
+        ]
+       }
+      ],
+      "caption": "π = 3.14"
+     }
+    },
+    {
+     "id": "q5c",
+     "label": "5c",
+     "section": "Fluency",
+     "stem": "Estimate the circumference of these circles using the given approximation of $\\pi$.",
+     "prompt": "Use $\\pi = \\frac{22}{7}$.",
+     "type": "numeric",
+     "answer": "66",
+     "units": "m",
+     "figure": {
+      "kind": "diagram",
+      "unit": 34,
+      "items": [
+       {
+        "circle": [
+         0,
+         0,
+         3
+        ]
+       },
+       {
+        "seg": [
+         -1.268,
+         -2.719,
+         1.268,
+         2.719
+        ]
+       },
+       {
+        "point": [
+         0,
+         0
+        ]
+       },
+       {
+        "label": "21 m",
+        "at": [
+         0.19,
+         1.401
+        ],
+        "anchor": "end"
+       }
+      ],
+      "caption": "π = 22/7"
+     }
+    },
+    {
+     "id": "q5d",
+     "label": "5d",
+     "section": "Fluency",
+     "stem": "Estimate the circumference of these circles using the given approximation of $\\pi$.",
+     "prompt": "Use $\\pi = \\frac{355}{113}$.",
+     "type": "numeric",
+     "answer": "710",
+     "units": "cm",
+     "figure": {
+      "kind": "diagram",
+      "unit": 34,
+      "items": [
+       {
+        "circle": [
+         0,
+         0,
+         3
+        ]
+       },
+       {
+        "seg": [
+         -2.598,
+         1.5,
+         2.598,
+         -1.5
+        ]
+       },
+       {
+        "point": [
+         0,
+         0
+        ]
+       },
+       {
+        "label": "226 cm",
+        "at": [
+         1.379,
+         -0.311
+        ],
+        "anchor": "start"
+       }
+      ],
+      "caption": "π = 355/113"
+     }
+    },
+    {
+     "id": "q6",
+     "label": "6",
+     "section": "Problem-solving",
+     "prompt": "A tree trunk has a diameter of $55$ cm. Find its circumference, correct to one decimal place.",
+     "type": "numeric",
+     "answer": "172.8",
+     "dp": 1,
+     "units": "cm"
+    },
+    {
+     "id": "q7a",
+     "label": "7a",
+     "section": "Problem-solving",
+     "stem": "We know that the rule $C = \\pi d$ can be rearranged to give $d = \\frac{C}{\\pi}$. Use this rearranged rule to calculate the following, correct to two decimal places.",
+     "prompt": "a circle's diameter if the circumference is $15$ cm",
+     "type": "numeric",
+     "answer": "4.77",
+     "dp": 2,
+     "units": "cm"
+    },
+    {
+     "id": "q7b",
+     "label": "7b",
+     "section": "Problem-solving",
+     "stem": "We know that the rule $C = \\pi d$ can be rearranged to give $d = \\frac{C}{\\pi}$. Use this rearranged rule to calculate the following, correct to two decimal places.",
+     "prompt": "a circle's diameter if the circumference is $18.4$ m",
+     "type": "numeric",
+     "answer": "5.86",
+     "dp": 2,
+     "units": "m"
+    },
+    {
+     "id": "q7c",
+     "label": "7c",
+     "section": "Problem-solving",
+     "stem": "We know that the rule $C = \\pi d$ can be rearranged to give $d = \\frac{C}{\\pi}$. Use this rearranged rule to calculate the following, correct to two decimal places.",
+     "prompt": "a circle's radius if the circumference is $9$ mm",
+     "type": "numeric",
+     "answer": "1.43",
+     "dp": 2,
+     "units": "mm"
+    },
+    {
+     "id": "q7d",
+     "label": "7d",
+     "section": "Problem-solving",
+     "stem": "We know that the rule $C = \\pi d$ can be rearranged to give $d = \\frac{C}{\\pi}$. Use this rearranged rule to calculate the following, correct to two decimal places.",
+     "prompt": "a circle's radius if the circumference is $42.6$ m",
+     "type": "numeric",
+     "answer": "6.78",
+     "dp": 2,
+     "units": "m"
+    },
+    {
+     "id": "q8",
+     "label": "8",
+     "section": "Problem-solving",
+     "prompt": "A circular garden bed has a radius of $2.4$ metres. Find its circumference, correct to one decimal place.",
+     "type": "numeric",
+     "answer": "15.1",
+     "dp": 1,
+     "units": "m"
+    },
+    {
+     "id": "q9",
+     "label": "9",
+     "section": "Problem-solving",
+     "prompt": "A unicycle wheel turns $850$ times during a ride. The wheel's diameter is $60$ cm. Find the distance travelled, in metres, rounded to the nearest metre.",
+     "type": "numeric",
+     "answer": "1602",
+     "dp": 0,
+     "units": "m"
+    },
+    {
+     "id": "q10",
+     "label": "10",
+     "section": "Reasoning",
+     "prompt": "Four students suggest fractions to approximate $\\pi$: $\\frac{19}{6}$, $\\frac{22}{7}$, $\\frac{245}{78}$ and $\\frac{311}{99}$. Which one is closest to the true value of $\\pi$? ($\\pi$ written to five decimal places is $3.14159$.)",
+     "type": "choice",
+     "answer": 3,
+     "options": [
+      "19/6",
+      "22/7",
+      "245/78",
+      "311/99"
+     ]
+    },
+    {
+     "id": "q11a",
+     "label": "11a",
+     "section": "Reasoning",
+     "stem": "The rule $C = \\pi d$ links the circumference $C$ and diameter $d$ of a circle.",
+     "prompt": "Write a rule for the radius $r$ in terms of the circumference $C$.",
+     "type": "expression",
+     "answer": "C/(2pi)",
+     "accept": [
+      "r=C/(2pi)"
+     ],
+     "hint": "Type π as pi and use brackets, for example 5/(4pi)"
+    },
+    {
+     "id": "q11b",
+     "label": "11b",
+     "section": "Reasoning",
+     "stem": "The rule $C = \\pi d$ links the circumference $C$ and diameter $d$ of a circle.",
+     "prompt": "Use your rule to find the radius of a circle with circumference $31$ cm, rounded to two decimal places.",
+     "type": "numeric",
+     "answer": "4.93",
+     "dp": 2,
+     "units": "cm"
+    },
+    {
+     "id": "q12a",
+     "label": "12a",
+     "section": "Reasoning",
+     "stem": "The exact circumference of a circle with diameter $4$ cm is $4\\pi$ cm. Give the exact circumference of a circle with the given diameter or radius.",
+     "prompt": "Diameter $9$ cm",
+     "type": "expression",
+     "answer": "9pi",
+     "units": "cm",
+     "hint": "Type π as pi, for example 4pi"
+    },
+    {
+     "id": "q12b",
+     "label": "12b",
+     "section": "Reasoning",
+     "stem": "The exact circumference of a circle with diameter $4$ cm is $4\\pi$ cm. Give the exact circumference of a circle with the given diameter or radius.",
+     "prompt": "Radius $6$ mm",
+     "type": "expression",
+     "answer": "12pi",
+     "units": "mm"
+    },
+    {
+     "id": "q13a",
+     "label": "13a",
+     "section": "Enrichment",
+     "stem": "The planets are not perfect spheres, but their circumference can be estimated using a circle. Find the missing numbers in the table, rounded to the nearest whole number.",
+     "prompt": "The circumference of Venus",
+     "type": "numeric",
+     "answer": "38013",
+     "dp": 0,
+     "units": "km",
+     "stemFigure": {
+      "kind": "table",
+      "rows": [
+       [
+        "Planet",
+        "Venus",
+        "Neptune",
+        "Saturn",
+        "Uranus"
+       ],
+       [
+        "Diameter (km)",
+        "12 100",
+        "49 500",
+        "?",
+        "?"
+       ],
+       [
+        "Circumference (km)",
+        "?",
+        "?",
+        "365 900",
+        "159 400"
+       ]
+      ]
+     }
+    },
+    {
+     "id": "q13b",
+     "label": "13b",
+     "section": "Enrichment",
+     "stem": "The planets are not perfect spheres, but their circumference can be estimated using a circle. Find the missing numbers in the table, rounded to the nearest whole number.",
+     "prompt": "The circumference of Neptune",
+     "type": "numeric",
+     "answer": "155509",
+     "dp": 0,
+     "units": "km"
+    },
+    {
+     "id": "q13c",
+     "label": "13c",
+     "section": "Enrichment",
+     "stem": "The planets are not perfect spheres, but their circumference can be estimated using a circle. Find the missing numbers in the table, rounded to the nearest whole number.",
+     "prompt": "The diameter of Saturn",
+     "type": "numeric",
+     "answer": "116470",
+     "dp": 0,
+     "units": "km"
+    },
+    {
+     "id": "q13d",
+     "label": "13d",
+     "section": "Enrichment",
+     "stem": "The planets are not perfect spheres, but their circumference can be estimated using a circle. Find the missing numbers in the table, rounded to the nearest whole number.",
+     "prompt": "The diameter of Uranus",
+     "type": "numeric",
+     "answer": "50739",
+     "dp": 0,
+     "units": "km"
+    }
+   ]
+  },
+  {
+   "id": "10d",
+   "chapter": "Chapter 10: Measurement",
+   "title": "10D Arc length and perimeter of sectors and composite shapes",
+   "description": "Find arc lengths and the perimeters of sectors and shapes made from circles and straight sides.",
+   "questions": [
+    {
+     "id": "q1a",
+     "label": "1a",
+     "section": "Fluency",
+     "stem": "Find the length of each of the following arcs, correct to two decimal places.",
+     "prompt": "Find the arc length. The radius is $9$ cm.",
+     "type": "numeric",
+     "answer": "7.85",
+     "dp": 2,
+     "units": "cm",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "poly": [
+         [
+          1.026,
+          2.819
+         ],
+         [
+          0.819,
+          2.886
+         ],
+         [
+          0.607,
+          2.938
+         ],
+         [
+          0.392,
+          2.974
+         ],
+         [
+          0.174,
+          2.995
+         ],
+         [
+          -0.044,
+          3
+         ],
+         [
+          -0.261,
+          2.989
+         ],
+         [
+          -0.478,
+          2.962
+         ],
+         [
+          -0.692,
+          2.919
+         ],
+         [
+          -0.902,
+          2.861
+         ],
+         [
+          -1.108,
+          2.788
+         ],
+         [
+          -1.307,
+          2.7
+         ],
+         [
+          -1.5,
+          2.598
+         ]
+        ],
+        "open": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         1.026,
+         2.819
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         -1.5,
+         2.598
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         0,
+         0,
+         70,
+         120
+        ],
+        "label": "50°",
+        "r": 0.9
+       },
+       {
+        "label": "9 cm",
+        "at": [
+         0.87,
+         1.28
+        ],
+        "anchor": "start"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q1b",
+     "label": "1b",
+     "section": "Fluency",
+     "stem": "Find the length of each of the following arcs, correct to two decimal places.",
+     "prompt": "Find the arc length. The radius is $5$ m.",
+     "type": "numeric",
+     "answer": "6.11",
+     "dp": 2,
+     "units": "m",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "poly": [
+         [
+          1.721,
+          2.457
+         ],
+         [
+          1.54,
+          2.575
+         ],
+         [
+          1.351,
+          2.679
+         ],
+         [
+          1.155,
+          2.769
+         ],
+         [
+          0.953,
+          2.844
+         ],
+         [
+          0.747,
+          2.906
+         ],
+         [
+          0.536,
+          2.952
+         ],
+         [
+          0.323,
+          2.983
+         ],
+         [
+          0.108,
+          2.998
+         ],
+         [
+          -0.108,
+          2.998
+         ],
+         [
+          -0.323,
+          2.983
+         ],
+         [
+          -0.536,
+          2.952
+         ],
+         [
+          -0.747,
+          2.906
+         ],
+         [
+          -0.953,
+          2.844
+         ],
+         [
+          -1.155,
+          2.769
+         ],
+         [
+          -1.351,
+          2.679
+         ],
+         [
+          -1.54,
+          2.575
+         ],
+         [
+          -1.721,
+          2.457
+         ]
+        ],
+        "open": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         1.721,
+         2.457
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         -1.721,
+         2.457
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         0,
+         0,
+         55,
+         125
+        ],
+        "label": "70°",
+        "r": 0.9
+       },
+       {
+        "label": "5 m",
+        "at": [
+         1.172,
+         0.897
+        ],
+        "anchor": "start"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q1c",
+     "label": "1c",
+     "section": "Fluency",
+     "stem": "Find the length of each of the following arcs, correct to two decimal places.",
+     "prompt": "Find the arc length. The radius is $6$ mm.",
+     "type": "numeric",
+     "answer": "11.52",
+     "dp": 2,
+     "units": "mm",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "poly": [
+         [
+          2.954,
+          0.521
+         ],
+         [
+          2.91,
+          0.73
+         ],
+         [
+          2.851,
+          0.934
+         ],
+         [
+          2.777,
+          1.135
+         ],
+         [
+          2.69,
+          1.329
+         ],
+         [
+          2.588,
+          1.517
+         ],
+         [
+          2.474,
+          1.697
+         ],
+         [
+          2.347,
+          1.868
+         ],
+         [
+          2.209,
+          2.03
+         ],
+         [
+          2.059,
+          2.182
+         ],
+         [
+          1.898,
+          2.323
+         ],
+         [
+          1.729,
+          2.452
+         ],
+         [
+          1.55,
+          2.569
+         ],
+         [
+          1.364,
+          2.672
+         ],
+         [
+          1.17,
+          2.762
+         ],
+         [
+          0.971,
+          2.838
+         ],
+         [
+          0.767,
+          2.9
+         ],
+         [
+          0.559,
+          2.947
+         ],
+         [
+          0.348,
+          2.98
+         ],
+         [
+          0.136,
+          2.997
+         ],
+         [
+          -0.078,
+          2.999
+         ],
+         [
+          -0.29,
+          2.986
+         ],
+         [
+          -0.502,
+          2.958
+         ],
+         [
+          -0.711,
+          2.915
+         ],
+         [
+          -0.916,
+          2.857
+         ],
+         [
+          -1.117,
+          2.784
+         ],
+         [
+          -1.312,
+          2.698
+         ],
+         [
+          -1.5,
+          2.598
+         ]
+        ],
+        "open": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         2.954,
+         0.521
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         -1.5,
+         2.598
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         0,
+         0,
+         10,
+         120
+        ],
+        "label": "110°",
+        "r": 0.55
+       },
+       {
+        "label": "6 mm",
+        "at": [
+         1.543,
+         -0.228
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q1d",
+     "label": "1d",
+     "section": "Fluency",
+     "stem": "Find the length of each of the following arcs, correct to two decimal places.",
+     "prompt": "Find the arc length. The radius is $0.4$ m.",
+     "type": "numeric",
+     "answer": "1.68",
+     "dp": 2,
+     "units": "m",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "poly": [
+         [
+          1.5,
+          -2.598
+         ],
+         [
+          1.678,
+          -2.487
+         ],
+         [
+          1.847,
+          -2.364
+         ],
+         [
+          2.007,
+          -2.229
+         ],
+         [
+          2.158,
+          -2.084
+         ],
+         [
+          2.298,
+          -1.928
+         ],
+         [
+          2.427,
+          -1.763
+         ],
+         [
+          2.544,
+          -1.59
+         ],
+         [
+          2.649,
+          -1.408
+         ],
+         [
+          2.741,
+          -1.22
+         ],
+         [
+          2.819,
+          -1.026
+         ],
+         [
+          2.884,
+          -0.827
+         ],
+         [
+          2.934,
+          -0.624
+         ],
+         [
+          2.971,
+          -0.418
+         ],
+         [
+          2.993,
+          -0.209
+         ],
+         [
+          3,
+          0
+         ],
+         [
+          2.993,
+          0.209
+         ],
+         [
+          2.971,
+          0.418
+         ],
+         [
+          2.934,
+          0.624
+         ],
+         [
+          2.884,
+          0.827
+         ],
+         [
+          2.819,
+          1.026
+         ],
+         [
+          2.741,
+          1.22
+         ],
+         [
+          2.649,
+          1.408
+         ],
+         [
+          2.544,
+          1.59
+         ],
+         [
+          2.427,
+          1.763
+         ],
+         [
+          2.298,
+          1.928
+         ],
+         [
+          2.158,
+          2.084
+         ],
+         [
+          2.007,
+          2.229
+         ],
+         [
+          1.847,
+          2.364
+         ],
+         [
+          1.678,
+          2.487
+         ],
+         [
+          1.5,
+          2.598
+         ],
+         [
+          1.315,
+          2.696
+         ],
+         [
+          1.124,
+          2.782
+         ],
+         [
+          0.927,
+          2.853
+         ],
+         [
+          0.726,
+          2.911
+         ],
+         [
+          0.521,
+          2.954
+         ],
+         [
+          0.314,
+          2.984
+         ],
+         [
+          0.105,
+          2.998
+         ],
+         [
+          -0.105,
+          2.998
+         ],
+         [
+          -0.314,
+          2.984
+         ],
+         [
+          -0.521,
+          2.954
+         ],
+         [
+          -0.726,
+          2.911
+         ],
+         [
+          -0.927,
+          2.853
+         ],
+         [
+          -1.124,
+          2.782
+         ],
+         [
+          -1.315,
+          2.696
+         ],
+         [
+          -1.5,
+          2.598
+         ],
+         [
+          -1.678,
+          2.487
+         ],
+         [
+          -1.847,
+          2.364
+         ],
+         [
+          -2.007,
+          2.229
+         ],
+         [
+          -2.158,
+          2.084
+         ],
+         [
+          -2.298,
+          1.928
+         ],
+         [
+          -2.427,
+          1.763
+         ],
+         [
+          -2.544,
+          1.59
+         ],
+         [
+          -2.649,
+          1.408
+         ],
+         [
+          -2.741,
+          1.22
+         ],
+         [
+          -2.819,
+          1.026
+         ],
+         [
+          -2.884,
+          0.827
+         ],
+         [
+          -2.934,
+          0.624
+         ],
+         [
+          -2.971,
+          0.418
+         ],
+         [
+          -2.993,
+          0.209
+         ],
+         [
+          -3,
+          0
+         ]
+        ],
+        "open": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         1.5,
+         -2.598
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         -3,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         0,
+         0,
+         300,
+         540
+        ],
+        "label": "240°",
+        "r": 0.55
+       },
+       {
+        "label": "0.4 m",
+        "at": [
+         0.421,
+         -1.603
+        ],
+        "anchor": "end"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q1e",
+     "label": "1e",
+     "section": "Fluency",
+     "stem": "Find the length of each of the following arcs, correct to two decimal places.",
+     "prompt": "Find the arc length. The radius is $18$ cm.",
+     "type": "numeric",
+     "answer": "91.11",
+     "dp": 2,
+     "units": "cm",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "poly": [
+         [
+          1.721,
+          -2.457
+         ],
+         [
+          1.889,
+          -2.331
+         ],
+         [
+          2.048,
+          -2.192
+         ],
+         [
+          2.197,
+          -2.043
+         ],
+         [
+          2.335,
+          -1.883
+         ],
+         [
+          2.462,
+          -1.715
+         ],
+         [
+          2.576,
+          -1.538
+         ],
+         [
+          2.678,
+          -1.353
+         ],
+         [
+          2.766,
+          -1.161
+         ],
+         [
+          2.841,
+          -0.964
+         ],
+         [
+          2.902,
+          -0.762
+         ],
+         [
+          2.948,
+          -0.557
+         ],
+         [
+          2.98,
+          -0.348
+         ],
+         [
+          2.997,
+          -0.138
+         ],
+         [
+          2.999,
+          0.073
+         ],
+         [
+          2.987,
+          0.283
+         ],
+         [
+          2.959,
+          0.492
+         ],
+         [
+          2.917,
+          0.699
+         ],
+         [
+          2.861,
+          0.902
+         ],
+         [
+          2.791,
+          1.101
+         ],
+         [
+          2.707,
+          1.294
+         ],
+         [
+          2.609,
+          1.481
+         ],
+         [
+          2.498,
+          1.661
+         ],
+         [
+          2.376,
+          1.832
+         ],
+         [
+          2.241,
+          1.994
+         ],
+         [
+          2.095,
+          2.147
+         ],
+         [
+          1.939,
+          2.289
+         ],
+         [
+          1.774,
+          2.419
+         ],
+         [
+          1.6,
+          2.538
+         ],
+         [
+          1.417,
+          2.644
+         ],
+         [
+          1.228,
+          2.737
+         ],
+         [
+          1.033,
+          2.817
+         ],
+         [
+          0.833,
+          2.882
+         ],
+         [
+          0.628,
+          2.934
+         ],
+         [
+          0.42,
+          2.97
+         ],
+         [
+          0.211,
+          2.993
+         ],
+         [
+          0,
+          3
+         ],
+         [
+          -0.211,
+          2.993
+         ],
+         [
+          -0.42,
+          2.97
+         ],
+         [
+          -0.628,
+          2.934
+         ],
+         [
+          -0.833,
+          2.882
+         ],
+         [
+          -1.033,
+          2.817
+         ],
+         [
+          -1.228,
+          2.737
+         ],
+         [
+          -1.417,
+          2.644
+         ],
+         [
+          -1.6,
+          2.538
+         ],
+         [
+          -1.774,
+          2.419
+         ],
+         [
+          -1.939,
+          2.289
+         ],
+         [
+          -2.095,
+          2.147
+         ],
+         [
+          -2.241,
+          1.994
+         ],
+         [
+          -2.376,
+          1.832
+         ],
+         [
+          -2.498,
+          1.661
+         ],
+         [
+          -2.609,
+          1.481
+         ],
+         [
+          -2.707,
+          1.294
+         ],
+         [
+          -2.791,
+          1.101
+         ],
+         [
+          -2.861,
+          0.902
+         ],
+         [
+          -2.917,
+          0.699
+         ],
+         [
+          -2.959,
+          0.492
+         ],
+         [
+          -2.987,
+          0.283
+         ],
+         [
+          -2.999,
+          0.073
+         ],
+         [
+          -2.997,
+          -0.138
+         ],
+         [
+          -2.98,
+          -0.348
+         ],
+         [
+          -2.948,
+          -0.557
+         ],
+         [
+          -2.902,
+          -0.762
+         ],
+         [
+          -2.841,
+          -0.964
+         ],
+         [
+          -2.766,
+          -1.161
+         ],
+         [
+          -2.678,
+          -1.353
+         ],
+         [
+          -2.576,
+          -1.538
+         ],
+         [
+          -2.462,
+          -1.715
+         ],
+         [
+          -2.335,
+          -1.883
+         ],
+         [
+          -2.197,
+          -2.043
+         ],
+         [
+          -2.048,
+          -2.192
+         ],
+         [
+          -1.889,
+          -2.331
+         ],
+         [
+          -1.721,
+          -2.457
+         ]
+        ],
+        "open": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         1.721,
+         -2.457
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         -1.721,
+         -2.457
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         0,
+         0,
+         305,
+         595
+        ],
+        "label": "290°",
+        "r": 0.55
+       },
+       {
+        "label": "18 cm",
+        "at": [
+         0.549,
+         -1.561
+        ],
+        "anchor": "end"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q1f",
+     "label": "1f",
+     "section": "Fluency",
+     "stem": "Find the length of each of the following arcs, correct to two decimal places.",
+     "prompt": "Find the arc length. The radius is $0.3$ km.",
+     "type": "numeric",
+     "answer": "1.62",
+     "dp": 2,
+     "units": "km",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "poly": [
+         [
+          1.268,
+          -2.719
+         ],
+         [
+          1.456,
+          -2.623
+         ],
+         [
+          1.636,
+          -2.515
+         ],
+         [
+          1.809,
+          -2.393
+         ],
+         [
+          1.972,
+          -2.261
+         ],
+         [
+          2.126,
+          -2.117
+         ],
+         [
+          2.269,
+          -1.962
+         ],
+         [
+          2.402,
+          -1.798
+         ],
+         [
+          2.522,
+          -1.625
+         ],
+         [
+          2.63,
+          -1.444
+         ],
+         [
+          2.725,
+          -1.256
+         ],
+         [
+          2.806,
+          -1.061
+         ],
+         [
+          2.874,
+          -0.861
+         ],
+         [
+          2.927,
+          -0.658
+         ],
+         [
+          2.966,
+          -0.45
+         ],
+         [
+          2.99,
+          -0.241
+         ],
+         [
+          3,
+          -0.031
+         ],
+         [
+          2.995,
+          0.18
+         ],
+         [
+          2.975,
+          0.39
+         ],
+         [
+          2.94,
+          0.598
+         ],
+         [
+          2.891,
+          0.803
+         ],
+         [
+          2.827,
+          1.004
+         ],
+         [
+          2.75,
+          1.2
+         ],
+         [
+          2.659,
+          1.39
+         ],
+         [
+          2.555,
+          1.573
+         ],
+         [
+          2.438,
+          1.748
+         ],
+         [
+          2.309,
+          1.915
+         ],
+         [
+          2.169,
+          2.073
+         ],
+         [
+          2.018,
+          2.22
+         ],
+         [
+          1.857,
+          2.356
+         ],
+         [
+          1.687,
+          2.481
+         ],
+         [
+          1.509,
+          2.593
+         ],
+         [
+          1.323,
+          2.692
+         ],
+         [
+          1.131,
+          2.779
+         ],
+         [
+          0.933,
+          2.851
+         ],
+         [
+          0.73,
+          2.91
+         ],
+         [
+          0.524,
+          2.954
+         ],
+         [
+          0.316,
+          2.983
+         ],
+         [
+          0.105,
+          2.998
+         ],
+         [
+          -0.105,
+          2.998
+         ],
+         [
+          -0.316,
+          2.983
+         ],
+         [
+          -0.524,
+          2.954
+         ],
+         [
+          -0.73,
+          2.91
+         ],
+         [
+          -0.933,
+          2.851
+         ],
+         [
+          -1.131,
+          2.779
+         ],
+         [
+          -1.323,
+          2.692
+         ],
+         [
+          -1.509,
+          2.593
+         ],
+         [
+          -1.687,
+          2.481
+         ],
+         [
+          -1.857,
+          2.356
+         ],
+         [
+          -2.018,
+          2.22
+         ],
+         [
+          -2.169,
+          2.073
+         ],
+         [
+          -2.309,
+          1.915
+         ],
+         [
+          -2.438,
+          1.748
+         ],
+         [
+          -2.555,
+          1.573
+         ],
+         [
+          -2.659,
+          1.39
+         ],
+         [
+          -2.75,
+          1.2
+         ],
+         [
+          -2.827,
+          1.004
+         ],
+         [
+          -2.891,
+          0.803
+         ],
+         [
+          -2.94,
+          0.598
+         ],
+         [
+          -2.975,
+          0.39
+         ],
+         [
+          -2.995,
+          0.18
+         ],
+         [
+          -3,
+          -0.031
+         ],
+         [
+          -2.99,
+          -0.241
+         ],
+         [
+          -2.966,
+          -0.45
+         ],
+         [
+          -2.927,
+          -0.658
+         ],
+         [
+          -2.874,
+          -0.861
+         ],
+         [
+          -2.806,
+          -1.061
+         ],
+         [
+          -2.725,
+          -1.256
+         ],
+         [
+          -2.63,
+          -1.444
+         ],
+         [
+          -2.522,
+          -1.625
+         ],
+         [
+          -2.402,
+          -1.798
+         ],
+         [
+          -2.269,
+          -1.962
+         ],
+         [
+          -2.126,
+          -2.117
+         ],
+         [
+          -1.972,
+          -2.261
+         ],
+         [
+          -1.809,
+          -2.393
+         ],
+         [
+          -1.636,
+          -2.515
+         ],
+         [
+          -1.456,
+          -2.623
+         ],
+         [
+          -1.268,
+          -2.719
+         ]
+        ],
+        "open": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         1.268,
+         -2.719
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         -1.268,
+         -2.719
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         0,
+         0,
+         295,
+         605
+        ],
+        "label": "310°",
+        "r": 0.55
+       },
+       {
+        "label": "0.3 km",
+        "at": [
+         1.087,
+         -1.148
+        ],
+        "anchor": "start"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2a",
+     "label": "2a",
+     "section": "Fluency",
+     "stem": "Find the perimeter of each of these quadrants, correct to one decimal place.",
+     "prompt": "Find the perimeter of the quadrant.",
+     "type": "numeric",
+     "answer": "17.9",
+     "dp": 1,
+     "units": "cm",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          3,
+          0
+         ],
+         [
+          2.992,
+          0.214
+         ],
+         [
+          2.969,
+          0.427
+         ],
+         [
+          2.931,
+          0.638
+         ],
+         [
+          2.878,
+          0.845
+         ],
+         [
+          2.811,
+          1.048
+         ],
+         [
+          2.729,
+          1.246
+         ],
+         [
+          2.633,
+          1.438
+         ],
+         [
+          2.524,
+          1.622
+         ],
+         [
+          2.402,
+          1.798
+         ],
+         [
+          2.267,
+          1.965
+         ],
+         [
+          2.121,
+          2.121
+         ],
+         [
+          1.965,
+          2.267
+         ],
+         [
+          1.798,
+          2.402
+         ],
+         [
+          1.622,
+          2.524
+         ],
+         [
+          1.438,
+          2.633
+         ],
+         [
+          1.246,
+          2.729
+         ],
+         [
+          1.048,
+          2.811
+         ],
+         [
+          0.845,
+          2.878
+         ],
+         [
+          0.638,
+          2.931
+         ],
+         [
+          0.427,
+          2.969
+         ],
+         [
+          0.214,
+          2.992
+         ],
+         [
+          0,
+          3
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         90
+        ],
+        "right": true
+       },
+       {
+        "label": "5 cm",
+        "at": [
+         1.5,
+         -0.494
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2b",
+     "label": "2b",
+     "section": "Fluency",
+     "stem": "Find the perimeter of each of these quadrants, correct to one decimal place.",
+     "prompt": "Find the perimeter of the quadrant.",
+     "type": "numeric",
+     "answer": "39.3",
+     "dp": 1,
+     "units": "m",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          2.598,
+          1.5
+         ],
+         [
+          2.484,
+          1.682
+         ],
+         [
+          2.358,
+          1.854
+         ],
+         [
+          2.22,
+          2.018
+         ],
+         [
+          2.07,
+          2.171
+         ],
+         [
+          1.91,
+          2.313
+         ],
+         [
+          1.74,
+          2.444
+         ],
+         [
+          1.561,
+          2.562
+         ],
+         [
+          1.375,
+          2.667
+         ],
+         [
+          1.181,
+          2.758
+         ],
+         [
+          0.981,
+          2.835
+         ],
+         [
+          0.776,
+          2.898
+         ],
+         [
+          0.568,
+          2.946
+         ],
+         [
+          0.356,
+          2.979
+         ],
+         [
+          0.143,
+          2.997
+         ],
+         [
+          -0.071,
+          2.999
+         ],
+         [
+          -0.285,
+          2.986
+         ],
+         [
+          -0.497,
+          2.958
+         ],
+         [
+          -0.707,
+          2.915
+         ],
+         [
+          -0.913,
+          2.858
+         ],
+         [
+          -1.115,
+          2.785
+         ],
+         [
+          -1.311,
+          2.698
+         ],
+         [
+          -1.5,
+          2.598
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "angle": [
+         0,
+         0,
+         30,
+         120
+        ],
+        "right": true
+       },
+       {
+        "label": "11 m",
+        "at": [
+         1.489,
+         0.307
+        ],
+        "anchor": "start"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2c",
+     "label": "2c",
+     "section": "Fluency",
+     "stem": "Find the perimeter of each of these quadrants, correct to one decimal place.",
+     "prompt": "Find the perimeter of the quadrant.",
+     "type": "numeric",
+     "answer": "25.0",
+     "dp": 1,
+     "units": "cm",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          0,
+          3
+         ],
+         [
+          -0.214,
+          2.992
+         ],
+         [
+          -0.427,
+          2.969
+         ],
+         [
+          -0.638,
+          2.931
+         ],
+         [
+          -0.845,
+          2.878
+         ],
+         [
+          -1.048,
+          2.811
+         ],
+         [
+          -1.246,
+          2.729
+         ],
+         [
+          -1.438,
+          2.633
+         ],
+         [
+          -1.622,
+          2.524
+         ],
+         [
+          -1.798,
+          2.402
+         ],
+         [
+          -1.965,
+          2.267
+         ],
+         [
+          -2.121,
+          2.121
+         ],
+         [
+          -2.267,
+          1.965
+         ],
+         [
+          -2.402,
+          1.798
+         ],
+         [
+          -2.524,
+          1.622
+         ],
+         [
+          -2.633,
+          1.438
+         ],
+         [
+          -2.729,
+          1.246
+         ],
+         [
+          -2.811,
+          1.048
+         ],
+         [
+          -2.878,
+          0.845
+         ],
+         [
+          -2.931,
+          0.638
+         ],
+         [
+          -2.969,
+          0.427
+         ],
+         [
+          -2.992,
+          0.214
+         ],
+         [
+          -3,
+          0
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "angle": [
+         0,
+         0,
+         90,
+         180
+        ],
+        "right": true
+       },
+       {
+        "label": "7 cm",
+        "at": [
+         0.38,
+         1.5
+        ],
+        "anchor": "start"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2d",
+     "label": "2d",
+     "section": "Fluency",
+     "stem": "Find the perimeter of each of these quadrants, correct to one decimal place.",
+     "prompt": "Find the perimeter of the quadrant.",
+     "type": "numeric",
+     "answer": "12.1",
+     "dp": 1,
+     "units": "m",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          -3,
+          0
+         ],
+         [
+          -2.992,
+          -0.214
+         ],
+         [
+          -2.969,
+          -0.427
+         ],
+         [
+          -2.931,
+          -0.638
+         ],
+         [
+          -2.878,
+          -0.845
+         ],
+         [
+          -2.811,
+          -1.048
+         ],
+         [
+          -2.729,
+          -1.246
+         ],
+         [
+          -2.633,
+          -1.438
+         ],
+         [
+          -2.524,
+          -1.622
+         ],
+         [
+          -2.402,
+          -1.798
+         ],
+         [
+          -2.267,
+          -1.965
+         ],
+         [
+          -2.121,
+          -2.121
+         ],
+         [
+          -1.965,
+          -2.267
+         ],
+         [
+          -1.798,
+          -2.402
+         ],
+         [
+          -1.622,
+          -2.524
+         ],
+         [
+          -1.438,
+          -2.633
+         ],
+         [
+          -1.246,
+          -2.729
+         ],
+         [
+          -1.048,
+          -2.811
+         ],
+         [
+          -0.845,
+          -2.878
+         ],
+         [
+          -0.638,
+          -2.931
+         ],
+         [
+          -0.427,
+          -2.969
+         ],
+         [
+          -0.214,
+          -2.992
+         ],
+         [
+          0,
+          -3
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "angle": [
+         0,
+         0,
+         180,
+         270
+        ],
+        "right": true
+       },
+       {
+        "label": "3.4 m",
+        "at": [
+         -1.5,
+         0.494
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3a",
+     "label": "3a",
+     "section": "Fluency",
+     "stem": "Find the perimeter of these semicircles, correct to one decimal place.",
+     "prompt": "The diameter is $16$ mm. Find the perimeter.",
+     "type": "numeric",
+     "answer": "41.1",
+     "dp": 1,
+     "units": "mm",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "poly": [
+         [
+          2.719,
+          1.268
+         ],
+         [
+          2.624,
+          1.454
+         ],
+         [
+          2.516,
+          1.634
+         ],
+         [
+          2.396,
+          1.805
+         ],
+         [
+          2.264,
+          1.968
+         ],
+         [
+          2.121,
+          2.121
+         ],
+         [
+          1.968,
+          2.264
+         ],
+         [
+          1.805,
+          2.396
+         ],
+         [
+          1.634,
+          2.516
+         ],
+         [
+          1.454,
+          2.624
+         ],
+         [
+          1.268,
+          2.719
+         ],
+         [
+          1.075,
+          2.801
+         ],
+         [
+          0.877,
+          2.869
+         ],
+         [
+          0.675,
+          2.923
+         ],
+         [
+          0.469,
+          2.963
+         ],
+         [
+          0.261,
+          2.989
+         ],
+         [
+          0.052,
+          3
+         ],
+         [
+          -0.157,
+          2.996
+         ],
+         [
+          -0.366,
+          2.978
+         ],
+         [
+          -0.572,
+          2.945
+         ],
+         [
+          -0.776,
+          2.898
+         ],
+         [
+          -0.977,
+          2.837
+         ],
+         [
+          -1.172,
+          2.762
+         ],
+         [
+          -1.362,
+          2.673
+         ],
+         [
+          -1.545,
+          2.572
+         ],
+         [
+          -1.721,
+          2.457
+         ],
+         [
+          -1.888,
+          2.331
+         ],
+         [
+          -2.046,
+          2.194
+         ],
+         [
+          -2.194,
+          2.046
+         ],
+         [
+          -2.331,
+          1.888
+         ],
+         [
+          -2.457,
+          1.721
+         ],
+         [
+          -2.572,
+          1.545
+         ],
+         [
+          -2.673,
+          1.362
+         ],
+         [
+          -2.762,
+          1.172
+         ],
+         [
+          -2.837,
+          0.977
+         ],
+         [
+          -2.898,
+          0.776
+         ],
+         [
+          -2.945,
+          0.572
+         ],
+         [
+          -2.978,
+          0.366
+         ],
+         [
+          -2.996,
+          0.157
+         ],
+         [
+          -3,
+          -0.052
+         ],
+         [
+          -2.989,
+          -0.261
+         ],
+         [
+          -2.963,
+          -0.469
+         ],
+         [
+          -2.923,
+          -0.675
+         ],
+         [
+          -2.869,
+          -0.877
+         ],
+         [
+          -2.801,
+          -1.075
+         ],
+         [
+          -2.719,
+          -1.268
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "point": [
+         0,
+         0
+        ]
+       },
+       {
+        "label": "16 mm",
+        "at": [
+         0.169,
+         -0.483
+        ],
+        "anchor": "start"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3b",
+     "label": "3b",
+     "section": "Fluency",
+     "stem": "Find the perimeter of these semicircles, correct to one decimal place.",
+     "prompt": "The diameter is $22$ km. Find the perimeter.",
+     "type": "numeric",
+     "answer": "56.6",
+     "dp": 1,
+     "units": "km",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "poly": [
+         [
+          2.598,
+          -1.5
+         ],
+         [
+          2.696,
+          -1.315
+         ],
+         [
+          2.782,
+          -1.124
+         ],
+         [
+          2.853,
+          -0.927
+         ],
+         [
+          2.911,
+          -0.726
+         ],
+         [
+          2.954,
+          -0.521
+         ],
+         [
+          2.984,
+          -0.314
+         ],
+         [
+          2.998,
+          -0.105
+         ],
+         [
+          2.998,
+          0.105
+         ],
+         [
+          2.984,
+          0.314
+         ],
+         [
+          2.954,
+          0.521
+         ],
+         [
+          2.911,
+          0.726
+         ],
+         [
+          2.853,
+          0.927
+         ],
+         [
+          2.782,
+          1.124
+         ],
+         [
+          2.696,
+          1.315
+         ],
+         [
+          2.598,
+          1.5
+         ],
+         [
+          2.487,
+          1.678
+         ],
+         [
+          2.364,
+          1.847
+         ],
+         [
+          2.229,
+          2.007
+         ],
+         [
+          2.084,
+          2.158
+         ],
+         [
+          1.928,
+          2.298
+         ],
+         [
+          1.763,
+          2.427
+         ],
+         [
+          1.59,
+          2.544
+         ],
+         [
+          1.408,
+          2.649
+         ],
+         [
+          1.22,
+          2.741
+         ],
+         [
+          1.026,
+          2.819
+         ],
+         [
+          0.827,
+          2.884
+         ],
+         [
+          0.624,
+          2.934
+         ],
+         [
+          0.418,
+          2.971
+         ],
+         [
+          0.209,
+          2.993
+         ],
+         [
+          0,
+          3
+         ],
+         [
+          -0.209,
+          2.993
+         ],
+         [
+          -0.418,
+          2.971
+         ],
+         [
+          -0.624,
+          2.934
+         ],
+         [
+          -0.827,
+          2.884
+         ],
+         [
+          -1.026,
+          2.819
+         ],
+         [
+          -1.22,
+          2.741
+         ],
+         [
+          -1.408,
+          2.649
+         ],
+         [
+          -1.59,
+          2.544
+         ],
+         [
+          -1.763,
+          2.427
+         ],
+         [
+          -1.928,
+          2.298
+         ],
+         [
+          -2.084,
+          2.158
+         ],
+         [
+          -2.229,
+          2.007
+         ],
+         [
+          -2.364,
+          1.847
+         ],
+         [
+          -2.487,
+          1.678
+         ],
+         [
+          -2.598,
+          1.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "point": [
+         0,
+         0
+        ]
+       },
+       {
+        "label": "22 km",
+        "at": [
+         -0.2,
+         -0.466
+        ],
+        "anchor": "end"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3c",
+     "label": "3c",
+     "section": "Fluency",
+     "stem": "Find the perimeter of these semicircles, correct to one decimal place.",
+     "prompt": "The diameter is $13$ mm. Find the perimeter.",
+     "type": "numeric",
+     "answer": "33.4",
+     "dp": 1,
+     "units": "mm",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "poly": [
+         [
+          3,
+          0
+         ],
+         [
+          2.993,
+          0.209
+         ],
+         [
+          2.971,
+          0.418
+         ],
+         [
+          2.934,
+          0.624
+         ],
+         [
+          2.884,
+          0.827
+         ],
+         [
+          2.819,
+          1.026
+         ],
+         [
+          2.741,
+          1.22
+         ],
+         [
+          2.649,
+          1.408
+         ],
+         [
+          2.544,
+          1.59
+         ],
+         [
+          2.427,
+          1.763
+         ],
+         [
+          2.298,
+          1.928
+         ],
+         [
+          2.158,
+          2.084
+         ],
+         [
+          2.007,
+          2.229
+         ],
+         [
+          1.847,
+          2.364
+         ],
+         [
+          1.678,
+          2.487
+         ],
+         [
+          1.5,
+          2.598
+         ],
+         [
+          1.315,
+          2.696
+         ],
+         [
+          1.124,
+          2.782
+         ],
+         [
+          0.927,
+          2.853
+         ],
+         [
+          0.726,
+          2.911
+         ],
+         [
+          0.521,
+          2.954
+         ],
+         [
+          0.314,
+          2.984
+         ],
+         [
+          0.105,
+          2.998
+         ],
+         [
+          -0.105,
+          2.998
+         ],
+         [
+          -0.314,
+          2.984
+         ],
+         [
+          -0.521,
+          2.954
+         ],
+         [
+          -0.726,
+          2.911
+         ],
+         [
+          -0.927,
+          2.853
+         ],
+         [
+          -1.124,
+          2.782
+         ],
+         [
+          -1.315,
+          2.696
+         ],
+         [
+          -1.5,
+          2.598
+         ],
+         [
+          -1.678,
+          2.487
+         ],
+         [
+          -1.847,
+          2.364
+         ],
+         [
+          -2.007,
+          2.229
+         ],
+         [
+          -2.158,
+          2.084
+         ],
+         [
+          -2.298,
+          1.928
+         ],
+         [
+          -2.427,
+          1.763
+         ],
+         [
+          -2.544,
+          1.59
+         ],
+         [
+          -2.649,
+          1.408
+         ],
+         [
+          -2.741,
+          1.22
+         ],
+         [
+          -2.819,
+          1.026
+         ],
+         [
+          -2.884,
+          0.827
+         ],
+         [
+          -2.934,
+          0.624
+         ],
+         [
+          -2.971,
+          0.418
+         ],
+         [
+          -2.993,
+          0.209
+         ],
+         [
+          -3,
+          0
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "point": [
+         0,
+         0
+        ]
+       },
+       {
+        "label": "13 mm",
+        "at": [
+         0,
+         -0.52
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3d",
+     "label": "3d",
+     "section": "Fluency",
+     "stem": "Find the perimeter of these semicircles, correct to one decimal place.",
+     "prompt": "The diameter is $5.8$ m. Find the perimeter.",
+     "type": "numeric",
+     "answer": "14.9",
+     "dp": 1,
+     "units": "m",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          -3
+         ],
+         [
+          0.209,
+          -2.993
+         ],
+         [
+          0.418,
+          -2.971
+         ],
+         [
+          0.624,
+          -2.934
+         ],
+         [
+          0.827,
+          -2.884
+         ],
+         [
+          1.026,
+          -2.819
+         ],
+         [
+          1.22,
+          -2.741
+         ],
+         [
+          1.408,
+          -2.649
+         ],
+         [
+          1.59,
+          -2.544
+         ],
+         [
+          1.763,
+          -2.427
+         ],
+         [
+          1.928,
+          -2.298
+         ],
+         [
+          2.084,
+          -2.158
+         ],
+         [
+          2.229,
+          -2.007
+         ],
+         [
+          2.364,
+          -1.847
+         ],
+         [
+          2.487,
+          -1.678
+         ],
+         [
+          2.598,
+          -1.5
+         ],
+         [
+          2.696,
+          -1.315
+         ],
+         [
+          2.782,
+          -1.124
+         ],
+         [
+          2.853,
+          -0.927
+         ],
+         [
+          2.911,
+          -0.726
+         ],
+         [
+          2.954,
+          -0.521
+         ],
+         [
+          2.984,
+          -0.314
+         ],
+         [
+          2.998,
+          -0.105
+         ],
+         [
+          2.998,
+          0.105
+         ],
+         [
+          2.984,
+          0.314
+         ],
+         [
+          2.954,
+          0.521
+         ],
+         [
+          2.911,
+          0.726
+         ],
+         [
+          2.853,
+          0.927
+         ],
+         [
+          2.782,
+          1.124
+         ],
+         [
+          2.696,
+          1.315
+         ],
+         [
+          2.598,
+          1.5
+         ],
+         [
+          2.487,
+          1.678
+         ],
+         [
+          2.364,
+          1.847
+         ],
+         [
+          2.229,
+          2.007
+         ],
+         [
+          2.084,
+          2.158
+         ],
+         [
+          1.928,
+          2.298
+         ],
+         [
+          1.763,
+          2.427
+         ],
+         [
+          1.59,
+          2.544
+         ],
+         [
+          1.408,
+          2.649
+         ],
+         [
+          1.22,
+          2.741
+         ],
+         [
+          1.026,
+          2.819
+         ],
+         [
+          0.827,
+          2.884
+         ],
+         [
+          0.624,
+          2.934
+         ],
+         [
+          0.418,
+          2.971
+         ],
+         [
+          0.209,
+          2.993
+         ],
+         [
+          0,
+          3
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "point": [
+         0,
+         0
+        ]
+       },
+       {
+        "label": "5.8 m",
+        "at": [
+         -0.4,
+         0
+        ],
+        "anchor": "end"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4a",
+     "label": "4a",
+     "section": "Fluency",
+     "stem": "Find the perimeter of these sectors, correct to one decimal place. Include the two radii in each case.",
+     "prompt": "Find the perimeter. The radius is $3.7$ m.",
+     "type": "numeric",
+     "answer": "10.6",
+     "dp": 1,
+     "units": "m",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          1.5,
+          2.598
+         ],
+         [
+          1.307,
+          2.7
+         ],
+         [
+          1.108,
+          2.788
+         ],
+         [
+          0.902,
+          2.861
+         ],
+         [
+          0.692,
+          2.919
+         ],
+         [
+          0.478,
+          2.962
+         ],
+         [
+          0.261,
+          2.989
+         ],
+         [
+          0.044,
+          3
+         ],
+         [
+          -0.174,
+          2.995
+         ],
+         [
+          -0.392,
+          2.974
+         ],
+         [
+          -0.607,
+          2.938
+         ],
+         [
+          -0.819,
+          2.886
+         ],
+         [
+          -1.026,
+          2.819
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "angle": [
+         0,
+         0,
+         60,
+         110
+        ],
+        "label": "50°",
+        "r": 0.9
+       },
+       {
+        "label": "3.7 m",
+        "at": [
+         1.079,
+         0.995
+        ],
+        "anchor": "start"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4b",
+     "label": "4b",
+     "section": "Fluency",
+     "stem": "Find the perimeter of these sectors, correct to one decimal place. Include the two radii in each case.",
+     "prompt": "Find the perimeter. The radius is $4.5$ cm.",
+     "type": "numeric",
+     "answer": "18.8",
+     "dp": 1,
+     "units": "cm",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          3,
+          0
+         ],
+         [
+          2.993,
+          0.211
+         ],
+         [
+          2.97,
+          0.421
+         ],
+         [
+          2.933,
+          0.629
+         ],
+         [
+          2.882,
+          0.833
+         ],
+         [
+          2.816,
+          1.034
+         ],
+         [
+          2.736,
+          1.229
+         ],
+         [
+          2.643,
+          1.419
+         ],
+         [
+          2.537,
+          1.601
+         ],
+         [
+          2.418,
+          1.776
+         ],
+         [
+          2.287,
+          1.941
+         ],
+         [
+          2.145,
+          2.097
+         ],
+         [
+          1.992,
+          2.243
+         ],
+         [
+          1.83,
+          2.377
+         ],
+         [
+          1.658,
+          2.5
+         ],
+         [
+          1.478,
+          2.611
+         ],
+         [
+          1.291,
+          2.708
+         ],
+         [
+          1.097,
+          2.792
+         ],
+         [
+          0.898,
+          2.862
+         ],
+         [
+          0.695,
+          2.918
+         ],
+         [
+          0.488,
+          2.96
+         ],
+         [
+          0.278,
+          2.987
+         ],
+         [
+          0.068,
+          2.999
+         ],
+         [
+          -0.144,
+          2.997
+         ],
+         [
+          -0.354,
+          2.979
+         ],
+         [
+          -0.562,
+          2.947
+         ],
+         [
+          -0.768,
+          2.9
+         ],
+         [
+          -0.97,
+          2.839
+         ],
+         [
+          -1.168,
+          2.763
+         ],
+         [
+          -1.359,
+          2.675
+         ],
+         [
+          -1.544,
+          2.572
+         ],
+         [
+          -1.721,
+          2.457
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         125
+        ],
+        "label": "125°",
+        "r": 0.55
+       },
+       {
+        "label": "4.5 cm",
+        "at": [
+         1.5,
+         -0.494
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4c",
+     "label": "4c",
+     "section": "Fluency",
+     "stem": "Find the perimeter of these sectors, correct to one decimal place. Include the two radii in each case.",
+     "prompt": "Find the perimeter. The radius is $5$ cm.",
+     "type": "numeric",
+     "answer": "34.4",
+     "dp": 1,
+     "units": "cm",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          1.928,
+          -2.298
+         ],
+         [
+          2.084,
+          -2.158
+         ],
+         [
+          2.229,
+          -2.007
+         ],
+         [
+          2.364,
+          -1.847
+         ],
+         [
+          2.487,
+          -1.678
+         ],
+         [
+          2.598,
+          -1.5
+         ],
+         [
+          2.696,
+          -1.315
+         ],
+         [
+          2.782,
+          -1.124
+         ],
+         [
+          2.853,
+          -0.927
+         ],
+         [
+          2.911,
+          -0.726
+         ],
+         [
+          2.954,
+          -0.521
+         ],
+         [
+          2.984,
+          -0.314
+         ],
+         [
+          2.998,
+          -0.105
+         ],
+         [
+          2.998,
+          0.105
+         ],
+         [
+          2.984,
+          0.314
+         ],
+         [
+          2.954,
+          0.521
+         ],
+         [
+          2.911,
+          0.726
+         ],
+         [
+          2.853,
+          0.927
+         ],
+         [
+          2.782,
+          1.124
+         ],
+         [
+          2.696,
+          1.315
+         ],
+         [
+          2.598,
+          1.5
+         ],
+         [
+          2.487,
+          1.678
+         ],
+         [
+          2.364,
+          1.847
+         ],
+         [
+          2.229,
+          2.007
+         ],
+         [
+          2.084,
+          2.158
+         ],
+         [
+          1.928,
+          2.298
+         ],
+         [
+          1.763,
+          2.427
+         ],
+         [
+          1.59,
+          2.544
+         ],
+         [
+          1.408,
+          2.649
+         ],
+         [
+          1.22,
+          2.741
+         ],
+         [
+          1.026,
+          2.819
+         ],
+         [
+          0.827,
+          2.884
+         ],
+         [
+          0.624,
+          2.934
+         ],
+         [
+          0.418,
+          2.971
+         ],
+         [
+          0.209,
+          2.993
+         ],
+         [
+          0,
+          3
+         ],
+         [
+          -0.209,
+          2.993
+         ],
+         [
+          -0.418,
+          2.971
+         ],
+         [
+          -0.624,
+          2.934
+         ],
+         [
+          -0.827,
+          2.884
+         ],
+         [
+          -1.026,
+          2.819
+         ],
+         [
+          -1.22,
+          2.741
+         ],
+         [
+          -1.408,
+          2.649
+         ],
+         [
+          -1.59,
+          2.544
+         ],
+         [
+          -1.763,
+          2.427
+         ],
+         [
+          -1.928,
+          2.298
+         ],
+         [
+          -2.084,
+          2.158
+         ],
+         [
+          -2.229,
+          2.007
+         ],
+         [
+          -2.364,
+          1.847
+         ],
+         [
+          -2.487,
+          1.678
+         ],
+         [
+          -2.598,
+          1.5
+         ],
+         [
+          -2.696,
+          1.315
+         ],
+         [
+          -2.782,
+          1.124
+         ],
+         [
+          -2.853,
+          0.927
+         ],
+         [
+          -2.911,
+          0.726
+         ],
+         [
+          -2.954,
+          0.521
+         ],
+         [
+          -2.984,
+          0.314
+         ],
+         [
+          -2.998,
+          0.105
+         ],
+         [
+          -2.998,
+          -0.105
+         ],
+         [
+          -2.984,
+          -0.314
+         ],
+         [
+          -2.954,
+          -0.521
+         ],
+         [
+          -2.911,
+          -0.726
+         ],
+         [
+          -2.853,
+          -0.927
+         ],
+         [
+          -2.782,
+          -1.124
+         ],
+         [
+          -2.696,
+          -1.315
+         ],
+         [
+          -2.598,
+          -1.5
+         ],
+         [
+          -2.487,
+          -1.678
+         ],
+         [
+          -2.364,
+          -1.847
+         ],
+         [
+          -2.229,
+          -2.007
+         ],
+         [
+          -2.084,
+          -2.158
+         ],
+         [
+          -1.928,
+          -2.298
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "angle": [
+         0,
+         0,
+         310,
+         590
+        ],
+        "label": "280°",
+        "r": 0.55
+       },
+       {
+        "label": "5 cm",
+        "at": [
+         0.673,
+         -1.507
+        ],
+        "anchor": "end"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4d",
+     "label": "4d",
+     "section": "Fluency",
+     "stem": "Find the perimeter of these sectors, correct to one decimal place. Include the two radii in each case.",
+     "prompt": "Find the perimeter. The radius is $8$ m.",
+     "type": "numeric",
+     "answer": "49.5",
+     "dp": 1,
+     "units": "m",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          1.5,
+          -2.598
+         ],
+         [
+          1.678,
+          -2.487
+         ],
+         [
+          1.847,
+          -2.364
+         ],
+         [
+          2.007,
+          -2.229
+         ],
+         [
+          2.158,
+          -2.084
+         ],
+         [
+          2.298,
+          -1.928
+         ],
+         [
+          2.427,
+          -1.763
+         ],
+         [
+          2.544,
+          -1.59
+         ],
+         [
+          2.649,
+          -1.408
+         ],
+         [
+          2.741,
+          -1.22
+         ],
+         [
+          2.819,
+          -1.026
+         ],
+         [
+          2.884,
+          -0.827
+         ],
+         [
+          2.934,
+          -0.624
+         ],
+         [
+          2.971,
+          -0.418
+         ],
+         [
+          2.993,
+          -0.209
+         ],
+         [
+          3,
+          0
+         ],
+         [
+          2.993,
+          0.209
+         ],
+         [
+          2.971,
+          0.418
+         ],
+         [
+          2.934,
+          0.624
+         ],
+         [
+          2.884,
+          0.827
+         ],
+         [
+          2.819,
+          1.026
+         ],
+         [
+          2.741,
+          1.22
+         ],
+         [
+          2.649,
+          1.408
+         ],
+         [
+          2.544,
+          1.59
+         ],
+         [
+          2.427,
+          1.763
+         ],
+         [
+          2.298,
+          1.928
+         ],
+         [
+          2.158,
+          2.084
+         ],
+         [
+          2.007,
+          2.229
+         ],
+         [
+          1.847,
+          2.364
+         ],
+         [
+          1.678,
+          2.487
+         ],
+         [
+          1.5,
+          2.598
+         ],
+         [
+          1.315,
+          2.696
+         ],
+         [
+          1.124,
+          2.782
+         ],
+         [
+          0.927,
+          2.853
+         ],
+         [
+          0.726,
+          2.911
+         ],
+         [
+          0.521,
+          2.954
+         ],
+         [
+          0.314,
+          2.984
+         ],
+         [
+          0.105,
+          2.998
+         ],
+         [
+          -0.105,
+          2.998
+         ],
+         [
+          -0.314,
+          2.984
+         ],
+         [
+          -0.521,
+          2.954
+         ],
+         [
+          -0.726,
+          2.911
+         ],
+         [
+          -0.927,
+          2.853
+         ],
+         [
+          -1.124,
+          2.782
+         ],
+         [
+          -1.315,
+          2.696
+         ],
+         [
+          -1.5,
+          2.598
+         ],
+         [
+          -1.678,
+          2.487
+         ],
+         [
+          -1.847,
+          2.364
+         ],
+         [
+          -2.007,
+          2.229
+         ],
+         [
+          -2.158,
+          2.084
+         ],
+         [
+          -2.298,
+          1.928
+         ],
+         [
+          -2.427,
+          1.763
+         ],
+         [
+          -2.544,
+          1.59
+         ],
+         [
+          -2.649,
+          1.408
+         ],
+         [
+          -2.741,
+          1.22
+         ],
+         [
+          -2.819,
+          1.026
+         ],
+         [
+          -2.884,
+          0.827
+         ],
+         [
+          -2.934,
+          0.624
+         ],
+         [
+          -2.971,
+          0.418
+         ],
+         [
+          -2.993,
+          0.209
+         ],
+         [
+          -3,
+          0
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "angle": [
+         0,
+         0,
+         300,
+         540
+        ],
+        "label": "240°",
+        "r": 0.55
+       },
+       {
+        "label": "8 m",
+        "at": [
+         0.421,
+         -1.603
+        ],
+        "anchor": "end"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q5a",
+     "label": "5a",
+     "section": "Problem-solving",
+     "stem": "Find the perimeter of each of these composite shapes, correct to one decimal place.",
+     "prompt": "Find the perimeter.",
+     "type": "numeric",
+     "answer": "18.9",
+     "dp": 1,
+     "units": "m",
+     "figure": {
+      "kind": "diagram",
+      "unit": 34.67,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          5,
+          0
+         ],
+         [
+          5.044,
+          0
+         ],
+         [
+          5.087,
+          0.002
+         ],
+         [
+          5.131,
+          0.003
+         ],
+         [
+          5.174,
+          0.006
+         ],
+         [
+          5.218,
+          0.01
+         ],
+         [
+          5.261,
+          0.014
+         ],
+         [
+          5.305,
+          0.019
+         ],
+         [
+          5.348,
+          0.024
+         ],
+         [
+          5.391,
+          0.031
+         ],
+         [
+          5.434,
+          0.038
+         ],
+         [
+          5.477,
+          0.046
+         ],
+         [
+          5.52,
+          0.055
+         ],
+         [
+          5.562,
+          0.064
+         ],
+         [
+          5.605,
+          0.074
+         ],
+         [
+          5.647,
+          0.085
+         ],
+         [
+          5.689,
+          0.097
+         ],
+         [
+          5.731,
+          0.109
+         ],
+         [
+          5.773,
+          0.122
+         ],
+         [
+          5.814,
+          0.136
+         ],
+         [
+          5.855,
+          0.151
+         ],
+         [
+          5.896,
+          0.166
+         ],
+         [
+          5.937,
+          0.182
+         ],
+         [
+          5.977,
+          0.199
+         ],
+         [
+          6.017,
+          0.216
+         ],
+         [
+          6.057,
+          0.234
+         ],
+         [
+          6.096,
+          0.253
+         ],
+         [
+          6.135,
+          0.272
+         ],
+         [
+          6.174,
+          0.293
+         ],
+         [
+          6.212,
+          0.313
+         ],
+         [
+          6.25,
+          0.335
+         ],
+         [
+          6.288,
+          0.357
+         ],
+         [
+          6.325,
+          0.38
+         ],
+         [
+          6.362,
+          0.403
+         ],
+         [
+          6.398,
+          0.427
+         ],
+         [
+          6.434,
+          0.452
+         ],
+         [
+          6.469,
+          0.477
+         ],
+         [
+          6.505,
+          0.503
+         ],
+         [
+          6.539,
+          0.53
+         ],
+         [
+          6.573,
+          0.557
+         ],
+         [
+          6.607,
+          0.585
+         ],
+         [
+          6.64,
+          0.613
+         ],
+         [
+          6.673,
+          0.642
+         ],
+         [
+          6.705,
+          0.672
+         ],
+         [
+          6.737,
+          0.702
+         ],
+         [
+          6.768,
+          0.732
+         ],
+         [
+          6.798,
+          0.763
+         ],
+         [
+          6.828,
+          0.795
+         ],
+         [
+          6.858,
+          0.827
+         ],
+         [
+          6.887,
+          0.86
+         ],
+         [
+          6.915,
+          0.893
+         ],
+         [
+          6.943,
+          0.927
+         ],
+         [
+          6.97,
+          0.961
+         ],
+         [
+          6.997,
+          0.995
+         ],
+         [
+          7.023,
+          1.031
+         ],
+         [
+          7.048,
+          1.066
+         ],
+         [
+          7.073,
+          1.102
+         ],
+         [
+          7.097,
+          1.138
+         ],
+         [
+          7.12,
+          1.175
+         ],
+         [
+          7.143,
+          1.212
+         ],
+         [
+          7.165,
+          1.25
+         ],
+         [
+          7.187,
+          1.288
+         ],
+         [
+          7.207,
+          1.326
+         ],
+         [
+          7.228,
+          1.365
+         ],
+         [
+          7.247,
+          1.404
+         ],
+         [
+          7.266,
+          1.443
+         ],
+         [
+          7.284,
+          1.483
+         ],
+         [
+          7.301,
+          1.523
+         ],
+         [
+          7.318,
+          1.563
+         ],
+         [
+          7.334,
+          1.604
+         ],
+         [
+          7.349,
+          1.645
+         ],
+         [
+          7.364,
+          1.686
+         ],
+         [
+          7.378,
+          1.727
+         ],
+         [
+          7.391,
+          1.769
+         ],
+         [
+          7.403,
+          1.811
+         ],
+         [
+          7.415,
+          1.853
+         ],
+         [
+          7.426,
+          1.895
+         ],
+         [
+          7.436,
+          1.938
+         ],
+         [
+          7.445,
+          1.98
+         ],
+         [
+          7.454,
+          2.023
+         ],
+         [
+          7.462,
+          2.066
+         ],
+         [
+          7.469,
+          2.109
+         ],
+         [
+          7.476,
+          2.152
+         ],
+         [
+          7.481,
+          2.195
+         ],
+         [
+          7.486,
+          2.239
+         ],
+         [
+          7.49,
+          2.282
+         ],
+         [
+          7.494,
+          2.326
+         ],
+         [
+          7.497,
+          2.369
+         ],
+         [
+          7.498,
+          2.413
+         ],
+         [
+          7.5,
+          2.456
+         ],
+         [
+          7.5,
+          2.5
+         ],
+         [
+          0,
+          2.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         5,
+         0,
+         5,
+         2.5
+        ],
+        "dash": true
+       },
+       {
+        "tick": [
+         0,
+         2.5,
+         0,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         5,
+         2.5,
+         7.5,
+         2.5
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         5,
+         0,
+         5,
+         2.5
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         0,
+         0,
+         5,
+         0
+        ],
+        "n": 2
+       },
+       {
+        "tick": [
+         0,
+         2.5,
+         5,
+         2.5
+        ],
+        "n": 2
+       },
+       {
+        "label": "2.5 m",
+        "at": [
+         -0.35,
+         1.25
+        ],
+        "anchor": "end"
+       },
+       {
+        "label": "5 m",
+        "at": [
+         2.5,
+         -0.455
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q5b",
+     "label": "5b",
+     "section": "Problem-solving",
+     "stem": "Find the perimeter of each of these composite shapes, correct to one decimal place.",
+     "prompt": "Find the perimeter. The top part is a square.",
+     "type": "numeric",
+     "answer": "16.7",
+     "dp": 1,
+     "units": "cm",
+     "figure": {
+      "kind": "diagram",
+      "unit": 31.67,
+      "items": [
+       {
+        "poly": [
+         [
+          3,
+          0
+         ],
+         [
+          3,
+          6
+         ],
+         [
+          0,
+          6
+         ],
+         [
+          0,
+          3
+         ],
+         [
+          0,
+          2.948
+         ],
+         [
+          0.002,
+          2.895
+         ],
+         [
+          0.004,
+          2.843
+         ],
+         [
+          0.007,
+          2.791
+         ],
+         [
+          0.011,
+          2.739
+         ],
+         [
+          0.016,
+          2.686
+         ],
+         [
+          0.022,
+          2.634
+         ],
+         [
+          0.029,
+          2.582
+         ],
+         [
+          0.037,
+          2.531
+         ],
+         [
+          0.046,
+          2.479
+         ],
+         [
+          0.055,
+          2.428
+         ],
+         [
+          0.066,
+          2.376
+         ],
+         [
+          0.077,
+          2.325
+         ],
+         [
+          0.089,
+          2.274
+         ],
+         [
+          0.102,
+          2.224
+         ],
+         [
+          0.116,
+          2.173
+         ],
+         [
+          0.131,
+          2.123
+         ],
+         [
+          0.147,
+          2.073
+         ],
+         [
+          0.163,
+          2.023
+         ],
+         [
+          0.181,
+          1.974
+         ],
+         [
+          0.199,
+          1.925
+         ],
+         [
+          0.218,
+          1.876
+         ],
+         [
+          0.238,
+          1.828
+         ],
+         [
+          0.259,
+          1.78
+         ],
+         [
+          0.281,
+          1.732
+         ],
+         [
+          0.304,
+          1.685
+         ],
+         [
+          0.327,
+          1.638
+         ],
+         [
+          0.351,
+          1.592
+         ],
+         [
+          0.376,
+          1.546
+         ],
+         [
+          0.402,
+          1.5
+         ],
+         [
+          0.428,
+          1.455
+         ],
+         [
+          0.456,
+          1.41
+         ],
+         [
+          0.484,
+          1.366
+         ],
+         [
+          0.513,
+          1.322
+         ],
+         [
+          0.543,
+          1.279
+         ],
+         [
+          0.573,
+          1.237
+         ],
+         [
+          0.604,
+          1.195
+         ],
+         [
+          0.636,
+          1.153
+         ],
+         [
+          0.669,
+          1.112
+         ],
+         [
+          0.702,
+          1.072
+         ],
+         [
+          0.736,
+          1.032
+         ],
+         [
+          0.771,
+          0.993
+         ],
+         [
+          0.806,
+          0.954
+         ],
+         [
+          0.842,
+          0.916
+         ],
+         [
+          0.879,
+          0.879
+         ],
+         [
+          0.916,
+          0.842
+         ],
+         [
+          0.954,
+          0.806
+         ],
+         [
+          0.993,
+          0.771
+         ],
+         [
+          1.032,
+          0.736
+         ],
+         [
+          1.072,
+          0.702
+         ],
+         [
+          1.112,
+          0.669
+         ],
+         [
+          1.153,
+          0.636
+         ],
+         [
+          1.195,
+          0.604
+         ],
+         [
+          1.237,
+          0.573
+         ],
+         [
+          1.279,
+          0.543
+         ],
+         [
+          1.322,
+          0.513
+         ],
+         [
+          1.366,
+          0.484
+         ],
+         [
+          1.41,
+          0.456
+         ],
+         [
+          1.455,
+          0.428
+         ],
+         [
+          1.5,
+          0.402
+         ],
+         [
+          1.546,
+          0.376
+         ],
+         [
+          1.592,
+          0.351
+         ],
+         [
+          1.638,
+          0.327
+         ],
+         [
+          1.685,
+          0.304
+         ],
+         [
+          1.732,
+          0.281
+         ],
+         [
+          1.78,
+          0.259
+         ],
+         [
+          1.828,
+          0.238
+         ],
+         [
+          1.876,
+          0.218
+         ],
+         [
+          1.925,
+          0.199
+         ],
+         [
+          1.974,
+          0.181
+         ],
+         [
+          2.023,
+          0.163
+         ],
+         [
+          2.073,
+          0.147
+         ],
+         [
+          2.123,
+          0.131
+         ],
+         [
+          2.173,
+          0.116
+         ],
+         [
+          2.224,
+          0.102
+         ],
+         [
+          2.274,
+          0.089
+         ],
+         [
+          2.325,
+          0.077
+         ],
+         [
+          2.376,
+          0.066
+         ],
+         [
+          2.428,
+          0.055
+         ],
+         [
+          2.479,
+          0.046
+         ],
+         [
+          2.531,
+          0.037
+         ],
+         [
+          2.582,
+          0.029
+         ],
+         [
+          2.634,
+          0.022
+         ],
+         [
+          2.686,
+          0.016
+         ],
+         [
+          2.739,
+          0.011
+         ],
+         [
+          2.791,
+          0.007
+         ],
+         [
+          2.843,
+          0.004
+         ],
+         [
+          2.895,
+          0.002
+         ],
+         [
+          2.948,
+          0
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0,
+         3,
+         3,
+         3
+        ],
+        "dash": true
+       },
+       {
+        "tick": [
+         3,
+         6,
+         0,
+         6
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         0,
+         6,
+         0,
+         3
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         3,
+         3,
+         3,
+         6
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         3,
+         0,
+         3,
+         3
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         0,
+         3,
+         3,
+         3
+        ],
+        "n": 1
+       },
+       {
+        "label": "3 cm",
+        "at": [
+         1.5,
+         6.496
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q5c",
+     "label": "5c",
+     "section": "Problem-solving",
+     "stem": "Find the perimeter of each of these composite shapes, correct to one decimal place.",
+     "prompt": "Find the perimeter.",
+     "type": "numeric",
+     "answer": "91.7",
+     "dp": 1,
+     "units": "cm",
+     "figure": {
+      "kind": "diagram",
+      "unit": 7.92,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          15,
+          0
+         ],
+         [
+          15.419,
+          0.007
+         ],
+         [
+          15.837,
+          0.029
+         ],
+         [
+          16.254,
+          0.066
+         ],
+         [
+          16.67,
+          0.117
+         ],
+         [
+          17.084,
+          0.182
+         ],
+         [
+          17.495,
+          0.262
+         ],
+         [
+          17.903,
+          0.356
+         ],
+         [
+          18.308,
+          0.465
+         ],
+         [
+          18.708,
+          0.587
+         ],
+         [
+          19.104,
+          0.724
+         ],
+         [
+          19.495,
+          0.874
+         ],
+         [
+          19.881,
+          1.037
+         ],
+         [
+          20.26,
+          1.214
+         ],
+         [
+          20.634,
+          1.405
+         ],
+         [
+          21,
+          1.608
+         ],
+         [
+          21.359,
+          1.823
+         ],
+         [
+          21.71,
+          2.052
+         ],
+         [
+          22.053,
+          2.292
+         ],
+         [
+          22.388,
+          2.544
+         ],
+         [
+          22.713,
+          2.807
+         ],
+         [
+          23.03,
+          3.082
+         ],
+         [
+          23.336,
+          3.368
+         ],
+         [
+          23.632,
+          3.664
+         ],
+         [
+          23.918,
+          3.97
+         ],
+         [
+          24.193,
+          4.287
+         ],
+         [
+          24.456,
+          4.612
+         ],
+         [
+          24.708,
+          4.947
+         ],
+         [
+          24.948,
+          5.29
+         ],
+         [
+          25.177,
+          5.641
+         ],
+         [
+          25.392,
+          6
+         ],
+         [
+          25.595,
+          6.366
+         ],
+         [
+          25.786,
+          6.74
+         ],
+         [
+          25.963,
+          7.119
+         ],
+         [
+          26.126,
+          7.505
+         ],
+         [
+          26.276,
+          7.896
+         ],
+         [
+          26.413,
+          8.292
+         ],
+         [
+          26.535,
+          8.692
+         ],
+         [
+          26.644,
+          9.097
+         ],
+         [
+          26.738,
+          9.505
+         ],
+         [
+          26.818,
+          9.916
+         ],
+         [
+          26.883,
+          10.33
+         ],
+         [
+          26.934,
+          10.746
+         ],
+         [
+          26.971,
+          11.163
+         ],
+         [
+          26.993,
+          11.581
+         ],
+         [
+          27,
+          12
+         ],
+         [
+          26.993,
+          12.419
+         ],
+         [
+          26.971,
+          12.837
+         ],
+         [
+          26.934,
+          13.254
+         ],
+         [
+          26.883,
+          13.67
+         ],
+         [
+          26.818,
+          14.084
+         ],
+         [
+          26.738,
+          14.495
+         ],
+         [
+          26.644,
+          14.903
+         ],
+         [
+          26.535,
+          15.308
+         ],
+         [
+          26.413,
+          15.708
+         ],
+         [
+          26.276,
+          16.104
+         ],
+         [
+          26.126,
+          16.495
+         ],
+         [
+          25.963,
+          16.881
+         ],
+         [
+          25.786,
+          17.26
+         ],
+         [
+          25.595,
+          17.634
+         ],
+         [
+          25.392,
+          18
+         ],
+         [
+          25.177,
+          18.359
+         ],
+         [
+          24.948,
+          18.71
+         ],
+         [
+          24.708,
+          19.053
+         ],
+         [
+          24.456,
+          19.388
+         ],
+         [
+          24.193,
+          19.713
+         ],
+         [
+          23.918,
+          20.03
+         ],
+         [
+          23.632,
+          20.336
+         ],
+         [
+          23.336,
+          20.632
+         ],
+         [
+          23.03,
+          20.918
+         ],
+         [
+          22.713,
+          21.193
+         ],
+         [
+          22.388,
+          21.456
+         ],
+         [
+          22.053,
+          21.708
+         ],
+         [
+          21.71,
+          21.948
+         ],
+         [
+          21.359,
+          22.177
+         ],
+         [
+          21,
+          22.392
+         ],
+         [
+          20.634,
+          22.595
+         ],
+         [
+          20.26,
+          22.786
+         ],
+         [
+          19.881,
+          22.963
+         ],
+         [
+          19.495,
+          23.126
+         ],
+         [
+          19.104,
+          23.276
+         ],
+         [
+          18.708,
+          23.413
+         ],
+         [
+          18.308,
+          23.535
+         ],
+         [
+          17.903,
+          23.644
+         ],
+         [
+          17.495,
+          23.738
+         ],
+         [
+          17.084,
+          23.818
+         ],
+         [
+          16.67,
+          23.883
+         ],
+         [
+          16.254,
+          23.934
+         ],
+         [
+          15.837,
+          23.971
+         ],
+         [
+          15.419,
+          23.993
+         ],
+         [
+          15,
+          24
+         ],
+         [
+          0,
+          24
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         15,
+         0,
+         15,
+         24
+        ],
+        "dash": true
+       },
+       {
+        "tick": [
+         0,
+         0,
+         15,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         15,
+         24,
+         0,
+         24
+        ],
+        "n": 1
+       },
+       {
+        "label": "24 cm",
+        "at": [
+         -1.527,
+         12
+        ],
+        "anchor": "end"
+       },
+       {
+        "label": "15 cm",
+        "at": [
+         7.5,
+         -1.985
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q5d",
+     "label": "5d",
+     "section": "Problem-solving",
+     "stem": "Find the perimeter of each of these composite shapes, correct to one decimal place.",
+     "prompt": "Find the perimeter.",
+     "type": "numeric",
+     "answer": "28.9",
+     "dp": 1,
+     "units": "km",
+     "figure": {
+      "kind": "diagram",
+      "unit": 24.76,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          8,
+          0
+         ],
+         [
+          8,
+          5
+         ],
+         [
+          0,
+          5
+         ],
+         [
+          -0.087,
+          4.998
+         ],
+         [
+          -0.174,
+          4.994
+         ],
+         [
+          -0.261,
+          4.986
+         ],
+         [
+          -0.348,
+          4.976
+         ],
+         [
+          -0.434,
+          4.962
+         ],
+         [
+          -0.52,
+          4.945
+         ],
+         [
+          -0.605,
+          4.926
+         ],
+         [
+          -0.689,
+          4.903
+         ],
+         [
+          -0.773,
+          4.878
+         ],
+         [
+          -0.855,
+          4.849
+         ],
+         [
+          -0.937,
+          4.818
+         ],
+         [
+          -1.017,
+          4.784
+         ],
+         [
+          -1.096,
+          4.747
+         ],
+         [
+          -1.174,
+          4.707
+         ],
+         [
+          -1.25,
+          4.665
+         ],
+         [
+          -1.325,
+          4.62
+         ],
+         [
+          -1.398,
+          4.573
+         ],
+         [
+          -1.469,
+          4.523
+         ],
+         [
+          -1.539,
+          4.47
+         ],
+         [
+          -1.607,
+          4.415
+         ],
+         [
+          -1.673,
+          4.358
+         ],
+         [
+          -1.737,
+          4.298
+         ],
+         [
+          -1.798,
+          4.237
+         ],
+         [
+          -1.858,
+          4.173
+         ],
+         [
+          -1.915,
+          4.107
+         ],
+         [
+          -1.97,
+          4.039
+         ],
+         [
+          -2.023,
+          3.969
+         ],
+         [
+          -2.073,
+          3.898
+         ],
+         [
+          -2.12,
+          3.825
+         ],
+         [
+          -2.165,
+          3.75
+         ],
+         [
+          -2.207,
+          3.674
+         ],
+         [
+          -2.247,
+          3.596
+         ],
+         [
+          -2.284,
+          3.517
+         ],
+         [
+          -2.318,
+          3.437
+         ],
+         [
+          -2.349,
+          3.355
+         ],
+         [
+          -2.378,
+          3.273
+         ],
+         [
+          -2.403,
+          3.189
+         ],
+         [
+          -2.426,
+          3.105
+         ],
+         [
+          -2.445,
+          3.02
+         ],
+         [
+          -2.462,
+          2.934
+         ],
+         [
+          -2.476,
+          2.848
+         ],
+         [
+          -2.486,
+          2.761
+         ],
+         [
+          -2.494,
+          2.674
+         ],
+         [
+          -2.498,
+          2.587
+         ],
+         [
+          -2.5,
+          2.5
+         ],
+         [
+          -2.498,
+          2.413
+         ],
+         [
+          -2.494,
+          2.326
+         ],
+         [
+          -2.486,
+          2.239
+         ],
+         [
+          -2.476,
+          2.152
+         ],
+         [
+          -2.462,
+          2.066
+         ],
+         [
+          -2.445,
+          1.98
+         ],
+         [
+          -2.426,
+          1.895
+         ],
+         [
+          -2.403,
+          1.811
+         ],
+         [
+          -2.378,
+          1.727
+         ],
+         [
+          -2.349,
+          1.645
+         ],
+         [
+          -2.318,
+          1.563
+         ],
+         [
+          -2.284,
+          1.483
+         ],
+         [
+          -2.247,
+          1.404
+         ],
+         [
+          -2.207,
+          1.326
+         ],
+         [
+          -2.165,
+          1.25
+         ],
+         [
+          -2.12,
+          1.175
+         ],
+         [
+          -2.073,
+          1.102
+         ],
+         [
+          -2.023,
+          1.031
+         ],
+         [
+          -1.97,
+          0.961
+         ],
+         [
+          -1.915,
+          0.893
+         ],
+         [
+          -1.858,
+          0.827
+         ],
+         [
+          -1.798,
+          0.763
+         ],
+         [
+          -1.737,
+          0.702
+         ],
+         [
+          -1.673,
+          0.642
+         ],
+         [
+          -1.607,
+          0.585
+         ],
+         [
+          -1.539,
+          0.53
+         ],
+         [
+          -1.469,
+          0.477
+         ],
+         [
+          -1.398,
+          0.427
+         ],
+         [
+          -1.325,
+          0.38
+         ],
+         [
+          -1.25,
+          0.335
+         ],
+         [
+          -1.174,
+          0.293
+         ],
+         [
+          -1.096,
+          0.253
+         ],
+         [
+          -1.017,
+          0.216
+         ],
+         [
+          -0.937,
+          0.182
+         ],
+         [
+          -0.855,
+          0.151
+         ],
+         [
+          -0.773,
+          0.122
+         ],
+         [
+          -0.689,
+          0.097
+         ],
+         [
+          -0.605,
+          0.074
+         ],
+         [
+          -0.52,
+          0.055
+         ],
+         [
+          -0.434,
+          0.038
+         ],
+         [
+          -0.348,
+          0.024
+         ],
+         [
+          -0.261,
+          0.014
+         ],
+         [
+          -0.174,
+          0.006
+         ],
+         [
+          -0.087,
+          0.002
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         0,
+         5
+        ],
+        "dash": true
+       },
+       {
+        "tick": [
+         0,
+         0,
+         8,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         8,
+         5,
+         0,
+         5
+        ],
+        "n": 1
+       },
+       {
+        "label": "8 km",
+        "at": [
+         4,
+         -0.637
+        ]
+       },
+       {
+        "label": "5 km",
+        "at": [
+         8.49,
+         2.5
+        ],
+        "anchor": "start"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q5e",
+     "label": "5e",
+     "section": "Problem-solving",
+     "stem": "Find the perimeter of each of these composite shapes, correct to one decimal place.",
+     "prompt": "Find the perimeter.",
+     "type": "numeric",
+     "answer": "53.7",
+     "dp": 1,
+     "units": "mm",
+     "figure": {
+      "kind": "diagram",
+      "unit": 11.88,
+      "items": [
+       {
+        "poly": [
+         [
+          8,
+          0
+         ],
+         [
+          7.998,
+          0.188
+         ],
+         [
+          7.991,
+          0.377
+         ],
+         [
+          7.98,
+          0.565
+         ],
+         [
+          7.964,
+          0.753
+         ],
+         [
+          7.945,
+          0.94
+         ],
+         [
+          7.92,
+          1.127
+         ],
+         [
+          7.891,
+          1.313
+         ],
+         [
+          7.858,
+          1.499
+         ],
+         [
+          7.821,
+          1.684
+         ],
+         [
+          7.779,
+          1.868
+         ],
+         [
+          7.733,
+          2.05
+         ],
+         [
+          7.682,
+          2.232
+         ],
+         [
+          7.628,
+          2.412
+         ],
+         [
+          7.569,
+          2.591
+         ],
+         [
+          7.506,
+          2.769
+         ],
+         [
+          7.438,
+          2.945
+         ],
+         [
+          7.367,
+          3.119
+         ],
+         [
+          7.291,
+          3.292
+         ],
+         [
+          7.212,
+          3.463
+         ],
+         [
+          7.128,
+          3.632
+         ],
+         [
+          7.041,
+          3.799
+         ],
+         [
+          6.949,
+          3.964
+         ],
+         [
+          6.854,
+          4.126
+         ],
+         [
+          6.755,
+          4.287
+         ],
+         [
+          6.652,
+          4.445
+         ],
+         [
+          6.545,
+          4.6
+         ],
+         [
+          6.435,
+          4.753
+         ],
+         [
+          6.321,
+          4.903
+         ],
+         [
+          6.204,
+          5.051
+         ],
+         [
+          6.083,
+          5.196
+         ],
+         [
+          5.959,
+          5.337
+         ],
+         [
+          5.832,
+          5.476
+         ],
+         [
+          5.701,
+          5.612
+         ],
+         [
+          5.567,
+          5.745
+         ],
+         [
+          5.43,
+          5.875
+         ],
+         [
+          5.29,
+          6.001
+         ],
+         [
+          5.148,
+          6.124
+         ],
+         [
+          5.002,
+          6.243
+         ],
+         [
+          4.853,
+          6.36
+         ],
+         [
+          4.702,
+          6.472
+         ],
+         [
+          4.548,
+          6.581
+         ],
+         [
+          4.392,
+          6.686
+         ],
+         [
+          4.233,
+          6.788
+         ],
+         [
+          4.072,
+          6.886
+         ],
+         [
+          3.909,
+          6.98
+         ],
+         [
+          3.743,
+          7.07
+         ],
+         [
+          3.576,
+          7.156
+         ],
+         [
+          3.406,
+          7.239
+         ],
+         [
+          3.235,
+          7.317
+         ],
+         [
+          3.061,
+          7.391
+         ],
+         [
+          2.886,
+          7.461
+         ],
+         [
+          2.71,
+          7.527
+         ],
+         [
+          2.532,
+          7.589
+         ],
+         [
+          2.352,
+          7.646
+         ],
+         [
+          2.172,
+          7.7
+         ],
+         [
+          1.99,
+          7.749
+         ],
+         [
+          1.806,
+          7.793
+         ],
+         [
+          1.622,
+          7.834
+         ],
+         [
+          1.437,
+          7.87
+         ],
+         [
+          1.251,
+          7.902
+         ],
+         [
+          1.065,
+          7.929
+         ],
+         [
+          0.878,
+          7.952
+         ],
+         [
+          0.69,
+          7.97
+         ],
+         [
+          0.502,
+          7.984
+         ],
+         [
+          0.314,
+          7.994
+         ],
+         [
+          0.126,
+          7.999
+         ],
+         [
+          -0.063,
+          8
+         ],
+         [
+          -0.251,
+          7.996
+         ],
+         [
+          -0.44,
+          7.988
+         ],
+         [
+          -0.628,
+          7.975
+         ],
+         [
+          -0.815,
+          7.958
+         ],
+         [
+          -1.003,
+          7.937
+         ],
+         [
+          -1.189,
+          7.911
+         ],
+         [
+          -1.375,
+          7.881
+         ],
+         [
+          -1.561,
+          7.846
+         ],
+         [
+          -1.745,
+          7.807
+         ],
+         [
+          -1.929,
+          7.764
+         ],
+         [
+          -2.111,
+          7.716
+         ],
+         [
+          -2.292,
+          7.665
+         ],
+         [
+          -2.472,
+          7.608
+         ],
+         [
+          -2.651,
+          7.548
+         ],
+         [
+          -2.828,
+          7.484
+         ],
+         [
+          -3.003,
+          7.415
+         ],
+         [
+          -3.177,
+          7.342
+         ],
+         [
+          -3.349,
+          7.265
+         ],
+         [
+          -3.52,
+          7.184
+         ],
+         [
+          -3.688,
+          7.099
+         ],
+         [
+          -3.854,
+          7.01
+         ],
+         [
+          -4.018,
+          6.918
+         ],
+         [
+          -4.18,
+          6.821
+         ],
+         [
+          -4.34,
+          6.721
+         ],
+         [
+          -4.497,
+          6.617
+         ],
+         [
+          -4.651,
+          6.509
+         ],
+         [
+          -4.803,
+          6.397
+         ],
+         [
+          -4.953,
+          6.283
+         ],
+         [
+          -5.099,
+          6.164
+         ],
+         [
+          -5.243,
+          6.042
+         ],
+         [
+          -5.384,
+          5.917
+         ],
+         [
+          -5.522,
+          5.789
+         ],
+         [
+          -5.657,
+          5.657
+         ],
+         [
+          -5.789,
+          5.522
+         ],
+         [
+          -5.917,
+          5.384
+         ],
+         [
+          -6.042,
+          5.243
+         ],
+         [
+          -6.164,
+          5.099
+         ],
+         [
+          -6.283,
+          4.953
+         ],
+         [
+          -6.397,
+          4.803
+         ],
+         [
+          -6.509,
+          4.651
+         ],
+         [
+          -6.617,
+          4.497
+         ],
+         [
+          -6.721,
+          4.34
+         ],
+         [
+          -6.821,
+          4.18
+         ],
+         [
+          -6.918,
+          4.018
+         ],
+         [
+          -7.01,
+          3.854
+         ],
+         [
+          -7.099,
+          3.688
+         ],
+         [
+          -7.184,
+          3.52
+         ],
+         [
+          -7.265,
+          3.349
+         ],
+         [
+          -7.342,
+          3.177
+         ],
+         [
+          -7.415,
+          3.003
+         ],
+         [
+          -7.484,
+          2.828
+         ],
+         [
+          -7.548,
+          2.651
+         ],
+         [
+          -7.608,
+          2.472
+         ],
+         [
+          -7.665,
+          2.292
+         ],
+         [
+          -7.716,
+          2.111
+         ],
+         [
+          -7.764,
+          1.929
+         ],
+         [
+          -7.807,
+          1.745
+         ],
+         [
+          -7.846,
+          1.561
+         ],
+         [
+          -7.881,
+          1.375
+         ],
+         [
+          -7.911,
+          1.189
+         ],
+         [
+          -7.937,
+          1.003
+         ],
+         [
+          -7.958,
+          0.815
+         ],
+         [
+          -7.975,
+          0.628
+         ],
+         [
+          -7.988,
+          0.44
+         ],
+         [
+          -7.996,
+          0.251
+         ],
+         [
+          -8,
+          0.063
+         ],
+         [
+          -7.999,
+          -0.126
+         ],
+         [
+          -7.994,
+          -0.314
+         ],
+         [
+          -7.984,
+          -0.502
+         ],
+         [
+          -7.97,
+          -0.69
+         ],
+         [
+          -7.952,
+          -0.878
+         ],
+         [
+          -7.929,
+          -1.065
+         ],
+         [
+          -7.902,
+          -1.251
+         ],
+         [
+          -7.87,
+          -1.437
+         ],
+         [
+          -7.834,
+          -1.622
+         ],
+         [
+          -7.793,
+          -1.806
+         ],
+         [
+          -7.749,
+          -1.99
+         ],
+         [
+          -7.7,
+          -2.172
+         ],
+         [
+          -7.646,
+          -2.352
+         ],
+         [
+          -7.589,
+          -2.532
+         ],
+         [
+          -7.527,
+          -2.71
+         ],
+         [
+          -7.461,
+          -2.886
+         ],
+         [
+          -7.391,
+          -3.061
+         ],
+         [
+          -7.317,
+          -3.235
+         ],
+         [
+          -7.239,
+          -3.406
+         ],
+         [
+          -7.156,
+          -3.576
+         ],
+         [
+          -7.07,
+          -3.743
+         ],
+         [
+          -6.98,
+          -3.909
+         ],
+         [
+          -6.886,
+          -4.072
+         ],
+         [
+          -6.788,
+          -4.233
+         ],
+         [
+          -6.686,
+          -4.392
+         ],
+         [
+          -6.581,
+          -4.548
+         ],
+         [
+          -6.472,
+          -4.702
+         ],
+         [
+          -6.36,
+          -4.853
+         ],
+         [
+          -6.243,
+          -5.002
+         ],
+         [
+          -6.124,
+          -5.148
+         ],
+         [
+          -6.001,
+          -5.29
+         ],
+         [
+          -5.875,
+          -5.43
+         ],
+         [
+          -5.745,
+          -5.567
+         ],
+         [
+          -5.612,
+          -5.701
+         ],
+         [
+          -5.476,
+          -5.832
+         ],
+         [
+          -5.337,
+          -5.959
+         ],
+         [
+          -5.196,
+          -6.083
+         ],
+         [
+          -5.051,
+          -6.204
+         ],
+         [
+          -4.903,
+          -6.321
+         ],
+         [
+          -4.753,
+          -6.435
+         ],
+         [
+          -4.6,
+          -6.545
+         ],
+         [
+          -4.445,
+          -6.652
+         ],
+         [
+          -4.287,
+          -6.755
+         ],
+         [
+          -4.126,
+          -6.854
+         ],
+         [
+          -3.964,
+          -6.949
+         ],
+         [
+          -3.799,
+          -7.041
+         ],
+         [
+          -3.632,
+          -7.128
+         ],
+         [
+          -3.463,
+          -7.212
+         ],
+         [
+          -3.292,
+          -7.291
+         ],
+         [
+          -3.119,
+          -7.367
+         ],
+         [
+          -2.945,
+          -7.438
+         ],
+         [
+          -2.769,
+          -7.506
+         ],
+         [
+          -2.591,
+          -7.569
+         ],
+         [
+          -2.412,
+          -7.628
+         ],
+         [
+          -2.232,
+          -7.682
+         ],
+         [
+          -2.05,
+          -7.733
+         ],
+         [
+          -1.868,
+          -7.779
+         ],
+         [
+          -1.684,
+          -7.821
+         ],
+         [
+          -1.499,
+          -7.858
+         ],
+         [
+          -1.313,
+          -7.891
+         ],
+         [
+          -1.127,
+          -7.92
+         ],
+         [
+          -0.94,
+          -7.945
+         ],
+         [
+          -0.753,
+          -7.964
+         ],
+         [
+          -0.565,
+          -7.98
+         ],
+         [
+          -0.377,
+          -7.991
+         ],
+         [
+          -0.188,
+          -7.998
+         ],
+         [
+          0,
+          -8
+         ],
+         [
+          8,
+          -8
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         8,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         0,
+         -8
+        ],
+        "dash": true
+       },
+       {
+        "tick": [
+         0,
+         -8,
+         8,
+         -8
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         8,
+         -8,
+         8,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         0,
+         0,
+         8,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         0,
+         0,
+         0,
+         -8
+        ],
+        "n": 1
+       },
+       {
+        "label": "8 mm",
+        "at": [
+         4,
+         -9.324
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q5f",
+     "label": "5f",
+     "section": "Problem-solving",
+     "stem": "Find the perimeter of each of these composite shapes, correct to one decimal place.",
+     "prompt": "Find the perimeter. Both curves are semicircles.",
+     "type": "numeric",
+     "answer": "44.0",
+     "dp": 1,
+     "units": "cm",
+     "figure": {
+      "kind": "diagram",
+      "unit": 13.1,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          0.002,
+          0.122
+         ],
+         [
+          0.009,
+          0.244
+         ],
+         [
+          0.019,
+          0.366
+         ],
+         [
+          0.034,
+          0.487
+         ],
+         [
+          0.053,
+          0.608
+         ],
+         [
+          0.076,
+          0.728
+         ],
+         [
+          0.104,
+          0.847
+         ],
+         [
+          0.136,
+          0.965
+         ],
+         [
+          0.171,
+          1.082
+         ],
+         [
+          0.211,
+          1.197
+         ],
+         [
+          0.255,
+          1.311
+         ],
+         [
+          0.303,
+          1.424
+         ],
+         [
+          0.354,
+          1.534
+         ],
+         [
+          0.41,
+          1.643
+         ],
+         [
+          0.469,
+          1.75
+         ],
+         [
+          0.532,
+          1.855
+         ],
+         [
+          0.598,
+          1.957
+         ],
+         [
+          0.668,
+          2.057
+         ],
+         [
+          0.742,
+          2.155
+         ],
+         [
+          0.819,
+          2.25
+         ],
+         [
+          0.899,
+          2.342
+         ],
+         [
+          0.982,
+          2.431
+         ],
+         [
+          1.069,
+          2.518
+         ],
+         [
+          1.158,
+          2.601
+         ],
+         [
+          1.25,
+          2.681
+         ],
+         [
+          1.345,
+          2.758
+         ],
+         [
+          1.443,
+          2.832
+         ],
+         [
+          1.543,
+          2.902
+         ],
+         [
+          1.645,
+          2.968
+         ],
+         [
+          1.75,
+          3.031
+         ],
+         [
+          1.857,
+          3.09
+         ],
+         [
+          1.966,
+          3.146
+         ],
+         [
+          2.076,
+          3.197
+         ],
+         [
+          2.189,
+          3.245
+         ],
+         [
+          2.303,
+          3.289
+         ],
+         [
+          2.418,
+          3.329
+         ],
+         [
+          2.535,
+          3.364
+         ],
+         [
+          2.653,
+          3.396
+         ],
+         [
+          2.772,
+          3.424
+         ],
+         [
+          2.892,
+          3.447
+         ],
+         [
+          3.013,
+          3.466
+         ],
+         [
+          3.134,
+          3.481
+         ],
+         [
+          3.256,
+          3.491
+         ],
+         [
+          3.378,
+          3.498
+         ],
+         [
+          3.5,
+          3.5
+         ],
+         [
+          3.622,
+          3.498
+         ],
+         [
+          3.744,
+          3.491
+         ],
+         [
+          3.866,
+          3.481
+         ],
+         [
+          3.987,
+          3.466
+         ],
+         [
+          4.108,
+          3.447
+         ],
+         [
+          4.228,
+          3.424
+         ],
+         [
+          4.347,
+          3.396
+         ],
+         [
+          4.465,
+          3.364
+         ],
+         [
+          4.582,
+          3.329
+         ],
+         [
+          4.697,
+          3.289
+         ],
+         [
+          4.811,
+          3.245
+         ],
+         [
+          4.924,
+          3.197
+         ],
+         [
+          5.034,
+          3.146
+         ],
+         [
+          5.143,
+          3.09
+         ],
+         [
+          5.25,
+          3.031
+         ],
+         [
+          5.355,
+          2.968
+         ],
+         [
+          5.457,
+          2.902
+         ],
+         [
+          5.557,
+          2.832
+         ],
+         [
+          5.655,
+          2.758
+         ],
+         [
+          5.75,
+          2.681
+         ],
+         [
+          5.842,
+          2.601
+         ],
+         [
+          5.931,
+          2.518
+         ],
+         [
+          6.018,
+          2.431
+         ],
+         [
+          6.101,
+          2.342
+         ],
+         [
+          6.181,
+          2.25
+         ],
+         [
+          6.258,
+          2.155
+         ],
+         [
+          6.332,
+          2.057
+         ],
+         [
+          6.402,
+          1.957
+         ],
+         [
+          6.468,
+          1.855
+         ],
+         [
+          6.531,
+          1.75
+         ],
+         [
+          6.59,
+          1.643
+         ],
+         [
+          6.646,
+          1.534
+         ],
+         [
+          6.697,
+          1.424
+         ],
+         [
+          6.745,
+          1.311
+         ],
+         [
+          6.789,
+          1.197
+         ],
+         [
+          6.829,
+          1.082
+         ],
+         [
+          6.864,
+          0.965
+         ],
+         [
+          6.896,
+          0.847
+         ],
+         [
+          6.924,
+          0.728
+         ],
+         [
+          6.947,
+          0.608
+         ],
+         [
+          6.966,
+          0.487
+         ],
+         [
+          6.981,
+          0.366
+         ],
+         [
+          6.991,
+          0.244
+         ],
+         [
+          6.998,
+          0.122
+         ],
+         [
+          7,
+          0
+         ],
+         [
+          7,
+          11
+         ],
+         [
+          6.998,
+          11.122
+         ],
+         [
+          6.991,
+          11.244
+         ],
+         [
+          6.981,
+          11.366
+         ],
+         [
+          6.966,
+          11.487
+         ],
+         [
+          6.947,
+          11.608
+         ],
+         [
+          6.924,
+          11.728
+         ],
+         [
+          6.896,
+          11.847
+         ],
+         [
+          6.864,
+          11.965
+         ],
+         [
+          6.829,
+          12.082
+         ],
+         [
+          6.789,
+          12.197
+         ],
+         [
+          6.745,
+          12.311
+         ],
+         [
+          6.697,
+          12.424
+         ],
+         [
+          6.646,
+          12.534
+         ],
+         [
+          6.59,
+          12.643
+         ],
+         [
+          6.531,
+          12.75
+         ],
+         [
+          6.468,
+          12.855
+         ],
+         [
+          6.402,
+          12.957
+         ],
+         [
+          6.332,
+          13.057
+         ],
+         [
+          6.258,
+          13.155
+         ],
+         [
+          6.181,
+          13.25
+         ],
+         [
+          6.101,
+          13.342
+         ],
+         [
+          6.018,
+          13.431
+         ],
+         [
+          5.931,
+          13.518
+         ],
+         [
+          5.842,
+          13.601
+         ],
+         [
+          5.75,
+          13.681
+         ],
+         [
+          5.655,
+          13.758
+         ],
+         [
+          5.557,
+          13.832
+         ],
+         [
+          5.457,
+          13.902
+         ],
+         [
+          5.355,
+          13.968
+         ],
+         [
+          5.25,
+          14.031
+         ],
+         [
+          5.143,
+          14.09
+         ],
+         [
+          5.034,
+          14.146
+         ],
+         [
+          4.924,
+          14.197
+         ],
+         [
+          4.811,
+          14.245
+         ],
+         [
+          4.697,
+          14.289
+         ],
+         [
+          4.582,
+          14.329
+         ],
+         [
+          4.465,
+          14.364
+         ],
+         [
+          4.347,
+          14.396
+         ],
+         [
+          4.228,
+          14.424
+         ],
+         [
+          4.108,
+          14.447
+         ],
+         [
+          3.987,
+          14.466
+         ],
+         [
+          3.866,
+          14.481
+         ],
+         [
+          3.744,
+          14.491
+         ],
+         [
+          3.622,
+          14.498
+         ],
+         [
+          3.5,
+          14.5
+         ],
+         [
+          3.378,
+          14.498
+         ],
+         [
+          3.256,
+          14.491
+         ],
+         [
+          3.134,
+          14.481
+         ],
+         [
+          3.013,
+          14.466
+         ],
+         [
+          2.892,
+          14.447
+         ],
+         [
+          2.772,
+          14.424
+         ],
+         [
+          2.653,
+          14.396
+         ],
+         [
+          2.535,
+          14.364
+         ],
+         [
+          2.418,
+          14.329
+         ],
+         [
+          2.303,
+          14.289
+         ],
+         [
+          2.189,
+          14.245
+         ],
+         [
+          2.076,
+          14.197
+         ],
+         [
+          1.966,
+          14.146
+         ],
+         [
+          1.857,
+          14.09
+         ],
+         [
+          1.75,
+          14.031
+         ],
+         [
+          1.645,
+          13.968
+         ],
+         [
+          1.543,
+          13.902
+         ],
+         [
+          1.443,
+          13.832
+         ],
+         [
+          1.345,
+          13.758
+         ],
+         [
+          1.25,
+          13.681
+         ],
+         [
+          1.158,
+          13.601
+         ],
+         [
+          1.069,
+          13.518
+         ],
+         [
+          0.982,
+          13.431
+         ],
+         [
+          0.899,
+          13.342
+         ],
+         [
+          0.819,
+          13.25
+         ],
+         [
+          0.742,
+          13.155
+         ],
+         [
+          0.668,
+          13.057
+         ],
+         [
+          0.598,
+          12.957
+         ],
+         [
+          0.532,
+          12.855
+         ],
+         [
+          0.469,
+          12.75
+         ],
+         [
+          0.41,
+          12.643
+         ],
+         [
+          0.354,
+          12.534
+         ],
+         [
+          0.303,
+          12.424
+         ],
+         [
+          0.255,
+          12.311
+         ],
+         [
+          0.211,
+          12.197
+         ],
+         [
+          0.171,
+          12.082
+         ],
+         [
+          0.136,
+          11.965
+         ],
+         [
+          0.104,
+          11.847
+         ],
+         [
+          0.076,
+          11.728
+         ],
+         [
+          0.053,
+          11.608
+         ],
+         [
+          0.034,
+          11.487
+         ],
+         [
+          0.019,
+          11.366
+         ],
+         [
+          0.009,
+          11.244
+         ],
+         [
+          0.002,
+          11.122
+         ],
+         [
+          0,
+          11
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "dim": [
+         0,
+         -0.2,
+         7,
+         -0.2
+        ],
+        "label": "7 cm",
+        "off": -0.6
+       },
+       {
+        "label": "11 cm",
+        "at": [
+         7.923,
+         5.5
+        ],
+        "anchor": "start"
+       },
+       {
+        "tick": [
+         7,
+         0,
+         7,
+         11
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         0,
+         11,
+         0,
+         0
+        ],
+        "n": 1
+       }
+      ]
+     }
+    },
+    {
+     "id": "q6",
+     "label": "6",
+     "section": "Problem-solving",
+     "prompt": "A window is a rectangle of height $1.9$ m and width $1.1$ m, with a semicircular top of diameter $1.1$ m. Find its perimeter in metres, correct to the nearest centimetre (two decimal places).",
+     "type": "numeric",
+     "answer": "6.63",
+     "dp": 2,
+     "units": "m"
+    },
+    {
+     "id": "q7a",
+     "label": "7a",
+     "section": "Problem-solving",
+     "stem": "For these sectors, find only the length of the arc, correct to two decimal places.",
+     "prompt": "Find the arc length. The radius is $6$ m.",
+     "type": "numeric",
+     "answer": "15.71",
+     "dp": 2,
+     "units": "m",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "poly": [
+         [
+          2.598,
+          1.5
+         ],
+         [
+          2.486,
+          1.68
+         ],
+         [
+          2.361,
+          1.851
+         ],
+         [
+          2.224,
+          2.014
+         ],
+         [
+          2.076,
+          2.166
+         ],
+         [
+          1.918,
+          2.307
+         ],
+         [
+          1.75,
+          2.437
+         ],
+         [
+          1.573,
+          2.555
+         ],
+         [
+          1.388,
+          2.659
+         ],
+         [
+          1.197,
+          2.751
+         ],
+         [
+          0.999,
+          2.829
+         ],
+         [
+          0.797,
+          2.892
+         ],
+         [
+          0.59,
+          2.941
+         ],
+         [
+          0.381,
+          2.976
+         ],
+         [
+          0.17,
+          2.995
+         ],
+         [
+          -0.042,
+          3
+         ],
+         [
+          -0.254,
+          2.989
+         ],
+         [
+          -0.465,
+          2.964
+         ],
+         [
+          -0.673,
+          2.923
+         ],
+         [
+          -0.878,
+          2.869
+         ],
+         [
+          -1.079,
+          2.799
+         ],
+         [
+          -1.274,
+          2.716
+         ],
+         [
+          -1.463,
+          2.619
+         ],
+         [
+          -1.645,
+          2.509
+         ],
+         [
+          -1.818,
+          2.387
+         ],
+         [
+          -1.982,
+          2.252
+         ],
+         [
+          -2.136,
+          2.106
+         ],
+         [
+          -2.28,
+          1.95
+         ],
+         [
+          -2.412,
+          1.784
+         ],
+         [
+          -2.532,
+          1.609
+         ],
+         [
+          -2.639,
+          1.426
+         ],
+         [
+          -2.734,
+          1.236
+         ],
+         [
+          -2.814,
+          1.039
+         ],
+         [
+          -2.881,
+          0.838
+         ],
+         [
+          -2.933,
+          0.632
+         ],
+         [
+          -2.97,
+          0.423
+         ],
+         [
+          -2.992,
+          0.212
+         ],
+         [
+          -3,
+          0
+         ]
+        ],
+        "open": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         2.598,
+         1.5
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         -3,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         0,
+         0,
+         30,
+         180
+        ],
+        "label": "150°",
+        "r": 0.55
+       },
+       {
+        "label": "6 m",
+        "at": [
+         1.489,
+         0.307
+        ],
+        "anchor": "start"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q7b",
+     "label": "7b",
+     "section": "Problem-solving",
+     "stem": "For these sectors, find only the length of the arc, correct to two decimal places.",
+     "prompt": "Find the arc length. The radius is $50$ m.",
+     "type": "numeric",
+     "answer": "261.80",
+     "dp": 2,
+     "units": "m",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "poly": [
+         [
+          1.5,
+          -2.598
+         ],
+         [
+          1.678,
+          -2.487
+         ],
+         [
+          1.847,
+          -2.364
+         ],
+         [
+          2.007,
+          -2.229
+         ],
+         [
+          2.158,
+          -2.084
+         ],
+         [
+          2.298,
+          -1.928
+         ],
+         [
+          2.427,
+          -1.763
+         ],
+         [
+          2.544,
+          -1.59
+         ],
+         [
+          2.649,
+          -1.408
+         ],
+         [
+          2.741,
+          -1.22
+         ],
+         [
+          2.819,
+          -1.026
+         ],
+         [
+          2.884,
+          -0.827
+         ],
+         [
+          2.934,
+          -0.624
+         ],
+         [
+          2.971,
+          -0.418
+         ],
+         [
+          2.993,
+          -0.209
+         ],
+         [
+          3,
+          0
+         ],
+         [
+          2.993,
+          0.209
+         ],
+         [
+          2.971,
+          0.418
+         ],
+         [
+          2.934,
+          0.624
+         ],
+         [
+          2.884,
+          0.827
+         ],
+         [
+          2.819,
+          1.026
+         ],
+         [
+          2.741,
+          1.22
+         ],
+         [
+          2.649,
+          1.408
+         ],
+         [
+          2.544,
+          1.59
+         ],
+         [
+          2.427,
+          1.763
+         ],
+         [
+          2.298,
+          1.928
+         ],
+         [
+          2.158,
+          2.084
+         ],
+         [
+          2.007,
+          2.229
+         ],
+         [
+          1.847,
+          2.364
+         ],
+         [
+          1.678,
+          2.487
+         ],
+         [
+          1.5,
+          2.598
+         ],
+         [
+          1.315,
+          2.696
+         ],
+         [
+          1.124,
+          2.782
+         ],
+         [
+          0.927,
+          2.853
+         ],
+         [
+          0.726,
+          2.911
+         ],
+         [
+          0.521,
+          2.954
+         ],
+         [
+          0.314,
+          2.984
+         ],
+         [
+          0.105,
+          2.998
+         ],
+         [
+          -0.105,
+          2.998
+         ],
+         [
+          -0.314,
+          2.984
+         ],
+         [
+          -0.521,
+          2.954
+         ],
+         [
+          -0.726,
+          2.911
+         ],
+         [
+          -0.927,
+          2.853
+         ],
+         [
+          -1.124,
+          2.782
+         ],
+         [
+          -1.315,
+          2.696
+         ],
+         [
+          -1.5,
+          2.598
+         ],
+         [
+          -1.678,
+          2.487
+         ],
+         [
+          -1.847,
+          2.364
+         ],
+         [
+          -2.007,
+          2.229
+         ],
+         [
+          -2.158,
+          2.084
+         ],
+         [
+          -2.298,
+          1.928
+         ],
+         [
+          -2.427,
+          1.763
+         ],
+         [
+          -2.544,
+          1.59
+         ],
+         [
+          -2.649,
+          1.408
+         ],
+         [
+          -2.741,
+          1.22
+         ],
+         [
+          -2.819,
+          1.026
+         ],
+         [
+          -2.884,
+          0.827
+         ],
+         [
+          -2.934,
+          0.624
+         ],
+         [
+          -2.971,
+          0.418
+         ],
+         [
+          -2.993,
+          0.209
+         ],
+         [
+          -3,
+          0
+         ],
+         [
+          -2.993,
+          -0.209
+         ],
+         [
+          -2.971,
+          -0.418
+         ],
+         [
+          -2.934,
+          -0.624
+         ],
+         [
+          -2.884,
+          -0.827
+         ],
+         [
+          -2.819,
+          -1.026
+         ],
+         [
+          -2.741,
+          -1.22
+         ],
+         [
+          -2.649,
+          -1.408
+         ],
+         [
+          -2.544,
+          -1.59
+         ],
+         [
+          -2.427,
+          -1.763
+         ],
+         [
+          -2.298,
+          -1.928
+         ],
+         [
+          -2.158,
+          -2.084
+         ],
+         [
+          -2.007,
+          -2.229
+         ],
+         [
+          -1.847,
+          -2.364
+         ],
+         [
+          -1.678,
+          -2.487
+         ],
+         [
+          -1.5,
+          -2.598
+         ]
+        ],
+        "open": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         1.5,
+         -2.598
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         -1.5,
+         -2.598
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         0,
+         0,
+         300,
+         600
+        ],
+        "label": "300°",
+        "r": 0.55
+       },
+       {
+        "label": "50 m",
+        "at": [
+         1.183,
+         -0.899
+        ],
+        "anchor": "start"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q7c",
+     "label": "7c",
+     "section": "Problem-solving",
+     "stem": "For these sectors, find only the length of the arc, correct to two decimal places.",
+     "prompt": "Find the arc length. The radius is $1.6$ m.",
+     "type": "numeric",
+     "answer": "2.09",
+     "dp": 2,
+     "units": "m",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "poly": [
+         [
+          -2.819,
+          -1.026
+         ],
+         [
+          -2.737,
+          -1.228
+         ],
+         [
+          -2.641,
+          -1.424
+         ],
+         [
+          -2.53,
+          -1.612
+         ],
+         [
+          -2.406,
+          -1.791
+         ],
+         [
+          -2.27,
+          -1.962
+         ],
+         [
+          -2.121,
+          -2.121
+         ],
+         [
+          -1.962,
+          -2.27
+         ],
+         [
+          -1.791,
+          -2.406
+         ],
+         [
+          -1.612,
+          -2.53
+         ],
+         [
+          -1.424,
+          -2.641
+         ],
+         [
+          -1.228,
+          -2.737
+         ],
+         [
+          -1.026,
+          -2.819
+         ],
+         [
+          -0.819,
+          -2.886
+         ],
+         [
+          -0.607,
+          -2.938
+         ],
+         [
+          -0.392,
+          -2.974
+         ],
+         [
+          -0.174,
+          -2.995
+         ],
+         [
+          0.044,
+          -3
+         ],
+         [
+          0.261,
+          -2.989
+         ]
+        ],
+        "open": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         -2.819,
+         -1.026
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         0.261,
+         -2.989
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         0,
+         0,
+         200,
+         275
+        ],
+        "label": "75°",
+        "r": 0.9
+       },
+       {
+        "label": "1.6 m",
+        "at": [
+         -1.54,
+         -0.042
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q8a",
+     "label": "8a",
+     "section": "Problem-solving",
+     "stem": "Calculate the perimeter of each of these shapes, correct to two decimal places.",
+     "prompt": "Each curve is a semicircle on a side of the square.",
+     "type": "numeric",
+     "answer": "37.70",
+     "dp": 2,
+     "units": "cm",
+     "figure": {
+      "kind": "diagram",
+      "unit": 15.83,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          0.004,
+          -0.157
+         ],
+         [
+          0.016,
+          -0.314
+         ],
+         [
+          0.037,
+          -0.469
+         ],
+         [
+          0.066,
+          -0.624
+         ],
+         [
+          0.102,
+          -0.776
+         ],
+         [
+          0.147,
+          -0.927
+         ],
+         [
+          0.199,
+          -1.075
+         ],
+         [
+          0.259,
+          -1.22
+         ],
+         [
+          0.327,
+          -1.362
+         ],
+         [
+          0.402,
+          -1.5
+         ],
+         [
+          0.484,
+          -1.634
+         ],
+         [
+          0.573,
+          -1.763
+         ],
+         [
+          0.669,
+          -1.888
+         ],
+         [
+          0.771,
+          -2.007
+         ],
+         [
+          0.879,
+          -2.121
+         ],
+         [
+          0.993,
+          -2.229
+         ],
+         [
+          1.112,
+          -2.331
+         ],
+         [
+          1.237,
+          -2.427
+         ],
+         [
+          1.366,
+          -2.516
+         ],
+         [
+          1.5,
+          -2.598
+         ],
+         [
+          1.638,
+          -2.673
+         ],
+         [
+          1.78,
+          -2.741
+         ],
+         [
+          1.925,
+          -2.801
+         ],
+         [
+          2.073,
+          -2.853
+         ],
+         [
+          2.224,
+          -2.898
+         ],
+         [
+          2.376,
+          -2.934
+         ],
+         [
+          2.531,
+          -2.963
+         ],
+         [
+          2.686,
+          -2.984
+         ],
+         [
+          2.843,
+          -2.996
+         ],
+         [
+          3,
+          -3
+         ],
+         [
+          3.157,
+          -2.996
+         ],
+         [
+          3.314,
+          -2.984
+         ],
+         [
+          3.469,
+          -2.963
+         ],
+         [
+          3.624,
+          -2.934
+         ],
+         [
+          3.776,
+          -2.898
+         ],
+         [
+          3.927,
+          -2.853
+         ],
+         [
+          4.075,
+          -2.801
+         ],
+         [
+          4.22,
+          -2.741
+         ],
+         [
+          4.362,
+          -2.673
+         ],
+         [
+          4.5,
+          -2.598
+         ],
+         [
+          4.634,
+          -2.516
+         ],
+         [
+          4.763,
+          -2.427
+         ],
+         [
+          4.888,
+          -2.331
+         ],
+         [
+          5.007,
+          -2.229
+         ],
+         [
+          5.121,
+          -2.121
+         ],
+         [
+          5.229,
+          -2.007
+         ],
+         [
+          5.331,
+          -1.888
+         ],
+         [
+          5.427,
+          -1.763
+         ],
+         [
+          5.516,
+          -1.634
+         ],
+         [
+          5.598,
+          -1.5
+         ],
+         [
+          5.673,
+          -1.362
+         ],
+         [
+          5.741,
+          -1.22
+         ],
+         [
+          5.801,
+          -1.075
+         ],
+         [
+          5.853,
+          -0.927
+         ],
+         [
+          5.898,
+          -0.776
+         ],
+         [
+          5.934,
+          -0.624
+         ],
+         [
+          5.963,
+          -0.469
+         ],
+         [
+          5.984,
+          -0.314
+         ],
+         [
+          5.996,
+          -0.157
+         ],
+         [
+          6,
+          0
+         ],
+         [
+          6.157,
+          0.004
+         ],
+         [
+          6.314,
+          0.016
+         ],
+         [
+          6.469,
+          0.037
+         ],
+         [
+          6.624,
+          0.066
+         ],
+         [
+          6.776,
+          0.102
+         ],
+         [
+          6.927,
+          0.147
+         ],
+         [
+          7.075,
+          0.199
+         ],
+         [
+          7.22,
+          0.259
+         ],
+         [
+          7.362,
+          0.327
+         ],
+         [
+          7.5,
+          0.402
+         ],
+         [
+          7.634,
+          0.484
+         ],
+         [
+          7.763,
+          0.573
+         ],
+         [
+          7.888,
+          0.669
+         ],
+         [
+          8.007,
+          0.771
+         ],
+         [
+          8.121,
+          0.879
+         ],
+         [
+          8.229,
+          0.993
+         ],
+         [
+          8.331,
+          1.112
+         ],
+         [
+          8.427,
+          1.237
+         ],
+         [
+          8.516,
+          1.366
+         ],
+         [
+          8.598,
+          1.5
+         ],
+         [
+          8.673,
+          1.638
+         ],
+         [
+          8.741,
+          1.78
+         ],
+         [
+          8.801,
+          1.925
+         ],
+         [
+          8.853,
+          2.073
+         ],
+         [
+          8.898,
+          2.224
+         ],
+         [
+          8.934,
+          2.376
+         ],
+         [
+          8.963,
+          2.531
+         ],
+         [
+          8.984,
+          2.686
+         ],
+         [
+          8.996,
+          2.843
+         ],
+         [
+          9,
+          3
+         ],
+         [
+          8.996,
+          3.157
+         ],
+         [
+          8.984,
+          3.314
+         ],
+         [
+          8.963,
+          3.469
+         ],
+         [
+          8.934,
+          3.624
+         ],
+         [
+          8.898,
+          3.776
+         ],
+         [
+          8.853,
+          3.927
+         ],
+         [
+          8.801,
+          4.075
+         ],
+         [
+          8.741,
+          4.22
+         ],
+         [
+          8.673,
+          4.362
+         ],
+         [
+          8.598,
+          4.5
+         ],
+         [
+          8.516,
+          4.634
+         ],
+         [
+          8.427,
+          4.763
+         ],
+         [
+          8.331,
+          4.888
+         ],
+         [
+          8.229,
+          5.007
+         ],
+         [
+          8.121,
+          5.121
+         ],
+         [
+          8.007,
+          5.229
+         ],
+         [
+          7.888,
+          5.331
+         ],
+         [
+          7.763,
+          5.427
+         ],
+         [
+          7.634,
+          5.516
+         ],
+         [
+          7.5,
+          5.598
+         ],
+         [
+          7.362,
+          5.673
+         ],
+         [
+          7.22,
+          5.741
+         ],
+         [
+          7.075,
+          5.801
+         ],
+         [
+          6.927,
+          5.853
+         ],
+         [
+          6.776,
+          5.898
+         ],
+         [
+          6.624,
+          5.934
+         ],
+         [
+          6.469,
+          5.963
+         ],
+         [
+          6.314,
+          5.984
+         ],
+         [
+          6.157,
+          5.996
+         ],
+         [
+          6,
+          6
+         ],
+         [
+          5.996,
+          6.157
+         ],
+         [
+          5.984,
+          6.314
+         ],
+         [
+          5.963,
+          6.469
+         ],
+         [
+          5.934,
+          6.624
+         ],
+         [
+          5.898,
+          6.776
+         ],
+         [
+          5.853,
+          6.927
+         ],
+         [
+          5.801,
+          7.075
+         ],
+         [
+          5.741,
+          7.22
+         ],
+         [
+          5.673,
+          7.362
+         ],
+         [
+          5.598,
+          7.5
+         ],
+         [
+          5.516,
+          7.634
+         ],
+         [
+          5.427,
+          7.763
+         ],
+         [
+          5.331,
+          7.888
+         ],
+         [
+          5.229,
+          8.007
+         ],
+         [
+          5.121,
+          8.121
+         ],
+         [
+          5.007,
+          8.229
+         ],
+         [
+          4.888,
+          8.331
+         ],
+         [
+          4.763,
+          8.427
+         ],
+         [
+          4.634,
+          8.516
+         ],
+         [
+          4.5,
+          8.598
+         ],
+         [
+          4.362,
+          8.673
+         ],
+         [
+          4.22,
+          8.741
+         ],
+         [
+          4.075,
+          8.801
+         ],
+         [
+          3.927,
+          8.853
+         ],
+         [
+          3.776,
+          8.898
+         ],
+         [
+          3.624,
+          8.934
+         ],
+         [
+          3.469,
+          8.963
+         ],
+         [
+          3.314,
+          8.984
+         ],
+         [
+          3.157,
+          8.996
+         ],
+         [
+          3,
+          9
+         ],
+         [
+          2.843,
+          8.996
+         ],
+         [
+          2.686,
+          8.984
+         ],
+         [
+          2.531,
+          8.963
+         ],
+         [
+          2.376,
+          8.934
+         ],
+         [
+          2.224,
+          8.898
+         ],
+         [
+          2.073,
+          8.853
+         ],
+         [
+          1.925,
+          8.801
+         ],
+         [
+          1.78,
+          8.741
+         ],
+         [
+          1.638,
+          8.673
+         ],
+         [
+          1.5,
+          8.598
+         ],
+         [
+          1.366,
+          8.516
+         ],
+         [
+          1.237,
+          8.427
+         ],
+         [
+          1.112,
+          8.331
+         ],
+         [
+          0.993,
+          8.229
+         ],
+         [
+          0.879,
+          8.121
+         ],
+         [
+          0.771,
+          8.007
+         ],
+         [
+          0.669,
+          7.888
+         ],
+         [
+          0.573,
+          7.763
+         ],
+         [
+          0.484,
+          7.634
+         ],
+         [
+          0.402,
+          7.5
+         ],
+         [
+          0.327,
+          7.362
+         ],
+         [
+          0.259,
+          7.22
+         ],
+         [
+          0.199,
+          7.075
+         ],
+         [
+          0.147,
+          6.927
+         ],
+         [
+          0.102,
+          6.776
+         ],
+         [
+          0.066,
+          6.624
+         ],
+         [
+          0.037,
+          6.469
+         ],
+         [
+          0.016,
+          6.314
+         ],
+         [
+          0.004,
+          6.157
+         ],
+         [
+          0,
+          6
+         ],
+         [
+          -0.157,
+          5.996
+         ],
+         [
+          -0.314,
+          5.984
+         ],
+         [
+          -0.469,
+          5.963
+         ],
+         [
+          -0.624,
+          5.934
+         ],
+         [
+          -0.776,
+          5.898
+         ],
+         [
+          -0.927,
+          5.853
+         ],
+         [
+          -1.075,
+          5.801
+         ],
+         [
+          -1.22,
+          5.741
+         ],
+         [
+          -1.362,
+          5.673
+         ],
+         [
+          -1.5,
+          5.598
+         ],
+         [
+          -1.634,
+          5.516
+         ],
+         [
+          -1.763,
+          5.427
+         ],
+         [
+          -1.888,
+          5.331
+         ],
+         [
+          -2.007,
+          5.229
+         ],
+         [
+          -2.121,
+          5.121
+         ],
+         [
+          -2.229,
+          5.007
+         ],
+         [
+          -2.331,
+          4.888
+         ],
+         [
+          -2.427,
+          4.763
+         ],
+         [
+          -2.516,
+          4.634
+         ],
+         [
+          -2.598,
+          4.5
+         ],
+         [
+          -2.673,
+          4.362
+         ],
+         [
+          -2.741,
+          4.22
+         ],
+         [
+          -2.801,
+          4.075
+         ],
+         [
+          -2.853,
+          3.927
+         ],
+         [
+          -2.898,
+          3.776
+         ],
+         [
+          -2.934,
+          3.624
+         ],
+         [
+          -2.963,
+          3.469
+         ],
+         [
+          -2.984,
+          3.314
+         ],
+         [
+          -2.996,
+          3.157
+         ],
+         [
+          -3,
+          3
+         ],
+         [
+          -2.996,
+          2.843
+         ],
+         [
+          -2.984,
+          2.686
+         ],
+         [
+          -2.963,
+          2.531
+         ],
+         [
+          -2.934,
+          2.376
+         ],
+         [
+          -2.898,
+          2.224
+         ],
+         [
+          -2.853,
+          2.073
+         ],
+         [
+          -2.801,
+          1.925
+         ],
+         [
+          -2.741,
+          1.78
+         ],
+         [
+          -2.673,
+          1.638
+         ],
+         [
+          -2.598,
+          1.5
+         ],
+         [
+          -2.516,
+          1.366
+         ],
+         [
+          -2.427,
+          1.237
+         ],
+         [
+          -2.331,
+          1.112
+         ],
+         [
+          -2.229,
+          0.993
+         ],
+         [
+          -2.121,
+          0.879
+         ],
+         [
+          -2.007,
+          0.771
+         ],
+         [
+          -1.888,
+          0.669
+         ],
+         [
+          -1.763,
+          0.573
+         ],
+         [
+          -1.634,
+          0.484
+         ],
+         [
+          -1.5,
+          0.402
+         ],
+         [
+          -1.362,
+          0.327
+         ],
+         [
+          -1.22,
+          0.259
+         ],
+         [
+          -1.075,
+          0.199
+         ],
+         [
+          -0.927,
+          0.147
+         ],
+         [
+          -0.776,
+          0.102
+         ],
+         [
+          -0.624,
+          0.066
+         ],
+         [
+          -0.469,
+          0.037
+         ],
+         [
+          -0.314,
+          0.016
+         ],
+         [
+          -0.157,
+          0.004
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         6,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         6,
+         0,
+         6,
+         6
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         6,
+         6,
+         0,
+         6
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         0,
+         6,
+         0,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "tick": [
+         0,
+         0,
+         6,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         6,
+         0,
+         6,
+         6
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         6,
+         6,
+         0,
+         6
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         0,
+         6,
+         0,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "label": "6 cm",
+        "at": [
+         3,
+         4.9
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q8b",
+     "label": "8b",
+     "section": "Problem-solving",
+     "stem": "Calculate the perimeter of each of these shapes, correct to two decimal places.",
+     "prompt": "The top curve is a semicircle. The two smaller curves are equal semicircles.",
+     "type": "numeric",
+     "answer": "43.98",
+     "dp": 2,
+     "units": "m",
+     "figure": {
+      "kind": "diagram",
+      "unit": 18.1,
+      "items": [
+       {
+        "poly": [
+         [
+          -6.995,
+          -0.183
+         ],
+         [
+          -6.981,
+          -0.366
+         ],
+         [
+          -6.957,
+          -0.548
+         ],
+         [
+          -6.924,
+          -0.728
+         ],
+         [
+          -6.881,
+          -0.906
+         ],
+         [
+          -6.829,
+          -1.082
+         ],
+         [
+          -6.768,
+          -1.254
+         ],
+         [
+          -6.697,
+          -1.424
+         ],
+         [
+          -6.619,
+          -1.589
+         ],
+         [
+          -6.531,
+          -1.75
+         ],
+         [
+          -6.435,
+          -1.906
+         ],
+         [
+          -6.332,
+          -2.057
+         ],
+         [
+          -6.22,
+          -2.203
+         ],
+         [
+          -6.101,
+          -2.342
+         ],
+         [
+          -5.975,
+          -2.475
+         ],
+         [
+          -5.842,
+          -2.601
+         ],
+         [
+          -5.703,
+          -2.72
+         ],
+         [
+          -5.557,
+          -2.832
+         ],
+         [
+          -5.406,
+          -2.935
+         ],
+         [
+          -5.25,
+          -3.031
+         ],
+         [
+          -5.089,
+          -3.119
+         ],
+         [
+          -4.924,
+          -3.197
+         ],
+         [
+          -4.754,
+          -3.268
+         ],
+         [
+          -4.582,
+          -3.329
+         ],
+         [
+          -4.406,
+          -3.381
+         ],
+         [
+          -4.228,
+          -3.424
+         ],
+         [
+          -4.048,
+          -3.457
+         ],
+         [
+          -3.866,
+          -3.481
+         ],
+         [
+          -3.683,
+          -3.495
+         ],
+         [
+          -3.5,
+          -3.5
+         ],
+         [
+          -3.317,
+          -3.495
+         ],
+         [
+          -3.134,
+          -3.481
+         ],
+         [
+          -2.952,
+          -3.457
+         ],
+         [
+          -2.772,
+          -3.424
+         ],
+         [
+          -2.594,
+          -3.381
+         ],
+         [
+          -2.418,
+          -3.329
+         ],
+         [
+          -2.246,
+          -3.268
+         ],
+         [
+          -2.076,
+          -3.197
+         ],
+         [
+          -1.911,
+          -3.119
+         ],
+         [
+          -1.75,
+          -3.031
+         ],
+         [
+          -1.594,
+          -2.935
+         ],
+         [
+          -1.443,
+          -2.832
+         ],
+         [
+          -1.297,
+          -2.72
+         ],
+         [
+          -1.158,
+          -2.601
+         ],
+         [
+          -1.025,
+          -2.475
+         ],
+         [
+          -0.899,
+          -2.342
+         ],
+         [
+          -0.78,
+          -2.203
+         ],
+         [
+          -0.668,
+          -2.057
+         ],
+         [
+          -0.565,
+          -1.906
+         ],
+         [
+          -0.469,
+          -1.75
+         ],
+         [
+          -0.381,
+          -1.589
+         ],
+         [
+          -0.303,
+          -1.424
+         ],
+         [
+          -0.232,
+          -1.254
+         ],
+         [
+          -0.171,
+          -1.082
+         ],
+         [
+          -0.119,
+          -0.906
+         ],
+         [
+          -0.076,
+          -0.728
+         ],
+         [
+          -0.043,
+          -0.548
+         ],
+         [
+          -0.019,
+          -0.366
+         ],
+         [
+          -0.005,
+          -0.183
+         ],
+         [
+          0,
+          0
+         ],
+         [
+          0.005,
+          0.183
+         ],
+         [
+          0.019,
+          0.366
+         ],
+         [
+          0.043,
+          0.548
+         ],
+         [
+          0.076,
+          0.728
+         ],
+         [
+          0.119,
+          0.906
+         ],
+         [
+          0.171,
+          1.082
+         ],
+         [
+          0.232,
+          1.254
+         ],
+         [
+          0.303,
+          1.424
+         ],
+         [
+          0.381,
+          1.589
+         ],
+         [
+          0.469,
+          1.75
+         ],
+         [
+          0.565,
+          1.906
+         ],
+         [
+          0.668,
+          2.057
+         ],
+         [
+          0.78,
+          2.203
+         ],
+         [
+          0.899,
+          2.342
+         ],
+         [
+          1.025,
+          2.475
+         ],
+         [
+          1.158,
+          2.601
+         ],
+         [
+          1.297,
+          2.72
+         ],
+         [
+          1.443,
+          2.832
+         ],
+         [
+          1.594,
+          2.935
+         ],
+         [
+          1.75,
+          3.031
+         ],
+         [
+          1.911,
+          3.119
+         ],
+         [
+          2.076,
+          3.197
+         ],
+         [
+          2.246,
+          3.268
+         ],
+         [
+          2.418,
+          3.329
+         ],
+         [
+          2.594,
+          3.381
+         ],
+         [
+          2.772,
+          3.424
+         ],
+         [
+          2.952,
+          3.457
+         ],
+         [
+          3.134,
+          3.481
+         ],
+         [
+          3.317,
+          3.495
+         ],
+         [
+          3.5,
+          3.5
+         ],
+         [
+          3.683,
+          3.495
+         ],
+         [
+          3.866,
+          3.481
+         ],
+         [
+          4.048,
+          3.457
+         ],
+         [
+          4.228,
+          3.424
+         ],
+         [
+          4.406,
+          3.381
+         ],
+         [
+          4.582,
+          3.329
+         ],
+         [
+          4.754,
+          3.268
+         ],
+         [
+          4.924,
+          3.197
+         ],
+         [
+          5.089,
+          3.119
+         ],
+         [
+          5.25,
+          3.031
+         ],
+         [
+          5.406,
+          2.935
+         ],
+         [
+          5.557,
+          2.832
+         ],
+         [
+          5.703,
+          2.72
+         ],
+         [
+          5.842,
+          2.601
+         ],
+         [
+          5.975,
+          2.475
+         ],
+         [
+          6.101,
+          2.342
+         ],
+         [
+          6.22,
+          2.203
+         ],
+         [
+          6.332,
+          2.057
+         ],
+         [
+          6.435,
+          1.906
+         ],
+         [
+          6.531,
+          1.75
+         ],
+         [
+          6.619,
+          1.589
+         ],
+         [
+          6.697,
+          1.424
+         ],
+         [
+          6.768,
+          1.254
+         ],
+         [
+          6.829,
+          1.082
+         ],
+         [
+          6.881,
+          0.906
+         ],
+         [
+          6.924,
+          0.728
+         ],
+         [
+          6.957,
+          0.548
+         ],
+         [
+          6.981,
+          0.366
+         ],
+         [
+          6.995,
+          0.183
+         ],
+         [
+          7,
+          0
+         ],
+         [
+          6.996,
+          0.244
+         ],
+         [
+          6.983,
+          0.488
+         ],
+         [
+          6.962,
+          0.732
+         ],
+         [
+          6.932,
+          0.974
+         ],
+         [
+          6.894,
+          1.216
+         ],
+         [
+          6.847,
+          1.455
+         ],
+         [
+          6.792,
+          1.693
+         ],
+         [
+          6.729,
+          1.929
+         ],
+         [
+          6.657,
+          2.163
+         ],
+         [
+          6.578,
+          2.394
+         ],
+         [
+          6.49,
+          2.622
+         ],
+         [
+          6.395,
+          2.847
+         ],
+         [
+          6.292,
+          3.069
+         ],
+         [
+          6.181,
+          3.286
+         ],
+         [
+          6.062,
+          3.5
+         ],
+         [
+          5.936,
+          3.709
+         ],
+         [
+          5.803,
+          3.914
+         ],
+         [
+          5.663,
+          4.114
+         ],
+         [
+          5.516,
+          4.31
+         ],
+         [
+          5.362,
+          4.5
+         ],
+         [
+          5.202,
+          4.684
+         ],
+         [
+          5.035,
+          4.863
+         ],
+         [
+          4.863,
+          5.035
+         ],
+         [
+          4.684,
+          5.202
+         ],
+         [
+          4.5,
+          5.362
+         ],
+         [
+          4.31,
+          5.516
+         ],
+         [
+          4.114,
+          5.663
+         ],
+         [
+          3.914,
+          5.803
+         ],
+         [
+          3.709,
+          5.936
+         ],
+         [
+          3.5,
+          6.062
+         ],
+         [
+          3.286,
+          6.181
+         ],
+         [
+          3.069,
+          6.292
+         ],
+         [
+          2.847,
+          6.395
+         ],
+         [
+          2.622,
+          6.49
+         ],
+         [
+          2.394,
+          6.578
+         ],
+         [
+          2.163,
+          6.657
+         ],
+         [
+          1.929,
+          6.729
+         ],
+         [
+          1.693,
+          6.792
+         ],
+         [
+          1.455,
+          6.847
+         ],
+         [
+          1.216,
+          6.894
+         ],
+         [
+          0.974,
+          6.932
+         ],
+         [
+          0.732,
+          6.962
+         ],
+         [
+          0.488,
+          6.983
+         ],
+         [
+          0.244,
+          6.996
+         ],
+         [
+          0,
+          7
+         ],
+         [
+          -0.244,
+          6.996
+         ],
+         [
+          -0.488,
+          6.983
+         ],
+         [
+          -0.732,
+          6.962
+         ],
+         [
+          -0.974,
+          6.932
+         ],
+         [
+          -1.216,
+          6.894
+         ],
+         [
+          -1.455,
+          6.847
+         ],
+         [
+          -1.693,
+          6.792
+         ],
+         [
+          -1.929,
+          6.729
+         ],
+         [
+          -2.163,
+          6.657
+         ],
+         [
+          -2.394,
+          6.578
+         ],
+         [
+          -2.622,
+          6.49
+         ],
+         [
+          -2.847,
+          6.395
+         ],
+         [
+          -3.069,
+          6.292
+         ],
+         [
+          -3.286,
+          6.181
+         ],
+         [
+          -3.5,
+          6.062
+         ],
+         [
+          -3.709,
+          5.936
+         ],
+         [
+          -3.914,
+          5.803
+         ],
+         [
+          -4.114,
+          5.663
+         ],
+         [
+          -4.31,
+          5.516
+         ],
+         [
+          -4.5,
+          5.362
+         ],
+         [
+          -4.684,
+          5.202
+         ],
+         [
+          -4.863,
+          5.035
+         ],
+         [
+          -5.035,
+          4.863
+         ],
+         [
+          -5.202,
+          4.684
+         ],
+         [
+          -5.362,
+          4.5
+         ],
+         [
+          -5.516,
+          4.31
+         ],
+         [
+          -5.663,
+          4.114
+         ],
+         [
+          -5.803,
+          3.914
+         ],
+         [
+          -5.936,
+          3.709
+         ],
+         [
+          -6.062,
+          3.5
+         ],
+         [
+          -6.181,
+          3.286
+         ],
+         [
+          -6.292,
+          3.069
+         ],
+         [
+          -6.395,
+          2.847
+         ],
+         [
+          -6.49,
+          2.622
+         ],
+         [
+          -6.578,
+          2.394
+         ],
+         [
+          -6.657,
+          2.163
+         ],
+         [
+          -6.729,
+          1.929
+         ],
+         [
+          -6.792,
+          1.693
+         ],
+         [
+          -6.847,
+          1.455
+         ],
+         [
+          -6.894,
+          1.216
+         ],
+         [
+          -6.932,
+          0.974
+         ],
+         [
+          -6.962,
+          0.732
+         ],
+         [
+          -6.983,
+          0.488
+         ],
+         [
+          -6.996,
+          0.244
+         ],
+         [
+          -7,
+          0
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         -7,
+         0,
+         7,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "tick": [
+         -7,
+         0,
+         0,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         0,
+         0,
+         7,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "label": "7 m",
+        "at": [
+         -3.5,
+         0.75
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q8c",
+     "label": "8c",
+     "section": "Problem-solving",
+     "stem": "Calculate the perimeter of each of these shapes, correct to two decimal places.",
+     "prompt": "Both curves are semicircles.",
+     "type": "numeric",
+     "answer": "42.85",
+     "dp": 2,
+     "units": "m",
+     "figure": {
+      "kind": "diagram",
+      "unit": 17.33,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          12,
+          0
+         ],
+         [
+          12.157,
+          0.004
+         ],
+         [
+          12.314,
+          0.016
+         ],
+         [
+          12.469,
+          0.037
+         ],
+         [
+          12.624,
+          0.066
+         ],
+         [
+          12.776,
+          0.102
+         ],
+         [
+          12.927,
+          0.147
+         ],
+         [
+          13.075,
+          0.199
+         ],
+         [
+          13.22,
+          0.259
+         ],
+         [
+          13.362,
+          0.327
+         ],
+         [
+          13.5,
+          0.402
+         ],
+         [
+          13.634,
+          0.484
+         ],
+         [
+          13.763,
+          0.573
+         ],
+         [
+          13.888,
+          0.669
+         ],
+         [
+          14.007,
+          0.771
+         ],
+         [
+          14.121,
+          0.879
+         ],
+         [
+          14.229,
+          0.993
+         ],
+         [
+          14.331,
+          1.112
+         ],
+         [
+          14.427,
+          1.237
+         ],
+         [
+          14.516,
+          1.366
+         ],
+         [
+          14.598,
+          1.5
+         ],
+         [
+          14.673,
+          1.638
+         ],
+         [
+          14.741,
+          1.78
+         ],
+         [
+          14.801,
+          1.925
+         ],
+         [
+          14.853,
+          2.073
+         ],
+         [
+          14.898,
+          2.224
+         ],
+         [
+          14.934,
+          2.376
+         ],
+         [
+          14.963,
+          2.531
+         ],
+         [
+          14.984,
+          2.686
+         ],
+         [
+          14.996,
+          2.843
+         ],
+         [
+          15,
+          3
+         ],
+         [
+          14.996,
+          3.157
+         ],
+         [
+          14.984,
+          3.314
+         ],
+         [
+          14.963,
+          3.469
+         ],
+         [
+          14.934,
+          3.624
+         ],
+         [
+          14.898,
+          3.776
+         ],
+         [
+          14.853,
+          3.927
+         ],
+         [
+          14.801,
+          4.075
+         ],
+         [
+          14.741,
+          4.22
+         ],
+         [
+          14.673,
+          4.362
+         ],
+         [
+          14.598,
+          4.5
+         ],
+         [
+          14.516,
+          4.634
+         ],
+         [
+          14.427,
+          4.763
+         ],
+         [
+          14.331,
+          4.888
+         ],
+         [
+          14.229,
+          5.007
+         ],
+         [
+          14.121,
+          5.121
+         ],
+         [
+          14.007,
+          5.229
+         ],
+         [
+          13.888,
+          5.331
+         ],
+         [
+          13.763,
+          5.427
+         ],
+         [
+          13.634,
+          5.516
+         ],
+         [
+          13.5,
+          5.598
+         ],
+         [
+          13.362,
+          5.673
+         ],
+         [
+          13.22,
+          5.741
+         ],
+         [
+          13.075,
+          5.801
+         ],
+         [
+          12.927,
+          5.853
+         ],
+         [
+          12.776,
+          5.898
+         ],
+         [
+          12.624,
+          5.934
+         ],
+         [
+          12.469,
+          5.963
+         ],
+         [
+          12.314,
+          5.984
+         ],
+         [
+          12.157,
+          5.996
+         ],
+         [
+          12,
+          6
+         ],
+         [
+          0,
+          6
+         ],
+         [
+          0.157,
+          5.996
+         ],
+         [
+          0.314,
+          5.984
+         ],
+         [
+          0.469,
+          5.963
+         ],
+         [
+          0.624,
+          5.934
+         ],
+         [
+          0.776,
+          5.898
+         ],
+         [
+          0.927,
+          5.853
+         ],
+         [
+          1.075,
+          5.801
+         ],
+         [
+          1.22,
+          5.741
+         ],
+         [
+          1.362,
+          5.673
+         ],
+         [
+          1.5,
+          5.598
+         ],
+         [
+          1.634,
+          5.516
+         ],
+         [
+          1.763,
+          5.427
+         ],
+         [
+          1.888,
+          5.331
+         ],
+         [
+          2.007,
+          5.229
+         ],
+         [
+          2.121,
+          5.121
+         ],
+         [
+          2.229,
+          5.007
+         ],
+         [
+          2.331,
+          4.888
+         ],
+         [
+          2.427,
+          4.763
+         ],
+         [
+          2.516,
+          4.634
+         ],
+         [
+          2.598,
+          4.5
+         ],
+         [
+          2.673,
+          4.362
+         ],
+         [
+          2.741,
+          4.22
+         ],
+         [
+          2.801,
+          4.075
+         ],
+         [
+          2.853,
+          3.927
+         ],
+         [
+          2.898,
+          3.776
+         ],
+         [
+          2.934,
+          3.624
+         ],
+         [
+          2.963,
+          3.469
+         ],
+         [
+          2.984,
+          3.314
+         ],
+         [
+          2.996,
+          3.157
+         ],
+         [
+          3,
+          3
+         ],
+         [
+          2.996,
+          2.843
+         ],
+         [
+          2.984,
+          2.686
+         ],
+         [
+          2.963,
+          2.531
+         ],
+         [
+          2.934,
+          2.376
+         ],
+         [
+          2.898,
+          2.224
+         ],
+         [
+          2.853,
+          2.073
+         ],
+         [
+          2.801,
+          1.925
+         ],
+         [
+          2.741,
+          1.78
+         ],
+         [
+          2.673,
+          1.638
+         ],
+         [
+          2.598,
+          1.5
+         ],
+         [
+          2.516,
+          1.366
+         ],
+         [
+          2.427,
+          1.237
+         ],
+         [
+          2.331,
+          1.112
+         ],
+         [
+          2.229,
+          0.993
+         ],
+         [
+          2.121,
+          0.879
+         ],
+         [
+          2.007,
+          0.771
+         ],
+         [
+          1.888,
+          0.669
+         ],
+         [
+          1.763,
+          0.573
+         ],
+         [
+          1.634,
+          0.484
+         ],
+         [
+          1.5,
+          0.402
+         ],
+         [
+          1.362,
+          0.327
+         ],
+         [
+          1.22,
+          0.259
+         ],
+         [
+          1.075,
+          0.199
+         ],
+         [
+          0.927,
+          0.147
+         ],
+         [
+          0.776,
+          0.102
+         ],
+         [
+          0.624,
+          0.066
+         ],
+         [
+          0.469,
+          0.037
+         ],
+         [
+          0.314,
+          0.016
+         ],
+         [
+          0.157,
+          0.004
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         12,
+         0,
+         12,
+         6
+        ],
+        "dash": true
+       },
+       {
+        "label": "6 m",
+        "at": [
+         11.6,
+         3
+        ],
+        "anchor": "end"
+       },
+       {
+        "dim": [
+         0,
+         0,
+         12,
+         0
+        ],
+        "label": "12 m",
+        "off": -1
+       }
+      ]
+     }
+    },
+    {
+     "id": "q11a",
+     "label": "11a",
+     "section": "Reasoning",
+     "stem": "Find the radius of each of these sectors for the given arc lengths, correct to one decimal place.",
+     "prompt": "The arc length is $5$ m. Find the radius $r$.",
+     "type": "numeric",
+     "answer": "7.2",
+     "dp": 1,
+     "units": "m",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "poly": [
+         [
+          1.026,
+          2.819
+         ],
+         [
+          0.827,
+          2.884
+         ],
+         [
+          0.624,
+          2.934
+         ],
+         [
+          0.418,
+          2.971
+         ],
+         [
+          0.209,
+          2.993
+         ],
+         [
+          0,
+          3
+         ],
+         [
+          -0.209,
+          2.993
+         ],
+         [
+          -0.418,
+          2.971
+         ],
+         [
+          -0.624,
+          2.934
+         ],
+         [
+          -0.827,
+          2.884
+         ],
+         [
+          -1.026,
+          2.819
+         ]
+        ],
+        "open": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         1.026,
+         2.819
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         -1.026,
+         2.819
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         0,
+         0,
+         70,
+         110
+        ],
+        "label": "40°",
+        "r": 0.9
+       },
+       {
+        "label": "r",
+        "at": [
+         0.87,
+         1.28
+        ],
+        "anchor": "start"
+       },
+       {
+        "label": "5 m",
+        "at": [
+         0,
+         3.45
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q11b",
+     "label": "11b",
+     "section": "Reasoning",
+     "stem": "Find the radius of each of these sectors for the given arc lengths, correct to one decimal place.",
+     "prompt": "The arc length is $50$ m. Find the radius $r$.",
+     "type": "numeric",
+     "answer": "23.9",
+     "dp": 1,
+     "units": "m",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "poly": [
+         [
+          2.598,
+          1.5
+         ],
+         [
+          2.487,
+          1.678
+         ],
+         [
+          2.364,
+          1.847
+         ],
+         [
+          2.229,
+          2.007
+         ],
+         [
+          2.084,
+          2.158
+         ],
+         [
+          1.928,
+          2.298
+         ],
+         [
+          1.763,
+          2.427
+         ],
+         [
+          1.59,
+          2.544
+         ],
+         [
+          1.408,
+          2.649
+         ],
+         [
+          1.22,
+          2.741
+         ],
+         [
+          1.026,
+          2.819
+         ],
+         [
+          0.827,
+          2.884
+         ],
+         [
+          0.624,
+          2.934
+         ],
+         [
+          0.418,
+          2.971
+         ],
+         [
+          0.209,
+          2.993
+         ],
+         [
+          0,
+          3
+         ],
+         [
+          -0.209,
+          2.993
+         ],
+         [
+          -0.418,
+          2.971
+         ],
+         [
+          -0.624,
+          2.934
+         ],
+         [
+          -0.827,
+          2.884
+         ],
+         [
+          -1.026,
+          2.819
+         ],
+         [
+          -1.22,
+          2.741
+         ],
+         [
+          -1.408,
+          2.649
+         ],
+         [
+          -1.59,
+          2.544
+         ],
+         [
+          -1.763,
+          2.427
+         ],
+         [
+          -1.928,
+          2.298
+         ],
+         [
+          -2.084,
+          2.158
+         ],
+         [
+          -2.229,
+          2.007
+         ],
+         [
+          -2.364,
+          1.847
+         ],
+         [
+          -2.487,
+          1.678
+         ],
+         [
+          -2.598,
+          1.5
+         ]
+        ],
+        "open": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         2.598,
+         1.5
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         -2.598,
+         1.5
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         0,
+         0,
+         30,
+         150
+        ],
+        "label": "120°",
+        "r": 0.55
+       },
+       {
+        "label": "r",
+        "at": [
+         1.489,
+         0.307
+        ],
+        "anchor": "start"
+       },
+       {
+        "label": "50 m",
+        "at": [
+         0,
+         3.45
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q11c",
+     "label": "11c",
+     "section": "Reasoning",
+     "stem": "Find the radius of each of these sectors for the given arc lengths, correct to one decimal place.",
+     "prompt": "The arc length is $36$ km and the angle is $270°$. Find the radius $r$.",
+     "type": "numeric",
+     "answer": "7.6",
+     "dp": 1,
+     "units": "km",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "poly": [
+         [
+          3,
+          0
+         ],
+         [
+          2.993,
+          0.211
+         ],
+         [
+          2.97,
+          0.421
+         ],
+         [
+          2.933,
+          0.628
+         ],
+         [
+          2.882,
+          0.833
+         ],
+         [
+          2.816,
+          1.033
+         ],
+         [
+          2.737,
+          1.229
+         ],
+         [
+          2.644,
+          1.418
+         ],
+         [
+          2.537,
+          1.6
+         ],
+         [
+          2.419,
+          1.775
+         ],
+         [
+          2.288,
+          1.94
+         ],
+         [
+          2.146,
+          2.096
+         ],
+         [
+          1.993,
+          2.242
+         ],
+         [
+          1.831,
+          2.376
+         ],
+         [
+          1.659,
+          2.499
+         ],
+         [
+          1.48,
+          2.61
+         ],
+         [
+          1.293,
+          2.707
+         ],
+         [
+          1.099,
+          2.791
+         ],
+         [
+          0.9,
+          2.862
+         ],
+         [
+          0.697,
+          2.918
+         ],
+         [
+          0.49,
+          2.96
+         ],
+         [
+          0.281,
+          2.987
+         ],
+         [
+          0.07,
+          2.999
+         ],
+         [
+          -0.141,
+          2.997
+         ],
+         [
+          -0.351,
+          2.979
+         ],
+         [
+          -0.559,
+          2.947
+         ],
+         [
+          -0.765,
+          2.901
+         ],
+         [
+          -0.967,
+          2.84
+         ],
+         [
+          -1.164,
+          2.765
+         ],
+         [
+          -1.356,
+          2.676
+         ],
+         [
+          -1.54,
+          2.574
+         ],
+         [
+          -1.718,
+          2.46
+         ],
+         [
+          -1.886,
+          2.333
+         ],
+         [
+          -2.045,
+          2.195
+         ],
+         [
+          -2.195,
+          2.045
+         ],
+         [
+          -2.333,
+          1.886
+         ],
+         [
+          -2.46,
+          1.718
+         ],
+         [
+          -2.574,
+          1.54
+         ],
+         [
+          -2.676,
+          1.356
+         ],
+         [
+          -2.765,
+          1.164
+         ],
+         [
+          -2.84,
+          0.967
+         ],
+         [
+          -2.901,
+          0.765
+         ],
+         [
+          -2.947,
+          0.559
+         ],
+         [
+          -2.979,
+          0.351
+         ],
+         [
+          -2.997,
+          0.141
+         ],
+         [
+          -2.999,
+          -0.07
+         ],
+         [
+          -2.987,
+          -0.281
+         ],
+         [
+          -2.96,
+          -0.49
+         ],
+         [
+          -2.918,
+          -0.697
+         ],
+         [
+          -2.862,
+          -0.9
+         ],
+         [
+          -2.791,
+          -1.099
+         ],
+         [
+          -2.707,
+          -1.293
+         ],
+         [
+          -2.61,
+          -1.48
+         ],
+         [
+          -2.499,
+          -1.659
+         ],
+         [
+          -2.376,
+          -1.831
+         ],
+         [
+          -2.242,
+          -1.993
+         ],
+         [
+          -2.096,
+          -2.146
+         ],
+         [
+          -1.94,
+          -2.288
+         ],
+         [
+          -1.775,
+          -2.419
+         ],
+         [
+          -1.6,
+          -2.537
+         ],
+         [
+          -1.418,
+          -2.644
+         ],
+         [
+          -1.229,
+          -2.737
+         ],
+         [
+          -1.033,
+          -2.816
+         ],
+         [
+          -0.833,
+          -2.882
+         ],
+         [
+          -0.628,
+          -2.933
+         ],
+         [
+          -0.421,
+          -2.97
+         ],
+         [
+          -0.211,
+          -2.993
+         ],
+         [
+          0,
+          -3
+         ]
+        ],
+        "open": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         3,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         0,
+         -3
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         0,
+         0,
+         270,
+         360
+        ],
+        "right": true
+       },
+       {
+        "label": "r",
+        "at": [
+         1.5,
+         -0.494
+        ]
+       },
+       {
+        "label": "36 km",
+        "at": [
+         -2.44,
+         2.44
+        ],
+        "anchor": "end"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q12a",
+     "label": "12a",
+     "section": "Enrichment",
+     "stem": "The exact perimeter of a rectangle $10$ cm by $4$ cm with a semicircle on one $4$ cm end is $P = 10 + 4 + 10 + \\frac{1}{2}\\pi \\times 4 = 24 + 2\\pi$ cm. Find the exact perimeter of each of these composite shapes.",
+     "prompt": "A square with a quadrant on one side.",
+     "type": "expression",
+     "answer": "16+2pi",
+     "units": "cm",
+     "figure": {
+      "kind": "diagram",
+      "unit": 32.5,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          4,
+          0
+         ],
+         [
+          4.07,
+          0.001
+         ],
+         [
+          4.14,
+          0.002
+         ],
+         [
+          4.209,
+          0.005
+         ],
+         [
+          4.279,
+          0.01
+         ],
+         [
+          4.349,
+          0.015
+         ],
+         [
+          4.418,
+          0.022
+         ],
+         [
+          4.487,
+          0.03
+         ],
+         [
+          4.557,
+          0.039
+         ],
+         [
+          4.626,
+          0.049
+         ],
+         [
+          4.695,
+          0.061
+         ],
+         [
+          4.763,
+          0.073
+         ],
+         [
+          4.832,
+          0.087
+         ],
+         [
+          4.9,
+          0.103
+         ],
+         [
+          4.968,
+          0.119
+         ],
+         [
+          5.035,
+          0.136
+         ],
+         [
+          5.103,
+          0.155
+         ],
+         [
+          5.169,
+          0.175
+         ],
+         [
+          5.236,
+          0.196
+         ],
+         [
+          5.302,
+          0.218
+         ],
+         [
+          5.368,
+          0.241
+         ],
+         [
+          5.433,
+          0.266
+         ],
+         [
+          5.498,
+          0.291
+         ],
+         [
+          5.563,
+          0.318
+         ],
+         [
+          5.627,
+          0.346
+         ],
+         [
+          5.69,
+          0.375
+         ],
+         [
+          5.753,
+          0.405
+         ],
+         [
+          5.816,
+          0.436
+         ],
+         [
+          5.878,
+          0.468
+         ],
+         [
+          5.939,
+          0.502
+         ],
+         [
+          6,
+          0.536
+         ],
+         [
+          6.06,
+          0.571
+         ],
+         [
+          6.12,
+          0.608
+         ],
+         [
+          6.179,
+          0.645
+         ],
+         [
+          6.237,
+          0.684
+         ],
+         [
+          6.294,
+          0.723
+         ],
+         [
+          6.351,
+          0.764
+         ],
+         [
+          6.407,
+          0.805
+         ],
+         [
+          6.463,
+          0.848
+         ],
+         [
+          6.517,
+          0.891
+         ],
+         [
+          6.571,
+          0.936
+         ],
+         [
+          6.624,
+          0.981
+         ],
+         [
+          6.677,
+          1.027
+         ],
+         [
+          6.728,
+          1.075
+         ],
+         [
+          6.779,
+          1.123
+         ],
+         [
+          6.828,
+          1.172
+         ],
+         [
+          6.877,
+          1.221
+         ],
+         [
+          6.925,
+          1.272
+         ],
+         [
+          6.973,
+          1.323
+         ],
+         [
+          7.019,
+          1.376
+         ],
+         [
+          7.064,
+          1.429
+         ],
+         [
+          7.109,
+          1.483
+         ],
+         [
+          7.152,
+          1.537
+         ],
+         [
+          7.195,
+          1.593
+         ],
+         [
+          7.236,
+          1.649
+         ],
+         [
+          7.277,
+          1.706
+         ],
+         [
+          7.316,
+          1.763
+         ],
+         [
+          7.355,
+          1.821
+         ],
+         [
+          7.392,
+          1.88
+         ],
+         [
+          7.429,
+          1.94
+         ],
+         [
+          7.464,
+          2
+         ],
+         [
+          7.498,
+          2.061
+         ],
+         [
+          7.532,
+          2.122
+         ],
+         [
+          7.564,
+          2.184
+         ],
+         [
+          7.595,
+          2.247
+         ],
+         [
+          7.625,
+          2.31
+         ],
+         [
+          7.654,
+          2.373
+         ],
+         [
+          7.682,
+          2.437
+         ],
+         [
+          7.709,
+          2.502
+         ],
+         [
+          7.734,
+          2.567
+         ],
+         [
+          7.759,
+          2.632
+         ],
+         [
+          7.782,
+          2.698
+         ],
+         [
+          7.804,
+          2.764
+         ],
+         [
+          7.825,
+          2.831
+         ],
+         [
+          7.845,
+          2.897
+         ],
+         [
+          7.864,
+          2.965
+         ],
+         [
+          7.881,
+          3.032
+         ],
+         [
+          7.897,
+          3.1
+         ],
+         [
+          7.913,
+          3.168
+         ],
+         [
+          7.927,
+          3.237
+         ],
+         [
+          7.939,
+          3.305
+         ],
+         [
+          7.951,
+          3.374
+         ],
+         [
+          7.961,
+          3.443
+         ],
+         [
+          7.97,
+          3.513
+         ],
+         [
+          7.978,
+          3.582
+         ],
+         [
+          7.985,
+          3.651
+         ],
+         [
+          7.99,
+          3.721
+         ],
+         [
+          7.995,
+          3.791
+         ],
+         [
+          7.998,
+          3.86
+         ],
+         [
+          7.999,
+          3.93
+         ],
+         [
+          8,
+          4
+         ],
+         [
+          0,
+          4
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         4,
+         0,
+         4,
+         4
+        ],
+        "dash": true
+       },
+       {
+        "tick": [
+         0,
+         4,
+         0,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         0,
+         0,
+         4,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         4,
+         4,
+         8,
+         4
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         0,
+         4,
+         4,
+         4
+        ],
+        "n": 1
+       },
+       {
+        "label": "4 cm",
+        "at": [
+         -0.373,
+         2
+        ],
+        "anchor": "end"
+       }
+      ]
+     },
+     "hint": "Type π as pi, for example 10+3pi"
+    },
+    {
+     "id": "q12b",
+     "label": "12b",
+     "section": "Enrichment",
+     "stem": "The exact perimeter of a rectangle $10$ cm by $4$ cm with a semicircle on one $4$ cm end is $P = 10 + 4 + 10 + \\frac{1}{2}\\pi \\times 4 = 24 + 2\\pi$ cm. Find the exact perimeter of each of these composite shapes.",
+     "prompt": "A rectangle with a semicircle on top.",
+     "type": "expression",
+     "answer": "12+3pi",
+     "units": "cm",
+     "figure": {
+      "kind": "diagram",
+      "unit": 31.67,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          6,
+          0
+         ],
+         [
+          6,
+          3
+         ],
+         [
+          5.998,
+          3.105
+         ],
+         [
+          5.993,
+          3.209
+         ],
+         [
+          5.984,
+          3.314
+         ],
+         [
+          5.971,
+          3.418
+         ],
+         [
+          5.954,
+          3.521
+         ],
+         [
+          5.934,
+          3.624
+         ],
+         [
+          5.911,
+          3.726
+         ],
+         [
+          5.884,
+          3.827
+         ],
+         [
+          5.853,
+          3.927
+         ],
+         [
+          5.819,
+          4.026
+         ],
+         [
+          5.782,
+          4.124
+         ],
+         [
+          5.741,
+          4.22
+         ],
+         [
+          5.696,
+          4.315
+         ],
+         [
+          5.649,
+          4.408
+         ],
+         [
+          5.598,
+          4.5
+         ],
+         [
+          5.544,
+          4.59
+         ],
+         [
+          5.487,
+          4.678
+         ],
+         [
+          5.427,
+          4.763
+         ],
+         [
+          5.364,
+          4.847
+         ],
+         [
+          5.298,
+          4.928
+         ],
+         [
+          5.229,
+          5.007
+         ],
+         [
+          5.158,
+          5.084
+         ],
+         [
+          5.084,
+          5.158
+         ],
+         [
+          5.007,
+          5.229
+         ],
+         [
+          4.928,
+          5.298
+         ],
+         [
+          4.847,
+          5.364
+         ],
+         [
+          4.763,
+          5.427
+         ],
+         [
+          4.678,
+          5.487
+         ],
+         [
+          4.59,
+          5.544
+         ],
+         [
+          4.5,
+          5.598
+         ],
+         [
+          4.408,
+          5.649
+         ],
+         [
+          4.315,
+          5.696
+         ],
+         [
+          4.22,
+          5.741
+         ],
+         [
+          4.124,
+          5.782
+         ],
+         [
+          4.026,
+          5.819
+         ],
+         [
+          3.927,
+          5.853
+         ],
+         [
+          3.827,
+          5.884
+         ],
+         [
+          3.726,
+          5.911
+         ],
+         [
+          3.624,
+          5.934
+         ],
+         [
+          3.521,
+          5.954
+         ],
+         [
+          3.418,
+          5.971
+         ],
+         [
+          3.314,
+          5.984
+         ],
+         [
+          3.209,
+          5.993
+         ],
+         [
+          3.105,
+          5.998
+         ],
+         [
+          3,
+          6
+         ],
+         [
+          2.895,
+          5.998
+         ],
+         [
+          2.791,
+          5.993
+         ],
+         [
+          2.686,
+          5.984
+         ],
+         [
+          2.582,
+          5.971
+         ],
+         [
+          2.479,
+          5.954
+         ],
+         [
+          2.376,
+          5.934
+         ],
+         [
+          2.274,
+          5.911
+         ],
+         [
+          2.173,
+          5.884
+         ],
+         [
+          2.073,
+          5.853
+         ],
+         [
+          1.974,
+          5.819
+         ],
+         [
+          1.876,
+          5.782
+         ],
+         [
+          1.78,
+          5.741
+         ],
+         [
+          1.685,
+          5.696
+         ],
+         [
+          1.592,
+          5.649
+         ],
+         [
+          1.5,
+          5.598
+         ],
+         [
+          1.41,
+          5.544
+         ],
+         [
+          1.322,
+          5.487
+         ],
+         [
+          1.237,
+          5.427
+         ],
+         [
+          1.153,
+          5.364
+         ],
+         [
+          1.072,
+          5.298
+         ],
+         [
+          0.993,
+          5.229
+         ],
+         [
+          0.916,
+          5.158
+         ],
+         [
+          0.842,
+          5.084
+         ],
+         [
+          0.771,
+          5.007
+         ],
+         [
+          0.702,
+          4.928
+         ],
+         [
+          0.636,
+          4.847
+         ],
+         [
+          0.573,
+          4.763
+         ],
+         [
+          0.513,
+          4.678
+         ],
+         [
+          0.456,
+          4.59
+         ],
+         [
+          0.402,
+          4.5
+         ],
+         [
+          0.351,
+          4.408
+         ],
+         [
+          0.304,
+          4.315
+         ],
+         [
+          0.259,
+          4.22
+         ],
+         [
+          0.218,
+          4.124
+         ],
+         [
+          0.181,
+          4.026
+         ],
+         [
+          0.147,
+          3.927
+         ],
+         [
+          0.116,
+          3.827
+         ],
+         [
+          0.089,
+          3.726
+         ],
+         [
+          0.066,
+          3.624
+         ],
+         [
+          0.046,
+          3.521
+         ],
+         [
+          0.029,
+          3.418
+         ],
+         [
+          0.016,
+          3.314
+         ],
+         [
+          0.007,
+          3.209
+         ],
+         [
+          0.002,
+          3.105
+         ],
+         [
+          0,
+          3
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0,
+         3,
+         6,
+         3
+        ],
+        "dash": true
+       },
+       {
+        "label": "6 cm",
+        "at": [
+         3,
+         -0.496
+        ]
+       },
+       {
+        "label": "3 cm",
+        "at": [
+         6.382,
+         1.5
+        ],
+        "anchor": "start"
+       },
+       {
+        "tick": [
+         6,
+         0,
+         6,
+         3
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         0,
+         3,
+         0,
+         0
+        ],
+        "n": 1
+       }
+      ]
+     }
+    },
+    {
+     "id": "q13a",
+     "label": "13a",
+     "section": "Enrichment",
+     "stem": "Find the exact perimeters of the shapes in Question 8, in terms of $\\pi$.",
+     "prompt": "The shape from Question 8a.",
+     "type": "expression",
+     "answer": "12pi",
+     "units": "cm",
+     "figure": {
+      "kind": "diagram",
+      "unit": 15.83,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          0.004,
+          -0.157
+         ],
+         [
+          0.016,
+          -0.314
+         ],
+         [
+          0.037,
+          -0.469
+         ],
+         [
+          0.066,
+          -0.624
+         ],
+         [
+          0.102,
+          -0.776
+         ],
+         [
+          0.147,
+          -0.927
+         ],
+         [
+          0.199,
+          -1.075
+         ],
+         [
+          0.259,
+          -1.22
+         ],
+         [
+          0.327,
+          -1.362
+         ],
+         [
+          0.402,
+          -1.5
+         ],
+         [
+          0.484,
+          -1.634
+         ],
+         [
+          0.573,
+          -1.763
+         ],
+         [
+          0.669,
+          -1.888
+         ],
+         [
+          0.771,
+          -2.007
+         ],
+         [
+          0.879,
+          -2.121
+         ],
+         [
+          0.993,
+          -2.229
+         ],
+         [
+          1.112,
+          -2.331
+         ],
+         [
+          1.237,
+          -2.427
+         ],
+         [
+          1.366,
+          -2.516
+         ],
+         [
+          1.5,
+          -2.598
+         ],
+         [
+          1.638,
+          -2.673
+         ],
+         [
+          1.78,
+          -2.741
+         ],
+         [
+          1.925,
+          -2.801
+         ],
+         [
+          2.073,
+          -2.853
+         ],
+         [
+          2.224,
+          -2.898
+         ],
+         [
+          2.376,
+          -2.934
+         ],
+         [
+          2.531,
+          -2.963
+         ],
+         [
+          2.686,
+          -2.984
+         ],
+         [
+          2.843,
+          -2.996
+         ],
+         [
+          3,
+          -3
+         ],
+         [
+          3.157,
+          -2.996
+         ],
+         [
+          3.314,
+          -2.984
+         ],
+         [
+          3.469,
+          -2.963
+         ],
+         [
+          3.624,
+          -2.934
+         ],
+         [
+          3.776,
+          -2.898
+         ],
+         [
+          3.927,
+          -2.853
+         ],
+         [
+          4.075,
+          -2.801
+         ],
+         [
+          4.22,
+          -2.741
+         ],
+         [
+          4.362,
+          -2.673
+         ],
+         [
+          4.5,
+          -2.598
+         ],
+         [
+          4.634,
+          -2.516
+         ],
+         [
+          4.763,
+          -2.427
+         ],
+         [
+          4.888,
+          -2.331
+         ],
+         [
+          5.007,
+          -2.229
+         ],
+         [
+          5.121,
+          -2.121
+         ],
+         [
+          5.229,
+          -2.007
+         ],
+         [
+          5.331,
+          -1.888
+         ],
+         [
+          5.427,
+          -1.763
+         ],
+         [
+          5.516,
+          -1.634
+         ],
+         [
+          5.598,
+          -1.5
+         ],
+         [
+          5.673,
+          -1.362
+         ],
+         [
+          5.741,
+          -1.22
+         ],
+         [
+          5.801,
+          -1.075
+         ],
+         [
+          5.853,
+          -0.927
+         ],
+         [
+          5.898,
+          -0.776
+         ],
+         [
+          5.934,
+          -0.624
+         ],
+         [
+          5.963,
+          -0.469
+         ],
+         [
+          5.984,
+          -0.314
+         ],
+         [
+          5.996,
+          -0.157
+         ],
+         [
+          6,
+          0
+         ],
+         [
+          6.157,
+          0.004
+         ],
+         [
+          6.314,
+          0.016
+         ],
+         [
+          6.469,
+          0.037
+         ],
+         [
+          6.624,
+          0.066
+         ],
+         [
+          6.776,
+          0.102
+         ],
+         [
+          6.927,
+          0.147
+         ],
+         [
+          7.075,
+          0.199
+         ],
+         [
+          7.22,
+          0.259
+         ],
+         [
+          7.362,
+          0.327
+         ],
+         [
+          7.5,
+          0.402
+         ],
+         [
+          7.634,
+          0.484
+         ],
+         [
+          7.763,
+          0.573
+         ],
+         [
+          7.888,
+          0.669
+         ],
+         [
+          8.007,
+          0.771
+         ],
+         [
+          8.121,
+          0.879
+         ],
+         [
+          8.229,
+          0.993
+         ],
+         [
+          8.331,
+          1.112
+         ],
+         [
+          8.427,
+          1.237
+         ],
+         [
+          8.516,
+          1.366
+         ],
+         [
+          8.598,
+          1.5
+         ],
+         [
+          8.673,
+          1.638
+         ],
+         [
+          8.741,
+          1.78
+         ],
+         [
+          8.801,
+          1.925
+         ],
+         [
+          8.853,
+          2.073
+         ],
+         [
+          8.898,
+          2.224
+         ],
+         [
+          8.934,
+          2.376
+         ],
+         [
+          8.963,
+          2.531
+         ],
+         [
+          8.984,
+          2.686
+         ],
+         [
+          8.996,
+          2.843
+         ],
+         [
+          9,
+          3
+         ],
+         [
+          8.996,
+          3.157
+         ],
+         [
+          8.984,
+          3.314
+         ],
+         [
+          8.963,
+          3.469
+         ],
+         [
+          8.934,
+          3.624
+         ],
+         [
+          8.898,
+          3.776
+         ],
+         [
+          8.853,
+          3.927
+         ],
+         [
+          8.801,
+          4.075
+         ],
+         [
+          8.741,
+          4.22
+         ],
+         [
+          8.673,
+          4.362
+         ],
+         [
+          8.598,
+          4.5
+         ],
+         [
+          8.516,
+          4.634
+         ],
+         [
+          8.427,
+          4.763
+         ],
+         [
+          8.331,
+          4.888
+         ],
+         [
+          8.229,
+          5.007
+         ],
+         [
+          8.121,
+          5.121
+         ],
+         [
+          8.007,
+          5.229
+         ],
+         [
+          7.888,
+          5.331
+         ],
+         [
+          7.763,
+          5.427
+         ],
+         [
+          7.634,
+          5.516
+         ],
+         [
+          7.5,
+          5.598
+         ],
+         [
+          7.362,
+          5.673
+         ],
+         [
+          7.22,
+          5.741
+         ],
+         [
+          7.075,
+          5.801
+         ],
+         [
+          6.927,
+          5.853
+         ],
+         [
+          6.776,
+          5.898
+         ],
+         [
+          6.624,
+          5.934
+         ],
+         [
+          6.469,
+          5.963
+         ],
+         [
+          6.314,
+          5.984
+         ],
+         [
+          6.157,
+          5.996
+         ],
+         [
+          6,
+          6
+         ],
+         [
+          5.996,
+          6.157
+         ],
+         [
+          5.984,
+          6.314
+         ],
+         [
+          5.963,
+          6.469
+         ],
+         [
+          5.934,
+          6.624
+         ],
+         [
+          5.898,
+          6.776
+         ],
+         [
+          5.853,
+          6.927
+         ],
+         [
+          5.801,
+          7.075
+         ],
+         [
+          5.741,
+          7.22
+         ],
+         [
+          5.673,
+          7.362
+         ],
+         [
+          5.598,
+          7.5
+         ],
+         [
+          5.516,
+          7.634
+         ],
+         [
+          5.427,
+          7.763
+         ],
+         [
+          5.331,
+          7.888
+         ],
+         [
+          5.229,
+          8.007
+         ],
+         [
+          5.121,
+          8.121
+         ],
+         [
+          5.007,
+          8.229
+         ],
+         [
+          4.888,
+          8.331
+         ],
+         [
+          4.763,
+          8.427
+         ],
+         [
+          4.634,
+          8.516
+         ],
+         [
+          4.5,
+          8.598
+         ],
+         [
+          4.362,
+          8.673
+         ],
+         [
+          4.22,
+          8.741
+         ],
+         [
+          4.075,
+          8.801
+         ],
+         [
+          3.927,
+          8.853
+         ],
+         [
+          3.776,
+          8.898
+         ],
+         [
+          3.624,
+          8.934
+         ],
+         [
+          3.469,
+          8.963
+         ],
+         [
+          3.314,
+          8.984
+         ],
+         [
+          3.157,
+          8.996
+         ],
+         [
+          3,
+          9
+         ],
+         [
+          2.843,
+          8.996
+         ],
+         [
+          2.686,
+          8.984
+         ],
+         [
+          2.531,
+          8.963
+         ],
+         [
+          2.376,
+          8.934
+         ],
+         [
+          2.224,
+          8.898
+         ],
+         [
+          2.073,
+          8.853
+         ],
+         [
+          1.925,
+          8.801
+         ],
+         [
+          1.78,
+          8.741
+         ],
+         [
+          1.638,
+          8.673
+         ],
+         [
+          1.5,
+          8.598
+         ],
+         [
+          1.366,
+          8.516
+         ],
+         [
+          1.237,
+          8.427
+         ],
+         [
+          1.112,
+          8.331
+         ],
+         [
+          0.993,
+          8.229
+         ],
+         [
+          0.879,
+          8.121
+         ],
+         [
+          0.771,
+          8.007
+         ],
+         [
+          0.669,
+          7.888
+         ],
+         [
+          0.573,
+          7.763
+         ],
+         [
+          0.484,
+          7.634
+         ],
+         [
+          0.402,
+          7.5
+         ],
+         [
+          0.327,
+          7.362
+         ],
+         [
+          0.259,
+          7.22
+         ],
+         [
+          0.199,
+          7.075
+         ],
+         [
+          0.147,
+          6.927
+         ],
+         [
+          0.102,
+          6.776
+         ],
+         [
+          0.066,
+          6.624
+         ],
+         [
+          0.037,
+          6.469
+         ],
+         [
+          0.016,
+          6.314
+         ],
+         [
+          0.004,
+          6.157
+         ],
+         [
+          0,
+          6
+         ],
+         [
+          -0.157,
+          5.996
+         ],
+         [
+          -0.314,
+          5.984
+         ],
+         [
+          -0.469,
+          5.963
+         ],
+         [
+          -0.624,
+          5.934
+         ],
+         [
+          -0.776,
+          5.898
+         ],
+         [
+          -0.927,
+          5.853
+         ],
+         [
+          -1.075,
+          5.801
+         ],
+         [
+          -1.22,
+          5.741
+         ],
+         [
+          -1.362,
+          5.673
+         ],
+         [
+          -1.5,
+          5.598
+         ],
+         [
+          -1.634,
+          5.516
+         ],
+         [
+          -1.763,
+          5.427
+         ],
+         [
+          -1.888,
+          5.331
+         ],
+         [
+          -2.007,
+          5.229
+         ],
+         [
+          -2.121,
+          5.121
+         ],
+         [
+          -2.229,
+          5.007
+         ],
+         [
+          -2.331,
+          4.888
+         ],
+         [
+          -2.427,
+          4.763
+         ],
+         [
+          -2.516,
+          4.634
+         ],
+         [
+          -2.598,
+          4.5
+         ],
+         [
+          -2.673,
+          4.362
+         ],
+         [
+          -2.741,
+          4.22
+         ],
+         [
+          -2.801,
+          4.075
+         ],
+         [
+          -2.853,
+          3.927
+         ],
+         [
+          -2.898,
+          3.776
+         ],
+         [
+          -2.934,
+          3.624
+         ],
+         [
+          -2.963,
+          3.469
+         ],
+         [
+          -2.984,
+          3.314
+         ],
+         [
+          -2.996,
+          3.157
+         ],
+         [
+          -3,
+          3
+         ],
+         [
+          -2.996,
+          2.843
+         ],
+         [
+          -2.984,
+          2.686
+         ],
+         [
+          -2.963,
+          2.531
+         ],
+         [
+          -2.934,
+          2.376
+         ],
+         [
+          -2.898,
+          2.224
+         ],
+         [
+          -2.853,
+          2.073
+         ],
+         [
+          -2.801,
+          1.925
+         ],
+         [
+          -2.741,
+          1.78
+         ],
+         [
+          -2.673,
+          1.638
+         ],
+         [
+          -2.598,
+          1.5
+         ],
+         [
+          -2.516,
+          1.366
+         ],
+         [
+          -2.427,
+          1.237
+         ],
+         [
+          -2.331,
+          1.112
+         ],
+         [
+          -2.229,
+          0.993
+         ],
+         [
+          -2.121,
+          0.879
+         ],
+         [
+          -2.007,
+          0.771
+         ],
+         [
+          -1.888,
+          0.669
+         ],
+         [
+          -1.763,
+          0.573
+         ],
+         [
+          -1.634,
+          0.484
+         ],
+         [
+          -1.5,
+          0.402
+         ],
+         [
+          -1.362,
+          0.327
+         ],
+         [
+          -1.22,
+          0.259
+         ],
+         [
+          -1.075,
+          0.199
+         ],
+         [
+          -0.927,
+          0.147
+         ],
+         [
+          -0.776,
+          0.102
+         ],
+         [
+          -0.624,
+          0.066
+         ],
+         [
+          -0.469,
+          0.037
+         ],
+         [
+          -0.314,
+          0.016
+         ],
+         [
+          -0.157,
+          0.004
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         6,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         6,
+         0,
+         6,
+         6
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         6,
+         6,
+         0,
+         6
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         0,
+         6,
+         0,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "tick": [
+         0,
+         0,
+         6,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         6,
+         0,
+         6,
+         6
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         6,
+         6,
+         0,
+         6
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         0,
+         6,
+         0,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "label": "6 cm",
+        "at": [
+         3,
+         4.9
+        ]
+       }
+      ]
+     },
+     "hint": "Type π as pi, for example 10+3pi"
+    },
+    {
+     "id": "q13b",
+     "label": "13b",
+     "section": "Enrichment",
+     "stem": "Find the exact perimeters of the shapes in Question 8, in terms of $\\pi$.",
+     "prompt": "The shape from Question 8b.",
+     "type": "expression",
+     "answer": "14pi",
+     "units": "m",
+     "figure": {
+      "kind": "diagram",
+      "unit": 18.1,
+      "items": [
+       {
+        "poly": [
+         [
+          -6.995,
+          -0.183
+         ],
+         [
+          -6.981,
+          -0.366
+         ],
+         [
+          -6.957,
+          -0.548
+         ],
+         [
+          -6.924,
+          -0.728
+         ],
+         [
+          -6.881,
+          -0.906
+         ],
+         [
+          -6.829,
+          -1.082
+         ],
+         [
+          -6.768,
+          -1.254
+         ],
+         [
+          -6.697,
+          -1.424
+         ],
+         [
+          -6.619,
+          -1.589
+         ],
+         [
+          -6.531,
+          -1.75
+         ],
+         [
+          -6.435,
+          -1.906
+         ],
+         [
+          -6.332,
+          -2.057
+         ],
+         [
+          -6.22,
+          -2.203
+         ],
+         [
+          -6.101,
+          -2.342
+         ],
+         [
+          -5.975,
+          -2.475
+         ],
+         [
+          -5.842,
+          -2.601
+         ],
+         [
+          -5.703,
+          -2.72
+         ],
+         [
+          -5.557,
+          -2.832
+         ],
+         [
+          -5.406,
+          -2.935
+         ],
+         [
+          -5.25,
+          -3.031
+         ],
+         [
+          -5.089,
+          -3.119
+         ],
+         [
+          -4.924,
+          -3.197
+         ],
+         [
+          -4.754,
+          -3.268
+         ],
+         [
+          -4.582,
+          -3.329
+         ],
+         [
+          -4.406,
+          -3.381
+         ],
+         [
+          -4.228,
+          -3.424
+         ],
+         [
+          -4.048,
+          -3.457
+         ],
+         [
+          -3.866,
+          -3.481
+         ],
+         [
+          -3.683,
+          -3.495
+         ],
+         [
+          -3.5,
+          -3.5
+         ],
+         [
+          -3.317,
+          -3.495
+         ],
+         [
+          -3.134,
+          -3.481
+         ],
+         [
+          -2.952,
+          -3.457
+         ],
+         [
+          -2.772,
+          -3.424
+         ],
+         [
+          -2.594,
+          -3.381
+         ],
+         [
+          -2.418,
+          -3.329
+         ],
+         [
+          -2.246,
+          -3.268
+         ],
+         [
+          -2.076,
+          -3.197
+         ],
+         [
+          -1.911,
+          -3.119
+         ],
+         [
+          -1.75,
+          -3.031
+         ],
+         [
+          -1.594,
+          -2.935
+         ],
+         [
+          -1.443,
+          -2.832
+         ],
+         [
+          -1.297,
+          -2.72
+         ],
+         [
+          -1.158,
+          -2.601
+         ],
+         [
+          -1.025,
+          -2.475
+         ],
+         [
+          -0.899,
+          -2.342
+         ],
+         [
+          -0.78,
+          -2.203
+         ],
+         [
+          -0.668,
+          -2.057
+         ],
+         [
+          -0.565,
+          -1.906
+         ],
+         [
+          -0.469,
+          -1.75
+         ],
+         [
+          -0.381,
+          -1.589
+         ],
+         [
+          -0.303,
+          -1.424
+         ],
+         [
+          -0.232,
+          -1.254
+         ],
+         [
+          -0.171,
+          -1.082
+         ],
+         [
+          -0.119,
+          -0.906
+         ],
+         [
+          -0.076,
+          -0.728
+         ],
+         [
+          -0.043,
+          -0.548
+         ],
+         [
+          -0.019,
+          -0.366
+         ],
+         [
+          -0.005,
+          -0.183
+         ],
+         [
+          0,
+          0
+         ],
+         [
+          0.005,
+          0.183
+         ],
+         [
+          0.019,
+          0.366
+         ],
+         [
+          0.043,
+          0.548
+         ],
+         [
+          0.076,
+          0.728
+         ],
+         [
+          0.119,
+          0.906
+         ],
+         [
+          0.171,
+          1.082
+         ],
+         [
+          0.232,
+          1.254
+         ],
+         [
+          0.303,
+          1.424
+         ],
+         [
+          0.381,
+          1.589
+         ],
+         [
+          0.469,
+          1.75
+         ],
+         [
+          0.565,
+          1.906
+         ],
+         [
+          0.668,
+          2.057
+         ],
+         [
+          0.78,
+          2.203
+         ],
+         [
+          0.899,
+          2.342
+         ],
+         [
+          1.025,
+          2.475
+         ],
+         [
+          1.158,
+          2.601
+         ],
+         [
+          1.297,
+          2.72
+         ],
+         [
+          1.443,
+          2.832
+         ],
+         [
+          1.594,
+          2.935
+         ],
+         [
+          1.75,
+          3.031
+         ],
+         [
+          1.911,
+          3.119
+         ],
+         [
+          2.076,
+          3.197
+         ],
+         [
+          2.246,
+          3.268
+         ],
+         [
+          2.418,
+          3.329
+         ],
+         [
+          2.594,
+          3.381
+         ],
+         [
+          2.772,
+          3.424
+         ],
+         [
+          2.952,
+          3.457
+         ],
+         [
+          3.134,
+          3.481
+         ],
+         [
+          3.317,
+          3.495
+         ],
+         [
+          3.5,
+          3.5
+         ],
+         [
+          3.683,
+          3.495
+         ],
+         [
+          3.866,
+          3.481
+         ],
+         [
+          4.048,
+          3.457
+         ],
+         [
+          4.228,
+          3.424
+         ],
+         [
+          4.406,
+          3.381
+         ],
+         [
+          4.582,
+          3.329
+         ],
+         [
+          4.754,
+          3.268
+         ],
+         [
+          4.924,
+          3.197
+         ],
+         [
+          5.089,
+          3.119
+         ],
+         [
+          5.25,
+          3.031
+         ],
+         [
+          5.406,
+          2.935
+         ],
+         [
+          5.557,
+          2.832
+         ],
+         [
+          5.703,
+          2.72
+         ],
+         [
+          5.842,
+          2.601
+         ],
+         [
+          5.975,
+          2.475
+         ],
+         [
+          6.101,
+          2.342
+         ],
+         [
+          6.22,
+          2.203
+         ],
+         [
+          6.332,
+          2.057
+         ],
+         [
+          6.435,
+          1.906
+         ],
+         [
+          6.531,
+          1.75
+         ],
+         [
+          6.619,
+          1.589
+         ],
+         [
+          6.697,
+          1.424
+         ],
+         [
+          6.768,
+          1.254
+         ],
+         [
+          6.829,
+          1.082
+         ],
+         [
+          6.881,
+          0.906
+         ],
+         [
+          6.924,
+          0.728
+         ],
+         [
+          6.957,
+          0.548
+         ],
+         [
+          6.981,
+          0.366
+         ],
+         [
+          6.995,
+          0.183
+         ],
+         [
+          7,
+          0
+         ],
+         [
+          6.996,
+          0.244
+         ],
+         [
+          6.983,
+          0.488
+         ],
+         [
+          6.962,
+          0.732
+         ],
+         [
+          6.932,
+          0.974
+         ],
+         [
+          6.894,
+          1.216
+         ],
+         [
+          6.847,
+          1.455
+         ],
+         [
+          6.792,
+          1.693
+         ],
+         [
+          6.729,
+          1.929
+         ],
+         [
+          6.657,
+          2.163
+         ],
+         [
+          6.578,
+          2.394
+         ],
+         [
+          6.49,
+          2.622
+         ],
+         [
+          6.395,
+          2.847
+         ],
+         [
+          6.292,
+          3.069
+         ],
+         [
+          6.181,
+          3.286
+         ],
+         [
+          6.062,
+          3.5
+         ],
+         [
+          5.936,
+          3.709
+         ],
+         [
+          5.803,
+          3.914
+         ],
+         [
+          5.663,
+          4.114
+         ],
+         [
+          5.516,
+          4.31
+         ],
+         [
+          5.362,
+          4.5
+         ],
+         [
+          5.202,
+          4.684
+         ],
+         [
+          5.035,
+          4.863
+         ],
+         [
+          4.863,
+          5.035
+         ],
+         [
+          4.684,
+          5.202
+         ],
+         [
+          4.5,
+          5.362
+         ],
+         [
+          4.31,
+          5.516
+         ],
+         [
+          4.114,
+          5.663
+         ],
+         [
+          3.914,
+          5.803
+         ],
+         [
+          3.709,
+          5.936
+         ],
+         [
+          3.5,
+          6.062
+         ],
+         [
+          3.286,
+          6.181
+         ],
+         [
+          3.069,
+          6.292
+         ],
+         [
+          2.847,
+          6.395
+         ],
+         [
+          2.622,
+          6.49
+         ],
+         [
+          2.394,
+          6.578
+         ],
+         [
+          2.163,
+          6.657
+         ],
+         [
+          1.929,
+          6.729
+         ],
+         [
+          1.693,
+          6.792
+         ],
+         [
+          1.455,
+          6.847
+         ],
+         [
+          1.216,
+          6.894
+         ],
+         [
+          0.974,
+          6.932
+         ],
+         [
+          0.732,
+          6.962
+         ],
+         [
+          0.488,
+          6.983
+         ],
+         [
+          0.244,
+          6.996
+         ],
+         [
+          0,
+          7
+         ],
+         [
+          -0.244,
+          6.996
+         ],
+         [
+          -0.488,
+          6.983
+         ],
+         [
+          -0.732,
+          6.962
+         ],
+         [
+          -0.974,
+          6.932
+         ],
+         [
+          -1.216,
+          6.894
+         ],
+         [
+          -1.455,
+          6.847
+         ],
+         [
+          -1.693,
+          6.792
+         ],
+         [
+          -1.929,
+          6.729
+         ],
+         [
+          -2.163,
+          6.657
+         ],
+         [
+          -2.394,
+          6.578
+         ],
+         [
+          -2.622,
+          6.49
+         ],
+         [
+          -2.847,
+          6.395
+         ],
+         [
+          -3.069,
+          6.292
+         ],
+         [
+          -3.286,
+          6.181
+         ],
+         [
+          -3.5,
+          6.062
+         ],
+         [
+          -3.709,
+          5.936
+         ],
+         [
+          -3.914,
+          5.803
+         ],
+         [
+          -4.114,
+          5.663
+         ],
+         [
+          -4.31,
+          5.516
+         ],
+         [
+          -4.5,
+          5.362
+         ],
+         [
+          -4.684,
+          5.202
+         ],
+         [
+          -4.863,
+          5.035
+         ],
+         [
+          -5.035,
+          4.863
+         ],
+         [
+          -5.202,
+          4.684
+         ],
+         [
+          -5.362,
+          4.5
+         ],
+         [
+          -5.516,
+          4.31
+         ],
+         [
+          -5.663,
+          4.114
+         ],
+         [
+          -5.803,
+          3.914
+         ],
+         [
+          -5.936,
+          3.709
+         ],
+         [
+          -6.062,
+          3.5
+         ],
+         [
+          -6.181,
+          3.286
+         ],
+         [
+          -6.292,
+          3.069
+         ],
+         [
+          -6.395,
+          2.847
+         ],
+         [
+          -6.49,
+          2.622
+         ],
+         [
+          -6.578,
+          2.394
+         ],
+         [
+          -6.657,
+          2.163
+         ],
+         [
+          -6.729,
+          1.929
+         ],
+         [
+          -6.792,
+          1.693
+         ],
+         [
+          -6.847,
+          1.455
+         ],
+         [
+          -6.894,
+          1.216
+         ],
+         [
+          -6.932,
+          0.974
+         ],
+         [
+          -6.962,
+          0.732
+         ],
+         [
+          -6.983,
+          0.488
+         ],
+         [
+          -6.996,
+          0.244
+         ],
+         [
+          -7,
+          0
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         -7,
+         0,
+         7,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "tick": [
+         -7,
+         0,
+         0,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         0,
+         0,
+         7,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "label": "7 m",
+        "at": [
+         -3.5,
+         0.75
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q13c",
+     "label": "13c",
+     "section": "Enrichment",
+     "stem": "Find the exact perimeters of the shapes in Question 8, in terms of $\\pi$.",
+     "prompt": "The shape from Question 8c.",
+     "type": "expression",
+     "answer": "24+6pi",
+     "units": "m",
+     "figure": {
+      "kind": "diagram",
+      "unit": 17.33,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          12,
+          0
+         ],
+         [
+          12.157,
+          0.004
+         ],
+         [
+          12.314,
+          0.016
+         ],
+         [
+          12.469,
+          0.037
+         ],
+         [
+          12.624,
+          0.066
+         ],
+         [
+          12.776,
+          0.102
+         ],
+         [
+          12.927,
+          0.147
+         ],
+         [
+          13.075,
+          0.199
+         ],
+         [
+          13.22,
+          0.259
+         ],
+         [
+          13.362,
+          0.327
+         ],
+         [
+          13.5,
+          0.402
+         ],
+         [
+          13.634,
+          0.484
+         ],
+         [
+          13.763,
+          0.573
+         ],
+         [
+          13.888,
+          0.669
+         ],
+         [
+          14.007,
+          0.771
+         ],
+         [
+          14.121,
+          0.879
+         ],
+         [
+          14.229,
+          0.993
+         ],
+         [
+          14.331,
+          1.112
+         ],
+         [
+          14.427,
+          1.237
+         ],
+         [
+          14.516,
+          1.366
+         ],
+         [
+          14.598,
+          1.5
+         ],
+         [
+          14.673,
+          1.638
+         ],
+         [
+          14.741,
+          1.78
+         ],
+         [
+          14.801,
+          1.925
+         ],
+         [
+          14.853,
+          2.073
+         ],
+         [
+          14.898,
+          2.224
+         ],
+         [
+          14.934,
+          2.376
+         ],
+         [
+          14.963,
+          2.531
+         ],
+         [
+          14.984,
+          2.686
+         ],
+         [
+          14.996,
+          2.843
+         ],
+         [
+          15,
+          3
+         ],
+         [
+          14.996,
+          3.157
+         ],
+         [
+          14.984,
+          3.314
+         ],
+         [
+          14.963,
+          3.469
+         ],
+         [
+          14.934,
+          3.624
+         ],
+         [
+          14.898,
+          3.776
+         ],
+         [
+          14.853,
+          3.927
+         ],
+         [
+          14.801,
+          4.075
+         ],
+         [
+          14.741,
+          4.22
+         ],
+         [
+          14.673,
+          4.362
+         ],
+         [
+          14.598,
+          4.5
+         ],
+         [
+          14.516,
+          4.634
+         ],
+         [
+          14.427,
+          4.763
+         ],
+         [
+          14.331,
+          4.888
+         ],
+         [
+          14.229,
+          5.007
+         ],
+         [
+          14.121,
+          5.121
+         ],
+         [
+          14.007,
+          5.229
+         ],
+         [
+          13.888,
+          5.331
+         ],
+         [
+          13.763,
+          5.427
+         ],
+         [
+          13.634,
+          5.516
+         ],
+         [
+          13.5,
+          5.598
+         ],
+         [
+          13.362,
+          5.673
+         ],
+         [
+          13.22,
+          5.741
+         ],
+         [
+          13.075,
+          5.801
+         ],
+         [
+          12.927,
+          5.853
+         ],
+         [
+          12.776,
+          5.898
+         ],
+         [
+          12.624,
+          5.934
+         ],
+         [
+          12.469,
+          5.963
+         ],
+         [
+          12.314,
+          5.984
+         ],
+         [
+          12.157,
+          5.996
+         ],
+         [
+          12,
+          6
+         ],
+         [
+          0,
+          6
+         ],
+         [
+          0.157,
+          5.996
+         ],
+         [
+          0.314,
+          5.984
+         ],
+         [
+          0.469,
+          5.963
+         ],
+         [
+          0.624,
+          5.934
+         ],
+         [
+          0.776,
+          5.898
+         ],
+         [
+          0.927,
+          5.853
+         ],
+         [
+          1.075,
+          5.801
+         ],
+         [
+          1.22,
+          5.741
+         ],
+         [
+          1.362,
+          5.673
+         ],
+         [
+          1.5,
+          5.598
+         ],
+         [
+          1.634,
+          5.516
+         ],
+         [
+          1.763,
+          5.427
+         ],
+         [
+          1.888,
+          5.331
+         ],
+         [
+          2.007,
+          5.229
+         ],
+         [
+          2.121,
+          5.121
+         ],
+         [
+          2.229,
+          5.007
+         ],
+         [
+          2.331,
+          4.888
+         ],
+         [
+          2.427,
+          4.763
+         ],
+         [
+          2.516,
+          4.634
+         ],
+         [
+          2.598,
+          4.5
+         ],
+         [
+          2.673,
+          4.362
+         ],
+         [
+          2.741,
+          4.22
+         ],
+         [
+          2.801,
+          4.075
+         ],
+         [
+          2.853,
+          3.927
+         ],
+         [
+          2.898,
+          3.776
+         ],
+         [
+          2.934,
+          3.624
+         ],
+         [
+          2.963,
+          3.469
+         ],
+         [
+          2.984,
+          3.314
+         ],
+         [
+          2.996,
+          3.157
+         ],
+         [
+          3,
+          3
+         ],
+         [
+          2.996,
+          2.843
+         ],
+         [
+          2.984,
+          2.686
+         ],
+         [
+          2.963,
+          2.531
+         ],
+         [
+          2.934,
+          2.376
+         ],
+         [
+          2.898,
+          2.224
+         ],
+         [
+          2.853,
+          2.073
+         ],
+         [
+          2.801,
+          1.925
+         ],
+         [
+          2.741,
+          1.78
+         ],
+         [
+          2.673,
+          1.638
+         ],
+         [
+          2.598,
+          1.5
+         ],
+         [
+          2.516,
+          1.366
+         ],
+         [
+          2.427,
+          1.237
+         ],
+         [
+          2.331,
+          1.112
+         ],
+         [
+          2.229,
+          0.993
+         ],
+         [
+          2.121,
+          0.879
+         ],
+         [
+          2.007,
+          0.771
+         ],
+         [
+          1.888,
+          0.669
+         ],
+         [
+          1.763,
+          0.573
+         ],
+         [
+          1.634,
+          0.484
+         ],
+         [
+          1.5,
+          0.402
+         ],
+         [
+          1.362,
+          0.327
+         ],
+         [
+          1.22,
+          0.259
+         ],
+         [
+          1.075,
+          0.199
+         ],
+         [
+          0.927,
+          0.147
+         ],
+         [
+          0.776,
+          0.102
+         ],
+         [
+          0.624,
+          0.066
+         ],
+         [
+          0.469,
+          0.037
+         ],
+         [
+          0.314,
+          0.016
+         ],
+         [
+          0.157,
+          0.004
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         12,
+         0,
+         12,
+         6
+        ],
+        "dash": true
+       },
+       {
+        "label": "6 m",
+        "at": [
+         11.6,
+         3
+        ],
+        "anchor": "end"
+       },
+       {
+        "dim": [
+         0,
+         0,
+         12,
+         0
+        ],
+        "label": "12 m",
+        "off": -1
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "10e",
+   "chapter": "Chapter 10: Measurement",
+   "title": "10E Units of area and area of rectangles",
+   "description": "Count squares, find the area of rectangles and squares, and convert between units of area.",
+   "questions": [
+    {
+     "id": "q1a",
+     "label": "1a",
+     "section": "Fluency",
+     "stem": "Count the number of squares to find the area of these shapes on centimetre grids.",
+     "prompt": "Shape a",
+     "type": "numeric",
+     "answer": "8",
+     "units": "cm²",
+     "figure": {
+      "kind": "diagram",
+      "unit": 34,
+      "items": [
+       {
+        "poly": [
+         [
+          1,
+          1
+         ],
+         [
+          5,
+          1
+         ],
+         [
+          5,
+          3
+         ],
+         [
+          1,
+          3
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         0,
+         5
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         1,
+         0,
+         1,
+         5
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         2,
+         0,
+         2,
+         5
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         3,
+         0,
+         3,
+         5
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         4,
+         0,
+         4,
+         5
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         5,
+         0,
+         5,
+         5
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         5,
+         0
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         1,
+         5,
+         1
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         2,
+         5,
+         2
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         3,
+         5,
+         3
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         4,
+         5,
+         4
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         5,
+         5,
+         5
+        ],
+        "thin": true
+       },
+       {
+        "poly": [
+         [
+          1,
+          1
+         ],
+         [
+          5,
+          1
+         ],
+         [
+          5,
+          3
+         ],
+         [
+          1,
+          3
+         ]
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q1b",
+     "label": "1b",
+     "section": "Fluency",
+     "stem": "Count the number of squares to find the area of these shapes on centimetre grids.",
+     "prompt": "Shape b",
+     "type": "numeric",
+     "answer": "8",
+     "units": "cm²",
+     "figure": {
+      "kind": "diagram",
+      "unit": 34,
+      "items": [
+       {
+        "poly": [
+         [
+          1,
+          0
+         ],
+         [
+          3,
+          0
+         ],
+         [
+          4,
+          1
+         ],
+         [
+          4,
+          3
+         ],
+         [
+          2,
+          3
+         ],
+         [
+          1,
+          2
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         0,
+         4
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         1,
+         0,
+         1,
+         4
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         2,
+         0,
+         2,
+         4
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         3,
+         0,
+         3,
+         4
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         4,
+         0,
+         4,
+         4
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         5,
+         0,
+         5,
+         4
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         5,
+         0
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         1,
+         5,
+         1
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         2,
+         5,
+         2
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         3,
+         5,
+         3
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         4,
+         5,
+         4
+        ],
+        "thin": true
+       },
+       {
+        "poly": [
+         [
+          1,
+          0
+         ],
+         [
+          3,
+          0
+         ],
+         [
+          4,
+          1
+         ],
+         [
+          4,
+          3
+         ],
+         [
+          2,
+          3
+         ],
+         [
+          1,
+          2
+         ]
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2a",
+     "label": "2a",
+     "section": "Fluency",
+     "stem": "Count the number of squares to find the area of these shapes on centimetre grids.",
+     "prompt": "Shape a",
+     "type": "numeric",
+     "answer": "4",
+     "units": "cm²",
+     "hint": "Two half squares make one whole square. Type a decimal like 4.5 if you need to.",
+     "figure": {
+      "kind": "diagram",
+      "unit": 34,
+      "items": [
+       {
+        "poly": [
+         [
+          1,
+          0
+         ],
+         [
+          3,
+          0
+         ],
+         [
+          3,
+          3
+         ],
+         [
+          1,
+          1
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         0,
+         4
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         1,
+         0,
+         1,
+         4
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         2,
+         0,
+         2,
+         4
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         3,
+         0,
+         3,
+         4
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         4,
+         0,
+         4,
+         4
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         4,
+         0
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         1,
+         4,
+         1
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         2,
+         4,
+         2
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         3,
+         4,
+         3
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         4,
+         4,
+         4
+        ],
+        "thin": true
+       },
+       {
+        "poly": [
+         [
+          1,
+          0
+         ],
+         [
+          3,
+          0
+         ],
+         [
+          3,
+          3
+         ],
+         [
+          1,
+          1
+         ]
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2b",
+     "label": "2b",
+     "section": "Fluency",
+     "stem": "Count the number of squares to find the area of these shapes on centimetre grids.",
+     "prompt": "Shape b",
+     "type": "numeric",
+     "answer": "7.5",
+     "units": "cm²",
+     "figure": {
+      "kind": "diagram",
+      "unit": 34,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          2
+         ],
+         [
+          1,
+          0
+         ],
+         [
+          3,
+          0
+         ],
+         [
+          3,
+          2
+         ],
+         [
+          2,
+          3
+         ],
+         [
+          0,
+          3
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         0,
+         4
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         1,
+         0,
+         1,
+         4
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         2,
+         0,
+         2,
+         4
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         3,
+         0,
+         3,
+         4
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         4,
+         0,
+         4,
+         4
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         4,
+         0
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         1,
+         4,
+         1
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         2,
+         4,
+         2
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         3,
+         4,
+         3
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         4,
+         4,
+         4
+        ],
+        "thin": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          2
+         ],
+         [
+          1,
+          0
+         ],
+         [
+          3,
+          0
+         ],
+         [
+          3,
+          2
+         ],
+         [
+          2,
+          3
+         ],
+         [
+          0,
+          3
+         ]
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2c",
+     "label": "2c",
+     "section": "Fluency",
+     "stem": "Count the number of squares to find the area of these shapes on centimetre grids.",
+     "prompt": "Shape c",
+     "type": "numeric",
+     "answer": "6.5",
+     "units": "cm²",
+     "figure": {
+      "kind": "diagram",
+      "unit": 34,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          2
+         ],
+         [
+          3,
+          3
+         ],
+         [
+          4,
+          1
+         ],
+         [
+          2,
+          0
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         0,
+         4
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         1,
+         0,
+         1,
+         4
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         2,
+         0,
+         2,
+         4
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         3,
+         0,
+         3,
+         4
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         4,
+         0,
+         4,
+         4
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         5,
+         0,
+         5,
+         4
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         5,
+         0
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         1,
+         5,
+         1
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         2,
+         5,
+         2
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         3,
+         5,
+         3
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         4,
+         5,
+         4
+        ],
+        "thin": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          2
+         ],
+         [
+          3,
+          3
+         ],
+         [
+          4,
+          1
+         ],
+         [
+          2,
+          0
+         ]
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2d",
+     "label": "2d",
+     "section": "Fluency",
+     "stem": "Count the number of squares to find the area of these shapes on centimetre grids.",
+     "prompt": "Shape d",
+     "type": "numeric",
+     "answer": "10",
+     "units": "cm²",
+     "figure": {
+      "kind": "diagram",
+      "unit": 34,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          2,
+          1
+         ],
+         [
+          4,
+          0
+         ],
+         [
+          4,
+          2
+         ],
+         [
+          2,
+          4
+         ],
+         [
+          0,
+          2
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         0,
+         5
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         1,
+         0,
+         1,
+         5
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         2,
+         0,
+         2,
+         5
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         3,
+         0,
+         3,
+         5
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         4,
+         0,
+         4,
+         5
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         5,
+         0,
+         5,
+         5
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         5,
+         0
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         1,
+         5,
+         1
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         2,
+         5,
+         2
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         3,
+         5,
+         3
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         4,
+         5,
+         4
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         5,
+         5,
+         5
+        ],
+        "thin": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          2,
+          1
+         ],
+         [
+          4,
+          0
+         ],
+         [
+          4,
+          2
+         ],
+         [
+          2,
+          4
+         ],
+         [
+          0,
+          2
+         ]
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3a",
+     "label": "3a",
+     "section": "Fluency",
+     "stem": "Find the area of these rectangles and squares.",
+     "prompt": "Shape a",
+     "type": "numeric",
+     "answer": "120",
+     "units": "cm²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          5,
+          0
+         ],
+         [
+          5,
+          2.667
+         ],
+         [
+          0,
+          2.667
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "tick": [
+         0,
+         0,
+         5,
+         0
+        ],
+        "n": 2
+       },
+       {
+        "tick": [
+         5,
+         2.667,
+         0,
+         2.667
+        ],
+        "n": 2
+       },
+       {
+        "tick": [
+         5,
+         0,
+         5,
+         2.667
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         0,
+         2.667,
+         0,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "dim": [
+         0,
+         0,
+         5,
+         0
+        ],
+        "label": "15 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         5,
+         0,
+         5,
+         2.667
+        ],
+        "label": "8 cm",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3b",
+     "label": "3b",
+     "section": "Fluency",
+     "stem": "Find the area of these rectangles and squares.",
+     "prompt": "Shape b",
+     "type": "numeric",
+     "answer": "39",
+     "units": "mm²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          1.154,
+          0
+         ],
+         [
+          1.154,
+          5
+         ],
+         [
+          0,
+          5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "tick": [
+         0,
+         0,
+         1.154,
+         0
+        ],
+        "n": 2
+       },
+       {
+        "tick": [
+         1.154,
+         5,
+         0,
+         5
+        ],
+        "n": 2
+       },
+       {
+        "tick": [
+         1.154,
+         0,
+         1.154,
+         5
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         0,
+         5,
+         0,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "dim": [
+         0,
+         0,
+         1.154,
+         0
+        ],
+        "label": "3 mm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         1.154,
+         0,
+         1.154,
+         5
+        ],
+        "label": "13 mm",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3c",
+     "label": "3c",
+     "section": "Fluency",
+     "stem": "Find the area of these rectangles and squares.",
+     "prompt": "Shape c",
+     "type": "numeric",
+     "answer": "10",
+     "units": "cm²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          4.24,
+          2.65
+         ],
+         [
+          2.584,
+          5.3
+         ],
+         [
+          -1.656,
+          2.65
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "tick": [
+         0,
+         0,
+         4.24,
+         2.65
+        ],
+        "n": 2
+       },
+       {
+        "tick": [
+         2.584,
+         5.3,
+         -1.656,
+         2.65
+        ],
+        "n": 2
+       },
+       {
+        "tick": [
+         4.24,
+         2.65,
+         2.584,
+         5.3
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         -1.656,
+         2.65,
+         0,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "dim": [
+         0,
+         0,
+         4.24,
+         2.65
+        ],
+        "label": "4 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         4.24,
+         2.65,
+         2.584,
+         5.3
+        ],
+        "label": "2.5 cm",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3d",
+     "label": "3d",
+     "section": "Fluency",
+     "stem": "Find the area of these rectangles and squares.",
+     "prompt": "Shape d",
+     "type": "numeric",
+     "answer": "49",
+     "units": "m²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          3.2,
+          0
+         ],
+         [
+          3.2,
+          3.2
+         ],
+         [
+          0,
+          3.2
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "tick": [
+         0,
+         0,
+         3.2,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         3.2,
+         0,
+         3.2,
+         3.2
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         3.2,
+         3.2,
+         0,
+         3.2
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         0,
+         3.2,
+         0,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "dim": [
+         3.2,
+         0,
+         3.2,
+         3.2
+        ],
+        "label": "7 m",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3e",
+     "label": "3e",
+     "section": "Fluency",
+     "stem": "Find the area of these rectangles and squares.",
+     "prompt": "Shape e",
+     "type": "numeric",
+     "answer": "2.25",
+     "units": "mm²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          2.263,
+          2.263
+         ],
+         [
+          0,
+          4.525
+         ],
+         [
+          -2.263,
+          2.263
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "tick": [
+         0,
+         0,
+         2.263,
+         2.263
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         2.263,
+         2.263,
+         0,
+         4.525
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         0,
+         4.525,
+         -2.263,
+         2.263
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         -2.263,
+         2.263,
+         0,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "dim": [
+         2.263,
+         2.263,
+         0,
+         4.525
+        ],
+        "label": "1.5 mm",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3f",
+     "label": "3f",
+     "section": "Fluency",
+     "stem": "Find the area of these rectangles and squares.",
+     "prompt": "Shape f",
+     "type": "numeric",
+     "answer": "12.25",
+     "units": "mm²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          2.263,
+          2.263
+         ],
+         [
+          0,
+          4.525
+         ],
+         [
+          -2.263,
+          2.263
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "tick": [
+         0,
+         0,
+         2.263,
+         2.263
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         2.263,
+         2.263,
+         0,
+         4.525
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         0,
+         4.525,
+         -2.263,
+         2.263
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         -2.263,
+         2.263,
+         0,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "dim": [
+         2.263,
+         2.263,
+         0,
+         4.525
+        ],
+        "label": "3.5 mm",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3g",
+     "label": "3g",
+     "section": "Fluency",
+     "stem": "Find the area of these rectangles and squares.",
+     "prompt": "Shape g",
+     "type": "numeric",
+     "answer": "1.08",
+     "units": "m²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          5,
+          0
+         ],
+         [
+          5,
+          1.667
+         ],
+         [
+          0,
+          1.667
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "tick": [
+         0,
+         0,
+         5,
+         0
+        ],
+        "n": 2
+       },
+       {
+        "tick": [
+         5,
+         1.667,
+         0,
+         1.667
+        ],
+        "n": 2
+       },
+       {
+        "tick": [
+         5,
+         0,
+         5,
+         1.667
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         0,
+         1.667,
+         0,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "dim": [
+         0,
+         0,
+         5,
+         0
+        ],
+        "label": "1.8 m",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         5,
+         0,
+         5,
+         1.667
+        ],
+        "label": "0.6 m",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3h",
+     "label": "3h",
+     "section": "Fluency",
+     "stem": "Find the area of these rectangles and squares.",
+     "prompt": "Shape h",
+     "type": "numeric",
+     "answer": "0.49",
+     "units": "cm²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          2.451,
+          2.057
+         ],
+         [
+          0.394,
+          4.508
+         ],
+         [
+          -2.057,
+          2.451
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "tick": [
+         0,
+         0,
+         2.451,
+         2.057
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         2.451,
+         2.057,
+         0.394,
+         4.508
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         0.394,
+         4.508,
+         -2.057,
+         2.451
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         -2.057,
+         2.451,
+         0,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "dim": [
+         2.451,
+         2.057,
+         0.394,
+         4.508
+        ],
+        "label": "0.7 cm",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3i",
+     "label": "3i",
+     "section": "Fluency",
+     "stem": "Find the area of these rectangles and squares.",
+     "prompt": "Shape i",
+     "type": "numeric",
+     "answer": "118.9",
+     "units": "km²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          2.347,
+          -4.415
+         ],
+         [
+          4.844,
+          -3.087
+         ],
+         [
+          2.497,
+          1.328
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "tick": [
+         0,
+         0,
+         2.347,
+         -4.415
+        ],
+        "n": 2
+       },
+       {
+        "tick": [
+         4.844,
+         -3.087,
+         2.497,
+         1.328
+        ],
+        "n": 2
+       },
+       {
+        "tick": [
+         2.347,
+         -4.415,
+         4.844,
+         -3.087
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         2.497,
+         1.328,
+         0,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "dim": [
+         0,
+         0,
+         2.347,
+         -4.415
+        ],
+        "label": "14.5 km",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         2.347,
+         -4.415,
+         4.844,
+         -3.087
+        ],
+        "label": "8.2 km",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4a",
+     "label": "4a",
+     "section": "Fluency",
+     "stem": "Find the side length of a square with each of these areas. Use trial and error if you are unsure.",
+     "prompt": "$9$ cm²",
+     "type": "numeric",
+     "answer": "3",
+     "units": "cm"
+    },
+    {
+     "id": "q4b",
+     "label": "4b",
+     "section": "Fluency",
+     "stem": "Find the side length of a square with each of these areas. Use trial and error if you are unsure.",
+     "prompt": "$36$ m²",
+     "type": "numeric",
+     "answer": "6",
+     "units": "m"
+    },
+    {
+     "id": "q4c",
+     "label": "4c",
+     "section": "Fluency",
+     "stem": "Find the side length of a square with each of these areas. Use trial and error if you are unsure.",
+     "prompt": "$121$ km²",
+     "type": "numeric",
+     "answer": "11",
+     "units": "km"
+    },
+    {
+     "id": "q5a",
+     "label": "5a",
+     "section": "Fluency",
+     "stem": "There are $10\\,000$ m² in one hectare (ha). Convert these measurements to hectares.",
+     "prompt": "$30\\,000$ m²",
+     "type": "numeric",
+     "answer": "3",
+     "units": "ha"
+    },
+    {
+     "id": "q5b",
+     "label": "5b",
+     "section": "Fluency",
+     "stem": "There are $10\\,000$ m² in one hectare (ha). Convert these measurements to hectares.",
+     "prompt": "$250\\,000$ m²",
+     "type": "numeric",
+     "answer": "25",
+     "units": "ha"
+    },
+    {
+     "id": "q5c",
+     "label": "5c",
+     "section": "Fluency",
+     "stem": "There are $10\\,000$ m² in one hectare (ha). Convert these measurements to hectares.",
+     "prompt": "$7500$ m²",
+     "type": "numeric",
+     "answer": "0.75",
+     "units": "ha"
+    },
+    {
+     "id": "q6",
+     "label": "6",
+     "section": "Fluency",
+     "prompt": "A rectangular netball court is being resurfaced. The court is $30$ m long and $15$ m wide. Find the area of the court.",
+     "type": "numeric",
+     "answer": "450",
+     "units": "m²"
+    },
+    {
+     "id": "q7",
+     "label": "7",
+     "section": "Fluency",
+     "prompt": "A square mirror has a side length of $40$ cm. Find the area of the mirror.",
+     "type": "numeric",
+     "answer": "1600",
+     "units": "cm²"
+    },
+    {
+     "id": "q8",
+     "label": "8",
+     "section": "Fluency",
+     "prompt": "One hundred and fifty square tiles, each measuring $20$ cm by $20$ cm, are used to tile a patio. Find the area of the patio that is tiled, in square centimetres.",
+     "type": "numeric",
+     "answer": "60000",
+     "units": "cm²",
+     "hint": "Type a large number without spaces, for example 45000."
+    },
+    {
+     "id": "q9a",
+     "label": "9a",
+     "section": "Problem-solving",
+     "prompt": "A square has a perimeter of $28$ cm. Find its area.",
+     "type": "numeric",
+     "answer": "49",
+     "units": "cm²"
+    },
+    {
+     "id": "q9b",
+     "label": "9b",
+     "section": "Problem-solving",
+     "prompt": "A square has an area of $25$ cm². Find its perimeter.",
+     "type": "numeric",
+     "answer": "20",
+     "units": "cm"
+    },
+    {
+     "id": "q9c",
+     "label": "9c",
+     "section": "Problem-solving",
+     "prompt": "A square's area and perimeter are the same number. How many units long is each side?",
+     "type": "numeric",
+     "answer": "4"
+    },
+    {
+     "id": "q10",
+     "label": "10",
+     "section": "Problem-solving",
+     "prompt": "The carpet chosen for a bedroom costs $\\$65$ per square metre. The room is rectangular, $7$ m long and $4$ m wide. What is the cost of carpeting the room?",
+     "type": "numeric",
+     "answer": "1820",
+     "units": "$"
+    },
+    {
+     "id": "q11",
+     "label": "11",
+     "section": "Problem-solving",
+     "prompt": "Mia wants to paint a fence that is $13$ m long and $2$ m high. It needs two coats of paint. The paint is sold only in whole litres, and one litre covers $12$ m². How many litres of paint must Mia buy?",
+     "type": "numeric",
+     "answer": "5",
+     "units": "litres"
+    },
+    {
+     "id": "q12",
+     "label": "12",
+     "section": "Problem-solving",
+     "prompt": "A rectangular paddock measures $300$ m by $500$ m. Find its area in hectares.",
+     "type": "numeric",
+     "answer": "15",
+     "units": "ha"
+    },
+    {
+     "id": "q13a",
+     "label": "13a",
+     "section": "Reasoning",
+     "stem": "Find the missing length for each of these rectangles.",
+     "prompt": "The rectangle has area $54$ cm² and one side of $6$ cm. Find the missing length.",
+     "type": "numeric",
+     "answer": "9",
+     "units": "cm",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          5,
+          0
+         ],
+         [
+          5,
+          3.333
+         ],
+         [
+          0,
+          3.333
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "tick": [
+         0,
+         0,
+         5,
+         0
+        ],
+        "n": 2
+       },
+       {
+        "tick": [
+         5,
+         3.333,
+         0,
+         3.333
+        ],
+        "n": 2
+       },
+       {
+        "tick": [
+         5,
+         0,
+         5,
+         3.333
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         0,
+         3.333,
+         0,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "dim": [
+         0,
+         0,
+         5,
+         0
+        ],
+        "label": "?",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         5,
+         0,
+         5,
+         3.333
+        ],
+        "label": "6 cm",
+        "off": -0.5
+       },
+       {
+        "label": "A = 54 cm²",
+        "at": [
+         2.5,
+         1.667
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q13b",
+     "label": "13b",
+     "section": "Reasoning",
+     "stem": "Find the missing length for each of these rectangles.",
+     "prompt": "The rectangle has area $24.5$ mm² and one side of $3.5$ mm. Find the missing length.",
+     "type": "numeric",
+     "answer": "7",
+     "units": "mm",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          5,
+          0
+         ],
+         [
+          5,
+          2.5
+         ],
+         [
+          0,
+          2.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "tick": [
+         0,
+         0,
+         5,
+         0
+        ],
+        "n": 2
+       },
+       {
+        "tick": [
+         5,
+         2.5,
+         0,
+         2.5
+        ],
+        "n": 2
+       },
+       {
+        "tick": [
+         5,
+         0,
+         5,
+         2.5
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         0,
+         2.5,
+         0,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "dim": [
+         0,
+         0,
+         5,
+         0
+        ],
+        "label": "?",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         5,
+         0,
+         5,
+         2.5
+        ],
+        "label": "3.5 mm",
+        "off": -0.5
+       },
+       {
+        "label": "A = 24.5 mm²",
+        "at": [
+         2.5,
+         1.25
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q14",
+     "label": "14",
+     "section": "Reasoning",
+     "prompt": "The shaded triangle is drawn on a centimetre grid. Find its area.",
+     "type": "numeric",
+     "answer": "2.5",
+     "units": "cm²",
+     "figure": {
+      "kind": "diagram",
+      "unit": 56,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          5,
+          0
+         ],
+         [
+          5,
+          1
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         1,
+         0,
+         1,
+         1
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         2,
+         0,
+         2,
+         1
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         3,
+         0,
+         3,
+         1
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         4,
+         0,
+         4,
+         1
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         5,
+         0,
+         5,
+         1
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         5,
+         0
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         1,
+         5,
+         1
+        ],
+        "thin": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          5,
+          0
+         ],
+         [
+          5,
+          1
+         ]
+        ]
+       },
+       {
+        "dim": [
+         0,
+         0,
+         5,
+         0
+        ],
+        "label": "5 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         5,
+         0,
+         5,
+         1
+        ],
+        "label": "1 cm",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q15a",
+     "label": "15a",
+     "section": "Reasoning",
+     "stem": "A square has a perimeter of $P$ cm.",
+     "prompt": "If $P = 52$, find the area of the square.",
+     "type": "numeric",
+     "answer": "169",
+     "units": "cm²"
+    },
+    {
+     "id": "q15b",
+     "label": "15b",
+     "section": "Reasoning",
+     "stem": "A square has a perimeter of $P$ cm.",
+     "prompt": "If $P$ is unknown, write an expression for the area of the square, using $P$.",
+     "type": "expression",
+     "answer": "(P/4)^2",
+     "hint": "Use / for divide and ^ for squared, with brackets where needed.",
+     "accept": [
+      "P^2/16"
+     ]
+    },
+    {
+     "id": "q16",
+     "label": "16",
+     "section": "Reasoning",
+     "prompt": "A square has all of its side lengths tripled. How does this change the area?",
+     "type": "choice",
+     "answer": 2,
+     "options": [
+      "The area is tripled",
+      "The area is multiplied by 6",
+      "The area is multiplied by 9",
+      "The area stays the same"
+     ]
+    },
+    {
+     "id": "q17a",
+     "label": "17a",
+     "section": "Enrichment",
+     "stem": "Use $1$ cm $= 10$ mm, $1$ m $= 100$ cm, $1$ km $= 1000$ m and $1$ ha $= 10\\,000$ m² to answer these.",
+     "prompt": "How many mm² are in $1$ cm²?",
+     "type": "numeric",
+     "answer": "100",
+     "hint": "Type large numbers without spaces, for example 2500000."
+    },
+    {
+     "id": "q17b",
+     "label": "17b",
+     "section": "Enrichment",
+     "stem": "Use $1$ cm $= 10$ mm, $1$ m $= 100$ cm, $1$ km $= 1000$ m and $1$ ha $= 10\\,000$ m² to answer these.",
+     "prompt": "How many cm² are in $1$ m²?",
+     "type": "numeric",
+     "answer": "10000"
+    },
+    {
+     "id": "q17c",
+     "label": "17c",
+     "section": "Enrichment",
+     "stem": "Use $1$ cm $= 10$ mm, $1$ m $= 100$ cm, $1$ km $= 1000$ m and $1$ ha $= 10\\,000$ m² to answer these.",
+     "prompt": "How many m² are in $1$ km²?",
+     "type": "numeric",
+     "answer": "1000000"
+    },
+    {
+     "id": "q17d",
+     "label": "17d",
+     "section": "Enrichment",
+     "stem": "Use $1$ cm $= 10$ mm, $1$ m $= 100$ cm, $1$ km $= 1000$ m and $1$ ha $= 10\\,000$ m² to answer these.",
+     "prompt": "Convert $5$ cm² to mm².",
+     "type": "numeric",
+     "answer": "500",
+     "units": "mm²"
+    },
+    {
+     "id": "q17e",
+     "label": "17e",
+     "section": "Enrichment",
+     "stem": "Use $1$ cm $= 10$ mm, $1$ m $= 100$ cm, $1$ km $= 1000$ m and $1$ ha $= 10\\,000$ m² to answer these.",
+     "prompt": "Convert $7$ m² to cm².",
+     "type": "numeric",
+     "answer": "70000",
+     "units": "cm²"
+    },
+    {
+     "id": "q17f",
+     "label": "17f",
+     "section": "Enrichment",
+     "stem": "Use $1$ cm $= 10$ mm, $1$ m $= 100$ cm, $1$ km $= 1000$ m and $1$ ha $= 10\\,000$ m² to answer these.",
+     "prompt": "Convert $2.5$ km² to m².",
+     "type": "numeric",
+     "answer": "2500000",
+     "units": "m²"
+    },
+    {
+     "id": "q17g",
+     "label": "17g",
+     "section": "Enrichment",
+     "stem": "Use $1$ cm $= 10$ mm, $1$ m $= 100$ cm, $1$ km $= 1000$ m and $1$ ha $= 10\\,000$ m² to answer these.",
+     "prompt": "Convert $450$ mm² to cm².",
+     "type": "numeric",
+     "answer": "4.5",
+     "units": "cm²"
+    },
+    {
+     "id": "q17h",
+     "label": "17h",
+     "section": "Enrichment",
+     "stem": "Use $1$ cm $= 10$ mm, $1$ m $= 100$ cm, $1$ km $= 1000$ m and $1$ ha $= 10\\,000$ m² to answer these.",
+     "prompt": "Convert $38\\,400$ cm² to m².",
+     "type": "numeric",
+     "answer": "3.84",
+     "units": "m²"
+    },
+    {
+     "id": "q17i",
+     "label": "17i",
+     "section": "Enrichment",
+     "stem": "Use $1$ cm $= 10$ mm, $1$ m $= 100$ cm, $1$ km $= 1000$ m and $1$ ha $= 10\\,000$ m² to answer these.",
+     "prompt": "Convert $6\\,300\\,000$ m² to km².",
+     "type": "numeric",
+     "answer": "6.3",
+     "units": "km²"
+    },
+    {
+     "id": "q17j",
+     "label": "17j",
+     "section": "Enrichment",
+     "stem": "Use $1$ cm $= 10$ mm, $1$ m $= 100$ cm, $1$ km $= 1000$ m and $1$ ha $= 10\\,000$ m² to answer these.",
+     "prompt": "Convert $0.003$ m² to mm².",
+     "type": "numeric",
+     "answer": "3000",
+     "units": "mm²"
+    },
+    {
+     "id": "q17k",
+     "label": "17k",
+     "section": "Enrichment",
+     "stem": "Use $1$ cm $= 10$ mm, $1$ m $= 100$ cm, $1$ km $= 1000$ m and $1$ ha $= 10\\,000$ m² to answer these.",
+     "prompt": "Convert $3$ km² to ha.",
+     "type": "numeric",
+     "answer": "300",
+     "units": "ha"
+    },
+    {
+     "id": "q17l",
+     "label": "17l",
+     "section": "Enrichment",
+     "stem": "Use $1$ cm $= 10$ mm, $1$ m $= 100$ cm, $1$ km $= 1000$ m and $1$ ha $= 10\\,000$ m² to answer these.",
+     "prompt": "Convert $50\\,000\\,000$ cm² to ha.",
+     "type": "numeric",
+     "answer": "0.5",
+     "units": "ha"
+    }
+   ]
+  },
+  {
+   "id": "10f",
+   "chapter": "Chapter 10: Measurement",
+   "title": "10F Area of parallelograms",
+   "description": "Find the area of parallelograms from a base and its perpendicular height, and work backwards to a missing base or height.",
+   "questions": [
+    {
+     "id": "q1a",
+     "label": "1a",
+     "section": "Fluency",
+     "stem": "Find the area of these parallelograms.",
+     "prompt": "Parallelogram a",
+     "type": "numeric",
+     "answer": "18",
+     "units": "m²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          4.5,
+          0
+         ],
+         [
+          6,
+          2.25
+         ],
+         [
+          1.5,
+          2.25
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         3.375,
+         2.25,
+         3.375,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         3.375,
+         0,
+         0,
+         90
+        ],
+        "right": true
+       },
+       {
+        "par": [
+         0,
+         0,
+         4.5,
+         0
+        ],
+        "n": 2
+       },
+       {
+        "par": [
+         1.5,
+         2.25,
+         6,
+         2.25
+        ],
+        "n": 2
+       },
+       {
+        "par": [
+         0,
+         0,
+         1.5,
+         2.25
+        ],
+        "n": 1
+       },
+       {
+        "par": [
+         4.5,
+         0,
+         6,
+         2.25
+        ],
+        "n": 1
+       },
+       {
+        "dim": [
+         0,
+         0,
+         4.5,
+         0
+        ],
+        "label": "6 m",
+        "off": -0.5
+       },
+       {
+        "label": "3 m",
+        "at": [
+         3.225,
+         1.125
+        ],
+        "anchor": "end"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q1b",
+     "label": "1b",
+     "section": "Fluency",
+     "stem": "Find the area of these parallelograms.",
+     "prompt": "Parallelogram b",
+     "type": "numeric",
+     "answer": "63",
+     "units": "cm²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          5.143,
+          0
+         ],
+         [
+          6,
+          4
+         ],
+         [
+          0.857,
+          4
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0.857,
+         4,
+         0.857,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         0.857,
+         0,
+         0,
+         90
+        ],
+        "right": true
+       },
+       {
+        "par": [
+         0,
+         0,
+         5.143,
+         0
+        ],
+        "n": 2
+       },
+       {
+        "par": [
+         0.857,
+         4,
+         6,
+         4
+        ],
+        "n": 2
+       },
+       {
+        "par": [
+         0,
+         0,
+         0.857,
+         4
+        ],
+        "n": 1
+       },
+       {
+        "par": [
+         5.143,
+         0,
+         6,
+         4
+        ],
+        "n": 1
+       },
+       {
+        "dim": [
+         0,
+         0,
+         5.143,
+         0
+        ],
+        "label": "9 cm",
+        "off": -0.5
+       },
+       {
+        "label": "7 cm",
+        "at": [
+         1.007,
+         2
+        ],
+        "anchor": "start"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2a",
+     "label": "2a",
+     "section": "Fluency",
+     "stem": "Find the area of these parallelograms.",
+     "prompt": "Parallelogram a",
+     "type": "numeric",
+     "answer": "33",
+     "units": "m²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          5.893,
+          0
+         ],
+         [
+          7.5,
+          1.607
+         ],
+         [
+          1.607,
+          1.607
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         3.75,
+         1.607,
+         3.75,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         3.75,
+         0,
+         0,
+         90
+        ],
+        "right": true
+       },
+       {
+        "par": [
+         0,
+         0,
+         5.893,
+         0
+        ],
+        "n": 2
+       },
+       {
+        "par": [
+         1.607,
+         1.607,
+         7.5,
+         1.607
+        ],
+        "n": 2
+       },
+       {
+        "par": [
+         0,
+         0,
+         1.607,
+         1.607
+        ],
+        "n": 1
+       },
+       {
+        "par": [
+         5.893,
+         0,
+         7.5,
+         1.607
+        ],
+        "n": 1
+       },
+       {
+        "dim": [
+         0,
+         0,
+         5.893,
+         0
+        ],
+        "label": "11 m",
+        "off": -0.5
+       },
+       {
+        "label": "3 m",
+        "at": [
+         3.6,
+         0.804
+        ],
+        "anchor": "end"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2b",
+     "label": "2b",
+     "section": "Fluency",
+     "stem": "Find the area of these parallelograms.",
+     "prompt": "Parallelogram b",
+     "type": "numeric",
+     "answer": "40",
+     "units": "m²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          3.75,
+          0
+         ],
+         [
+          1.875,
+          6
+         ],
+         [
+          -1.875,
+          6
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0.9,
+         6,
+         0.9,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         0.9,
+         0,
+         0,
+         90
+        ],
+        "right": true
+       },
+       {
+        "par": [
+         0,
+         0,
+         3.75,
+         0
+        ],
+        "n": 2
+       },
+       {
+        "par": [
+         -1.875,
+         6,
+         1.875,
+         6
+        ],
+        "n": 2
+       },
+       {
+        "par": [
+         0,
+         0,
+         -1.875,
+         6
+        ],
+        "n": 1
+       },
+       {
+        "par": [
+         3.75,
+         0,
+         1.875,
+         6
+        ],
+        "n": 1
+       },
+       {
+        "dim": [
+         0,
+         0,
+         3.75,
+         0
+        ],
+        "label": "5 m",
+        "off": -0.5
+       },
+       {
+        "label": "8 m",
+        "at": [
+         1.05,
+         3
+        ],
+        "anchor": "start"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2c",
+     "label": "2c",
+     "section": "Fluency",
+     "stem": "Find the area of these parallelograms.",
+     "prompt": "Parallelogram c",
+     "type": "numeric",
+     "answer": "36",
+     "units": "km²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          2.4,
+          0
+         ],
+         [
+          6,
+          5.4
+         ],
+         [
+          3.6,
+          5.4
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         2.4,
+         0,
+         6,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         6,
+         5.4,
+         6,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         6,
+         0,
+         90,
+         180
+        ],
+        "right": true
+       },
+       {
+        "par": [
+         0,
+         0,
+         2.4,
+         0
+        ],
+        "n": 2
+       },
+       {
+        "par": [
+         3.6,
+         5.4,
+         6,
+         5.4
+        ],
+        "n": 2
+       },
+       {
+        "par": [
+         0,
+         0,
+         3.6,
+         5.4
+        ],
+        "n": 1
+       },
+       {
+        "par": [
+         2.4,
+         0,
+         6,
+         5.4
+        ],
+        "n": 1
+       },
+       {
+        "dim": [
+         0,
+         0,
+         2.4,
+         0
+        ],
+        "label": "4 km",
+        "off": -0.5
+       },
+       {
+        "label": "9 km",
+        "at": [
+         6.15,
+         2.7
+        ],
+        "anchor": "start"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2d",
+     "label": "2d",
+     "section": "Fluency",
+     "stem": "Find the area of these parallelograms.",
+     "prompt": "Parallelogram d",
+     "type": "numeric",
+     "answer": "28",
+     "units": "m²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          4.8,
+          0
+         ],
+         [
+          3.6,
+          2.1
+         ],
+         [
+          -1.2,
+          2.1
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         3.6,
+         2.1,
+         3.6,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         3.6,
+         0,
+         0,
+         90
+        ],
+        "right": true
+       },
+       {
+        "par": [
+         0,
+         0,
+         4.8,
+         0
+        ],
+        "n": 2
+       },
+       {
+        "par": [
+         -1.2,
+         2.1,
+         3.6,
+         2.1
+        ],
+        "n": 2
+       },
+       {
+        "par": [
+         0,
+         0,
+         -1.2,
+         2.1
+        ],
+        "n": 1
+       },
+       {
+        "par": [
+         4.8,
+         0,
+         3.6,
+         2.1
+        ],
+        "n": 1
+       },
+       {
+        "dim": [
+         0,
+         0,
+         4.8,
+         0
+        ],
+        "label": "8 m",
+        "off": -0.5
+       },
+       {
+        "label": "3.5 m",
+        "at": [
+         3.45,
+         1.05
+        ],
+        "anchor": "end"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3a",
+     "label": "3a",
+     "section": "Fluency",
+     "stem": "Find the area of these parallelograms.",
+     "prompt": "Parallelogram a",
+     "type": "numeric",
+     "answer": "40",
+     "units": "cm²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          0,
+          3.75
+         ],
+         [
+          -6,
+          4.875
+         ],
+         [
+          -6,
+          1.125
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0,
+         3.75,
+         0,
+         4.875
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         -6,
+         4.875,
+         0,
+         4.875
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         0,
+         4.875,
+         180,
+         270
+        ],
+        "right": true
+       },
+       {
+        "par": [
+         0,
+         0,
+         0,
+         3.75
+        ],
+        "n": 2
+       },
+       {
+        "par": [
+         -6,
+         1.125,
+         -6,
+         4.875
+        ],
+        "n": 2
+       },
+       {
+        "par": [
+         0,
+         0,
+         -6,
+         1.125
+        ],
+        "n": 1
+       },
+       {
+        "par": [
+         0,
+         3.75,
+         -6,
+         4.875
+        ],
+        "n": 1
+       },
+       {
+        "dim": [
+         0,
+         0,
+         0,
+         3.75
+        ],
+        "label": "5 cm",
+        "off": -0.5
+       },
+       {
+        "label": "8 cm",
+        "at": [
+         -3,
+         5.425
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3b",
+     "label": "3b",
+     "section": "Fluency",
+     "stem": "Find the area of these parallelograms.",
+     "prompt": "Parallelogram b",
+     "type": "numeric",
+     "answer": "70",
+     "units": "mm²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          0,
+          4.615
+         ],
+         [
+          -3.231,
+          3.231
+         ],
+         [
+          -3.231,
+          -1.385
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0,
+         -1.385,
+         0,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         -3.231,
+         -1.385,
+         0,
+         -1.385
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         0,
+         -1.385,
+         90,
+         180
+        ],
+        "right": true
+       },
+       {
+        "par": [
+         0,
+         0,
+         0,
+         4.615
+        ],
+        "n": 2
+       },
+       {
+        "par": [
+         -3.231,
+         -1.385,
+         -3.231,
+         3.231
+        ],
+        "n": 2
+       },
+       {
+        "par": [
+         0,
+         0,
+         -3.231,
+         -1.385
+        ],
+        "n": 1
+       },
+       {
+        "par": [
+         0,
+         4.615,
+         -3.231,
+         3.231
+        ],
+        "n": 1
+       },
+       {
+        "dim": [
+         0,
+         0,
+         0,
+         4.615
+        ],
+        "label": "10 mm",
+        "off": -0.5
+       },
+       {
+        "label": "7 mm",
+        "at": [
+         -1.615,
+         -1.935
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4a",
+     "label": "4a",
+     "section": "Fluency",
+     "stem": "Find the area of these parallelograms. Think carefully about which lengths are the base and the height.",
+     "prompt": "Parallelogram a",
+     "type": "numeric",
+     "answer": "66",
+     "units": "cm²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          4.889,
+          0
+         ],
+         [
+          6,
+          2.667
+         ],
+         [
+          1.111,
+          2.667
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         1.111,
+         2.667,
+         1.111,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         1.111,
+         0,
+         0,
+         90
+        ],
+        "right": true
+       },
+       {
+        "par": [
+         0,
+         0,
+         4.889,
+         0
+        ],
+        "n": 2
+       },
+       {
+        "par": [
+         1.111,
+         2.667,
+         6,
+         2.667
+        ],
+        "n": 2
+       },
+       {
+        "par": [
+         0,
+         0,
+         1.111,
+         2.667
+        ],
+        "n": 1
+       },
+       {
+        "par": [
+         4.889,
+         0,
+         6,
+         2.667
+        ],
+        "n": 1
+       },
+       {
+        "dim": [
+         0,
+         0,
+         4.889,
+         0
+        ],
+        "label": "11 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         4.889,
+         0,
+         6,
+         2.667
+        ],
+        "label": "6.5 cm",
+        "off": -0.5
+       },
+       {
+        "label": "6 cm",
+        "at": [
+         1.261,
+         1.333
+        ],
+        "anchor": "start"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4b",
+     "label": "4b",
+     "section": "Fluency",
+     "stem": "Find the area of these parallelograms. Think carefully about which lengths are the base and the height.",
+     "prompt": "Parallelogram b",
+     "type": "numeric",
+     "answer": "12",
+     "units": "cm²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          0,
+          4.412
+         ],
+         [
+          -2.118,
+          6
+         ],
+         [
+          -2.118,
+          1.588
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         -2.118,
+         3,
+         0,
+         3
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         0,
+         3,
+         90,
+         180
+        ],
+        "right": true
+       },
+       {
+        "par": [
+         0,
+         0,
+         0,
+         4.412
+        ],
+        "n": 2
+       },
+       {
+        "par": [
+         -2.118,
+         1.588,
+         -2.118,
+         6
+        ],
+        "n": 2
+       },
+       {
+        "par": [
+         0,
+         0,
+         -2.118,
+         1.588
+        ],
+        "n": 1
+       },
+       {
+        "par": [
+         0,
+         4.412,
+         -2.118,
+         6
+        ],
+        "n": 1
+       },
+       {
+        "dim": [
+         0,
+         0,
+         0,
+         4.412
+        ],
+        "label": "5 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         0,
+         4.412,
+         -2.118,
+         6
+        ],
+        "label": "3 cm",
+        "off": -0.5
+       },
+       {
+        "label": "2.4 cm",
+        "at": [
+         -1.059,
+         3.55
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4c",
+     "label": "4c",
+     "section": "Fluency",
+     "stem": "Find the area of these parallelograms. Think carefully about which lengths are the base and the height.",
+     "prompt": "Parallelogram c",
+     "type": "numeric",
+     "answer": "16",
+     "units": "m²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          5.935,
+          2.16
+         ],
+         [
+          6.508,
+          4.049
+         ],
+         [
+          0.573,
+          1.889
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         4.357,
+         3.266,
+         4.897,
+         1.782
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         4.897,
+         1.782,
+         20,
+         110
+        ],
+        "right": true
+       },
+       {
+        "par": [
+         0,
+         0,
+         5.935,
+         2.16
+        ],
+        "n": 2
+       },
+       {
+        "par": [
+         0.573,
+         1.889,
+         6.508,
+         4.049
+        ],
+        "n": 2
+       },
+       {
+        "par": [
+         0,
+         0,
+         0.573,
+         1.889
+        ],
+        "n": 1
+       },
+       {
+        "par": [
+         5.935,
+         2.16,
+         6.508,
+         4.049
+        ],
+        "n": 1
+       },
+       {
+        "dim": [
+         0,
+         0,
+         5.935,
+         2.16
+        ],
+        "label": "8 m",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         5.935,
+         2.16,
+         6.508,
+         4.049
+        ],
+        "label": "2.5 m",
+        "off": -0.5
+       },
+       {
+        "label": "2 m",
+        "at": [
+         4.11,
+         2.336
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4d",
+     "label": "4d",
+     "section": "Fluency",
+     "stem": "Find the area of these parallelograms. Think carefully about which lengths are the base and the height.",
+     "prompt": "Parallelogram d",
+     "type": "numeric",
+     "answer": "3",
+     "units": "cm²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          3,
+          0
+         ],
+         [
+          6,
+          4
+         ],
+         [
+          3,
+          4
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         3,
+         0,
+         6,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         6,
+         4,
+         6,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         6,
+         0,
+         90,
+         180
+        ],
+        "right": true
+       },
+       {
+        "par": [
+         0,
+         0,
+         3,
+         0
+        ],
+        "n": 2
+       },
+       {
+        "par": [
+         3,
+         4,
+         6,
+         4
+        ],
+        "n": 2
+       },
+       {
+        "par": [
+         0,
+         0,
+         3,
+         4
+        ],
+        "n": 1
+       },
+       {
+        "par": [
+         3,
+         0,
+         6,
+         4
+        ],
+        "n": 1
+       },
+       {
+        "dim": [
+         0,
+         0,
+         3,
+         0
+        ],
+        "label": "1.5 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         0,
+         0,
+         3,
+         4
+        ],
+        "label": "2.5 cm",
+        "off": 0.5
+       },
+       {
+        "label": "2 cm",
+        "at": [
+         6.15,
+         2
+        ],
+        "anchor": "start"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q5a",
+     "label": "5a",
+     "section": "Fluency",
+     "stem": "These parallelograms are drawn on $1$ cm grids. Find their area.",
+     "prompt": "Parallelogram a",
+     "type": "numeric",
+     "answer": "6",
+     "units": "cm²",
+     "figure": {
+      "kind": "diagram",
+      "unit": 30,
+      "items": [
+       {
+        "poly": [
+         [
+          1,
+          1
+         ],
+         [
+          4,
+          1
+         ],
+         [
+          5,
+          3
+         ],
+         [
+          2,
+          3
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         0,
+         4
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         1,
+         0,
+         1,
+         4
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         2,
+         0,
+         2,
+         4
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         3,
+         0,
+         3,
+         4
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         4,
+         0,
+         4,
+         4
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         5,
+         0,
+         5,
+         4
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         6,
+         0,
+         6,
+         4
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         6,
+         0
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         1,
+         6,
+         1
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         2,
+         6,
+         2
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         3,
+         6,
+         3
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         4,
+         6,
+         4
+        ],
+        "thin": true
+       },
+       {
+        "poly": [
+         [
+          1,
+          1
+         ],
+         [
+          4,
+          1
+         ],
+         [
+          5,
+          3
+         ],
+         [
+          2,
+          3
+         ]
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q5b",
+     "label": "5b",
+     "section": "Fluency",
+     "stem": "These parallelograms are drawn on $1$ cm grids. Find their area.",
+     "prompt": "Parallelogram b",
+     "type": "numeric",
+     "answer": "4",
+     "units": "cm²",
+     "figure": {
+      "kind": "diagram",
+      "unit": 30,
+      "items": [
+       {
+        "poly": [
+         [
+          1,
+          1
+         ],
+         [
+          2,
+          1
+         ],
+         [
+          3,
+          5
+         ],
+         [
+          2,
+          5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         0,
+         6
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         1,
+         0,
+         1,
+         6
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         2,
+         0,
+         2,
+         6
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         3,
+         0,
+         3,
+         6
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         4,
+         0,
+         4,
+         6
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         4,
+         0
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         1,
+         4,
+         1
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         2,
+         4,
+         2
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         3,
+         4,
+         3
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         4,
+         4,
+         4
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         5,
+         4,
+         5
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         6,
+         4,
+         6
+        ],
+        "thin": true
+       },
+       {
+        "poly": [
+         [
+          1,
+          1
+         ],
+         [
+          2,
+          1
+         ],
+         [
+          3,
+          5
+         ],
+         [
+          2,
+          5
+         ]
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q5c",
+     "label": "5c",
+     "section": "Fluency",
+     "stem": "These parallelograms are drawn on $1$ cm grids. Find their area.",
+     "prompt": "Parallelogram c",
+     "type": "numeric",
+     "answer": "10",
+     "units": "cm²",
+     "figure": {
+      "kind": "diagram",
+      "unit": 30,
+      "items": [
+       {
+        "poly": [
+         [
+          1,
+          1
+         ],
+         [
+          6,
+          3
+         ],
+         [
+          6,
+          5
+         ],
+         [
+          1,
+          3
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         0,
+         6
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         1,
+         0,
+         1,
+         6
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         2,
+         0,
+         2,
+         6
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         3,
+         0,
+         3,
+         6
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         4,
+         0,
+         4,
+         6
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         5,
+         0,
+         5,
+         6
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         6,
+         0,
+         6,
+         6
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         7,
+         0,
+         7,
+         6
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         7,
+         0
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         1,
+         7,
+         1
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         2,
+         7,
+         2
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         3,
+         7,
+         3
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         4,
+         7,
+         4
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         5,
+         7,
+         5
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         6,
+         7,
+         6
+        ],
+        "thin": true
+       },
+       {
+        "poly": [
+         [
+          1,
+          1
+         ],
+         [
+          6,
+          3
+         ],
+         [
+          6,
+          5
+         ],
+         [
+          1,
+          3
+         ]
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q5d",
+     "label": "5d",
+     "section": "Fluency",
+     "stem": "These parallelograms are drawn on $1$ cm grids. Find their area.",
+     "prompt": "Parallelogram d",
+     "type": "numeric",
+     "answer": "12",
+     "units": "cm²",
+     "figure": {
+      "kind": "diagram",
+      "unit": 30,
+      "items": [
+       {
+        "poly": [
+         [
+          1,
+          3
+         ],
+         [
+          5,
+          1
+         ],
+         [
+          5,
+          4
+         ],
+         [
+          1,
+          6
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         0,
+         7
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         1,
+         0,
+         1,
+         7
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         2,
+         0,
+         2,
+         7
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         3,
+         0,
+         3,
+         7
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         4,
+         0,
+         4,
+         7
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         5,
+         0,
+         5,
+         7
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         6,
+         0,
+         6,
+         7
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         6,
+         0
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         1,
+         6,
+         1
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         2,
+         6,
+         2
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         3,
+         6,
+         3
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         4,
+         6,
+         4
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         5,
+         6,
+         5
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         6,
+         6,
+         6
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         7,
+         6,
+         7
+        ],
+        "thin": true
+       },
+       {
+        "poly": [
+         [
+          1,
+          3
+         ],
+         [
+          5,
+          1
+         ],
+         [
+          5,
+          4
+         ],
+         [
+          1,
+          6
+         ]
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q6",
+     "label": "6",
+     "section": "Fluency",
+     "prompt": "The floor of a classroom is in the shape of a parallelogram. The longest sides are $12$ m and the perpendicular distance between them is $7$ m. Find the area of the floor.",
+     "type": "numeric",
+     "answer": "84",
+     "units": "m²"
+    },
+    {
+     "id": "q7a",
+     "label": "7a",
+     "section": "Problem-solving",
+     "stem": "Find the height of a parallelogram when its:",
+     "prompt": "area $= 18$ m² and base $= 6$ m",
+     "type": "numeric",
+     "answer": "3",
+     "units": "m"
+    },
+    {
+     "id": "q7b",
+     "label": "7b",
+     "section": "Problem-solving",
+     "stem": "Find the height of a parallelogram when its:",
+     "prompt": "area $= 45$ cm² and base $= 5$ cm",
+     "type": "numeric",
+     "answer": "9",
+     "units": "cm"
+    },
+    {
+     "id": "q7c",
+     "label": "7c",
+     "section": "Problem-solving",
+     "stem": "Find the height of a parallelogram when its:",
+     "prompt": "area $= 3.5$ mm² and base $= 7$ mm",
+     "type": "numeric",
+     "answer": "0.5",
+     "units": "mm"
+    },
+    {
+     "id": "q8a",
+     "label": "8a",
+     "section": "Problem-solving",
+     "stem": "Find the base of a parallelogram when its:",
+     "prompt": "area $= 56$ cm² and height $= 8$ cm",
+     "type": "numeric",
+     "answer": "7",
+     "units": "cm"
+    },
+    {
+     "id": "q8b",
+     "label": "8b",
+     "section": "Problem-solving",
+     "stem": "Find the base of a parallelogram when its:",
+     "prompt": "area $= 240$ m² and height $= 20$ m",
+     "type": "numeric",
+     "answer": "12",
+     "units": "m"
+    },
+    {
+     "id": "q8c",
+     "label": "8c",
+     "section": "Problem-solving",
+     "stem": "Find the base of a parallelogram when its:",
+     "prompt": "area $= 3.6$ km² and height $= 1.5$ km",
+     "type": "numeric",
+     "answer": "2.4",
+     "units": "km"
+    },
+    {
+     "id": "q9",
+     "label": "9",
+     "section": "Problem-solving",
+     "prompt": "A large wall in the shape of a parallelogram is to be painted with a special blue paint that costs $\\$18$ per litre. Each litre covers $6$ m². The wall has a base length of $24$ m and a height of $8$ m. Find the cost of painting the wall.",
+     "type": "numeric",
+     "answer": "576",
+     "units": "$"
+    },
+    {
+     "id": "q10a",
+     "label": "10a",
+     "section": "Problem-solving",
+     "stem": "A rectangular flag is white with a green stripe in the shape of a parallelogram, as shown.",
+     "prompt": "Find the area of the green stripe.",
+     "type": "numeric",
+     "answer": "1750",
+     "units": "cm²",
+     "stemFigure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          6,
+          0
+         ],
+         [
+          6,
+          3.5
+         ],
+         [
+          0,
+          3.5
+         ]
+        ]
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          1.25,
+          0
+         ],
+         [
+          6,
+          3.5
+         ],
+         [
+          4.75,
+          3.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "dim": [
+         0,
+         0,
+         1.25,
+         0
+        ],
+        "label": "25 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         1.25,
+         0,
+         6,
+         0
+        ],
+        "label": "95 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         6,
+         0,
+         6,
+         3.5
+        ],
+        "label": "70 cm",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q10b",
+     "label": "10b",
+     "section": "Problem-solving",
+     "stem": "A rectangular flag is white with a green stripe in the shape of a parallelogram, as shown.",
+     "prompt": "Find the white area.",
+     "type": "numeric",
+     "answer": "6650",
+     "units": "cm²"
+    },
+    {
+     "id": "q11",
+     "label": "11",
+     "section": "Reasoning",
+     "prompt": "A parallelogram and a rectangle both have sides of $8$ cm and $4$ cm. Which shape has the larger area?",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "The rectangle",
+      "The parallelogram",
+      "They have the same area"
+     ],
+     "figure": [
+      {
+       "kind": "diagram",
+       "items": [
+        {
+         "poly": [
+          [
+           0,
+           0
+          ],
+          [
+           5,
+           0
+          ],
+          [
+           6.5,
+           2
+          ],
+          [
+           1.5,
+           2
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "par": [
+          0,
+          0,
+          5,
+          0
+         ],
+         "n": 2
+        },
+        {
+         "par": [
+          1.5,
+          2,
+          6.5,
+          2
+         ],
+         "n": 2
+        },
+        {
+         "par": [
+          0,
+          0,
+          1.5,
+          2
+         ],
+         "n": 1
+        },
+        {
+         "par": [
+          5,
+          0,
+          6.5,
+          2
+         ],
+         "n": 1
+        },
+        {
+         "dim": [
+          0,
+          0,
+          5,
+          0
+         ],
+         "label": "8 cm",
+         "off": -0.5
+        },
+        {
+         "dim": [
+          5,
+          0,
+          6.5,
+          2
+         ],
+         "label": "4 cm",
+         "off": -0.5
+        }
+       ],
+       "caption": "Parallelogram"
+      },
+      {
+       "kind": "diagram",
+       "items": [
+        {
+         "poly": [
+          [
+           0,
+           0
+          ],
+          [
+           5,
+           0
+          ],
+          [
+           5,
+           2.5
+          ],
+          [
+           0,
+           2.5
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "angle": [
+          0,
+          0,
+          0,
+          90
+         ],
+         "right": true
+        },
+        {
+         "angle": [
+          5,
+          0,
+          90,
+          180
+         ],
+         "right": true
+        },
+        {
+         "angle": [
+          5,
+          2.5,
+          180,
+          270
+         ],
+         "right": true
+        },
+        {
+         "angle": [
+          0,
+          2.5,
+          270,
+          360
+         ],
+         "right": true
+        },
+        {
+         "dim": [
+          0,
+          0,
+          5,
+          0
+         ],
+         "label": "8 cm",
+         "off": -0.5
+        },
+        {
+         "dim": [
+          5,
+          0,
+          5,
+          2.5
+         ],
+         "label": "4 cm",
+         "off": -0.5
+        }
+       ],
+       "caption": "Rectangle"
+      }
+     ]
+    },
+    {
+     "id": "q12",
+     "label": "12",
+     "section": "Reasoning",
+     "prompt": "A parallelogram has a shaded triangle drawn inside it, as shown. The triangle uses the whole bottom side, and its top corner is on the top side. What fraction of the parallelogram's area is shaded?",
+     "type": "numeric",
+     "answer": "1/2",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          6,
+          0
+         ],
+         [
+          8,
+          3
+         ],
+         [
+          2,
+          3
+         ]
+        ]
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          6,
+          0
+         ],
+         [
+          4.5,
+          3
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "par": [
+         0,
+         0,
+         6,
+         0
+        ],
+        "n": 2
+       },
+       {
+        "par": [
+         2,
+         3,
+         8,
+         3
+        ],
+        "n": 2
+       },
+       {
+        "par": [
+         0,
+         0,
+         2,
+         3
+        ],
+        "n": 1
+       },
+       {
+        "par": [
+         6,
+         0,
+         8,
+         3
+        ],
+        "n": 1
+       }
+      ]
+     },
+     "as": "fraction",
+     "simplest": true
+    },
+    {
+     "id": "q13a",
+     "label": "13a",
+     "section": "Reasoning",
+     "stem": "A diagonal cuts this parallelogram into two identical triangles, each with base $b$ and height $h$.",
+     "prompt": "Write an expression for the area of one triangle, using $b$ and $h$.",
+     "type": "expression",
+     "answer": "b*h/2",
+     "hint": "Type b times h as bh, and use / for divide.",
+     "stemFigure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          6,
+          0
+         ],
+         [
+          8,
+          3
+         ],
+         [
+          2,
+          3
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         3.5,
+         3,
+         3.5,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         3.5,
+         0,
+         0,
+         90
+        ],
+        "right": true
+       },
+       {
+        "par": [
+         0,
+         0,
+         6,
+         0
+        ],
+        "n": 2
+       },
+       {
+        "par": [
+         2,
+         3,
+         8,
+         3
+        ],
+        "n": 2
+       },
+       {
+        "par": [
+         0,
+         0,
+         2,
+         3
+        ],
+        "n": 1
+       },
+       {
+        "par": [
+         6,
+         0,
+         8,
+         3
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         0,
+         0,
+         8,
+         3
+        ],
+        "dash": true
+       },
+       {
+        "label": "b",
+        "at": [
+         3,
+         -0.45
+        ]
+       },
+       {
+        "label": "h",
+        "at": [
+         3.3,
+         2.2
+        ],
+        "anchor": "end"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q13b",
+     "label": "13b",
+     "section": "Reasoning",
+     "stem": "A diagonal cuts this parallelogram into two identical triangles, each with base $b$ and height $h$.",
+     "prompt": "The parallelogram is twice one triangle. Write an expression for its area, using $b$ and $h$.",
+     "type": "expression",
+     "answer": "b*h",
+     "form": "simplified"
+    },
+    {
+     "id": "q14",
+     "label": "14",
+     "section": "Enrichment",
+     "prompt": "Two office towers lean towards each other. Each tower has a square base of side $40$ m, a vertical height of $96$ m and a slant height of $104$ m. Two of its sides are parallelograms (like the one shown) and the other two sides are rectangles $40$ m wide and $104$ m long. All four sides are covered in glass that costs $\\$150$ per square metre. Find the cost of the glass for one tower.",
+     "type": "numeric",
+     "answer": "2400000",
+     "units": "$",
+     "hint": "Type a large number without spaces or commas, for example 1500000.",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          2.083,
+          0
+         ],
+         [
+          4.167,
+          5
+         ],
+         [
+          2.083,
+          5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         2.083,
+         0,
+         4.167,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         4.167,
+         5,
+         4.167,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         4.167,
+         0,
+         90,
+         180
+        ],
+        "right": true
+       },
+       {
+        "par": [
+         0,
+         0,
+         2.083,
+         0
+        ],
+        "n": 2
+       },
+       {
+        "par": [
+         2.083,
+         5,
+         4.167,
+         5
+        ],
+        "n": 2
+       },
+       {
+        "par": [
+         0,
+         0,
+         2.083,
+         5
+        ],
+        "n": 1
+       },
+       {
+        "par": [
+         2.083,
+         0,
+         4.167,
+         5
+        ],
+        "n": 1
+       },
+       {
+        "dim": [
+         0,
+         0,
+         2.083,
+         0
+        ],
+        "label": "40 m",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         0,
+         0,
+         2.083,
+         5
+        ],
+        "label": "104 m",
+        "off": 0.5
+       },
+       {
+        "label": "96 m",
+        "at": [
+         4.317,
+         2.5
+        ],
+        "anchor": "start"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "10g",
+   "chapter": "Chapter 10: Measurement",
+   "title": "10G Area of triangles",
+   "description": "Find the area of triangles using half of base times perpendicular height, including heights outside the triangle.",
+   "questions": [
+    {
+     "id": "q1a",
+     "label": "1a",
+     "section": "Fluency",
+     "stem": "Find the area of each triangle.",
+     "prompt": "Triangle a",
+     "type": "numeric",
+     "answer": "30",
+     "units": "m²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          6,
+          0
+         ],
+         [
+          2,
+          2.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         2,
+         2.5,
+         2,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         2,
+         0,
+         0,
+         90
+        ],
+        "right": true
+       },
+       {
+        "label": "5 m",
+        "at": [
+         2.15,
+         1.25
+        ],
+        "anchor": "start"
+       },
+       {
+        "dim": [
+         0,
+         0,
+         6,
+         0
+        ],
+        "label": "12 m",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q1b",
+     "label": "1b",
+     "section": "Fluency",
+     "stem": "Find the area of each triangle.",
+     "prompt": "Triangle b",
+     "type": "numeric",
+     "answer": "18",
+     "units": "cm²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          -6,
+          0
+         ],
+         [
+          -4.333,
+          -2.667
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         -4.333,
+         -2.667,
+         -4.333,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         -4.333,
+         0,
+         270,
+         360
+        ],
+        "right": true
+       },
+       {
+        "label": "4 cm",
+        "at": [
+         -3.783,
+         -1.333
+        ]
+       },
+       {
+        "dim": [
+         0,
+         0,
+         -6,
+         0
+        ],
+        "label": "9 cm",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2a",
+     "label": "2a",
+     "section": "Fluency",
+     "stem": "Find the area of each triangle.",
+     "prompt": "Triangle a",
+     "type": "numeric",
+     "answer": "15",
+     "units": "m²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          6,
+          0
+         ],
+         [
+          3,
+          5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         3,
+         5,
+         3,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         3,
+         0,
+         0,
+         90
+        ],
+        "right": true
+       },
+       {
+        "label": "5 m",
+        "at": [
+         3.15,
+         2.5
+        ],
+        "anchor": "start"
+       },
+       {
+        "dim": [
+         0,
+         0,
+         6,
+         0
+        ],
+        "label": "6 m",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2b",
+     "label": "2b",
+     "section": "Fluency",
+     "stem": "Find the area of each triangle.",
+     "prompt": "Triangle b",
+     "type": "numeric",
+     "answer": "42",
+     "units": "cm²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          -6,
+          0
+         ],
+         [
+          -3.429,
+          -2.571
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         -3.429,
+         -2.571,
+         -3.429,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         -3.429,
+         0,
+         270,
+         360
+        ],
+        "right": true
+       },
+       {
+        "label": "6 cm",
+        "at": [
+         -2.879,
+         -1.286
+        ]
+       },
+       {
+        "dim": [
+         0,
+         0,
+         -6,
+         0
+        ],
+        "label": "14 cm",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2c",
+     "label": "2c",
+     "section": "Fluency",
+     "stem": "Find the area of each triangle.",
+     "prompt": "Triangle c",
+     "type": "numeric",
+     "answer": "28",
+     "units": "mm²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          6,
+          0
+         ],
+         [
+          1.125,
+          5.25
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         1.125,
+         5.25,
+         1.125,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         1.125,
+         0,
+         0,
+         90
+        ],
+        "right": true
+       },
+       {
+        "label": "7 mm",
+        "at": [
+         1.275,
+         2.625
+        ],
+        "anchor": "start"
+       },
+       {
+        "dim": [
+         0,
+         0,
+         6,
+         0
+        ],
+        "label": "8 mm",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2d",
+     "label": "2d",
+     "section": "Fluency",
+     "stem": "Find the area of each triangle.",
+     "prompt": "Triangle d",
+     "type": "numeric",
+     "answer": "108",
+     "units": "m²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          6,
+          0
+         ],
+         [
+          0,
+          4
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         90
+        ],
+        "right": true
+       },
+       {
+        "dim": [
+         0,
+         4,
+         0,
+         0
+        ],
+        "label": "12 m",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         0,
+         0,
+         6,
+         0
+        ],
+        "label": "18 m",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2e",
+     "label": "2e",
+     "section": "Fluency",
+     "stem": "Find the area of each triangle.",
+     "prompt": "Triangle e",
+     "type": "numeric",
+     "answer": "1.95",
+     "units": "m²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          -2.536,
+          5.438
+         ],
+         [
+          -3.138,
+          -1.463
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "angle": [
+         0,
+         0,
+         115,
+         205
+        ],
+        "right": true
+       },
+       {
+        "dim": [
+         -3.138,
+         -1.463,
+         0,
+         0
+        ],
+        "label": "1.5 m",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         0,
+         0,
+         -2.536,
+         5.438
+        ],
+        "label": "2.6 m",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2f",
+     "label": "2f",
+     "section": "Fluency",
+     "stem": "Find the area of each triangle.",
+     "prompt": "Triangle f",
+     "type": "numeric",
+     "answer": "1.8",
+     "units": "cm²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          5.869,
+          -1.247
+         ],
+         [
+          0.499,
+          2.348
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "angle": [
+         0,
+         0,
+         -12,
+         78
+        ],
+        "right": true
+       },
+       {
+        "dim": [
+         0.499,
+         2.348,
+         0,
+         0
+        ],
+        "label": "1.2 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         0,
+         0,
+         5.869,
+         -1.247
+        ],
+        "label": "3 cm",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3a",
+     "label": "3a",
+     "section": "Fluency",
+     "stem": "Find the area of each triangle.",
+     "prompt": "Triangle a",
+     "type": "numeric",
+     "answer": "24",
+     "units": "mm²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          4.364,
+          0
+         ],
+         [
+          6,
+          3.273
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         4.364,
+         0,
+         6,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         6,
+         3.273,
+         6,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         6,
+         0,
+         90,
+         180
+        ],
+        "right": true
+       },
+       {
+        "label": "6 mm",
+        "at": [
+         6.15,
+         1.636
+        ],
+        "anchor": "start"
+       },
+       {
+        "dim": [
+         0,
+         0,
+         4.364,
+         0
+        ],
+        "label": "8 mm",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3b",
+     "label": "3b",
+     "section": "Fluency",
+     "stem": "Find the area of each triangle.",
+     "prompt": "Triangle b",
+     "type": "numeric",
+     "answer": "22.5",
+     "units": "cm²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          3.333,
+          0
+         ],
+         [
+          5.333,
+          6
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         3.333,
+         0,
+         5.333,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         5.333,
+         6,
+         5.333,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         5.333,
+         0,
+         90,
+         180
+        ],
+        "right": true
+       },
+       {
+        "label": "9 cm",
+        "at": [
+         5.483,
+         3
+        ],
+        "anchor": "start"
+       },
+       {
+        "dim": [
+         0,
+         0,
+         3.333,
+         0
+        ],
+        "label": "5 cm",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4a",
+     "label": "4a",
+     "section": "Fluency",
+     "stem": "Find the area of each of the following triangles.",
+     "prompt": "Triangle a",
+     "type": "numeric",
+     "answer": "10",
+     "units": "mm²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          4,
+          0
+         ],
+         [
+          6,
+          3.2
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         4,
+         0,
+         6,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         6,
+         3.2,
+         6,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         6,
+         0,
+         90,
+         180
+        ],
+        "right": true
+       },
+       {
+        "label": "4 mm",
+        "at": [
+         6.15,
+         1.6
+        ],
+        "anchor": "start"
+       },
+       {
+        "dim": [
+         0,
+         0,
+         4,
+         0
+        ],
+        "label": "5 mm",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4b",
+     "label": "4b",
+     "section": "Fluency",
+     "stem": "Find the area of each of the following triangles.",
+     "prompt": "Triangle b",
+     "type": "numeric",
+     "answer": "36",
+     "units": "km²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          -4.5,
+          0
+         ],
+         [
+          -6,
+          -4
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         -4.5,
+         0,
+         -6,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         -6,
+         -4,
+         -6,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         -6,
+         0,
+         270,
+         360
+        ],
+        "right": true
+       },
+       {
+        "label": "8 km",
+        "at": [
+         -6.55,
+         -2
+        ]
+       },
+       {
+        "dim": [
+         0,
+         0,
+         -4.5,
+         0
+        ],
+        "label": "9 km",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4c",
+     "label": "4c",
+     "section": "Fluency",
+     "stem": "Find the area of each of the following triangles.",
+     "prompt": "Triangle c",
+     "type": "numeric",
+     "answer": "10.5",
+     "units": "cm²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          4.421,
+          0
+         ],
+         [
+          -1.579,
+          1.895
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         -1.579,
+         0,
+         0,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         -1.579,
+         1.895,
+         -1.579,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         -1.579,
+         0,
+         0,
+         90
+        ],
+        "right": true
+       },
+       {
+        "label": "3 cm",
+        "at": [
+         -1.729,
+         0.947
+        ],
+        "anchor": "end"
+       },
+       {
+        "dim": [
+         0,
+         0,
+         4.421,
+         0
+        ],
+        "label": "7 cm",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4d",
+     "label": "4d",
+     "section": "Fluency",
+     "stem": "Find the area of each of the following triangles.",
+     "prompt": "Triangle d",
+     "type": "numeric",
+     "answer": "2.4",
+     "units": "cm²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          0,
+          4.286
+         ],
+         [
+          -2.286,
+          6
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0,
+         4.286,
+         0,
+         6
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         -2.286,
+         6,
+         0,
+         6
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         0,
+         6,
+         180,
+         270
+        ],
+        "right": true
+       },
+       {
+        "label": "1.6 cm",
+        "at": [
+         -1.143,
+         6.55
+        ]
+       },
+       {
+        "dim": [
+         0,
+         0,
+         0,
+         4.286
+        ],
+        "label": "3 cm",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4e",
+     "label": "4e",
+     "section": "Fluency",
+     "stem": "Find the area of each of the following triangles.",
+     "prompt": "Triangle e",
+     "type": "numeric",
+     "answer": "30",
+     "units": "m²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          4.35,
+          2.029
+         ],
+         [
+          4.593,
+          4.348
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         4.35,
+         2.029,
+         5.438,
+         2.536
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         4.593,
+         4.348,
+         5.438,
+         2.536
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         5.438,
+         2.536,
+         115,
+         205
+        ],
+        "right": true
+       },
+       {
+        "label": "5 m",
+        "at": [
+         5.514,
+         3.674
+        ]
+       },
+       {
+        "dim": [
+         0,
+         0,
+         4.35,
+         2.029
+        ],
+        "label": "12 m",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4f",
+     "label": "4f",
+     "section": "Fluency",
+     "stem": "Find the area of each of the following triangles.",
+     "prompt": "Triangle f",
+     "type": "numeric",
+     "answer": "7.5",
+     "units": "m²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          2.893,
+          -3.447
+         ],
+         [
+          0.472,
+          2.354
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         -0.964,
+         1.149,
+         0,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         0.472,
+         2.354,
+         -0.964,
+         1.149
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         -0.964,
+         1.149,
+         -50,
+         40
+        ],
+        "right": true
+       },
+       {
+        "label": "2.5 m",
+        "at": [
+         -0.599,
+         2.173
+        ]
+       },
+       {
+        "dim": [
+         0,
+         0,
+         2.893,
+         -3.447
+        ],
+        "label": "6 m",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q5a",
+     "label": "5a",
+     "section": "Fluency",
+     "stem": "Find the area of these triangles, which have been drawn on $1$ cm grids. Give your answer in cm².",
+     "prompt": "Triangle a",
+     "type": "numeric",
+     "answer": "3",
+     "units": "cm²",
+     "figure": {
+      "kind": "diagram",
+      "unit": 30,
+      "items": [
+       {
+        "poly": [
+         [
+          1,
+          1
+         ],
+         [
+          3,
+          1
+         ],
+         [
+          2,
+          4
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         0,
+         5
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         1,
+         0,
+         1,
+         5
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         2,
+         0,
+         2,
+         5
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         3,
+         0,
+         3,
+         5
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         4,
+         0,
+         4,
+         5
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         4,
+         0
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         1,
+         4,
+         1
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         2,
+         4,
+         2
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         3,
+         4,
+         3
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         4,
+         4,
+         4
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         5,
+         4,
+         5
+        ],
+        "thin": true
+       },
+       {
+        "poly": [
+         [
+          1,
+          1
+         ],
+         [
+          3,
+          1
+         ],
+         [
+          2,
+          4
+         ]
+        ]
+       }
+      ]
+     },
+     "hint": "Type a decimal like 4.5 if you need to."
+    },
+    {
+     "id": "q5b",
+     "label": "5b",
+     "section": "Fluency",
+     "stem": "Find the area of these triangles, which have been drawn on $1$ cm grids. Give your answer in cm².",
+     "prompt": "Triangle b",
+     "type": "numeric",
+     "answer": "10",
+     "units": "cm²",
+     "figure": {
+      "kind": "diagram",
+      "unit": 30,
+      "items": [
+       {
+        "poly": [
+         [
+          1,
+          1
+         ],
+         [
+          1,
+          5
+         ],
+         [
+          6,
+          3
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         0,
+         6
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         1,
+         0,
+         1,
+         6
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         2,
+         0,
+         2,
+         6
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         3,
+         0,
+         3,
+         6
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         4,
+         0,
+         4,
+         6
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         5,
+         0,
+         5,
+         6
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         6,
+         0,
+         6,
+         6
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         7,
+         0,
+         7,
+         6
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         7,
+         0
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         1,
+         7,
+         1
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         2,
+         7,
+         2
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         3,
+         7,
+         3
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         4,
+         7,
+         4
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         5,
+         7,
+         5
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         6,
+         7,
+         6
+        ],
+        "thin": true
+       },
+       {
+        "poly": [
+         [
+          1,
+          1
+         ],
+         [
+          1,
+          5
+         ],
+         [
+          6,
+          3
+         ]
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q5c",
+     "label": "5c",
+     "section": "Fluency",
+     "stem": "Find the area of these triangles, which have been drawn on $1$ cm grids. Give your answer in cm².",
+     "prompt": "Triangle c",
+     "type": "numeric",
+     "answer": "4",
+     "units": "cm²",
+     "figure": {
+      "kind": "diagram",
+      "unit": 30,
+      "items": [
+       {
+        "poly": [
+         [
+          1.166,
+          1.908
+         ],
+         [
+          4.558,
+          4.028
+         ],
+         [
+          -0.742,
+          3.074
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         -2.65,
+         4.24
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0.848,
+         0.53,
+         -1.802,
+         4.77
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         1.696,
+         1.06,
+         -0.954,
+         5.3
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         2.544,
+         1.59,
+         -0.105,
+         5.83
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         3.392,
+         2.12,
+         0.743,
+         6.36
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         4.24,
+         2.65,
+         1.591,
+         6.89
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         5.088,
+         3.18,
+         2.439,
+         7.42
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         5.936,
+         3.709,
+         3.287,
+         7.95
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         5.936,
+         3.709
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         -0.53,
+         0.848,
+         5.406,
+         4.557
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         -1.06,
+         1.696,
+         4.876,
+         5.406
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         -1.59,
+         2.544,
+         4.347,
+         6.254
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         -2.12,
+         3.392,
+         3.817,
+         7.102
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         -2.65,
+         4.24,
+         3.287,
+         7.95
+        ],
+        "thin": true
+       },
+       {
+        "poly": [
+         [
+          1.166,
+          1.908
+         ],
+         [
+          4.558,
+          4.028
+         ],
+         [
+          -0.742,
+          3.074
+         ]
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q5d",
+     "label": "5d",
+     "section": "Fluency",
+     "stem": "Find the area of these triangles, which have been drawn on $1$ cm grids. Give your answer in cm².",
+     "prompt": "Triangle d",
+     "type": "numeric",
+     "answer": "5",
+     "units": "cm²",
+     "figure": {
+      "kind": "diagram",
+      "unit": 30,
+      "items": [
+       {
+        "poly": [
+         [
+          1.822,
+          1.296
+         ],
+         [
+          4.001,
+          -0.995
+         ],
+         [
+          4.113,
+          3.476
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         2.817,
+         5.298
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0.883,
+         -0.469,
+         3.7,
+         4.828
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         1.766,
+         -0.939,
+         4.583,
+         4.359
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         2.649,
+         -1.408,
+         5.466,
+         3.889
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         3.532,
+         -1.878,
+         6.349,
+         3.42
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         4.415,
+         -2.347,
+         7.232,
+         2.95
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         4.415,
+         -2.347
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0.469,
+         0.883,
+         4.884,
+         -1.464
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         0.939,
+         1.766,
+         5.354,
+         -0.581
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         1.408,
+         2.649,
+         5.823,
+         0.301
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         1.878,
+         3.532,
+         6.293,
+         1.184
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         2.347,
+         4.415,
+         6.762,
+         2.067
+        ],
+        "thin": true
+       },
+       {
+        "seg": [
+         2.817,
+         5.298,
+         7.232,
+         2.95
+        ],
+        "thin": true
+       },
+       {
+        "poly": [
+         [
+          1.822,
+          1.296
+         ],
+         [
+          4.001,
+          -0.995
+         ],
+         [
+          4.113,
+          3.476
+         ]
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q6",
+     "label": "6",
+     "section": "Fluency",
+     "prompt": "A rectangular block of land measuring $50$ m long by $32$ m wide is cut in half along a diagonal. Find the area of each triangular block of land.",
+     "type": "numeric",
+     "answer": "800",
+     "units": "m²"
+    },
+    {
+     "id": "q7",
+     "label": "7",
+     "section": "Fluency",
+     "prompt": "A square pyramid has a base length of $140$ m, and each triangular face has a height of $90$ m. Find the area of one triangular face of the pyramid.",
+     "type": "numeric",
+     "answer": "6300",
+     "units": "m²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          6,
+          0
+         ],
+         [
+          3,
+          3.857
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         3,
+         3.857,
+         3,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         3,
+         0,
+         0,
+         90
+        ],
+        "right": true
+       },
+       {
+        "label": "90 m",
+        "at": [
+         3.15,
+         1.929
+        ],
+        "anchor": "start"
+       },
+       {
+        "dim": [
+         0,
+         0,
+         6,
+         0
+        ],
+        "label": "140 m",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q8",
+     "label": "8",
+     "section": "Problem-solving",
+     "prompt": "Each face of a $4$-sided die is a triangle with a base of $3$ cm and a height of $2.6$ cm. Find the total area of all $4$ faces of the die.",
+     "type": "numeric",
+     "answer": "15.6",
+     "units": "cm²"
+    },
+    {
+     "id": "q9",
+     "label": "9",
+     "section": "Problem-solving",
+     "prompt": "A farmer builds a fence (the dashed line) to divide a triangular paddock into two smaller triangles, as shown. What is the difference between the two areas?",
+     "type": "numeric",
+     "answer": "162",
+     "units": "m²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          0,
+          5.538
+         ],
+         [
+          6,
+          5.538
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         2.308,
+         5.538
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         0,
+         5.538,
+         270,
+         360
+        ],
+        "right": true
+       },
+       {
+        "dim": [
+         0,
+         5.538,
+         2.308,
+         5.538
+        ],
+        "label": "15 m",
+        "off": 0.5
+       },
+       {
+        "dim": [
+         2.308,
+         5.538,
+         6,
+         5.538
+        ],
+        "label": "24 m",
+        "off": 0.5
+       },
+       {
+        "dim": [
+         0,
+         0,
+         0,
+         5.538
+        ],
+        "label": "36 m",
+        "off": 0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q10",
+     "label": "10",
+     "section": "Problem-solving",
+     "prompt": "Two sails on a yacht need replacing. One sail has a base length of $3$ m and a height of $7$ m. The bigger sail has a base length of $4.5$ m and a height of $14$ m. Sail material costs $\\$120$ per square metre. Find the total cost to replace both sails.",
+     "type": "numeric",
+     "answer": "5040",
+     "units": "$"
+    },
+    {
+     "id": "q11a",
+     "label": "11a",
+     "section": "Problem-solving",
+     "prompt": "The area of a triangle is $15$ cm² and its base length is $5$ cm. Find its height.",
+     "type": "numeric",
+     "answer": "6",
+     "units": "cm"
+    },
+    {
+     "id": "q11b",
+     "label": "11b",
+     "section": "Problem-solving",
+     "prompt": "The area of a triangle is $36$ mm² and its height is $8$ mm. Find its base length.",
+     "type": "numeric",
+     "answer": "9",
+     "units": "mm"
+    },
+    {
+     "id": "q12",
+     "label": "12",
+     "section": "Reasoning",
+     "prompt": "$M$ is the midpoint of the base of this triangle, and it is joined to the opposite corner. Does this split the triangle into two parts with exactly the same area?",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          8,
+          0
+         ],
+         [
+          2.5,
+          4.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         4,
+         0,
+         2.5,
+         4.5
+        ]
+       },
+       {
+        "seg": [
+         2.5,
+         4.5,
+         2.5,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         2.5,
+         0,
+         0,
+         90
+        ],
+        "right": true
+       },
+       {
+        "label": "h",
+        "at": [
+         2.25,
+         2
+        ],
+        "anchor": "end"
+       },
+       {
+        "tick": [
+         0,
+         0,
+         4,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         4,
+         0,
+         8,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "point": [
+         4,
+         0
+        ],
+        "name": "M",
+        "pos": "s"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q13",
+     "label": "13",
+     "section": "Reasoning",
+     "prompt": "The corner $C$ of this triangle slides along the dashed line, which is parallel to the base $AB$. What happens to the area of the triangle?",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "It stays the same",
+      "It gets bigger",
+      "It gets smaller"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          7,
+          0
+         ],
+         [
+          2.5,
+          3
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         -0.5,
+         3,
+         7.5,
+         3
+        ],
+        "dash": true,
+        "arrow": "both"
+       },
+       {
+        "point": [
+         0,
+         0
+        ],
+        "name": "A",
+        "pos": "sw"
+       },
+       {
+        "point": [
+         7,
+         0
+        ],
+        "name": "B",
+        "pos": "se"
+       },
+       {
+        "point": [
+         2.5,
+         3
+        ],
+        "name": "C",
+        "pos": "n"
+       },
+       {
+        "par": [
+         0,
+         0,
+         7,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "par": [
+         -0.5,
+         3,
+         1.5,
+         3
+        ],
+        "n": 1
+       }
+      ]
+     }
+    },
+    {
+     "id": "q14",
+     "label": "14",
+     "section": "Reasoning",
+     "prompt": "The area of a triangle is given by $A = \\frac{1}{2}bh$. Write a formula for the base $b$ if you know the area $A$ and the height $h$. Type only the right-hand side, using $A$ and $h$.",
+     "type": "expression",
+     "answer": "2A/h",
+     "hint": "Use / for divide, for example (A+h)/5."
+    }
+   ]
+  },
+  {
+   "id": "10h",
+   "chapter": "Chapter 10: Measurement",
+   "title": "10H Area of composite shapes",
+   "description": "Find the area of shapes made from rectangles, squares and triangles, by adding or subtracting simpler areas.",
+   "questions": [
+    {
+     "id": "q1a",
+     "label": "1a",
+     "section": "Fluency",
+     "stem": "Find the area of these composite shapes. Assume that all angles that look like right angles are right angles.",
+     "prompt": "Shape a",
+     "type": "numeric",
+     "answer": "64",
+     "units": "cm²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          3.692,
+          0
+         ],
+         [
+          6,
+          0
+         ],
+         [
+          6,
+          3.692
+         ],
+         [
+          0,
+          3.692
+         ],
+         [
+          0,
+          2.308
+         ],
+         [
+          3.692,
+          2.308
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         3.692,
+         2.308,
+         6,
+         2.308
+        ],
+        "dash": true
+       },
+       {
+        "dim": [
+         6,
+         3.692,
+         0,
+         3.692
+        ],
+        "label": "13 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         0,
+         3.692,
+         0,
+         2.308
+        ],
+        "label": "3 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         3.692,
+         0,
+         6,
+         0
+        ],
+        "label": "5 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         6,
+         0,
+         6,
+         3.692
+        ],
+        "label": "8 cm",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q1b",
+     "label": "1b",
+     "section": "Fluency",
+     "stem": "Find the area of these composite shapes. Assume that all angles that look like right angles are right angles.",
+     "prompt": "Shape b",
+     "type": "numeric",
+     "answer": "50",
+     "units": "m²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          4,
+          0
+         ],
+         [
+          6,
+          2.5
+         ],
+         [
+          0,
+          2.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "dim": [
+         6,
+         2.5,
+         0,
+         2.5
+        ],
+        "label": "12 m",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         0,
+         2.5,
+         0,
+         0
+        ],
+        "label": "5 m",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         0,
+         0,
+         4,
+         0
+        ],
+        "label": "8 m",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2a",
+     "label": "2a",
+     "section": "Fluency",
+     "stem": "Find the area of these composite shapes by adding together the areas of simpler shapes. Assume that all angles that look like right angles are right angles.",
+     "prompt": "Shape a",
+     "type": "numeric",
+     "answer": "56",
+     "units": "m²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          5.333,
+          0
+         ],
+         [
+          5.333,
+          6
+         ],
+         [
+          0,
+          3.333
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0,
+         3.333,
+         5.333,
+         3.333
+        ],
+        "dash": true
+       },
+       {
+        "dim": [
+         0,
+         3.333,
+         0,
+         0
+        ],
+        "label": "5 m",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         0,
+         0,
+         5.333,
+         0
+        ],
+        "label": "8 m",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         5.333,
+         3.333,
+         5.333,
+         6
+        ],
+        "label": "4 m",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2b",
+     "label": "2b",
+     "section": "Fluency",
+     "stem": "Find the area of these composite shapes by adding together the areas of simpler shapes. Assume that all angles that look like right angles are right angles.",
+     "prompt": "Shape b",
+     "type": "numeric",
+     "answer": "594",
+     "units": "mm²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          6,
+          0
+         ],
+         [
+          6,
+          2
+         ],
+         [
+          1.667,
+          3.5
+         ],
+         [
+          0,
+          2
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0,
+         2,
+         6,
+         2
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         1.667,
+         3.5,
+         1.667,
+         2
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         1.667,
+         2,
+         0,
+         90
+        ],
+        "right": true
+       },
+       {
+        "dim": [
+         0,
+         0,
+         6,
+         0
+        ],
+        "label": "36 mm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         6,
+         0,
+         6,
+         2
+        ],
+        "label": "12 mm",
+        "off": -0.5
+       },
+       {
+        "label": "9 mm",
+        "at": [
+         1.8,
+         2.75
+        ],
+        "anchor": "start"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2c",
+     "label": "2c",
+     "section": "Fluency",
+     "stem": "Find the area of these composite shapes by adding together the areas of simpler shapes. Assume that all angles that look like right angles are right angles.",
+     "prompt": "Shape c",
+     "type": "numeric",
+     "answer": "46",
+     "units": "m²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          4.2,
+          0
+         ],
+         [
+          4.2,
+          6
+         ],
+         [
+          2.4,
+          6
+         ],
+         [
+          2.4,
+          2.4
+         ],
+         [
+          0,
+          2.4
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         2.4,
+         0,
+         2.4,
+         2.4
+        ],
+        "dash": true
+       },
+       {
+        "tick": [
+         0,
+         0,
+         0,
+         2.4
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         0,
+         2.4,
+         2.4,
+         2.4
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         0,
+         0,
+         2.4,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "dim": [
+         4.2,
+         6,
+         2.4,
+         6
+        ],
+        "label": "3 m",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         4.2,
+         0,
+         4.2,
+         6
+        ],
+        "label": "10 m",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         0,
+         2.4,
+         0,
+         0
+        ],
+        "label": "4 m",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2d",
+     "label": "2d",
+     "section": "Fluency",
+     "stem": "Find the area of these composite shapes by adding together the areas of simpler shapes. Assume that all angles that look like right angles are right angles.",
+     "prompt": "Shape d",
+     "type": "numeric",
+     "answer": "34",
+     "units": "m²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          6,
+          0
+         ],
+         [
+          3.273,
+          2.182
+         ],
+         [
+          0,
+          2.182
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "dim": [
+         3.273,
+         2.182,
+         0,
+         2.182
+        ],
+        "label": "6 m",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         0,
+         2.182,
+         0,
+         0
+        ],
+        "label": "4 m",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         0,
+         0,
+         6,
+         0
+        ],
+        "label": "11 m",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2e",
+     "label": "2e",
+     "section": "Fluency",
+     "stem": "Find the area of these composite shapes by adding together the areas of simpler shapes. Assume that all angles that look like right angles are right angles.",
+     "prompt": "Shape e",
+     "type": "numeric",
+     "answer": "215",
+     "units": "cm²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          4.75,
+          0
+         ],
+         [
+          4.75,
+          2.5
+         ],
+         [
+          -1.25,
+          2.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "dim": [
+         4.75,
+         2.5,
+         -1.25,
+         2.5
+        ],
+        "label": "24 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         0,
+         0,
+         4.75,
+         0
+        ],
+        "label": "19 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         4.75,
+         0,
+         4.75,
+         2.5
+        ],
+        "label": "10 cm",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2f",
+     "label": "2f",
+     "section": "Fluency",
+     "stem": "Find the area of these composite shapes by adding together the areas of simpler shapes. Assume that all angles that look like right angles are right angles.",
+     "prompt": "Shape f",
+     "type": "numeric",
+     "answer": "66",
+     "units": "km²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          6,
+          0
+         ],
+         [
+          6,
+          2
+         ],
+         [
+          3,
+          3.5
+         ],
+         [
+          0,
+          2
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "dim": [
+         0,
+         0,
+         6,
+         0
+        ],
+        "label": "12 km",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         0,
+         2,
+         0,
+         0
+        ],
+        "label": "4 km",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         6,
+         0,
+         6,
+         3.5
+        ],
+        "label": "7 km",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3a",
+     "label": "3a",
+     "section": "Fluency",
+     "stem": "Find the area of these composite shapes. Assume that all angles that look like right angles are right angles.",
+     "prompt": "Shape a",
+     "type": "numeric",
+     "answer": "63",
+     "units": "cm²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          1.5
+         ],
+         [
+          3,
+          0
+         ],
+         [
+          6,
+          0
+         ],
+         [
+          6,
+          3
+         ],
+         [
+          0,
+          3
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0,
+         1.5,
+         0,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         3,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "dim": [
+         6,
+         3,
+         0,
+         3
+        ],
+        "label": "12 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         6,
+         0,
+         6,
+         3
+        ],
+        "label": "6 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         0,
+         1.5,
+         0,
+         0
+        ],
+        "label": "3 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         0,
+         0,
+         3,
+         0
+        ],
+        "label": "6 cm",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3b",
+     "label": "3b",
+     "section": "Fluency",
+     "stem": "Find the area of these composite shapes. Assume that all angles that look like right angles are right angles.",
+     "prompt": "Shape b",
+     "type": "numeric",
+     "answer": "60",
+     "units": "cm²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          4.8,
+          0
+         ],
+         [
+          4.8,
+          6
+         ],
+         [
+          2.4,
+          3
+         ],
+         [
+          0,
+          6
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0,
+         6,
+         4.8,
+         6
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         2.4,
+         6,
+         2.4,
+         3
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         2.4,
+         6,
+         270,
+         360
+        ],
+        "right": true
+       },
+       {
+        "dim": [
+         0,
+         0,
+         4.8,
+         0
+        ],
+        "label": "8 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         4.8,
+         0,
+         4.8,
+         6
+        ],
+        "label": "10 cm",
+        "off": -0.5
+       },
+       {
+        "label": "5 cm",
+        "at": [
+         2.22,
+         5.22
+        ],
+        "anchor": "end"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4a",
+     "label": "4a",
+     "section": "Fluency",
+     "stem": "Use subtraction to find the area of these composite shapes. Assume that all angles that look like right angles are right angles.",
+     "prompt": "Shape a",
+     "type": "numeric",
+     "answer": "57",
+     "units": "m²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          6,
+          0
+         ],
+         [
+          6,
+          2.667
+         ],
+         [
+          3.333,
+          4.667
+         ],
+         [
+          0,
+          4.667
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         3.333,
+         4.667,
+         6,
+         4.667
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         6,
+         4.667,
+         6,
+         2.667
+        ],
+        "dash": true
+       },
+       {
+        "dim": [
+         0,
+         4.667,
+         0,
+         0
+        ],
+        "label": "7 m",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         0,
+         0,
+         6,
+         0
+        ],
+        "label": "9 m",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         3.333,
+         4.667,
+         6,
+         4.667
+        ],
+        "label": "4 m",
+        "off": 0.5
+       },
+       {
+        "dim": [
+         6,
+         4.667,
+         6,
+         2.667
+        ],
+        "label": "3 m",
+        "off": 0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4b",
+     "label": "4b",
+     "section": "Fluency",
+     "stem": "Use subtraction to find the area of these composite shapes. Assume that all angles that look like right angles are right angles.",
+     "prompt": "Shape b",
+     "type": "numeric",
+     "answer": "136",
+     "units": "cm²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          2
+         ],
+         [
+          2,
+          0
+         ],
+         [
+          6,
+          0
+         ],
+         [
+          6,
+          6
+         ],
+         [
+          0,
+          6
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0,
+         2,
+         0,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         2,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "tick": [
+         6,
+         6,
+         0,
+         6
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         6,
+         0,
+         6,
+         6
+        ],
+        "n": 1
+       },
+       {
+        "dim": [
+         6,
+         0,
+         6,
+         6
+        ],
+        "label": "12 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         0,
+         2,
+         0,
+         0
+        ],
+        "label": "4 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         0,
+         0,
+         2,
+         0
+        ],
+        "label": "4 cm",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4c",
+     "label": "4c",
+     "section": "Fluency",
+     "stem": "Use subtraction to find the area of these composite shapes. Assume that all angles that look like right angles are right angles.",
+     "prompt": "Shape c",
+     "type": "numeric",
+     "answer": "38",
+     "units": "m²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          6,
+          0
+         ],
+         [
+          6,
+          5.143
+         ],
+         [
+          1.714,
+          5.143
+         ],
+         [
+          1.714,
+          3.429
+         ],
+         [
+          0,
+          3.429
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "tick": [
+         1.714,
+         5.143,
+         1.714,
+         3.429
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         1.714,
+         3.429,
+         0,
+         3.429
+        ],
+        "n": 1
+       },
+       {
+        "dim": [
+         0,
+         0,
+         6,
+         0
+        ],
+        "label": "7 m",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         6,
+         0,
+         6,
+         5.143
+        ],
+        "label": "6 m",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         1.714,
+         5.143,
+         1.714,
+         3.429
+        ],
+        "label": "2 m",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4d",
+     "label": "4d",
+     "section": "Fluency",
+     "stem": "Use subtraction to find the area of these composite shapes. Assume that all angles that look like right angles are right angles.",
+     "prompt": "Shape d",
+     "type": "numeric",
+     "answer": "70",
+     "units": "m²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          3,
+          2.571
+         ],
+         [
+          6,
+          0
+         ],
+         [
+          6,
+          3.429
+         ],
+         [
+          0,
+          3.429
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         6,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         3,
+         2.571,
+         3,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         3,
+         0,
+         0,
+         90
+        ],
+        "right": true
+       },
+       {
+        "dim": [
+         6,
+         3.429,
+         0,
+         3.429
+        ],
+        "label": "14 m",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         6,
+         0,
+         6,
+         3.429
+        ],
+        "label": "8 m",
+        "off": -0.5
+       },
+       {
+        "label": "6 m",
+        "at": [
+         3.171,
+         1.286
+        ],
+        "anchor": "start"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4e",
+     "label": "4e",
+     "section": "Fluency",
+     "stem": "Use subtraction to find the area of these composite shapes. Assume that all angles that look like right angles are right angles.",
+     "prompt": "Shape e",
+     "type": "numeric",
+     "answer": "176",
+     "units": "cm²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          3,
+          3.75
+         ],
+         [
+          6,
+          0
+         ],
+         [
+          6,
+          6
+         ],
+         [
+          0,
+          6
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         6,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         3,
+         3.75,
+         3,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "tick": [
+         0,
+         6,
+         0,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         6,
+         6,
+         0,
+         6
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         6,
+         0,
+         6,
+         6
+        ],
+        "n": 1
+       },
+       {
+        "angle": [
+         3,
+         0,
+         0,
+         90
+        ],
+        "right": true
+       },
+       {
+        "dim": [
+         6,
+         0,
+         6,
+         6
+        ],
+        "label": "16 cm",
+        "off": -0.5
+       },
+       {
+        "label": "10 cm",
+        "at": [
+         3.15,
+         1.875
+        ],
+        "anchor": "start"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4f",
+     "label": "4f",
+     "section": "Fluency",
+     "stem": "Use subtraction to find the area of these composite shapes. Assume that all angles that look like right angles are right angles.",
+     "prompt": "Shape f",
+     "type": "numeric",
+     "answer": "8.25",
+     "units": "m²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          2.25,
+          0
+         ],
+         [
+          2.25,
+          1.5
+         ],
+         [
+          3.75,
+          1.5
+         ],
+         [
+          3.75,
+          0
+         ],
+         [
+          6,
+          0
+         ],
+         [
+          3,
+          3.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         2.25,
+         0,
+         3.75,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "tick": [
+         2.25,
+         0,
+         2.25,
+         1.5
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         3.75,
+         1.5,
+         3.75,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "dim": [
+         0,
+         0,
+         6,
+         0
+        ],
+        "label": "6 m",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         6,
+         0,
+         6,
+         3.5
+        ],
+        "label": "3.5 m",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         2.25,
+         1.5,
+         3.75,
+         1.5
+        ],
+        "label": "1.5 m",
+        "off": 0.4
+       }
+      ]
+     }
+    },
+    {
+     "id": "q5a",
+     "label": "5a",
+     "section": "Problem-solving",
+     "stem": "Find the areas of these composite shapes. Assume that all angles that look like right angles are right angles.",
+     "prompt": "Shape a",
+     "type": "numeric",
+     "answer": "69",
+     "units": "cm²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          2.25,
+          0
+         ],
+         [
+          2.25,
+          1.5
+         ],
+         [
+          3.75,
+          1.5
+         ],
+         [
+          3.75,
+          0
+         ],
+         [
+          6,
+          0
+         ],
+         [
+          6,
+          2.5
+         ],
+         [
+          0,
+          4
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "tick": [
+         2.25,
+         0,
+         2.25,
+         1.5
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         3.75,
+         1.5,
+         3.75,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "dim": [
+         0,
+         4,
+         0,
+         0
+        ],
+        "label": "8 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         6,
+         0,
+         6,
+         2.5
+        ],
+        "label": "5 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         0,
+         0,
+         6,
+         0
+        ],
+        "label": "12 cm",
+        "off": -1
+       },
+       {
+        "dim": [
+         2.25,
+         1.5,
+         3.75,
+         1.5
+        ],
+        "label": "3 cm",
+        "off": 0.4
+       }
+      ]
+     }
+    },
+    {
+     "id": "q5b",
+     "label": "5b",
+     "section": "Problem-solving",
+     "stem": "Find the areas of these composite shapes. Assume that all angles that look like right angles are right angles.",
+     "prompt": "Shape b",
+     "type": "numeric",
+     "answer": "23",
+     "units": "m²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          6,
+          0
+         ],
+         [
+          4,
+          1.333
+         ],
+         [
+          1.333,
+          1.333
+         ],
+         [
+          1.333,
+          4
+         ],
+         [
+          0,
+          4
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0,
+         1.333,
+         1.333,
+         1.333
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         0,
+         2.667,
+         1.333,
+         2.667
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         1.333,
+         0,
+         1.333,
+         1.333
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         2.667,
+         0,
+         2.667,
+         1.333
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         4,
+         0,
+         4,
+         1.333
+        ],
+        "dash": true
+       },
+       {
+        "tick": [
+         0,
+         0,
+         0,
+         1.333
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         0,
+         1.333,
+         0,
+         2.667
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         0,
+         2.667,
+         0,
+         4
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         0,
+         4,
+         1.333,
+         4
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         1.333,
+         4,
+         1.333,
+         2.667
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         1.333,
+         2.667,
+         1.333,
+         1.333
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         1.333,
+         1.333,
+         2.667,
+         1.333
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         2.667,
+         1.333,
+         4,
+         1.333
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         0,
+         0,
+         1.333,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         1.333,
+         0,
+         2.667,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         2.667,
+         0,
+         4,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "dim": [
+         1.333,
+         4,
+         0,
+         4
+        ],
+        "label": "2 m",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         4,
+         0,
+         6,
+         0
+        ],
+        "label": "3 m",
+        "off": -0.5
+       }
+      ]
+     },
+     "hint": "Every side with a tick mark is the same length."
+    },
+    {
+     "id": "q5c",
+     "label": "5c",
+     "section": "Problem-solving",
+     "stem": "Find the areas of these composite shapes. Assume that all angles that look like right angles are right angles.",
+     "prompt": "Shape c",
+     "type": "numeric",
+     "answer": "396",
+     "units": "cm²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          6,
+          0
+         ],
+         [
+          6,
+          4.5
+         ],
+         [
+          1.5,
+          4.5
+         ],
+         [
+          1.5,
+          3
+         ],
+         [
+          0,
+          3
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "tick": [
+         1.5,
+         4.5,
+         1.5,
+         3
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         1.5,
+         3,
+         0,
+         3
+        ],
+        "n": 1
+       },
+       {
+        "dim": [
+         0,
+         0,
+         6,
+         0
+        ],
+        "label": "24 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         6,
+         0,
+         6,
+         4.5
+        ],
+        "label": "18 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         1.5,
+         4.5,
+         1.5,
+         3
+        ],
+        "label": "6 cm",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q6a",
+     "label": "6a",
+     "section": "Problem-solving",
+     "stem": "By finding the missing lengths first, calculate the area of these composite shapes.",
+     "prompt": "Shape a",
+     "type": "numeric",
+     "answer": "125",
+     "units": "cm²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          2,
+          0
+         ],
+         [
+          4,
+          0
+         ],
+         [
+          4,
+          2
+         ],
+         [
+          6,
+          2
+         ],
+         [
+          6,
+          4
+         ],
+         [
+          4,
+          4
+         ],
+         [
+          4,
+          6
+         ],
+         [
+          2,
+          6
+         ],
+         [
+          2,
+          4
+         ],
+         [
+          0,
+          4
+         ],
+         [
+          0,
+          2
+         ],
+         [
+          2,
+          2
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "tick": [
+         2,
+         0,
+         4,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         4,
+         0,
+         4,
+         2
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         4,
+         2,
+         6,
+         2
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         6,
+         2,
+         6,
+         4
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         6,
+         4,
+         4,
+         4
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         4,
+         4,
+         4,
+         6
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         4,
+         6,
+         2,
+         6
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         2,
+         6,
+         2,
+         4
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         2,
+         4,
+         0,
+         4
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         0,
+         4,
+         0,
+         2
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         0,
+         2,
+         2,
+         2
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         2,
+         2,
+         2,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "dim": [
+         0,
+         0,
+         6,
+         0
+        ],
+        "label": "15 cm",
+        "off": -0.3
+       }
+      ]
+     }
+    },
+    {
+     "id": "q6b",
+     "label": "6b",
+     "section": "Problem-solving",
+     "stem": "By finding the missing lengths first, calculate the area of these composite shapes.",
+     "prompt": "Shape b",
+     "type": "numeric",
+     "answer": "15",
+     "units": "m²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          1.5,
+          0
+         ],
+         [
+          6,
+          3
+         ],
+         [
+          4,
+          5
+         ],
+         [
+          0,
+          3
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0,
+         3,
+         6,
+         3
+        ],
+        "dash": true
+       },
+       {
+        "dim": [
+         0,
+         0,
+         6,
+         0
+        ],
+        "label": "6 m",
+        "off": -0.6
+       },
+       {
+        "dim": [
+         0,
+         5,
+         0,
+         0
+        ],
+        "label": "5 m",
+        "off": -0.6
+       },
+       {
+        "dim": [
+         6,
+         3,
+         6,
+         5
+        ],
+        "label": "2 m",
+        "off": -0.6
+       }
+      ]
+     }
+    },
+    {
+     "id": "q6c",
+     "label": "6c",
+     "section": "Problem-solving",
+     "stem": "By finding the missing lengths first, calculate the area of these composite shapes.",
+     "prompt": "Shape c",
+     "type": "numeric",
+     "answer": "48",
+     "units": "m²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          6,
+          0
+         ],
+         [
+          6,
+          3
+         ],
+         [
+          3,
+          3
+         ],
+         [
+          3,
+          6
+         ],
+         [
+          0,
+          6
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "tick": [
+         6,
+         0,
+         6,
+         3
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         6,
+         3,
+         3,
+         3
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         3,
+         3,
+         3,
+         6
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         3,
+         6,
+         0,
+         6
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         0,
+         6,
+         0,
+         0
+        ],
+        "n": 2
+       },
+       {
+        "tick": [
+         0,
+         0,
+         6,
+         0
+        ],
+        "n": 2
+       },
+       {
+        "dim": [
+         0,
+         0,
+         6,
+         0
+        ],
+        "label": "8 m",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q6d",
+     "label": "6d",
+     "section": "Problem-solving",
+     "stem": "By finding the missing lengths first, calculate the area of these composite shapes.",
+     "prompt": "Shape d",
+     "type": "numeric",
+     "answer": "17.5",
+     "units": "cm²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          1.125
+         ],
+         [
+          3.75,
+          1.125
+         ],
+         [
+          3.75,
+          0
+         ],
+         [
+          6,
+          1.875
+         ],
+         [
+          3.75,
+          3.75
+         ],
+         [
+          3.75,
+          2.625
+         ],
+         [
+          0,
+          2.625
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "dim": [
+         0,
+         0,
+         6,
+         0
+        ],
+        "label": "8 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         0,
+         2.625,
+         3.75,
+         2.625
+        ],
+        "label": "5 cm",
+        "off": 0.5
+       },
+       {
+        "dim": [
+         0,
+         1.125,
+         0,
+         2.625
+        ],
+        "label": "2 cm",
+        "off": 0.5
+       },
+       {
+        "dim": [
+         6,
+         0,
+         6,
+         3.75
+        ],
+        "label": "5 cm",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q7",
+     "label": "7",
+     "section": "Problem-solving",
+     "prompt": "A wall has three square holes cut into it for windows, as shown. Each hole is a square of side $1.1$ m. Find the remaining area of the wall.",
+     "type": "numeric",
+     "answer": "13.87",
+     "units": "m²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          10,
+          0
+         ],
+         [
+          10,
+          3.571
+         ],
+         [
+          0,
+          3.571
+         ]
+        ]
+       },
+       {
+        "poly": [
+         [
+          1.321,
+          1
+         ],
+         [
+          2.893,
+          1
+         ],
+         [
+          2.893,
+          2.571
+         ],
+         [
+          1.321,
+          2.571
+         ]
+        ]
+       },
+       {
+        "poly": [
+         [
+          4.214,
+          1
+         ],
+         [
+          5.786,
+          1
+         ],
+         [
+          5.786,
+          2.571
+         ],
+         [
+          4.214,
+          2.571
+         ]
+        ]
+       },
+       {
+        "poly": [
+         [
+          7.107,
+          1
+         ],
+         [
+          8.679,
+          1
+         ],
+         [
+          8.679,
+          2.571
+         ],
+         [
+          7.107,
+          2.571
+         ]
+        ]
+       },
+       {
+        "tick": [
+         1.321,
+         1,
+         2.893,
+         1
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         2.893,
+         1,
+         2.893,
+         2.571
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         2.893,
+         2.571,
+         1.321,
+         2.571
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         1.321,
+         2.571,
+         1.321,
+         1
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         4.214,
+         1,
+         5.786,
+         1
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         5.786,
+         1,
+         5.786,
+         2.571
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         5.786,
+         2.571,
+         4.214,
+         2.571
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         4.214,
+         2.571,
+         4.214,
+         1
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         7.107,
+         1,
+         8.679,
+         1
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         8.679,
+         1,
+         8.679,
+         2.571
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         8.679,
+         2.571,
+         7.107,
+         2.571
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         7.107,
+         2.571,
+         7.107,
+         1
+        ],
+        "n": 1
+       },
+       {
+        "dim": [
+         0,
+         0,
+         10,
+         0
+        ],
+        "label": "7 m",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         0,
+         3.571,
+         0,
+         0
+        ],
+        "label": "2.5 m",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q8a",
+     "label": "8a",
+     "section": "Problem-solving",
+     "stem": "A workshop floor, with the dimensions shown, is to be covered with vinyl. Including installation, the vinyl costs $\\$28$ per square metre. The budget for the job is $\\$3000$.",
+     "prompt": "Find the cost of covering the floor.",
+     "type": "numeric",
+     "answer": "2856",
+     "units": "$",
+     "stemFigure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          3,
+          0
+         ],
+         [
+          6,
+          3
+         ],
+         [
+          6,
+          5
+         ],
+         [
+          0,
+          5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "dim": [
+         0,
+         5,
+         0,
+         0
+        ],
+        "label": "10 m",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         6,
+         5,
+         0,
+         5
+        ],
+        "label": "12 m",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         0,
+         0,
+         3,
+         0
+        ],
+        "label": "6 m",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         6,
+         3,
+         6,
+         5
+        ],
+        "label": "4 m",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q8b",
+     "label": "8b",
+     "section": "Problem-solving",
+     "stem": "A workshop floor, with the dimensions shown, is to be covered with vinyl. Including installation, the vinyl costs $\\$28$ per square metre. The budget for the job is $\\$3000$.",
+     "prompt": "Is there enough money in the budget to cover the cost?",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "Yes",
+      "No"
+     ]
+    },
+    {
+     "id": "q10",
+     "label": "10",
+     "section": "Reasoning",
+     "prompt": "A trapezium has one pair of parallel sides. This trapezium can be split into a rectangle and two triangles, as shown by the dashed lines. Find its area.",
+     "type": "numeric",
+     "answer": "50",
+     "units": "m²",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          6,
+          0
+         ],
+         [
+          4.154,
+          2.308
+         ],
+         [
+          0.923,
+          2.308
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0.923,
+         2.308,
+         0.923,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         4.154,
+         2.308,
+         4.154,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         0.923,
+         0,
+         0,
+         90
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         4.154,
+         0,
+         90,
+         180
+        ],
+        "right": true
+       },
+       {
+        "dim": [
+         4.154,
+         2.308,
+         0.923,
+         2.308
+        ],
+        "label": "7 m",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         0,
+         0,
+         6,
+         0
+        ],
+        "label": "13 m",
+        "off": -0.5
+       },
+       {
+        "label": "5 m",
+        "at": [
+         1.108,
+         1.154
+        ],
+        "anchor": "start"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q11a",
+     "label": "11a",
+     "section": "Enrichment",
+     "stem": "A square with an area of $1$ unit is divided into pieces with areas $\\frac{1}{2}, \\frac{1}{4}, \\frac{1}{8}, \\ldots$, each piece half the size of the one before.",
+     "prompt": "Write the next five numbers in the pattern $\\frac{1}{2}, \\frac{1}{4}, \\frac{1}{8}, \\ldots$",
+     "type": "ordered",
+     "answer": [
+      "1/16",
+      "1/32",
+      "1/64",
+      "1/128",
+      "1/256"
+     ],
+     "hint": "Type fractions like 1/2, separated by commas."
+    },
+    {
+     "id": "q11b",
+     "label": "11b",
+     "section": "Enrichment",
+     "stem": "A square with an area of $1$ unit is divided into pieces with areas $\\frac{1}{2}, \\frac{1}{4}, \\frac{1}{8}, \\ldots$, each piece half the size of the one before.",
+     "prompt": "Will the pattern ever stop?",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "Yes",
+      "No"
+     ]
+    },
+    {
+     "id": "q11c",
+     "label": "11c",
+     "section": "Enrichment",
+     "stem": "A square with an area of $1$ unit is divided into pieces with areas $\\frac{1}{2}, \\frac{1}{4}, \\frac{1}{8}, \\ldots$, each piece half the size of the one before.",
+     "prompt": "What is the total area of the starting square?",
+     "type": "numeric",
+     "answer": "1",
+     "units": "unit²"
+    },
+    {
+     "id": "q11d",
+     "label": "11d",
+     "section": "Enrichment",
+     "stem": "A square with an area of $1$ unit is divided into pieces with areas $\\frac{1}{2}, \\frac{1}{4}, \\frac{1}{8}, \\ldots$, each piece half the size of the one before.",
+     "prompt": "Use your answers to say what this sum gets closer and closer to: $\\frac{1}{2} + \\frac{1}{4} + \\frac{1}{8} + \\frac{1}{16} + \\ldots$ (continuing forever)",
+     "type": "numeric",
+     "answer": "1"
+    }
+   ]
+  },
+  {
+   "id": "10i",
+   "chapter": "Chapter 10: Measurement",
+   "title": "10I Volume of rectangular prisms",
+   "description": "Find the volume of rectangular prisms and cubes, including composite solids and missing heights.",
+   "questions": [
+    {
+     "id": "q1a",
+     "label": "1a",
+     "section": "Fluency",
+     "stem": "Find the volume of this rectangular prism.",
+     "type": "numeric",
+     "prompt": "Use $V = l \\times w \\times h$.",
+     "answer": "48",
+     "units": "m³",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          5,
+          0
+         ],
+         [
+          5,
+          1.25
+         ],
+         [
+          5.737,
+          1.766
+         ],
+         [
+          5.737,
+          0.516
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          5,
+          1.25
+         ],
+         [
+          0,
+          1.25
+         ],
+         [
+          0.737,
+          1.766
+         ],
+         [
+          5.737,
+          1.766
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          5,
+          0
+         ],
+         [
+          5,
+          1.25
+         ],
+         [
+          0,
+          1.25
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "dim": [
+         0,
+         0,
+         5,
+         0
+        ],
+        "label": "8 m",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         5,
+         0,
+         5.737,
+         0.516
+        ],
+        "label": "3 m",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         5.737,
+         0.516,
+         5.737,
+         1.766
+        ],
+        "label": "2 m",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q1b",
+     "label": "1b",
+     "section": "Fluency",
+     "stem": "Find the volume of this rectangular prism.",
+     "type": "numeric",
+     "prompt": "Use $V = l \\times w \\times h$.",
+     "answer": "54",
+     "units": "cm³",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          5,
+          0
+         ],
+         [
+          5,
+          1.111
+         ],
+         [
+          5.737,
+          1.627
+         ],
+         [
+          5.737,
+          0.516
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          5,
+          1.111
+         ],
+         [
+          0,
+          1.111
+         ],
+         [
+          0.737,
+          1.627
+         ],
+         [
+          5.737,
+          1.627
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          5,
+          0
+         ],
+         [
+          5,
+          1.111
+         ],
+         [
+          0,
+          1.111
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "dim": [
+         0,
+         0,
+         5,
+         0
+        ],
+        "label": "9 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         5,
+         0,
+         5.737,
+         0.516
+        ],
+        "label": "3 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         5.737,
+         0.516,
+         5.737,
+         1.627
+        ],
+        "label": "2 cm",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2a",
+     "label": "2a",
+     "section": "Fluency",
+     "stem": "Find the volume of these rectangular prisms. Edges with the same mark are equal.",
+     "type": "numeric",
+     "prompt": "A tall block",
+     "answer": "120",
+     "units": "cm³",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          3.125,
+          0
+         ],
+         [
+          3.125,
+          5
+         ],
+         [
+          3.862,
+          5.516
+         ],
+         [
+          3.862,
+          0.516
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          3.125,
+          5
+         ],
+         [
+          0,
+          5
+         ],
+         [
+          0.737,
+          5.516
+         ],
+         [
+          3.862,
+          5.516
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          3.125,
+          0
+         ],
+         [
+          3.125,
+          5
+         ],
+         [
+          0,
+          5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "dim": [
+         0,
+         0,
+         3.125,
+         0
+        ],
+        "label": "5 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         3.125,
+         0,
+         3.862,
+         0.516
+        ],
+        "label": "3 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         3.862,
+         0.516,
+         3.862,
+         5.516
+        ],
+        "label": "8 cm",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2b",
+     "label": "2b",
+     "section": "Fluency",
+     "stem": "Find the volume of these rectangular prisms. Edges with the same mark are equal.",
+     "type": "numeric",
+     "prompt": "A cube",
+     "answer": "64",
+     "units": "cm³",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          5,
+          0
+         ],
+         [
+          5,
+          5
+         ],
+         [
+          6.843,
+          6.291
+         ],
+         [
+          6.843,
+          1.291
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          5,
+          5
+         ],
+         [
+          0,
+          5
+         ],
+         [
+          1.843,
+          6.291
+         ],
+         [
+          6.843,
+          6.291
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          5,
+          0
+         ],
+         [
+          5,
+          5
+         ],
+         [
+          0,
+          5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "dim": [
+         0,
+         0,
+         5,
+         0
+        ],
+        "label": "4 cm",
+        "off": -0.5
+       },
+       {
+        "tick": [
+         0,
+         0,
+         5,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         5,
+         0,
+         6.843,
+         1.291
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         5,
+         0,
+         5,
+         5
+        ],
+        "n": 1
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2c",
+     "label": "2c",
+     "section": "Fluency",
+     "stem": "Find the volume of these rectangular prisms. Edges with the same mark are equal.",
+     "type": "numeric",
+     "prompt": "A cube",
+     "answer": "8000",
+     "units": "km³",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          5,
+          0
+         ],
+         [
+          5,
+          5
+         ],
+         [
+          6.843,
+          6.291
+         ],
+         [
+          6.843,
+          1.291
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          5,
+          5
+         ],
+         [
+          0,
+          5
+         ],
+         [
+          1.843,
+          6.291
+         ],
+         [
+          6.843,
+          6.291
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          5,
+          0
+         ],
+         [
+          5,
+          5
+         ],
+         [
+          0,
+          5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "dim": [
+         0,
+         0,
+         5,
+         0
+        ],
+        "label": "20 km",
+        "off": -0.5
+       },
+       {
+        "tick": [
+         0,
+         0,
+         5,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         5,
+         0,
+         6.843,
+         1.291
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         5,
+         0,
+         5,
+         5
+        ],
+        "n": 1
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2d",
+     "label": "2d",
+     "section": "Fluency",
+     "stem": "Find the volume of these rectangular prisms. Edges with the same mark are equal.",
+     "type": "numeric",
+     "prompt": "A cube",
+     "answer": "1.728",
+     "units": "mm³",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          5,
+          0
+         ],
+         [
+          5,
+          5
+         ],
+         [
+          6.843,
+          6.291
+         ],
+         [
+          6.843,
+          1.291
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          5,
+          5
+         ],
+         [
+          0,
+          5
+         ],
+         [
+          1.843,
+          6.291
+         ],
+         [
+          6.843,
+          6.291
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          5,
+          0
+         ],
+         [
+          5,
+          5
+         ],
+         [
+          0,
+          5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "dim": [
+         0,
+         0,
+         5,
+         0
+        ],
+        "label": "1.2 mm",
+        "off": -0.5
+       },
+       {
+        "tick": [
+         0,
+         0,
+         5,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         5,
+         0,
+         6.843,
+         1.291
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         5,
+         0,
+         5,
+         5
+        ],
+        "n": 1
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2e",
+     "label": "2e",
+     "section": "Fluency",
+     "stem": "Find the volume of these rectangular prisms. Edges with the same mark are equal.",
+     "type": "numeric",
+     "prompt": "A flat slab with a square top",
+     "answer": "288",
+     "units": "m³",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          5,
+          0
+         ],
+         [
+          5,
+          1
+         ],
+         [
+          6.843,
+          2.291
+         ],
+         [
+          6.843,
+          1.291
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          5,
+          1
+         ],
+         [
+          0,
+          1
+         ],
+         [
+          1.843,
+          2.291
+         ],
+         [
+          6.843,
+          2.291
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          5,
+          0
+         ],
+         [
+          5,
+          1
+         ],
+         [
+          0,
+          1
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "dim": [
+         0,
+         0,
+         5,
+         0
+        ],
+        "label": "12 m",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         5,
+         0,
+         6.843,
+         1.291
+        ],
+        "label": "12 m",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         6.843,
+         1.291,
+         6.843,
+         2.291
+        ],
+        "label": "2 m",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2f",
+     "label": "2f",
+     "section": "Fluency",
+     "stem": "Find the volume of these rectangular prisms. Edges with the same mark are equal.",
+     "type": "numeric",
+     "prompt": "A tall prism with a square base",
+     "answer": "37.5",
+     "units": "km³",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          2.083,
+          0
+         ],
+         [
+          2.083,
+          5
+         ],
+         [
+          2.851,
+          5.538
+         ],
+         [
+          2.851,
+          0.538
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          2.083,
+          5
+         ],
+         [
+          0,
+          5
+         ],
+         [
+          0.768,
+          5.538
+         ],
+         [
+          2.851,
+          5.538
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          2.083,
+          0
+         ],
+         [
+          2.083,
+          5
+         ],
+         [
+          0,
+          5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "dim": [
+         0,
+         0,
+         2.083,
+         0
+        ],
+        "label": "2.5 km",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         2.083,
+         0,
+         2.851,
+         0.538
+        ],
+        "label": "2.5 km",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         2.851,
+         0.538,
+         2.851,
+         5.538
+        ],
+        "label": "6 km",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3",
+     "label": "3",
+     "section": "Fluency",
+     "type": "numeric",
+     "prompt": "A cereal box is $30$ cm high, $20$ cm wide and $8$ cm deep. Find its volume.",
+     "answer": "4800",
+     "units": "cm³"
+    },
+    {
+     "id": "q4",
+     "label": "4",
+     "section": "Fluency",
+     "type": "numeric",
+     "prompt": "The cargo space of a removal truck is $5$ m long, $2$ m wide and $3$ m high. Find its volume.",
+     "answer": "30",
+     "units": "m³"
+    },
+    {
+     "id": "q5",
+     "label": "5",
+     "section": "Fluency",
+     "type": "numeric",
+     "prompt": "A domino is $50$ mm long, $25$ mm wide and $10$ mm thick. Find its volume.",
+     "answer": "12500",
+     "units": "mm³"
+    },
+    {
+     "id": "q6",
+     "label": "6",
+     "section": "Fluency",
+     "type": "numeric",
+     "prompt": "All the sand on a small beach would fill a cube with side length $60$ m. Find the approximate volume of sand on the beach.",
+     "answer": "216000",
+     "units": "m³"
+    },
+    {
+     "id": "q7a",
+     "label": "7a",
+     "section": "Problem-solving",
+     "stem": "These solids are made from more than one rectangular prism. Use addition or subtraction to find the volume of each solid.",
+     "type": "numeric",
+     "prompt": "An L-shaped solid",
+     "answer": "78",
+     "units": "cm³",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          5,
+          0
+         ],
+         [
+          5,
+          1.429
+         ],
+         [
+          5.79,
+          1.982
+         ],
+         [
+          5.79,
+          0.553
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          5,
+          1.429
+         ],
+         [
+          2.143,
+          1.429
+         ],
+         [
+          2.933,
+          1.982
+         ],
+         [
+          5.79,
+          1.982
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          2.143,
+          1.429
+         ],
+         [
+          2.143,
+          4.286
+         ],
+         [
+          2.933,
+          4.839
+         ],
+         [
+          2.933,
+          1.982
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          2.143,
+          4.286
+         ],
+         [
+          0,
+          4.286
+         ],
+         [
+          0.79,
+          4.839
+         ],
+         [
+          2.933,
+          4.839
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          5,
+          0
+         ],
+         [
+          5,
+          1.429
+         ],
+         [
+          2.143,
+          1.429
+         ],
+         [
+          2.143,
+          4.286
+         ],
+         [
+          0,
+          4.286
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         2.143,
+         0,
+         2.143,
+         1.429
+        ],
+        "dash": true
+       },
+       {
+        "dim": [
+         0,
+         0,
+         2.143,
+         0
+        ],
+        "label": "3 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         2.143,
+         0,
+         5,
+         0
+        ],
+        "label": "4 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         0,
+         0,
+         0,
+         4.286
+        ],
+        "label": "6 cm",
+        "off": 0.5
+       },
+       {
+        "dim": [
+         5.79,
+         0.553,
+         5.79,
+         1.982
+        ],
+        "label": "2 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         5,
+         0,
+         5.79,
+         0.553
+        ],
+        "label": "3 cm",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q7b",
+     "label": "7b",
+     "section": "Problem-solving",
+     "stem": "These solids are made from more than one rectangular prism. Use addition or subtraction to find the volume of each solid.",
+     "type": "numeric",
+     "prompt": "A square slab $12$ m by $12$ m and $2$ m thick, with a square hole $3$ m by $3$ m cut right through it",
+     "answer": "270",
+     "units": "m³",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          5,
+          0
+         ],
+         [
+          5,
+          0.833
+         ],
+         [
+          6.843,
+          2.124
+         ],
+         [
+          6.843,
+          1.291
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          5,
+          0.833
+         ],
+         [
+          0,
+          0.833
+         ],
+         [
+          1.843,
+          2.124
+         ],
+         [
+          6.843,
+          2.124
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          5,
+          0
+         ],
+         [
+          5,
+          0.833
+         ],
+         [
+          0,
+          0.833
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          2.566,
+          1.317
+         ],
+         [
+          3.816,
+          1.317
+         ],
+         [
+          4.277,
+          1.64
+         ],
+         [
+          3.027,
+          1.64
+         ]
+        ]
+       },
+       {
+        "seg": [
+         3.027,
+         1.64,
+         3.027,
+         1.317
+        ]
+       },
+       {
+        "label": "3 m",
+        "at": [
+         4.247,
+         1.359
+        ],
+        "anchor": "start"
+       },
+       {
+        "dim": [
+         0,
+         0,
+         5,
+         0
+        ],
+        "label": "12 m",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         5,
+         0,
+         6.843,
+         1.291
+        ],
+        "label": "12 m",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         6.843,
+         1.291,
+         6.843,
+         2.124
+        ],
+        "label": "2 m",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q7c",
+     "label": "7c",
+     "section": "Problem-solving",
+     "stem": "These solids are made from more than one rectangular prism. Use addition or subtraction to find the volume of each solid.",
+     "type": "numeric",
+     "prompt": "An arch",
+     "answer": "96",
+     "units": "cm³",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          1.25,
+          0
+         ],
+         [
+          1.25,
+          2.5
+         ],
+         [
+          1.941,
+          2.984
+         ],
+         [
+          1.941,
+          0.484
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          5,
+          0
+         ],
+         [
+          5,
+          3.75
+         ],
+         [
+          5.691,
+          4.234
+         ],
+         [
+          5.691,
+          0.484
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          5,
+          3.75
+         ],
+         [
+          0,
+          3.75
+         ],
+         [
+          0.691,
+          4.234
+         ],
+         [
+          5.691,
+          4.234
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          1.25,
+          0
+         ],
+         [
+          1.25,
+          2.5
+         ],
+         [
+          3.75,
+          2.5
+         ],
+         [
+          3.75,
+          0
+         ],
+         [
+          5,
+          0
+         ],
+         [
+          5,
+          3.75
+         ],
+         [
+          0,
+          3.75
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "dim": [
+         0,
+         0,
+         1.25,
+         0
+        ],
+        "label": "2 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         3.75,
+         0,
+         5,
+         0
+        ],
+        "label": "2 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         0,
+         0,
+         5,
+         0
+        ],
+        "label": "8 cm",
+        "off": -1.4
+       },
+       {
+        "dim": [
+         0,
+         0,
+         0,
+         3.75
+        ],
+        "label": "6 cm",
+        "off": 0.5
+       },
+       {
+        "dim": [
+         3.75,
+         0,
+         3.75,
+         2.5
+        ],
+        "label": "4 cm",
+        "off": 0.45
+       },
+       {
+        "dim": [
+         5,
+         0,
+         5.691,
+         0.484
+        ],
+        "label": "3 cm",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q7d",
+     "label": "7d",
+     "section": "Problem-solving",
+     "stem": "These solids are made from more than one rectangular prism. Use addition or subtraction to find the volume of each solid.",
+     "type": "numeric",
+     "prompt": "A block with a tunnel $4$ m wide and $2$ m high going right through it from front to back",
+     "answer": "148",
+     "units": "m³",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          5,
+          0
+         ],
+         [
+          5,
+          2.778
+         ],
+         [
+          5.819,
+          3.351
+         ],
+         [
+          5.819,
+          0.574
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          5,
+          2.778
+         ],
+         [
+          0,
+          2.778
+         ],
+         [
+          0.819,
+          3.351
+         ],
+         [
+          5.819,
+          3.351
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          5,
+          0
+         ],
+         [
+          5,
+          2.778
+         ],
+         [
+          0,
+          2.778
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          1.389,
+          0.833
+         ],
+         [
+          3.611,
+          0.833
+         ],
+         [
+          3.611,
+          1.944
+         ],
+         [
+          1.389,
+          1.944
+         ]
+        ]
+       },
+       {
+        "seg": [
+         1.389,
+         0.833,
+         2.208,
+         1.407
+        ]
+       },
+       {
+        "seg": [
+         2.208,
+         1.407,
+         2.208,
+         1.944
+        ]
+       },
+       {
+        "seg": [
+         2.208,
+         1.407,
+         3.611,
+         1.407
+        ]
+       },
+       {
+        "label": "4 m",
+        "at": [
+         2.5,
+         0.483
+        ]
+       },
+       {
+        "label": "2 m",
+        "at": [
+         1.239,
+         1.289
+        ],
+        "anchor": "end"
+       },
+       {
+        "dim": [
+         0,
+         0,
+         5,
+         0
+        ],
+        "label": "9 m",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         5,
+         0,
+         5.819,
+         0.574
+        ],
+        "label": "4 m",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         5.819,
+         0.574,
+         5.819,
+         3.351
+        ],
+        "label": "5 m",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q8",
+     "label": "8",
+     "section": "Problem-solving",
+     "type": "numeric",
+     "prompt": "A carton is $40$ cm long, $30$ cm wide and $20$ cm high. It is packed with bars of soap, each $10$ cm long, $5$ cm wide and $4$ cm high, all facing the same way. How many bars of soap fit in the carton?",
+     "answer": "120",
+     "units": "bars"
+    },
+    {
+     "id": "q9",
+     "label": "9",
+     "section": "Problem-solving",
+     "type": "numeric",
+     "prompt": "A closed wooden box measures $30$ cm by $30$ cm by $30$ cm on the outside. The wood is $3$ cm thick. Find the volume of air inside the box.",
+     "answer": "13824",
+     "units": "cm³"
+    },
+    {
+     "id": "q10a",
+     "label": "10a",
+     "section": "Problem-solving",
+     "type": "numeric",
+     "prompt": "The area of one face of a cube is $49$ cm². Find the volume of the cube.",
+     "answer": "343",
+     "units": "cm³"
+    },
+    {
+     "id": "q10b",
+     "label": "10b",
+     "section": "Problem-solving",
+     "type": "numeric",
+     "prompt": "The perimeter of one face of a cube is $24$ m. Find the volume of the cube.",
+     "answer": "216",
+     "units": "m³"
+    },
+    {
+     "id": "q11a",
+     "label": "11a",
+     "section": "Reasoning",
+     "stem": "A rectangular prism is cut in half along a diagonal of its front face, right through to the back. The shaded solid is one half and the dashed lines show the half that was removed. Find the volume of the half that is left.",
+     "type": "numeric",
+     "prompt": "The full prism was $3$ cm long, $2$ cm deep and $4$ cm high.",
+     "answer": "12",
+     "units": "cm³",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          3.375,
+          4.5
+         ],
+         [
+          4.204,
+          5.081
+         ],
+         [
+          0.829,
+          0.581
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          3.375,
+          4.5
+         ],
+         [
+          0,
+          4.5
+         ],
+         [
+          0.829,
+          5.081
+         ],
+         [
+          4.204,
+          5.081
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          3.375,
+          4.5
+         ],
+         [
+          0,
+          4.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         3.375,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         3.375,
+         0,
+         3.375,
+         4.5
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         3.375,
+         0,
+         4.204,
+         0.581
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         4.204,
+         0.581,
+         4.204,
+         5.081
+        ],
+        "dash": true
+       },
+       {
+        "dim": [
+         0,
+         0,
+         3.375,
+         0
+        ],
+        "label": "3 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         3.375,
+         0,
+         4.204,
+         0.581
+        ],
+        "label": "2 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         4.204,
+         0.581,
+         4.204,
+         5.081
+        ],
+        "label": "4 cm",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q11b",
+     "label": "11b",
+     "section": "Reasoning",
+     "stem": "A rectangular prism is cut in half along a diagonal of its front face, right through to the back. The shaded solid is one half and the dashed lines show the half that was removed. Find the volume of the half that is left.",
+     "type": "numeric",
+     "prompt": "The full prism was $6$ cm long, $3$ cm deep and $2$ cm high.",
+     "answer": "18",
+     "units": "cm³",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          4.5,
+          0
+         ],
+         [
+          4.5,
+          1.5
+         ],
+         [
+          5.329,
+          2.081
+         ],
+         [
+          5.329,
+          0.581
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          4.5,
+          1.5
+         ],
+         [
+          0,
+          0
+         ],
+         [
+          0.829,
+          0.581
+         ],
+         [
+          5.329,
+          2.081
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          4.5,
+          0
+         ],
+         [
+          4.5,
+          1.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         0,
+         1.5
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         0,
+         1.5,
+         4.5,
+         1.5
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         0,
+         1.5,
+         0.829,
+         2.081
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         0.829,
+         2.081,
+         5.329,
+         2.081
+        ],
+        "dash": true
+       },
+       {
+        "dim": [
+         0,
+         0,
+         4.5,
+         0
+        ],
+        "label": "6 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         4.5,
+         0,
+         5.329,
+         0.581
+        ],
+        "label": "3 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         5.329,
+         0.581,
+         5.329,
+         2.081
+        ],
+        "label": "2 cm",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q11c",
+     "label": "11c",
+     "section": "Reasoning",
+     "stem": "A rectangular prism is cut in half along a diagonal of its front face, right through to the back. The shaded solid is one half and the dashed lines show the half that was removed. Find the volume of the half that is left.",
+     "type": "numeric",
+     "prompt": "The full prism was $4$ cm long, $3$ cm deep and $5$ cm high.",
+     "answer": "30",
+     "units": "cm³",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          3.6,
+          4.5
+         ],
+         [
+          4.595,
+          5.197
+         ],
+         [
+          0.995,
+          0.697
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          3.6,
+          4.5
+         ],
+         [
+          0,
+          4.5
+         ],
+         [
+          0.995,
+          5.197
+         ],
+         [
+          4.595,
+          5.197
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          3.6,
+          4.5
+         ],
+         [
+          0,
+          4.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         3.6,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         3.6,
+         0,
+         3.6,
+         4.5
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         3.6,
+         0,
+         4.595,
+         0.697
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         4.595,
+         0.697,
+         4.595,
+         5.197
+        ],
+        "dash": true
+       },
+       {
+        "dim": [
+         0,
+         0,
+         3.6,
+         0
+        ],
+        "label": "4 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         3.6,
+         0,
+         4.595,
+         0.697
+        ],
+        "label": "3 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         4.595,
+         0.697,
+         4.595,
+         5.197
+        ],
+        "label": "5 cm",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q12a",
+     "label": "12a",
+     "section": "Reasoning",
+     "stem": "Find the height $h$ of each rectangular prism, using its volume $V$.",
+     "type": "numeric",
+     "prompt": "$V = 40$ m³",
+     "answer": "4",
+     "units": "m",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          5,
+          0
+         ],
+         [
+          5,
+          4
+         ],
+         [
+          5.737,
+          4.516
+         ],
+         [
+          5.737,
+          0.516
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          5,
+          4
+         ],
+         [
+          0,
+          4
+         ],
+         [
+          0.737,
+          4.516
+         ],
+         [
+          5.737,
+          4.516
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          5,
+          0
+         ],
+         [
+          5,
+          4
+         ],
+         [
+          0,
+          4
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "dim": [
+         0,
+         0,
+         5,
+         0
+        ],
+        "label": "5 m",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         5,
+         0,
+         5.737,
+         0.516
+        ],
+        "label": "2 m",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         5.737,
+         0.516,
+         5.737,
+         4.516
+        ],
+        "label": "h m",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q12b",
+     "label": "12b",
+     "section": "Reasoning",
+     "stem": "Find the height $h$ of each rectangular prism, using its volume $V$.",
+     "type": "numeric",
+     "prompt": "$V = 80$ cm³",
+     "answer": "5",
+     "units": "cm",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          4,
+          0
+         ],
+         [
+          4,
+          5
+         ],
+         [
+          5.474,
+          6.032
+         ],
+         [
+          5.474,
+          1.032
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          4,
+          5
+         ],
+         [
+          0,
+          5
+         ],
+         [
+          1.474,
+          6.032
+         ],
+         [
+          5.474,
+          6.032
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          4,
+          0
+         ],
+         [
+          4,
+          5
+         ],
+         [
+          0,
+          5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "dim": [
+         0,
+         0,
+         4,
+         0
+        ],
+        "label": "4 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         4,
+         0,
+         5.474,
+         1.032
+        ],
+        "label": "4 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         5.474,
+         1.032,
+         5.474,
+         6.032
+        ],
+        "label": "h cm",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q12c",
+     "label": "12c",
+     "section": "Reasoning",
+     "stem": "Find the height $h$ of each rectangular prism, using its volume $V$.",
+     "type": "numeric",
+     "prompt": "$V = 105$ cm³",
+     "answer": "7",
+     "units": "cm",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          2.143,
+          0
+         ],
+         [
+          2.143,
+          5
+         ],
+         [
+          3.459,
+          5.922
+         ],
+         [
+          3.459,
+          0.922
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          2.143,
+          5
+         ],
+         [
+          0,
+          5
+         ],
+         [
+          1.316,
+          5.922
+         ],
+         [
+          3.459,
+          5.922
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          2.143,
+          0
+         ],
+         [
+          2.143,
+          5
+         ],
+         [
+          0,
+          5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "dim": [
+         0,
+         0,
+         2.143,
+         0
+        ],
+        "label": "3 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         2.143,
+         0,
+         3.459,
+         0.922
+        ],
+        "label": "5 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         3.459,
+         0.922,
+         3.459,
+         5.922
+        ],
+        "label": "h cm",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q12d",
+     "label": "12d",
+     "section": "Reasoning",
+     "stem": "Find the height $h$ of each rectangular prism, using its volume $V$.",
+     "type": "numeric",
+     "prompt": "$V = 72$ m³",
+     "answer": "3",
+     "units": "m",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          5,
+          0
+         ],
+         [
+          5,
+          1.875
+         ],
+         [
+          5.737,
+          2.391
+         ],
+         [
+          5.737,
+          0.516
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          5,
+          1.875
+         ],
+         [
+          0,
+          1.875
+         ],
+         [
+          0.737,
+          2.391
+         ],
+         [
+          5.737,
+          2.391
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          5,
+          0
+         ],
+         [
+          5,
+          1.875
+         ],
+         [
+          0,
+          1.875
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "dim": [
+         0,
+         0,
+         5,
+         0
+        ],
+        "label": "8 m",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         5,
+         0,
+         5.737,
+         0.516
+        ],
+        "label": "3 m",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         5.737,
+         0.516,
+         5.737,
+         2.391
+        ],
+        "label": "h m",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q12e",
+     "label": "12e",
+     "section": "Reasoning",
+     "type": "expression",
+     "prompt": "Write a rule for $h$ using $V$, $l$ and $w$.",
+     "answer": "V/(lw)",
+     "accept": [
+      "h=V/(lw)"
+     ],
+     "hint": "Type divide with / and use brackets where needed."
+    },
+    {
+     "id": "q13a",
+     "label": "13a",
+     "section": "Enrichment",
+     "stem": "A cube with side length $1$ cm is cut up into tiny cubes with side length $1$ mm.",
+     "type": "numeric",
+     "prompt": "How many tiny cubes fit along one edge of the big cube?",
+     "answer": "10"
+    },
+    {
+     "id": "q13b",
+     "label": "13b",
+     "section": "Enrichment",
+     "stem": "A cube with side length $1$ cm is cut up into tiny cubes with side length $1$ mm.",
+     "type": "numeric",
+     "prompt": "How many tiny cubes are in one layer on the base of the big cube?",
+     "answer": "100"
+    },
+    {
+     "id": "q13c",
+     "label": "13c",
+     "section": "Enrichment",
+     "stem": "A cube with side length $1$ cm is cut up into tiny cubes with side length $1$ mm.",
+     "type": "numeric",
+     "prompt": "How many layers of tiny cubes are there?",
+     "answer": "10"
+    },
+    {
+     "id": "q13d",
+     "label": "13d",
+     "section": "Enrichment",
+     "stem": "A cube with side length $1$ cm is cut up into tiny cubes with side length $1$ mm.",
+     "type": "numeric",
+     "prompt": "So how many mm³ are in $1$ cm³?",
+     "answer": "1000",
+     "units": "mm³"
+    },
+    {
+     "id": "q13e",
+     "label": "13e",
+     "section": "Enrichment",
+     "stem": "Use the same method to find the number of:",
+     "type": "numeric",
+     "prompt": "cm³ in $1$ m³",
+     "answer": "1000000",
+     "units": "cm³"
+    },
+    {
+     "id": "q13f",
+     "label": "13f",
+     "section": "Enrichment",
+     "stem": "Use the same method to find the number of:",
+     "type": "numeric",
+     "prompt": "m³ in $1$ km³",
+     "answer": "1000000000",
+     "units": "m³"
+    },
+    {
+     "id": "q13g",
+     "label": "13g",
+     "section": "Enrichment",
+     "stem": "Use your answers to convert to the units in brackets.",
+     "type": "numeric",
+     "prompt": "$3$ cm³ (mm³)",
+     "answer": "3000",
+     "units": "mm³"
+    },
+    {
+     "id": "q13h",
+     "label": "13h",
+     "section": "Enrichment",
+     "stem": "Use your answers to convert to the units in brackets.",
+     "type": "numeric",
+     "prompt": "$0.5$ m³ (cm³)",
+     "answer": "500000",
+     "units": "cm³"
+    },
+    {
+     "id": "q13i",
+     "label": "13i",
+     "section": "Enrichment",
+     "stem": "Use your answers to convert to the units in brackets.",
+     "type": "numeric",
+     "prompt": "$2$ km³ (m³)",
+     "answer": "2000000000",
+     "units": "m³"
+    },
+    {
+     "id": "q13j",
+     "label": "13j",
+     "section": "Enrichment",
+     "stem": "Use your answers to convert to the units in brackets.",
+     "type": "numeric",
+     "prompt": "$4500$ mm³ (cm³)",
+     "answer": "4.5",
+     "units": "cm³"
+    }
+   ]
+  },
+  {
+   "id": "10j",
+   "chapter": "Chapter 10: Measurement",
+   "title": "10J Volume of triangular prisms",
+   "description": "Find the volume of triangular prisms and composite solids using V = A × h.",
+   "questions": [
+    {
+     "id": "q1a",
+     "label": "1a",
+     "section": "Fluency",
+     "stem": "Find the volume of this triangular prism.",
+     "type": "numeric",
+     "prompt": "First find the area of the triangle, then multiply by the length of the prism.",
+     "answer": "45",
+     "units": "mm³",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          4.5,
+          0
+         ],
+         [
+          0,
+          2.25
+         ],
+         [
+          1.382,
+          3.218
+         ],
+         [
+          5.882,
+          0.968
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          4.5,
+          0
+         ],
+         [
+          0,
+          2.25
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         1.382,
+         0.968,
+         5.882,
+         0.968
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         1.382,
+         0.968
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         1.382,
+         3.218,
+         1.382,
+         0.968
+        ],
+        "dash": true
+       },
+       {
+        "dim": [
+         0,
+         0,
+         4.5,
+         0
+        ],
+        "label": "6 mm",
+        "off": -0.5
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         90
+        ],
+        "right": true
+       },
+       {
+        "dim": [
+         0,
+         0,
+         0,
+         2.25
+        ],
+        "label": "3 mm",
+        "off": 0.5
+       },
+       {
+        "dim": [
+         4.5,
+         0,
+         5.882,
+         0.968
+        ],
+        "label": "5 mm",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q1b",
+     "label": "1b",
+     "section": "Fluency",
+     "stem": "Find the volume of this triangular prism.",
+     "type": "numeric",
+     "prompt": "First find the area of the triangle, then multiply by the length of the prism.",
+     "answer": "140",
+     "units": "cm³",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          4.5,
+          0
+         ],
+         [
+          2.25,
+          1.8
+         ],
+         [
+          3.411,
+          2.613
+         ],
+         [
+          5.661,
+          0.813
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          4.5,
+          0
+         ],
+         [
+          2.25,
+          1.8
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "dim": [
+         0,
+         0,
+         4.5,
+         0
+        ],
+        "label": "10 cm",
+        "off": -0.5
+       },
+       {
+        "seg": [
+         2.25,
+         1.8,
+         2.25,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         2.25,
+         0,
+         0,
+         90
+        ],
+        "right": true
+       },
+       {
+        "label": "4 cm",
+        "at": [
+         2.37,
+         0.54
+        ],
+        "anchor": "start"
+       },
+       {
+        "dim": [
+         4.5,
+         0,
+         5.661,
+         0.813
+        ],
+        "label": "7 cm",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2a",
+     "label": "2a",
+     "section": "Fluency",
+     "stem": "Find the volume of these triangular prisms.",
+     "type": "numeric",
+     "prompt": "The triangle has base $2$ m and the prism is $4$ m long.",
+     "answer": "20",
+     "units": "m³",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          1.8,
+          0
+         ],
+         [
+          0,
+          4.5
+         ],
+         [
+          1.327,
+          5.429
+         ],
+         [
+          3.127,
+          0.929
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          1.8,
+          0
+         ],
+         [
+          0,
+          4.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         1.327,
+         0.929,
+         3.127,
+         0.929
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         1.327,
+         0.929
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         1.327,
+         5.429,
+         1.327,
+         0.929
+        ],
+        "dash": true
+       },
+       {
+        "dim": [
+         0,
+         0,
+         1.8,
+         0
+        ],
+        "label": "2 m",
+        "off": -0.5
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         90
+        ],
+        "right": true
+       },
+       {
+        "dim": [
+         0,
+         0,
+         0,
+         4.5
+        ],
+        "label": "5 m",
+        "off": 0.5
+       },
+       {
+        "dim": [
+         1.8,
+         0,
+         3.127,
+         0.929
+        ],
+        "label": "4 m",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2b",
+     "label": "2b",
+     "section": "Fluency",
+     "stem": "Find the volume of these triangular prisms.",
+     "type": "numeric",
+     "prompt": "The triangle has base $12$ cm and the prism is $9$ cm long.",
+     "answer": "324",
+     "units": "cm³",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          4.5,
+          0
+         ],
+         [
+          0,
+          2.25
+         ],
+         [
+          1.244,
+          3.121
+         ],
+         [
+          5.744,
+          0.871
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          4.5,
+          0
+         ],
+         [
+          0,
+          2.25
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         1.244,
+         0.871,
+         5.744,
+         0.871
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         1.244,
+         0.871
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         1.244,
+         3.121,
+         1.244,
+         0.871
+        ],
+        "dash": true
+       },
+       {
+        "dim": [
+         0,
+         0,
+         4.5,
+         0
+        ],
+        "label": "12 cm",
+        "off": -0.5
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         90
+        ],
+        "right": true
+       },
+       {
+        "dim": [
+         0,
+         0,
+         0,
+         2.25
+        ],
+        "label": "6 cm",
+        "off": 0.5
+       },
+       {
+        "dim": [
+         4.5,
+         0,
+         5.744,
+         0.871
+        ],
+        "label": "9 cm",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2c",
+     "label": "2c",
+     "section": "Fluency",
+     "stem": "Find the volume of these triangular prisms.",
+     "type": "numeric",
+     "prompt": "The triangle has base $6$ mm and the prism is $10$ mm long.",
+     "answer": "150",
+     "units": "mm³",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          4.5,
+          0
+         ],
+         [
+          4.5,
+          3.75
+         ],
+         [
+          6.63,
+          5.241
+         ],
+         [
+          6.63,
+          1.491
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          4.5,
+          0
+         ],
+         [
+          4.5,
+          3.75
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         2.13,
+         1.491,
+         6.63,
+         1.491
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         2.13,
+         1.491
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         6.63,
+         5.241,
+         2.13,
+         1.491
+        ],
+        "dash": true
+       },
+       {
+        "dim": [
+         0,
+         0,
+         4.5,
+         0
+        ],
+        "label": "6 mm",
+        "off": -0.5
+       },
+       {
+        "angle": [
+         4.5,
+         0,
+         90,
+         180
+        ],
+        "right": true
+       },
+       {
+        "dim": [
+         6.63,
+         1.491,
+         6.63,
+         5.241
+        ],
+        "label": "5 mm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         4.5,
+         0,
+         6.63,
+         1.491
+        ],
+        "label": "10 mm",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2d",
+     "label": "2d",
+     "section": "Fluency",
+     "stem": "Find the volume of these triangular prisms.",
+     "type": "numeric",
+     "prompt": "The triangle has base $8$ mm and the prism is $15$ mm long.",
+     "answer": "360",
+     "units": "mm³",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          4.5,
+          0
+         ],
+         [
+          1.575,
+          3.375
+         ],
+         [
+          3.705,
+          4.866
+         ],
+         [
+          6.63,
+          1.491
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          4.5,
+          0
+         ],
+         [
+          1.575,
+          3.375
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "dim": [
+         0,
+         0,
+         4.5,
+         0
+        ],
+        "label": "8 mm",
+        "off": -0.5
+       },
+       {
+        "seg": [
+         1.575,
+         3.375,
+         1.575,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         1.575,
+         0,
+         0,
+         90
+        ],
+        "right": true
+       },
+       {
+        "label": "6 mm",
+        "at": [
+         1.695,
+         1.012
+        ],
+        "anchor": "start"
+       },
+       {
+        "dim": [
+         4.5,
+         0,
+         6.63,
+         1.491
+        ],
+        "label": "15 mm",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2e",
+     "label": "2e",
+     "section": "Fluency",
+     "stem": "Find the volume of these triangular prisms.",
+     "type": "numeric",
+     "prompt": "The triangle has base $12$ m and the prism is $10$ m long.",
+     "answer": "300",
+     "units": "m³",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          4.5,
+          0
+         ],
+         [
+          2.25,
+          1.875
+         ],
+         [
+          3.632,
+          2.843
+         ],
+         [
+          5.882,
+          0.968
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          4.5,
+          0
+         ],
+         [
+          2.25,
+          1.875
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "dim": [
+         0,
+         0,
+         4.5,
+         0
+        ],
+        "label": "12 m",
+        "off": -0.5
+       },
+       {
+        "seg": [
+         2.25,
+         1.875,
+         2.25,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         2.25,
+         0,
+         0,
+         90
+        ],
+        "right": true
+       },
+       {
+        "label": "5 m",
+        "at": [
+         2.37,
+         0.562
+        ],
+        "anchor": "start"
+       },
+       {
+        "dim": [
+         4.5,
+         0,
+         5.882,
+         0.968
+        ],
+        "label": "10 m",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2f",
+     "label": "2f",
+     "section": "Fluency",
+     "stem": "Find the volume of these triangular prisms.",
+     "type": "numeric",
+     "prompt": "The triangle has base $14$ mm and the prism is $9$ mm long.",
+     "answer": "252",
+     "units": "mm³",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          4.5,
+          0
+         ],
+         [
+          2.925,
+          1.286
+         ],
+         [
+          3.991,
+          2.032
+         ],
+         [
+          5.566,
+          0.747
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          2.925,
+          1.286
+         ],
+         [
+          0,
+          0
+         ],
+         [
+          1.066,
+          0.747
+         ],
+         [
+          3.991,
+          2.032
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          4.5,
+          0
+         ],
+         [
+          2.925,
+          1.286
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "dim": [
+         0,
+         0,
+         4.5,
+         0
+        ],
+        "label": "14 mm",
+        "off": -0.5
+       },
+       {
+        "seg": [
+         2.925,
+         1.286,
+         2.925,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         2.925,
+         0,
+         0,
+         90
+        ],
+        "right": true
+       },
+       {
+        "label": "4 mm",
+        "at": [
+         2.805,
+         0.386
+        ],
+        "anchor": "end"
+       },
+       {
+        "dim": [
+         4.5,
+         0,
+         5.566,
+         0.747
+        ],
+        "label": "9 mm",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3a",
+     "label": "3a",
+     "section": "Fluency",
+     "stem": "Find the volume of these triangular prisms. The height of each triangle is measured outside the triangle.",
+     "type": "numeric",
+     "prompt": "Triangle base $4$ cm, height $3$ cm",
+     "answer": "30",
+     "units": "cm³",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          4.5,
+          0
+         ],
+         [
+          -2.025,
+          3.375
+         ],
+         [
+          0.048,
+          4.827
+         ],
+         [
+          6.573,
+          1.452
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          4.5,
+          0
+         ],
+         [
+          -2.025,
+          3.375
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "dim": [
+         0,
+         0,
+         4.5,
+         0
+        ],
+        "label": "4 cm",
+        "off": -0.5
+       },
+       {
+        "seg": [
+         -2.025,
+         3.375,
+         -2.025,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         -2.025,
+         0,
+         0,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         -2.025,
+         0,
+         0,
+         90
+        ],
+        "right": true
+       },
+       {
+        "dim": [
+         -2.025,
+         0,
+         -2.025,
+         3.375
+        ],
+        "label": "3 cm",
+        "off": 0.5
+       },
+       {
+        "dim": [
+         4.5,
+         0,
+         6.573,
+         1.452
+        ],
+        "label": "5 cm",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3b",
+     "label": "3b",
+     "section": "Fluency",
+     "stem": "Find the volume of these triangular prisms. The height of each triangle is measured outside the triangle.",
+     "type": "numeric",
+     "prompt": "Triangle base $3$ m, height $7$ m",
+     "answer": "63",
+     "units": "m³",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          1.929,
+          0
+         ],
+         [
+          -0.868,
+          4.5
+         ],
+         [
+          0.554,
+          5.496
+         ],
+         [
+          3.35,
+          0.996
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          1.929,
+          0
+         ],
+         [
+          -0.868,
+          4.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "dim": [
+         0,
+         0,
+         1.929,
+         0
+        ],
+        "label": "3 m",
+        "off": -0.5
+       },
+       {
+        "seg": [
+         -0.868,
+         4.5,
+         -0.868,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         -0.868,
+         0,
+         0,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         -0.868,
+         0,
+         0,
+         90
+        ],
+        "right": true
+       },
+       {
+        "dim": [
+         -0.868,
+         0,
+         -0.868,
+         4.5
+        ],
+        "label": "7 m",
+        "off": 0.5
+       },
+       {
+        "dim": [
+         1.929,
+         0,
+         3.35,
+         0.996
+        ],
+        "label": "6 m",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4a",
+     "label": "4a",
+     "section": "Fluency",
+     "stem": "Find the volume of these triangular prisms.",
+     "type": "numeric",
+     "prompt": "Triangle base $6$ m, height $4$ m, prism length $7$ m",
+     "answer": "84",
+     "units": "m³",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          4.5,
+          0
+         ],
+         [
+          -2.25,
+          3
+         ],
+         [
+          -0.315,
+          4.355
+         ],
+         [
+          6.435,
+          1.355
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          4.5,
+          0
+         ],
+         [
+          -2.25,
+          3
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "dim": [
+         0,
+         0,
+         4.5,
+         0
+        ],
+        "label": "6 m",
+        "off": -0.5
+       },
+       {
+        "seg": [
+         -2.25,
+         3,
+         -2.25,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         -2.25,
+         0,
+         0,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         -2.25,
+         0,
+         0,
+         90
+        ],
+        "right": true
+       },
+       {
+        "dim": [
+         -2.25,
+         0,
+         -2.25,
+         3
+        ],
+        "label": "4 m",
+        "off": 0.5
+       },
+       {
+        "dim": [
+         4.5,
+         0,
+         6.435,
+         1.355
+        ],
+        "label": "7 m",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4b",
+     "label": "4b",
+     "section": "Fluency",
+     "stem": "Find the volume of these triangular prisms.",
+     "type": "numeric",
+     "prompt": "Triangle base $5$ m, height $3$ m, prism length $4$ m",
+     "answer": "30",
+     "units": "m³",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          4.5,
+          0
+         ],
+         [
+          -1.8,
+          2.7
+         ],
+         [
+          -0.473,
+          3.629
+         ],
+         [
+          5.827,
+          0.929
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          4.5,
+          0
+         ],
+         [
+          -1.8,
+          2.7
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "dim": [
+         0,
+         0,
+         4.5,
+         0
+        ],
+        "label": "5 m",
+        "off": -0.5
+       },
+       {
+        "seg": [
+         -1.8,
+         2.7,
+         -1.8,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         -1.8,
+         0,
+         0,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         -1.8,
+         0,
+         0,
+         90
+        ],
+        "right": true
+       },
+       {
+        "dim": [
+         -1.8,
+         0,
+         -1.8,
+         2.7
+        ],
+        "label": "3 m",
+        "off": 0.5
+       },
+       {
+        "dim": [
+         4.5,
+         0,
+         5.827,
+         0.929
+        ],
+        "label": "4 m",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4c",
+     "label": "4c",
+     "section": "Fluency",
+     "stem": "Find the volume of these triangular prisms.",
+     "type": "numeric",
+     "prompt": "Triangle base $1.4$ cm, height $1.6$ cm, prism length $1.3$ cm",
+     "answer": "1.456",
+     "units": "cm³",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          3.937,
+          0
+         ],
+         [
+          -1.378,
+          4.5
+         ],
+         [
+          -0.03,
+          5.444
+         ],
+         [
+          5.285,
+          0.944
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          3.937,
+          0
+         ],
+         [
+          -1.378,
+          4.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "dim": [
+         0,
+         0,
+         3.937,
+         0
+        ],
+        "label": "1.4 cm",
+        "off": -0.5
+       },
+       {
+        "seg": [
+         -1.378,
+         4.5,
+         -1.378,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         -1.378,
+         0,
+         0,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         -1.378,
+         0,
+         0,
+         90
+        ],
+        "right": true
+       },
+       {
+        "dim": [
+         -1.378,
+         0,
+         -1.378,
+         4.5
+        ],
+        "label": "1.6 cm",
+        "off": 0.5
+       },
+       {
+        "dim": [
+         3.937,
+         0,
+         5.285,
+         0.944
+        ],
+        "label": "1.3 cm",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q5",
+     "label": "5",
+     "section": "Fluency",
+     "type": "numeric",
+     "prompt": "A small hiking tent is in the shape of a triangular prism, as shown. Find the volume of the tent.",
+     "answer": "2.7",
+     "units": "m³",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          4.5,
+          0
+         ],
+         [
+          2.25,
+          3
+         ],
+         [
+          4.38,
+          4.491
+         ],
+         [
+          6.63,
+          1.491
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          4.5,
+          0
+         ],
+         [
+          2.25,
+          3
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "dim": [
+         0,
+         0,
+         4.5,
+         0
+        ],
+        "label": "1.8 m",
+        "off": -0.5
+       },
+       {
+        "seg": [
+         2.25,
+         3,
+         2.25,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         2.25,
+         0,
+         0,
+         90
+        ],
+        "right": true
+       },
+       {
+        "label": "1.2 m",
+        "at": [
+         2.37,
+         0.9
+        ],
+        "anchor": "start"
+       },
+       {
+        "dim": [
+         4.5,
+         0,
+         6.63,
+         1.491
+        ],
+        "label": "2.5 m",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q6",
+     "label": "6",
+     "section": "Fluency",
+     "type": "numeric",
+     "prompt": "A concrete ramp is in the shape of a triangular prism, as shown. Find the volume of concrete in cm³.",
+     "answer": "540000",
+     "units": "cm³",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          4.5,
+          0
+         ],
+         [
+          4.5,
+          2.25
+         ],
+         [
+          6.573,
+          3.702
+         ],
+         [
+          6.573,
+          1.452
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          4.5,
+          2.25
+         ],
+         [
+          0,
+          0
+         ],
+         [
+          2.073,
+          1.452
+         ],
+         [
+          6.573,
+          3.702
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          4.5,
+          0
+         ],
+         [
+          4.5,
+          2.25
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         2.073,
+         1.452,
+         6.573,
+         1.452
+        ],
+        "dash": true
+       },
+       {
+        "dim": [
+         0,
+         0,
+         4.5,
+         0
+        ],
+        "label": "120 cm",
+        "off": -0.5
+       },
+       {
+        "angle": [
+         4.5,
+         0,
+         90,
+         180
+        ],
+        "right": true
+       },
+       {
+        "dim": [
+         6.573,
+         1.452,
+         6.573,
+         3.702
+        ],
+        "label": "60 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         4.5,
+         0,
+         6.573,
+         1.452
+        ],
+        "label": "150 cm",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q7",
+     "label": "7",
+     "section": "Problem-solving",
+     "type": "numeric",
+     "prompt": "A wedge of cheese is in the shape of a triangular prism. Its triangular face has base $8$ cm and height $5$ cm, and the wedge is $6$ cm thick. Find the volume of the cheese.",
+     "answer": "120",
+     "units": "cm³"
+    },
+    {
+     "id": "q8a",
+     "label": "8a",
+     "section": "Problem-solving",
+     "stem": "These solids are made from rectangular and triangular prisms. Find the volume of each solid.",
+     "type": "numeric",
+     "prompt": "A rectangular prism with a triangular prism roof",
+     "answer": "120",
+     "units": "cm³",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          4.8,
+          0
+         ],
+         [
+          4.8,
+          2.4
+         ],
+         [
+          6.274,
+          3.432
+         ],
+         [
+          6.274,
+          1.032
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          4.8,
+          2.4
+         ],
+         [
+          2.4,
+          4
+         ],
+         [
+          3.874,
+          5.032
+         ],
+         [
+          6.274,
+          3.432
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          2.4,
+          4
+         ],
+         [
+          0,
+          2.4
+         ],
+         [
+          1.474,
+          3.432
+         ],
+         [
+          3.874,
+          5.032
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          4.8,
+          0
+         ],
+         [
+          4.8,
+          2.4
+         ],
+         [
+          2.4,
+          4
+         ],
+         [
+          0,
+          2.4
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0,
+         2.4,
+         4.8,
+         2.4
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         2.4,
+         2.4,
+         2.4,
+         4
+        ],
+        "dash": true
+       },
+       {
+        "label": "2 cm",
+        "at": [
+         2.52,
+         2.7
+        ],
+        "anchor": "start"
+       },
+       {
+        "dim": [
+         0,
+         0,
+         4.8,
+         0
+        ],
+        "label": "6 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         0,
+         0,
+         0,
+         2.4
+        ],
+        "label": "3 cm",
+        "off": 0.5
+       },
+       {
+        "dim": [
+         4.8,
+         0,
+         6.274,
+         1.032
+        ],
+        "label": "5 cm",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q8b",
+     "label": "8b",
+     "section": "Problem-solving",
+     "stem": "These solids are made from rectangular and triangular prisms. Find the volume of each solid.",
+     "type": "numeric",
+     "prompt": "A rectangular prism with a triangular prism joined to one side",
+     "answer": "96",
+     "units": "m³",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          4,
+          0
+         ],
+         [
+          2.4,
+          3.2
+         ],
+         [
+          4.169,
+          4.439
+         ],
+         [
+          5.769,
+          1.239
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          2.4,
+          3.2
+         ],
+         [
+          0,
+          3.2
+         ],
+         [
+          1.769,
+          4.439
+         ],
+         [
+          4.169,
+          4.439
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          4,
+          0
+         ],
+         [
+          2.4,
+          3.2
+         ],
+         [
+          0,
+          3.2
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         2.4,
+         0,
+         2.4,
+         3.2
+        ],
+        "dash": true
+       },
+       {
+        "dim": [
+         0,
+         0,
+         2.4,
+         0
+        ],
+        "label": "3 m",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         2.4,
+         0,
+         4,
+         0
+        ],
+        "label": "2 m",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         0,
+         0,
+         0,
+         3.2
+        ],
+        "label": "4 m",
+        "off": 0.5
+       },
+       {
+        "dim": [
+         4,
+         0,
+         5.769,
+         1.239
+        ],
+        "label": "6 m",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q8c",
+     "label": "8c",
+     "section": "Problem-solving",
+     "stem": "These solids are made from rectangular and triangular prisms. Find the volume of each solid.",
+     "type": "numeric",
+     "prompt": "A rectangular prism with a sloping triangular prism on top",
+     "answer": "98",
+     "units": "cm³",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          3,
+          0
+         ],
+         [
+          3,
+          1.5
+         ],
+         [
+          4.935,
+          2.855
+         ],
+         [
+          4.935,
+          1.355
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          3,
+          1.5
+         ],
+         [
+          0,
+          3.75
+         ],
+         [
+          1.935,
+          5.105
+         ],
+         [
+          4.935,
+          2.855
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          3,
+          0
+         ],
+         [
+          3,
+          1.5
+         ],
+         [
+          0,
+          3.75
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0,
+         1.5,
+         3,
+         1.5
+        ],
+        "dash": true
+       },
+       {
+        "dim": [
+         0,
+         0,
+         3,
+         0
+        ],
+        "label": "4 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         0,
+         0,
+         0,
+         1.5
+        ],
+        "label": "2 cm",
+        "off": 0.5
+       },
+       {
+        "dim": [
+         0,
+         1.5,
+         0,
+         3.75
+        ],
+        "label": "3 cm",
+        "off": 0.5
+       },
+       {
+        "dim": [
+         3,
+         0,
+         4.935,
+         1.355
+        ],
+        "label": "7 cm",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q8d",
+     "label": "8d",
+     "section": "Problem-solving",
+     "stem": "These solids are made from rectangular and triangular prisms. Find the volume of each solid.",
+     "type": "numeric",
+     "prompt": "A rectangular prism with a triangular prism underneath",
+     "answer": "84",
+     "units": "m³",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          4.2,
+          0
+         ],
+         [
+          4.2,
+          3.5
+         ],
+         [
+          5.232,
+          4.223
+         ],
+         [
+          5.232,
+          0.723
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          4.2,
+          3.5
+         ],
+         [
+          0,
+          3.5
+         ],
+         [
+          1.032,
+          4.223
+         ],
+         [
+          5.232,
+          4.223
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          2.1
+         ],
+         [
+          4.2,
+          0
+         ],
+         [
+          4.2,
+          3.5
+         ],
+         [
+          0,
+          3.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0,
+         2.1,
+         4.2,
+         2.1
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         4.2,
+         2.1,
+         5.232,
+         2.823
+        ],
+        "dash": true
+       },
+       {
+        "label": "6 m",
+        "at": [
+         2.1,
+         2.45
+        ]
+       },
+       {
+        "dim": [
+         0,
+         2.1,
+         0,
+         3.5
+        ],
+        "label": "2 m",
+        "off": 0.5
+       },
+       {
+        "dim": [
+         5.232,
+         0.723,
+         5.232,
+         2.823
+        ],
+        "label": "3 m",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         4.2,
+         0,
+         5.232,
+         0.723
+        ],
+        "label": "4 m",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q9",
+     "label": "9",
+     "section": "Problem-solving",
+     "type": "numeric",
+     "prompt": "A box in the shape of a cube has side length $30$ cm. It holds $500$ wooden wedges. Each wedge is a triangular prism with cross-sectional area $3.6$ cm² and length $4.5$ cm. Find the volume of air space left in the box.",
+     "answer": "18900",
+     "units": "cm³"
+    },
+    {
+     "id": "q10a",
+     "label": "10a",
+     "section": "Reasoning",
+     "stem": "These questions are about triangular prisms with a given volume. Find the missing measurement.",
+     "type": "numeric",
+     "prompt": "The volume is $60$ cm³ and the cross-sectional area is $12$ cm². Find the height of the prism.",
+     "answer": "5",
+     "units": "cm"
+    },
+    {
+     "id": "q10b",
+     "label": "10b",
+     "section": "Reasoning",
+     "stem": "These questions are about triangular prisms with a given volume. Find the missing measurement.",
+     "type": "numeric",
+     "prompt": "The volume is $9.6$ m³ and the cross-sectional area is $2.4$ m². Find the height of the prism.",
+     "answer": "4",
+     "units": "m"
+    },
+    {
+     "id": "q10c",
+     "label": "10c",
+     "section": "Reasoning",
+     "stem": "These questions are about triangular prisms with a given volume. Find the missing measurement.",
+     "type": "numeric",
+     "prompt": "The volume is $180$ mm³ and the height of the prism is $15$ mm. Find the cross-sectional area.",
+     "answer": "12",
+     "units": "mm²"
+    },
+    {
+     "id": "q10d",
+     "label": "10d",
+     "section": "Reasoning",
+     "stem": "These questions are about triangular prisms with a given volume. Find the missing measurement.",
+     "type": "numeric",
+     "prompt": "The volume is $6000$ cm³ and the height of the prism is $250$ cm. Find the cross-sectional area.",
+     "answer": "24",
+     "units": "cm²"
+    },
+    {
+     "id": "q11",
+     "label": "11",
+     "section": "Reasoning",
+     "type": "numeric",
+     "prompt": "A triangular prism has volume $36$ cm³ and height $6$ cm. The height of its triangular cross-section is $3$ cm. Find the base length of the triangle.",
+     "answer": "4",
+     "units": "cm"
+    },
+    {
+     "id": "q12",
+     "label": "12",
+     "section": "Reasoning",
+     "type": "numeric",
+     "prompt": "A triangular prism has volume $150$ mm³ and height $10$ mm. The base of its triangular cross-section is $5$ mm. Find the height of the triangle.",
+     "answer": "6",
+     "units": "mm"
+    },
+    {
+     "id": "q13a",
+     "label": "13a",
+     "section": "Enrichment",
+     "stem": "A triangular prism has volume $V$ and length $l$. Its triangular cross-section has base $b$ and height $h$.",
+     "type": "expression",
+     "prompt": "Write a rule for $V$ in terms of $b$, $h$ and $l$.",
+     "answer": "bhl/2",
+     "stemFigure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          4.5,
+          0
+         ],
+         [
+          2.25,
+          3.375
+         ],
+         [
+          4.38,
+          4.866
+         ],
+         [
+          6.63,
+          1.491
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          4.5,
+          0
+         ],
+         [
+          2.25,
+          3.375
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "dim": [
+         0,
+         0,
+         4.5,
+         0
+        ],
+        "label": "b",
+        "off": -0.5
+       },
+       {
+        "seg": [
+         2.25,
+         3.375,
+         2.25,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         2.25,
+         0,
+         0,
+         90
+        ],
+        "right": true
+       },
+       {
+        "label": "h",
+        "at": [
+         2.37,
+         1.012
+        ],
+        "anchor": "start"
+       },
+       {
+        "dim": [
+         4.5,
+         0,
+         6.63,
+         1.491
+        ],
+        "label": "l",
+        "off": -0.5
+       }
+      ]
+     },
+     "accept": [
+      "V=bhl/2"
+     ],
+     "hint": "Type divide with / and use brackets where needed, for example (a+b)/(2c)."
+    },
+    {
+     "id": "q13b",
+     "label": "13b",
+     "section": "Enrichment",
+     "stem": "A triangular prism has volume $V$ and length $l$. Its triangular cross-section has base $b$ and height $h$.",
+     "type": "expression",
+     "prompt": "Write a rule for $l$ in terms of $V$, $b$ and $h$.",
+     "answer": "2V/(bh)",
+     "accept": [
+      "l=2V/(bh)"
+     ],
+     "hint": "Type divide with / and use brackets where needed, for example (a+b)/(2c)."
+    },
+    {
+     "id": "q13c",
+     "label": "13c",
+     "section": "Enrichment",
+     "stem": "A triangular prism has volume $V$ and length $l$. Its triangular cross-section has base $b$ and height $h$.",
+     "type": "expression",
+     "prompt": "Write a rule for $h$ in terms of $V$, $b$ and $l$.",
+     "answer": "2V/(bl)",
+     "accept": [
+      "h=2V/(bl)"
+     ],
+     "hint": "Type divide with / and use brackets where needed, for example (a+b)/(2c)."
+    },
+    {
+     "id": "q13d",
+     "label": "13d",
+     "section": "Enrichment",
+     "stem": "A triangular prism has volume $V$ and length $l$. Its triangular cross-section has base $b$ and height $h$.",
+     "type": "expression",
+     "prompt": "Write a rule for $b$ in terms of $V$, $h$ and $l$.",
+     "answer": "2V/(hl)",
+     "accept": [
+      "b=2V/(hl)"
+     ],
+     "hint": "Type divide with / and use brackets where needed, for example (a+b)/(2c)."
+    },
+    {
+     "id": "q13e",
+     "label": "13e",
+     "section": "Enrichment",
+     "stem": "Use one of your rules to find the missing value.",
+     "type": "numeric",
+     "prompt": "Find $l$ if $V = 30$, $b = 5$ and $h = 4$.",
+     "answer": "3"
+    },
+    {
+     "id": "q13f",
+     "label": "13f",
+     "section": "Enrichment",
+     "stem": "Use one of your rules to find the missing value.",
+     "type": "numeric",
+     "prompt": "Find $h$ if $V = 42$, $b = 3$ and $l = 7$.",
+     "answer": "4"
+    },
+    {
+     "id": "q13g",
+     "label": "13g",
+     "section": "Enrichment",
+     "stem": "Use one of your rules to find the missing value.",
+     "type": "numeric",
+     "prompt": "Find $b$ if $V = 90$, $h = 6$ and $l = 10$.",
+     "answer": "3"
+    }
+   ]
+  },
+  {
+   "id": "10k",
+   "chapter": "Chapter 10: Measurement",
+   "title": "10K Capacity",
+   "description": "Convert between mL, L, kL and ML, read scales, and find the capacity of containers from their volume.",
+   "questions": [
+    {
+     "id": "q1a",
+     "label": "1a",
+     "section": "Fluency",
+     "stem": "Convert to the units shown in the brackets.",
+     "type": "numeric",
+     "prompt": "$900$ mL (L)",
+     "answer": "0.9",
+     "units": "L"
+    },
+    {
+     "id": "q1b",
+     "label": "1b",
+     "section": "Fluency",
+     "stem": "Convert to the units shown in the brackets.",
+     "type": "numeric",
+     "prompt": "$6000$ mL (L)",
+     "answer": "6",
+     "units": "L"
+    },
+    {
+     "id": "q1c",
+     "label": "1c",
+     "section": "Fluency",
+     "stem": "Convert to the units shown in the brackets.",
+     "type": "numeric",
+     "prompt": "$40$ mL (L)",
+     "answer": "0.04",
+     "units": "L"
+    },
+    {
+     "id": "q1d",
+     "label": "1d",
+     "section": "Fluency",
+     "stem": "Convert to the units shown in the brackets.",
+     "type": "numeric",
+     "prompt": "$3$ kL (L)",
+     "answer": "3000",
+     "units": "L"
+    },
+    {
+     "id": "q1e",
+     "label": "1e",
+     "section": "Fluency",
+     "stem": "Convert to the units shown in the brackets.",
+     "type": "numeric",
+     "prompt": "$8$ kL (L)",
+     "answer": "8000",
+     "units": "L"
+    },
+    {
+     "id": "q1f",
+     "label": "1f",
+     "section": "Fluency",
+     "stem": "Convert to the units shown in the brackets.",
+     "type": "numeric",
+     "prompt": "$4.5$ kL (L)",
+     "answer": "4500",
+     "units": "L"
+    },
+    {
+     "id": "q2a",
+     "label": "2a",
+     "section": "Fluency",
+     "stem": "Convert to the units shown in the brackets.",
+     "type": "numeric",
+     "prompt": "$5$ L (mL)",
+     "answer": "5000",
+     "units": "mL"
+    },
+    {
+     "id": "q2b",
+     "label": "2b",
+     "section": "Fluency",
+     "stem": "Convert to the units shown in the brackets.",
+     "type": "numeric",
+     "prompt": "$0.3$ L (mL)",
+     "answer": "300",
+     "units": "mL"
+    },
+    {
+     "id": "q2c",
+     "label": "2c",
+     "section": "Fluency",
+     "stem": "Convert to the units shown in the brackets.",
+     "type": "numeric",
+     "prompt": "$4$ ML (kL)",
+     "answer": "4000",
+     "units": "kL"
+    },
+    {
+     "id": "q2d",
+     "label": "2d",
+     "section": "Fluency",
+     "stem": "Convert to the units shown in the brackets.",
+     "type": "numeric",
+     "prompt": "$19$ kL (L)",
+     "answer": "19000",
+     "units": "L"
+    },
+    {
+     "id": "q2e",
+     "label": "2e",
+     "section": "Fluency",
+     "stem": "Convert to the units shown in the brackets.",
+     "type": "numeric",
+     "prompt": "$6000$ L (kL)",
+     "answer": "6",
+     "units": "kL"
+    },
+    {
+     "id": "q2f",
+     "label": "2f",
+     "section": "Fluency",
+     "stem": "Convert to the units shown in the brackets.",
+     "type": "numeric",
+     "prompt": "$2500$ mL (L)",
+     "answer": "2.5",
+     "units": "L"
+    },
+    {
+     "id": "q2g",
+     "label": "2g",
+     "section": "Fluency",
+     "stem": "Convert to the units shown in the brackets.",
+     "type": "numeric",
+     "prompt": "$80\\,000$ mL (L)",
+     "answer": "80",
+     "units": "L"
+    },
+    {
+     "id": "q2h",
+     "label": "2h",
+     "section": "Fluency",
+     "stem": "Convert to the units shown in the brackets.",
+     "type": "numeric",
+     "prompt": "$4500$ kL (ML)",
+     "answer": "4.5",
+     "units": "ML"
+    },
+    {
+     "id": "q2i",
+     "label": "2i",
+     "section": "Fluency",
+     "stem": "Convert to the units shown in the brackets.",
+     "type": "numeric",
+     "prompt": "$0.384$ L (mL)",
+     "answer": "384",
+     "units": "mL"
+    },
+    {
+     "id": "q2j",
+     "label": "2j",
+     "section": "Fluency",
+     "stem": "Convert to the units shown in the brackets.",
+     "type": "numeric",
+     "prompt": "$7140$ mL (L)",
+     "answer": "7.14",
+     "units": "L"
+    },
+    {
+     "id": "q2k",
+     "label": "2k",
+     "section": "Fluency",
+     "stem": "Convert to the units shown in the brackets.",
+     "type": "numeric",
+     "prompt": "$2.596$ ML (kL)",
+     "answer": "2596",
+     "units": "kL"
+    },
+    {
+     "id": "q2l",
+     "label": "2l",
+     "section": "Fluency",
+     "stem": "Convert to the units shown in the brackets.",
+     "type": "numeric",
+     "prompt": "$63\\,000$ L (kL)",
+     "answer": "63",
+     "units": "kL"
+    },
+    {
+     "id": "q2m",
+     "label": "2m",
+     "section": "Fluency",
+     "stem": "Convert to the units shown in the brackets.",
+     "type": "numeric",
+     "prompt": "$0.8$ kL (L)",
+     "answer": "800",
+     "units": "L"
+    },
+    {
+     "id": "q2n",
+     "label": "2n",
+     "section": "Fluency",
+     "stem": "Convert to the units shown in the brackets.",
+     "type": "numeric",
+     "prompt": "$54\\,000$ kL (ML)",
+     "answer": "54",
+     "units": "ML"
+    },
+    {
+     "id": "q2o",
+     "label": "2o",
+     "section": "Fluency",
+     "stem": "Convert to the units shown in the brackets.",
+     "type": "numeric",
+     "prompt": "$0.67$ L (mL)",
+     "answer": "670",
+     "units": "mL"
+    },
+    {
+     "id": "q2p",
+     "label": "2p",
+     "section": "Fluency",
+     "stem": "Convert to the units shown in the brackets.",
+     "type": "numeric",
+     "prompt": "$230$ L (kL)",
+     "answer": "0.23",
+     "units": "kL"
+    },
+    {
+     "id": "q3a",
+     "label": "3a",
+     "section": "Fluency",
+     "stem": "Read the scale to find the amount of water in each container.",
+     "type": "numeric",
+     "prompt": "A measuring cylinder",
+     "answer": "26",
+     "units": "mL",
+     "figure": {
+      "kind": "diagram",
+      "unit": 34,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          2.2,
+          0
+         ],
+         [
+          2.2,
+          4.55
+         ],
+         [
+          0,
+          4.55
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          7.6
+         ],
+         [
+          0,
+          0
+         ],
+         [
+          2.2,
+          0
+         ],
+         [
+          2.2,
+          7.6
+         ]
+        ],
+        "open": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         0.55,
+         0
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0.35,
+         0.3,
+         0.35
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0.7,
+         0.3,
+         0.7
+        ]
+       },
+       {
+        "seg": [
+         0,
+         1.05,
+         0.3,
+         1.05
+        ]
+       },
+       {
+        "seg": [
+         0,
+         1.4,
+         0.3,
+         1.4
+        ]
+       },
+       {
+        "seg": [
+         0,
+         1.75,
+         0.55,
+         1.75
+        ]
+       },
+       {
+        "label": "10",
+        "at": [
+         0.75,
+         1.63
+        ],
+        "anchor": "start"
+       },
+       {
+        "seg": [
+         0,
+         2.1,
+         0.3,
+         2.1
+        ]
+       },
+       {
+        "seg": [
+         0,
+         2.45,
+         0.3,
+         2.45
+        ]
+       },
+       {
+        "seg": [
+         0,
+         2.8,
+         0.3,
+         2.8
+        ]
+       },
+       {
+        "seg": [
+         0,
+         3.15,
+         0.3,
+         3.15
+        ]
+       },
+       {
+        "seg": [
+         0,
+         3.5,
+         0.55,
+         3.5
+        ]
+       },
+       {
+        "label": "20",
+        "at": [
+         0.75,
+         3.38
+        ],
+        "anchor": "start"
+       },
+       {
+        "seg": [
+         0,
+         3.85,
+         0.3,
+         3.85
+        ]
+       },
+       {
+        "seg": [
+         0,
+         4.2,
+         0.3,
+         4.2
+        ]
+       },
+       {
+        "seg": [
+         0,
+         4.55,
+         0.3,
+         4.55
+        ]
+       },
+       {
+        "seg": [
+         0,
+         4.9,
+         0.3,
+         4.9
+        ]
+       },
+       {
+        "seg": [
+         0,
+         5.25,
+         0.55,
+         5.25
+        ]
+       },
+       {
+        "label": "30",
+        "at": [
+         0.75,
+         5.13
+        ],
+        "anchor": "start"
+       },
+       {
+        "seg": [
+         0,
+         5.6,
+         0.3,
+         5.6
+        ]
+       },
+       {
+        "seg": [
+         0,
+         5.95,
+         0.3,
+         5.95
+        ]
+       },
+       {
+        "seg": [
+         0,
+         6.3,
+         0.3,
+         6.3
+        ]
+       },
+       {
+        "seg": [
+         0,
+         6.65,
+         0.3,
+         6.65
+        ]
+       },
+       {
+        "seg": [
+         0,
+         7,
+         0.55,
+         7
+        ]
+       },
+       {
+        "label": "40",
+        "at": [
+         0.75,
+         6.88
+        ],
+        "anchor": "start"
+       },
+       {
+        "label": "mL",
+        "at": [
+         2.7,
+         7.6
+        ],
+        "anchor": "start"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3b",
+     "label": "3b",
+     "section": "Fluency",
+     "stem": "Read the scale to find the amount of water in each container.",
+     "type": "numeric",
+     "prompt": "A water tank",
+     "answer": "4.5",
+     "units": "m³",
+     "figure": {
+      "kind": "diagram",
+      "unit": 34,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          3.2,
+          0
+         ],
+         [
+          3.2,
+          5.25
+         ],
+         [
+          0,
+          5.25
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          7.6
+         ],
+         [
+          0,
+          0
+         ],
+         [
+          3.2,
+          0
+         ],
+         [
+          3.2,
+          7.6
+         ]
+        ],
+        "open": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         0.55,
+         0
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0.583,
+         0.3,
+         0.583
+        ]
+       },
+       {
+        "seg": [
+         0,
+         1.167,
+         0.55,
+         1.167
+        ]
+       },
+       {
+        "label": "1",
+        "at": [
+         0.75,
+         1.047
+        ],
+        "anchor": "start"
+       },
+       {
+        "seg": [
+         0,
+         1.75,
+         0.3,
+         1.75
+        ]
+       },
+       {
+        "seg": [
+         0,
+         2.333,
+         0.55,
+         2.333
+        ]
+       },
+       {
+        "label": "2",
+        "at": [
+         0.75,
+         2.213
+        ],
+        "anchor": "start"
+       },
+       {
+        "seg": [
+         0,
+         2.917,
+         0.3,
+         2.917
+        ]
+       },
+       {
+        "seg": [
+         0,
+         3.5,
+         0.55,
+         3.5
+        ]
+       },
+       {
+        "label": "3",
+        "at": [
+         0.75,
+         3.38
+        ],
+        "anchor": "start"
+       },
+       {
+        "seg": [
+         0,
+         4.083,
+         0.3,
+         4.083
+        ]
+       },
+       {
+        "seg": [
+         0,
+         4.667,
+         0.55,
+         4.667
+        ]
+       },
+       {
+        "label": "4",
+        "at": [
+         0.75,
+         4.547
+        ],
+        "anchor": "start"
+       },
+       {
+        "seg": [
+         0,
+         5.25,
+         0.3,
+         5.25
+        ]
+       },
+       {
+        "seg": [
+         0,
+         5.833,
+         0.55,
+         5.833
+        ]
+       },
+       {
+        "label": "5",
+        "at": [
+         0.75,
+         5.713
+        ],
+        "anchor": "start"
+       },
+       {
+        "seg": [
+         0,
+         6.417,
+         0.3,
+         6.417
+        ]
+       },
+       {
+        "seg": [
+         0,
+         7,
+         0.55,
+         7
+        ]
+       },
+       {
+        "label": "6",
+        "at": [
+         0.75,
+         6.88
+        ],
+        "anchor": "start"
+       },
+       {
+        "label": "m³",
+        "at": [
+         3.7,
+         7.6
+        ],
+        "anchor": "start"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3c",
+     "label": "3c",
+     "section": "Fluency",
+     "stem": "Read the scale to find the amount of water in each container.",
+     "type": "numeric",
+     "prompt": "A measuring jug",
+     "answer": "650",
+     "units": "mL",
+     "figure": {
+      "kind": "diagram",
+      "unit": 34,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          2.6,
+          0
+         ],
+         [
+          2.6,
+          4.55
+         ],
+         [
+          0,
+          4.55
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          7.6
+         ],
+         [
+          0,
+          0
+         ],
+         [
+          2.6,
+          0
+         ],
+         [
+          2.6,
+          7.6
+         ]
+        ],
+        "open": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         0.55,
+         0
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0.35,
+         0.3,
+         0.35
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0.7,
+         0.3,
+         0.7
+        ]
+       },
+       {
+        "seg": [
+         0,
+         1.05,
+         0.3,
+         1.05
+        ]
+       },
+       {
+        "seg": [
+         0,
+         1.4,
+         0.3,
+         1.4
+        ]
+       },
+       {
+        "seg": [
+         0,
+         1.75,
+         0.55,
+         1.75
+        ]
+       },
+       {
+        "label": "250",
+        "at": [
+         0.75,
+         1.63
+        ],
+        "anchor": "start"
+       },
+       {
+        "seg": [
+         0,
+         2.1,
+         0.3,
+         2.1
+        ]
+       },
+       {
+        "seg": [
+         0,
+         2.45,
+         0.3,
+         2.45
+        ]
+       },
+       {
+        "seg": [
+         0,
+         2.8,
+         0.3,
+         2.8
+        ]
+       },
+       {
+        "seg": [
+         0,
+         3.15,
+         0.3,
+         3.15
+        ]
+       },
+       {
+        "seg": [
+         0,
+         3.5,
+         0.55,
+         3.5
+        ]
+       },
+       {
+        "label": "500",
+        "at": [
+         0.75,
+         3.38
+        ],
+        "anchor": "start"
+       },
+       {
+        "seg": [
+         0,
+         3.85,
+         0.3,
+         3.85
+        ]
+       },
+       {
+        "seg": [
+         0,
+         4.2,
+         0.3,
+         4.2
+        ]
+       },
+       {
+        "seg": [
+         0,
+         4.55,
+         0.3,
+         4.55
+        ]
+       },
+       {
+        "seg": [
+         0,
+         4.9,
+         0.3,
+         4.9
+        ]
+       },
+       {
+        "seg": [
+         0,
+         5.25,
+         0.55,
+         5.25
+        ]
+       },
+       {
+        "label": "750",
+        "at": [
+         0.75,
+         5.13
+        ],
+        "anchor": "start"
+       },
+       {
+        "seg": [
+         0,
+         5.6,
+         0.3,
+         5.6
+        ]
+       },
+       {
+        "seg": [
+         0,
+         5.95,
+         0.3,
+         5.95
+        ]
+       },
+       {
+        "seg": [
+         0,
+         6.3,
+         0.3,
+         6.3
+        ]
+       },
+       {
+        "seg": [
+         0,
+         6.65,
+         0.3,
+         6.65
+        ]
+       },
+       {
+        "seg": [
+         0,
+         7,
+         0.55,
+         7
+        ]
+       },
+       {
+        "label": "1 L",
+        "at": [
+         0.75,
+         6.88
+        ],
+        "anchor": "start"
+       },
+       {
+        "label": "mL",
+        "at": [
+         3.1,
+         7.6
+        ],
+        "anchor": "start"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4a",
+     "label": "4a",
+     "section": "Fluency",
+     "stem": "A glass holding $300$ mL of juice is poured into a jug that already holds $2$ L of juice. Find the total amount of juice in:",
+     "type": "numeric",
+     "prompt": "millilitres",
+     "answer": "2300",
+     "units": "mL"
+    },
+    {
+     "id": "q4b",
+     "label": "4b",
+     "section": "Fluency",
+     "stem": "A glass holding $300$ mL of juice is poured into a jug that already holds $2$ L of juice. Find the total amount of juice in:",
+     "type": "numeric",
+     "prompt": "litres",
+     "answer": "2.3",
+     "units": "L"
+    },
+    {
+     "id": "q5a",
+     "label": "5a",
+     "section": "Fluency",
+     "stem": "Convert to the units shown in the brackets.",
+     "type": "numeric",
+     "prompt": "$3\\,600\\,000$ mL (kL)",
+     "answer": "3.6",
+     "units": "kL"
+    },
+    {
+     "id": "q5b",
+     "label": "5b",
+     "section": "Fluency",
+     "stem": "Convert to the units shown in the brackets.",
+     "type": "numeric",
+     "prompt": "$450\\,000$ mL (kL)",
+     "answer": "0.45",
+     "units": "kL"
+    },
+    {
+     "id": "q5c",
+     "label": "5c",
+     "section": "Fluency",
+     "stem": "Convert to the units shown in the brackets.",
+     "type": "numeric",
+     "prompt": "$7\\,000\\,000$ L (ML)",
+     "answer": "7",
+     "units": "ML"
+    },
+    {
+     "id": "q5d",
+     "label": "5d",
+     "section": "Fluency",
+     "stem": "Convert to the units shown in the brackets.",
+     "type": "numeric",
+     "prompt": "$2\\,650\\,000$ L (ML)",
+     "answer": "2.65",
+     "units": "ML"
+    },
+    {
+     "id": "q5e",
+     "label": "5e",
+     "section": "Fluency",
+     "stem": "Convert to the units shown in the brackets.",
+     "type": "numeric",
+     "prompt": "$6$ ML (L)",
+     "answer": "6000000",
+     "units": "L"
+    },
+    {
+     "id": "q5f",
+     "label": "5f",
+     "section": "Fluency",
+     "stem": "Convert to the units shown in the brackets.",
+     "type": "numeric",
+     "prompt": "$0.3$ ML (L)",
+     "answer": "300000",
+     "units": "L"
+    },
+    {
+     "id": "q5g",
+     "label": "5g",
+     "section": "Fluency",
+     "stem": "Convert to the units shown in the brackets.",
+     "type": "numeric",
+     "prompt": "$0.4$ kL (mL)",
+     "answer": "400000",
+     "units": "mL"
+    },
+    {
+     "id": "q5h",
+     "label": "5h",
+     "section": "Fluency",
+     "stem": "Convert to the units shown in the brackets.",
+     "type": "numeric",
+     "prompt": "$0.007$ kL (mL)",
+     "answer": "7000",
+     "units": "mL"
+    },
+    {
+     "id": "q6",
+     "label": "6",
+     "section": "Fluency",
+     "type": "numeric",
+     "prompt": "A vineyard owner buys $2.6$ ML of water for her grapevines. How many litres is this?",
+     "answer": "2600000",
+     "units": "L"
+    },
+    {
+     "id": "q7a",
+     "label": "7a",
+     "section": "Fluency",
+     "stem": "Find the capacity of each rectangular prism container, in litres. Remember $1000$ cm³ $= 1$ L.",
+     "type": "numeric",
+     "prompt": "$20$ cm by $10$ cm by $15$ cm",
+     "answer": "3",
+     "units": "L",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          5,
+          0
+         ],
+         [
+          5,
+          3.75
+         ],
+         [
+          5.922,
+          4.395
+         ],
+         [
+          5.922,
+          0.645
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          5,
+          3.75
+         ],
+         [
+          0,
+          3.75
+         ],
+         [
+          0.922,
+          4.395
+         ],
+         [
+          5.922,
+          4.395
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          5,
+          0
+         ],
+         [
+          5,
+          3.75
+         ],
+         [
+          0,
+          3.75
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "dim": [
+         0,
+         0,
+         5,
+         0
+        ],
+        "label": "20 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         5,
+         0,
+         5.922,
+         0.645
+        ],
+        "label": "10 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         5.922,
+         0.645,
+         5.922,
+         4.395
+        ],
+        "label": "15 cm",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q7b",
+     "label": "7b",
+     "section": "Fluency",
+     "stem": "Find the capacity of each rectangular prism container, in litres. Remember $1000$ cm³ $= 1$ L.",
+     "type": "numeric",
+     "prompt": "$6$ cm by $15$ cm by $10$ cm",
+     "answer": "0.9",
+     "units": "L",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          3,
+          0
+         ],
+         [
+          3,
+          5
+         ],
+         [
+          5.765,
+          6.936
+         ],
+         [
+          5.765,
+          1.936
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          3,
+          5
+         ],
+         [
+          0,
+          5
+         ],
+         [
+          2.765,
+          6.936
+         ],
+         [
+          5.765,
+          6.936
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          3,
+          0
+         ],
+         [
+          3,
+          5
+         ],
+         [
+          0,
+          5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "dim": [
+         0,
+         0,
+         3,
+         0
+        ],
+        "label": "6 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         3,
+         0,
+         5.765,
+         1.936
+        ],
+        "label": "15 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         5.765,
+         1.936,
+         5.765,
+         6.936
+        ],
+        "label": "10 cm",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q7c",
+     "label": "7c",
+     "section": "Fluency",
+     "stem": "Find the capacity of each rectangular prism container, in litres. Remember $1000$ cm³ $= 1$ L.",
+     "type": "numeric",
+     "prompt": "$8$ cm by $4$ cm by $5$ cm",
+     "answer": "0.16",
+     "units": "L",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          5,
+          0
+         ],
+         [
+          5,
+          3.125
+         ],
+         [
+          5.922,
+          3.77
+         ],
+         [
+          5.922,
+          0.645
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          5,
+          3.125
+         ],
+         [
+          0,
+          3.125
+         ],
+         [
+          0.922,
+          3.77
+         ],
+         [
+          5.922,
+          3.77
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          5,
+          0
+         ],
+         [
+          5,
+          3.125
+         ],
+         [
+          0,
+          3.125
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "dim": [
+         0,
+         0,
+         5,
+         0
+        ],
+        "label": "8 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         5,
+         0,
+         5.922,
+         0.645
+        ],
+        "label": "4 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         5.922,
+         0.645,
+         5.922,
+         3.77
+        ],
+        "label": "5 cm",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q7d",
+     "label": "7d",
+     "section": "Fluency",
+     "stem": "Find the capacity of each rectangular prism container, in litres. Remember $1000$ cm³ $= 1$ L.",
+     "type": "numeric",
+     "prompt": "$25$ cm by $14$ cm by $30$ cm",
+     "answer": "10.5",
+     "units": "L",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          4.167,
+          0
+         ],
+         [
+          4.167,
+          5
+         ],
+         [
+          5.027,
+          5.602
+         ],
+         [
+          5.027,
+          0.602
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          4.167,
+          5
+         ],
+         [
+          0,
+          5
+         ],
+         [
+          0.86,
+          5.602
+         ],
+         [
+          5.027,
+          5.602
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          4.167,
+          0
+         ],
+         [
+          4.167,
+          5
+         ],
+         [
+          0,
+          5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "dim": [
+         0,
+         0,
+         4.167,
+         0
+        ],
+        "label": "25 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         4.167,
+         0,
+         5.027,
+         0.602
+        ],
+        "label": "14 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         5.027,
+         0.602,
+         5.027,
+         5.602
+        ],
+        "label": "30 cm",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q7e",
+     "label": "7e",
+     "section": "Fluency",
+     "stem": "Find the capacity of each rectangular prism container, in litres. Remember $1000$ cm³ $= 1$ L.",
+     "type": "numeric",
+     "prompt": "$40$ cm by $40$ cm by $5$ cm",
+     "answer": "8",
+     "units": "L",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          5,
+          0
+         ],
+         [
+          5,
+          1
+         ],
+         [
+          6.843,
+          2.291
+         ],
+         [
+          6.843,
+          1.291
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          5,
+          1
+         ],
+         [
+          0,
+          1
+         ],
+         [
+          1.843,
+          2.291
+         ],
+         [
+          6.843,
+          2.291
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          5,
+          0
+         ],
+         [
+          5,
+          1
+         ],
+         [
+          0,
+          1
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "dim": [
+         0,
+         0,
+         5,
+         0
+        ],
+        "label": "40 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         5,
+         0,
+         6.843,
+         1.291
+        ],
+        "label": "40 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         6.843,
+         1.291,
+         6.843,
+         2.291
+        ],
+        "label": "5 cm",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q7f",
+     "label": "7f",
+     "section": "Fluency",
+     "stem": "Find the capacity of each rectangular prism container, in litres. Remember $1000$ cm³ $= 1$ L.",
+     "type": "numeric",
+     "prompt": "A cube",
+     "answer": "27",
+     "units": "L",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          5,
+          0
+         ],
+         [
+          5,
+          5
+         ],
+         [
+          6.843,
+          6.291
+         ],
+         [
+          6.843,
+          1.291
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          5,
+          5
+         ],
+         [
+          0,
+          5
+         ],
+         [
+          1.843,
+          6.291
+         ],
+         [
+          6.843,
+          6.291
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          5,
+          0
+         ],
+         [
+          5,
+          5
+         ],
+         [
+          0,
+          5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "dim": [
+         0,
+         0,
+         5,
+         0
+        ],
+        "label": "30 cm",
+        "off": -0.5
+       },
+       {
+        "tick": [
+         0,
+         0,
+         5,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         5,
+         0,
+         6.843,
+         1.291
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         5,
+         0,
+         5,
+         5
+        ],
+        "n": 1
+       }
+      ]
+     }
+    },
+    {
+     "id": "q8a",
+     "label": "8a",
+     "section": "Problem-solving",
+     "stem": "A swimming pool in the shape of a rectangular prism is $25$ m long, $10$ m wide and $1.5$ m deep. Find the pool's:",
+     "type": "numeric",
+     "prompt": "volume, in m³",
+     "answer": "375",
+     "units": "m³"
+    },
+    {
+     "id": "q8b",
+     "label": "8b",
+     "section": "Problem-solving",
+     "stem": "A swimming pool in the shape of a rectangular prism is $25$ m long, $10$ m wide and $1.5$ m deep. Find the pool's:",
+     "type": "numeric",
+     "prompt": "capacity, in litres",
+     "answer": "375000",
+     "units": "L"
+    },
+    {
+     "id": "q9a",
+     "label": "9a",
+     "section": "Problem-solving",
+     "stem": "A dripping tap leaks about $12$ mL of water every minute.",
+     "type": "numeric",
+     "prompt": "If there are $40$ drips per minute, find the volume of one drip.",
+     "answer": "0.3",
+     "units": "mL"
+    },
+    {
+     "id": "q9b",
+     "label": "9b",
+     "section": "Problem-solving",
+     "stem": "A dripping tap leaks about $12$ mL of water every minute.",
+     "type": "numeric",
+     "prompt": "About how many litres leak in $250$ minutes?",
+     "answer": "3",
+     "units": "L"
+    },
+    {
+     "id": "q9c",
+     "label": "9c",
+     "section": "Problem-solving",
+     "stem": "A dripping tap leaks about $12$ mL of water every minute.",
+     "type": "numeric",
+     "prompt": "About how many litres leak in $1$ hour?",
+     "answer": "0.72",
+     "units": "L"
+    },
+    {
+     "id": "q9d",
+     "label": "9d",
+     "section": "Problem-solving",
+     "stem": "A dripping tap leaks about $12$ mL of water every minute.",
+     "type": "numeric",
+     "prompt": "About how many litres leak in $1$ day?",
+     "answer": "17.28",
+     "units": "L"
+    },
+    {
+     "id": "q9e",
+     "label": "9e",
+     "section": "Problem-solving",
+     "stem": "A dripping tap leaks about $12$ mL of water every minute.",
+     "type": "numeric",
+     "prompt": "About how many litres leak in $1$ year ($365$ days)?",
+     "answer": "6307.2",
+     "units": "L"
+    },
+    {
+     "id": "q10",
+     "label": "10",
+     "section": "Problem-solving",
+     "type": "numeric",
+     "prompt": "A dose of $15$ mL of cough syrup is taken three times a day from a $0.45$ L bottle. How many days will it take to finish the bottle?",
+     "answer": "10",
+     "units": "days"
+    },
+    {
+     "id": "q11",
+     "label": "11",
+     "section": "Problem-solving",
+     "type": "numeric",
+     "prompt": "A camping gas bottle holds $9$ L of liquid gas. The gas is used at a rate of $25$ mL per minute. How many hours will the gas bottle last?",
+     "answer": "6",
+     "units": "hours"
+    },
+    {
+     "id": "q12",
+     "label": "12",
+     "section": "Problem-solving",
+     "type": "numeric",
+     "prompt": "A city's dams hold $1.5$ million megalitres of water. On average each person uses $300$ L of water per day, and $4$ million people live in the city. How many days would the water last if no more rain fell?",
+     "answer": "1250",
+     "units": "days"
+    },
+    {
+     "id": "q13a",
+     "label": "13a",
+     "section": "Reasoning",
+     "stem": "If $p$ is any number, then $p$ litres is the same as $1000 \\times p = 1000p$ millilitres, because there are $1000$ mL in $1$ L. Write an expression for $p$ litres in these units.",
+     "type": "expression",
+     "prompt": "cm³",
+     "answer": "1000p",
+     "hint": "Type divide with /, for example p/10."
+    },
+    {
+     "id": "q13b",
+     "label": "13b",
+     "section": "Reasoning",
+     "stem": "If $p$ is any number, then $p$ litres is the same as $1000 \\times p = 1000p$ millilitres, because there are $1000$ mL in $1$ L. Write an expression for $p$ litres in these units.",
+     "type": "expression",
+     "prompt": "m³",
+     "answer": "p/1000"
+    },
+    {
+     "id": "q13c",
+     "label": "13c",
+     "section": "Reasoning",
+     "stem": "If $p$ is any number, then $p$ litres is the same as $1000 \\times p = 1000p$ millilitres, because there are $1000$ mL in $1$ L. Write an expression for $p$ litres in these units.",
+     "type": "expression",
+     "prompt": "kL",
+     "answer": "p/1000"
+    },
+    {
+     "id": "q13d",
+     "label": "13d",
+     "section": "Reasoning",
+     "stem": "If $p$ is any number, then $p$ litres is the same as $1000 \\times p = 1000p$ millilitres, because there are $1000$ mL in $1$ L. Write an expression for $p$ litres in these units.",
+     "type": "expression",
+     "prompt": "ML",
+     "answer": "p/1000000"
+    },
+    {
+     "id": "q14a",
+     "label": "14a",
+     "section": "Reasoning",
+     "stem": "A rectangular prism container is $l$ cm long, $w$ cm wide and $h$ cm high. Write an expression for its capacity in:",
+     "type": "expression",
+     "prompt": "cm³",
+     "answer": "lwh",
+     "hint": "Type l × w × h as lwh, and divide with /."
+    },
+    {
+     "id": "q14b",
+     "label": "14b",
+     "section": "Reasoning",
+     "stem": "A rectangular prism container is $l$ cm long, $w$ cm wide and $h$ cm high. Write an expression for its capacity in:",
+     "type": "expression",
+     "prompt": "mL",
+     "answer": "lwh"
+    },
+    {
+     "id": "q14c",
+     "label": "14c",
+     "section": "Reasoning",
+     "stem": "A rectangular prism container is $l$ cm long, $w$ cm wide and $h$ cm high. Write an expression for its capacity in:",
+     "type": "expression",
+     "prompt": "L",
+     "answer": "lwh/1000"
+    },
+    {
+     "id": "q14d",
+     "label": "14d",
+     "section": "Reasoning",
+     "stem": "A rectangular prism container is $l$ cm long, $w$ cm wide and $h$ cm high. Write an expression for its capacity in:",
+     "type": "expression",
+     "prompt": "kL",
+     "answer": "lwh/1000000"
+    },
+    {
+     "id": "q14e",
+     "label": "14e",
+     "section": "Reasoning",
+     "stem": "A rectangular prism container is $l$ m long, $w$ m wide and $h$ m high. Write an expression for its capacity in:",
+     "type": "expression",
+     "prompt": "m³",
+     "answer": "lwh"
+    },
+    {
+     "id": "q14f",
+     "label": "14f",
+     "section": "Reasoning",
+     "stem": "A rectangular prism container is $l$ m long, $w$ m wide and $h$ m high. Write an expression for its capacity in:",
+     "type": "expression",
+     "prompt": "L",
+     "answer": "1000lwh"
+    },
+    {
+     "id": "q14g",
+     "label": "14g",
+     "section": "Reasoning",
+     "stem": "A rectangular prism container is $l$ m long, $w$ m wide and $h$ m high. Write an expression for its capacity in:",
+     "type": "expression",
+     "prompt": "kL",
+     "answer": "lwh"
+    },
+    {
+     "id": "q14h",
+     "label": "14h",
+     "section": "Reasoning",
+     "stem": "A rectangular prism container is $l$ m long, $w$ m wide and $h$ m high. Write an expression for its capacity in:",
+     "type": "expression",
+     "prompt": "ML",
+     "answer": "lwh/1000"
+    },
+    {
+     "id": "q15a",
+     "label": "15a",
+     "section": "Enrichment",
+     "stem": "A container is $20$ cm long, $10$ cm wide and $12$ cm high. Remember $1$ mL $= 1$ cm³. Find the depth of water when this amount is poured into the empty container:",
+     "type": "numeric",
+     "prompt": "$600$ mL",
+     "answer": "3",
+     "units": "cm",
+     "stemFigure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          5,
+          0
+         ],
+         [
+          5,
+          3
+         ],
+         [
+          5.922,
+          3.645
+         ],
+         [
+          5.922,
+          0.645
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          5,
+          3
+         ],
+         [
+          0,
+          3
+         ],
+         [
+          0.922,
+          3.645
+         ],
+         [
+          5.922,
+          3.645
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          5,
+          0
+         ],
+         [
+          5,
+          3
+         ],
+         [
+          0,
+          3
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "dim": [
+         0,
+         0,
+         5,
+         0
+        ],
+        "label": "20 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         5,
+         0,
+         5.922,
+         0.645
+        ],
+        "label": "10 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         5.922,
+         0.645,
+         5.922,
+         3.645
+        ],
+        "label": "12 cm",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q15b",
+     "label": "15b",
+     "section": "Enrichment",
+     "stem": "A container is $20$ cm long, $10$ cm wide and $12$ cm high. Remember $1$ mL $= 1$ cm³. Find the depth of water when this amount is poured into the empty container:",
+     "type": "numeric",
+     "prompt": "$1000$ mL",
+     "answer": "5",
+     "units": "cm"
+    },
+    {
+     "id": "q15c",
+     "label": "15c",
+     "section": "Enrichment",
+     "stem": "A container is $20$ cm long, $10$ cm wide and $12$ cm high. Remember $1$ mL $= 1$ cm³. Find the depth of water when this amount is poured into the empty container:",
+     "type": "numeric",
+     "prompt": "$300$ mL",
+     "answer": "1.5",
+     "units": "cm"
+    },
+    {
+     "id": "q15d",
+     "label": "15d",
+     "section": "Enrichment",
+     "type": "numeric",
+     "prompt": "After $1000$ mL has been poured into the same container, a further $50$ mL is added. By how much does the depth increase?",
+     "answer": "0.25",
+     "units": "cm"
+    },
+    {
+     "id": "q15e",
+     "label": "15e",
+     "section": "Enrichment",
+     "type": "numeric",
+     "prompt": "A $1$ litre carton of milk has a base $9$ cm by $7$ cm. After $300$ mL of milk is poured out, what is the depth of the milk left in the carton? Give your answer in cm, correct to the nearest millimetre (one decimal place).",
+     "answer": "11.1",
+     "units": "cm"
+    }
+   ]
+  },
+  {
+   "id": "10l",
+   "chapter": "Chapter 10: Measurement",
+   "title": "10L Mass and temperature",
+   "description": "Convert between mg, g, kg and t, read mass and temperature scales, and solve problems with mass and temperature.",
+   "questions": [
+    {
+     "id": "q1a",
+     "label": "1a",
+     "section": "Fluency",
+     "stem": "Convert to the units shown in the brackets.",
+     "type": "numeric",
+     "prompt": "$3.85$ kg (g)",
+     "answer": "3850",
+     "units": "g"
+    },
+    {
+     "id": "q1b",
+     "label": "1b",
+     "section": "Fluency",
+     "stem": "Convert to the units shown in the brackets.",
+     "type": "numeric",
+     "prompt": "$6200$ g (kg)",
+     "answer": "6.2",
+     "units": "kg"
+    },
+    {
+     "id": "q1c",
+     "label": "1c",
+     "section": "Fluency",
+     "stem": "Convert to the units shown in the brackets.",
+     "type": "numeric",
+     "prompt": "$450\\,000$ kg (t)",
+     "answer": "450",
+     "units": "t"
+    },
+    {
+     "id": "q1d",
+     "label": "1d",
+     "section": "Fluency",
+     "stem": "Convert to the units shown in the brackets.",
+     "type": "numeric",
+     "prompt": "$7.3$ t (kg)",
+     "answer": "7300",
+     "units": "kg"
+    },
+    {
+     "id": "q2a",
+     "label": "2a",
+     "section": "Fluency",
+     "stem": "Convert to the units shown in the brackets.",
+     "type": "numeric",
+     "prompt": "$5$ t (kg)",
+     "answer": "5000",
+     "units": "kg"
+    },
+    {
+     "id": "q2b",
+     "label": "2b",
+     "section": "Fluency",
+     "stem": "Convert to the units shown in the brackets.",
+     "type": "numeric",
+     "prompt": "$40$ kg (g)",
+     "answer": "40000",
+     "units": "g"
+    },
+    {
+     "id": "q2c",
+     "label": "2c",
+     "section": "Fluency",
+     "stem": "Convert to the units shown in the brackets.",
+     "type": "numeric",
+     "prompt": "$3.6$ g (mg)",
+     "answer": "3600",
+     "units": "mg"
+    },
+    {
+     "id": "q2d",
+     "label": "2d",
+     "section": "Fluency",
+     "stem": "Convert to the units shown in the brackets.",
+     "type": "numeric",
+     "prompt": "$4700$ mg (g)",
+     "answer": "4.7",
+     "units": "g"
+    },
+    {
+     "id": "q2e",
+     "label": "2e",
+     "section": "Fluency",
+     "stem": "Convert to the units shown in the brackets.",
+     "type": "numeric",
+     "prompt": "$8250$ mg (g)",
+     "answer": "8.25",
+     "units": "g"
+    },
+    {
+     "id": "q2f",
+     "label": "2f",
+     "section": "Fluency",
+     "stem": "Convert to the units shown in the brackets.",
+     "type": "numeric",
+     "prompt": "$34\\,800$ kg (t)",
+     "answer": "34.8",
+     "units": "t"
+    },
+    {
+     "id": "q2g",
+     "label": "2g",
+     "section": "Fluency",
+     "stem": "Convert to the units shown in the brackets.",
+     "type": "numeric",
+     "prompt": "$0.62$ t (kg)",
+     "answer": "620",
+     "units": "kg"
+    },
+    {
+     "id": "q2h",
+     "label": "2h",
+     "section": "Fluency",
+     "stem": "Convert to the units shown in the brackets.",
+     "type": "numeric",
+     "prompt": "$485$ g (kg)",
+     "answer": "0.485",
+     "units": "kg"
+    },
+    {
+     "id": "q2i",
+     "label": "2i",
+     "section": "Fluency",
+     "stem": "Convert to the units shown in the brackets.",
+     "type": "numeric",
+     "prompt": "$36$ mg (g)",
+     "answer": "0.036",
+     "units": "g"
+    },
+    {
+     "id": "q2j",
+     "label": "2j",
+     "section": "Fluency",
+     "stem": "Convert to the units shown in the brackets.",
+     "type": "numeric",
+     "prompt": "$\\frac{2}{5}$ t (kg)",
+     "answer": "400",
+     "units": "kg"
+    },
+    {
+     "id": "q2k",
+     "label": "2k",
+     "section": "Fluency",
+     "stem": "Convert to the units shown in the brackets.",
+     "type": "numeric",
+     "prompt": "$\\frac{3}{8}$ kg (g)",
+     "answer": "375",
+     "units": "g"
+    },
+    {
+     "id": "q2l",
+     "label": "2l",
+     "section": "Fluency",
+     "stem": "Convert to the units shown in the brackets.",
+     "type": "numeric",
+     "prompt": "$12.5$ g (kg)",
+     "answer": "0.0125",
+     "units": "kg"
+    },
+    {
+     "id": "q2m",
+     "label": "2m",
+     "section": "Fluency",
+     "stem": "Convert to the units shown in the brackets.",
+     "type": "numeric",
+     "prompt": "$380\\,000$ kg (t)",
+     "answer": "380",
+     "units": "t"
+    },
+    {
+     "id": "q2n",
+     "label": "2n",
+     "section": "Fluency",
+     "stem": "Convert to the units shown in the brackets.",
+     "type": "numeric",
+     "prompt": "$0.09$ t (kg)",
+     "answer": "90",
+     "units": "kg"
+    },
+    {
+     "id": "q2o",
+     "label": "2o",
+     "section": "Fluency",
+     "stem": "Convert to the units shown in the brackets.",
+     "type": "numeric",
+     "prompt": "$726\\,000$ mg (g)",
+     "answer": "726",
+     "units": "g"
+    },
+    {
+     "id": "q2p",
+     "label": "2p",
+     "section": "Fluency",
+     "stem": "Convert to the units shown in the brackets.",
+     "type": "numeric",
+     "prompt": "$0.06$ kg (g)",
+     "answer": "60",
+     "units": "g"
+    },
+    {
+     "id": "q3a",
+     "label": "3a",
+     "section": "Fluency",
+     "stem": "What mass is shown on each scale?",
+     "type": "numeric",
+     "prompt": "Kitchen scales",
+     "answer": "6.5",
+     "units": "kg",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          -0.5,
+          -1
+         ],
+         [
+          8.5,
+          -1
+         ],
+         [
+          8.5,
+          1.6
+         ],
+         [
+          -0.5,
+          1.6
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         8,
+         0
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         0,
+         0.45
+        ]
+       },
+       {
+        "label": "0",
+        "at": [
+         0,
+         -0.55
+        ]
+       },
+       {
+        "seg": [
+         0.4,
+         0,
+         0.4,
+         0.25
+        ]
+       },
+       {
+        "seg": [
+         0.8,
+         0,
+         0.8,
+         0.45
+        ]
+       },
+       {
+        "label": "1",
+        "at": [
+         0.8,
+         -0.55
+        ]
+       },
+       {
+        "seg": [
+         1.2,
+         0,
+         1.2,
+         0.25
+        ]
+       },
+       {
+        "seg": [
+         1.6,
+         0,
+         1.6,
+         0.45
+        ]
+       },
+       {
+        "label": "2",
+        "at": [
+         1.6,
+         -0.55
+        ]
+       },
+       {
+        "seg": [
+         2,
+         0,
+         2,
+         0.25
+        ]
+       },
+       {
+        "seg": [
+         2.4,
+         0,
+         2.4,
+         0.45
+        ]
+       },
+       {
+        "label": "3",
+        "at": [
+         2.4,
+         -0.55
+        ]
+       },
+       {
+        "seg": [
+         2.8,
+         0,
+         2.8,
+         0.25
+        ]
+       },
+       {
+        "seg": [
+         3.2,
+         0,
+         3.2,
+         0.45
+        ]
+       },
+       {
+        "label": "4",
+        "at": [
+         3.2,
+         -0.55
+        ]
+       },
+       {
+        "seg": [
+         3.6,
+         0,
+         3.6,
+         0.25
+        ]
+       },
+       {
+        "seg": [
+         4,
+         0,
+         4,
+         0.45
+        ]
+       },
+       {
+        "label": "5",
+        "at": [
+         4,
+         -0.55
+        ]
+       },
+       {
+        "seg": [
+         4.4,
+         0,
+         4.4,
+         0.25
+        ]
+       },
+       {
+        "seg": [
+         4.8,
+         0,
+         4.8,
+         0.45
+        ]
+       },
+       {
+        "label": "6",
+        "at": [
+         4.8,
+         -0.55
+        ]
+       },
+       {
+        "seg": [
+         5.2,
+         0,
+         5.2,
+         0.25
+        ]
+       },
+       {
+        "seg": [
+         5.6,
+         0,
+         5.6,
+         0.45
+        ]
+       },
+       {
+        "label": "7",
+        "at": [
+         5.6,
+         -0.55
+        ]
+       },
+       {
+        "seg": [
+         6,
+         0,
+         6,
+         0.25
+        ]
+       },
+       {
+        "seg": [
+         6.4,
+         0,
+         6.4,
+         0.45
+        ]
+       },
+       {
+        "label": "8",
+        "at": [
+         6.4,
+         -0.55
+        ]
+       },
+       {
+        "seg": [
+         6.8,
+         0,
+         6.8,
+         0.25
+        ]
+       },
+       {
+        "seg": [
+         7.2,
+         0,
+         7.2,
+         0.45
+        ]
+       },
+       {
+        "label": "9",
+        "at": [
+         7.2,
+         -0.55
+        ]
+       },
+       {
+        "seg": [
+         7.6,
+         0,
+         7.6,
+         0.25
+        ]
+       },
+       {
+        "seg": [
+         8,
+         0,
+         8,
+         0.45
+        ]
+       },
+       {
+        "label": "10",
+        "at": [
+         8,
+         -0.55
+        ]
+       },
+       {
+        "seg": [
+         5.2,
+         1.4,
+         5.2,
+         0.08
+        ],
+        "arrow": "end"
+       },
+       {
+        "label": "kg",
+        "at": [
+         -0.1,
+         1.15
+        ],
+        "anchor": "start"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3b",
+     "label": "3b",
+     "section": "Fluency",
+     "stem": "What mass is shown on each scale?",
+     "type": "numeric",
+     "prompt": "Letter scales",
+     "answer": "17",
+     "units": "g",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          3.6,
+          0
+         ],
+         [
+          3.595,
+          0.188
+         ],
+         [
+          3.58,
+          0.376
+         ],
+         [
+          3.556,
+          0.563
+         ],
+         [
+          3.521,
+          0.748
+         ],
+         [
+          3.477,
+          0.932
+         ],
+         [
+          3.424,
+          1.112
+         ],
+         [
+          3.361,
+          1.29
+         ],
+         [
+          3.289,
+          1.464
+         ],
+         [
+          3.208,
+          1.634
+         ],
+         [
+          3.118,
+          1.8
+         ],
+         [
+          3.019,
+          1.961
+         ],
+         [
+          2.912,
+          2.116
+         ],
+         [
+          2.798,
+          2.266
+         ],
+         [
+          2.675,
+          2.409
+         ],
+         [
+          2.546,
+          2.546
+         ],
+         [
+          2.409,
+          2.675
+         ],
+         [
+          2.266,
+          2.798
+         ],
+         [
+          2.116,
+          2.912
+         ],
+         [
+          1.961,
+          3.019
+         ],
+         [
+          1.8,
+          3.118
+         ],
+         [
+          1.634,
+          3.208
+         ],
+         [
+          1.464,
+          3.289
+         ],
+         [
+          1.29,
+          3.361
+         ],
+         [
+          1.112,
+          3.424
+         ],
+         [
+          0.932,
+          3.477
+         ],
+         [
+          0.748,
+          3.521
+         ],
+         [
+          0.563,
+          3.556
+         ],
+         [
+          0.376,
+          3.58
+         ],
+         [
+          0.188,
+          3.595
+         ],
+         [
+          0,
+          3.6
+         ],
+         [
+          -0.188,
+          3.595
+         ],
+         [
+          -0.376,
+          3.58
+         ],
+         [
+          -0.563,
+          3.556
+         ],
+         [
+          -0.748,
+          3.521
+         ],
+         [
+          -0.932,
+          3.477
+         ],
+         [
+          -1.112,
+          3.424
+         ],
+         [
+          -1.29,
+          3.361
+         ],
+         [
+          -1.464,
+          3.289
+         ],
+         [
+          -1.634,
+          3.208
+         ],
+         [
+          -1.8,
+          3.118
+         ],
+         [
+          -1.961,
+          3.019
+         ],
+         [
+          -2.116,
+          2.912
+         ],
+         [
+          -2.266,
+          2.798
+         ],
+         [
+          -2.409,
+          2.675
+         ],
+         [
+          -2.546,
+          2.546
+         ],
+         [
+          -2.675,
+          2.409
+         ],
+         [
+          -2.798,
+          2.266
+         ],
+         [
+          -2.912,
+          2.116
+         ],
+         [
+          -3.019,
+          1.961
+         ],
+         [
+          -3.118,
+          1.8
+         ],
+         [
+          -3.208,
+          1.634
+         ],
+         [
+          -3.289,
+          1.464
+         ],
+         [
+          -3.361,
+          1.29
+         ],
+         [
+          -3.424,
+          1.112
+         ],
+         [
+          -3.477,
+          0.932
+         ],
+         [
+          -3.521,
+          0.748
+         ],
+         [
+          -3.556,
+          0.563
+         ],
+         [
+          -3.58,
+          0.376
+         ],
+         [
+          -3.595,
+          0.188
+         ],
+         [
+          -3.6,
+          0
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         -3.477,
+         0.932,
+         -3.043,
+         0.815
+        ]
+       },
+       {
+        "label": "0",
+        "at": [
+         -2.56,
+         0.586
+        ]
+       },
+       {
+        "seg": [
+         -3.361,
+         1.29,
+         -3.127,
+         1.201
+        ]
+       },
+       {
+        "seg": [
+         -3.208,
+         1.634,
+         -2.985,
+         1.521
+        ]
+       },
+       {
+        "seg": [
+         -3.019,
+         1.961,
+         -2.81,
+         1.825
+        ]
+       },
+       {
+        "seg": [
+         -2.798,
+         2.266,
+         -2.603,
+         2.108
+        ]
+       },
+       {
+        "seg": [
+         -2.546,
+         2.546,
+         -2.227,
+         2.227
+        ]
+       },
+       {
+        "label": "5",
+        "at": [
+         -1.874,
+         1.774
+        ]
+       },
+       {
+        "seg": [
+         -2.266,
+         2.798,
+         -2.108,
+         2.603
+        ]
+       },
+       {
+        "seg": [
+         -1.961,
+         3.019,
+         -1.825,
+         2.81
+        ]
+       },
+       {
+        "seg": [
+         -1.634,
+         3.208,
+         -1.521,
+         2.985
+        ]
+       },
+       {
+        "seg": [
+         -1.29,
+         3.361,
+         -1.201,
+         3.127
+        ]
+       },
+       {
+        "seg": [
+         -0.932,
+         3.477,
+         -0.815,
+         3.043
+        ]
+       },
+       {
+        "label": "10",
+        "at": [
+         -0.686,
+         2.46
+        ]
+       },
+       {
+        "seg": [
+         -0.563,
+         3.556,
+         -0.524,
+         3.309
+        ]
+       },
+       {
+        "seg": [
+         -0.188,
+         3.595,
+         -0.175,
+         3.345
+        ]
+       },
+       {
+        "seg": [
+         0.188,
+         3.595,
+         0.175,
+         3.345
+        ]
+       },
+       {
+        "seg": [
+         0.563,
+         3.556,
+         0.524,
+         3.309
+        ]
+       },
+       {
+        "seg": [
+         0.932,
+         3.477,
+         0.815,
+         3.043
+        ]
+       },
+       {
+        "label": "15",
+        "at": [
+         0.686,
+         2.46
+        ]
+       },
+       {
+        "seg": [
+         1.29,
+         3.361,
+         1.201,
+         3.127
+        ]
+       },
+       {
+        "seg": [
+         1.634,
+         3.208,
+         1.521,
+         2.985
+        ]
+       },
+       {
+        "seg": [
+         1.961,
+         3.019,
+         1.825,
+         2.81
+        ]
+       },
+       {
+        "seg": [
+         2.266,
+         2.798,
+         2.108,
+         2.603
+        ]
+       },
+       {
+        "seg": [
+         2.546,
+         2.546,
+         2.227,
+         2.227
+        ]
+       },
+       {
+        "label": "20",
+        "at": [
+         1.874,
+         1.774
+        ]
+       },
+       {
+        "seg": [
+         2.798,
+         2.266,
+         2.603,
+         2.108
+        ]
+       },
+       {
+        "seg": [
+         3.019,
+         1.961,
+         2.81,
+         1.825
+        ]
+       },
+       {
+        "seg": [
+         3.208,
+         1.634,
+         2.985,
+         1.521
+        ]
+       },
+       {
+        "seg": [
+         3.361,
+         1.29,
+         3.127,
+         1.201
+        ]
+       },
+       {
+        "seg": [
+         3.477,
+         0.932,
+         3.043,
+         0.815
+        ]
+       },
+       {
+        "label": "25",
+        "at": [
+         2.56,
+         0.586
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         1.498,
+         2.94
+        ],
+        "arrow": "end"
+       },
+       {
+        "point": [
+         0,
+         0
+        ]
+       },
+       {
+        "label": "g",
+        "at": [
+         0,
+         -0.45
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3c",
+     "label": "3c",
+     "section": "Fluency",
+     "stem": "What mass is shown on each scale?",
+     "type": "numeric",
+     "prompt": "A weighbridge dial",
+     "answer": "130",
+     "units": "t",
+     "figure": {
+      "kind": "diagram",
+      "unit": 34,
+      "items": [
+       {
+        "circle": [
+         0,
+         0,
+         3
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0,
+         3,
+         0,
+         2.55
+        ]
+       },
+       {
+        "label": "0",
+        "at": [
+         0,
+         1.95
+        ]
+       },
+       {
+        "seg": [
+         0.927,
+         2.853,
+         0.85,
+         2.615
+        ]
+       },
+       {
+        "seg": [
+         1.763,
+         2.427,
+         1.616,
+         2.225
+        ]
+       },
+       {
+        "seg": [
+         2.427,
+         1.763,
+         2.225,
+         1.616
+        ]
+       },
+       {
+        "seg": [
+         2.853,
+         0.927,
+         2.615,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         3,
+         0,
+         2.55,
+         0
+        ]
+       },
+       {
+        "label": "50",
+        "at": [
+         2.05,
+         -0.1
+        ]
+       },
+       {
+        "seg": [
+         2.853,
+         -0.927,
+         2.615,
+         -0.85
+        ]
+       },
+       {
+        "seg": [
+         2.427,
+         -1.763,
+         2.225,
+         -1.616
+        ]
+       },
+       {
+        "seg": [
+         1.763,
+         -2.427,
+         1.616,
+         -2.225
+        ]
+       },
+       {
+        "seg": [
+         0.927,
+         -2.853,
+         0.85,
+         -2.615
+        ]
+       },
+       {
+        "seg": [
+         0,
+         -3,
+         0,
+         -2.55
+        ]
+       },
+       {
+        "label": "100",
+        "at": [
+         0,
+         -2.15
+        ]
+       },
+       {
+        "seg": [
+         -0.927,
+         -2.853,
+         -0.85,
+         -2.615
+        ]
+       },
+       {
+        "seg": [
+         -1.763,
+         -2.427,
+         -1.616,
+         -2.225
+        ]
+       },
+       {
+        "seg": [
+         -2.427,
+         -1.763,
+         -2.225,
+         -1.616
+        ]
+       },
+       {
+        "seg": [
+         -2.853,
+         -0.927,
+         -2.615,
+         -0.85
+        ]
+       },
+       {
+        "seg": [
+         -3,
+         0,
+         -2.55,
+         0
+        ]
+       },
+       {
+        "label": "150",
+        "at": [
+         -2.05,
+         -0.1
+        ]
+       },
+       {
+        "seg": [
+         -2.853,
+         0.927,
+         -2.615,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         -2.427,
+         1.763,
+         -2.225,
+         1.616
+        ]
+       },
+       {
+        "seg": [
+         -1.763,
+         2.427,
+         -1.616,
+         2.225
+        ]
+       },
+       {
+        "seg": [
+         -0.927,
+         2.853,
+         -0.85,
+         2.615
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         -2.184,
+         -1.587
+        ],
+        "arrow": "end"
+       },
+       {
+        "point": [
+         0,
+         0
+        ]
+       },
+       {
+        "label": "t",
+        "at": [
+         0,
+         -0.9
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4a",
+     "label": "4a",
+     "section": "Fluency",
+     "stem": "What temperature is shown on each scale?",
+     "type": "numeric",
+     "prompt": "Thermometer",
+     "answer": "12",
+     "units": "°C",
+     "figure": {
+      "kind": "diagram",
+      "unit": 34,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          -0.2
+         ],
+         [
+          0.6,
+          -0.2
+         ],
+         [
+          0.6,
+          7.2
+         ],
+         [
+          0,
+          7.2
+         ]
+        ],
+        "fill": false
+       },
+       {
+        "circle": [
+         0.3,
+         -0.55,
+         0.55
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0.12,
+          -0.2
+         ],
+         [
+          0.48,
+          -0.2
+         ],
+         [
+          0.48,
+          4.2
+         ],
+         [
+          0.12,
+          4.2
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0.6,
+         0.6,
+         1.15,
+         0.6
+        ]
+       },
+       {
+        "label": "0",
+        "at": [
+         1.35,
+         0.48
+        ],
+        "anchor": "start"
+       },
+       {
+        "seg": [
+         0.6,
+         0.9,
+         0.9,
+         0.9
+        ]
+       },
+       {
+        "seg": [
+         0.6,
+         1.2,
+         0.9,
+         1.2
+        ]
+       },
+       {
+        "seg": [
+         0.6,
+         1.5,
+         0.9,
+         1.5
+        ]
+       },
+       {
+        "seg": [
+         0.6,
+         1.8,
+         0.9,
+         1.8
+        ]
+       },
+       {
+        "seg": [
+         0.6,
+         2.1,
+         1.15,
+         2.1
+        ]
+       },
+       {
+        "label": "5",
+        "at": [
+         1.35,
+         1.98
+        ],
+        "anchor": "start"
+       },
+       {
+        "seg": [
+         0.6,
+         2.4,
+         0.9,
+         2.4
+        ]
+       },
+       {
+        "seg": [
+         0.6,
+         2.7,
+         0.9,
+         2.7
+        ]
+       },
+       {
+        "seg": [
+         0.6,
+         3,
+         0.9,
+         3
+        ]
+       },
+       {
+        "seg": [
+         0.6,
+         3.3,
+         0.9,
+         3.3
+        ]
+       },
+       {
+        "seg": [
+         0.6,
+         3.6,
+         1.15,
+         3.6
+        ]
+       },
+       {
+        "label": "10",
+        "at": [
+         1.35,
+         3.48
+        ],
+        "anchor": "start"
+       },
+       {
+        "seg": [
+         0.6,
+         3.9,
+         0.9,
+         3.9
+        ]
+       },
+       {
+        "seg": [
+         0.6,
+         4.2,
+         0.9,
+         4.2
+        ]
+       },
+       {
+        "seg": [
+         0.6,
+         4.5,
+         0.9,
+         4.5
+        ]
+       },
+       {
+        "seg": [
+         0.6,
+         4.8,
+         0.9,
+         4.8
+        ]
+       },
+       {
+        "seg": [
+         0.6,
+         5.1,
+         1.15,
+         5.1
+        ]
+       },
+       {
+        "label": "15",
+        "at": [
+         1.35,
+         4.98
+        ],
+        "anchor": "start"
+       },
+       {
+        "seg": [
+         0.6,
+         5.4,
+         0.9,
+         5.4
+        ]
+       },
+       {
+        "seg": [
+         0.6,
+         5.7,
+         0.9,
+         5.7
+        ]
+       },
+       {
+        "seg": [
+         0.6,
+         6,
+         0.9,
+         6
+        ]
+       },
+       {
+        "seg": [
+         0.6,
+         6.3,
+         0.9,
+         6.3
+        ]
+       },
+       {
+        "seg": [
+         0.6,
+         6.6,
+         1.15,
+         6.6
+        ]
+       },
+       {
+        "label": "20",
+        "at": [
+         1.35,
+         6.48
+        ],
+        "anchor": "start"
+       },
+       {
+        "label": "°C",
+        "at": [
+         1.2,
+         7.4
+        ],
+        "anchor": "start"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4b",
+     "label": "4b",
+     "section": "Fluency",
+     "stem": "What temperature is shown on each scale?",
+     "type": "numeric",
+     "prompt": "Thermometer",
+     "answer": "37.5",
+     "units": "°C",
+     "figure": {
+      "kind": "diagram",
+      "unit": 34,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          -0.2
+         ],
+         [
+          0.6,
+          -0.2
+         ],
+         [
+          0.6,
+          7.2
+         ],
+         [
+          0,
+          7.2
+         ]
+        ],
+        "fill": false
+       },
+       {
+        "circle": [
+         0.3,
+         -0.55,
+         0.55
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0.12,
+          -0.2
+         ],
+         [
+          0.48,
+          -0.2
+         ],
+         [
+          0.48,
+          3.225
+         ],
+         [
+          0.12,
+          3.225
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0.6,
+         0.6,
+         1.15,
+         0.6
+        ]
+       },
+       {
+        "label": "34",
+        "at": [
+         1.35,
+         0.48
+        ],
+        "anchor": "start"
+       },
+       {
+        "seg": [
+         0.6,
+         0.975,
+         0.9,
+         0.975
+        ]
+       },
+       {
+        "seg": [
+         0.6,
+         1.35,
+         0.9,
+         1.35
+        ]
+       },
+       {
+        "seg": [
+         0.6,
+         1.725,
+         0.9,
+         1.725
+        ]
+       },
+       {
+        "seg": [
+         0.6,
+         2.1,
+         1.15,
+         2.1
+        ]
+       },
+       {
+        "label": "36",
+        "at": [
+         1.35,
+         1.98
+        ],
+        "anchor": "start"
+       },
+       {
+        "seg": [
+         0.6,
+         2.475,
+         0.9,
+         2.475
+        ]
+       },
+       {
+        "seg": [
+         0.6,
+         2.85,
+         0.9,
+         2.85
+        ]
+       },
+       {
+        "seg": [
+         0.6,
+         3.225,
+         0.9,
+         3.225
+        ]
+       },
+       {
+        "seg": [
+         0.6,
+         3.6,
+         1.15,
+         3.6
+        ]
+       },
+       {
+        "label": "38",
+        "at": [
+         1.35,
+         3.48
+        ],
+        "anchor": "start"
+       },
+       {
+        "seg": [
+         0.6,
+         3.975,
+         0.9,
+         3.975
+        ]
+       },
+       {
+        "seg": [
+         0.6,
+         4.35,
+         0.9,
+         4.35
+        ]
+       },
+       {
+        "seg": [
+         0.6,
+         4.725,
+         0.9,
+         4.725
+        ]
+       },
+       {
+        "seg": [
+         0.6,
+         5.1,
+         1.15,
+         5.1
+        ]
+       },
+       {
+        "label": "40",
+        "at": [
+         1.35,
+         4.98
+        ],
+        "anchor": "start"
+       },
+       {
+        "seg": [
+         0.6,
+         5.475,
+         0.9,
+         5.475
+        ]
+       },
+       {
+        "seg": [
+         0.6,
+         5.85,
+         0.9,
+         5.85
+        ]
+       },
+       {
+        "seg": [
+         0.6,
+         6.225,
+         0.9,
+         6.225
+        ]
+       },
+       {
+        "seg": [
+         0.6,
+         6.6,
+         1.15,
+         6.6
+        ]
+       },
+       {
+        "label": "42",
+        "at": [
+         1.35,
+         6.48
+        ],
+        "anchor": "start"
+       },
+       {
+        "label": "°C",
+        "at": [
+         1.2,
+         7.4
+        ],
+        "anchor": "start"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4c",
+     "label": "4c",
+     "section": "Fluency",
+     "stem": "What temperature is shown on each scale?",
+     "type": "numeric",
+     "prompt": "Thermometer",
+     "answer": "21",
+     "units": "°C",
+     "figure": {
+      "kind": "diagram",
+      "unit": 34,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          -0.2
+         ],
+         [
+          0.6,
+          -0.2
+         ],
+         [
+          0.6,
+          7.2
+         ],
+         [
+          0,
+          7.2
+         ]
+        ],
+        "fill": false
+       },
+       {
+        "circle": [
+         0.3,
+         -0.55,
+         0.55
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0.12,
+          -0.2
+         ],
+         [
+          0.48,
+          -0.2
+         ],
+         [
+          0.48,
+          5
+         ],
+         [
+          0.12,
+          5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0.6,
+         0.6,
+         1.15,
+         0.6
+        ]
+       },
+       {
+        "label": "10",
+        "at": [
+         1.35,
+         0.48
+        ],
+        "anchor": "start"
+       },
+       {
+        "seg": [
+         0.6,
+         1,
+         0.9,
+         1
+        ]
+       },
+       {
+        "seg": [
+         0.6,
+         1.4,
+         0.9,
+         1.4
+        ]
+       },
+       {
+        "seg": [
+         0.6,
+         1.8,
+         0.9,
+         1.8
+        ]
+       },
+       {
+        "seg": [
+         0.6,
+         2.2,
+         0.9,
+         2.2
+        ]
+       },
+       {
+        "seg": [
+         0.6,
+         2.6,
+         1.15,
+         2.6
+        ]
+       },
+       {
+        "label": "15",
+        "at": [
+         1.35,
+         2.48
+        ],
+        "anchor": "start"
+       },
+       {
+        "seg": [
+         0.6,
+         3,
+         0.9,
+         3
+        ]
+       },
+       {
+        "seg": [
+         0.6,
+         3.4,
+         0.9,
+         3.4
+        ]
+       },
+       {
+        "seg": [
+         0.6,
+         3.8,
+         0.9,
+         3.8
+        ]
+       },
+       {
+        "seg": [
+         0.6,
+         4.2,
+         0.9,
+         4.2
+        ]
+       },
+       {
+        "seg": [
+         0.6,
+         4.6,
+         1.15,
+         4.6
+        ]
+       },
+       {
+        "label": "20",
+        "at": [
+         1.35,
+         4.48
+        ],
+        "anchor": "start"
+       },
+       {
+        "seg": [
+         0.6,
+         5,
+         0.9,
+         5
+        ]
+       },
+       {
+        "seg": [
+         0.6,
+         5.4,
+         0.9,
+         5.4
+        ]
+       },
+       {
+        "seg": [
+         0.6,
+         5.8,
+         0.9,
+         5.8
+        ]
+       },
+       {
+        "seg": [
+         0.6,
+         6.2,
+         0.9,
+         6.2
+        ]
+       },
+       {
+        "seg": [
+         0.6,
+         6.6,
+         1.15,
+         6.6
+        ]
+       },
+       {
+        "label": "25",
+        "at": [
+         1.35,
+         6.48
+        ],
+        "anchor": "start"
+       },
+       {
+        "label": "°C",
+        "at": [
+         1.2,
+         7.4
+        ],
+        "anchor": "start"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4d",
+     "label": "4d",
+     "section": "Fluency",
+     "stem": "What temperature is shown on each scale?",
+     "type": "numeric",
+     "prompt": "Oven dial",
+     "answer": "220",
+     "units": "°C",
+     "figure": {
+      "kind": "diagram",
+      "unit": 34,
+      "items": [
+       {
+        "circle": [
+         0,
+         0,
+         3
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         -2.121,
+         -2.121,
+         -1.803,
+         -1.803
+        ]
+       },
+       {
+        "label": "0",
+        "at": [
+         -1.45,
+         -1.55
+        ]
+       },
+       {
+        "seg": [
+         -2.427,
+         -1.763,
+         -2.225,
+         -1.616
+        ]
+       },
+       {
+        "seg": [
+         -2.673,
+         -1.362,
+         -2.45,
+         -1.248
+        ]
+       },
+       {
+        "seg": [
+         -2.853,
+         -0.927,
+         -2.615,
+         -0.85
+        ]
+       },
+       {
+        "seg": [
+         -2.963,
+         -0.469,
+         -2.716,
+         -0.43
+        ]
+       },
+       {
+        "seg": [
+         -3,
+         0,
+         -2.55,
+         0
+        ]
+       },
+       {
+        "label": "50",
+        "at": [
+         -2.05,
+         -0.1
+        ]
+       },
+       {
+        "seg": [
+         -2.963,
+         0.469,
+         -2.716,
+         0.43
+        ]
+       },
+       {
+        "seg": [
+         -2.853,
+         0.927,
+         -2.615,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         -2.673,
+         1.362,
+         -2.45,
+         1.248
+        ]
+       },
+       {
+        "seg": [
+         -2.427,
+         1.763,
+         -2.225,
+         1.616
+        ]
+       },
+       {
+        "seg": [
+         -2.121,
+         2.121,
+         -1.803,
+         1.803
+        ]
+       },
+       {
+        "label": "100",
+        "at": [
+         -1.45,
+         1.35
+        ]
+       },
+       {
+        "seg": [
+         -1.763,
+         2.427,
+         -1.616,
+         2.225
+        ]
+       },
+       {
+        "seg": [
+         -1.362,
+         2.673,
+         -1.248,
+         2.45
+        ]
+       },
+       {
+        "seg": [
+         -0.927,
+         2.853,
+         -0.85,
+         2.615
+        ]
+       },
+       {
+        "seg": [
+         -0.469,
+         2.963,
+         -0.43,
+         2.716
+        ]
+       },
+       {
+        "seg": [
+         0,
+         3,
+         0,
+         2.55
+        ]
+       },
+       {
+        "label": "150",
+        "at": [
+         0,
+         1.95
+        ]
+       },
+       {
+        "seg": [
+         0.469,
+         2.963,
+         0.43,
+         2.716
+        ]
+       },
+       {
+        "seg": [
+         0.927,
+         2.853,
+         0.85,
+         2.615
+        ]
+       },
+       {
+        "seg": [
+         1.362,
+         2.673,
+         1.248,
+         2.45
+        ]
+       },
+       {
+        "seg": [
+         1.763,
+         2.427,
+         1.616,
+         2.225
+        ]
+       },
+       {
+        "seg": [
+         2.121,
+         2.121,
+         1.803,
+         1.803
+        ]
+       },
+       {
+        "label": "200",
+        "at": [
+         1.45,
+         1.35
+        ]
+       },
+       {
+        "seg": [
+         2.427,
+         1.763,
+         2.225,
+         1.616
+        ]
+       },
+       {
+        "seg": [
+         2.673,
+         1.362,
+         2.45,
+         1.248
+        ]
+       },
+       {
+        "seg": [
+         2.853,
+         0.927,
+         2.615,
+         0.85
+        ]
+       },
+       {
+        "seg": [
+         2.963,
+         0.469,
+         2.716,
+         0.43
+        ]
+       },
+       {
+        "seg": [
+         3,
+         0,
+         2.55,
+         0
+        ]
+       },
+       {
+        "label": "250",
+        "at": [
+         2.05,
+         -0.1
+        ]
+       },
+       {
+        "seg": [
+         2.963,
+         -0.469,
+         2.716,
+         -0.43
+        ]
+       },
+       {
+        "seg": [
+         2.853,
+         -0.927,
+         2.615,
+         -0.85
+        ]
+       },
+       {
+        "seg": [
+         2.673,
+         -1.362,
+         2.45,
+         -1.248
+        ]
+       },
+       {
+        "seg": [
+         2.427,
+         -1.763,
+         2.225,
+         -1.616
+        ]
+       },
+       {
+        "seg": [
+         2.121,
+         -2.121,
+         1.803,
+         -1.803
+        ]
+       },
+       {
+        "label": "300",
+        "at": [
+         1.45,
+         -1.55
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         2.406,
+         1.226
+        ],
+        "arrow": "end"
+       },
+       {
+        "point": [
+         0,
+         0
+        ]
+       },
+       {
+        "label": "°C",
+        "at": [
+         0,
+         -0.9
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4e",
+     "label": "4e",
+     "section": "Fluency",
+     "stem": "What temperature is shown on each scale?",
+     "type": "numeric",
+     "prompt": "Dial",
+     "answer": "1.6",
+     "units": "°C",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          3.6,
+          0
+         ],
+         [
+          3.595,
+          0.188
+         ],
+         [
+          3.58,
+          0.376
+         ],
+         [
+          3.556,
+          0.563
+         ],
+         [
+          3.521,
+          0.748
+         ],
+         [
+          3.477,
+          0.932
+         ],
+         [
+          3.424,
+          1.112
+         ],
+         [
+          3.361,
+          1.29
+         ],
+         [
+          3.289,
+          1.464
+         ],
+         [
+          3.208,
+          1.634
+         ],
+         [
+          3.118,
+          1.8
+         ],
+         [
+          3.019,
+          1.961
+         ],
+         [
+          2.912,
+          2.116
+         ],
+         [
+          2.798,
+          2.266
+         ],
+         [
+          2.675,
+          2.409
+         ],
+         [
+          2.546,
+          2.546
+         ],
+         [
+          2.409,
+          2.675
+         ],
+         [
+          2.266,
+          2.798
+         ],
+         [
+          2.116,
+          2.912
+         ],
+         [
+          1.961,
+          3.019
+         ],
+         [
+          1.8,
+          3.118
+         ],
+         [
+          1.634,
+          3.208
+         ],
+         [
+          1.464,
+          3.289
+         ],
+         [
+          1.29,
+          3.361
+         ],
+         [
+          1.112,
+          3.424
+         ],
+         [
+          0.932,
+          3.477
+         ],
+         [
+          0.748,
+          3.521
+         ],
+         [
+          0.563,
+          3.556
+         ],
+         [
+          0.376,
+          3.58
+         ],
+         [
+          0.188,
+          3.595
+         ],
+         [
+          0,
+          3.6
+         ],
+         [
+          -0.188,
+          3.595
+         ],
+         [
+          -0.376,
+          3.58
+         ],
+         [
+          -0.563,
+          3.556
+         ],
+         [
+          -0.748,
+          3.521
+         ],
+         [
+          -0.932,
+          3.477
+         ],
+         [
+          -1.112,
+          3.424
+         ],
+         [
+          -1.29,
+          3.361
+         ],
+         [
+          -1.464,
+          3.289
+         ],
+         [
+          -1.634,
+          3.208
+         ],
+         [
+          -1.8,
+          3.118
+         ],
+         [
+          -1.961,
+          3.019
+         ],
+         [
+          -2.116,
+          2.912
+         ],
+         [
+          -2.266,
+          2.798
+         ],
+         [
+          -2.409,
+          2.675
+         ],
+         [
+          -2.546,
+          2.546
+         ],
+         [
+          -2.675,
+          2.409
+         ],
+         [
+          -2.798,
+          2.266
+         ],
+         [
+          -2.912,
+          2.116
+         ],
+         [
+          -3.019,
+          1.961
+         ],
+         [
+          -3.118,
+          1.8
+         ],
+         [
+          -3.208,
+          1.634
+         ],
+         [
+          -3.289,
+          1.464
+         ],
+         [
+          -3.361,
+          1.29
+         ],
+         [
+          -3.424,
+          1.112
+         ],
+         [
+          -3.477,
+          0.932
+         ],
+         [
+          -3.521,
+          0.748
+         ],
+         [
+          -3.556,
+          0.563
+         ],
+         [
+          -3.58,
+          0.376
+         ],
+         [
+          -3.595,
+          0.188
+         ],
+         [
+          -3.6,
+          0
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         -3.477,
+         0.932,
+         -3.043,
+         0.815
+        ]
+       },
+       {
+        "label": "0",
+        "at": [
+         -2.56,
+         0.586
+        ]
+       },
+       {
+        "seg": [
+         -3.263,
+         1.521,
+         -3.036,
+         1.416
+        ]
+       },
+       {
+        "seg": [
+         -2.949,
+         2.065,
+         -2.744,
+         1.921
+        ]
+       },
+       {
+        "seg": [
+         -2.546,
+         2.546,
+         -2.369,
+         2.369
+        ]
+       },
+       {
+        "seg": [
+         -2.065,
+         2.949,
+         -1.921,
+         2.744
+        ]
+       },
+       {
+        "seg": [
+         -1.521,
+         3.263,
+         -1.331,
+         2.855
+        ]
+       },
+       {
+        "label": "1",
+        "at": [
+         -1.12,
+         2.302
+        ]
+       },
+       {
+        "seg": [
+         -0.932,
+         3.477,
+         -0.867,
+         3.236
+        ]
+       },
+       {
+        "seg": [
+         -0.314,
+         3.586,
+         -0.292,
+         3.337
+        ]
+       },
+       {
+        "seg": [
+         0.314,
+         3.586,
+         0.292,
+         3.337
+        ]
+       },
+       {
+        "seg": [
+         0.932,
+         3.477,
+         0.867,
+         3.236
+        ]
+       },
+       {
+        "seg": [
+         1.521,
+         3.263,
+         1.331,
+         2.855
+        ]
+       },
+       {
+        "label": "2",
+        "at": [
+         1.12,
+         2.302
+        ]
+       },
+       {
+        "seg": [
+         2.065,
+         2.949,
+         1.921,
+         2.744
+        ]
+       },
+       {
+        "seg": [
+         2.546,
+         2.546,
+         2.369,
+         2.369
+        ]
+       },
+       {
+        "seg": [
+         2.949,
+         2.065,
+         2.744,
+         1.921
+        ]
+       },
+       {
+        "seg": [
+         3.263,
+         1.521,
+         3.036,
+         1.416
+        ]
+       },
+       {
+        "seg": [
+         3.477,
+         0.932,
+         3.043,
+         0.815
+        ]
+       },
+       {
+        "label": "3",
+        "at": [
+         2.56,
+         0.586
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         0.288,
+         3.287
+        ],
+        "arrow": "end"
+       },
+       {
+        "point": [
+         0,
+         0
+        ]
+       },
+       {
+        "label": "°C",
+        "at": [
+         0,
+         -0.45
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4f",
+     "label": "4f",
+     "section": "Fluency",
+     "stem": "What temperature is shown on each scale?",
+     "type": "numeric",
+     "prompt": "Dial",
+     "answer": "46",
+     "units": "°C",
+     "figure": {
+      "kind": "diagram",
+      "unit": 50,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          0,
+          5
+         ],
+         [
+          -0.131,
+          4.998
+         ],
+         [
+          -0.262,
+          4.993
+         ],
+         [
+          -0.392,
+          4.985
+         ],
+         [
+          -0.523,
+          4.973
+         ],
+         [
+          -0.653,
+          4.957
+         ],
+         [
+          -0.782,
+          4.938
+         ],
+         [
+          -0.911,
+          4.916
+         ],
+         [
+          -1.04,
+          4.891
+         ],
+         [
+          -1.167,
+          4.862
+         ],
+         [
+          -1.294,
+          4.83
+         ],
+         [
+          -1.42,
+          4.794
+         ],
+         [
+          -1.545,
+          4.755
+         ],
+         [
+          -1.669,
+          4.713
+         ],
+         [
+          -1.792,
+          4.668
+         ],
+         [
+          -1.913,
+          4.619
+         ],
+         [
+          -2.034,
+          4.568
+         ],
+         [
+          -2.153,
+          4.513
+         ],
+         [
+          -2.27,
+          4.455
+         ],
+         [
+          -2.386,
+          4.394
+         ],
+         [
+          -2.5,
+          4.33
+         ],
+         [
+          -2.612,
+          4.263
+         ],
+         [
+          -2.723,
+          4.193
+         ],
+         [
+          -2.832,
+          4.121
+         ],
+         [
+          -2.939,
+          4.045
+         ],
+         [
+          -3.044,
+          3.967
+         ],
+         [
+          -3.147,
+          3.886
+         ],
+         [
+          -3.247,
+          3.802
+         ],
+         [
+          -3.346,
+          3.716
+         ],
+         [
+          -3.442,
+          3.627
+         ],
+         [
+          -3.536,
+          3.536
+         ],
+         [
+          -3.627,
+          3.442
+         ],
+         [
+          -3.716,
+          3.346
+         ],
+         [
+          -3.802,
+          3.247
+         ],
+         [
+          -3.886,
+          3.147
+         ],
+         [
+          -3.967,
+          3.044
+         ],
+         [
+          -4.045,
+          2.939
+         ],
+         [
+          -4.121,
+          2.832
+         ],
+         [
+          -4.193,
+          2.723
+         ],
+         [
+          -4.263,
+          2.612
+         ],
+         [
+          -4.33,
+          2.5
+         ],
+         [
+          -4.394,
+          2.386
+         ],
+         [
+          -4.455,
+          2.27
+         ],
+         [
+          -4.513,
+          2.153
+         ],
+         [
+          -4.568,
+          2.034
+         ],
+         [
+          -4.619,
+          1.913
+         ],
+         [
+          -4.668,
+          1.792
+         ],
+         [
+          -4.713,
+          1.669
+         ],
+         [
+          -4.755,
+          1.545
+         ],
+         [
+          -4.794,
+          1.42
+         ],
+         [
+          -4.83,
+          1.294
+         ],
+         [
+          -4.862,
+          1.167
+         ],
+         [
+          -4.891,
+          1.04
+         ],
+         [
+          -4.916,
+          0.911
+         ],
+         [
+          -4.938,
+          0.782
+         ],
+         [
+          -4.957,
+          0.653
+         ],
+         [
+          -4.973,
+          0.523
+         ],
+         [
+          -4.985,
+          0.392
+         ],
+         [
+          -4.993,
+          0.262
+         ],
+         [
+          -4.998,
+          0.131
+         ],
+         [
+          -5,
+          0
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         -4.981,
+         0.436,
+         -4.533,
+         0.397
+        ]
+       },
+       {
+        "label": "0",
+        "at": [
+         -3.985,
+         0.249
+        ]
+       },
+       {
+        "seg": [
+         -4.955,
+         0.667,
+         -4.708,
+         0.634
+        ]
+       },
+       {
+        "seg": [
+         -4.919,
+         0.897,
+         -4.673,
+         0.852
+        ]
+       },
+       {
+        "seg": [
+         -4.872,
+         1.125,
+         -4.628,
+         1.069
+        ]
+       },
+       {
+        "seg": [
+         -4.814,
+         1.35,
+         -4.574,
+         1.283
+        ]
+       },
+       {
+        "seg": [
+         -4.746,
+         1.573,
+         -4.319,
+         1.431
+        ]
+       },
+       {
+        "label": "10",
+        "at": [
+         -3.797,
+         1.158
+        ]
+       },
+       {
+        "seg": [
+         -4.668,
+         1.792,
+         -4.435,
+         1.702
+        ]
+       },
+       {
+        "seg": [
+         -4.579,
+         2.007,
+         -4.351,
+         1.907
+        ]
+       },
+       {
+        "seg": [
+         -4.481,
+         2.218,
+         -4.257,
+         2.107
+        ]
+       },
+       {
+        "seg": [
+         -4.373,
+         2.424,
+         -4.154,
+         2.303
+        ]
+       },
+       {
+        "seg": [
+         -4.256,
+         2.625,
+         -3.873,
+         2.389
+        ]
+       },
+       {
+        "label": "20",
+        "at": [
+         -3.404,
+         2
+        ]
+       },
+       {
+        "seg": [
+         -4.129,
+         2.82,
+         -3.922,
+         2.679
+        ]
+       },
+       {
+        "seg": [
+         -3.993,
+         3.009,
+         -3.794,
+         2.859
+        ]
+       },
+       {
+        "seg": [
+         -3.849,
+         3.192,
+         -3.656,
+         3.032
+        ]
+       },
+       {
+        "seg": [
+         -3.696,
+         3.367,
+         -3.511,
+         3.199
+        ]
+       },
+       {
+        "seg": [
+         -3.536,
+         3.536,
+         -3.217,
+         3.217
+        ]
+       },
+       {
+        "label": "30",
+        "at": [
+         -2.828,
+         2.728
+        ]
+       },
+       {
+        "seg": [
+         -3.367,
+         3.696,
+         -3.199,
+         3.511
+        ]
+       },
+       {
+        "seg": [
+         -3.192,
+         3.849,
+         -3.032,
+         3.656
+        ]
+       },
+       {
+        "seg": [
+         -3.009,
+         3.993,
+         -2.859,
+         3.794
+        ]
+       },
+       {
+        "seg": [
+         -2.82,
+         4.129,
+         -2.679,
+         3.922
+        ]
+       },
+       {
+        "seg": [
+         -2.625,
+         4.256,
+         -2.389,
+         3.873
+        ]
+       },
+       {
+        "label": "40",
+        "at": [
+         -2.1,
+         3.304
+        ]
+       },
+       {
+        "seg": [
+         -2.424,
+         4.373,
+         -2.303,
+         4.154
+        ]
+       },
+       {
+        "seg": [
+         -2.218,
+         4.481,
+         -2.107,
+         4.257
+        ]
+       },
+       {
+        "seg": [
+         -2.007,
+         4.579,
+         -1.907,
+         4.351
+        ]
+       },
+       {
+        "seg": [
+         -1.792,
+         4.668,
+         -1.702,
+         4.435
+        ]
+       },
+       {
+        "seg": [
+         -1.573,
+         4.746,
+         -1.431,
+         4.319
+        ]
+       },
+       {
+        "label": "50",
+        "at": [
+         -1.258,
+         3.697
+        ]
+       },
+       {
+        "seg": [
+         -1.35,
+         4.814,
+         -1.283,
+         4.574
+        ]
+       },
+       {
+        "seg": [
+         -1.125,
+         4.872,
+         -1.069,
+         4.628
+        ]
+       },
+       {
+        "seg": [
+         -0.897,
+         4.919,
+         -0.852,
+         4.673
+        ]
+       },
+       {
+        "seg": [
+         -0.667,
+         4.955,
+         -0.634,
+         4.708
+        ]
+       },
+       {
+        "seg": [
+         -0.436,
+         4.981,
+         -0.397,
+         4.533
+        ]
+       },
+       {
+        "label": "60",
+        "at": [
+         -0.349,
+         3.885
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         -1.887,
+         4.305
+        ],
+        "arrow": "end"
+       },
+       {
+        "point": [
+         0,
+         0
+        ]
+       },
+       {
+        "label": "°C",
+        "at": [
+         -0.9,
+         0.35
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q5a",
+     "label": "5a",
+     "section": "Fluency",
+     "stem": "A delivery van drops off $0.08$ t of sand for a sandpit. Write the mass of sand in:",
+     "type": "numeric",
+     "prompt": "kg",
+     "answer": "80",
+     "units": "kg"
+    },
+    {
+     "id": "q5b",
+     "label": "5b",
+     "section": "Fluency",
+     "stem": "A delivery van drops off $0.08$ t of sand for a sandpit. Write the mass of sand in:",
+     "type": "numeric",
+     "prompt": "g",
+     "answer": "80000",
+     "units": "g"
+    },
+    {
+     "id": "q5c",
+     "label": "5c",
+     "section": "Fluency",
+     "stem": "A delivery van drops off $0.08$ t of sand for a sandpit. Write the mass of sand in:",
+     "type": "numeric",
+     "prompt": "mg",
+     "answer": "80000000",
+     "units": "mg"
+    },
+    {
+     "id": "q6a",
+     "label": "6a",
+     "section": "Fluency",
+     "stem": "A crate holds $24$ bags of rice, each with a mass of $250$ g. What is the approximate mass of the rice in the crate in:",
+     "type": "numeric",
+     "prompt": "grams",
+     "answer": "6000",
+     "units": "g"
+    },
+    {
+     "id": "q6b",
+     "label": "6b",
+     "section": "Fluency",
+     "stem": "A crate holds $24$ bags of rice, each with a mass of $250$ g. What is the approximate mass of the rice in the crate in:",
+     "type": "numeric",
+     "prompt": "kilograms",
+     "answer": "6",
+     "units": "kg"
+    },
+    {
+     "id": "q7",
+     "label": "7",
+     "section": "Fluency",
+     "type": "numeric",
+     "prompt": "A bowl of soup is $88$°C when it is served. Twenty minutes later it is $57$°C. What is the drop in temperature?",
+     "answer": "31",
+     "units": "°C"
+    },
+    {
+     "id": "q8",
+     "label": "8",
+     "section": "Fluency",
+     "type": "numeric",
+     "prompt": "A pizza oven starts at room temperature, $22$°C. It is heated to $245$°C. What is the increase in temperature?",
+     "answer": "223",
+     "units": "°C"
+    },
+    {
+     "id": "q9a",
+     "label": "9a",
+     "section": "Fluency",
+     "stem": "Add these masses and give the total in kg.",
+     "type": "numeric",
+     "prompt": "$5$ kg, $2000$ g, $0.003$ t",
+     "answer": "10",
+     "units": "kg"
+    },
+    {
+     "id": "q9b",
+     "label": "9b",
+     "section": "Fluency",
+     "stem": "Add these masses and give the total in kg.",
+     "type": "numeric",
+     "prompt": "$1.8$ kg, $650$ g, $720\\,000$ mg, $0.0052$ t",
+     "answer": "8.37",
+     "units": "kg"
+    },
+    {
+     "id": "q10a",
+     "label": "10a",
+     "section": "Problem-solving",
+     "stem": "Write these masses in order from smallest to largest.",
+     "type": "ordered",
+     "prompt": "$3.2$ kg, $450$ g, $0.2$ t, $600$ mg",
+     "answer": [
+      "600",
+      "450",
+      "3.2",
+      "0.2"
+     ],
+     "hint": "Type them as they are written, with commas between, for example 5 g, 2 kg, 1 t."
+    },
+    {
+     "id": "q10b",
+     "label": "10b",
+     "section": "Problem-solving",
+     "stem": "Write these masses in order from smallest to largest.",
+     "type": "ordered",
+     "prompt": "$0.00045$ t, $0.38$ kg, $820$ g, $510\\,000$ mg",
+     "answer": [
+      "0.38",
+      "0.00045",
+      "510000",
+      "820"
+     ]
+    },
+    {
+     "id": "q11a",
+     "label": "11a",
+     "section": "Problem-solving",
+     "stem": "The lowest and highest temperatures each day for a week are shown in the table.",
+     "type": "numeric",
+     "prompt": "Which day had the largest temperature range? Type the day number.",
+     "answer": "4",
+     "stemFigure": {
+      "kind": "table",
+      "rows": [
+       [
+        "Day",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+       ],
+       [
+        "Lowest temperature (°C)",
+        "9",
+        "7",
+        "11",
+        "8",
+        "6",
+        "9",
+        "12"
+       ],
+       [
+        "Highest temperature (°C)",
+        "23",
+        "28",
+        "30",
+        "33",
+        "20",
+        "18",
+        "27"
+       ]
+      ]
+     }
+    },
+    {
+     "id": "q11b",
+     "label": "11b",
+     "section": "Problem-solving",
+     "stem": "The lowest and highest temperatures each day for a week are shown in the table.",
+     "type": "numeric",
+     "prompt": "What is the largest drop from the highest temperature on one day to the lowest temperature on the next day?",
+     "answer": "27",
+     "units": "°C"
+    },
+    {
+     "id": "q11c",
+     "label": "11c",
+     "section": "Problem-solving",
+     "stem": "The lowest and highest temperatures each day for a week are shown in the table.",
+     "type": "numeric",
+     "prompt": "On Day $7$ the temperature rose by $14$°C from the lowest temperature. What temperature did it reach?",
+     "answer": "26",
+     "units": "°C"
+    },
+    {
+     "id": "q12",
+     "label": "12",
+     "section": "Problem-solving",
+     "type": "numeric",
+     "prompt": "A $5$ kg bag of rice is used at a rate of $125$ g per day. How many days will the bag last?",
+     "answer": "40",
+     "units": "days"
+    },
+    {
+     "id": "q13a",
+     "label": "13a",
+     "section": "Problem-solving",
+     "stem": "A boat can safely carry up to $4$ t. It is loaded with $1200$ tins of tomatoes at $400$ g each, $40$ bags of flour at $25$ kg each, $160$ boxes of pineapples at $6.5$ kg each, and $12$ people with an average mass of $75$ kg.",
+     "type": "numeric",
+     "prompt": "What is the total mass of the load, in tonnes?",
+     "answer": "3.42",
+     "units": "t"
+    },
+    {
+     "id": "q13b",
+     "label": "13b",
+     "section": "Problem-solving",
+     "stem": "A boat can safely carry up to $4$ t. It is loaded with $1200$ tins of tomatoes at $400$ g each, $40$ bags of flour at $25$ kg each, $160$ boxes of pineapples at $6.5$ kg each, and $12$ people with an average mass of $75$ kg.",
+     "type": "choice",
+     "prompt": "Is the load too much for the boat?",
+     "answer": 1,
+     "options": [
+      "Yes",
+      "No"
+     ]
+    },
+    {
+     "id": "q14a",
+     "label": "14a",
+     "section": "Problem-solving",
+     "stem": "A truck has a tare mass (its mass with no load) of $12.6$ t. Its gross mass limit (the most it may weigh, including the load) is $52.8$ t.",
+     "type": "numeric",
+     "prompt": "What is the largest load the truck can carry?",
+     "answer": "40.2",
+     "units": "t"
+    },
+    {
+     "id": "q14b",
+     "label": "14b",
+     "section": "Problem-solving",
+     "stem": "A truck has a tare mass (its mass with no load) of $12.6$ t. Its gross mass limit (the most it may weigh, including the load) is $52.8$ t.",
+     "type": "choice",
+     "prompt": "The truck is loaded with $95$ steel beams, each $450$ kg. Will it go over its gross mass limit?",
+     "answer": 0,
+     "options": [
+      "Yes",
+      "No"
+     ]
+    },
+    {
+     "id": "q15a",
+     "label": "15a",
+     "section": "Reasoning",
+     "stem": "Water has a mass of $1$ kg per litre. Find the mass of these amounts of water.",
+     "type": "numeric",
+     "prompt": "$5$ mL, in grams",
+     "answer": "5",
+     "units": "g"
+    },
+    {
+     "id": "q15b",
+     "label": "15b",
+     "section": "Reasoning",
+     "stem": "Water has a mass of $1$ kg per litre. Find the mass of these amounts of water.",
+     "type": "numeric",
+     "prompt": "$3$ kL, in kilograms",
+     "answer": "3000",
+     "units": "kg"
+    },
+    {
+     "id": "q15c",
+     "label": "15c",
+     "section": "Reasoning",
+     "stem": "Water has a mass of $1$ kg per litre. Find the mass of these amounts of water.",
+     "type": "numeric",
+     "prompt": "$2$ ML, in tonnes",
+     "answer": "2000",
+     "units": "t"
+    },
+    {
+     "id": "q16a",
+     "label": "16a",
+     "section": "Reasoning",
+     "stem": "Each container is a rectangular prism filled with water. Find the mass of the water, in kg.",
+     "type": "numeric",
+     "prompt": "$30$ cm by $20$ cm by $10$ cm",
+     "answer": "6",
+     "units": "kg",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          5,
+          0
+         ],
+         [
+          5,
+          1.667
+         ],
+         [
+          6.229,
+          2.527
+         ],
+         [
+          6.229,
+          0.86
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          5,
+          1.667
+         ],
+         [
+          0,
+          1.667
+         ],
+         [
+          1.229,
+          2.527
+         ],
+         [
+          6.229,
+          2.527
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          5,
+          0
+         ],
+         [
+          5,
+          1.667
+         ],
+         [
+          0,
+          1.667
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "dim": [
+         0,
+         0,
+         5,
+         0
+        ],
+        "label": "30 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         5,
+         0,
+         6.229,
+         0.86
+        ],
+        "label": "20 cm",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         6.229,
+         0.86,
+         6.229,
+         2.527
+        ],
+        "label": "10 cm",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q16b",
+     "label": "16b",
+     "section": "Reasoning",
+     "stem": "Each container is a rectangular prism filled with water. Find the mass of the water, in kg.",
+     "type": "numeric",
+     "prompt": "A cube",
+     "answer": "8000",
+     "units": "kg",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          5,
+          0
+         ],
+         [
+          5,
+          5
+         ],
+         [
+          6.843,
+          6.291
+         ],
+         [
+          6.843,
+          1.291
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          5,
+          5
+         ],
+         [
+          0,
+          5
+         ],
+         [
+          1.843,
+          6.291
+         ],
+         [
+          6.843,
+          6.291
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          5,
+          0
+         ],
+         [
+          5,
+          5
+         ],
+         [
+          0,
+          5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "dim": [
+         0,
+         0,
+         5,
+         0
+        ],
+        "label": "2 m",
+        "off": -0.5
+       },
+       {
+        "tick": [
+         0,
+         0,
+         5,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         5,
+         0,
+         6.843,
+         1.291
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         5,
+         0,
+         5,
+         5
+        ],
+        "n": 1
+       }
+      ]
+     }
+    },
+    {
+     "id": "q16c",
+     "label": "16c",
+     "section": "Reasoning",
+     "stem": "Each container is a rectangular prism filled with water. Find the mass of the water, in kg.",
+     "type": "numeric",
+     "prompt": "$10$ m by $4$ m by $3$ m",
+     "answer": "120000",
+     "units": "kg",
+     "figure": {
+      "kind": "diagram",
+      "items": [
+       {
+        "poly": [
+         [
+          5,
+          0
+         ],
+         [
+          5,
+          1.5
+         ],
+         [
+          5.737,
+          2.016
+         ],
+         [
+          5.737,
+          0.516
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          5,
+          1.5
+         ],
+         [
+          0,
+          1.5
+         ],
+         [
+          0.737,
+          2.016
+         ],
+         [
+          5.737,
+          2.016
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          5,
+          0
+         ],
+         [
+          5,
+          1.5
+         ],
+         [
+          0,
+          1.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "dim": [
+         0,
+         0,
+         5,
+         0
+        ],
+        "label": "10 m",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         5,
+         0,
+         5.737,
+         0.516
+        ],
+        "label": "4 m",
+        "off": -0.5
+       },
+       {
+        "dim": [
+         5.737,
+         0.516,
+         5.737,
+         2.016
+        ],
+        "label": "3 m",
+        "off": -0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q17a",
+     "label": "17a",
+     "section": "Reasoning",
+     "stem": "The kelvin (K) is a temperature unit used by scientists. $273$ K is about $0$°C, and a rise of $1$ K is the same as a rise of $1$°C.",
+     "type": "numeric",
+     "prompt": "Write $290$ K in °C.",
+     "answer": "17",
+     "units": "°C"
+    },
+    {
+     "id": "q17b",
+     "label": "17b",
+     "section": "Reasoning",
+     "stem": "The kelvin (K) is a temperature unit used by scientists. $273$ K is about $0$°C, and a rise of $1$ K is the same as a rise of $1$°C.",
+     "type": "numeric",
+     "prompt": "Write $350$ K in °C.",
+     "answer": "77",
+     "units": "°C"
+    },
+    {
+     "id": "q17c",
+     "label": "17c",
+     "section": "Reasoning",
+     "stem": "The kelvin (K) is a temperature unit used by scientists. $273$ K is about $0$°C, and a rise of $1$ K is the same as a rise of $1$°C.",
+     "type": "numeric",
+     "prompt": "Write $800$ K in °C.",
+     "answer": "527",
+     "units": "°C"
+    },
+    {
+     "id": "q17d",
+     "label": "17d",
+     "section": "Reasoning",
+     "stem": "The kelvin (K) is a temperature unit used by scientists. $273$ K is about $0$°C, and a rise of $1$ K is the same as a rise of $1$°C.",
+     "type": "numeric",
+     "prompt": "Write $15$°C in kelvins.",
+     "answer": "288",
+     "units": "K"
+    },
+    {
+     "id": "q17e",
+     "label": "17e",
+     "section": "Reasoning",
+     "stem": "The kelvin (K) is a temperature unit used by scientists. $273$ K is about $0$°C, and a rise of $1$ K is the same as a rise of $1$°C.",
+     "type": "numeric",
+     "prompt": "Write $60$°C in kelvins.",
+     "answer": "333",
+     "units": "K"
+    },
+    {
+     "id": "q17f",
+     "label": "17f",
+     "section": "Reasoning",
+     "stem": "The kelvin (K) is a temperature unit used by scientists. $273$ K is about $0$°C, and a rise of $1$ K is the same as a rise of $1$°C.",
+     "type": "numeric",
+     "prompt": "Write $-100$°C in kelvins.",
+     "answer": "173",
+     "units": "K"
+    },
+    {
+     "id": "q18a",
+     "label": "18a",
+     "section": "Enrichment",
+     "stem": "On the Fahrenheit scale, water freezes at $32$°F and boils at $212$°F.",
+     "type": "numeric",
+     "prompt": "What is the difference between the boiling point and the freezing point of water, in °F?",
+     "answer": "180",
+     "units": "°F"
+    },
+    {
+     "id": "q18b",
+     "label": "18b",
+     "section": "Enrichment",
+     "stem": "On the Fahrenheit scale, water freezes at $32$°F and boils at $212$°F.",
+     "type": "numeric",
+     "prompt": "A rise of $1$°F is the same as a rise of how many °C?",
+     "answer": "5/9",
+     "units": "°C",
+     "hint": "Give your answer as a fraction, for example 2/3."
+    },
+    {
+     "id": "q18c",
+     "label": "18c",
+     "section": "Enrichment",
+     "stem": "On the Fahrenheit scale, water freezes at $32$°F and boils at $212$°F.",
+     "type": "numeric",
+     "prompt": "A rise of $1$°C is the same as a rise of how many °F?",
+     "answer": "1.8",
+     "units": "°F"
+    },
+    {
+     "id": "q18d",
+     "label": "18d",
+     "section": "Enrichment",
+     "stem": "To convert from °F to °C we use the rule $C = (F - 32) \\times \\frac{5}{9}$. Convert these temperatures to °C.",
+     "type": "numeric",
+     "prompt": "$50$°F",
+     "answer": "10",
+     "units": "°C"
+    },
+    {
+     "id": "q18e",
+     "label": "18e",
+     "section": "Enrichment",
+     "stem": "To convert from °F to °C we use the rule $C = (F - 32) \\times \\frac{5}{9}$. Convert these temperatures to °C.",
+     "type": "numeric",
+     "prompt": "$86$°F",
+     "answer": "30",
+     "units": "°C"
+    },
+    {
+     "id": "q18f",
+     "label": "18f",
+     "section": "Enrichment",
+     "stem": "To convert from °F to °C we use the rule $C = (F - 32) \\times \\frac{5}{9}$. Convert these temperatures to °C.",
+     "type": "numeric",
+     "prompt": "$176$°F",
+     "answer": "80",
+     "units": "°C"
+    },
+    {
+     "id": "q18g",
+     "label": "18g",
+     "section": "Enrichment",
+     "stem": "To convert from °F to °C we use the rule $C = (F - 32) \\times \\frac{5}{9}$. Convert these temperatures to °C.",
+     "type": "numeric",
+     "prompt": "$23$°F",
+     "answer": "-5",
+     "units": "°C"
+    },
+    {
+     "id": "q18h",
+     "label": "18h",
+     "section": "Enrichment",
+     "type": "expression",
+     "prompt": "Write a rule to convert from °C to °F. Complete: $F =$",
+     "answer": "9C/5+32",
+     "accept": [
+      "F=9C/5+32"
+     ],
+     "hint": "Use C for the temperature in °C, and / for divide."
     }
    ]
   }
