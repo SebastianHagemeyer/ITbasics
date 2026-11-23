@@ -133,8 +133,11 @@ begin
   if not exists (select 1 from h3_roster r where r.code = v_code) then
     raise exception 'That code is not on the H3 list.';
   end if;
+  -- Size cap: about 60 characters per answered question. With all ten Year 7
+  -- chapters (5649 questions) a whole year of work is roughly 350 000, so the
+  -- cap leaves room to spare.
   if p_sets is null or jsonb_typeof(p_sets) <> 'object'
-     or length(p_sets::text) > 400000 then
+     or length(p_sets::text) > 1500000 then
     raise exception 'That work could not be saved.';
   end if;
 
