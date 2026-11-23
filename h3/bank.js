@@ -40146,6 +40146,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1",
+     "help": "6a-list",
      "label": "1",
      "section": "Fluency",
      "prompt": "A number line is drawn showing all the integers from $-3$ to $2$. Write these integers in order, from smallest to largest.",
@@ -40162,6 +40163,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "6a-list",
      "label": "2a",
      "section": "Fluency",
      "stem": "A number line is drawn for each description. Write all the integers it shows, in order from smallest to largest.",
@@ -40179,6 +40181,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "6a-list",
      "label": "2b",
      "section": "Fluency",
      "stem": "A number line is drawn for each description. Write all the integers it shows, in order from smallest to largest.",
@@ -40194,6 +40197,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "6a-list",
      "label": "3a",
      "section": "Fluency",
      "stem": "List all the integers that fit the description.",
@@ -40211,6 +40215,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "6a-list",
      "label": "3b",
      "section": "Fluency",
      "stem": "List all the integers that fit the description.",
@@ -40225,6 +40230,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "6a-list",
      "label": "3c",
      "section": "Fluency",
      "stem": "List all the integers that fit the description.",
@@ -40242,6 +40248,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3d",
+     "help": "6a-list",
      "label": "3d",
      "section": "Fluency",
      "stem": "List all the integers that fit the description.",
@@ -40258,6 +40265,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "6a-compare",
      "label": "4a",
      "section": "Fluency",
      "stem": "Which symbol, $<$ (less than) or $>$ (greater than), goes in the box to make each statement true?",
@@ -40271,6 +40279,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "6a-compare",
      "label": "4b",
      "section": "Fluency",
      "stem": "Which symbol, $<$ (less than) or $>$ (greater than), goes in the box to make each statement true?",
@@ -40284,6 +40293,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "6a-compare",
      "label": "4c",
      "section": "Fluency",
      "stem": "Which symbol, $<$ (less than) or $>$ (greater than), goes in the box to make each statement true?",
@@ -40297,6 +40307,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "6a-compare",
      "label": "4d",
      "section": "Fluency",
      "stem": "Which symbol, $<$ (less than) or $>$ (greater than), goes in the box to make each statement true?",
@@ -40310,6 +40321,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4e",
+     "help": "6a-compare",
      "label": "4e",
      "section": "Fluency",
      "stem": "Which symbol, $<$ (less than) or $>$ (greater than), goes in the box to make each statement true?",
@@ -40323,6 +40335,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4f",
+     "help": "6a-compare",
      "label": "4f",
      "section": "Fluency",
      "stem": "Which symbol, $<$ (less than) or $>$ (greater than), goes in the box to make each statement true?",
@@ -40336,6 +40349,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4g",
+     "help": "6a-compare",
      "label": "4g",
      "section": "Fluency",
      "stem": "Which symbol, $<$ (less than) or $>$ (greater than), goes in the box to make each statement true?",
@@ -40349,6 +40363,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4h",
+     "help": "6a-compare",
      "label": "4h",
      "section": "Fluency",
      "stem": "Which symbol, $<$ (less than) or $>$ (greater than), goes in the box to make each statement true?",
@@ -40362,6 +40377,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4i",
+     "help": "6a-compare",
      "label": "4i",
      "section": "Fluency",
      "stem": "Which symbol, $<$ (less than) or $>$ (greater than), goes in the box to make each statement true?",
@@ -40375,6 +40391,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4j",
+     "help": "6a-compare",
      "label": "4j",
      "section": "Fluency",
      "stem": "Which symbol, $<$ (less than) or $>$ (greater than), goes in the box to make each statement true?",
@@ -40388,6 +40405,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4k",
+     "help": "6a-compare",
      "label": "4k",
      "section": "Fluency",
      "stem": "Which symbol, $<$ (less than) or $>$ (greater than), goes in the box to make each statement true?",
@@ -40401,6 +40419,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4l",
+     "help": "6a-compare",
      "label": "4l",
      "section": "Fluency",
      "stem": "Which symbol, $<$ (less than) or $>$ (greater than), goes in the box to make each statement true?",
@@ -40414,6 +40433,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "6a-scale",
      "label": "5a",
      "section": "Fluency",
      "stem": "Each number line shows part of a thermometer scale in °C. State the temperature shown by the red dot.",
@@ -40435,6 +40455,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "6a-scale",
      "label": "5b",
      "section": "Fluency",
      "stem": "Each number line shows part of a thermometer scale in °C. State the temperature shown by the red dot.",
@@ -40456,6 +40477,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "6a-scale",
      "label": "5c",
      "section": "Fluency",
      "stem": "Each number line shows part of a thermometer scale in °C. State the temperature shown by the red dot.",
@@ -40477,6 +40499,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5d",
+     "help": "6a-scale",
      "label": "5d",
      "section": "Fluency",
      "stem": "Each number line shows part of a thermometer scale in °C. State the temperature shown by the red dot.",
@@ -40498,6 +40521,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6a",
+     "help": "6a-fraction",
      "label": "6a",
      "section": "Fluency",
      "stem": "Write down the negative fraction or negative mixed numeral shown by the dot on each number line.",
@@ -40517,6 +40541,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6b",
+     "help": "6a-fraction",
      "label": "6b",
      "section": "Fluency",
      "stem": "Write down the negative fraction or negative mixed numeral shown by the dot on each number line.",
@@ -40535,6 +40560,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6c",
+     "help": "6a-fraction",
      "label": "6c",
      "section": "Fluency",
      "stem": "Write down the negative fraction or negative mixed numeral shown by the dot on each number line.",
@@ -40553,6 +40579,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6d",
+     "help": "6a-fraction",
      "label": "6d",
      "section": "Fluency",
      "stem": "Write down the negative fraction or negative mixed numeral shown by the dot on each number line.",
@@ -40571,6 +40598,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6e",
+     "help": "6a-fraction",
      "label": "6e",
      "section": "Fluency",
      "stem": "Write down the negative fraction or negative mixed numeral shown by the dot on each number line.",
@@ -40589,6 +40617,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6f",
+     "help": "6a-fraction",
      "label": "6f",
      "section": "Fluency",
      "stem": "Write down the negative fraction or negative mixed numeral shown by the dot on each number line.",
@@ -40607,6 +40636,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7a",
+     "help": "6a-order",
      "label": "7a",
      "section": "Problem-solving",
      "stem": "Arrange these numbers in ascending order (smallest first). Each number should be less than the next number in the list.",
@@ -40625,6 +40655,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7b",
+     "help": "6a-order",
      "label": "7b",
      "section": "Problem-solving",
      "stem": "Arrange these numbers in ascending order (smallest first). Each number should be less than the next number in the list.",
@@ -40642,6 +40673,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8a",
+     "help": "6a-pattern",
      "label": "8a",
      "section": "Problem-solving",
      "stem": "Write the next three numbers in these patterns.",
@@ -40656,6 +40688,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8b",
+     "help": "6a-pattern",
      "label": "8b",
      "section": "Problem-solving",
      "stem": "Write the next three numbers in these patterns.",
@@ -40669,6 +40702,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8c",
+     "help": "6a-pattern",
      "label": "8c",
      "section": "Problem-solving",
      "stem": "Write the next three numbers in these patterns.",
@@ -40682,6 +40716,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8d",
+     "help": "6a-pattern",
      "label": "8d",
      "section": "Problem-solving",
      "stem": "Write the next three numbers in these patterns.",
@@ -40695,6 +40730,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8e",
+     "help": "6a-pattern",
      "label": "8e",
      "section": "Problem-solving",
      "stem": "Write the next three numbers in these patterns.",
@@ -40708,6 +40744,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8f",
+     "help": "6a-pattern",
      "label": "8f",
      "section": "Problem-solving",
      "stem": "Write the next three numbers in these patterns.",
@@ -40721,6 +40758,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9a",
+     "help": "6a-balance",
      "label": "9a",
      "section": "Problem-solving",
      "stem": "These lists show deposits (positive numbers) and withdrawals (negative numbers) in a bank account over one month. Find the balance at the end of the month.",
@@ -40765,6 +40803,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9b",
+     "help": "6a-balance",
      "label": "9b",
      "section": "Problem-solving",
      "stem": "These lists show deposits (positive numbers) and withdrawals (negative numbers) in a bank account over one month. Find the balance at the end of the month.",
@@ -40808,6 +40847,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10a",
+     "help": "6a-sealevel",
      "label": "10a",
      "section": "Reasoning",
      "stem": "The height of a plane above sea level is a positive number, so the height of a submarine below sea level can be written as a negative number. Write the height relative to sea level for a submarine at each of these depths.",
@@ -40818,6 +40858,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10b",
+     "help": "6a-sealevel",
      "label": "10b",
      "section": "Reasoning",
      "stem": "The height of a plane above sea level is a positive number, so the height of a submarine below sea level can be written as a negative number. Write the height relative to sea level for a submarine at each of these depths.",
@@ -40828,6 +40869,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10c",
+     "help": "6a-sealevel",
      "label": "10c",
      "section": "Reasoning",
      "stem": "The height of a plane above sea level is a positive number, so the height of a submarine below sea level can be written as a negative number. Write the height relative to sea level for a submarine at each of these depths.",
@@ -40838,6 +40880,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11a",
+     "help": "6a-difference",
      "label": "11a",
      "section": "Reasoning",
      "stem": "The difference between two numbers can be thought of as the distance between them on a number line. For example, the difference between $-1$ and $4$ is $5$. Find the difference between each pair of numbers.",
@@ -40847,6 +40890,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11b",
+     "help": "6a-difference",
      "label": "11b",
      "section": "Reasoning",
      "stem": "The difference between two numbers can be thought of as the distance between them on a number line. For example, the difference between $-1$ and $4$ is $5$. Find the difference between each pair of numbers.",
@@ -40856,6 +40900,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11c",
+     "help": "6a-difference",
      "label": "11c",
      "section": "Reasoning",
      "stem": "The difference between two numbers can be thought of as the distance between them on a number line. For example, the difference between $-1$ and $4$ is $5$. Find the difference between each pair of numbers.",
@@ -40865,6 +40910,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11d",
+     "help": "6a-difference",
      "label": "11d",
      "section": "Reasoning",
      "stem": "The difference between two numbers can be thought of as the distance between them on a number line. For example, the difference between $-1$ and $4$ is $5$. Find the difference between each pair of numbers.",
@@ -40874,6 +40920,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11e",
+     "help": "6a-difference",
      "label": "11e",
      "section": "Reasoning",
      "stem": "The difference between two numbers can be thought of as the distance between them on a number line. For example, the difference between $-1$ and $4$ is $5$. Find the difference between each pair of numbers.",
@@ -40883,6 +40930,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11f",
+     "help": "6a-difference",
      "label": "11f",
      "section": "Reasoning",
      "stem": "The difference between two numbers can be thought of as the distance between them on a number line. For example, the difference between $-1$ and $4$ is $5$. Find the difference between each pair of numbers.",
@@ -40892,6 +40940,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11g",
+     "help": "6a-difference",
      "label": "11g",
      "section": "Reasoning",
      "stem": "The difference between two numbers can be thought of as the distance between them on a number line. For example, the difference between $-1$ and $4$ is $5$. Find the difference between each pair of numbers.",
@@ -40901,6 +40950,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11h",
+     "help": "6a-difference",
      "label": "11h",
      "section": "Reasoning",
      "stem": "The difference between two numbers can be thought of as the distance between them on a number line. For example, the difference between $-1$ and $4$ is $5$. Find the difference between each pair of numbers.",
@@ -40910,6 +40960,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12a",
+     "help": "6a-difference",
      "label": "12a",
      "section": "Reasoning",
      "stem": "The opposite of a number (other than $0$) has the same size but the other sign. For example, $7$ and $-7$ are opposites.",
@@ -40919,6 +40970,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12b",
+     "help": "6a-difference",
      "label": "12b",
      "section": "Reasoning",
      "stem": "The opposite of a number (other than $0$) has the same size but the other sign. For example, $7$ and $-7$ are opposites.",
@@ -40931,6 +40983,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13a",
+     "help": "6a-moves",
      "label": "13a",
      "section": "Enrichment",
      "stem": "Start at zero on a number line. A positive number means move that many places to the right, and a negative number means move left. Find the final position after each set of moves.",
@@ -40940,6 +40993,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13b",
+     "help": "6a-moves",
      "label": "13b",
      "section": "Enrichment",
      "stem": "Start at zero on a number line. A positive number means move that many places to the right, and a negative number means move left. Find the final position after each set of moves.",
@@ -40949,6 +41003,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13c",
+     "help": "6a-moves",
      "label": "13c",
      "section": "Enrichment",
      "stem": "Start at zero on a number line. A positive number means move that many places to the right, and a negative number means move left. Find the final position after each set of moves.",
@@ -40958,6 +41013,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13d",
+     "help": "6a-moves",
      "label": "13d",
      "section": "Enrichment",
      "stem": "Start at zero on a number line. A positive number means move that many places to the right, and a negative number means move left. Find the final position after each set of moves.",
@@ -40967,6 +41023,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13e",
+     "help": "6a-moves",
      "label": "13e",
      "section": "Enrichment",
      "stem": "Start at zero on a number line. A positive number means move that many places to the right, and a negative number means move left. Find the final position after each set of moves.",
@@ -40976,6 +41033,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13f",
+     "help": "6a-moves",
      "label": "13f",
      "section": "Enrichment",
      "stem": "Start at zero on a number line. A positive number means move that many places to the right, and a negative number means move left. Find the final position after each set of moves.",
@@ -40993,6 +41051,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "6b-add",
      "label": "1a",
      "section": "Fluency",
      "stem": "Calculate the answers to these additions.",
@@ -41002,6 +41061,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "6b-add",
      "label": "1b",
      "section": "Fluency",
      "stem": "Calculate the answers to these additions.",
@@ -41011,6 +41071,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1c",
+     "help": "6b-add",
      "label": "1c",
      "section": "Fluency",
      "stem": "Calculate the answers to these additions.",
@@ -41020,6 +41081,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1d",
+     "help": "6b-add",
      "label": "1d",
      "section": "Fluency",
      "stem": "Calculate the answers to these additions.",
@@ -41029,6 +41091,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "6b-add",
      "label": "2a",
      "section": "Fluency",
      "stem": "Calculate the answers to these additions.",
@@ -41038,6 +41101,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "6b-add",
      "label": "2b",
      "section": "Fluency",
      "stem": "Calculate the answers to these additions.",
@@ -41047,6 +41111,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "6b-add",
      "label": "2c",
      "section": "Fluency",
      "stem": "Calculate the answers to these additions.",
@@ -41056,6 +41121,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "6b-add",
      "label": "2d",
      "section": "Fluency",
      "stem": "Calculate the answers to these additions.",
@@ -41065,6 +41131,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2e",
+     "help": "6b-add",
      "label": "2e",
      "section": "Fluency",
      "stem": "Calculate the answers to these additions.",
@@ -41074,6 +41141,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2f",
+     "help": "6b-add",
      "label": "2f",
      "section": "Fluency",
      "stem": "Calculate the answers to these additions.",
@@ -41083,6 +41151,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2g",
+     "help": "6b-add",
      "label": "2g",
      "section": "Fluency",
      "stem": "Calculate the answers to these additions.",
@@ -41092,6 +41161,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2h",
+     "help": "6b-add",
      "label": "2h",
      "section": "Fluency",
      "stem": "Calculate the answers to these additions.",
@@ -41101,6 +41171,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2i",
+     "help": "6b-add",
      "label": "2i",
      "section": "Fluency",
      "stem": "Calculate the answers to these additions.",
@@ -41110,6 +41181,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2j",
+     "help": "6b-add",
      "label": "2j",
      "section": "Fluency",
      "stem": "Calculate the answers to these additions.",
@@ -41119,6 +41191,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2k",
+     "help": "6b-add",
      "label": "2k",
      "section": "Fluency",
      "stem": "Calculate the answers to these additions.",
@@ -41128,6 +41201,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2l",
+     "help": "6b-add",
      "label": "2l",
      "section": "Fluency",
      "stem": "Calculate the answers to these additions.",
@@ -41137,6 +41211,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2m",
+     "help": "6b-add",
      "label": "2m",
      "section": "Fluency",
      "stem": "Calculate the answers to these additions.",
@@ -41146,6 +41221,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2n",
+     "help": "6b-add",
      "label": "2n",
      "section": "Fluency",
      "stem": "Calculate the answers to these additions.",
@@ -41155,6 +41231,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2o",
+     "help": "6b-add",
      "label": "2o",
      "section": "Fluency",
      "stem": "Calculate the answers to these additions.",
@@ -41164,6 +41241,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2p",
+     "help": "6b-add",
      "label": "2p",
      "section": "Fluency",
      "stem": "Calculate the answers to these additions.",
@@ -41173,6 +41251,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "6b-subtract",
      "label": "3a",
      "section": "Fluency",
      "stem": "Calculate the answers to these subtractions.",
@@ -41182,6 +41261,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "6b-subtract",
      "label": "3b",
      "section": "Fluency",
      "stem": "Calculate the answers to these subtractions.",
@@ -41191,6 +41271,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "6b-subtract",
      "label": "3c",
      "section": "Fluency",
      "stem": "Calculate the answers to these subtractions.",
@@ -41200,6 +41281,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3d",
+     "help": "6b-subtract",
      "label": "3d",
      "section": "Fluency",
      "stem": "Calculate the answers to these subtractions.",
@@ -41209,6 +41291,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3e",
+     "help": "6b-subtract",
      "label": "3e",
      "section": "Fluency",
      "stem": "Calculate the answers to these subtractions.",
@@ -41218,6 +41301,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3f",
+     "help": "6b-subtract",
      "label": "3f",
      "section": "Fluency",
      "stem": "Calculate the answers to these subtractions.",
@@ -41227,6 +41311,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3g",
+     "help": "6b-subtract",
      "label": "3g",
      "section": "Fluency",
      "stem": "Calculate the answers to these subtractions.",
@@ -41236,6 +41321,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3h",
+     "help": "6b-subtract",
      "label": "3h",
      "section": "Fluency",
      "stem": "Calculate the answers to these subtractions.",
@@ -41245,6 +41331,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3i",
+     "help": "6b-subtract",
      "label": "3i",
      "section": "Fluency",
      "stem": "Calculate the answers to these subtractions.",
@@ -41254,6 +41341,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3j",
+     "help": "6b-subtract",
      "label": "3j",
      "section": "Fluency",
      "stem": "Calculate the answers to these subtractions.",
@@ -41263,6 +41351,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3k",
+     "help": "6b-subtract",
      "label": "3k",
      "section": "Fluency",
      "stem": "Calculate the answers to these subtractions.",
@@ -41272,6 +41361,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3l",
+     "help": "6b-subtract",
      "label": "3l",
      "section": "Fluency",
      "stem": "Calculate the answers to these subtractions.",
@@ -41281,6 +41371,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3m",
+     "help": "6b-subtract",
      "label": "3m",
      "section": "Fluency",
      "stem": "Calculate the answers to these subtractions.",
@@ -41290,6 +41381,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3n",
+     "help": "6b-subtract",
      "label": "3n",
      "section": "Fluency",
      "stem": "Calculate the answers to these subtractions.",
@@ -41299,6 +41391,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3o",
+     "help": "6b-subtract",
      "label": "3o",
      "section": "Fluency",
      "stem": "Calculate the answers to these subtractions.",
@@ -41308,6 +41401,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3p",
+     "help": "6b-subtract",
      "label": "3p",
      "section": "Fluency",
      "stem": "Calculate the answers to these subtractions.",
@@ -41317,6 +41411,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "6b-missing",
      "label": "4a",
      "section": "Fluency",
      "stem": "Find the missing number in the box.",
@@ -41326,6 +41421,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "6b-missing",
      "label": "4b",
      "section": "Fluency",
      "stem": "Find the missing number in the box.",
@@ -41335,6 +41431,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "6b-missing",
      "label": "4c",
      "section": "Fluency",
      "stem": "Find the missing number in the box.",
@@ -41344,6 +41441,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "6b-missing",
      "label": "4d",
      "section": "Fluency",
      "stem": "Find the missing number in the box.",
@@ -41353,6 +41451,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4e",
+     "help": "6b-missing",
      "label": "4e",
      "section": "Fluency",
      "stem": "Find the missing number in the box.",
@@ -41362,6 +41461,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4f",
+     "help": "6b-missing",
      "label": "4f",
      "section": "Fluency",
      "stem": "Find the missing number in the box.",
@@ -41371,6 +41471,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4g",
+     "help": "6b-missing",
      "label": "4g",
      "section": "Fluency",
      "stem": "Find the missing number in the box.",
@@ -41380,6 +41481,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4h",
+     "help": "6b-missing",
      "label": "4h",
      "section": "Fluency",
      "stem": "Find the missing number in the box.",
@@ -41389,6 +41491,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4i",
+     "help": "6b-missing",
      "label": "4i",
      "section": "Fluency",
      "stem": "Find the missing number in the box.",
@@ -41398,6 +41501,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4j",
+     "help": "6b-missing",
      "label": "4j",
      "section": "Fluency",
      "stem": "Find the missing number in the box.",
@@ -41407,6 +41511,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4k",
+     "help": "6b-missing",
      "label": "4k",
      "section": "Fluency",
      "stem": "Find the missing number in the box.",
@@ -41416,6 +41521,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4l",
+     "help": "6b-missing",
      "label": "4l",
      "section": "Fluency",
      "stem": "Find the missing number in the box.",
@@ -41425,6 +41531,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4m",
+     "help": "6b-missing",
      "label": "4m",
      "section": "Fluency",
      "stem": "Find the missing number in the box.",
@@ -41434,6 +41541,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4n",
+     "help": "6b-missing",
      "label": "4n",
      "section": "Fluency",
      "stem": "Find the missing number in the box.",
@@ -41443,6 +41551,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4o",
+     "help": "6b-missing",
      "label": "4o",
      "section": "Fluency",
      "stem": "Find the missing number in the box.",
@@ -41452,6 +41561,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4p",
+     "help": "6b-missing",
      "label": "4p",
      "section": "Fluency",
      "stem": "Find the missing number in the box.",
@@ -41461,6 +41571,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "6b-left-right",
      "label": "5a",
      "section": "Fluency",
      "stem": "Evaluate the following. Remember to work from left to right.",
@@ -41470,6 +41581,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "6b-left-right",
      "label": "5b",
      "section": "Fluency",
      "stem": "Evaluate the following. Remember to work from left to right.",
@@ -41479,6 +41591,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "6b-left-right",
      "label": "5c",
      "section": "Fluency",
      "stem": "Evaluate the following. Remember to work from left to right.",
@@ -41488,6 +41601,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5d",
+     "help": "6b-left-right",
      "label": "5d",
      "section": "Fluency",
      "stem": "Evaluate the following. Remember to work from left to right.",
@@ -41497,6 +41611,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5e",
+     "help": "6b-left-right",
      "label": "5e",
      "section": "Fluency",
      "stem": "Evaluate the following. Remember to work from left to right.",
@@ -41506,6 +41621,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5f",
+     "help": "6b-left-right",
      "label": "5f",
      "section": "Fluency",
      "stem": "Evaluate the following. Remember to work from left to right.",
@@ -41515,6 +41631,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5g",
+     "help": "6b-left-right",
      "label": "5g",
      "section": "Fluency",
      "stem": "Evaluate the following. Remember to work from left to right.",
@@ -41524,6 +41641,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5h",
+     "help": "6b-left-right",
      "label": "5h",
      "section": "Fluency",
      "stem": "Evaluate the following. Remember to work from left to right.",
@@ -41533,6 +41651,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6a",
+     "help": "6b-word",
      "label": "6a",
      "section": "Problem-solving",
      "stem": "Work out how much money is still owed in each situation.",
@@ -41543,6 +41662,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6b",
+     "help": "6b-word",
      "label": "6b",
      "section": "Problem-solving",
      "stem": "Work out how much money is still owed in each situation.",
@@ -41553,6 +41673,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6c",
+     "help": "6b-word",
      "label": "6c",
      "section": "Problem-solving",
      "stem": "Work out how much money is still owed in each situation.",
@@ -41563,6 +41684,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7a",
+     "help": "6b-word",
      "label": "7a",
      "section": "Problem-solving",
      "prompt": "The temperature reading on a thermometer rises $21$°C from $-16$°C. What is the final temperature?",
@@ -41572,6 +41694,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7b",
+     "help": "6b-word",
      "label": "7b",
      "section": "Problem-solving",
      "prompt": "The temperature reading on a thermometer falls $9$°C from $5$°C. What is the final temperature?",
@@ -41581,6 +41704,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7c",
+     "help": "6b-word",
      "label": "7c",
      "section": "Problem-solving",
      "prompt": "The temperature reading on a thermometer falls $27$°C from $-11$°C. What is the final temperature?",
@@ -41590,6 +41714,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8",
+     "help": "6b-change",
      "label": "8",
      "section": "Problem-solving",
      "prompt": "For a science experiment, a liquid starts at $30$°C, falls to $-6$°C, rises to $12$°C and then falls again to $-9$°C. Add up every rise and fall to find the total change in temperature. (A fall counts as a negative change.)",
@@ -41599,6 +41724,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9a",
+     "help": "6b-change",
      "label": "9a",
      "section": "Problem-solving",
      "prompt": "An underwater camera starts at $-120$ m (that is, $120$ m below sea level) and is raised to $-47$ m. How far does the camera rise?",
@@ -41608,6 +41734,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9b",
+     "help": "6b-change",
      "label": "9b",
      "section": "Problem-solving",
      "prompt": "The camera starts at $-42$ m and is lowered to $-105$ m. How far is the camera lowered?",
@@ -41617,6 +41744,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10a",
+     "help": "6b-which",
      "label": "10a",
      "section": "Reasoning",
      "stem": "Which calculation is an example of the description?",
@@ -41632,6 +41760,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10b",
+     "help": "6b-which",
      "label": "10b",
      "section": "Reasoning",
      "stem": "Which calculation is an example of the description?",
@@ -41647,6 +41776,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10c",
+     "help": "6b-which",
      "label": "10c",
      "section": "Reasoning",
      "stem": "Which calculation is an example of the description?",
@@ -41662,6 +41792,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10d",
+     "help": "6b-which",
      "label": "10d",
      "section": "Reasoning",
      "stem": "Which calculation is an example of the description?",
@@ -41677,6 +41808,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11a",
+     "help": "6b-signs",
      "label": "11a",
      "section": "Reasoning",
      "stem": "$p$ and $q$ are both positive integers and $p > q$. Decide whether each result will be positive, negative or zero.",
@@ -41691,6 +41823,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11b",
+     "help": "6b-signs",
      "label": "11b",
      "section": "Reasoning",
      "stem": "$p$ and $q$ are both positive integers and $p > q$. Decide whether each result will be positive, negative or zero.",
@@ -41705,6 +41838,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11c",
+     "help": "6b-signs",
      "label": "11c",
      "section": "Reasoning",
      "stem": "$p$ and $q$ are both positive integers and $p > q$. Decide whether each result will be positive, negative or zero.",
@@ -41719,6 +41853,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11d",
+     "help": "6b-signs",
      "label": "11d",
      "section": "Reasoning",
      "stem": "$p$ and $q$ are both positive integers and $p > q$. Decide whether each result will be positive, negative or zero.",
@@ -41733,6 +41868,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11e",
+     "help": "6b-signs",
      "label": "11e",
      "section": "Reasoning",
      "stem": "Now $p$ is a negative integer and $q$ is a positive integer. Decide if each statement is always true.",
@@ -41746,6 +41882,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11f",
+     "help": "6b-signs",
      "label": "11f",
      "section": "Reasoning",
      "stem": "Now $p$ is a negative integer and $q$ is a positive integer. Decide if each statement is always true.",
@@ -41759,6 +41896,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12a",
+     "help": "6b-boxes",
      "label": "12a",
      "section": "Enrichment",
      "stem": "Put a $+$ or $-$ sign in each box to make the statement true.",
@@ -41774,6 +41912,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12b",
+     "help": "6b-boxes",
      "label": "12b",
      "section": "Enrichment",
      "stem": "Put a $+$ or $-$ sign in each box to make the statement true.",
@@ -41788,6 +41927,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12c",
+     "help": "6b-boxes",
      "label": "12c",
      "section": "Enrichment",
      "stem": "Put a $+$ or $-$ sign in each box to make the statement true.",
@@ -41802,6 +41942,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12d",
+     "help": "6b-boxes",
      "label": "12d",
      "section": "Enrichment",
      "stem": "Put a $+$ or $-$ sign in each box to make the statement true.",
@@ -41816,6 +41957,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12e",
+     "help": "6b-boxes",
      "label": "12e",
      "section": "Enrichment",
      "stem": "Put a $+$ or $-$ sign in each box to make the statement true.",
@@ -41834,6 +41976,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12f",
+     "help": "6b-boxes",
      "label": "12f",
      "section": "Enrichment",
      "stem": "Put a $+$ or $-$ sign in each box to make the statement true.",
@@ -41856,6 +41999,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "6c-add-neg",
      "label": "1a",
      "section": "Fluency",
      "stem": "Calculate the answer to these additions.",
@@ -41865,6 +42009,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "6c-add-neg",
      "label": "1b",
      "section": "Fluency",
      "stem": "Calculate the answer to these additions.",
@@ -41874,6 +42019,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1c",
+     "help": "6c-add-neg",
      "label": "1c",
      "section": "Fluency",
      "stem": "Calculate the answer to these additions.",
@@ -41883,6 +42029,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1d",
+     "help": "6c-add-neg",
      "label": "1d",
      "section": "Fluency",
      "stem": "Calculate the answer to these additions.",
@@ -41892,6 +42039,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "6c-add-neg",
      "label": "2a",
      "section": "Fluency",
      "stem": "Calculate the answer to these additions.",
@@ -41901,6 +42049,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "6c-add-neg",
      "label": "2b",
      "section": "Fluency",
      "stem": "Calculate the answer to these additions.",
@@ -41910,6 +42059,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "6c-add-neg",
      "label": "2c",
      "section": "Fluency",
      "stem": "Calculate the answer to these additions.",
@@ -41919,6 +42069,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "6c-add-neg",
      "label": "2d",
      "section": "Fluency",
      "stem": "Calculate the answer to these additions.",
@@ -41928,6 +42079,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2e",
+     "help": "6c-add-neg",
      "label": "2e",
      "section": "Fluency",
      "stem": "Calculate the answer to these additions.",
@@ -41937,6 +42089,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2f",
+     "help": "6c-add-neg",
      "label": "2f",
      "section": "Fluency",
      "stem": "Calculate the answer to these additions.",
@@ -41946,6 +42099,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2g",
+     "help": "6c-add-neg",
      "label": "2g",
      "section": "Fluency",
      "stem": "Calculate the answer to these additions.",
@@ -41955,6 +42109,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2h",
+     "help": "6c-add-neg",
      "label": "2h",
      "section": "Fluency",
      "stem": "Calculate the answer to these additions.",
@@ -41964,6 +42119,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2i",
+     "help": "6c-add-neg",
      "label": "2i",
      "section": "Fluency",
      "stem": "Calculate the answer to these additions.",
@@ -41973,6 +42129,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2j",
+     "help": "6c-add-neg",
      "label": "2j",
      "section": "Fluency",
      "stem": "Calculate the answer to these additions.",
@@ -41982,6 +42139,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2k",
+     "help": "6c-add-neg",
      "label": "2k",
      "section": "Fluency",
      "stem": "Calculate the answer to these additions.",
@@ -41991,6 +42149,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2l",
+     "help": "6c-add-neg",
      "label": "2l",
      "section": "Fluency",
      "stem": "Calculate the answer to these additions.",
@@ -42000,6 +42159,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2m",
+     "help": "6c-add-neg",
      "label": "2m",
      "section": "Fluency",
      "stem": "Calculate the answer to these additions.",
@@ -42009,6 +42169,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2n",
+     "help": "6c-add-neg",
      "label": "2n",
      "section": "Fluency",
      "stem": "Calculate the answer to these additions.",
@@ -42018,6 +42179,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2o",
+     "help": "6c-add-neg",
      "label": "2o",
      "section": "Fluency",
      "stem": "Calculate the answer to these additions.",
@@ -42027,6 +42189,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2p",
+     "help": "6c-add-neg",
      "label": "2p",
      "section": "Fluency",
      "stem": "Calculate the answer to these additions.",
@@ -42036,6 +42199,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "6c-sub-neg",
      "label": "3a",
      "section": "Fluency",
      "stem": "Calculate the answer to these subtractions.",
@@ -42045,6 +42209,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "6c-sub-neg",
      "label": "3b",
      "section": "Fluency",
      "stem": "Calculate the answer to these subtractions.",
@@ -42054,6 +42219,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "6c-sub-neg",
      "label": "3c",
      "section": "Fluency",
      "stem": "Calculate the answer to these subtractions.",
@@ -42063,6 +42229,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3d",
+     "help": "6c-sub-neg",
      "label": "3d",
      "section": "Fluency",
      "stem": "Calculate the answer to these subtractions.",
@@ -42072,6 +42239,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3e",
+     "help": "6c-sub-neg",
      "label": "3e",
      "section": "Fluency",
      "stem": "Calculate the answer to these subtractions.",
@@ -42081,6 +42249,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3f",
+     "help": "6c-sub-neg",
      "label": "3f",
      "section": "Fluency",
      "stem": "Calculate the answer to these subtractions.",
@@ -42090,6 +42259,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3g",
+     "help": "6c-sub-neg",
      "label": "3g",
      "section": "Fluency",
      "stem": "Calculate the answer to these subtractions.",
@@ -42099,6 +42269,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3h",
+     "help": "6c-sub-neg",
      "label": "3h",
      "section": "Fluency",
      "stem": "Calculate the answer to these subtractions.",
@@ -42108,6 +42279,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3i",
+     "help": "6c-sub-neg",
      "label": "3i",
      "section": "Fluency",
      "stem": "Calculate the answer to these subtractions.",
@@ -42117,6 +42289,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3j",
+     "help": "6c-sub-neg",
      "label": "3j",
      "section": "Fluency",
      "stem": "Calculate the answer to these subtractions.",
@@ -42126,6 +42299,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3k",
+     "help": "6c-sub-neg",
      "label": "3k",
      "section": "Fluency",
      "stem": "Calculate the answer to these subtractions.",
@@ -42135,6 +42309,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3l",
+     "help": "6c-sub-neg",
      "label": "3l",
      "section": "Fluency",
      "stem": "Calculate the answer to these subtractions.",
@@ -42144,6 +42319,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3m",
+     "help": "6c-sub-neg",
      "label": "3m",
      "section": "Fluency",
      "stem": "Calculate the answer to these subtractions.",
@@ -42153,6 +42329,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3n",
+     "help": "6c-sub-neg",
      "label": "3n",
      "section": "Fluency",
      "stem": "Calculate the answer to these subtractions.",
@@ -42162,6 +42339,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3o",
+     "help": "6c-sub-neg",
      "label": "3o",
      "section": "Fluency",
      "stem": "Calculate the answer to these subtractions.",
@@ -42171,6 +42349,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3p",
+     "help": "6c-sub-neg",
      "label": "3p",
      "section": "Fluency",
      "stem": "Calculate the answer to these subtractions.",
@@ -42180,6 +42359,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "6c-missing",
      "label": "4a",
      "section": "Fluency",
      "stem": "Find the missing number in the box.",
@@ -42189,6 +42369,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "6c-missing",
      "label": "4b",
      "section": "Fluency",
      "stem": "Find the missing number in the box.",
@@ -42198,6 +42379,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "6c-missing",
      "label": "4c",
      "section": "Fluency",
      "stem": "Find the missing number in the box.",
@@ -42207,6 +42389,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "6c-missing",
      "label": "4d",
      "section": "Fluency",
      "stem": "Find the missing number in the box.",
@@ -42216,6 +42399,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4e",
+     "help": "6c-missing",
      "label": "4e",
      "section": "Fluency",
      "stem": "Find the missing number in the box.",
@@ -42225,6 +42409,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4f",
+     "help": "6c-missing",
      "label": "4f",
      "section": "Fluency",
      "stem": "Find the missing number in the box.",
@@ -42234,6 +42419,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4g",
+     "help": "6c-missing",
      "label": "4g",
      "section": "Fluency",
      "stem": "Find the missing number in the box.",
@@ -42243,6 +42429,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4h",
+     "help": "6c-missing",
      "label": "4h",
      "section": "Fluency",
      "stem": "Find the missing number in the box.",
@@ -42252,6 +42439,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4i",
+     "help": "6c-missing",
      "label": "4i",
      "section": "Fluency",
      "stem": "Find the missing number in the box.",
@@ -42261,6 +42449,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4j",
+     "help": "6c-missing",
      "label": "4j",
      "section": "Fluency",
      "stem": "Find the missing number in the box.",
@@ -42270,6 +42459,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4k",
+     "help": "6c-missing",
      "label": "4k",
      "section": "Fluency",
      "stem": "Find the missing number in the box.",
@@ -42279,6 +42469,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4l",
+     "help": "6c-missing",
      "label": "4l",
      "section": "Fluency",
      "stem": "Find the missing number in the box.",
@@ -42288,6 +42479,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4m",
+     "help": "6c-missing",
      "label": "4m",
      "section": "Fluency",
      "stem": "Find the missing number in the box.",
@@ -42297,6 +42489,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4n",
+     "help": "6c-missing",
      "label": "4n",
      "section": "Fluency",
      "stem": "Find the missing number in the box.",
@@ -42306,6 +42499,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4o",
+     "help": "6c-missing",
      "label": "4o",
      "section": "Fluency",
      "stem": "Find the missing number in the box.",
@@ -42315,6 +42509,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4p",
+     "help": "6c-missing",
      "label": "4p",
      "section": "Fluency",
      "stem": "Find the missing number in the box.",
@@ -42324,6 +42519,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "6c-left-right",
      "label": "5a",
      "section": "Fluency",
      "stem": "Calculate the answer, working from left to right.",
@@ -42333,6 +42529,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "6c-left-right",
      "label": "5b",
      "section": "Fluency",
      "stem": "Calculate the answer, working from left to right.",
@@ -42342,6 +42539,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "6c-left-right",
      "label": "5c",
      "section": "Fluency",
      "stem": "Calculate the answer, working from left to right.",
@@ -42351,6 +42549,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5d",
+     "help": "6c-left-right",
      "label": "5d",
      "section": "Fluency",
      "stem": "Calculate the answer, working from left to right.",
@@ -42360,6 +42559,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5e",
+     "help": "6c-left-right",
      "label": "5e",
      "section": "Fluency",
      "stem": "Calculate the answer, working from left to right.",
@@ -42369,6 +42569,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5f",
+     "help": "6c-left-right",
      "label": "5f",
      "section": "Fluency",
      "stem": "Calculate the answer, working from left to right.",
@@ -42378,6 +42579,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5g",
+     "help": "6c-left-right",
      "label": "5g",
      "section": "Fluency",
      "stem": "Calculate the answer, working from left to right.",
@@ -42387,6 +42589,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5h",
+     "help": "6c-left-right",
      "label": "5h",
      "section": "Fluency",
      "stem": "Calculate the answer, working from left to right.",
@@ -42396,6 +42599,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5i",
+     "help": "6c-left-right",
      "label": "5i",
      "section": "Fluency",
      "stem": "Calculate the answer, working from left to right.",
@@ -42405,6 +42609,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5j",
+     "help": "6c-left-right",
      "label": "5j",
      "section": "Fluency",
      "stem": "Calculate the answer, working from left to right.",
@@ -42414,6 +42619,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5k",
+     "help": "6c-left-right",
      "label": "5k",
      "section": "Fluency",
      "stem": "Calculate the answer, working from left to right.",
@@ -42423,6 +42629,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5l",
+     "help": "6c-left-right",
      "label": "5l",
      "section": "Fluency",
      "stem": "Calculate the answer, working from left to right.",
@@ -42432,6 +42639,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6",
+     "help": "6c-word",
      "label": "6",
      "section": "Problem-solving",
      "prompt": "A diving robot starts at $-80$ m, which is $80$ m below sea level. It is raised $45$ m, then lowered $126$ m, and then raised again by $28$ m. What is the robot's final position?",
@@ -42441,6 +42649,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7",
+     "help": "6c-word",
      "label": "7",
      "section": "Problem-solving",
      "prompt": "A small bike shop has a bank balance of $-\\$40\\,000$. Another $\\$25\\,000$ of debt is added to the balance and, later, $\\$30\\,000$ is paid back. What is the final balance?",
@@ -42450,6 +42659,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8",
+     "help": "6c-word",
      "label": "8",
      "section": "Problem-solving",
      "prompt": "$\\$80$ of debt is added to an existing balance of $\\$60$ of debt. Later, $\\$110$ of debt is removed from the balance. What is the final balance?",
@@ -42459,6 +42669,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9a",
+     "help": "6c-table",
      "label": "9a",
      "section": "Problem-solving",
      "stem": "This table shows the profit each month, in thousands of dollars, for a sandwich shop over the first half of the year. A negative profit is a loss.",
@@ -42491,6 +42702,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9b",
+     "help": "6c-table",
      "label": "9b",
      "section": "Problem-solving",
      "stem": "This table shows the profit each month, in thousands of dollars, for a sandwich shop over the first half of the year. A negative profit is a loss.",
@@ -42500,6 +42712,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9c",
+     "help": "6c-table",
      "label": "9c",
      "section": "Problem-solving",
      "stem": "This table shows the profit each month, in thousands of dollars, for a sandwich shop over the first half of the year. A negative profit is a loss.",
@@ -42509,6 +42722,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10a",
+     "help": "6c-magic",
      "label": "10a",
      "section": "Problem-solving",
      "stem": "Complete these magic squares. The sum of each row, column and diagonal must be the same.",
@@ -42548,6 +42762,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10b",
+     "help": "6c-magic",
      "label": "10b",
      "section": "Problem-solving",
      "stem": "Complete these magic squares. The sum of each row, column and diagonal must be the same.",
@@ -42586,6 +42801,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11a",
+     "help": "6c-words",
      "label": "11a",
      "section": "Reasoning",
      "stem": "Write each of these as a calculation, then work out its value.",
@@ -42595,6 +42811,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11b",
+     "help": "6c-words",
      "label": "11b",
      "section": "Reasoning",
      "stem": "Write each of these as a calculation, then work out its value.",
@@ -42604,6 +42821,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11c",
+     "help": "6c-words",
      "label": "11c",
      "section": "Reasoning",
      "stem": "Write each of these as a calculation, then work out its value.",
@@ -42613,6 +42831,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11d",
+     "help": "6c-words",
      "label": "11d",
      "section": "Reasoning",
      "stem": "Write each of these as a calculation, then work out its value.",
@@ -42622,6 +42841,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11e",
+     "help": "6c-words",
      "label": "11e",
      "section": "Reasoning",
      "stem": "Write each of these as an expression.",
@@ -42632,6 +42852,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11f",
+     "help": "6c-words",
      "label": "11f",
      "section": "Reasoning",
      "stem": "Write each of these as an expression.",
@@ -42641,6 +42862,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12a",
+     "help": "6c-facts",
      "label": "12a",
      "section": "Reasoning",
      "stem": "An addition fact like $4 + 5 = 9$ can be turned into two subtraction facts: $9 - 4 = 5$ and $9 - 5 = 4$. Use this idea to complete each subtraction fact.",
@@ -42650,6 +42872,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12b",
+     "help": "6c-facts",
      "label": "12b",
      "section": "Reasoning",
      "stem": "An addition fact like $4 + 5 = 9$ can be turned into two subtraction facts: $9 - 4 = 5$ and $9 - 5 = 4$. Use this idea to complete each subtraction fact.",
@@ -42659,6 +42882,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12c",
+     "help": "6c-facts",
      "label": "12c",
      "section": "Reasoning",
      "stem": "An addition fact like $4 + 5 = 9$ can be turned into two subtraction facts: $9 - 4 = 5$ and $9 - 5 = 4$. Use this idea to complete each subtraction fact.",
@@ -42668,6 +42892,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12d",
+     "help": "6c-facts",
      "label": "12d",
      "section": "Reasoning",
      "stem": "An addition fact like $4 + 5 = 9$ can be turned into two subtraction facts: $9 - 4 = 5$ and $9 - 5 = 4$. Use this idea to complete each subtraction fact.",
@@ -42677,6 +42902,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12e",
+     "help": "6c-facts",
      "label": "12e",
      "section": "Reasoning",
      "stem": "An addition fact like $4 + 5 = 9$ can be turned into two subtraction facts: $9 - 4 = 5$ and $9 - 5 = 4$. Use this idea to complete each subtraction fact.",
@@ -42686,6 +42912,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12f",
+     "help": "6c-facts",
      "label": "12f",
      "section": "Reasoning",
      "stem": "An addition fact like $4 + 5 = 9$ can be turned into two subtraction facts: $9 - 4 = 5$ and $9 - 5 = 4$. Use this idea to complete each subtraction fact.",
@@ -42695,6 +42922,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13a",
+     "help": "6c-opposite",
      "label": "13a",
      "section": "Reasoning",
      "stem": "Simplify these numbers. (Hint: $-(-5)$ is the same as $0 - (-5)$.)",
@@ -42704,6 +42932,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13b",
+     "help": "6c-opposite",
      "label": "13b",
      "section": "Reasoning",
      "stem": "Simplify these numbers. (Hint: $-(-5)$ is the same as $0 - (-5)$.)",
@@ -42713,6 +42942,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13c",
+     "help": "6c-opposite",
      "label": "13c",
      "section": "Reasoning",
      "stem": "Simplify these numbers. (Hint: $-(-5)$ is the same as $0 - (-5)$.)",
@@ -42722,6 +42952,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14a",
+     "help": "6c-always",
      "label": "14a",
      "section": "Reasoning",
      "stem": "$m$ is a positive number and $n$ is a negative number. Is each statement always true?",
@@ -42735,6 +42966,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14b",
+     "help": "6c-always",
      "label": "14b",
      "section": "Reasoning",
      "stem": "$m$ is a positive number and $n$ is a negative number. Is each statement always true?",
@@ -42748,6 +42980,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14c",
+     "help": "6c-always",
      "label": "14c",
      "section": "Reasoning",
      "stem": "$m$ and $n$ are both negative numbers. Is each statement always true?",
@@ -42761,6 +42994,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14d",
+     "help": "6c-always",
      "label": "14d",
      "section": "Reasoning",
      "stem": "$m$ and $n$ are both negative numbers. Is each statement always true?",
@@ -42774,6 +43008,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14e",
+     "help": "6c-always",
      "label": "14e",
      "section": "Reasoning",
      "prompt": "$m$ and $n$ are both negative numbers and $n < m$. Is $m - n$ always positive?",
@@ -42786,6 +43021,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15a",
+     "help": "6c-fractions",
      "label": "15a",
      "section": "Enrichment",
      "stem": "Negative fractions are added and subtracted using the same rules as integers. Calculate the answer to each of these.",
@@ -42796,6 +43032,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15b",
+     "help": "6c-fractions",
      "label": "15b",
      "section": "Enrichment",
      "stem": "Negative fractions are added and subtracted using the same rules as integers. Calculate the answer to each of these.",
@@ -42805,6 +43042,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15c",
+     "help": "6c-fractions",
      "label": "15c",
      "section": "Enrichment",
      "stem": "Negative fractions are added and subtracted using the same rules as integers. Calculate the answer to each of these.",
@@ -42814,6 +43052,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15d",
+     "help": "6c-fractions",
      "label": "15d",
      "section": "Enrichment",
      "stem": "Negative fractions are added and subtracted using the same rules as integers. Calculate the answer to each of these.",
@@ -42823,6 +43062,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15e",
+     "help": "6c-fractions",
      "label": "15e",
      "section": "Enrichment",
      "stem": "Negative fractions are added and subtracted using the same rules as integers. Calculate the answer to each of these.",
@@ -42832,6 +43072,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15f",
+     "help": "6c-fractions",
      "label": "15f",
      "section": "Enrichment",
      "stem": "Negative fractions are added and subtracted using the same rules as integers. Calculate the answer to each of these.",
@@ -42841,6 +43082,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15g",
+     "help": "6c-fractions",
      "label": "15g",
      "section": "Enrichment",
      "stem": "Negative fractions are added and subtracted using the same rules as integers. Calculate the answer to each of these.",
@@ -42850,6 +43092,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15h",
+     "help": "6c-fractions",
      "label": "15h",
      "section": "Enrichment",
      "stem": "Negative fractions are added and subtracted using the same rules as integers. Calculate the answer to each of these.",
@@ -42859,6 +43102,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15i",
+     "help": "6c-fractions",
      "label": "15i",
      "section": "Enrichment",
      "stem": "Negative fractions are added and subtracted using the same rules as integers. Calculate the answer to each of these.",
@@ -42868,6 +43112,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15j",
+     "help": "6c-fractions",
      "label": "15j",
      "section": "Enrichment",
      "stem": "Negative fractions are added and subtracted using the same rules as integers. Calculate the answer to each of these.",
@@ -42877,6 +43122,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15k",
+     "help": "6c-fractions",
      "label": "15k",
      "section": "Enrichment",
      "stem": "Negative fractions are added and subtracted using the same rules as integers. Calculate the answer to each of these.",
@@ -42886,6 +43132,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15l",
+     "help": "6c-fractions",
      "label": "15l",
      "section": "Enrichment",
      "stem": "Negative fractions are added and subtracted using the same rules as integers. Calculate the answer to each of these.",
@@ -42895,6 +43142,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15m",
+     "help": "6c-fractions",
      "label": "15m",
      "section": "Enrichment",
      "stem": "Negative fractions are added and subtracted using the same rules as integers. Calculate the answer to each of these.",
@@ -42904,6 +43152,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15n",
+     "help": "6c-fractions",
      "label": "15n",
      "section": "Enrichment",
      "stem": "Negative fractions are added and subtracted using the same rules as integers. Calculate the answer to each of these.",
@@ -42913,6 +43162,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15o",
+     "help": "6c-fractions",
      "label": "15o",
      "section": "Enrichment",
      "stem": "Negative fractions are added and subtracted using the same rules as integers. Calculate the answer to each of these.",
@@ -42922,6 +43172,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15p",
+     "help": "6c-fractions",
      "label": "15p",
      "section": "Enrichment",
      "stem": "Negative fractions are added and subtracted using the same rules as integers. Calculate the answer to each of these.",
@@ -42939,6 +43190,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "6d-multiply",
      "label": "1a",
      "section": "Fluency",
      "stem": "State the value of each of the following.",
@@ -42948,6 +43200,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "6d-multiply",
      "label": "1b",
      "section": "Fluency",
      "stem": "State the value of each of the following.",
@@ -42957,6 +43210,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1c",
+     "help": "6d-multiply",
      "label": "1c",
      "section": "Fluency",
      "stem": "State the value of each of the following.",
@@ -42966,6 +43220,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1d",
+     "help": "6d-multiply",
      "label": "1d",
      "section": "Fluency",
      "stem": "State the value of each of the following.",
@@ -42975,6 +43230,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1e",
+     "help": "6d-multiply",
      "label": "1e",
      "section": "Fluency",
      "stem": "State the value of each of the following.",
@@ -42984,6 +43240,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1f",
+     "help": "6d-multiply",
      "label": "1f",
      "section": "Fluency",
      "stem": "State the value of each of the following.",
@@ -42993,6 +43250,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "6d-multiply",
      "label": "2a",
      "section": "Fluency",
      "stem": "Calculate the answer to these products.",
@@ -43002,6 +43260,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "6d-multiply",
      "label": "2b",
      "section": "Fluency",
      "stem": "Calculate the answer to these products.",
@@ -43011,6 +43270,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "6d-multiply",
      "label": "2c",
      "section": "Fluency",
      "stem": "Calculate the answer to these products.",
@@ -43020,6 +43280,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "6d-multiply",
      "label": "2d",
      "section": "Fluency",
      "stem": "Calculate the answer to these products.",
@@ -43029,6 +43290,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2e",
+     "help": "6d-multiply",
      "label": "2e",
      "section": "Fluency",
      "stem": "Calculate the answer to these products.",
@@ -43038,6 +43300,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2f",
+     "help": "6d-multiply",
      "label": "2f",
      "section": "Fluency",
      "stem": "Calculate the answer to these products.",
@@ -43047,6 +43310,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2g",
+     "help": "6d-multiply",
      "label": "2g",
      "section": "Fluency",
      "stem": "Calculate the answer to these products.",
@@ -43056,6 +43320,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2h",
+     "help": "6d-multiply",
      "label": "2h",
      "section": "Fluency",
      "stem": "Calculate the answer to these products.",
@@ -43065,6 +43330,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2i",
+     "help": "6d-multiply",
      "label": "2i",
      "section": "Fluency",
      "stem": "Calculate the answer to these products.",
@@ -43074,6 +43340,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2j",
+     "help": "6d-multiply",
      "label": "2j",
      "section": "Fluency",
      "stem": "Calculate the answer to these products.",
@@ -43083,6 +43350,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2k",
+     "help": "6d-multiply",
      "label": "2k",
      "section": "Fluency",
      "stem": "Calculate the answer to these products.",
@@ -43092,6 +43360,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2l",
+     "help": "6d-multiply",
      "label": "2l",
      "section": "Fluency",
      "stem": "Calculate the answer to these products.",
@@ -43101,6 +43370,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2m",
+     "help": "6d-multiply",
      "label": "2m",
      "section": "Fluency",
      "stem": "Calculate the answer to these products.",
@@ -43110,6 +43380,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2n",
+     "help": "6d-multiply",
      "label": "2n",
      "section": "Fluency",
      "stem": "Calculate the answer to these products.",
@@ -43119,6 +43390,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2o",
+     "help": "6d-multiply",
      "label": "2o",
      "section": "Fluency",
      "stem": "Calculate the answer to these products.",
@@ -43128,6 +43400,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2p",
+     "help": "6d-multiply",
      "label": "2p",
      "section": "Fluency",
      "stem": "Calculate the answer to these products.",
@@ -43137,6 +43410,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "6d-divide",
      "label": "3a",
      "section": "Fluency",
      "stem": "Calculate the answer to these quotients.",
@@ -43146,6 +43420,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "6d-divide",
      "label": "3b",
      "section": "Fluency",
      "stem": "Calculate the answer to these quotients.",
@@ -43155,6 +43430,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "6d-divide",
      "label": "3c",
      "section": "Fluency",
      "stem": "Calculate the answer to these quotients.",
@@ -43164,6 +43440,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3d",
+     "help": "6d-divide",
      "label": "3d",
      "section": "Fluency",
      "stem": "Calculate the answer to these quotients.",
@@ -43173,6 +43450,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3e",
+     "help": "6d-divide",
      "label": "3e",
      "section": "Fluency",
      "stem": "Calculate the answer to these quotients.",
@@ -43182,6 +43460,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3f",
+     "help": "6d-divide",
      "label": "3f",
      "section": "Fluency",
      "stem": "Calculate the answer to these quotients.",
@@ -43191,6 +43470,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3g",
+     "help": "6d-divide",
      "label": "3g",
      "section": "Fluency",
      "stem": "Calculate the answer to these quotients.",
@@ -43200,6 +43480,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3h",
+     "help": "6d-divide",
      "label": "3h",
      "section": "Fluency",
      "stem": "Calculate the answer to these quotients.",
@@ -43209,6 +43490,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3i",
+     "help": "6d-divide",
      "label": "3i",
      "section": "Fluency",
      "stem": "Calculate the answer to these quotients.",
@@ -43218,6 +43500,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3j",
+     "help": "6d-divide",
      "label": "3j",
      "section": "Fluency",
      "stem": "Calculate the answer to these quotients.",
@@ -43227,6 +43510,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3k",
+     "help": "6d-divide",
      "label": "3k",
      "section": "Fluency",
      "stem": "Calculate the answer to these quotients.",
@@ -43236,6 +43520,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3l",
+     "help": "6d-divide",
      "label": "3l",
      "section": "Fluency",
      "stem": "Calculate the answer to these quotients.",
@@ -43245,6 +43530,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3m",
+     "help": "6d-divide",
      "label": "3m",
      "section": "Fluency",
      "stem": "Calculate the answer to these quotients.",
@@ -43254,6 +43540,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3n",
+     "help": "6d-divide",
      "label": "3n",
      "section": "Fluency",
      "stem": "Calculate the answer to these quotients.",
@@ -43263,6 +43550,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3o",
+     "help": "6d-divide",
      "label": "3o",
      "section": "Fluency",
      "stem": "Calculate the answer to these quotients.",
@@ -43272,6 +43560,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3p",
+     "help": "6d-divide",
      "label": "3p",
      "section": "Fluency",
      "stem": "Calculate the answer to these quotients.",
@@ -43281,6 +43570,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "6d-chain",
      "label": "4a",
      "section": "Fluency",
      "stem": "Work from left to right to find the answer.",
@@ -43290,6 +43580,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "6d-chain",
      "label": "4b",
      "section": "Fluency",
      "stem": "Work from left to right to find the answer.",
@@ -43299,6 +43590,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "6d-chain",
      "label": "4c",
      "section": "Fluency",
      "stem": "Work from left to right to find the answer.",
@@ -43308,6 +43600,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "6d-chain",
      "label": "4d",
      "section": "Fluency",
      "stem": "Work from left to right to find the answer.",
@@ -43317,6 +43610,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4e",
+     "help": "6d-chain",
      "label": "4e",
      "section": "Fluency",
      "stem": "Work from left to right to find the answer.",
@@ -43326,6 +43620,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4f",
+     "help": "6d-chain",
      "label": "4f",
      "section": "Fluency",
      "stem": "Work from left to right to find the answer.",
@@ -43335,6 +43630,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4g",
+     "help": "6d-chain",
      "label": "4g",
      "section": "Fluency",
      "stem": "Work from left to right to find the answer.",
@@ -43344,6 +43640,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4h",
+     "help": "6d-chain",
      "label": "4h",
      "section": "Fluency",
      "stem": "Work from left to right to find the answer.",
@@ -43353,6 +43650,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4i",
+     "help": "6d-chain",
      "label": "4i",
      "section": "Fluency",
      "stem": "Work from left to right to find the answer.",
@@ -43362,6 +43660,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4j",
+     "help": "6d-chain",
      "label": "4j",
      "section": "Fluency",
      "stem": "Work from left to right to find the answer.",
@@ -43371,6 +43670,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4k",
+     "help": "6d-chain",
      "label": "4k",
      "section": "Fluency",
      "stem": "Work from left to right to find the answer.",
@@ -43380,6 +43680,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4l",
+     "help": "6d-chain",
      "label": "4l",
      "section": "Fluency",
      "stem": "Work from left to right to find the answer.",
@@ -43389,6 +43690,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "6d-missing",
      "label": "5a",
      "section": "Fluency",
      "stem": "Write down the missing number in the box.",
@@ -43398,6 +43700,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "6d-missing",
      "label": "5b",
      "section": "Fluency",
      "stem": "Write down the missing number in the box.",
@@ -43407,6 +43710,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "6d-missing",
      "label": "5c",
      "section": "Fluency",
      "stem": "Write down the missing number in the box.",
@@ -43416,6 +43720,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5d",
+     "help": "6d-missing",
      "label": "5d",
      "section": "Fluency",
      "stem": "Write down the missing number in the box.",
@@ -43425,6 +43730,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5e",
+     "help": "6d-missing",
      "label": "5e",
      "section": "Fluency",
      "stem": "Write down the missing number in the box.",
@@ -43434,6 +43740,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5f",
+     "help": "6d-missing",
      "label": "5f",
      "section": "Fluency",
      "stem": "Write down the missing number in the box.",
@@ -43443,6 +43750,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5g",
+     "help": "6d-missing",
      "label": "5g",
      "section": "Fluency",
      "stem": "Write down the missing number in the box.",
@@ -43452,6 +43760,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5h",
+     "help": "6d-missing",
      "label": "5h",
      "section": "Fluency",
      "stem": "Write down the missing number in the box.",
@@ -43461,6 +43770,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5i",
+     "help": "6d-missing",
      "label": "5i",
      "section": "Fluency",
      "stem": "Write down the missing number in the box.",
@@ -43470,6 +43780,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5j",
+     "help": "6d-missing",
      "label": "5j",
      "section": "Fluency",
      "stem": "Write down the missing number in the box.",
@@ -43479,6 +43790,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5k",
+     "help": "6d-missing",
      "label": "5k",
      "section": "Fluency",
      "stem": "Write down the missing number in the box.",
@@ -43488,6 +43800,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5l",
+     "help": "6d-missing",
      "label": "5l",
      "section": "Fluency",
      "stem": "Write down the missing number in the box.",
@@ -43497,6 +43810,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6a",
+     "help": "6d-divide",
      "label": "6a",
      "section": "Fluency",
      "stem": "Remember that $\\frac{12}{4}$ means $12 \\div 4$. Use this to find each value.",
@@ -43506,6 +43820,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6b",
+     "help": "6d-divide",
      "label": "6b",
      "section": "Fluency",
      "stem": "Remember that $\\frac{12}{4}$ means $12 \\div 4$. Use this to find each value.",
@@ -43515,6 +43830,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6c",
+     "help": "6d-divide",
      "label": "6c",
      "section": "Fluency",
      "stem": "Remember that $\\frac{12}{4}$ means $12 \\div 4$. Use this to find each value.",
@@ -43524,6 +43840,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6d",
+     "help": "6d-divide",
      "label": "6d",
      "section": "Fluency",
      "stem": "Remember that $\\frac{12}{4}$ means $12 \\div 4$. Use this to find each value.",
@@ -43533,6 +43850,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6e",
+     "help": "6d-divide",
      "label": "6e",
      "section": "Fluency",
      "stem": "Remember that $\\frac{12}{4}$ means $12 \\div 4$. Use this to find each value.",
@@ -43542,6 +43860,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6f",
+     "help": "6d-divide",
      "label": "6f",
      "section": "Fluency",
      "stem": "Remember that $\\frac{12}{4}$ means $12 \\div 4$. Use this to find each value.",
@@ -43551,6 +43870,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6g",
+     "help": "6d-divide",
      "label": "6g",
      "section": "Fluency",
      "stem": "Remember that $\\frac{12}{4}$ means $12 \\div 4$. Use this to find each value.",
@@ -43560,6 +43880,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6h",
+     "help": "6d-divide",
      "label": "6h",
      "section": "Fluency",
      "stem": "Remember that $\\frac{12}{4}$ means $12 \\div 4$. Use this to find each value.",
@@ -43569,6 +43890,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7a",
+     "help": "6d-squares",
      "label": "7a",
      "section": "Fluency",
      "stem": "Remember that $4^2 = 4 \\times 4 = 16$ and $(-4)^2 = -4 \\times (-4) = 16$. Use this to find each value.",
@@ -43578,6 +43900,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7b",
+     "help": "6d-squares",
      "label": "7b",
      "section": "Fluency",
      "stem": "Remember that $4^2 = 4 \\times 4 = 16$ and $(-4)^2 = -4 \\times (-4) = 16$. Use this to find each value.",
@@ -43587,6 +43910,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7c",
+     "help": "6d-squares",
      "label": "7c",
      "section": "Fluency",
      "stem": "Remember that $4^2 = 4 \\times 4 = 16$ and $(-4)^2 = -4 \\times (-4) = 16$. Use this to find each value.",
@@ -43596,6 +43920,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7d",
+     "help": "6d-squares",
      "label": "7d",
      "section": "Fluency",
      "stem": "Remember that $4^2 = 4 \\times 4 = 16$ and $(-4)^2 = -4 \\times (-4) = 16$. Use this to find each value.",
@@ -43605,6 +43930,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7e",
+     "help": "6d-squares",
      "label": "7e",
      "section": "Fluency",
      "stem": "Remember that $4^2 = 4 \\times 4 = 16$ and $(-4)^2 = -4 \\times (-4) = 16$. Use this to find each value.",
@@ -43614,6 +43940,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7f",
+     "help": "6d-squares",
      "label": "7f",
      "section": "Fluency",
      "stem": "Remember that $4^2 = 4 \\times 4 = 16$ and $(-4)^2 = -4 \\times (-4) = 16$. Use this to find each value.",
@@ -43623,6 +43950,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7g",
+     "help": "6d-squares",
      "label": "7g",
      "section": "Fluency",
      "stem": "Remember that $4^2 = 4 \\times 4 = 16$ and $(-4)^2 = -4 \\times (-4) = 16$. Use this to find each value.",
@@ -43632,6 +43960,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7h",
+     "help": "6d-squares",
      "label": "7h",
      "section": "Fluency",
      "stem": "Remember that $4^2 = 4 \\times 4 = 16$ and $(-4)^2 = -4 \\times (-4) = 16$. Use this to find each value.",
@@ -43641,6 +43970,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8a",
+     "help": "6d-pairs",
      "label": "8a",
      "section": "Problem-solving",
      "stem": "Think about every pair of integers (positive or negative) that multiply to give each number. List every integer that appears in one of those pairs.",
@@ -43660,6 +43990,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8b",
+     "help": "6d-pairs",
      "label": "8b",
      "section": "Problem-solving",
      "stem": "Think about every pair of integers (positive or negative) that multiply to give each number. List every integer that appears in one of those pairs.",
@@ -43676,6 +44007,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8c",
+     "help": "6d-pairs",
      "label": "8c",
      "section": "Problem-solving",
      "stem": "Think about every pair of integers (positive or negative) that multiply to give each number. List every integer that appears in one of those pairs.",
@@ -43690,6 +44022,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8d",
+     "help": "6d-pairs",
      "label": "8d",
      "section": "Problem-solving",
      "stem": "Think about every pair of integers (positive or negative) that multiply to give each number. List every integer that appears in one of those pairs.",
@@ -43712,6 +44045,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9a",
+     "help": "6d-chain-signs",
      "label": "9a",
      "section": "Problem-solving",
      "stem": "Which signs go in the boxes, in order, to make the statement true?",
@@ -43727,6 +44061,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9b",
+     "help": "6d-chain-signs",
      "label": "9b",
      "section": "Problem-solving",
      "stem": "Which signs go in the boxes, in order, to make the statement true?",
@@ -43742,6 +44077,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9c",
+     "help": "6d-chain-signs",
      "label": "9c",
      "section": "Problem-solving",
      "stem": "Which signs go in the boxes, in order, to make the statement true?",
@@ -43757,6 +44093,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9d",
+     "help": "6d-chain-signs",
      "label": "9d",
      "section": "Problem-solving",
      "stem": "Which signs go in the boxes, in order, to make the statement true?",
@@ -43772,6 +44109,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10a",
+     "help": "6d-product-diff",
      "label": "10a",
      "section": "Problem-solving",
      "stem": "Two numbers have a product of $-16$ and a difference of $10$ (the larger number minus the smaller number is $10$). There are two different pairs.",
@@ -43785,6 +44123,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10b",
+     "help": "6d-product-diff",
      "label": "10b",
      "section": "Problem-solving",
      "stem": "Two numbers have a product of $-16$ and a difference of $10$ (the larger number minus the smaller number is $10$). There are two different pairs.",
@@ -43797,6 +44136,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10c",
+     "help": "6d-product-diff",
      "label": "10c",
      "section": "Problem-solving",
      "stem": "When a first number is divided by a second number, the answer is $-7$. The difference between the two numbers is $40$.",
@@ -43810,6 +44150,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10d",
+     "help": "6d-product-diff",
      "label": "10d",
      "section": "Problem-solving",
      "stem": "When a first number is divided by a second number, the answer is $-7$. The difference between the two numbers is $40$.",
@@ -43822,6 +44163,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11a",
+     "help": "6d-opposite",
      "label": "11a",
      "section": "Reasoning",
      "stem": "The opposite of a number has the same size but the other sign (for example, $-9$ and $9$).",
@@ -43831,6 +44173,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11b",
+     "help": "6d-opposite",
      "label": "11b",
      "section": "Reasoning",
      "stem": "The opposite of a number has the same size but the other sign (for example, $-9$ and $9$).",
@@ -43840,6 +44183,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12a",
+     "help": "6d-squares",
      "label": "12a",
      "section": "Reasoning",
      "stem": "$3^4$ means $3 \\times 3 \\times 3 \\times 3$, and $(-3)^4$ means $-3 \\times (-3) \\times (-3) \\times (-3)$.",
@@ -43849,6 +44193,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12b",
+     "help": "6d-squares",
      "label": "12b",
      "section": "Reasoning",
      "stem": "$3^4$ means $3 \\times 3 \\times 3 \\times 3$, and $(-3)^4$ means $-3 \\times (-3) \\times (-3) \\times (-3)$.",
@@ -43858,6 +44203,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12c",
+     "help": "6d-squares",
      "label": "12c",
      "section": "Reasoning",
      "stem": "$3^4$ means $3 \\times 3 \\times 3 \\times 3$, and $(-3)^4$ means $-3 \\times (-3) \\times (-3) \\times (-3)$.",
@@ -43867,6 +44213,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12d",
+     "help": "6d-squares",
      "label": "12d",
      "section": "Reasoning",
      "stem": "$3^4$ means $3 \\times 3 \\times 3 \\times 3$, and $(-3)^4$ means $-3 \\times (-3) \\times (-3) \\times (-3)$.",
@@ -43876,6 +44223,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12e",
+     "help": "6d-squares",
      "label": "12e",
      "section": "Reasoning",
      "stem": "$3^4$ means $3 \\times 3 \\times 3 \\times 3$, and $(-3)^4$ means $-3 \\times (-3) \\times (-3) \\times (-3)$.",
@@ -43889,6 +44237,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12f",
+     "help": "6d-squares",
      "label": "12f",
      "section": "Reasoning",
      "stem": "$3^4$ means $3 \\times 3 \\times 3 \\times 3$, and $(-3)^4$ means $-3 \\times (-3) \\times (-3) \\times (-3)$.",
@@ -43902,6 +44251,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13a",
+     "help": "6d-letters",
      "label": "13a",
      "section": "Reasoning",
      "stem": "$p \\times q$ can be written as $pq$, and $3 \\times (-2)$ is the same as $-(3 \\times 2)$. Use this to simplify each expression as much as possible.",
@@ -43913,6 +44263,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13b",
+     "help": "6d-letters",
      "label": "13b",
      "section": "Reasoning",
      "stem": "$p \\times q$ can be written as $pq$, and $3 \\times (-2)$ is the same as $-(3 \\times 2)$. Use this to simplify each expression as much as possible.",
@@ -43923,6 +44274,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13c",
+     "help": "6d-letters",
      "label": "13c",
      "section": "Reasoning",
      "stem": "$p \\times q$ can be written as $pq$, and $3 \\times (-2)$ is the same as $-(3 \\times 2)$. Use this to simplify each expression as much as possible.",
@@ -43933,6 +44285,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15a",
+     "help": "6d-fractions",
      "label": "15a",
      "section": "Enrichment",
      "stem": "Calculate the answer to each of these. Simplify where possible. In the last four, $p$ and $q$ are positive whole numbers.",
@@ -43944,6 +44297,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15b",
+     "help": "6d-fractions",
      "label": "15b",
      "section": "Enrichment",
      "stem": "Calculate the answer to each of these. Simplify where possible. In the last four, $p$ and $q$ are positive whole numbers.",
@@ -43954,6 +44308,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15c",
+     "help": "6d-fractions",
      "label": "15c",
      "section": "Enrichment",
      "stem": "Calculate the answer to each of these. Simplify where possible. In the last four, $p$ and $q$ are positive whole numbers.",
@@ -43964,6 +44319,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15d",
+     "help": "6d-fractions",
      "label": "15d",
      "section": "Enrichment",
      "stem": "Calculate the answer to each of these. Simplify where possible. In the last four, $p$ and $q$ are positive whole numbers.",
@@ -43974,6 +44330,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15e",
+     "help": "6d-fractions",
      "label": "15e",
      "section": "Enrichment",
      "stem": "Calculate the answer to each of these. Simplify where possible. In the last four, $p$ and $q$ are positive whole numbers.",
@@ -43984,6 +44341,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15f",
+     "help": "6d-fractions",
      "label": "15f",
      "section": "Enrichment",
      "stem": "Calculate the answer to each of these. Simplify where possible. In the last four, $p$ and $q$ are positive whole numbers.",
@@ -43994,6 +44352,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15g",
+     "help": "6d-fractions",
      "label": "15g",
      "section": "Enrichment",
      "stem": "Calculate the answer to each of these. Simplify where possible. In the last four, $p$ and $q$ are positive whole numbers.",
@@ -44004,6 +44363,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15h",
+     "help": "6d-fractions",
      "label": "15h",
      "section": "Enrichment",
      "stem": "Calculate the answer to each of these. Simplify where possible. In the last four, $p$ and $q$ are positive whole numbers.",
@@ -44014,6 +44374,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15i",
+     "help": "6d-fractions",
      "label": "15i",
      "section": "Enrichment",
      "stem": "Calculate the answer to each of these. Simplify where possible. In the last four, $p$ and $q$ are positive whole numbers.",
@@ -44024,6 +44385,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15j",
+     "help": "6d-fractions",
      "label": "15j",
      "section": "Enrichment",
      "stem": "Calculate the answer to each of these. Simplify where possible. In the last four, $p$ and $q$ are positive whole numbers.",
@@ -44034,6 +44396,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15k",
+     "help": "6d-fractions",
      "label": "15k",
      "section": "Enrichment",
      "stem": "Calculate the answer to each of these. Simplify where possible. In the last four, $p$ and $q$ are positive whole numbers.",
@@ -44044,6 +44407,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15l",
+     "help": "6d-fractions",
      "label": "15l",
      "section": "Enrichment",
      "stem": "Calculate the answer to each of these. Simplify where possible. In the last four, $p$ and $q$ are positive whole numbers.",
@@ -44062,6 +44426,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "6e-order",
      "label": "1a",
      "section": "Fluency",
      "stem": "Use order of operations to evaluate the following.",
@@ -44072,6 +44437,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "6e-order",
      "label": "1b",
      "section": "Fluency",
      "stem": "Use order of operations to evaluate the following.",
@@ -44081,6 +44447,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1c",
+     "help": "6e-order",
      "label": "1c",
      "section": "Fluency",
      "stem": "Use order of operations to evaluate the following.",
@@ -44090,6 +44457,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1d",
+     "help": "6e-order",
      "label": "1d",
      "section": "Fluency",
      "stem": "Use order of operations to evaluate the following.",
@@ -44099,6 +44467,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "6e-order",
      "label": "2a",
      "section": "Fluency",
      "stem": "Use order of operations to evaluate the following.",
@@ -44108,6 +44477,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "6e-order",
      "label": "2b",
      "section": "Fluency",
      "stem": "Use order of operations to evaluate the following.",
@@ -44117,6 +44487,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "6e-order",
      "label": "2c",
      "section": "Fluency",
      "stem": "Use order of operations to evaluate the following.",
@@ -44126,6 +44497,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "6e-order",
      "label": "2d",
      "section": "Fluency",
      "stem": "Use order of operations to evaluate the following.",
@@ -44135,6 +44507,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "6e-order",
      "label": "3a",
      "section": "Fluency",
      "stem": "Use order of operations to evaluate the following.",
@@ -44144,6 +44517,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "6e-order",
      "label": "3b",
      "section": "Fluency",
      "stem": "Use order of operations to evaluate the following.",
@@ -44153,6 +44527,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "6e-order",
      "label": "3c",
      "section": "Fluency",
      "stem": "Use order of operations to evaluate the following.",
@@ -44162,6 +44537,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3d",
+     "help": "6e-order",
      "label": "3d",
      "section": "Fluency",
      "stem": "Use order of operations to evaluate the following.",
@@ -44171,6 +44547,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3e",
+     "help": "6e-order",
      "label": "3e",
      "section": "Fluency",
      "stem": "Use order of operations to evaluate the following.",
@@ -44180,6 +44557,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3f",
+     "help": "6e-order",
      "label": "3f",
      "section": "Fluency",
      "stem": "Use order of operations to evaluate the following.",
@@ -44189,6 +44567,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3g",
+     "help": "6e-order",
      "label": "3g",
      "section": "Fluency",
      "stem": "Use order of operations to evaluate the following.",
@@ -44198,6 +44577,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3h",
+     "help": "6e-order",
      "label": "3h",
      "section": "Fluency",
      "stem": "Use order of operations to evaluate the following.",
@@ -44207,6 +44587,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3i",
+     "help": "6e-order",
      "label": "3i",
      "section": "Fluency",
      "stem": "Use order of operations to evaluate the following.",
@@ -44216,6 +44597,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3j",
+     "help": "6e-order",
      "label": "3j",
      "section": "Fluency",
      "stem": "Use order of operations to evaluate the following.",
@@ -44225,6 +44607,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3k",
+     "help": "6e-order",
      "label": "3k",
      "section": "Fluency",
      "stem": "Use order of operations to evaluate the following.",
@@ -44234,6 +44617,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3l",
+     "help": "6e-order",
      "label": "3l",
      "section": "Fluency",
      "stem": "Use order of operations to evaluate the following.",
@@ -44243,6 +44627,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3m",
+     "help": "6e-order",
      "label": "3m",
      "section": "Fluency",
      "stem": "Use order of operations to evaluate the following.",
@@ -44252,6 +44637,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3n",
+     "help": "6e-order",
      "label": "3n",
      "section": "Fluency",
      "stem": "Use order of operations to evaluate the following.",
@@ -44261,6 +44647,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3o",
+     "help": "6e-order",
      "label": "3o",
      "section": "Fluency",
      "stem": "Use order of operations to evaluate the following.",
@@ -44270,6 +44657,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "6e-brackets",
      "label": "4a",
      "section": "Fluency",
      "stem": "Use order of operations to evaluate the following.",
@@ -44279,6 +44667,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "6e-brackets",
      "label": "4b",
      "section": "Fluency",
      "stem": "Use order of operations to evaluate the following.",
@@ -44288,6 +44677,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "6e-brackets",
      "label": "4c",
      "section": "Fluency",
      "stem": "Use order of operations to evaluate the following.",
@@ -44297,6 +44687,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "6e-brackets",
      "label": "4d",
      "section": "Fluency",
      "stem": "Use order of operations to evaluate the following.",
@@ -44306,6 +44697,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4e",
+     "help": "6e-brackets",
      "label": "4e",
      "section": "Fluency",
      "stem": "Use order of operations to evaluate the following.",
@@ -44315,6 +44707,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4f",
+     "help": "6e-brackets",
      "label": "4f",
      "section": "Fluency",
      "stem": "Use order of operations to evaluate the following.",
@@ -44324,6 +44717,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4g",
+     "help": "6e-brackets",
      "label": "4g",
      "section": "Fluency",
      "stem": "Use order of operations to evaluate the following.",
@@ -44333,6 +44727,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4h",
+     "help": "6e-brackets",
      "label": "4h",
      "section": "Fluency",
      "stem": "Use order of operations to evaluate the following.",
@@ -44342,6 +44737,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4i",
+     "help": "6e-brackets",
      "label": "4i",
      "section": "Fluency",
      "stem": "Use order of operations to evaluate the following.",
@@ -44351,6 +44747,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4j",
+     "help": "6e-brackets",
      "label": "4j",
      "section": "Fluency",
      "stem": "Use order of operations to evaluate the following.",
@@ -44360,6 +44757,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4k",
+     "help": "6e-brackets",
      "label": "4k",
      "section": "Fluency",
      "stem": "Use order of operations to evaluate the following.",
@@ -44369,6 +44767,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4l",
+     "help": "6e-brackets",
      "label": "4l",
      "section": "Fluency",
      "stem": "Use order of operations to evaluate the following.",
@@ -44378,6 +44777,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4m",
+     "help": "6e-brackets",
      "label": "4m",
      "section": "Fluency",
      "stem": "Use order of operations to evaluate the following.",
@@ -44387,6 +44787,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4n",
+     "help": "6e-brackets",
      "label": "4n",
      "section": "Fluency",
      "stem": "Use order of operations to evaluate the following.",
@@ -44396,6 +44797,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4o",
+     "help": "6e-brackets",
      "label": "4o",
      "section": "Fluency",
      "stem": "Use order of operations to evaluate the following.",
@@ -44405,6 +44807,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5",
+     "help": "6e-word",
      "label": "5",
      "section": "Problem-solving",
      "prompt": "A market stall owner bought beach towels for $6$ dollars each. When sales were slow, she dropped the price and sold them for $4$ dollars each. In one week she sold $135$ towels and had other costs of $310$ dollars. What was her overall loss for the week?",
@@ -44417,6 +44820,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6",
+     "help": "6e-word",
      "label": "6",
      "section": "Problem-solving",
      "prompt": "Tariq has a debt of $600$ dollars. The debt is doubled, and then $250$ dollars of the debt is paid off each month for $4$ months. What is his final balance?",
@@ -44427,6 +44831,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7a",
+     "help": "6e-insert",
      "label": "7a",
      "section": "Problem-solving",
      "stem": "Where do the brackets go to make the statement true? Choose the correct one.",
@@ -44440,6 +44845,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7b",
+     "help": "6e-insert",
      "label": "7b",
      "section": "Problem-solving",
      "stem": "Where do the brackets go to make the statement true? Choose the correct one.",
@@ -44453,6 +44859,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7c",
+     "help": "6e-insert",
      "label": "7c",
      "section": "Problem-solving",
      "stem": "Where do the brackets go to make the statement true? Choose the correct one.",
@@ -44467,6 +44874,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7d",
+     "help": "6e-insert",
      "label": "7d",
      "section": "Problem-solving",
      "stem": "Where do the brackets go to make the statement true? Choose the correct one.",
@@ -44480,6 +44888,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7e",
+     "help": "6e-insert",
      "label": "7e",
      "section": "Problem-solving",
      "stem": "Where do the brackets go to make the statement true? Choose the correct one.",
@@ -44494,6 +44903,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7f",
+     "help": "6e-insert",
      "label": "7f",
      "section": "Problem-solving",
      "stem": "Where do the brackets go to make the statement true? Choose the correct one.",
@@ -44508,6 +44918,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7g",
+     "help": "6e-insert",
      "label": "7g",
      "section": "Problem-solving",
      "stem": "Where do the brackets go to make the statement true? Choose the correct one.",
@@ -44522,6 +44933,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7h",
+     "help": "6e-insert",
      "label": "7h",
      "section": "Problem-solving",
      "stem": "Where do the brackets go to make the statement true? Choose the correct one.",
@@ -44536,6 +44948,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7i",
+     "help": "6e-insert",
      "label": "7i",
      "section": "Problem-solving",
      "stem": "Where do the brackets go to make the statement true? Choose the correct one.",
@@ -44550,6 +44963,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8",
+     "help": "6e-insert",
      "label": "8",
      "section": "Problem-solving",
      "prompt": "You may insert one pair of brackets into this calculation, or none at all. How many different answers are possible? $-3 + 6 \\times (-2) - (-5)$",
@@ -44558,6 +44972,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9a",
+     "help": "6e-remove",
      "label": "9a",
      "section": "Reasoning",
      "stem": "If the brackets are removed, does the answer change?",
@@ -44571,6 +44986,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9b",
+     "help": "6e-remove",
      "label": "9b",
      "section": "Reasoning",
      "stem": "If the brackets are removed, does the answer change?",
@@ -44584,6 +45000,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9c",
+     "help": "6e-remove",
      "label": "9c",
      "section": "Reasoning",
      "stem": "If the brackets are removed, does the answer change?",
@@ -44597,6 +45014,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9d",
+     "help": "6e-remove",
      "label": "9d",
      "section": "Reasoning",
      "stem": "If the brackets are removed, does the answer change?",
@@ -44610,6 +45028,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9e",
+     "help": "6e-remove",
      "label": "9e",
      "section": "Reasoning",
      "stem": "If the brackets are removed, does the answer change?",
@@ -44623,6 +45042,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9f",
+     "help": "6e-remove",
      "label": "9f",
      "section": "Reasoning",
      "stem": "If the brackets are removed, does the answer change?",
@@ -44636,6 +45056,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10a",
+     "help": "6e-always",
      "label": "10a",
      "section": "Reasoning",
      "stem": "Is each statement always true, or false?",
@@ -44649,6 +45070,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10b",
+     "help": "6e-always",
      "label": "10b",
      "section": "Reasoning",
      "stem": "Is each statement always true, or false?",
@@ -44662,6 +45084,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10c",
+     "help": "6e-always",
      "label": "10c",
      "section": "Reasoning",
      "stem": "Is each statement always true, or false?",
@@ -44675,6 +45098,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10d",
+     "help": "6e-always",
      "label": "10d",
      "section": "Reasoning",
      "stem": "Is each statement always true, or false?",
@@ -44688,6 +45112,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10e",
+     "help": "6e-always",
      "label": "10e",
      "section": "Reasoning",
      "stem": "Is each statement always true, or false?",
@@ -44701,6 +45126,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10f",
+     "help": "6e-always",
      "label": "10f",
      "section": "Reasoning",
      "stem": "Is each statement always true, or false?",
@@ -44714,6 +45140,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11a",
+     "help": "6e-sign",
      "label": "11a",
      "section": "Reasoning",
      "stem": "Is the answer to each of the following positive or negative?",
@@ -44727,6 +45154,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11b",
+     "help": "6e-sign",
      "label": "11b",
      "section": "Reasoning",
      "stem": "Is the answer to each of the following positive or negative?",
@@ -44740,6 +45168,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11c",
+     "help": "6e-sign",
      "label": "11c",
      "section": "Reasoning",
      "stem": "Is the answer to each of the following positive or negative?",
@@ -44753,6 +45182,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11d",
+     "help": "6e-sign",
      "label": "11d",
      "section": "Reasoning",
      "stem": "Is the answer to each of the following positive or negative?",
@@ -44766,6 +45196,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11e",
+     "help": "6e-sign",
      "label": "11e",
      "section": "Reasoning",
      "stem": "Is the answer to each of the following positive or negative?",
@@ -44779,6 +45210,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11f",
+     "help": "6e-sign",
      "label": "11f",
      "section": "Reasoning",
      "stem": "Is the answer to each of the following positive or negative?",
@@ -44792,6 +45224,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12a",
+     "help": "6e-powers",
      "label": "12a",
      "section": "Enrichment",
      "stem": "Note that $5^2 = 5 \\times 5 = 25$, $(-5)^2 = -5 \\times (-5) = 25$ and $-5^2 = -(5 \\times 5) = -25$. Powers are worked out first in the order of operations. Evaluate each of the following.",
@@ -44801,6 +45234,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12b",
+     "help": "6e-powers",
      "label": "12b",
      "section": "Enrichment",
      "stem": "Note that $5^2 = 5 \\times 5 = 25$, $(-5)^2 = -5 \\times (-5) = 25$ and $-5^2 = -(5 \\times 5) = -25$. Powers are worked out first in the order of operations. Evaluate each of the following.",
@@ -44810,6 +45244,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12c",
+     "help": "6e-powers",
      "label": "12c",
      "section": "Enrichment",
      "stem": "Note that $5^2 = 5 \\times 5 = 25$, $(-5)^2 = -5 \\times (-5) = 25$ and $-5^2 = -(5 \\times 5) = -25$. Powers are worked out first in the order of operations. Evaluate each of the following.",
@@ -44819,6 +45254,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12d",
+     "help": "6e-powers",
      "label": "12d",
      "section": "Enrichment",
      "stem": "Note that $5^2 = 5 \\times 5 = 25$, $(-5)^2 = -5 \\times (-5) = 25$ and $-5^2 = -(5 \\times 5) = -25$. Powers are worked out first in the order of operations. Evaluate each of the following.",
@@ -44828,6 +45264,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12e",
+     "help": "6e-powers",
      "label": "12e",
      "section": "Enrichment",
      "stem": "Note that $5^2 = 5 \\times 5 = 25$, $(-5)^2 = -5 \\times (-5) = 25$ and $-5^2 = -(5 \\times 5) = -25$. Powers are worked out first in the order of operations. Evaluate each of the following.",
@@ -44837,6 +45274,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12f",
+     "help": "6e-powers",
      "label": "12f",
      "section": "Enrichment",
      "stem": "Note that $5^2 = 5 \\times 5 = 25$, $(-5)^2 = -5 \\times (-5) = 25$ and $-5^2 = -(5 \\times 5) = -25$. Powers are worked out first in the order of operations. Evaluate each of the following.",
@@ -44846,6 +45284,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12g",
+     "help": "6e-powers",
      "label": "12g",
      "section": "Enrichment",
      "stem": "Note that $5^2 = 5 \\times 5 = 25$, $(-5)^2 = -5 \\times (-5) = 25$ and $-5^2 = -(5 \\times 5) = -25$. Powers are worked out first in the order of operations. Evaluate each of the following.",
@@ -44855,6 +45294,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12h",
+     "help": "6e-powers",
      "label": "12h",
      "section": "Enrichment",
      "stem": "Note that $5^2 = 5 \\times 5 = 25$, $(-5)^2 = -5 \\times (-5) = 25$ and $-5^2 = -(5 \\times 5) = -25$. Powers are worked out first in the order of operations. Evaluate each of the following.",
@@ -44864,6 +45304,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12i",
+     "help": "6e-powers",
      "label": "12i",
      "section": "Enrichment",
      "stem": "Note that $5^2 = 5 \\times 5 = 25$, $(-5)^2 = -5 \\times (-5) = 25$ and $-5^2 = -(5 \\times 5) = -25$. Powers are worked out first in the order of operations. Evaluate each of the following.",
@@ -44873,6 +45314,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13",
+     "help": "6e-powers",
      "label": "13",
      "section": "Enrichment",
      "prompt": "Mele wants to raise $-2$ to the power of $6$. She types $-2^6$ into a calculator and gets $-64$, which is wrong. What is the correct value of $(-2)^6$?",
@@ -44889,6 +45331,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "6f-sub",
      "label": "1a",
      "section": "Fluency",
      "stem": "Evaluate the following expressions using $a = 5$ and $b = -2$.",
@@ -44899,6 +45342,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "6f-sub",
      "label": "1b",
      "section": "Fluency",
      "stem": "Evaluate the following expressions using $a = 5$ and $b = -2$.",
@@ -44908,6 +45352,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1c",
+     "help": "6f-sub",
      "label": "1c",
      "section": "Fluency",
      "stem": "Evaluate the following expressions using $a = 5$ and $b = -2$.",
@@ -44917,6 +45362,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1d",
+     "help": "6f-sub",
      "label": "1d",
      "section": "Fluency",
      "stem": "Evaluate the following expressions using $a = 5$ and $b = -2$.",
@@ -44926,6 +45372,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1e",
+     "help": "6f-sub",
      "label": "1e",
      "section": "Fluency",
      "stem": "Evaluate the following expressions using $a = 5$ and $b = -2$.",
@@ -44935,6 +45382,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1f",
+     "help": "6f-sub",
      "label": "1f",
      "section": "Fluency",
      "stem": "Evaluate the following expressions using $a = 5$ and $b = -2$.",
@@ -44944,6 +45392,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "6f-sub",
      "label": "2a",
      "section": "Fluency",
      "stem": "Evaluate the following expressions using $a = 4$ and $b = -3$.",
@@ -44953,6 +45402,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "6f-sub",
      "label": "2b",
      "section": "Fluency",
      "stem": "Evaluate the following expressions using $a = 4$ and $b = -3$.",
@@ -44962,6 +45412,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "6f-sub",
      "label": "2c",
      "section": "Fluency",
      "stem": "Evaluate the following expressions using $a = 4$ and $b = -3$.",
@@ -44971,6 +45422,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "6f-sub",
      "label": "2d",
      "section": "Fluency",
      "stem": "Evaluate the following expressions using $a = 4$ and $b = -3$.",
@@ -44980,6 +45432,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2e",
+     "help": "6f-sub",
      "label": "2e",
      "section": "Fluency",
      "stem": "Evaluate the following expressions using $a = 4$ and $b = -3$.",
@@ -44989,6 +45442,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2f",
+     "help": "6f-sub",
      "label": "2f",
      "section": "Fluency",
      "stem": "Evaluate the following expressions using $a = 4$ and $b = -3$.",
@@ -44998,6 +45452,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2g",
+     "help": "6f-sub",
      "label": "2g",
      "section": "Fluency",
      "stem": "Evaluate the following expressions using $a = 4$ and $b = -3$.",
@@ -45007,6 +45462,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2h",
+     "help": "6f-sub",
      "label": "2h",
      "section": "Fluency",
      "stem": "Evaluate the following expressions using $a = 4$ and $b = -3$.",
@@ -45016,6 +45472,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2i",
+     "help": "6f-sub",
      "label": "2i",
      "section": "Fluency",
      "stem": "Evaluate the following expressions using $a = 4$ and $b = -3$.",
@@ -45025,6 +45482,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2j",
+     "help": "6f-sub",
      "label": "2j",
      "section": "Fluency",
      "stem": "Evaluate the following expressions using $a = 4$ and $b = -3$.",
@@ -45034,6 +45492,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2k",
+     "help": "6f-sub",
      "label": "2k",
      "section": "Fluency",
      "stem": "Evaluate the following expressions using $a = 4$ and $b = -3$.",
@@ -45043,6 +45502,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2l",
+     "help": "6f-sub",
      "label": "2l",
      "section": "Fluency",
      "stem": "Evaluate the following expressions using $a = 4$ and $b = -3$.",
@@ -45052,6 +45512,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "6f-sub",
      "label": "3a",
      "section": "Fluency",
      "stem": "Evaluate the following expressions using $a = -4$ and $b = -6$.",
@@ -45061,6 +45522,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "6f-sub",
      "label": "3b",
      "section": "Fluency",
      "stem": "Evaluate the following expressions using $a = -4$ and $b = -6$.",
@@ -45070,6 +45532,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "6f-sub",
      "label": "3c",
      "section": "Fluency",
      "stem": "Evaluate the following expressions using $a = -4$ and $b = -6$.",
@@ -45079,6 +45542,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3d",
+     "help": "6f-sub",
      "label": "3d",
      "section": "Fluency",
      "stem": "Evaluate the following expressions using $a = -4$ and $b = -6$.",
@@ -45088,6 +45552,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3e",
+     "help": "6f-sub",
      "label": "3e",
      "section": "Fluency",
      "stem": "Evaluate the following expressions using $a = -4$ and $b = -6$.",
@@ -45097,6 +45562,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3f",
+     "help": "6f-sub",
      "label": "3f",
      "section": "Fluency",
      "stem": "Evaluate the following expressions using $a = -4$ and $b = -6$.",
@@ -45106,6 +45572,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3g",
+     "help": "6f-sub",
      "label": "3g",
      "section": "Fluency",
      "stem": "Evaluate the following expressions using $a = -4$ and $b = -6$.",
@@ -45115,6 +45582,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3h",
+     "help": "6f-sub",
      "label": "3h",
      "section": "Fluency",
      "stem": "Evaluate the following expressions using $a = -4$ and $b = -6$.",
@@ -45124,6 +45592,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "6f-sub",
      "label": "4a",
      "section": "Fluency",
      "stem": "Evaluate these expressions for the given pronumeral values.",
@@ -45133,6 +45602,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "6f-sub",
      "label": "4b",
      "section": "Fluency",
      "stem": "Evaluate these expressions for the given pronumeral values.",
@@ -45142,6 +45612,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "6f-sub",
      "label": "4c",
      "section": "Fluency",
      "stem": "Evaluate these expressions for the given pronumeral values.",
@@ -45151,6 +45622,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "6f-sub",
      "label": "4d",
      "section": "Fluency",
      "stem": "Evaluate these expressions for the given pronumeral values.",
@@ -45160,6 +45632,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4e",
+     "help": "6f-sub",
      "label": "4e",
      "section": "Fluency",
      "stem": "Evaluate these expressions for the given pronumeral values.",
@@ -45169,6 +45642,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4f",
+     "help": "6f-sub",
      "label": "4f",
      "section": "Fluency",
      "stem": "Evaluate these expressions for the given pronumeral values.",
@@ -45178,6 +45652,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "6f-brackets",
      "label": "5a",
      "section": "Fluency",
      "stem": "These expressions contain brackets. Evaluate them for the given pronumeral values. (Remember that $ab$ means $a \\times b$.)",
@@ -45187,6 +45662,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "6f-brackets",
      "label": "5b",
      "section": "Fluency",
      "stem": "These expressions contain brackets. Evaluate them for the given pronumeral values. (Remember that $ab$ means $a \\times b$.)",
@@ -45196,6 +45672,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "6f-brackets",
      "label": "5c",
      "section": "Fluency",
      "stem": "These expressions contain brackets. Evaluate them for the given pronumeral values. (Remember that $ab$ means $a \\times b$.)",
@@ -45205,6 +45682,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5d",
+     "help": "6f-brackets",
      "label": "5d",
      "section": "Fluency",
      "stem": "These expressions contain brackets. Evaluate them for the given pronumeral values. (Remember that $ab$ means $a \\times b$.)",
@@ -45214,6 +45692,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6a",
+     "help": "6f-formula",
      "label": "6a",
      "section": "Problem-solving",
      "stem": "The area of a triangle with a fixed base of $6$ metres is given by the rule Area $= 3h$ square metres, where $h$ metres is the height of the triangle. Find the area of such a triangle with these heights.",
@@ -45224,6 +45703,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6b",
+     "help": "6f-formula",
      "label": "6b",
      "section": "Problem-solving",
      "stem": "The area of a triangle with a fixed base of $6$ metres is given by the rule Area $= 3h$ square metres, where $h$ metres is the height of the triangle. Find the area of such a triangle with these heights.",
@@ -45234,6 +45714,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7a",
+     "help": "6f-formula",
      "label": "7a",
      "section": "Problem-solving",
      "stem": "For a short time, a scooter's speed in metres per second is modelled by the expression $25 + 2t$, where $t$ is the number of seconds after the scooter passes a lamp post. The rule works from $8$ seconds before the scooter reaches the lamp post.",
@@ -45244,6 +45725,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7b",
+     "help": "6f-formula",
      "label": "7b",
      "section": "Problem-solving",
      "stem": "For a short time, a scooter's speed in metres per second is modelled by the expression $25 + 2t$, where $t$ is the number of seconds after the scooter passes a lamp post. The rule works from $8$ seconds before the scooter reaches the lamp post.",
@@ -45254,6 +45736,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7c",
+     "help": "6f-formula",
      "label": "7c",
      "section": "Problem-solving",
      "stem": "For a short time, a scooter's speed in metres per second is modelled by the expression $25 + 2t$, where $t$ is the number of seconds after the scooter passes a lamp post. The rule works from $8$ seconds before the scooter reaches the lamp post.",
@@ -45264,6 +45747,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8a",
+     "help": "6f-formula",
      "label": "8a",
      "section": "Problem-solving",
      "stem": "The perimeter, $P$, of a rectangle is given by $P = 2l + 2w$, where $l$ is the length and $w$ is the width.",
@@ -45273,6 +45757,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8b",
+     "help": "6f-formula",
      "label": "8b",
      "section": "Problem-solving",
      "stem": "The perimeter, $P$, of a rectangle is given by $P = 2l + 2w$, where $l$ is the length and $w$ is the width.",
@@ -45282,6 +45767,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8c",
+     "help": "6f-formula",
      "label": "8c",
      "section": "Problem-solving",
      "stem": "The perimeter, $P$, of a rectangle is given by $P = 2l + 2w$, where $l$ is the length and $w$ is the width.",
@@ -45296,6 +45782,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9",
+     "help": "6f-which",
      "label": "9",
      "section": "Reasoning",
      "prompt": "Which expression equals $-12$ when $x = -6$?",
@@ -45310,6 +45797,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10a",
+     "help": "6f-which",
      "label": "10a",
      "section": "Reasoning",
      "stem": "Each expression uses the pronumeral $a$. Which one gives the stated value when $a = -3$?",
@@ -45325,6 +45813,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10b",
+     "help": "6f-which",
      "label": "10b",
      "section": "Reasoning",
      "stem": "Each expression uses the pronumeral $a$. Which one gives the stated value when $a = -3$?",
@@ -45340,6 +45829,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10c",
+     "help": "6f-which",
      "label": "10c",
      "section": "Reasoning",
      "stem": "Each expression uses the pronumeral $a$. Which one gives the stated value when $a = -3$?",
@@ -45355,6 +45845,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12a",
+     "help": "6f-fahrenheit",
      "label": "12a",
      "section": "Enrichment",
      "stem": "Water freezes at $32$°F ($0$°C) and boils at $212$°F ($100$°C). The formula for converting °F to °C is °C $= \\frac{5}{9} \\times ($°F$ - 32)$. Convert these temperatures from °F to °C.",
@@ -45365,6 +45856,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12b",
+     "help": "6f-fahrenheit",
      "label": "12b",
      "section": "Enrichment",
      "stem": "Water freezes at $32$°F ($0$°C) and boils at $212$°F ($100$°C). The formula for converting °F to °C is °C $= \\frac{5}{9} \\times ($°F$ - 32)$. Convert these temperatures from °F to °C.",
@@ -45375,6 +45867,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12c",
+     "help": "6f-fahrenheit",
      "label": "12c",
      "section": "Enrichment",
      "stem": "Water freezes at $32$°F ($0$°C) and boils at $212$°F ($100$°C). The formula for converting °F to °C is °C $= \\frac{5}{9} \\times ($°F$ - 32)$. Convert these temperatures from °F to °C.",
@@ -45385,6 +45878,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12d",
+     "help": "6f-fahrenheit",
      "label": "12d",
      "section": "Enrichment",
      "prompt": "Work out the formula that converts °C to °F. Use $C$ for the Celsius temperature and $F$ for the Fahrenheit temperature.",
@@ -45397,6 +45891,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12e",
+     "help": "6f-fahrenheit",
      "label": "12e",
      "section": "Enrichment",
      "prompt": "Use your rule to convert $25$°C to °F.",
@@ -45414,6 +45909,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "6g-read",
      "label": "1a",
      "section": "Fluency",
      "stem": "For the Cartesian plane shown, write down the coordinates of each point.",
@@ -45453,6 +45949,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "6g-read",
      "label": "1b",
      "section": "Fluency",
      "stem": "For the Cartesian plane shown, write down the coordinates of each point.",
@@ -45462,6 +45959,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1c",
+     "help": "6g-read",
      "label": "1c",
      "section": "Fluency",
      "stem": "For the Cartesian plane shown, write down the coordinates of each point.",
@@ -45471,6 +45969,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1d",
+     "help": "6g-read",
      "label": "1d",
      "section": "Fluency",
      "stem": "For the Cartesian plane shown, write down the coordinates of each point.",
@@ -45480,6 +45979,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "6g-read",
      "label": "2a",
      "section": "Fluency",
      "stem": "For the Cartesian plane given, write down the coordinates of each point.",
@@ -45535,6 +46035,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "6g-read",
      "label": "2b",
      "section": "Fluency",
      "stem": "For the Cartesian plane given, write down the coordinates of each point.",
@@ -45544,6 +46045,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "6g-read",
      "label": "2c",
      "section": "Fluency",
      "stem": "For the Cartesian plane given, write down the coordinates of each point.",
@@ -45553,6 +46055,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "6g-read",
      "label": "2d",
      "section": "Fluency",
      "stem": "For the Cartesian plane given, write down the coordinates of each point.",
@@ -45562,6 +46065,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2e",
+     "help": "6g-read",
      "label": "2e",
      "section": "Fluency",
      "stem": "For the Cartesian plane given, write down the coordinates of each point.",
@@ -45571,6 +46075,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2f",
+     "help": "6g-read",
      "label": "2f",
      "section": "Fluency",
      "stem": "For the Cartesian plane given, write down the coordinates of each point.",
@@ -45580,6 +46085,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2g",
+     "help": "6g-read",
      "label": "2g",
      "section": "Fluency",
      "stem": "For the Cartesian plane given, write down the coordinates of each point.",
@@ -45589,6 +46095,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2h",
+     "help": "6g-read",
      "label": "2h",
      "section": "Fluency",
      "stem": "For the Cartesian plane given, write down the coordinates of each point.",
@@ -45598,6 +46105,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "6g-find",
      "label": "3a",
      "section": "Fluency",
      "stem": "Eight points have been plotted on this Cartesian plane. Which letter is at each of these points?",
@@ -45652,6 +46160,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "6g-find",
      "label": "3b",
      "section": "Fluency",
      "stem": "Eight points have been plotted on this Cartesian plane. Which letter is at each of these points?",
@@ -45661,6 +46170,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "6g-find",
      "label": "3c",
      "section": "Fluency",
      "stem": "Eight points have been plotted on this Cartesian plane. Which letter is at each of these points?",
@@ -45670,6 +46180,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3d",
+     "help": "6g-find",
      "label": "3d",
      "section": "Fluency",
      "stem": "Eight points have been plotted on this Cartesian plane. Which letter is at each of these points?",
@@ -45679,6 +46190,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3e",
+     "help": "6g-find",
      "label": "3e",
      "section": "Fluency",
      "stem": "Eight points have been plotted on this Cartesian plane. Which letter is at each of these points?",
@@ -45688,6 +46200,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3f",
+     "help": "6g-find",
      "label": "3f",
      "section": "Fluency",
      "stem": "Eight points have been plotted on this Cartesian plane. Which letter is at each of these points?",
@@ -45697,6 +46210,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3g",
+     "help": "6g-find",
      "label": "3g",
      "section": "Fluency",
      "stem": "Eight points have been plotted on this Cartesian plane. Which letter is at each of these points?",
@@ -45706,6 +46220,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3h",
+     "help": "6g-find",
      "label": "3h",
      "section": "Fluency",
      "stem": "Eight points have been plotted on this Cartesian plane. Which letter is at each of these points?",
@@ -45715,6 +46230,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "6g-read",
      "label": "4a",
      "section": "Fluency",
      "stem": "For the number plane given, write down the coordinates of each point.",
@@ -45770,6 +46286,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "6g-read",
      "label": "4b",
      "section": "Fluency",
      "stem": "For the number plane given, write down the coordinates of each point.",
@@ -45779,6 +46296,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "6g-read",
      "label": "4c",
      "section": "Fluency",
      "stem": "For the number plane given, write down the coordinates of each point.",
@@ -45788,6 +46306,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "6g-read",
      "label": "4d",
      "section": "Fluency",
      "stem": "For the number plane given, write down the coordinates of each point.",
@@ -45797,6 +46316,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4e",
+     "help": "6g-read",
      "label": "4e",
      "section": "Fluency",
      "stem": "For the number plane given, write down the coordinates of each point.",
@@ -45806,6 +46326,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4f",
+     "help": "6g-read",
      "label": "4f",
      "section": "Fluency",
      "stem": "For the number plane given, write down the coordinates of each point.",
@@ -45815,6 +46336,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4g",
+     "help": "6g-read",
      "label": "4g",
      "section": "Fluency",
      "stem": "For the number plane given, write down the coordinates of each point.",
@@ -45824,6 +46346,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4h",
+     "help": "6g-read",
      "label": "4h",
      "section": "Fluency",
      "stem": "For the number plane given, write down the coordinates of each point.",
@@ -45833,6 +46356,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "6g-pattern",
      "label": "5a",
      "section": "Fluency",
      "stem": "Seven points have the following $x$- and $y$-coordinates.",
@@ -45872,6 +46396,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "6g-pattern",
      "label": "5b",
      "section": "Fluency",
      "stem": "Seven points have the following $x$- and $y$-coordinates.",
@@ -45881,6 +46406,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6a",
+     "help": "6g-pattern",
      "label": "6a",
      "section": "Fluency",
      "stem": "Seven points have the following $x$- and $y$-coordinates.",
@@ -45920,6 +46446,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6b",
+     "help": "6g-pattern",
      "label": "6b",
      "section": "Fluency",
      "stem": "Seven points have the following $x$- and $y$-coordinates.",
@@ -45929,6 +46456,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7a",
+     "help": "6g-shape",
      "label": "7a",
      "section": "Problem-solving",
      "stem": "When plotted on the Cartesian plane, what shape does each set of points form?",
@@ -45945,6 +46473,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7b",
+     "help": "6g-shape",
      "label": "7b",
      "section": "Problem-solving",
      "stem": "When plotted on the Cartesian plane, what shape does each set of points form?",
@@ -45961,6 +46490,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7c",
+     "help": "6g-shape",
      "label": "7c",
      "section": "Problem-solving",
      "stem": "When plotted on the Cartesian plane, what shape does each set of points form?",
@@ -45977,6 +46507,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7d",
+     "help": "6g-shape",
      "label": "7d",
      "section": "Problem-solving",
      "stem": "When plotted on the Cartesian plane, what shape does each set of points form?",
@@ -45993,6 +46524,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8a",
+     "help": "6g-area",
      "label": "8a",
      "section": "Problem-solving",
      "stem": "A rectangle has one corner at the origin, the opposite corner at the point $A$, and two of its sides along the axes. In the picture, $A$ is $(4, 2)$, so the area is $8$ square units. Find the area of the rectangle if the point $A$ is:",
@@ -46039,6 +46571,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8b",
+     "help": "6g-area",
      "label": "8b",
      "section": "Problem-solving",
      "stem": "A rectangle has one corner at the origin, the opposite corner at the point $A$, and two of its sides along the axes. In the picture, $A$ is $(4, 2)$, so the area is $8$ square units. Find the area of the rectangle if the point $A$ is:",
@@ -46049,6 +46582,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8c",
+     "help": "6g-area",
      "label": "8c",
      "section": "Problem-solving",
      "stem": "A rectangle has one corner at the origin, the opposite corner at the point $A$, and two of its sides along the axes. In the picture, $A$ is $(4, 2)$, so the area is $8$ square units. Find the area of the rectangle if the point $A$ is:",
@@ -46059,6 +46593,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8d",
+     "help": "6g-area",
      "label": "8d",
      "section": "Problem-solving",
      "stem": "A rectangle has one corner at the origin, the opposite corner at the point $A$, and two of its sides along the axes. In the picture, $A$ is $(4, 2)$, so the area is $8$ square units. Find the area of the rectangle if the point $A$ is:",
@@ -46069,6 +46604,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9",
+     "help": "6g-walk",
      "label": "9",
      "section": "Problem-solving",
      "prompt": "Priya's orienteering course starts at the point $(3, 3)$ on a grid map. Each square on the map is $1$ km. She walks in straight lines to $(3, -5)$, then to $(-2, -5)$, then to $(-2, 1)$ and then to $(3, 1)$. How far has she walked in total?",
@@ -46078,6 +46614,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10",
+     "help": "6g-line",
      "label": "10",
      "section": "Problem-solving",
      "prompt": "The points $A(-4, -1)$, $B(-2, ?)$ and $C(0, 7)$ all lie on a straight line. Find the $y$-coordinate of point $B$.",
@@ -46086,6 +46623,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11",
+     "help": "6g-line",
      "label": "11",
      "section": "Problem-solving",
      "prompt": "The points $A(-5, 9)$, $B(-2, ?)$ and $C(1, -3)$ all lie on a straight line. Find the $y$-coordinate of point $B$.",
@@ -46094,6 +46632,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12a",
+     "help": "6g-distance",
      "label": "12a",
      "section": "Reasoning",
      "stem": "Consider the points $A(-3, 1)$, $B(0, -2)$ and $C(2, 4)$.",
@@ -46103,6 +46642,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12b",
+     "help": "6g-distance",
      "label": "12b",
      "section": "Reasoning",
      "stem": "Consider the points $A(-3, 1)$, $B(0, -2)$ and $C(2, 4)$.",
@@ -46112,6 +46652,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12c",
+     "help": "6g-distance",
      "label": "12c",
      "section": "Reasoning",
      "stem": "Consider the points $A(-3, 1)$, $B(0, -2)$ and $C(2, 4)$.",
@@ -46127,6 +46668,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13a",
+     "help": "6g-quadrant",
      "label": "13a",
      "section": "Reasoning",
      "stem": "A point $(a, b)$ sits in one of the four quadrants. Quadrant $1$ is top right, quadrant $2$ is top left, quadrant $3$ is bottom left and quadrant $4$ is bottom right. Name the quadrant or quadrants that include all the points where:",
@@ -46140,6 +46682,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13b",
+     "help": "6g-quadrant",
      "label": "13b",
      "section": "Reasoning",
      "stem": "A point $(a, b)$ sits in one of the four quadrants. Quadrant $1$ is top right, quadrant $2$ is top left, quadrant $3$ is bottom left and quadrant $4$ is bottom right. Name the quadrant or quadrants that include all the points where:",
@@ -46149,6 +46692,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13c",
+     "help": "6g-quadrant",
      "label": "13c",
      "section": "Reasoning",
      "stem": "A point $(a, b)$ sits in one of the four quadrants. Quadrant $1$ is top right, quadrant $2$ is top left, quadrant $3$ is bottom left and quadrant $4$ is bottom right. Name the quadrant or quadrants that include all the points where:",
@@ -46161,6 +46705,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13d",
+     "help": "6g-quadrant",
      "label": "13d",
      "section": "Reasoning",
      "stem": "A point $(a, b)$ sits in one of the four quadrants. Quadrant $1$ is top right, quadrant $2$ is top left, quadrant $3$ is bottom left and quadrant $4$ is bottom right. Name the quadrant or quadrants that include all the points where:",
@@ -46170,6 +46715,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13e",
+     "help": "6g-quadrant",
      "label": "13e",
      "section": "Reasoning",
      "stem": "A point $(a, b)$ sits in one of the four quadrants. Quadrant $1$ is top right, quadrant $2$ is top left, quadrant $3$ is bottom left and quadrant $4$ is bottom right.",
@@ -46184,6 +46730,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14a",
+     "help": "6g-pattern",
      "label": "14a",
      "section": "Enrichment",
      "stem": "Consider the rule $y = 3x - 2$.",
@@ -46226,6 +46773,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14b",
+     "help": "6g-pattern",
      "label": "14b",
      "section": "Enrichment",
      "stem": "Consider the rule $y = 3x - 2$.",
@@ -105836,6 +106384,34664 @@ window.H3_BANK = {
       "F=9C/5+32"
      ],
      "hint": "Use C for the temperature in °C, and / for divide."
+    }
+   ]
+  },
+  {
+   "id": "7a",
+   "chapter": "Chapter 7: Geometry",
+   "title": "7A Points, lines, intervals and angles",
+   "description": "Name points, lines, segments and angles, classify angles, and find angles on a clock face.",
+   "questions": [
+    {
+     "id": "q1a",
+     "label": "1a",
+     "section": "Fluency",
+     "stem": "Name these line segments and angles.",
+     "prompt": "Name this line segment.",
+     "type": "text",
+     "answer": "MN",
+     "accept": [
+      "NM",
+      "segment MN",
+      "segment NM",
+      "interval MN",
+      "interval NM",
+      "line segment MN",
+      "line segment NM"
+     ],
+     "hint": "Type the two letters, for example AB",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         3,
+         1.2
+        ]
+       },
+       {
+        "point": [
+         0,
+         0
+        ],
+        "name": "M",
+        "pos": "sw"
+       },
+       {
+        "point": [
+         3,
+         1.2
+        ],
+        "name": "N",
+        "pos": "ne"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q1b",
+     "label": "1b",
+     "section": "Fluency",
+     "stem": "Name these line segments and angles.",
+     "prompt": "Name this line segment.",
+     "type": "text",
+     "answer": "GH",
+     "accept": [
+      "HG",
+      "segment GH",
+      "segment HG",
+      "interval GH",
+      "interval HG",
+      "line segment GH",
+      "line segment HG"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         1,
+         3.5,
+         0.4
+        ]
+       },
+       {
+        "point": [
+         0,
+         1
+        ],
+        "name": "G",
+        "pos": "nw"
+       },
+       {
+        "point": [
+         3.5,
+         0.4
+        ],
+        "name": "H",
+        "pos": "ne"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q1c",
+     "label": "1c",
+     "section": "Fluency",
+     "stem": "Name these line segments and angles.",
+     "prompt": "Name the angle marked with the arc.",
+     "type": "text",
+     "answer": "∠KLM",
+     "accept": [
+      "KLM",
+      "∠ KLM",
+      "angle KLM",
+      "<KLM",
+      "MLK",
+      "∠MLK",
+      "∠ MLK",
+      "angle MLK",
+      "<MLK"
+     ],
+     "hint": "Type the three letters with the vertex in the middle, for example ABC",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         0.218,
+         2.49
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         2.318,
+         0.621
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         15,
+         85
+        ]
+       },
+       {
+        "point": [
+         0,
+         0
+        ],
+        "name": "L",
+        "pos": "sw"
+       },
+       {
+        "point": [
+         0.218,
+         2.49
+        ],
+        "name": "K",
+        "pos": "n"
+       },
+       {
+        "point": [
+         2.318,
+         0.621
+        ],
+        "name": "M",
+        "pos": "e"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q1d",
+     "label": "1d",
+     "section": "Fluency",
+     "stem": "Name these line segments and angles.",
+     "prompt": "Name the angle marked with the arc.",
+     "type": "text",
+     "answer": "∠XYZ",
+     "accept": [
+      "XYZ",
+      "∠ XYZ",
+      "angle XYZ",
+      "<XYZ",
+      "ZYX",
+      "∠ZYX",
+      "∠ ZYX",
+      "angle ZYX",
+      "<ZYX"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         -1.556,
+         -1.09
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         0.85,
+         -1.472
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         215,
+         300
+        ]
+       },
+       {
+        "point": [
+         0,
+         0
+        ],
+        "name": "Y",
+        "pos": "n"
+       },
+       {
+        "point": [
+         -1.556,
+         -1.09
+        ],
+        "name": "X",
+        "pos": "w"
+       },
+       {
+        "point": [
+         0.85,
+         -1.472
+        ],
+        "name": "Z",
+        "pos": "e"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2a",
+     "label": "2a",
+     "section": "Fluency",
+     "stem": "Name each of these objects.",
+     "prompt": "Name this object.",
+     "type": "text",
+     "answer": "point K",
+     "accept": [
+      "K",
+      "the point K"
+     ],
+     "hint": "Say what it is and give its name, for example: point A, line AB, ray AB, segment AB, angle ABC or plane",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "point": [
+         0,
+         0
+        ],
+        "name": "K",
+        "pos": "e"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2b",
+     "label": "2b",
+     "section": "Fluency",
+     "stem": "Name each of these objects.",
+     "prompt": "Name this object.",
+     "type": "text",
+     "answer": "line FG",
+     "accept": [
+      "line GF",
+      "the line FG",
+      "the line GF"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         -0.4,
+         -0.1,
+         4.099,
+         0.856
+        ],
+        "arrow": "both"
+       },
+       {
+        "point": [
+         0.774,
+         0.149
+        ],
+        "name": "F",
+        "pos": "n"
+       },
+       {
+        "point": [
+         2.828,
+         0.586
+        ],
+        "name": "G",
+        "pos": "n"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2c",
+     "label": "2c",
+     "section": "Fluency",
+     "stem": "Name each of these objects.",
+     "prompt": "Name this object.",
+     "type": "text",
+     "answer": "∠LMN",
+     "accept": [
+      "LMN",
+      "∠ LMN",
+      "angle LMN",
+      "<LMN",
+      "NML",
+      "∠NML",
+      "∠ NML",
+      "angle NML",
+      "<NML"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         3,
+         0
+        ],
+        "arrow": "end"
+       },
+       {
+        "seg": [
+         0,
+         0,
+         0.699,
+         2.608
+        ],
+        "arrow": "end"
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         75
+        ]
+       },
+       {
+        "point": [
+         0,
+         0
+        ],
+        "name": "M",
+        "pos": "sw"
+       },
+       {
+        "point": [
+         2.1,
+         0
+        ],
+        "name": "N",
+        "pos": "s"
+       },
+       {
+        "point": [
+         0.492,
+         1.835
+        ],
+        "name": "L",
+        "pos": "w"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2d",
+     "label": "2d",
+     "section": "Fluency",
+     "stem": "Name each of these objects.",
+     "prompt": "Name this object (the flat surface keeps going in every direction).",
+     "type": "text",
+     "answer": "plane",
+     "accept": [
+      "a plane",
+      "the plane"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          2.4,
+          0.3
+         ],
+         [
+          2.9,
+          2.2
+         ],
+         [
+          0.5,
+          1.9
+         ]
+        ]
+       },
+       {
+        "seg": [
+         1.2,
+         0.15,
+         1.312,
+         -0.743
+        ],
+        "dash": true,
+        "arrow": "end"
+       },
+       {
+        "seg": [
+         2.65,
+         1.25,
+         3.52,
+         1.021
+        ],
+        "dash": true,
+        "arrow": "end"
+       },
+       {
+        "seg": [
+         1.7,
+         2.05,
+         1.588,
+         2.943
+        ],
+        "dash": true,
+        "arrow": "end"
+       },
+       {
+        "seg": [
+         0.25,
+         0.95,
+         -0.62,
+         1.179
+        ],
+        "dash": true,
+        "arrow": "end"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2e",
+     "label": "2e",
+     "section": "Fluency",
+     "stem": "Name each of these objects.",
+     "prompt": "Name this object.",
+     "type": "text",
+     "answer": "ray HJ",
+     "accept": [
+      "the ray HJ"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         1.993,
+         2.375
+        ],
+        "arrow": "end"
+       },
+       {
+        "point": [
+         0,
+         0
+        ],
+        "name": "H",
+        "pos": "w"
+       },
+       {
+        "point": [
+         1.286,
+         1.532
+        ],
+        "name": "J",
+        "pos": "nw"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2f",
+     "label": "2f",
+     "section": "Fluency",
+     "stem": "Name each of these objects.",
+     "prompt": "Name this object.",
+     "type": "text",
+     "answer": "segment UV",
+     "accept": [
+      "UV",
+      "VU",
+      "segment VU",
+      "interval UV",
+      "interval VU",
+      "line segment UV",
+      "line segment VU",
+      "the segment UV"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         2.4,
+         1.6,
+         0
+        ]
+       },
+       {
+        "point": [
+         0,
+         2.4
+        ],
+        "name": "U",
+        "pos": "ne"
+       },
+       {
+        "point": [
+         1.6,
+         0
+        ],
+        "name": "V",
+        "pos": "e"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3a",
+     "label": "3a",
+     "section": "Fluency",
+     "stem": "Name the angle marked by the arc in each diagram.",
+     "prompt": "Name the marked angle.",
+     "type": "text",
+     "answer": "∠QOR",
+     "accept": [
+      "QOR",
+      "∠ QOR",
+      "angle QOR",
+      "<QOR",
+      "ROQ",
+      "∠ROQ",
+      "∠ ROQ",
+      "angle ROQ",
+      "<ROQ"
+     ],
+     "hint": "Type the three letters with the vertex in the middle, for example ABC",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         0.625,
+         3.545
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         1.69,
+         3.179
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         2.675,
+         2.409
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         3.383,
+         1.231
+        ]
+       },
+       {
+        "point": [
+         0.625,
+         3.545
+        ],
+        "name": "P",
+        "pos": "n"
+       },
+       {
+        "point": [
+         1.69,
+         3.179
+        ],
+        "name": "Q",
+        "pos": "ne"
+       },
+       {
+        "point": [
+         2.675,
+         2.409
+        ],
+        "name": "R",
+        "pos": "ne"
+       },
+       {
+        "point": [
+         3.383,
+         1.231
+        ],
+        "name": "S",
+        "pos": "e"
+       },
+       {
+        "angle": [
+         0,
+         0,
+         42,
+         62
+        ],
+        "r": 1.2
+       },
+       {
+        "point": [
+         0,
+         0
+        ],
+        "name": "O",
+        "pos": "sw"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3b",
+     "label": "3b",
+     "section": "Fluency",
+     "stem": "Name the angle marked by the arc in each diagram.",
+     "prompt": "Name the marked angle.",
+     "type": "text",
+     "answer": "∠LNM",
+     "accept": [
+      "LNM",
+      "∠ LNM",
+      "angle LNM",
+      "<LNM",
+      "MNL",
+      "∠MNL",
+      "∠ MNL",
+      "angle MNL",
+      "<MNL"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          3.6,
+          0.6
+         ],
+         [
+          3.2,
+          2.8
+         ],
+         [
+          0.4,
+          2.2
+         ]
+        ]
+       },
+       {
+        "seg": [
+         3.6,
+         0.6,
+         0.4,
+         2.2
+        ]
+       },
+       {
+        "angle": [
+         0.4,
+         2.2,
+         333.435,
+         12.095
+        ],
+        "r": 0.8
+       },
+       {
+        "point": [
+         0,
+         0
+        ],
+        "name": "K",
+        "pos": "sw"
+       },
+       {
+        "point": [
+         3.6,
+         0.6
+        ],
+        "name": "L",
+        "pos": "se"
+       },
+       {
+        "point": [
+         3.2,
+         2.8
+        ],
+        "name": "M",
+        "pos": "ne"
+       },
+       {
+        "point": [
+         0.4,
+         2.2
+        ],
+        "name": "N",
+        "pos": "nw"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3c",
+     "label": "3c",
+     "section": "Fluency",
+     "stem": "Name the angle marked by the arc in each diagram.",
+     "prompt": "Name the marked angle.",
+     "type": "text",
+     "answer": "∠KFH",
+     "accept": [
+      "KFH",
+      "∠ KFH",
+      "angle KFH",
+      "<KFH",
+      "HFK",
+      "∠HFK",
+      "∠ HFK",
+      "angle HFK",
+      "<HFK"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          3
+         ],
+         [
+          0,
+          0
+         ],
+         [
+          4,
+          0
+         ]
+        ]
+       },
+       {
+        "seg": [
+         0,
+         1.8,
+         2.4,
+         1.2
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         2.4,
+         1.2
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         26.565
+        ],
+        "r": 1
+       },
+       {
+        "point": [
+         0,
+         3
+        ],
+        "name": "G",
+        "pos": "n"
+       },
+       {
+        "point": [
+         0,
+         0
+        ],
+        "name": "F",
+        "pos": "sw"
+       },
+       {
+        "point": [
+         4,
+         0
+        ],
+        "name": "H",
+        "pos": "se"
+       },
+       {
+        "point": [
+         2.4,
+         1.2
+        ],
+        "name": "K",
+        "pos": "ne"
+       },
+       {
+        "point": [
+         0,
+         1.8
+        ],
+        "name": "J",
+        "pos": "w"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3d",
+     "label": "3d",
+     "section": "Fluency",
+     "stem": "Name the angle marked by the arc in each diagram.",
+     "prompt": "Name the marked angle.",
+     "type": "text",
+     "answer": "∠QOS",
+     "accept": [
+      "QOS",
+      "∠ QOS",
+      "angle QOS",
+      "<QOS",
+      "SOQ",
+      "∠SOQ",
+      "∠ SOQ",
+      "angle SOQ",
+      "<SOQ"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         -2.6,
+         -2.5
+        ]
+       },
+       {
+        "point": [
+         -2.6,
+         -2.5
+        ],
+        "name": "P",
+        "pos": "s"
+       },
+       {
+        "seg": [
+         0,
+         0,
+         -1.2,
+         -2.5
+        ]
+       },
+       {
+        "point": [
+         -1.2,
+         -2.5
+        ],
+        "name": "Q",
+        "pos": "s"
+       },
+       {
+        "seg": [
+         0,
+         0,
+         0.1,
+         -2.5
+        ]
+       },
+       {
+        "point": [
+         0.1,
+         -2.5
+        ],
+        "name": "R",
+        "pos": "s"
+       },
+       {
+        "seg": [
+         0,
+         0,
+         1.3,
+         -2.5
+        ]
+       },
+       {
+        "point": [
+         1.3,
+         -2.5
+        ],
+        "name": "S",
+        "pos": "s"
+       },
+       {
+        "seg": [
+         0,
+         0,
+         3.4,
+         -2.5
+        ]
+       },
+       {
+        "point": [
+         3.4,
+         -2.5
+        ],
+        "name": "T",
+        "pos": "s"
+       },
+       {
+        "angle": [
+         0,
+         0,
+         244.359,
+         297.474
+        ],
+        "r": 0.8
+       },
+       {
+        "point": [
+         0,
+         0
+        ],
+        "name": "O",
+        "pos": "n"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4a",
+     "label": "4a",
+     "section": "Fluency",
+     "stem": "State the type of each angle shown.",
+     "prompt": "What type of angle is this?",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "Acute",
+      "Right",
+      "Obtuse",
+      "Straight",
+      "Reflex",
+      "Revolution"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         2.6,
+         0
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         2.13,
+         1.491
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         35
+        ],
+        "r": 0.6
+       },
+       {
+        "point": [
+         0,
+         0
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4b",
+     "label": "4b",
+     "section": "Fluency",
+     "stem": "State the type of each angle shown.",
+     "prompt": "What type of angle is this?",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "Acute",
+      "Right",
+      "Obtuse",
+      "Straight",
+      "Reflex",
+      "Revolution"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         -1.221,
+         2.296
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         -2.6,
+         0
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         118,
+         180
+        ],
+        "r": 0.6
+       },
+       {
+        "point": [
+         0,
+         0
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4c",
+     "label": "4c",
+     "section": "Fluency",
+     "stem": "State the type of each angle shown.",
+     "prompt": "What type of angle is this?",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "Acute",
+      "Right",
+      "Obtuse",
+      "Straight",
+      "Reflex",
+      "Revolution"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         0,
+         -2.6
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         2.6,
+         0
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         270,
+         0
+        ],
+        "right": true
+       },
+       {
+        "point": [
+         0,
+         0
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4d",
+     "label": "4d",
+     "section": "Fluency",
+     "stem": "State the type of each angle shown.",
+     "prompt": "What type of angle is this?",
+     "type": "choice",
+     "answer": 2,
+     "options": [
+      "Acute",
+      "Right",
+      "Obtuse",
+      "Straight",
+      "Reflex",
+      "Revolution"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         2.6,
+         0
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         -1.601,
+         2.049
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         128
+        ],
+        "r": 0.6
+       },
+       {
+        "point": [
+         0,
+         0
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4e",
+     "label": "4e",
+     "section": "Fluency",
+     "stem": "State the type of each angle shown.",
+     "prompt": "What type of angle is this?",
+     "type": "choice",
+     "answer": 2,
+     "options": [
+      "Acute",
+      "Right",
+      "Obtuse",
+      "Straight",
+      "Reflex",
+      "Revolution"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         2.511,
+         0.673
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         -2.598,
+         0.091
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         15,
+         178
+        ],
+        "r": 0.6
+       },
+       {
+        "point": [
+         0,
+         0
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4f",
+     "label": "4f",
+     "section": "Fluency",
+     "stem": "State the type of each angle shown.",
+     "prompt": "What type of angle is this?",
+     "type": "choice",
+     "answer": 3,
+     "options": [
+      "Acute",
+      "Right",
+      "Obtuse",
+      "Straight",
+      "Reflex",
+      "Revolution"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         1.838,
+         -1.838
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         -1.838,
+         1.838
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         315,
+         135
+        ],
+        "r": 0.6
+       },
+       {
+        "point": [
+         0,
+         0
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4g",
+     "label": "4g",
+     "section": "Fluency",
+     "stem": "State the type of each angle shown.",
+     "prompt": "What type of angle is this?",
+     "type": "choice",
+     "answer": 4,
+     "options": [
+      "Acute",
+      "Right",
+      "Obtuse",
+      "Straight",
+      "Reflex",
+      "Revolution"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         2.6,
+         0
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         -1.671,
+         -1.992
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         230
+        ],
+        "r": 0.45
+       },
+       {
+        "point": [
+         0,
+         0
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4h",
+     "label": "4h",
+     "section": "Fluency",
+     "stem": "State the type of each angle shown.",
+     "prompt": "What type of angle is this?",
+     "type": "choice",
+     "answer": 4,
+     "options": [
+      "Acute",
+      "Right",
+      "Obtuse",
+      "Straight",
+      "Reflex",
+      "Revolution"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         -2.6,
+         0
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         0,
+         2.6
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         180,
+         90
+        ],
+        "r": 0.45
+       },
+       {
+        "point": [
+         0,
+         0
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4i",
+     "label": "4i",
+     "section": "Fluency",
+     "stem": "State the type of each angle shown.",
+     "prompt": "What type of angle is this?",
+     "type": "choice",
+     "answer": 4,
+     "options": [
+      "Acute",
+      "Right",
+      "Obtuse",
+      "Straight",
+      "Reflex",
+      "Revolution"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         2.6,
+         0
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         2.13,
+         -1.491
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         325
+        ],
+        "r": 0.45
+       },
+       {
+        "point": [
+         0,
+         0
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q5a",
+     "label": "5a",
+     "section": "Fluency",
+     "stem": "State the type of angle for each size.",
+     "prompt": "$50^\\circ$",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "Acute",
+      "Right",
+      "Obtuse",
+      "Straight",
+      "Reflex",
+      "Revolution"
+     ]
+    },
+    {
+     "id": "q5b",
+     "label": "5b",
+     "section": "Fluency",
+     "stem": "State the type of angle for each size.",
+     "prompt": "$85^\\circ$",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "Acute",
+      "Right",
+      "Obtuse",
+      "Straight",
+      "Reflex",
+      "Revolution"
+     ]
+    },
+    {
+     "id": "q5c",
+     "label": "5c",
+     "section": "Fluency",
+     "stem": "State the type of angle for each size.",
+     "prompt": "$90^\\circ$",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "Acute",
+      "Right",
+      "Obtuse",
+      "Straight",
+      "Reflex",
+      "Revolution"
+     ]
+    },
+    {
+     "id": "q5d",
+     "label": "5d",
+     "section": "Fluency",
+     "stem": "State the type of angle for each size.",
+     "prompt": "$140^\\circ$",
+     "type": "choice",
+     "answer": 2,
+     "options": [
+      "Acute",
+      "Right",
+      "Obtuse",
+      "Straight",
+      "Reflex",
+      "Revolution"
+     ]
+    },
+    {
+     "id": "q5e",
+     "label": "5e",
+     "section": "Fluency",
+     "stem": "State the type of angle for each size.",
+     "prompt": "$172^\\circ$",
+     "type": "choice",
+     "answer": 2,
+     "options": [
+      "Acute",
+      "Right",
+      "Obtuse",
+      "Straight",
+      "Reflex",
+      "Revolution"
+     ]
+    },
+    {
+     "id": "q5f",
+     "label": "5f",
+     "section": "Fluency",
+     "stem": "State the type of angle for each size.",
+     "prompt": "$215^\\circ$",
+     "type": "choice",
+     "answer": 4,
+     "options": [
+      "Acute",
+      "Right",
+      "Obtuse",
+      "Straight",
+      "Reflex",
+      "Revolution"
+     ]
+    },
+    {
+     "id": "q5g",
+     "label": "5g",
+     "section": "Fluency",
+     "stem": "State the type of angle for each size.",
+     "prompt": "$255^\\circ$",
+     "type": "choice",
+     "answer": 4,
+     "options": [
+      "Acute",
+      "Right",
+      "Obtuse",
+      "Straight",
+      "Reflex",
+      "Revolution"
+     ]
+    },
+    {
+     "id": "q5h",
+     "label": "5h",
+     "section": "Fluency",
+     "stem": "State the type of angle for each size.",
+     "prompt": "$270^\\circ$",
+     "type": "choice",
+     "answer": 4,
+     "options": [
+      "Acute",
+      "Right",
+      "Obtuse",
+      "Straight",
+      "Reflex",
+      "Revolution"
+     ]
+    },
+    {
+     "id": "q5i",
+     "label": "5i",
+     "section": "Fluency",
+     "stem": "State the type of angle for each size.",
+     "prompt": "$310^\\circ$",
+     "type": "choice",
+     "answer": 4,
+     "options": [
+      "Acute",
+      "Right",
+      "Obtuse",
+      "Straight",
+      "Reflex",
+      "Revolution"
+     ]
+    },
+    {
+     "id": "q5j",
+     "label": "5j",
+     "section": "Fluency",
+     "stem": "State the type of angle for each size.",
+     "prompt": "$348^\\circ$",
+     "type": "choice",
+     "answer": 4,
+     "options": [
+      "Acute",
+      "Right",
+      "Obtuse",
+      "Straight",
+      "Reflex",
+      "Revolution"
+     ]
+    },
+    {
+     "id": "q6a",
+     "label": "6a",
+     "section": "Fluency",
+     "stem": "Each diagram is drawn to scale. Choose the size closest to the marked angle.",
+     "prompt": "The angle that this ramp makes with the ground",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "10°",
+      "25°",
+      "45°",
+      "65°"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         -0.5,
+         0,
+         5,
+         0
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         4.169,
+         1.944
+        ]
+       },
+       {
+        "seg": [
+         4.169,
+         1.944,
+         4.169,
+         0
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         25
+        ],
+        "r": 1
+       }
+      ]
+     }
+    },
+    {
+     "id": "q6b",
+     "label": "6b",
+     "section": "Fluency",
+     "stem": "Each diagram is drawn to scale. Choose the size closest to the marked angle.",
+     "prompt": "The angle the Sun's rays make with the ground",
+     "type": "choice",
+     "answer": 2,
+     "options": [
+      "20°",
+      "35°",
+      "55°",
+      "80°"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         -0.5,
+         0,
+         4,
+         0
+        ]
+       },
+       {
+        "seg": [
+         0.5,
+         0,
+         2.68,
+         3.113
+        ],
+        "dash": true
+       },
+       {
+        "circle": [
+         2.68,
+         3.113,
+         0.3
+        ],
+        "fill": true
+       },
+       {
+        "angle": [
+         0.5,
+         0,
+         0,
+         55
+        ],
+        "r": 0.9
+       },
+       {
+        "label": "Sun",
+        "at": [
+         3.53,
+         3.113
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q6c",
+     "label": "6c",
+     "section": "Fluency",
+     "stem": "Each diagram is drawn to scale. Choose the size closest to the marked angle.",
+     "prompt": "The angle (pitch) of this roof",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "15°",
+      "35°",
+      "55°",
+      "75°"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          3,
+          0
+         ],
+         [
+          3,
+          2
+         ],
+         [
+          0,
+          2
+         ]
+        ]
+       },
+       {
+        "seg": [
+         1.5,
+         3.05,
+         -0.573,
+         1.598
+        ]
+       },
+       {
+        "seg": [
+         1.5,
+         3.05,
+         3.573,
+         1.598
+        ]
+       },
+       {
+        "poly": [
+         [
+          1.2,
+          0
+         ],
+         [
+          1.2,
+          1.1
+         ],
+         [
+          1.8,
+          1.1
+         ],
+         [
+          1.8,
+          0
+         ]
+        ],
+        "open": true
+       },
+       {
+        "angle": [
+         0,
+         2,
+         0,
+         35
+        ],
+        "r": 0.9
+       }
+      ]
+     }
+    },
+    {
+     "id": "q6d",
+     "label": "6d",
+     "section": "Fluency",
+     "stem": "Each diagram is drawn to scale. Choose the size closest to the marked angle.",
+     "prompt": "The angle between this laptop screen and the keyboard",
+     "type": "choice",
+     "answer": 2,
+     "options": [
+      "65°",
+      "90°",
+      "115°",
+      "150°"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         3,
+         0
+        ]
+       },
+       {
+        "seg": [
+         0,
+         -0.15,
+         3,
+         -0.15
+        ]
+       },
+       {
+        "seg": [
+         3,
+         0,
+         4.099,
+         2.356
+        ]
+       },
+       {
+        "angle": [
+         3,
+         0,
+         65,
+         180
+        ],
+        "r": 0.7
+       },
+       {
+        "label": "keyboard",
+        "at": [
+         1.3,
+         -0.6
+        ]
+       },
+       {
+        "label": "screen",
+        "at": [
+         4.999,
+         1.856
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q7a",
+     "label": "7a",
+     "section": "Fluency",
+     "stem": "Name the three labelled points that are collinear in each diagram.",
+     "prompt": "Which three points are collinear?",
+     "type": "list",
+     "answer": [
+      "P",
+      "Q",
+      "S"
+     ],
+     "hint": "Type the three letters separated by commas, for example A, B, C",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         -0.771,
+         -0.464,
+         3.686,
+         2.215
+        ],
+        "arrow": "both"
+       },
+       {
+        "seg": [
+         0.926,
+         2.045,
+         2.377,
+         -1.933
+        ],
+        "arrow": "both"
+       },
+       {
+        "seg": [
+         1.696,
+         -1.853,
+         3.132,
+         2.652
+        ],
+        "arrow": "both"
+       },
+       {
+        "point": [
+         0,
+         0
+        ],
+        "name": "P",
+        "pos": "nw"
+       },
+       {
+        "point": [
+         1.371,
+         0.824
+        ],
+        "name": "Q",
+        "pos": "nw"
+       },
+       {
+        "point": [
+         2.829,
+         1.7
+        ],
+        "name": "S",
+        "pos": "nw"
+       },
+       {
+        "point": [
+         2,
+         -0.9
+        ],
+        "name": "R",
+        "pos": "e"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q7b",
+     "label": "7b",
+     "section": "Fluency",
+     "stem": "Name the three labelled points that are collinear in each diagram.",
+     "prompt": "Which three points are collinear?",
+     "type": "list",
+     "answer": [
+      "W",
+      "M",
+      "Z"
+     ],
+     "hint": "Type the three letters separated by commas, for example A, B, C",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          2
+         ],
+         [
+          4,
+          2
+         ],
+         [
+          4,
+          0
+         ],
+         [
+          0,
+          0
+         ]
+        ]
+       },
+       {
+        "seg": [
+         0,
+         2,
+         4,
+         0
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         2,
+         1
+        ]
+       },
+       {
+        "point": [
+         0,
+         2
+        ],
+        "name": "W",
+        "pos": "nw"
+       },
+       {
+        "point": [
+         4,
+         2
+        ],
+        "name": "X",
+        "pos": "ne"
+       },
+       {
+        "point": [
+         0,
+         0
+        ],
+        "name": "Y",
+        "pos": "sw"
+       },
+       {
+        "point": [
+         4,
+         0
+        ],
+        "name": "Z",
+        "pos": "se"
+       },
+       {
+        "point": [
+         2,
+         1
+        ],
+        "name": "M",
+        "pos": "n"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q8a",
+     "label": "8a",
+     "section": "Fluency",
+     "stem": "State whether each set of lines is concurrent.",
+     "prompt": "Are these lines concurrent?",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         -2.364,
+         -0.417,
+         2.364,
+         0.417
+        ],
+        "arrow": "both"
+       },
+       {
+        "seg": [
+         -1.377,
+         -1.966,
+         1.377,
+         1.966
+        ],
+        "arrow": "both"
+       },
+       {
+        "seg": [
+         0.417,
+         -2.364,
+         -0.417,
+         2.364
+        ],
+        "arrow": "both"
+       },
+       {
+        "seg": [
+         1.966,
+         -1.377,
+         -1.966,
+         1.377
+        ],
+        "arrow": "both"
+       },
+       {
+        "point": [
+         0,
+         0
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q8b",
+     "label": "8b",
+     "section": "Fluency",
+     "stem": "State whether each set of lines is concurrent.",
+     "prompt": "Are these lines concurrent?",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         -2.2,
+         -0.3,
+         2.4,
+         0.5
+        ],
+        "arrow": "both"
+       },
+       {
+        "seg": [
+         -1.6,
+         1.8,
+         0.9,
+         -2.3
+        ],
+        "arrow": "both"
+       },
+       {
+        "seg": [
+         1.6,
+         2.1,
+         -0.4,
+         -2.2
+        ],
+        "arrow": "both"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q9a",
+     "label": "9a",
+     "section": "Problem-solving",
+     "stem": "Count all the angles inside each shape. Include angles that are the same size, and count a corner that is split by a segment as one angle for each part plus the whole corner.",
+     "prompt": "How many angles are inside this shape?",
+     "type": "numeric",
+     "answer": "9",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          3,
+          0
+         ],
+         [
+          3,
+          2
+         ],
+         [
+          1.5,
+          3.2
+         ],
+         [
+          0,
+          2
+         ]
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         3,
+         2
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q9b",
+     "label": "9b",
+     "section": "Problem-solving",
+     "stem": "Count all the angles inside each shape. Include angles that are the same size, and count a corner that is split by a segment as one angle for each part plus the whole corner.",
+     "prompt": "How many angles are inside this shape?",
+     "type": "numeric",
+     "answer": "14",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          3.2,
+          0
+         ],
+         [
+          3.6,
+          2
+         ],
+         [
+          1.6,
+          3
+         ],
+         [
+          -0.4,
+          1.8
+         ]
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         3.6,
+         2
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         1.6,
+         3
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q10a",
+     "label": "10a",
+     "section": "Problem-solving",
+     "stem": "A clock face is numbered 1 to 12. Find the angle the minute hand turns through in:",
+     "prompt": "$15$ minutes",
+     "type": "numeric",
+     "answer": "90",
+     "units": "°"
+    },
+    {
+     "id": "q10b",
+     "label": "10b",
+     "section": "Problem-solving",
+     "stem": "A clock face is numbered 1 to 12. Find the angle the minute hand turns through in:",
+     "prompt": "$40$ minutes",
+     "type": "numeric",
+     "answer": "240",
+     "units": "°"
+    },
+    {
+     "id": "q10c",
+     "label": "10c",
+     "section": "Problem-solving",
+     "stem": "A clock face is numbered 1 to 12. Find the angle the minute hand turns through in:",
+     "prompt": "$10$ minutes",
+     "type": "numeric",
+     "answer": "60",
+     "units": "°"
+    },
+    {
+     "id": "q10d",
+     "label": "10d",
+     "section": "Problem-solving",
+     "stem": "A clock face is numbered 1 to 12. Find the angle the minute hand turns through in:",
+     "prompt": "$25$ minutes",
+     "type": "numeric",
+     "answer": "150",
+     "units": "°"
+    },
+    {
+     "id": "q10e",
+     "label": "10e",
+     "section": "Problem-solving",
+     "stem": "A clock face is numbered 1 to 12. Find the angle the minute hand turns through in:",
+     "prompt": "$2$ minutes",
+     "type": "numeric",
+     "answer": "12",
+     "units": "°"
+    },
+    {
+     "id": "q10f",
+     "label": "10f",
+     "section": "Problem-solving",
+     "stem": "A clock face is numbered 1 to 12. Find the angle the minute hand turns through in:",
+     "prompt": "$7$ minutes",
+     "type": "numeric",
+     "answer": "42",
+     "units": "°"
+    },
+    {
+     "id": "q10g",
+     "label": "10g",
+     "section": "Problem-solving",
+     "stem": "A clock face is numbered 1 to 12. Find the angle the minute hand turns through in:",
+     "prompt": "$12.5$ minutes",
+     "type": "numeric",
+     "answer": "75",
+     "units": "°"
+    },
+    {
+     "id": "q10h",
+     "label": "10h",
+     "section": "Problem-solving",
+     "stem": "A clock face is numbered 1 to 12. Find the angle the minute hand turns through in:",
+     "prompt": "$18.5$ minutes",
+     "type": "numeric",
+     "answer": "111",
+     "units": "°"
+    },
+    {
+     "id": "q11a",
+     "label": "11a",
+     "section": "Problem-solving",
+     "stem": "A clock face is numbered 1 to 12. Find the angle between the hour hand and the minute hand at:",
+     "prompt": "$5{:}00$ p.m.",
+     "type": "numeric",
+     "answer": "150",
+     "units": "°"
+    },
+    {
+     "id": "q11b",
+     "label": "11b",
+     "section": "Problem-solving",
+     "stem": "A clock face is numbered 1 to 12. Find the angle between the hour hand and the minute hand at:",
+     "prompt": "$9{:}00$ a.m.",
+     "type": "numeric",
+     "answer": "90",
+     "units": "°"
+    },
+    {
+     "id": "q11c",
+     "label": "11c",
+     "section": "Problem-solving",
+     "stem": "A clock face is numbered 1 to 12. Find the angle between the hour hand and the minute hand at:",
+     "prompt": "$2{:}00$ p.m.",
+     "type": "numeric",
+     "answer": "60",
+     "units": "°"
+    },
+    {
+     "id": "q11d",
+     "label": "11d",
+     "section": "Problem-solving",
+     "stem": "A clock face is numbered 1 to 12. Find the angle between the hour hand and the minute hand at:",
+     "prompt": "$8{:}00$ p.m.",
+     "type": "numeric",
+     "answer": "120",
+     "units": "°"
+    },
+    {
+     "id": "q12a",
+     "label": "12a",
+     "section": "Problem-solving",
+     "stem": "Find the angle between the hour hand and the minute hand of a clock at these times. Give the angle that is $180^\\circ$ or less.",
+     "prompt": "$9{:}20$ a.m.",
+     "type": "numeric",
+     "answer": "160",
+     "units": "°"
+    },
+    {
+     "id": "q12b",
+     "label": "12b",
+     "section": "Problem-solving",
+     "stem": "Find the angle between the hour hand and the minute hand of a clock at these times. Give the angle that is $180^\\circ$ or less.",
+     "prompt": "$3{:}40$ p.m.",
+     "type": "numeric",
+     "answer": "130",
+     "units": "°"
+    },
+    {
+     "id": "q12c",
+     "label": "12c",
+     "section": "Problem-solving",
+     "stem": "Find the angle between the hour hand and the minute hand of a clock at these times. Give the angle that is $180^\\circ$ or less.",
+     "prompt": "$1{:}50$ a.m.",
+     "type": "numeric",
+     "answer": "115",
+     "units": "°"
+    },
+    {
+     "id": "q12d",
+     "label": "12d",
+     "section": "Problem-solving",
+     "stem": "Find the angle between the hour hand and the minute hand of a clock at these times. Give the angle that is $180^\\circ$ or less.",
+     "prompt": "$5{:}35$ p.m.",
+     "type": "numeric",
+     "answer": "42.5",
+     "units": "°"
+    },
+    {
+     "id": "q12e",
+     "label": "12e",
+     "section": "Problem-solving",
+     "stem": "Find the angle between the hour hand and the minute hand of a clock at these times. Give the angle that is $180^\\circ$ or less.",
+     "prompt": "$8{:}14$ a.m.",
+     "type": "numeric",
+     "answer": "163",
+     "units": "°"
+    },
+    {
+     "id": "q12f",
+     "label": "12f",
+     "section": "Problem-solving",
+     "stem": "Find the angle between the hour hand and the minute hand of a clock at these times. Give the angle that is $180^\\circ$ or less.",
+     "prompt": "$6{:}23$ p.m.",
+     "type": "numeric",
+     "answer": "53.5",
+     "units": "°"
+    },
+    {
+     "id": "q13a",
+     "label": "13a",
+     "section": "Reasoning",
+     "stem": "Answer each question. Drawing a diagram may help.",
+     "prompt": "Points $P$, $Q$ and $R$ are collinear, and points $P$, $Q$ and $S$ are collinear. Does this mean that points $Q$, $R$ and $S$ are also collinear?",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "Yes, always",
+      "No, not necessarily"
+     ]
+    },
+    {
+     "id": "q13b",
+     "label": "13b",
+     "section": "Reasoning",
+     "stem": "Answer each question. Drawing a diagram may help.",
+     "prompt": "Points $P$, $Q$ and $R$ are collinear, and points $R$, $S$ and $T$ are collinear. Does this mean that points $Q$, $R$ and $S$ are also collinear?",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "Yes, always",
+      "No, not necessarily"
+     ]
+    },
+    {
+     "id": "q14",
+     "label": "14",
+     "section": "Reasoning",
+     "prompt": "The acute angle $\\angle AOB$ is $48^\\circ$. Without using a protractor, find the size of the reflex angle $\\angle AOB$.",
+     "type": "numeric",
+     "answer": "312",
+     "units": "°",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         1.272,
+         2.035
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         2.561,
+         0.451
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         10,
+         58
+        ],
+        "label": "48°",
+        "r": 0.8
+       },
+       {
+        "angle": [
+         0,
+         0,
+         58,
+         10
+        ],
+        "label": "?",
+        "r": 0.4
+       },
+       {
+        "point": [
+         0,
+         0
+        ]
+       },
+       {
+        "label": "O",
+        "at": [
+         0.15,
+         -0.95
+        ]
+       },
+       {
+        "point": [
+         1.272,
+         2.035
+        ],
+        "name": "A",
+        "pos": "ne"
+       },
+       {
+        "point": [
+         2.561,
+         0.451
+        ],
+        "name": "B",
+        "pos": "e"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q15a",
+     "label": "15a",
+     "section": "Reasoning",
+     "stem": "The arrow on a dial starts pointing straight up. It then turns by the given number of degrees. Find the angle between its final position and its starting position, as an acute or obtuse angle. The diagram shows part i.",
+     "prompt": "$250^\\circ$ clockwise",
+     "type": "numeric",
+     "answer": "110",
+     "units": "°",
+     "stemFigure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "circle": [
+         0,
+         0,
+         2
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         0,
+         1.6
+        ],
+        "arrow": "end"
+       },
+       {
+        "seg": [
+         0,
+         0,
+         -1.504,
+         -0.547
+        ],
+        "arrow": "end"
+       },
+       {
+        "angle": [
+         0,
+         0,
+         200,
+         90
+        ],
+        "label": "250°",
+        "r": 0.75
+       },
+       {
+        "angle": [
+         0,
+         0,
+         90,
+         200
+        ],
+        "label": "?",
+        "r": 0.4
+       },
+       {
+        "point": [
+         0,
+         0
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q15b",
+     "label": "15b",
+     "section": "Reasoning",
+     "stem": "The arrow on a dial starts pointing straight up. It then turns by the given number of degrees. Find the angle between its final position and its starting position, as an acute or obtuse angle. The diagram shows part i.",
+     "prompt": "$250^\\circ$ anticlockwise",
+     "type": "numeric",
+     "answer": "110",
+     "units": "°"
+    },
+    {
+     "id": "q15c",
+     "label": "15c",
+     "section": "Reasoning",
+     "stem": "The arrow on a dial starts pointing straight up. It then turns by the given number of degrees. Find the angle between its final position and its starting position, as an acute or obtuse angle. The diagram shows part i.",
+     "prompt": "$400^\\circ$ clockwise",
+     "type": "numeric",
+     "answer": "40",
+     "units": "°"
+    },
+    {
+     "id": "q15d",
+     "label": "15d",
+     "section": "Reasoning",
+     "stem": "The arrow on a dial starts pointing straight up. It then turns by the given number of degrees. Find the angle between its final position and its starting position, as an acute or obtuse angle. The diagram shows part i.",
+     "prompt": "$400^\\circ$ anticlockwise",
+     "type": "numeric",
+     "answer": "40",
+     "units": "°"
+    },
+    {
+     "id": "q15e",
+     "label": "15e",
+     "section": "Reasoning",
+     "stem": "The arrow on a dial starts pointing straight up. It then turns by the given number of degrees. Find the angle between its final position and its starting position, as an acute or obtuse angle. The diagram shows part i.",
+     "prompt": "$1100^\\circ$ clockwise",
+     "type": "numeric",
+     "answer": "20",
+     "units": "°"
+    },
+    {
+     "id": "q15f",
+     "label": "15f",
+     "section": "Reasoning",
+     "stem": "The arrow on a dial starts pointing straight up. It then turns by the given number of degrees. Find the angle between its final position and its starting position, as an acute or obtuse angle. The diagram shows part i.",
+     "prompt": "$1100^\\circ$ anticlockwise",
+     "type": "numeric",
+     "answer": "20",
+     "units": "°"
+    },
+    {
+     "id": "q15g",
+     "label": "15g",
+     "section": "Reasoning",
+     "prompt": "Did it matter to the answers whether the dial turned clockwise or anticlockwise?",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "Yes",
+      "No"
+     ]
+    },
+    {
+     "id": "q16a",
+     "label": "16a",
+     "section": "Enrichment",
+     "stem": "A line has some labelled points on it. A segment joins any two of the labelled points. This line has three points.",
+     "prompt": "Complete the table by counting the total number of segments for each number of points. Type the six numbers in order.",
+     "type": "ordered",
+     "answer": [
+      "1",
+      "3",
+      "6",
+      "10",
+      "15",
+      "21"
+     ],
+     "stemFigure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         -0.5,
+         -0.15,
+         5,
+         0.85
+        ],
+        "arrow": "both"
+       },
+       {
+        "point": [
+         0.6,
+         0.05
+        ],
+        "name": "A",
+        "pos": "s"
+       },
+       {
+        "point": [
+         1.8,
+         0.268
+        ],
+        "name": "B",
+        "pos": "s"
+       },
+       {
+        "point": [
+         3.9,
+         0.65
+        ],
+        "name": "C",
+        "pos": "s"
+       }
+      ]
+     },
+     "figure": {
+      "kind": "table",
+      "rows": [
+       [
+        "Number of points",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+       ],
+       [
+        "Number of segments",
+        "?",
+        "?",
+        "?",
+        "?",
+        "?",
+        "?"
+       ]
+      ]
+     },
+     "hint": "Separate the numbers with commas"
+    },
+    {
+     "id": "q16b",
+     "label": "16b",
+     "section": "Enrichment",
+     "stem": "A line has some labelled points on it. A segment joins any two of the labelled points. This line has three points.",
+     "prompt": "How many segments are there on a line with $10$ labelled points?",
+     "type": "numeric",
+     "answer": "45"
+    },
+    {
+     "id": "q16c",
+     "label": "16c",
+     "section": "Enrichment",
+     "stem": "A line has some labelled points on it. A segment joins any two of the labelled points. This line has three points.",
+     "prompt": "Write a rule for the number of segments on a line with $n$ labelled points.",
+     "type": "expression",
+     "answer": "n(n-1)/2",
+     "hint": "Use n for the number of points. Type a fraction like (top)/2"
+    }
+   ]
+  },
+  {
+   "id": "7b",
+   "chapter": "Chapter 7: Geometry",
+   "title": "7B Adjacent and vertically opposite angles",
+   "description": "Find unknown angles using right angles, straight lines, revolutions and vertically opposite angles.",
+   "questions": [
+    {
+     "id": "q1a",
+     "label": "1a",
+     "section": "Fluency",
+     "stem": "Without using a protractor, find the value of the pronumeral $a$.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "65",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         2.4,
+         0
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         0,
+         2.4
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         2.175,
+         1.014
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         90
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         25
+        ],
+        "label": "25°",
+        "r": 0.9
+       },
+       {
+        "angle": [
+         0,
+         0,
+         25,
+         90
+        ],
+        "label": "a°",
+        "r": 0.9
+       }
+      ]
+     }
+    },
+    {
+     "id": "q1b",
+     "label": "1b",
+     "section": "Fluency",
+     "stem": "Without using a protractor, find the value of the pronumeral $a$.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "38",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         2.4,
+         0
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         0,
+         2.4
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         1.478,
+         1.891
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         90
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         52
+        ],
+        "label": "52°",
+        "r": 0.9
+       },
+       {
+        "angle": [
+         0,
+         0,
+         52,
+         90
+        ],
+        "label": "a°",
+        "r": 0.9
+       }
+      ]
+     }
+    },
+    {
+     "id": "q1c",
+     "label": "1c",
+     "section": "Fluency",
+     "stem": "Without using a protractor, find the value of the pronumeral $a$.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "72",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         2.4,
+         0
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         0,
+         2.4
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         2.283,
+         0.742
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         90
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         18
+        ],
+        "label": "18°",
+        "r": 1.6
+       },
+       {
+        "angle": [
+         0,
+         0,
+         18,
+         90
+        ],
+        "label": "a°",
+        "r": 0.9
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2a",
+     "label": "2a",
+     "section": "Fluency",
+     "stem": "Without using a protractor, find the value of the pronumeral $a$.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "55",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         -2.4,
+         0
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         0,
+         -2.4
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         -1.966,
+         -1.377
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         180,
+         270
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         0,
+         0,
+         180,
+         215
+        ],
+        "label": "35°",
+        "r": 0.9
+       },
+       {
+        "angle": [
+         0,
+         0,
+         215,
+         270
+        ],
+        "label": "a°",
+        "r": 0.9
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2b",
+     "label": "2b",
+     "section": "Fluency",
+     "stem": "Without using a protractor, find the value of the pronumeral $a$.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "66",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         2.4,
+         0
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         0,
+         2.4
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         2.193,
+         0.976
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         90
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         24
+        ],
+        "label": "24°",
+        "r": 1
+       },
+       {
+        "angle": [
+         0,
+         0,
+         24,
+         90
+        ],
+        "label": "a°",
+        "r": 1
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2c",
+     "label": "2c",
+     "section": "Fluency",
+     "stem": "Without using a protractor, find the value of the pronumeral $a$.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "22",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         0,
+         -2.4
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         2.4,
+         0
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         0.899,
+         -2.225
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         270,
+         0
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         0,
+         0,
+         270,
+         292
+        ],
+        "label": "a°",
+        "r": 1
+       },
+       {
+        "angle": [
+         0,
+         0,
+         292,
+         0
+        ],
+        "label": "68°",
+        "r": 1
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2d",
+     "label": "2d",
+     "section": "Fluency",
+     "stem": "Without using a protractor, find the value of the pronumeral $a$.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "55",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         -1.966,
+         -1.377
+        ]
+       },
+       {
+        "seg": [
+         0,
+         -2.4,
+         0,
+         2.4
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         90,
+         215
+        ],
+        "label": "125°",
+        "r": 0.7
+       },
+       {
+        "angle": [
+         0,
+         0,
+         215,
+         270
+        ],
+        "label": "a°",
+        "r": 0.7
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2e",
+     "label": "2e",
+     "section": "Fluency",
+     "stem": "Without using a protractor, find the value of the pronumeral $a$.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "46",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         -1.667,
+         1.726
+        ]
+       },
+       {
+        "seg": [
+         -2.4,
+         0,
+         2.4,
+         0
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         134
+        ],
+        "label": "134°",
+        "r": 0.7
+       },
+       {
+        "angle": [
+         0,
+         0,
+         134,
+         180
+        ],
+        "label": "a°",
+        "r": 0.7
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2f",
+     "label": "2f",
+     "section": "Fluency",
+     "stem": "Without using a protractor, find the value of the pronumeral $a$.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "142",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         -2.225,
+         0.899
+        ]
+       },
+       {
+        "seg": [
+         1.2,
+         -2.078,
+         -1.2,
+         2.078
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         120,
+         158
+        ],
+        "label": "38°",
+        "r": 1.4
+       },
+       {
+        "angle": [
+         0,
+         0,
+         158,
+         300
+        ],
+        "label": "a°",
+        "r": 0.9
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2g",
+     "label": "2g",
+     "section": "Fluency",
+     "stem": "Without using a protractor, find the value of the pronumeral $a$.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "33",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         0,
+         2.4
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         -2.013,
+         1.307
+        ]
+       },
+       {
+        "seg": [
+         -2.4,
+         0,
+         2.4,
+         0
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         90
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         0,
+         0,
+         90,
+         147
+        ],
+        "label": "57°",
+        "r": 0.9
+       },
+       {
+        "angle": [
+         0,
+         0,
+         147,
+         180
+        ],
+        "label": "a°",
+        "r": 0.9
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2h",
+     "label": "2h",
+     "section": "Fluency",
+     "stem": "Without using a protractor, find the value of the pronumeral $a$.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "42",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         1.606,
+         1.784
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         -1.784,
+         1.606
+        ]
+       },
+       {
+        "seg": [
+         -2.4,
+         0,
+         2.4,
+         0
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         48,
+         138
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         48
+        ],
+        "label": "48°",
+        "r": 0.9
+       },
+       {
+        "angle": [
+         0,
+         0,
+         138,
+         180
+        ],
+        "label": "a°",
+        "r": 0.9
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2i",
+     "label": "2i",
+     "section": "Fluency",
+     "stem": "Without using a protractor, find the value of the pronumeral $a$.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "27",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         0.292,
+         2.382
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         -2.382,
+         0.292
+        ]
+       },
+       {
+        "seg": [
+         -2.255,
+         -0.821,
+         2.255,
+         0.821
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         83,
+         173
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         0,
+         0,
+         20,
+         83
+        ],
+        "label": "63°",
+        "r": 0.9
+       },
+       {
+        "angle": [
+         0,
+         0,
+         173,
+         200
+        ],
+        "label": "a°",
+        "r": 1
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3a",
+     "label": "3a",
+     "section": "Fluency",
+     "stem": "Without using a protractor, find the value of the pronumeral $a$.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "62",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         -2.364,
+         -0.417,
+         2.364,
+         0.417
+        ]
+       },
+       {
+        "seg": [
+         -0.742,
+         -2.283,
+         0.742,
+         2.283
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         10,
+         72
+        ],
+        "label": "a°",
+        "r": 0.7
+       },
+       {
+        "angle": [
+         0,
+         0,
+         72,
+         190
+        ],
+        "label": "118°",
+        "r": 0.7
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3b",
+     "label": "3b",
+     "section": "Fluency",
+     "stem": "Without using a protractor, find the value of the pronumeral $a$.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "41",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         -1.2,
+         -2.078,
+         1.2,
+         2.078
+        ]
+       },
+       {
+        "seg": [
+         0.458,
+         -2.356,
+         -0.458,
+         2.356
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         60,
+         101
+        ],
+        "label": "a°",
+        "r": 0.9
+       },
+       {
+        "angle": [
+         0,
+         0,
+         240,
+         281
+        ],
+        "label": "41°",
+        "r": 0.9
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3c",
+     "label": "3c",
+     "section": "Fluency",
+     "stem": "Without using a protractor, find the value of the pronumeral $a$.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "72",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         -2.255,
+         0.821,
+         2.255,
+         -0.821
+        ]
+       },
+       {
+        "seg": [
+         -1.478,
+         -1.891,
+         1.478,
+         1.891
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         160,
+         232
+        ],
+        "label": "72°",
+        "r": 0.7
+       },
+       {
+        "angle": [
+         0,
+         0,
+         340,
+         52
+        ],
+        "label": "a°",
+        "r": 0.7
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3d",
+     "label": "3d",
+     "section": "Fluency",
+     "stem": "Without using a protractor, find the value of the pronumeral $a$.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "225",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         2.318,
+         0.621
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         -1.2,
+         -2.078
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         240,
+         15
+        ],
+        "label": "135°",
+        "r": 0.8
+       },
+       {
+        "angle": [
+         0,
+         0,
+         15,
+         240
+        ],
+        "label": "a°",
+        "r": 0.45
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3e",
+     "label": "3e",
+     "section": "Fluency",
+     "stem": "Without using a protractor, find the value of the pronumeral $a$.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "155",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         2.348,
+         0.499
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         -2.338,
+         0.54
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         167,
+         12
+        ],
+        "label": "205°",
+        "r": 0.45
+       },
+       {
+        "angle": [
+         0,
+         0,
+         12,
+         167
+        ],
+        "label": "a°",
+        "r": 0.8
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3f",
+     "label": "3f",
+     "section": "Fluency",
+     "stem": "Without using a protractor, find the value of the pronumeral $a$.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "270",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         2.4,
+         0
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         0,
+         2.4
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         90
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         0,
+         0,
+         90,
+         0
+        ],
+        "label": "a°",
+        "r": 0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3g",
+     "label": "3g",
+     "section": "Fluency",
+     "stem": "Without using a protractor, find the value of the pronumeral $a$.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "125",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         0,
+         2.4
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         -2.4,
+         0
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         1.966,
+         -1.377
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         90,
+         180
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         0,
+         0,
+         180,
+         325
+        ],
+        "label": "145°",
+        "r": 0.7
+       },
+       {
+        "angle": [
+         0,
+         0,
+         325,
+         90
+        ],
+        "label": "a°",
+        "r": 0.7
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3h",
+     "label": "3h",
+     "section": "Fluency",
+     "stem": "Without using a protractor, find the value of the pronumeral $a$.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "120",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         2.4,
+         0
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         0,
+         2.4
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         -1.2,
+         -2.078
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         90
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         0,
+         0,
+         90,
+         240
+        ],
+        "label": "150°",
+        "r": 0.7
+       },
+       {
+        "angle": [
+         0,
+         0,
+         240,
+         0
+        ],
+        "label": "a°",
+        "r": 0.7
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3i",
+     "label": "3i",
+     "section": "Fluency",
+     "stem": "Without using a protractor, find the value of the pronumeral $a$.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "118",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         0,
+         2.4
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         -1.606,
+         -1.784
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         2.119,
+         -1.127
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         90,
+         228
+        ],
+        "label": "138°",
+        "r": 0.7
+       },
+       {
+        "angle": [
+         0,
+         0,
+         228,
+         332
+        ],
+        "label": "104°",
+        "r": 0.7
+       },
+       {
+        "angle": [
+         0,
+         0,
+         332,
+         90
+        ],
+        "label": "a°",
+        "r": 0.7
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4a",
+     "label": "4a",
+     "section": "Fluency",
+     "stem": "Decide whether each pair of angles is complementary, supplementary or neither.",
+     "prompt": "$33^\\circ$ and $57^\\circ$",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "Complementary",
+      "Supplementary",
+      "Neither"
+     ]
+    },
+    {
+     "id": "q4b",
+     "label": "4b",
+     "section": "Fluency",
+     "stem": "Decide whether each pair of angles is complementary, supplementary or neither.",
+     "prompt": "$115^\\circ$ and $65^\\circ$",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "Complementary",
+      "Supplementary",
+      "Neither"
+     ]
+    },
+    {
+     "id": "q4c",
+     "label": "4c",
+     "section": "Fluency",
+     "stem": "Decide whether each pair of angles is complementary, supplementary or neither.",
+     "prompt": "$102^\\circ$ and $78^\\circ$",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "Complementary",
+      "Supplementary",
+      "Neither"
+     ]
+    },
+    {
+     "id": "q4d",
+     "label": "4d",
+     "section": "Fluency",
+     "stem": "Decide whether each pair of angles is complementary, supplementary or neither.",
+     "prompt": "$170^\\circ$ and $20^\\circ$",
+     "type": "choice",
+     "answer": 2,
+     "options": [
+      "Complementary",
+      "Supplementary",
+      "Neither"
+     ]
+    },
+    {
+     "id": "q4e",
+     "label": "4e",
+     "section": "Fluency",
+     "stem": "Decide whether each pair of angles is complementary, supplementary or neither.",
+     "prompt": "$26^\\circ$ and $64^\\circ$",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "Complementary",
+      "Supplementary",
+      "Neither"
+     ]
+    },
+    {
+     "id": "q4f",
+     "label": "4f",
+     "section": "Fluency",
+     "stem": "Decide whether each pair of angles is complementary, supplementary or neither.",
+     "prompt": "$44^\\circ$ and $47^\\circ$",
+     "type": "choice",
+     "answer": 2,
+     "options": [
+      "Complementary",
+      "Supplementary",
+      "Neither"
+     ]
+    },
+    {
+     "id": "q4g",
+     "label": "4g",
+     "section": "Fluency",
+     "stem": "Decide whether each pair of angles is complementary, supplementary or neither.",
+     "prompt": "$71^\\circ$ and $19^\\circ$",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "Complementary",
+      "Supplementary",
+      "Neither"
+     ]
+    },
+    {
+     "id": "q4h",
+     "label": "4h",
+     "section": "Fluency",
+     "stem": "Decide whether each pair of angles is complementary, supplementary or neither.",
+     "prompt": "$96^\\circ$ and $84^\\circ$",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "Complementary",
+      "Supplementary",
+      "Neither"
+     ]
+    },
+    {
+     "id": "q5a",
+     "label": "5a",
+     "section": "Fluency",
+     "stem": "Write a statement like $AB \\perp CD$ for each pair of perpendicular line segments.",
+     "prompt": "Write the statement.",
+     "type": "text",
+     "answer": "JK ⊥ LM",
+     "accept": [
+      "JK⊥LM",
+      "JK perp LM",
+      "JK is perpendicular to LM",
+      "JK perpendicular to LM",
+      "JK⊥ML",
+      "JK ⊥ ML",
+      "JK perp ML",
+      "JK is perpendicular to ML",
+      "JK perpendicular to ML",
+      "KJ⊥LM",
+      "KJ ⊥ LM",
+      "KJ perp LM",
+      "KJ is perpendicular to LM",
+      "KJ perpendicular to LM",
+      "KJ⊥ML",
+      "KJ ⊥ ML",
+      "KJ perp ML",
+      "KJ is perpendicular to ML",
+      "KJ perpendicular to ML",
+      "LM⊥JK",
+      "LM ⊥ JK",
+      "LM perp JK",
+      "LM is perpendicular to JK",
+      "LM perpendicular to JK",
+      "LM⊥KJ",
+      "LM ⊥ KJ",
+      "LM perp KJ",
+      "LM is perpendicular to KJ",
+      "LM perpendicular to KJ",
+      "ML⊥JK",
+      "ML ⊥ JK",
+      "ML perp JK",
+      "ML is perpendicular to JK",
+      "ML perpendicular to JK",
+      "ML⊥KJ",
+      "ML ⊥ KJ",
+      "ML perp KJ",
+      "ML is perpendicular to KJ",
+      "ML perpendicular to KJ"
+     ],
+     "hint": "Type the symbol ⊥ or the word perp, for example AB perp CD",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         -1.45,
+         -0.676,
+         1.813,
+         0.845
+        ]
+       },
+       {
+        "seg": [
+         -0.676,
+         1.45,
+         0.634,
+         -1.359
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         25,
+         115
+        ],
+        "right": true
+       },
+       {
+        "point": [
+         -1.45,
+         -0.676
+        ],
+        "name": "J",
+        "pos": "sw"
+       },
+       {
+        "point": [
+         1.813,
+         0.845
+        ],
+        "name": "K",
+        "pos": "ne"
+       },
+       {
+        "point": [
+         -0.676,
+         1.45
+        ],
+        "name": "L",
+        "pos": "nw"
+       },
+       {
+        "point": [
+         0.634,
+         -1.359
+        ],
+        "name": "M",
+        "pos": "se"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q5b",
+     "label": "5b",
+     "section": "Fluency",
+     "stem": "Write a statement like $AB \\perp CD$ for each pair of perpendicular line segments.",
+     "prompt": "Write the statement.",
+     "type": "text",
+     "answer": "PR ⊥ QS",
+     "accept": [
+      "PR⊥QS",
+      "PR perp QS",
+      "PR is perpendicular to QS",
+      "PR perpendicular to QS",
+      "PR⊥SQ",
+      "PR ⊥ SQ",
+      "PR perp SQ",
+      "PR is perpendicular to SQ",
+      "PR perpendicular to SQ",
+      "RP⊥QS",
+      "RP ⊥ QS",
+      "RP perp QS",
+      "RP is perpendicular to QS",
+      "RP perpendicular to QS",
+      "RP⊥SQ",
+      "RP ⊥ SQ",
+      "RP perp SQ",
+      "RP is perpendicular to SQ",
+      "RP perpendicular to SQ",
+      "QS⊥PR",
+      "QS ⊥ PR",
+      "QS perp PR",
+      "QS is perpendicular to PR",
+      "QS perpendicular to PR",
+      "QS⊥RP",
+      "QS ⊥ RP",
+      "QS perp RP",
+      "QS is perpendicular to RP",
+      "QS perpendicular to RP",
+      "SQ⊥PR",
+      "SQ ⊥ PR",
+      "SQ perp PR",
+      "SQ is perpendicular to PR",
+      "SQ perpendicular to PR",
+      "SQ⊥RP",
+      "SQ ⊥ RP",
+      "SQ perp RP",
+      "SQ is perpendicular to RP",
+      "SQ perpendicular to RP"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         3.58,
+         -0.376
+        ]
+       },
+       {
+        "seg": [
+         1.691,
+         -0.178,
+         1.471,
+         -2.266
+        ]
+       },
+       {
+        "angle": [
+         1.691,
+         -0.178,
+         264,
+         354
+        ],
+        "right": true
+       },
+       {
+        "point": [
+         0,
+         0
+        ],
+        "name": "P",
+        "pos": "w"
+       },
+       {
+        "point": [
+         3.58,
+         -0.376
+        ],
+        "name": "R",
+        "pos": "e"
+       },
+       {
+        "point": [
+         1.691,
+         -0.178
+        ],
+        "name": "Q",
+        "pos": "n"
+       },
+       {
+        "point": [
+         1.471,
+         -2.266
+        ],
+        "name": "S",
+        "pos": "s"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q5c",
+     "label": "5c",
+     "section": "Fluency",
+     "stem": "Write a statement like $AB \\perp CD$ for each pair of perpendicular line segments.",
+     "prompt": "Write the statement.",
+     "type": "text",
+     "answer": "AB ⊥ BC",
+     "accept": [
+      "AB⊥BC",
+      "AB perp BC",
+      "AB is perpendicular to BC",
+      "AB perpendicular to BC",
+      "AB⊥CB",
+      "AB ⊥ CB",
+      "AB perp CB",
+      "AB is perpendicular to CB",
+      "AB perpendicular to CB",
+      "BA⊥BC",
+      "BA ⊥ BC",
+      "BA perp BC",
+      "BA is perpendicular to BC",
+      "BA perpendicular to BC",
+      "BA⊥CB",
+      "BA ⊥ CB",
+      "BA perp CB",
+      "BA is perpendicular to CB",
+      "BA perpendicular to CB",
+      "BC⊥AB",
+      "BC ⊥ AB",
+      "BC perp AB",
+      "BC is perpendicular to AB",
+      "BC perpendicular to AB",
+      "BC⊥BA",
+      "BC ⊥ BA",
+      "BC perp BA",
+      "BC is perpendicular to BA",
+      "BC perpendicular to BA",
+      "CB⊥AB",
+      "CB ⊥ AB",
+      "CB perp AB",
+      "CB is perpendicular to AB",
+      "CB perpendicular to AB",
+      "CB⊥BA",
+      "CB ⊥ BA",
+      "CB perp BA",
+      "CB is perpendicular to BA",
+      "CB perpendicular to BA"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         -2.819,
+         1.026,
+         0,
+         0
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         -0.821,
+         -2.255
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         160,
+         250
+        ],
+        "right": true
+       },
+       {
+        "point": [
+         -2.819,
+         1.026
+        ],
+        "name": "A",
+        "pos": "w"
+       },
+       {
+        "point": [
+         0,
+         0
+        ],
+        "name": "B",
+        "pos": "ne"
+       },
+       {
+        "point": [
+         -0.821,
+         -2.255
+        ],
+        "name": "C",
+        "pos": "s"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q6a",
+     "label": "6a",
+     "section": "Fluency",
+     "stem": "Without using a protractor, find the value of $a$ in these diagrams.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "104",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         1.891,
+         1.478
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         -1.891,
+         1.478
+        ]
+       },
+       {
+        "seg": [
+         -2.4,
+         0,
+         2.4,
+         0
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         38
+        ],
+        "label": "38°",
+        "r": 0.9
+       },
+       {
+        "angle": [
+         0,
+         0,
+         38,
+         142
+        ],
+        "label": "a°",
+        "r": 0.9
+       },
+       {
+        "angle": [
+         0,
+         0,
+         142,
+         180
+        ],
+        "label": "38°",
+        "r": 0.9
+       }
+      ]
+     }
+    },
+    {
+     "id": "q6b",
+     "label": "6b",
+     "section": "Fluency",
+     "stem": "Without using a protractor, find the value of $a$ in these diagrams.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "72",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         -1.755,
+         1.637
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         -2.099,
+         -1.164
+        ]
+       },
+       {
+        "seg": [
+         0,
+         -2.4,
+         0,
+         2.4
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         90,
+         137
+        ],
+        "label": "47°",
+        "r": 0.7
+       },
+       {
+        "angle": [
+         0,
+         0,
+         137,
+         209
+        ],
+        "label": "a°",
+        "r": 0.7
+       },
+       {
+        "angle": [
+         0,
+         0,
+         209,
+         270
+        ],
+        "label": "61°",
+        "r": 0.7
+       }
+      ]
+     }
+    },
+    {
+     "id": "q6c",
+     "label": "6c",
+     "section": "Fluency",
+     "stem": "Without using a protractor, find the value of $a$ in these diagrams.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "47",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         0,
+         2.4
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         -2.4,
+         0
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         0.621,
+         -2.318
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         1.755,
+         1.637
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         90,
+         180
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         0,
+         0,
+         180,
+         285
+        ],
+        "label": "105°",
+        "r": 0.7
+       },
+       {
+        "angle": [
+         0,
+         0,
+         285,
+         43
+        ],
+        "label": "118°",
+        "r": 0.7
+       },
+       {
+        "angle": [
+         0,
+         0,
+         43,
+         90
+        ],
+        "label": "a°",
+        "r": 0.9
+       }
+      ]
+     }
+    },
+    {
+     "id": "q6d",
+     "label": "6d",
+     "section": "Fluency",
+     "stem": "Without using a protractor, find the value of $a$ in these diagrams.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "38",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         0,
+         2.4
+        ]
+       },
+       {
+        "seg": [
+         -2.4,
+         0,
+         2.4,
+         0
+        ]
+       },
+       {
+        "seg": [
+         1.478,
+         -1.891,
+         -1.478,
+         1.891
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         90
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         0,
+         0,
+         90,
+         128
+        ],
+        "label": "a°",
+        "r": 0.9
+       },
+       {
+        "angle": [
+         0,
+         0,
+         128,
+         180
+        ],
+        "label": "52°",
+        "r": 0.9
+       }
+      ]
+     }
+    },
+    {
+     "id": "q6e",
+     "label": "6e",
+     "section": "Fluency",
+     "stem": "Without using a protractor, find the value of $a$ in these diagrams.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "50",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         1.543,
+         1.839
+        ]
+       },
+       {
+        "seg": [
+         -2.4,
+         0,
+         2.4,
+         0
+        ]
+       },
+       {
+        "seg": [
+         1.839,
+         -1.543,
+         -1.839,
+         1.543
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         50,
+         140
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         50
+        ],
+        "label": "a°",
+        "r": 0.9
+       },
+       {
+        "angle": [
+         0,
+         0,
+         180,
+         320
+        ],
+        "label": "140°",
+        "r": 0.7
+       }
+      ]
+     }
+    },
+    {
+     "id": "q6f",
+     "label": "6f",
+     "section": "Fluency",
+     "stem": "Without using a protractor, find the value of $a$ in these diagrams.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "28",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         2.4,
+         0
+        ]
+       },
+       {
+        "seg": [
+         0,
+         -2.4,
+         0,
+         2.4
+        ]
+       },
+       {
+        "seg": [
+         -1.127,
+         -2.119,
+         1.127,
+         2.119
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         90
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         0,
+         0,
+         62,
+         90
+        ],
+        "label": "28°",
+        "r": 1.6
+       },
+       {
+        "angle": [
+         0,
+         0,
+         242,
+         270
+        ],
+        "label": "a°",
+        "r": 1.6
+       }
+      ]
+     }
+    },
+    {
+     "id": "q7a",
+     "label": "7a",
+     "section": "Problem-solving",
+     "stem": "Decide whether the angle sizes given in each diagram are possible. (The diagrams are not drawn to scale.)",
+     "prompt": "Are these angle sizes possible?",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "Possible",
+      "Not possible"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         2.4,
+         0
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         0,
+         2.4
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         1.99,
+         1.342
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         90
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         34
+        ],
+        "label": "31°",
+        "r": 1
+       },
+       {
+        "angle": [
+         0,
+         0,
+         34,
+         90
+        ],
+        "label": "54°",
+        "r": 1
+       }
+      ]
+     }
+    },
+    {
+     "id": "q7b",
+     "label": "7b",
+     "section": "Problem-solving",
+     "stem": "Decide whether the angle sizes given in each diagram are possible. (The diagrams are not drawn to scale.)",
+     "prompt": "Are these angle sizes possible?",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "Possible",
+      "Not possible"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         1.697,
+         1.697
+        ]
+       },
+       {
+        "seg": [
+         -2.4,
+         0,
+         2.4,
+         0
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         45
+        ],
+        "label": "45°",
+        "r": 0.8
+       },
+       {
+        "angle": [
+         0,
+         0,
+         45,
+         180
+        ],
+        "label": "135°",
+        "r": 0.8
+       }
+      ]
+     }
+    },
+    {
+     "id": "q7c",
+     "label": "7c",
+     "section": "Problem-solving",
+     "stem": "Decide whether the angle sizes given in each diagram are possible. (The diagrams are not drawn to scale.)",
+     "prompt": "Are these angle sizes possible?",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "Possible",
+      "Not possible"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         2.255,
+         0.821
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         0.821,
+         2.255
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         20,
+         70
+        ],
+        "label": "50°",
+        "r": 0.8
+       },
+       {
+        "angle": [
+         0,
+         0,
+         70,
+         20
+        ],
+        "label": "300°",
+        "r": 0.45
+       }
+      ]
+     }
+    },
+    {
+     "id": "q7d",
+     "label": "7d",
+     "section": "Problem-solving",
+     "stem": "Decide whether the angle sizes given in each diagram are possible. (The diagrams are not drawn to scale.)",
+     "prompt": "Are these angle sizes possible?",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "Possible",
+      "Not possible"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         -2.078,
+         -1.2,
+         2.078,
+         1.2
+        ]
+       },
+       {
+        "seg": [
+         -0.899,
+         -2.225,
+         0.899,
+         2.225
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         30,
+         68
+        ],
+        "label": "38°",
+        "r": 0.9
+       },
+       {
+        "angle": [
+         0,
+         0,
+         210,
+         248
+        ],
+        "label": "38°",
+        "r": 0.9
+       }
+      ]
+     }
+    },
+    {
+     "id": "q7e",
+     "label": "7e",
+     "section": "Problem-solving",
+     "stem": "Decide whether the angle sizes given in each diagram are possible. (The diagrams are not drawn to scale.)",
+     "prompt": "Are these angle sizes possible?",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "Possible",
+      "Not possible"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         -2.255,
+         0.821,
+         2.255,
+         -0.821
+        ]
+       },
+       {
+        "seg": [
+         -2.193,
+         -0.976,
+         2.193,
+         0.976
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         340,
+         24
+        ],
+        "label": "44°",
+        "r": 0.9
+       },
+       {
+        "angle": [
+         0,
+         0,
+         160,
+         204
+        ],
+        "label": "136°",
+        "r": 0.9
+       }
+      ]
+     }
+    },
+    {
+     "id": "q7f",
+     "label": "7f",
+     "section": "Problem-solving",
+     "stem": "Decide whether the angle sizes given in each diagram are possible. (The diagrams are not drawn to scale.)",
+     "prompt": "Are these angle sizes possible?",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "Possible",
+      "Not possible"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         -1.839,
+         1.543
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         -1.966,
+         -1.377
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         140,
+         215
+        ],
+        "label": "75°",
+        "r": 0.8
+       },
+       {
+        "angle": [
+         0,
+         0,
+         215,
+         140
+        ],
+        "label": "285°",
+        "r": 0.45
+       }
+      ]
+     }
+    },
+    {
+     "id": "q8a",
+     "label": "8a",
+     "section": "Problem-solving",
+     "stem": "Find the value of $a$ in these diagrams.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "36",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         1.942,
+         1.411
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         0.742,
+         2.283
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         -0.742,
+         2.283
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         -1.942,
+         1.411
+        ]
+       },
+       {
+        "seg": [
+         -2.4,
+         0,
+         2.4,
+         0
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         36
+        ],
+        "label": "a°",
+        "r": 1
+       },
+       {
+        "angle": [
+         0,
+         0,
+         36,
+         72
+        ],
+        "label": "a°",
+        "r": 1
+       },
+       {
+        "angle": [
+         0,
+         0,
+         72,
+         108
+        ],
+        "label": "a°",
+        "r": 1
+       },
+       {
+        "angle": [
+         0,
+         0,
+         108,
+         144
+        ],
+        "label": "a°",
+        "r": 1
+       },
+       {
+        "angle": [
+         0,
+         0,
+         144,
+         180
+        ],
+        "label": "a°",
+        "r": 1
+       }
+      ]
+     }
+    },
+    {
+     "id": "q8b",
+     "label": "8b",
+     "section": "Problem-solving",
+     "stem": "Find the value of $a$ in these diagrams.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "45",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         1.697,
+         1.697
+        ]
+       },
+       {
+        "seg": [
+         -2.4,
+         0,
+         2.4,
+         0
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         45
+        ],
+        "label": "a°",
+        "r": 0.9
+       },
+       {
+        "angle": [
+         0,
+         0,
+         45,
+         180
+        ],
+        "label": "(3a)°",
+        "r": 0.9
+       }
+      ]
+     }
+    },
+    {
+     "id": "q8c",
+     "label": "8c",
+     "section": "Problem-solving",
+     "stem": "Find the value of $a$ in these diagrams.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "40",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         0,
+         2.4
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         -2.364,
+         0.417
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         0.821,
+         -2.255
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         90,
+         170
+        ],
+        "label": "(2a)°",
+        "r": 0.7
+       },
+       {
+        "angle": [
+         0,
+         0,
+         170,
+         290
+        ],
+        "label": "(3a)°",
+        "r": 0.7
+       },
+       {
+        "angle": [
+         0,
+         0,
+         290,
+         90
+        ],
+        "label": "(4a)°",
+        "r": 0.7
+       }
+      ]
+     }
+    },
+    {
+     "id": "q8d",
+     "label": "8d",
+     "section": "Problem-solving",
+     "stem": "Find the value of $a$ in these diagrams.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "40",
+     "figure": {
+      "kind": "diagram",
+      "unit": 60,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         2.4,
+         0
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         0,
+         2.4
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         1.377,
+         1.966
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         90
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         55
+        ],
+        "r": 0.9
+       },
+       {
+        "label": "(a + 15)°",
+        "at": [
+         1.552,
+         0.808
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         55,
+         90
+        ],
+        "r": 0.9
+       },
+       {
+        "label": "(a - 5)°",
+        "at": [
+         0.571,
+         1.812
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q8e",
+     "label": "8e",
+     "section": "Problem-solving",
+     "stem": "Find the value of $a$ in these diagrams.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "80",
+     "figure": {
+      "kind": "diagram",
+      "unit": 60,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         -1.543,
+         1.839
+        ]
+       },
+       {
+        "seg": [
+         -2.4,
+         0,
+         2.4,
+         0
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         130
+        ],
+        "r": 0.8
+       },
+       {
+        "label": "(a + 50)°",
+        "at": [
+         0.592,
+         1.269
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         130,
+         180
+        ],
+        "r": 0.8
+       },
+       {
+        "label": "(a - 30)°",
+        "at": [
+         -1.631,
+         0.761
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q8f",
+     "label": "8f",
+     "section": "Problem-solving",
+     "stem": "Find the value of $a$ in these diagrams.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "20",
+     "figure": {
+      "kind": "diagram",
+      "unit": 50,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         0.417,
+         2.364
+        ]
+       },
+       {
+        "seg": [
+         -2.4,
+         0,
+         2.4,
+         0
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         80
+        ],
+        "label": "(4a)°",
+        "r": 1
+       },
+       {
+        "angle": [
+         0,
+         0,
+         80,
+         180
+        ],
+        "label": "(5a)°",
+        "r": 1
+       }
+      ]
+     }
+    },
+    {
+     "id": "q9",
+     "label": "9",
+     "section": "Problem-solving",
+     "prompt": "A round pizza is shared by four friends. Dee and Cam get the same amount, Ben gets twice as much as Cam, and Ana gets twice as much as Ben. The pizza is cut into slices from the centre outwards. Find the angle at the centre of the pizza for Dee's piece.",
+     "type": "numeric",
+     "answer": "45",
+     "units": "°"
+    },
+    {
+     "id": "q10a",
+     "label": "10a",
+     "section": "Reasoning",
+     "stem": "Answer yes or no.",
+     "prompt": "Is it possible for two acute angles to be supplementary?",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "Yes",
+      "No"
+     ]
+    },
+    {
+     "id": "q10b",
+     "label": "10b",
+     "section": "Reasoning",
+     "stem": "Answer yes or no.",
+     "prompt": "Is it possible for two acute angles to be complementary?",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "Yes",
+      "No"
+     ]
+    },
+    {
+     "id": "q11a",
+     "label": "11a",
+     "section": "Reasoning",
+     "stem": "Write a rule connecting the letters in each diagram, for example $a + b = 180$.",
+     "prompt": "Write the rule.",
+     "type": "expression",
+     "answer": "a+b=90",
+     "hint": "Type an equation, for example a + b = 180",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         2.4,
+         0
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         0,
+         2.4
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         1.966,
+         1.377
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         90
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         35
+        ],
+        "label": "b°",
+        "r": 1
+       },
+       {
+        "angle": [
+         0,
+         0,
+         35,
+         90
+        ],
+        "label": "a°",
+        "r": 1
+       }
+      ]
+     }
+    },
+    {
+     "id": "q11b",
+     "label": "11b",
+     "section": "Reasoning",
+     "stem": "Write a rule connecting the letters in each diagram, for example $a + b = 180$.",
+     "prompt": "Write the rule.",
+     "type": "expression",
+     "answer": "a+b+c=180",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         1.543,
+         1.839
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         -1.014,
+         2.175
+        ]
+       },
+       {
+        "seg": [
+         -2.4,
+         0,
+         2.4,
+         0
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         50
+        ],
+        "label": "c°",
+        "r": 0.8
+       },
+       {
+        "angle": [
+         0,
+         0,
+         50,
+         115
+        ],
+        "label": "b°",
+        "r": 0.8
+       },
+       {
+        "angle": [
+         0,
+         0,
+         115,
+         180
+        ],
+        "label": "a°",
+        "r": 0.8
+       }
+      ]
+     }
+    },
+    {
+     "id": "q11c",
+     "label": "11c",
+     "section": "Reasoning",
+     "stem": "Write a rule connecting the letters in each diagram, for example $a + b = 180$.",
+     "prompt": "Write the rule.",
+     "type": "expression",
+     "answer": "a+b=270",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         2.4,
+         0
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         0,
+         2.4
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         -1.966,
+         -1.377
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         90
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         0,
+         0,
+         90,
+         215
+        ],
+        "label": "a°",
+        "r": 0.7
+       },
+       {
+        "angle": [
+         0,
+         0,
+         215,
+         0
+        ],
+        "label": "b°",
+        "r": 0.7
+       }
+      ]
+     }
+    },
+    {
+     "id": "q12",
+     "label": "12",
+     "section": "Reasoning",
+     "prompt": "Three straight lines cross at one point, making six angles. What is the smallest number of these angles you would need to measure so that you could work out all six?",
+     "type": "numeric",
+     "answer": "2",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         -2.318,
+         -0.621,
+         2.318,
+         0.621
+        ]
+       },
+       {
+        "seg": [
+         -0.821,
+         -2.255,
+         0.821,
+         2.255
+        ]
+       },
+       {
+        "seg": [
+         1.478,
+         -1.891,
+         -1.478,
+         1.891
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q13a",
+     "label": "13a",
+     "section": "Enrichment",
+     "stem": "Imagine walking around a path shaped like this regular hexagon. All sides are the same length and all the inside angles are equal. At each corner you turn through the outside angle $a^\\circ$; the inside angle is $b^\\circ$.",
+     "prompt": "How many degrees would you turn in total after walking once around the shape, ending up facing the same way as you started?",
+     "type": "numeric",
+     "answer": "360",
+     "units": "°",
+     "stemFigure": {
+      "kind": "diagram",
+      "unit": 44,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          2
+         ],
+         [
+          -1.732,
+          1
+         ],
+         [
+          -1.732,
+          -1
+         ],
+         [
+          0,
+          -2
+         ],
+         [
+          1.732,
+          -1
+         ],
+         [
+          1.732,
+          1
+         ]
+        ]
+       },
+       {
+        "seg": [
+         0,
+         2,
+         -0.693,
+         2.4
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         0,
+         2,
+         150,
+         210
+        ],
+        "label": "a°",
+        "r": 0.45
+       },
+       {
+        "angle": [
+         0,
+         2,
+         210,
+         330
+        ],
+        "label": "b°",
+        "r": 0.4
+       },
+       {
+        "seg": [
+         -1.732,
+         1,
+         -2.425,
+         0.6
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         -1.732,
+         1,
+         210,
+         270
+        ],
+        "label": "a°",
+        "r": 0.45
+       },
+       {
+        "angle": [
+         -1.732,
+         1,
+         270,
+         30
+        ],
+        "label": "b°",
+        "r": 0.4
+       },
+       {
+        "seg": [
+         -1.732,
+         -1,
+         -1.732,
+         -1.8
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         -1.732,
+         -1,
+         270,
+         330
+        ],
+        "label": "a°",
+        "r": 0.45
+       },
+       {
+        "angle": [
+         -1.732,
+         -1,
+         330,
+         90
+        ],
+        "label": "b°",
+        "r": 0.4
+       },
+       {
+        "seg": [
+         0,
+         -2,
+         0.693,
+         -2.4
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         0,
+         -2,
+         330,
+         30
+        ],
+        "label": "a°",
+        "r": 0.45
+       },
+       {
+        "angle": [
+         0,
+         -2,
+         30,
+         150
+        ],
+        "label": "b°",
+        "r": 0.4
+       },
+       {
+        "seg": [
+         1.732,
+         -1,
+         2.425,
+         -0.6
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         1.732,
+         -1,
+         30,
+         90
+        ],
+        "label": "a°",
+        "r": 0.45
+       },
+       {
+        "angle": [
+         1.732,
+         -1,
+         90,
+         210
+        ],
+        "label": "b°",
+        "r": 0.4
+       },
+       {
+        "seg": [
+         1.732,
+         1,
+         1.732,
+         1.8
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         1.732,
+         1,
+         90,
+         150
+        ],
+        "label": "a°",
+        "r": 0.45
+       },
+       {
+        "angle": [
+         1.732,
+         1,
+         150,
+         270
+        ],
+        "label": "b°",
+        "r": 0.4
+       }
+      ]
+     }
+    },
+    {
+     "id": "q13b",
+     "label": "13b",
+     "section": "Enrichment",
+     "stem": "Imagine walking around a path shaped like this regular hexagon. All sides are the same length and all the inside angles are equal. At each corner you turn through the outside angle $a^\\circ$; the inside angle is $b^\\circ$.",
+     "prompt": "Find the value of $a$.",
+     "type": "numeric",
+     "answer": "60"
+    },
+    {
+     "id": "q13c",
+     "label": "13c",
+     "section": "Enrichment",
+     "stem": "Imagine walking around a path shaped like this regular hexagon. All sides are the same length and all the inside angles are equal. At each corner you turn through the outside angle $a^\\circ$; the inside angle is $b^\\circ$.",
+     "prompt": "Find the value of $b$.",
+     "type": "numeric",
+     "answer": "120"
+    },
+    {
+     "id": "q13d",
+     "label": "13d",
+     "section": "Enrichment",
+     "stem": "Imagine walking around a path shaped like this regular hexagon. All sides are the same length and all the inside angles are equal. At each corner you turn through the outside angle $a^\\circ$; the inside angle is $b^\\circ$.",
+     "prompt": "For a regular octagon (8 sides), find the outside angle $a$.",
+     "type": "numeric",
+     "answer": "45"
+    },
+    {
+     "id": "q13e",
+     "label": "13e",
+     "section": "Enrichment",
+     "stem": "Imagine walking around a path shaped like this regular hexagon. All sides are the same length and all the inside angles are equal. At each corner you turn through the outside angle $a^\\circ$; the inside angle is $b^\\circ$.",
+     "prompt": "For a regular octagon, find the inside angle $b$.",
+     "type": "numeric",
+     "answer": "135"
+    },
+    {
+     "id": "q13f",
+     "label": "13f",
+     "section": "Enrichment",
+     "stem": "Imagine walking around a path shaped like this regular hexagon. All sides are the same length and all the inside angles are equal. At each corner you turn through the outside angle $a^\\circ$; the inside angle is $b^\\circ$.",
+     "prompt": "For a regular decagon (10 sides), find the inside angle $b$.",
+     "type": "numeric",
+     "answer": "144"
+    }
+   ]
+  },
+  {
+   "id": "7c",
+   "chapter": "Chapter 7: Geometry",
+   "title": "7C Transversal and parallel lines",
+   "description": "Name corresponding, alternate and co-interior angles, and use parallel lines to find unknown angles.",
+   "questions": [
+    {
+     "id": "q1a",
+     "label": "1a",
+     "section": "Fluency",
+     "stem": "Name the angle that is:",
+     "prompt": "corresponding to $\\angle TVP$",
+     "type": "text",
+     "answer": "∠VWR",
+     "accept": [
+      "VWR",
+      "∠ VWR",
+      "angle VWR",
+      "<VWR",
+      "RWV",
+      "∠RWV",
+      "∠ RWV",
+      "angle RWV",
+      "<RWV"
+     ],
+     "stemFigure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         -2.6,
+         0,
+         2.6,
+         0
+        ],
+        "arrow": "both"
+       },
+       {
+        "par": [
+         1.43,
+         0,
+         1.73,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         -1.473,
+         2.119,
+         3.727,
+         2.119
+        ],
+        "arrow": "both"
+       },
+       {
+        "par": [
+         2.557,
+         2.119,
+         2.857,
+         2.119
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         -0.516,
+         -0.971,
+         1.643,
+         3.09
+        ],
+        "arrow": "both"
+       },
+       {
+        "point": [
+         2.21,
+         0
+        ],
+        "name": "S",
+        "pos": "n"
+       },
+       {
+        "point": [
+         -2.21,
+         0
+        ],
+        "name": "R",
+        "pos": "n"
+       },
+       {
+        "point": [
+         3.337,
+         2.119
+        ],
+        "name": "Q",
+        "pos": "n"
+       },
+       {
+        "point": [
+         -1.083,
+         2.119
+        ],
+        "name": "P",
+        "pos": "n"
+       },
+       {
+        "point": [
+         -0.413,
+         -0.777
+        ],
+        "name": "U",
+        "pos": "nw"
+       },
+       {
+        "point": [
+         1.54,
+         2.896
+        ],
+        "name": "T",
+        "pos": "nw"
+       },
+       {
+        "point": [
+         0,
+         0
+        ],
+        "name": "W",
+        "pos": "se"
+       },
+       {
+        "point": [
+         1.127,
+         2.119
+        ],
+        "name": "V",
+        "pos": "se"
+       }
+      ]
+     },
+     "hint": "Type the three letters with the vertex in the middle, for example ABC"
+    },
+    {
+     "id": "q1b",
+     "label": "1b",
+     "section": "Fluency",
+     "stem": "Name the angle that is:",
+     "prompt": "alternate to $\\angle PVW$",
+     "type": "text",
+     "answer": "∠SWV",
+     "accept": [
+      "SWV",
+      "∠ SWV",
+      "angle SWV",
+      "<SWV",
+      "VWS",
+      "∠VWS",
+      "∠ VWS",
+      "angle VWS",
+      "<VWS"
+     ]
+    },
+    {
+     "id": "q1c",
+     "label": "1c",
+     "section": "Fluency",
+     "stem": "Name the angle that is:",
+     "prompt": "co-interior to $\\angle SWV$",
+     "type": "text",
+     "answer": "∠WVQ",
+     "accept": [
+      "WVQ",
+      "∠ WVQ",
+      "angle WVQ",
+      "<WVQ",
+      "QVW",
+      "∠QVW",
+      "∠ QVW",
+      "angle QVW",
+      "<QVW"
+     ]
+    },
+    {
+     "id": "q1d",
+     "label": "1d",
+     "section": "Fluency",
+     "stem": "Name the angle that is:",
+     "prompt": "vertically opposite to $\\angle QVT$",
+     "type": "text",
+     "answer": "∠PVW",
+     "accept": [
+      "PVW",
+      "∠ PVW",
+      "angle PVW",
+      "<PVW",
+      "WVP",
+      "∠WVP",
+      "∠ WVP",
+      "angle WVP",
+      "<WVP"
+     ]
+    },
+    {
+     "id": "q2a",
+     "label": "2a",
+     "section": "Fluency",
+     "stem": "Name the angle that is:",
+     "prompt": "corresponding to $\\angle JMN$",
+     "type": "text",
+     "answer": "∠GNE",
+     "accept": [
+      "GNE",
+      "∠ GNE",
+      "angle GNE",
+      "<GNE",
+      "ENG",
+      "∠ENG",
+      "∠ ENG",
+      "angle ENG",
+      "<ENG"
+     ],
+     "stemFigure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         2.078,
+         -1.2,
+         -2.078,
+         1.2
+        ],
+        "arrow": "both"
+       },
+       {
+        "par": [
+         -1.143,
+         0.66,
+         -1.403,
+         0.81
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         0.393,
+         -2.614,
+         -3.764,
+         -0.214
+        ],
+        "arrow": "both"
+       },
+       {
+        "par": [
+         -2.828,
+         -0.754,
+         -3.088,
+         -0.604
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         0.843,
+         0.707,
+         -2.528,
+         -2.121
+        ],
+        "arrow": "both"
+       },
+       {
+        "point": [
+         -1.767,
+         1.02
+        ],
+        "name": "J",
+        "pos": "sw"
+       },
+       {
+        "point": [
+         1.767,
+         -1.02
+        ],
+        "name": "K",
+        "pos": "sw"
+       },
+       {
+        "point": [
+         -3.452,
+         -0.394
+        ],
+        "name": "G",
+        "pos": "sw"
+       },
+       {
+        "point": [
+         0.081,
+         -2.434
+        ],
+        "name": "H",
+        "pos": "sw"
+       },
+       {
+        "point": [
+         0.674,
+         0.566
+        ],
+        "name": "F",
+        "pos": "se"
+       },
+       {
+        "point": [
+         -2.359,
+         -1.98
+        ],
+        "name": "E",
+        "pos": "se"
+       },
+       {
+        "point": [
+         0,
+         0
+        ],
+        "name": "M",
+        "pos": "n"
+       },
+       {
+        "point": [
+         -1.685,
+         -1.414
+        ],
+        "name": "N",
+        "pos": "n"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2b",
+     "label": "2b",
+     "section": "Fluency",
+     "stem": "Name the angle that is:",
+     "prompt": "alternate to $\\angle JMN$",
+     "type": "text",
+     "answer": "∠HNM",
+     "accept": [
+      "HNM",
+      "∠ HNM",
+      "angle HNM",
+      "<HNM",
+      "MNH",
+      "∠MNH",
+      "∠ MNH",
+      "angle MNH",
+      "<MNH"
+     ]
+    },
+    {
+     "id": "q2c",
+     "label": "2c",
+     "section": "Fluency",
+     "stem": "Name the angle that is:",
+     "prompt": "co-interior to $\\angle JMN$",
+     "type": "text",
+     "answer": "∠MNG",
+     "accept": [
+      "MNG",
+      "∠ MNG",
+      "angle MNG",
+      "<MNG",
+      "GNM",
+      "∠GNM",
+      "∠ GNM",
+      "angle GNM",
+      "<GNM"
+     ]
+    },
+    {
+     "id": "q2d",
+     "label": "2d",
+     "section": "Fluency",
+     "stem": "Name the angle that is:",
+     "prompt": "vertically opposite to $\\angle JMN$",
+     "type": "text",
+     "answer": "∠KMF",
+     "accept": [
+      "KMF",
+      "∠ KMF",
+      "angle KMF",
+      "<KMF",
+      "FMK",
+      "∠FMK",
+      "∠ FMK",
+      "angle FMK",
+      "<FMK"
+     ]
+    },
+    {
+     "id": "q3a",
+     "label": "3a",
+     "section": "Fluency",
+     "stem": "Name the angle that is:",
+     "prompt": "corresponding to $\\angle CDW$",
+     "type": "text",
+     "answer": "∠YCA",
+     "accept": [
+      "YCA",
+      "∠ YCA",
+      "angle YCA",
+      "<YCA",
+      "ACY",
+      "∠ACY",
+      "∠ ACY",
+      "angle ACY",
+      "<ACY"
+     ],
+     "stemFigure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         -2.4,
+         0,
+         2.4
+        ],
+        "arrow": "both"
+       },
+       {
+        "par": [
+         0,
+         1.32,
+         0,
+         1.62
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         -2.255,
+         -1.579,
+         -2.255,
+         3.221
+        ],
+        "arrow": "both"
+       },
+       {
+        "par": [
+         -2.255,
+         2.141,
+         -2.255,
+         2.441
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         1.034,
+         -0.376,
+         -3.289,
+         1.197
+        ],
+        "arrow": "both"
+       },
+       {
+        "point": [
+         0,
+         2.04
+        ],
+        "name": "A",
+        "pos": "w"
+       },
+       {
+        "point": [
+         0,
+         -2.04
+        ],
+        "name": "B",
+        "pos": "w"
+       },
+       {
+        "point": [
+         -2.255,
+         2.861
+        ],
+        "name": "W",
+        "pos": "w"
+       },
+       {
+        "point": [
+         -2.255,
+         -1.219
+        ],
+        "name": "X",
+        "pos": "w"
+       },
+       {
+        "point": [
+         0.827,
+         -0.301
+        ],
+        "name": "Y",
+        "pos": "s"
+       },
+       {
+        "point": [
+         -3.082,
+         1.122
+        ],
+        "name": "Z",
+        "pos": "s"
+       },
+       {
+        "point": [
+         0,
+         0
+        ],
+        "name": "C",
+        "pos": "ne"
+       },
+       {
+        "point": [
+         -2.255,
+         0.821
+        ],
+        "name": "D",
+        "pos": "ne"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3b",
+     "label": "3b",
+     "section": "Fluency",
+     "stem": "Name the angle that is:",
+     "prompt": "alternate to $\\angle CDW$",
+     "type": "text",
+     "answer": "∠DCB",
+     "accept": [
+      "DCB",
+      "∠ DCB",
+      "angle DCB",
+      "<DCB",
+      "BCD",
+      "∠BCD",
+      "∠ BCD",
+      "angle BCD",
+      "<BCD"
+     ]
+    },
+    {
+     "id": "q3c",
+     "label": "3c",
+     "section": "Fluency",
+     "stem": "Name the angle that is:",
+     "prompt": "co-interior to $\\angle CDW$",
+     "type": "text",
+     "answer": "∠ACD",
+     "accept": [
+      "ACD",
+      "∠ ACD",
+      "angle ACD",
+      "<ACD",
+      "DCA",
+      "∠DCA",
+      "∠ DCA",
+      "angle DCA",
+      "<DCA"
+     ]
+    },
+    {
+     "id": "q3d",
+     "label": "3d",
+     "section": "Fluency",
+     "stem": "Name the angle that is:",
+     "prompt": "vertically opposite to $\\angle CDW$",
+     "type": "text",
+     "answer": "∠ZDX",
+     "accept": [
+      "ZDX",
+      "∠ ZDX",
+      "angle ZDX",
+      "<ZDX",
+      "XDZ",
+      "∠XDZ",
+      "∠ XDZ",
+      "angle XDZ",
+      "<XDZ"
+     ]
+    },
+    {
+     "id": "q4a",
+     "label": "4a",
+     "section": "Fluency",
+     "stem": "Find the value of $a$ in each diagram.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "124",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         -2.4,
+         0,
+         2.4,
+         0
+        ],
+        "arrow": "both"
+       },
+       {
+        "par": [
+         1.32,
+         0,
+         1.62,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         -1.17,
+         1.824,
+         3.63,
+         1.824
+        ],
+        "arrow": "both"
+       },
+       {
+        "par": [
+         2.55,
+         1.824,
+         2.85,
+         1.824
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         -0.615,
+         -0.912,
+         1.845,
+         2.736
+        ],
+        "arrow": "both"
+       },
+       {
+        "angle": [
+         0,
+         0,
+         56,
+         180
+        ],
+        "label": "124°",
+        "r": 0.6
+       },
+       {
+        "angle": [
+         1.23,
+         1.824,
+         56,
+         180
+        ],
+        "label": "a°",
+        "r": 0.6
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4b",
+     "label": "4b",
+     "section": "Fluency",
+     "stem": "Find the value of $a$ in each diagram.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "68",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         -2.348,
+         -0.499,
+         2.348,
+         0.499
+        ],
+        "arrow": "both"
+       },
+       {
+        "par": [
+         1.291,
+         0.274,
+         1.585,
+         0.337
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         -1.966,
+         1.668,
+         2.73,
+         2.666
+        ],
+        "arrow": "both"
+       },
+       {
+        "par": [
+         1.673,
+         2.441,
+         1.967,
+         2.503
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         -0.191,
+         -1.083,
+         0.573,
+         3.25
+        ],
+        "arrow": "both"
+       },
+       {
+        "angle": [
+         0,
+         0,
+         12,
+         80
+        ],
+        "label": "68°",
+        "r": 0.6
+       },
+       {
+        "angle": [
+         0.382,
+         2.167,
+         192,
+         260
+        ],
+        "label": "a°",
+        "r": 0.6
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4c",
+     "label": "4c",
+     "section": "Fluency",
+     "stem": "Find the value of $a$ in each diagram.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "65",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         -2.318,
+         0.621,
+         2.318,
+         -0.621
+        ],
+        "arrow": "both"
+       },
+       {
+        "par": [
+         1.275,
+         -0.342,
+         1.565,
+         -0.419
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         -0.904,
+         2.306,
+         3.732,
+         1.064
+        ],
+        "arrow": "both"
+       },
+       {
+        "par": [
+         2.689,
+         1.344,
+         2.979,
+         1.266
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         -0.707,
+         -0.843,
+         2.121,
+         2.528
+        ],
+        "arrow": "both"
+       },
+       {
+        "angle": [
+         1.414,
+         1.685,
+         230,
+         345
+        ],
+        "label": "115°",
+        "r": 0.6
+       },
+       {
+        "angle": [
+         0,
+         0,
+         345,
+         50
+        ],
+        "label": "a°",
+        "r": 0.6
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4d",
+     "label": "4d",
+     "section": "Fluency",
+     "stem": "Find the value of $a$ in each diagram.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "118",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0.417,
+         -2.364,
+         -0.417,
+         2.364
+        ],
+        "arrow": "both"
+       },
+       {
+        "par": [
+         -0.229,
+         1.3,
+         -0.281,
+         1.595
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         -1.676,
+         -1.684,
+         -2.509,
+         3.043
+        ],
+        "arrow": "both"
+       },
+       {
+        "par": [
+         -2.322,
+         1.98,
+         -2.374,
+         2.275
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         1.046,
+         -0.34,
+         -3.138,
+         1.02
+        ],
+        "arrow": "both"
+       },
+       {
+        "angle": [
+         -2.092,
+         0.68,
+         162,
+         280
+        ],
+        "label": "118°",
+        "r": 0.6
+       },
+       {
+        "angle": [
+         -2.092,
+         0.68,
+         342,
+         100
+        ],
+        "label": "a°",
+        "r": 0.6
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4e",
+     "label": "4e",
+     "section": "Fluency",
+     "stem": "Find the value of $a$ in each diagram.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "58",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         -2.391,
+         -0.209,
+         2.391,
+         0.209
+        ],
+        "arrow": "both"
+       },
+       {
+        "par": [
+         1.315,
+         0.115,
+         1.614,
+         0.141
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         -1.392,
+         1.751,
+         3.39,
+         2.169
+        ],
+        "arrow": "both"
+       },
+       {
+        "par": [
+         2.314,
+         2.075,
+         2.613,
+         2.101
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         -0.499,
+         -0.98,
+         1.498,
+         2.94
+        ],
+        "arrow": "both"
+       },
+       {
+        "angle": [
+         0.999,
+         1.96,
+         185,
+         243
+        ],
+        "label": "58°",
+        "r": 0.6
+       },
+       {
+        "angle": [
+         0,
+         0,
+         185,
+         243
+        ],
+        "label": "a°",
+        "r": 0.6
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4f",
+     "label": "4f",
+     "section": "Fluency",
+     "stem": "Find the value of $a$ in each diagram.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "134",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         -2.255,
+         0.821,
+         2.255,
+         -0.821
+        ],
+        "arrow": "both"
+       },
+       {
+        "par": [
+         1.24,
+         -0.451,
+         1.522,
+         -0.554
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         -0.278,
+         1.785,
+         4.233,
+         0.144
+        ],
+        "arrow": "both"
+       },
+       {
+        "par": [
+         3.218,
+         0.513,
+         3.5,
+         0.41
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         -0.989,
+         -0.482,
+         2.966,
+         1.447
+        ],
+        "arrow": "both"
+       },
+       {
+        "angle": [
+         0,
+         0,
+         26,
+         160
+        ],
+        "label": "134°",
+        "r": 0.6
+       },
+       {
+        "angle": [
+         1.977,
+         0.964,
+         206,
+         340
+        ],
+        "label": "a°",
+        "r": 0.6
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4g",
+     "label": "4g",
+     "section": "Fluency",
+     "stem": "Find the value of $a$ in each diagram.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "108",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         2.318,
+         -0.621,
+         -2.318,
+         0.621
+        ],
+        "arrow": "both"
+       },
+       {
+        "par": [
+         -1.275,
+         0.342,
+         -1.565,
+         0.419
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         1.12,
+         -2.466,
+         -3.516,
+         -1.224
+        ],
+        "arrow": "both"
+       },
+       {
+        "par": [
+         -2.473,
+         -1.503,
+         -2.763,
+         -1.426
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         0.599,
+         0.923,
+         -1.797,
+         -2.768
+        ],
+        "arrow": "both"
+       },
+       {
+        "angle": [
+         -1.198,
+         -1.845,
+         345,
+         57
+        ],
+        "label": "72°",
+        "r": 0.6
+       },
+       {
+        "angle": [
+         0,
+         0,
+         237,
+         345
+        ],
+        "label": "a°",
+        "r": 0.6
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4h",
+     "label": "4h",
+     "section": "Fluency",
+     "stem": "Find the value of $a$ in each diagram.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "47",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         -0.417,
+         -2.364,
+         0.417,
+         2.364
+        ],
+        "arrow": "both"
+       },
+       {
+        "par": [
+         0.229,
+         1.3,
+         0.281,
+         1.595
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         -1.741,
+         -0.607,
+         -0.907,
+         4.121
+        ],
+        "arrow": "both"
+       },
+       {
+        "par": [
+         -1.095,
+         3.057,
+         -1.043,
+         3.352
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         0.662,
+         -0.878,
+         -1.986,
+         2.635
+        ],
+        "arrow": "both"
+       },
+       {
+        "angle": [
+         0,
+         0,
+         80,
+         127
+        ],
+        "label": "47°",
+        "r": 0.6
+       },
+       {
+        "angle": [
+         -1.324,
+         1.757,
+         80,
+         127
+        ],
+        "label": "a°",
+        "r": 0.6
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4i",
+     "label": "4i",
+     "section": "Fluency",
+     "stem": "Find the value of $a$ in each diagram.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "105",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         -2.364,
+         -0.417,
+         2.364,
+         0.417
+        ],
+        "arrow": "both"
+       },
+       {
+        "par": [
+         1.3,
+         0.229,
+         1.595,
+         0.281
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         -2.172,
+         1.775,
+         2.555,
+         2.608
+        ],
+        "arrow": "both"
+       },
+       {
+        "par": [
+         1.492,
+         2.421,
+         1.787,
+         2.473
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         -0.096,
+         -1.096,
+         0.288,
+         3.287
+        ],
+        "arrow": "both"
+       },
+       {
+        "angle": [
+         0.192,
+         2.192,
+         265,
+         10
+        ],
+        "label": "105°",
+        "r": 0.6
+       },
+       {
+        "angle": [
+         0,
+         0,
+         85,
+         190
+        ],
+        "label": "a°",
+        "r": 0.6
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4j",
+     "label": "4j",
+     "section": "Fluency",
+     "stem": "Find the value of $a$ in each diagram.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "52",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         -2.377,
+         0.334,
+         2.377,
+         -0.334
+        ],
+        "arrow": "both"
+       },
+       {
+        "par": [
+         1.307,
+         -0.184,
+         1.604,
+         -0.225
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         -0.794,
+         1.862,
+         3.959,
+         1.194
+        ],
+        "arrow": "both"
+       },
+       {
+        "par": [
+         2.89,
+         1.345,
+         3.187,
+         1.303
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         -0.791,
+         -0.764,
+         2.374,
+         2.292
+        ],
+        "arrow": "both"
+       },
+       {
+        "angle": [
+         0,
+         0,
+         44,
+         172
+        ],
+        "label": "128°",
+        "r": 0.6
+       },
+       {
+        "angle": [
+         1.583,
+         1.528,
+         172,
+         224
+        ],
+        "label": "a°",
+        "r": 0.6
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4k",
+     "label": "4k",
+     "section": "Fluency",
+     "stem": "Find the value of $a$ in each diagram.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "136",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         2.318,
+         0.621,
+         -2.318,
+         -0.621
+        ],
+        "arrow": "both"
+       },
+       {
+        "par": [
+         -1.275,
+         -0.342,
+         -1.565,
+         -0.419
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         1.185,
+         -1.265,
+         -3.451,
+         -2.507
+        ],
+        "arrow": "both"
+       },
+       {
+        "par": [
+         -2.408,
+         -2.227,
+         -2.698,
+         -2.305
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         0.567,
+         0.943,
+         -1.7,
+         -2.829
+        ],
+        "arrow": "both"
+       },
+       {
+        "angle": [
+         0,
+         0,
+         59,
+         195
+        ],
+        "label": "136°",
+        "r": 0.6
+       },
+       {
+        "angle": [
+         -1.133,
+         -1.886,
+         59,
+         195
+        ],
+        "label": "a°",
+        "r": 0.6
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4l",
+     "label": "4l",
+     "section": "Fluency",
+     "stem": "Find the value of $a$ in each diagram.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "81",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         -2.4,
+         0,
+         2.4,
+         0
+        ],
+        "arrow": "both"
+       },
+       {
+        "par": [
+         1.32,
+         0,
+         1.62,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         -2.056,
+         2.173,
+         2.744,
+         2.173
+        ],
+        "arrow": "both"
+       },
+       {
+        "par": [
+         1.664,
+         2.173,
+         1.964,
+         2.173
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         -0.172,
+         -1.086,
+         0.516,
+         3.259
+        ],
+        "arrow": "both"
+       },
+       {
+        "angle": [
+         0.344,
+         2.173,
+         261,
+         0
+        ],
+        "label": "99°",
+        "r": 0.6
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         81
+        ],
+        "label": "a°",
+        "r": 0.6
+       }
+      ]
+     }
+    },
+    {
+     "id": "q5a",
+     "label": "5a",
+     "section": "Fluency",
+     "stem": "Find the value of each pronumeral in these diagrams.",
+     "prompt": "Find $a$, $b$, $c$.",
+     "type": "ordered",
+     "answer": [
+      "68",
+      "112",
+      "68"
+     ],
+     "hint": "Type the values in alphabetical order, separated by commas",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         -2.511,
+         -0.673,
+         2.511,
+         0.673
+        ],
+        "arrow": "both"
+       },
+       {
+        "par": [
+         1.381,
+         0.37,
+         1.671,
+         0.448
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         -2.219,
+         1.709,
+         2.804,
+         3.055
+        ],
+        "arrow": "both"
+       },
+       {
+        "par": [
+         1.674,
+         2.752,
+         1.964,
+         2.83
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         -0.158,
+         -1.29,
+         0.451,
+         3.672
+        ],
+        "arrow": "both"
+       },
+       {
+        "angle": [
+         0.292,
+         2.382,
+         195,
+         263
+        ],
+        "label": "68°",
+        "r": 0.55
+       },
+       {
+        "angle": [
+         0,
+         0,
+         195,
+         263
+        ],
+        "label": "a°",
+        "r": 0.45
+       },
+       {
+        "angle": [
+         0,
+         0,
+         83,
+         195
+        ],
+        "label": "b°",
+        "r": 0.45
+       },
+       {
+        "angle": [
+         0,
+         0,
+         15,
+         83
+        ],
+        "label": "c°",
+        "r": 0.45
+       }
+      ]
+     }
+    },
+    {
+     "id": "q5b",
+     "label": "5b",
+     "section": "Fluency",
+     "stem": "Find the value of each pronumeral in these diagrams.",
+     "prompt": "Find $a$, $b$, $c$.",
+     "type": "ordered",
+     "answer": [
+      "63",
+      "117",
+      "63"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         -2.6,
+         0,
+         2.6
+        ],
+        "arrow": "both"
+       },
+       {
+        "par": [
+         0,
+         1.43,
+         0,
+         1.73
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         -2.138,
+         -1.51,
+         -2.138,
+         3.69
+        ],
+        "arrow": "both"
+       },
+       {
+        "par": [
+         -2.138,
+         2.52,
+         -2.138,
+         2.82
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         1.158,
+         -0.59,
+         -3.297,
+         1.68
+        ],
+        "arrow": "both"
+       },
+       {
+        "angle": [
+         -2.138,
+         1.09,
+         153,
+         270
+        ],
+        "label": "117°",
+        "r": 0.55
+       },
+       {
+        "angle": [
+         -2.138,
+         1.09,
+         90,
+         153
+        ],
+        "label": "a°",
+        "r": 0.45
+       },
+       {
+        "angle": [
+         0,
+         0,
+         333,
+         90
+        ],
+        "label": "b°",
+        "r": 0.45
+       },
+       {
+        "angle": [
+         0,
+         0,
+         270,
+         333
+        ],
+        "label": "c°",
+        "r": 0.45
+       }
+      ]
+     }
+    },
+    {
+     "id": "q5c",
+     "label": "5c",
+     "section": "Fluency",
+     "stem": "Find the value of each pronumeral in these diagrams.",
+     "prompt": "Find $a$, $b$, $c$, $d$.",
+     "type": "ordered",
+     "answer": [
+      "102",
+      "78",
+      "102",
+      "78"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         -1.992,
+         1.671,
+         1.992,
+         -1.671
+        ],
+        "arrow": "both"
+       },
+       {
+        "par": [
+         1.095,
+         -0.919,
+         1.325,
+         -1.112
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         -0.1,
+         3.149,
+         3.883,
+         -0.194
+        ],
+        "arrow": "both"
+       },
+       {
+        "par": [
+         2.987,
+         0.558,
+         3.216,
+         0.366
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         -1.024,
+         -0.8,
+         2.916,
+         2.278
+        ],
+        "arrow": "both"
+       },
+       {
+        "angle": [
+         0,
+         0,
+         140,
+         218
+        ],
+        "label": "78°",
+        "r": 0.55
+       },
+       {
+        "angle": [
+         0,
+         0,
+         218,
+         320
+        ],
+        "label": "a°",
+        "r": 0.45
+       },
+       {
+        "angle": [
+         0,
+         0,
+         320,
+         38
+        ],
+        "label": "b°",
+        "r": 0.45
+       },
+       {
+        "angle": [
+         1.891,
+         1.478,
+         218,
+         320
+        ],
+        "label": "c°",
+        "r": 0.45
+       },
+       {
+        "angle": [
+         1.891,
+         1.478,
+         320,
+         38
+        ],
+        "label": "d°",
+        "r": 0.45
+       }
+      ]
+     }
+    },
+    {
+     "id": "q5d",
+     "label": "5d",
+     "section": "Fluency",
+     "stem": "Find the value of each pronumeral in these diagrams.",
+     "prompt": "Find $a$, $b$, $c$.",
+     "type": "ordered",
+     "answer": [
+      "90",
+      "90",
+      "90"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         -2.6,
+         0,
+         2.6,
+         0
+        ],
+        "arrow": "both"
+       },
+       {
+        "par": [
+         1.43,
+         0,
+         1.73,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         -2.6,
+         2.4,
+         2.6,
+         2.4
+        ],
+        "arrow": "both"
+       },
+       {
+        "par": [
+         1.43,
+         2.4,
+         1.73,
+         2.4
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         0,
+         -1.3,
+         0,
+         3.7
+        ],
+        "arrow": "both"
+       },
+       {
+        "angle": [
+         0,
+         0,
+         270,
+         0
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         0,
+         2.4,
+         0,
+         90
+        ],
+        "label": "a°",
+        "r": 0.45
+       },
+       {
+        "angle": [
+         0,
+         2.4,
+         90,
+         180
+        ],
+        "label": "b°",
+        "r": 0.45
+       },
+       {
+        "angle": [
+         0,
+         2.4,
+         270,
+         0
+        ],
+        "label": "c°",
+        "r": 0.45
+       }
+      ]
+     }
+    },
+    {
+     "id": "q5e",
+     "label": "5e",
+     "section": "Fluency",
+     "stem": "Find the value of each pronumeral in these diagrams.",
+     "prompt": "Find $a$, $b$, $c$.",
+     "type": "ordered",
+     "answer": [
+      "84",
+      "96",
+      "84"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0.889,
+         -2.443,
+         -0.889,
+         2.443
+        ],
+        "arrow": "both"
+       },
+       {
+        "par": [
+         -0.489,
+         1.344,
+         -0.592,
+         1.626
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         -1.439,
+         -3.024,
+         -3.218,
+         1.863
+        ],
+        "arrow": "both"
+       },
+       {
+        "par": [
+         -2.818,
+         0.763,
+         -2.92,
+         1.045
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         1.261,
+         0.314,
+         -3.59,
+         -0.895
+        ],
+        "arrow": "both"
+       },
+       {
+        "angle": [
+         -2.329,
+         -0.581,
+         194,
+         290
+        ],
+        "label": "96°",
+        "r": 0.55
+       },
+       {
+        "angle": [
+         -2.329,
+         -0.581,
+         290,
+         14
+        ],
+        "label": "a°",
+        "r": 0.45
+       },
+       {
+        "angle": [
+         0,
+         0,
+         194,
+         290
+        ],
+        "label": "b°",
+        "r": 0.45
+       },
+       {
+        "angle": [
+         0,
+         0,
+         290,
+         14
+        ],
+        "label": "c°",
+        "r": 0.45
+       }
+      ]
+     }
+    },
+    {
+     "id": "q5f",
+     "label": "5f",
+     "section": "Fluency",
+     "stem": "Find the value of each pronumeral in these diagrams.",
+     "prompt": "Find $a$, $b$.",
+     "type": "ordered",
+     "answer": [
+      "57",
+      "123"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         -2.443,
+         -0.889,
+         2.443,
+         0.889
+        ],
+        "arrow": "both"
+       },
+       {
+        "par": [
+         1.344,
+         0.489,
+         1.626,
+         0.592
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         -1.903,
+         1.449,
+         2.983,
+         3.228
+        ],
+        "arrow": "both"
+       },
+       {
+        "par": [
+         1.884,
+         2.828,
+         2.166,
+         2.93
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         -0.292,
+         -1.267,
+         0.832,
+         3.605
+        ],
+        "arrow": "both"
+       },
+       {
+        "angle": [
+         0.54,
+         2.338,
+         77,
+         200
+        ],
+        "label": "123°",
+        "r": 0.55
+       },
+       {
+        "angle": [
+         0,
+         0,
+         20,
+         77
+        ],
+        "label": "a°",
+        "r": 0.45
+       },
+       {
+        "angle": [
+         0,
+         0,
+         257,
+         20
+        ],
+        "label": "b°",
+        "r": 0.45
+       }
+      ]
+     }
+    },
+    {
+     "id": "q6a",
+     "label": "6a",
+     "section": "Fluency",
+     "stem": "Decide whether the two lines cut by the transversal are parallel.",
+     "prompt": "Are the two lines parallel?",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         -2.387,
+         -0.251,
+         2.387,
+         0.251
+        ],
+        "arrow": "both"
+       },
+       {
+        "seg": [
+         -1.608,
+         1.994,
+         3.181,
+         2.329
+        ],
+        "arrow": "both"
+       },
+       {
+        "seg": [
+         -0.376,
+         -1.034,
+         1.163,
+         3.195
+        ],
+        "arrow": "both"
+       },
+       {
+        "angle": [
+         0,
+         0,
+         6,
+         70
+        ],
+        "label": "64°",
+        "r": 0.6
+       },
+       {
+        "angle": [
+         0.787,
+         2.161,
+         184,
+         250
+        ],
+        "label": "66°",
+        "r": 0.6
+       }
+      ]
+     }
+    },
+    {
+     "id": "q6b",
+     "label": "6b",
+     "section": "Fluency",
+     "stem": "Decide whether the two lines cut by the transversal are parallel.",
+     "prompt": "Are the two lines parallel?",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         -2.382,
+         -0.292,
+         2.382,
+         0.292
+        ],
+        "arrow": "both"
+       },
+       {
+        "seg": [
+         -3.169,
+         1.869,
+         1.595,
+         2.454
+        ],
+        "arrow": "both"
+       },
+       {
+        "seg": [
+         0.376,
+         -1.034,
+         -1.163,
+         3.195
+        ],
+        "arrow": "both"
+       },
+       {
+        "angle": [
+         0,
+         0,
+         110,
+         187
+        ],
+        "label": "77°",
+        "r": 0.6
+       },
+       {
+        "angle": [
+         -0.787,
+         2.161,
+         110,
+         187
+        ],
+        "label": "77°",
+        "r": 0.6
+       }
+      ]
+     }
+    },
+    {
+     "id": "q6c",
+     "label": "6c",
+     "section": "Fluency",
+     "stem": "Decide whether the two lines cut by the transversal are parallel.",
+     "prompt": "Are the two lines parallel?",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         -2.397,
+         -0.126,
+         2.397,
+         0.126
+        ],
+        "arrow": "both"
+       },
+       {
+        "seg": [
+         -1.425,
+         1.959,
+         3.369,
+         2.21
+        ],
+        "arrow": "both"
+       },
+       {
+        "seg": [
+         -0.465,
+         -0.997,
+         1.437,
+         3.081
+        ],
+        "arrow": "both"
+       },
+       {
+        "angle": [
+         0,
+         0,
+         3,
+         65
+        ],
+        "label": "62°",
+        "r": 0.6
+       },
+       {
+        "angle": [
+         0.972,
+         2.085,
+         245,
+         3
+        ],
+        "label": "118°",
+        "r": 0.6
+       }
+      ]
+     }
+    },
+    {
+     "id": "q6d",
+     "label": "6d",
+     "section": "Fluency",
+     "stem": "Decide whether the two lines cut by the transversal are parallel.",
+     "prompt": "Are the two lines parallel?",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         -2.175,
+         -1.014,
+         2.175,
+         1.014
+        ],
+        "arrow": "both"
+       },
+       {
+        "seg": [
+         -1.776,
+         1.251,
+         2.575,
+         3.279
+        ],
+        "arrow": "both"
+       },
+       {
+        "seg": [
+         -0.191,
+         -1.083,
+         0.59,
+         3.348
+        ],
+        "arrow": "both"
+       },
+       {
+        "angle": [
+         0,
+         0,
+         80,
+         205
+        ],
+        "label": "125°",
+        "r": 0.6
+       },
+       {
+        "angle": [
+         0.399,
+         2.265,
+         260,
+         25
+        ],
+        "label": "125°",
+        "r": 0.6
+       }
+      ]
+     }
+    },
+    {
+     "id": "q6e",
+     "label": "6e",
+     "section": "Fluency",
+     "stem": "Decide whether the two lines cut by the transversal are parallel.",
+     "prompt": "Are the two lines parallel?",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         -2.356,
+         -0.458,
+         2.356,
+         0.458
+        ],
+        "arrow": "both"
+       },
+       {
+        "seg": [
+         -2.571,
+         1.916,
+         2.17,
+         2.667
+        ],
+        "arrow": "both"
+       },
+       {
+        "seg": [
+         0.096,
+         -1.096,
+         -0.296,
+         3.387
+        ],
+        "arrow": "both"
+       },
+       {
+        "angle": [
+         0,
+         0,
+         11,
+         95
+        ],
+        "label": "84°",
+        "r": 0.6
+       },
+       {
+        "angle": [
+         -0.2,
+         2.291,
+         9,
+         95
+        ],
+        "label": "86°",
+        "r": 0.6
+       }
+      ]
+     }
+    },
+    {
+     "id": "q6f",
+     "label": "6f",
+     "section": "Fluency",
+     "stem": "Decide whether the two lines cut by the transversal are parallel.",
+     "prompt": "Are the two lines parallel?",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         -2.318,
+         0.621,
+         2.318,
+         -0.621
+        ],
+        "arrow": "both"
+       },
+       {
+        "seg": [
+         -1.214,
+         2.409,
+         3.514,
+         1.575
+        ],
+        "arrow": "both"
+       },
+       {
+        "seg": [
+         -0.55,
+         -0.953,
+         1.7,
+         2.944
+        ],
+        "arrow": "both"
+       },
+       {
+        "angle": [
+         0,
+         0,
+         60,
+         165
+        ],
+        "label": "105°",
+        "r": 0.6
+       },
+       {
+        "angle": [
+         1.15,
+         1.992,
+         170,
+         240
+        ],
+        "label": "70°",
+        "r": 0.6
+       }
+      ]
+     }
+    },
+    {
+     "id": "q7a",
+     "label": "7a",
+     "section": "Problem-solving",
+     "stem": "Find the value of $a$ in these diagrams.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "38",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0.2,
+         2,
+         2.76,
+         2
+        ]
+       },
+       {
+        "seg": [
+         2.76,
+         2,
+         0,
+         0
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         2.96,
+         0
+        ]
+       },
+       {
+        "par": [
+         0.9,
+         2,
+         1.2,
+         2
+        ]
+       },
+       {
+        "par": [
+         1.4,
+         0,
+         1.7,
+         0
+        ]
+       },
+       {
+        "angle": [
+         2.76,
+         2,
+         180,
+         218
+        ],
+        "label": "38°",
+        "r": 0.8
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         38
+        ],
+        "label": "a°",
+        "r": 0.8
+       }
+      ]
+     }
+    },
+    {
+     "id": "q7b",
+     "label": "7b",
+     "section": "Problem-solving",
+     "stem": "Find the value of $a$ in these diagrams.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "47",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         0,
+         3
+        ]
+       },
+       {
+        "seg": [
+         3.217,
+         0,
+         3.217,
+         3
+        ]
+       },
+       {
+        "seg": [
+         0,
+         3,
+         3.217,
+         0
+        ]
+       },
+       {
+        "par": [
+         0,
+         0.8,
+         0,
+         1.1
+        ]
+       },
+       {
+        "par": [
+         3.2171061300740478,
+         0.8,
+         3.2171061300740478,
+         1.1
+        ]
+       },
+       {
+        "angle": [
+         0,
+         3,
+         270,
+         317
+        ],
+        "label": "47°",
+        "r": 0.8
+       },
+       {
+        "angle": [
+         3.217,
+         0,
+         90,
+         137
+        ],
+        "label": "a°",
+        "r": 0.8
+       }
+      ]
+     }
+    },
+    {
+     "id": "q7c",
+     "label": "7c",
+     "section": "Problem-solving",
+     "stem": "Find the value of $a$ in these diagrams.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "116",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         -2.377,
+         -0.334,
+         2.377,
+         0.334
+        ]
+       },
+       {
+        "par": [
+         1.307,
+         0.184,
+         1.604,
+         0.225
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         -1.635,
+         1.949,
+         3.118,
+         2.617
+        ]
+       },
+       {
+        "par": [
+         2.049,
+         2.466,
+         2.346,
+         2.508
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         0,
+         0,
+         0.742,
+         2.283
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         8,
+         72
+        ],
+        "label": "64°",
+        "r": 0.6
+       },
+       {
+        "angle": [
+         0.742,
+         2.283,
+         252,
+         8
+        ],
+        "label": "a°",
+        "r": 0.6
+       }
+      ]
+     }
+    },
+    {
+     "id": "q7d",
+     "label": "7d",
+     "section": "Problem-solving",
+     "stem": "Find the value of $a$ in these diagrams.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "38",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         -1.8,
+         0,
+         1.8
+        ]
+       },
+       {
+        "par": [
+         0,
+         0.99,
+         0,
+         1.29
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         -1.601,
+         -3.849,
+         -1.601,
+         -0.249
+        ]
+       },
+       {
+        "par": [
+         -1.601,
+         -1.059,
+         -1.601,
+         -0.759
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         0,
+         0,
+         -1.601,
+         -2.049
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         90,
+         232
+        ],
+        "label": "142°",
+        "r": 0.6
+       },
+       {
+        "angle": [
+         -1.601,
+         -2.049,
+         52,
+         90
+        ],
+        "label": "a°",
+        "r": 0.6
+       }
+      ]
+     }
+    },
+    {
+     "id": "q7e",
+     "label": "7e",
+     "section": "Problem-solving",
+     "stem": "Find the value of $a$ in these diagrams.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "124",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         -2.318,
+         -0.621,
+         2.318,
+         0.621
+        ],
+        "arrow": "both"
+       },
+       {
+        "par": [
+         1.275,
+         0.342,
+         1.565,
+         0.419
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         -1.537,
+         1.648,
+         3.1,
+         2.89
+        ],
+        "arrow": "both"
+       },
+       {
+        "par": [
+         2.056,
+         2.611,
+         2.346,
+         2.689
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         -0.358,
+         -1.04,
+         1.139,
+         3.309
+        ],
+        "arrow": "both"
+       },
+       {
+        "angle": [
+         0.781,
+         2.269,
+         15,
+         71
+        ],
+        "label": "56°",
+        "r": 0.6
+       },
+       {
+        "angle": [
+         0,
+         0,
+         251,
+         15
+        ],
+        "label": "a°",
+        "r": 0.6
+       }
+      ]
+     }
+    },
+    {
+     "id": "q7f",
+     "label": "7f",
+     "section": "Problem-solving",
+     "stem": "Find the value of $a$ in these diagrams.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "34",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         2.255,
+         -0.821,
+         -2.255,
+         0.821
+        ],
+        "arrow": "both"
+       },
+       {
+        "par": [
+         -1.24,
+         0.451,
+         -1.522,
+         0.554
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         -0.073,
+         -1.401,
+         -4.584,
+         0.24
+        ],
+        "arrow": "both"
+       },
+       {
+        "par": [
+         -3.569,
+         -0.129,
+         -3.851,
+         -0.027
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         1.067,
+         0.266,
+         -3.396,
+         -0.847
+        ],
+        "arrow": "both"
+       },
+       {
+        "angle": [
+         -2.329,
+         -0.581,
+         194,
+         340
+        ],
+        "label": "146°",
+        "r": 0.6
+       },
+       {
+        "angle": [
+         0,
+         0,
+         160,
+         194
+        ],
+        "label": "a°",
+        "r": 0.6
+       }
+      ]
+     }
+    },
+    {
+     "id": "q8a",
+     "label": "8a",
+     "section": "Problem-solving",
+     "stem": "Find the value of $a$ in these diagrams.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "108",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          3.4,
+          0
+         ],
+         [
+          4.08,
+          2.092
+         ],
+         [
+          0.68,
+          2.092
+         ]
+        ]
+       },
+       {
+        "par": [
+         1.7,
+         0,
+         2,
+         0
+        ],
+        "n": 2
+       },
+       {
+        "par": [
+         2.38,
+         2.092,
+         2.68,
+         2.092
+        ],
+        "n": 2
+       },
+       {
+        "par": [
+         0.34,
+         1.046,
+         0.433,
+         1.331
+        ],
+        "n": 1
+       },
+       {
+        "par": [
+         3.74,
+         1.046,
+         3.833,
+         1.331
+        ],
+        "n": 1
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         72
+        ],
+        "label": "72°",
+        "r": 0.6
+       },
+       {
+        "angle": [
+         0.68,
+         2.092,
+         252,
+         0
+        ],
+        "label": "a°",
+        "r": 0.6
+       }
+      ]
+     }
+    },
+    {
+     "id": "q8b",
+     "label": "8b",
+     "section": "Problem-solving",
+     "stem": "Find the value of $a$ in these diagrams.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "117",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          4.2,
+          0
+         ],
+         [
+          3.2,
+          2.049
+         ],
+         [
+          1.044,
+          2.049
+         ]
+        ]
+       },
+       {
+        "par": [
+         2.1,
+         0,
+         2.4,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "par": [
+         2.122,
+         2.049,
+         2.422,
+         2.049
+        ],
+        "n": 1
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         63
+        ],
+        "label": "63°",
+        "r": 0.6
+       },
+       {
+        "angle": [
+         1.044,
+         2.049,
+         243,
+         0
+        ],
+        "label": "a°",
+        "r": 0.6
+       }
+      ]
+     }
+    },
+    {
+     "id": "q8c",
+     "label": "8c",
+     "section": "Problem-solving",
+     "stem": "Find the value of $a$ in these diagrams.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "57",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          4.4,
+          0
+         ],
+         [
+          2.439,
+          3.019
+         ]
+        ]
+       },
+       {
+        "seg": [
+         1.342,
+         1.661,
+         3.322,
+         1.661
+        ]
+       },
+       {
+        "par": [
+         1.54,
+         0,
+         1.84,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "par": [
+         2.332,
+         1.661,
+         2.632,
+         1.661
+        ],
+        "n": 1
+       },
+       {
+        "angle": [
+         4.4,
+         0,
+         123,
+         180
+        ],
+        "label": "57°",
+        "r": 0.6
+       },
+       {
+        "angle": [
+         3.322,
+         1.661,
+         123,
+         180
+        ],
+        "label": "a°",
+        "r": 0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q8d",
+     "label": "8d",
+     "section": "Problem-solving",
+     "stem": "Find the value of $a$ in these diagrams.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "64",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "poly": [
+         [
+          4.117,
+          -0.831
+         ],
+         [
+          0,
+          0
+         ],
+         [
+          2.6,
+          3.4
+         ]
+        ]
+       },
+       {
+        "seg": [
+         1.43,
+         1.87,
+         3.283,
+         1.496
+        ]
+       },
+       {
+        "par": [
+         1.647,
+         -0.332,
+         1.941,
+         -0.392
+        ],
+        "n": 1
+       },
+       {
+        "par": [
+         2.171,
+         1.721,
+         2.465,
+         1.661
+        ],
+        "n": 1
+       },
+       {
+        "angle": [
+         0,
+         0,
+         348.595,
+         52.595
+        ],
+        "label": "64°",
+        "r": 0.7
+       },
+       {
+        "angle": [
+         1.43,
+         1.87,
+         348.595,
+         52.595
+        ],
+        "label": "a°",
+        "r": 0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q8e",
+     "label": "8e",
+     "section": "Problem-solving",
+     "stem": "Find the value of $a$ in these diagrams.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "39",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "circle": [
+         0,
+         0,
+         2
+        ]
+       },
+       {
+        "seg": [
+         -1.259,
+         -1.554,
+         -1.259,
+         1.554
+        ]
+       },
+       {
+        "seg": [
+         1.259,
+         -1.554,
+         1.259,
+         1.554
+        ]
+       },
+       {
+        "seg": [
+         -1.259,
+         -1.554,
+         1.259,
+         1.554
+        ]
+       },
+       {
+        "par": [
+         -1.259,
+         -0.311,
+         -1.259,
+         -0.011
+        ],
+        "n": 1
+       },
+       {
+        "par": [
+         1.259,
+         -0.311,
+         1.259,
+         -0.011
+        ],
+        "n": 1
+       },
+       {
+        "angle": [
+         -1.259,
+         -1.554,
+         51,
+         90
+        ],
+        "label": "39°",
+        "r": 0.7
+       },
+       {
+        "angle": [
+         1.259,
+         1.554,
+         231,
+         270
+        ],
+        "label": "a°",
+        "r": 0.7
+       }
+      ]
+     }
+    },
+    {
+     "id": "q8f",
+     "label": "8f",
+     "section": "Problem-solving",
+     "stem": "Find the value of $a$ in these diagrams.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "52",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "circle": [
+         0,
+         0,
+         2
+        ]
+       },
+       {
+        "seg": [
+         -1.231,
+         1.576,
+         1.231,
+         1.576
+        ]
+       },
+       {
+        "seg": [
+         -1.231,
+         -1.576,
+         1.231,
+         -1.576
+        ]
+       },
+       {
+        "seg": [
+         -1.231,
+         1.576,
+         1.231,
+         -1.576
+        ]
+       },
+       {
+        "par": [
+         0.246,
+         1.576,
+         0.546,
+         1.576
+        ],
+        "n": 1
+       },
+       {
+        "par": [
+         0.246,
+         -1.576,
+         0.546,
+         -1.576
+        ],
+        "n": 1
+       },
+       {
+        "angle": [
+         -1.231,
+         1.576,
+         308,
+         0
+        ],
+        "label": "52°",
+        "r": 0.7
+       },
+       {
+        "angle": [
+         1.231,
+         -1.576,
+         128,
+         180
+        ],
+        "label": "a°",
+        "r": 0.7
+       }
+      ]
+     }
+    },
+    {
+     "id": "q9a",
+     "label": "9a",
+     "section": "Problem-solving",
+     "stem": "A transversal cuts a set of four parallel lines.",
+     "prompt": "How many angles are formed where the transversal crosses the lines?",
+     "type": "numeric",
+     "answer": "16"
+    },
+    {
+     "id": "q9b",
+     "label": "9b",
+     "section": "Problem-solving",
+     "stem": "A transversal cuts a set of four parallel lines.",
+     "prompt": "How many angles of different sizes are formed if the transversal is not perpendicular to the lines?",
+     "type": "numeric",
+     "answer": "2"
+    },
+    {
+     "id": "q10",
+     "label": "10",
+     "section": "Problem-solving",
+     "prompt": "Two roads join a freeway at the same angle, as shown. The roads are parallel. Find the size of the obtuse angle $a^\\circ$ between the second road and the freeway.",
+     "type": "numeric",
+     "answer": "125",
+     "units": "°",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         -0.5,
+         0,
+         7,
+         0
+        ]
+       },
+       {
+        "seg": [
+         -0.5,
+         -0.5,
+         7,
+         -0.5
+        ]
+       },
+       {
+        "seg": [
+         2.28,
+         0,
+         0.6,
+         2.4
+        ]
+       },
+       {
+        "seg": [
+         2.63,
+         0,
+         0.95,
+         2.4
+        ]
+       },
+       {
+        "seg": [
+         5.88,
+         0,
+         4.2,
+         2.4
+        ]
+       },
+       {
+        "seg": [
+         6.23,
+         0,
+         4.55,
+         2.4
+        ]
+       },
+       {
+        "angle": [
+         2.28,
+         0,
+         125,
+         180
+        ],
+        "label": "55°",
+        "r": 0.7
+       },
+       {
+        "angle": [
+         6.23,
+         0,
+         0,
+         125
+        ],
+        "label": "a°",
+        "r": 0.6
+       },
+       {
+        "label": "freeway",
+        "at": [
+         3.2,
+         -1
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q11a",
+     "label": "11a",
+     "section": "Reasoning",
+     "stem": "Each diagram has two triangles with a pair of parallel sides. Find the values of $a$ and $b$.",
+     "prompt": "Find $a$ and $b$.",
+     "type": "ordered",
+     "answer": [
+      "26",
+      "34"
+     ],
+     "hint": "Type a then b, separated by a comma",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         2,
+         3.5,
+         2
+        ]
+       },
+       {
+        "seg": [
+         -0.601,
+         0,
+         2.965,
+         0
+        ]
+       },
+       {
+        "seg": [
+         0,
+         2,
+         2.965,
+         0
+        ]
+       },
+       {
+        "seg": [
+         3.5,
+         2,
+         -0.601,
+         0
+        ]
+       },
+       {
+        "par": [
+         1.4,
+         2,
+         1.7,
+         2
+        ],
+        "n": 1
+       },
+       {
+        "par": [
+         1.539,
+         0,
+         1.839,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "angle": [
+         3.5,
+         2,
+         180,
+         206
+        ],
+        "label": "26°",
+        "r": 0.9
+       },
+       {
+        "angle": [
+         2.965,
+         0,
+         146,
+         180
+        ],
+        "label": "34°",
+        "r": 0.8
+       },
+       {
+        "angle": [
+         -0.601,
+         0,
+         0,
+         26
+        ],
+        "label": "a°",
+        "r": 0.9
+       },
+       {
+        "angle": [
+         0,
+         2,
+         326,
+         0
+        ],
+        "label": "b°",
+        "r": 0.8
+       }
+      ]
+     }
+    },
+    {
+     "id": "q11b",
+     "label": "11b",
+     "section": "Reasoning",
+     "stem": "Each diagram has two triangles with a pair of parallel sides. Find the values of $a$ and $b$.",
+     "prompt": "Find $a$ and $b$.",
+     "type": "ordered",
+     "answer": [
+      "38",
+      "31"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 48,
+      "items": [
+       {
+        "seg": [
+         0,
+         2,
+         3.7,
+         2
+        ]
+       },
+       {
+        "seg": [
+         0.14,
+         0,
+         3.329,
+         0
+        ]
+       },
+       {
+        "seg": [
+         0,
+         2,
+         3.329,
+         0
+        ]
+       },
+       {
+        "seg": [
+         3.7,
+         2,
+         1.14,
+         0
+        ]
+       },
+       {
+        "par": [
+         1.48,
+         2,
+         1.78,
+         2
+        ],
+        "n": 1
+       },
+       {
+        "par": [
+         2.453,
+         0,
+         2.753,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "angle": [
+         1.14,
+         0,
+         38,
+         180
+        ],
+        "label": "142°",
+        "r": 0.5
+       },
+       {
+        "angle": [
+         0,
+         2,
+         329,
+         0
+        ],
+        "label": "31°",
+        "r": 0.9
+       },
+       {
+        "angle": [
+         3.7,
+         2,
+         180,
+         218
+        ],
+        "label": "a°",
+        "r": 0.9
+       },
+       {
+        "angle": [
+         3.329,
+         0,
+         149,
+         180
+        ],
+        "label": "b°",
+        "r": 0.9
+       }
+      ]
+     }
+    },
+    {
+     "id": "q12a",
+     "label": "12a",
+     "section": "Reasoning",
+     "stem": "This shape is a parallelogram, with two pairs of parallel sides.",
+     "prompt": "Use the $68^\\circ$ angle to find $a$ and $b$.",
+     "type": "ordered",
+     "answer": [
+      "112",
+      "112"
+     ],
+     "hint": "Type a then b, separated by a comma",
+     "stemFigure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          3.6,
+          0
+         ],
+         [
+          4.349,
+          1.854
+         ],
+         [
+          0.749,
+          1.854
+         ]
+        ]
+       },
+       {
+        "par": [
+         1.8,
+         0,
+         2.1,
+         0
+        ],
+        "n": 2
+       },
+       {
+        "par": [
+         2.549,
+         1.854,
+         2.849,
+         1.854
+        ],
+        "n": 2
+       },
+       {
+        "par": [
+         0.375,
+         0.927,
+         0.487,
+         1.205
+        ],
+        "n": 1
+       },
+       {
+        "par": [
+         3.975,
+         0.927,
+         4.087,
+         1.205
+        ],
+        "n": 1
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         68
+        ],
+        "label": "68°",
+        "r": 0.6
+       },
+       {
+        "angle": [
+         0.749,
+         1.854,
+         248,
+         0
+        ],
+        "label": "a°",
+        "r": 0.6
+       },
+       {
+        "angle": [
+         3.6,
+         0,
+         68,
+         180
+        ],
+        "label": "b°",
+        "r": 0.6
+       },
+       {
+        "angle": [
+         4.349,
+         1.854,
+         180,
+         248
+        ],
+        "label": "c°",
+        "r": 0.6
+       }
+      ]
+     }
+    },
+    {
+     "id": "q12b",
+     "label": "12b",
+     "section": "Reasoning",
+     "stem": "This shape is a parallelogram, with two pairs of parallel sides.",
+     "prompt": "Find the value of $c$.",
+     "type": "numeric",
+     "answer": "68"
+    },
+    {
+     "id": "q12c",
+     "label": "12c",
+     "section": "Reasoning",
+     "stem": "This shape is a parallelogram, with two pairs of parallel sides.",
+     "prompt": "What do you notice about the angles inside a parallelogram?",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "Opposite angles are equal",
+      "All four angles are equal",
+      "Angles next to each other are equal"
+     ]
+    },
+    {
+     "id": "q14a",
+     "label": "14a",
+     "section": "Enrichment",
+     "stem": "In this diagram, line $PR$ passes through $Q$ and is parallel to $ST$.",
+     "prompt": "Name an angle inside triangle $QST$ that is equal to $\\angle PQS$.",
+     "type": "text",
+     "answer": "∠QST",
+     "accept": [
+      "QST",
+      "∠ QST",
+      "angle QST",
+      "<QST",
+      "TSQ",
+      "∠TSQ",
+      "∠ TSQ",
+      "angle TSQ",
+      "<TSQ"
+     ],
+     "stemFigure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         -0.4,
+         2.2,
+         4.6,
+         2.2
+        ]
+       },
+       {
+        "seg": [
+         0.6,
+         0,
+         3.6,
+         0
+        ]
+       },
+       {
+        "seg": [
+         2.2,
+         2.2,
+         0.6,
+         0
+        ]
+       },
+       {
+        "seg": [
+         2.2,
+         2.2,
+         3.6,
+         0
+        ]
+       },
+       {
+        "par": [
+         1,
+         2.2,
+         1.3,
+         2.2
+        ]
+       },
+       {
+        "par": [
+         1.9,
+         0,
+         2.2,
+         0
+        ]
+       },
+       {
+        "point": [
+         -0.4,
+         2.2
+        ],
+        "name": "P",
+        "pos": "n"
+       },
+       {
+        "point": [
+         2.2,
+         2.2
+        ],
+        "name": "Q",
+        "pos": "n"
+       },
+       {
+        "point": [
+         4.6,
+         2.2
+        ],
+        "name": "R",
+        "pos": "n"
+       },
+       {
+        "point": [
+         0.6,
+         0
+        ],
+        "name": "S",
+        "pos": "sw"
+       },
+       {
+        "point": [
+         3.6,
+         0
+        ],
+        "name": "T",
+        "pos": "se"
+       }
+      ]
+     },
+     "hint": "Type the three letters with the vertex in the middle, for example ABC"
+    },
+    {
+     "id": "q14b",
+     "label": "14b",
+     "section": "Enrichment",
+     "stem": "In this diagram, line $PR$ passes through $Q$ and is parallel to $ST$.",
+     "prompt": "Name an angle inside triangle $QST$ that is equal to $\\angle RQT$.",
+     "type": "text",
+     "answer": "∠QTS",
+     "accept": [
+      "QTS",
+      "∠ QTS",
+      "angle QTS",
+      "<QTS",
+      "STQ",
+      "∠STQ",
+      "∠ STQ",
+      "angle STQ",
+      "<STQ"
+     ]
+    },
+    {
+     "id": "q14c",
+     "label": "14c",
+     "section": "Enrichment",
+     "stem": "In this diagram, line $PR$ passes through $Q$ and is parallel to $ST$.",
+     "prompt": "What do $\\angle PQS$, $\\angle SQT$ and $\\angle RQT$ add up to?",
+     "type": "numeric",
+     "answer": "180",
+     "units": "°"
+    },
+    {
+     "id": "q14d",
+     "label": "14d",
+     "section": "Enrichment",
+     "stem": "In this diagram, line $PR$ passes through $Q$ and is parallel to $ST$.",
+     "prompt": "So what do the three angles inside triangle $QST$ add up to?",
+     "type": "numeric",
+     "answer": "180",
+     "units": "°"
+    },
+    {
+     "id": "q15",
+     "label": "15",
+     "section": "Enrichment",
+     "prompt": "Using the same idea (a quadrilateral can be split into two triangles), what do the four angles inside any quadrilateral add up to?",
+     "type": "numeric",
+     "answer": "360",
+     "units": "°"
+    }
+   ]
+  },
+  {
+   "id": "7d",
+   "chapter": "Chapter 7: Geometry",
+   "title": "7D Solving compound problems with parallel lines",
+   "description": "Combine angle facts and parallel line rules to find unknown angles in more complex diagrams.",
+   "questions": [
+    {
+     "id": "q1a",
+     "label": "1a",
+     "section": "Fluency",
+     "stem": "Find the value of $a$ in these diagrams.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "112",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         4.914,
+         1.985
+        ]
+       },
+       {
+        "seg": [
+         1.483,
+         0.599,
+         1.483,
+         2.799
+        ]
+       },
+       {
+        "par": [
+         1.483,
+         1.809,
+         1.483,
+         2.109
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         4.265,
+         1.723,
+         4.265,
+         3.923
+        ]
+       },
+       {
+        "par": [
+         4.265,
+         2.933,
+         4.265,
+         3.233
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         4.265,
+         1.723,
+         6.065,
+         1.723
+        ]
+       },
+       {
+        "angle": [
+         4.265,
+         1.723,
+         0,
+         90
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         4.265,
+         1.723,
+         202,
+         0
+        ],
+        "label": "158°",
+        "r": 0.6
+       },
+       {
+        "angle": [
+         1.483,
+         0.599,
+         90,
+         202
+        ],
+        "label": "a°",
+        "r": 0.55
+       },
+       {
+        "point": [
+         0,
+         0
+        ],
+        "name": "A",
+        "pos": "w"
+       },
+       {
+        "point": [
+         1.483,
+         0.599
+        ],
+        "name": "B",
+        "pos": "se"
+       },
+       {
+        "point": [
+         1.483,
+         2.799
+        ],
+        "name": "C",
+        "pos": "n"
+       },
+       {
+        "point": [
+         4.265,
+         1.723
+        ],
+        "name": "D",
+        "pos": "nw"
+       },
+       {
+        "point": [
+         4.265,
+         3.923
+        ],
+        "name": "E",
+        "pos": "n"
+       },
+       {
+        "point": [
+         6.065,
+         1.723
+        ],
+        "name": "F",
+        "pos": "e"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q1b",
+     "label": "1b",
+     "section": "Fluency",
+     "stem": "Find the value of $a$ in these diagrams.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "58",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         -1.018,
+         -0.636,
+         3.787,
+         2.367
+        ]
+       },
+       {
+        "seg": [
+         0,
+         -1.3,
+         0,
+         1.3
+        ]
+       },
+       {
+        "par": [
+         0,
+         0.13,
+         0,
+         0.43
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         2.6,
+         0.325,
+         2.6,
+         2.925
+        ]
+       },
+       {
+        "par": [
+         2.6,
+         1.755,
+         2.6,
+         2.055
+        ],
+        "n": 1
+       },
+       {
+        "angle": [
+         2.6,
+         1.625,
+         32,
+         90
+        ],
+        "label": "58°",
+        "r": 0.6
+       },
+       {
+        "angle": [
+         0,
+         0,
+         212,
+         270
+        ],
+        "label": "a°",
+        "r": 0.6
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2a",
+     "label": "2a",
+     "section": "Fluency",
+     "stem": "Find the value of $a$ in these diagrams.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "55",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         2.949,
+         2.065
+        ]
+       },
+       {
+        "seg": [
+         1.147,
+         -0.597,
+         1.147,
+         0.803
+        ]
+       },
+       {
+        "par": [
+         1.147,
+         0.173,
+         1.147,
+         0.473
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         2.949,
+         0.265,
+         2.949,
+         2.065
+        ]
+       },
+       {
+        "par": [
+         2.949,
+         1.255,
+         2.949,
+         1.555
+        ],
+        "n": 1
+       },
+       {
+        "angle": [
+         2.949,
+         2.065,
+         270,
+         215
+        ],
+        "label": "305°",
+        "r": 0.4
+       },
+       {
+        "angle": [
+         1.147,
+         0.803,
+         215,
+         270
+        ],
+        "label": "a°",
+        "r": 0.6
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2b",
+     "label": "2b",
+     "section": "Fluency",
+     "stem": "Find the value of $a$ in these diagrams.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "115",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         3.081,
+         -1.437
+        ]
+       },
+       {
+        "seg": [
+         1.178,
+         -1.949,
+         1.178,
+         -0.549
+        ]
+       },
+       {
+        "par": [
+         1.178,
+         -1.179,
+         1.178,
+         -0.879
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         3.081,
+         -2.837,
+         3.081,
+         -1.437
+        ]
+       },
+       {
+        "par": [
+         3.081,
+         -2.067,
+         3.081,
+         -1.767
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         3.081,
+         -1.437,
+         4.481,
+         -1.437
+        ]
+       },
+       {
+        "angle": [
+         3.081,
+         -1.437,
+         270,
+         0
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         3.081,
+         -1.437,
+         0,
+         155
+        ],
+        "label": "155°",
+        "r": 0.5
+       },
+       {
+        "angle": [
+         1.178,
+         -0.549,
+         155,
+         270
+        ],
+        "label": "a°",
+        "r": 0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2c",
+     "label": "2c",
+     "section": "Fluency",
+     "stem": "Find the value of $a$ in these diagrams.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "110",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         1.231,
+         -3.383
+        ]
+       },
+       {
+        "seg": [
+         0.308,
+         -0.846,
+         2.708,
+         -0.846
+        ]
+       },
+       {
+        "par": [
+         1.628,
+         -0.846,
+         1.928,
+         -0.846
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         0.889,
+         -2.443,
+         3.289,
+         -2.443
+        ]
+       },
+       {
+        "par": [
+         2.209,
+         -2.443,
+         2.509,
+         -2.443
+        ],
+        "n": 1
+       },
+       {
+        "angle": [
+         0.889,
+         -2.443,
+         290,
+         0
+        ],
+        "label": "70°",
+        "r": 0.6
+       },
+       {
+        "angle": [
+         0.308,
+         -0.846,
+         0,
+         110
+        ],
+        "label": "a°",
+        "r": 0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2d",
+     "label": "2d",
+     "section": "Fluency",
+     "stem": "Find the value of $a$ in these diagrams.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "125",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         1.139,
+         4.25
+        ]
+       },
+       {
+        "seg": [
+         -2.236,
+         -0.117,
+         0.207,
+         0.773
+        ]
+       },
+       {
+        "par": [
+         -0.892,
+         0.373,
+         -0.61,
+         0.475
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         -1.874,
+         1.236,
+         0.569,
+         2.125
+        ]
+       },
+       {
+        "par": [
+         -0.53,
+         1.725,
+         -0.248,
+         1.827
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         -1.511,
+         2.588,
+         0.932,
+         3.477
+        ]
+       },
+       {
+        "par": [
+         -0.168,
+         3.077,
+         0.114,
+         3.18
+        ],
+        "n": 1
+       },
+       {
+        "angle": [
+         0.207,
+         0.773,
+         200,
+         255
+        ],
+        "label": "55°",
+        "r": 0.6
+       },
+       {
+        "angle": [
+         0.932,
+         3.477,
+         75,
+         200
+        ],
+        "label": "a°",
+        "r": 0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2e",
+     "label": "2e",
+     "section": "Fluency",
+     "stem": "Find the value of $a$ in these diagrams.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "67",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         -0.706,
+         0.376,
+         3.885,
+         -2.066
+        ]
+       },
+       {
+        "seg": [
+         -0.122,
+         -1.395,
+         0.122,
+         1.395
+        ]
+       },
+       {
+        "par": [
+         0.012,
+         0.139,
+         0.038,
+         0.438
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         1.556,
+         -2.287,
+         1.8,
+         0.503
+        ]
+       },
+       {
+        "par": [
+         1.69,
+         -0.753,
+         1.716,
+         -0.454
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         3.057,
+         -3.085,
+         3.301,
+         -0.295
+        ]
+       },
+       {
+        "par": [
+         3.191,
+         -1.551,
+         3.217,
+         -1.252
+        ],
+        "n": 1
+       },
+       {
+        "angle": [
+         0,
+         0,
+         152,
+         265
+        ],
+        "label": "113°",
+        "r": 0.6
+       },
+       {
+        "angle": [
+         3.179,
+         -1.69,
+         85,
+         152
+        ],
+        "label": "a°",
+        "r": 0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2f",
+     "label": "2f",
+     "section": "Fluency",
+     "stem": "Find the value of $a$ in these diagrams.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "66",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         -1.096,
+         -0.488,
+         4.296,
+         1.913
+        ]
+       },
+       {
+        "seg": [
+         0,
+         -1.3,
+         0,
+         1.3
+        ]
+       },
+       {
+        "par": [
+         0,
+         0.13,
+         0,
+         0.43
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         1.6,
+         -0.588,
+         1.6,
+         2.012
+        ]
+       },
+       {
+        "par": [
+         1.6,
+         0.842,
+         1.6,
+         1.142
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         3.2,
+         0.125,
+         3.2,
+         2.725
+        ]
+       },
+       {
+        "par": [
+         3.2,
+         1.555,
+         3.2,
+         1.855
+        ],
+        "n": 1
+       },
+       {
+        "angle": [
+         0,
+         0,
+         90,
+         204
+        ],
+        "label": "114°",
+        "r": 0.6
+       },
+       {
+        "angle": [
+         3.2,
+         1.425,
+         24,
+         90
+        ],
+        "label": "a°",
+        "r": 0.6
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3a",
+     "label": "3a",
+     "section": "Fluency",
+     "stem": "Find the value of $a$ in these diagrams.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "42",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         0.59,
+         3.348
+        ]
+       },
+       {
+        "par": [
+         0.325,
+         1.842,
+         0.377,
+         2.137
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         2.195,
+         0.153,
+         2.652,
+         2.746
+        ]
+       },
+       {
+        "par": [
+         2.446,
+         1.579,
+         2.498,
+         1.875
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         0,
+         0,
+         2.652,
+         2.746
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         2.195,
+         0.153
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         46,
+         80
+        ],
+        "label": "34°",
+        "r": 1
+       },
+       {
+        "angle": [
+         2.195,
+         0.153,
+         80,
+         184
+        ],
+        "label": "104°",
+        "r": 0.5
+       },
+       {
+        "angle": [
+         0,
+         0,
+         4,
+         46
+        ],
+        "label": "a°",
+        "r": 0.7
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3b",
+     "label": "3b",
+     "section": "Fluency",
+     "stem": "Find the value of $a$ in these diagrams.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "65",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         1.831,
+         -3.171
+        ]
+       },
+       {
+        "par": [
+         1.007,
+         -1.744,
+         1.157,
+         -2.004
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         3.565,
+         -0.501,
+         4.765,
+         -2.579
+        ]
+       },
+       {
+        "par": [
+         4.225,
+         -1.644,
+         4.375,
+         -1.904
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         0,
+         0,
+         3.565,
+         -0.501
+        ]
+       },
+       {
+        "seg": [
+         3.565,
+         -0.501,
+         1.831,
+         -3.171
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         300,
+         352
+        ],
+        "label": "52°",
+        "r": 0.7
+       },
+       {
+        "angle": [
+         3.565,
+         -0.501,
+         237,
+         300
+        ],
+        "label": "63°",
+        "r": 0.6
+       },
+       {
+        "angle": [
+         3.565,
+         -0.501,
+         172,
+         237
+        ],
+        "label": "a°",
+        "r": 0.45
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4a",
+     "label": "4a",
+     "section": "Fluency",
+     "stem": "Find the value of $a$ in these diagrams.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "75",
+     "figure": {
+      "kind": "diagram",
+      "unit": 55,
+      "items": [
+       {
+        "seg": [
+         -2.631,
+         -0.958,
+         0,
+         0
+        ]
+       },
+       {
+        "par": [
+         -1.184,
+         -0.431,
+         -0.902,
+         -0.328
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         -3.361,
+         1.29,
+         -0.213,
+         2.436
+        ]
+       },
+       {
+        "par": [
+         -1.63,
+         1.92,
+         -1.348,
+         2.023
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         0,
+         0,
+         -3.361,
+         1.29
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         -0.213,
+         2.436
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         159,
+         200
+        ],
+        "label": "41°",
+        "r": 0.6
+       },
+       {
+        "angle": [
+         0,
+         0,
+         95,
+         159
+        ],
+        "label": "64°",
+        "r": 0.75
+       },
+       {
+        "angle": [
+         -0.213,
+         2.436,
+         200,
+         275
+        ],
+        "label": "a°",
+        "r": 0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4b",
+     "label": "4b",
+     "section": "Fluency",
+     "stem": "Find the value of $a$ in these diagrams.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "67",
+     "figure": {
+      "kind": "diagram",
+      "unit": 55,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         0,
+         2.6
+        ]
+       },
+       {
+        "par": [
+         0,
+         1.43,
+         0,
+         1.73
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         1.796,
+         -0.619,
+         1.796,
+         1.995
+        ]
+       },
+       {
+        "par": [
+         1.796,
+         0.819,
+         1.796,
+         1.119
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         0,
+         0,
+         1.796,
+         1.995
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         1.796,
+         -0.619
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         48,
+         90
+        ],
+        "label": "42°",
+        "r": 0.9
+       },
+       {
+        "angle": [
+         1.796,
+         -0.619,
+         90,
+         161
+        ],
+        "label": "71°",
+        "r": 0.5
+       },
+       {
+        "angle": [
+         0,
+         0,
+         341,
+         48
+        ],
+        "label": "a°",
+        "r": 0.55
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4c",
+     "label": "4c",
+     "section": "Fluency",
+     "stem": "Find the value of $a$ in these diagrams.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "59",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         0,
+         3.6
+        ]
+       },
+       {
+        "par": [
+         0,
+         1.98,
+         0,
+         2.28
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         1.682,
+         -0.59,
+         1.682,
+         1.01
+        ]
+       },
+       {
+        "par": [
+         1.682,
+         0.29,
+         1.682,
+         0.59
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         0,
+         3.6,
+         1.682,
+         1.01
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         1.682,
+         1.01
+        ]
+       },
+       {
+        "angle": [
+         0,
+         3.6,
+         270,
+         303
+        ],
+        "label": "33°",
+        "r": 0.8
+       },
+       {
+        "angle": [
+         1.682,
+         1.01,
+         123,
+         211
+        ],
+        "label": "88°",
+        "r": 0.5
+       },
+       {
+        "angle": [
+         1.682,
+         1.01,
+         211,
+         270
+        ],
+        "label": "a°",
+        "r": 0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4d",
+     "label": "4d",
+     "section": "Fluency",
+     "stem": "Find the value of $a$ in these diagrams.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "42",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0.157,
+         2.2,
+         5.381,
+         2.2
+        ]
+       },
+       {
+        "par": [
+         3.03,
+         2.2,
+         3.33,
+         2.2
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         -0.5,
+         0,
+         5,
+         0
+        ]
+       },
+       {
+        "par": [
+         2.525,
+         0,
+         2.825,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         0.157,
+         2.2,
+         2.6,
+         0
+        ]
+       },
+       {
+        "seg": [
+         2.6,
+         0,
+         4.581,
+         2.2
+        ]
+       },
+       {
+        "angle": [
+         2.6,
+         0,
+         48,
+         138
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         2.6,
+         0,
+         0,
+         48
+        ],
+        "label": "48°",
+        "r": 0.8
+       },
+       {
+        "angle": [
+         0.157,
+         2.2,
+         318,
+         0
+        ],
+        "label": "a°",
+        "r": 0.6
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4e",
+     "label": "4e",
+     "section": "Fluency",
+     "stem": "Find the value of $a$ in these diagrams.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "62",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         4.2,
+         0
+        ]
+       },
+       {
+        "par": [
+         2.31,
+         0,
+         2.61,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         0.889,
+         3.176,
+         4.889,
+         3.176
+        ]
+       },
+       {
+        "par": [
+         3.089,
+         3.176,
+         3.389,
+         3.176
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         0,
+         0,
+         3.289,
+         3.176
+        ]
+       },
+       {
+        "seg": [
+         3.289,
+         3.176,
+         4.2,
+         0
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         44
+        ],
+        "label": "44°",
+        "r": 0.8
+       },
+       {
+        "angle": [
+         3.289,
+         3.176,
+         286,
+         0
+        ],
+        "label": "74°",
+        "r": 0.5
+       },
+       {
+        "angle": [
+         3.289,
+         3.176,
+         224,
+         286
+        ],
+        "label": "a°",
+        "r": 0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4f",
+     "label": "4f",
+     "section": "Fluency",
+     "stem": "Find the value of $a$ in these diagrams.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "52",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         0,
+         3.6
+        ]
+       },
+       {
+        "par": [
+         0,
+         1.98,
+         0,
+         2.28
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         1.747,
+         0.635,
+         1.747,
+         3.635
+        ]
+       },
+       {
+        "par": [
+         1.747,
+         2.285,
+         1.747,
+         2.585
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         0,
+         3.6,
+         1.747,
+         2.235
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         1.747,
+         2.235
+        ]
+       },
+       {
+        "angle": [
+         1.747,
+         2.235,
+         142,
+         232
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         0,
+         0,
+         52,
+         90
+        ],
+        "label": "38°",
+        "r": 0.8
+       },
+       {
+        "angle": [
+         1.747,
+         2.235,
+         90,
+         142
+        ],
+        "label": "a°",
+        "r": 0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q5a",
+     "label": "5a",
+     "section": "Problem-solving",
+     "stem": "Find the size of $\\angle ABC$ in these diagrams.",
+     "prompt": "Find the size of $\\angle ABC$.",
+     "type": "numeric",
+     "answer": "135",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         -1.2,
+         0,
+         3.8,
+         0
+        ]
+       },
+       {
+        "seg": [
+         -0.41,
+         -1.128,
+         0.479,
+         1.316
+        ]
+       },
+       {
+        "par": [
+         0.079,
+         0.216,
+         0.181,
+         0.498
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         -0.549,
+         1.178,
+         0.507,
+         -1.088
+        ]
+       },
+       {
+        "par": [
+         0.032,
+         -0.068,
+         0.158,
+         -0.34
+        ],
+        "n": 2
+       },
+       {
+        "seg": [
+         2.6,
+         0,
+         3.079,
+         1.316
+        ]
+       },
+       {
+        "par": [
+         2.863,
+         0.724,
+         2.966,
+         1.005
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         3.192,
+         -1.269,
+         2.6,
+         0
+        ]
+       },
+       {
+        "par": [
+         2.866,
+         -0.571,
+         2.739,
+         -0.299
+        ],
+        "n": 2
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         70
+        ],
+        "label": "70°",
+        "r": 0.5
+       },
+       {
+        "angle": [
+         0,
+         0,
+         295,
+         0
+        ],
+        "label": "65°",
+        "r": 0.7
+       },
+       {
+        "angle": [
+         2.6,
+         0,
+         295,
+         70
+        ],
+        "label": "",
+        "r": 0.4
+       },
+       {
+        "point": [
+         3.079,
+         1.316
+        ],
+        "name": "A",
+        "pos": "e"
+       },
+       {
+        "point": [
+         2.6,
+         0
+        ],
+        "name": "B",
+        "pos": "nw"
+       },
+       {
+        "point": [
+         3.192,
+         -1.269
+        ],
+        "name": "C",
+        "pos": "e"
+       }
+      ]
+     },
+     "units": "°"
+    },
+    {
+     "id": "q5b",
+     "label": "5b",
+     "section": "Problem-solving",
+     "stem": "Find the size of $\\angle ABC$ in these diagrams.",
+     "prompt": "Find the size of $\\angle ABC$.",
+     "type": "numeric",
+     "answer": "130",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         -1.222,
+         -0.445,
+         3.759,
+         1.368
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         -0.7,
+         1.212
+        ]
+       },
+       {
+        "par": [
+         -0.385,
+         0.667,
+         -0.535,
+         0.927
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         2.631,
+         0.958,
+         1.931,
+         2.17
+        ]
+       },
+       {
+        "par": [
+         2.246,
+         1.624,
+         2.096,
+         1.884
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         -0.479,
+         -1.316,
+         0,
+         0
+        ]
+       },
+       {
+        "par": [
+         -0.215,
+         -0.592,
+         -0.113,
+         -0.31
+        ],
+        "n": 2
+       },
+       {
+        "seg": [
+         2.152,
+         -0.358,
+         2.631,
+         0.958
+        ]
+       },
+       {
+        "par": [
+         2.416,
+         0.366,
+         2.518,
+         0.648
+        ],
+        "n": 2
+       },
+       {
+        "angle": [
+         2.631,
+         0.958,
+         20,
+         120
+        ],
+        "label": "100°",
+        "r": 0.5
+       },
+       {
+        "angle": [
+         2.631,
+         0.958,
+         250,
+         20
+        ],
+        "label": "130°",
+        "r": 0.7
+       },
+       {
+        "angle": [
+         0,
+         0,
+         120,
+         250
+        ],
+        "label": "",
+        "r": 0.4
+       },
+       {
+        "point": [
+         -0.7,
+         1.212
+        ],
+        "name": "A",
+        "pos": "w"
+       },
+       {
+        "point": [
+         0,
+         0
+        ],
+        "name": "B",
+        "pos": "e"
+       },
+       {
+        "point": [
+         -0.479,
+         -1.316
+        ],
+        "name": "C",
+        "pos": "w"
+       }
+      ]
+     },
+     "units": "°"
+    },
+    {
+     "id": "q5c",
+     "label": "5c",
+     "section": "Problem-solving",
+     "stem": "Find the size of $\\angle ABC$ in these diagrams.",
+     "prompt": "Find the size of $\\angle ABC$.",
+     "type": "numeric",
+     "answer": "58",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         0.927,
+         2.853
+        ]
+       },
+       {
+        "par": [
+         0.51,
+         1.569,
+         0.603,
+         1.855
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         3.321,
+         0,
+         4.063,
+         2.283
+        ]
+       },
+       {
+        "par": [
+         3.729,
+         1.255,
+         3.822,
+         1.541
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         0,
+         0,
+         3.321,
+         0
+        ]
+       },
+       {
+        "seg": [
+         0.927,
+         2.853,
+         3.964,
+         -0.766
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         72
+        ],
+        "label": "72°",
+        "r": 0.6
+       },
+       {
+        "angle": [
+         3.321,
+         0,
+         180,
+         310
+        ],
+        "label": "130°",
+        "r": 0.45
+       },
+       {
+        "angle": [
+         3.321,
+         0,
+         72,
+         130
+        ],
+        "label": "",
+        "r": 0.7
+       },
+       {
+        "point": [
+         0.927,
+         2.853
+        ],
+        "name": "A",
+        "pos": "n"
+       },
+       {
+        "point": [
+         3.321,
+         0
+        ],
+        "name": "B",
+        "pos": "e"
+       },
+       {
+        "point": [
+         4.063,
+         2.283
+        ],
+        "name": "C",
+        "pos": "e"
+       }
+      ]
+     },
+     "units": "°"
+    },
+    {
+     "id": "q5d",
+     "label": "5d",
+     "section": "Problem-solving",
+     "stem": "Find the size of $\\angle ABC$ in these diagrams.",
+     "prompt": "Find the size of $\\angle ABC$.",
+     "type": "numeric",
+     "answer": "77",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         2,
+         4.4,
+         2
+        ]
+       },
+       {
+        "par": [
+         2.42,
+         2,
+         2.72,
+         2
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         0,
+         0,
+         4.4,
+         0
+        ]
+       },
+       {
+        "par": [
+         2.42,
+         0,
+         2.72,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         0,
+         1,
+         4.4,
+         1
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         3,
+         2,
+         1.336,
+         1
+        ]
+       },
+       {
+        "seg": [
+         1.336,
+         1,
+         2.301,
+         0
+        ]
+       },
+       {
+        "angle": [
+         3,
+         2,
+         180,
+         211
+        ],
+        "label": "31°",
+        "r": 0.8
+       },
+       {
+        "angle": [
+         2.301,
+         0,
+         134,
+         180
+        ],
+        "label": "46°",
+        "r": 0.8
+       },
+       {
+        "angle": [
+         1.336,
+         1,
+         314,
+         31
+        ],
+        "label": "",
+        "r": 0.4
+       },
+       {
+        "point": [
+         3,
+         2
+        ],
+        "name": "A",
+        "pos": "ne"
+       },
+       {
+        "point": [
+         1.336,
+         1
+        ],
+        "name": "B",
+        "pos": "w"
+       },
+       {
+        "point": [
+         2.301,
+         0
+        ],
+        "name": "C",
+        "pos": "se"
+       }
+      ]
+     },
+     "units": "°"
+    },
+    {
+     "id": "q5e",
+     "label": "5e",
+     "section": "Problem-solving",
+     "stem": "Find the size of $\\angle ABC$ in these diagrams.",
+     "prompt": "Find the size of $\\angle ABC$.",
+     "type": "numeric",
+     "answer": "91",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         -0.342,
+         -0.94,
+         0.616,
+         1.691
+        ]
+       },
+       {
+        "par": [
+         0.185,
+         0.507,
+         0.287,
+         0.789
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         3.289,
+         -0.774,
+         4.246,
+         1.858
+        ]
+       },
+       {
+        "par": [
+         3.815,
+         0.674,
+         3.918,
+         0.955
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         1.606,
+         -0.492,
+         2.701,
+         2.515
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         2.427,
+         1.763
+        ]
+       },
+       {
+        "seg": [
+         2.427,
+         1.763,
+         3.631,
+         0.166
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         36,
+         70
+        ],
+        "label": "34°",
+        "r": 0.7
+       },
+       {
+        "angle": [
+         3.631,
+         0.166,
+         70,
+         127
+        ],
+        "label": "57°",
+        "r": 0.6
+       },
+       {
+        "angle": [
+         2.427,
+         1.763,
+         216,
+         307
+        ],
+        "label": "",
+        "r": 0.4
+       },
+       {
+        "point": [
+         0,
+         0
+        ],
+        "name": "A",
+        "pos": "w"
+       },
+       {
+        "point": [
+         2.427,
+         1.763
+        ],
+        "name": "B",
+        "pos": "n"
+       },
+       {
+        "point": [
+         3.631,
+         0.166
+        ],
+        "name": "C",
+        "pos": "e"
+       }
+      ]
+     },
+     "units": "°"
+    },
+    {
+     "id": "q5f",
+     "label": "5f",
+     "section": "Problem-solving",
+     "stem": "Find the size of $\\angle ABC$ in these diagrams.",
+     "prompt": "Find the size of $\\angle ABC$.",
+     "type": "numeric",
+     "answer": "92",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0.259,
+         -0.966,
+         -0.414,
+         1.545
+        ]
+       },
+       {
+        "par": [
+         -0.111,
+         0.415,
+         -0.189,
+         0.705
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         3.433,
+         0.421,
+         2.708,
+         3.126
+        ]
+       },
+       {
+        "par": [
+         3.034,
+         1.908,
+         2.957,
+         2.198
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         0,
+         0,
+         1.18,
+         2.317
+        ]
+       },
+       {
+        "seg": [
+         1.18,
+         2.317,
+         3.174,
+         1.387
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         63,
+         105
+        ],
+        "label": "42°",
+        "r": 0.7
+       },
+       {
+        "angle": [
+         3.174,
+         1.387,
+         105,
+         155
+        ],
+        "label": "50°",
+        "r": 0.6
+       },
+       {
+        "angle": [
+         1.18,
+         2.317,
+         243,
+         335
+        ],
+        "label": "",
+        "r": 0.4
+       },
+       {
+        "point": [
+         0,
+         0
+        ],
+        "name": "A",
+        "pos": "sw"
+       },
+       {
+        "point": [
+         1.18,
+         2.317
+        ],
+        "name": "B",
+        "pos": "n"
+       },
+       {
+        "point": [
+         3.174,
+         1.387
+        ],
+        "name": "C",
+        "pos": "se"
+       }
+      ]
+     },
+     "units": "°"
+    },
+    {
+     "id": "q6a",
+     "label": "6a",
+     "section": "Problem-solving",
+     "stem": "Find the value of $x$ in each of these diagrams.",
+     "prompt": "Find $x$.",
+     "type": "numeric",
+     "answer": "54",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         -1.128,
+         -0.41,
+         3.007,
+         1.094
+        ]
+       },
+       {
+        "par": [
+         1.146,
+         0.417,
+         1.428,
+         0.52
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         -1.94,
+         2.658,
+         3.135,
+         4.505
+        ]
+       },
+       {
+        "par": [
+         0.851,
+         3.674,
+         1.133,
+         3.776
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         0,
+         0,
+         0.312,
+         1.467
+        ]
+       },
+       {
+        "seg": [
+         0.312,
+         1.467,
+         -1.624,
+         2.773
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         20,
+         78
+        ],
+        "label": "58°",
+        "r": 0.6
+       },
+       {
+        "angle": [
+         0.312,
+         1.467,
+         146,
+         258
+        ],
+        "label": "112°",
+        "r": 0.5
+       },
+       {
+        "angle": [
+         -1.624,
+         2.773,
+         326,
+         20
+        ],
+        "label": "x°",
+        "r": 0.6
+       }
+      ]
+     }
+    },
+    {
+     "id": "q6b",
+     "label": "6b",
+     "section": "Problem-solving",
+     "stem": "Find the value of $x$ in each of these diagrams.",
+     "prompt": "Find $x$.",
+     "type": "numeric",
+     "answer": "150",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         0,
+         2
+        ]
+       },
+       {
+        "par": [
+         0,
+         1.1,
+         0,
+         1.4
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         3.134,
+         1.07,
+         3.134,
+         3.07
+        ]
+       },
+       {
+        "par": [
+         3.134,
+         2.17,
+         3.134,
+         2.47
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         0,
+         0,
+         1.734,
+         -1.354
+        ]
+       },
+       {
+        "seg": [
+         1.734,
+         -1.354,
+         3.134,
+         1.07
+        ]
+       },
+       {
+        "seg": [
+         1.734,
+         -1.354,
+         1.734,
+         0.846
+        ],
+        "dash": true
+       },
+       {
+        "angle": [
+         0,
+         0,
+         322,
+         90
+        ],
+        "label": "128°",
+        "r": 0.6
+       },
+       {
+        "angle": [
+         1.734,
+         -1.354,
+         142,
+         60
+        ],
+        "label": "278°",
+        "r": 0.4
+       },
+       {
+        "angle": [
+         3.134,
+         1.07,
+         90,
+         240
+        ],
+        "label": "x°",
+        "r": 0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q6c",
+     "label": "6c",
+     "section": "Problem-solving",
+     "stem": "Find the value of $x$ in each of these diagrams.",
+     "prompt": "Find $x$.",
+     "type": "numeric",
+     "answer": "50",
+     "figure": {
+      "kind": "diagram",
+      "unit": 60,
+      "items": [
+       {
+        "seg": [
+         -1.813,
+         -0.845,
+         0,
+         0
+        ]
+       },
+       {
+        "par": [
+         -0.816,
+         -0.38,
+         -0.544,
+         -0.254
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         0,
+         0,
+         1.474,
+         -1.032
+        ]
+       },
+       {
+        "seg": [
+         1.474,
+         -1.032,
+         1.112,
+         -2.385
+        ]
+       },
+       {
+        "seg": [
+         1.112,
+         -2.385,
+         2.925,
+         -1.539
+        ]
+       },
+       {
+        "par": [
+         2.109,
+         -1.92,
+         2.381,
+         -1.793
+        ],
+        "n": 1
+       },
+       {
+        "angle": [
+         0,
+         0,
+         205,
+         325
+        ],
+        "label": "120°",
+        "r": 0.5
+       },
+       {
+        "angle": [
+         1.474,
+         -1.032,
+         145,
+         255
+        ],
+        "label": "110°",
+        "r": 0.5
+       },
+       {
+        "angle": [
+         1.112,
+         -2.385,
+         25,
+         75
+        ],
+        "label": "x°",
+        "r": 0.6
+       }
+      ]
+     }
+    },
+    {
+     "id": "q7a",
+     "label": "7a",
+     "section": "Reasoning",
+     "stem": "What is the smallest number of angles you need to be told so that you can work out every angle at the points where the lines cross? (Lines with matching arrows are parallel.)",
+     "prompt": "Two parallel lines and one transversal",
+     "type": "numeric",
+     "answer": "1",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         -2.4,
+         0,
+         2.4,
+         0
+        ],
+        "arrow": "both"
+       },
+       {
+        "par": [
+         1.32,
+         0,
+         1.62,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         -1.367,
+         1.942,
+         3.433,
+         1.942
+        ],
+        "arrow": "both"
+       },
+       {
+        "par": [
+         2.353,
+         1.942,
+         2.653,
+         1.942
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         -0.516,
+         -0.971,
+         1.549,
+         2.914
+        ],
+        "arrow": "both"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q7b",
+     "label": "7b",
+     "section": "Reasoning",
+     "stem": "What is the smallest number of angles you need to be told so that you can work out every angle at the points where the lines cross? (Lines with matching arrows are parallel.)",
+     "prompt": "Three parallel lines and one transversal",
+     "type": "numeric",
+     "answer": "1",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         -2,
+         0,
+         2.6,
+         0
+        ]
+       },
+       {
+        "par": [
+         0.53,
+         0,
+         0.83,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         -2,
+         1.4,
+         2.6,
+         1.4
+        ]
+       },
+       {
+        "par": [
+         0.53,
+         1.4,
+         0.83,
+         1.4
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         -2,
+         2.8,
+         2.6,
+         2.8
+        ]
+       },
+       {
+        "par": [
+         0.53,
+         2.8,
+         0.83,
+         2.8
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         -0.375,
+         -0.927,
+         1.498,
+         3.709
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q7c",
+     "label": "7c",
+     "section": "Reasoning",
+     "stem": "What is the smallest number of angles you need to be told so that you can work out every angle at the points where the lines cross? (Lines with matching arrows are parallel.)",
+     "prompt": "Two parallel lines and two transversals that are not parallel to each other (they cross above the lines)",
+     "type": "numeric",
+     "answer": "2",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         -2.4,
+         0,
+         3.4,
+         0
+        ]
+       },
+       {
+        "par": [
+         0.79,
+         0,
+         1.09,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         -2.4,
+         2,
+         3.4,
+         2
+        ]
+       },
+       {
+        "par": [
+         0.79,
+         2,
+         1.09,
+         2
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         -1.074,
+         -0.752,
+         0.226,
+         2.819
+        ]
+       },
+       {
+        "seg": [
+         2.474,
+         -0.752,
+         1.174,
+         2.819
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q8a",
+     "label": "8a",
+     "section": "Reasoning",
+     "stem": "In these diagrams, $x$ stands for a number and $2x$ means $2 \\times x$. Find the value of $x$ in each case.",
+     "prompt": "Find $x$.",
+     "type": "numeric",
+     "answer": "24",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         -0.4,
+         -0.2,
+         4.551,
+         0.496
+        ]
+       },
+       {
+        "seg": [
+         0.788,
+         -0.033,
+         1.066,
+         1.543
+        ]
+       },
+       {
+        "par": [
+         0.941,
+         0.834,
+         0.993,
+         1.129
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         2.967,
+         0.273,
+         3.245,
+         1.849
+        ]
+       },
+       {
+        "par": [
+         3.12,
+         1.14,
+         3.172,
+         1.435
+        ],
+        "n": 1
+       },
+       {
+        "angle": [
+         2.967,
+         0.273,
+         8,
+         80
+        ],
+        "label": "72°",
+        "r": 0.5
+       },
+       {
+        "angle": [
+         0.788,
+         -0.033,
+         8,
+         80
+        ],
+        "r": 0.5
+       },
+       {
+        "label": "(3x)°",
+        "at": [
+         1.867,
+         1.009
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q8b",
+     "label": "8b",
+     "section": "Reasoning",
+     "stem": "In these diagrams, $x$ stands for a number and $2x$ means $2 \\times x$. Find the value of $x$ in each case.",
+     "prompt": "Find $x$.",
+     "type": "numeric",
+     "answer": "31",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         -2.705,
+         -0.725,
+         2.705,
+         0.725
+        ],
+        "arrow": "both"
+       },
+       {
+        "par": [
+         1.488,
+         0.399,
+         1.777,
+         0.476
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         -1.985,
+         2.393,
+         3.424,
+         3.843
+        ],
+        "arrow": "both"
+       },
+       {
+        "par": [
+         2.207,
+         3.517,
+         2.497,
+         3.594
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         -0.247,
+         -1.072,
+         0.967,
+         4.19
+        ],
+        "arrow": "both"
+       },
+       {
+        "angle": [
+         0.72,
+         3.118,
+         257,
+         15
+        ],
+        "label": "118°",
+        "r": 0.6
+       },
+       {
+        "angle": [
+         0,
+         0,
+         15,
+         77
+        ],
+        "r": 0.6
+       },
+       {
+        "label": "(2x)°",
+        "at": [
+         1.042,
+         1.079
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q8c",
+     "label": "8c",
+     "section": "Reasoning",
+     "stem": "In these diagrams, $x$ stands for a number and $2x$ means $2 \\times x$. Find the value of $x$ in each case.",
+     "prompt": "Find $x$.",
+     "type": "numeric",
+     "answer": "29",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         2.6,
+         0
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         -1.052,
+         2.157
+        ]
+       },
+       {
+        "par": [
+         -0.579,
+         1.186,
+         -0.71,
+         1.456
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         2.6,
+         0,
+         1.548,
+         2.157
+        ]
+       },
+       {
+        "par": [
+         2.021,
+         1.186,
+         1.89,
+         1.456
+        ],
+        "n": 1
+       },
+       {
+        "angle": [
+         2.6,
+         0,
+         116,
+         180
+        ],
+        "label": "64°",
+        "r": 0.6
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         116
+        ],
+        "r": 0.5
+       },
+       {
+        "label": "(4x)°",
+        "at": [
+         0.556,
+         0.89
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q8d",
+     "label": "8d",
+     "section": "Reasoning",
+     "stem": "In these diagrams, $x$ stands for a number and $2x$ means $2 \\times x$. Find the value of $x$ in each case.",
+     "prompt": "Find $x$.",
+     "type": "numeric",
+     "answer": "37",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         4,
+         0
+        ]
+       },
+       {
+        "seg": [
+         0.3,
+         0,
+         1.531,
+         1.576
+        ]
+       },
+       {
+        "par": [
+         0.977,
+         0.867,
+         1.162,
+         1.103
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         1.915,
+         -1.261,
+         2.9,
+         0
+        ]
+       },
+       {
+        "par": [
+         2.457,
+         -0.567,
+         2.641,
+         -0.331
+        ],
+        "n": 1
+       },
+       {
+        "angle": [
+         0.3,
+         0,
+         0,
+         52
+        ],
+        "r": 0.5
+       },
+       {
+        "label": "(x + 15)°",
+        "at": [
+         2.098,
+         0.877
+        ]
+       },
+       {
+        "angle": [
+         2.9,
+         0,
+         180,
+         232
+        ],
+        "label": "52°",
+        "r": 0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q8e",
+     "label": "8e",
+     "section": "Reasoning",
+     "stem": "In these diagrams, $x$ stands for a number and $2x$ means $2 \\times x$. Find the value of $x$ in each case.",
+     "prompt": "Find $x$.",
+     "type": "numeric",
+     "answer": "128",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         -0.4,
+         0,
+         4.6,
+         0
+        ]
+       },
+       {
+        "seg": [
+         0.6,
+         0,
+         0.031,
+         1.279
+        ]
+       },
+       {
+        "par": [
+         0.287,
+         0.703,
+         0.165,
+         0.977
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         3.407,
+         -0.914,
+         2.268,
+         1.644
+        ]
+       },
+       {
+        "par": [
+         2.78,
+         0.493,
+         2.658,
+         0.767
+        ],
+        "n": 1
+       },
+       {
+        "angle": [
+         0.6,
+         0,
+         114,
+         180
+        ],
+        "label": "66°",
+        "r": 0.5
+       },
+       {
+        "angle": [
+         3,
+         0,
+         0,
+         114
+        ],
+        "r": 0.4
+       },
+       {
+        "label": "(x - 14)°",
+        "at": [
+         3.926,
+         1.426
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q8f",
+     "label": "8f",
+     "section": "Reasoning",
+     "stem": "In these diagrams, $x$ stands for a number and $2x$ means $2 \\times x$. Find the value of $x$ in each case.",
+     "prompt": "Find $x$.",
+     "type": "numeric",
+     "answer": "14",
+     "figure": {
+      "kind": "diagram",
+      "unit": 60,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         -0.272,
+         2.586
+        ]
+       },
+       {
+        "par": [
+         -0.149,
+         1.422,
+         -0.181,
+         1.721
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         2.4,
+         0,
+         2.193,
+         1.974
+        ]
+       },
+       {
+        "par": [
+         2.286,
+         1.086,
+         2.255,
+         1.384
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         0,
+         0,
+         2.4,
+         0
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         2.193,
+         1.974
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         42,
+         96
+        ],
+        "label": "54°",
+        "r": 0.9
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         42
+        ],
+        "r": 0.6
+       },
+       {
+        "label": "(3x)°",
+        "at": [
+         1.167,
+         0.448
+        ]
+       },
+       {
+        "angle": [
+         2.4,
+         0,
+         96,
+         180
+        ],
+        "label": "84°",
+        "r": 0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q9a",
+     "label": "9a",
+     "section": "Reasoning",
+     "stem": "Find the value of $a$ in these diagrams.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "36",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         3.4,
+         0
+        ]
+       },
+       {
+        "par": [
+         1.87,
+         0,
+         2.17,
+         0
+        ],
+        "n": 2
+       },
+       {
+        "seg": [
+         1.942,
+         1.411,
+         5.342,
+         1.411
+        ]
+       },
+       {
+        "par": [
+         3.812,
+         1.411,
+         4.112,
+         1.411
+        ],
+        "n": 2
+       },
+       {
+        "seg": [
+         0,
+         0,
+         1.942,
+         1.411
+        ]
+       },
+       {
+        "par": [
+         1.068,
+         0.776,
+         1.311,
+         0.952
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         3.4,
+         0,
+         5.342,
+         1.411
+        ]
+       },
+       {
+        "par": [
+         4.468,
+         0.776,
+         4.711,
+         0.952
+        ],
+        "n": 1
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         36
+        ],
+        "label": "a°",
+        "r": 0.7
+       },
+       {
+        "angle": [
+         1.942,
+         1.411,
+         216,
+         0
+        ],
+        "r": 0.5
+       },
+       {
+        "label": "(4a)°",
+        "at": [
+         2.251,
+         0.46
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q9b",
+     "label": "9b",
+     "section": "Reasoning",
+     "stem": "Find the value of $a$ in these diagrams.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "30",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         -0.4,
+         0,
+         5,
+         0
+        ]
+       },
+       {
+        "seg": [
+         0.8,
+         0,
+         2.705,
+         1.1
+        ]
+       },
+       {
+        "par": [
+         1.848,
+         0.605,
+         2.108,
+         0.755
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         3.4,
+         0,
+         5.305,
+         1.1
+        ]
+       },
+       {
+        "par": [
+         4.448,
+         0.605,
+         4.708,
+         0.755
+        ],
+        "n": 1
+       },
+       {
+        "angle": [
+         3.4,
+         0,
+         0,
+         30
+        ],
+        "label": "a°",
+        "r": 0.6
+       },
+       {
+        "angle": [
+         0.8,
+         0,
+         30,
+         180
+        ],
+        "r": 0.5
+       },
+       {
+        "label": "(5a)°",
+        "at": [
+         0.541,
+         0.966
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q9c",
+     "label": "9c",
+     "section": "Reasoning",
+     "stem": "Find the value of $a$ in these diagrams.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "47",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         -0.4,
+         0,
+         4.6,
+         0
+        ]
+       },
+       {
+        "seg": [
+         -0.177,
+         -0.629,
+         1.999,
+         1.133
+        ]
+       },
+       {
+        "par": [
+         1.02,
+         0.34,
+         1.253,
+         0.529
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         2.423,
+         -0.629,
+         4.599,
+         1.133
+        ]
+       },
+       {
+        "par": [
+         3.62,
+         0.34,
+         3.853,
+         0.529
+        ],
+        "n": 1
+       },
+       {
+        "angle": [
+         0.6,
+         0,
+         39,
+         180
+        ],
+        "r": 0.5
+       },
+       {
+        "label": "(3a)°",
+        "at": [
+         0.266,
+         0.943
+        ]
+       },
+       {
+        "angle": [
+         3.2,
+         0,
+         219,
+         0
+        ],
+        "label": "141°",
+        "r": 0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q10a",
+     "label": "10a",
+     "section": "Enrichment",
+     "stem": "Adding an extra line parallel to the given lines (through the bend) can help. Find the value of $a$ in these diagrams.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "103",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0.351,
+         0.592,
+         3,
+         2
+        ]
+       },
+       {
+        "par": [
+         1.808,
+         1.366,
+         2.073,
+         1.507
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         3,
+         2,
+         2.394,
+         -0.115
+        ]
+       },
+       {
+        "seg": [
+         2.394,
+         -0.115,
+         3.268,
+         -0.6
+        ]
+       },
+       {
+        "seg": [
+         1.502,
+         -1.539,
+         3.268,
+         -0.6
+        ]
+       },
+       {
+        "par": [
+         2.474,
+         -1.022,
+         2.738,
+         -0.881
+        ],
+        "n": 1
+       },
+       {
+        "angle": [
+         3,
+         2,
+         208,
+         254
+        ],
+        "label": "46°",
+        "r": 0.6
+       },
+       {
+        "angle": [
+         3.268,
+         -0.6,
+         151,
+         208
+        ],
+        "label": "57°",
+        "r": 0.6
+       },
+       {
+        "angle": [
+         2.394,
+         -0.115,
+         331,
+         74
+        ],
+        "label": "a°",
+        "r": 0.4
+       }
+      ]
+     }
+    },
+    {
+     "id": "q10b",
+     "label": "10b",
+     "section": "Enrichment",
+     "stem": "Adding an extra line parallel to the given lines (through the bend) can help. Find the value of $a$ in these diagrams.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "85",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         -1.6,
+         0,
+         0
+        ]
+       },
+       {
+        "par": [
+         0,
+         -0.72,
+         0,
+         -0.42
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         2.438,
+         -1.638,
+         2.438,
+         -0.238
+        ]
+       },
+       {
+        "par": [
+         2.438,
+         -0.868,
+         2.438,
+         -0.568
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         0,
+         0,
+         1.638,
+         1.147
+        ]
+       },
+       {
+        "seg": [
+         1.638,
+         1.147,
+         2.438,
+         -0.238
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         270,
+         35
+        ],
+        "label": "125°",
+        "r": 0.4
+       },
+       {
+        "angle": [
+         2.438,
+         -0.238,
+         120,
+         270
+        ],
+        "label": "150°",
+        "r": 0.4
+       },
+       {
+        "angle": [
+         1.638,
+         1.147,
+         215,
+         300
+        ],
+        "label": "a°",
+        "r": 0.5
+       }
+      ]
+     }
+    },
+    {
+     "id": "q10c",
+     "label": "10c",
+     "section": "Enrichment",
+     "stem": "Adding an extra line parallel to the given lines (through the bend) can help. Find the value of $a$ in these diagrams.",
+     "prompt": "Find $a$.",
+     "type": "numeric",
+     "answer": "140",
+     "figure": {
+      "kind": "diagram",
+      "unit": 50,
+      "items": [
+       {
+        "seg": [
+         -1.576,
+         -1.231,
+         0,
+         0
+        ]
+       },
+       {
+        "par": [
+         -0.709,
+         -0.554,
+         -0.473,
+         -0.369
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         0,
+         0,
+         0,
+         -1.3
+        ]
+       },
+       {
+        "seg": [
+         0,
+         -1.3,
+         1.8,
+         -1.3
+        ]
+       },
+       {
+        "seg": [
+         1.8,
+         -1.3,
+         1.488,
+         -2.767
+        ]
+       },
+       {
+        "seg": [
+         1.488,
+         -2.767,
+         0.227,
+         -3.752
+        ]
+       },
+       {
+        "par": [
+         0.795,
+         -3.309,
+         0.558,
+         -3.494
+        ],
+        "n": 1
+       },
+       {
+        "angle": [
+         0,
+         0,
+         218,
+         270
+        ],
+        "label": "52°",
+        "r": 0.5
+       },
+       {
+        "angle": [
+         0,
+         -1.3,
+         0,
+         90
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         1.8,
+         -1.3,
+         180,
+         258
+        ],
+        "label": "78°",
+        "r": 0.4
+       },
+       {
+        "angle": [
+         1.488,
+         -2.767,
+         78,
+         218
+        ],
+        "label": "a°",
+        "r": 0.4
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "7e",
+   "chapter": "Chapter 7: Geometry",
+   "title": "7E Classifying and constructing triangles",
+   "description": "Classify triangles by their sides and by their angles, and use the properties of isosceles and equilateral triangles.",
+   "questions": [
+    {
+     "id": "q1a",
+     "label": "1a",
+     "section": "Fluency",
+     "stem": "Classify each triangle by its side lengths. The marks show which sides are equal.",
+     "prompt": "Triangle a",
+     "type": "choice",
+     "options": [
+      "Scalene",
+      "Isosceles",
+      "Equilateral"
+     ],
+     "answer": 1,
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          -3.263,
+          -1.521
+         ],
+         [
+          0.459,
+          -5.243
+         ]
+        ]
+       },
+       {
+        "tick": [
+         0,
+         0,
+         0.459,
+         -5.243
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         -3.263,
+         -1.521,
+         0.459,
+         -5.243
+        ],
+        "n": 1
+       }
+      ]
+     }
+    },
+    {
+     "id": "q1b",
+     "label": "1b",
+     "section": "Fluency",
+     "stem": "Classify each triangle by its side lengths. The marks show which sides are equal.",
+     "prompt": "Triangle b",
+     "type": "choice",
+     "options": [
+      "Scalene",
+      "Isosceles",
+      "Equilateral"
+     ],
+     "answer": 2,
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          3.251,
+          -0.994
+         ],
+         [
+          2.487,
+          2.319
+         ]
+        ]
+       },
+       {
+        "tick": [
+         0,
+         0,
+         3.251,
+         -0.994
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         3.251,
+         -0.994,
+         2.487,
+         2.319
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         2.487,
+         2.319,
+         0,
+         0
+        ],
+        "n": 1
+       }
+      ]
+     }
+    },
+    {
+     "id": "q1c",
+     "label": "1c",
+     "section": "Fluency",
+     "stem": "Classify each triangle by its side lengths. The marks show which sides are equal.",
+     "prompt": "Triangle c",
+     "type": "choice",
+     "options": [
+      "Scalene",
+      "Isosceles",
+      "Equilateral"
+     ],
+     "answer": 0,
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          -5.38,
+          -1.144
+         ],
+         [
+          -4.495,
+          1.289
+         ]
+        ]
+       },
+       {
+        "tick": [
+         0,
+         0,
+         -5.38,
+         -1.144
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         -5.38,
+         -1.144,
+         -4.495,
+         1.289
+        ],
+        "n": 2
+       },
+       {
+        "tick": [
+         -4.495,
+         1.289,
+         0,
+         0
+        ],
+        "n": 3
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2a",
+     "label": "2a",
+     "section": "Fluency",
+     "stem": "These triangles are drawn to scale. Classify each one by its angles.",
+     "prompt": "Triangle a",
+     "type": "choice",
+     "options": [
+      "Acute",
+      "Right",
+      "Obtuse"
+     ],
+     "answer": 2,
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          5.149,
+          0.724
+         ],
+         [
+          2.994,
+          1.729
+         ]
+        ]
+       },
+       {
+        "angle": [
+         2.994,
+         1.729,
+         210,
+         335
+        ],
+        "r": 0.65
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2b",
+     "label": "2b",
+     "section": "Fluency",
+     "stem": "These triangles are drawn to scale. Classify each one by its angles.",
+     "prompt": "Triangle b",
+     "type": "choice",
+     "options": [
+      "Acute",
+      "Right",
+      "Obtuse"
+     ],
+     "answer": 1,
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          -1.972,
+          3.708
+         ],
+         [
+          -2.897,
+          -1.541
+         ]
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         118,
+         208
+        ],
+        "right": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2c",
+     "label": "2c",
+     "section": "Fluency",
+     "stem": "These triangles are drawn to scale. Classify each one by its angles.",
+     "prompt": "Triangle c",
+     "type": "choice",
+     "options": [
+      "Acute",
+      "Right",
+      "Obtuse"
+     ],
+     "answer": 0,
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          3.625,
+          -1.69
+         ],
+         [
+          2.924,
+          2.285
+         ]
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3a",
+     "label": "3a",
+     "section": "Fluency",
+     "stem": "These triangles are drawn to scale. Classify each triangle by its side lengths and by its angles.",
+     "prompt": "Triangle A: by its side lengths",
+     "type": "choice",
+     "options": [
+      "Scalene",
+      "Isosceles",
+      "Equilateral"
+     ],
+     "answer": 1,
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          -3.195,
+          1.163
+         ],
+         [
+          -1.163,
+          -3.195
+         ]
+        ]
+       },
+       {
+        "tick": [
+         0,
+         0,
+         -3.195,
+         1.163
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         0,
+         0,
+         -1.163,
+         -3.195
+        ],
+        "n": 1
+       },
+       {
+        "angle": [
+         0,
+         0,
+         160,
+         250
+        ],
+        "right": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3b",
+     "label": "3b",
+     "section": "Fluency",
+     "stem": "These triangles are drawn to scale. Classify each triangle by its side lengths and by its angles.",
+     "prompt": "Triangle A: by its angles",
+     "type": "choice",
+     "options": [
+      "Acute",
+      "Right",
+      "Obtuse"
+     ],
+     "answer": 1,
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          -3.195,
+          1.163
+         ],
+         [
+          -1.163,
+          -3.195
+         ]
+        ]
+       },
+       {
+        "tick": [
+         0,
+         0,
+         -3.195,
+         1.163
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         0,
+         0,
+         -1.163,
+         -3.195
+        ],
+        "n": 1
+       },
+       {
+        "angle": [
+         0,
+         0,
+         160,
+         250
+        ],
+        "right": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3c",
+     "label": "3c",
+     "section": "Fluency",
+     "stem": "These triangles are drawn to scale. Classify each triangle by its side lengths and by its angles.",
+     "prompt": "Triangle B: by its side lengths",
+     "type": "choice",
+     "options": [
+      "Scalene",
+      "Isosceles",
+      "Equilateral"
+     ],
+     "answer": 0,
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          -4.698,
+          -1.71
+         ],
+         [
+          -2.604,
+          -2.514
+         ]
+        ]
+       },
+       {
+        "angle": [
+         -2.604,
+         -2.514,
+         44,
+         159
+        ],
+        "r": 0.65
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3d",
+     "label": "3d",
+     "section": "Fluency",
+     "stem": "These triangles are drawn to scale. Classify each triangle by its side lengths and by its angles.",
+     "prompt": "Triangle B: by its angles",
+     "type": "choice",
+     "options": [
+      "Acute",
+      "Right",
+      "Obtuse"
+     ],
+     "answer": 2,
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          -4.698,
+          -1.71
+         ],
+         [
+          -2.604,
+          -2.514
+         ]
+        ]
+       },
+       {
+        "angle": [
+         -2.604,
+         -2.514,
+         44,
+         159
+        ],
+        "r": 0.65
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3e",
+     "label": "3e",
+     "section": "Fluency",
+     "stem": "These triangles are drawn to scale. Classify each triangle by its side lengths and by its angles.",
+     "prompt": "Triangle C: by its side lengths",
+     "type": "choice",
+     "options": [
+      "Scalene",
+      "Isosceles",
+      "Equilateral"
+     ],
+     "answer": 1,
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          -0.314,
+          2.984
+         ],
+         [
+          -3.507,
+          1.14
+         ]
+        ]
+       },
+       {
+        "tick": [
+         0,
+         0,
+         -3.507,
+         1.14
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         -0.314,
+         2.984,
+         -3.507,
+         1.14
+        ],
+        "n": 1
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3f",
+     "label": "3f",
+     "section": "Fluency",
+     "stem": "These triangles are drawn to scale. Classify each triangle by its side lengths and by its angles.",
+     "prompt": "Triangle C: by its angles",
+     "type": "choice",
+     "options": [
+      "Acute",
+      "Right",
+      "Obtuse"
+     ],
+     "answer": 0,
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          -0.314,
+          2.984
+         ],
+         [
+          -3.507,
+          1.14
+         ]
+        ]
+       },
+       {
+        "tick": [
+         0,
+         0,
+         -3.507,
+         1.14
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         -0.314,
+         2.984,
+         -3.507,
+         1.14
+        ],
+        "n": 1
+       }
+      ]
+     }
+    },
+    {
+     "id": "q5a",
+     "label": "5a",
+     "section": "Fluency",
+     "stem": "Priya is going to construct a triangle with the given side lengths. What type of triangle (by side lengths) will she draw?",
+     "prompt": "$6$ cm, $4$ cm and $6$ cm",
+     "type": "choice",
+     "options": [
+      "Scalene",
+      "Isosceles",
+      "Equilateral"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "q5b",
+     "label": "5b",
+     "section": "Fluency",
+     "stem": "Priya is going to construct a triangle with the given side lengths. What type of triangle (by side lengths) will she draw?",
+     "prompt": "$7$ cm, $5$ cm and $9$ cm",
+     "type": "choice",
+     "options": [
+      "Scalene",
+      "Isosceles",
+      "Equilateral"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q6a",
+     "label": "6a",
+     "section": "Fluency",
+     "stem": "Liam constructs an isosceles triangle with a pair of compasses, then measures it to check.",
+     "prompt": "One of the legs is $6.5$ cm long. How long is the other leg?",
+     "type": "numeric",
+     "answer": "6.5",
+     "units": "cm"
+    },
+    {
+     "id": "q6b",
+     "label": "6b",
+     "section": "Fluency",
+     "stem": "Liam constructs an isosceles triangle with a pair of compasses, then measures it to check.",
+     "prompt": "One base angle measures $71^\\circ$. What does the other base angle measure?",
+     "type": "numeric",
+     "answer": "71",
+     "units": "°"
+    },
+    {
+     "id": "q7a",
+     "label": "7a",
+     "section": "Fluency",
+     "stem": "Ava constructs an equilateral triangle, starting with a segment $4.5$ cm long.",
+     "prompt": "How long is each of the other two sides?",
+     "type": "numeric",
+     "answer": "4.5",
+     "units": "cm"
+    },
+    {
+     "id": "q7b",
+     "label": "7b",
+     "section": "Fluency",
+     "stem": "Ava constructs an equilateral triangle, starting with a segment $4.5$ cm long.",
+     "prompt": "What size is each angle in her triangle?",
+     "type": "numeric",
+     "answer": "60",
+     "units": "°"
+    },
+    {
+     "id": "q9a",
+     "label": "9a",
+     "section": "Problem-solving",
+     "stem": "Is it possible to draw each of these triangles?",
+     "prompt": "An obtuse triangle that is also isosceles",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q9b",
+     "label": "9b",
+     "section": "Problem-solving",
+     "stem": "Is it possible to draw each of these triangles?",
+     "prompt": "A right triangle that is also equilateral",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "q9c",
+     "label": "9c",
+     "section": "Problem-solving",
+     "stem": "Is it possible to draw each of these triangles?",
+     "prompt": "An acute triangle that is also isosceles",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q9d",
+     "label": "9d",
+     "section": "Problem-solving",
+     "stem": "Is it possible to draw each of these triangles?",
+     "prompt": "A scalene triangle that is also obtuse",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q11",
+     "label": "11",
+     "section": "Problem-solving",
+     "prompt": "Each empty cell of this table stands for a triangle that is both the row type and the column type (for example, top left is an acute scalene triangle). For how many of the nine cells is it impossible to draw a triangle?",
+     "type": "numeric",
+     "answer": "2",
+     "figure": {
+      "kind": "table",
+      "rows": [
+       [
+        "Angles / sides",
+        "Scalene",
+        "Isosceles",
+        "Equilateral"
+       ],
+       [
+        "Acute",
+        "?",
+        "?",
+        "?"
+       ],
+       [
+        "Right",
+        "?",
+        "?",
+        "?"
+       ],
+       [
+        "Obtuse",
+        "?",
+        "?",
+        "?"
+       ]
+      ]
+     }
+    },
+    {
+     "id": "q12a",
+     "label": "12a",
+     "section": "Reasoning",
+     "stem": "Think about cutting triangles into right triangles.",
+     "prompt": "Can every triangle be cut into two right triangles with one straight cut (a single segment)?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q12b",
+     "label": "12b",
+     "section": "Reasoning",
+     "stem": "Think about cutting triangles into right triangles.",
+     "prompt": "Which type of triangle can always be cut into two identical right triangles?",
+     "type": "choice",
+     "options": [
+      "Scalene",
+      "Isosceles",
+      "Obtuse",
+      "Right"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "q13",
+     "label": "13",
+     "section": "Reasoning",
+     "prompt": "Can a triangle be drawn with side lengths $3$ cm, $6$ cm and $11$ cm?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "q14a",
+     "label": "14a",
+     "section": "Reasoning",
+     "stem": "Answer yes or no.",
+     "prompt": "In any triangle, is the longest side always opposite the largest angle?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q14b",
+     "label": "14b",
+     "section": "Reasoning",
+     "stem": "Answer yes or no.",
+     "prompt": "Can a triangle have two right angles?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "7f",
+   "chapter": "Chapter 7: Geometry",
+   "title": "7F Classifying quadrilaterals and other polygons",
+   "description": "Name polygons by their sides, decide if they are convex or regular, and classify special quadrilaterals.",
+   "questions": [
+    {
+     "id": "q1a",
+     "label": "1a",
+     "section": "Fluency",
+     "stem": "Look at this polygon.",
+     "prompt": "What type of polygon is it?",
+     "type": "choice",
+     "options": [
+      "Pentagon",
+      "Hexagon",
+      "Heptagon",
+      "Octagon"
+     ],
+     "answer": 2,
+     "stemFigure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          3,
+          -1
+         ],
+         [
+          5.5,
+          0.4
+         ],
+         [
+          6,
+          3
+         ],
+         [
+          4.2,
+          5
+         ],
+         [
+          1.4,
+          4.4
+         ],
+         [
+          2.7,
+          2.3
+         ]
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q1b",
+     "label": "1b",
+     "section": "Fluency",
+     "stem": "Look at this polygon.",
+     "prompt": "Is it convex or non-convex?",
+     "type": "choice",
+     "options": [
+      "Convex",
+      "Non-convex"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "q1c",
+     "label": "1c",
+     "section": "Fluency",
+     "stem": "Look at this polygon.",
+     "prompt": "Is it regular or irregular?",
+     "type": "choice",
+     "options": [
+      "Regular",
+      "Irregular"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "q2a",
+     "label": "2a",
+     "section": "Fluency",
+     "stem": "How many sides does each of these polygons have?",
+     "prompt": "Hexagon",
+     "type": "numeric",
+     "answer": "6"
+    },
+    {
+     "id": "q2b",
+     "label": "2b",
+     "section": "Fluency",
+     "stem": "How many sides does each of these polygons have?",
+     "prompt": "Quadrilateral",
+     "type": "numeric",
+     "answer": "4"
+    },
+    {
+     "id": "q2c",
+     "label": "2c",
+     "section": "Fluency",
+     "stem": "How many sides does each of these polygons have?",
+     "prompt": "Nonagon",
+     "type": "numeric",
+     "answer": "9"
+    },
+    {
+     "id": "q2d",
+     "label": "2d",
+     "section": "Fluency",
+     "stem": "How many sides does each of these polygons have?",
+     "prompt": "Triangle",
+     "type": "numeric",
+     "answer": "3"
+    },
+    {
+     "id": "q2e",
+     "label": "2e",
+     "section": "Fluency",
+     "stem": "How many sides does each of these polygons have?",
+     "prompt": "Dodecagon",
+     "type": "numeric",
+     "answer": "12"
+    },
+    {
+     "id": "q2f",
+     "label": "2f",
+     "section": "Fluency",
+     "stem": "How many sides does each of these polygons have?",
+     "prompt": "Pentagon",
+     "type": "numeric",
+     "answer": "5"
+    },
+    {
+     "id": "q2g",
+     "label": "2g",
+     "section": "Fluency",
+     "stem": "How many sides does each of these polygons have?",
+     "prompt": "Octagon",
+     "type": "numeric",
+     "answer": "8"
+    },
+    {
+     "id": "q2h",
+     "label": "2h",
+     "section": "Fluency",
+     "stem": "How many sides does each of these polygons have?",
+     "prompt": "Undecagon",
+     "type": "numeric",
+     "answer": "11"
+    },
+    {
+     "id": "q2i",
+     "label": "2i",
+     "section": "Fluency",
+     "stem": "How many sides does each of these polygons have?",
+     "prompt": "Heptagon",
+     "type": "numeric",
+     "answer": "7"
+    },
+    {
+     "id": "q2j",
+     "label": "2j",
+     "section": "Fluency",
+     "stem": "How many sides does each of these polygons have?",
+     "prompt": "Decagon",
+     "type": "numeric",
+     "answer": "10"
+    },
+    {
+     "id": "q3a",
+     "label": "3a",
+     "section": "Fluency",
+     "stem": "Here are six shapes, A to F.",
+     "prompt": "Which of the shapes are convex? Type their letters, separated by commas.",
+     "type": "list",
+     "answer": [
+      "A",
+      "C",
+      "E"
+     ],
+     "hint": "Separate the letters with commas, for example P, Q",
+     "stemFigure": [
+      {
+       "kind": "diagram",
+       "unit": 26,
+       "items": [
+        {
+         "poly": [
+          [
+           0,
+           0
+          ],
+          [
+           2.5,
+           -0.3
+          ],
+          [
+           3.2,
+           1.8
+          ],
+          [
+           1.6,
+           3
+          ],
+          [
+           -0.3,
+           1.9
+          ]
+         ]
+        }
+       ],
+       "caption": "A"
+      },
+      {
+       "kind": "diagram",
+       "unit": 26,
+       "items": [
+        {
+         "poly": [
+          [
+           0,
+           0
+          ],
+          [
+           1.6,
+           3.2
+          ],
+          [
+           3.2,
+           0
+          ],
+          [
+           1.6,
+           1.1
+          ]
+         ]
+        }
+       ],
+       "caption": "B"
+      },
+      {
+       "kind": "diagram",
+       "unit": 26,
+       "items": [
+        {
+         "poly": [
+          [
+           1.6,
+           0
+          ],
+          [
+           0.8,
+           1.386
+          ],
+          [
+           -0.8,
+           1.386
+          ],
+          [
+           -1.6,
+           0
+          ],
+          [
+           -0.8,
+           -1.386
+          ],
+          [
+           0.8,
+           -1.386
+          ]
+         ]
+        }
+       ],
+       "caption": "C"
+      },
+      {
+       "kind": "diagram",
+       "unit": 26,
+       "items": [
+        {
+         "poly": [
+          [
+           0,
+           0
+          ],
+          [
+           1.5,
+           0.9
+          ],
+          [
+           3,
+           0
+          ],
+          [
+           3,
+           2.6
+          ],
+          [
+           1.5,
+           1.9
+          ],
+          [
+           0,
+           2.6
+          ]
+         ]
+        }
+       ],
+       "caption": "D"
+      },
+      {
+       "kind": "diagram",
+       "unit": 26,
+       "items": [
+        {
+         "poly": [
+          [
+           0,
+           0
+          ],
+          [
+           3,
+           0.6
+          ],
+          [
+           0.9,
+           2.6
+          ]
+         ]
+        }
+       ],
+       "caption": "E"
+      },
+      {
+       "kind": "diagram",
+       "unit": 26,
+       "items": [
+        {
+         "poly": [
+          [
+           0,
+           0
+          ],
+          [
+           1,
+           0
+          ],
+          [
+           1.6,
+           1.4
+          ],
+          [
+           2.2,
+           0
+          ],
+          [
+           3.2,
+           0
+          ],
+          [
+           3.2,
+           2.4
+          ],
+          [
+           0,
+           2.4
+          ]
+         ]
+        }
+       ],
+       "caption": "F"
+      }
+     ]
+    },
+    {
+     "id": "q3b",
+     "label": "3b",
+     "section": "Fluency",
+     "stem": "Here are six shapes, A to F.",
+     "prompt": "What type of polygon is shape A?",
+     "type": "choice",
+     "options": [
+      "Triangle",
+      "Quadrilateral",
+      "Pentagon",
+      "Hexagon",
+      "Heptagon",
+      "Octagon"
+     ],
+     "answer": 2
+    },
+    {
+     "id": "q3c",
+     "label": "3c",
+     "section": "Fluency",
+     "stem": "Here are six shapes, A to F.",
+     "prompt": "What type of polygon is shape B?",
+     "type": "choice",
+     "options": [
+      "Triangle",
+      "Quadrilateral",
+      "Pentagon",
+      "Hexagon",
+      "Heptagon",
+      "Octagon"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "q3d",
+     "label": "3d",
+     "section": "Fluency",
+     "stem": "Here are six shapes, A to F.",
+     "prompt": "What type of polygon is shape C?",
+     "type": "choice",
+     "options": [
+      "Triangle",
+      "Quadrilateral",
+      "Pentagon",
+      "Hexagon",
+      "Heptagon",
+      "Octagon"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "q3e",
+     "label": "3e",
+     "section": "Fluency",
+     "stem": "Here are six shapes, A to F.",
+     "prompt": "What type of polygon is shape D?",
+     "type": "choice",
+     "options": [
+      "Triangle",
+      "Quadrilateral",
+      "Pentagon",
+      "Hexagon",
+      "Heptagon",
+      "Octagon"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "q3f",
+     "label": "3f",
+     "section": "Fluency",
+     "stem": "Here are six shapes, A to F.",
+     "prompt": "What type of polygon is shape E?",
+     "type": "choice",
+     "options": [
+      "Triangle",
+      "Quadrilateral",
+      "Pentagon",
+      "Hexagon",
+      "Heptagon",
+      "Octagon"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q3g",
+     "label": "3g",
+     "section": "Fluency",
+     "stem": "Here are six shapes, A to F.",
+     "prompt": "What type of polygon is shape F?",
+     "type": "choice",
+     "options": [
+      "Triangle",
+      "Quadrilateral",
+      "Pentagon",
+      "Hexagon",
+      "Heptagon",
+      "Octagon"
+     ],
+     "answer": 4
+    },
+    {
+     "id": "q4a",
+     "label": "4a",
+     "section": "Fluency",
+     "stem": "Classify each of these quadrilaterals as convex or non-convex.",
+     "prompt": "Quadrilateral a",
+     "type": "choice",
+     "options": [
+      "Convex",
+      "Non-convex"
+     ],
+     "answer": 0,
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          3.2,
+          0.5
+         ],
+         [
+          3.8,
+          2.6
+         ],
+         [
+          0.6,
+          3.1
+         ]
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4b",
+     "label": "4b",
+     "section": "Fluency",
+     "stem": "Classify each of these quadrilaterals as convex or non-convex.",
+     "prompt": "Quadrilateral b",
+     "type": "choice",
+     "options": [
+      "Convex",
+      "Non-convex"
+     ],
+     "answer": 1,
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          4.4,
+          1.2
+         ],
+         [
+          1.2,
+          1.5
+         ],
+         [
+          0.8,
+          4.2
+         ]
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4c",
+     "label": "4c",
+     "section": "Fluency",
+     "stem": "Classify each of these quadrilaterals as convex or non-convex.",
+     "prompt": "Quadrilateral c",
+     "type": "choice",
+     "options": [
+      "Convex",
+      "Non-convex"
+     ],
+     "answer": 1,
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          1
+         ],
+         [
+          3,
+          0.843
+         ],
+         [
+          6,
+          1
+         ],
+         [
+          3.9,
+          -1.3
+         ]
+        ]
+       },
+       {
+        "angle": [
+         3,
+         0.843,
+         177,
+         3
+        ],
+        "label": "186°",
+        "r": 0.6
+       }
+      ]
+     }
+    },
+    {
+     "id": "q5a",
+     "label": "5a",
+     "section": "Fluency",
+     "stem": "Name the special quadrilateral shown. The marks show equal sides, parallel sides and right angles.",
+     "prompt": "Quadrilateral a",
+     "type": "choice",
+     "options": [
+      "Square",
+      "Rectangle",
+      "Rhombus",
+      "Parallelogram",
+      "Trapezium",
+      "Kite"
+     ],
+     "answer": 2,
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          2.663,
+          0.865
+         ],
+         [
+          3.149,
+          3.623
+         ],
+         [
+          0.486,
+          2.757
+         ]
+        ]
+       },
+       {
+        "tick": [
+         0,
+         0,
+         2.663,
+         0.865
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         2.663,
+         0.865,
+         3.149,
+         3.623
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         3.149,
+         3.623,
+         0.486,
+         2.757
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         0.486,
+         2.757,
+         0,
+         0
+        ],
+        "n": 1
+       }
+      ]
+     }
+    },
+    {
+     "id": "q5b",
+     "label": "5b",
+     "section": "Fluency",
+     "stem": "Name the special quadrilateral shown. The marks show equal sides, parallel sides and right angles.",
+     "prompt": "Quadrilateral b",
+     "type": "choice",
+     "options": [
+      "Square",
+      "Rectangle",
+      "Rhombus",
+      "Parallelogram",
+      "Trapezium",
+      "Kite"
+     ],
+     "answer": 4,
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          4.891,
+          -1.04
+         ],
+         [
+          3.979,
+          1.403
+         ],
+         [
+          1.533,
+          1.923
+         ]
+        ]
+       },
+       {
+        "par": [
+         0,
+         0,
+         4.891,
+         -1.04
+        ],
+        "n": 1
+       },
+       {
+        "par": [
+         1.533,
+         1.923,
+         3.979,
+         1.403
+        ],
+        "n": 1
+       }
+      ]
+     }
+    },
+    {
+     "id": "q5c",
+     "label": "5c",
+     "section": "Fluency",
+     "stem": "Name the special quadrilateral shown. The marks show equal sides, parallel sides and right angles.",
+     "prompt": "Quadrilateral c",
+     "type": "choice",
+     "options": [
+      "Square",
+      "Rectangle",
+      "Rhombus",
+      "Parallelogram",
+      "Trapezium",
+      "Kite"
+     ],
+     "answer": 5,
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          -1.236,
+          0.402
+         ],
+         [
+          -0.433,
+          -1.331
+         ],
+         [
+          2.948,
+          -0.958
+         ],
+         [
+          0.433,
+          1.331
+         ]
+        ]
+       },
+       {
+        "tick": [
+         -1.236,
+         0.402,
+         -0.433,
+         -1.331
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         -0.433,
+         -1.331,
+         2.948,
+         -0.958
+        ],
+        "n": 2
+       },
+       {
+        "tick": [
+         2.948,
+         -0.958,
+         0.433,
+         1.331
+        ],
+        "n": 2
+       },
+       {
+        "tick": [
+         0.433,
+         1.331,
+         -1.236,
+         0.402
+        ],
+        "n": 1
+       }
+      ]
+     }
+    },
+    {
+     "id": "q5d",
+     "label": "5d",
+     "section": "Fluency",
+     "stem": "Name the special quadrilateral shown. The marks show equal sides, parallel sides and right angles.",
+     "prompt": "Quadrilateral d",
+     "type": "choice",
+     "options": [
+      "Square",
+      "Rectangle",
+      "Rhombus",
+      "Parallelogram",
+      "Trapezium",
+      "Kite"
+     ],
+     "answer": 1,
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          4.463,
+          1.113
+         ],
+         [
+          3.931,
+          3.247
+         ],
+         [
+          -0.532,
+          2.135
+         ]
+        ]
+       },
+       {
+        "tick": [
+         0,
+         0,
+         4.463,
+         1.113
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         4.463,
+         1.113,
+         3.931,
+         3.247
+        ],
+        "n": 2
+       },
+       {
+        "tick": [
+         3.931,
+         3.247,
+         -0.532,
+         2.135
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         -0.532,
+         2.135,
+         0,
+         0
+        ],
+        "n": 2
+       },
+       {
+        "angle": [
+         0,
+         0,
+         14,
+         104
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         4.463,
+         1.113,
+         104,
+         194
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         3.931,
+         3.247,
+         194,
+         284
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         -0.532,
+         2.135,
+         284,
+         14
+        ],
+        "right": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "q5e",
+     "label": "5e",
+     "section": "Fluency",
+     "stem": "Name the special quadrilateral shown. The marks show equal sides, parallel sides and right angles.",
+     "prompt": "Quadrilateral e",
+     "type": "choice",
+     "options": [
+      "Square",
+      "Rectangle",
+      "Rhombus",
+      "Parallelogram",
+      "Trapezium",
+      "Kite"
+     ],
+     "answer": 0,
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          2.375,
+          1.484
+         ],
+         [
+          0.891,
+          3.858
+         ],
+         [
+          -1.484,
+          2.375
+         ]
+        ]
+       },
+       {
+        "tick": [
+         0,
+         0,
+         2.375,
+         1.484
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         2.375,
+         1.484,
+         0.891,
+         3.858
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         0.891,
+         3.858,
+         -1.484,
+         2.375
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         -1.484,
+         2.375,
+         0,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "angle": [
+         0,
+         0,
+         32,
+         122
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         2.375,
+         1.484,
+         122,
+         212
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         0.891,
+         3.858,
+         212,
+         302
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         -1.484,
+         2.375,
+         302,
+         32
+        ],
+        "right": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "q5f",
+     "label": "5f",
+     "section": "Fluency",
+     "stem": "Name the special quadrilateral shown. The marks show equal sides, parallel sides and right angles.",
+     "prompt": "Quadrilateral f",
+     "type": "choice",
+     "options": [
+      "Square",
+      "Rectangle",
+      "Rhombus",
+      "Parallelogram",
+      "Trapezium",
+      "Kite"
+     ],
+     "answer": 3,
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          -0.625,
+          3.545
+         ],
+         [
+          -2.85,
+          4.444
+         ],
+         [
+          -2.225,
+          0.899
+         ]
+        ]
+       },
+       {
+        "par": [
+         0,
+         0,
+         -0.625,
+         3.545
+        ],
+        "n": 1
+       },
+       {
+        "par": [
+         -0.625,
+         3.545,
+         -2.85,
+         4.444
+        ],
+        "n": 2
+       },
+       {
+        "par": [
+         -2.225,
+         0.899,
+         -2.85,
+         4.444
+        ],
+        "n": 1
+       },
+       {
+        "par": [
+         0,
+         0,
+         -2.225,
+         0.899
+        ],
+        "n": 2
+       }
+      ]
+     }
+    },
+    {
+     "id": "q6a",
+     "label": "6a",
+     "section": "Fluency",
+     "stem": "Which list gives all the special quadrilaterals (square, rectangle, rhombus, parallelogram, trapezium, kite) that have the property?",
+     "prompt": "All four sides equal in length",
+     "type": "choice",
+     "options": [
+      "square and rhombus",
+      "square and rectangle",
+      "rhombus and kite",
+      "square only"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q6b",
+     "label": "6b",
+     "section": "Fluency",
+     "stem": "Which list gives all the special quadrilaterals (square, rectangle, rhombus, parallelogram, trapezium, kite) that have the property?",
+     "prompt": "Two pairs of parallel sides",
+     "type": "choice",
+     "options": [
+      "square and rectangle only",
+      "parallelogram, rectangle, rhombus and square",
+      "parallelogram and trapezium",
+      "rhombus and kite"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "q6c",
+     "label": "6c",
+     "section": "Fluency",
+     "stem": "Which list gives all the special quadrilaterals (square, rectangle, rhombus, parallelogram, trapezium, kite) that have the property?",
+     "prompt": "Exactly one pair of parallel sides",
+     "type": "choice",
+     "options": [
+      "kite",
+      "parallelogram",
+      "trapezium",
+      "rhombus"
+     ],
+     "answer": 2
+    },
+    {
+     "id": "q6d",
+     "label": "6d",
+     "section": "Fluency",
+     "stem": "Which list gives all the special quadrilaterals (square, rectangle, rhombus, parallelogram, trapezium, kite) that have the property?",
+     "prompt": "Exactly one pair of equal opposite angles",
+     "type": "choice",
+     "options": [
+      "kite",
+      "trapezium",
+      "rectangle",
+      "parallelogram"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q6e",
+     "label": "6e",
+     "section": "Fluency",
+     "stem": "Which list gives all the special quadrilaterals (square, rectangle, rhombus, parallelogram, trapezium, kite) that have the property?",
+     "prompt": "Two pairs of equal opposite angles, but not all four angles equal",
+     "type": "choice",
+     "options": [
+      "square and rectangle",
+      "kite and trapezium",
+      "parallelogram and rhombus",
+      "rhombus and square"
+     ],
+     "answer": 2
+    },
+    {
+     "id": "q7a",
+     "label": "7a",
+     "section": "Fluency",
+     "stem": "Is each of these a polygon?",
+     "prompt": "Triangle",
+     "type": "choice",
+     "options": [
+      "Polygon",
+      "Not a polygon"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q7b",
+     "label": "7b",
+     "section": "Fluency",
+     "stem": "Is each of these a polygon?",
+     "prompt": "Semicircle",
+     "type": "choice",
+     "options": [
+      "Polygon",
+      "Not a polygon"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "q7c",
+     "label": "7c",
+     "section": "Fluency",
+     "stem": "Is each of these a polygon?",
+     "prompt": "Hexagon",
+     "type": "choice",
+     "options": [
+      "Polygon",
+      "Not a polygon"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q7d",
+     "label": "7d",
+     "section": "Fluency",
+     "stem": "Is each of these a polygon?",
+     "prompt": "Sphere",
+     "type": "choice",
+     "options": [
+      "Polygon",
+      "Not a polygon"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "q7e",
+     "label": "7e",
+     "section": "Fluency",
+     "stem": "Is each of these a polygon?",
+     "prompt": "Rhombus",
+     "type": "choice",
+     "options": [
+      "Polygon",
+      "Not a polygon"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q7f",
+     "label": "7f",
+     "section": "Fluency",
+     "stem": "Is each of these a polygon?",
+     "prompt": "Ray",
+     "type": "choice",
+     "options": [
+      "Polygon",
+      "Not a polygon"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "q7g",
+     "label": "7g",
+     "section": "Fluency",
+     "stem": "Is each of these a polygon?",
+     "prompt": "Ellipse",
+     "type": "choice",
+     "options": [
+      "Polygon",
+      "Not a polygon"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "q7h",
+     "label": "7h",
+     "section": "Fluency",
+     "stem": "Is each of these a polygon?",
+     "prompt": "Pyramid",
+     "type": "choice",
+     "options": [
+      "Polygon",
+      "Not a polygon"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "q8a",
+     "label": "8a",
+     "section": "Fluency",
+     "stem": "Use the properties of quadrilaterals to find the value of each pronumeral.",
+     "prompt": "Rectangle: find $a$.",
+     "type": "numeric",
+     "answer": "90",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          5,
+          0
+         ],
+         [
+          5,
+          3
+         ],
+         [
+          0,
+          3
+         ]
+        ]
+       },
+       {
+        "tick": [
+         0,
+         0,
+         5,
+         0
+        ],
+        "n": 2
+       },
+       {
+        "tick": [
+         5,
+         3,
+         0,
+         3
+        ],
+        "n": 2
+       },
+       {
+        "tick": [
+         5,
+         0,
+         5,
+         3
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         0,
+         3,
+         0,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         90
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         5,
+         0,
+         90,
+         180
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         0,
+         3,
+         270,
+         0
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         5,
+         3,
+         180,
+         270
+        ],
+        "label": "a°",
+        "r": 0.5
+       },
+       {
+        "label": "7 cm",
+        "at": [
+         -0.25,
+         1.5
+        ],
+        "anchor": "end"
+       },
+       {
+        "label": "b cm",
+        "at": [
+         5.25,
+         1.5
+        ],
+        "anchor": "start"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q8b",
+     "label": "8b",
+     "section": "Fluency",
+     "stem": "Use the properties of quadrilaterals to find the value of each pronumeral.",
+     "prompt": "Rectangle: find $b$.",
+     "type": "numeric",
+     "answer": "7",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          5,
+          0
+         ],
+         [
+          5,
+          3
+         ],
+         [
+          0,
+          3
+         ]
+        ]
+       },
+       {
+        "tick": [
+         0,
+         0,
+         5,
+         0
+        ],
+        "n": 2
+       },
+       {
+        "tick": [
+         5,
+         3,
+         0,
+         3
+        ],
+        "n": 2
+       },
+       {
+        "tick": [
+         5,
+         0,
+         5,
+         3
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         0,
+         3,
+         0,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         90
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         5,
+         0,
+         90,
+         180
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         0,
+         3,
+         270,
+         0
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         5,
+         3,
+         180,
+         270
+        ],
+        "label": "a°",
+        "r": 0.5
+       },
+       {
+        "label": "7 cm",
+        "at": [
+         -0.25,
+         1.5
+        ],
+        "anchor": "end"
+       },
+       {
+        "label": "b cm",
+        "at": [
+         5.25,
+         1.5
+        ],
+        "anchor": "start"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q8c",
+     "label": "8c",
+     "section": "Fluency",
+     "stem": "Use the properties of quadrilaterals to find the value of each pronumeral.",
+     "prompt": "Kite: find $a$.",
+     "type": "numeric",
+     "answer": "112",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          2.384
+         ],
+         [
+          -2,
+          0
+         ],
+         [
+          0,
+          -3.761
+         ],
+         [
+          2,
+          0
+         ]
+        ]
+       },
+       {
+        "tick": [
+         0,
+         2.384,
+         -2,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         0,
+         2.384,
+         2,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         -2,
+         0,
+         0,
+         -3.761
+        ],
+        "n": 2
+       },
+       {
+        "tick": [
+         2,
+         0,
+         0,
+         -3.761
+        ],
+        "n": 2
+       },
+       {
+        "angle": [
+         -2,
+         0,
+         298,
+         50
+        ],
+        "label": "  112°",
+        "r": 0.95
+       },
+       {
+        "angle": [
+         2,
+         0,
+         130,
+         242
+        ],
+        "label": "a°",
+        "r": 0.95
+       },
+       {
+        "label": "b m",
+        "at": [
+         -1.383,
+         1.513
+        ]
+       },
+       {
+        "label": "8 m",
+        "at": [
+         1.383,
+         1.513
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q8d",
+     "label": "8d",
+     "section": "Fluency",
+     "stem": "Use the properties of quadrilaterals to find the value of each pronumeral.",
+     "prompt": "Kite: find $b$.",
+     "type": "numeric",
+     "answer": "8",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          2.384
+         ],
+         [
+          -2,
+          0
+         ],
+         [
+          0,
+          -3.761
+         ],
+         [
+          2,
+          0
+         ]
+        ]
+       },
+       {
+        "tick": [
+         0,
+         2.384,
+         -2,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         0,
+         2.384,
+         2,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         -2,
+         0,
+         0,
+         -3.761
+        ],
+        "n": 2
+       },
+       {
+        "tick": [
+         2,
+         0,
+         0,
+         -3.761
+        ],
+        "n": 2
+       },
+       {
+        "angle": [
+         -2,
+         0,
+         298,
+         50
+        ],
+        "label": "  112°",
+        "r": 0.95
+       },
+       {
+        "angle": [
+         2,
+         0,
+         130,
+         242
+        ],
+        "label": "a°",
+        "r": 0.95
+       },
+       {
+        "label": "b m",
+        "at": [
+         -1.383,
+         1.513
+        ]
+       },
+       {
+        "label": "8 m",
+        "at": [
+         1.383,
+         1.513
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q8e",
+     "label": "8e",
+     "section": "Fluency",
+     "stem": "Use the properties of quadrilaterals to find the value of each pronumeral.",
+     "prompt": "Parallelogram: find $a$.",
+     "type": "numeric",
+     "answer": "68",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          5,
+          0
+         ],
+         [
+          5.974,
+          2.411
+         ],
+         [
+          0.974,
+          2.411
+         ]
+        ]
+       },
+       {
+        "par": [
+         0,
+         0,
+         5,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "par": [
+         0.974,
+         2.411,
+         5.974,
+         2.411
+        ],
+        "n": 1
+       },
+       {
+        "par": [
+         0,
+         0,
+         0.974,
+         2.411
+        ],
+        "n": 2
+       },
+       {
+        "par": [
+         5,
+         0,
+         5.974,
+         2.411
+        ],
+        "n": 2
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         68
+        ],
+        "label": " 68°",
+        "r": 0.65
+       },
+       {
+        "angle": [
+         5.974,
+         2.411,
+         180,
+         248
+        ],
+        "label": "a°",
+        "r": 0.65
+       },
+       {
+        "angle": [
+         5,
+         0,
+         68,
+         180
+        ],
+        "label": "b°",
+        "r": 0.65
+       }
+      ]
+     }
+    },
+    {
+     "id": "q8f",
+     "label": "8f",
+     "section": "Fluency",
+     "stem": "Use the properties of quadrilaterals to find the value of each pronumeral.",
+     "prompt": "Parallelogram: find $b$.",
+     "type": "numeric",
+     "answer": "112",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          5,
+          0
+         ],
+         [
+          5.974,
+          2.411
+         ],
+         [
+          0.974,
+          2.411
+         ]
+        ]
+       },
+       {
+        "par": [
+         0,
+         0,
+         5,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "par": [
+         0.974,
+         2.411,
+         5.974,
+         2.411
+        ],
+        "n": 1
+       },
+       {
+        "par": [
+         0,
+         0,
+         0.974,
+         2.411
+        ],
+        "n": 2
+       },
+       {
+        "par": [
+         5,
+         0,
+         5.974,
+         2.411
+        ],
+        "n": 2
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         68
+        ],
+        "label": " 68°",
+        "r": 0.65
+       },
+       {
+        "angle": [
+         5.974,
+         2.411,
+         180,
+         248
+        ],
+        "label": "a°",
+        "r": 0.65
+       },
+       {
+        "angle": [
+         5,
+         0,
+         68,
+         180
+        ],
+        "label": "b°",
+        "r": 0.65
+       }
+      ]
+     }
+    },
+    {
+     "id": "q10a",
+     "label": "10a",
+     "section": "Problem-solving",
+     "stem": "A diagonal joins two vertices of a polygon that are not next to each other.",
+     "prompt": "What is the largest number of diagonals you can draw in a convex hexagon if the diagonals are not allowed to cross?",
+     "type": "numeric",
+     "answer": "3"
+    },
+    {
+     "id": "q10b",
+     "label": "10b",
+     "section": "Problem-solving",
+     "stem": "A diagonal joins two vertices of a polygon that are not next to each other.",
+     "prompt": "What is the largest number of diagonals you can draw in a convex octagon if the diagonals are not allowed to cross?",
+     "type": "numeric",
+     "answer": "5"
+    },
+    {
+     "id": "q10c",
+     "label": "10c",
+     "section": "Problem-solving",
+     "stem": "A diagonal joins two vertices of a polygon that are not next to each other.",
+     "prompt": "How many diagonals can be drawn in a convex hexagon if they are allowed to cross?",
+     "type": "numeric",
+     "answer": "9"
+    },
+    {
+     "id": "q10d",
+     "label": "10d",
+     "section": "Problem-solving",
+     "stem": "A diagonal joins two vertices of a polygon that are not next to each other.",
+     "prompt": "How many diagonals can be drawn in a convex octagon if they are allowed to cross?",
+     "type": "numeric",
+     "answer": "20"
+    },
+    {
+     "id": "q12a",
+     "label": "12a",
+     "section": "Reasoning",
+     "stem": "Is each statement true or false?",
+     "prompt": "All the sides of a regular polygon are the same length.",
+     "type": "choice",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q12b",
+     "label": "12b",
+     "section": "Reasoning",
+     "stem": "Is each statement true or false?",
+     "prompt": "The angles inside a hexagon add up to the same total as the angles inside a quadrilateral.",
+     "type": "choice",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "q12c",
+     "label": "12c",
+     "section": "Reasoning",
+     "stem": "Is each statement true or false?",
+     "prompt": "A regular polygon is always convex.",
+     "type": "choice",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q12d",
+     "label": "12d",
+     "section": "Reasoning",
+     "stem": "Is each statement true or false?",
+     "prompt": "Every convex polygon is regular.",
+     "type": "choice",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "q13a",
+     "label": "13a",
+     "section": "Reasoning",
+     "stem": "The diagonals of a quadrilateral are the two segments that join opposite vertices.",
+     "prompt": "Which pair of quadrilaterals both have diagonals that cross at right angles?",
+     "type": "choice",
+     "options": [
+      "rectangle and parallelogram",
+      "rhombus and kite",
+      "rectangle and trapezium",
+      "parallelogram and trapezium"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "q13b",
+     "label": "13b",
+     "section": "Reasoning",
+     "stem": "The diagonals of a quadrilateral are the two segments that join opposite vertices.",
+     "prompt": "Which pair of quadrilaterals both have diagonals of equal length?",
+     "type": "choice",
+     "options": [
+      "kite and rhombus",
+      "parallelogram and kite",
+      "square and rectangle",
+      "rhombus and parallelogram"
+     ],
+     "answer": 2
+    },
+    {
+     "id": "q14a",
+     "label": "14a",
+     "section": "Reasoning",
+     "stem": "Think about how the special quadrilaterals are related.",
+     "prompt": "Which statement is true?",
+     "type": "choice",
+     "options": [
+      "Every square is a rhombus.",
+      "Every rhombus is a square."
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q14b",
+     "label": "14b",
+     "section": "Reasoning",
+     "stem": "Think about how the special quadrilaterals are related.",
+     "prompt": "Is every parallelogram a rhombus?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "q14c",
+     "label": "14c",
+     "section": "Reasoning",
+     "stem": "Think about how the special quadrilaterals are related.",
+     "prompt": "Is it possible to draw a non-convex parallelogram?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "7g",
+   "chapter": "Chapter 7: Geometry",
+   "title": "7G Angle sum of a triangle",
+   "description": "Use the angle sum of a triangle, isosceles triangles, exterior angles and parallel lines to find unknown angles.",
+   "questions": [
+    {
+     "id": "q1a",
+     "label": "1a",
+     "section": "Fluency",
+     "stem": "Find the value of $a$ in these triangles.",
+     "prompt": "Triangle a",
+     "type": "numeric",
+     "answer": "35",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          4.402,
+          0.936
+         ],
+         [
+          5.426,
+          4.089
+         ]
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         12,
+         37
+        ],
+        "label": "  25°",
+        "r": 1.05
+       },
+       {
+        "angle": [
+         4.402,
+         0.936,
+         72,
+         192
+        ],
+        "label": "120° ",
+        "r": 0.65
+       },
+       {
+        "angle": [
+         5.426,
+         4.089,
+         217,
+         252
+        ],
+        "label": "a°",
+        "r": 1.05
+       }
+      ]
+     }
+    },
+    {
+     "id": "q1b",
+     "label": "1b",
+     "section": "Fluency",
+     "stem": "Find the value of $a$ in these triangles.",
+     "prompt": "Triangle b",
+     "type": "numeric",
+     "answer": "23",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          -4.456,
+          0.626
+         ],
+         [
+          -5.562,
+          9.634
+         ]
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         120,
+         172
+        ],
+        "label": "52° ",
+        "r": 0.85
+       },
+       {
+        "angle": [
+         -4.456,
+         0.626,
+         352,
+         97
+        ],
+        "label": " 105°",
+        "r": 0.65
+       },
+       {
+        "angle": [
+         -5.562,
+         9.634,
+         277,
+         300
+        ],
+        "label": "a°",
+        "r": 1.05
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2a",
+     "label": "2a",
+     "section": "Fluency",
+     "stem": "Find the value of $a$ in each of these triangles.",
+     "prompt": "Triangle a",
+     "type": "numeric",
+     "answer": "50",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          4.483,
+          0.392
+         ],
+         [
+          2.837,
+          4.914
+         ]
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         5,
+         60
+        ],
+        "label": " 55°",
+        "r": 0.65
+       },
+       {
+        "angle": [
+         4.483,
+         0.392,
+         110,
+         185
+        ],
+        "label": "75° ",
+        "r": 0.65
+       },
+       {
+        "angle": [
+         2.837,
+         4.914,
+         240,
+         290
+        ],
+        "label": "a°",
+        "r": 0.85
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2b",
+     "label": "2b",
+     "section": "Fluency",
+     "stem": "Find the value of $a$ in each of these triangles.",
+     "prompt": "Triangle b",
+     "type": "numeric",
+     "answer": "117",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          -4.5,
+          0
+         ],
+         [
+          -6.172,
+          -3.282
+         ]
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         180,
+         208
+        ],
+        "label": "28°  ",
+        "r": 1.05
+       },
+       {
+        "angle": [
+         -4.5,
+         0,
+         243,
+         360
+        ],
+        "label": "a°",
+        "r": 0.65
+       },
+       {
+        "angle": [
+         -6.172,
+         -3.282,
+         28,
+         63
+        ],
+        "label": " 35°",
+        "r": 1.05
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2c",
+     "label": "2c",
+     "section": "Fluency",
+     "stem": "Find the value of $a$ in each of these triangles.",
+     "prompt": "Triangle c",
+     "type": "numeric",
+     "answer": "49",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          0,
+          4.5
+         ],
+         [
+          -3.912,
+          0
+         ]
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         90,
+         180
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         0,
+         4.5,
+         229,
+         270
+        ],
+        "label": "41°",
+        "r": 0.85
+       },
+       {
+        "angle": [
+         -3.912,
+         0,
+         360,
+         49
+        ],
+        "label": "a°",
+        "r": 0.85
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2d",
+     "label": "2d",
+     "section": "Fluency",
+     "stem": "Find the value of $a$ in each of these triangles.",
+     "prompt": "Triangle d",
+     "type": "numeric",
+     "answer": "57",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          -4.5,
+          0
+         ],
+         [
+          -4.5,
+          2.922
+         ]
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         147,
+         180
+        ],
+        "label": "33°  ",
+        "r": 1.05
+       },
+       {
+        "angle": [
+         -4.5,
+         0,
+         0,
+         90
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         -4.5,
+         2.922,
+         270,
+         327
+        ],
+        "label": "a°",
+        "r": 0.65
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2e",
+     "label": "2e",
+     "section": "Fluency",
+     "stem": "Find the value of $a$ in each of these triangles.",
+     "prompt": "Triangle e",
+     "type": "numeric",
+     "answer": "30",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          4.229,
+          -1.539
+         ],
+         [
+          -1.042,
+          3.206
+         ]
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         340,
+         108
+        ],
+        "label": " 128°",
+        "r": 0.65
+       },
+       {
+        "angle": [
+         4.229,
+         -1.539,
+         138,
+         160
+        ],
+        "label": "22°  ",
+        "r": 1.05
+       },
+       {
+        "angle": [
+         -1.042,
+         3.206,
+         288,
+         318
+        ],
+        "label": "a°",
+        "r": 1.05
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2f",
+     "label": "2f",
+     "section": "Fluency",
+     "stem": "Find the value of $a$ in each of these triangles.",
+     "prompt": "Triangle f",
+     "type": "numeric",
+     "answer": "125",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          5.196,
+          3
+         ],
+         [
+          2.217,
+          3.052
+         ]
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         30,
+         54
+        ],
+        "label": " 24°",
+        "r": 1.05
+       },
+       {
+        "angle": [
+         5.196,
+         3,
+         179,
+         210
+        ],
+        "label": "31°  ",
+        "r": 1.05
+       },
+       {
+        "angle": [
+         2.217,
+         3.052,
+         234,
+         359
+        ],
+        "label": "a°",
+        "r": 0.65
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3a",
+     "label": "3a",
+     "section": "Fluency",
+     "stem": "Find the value of $a$ in each of these isosceles triangles.",
+     "prompt": "Triangle a",
+     "type": "numeric",
+     "answer": "110",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          -4.582,
+          -0.401
+         ],
+         [
+          -2.151,
+          -1.805
+         ]
+        ]
+       },
+       {
+        "tick": [
+         0,
+         0,
+         -2.151,
+         -1.805
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         -4.582,
+         -0.401,
+         -2.151,
+         -1.805
+        ],
+        "n": 1
+       },
+       {
+        "angle": [
+         0,
+         0,
+         185,
+         220
+        ],
+        "label": "35°  ",
+        "r": 1.05
+       },
+       {
+        "angle": [
+         -2.151,
+         -1.805,
+         40,
+         150
+        ],
+        "label": "a°",
+        "r": 0.65
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3b",
+     "label": "3b",
+     "section": "Fluency",
+     "stem": "Find the value of $a$ in each of these isosceles triangles.",
+     "prompt": "Triangle b",
+     "type": "numeric",
+     "answer": "48",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          3.326,
+          -0.707
+         ],
+         [
+          2.457,
+          3.381
+         ]
+        ]
+       },
+       {
+        "tick": [
+         0,
+         0,
+         2.457,
+         3.381
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         3.326,
+         -0.707,
+         2.457,
+         3.381
+        ],
+        "n": 1
+       },
+       {
+        "angle": [
+         3.326,
+         -0.707,
+         102,
+         168
+        ],
+        "label": "66° ",
+        "r": 0.65
+       },
+       {
+        "angle": [
+         2.457,
+         3.381,
+         234,
+         282
+        ],
+        "label": "a°",
+        "r": 0.85
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4a",
+     "label": "4a",
+     "section": "Fluency",
+     "stem": "Find the value of $a$ in each of these isosceles triangles.",
+     "prompt": "Triangle a",
+     "type": "numeric",
+     "answer": "68",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          -0.66,
+          3.742
+         ],
+         [
+          -4.961,
+          1.055
+         ]
+        ]
+       },
+       {
+        "tick": [
+         0,
+         0,
+         -4.961,
+         1.055
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         -0.66,
+         3.742,
+         -4.961,
+         1.055
+        ],
+        "n": 1
+       },
+       {
+        "angle": [
+         0,
+         0,
+         100,
+         168
+        ],
+        "label": "68° ",
+        "r": 0.65
+       },
+       {
+        "angle": [
+         -0.66,
+         3.742,
+         212,
+         280
+        ],
+        "label": "a°",
+        "r": 0.65
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4b",
+     "label": "4b",
+     "section": "Fluency",
+     "stem": "Find the value of $a$ in each of these isosceles triangles.",
+     "prompt": "Triangle b",
+     "type": "numeric",
+     "answer": "52",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          -3.742,
+          0.66
+         ],
+         [
+          -2.293,
+          -2.065
+         ]
+        ]
+       },
+       {
+        "tick": [
+         0,
+         0,
+         -2.293,
+         -2.065
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         -3.742,
+         0.66,
+         -2.293,
+         -2.065
+        ],
+        "n": 1
+       },
+       {
+        "angle": [
+         0,
+         0,
+         170,
+         222
+        ],
+        "label": "a°",
+        "r": 0.85
+       },
+       {
+        "angle": [
+         -2.293,
+         -2.065,
+         42,
+         118
+        ],
+        "label": "76°",
+        "r": 0.65
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4c",
+     "label": "4c",
+     "section": "Fluency",
+     "stem": "Find the value of $a$ in each of these isosceles triangles.",
+     "prompt": "Triangle c",
+     "type": "numeric",
+     "answer": "38",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          -0.66,
+          -3.742
+         ],
+         [
+          5.104,
+          -2.829
+         ]
+        ]
+       },
+       {
+        "tick": [
+         0,
+         0,
+         5.104,
+         -2.829
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         -0.66,
+         -3.742,
+         5.104,
+         -2.829
+        ],
+        "n": 1
+       },
+       {
+        "angle": [
+         -0.66,
+         -3.742,
+         9,
+         80
+        ],
+        "label": " 71°",
+        "r": 0.65
+       },
+       {
+        "angle": [
+         5.104,
+         -2.829,
+         151,
+         189
+        ],
+        "label": "a°",
+        "r": 1.05
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4d",
+     "label": "4d",
+     "section": "Fluency",
+     "stem": "Find the value of $a$ in each of these isosceles triangles.",
+     "prompt": "Triangle d",
+     "type": "numeric",
+     "answer": "73",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          3.671,
+          0.984
+         ],
+         [
+          0.227,
+          6.495
+         ]
+        ]
+       },
+       {
+        "tick": [
+         0,
+         0,
+         0.227,
+         6.495
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         3.671,
+         0.984,
+         0.227,
+         6.495
+        ],
+        "n": 1
+       },
+       {
+        "angle": [
+         3.671,
+         0.984,
+         122,
+         195
+        ],
+        "label": "a°",
+        "r": 0.65
+       },
+       {
+        "angle": [
+         0.227,
+         6.495,
+         268,
+         302
+        ],
+        "label": "34°",
+        "r": 1.05
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4e",
+     "label": "4e",
+     "section": "Fluency",
+     "stem": "Find the value of $a$ in each of these isosceles triangles.",
+     "prompt": "Triangle e",
+     "type": "numeric",
+     "answer": "40",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          -0.834,
+          -4.727
+         ],
+         [
+          1.566,
+          -2.713
+         ]
+        ]
+       },
+       {
+        "tick": [
+         0,
+         0,
+         1.566,
+         -2.713
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         -0.834,
+         -4.727,
+         1.566,
+         -2.713
+        ],
+        "n": 1
+       },
+       {
+        "angle": [
+         0,
+         0,
+         260,
+         300
+        ],
+        "label": "a°",
+        "r": 0.85
+       },
+       {
+        "angle": [
+         1.566,
+         -2.713,
+         120,
+         220
+        ],
+        "label": "100°  ",
+        "r": 0.65
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4f",
+     "label": "4f",
+     "section": "Fluency",
+     "stem": "Find the value of $a$ in each of these isosceles triangles.",
+     "prompt": "Triangle f",
+     "type": "numeric",
+     "answer": "28",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          -5.638,
+          -2.052
+         ],
+         [
+          -2.274,
+          -2.525
+         ]
+        ]
+       },
+       {
+        "tick": [
+         0,
+         0,
+         -2.274,
+         -2.525
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         -5.638,
+         -2.052,
+         -2.274,
+         -2.525
+        ],
+        "n": 1
+       },
+       {
+        "angle": [
+         -5.638,
+         -2.052,
+         352,
+         20
+        ],
+        "label": "a°",
+        "r": 1.05
+       },
+       {
+        "angle": [
+         -2.274,
+         -2.525,
+         48,
+         172
+        ],
+        "label": "124°",
+        "r": 0.65
+       }
+      ]
+     }
+    },
+    {
+     "id": "q5a",
+     "label": "5a",
+     "section": "Fluency",
+     "stem": "Each triangle has an exterior angle. Find the value of $x$. For parts b to f, find the value of $a$ first.",
+     "prompt": "Triangle a",
+     "type": "numeric",
+     "answer": "38",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          4.323,
+          1.573
+         ],
+         [
+          2.409,
+          3.854
+         ]
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         20,
+         58
+        ],
+        "label": "x°",
+        "r": 1.05
+       },
+       {
+        "seg": [
+         0,
+         0,
+         -1.691,
+         -0.616
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         58,
+         200
+        ],
+        "label": "142° ",
+        "r": 0.65
+       }
+      ]
+     }
+    },
+    {
+     "id": "q5b",
+     "label": "5b",
+     "section": "Fluency",
+     "stem": "Each triangle has an exterior angle. Find the value of $x$. For parts b to f, find the value of $a$ first.",
+     "prompt": "Triangle b",
+     "type": "numeric",
+     "answer": "130",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          4.2,
+          0
+         ],
+         [
+          3.038,
+          4.338
+         ]
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         55
+        ],
+        "label": "  55°",
+        "r": 0.65
+       },
+       {
+        "angle": [
+         4.2,
+         0,
+         105,
+         180
+        ],
+        "label": "75° ",
+        "r": 0.65
+       },
+       {
+        "angle": [
+         3.038,
+         4.338,
+         235,
+         285
+        ],
+        "label": "a°",
+        "r": 0.85
+       },
+       {
+        "seg": [
+         3.038,
+         4.338,
+         4.07,
+         5.813
+        ]
+       },
+       {
+        "angle": [
+         3.038,
+         4.338,
+         285,
+         55
+        ],
+        "label": "x°",
+        "r": 0.65
+       }
+      ]
+     }
+    },
+    {
+     "id": "q5c",
+     "label": "5c",
+     "section": "Fluency",
+     "stem": "Each triangle has an exterior angle. Find the value of $x$. For parts b to f, find the value of $a$ first.",
+     "prompt": "Triangle c",
+     "type": "numeric",
+     "answer": "35",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          -3.383,
+          -1.231
+         ],
+         [
+          1.758,
+          -4.831
+         ]
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         200,
+         290
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         -3.383,
+         -1.231,
+         325,
+         20
+        ],
+        "label": "a°",
+        "r": 0.65
+       },
+       {
+        "seg": [
+         -3.383,
+         -1.231,
+         -5.074,
+         -1.847
+        ]
+       },
+       {
+        "angle": [
+         -3.383,
+         -1.231,
+         200,
+         325
+        ],
+        "label": "125°",
+        "r": 0.65
+       },
+       {
+        "angle": [
+         1.758,
+         -4.831,
+         110,
+         145
+        ],
+        "label": "x°",
+        "r": 1.05
+       }
+      ]
+     }
+    },
+    {
+     "id": "q5d",
+     "label": "5d",
+     "section": "Fluency",
+     "stem": "Each triangle has an exterior angle. Find the value of $x$. For parts b to f, find the value of $a$ first.",
+     "prompt": "Triangle d",
+     "type": "numeric",
+     "answer": "77",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          0.418,
+          -4.782
+         ],
+         [
+          -2.432,
+          -3.744
+         ]
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         237,
+         275
+        ],
+        "label": "38°",
+        "r": 1.05
+       },
+       {
+        "angle": [
+         0.418,
+         -4.782,
+         95,
+         160
+        ],
+        "label": "a°",
+        "r": 0.65
+       },
+       {
+        "seg": [
+         0.418,
+         -4.782,
+         0.575,
+         -6.575
+        ]
+       },
+       {
+        "angle": [
+         0.418,
+         -4.782,
+         160,
+         275
+        ],
+        "label": "115° ",
+        "r": 0.65
+       },
+       {
+        "angle": [
+         -2.432,
+         -3.744,
+         340,
+         57
+        ],
+        "label": "x°",
+        "r": 0.65
+       }
+      ]
+     }
+    },
+    {
+     "id": "q5e",
+     "label": "5e",
+     "section": "Fluency",
+     "stem": "Each triangle has an exterior angle. Find the value of $x$. For parts b to f, find the value of $a$ first.",
+     "prompt": "Triangle e",
+     "type": "numeric",
+     "answer": "125",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          3.811,
+          -2.2
+         ],
+         [
+          3.55,
+          2.773
+         ]
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         330,
+         38
+        ],
+        "label": "a°",
+        "r": 0.65
+       },
+       {
+        "seg": [
+         0,
+         0,
+         -1.559,
+         0.9
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         38,
+         150
+        ],
+        "label": "112°",
+        "r": 0.65
+       },
+       {
+        "angle": [
+         3.811,
+         -2.2,
+         93,
+         150
+        ],
+        "label": "57° ",
+        "r": 0.65
+       },
+       {
+        "seg": [
+         3.55,
+         2.773,
+         3.456,
+         4.571
+        ]
+       },
+       {
+        "angle": [
+         3.55,
+         2.773,
+         93,
+         218
+        ],
+        "label": "x°",
+        "r": 0.65
+       }
+      ]
+     }
+    },
+    {
+     "id": "q5f",
+     "label": "5f",
+     "section": "Fluency",
+     "stem": "Each triangle has an exterior angle. Find the value of $x$. For parts b to f, find the value of $a$ first.",
+     "prompt": "Triangle f",
+     "type": "numeric",
+     "answer": "134",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          -3.759,
+          1.368
+         ],
+         [
+          -3.845,
+          -3.586
+         ]
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         160,
+         223
+        ],
+        "label": "63°  ",
+        "r": 0.65
+       },
+       {
+        "angle": [
+         -3.759,
+         1.368,
+         269,
+         340
+        ],
+        "label": " 71°",
+        "r": 0.65
+       },
+       {
+        "angle": [
+         -3.845,
+         -3.586,
+         43,
+         89
+        ],
+        "label": "a°",
+        "r": 0.85
+       },
+       {
+        "seg": [
+         -3.845,
+         -3.586,
+         -3.877,
+         -5.385
+        ]
+       },
+       {
+        "angle": [
+         -3.845,
+         -3.586,
+         269,
+         43
+        ],
+        "label": "x°",
+        "r": 0.65
+       }
+      ]
+     }
+    },
+    {
+     "id": "q6a",
+     "label": "6a",
+     "section": "Problem-solving",
+     "stem": "Find the value of $a$ in each of these diagrams.",
+     "prompt": "Diagram a",
+     "type": "numeric",
+     "answer": "52",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          4,
+          0
+         ],
+         [
+          2,
+          4.101
+         ]
+        ]
+       },
+       {
+        "angle": [
+         2,
+         4.101,
+         244,
+         296
+        ],
+        "label": "a°",
+        "r": 0.85
+       },
+       {
+        "seg": [
+         4,
+         0,
+         5.8,
+         0
+        ]
+       },
+       {
+        "angle": [
+         4,
+         0,
+         0,
+         116
+        ],
+        "label": " 116°",
+        "r": 0.65
+       },
+       {
+        "tick": [
+         0,
+         0,
+         2,
+         4.101
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         4,
+         0,
+         2,
+         4.101
+        ],
+        "n": 1
+       }
+      ]
+     }
+    },
+    {
+     "id": "q6b",
+     "label": "6b",
+     "section": "Problem-solving",
+     "stem": "Find the value of $a$ in each of these diagrams.",
+     "prompt": "Diagram b",
+     "type": "numeric",
+     "answer": "135",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          3.4,
+          0
+         ],
+         [
+          0,
+          3.4
+         ]
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         90
+        ],
+        "right": true
+       },
+       {
+        "seg": [
+         3.4,
+         0,
+         5.2,
+         0
+        ]
+       },
+       {
+        "angle": [
+         3.4,
+         0,
+         0,
+         135
+        ],
+        "label": "a°",
+        "r": 0.65
+       },
+       {
+        "tick": [
+         0,
+         0,
+         3.4,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         0,
+         0,
+         0,
+         3.4
+        ],
+        "n": 1
+       }
+      ]
+     }
+    },
+    {
+     "id": "q6c",
+     "label": "6c",
+     "section": "Problem-solving",
+     "stem": "Find the value of $a$ in each of these diagrams.",
+     "prompt": "Diagram c",
+     "type": "numeric",
+     "answer": "43",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          4.53,
+          -0.799
+         ],
+         [
+          2.671,
+          1.669
+         ]
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         -1.357,
+         -0.848
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         -1.576,
+         0.278
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         170,
+         212
+        ],
+        "label": "42°  ",
+        "r": 0.85
+       },
+       {
+        "angle": [
+         2.671,
+         1.669,
+         212,
+         307
+        ],
+        "label": "95°",
+        "r": 0.65
+       },
+       {
+        "angle": [
+         4.53,
+         -0.799,
+         127,
+         170
+        ],
+        "label": "a°",
+        "r": 0.85
+       }
+      ]
+     }
+    },
+    {
+     "id": "q6d",
+     "label": "6d",
+     "section": "Problem-solving",
+     "stem": "Find the value of $a$ in each of these diagrams.",
+     "prompt": "Diagram d",
+     "type": "numeric",
+     "answer": "126",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         -2.198,
+         -4.713
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         1.069,
+         -5.497
+        ]
+       },
+       {
+        "seg": [
+         -1.268,
+         -2.719,
+         0.708,
+         -3.64
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         245,
+         281
+        ],
+        "label": "36°",
+        "r": 1.05
+       },
+       {
+        "angle": [
+         -1.268,
+         -2.719,
+         335,
+         65
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         0.708,
+         -3.64,
+         155,
+         281
+        ],
+        "label": "a°",
+        "r": 0.65
+       }
+      ]
+     }
+    },
+    {
+     "id": "q6e",
+     "label": "6e",
+     "section": "Problem-solving",
+     "stem": "Find the value of $a$ in each of these diagrams.",
+     "prompt": "Diagram e",
+     "type": "numeric",
+     "answer": "26",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          6,
+          0
+         ],
+         [
+          4.344,
+          3.394
+         ]
+        ]
+       },
+       {
+        "seg": [
+         4.344,
+         3.394,
+         2.689,
+         0
+        ]
+       },
+       {
+        "tick": [
+         4.344,
+         3.394,
+         2.689,
+         0
+        ],
+        "n": 2
+       },
+       {
+        "tick": [
+         4.344,
+         3.394,
+         6,
+         0
+        ],
+        "n": 2
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         38
+        ],
+        "label": "  38°",
+        "r": 1.05
+       },
+       {
+        "angle": [
+         6,
+         0,
+         116,
+         180
+        ],
+        "label": "64° ",
+        "r": 0.65
+       },
+       {
+        "angle": [
+         4.344,
+         3.394,
+         218,
+         244
+        ],
+        "label": "a°",
+        "r": 1.4
+       }
+      ]
+     }
+    },
+    {
+     "id": "q6f",
+     "label": "6f",
+     "section": "Problem-solving",
+     "stem": "Find the value of $a$ in each of these diagrams.",
+     "prompt": "Diagram f",
+     "type": "numeric",
+     "answer": "18",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          4.6,
+          0
+         ],
+         [
+          0,
+          1.495
+         ]
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         90
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         4.6,
+         0,
+         162,
+         180
+        ],
+        "label": "a°",
+        "r": 1.6
+       },
+       {
+        "angle": [
+         0,
+         1.495,
+         270,
+         342
+        ],
+        "label": " (4a)°",
+        "r": 0.7
+       }
+      ]
+     }
+    },
+    {
+     "id": "q7a",
+     "label": "7a",
+     "section": "Problem-solving",
+     "stem": "Each of these diagrams has parallel lines. Find the value of $a$.",
+     "prompt": "Diagram a",
+     "type": "numeric",
+     "answer": "58",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "seg": [
+         -0.5,
+         3.2,
+         6.8,
+         3.2
+        ]
+       },
+       {
+        "par": [
+         5.4,
+         3.2,
+         6.6,
+         3.2
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         -0.5,
+         0,
+         6.8,
+         0
+        ]
+       },
+       {
+        "par": [
+         5.4,
+         0,
+         6.6,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         3,
+         0,
+         0.5,
+         3.2
+        ]
+       },
+       {
+        "seg": [
+         3,
+         0,
+         5,
+         3.2
+        ]
+       },
+       {
+        "angle": [
+         3,
+         0,
+         128,
+         180
+        ],
+        "label": "52°  ",
+        "r": 0.85
+       },
+       {
+        "angle": [
+         3,
+         0,
+         58,
+         128
+        ],
+        "label": "70°",
+        "r": 0.65
+       },
+       {
+        "angle": [
+         5,
+         3.2,
+         180,
+         238
+        ],
+        "label": "a°",
+        "r": 0.65
+       }
+      ]
+     }
+    },
+    {
+     "id": "q7b",
+     "label": "7b",
+     "section": "Problem-solving",
+     "stem": "Each of these diagrams has parallel lines. Find the value of $a$.",
+     "prompt": "Diagram b",
+     "type": "numeric",
+     "answer": "73",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "seg": [
+         -0.382,
+         -2.167,
+         0.556,
+         3.151
+        ]
+       },
+       {
+        "par": [
+         0.347,
+         1.97,
+         0.556,
+         3.151
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         3.549,
+         -2.561,
+         4.695,
+         3.939
+        ]
+       },
+       {
+        "par": [
+         4.486,
+         2.757,
+         4.695,
+         3.939
+        ],
+        "n": 1
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          4.213,
+          1.208
+         ],
+         [
+          3.67,
+          -1.87
+         ]
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         16,
+         80
+        ],
+        "label": " 64°",
+        "r": 0.65
+       },
+       {
+        "angle": [
+         0,
+         0,
+         333,
+         16
+        ],
+        "label": "  43°",
+        "r": 0.85
+       },
+       {
+        "angle": [
+         3.67,
+         -1.87,
+         80,
+         153
+        ],
+        "label": "a°",
+        "r": 0.65
+       }
+      ]
+     }
+    },
+    {
+     "id": "q7c",
+     "label": "7c",
+     "section": "Problem-solving",
+     "stem": "Each of these diagrams has parallel lines. Find the value of $a$.",
+     "prompt": "Diagram c",
+     "type": "numeric",
+     "answer": "56",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "seg": [
+         -0.544,
+         -0.254,
+         5.8,
+         2.705
+        ]
+       },
+       {
+        "par": [
+         -0.544,
+         -0.254,
+         5.8,
+         2.705
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         -0.544,
+         2.746,
+         5.982,
+         5.789
+        ]
+       },
+       {
+        "par": [
+         -0.544,
+         2.746,
+         5.982,
+         5.789
+        ],
+        "n": 1
+       },
+       {
+        "poly": [
+         [
+          0.906,
+          0.423
+         ],
+         [
+          -0.243,
+          2.887
+         ],
+         [
+          3.411,
+          4.59
+         ]
+        ]
+       },
+       {
+        "angle": [
+         -0.243,
+         2.887,
+         295,
+         25
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         0.906,
+         0.423,
+         25,
+         59
+        ],
+        "label": " 34°",
+        "r": 1.3
+       },
+       {
+        "angle": [
+         0.906,
+         0.423,
+         59,
+         115
+        ],
+        "label": "a°",
+        "r": 0.75
+       }
+      ]
+     }
+    },
+    {
+     "id": "q7d",
+     "label": "7d",
+     "section": "Problem-solving",
+     "stem": "Each of these diagrams has parallel lines. Find the value of $a$.",
+     "prompt": "Diagram d",
+     "type": "numeric",
+     "answer": "73",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "seg": [
+         -0.6,
+         4,
+         5.4,
+         4
+        ]
+       },
+       {
+        "par": [
+         4,
+         4,
+         5.2,
+         4
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         -0.6,
+         0,
+         5.4,
+         0
+        ]
+       },
+       {
+        "par": [
+         4,
+         0,
+         5.2,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         0.799,
+         4,
+         4.401,
+         0
+        ]
+       },
+       {
+        "seg": [
+         3.802,
+         4,
+         1.398,
+         0
+        ]
+       },
+       {
+        "angle": [
+         0.799,
+         4,
+         312,
+         0
+        ],
+        "label": "  48°",
+        "r": 0.85
+       },
+       {
+        "angle": [
+         1.398,
+         0,
+         360,
+         59
+        ],
+        "label": "  59°",
+        "r": 0.65
+       },
+       {
+        "angle": [
+         2.6,
+         2,
+         59,
+         132
+        ],
+        "label": "a°",
+        "r": 0.65
+       }
+      ]
+     }
+    },
+    {
+     "id": "q7e",
+     "label": "7e",
+     "section": "Problem-solving",
+     "stem": "Each of these diagrams has parallel lines. Find the value of $a$.",
+     "prompt": "Diagram e",
+     "type": "numeric",
+     "answer": "45",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          6,
+          0
+         ],
+         [
+          3.422,
+          2.578
+         ]
+        ]
+       },
+       {
+        "seg": [
+         0.222,
+         2.578,
+         6.622,
+         2.578
+        ]
+       },
+       {
+        "par": [
+         5.422,
+         2.578,
+         6.622,
+         2.578
+        ],
+        "n": 1
+       },
+       {
+        "par": [
+         0,
+         0,
+         6,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         37
+        ],
+        "label": "  37°",
+        "r": 1.05
+       },
+       {
+        "angle": [
+         3.422,
+         2.578,
+         217,
+         315
+        ],
+        "label": "98°",
+        "r": 0.65
+       },
+       {
+        "angle": [
+         3.422,
+         2.578,
+         315,
+         0
+        ],
+        "label": "a°",
+        "r": 0.85
+       }
+      ]
+     }
+    },
+    {
+     "id": "q7f",
+     "label": "7f",
+     "section": "Problem-solving",
+     "stem": "Each of these diagrams has parallel lines. Find the value of $a$.",
+     "prompt": "Diagram f",
+     "type": "numeric",
+     "answer": "53",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "seg": [
+         -0.4,
+         3,
+         6.4,
+         3
+        ]
+       },
+       {
+        "par": [
+         5,
+         3,
+         6.2,
+         3
+        ],
+        "n": 1
+       },
+       {
+        "seg": [
+         -0.4,
+         0,
+         6.4,
+         0
+        ]
+       },
+       {
+        "par": [
+         5,
+         0,
+         6.2,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "poly": [
+         [
+          2.6,
+          3
+         ],
+         [
+          0.652,
+          0
+         ],
+         [
+          4.861,
+          0
+         ]
+        ]
+       },
+       {
+        "angle": [
+         2.6,
+         3,
+         180,
+         237
+        ],
+        "label": "57°  ",
+        "r": 0.65
+       },
+       {
+        "angle": [
+         2.6,
+         3,
+         237,
+         307
+        ],
+        "label": "70°",
+        "r": 0.65
+       },
+       {
+        "angle": [
+         4.861,
+         0,
+         127,
+         180
+        ],
+        "label": "a°",
+        "r": 0.85
+       }
+      ]
+     }
+    },
+    {
+     "id": "q8",
+     "label": "8",
+     "section": "Problem-solving",
+     "prompt": "A plane flies horizontally $200$ m above the ground and spots two beacons on the ground. Some of the angles are shown in the diagram. Find the value of $a$, the angle between the two lines of sight.",
+     "type": "numeric",
+     "answer": "15",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "seg": [
+         -1.6,
+         4,
+         7.6,
+         4
+        ],
+        "arrow": "end"
+       },
+       {
+        "seg": [
+         -1.6,
+         0,
+         7.6,
+         0
+        ]
+       },
+       {
+        "point": [
+         0,
+         4
+        ],
+        "name": "",
+        "pos": "n"
+       },
+       {
+        "seg": [
+         0,
+         4,
+         3.356,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         0,
+         4,
+         5.713,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "point": [
+         3.356,
+         0
+        ],
+        "name": "",
+        "pos": "s"
+       },
+       {
+        "point": [
+         5.713,
+         0
+        ],
+        "name": "",
+        "pos": "s"
+       },
+       {
+        "angle": [
+         0,
+         4,
+         180,
+         310
+        ],
+        "label": "130°",
+        "r": 0.6
+       },
+       {
+        "angle": [
+         5.713,
+         0,
+         0,
+         145
+        ],
+        "label": "145°",
+        "r": 0.55
+       },
+       {
+        "angle": [
+         0,
+         4,
+         310,
+         325
+        ],
+        "label": "a°",
+        "r": 2
+       },
+       {
+        "label": "beacons",
+        "at": [
+         4.534,
+         -0.55
+        ]
+       },
+       {
+        "label": "plane",
+        "at": [
+         0,
+         4.45
+        ]
+       },
+       {
+        "dim": [
+         8.4,
+         0,
+         8.4,
+         4
+        ],
+        "label": "200 m",
+        "off": -0.01
+       }
+      ]
+     }
+    },
+    {
+     "id": "q9a",
+     "label": "9a",
+     "section": "Reasoning",
+     "stem": "A polygon can be cut into triangles by drawing diagonals from one vertex, without any diagonals crossing.",
+     "prompt": "How many triangles are formed in a heptagon?",
+     "type": "numeric",
+     "answer": "5"
+    },
+    {
+     "id": "q9b",
+     "label": "9b",
+     "section": "Reasoning",
+     "stem": "A polygon can be cut into triangles by drawing diagonals from one vertex, without any diagonals crossing.",
+     "prompt": "How many triangles are formed in an octagon?",
+     "type": "numeric",
+     "answer": "6"
+    },
+    {
+     "id": "q9c",
+     "label": "9c",
+     "section": "Reasoning",
+     "stem": "A polygon can be cut into triangles by drawing diagonals from one vertex, without any diagonals crossing.",
+     "prompt": "How many triangles are formed in a nonagon?",
+     "type": "numeric",
+     "answer": "7"
+    },
+    {
+     "id": "q9d",
+     "label": "9d",
+     "section": "Reasoning",
+     "stem": "A polygon can be cut into triangles by drawing diagonals from one vertex, without any diagonals crossing.",
+     "prompt": "Use your answers to find the angle sum of a heptagon.",
+     "type": "numeric",
+     "answer": "900",
+     "units": "°"
+    },
+    {
+     "id": "q9e",
+     "label": "9e",
+     "section": "Reasoning",
+     "stem": "A polygon can be cut into triangles by drawing diagonals from one vertex, without any diagonals crossing.",
+     "prompt": "Use your answers to find the angle sum of an octagon.",
+     "type": "numeric",
+     "answer": "1080",
+     "units": "°"
+    },
+    {
+     "id": "q9f",
+     "label": "9f",
+     "section": "Reasoning",
+     "stem": "A polygon can be cut into triangles by drawing diagonals from one vertex, without any diagonals crossing.",
+     "prompt": "Use your answers to find the angle sum of a nonagon.",
+     "type": "numeric",
+     "answer": "1260",
+     "units": "°"
+    },
+    {
+     "id": "q10a",
+     "label": "10a",
+     "section": "Reasoning",
+     "stem": "Find the angle sum of each of these polygons.",
+     "prompt": "An undecagon (11 sides)",
+     "type": "numeric",
+     "answer": "1620",
+     "units": "°"
+    },
+    {
+     "id": "q10b",
+     "label": "10b",
+     "section": "Reasoning",
+     "stem": "Find the angle sum of each of these polygons.",
+     "prompt": "A dodecagon (12 sides)",
+     "type": "numeric",
+     "answer": "1800",
+     "units": "°"
+    },
+    {
+     "id": "q10c",
+     "label": "10c",
+     "section": "Reasoning",
+     "stem": "Find the angle sum of each of these polygons.",
+     "prompt": "A polygon with $20$ sides",
+     "type": "numeric",
+     "answer": "3240",
+     "units": "°"
+    },
+    {
+     "id": "q11",
+     "label": "11",
+     "section": "Reasoning",
+     "prompt": "A polygon has $n$ sides and its angles add up to $S$ degrees. Write an expression for $S$ using $n$.",
+     "type": "expression",
+     "answer": "180(n-2)",
+     "hint": "Type only the expression for S, using the letter n."
+    },
+    {
+     "id": "q12a",
+     "label": "12a",
+     "section": "Enrichment",
+     "stem": "Explore the exterior angle of a triangle.",
+     "prompt": "Find $68 + 57$.",
+     "type": "numeric",
+     "answer": "125"
+    },
+    {
+     "id": "q12b",
+     "label": "12b",
+     "section": "Enrichment",
+     "stem": "Explore the exterior angle of a triangle.",
+     "prompt": "Find the value of $a$ in this diagram.",
+     "type": "numeric",
+     "answer": "125",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          4.6,
+          0
+         ],
+         [
+          1.683,
+          4.166
+         ]
+        ]
+       },
+       {
+        "seg": [
+         4.6,
+         0,
+         6.4,
+         0
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         68
+        ],
+        "label": " 68°",
+        "r": 0.65
+       },
+       {
+        "angle": [
+         1.683,
+         4.166,
+         248,
+         305
+        ],
+        "label": "57°",
+        "r": 0.65
+       },
+       {
+        "angle": [
+         4.6,
+         0,
+         0,
+         125
+        ],
+        "label": "a°",
+        "r": 0.65
+       }
+      ]
+     }
+    },
+    {
+     "id": "q12c",
+     "label": "12c",
+     "section": "Enrichment",
+     "stem": "Explore the exterior angle of a triangle.",
+     "prompt": "What do you notice about your answers to parts a and b?",
+     "type": "choice",
+     "options": [
+      "They are the same",
+      "The answer to part a is bigger",
+      "The answer to part b is bigger"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q13a",
+     "label": "13a",
+     "section": "Enrichment",
+     "stem": "This diagram shows a triangle with a line drawn through its top vertex, parallel to the base.",
+     "prompt": "The two angles marked $a^\\circ$ are always equal. What type of angles are they?",
+     "type": "choice",
+     "options": [
+      "Corresponding",
+      "Alternate",
+      "Co-interior",
+      "Vertically opposite"
+     ],
+     "answer": 1,
+     "stemFigure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          6,
+          0
+         ],
+         [
+          2.407,
+          3.853
+         ]
+        ]
+       },
+       {
+        "seg": [
+         -0.593,
+         3.853,
+         5.407,
+         3.853
+        ]
+       },
+       {
+        "par": [
+         4.207,
+         3.853,
+         5.407,
+         3.853
+        ],
+        "n": 1
+       },
+       {
+        "par": [
+         0,
+         0,
+         6,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         58
+        ],
+        "label": "a°",
+        "r": 0.65
+       },
+       {
+        "angle": [
+         6,
+         0,
+         133,
+         180
+        ],
+        "label": "b°",
+        "r": 0.85
+       },
+       {
+        "angle": [
+         2.407,
+         3.853,
+         180,
+         238
+        ],
+        "label": "a°",
+        "r": 0.65
+       },
+       {
+        "angle": [
+         2.407,
+         3.853,
+         313,
+         0
+        ],
+        "label": "b°",
+        "r": 0.85
+       },
+       {
+        "angle": [
+         2.407,
+         3.853,
+         238,
+         313
+        ],
+        "label": "c°",
+        "r": 0.55
+       }
+      ]
+     }
+    },
+    {
+     "id": "q13b",
+     "label": "13b",
+     "section": "Enrichment",
+     "stem": "This diagram shows a triangle with a line drawn through its top vertex, parallel to the base.",
+     "prompt": "The two angles marked $b^\\circ$ are always equal. What type of angles are they?",
+     "type": "choice",
+     "options": [
+      "Corresponding",
+      "Alternate",
+      "Co-interior",
+      "Vertically opposite"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "q13c",
+     "label": "13c",
+     "section": "Enrichment",
+     "stem": "This diagram shows a triangle with a line drawn through its top vertex, parallel to the base.",
+     "prompt": "At the top vertex, the angles $a^\\circ$, $c^\\circ$ and $b^\\circ$ sit on a straight line. What is $a + b + c$?",
+     "type": "numeric",
+     "answer": "180"
+    }
+   ]
+  },
+  {
+   "id": "7h",
+   "chapter": "Chapter 7: Geometry",
+   "title": "7H Symmetry",
+   "description": "Count lines of symmetry and find the order of rotational symmetry of shapes, letters and solids.",
+   "questions": [
+    {
+     "id": "q1",
+     "label": "1",
+     "section": "Fluency",
+     "prompt": "Give the number of lines of symmetry and the order of rotational symmetry for this regular pentagon.",
+     "type": "ordered",
+     "answer": [
+      "5",
+      "5"
+     ],
+     "hint": "Type two numbers with a comma: the number of lines of symmetry first, then the order of rotational symmetry (for example 3, 1). No rotational symmetry means order 1.",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          1.8
+         ],
+         [
+          -1.712,
+          0.556
+         ],
+         [
+          -1.058,
+          -1.456
+         ],
+         [
+          1.058,
+          -1.456
+         ],
+         [
+          1.712,
+          0.556
+         ]
+        ]
+       },
+       {
+        "tick": [
+         0,
+         1.8,
+         -1.712,
+         0.556
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         -1.712,
+         0.556,
+         -1.058,
+         -1.456
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         -1.058,
+         -1.456,
+         1.058,
+         -1.456
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         1.058,
+         -1.456,
+         1.712,
+         0.556
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         1.712,
+         0.556,
+         0,
+         1.8
+        ],
+        "n": 1
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2a",
+     "label": "2a",
+     "section": "Fluency",
+     "stem": "Give the number of lines of symmetry and the order of rotational symmetry for each shape.",
+     "prompt": "Shape a",
+     "type": "ordered",
+     "answer": [
+      "3",
+      "3"
+     ],
+     "hint": "Type two numbers with a comma: the number of lines of symmetry first, then the order of rotational symmetry (for example 3, 1). No rotational symmetry means order 1.",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          1.7
+         ],
+         [
+          -1.472,
+          -0.85
+         ],
+         [
+          1.472,
+          -0.85
+         ]
+        ]
+       },
+       {
+        "tick": [
+         0,
+         1.7,
+         -1.472,
+         -0.85
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         -1.472,
+         -0.85,
+         1.472,
+         -0.85
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         1.472,
+         -0.85,
+         0,
+         1.7
+        ],
+        "n": 1
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2b",
+     "label": "2b",
+     "section": "Fluency",
+     "stem": "Give the number of lines of symmetry and the order of rotational symmetry for each shape.",
+     "prompt": "Shape b",
+     "type": "ordered",
+     "answer": [
+      "1",
+      "1"
+     ],
+     "hint": "Type two numbers with a comma: the number of lines of symmetry first, then the order of rotational symmetry (for example 3, 1). No rotational symmetry means order 1.",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          -2.4,
+          0
+         ],
+         [
+          2.4,
+          0
+         ],
+         [
+          1.3,
+          2
+         ],
+         [
+          -1.3,
+          2
+         ]
+        ]
+       },
+       {
+        "tick": [
+         2.4,
+         0,
+         1.3,
+         2
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         -1.3,
+         2,
+         -2.4,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "par": [
+         -2.4,
+         0,
+         2.4,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "par": [
+         -1.3,
+         2,
+         1.3,
+         2
+        ],
+        "n": 1
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2c",
+     "label": "2c",
+     "section": "Fluency",
+     "stem": "Give the number of lines of symmetry and the order of rotational symmetry for each shape.",
+     "prompt": "Shape c",
+     "type": "ordered",
+     "answer": [
+      "2",
+      "2"
+     ],
+     "hint": "Type two numbers with a comma: the number of lines of symmetry first, then the order of rotational symmetry (for example 3, 1). No rotational symmetry means order 1.",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          1.3
+         ],
+         [
+          -2.2,
+          0
+         ],
+         [
+          0,
+          -1.3
+         ],
+         [
+          2.2,
+          0
+         ]
+        ]
+       },
+       {
+        "tick": [
+         0,
+         1.3,
+         -2.2,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         -2.2,
+         0,
+         0,
+         -1.3
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         0,
+         -1.3,
+         2.2,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         2.2,
+         0,
+         0,
+         1.3
+        ],
+        "n": 1
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2d",
+     "label": "2d",
+     "section": "Fluency",
+     "stem": "Give the number of lines of symmetry and the order of rotational symmetry for each shape.",
+     "prompt": "Shape d",
+     "type": "ordered",
+     "answer": [
+      "6",
+      "6"
+     ],
+     "hint": "Type two numbers with a comma: the number of lines of symmetry first, then the order of rotational symmetry (for example 3, 1). No rotational symmetry means order 1.",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          1.6,
+          0
+         ],
+         [
+          0.8,
+          1.386
+         ],
+         [
+          -0.8,
+          1.386
+         ],
+         [
+          -1.6,
+          0
+         ],
+         [
+          -0.8,
+          -1.386
+         ],
+         [
+          0.8,
+          -1.386
+         ]
+        ]
+       },
+       {
+        "tick": [
+         1.6,
+         0,
+         0.8,
+         1.386
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         0.8,
+         1.386,
+         -0.8,
+         1.386
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         -0.8,
+         1.386,
+         -1.6,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         -1.6,
+         0,
+         -0.8,
+         -1.386
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         -0.8,
+         -1.386,
+         0.8,
+         -1.386
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         0.8,
+         -1.386,
+         1.6,
+         0
+        ],
+        "n": 1
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2e",
+     "label": "2e",
+     "section": "Fluency",
+     "stem": "Give the number of lines of symmetry and the order of rotational symmetry for each shape.",
+     "prompt": "Shape e",
+     "type": "ordered",
+     "answer": [
+      "0",
+      "2"
+     ],
+     "hint": "Type two numbers with a comma: the number of lines of symmetry first, then the order of rotational symmetry (for example 3, 1). No rotational symmetry means order 1.",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          3.4,
+          0
+         ],
+         [
+          4.6,
+          2
+         ],
+         [
+          1.2,
+          2
+         ]
+        ]
+       },
+       {
+        "par": [
+         0,
+         0,
+         3.4,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "par": [
+         1.2,
+         2,
+         4.6,
+         2
+        ],
+        "n": 1
+       },
+       {
+        "par": [
+         0,
+         0,
+         1.2,
+         2
+        ],
+        "n": 2
+       },
+       {
+        "par": [
+         3.4,
+         0,
+         4.6,
+         2
+        ],
+        "n": 2
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2f",
+     "label": "2f",
+     "section": "Fluency",
+     "stem": "Give the number of lines of symmetry and the order of rotational symmetry for each shape.",
+     "prompt": "Shape f",
+     "type": "ordered",
+     "answer": [
+      "1",
+      "1"
+     ],
+     "hint": "Type two numbers with a comma: the number of lines of symmetry first, then the order of rotational symmetry (for example 3, 1). No rotational symmetry means order 1.",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          1.2
+         ],
+         [
+          -1.4,
+          0
+         ],
+         [
+          0,
+          -3
+         ],
+         [
+          1.4,
+          0
+         ]
+        ]
+       },
+       {
+        "tick": [
+         0,
+         1.2,
+         -1.4,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         0,
+         1.2,
+         1.4,
+         0
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         -1.4,
+         0,
+         0,
+         -3
+        ],
+        "n": 2
+       },
+       {
+        "tick": [
+         1.4,
+         0,
+         0,
+         -3
+        ],
+        "n": 2
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3a",
+     "label": "3a",
+     "section": "Fluency",
+     "stem": "Which type of triangle has these properties?",
+     "prompt": "$1$ line of symmetry and no rotational symmetry",
+     "type": "choice",
+     "options": [
+      "Equilateral",
+      "Isosceles",
+      "Scalene"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "q3b",
+     "label": "3b",
+     "section": "Fluency",
+     "stem": "Which type of triangle has these properties?",
+     "prompt": "No lines of symmetry and no rotational symmetry",
+     "type": "choice",
+     "options": [
+      "Equilateral",
+      "Isosceles",
+      "Scalene"
+     ],
+     "answer": 2
+    },
+    {
+     "id": "q3c",
+     "label": "3c",
+     "section": "Fluency",
+     "stem": "Which type of triangle has these properties?",
+     "prompt": "$3$ lines of symmetry and rotational symmetry of order $3$",
+     "type": "choice",
+     "options": [
+      "Equilateral",
+      "Isosceles",
+      "Scalene"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q4a",
+     "label": "4a",
+     "section": "Fluency",
+     "stem": "Which special quadrilaterals have the property? (The special quadrilaterals are the square, rectangle, rhombus, parallelogram, trapezium, isosceles trapezium and kite.)",
+     "prompt": "Exactly $2$ lines of symmetry",
+     "type": "choice",
+     "options": [
+      "kite and isosceles trapezium",
+      "rectangle and rhombus",
+      "square",
+      "none of them"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "q4b",
+     "label": "4b",
+     "section": "Fluency",
+     "stem": "Which special quadrilaterals have the property? (The special quadrilaterals are the square, rectangle, rhombus, parallelogram, trapezium, isosceles trapezium and kite.)",
+     "prompt": "Exactly $4$ lines of symmetry",
+     "type": "choice",
+     "options": [
+      "kite and isosceles trapezium",
+      "rectangle and rhombus",
+      "square",
+      "none of them"
+     ],
+     "answer": 2
+    },
+    {
+     "id": "q4c",
+     "label": "4c",
+     "section": "Fluency",
+     "stem": "Which special quadrilaterals have the property? (The special quadrilaterals are the square, rectangle, rhombus, parallelogram, trapezium, isosceles trapezium and kite.)",
+     "prompt": "Exactly $1$ line of symmetry",
+     "type": "choice",
+     "options": [
+      "kite and isosceles trapezium",
+      "rectangle and rhombus",
+      "square",
+      "none of them"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q4d",
+     "label": "4d",
+     "section": "Fluency",
+     "stem": "Which special quadrilaterals have the property? (The special quadrilaterals are the square, rectangle, rhombus, parallelogram, trapezium, isosceles trapezium and kite.)",
+     "prompt": "Exactly $3$ lines of symmetry",
+     "type": "choice",
+     "options": [
+      "kite and isosceles trapezium",
+      "rectangle and rhombus",
+      "square",
+      "none of them"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "q4e",
+     "label": "4e",
+     "section": "Fluency",
+     "stem": "Which special quadrilaterals have the property? (The special quadrilaterals are the square, rectangle, rhombus, parallelogram, trapezium, isosceles trapezium and kite.)",
+     "prompt": "Rotational symmetry of order $4$",
+     "type": "choice",
+     "options": [
+      "kite, trapezium and isosceles trapezium",
+      "parallelogram, rectangle and rhombus",
+      "square",
+      "none of them"
+     ],
+     "answer": 2
+    },
+    {
+     "id": "q4f",
+     "label": "4f",
+     "section": "Fluency",
+     "stem": "Which special quadrilaterals have the property? (The special quadrilaterals are the square, rectangle, rhombus, parallelogram, trapezium, isosceles trapezium and kite.)",
+     "prompt": "Rotational symmetry of order $1$",
+     "type": "choice",
+     "options": [
+      "kite, trapezium and isosceles trapezium",
+      "parallelogram, rectangle and rhombus",
+      "square",
+      "none of them"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q4g",
+     "label": "4g",
+     "section": "Fluency",
+     "stem": "Which special quadrilaterals have the property? (The special quadrilaterals are the square, rectangle, rhombus, parallelogram, trapezium, isosceles trapezium and kite.)",
+     "prompt": "Rotational symmetry of order $3$",
+     "type": "choice",
+     "options": [
+      "kite, trapezium and isosceles trapezium",
+      "parallelogram, rectangle and rhombus",
+      "square",
+      "none of them"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "q4h",
+     "label": "4h",
+     "section": "Fluency",
+     "stem": "Which special quadrilaterals have the property? (The special quadrilaterals are the square, rectangle, rhombus, parallelogram, trapezium, isosceles trapezium and kite.)",
+     "prompt": "Rotational symmetry of order $2$",
+     "type": "choice",
+     "options": [
+      "kite, trapezium and isosceles trapezium",
+      "parallelogram, rectangle and rhombus",
+      "square",
+      "none of them"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "q5a",
+     "label": "5a",
+     "section": "Fluency",
+     "stem": "Give the number of lines of symmetry and the order of rotational symmetry for each design.",
+     "prompt": "Design a",
+     "type": "ordered",
+     "answer": [
+      "6",
+      "6"
+     ],
+     "hint": "Type two numbers with a comma: the number of lines of symmetry first, then the order of rotational symmetry (for example 3, 1). No rotational symmetry means order 1.",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          2
+         ],
+         [
+          -0.5,
+          0.866
+         ],
+         [
+          -1.732,
+          1
+         ],
+         [
+          -1,
+          0
+         ],
+         [
+          -1.732,
+          -1
+         ],
+         [
+          -0.5,
+          -0.866
+         ],
+         [
+          0,
+          -2
+         ],
+         [
+          0.5,
+          -0.866
+         ],
+         [
+          1.732,
+          -1
+         ],
+         [
+          1,
+          0
+         ],
+         [
+          1.732,
+          1
+         ],
+         [
+          0.5,
+          0.866
+         ]
+        ],
+        "fill": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "q5b",
+     "label": "5b",
+     "section": "Fluency",
+     "stem": "Give the number of lines of symmetry and the order of rotational symmetry for each design.",
+     "prompt": "Design b",
+     "type": "ordered",
+     "answer": [
+      "1",
+      "1"
+     ],
+     "hint": "Type two numbers with a comma: the number of lines of symmetry first, then the order of rotational symmetry (for example 3, 1). No rotational symmetry means order 1.",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          3
+         ],
+         [
+          -1.6,
+          1.4
+         ],
+         [
+          -0.6,
+          1.4
+         ],
+         [
+          -0.6,
+          -1.6
+         ],
+         [
+          0.6,
+          -1.6
+         ],
+         [
+          0.6,
+          1.4
+         ],
+         [
+          1.6,
+          1.4
+         ]
+        ],
+        "fill": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "q5c",
+     "label": "5c",
+     "section": "Fluency",
+     "stem": "Give the number of lines of symmetry and the order of rotational symmetry for each design.",
+     "prompt": "Design c",
+     "type": "ordered",
+     "answer": [
+      "0",
+      "3"
+     ],
+     "hint": "Type two numbers with a comma: the number of lines of symmetry first, then the order of rotational symmetry (for example 3, 1). No rotational symmetry means order 1.",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0.15,
+          0.1
+         ],
+         [
+          2.2,
+          0.3
+         ],
+         [
+          1.5,
+          1.2
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          -0.162,
+          0.08
+         ],
+         [
+          -1.36,
+          1.755
+         ],
+         [
+          -1.789,
+          0.699
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0.012,
+          -0.18
+         ],
+         [
+          -0.84,
+          -2.055
+         ],
+         [
+          0.289,
+          -1.899
+         ]
+        ],
+        "fill": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "q5d",
+     "label": "5d",
+     "section": "Fluency",
+     "stem": "Give the number of lines of symmetry and the order of rotational symmetry for each design.",
+     "prompt": "Design d",
+     "type": "ordered",
+     "answer": [
+      "4",
+      "4"
+     ],
+     "hint": "Type two numbers with a comma: the number of lines of symmetry first, then the order of rotational symmetry (for example 3, 1). No rotational symmetry means order 1.",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0.6,
+          0.6
+         ],
+         [
+          0.6,
+          1.9
+         ],
+         [
+          -0.6,
+          1.9
+         ],
+         [
+          -0.6,
+          0.6
+         ],
+         [
+          -1.9,
+          0.6
+         ],
+         [
+          -1.9,
+          -0.6
+         ],
+         [
+          -0.6,
+          -0.6
+         ],
+         [
+          -0.6,
+          -1.9
+         ],
+         [
+          0.6,
+          -1.9
+         ],
+         [
+          0.6,
+          -0.6
+         ],
+         [
+          1.9,
+          -0.6
+         ],
+         [
+          1.9,
+          0.6
+         ]
+        ],
+        "fill": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "q6a",
+     "label": "6a",
+     "section": "Fluency",
+     "stem": "Look at these nine capital letters: E, F, H, L, N, T, V, X, Z.",
+     "prompt": "Which of them have exactly $1$ line of symmetry? Type the letters, separated by commas.",
+     "type": "list",
+     "answer": [
+      "E",
+      "T",
+      "V"
+     ],
+     "hint": "Separate the letters with commas, for example P, Q"
+    },
+    {
+     "id": "q6b",
+     "label": "6b",
+     "section": "Fluency",
+     "stem": "Look at these nine capital letters: E, F, H, L, N, T, V, X, Z.",
+     "prompt": "Which of them have exactly $2$ lines of symmetry?",
+     "type": "list",
+     "answer": [
+      "H",
+      "X"
+     ]
+    },
+    {
+     "id": "q6c",
+     "label": "6c",
+     "section": "Fluency",
+     "stem": "Look at these nine capital letters: E, F, H, L, N, T, V, X, Z.",
+     "prompt": "Which of them have rotational symmetry of order $2$?",
+     "type": "list",
+     "answer": [
+      "H",
+      "N",
+      "X",
+      "Z"
+     ]
+    },
+    {
+     "id": "q7a",
+     "label": "7a",
+     "section": "Fluency",
+     "stem": "Imagine completing each shape by reflecting it in the dashed line of symmetry. How many sides will the completed shape have?",
+     "prompt": "Shape a",
+     "type": "numeric",
+     "answer": "7",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          4.5
+         ],
+         [
+          -2.4,
+          2.2
+         ],
+         [
+          -1,
+          2.2
+         ],
+         [
+          -1,
+          0
+         ],
+         [
+          0,
+          0
+         ]
+        ],
+        "open": true
+       },
+       {
+        "seg": [
+         0,
+         -0.9,
+         0,
+         5.4
+        ],
+        "dash": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "q7b",
+     "label": "7b",
+     "section": "Fluency",
+     "stem": "Imagine completing each shape by reflecting it in the dashed line of symmetry. How many sides will the completed shape have?",
+     "prompt": "Shape b",
+     "type": "numeric",
+     "answer": "6",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          0.239,
+          1.986
+         ],
+         [
+          2.568,
+          2.753
+         ],
+         [
+          4.33,
+          2.5
+         ]
+        ],
+        "open": true
+       },
+       {
+        "seg": [
+         -0.779,
+         -0.45,
+         5.11,
+         2.95
+        ],
+        "dash": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "q7c",
+     "label": "7c",
+     "section": "Fluency",
+     "stem": "Imagine completing each shape by reflecting it in the dashed line of symmetry. How many sides will the completed shape have?",
+     "prompt": "Shape c",
+     "type": "numeric",
+     "answer": "5",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          1.299,
+          0.75
+         ],
+         [
+          3.155,
+          -1.065
+         ],
+         [
+          2,
+          -3.464
+         ]
+        ],
+        "open": true
+       },
+       {
+        "seg": [
+         -0.45,
+         0.779,
+         2.45,
+         -4.244
+        ],
+        "dash": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "q8a",
+     "label": "8a",
+     "section": "Problem-solving",
+     "stem": "Is it possible to draw each of these?",
+     "prompt": "A pentagon with no lines of symmetry",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q8b",
+     "label": "8b",
+     "section": "Problem-solving",
+     "stem": "Is it possible to draw each of these?",
+     "prompt": "A quadrilateral with exactly one line of symmetry",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q8c",
+     "label": "8c",
+     "section": "Problem-solving",
+     "stem": "Is it possible to draw each of these?",
+     "prompt": "A shape with $5$ lines of symmetry and rotational symmetry of order $5$",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q8d",
+     "label": "8d",
+     "section": "Problem-solving",
+     "stem": "Is it possible to draw each of these?",
+     "prompt": "A design with no lines of symmetry but rotational symmetry of order $4$",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q8e",
+     "label": "8e",
+     "section": "Problem-solving",
+     "stem": "Is it possible to draw each of these?",
+     "prompt": "A shape with exactly $2$ lines of symmetry and no rotational symmetry",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "q9a",
+     "label": "9a",
+     "section": "Problem-solving",
+     "stem": "These designs are made from more than one shape. Give the number of lines of symmetry and the order of rotational symmetry for each.",
+     "prompt": "Design a",
+     "type": "ordered",
+     "answer": [
+      "3",
+      "3"
+     ],
+     "hint": "Type two numbers with a comma: the number of lines of symmetry first, then the order of rotational symmetry (for example 3, 1). No rotational symmetry means order 1.",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "circle": [
+         0,
+         0,
+         2
+        ]
+       },
+       {
+        "poly": [
+         [
+          0,
+          2
+         ],
+         [
+          -1.732,
+          -1
+         ],
+         [
+          1.732,
+          -1
+         ]
+        ]
+       },
+       {
+        "tick": [
+         0,
+         2,
+         -1.732,
+         -1
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         -1.732,
+         -1,
+         1.732,
+         -1
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         1.732,
+         -1,
+         0,
+         2
+        ],
+        "n": 1
+       }
+      ]
+     }
+    },
+    {
+     "id": "q9b",
+     "label": "9b",
+     "section": "Problem-solving",
+     "stem": "These designs are made from more than one shape. Give the number of lines of symmetry and the order of rotational symmetry for each.",
+     "prompt": "Design b",
+     "type": "ordered",
+     "answer": [
+      "0",
+      "2"
+     ],
+     "hint": "Type two numbers with a comma: the number of lines of symmetry first, then the order of rotational symmetry (for example 3, 1). No rotational symmetry means order 1.",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          4,
+          0
+         ],
+         [
+          4,
+          2.4
+         ],
+         [
+          0,
+          2.4
+         ]
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         4,
+         2.4
+        ]
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         90
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         4,
+         0,
+         90,
+         180
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         4,
+         2.4,
+         180,
+         270
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         0,
+         2.4,
+         270,
+         0
+        ],
+        "right": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "q9c",
+     "label": "9c",
+     "section": "Problem-solving",
+     "stem": "These designs are made from more than one shape. Give the number of lines of symmetry and the order of rotational symmetry for each.",
+     "prompt": "Design c",
+     "type": "ordered",
+     "answer": [
+      "1",
+      "1"
+     ],
+     "hint": "Type two numbers with a comma: the number of lines of symmetry first, then the order of rotational symmetry (for example 3, 1). No rotational symmetry means order 1.",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          3,
+          0
+         ],
+         [
+          3,
+          3
+         ],
+         [
+          1.5,
+          4.6
+         ],
+         [
+          0,
+          3
+         ]
+        ]
+       },
+       {
+        "seg": [
+         0,
+         3,
+         3,
+         3
+        ]
+       },
+       {
+        "tick": [
+         0,
+         3,
+         1.5,
+         4.6
+        ],
+        "n": 1
+       },
+       {
+        "tick": [
+         3,
+         3,
+         1.5,
+         4.6
+        ],
+        "n": 1
+       },
+       {
+        "angle": [
+         0,
+         0,
+         0,
+         90
+        ],
+        "right": true
+       },
+       {
+        "angle": [
+         3,
+         0,
+         90,
+         180
+        ],
+        "right": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "q10a",
+     "label": "10a",
+     "section": "Reasoning",
+     "stem": "Is a diagonal a line of symmetry of this shape?",
+     "prompt": "A rectangle that is not a square",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "q10b",
+     "label": "10b",
+     "section": "Reasoning",
+     "stem": "Is a diagonal a line of symmetry of this shape?",
+     "prompt": "A rhombus",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q11a",
+     "label": "11a",
+     "section": "Reasoning",
+     "stem": "A parallelogram has two pairs of parallel sides.",
+     "prompt": "Do all parallelograms have line symmetry?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "q11b",
+     "label": "11b",
+     "section": "Reasoning",
+     "stem": "A parallelogram has two pairs of parallel sides.",
+     "prompt": "Do all parallelograms have rotational symmetry (of order $2$ or more)?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q11c",
+     "label": "11c",
+     "section": "Reasoning",
+     "stem": "A parallelogram has two pairs of parallel sides.",
+     "prompt": "Which type of parallelogram has $4$ lines of symmetry?",
+     "type": "choice",
+     "options": [
+      "Rectangle",
+      "Rhombus",
+      "Square"
+     ],
+     "answer": 2
+    },
+    {
+     "id": "q12a",
+     "label": "12a",
+     "section": "Enrichment",
+     "stem": "Solid objects can have planes of symmetry. A plane of symmetry cuts a solid into two halves that are mirror images of each other. How many planes of symmetry does each solid have?",
+     "prompt": "A square prism (its two ends are squares, but it is not a cube)",
+     "type": "numeric",
+     "answer": "5",
+     "figure": {
+      "kind": "diagram",
+      "unit": 34,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          4.5,
+          0
+         ],
+         [
+          4.5,
+          2
+         ],
+         [
+          0,
+          2
+         ]
+        ]
+       },
+       {
+        "seg": [
+         0.819,
+         0.574,
+         5.319,
+         0.574
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         0.819,
+         0.574
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         5.319,
+         0.574,
+         5.319,
+         2.574
+        ]
+       },
+       {
+        "seg": [
+         4.5,
+         0,
+         5.319,
+         0.574
+        ]
+       },
+       {
+        "seg": [
+         5.319,
+         2.574,
+         0.819,
+         2.574
+        ]
+       },
+       {
+        "seg": [
+         4.5,
+         2,
+         5.319,
+         2.574
+        ]
+       },
+       {
+        "seg": [
+         0.819,
+         2.574,
+         0.819,
+         0.574
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         0,
+         2,
+         0.819,
+         2.574
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q12b",
+     "label": "12b",
+     "section": "Enrichment",
+     "stem": "Solid objects can have planes of symmetry. A plane of symmetry cuts a solid into two halves that are mirror images of each other. How many planes of symmetry does each solid have?",
+     "prompt": "A right rectangular pyramid (its base is a rectangle that is not a square)",
+     "type": "numeric",
+     "answer": "2",
+     "figure": {
+      "kind": "diagram",
+      "unit": 34,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         4,
+         0
+        ]
+       },
+       {
+        "seg": [
+         4,
+         0,
+         5.065,
+         0.746
+        ]
+       },
+       {
+        "seg": [
+         5.065,
+         0.746,
+         1.065,
+         0.746
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         1.065,
+         0.746,
+         0,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         2.532,
+         3.373,
+         0,
+         0
+        ]
+       },
+       {
+        "seg": [
+         2.532,
+         3.373,
+         4,
+         0
+        ]
+       },
+       {
+        "seg": [
+         2.532,
+         3.373,
+         5.065,
+         0.746
+        ]
+       },
+       {
+        "seg": [
+         2.532,
+         3.373,
+         1.065,
+         0.746
+        ],
+        "dash": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "q12c",
+     "label": "12c",
+     "section": "Enrichment",
+     "stem": "Solid objects can have planes of symmetry. A plane of symmetry cuts a solid into two halves that are mirror images of each other. How many planes of symmetry does each solid have?",
+     "prompt": "A triangular prism whose ends are equilateral triangles",
+     "type": "numeric",
+     "answer": "4",
+     "figure": {
+      "kind": "diagram",
+      "unit": 34,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          2.4,
+          0
+         ],
+         [
+          1.2,
+          2.078
+         ]
+        ]
+       },
+       {
+        "seg": [
+         1.638,
+         1.147,
+         4.038,
+         1.147
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         1.638,
+         1.147
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         4.038,
+         1.147,
+         2.838,
+         3.226
+        ]
+       },
+       {
+        "seg": [
+         2.4,
+         0,
+         4.038,
+         1.147
+        ]
+       },
+       {
+        "seg": [
+         2.838,
+         3.226,
+         1.638,
+         1.147
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         1.2,
+         2.078,
+         2.838,
+         3.226
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q12d",
+     "label": "12d",
+     "section": "Enrichment",
+     "stem": "Solid objects can have planes of symmetry. A plane of symmetry cuts a solid into two halves that are mirror images of each other. How many planes of symmetry does each solid have?",
+     "prompt": "A prism whose ends are regular hexagons",
+     "type": "numeric",
+     "answer": "7",
+     "figure": {
+      "kind": "diagram",
+      "unit": 34,
+      "items": [
+       {
+        "poly": [
+         [
+          1.3,
+          0
+         ],
+         [
+          0.65,
+          1.126
+         ],
+         [
+          -0.65,
+          1.126
+         ],
+         [
+          -1.3,
+          0
+         ],
+         [
+          -0.65,
+          -1.126
+         ],
+         [
+          0.65,
+          -1.126
+         ]
+        ]
+       },
+       {
+        "seg": [
+         2.529,
+         0.86,
+         1.879,
+         1.986
+        ]
+       },
+       {
+        "seg": [
+         1.3,
+         0,
+         2.529,
+         0.86
+        ]
+       },
+       {
+        "seg": [
+         1.879,
+         1.986,
+         0.579,
+         1.986
+        ]
+       },
+       {
+        "seg": [
+         0.65,
+         1.126,
+         1.879,
+         1.986
+        ]
+       },
+       {
+        "seg": [
+         0.579,
+         1.986,
+         -0.071,
+         0.86
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         -0.65,
+         1.126,
+         0.579,
+         1.986
+        ]
+       },
+       {
+        "seg": [
+         -0.071,
+         0.86,
+         0.579,
+         -0.265
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         -1.3,
+         0,
+         -0.071,
+         0.86
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         0.579,
+         -0.265,
+         1.879,
+         -0.265
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         -0.65,
+         -1.126,
+         0.579,
+         -0.265
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         1.879,
+         -0.265,
+         2.529,
+         0.86
+        ]
+       },
+       {
+        "seg": [
+         0.65,
+         -1.126,
+         1.879,
+         -0.265
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q12e",
+     "label": "12e",
+     "section": "Enrichment",
+     "stem": "Solid objects can have planes of symmetry. A plane of symmetry cuts a solid into two halves that are mirror images of each other. How many planes of symmetry does each solid have?",
+     "prompt": "A cone",
+     "type": "choice",
+     "options": [
+      "1",
+      "2",
+      "4",
+      "Infinitely many"
+     ],
+     "answer": 3,
+     "figure": {
+      "kind": "diagram",
+      "unit": 34,
+      "items": [
+       {
+        "poly": [
+         [
+          -2,
+          0
+         ],
+         [
+          -1.97,
+          -0.104
+         ],
+         [
+          -1.879,
+          -0.205
+         ],
+         [
+          -1.732,
+          -0.3
+         ],
+         [
+          -1.532,
+          -0.386
+         ],
+         [
+          -1.286,
+          -0.46
+         ],
+         [
+          -1,
+          -0.52
+         ],
+         [
+          -0.684,
+          -0.564
+         ],
+         [
+          -0.347,
+          -0.591
+         ],
+         [
+          0,
+          -0.6
+         ],
+         [
+          0.347,
+          -0.591
+         ],
+         [
+          0.684,
+          -0.564
+         ],
+         [
+          1,
+          -0.52
+         ],
+         [
+          1.286,
+          -0.46
+         ],
+         [
+          1.532,
+          -0.386
+         ],
+         [
+          1.732,
+          -0.3
+         ],
+         [
+          1.879,
+          -0.205
+         ],
+         [
+          1.97,
+          -0.104
+         ],
+         [
+          2,
+          0
+         ]
+        ],
+        "open": true
+       },
+       {
+        "seg": [
+         2,
+         0,
+         1.932,
+         0.155
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         1.932,
+         0.155,
+         1.732,
+         0.3
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         1.732,
+         0.3,
+         1.414,
+         0.424
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         1.414,
+         0.424,
+         1,
+         0.52
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         1,
+         0.52,
+         0.518,
+         0.58
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         0.518,
+         0.58,
+         0,
+         0.6
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         0,
+         0.6,
+         -0.518,
+         0.58
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         -0.518,
+         0.58,
+         -1,
+         0.52
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         -1,
+         0.52,
+         -1.414,
+         0.424
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         -1.414,
+         0.424,
+         -1.732,
+         0.3
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         -1.732,
+         0.3,
+         -1.932,
+         0.155
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         -1.932,
+         0.155,
+         -2,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         -2,
+         0,
+         0,
+         3.4
+        ]
+       },
+       {
+        "seg": [
+         2,
+         0,
+         0,
+         3.4
+        ]
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "7i",
+   "chapter": "Chapter 7: Geometry",
+   "title": "7I Reflection and rotation",
+   "description": "Find image points after reflections in the axes, rotations about a point and combinations of both.",
+   "questions": [
+    {
+     "id": "q1a",
+     "label": "1a",
+     "section": "Fluency",
+     "stem": "Shape $ABCD$ is reflected in the $y$-axis (the mirror line). Give the coordinates of each image point.",
+     "prompt": "$A'$",
+     "type": "point",
+     "answer": "(4,1)",
+     "stemFigure": {
+      "kind": "plane",
+      "x": [
+       -5,
+       5
+      ],
+      "y": [
+       -5,
+       5
+      ],
+      "points": {
+       "A": [
+        -4,
+        1
+       ],
+       "B": [
+        -1,
+        1
+       ],
+       "C": [
+        -1,
+        3
+       ],
+       "D": [
+        -3,
+        4
+       ]
+      },
+      "path": [
+       [
+        -4,
+        1
+       ],
+       [
+        -1,
+        1
+       ],
+       [
+        -1,
+        3
+       ],
+       [
+        -3,
+        4
+       ]
+      ],
+      "closed": true
+     },
+     "hint": "Type the coordinates in brackets, for example (2,-3)"
+    },
+    {
+     "id": "q1b",
+     "label": "1b",
+     "section": "Fluency",
+     "stem": "Shape $ABCD$ is reflected in the $y$-axis (the mirror line). Give the coordinates of each image point.",
+     "prompt": "$B'$",
+     "type": "point",
+     "answer": "(1,1)"
+    },
+    {
+     "id": "q1c",
+     "label": "1c",
+     "section": "Fluency",
+     "stem": "Shape $ABCD$ is reflected in the $y$-axis (the mirror line). Give the coordinates of each image point.",
+     "prompt": "$C'$",
+     "type": "point",
+     "answer": "(1,3)"
+    },
+    {
+     "id": "q1d",
+     "label": "1d",
+     "section": "Fluency",
+     "stem": "Shape $ABCD$ is reflected in the $y$-axis (the mirror line). Give the coordinates of each image point.",
+     "prompt": "$D'$",
+     "type": "point",
+     "answer": "(3,4)"
+    },
+    {
+     "id": "q2a",
+     "label": "2a",
+     "section": "Fluency",
+     "stem": "Each shape is reflected in the mirror line given. Give the coordinates of the image point asked for.",
+     "prompt": "Mirror line: the $y$-axis. Give the coordinates of $B'$.",
+     "type": "point",
+     "answer": "(2,4)",
+     "figure": {
+      "kind": "plane",
+      "x": [
+       -4,
+       4
+      ],
+      "y": [
+       -4,
+       4
+      ],
+      "points": {
+       "A": [
+        -4,
+        2
+       ],
+       "B": [
+        -2,
+        4
+       ],
+       "C": [
+        -1,
+        2
+       ],
+       "D": [
+        -2,
+        1
+       ]
+      },
+      "path": [
+       [
+        -4,
+        2
+       ],
+       [
+        -2,
+        4
+       ],
+       [
+        -1,
+        2
+       ],
+       [
+        -2,
+        1
+       ]
+      ],
+      "closed": true
+     },
+     "hint": "Type the coordinates in brackets, for example (2,-3)"
+    },
+    {
+     "id": "q2b",
+     "label": "2b",
+     "section": "Fluency",
+     "stem": "Each shape is reflected in the mirror line given. Give the coordinates of the image point asked for.",
+     "prompt": "Mirror line: the $y$-axis. Give the coordinates of $D'$.",
+     "type": "point",
+     "answer": "(-1,4)",
+     "figure": {
+      "kind": "plane",
+      "x": [
+       -4,
+       4
+      ],
+      "y": [
+       -4,
+       4
+      ],
+      "points": {
+       "A": [
+        1,
+        1
+       ],
+       "B": [
+        4,
+        1
+       ],
+       "C": [
+        3,
+        3
+       ],
+       "D": [
+        1,
+        4
+       ]
+      },
+      "path": [
+       [
+        1,
+        1
+       ],
+       [
+        4,
+        1
+       ],
+       [
+        3,
+        3
+       ],
+       [
+        1,
+        4
+       ]
+      ],
+      "closed": true
+     }
+    },
+    {
+     "id": "q2c",
+     "label": "2c",
+     "section": "Fluency",
+     "stem": "Each shape is reflected in the mirror line given. Give the coordinates of the image point asked for.",
+     "prompt": "Mirror line: the $y$-axis. Give the coordinates of $C'$.",
+     "type": "point",
+     "answer": "(-4,-4)",
+     "figure": {
+      "kind": "plane",
+      "x": [
+       -4,
+       4
+      ],
+      "y": [
+       -4,
+       4
+      ],
+      "points": {
+       "A": [
+        1,
+        -2
+       ],
+       "B": [
+        3,
+        -2
+       ],
+       "C": [
+        4,
+        -4
+       ],
+       "D": [
+        2,
+        -4
+       ]
+      },
+      "path": [
+       [
+        1,
+        -2
+       ],
+       [
+        3,
+        -2
+       ],
+       [
+        4,
+        -4
+       ],
+       [
+        2,
+        -4
+       ]
+      ],
+      "closed": true
+     }
+    },
+    {
+     "id": "q2d",
+     "label": "2d",
+     "section": "Fluency",
+     "stem": "Each shape is reflected in the mirror line given. Give the coordinates of the image point asked for.",
+     "prompt": "Mirror line: the $x$-axis. Give the coordinates of $C'$.",
+     "type": "point",
+     "answer": "(3,-4)",
+     "figure": {
+      "kind": "plane",
+      "x": [
+       -4,
+       4
+      ],
+      "y": [
+       -4,
+       4
+      ],
+      "points": {
+       "A": [
+        1,
+        1
+       ],
+       "B": [
+        1,
+        3
+       ],
+       "C": [
+        3,
+        4
+       ],
+       "D": [
+        4,
+        2
+       ]
+      },
+      "path": [
+       [
+        1,
+        1
+       ],
+       [
+        1,
+        3
+       ],
+       [
+        3,
+        4
+       ],
+       [
+        4,
+        2
+       ]
+      ],
+      "closed": true
+     }
+    },
+    {
+     "id": "q2e",
+     "label": "2e",
+     "section": "Fluency",
+     "stem": "Each shape is reflected in the mirror line given. Give the coordinates of the image point asked for.",
+     "prompt": "Mirror line: the $x$-axis. Give the coordinates of $D'$.",
+     "type": "point",
+     "answer": "(-4,3)",
+     "figure": {
+      "kind": "plane",
+      "x": [
+       -4,
+       4
+      ],
+      "y": [
+       -4,
+       4
+      ],
+      "points": {
+       "A": [
+        -4,
+        -2
+       ],
+       "B": [
+        -1,
+        -2
+       ],
+       "C": [
+        -2,
+        -4
+       ],
+       "D": [
+        -4,
+        -3
+       ]
+      },
+      "path": [
+       [
+        -4,
+        -2
+       ],
+       [
+        -1,
+        -2
+       ],
+       [
+        -2,
+        -4
+       ],
+       [
+        -4,
+        -3
+       ]
+      ],
+      "closed": true
+     }
+    },
+    {
+     "id": "q2f",
+     "label": "2f",
+     "section": "Fluency",
+     "stem": "Each shape is reflected in the mirror line given. Give the coordinates of the image point asked for.",
+     "prompt": "Mirror line: the $x$-axis. Give the coordinates of $B'$.",
+     "type": "point",
+     "answer": "(-2,-4)",
+     "figure": {
+      "kind": "plane",
+      "x": [
+       -4,
+       4
+      ],
+      "y": [
+       -4,
+       4
+      ],
+      "points": {
+       "A": [
+        -4,
+        3
+       ],
+       "B": [
+        -2,
+        4
+       ],
+       "C": [
+        -1,
+        2
+       ],
+       "D": [
+        -3,
+        1
+       ]
+      },
+      "path": [
+       [
+        -4,
+        3
+       ],
+       [
+        -2,
+        4
+       ],
+       [
+        -1,
+        2
+       ],
+       [
+        -3,
+        1
+       ]
+      ],
+      "closed": true
+     }
+    },
+    {
+     "id": "q3a",
+     "label": "3a",
+     "section": "Fluency",
+     "stem": "Point $A$ is rotated about the point $C(0, 0)$. Give the coordinates of the image point $A'$ for each rotation.",
+     "prompt": "90° anticlockwise",
+     "type": "point",
+     "answer": "(-2,4)",
+     "stemFigure": {
+      "kind": "plane",
+      "x": [
+       -5,
+       5
+      ],
+      "y": [
+       -5,
+       5
+      ],
+      "points": {
+       "A": [
+        4,
+        2
+       ],
+       "C": [
+        0,
+        0
+       ]
+      }
+     },
+     "hint": "Type the coordinates in brackets, for example (2,-3)"
+    },
+    {
+     "id": "q3b",
+     "label": "3b",
+     "section": "Fluency",
+     "stem": "Point $A$ is rotated about the point $C(0, 0)$. Give the coordinates of the image point $A'$ for each rotation.",
+     "prompt": "180° clockwise",
+     "type": "point",
+     "answer": "(-4,-2)"
+    },
+    {
+     "id": "q3c",
+     "label": "3c",
+     "section": "Fluency",
+     "stem": "Point $A$ is rotated about the point $C(0, 0)$. Give the coordinates of the image point $A'$ for each rotation.",
+     "prompt": "270° anticlockwise",
+     "type": "point",
+     "answer": "(2,-4)"
+    },
+    {
+     "id": "q3d",
+     "label": "3d",
+     "section": "Fluency",
+     "stem": "Point $A$ is rotated about the point $C(0, 0)$. Give the coordinates of the image point $A'$ for each rotation.",
+     "prompt": "90° clockwise",
+     "type": "point",
+     "answer": "(2,-4)"
+    },
+    {
+     "id": "q3e",
+     "label": "3e",
+     "section": "Fluency",
+     "stem": "Point $A$ is rotated about the point $C(0, 0)$. Give the coordinates of the image point $A'$ for each rotation.",
+     "prompt": "360° clockwise",
+     "type": "point",
+     "answer": "(4,2)"
+    },
+    {
+     "id": "q3f",
+     "label": "3f",
+     "section": "Fluency",
+     "stem": "Point $A$ is rotated about the point $C(0, 0)$. Give the coordinates of the image point $A'$ for each rotation.",
+     "prompt": "270° clockwise",
+     "type": "point",
+     "answer": "(-2,4)"
+    },
+    {
+     "id": "q4a",
+     "label": "4a",
+     "section": "Fluency",
+     "stem": "Shape $ABCD$ is rotated about the point $C$, which is one of its corners. Give the coordinates of the image point asked for.",
+     "prompt": "90° anticlockwise about $C$: give $A'$",
+     "type": "point",
+     "answer": "(-2,0)",
+     "stemFigure": {
+      "kind": "plane",
+      "x": [
+       -4,
+       4
+      ],
+      "y": [
+       -4,
+       4
+      ],
+      "points": {
+       "C": [
+        0,
+        0
+       ],
+       "A": [
+        0,
+        2
+       ],
+       "B": [
+        2,
+        3
+       ],
+       "D": [
+        3,
+        0
+       ]
+      },
+      "path": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2
+       ],
+       [
+        2,
+        3
+       ],
+       [
+        3,
+        0
+       ]
+      ],
+      "closed": true
+     },
+     "hint": "Type the coordinates in brackets, for example (2,-3)"
+    },
+    {
+     "id": "q4b",
+     "label": "4b",
+     "section": "Fluency",
+     "stem": "Shape $ABCD$ is rotated about the point $C$, which is one of its corners. Give the coordinates of the image point asked for.",
+     "prompt": "180° about $C$: give $B'$",
+     "type": "point",
+     "answer": "(-2,-3)"
+    },
+    {
+     "id": "q4c",
+     "label": "4c",
+     "section": "Fluency",
+     "stem": "Shape $ABCD$ is rotated about the point $C$, which is one of its corners. Give the coordinates of the image point asked for.",
+     "prompt": "90° clockwise about $C$: give $D'$",
+     "type": "point",
+     "answer": "(0,-3)"
+    },
+    {
+     "id": "q5a",
+     "label": "5a",
+     "section": "Fluency",
+     "stem": "Triangle $ABD$ is rotated about the point $C(0, 0)$. Give the coordinates of the image point asked for.",
+     "prompt": "90° anticlockwise about $C$: give $B'$",
+     "type": "point",
+     "answer": "(-3,1)",
+     "stemFigure": {
+      "kind": "plane",
+      "x": [
+       -4,
+       4
+      ],
+      "y": [
+       -4,
+       4
+      ],
+      "points": {
+       "A": [
+        1,
+        1
+       ],
+       "B": [
+        1,
+        3
+       ],
+       "D": [
+        3,
+        1
+       ],
+       "C": [
+        0,
+        0
+       ]
+      },
+      "path": [
+       [
+        1,
+        1
+       ],
+       [
+        1,
+        3
+       ],
+       [
+        3,
+        1
+       ]
+      ],
+      "closed": true
+     },
+     "hint": "Type the coordinates in brackets, for example (2,-3)"
+    },
+    {
+     "id": "q5b",
+     "label": "5b",
+     "section": "Fluency",
+     "stem": "Triangle $ABD$ is rotated about the point $C(0, 0)$. Give the coordinates of the image point asked for.",
+     "prompt": "180° about $C$: give $D'$",
+     "type": "point",
+     "answer": "(-3,-1)"
+    },
+    {
+     "id": "q5c",
+     "label": "5c",
+     "section": "Fluency",
+     "stem": "Triangle $ABD$ is rotated about the point $C(0, 0)$. Give the coordinates of the image point asked for.",
+     "prompt": "90° clockwise about $C$: give $A'$",
+     "type": "point",
+     "answer": "(1,-1)"
+    },
+    {
+     "id": "q6a",
+     "label": "6a",
+     "section": "Problem-solving",
+     "stem": "The green line on each grid is a mirror line at a $45^\\circ$ angle. The point shown is reflected in the mirror line. Give the coordinates of its image.",
+     "prompt": "Give the coordinates of $A'$.",
+     "type": "point",
+     "answer": "(3,1)",
+     "figure": {
+      "kind": "plane",
+      "x": [
+       0,
+       6
+      ],
+      "y": [
+       0,
+       6
+      ],
+      "points": {
+       "A": [
+        1,
+        3
+       ]
+      },
+      "path": [
+       [
+        0,
+        0
+       ],
+       [
+        6,
+        6
+       ]
+      ],
+      "closed": false
+     },
+     "hint": "Type the coordinates in brackets, for example (2,-3)"
+    },
+    {
+     "id": "q6b",
+     "label": "6b",
+     "section": "Problem-solving",
+     "stem": "The green line on each grid is a mirror line at a $45^\\circ$ angle. The point shown is reflected in the mirror line. Give the coordinates of its image.",
+     "prompt": "Give the coordinates of $B'$.",
+     "type": "point",
+     "answer": "(4,0)",
+     "figure": {
+      "kind": "plane",
+      "x": [
+       0,
+       6
+      ],
+      "y": [
+       0,
+       6
+      ],
+      "points": {
+       "B": [
+        0,
+        4
+       ]
+      },
+      "path": [
+       [
+        0,
+        0
+       ],
+       [
+        6,
+        6
+       ]
+      ],
+      "closed": false
+     }
+    },
+    {
+     "id": "q6c",
+     "label": "6c",
+     "section": "Problem-solving",
+     "stem": "The green line on each grid is a mirror line at a $45^\\circ$ angle. The point shown is reflected in the mirror line. Give the coordinates of its image.",
+     "prompt": "Give the coordinates of $C'$.",
+     "type": "point",
+     "answer": "(5,2)",
+     "figure": {
+      "kind": "plane",
+      "x": [
+       0,
+       6
+      ],
+      "y": [
+       0,
+       6
+      ],
+      "points": {
+       "C": [
+        2,
+        5
+       ]
+      },
+      "path": [
+       [
+        0,
+        0
+       ],
+       [
+        6,
+        6
+       ]
+      ],
+      "closed": false
+     }
+    },
+    {
+     "id": "q6d",
+     "label": "6d",
+     "section": "Problem-solving",
+     "stem": "The green line on each grid is a mirror line at a $45^\\circ$ angle. The point shown is reflected in the mirror line. Give the coordinates of its image.",
+     "prompt": "Give the coordinates of $D'$.",
+     "type": "point",
+     "answer": "(4,5)",
+     "figure": {
+      "kind": "plane",
+      "x": [
+       0,
+       6
+      ],
+      "y": [
+       0,
+       6
+      ],
+      "points": {
+       "D": [
+        1,
+        2
+       ]
+      },
+      "path": [
+       [
+        0,
+        6
+       ],
+       [
+        6,
+        0
+       ]
+      ],
+      "closed": false
+     }
+    },
+    {
+     "id": "q6e",
+     "label": "6e",
+     "section": "Problem-solving",
+     "stem": "The green line on each grid is a mirror line at a $45^\\circ$ angle. The point shown is reflected in the mirror line. Give the coordinates of its image.",
+     "prompt": "Give the coordinates of $E'$.",
+     "type": "point",
+     "answer": "(3,2)",
+     "figure": {
+      "kind": "plane",
+      "x": [
+       0,
+       6
+      ],
+      "y": [
+       0,
+       6
+      ],
+      "points": {
+       "E": [
+        4,
+        3
+       ]
+      },
+      "path": [
+       [
+        0,
+        6
+       ],
+       [
+        6,
+        0
+       ]
+      ],
+      "closed": false
+     }
+    },
+    {
+     "id": "q6f",
+     "label": "6f",
+     "section": "Problem-solving",
+     "stem": "The green line on each grid is a mirror line at a $45^\\circ$ angle. The point shown is reflected in the mirror line. Give the coordinates of its image.",
+     "prompt": "Give the coordinates of $F'$.",
+     "type": "point",
+     "answer": "(5,4)",
+     "figure": {
+      "kind": "plane",
+      "x": [
+       0,
+       6
+      ],
+      "y": [
+       0,
+       6
+      ],
+      "points": {
+       "F": [
+        2,
+        1
+       ]
+      },
+      "path": [
+       [
+        0,
+        6
+       ],
+       [
+        6,
+        0
+       ]
+      ],
+      "closed": false
+     }
+    },
+    {
+     "id": "q7",
+     "label": "7",
+     "section": "Problem-solving",
+     "prompt": "On the Cartesian plane, the point $P(4, -3)$ is reflected in the $x$-axis, and this image point is then reflected in the $y$-axis. What are the coordinates of the final image?",
+     "type": "point",
+     "answer": "(-4,3)",
+     "hint": "Type the coordinates in brackets, for example (2,-3)"
+    },
+    {
+     "id": "q8a",
+     "label": "8a",
+     "section": "Problem-solving",
+     "stem": "The point $B(3, 4)$ is rotated about the point $C(1, 2)$. Give the coordinates of the image point $B'$ for each rotation.",
+     "prompt": "180°",
+     "type": "point",
+     "answer": "(-1,0)",
+     "stemFigure": {
+      "kind": "plane",
+      "x": [
+       -3,
+       5
+      ],
+      "y": [
+       -2,
+       5
+      ],
+      "points": {
+       "B": [
+        3,
+        4
+       ],
+       "C": [
+        1,
+        2
+       ]
+      }
+     },
+     "hint": "Type the coordinates in brackets, for example (2,-3)"
+    },
+    {
+     "id": "q8b",
+     "label": "8b",
+     "section": "Problem-solving",
+     "stem": "The point $B(3, 4)$ is rotated about the point $C(1, 2)$. Give the coordinates of the image point $B'$ for each rotation.",
+     "prompt": "90° clockwise",
+     "type": "point",
+     "answer": "(3,0)"
+    },
+    {
+     "id": "q8c",
+     "label": "8c",
+     "section": "Problem-solving",
+     "stem": "The point $B(3, 4)$ is rotated about the point $C(1, 2)$. Give the coordinates of the image point $B'$ for each rotation.",
+     "prompt": "90° anticlockwise",
+     "type": "point",
+     "answer": "(-1,4)"
+    },
+    {
+     "id": "q9a",
+     "label": "9a",
+     "section": "Problem-solving",
+     "stem": "The shaded shape has been rotated about the point $C$ to give the unshaded shape. By how many degrees has it been rotated, and in which direction?",
+     "prompt": "Which rotation is shown?",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "90° clockwise",
+      "90° anticlockwise",
+      "180°",
+      "45° clockwise"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 30,
+      "items": [
+       {
+        "poly": [
+         [
+          1,
+          0
+         ],
+         [
+          3,
+          0
+         ],
+         [
+          3,
+          1
+         ],
+         [
+          2,
+          1
+         ],
+         [
+          2,
+          3
+         ],
+         [
+          1,
+          3
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          -1
+         ],
+         [
+          0,
+          -3
+         ],
+         [
+          1,
+          -3
+         ],
+         [
+          1,
+          -2
+         ],
+         [
+          3,
+          -2
+         ],
+         [
+          3,
+          -1
+         ]
+        ]
+       },
+       {
+        "arc": [
+         0,
+         0,
+         3.4,
+         -44.31,
+         21.69
+        ]
+       },
+       {
+        "seg": [
+         2.668,
+         -2.108,
+         2.433,
+         -2.375
+        ],
+        "arrow": "end"
+       },
+       {
+        "point": [
+         0,
+         0
+        ],
+        "name": "C",
+        "pos": "sw"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q9b",
+     "label": "9b",
+     "section": "Problem-solving",
+     "stem": "The shaded shape has been rotated about the point $C$ to give the unshaded shape. By how many degrees has it been rotated, and in which direction?",
+     "prompt": "Which rotation is shown?",
+     "type": "choice",
+     "answer": 2,
+     "options": [
+      "90° clockwise",
+      "90° anticlockwise",
+      "180°",
+      "45° clockwise"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 30,
+      "items": [
+       {
+        "poly": [
+         [
+          1,
+          1
+         ],
+         [
+          4,
+          1
+         ],
+         [
+          4,
+          2
+         ],
+         [
+          2,
+          3
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          -1,
+          -1
+         ],
+         [
+          -4,
+          -1
+         ],
+         [
+          -4,
+          -2
+         ],
+         [
+          -2,
+          -3
+         ]
+        ]
+       },
+       {
+        "arc": [
+         0,
+         0,
+         3,
+         44.47,
+         200.47
+        ]
+       },
+       {
+        "seg": [
+         -2.905,
+         -0.75,
+         -2.811,
+         -1.049
+        ],
+        "arrow": "end"
+       },
+       {
+        "point": [
+         0,
+         0
+        ],
+        "name": "C",
+        "pos": "sw"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q9c",
+     "label": "9c",
+     "section": "Problem-solving",
+     "stem": "The shaded shape has been rotated about the point $C$ to give the unshaded shape. By how many degrees has it been rotated, and in which direction?",
+     "prompt": "Which rotation is shown?",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "90° clockwise",
+      "90° anticlockwise",
+      "180°",
+      "45° clockwise"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 30,
+      "items": [
+       {
+        "poly": [
+         [
+          2,
+          -1
+         ],
+         [
+          3,
+          -1
+         ],
+         [
+          3,
+          -3
+         ],
+         [
+          1,
+          -3
+         ],
+         [
+          1,
+          -2
+         ],
+         [
+          2,
+          -2
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          1,
+          2
+         ],
+         [
+          1,
+          3
+         ],
+         [
+          3,
+          3
+         ],
+         [
+          3,
+          1
+         ],
+         [
+          2,
+          1
+         ],
+         [
+          2,
+          2
+         ]
+        ]
+       },
+       {
+        "arc": [
+         0,
+         0,
+         3.4,
+         -33,
+         33
+        ]
+       },
+       {
+        "seg": [
+         3.029,
+         1.544,
+         2.851,
+         1.852
+        ],
+        "arrow": "end"
+       },
+       {
+        "point": [
+         0,
+         0
+        ],
+        "name": "C",
+        "pos": "sw"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q11a",
+     "label": "11a",
+     "section": "Reasoning",
+     "stem": "Write the missing number of degrees.",
+     "prompt": "Rotating a point $90^\\circ$ anticlockwise is the same as rotating it ____ clockwise.",
+     "type": "numeric",
+     "answer": "270",
+     "units": "°"
+    },
+    {
+     "id": "q11b",
+     "label": "11b",
+     "section": "Reasoning",
+     "stem": "Write the missing number of degrees.",
+     "prompt": "Rotating a point $115^\\circ$ clockwise is the same as rotating it ____ anticlockwise.",
+     "type": "numeric",
+     "answer": "245",
+     "units": "°"
+    },
+    {
+     "id": "q11c",
+     "label": "11c",
+     "section": "Reasoning",
+     "stem": "Write the missing number of degrees.",
+     "prompt": "A point is rotated $450^\\circ$ anticlockwise. This is the same as rotating it ____ anticlockwise.",
+     "type": "numeric",
+     "answer": "90",
+     "units": "°"
+    },
+    {
+     "id": "q12a",
+     "label": "12a",
+     "section": "Reasoning",
+     "stem": "The point $S$ has coordinates $(-3, 4)$, and the point $T$ has coordinates $(-5, -2)$.",
+     "prompt": "Find the coordinates of the image point $S'$ after a rotation of $180^\\circ$ about $C(0, 0)$.",
+     "type": "point",
+     "answer": "(3,-4)",
+     "hint": "Type the coordinates in brackets, for example (2,-3)"
+    },
+    {
+     "id": "q12b",
+     "label": "12b",
+     "section": "Reasoning",
+     "stem": "The point $S$ has coordinates $(-3, 4)$, and the point $T$ has coordinates $(-5, -2)$.",
+     "prompt": "Find the coordinates of the image point $S'$ after a reflection in the $x$-axis followed by a reflection in the $y$-axis.",
+     "type": "point",
+     "answer": "(3,-4)"
+    },
+    {
+     "id": "q12c",
+     "label": "12c",
+     "section": "Reasoning",
+     "stem": "The point $S$ has coordinates $(-3, 4)$, and the point $T$ has coordinates $(-5, -2)$.",
+     "prompt": "What do you notice about your answers to parts a and b?",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "They are the same point",
+      "They are reflections of each other in the x-axis",
+      "One is a 90° rotation of the other"
+     ]
+    },
+    {
+     "id": "q12d",
+     "label": "12d",
+     "section": "Reasoning",
+     "stem": "The point $S$ has coordinates $(-3, 4)$, and the point $T$ has coordinates $(-5, -2)$.",
+     "prompt": "Test it on $T$: find $T'$ after a rotation of $180^\\circ$ about $C(0, 0)$.",
+     "type": "point",
+     "answer": "(5,2)"
+    },
+    {
+     "id": "q12e",
+     "label": "12e",
+     "section": "Reasoning",
+     "stem": "The point $S$ has coordinates $(-3, 4)$, and the point $T$ has coordinates $(-5, -2)$.",
+     "prompt": "Now find $T'$ after a reflection in the $x$-axis followed by a reflection in the $y$-axis.",
+     "type": "point",
+     "answer": "(5,2)"
+    }
+   ]
+  },
+  {
+   "id": "7j",
+   "chapter": "Chapter 7: Geometry",
+   "title": "7J Translation",
+   "description": "Translate points and shapes, describe translations and combine them with reflections and rotations.",
+   "questions": [
+    {
+     "id": "q1a",
+     "label": "1a",
+     "section": "Fluency",
+     "stem": "Triangle $ABC$ is translated 4 units right and 1 unit up. Give the coordinates of each image point.",
+     "prompt": "$A'$",
+     "type": "point",
+     "answer": "(5,2)",
+     "stemFigure": {
+      "kind": "plane",
+      "x": [
+       0,
+       8
+      ],
+      "y": [
+       0,
+       6
+      ],
+      "points": {
+       "A": [
+        1,
+        1
+       ],
+       "B": [
+        1,
+        4
+       ],
+       "C": [
+        3,
+        1
+       ]
+      },
+      "path": [
+       [
+        1,
+        1
+       ],
+       [
+        1,
+        4
+       ],
+       [
+        3,
+        1
+       ]
+      ],
+      "closed": true
+     },
+     "hint": "Type the coordinates in brackets, for example (2,-3)"
+    },
+    {
+     "id": "q1b",
+     "label": "1b",
+     "section": "Fluency",
+     "stem": "Triangle $ABC$ is translated 4 units right and 1 unit up. Give the coordinates of each image point.",
+     "prompt": "$B'$",
+     "type": "point",
+     "answer": "(5,5)"
+    },
+    {
+     "id": "q1c",
+     "label": "1c",
+     "section": "Fluency",
+     "stem": "Triangle $ABC$ is translated 4 units right and 1 unit up. Give the coordinates of each image point.",
+     "prompt": "$C'$",
+     "type": "point",
+     "answer": "(7,2)"
+    },
+    {
+     "id": "q2a",
+     "label": "2a",
+     "section": "Fluency",
+     "stem": "Each shape is translated as described. Give the coordinates of the image point asked for.",
+     "prompt": "Translate 2 units right and 3 units up. Give the coordinates of $C'$.",
+     "type": "point",
+     "answer": "(3,6)",
+     "figure": {
+      "kind": "plane",
+      "x": [
+       0,
+       8
+      ],
+      "y": [
+       0,
+       7
+      ],
+      "points": {
+       "A": [
+        1,
+        1
+       ],
+       "B": [
+        4,
+        1
+       ],
+       "C": [
+        1,
+        3
+       ]
+      },
+      "path": [
+       [
+        1,
+        1
+       ],
+       [
+        4,
+        1
+       ],
+       [
+        1,
+        3
+       ]
+      ],
+      "closed": true
+     },
+     "hint": "Type the coordinates in brackets, for example (2,-3)"
+    },
+    {
+     "id": "q2b",
+     "label": "2b",
+     "section": "Fluency",
+     "stem": "Each shape is translated as described. Give the coordinates of the image point asked for.",
+     "prompt": "Translate 4 units left and 1 unit down. Give the coordinates of $A'$.",
+     "type": "point",
+     "answer": "(1,4)",
+     "figure": {
+      "kind": "plane",
+      "x": [
+       0,
+       8
+      ],
+      "y": [
+       0,
+       7
+      ],
+      "points": {
+       "A": [
+        5,
+        5
+       ],
+       "B": [
+        7,
+        2
+       ]
+      },
+      "path": [
+       [
+        5,
+        2
+       ],
+       [
+        7,
+        2
+       ],
+       [
+        7,
+        3
+       ],
+       [
+        6,
+        3
+       ],
+       [
+        6,
+        5
+       ],
+       [
+        5,
+        5
+       ]
+      ],
+      "closed": true
+     }
+    },
+    {
+     "id": "q2c",
+     "label": "2c",
+     "section": "Fluency",
+     "stem": "Each shape is translated as described. Give the coordinates of the image point asked for.",
+     "prompt": "Translate 1 unit right and 3 units down. Give the coordinates of $D'$.",
+     "type": "point",
+     "answer": "(4,3)",
+     "figure": {
+      "kind": "plane",
+      "x": [
+       0,
+       8
+      ],
+      "y": [
+       0,
+       7
+      ],
+      "points": {
+       "A": [
+        2,
+        4
+       ],
+       "B": [
+        4,
+        4
+       ],
+       "C": [
+        5,
+        6
+       ],
+       "D": [
+        3,
+        6
+       ]
+      },
+      "path": [
+       [
+        2,
+        4
+       ],
+       [
+        4,
+        4
+       ],
+       [
+        5,
+        6
+       ],
+       [
+        3,
+        6
+       ]
+      ],
+      "closed": true
+     }
+    },
+    {
+     "id": "q2d",
+     "label": "2d",
+     "section": "Fluency",
+     "stem": "Each shape is translated as described. Give the coordinates of the image point asked for.",
+     "prompt": "Translate 3 units left and 2 units up. Give the coordinates of $C'$.",
+     "type": "point",
+     "answer": "(4,4)",
+     "figure": {
+      "kind": "plane",
+      "x": [
+       0,
+       8
+      ],
+      "y": [
+       0,
+       7
+      ],
+      "points": {
+       "A": [
+        5,
+        2
+       ],
+       "B": [
+        6,
+        1
+       ],
+       "C": [
+        7,
+        2
+       ],
+       "D": [
+        7,
+        4
+       ],
+       "E": [
+        5,
+        4
+       ]
+      },
+      "path": [
+       [
+        5,
+        2
+       ],
+       [
+        6,
+        1
+       ],
+       [
+        7,
+        2
+       ],
+       [
+        7,
+        4
+       ],
+       [
+        5,
+        4
+       ]
+      ],
+      "closed": true
+     }
+    },
+    {
+     "id": "q3a",
+     "label": "3a",
+     "section": "Fluency",
+     "stem": "Point $A$ has coordinates $(1, -2)$. Write the coordinates of the image point $A'$ when $A$ is translated:",
+     "prompt": "4 units right",
+     "type": "point",
+     "answer": "(5,-2)",
+     "stemFigure": {
+      "kind": "plane",
+      "x": [
+       -5,
+       5
+      ],
+      "y": [
+       -5,
+       5
+      ],
+      "points": {
+       "A": [
+        1,
+        -2
+       ]
+      }
+     },
+     "hint": "Type the coordinates in brackets, for example (2,-3)"
+    },
+    {
+     "id": "q3b",
+     "label": "3b",
+     "section": "Fluency",
+     "stem": "Point $A$ has coordinates $(1, -2)$. Write the coordinates of the image point $A'$ when $A$ is translated:",
+     "prompt": "3 units left",
+     "type": "point",
+     "answer": "(-2,-2)"
+    },
+    {
+     "id": "q3c",
+     "label": "3c",
+     "section": "Fluency",
+     "stem": "Point $A$ has coordinates $(1, -2)$. Write the coordinates of the image point $A'$ when $A$ is translated:",
+     "prompt": "1 unit down",
+     "type": "point",
+     "answer": "(1,-3)"
+    },
+    {
+     "id": "q3d",
+     "label": "3d",
+     "section": "Fluency",
+     "stem": "Point $A$ has coordinates $(1, -2)$. Write the coordinates of the image point $A'$ when $A$ is translated:",
+     "prompt": "4 units up",
+     "type": "point",
+     "answer": "(1,2)"
+    },
+    {
+     "id": "q3e",
+     "label": "3e",
+     "section": "Fluency",
+     "stem": "Point $A$ has coordinates $(1, -2)$. Write the coordinates of the image point $A'$ when $A$ is translated:",
+     "prompt": "6 units left",
+     "type": "point",
+     "answer": "(-5,-2)"
+    },
+    {
+     "id": "q3f",
+     "label": "3f",
+     "section": "Fluency",
+     "stem": "Point $A$ has coordinates $(1, -2)$. Write the coordinates of the image point $A'$ when $A$ is translated:",
+     "prompt": "7 units down",
+     "type": "point",
+     "answer": "(1,-9)"
+    },
+    {
+     "id": "q3g",
+     "label": "3g",
+     "section": "Fluency",
+     "stem": "Point $A$ has coordinates $(1, -2)$. Write the coordinates of the image point $A'$ when $A$ is translated:",
+     "prompt": "2 units right and 3 units up",
+     "type": "point",
+     "answer": "(3,1)"
+    },
+    {
+     "id": "q3h",
+     "label": "3h",
+     "section": "Fluency",
+     "stem": "Point $A$ has coordinates $(1, -2)$. Write the coordinates of the image point $A'$ when $A$ is translated:",
+     "prompt": "5 units left and 1 unit up",
+     "type": "point",
+     "answer": "(-4,-1)"
+    },
+    {
+     "id": "q3i",
+     "label": "3i",
+     "section": "Fluency",
+     "stem": "Point $A$ has coordinates $(1, -2)$. Write the coordinates of the image point $A'$ when $A$ is translated:",
+     "prompt": "3 units right and 4 units down",
+     "type": "point",
+     "answer": "(4,-6)"
+    },
+    {
+     "id": "q3j",
+     "label": "3j",
+     "section": "Fluency",
+     "stem": "Point $A$ has coordinates $(1, -2)$. Write the coordinates of the image point $A'$ when $A$ is translated:",
+     "prompt": "2 units left and 2 units down",
+     "type": "point",
+     "answer": "(-1,-4)"
+    },
+    {
+     "id": "q3k",
+     "label": "3k",
+     "section": "Fluency",
+     "stem": "Point $A$ has coordinates $(1, -2)$. Write the coordinates of the image point $A'$ when $A$ is translated:",
+     "prompt": "6 units right and 5 units up",
+     "type": "point",
+     "answer": "(7,3)"
+    },
+    {
+     "id": "q3l",
+     "label": "3l",
+     "section": "Fluency",
+     "stem": "Point $A$ has coordinates $(1, -2)$. Write the coordinates of the image point $A'$ when $A$ is translated:",
+     "prompt": "4 units left and 3 units down",
+     "type": "point",
+     "answer": "(-3,-5)"
+    },
+    {
+     "id": "q4a",
+     "label": "4a",
+     "section": "Fluency",
+     "stem": "Each point is translated to its image. Which description of the translation is correct?",
+     "prompt": "$A(2, 1)$ is translated to $A'(2, 5)$.",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "4 units up",
+      "4 units left",
+      "4 units right",
+      "4 units down"
+     ]
+    },
+    {
+     "id": "q4b",
+     "label": "4b",
+     "section": "Fluency",
+     "stem": "Each point is translated to its image. Which description of the translation is correct?",
+     "prompt": "$B(3, 6)$ is translated to $B'(3, 1)$.",
+     "type": "choice",
+     "answer": 2,
+     "options": [
+      "5 units right",
+      "5 units left",
+      "5 units down",
+      "5 units up"
+     ]
+    },
+    {
+     "id": "q4c",
+     "label": "4c",
+     "section": "Fluency",
+     "stem": "Each point is translated to its image. Which description of the translation is correct?",
+     "prompt": "$C(-2, 4)$ is translated to $C'(-2, -3)$.",
+     "type": "choice",
+     "answer": 2,
+     "options": [
+      "7 units right",
+      "7 units up",
+      "7 units down",
+      "7 units left"
+     ]
+    },
+    {
+     "id": "q4d",
+     "label": "4d",
+     "section": "Fluency",
+     "stem": "Each point is translated to its image. Which description of the translation is correct?",
+     "prompt": "$D(-3, -5)$ is translated to $D'(-3, -1)$.",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "4 units up",
+      "4 units down",
+      "4 units right",
+      "4 units left"
+     ]
+    },
+    {
+     "id": "q4e",
+     "label": "4e",
+     "section": "Fluency",
+     "stem": "Each point is translated to its image. Which description of the translation is correct?",
+     "prompt": "$E(5, 2)$ is translated to $E'(1, 2)$.",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "4 units left",
+      "4 units right",
+      "4 units down",
+      "4 units up"
+     ]
+    },
+    {
+     "id": "q4f",
+     "label": "4f",
+     "section": "Fluency",
+     "stem": "Each point is translated to its image. Which description of the translation is correct?",
+     "prompt": "$F(-3, -2)$ is translated to $F'(3, -2)$.",
+     "type": "choice",
+     "answer": 2,
+     "options": [
+      "6 units down",
+      "6 units left",
+      "6 units right",
+      "6 units up"
+     ]
+    },
+    {
+     "id": "q4g",
+     "label": "4g",
+     "section": "Fluency",
+     "stem": "Each point is translated to its image. Which description of the translation is correct?",
+     "prompt": "$G(0, 0)$ is translated to $G'(2, -3)$.",
+     "type": "choice",
+     "answer": 2,
+     "options": [
+      "2 units right and 3 units up",
+      "2 units left and 3 units down",
+      "2 units right and 3 units down",
+      "2 units left and 3 units up"
+     ]
+    },
+    {
+     "id": "q4h",
+     "label": "4h",
+     "section": "Fluency",
+     "stem": "Each point is translated to its image. Which description of the translation is correct?",
+     "prompt": "$H(-2, 1)$ is translated to $H'(1, 4)$.",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "3 units right and 3 units up",
+      "3 units left and 3 units up",
+      "3 units right and 3 units down",
+      "3 units left and 3 units down"
+     ]
+    },
+    {
+     "id": "q4i",
+     "label": "4i",
+     "section": "Fluency",
+     "stem": "Each point is translated to its image. Which description of the translation is correct?",
+     "prompt": "$I(-4, 6)$ is translated to $I'(1, 2)$.",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "5 units right and 4 units down",
+      "5 units left and 4 units up",
+      "5 units right and 4 units up",
+      "5 units left and 4 units down"
+     ]
+    },
+    {
+     "id": "q4j",
+     "label": "4j",
+     "section": "Fluency",
+     "stem": "Each point is translated to its image. Which description of the translation is correct?",
+     "prompt": "$J(3, -2)$ is translated to $J'(-2, 5)$.",
+     "type": "choice",
+     "answer": 2,
+     "options": [
+      "5 units left and 7 units down",
+      "5 units right and 7 units down",
+      "5 units left and 7 units up",
+      "5 units right and 7 units up"
+     ]
+    },
+    {
+     "id": "q4k",
+     "label": "4k",
+     "section": "Fluency",
+     "stem": "Each point is translated to its image. Which description of the translation is correct?",
+     "prompt": "$K(-6, 3)$ is translated to $K'(4, -2)$.",
+     "type": "choice",
+     "answer": 2,
+     "options": [
+      "10 units right and 5 units up",
+      "10 units left and 5 units down",
+      "10 units right and 5 units down",
+      "10 units left and 5 units up"
+     ]
+    },
+    {
+     "id": "q4l",
+     "label": "4l",
+     "section": "Fluency",
+     "stem": "Each point is translated to its image. Which description of the translation is correct?",
+     "prompt": "$L(7, 9)$ is translated to $L'(-3, -4)$.",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "10 units left and 13 units down",
+      "10 units right and 13 units down",
+      "10 units left and 13 units up",
+      "10 units right and 13 units up"
+     ]
+    },
+    {
+     "id": "q5a",
+     "label": "5a",
+     "section": "Problem-solving",
+     "stem": "A point is translated to its image. Which translation takes the image back to the starting point (the reverse translation)?",
+     "prompt": "$A(1, 4)$ and $A'(3, 1)$",
+     "type": "choice",
+     "answer": 2,
+     "options": [
+      "2 units left and 3 units down",
+      "2 units right and 3 units down",
+      "2 units left and 3 units up",
+      "2 units right and 3 units up"
+     ]
+    },
+    {
+     "id": "q5b",
+     "label": "5b",
+     "section": "Problem-solving",
+     "stem": "A point is translated to its image. Which translation takes the image back to the starting point (the reverse translation)?",
+     "prompt": "$B(0, 5)$ and $B'(5, 0)$",
+     "type": "choice",
+     "answer": 2,
+     "options": [
+      "5 units left and 5 units down",
+      "5 units right and 5 units up",
+      "5 units left and 5 units up",
+      "5 units right and 5 units down"
+     ]
+    },
+    {
+     "id": "q5c",
+     "label": "5c",
+     "section": "Problem-solving",
+     "stem": "A point is translated to its image. Which translation takes the image back to the starting point (the reverse translation)?",
+     "prompt": "$C(0, -2)$ and $C'(-3, 1)$",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "3 units right and 3 units down",
+      "3 units left and 3 units down",
+      "3 units right and 3 units up",
+      "3 units left and 3 units up"
+     ]
+    },
+    {
+     "id": "q5d",
+     "label": "5d",
+     "section": "Problem-solving",
+     "stem": "A point is translated to its image. Which translation takes the image back to the starting point (the reverse translation)?",
+     "prompt": "$D(3, 7)$ and $D'(-1, 5)$",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "4 units right and 2 units up",
+      "4 units left and 2 units down",
+      "4 units right and 2 units down",
+      "4 units left and 2 units up"
+     ]
+    },
+    {
+     "id": "q6a",
+     "label": "6a",
+     "section": "Problem-solving",
+     "stem": "Only moves of $1$ unit left, right, up or down along the dots are allowed, and no dot can be visited more than once. How many different paths are there from $A$ to $B$?",
+     "prompt": "A grid of $2$ rows with $4$ dots in each row.",
+     "type": "numeric",
+     "answer": "8",
+     "figure": {
+      "kind": "diagram",
+      "unit": 44,
+      "items": [
+       {
+        "point": [
+         0,
+         0
+        ],
+        "name": "A",
+        "pos": "sw"
+       },
+       {
+        "point": [
+         0,
+         1
+        ]
+       },
+       {
+        "point": [
+         1,
+         0
+        ]
+       },
+       {
+        "point": [
+         1,
+         1
+        ]
+       },
+       {
+        "point": [
+         2,
+         0
+        ]
+       },
+       {
+        "point": [
+         2,
+         1
+        ]
+       },
+       {
+        "point": [
+         3,
+         0
+        ]
+       },
+       {
+        "point": [
+         3,
+         1
+        ],
+        "name": "B",
+        "pos": "ne"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q6b",
+     "label": "6b",
+     "section": "Problem-solving",
+     "stem": "Only moves of $1$ unit left, right, up or down along the dots are allowed, and no dot can be visited more than once. How many different paths are there from $A$ to $B$?",
+     "prompt": "A grid of $3$ rows with $4$ dots in each row.",
+     "type": "numeric",
+     "answer": "38",
+     "figure": {
+      "kind": "diagram",
+      "unit": 44,
+      "items": [
+       {
+        "point": [
+         0,
+         0
+        ],
+        "name": "A",
+        "pos": "sw"
+       },
+       {
+        "point": [
+         0,
+         1
+        ]
+       },
+       {
+        "point": [
+         0,
+         2
+        ]
+       },
+       {
+        "point": [
+         1,
+         0
+        ]
+       },
+       {
+        "point": [
+         1,
+         1
+        ]
+       },
+       {
+        "point": [
+         1,
+         2
+        ]
+       },
+       {
+        "point": [
+         2,
+         0
+        ]
+       },
+       {
+        "point": [
+         2,
+         1
+        ]
+       },
+       {
+        "point": [
+         2,
+         2
+        ]
+       },
+       {
+        "point": [
+         3,
+         0
+        ]
+       },
+       {
+        "point": [
+         3,
+         1
+        ]
+       },
+       {
+        "point": [
+         3,
+         2
+        ],
+        "name": "B",
+        "pos": "ne"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q7",
+     "label": "7",
+     "section": "Problem-solving",
+     "prompt": "Starting at $(0, 0)$, you may translate a point left, right, up or down, in whole numbers of units, with at most $4$ units in total. How many different points can you reach? Do not count $(0, 0)$.",
+     "type": "numeric",
+     "answer": "40"
+    },
+    {
+     "id": "q9a",
+     "label": "9a",
+     "section": "Reasoning",
+     "stem": "Which single translation replaces each pair of translations?",
+     "prompt": "$(2, 1)$ is translated 3 units left and 2 units up, then 6 units right and 4 units down.",
+     "type": "choice",
+     "answer": 2,
+     "options": [
+      "3 units right and 2 units up",
+      "3 units left and 2 units down",
+      "3 units right and 2 units down",
+      "3 units left and 2 units up"
+     ]
+    },
+    {
+     "id": "q9b",
+     "label": "9b",
+     "section": "Reasoning",
+     "stem": "Which single translation replaces each pair of translations?",
+     "prompt": "$(-4, 3)$ is translated 2 units right and 5 units up, then 4 units right and 1 unit down.",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "6 units right and 4 units up",
+      "6 units left and 4 units up",
+      "6 units right and 4 units down",
+      "6 units left and 4 units down"
+     ]
+    },
+    {
+     "id": "q9c",
+     "label": "9c",
+     "section": "Reasoning",
+     "stem": "Which single translation replaces each pair of translations?",
+     "prompt": "$(5, -1)$ is translated 1 unit left and 3 units down, then 4 units left and 5 units up.",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "5 units left and 2 units up",
+      "5 units right and 2 units down",
+      "5 units left and 2 units down",
+      "5 units right and 2 units up"
+     ]
+    },
+    {
+     "id": "q9d",
+     "label": "9d",
+     "section": "Reasoning",
+     "stem": "Which single translation replaces each pair of translations?",
+     "prompt": "$(0, -3)$ is translated 6 units left and 2 units down, then 3 units right and 7 units up.",
+     "type": "choice",
+     "answer": 2,
+     "options": [
+      "3 units left and 5 units down",
+      "3 units right and 5 units down",
+      "3 units left and 5 units up",
+      "3 units right and 5 units up"
+     ]
+    },
+    {
+     "id": "q10a",
+     "label": "10a",
+     "section": "Enrichment",
+     "stem": "Write the coordinates of the final image point. Apply each step to the image from the step before.",
+     "prompt": "Start at $(3, 1)$: reflect in the $x$-axis, then reflect in the $y$-axis, then translate 3 units left and 1 unit up.",
+     "type": "point",
+     "answer": "(-6,0)",
+     "hint": "Type the coordinates in brackets, for example (2,-3)"
+    },
+    {
+     "id": "q10b",
+     "label": "10b",
+     "section": "Enrichment",
+     "stem": "Write the coordinates of the final image point. Apply each step to the image from the step before.",
+     "prompt": "Start at $(-2, 5)$: translate 4 units right and 2 units down, then reflect in the $y$-axis, then reflect in the $x$-axis.",
+     "type": "point",
+     "answer": "(-2,-3)"
+    },
+    {
+     "id": "q10c",
+     "label": "10c",
+     "section": "Enrichment",
+     "stem": "Write the coordinates of the final image point. Apply each step to the image from the step before.",
+     "prompt": "Start at $(-3, 4)$: rotate $180^\\circ$ about $(0, 0)$, then reflect in the $y$-axis, then translate 2 units left and 3 units up.",
+     "type": "point",
+     "answer": "(-5,-1)"
+    },
+    {
+     "id": "q10d",
+     "label": "10d",
+     "section": "Enrichment",
+     "stem": "Write the coordinates of the final image point. Apply each step to the image from the step before.",
+     "prompt": "Start at $(-2, -5)$: rotate $90^\\circ$ clockwise about $(0, 0)$, then reflect in the $x$-axis, then translate 4 units left and 3 units down.",
+     "type": "point",
+     "answer": "(-9,-5)"
+    },
+    {
+     "id": "q10e",
+     "label": "10e",
+     "section": "Enrichment",
+     "stem": "Write the coordinates of the final image point. Apply each step to the image from the step before.",
+     "prompt": "Start at $(-3, 6)$: rotate $90^\\circ$ anticlockwise about $(0, 0)$, then translate 2 units right and 5 units up, then reflect in the $x$-axis, then reflect in the $y$-axis.",
+     "type": "point",
+     "answer": "(4,-2)"
+    }
+   ]
+  },
+  {
+   "id": "7k",
+   "chapter": "Chapter 7: Geometry",
+   "title": "7K Drawing solids",
+   "description": "Recognise drawings of solids, count faces, edges, vertices and cubes, and match solids with their views.",
+   "questions": [
+    {
+     "id": "q1",
+     "label": "1",
+     "section": "Fluency",
+     "prompt": "How many edges does this triangular prism have?",
+     "type": "numeric",
+     "answer": "9",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "poly": [
+         [
+          2,
+          0
+         ],
+         [
+          1,
+          1.6
+         ],
+         [
+          2.6,
+          2.72
+         ],
+         [
+          3.6,
+          1.12
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          2,
+          0
+         ],
+         [
+          1,
+          1.6
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         1.6,
+         1.12,
+         3.6,
+         1.12
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         2.6,
+         2.72,
+         1.6,
+         1.12
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         1.6,
+         1.12
+        ],
+        "dash": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2a",
+     "label": "2a",
+     "section": "Fluency",
+     "stem": "Name each solid.",
+     "prompt": "What is the name of this solid?",
+     "type": "choice",
+     "answer": 2,
+     "options": [
+      "cube",
+      "rectangular prism",
+      "triangular prism",
+      "square-based pyramid",
+      "triangular pyramid (tetrahedron)",
+      "cylinder",
+      "cone"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "poly": [
+         [
+          2.2,
+          0
+         ],
+         [
+          0,
+          1.5
+         ],
+         [
+          1.3,
+          2.41
+         ],
+         [
+          3.5,
+          0.91
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          2.2,
+          0
+         ],
+         [
+          0,
+          1.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         1.3,
+         0.91,
+         3.5,
+         0.91
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         1.3,
+         2.41,
+         1.3,
+         0.91
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         1.3,
+         0.91
+        ],
+        "dash": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2b",
+     "label": "2b",
+     "section": "Fluency",
+     "stem": "Name each solid.",
+     "prompt": "What is the name of this solid?",
+     "type": "choice",
+     "answer": 6,
+     "options": [
+      "cube",
+      "rectangular prism",
+      "triangular prism",
+      "square-based pyramid",
+      "triangular pyramid (tetrahedron)",
+      "cylinder",
+      "cone"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          -1.3,
+          0
+         ],
+         [
+          -1.289,
+          -0.052
+         ],
+         [
+          -1.256,
+          -0.104
+         ],
+         [
+          -1.201,
+          -0.153
+         ],
+         [
+          -1.126,
+          -0.2
+         ],
+         [
+          -1.031,
+          -0.244
+         ],
+         [
+          -0.919,
+          -0.283
+         ],
+         [
+          -0.791,
+          -0.317
+         ],
+         [
+          -0.65,
+          -0.346
+         ],
+         [
+          -0.497,
+          -0.37
+         ],
+         [
+          -0.336,
+          -0.386
+         ],
+         [
+          -0.17,
+          -0.397
+         ],
+         [
+          0,
+          -0.4
+         ],
+         [
+          0.17,
+          -0.397
+         ],
+         [
+          0.336,
+          -0.386
+         ],
+         [
+          0.497,
+          -0.37
+         ],
+         [
+          0.65,
+          -0.346
+         ],
+         [
+          0.791,
+          -0.317
+         ],
+         [
+          0.919,
+          -0.283
+         ],
+         [
+          1.031,
+          -0.244
+         ],
+         [
+          1.126,
+          -0.2
+         ],
+         [
+          1.201,
+          -0.153
+         ],
+         [
+          1.256,
+          -0.104
+         ],
+         [
+          1.289,
+          -0.052
+         ],
+         [
+          1.3,
+          0
+         ]
+        ],
+        "open": true
+       },
+       {
+        "seg": [
+         1.3,
+         0,
+         1.201,
+         0.153
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         1.201,
+         0.153,
+         0.919,
+         0.283
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         0.919,
+         0.283,
+         0.497,
+         0.37
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         0.497,
+         0.37,
+         0,
+         0.4
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         0,
+         0.4,
+         -0.497,
+         0.37
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         -0.497,
+         0.37,
+         -0.919,
+         0.283
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         -0.919,
+         0.283,
+         -1.201,
+         0.153
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         -1.201,
+         0.153,
+         -1.3,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         -1.3,
+         0,
+         0,
+         2.8
+        ]
+       },
+       {
+        "seg": [
+         1.3,
+         0,
+         0,
+         2.8
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2c",
+     "label": "2c",
+     "section": "Fluency",
+     "stem": "Name each solid.",
+     "prompt": "What is the name of this solid?",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "cube",
+      "rectangular prism",
+      "triangular prism",
+      "square-based pyramid",
+      "triangular pyramid (tetrahedron)",
+      "cylinder",
+      "cone"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "poly": [
+         [
+          3,
+          0
+         ],
+         [
+          3,
+          1.4
+         ],
+         [
+          3.8,
+          1.96
+         ],
+         [
+          3.8,
+          0.56
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          3,
+          1.4
+         ],
+         [
+          0,
+          1.4
+         ],
+         [
+          0.8,
+          1.96
+         ],
+         [
+          3.8,
+          1.96
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          3,
+          0
+         ],
+         [
+          3,
+          1.4
+         ],
+         [
+          0,
+          1.4
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0.8,
+         0.56,
+         3.8,
+         0.56
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         0.8,
+         1.96,
+         0.8,
+         0.56
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         0.8,
+         0.56
+        ],
+        "dash": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2d",
+     "label": "2d",
+     "section": "Fluency",
+     "stem": "Name each solid.",
+     "prompt": "What is the name of this solid?",
+     "type": "choice",
+     "answer": 3,
+     "options": [
+      "cube",
+      "rectangular prism",
+      "triangular prism",
+      "square-based pyramid",
+      "triangular pyramid (tetrahedron)",
+      "cylinder",
+      "cone"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         2.4,
+         0
+        ]
+       },
+       {
+        "seg": [
+         2.4,
+         0,
+         3.24,
+         0.588
+        ]
+       },
+       {
+        "seg": [
+         3.24,
+         0.588,
+         0.84,
+         0.588
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         0.84,
+         0.588,
+         0,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         1.62,
+         2.494,
+         0,
+         0
+        ]
+       },
+       {
+        "seg": [
+         1.62,
+         2.494,
+         2.4,
+         0
+        ]
+       },
+       {
+        "seg": [
+         1.62,
+         2.494,
+         3.24,
+         0.588
+        ]
+       },
+       {
+        "seg": [
+         1.62,
+         2.494,
+         0.84,
+         0.588
+        ],
+        "dash": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2e",
+     "label": "2e",
+     "section": "Fluency",
+     "stem": "Name each solid.",
+     "prompt": "What is the name of this solid?",
+     "type": "choice",
+     "answer": 5,
+     "options": [
+      "cube",
+      "rectangular prism",
+      "triangular prism",
+      "square-based pyramid",
+      "triangular pyramid (tetrahedron)",
+      "cylinder",
+      "cone"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          1.1,
+          2.4
+         ],
+         [
+          1.083,
+          2.461
+         ],
+         [
+          1.034,
+          2.52
+         ],
+         [
+          0.953,
+          2.575
+         ],
+         [
+          0.843,
+          2.625
+         ],
+         [
+          0.707,
+          2.668
+         ],
+         [
+          0.55,
+          2.703
+         ],
+         [
+          0.376,
+          2.729
+         ],
+         [
+          0.191,
+          2.745
+         ],
+         [
+          0,
+          2.75
+         ],
+         [
+          -0.191,
+          2.745
+         ],
+         [
+          -0.376,
+          2.729
+         ],
+         [
+          -0.55,
+          2.703
+         ],
+         [
+          -0.707,
+          2.668
+         ],
+         [
+          -0.843,
+          2.625
+         ],
+         [
+          -0.953,
+          2.575
+         ],
+         [
+          -1.034,
+          2.52
+         ],
+         [
+          -1.083,
+          2.461
+         ],
+         [
+          -1.1,
+          2.4
+         ],
+         [
+          -1.083,
+          2.339
+         ],
+         [
+          -1.034,
+          2.28
+         ],
+         [
+          -0.953,
+          2.225
+         ],
+         [
+          -0.843,
+          2.175
+         ],
+         [
+          -0.707,
+          2.132
+         ],
+         [
+          -0.55,
+          2.097
+         ],
+         [
+          -0.376,
+          2.071
+         ],
+         [
+          -0.191,
+          2.055
+         ],
+         [
+          0,
+          2.05
+         ],
+         [
+          0.191,
+          2.055
+         ],
+         [
+          0.376,
+          2.071
+         ],
+         [
+          0.55,
+          2.097
+         ],
+         [
+          0.707,
+          2.132
+         ],
+         [
+          0.843,
+          2.175
+         ],
+         [
+          0.953,
+          2.225
+         ],
+         [
+          1.034,
+          2.28
+         ],
+         [
+          1.083,
+          2.339
+         ],
+         [
+          1.1,
+          2.4
+         ]
+        ]
+       },
+       {
+        "poly": [
+         [
+          -1.1,
+          0
+         ],
+         [
+          -1.091,
+          -0.046
+         ],
+         [
+          -1.063,
+          -0.091
+         ],
+         [
+          -1.016,
+          -0.134
+         ],
+         [
+          -0.953,
+          -0.175
+         ],
+         [
+          -0.873,
+          -0.213
+         ],
+         [
+          -0.778,
+          -0.247
+         ],
+         [
+          -0.67,
+          -0.278
+         ],
+         [
+          -0.55,
+          -0.303
+         ],
+         [
+          -0.421,
+          -0.323
+         ],
+         [
+          -0.285,
+          -0.338
+         ],
+         [
+          -0.144,
+          -0.347
+         ],
+         [
+          0,
+          -0.35
+         ],
+         [
+          0.144,
+          -0.347
+         ],
+         [
+          0.285,
+          -0.338
+         ],
+         [
+          0.421,
+          -0.323
+         ],
+         [
+          0.55,
+          -0.303
+         ],
+         [
+          0.67,
+          -0.278
+         ],
+         [
+          0.778,
+          -0.247
+         ],
+         [
+          0.873,
+          -0.213
+         ],
+         [
+          0.953,
+          -0.175
+         ],
+         [
+          1.016,
+          -0.134
+         ],
+         [
+          1.063,
+          -0.091
+         ],
+         [
+          1.091,
+          -0.046
+         ],
+         [
+          1.1,
+          0
+         ]
+        ],
+        "open": true
+       },
+       {
+        "seg": [
+         1.1,
+         0,
+         1.016,
+         0.134
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         1.016,
+         0.134,
+         0.778,
+         0.247
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         0.778,
+         0.247,
+         0.421,
+         0.323
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         0.421,
+         0.323,
+         0,
+         0.35
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         0,
+         0.35,
+         -0.421,
+         0.323
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         -0.421,
+         0.323,
+         -0.778,
+         0.247
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         -0.778,
+         0.247,
+         -1.016,
+         0.134
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         -1.016,
+         0.134,
+         -1.1,
+         0
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         -1.1,
+         0,
+         -1.1,
+         2.4
+        ]
+       },
+       {
+        "seg": [
+         1.1,
+         0,
+         1.1,
+         2.4
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q2f",
+     "label": "2f",
+     "section": "Fluency",
+     "stem": "Name each solid.",
+     "prompt": "What is the name of this solid?",
+     "type": "choice",
+     "answer": 4,
+     "options": [
+      "cube",
+      "rectangular prism",
+      "triangular prism",
+      "square-based pyramid",
+      "triangular pyramid (tetrahedron)",
+      "cylinder",
+      "cone"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         2.6,
+         0
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         1.3,
+         2.4
+        ]
+       },
+       {
+        "seg": [
+         2.6,
+         0,
+         1.3,
+         2.4
+        ]
+       },
+       {
+        "seg": [
+         0,
+         0,
+         1.6,
+         0.9
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         2.6,
+         0,
+         1.6,
+         0.9
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         1.6,
+         0.9,
+         1.3,
+         2.4
+        ],
+        "dash": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3a",
+     "label": "3a",
+     "section": "Fluency",
+     "stem": "These solids have been drawn on square dot paper.",
+     "prompt": "How many vertices does this rectangular prism have?",
+     "type": "numeric",
+     "answer": "8",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "poly": [
+         [
+          1.5,
+          0
+         ],
+         [
+          1.5,
+          3
+         ],
+         [
+          2.3,
+          3.56
+         ],
+         [
+          2.3,
+          0.56
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          1.5,
+          3
+         ],
+         [
+          0,
+          3
+         ],
+         [
+          0.8,
+          3.56
+         ],
+         [
+          2.3,
+          3.56
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          1.5,
+          0
+         ],
+         [
+          1.5,
+          3
+         ],
+         [
+          0,
+          3
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0.8,
+         0.56,
+         2.3,
+         0.56
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         0.8,
+         3.56,
+         0.8,
+         0.56
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         0.8,
+         0.56
+        ],
+        "dash": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3b",
+     "label": "3b",
+     "section": "Fluency",
+     "stem": "These solids have been drawn on square dot paper.",
+     "prompt": "This prism has a T-shaped front. How many faces does it have?",
+     "type": "numeric",
+     "answer": "10",
+     "figure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "poly": [
+         [
+          2,
+          0
+         ],
+         [
+          2,
+          2
+         ],
+         [
+          2.7,
+          2.49
+         ],
+         [
+          2.7,
+          0.49
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          3,
+          2
+         ],
+         [
+          3,
+          3
+         ],
+         [
+          3.7,
+          3.49
+         ],
+         [
+          3.7,
+          2.49
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          3,
+          3
+         ],
+         [
+          0,
+          3
+         ],
+         [
+          0.7,
+          3.49
+         ],
+         [
+          3.7,
+          3.49
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          1,
+          0
+         ],
+         [
+          2,
+          0
+         ],
+         [
+          2,
+          2
+         ],
+         [
+          3,
+          2
+         ],
+         [
+          3,
+          3
+         ],
+         [
+          0,
+          3
+         ],
+         [
+          0,
+          2
+         ],
+         [
+          1,
+          2
+         ]
+        ],
+        "fill": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4a",
+     "label": "4a",
+     "section": "Fluency",
+     "stem": "Each solid is made of cubes. No cubes are hidden from view. How many cubes are in each solid?",
+     "prompt": "How many cubes?",
+     "type": "numeric",
+     "answer": "5",
+     "figure": {
+      "kind": "diagram",
+      "unit": 34,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          1
+         ],
+         [
+          0.866,
+          0.5
+         ],
+         [
+          0,
+          0
+         ],
+         [
+          -0.866,
+          0.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0.866,
+          -0.5
+         ],
+         [
+          0,
+          -1
+         ],
+         [
+          0,
+          0
+         ],
+         [
+          0.866,
+          0.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          -0.866,
+          -0.5
+         ],
+         [
+          0,
+          -1
+         ],
+         [
+          0,
+          0
+         ],
+         [
+          -0.866,
+          0.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0.866,
+          0.5
+         ],
+         [
+          1.732,
+          0
+         ],
+         [
+          0.866,
+          -0.5
+         ],
+         [
+          0,
+          0
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          1.732,
+          -1
+         ],
+         [
+          0.866,
+          -1.5
+         ],
+         [
+          0.866,
+          -0.5
+         ],
+         [
+          1.732,
+          0
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          -1
+         ],
+         [
+          0.866,
+          -1.5
+         ],
+         [
+          0.866,
+          -0.5
+         ],
+         [
+          0,
+          0
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          1.732,
+          0
+         ],
+         [
+          2.598,
+          -0.5
+         ],
+         [
+          1.732,
+          -1
+         ],
+         [
+          0.866,
+          -0.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          2.598,
+          -1.5
+         ],
+         [
+          1.732,
+          -2
+         ],
+         [
+          1.732,
+          -1
+         ],
+         [
+          2.598,
+          -0.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0.866,
+          -1.5
+         ],
+         [
+          1.732,
+          -2
+         ],
+         [
+          1.732,
+          -1
+         ],
+         [
+          0.866,
+          -0.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          1.732,
+          1
+         ],
+         [
+          2.598,
+          0.5
+         ],
+         [
+          1.732,
+          0
+         ],
+         [
+          0.866,
+          0.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          2.598,
+          -0.5
+         ],
+         [
+          1.732,
+          -1
+         ],
+         [
+          1.732,
+          0
+         ],
+         [
+          2.598,
+          0.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0.866,
+          -0.5
+         ],
+         [
+          1.732,
+          -1
+         ],
+         [
+          1.732,
+          0
+         ],
+         [
+          0.866,
+          0.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          1.732,
+          2
+         ],
+         [
+          2.598,
+          1.5
+         ],
+         [
+          1.732,
+          1
+         ],
+         [
+          0.866,
+          1.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          2.598,
+          0.5
+         ],
+         [
+          1.732,
+          0
+         ],
+         [
+          1.732,
+          1
+         ],
+         [
+          2.598,
+          1.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0.866,
+          0.5
+         ],
+         [
+          1.732,
+          0
+         ],
+         [
+          1.732,
+          1
+         ],
+         [
+          0.866,
+          1.5
+         ]
+        ],
+        "fill": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4b",
+     "label": "4b",
+     "section": "Fluency",
+     "stem": "Each solid is made of cubes. No cubes are hidden from view. How many cubes are in each solid?",
+     "prompt": "How many cubes?",
+     "type": "numeric",
+     "answer": "6",
+     "figure": {
+      "kind": "diagram",
+      "unit": 34,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          1
+         ],
+         [
+          0.866,
+          0.5
+         ],
+         [
+          0,
+          0
+         ],
+         [
+          -0.866,
+          0.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0.866,
+          -0.5
+         ],
+         [
+          0,
+          -1
+         ],
+         [
+          0,
+          0
+         ],
+         [
+          0.866,
+          0.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          -0.866,
+          -0.5
+         ],
+         [
+          0,
+          -1
+         ],
+         [
+          0,
+          0
+         ],
+         [
+          -0.866,
+          0.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          2
+         ],
+         [
+          0.866,
+          1.5
+         ],
+         [
+          0,
+          1
+         ],
+         [
+          -0.866,
+          1.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0.866,
+          0.5
+         ],
+         [
+          0,
+          0
+         ],
+         [
+          0,
+          1
+         ],
+         [
+          0.866,
+          1.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          -0.866,
+          0.5
+         ],
+         [
+          0,
+          0
+         ],
+         [
+          0,
+          1
+         ],
+         [
+          -0.866,
+          1.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0.866,
+          0.5
+         ],
+         [
+          1.732,
+          0
+         ],
+         [
+          0.866,
+          -0.5
+         ],
+         [
+          0,
+          0
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          1.732,
+          -1
+         ],
+         [
+          0.866,
+          -1.5
+         ],
+         [
+          0.866,
+          -0.5
+         ],
+         [
+          1.732,
+          0
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          -1
+         ],
+         [
+          0.866,
+          -1.5
+         ],
+         [
+          0.866,
+          -0.5
+         ],
+         [
+          0,
+          0
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          3
+         ],
+         [
+          0.866,
+          2.5
+         ],
+         [
+          0,
+          2
+         ],
+         [
+          -0.866,
+          2.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0.866,
+          1.5
+         ],
+         [
+          0,
+          1
+         ],
+         [
+          0,
+          2
+         ],
+         [
+          0.866,
+          2.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          -0.866,
+          1.5
+         ],
+         [
+          0,
+          1
+         ],
+         [
+          0,
+          2
+         ],
+         [
+          -0.866,
+          2.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0.866,
+          1.5
+         ],
+         [
+          1.732,
+          1
+         ],
+         [
+          0.866,
+          0.5
+         ],
+         [
+          0,
+          1
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          1.732,
+          0
+         ],
+         [
+          0.866,
+          -0.5
+         ],
+         [
+          0.866,
+          0.5
+         ],
+         [
+          1.732,
+          1
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          0.866,
+          -0.5
+         ],
+         [
+          0.866,
+          0.5
+         ],
+         [
+          0,
+          1
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          1.732,
+          0
+         ],
+         [
+          2.598,
+          -0.5
+         ],
+         [
+          1.732,
+          -1
+         ],
+         [
+          0.866,
+          -0.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          2.598,
+          -1.5
+         ],
+         [
+          1.732,
+          -2
+         ],
+         [
+          1.732,
+          -1
+         ],
+         [
+          2.598,
+          -0.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0.866,
+          -1.5
+         ],
+         [
+          1.732,
+          -2
+         ],
+         [
+          1.732,
+          -1
+         ],
+         [
+          0.866,
+          -0.5
+         ]
+        ],
+        "fill": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4c",
+     "label": "4c",
+     "section": "Fluency",
+     "stem": "Each solid is made of cubes. No cubes are hidden from view. How many cubes are in each solid?",
+     "prompt": "How many cubes?",
+     "type": "numeric",
+     "answer": "7",
+     "figure": {
+      "kind": "diagram",
+      "unit": 34,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          1
+         ],
+         [
+          0.866,
+          0.5
+         ],
+         [
+          0,
+          0
+         ],
+         [
+          -0.866,
+          0.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0.866,
+          -0.5
+         ],
+         [
+          0,
+          -1
+         ],
+         [
+          0,
+          0
+         ],
+         [
+          0.866,
+          0.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          -0.866,
+          -0.5
+         ],
+         [
+          0,
+          -1
+         ],
+         [
+          0,
+          0
+         ],
+         [
+          -0.866,
+          0.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          2
+         ],
+         [
+          0.866,
+          1.5
+         ],
+         [
+          0,
+          1
+         ],
+         [
+          -0.866,
+          1.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0.866,
+          0.5
+         ],
+         [
+          0,
+          0
+         ],
+         [
+          0,
+          1
+         ],
+         [
+          0.866,
+          1.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          -0.866,
+          0.5
+         ],
+         [
+          0,
+          0
+         ],
+         [
+          0,
+          1
+         ],
+         [
+          -0.866,
+          1.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0.866,
+          0.5
+         ],
+         [
+          1.732,
+          0
+         ],
+         [
+          0.866,
+          -0.5
+         ],
+         [
+          0,
+          0
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          1.732,
+          -1
+         ],
+         [
+          0.866,
+          -1.5
+         ],
+         [
+          0.866,
+          -0.5
+         ],
+         [
+          1.732,
+          0
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          -1
+         ],
+         [
+          0.866,
+          -1.5
+         ],
+         [
+          0.866,
+          -0.5
+         ],
+         [
+          0,
+          0
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          3
+         ],
+         [
+          0.866,
+          2.5
+         ],
+         [
+          0,
+          2
+         ],
+         [
+          -0.866,
+          2.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0.866,
+          1.5
+         ],
+         [
+          0,
+          1
+         ],
+         [
+          0,
+          2
+         ],
+         [
+          0.866,
+          2.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          -0.866,
+          1.5
+         ],
+         [
+          0,
+          1
+         ],
+         [
+          0,
+          2
+         ],
+         [
+          -0.866,
+          2.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0.866,
+          1.5
+         ],
+         [
+          1.732,
+          1
+         ],
+         [
+          0.866,
+          0.5
+         ],
+         [
+          0,
+          1
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          1.732,
+          0
+         ],
+         [
+          0.866,
+          -0.5
+         ],
+         [
+          0.866,
+          0.5
+         ],
+         [
+          1.732,
+          1
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          0.866,
+          -0.5
+         ],
+         [
+          0.866,
+          0.5
+         ],
+         [
+          0,
+          1
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          1.732,
+          0
+         ],
+         [
+          2.598,
+          -0.5
+         ],
+         [
+          1.732,
+          -1
+         ],
+         [
+          0.866,
+          -0.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          2.598,
+          -1.5
+         ],
+         [
+          1.732,
+          -2
+         ],
+         [
+          1.732,
+          -1
+         ],
+         [
+          2.598,
+          -0.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0.866,
+          -1.5
+         ],
+         [
+          1.732,
+          -2
+         ],
+         [
+          1.732,
+          -1
+         ],
+         [
+          0.866,
+          -0.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0.866,
+          -0.5
+         ],
+         [
+          1.732,
+          -1
+         ],
+         [
+          0.866,
+          -1.5
+         ],
+         [
+          0,
+          -1
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          1.732,
+          -2
+         ],
+         [
+          0.866,
+          -2.5
+         ],
+         [
+          0.866,
+          -1.5
+         ],
+         [
+          1.732,
+          -1
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          -2
+         ],
+         [
+          0.866,
+          -2.5
+         ],
+         [
+          0.866,
+          -1.5
+         ],
+         [
+          0,
+          -1
+         ]
+        ],
+        "fill": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "q5a",
+     "label": "5a",
+     "section": "Fluency",
+     "stem": "Choose the shape you would see for each view.",
+     "prompt": "A square-based pyramid standing on its base. What is its top view?",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "a triangle",
+      "a square with lines from each corner to the centre",
+      "a circle",
+      "a plain square"
+     ]
+    },
+    {
+     "id": "q5b",
+     "label": "5b",
+     "section": "Fluency",
+     "stem": "Choose the shape you would see for each view.",
+     "prompt": "A cone standing on its base. What is its top view?",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "a circle with a dot in the centre",
+      "a triangle",
+      "a square",
+      "a semicircle"
+     ]
+    },
+    {
+     "id": "q5c",
+     "label": "5c",
+     "section": "Fluency",
+     "stem": "Choose the shape you would see for each view.",
+     "prompt": "A cone standing on its base. What is its side view?",
+     "type": "choice",
+     "answer": 2,
+     "options": [
+      "a circle",
+      "a rectangle",
+      "a triangle",
+      "a square"
+     ]
+    },
+    {
+     "id": "q5d",
+     "label": "5d",
+     "section": "Fluency",
+     "stem": "Choose the shape you would see for each view.",
+     "prompt": "A triangular prism standing on one of its triangular faces. What is its top view?",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "a rectangle",
+      "a triangle",
+      "a square",
+      "a circle"
+     ]
+    },
+    {
+     "id": "q5e",
+     "label": "5e",
+     "section": "Fluency",
+     "stem": "Choose the shape you would see for each view.",
+     "prompt": "A hemisphere (half a sphere) resting on its flat face. What is its side view?",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "a circle",
+      "a semicircle",
+      "a triangle",
+      "a rectangle"
+     ]
+    },
+    {
+     "id": "q5f",
+     "label": "5f",
+     "section": "Fluency",
+     "stem": "Choose the shape you would see for each view.",
+     "prompt": "A sphere. What is its side view?",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "a circle",
+      "an oval",
+      "a semicircle",
+      "a square"
+     ]
+    },
+    {
+     "id": "q5g",
+     "label": "5g",
+     "section": "Fluency",
+     "stem": "Choose the shape you would see for each view.",
+     "prompt": "A cone sitting on top of a cylinder, like a pencil standing on its end. What is its side view?",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "a rectangle with a triangle on top",
+      "a circle with a dot in the centre",
+      "a triangle",
+      "two circles"
+     ]
+    },
+    {
+     "id": "q5h",
+     "label": "5h",
+     "section": "Fluency",
+     "stem": "Choose the shape you would see for each view.",
+     "prompt": "A cone sitting on top of a cylinder, like a pencil standing on its end. What is its top view?",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "a triangle on a rectangle",
+      "a circle with a dot in the centre",
+      "a square",
+      "a semicircle"
+     ]
+    },
+    {
+     "id": "q5i",
+     "label": "5i",
+     "section": "Fluency",
+     "stem": "Choose the shape you would see for each view.",
+     "prompt": "A hemisphere sitting flat side down on top of a cylinder, like a dome on a tower. What is its side view?",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "a semicircle on top of a rectangle",
+      "a circle",
+      "a triangle on top of a rectangle",
+      "a square"
+     ]
+    },
+    {
+     "id": "q6",
+     "label": "6",
+     "section": "Problem-solving",
+     "prompt": "This is the top view (plan view) of a stack of $6$ cubes. Every square has at least one cube on it and the cubes sit in columns. How many different stacks of $6$ cubes could it be?",
+     "type": "numeric",
+     "answer": "10",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          1,
+          0
+         ],
+         [
+          1,
+          1
+         ],
+         [
+          0,
+          1
+         ]
+        ]
+       },
+       {
+        "poly": [
+         [
+          1,
+          0
+         ],
+         [
+          2,
+          0
+         ],
+         [
+          2,
+          1
+         ],
+         [
+          1,
+          1
+         ]
+        ]
+       },
+       {
+        "poly": [
+         [
+          2,
+          0
+         ],
+         [
+          3,
+          0
+         ],
+         [
+          3,
+          1
+         ],
+         [
+          2,
+          1
+         ]
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q7",
+     "label": "7",
+     "section": "Problem-solving",
+     "prompt": "This is the top view of a stack of $8$ cubes. Every square has at least one cube on it and the cubes sit in columns. How many different stacks of $8$ cubes could it be?",
+     "type": "numeric",
+     "answer": "35",
+     "figure": {
+      "kind": "diagram",
+      "unit": 40,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          1
+         ],
+         [
+          1,
+          1
+         ],
+         [
+          1,
+          2
+         ],
+         [
+          0,
+          2
+         ]
+        ]
+       },
+       {
+        "poly": [
+         [
+          1,
+          1
+         ],
+         [
+          2,
+          1
+         ],
+         [
+          2,
+          2
+         ],
+         [
+          1,
+          2
+         ]
+        ]
+       },
+       {
+        "poly": [
+         [
+          2,
+          1
+         ],
+         [
+          3,
+          1
+         ],
+         [
+          3,
+          2
+         ],
+         [
+          2,
+          2
+         ]
+        ]
+       },
+       {
+        "poly": [
+         [
+          1,
+          0
+         ],
+         [
+          2,
+          0
+         ],
+         [
+          2,
+          1
+         ],
+         [
+          1,
+          1
+         ]
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q8a",
+     "label": "8a",
+     "section": "Problem-solving",
+     "stem": "Picture each solid drawn with all of its vertices showing and dashed lines for hidden edges.",
+     "prompt": "How many vertices does a hexagonal pyramid have?",
+     "type": "numeric",
+     "answer": "7"
+    },
+    {
+     "id": "q8b",
+     "label": "8b",
+     "section": "Problem-solving",
+     "stem": "Picture each solid drawn with all of its vertices showing and dashed lines for hidden edges.",
+     "prompt": "How many edges does an octahedron (a solid with $8$ triangular faces) have?",
+     "type": "numeric",
+     "answer": "12"
+    },
+    {
+     "id": "q8c",
+     "label": "8c",
+     "section": "Problem-solving",
+     "stem": "Picture each solid drawn with all of its vertices showing and dashed lines for hidden edges.",
+     "prompt": "How many edges does a pentagonal prism have?",
+     "type": "numeric",
+     "answer": "15"
+    },
+    {
+     "id": "q9",
+     "label": "9",
+     "section": "Reasoning",
+     "prompt": "Mia draws these two solids made of cubes. Leo says they are drawings of exactly the same solid, just turned around. Is Leo correct?",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "figure": [
+      {
+       "kind": "diagram",
+       "unit": 34,
+       "items": [
+        {
+         "poly": [
+          [
+           0,
+           1
+          ],
+          [
+           0.866,
+           0.5
+          ],
+          [
+           0,
+           0
+          ],
+          [
+           -0.866,
+           0.5
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           0.866,
+           -0.5
+          ],
+          [
+           0,
+           -1
+          ],
+          [
+           0,
+           0
+          ],
+          [
+           0.866,
+           0.5
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           -0.866,
+           -0.5
+          ],
+          [
+           0,
+           -1
+          ],
+          [
+           0,
+           0
+          ],
+          [
+           -0.866,
+           0.5
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           0,
+           2
+          ],
+          [
+           0.866,
+           1.5
+          ],
+          [
+           0,
+           1
+          ],
+          [
+           -0.866,
+           1.5
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           0.866,
+           0.5
+          ],
+          [
+           0,
+           0
+          ],
+          [
+           0,
+           1
+          ],
+          [
+           0.866,
+           1.5
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           -0.866,
+           0.5
+          ],
+          [
+           0,
+           0
+          ],
+          [
+           0,
+           1
+          ],
+          [
+           -0.866,
+           1.5
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           0.866,
+           0.5
+          ],
+          [
+           1.732,
+           0
+          ],
+          [
+           0.866,
+           -0.5
+          ],
+          [
+           0,
+           0
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           1.732,
+           -1
+          ],
+          [
+           0.866,
+           -1.5
+          ],
+          [
+           0.866,
+           -0.5
+          ],
+          [
+           1.732,
+           0
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           0,
+           -1
+          ],
+          [
+           0.866,
+           -1.5
+          ],
+          [
+           0.866,
+           -0.5
+          ],
+          [
+           0,
+           0
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           1.732,
+           0
+          ],
+          [
+           2.598,
+           -0.5
+          ],
+          [
+           1.732,
+           -1
+          ],
+          [
+           0.866,
+           -0.5
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           2.598,
+           -1.5
+          ],
+          [
+           1.732,
+           -2
+          ],
+          [
+           1.732,
+           -1
+          ],
+          [
+           2.598,
+           -0.5
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           0.866,
+           -1.5
+          ],
+          [
+           1.732,
+           -2
+          ],
+          [
+           1.732,
+           -1
+          ],
+          [
+           0.866,
+           -0.5
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           0.866,
+           -0.5
+          ],
+          [
+           1.732,
+           -1
+          ],
+          [
+           0.866,
+           -1.5
+          ],
+          [
+           0,
+           -1
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           1.732,
+           -2
+          ],
+          [
+           0.866,
+           -2.5
+          ],
+          [
+           0.866,
+           -1.5
+          ],
+          [
+           1.732,
+           -1
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           0,
+           -2
+          ],
+          [
+           0.866,
+           -2.5
+          ],
+          [
+           0.866,
+           -1.5
+          ],
+          [
+           0,
+           -1
+          ]
+         ],
+         "fill": true
+        }
+       ]
+      },
+      {
+       "kind": "diagram",
+       "unit": 34,
+       "items": [
+        {
+         "poly": [
+          [
+           0.866,
+           0.5
+          ],
+          [
+           1.732,
+           0
+          ],
+          [
+           0.866,
+           -0.5
+          ],
+          [
+           0,
+           0
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           1.732,
+           -1
+          ],
+          [
+           0.866,
+           -1.5
+          ],
+          [
+           0.866,
+           -0.5
+          ],
+          [
+           1.732,
+           0
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           0,
+           -1
+          ],
+          [
+           0.866,
+           -1.5
+          ],
+          [
+           0.866,
+           -0.5
+          ],
+          [
+           0,
+           0
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           -1.732,
+           0
+          ],
+          [
+           -0.866,
+           -0.5
+          ],
+          [
+           -1.732,
+           -1
+          ],
+          [
+           -2.598,
+           -0.5
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           -0.866,
+           -1.5
+          ],
+          [
+           -1.732,
+           -2
+          ],
+          [
+           -1.732,
+           -1
+          ],
+          [
+           -0.866,
+           -0.5
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           -2.598,
+           -1.5
+          ],
+          [
+           -1.732,
+           -2
+          ],
+          [
+           -1.732,
+           -1
+          ],
+          [
+           -2.598,
+           -0.5
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           0.866,
+           1.5
+          ],
+          [
+           1.732,
+           1
+          ],
+          [
+           0.866,
+           0.5
+          ],
+          [
+           0,
+           1
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           1.732,
+           0
+          ],
+          [
+           0.866,
+           -0.5
+          ],
+          [
+           0.866,
+           0.5
+          ],
+          [
+           1.732,
+           1
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           0,
+           0
+          ],
+          [
+           0.866,
+           -0.5
+          ],
+          [
+           0.866,
+           0.5
+          ],
+          [
+           0,
+           1
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           0,
+           0
+          ],
+          [
+           0.866,
+           -0.5
+          ],
+          [
+           0,
+           -1
+          ],
+          [
+           -0.866,
+           -0.5
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           0.866,
+           -1.5
+          ],
+          [
+           0,
+           -2
+          ],
+          [
+           0,
+           -1
+          ],
+          [
+           0.866,
+           -0.5
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           -0.866,
+           -1.5
+          ],
+          [
+           0,
+           -2
+          ],
+          [
+           0,
+           -1
+          ],
+          [
+           -0.866,
+           -0.5
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           -0.866,
+           -0.5
+          ],
+          [
+           0,
+           -1
+          ],
+          [
+           -0.866,
+           -1.5
+          ],
+          [
+           -1.732,
+           -1
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           0,
+           -2
+          ],
+          [
+           -0.866,
+           -2.5
+          ],
+          [
+           -0.866,
+           -1.5
+          ],
+          [
+           0,
+           -1
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           -1.732,
+           -2
+          ],
+          [
+           -0.866,
+           -2.5
+          ],
+          [
+           -0.866,
+           -1.5
+          ],
+          [
+           -1.732,
+           -1
+          ]
+         ],
+         "fill": true
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "q10a",
+     "label": "10a",
+     "section": "Reasoning",
+     "stem": "Match each solid with the identical solid (turned around) chosen from A, B, C and D.",
+     "prompt": "Which solid is identical to this one?",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 34,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          1
+         ],
+         [
+          0.866,
+          0.5
+         ],
+         [
+          0,
+          0
+         ],
+         [
+          -0.866,
+          0.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0.866,
+          -0.5
+         ],
+         [
+          0,
+          -1
+         ],
+         [
+          0,
+          0
+         ],
+         [
+          0.866,
+          0.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          -0.866,
+          -0.5
+         ],
+         [
+          0,
+          -1
+         ],
+         [
+          0,
+          0
+         ],
+         [
+          -0.866,
+          0.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0.866,
+          0.5
+         ],
+         [
+          1.732,
+          0
+         ],
+         [
+          0.866,
+          -0.5
+         ],
+         [
+          0,
+          0
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          1.732,
+          -1
+         ],
+         [
+          0.866,
+          -1.5
+         ],
+         [
+          0.866,
+          -0.5
+         ],
+         [
+          1.732,
+          0
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          -1
+         ],
+         [
+          0.866,
+          -1.5
+         ],
+         [
+          0.866,
+          -0.5
+         ],
+         [
+          0,
+          0
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0.866,
+          1.5
+         ],
+         [
+          1.732,
+          1
+         ],
+         [
+          0.866,
+          0.5
+         ],
+         [
+          0,
+          1
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          1.732,
+          0
+         ],
+         [
+          0.866,
+          -0.5
+         ],
+         [
+          0.866,
+          0.5
+         ],
+         [
+          1.732,
+          1
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          0.866,
+          -0.5
+         ],
+         [
+          0.866,
+          0.5
+         ],
+         [
+          0,
+          1
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          0.866,
+          -0.5
+         ],
+         [
+          0,
+          -1
+         ],
+         [
+          -0.866,
+          -0.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0.866,
+          -1.5
+         ],
+         [
+          0,
+          -2
+         ],
+         [
+          0,
+          -1
+         ],
+         [
+          0.866,
+          -0.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          -0.866,
+          -1.5
+         ],
+         [
+          0,
+          -2
+         ],
+         [
+          0,
+          -1
+         ],
+         [
+          -0.866,
+          -0.5
+         ]
+        ],
+        "fill": true
+       }
+      ]
+     },
+     "stemFigure": [
+      {
+       "kind": "diagram",
+       "unit": 28,
+       "items": [
+        {
+         "poly": [
+          [
+           0,
+           1
+          ],
+          [
+           0.866,
+           0.5
+          ],
+          [
+           0,
+           0
+          ],
+          [
+           -0.866,
+           0.5
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           0.866,
+           -0.5
+          ],
+          [
+           0,
+           -1
+          ],
+          [
+           0,
+           0
+          ],
+          [
+           0.866,
+           0.5
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           -0.866,
+           -0.5
+          ],
+          [
+           0,
+           -1
+          ],
+          [
+           0,
+           0
+          ],
+          [
+           -0.866,
+           0.5
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           0.866,
+           0.5
+          ],
+          [
+           1.732,
+           0
+          ],
+          [
+           0.866,
+           -0.5
+          ],
+          [
+           0,
+           0
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           1.732,
+           -1
+          ],
+          [
+           0.866,
+           -1.5
+          ],
+          [
+           0.866,
+           -0.5
+          ],
+          [
+           1.732,
+           0
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           0,
+           -1
+          ],
+          [
+           0.866,
+           -1.5
+          ],
+          [
+           0.866,
+           -0.5
+          ],
+          [
+           0,
+           0
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           -1.732,
+           0
+          ],
+          [
+           -0.866,
+           -0.5
+          ],
+          [
+           -1.732,
+           -1
+          ],
+          [
+           -2.598,
+           -0.5
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           -0.866,
+           -1.5
+          ],
+          [
+           -1.732,
+           -2
+          ],
+          [
+           -1.732,
+           -1
+          ],
+          [
+           -0.866,
+           -0.5
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           -2.598,
+           -1.5
+          ],
+          [
+           -1.732,
+           -2
+          ],
+          [
+           -1.732,
+           -1
+          ],
+          [
+           -2.598,
+           -0.5
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           0,
+           0
+          ],
+          [
+           0.866,
+           -0.5
+          ],
+          [
+           0,
+           -1
+          ],
+          [
+           -0.866,
+           -0.5
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           0.866,
+           -1.5
+          ],
+          [
+           0,
+           -2
+          ],
+          [
+           0,
+           -1
+          ],
+          [
+           0.866,
+           -0.5
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           -0.866,
+           -1.5
+          ],
+          [
+           0,
+           -2
+          ],
+          [
+           0,
+           -1
+          ],
+          [
+           -0.866,
+           -0.5
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           -0.866,
+           -0.5
+          ],
+          [
+           0,
+           -1
+          ],
+          [
+           -0.866,
+           -1.5
+          ],
+          [
+           -1.732,
+           -1
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           0,
+           -2
+          ],
+          [
+           -0.866,
+           -2.5
+          ],
+          [
+           -0.866,
+           -1.5
+          ],
+          [
+           0,
+           -1
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           -1.732,
+           -2
+          ],
+          [
+           -0.866,
+           -2.5
+          ],
+          [
+           -0.866,
+           -1.5
+          ],
+          [
+           -1.732,
+           -1
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           -0.866,
+           0.5
+          ],
+          [
+           0,
+           0
+          ],
+          [
+           -0.866,
+           -0.5
+          ],
+          [
+           -1.732,
+           0
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           0,
+           -1
+          ],
+          [
+           -0.866,
+           -1.5
+          ],
+          [
+           -0.866,
+           -0.5
+          ],
+          [
+           0,
+           0
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           -1.732,
+           -1
+          ],
+          [
+           -0.866,
+           -1.5
+          ],
+          [
+           -0.866,
+           -0.5
+          ],
+          [
+           -1.732,
+           0
+          ]
+         ],
+         "fill": true
+        }
+       ],
+       "caption": "A"
+      },
+      {
+       "kind": "diagram",
+       "unit": 28,
+       "items": [
+        {
+         "poly": [
+          [
+           0,
+           1
+          ],
+          [
+           0.866,
+           0.5
+          ],
+          [
+           0,
+           0
+          ],
+          [
+           -0.866,
+           0.5
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           0.866,
+           -0.5
+          ],
+          [
+           0,
+           -1
+          ],
+          [
+           0,
+           0
+          ],
+          [
+           0.866,
+           0.5
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           -0.866,
+           -0.5
+          ],
+          [
+           0,
+           -1
+          ],
+          [
+           0,
+           0
+          ],
+          [
+           -0.866,
+           0.5
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           -0.866,
+           0.5
+          ],
+          [
+           0,
+           0
+          ],
+          [
+           -0.866,
+           -0.5
+          ],
+          [
+           -1.732,
+           0
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           0,
+           -1
+          ],
+          [
+           -0.866,
+           -1.5
+          ],
+          [
+           -0.866,
+           -0.5
+          ],
+          [
+           0,
+           0
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           -1.732,
+           -1
+          ],
+          [
+           -0.866,
+           -1.5
+          ],
+          [
+           -0.866,
+           -0.5
+          ],
+          [
+           -1.732,
+           0
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           -0.866,
+           1.5
+          ],
+          [
+           0,
+           1
+          ],
+          [
+           -0.866,
+           0.5
+          ],
+          [
+           -1.732,
+           1
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           0,
+           0
+          ],
+          [
+           -0.866,
+           -0.5
+          ],
+          [
+           -0.866,
+           0.5
+          ],
+          [
+           0,
+           1
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           -1.732,
+           0
+          ],
+          [
+           -0.866,
+           -0.5
+          ],
+          [
+           -0.866,
+           0.5
+          ],
+          [
+           -1.732,
+           1
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           0,
+           0
+          ],
+          [
+           0.866,
+           -0.5
+          ],
+          [
+           0,
+           -1
+          ],
+          [
+           -0.866,
+           -0.5
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           0.866,
+           -1.5
+          ],
+          [
+           0,
+           -2
+          ],
+          [
+           0,
+           -1
+          ],
+          [
+           0.866,
+           -0.5
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           -0.866,
+           -1.5
+          ],
+          [
+           0,
+           -2
+          ],
+          [
+           0,
+           -1
+          ],
+          [
+           -0.866,
+           -0.5
+          ]
+         ],
+         "fill": true
+        }
+       ],
+       "caption": "B"
+      },
+      {
+       "kind": "diagram",
+       "unit": 28,
+       "items": [
+        {
+         "poly": [
+          [
+           -0.866,
+           0.5
+          ],
+          [
+           0,
+           0
+          ],
+          [
+           -0.866,
+           -0.5
+          ],
+          [
+           -1.732,
+           0
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           0,
+           -1
+          ],
+          [
+           -0.866,
+           -1.5
+          ],
+          [
+           -0.866,
+           -0.5
+          ],
+          [
+           0,
+           0
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           -1.732,
+           -1
+          ],
+          [
+           -0.866,
+           -1.5
+          ],
+          [
+           -0.866,
+           -0.5
+          ],
+          [
+           -1.732,
+           0
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           0.866,
+           0.5
+          ],
+          [
+           1.732,
+           0
+          ],
+          [
+           0.866,
+           -0.5
+          ],
+          [
+           0,
+           0
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           1.732,
+           -1
+          ],
+          [
+           0.866,
+           -1.5
+          ],
+          [
+           0.866,
+           -0.5
+          ],
+          [
+           1.732,
+           0
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           0,
+           -1
+          ],
+          [
+           0.866,
+           -1.5
+          ],
+          [
+           0.866,
+           -0.5
+          ],
+          [
+           0,
+           0
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           -0.866,
+           1.5
+          ],
+          [
+           0,
+           1
+          ],
+          [
+           -0.866,
+           0.5
+          ],
+          [
+           -1.732,
+           1
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           0,
+           0
+          ],
+          [
+           -0.866,
+           -0.5
+          ],
+          [
+           -0.866,
+           0.5
+          ],
+          [
+           0,
+           1
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           -1.732,
+           0
+          ],
+          [
+           -0.866,
+           -0.5
+          ],
+          [
+           -0.866,
+           0.5
+          ],
+          [
+           -1.732,
+           1
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           0,
+           0
+          ],
+          [
+           0.866,
+           -0.5
+          ],
+          [
+           0,
+           -1
+          ],
+          [
+           -0.866,
+           -0.5
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           0.866,
+           -1.5
+          ],
+          [
+           0,
+           -2
+          ],
+          [
+           0,
+           -1
+          ],
+          [
+           0.866,
+           -0.5
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           -0.866,
+           -1.5
+          ],
+          [
+           0,
+           -2
+          ],
+          [
+           0,
+           -1
+          ],
+          [
+           -0.866,
+           -0.5
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           -0.866,
+           2.5
+          ],
+          [
+           0,
+           2
+          ],
+          [
+           -0.866,
+           1.5
+          ],
+          [
+           -1.732,
+           2
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           0,
+           1
+          ],
+          [
+           -0.866,
+           0.5
+          ],
+          [
+           -0.866,
+           1.5
+          ],
+          [
+           0,
+           2
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           -1.732,
+           1
+          ],
+          [
+           -0.866,
+           0.5
+          ],
+          [
+           -0.866,
+           1.5
+          ],
+          [
+           -1.732,
+           2
+          ]
+         ],
+         "fill": true
+        }
+       ],
+       "caption": "C"
+      },
+      {
+       "kind": "diagram",
+       "unit": 28,
+       "items": [
+        {
+         "poly": [
+          [
+           0,
+           1
+          ],
+          [
+           0.866,
+           0.5
+          ],
+          [
+           0,
+           0
+          ],
+          [
+           -0.866,
+           0.5
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           0.866,
+           -0.5
+          ],
+          [
+           0,
+           -1
+          ],
+          [
+           0,
+           0
+          ],
+          [
+           0.866,
+           0.5
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           -0.866,
+           -0.5
+          ],
+          [
+           0,
+           -1
+          ],
+          [
+           0,
+           0
+          ],
+          [
+           -0.866,
+           0.5
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           -0.866,
+           0.5
+          ],
+          [
+           0,
+           0
+          ],
+          [
+           -0.866,
+           -0.5
+          ],
+          [
+           -1.732,
+           0
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           0,
+           -1
+          ],
+          [
+           -0.866,
+           -1.5
+          ],
+          [
+           -0.866,
+           -0.5
+          ],
+          [
+           0,
+           0
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           -1.732,
+           -1
+          ],
+          [
+           -0.866,
+           -1.5
+          ],
+          [
+           -0.866,
+           -0.5
+          ],
+          [
+           -1.732,
+           0
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           -0.866,
+           1.5
+          ],
+          [
+           0,
+           1
+          ],
+          [
+           -0.866,
+           0.5
+          ],
+          [
+           -1.732,
+           1
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           0,
+           0
+          ],
+          [
+           -0.866,
+           -0.5
+          ],
+          [
+           -0.866,
+           0.5
+          ],
+          [
+           0,
+           1
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           -1.732,
+           0
+          ],
+          [
+           -0.866,
+           -0.5
+          ],
+          [
+           -0.866,
+           0.5
+          ],
+          [
+           -1.732,
+           1
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           -1.732,
+           0
+          ],
+          [
+           -0.866,
+           -0.5
+          ],
+          [
+           -1.732,
+           -1
+          ],
+          [
+           -2.598,
+           -0.5
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           -0.866,
+           -1.5
+          ],
+          [
+           -1.732,
+           -2
+          ],
+          [
+           -1.732,
+           -1
+          ],
+          [
+           -0.866,
+           -0.5
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           -2.598,
+           -1.5
+          ],
+          [
+           -1.732,
+           -2
+          ],
+          [
+           -1.732,
+           -1
+          ],
+          [
+           -2.598,
+           -0.5
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           -0.866,
+           -0.5
+          ],
+          [
+           0,
+           -1
+          ],
+          [
+           -0.866,
+           -1.5
+          ],
+          [
+           -1.732,
+           -1
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           0,
+           -2
+          ],
+          [
+           -0.866,
+           -2.5
+          ],
+          [
+           -0.866,
+           -1.5
+          ],
+          [
+           0,
+           -1
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           -1.732,
+           -2
+          ],
+          [
+           -0.866,
+           -2.5
+          ],
+          [
+           -0.866,
+           -1.5
+          ],
+          [
+           -1.732,
+           -1
+          ]
+         ],
+         "fill": true
+        }
+       ],
+       "caption": "D"
+      }
+     ]
+    },
+    {
+     "id": "q10b",
+     "label": "10b",
+     "section": "Reasoning",
+     "stem": "Match each solid with the identical solid (turned around) chosen from A, B, C and D.",
+     "prompt": "Which solid is identical to this one?",
+     "type": "choice",
+     "answer": 3,
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 34,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          1
+         ],
+         [
+          0.866,
+          0.5
+         ],
+         [
+          0,
+          0
+         ],
+         [
+          -0.866,
+          0.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0.866,
+          -0.5
+         ],
+         [
+          0,
+          -1
+         ],
+         [
+          0,
+          0
+         ],
+         [
+          0.866,
+          0.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          -0.866,
+          -0.5
+         ],
+         [
+          0,
+          -1
+         ],
+         [
+          0,
+          0
+         ],
+         [
+          -0.866,
+          0.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          -0.866,
+          0.5
+         ],
+         [
+          0,
+          0
+         ],
+         [
+          -0.866,
+          -0.5
+         ],
+         [
+          -1.732,
+          0
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          -1
+         ],
+         [
+          -0.866,
+          -1.5
+         ],
+         [
+          -0.866,
+          -0.5
+         ],
+         [
+          0,
+          0
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          -1.732,
+          -1
+         ],
+         [
+          -0.866,
+          -1.5
+         ],
+         [
+          -0.866,
+          -0.5
+         ],
+         [
+          -1.732,
+          0
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0.866,
+          0.5
+         ],
+         [
+          1.732,
+          0
+         ],
+         [
+          0.866,
+          -0.5
+         ],
+         [
+          0,
+          0
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          1.732,
+          -1
+         ],
+         [
+          0.866,
+          -1.5
+         ],
+         [
+          0.866,
+          -0.5
+         ],
+         [
+          1.732,
+          0
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          -1
+         ],
+         [
+          0.866,
+          -1.5
+         ],
+         [
+          0.866,
+          -0.5
+         ],
+         [
+          0,
+          0
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0.866,
+          1.5
+         ],
+         [
+          1.732,
+          1
+         ],
+         [
+          0.866,
+          0.5
+         ],
+         [
+          0,
+          1
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          1.732,
+          0
+         ],
+         [
+          0.866,
+          -0.5
+         ],
+         [
+          0.866,
+          0.5
+         ],
+         [
+          1.732,
+          1
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          0.866,
+          -0.5
+         ],
+         [
+          0.866,
+          0.5
+         ],
+         [
+          0,
+          1
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          1.732,
+          0
+         ],
+         [
+          2.598,
+          -0.5
+         ],
+         [
+          1.732,
+          -1
+         ],
+         [
+          0.866,
+          -0.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          2.598,
+          -1.5
+         ],
+         [
+          1.732,
+          -2
+         ],
+         [
+          1.732,
+          -1
+         ],
+         [
+          2.598,
+          -0.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0.866,
+          -1.5
+         ],
+         [
+          1.732,
+          -2
+         ],
+         [
+          1.732,
+          -1
+         ],
+         [
+          0.866,
+          -0.5
+         ]
+        ],
+        "fill": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "q10c",
+     "label": "10c",
+     "section": "Reasoning",
+     "stem": "Match each solid with the identical solid (turned around) chosen from A, B, C and D.",
+     "prompt": "Which solid is identical to this one?",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 34,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          1
+         ],
+         [
+          0.866,
+          0.5
+         ],
+         [
+          0,
+          0
+         ],
+         [
+          -0.866,
+          0.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0.866,
+          -0.5
+         ],
+         [
+          0,
+          -1
+         ],
+         [
+          0,
+          0
+         ],
+         [
+          0.866,
+          0.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          -0.866,
+          -0.5
+         ],
+         [
+          0,
+          -1
+         ],
+         [
+          0,
+          0
+         ],
+         [
+          -0.866,
+          0.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          -0.866,
+          0.5
+         ],
+         [
+          0,
+          0
+         ],
+         [
+          -0.866,
+          -0.5
+         ],
+         [
+          -1.732,
+          0
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          -1
+         ],
+         [
+          -0.866,
+          -1.5
+         ],
+         [
+          -0.866,
+          -0.5
+         ],
+         [
+          0,
+          0
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          -1.732,
+          -1
+         ],
+         [
+          -0.866,
+          -1.5
+         ],
+         [
+          -0.866,
+          -0.5
+         ],
+         [
+          -1.732,
+          0
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0.866,
+          0.5
+         ],
+         [
+          1.732,
+          0
+         ],
+         [
+          0.866,
+          -0.5
+         ],
+         [
+          0,
+          0
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          1.732,
+          -1
+         ],
+         [
+          0.866,
+          -1.5
+         ],
+         [
+          0.866,
+          -0.5
+         ],
+         [
+          1.732,
+          0
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          -1
+         ],
+         [
+          0.866,
+          -1.5
+         ],
+         [
+          0.866,
+          -0.5
+         ],
+         [
+          0,
+          0
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          1.732,
+          0
+         ],
+         [
+          2.598,
+          -0.5
+         ],
+         [
+          1.732,
+          -1
+         ],
+         [
+          0.866,
+          -0.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          2.598,
+          -1.5
+         ],
+         [
+          1.732,
+          -2
+         ],
+         [
+          1.732,
+          -1
+         ],
+         [
+          2.598,
+          -0.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0.866,
+          -1.5
+         ],
+         [
+          1.732,
+          -2
+         ],
+         [
+          1.732,
+          -1
+         ],
+         [
+          0.866,
+          -0.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          1.732,
+          1
+         ],
+         [
+          2.598,
+          0.5
+         ],
+         [
+          1.732,
+          0
+         ],
+         [
+          0.866,
+          0.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          2.598,
+          -0.5
+         ],
+         [
+          1.732,
+          -1
+         ],
+         [
+          1.732,
+          0
+         ],
+         [
+          2.598,
+          0.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0.866,
+          -0.5
+         ],
+         [
+          1.732,
+          -1
+         ],
+         [
+          1.732,
+          0
+         ],
+         [
+          0.866,
+          0.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0.866,
+          -0.5
+         ],
+         [
+          1.732,
+          -1
+         ],
+         [
+          0.866,
+          -1.5
+         ],
+         [
+          0,
+          -1
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          1.732,
+          -2
+         ],
+         [
+          0.866,
+          -2.5
+         ],
+         [
+          0.866,
+          -1.5
+         ],
+         [
+          1.732,
+          -1
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          -2
+         ],
+         [
+          0.866,
+          -2.5
+         ],
+         [
+          0.866,
+          -1.5
+         ],
+         [
+          0,
+          -1
+         ]
+        ],
+        "fill": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "q10d",
+     "label": "10d",
+     "section": "Reasoning",
+     "stem": "Match each solid with the identical solid (turned around) chosen from A, B, C and D.",
+     "prompt": "Which solid is identical to this one?",
+     "type": "choice",
+     "answer": 2,
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 34,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          1
+         ],
+         [
+          0.866,
+          0.5
+         ],
+         [
+          0,
+          0
+         ],
+         [
+          -0.866,
+          0.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0.866,
+          -0.5
+         ],
+         [
+          0,
+          -1
+         ],
+         [
+          0,
+          0
+         ],
+         [
+          0.866,
+          0.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          -0.866,
+          -0.5
+         ],
+         [
+          0,
+          -1
+         ],
+         [
+          0,
+          0
+         ],
+         [
+          -0.866,
+          0.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          -0.866,
+          0.5
+         ],
+         [
+          0,
+          0
+         ],
+         [
+          -0.866,
+          -0.5
+         ],
+         [
+          -1.732,
+          0
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          -1
+         ],
+         [
+          -0.866,
+          -1.5
+         ],
+         [
+          -0.866,
+          -0.5
+         ],
+         [
+          0,
+          0
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          -1.732,
+          -1
+         ],
+         [
+          -0.866,
+          -1.5
+         ],
+         [
+          -0.866,
+          -0.5
+         ],
+         [
+          -1.732,
+          0
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0.866,
+          0.5
+         ],
+         [
+          1.732,
+          0
+         ],
+         [
+          0.866,
+          -0.5
+         ],
+         [
+          0,
+          0
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          1.732,
+          -1
+         ],
+         [
+          0.866,
+          -1.5
+         ],
+         [
+          0.866,
+          -0.5
+         ],
+         [
+          1.732,
+          0
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          -1
+         ],
+         [
+          0.866,
+          -1.5
+         ],
+         [
+          0.866,
+          -0.5
+         ],
+         [
+          0,
+          0
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0.866,
+          1.5
+         ],
+         [
+          1.732,
+          1
+         ],
+         [
+          0.866,
+          0.5
+         ],
+         [
+          0,
+          1
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          1.732,
+          0
+         ],
+         [
+          0.866,
+          -0.5
+         ],
+         [
+          0.866,
+          0.5
+         ],
+         [
+          1.732,
+          1
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          0.866,
+          -0.5
+         ],
+         [
+          0.866,
+          0.5
+         ],
+         [
+          0,
+          1
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0.866,
+          2.5
+         ],
+         [
+          1.732,
+          2
+         ],
+         [
+          0.866,
+          1.5
+         ],
+         [
+          0,
+          2
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          1.732,
+          1
+         ],
+         [
+          0.866,
+          0.5
+         ],
+         [
+          0.866,
+          1.5
+         ],
+         [
+          1.732,
+          2
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          1
+         ],
+         [
+          0.866,
+          0.5
+         ],
+         [
+          0.866,
+          1.5
+         ],
+         [
+          0,
+          2
+         ]
+        ],
+        "fill": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "q11a",
+     "label": "11a",
+     "section": "Enrichment",
+     "stem": "This solid is made of cubes. The arrows show its front and left sides. Each view is drawn as a set of squares.",
+     "prompt": "How many squares are in the top view?",
+     "type": "numeric",
+     "answer": "4",
+     "stemFigure": {
+      "kind": "diagram",
+      "unit": 34,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          1
+         ],
+         [
+          0.866,
+          0.5
+         ],
+         [
+          0,
+          0
+         ],
+         [
+          -0.866,
+          0.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0.866,
+          -0.5
+         ],
+         [
+          0,
+          -1
+         ],
+         [
+          0,
+          0
+         ],
+         [
+          0.866,
+          0.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          -0.866,
+          -0.5
+         ],
+         [
+          0,
+          -1
+         ],
+         [
+          0,
+          0
+         ],
+         [
+          -0.866,
+          0.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          -0.866,
+          0.5
+         ],
+         [
+          0,
+          0
+         ],
+         [
+          -0.866,
+          -0.5
+         ],
+         [
+          -1.732,
+          0
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          -1
+         ],
+         [
+          -0.866,
+          -1.5
+         ],
+         [
+          -0.866,
+          -0.5
+         ],
+         [
+          0,
+          0
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          -1.732,
+          -1
+         ],
+         [
+          -0.866,
+          -1.5
+         ],
+         [
+          -0.866,
+          -0.5
+         ],
+         [
+          -1.732,
+          0
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0.866,
+          0.5
+         ],
+         [
+          1.732,
+          0
+         ],
+         [
+          0.866,
+          -0.5
+         ],
+         [
+          0,
+          0
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          1.732,
+          -1
+         ],
+         [
+          0.866,
+          -1.5
+         ],
+         [
+          0.866,
+          -0.5
+         ],
+         [
+          1.732,
+          0
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          -1
+         ],
+         [
+          0.866,
+          -1.5
+         ],
+         [
+          0.866,
+          -0.5
+         ],
+         [
+          0,
+          0
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          -0.866,
+          1.5
+         ],
+         [
+          0,
+          1
+         ],
+         [
+          -0.866,
+          0.5
+         ],
+         [
+          -1.732,
+          1
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          -0.866,
+          -0.5
+         ],
+         [
+          -0.866,
+          0.5
+         ],
+         [
+          0,
+          1
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          -1.732,
+          0
+         ],
+         [
+          -0.866,
+          -0.5
+         ],
+         [
+          -0.866,
+          0.5
+         ],
+         [
+          -1.732,
+          1
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          1.732,
+          0
+         ],
+         [
+          2.598,
+          -0.5
+         ],
+         [
+          1.732,
+          -1
+         ],
+         [
+          0.866,
+          -0.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          2.598,
+          -1.5
+         ],
+         [
+          1.732,
+          -2
+         ],
+         [
+          1.732,
+          -1
+         ],
+         [
+          2.598,
+          -0.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0.866,
+          -1.5
+         ],
+         [
+          1.732,
+          -2
+         ],
+         [
+          1.732,
+          -1
+         ],
+         [
+          0.866,
+          -0.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          1.732,
+          1
+         ],
+         [
+          2.598,
+          0.5
+         ],
+         [
+          1.732,
+          0
+         ],
+         [
+          0.866,
+          0.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          2.598,
+          -0.5
+         ],
+         [
+          1.732,
+          -1
+         ],
+         [
+          1.732,
+          0
+         ],
+         [
+          2.598,
+          0.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0.866,
+          -0.5
+         ],
+         [
+          1.732,
+          -1
+         ],
+         [
+          1.732,
+          0
+         ],
+         [
+          0.866,
+          0.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          1.732,
+          2
+         ],
+         [
+          2.598,
+          1.5
+         ],
+         [
+          1.732,
+          1
+         ],
+         [
+          0.866,
+          1.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          2.598,
+          0.5
+         ],
+         [
+          1.732,
+          0
+         ],
+         [
+          1.732,
+          1
+         ],
+         [
+          2.598,
+          1.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0.866,
+          0.5
+         ],
+         [
+          1.732,
+          0
+         ],
+         [
+          1.732,
+          1
+         ],
+         [
+          0.866,
+          1.5
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         2.632,
+         -2.9,
+         1.932,
+         -2.2
+        ],
+        "arrow": "end"
+       },
+       {
+        "label": "front",
+        "at": [
+         2.932,
+         -3.15
+        ]
+       },
+       {
+        "seg": [
+         -1.333,
+         -2.65,
+         -0.633,
+         -1.95
+        ],
+        "arrow": "end"
+       },
+       {
+        "label": "left",
+        "at": [
+         -1.633,
+         -2.9
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q11b",
+     "label": "11b",
+     "section": "Enrichment",
+     "stem": "This solid is made of cubes. The arrows show its front and left sides. Each view is drawn as a set of squares.",
+     "prompt": "How many squares are in the front view?",
+     "type": "numeric",
+     "answer": "5"
+    },
+    {
+     "id": "q11c",
+     "label": "11c",
+     "section": "Enrichment",
+     "stem": "This solid is made of cubes. The arrows show its front and left sides. Each view is drawn as a set of squares.",
+     "prompt": "How many squares are in the left view?",
+     "type": "numeric",
+     "answer": "6"
+    }
+   ]
+  },
+  {
+   "id": "7l",
+   "chapter": "Chapter 7: Geometry",
+   "title": "7L Nets of solids",
+   "description": "Match nets to solids, name the Platonic solids and count faces, vertices and cubes.",
+   "questions": [
+    {
+     "id": "q1",
+     "label": "1",
+     "section": "Fluency",
+     "prompt": "Which net folds to make this rectangular prism, which is $4$ cm long, $3$ cm high and $2$ cm deep?",
+     "type": "choice",
+     "answer": 2,
+     "options": [
+      "A",
+      "B",
+      "C"
+     ],
+     "figure": [
+      {
+       "kind": "diagram",
+       "unit": 36,
+       "items": [
+        {
+         "poly": [
+          [
+           2,
+           0
+          ],
+          [
+           2,
+           1.5
+          ],
+          [
+           2.8,
+           2.06
+          ],
+          [
+           2.8,
+           0.56
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           2,
+           1.5
+          ],
+          [
+           0,
+           1.5
+          ],
+          [
+           0.8,
+           2.06
+          ],
+          [
+           2.8,
+           2.06
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           0,
+           0
+          ],
+          [
+           2,
+           0
+          ],
+          [
+           2,
+           1.5
+          ],
+          [
+           0,
+           1.5
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "seg": [
+          0.8,
+          0.56,
+          2.8,
+          0.56
+         ],
+         "dash": true
+        },
+        {
+         "seg": [
+          0.8,
+          2.06,
+          0.8,
+          0.56
+         ],
+         "dash": true
+        },
+        {
+         "seg": [
+          0,
+          0,
+          0.8,
+          0.56
+         ],
+         "dash": true
+        },
+        {
+         "dim": [
+          0,
+          0,
+          2,
+          0
+         ],
+         "label": "4 cm",
+         "off": -0.5
+        },
+        {
+         "dim": [
+          0,
+          0,
+          0,
+          1.5
+         ],
+         "label": "3 cm",
+         "off": 0.5
+        },
+        {
+         "dim": [
+          2,
+          0,
+          2.8,
+          0.56
+         ],
+         "label": "2 cm",
+         "off": -0.5
+        }
+       ]
+      },
+      {
+       "kind": "diagram",
+       "unit": 22,
+       "items": [
+        {
+         "poly": [
+          [
+           0,
+           0
+          ],
+          [
+           2,
+           0
+          ],
+          [
+           2,
+           1.5
+          ],
+          [
+           0,
+           1.5
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           2,
+           0
+          ],
+          [
+           3,
+           0
+          ],
+          [
+           3,
+           1.5
+          ],
+          [
+           2,
+           1.5
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           3,
+           0
+          ],
+          [
+           5,
+           0
+          ],
+          [
+           5,
+           1.5
+          ],
+          [
+           3,
+           1.5
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           5,
+           0
+          ],
+          [
+           6,
+           0
+          ],
+          [
+           6,
+           1.5
+          ],
+          [
+           5,
+           1.5
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           0,
+           1.5
+          ],
+          [
+           2,
+           1.5
+          ],
+          [
+           2,
+           2.5
+          ],
+          [
+           0,
+           2.5
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           3,
+           1.5
+          ],
+          [
+           5,
+           1.5
+          ],
+          [
+           5,
+           2.5
+          ],
+          [
+           3,
+           2.5
+          ]
+         ],
+         "fill": true
+        }
+       ],
+       "caption": "A"
+      },
+      {
+       "kind": "diagram",
+       "unit": 22,
+       "items": [
+        {
+         "poly": [
+          [
+           0,
+           0
+          ],
+          [
+           2,
+           0
+          ],
+          [
+           2,
+           1.5
+          ],
+          [
+           0,
+           1.5
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           2,
+           0
+          ],
+          [
+           3,
+           0
+          ],
+          [
+           3,
+           1.5
+          ],
+          [
+           2,
+           1.5
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           3,
+           0
+          ],
+          [
+           5,
+           0
+          ],
+          [
+           5,
+           1.5
+          ],
+          [
+           3,
+           1.5
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           5,
+           0
+          ],
+          [
+           6,
+           0
+          ],
+          [
+           6,
+           1.5
+          ],
+          [
+           5,
+           1.5
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           0,
+           1.5
+          ],
+          [
+           2,
+           1.5
+          ],
+          [
+           2,
+           3
+          ],
+          [
+           0,
+           3
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           0,
+           -1.5
+          ],
+          [
+           2,
+           -1.5
+          ],
+          [
+           2,
+           0
+          ],
+          [
+           0,
+           0
+          ]
+         ],
+         "fill": true
+        }
+       ],
+       "caption": "B"
+      },
+      {
+       "kind": "diagram",
+       "unit": 22,
+       "items": [
+        {
+         "poly": [
+          [
+           0,
+           0
+          ],
+          [
+           2,
+           0
+          ],
+          [
+           2,
+           1.5
+          ],
+          [
+           0,
+           1.5
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           2,
+           0
+          ],
+          [
+           3,
+           0
+          ],
+          [
+           3,
+           1.5
+          ],
+          [
+           2,
+           1.5
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           3,
+           0
+          ],
+          [
+           5,
+           0
+          ],
+          [
+           5,
+           1.5
+          ],
+          [
+           3,
+           1.5
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           5,
+           0
+          ],
+          [
+           6,
+           0
+          ],
+          [
+           6,
+           1.5
+          ],
+          [
+           5,
+           1.5
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           0,
+           1.5
+          ],
+          [
+           2,
+           1.5
+          ],
+          [
+           2,
+           2.5
+          ],
+          [
+           0,
+           2.5
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           0,
+           -1
+          ],
+          [
+           2,
+           -1
+          ],
+          [
+           2,
+           0
+          ],
+          [
+           0,
+           0
+          ]
+         ],
+         "fill": true
+        }
+       ],
+       "caption": "C"
+      }
+     ]
+    },
+    {
+     "id": "q2",
+     "label": "2",
+     "section": "Fluency",
+     "prompt": "Which net folds to make this square-based pyramid?",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "A",
+      "B",
+      "C"
+     ],
+     "figure": [
+      {
+       "kind": "diagram",
+       "unit": 40,
+       "items": [
+        {
+         "seg": [
+          0,
+          0,
+          2.4,
+          0
+         ]
+        },
+        {
+         "seg": [
+          2.4,
+          0,
+          3.24,
+          0.588
+         ]
+        },
+        {
+         "seg": [
+          3.24,
+          0.588,
+          0.84,
+          0.588
+         ],
+         "dash": true
+        },
+        {
+         "seg": [
+          0.84,
+          0.588,
+          0,
+          0
+         ],
+         "dash": true
+        },
+        {
+         "seg": [
+          1.62,
+          2.494,
+          0,
+          0
+         ]
+        },
+        {
+         "seg": [
+          1.62,
+          2.494,
+          2.4,
+          0
+         ]
+        },
+        {
+         "seg": [
+          1.62,
+          2.494,
+          3.24,
+          0.588
+         ]
+        },
+        {
+         "seg": [
+          1.62,
+          2.494,
+          0.84,
+          0.588
+         ],
+         "dash": true
+        }
+       ]
+      },
+      {
+       "kind": "diagram",
+       "unit": 22,
+       "items": [
+        {
+         "poly": [
+          [
+           0,
+           0
+          ],
+          [
+           1.6,
+           0
+          ],
+          [
+           1.6,
+           1.6
+          ],
+          [
+           0,
+           1.6
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           0.8,
+           -1.4
+          ],
+          [
+           1.6,
+           0
+          ],
+          [
+           0,
+           0
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           3,
+           0.8
+          ],
+          [
+           1.6,
+           1.6
+          ],
+          [
+           1.6,
+           0
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           0.8,
+           3
+          ],
+          [
+           0,
+           1.6
+          ],
+          [
+           1.6,
+           1.6
+          ]
+         ],
+         "fill": true
+        }
+       ],
+       "caption": "A"
+      },
+      {
+       "kind": "diagram",
+       "unit": 22,
+       "items": [
+        {
+         "poly": [
+          [
+           0,
+           0
+          ],
+          [
+           1.6,
+           0
+          ],
+          [
+           1.6,
+           1.6
+          ],
+          [
+           0,
+           1.6
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           0.8,
+           -1.4
+          ],
+          [
+           1.6,
+           0
+          ],
+          [
+           0,
+           0
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           3,
+           0.8
+          ],
+          [
+           1.6,
+           1.6
+          ],
+          [
+           1.6,
+           0
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           0.8,
+           3
+          ],
+          [
+           0,
+           1.6
+          ],
+          [
+           1.6,
+           1.6
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           -1.4,
+           0.8
+          ],
+          [
+           0,
+           0
+          ],
+          [
+           0,
+           1.6
+          ]
+         ],
+         "fill": true
+        }
+       ],
+       "caption": "B"
+      },
+      {
+       "kind": "diagram",
+       "unit": 22,
+       "items": [
+        {
+         "poly": [
+          [
+           0,
+           0
+          ],
+          [
+           1.6,
+           0
+          ],
+          [
+           0.8,
+           1.386
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           1.6,
+           0
+          ],
+          [
+           3.2,
+           0
+          ],
+          [
+           2.4,
+           1.386
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           0.8,
+           1.386
+          ],
+          [
+           2.4,
+           1.386
+          ],
+          [
+           1.6,
+           2.771
+          ]
+         ],
+         "fill": true
+        },
+        {
+         "poly": [
+          [
+           1.6,
+           0
+          ],
+          [
+           2.4,
+           1.386
+          ],
+          [
+           0.8,
+           1.386
+          ]
+         ],
+         "fill": true
+        }
+       ],
+       "caption": "C"
+      }
+     ]
+    },
+    {
+     "id": "q3a",
+     "label": "3a",
+     "section": "Fluency",
+     "stem": "Each net folds up to make a solid.",
+     "prompt": "Which solid does this net make?",
+     "type": "choice",
+     "answer": 2,
+     "options": [
+      "cube",
+      "rectangular prism",
+      "triangular prism",
+      "square-based pyramid",
+      "triangular pyramid",
+      "cylinder",
+      "cone"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 30,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          1.2,
+          0
+         ],
+         [
+          1.2,
+          2.4
+         ],
+         [
+          0,
+          2.4
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          1.2,
+          0
+         ],
+         [
+          2.4,
+          0
+         ],
+         [
+          2.4,
+          2.4
+         ],
+         [
+          1.2,
+          2.4
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          2.4,
+          0
+         ],
+         [
+          3.6,
+          0
+         ],
+         [
+          3.6,
+          2.4
+         ],
+         [
+          2.4,
+          2.4
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          1.2,
+          2.4
+         ],
+         [
+          2.4,
+          2.4
+         ],
+         [
+          1.8,
+          3.439
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          1.8,
+          -1.039
+         ],
+         [
+          2.4,
+          0
+         ],
+         [
+          1.2,
+          0
+         ]
+        ],
+        "fill": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3b",
+     "label": "3b",
+     "section": "Fluency",
+     "stem": "Each net folds up to make a solid.",
+     "prompt": "Which solid does this net make?",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "cube",
+      "rectangular prism",
+      "triangular prism",
+      "square-based pyramid",
+      "triangular pyramid",
+      "cylinder",
+      "cone"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 30,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          1
+         ],
+         [
+          1,
+          1
+         ],
+         [
+          1,
+          2
+         ],
+         [
+          0,
+          2
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          1,
+          1
+         ],
+         [
+          2,
+          1
+         ],
+         [
+          2,
+          2
+         ],
+         [
+          1,
+          2
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          2,
+          1
+         ],
+         [
+          3,
+          1
+         ],
+         [
+          3,
+          2
+         ],
+         [
+          2,
+          2
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          3,
+          1
+         ],
+         [
+          4,
+          1
+         ],
+         [
+          4,
+          2
+         ],
+         [
+          3,
+          2
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          1,
+          2
+         ],
+         [
+          2,
+          2
+         ],
+         [
+          2,
+          3
+         ],
+         [
+          1,
+          3
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          2,
+          0
+         ],
+         [
+          3,
+          0
+         ],
+         [
+          3,
+          1
+         ],
+         [
+          2,
+          1
+         ]
+        ],
+        "fill": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3c",
+     "label": "3c",
+     "section": "Fluency",
+     "stem": "Each net folds up to make a solid.",
+     "prompt": "Which solid does this net make?",
+     "type": "choice",
+     "answer": 5,
+     "options": [
+      "cube",
+      "rectangular prism",
+      "triangular prism",
+      "square-based pyramid",
+      "triangular pyramid",
+      "cylinder",
+      "cone"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 30,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          4.398,
+          0
+         ],
+         [
+          4.398,
+          2
+         ],
+         [
+          0,
+          2
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "circle": [
+         1.2,
+         2.7,
+         0.7
+        ],
+        "fill": true
+       },
+       {
+        "circle": [
+         3,
+         -0.7,
+         0.7
+        ],
+        "fill": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3d",
+     "label": "3d",
+     "section": "Fluency",
+     "stem": "Each net folds up to make a solid.",
+     "prompt": "Which solid does this net make?",
+     "type": "choice",
+     "answer": 3,
+     "options": [
+      "cube",
+      "rectangular prism",
+      "triangular prism",
+      "square-based pyramid",
+      "triangular pyramid",
+      "cylinder",
+      "cone"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 30,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          1.4,
+          0
+         ],
+         [
+          1.4,
+          1.4
+         ],
+         [
+          0,
+          1.4
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0.7,
+          -1.8
+         ],
+         [
+          1.4,
+          0
+         ],
+         [
+          0,
+          0
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          3.2,
+          0.7
+         ],
+         [
+          1.4,
+          1.4
+         ],
+         [
+          1.4,
+          0
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0.7,
+          3.2
+         ],
+         [
+          0,
+          1.4
+         ],
+         [
+          1.4,
+          1.4
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          -1.8,
+          0.7
+         ],
+         [
+          0,
+          0
+         ],
+         [
+          0,
+          1.4
+         ]
+        ],
+        "fill": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3e",
+     "label": "3e",
+     "section": "Fluency",
+     "stem": "Each net folds up to make a solid.",
+     "prompt": "Which solid does this net make?",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "cube",
+      "rectangular prism",
+      "triangular prism",
+      "square-based pyramid",
+      "triangular pyramid",
+      "cylinder",
+      "cone"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 30,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          1.5,
+          0
+         ],
+         [
+          1.5,
+          2.2
+         ],
+         [
+          0,
+          2.2
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          1.5,
+          0
+         ],
+         [
+          2.3,
+          0
+         ],
+         [
+          2.3,
+          2.2
+         ],
+         [
+          1.5,
+          2.2
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          2.3,
+          0
+         ],
+         [
+          3.8,
+          0
+         ],
+         [
+          3.8,
+          2.2
+         ],
+         [
+          2.3,
+          2.2
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          3.8,
+          0
+         ],
+         [
+          4.6,
+          0
+         ],
+         [
+          4.6,
+          2.2
+         ],
+         [
+          3.8,
+          2.2
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0,
+          2.2
+         ],
+         [
+          1.5,
+          2.2
+         ],
+         [
+          1.5,
+          3
+         ],
+         [
+          0,
+          3
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          2.3,
+          -0.8
+         ],
+         [
+          3.8,
+          -0.8
+         ],
+         [
+          3.8,
+          0
+         ],
+         [
+          2.3,
+          0
+         ]
+        ],
+        "fill": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "q3f",
+     "label": "3f",
+     "section": "Fluency",
+     "stem": "Each net folds up to make a solid.",
+     "prompt": "Which solid does this net make?",
+     "type": "choice",
+     "answer": 4,
+     "options": [
+      "cube",
+      "rectangular prism",
+      "triangular prism",
+      "square-based pyramid",
+      "triangular pyramid",
+      "cylinder",
+      "cone"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 30,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          1,
+          0
+         ],
+         [
+          0.5,
+          0.866
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          1,
+          0
+         ],
+         [
+          1.5,
+          0.866
+         ],
+         [
+          0.5,
+          0.866
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          1,
+          0
+         ],
+         [
+          2,
+          0
+         ],
+         [
+          1.5,
+          0.866
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          2,
+          0
+         ],
+         [
+          2.5,
+          0.866
+         ],
+         [
+          1.5,
+          0.866
+         ]
+        ],
+        "fill": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "q4a",
+     "label": "4a",
+     "section": "Fluency",
+     "stem": "Which Platonic solid, or solids, fit each description?",
+     "prompt": "Its faces are squares.",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "tetrahedron",
+      "cube",
+      "octahedron",
+      "dodecahedron",
+      "icosahedron",
+      "dodecahedron and icosahedron",
+      "cube and octahedron"
+     ]
+    },
+    {
+     "id": "q4b",
+     "label": "4b",
+     "section": "Fluency",
+     "stem": "Which Platonic solid, or solids, fit each description?",
+     "prompt": "It has $12$ faces.",
+     "type": "choice",
+     "answer": 3,
+     "options": [
+      "tetrahedron",
+      "cube",
+      "octahedron",
+      "dodecahedron",
+      "icosahedron",
+      "dodecahedron and icosahedron",
+      "cube and octahedron"
+     ]
+    },
+    {
+     "id": "q4c",
+     "label": "4c",
+     "section": "Fluency",
+     "stem": "Which Platonic solid, or solids, fit each description?",
+     "prompt": "It has $4$ vertices.",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "tetrahedron",
+      "cube",
+      "octahedron",
+      "dodecahedron",
+      "icosahedron",
+      "dodecahedron and icosahedron",
+      "cube and octahedron"
+     ]
+    },
+    {
+     "id": "q4d",
+     "label": "4d",
+     "section": "Fluency",
+     "stem": "Which Platonic solid, or solids, fit each description?",
+     "prompt": "It has $30$ edges.",
+     "type": "choice",
+     "answer": 5,
+     "options": [
+      "tetrahedron",
+      "cube",
+      "octahedron",
+      "dodecahedron",
+      "icosahedron",
+      "dodecahedron and icosahedron",
+      "cube and octahedron"
+     ]
+    },
+    {
+     "id": "q4e",
+     "label": "4e",
+     "section": "Fluency",
+     "stem": "Which Platonic solid, or solids, fit each description?",
+     "prompt": "Its faces are triangles, and $4$ faces meet at each vertex.",
+     "type": "choice",
+     "answer": 2,
+     "options": [
+      "tetrahedron",
+      "cube",
+      "octahedron",
+      "dodecahedron",
+      "icosahedron",
+      "dodecahedron and icosahedron",
+      "cube and octahedron"
+     ]
+    },
+    {
+     "id": "q4f",
+     "label": "4f",
+     "section": "Fluency",
+     "stem": "Which Platonic solid, or solids, fit each description?",
+     "prompt": "It has $8$ vertices.",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "tetrahedron",
+      "cube",
+      "octahedron",
+      "dodecahedron",
+      "icosahedron",
+      "dodecahedron and icosahedron",
+      "cube and octahedron"
+     ]
+    },
+    {
+     "id": "q5a",
+     "label": "5a",
+     "section": "Fluency",
+     "stem": "Each net folds up to make one of the five Platonic solids. Name the solid.",
+     "prompt": "Which Platonic solid does this net make?",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "tetrahedron",
+      "cube",
+      "octahedron",
+      "dodecahedron",
+      "icosahedron"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 30,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          1,
+          0
+         ],
+         [
+          1,
+          1
+         ],
+         [
+          0,
+          1
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          1,
+          0
+         ],
+         [
+          2,
+          0
+         ],
+         [
+          2,
+          1
+         ],
+         [
+          1,
+          1
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          1,
+          1
+         ],
+         [
+          2,
+          1
+         ],
+         [
+          2,
+          2
+         ],
+         [
+          1,
+          2
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          2,
+          1
+         ],
+         [
+          3,
+          1
+         ],
+         [
+          3,
+          2
+         ],
+         [
+          2,
+          2
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          2,
+          2
+         ],
+         [
+          3,
+          2
+         ],
+         [
+          3,
+          3
+         ],
+         [
+          2,
+          3
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          3,
+          2
+         ],
+         [
+          4,
+          2
+         ],
+         [
+          4,
+          3
+         ],
+         [
+          3,
+          3
+         ]
+        ],
+        "fill": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "q5b",
+     "label": "5b",
+     "section": "Fluency",
+     "stem": "Each net folds up to make one of the five Platonic solids. Name the solid.",
+     "prompt": "Which Platonic solid does this net make?",
+     "type": "choice",
+     "answer": 4,
+     "options": [
+      "tetrahedron",
+      "cube",
+      "octahedron",
+      "dodecahedron",
+      "icosahedron"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 30,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          1,
+          0
+         ],
+         [
+          0.5,
+          0.866
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          1,
+          0
+         ],
+         [
+          1.5,
+          0.866
+         ],
+         [
+          0.5,
+          0.866
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          1,
+          0
+         ],
+         [
+          2,
+          0
+         ],
+         [
+          1.5,
+          0.866
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          2,
+          0
+         ],
+         [
+          2.5,
+          0.866
+         ],
+         [
+          1.5,
+          0.866
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          2,
+          0
+         ],
+         [
+          3,
+          0
+         ],
+         [
+          2.5,
+          0.866
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          3,
+          0
+         ],
+         [
+          3.5,
+          0.866
+         ],
+         [
+          2.5,
+          0.866
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          3,
+          0
+         ],
+         [
+          4,
+          0
+         ],
+         [
+          3.5,
+          0.866
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          4,
+          0
+         ],
+         [
+          4.5,
+          0.866
+         ],
+         [
+          3.5,
+          0.866
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          4,
+          0
+         ],
+         [
+          5,
+          0
+         ],
+         [
+          4.5,
+          0.866
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          5,
+          0
+         ],
+         [
+          5.5,
+          0.866
+         ],
+         [
+          4.5,
+          0.866
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0.5,
+          0.866
+         ],
+         [
+          1.5,
+          0.866
+         ],
+         [
+          1,
+          1.732
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          1.5,
+          0.866
+         ],
+         [
+          2.5,
+          0.866
+         ],
+         [
+          2,
+          1.732
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          2.5,
+          0.866
+         ],
+         [
+          3.5,
+          0.866
+         ],
+         [
+          3,
+          1.732
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          3.5,
+          0.866
+         ],
+         [
+          4.5,
+          0.866
+         ],
+         [
+          4,
+          1.732
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          4.5,
+          0.866
+         ],
+         [
+          5.5,
+          0.866
+         ],
+         [
+          5,
+          1.732
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0.5,
+          -0.866
+         ],
+         [
+          1,
+          0
+         ],
+         [
+          0,
+          0
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          1.5,
+          -0.866
+         ],
+         [
+          2,
+          0
+         ],
+         [
+          1,
+          0
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          2.5,
+          -0.866
+         ],
+         [
+          3,
+          0
+         ],
+         [
+          2,
+          0
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          3.5,
+          -0.866
+         ],
+         [
+          4,
+          0
+         ],
+         [
+          3,
+          0
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          4.5,
+          -0.866
+         ],
+         [
+          5,
+          0
+         ],
+         [
+          4,
+          0
+         ]
+        ],
+        "fill": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "q5c",
+     "label": "5c",
+     "section": "Fluency",
+     "stem": "Each net folds up to make one of the five Platonic solids. Name the solid.",
+     "prompt": "Which Platonic solid does this net make?",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "tetrahedron",
+      "cube",
+      "octahedron",
+      "dodecahedron",
+      "icosahedron"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 30,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          1.6,
+          0
+         ],
+         [
+          0.8,
+          1.386
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          1.6,
+          0
+         ],
+         [
+          2.4,
+          1.386
+         ],
+         [
+          0.8,
+          1.386
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0.8,
+          1.386
+         ],
+         [
+          2.4,
+          1.386
+         ],
+         [
+          1.6,
+          2.771
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          1.6,
+          0
+         ],
+         [
+          3.2,
+          0
+         ],
+         [
+          2.4,
+          1.386
+         ]
+        ],
+        "fill": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "q5d",
+     "label": "5d",
+     "section": "Fluency",
+     "stem": "Each net folds up to make one of the five Platonic solids. Name the solid.",
+     "prompt": "Which Platonic solid does this net make?",
+     "type": "choice",
+     "answer": 3,
+     "options": [
+      "tetrahedron",
+      "cube",
+      "octahedron",
+      "dodecahedron",
+      "icosahedron"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 30,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0.851
+         ],
+         [
+          -0.809,
+          0.263
+         ],
+         [
+          -0.5,
+          -0.688
+         ],
+         [
+          0.5,
+          -0.688
+         ],
+         [
+          0.809,
+          0.263
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          -0.309,
+          1.802
+         ],
+         [
+          -1.309,
+          1.802
+         ],
+         [
+          -1.618,
+          0.851
+         ],
+         [
+          -0.809,
+          0.263
+         ],
+         [
+          0,
+          0.851
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          -2.118,
+          -0.688
+         ],
+         [
+          -1.309,
+          -1.276
+         ],
+         [
+          -0.5,
+          -0.688
+         ],
+         [
+          -0.809,
+          0.263
+         ],
+         [
+          -1.809,
+          0.263
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0.809,
+          -1.639
+         ],
+         [
+          0.5,
+          -0.688
+         ],
+         [
+          -0.5,
+          -0.688
+         ],
+         [
+          -0.809,
+          -1.639
+         ],
+         [
+          0,
+          -2.227
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0.809,
+          0.263
+         ],
+         [
+          0.5,
+          -0.688
+         ],
+         [
+          1.309,
+          -1.276
+         ],
+         [
+          2.118,
+          -0.688
+         ],
+         [
+          1.809,
+          0.263
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0.809,
+          0.263
+         ],
+         [
+          1.618,
+          0.851
+         ],
+         [
+          1.309,
+          1.802
+         ],
+         [
+          0.309,
+          1.802
+         ],
+         [
+          0,
+          0.851
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          -0.809,
+          -4.717
+         ],
+         [
+          0,
+          -4.129
+         ],
+         [
+          -0.309,
+          -3.178
+         ],
+         [
+          -1.309,
+          -3.178
+         ],
+         [
+          -1.618,
+          -4.129
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          -0.5,
+          -5.668
+         ],
+         [
+          0.5,
+          -5.668
+         ],
+         [
+          0.809,
+          -4.717
+         ],
+         [
+          0,
+          -4.129
+         ],
+         [
+          -0.809,
+          -4.717
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          1.309,
+          -3.178
+         ],
+         [
+          0.5,
+          -2.59
+         ],
+         [
+          -0.309,
+          -3.178
+         ],
+         [
+          0,
+          -4.129
+         ],
+         [
+          1,
+          -4.129
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          -1.618,
+          -2.227
+         ],
+         [
+          -1.309,
+          -3.178
+         ],
+         [
+          -0.309,
+          -3.178
+         ],
+         [
+          0,
+          -2.227
+         ],
+         [
+          -0.809,
+          -1.639
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          -1.618,
+          -4.129
+         ],
+         [
+          -1.309,
+          -3.178
+         ],
+         [
+          -2.118,
+          -2.59
+         ],
+         [
+          -2.927,
+          -3.178
+         ],
+         [
+          -2.618,
+          -4.129
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          -1.618,
+          -4.129
+         ],
+         [
+          -2.427,
+          -4.717
+         ],
+         [
+          -2.118,
+          -5.668
+         ],
+         [
+          -1.118,
+          -5.668
+         ],
+         [
+          -0.809,
+          -4.717
+         ]
+        ],
+        "fill": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "q5e",
+     "label": "5e",
+     "section": "Fluency",
+     "stem": "Each net folds up to make one of the five Platonic solids. Name the solid.",
+     "prompt": "Which Platonic solid does this net make?",
+     "type": "choice",
+     "answer": 2,
+     "options": [
+      "tetrahedron",
+      "cube",
+      "octahedron",
+      "dodecahedron",
+      "icosahedron"
+     ],
+     "figure": {
+      "kind": "diagram",
+      "unit": 30,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          0
+         ],
+         [
+          1,
+          0
+         ],
+         [
+          0.5,
+          0.866
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          1,
+          0
+         ],
+         [
+          1.5,
+          0.866
+         ],
+         [
+          0.5,
+          0.866
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          1,
+          0
+         ],
+         [
+          2,
+          0
+         ],
+         [
+          1.5,
+          0.866
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          2,
+          0
+         ],
+         [
+          2.5,
+          0.866
+         ],
+         [
+          1.5,
+          0.866
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          2,
+          0
+         ],
+         [
+          3,
+          0
+         ],
+         [
+          2.5,
+          0.866
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          3,
+          0
+         ],
+         [
+          3.5,
+          0.866
+         ],
+         [
+          2.5,
+          0.866
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          2.5,
+          0.866
+         ],
+         [
+          3.5,
+          0.866
+         ],
+         [
+          3,
+          1.732
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "poly": [
+         [
+          0.5,
+          -0.866
+         ],
+         [
+          1,
+          0
+         ],
+         [
+          0,
+          0
+         ]
+        ],
+        "fill": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "q6a",
+     "label": "6a",
+     "section": "Fluency",
+     "stem": "How many faces meet at each vertex of these Platonic solids?",
+     "prompt": "An octahedron",
+     "type": "numeric",
+     "answer": "4"
+    },
+    {
+     "id": "q6b",
+     "label": "6b",
+     "section": "Fluency",
+     "stem": "How many faces meet at each vertex of these Platonic solids?",
+     "prompt": "A cube",
+     "type": "numeric",
+     "answer": "3"
+    },
+    {
+     "id": "q6c",
+     "label": "6c",
+     "section": "Fluency",
+     "stem": "How many faces meet at each vertex of these Platonic solids?",
+     "prompt": "An icosahedron",
+     "type": "numeric",
+     "answer": "5"
+    },
+    {
+     "id": "q6d",
+     "label": "6d",
+     "section": "Fluency",
+     "stem": "How many faces meet at each vertex of these Platonic solids?",
+     "prompt": "A tetrahedron",
+     "type": "numeric",
+     "answer": "3"
+    },
+    {
+     "id": "q6e",
+     "label": "6e",
+     "section": "Fluency",
+     "stem": "How many faces meet at each vertex of these Platonic solids?",
+     "prompt": "A dodecahedron",
+     "type": "numeric",
+     "answer": "3"
+    },
+    {
+     "id": "q7",
+     "label": "7",
+     "section": "Problem-solving",
+     "prompt": "Jade cuts out a net for a cone. The net is a circle for the base and one other piece that curls round to make the sloping surface. What shape is that other piece?",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "a sector (a fan shape cut from a circle)",
+      "a rectangle",
+      "a triangle",
+      "a semicircle with a square on it"
+     ]
+    },
+    {
+     "id": "q8a",
+     "label": "8a",
+     "section": "Problem-solving",
+     "stem": "How many different nets are there for these solids? Do not count rotations or reflections of the same net.",
+     "prompt": "A cube",
+     "type": "numeric",
+     "answer": "11"
+    },
+    {
+     "id": "q8b",
+     "label": "8b",
+     "section": "Problem-solving",
+     "stem": "How many different nets are there for these solids? Do not count rotations or reflections of the same net.",
+     "prompt": "A regular tetrahedron",
+     "type": "numeric",
+     "answer": "2"
+    },
+    {
+     "id": "q9a",
+     "label": "9a",
+     "section": "Reasoning",
+     "stem": "A square-based pyramid is glued onto the top of a cube. The base of the pyramid is exactly the same size as the top face of the cube, so they join to make one new solid.",
+     "prompt": "How many faces does the new solid have?",
+     "type": "numeric",
+     "answer": "9",
+     "stemFigure": {
+      "kind": "diagram",
+      "unit": 36,
+      "items": [
+       {
+        "seg": [
+         0,
+         0,
+         2,
+         0
+        ]
+       },
+       {
+        "seg": [
+         2,
+         0,
+         2,
+         2
+        ]
+       },
+       {
+        "seg": [
+         2,
+         2,
+         0,
+         2
+        ]
+       },
+       {
+        "seg": [
+         0,
+         2,
+         0,
+         0
+        ]
+       },
+       {
+        "seg": [
+         2,
+         0,
+         3,
+         0.7
+        ]
+       },
+       {
+        "seg": [
+         3,
+         0.7,
+         3,
+         2.7
+        ]
+       },
+       {
+        "seg": [
+         2,
+         2,
+         3,
+         2.7
+        ]
+       },
+       {
+        "seg": [
+         1,
+         0.7,
+         3,
+         0.7
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         1,
+         0.7,
+         1,
+         2.7
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         0,
+         0,
+         1,
+         0.7
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         3,
+         2.7,
+         1,
+         2.7
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         0,
+         2,
+         1,
+         2.7
+        ],
+        "dash": true
+       },
+       {
+        "seg": [
+         1.5,
+         4.15,
+         0,
+         2
+        ]
+       },
+       {
+        "seg": [
+         1.5,
+         4.15,
+         2,
+         2
+        ]
+       },
+       {
+        "seg": [
+         1.5,
+         4.15,
+         3,
+         2.7
+        ]
+       },
+       {
+        "seg": [
+         1.5,
+         4.15,
+         1,
+         2.7
+        ],
+        "dash": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "q9b",
+     "label": "9b",
+     "section": "Reasoning",
+     "stem": "A square-based pyramid is glued onto the top of a cube. The base of the pyramid is exactly the same size as the top face of the cube, so they join to make one new solid.",
+     "prompt": "Are all of the faces of the new solid identical?",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "Yes",
+      "No"
+     ]
+    },
+    {
+     "id": "q9c",
+     "label": "9c",
+     "section": "Reasoning",
+     "stem": "A square-based pyramid is glued onto the top of a cube. The base of the pyramid is exactly the same size as the top face of the cube, so they join to make one new solid.",
+     "prompt": "How many vertices does the new solid have?",
+     "type": "numeric",
+     "answer": "9"
+    },
+    {
+     "id": "q10",
+     "label": "10",
+     "section": "Reasoning",
+     "prompt": "Is it possible to draw a net for a sphere (one flat shape that folds up exactly into a sphere)?",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "Yes",
+      "No"
+     ]
+    },
+    {
+     "id": "q11a",
+     "label": "11a",
+     "section": "Enrichment",
+     "stem": "This large cube is made from $1$ cm cubes, $4$ along each edge, so it contains $4 \\times 4 \\times 4 = 64$ small cubes.",
+     "prompt": "How many $1$ cm cubes are completely inside the large cube, with no faces on the outside?",
+     "type": "numeric",
+     "answer": "8",
+     "stemFigure": {
+      "kind": "diagram",
+      "unit": 26,
+      "items": [
+       {
+        "poly": [
+         [
+          0,
+          4
+         ],
+         [
+          3.464,
+          2
+         ],
+         [
+          0,
+          0
+         ],
+         [
+          -3.464,
+          2
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         0.866,
+         3.5,
+         -2.598,
+         1.5
+        ]
+       },
+       {
+        "seg": [
+         -0.866,
+         3.5,
+         2.598,
+         1.5
+        ]
+       },
+       {
+        "seg": [
+         1.732,
+         3,
+         -1.732,
+         1
+        ]
+       },
+       {
+        "seg": [
+         -1.732,
+         3,
+         1.732,
+         1
+        ]
+       },
+       {
+        "seg": [
+         2.598,
+         2.5,
+         -0.866,
+         0.5
+        ]
+       },
+       {
+        "seg": [
+         -2.598,
+         2.5,
+         0.866,
+         0.5
+        ]
+       },
+       {
+        "poly": [
+         [
+          3.464,
+          -2
+         ],
+         [
+          0,
+          -4
+         ],
+         [
+          0,
+          0
+         ],
+         [
+          3.464,
+          2
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         2.598,
+         -2.5,
+         2.598,
+         1.5
+        ]
+       },
+       {
+        "seg": [
+         3.464,
+         -1,
+         0,
+         -3
+        ]
+       },
+       {
+        "seg": [
+         1.732,
+         -3,
+         1.732,
+         1
+        ]
+       },
+       {
+        "seg": [
+         3.464,
+         0,
+         0,
+         -2
+        ]
+       },
+       {
+        "seg": [
+         0.866,
+         -3.5,
+         0.866,
+         0.5
+        ]
+       },
+       {
+        "seg": [
+         3.464,
+         1,
+         0,
+         -1
+        ]
+       },
+       {
+        "poly": [
+         [
+          -3.464,
+          -2
+         ],
+         [
+          0,
+          -4
+         ],
+         [
+          0,
+          0
+         ],
+         [
+          -3.464,
+          2
+         ]
+        ],
+        "fill": true
+       },
+       {
+        "seg": [
+         -2.598,
+         -2.5,
+         -2.598,
+         1.5
+        ]
+       },
+       {
+        "seg": [
+         -3.464,
+         -1,
+         0,
+         -3
+        ]
+       },
+       {
+        "seg": [
+         -1.732,
+         -3,
+         -1.732,
+         1
+        ]
+       },
+       {
+        "seg": [
+         -3.464,
+         0,
+         0,
+         -2
+        ]
+       },
+       {
+        "seg": [
+         -0.866,
+         -3.5,
+         -0.866,
+         0.5
+        ]
+       },
+       {
+        "seg": [
+         -3.464,
+         1,
+         0,
+         -1
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "q11b",
+     "label": "11b",
+     "section": "Enrichment",
+     "stem": "This large cube is made from $1$ cm cubes, $4$ along each edge, so it contains $4 \\times 4 \\times 4 = 64$ small cubes.",
+     "prompt": "How many $1$ cm cubes have at least one face on the outside?",
+     "type": "numeric",
+     "answer": "56"
+    },
+    {
+     "id": "q11c",
+     "label": "11c",
+     "section": "Enrichment",
+     "stem": "Complete the table for large cubes with side length $n$ cm. Type the missing values in order, separated by commas.",
+     "prompt": "The missing values in the row for $n^3$ (for $n = 3, 4, 5$)",
+     "type": "ordered",
+     "answer": [
+      "27",
+      "64",
+      "125"
+     ],
+     "stemFigure": {
+      "kind": "table",
+      "rows": [
+       [
+        "n (side length)",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+       ],
+       [
+        "n cubed (number of 1 cm cubes)",
+        "1",
+        "8",
+        "?",
+        "?",
+        "?"
+       ],
+       [
+        "Number of inside cubes",
+        "0",
+        "?",
+        "?",
+        "?",
+        "?"
+       ],
+       [
+        "Number of outside cubes",
+        "1",
+        "?",
+        "?",
+        "?",
+        "?"
+       ]
+      ]
+     }
+    },
+    {
+     "id": "q11d",
+     "label": "11d",
+     "section": "Enrichment",
+     "stem": "Complete the table for large cubes with side length $n$ cm. Type the missing values in order, separated by commas.",
+     "prompt": "The missing values in the row for inside cubes (for $n = 2, 3, 4, 5$)",
+     "type": "ordered",
+     "answer": [
+      "0",
+      "1",
+      "8",
+      "27"
+     ]
+    },
+    {
+     "id": "q11e",
+     "label": "11e",
+     "section": "Enrichment",
+     "stem": "Complete the table for large cubes with side length $n$ cm. Type the missing values in order, separated by commas.",
+     "prompt": "The missing values in the row for outside cubes (for $n = 2, 3, 4, 5$)",
+     "type": "ordered",
+     "answer": [
+      "8",
+      "26",
+      "56",
+      "98"
+     ]
+    },
+    {
+     "id": "q11f",
+     "label": "11f",
+     "section": "Enrichment",
+     "stem": "For a large cube with side length $n$ cm (where $n$ is $2$ or more), write a rule using $n$ for:",
+     "prompt": "the total number of cubes",
+     "type": "expression",
+     "answer": "n^3",
+     "hint": "Type n cubed as n^3, and use brackets where you need them, for example (n+1)^3"
+    },
+    {
+     "id": "q11g",
+     "label": "11g",
+     "section": "Enrichment",
+     "stem": "For a large cube with side length $n$ cm (where $n$ is $2$ or more), write a rule using $n$ for:",
+     "prompt": "the number of inside cubes",
+     "type": "expression",
+     "answer": "(n-2)^3"
+    },
+    {
+     "id": "q11h",
+     "label": "11h",
+     "section": "Enrichment",
+     "stem": "For a large cube with side length $n$ cm (where $n$ is $2$ or more), write a rule using $n$ for:",
+     "prompt": "the number of outside cubes",
+     "type": "expression",
+     "answer": "n^3-(n-2)^3"
     }
    ]
   }
