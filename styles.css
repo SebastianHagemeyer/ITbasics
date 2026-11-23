@@ -1364,7 +1364,7 @@ html[data-auth="out"] .site-footer { display: none; }
   outline-offset: -2px;
 }
 .leaderboard-table .col-rank { width: 56px; }
-.leaderboard-table .col-class { width: 80px; color: var(--muted); }
+.leaderboard-table .col-class { width: 80px; color: var(--muted); white-space: nowrap; }
 .leaderboard-table .col-score { width: 110px; text-align: center; }
 .leaderboard-table .col-total { width: 80px; text-align: right; }
 .leaderboard-table .col-total strong { color: var(--primary-ink-hover); font-size: 1.05rem; }
@@ -4168,6 +4168,17 @@ details.callout-collapse .callout-body p:last-child { margin-bottom: 0; }
   font: inherit;
 }
 .teacher-actions { display: flex; gap: 10px; margin-left: auto; }
+.teacher-show-archived {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding-bottom: 10px;
+  color: var(--muted);
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+.teacher-show-archived[hidden] { display: none; }
+.teacher-show-archived input { accent-color: var(--primary); cursor: pointer; }
 
 .teacher-status { color: var(--muted); margin: 6px 0; }
 .teacher-summary {
@@ -4630,6 +4641,19 @@ body[data-xp-gate="checking"] main > * { display: none; }
 .lb-more:hover { color: var(--text); border-color: var(--muted); }
 .lb-more-chev { width: 8px; height: 12px; transition: transform 0.15s; }
 .lb-classes.lb-open .lb-more-chev { transform: rotate(180deg); }
+
+/* "Include archived classes" tick, shown on All + All time only. */
+.lb-archived {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 10px 4px;
+  color: var(--muted);
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+.lb-archived[hidden] { display: none; }
+.lb-archived input { width: 16px; height: 16px; accent-color: var(--primary); cursor: pointer; }
 
 /* Level badge in the XP board. */
 .col-level { white-space: nowrap; }

@@ -20,10 +20,45 @@
 
   // Classes that have finished. Their scores stay in the database, they just
   // stop cluttering the board: no tab, and left out of "All" so this term's
-  // students are not ranked against last term's finished work. One list, one
-  // place to edit when the semester turns over.
-  const ARCHIVED_CLASSES = ["7A", "7B", "9ITAA"];
-  function archived(c) { return ARCHIVED_CLASSES.indexOf(c) !== -1; }
+  // students are not ranked against last term's finished work. The list lives
+  // in the database (class_archive): archive or unarchive a class with the
+  // Archive class button on the teacher page. loadArchived() fills this set.
+  const archivedSet = new Set();
+  function archived(c) { return archivedSet.has(c); }
+
+  // Accounts that are not a real class and never get a tab of their own.
+  const NO_TAB = ["TEACHER", "TEST", "CLUB"];
+
+  async function loadArchived() {
+    if (!window.ITBasics || !window.ITBasics.isOnline()) return;
+    try {
+      const { data, error } = await window.ITBasics.client().rpc("it_archived_classes");
+      if (!error) (data || []).forEach(function (r) { archivedSet.add(r.class); });
+    } catch (e) { /* supabase-rollover.sql not run yet: nothing is archived */ }
+  }
+
+  // The class tabs in the HTML are a starting set. Any current class that has
+  // students but no tab (a new year's class, say 9IT1A) gets one here, slotted
+  // in before "All", so a new class never needs an HTML edit to show up.
+  function addMissingClassTabs(rows) {
+    const bar = document.querySelector('[data-tabs="class"]');
+    if (!bar) return;
+    const allTab = bar.querySelector('.quiz-tab[data-class="ALL"]');
+    const have = new Set(Array.prototype.map.call(bar.querySelectorAll(".quiz-tab"), function (t) {
+      return t.dataset.class;
+    }));
+    const missing = Array.from(new Set(rows.map(function (r) { return r.class; })))
+      .filter(function (c) { return c && !have.has(c) && !archived(c) && NO_TAB.indexOf(c) === -1; })
+      .sort(function (a, b) { return parseInt(a, 10) - parseInt(b, 10) || a.localeCompare(b); });
+    missing.forEach(function (c) {
+      const b = document.createElement("button");
+      b.className = "quiz-tab";
+      b.dataset.class = c;
+      b.setAttribute("role", "tab");
+      b.textContent = c;
+      bar.insertBefore(b, allTab);
+    });
+  }
 
   async function loadRows() {
     const status = document.getElementById("leaderboard-status");
@@ -175,10 +210,34 @@
     return quizTotal(r);
   }
 
+  // "Include archived classes": a tick under the tabs, offered only on All +
+  // All time (archived classes have no tab, and Today is about this term).
+  let includeArchived = false;
+  const ARCHIVED_PREF = "itbasics-lb-archived";
+  try { includeArchived = localStorage.getItem(ARCHIVED_PREF) === "1"; } catch (e) {}
+
+  function archivedOffered() {
+    return currentClass === "ALL" && !todayOnly && archivedSet.size > 0;
+  }
+  function archivedShown() { return includeArchived && archivedOffered(); }
+
+  function setupArchivedToggle() {
+    const box = document.getElementById("lb-include-archived");
+    if (!box) return;
+    box.checked = includeArchived;
+    box.addEventListener("change", function () {
+      includeArchived = box.checked;
+      try { localStorage.setItem(ARCHIVED_PREF, includeArchived ? "1" : "0"); } catch (e) {}
+      render();
+    });
+  }
+
   function render() {
     const head = document.getElementById("leaderboard-head");
     const body = document.getElementById("leaderboard-body");
     const status = document.getElementById("leaderboard-status");
+    const tick = document.querySelector(".lb-archived");
+    if (tick) tick.hidden = !archivedOffered();
     head.innerHTML = headerRow();
     body.innerHTML = "";
 
@@ -202,8 +261,11 @@
     // Teacher accounts never appear in the regular rankings - Mr H lives in
     // his own pinned row above. The TEST class (gremlin test account) is
     // hidden too, so testing never pollutes the standings.
+    // Archived classes stay off the board unless the "Include archived
+    // classes" tick is on, which only applies to All + All time.
+    const showOld = archivedShown();
     rows = rows.filter(function (r) {
-      return r.class !== "TEACHER" && r.class !== "TEST" && !archived(r.class);
+      return r.class !== "TEACHER" && r.class !== "TEST" && (showOld || !archived(r.class));
     });
     if (currentClass !== "ALL") rows = rows.filter(function (r) { return r.class === currentClass; });
 
@@ -362,9 +424,14 @@
   }
 
   function setupClassTabs() {
-    // Drop the finished classes' tabs before anything else reads the list.
+    // Drop the finished classes' tabs before anything else reads the list,
+    // and any tab with nobody in it: archiving renames a class (7A becomes
+    // 7A-2026), which leaves the HTML's old 7A tab empty.
+    const inUse = new Set((cachedRows || []).map(function (r) { return r.class; }));
     document.querySelectorAll('[data-tabs="class"] .quiz-tab').forEach(function (t) {
-      if (archived(t.dataset.class)) t.remove();
+      const c = t.dataset.class;
+      if (c === "ALL") return;
+      if (archived(c) || (cachedRows && !inUse.has(c))) t.remove();
     });
     const tabs = document.querySelectorAll('[data-tabs="class"] .quiz-tab');
     const more = document.querySelector('[data-tabs="class"] .lb-more');
@@ -464,9 +531,12 @@
 
   async function boot() {
     setupModeTabs();
-    setupClassTabs();
     setupPeriodTabs();
+    setupArchivedToggle();
+    await loadArchived();
     cachedRows = await loadRows();
+    addMissingClassTabs(cachedRows);
+    setupClassTabs();
     render();
     loadAvatars();
   }

@@ -22,11 +22,17 @@
 -- Re-run the whole file after any of these. The dates are when the change
 -- landed on main, so you can tell at a glance whether you are current.
 --
+-- 2026-11-23  students (rollover)   Re-running this file no longer moves anyone
+--                                    back to their 2026 class: the upserts only
+--                                    refresh names now. Classes for 2027 are set
+--                                    by the private roster sync script, history
+--                                    and archived classes by supabase-rollover.sql.
 -- 2026-11-18  students (LOCKED)      The open read policy on students is gone.
 --                                    Run supabase-lockdown.sql FIRST (sign-in,
 --                                    leaderboard and teacher roster functions),
 --                                    then this file. Re-running this file on its
 --                                    own before that breaks sign-in.
+-- 2026-10-07  students               Justin Balingat (BAL0027) added to 10ITB.
 -- 2026-08-20  students               Year 9 IT class (9ITAB): 25 students added.
 -- 2026-07-30  students               Staff accounts section added, so MRH0001
 --                                    survives a rebuild from this file. A staff
@@ -130,7 +136,7 @@ insert into students (code, first_name, last_name, class, year_level) values
   ('MOQ0004', 'Soraya',     'Moqaddam',       '7A',     7),
   ('PAL0031', 'Amaris',     'Palu',           '7A',     7),
   ('PET0050', 'Reily',      'Peterson',       '7A',     7),
-  ('ROO0003', 'Hannah',     'Rooney',         '7A',     7),
+  ('ROO0003', 'Hannah',     'Rooney',         '7ITD',   7),
   ('SHE0036', 'Cruz',       'Sheppard',       '7A',     7),
   ('VHO0003', 'Amrin',      'Vhora',          '7A',     7),
   ('WRI0041', 'Phillip',    'Wright',         '7A',     7),
@@ -174,9 +180,7 @@ insert into students (code, first_name, last_name, class, year_level) values
   ('WIL0114', 'Jack',       'Williams',       '9ITAA',  9)
 on conflict (code) do update set
   first_name = excluded.first_name,
-  last_name  = excluded.last_name,
-  class      = excluded.class,
-  year_level = excluded.year_level;
+  last_name  = excluded.last_name;
 
 -- ============================================================
 -- Additional IT classes added June 2026 (65 students)
@@ -187,6 +191,7 @@ insert into students (code, first_name, last_name, class, year_level) values
   -- 10ITB
   ('AMI0032', 'Bilal Ahmad',   'Amin',         '10ITB', 10),
   ('ASH0028', 'Muhammad',      'Asher',        '10ITB', 10),
+  ('BAL0027', 'Justin',        'Balingat',     '10ITB', 10),
   ('BER0026', 'Noah',          'Berton',       '10ITB', 10),
   ('CAN0025', 'Rishi',         'Canistan',     '10ITB', 10),
   ('CHI0019', 'Stan',          'Chikazhe',     '10ITB', 10),
@@ -211,9 +216,7 @@ insert into students (code, first_name, last_name, class, year_level) values
   ('ZAH0027', 'Nazia',         'Zahedi',       '10ITB', 10)
 on conflict (code) do update set
   first_name = excluded.first_name,
-  last_name  = excluded.last_name,
-  class      = excluded.class,
-  year_level = excluded.year_level;
+  last_name  = excluded.last_name;
 
 insert into students (code, first_name, last_name, class, year_level) values
   -- 7ITC
@@ -240,9 +243,7 @@ insert into students (code, first_name, last_name, class, year_level) values
   ('WOR0009', 'Charlotte', 'Worroll',           '7ITC', 7)
 on conflict (code) do update set
   first_name = excluded.first_name,
-  last_name  = excluded.last_name,
-  class      = excluded.class,
-  year_level = excluded.year_level;
+  last_name  = excluded.last_name;
 
 insert into students (code, first_name, last_name, class, year_level) values
   -- 7ITD
@@ -269,9 +270,7 @@ insert into students (code, first_name, last_name, class, year_level) values
   ('TUI0043', 'Alofa',   'Tuimavave',    '7ITD', 7)
 on conflict (code) do update set
   first_name = excluded.first_name,
-  last_name  = excluded.last_name,
-  class      = excluded.class,
-  year_level = excluded.year_level;
+  last_name  = excluded.last_name;
 
 -- ============================================================
 -- Later roster additions (July 2026)
@@ -280,9 +279,7 @@ insert into students (code, first_name, last_name, class, year_level) values
   ('SIL0015', 'Logan', 'Silver', '10ITB', 10)
 on conflict (code) do update set
   first_name = excluded.first_name,
-  last_name  = excluded.last_name,
-  class      = excluded.class,
-  year_level = excluded.year_level;
+  last_name  = excluded.last_name;
 
 -- ============================================================
 -- Year 9 IT class added August 2026 (25 students, 9ITAB)
@@ -320,9 +317,7 @@ insert into students (code, first_name, last_name, class, year_level) values
   ('WAT0033', 'Korben',       'Watson',   '9ITAB', 9)
 on conflict (code) do update set
   first_name = excluded.first_name,
-  last_name  = excluded.last_name,
-  class      = excluded.class,
-  year_level = excluded.year_level;
+  last_name  = excluded.last_name;
 
 -- ============================================================
 -- Test "gremlin" account
@@ -334,9 +329,7 @@ insert into students (code, first_name, last_name, class, year_level) values
   ('GREMLIN', 'Gremlin', 'McTest', 'TEST', 0)
 on conflict (code) do update set
   first_name = excluded.first_name,
-  last_name  = excluded.last_name,
-  class      = excluded.class,
-  year_level = excluded.year_level;
+  last_name  = excluded.last_name;
 
 -- ============================================================
 -- Staff accounts
@@ -354,9 +347,7 @@ insert into students (code, first_name, last_name, class, year_level) values
   ('MRH0001', 'Mr', 'H', 'TEACHER', 0)
 on conflict (code) do update set
   first_name = excluded.first_name,
-  last_name  = excluded.last_name,
-  class      = excluded.class,
-  year_level = excluded.year_level;
+  last_name  = excluded.last_name;
 
 -- ============================================================
 -- Teacher view: latest & best score per student per quiz

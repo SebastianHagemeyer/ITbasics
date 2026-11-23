@@ -120,20 +120,21 @@
       </div>
 
       <!-- Your own class sits on its own; the rest stay folded away behind the
-           arrow so the row is not a wall of six tabs you never press. -->
+           arrow so the row is not a wall of six tabs you never press.
+           Class tabs are built by leaderboard.js from the current (not
+           archived) classes, so a new school year needs no edit here. -->
       <div class="quiz-tabs lb-classes" role="tablist" data-tabs="class">
-        <button class="quiz-tab" data-class="7A" role="tab">7A</button>
-        <button class="quiz-tab" data-class="7B" role="tab">7B</button>
-        <button class="quiz-tab active" data-class="7ITC" role="tab">7ITC</button>
-        <button class="quiz-tab" data-class="7ITD" role="tab">7ITD</button>
-        <button class="quiz-tab" data-class="9ITAA" role="tab">9ITAA</button>
-        <button class="quiz-tab" data-class="10ITB" role="tab">10ITB</button>
         <button class="quiz-tab" data-class="ALL" role="tab">All</button>
         <button type="button" class="lb-more" aria-expanded="false">
           <span class="lb-more-text">Other classes</span>
           <svg class="lb-more-chev" viewBox="0 0 8 12" aria-hidden="true"><path d="M1.5 1L6.5 6l-5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </button>
       </div>
+
+      <label class="lb-archived" hidden>
+        <input type="checkbox" id="lb-include-archived" />
+        Include archived classes
+      </label>
 
       <div id="leaderboard-status" class="leaderboard-status">Loading…</div>
 

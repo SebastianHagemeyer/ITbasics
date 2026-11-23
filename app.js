@@ -594,11 +594,34 @@
                               "/leaderboard/", "/games/"]);
   }
 
+  // The session is saved at sign-in and kept for months, but a student's class
+  // changes under them at the new school year (roster_sync.py) or when an old
+  // class is archived and renamed (7A -> 7A-2026). Re-read their row once per
+  // page load; if the class, year or name moved on, save the fresh copy and
+  // reload once so homework, the leaderboard tab and the header all agree.
+  async function refreshSession() {
+    const s = getSession();
+    if (!supabase || !s || s.offline || !s.code) return;
+    try {
+      const { data, error } = await supabase.rpc("it_signin", { p_code: s.code });
+      if (error) return;
+      const row = Array.isArray(data) ? data[0] : data;
+      if (!row) return;   // never sign anyone out over a lookup hiccup
+      const changed = ["class", "year_level", "first_name", "last_name"].some(function (k) {
+        return row[k] !== s[k];
+      });
+      if (!changed) return;
+      localStorage.setItem(SESSION_KEY, JSON.stringify(Object.assign({}, s, row)));
+      location.reload();
+    } catch (e) { /* offline or blocked: keep the saved session */ }
+  }
+
   function boot() {
     applyAuthState();
     renderAuthBar();
     renderNav();
     setupNavDropdowns();
+    refreshSession();
   }
 
   if (document.readyState === "loading") {

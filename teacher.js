@@ -422,6 +422,16 @@
     return (res.data || []).map(function (r) { return r.class; }).filter(Boolean);
   }
 
+  // Finished classes (class_archive, supabase-rollover.sql). Optional: if the
+  // table is not there yet, every class counts as current.
+  async function loadArchived() {
+    try {
+      var res = await sb().rpc("it_archived_classes");
+      if (res.error) return [];
+      return (res.data || []).map(function (r) { return r.class; });
+    } catch (e) { return []; }
+  }
+
   async function loadRoster(cls) {
     var res = await sb().rpc("it_roster", { p_key: staffKey(), p_class: cls });
     if (res.error) throw new Error(res.error.message);
@@ -816,6 +826,95 @@
     });
   }
 
+  // ---- Class list + archiving -------------------------------------------------
+
+  var ALL_CLASSES = [];
+  var ARCHIVED = [];
+  var NOT_ARCHIVABLE = ["TEACHER", "TEST", "CLUB"];
+
+  function isArchived(c) { return ARCHIVED.indexOf(c) !== -1; }
+
+  // Year order (8ITA, 9IT1A, 10ITA6), not text order (10 before 8).
+  function byYear(a, b) {
+    return (parseInt(a, 10) || 99) - (parseInt(b, 10) || 99) || a.localeCompare(b);
+  }
+
+  // Fills the class dropdown with this year's classes, then the staff/test
+  // accounts. Archived classes are hidden unless "Show archived" is ticked
+  // (their work is still there to look at, and that is how you unarchive).
+  // Returns the current classes. keep = the class to leave selected.
+  function fillClassSelect(keep) {
+    var showOld = el("teacher-show-archived").checked;
+    var current = ALL_CLASSES.filter(function (c) {
+      return !isArchived(c) && NOT_ARCHIVABLE.indexOf(c) === -1;
+    }).sort(byYear);
+    var staff = ALL_CLASSES.filter(function (c) { return NOT_ARCHIVABLE.indexOf(c) !== -1; });
+    var old = ALL_CLASSES.filter(isArchived).sort(byYear);
+    var opts = function (list) {
+      return list.map(function (c) {
+        return '<option value="' + escapeHtml(c) + '">' + escapeHtml(c) + '</option>';
+      }).join("");
+    };
+    var sel = el("teacher-class");
+    sel.innerHTML = opts(current) + opts(staff) +
+      (showOld && old.length ? '<optgroup label="Archived">' + opts(old) + '</optgroup>' : "");
+    el("teacher-show-archived").parentNode.hidden = !old.length;
+    if (keep && Array.prototype.some.call(sel.options, function (o) { return o.value === keep; })) {
+      sel.value = keep;
+    }
+    return current.concat(staff);
+  }
+
+  function updateArchiveButton() {
+    var btn = el("teacher-archive");
+    var cls = el("teacher-class").value;
+    btn.hidden = !cls || NOT_ARCHIVABLE.indexOf(cls) !== -1;
+    btn.textContent = isArchived(cls) ? "Unarchive class" : "Archive class";
+  }
+
+  async function toggleArchive() {
+    var cls = el("teacher-class").value;
+    if (!cls) return;
+    var archiving = !isArchived(cls);
+    var question = archiving
+      ? "Archive " + cls + "?\n\nIt gets the year on the end (like 7A-2026), drops off the " +
+        "leaderboard and moves under Archived here, so a new " + cls + " next year starts fresh. " +
+        "Its students can still sign in, do work and keep everything they've done."
+      : "Unarchive " + cls + "?\n\nIt goes back on the leaderboard and to the top of this list.";
+    if (!window.confirm(question)) return;
+
+    var btn = el("teacher-archive");
+    btn.disabled = true;
+    var res = await sb().rpc("it_set_archived", { p_key: staffKey(), p_class: cls, p_archived: archiving });
+    btn.disabled = false;
+    if (res.error) {
+      var m = String(res.error.message || "");
+      el("teacher-status").textContent = /could not find|does not exist|schema cache/i.test(m)
+        ? "Archiving isn't set up yet: run supabase-rollover.sql in the Supabase SQL editor."
+        : "Couldn't " + (archiving ? "archive " : "unarchive ") + cls + ": " + m;
+      return;
+    }
+    // Archiving renames the class (7A -> 7A-2026), so re-read both lists.
+    var newName = typeof res.data === "string" && res.data ? res.data : cls;
+    ALL_CLASSES = await loadClasses();
+    ARCHIVED = await loadArchived();
+    var current = fillClassSelect(newName);
+    var hw = el("hw-class");
+    if (hw) {
+      var hwKeep = hw.value;
+      hw.innerHTML = current.map(function (c) {
+        return '<option value="' + escapeHtml(c) + '">' + escapeHtml(c) + '</option>';
+      }).join("") + '<option value="ALL">ALL classes</option>';
+      if (hwKeep) hw.value = hwKeep;
+      if (!hw.value) hw.selectedIndex = 0;
+    }
+    updateArchiveButton();
+    await refresh();
+    el("teacher-status").textContent = archiving
+      ? cls + " archived as " + newName + "."
+      : cls + " is back as a current class.";
+  }
+
   async function startTool() {
     if (!window.ITBasics || !window.ITBasics.isOnline()) {
       el("teacher-status").textContent =
@@ -829,17 +928,23 @@
 
     var classes;
     try {
-      classes = await loadClasses();
-      var classSel = el("teacher-class");
-      classSel.innerHTML = classes.map(function (c) {
-        return '<option value="' + escapeHtml(c) + '">' + escapeHtml(c) + '</option>';
-      }).join("");
+      ALL_CLASSES = await loadClasses();
+      ARCHIVED = await loadArchived();
+      classes = fillClassSelect(null);
     } catch (e) {
       el("teacher-status").textContent = "Couldn't load classes: " + (e.message || e);
       return;
     }
 
-    el("teacher-class").addEventListener("change", refresh);
+    el("teacher-class").addEventListener("change", function () { updateArchiveButton(); refresh(); });
+    el("teacher-archive").addEventListener("click", toggleArchive);
+    el("teacher-show-archived").addEventListener("change", function () {
+      var was = el("teacher-class").value;
+      fillClassSelect(was);
+      updateArchiveButton();
+      if (el("teacher-class").value !== was) refresh();
+    });
+    updateArchiveButton();
     el("teacher-task").addEventListener("change", refresh);
     el("teacher-copy").addEventListener("click", copyCsv);
     el("teacher-download").addEventListener("click", downloadCsv);

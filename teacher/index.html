@@ -108,11 +108,15 @@
             <span>Class</span>
             <select id="teacher-class" class="teacher-select"></select>
           </label>
+          <label class="teacher-show-archived" hidden>
+            <input type="checkbox" id="teacher-show-archived" /> Show archived
+          </label>
           <label class="teacher-field">
             <span>Task</span>
             <select id="teacher-task" class="teacher-select"></select>
           </label>
           <div class="teacher-actions">
+            <button type="button" id="teacher-archive" class="btn btn-ghost" title="Hide this class from the leaderboard and file it under Archived. Students can still sign in and keep all their work.">Archive class</button>
             <button type="button" id="teacher-copy" class="btn btn-ghost">Copy CSV</button>
             <button type="button" id="teacher-download" class="btn btn-primary">Download CSV</button>
           </div>
