@@ -74,7 +74,64 @@
       `<tr><th scope="row">${esc(r[0])}</th>${r.slice(1).map(c => String(c) === '?' ? '<td class="gap">?</td>' : `<td>${esc(c)}</td>`).join('')}</tr>`).join('')}</table></div>`;
   }
 
-  const KINDS = { plane, sticks, dots, table };
+  // ---- fraction pictures ----
+  // shaded: a count (the first n parts) or a list of part indexes (0-based).
+  const isShaded = (shaded, i) => Array.isArray(shaded) ? shaded.includes(i) : i < (shaded || 0);
+  const frame = (svg, caption) => `<figure class="fig fig-frac">${svg}${caption ? `<figcaption>${esc(caption)}</figcaption>` : ''}</figure>`;
+
+  // { "kind": "pie", "parts": 8, "shaded": 3, "caption": "A" }
+  function pie(f) {
+    const n = f.parts, R = 52, c = 60;
+    let g = '';
+    for (let i = 0; i < n; i++) {
+      const a0 = -Math.PI / 2 + (2 * Math.PI * i) / n, a1 = -Math.PI / 2 + (2 * Math.PI * (i + 1)) / n;
+      const p = (a) => `${(c + R * Math.cos(a)).toFixed(2)},${(c + R * Math.sin(a)).toFixed(2)}`;
+      const cls = isShaded(f.shaded, i) ? 'fg-on' : 'fg-off';
+      g += n === 1 ? `<circle class="${cls}" cx="${c}" cy="${c}" r="${R}"/>`
+        : `<path class="${cls}" d="M${c},${c} L${p(a0)} A${R},${R} 0 ${a1 - a0 > Math.PI ? 1 : 0} 1 ${p(a1)} Z"/>`;
+    }
+    return frame(`<svg viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="${esc(f.alt || 'A circle split into ' + n + ' equal parts')}">${g}</svg>`, f.caption);
+  }
+
+  // { "kind": "bar", "parts": 5, "shaded": 2 }  (a rectangle in equal strips)
+  function bar(f) {
+    const n = f.parts, W = Math.min(300, Math.max(120, n * 30)), Hh = 44, w = W / n;
+    let g = '';
+    for (let i = 0; i < n; i++) g += `<rect class="${isShaded(f.shaded, i) ? 'fg-on' : 'fg-off'}" x="${2 + i * w}" y="2" width="${w}" height="${Hh}"/>`;
+    return frame(`<svg viewBox="0 0 ${W + 4} ${Hh + 4}" width="${W + 4}" height="${Hh + 4}" role="img" aria-label="${esc(f.alt || 'A bar split into ' + n + ' equal parts')}">${g}</svg>`, f.caption);
+  }
+
+  // { "kind": "grid", "rows": 3, "cols": 4, "shaded": [0, 1, 5] }  (cells numbered across, then down)
+  function grid(f) {
+    const r = f.rows, cN = f.cols, S = Math.max(16, Math.min(34, Math.floor(260 / Math.max(r, cN))));
+    let g = '';
+    for (let y = 0; y < r; y++) for (let x = 0; x < cN; x++) {
+      const i = y * cN + x;
+      g += `<rect class="${isShaded(f.shaded, i) ? 'fg-on' : 'fg-off'}" x="${2 + x * S}" y="${2 + y * S}" width="${S}" height="${S}"/>`;
+    }
+    return frame(`<svg viewBox="0 0 ${cN * S + 4} ${r * S + 4}" width="${cN * S + 4}" height="${r * S + 4}" role="img" aria-label="${esc(f.alt || 'A grid of ' + r * cN + ' squares')}">${g}</svg>`, f.caption);
+  }
+
+  // { "kind": "numberline", "min": 0, "max": 2, "divisions": 4, "points": { "A": 0.75 } }
+  // divisions = equal steps per whole unit. Whole numbers are labelled.
+  function numberline(f) {
+    const lo = f.min ?? 0, hi = f.max ?? 1, div = f.divisions || 1;
+    const units = hi - lo, W = Math.max(240, Math.min(560, units * div * 34)), pad = 20, Hh = 64, yL = 34;
+    const X = (v) => pad + ((v - lo) / units) * W;
+    let g = `<line class="fg-axis" x1="${X(lo) - 8}" y1="${yL}" x2="${X(hi) + 8}" y2="${yL}"/>`;
+    const steps = Math.round(units * div);
+    for (let i = 0; i <= steps; i++) {
+      const v = lo + i / div, whole = Math.abs(v - Math.round(v)) < 1e-9;
+      g += `<line class="${whole ? 'fg-axis' : 'fg-grid-dark'}" x1="${X(v)}" y1="${yL - (whole ? 9 : 6)}" x2="${X(v)}" y2="${yL + (whole ? 9 : 6)}"/>`;
+      if (whole) g += `<text class="fg-tick" x="${X(v)}" y="${yL + 24}" text-anchor="middle">${Math.round(v)}</text>`;
+    }
+    for (const [name, v] of Object.entries(f.points || {})) {
+      g += `<circle class="fg-dotred" cx="${X(v)}" cy="${yL}" r="6"/><text class="fg-ptl" x="${X(v)}" y="${yL - 13}" text-anchor="middle">${esc(name)}</text>`;
+    }
+    return frame(`<svg viewBox="0 0 ${W + pad * 2} ${Hh}" width="${W + pad * 2}" role="img" aria-label="${esc(f.alt || 'A number line from ' + lo + ' to ' + hi)}">${g}</svg>`, f.caption);
+  }
+
+  const KINDS = { plane, sticks, dots, table, pie, bar, grid, numberline };
   window.H3Figure = function (spec) {
     try { return KINDS[spec && spec.kind] ? KINDS[spec.kind](spec) : ''; }
     catch (e) { return ''; }

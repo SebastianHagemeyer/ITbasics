@@ -196,6 +196,7 @@
     placevalue: 'e.g. 600 or hundreds',
     ordered: 'Separate with commas, e.g. 12, 21, 112',
     powers: 'Use ^ for powers, e.g. 2^3 x 5',
+    ratio: 'Use a colon, e.g. 3:4',
   };
 
   const REASONS = {
@@ -214,6 +215,14 @@
     'not simplified': 'Simplify your answer as far as you can.',
     'not index form': 'Write it as a product using powers, e.g. 2^3 x 5.',
     'use powers': 'Write repeated factors as a power, e.g. 2^3 instead of 2 x 2 x 2.',
+    'use mixed': 'Write it as a mixed numeral, e.g. 3 1/2 (a space between the whole number and the fraction).',
+    'not proper': 'In a mixed numeral, the fraction part must be less than 1, e.g. 3 1/2 not 2 3/2.',
+    'use improper': 'Write it as an improper fraction, e.g. 7/2.',
+    'use fraction': 'Write it as a fraction, e.g. 3/4.',
+    'use decimal': 'Write it as a decimal, e.g. 0.75.',
+    'use percent': 'Write it as a percentage, with the % sign, e.g. 75%.',
+    'use ratio': 'Write it as a ratio with a colon, e.g. 3:4.',
+    'ratio not simplest': 'Simplify the ratio: whole numbers with no common factor, e.g. 3:4.',
   };
 
   function notesLine(n) {

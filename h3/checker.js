@@ -192,7 +192,8 @@ const Checker = (() => {
     let m = s.match(/^(-?)(\d+)\s+(\d+)\s*\/\s*(\d+)$/);
     if (m) {
       const v = (+m[2] + (+m[3]) / (+m[4])) * (m[1] ? -1 : 1);
-      return { ok: true, v, percent, frac: { n: +m[3] + (+m[2]) * (+m[4]), d: +m[4] }, mixed: true, plain: true };
+      return { ok: true, v, percent, frac: { n: +m[3] + (+m[2]) * (+m[4]), d: +m[4] }, mixed: true, plain: true,
+        parts: { w: +m[2], n: +m[3], d: +m[4] } };
     }
     // scientific "3.2 x 10^5"
     s = s.replace(/(\d)\s*[x*]\s*10\s*\^\s*(-?\d+)/, '$1e$2');
@@ -239,6 +240,24 @@ const Checker = (() => {
     }
     if (ok && q.simplest && st.frac && gcd(st.frac.n, st.frac.d) !== 1) return { correct: false, reason: 'not simplest' };
     if (ok && q.simplest && st.frac && st.frac.d === 1) return { correct: false, reason: 'not simplest' };
+    // q.as asks for the answer in one particular form, for questions where
+    // the form is the point ("write 7/2 as a mixed numeral"). A right value
+    // in the wrong form gets a reason saying which form is wanted.
+    if (ok && q.as) {
+      const whole = !st.percent && Number.isInteger(st.v) &&/^-?\d+$/.test(String(st.raw ?? clean(studentRaw)).trim());
+      const isFrac = !!st.frac && !st.mixed && !st.percent;
+      if (q.as === 'mixed') {
+        if (st.mixed) {
+          const p = st.parts;
+          if (p.n >= p.d || p.n === 0) return { correct: false, reason: 'not proper' };
+          if (q.simplest !== false && gcd(p.n, p.d) !== 1) return { correct: false, reason: 'not simplest' };
+        } else if (!whole) return { correct: false, reason: 'use mixed' };
+      }
+      if (q.as === 'improper' && !(isFrac || whole)) return { correct: false, reason: 'use improper' };
+      if (q.as === 'fraction' && !(isFrac || whole)) return { correct: false, reason: 'use fraction' };
+      if (q.as === 'decimal' && (st.frac || st.mixed || st.percent)) return { correct: false, reason: 'use decimal' };
+      if (q.as === 'percent' && !st.percent) return { correct: false, reason: 'use percent' };
+    }
     return { correct: ok };
   }
 
@@ -392,6 +411,26 @@ const Checker = (() => {
     return { correct: a.every((x, i) => x === b[i]) };
   }
 
+  // ratios: "3:4", "3 : 4", "2:3:5". Order matters. Equivalent ratios pass
+  // (6:8 for 3:4) unless q.simplest, which wants whole-number parts with no
+  // common factor. Parts may be decimals or fractions on the way.
+  function ratioMatch(q, raw, key) {
+    const parts = (s) => clean(s).replace(/\s+/g, '').split(':').map(p => toNumber(p));
+    const st = parts(raw), ex = parts(key);
+    if (st.length < 2) return { correct: false, reason: 'use ratio' };
+    if (st.some(p => !p.ok) || ex.some(p => !p.ok)) return { correct: false, reason: 'unreadable' };
+    if (st.length !== ex.length) return { correct: false };
+    const k = st[0].v / ex[0].v;
+    if (!isFinite(k) || k <= 0) return { correct: false };
+    if (!st.every((p, i) => close(p.v, ex[i].v * k))) return { correct: false };
+    if (q.simplest) {
+      const ints = st.map(p => p.v);
+      if (!ints.every(v => Number.isInteger(v)) || st.some(p => p.frac || p.mixed)) return { correct: false, reason: 'ratio not simplest' };
+      if (ints.reduce((a, b) => gcd(a, b)) !== 1) return { correct: false, reason: 'ratio not simplest' };
+    }
+    return { correct: true };
+  }
+
   // index form and prime factors: "2^3 × 5", "2 x 2 x 2 x 5", "5 × 2^3", "a^3 b^2".
   // Both sides become a map of base -> total power, so the order does not
   // matter and 2 × 2 × 2 equals 2^3. With q.index, each base must be written
@@ -464,6 +503,11 @@ const Checker = (() => {
         case 'brackets': return bracketsMatch(q, raw);
         case 'product': return productMatch(q, raw);
         case 'placevalue': return placeValueMatch(q, raw);
+        case 'ratio': {
+          let last = { correct: false };
+          for (const k of keys) { last = ratioMatch(q, raw, String(k)); if (last.correct) return last; }
+          return last;
+        }
         case 'powers': {
           let last = { correct: false };
           for (const k of keys) { last = powersMatch(q, raw, String(k)); if (last.correct) return last; }

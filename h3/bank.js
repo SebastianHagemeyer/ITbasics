@@ -16899,6 +16899,9097 @@ window.H3_BANK = {
      "hint": "Type coordinates in brackets, for example (2, 5)."
     }
    ]
+  },
+  {
+   "id": "3a",
+   "chapter": "Chapter 3: Fractions and percentages",
+   "title": "3A Introduction to fractions",
+   "description": "Reading fractions from pizzas, shaded diagrams and number lines, and writing parts of a total as fractions.",
+   "questions": [
+    {
+     "id": "q1a",
+     "label": "1a",
+     "section": "Fluency",
+     "stem": "Look at the pizza. The shaded slices have been picked.",
+     "stemFigure": {
+      "kind": "pie",
+      "parts": 6,
+      "shaded": [
+       0,
+       1,
+       2,
+       4,
+       5
+      ]
+     },
+     "prompt": "Into how many equal pieces has the whole pizza been cut?",
+     "type": "numeric",
+     "answer": "6"
+    },
+    {
+     "id": "q1b",
+     "label": "1b",
+     "section": "Fluency",
+     "stem": "Look at the pizza. The shaded slices have been picked.",
+     "prompt": "How many pieces have been picked (shaded)?",
+     "type": "numeric",
+     "answer": "5"
+    },
+    {
+     "id": "q1c",
+     "label": "1c",
+     "section": "Fluency",
+     "stem": "Look at the pizza. The shaded slices have been picked.",
+     "prompt": "To write the shaded part as a fraction, what must the denominator (bottom number) be?",
+     "type": "numeric",
+     "answer": "6"
+    },
+    {
+     "id": "q1d",
+     "label": "1d",
+     "section": "Fluency",
+     "stem": "Look at the pizza. The shaded slices have been picked.",
+     "prompt": "What must the numerator (top number) be?",
+     "type": "numeric",
+     "answer": "5"
+    },
+    {
+     "id": "q1e",
+     "label": "1e",
+     "section": "Fluency",
+     "stem": "Look at the pizza. The shaded slices have been picked.",
+     "prompt": "Write the shaded amount of pizza as a fraction.",
+     "type": "numeric",
+     "answer": "5/6",
+     "as": "fraction",
+     "hint": "Type a fraction like 2/3"
+    },
+    {
+     "id": "q2a",
+     "label": "2a",
+     "section": "Fluency",
+     "stem": "Write the shaded amount of each pizza as a fraction.",
+     "prompt": "Pizza A",
+     "figure": {
+      "kind": "pie",
+      "parts": 6,
+      "shaded": 1
+     },
+     "type": "numeric",
+     "answer": "1/6",
+     "as": "fraction"
+    },
+    {
+     "id": "q2b",
+     "label": "2b",
+     "section": "Fluency",
+     "stem": "Write the shaded amount of each pizza as a fraction.",
+     "prompt": "Pizza B",
+     "figure": {
+      "kind": "pie",
+      "parts": 10,
+      "shaded": 7
+     },
+     "type": "numeric",
+     "answer": "7/10",
+     "as": "fraction"
+    },
+    {
+     "id": "q2c",
+     "label": "2c",
+     "section": "Fluency",
+     "stem": "Write the shaded amount of each pizza as a fraction.",
+     "prompt": "Pizza C",
+     "figure": {
+      "kind": "pie",
+      "parts": 5,
+      "shaded": 3
+     },
+     "type": "numeric",
+     "answer": "3/5",
+     "as": "fraction"
+    },
+    {
+     "id": "q2d",
+     "label": "2d",
+     "section": "Fluency",
+     "stem": "Write the shaded amount of each pizza as a fraction.",
+     "prompt": "Pizza D",
+     "figure": {
+      "kind": "pie",
+      "parts": 12,
+      "shaded": [
+       0,
+       1,
+       4,
+       6,
+       7,
+       9,
+       11
+      ]
+     },
+     "type": "numeric",
+     "answer": "7/12",
+     "as": "fraction"
+    },
+    {
+     "id": "q3a",
+     "label": "3a",
+     "section": "Fluency",
+     "stem": "Each dot is at a fraction on the number line. Write the fraction at each dot, in letter order.",
+     "prompt": "What fractions are at A and B?",
+     "figure": {
+      "kind": "numberline",
+      "min": 0,
+      "max": 1,
+      "divisions": 9,
+      "points": {
+       "A": 0.2222222222222222,
+       "B": 0.7777777777777778
+      }
+     },
+     "type": "ordered",
+     "answer": [
+      "2/9",
+      "7/9"
+     ],
+     "hint": "Type the fractions in order, separated by commas, for example 1/5, 4/5"
+    },
+    {
+     "id": "q3b",
+     "label": "3b",
+     "section": "Fluency",
+     "stem": "Each dot is at a fraction on the number line. Write the fraction at each dot, in letter order.",
+     "prompt": "What fractions are at A and B?",
+     "figure": {
+      "kind": "numberline",
+      "min": 0,
+      "max": 2,
+      "divisions": 4,
+      "points": {
+       "A": 0.25,
+       "B": 1.75
+      }
+     },
+     "type": "ordered",
+     "answer": [
+      "1/4",
+      "7/4"
+     ],
+     "hint": "Type the fractions in order, separated by commas, for example 1/5, 4/5"
+    },
+    {
+     "id": "q3c",
+     "label": "3c",
+     "section": "Fluency",
+     "stem": "Each dot is at a fraction on the number line. Write the fraction at each dot, in letter order.",
+     "prompt": "What fractions are at A and B?",
+     "figure": {
+      "kind": "numberline",
+      "min": 0,
+      "max": 1,
+      "divisions": 8,
+      "points": {
+       "A": 0.375,
+       "B": 0.625
+      }
+     },
+     "type": "ordered",
+     "answer": [
+      "3/8",
+      "5/8"
+     ],
+     "hint": "Type the fractions in order, separated by commas, for example 1/5, 4/5"
+    },
+    {
+     "id": "q3d",
+     "label": "3d",
+     "section": "Fluency",
+     "stem": "Each dot is at a fraction on the number line. Write the fraction at each dot, in letter order.",
+     "prompt": "What fractions are at A and B?",
+     "figure": {
+      "kind": "numberline",
+      "min": 0,
+      "max": 3,
+      "divisions": 5,
+      "points": {
+       "A": 0.6,
+       "B": 2.4
+      }
+     },
+     "type": "ordered",
+     "answer": [
+      "3/5",
+      "12/5"
+     ],
+     "hint": "Type the fractions in order, separated by commas, for example 1/5, 4/5"
+    },
+    {
+     "id": "q3e",
+     "label": "3e",
+     "section": "Fluency",
+     "stem": "Each dot is at a fraction on the number line. Write the fraction at each dot, in letter order.",
+     "prompt": "What fractions are at A and B?",
+     "figure": {
+      "kind": "numberline",
+      "min": 0,
+      "max": 3,
+      "divisions": 3,
+      "points": {
+       "A": 2.3333333333333335,
+       "B": 1.3333333333333333
+      }
+     },
+     "type": "ordered",
+     "answer": [
+      "7/3",
+      "4/3"
+     ],
+     "hint": "Type the fractions in order, separated by commas, for example 1/5, 4/5"
+    },
+    {
+     "id": "q3f",
+     "label": "3f",
+     "section": "Fluency",
+     "stem": "Each dot is at a fraction on the number line. Write the fraction at each dot, in letter order.",
+     "prompt": "What fractions are at A, B and C?",
+     "figure": {
+      "kind": "numberline",
+      "min": 0,
+      "max": 3,
+      "divisions": 4,
+      "points": {
+       "A": 1.75,
+       "B": 0.5,
+       "C": 2.75
+      }
+     },
+     "type": "ordered",
+     "answer": [
+      "7/4",
+      "2/4",
+      "11/4"
+     ],
+     "hint": "Type the fractions in order, separated by commas, for example 1/5, 4/5"
+    },
+    {
+     "id": "q4a",
+     "label": "4a",
+     "section": "Fluency",
+     "stem": "Three of these rectangles show the fraction shaded in different ways. One does not. Which one does not?",
+     "prompt": "The fraction is $\\frac{1}{3}$.",
+     "figure": [
+      {
+       "kind": "bar",
+       "parts": 3,
+       "shaded": [
+        1
+       ],
+       "caption": "A"
+      },
+      {
+       "kind": "grid",
+       "rows": 2,
+       "cols": 3,
+       "shaded": [
+        0,
+        4
+       ],
+       "caption": "B"
+      },
+      {
+       "kind": "grid",
+       "rows": 3,
+       "cols": 3,
+       "shaded": [
+        0,
+        4,
+        8
+       ],
+       "caption": "C"
+      },
+      {
+       "kind": "bar",
+       "parts": 6,
+       "shaded": [
+        0,
+        2,
+        4
+       ],
+       "caption": "D"
+      }
+     ],
+     "type": "choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "q4b",
+     "label": "4b",
+     "section": "Fluency",
+     "stem": "Three of these rectangles show the fraction shaded in different ways. One does not. Which one does not?",
+     "prompt": "The fraction is $\\frac{5}{8}$.",
+     "figure": [
+      {
+       "kind": "grid",
+       "rows": 2,
+       "cols": 4,
+       "shaded": [
+        0,
+        2,
+        3,
+        5,
+        6
+       ],
+       "caption": "A"
+      },
+      {
+       "kind": "grid",
+       "rows": 2,
+       "cols": 4,
+       "shaded": [
+        1,
+        4,
+        7
+       ],
+       "caption": "B"
+      },
+      {
+       "kind": "bar",
+       "parts": 8,
+       "shaded": 5,
+       "caption": "C"
+      },
+      {
+       "kind": "grid",
+       "rows": 4,
+       "cols": 4,
+       "shaded": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        9,
+        10,
+        13,
+        14
+       ],
+       "caption": "D"
+      }
+     ],
+     "type": "choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "q4c",
+     "label": "4c",
+     "section": "Fluency",
+     "stem": "Three of these rectangles show the fraction shaded in different ways. One does not. Which one does not?",
+     "prompt": "The fraction is $\\frac{4}{6}$.",
+     "figure": [
+      {
+       "kind": "grid",
+       "rows": 2,
+       "cols": 6,
+       "shaded": [
+        0,
+        2,
+        4,
+        7,
+        9,
+        11
+       ],
+       "caption": "A"
+      },
+      {
+       "kind": "bar",
+       "parts": 6,
+       "shaded": [
+        1,
+        2,
+        4,
+        5
+       ],
+       "caption": "B"
+      },
+      {
+       "kind": "grid",
+       "rows": 3,
+       "cols": 3,
+       "shaded": [
+        0,
+        1,
+        3,
+        4,
+        6,
+        7
+       ],
+       "caption": "C"
+      },
+      {
+       "kind": "bar",
+       "parts": 3,
+       "shaded": [
+        0,
+        2
+       ],
+       "caption": "D"
+      }
+     ],
+     "type": "choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q5a",
+     "label": "5a",
+     "section": "Fluency",
+     "stem": "Write the next three fractions in each sequence.",
+     "prompt": "$\\frac{2}{7},\\ \\frac{3}{7},\\ \\frac{4}{7},\\ \\frac{5}{7},\\ \\ldots$",
+     "type": "ordered",
+     "answer": [
+      "6/7",
+      "7/7",
+      "8/7"
+     ],
+     "hint": "Separate the fractions with commas, for example 2/9, 3/9, 4/9"
+    },
+    {
+     "id": "q5b",
+     "label": "5b",
+     "section": "Fluency",
+     "stem": "Write the next three fractions in each sequence.",
+     "prompt": "$\\frac{4}{9},\\ \\frac{5}{9},\\ \\frac{6}{9},\\ \\frac{7}{9},\\ \\ldots$",
+     "type": "ordered",
+     "answer": [
+      "8/9",
+      "9/9",
+      "10/9"
+     ],
+     "hint": "Separate the fractions with commas, for example 2/9, 3/9, 4/9"
+    },
+    {
+     "id": "q5c",
+     "label": "5c",
+     "section": "Fluency",
+     "stem": "Write the next three fractions in each sequence.",
+     "prompt": "$\\frac{1}{6},\\ \\frac{2}{6},\\ \\frac{3}{6},\\ \\frac{4}{6},\\ \\ldots$",
+     "type": "ordered",
+     "answer": [
+      "5/6",
+      "6/6",
+      "7/6"
+     ],
+     "hint": "Separate the fractions with commas, for example 2/9, 3/9, 4/9"
+    },
+    {
+     "id": "q5d",
+     "label": "5d",
+     "section": "Fluency",
+     "stem": "Write the next three fractions in each sequence.",
+     "prompt": "$\\frac{14}{5},\\ \\frac{13}{5},\\ \\frac{12}{5},\\ \\frac{11}{5},\\ \\ldots$",
+     "type": "ordered",
+     "answer": [
+      "10/5",
+      "9/5",
+      "8/5"
+     ],
+     "hint": "Separate the fractions with commas, for example 2/9, 3/9, 4/9"
+    },
+    {
+     "id": "q5e",
+     "label": "5e",
+     "section": "Fluency",
+     "stem": "Write the next three fractions in each sequence.",
+     "prompt": "$\\frac{17}{3},\\ \\frac{15}{3},\\ \\frac{13}{3},\\ \\frac{11}{3},\\ \\ldots$",
+     "type": "ordered",
+     "answer": [
+      "9/3",
+      "7/3",
+      "5/3"
+     ],
+     "hint": "Separate the fractions with commas, for example 2/9, 3/9, 4/9"
+    },
+    {
+     "id": "q5f",
+     "label": "5f",
+     "section": "Fluency",
+     "stem": "Write the next three fractions in each sequence.",
+     "prompt": "$\\frac{2}{3},\\ \\frac{6}{3},\\ \\frac{10}{3},\\ \\frac{14}{3},\\ \\ldots$",
+     "type": "ordered",
+     "answer": [
+      "18/3",
+      "22/3",
+      "26/3"
+     ],
+     "hint": "Separate the fractions with commas, for example 2/9, 3/9, 4/9"
+    },
+    {
+     "id": "q6a",
+     "label": "6a",
+     "section": "Problem-solving",
+     "stem": "What fraction is at each red dot? Write them in letter order.",
+     "prompt": "Dots A, B and C",
+     "figure": {
+      "kind": "numberline",
+      "min": 0,
+      "max": 6,
+      "divisions": 2,
+      "points": {
+       "A": 0.5,
+       "B": 2.5,
+       "C": 4.5
+      }
+     },
+     "type": "ordered",
+     "answer": [
+      "1/2",
+      "5/2",
+      "9/2"
+     ],
+     "hint": "Type three fractions separated by commas, for example 1/3, 4/3, 7/3"
+    },
+    {
+     "id": "q6b",
+     "label": "6b",
+     "section": "Problem-solving",
+     "stem": "What fraction is at each red dot? Write them in letter order.",
+     "prompt": "Dots A, B and C",
+     "figure": {
+      "kind": "numberline",
+      "min": 0,
+      "max": 3,
+      "divisions": 3,
+      "points": {
+       "A": 0.3333333333333333,
+       "B": 1.6666666666666667,
+       "C": 2.6666666666666665
+      }
+     },
+     "type": "ordered",
+     "answer": [
+      "1/3",
+      "5/3",
+      "8/3"
+     ],
+     "hint": "Type three fractions separated by commas, for example 1/3, 4/3, 7/3"
+    },
+    {
+     "id": "q6c",
+     "label": "6c",
+     "section": "Problem-solving",
+     "stem": "What fraction is at each red dot? Write them in letter order.",
+     "prompt": "Dots A, B and C",
+     "figure": {
+      "kind": "numberline",
+      "min": 0,
+      "max": 4,
+      "divisions": 4,
+      "points": {
+       "A": 0.75,
+       "B": 1.5,
+       "C": 3.25
+      }
+     },
+     "type": "ordered",
+     "answer": [
+      "3/4",
+      "6/4",
+      "13/4"
+     ],
+     "hint": "Type three fractions separated by commas, for example 1/3, 4/3, 7/3"
+    },
+    {
+     "id": "q6d",
+     "label": "6d",
+     "section": "Problem-solving",
+     "stem": "What fraction is at each red dot? Write them in letter order.",
+     "prompt": "Dots A, B and C",
+     "figure": {
+      "kind": "numberline",
+      "min": 0,
+      "max": 4,
+      "divisions": 5,
+      "points": {
+       "A": 0.4,
+       "B": 1.8,
+       "C": 3.4
+      }
+     },
+     "type": "ordered",
+     "answer": [
+      "2/5",
+      "9/5",
+      "17/5"
+     ],
+     "hint": "Type three fractions separated by commas, for example 1/3, 4/3, 7/3"
+    },
+    {
+     "id": "q7",
+     "label": "7",
+     "section": "Problem-solving",
+     "prompt": "The line between the numerator and the denominator of a fraction is called the vinculum. Which operation does it stand for?",
+     "type": "choice",
+     "options": [
+      "+ (add)",
+      "- (subtract)",
+      "× (multiply)",
+      "÷ (divide)"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "q8a",
+     "label": "8a",
+     "section": "Problem-solving",
+     "stem": "What fraction of each diagram is shaded?",
+     "prompt": "Diagram a",
+     "figure": {
+      "kind": "grid",
+      "rows": 4,
+      "cols": 4,
+      "shaded": [
+       0,
+       1,
+       2,
+       7,
+       11,
+       15
+      ]
+     },
+     "type": "numeric",
+     "answer": "6/16",
+     "as": "fraction"
+    },
+    {
+     "id": "q8b",
+     "label": "8b",
+     "section": "Problem-solving",
+     "stem": "What fraction of each diagram is shaded?",
+     "prompt": "Diagram b",
+     "figure": {
+      "kind": "pie",
+      "parts": 8,
+      "shaded": [
+       1,
+       2,
+       5
+      ]
+     },
+     "type": "numeric",
+     "answer": "3/8",
+     "as": "fraction"
+    },
+    {
+     "id": "q8c",
+     "label": "8c",
+     "section": "Problem-solving",
+     "stem": "What fraction of each diagram is shaded?",
+     "prompt": "Diagram c",
+     "figure": {
+      "kind": "grid",
+      "rows": 6,
+      "cols": 2,
+      "shaded": [
+       0,
+       2,
+       4,
+       5,
+       7,
+       9,
+       11
+      ]
+     },
+     "type": "numeric",
+     "answer": "7/12",
+     "as": "fraction"
+    },
+    {
+     "id": "q8d",
+     "label": "8d",
+     "section": "Problem-solving",
+     "stem": "What fraction of each diagram is shaded?",
+     "prompt": "Diagram d",
+     "figure": {
+      "kind": "bar",
+      "parts": 7,
+      "shaded": [
+       0,
+       1,
+       3,
+       6
+      ]
+     },
+     "type": "numeric",
+     "answer": "4/7",
+     "as": "fraction"
+    },
+    {
+     "id": "q8e",
+     "label": "8e",
+     "section": "Problem-solving",
+     "stem": "What fraction of each diagram is shaded?",
+     "prompt": "Diagram e",
+     "figure": {
+      "kind": "grid",
+      "rows": 3,
+      "cols": 5,
+      "shaded": [
+       0,
+       2,
+       4,
+       5,
+       6,
+       8,
+       9,
+       10,
+       14
+      ]
+     },
+     "type": "numeric",
+     "answer": "9/15",
+     "as": "fraction"
+    },
+    {
+     "id": "q8f",
+     "label": "8f",
+     "section": "Problem-solving",
+     "stem": "What fraction of each diagram is shaded?",
+     "prompt": "Diagram f",
+     "figure": {
+      "kind": "pie",
+      "parts": 10,
+      "shaded": [
+       0,
+       3,
+       4,
+       6,
+       8,
+       9
+      ]
+     },
+     "type": "numeric",
+     "answer": "6/10",
+     "as": "fraction"
+    },
+    {
+     "id": "q9a",
+     "label": "9a",
+     "section": "Reasoning",
+     "stem": "Write the fraction that describes the part of the total.",
+     "prompt": "After the first day of a $38$-kilometre walk, the hikers had covered $15$ kilometres. What fraction of the walk had they covered?",
+     "type": "numeric",
+     "answer": "15/38",
+     "as": "fraction"
+    },
+    {
+     "id": "q9b",
+     "label": "9b",
+     "section": "Reasoning",
+     "stem": "Write the fraction that describes the part of the total.",
+     "prompt": "Of the $18$ swimmers who started a race, $17$ finished. What fraction finished?",
+     "type": "numeric",
+     "answer": "17/18",
+     "as": "fraction"
+    },
+    {
+     "id": "q9c",
+     "label": "9c",
+     "section": "Reasoning",
+     "stem": "Write the fraction that describes the part of the total.",
+     "prompt": "Temperatures were above average for $5$ months of the year. For what fraction of the year were they above average?",
+     "type": "numeric",
+     "answer": "5/12",
+     "as": "fraction"
+    },
+    {
+     "id": "q9d",
+     "label": "9d",
+     "section": "Reasoning",
+     "stem": "Write the fraction that describes the part of the total.",
+     "prompt": "Two eggs are cracked in a carton of a dozen eggs. What fraction of the eggs are cracked?",
+     "type": "numeric",
+     "answer": "2/12",
+     "as": "fraction"
+    },
+    {
+     "id": "q9e",
+     "label": "9e",
+     "section": "Reasoning",
+     "stem": "Write the fraction that describes the part of the total.",
+     "prompt": "Three players in a netball team of $7$ scored a goal. What fraction of the team scored?",
+     "type": "numeric",
+     "answer": "3/7",
+     "as": "fraction"
+    },
+    {
+     "id": "q9f",
+     "label": "9f",
+     "section": "Reasoning",
+     "stem": "Write the fraction that describes the part of the total.",
+     "prompt": "The rest stop was $186$ kilometres into a $517$-kilometre drive. What fraction of the drive was done at the rest stop?",
+     "type": "numeric",
+     "answer": "186/517",
+     "as": "fraction"
+    },
+    {
+     "id": "q9g",
+     "label": "9g",
+     "section": "Reasoning",
+     "stem": "Write the fraction that describes the part of the total.",
+     "prompt": "Nine students in a class of $26$ have visited Uluru. What fraction of the class have visited Uluru?",
+     "type": "numeric",
+     "answer": "9/26",
+     "as": "fraction"
+    },
+    {
+     "id": "q9h",
+     "label": "9h",
+     "section": "Reasoning",
+     "stem": "Write the fraction that describes the part of the total.",
+     "prompt": "Three of the eight pencils in a pack are blunt. What fraction of the pencils are blunt?",
+     "type": "numeric",
+     "answer": "3/8",
+     "as": "fraction"
+    },
+    {
+     "id": "q9i",
+     "label": "9i",
+     "section": "Reasoning",
+     "stem": "Write the fraction that describes the part of the total.",
+     "prompt": "It was sunny on four days this week. On what fraction of the week was it sunny?",
+     "type": "numeric",
+     "answer": "4/7",
+     "as": "fraction"
+    },
+    {
+     "id": "q10a",
+     "label": "10a",
+     "section": "Reasoning",
+     "prompt": "Which of these fractions has a value of exactly $1$?",
+     "type": "choice",
+     "options": [
+      "8/9",
+      "9/9",
+      "1/9",
+      "9/1"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "q10b",
+     "label": "10b",
+     "section": "Reasoning",
+     "prompt": "Find the missing numerator so that the fraction is worth $2$: $\\frac{?}{7} = 2$",
+     "type": "numeric",
+     "answer": "14"
+    },
+    {
+     "id": "q11",
+     "label": "11",
+     "section": "Reasoning",
+     "prompt": "Which diagram has one-third shaded?",
+     "figure": [
+      {
+       "kind": "pie",
+       "parts": 8,
+       "shaded": [
+        0,
+        3,
+        5
+       ],
+       "caption": "A"
+      },
+      {
+       "kind": "grid",
+       "rows": 3,
+       "cols": 4,
+       "shaded": [
+        1,
+        6,
+        8
+       ],
+       "caption": "B"
+      },
+      {
+       "kind": "grid",
+       "rows": 2,
+       "cols": 6,
+       "shaded": [
+        0,
+        3,
+        7,
+        10
+       ],
+       "caption": "C"
+      },
+      {
+       "kind": "bar",
+       "parts": 6,
+       "shaded": [
+        0,
+        1,
+        2
+       ],
+       "caption": "D"
+      }
+     ],
+     "type": "choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 2
+    },
+    {
+     "id": "q12a",
+     "label": "12a",
+     "section": "Enrichment",
+     "stem": "A $300$-millilitre glass of cordial is made by mixing $5$ parts water with $1$ part syrup.",
+     "prompt": "What fraction of the cordial is syrup?",
+     "type": "numeric",
+     "answer": "1/6",
+     "as": "fraction"
+    },
+    {
+     "id": "q12b",
+     "label": "12b",
+     "section": "Enrichment",
+     "stem": "A $300$-millilitre glass of cordial is made by mixing $5$ parts water with $1$ part syrup.",
+     "prompt": "How much syrup is needed?",
+     "type": "numeric",
+     "answer": "50",
+     "units": "mL"
+    },
+    {
+     "id": "q12c",
+     "label": "12c",
+     "section": "Enrichment",
+     "stem": "Ravi drinks $60$ millilitres of the cordial, but it is too strong, so he tops the glass back up with $60$ millilitres of water.",
+     "prompt": "How much syrup is in Ravi's glass now?",
+     "type": "numeric",
+     "answer": "40",
+     "units": "mL"
+    },
+    {
+     "id": "q12d",
+     "label": "12d",
+     "section": "Enrichment",
+     "stem": "Ravi drinks $60$ millilitres of the cordial, but it is too strong, so he tops the glass back up with $60$ millilitres of water.",
+     "prompt": "What fraction of Ravi's cordial is syrup now?",
+     "type": "numeric",
+     "answer": "2/15",
+     "as": "fraction"
+    },
+    {
+     "id": "q12e",
+     "label": "12e",
+     "section": "Enrichment",
+     "stem": "It is still too strong. Ravi drinks another $60$ millilitres and tops the glass up with $60$ millilitres of water again.",
+     "prompt": "How much syrup is in Ravi's glass now?",
+     "type": "numeric",
+     "answer": "32",
+     "units": "mL"
+    },
+    {
+     "id": "q12f",
+     "label": "12f",
+     "section": "Enrichment",
+     "stem": "It is still too strong. Ravi drinks another $60$ millilitres and tops the glass up with $60$ millilitres of water again.",
+     "prompt": "What fraction of Ravi's cordial is syrup now?",
+     "type": "numeric",
+     "answer": "8/75",
+     "as": "fraction"
+    },
+    {
+     "id": "q12g",
+     "label": "12g",
+     "section": "Enrichment",
+     "stem": "Mei likes her cordial much stronger. She starts with a fresh glass mixed $5$ parts water to $1$ part syrup, drinks $60$ millilitres, then tops the glass back up with $60$ millilitres of syrup.",
+     "prompt": "How much syrup is in Mei's glass now?",
+     "type": "numeric",
+     "answer": "100",
+     "units": "mL"
+    },
+    {
+     "id": "q12h",
+     "label": "12h",
+     "section": "Enrichment",
+     "stem": "Mei likes her cordial much stronger. She starts with a fresh glass mixed $5$ parts water to $1$ part syrup, drinks $60$ millilitres, then tops the glass back up with $60$ millilitres of syrup.",
+     "prompt": "What fraction of Mei's cordial is syrup now?",
+     "type": "numeric",
+     "answer": "1/3",
+     "as": "fraction"
+    },
+    {
+     "id": "q12i",
+     "label": "12i",
+     "section": "Enrichment",
+     "stem": "Mei does it again: she drinks $60$ millilitres and tops the glass up with $60$ millilitres of syrup.",
+     "prompt": "How much syrup is in Mei's glass now?",
+     "type": "numeric",
+     "answer": "140",
+     "units": "mL"
+    },
+    {
+     "id": "q12j",
+     "label": "12j",
+     "section": "Enrichment",
+     "stem": "Mei does it again: she drinks $60$ millilitres and tops the glass up with $60$ millilitres of syrup.",
+     "prompt": "What fraction of Mei's cordial is syrup now?",
+     "type": "numeric",
+     "answer": "7/15",
+     "as": "fraction"
+    },
+    {
+     "id": "q12k",
+     "label": "12k",
+     "section": "Enrichment",
+     "prompt": "If Ravi keeps drinking and topping up with water in the same way, will his glass ever hold pure water with no syrup at all?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "3b",
+   "chapter": "Chapter 3: Fractions and percentages",
+   "title": "3B Equivalent fractions and simplified fractions",
+   "description": "Finding equivalent fractions, writing fractions in simplest form and using them in problems.",
+   "questions": [
+    {
+     "id": "q1a",
+     "label": "1a",
+     "section": "Fluency",
+     "stem": "Find the missing number to make the fractions equivalent.",
+     "prompt": "$\\frac{2}{3} = \\frac{?}{9}$",
+     "type": "numeric",
+     "answer": "6"
+    },
+    {
+     "id": "q1b",
+     "label": "1b",
+     "section": "Fluency",
+     "stem": "Find the missing number to make the fractions equivalent.",
+     "prompt": "$\\frac{1}{5} = \\frac{?}{15}$",
+     "type": "numeric",
+     "answer": "3"
+    },
+    {
+     "id": "q1c",
+     "label": "1c",
+     "section": "Fluency",
+     "stem": "Find the missing number to make the fractions equivalent.",
+     "prompt": "$\\frac{3}{4} = \\frac{?}{16}$",
+     "type": "numeric",
+     "answer": "12"
+    },
+    {
+     "id": "q1d",
+     "label": "1d",
+     "section": "Fluency",
+     "stem": "Find the missing number to make the fractions equivalent.",
+     "prompt": "$\\frac{4}{7} = \\frac{?}{21}$",
+     "type": "numeric",
+     "answer": "12"
+    },
+    {
+     "id": "q2a",
+     "label": "2a",
+     "section": "Fluency",
+     "stem": "Find the missing number to make the fractions equivalent.",
+     "prompt": "$\\frac{8}{16} = \\frac{?}{2}$",
+     "type": "numeric",
+     "answer": "1"
+    },
+    {
+     "id": "q2b",
+     "label": "2b",
+     "section": "Fluency",
+     "stem": "Find the missing number to make the fractions equivalent.",
+     "prompt": "$\\frac{9}{15} = \\frac{?}{5}$",
+     "type": "numeric",
+     "answer": "3"
+    },
+    {
+     "id": "q2c",
+     "label": "2c",
+     "section": "Fluency",
+     "stem": "Find the missing number to make the fractions equivalent.",
+     "prompt": "$\\frac{18}{24} = \\frac{?}{4}$",
+     "type": "numeric",
+     "answer": "3"
+    },
+    {
+     "id": "q2d",
+     "label": "2d",
+     "section": "Fluency",
+     "stem": "Find the missing number to make the fractions equivalent.",
+     "prompt": "$\\frac{10}{16} = \\frac{?}{8}$",
+     "type": "numeric",
+     "answer": "5"
+    },
+    {
+     "id": "q3a",
+     "label": "3a",
+     "section": "Fluency",
+     "stem": "Find the missing denominator to make the fractions equivalent.",
+     "prompt": "$\\frac{3}{5} = \\frac{9}{?}$",
+     "type": "numeric",
+     "answer": "15"
+    },
+    {
+     "id": "q3b",
+     "label": "3b",
+     "section": "Fluency",
+     "stem": "Find the missing denominator to make the fractions equivalent.",
+     "prompt": "$\\frac{2}{3} = \\frac{8}{?}$",
+     "type": "numeric",
+     "answer": "12"
+    },
+    {
+     "id": "q3c",
+     "label": "3c",
+     "section": "Fluency",
+     "stem": "Find the missing denominator to make the fractions equivalent.",
+     "prompt": "$\\frac{4}{8} = \\frac{12}{?}$",
+     "type": "numeric",
+     "answer": "24"
+    },
+    {
+     "id": "q3d",
+     "label": "3d",
+     "section": "Fluency",
+     "stem": "Find the missing denominator to make the fractions equivalent.",
+     "prompt": "$\\frac{5}{6} = \\frac{25}{?}$",
+     "type": "numeric",
+     "answer": "30"
+    },
+    {
+     "id": "q4a",
+     "label": "4a",
+     "section": "Fluency",
+     "stem": "Find the value of ? that makes each statement true.",
+     "prompt": "$\\frac{2}{3} = \\frac{?}{15}$",
+     "type": "numeric",
+     "answer": "10"
+    },
+    {
+     "id": "q4b",
+     "label": "4b",
+     "section": "Fluency",
+     "stem": "Find the value of ? that makes each statement true.",
+     "prompt": "$\\frac{3}{7} = \\frac{?}{70}$",
+     "type": "numeric",
+     "answer": "30"
+    },
+    {
+     "id": "q4c",
+     "label": "4c",
+     "section": "Fluency",
+     "stem": "Find the value of ? that makes each statement true.",
+     "prompt": "$\\frac{5}{9} = \\frac{20}{?}$",
+     "type": "numeric",
+     "answer": "36"
+    },
+    {
+     "id": "q4d",
+     "label": "4d",
+     "section": "Fluency",
+     "stem": "Find the value of ? that makes each statement true.",
+     "prompt": "$\\frac{3}{8} = \\frac{21}{?}$",
+     "type": "numeric",
+     "answer": "56"
+    },
+    {
+     "id": "q4e",
+     "label": "4e",
+     "section": "Fluency",
+     "stem": "Find the value of ? that makes each statement true.",
+     "prompt": "$\\frac{4}{?} = \\frac{12}{27}$",
+     "type": "numeric",
+     "answer": "9"
+    },
+    {
+     "id": "q4f",
+     "label": "4f",
+     "section": "Fluency",
+     "stem": "Find the value of ? that makes each statement true.",
+     "prompt": "$\\frac{?}{1} = \\frac{18}{6}$",
+     "type": "numeric",
+     "answer": "3"
+    },
+    {
+     "id": "q4g",
+     "label": "4g",
+     "section": "Fluency",
+     "stem": "Find the value of ? that makes each statement true.",
+     "prompt": "$\\frac{?}{12} = \\frac{30}{24}$",
+     "type": "numeric",
+     "answer": "15"
+    },
+    {
+     "id": "q4h",
+     "label": "4h",
+     "section": "Fluency",
+     "stem": "Find the value of ? that makes each statement true.",
+     "prompt": "$\\frac{11}{13} = \\frac{?}{39}$",
+     "type": "numeric",
+     "answer": "33"
+    },
+    {
+     "id": "q4i",
+     "label": "4i",
+     "section": "Fluency",
+     "stem": "Find the value of ? that makes each statement true.",
+     "prompt": "$\\frac{3}{8} = \\frac{15}{?}$",
+     "type": "numeric",
+     "answer": "40"
+    },
+    {
+     "id": "q4j",
+     "label": "4j",
+     "section": "Fluency",
+     "stem": "Find the value of ? that makes each statement true.",
+     "prompt": "$\\frac{17}{25} = \\frac{170}{?}$",
+     "type": "numeric",
+     "answer": "250"
+    },
+    {
+     "id": "q4k",
+     "label": "4k",
+     "section": "Fluency",
+     "stem": "Find the value of ? that makes each statement true.",
+     "prompt": "$\\frac{7}{23} = \\frac{35}{?}$",
+     "type": "numeric",
+     "answer": "115"
+    },
+    {
+     "id": "q4l",
+     "label": "4l",
+     "section": "Fluency",
+     "stem": "Find the value of ? that makes each statement true.",
+     "prompt": "$\\frac{12}{?} = \\frac{36}{9}$",
+     "type": "numeric",
+     "answer": "3"
+    },
+    {
+     "id": "q5a",
+     "label": "5a",
+     "section": "Fluency",
+     "stem": "Write each fraction in simplest form.",
+     "prompt": "$\\frac{18}{24}$",
+     "type": "numeric",
+     "answer": "3/4",
+     "as": "fraction",
+     "simplest": true
+    },
+    {
+     "id": "q5b",
+     "label": "5b",
+     "section": "Fluency",
+     "stem": "Write each fraction in simplest form.",
+     "prompt": "$\\frac{14}{21}$",
+     "type": "numeric",
+     "answer": "2/3",
+     "as": "fraction",
+     "simplest": true
+    },
+    {
+     "id": "q5c",
+     "label": "5c",
+     "section": "Fluency",
+     "stem": "Write each fraction in simplest form.",
+     "prompt": "$\\frac{12}{36}$",
+     "type": "numeric",
+     "answer": "1/3",
+     "as": "fraction",
+     "simplest": true
+    },
+    {
+     "id": "q5d",
+     "label": "5d",
+     "section": "Fluency",
+     "stem": "Write each fraction in simplest form.",
+     "prompt": "$\\frac{6}{26}$",
+     "type": "numeric",
+     "answer": "3/13",
+     "as": "fraction",
+     "simplest": true
+    },
+    {
+     "id": "q5e",
+     "label": "5e",
+     "section": "Fluency",
+     "stem": "Write each fraction in simplest form.",
+     "prompt": "$\\frac{15}{40}$",
+     "type": "numeric",
+     "answer": "3/8",
+     "as": "fraction",
+     "simplest": true
+    },
+    {
+     "id": "q5f",
+     "label": "5f",
+     "section": "Fluency",
+     "stem": "Write each fraction in simplest form.",
+     "prompt": "$\\frac{3}{33}$",
+     "type": "numeric",
+     "answer": "1/11",
+     "as": "fraction",
+     "simplest": true
+    },
+    {
+     "id": "q5g",
+     "label": "5g",
+     "section": "Fluency",
+     "stem": "Write each fraction in simplest form.",
+     "prompt": "$\\frac{7}{63}$",
+     "type": "numeric",
+     "answer": "1/9",
+     "as": "fraction",
+     "simplest": true
+    },
+    {
+     "id": "q5h",
+     "label": "5h",
+     "section": "Fluency",
+     "stem": "Write each fraction in simplest form.",
+     "prompt": "$\\frac{8}{32}$",
+     "type": "numeric",
+     "answer": "1/4",
+     "as": "fraction",
+     "simplest": true
+    },
+    {
+     "id": "q5i",
+     "label": "5i",
+     "section": "Fluency",
+     "stem": "Write each fraction in simplest form.",
+     "prompt": "$\\frac{28}{49}$",
+     "type": "numeric",
+     "answer": "4/7",
+     "as": "fraction",
+     "simplest": true
+    },
+    {
+     "id": "q5j",
+     "label": "5j",
+     "section": "Fluency",
+     "stem": "Write each fraction in simplest form.",
+     "prompt": "$\\frac{45}{120}$",
+     "type": "numeric",
+     "answer": "3/8",
+     "as": "fraction",
+     "simplest": true
+    },
+    {
+     "id": "q5k",
+     "label": "5k",
+     "section": "Fluency",
+     "stem": "Write each fraction in simplest form.",
+     "prompt": "$\\frac{108}{132}$",
+     "type": "numeric",
+     "answer": "9/11",
+     "as": "fraction",
+     "simplest": true
+    },
+    {
+     "id": "q5l",
+     "label": "5l",
+     "section": "Fluency",
+     "stem": "Write each fraction in simplest form.",
+     "prompt": "$\\frac{600}{150}$",
+     "type": "numeric",
+     "answer": "4",
+     "as": "fraction",
+     "simplest": true
+    },
+    {
+     "id": "q6a",
+     "label": "6a",
+     "section": "Fluency",
+     "stem": "Are these two fractions equivalent? Choose = if they are equal, or ≠ if they are not.",
+     "prompt": "$\\frac{1}{3}$ and $\\frac{3}{8}$",
+     "type": "choice",
+     "options": [
+      "=",
+      "≠"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "q6b",
+     "label": "6b",
+     "section": "Fluency",
+     "stem": "Are these two fractions equivalent? Choose = if they are equal, or ≠ if they are not.",
+     "prompt": "$\\frac{6}{9}$ and $\\frac{2}{3}$",
+     "type": "choice",
+     "options": [
+      "=",
+      "≠"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q6c",
+     "label": "6c",
+     "section": "Fluency",
+     "stem": "Are these two fractions equivalent? Choose = if they are equal, or ≠ if they are not.",
+     "prompt": "$\\frac{4}{9}$ and $\\frac{40}{90}$",
+     "type": "choice",
+     "options": [
+      "=",
+      "≠"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q6d",
+     "label": "6d",
+     "section": "Fluency",
+     "stem": "Are these two fractions equivalent? Choose = if they are equal, or ≠ if they are not.",
+     "prompt": "$\\frac{3}{7}$ and $\\frac{9}{14}$",
+     "type": "choice",
+     "options": [
+      "=",
+      "≠"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "q6e",
+     "label": "6e",
+     "section": "Fluency",
+     "stem": "Are these two fractions equivalent? Choose = if they are equal, or ≠ if they are not.",
+     "prompt": "$\\frac{7}{12}$ and $\\frac{21}{36}$",
+     "type": "choice",
+     "options": [
+      "=",
+      "≠"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q6f",
+     "label": "6f",
+     "section": "Fluency",
+     "stem": "Are these two fractions equivalent? Choose = if they are equal, or ≠ if they are not.",
+     "prompt": "$\\frac{1}{3}$ and $\\frac{301}{903}$",
+     "type": "choice",
+     "options": [
+      "=",
+      "≠"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q6g",
+     "label": "6g",
+     "section": "Fluency",
+     "stem": "Are these two fractions equivalent? Choose = if they are equal, or ≠ if they are not.",
+     "prompt": "$\\frac{15}{45}$ and $\\frac{1}{4}$",
+     "type": "choice",
+     "options": [
+      "=",
+      "≠"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "q6h",
+     "label": "6h",
+     "section": "Fluency",
+     "stem": "Are these two fractions equivalent? Choose = if they are equal, or ≠ if they are not.",
+     "prompt": "$\\frac{15}{20}$ and $\\frac{18}{24}$",
+     "type": "choice",
+     "options": [
+      "=",
+      "≠"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "q6i",
+     "label": "6i",
+     "section": "Fluency",
+     "stem": "Are these two fractions equivalent? Choose = if they are equal, or ≠ if they are not.",
+     "prompt": "$\\frac{8}{20}$ and $\\frac{12}{32}$",
+     "type": "choice",
+     "options": [
+      "=",
+      "≠"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "q7a",
+     "label": "7a",
+     "section": "Problem-solving",
+     "stem": "Each list should only contain fractions in simplest form, but one fraction is not. Find it and write it in simplest form.",
+     "prompt": "$\\frac{2}{5},\\ \\frac{4}{7},\\ \\frac{5}{11},\\ \\frac{9}{12}$",
+     "type": "numeric",
+     "answer": "3/4",
+     "as": "fraction",
+     "simplest": true
+    },
+    {
+     "id": "q7b",
+     "label": "7b",
+     "section": "Problem-solving",
+     "stem": "Each list should only contain fractions in simplest form, but one fraction is not. Find it and write it in simplest form.",
+     "prompt": "$\\frac{3}{4},\\ \\frac{10}{15},\\ \\frac{17}{9},\\ \\frac{11}{31}$",
+     "type": "numeric",
+     "answer": "2/3",
+     "as": "fraction",
+     "simplest": true
+    },
+    {
+     "id": "q7c",
+     "label": "7c",
+     "section": "Problem-solving",
+     "stem": "Each list should only contain fractions in simplest form, but one fraction is not. Find it and write it in simplest form.",
+     "prompt": "$\\frac{13}{20},\\ \\frac{6}{45},\\ \\frac{7}{30},\\ \\frac{5}{41}$",
+     "type": "numeric",
+     "answer": "2/15",
+     "as": "fraction",
+     "simplest": true
+    },
+    {
+     "id": "q7d",
+     "label": "7d",
+     "section": "Problem-solving",
+     "stem": "Each list should only contain fractions in simplest form, but one fraction is not. Find it and write it in simplest form.",
+     "prompt": "$\\frac{8}{56},\\ \\frac{9}{64},\\ \\frac{11}{72},\\ \\frac{13}{70}$",
+     "type": "numeric",
+     "answer": "1/7",
+     "as": "fraction",
+     "simplest": true
+    },
+    {
+     "id": "q8a",
+     "label": "8a",
+     "section": "Problem-solving",
+     "stem": "Four people win a prize of $\\frac{3}{4}$ of a tank of free petrol. How many litres does each driver get?",
+     "prompt": "Driver of a ute with an $80$-litre tank",
+     "type": "numeric",
+     "answer": "60",
+     "units": "L"
+    },
+    {
+     "id": "q8b",
+     "label": "8b",
+     "section": "Problem-solving",
+     "stem": "Four people win a prize of $\\frac{3}{4}$ of a tank of free petrol. How many litres does each driver get?",
+     "prompt": "Driver of a small hatchback with a $64$-litre tank",
+     "type": "numeric",
+     "answer": "48",
+     "units": "L"
+    },
+    {
+     "id": "q8c",
+     "label": "8c",
+     "section": "Problem-solving",
+     "stem": "Four people win a prize of $\\frac{3}{4}$ of a tank of free petrol. How many litres does each driver get?",
+     "prompt": "Driver of a sedan with a $52$-litre tank",
+     "type": "numeric",
+     "answer": "39",
+     "units": "L"
+    },
+    {
+     "id": "q8d",
+     "label": "8d",
+     "section": "Problem-solving",
+     "stem": "Four people win a prize of $\\frac{3}{4}$ of a tank of free petrol. How many litres does each driver get?",
+     "prompt": "Driver of a people mover with a $72$-litre tank",
+     "type": "numeric",
+     "answer": "54",
+     "units": "L"
+    },
+    {
+     "id": "q9",
+     "label": "9",
+     "section": "Problem-solving",
+     "prompt": "A block of chocolate has $10$ rows of $8$ squares. Lachlan eats $24$ squares. What fraction of the block has he eaten? Give your answer in simplest form.",
+     "type": "numeric",
+     "answer": "3/10",
+     "as": "fraction",
+     "simplest": true
+    },
+    {
+     "id": "q10a",
+     "label": "10a",
+     "section": "Reasoning",
+     "stem": "Mia, Tariq and Leo share a large pizza cut into $20$ equal slices. Mia wants $\\frac{1}{4}$ of the pizza, Tariq wants $\\frac{2}{5}$ of the pizza and Leo eats whatever is left.",
+     "prompt": "How many slices does Mia get?",
+     "type": "numeric",
+     "answer": "5"
+    },
+    {
+     "id": "q10b",
+     "label": "10b",
+     "section": "Reasoning",
+     "stem": "Mia, Tariq and Leo share a large pizza cut into $20$ equal slices. Mia wants $\\frac{1}{4}$ of the pizza, Tariq wants $\\frac{2}{5}$ of the pizza and Leo eats whatever is left.",
+     "prompt": "How many slices does Tariq get?",
+     "type": "numeric",
+     "answer": "8"
+    },
+    {
+     "id": "q10c",
+     "label": "10c",
+     "section": "Reasoning",
+     "stem": "Mia, Tariq and Leo share a large pizza cut into $20$ equal slices. Mia wants $\\frac{1}{4}$ of the pizza, Tariq wants $\\frac{2}{5}$ of the pizza and Leo eats whatever is left.",
+     "prompt": "How many slices does Leo get?",
+     "type": "numeric",
+     "answer": "7"
+    },
+    {
+     "id": "q11a",
+     "label": "11a",
+     "section": "Reasoning",
+     "stem": "A novel is $320$ pages long. Zara plans to read it in $4$ days, reading the same number of pages each day.",
+     "prompt": "How many pages should Zara read each day?",
+     "type": "numeric",
+     "answer": "80",
+     "units": "pages"
+    },
+    {
+     "id": "q11b",
+     "label": "11b",
+     "section": "Reasoning",
+     "stem": "A novel is $320$ pages long. Zara plans to read it in $4$ days, reading the same number of pages each day.",
+     "prompt": "The fraction $\\frac{80}{320}$ of the book is equivalent to what fraction in simplest form?",
+     "type": "numeric",
+     "answer": "1/4",
+     "as": "fraction",
+     "simplest": true
+    },
+    {
+     "id": "q11c",
+     "label": "11c",
+     "section": "Reasoning",
+     "stem": "A novel is $320$ pages long. Zara plans to read it in $4$ days, reading the same number of pages each day.",
+     "prompt": "By the end of day $3$, Zara is on track and has read $\\frac{3}{4}$ of the book. How many pages is that?",
+     "type": "numeric",
+     "answer": "240",
+     "units": "pages"
+    },
+    {
+     "id": "q12a",
+     "label": "12a",
+     "section": "Reasoning",
+     "stem": "A fraction simplifies to $\\frac{4}{7}$.",
+     "prompt": "The original denominator was $42$. What was the original numerator?",
+     "type": "numeric",
+     "answer": "24"
+    },
+    {
+     "id": "q12b",
+     "label": "12b",
+     "section": "Reasoning",
+     "stem": "A fraction simplifies to $\\frac{4}{7}$.",
+     "prompt": "Another fraction also simplifies to $\\frac{4}{7}$. Its numerator and denominator add up to $55$. What is its numerator?",
+     "type": "numeric",
+     "answer": "20"
+    },
+    {
+     "id": "q13a",
+     "label": "13a",
+     "section": "Enrichment",
+     "stem": "In music, $\\frac{4}{4}$ time (common time) means each bar lasts as long as four quarter notes. A whole note fills the whole bar, a half note fills half of it, and there are eight eighth notes or sixteen sixteenth notes in a bar.",
+     "prompt": "A bar starts with one half note. How many quarter notes are needed to fill the rest of the bar?",
+     "type": "numeric",
+     "answer": "2"
+    },
+    {
+     "id": "q13b",
+     "label": "13b",
+     "section": "Enrichment",
+     "stem": "In music, $\\frac{4}{4}$ time (common time) means each bar lasts as long as four quarter notes. A whole note fills the whole bar, a half note fills half of it, and there are eight eighth notes or sixteen sixteenth notes in a bar.",
+     "prompt": "How many sixteenth notes last as long as one quarter note?",
+     "type": "numeric",
+     "answer": "4"
+    },
+    {
+     "id": "q13c",
+     "label": "13c",
+     "section": "Enrichment",
+     "stem": "In music, $\\frac{4}{4}$ time (common time) means each bar lasts as long as four quarter notes. A whole note fills the whole bar, a half note fills half of it, and there are eight eighth notes or sixteen sixteenth notes in a bar.",
+     "prompt": "A bar has one half note and one quarter note. How many eighth notes are needed to fill the rest of the bar?",
+     "type": "numeric",
+     "answer": "2"
+    },
+    {
+     "id": "q13d",
+     "label": "13d",
+     "section": "Enrichment",
+     "stem": "In music, $\\frac{4}{4}$ time (common time) means each bar lasts as long as four quarter notes. A whole note fills the whole bar, a half note fills half of it, and there are eight eighth notes or sixteen sixteenth notes in a bar.",
+     "prompt": "Six eighth notes fill what fraction of a bar? Give your answer in simplest form.",
+     "type": "numeric",
+     "answer": "3/4",
+     "as": "fraction",
+     "simplest": true
+    }
+   ]
+  },
+  {
+   "id": "3c",
+   "chapter": "Chapter 3: Fractions and percentages",
+   "title": "3C Mixed numerals and improper fractions",
+   "description": "Converting between mixed numerals and improper fractions, and placing them on a number line.",
+   "questions": [
+    {
+     "id": "q1a",
+     "label": "1a",
+     "section": "Fluency",
+     "stem": "Write each mixed numeral as an improper fraction.",
+     "prompt": "$1\\frac{3}{5}$",
+     "type": "numeric",
+     "answer": "8/5",
+     "as": "improper",
+     "hint": "Type an improper fraction like 7/3"
+    },
+    {
+     "id": "q1b",
+     "label": "1b",
+     "section": "Fluency",
+     "stem": "Write each mixed numeral as an improper fraction.",
+     "prompt": "$2\\frac{1}{4}$",
+     "type": "numeric",
+     "answer": "9/4",
+     "as": "improper"
+    },
+    {
+     "id": "q1c",
+     "label": "1c",
+     "section": "Fluency",
+     "stem": "Write each mixed numeral as an improper fraction.",
+     "prompt": "$3\\frac{2}{3}$",
+     "type": "numeric",
+     "answer": "11/3",
+     "as": "improper"
+    },
+    {
+     "id": "q1d",
+     "label": "1d",
+     "section": "Fluency",
+     "stem": "Write each mixed numeral as an improper fraction.",
+     "prompt": "$1\\frac{5}{6}$",
+     "type": "numeric",
+     "answer": "11/6",
+     "as": "improper"
+    },
+    {
+     "id": "q2a",
+     "label": "2a",
+     "section": "Fluency",
+     "stem": "Write each mixed numeral as an improper fraction.",
+     "prompt": "$3\\frac{1}{4}$",
+     "type": "numeric",
+     "answer": "13/4",
+     "as": "improper"
+    },
+    {
+     "id": "q2b",
+     "label": "2b",
+     "section": "Fluency",
+     "stem": "Write each mixed numeral as an improper fraction.",
+     "prompt": "$2\\frac{2}{3}$",
+     "type": "numeric",
+     "answer": "8/3",
+     "as": "improper"
+    },
+    {
+     "id": "q2c",
+     "label": "2c",
+     "section": "Fluency",
+     "stem": "Write each mixed numeral as an improper fraction.",
+     "prompt": "$5\\frac{1}{6}$",
+     "type": "numeric",
+     "answer": "31/6",
+     "as": "improper"
+    },
+    {
+     "id": "q2d",
+     "label": "2d",
+     "section": "Fluency",
+     "stem": "Write each mixed numeral as an improper fraction.",
+     "prompt": "$4\\frac{1}{2}$",
+     "type": "numeric",
+     "answer": "9/2",
+     "as": "improper"
+    },
+    {
+     "id": "q2e",
+     "label": "2e",
+     "section": "Fluency",
+     "stem": "Write each mixed numeral as an improper fraction.",
+     "prompt": "$3\\frac{3}{5}$",
+     "type": "numeric",
+     "answer": "18/5",
+     "as": "improper"
+    },
+    {
+     "id": "q2f",
+     "label": "2f",
+     "section": "Fluency",
+     "stem": "Write each mixed numeral as an improper fraction.",
+     "prompt": "$7\\frac{2}{3}$",
+     "type": "numeric",
+     "answer": "23/3",
+     "as": "improper"
+    },
+    {
+     "id": "q2g",
+     "label": "2g",
+     "section": "Fluency",
+     "stem": "Write each mixed numeral as an improper fraction.",
+     "prompt": "$5\\frac{1}{8}$",
+     "type": "numeric",
+     "answer": "41/8",
+     "as": "improper"
+    },
+    {
+     "id": "q2h",
+     "label": "2h",
+     "section": "Fluency",
+     "stem": "Write each mixed numeral as an improper fraction.",
+     "prompt": "$4\\frac{3}{9}$",
+     "type": "numeric",
+     "answer": "39/9",
+     "as": "improper"
+    },
+    {
+     "id": "q2i",
+     "label": "2i",
+     "section": "Fluency",
+     "stem": "Write each mixed numeral as an improper fraction.",
+     "prompt": "$2\\frac{7}{10}$",
+     "type": "numeric",
+     "answer": "27/10",
+     "as": "improper"
+    },
+    {
+     "id": "q2j",
+     "label": "2j",
+     "section": "Fluency",
+     "stem": "Write each mixed numeral as an improper fraction.",
+     "prompt": "$3\\frac{7}{12}$",
+     "type": "numeric",
+     "answer": "43/12",
+     "as": "improper"
+    },
+    {
+     "id": "q2k",
+     "label": "2k",
+     "section": "Fluency",
+     "stem": "Write each mixed numeral as an improper fraction.",
+     "prompt": "$6\\frac{12}{16}$",
+     "type": "numeric",
+     "answer": "108/16",
+     "as": "improper"
+    },
+    {
+     "id": "q2l",
+     "label": "2l",
+     "section": "Fluency",
+     "stem": "Write each mixed numeral as an improper fraction.",
+     "prompt": "$52\\frac{7}{10}$",
+     "type": "numeric",
+     "answer": "527/10",
+     "as": "improper"
+    },
+    {
+     "id": "q3a",
+     "label": "3a",
+     "section": "Fluency",
+     "stem": "Write each improper fraction as a mixed numeral.",
+     "prompt": "$\\frac{8}{3}$",
+     "type": "numeric",
+     "answer": "2 2/3",
+     "as": "mixed",
+     "hint": "Type a mixed numeral with a space, like 2 1/4"
+    },
+    {
+     "id": "q3b",
+     "label": "3b",
+     "section": "Fluency",
+     "stem": "Write each improper fraction as a mixed numeral.",
+     "prompt": "$\\frac{9}{5}$",
+     "type": "numeric",
+     "answer": "1 4/5",
+     "as": "mixed"
+    },
+    {
+     "id": "q3c",
+     "label": "3c",
+     "section": "Fluency",
+     "stem": "Write each improper fraction as a mixed numeral.",
+     "prompt": "$\\frac{13}{4}$",
+     "type": "numeric",
+     "answer": "3 1/4",
+     "as": "mixed"
+    },
+    {
+     "id": "q3d",
+     "label": "3d",
+     "section": "Fluency",
+     "stem": "Write each improper fraction as a mixed numeral.",
+     "prompt": "$\\frac{19}{6}$",
+     "type": "numeric",
+     "answer": "3 1/6",
+     "as": "mixed"
+    },
+    {
+     "id": "q3e",
+     "label": "3e",
+     "section": "Fluency",
+     "stem": "Write each improper fraction as a mixed numeral.",
+     "prompt": "$\\frac{17}{5}$",
+     "type": "numeric",
+     "answer": "3 2/5",
+     "as": "mixed"
+    },
+    {
+     "id": "q3f",
+     "label": "3f",
+     "section": "Fluency",
+     "stem": "Write each improper fraction as a mixed numeral.",
+     "prompt": "$\\frac{23}{4}$",
+     "type": "numeric",
+     "answer": "5 3/4",
+     "as": "mixed"
+    },
+    {
+     "id": "q3g",
+     "label": "3g",
+     "section": "Fluency",
+     "stem": "Write each improper fraction as a mixed numeral.",
+     "prompt": "$\\frac{41}{9}$",
+     "type": "numeric",
+     "answer": "4 5/9",
+     "as": "mixed"
+    },
+    {
+     "id": "q3h",
+     "label": "3h",
+     "section": "Fluency",
+     "stem": "Write each improper fraction as a mixed numeral.",
+     "prompt": "$\\frac{55}{8}$",
+     "type": "numeric",
+     "answer": "6 7/8",
+     "as": "mixed"
+    },
+    {
+     "id": "q3i",
+     "label": "3i",
+     "section": "Fluency",
+     "stem": "Write each improper fraction as a mixed numeral.",
+     "prompt": "$\\frac{43}{10}$",
+     "type": "numeric",
+     "answer": "4 3/10",
+     "as": "mixed"
+    },
+    {
+     "id": "q3j",
+     "label": "3j",
+     "section": "Fluency",
+     "stem": "Write each improper fraction as a mixed numeral.",
+     "prompt": "$\\frac{79}{10}$",
+     "type": "numeric",
+     "answer": "7 9/10",
+     "as": "mixed"
+    },
+    {
+     "id": "q3k",
+     "label": "3k",
+     "section": "Fluency",
+     "stem": "Write each improper fraction as a mixed numeral.",
+     "prompt": "$\\frac{317}{100}$",
+     "type": "numeric",
+     "answer": "3 17/100",
+     "as": "mixed"
+    },
+    {
+     "id": "q3l",
+     "label": "3l",
+     "section": "Fluency",
+     "stem": "Write each improper fraction as a mixed numeral.",
+     "prompt": "$\\frac{147}{13}$",
+     "type": "numeric",
+     "answer": "11 4/13",
+     "as": "mixed"
+    },
+    {
+     "id": "q4a",
+     "label": "4a",
+     "section": "Fluency",
+     "stem": "Write each improper fraction as a mixed numeral in simplest form.",
+     "prompt": "$\\frac{14}{4}$",
+     "type": "numeric",
+     "answer": "3 1/2",
+     "as": "mixed"
+    },
+    {
+     "id": "q4b",
+     "label": "4b",
+     "section": "Fluency",
+     "stem": "Write each improper fraction as a mixed numeral in simplest form.",
+     "prompt": "$\\frac{26}{10}$",
+     "type": "numeric",
+     "answer": "2 3/5",
+     "as": "mixed"
+    },
+    {
+     "id": "q4c",
+     "label": "4c",
+     "section": "Fluency",
+     "stem": "Write each improper fraction as a mixed numeral in simplest form.",
+     "prompt": "$\\frac{20}{12}$",
+     "type": "numeric",
+     "answer": "1 2/3",
+     "as": "mixed"
+    },
+    {
+     "id": "q4d",
+     "label": "4d",
+     "section": "Fluency",
+     "stem": "Write each improper fraction as a mixed numeral in simplest form.",
+     "prompt": "$\\frac{14}{8}$",
+     "type": "numeric",
+     "answer": "1 3/4",
+     "as": "mixed"
+    },
+    {
+     "id": "q4e",
+     "label": "4e",
+     "section": "Fluency",
+     "stem": "Write each improper fraction as a mixed numeral in simplest form.",
+     "prompt": "$\\frac{22}{16}$",
+     "type": "numeric",
+     "answer": "1 3/8",
+     "as": "mixed"
+    },
+    {
+     "id": "q4f",
+     "label": "4f",
+     "section": "Fluency",
+     "stem": "Write each improper fraction as a mixed numeral in simplest form.",
+     "prompt": "$\\frac{32}{6}$",
+     "type": "numeric",
+     "answer": "5 1/3",
+     "as": "mixed"
+    },
+    {
+     "id": "q4g",
+     "label": "4g",
+     "section": "Fluency",
+     "stem": "Write each improper fraction as a mixed numeral in simplest form.",
+     "prompt": "$\\frac{50}{15}$",
+     "type": "numeric",
+     "answer": "3 1/3",
+     "as": "mixed"
+    },
+    {
+     "id": "q4h",
+     "label": "4h",
+     "section": "Fluency",
+     "stem": "Write each improper fraction as a mixed numeral in simplest form.",
+     "prompt": "$\\frac{75}{20}$",
+     "type": "numeric",
+     "answer": "3 3/4",
+     "as": "mixed"
+    },
+    {
+     "id": "q5a",
+     "label": "5a",
+     "section": "Problem-solving",
+     "stem": "The numbers listed are marked on the number line with letters. Write the letter for each number, in the same order as the list.",
+     "prompt": "$\\frac{4}{3},\\ 3,\\ \\frac{1}{3},\\ 4\\frac{2}{3}$",
+     "figure": {
+      "kind": "numberline",
+      "min": 0,
+      "max": 5,
+      "divisions": 3,
+      "points": {
+       "A": 3,
+       "B": 0.3333333333333333,
+       "C": 4.666666666666667,
+       "D": 1.3333333333333333
+      }
+     },
+     "type": "ordered",
+     "answer": [
+      "D",
+      "A",
+      "B",
+      "C"
+     ],
+     "hint": "Type the letters separated by commas, for example B, D, A"
+    },
+    {
+     "id": "q5b",
+     "label": "5b",
+     "section": "Problem-solving",
+     "stem": "The numbers listed are marked on the number line with letters. Write the letter for each number, in the same order as the list.",
+     "prompt": "$\\frac{5}{4},\\ 3\\frac{3}{4},\\ \\frac{1}{2},\\ \\frac{8}{4}$",
+     "figure": {
+      "kind": "numberline",
+      "min": 0,
+      "max": 5,
+      "divisions": 4,
+      "points": {
+       "A": 2,
+       "B": 1.25,
+       "C": 0.5,
+       "D": 3.75
+      }
+     },
+     "type": "ordered",
+     "answer": [
+      "B",
+      "D",
+      "C",
+      "A"
+     ],
+     "hint": "Type the letters separated by commas, for example B, D, A"
+    },
+    {
+     "id": "q5c",
+     "label": "5c",
+     "section": "Problem-solving",
+     "stem": "The numbers listed are marked on the number line with letters. Write the letter for each number, in the same order as the list.",
+     "prompt": "$\\frac{2}{5},\\ \\frac{13}{5},\\ 4\\frac{1}{5},\\ \\frac{15}{5},\\ \\frac{9}{5}$",
+     "figure": {
+      "kind": "numberline",
+      "min": 0,
+      "max": 5,
+      "divisions": 5,
+      "points": {
+       "A": 4.2,
+       "B": 3,
+       "C": 0.4,
+       "D": 1.8,
+       "E": 2.6
+      }
+     },
+     "type": "ordered",
+     "answer": [
+      "C",
+      "E",
+      "A",
+      "B",
+      "D"
+     ],
+     "hint": "Type the letters separated by commas, for example B, D, A"
+    },
+    {
+     "id": "q6a",
+     "label": "6a",
+     "section": "Problem-solving",
+     "stem": "Change each improper fraction to a mixed numeral to find the two whole numbers it lies between on a number line.",
+     "prompt": "$\\frac{19}{3}$",
+     "type": "list",
+     "answer": [
+      "6",
+      "7"
+     ],
+     "hint": "Type the two whole numbers separated by a comma, for example 3, 4"
+    },
+    {
+     "id": "q6b",
+     "label": "6b",
+     "section": "Problem-solving",
+     "stem": "Change each improper fraction to a mixed numeral to find the two whole numbers it lies between on a number line.",
+     "prompt": "$\\frac{33}{4}$",
+     "type": "list",
+     "answer": [
+      "8",
+      "9"
+     ],
+     "hint": "Type the two whole numbers separated by a comma, for example 3, 4"
+    },
+    {
+     "id": "q6c",
+     "label": "6c",
+     "section": "Problem-solving",
+     "stem": "Change each improper fraction to a mixed numeral to find the two whole numbers it lies between on a number line.",
+     "prompt": "$\\frac{46}{6}$",
+     "type": "list",
+     "answer": [
+      "7",
+      "8"
+     ],
+     "hint": "Type the two whole numbers separated by a comma, for example 3, 4"
+    },
+    {
+     "id": "q7a",
+     "label": "7a",
+     "section": "Problem-solving",
+     "stem": "Five friends order $4$ large pizzas, and each pizza is cut into $6$ equal slices. Ava has $3$, Noah has $4$, Priya has $5$, Sam has $2$ and Jack has $3$ slices.",
+     "prompt": "How many slices do they eat altogether?",
+     "type": "numeric",
+     "answer": "17",
+     "units": "slices"
+    },
+    {
+     "id": "q7b",
+     "label": "7b",
+     "section": "Problem-solving",
+     "stem": "Five friends order $4$ large pizzas, and each pizza is cut into $6$ equal slices. Ava has $3$, Noah has $4$, Priya has $5$, Sam has $2$ and Jack has $3$ slices.",
+     "prompt": "How many pizzas do they eat altogether? Give your answer as a mixed numeral.",
+     "type": "numeric",
+     "answer": "2 5/6",
+     "as": "mixed",
+     "units": "pizzas"
+    },
+    {
+     "id": "q7c",
+     "label": "7c",
+     "section": "Problem-solving",
+     "stem": "Five friends order $4$ large pizzas, and each pizza is cut into $6$ equal slices. Ava has $3$, Noah has $4$, Priya has $5$, Sam has $2$ and Jack has $3$ slices.",
+     "prompt": "How many slices are left over?",
+     "type": "numeric",
+     "answer": "7",
+     "units": "slices"
+    },
+    {
+     "id": "q7d",
+     "label": "7d",
+     "section": "Problem-solving",
+     "stem": "Five friends order $4$ large pizzas, and each pizza is cut into $6$ equal slices. Ava has $3$, Noah has $4$, Priya has $5$, Sam has $2$ and Jack has $3$ slices.",
+     "prompt": "How many pizzas are left over? Give your answer as a mixed numeral.",
+     "type": "numeric",
+     "answer": "1 1/6",
+     "as": "mixed",
+     "units": "pizzas"
+    },
+    {
+     "id": "q8a",
+     "label": "8a",
+     "section": "Reasoning",
+     "stem": "Each circle is one whole, cut into quarters. Look at the total shaded amount.",
+     "stemFigure": [
+      {
+       "kind": "pie",
+       "parts": 4,
+       "shaded": 4
+      },
+      {
+       "kind": "pie",
+       "parts": 4,
+       "shaded": 4
+      },
+      {
+       "kind": "pie",
+       "parts": 4,
+       "shaded": 3
+      }
+     ],
+     "prompt": "Write the shaded amount as an improper fraction.",
+     "type": "numeric",
+     "answer": "11/4",
+     "as": "improper"
+    },
+    {
+     "id": "q8b",
+     "label": "8b",
+     "section": "Reasoning",
+     "stem": "Each circle is one whole, cut into quarters. Look at the total shaded amount.",
+     "prompt": "Write the shaded amount as a mixed numeral.",
+     "type": "numeric",
+     "answer": "2 3/4",
+     "as": "mixed"
+    },
+    {
+     "id": "q9a",
+     "label": "9a",
+     "section": "Reasoning",
+     "stem": "Each sandwich is cut into equal pieces.",
+     "prompt": "Ella has $4$ sandwiches cut into thirds and eats all but one-third. How many thirds does she eat?",
+     "type": "numeric",
+     "answer": "11"
+    },
+    {
+     "id": "q9b",
+     "label": "9b",
+     "section": "Reasoning",
+     "stem": "Each sandwich is cut into equal pieces.",
+     "prompt": "Omar has $7$ sandwiches cut into halves and eats all but one-half. How many halves does he eat?",
+     "type": "numeric",
+     "answer": "13"
+    },
+    {
+     "id": "q9c",
+     "label": "9c",
+     "section": "Reasoning",
+     "stem": "Each sandwich is cut into equal pieces.",
+     "prompt": "Grace has $p$ sandwiches cut into sixths and eats all but one-sixth. How many sixths does she eat? Write an expression using $p$.",
+     "type": "expression",
+     "answer": "6p-1"
+    },
+    {
+     "id": "q9d",
+     "label": "9d",
+     "section": "Reasoning",
+     "stem": "Each sandwich is cut into equal pieces.",
+     "prompt": "Hamish has $q$ sandwiches cut into fifths and eats all but one-fifth. How many fifths does he eat? Write an expression using $q$.",
+     "type": "expression",
+     "answer": "5q-1"
+    },
+    {
+     "id": "q9e",
+     "label": "9e",
+     "section": "Reasoning",
+     "stem": "Each sandwich is cut into equal pieces.",
+     "prompt": "Talia has $m$ sandwiches, each cut into $n$ pieces, and eats them all. How many pieces does she eat? Write an expression using $m$ and $n$.",
+     "type": "expression",
+     "answer": "mn"
+    },
+    {
+     "id": "q10",
+     "label": "10",
+     "section": "Reasoning",
+     "prompt": "A mixed numeral in simplest form lies between $2$ and $3$. Written as an improper fraction, its numerator is $19$. List all the mixed numerals this could be.",
+     "type": "list",
+     "answer": [
+      "2 5/7",
+      "2 3/8",
+      "2 1/9"
+     ],
+     "hint": "Type mixed numerals with a space, separated by commas, for example 2 1/2, 2 1/3"
+    },
+    {
+     "id": "q11a",
+     "label": "11a",
+     "section": "Enrichment",
+     "stem": "Using three digits once each, you can write three different mixed numerals whose fraction part is less than $1$. For example, the digits $1$, $2$ and $3$ give $1\\frac{2}{3}$, $2\\frac{1}{3}$ and $3\\frac{1}{2}$.",
+     "prompt": "Write the three mixed numerals you can make with the digits $4$, $5$ and $6$.",
+     "type": "list",
+     "answer": [
+      "4 5/6",
+      "5 4/6",
+      "6 4/5"
+     ],
+     "hint": "Type mixed numerals with a space, separated by commas, for example 1 2/3, 2 1/3"
+    },
+    {
+     "id": "q11b",
+     "label": "11b",
+     "section": "Enrichment",
+     "stem": "Using three digits once each, you can write three different mixed numerals whose fraction part is less than $1$. For example, the digits $1$, $2$ and $3$ give $1\\frac{2}{3}$, $2\\frac{1}{3}$ and $3\\frac{1}{2}$.",
+     "prompt": "Find the difference between the largest and smallest mixed numerals made with the digits $4$, $5$ and $6$.",
+     "type": "numeric",
+     "answer": "1 29/30",
+     "hint": "You can type a mixed numeral like 1 2/3"
+    },
+    {
+     "id": "q11c",
+     "label": "11c",
+     "section": "Enrichment",
+     "stem": "Using three digits once each, you can write three different mixed numerals whose fraction part is less than $1$. For example, the digits $1$, $2$ and $3$ give $1\\frac{2}{3}$, $2\\frac{1}{3}$ and $3\\frac{1}{2}$.",
+     "prompt": "Find the difference between the largest and smallest mixed numerals made with the digits $5$, $6$ and $7$.",
+     "type": "numeric",
+     "answer": "1 41/42"
+    },
+    {
+     "id": "q11d",
+     "label": "11d",
+     "section": "Enrichment",
+     "stem": "Using three digits once each, you can write three different mixed numerals whose fraction part is less than $1$. For example, the digits $1$, $2$ and $3$ give $1\\frac{2}{3}$, $2\\frac{1}{3}$ and $3\\frac{1}{2}$.",
+     "prompt": "Find the difference between the largest and smallest mixed numerals made with the digits $6$, $7$ and $8$.",
+     "type": "numeric",
+     "answer": "1 55/56"
+    },
+    {
+     "id": "q11e",
+     "label": "11e",
+     "section": "Enrichment",
+     "stem": "Using three digits once each, you can write three different mixed numerals whose fraction part is less than $1$. For example, the digits $1$, $2$ and $3$ give $1\\frac{2}{3}$, $2\\frac{1}{3}$ and $3\\frac{1}{2}$.",
+     "prompt": "Predict, then check: what is the difference between the largest and smallest mixed numerals made with the digits $7$, $8$ and $9$?",
+     "type": "numeric",
+     "answer": "1 71/72"
+    }
+   ]
+  },
+  {
+   "id": "3d",
+   "chapter": "Chapter 3: Fractions and percentages",
+   "title": "3D Ordering fractions",
+   "description": "Comparing fractions and mixed numerals with <, = and >, and putting them in order.",
+   "questions": [
+    {
+     "id": "q1a",
+     "label": "1a",
+     "section": "Fluency",
+     "stem": "Choose the symbol, $<$, $=$ or $>$, that goes in the box to make a true statement.",
+     "prompt": "$\\frac{5}{8} \\;\\square\\; \\frac{3}{8}$",
+     "type": "choice",
+     "answer": 2,
+     "options": [
+      "<",
+      "=",
+      ">"
+     ]
+    },
+    {
+     "id": "q1b",
+     "label": "1b",
+     "section": "Fluency",
+     "stem": "Choose the symbol, $<$, $=$ or $>$, that goes in the box to make a true statement.",
+     "prompt": "$\\frac{2}{11} \\;\\square\\; \\frac{7}{11}$",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "<",
+      "=",
+      ">"
+     ]
+    },
+    {
+     "id": "q1c",
+     "label": "1c",
+     "section": "Fluency",
+     "stem": "Choose the symbol, $<$, $=$ or $>$, that goes in the box to make a true statement.",
+     "prompt": "$\\frac{9}{10} \\;\\square\\; \\frac{7}{10}$",
+     "type": "choice",
+     "answer": 2,
+     "options": [
+      "<",
+      "=",
+      ">"
+     ]
+    },
+    {
+     "id": "q1d",
+     "label": "1d",
+     "section": "Fluency",
+     "stem": "Choose the symbol, $<$, $=$ or $>$, that goes in the box to make a true statement.",
+     "prompt": "$\\frac{4}{3} \\;\\square\\; \\frac{5}{3}$",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "<",
+      "=",
+      ">"
+     ]
+    },
+    {
+     "id": "q2a",
+     "label": "2a",
+     "section": "Fluency",
+     "stem": "Choose the symbol, $<$, $=$ or $>$, that goes in the box to make a true statement.",
+     "prompt": "$\\frac{1}{4} \\;\\square\\; \\frac{1}{9}$",
+     "type": "choice",
+     "answer": 2,
+     "options": [
+      "<",
+      "=",
+      ">"
+     ]
+    },
+    {
+     "id": "q2b",
+     "label": "2b",
+     "section": "Fluency",
+     "stem": "Choose the symbol, $<$, $=$ or $>$, that goes in the box to make a true statement.",
+     "prompt": "$\\frac{1}{12} \\;\\square\\; \\frac{1}{8}$",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "<",
+      "=",
+      ">"
+     ]
+    },
+    {
+     "id": "q2c",
+     "label": "2c",
+     "section": "Fluency",
+     "stem": "Choose the symbol, $<$, $=$ or $>$, that goes in the box to make a true statement.",
+     "prompt": "$\\frac{2}{7} \\;\\square\\; \\frac{2}{9}$",
+     "type": "choice",
+     "answer": 2,
+     "options": [
+      "<",
+      "=",
+      ">"
+     ]
+    },
+    {
+     "id": "q2d",
+     "label": "2d",
+     "section": "Fluency",
+     "stem": "Choose the symbol, $<$, $=$ or $>$, that goes in the box to make a true statement.",
+     "prompt": "$\\frac{5}{13} \\;\\square\\; \\frac{5}{13}$",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "<",
+      "=",
+      ">"
+     ]
+    },
+    {
+     "id": "q3a",
+     "label": "3a",
+     "section": "Fluency",
+     "stem": "Choose the symbol, $<$, $=$ or $>$, that goes in the box to make a true statement.",
+     "prompt": "$\\frac{3}{4} \\;\\square\\; \\frac{5}{8}$",
+     "type": "choice",
+     "answer": 2,
+     "options": [
+      "<",
+      "=",
+      ">"
+     ]
+    },
+    {
+     "id": "q3b",
+     "label": "3b",
+     "section": "Fluency",
+     "stem": "Choose the symbol, $<$, $=$ or $>$, that goes in the box to make a true statement.",
+     "prompt": "$\\frac{2}{3} \\;\\square\\; \\frac{7}{9}$",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "<",
+      "=",
+      ">"
+     ]
+    },
+    {
+     "id": "q3c",
+     "label": "3c",
+     "section": "Fluency",
+     "stem": "Choose the symbol, $<$, $=$ or $>$, that goes in the box to make a true statement.",
+     "prompt": "$\\frac{3}{5} \\;\\square\\; \\frac{7}{10}$",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "<",
+      "=",
+      ">"
+     ]
+    },
+    {
+     "id": "q3d",
+     "label": "3d",
+     "section": "Fluency",
+     "stem": "Choose the symbol, $<$, $=$ or $>$, that goes in the box to make a true statement.",
+     "prompt": "$\\frac{3}{4} \\;\\square\\; \\frac{5}{7}$",
+     "type": "choice",
+     "answer": 2,
+     "options": [
+      "<",
+      "=",
+      ">"
+     ]
+    },
+    {
+     "id": "q4a",
+     "label": "4a",
+     "section": "Fluency",
+     "stem": "Choose the symbol, $<$, $=$ or $>$, that goes in the box to make a true statement.",
+     "prompt": "$\\frac{2}{9} \\;\\square\\; \\frac{5}{9}$",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "<",
+      "=",
+      ">"
+     ]
+    },
+    {
+     "id": "q4b",
+     "label": "4b",
+     "section": "Fluency",
+     "stem": "Choose the symbol, $<$, $=$ or $>$, that goes in the box to make a true statement.",
+     "prompt": "$\\frac{4}{4} \\;\\square\\; \\frac{6}{6}$",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "<",
+      "=",
+      ">"
+     ]
+    },
+    {
+     "id": "q4c",
+     "label": "4c",
+     "section": "Fluency",
+     "stem": "Choose the symbol, $<$, $=$ or $>$, that goes in the box to make a true statement.",
+     "prompt": "$\\frac{1}{6} \\;\\square\\; \\frac{1}{5}$",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "<",
+      "=",
+      ">"
+     ]
+    },
+    {
+     "id": "q4d",
+     "label": "4d",
+     "section": "Fluency",
+     "stem": "Choose the symbol, $<$, $=$ or $>$, that goes in the box to make a true statement.",
+     "prompt": "$\\frac{1}{8} \\;\\square\\; \\frac{1}{16}$",
+     "type": "choice",
+     "answer": 2,
+     "options": [
+      "<",
+      "=",
+      ">"
+     ]
+    },
+    {
+     "id": "q4e",
+     "label": "4e",
+     "section": "Fluency",
+     "stem": "Choose the symbol, $<$, $=$ or $>$, that goes in the box to make a true statement.",
+     "prompt": "$\\frac{3}{8} \\;\\square\\; \\frac{3}{5}$",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "<",
+      "=",
+      ">"
+     ]
+    },
+    {
+     "id": "q4f",
+     "label": "4f",
+     "section": "Fluency",
+     "stem": "Choose the symbol, $<$, $=$ or $>$, that goes in the box to make a true statement.",
+     "prompt": "$\\frac{2}{3} \\;\\square\\; \\frac{3}{5}$",
+     "type": "choice",
+     "answer": 2,
+     "options": [
+      "<",
+      "=",
+      ">"
+     ]
+    },
+    {
+     "id": "q4g",
+     "label": "4g",
+     "section": "Fluency",
+     "stem": "Choose the symbol, $<$, $=$ or $>$, that goes in the box to make a true statement.",
+     "prompt": "$\\frac{3}{4} \\;\\square\\; \\frac{4}{5}$",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "<",
+      "=",
+      ">"
+     ]
+    },
+    {
+     "id": "q4h",
+     "label": "4h",
+     "section": "Fluency",
+     "stem": "Choose the symbol, $<$, $=$ or $>$, that goes in the box to make a true statement.",
+     "prompt": "$\\frac{4}{9} \\;\\square\\; \\frac{12}{27}$",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "<",
+      "=",
+      ">"
+     ]
+    },
+    {
+     "id": "q4i",
+     "label": "4i",
+     "section": "Fluency",
+     "stem": "Choose the symbol, $<$, $=$ or $>$, that goes in the box to make a true statement.",
+     "prompt": "$\\frac{5}{8} \\;\\square\\; \\frac{7}{12}$",
+     "type": "choice",
+     "answer": 2,
+     "options": [
+      "<",
+      "=",
+      ">"
+     ]
+    },
+    {
+     "id": "q4j",
+     "label": "4j",
+     "section": "Fluency",
+     "stem": "Choose the symbol, $<$, $=$ or $>$, that goes in the box to make a true statement.",
+     "prompt": "$2\\frac{1}{4} \\;\\square\\; 2\\frac{1}{3}$",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "<",
+      "=",
+      ">"
+     ]
+    },
+    {
+     "id": "q4k",
+     "label": "4k",
+     "section": "Fluency",
+     "stem": "Choose the symbol, $<$, $=$ or $>$, that goes in the box to make a true statement.",
+     "prompt": "$2\\frac{4}{5} \\;\\square\\; \\frac{11}{4}$",
+     "type": "choice",
+     "answer": 2,
+     "options": [
+      "<",
+      "=",
+      ">"
+     ]
+    },
+    {
+     "id": "q4l",
+     "label": "4l",
+     "section": "Fluency",
+     "stem": "Choose the symbol, $<$, $=$ or $>$, that goes in the box to make a true statement.",
+     "prompt": "$\\frac{17}{6} \\;\\square\\; 2\\frac{7}{8}$",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "<",
+      "=",
+      ">"
+     ]
+    },
+    {
+     "id": "q5a",
+     "label": "5a",
+     "section": "Fluency",
+     "stem": "Write these fractions in ascending order (smallest first).",
+     "prompt": "$\\frac{4}{7},\\ \\frac{9}{7},\\ \\frac{2}{7}$",
+     "type": "ordered",
+     "answer": [
+      "2/7",
+      "4/7",
+      "9/7"
+     ],
+     "hint": "Type fractions like 3/4 and mixed numerals like 2 1/3, separated by commas."
+    },
+    {
+     "id": "q5b",
+     "label": "5b",
+     "section": "Fluency",
+     "stem": "Write these fractions in ascending order (smallest first).",
+     "prompt": "$\\frac{2}{5},\\ \\frac{7}{10},\\ \\frac{3}{10}$",
+     "type": "ordered",
+     "answer": [
+      "3/10",
+      "2/5",
+      "7/10"
+     ],
+     "hint": "Type fractions like 3/4 and mixed numerals like 2 1/3, separated by commas."
+    },
+    {
+     "id": "q5c",
+     "label": "5c",
+     "section": "Fluency",
+     "stem": "Write these fractions in ascending order (smallest first).",
+     "prompt": "$\\frac{3}{4},\\ \\frac{2}{3},\\ \\frac{3}{5}$",
+     "type": "ordered",
+     "answer": [
+      "3/5",
+      "2/3",
+      "3/4"
+     ],
+     "hint": "Type fractions like 3/4 and mixed numerals like 2 1/3, separated by commas."
+    },
+    {
+     "id": "q5d",
+     "label": "5d",
+     "section": "Fluency",
+     "stem": "Write these fractions in ascending order (smallest first).",
+     "prompt": "$\\frac{5}{8},\\ \\frac{7}{12},\\ \\frac{2}{3}$",
+     "type": "ordered",
+     "answer": [
+      "7/12",
+      "5/8",
+      "2/3"
+     ],
+     "hint": "Type fractions like 3/4 and mixed numerals like 2 1/3, separated by commas."
+    },
+    {
+     "id": "q6a",
+     "label": "6a",
+     "section": "Fluency",
+     "stem": "Write these fractions and mixed numerals in ascending order (smallest first).",
+     "prompt": "$3\\frac{1}{2},\\ \\frac{13}{4},\\ \\frac{10}{3},\\ 2\\frac{5}{6}$",
+     "type": "ordered",
+     "answer": [
+      "2 5/6",
+      "13/4",
+      "10/3",
+      "3 1/2"
+     ],
+     "hint": "Type fractions like 3/4 and mixed numerals like 2 1/3, separated by commas."
+    },
+    {
+     "id": "q6b",
+     "label": "6b",
+     "section": "Fluency",
+     "stem": "Write these fractions and mixed numerals in ascending order (smallest first).",
+     "prompt": "$1\\frac{5}{6},\\ \\frac{7}{4},\\ \\frac{9}{5},\\ \\frac{5}{3}$",
+     "type": "ordered",
+     "answer": [
+      "5/3",
+      "7/4",
+      "9/5",
+      "1 5/6"
+     ],
+     "hint": "Type fractions like 3/4 and mixed numerals like 2 1/3, separated by commas."
+    },
+    {
+     "id": "q6c",
+     "label": "6c",
+     "section": "Fluency",
+     "stem": "Write these fractions and mixed numerals in ascending order (smallest first).",
+     "prompt": "$3\\frac{3}{10},\\ \\frac{16}{5},\\ \\frac{13}{4},\\ 3\\frac{1}{2},\\ 3\\frac{3}{8}$",
+     "type": "ordered",
+     "answer": [
+      "16/5",
+      "13/4",
+      "3 3/10",
+      "3 3/8",
+      "3 1/2"
+     ],
+     "hint": "Type fractions like 3/4 and mixed numerals like 2 1/3, separated by commas."
+    },
+    {
+     "id": "q6d",
+     "label": "6d",
+     "section": "Fluency",
+     "stem": "Write these fractions and mixed numerals in ascending order (smallest first).",
+     "prompt": "$5\\frac{2}{9},\\ \\frac{16}{3},\\ 5\\frac{5}{18},\\ 5\\frac{1}{2},\\ 5\\frac{1}{6}$",
+     "type": "ordered",
+     "answer": [
+      "5 1/6",
+      "5 2/9",
+      "5 5/18",
+      "16/3",
+      "5 1/2"
+     ],
+     "hint": "Type fractions like 3/4 and mixed numerals like 2 1/3, separated by commas."
+    },
+    {
+     "id": "q7a",
+     "label": "7a",
+     "section": "Fluency",
+     "stem": "Write these fractions in descending order (largest first).",
+     "prompt": "$\\frac{2}{5},\\ \\frac{3}{10},\\ \\frac{1}{2},\\ \\frac{9}{10},\\ \\frac{7}{10}$",
+     "type": "ordered",
+     "answer": [
+      "9/10",
+      "7/10",
+      "1/2",
+      "2/5",
+      "3/10"
+     ],
+     "hint": "Type fractions like 3/4 and mixed numerals like 2 1/3, separated by commas."
+    },
+    {
+     "id": "q7b",
+     "label": "7b",
+     "section": "Fluency",
+     "stem": "Write these fractions in descending order (largest first).",
+     "prompt": "$\\frac{5}{12},\\ \\frac{1}{3},\\ \\frac{3}{4},\\ \\frac{1}{6},\\ \\frac{7}{12}$",
+     "type": "ordered",
+     "answer": [
+      "3/4",
+      "7/12",
+      "5/12",
+      "1/3",
+      "1/6"
+     ],
+     "hint": "Type fractions like 3/4 and mixed numerals like 2 1/3, separated by commas."
+    },
+    {
+     "id": "q7c",
+     "label": "7c",
+     "section": "Fluency",
+     "stem": "Write these fractions in descending order (largest first).",
+     "prompt": "$\\frac{2}{9},\\ \\frac{1}{3},\\ \\frac{5}{6},\\ \\frac{7}{18},\\ \\frac{1}{2}$",
+     "type": "ordered",
+     "answer": [
+      "5/6",
+      "1/2",
+      "7/18",
+      "1/3",
+      "2/9"
+     ],
+     "hint": "Type fractions like 3/4 and mixed numerals like 2 1/3, separated by commas."
+    },
+    {
+     "id": "q8a",
+     "label": "8a",
+     "section": "Fluency",
+     "stem": "Write these in descending order (largest first), without finding common denominators.",
+     "prompt": "$\\frac{5}{6},\\ \\frac{5}{9},\\ \\frac{5}{7},\\ \\frac{5}{12}$",
+     "type": "ordered",
+     "answer": [
+      "5/6",
+      "5/7",
+      "5/9",
+      "5/12"
+     ],
+     "hint": "Type fractions like 3/4 and mixed numerals like 2 1/3, separated by commas."
+    },
+    {
+     "id": "q8b",
+     "label": "8b",
+     "section": "Fluency",
+     "stem": "Write these in descending order (largest first), without finding common denominators.",
+     "prompt": "$\\frac{1}{20},\\ \\frac{1}{8},\\ \\frac{1}{40},\\ \\frac{1}{25}$",
+     "type": "ordered",
+     "answer": [
+      "1/8",
+      "1/20",
+      "1/25",
+      "1/40"
+     ],
+     "hint": "Type fractions like 3/4 and mixed numerals like 2 1/3, separated by commas."
+    },
+    {
+     "id": "q8c",
+     "label": "8c",
+     "section": "Fluency",
+     "stem": "Write these in descending order (largest first), without finding common denominators.",
+     "prompt": "$6\\frac{2}{7},\\ 4\\frac{5}{8},\\ 9\\frac{1}{3},\\ 3\\frac{6}{7}$",
+     "type": "ordered",
+     "answer": [
+      "9 1/3",
+      "6 2/7",
+      "4 5/8",
+      "3 6/7"
+     ],
+     "hint": "Type fractions like 3/4 and mixed numerals like 2 1/3, separated by commas."
+    },
+    {
+     "id": "q8d",
+     "label": "8d",
+     "section": "Fluency",
+     "stem": "Write these in descending order (largest first), without finding common denominators.",
+     "prompt": "$3\\frac{1}{4},\\ 3\\frac{1}{8},\\ 3\\frac{1}{7},\\ 3\\frac{1}{10}$",
+     "type": "ordered",
+     "answer": [
+      "3 1/4",
+      "3 1/7",
+      "3 1/8",
+      "3 1/10"
+     ],
+     "hint": "Type fractions like 3/4 and mixed numerals like 2 1/3, separated by commas."
+    },
+    {
+     "id": "q9",
+     "label": "9",
+     "section": "Problem-solving",
+     "prompt": "Three pies are cut up at a family picnic. The apple pie is shared equally by six people, the cherry pie is shared equally by ten people and the pumpkin pie is shared equally by three people. Write the fraction of a pie that one person gets from each pie, in decreasing order of size (largest first).",
+     "type": "ordered",
+     "answer": [
+      "1/3",
+      "1/6",
+      "1/10"
+     ],
+     "hint": "Type fractions like 1/4, separated by commas."
+    },
+    {
+     "id": "q10a",
+     "label": "10a",
+     "section": "Problem-solving",
+     "stem": "Four friends, Priya, Tom, Lena and Josh, ran a charity fun run. Their finishing times were: Priya $1\\frac{1}{3}$ hours, Tom $1\\frac{3}{10}$ hours, Lena $1\\frac{2}{5}$ hours and Josh $1\\frac{4}{15}$ hours.",
+     "prompt": "Write the four finishing times in order, fastest first.",
+     "type": "ordered",
+     "answer": [
+      "1 4/15",
+      "1 3/10",
+      "1 1/3",
+      "1 2/5"
+     ],
+     "hint": "Type fractions like 3/4 and mixed numerals like 2 1/3, separated by commas."
+    },
+    {
+     "id": "q10b",
+     "label": "10b",
+     "section": "Problem-solving",
+     "stem": "Four friends, Priya, Tom, Lena and Josh, ran a charity fun run. Their finishing times were: Priya $1\\frac{1}{3}$ hours, Tom $1\\frac{3}{10}$ hours, Lena $1\\frac{2}{5}$ hours and Josh $1\\frac{4}{15}$ hours.",
+     "prompt": "Who finished first?",
+     "type": "choice",
+     "answer": 3,
+     "options": [
+      "Priya",
+      "Tom",
+      "Lena",
+      "Josh"
+     ]
+    },
+    {
+     "id": "q10c",
+     "label": "10c",
+     "section": "Problem-solving",
+     "stem": "Four friends, Priya, Tom, Lena and Josh, ran a charity fun run. Their finishing times were: Priya $1\\frac{1}{3}$ hours, Tom $1\\frac{3}{10}$ hours, Lena $1\\frac{2}{5}$ hours and Josh $1\\frac{4}{15}$ hours.",
+     "prompt": "Who finished last?",
+     "type": "choice",
+     "answer": 2,
+     "options": [
+      "Priya",
+      "Tom",
+      "Lena",
+      "Josh"
+     ]
+    },
+    {
+     "id": "q11a",
+     "label": "11a",
+     "section": "Problem-solving",
+     "stem": "Rewrite each set of fractions with their lowest common denominator, then write the next two fractions in the pattern.",
+     "prompt": "$\\frac{3}{10},\\ \\frac{2}{5},\\ \\frac{1}{2},\\ \\_\\_\\_,\\ \\_\\_\\_$",
+     "type": "ordered",
+     "answer": [
+      "3/5",
+      "7/10"
+     ],
+     "hint": "Type the two fractions separated by a comma, for example 5/9, 2/3"
+    },
+    {
+     "id": "q11b",
+     "label": "11b",
+     "section": "Problem-solving",
+     "stem": "Rewrite each set of fractions with their lowest common denominator, then write the next two fractions in the pattern.",
+     "prompt": "$\\frac{1}{3},\\ \\frac{5}{6},\\ \\frac{4}{3},\\ \\_\\_\\_,\\ \\_\\_\\_$",
+     "type": "ordered",
+     "answer": [
+      "11/6",
+      "7/3"
+     ],
+     "hint": "Type the two fractions separated by a comma, for example 5/9, 2/3"
+    },
+    {
+     "id": "q11c",
+     "label": "11c",
+     "section": "Problem-solving",
+     "stem": "Rewrite each set of fractions with their lowest common denominator, then write the next two fractions in the pattern.",
+     "prompt": "$\\frac{9}{4},\\ \\frac{15}{8},\\ \\frac{3}{2},\\ \\_\\_\\_,\\ \\_\\_\\_$",
+     "type": "ordered",
+     "answer": [
+      "9/8",
+      "3/4"
+     ],
+     "hint": "Type the two fractions separated by a comma, for example 5/9, 2/3"
+    },
+    {
+     "id": "q11d",
+     "label": "11d",
+     "section": "Problem-solving",
+     "stem": "Rewrite each set of fractions with their lowest common denominator, then write the next two fractions in the pattern.",
+     "prompt": "$\\frac{2}{5},\\ \\frac{7}{15},\\ \\frac{8}{15},\\ \\_\\_\\_,\\ \\_\\_\\_$",
+     "type": "ordered",
+     "answer": [
+      "3/5",
+      "2/3"
+     ],
+     "hint": "Type the two fractions separated by a comma, for example 5/9, 2/3"
+    },
+    {
+     "id": "q12a",
+     "label": "12a",
+     "section": "Reasoning",
+     "stem": "Which fraction lies between the two fractions given? Hint: change them to a common denominator first.",
+     "prompt": "$\\frac{2}{3}$ and $\\frac{3}{4}$",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "5/8",
+      "7/10",
+      "4/5",
+      "3/5"
+     ]
+    },
+    {
+     "id": "q12b",
+     "label": "12b",
+     "section": "Reasoning",
+     "stem": "Which fraction lies between the two fractions given? Hint: change them to a common denominator first.",
+     "prompt": "$\\frac{1}{3}$ and $\\frac{1}{2}$",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "1/4",
+      "2/5",
+      "3/5",
+      "1/6"
+     ]
+    },
+    {
+     "id": "q12c",
+     "label": "12c",
+     "section": "Reasoning",
+     "stem": "Which fraction lies between the two fractions given? Hint: change them to a common denominator first.",
+     "prompt": "$\\frac{1}{4}$ and $\\frac{2}{7}$",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "1/3",
+      "4/15",
+      "1/5",
+      "3/10"
+     ]
+    },
+    {
+     "id": "q12d",
+     "label": "12d",
+     "section": "Reasoning",
+     "stem": "Which fraction lies between the two fractions given? Hint: change them to a common denominator first.",
+     "prompt": "$\\frac{3}{5}$ and $\\frac{13}{20}$",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "5/8",
+      "7/10",
+      "11/20",
+      "1/2"
+     ]
+    },
+    {
+     "id": "q12e",
+     "label": "12e",
+     "section": "Reasoning",
+     "stem": "Which fraction lies between the two fractions given? Hint: change them to a common denominator first.",
+     "prompt": "$3\\frac{1}{4}$ and $3\\frac{1}{3}$",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "3 1/5",
+      "3 2/7",
+      "3 1/2",
+      "3 2/5"
+     ]
+    },
+    {
+     "id": "q12f",
+     "label": "12f",
+     "section": "Reasoning",
+     "stem": "Which fraction lies between the two fractions given? Hint: change them to a common denominator first.",
+     "prompt": "$5\\frac{3}{5}$ and $5\\frac{2}{3}$",
+     "type": "choice",
+     "answer": 2,
+     "options": [
+      "5 1/2",
+      "5 3/4",
+      "5 5/8",
+      "5 7/10"
+     ]
+    },
+    {
+     "id": "q13",
+     "label": "13",
+     "section": "Reasoning",
+     "prompt": "Find a fraction with a denominator of $10$ that lies between $\\frac{4}{5}$ and $1$.",
+     "type": "numeric",
+     "answer": "9/10",
+     "hint": "Type a fraction like 3/4"
+    },
+    {
+     "id": "q14a",
+     "label": "14a",
+     "section": "Reasoning",
+     "stem": "Write all the whole numbers that $?$ can be so that the fraction lies strictly between the two numbers given.",
+     "prompt": "$\\frac{?}{4}$ lies between $3$ and $4$",
+     "type": "list",
+     "answer": [
+      "13",
+      "14",
+      "15"
+     ],
+     "hint": "Separate the numbers with commas."
+    },
+    {
+     "id": "q14b",
+     "label": "14b",
+     "section": "Reasoning",
+     "stem": "Write all the whole numbers that $?$ can be so that the fraction lies strictly between the two numbers given.",
+     "prompt": "$\\frac{?}{5}$ lies between $2$ and $2\\frac{1}{2}$",
+     "type": "list",
+     "answer": [
+      "11",
+      "12"
+     ],
+     "hint": "Separate the numbers with commas."
+    },
+    {
+     "id": "q15a",
+     "label": "15a",
+     "section": "Enrichment",
+     "stem": "Shady designs: what fraction of each rectangle is shaded?",
+     "prompt": "Design i",
+     "type": "numeric",
+     "answer": "2/3",
+     "figure": {
+      "kind": "grid",
+      "rows": 4,
+      "cols": 6,
+      "shaded": [
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       11,
+       12,
+       17,
+       18,
+       19,
+       20,
+       21,
+       22,
+       23
+      ]
+     },
+     "hint": "Type a fraction like 3/4"
+    },
+    {
+     "id": "q15b",
+     "label": "15b",
+     "section": "Enrichment",
+     "stem": "Shady designs: what fraction of each rectangle is shaded?",
+     "prompt": "Design ii",
+     "type": "numeric",
+     "answer": "3/8",
+     "figure": {
+      "kind": "grid",
+      "rows": 3,
+      "cols": 8,
+      "shaded": [
+       0,
+       3,
+       6,
+       9,
+       12,
+       15,
+       16,
+       19,
+       22
+      ]
+     },
+     "hint": "Type a fraction like 3/4"
+    },
+    {
+     "id": "q15c",
+     "label": "15c",
+     "section": "Enrichment",
+     "stem": "Shady designs: what fraction of each rectangle is shaded?",
+     "prompt": "Design iii",
+     "type": "numeric",
+     "answer": "2/5",
+     "figure": {
+      "kind": "grid",
+      "rows": 4,
+      "cols": 5,
+      "shaded": [
+       2,
+       5,
+       6,
+       7,
+       8,
+       9,
+       12,
+       17
+      ]
+     },
+     "hint": "Type a fraction like 3/4"
+    },
+    {
+     "id": "q15d",
+     "label": "15d",
+     "section": "Enrichment",
+     "stem": "Shady designs: what fraction of each rectangle is shaded?",
+     "prompt": "Design iv",
+     "type": "numeric",
+     "answer": "7/12",
+     "figure": {
+      "kind": "grid",
+      "rows": 6,
+      "cols": 6,
+      "shaded": [
+       0,
+       6,
+       7,
+       12,
+       13,
+       14,
+       18,
+       19,
+       20,
+       21,
+       24,
+       25,
+       26,
+       27,
+       28,
+       30,
+       31,
+       32,
+       33,
+       34,
+       35
+      ]
+     },
+     "hint": "Type a fraction like 3/4"
+    }
+   ]
+  },
+  {
+   "id": "3e",
+   "chapter": "Chapter 3: Fractions and percentages",
+   "title": "3E Adding fractions",
+   "description": "Adding fractions and mixed numerals, with like and unlike denominators, and solving word problems.",
+   "questions": [
+    {
+     "id": "q1a",
+     "label": "1a",
+     "section": "Fluency",
+     "stem": "Add these fractions.",
+     "prompt": "$\\frac{3}{11} + \\frac{5}{11}$",
+     "type": "numeric",
+     "answer": "8/11"
+    },
+    {
+     "id": "q1b",
+     "label": "1b",
+     "section": "Fluency",
+     "stem": "Add these fractions.",
+     "prompt": "$\\frac{2}{15} + \\frac{7}{15}$",
+     "type": "numeric",
+     "answer": "3/5"
+    },
+    {
+     "id": "q1c",
+     "label": "1c",
+     "section": "Fluency",
+     "stem": "Add these fractions.",
+     "prompt": "$\\frac{5}{13} + \\frac{4}{13}$",
+     "type": "numeric",
+     "answer": "9/13"
+    },
+    {
+     "id": "q1d",
+     "label": "1d",
+     "section": "Fluency",
+     "stem": "Add these fractions.",
+     "prompt": "$\\frac{1}{7} + \\frac{3}{7}$",
+     "type": "numeric",
+     "answer": "4/7"
+    },
+    {
+     "id": "q2a",
+     "label": "2a",
+     "section": "Fluency",
+     "stem": "Add these fractions. Write each answer as a mixed numeral.",
+     "prompt": "$\\frac{5}{8} + \\frac{7}{8}$",
+     "type": "numeric",
+     "answer": "1 1/2",
+     "as": "mixed",
+     "hint": "Type a mixed numeral with a space, for example 2 1/3",
+     "simplest": false
+    },
+    {
+     "id": "q2b",
+     "label": "2b",
+     "section": "Fluency",
+     "stem": "Add these fractions. Write each answer as a mixed numeral.",
+     "prompt": "$\\frac{4}{9} + \\frac{8}{9}$",
+     "type": "numeric",
+     "answer": "1 1/3",
+     "as": "mixed",
+     "hint": "Type a mixed numeral with a space, for example 2 1/3",
+     "simplest": false
+    },
+    {
+     "id": "q2c",
+     "label": "2c",
+     "section": "Fluency",
+     "stem": "Add these fractions. Write each answer as a mixed numeral.",
+     "prompt": "$\\frac{3}{7} + \\frac{5}{7} + \\frac{4}{7}$",
+     "type": "numeric",
+     "answer": "1 5/7",
+     "as": "mixed",
+     "hint": "Type a mixed numeral with a space, for example 2 1/3",
+     "simplest": false
+    },
+    {
+     "id": "q2d",
+     "label": "2d",
+     "section": "Fluency",
+     "stem": "Add these fractions. Write each answer as a mixed numeral.",
+     "prompt": "$\\frac{9}{17} + \\frac{6}{17} + \\frac{11}{17}$",
+     "type": "numeric",
+     "answer": "1 9/17",
+     "as": "mixed",
+     "hint": "Type a mixed numeral with a space, for example 2 1/3",
+     "simplest": false
+    },
+    {
+     "id": "q3a",
+     "label": "3a",
+     "section": "Fluency",
+     "stem": "Add these fractions.",
+     "prompt": "$\\frac{1}{3} + \\frac{1}{6}$",
+     "type": "numeric",
+     "answer": "1/2"
+    },
+    {
+     "id": "q3b",
+     "label": "3b",
+     "section": "Fluency",
+     "stem": "Add these fractions.",
+     "prompt": "$\\frac{1}{4} + \\frac{2}{5}$",
+     "type": "numeric",
+     "answer": "13/20"
+    },
+    {
+     "id": "q3c",
+     "label": "3c",
+     "section": "Fluency",
+     "stem": "Add these fractions.",
+     "prompt": "$\\frac{1}{2} + \\frac{1}{8}$",
+     "type": "numeric",
+     "answer": "5/8"
+    },
+    {
+     "id": "q3d",
+     "label": "3d",
+     "section": "Fluency",
+     "stem": "Add these fractions.",
+     "prompt": "$\\frac{1}{5} + \\frac{1}{3}$",
+     "type": "numeric",
+     "answer": "8/15"
+    },
+    {
+     "id": "q3e",
+     "label": "3e",
+     "section": "Fluency",
+     "stem": "Add these fractions.",
+     "prompt": "$\\frac{2}{3} + \\frac{1}{5}$",
+     "type": "numeric",
+     "answer": "13/15"
+    },
+    {
+     "id": "q3f",
+     "label": "3f",
+     "section": "Fluency",
+     "stem": "Add these fractions.",
+     "prompt": "$\\frac{1}{6} + \\frac{3}{4}$",
+     "type": "numeric",
+     "answer": "11/12"
+    },
+    {
+     "id": "q3g",
+     "label": "3g",
+     "section": "Fluency",
+     "stem": "Add these fractions.",
+     "prompt": "$\\frac{3}{7} + \\frac{1}{4}$",
+     "type": "numeric",
+     "answer": "19/28"
+    },
+    {
+     "id": "q3h",
+     "label": "3h",
+     "section": "Fluency",
+     "stem": "Add these fractions.",
+     "prompt": "$\\frac{2}{9} + \\frac{1}{2}$",
+     "type": "numeric",
+     "answer": "13/18"
+    },
+    {
+     "id": "q4a",
+     "label": "4a",
+     "section": "Fluency",
+     "stem": "Add these fractions. Write each answer as a mixed numeral.",
+     "prompt": "$\\frac{2}{3} + \\frac{4}{5}$",
+     "type": "numeric",
+     "answer": "1 7/15",
+     "as": "mixed",
+     "hint": "Type a mixed numeral with a space, for example 2 1/3",
+     "simplest": false
+    },
+    {
+     "id": "q4b",
+     "label": "4b",
+     "section": "Fluency",
+     "stem": "Add these fractions. Write each answer as a mixed numeral.",
+     "prompt": "$\\frac{5}{6} + \\frac{3}{4}$",
+     "type": "numeric",
+     "answer": "1 7/12",
+     "as": "mixed",
+     "hint": "Type a mixed numeral with a space, for example 2 1/3",
+     "simplest": false
+    },
+    {
+     "id": "q4c",
+     "label": "4c",
+     "section": "Fluency",
+     "stem": "Add these fractions. Write each answer as a mixed numeral.",
+     "prompt": "$\\frac{7}{9} + \\frac{1}{2}$",
+     "type": "numeric",
+     "answer": "1 5/18",
+     "as": "mixed",
+     "hint": "Type a mixed numeral with a space, for example 2 1/3",
+     "simplest": false
+    },
+    {
+     "id": "q4d",
+     "label": "4d",
+     "section": "Fluency",
+     "stem": "Add these fractions. Write each answer as a mixed numeral.",
+     "prompt": "$\\frac{5}{8} + \\frac{2}{3}$",
+     "type": "numeric",
+     "answer": "1 7/24",
+     "as": "mixed",
+     "hint": "Type a mixed numeral with a space, for example 2 1/3",
+     "simplest": false
+    },
+    {
+     "id": "q5a",
+     "label": "5a",
+     "section": "Fluency",
+     "stem": "Simplify. Write each answer as a mixed numeral in simplest form.",
+     "prompt": "$2\\frac{1}{7} + 3\\frac{4}{7}$",
+     "type": "numeric",
+     "answer": "5 5/7",
+     "as": "mixed",
+     "hint": "Type a mixed numeral with a space, for example 2 1/3"
+    },
+    {
+     "id": "q5b",
+     "label": "5b",
+     "section": "Fluency",
+     "stem": "Simplify. Write each answer as a mixed numeral in simplest form.",
+     "prompt": "$4\\frac{3}{8} + 2\\frac{1}{8}$",
+     "type": "numeric",
+     "answer": "6 1/2",
+     "as": "mixed",
+     "hint": "Type a mixed numeral with a space, for example 2 1/3"
+    },
+    {
+     "id": "q5c",
+     "label": "5c",
+     "section": "Fluency",
+     "stem": "Simplify. Write each answer as a mixed numeral in simplest form.",
+     "prompt": "$10\\frac{2}{5} + 2\\frac{1}{5}$",
+     "type": "numeric",
+     "answer": "12 3/5",
+     "as": "mixed",
+     "hint": "Type a mixed numeral with a space, for example 2 1/3"
+    },
+    {
+     "id": "q5d",
+     "label": "5d",
+     "section": "Fluency",
+     "stem": "Simplify. Write each answer as a mixed numeral in simplest form.",
+     "prompt": "$2\\frac{4}{9} + 3\\frac{2}{9}$",
+     "type": "numeric",
+     "answer": "5 2/3",
+     "as": "mixed",
+     "hint": "Type a mixed numeral with a space, for example 2 1/3"
+    },
+    {
+     "id": "q5e",
+     "label": "5e",
+     "section": "Fluency",
+     "stem": "Simplify. Write each answer as a mixed numeral in simplest form.",
+     "prompt": "$3\\frac{3}{4} + 5\\frac{3}{4}$",
+     "type": "numeric",
+     "answer": "9 1/2",
+     "as": "mixed",
+     "hint": "Type a mixed numeral with a space, for example 2 1/3"
+    },
+    {
+     "id": "q5f",
+     "label": "5f",
+     "section": "Fluency",
+     "stem": "Simplify. Write each answer as a mixed numeral in simplest form.",
+     "prompt": "$6\\frac{5}{8} + 10\\frac{7}{8}$",
+     "type": "numeric",
+     "answer": "17 1/2",
+     "as": "mixed",
+     "hint": "Type a mixed numeral with a space, for example 2 1/3"
+    },
+    {
+     "id": "q5g",
+     "label": "5g",
+     "section": "Fluency",
+     "stem": "Simplify. Write each answer as a mixed numeral in simplest form.",
+     "prompt": "$7\\frac{9}{10} + 7\\frac{9}{10}$",
+     "type": "numeric",
+     "answer": "15 4/5",
+     "as": "mixed",
+     "hint": "Type a mixed numeral with a space, for example 2 1/3"
+    },
+    {
+     "id": "q5h",
+     "label": "5h",
+     "section": "Fluency",
+     "stem": "Simplify. Write each answer as a mixed numeral in simplest form.",
+     "prompt": "$2\\frac{4}{7} + 8\\frac{5}{7}$",
+     "type": "numeric",
+     "answer": "11 2/7",
+     "as": "mixed",
+     "hint": "Type a mixed numeral with a space, for example 2 1/3"
+    },
+    {
+     "id": "q6a",
+     "label": "6a",
+     "section": "Fluency",
+     "stem": "Simplify. Write each answer as a mixed numeral in simplest form.",
+     "prompt": "$1\\frac{1}{2} + 2\\frac{2}{3}$",
+     "type": "numeric",
+     "answer": "4 1/6",
+     "as": "mixed",
+     "hint": "Type a mixed numeral with a space, for example 2 1/3"
+    },
+    {
+     "id": "q6b",
+     "label": "6b",
+     "section": "Fluency",
+     "stem": "Simplify. Write each answer as a mixed numeral in simplest form.",
+     "prompt": "$3\\frac{3}{4} + 1\\frac{4}{5}$",
+     "type": "numeric",
+     "answer": "5 11/20",
+     "as": "mixed",
+     "hint": "Type a mixed numeral with a space, for example 2 1/3"
+    },
+    {
+     "id": "q6c",
+     "label": "6c",
+     "section": "Fluency",
+     "stem": "Simplify. Write each answer as a mixed numeral in simplest form.",
+     "prompt": "$4\\frac{1}{3} + 6\\frac{3}{4}$",
+     "type": "numeric",
+     "answer": "11 1/12",
+     "as": "mixed",
+     "hint": "Type a mixed numeral with a space, for example 2 1/3"
+    },
+    {
+     "id": "q6d",
+     "label": "6d",
+     "section": "Fluency",
+     "stem": "Simplify. Write each answer as a mixed numeral in simplest form.",
+     "prompt": "$2\\frac{5}{6} + 5\\frac{3}{8}$",
+     "type": "numeric",
+     "answer": "8 5/24",
+     "as": "mixed",
+     "hint": "Type a mixed numeral with a space, for example 2 1/3"
+    },
+    {
+     "id": "q6e",
+     "label": "6e",
+     "section": "Fluency",
+     "stem": "Simplify. Write each answer as a mixed numeral in simplest form.",
+     "prompt": "$7\\frac{2}{5} + 3\\frac{1}{2}$",
+     "type": "numeric",
+     "answer": "10 9/10",
+     "as": "mixed",
+     "hint": "Type a mixed numeral with a space, for example 2 1/3"
+    },
+    {
+     "id": "q6f",
+     "label": "6f",
+     "section": "Fluency",
+     "stem": "Simplify. Write each answer as a mixed numeral in simplest form.",
+     "prompt": "$10\\frac{5}{6} + 4\\frac{7}{12}$",
+     "type": "numeric",
+     "answer": "15 5/12",
+     "as": "mixed",
+     "hint": "Type a mixed numeral with a space, for example 2 1/3"
+    },
+    {
+     "id": "q6g",
+     "label": "6g",
+     "section": "Fluency",
+     "stem": "Simplify. Write each answer as a mixed numeral in simplest form.",
+     "prompt": "$13\\frac{9}{10} + 6\\frac{2}{3}$",
+     "type": "numeric",
+     "answer": "20 17/30",
+     "as": "mixed",
+     "hint": "Type a mixed numeral with a space, for example 2 1/3"
+    },
+    {
+     "id": "q6h",
+     "label": "6h",
+     "section": "Fluency",
+     "stem": "Simplify. Write each answer as a mixed numeral in simplest form.",
+     "prompt": "$8\\frac{5}{9} + 3\\frac{5}{6}$",
+     "type": "numeric",
+     "answer": "12 7/18",
+     "as": "mixed",
+     "hint": "Type a mixed numeral with a space, for example 2 1/3"
+    },
+    {
+     "id": "q7a",
+     "label": "7a",
+     "section": "Fluency",
+     "stem": "Simplify. Give each answer in simplest form, as a mixed numeral if it is more than 1.",
+     "prompt": "$\\frac{1}{6} + \\frac{1}{6}$",
+     "type": "numeric",
+     "answer": "1/3",
+     "simplest": true,
+     "hint": "Type a fraction like 3/4"
+    },
+    {
+     "id": "q7b",
+     "label": "7b",
+     "section": "Fluency",
+     "stem": "Simplify. Give each answer in simplest form, as a mixed numeral if it is more than 1.",
+     "prompt": "$\\frac{3}{10} + \\frac{1}{5}$",
+     "type": "numeric",
+     "answer": "1/2",
+     "simplest": true,
+     "hint": "Type a fraction like 3/4"
+    },
+    {
+     "id": "q7c",
+     "label": "7c",
+     "section": "Fluency",
+     "stem": "Simplify. Give each answer in simplest form, as a mixed numeral if it is more than 1.",
+     "prompt": "$\\frac{5}{6} + \\frac{1}{3}$",
+     "type": "numeric",
+     "answer": "1 1/6",
+     "as": "mixed",
+     "hint": "Type a mixed numeral with a space, for example 2 1/3"
+    },
+    {
+     "id": "q7d",
+     "label": "7d",
+     "section": "Fluency",
+     "stem": "Simplify. Give each answer in simplest form, as a mixed numeral if it is more than 1.",
+     "prompt": "$\\frac{2}{3} + 1\\frac{1}{2}$",
+     "type": "numeric",
+     "answer": "2 1/6",
+     "as": "mixed",
+     "hint": "Type a mixed numeral with a space, for example 2 1/3"
+    },
+    {
+     "id": "q7e",
+     "label": "7e",
+     "section": "Fluency",
+     "stem": "Simplify. Give each answer in simplest form, as a mixed numeral if it is more than 1.",
+     "prompt": "$2\\frac{1}{4} + \\frac{1}{12}$",
+     "type": "numeric",
+     "answer": "2 1/3",
+     "as": "mixed",
+     "hint": "Type a mixed numeral with a space, for example 2 1/3"
+    },
+    {
+     "id": "q7f",
+     "label": "7f",
+     "section": "Fluency",
+     "stem": "Simplify. Give each answer in simplest form, as a mixed numeral if it is more than 1.",
+     "prompt": "$\\frac{8}{9} + \\frac{2}{3}$",
+     "type": "numeric",
+     "answer": "1 5/9",
+     "as": "mixed",
+     "hint": "Type a mixed numeral with a space, for example 2 1/3"
+    },
+    {
+     "id": "q7g",
+     "label": "7g",
+     "section": "Fluency",
+     "stem": "Simplify. Give each answer in simplest form, as a mixed numeral if it is more than 1.",
+     "prompt": "$3\\frac{1}{3} + 4\\frac{1}{6}$",
+     "type": "numeric",
+     "answer": "7 1/2",
+     "as": "mixed",
+     "hint": "Type a mixed numeral with a space, for example 2 1/3"
+    },
+    {
+     "id": "q7h",
+     "label": "7h",
+     "section": "Fluency",
+     "stem": "Simplify. Give each answer in simplest form, as a mixed numeral if it is more than 1.",
+     "prompt": "$\\frac{5}{7} + 1\\frac{2}{7}$",
+     "type": "numeric",
+     "answer": "2",
+     "as": "mixed",
+     "hint": "Type a mixed numeral with a space, for example 2 1/3"
+    },
+    {
+     "id": "q8a",
+     "label": "8a",
+     "section": "Problem-solving",
+     "stem": "Ava, Noah and Zara sell raffle tickets at the school fete. Ava sells $\\frac{2}{5}$ of all the tickets and Noah sells $\\frac{1}{3}$ of them.",
+     "prompt": "What fraction of the tickets do Ava and Noah sell altogether?",
+     "type": "numeric",
+     "answer": "11/15",
+     "hint": "Type a fraction like 3/4"
+    },
+    {
+     "id": "q8b",
+     "label": "8b",
+     "section": "Problem-solving",
+     "stem": "Ava, Noah and Zara sell raffle tickets at the school fete. Ava sells $\\frac{2}{5}$ of all the tickets and Noah sells $\\frac{1}{3}$ of them.",
+     "prompt": "All of the tickets are sold. What fraction of the tickets does Zara sell?",
+     "type": "numeric",
+     "answer": "4/15",
+     "hint": "Type a fraction like 3/4"
+    },
+    {
+     "id": "q9",
+     "label": "9",
+     "section": "Problem-solving",
+     "prompt": "On Saturday, Hamish cycled $3\\frac{1}{3}$ kilometres, walked $1\\frac{3}{4}$ kilometres and jogged $\\frac{1}{2}$ a kilometre. What total distance did he travel?",
+     "type": "numeric",
+     "answer": "5 7/12",
+     "units": "km",
+     "hint": "Type a mixed numeral with a space, for example 2 1/3"
+    },
+    {
+     "id": "q10a",
+     "label": "10a",
+     "section": "Problem-solving",
+     "stem": "Keira is doing an $800$-piece jigsaw puzzle. In the first week she completes $\\frac{1}{5}$ of the puzzle. In the second week she completes another $\\frac{3}{10}$ of the puzzle, and in the third week another $\\frac{1}{4}$.",
+     "prompt": "What fraction of the puzzle has Keira completed by the end of the third week?",
+     "type": "numeric",
+     "answer": "3/4",
+     "hint": "Type a fraction like 3/4"
+    },
+    {
+     "id": "q10b",
+     "label": "10b",
+     "section": "Problem-solving",
+     "stem": "Keira is doing an $800$-piece jigsaw puzzle. In the first week she completes $\\frac{1}{5}$ of the puzzle. In the second week she completes another $\\frac{3}{10}$ of the puzzle, and in the third week another $\\frac{1}{4}$.",
+     "prompt": "How many pieces does Keira put in place in the second week?",
+     "type": "numeric",
+     "answer": "240"
+    },
+    {
+     "id": "q10c",
+     "label": "10c",
+     "section": "Problem-solving",
+     "stem": "Keira is doing an $800$-piece jigsaw puzzle. In the first week she completes $\\frac{1}{5}$ of the puzzle. In the second week she completes another $\\frac{3}{10}$ of the puzzle, and in the third week another $\\frac{1}{4}$.",
+     "prompt": "What fraction of the puzzle is still unfinished at the end of the third week?",
+     "type": "numeric",
+     "answer": "1/4",
+     "hint": "Type a fraction like 3/4"
+    },
+    {
+     "id": "q10d",
+     "label": "10d",
+     "section": "Problem-solving",
+     "stem": "Keira is doing an $800$-piece jigsaw puzzle. In the first week she completes $\\frac{1}{5}$ of the puzzle. In the second week she completes another $\\frac{3}{10}$ of the puzzle, and in the third week another $\\frac{1}{4}$.",
+     "prompt": "How many pieces is that?",
+     "type": "numeric",
+     "answer": "200"
+    },
+    {
+     "id": "q11a",
+     "label": "11a",
+     "section": "Problem-solving",
+     "stem": "$240$ Year 7 students were asked to name their favourite sport. One-eighth chose basketball, one-third chose swimming and one-quarter chose cricket. The rest of the students left the question blank.",
+     "prompt": "What fraction of the students answered the question?",
+     "type": "numeric",
+     "answer": "17/24",
+     "hint": "Type a fraction like 3/4"
+    },
+    {
+     "id": "q11b",
+     "label": "11b",
+     "section": "Problem-solving",
+     "stem": "$240$ Year 7 students were asked to name their favourite sport. One-eighth chose basketball, one-third chose swimming and one-quarter chose cricket. The rest of the students left the question blank.",
+     "prompt": "What fraction of the students left the question blank?",
+     "type": "numeric",
+     "answer": "7/24",
+     "hint": "Type a fraction like 3/4"
+    },
+    {
+     "id": "q11c",
+     "label": "11c",
+     "section": "Problem-solving",
+     "stem": "$240$ Year 7 students were asked to name their favourite sport. One-eighth chose basketball, one-third chose swimming and one-quarter chose cricket. The rest of the students left the question blank.",
+     "prompt": "How many students left the question blank?",
+     "type": "numeric",
+     "answer": "70"
+    },
+    {
+     "id": "q12a",
+     "label": "12a",
+     "section": "Reasoning",
+     "stem": "Four students read the same novel over two nights for homework. The table shows what fraction of the book each student read on each night. *Hana also read another $\\frac{1}{10}$ of the book on the third morning, before school.",
+     "prompt": "Work out the total fraction of the book each student had read before their next English lesson. Write the four totals in order, from least to most.",
+     "type": "ordered",
+     "answer": [
+      "11/20",
+      "7/12",
+      "5/8",
+      "19/30"
+     ],
+     "stemFigure": {
+      "kind": "table",
+      "rows": [
+       [
+        "Student",
+        "Mia",
+        "Oscar",
+        "Hana*",
+        "Leo"
+       ],
+       [
+        "First night",
+        "1/3",
+        "1/2",
+        "1/5",
+        "3/10"
+       ],
+       [
+        "Second night",
+        "1/4",
+        "1/8",
+        "1/4",
+        "1/3"
+       ]
+      ]
+     },
+     "hint": "Type fractions like 3/4, separated by commas."
+    },
+    {
+     "id": "q12b",
+     "label": "12b",
+     "section": "Reasoning",
+     "stem": "Four students read the same novel over two nights for homework. The table shows what fraction of the book each student read on each night. *Hana also read another $\\frac{1}{10}$ of the book on the third morning, before school.",
+     "prompt": "Which list puts the students in order, from least to most of the book read?",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "Leo, Oscar, Mia, Hana",
+      "Hana, Mia, Oscar, Leo",
+      "Mia, Hana, Leo, Oscar",
+      "Mia, Oscar, Hana, Leo"
+     ]
+    },
+    {
+     "id": "q13a",
+     "label": "13a",
+     "section": "Reasoning",
+     "stem": "Fill in the empty boxes to make each fraction sum correct. Each box holds a whole number from 1 to 9, and every fraction is less than 1.",
+     "prompt": "$\\frac{1}{\\square} + \\frac{1}{\\square} = \\frac{8}{15}$",
+     "type": "list",
+     "answer": [
+      "3",
+      "5"
+     ],
+     "hint": "Type the two missing numbers, separated by a comma."
+    },
+    {
+     "id": "q13b",
+     "label": "13b",
+     "section": "Reasoning",
+     "stem": "Fill in the empty boxes to make each fraction sum correct. Each box holds a whole number from 1 to 9, and every fraction is less than 1.",
+     "prompt": "$\\frac{1}{\\square} + \\frac{1}{\\square} + \\frac{1}{\\square} = \\frac{19}{20}$",
+     "type": "list",
+     "answer": [
+      "2",
+      "4",
+      "5"
+     ],
+     "hint": "Type the three missing numbers, separated by commas."
+    },
+    {
+     "id": "q13c",
+     "label": "13c",
+     "section": "Reasoning",
+     "stem": "Fill in the empty boxes to make each fraction sum correct. Each box holds a whole number from 1 to 9, and every fraction is less than 1.",
+     "prompt": "$\\frac{2}{\\square} + \\frac{\\square}{7} = \\frac{24}{35}$",
+     "type": "ordered",
+     "answer": [
+      "5",
+      "2"
+     ],
+     "hint": "Type the missing numbers in order from left to right, separated by a comma."
+    },
+    {
+     "id": "q14a",
+     "label": "14a",
+     "section": "Enrichment",
+     "stem": "Use each of the digits $2, 3, 4, 5, 6$ and $7$ exactly once to fill the boxes in $\\frac{\\square}{\\square} + \\frac{\\square}{\\square} + \\frac{\\square}{\\square}$.",
+     "prompt": "What is the largest possible answer?",
+     "type": "numeric",
+     "answer": "6 3/4",
+     "hint": "Type a fraction like 7/4 or a mixed numeral like 1 3/4"
+    },
+    {
+     "id": "q14b",
+     "label": "14b",
+     "section": "Enrichment",
+     "stem": "Use each of the digits $2, 3, 4, 5, 6$ and $7$ exactly once to fill the boxes in $\\frac{\\square}{\\square} + \\frac{\\square}{\\square} + \\frac{\\square}{\\square}$.",
+     "prompt": "What is the smallest possible answer?",
+     "type": "numeric",
+     "answer": "1 33/70",
+     "hint": "Type a fraction like 7/4 or a mixed numeral like 1 3/4"
+    },
+    {
+     "id": "q14c",
+     "label": "14c",
+     "section": "Enrichment",
+     "stem": "Now use each of the digits $2$ to $9$ exactly once to make four fractions: $\\frac{\\square}{\\square} + \\frac{\\square}{\\square} + \\frac{\\square}{\\square} + \\frac{\\square}{\\square}$.",
+     "prompt": "What is the largest possible answer?",
+     "type": "numeric",
+     "answer": "10 7/60",
+     "hint": "Type a fraction like 7/4 or a mixed numeral like 1 3/4"
+    },
+    {
+     "id": "q14d",
+     "label": "14d",
+     "section": "Enrichment",
+     "stem": "Now use each of the digits $2$ to $9$ exactly once to make four fractions: $\\frac{\\square}{\\square} + \\frac{\\square}{\\square} + \\frac{\\square}{\\square} + \\frac{\\square}{\\square}$.",
+     "prompt": "What is the smallest possible answer?",
+     "type": "numeric",
+     "answer": "1 103/126",
+     "hint": "Type a fraction like 7/4 or a mixed numeral like 1 3/4"
+    }
+   ]
+  },
+  {
+   "id": "3f",
+   "chapter": "Chapter 3: Fractions and percentages",
+   "title": "3F Subtracting fractions",
+   "description": "Subtracting fractions and mixed numerals, including borrowing a whole, and solving word problems.",
+   "questions": [
+    {
+     "id": "q1a",
+     "label": "1a",
+     "section": "Fluency",
+     "stem": "Simplify.",
+     "prompt": "$\\frac{7}{9} - \\frac{2}{9}$",
+     "type": "numeric",
+     "answer": "5/9"
+    },
+    {
+     "id": "q1b",
+     "label": "1b",
+     "section": "Fluency",
+     "stem": "Simplify.",
+     "prompt": "$\\frac{8}{13} - \\frac{3}{13}$",
+     "type": "numeric",
+     "answer": "5/13"
+    },
+    {
+     "id": "q1c",
+     "label": "1c",
+     "section": "Fluency",
+     "stem": "Simplify.",
+     "prompt": "$\\frac{11}{15} - \\frac{4}{15}$",
+     "type": "numeric",
+     "answer": "7/15"
+    },
+    {
+     "id": "q1d",
+     "label": "1d",
+     "section": "Fluency",
+     "stem": "Simplify.",
+     "prompt": "$\\frac{4}{5} - \\frac{1}{5}$",
+     "type": "numeric",
+     "answer": "3/5"
+    },
+    {
+     "id": "q2a",
+     "label": "2a",
+     "section": "Fluency",
+     "stem": "Simplify.",
+     "prompt": "$\\frac{7}{10} - \\frac{3}{10}$",
+     "type": "numeric",
+     "answer": "2/5"
+    },
+    {
+     "id": "q2b",
+     "label": "2b",
+     "section": "Fluency",
+     "stem": "Simplify.",
+     "prompt": "$\\frac{9}{17} - \\frac{4}{17}$",
+     "type": "numeric",
+     "answer": "5/17"
+    },
+    {
+     "id": "q2c",
+     "label": "2c",
+     "section": "Fluency",
+     "stem": "Simplify.",
+     "prompt": "$\\frac{5}{8} - \\frac{5}{8}$",
+     "type": "numeric",
+     "answer": "0"
+    },
+    {
+     "id": "q2d",
+     "label": "2d",
+     "section": "Fluency",
+     "stem": "Simplify.",
+     "prompt": "$\\frac{19}{21} - \\frac{11}{21}$",
+     "type": "numeric",
+     "answer": "8/21"
+    },
+    {
+     "id": "q3a",
+     "label": "3a",
+     "section": "Fluency",
+     "stem": "Simplify.",
+     "prompt": "$\\frac{3}{4} - \\frac{1}{3}$",
+     "type": "numeric",
+     "answer": "5/12"
+    },
+    {
+     "id": "q3b",
+     "label": "3b",
+     "section": "Fluency",
+     "stem": "Simplify.",
+     "prompt": "$\\frac{4}{5} - \\frac{1}{2}$",
+     "type": "numeric",
+     "answer": "3/10"
+    },
+    {
+     "id": "q3c",
+     "label": "3c",
+     "section": "Fluency",
+     "stem": "Simplify.",
+     "prompt": "$\\frac{5}{6} - \\frac{2}{5}$",
+     "type": "numeric",
+     "answer": "13/30"
+    },
+    {
+     "id": "q3d",
+     "label": "3d",
+     "section": "Fluency",
+     "stem": "Simplify.",
+     "prompt": "$\\frac{5}{7} - \\frac{1}{3}$",
+     "type": "numeric",
+     "answer": "8/21"
+    },
+    {
+     "id": "q4a",
+     "label": "4a",
+     "section": "Fluency",
+     "stem": "Simplify. Make sure each final answer is in simplest form.",
+     "prompt": "$\\frac{7}{8} - \\frac{3}{8}$",
+     "type": "numeric",
+     "answer": "1/2",
+     "simplest": true,
+     "hint": "Type a fraction like 3/4"
+    },
+    {
+     "id": "q4b",
+     "label": "4b",
+     "section": "Fluency",
+     "stem": "Simplify. Make sure each final answer is in simplest form.",
+     "prompt": "$\\frac{9}{10} - \\frac{1}{10}$",
+     "type": "numeric",
+     "answer": "4/5",
+     "simplest": true,
+     "hint": "Type a fraction like 3/4"
+    },
+    {
+     "id": "q4c",
+     "label": "4c",
+     "section": "Fluency",
+     "stem": "Simplify. Make sure each final answer is in simplest form.",
+     "prompt": "$\\frac{5}{6} - \\frac{1}{6}$",
+     "type": "numeric",
+     "answer": "2/3",
+     "simplest": true,
+     "hint": "Type a fraction like 3/4"
+    },
+    {
+     "id": "q4d",
+     "label": "4d",
+     "section": "Fluency",
+     "stem": "Simplify. Make sure each final answer is in simplest form.",
+     "prompt": "$\\frac{11}{12} - \\frac{7}{12}$",
+     "type": "numeric",
+     "answer": "1/3",
+     "simplest": true,
+     "hint": "Type a fraction like 3/4"
+    },
+    {
+     "id": "q4e",
+     "label": "4e",
+     "section": "Fluency",
+     "stem": "Simplify. Make sure each final answer is in simplest form.",
+     "prompt": "$\\frac{7}{10} - \\frac{1}{5}$",
+     "type": "numeric",
+     "answer": "1/2",
+     "simplest": true,
+     "hint": "Type a fraction like 3/4"
+    },
+    {
+     "id": "q4f",
+     "label": "4f",
+     "section": "Fluency",
+     "stem": "Simplify. Make sure each final answer is in simplest form.",
+     "prompt": "$\\frac{7}{8} - \\frac{1}{4}$",
+     "type": "numeric",
+     "answer": "5/8",
+     "simplest": true,
+     "hint": "Type a fraction like 3/4"
+    },
+    {
+     "id": "q4g",
+     "label": "4g",
+     "section": "Fluency",
+     "stem": "Simplify. Make sure each final answer is in simplest form.",
+     "prompt": "$\\frac{7}{12} - \\frac{1}{3}$",
+     "type": "numeric",
+     "answer": "1/4",
+     "simplest": true,
+     "hint": "Type a fraction like 3/4"
+    },
+    {
+     "id": "q4h",
+     "label": "4h",
+     "section": "Fluency",
+     "stem": "Simplify. Make sure each final answer is in simplest form.",
+     "prompt": "$\\frac{17}{20} - \\frac{3}{10}$",
+     "type": "numeric",
+     "answer": "11/20",
+     "simplest": true,
+     "hint": "Type a fraction like 3/4"
+    },
+    {
+     "id": "q5a",
+     "label": "5a",
+     "section": "Fluency",
+     "stem": "Simplify. Write each answer as a mixed numeral in simplest form (or a fraction in simplest form if it is less than 1).",
+     "prompt": "$4\\frac{5}{7} - 1\\frac{2}{7}$",
+     "type": "numeric",
+     "answer": "3 3/7",
+     "as": "mixed",
+     "hint": "Type a mixed numeral with a space, for example 2 1/3"
+    },
+    {
+     "id": "q5b",
+     "label": "5b",
+     "section": "Fluency",
+     "stem": "Simplify. Write each answer as a mixed numeral in simplest form (or a fraction in simplest form if it is less than 1).",
+     "prompt": "$18\\frac{7}{9} - 11\\frac{4}{9}$",
+     "type": "numeric",
+     "answer": "7 1/3",
+     "as": "mixed",
+     "hint": "Type a mixed numeral with a space, for example 2 1/3"
+    },
+    {
+     "id": "q5c",
+     "label": "5c",
+     "section": "Fluency",
+     "stem": "Simplify. Write each answer as a mixed numeral in simplest form (or a fraction in simplest form if it is less than 1).",
+     "prompt": "$6\\frac{13}{15} - 5\\frac{8}{15}$",
+     "type": "numeric",
+     "answer": "1 1/3",
+     "as": "mixed",
+     "hint": "Type a mixed numeral with a space, for example 2 1/3"
+    },
+    {
+     "id": "q5d",
+     "label": "5d",
+     "section": "Fluency",
+     "stem": "Simplify. Write each answer as a mixed numeral in simplest form (or a fraction in simplest form if it is less than 1).",
+     "prompt": "$5\\frac{7}{11} - \\frac{4}{11}$",
+     "type": "numeric",
+     "answer": "5 3/11",
+     "as": "mixed",
+     "hint": "Type a mixed numeral with a space, for example 2 1/3"
+    },
+    {
+     "id": "q5e",
+     "label": "5e",
+     "section": "Fluency",
+     "stem": "Simplify. Write each answer as a mixed numeral in simplest form (or a fraction in simplest form if it is less than 1).",
+     "prompt": "$7\\frac{3}{4} - 3\\frac{1}{3}$",
+     "type": "numeric",
+     "answer": "4 5/12",
+     "as": "mixed",
+     "hint": "Type a mixed numeral with a space, for example 2 1/3"
+    },
+    {
+     "id": "q5f",
+     "label": "5f",
+     "section": "Fluency",
+     "stem": "Simplify. Write each answer as a mixed numeral in simplest form (or a fraction in simplest form if it is less than 1).",
+     "prompt": "$6\\frac{4}{5} - 2\\frac{1}{3}$",
+     "type": "numeric",
+     "answer": "4 7/15",
+     "as": "mixed",
+     "hint": "Type a mixed numeral with a space, for example 2 1/3"
+    },
+    {
+     "id": "q5g",
+     "label": "5g",
+     "section": "Fluency",
+     "stem": "Simplify. Write each answer as a mixed numeral in simplest form (or a fraction in simplest form if it is less than 1).",
+     "prompt": "$8\\frac{7}{8} - 3\\frac{5}{6}$",
+     "type": "numeric",
+     "answer": "5 1/24",
+     "as": "mixed",
+     "hint": "Type a mixed numeral with a space, for example 2 1/3"
+    },
+    {
+     "id": "q5h",
+     "label": "5h",
+     "section": "Fluency",
+     "stem": "Simplify. Write each answer as a mixed numeral in simplest form (or a fraction in simplest form if it is less than 1).",
+     "prompt": "$12\\frac{5}{6} - 5\\frac{3}{4}$",
+     "type": "numeric",
+     "answer": "7 1/12",
+     "as": "mixed",
+     "hint": "Type a mixed numeral with a space, for example 2 1/3"
+    },
+    {
+     "id": "q6a",
+     "label": "6a",
+     "section": "Fluency",
+     "stem": "Simplify. Write each answer as a mixed numeral in simplest form (or a fraction in simplest form if it is less than 1).",
+     "prompt": "$6\\frac{1}{4} - 3\\frac{3}{4}$",
+     "type": "numeric",
+     "answer": "2 1/2",
+     "as": "mixed",
+     "hint": "Type a mixed numeral with a space, for example 2 1/3"
+    },
+    {
+     "id": "q6b",
+     "label": "6b",
+     "section": "Fluency",
+     "stem": "Simplify. Write each answer as a mixed numeral in simplest form (or a fraction in simplest form if it is less than 1).",
+     "prompt": "$8\\frac{1}{5} - 4\\frac{3}{5}$",
+     "type": "numeric",
+     "answer": "3 3/5",
+     "as": "mixed",
+     "hint": "Type a mixed numeral with a space, for example 2 1/3"
+    },
+    {
+     "id": "q6c",
+     "label": "6c",
+     "section": "Fluency",
+     "stem": "Simplify. Write each answer as a mixed numeral in simplest form (or a fraction in simplest form if it is less than 1).",
+     "prompt": "$11\\frac{1}{3} - 7\\frac{5}{6}$",
+     "type": "numeric",
+     "answer": "3 1/2",
+     "as": "mixed",
+     "hint": "Type a mixed numeral with a space, for example 2 1/3"
+    },
+    {
+     "id": "q6d",
+     "label": "6d",
+     "section": "Fluency",
+     "stem": "Simplify. Write each answer as a mixed numeral in simplest form (or a fraction in simplest form if it is less than 1).",
+     "prompt": "$10\\frac{1}{6} - 4\\frac{1}{3}$",
+     "type": "numeric",
+     "answer": "5 5/6",
+     "as": "mixed",
+     "hint": "Type a mixed numeral with a space, for example 2 1/3"
+    },
+    {
+     "id": "q6e",
+     "label": "6e",
+     "section": "Fluency",
+     "stem": "Simplify. Write each answer as a mixed numeral in simplest form (or a fraction in simplest form if it is less than 1).",
+     "prompt": "$7\\frac{3}{10} - 2\\frac{4}{5}$",
+     "type": "numeric",
+     "answer": "4 1/2",
+     "as": "mixed",
+     "hint": "Type a mixed numeral with a space, for example 2 1/3"
+    },
+    {
+     "id": "q6f",
+     "label": "6f",
+     "section": "Fluency",
+     "stem": "Simplify. Write each answer as a mixed numeral in simplest form (or a fraction in simplest form if it is less than 1).",
+     "prompt": "$1\\frac{2}{7} - \\frac{5}{6}$",
+     "type": "numeric",
+     "answer": "19/42",
+     "simplest": true,
+     "hint": "Type a fraction like 3/4"
+    },
+    {
+     "id": "q6g",
+     "label": "6g",
+     "section": "Fluency",
+     "stem": "Simplify. Write each answer as a mixed numeral in simplest form (or a fraction in simplest form if it is less than 1).",
+     "prompt": "$9\\frac{1}{9} - 1\\frac{1}{2}$",
+     "type": "numeric",
+     "answer": "7 11/18",
+     "as": "mixed",
+     "hint": "Type a mixed numeral with a space, for example 2 1/3"
+    },
+    {
+     "id": "q6h",
+     "label": "6h",
+     "section": "Fluency",
+     "stem": "Simplify. Write each answer as a mixed numeral in simplest form (or a fraction in simplest form if it is less than 1).",
+     "prompt": "$5\\frac{1}{12} - 2\\frac{3}{4}$",
+     "type": "numeric",
+     "answer": "2 1/3",
+     "as": "mixed",
+     "hint": "Type a mixed numeral with a space, for example 2 1/3"
+    },
+    {
+     "id": "q7",
+     "label": "7",
+     "section": "Problem-solving",
+     "prompt": "Before Jamal poured himself a glass of juice, the jug held $\\frac{5}{6}$ of a litre. Afterwards, it held only $\\frac{1}{4}$ of a litre. How much juice did Jamal pour into his glass?",
+     "type": "numeric",
+     "answer": "7/12",
+     "units": "L",
+     "hint": "Type a fraction like 3/4"
+    },
+    {
+     "id": "q8",
+     "label": "8",
+     "section": "Problem-solving",
+     "prompt": "A large block of chocolate has $80$ small squares. Ruby eats $12$ squares, Sam eats $16$ squares and Ivy eats $20$ squares. What fraction of the block is left?",
+     "type": "numeric",
+     "answer": "2/5",
+     "hint": "Type a fraction like 3/4"
+    },
+    {
+     "id": "q9",
+     "label": "9",
+     "section": "Problem-solving",
+     "prompt": "Three friends share the cost of a taxi. One pays $\\frac{2}{5}$ of the fare and another pays $\\frac{1}{4}$ of the fare. What fraction of the fare must the third friend pay?",
+     "type": "numeric",
+     "answer": "7/20",
+     "hint": "Type a fraction like 3/4"
+    },
+    {
+     "id": "q10",
+     "label": "10",
+     "section": "Problem-solving",
+     "prompt": "Omar has $31\\frac{1}{4}$ dollars, but he owes his brother $18\\frac{3}{4}$ dollars. How much money will Omar have left after he pays his brother back? Give your answer in dollars and cents.",
+     "type": "numeric",
+     "answer": "12.50",
+     "units": "$"
+    },
+    {
+     "id": "q11a",
+     "label": "11a",
+     "section": "Problem-solving",
+     "stem": "Three cakes were served at a birthday party: a pavlova, a lemon cake and a fruit cake. Two-thirds of the pavlova was eaten. The lemon cake was cut into $10$ equal pieces, and $7$ of them were eaten. The fruit cake was cut into $6$ equal pieces, and only $1$ piece was left.",
+     "prompt": "What fraction of each cake was eaten? Give the pavlova, then the lemon cake, then the fruit cake.",
+     "type": "ordered",
+     "answer": [
+      "2/3",
+      "7/10",
+      "5/6"
+     ],
+     "hint": "Type three fractions like 3/4, separated by commas."
+    },
+    {
+     "id": "q11b",
+     "label": "11b",
+     "section": "Problem-solving",
+     "stem": "Three cakes were served at a birthday party: a pavlova, a lemon cake and a fruit cake. Two-thirds of the pavlova was eaten. The lemon cake was cut into $10$ equal pieces, and $7$ of them were eaten. The fruit cake was cut into $6$ equal pieces, and only $1$ piece was left.",
+     "prompt": "What fraction of each cake was left over? Give the pavlova, then the lemon cake, then the fruit cake.",
+     "type": "ordered",
+     "answer": [
+      "1/3",
+      "3/10",
+      "1/6"
+     ],
+     "hint": "Type three fractions like 3/4, separated by commas."
+    },
+    {
+     "id": "q11c",
+     "label": "11c",
+     "section": "Problem-solving",
+     "stem": "Three cakes were served at a birthday party: a pavlova, a lemon cake and a fruit cake. Two-thirds of the pavlova was eaten. The lemon cake was cut into $10$ equal pieces, and $7$ of them were eaten. The fruit cake was cut into $6$ equal pieces, and only $1$ piece was left.",
+     "prompt": "How much cake was eaten altogether?",
+     "type": "numeric",
+     "answer": "2 1/5",
+     "units": "cakes",
+     "hint": "Type a mixed numeral like 1 3/4"
+    },
+    {
+     "id": "q11d",
+     "label": "11d",
+     "section": "Problem-solving",
+     "stem": "Three cakes were served at a birthday party: a pavlova, a lemon cake and a fruit cake. Two-thirds of the pavlova was eaten. The lemon cake was cut into $10$ equal pieces, and $7$ of them were eaten. The fruit cake was cut into $6$ equal pieces, and only $1$ piece was left.",
+     "prompt": "How much cake was left over altogether?",
+     "type": "numeric",
+     "answer": "4/5",
+     "units": "cake",
+     "hint": "Type a fraction like 3/4"
+    },
+    {
+     "id": "q12a",
+     "label": "12a",
+     "section": "Reasoning",
+     "stem": "Fill in the empty boxes to make each statement correct. Each box holds a whole number from 1 to 9, and every fraction (or fraction part) is less than 1.",
+     "prompt": "$\\frac{1}{\\square} - \\frac{1}{\\square} = \\frac{1}{30}$",
+     "type": "ordered",
+     "answer": [
+      "5",
+      "6"
+     ],
+     "hint": "Type the missing numbers in order from left to right, separated by a comma."
+    },
+    {
+     "id": "q12b",
+     "label": "12b",
+     "section": "Reasoning",
+     "stem": "Fill in the empty boxes to make each statement correct. Each box holds a whole number from 1 to 9, and every fraction (or fraction part) is less than 1.",
+     "prompt": "$\\frac{\\square}{3} - \\frac{\\square}{4} = \\frac{5}{12}$",
+     "type": "ordered",
+     "answer": [
+      "2",
+      "1"
+     ],
+     "hint": "Type the missing numbers in order from left to right, separated by a comma."
+    },
+    {
+     "id": "q12c",
+     "label": "12c",
+     "section": "Reasoning",
+     "stem": "Fill in the empty boxes to make each statement correct. Each box holds a whole number from 1 to 9, and every fraction (or fraction part) is less than 1.",
+     "prompt": "$4\\frac{\\square}{4} - 3\\frac{\\square}{4} = \\frac{1}{2}$",
+     "type": "ordered",
+     "answer": [
+      "1",
+      "3"
+     ],
+     "hint": "Type the missing numbers in order from left to right, separated by a comma."
+    },
+    {
+     "id": "q12d",
+     "label": "12d",
+     "section": "Reasoning",
+     "stem": "Fill in the empty boxes to make each statement correct. Each box holds a whole number from 1 to 9, and every fraction (or fraction part) is less than 1.",
+     "prompt": "$7\\frac{1}{\\square} - 4\\frac{\\square}{6} = 2\\frac{1}{3}$",
+     "type": "ordered",
+     "answer": [
+      "6",
+      "5"
+     ],
+     "hint": "Type the missing numbers in order from left to right, separated by a comma."
+    },
+    {
+     "id": "q13a",
+     "label": "13a",
+     "section": "Reasoning",
+     "stem": "Today Sam's age is one-fifth of his cousin Ella's age. Ella is a teenager.",
+     "prompt": "In $1$ year's time, Sam will be one-quarter of Ella's age. What fraction of her age will he be in $5$ years' time?",
+     "type": "numeric",
+     "answer": "2/5",
+     "hint": "Type a fraction like 3/4"
+    },
+    {
+     "id": "q13b",
+     "label": "13b",
+     "section": "Reasoning",
+     "stem": "Today Sam's age is one-fifth of his cousin Ella's age. Ella is a teenager.",
+     "prompt": "How many years from today until Sam is one-third of Ella's age?",
+     "type": "numeric",
+     "answer": "3",
+     "units": "years"
+    },
+    {
+     "id": "q13c",
+     "label": "13c",
+     "section": "Reasoning",
+     "stem": "Today Sam's age is one-fifth of his cousin Ella's age. Ella is a teenager.",
+     "prompt": "How many years from today until Sam is half of Ella's age?",
+     "type": "numeric",
+     "answer": "9",
+     "units": "years"
+    },
+    {
+     "id": "q14a",
+     "label": "14a",
+     "section": "Reasoning",
+     "stem": "Simplify, either by borrowing a whole or by changing to improper fractions. Write each answer as a mixed numeral.",
+     "prompt": "$3\\frac{1}{4} - 1\\frac{5}{6}$",
+     "type": "numeric",
+     "answer": "1 5/12",
+     "as": "mixed",
+     "hint": "Type a mixed numeral with a space, for example 2 1/3"
+    },
+    {
+     "id": "q14b",
+     "label": "14b",
+     "section": "Reasoning",
+     "stem": "Simplify, either by borrowing a whole or by changing to improper fractions. Write each answer as a mixed numeral.",
+     "prompt": "$31\\frac{3}{7} - 26\\frac{5}{8}$",
+     "type": "numeric",
+     "answer": "4 45/56",
+     "as": "mixed",
+     "hint": "Type a mixed numeral with a space, for example 2 1/3"
+    }
+   ]
+  },
+  {
+   "id": "3g",
+   "chapter": "Chapter 3: Fractions and percentages",
+   "title": "3G Multiplying fractions",
+   "description": "Multiplying fractions, mixed numerals and whole numbers, cancelling to give answers in simplest form.",
+   "questions": [
+    {
+     "id": "q1a",
+     "label": "1a",
+     "section": "Fluency",
+     "stem": "Find each product. Give your answer in simplest form.",
+     "prompt": "$\\frac{1}{2} \\times \\frac{1}{5}$",
+     "type": "numeric",
+     "answer": "1/10",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true
+    },
+    {
+     "id": "q1b",
+     "label": "1b",
+     "section": "Fluency",
+     "stem": "Find each product. Give your answer in simplest form.",
+     "prompt": "$\\frac{1}{4} \\times \\frac{1}{3}$",
+     "type": "numeric",
+     "answer": "1/12",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true
+    },
+    {
+     "id": "q1c",
+     "label": "1c",
+     "section": "Fluency",
+     "stem": "Find each product. Give your answer in simplest form.",
+     "prompt": "$\\frac{3}{4} \\times \\frac{5}{7}$",
+     "type": "numeric",
+     "answer": "15/28",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true
+    },
+    {
+     "id": "q1d",
+     "label": "1d",
+     "section": "Fluency",
+     "stem": "Find each product. Give your answer in simplest form.",
+     "prompt": "$\\frac{2}{3} \\times \\frac{4}{5}$",
+     "type": "numeric",
+     "answer": "8/15",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true
+    },
+    {
+     "id": "q1e",
+     "label": "1e",
+     "section": "Fluency",
+     "stem": "Find each product. Give your answer in simplest form.",
+     "prompt": "$\\frac{2}{5} \\times \\frac{1}{3}$",
+     "type": "numeric",
+     "answer": "2/15",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true
+    },
+    {
+     "id": "q1f",
+     "label": "1f",
+     "section": "Fluency",
+     "stem": "Find each product. Give your answer in simplest form.",
+     "prompt": "$\\frac{3}{7} \\times \\frac{1}{2}$",
+     "type": "numeric",
+     "answer": "3/14",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true
+    },
+    {
+     "id": "q1g",
+     "label": "1g",
+     "section": "Fluency",
+     "stem": "Find each product. Give your answer in simplest form.",
+     "prompt": "$\\frac{1}{6} \\times \\frac{5}{7}$",
+     "type": "numeric",
+     "answer": "5/42",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true
+    },
+    {
+     "id": "q1h",
+     "label": "1h",
+     "section": "Fluency",
+     "stem": "Find each product. Give your answer in simplest form.",
+     "prompt": "$\\frac{2}{7} \\times \\frac{3}{5}$",
+     "type": "numeric",
+     "answer": "6/35",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true
+    },
+    {
+     "id": "q2a",
+     "label": "2a",
+     "section": "Fluency",
+     "stem": "Multiply these fractions. Cancel any common factors in the numerators and denominators first, and give your answer in simplest form.",
+     "prompt": "$\\frac{5}{9} \\times \\frac{3}{5}$",
+     "type": "numeric",
+     "answer": "1/3",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true
+    },
+    {
+     "id": "q2b",
+     "label": "2b",
+     "section": "Fluency",
+     "stem": "Multiply these fractions. Cancel any common factors in the numerators and denominators first, and give your answer in simplest form.",
+     "prompt": "$\\frac{8}{15} \\times \\frac{5}{16}$",
+     "type": "numeric",
+     "answer": "1/6",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true
+    },
+    {
+     "id": "q2c",
+     "label": "2c",
+     "section": "Fluency",
+     "stem": "Multiply these fractions. Cancel any common factors in the numerators and denominators first, and give your answer in simplest form.",
+     "prompt": "$\\frac{30}{50} \\times \\frac{20}{60}$",
+     "type": "numeric",
+     "answer": "1/5",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true
+    },
+    {
+     "id": "q2d",
+     "label": "2d",
+     "section": "Fluency",
+     "stem": "Multiply these fractions. Cancel any common factors in the numerators and denominators first, and give your answer in simplest form.",
+     "prompt": "$\\frac{9}{14} \\times \\frac{28}{45}$",
+     "type": "numeric",
+     "answer": "2/5",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true
+    },
+    {
+     "id": "q3a",
+     "label": "3a",
+     "section": "Fluency",
+     "stem": "Find each answer in simplest form. Remember that 'of' means multiply.",
+     "prompt": "$\\frac{3}{4} \\times \\frac{4}{7}$",
+     "type": "numeric",
+     "answer": "3/7",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true
+    },
+    {
+     "id": "q3b",
+     "label": "3b",
+     "section": "Fluency",
+     "stem": "Find each answer in simplest form. Remember that 'of' means multiply.",
+     "prompt": "$\\frac{4}{10} \\times \\frac{5}{9}$",
+     "type": "numeric",
+     "answer": "2/9",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true
+    },
+    {
+     "id": "q3c",
+     "label": "3c",
+     "section": "Fluency",
+     "stem": "Find each answer in simplest form. Remember that 'of' means multiply.",
+     "prompt": "$\\frac{9}{13} \\times \\frac{2}{3}$",
+     "type": "numeric",
+     "answer": "6/13",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true
+    },
+    {
+     "id": "q3d",
+     "label": "3d",
+     "section": "Fluency",
+     "stem": "Find each answer in simplest form. Remember that 'of' means multiply.",
+     "prompt": "$\\frac{3}{7} \\times \\frac{14}{15}$",
+     "type": "numeric",
+     "answer": "2/5",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true
+    },
+    {
+     "id": "q3e",
+     "label": "3e",
+     "section": "Fluency",
+     "stem": "Find each answer in simplest form. Remember that 'of' means multiply.",
+     "prompt": "$\\frac{3}{8}$ of $\\frac{2}{5}$",
+     "type": "numeric",
+     "answer": "3/20",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true
+    },
+    {
+     "id": "q3f",
+     "label": "3f",
+     "section": "Fluency",
+     "stem": "Find each answer in simplest form. Remember that 'of' means multiply.",
+     "prompt": "$\\frac{5}{6}$ of $\\frac{3}{4}$",
+     "type": "numeric",
+     "answer": "5/8",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true
+    },
+    {
+     "id": "q3g",
+     "label": "3g",
+     "section": "Fluency",
+     "stem": "Find each answer in simplest form. Remember that 'of' means multiply.",
+     "prompt": "$\\frac{6}{10}$ of $\\frac{5}{9}$",
+     "type": "numeric",
+     "answer": "1/3",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true
+    },
+    {
+     "id": "q3h",
+     "label": "3h",
+     "section": "Fluency",
+     "stem": "Find each answer in simplest form. Remember that 'of' means multiply.",
+     "prompt": "$\\frac{4}{12}$ of $\\frac{6}{8}$",
+     "type": "numeric",
+     "answer": "1/4",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true
+    },
+    {
+     "id": "q4a",
+     "label": "4a",
+     "section": "Fluency",
+     "stem": "Find:",
+     "prompt": "$\\frac{1}{4} \\times 28$",
+     "type": "numeric",
+     "answer": "7"
+    },
+    {
+     "id": "q4b",
+     "label": "4b",
+     "section": "Fluency",
+     "stem": "Find:",
+     "prompt": "$\\frac{1}{7} \\times 63$",
+     "type": "numeric",
+     "answer": "9"
+    },
+    {
+     "id": "q4c",
+     "label": "4c",
+     "section": "Fluency",
+     "stem": "Find:",
+     "prompt": "$\\frac{3}{4} \\times 32$",
+     "type": "numeric",
+     "answer": "24"
+    },
+    {
+     "id": "q4d",
+     "label": "4d",
+     "section": "Fluency",
+     "stem": "Find:",
+     "prompt": "$\\frac{2}{5} \\times 35$",
+     "type": "numeric",
+     "answer": "14"
+    },
+    {
+     "id": "q4e",
+     "label": "4e",
+     "section": "Fluency",
+     "stem": "Find:",
+     "prompt": "$\\frac{3}{8}$ of $40$",
+     "type": "numeric",
+     "answer": "15"
+    },
+    {
+     "id": "q4f",
+     "label": "4f",
+     "section": "Fluency",
+     "stem": "Find:",
+     "prompt": "$\\frac{1}{3}$ of $27$",
+     "type": "numeric",
+     "answer": "9"
+    },
+    {
+     "id": "q4g",
+     "label": "4g",
+     "section": "Fluency",
+     "stem": "Find:",
+     "prompt": "$\\frac{3}{10}$ of $90$",
+     "type": "numeric",
+     "answer": "27"
+    },
+    {
+     "id": "q4h",
+     "label": "4h",
+     "section": "Fluency",
+     "stem": "Find:",
+     "prompt": "$\\frac{5}{9}$ of $81$",
+     "type": "numeric",
+     "answer": "45"
+    },
+    {
+     "id": "q5a",
+     "label": "5a",
+     "section": "Fluency",
+     "stem": "Find each product. Give your answer in simplest form, as a mixed numeral if it is bigger than 1.",
+     "prompt": "$\\frac{7}{2} \\times \\frac{5}{3}$",
+     "type": "numeric",
+     "answer": "5 5/6",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true,
+     "as": "mixed"
+    },
+    {
+     "id": "q5b",
+     "label": "5b",
+     "section": "Fluency",
+     "stem": "Find each product. Give your answer in simplest form, as a mixed numeral if it is bigger than 1.",
+     "prompt": "$\\frac{4}{3} \\times \\frac{10}{7}$",
+     "type": "numeric",
+     "answer": "1 19/21",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true,
+     "as": "mixed"
+    },
+    {
+     "id": "q5c",
+     "label": "5c",
+     "section": "Fluency",
+     "stem": "Find each product. Give your answer in simplest form, as a mixed numeral if it is bigger than 1.",
+     "prompt": "$\\frac{9}{4} \\times \\frac{7}{6}$",
+     "type": "numeric",
+     "answer": "2 5/8",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true,
+     "as": "mixed"
+    },
+    {
+     "id": "q5d",
+     "label": "5d",
+     "section": "Fluency",
+     "stem": "Find each product. Give your answer in simplest form, as a mixed numeral if it is bigger than 1.",
+     "prompt": "$\\frac{10}{3} \\times \\frac{9}{8}$",
+     "type": "numeric",
+     "answer": "3 3/4",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true,
+     "as": "mixed"
+    },
+    {
+     "id": "q5e",
+     "label": "5e",
+     "section": "Fluency",
+     "stem": "Find each product. Give your answer in simplest form, as a mixed numeral if it is bigger than 1.",
+     "prompt": "$\\frac{7}{5} \\times \\frac{15}{4}$",
+     "type": "numeric",
+     "answer": "5 1/4",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true,
+     "as": "mixed"
+    },
+    {
+     "id": "q5f",
+     "label": "5f",
+     "section": "Fluency",
+     "stem": "Find each product. Give your answer in simplest form, as a mixed numeral if it is bigger than 1.",
+     "prompt": "$\\frac{16}{5} \\times \\frac{15}{8}$",
+     "type": "numeric",
+     "answer": "6",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true
+    },
+    {
+     "id": "q5g",
+     "label": "5g",
+     "section": "Fluency",
+     "stem": "Find each product. Give your answer in simplest form, as a mixed numeral if it is bigger than 1.",
+     "prompt": "$\\frac{25}{6} \\times \\frac{8}{15}$",
+     "type": "numeric",
+     "answer": "2 2/9",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true,
+     "as": "mixed"
+    },
+    {
+     "id": "q5h",
+     "label": "5h",
+     "section": "Fluency",
+     "stem": "Find each product. Give your answer in simplest form, as a mixed numeral if it is bigger than 1.",
+     "prompt": "$\\frac{12}{7} \\times \\frac{35}{9}$",
+     "type": "numeric",
+     "answer": "6 2/3",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true,
+     "as": "mixed"
+    },
+    {
+     "id": "q6a",
+     "label": "6a",
+     "section": "Fluency",
+     "stem": "Find each product. Change the mixed numerals to improper fractions first, and give your answer in simplest form, as a mixed numeral if needed.",
+     "prompt": "$2\\frac{1}{4} \\times 1\\frac{2}{3}$",
+     "type": "numeric",
+     "answer": "3 3/4",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true,
+     "as": "mixed"
+    },
+    {
+     "id": "q6b",
+     "label": "6b",
+     "section": "Fluency",
+     "stem": "Find each product. Change the mixed numerals to improper fractions first, and give your answer in simplest form, as a mixed numeral if needed.",
+     "prompt": "$1\\frac{1}{5} \\times 1\\frac{3}{8}$",
+     "type": "numeric",
+     "answer": "1 13/20",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true,
+     "as": "mixed"
+    },
+    {
+     "id": "q6c",
+     "label": "6c",
+     "section": "Fluency",
+     "stem": "Find each product. Change the mixed numerals to improper fractions first, and give your answer in simplest form, as a mixed numeral if needed.",
+     "prompt": "$2\\frac{2}{3} \\times 3\\frac{3}{4}$",
+     "type": "numeric",
+     "answer": "10",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true
+    },
+    {
+     "id": "q6d",
+     "label": "6d",
+     "section": "Fluency",
+     "stem": "Find each product. Change the mixed numerals to improper fractions first, and give your answer in simplest form, as a mixed numeral if needed.",
+     "prompt": "$3\\frac{1}{2} \\times 4\\frac{2}{7}$",
+     "type": "numeric",
+     "answer": "15",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true
+    },
+    {
+     "id": "q7a",
+     "label": "7a",
+     "section": "Problem-solving",
+     "stem": "At a music school, every student learns either piano or guitar, but not both. $\\frac{3}{8}$ of the students learn piano.",
+     "prompt": "What fraction of the students learn guitar?",
+     "type": "numeric",
+     "answer": "5/8",
+     "simplest": true,
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction)."
+    },
+    {
+     "id": "q7b",
+     "label": "7b",
+     "section": "Problem-solving",
+     "stem": "At a music school, every student learns either piano or guitar, but not both. $\\frac{3}{8}$ of the students learn piano.",
+     "prompt": "There are $160$ students at the school. How many learn piano?",
+     "type": "numeric",
+     "answer": "60"
+    },
+    {
+     "id": "q7c",
+     "label": "7c",
+     "section": "Problem-solving",
+     "stem": "At a music school, every student learns either piano or guitar, but not both. $\\frac{3}{8}$ of the students learn piano.",
+     "prompt": "There are $160$ students at the school. How many learn guitar?",
+     "type": "numeric",
+     "answer": "100"
+    },
+    {
+     "id": "q8",
+     "label": "8",
+     "section": "Problem-solving",
+     "prompt": "One batch of fruit punch needs $1\\frac{3}{4}$ litres of juice. How many litres of juice are needed for six batches?",
+     "type": "numeric",
+     "answer": "10 1/2",
+     "units": "L",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction)."
+    },
+    {
+     "id": "q9a",
+     "label": "9a",
+     "section": "Problem-solving",
+     "stem": "A muffin recipe uses $2\\frac{1}{3}$ cups of flour and $\\frac{2}{3}$ of a cup of milk. Priya is baking for a school stall and needs to triple the recipe.",
+     "prompt": "How many cups of flour will she need?",
+     "type": "numeric",
+     "answer": "7",
+     "units": "cups"
+    },
+    {
+     "id": "q9b",
+     "label": "9b",
+     "section": "Problem-solving",
+     "stem": "A muffin recipe uses $2\\frac{1}{3}$ cups of flour and $\\frac{2}{3}$ of a cup of milk. Priya is baking for a school stall and needs to triple the recipe.",
+     "prompt": "How many cups of milk will she need?",
+     "type": "numeric",
+     "answer": "2",
+     "units": "cups"
+    },
+    {
+     "id": "q10",
+     "label": "10",
+     "section": "Problem-solving",
+     "prompt": "Mei had a sore ankle for much of the hockey season and played in only $\\frac{4}{7}$ of the matches. The season had $28$ matches. How many matches did Mei miss?",
+     "type": "numeric",
+     "answer": "12"
+    },
+    {
+     "id": "q11a",
+     "label": "11a",
+     "section": "Reasoning",
+     "stem": "Is each fraction statement correct or incorrect?",
+     "prompt": "$\\frac{1}{2} + \\frac{1}{5} = \\frac{2}{7}$",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "Correct",
+      "Incorrect"
+     ]
+    },
+    {
+     "id": "q11b",
+     "label": "11b",
+     "section": "Reasoning",
+     "stem": "Is each fraction statement correct or incorrect?",
+     "prompt": "$\\frac{1}{2} + \\frac{1}{5} = \\frac{1}{10}$",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "Correct",
+      "Incorrect"
+     ]
+    },
+    {
+     "id": "q11c",
+     "label": "11c",
+     "section": "Reasoning",
+     "stem": "Is each fraction statement correct or incorrect?",
+     "prompt": "$\\frac{1}{2} \\times \\frac{1}{5} = \\frac{2}{7}$",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "Correct",
+      "Incorrect"
+     ]
+    },
+    {
+     "id": "q11d",
+     "label": "11d",
+     "section": "Reasoning",
+     "stem": "Is each fraction statement correct or incorrect?",
+     "prompt": "$\\frac{1}{2} \\times \\frac{1}{5} = \\frac{1}{10}$",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "Correct",
+      "Incorrect"
+     ]
+    },
+    {
+     "id": "q11e",
+     "label": "11e",
+     "section": "Reasoning",
+     "stem": "Is each fraction statement correct or incorrect?",
+     "prompt": "$\\frac{1}{2} - \\frac{1}{5} = \\frac{3}{10}$",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "Correct",
+      "Incorrect"
+     ]
+    },
+    {
+     "id": "q11f",
+     "label": "11f",
+     "section": "Reasoning",
+     "stem": "Is each fraction statement correct or incorrect?",
+     "prompt": "$\\frac{1}{2} - \\frac{1}{5} = \\frac{0}{-3}$",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "Correct",
+      "Incorrect"
+     ]
+    },
+    {
+     "id": "q12",
+     "label": "12",
+     "section": "Reasoning",
+     "prompt": "When you multiply a proper fraction by another proper fraction, the answer is always:",
+     "type": "choice",
+     "answer": 3,
+     "options": [
+      "a whole number",
+      "a mixed numeral",
+      "an improper fraction",
+      "a proper fraction"
+     ]
+    },
+    {
+     "id": "q13a",
+     "label": "13a",
+     "section": "Reasoning",
+     "stem": "Find the missing fraction that makes each statement true. Give it in simplest form.",
+     "prompt": "$\\frac{2}{3} \\times \\square = \\frac{2}{5}$",
+     "type": "numeric",
+     "answer": "3/5",
+     "simplest": true,
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction)."
+    },
+    {
+     "id": "q13b",
+     "label": "13b",
+     "section": "Reasoning",
+     "stem": "Find the missing fraction that makes each statement true. Give it in simplest form.",
+     "prompt": "$\\frac{3}{4} \\times \\square = \\frac{3}{8}$",
+     "type": "numeric",
+     "answer": "1/2",
+     "simplest": true,
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction)."
+    },
+    {
+     "id": "q13c",
+     "label": "13c",
+     "section": "Reasoning",
+     "stem": "Find the missing fraction that makes each statement true. Give it in simplest form.",
+     "prompt": "$\\square \\times \\frac{5}{6} = \\frac{1}{3}$",
+     "type": "numeric",
+     "answer": "2/5",
+     "simplest": true,
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction)."
+    }
+   ]
+  },
+  {
+   "id": "3h",
+   "chapter": "Chapter 3: Fractions and percentages",
+   "title": "3H Dividing fractions",
+   "description": "Finding reciprocals and dividing fractions, mixed numerals and whole numbers, with answers in simplest form.",
+   "questions": [
+    {
+     "id": "q1a",
+     "label": "1a",
+     "section": "Fluency",
+     "stem": "Write the reciprocal of each fraction.",
+     "prompt": "$\\frac{3}{8}$",
+     "type": "numeric",
+     "answer": "8/3",
+     "simplest": true,
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction)."
+    },
+    {
+     "id": "q1b",
+     "label": "1b",
+     "section": "Fluency",
+     "stem": "Write the reciprocal of each fraction.",
+     "prompt": "$\\frac{7}{10}$",
+     "type": "numeric",
+     "answer": "10/7",
+     "simplest": true,
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction)."
+    },
+    {
+     "id": "q1c",
+     "label": "1c",
+     "section": "Fluency",
+     "stem": "Write the reciprocal of each fraction.",
+     "prompt": "$\\frac{5}{6}$",
+     "type": "numeric",
+     "answer": "6/5",
+     "simplest": true,
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction)."
+    },
+    {
+     "id": "q1d",
+     "label": "1d",
+     "section": "Fluency",
+     "stem": "Write the reciprocal of each fraction.",
+     "prompt": "$\\frac{2}{9}$",
+     "type": "numeric",
+     "answer": "9/2",
+     "simplest": true,
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction)."
+    },
+    {
+     "id": "q2a",
+     "label": "2a",
+     "section": "Fluency",
+     "stem": "Write the reciprocal of each whole number.",
+     "prompt": "$3$",
+     "type": "numeric",
+     "answer": "1/3",
+     "simplest": true,
+     "hint": "Type a fraction like 1/4."
+    },
+    {
+     "id": "q2b",
+     "label": "2b",
+     "section": "Fluency",
+     "stem": "Write the reciprocal of each whole number.",
+     "prompt": "$7$",
+     "type": "numeric",
+     "answer": "1/7",
+     "simplest": true,
+     "hint": "Type a fraction like 1/4."
+    },
+    {
+     "id": "q2c",
+     "label": "2c",
+     "section": "Fluency",
+     "stem": "Write the reciprocal of each whole number.",
+     "prompt": "$12$",
+     "type": "numeric",
+     "answer": "1/12",
+     "simplest": true,
+     "hint": "Type a fraction like 1/4."
+    },
+    {
+     "id": "q2d",
+     "label": "2d",
+     "section": "Fluency",
+     "stem": "Write the reciprocal of each whole number.",
+     "prompt": "$5$",
+     "type": "numeric",
+     "answer": "1/5",
+     "simplest": true,
+     "hint": "Type a fraction like 1/4."
+    },
+    {
+     "id": "q3a",
+     "label": "3a",
+     "section": "Fluency",
+     "stem": "Write the reciprocal of each mixed numeral. Change it to an improper fraction first.",
+     "prompt": "$1\\frac{3}{4}$",
+     "type": "numeric",
+     "answer": "4/7",
+     "simplest": true,
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction)."
+    },
+    {
+     "id": "q3b",
+     "label": "3b",
+     "section": "Fluency",
+     "stem": "Write the reciprocal of each mixed numeral. Change it to an improper fraction first.",
+     "prompt": "$2\\frac{1}{5}$",
+     "type": "numeric",
+     "answer": "5/11",
+     "simplest": true,
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction)."
+    },
+    {
+     "id": "q3c",
+     "label": "3c",
+     "section": "Fluency",
+     "stem": "Write the reciprocal of each mixed numeral. Change it to an improper fraction first.",
+     "prompt": "$4\\frac{1}{3}$",
+     "type": "numeric",
+     "answer": "3/13",
+     "simplest": true,
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction)."
+    },
+    {
+     "id": "q3d",
+     "label": "3d",
+     "section": "Fluency",
+     "stem": "Write the reciprocal of each mixed numeral. Change it to an improper fraction first.",
+     "prompt": "$6\\frac{2}{5}$",
+     "type": "numeric",
+     "answer": "5/32",
+     "simplest": true,
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction)."
+    },
+    {
+     "id": "q4a",
+     "label": "4a",
+     "section": "Fluency",
+     "stem": "Find each answer. Give it in simplest form, as a mixed numeral if it is bigger than 1.",
+     "prompt": "$\\frac{4}{5} \\div 3$",
+     "type": "numeric",
+     "answer": "4/15",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true
+    },
+    {
+     "id": "q4b",
+     "label": "4b",
+     "section": "Fluency",
+     "stem": "Find each answer. Give it in simplest form, as a mixed numeral if it is bigger than 1.",
+     "prompt": "$\\frac{7}{9} \\div 2$",
+     "type": "numeric",
+     "answer": "7/18",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true
+    },
+    {
+     "id": "q4c",
+     "label": "4c",
+     "section": "Fluency",
+     "stem": "Find each answer. Give it in simplest form, as a mixed numeral if it is bigger than 1.",
+     "prompt": "$\\frac{9}{4} \\div 3$",
+     "type": "numeric",
+     "answer": "3/4",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true
+    },
+    {
+     "id": "q4d",
+     "label": "4d",
+     "section": "Fluency",
+     "stem": "Find each answer. Give it in simplest form, as a mixed numeral if it is bigger than 1.",
+     "prompt": "$\\frac{20}{11} \\div 5$",
+     "type": "numeric",
+     "answer": "4/11",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true
+    },
+    {
+     "id": "q5a",
+     "label": "5a",
+     "section": "Fluency",
+     "stem": "Find each answer. Give it in simplest form, as a mixed numeral if it is bigger than 1.",
+     "prompt": "$3\\frac{1}{3} \\div 5$",
+     "type": "numeric",
+     "answer": "2/3",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true
+    },
+    {
+     "id": "q5b",
+     "label": "5b",
+     "section": "Fluency",
+     "stem": "Find each answer. Give it in simplest form, as a mixed numeral if it is bigger than 1.",
+     "prompt": "$4\\frac{1}{2} \\div 6$",
+     "type": "numeric",
+     "answer": "3/4",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true
+    },
+    {
+     "id": "q5c",
+     "label": "5c",
+     "section": "Fluency",
+     "stem": "Find each answer. Give it in simplest form, as a mixed numeral if it is bigger than 1.",
+     "prompt": "$10\\frac{2}{3} \\div 4$",
+     "type": "numeric",
+     "answer": "2 2/3",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true,
+     "as": "mixed"
+    },
+    {
+     "id": "q5d",
+     "label": "5d",
+     "section": "Fluency",
+     "stem": "Find each answer. Give it in simplest form, as a mixed numeral if it is bigger than 1.",
+     "prompt": "$1\\frac{11}{16} \\div 9$",
+     "type": "numeric",
+     "answer": "3/16",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true
+    },
+    {
+     "id": "q6a",
+     "label": "6a",
+     "section": "Fluency",
+     "stem": "Find each answer. Give it in simplest form, as a mixed numeral if it is bigger than 1.",
+     "prompt": "$6 \\div \\frac{1}{3}$",
+     "type": "numeric",
+     "answer": "18",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true
+    },
+    {
+     "id": "q6b",
+     "label": "6b",
+     "section": "Fluency",
+     "stem": "Find each answer. Give it in simplest form, as a mixed numeral if it is bigger than 1.",
+     "prompt": "$8 \\div \\frac{1}{5}$",
+     "type": "numeric",
+     "answer": "40",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true
+    },
+    {
+     "id": "q6c",
+     "label": "6c",
+     "section": "Fluency",
+     "stem": "Find each answer. Give it in simplest form, as a mixed numeral if it is bigger than 1.",
+     "prompt": "$12 \\div \\frac{1}{12}$",
+     "type": "numeric",
+     "answer": "144",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true
+    },
+    {
+     "id": "q6d",
+     "label": "6d",
+     "section": "Fluency",
+     "stem": "Find each answer. Give it in simplest form, as a mixed numeral if it is bigger than 1.",
+     "prompt": "$9 \\div \\frac{1}{6}$",
+     "type": "numeric",
+     "answer": "54",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true
+    },
+    {
+     "id": "q6e",
+     "label": "6e",
+     "section": "Fluency",
+     "stem": "Find each answer. Give it in simplest form, as a mixed numeral if it is bigger than 1.",
+     "prompt": "$15 \\div \\frac{3}{4}$",
+     "type": "numeric",
+     "answer": "20",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true
+    },
+    {
+     "id": "q6f",
+     "label": "6f",
+     "section": "Fluency",
+     "stem": "Find each answer. Give it in simplest form, as a mixed numeral if it is bigger than 1.",
+     "prompt": "$16 \\div \\frac{4}{7}$",
+     "type": "numeric",
+     "answer": "28",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true
+    },
+    {
+     "id": "q6g",
+     "label": "6g",
+     "section": "Fluency",
+     "stem": "Find each answer. Give it in simplest form, as a mixed numeral if it is bigger than 1.",
+     "prompt": "$18 \\div \\frac{9}{2}$",
+     "type": "numeric",
+     "answer": "4",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true
+    },
+    {
+     "id": "q6h",
+     "label": "6h",
+     "section": "Fluency",
+     "stem": "Find each answer. Give it in simplest form, as a mixed numeral if it is bigger than 1.",
+     "prompt": "$12 \\div \\frac{5}{2}$",
+     "type": "numeric",
+     "answer": "4 4/5",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true,
+     "as": "mixed"
+    },
+    {
+     "id": "q7a",
+     "label": "7a",
+     "section": "Fluency",
+     "stem": "Find each answer. Give it in simplest form, as a mixed numeral if it is bigger than 1.",
+     "prompt": "$\\frac{3}{5} \\div \\frac{3}{4}$",
+     "type": "numeric",
+     "answer": "4/5",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true
+    },
+    {
+     "id": "q7b",
+     "label": "7b",
+     "section": "Fluency",
+     "stem": "Find each answer. Give it in simplest form, as a mixed numeral if it is bigger than 1.",
+     "prompt": "$\\frac{1}{6} \\div \\frac{1}{3}$",
+     "type": "numeric",
+     "answer": "1/2",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true
+    },
+    {
+     "id": "q7c",
+     "label": "7c",
+     "section": "Fluency",
+     "stem": "Find each answer. Give it in simplest form, as a mixed numeral if it is bigger than 1.",
+     "prompt": "$\\frac{4}{9} \\div \\frac{8}{15}$",
+     "type": "numeric",
+     "answer": "5/6",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true
+    },
+    {
+     "id": "q7d",
+     "label": "7d",
+     "section": "Fluency",
+     "stem": "Find each answer. Give it in simplest form, as a mixed numeral if it is bigger than 1.",
+     "prompt": "$\\frac{5}{8} \\div \\frac{15}{16}$",
+     "type": "numeric",
+     "answer": "2/3",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true
+    },
+    {
+     "id": "q7e",
+     "label": "7e",
+     "section": "Fluency",
+     "stem": "Find each answer. Give it in simplest form, as a mixed numeral if it is bigger than 1.",
+     "prompt": "$3\\frac{1}{3} \\div 1\\frac{1}{4}$",
+     "type": "numeric",
+     "answer": "2 2/3",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true,
+     "as": "mixed"
+    },
+    {
+     "id": "q7f",
+     "label": "7f",
+     "section": "Fluency",
+     "stem": "Find each answer. Give it in simplest form, as a mixed numeral if it is bigger than 1.",
+     "prompt": "$2\\frac{1}{2} \\div 1\\frac{7}{8}$",
+     "type": "numeric",
+     "answer": "1 1/3",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true,
+     "as": "mixed"
+    },
+    {
+     "id": "q7g",
+     "label": "7g",
+     "section": "Fluency",
+     "stem": "Find each answer. Give it in simplest form, as a mixed numeral if it is bigger than 1.",
+     "prompt": "$8\\frac{1}{3} \\div 2\\frac{1}{2}$",
+     "type": "numeric",
+     "answer": "3 1/3",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true,
+     "as": "mixed"
+    },
+    {
+     "id": "q7h",
+     "label": "7h",
+     "section": "Fluency",
+     "stem": "Find each answer. Give it in simplest form, as a mixed numeral if it is bigger than 1.",
+     "prompt": "$5\\frac{1}{4} \\div 8\\frac{3}{4}$",
+     "type": "numeric",
+     "answer": "3/5",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true
+    },
+    {
+     "id": "q8a",
+     "label": "8a",
+     "section": "Fluency",
+     "stem": "Find each answer. Give it in simplest form, as a mixed numeral if it is bigger than 1.",
+     "prompt": "$\\frac{5}{6} \\div 4$",
+     "type": "numeric",
+     "answer": "5/24",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true
+    },
+    {
+     "id": "q8b",
+     "label": "8b",
+     "section": "Fluency",
+     "stem": "Find each answer. Give it in simplest form, as a mixed numeral if it is bigger than 1.",
+     "prompt": "$18 \\div \\frac{9}{10}$",
+     "type": "numeric",
+     "answer": "20",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true
+    },
+    {
+     "id": "q8c",
+     "label": "8c",
+     "section": "Fluency",
+     "stem": "Find each answer. Give it in simplest form, as a mixed numeral if it is bigger than 1.",
+     "prompt": "$3\\frac{1}{3} \\div 2\\frac{1}{4}$",
+     "type": "numeric",
+     "answer": "1 13/27",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true,
+     "as": "mixed"
+    },
+    {
+     "id": "q8d",
+     "label": "8d",
+     "section": "Fluency",
+     "stem": "Find each answer. Give it in simplest form, as a mixed numeral if it is bigger than 1.",
+     "prompt": "$\\frac{2}{5} \\div \\frac{8}{5}$",
+     "type": "numeric",
+     "answer": "1/4",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true
+    },
+    {
+     "id": "q8e",
+     "label": "8e",
+     "section": "Fluency",
+     "stem": "Find each answer. Give it in simplest form, as a mixed numeral if it is bigger than 1.",
+     "prompt": "$11 \\div \\frac{1}{3}$",
+     "type": "numeric",
+     "answer": "33",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true
+    },
+    {
+     "id": "q8f",
+     "label": "8f",
+     "section": "Fluency",
+     "stem": "Find each answer. Give it in simplest form, as a mixed numeral if it is bigger than 1.",
+     "prompt": "$3\\frac{6}{9} \\div 11$",
+     "type": "numeric",
+     "answer": "1/3",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true
+    },
+    {
+     "id": "q8g",
+     "label": "8g",
+     "section": "Fluency",
+     "stem": "Find each answer. Give it in simplest form, as a mixed numeral if it is bigger than 1.",
+     "prompt": "$5\\frac{1}{4} \\div 1\\frac{3}{4}$",
+     "type": "numeric",
+     "answer": "3",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true
+    },
+    {
+     "id": "q8h",
+     "label": "8h",
+     "section": "Fluency",
+     "stem": "Find each answer. Give it in simplest form, as a mixed numeral if it is bigger than 1.",
+     "prompt": "$\\frac{4}{7} \\div \\frac{3}{8}$",
+     "type": "numeric",
+     "answer": "1 11/21",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "simplest": true,
+     "as": "mixed"
+    },
+    {
+     "id": "q9",
+     "label": "9",
+     "section": "Problem-solving",
+     "prompt": "There are $2\\frac{2}{5}$ leftover pizzas, and they are shared equally between four friends. What fraction of a pizza does each friend get?",
+     "type": "numeric",
+     "answer": "3/5",
+     "simplest": true,
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction)."
+    },
+    {
+     "id": "q10",
+     "label": "10",
+     "section": "Problem-solving",
+     "prompt": "A farmer wants to split $9\\frac{1}{2}$ hectares of land into plots of at least $\\frac{3}{4}$ of a hectare each. Three of the complete plots must be kept as a wetland for birds. How many complete plots can the farmer sell?",
+     "type": "numeric",
+     "answer": "9"
+    },
+    {
+     "id": "q11",
+     "label": "11",
+     "section": "Problem-solving",
+     "prompt": "Jonah cuts a ribbon that is $4\\frac{1}{5}$ metres long into six equal pieces. How long is each piece?",
+     "type": "numeric",
+     "answer": "7/10",
+     "units": "m",
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction)."
+    },
+    {
+     "id": "q12",
+     "label": "12",
+     "section": "Problem-solving",
+     "prompt": "A baker takes $\\frac{2}{3}$ of an hour to decorate one cake. How many cakes can she decorate in $8$ hours?",
+     "type": "numeric",
+     "answer": "12"
+    },
+    {
+     "id": "q13",
+     "label": "13",
+     "section": "Problem-solving",
+     "prompt": "Ava rides her bike at a steady pace of $2\\frac{1}{2}$ minutes per kilometre. Her Saturday ride took $65$ minutes. How far did she ride?",
+     "type": "numeric",
+     "answer": "26",
+     "units": "km"
+    },
+    {
+     "id": "q15a",
+     "label": "15a",
+     "section": "Reasoning",
+     "stem": "Which expression has the same value?",
+     "prompt": "$\\frac{1}{3}$ of $18$",
+     "type": "choice",
+     "answer": 3,
+     "options": [
+      "15 ÷ 3",
+      "24 ÷ 8",
+      "2 × 4",
+      "12 ÷ 2"
+     ]
+    },
+    {
+     "id": "q15b",
+     "label": "15b",
+     "section": "Reasoning",
+     "stem": "Which expression has the same value?",
+     "prompt": "$20 \\times \\frac{1}{4}$",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "15 ÷ 3",
+      "24 ÷ 8",
+      "2 × 4",
+      "12 ÷ 2"
+     ]
+    },
+    {
+     "id": "q15c",
+     "label": "15c",
+     "section": "Reasoning",
+     "stem": "Which expression has the same value?",
+     "prompt": "$4 \\div \\frac{1}{2}$",
+     "type": "choice",
+     "answer": 2,
+     "options": [
+      "15 ÷ 3",
+      "24 ÷ 8",
+      "2 × 4",
+      "12 ÷ 2"
+     ]
+    },
+    {
+     "id": "q15d",
+     "label": "15d",
+     "section": "Reasoning",
+     "stem": "Which expression has the same value?",
+     "prompt": "$\\frac{1}{2} \\div \\frac{1}{6}$",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "15 ÷ 3",
+      "24 ÷ 8",
+      "2 × 4",
+      "12 ÷ 2"
+     ]
+    },
+    {
+     "id": "q16a",
+     "label": "16a",
+     "section": "Reasoning",
+     "prompt": "A train travels $150$ kilometres in $1\\frac{1}{4}$ hours. How far will it travel in $2$ hours at the same speed?",
+     "type": "numeric",
+     "answer": "240",
+     "units": "km"
+    },
+    {
+     "id": "q16b",
+     "label": "16b",
+     "section": "Reasoning",
+     "prompt": "A bus took $3\\frac{1}{3}$ hours to travel $250$ kilometres. How far did it travel in $2$ hours, if it kept the same speed?",
+     "type": "numeric",
+     "answer": "150",
+     "units": "km"
+    }
+   ]
+  },
+  {
+   "id": "3i",
+   "chapter": "Chapter 3: Fractions and percentages",
+   "title": "3I Fractions and percentages",
+   "description": "Converting between percentages and fractions or mixed numerals, and using percentages in everyday problems.",
+   "questions": [
+    {
+     "id": "q1a",
+     "label": "1a",
+     "section": "Fluency",
+     "stem": "Write each percentage as a fraction in simplest form.",
+     "prompt": "$13\\%$",
+     "type": "numeric",
+     "answer": "13/100",
+     "simplest": true,
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "as": "fraction"
+    },
+    {
+     "id": "q1b",
+     "label": "1b",
+     "section": "Fluency",
+     "stem": "Write each percentage as a fraction in simplest form.",
+     "prompt": "$31\\%$",
+     "type": "numeric",
+     "answer": "31/100",
+     "simplest": true,
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "as": "fraction"
+    },
+    {
+     "id": "q1c",
+     "label": "1c",
+     "section": "Fluency",
+     "stem": "Write each percentage as a fraction in simplest form.",
+     "prompt": "$67\\%$",
+     "type": "numeric",
+     "answer": "67/100",
+     "simplest": true,
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "as": "fraction"
+    },
+    {
+     "id": "q1d",
+     "label": "1d",
+     "section": "Fluency",
+     "stem": "Write each percentage as a fraction in simplest form.",
+     "prompt": "$60\\%$",
+     "type": "numeric",
+     "answer": "3/5",
+     "simplest": true,
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "as": "fraction"
+    },
+    {
+     "id": "q1e",
+     "label": "1e",
+     "section": "Fluency",
+     "stem": "Write each percentage as a fraction in simplest form.",
+     "prompt": "$35\\%$",
+     "type": "numeric",
+     "answer": "7/20",
+     "simplest": true,
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "as": "fraction"
+    },
+    {
+     "id": "q1f",
+     "label": "1f",
+     "section": "Fluency",
+     "stem": "Write each percentage as a fraction in simplest form.",
+     "prompt": "$44\\%$",
+     "type": "numeric",
+     "answer": "11/25",
+     "simplest": true,
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "as": "fraction"
+    },
+    {
+     "id": "q2a",
+     "label": "2a",
+     "section": "Fluency",
+     "stem": "Write each percentage as a fraction in simplest form.",
+     "prompt": "$17\\%$",
+     "type": "numeric",
+     "answer": "17/100",
+     "simplest": true,
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "as": "fraction"
+    },
+    {
+     "id": "q2b",
+     "label": "2b",
+     "section": "Fluency",
+     "stem": "Write each percentage as a fraction in simplest form.",
+     "prompt": "$83\\%$",
+     "type": "numeric",
+     "answer": "83/100",
+     "simplest": true,
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "as": "fraction"
+    },
+    {
+     "id": "q2c",
+     "label": "2c",
+     "section": "Fluency",
+     "stem": "Write each percentage as a fraction in simplest form.",
+     "prompt": "$39\\%$",
+     "type": "numeric",
+     "answer": "39/100",
+     "simplest": true,
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "as": "fraction"
+    },
+    {
+     "id": "q2d",
+     "label": "2d",
+     "section": "Fluency",
+     "stem": "Write each percentage as a fraction in simplest form.",
+     "prompt": "$21\\%$",
+     "type": "numeric",
+     "answer": "21/100",
+     "simplest": true,
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "as": "fraction"
+    },
+    {
+     "id": "q2e",
+     "label": "2e",
+     "section": "Fluency",
+     "stem": "Write each percentage as a fraction in simplest form.",
+     "prompt": "$75\\%$",
+     "type": "numeric",
+     "answer": "3/4",
+     "simplest": true,
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "as": "fraction"
+    },
+    {
+     "id": "q2f",
+     "label": "2f",
+     "section": "Fluency",
+     "stem": "Write each percentage as a fraction in simplest form.",
+     "prompt": "$90\\%$",
+     "type": "numeric",
+     "answer": "9/10",
+     "simplest": true,
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "as": "fraction"
+    },
+    {
+     "id": "q2g",
+     "label": "2g",
+     "section": "Fluency",
+     "stem": "Write each percentage as a fraction in simplest form.",
+     "prompt": "$5\\%$",
+     "type": "numeric",
+     "answer": "1/20",
+     "simplest": true,
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "as": "fraction"
+    },
+    {
+     "id": "q2h",
+     "label": "2h",
+     "section": "Fluency",
+     "stem": "Write each percentage as a fraction in simplest form.",
+     "prompt": "$64\\%$",
+     "type": "numeric",
+     "answer": "16/25",
+     "simplest": true,
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "as": "fraction"
+    },
+    {
+     "id": "q3a",
+     "label": "3a",
+     "section": "Fluency",
+     "stem": "Write each percentage as a mixed numeral in simplest form.",
+     "prompt": "$130\\%$",
+     "type": "numeric",
+     "answer": "1 3/10",
+     "simplest": true,
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "as": "mixed"
+    },
+    {
+     "id": "q3b",
+     "label": "3b",
+     "section": "Fluency",
+     "stem": "Write each percentage as a mixed numeral in simplest form.",
+     "prompt": "$160\\%$",
+     "type": "numeric",
+     "answer": "1 3/5",
+     "simplest": true,
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "as": "mixed"
+    },
+    {
+     "id": "q3c",
+     "label": "3c",
+     "section": "Fluency",
+     "stem": "Write each percentage as a mixed numeral in simplest form.",
+     "prompt": "$243\\%$",
+     "type": "numeric",
+     "answer": "2 43/100",
+     "simplest": true,
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "as": "mixed"
+    },
+    {
+     "id": "q3d",
+     "label": "3d",
+     "section": "Fluency",
+     "stem": "Write each percentage as a mixed numeral in simplest form.",
+     "prompt": "$307\\%$",
+     "type": "numeric",
+     "answer": "3 7/100",
+     "simplest": true,
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "as": "mixed"
+    },
+    {
+     "id": "q3e",
+     "label": "3e",
+     "section": "Fluency",
+     "stem": "Write each percentage as a mixed numeral in simplest form.",
+     "prompt": "$125\\%$",
+     "type": "numeric",
+     "answer": "1 1/4",
+     "simplest": true,
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "as": "mixed"
+    },
+    {
+     "id": "q3f",
+     "label": "3f",
+     "section": "Fluency",
+     "stem": "Write each percentage as a mixed numeral in simplest form.",
+     "prompt": "$190\\%$",
+     "type": "numeric",
+     "answer": "1 9/10",
+     "simplest": true,
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "as": "mixed"
+    },
+    {
+     "id": "q3g",
+     "label": "3g",
+     "section": "Fluency",
+     "stem": "Write each percentage as a mixed numeral in simplest form.",
+     "prompt": "$452\\%$",
+     "type": "numeric",
+     "answer": "4 13/25",
+     "simplest": true,
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "as": "mixed"
+    },
+    {
+     "id": "q3h",
+     "label": "3h",
+     "section": "Fluency",
+     "stem": "Write each percentage as a mixed numeral in simplest form.",
+     "prompt": "$620\\%$",
+     "type": "numeric",
+     "answer": "6 1/5",
+     "simplest": true,
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "as": "mixed"
+    },
+    {
+     "id": "q4a",
+     "label": "4a",
+     "section": "Fluency",
+     "stem": "Convert each fraction to a percentage, using equivalent fractions with a denominator of $100$.",
+     "prompt": "$\\frac{9}{100}$",
+     "type": "numeric",
+     "answer": "9%",
+     "hint": "Type the % sign, for example 35%.",
+     "as": "percent"
+    },
+    {
+     "id": "q4b",
+     "label": "4b",
+     "section": "Fluency",
+     "stem": "Convert each fraction to a percentage, using equivalent fractions with a denominator of $100$.",
+     "prompt": "$\\frac{23}{100}$",
+     "type": "numeric",
+     "answer": "23%",
+     "hint": "Type the % sign, for example 35%.",
+     "as": "percent"
+    },
+    {
+     "id": "q4c",
+     "label": "4c",
+     "section": "Fluency",
+     "stem": "Convert each fraction to a percentage, using equivalent fractions with a denominator of $100$.",
+     "prompt": "$\\frac{81}{100}$",
+     "type": "numeric",
+     "answer": "81%",
+     "hint": "Type the % sign, for example 35%.",
+     "as": "percent"
+    },
+    {
+     "id": "q4d",
+     "label": "4d",
+     "section": "Fluency",
+     "stem": "Convert each fraction to a percentage, using equivalent fractions with a denominator of $100$.",
+     "prompt": "$\\frac{40}{100}$",
+     "type": "numeric",
+     "answer": "40%",
+     "hint": "Type the % sign, for example 35%.",
+     "as": "percent"
+    },
+    {
+     "id": "q4e",
+     "label": "4e",
+     "section": "Fluency",
+     "stem": "Convert each fraction to a percentage, using equivalent fractions with a denominator of $100$.",
+     "prompt": "$\\frac{9}{20}$",
+     "type": "numeric",
+     "answer": "45%",
+     "hint": "Type the % sign, for example 35%.",
+     "as": "percent"
+    },
+    {
+     "id": "q4f",
+     "label": "4f",
+     "section": "Fluency",
+     "stem": "Convert each fraction to a percentage, using equivalent fractions with a denominator of $100$.",
+     "prompt": "$\\frac{13}{25}$",
+     "type": "numeric",
+     "answer": "52%",
+     "hint": "Type the % sign, for example 35%.",
+     "as": "percent"
+    },
+    {
+     "id": "q4g",
+     "label": "4g",
+     "section": "Fluency",
+     "stem": "Convert each fraction to a percentage, using equivalent fractions with a denominator of $100$.",
+     "prompt": "$\\frac{37}{50}$",
+     "type": "numeric",
+     "answer": "74%",
+     "hint": "Type the % sign, for example 35%.",
+     "as": "percent"
+    },
+    {
+     "id": "q4h",
+     "label": "4h",
+     "section": "Fluency",
+     "stem": "Convert each fraction to a percentage, using equivalent fractions with a denominator of $100$.",
+     "prompt": "$\\frac{14}{20}$",
+     "type": "numeric",
+     "answer": "70%",
+     "hint": "Type the % sign, for example 35%.",
+     "as": "percent"
+    },
+    {
+     "id": "q4i",
+     "label": "4i",
+     "section": "Fluency",
+     "stem": "Convert each fraction to a percentage, using equivalent fractions with a denominator of $100$.",
+     "prompt": "$\\frac{73}{50}$",
+     "type": "numeric",
+     "answer": "146%",
+     "hint": "Type the % sign, for example 35%.",
+     "as": "percent"
+    },
+    {
+     "id": "q4j",
+     "label": "4j",
+     "section": "Fluency",
+     "stem": "Convert each fraction to a percentage, using equivalent fractions with a denominator of $100$.",
+     "prompt": "$\\frac{31}{20}$",
+     "type": "numeric",
+     "answer": "155%",
+     "hint": "Type the % sign, for example 35%.",
+     "as": "percent"
+    },
+    {
+     "id": "q4k",
+     "label": "4k",
+     "section": "Fluency",
+     "stem": "Convert each fraction to a percentage, using equivalent fractions with a denominator of $100$.",
+     "prompt": "$\\frac{30}{6}$",
+     "type": "numeric",
+     "answer": "500%",
+     "hint": "Type the % sign, for example 35%.",
+     "as": "percent"
+    },
+    {
+     "id": "q4l",
+     "label": "4l",
+     "section": "Fluency",
+     "stem": "Convert each fraction to a percentage, using equivalent fractions with a denominator of $100$.",
+     "prompt": "$\\frac{18}{10}$",
+     "type": "numeric",
+     "answer": "180%",
+     "hint": "Type the % sign, for example 35%.",
+     "as": "percent"
+    },
+    {
+     "id": "q5a",
+     "label": "5a",
+     "section": "Fluency",
+     "stem": "Convert each fraction to a percentage by multiplying by $100\\%$.",
+     "prompt": "$\\frac{1}{4}$",
+     "type": "numeric",
+     "answer": "25%",
+     "hint": "Type the % sign. If the answer is not a whole number, type it like 12.5% or 33 1/3%.",
+     "as": "percent"
+    },
+    {
+     "id": "q5b",
+     "label": "5b",
+     "section": "Fluency",
+     "stem": "Convert each fraction to a percentage by multiplying by $100\\%$.",
+     "prompt": "$\\frac{2}{3}$",
+     "type": "numeric",
+     "answer": "66 2/3%",
+     "hint": "Type the % sign. If the answer is not a whole number, type it like 12.5% or 33 1/3%.",
+     "as": "percent",
+     "accept": [
+      "66.67%"
+     ]
+    },
+    {
+     "id": "q5c",
+     "label": "5c",
+     "section": "Fluency",
+     "stem": "Convert each fraction to a percentage by multiplying by $100\\%$.",
+     "prompt": "$\\frac{7}{15}$",
+     "type": "numeric",
+     "answer": "46 2/3%",
+     "hint": "Type the % sign. If the answer is not a whole number, type it like 12.5% or 33 1/3%.",
+     "as": "percent",
+     "accept": [
+      "46.67%"
+     ]
+    },
+    {
+     "id": "q5d",
+     "label": "5d",
+     "section": "Fluency",
+     "stem": "Convert each fraction to a percentage by multiplying by $100\\%$.",
+     "prompt": "$\\frac{5}{12}$",
+     "type": "numeric",
+     "answer": "41 2/3%",
+     "hint": "Type the % sign. If the answer is not a whole number, type it like 12.5% or 33 1/3%.",
+     "as": "percent",
+     "accept": [
+      "41.67%"
+     ]
+    },
+    {
+     "id": "q5e",
+     "label": "5e",
+     "section": "Fluency",
+     "stem": "Convert each fraction to a percentage by multiplying by $100\\%$.",
+     "prompt": "$1\\frac{9}{20}$",
+     "type": "numeric",
+     "answer": "145%",
+     "hint": "Type the % sign. If the answer is not a whole number, type it like 12.5% or 33 1/3%.",
+     "as": "percent"
+    },
+    {
+     "id": "q5f",
+     "label": "5f",
+     "section": "Fluency",
+     "stem": "Convert each fraction to a percentage by multiplying by $100\\%$.",
+     "prompt": "$3\\frac{3}{5}$",
+     "type": "numeric",
+     "answer": "360%",
+     "hint": "Type the % sign. If the answer is not a whole number, type it like 12.5% or 33 1/3%.",
+     "as": "percent"
+    },
+    {
+     "id": "q5g",
+     "label": "5g",
+     "section": "Fluency",
+     "stem": "Convert each fraction to a percentage by multiplying by $100\\%$.",
+     "prompt": "$1\\frac{14}{40}$",
+     "type": "numeric",
+     "answer": "135%",
+     "hint": "Type the % sign. If the answer is not a whole number, type it like 12.5% or 33 1/3%.",
+     "as": "percent"
+    },
+    {
+     "id": "q5h",
+     "label": "5h",
+     "section": "Fluency",
+     "stem": "Convert each fraction to a percentage by multiplying by $100\\%$.",
+     "prompt": "$\\frac{17}{40}$",
+     "type": "numeric",
+     "answer": "42.5%",
+     "hint": "Type the % sign. If the answer is not a whole number, type it like 12.5% or 33 1/3%.",
+     "as": "percent"
+    },
+    {
+     "id": "q6a",
+     "label": "6a",
+     "section": "Problem-solving",
+     "stem": "A jug of orange juice is only $40\\%$ full.",
+     "prompt": "What fraction of the juice has been poured out? Give it in simplest form.",
+     "type": "numeric",
+     "answer": "3/5",
+     "simplest": true,
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "as": "fraction"
+    },
+    {
+     "id": "q6b",
+     "label": "6b",
+     "section": "Problem-solving",
+     "stem": "A jug of orange juice is only $40\\%$ full.",
+     "prompt": "What percentage of the juice has been poured out?",
+     "type": "numeric",
+     "answer": "60%",
+     "hint": "Type the % sign, for example 35%.",
+     "as": "percent"
+    },
+    {
+     "id": "q6c",
+     "label": "6c",
+     "section": "Problem-solving",
+     "stem": "A jug of orange juice is only $40\\%$ full.",
+     "prompt": "What fraction of the juice is left? Give it in simplest form.",
+     "type": "numeric",
+     "answer": "2/5",
+     "simplest": true,
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "as": "fraction"
+    },
+    {
+     "id": "q6d",
+     "label": "6d",
+     "section": "Problem-solving",
+     "stem": "A jug of orange juice is only $40\\%$ full.",
+     "prompt": "What percentage of the juice is left?",
+     "type": "numeric",
+     "answer": "40%",
+     "hint": "Type the % sign, for example 35%.",
+     "as": "percent"
+    },
+    {
+     "id": "q7",
+     "label": "7",
+     "section": "Problem-solving",
+     "prompt": "A quiche is cut into $16$ equal slices. What percentage of the quiche is each slice?",
+     "type": "numeric",
+     "answer": "6.25%",
+     "hint": "Type the % sign. If the answer is not a whole number, type it like 12.5% or 33 1/3%.",
+     "as": "percent"
+    },
+    {
+     "id": "q8",
+     "label": "8",
+     "section": "Problem-solving",
+     "prompt": "Kofi scores $39$ out of $60$ on his spelling test. What is his score as a percentage?",
+     "type": "numeric",
+     "answer": "65%",
+     "hint": "Type the % sign, for example 35%.",
+     "as": "percent"
+    },
+    {
+     "id": "q9a",
+     "label": "9a",
+     "section": "Problem-solving",
+     "stem": "The Riverside Rockets netball team have won $21$ of their $23$ games so far. They still have $2$ games to play this season.",
+     "prompt": "What is the smallest percentage of games the Rockets could win for the whole season?",
+     "type": "numeric",
+     "answer": "84%",
+     "hint": "Type the % sign, for example 35%.",
+     "as": "percent"
+    },
+    {
+     "id": "q9b",
+     "label": "9b",
+     "section": "Problem-solving",
+     "stem": "The Riverside Rockets netball team have won $21$ of their $23$ games so far. They still have $2$ games to play this season.",
+     "prompt": "What is the largest percentage of games the Rockets could win for the whole season?",
+     "type": "numeric",
+     "answer": "92%",
+     "hint": "Type the % sign, for example 35%.",
+     "as": "percent"
+    },
+    {
+     "id": "q10a",
+     "label": "10a",
+     "section": "Reasoning",
+     "stem": "Zara won her tennis match $7$-$5$, $6$-$2$. That means she won $13$ games and lost $7$.",
+     "prompt": "What fraction of the games did she win?",
+     "type": "numeric",
+     "answer": "13/20",
+     "simplest": true,
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "as": "fraction"
+    },
+    {
+     "id": "q10b",
+     "label": "10b",
+     "section": "Reasoning",
+     "stem": "Zara won her tennis match $7$-$5$, $6$-$2$. That means she won $13$ games and lost $7$.",
+     "prompt": "What percentage of the games did she win?",
+     "type": "numeric",
+     "answer": "65%",
+     "hint": "Type the % sign, for example 35%.",
+     "as": "percent"
+    },
+    {
+     "id": "q11",
+     "label": "11",
+     "section": "Reasoning",
+     "prompt": "How many whole-number percentages from $1\\%$ to $99\\%$ simplify to a fraction with a denominator of $20$? (For example, $15\\% = \\frac{3}{20}$ counts as one.)",
+     "type": "numeric",
+     "answer": "8"
+    },
+    {
+     "id": "q12",
+     "label": "12",
+     "section": "Reasoning",
+     "prompt": "Lina's savings account pays interest at $4\\frac{1}{4}\\%$. Write this interest rate as a fraction in simplest form.",
+     "type": "numeric",
+     "answer": "17/400",
+     "simplest": true,
+     "hint": "Type a fraction like 3/4 and a mixed numeral like 2 1/3 (whole number, space, fraction).",
+     "as": "fraction"
+    },
+    {
+     "id": "q13",
+     "label": "13",
+     "section": "Reasoning",
+     "prompt": "Which fraction would sit between $12\\%$ and $13\\%$ on a number line?",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "3/25",
+      "1/8",
+      "13/100",
+      "1/9"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "3j",
+   "chapter": "Chapter 3: Fractions and percentages",
+   "title": "3J Finding a percentage of a number",
+   "description": "Finding percentages of amounts, including money, measurements and worded problems.",
+   "questions": [
+    {
+     "id": "q1a",
+     "label": "1a",
+     "section": "Fluency",
+     "stem": "Find:",
+     "prompt": "$50\\%$ of $36$",
+     "type": "numeric",
+     "answer": "18"
+    },
+    {
+     "id": "q1b",
+     "label": "1b",
+     "section": "Fluency",
+     "stem": "Find:",
+     "prompt": "$50\\%$ of $90$",
+     "type": "numeric",
+     "answer": "45"
+    },
+    {
+     "id": "q1c",
+     "label": "1c",
+     "section": "Fluency",
+     "stem": "Find:",
+     "prompt": "$10\\%$ of $70$",
+     "type": "numeric",
+     "answer": "7"
+    },
+    {
+     "id": "q1d",
+     "label": "1d",
+     "section": "Fluency",
+     "stem": "Find:",
+     "prompt": "$20\\%$ of $45$",
+     "type": "numeric",
+     "answer": "9"
+    },
+    {
+     "id": "q2a",
+     "label": "2a",
+     "section": "Fluency",
+     "stem": "Find:",
+     "prompt": "$50\\%$ of $180$",
+     "type": "numeric",
+     "answer": "90"
+    },
+    {
+     "id": "q2b",
+     "label": "2b",
+     "section": "Fluency",
+     "stem": "Find:",
+     "prompt": "$10\\%$ of $430$",
+     "type": "numeric",
+     "answer": "43"
+    },
+    {
+     "id": "q2c",
+     "label": "2c",
+     "section": "Fluency",
+     "stem": "Find:",
+     "prompt": "$20\\%$ of $35$",
+     "type": "numeric",
+     "answer": "7"
+    },
+    {
+     "id": "q2d",
+     "label": "2d",
+     "section": "Fluency",
+     "stem": "Find:",
+     "prompt": "$30\\%$ of $70$",
+     "type": "numeric",
+     "answer": "21"
+    },
+    {
+     "id": "q2e",
+     "label": "2e",
+     "section": "Fluency",
+     "stem": "Find:",
+     "prompt": "$25\\%$ of $60$",
+     "type": "numeric",
+     "answer": "15"
+    },
+    {
+     "id": "q2f",
+     "label": "2f",
+     "section": "Fluency",
+     "stem": "Find:",
+     "prompt": "$25\\%$ of $44$",
+     "type": "numeric",
+     "answer": "11"
+    },
+    {
+     "id": "q2g",
+     "label": "2g",
+     "section": "Fluency",
+     "stem": "Find:",
+     "prompt": "$75\\%$ of $120$",
+     "type": "numeric",
+     "answer": "90"
+    },
+    {
+     "id": "q2h",
+     "label": "2h",
+     "section": "Fluency",
+     "stem": "Find:",
+     "prompt": "$80\\%$ of $150$",
+     "type": "numeric",
+     "answer": "120"
+    },
+    {
+     "id": "q2i",
+     "label": "2i",
+     "section": "Fluency",
+     "stem": "Find:",
+     "prompt": "$5\\%$ of $60$",
+     "type": "numeric",
+     "answer": "3"
+    },
+    {
+     "id": "q2j",
+     "label": "2j",
+     "section": "Fluency",
+     "stem": "Find:",
+     "prompt": "$4\\%$ of $1500$",
+     "type": "numeric",
+     "answer": "60"
+    },
+    {
+     "id": "q2k",
+     "label": "2k",
+     "section": "Fluency",
+     "stem": "Find:",
+     "prompt": "$5\\%$ of $640$",
+     "type": "numeric",
+     "answer": "32"
+    },
+    {
+     "id": "q2l",
+     "label": "2l",
+     "section": "Fluency",
+     "stem": "Find:",
+     "prompt": "$2\\%$ of $8500$",
+     "type": "numeric",
+     "answer": "170"
+    },
+    {
+     "id": "q2m",
+     "label": "2m",
+     "section": "Fluency",
+     "stem": "Find:",
+     "prompt": "$11\\%$ of $300$",
+     "type": "numeric",
+     "answer": "33"
+    },
+    {
+     "id": "q2n",
+     "label": "2n",
+     "section": "Fluency",
+     "stem": "Find:",
+     "prompt": "$21\\%$ of $500$",
+     "type": "numeric",
+     "answer": "105"
+    },
+    {
+     "id": "q2o",
+     "label": "2o",
+     "section": "Fluency",
+     "stem": "Find:",
+     "prompt": "$12\\%$ of $400$",
+     "type": "numeric",
+     "answer": "48"
+    },
+    {
+     "id": "q2p",
+     "label": "2p",
+     "section": "Fluency",
+     "stem": "Find:",
+     "prompt": "$9\\%$ of $600$",
+     "type": "numeric",
+     "answer": "54"
+    },
+    {
+     "id": "q3a",
+     "label": "3a",
+     "section": "Fluency",
+     "stem": "Find these values. The percentages are all greater than $100\\%$.",
+     "prompt": "$120\\%$ of $60$",
+     "type": "numeric",
+     "answer": "72"
+    },
+    {
+     "id": "q3b",
+     "label": "3b",
+     "section": "Fluency",
+     "stem": "Find these values. The percentages are all greater than $100\\%$.",
+     "prompt": "$150\\%$ of $300$",
+     "type": "numeric",
+     "answer": "450"
+    },
+    {
+     "id": "q3c",
+     "label": "3c",
+     "section": "Fluency",
+     "stem": "Find these values. The percentages are all greater than $100\\%$.",
+     "prompt": "$110\\%$ of $90$",
+     "type": "numeric",
+     "answer": "99"
+    },
+    {
+     "id": "q3d",
+     "label": "3d",
+     "section": "Fluency",
+     "stem": "Find these values. The percentages are all greater than $100\\%$.",
+     "prompt": "$300\\%$ of $35$",
+     "type": "numeric",
+     "answer": "105"
+    },
+    {
+     "id": "q3e",
+     "label": "3e",
+     "section": "Fluency",
+     "stem": "Find these values. The percentages are all greater than $100\\%$.",
+     "prompt": "$125\\%$ of $16$",
+     "type": "numeric",
+     "answer": "20"
+    },
+    {
+     "id": "q3f",
+     "label": "3f",
+     "section": "Fluency",
+     "stem": "Find these values. The percentages are all greater than $100\\%$.",
+     "prompt": "$225\\%$ of $36$",
+     "type": "numeric",
+     "answer": "81"
+    },
+    {
+     "id": "q3g",
+     "label": "3g",
+     "section": "Fluency",
+     "stem": "Find these values. The percentages are all greater than $100\\%$.",
+     "prompt": "$138\\%$ of $50$",
+     "type": "numeric",
+     "answer": "69"
+    },
+    {
+     "id": "q3h",
+     "label": "3h",
+     "section": "Fluency",
+     "stem": "Find these values. The percentages are all greater than $100\\%$.",
+     "prompt": "$2000\\%$ of $30$",
+     "type": "numeric",
+     "answer": "600"
+    },
+    {
+     "id": "q4a",
+     "label": "4a",
+     "section": "Fluency",
+     "stem": "Match each question with its correct answer. Each answer is used once.",
+     "prompt": "$10\\%$ of $\\$300$",
+     "type": "choice",
+     "answer": 5,
+     "options": [
+      "$7",
+      "$15",
+      "$18",
+      "$20",
+      "$28",
+      "$30",
+      "$35",
+      "$42",
+      "$50",
+      "$63"
+     ]
+    },
+    {
+     "id": "q4b",
+     "label": "4b",
+     "section": "Fluency",
+     "stem": "Match each question with its correct answer. Each answer is used once.",
+     "prompt": "$20\\%$ of $\\$90$",
+     "type": "choice",
+     "answer": 2,
+     "options": [
+      "$7",
+      "$15",
+      "$18",
+      "$20",
+      "$28",
+      "$30",
+      "$35",
+      "$42",
+      "$50",
+      "$63"
+     ]
+    },
+    {
+     "id": "q4c",
+     "label": "4c",
+     "section": "Fluency",
+     "stem": "Match each question with its correct answer. Each answer is used once.",
+     "prompt": "$10\\%$ of $\\$70$",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "$7",
+      "$15",
+      "$18",
+      "$20",
+      "$28",
+      "$30",
+      "$35",
+      "$42",
+      "$50",
+      "$63"
+     ]
+    },
+    {
+     "id": "q4d",
+     "label": "4d",
+     "section": "Fluency",
+     "stem": "Match each question with its correct answer. Each answer is used once.",
+     "prompt": "$50\\%$ of $\\$84$",
+     "type": "choice",
+     "answer": 7,
+     "options": [
+      "$7",
+      "$15",
+      "$18",
+      "$20",
+      "$28",
+      "$30",
+      "$35",
+      "$42",
+      "$50",
+      "$63"
+     ]
+    },
+    {
+     "id": "q4e",
+     "label": "4e",
+     "section": "Fluency",
+     "stem": "Match each question with its correct answer. Each answer is used once.",
+     "prompt": "$20\\%$ of $\\$250$",
+     "type": "choice",
+     "answer": 8,
+     "options": [
+      "$7",
+      "$15",
+      "$18",
+      "$20",
+      "$28",
+      "$30",
+      "$35",
+      "$42",
+      "$50",
+      "$63"
+     ]
+    },
+    {
+     "id": "q4f",
+     "label": "4f",
+     "section": "Fluency",
+     "stem": "Match each question with its correct answer. Each answer is used once.",
+     "prompt": "$5\\%$ of $\\$400$",
+     "type": "choice",
+     "answer": 3,
+     "options": [
+      "$7",
+      "$15",
+      "$18",
+      "$20",
+      "$28",
+      "$30",
+      "$35",
+      "$42",
+      "$50",
+      "$63"
+     ]
+    },
+    {
+     "id": "q4g",
+     "label": "4g",
+     "section": "Fluency",
+     "stem": "Match each question with its correct answer. Each answer is used once.",
+     "prompt": "$30\\%$ of $\\$210$",
+     "type": "choice",
+     "answer": 9,
+     "options": [
+      "$7",
+      "$15",
+      "$18",
+      "$20",
+      "$28",
+      "$30",
+      "$35",
+      "$42",
+      "$50",
+      "$63"
+     ]
+    },
+    {
+     "id": "q4h",
+     "label": "4h",
+     "section": "Fluency",
+     "stem": "Match each question with its correct answer. Each answer is used once.",
+     "prompt": "$10\\%$ of $\\$150$",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "$7",
+      "$15",
+      "$18",
+      "$20",
+      "$28",
+      "$30",
+      "$35",
+      "$42",
+      "$50",
+      "$63"
+     ]
+    },
+    {
+     "id": "q4i",
+     "label": "4i",
+     "section": "Fluency",
+     "stem": "Match each question with its correct answer. Each answer is used once.",
+     "prompt": "$1\\%$ of $\\$3500$",
+     "type": "choice",
+     "answer": 6,
+     "options": [
+      "$7",
+      "$15",
+      "$18",
+      "$20",
+      "$28",
+      "$30",
+      "$35",
+      "$42",
+      "$50",
+      "$63"
+     ]
+    },
+    {
+     "id": "q4j",
+     "label": "4j",
+     "section": "Fluency",
+     "stem": "Match each question with its correct answer. Each answer is used once.",
+     "prompt": "$50\\%$ of $\\$56$",
+     "type": "choice",
+     "answer": 4,
+     "options": [
+      "$7",
+      "$15",
+      "$18",
+      "$20",
+      "$28",
+      "$30",
+      "$35",
+      "$42",
+      "$50",
+      "$63"
+     ]
+    },
+    {
+     "id": "q5a",
+     "label": "5a",
+     "section": "Fluency",
+     "stem": "Find:",
+     "prompt": "$30\\%$ of $\\$160$",
+     "type": "numeric",
+     "answer": "48",
+     "units": "$"
+    },
+    {
+     "id": "q5b",
+     "label": "5b",
+     "section": "Fluency",
+     "stem": "Find:",
+     "prompt": "$10\\%$ of $370$ millimetres",
+     "type": "numeric",
+     "answer": "37",
+     "units": "mm"
+    },
+    {
+     "id": "q5c",
+     "label": "5c",
+     "section": "Fluency",
+     "stem": "Find:",
+     "prompt": "$15\\%$ of $80$ kilograms",
+     "type": "numeric",
+     "answer": "12",
+     "units": "kg"
+    },
+    {
+     "id": "q5d",
+     "label": "5d",
+     "section": "Fluency",
+     "stem": "Find:",
+     "prompt": "$2\\%$ of $3500$ tonnes",
+     "type": "numeric",
+     "answer": "70",
+     "units": "tonnes"
+    },
+    {
+     "id": "q5e",
+     "label": "5e",
+     "section": "Fluency",
+     "stem": "Find:",
+     "prompt": "$20\\%$ of $45$ minutes",
+     "type": "numeric",
+     "answer": "9",
+     "units": "minutes"
+    },
+    {
+     "id": "q5f",
+     "label": "5f",
+     "section": "Fluency",
+     "stem": "Find:",
+     "prompt": "$80\\%$ of $400$ centimetres",
+     "type": "numeric",
+     "answer": "320",
+     "units": "cm"
+    },
+    {
+     "id": "q5g",
+     "label": "5g",
+     "section": "Fluency",
+     "stem": "Find:",
+     "prompt": "$5\\%$ of $50$ grams",
+     "type": "numeric",
+     "answer": "2.5",
+     "units": "g"
+    },
+    {
+     "id": "q5h",
+     "label": "5h",
+     "section": "Fluency",
+     "stem": "Find:",
+     "prompt": "$25\\%$ of $18$ hectares",
+     "type": "numeric",
+     "answer": "4.5",
+     "units": "hectares"
+    },
+    {
+     "id": "q5i",
+     "label": "5i",
+     "section": "Fluency",
+     "stem": "Find:",
+     "prompt": "$120\\%$ of $150$ seconds",
+     "type": "numeric",
+     "answer": "180",
+     "units": "seconds"
+    },
+    {
+     "id": "q6",
+     "label": "6",
+     "section": "Problem-solving",
+     "prompt": "Priya scored $85\\%$ on her science test. The test was out of $40$ marks. How many marks did Priya score?",
+     "type": "numeric",
+     "answer": "34",
+     "units": "marks"
+    },
+    {
+     "id": "q7a",
+     "label": "7a",
+     "section": "Problem-solving",
+     "stem": "Leo has $\\$60$ to spend on a new top. He likes a jacket that is normally $\\$90$ and has a $30\\%$ discount. At another shop he likes a hoodie that costs $\\$70$, and everything in that shop is $15\\%$ off today.",
+     "prompt": "What is the sale price of the jacket?",
+     "type": "numeric",
+     "answer": "63",
+     "units": "$"
+    },
+    {
+     "id": "q7b",
+     "label": "7b",
+     "section": "Problem-solving",
+     "stem": "Leo has $\\$60$ to spend on a new top. He likes a jacket that is normally $\\$90$ and has a $30\\%$ discount. At another shop he likes a hoodie that costs $\\$70$, and everything in that shop is $15\\%$ off today.",
+     "prompt": "What is the sale price of the hoodie?",
+     "type": "numeric",
+     "answer": "59.50",
+     "units": "$"
+    },
+    {
+     "id": "q7c",
+     "label": "7c",
+     "section": "Problem-solving",
+     "stem": "Leo has $\\$60$ to spend on a new top. He likes a jacket that is normally $\\$90$ and has a $30\\%$ discount. At another shop he likes a hoodie that costs $\\$70$, and everything in that shop is $15\\%$ off today.",
+     "prompt": "Which top can Leo afford?",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "The jacket only",
+      "The hoodie only",
+      "Both",
+      "Neither"
+     ]
+    },
+    {
+     "id": "q8",
+     "label": "8",
+     "section": "Problem-solving",
+     "prompt": "In a survey of $240$ students, $65\\%$ said they play sport on the weekend. How many students said they play sport on the weekend?",
+     "type": "numeric",
+     "answer": "156",
+     "units": "students"
+    },
+    {
+     "id": "q9",
+     "label": "9",
+     "section": "Problem-solving",
+     "prompt": "$20\\%$ of children say their favourite colour is blue. In a group of $65$ children, how many would you expect to say blue is their favourite colour?",
+     "type": "numeric",
+     "answer": "13",
+     "units": "children"
+    },
+    {
+     "id": "q10a",
+     "label": "10a",
+     "section": "Problem-solving",
+     "stem": "At Riverbend College, $15\\%$ of students walk to school, $40\\%$ catch the bus and the rest are driven to school. There are $1400$ students at the school. Find how many students:",
+     "prompt": "walk to school",
+     "type": "numeric",
+     "answer": "210"
+    },
+    {
+     "id": "q10b",
+     "label": "10b",
+     "section": "Problem-solving",
+     "stem": "At Riverbend College, $15\\%$ of students walk to school, $40\\%$ catch the bus and the rest are driven to school. There are $1400$ students at the school. Find how many students:",
+     "prompt": "catch the bus",
+     "type": "numeric",
+     "answer": "560"
+    },
+    {
+     "id": "q10c",
+     "label": "10c",
+     "section": "Problem-solving",
+     "stem": "At Riverbend College, $15\\%$ of students walk to school, $40\\%$ catch the bus and the rest are driven to school. There are $1400$ students at the school. Find how many students:",
+     "prompt": "are driven to school",
+     "type": "numeric",
+     "answer": "630"
+    },
+    {
+     "id": "q11a",
+     "label": "11a",
+     "section": "Problem-solving",
+     "stem": "Marco has just had a $3\\%$ pay rise. Before the rise he earned $\\$1800$ per week.",
+     "prompt": "How much extra money does Marco earn each week because of his pay rise?",
+     "type": "numeric",
+     "answer": "54",
+     "units": "$"
+    },
+    {
+     "id": "q11b",
+     "label": "11b",
+     "section": "Problem-solving",
+     "stem": "Marco has just had a $3\\%$ pay rise. Before the rise he earned $\\$1800$ per week.",
+     "prompt": "What is Marco's new pay per week?",
+     "type": "numeric",
+     "answer": "1854",
+     "units": "$"
+    },
+    {
+     "id": "q11c",
+     "label": "11c",
+     "section": "Problem-solving",
+     "stem": "Marco has just had a $3\\%$ pay rise. Before the rise he earned $\\$1800$ per week.",
+     "prompt": "How much extra money does Marco earn per year? (Use $52$ weeks in a year.)",
+     "type": "numeric",
+     "answer": "2808",
+     "units": "$"
+    },
+    {
+     "id": "q12a",
+     "label": "12a",
+     "section": "Reasoning",
+     "stem": "Mia has $3$ hours of free time before dinner. She spends $20\\%$ of the time reading, $25\\%$ practising piano, $35\\%$ playing outside and $15\\%$ drawing.",
+     "prompt": "How many minutes does Mia spend reading?",
+     "type": "numeric",
+     "answer": "36",
+     "units": "minutes"
+    },
+    {
+     "id": "q12b",
+     "label": "12b",
+     "section": "Reasoning",
+     "stem": "Mia has $3$ hours of free time before dinner. She spends $20\\%$ of the time reading, $25\\%$ practising piano, $35\\%$ playing outside and $15\\%$ drawing.",
+     "prompt": "How many minutes does Mia spend practising piano?",
+     "type": "numeric",
+     "answer": "45",
+     "units": "minutes"
+    },
+    {
+     "id": "q12c",
+     "label": "12c",
+     "section": "Reasoning",
+     "stem": "Mia has $3$ hours of free time before dinner. She spends $20\\%$ of the time reading, $25\\%$ practising piano, $35\\%$ playing outside and $15\\%$ drawing.",
+     "prompt": "How many minutes does Mia spend playing outside?",
+     "type": "numeric",
+     "answer": "63",
+     "units": "minutes"
+    },
+    {
+     "id": "q12d",
+     "label": "12d",
+     "section": "Reasoning",
+     "stem": "Mia has $3$ hours of free time before dinner. She spends $20\\%$ of the time reading, $25\\%$ practising piano, $35\\%$ playing outside and $15\\%$ drawing.",
+     "prompt": "How many minutes does Mia spend drawing?",
+     "type": "numeric",
+     "answer": "27",
+     "units": "minutes"
+    },
+    {
+     "id": "q12e",
+     "label": "12e",
+     "section": "Reasoning",
+     "stem": "Mia has $3$ hours of free time before dinner. She spends $20\\%$ of the time reading, $25\\%$ practising piano, $35\\%$ playing outside and $15\\%$ drawing.",
+     "prompt": "What percentage of her free time does Mia have left after these four activities?",
+     "type": "numeric",
+     "answer": "5%",
+     "units": "%"
+    },
+    {
+     "id": "q12f",
+     "label": "12f",
+     "section": "Reasoning",
+     "stem": "Mia has $3$ hours of free time before dinner. She spends $20\\%$ of the time reading, $25\\%$ practising piano, $35\\%$ playing outside and $15\\%$ drawing.",
+     "prompt": "Mia must feed the dog before dinner, which takes $10$ minutes. Does she still have time to do this?",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "Yes",
+      "No"
+     ]
+    },
+    {
+     "id": "q13",
+     "label": "13",
+     "section": "Reasoning",
+     "prompt": "Ella paints $40\\%$ of a fence in $36$ minutes. If she keeps painting at the same rate, how long will it take her to paint the whole fence?",
+     "type": "numeric",
+     "answer": "90",
+     "units": "minutes"
+    },
+    {
+     "id": "q14a",
+     "label": "14a",
+     "section": "Reasoning",
+     "stem": "Find:",
+     "prompt": "$30\\%$ of ($50\\%$ of $400$)",
+     "type": "numeric",
+     "answer": "60"
+    },
+    {
+     "id": "q14b",
+     "label": "14b",
+     "section": "Reasoning",
+     "stem": "Find:",
+     "prompt": "$10\\%$ of ($40\\%$ of $2000$)",
+     "type": "numeric",
+     "answer": "80"
+    },
+    {
+     "id": "q14c",
+     "label": "14c",
+     "section": "Reasoning",
+     "stem": "Find:",
+     "prompt": "$5\\%$ of ($10\\%$ of $6000$)",
+     "type": "numeric",
+     "answer": "30"
+    },
+    {
+     "id": "q14d",
+     "label": "14d",
+     "section": "Reasoning",
+     "stem": "Find:",
+     "prompt": "$75\\%$ of ($20\\%$ of $800$)",
+     "type": "numeric",
+     "answer": "120"
+    },
+    {
+     "id": "q15",
+     "label": "15",
+     "section": "Reasoning",
+     "prompt": "Which is larger: $40\\%$ of $70$, or $70\\%$ of $40$?",
+     "type": "choice",
+     "answer": 2,
+     "options": [
+      "40% of 70",
+      "70% of 40",
+      "They are equal"
+     ]
+    },
+    {
+     "id": "q16",
+     "label": "16",
+     "section": "Reasoning",
+     "prompt": "Nina did this calculation: $160 \\div 5 \\div 2 \\times 3$. What percentage of $160$ did Nina find?",
+     "type": "numeric",
+     "answer": "30%",
+     "units": "%"
+    },
+    {
+     "id": "q17a",
+     "label": "17a",
+     "section": "Reasoning",
+     "prompt": "If $4\\%$ of an amount is $\\$9$, what is $100\\%$ of the amount?",
+     "type": "numeric",
+     "answer": "225",
+     "units": "$"
+    },
+    {
+     "id": "q17b",
+     "label": "17b",
+     "section": "Reasoning",
+     "prompt": "If $30\\%$ of an amount is $\\$12$, what is $7\\frac{1}{2}\\%$ of the amount?",
+     "type": "numeric",
+     "answer": "3",
+     "units": "$"
+    },
+    {
+     "id": "q18a",
+     "label": "18a",
+     "section": "Enrichment",
+     "stem": "Ava is doing a $2000$-piece jigsaw puzzle and wants to finish it in $5$ weeks. Her interest drops off, so each week she completes $80$ fewer pieces than the week before.",
+     "prompt": "How many pieces must Ava complete in the first week to finish the puzzle in exactly $5$ weeks?",
+     "type": "numeric",
+     "answer": "560",
+     "units": "pieces"
+    },
+    {
+     "id": "q18b",
+     "label": "18b",
+     "section": "Enrichment",
+     "stem": "Ava is doing a $2000$-piece jigsaw puzzle and wants to finish it in $5$ weeks. Her interest drops off, so each week she completes $80$ fewer pieces than the week before.",
+     "prompt": "What percentage of the puzzle does Ava complete in each of the $5$ weeks? Give the five percentages in order, separated by commas.",
+     "type": "ordered",
+     "answer": [
+      "28%",
+      "24%",
+      "20%",
+      "16%",
+      "12%"
+     ],
+     "hint": "For example: 30%, 25%, 20%, 15%, 10%"
+    },
+    {
+     "id": "q18c",
+     "label": "18c",
+     "section": "Enrichment",
+     "stem": "Ava is doing a $2000$-piece jigsaw puzzle and wants to finish it in $5$ weeks. Her interest drops off, so each week she completes $80$ fewer pieces than the week before.",
+     "prompt": "By what percentage of the puzzle does Ava's work drop each week?",
+     "type": "numeric",
+     "answer": "4%",
+     "units": "%"
+    },
+    {
+     "id": "q18d",
+     "label": "18d",
+     "section": "Enrichment",
+     "stem": "Noah is doing a $6000$-piece jigsaw puzzle and wants to finish it in $4$ weeks. His interest drops off at a steady rate: each week he completes $6\\%$ of the whole puzzle less than the week before.",
+     "prompt": "What percentage of the puzzle must Noah complete in the first week to finish in exactly $4$ weeks?",
+     "type": "numeric",
+     "answer": "34%",
+     "units": "%"
+    },
+    {
+     "id": "q18e",
+     "label": "18e",
+     "section": "Enrichment",
+     "stem": "Noah is doing a $6000$-piece jigsaw puzzle and wants to finish it in $4$ weeks. His interest drops off at a steady rate: each week he completes $6\\%$ of the whole puzzle less than the week before.",
+     "prompt": "How many pieces does Noah complete in each of the $4$ weeks? Give the four numbers in order, separated by commas.",
+     "type": "ordered",
+     "answer": [
+      "2040",
+      "1680",
+      "1320",
+      "960"
+     ]
+    },
+    {
+     "id": "q18f",
+     "label": "18f",
+     "section": "Enrichment",
+     "stem": "Noah is doing a $6000$-piece jigsaw puzzle and wants to finish it in $4$ weeks. His interest drops off at a steady rate: each week he completes $6\\%$ of the whole puzzle less than the week before.",
+     "prompt": "Give the total number of pieces Noah has completed by the end of each week (weeks $1$ to $4$), in order, separated by commas.",
+     "type": "ordered",
+     "answer": [
+      "2040",
+      "3720",
+      "5040",
+      "6000"
+     ]
+    },
+    {
+     "id": "q18g",
+     "label": "18g",
+     "section": "Enrichment",
+     "stem": "Noah is doing a $6000$-piece jigsaw puzzle and wants to finish it in $4$ weeks. His interest drops off at a steady rate: each week he completes $6\\%$ of the whole puzzle less than the week before.",
+     "prompt": "Give the total percentage of the puzzle Noah has completed by the end of each week (weeks $1$ to $4$), in order, separated by commas.",
+     "type": "ordered",
+     "answer": [
+      "34%",
+      "62%",
+      "84%",
+      "100%"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "3k",
+   "chapter": "Chapter 3: Fractions and percentages",
+   "title": "3K Introduction to ratios",
+   "description": "Writing ratios from information, simplifying ratios and finding missing numbers.",
+   "questions": [
+    {
+     "id": "q1a",
+     "label": "1a",
+     "section": "Fluency",
+     "stem": "A bag holds $7$ red apples and $4$ green apples. Write each of these as a ratio.",
+     "prompt": "the ratio of red apples to green apples",
+     "type": "ratio",
+     "answer": "7:4",
+     "hint": "Type a ratio with colons, for example 3:4"
+    },
+    {
+     "id": "q1b",
+     "label": "1b",
+     "section": "Fluency",
+     "stem": "A bag holds $7$ red apples and $4$ green apples. Write each of these as a ratio.",
+     "prompt": "the ratio of green apples to red apples",
+     "type": "ratio",
+     "answer": "4:7",
+     "hint": "Type a ratio with colons, for example 3:4"
+    },
+    {
+     "id": "q1c",
+     "label": "1c",
+     "section": "Fluency",
+     "stem": "A garage holds $5$ bikes, $2$ scooters and $9$ skateboards. Write each of these as a ratio.",
+     "prompt": "the ratio of bikes to scooters",
+     "type": "ratio",
+     "answer": "5:2",
+     "hint": "Type a ratio with colons, for example 3:4"
+    },
+    {
+     "id": "q1d",
+     "label": "1d",
+     "section": "Fluency",
+     "stem": "A garage holds $5$ bikes, $2$ scooters and $9$ skateboards. Write each of these as a ratio.",
+     "prompt": "the ratio of bikes to scooters to skateboards",
+     "type": "ratio",
+     "answer": "5:2:9",
+     "hint": "Type a ratio with colons, for example 3:4"
+    },
+    {
+     "id": "q1e",
+     "label": "1e",
+     "section": "Fluency",
+     "stem": "A garage holds $5$ bikes, $2$ scooters and $9$ skateboards. Write each of these as a ratio.",
+     "prompt": "the ratio of skateboards to bikes",
+     "type": "ratio",
+     "answer": "9:5",
+     "hint": "Type a ratio with colons, for example 3:4"
+    },
+    {
+     "id": "q2a",
+     "label": "2a",
+     "section": "Fluency",
+     "stem": "A bookshelf holds $9$ novels and $4$ comics. Write each of these as a ratio.",
+     "prompt": "the ratio of novels to comics",
+     "type": "ratio",
+     "answer": "9:4"
+    },
+    {
+     "id": "q2b",
+     "label": "2b",
+     "section": "Fluency",
+     "stem": "A bookshelf holds $9$ novels and $4$ comics. Write each of these as a ratio.",
+     "prompt": "the ratio of comics to novels",
+     "type": "ratio",
+     "answer": "4:9"
+    },
+    {
+     "id": "q2c",
+     "label": "2c",
+     "section": "Fluency",
+     "stem": "A bakery makes $8$ muffins, $11$ croissants and $3$ scones in one hour. Write each of these as a ratio.",
+     "prompt": "the ratio of croissants to scones",
+     "type": "ratio",
+     "answer": "11:3"
+    },
+    {
+     "id": "q2d",
+     "label": "2d",
+     "section": "Fluency",
+     "stem": "A bakery makes $8$ muffins, $11$ croissants and $3$ scones in one hour. Write each of these as a ratio.",
+     "prompt": "the ratio of muffins to croissants to scones",
+     "type": "ratio",
+     "answer": "8:11:3"
+    },
+    {
+     "id": "q2e",
+     "label": "2e",
+     "section": "Fluency",
+     "stem": "A bakery makes $8$ muffins, $11$ croissants and $3$ scones in one hour. Write each of these as a ratio.",
+     "prompt": "the ratio of scones to muffins",
+     "type": "ratio",
+     "answer": "3:8"
+    },
+    {
+     "id": "q3a",
+     "label": "3a",
+     "section": "Fluency",
+     "stem": "Each hour, a music app plays $3$ songs from the 2000s, $5$ songs from the 2010s, $8$ songs from the 2020s and just one song from the 1990s. Write each of these as a ratio.",
+     "prompt": "2010s songs to 2000s songs",
+     "type": "ratio",
+     "answer": "5:3"
+    },
+    {
+     "id": "q3b",
+     "label": "3b",
+     "section": "Fluency",
+     "stem": "Each hour, a music app plays $3$ songs from the 2000s, $5$ songs from the 2010s, $8$ songs from the 2020s and just one song from the 1990s. Write each of these as a ratio.",
+     "prompt": "2000s songs to 2020s songs",
+     "type": "ratio",
+     "answer": "3:8"
+    },
+    {
+     "id": "q3c",
+     "label": "3c",
+     "section": "Fluency",
+     "stem": "Each hour, a music app plays $3$ songs from the 2000s, $5$ songs from the 2010s, $8$ songs from the 2020s and just one song from the 1990s. Write each of these as a ratio.",
+     "prompt": "1990s songs to 2010s songs",
+     "type": "ratio",
+     "answer": "1:5"
+    },
+    {
+     "id": "q3d",
+     "label": "3d",
+     "section": "Fluency",
+     "stem": "Each hour, a music app plays $3$ songs from the 2000s, $5$ songs from the 2010s, $8$ songs from the 2020s and just one song from the 1990s. Write each of these as a ratio.",
+     "prompt": "2000s songs to 1990s songs",
+     "type": "ratio",
+     "answer": "3:1"
+    },
+    {
+     "id": "q3e",
+     "label": "3e",
+     "section": "Fluency",
+     "stem": "Each hour, a music app plays $3$ songs from the 2000s, $5$ songs from the 2010s, $8$ songs from the 2020s and just one song from the 1990s. Write each of these as a ratio.",
+     "prompt": "2020s songs to 2010s songs to 2000s songs",
+     "type": "ratio",
+     "answer": "8:5:3"
+    },
+    {
+     "id": "q3f",
+     "label": "3f",
+     "section": "Fluency",
+     "stem": "Each hour, a music app plays $3$ songs from the 2000s, $5$ songs from the 2010s, $8$ songs from the 2020s and just one song from the 1990s. Write each of these as a ratio.",
+     "prompt": "1990s songs to 2000s songs to 2010s songs to 2020s songs",
+     "type": "ratio",
+     "answer": "1:3:5:8"
+    },
+    {
+     "id": "q4a",
+     "label": "4a",
+     "section": "Fluency",
+     "stem": "Simplify these ratios.",
+     "prompt": "$4 : 8$",
+     "type": "ratio",
+     "answer": "1:2",
+     "simplest": true
+    },
+    {
+     "id": "q4b",
+     "label": "4b",
+     "section": "Fluency",
+     "stem": "Simplify these ratios.",
+     "prompt": "$5 : 20$",
+     "type": "ratio",
+     "answer": "1:4",
+     "simplest": true
+    },
+    {
+     "id": "q4c",
+     "label": "4c",
+     "section": "Fluency",
+     "stem": "Simplify these ratios.",
+     "prompt": "$12 : 6$",
+     "type": "ratio",
+     "answer": "2:1",
+     "simplest": true
+    },
+    {
+     "id": "q4d",
+     "label": "4d",
+     "section": "Fluency",
+     "stem": "Simplify these ratios.",
+     "prompt": "$15 : 5$",
+     "type": "ratio",
+     "answer": "3:1",
+     "simplest": true
+    },
+    {
+     "id": "q4e",
+     "label": "4e",
+     "section": "Fluency",
+     "stem": "Simplify these ratios.",
+     "prompt": "$25 : 10$",
+     "type": "ratio",
+     "answer": "5:2",
+     "simplest": true
+    },
+    {
+     "id": "q4f",
+     "label": "4f",
+     "section": "Fluency",
+     "stem": "Simplify these ratios.",
+     "prompt": "$28 : 42$",
+     "type": "ratio",
+     "answer": "2:3",
+     "simplest": true
+    },
+    {
+     "id": "q4g",
+     "label": "4g",
+     "section": "Fluency",
+     "stem": "Simplify these ratios.",
+     "prompt": "$30 : 24$",
+     "type": "ratio",
+     "answer": "5:4",
+     "simplest": true
+    },
+    {
+     "id": "q4h",
+     "label": "4h",
+     "section": "Fluency",
+     "stem": "Simplify these ratios.",
+     "prompt": "$130 : 70$",
+     "type": "ratio",
+     "answer": "13:7",
+     "simplest": true
+    },
+    {
+     "id": "q4i",
+     "label": "4i",
+     "section": "Fluency",
+     "stem": "Simplify these ratios.",
+     "prompt": "$150 : 180$",
+     "type": "ratio",
+     "answer": "5:6",
+     "simplest": true
+    },
+    {
+     "id": "q4j",
+     "label": "4j",
+     "section": "Fluency",
+     "stem": "Simplify these ratios.",
+     "prompt": "$63 : 81$",
+     "type": "ratio",
+     "answer": "7:9",
+     "simplest": true
+    },
+    {
+     "id": "q4k",
+     "label": "4k",
+     "section": "Fluency",
+     "stem": "Simplify these ratios.",
+     "prompt": "$88 : 24$",
+     "type": "ratio",
+     "answer": "11:3",
+     "simplest": true
+    },
+    {
+     "id": "q4l",
+     "label": "4l",
+     "section": "Fluency",
+     "stem": "Simplify these ratios.",
+     "prompt": "$144 : 84$",
+     "type": "ratio",
+     "answer": "12:7",
+     "simplest": true
+    },
+    {
+     "id": "q5a",
+     "label": "5a",
+     "section": "Fluency",
+     "stem": "Simplify these ratios.",
+     "prompt": "$3 : 6 : 12$",
+     "type": "ratio",
+     "answer": "1:2:4",
+     "simplest": true
+    },
+    {
+     "id": "q5b",
+     "label": "5b",
+     "section": "Fluency",
+     "stem": "Simplify these ratios.",
+     "prompt": "$4 : 8 : 28$",
+     "type": "ratio",
+     "answer": "1:2:7",
+     "simplest": true
+    },
+    {
+     "id": "q5c",
+     "label": "5c",
+     "section": "Fluency",
+     "stem": "Simplify these ratios.",
+     "prompt": "$15 : 10 : 25$",
+     "type": "ratio",
+     "answer": "3:2:5",
+     "simplest": true
+    },
+    {
+     "id": "q5d",
+     "label": "5d",
+     "section": "Fluency",
+     "stem": "Simplify these ratios.",
+     "prompt": "$32 : 16 : 24$",
+     "type": "ratio",
+     "answer": "4:2:3",
+     "simplest": true
+    },
+    {
+     "id": "q5e",
+     "label": "5e",
+     "section": "Fluency",
+     "stem": "Simplify these ratios.",
+     "prompt": "$45 : 60 : 15$",
+     "type": "ratio",
+     "answer": "3:4:1",
+     "simplest": true
+    },
+    {
+     "id": "q5f",
+     "label": "5f",
+     "section": "Fluency",
+     "stem": "Simplify these ratios.",
+     "prompt": "$4 : 70 : 18$",
+     "type": "ratio",
+     "answer": "2:35:9",
+     "simplest": true
+    },
+    {
+     "id": "q5g",
+     "label": "5g",
+     "section": "Fluency",
+     "stem": "Simplify these ratios.",
+     "prompt": "$60 : 84 : 36$",
+     "type": "ratio",
+     "answer": "5:7:3",
+     "simplest": true
+    },
+    {
+     "id": "q5h",
+     "label": "5h",
+     "section": "Fluency",
+     "stem": "Simplify these ratios.",
+     "prompt": "$66 : 33 : 44$",
+     "type": "ratio",
+     "answer": "6:3:4",
+     "simplest": true
+    },
+    {
+     "id": "q6a",
+     "label": "6a",
+     "section": "Fluency",
+     "stem": "Simplify these ratios.",
+     "prompt": "$8$ points to $4$ points",
+     "type": "ratio",
+     "answer": "2:1",
+     "simplest": true
+    },
+    {
+     "id": "q6b",
+     "label": "6b",
+     "section": "Fluency",
+     "stem": "Simplify these ratios.",
+     "prompt": "$5$ goals to $20$ goals",
+     "type": "ratio",
+     "answer": "1:4",
+     "simplest": true
+    },
+    {
+     "id": "q6c",
+     "label": "6c",
+     "section": "Fluency",
+     "stem": "Simplify these ratios.",
+     "prompt": "$30$ metres to $18$ metres",
+     "type": "ratio",
+     "answer": "5:3",
+     "simplest": true
+    },
+    {
+     "id": "q6d",
+     "label": "6d",
+     "section": "Fluency",
+     "stem": "Simplify these ratios.",
+     "prompt": "$14$ cm to $21$ cm",
+     "type": "ratio",
+     "answer": "2:3",
+     "simplest": true
+    },
+    {
+     "id": "q6e",
+     "label": "6e",
+     "section": "Fluency",
+     "stem": "Simplify these ratios.",
+     "prompt": "$150$ mm to $450$ mm",
+     "type": "ratio",
+     "answer": "1:3",
+     "simplest": true
+    },
+    {
+     "id": "q6f",
+     "label": "6f",
+     "section": "Fluency",
+     "stem": "Simplify these ratios.",
+     "prompt": "$42$ litres to $56$ litres",
+     "type": "ratio",
+     "answer": "3:4",
+     "simplest": true
+    },
+    {
+     "id": "q6g",
+     "label": "6g",
+     "section": "Fluency",
+     "stem": "Simplify these ratios.",
+     "prompt": "$24$ kg to $16$ kg to $40$ kg",
+     "type": "ratio",
+     "answer": "3:2:5",
+     "simplest": true
+    },
+    {
+     "id": "q6h",
+     "label": "6h",
+     "section": "Fluency",
+     "stem": "Simplify these ratios.",
+     "prompt": "$15$ seconds to $45$ seconds to $90$ seconds",
+     "type": "ratio",
+     "answer": "1:3:6",
+     "simplest": true
+    },
+    {
+     "id": "q7a",
+     "label": "7a",
+     "section": "Problem-solving",
+     "stem": "Write the ratio of shaded squares to white squares in each diagram. Simplify your ratio if possible.",
+     "prompt": "Shaded squares to white squares",
+     "type": "ratio",
+     "answer": "1:2",
+     "simplest": true,
+     "figure": {
+      "kind": "grid",
+      "rows": 3,
+      "cols": 4,
+      "shaded": [
+       0,
+       1,
+       6,
+       11
+      ]
+     }
+    },
+    {
+     "id": "q7b",
+     "label": "7b",
+     "section": "Problem-solving",
+     "stem": "Write the ratio of shaded squares to white squares in each diagram. Simplify your ratio if possible.",
+     "prompt": "Shaded squares to white squares",
+     "type": "ratio",
+     "answer": "1:1",
+     "simplest": true,
+     "figure": {
+      "kind": "grid",
+      "rows": 2,
+      "cols": 3,
+      "shaded": [
+       1,
+       3,
+       5
+      ]
+     }
+    },
+    {
+     "id": "q7c",
+     "label": "7c",
+     "section": "Problem-solving",
+     "stem": "Write the ratio of shaded squares to white squares in each diagram. Simplify your ratio if possible.",
+     "prompt": "Shaded squares to white squares",
+     "type": "ratio",
+     "answer": "2:3",
+     "simplest": true,
+     "figure": {
+      "kind": "grid",
+      "rows": 3,
+      "cols": 5,
+      "shaded": [
+       0,
+       2,
+       6,
+       8,
+       12,
+       14
+      ]
+     }
+    },
+    {
+     "id": "q7d",
+     "label": "7d",
+     "section": "Problem-solving",
+     "stem": "Write the ratio of shaded squares to white squares in each diagram. Simplify your ratio if possible.",
+     "prompt": "Shaded squares to white squares",
+     "type": "ratio",
+     "answer": "5:3",
+     "simplest": true,
+     "figure": {
+      "kind": "grid",
+      "rows": 4,
+      "cols": 2,
+      "shaded": [
+       0,
+       3,
+       4,
+       5,
+       7
+      ]
+     }
+    },
+    {
+     "id": "q7e",
+     "label": "7e",
+     "section": "Problem-solving",
+     "stem": "Write the ratio of shaded squares to white squares in each diagram. Simplify your ratio if possible.",
+     "prompt": "Shaded squares to white squares",
+     "type": "ratio",
+     "answer": "2:1",
+     "simplest": true,
+     "figure": {
+      "kind": "grid",
+      "rows": 2,
+      "cols": 6,
+      "shaded": [
+       1,
+       2,
+       3,
+       6,
+       7,
+       9,
+       10,
+       11
+      ]
+     }
+    },
+    {
+     "id": "q7f",
+     "label": "7f",
+     "section": "Problem-solving",
+     "stem": "Write the ratio of shaded squares to white squares in each diagram. Simplify your ratio if possible.",
+     "prompt": "Shaded squares to white squares",
+     "type": "ratio",
+     "answer": "3:5",
+     "simplest": true,
+     "figure": {
+      "kind": "grid",
+      "rows": 4,
+      "cols": 4,
+      "shaded": [
+       1,
+       4,
+       6,
+       9,
+       11,
+       14
+      ]
+     }
+    },
+    {
+     "id": "q8a",
+     "label": "8a",
+     "section": "Problem-solving",
+     "stem": "Find the missing number.",
+     "prompt": "$\\_\\_ : 5 = 9 : 15$",
+     "type": "numeric",
+     "answer": "3"
+    },
+    {
+     "id": "q8b",
+     "label": "8b",
+     "section": "Problem-solving",
+     "stem": "Find the missing number.",
+     "prompt": "$\\_\\_ : 6 = 7 : 3$",
+     "type": "numeric",
+     "answer": "14"
+    },
+    {
+     "id": "q8c",
+     "label": "8c",
+     "section": "Problem-solving",
+     "stem": "Find the missing number.",
+     "prompt": "$4 : 3 = \\_\\_ : 21$",
+     "type": "numeric",
+     "answer": "28"
+    },
+    {
+     "id": "q8d",
+     "label": "8d",
+     "section": "Problem-solving",
+     "stem": "Find the missing number.",
+     "prompt": "$7 : 5 = \\_\\_ : 15$",
+     "type": "numeric",
+     "answer": "21"
+    },
+    {
+     "id": "q8e",
+     "label": "8e",
+     "section": "Problem-solving",
+     "stem": "Find the missing number.",
+     "prompt": "$28 : 42 = 2 : \\_\\_$",
+     "type": "numeric",
+     "answer": "3"
+    },
+    {
+     "id": "q8f",
+     "label": "8f",
+     "section": "Problem-solving",
+     "stem": "Find the missing number.",
+     "prompt": "$150 : \\_\\_ = 3 : 7$",
+     "type": "numeric",
+     "answer": "350"
+    },
+    {
+     "id": "q9a",
+     "label": "9a",
+     "section": "Problem-solving",
+     "stem": "Simplify these ratios. Write the fractions with a common denominator first if you need to.",
+     "prompt": "$\\frac{2}{7} : \\frac{5}{7}$",
+     "type": "ratio",
+     "answer": "2:5",
+     "simplest": true
+    },
+    {
+     "id": "q9b",
+     "label": "9b",
+     "section": "Problem-solving",
+     "stem": "Simplify these ratios. Write the fractions with a common denominator first if you need to.",
+     "prompt": "$\\frac{7}{9} : \\frac{4}{9}$",
+     "type": "ratio",
+     "answer": "7:4",
+     "simplest": true
+    },
+    {
+     "id": "q9c",
+     "label": "9c",
+     "section": "Problem-solving",
+     "stem": "Simplify these ratios. Write the fractions with a common denominator first if you need to.",
+     "prompt": "$\\frac{8}{13} : \\frac{3}{13}$",
+     "type": "ratio",
+     "answer": "8:3",
+     "simplest": true
+    },
+    {
+     "id": "q9d",
+     "label": "9d",
+     "section": "Problem-solving",
+     "stem": "Simplify these ratios. Write the fractions with a common denominator first if you need to.",
+     "prompt": "$\\frac{11}{4} : \\frac{9}{4}$",
+     "type": "ratio",
+     "answer": "11:9",
+     "simplest": true
+    },
+    {
+     "id": "q9e",
+     "label": "9e",
+     "section": "Problem-solving",
+     "stem": "Simplify these ratios. Write the fractions with a common denominator first if you need to.",
+     "prompt": "$\\frac{1}{4} : \\frac{1}{3}$",
+     "type": "ratio",
+     "answer": "3:4",
+     "simplest": true
+    },
+    {
+     "id": "q9f",
+     "label": "9f",
+     "section": "Problem-solving",
+     "stem": "Simplify these ratios. Write the fractions with a common denominator first if you need to.",
+     "prompt": "$\\frac{1}{2} : \\frac{1}{5}$",
+     "type": "ratio",
+     "answer": "5:2",
+     "simplest": true
+    },
+    {
+     "id": "q9g",
+     "label": "9g",
+     "section": "Problem-solving",
+     "stem": "Simplify these ratios. Write the fractions with a common denominator first if you need to.",
+     "prompt": "$\\frac{1}{6} : \\frac{1}{5}$",
+     "type": "ratio",
+     "answer": "5:6",
+     "simplest": true
+    },
+    {
+     "id": "q9h",
+     "label": "9h",
+     "section": "Problem-solving",
+     "stem": "Simplify these ratios. Write the fractions with a common denominator first if you need to.",
+     "prompt": "$\\frac{1}{3} : \\frac{1}{9}$",
+     "type": "ratio",
+     "answer": "3:1",
+     "simplest": true
+    },
+    {
+     "id": "q9i",
+     "label": "9i",
+     "section": "Problem-solving",
+     "stem": "Simplify these ratios. Write the fractions with a common denominator first if you need to.",
+     "prompt": "$\\frac{3}{4} : \\frac{1}{8}$",
+     "type": "ratio",
+     "answer": "6:1",
+     "simplest": true
+    },
+    {
+     "id": "q9j",
+     "label": "9j",
+     "section": "Problem-solving",
+     "stem": "Simplify these ratios. Write the fractions with a common denominator first if you need to.",
+     "prompt": "$\\frac{1}{6} : \\frac{3}{7}$",
+     "type": "ratio",
+     "answer": "7:18",
+     "simplest": true
+    },
+    {
+     "id": "q9k",
+     "label": "9k",
+     "section": "Problem-solving",
+     "stem": "Simplify these ratios. Write the fractions with a common denominator first if you need to.",
+     "prompt": "$\\frac{2}{3} : \\frac{3}{5}$",
+     "type": "ratio",
+     "answer": "10:9",
+     "simplest": true
+    },
+    {
+     "id": "q9l",
+     "label": "9l",
+     "section": "Problem-solving",
+     "stem": "Simplify these ratios. Write the fractions with a common denominator first if you need to.",
+     "prompt": "$\\frac{5}{6} : \\frac{7}{4}$",
+     "type": "ratio",
+     "answer": "10:21",
+     "simplest": true
+    },
+    {
+     "id": "q10a",
+     "label": "10a",
+     "section": "Problem-solving",
+     "stem": "Simplify these ratios that include mixed numerals. Change the mixed numerals to improper fractions first.",
+     "prompt": "$2\\frac{1}{3} : 2$",
+     "type": "ratio",
+     "answer": "7:6",
+     "simplest": true
+    },
+    {
+     "id": "q10b",
+     "label": "10b",
+     "section": "Problem-solving",
+     "stem": "Simplify these ratios that include mixed numerals. Change the mixed numerals to improper fractions first.",
+     "prompt": "$2\\frac{1}{2} : 3$",
+     "type": "ratio",
+     "answer": "5:6",
+     "simplest": true
+    },
+    {
+     "id": "q10c",
+     "label": "10c",
+     "section": "Problem-solving",
+     "stem": "Simplify these ratios that include mixed numerals. Change the mixed numerals to improper fractions first.",
+     "prompt": "$5 : 1\\frac{1}{3}$",
+     "type": "ratio",
+     "answer": "15:4",
+     "simplest": true
+    },
+    {
+     "id": "q10d",
+     "label": "10d",
+     "section": "Problem-solving",
+     "stem": "Simplify these ratios that include mixed numerals. Change the mixed numerals to improper fractions first.",
+     "prompt": "$1\\frac{3}{4} : 2\\frac{1}{3}$",
+     "type": "ratio",
+     "answer": "3:4",
+     "simplest": true
+    },
+    {
+     "id": "q10e",
+     "label": "10e",
+     "section": "Problem-solving",
+     "stem": "Simplify these ratios that include mixed numerals. Change the mixed numerals to improper fractions first.",
+     "prompt": "$2\\frac{2}{5} : 1\\frac{3}{4}$",
+     "type": "ratio",
+     "answer": "48:35",
+     "simplest": true
+    },
+    {
+     "id": "q11",
+     "label": "11",
+     "section": "Reasoning",
+     "prompt": "Ruby simplifies $6 : 3$ to $1 : \\frac{1}{2}$. Her answer has a fraction in it, so it is not in simplest form. Write the correct simplified ratio.",
+     "type": "ratio",
+     "answer": "2:1",
+     "simplest": true
+    },
+    {
+     "id": "q12a",
+     "label": "12a",
+     "section": "Reasoning",
+     "stem": "A shade of green is made by mixing blue and yellow paint in the ratio $3 : 5$.",
+     "prompt": "How many litres of yellow paint should be mixed with $9$ litres of blue paint to make the same shade?",
+     "type": "numeric",
+     "answer": "15",
+     "units": "litres"
+    },
+    {
+     "id": "q12b",
+     "label": "12b",
+     "section": "Reasoning",
+     "stem": "A shade of green is made by mixing blue and yellow paint in the ratio $3 : 5$. Will each of these ratios of blue to yellow make a colour that is more blue or more yellow than this shade?",
+     "prompt": "$1 : 2$",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "More blue",
+      "More yellow"
+     ]
+    },
+    {
+     "id": "q12c",
+     "label": "12c",
+     "section": "Reasoning",
+     "stem": "A shade of green is made by mixing blue and yellow paint in the ratio $3 : 5$. Will each of these ratios of blue to yellow make a colour that is more blue or more yellow than this shade?",
+     "prompt": "$2 : 1$",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "More blue",
+      "More yellow"
+     ]
+    },
+    {
+     "id": "q12d",
+     "label": "12d",
+     "section": "Reasoning",
+     "stem": "A shade of green is made by mixing blue and yellow paint in the ratio $3 : 5$. Will each of these ratios of blue to yellow make a colour that is more blue or more yellow than this shade?",
+     "prompt": "$4 : 7$",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "More blue",
+      "More yellow"
+     ]
+    },
+    {
+     "id": "q13a",
+     "label": "13a",
+     "section": "Reasoning",
+     "stem": "Write each pair as a ratio in simplest form. Change them to the same units first.",
+     "prompt": "$40$ cm to $3$ metres",
+     "type": "ratio",
+     "answer": "2:15",
+     "simplest": true
+    },
+    {
+     "id": "q13b",
+     "label": "13b",
+     "section": "Reasoning",
+     "stem": "Write each pair as a ratio in simplest form. Change them to the same units first.",
+     "prompt": "$20$ mm to $6$ cm",
+     "type": "ratio",
+     "answer": "1:3",
+     "simplest": true
+    },
+    {
+     "id": "q13c",
+     "label": "13c",
+     "section": "Reasoning",
+     "stem": "Write each pair as a ratio in simplest form. Change them to the same units first.",
+     "prompt": "$\\$3$ to $180$ cents",
+     "type": "ratio",
+     "answer": "5:3",
+     "simplest": true
+    },
+    {
+     "id": "q13d",
+     "label": "13d",
+     "section": "Reasoning",
+     "stem": "Write each pair as a ratio in simplest form. Change them to the same units first.",
+     "prompt": "$600$ grams to $2$ kg",
+     "type": "ratio",
+     "answer": "3:10",
+     "simplest": true
+    },
+    {
+     "id": "q13e",
+     "label": "13e",
+     "section": "Reasoning",
+     "stem": "Write each pair as a ratio in simplest form. Change them to the same units first.",
+     "prompt": "$40$ minutes to $3$ hours",
+     "type": "ratio",
+     "answer": "2:9",
+     "simplest": true
+    },
+    {
+     "id": "q13f",
+     "label": "13f",
+     "section": "Reasoning",
+     "stem": "Write each pair as a ratio in simplest form. Change them to the same units first.",
+     "prompt": "$1$ day to $15$ hours",
+     "type": "ratio",
+     "answer": "8:5",
+     "simplest": true
+    },
+    {
+     "id": "q14",
+     "label": "14",
+     "section": "Reasoning",
+     "prompt": "For a number $n$, the ratio $n : n^2$ is equal to $1 : 5$. What is the value of $n$?",
+     "type": "numeric",
+     "answer": "5"
+    },
+    {
+     "id": "q15a",
+     "label": "15a",
+     "section": "Enrichment",
+     "stem": "The three primary colours are red, blue and yellow. Mixing two primary colours in the ratio $1 : 1$ makes a secondary colour: orange, green or violet. Which secondary colour is made by mixing these two colours $1 : 1$?",
+     "prompt": "blue and red",
+     "type": "choice",
+     "answer": 2,
+     "options": [
+      "orange",
+      "green",
+      "violet"
+     ]
+    },
+    {
+     "id": "q15b",
+     "label": "15b",
+     "section": "Enrichment",
+     "stem": "The three primary colours are red, blue and yellow. Mixing two primary colours in the ratio $1 : 1$ makes a secondary colour: orange, green or violet. Which secondary colour is made by mixing these two colours $1 : 1$?",
+     "prompt": "red and yellow",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "orange",
+      "green",
+      "violet"
+     ]
+    },
+    {
+     "id": "q15c",
+     "label": "15c",
+     "section": "Enrichment",
+     "stem": "The three primary colours are red, blue and yellow. Mixing two primary colours in the ratio $1 : 1$ makes a secondary colour: orange, green or violet. Which secondary colour is made by mixing these two colours $1 : 1$?",
+     "prompt": "blue and yellow",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "orange",
+      "green",
+      "violet"
+     ]
+    },
+    {
+     "id": "q15d",
+     "label": "15d",
+     "section": "Enrichment",
+     "stem": "A tertiary colour is made by mixing a primary colour with a secondary colour in the ratio $1 : 1$. It is named after both, for example yellow orange. Which tertiary colour is made by mixing these two colours $1 : 1$?",
+     "prompt": "red and orange",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "yellow orange",
+      "red orange",
+      "red violet",
+      "blue violet",
+      "blue green",
+      "yellow green"
+     ]
+    },
+    {
+     "id": "q15e",
+     "label": "15e",
+     "section": "Enrichment",
+     "stem": "A tertiary colour is made by mixing a primary colour with a secondary colour in the ratio $1 : 1$. It is named after both, for example yellow orange. Which tertiary colour is made by mixing these two colours $1 : 1$?",
+     "prompt": "blue and green",
+     "type": "choice",
+     "answer": 4,
+     "options": [
+      "yellow orange",
+      "red orange",
+      "red violet",
+      "blue violet",
+      "blue green",
+      "yellow green"
+     ]
+    },
+    {
+     "id": "q15f",
+     "label": "15f",
+     "section": "Enrichment",
+     "stem": "A tertiary colour is made by mixing a primary colour with a secondary colour in the ratio $1 : 1$. It is named after both, for example yellow orange. Which tertiary colour is made by mixing these two colours $1 : 1$?",
+     "prompt": "violet and red",
+     "type": "choice",
+     "answer": 2,
+     "options": [
+      "yellow orange",
+      "red orange",
+      "red violet",
+      "blue violet",
+      "blue green",
+      "yellow green"
+     ]
+    },
+    {
+     "id": "q15g",
+     "label": "15g",
+     "section": "Enrichment",
+     "stem": "Secondary colours mix two primary colours $1 : 1$, and tertiary colours mix a primary and a secondary colour $1 : 1$.",
+     "prompt": "What is the ratio of yellow to red in the colour yellow orange?",
+     "type": "ratio",
+     "answer": "3:1",
+     "simplest": true
+    },
+    {
+     "id": "q15h",
+     "label": "15h",
+     "section": "Enrichment",
+     "stem": "Secondary colours mix two primary colours $1 : 1$, and tertiary colours mix a primary and a secondary colour $1 : 1$.",
+     "prompt": "What is the ratio of red to blue in the colour blue violet?",
+     "type": "ratio",
+     "answer": "1:3",
+     "simplest": true
+    },
+    {
+     "id": "q15i",
+     "label": "15i",
+     "section": "Enrichment",
+     "prompt": "In a special mix, red is mixed with yellow in the ratio $3 : 1$. This mix is then mixed with more yellow in the ratio $4 : 3$. What is the ratio of red to yellow in the final mix?",
+     "type": "ratio",
+     "answer": "3:4",
+     "simplest": true
+    }
+   ]
+  },
+  {
+   "id": "3l",
+   "chapter": "Chapter 3: Fractions and percentages",
+   "title": "3L Solving problems with ratios",
+   "description": "Using ratios to find fractions of a whole, divide amounts and solve worded problems.",
+   "questions": [
+    {
+     "id": "q1a",
+     "label": "1a",
+     "section": "Fluency",
+     "stem": "The sand to cement ratio is $3 : 5$. Write the fraction of the mix that is:",
+     "prompt": "sand",
+     "type": "numeric",
+     "answer": "3/8",
+     "as": "fraction",
+     "hint": "Type a fraction like 3/4"
+    },
+    {
+     "id": "q1b",
+     "label": "1b",
+     "section": "Fluency",
+     "stem": "The sand to cement ratio is $3 : 5$. Write the fraction of the mix that is:",
+     "prompt": "cement",
+     "type": "numeric",
+     "answer": "5/8",
+     "as": "fraction",
+     "hint": "Type a fraction like 3/4"
+    },
+    {
+     "id": "q1c",
+     "label": "1c",
+     "section": "Fluency",
+     "stem": "The sand to cement ratio is $1 : 4$. Write the fraction of the mix that is:",
+     "prompt": "sand",
+     "type": "numeric",
+     "answer": "1/5",
+     "as": "fraction",
+     "hint": "Type a fraction like 3/4"
+    },
+    {
+     "id": "q1d",
+     "label": "1d",
+     "section": "Fluency",
+     "stem": "The sand to cement ratio is $1 : 4$. Write the fraction of the mix that is:",
+     "prompt": "cement",
+     "type": "numeric",
+     "answer": "4/5",
+     "as": "fraction",
+     "hint": "Type a fraction like 3/4"
+    },
+    {
+     "id": "q1e",
+     "label": "1e",
+     "section": "Fluency",
+     "stem": "The sand to cement ratio is $4 : 7$. Write the fraction of the mix that is:",
+     "prompt": "sand",
+     "type": "numeric",
+     "answer": "4/11",
+     "as": "fraction",
+     "hint": "Type a fraction like 3/4"
+    },
+    {
+     "id": "q1f",
+     "label": "1f",
+     "section": "Fluency",
+     "stem": "The sand to cement ratio is $4 : 7$. Write the fraction of the mix that is:",
+     "prompt": "cement",
+     "type": "numeric",
+     "answer": "7/11",
+     "as": "fraction",
+     "hint": "Type a fraction like 3/4"
+    },
+    {
+     "id": "q2a",
+     "label": "2a",
+     "section": "Fluency",
+     "stem": "Flour is mixed with water in the ratio $5 : 2$ to make damper. Write the fraction of the damper that is:",
+     "prompt": "flour",
+     "type": "numeric",
+     "answer": "5/7",
+     "as": "fraction",
+     "hint": "Type a fraction like 3/4"
+    },
+    {
+     "id": "q2b",
+     "label": "2b",
+     "section": "Fluency",
+     "stem": "Flour is mixed with water in the ratio $5 : 2$ to make damper. Write the fraction of the damper that is:",
+     "prompt": "water",
+     "type": "numeric",
+     "answer": "2/7",
+     "as": "fraction",
+     "hint": "Type a fraction like 3/4"
+    },
+    {
+     "id": "q2c",
+     "label": "2c",
+     "section": "Fluency",
+     "prompt": "In a different damper, $\\frac{3}{5}$ of the mix is flour and the rest is water. Write the ratio of flour to water.",
+     "type": "ratio",
+     "answer": "3:2"
+    },
+    {
+     "id": "q2d",
+     "label": "2d",
+     "section": "Fluency",
+     "prompt": "Pip uses $80$ grams of flour with a flour to water ratio of $4 : 3$. How much water does she need?",
+     "type": "numeric",
+     "answer": "60",
+     "units": "g"
+    },
+    {
+     "id": "q3a",
+     "label": "3a",
+     "section": "Fluency",
+     "stem": "Some netball teams have these win-loss ratios for a season. (No games were drawn.)",
+     "prompt": "The Hawks have a win-loss ratio of $4 : 3$. What fraction of their games did the Hawks win?",
+     "type": "numeric",
+     "answer": "4/7",
+     "as": "fraction",
+     "hint": "Type a fraction like 3/4"
+    },
+    {
+     "id": "q3b",
+     "label": "3b",
+     "section": "Fluency",
+     "stem": "Some netball teams have these win-loss ratios for a season. (No games were drawn.)",
+     "prompt": "The Comets won $\\frac{5}{6}$ of their games. Write their win-loss ratio.",
+     "type": "ratio",
+     "answer": "5:1"
+    },
+    {
+     "id": "q3c",
+     "label": "3c",
+     "section": "Fluency",
+     "stem": "Some netball teams have these win-loss ratios for a season. (No games were drawn.)",
+     "prompt": "The Tigers lost $4$ games and have a win-loss ratio of $3 : 1$. How many games did they win?",
+     "type": "numeric",
+     "answer": "12",
+     "units": "games"
+    },
+    {
+     "id": "q3d",
+     "label": "3d",
+     "section": "Fluency",
+     "stem": "Some netball teams have these win-loss ratios for a season. (No games were drawn.)",
+     "prompt": "The Owls have a win-loss ratio of $3 : 8$. What fraction of their games did the Owls lose?",
+     "type": "numeric",
+     "answer": "8/11",
+     "as": "fraction",
+     "hint": "Type a fraction like 3/4"
+    },
+    {
+     "id": "q3e",
+     "label": "3e",
+     "section": "Fluency",
+     "stem": "Some netball teams have these win-loss ratios for a season. (No games were drawn.)",
+     "prompt": "The Rockets lost $\\frac{3}{7}$ of their games. Write their win-loss ratio.",
+     "type": "ratio",
+     "answer": "4:3"
+    },
+    {
+     "id": "q3f",
+     "label": "3f",
+     "section": "Fluency",
+     "stem": "Some netball teams have these win-loss ratios for a season. (No games were drawn.)",
+     "prompt": "The Bulls won $10$ games and have a win-loss ratio of $5 : 3$. How many games did they lose?",
+     "type": "numeric",
+     "answer": "6",
+     "units": "games"
+    },
+    {
+     "id": "q4",
+     "label": "4",
+     "section": "Fluency",
+     "prompt": "Divide $36$ kg in the ratio $1 : 5$.",
+     "type": "ordered",
+     "answer": [
+      "6",
+      "30"
+     ],
+     "units": "kg",
+     "hint": "Type the amounts in order, separated by a comma, for example 10, 5"
+    },
+    {
+     "id": "q5",
+     "label": "5",
+     "section": "Fluency",
+     "prompt": "Divide $45$ litres in the ratio $4 : 5$.",
+     "type": "ordered",
+     "answer": [
+      "20",
+      "25"
+     ],
+     "units": "litres",
+     "hint": "Type the amounts in order, separated by a comma, for example 10, 5"
+    },
+    {
+     "id": "q6a",
+     "label": "6a",
+     "section": "Fluency",
+     "stem": "Divide each amount in the given ratio.",
+     "prompt": "$\\$60$ in the ratio $3 : 2$",
+     "type": "ordered",
+     "answer": [
+      "36",
+      "24"
+     ],
+     "units": "$",
+     "hint": "Type the amounts in order, separated by a comma, for example 10, 5"
+    },
+    {
+     "id": "q6b",
+     "label": "6b",
+     "section": "Fluency",
+     "stem": "Divide each amount in the given ratio.",
+     "prompt": "$\\$200$ in the ratio $7 : 3$",
+     "type": "ordered",
+     "answer": [
+      "140",
+      "60"
+     ],
+     "units": "$",
+     "hint": "Type the amounts in order, separated by a comma, for example 10, 5"
+    },
+    {
+     "id": "q6c",
+     "label": "6c",
+     "section": "Fluency",
+     "stem": "Divide each amount in the given ratio.",
+     "prompt": "$40$ kg in the ratio $3 : 5$",
+     "type": "ordered",
+     "answer": [
+      "15",
+      "25"
+     ],
+     "units": "kg",
+     "hint": "Type the amounts in order, separated by a comma, for example 10, 5"
+    },
+    {
+     "id": "q6d",
+     "label": "6d",
+     "section": "Fluency",
+     "stem": "Divide each amount in the given ratio.",
+     "prompt": "$84$ kg in the ratio $6 : 1$",
+     "type": "ordered",
+     "answer": [
+      "72",
+      "12"
+     ],
+     "units": "kg",
+     "hint": "Type the amounts in order, separated by a comma, for example 10, 5"
+    },
+    {
+     "id": "q6e",
+     "label": "6e",
+     "section": "Fluency",
+     "stem": "Divide each amount in the given ratio.",
+     "prompt": "$63$ litres in the ratio $4 : 5$",
+     "type": "ordered",
+     "answer": [
+      "28",
+      "35"
+     ],
+     "units": "litres",
+     "hint": "Type the amounts in order, separated by a comma, for example 10, 5"
+    },
+    {
+     "id": "q6f",
+     "label": "6f",
+     "section": "Fluency",
+     "stem": "Divide each amount in the given ratio.",
+     "prompt": "$77$ litres in the ratio $3 : 8$",
+     "type": "ordered",
+     "answer": [
+      "21",
+      "56"
+     ],
+     "units": "litres",
+     "hint": "Type the amounts in order, separated by a comma, for example 10, 5"
+    },
+    {
+     "id": "q6g",
+     "label": "6g",
+     "section": "Fluency",
+     "stem": "Divide each amount in the given ratio.",
+     "prompt": "$108$ metres in the ratio $5 : 7$",
+     "type": "ordered",
+     "answer": [
+      "45",
+      "63"
+     ],
+     "units": "metres",
+     "hint": "Type the amounts in order, separated by a comma, for example 10, 5"
+    },
+    {
+     "id": "q6h",
+     "label": "6h",
+     "section": "Fluency",
+     "stem": "Divide each amount in the given ratio.",
+     "prompt": "$180$ metres in the ratio $7 : 8$",
+     "type": "ordered",
+     "answer": [
+      "84",
+      "96"
+     ],
+     "units": "metres",
+     "hint": "Type the amounts in order, separated by a comma, for example 10, 5"
+    },
+    {
+     "id": "q7a",
+     "label": "7a",
+     "section": "Problem-solving",
+     "stem": "Ana mixes liquid fertiliser with water in the ratio $3 : 17$ to make a garden spray. How much fertiliser should she use to make this total amount of spray?",
+     "prompt": "$20$ litres",
+     "type": "numeric",
+     "answer": "3",
+     "units": "litres"
+    },
+    {
+     "id": "q7b",
+     "label": "7b",
+     "section": "Problem-solving",
+     "stem": "Ana mixes liquid fertiliser with water in the ratio $3 : 17$ to make a garden spray. How much fertiliser should she use to make this total amount of spray?",
+     "prompt": "$60$ litres",
+     "type": "numeric",
+     "answer": "9",
+     "units": "litres"
+    },
+    {
+     "id": "q7c",
+     "label": "7c",
+     "section": "Problem-solving",
+     "stem": "Ana mixes liquid fertiliser with water in the ratio $3 : 17$ to make a garden spray. How much fertiliser should she use to make this total amount of spray?",
+     "prompt": "$140$ litres",
+     "type": "numeric",
+     "answer": "21",
+     "units": "litres"
+    },
+    {
+     "id": "q7d",
+     "label": "7d",
+     "section": "Problem-solving",
+     "stem": "Ana mixes liquid fertiliser with water in the ratio $3 : 17$ to make a garden spray.",
+     "prompt": "If she uses $15$ litres of fertiliser, how much spray will she make?",
+     "type": "numeric",
+     "answer": "100",
+     "units": "litres"
+    },
+    {
+     "id": "q7e",
+     "label": "7e",
+     "section": "Problem-solving",
+     "stem": "Ana mixes liquid fertiliser with water in the ratio $3 : 17$ to make a garden spray.",
+     "prompt": "If she uses $51$ litres of water, how much fertiliser does she use?",
+     "type": "numeric",
+     "answer": "9",
+     "units": "litres"
+    },
+    {
+     "id": "q7f",
+     "label": "7f",
+     "section": "Problem-solving",
+     "stem": "Ana mixes liquid fertiliser with water in the ratio $3 : 17$ to make a garden spray.",
+     "prompt": "If she makes $80$ litres of spray, how much fertiliser did she use?",
+     "type": "numeric",
+     "answer": "12",
+     "units": "litres"
+    },
+    {
+     "id": "q8a",
+     "label": "8a",
+     "section": "Problem-solving",
+     "stem": "Mrs Chen shares $\\$90$ between her three grandchildren in the ratio $2 : 3 : 4$.",
+     "prompt": "How much money does the first grandchild listed get?",
+     "type": "numeric",
+     "answer": "20",
+     "units": "$"
+    },
+    {
+     "id": "q8b",
+     "label": "8b",
+     "section": "Problem-solving",
+     "stem": "Mrs Chen shares $\\$90$ between her three grandchildren in the ratio $2 : 3 : 4$.",
+     "prompt": "How much money does the third grandchild listed get?",
+     "type": "numeric",
+     "answer": "40",
+     "units": "$"
+    },
+    {
+     "id": "q9a",
+     "label": "9a",
+     "section": "Problem-solving",
+     "stem": "Divide each amount in the given ratio.",
+     "prompt": "$\\$240$ in the ratio $3 : 3 : 2$",
+     "type": "ordered",
+     "answer": [
+      "90",
+      "90",
+      "60"
+     ],
+     "units": "$",
+     "hint": "Type the amounts in order, separated by commas, for example 10, 5, 15"
+    },
+    {
+     "id": "q9b",
+     "label": "9b",
+     "section": "Problem-solving",
+     "stem": "Divide each amount in the given ratio.",
+     "prompt": "$900$ grams in the ratio $4 : 5 : 6$",
+     "type": "ordered",
+     "answer": [
+      "240",
+      "300",
+      "360"
+     ],
+     "units": "grams",
+     "hint": "Type the amounts in order, separated by commas, for example 10, 5, 15"
+    },
+    {
+     "id": "q9c",
+     "label": "9c",
+     "section": "Problem-solving",
+     "stem": "Divide each amount in the given ratio.",
+     "prompt": "$180$ litres in the ratio $3 : 11 : 4$",
+     "type": "ordered",
+     "answer": [
+      "30",
+      "110",
+      "40"
+     ],
+     "units": "litres",
+     "hint": "Type the amounts in order, separated by commas, for example 10, 5, 15"
+    },
+    {
+     "id": "q9d",
+     "label": "9d",
+     "section": "Problem-solving",
+     "stem": "Divide each amount in the given ratio.",
+     "prompt": "$960$ kg in the ratio $5 : 4 : 3$",
+     "type": "ordered",
+     "answer": [
+      "400",
+      "320",
+      "240"
+     ],
+     "units": "kg",
+     "hint": "Type the amounts in order, separated by commas, for example 10, 5, 15"
+    },
+    {
+     "id": "q10a",
+     "label": "10a",
+     "section": "Problem-solving",
+     "stem": "The ratio of goats to chickens on a farm is $3 : 8$.",
+     "prompt": "How many chickens are there if there are $45$ goats?",
+     "type": "numeric",
+     "answer": "120",
+     "units": "chickens"
+    },
+    {
+     "id": "q10b",
+     "label": "10b",
+     "section": "Problem-solving",
+     "stem": "The ratio of goats to chickens on a farm is $3 : 8$.",
+     "prompt": "How many goats are there if there are $96$ chickens?",
+     "type": "numeric",
+     "answer": "36",
+     "units": "goats"
+    },
+    {
+     "id": "q10c",
+     "label": "10c",
+     "section": "Problem-solving",
+     "stem": "The ratio of goats to chickens on a farm is $3 : 8$.",
+     "prompt": "How many chickens are there if there are $220$ goats and chickens altogether?",
+     "type": "numeric",
+     "answer": "160",
+     "units": "chickens"
+    },
+    {
+     "id": "q10d",
+     "label": "10d",
+     "section": "Problem-solving",
+     "stem": "The ratio of goats to chickens on a farm is $3 : 8$.",
+     "prompt": "How many goats are there if there are $770$ goats and chickens altogether?",
+     "type": "numeric",
+     "answer": "210",
+     "units": "goats"
+    },
+    {
+     "id": "q11",
+     "label": "11",
+     "section": "Problem-solving",
+     "prompt": "The three angles in a triangle are in the ratio $2 : 3 : 4$. What is the size of the largest angle?",
+     "type": "numeric",
+     "answer": "80",
+     "units": "°"
+    },
+    {
+     "id": "q12",
+     "label": "12",
+     "section": "Reasoning",
+     "prompt": "Kai splits $45$ marbles into two piles in the ratio $2 : 5$, using as many marbles as he can. How many marbles are left over?",
+     "type": "numeric",
+     "answer": "3",
+     "units": "marbles"
+    },
+    {
+     "id": "q13",
+     "label": "13",
+     "section": "Reasoning",
+     "prompt": "Jo tips out her $150$ one-dollar coins and tries to divide them in the ratio $3 : 5$. Can she do this without any coins left over?",
+     "type": "choice",
+     "answer": 1,
+     "options": [
+      "Yes",
+      "No"
+     ]
+    },
+    {
+     "id": "q14",
+     "label": "14",
+     "section": "Reasoning",
+     "prompt": "A choir needs sopranos, altos and tenors in the ratio $4 : 3 : 2$. So far the director has chosen $6$ sopranos, $5$ altos and $3$ tenors. What is the smallest number of extra singers the director needs to choose to get the correct ratio?",
+     "type": "numeric",
+     "answer": "4",
+     "units": "singers"
+    },
+    {
+     "id": "q15",
+     "label": "15",
+     "section": "Reasoning",
+     "prompt": "There are $20$ ducks on a pond and the ratio of white ducks to brown ducks is $3 : 2$. Some of the white ducks fly away, and now the ratio of white ducks to brown ducks is $1 : 2$. How many white ducks flew away?",
+     "type": "numeric",
+     "answer": "8",
+     "units": "ducks"
+    },
+    {
+     "id": "q16a",
+     "label": "16a",
+     "section": "Enrichment",
+     "stem": "The steepness of a slope can be written as the ratio of vertical distance to horizontal distance. A slope of $1 : 4$ means that for every $1$ metre up, you travel $4$ metres across. Write each slope as a ratio in simplest form.",
+     "prompt": "vertical $30$ metres and horizontal $75$ metres",
+     "type": "ratio",
+     "answer": "2:5",
+     "simplest": true
+    },
+    {
+     "id": "q16b",
+     "label": "16b",
+     "section": "Enrichment",
+     "stem": "The steepness of a slope can be written as the ratio of vertical distance to horizontal distance. A slope of $1 : 4$ means that for every $1$ metre up, you travel $4$ metres across. Write each slope as a ratio in simplest form.",
+     "prompt": "vertical $160$ metres and horizontal $40$ metres",
+     "type": "ratio",
+     "answer": "4:1",
+     "simplest": true
+    },
+    {
+     "id": "q16c",
+     "label": "16c",
+     "section": "Enrichment",
+     "stem": "The steepness of a slope can be written as the ratio of vertical distance to horizontal distance. A slope of $1 : 4$ means that for every $1$ metre up, you travel $4$ metres across. A slope has a ratio of $3 : 8$.",
+     "prompt": "Find the horizontal distance if the vertical distance is $15$ metres.",
+     "type": "numeric",
+     "answer": "40",
+     "units": "metres"
+    },
+    {
+     "id": "q16d",
+     "label": "16d",
+     "section": "Enrichment",
+     "stem": "The steepness of a slope can be written as the ratio of vertical distance to horizontal distance. A slope of $1 : 4$ means that for every $1$ metre up, you travel $4$ metres across. A slope has a ratio of $3 : 8$.",
+     "prompt": "Find the vertical distance if the horizontal distance is $56$ km.",
+     "type": "numeric",
+     "answer": "21",
+     "units": "km"
+    },
+    {
+     "id": "q16e",
+     "label": "16e",
+     "section": "Enrichment",
+     "stem": "The steepness of a slope can be written as the ratio of vertical distance to horizontal distance. A slope of $1 : 4$ means that for every $1$ metre up, you travel $4$ metres across.",
+     "prompt": "What is the slope ratio, in simplest form, if you climb $15\\frac{1}{2}$ metres vertically while travelling $4\\frac{1}{2}$ metres horizontally?",
+     "type": "ratio",
+     "answer": "31:9",
+     "simplest": true
+    }
+   ]
   }
  ]
 };

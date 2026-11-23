@@ -447,3 +447,14 @@ textarea, .small-input { width: 100%; font: 15px/1.4 var(--f-mono); color: var(-
 .fig-table th, .fig-table td { border: 1px solid var(--line); padding: 7px 12px; text-align: center; min-width: 2.6em; }
 .fig-table th { font: 700 13px var(--f-body); color: var(--muted); background: var(--paper); text-align: left; }
 .fig-table td.gap { color: var(--h3-green); background: color-mix(in srgb, var(--h3-green) 10%, var(--surface)); }
+
+/* Fraction pictures (figures.js): pies, bars, grids and number lines. Several
+   figures on one question sit side by side, each with an optional caption. */
+.qfig:has(.fig-frac) { display: flex; flex-wrap: wrap; gap: 14px 22px; align-items: flex-end; }
+.fig-frac { margin: 0; display: grid; justify-items: center; gap: 4px; max-width: 100%; }
+.fig-frac svg { max-width: 100%; height: auto; }
+.fig-frac figcaption { font: 800 14px var(--f-display); color: var(--muted); }
+.fg-on { fill: color-mix(in srgb, var(--h3-green) 55%, var(--surface)); stroke: var(--ink); stroke-width: 1.5; }
+.fg-off { fill: var(--surface); stroke: var(--ink); stroke-width: 1.5; }
+.fg-grid-dark { stroke: var(--muted); stroke-width: 1.5; }
+.fg-dotred { fill: var(--brand-red); }
