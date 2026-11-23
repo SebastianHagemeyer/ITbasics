@@ -39,6 +39,9 @@
       }
       ch.sets.push(s);
     });
+    // Chapter order follows the chapter number, not where a chapter sits in bank.js,
+    // so a chapter written later still lands in its place. Sets keep their bank order.
+    out.sort(function (a, b) { return (parseInt(a.id, 10) || 999) - (parseInt(b.id, 10) || 999); });
     return out;
   }
 

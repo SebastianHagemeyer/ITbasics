@@ -227,10 +227,13 @@ const Checker = (() => {
     if (!st.plain && !q.allowExpr) return { correct: false, reason: 'not a number' };
     const ex = toNumber(expectedRaw);
     if (!ex.ok) return { correct: false, reason: 'bad key' };
+    // A % on one side only means "this many hundredths", so 25% can match 0.25 (and a
+    // bare 25 can match 25%). When both sides have %, compare them directly: otherwise
+    // 0.6% would slip through as equal to 60% (0.6 against 60 / 100).
     const candidates = [st.v];
-    if (st.percent) candidates.push(st.v / 100);
+    if (st.percent && !ex.percent) candidates.push(st.v / 100);
     const targets = [ex.v];
-    if (ex.percent) targets.push(ex.v / 100);
+    if (ex.percent && !st.percent) targets.push(ex.v / 100);
     let ok = false;
     for (const c of candidates) for (const t of targets) {
       if (q.dp != null) {
@@ -532,6 +535,11 @@ const Checker = (() => {
         case 'point':
           return keys.reduce((r, k) => r.correct ? r : listMatch(q, raw, Array.isArray(k) ? k : String(k).replace(/^\(|\)$/g, '').split(','), true), { correct: false });
         case 'expression': {
+          // "Write an equation" questions: the solved form (t = 27) is equivalent to the
+          // equation, but it is not what was asked. Reject a bare "letter = number" unless
+          // the key itself is one.
+          const solvedForm = (s) => /^\s*[a-z]\s*=\s*-?[\d.\s/]+$|^\s*-?[\d.\s/]+=\s*[a-z]\s*$/i.test(clean(String(s)));
+          if (keys.some(k => String(k).includes('=')) && solvedForm(raw) && !keys.some(solvedForm)) return { correct: false, reason: 'write the equation' };
           let last = { correct: false };
           for (const k of keys) { last = expressionMatch(q, raw, String(k)); if (last.correct) return last; }
           return last;

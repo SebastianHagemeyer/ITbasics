@@ -222,6 +222,7 @@
     'use decimal': 'Write it as a decimal, e.g. 0.75.',
     'use percent': 'Write it as a percentage, with the % sign, e.g. 75%.',
     'use ratio': 'Write it as a ratio with a colon, e.g. 3:4.',
+    'write the equation': 'Write the equation from the question (with the letter in it), not its solution.',
     'ratio not simplest': 'Simplify the ratio: whole numbers with no common factor, e.g. 3:4.',
   };
 
