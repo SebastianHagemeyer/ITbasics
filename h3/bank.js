@@ -312,6 +312,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "1b-digit",
      "label": "1a",
      "section": "Fluency",
      "stem": "Write down the place value of the digit 6 in these numbers. (You can write it as a number, e.g. 600, or in words, e.g. hundreds.)",
@@ -321,6 +322,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "1b-digit",
      "label": "1b",
      "section": "Fluency",
      "stem": "Write down the place value of the digit 6 in these numbers. (You can write it as a number, e.g. 600, or in words, e.g. hundreds.)",
@@ -330,6 +332,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1c",
+     "help": "1b-digit",
      "label": "1c",
      "section": "Fluency",
      "stem": "Write down the place value of the digit 6 in these numbers. (You can write it as a number, e.g. 600, or in words, e.g. hundreds.)",
@@ -339,6 +342,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1d",
+     "help": "1b-digit",
      "label": "1d",
      "section": "Fluency",
      "stem": "Write down the place value of the digit 6 in these numbers. (You can write it as a number, e.g. 600, or in words, e.g. hundreds.)",
@@ -348,6 +352,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1e",
+     "help": "1b-digit",
      "label": "1e",
      "section": "Fluency",
      "stem": "Write down the place value of the digit 6 in these numbers. (You can write it as a number, e.g. 600, or in words, e.g. hundreds.)",
@@ -357,6 +362,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "1b-digit",
      "label": "2a",
      "section": "Fluency",
      "stem": "Write down the place value of the digit 3 in these numbers.",
@@ -366,6 +372,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "1b-digit",
      "label": "2b",
      "section": "Fluency",
      "stem": "Write down the place value of the digit 3 in these numbers.",
@@ -375,6 +382,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "1b-digit",
      "label": "2c",
      "section": "Fluency",
      "stem": "Write down the place value of the digit 3 in these numbers.",
@@ -384,6 +392,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "1b-digit",
      "label": "2d",
      "section": "Fluency",
      "stem": "Write down the place value of the digit 3 in these numbers.",
@@ -393,6 +402,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "1b-expand",
      "label": "3a",
      "section": "Fluency",
      "stem": "Write these numbers in expanded form, e.g. 352 = 3 × 100 + 5 × 10 + 2 × 1.",
@@ -403,6 +413,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "1b-expand",
      "label": "3b",
      "section": "Fluency",
      "stem": "Write these numbers in expanded form, e.g. 352 = 3 × 100 + 5 × 10 + 2 × 1.",
@@ -413,6 +424,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "1b-expand",
      "label": "3c",
      "section": "Fluency",
      "stem": "Write these numbers in expanded form, e.g. 352 = 3 × 100 + 5 × 10 + 2 × 1.",
@@ -423,6 +435,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3d",
+     "help": "1b-expand",
      "label": "3d",
      "section": "Fluency",
      "stem": "Write these numbers in expanded form, e.g. 352 = 3 × 100 + 5 × 10 + 2 × 1.",
@@ -433,6 +446,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3e",
+     "help": "1b-expand",
      "label": "3e",
      "section": "Fluency",
      "stem": "Write these numbers in expanded form, e.g. 352 = 3 × 100 + 5 × 10 + 2 × 1.",
@@ -443,6 +457,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3f",
+     "help": "1b-expand",
      "label": "3f",
      "section": "Fluency",
      "stem": "Write these numbers in expanded form, e.g. 352 = 3 × 100 + 5 × 10 + 2 × 1.",
@@ -453,6 +468,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "1b-expand",
      "label": "4a",
      "section": "Fluency",
      "stem": "Write these numbers in expanded form using index notation, e.g. 3080 = 3 × 10³ + 8 × 10¹.",
@@ -464,6 +480,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "1b-expand",
      "label": "4b",
      "section": "Fluency",
      "stem": "Write these numbers in expanded form using index notation, e.g. 3080 = 3 × 10³ + 8 × 10¹.",
@@ -475,6 +492,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "1b-expand",
      "label": "4c",
      "section": "Fluency",
      "stem": "Write these numbers in expanded form using index notation, e.g. 3080 = 3 × 10³ + 8 × 10¹.",
@@ -486,6 +504,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "1b-expand",
      "label": "4d",
      "section": "Fluency",
      "stem": "Write these numbers in expanded form using index notation, e.g. 3080 = 3 × 10³ + 8 × 10¹.",
@@ -497,6 +516,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4e",
+     "help": "1b-expand",
      "label": "4e",
      "section": "Fluency",
      "stem": "Write these numbers in expanded form using index notation, e.g. 3080 = 3 × 10³ + 8 × 10¹.",
@@ -508,6 +528,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4f",
+     "help": "1b-expand",
      "label": "4f",
      "section": "Fluency",
      "stem": "Write these numbers in expanded form using index notation, e.g. 3080 = 3 × 10³ + 8 × 10¹.",
@@ -519,6 +540,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "1b-numeral",
      "label": "5a",
      "section": "Fluency",
      "stem": "Write these numbers, given in expanded form, as a basic numeral.",
@@ -528,6 +550,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "1b-numeral",
      "label": "5b",
      "section": "Fluency",
      "stem": "Write these numbers, given in expanded form, as a basic numeral.",
@@ -537,6 +560,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "1b-numeral",
      "label": "5c",
      "section": "Fluency",
      "stem": "Write these numbers, given in expanded form, as a basic numeral.",
@@ -546,6 +570,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5d",
+     "help": "1b-numeral",
      "label": "5d",
      "section": "Fluency",
      "stem": "Write these numbers, given in expanded form, as a basic numeral.",
@@ -555,6 +580,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5e",
+     "help": "1b-numeral",
      "label": "5e",
      "section": "Fluency",
      "stem": "Write these numbers, given in expanded form, as a basic numeral.",
@@ -564,6 +590,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5f",
+     "help": "1b-numeral",
      "label": "5f",
      "section": "Fluency",
      "stem": "Write these numbers, given in expanded form, as a basic numeral.",
@@ -573,6 +600,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6a",
+     "help": "1b-order",
      "label": "6a",
      "section": "Problem-solving",
      "stem": "Arrange these numbers from smallest to largest. Separate them with commas.",
@@ -587,6 +615,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6b",
+     "help": "1b-order",
      "label": "6b",
      "section": "Problem-solving",
      "stem": "Arrange these numbers from smallest to largest. Separate them with commas.",
@@ -602,6 +631,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6c",
+     "help": "1b-order",
      "label": "6c",
      "section": "Problem-solving",
      "stem": "Arrange these numbers from smallest to largest. Separate them with commas.",
@@ -616,6 +646,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6d",
+     "help": "1b-order",
      "label": "6d",
      "section": "Problem-solving",
      "stem": "Arrange these numbers from smallest to largest. Separate them with commas.",
@@ -632,6 +663,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6e",
+     "help": "1b-order",
      "label": "6e",
      "section": "Problem-solving",
      "stem": "Arrange these numbers from smallest to largest. Separate them with commas.",
@@ -646,6 +678,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6f",
+     "help": "1b-order",
      "label": "6f",
      "section": "Problem-solving",
      "stem": "Arrange these numbers from smallest to largest. Separate them with commas.",
@@ -661,6 +694,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7a",
+     "help": "1b-count",
      "label": "7a",
      "section": "Problem-solving",
      "stem": "How many different numbers can be made using all of the given digits? Each digit is used exactly once.",
@@ -670,6 +704,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7b",
+     "help": "1b-count",
      "label": "7b",
      "section": "Problem-solving",
      "stem": "How many different numbers can be made using all of the given digits? Each digit is used exactly once.",
@@ -679,6 +714,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7c",
+     "help": "1b-count",
      "label": "7c",
      "section": "Problem-solving",
      "stem": "How many different numbers can be made using all of the given digits? Each digit is used exactly once.",
@@ -688,6 +724,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8",
+     "help": "1b-count",
      "label": "8",
      "section": "Problem-solving",
      "stem": null,
@@ -697,6 +734,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9a",
+     "help": "1b-letters",
      "label": "9a",
      "section": "Reasoning",
      "stem": "The letters represent the digits of a number. Write each one in expanded form. For example, 4M1 means 4 × 100 + M × 10 + 1 × 1.",
@@ -706,6 +744,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9b",
+     "help": "1b-letters",
      "label": "9b",
      "section": "Reasoning",
      "stem": "The letters represent the digits of a number. Write each one in expanded form. For example, 4M1 means 4 × 100 + M × 10 + 1 × 1.",
@@ -715,6 +754,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9c",
+     "help": "1b-letters",
      "label": "9c",
      "section": "Reasoning",
      "stem": "The letters represent the digits of a number. Write each one in expanded form. For example, 4M1 means 4 × 100 + M × 10 + 1 × 1.",
@@ -724,6 +764,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10a",
+     "help": "1b-power",
      "label": "10a",
      "section": "Enrichment",
      "stem": "Write these numbers as basic numerals.",
@@ -733,6 +774,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10b",
+     "help": "1b-power",
      "label": "10b",
      "section": "Enrichment",
      "stem": "Write these numbers as basic numerals.",
@@ -742,6 +784,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10c",
+     "help": "1b-power",
      "label": "10c",
      "section": "Enrichment",
      "stem": "Write these numbers as basic numerals.",
@@ -759,6 +802,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "1c-partition",
      "label": "1a",
      "section": "Fluency",
      "stem": "Mentally find the answers to these sums. (Hint: Use the partitioning strategy.)",
@@ -768,6 +812,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "1c-partition",
      "label": "1b",
      "section": "Fluency",
      "stem": "Mentally find the answers to these sums. (Hint: Use the partitioning strategy.)",
@@ -777,6 +822,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1c",
+     "help": "1c-partition",
      "label": "1c",
      "section": "Fluency",
      "stem": "Mentally find the answers to these sums. (Hint: Use the partitioning strategy.)",
@@ -786,6 +832,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1d",
+     "help": "1c-partition",
      "label": "1d",
      "section": "Fluency",
      "stem": "Mentally find the answers to these sums. (Hint: Use the partitioning strategy.)",
@@ -795,6 +842,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1e",
+     "help": "1c-partition",
      "label": "1e",
      "section": "Fluency",
      "stem": "Mentally find the answers to these sums. (Hint: Use the partitioning strategy.)",
@@ -804,6 +852,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1f",
+     "help": "1c-partition",
      "label": "1f",
      "section": "Fluency",
      "stem": "Mentally find the answers to these sums. (Hint: Use the partitioning strategy.)",
@@ -813,6 +862,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "1c-partition",
      "label": "2a",
      "section": "Fluency",
      "stem": "Mentally find the answers to these differences. (Hint: Use the partitioning strategy.)",
@@ -822,6 +872,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "1c-partition",
      "label": "2b",
      "section": "Fluency",
      "stem": "Mentally find the answers to these differences. (Hint: Use the partitioning strategy.)",
@@ -831,6 +882,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "1c-partition",
      "label": "2c",
      "section": "Fluency",
      "stem": "Mentally find the answers to these differences. (Hint: Use the partitioning strategy.)",
@@ -840,6 +892,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "1c-partition",
      "label": "2d",
      "section": "Fluency",
      "stem": "Mentally find the answers to these differences. (Hint: Use the partitioning strategy.)",
@@ -849,6 +902,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2e",
+     "help": "1c-partition",
      "label": "2e",
      "section": "Fluency",
      "stem": "Mentally find the answers to these differences. (Hint: Use the partitioning strategy.)",
@@ -858,6 +912,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2f",
+     "help": "1c-partition",
      "label": "2f",
      "section": "Fluency",
      "stem": "Mentally find the answers to these differences. (Hint: Use the partitioning strategy.)",
@@ -867,6 +922,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "1c-compensate",
      "label": "3a",
      "section": "Fluency",
      "stem": "Mentally find the answers to these sums. (Hint: Use the compensating strategy.)",
@@ -876,6 +932,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "1c-compensate",
      "label": "3b",
      "section": "Fluency",
      "stem": "Mentally find the answers to these sums. (Hint: Use the compensating strategy.)",
@@ -885,6 +942,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "1c-compensate",
      "label": "3c",
      "section": "Fluency",
      "stem": "Mentally find the answers to these sums. (Hint: Use the compensating strategy.)",
@@ -894,6 +952,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3d",
+     "help": "1c-compensate",
      "label": "3d",
      "section": "Fluency",
      "stem": "Mentally find the answers to these sums. (Hint: Use the compensating strategy.)",
@@ -903,6 +962,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3e",
+     "help": "1c-compensate",
      "label": "3e",
      "section": "Fluency",
      "stem": "Mentally find the answers to these sums. (Hint: Use the compensating strategy.)",
@@ -912,6 +972,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3f",
+     "help": "1c-compensate",
      "label": "3f",
      "section": "Fluency",
      "stem": "Mentally find the answers to these sums. (Hint: Use the compensating strategy.)",
@@ -921,6 +982,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "1c-compensate",
      "label": "4a",
      "section": "Fluency",
      "stem": "Mentally find the answers to these differences. (Hint: Use the compensating strategy.)",
@@ -930,6 +992,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "1c-compensate",
      "label": "4b",
      "section": "Fluency",
      "stem": "Mentally find the answers to these differences. (Hint: Use the compensating strategy.)",
@@ -939,6 +1002,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "1c-compensate",
      "label": "4c",
      "section": "Fluency",
      "stem": "Mentally find the answers to these differences. (Hint: Use the compensating strategy.)",
@@ -948,6 +1012,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "1c-compensate",
      "label": "4d",
      "section": "Fluency",
      "stem": "Mentally find the answers to these differences. (Hint: Use the compensating strategy.)",
@@ -957,6 +1022,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4e",
+     "help": "1c-compensate",
      "label": "4e",
      "section": "Fluency",
      "stem": "Mentally find the answers to these differences. (Hint: Use the compensating strategy.)",
@@ -966,6 +1032,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4f",
+     "help": "1c-compensate",
      "label": "4f",
      "section": "Fluency",
      "stem": "Mentally find the answers to these differences. (Hint: Use the compensating strategy.)",
@@ -975,6 +1042,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "1c-double",
      "label": "5a",
      "section": "Fluency",
      "stem": "Mentally find the answers to these sums and differences. (Hint: Use the doubling or halving strategy.)",
@@ -984,6 +1052,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "1c-double",
      "label": "5b",
      "section": "Fluency",
      "stem": "Mentally find the answers to these sums and differences. (Hint: Use the doubling or halving strategy.)",
@@ -993,6 +1062,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "1c-double",
      "label": "5c",
      "section": "Fluency",
      "stem": "Mentally find the answers to these sums and differences. (Hint: Use the doubling or halving strategy.)",
@@ -1002,6 +1072,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5d",
+     "help": "1c-double",
      "label": "5d",
      "section": "Fluency",
      "stem": "Mentally find the answers to these sums and differences. (Hint: Use the doubling or halving strategy.)",
@@ -1011,6 +1082,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5e",
+     "help": "1c-double",
      "label": "5e",
      "section": "Fluency",
      "stem": "Mentally find the answers to these sums and differences. (Hint: Use the doubling or halving strategy.)",
@@ -1020,6 +1092,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5f",
+     "help": "1c-double",
      "label": "5f",
      "section": "Fluency",
      "stem": "Mentally find the answers to these sums and differences. (Hint: Use the doubling or halving strategy.)",
@@ -1029,6 +1102,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6a",
+     "help": "1c-mixed",
      "label": "6a",
      "section": "Fluency",
      "stem": "Mentally find the answers to these mixed problems.",
@@ -1038,6 +1112,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6b",
+     "help": "1c-mixed",
      "label": "6b",
      "section": "Fluency",
      "stem": "Mentally find the answers to these mixed problems.",
@@ -1047,6 +1122,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6c",
+     "help": "1c-mixed",
      "label": "6c",
      "section": "Fluency",
      "stem": "Mentally find the answers to these mixed problems.",
@@ -1056,6 +1132,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6d",
+     "help": "1c-mixed",
      "label": "6d",
      "section": "Fluency",
      "stem": "Mentally find the answers to these mixed problems.",
@@ -1065,6 +1142,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6e",
+     "help": "1c-mixed",
      "label": "6e",
      "section": "Fluency",
      "stem": "Mentally find the answers to these mixed problems.",
@@ -1074,6 +1152,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6f",
+     "help": "1c-mixed",
      "label": "6f",
      "section": "Fluency",
      "stem": "Mentally find the answers to these mixed problems.",
@@ -1083,6 +1162,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6g",
+     "help": "1c-mixed",
      "label": "6g",
      "section": "Fluency",
      "stem": "Mentally find the answers to these mixed problems.",
@@ -1092,6 +1172,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6h",
+     "help": "1c-mixed",
      "label": "6h",
      "section": "Fluency",
      "stem": "Mentally find the answers to these mixed problems.",
@@ -1101,6 +1182,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6i",
+     "help": "1c-mixed",
      "label": "6i",
      "section": "Fluency",
      "stem": "Mentally find the answers to these mixed problems.",
@@ -1110,6 +1192,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7",
+     "help": "1c-word",
      "label": "7",
      "section": "Problem-solving",
      "stem": null,
@@ -1120,6 +1203,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8",
+     "help": "1c-word",
      "label": "8",
      "section": "Problem-solving",
      "stem": null,
@@ -1129,6 +1213,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9",
+     "help": "1c-word",
      "label": "9",
      "section": "Problem-solving",
      "stem": null,
@@ -1138,6 +1223,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10",
+     "help": "1c-word",
      "label": "10",
      "section": "Problem-solving",
      "stem": null,
@@ -1147,6 +1233,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11",
+     "help": "1c-word",
      "label": "11",
      "section": "Problem-solving",
      "stem": null,
@@ -1156,6 +1243,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12a",
+     "help": "1c-letters",
      "label": "12a",
      "section": "Reasoning",
      "stem": "The letters represent numbers. Fill in the missing letter.",
@@ -1165,6 +1253,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12b",
+     "help": "1c-letters",
      "label": "12b",
      "section": "Reasoning",
      "stem": "The letters represent numbers. Fill in the missing letter.",
@@ -1174,6 +1263,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13",
+     "help": "sum-diff",
      "label": "13",
      "section": "Enrichment",
      "stem": null,
@@ -1194,6 +1284,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "1d-add",
      "label": "1a",
      "section": "Fluency",
      "stem": "Give the result for each of these sums.",
@@ -1203,6 +1294,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "1d-add",
      "label": "1b",
      "section": "Fluency",
      "stem": "Give the result for each of these sums.",
@@ -1212,6 +1304,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "1d-add",
      "label": "2a",
      "section": "Fluency",
      "stem": "Give the answer to each of these sums. Check your answer with a calculator.",
@@ -1221,6 +1314,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "1d-add",
      "label": "2b",
      "section": "Fluency",
      "stem": "Give the answer to each of these sums. Check your answer with a calculator.",
@@ -1230,6 +1324,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "1d-add",
      "label": "2c",
      "section": "Fluency",
      "stem": "Give the answer to each of these sums. Check your answer with a calculator.",
@@ -1239,6 +1334,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "1d-add",
      "label": "2d",
      "section": "Fluency",
      "stem": "Give the answer to each of these sums. Check your answer with a calculator.",
@@ -1248,6 +1344,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2e",
+     "help": "1d-add",
      "label": "2e",
      "section": "Fluency",
      "stem": "Give the answer to each of these sums. Check your answer with a calculator.",
@@ -1257,6 +1354,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2f",
+     "help": "1d-add",
      "label": "2f",
      "section": "Fluency",
      "stem": "Give the answer to each of these sums. Check your answer with a calculator.",
@@ -1266,6 +1364,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2g",
+     "help": "1d-add",
      "label": "2g",
      "section": "Fluency",
      "stem": "Give the answer to each of these sums. Check your answer with a calculator.",
@@ -1275,6 +1374,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2h",
+     "help": "1d-add",
      "label": "2h",
      "section": "Fluency",
      "stem": "Give the answer to each of these sums. Check your answer with a calculator.",
@@ -1284,6 +1384,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "1d-add",
      "label": "3a",
      "section": "Fluency",
      "stem": "Show your working to find the result for each of these sums.",
@@ -1293,6 +1394,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "1d-add",
      "label": "3b",
      "section": "Fluency",
      "stem": "Show your working to find the result for each of these sums.",
@@ -1302,6 +1404,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "1d-add",
      "label": "3c",
      "section": "Fluency",
      "stem": "Show your working to find the result for each of these sums.",
@@ -1311,6 +1414,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3d",
+     "help": "1d-add",
      "label": "3d",
      "section": "Fluency",
      "stem": "Show your working to find the result for each of these sums.",
@@ -1320,6 +1424,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "1d-add",
      "label": "4a",
      "section": "Fluency",
      "stem": "Give the result for each of these sums.",
@@ -1329,6 +1434,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "1d-add",
      "label": "4b",
      "section": "Fluency",
      "stem": "Give the result for each of these sums.",
@@ -1338,6 +1444,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "1d-add",
      "label": "4c",
      "section": "Fluency",
      "stem": "Give the result for each of these sums.",
@@ -1347,6 +1454,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "1d-add",
      "label": "4d",
      "section": "Fluency",
      "stem": "Give the result for each of these sums.",
@@ -1356,6 +1464,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4e",
+     "help": "1d-add",
      "label": "4e",
      "section": "Fluency",
      "stem": "Give the result for each of these sums.",
@@ -1365,6 +1474,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4f",
+     "help": "1d-add",
      "label": "4f",
      "section": "Fluency",
      "stem": "Give the result for each of these sums.",
@@ -1374,6 +1484,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "1d-sub",
      "label": "5a",
      "section": "Fluency",
      "stem": "Find the answers to these differences. Check your answer with a calculator.",
@@ -1383,6 +1494,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "1d-sub",
      "label": "5b",
      "section": "Fluency",
      "stem": "Find the answers to these differences. Check your answer with a calculator.",
@@ -1392,6 +1504,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "1d-sub",
      "label": "5c",
      "section": "Fluency",
      "stem": "Find the answers to these differences. Check your answer with a calculator.",
@@ -1401,6 +1514,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5d",
+     "help": "1d-sub",
      "label": "5d",
      "section": "Fluency",
      "stem": "Find the answers to these differences. Check your answer with a calculator.",
@@ -1410,6 +1524,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5e",
+     "help": "1d-sub",
      "label": "5e",
      "section": "Fluency",
      "stem": "Find the answers to these differences. Check your answer with a calculator.",
@@ -1419,6 +1534,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5f",
+     "help": "1d-sub",
      "label": "5f",
      "section": "Fluency",
      "stem": "Find the answers to these differences. Check your answer with a calculator.",
@@ -1428,6 +1544,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5g",
+     "help": "1d-sub",
      "label": "5g",
      "section": "Fluency",
      "stem": "Find the answers to these differences. Check your answer with a calculator.",
@@ -1437,6 +1554,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5h",
+     "help": "1d-sub",
      "label": "5h",
      "section": "Fluency",
      "stem": "Find the answers to these differences. Check your answer with a calculator.",
@@ -1446,6 +1564,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6a",
+     "help": "1d-sub",
      "label": "6a",
      "section": "Fluency",
      "stem": "Show your working to find the answer to each of these differences.",
@@ -1455,6 +1574,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6b",
+     "help": "1d-sub",
      "label": "6b",
      "section": "Fluency",
      "stem": "Show your working to find the answer to each of these differences.",
@@ -1464,6 +1584,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6c",
+     "help": "1d-sub",
      "label": "6c",
      "section": "Fluency",
      "stem": "Show your working to find the answer to each of these differences.",
@@ -1473,6 +1594,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6d",
+     "help": "1d-sub",
      "label": "6d",
      "section": "Fluency",
      "stem": "Show your working to find the answer to each of these differences.",
@@ -1482,6 +1604,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7",
+     "help": "1d-word",
      "label": "7",
      "section": "Problem-solving",
      "stem": null,
@@ -1491,6 +1614,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8",
+     "help": "1d-word",
      "label": "8",
      "section": "Problem-solving",
      "stem": null,
@@ -1501,6 +1625,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9a",
+     "help": "1d-word",
      "label": "9a",
      "section": "Problem-solving",
      "stem": "Two towns have populations of 1638 and 1795.",
@@ -1510,6 +1635,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9b",
+     "help": "1d-word",
      "label": "9b",
      "section": "Problem-solving",
      "stem": "Two towns have populations of 1638 and 1795.",
@@ -1519,6 +1645,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10a",
+     "help": "1d-mixed",
      "label": "10a",
      "section": "Reasoning",
      "stem": "Work out the answer to these problems.",
@@ -1528,6 +1655,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10b",
+     "help": "1d-mixed",
      "label": "10b",
      "section": "Reasoning",
      "stem": "Work out the answer to these problems.",
@@ -1537,6 +1665,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11",
+     "help": "sum-diff",
      "label": "11",
      "section": "Enrichment",
      "stem": null,
@@ -1557,6 +1686,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "1e-tables",
      "label": "1a",
      "section": "Fluency",
      "stem": "Using your knowledge of multiplication tables, give the answer to these products.",
@@ -1566,6 +1696,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "1e-tables",
      "label": "1b",
      "section": "Fluency",
      "stem": "Using your knowledge of multiplication tables, give the answer to these products.",
@@ -1575,6 +1706,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1c",
+     "help": "1e-tables",
      "label": "1c",
      "section": "Fluency",
      "stem": "Using your knowledge of multiplication tables, give the answer to these products.",
@@ -1584,6 +1716,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1d",
+     "help": "1e-tables",
      "label": "1d",
      "section": "Fluency",
      "stem": "Using your knowledge of multiplication tables, give the answer to these products.",
@@ -1593,6 +1726,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1e",
+     "help": "1e-tables",
      "label": "1e",
      "section": "Fluency",
      "stem": "Using your knowledge of multiplication tables, give the answer to these products.",
@@ -1602,6 +1736,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1f",
+     "help": "1e-tables",
      "label": "1f",
      "section": "Fluency",
      "stem": "Using your knowledge of multiplication tables, give the answer to these products.",
@@ -1611,6 +1746,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1g",
+     "help": "1e-tables",
      "label": "1g",
      "section": "Fluency",
      "stem": "Using your knowledge of multiplication tables, give the answer to these products.",
@@ -1620,6 +1756,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1h",
+     "help": "1e-tables",
      "label": "1h",
      "section": "Fluency",
      "stem": "Using your knowledge of multiplication tables, give the answer to these products.",
@@ -1629,6 +1766,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "1e-distrib",
      "label": "2a",
      "section": "Fluency",
      "stem": "Find the results to these products mentally. (Hint: Use the distributive law with addition for a to d and with subtraction for e to h.)",
@@ -1638,6 +1776,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "1e-distrib",
      "label": "2b",
      "section": "Fluency",
      "stem": "Find the results to these products mentally. (Hint: Use the distributive law with addition for a to d and with subtraction for e to h.)",
@@ -1647,6 +1786,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "1e-distrib",
      "label": "2c",
      "section": "Fluency",
      "stem": "Find the results to these products mentally. (Hint: Use the distributive law with addition for a to d and with subtraction for e to h.)",
@@ -1656,6 +1796,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "1e-distrib",
      "label": "2d",
      "section": "Fluency",
      "stem": "Find the results to these products mentally. (Hint: Use the distributive law with addition for a to d and with subtraction for e to h.)",
@@ -1665,6 +1806,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2e",
+     "help": "1e-distrib",
      "label": "2e",
      "section": "Fluency",
      "stem": "Find the results to these products mentally. (Hint: Use the distributive law with addition for a to d and with subtraction for e to h.)",
@@ -1674,6 +1816,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2f",
+     "help": "1e-distrib",
      "label": "2f",
      "section": "Fluency",
      "stem": "Find the results to these products mentally. (Hint: Use the distributive law with addition for a to d and with subtraction for e to h.)",
@@ -1683,6 +1826,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2g",
+     "help": "1e-distrib",
      "label": "2g",
      "section": "Fluency",
      "stem": "Find the results to these products mentally. (Hint: Use the distributive law with addition for a to d and with subtraction for e to h.)",
@@ -1692,6 +1836,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2h",
+     "help": "1e-distrib",
      "label": "2h",
      "section": "Fluency",
      "stem": "Find the results to these products mentally. (Hint: Use the distributive law with addition for a to d and with subtraction for e to h.)",
@@ -1701,6 +1846,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "1e-double",
      "label": "3a",
      "section": "Fluency",
      "stem": "Find the answer to these products mentally. (Hint: Use the double and halve strategy, or split a number into factors.)",
@@ -1710,6 +1856,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "1e-double",
      "label": "3b",
      "section": "Fluency",
      "stem": "Find the answer to these products mentally. (Hint: Use the double and halve strategy, or split a number into factors.)",
@@ -1719,6 +1866,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "1e-double",
      "label": "3c",
      "section": "Fluency",
      "stem": "Find the answer to these products mentally. (Hint: Use the double and halve strategy, or split a number into factors.)",
@@ -1728,6 +1876,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3d",
+     "help": "1e-double",
      "label": "3d",
      "section": "Fluency",
      "stem": "Find the answer to these products mentally. (Hint: Use the double and halve strategy, or split a number into factors.)",
@@ -1737,6 +1886,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "1e-choose",
      "label": "4a",
      "section": "Fluency",
      "stem": "Use a suitable mental strategy to find the answer to each of these products.",
@@ -1746,6 +1896,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "1e-choose",
      "label": "4b",
      "section": "Fluency",
      "stem": "Use a suitable mental strategy to find the answer to each of these products.",
@@ -1755,6 +1906,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "1e-choose",
      "label": "4c",
      "section": "Fluency",
      "stem": "Use a suitable mental strategy to find the answer to each of these products.",
@@ -1764,6 +1916,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "1e-choose",
      "label": "4d",
      "section": "Fluency",
      "stem": "Use a suitable mental strategy to find the answer to each of these products.",
@@ -1773,6 +1926,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4e",
+     "help": "1e-choose",
      "label": "4e",
      "section": "Fluency",
      "stem": "Use a suitable mental strategy to find the answer to each of these products.",
@@ -1782,6 +1936,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "1e-algo",
      "label": "5a",
      "section": "Fluency",
      "stem": "Give the result of each of these products, using the multiplication algorithm.",
@@ -1791,6 +1946,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "1e-algo",
      "label": "5b",
      "section": "Fluency",
      "stem": "Give the result of each of these products, using the multiplication algorithm.",
@@ -1800,6 +1956,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "1e-algo",
      "label": "5c",
      "section": "Fluency",
      "stem": "Give the result of each of these products, using the multiplication algorithm.",
@@ -1809,6 +1966,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5d",
+     "help": "1e-algo",
      "label": "5d",
      "section": "Fluency",
      "stem": "Give the result of each of these products, using the multiplication algorithm.",
@@ -1818,6 +1976,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5e",
+     "help": "1e-algo",
      "label": "5e",
      "section": "Fluency",
      "stem": "Give the result of each of these products, using the multiplication algorithm.",
@@ -1827,6 +1986,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5f",
+     "help": "1e-algo",
      "label": "5f",
      "section": "Fluency",
      "stem": "Give the result of each of these products, using the multiplication algorithm.",
@@ -1836,6 +1996,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5g",
+     "help": "1e-algo",
      "label": "5g",
      "section": "Fluency",
      "stem": "Give the result of each of these products, using the multiplication algorithm.",
@@ -1845,6 +2006,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5h",
+     "help": "1e-algo",
      "label": "5h",
      "section": "Fluency",
      "stem": "Give the result of each of these products, using the multiplication algorithm.",
@@ -1854,6 +2016,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6a",
+     "help": "1e-algo",
      "label": "6a",
      "section": "Fluency",
      "stem": "Find the answer to these products, showing your working.",
@@ -1863,6 +2026,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6b",
+     "help": "1e-algo",
      "label": "6b",
      "section": "Fluency",
      "stem": "Find the answer to these products, showing your working.",
@@ -1872,6 +2036,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6c",
+     "help": "1e-algo",
      "label": "6c",
      "section": "Fluency",
      "stem": "Find the answer to these products, showing your working.",
@@ -1881,6 +2046,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6d",
+     "help": "1e-algo",
      "label": "6d",
      "section": "Fluency",
      "stem": "Find the answer to these products, showing your working.",
@@ -1890,6 +2056,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7",
+     "help": "1e-word",
      "label": "7",
      "section": "Problem-solving",
      "stem": null,
@@ -1900,6 +2067,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8",
+     "help": "1e-word",
      "label": "8",
      "section": "Problem-solving",
      "stem": null,
@@ -1910,6 +2078,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9",
+     "help": "1e-word",
      "label": "9",
      "section": "Problem-solving",
      "stem": null,
@@ -1919,6 +2088,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10a",
+     "help": "1e-word",
      "label": "10a",
      "section": "Problem-solving",
      "stem": "Ben has \\$80 to spend on a picnic. He chooses 6 drinks at \\$3 each, 9 sandwiches at \\$5 each and 12 balloons at 50 cents each.",
@@ -1929,6 +2099,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10b",
+     "help": "1e-word",
      "label": "10b",
      "section": "Problem-solving",
      "stem": "Ben has \\$80 to spend on a picnic. He chooses 6 drinks at \\$3 each, 9 sandwiches at \\$5 each and 12 balloons at 50 cents each.",
@@ -1942,6 +2113,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11a",
+     "help": "1e-single",
      "label": "11a",
      "section": "Reasoning",
      "stem": "Write each of these as a single product. Do not work out the answer. For example, 7 × 30 + 7 × 1 = 7 × 31.",
@@ -1951,6 +2123,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11b",
+     "help": "1e-single",
      "label": "11b",
      "section": "Reasoning",
      "stem": "Write each of these as a single product. Do not work out the answer. For example, 7 × 30 + 7 × 1 = 7 × 31.",
@@ -1960,6 +2133,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11c",
+     "help": "1e-single",
      "label": "11c",
      "section": "Reasoning",
      "stem": "Write each of these as a single product. Do not work out the answer. For example, 7 × 30 + 7 × 1 = 7 × 31.",
@@ -1969,6 +2143,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11d",
+     "help": "1e-single",
      "label": "11d",
      "section": "Reasoning",
      "stem": "Write each of these as a single product. Do not work out the answer. For example, 7 × 30 + 7 × 1 = 7 × 31.",
@@ -1978,6 +2153,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11e",
+     "help": "1e-single",
      "label": "11e",
      "section": "Reasoning",
      "stem": "Write each of these as a single product. Do not work out the answer. For example, 7 × 30 + 7 × 1 = 7 × 31.",
@@ -1987,6 +2163,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11f",
+     "help": "1e-single",
      "label": "11f",
      "section": "Reasoning",
      "stem": "Write each of these as a single product. Do not work out the answer. For example, 7 × 30 + 7 × 1 = 7 × 31.",
@@ -1996,6 +2173,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12",
+     "help": "prod-sum",
      "label": "12",
      "section": "Enrichment",
      "stem": null,
@@ -2016,6 +2194,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "1f-10s",
      "label": "1a",
      "section": "Fluency",
      "stem": "Give the result for each of these products.",
@@ -2025,6 +2204,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "1f-10s",
      "label": "1b",
      "section": "Fluency",
      "stem": "Give the result for each of these products.",
@@ -2034,6 +2214,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1c",
+     "help": "1f-10s",
      "label": "1c",
      "section": "Fluency",
      "stem": "Give the result for each of these products.",
@@ -2043,6 +2224,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1d",
+     "help": "1f-10s",
      "label": "1d",
      "section": "Fluency",
      "stem": "Give the result for each of these products.",
@@ -2052,6 +2234,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1e",
+     "help": "1f-10s",
      "label": "1e",
      "section": "Fluency",
      "stem": "Give the result for each of these products.",
@@ -2061,6 +2244,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1f",
+     "help": "1f-10s",
      "label": "1f",
      "section": "Fluency",
      "stem": "Give the result for each of these products.",
@@ -2070,6 +2254,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1g",
+     "help": "1f-10s",
      "label": "1g",
      "section": "Fluency",
      "stem": "Give the result for each of these products.",
@@ -2079,6 +2264,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1h",
+     "help": "1f-10s",
      "label": "1h",
      "section": "Fluency",
      "stem": "Give the result for each of these products.",
@@ -2088,6 +2274,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "1f-tens",
      "label": "2a",
      "section": "Fluency",
      "stem": "Give the result for each of these products.",
@@ -2097,6 +2284,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "1f-tens",
      "label": "2b",
      "section": "Fluency",
      "stem": "Give the result for each of these products.",
@@ -2106,6 +2294,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "1f-tens",
      "label": "2c",
      "section": "Fluency",
      "stem": "Give the result for each of these products.",
@@ -2115,6 +2304,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "1f-tens",
      "label": "2d",
      "section": "Fluency",
      "stem": "Give the result for each of these products.",
@@ -2124,6 +2314,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2e",
+     "help": "1f-tens",
      "label": "2e",
      "section": "Fluency",
      "stem": "Give the result for each of these products.",
@@ -2133,6 +2324,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2f",
+     "help": "1f-tens",
      "label": "2f",
      "section": "Fluency",
      "stem": "Give the result for each of these products.",
@@ -2142,6 +2334,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2g",
+     "help": "1f-tens",
      "label": "2g",
      "section": "Fluency",
      "stem": "Give the result for each of these products.",
@@ -2151,6 +2344,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2h",
+     "help": "1f-tens",
      "label": "2h",
      "section": "Fluency",
      "stem": "Give the result for each of these products.",
@@ -2160,6 +2354,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "1f-long",
      "label": "3a",
      "section": "Fluency",
      "stem": "Use the multiplication algorithm to find these products.",
@@ -2169,6 +2364,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "1f-long",
      "label": "3b",
      "section": "Fluency",
      "stem": "Use the multiplication algorithm to find these products.",
@@ -2178,6 +2374,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "1f-long",
      "label": "3c",
      "section": "Fluency",
      "stem": "Use the multiplication algorithm to find these products.",
@@ -2187,6 +2384,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3d",
+     "help": "1f-long",
      "label": "3d",
      "section": "Fluency",
      "stem": "Use the multiplication algorithm to find these products.",
@@ -2196,6 +2394,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3e",
+     "help": "1f-long",
      "label": "3e",
      "section": "Fluency",
      "stem": "Use the multiplication algorithm to find these products.",
@@ -2205,6 +2404,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3f",
+     "help": "1f-long",
      "label": "3f",
      "section": "Fluency",
      "stem": "Use the multiplication algorithm to find these products.",
@@ -2214,6 +2414,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3g",
+     "help": "1f-long",
      "label": "3g",
      "section": "Fluency",
      "stem": "Use the multiplication algorithm to find these products.",
@@ -2223,6 +2424,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3h",
+     "help": "1f-long",
      "label": "3h",
      "section": "Fluency",
      "stem": "Use the multiplication algorithm to find these products.",
@@ -2232,6 +2434,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4",
+     "help": "1f-word",
      "label": "4",
      "section": "Problem-solving",
      "stem": null,
@@ -2242,6 +2445,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5",
+     "help": "1f-word",
      "label": "5",
      "section": "Problem-solving",
      "stem": null,
@@ -2252,6 +2456,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6",
+     "help": "1f-word",
      "label": "6",
      "section": "Problem-solving",
      "stem": null,
@@ -2262,6 +2467,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7",
+     "help": "1f-word",
      "label": "7",
      "section": "Problem-solving",
      "stem": null,
@@ -2272,6 +2478,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8a",
+     "help": "1f-long",
      "label": "8a",
      "section": "Reasoning",
      "stem": "Use the multiplication algorithm to find these products.",
@@ -2281,6 +2488,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8b",
+     "help": "1f-long",
      "label": "8b",
      "section": "Reasoning",
      "stem": "Use the multiplication algorithm to find these products.",
@@ -2290,6 +2498,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8c",
+     "help": "1f-long",
      "label": "8c",
      "section": "Reasoning",
      "stem": "Use the multiplication algorithm to find these products.",
@@ -2299,6 +2508,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8d",
+     "help": "1f-long",
      "label": "8d",
      "section": "Reasoning",
      "stem": "Use the multiplication algorithm to find these products.",
@@ -2308,6 +2518,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9a",
+     "help": "1f-simplify",
      "label": "9a",
      "section": "Reasoning",
      "stem": "Work out these computations using an effective mental strategy. Look for a way to simplify each one first.",
@@ -2317,6 +2528,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9b",
+     "help": "1f-simplify",
      "label": "9b",
      "section": "Reasoning",
      "stem": "Work out these computations using an effective mental strategy. Look for a way to simplify each one first.",
@@ -2326,6 +2538,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9c",
+     "help": "1f-simplify",
      "label": "9c",
      "section": "Reasoning",
      "stem": "Work out these computations using an effective mental strategy. Look for a way to simplify each one first.",
@@ -2335,6 +2548,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10",
+     "help": "prod-diff",
      "label": "10",
      "section": "Enrichment",
      "stem": null,
@@ -2355,6 +2569,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "1g-tables",
      "label": "1a",
      "section": "Fluency",
      "stem": "Use your knowledge of multiplication tables to find the quotient.",
@@ -2364,6 +2579,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "1g-tables",
      "label": "1b",
      "section": "Fluency",
      "stem": "Use your knowledge of multiplication tables to find the quotient.",
@@ -2373,6 +2589,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1c",
+     "help": "1g-tables",
      "label": "1c",
      "section": "Fluency",
      "stem": "Use your knowledge of multiplication tables to find the quotient.",
@@ -2382,6 +2599,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1d",
+     "help": "1g-tables",
      "label": "1d",
      "section": "Fluency",
      "stem": "Use your knowledge of multiplication tables to find the quotient.",
@@ -2391,6 +2609,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1e",
+     "help": "1g-tables",
      "label": "1e",
      "section": "Fluency",
      "stem": "Use your knowledge of multiplication tables to find the quotient.",
@@ -2400,6 +2619,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1f",
+     "help": "1g-tables",
      "label": "1f",
      "section": "Fluency",
      "stem": "Use your knowledge of multiplication tables to find the quotient.",
@@ -2409,6 +2629,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1g",
+     "help": "1g-tables",
      "label": "1g",
      "section": "Fluency",
      "stem": "Use your knowledge of multiplication tables to find the quotient.",
@@ -2418,6 +2639,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1h",
+     "help": "1g-tables",
      "label": "1h",
      "section": "Fluency",
      "stem": "Use your knowledge of multiplication tables to find the quotient.",
@@ -2427,6 +2649,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "1g-distrib",
      "label": "2a",
      "section": "Fluency",
      "stem": "Find the answer to these using a mental strategy. (Hint: Use the distributive law strategy.)",
@@ -2436,6 +2659,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "1g-distrib",
      "label": "2b",
      "section": "Fluency",
      "stem": "Find the answer to these using a mental strategy. (Hint: Use the distributive law strategy.)",
@@ -2445,6 +2669,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "1g-distrib",
      "label": "2c",
      "section": "Fluency",
      "stem": "Find the answer to these using a mental strategy. (Hint: Use the distributive law strategy.)",
@@ -2454,6 +2679,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "1g-distrib",
      "label": "2d",
      "section": "Fluency",
      "stem": "Find the answer to these using a mental strategy. (Hint: Use the distributive law strategy.)",
@@ -2463,6 +2689,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2e",
+     "help": "1g-distrib",
      "label": "2e",
      "section": "Fluency",
      "stem": "Find the answer to these using a mental strategy. (Hint: Use the distributive law strategy.)",
@@ -2472,6 +2699,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2f",
+     "help": "1g-distrib",
      "label": "2f",
      "section": "Fluency",
      "stem": "Find the answer to these using a mental strategy. (Hint: Use the distributive law strategy.)",
@@ -2481,6 +2709,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2g",
+     "help": "1g-distrib",
      "label": "2g",
      "section": "Fluency",
      "stem": "Find the answer to these using a mental strategy. (Hint: Use the distributive law strategy.)",
@@ -2490,6 +2719,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2h",
+     "help": "1g-distrib",
      "label": "2h",
      "section": "Fluency",
      "stem": "Find the answer to these using a mental strategy. (Hint: Use the distributive law strategy.)",
@@ -2499,6 +2729,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "1g-halve",
      "label": "3a",
      "section": "Fluency",
      "stem": "Find the answers to these using a mental strategy. (Hint: Halve both numbers.)",
@@ -2508,6 +2739,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "1g-halve",
      "label": "3b",
      "section": "Fluency",
      "stem": "Find the answers to these using a mental strategy. (Hint: Halve both numbers.)",
@@ -2517,6 +2749,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "1g-halve",
      "label": "3c",
      "section": "Fluency",
      "stem": "Find the answers to these using a mental strategy. (Hint: Halve both numbers.)",
@@ -2526,6 +2759,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3d",
+     "help": "1g-halve",
      "label": "3d",
      "section": "Fluency",
      "stem": "Find the answers to these using a mental strategy. (Hint: Halve both numbers.)",
@@ -2535,6 +2769,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "1g-01",
      "label": "4a",
      "section": "Fluency",
      "stem": "Write the answers to these divisions, which involve 0s and 1s.",
@@ -2544,6 +2779,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "1g-01",
      "label": "4b",
      "section": "Fluency",
      "stem": "Write the answers to these divisions, which involve 0s and 1s.",
@@ -2553,6 +2789,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "1g-01",
      "label": "4c",
      "section": "Fluency",
      "stem": "Write the answers to these divisions, which involve 0s and 1s.",
@@ -2562,6 +2799,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "1g-01",
      "label": "4d",
      "section": "Fluency",
      "stem": "Write the answers to these divisions, which involve 0s and 1s.",
@@ -2571,6 +2809,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "1g-short",
      "label": "5a",
      "section": "Fluency",
      "stem": "Use the short division algorithm to find the quotient and remainder. Write your answer like 17 r 3.",
@@ -2583,6 +2822,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "1g-short",
      "label": "5b",
      "section": "Fluency",
      "stem": "Use the short division algorithm to find the quotient and remainder. Write your answer like 17 r 3.",
@@ -2595,6 +2835,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "1g-short",
      "label": "5c",
      "section": "Fluency",
      "stem": "Use the short division algorithm to find the quotient and remainder. Write your answer like 17 r 3.",
@@ -2607,6 +2848,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5d",
+     "help": "1g-short",
      "label": "5d",
      "section": "Fluency",
      "stem": "Use the short division algorithm to find the quotient and remainder. Write your answer like 17 r 3.",
@@ -2619,6 +2861,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5e",
+     "help": "1g-short",
      "label": "5e",
      "section": "Fluency",
      "stem": "Use the short division algorithm to find the quotient and remainder. Write your answer like 17 r 3.",
@@ -2631,6 +2874,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5f",
+     "help": "1g-short",
      "label": "5f",
      "section": "Fluency",
      "stem": "Use the short division algorithm to find the quotient and remainder. Write your answer like 17 r 3.",
@@ -2643,6 +2887,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5g",
+     "help": "1g-short",
      "label": "5g",
      "section": "Fluency",
      "stem": "Use the short division algorithm to find the quotient and remainder. Write your answer like 17 r 3.",
@@ -2655,6 +2900,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5h",
+     "help": "1g-short",
      "label": "5h",
      "section": "Fluency",
      "stem": "Use the short division algorithm to find the quotient and remainder. Write your answer like 17 r 3.",
@@ -2667,6 +2913,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6a",
+     "help": "1g-short",
      "label": "6a",
      "section": "Fluency",
      "stem": "Use the short division algorithm to find the quotient and remainder.",
@@ -2679,6 +2926,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6b",
+     "help": "1g-short",
      "label": "6b",
      "section": "Fluency",
      "stem": "Use the short division algorithm to find the quotient and remainder.",
@@ -2691,6 +2939,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6c",
+     "help": "1g-short",
      "label": "6c",
      "section": "Fluency",
      "stem": "Use the short division algorithm to find the quotient and remainder.",
@@ -2703,6 +2952,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6d",
+     "help": "1g-short",
      "label": "6d",
      "section": "Fluency",
      "stem": "Use the short division algorithm to find the quotient and remainder.",
@@ -2715,6 +2965,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7",
+     "help": "1g-word",
      "label": "7",
      "section": "Problem-solving",
      "stem": null,
@@ -2724,6 +2975,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8",
+     "help": "1g-word",
      "label": "8",
      "section": "Problem-solving",
      "stem": null,
@@ -2733,6 +2985,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9a",
+     "help": "1g-word",
      "label": "9a",
      "section": "Problem-solving",
      "stem": "A gardener earns \\$1380 in a week.",
@@ -2743,6 +2996,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9b",
+     "help": "1g-word",
      "label": "9b",
      "section": "Problem-solving",
      "stem": "A gardener earns \\$1380 in a week.",
@@ -2753,6 +3007,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10",
+     "help": "1g-word",
      "label": "10",
      "section": "Problem-solving",
      "stem": null,
@@ -2762,6 +3017,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11",
+     "help": "1g-word",
      "label": "11",
      "section": "Problem-solving",
      "stem": null,
@@ -2771,6 +3027,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12",
+     "help": "1g-word",
      "label": "12",
      "section": "Problem-solving",
      "stem": null,
@@ -2780,6 +3037,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13",
+     "help": "1g-word",
      "label": "13",
      "section": "Reasoning",
      "stem": null,
@@ -2790,6 +3048,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14",
+     "help": "1g-remainder",
      "label": "14",
      "section": "Reasoning",
      "stem": null,
@@ -2802,6 +3061,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15a",
+     "help": "1g-long",
      "label": "15a",
      "section": "Reasoning",
      "stem": "Use the short division algorithm to find the quotient and remainder.",
@@ -2814,6 +3074,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15b",
+     "help": "1g-long",
      "label": "15b",
      "section": "Reasoning",
      "stem": "Use the short division algorithm to find the quotient and remainder.",
@@ -2826,6 +3087,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15c",
+     "help": "1g-long",
      "label": "15c",
      "section": "Reasoning",
      "stem": "Use the short division algorithm to find the quotient and remainder.",
@@ -2838,6 +3100,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15d",
+     "help": "1g-long",
      "label": "15d",
      "section": "Reasoning",
      "stem": "Use the short division algorithm to find the quotient and remainder.",
@@ -2850,6 +3113,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15e",
+     "help": "1g-long",
      "label": "15e",
      "section": "Reasoning",
      "stem": "Use the short division algorithm to find the quotient and remainder.",
@@ -2862,6 +3126,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15f",
+     "help": "1g-long",
      "label": "15f",
      "section": "Reasoning",
      "stem": "Use the short division algorithm to find the quotient and remainder.",
@@ -2874,6 +3139,7 @@ window.H3_BANK = {
     },
     {
      "id": "q16a",
+     "help": "1g-factor",
      "label": "16a",
      "section": "Enrichment",
      "stem": "Use factors of the divisor to help you calculate these. For example, 1458 ÷ 18 = (1458 ÷ 2) ÷ 9.",
@@ -2883,6 +3149,7 @@ window.H3_BANK = {
     },
     {
      "id": "q16b",
+     "help": "1g-factor",
      "label": "16b",
      "section": "Enrichment",
      "stem": "Use factors of the divisor to help you calculate these. For example, 1458 ÷ 18 = (1458 ÷ 2) ÷ 9.",
@@ -2892,6 +3159,7 @@ window.H3_BANK = {
     },
     {
      "id": "q16c",
+     "help": "1g-factor",
      "label": "16c",
      "section": "Enrichment",
      "stem": "Use factors of the divisor to help you calculate these. For example, 1458 ÷ 18 = (1458 ÷ 2) ÷ 9.",
@@ -2901,6 +3169,7 @@ window.H3_BANK = {
     },
     {
      "id": "q16d",
+     "help": "1g-factor",
      "label": "16d",
      "section": "Enrichment",
      "stem": "Use factors of the divisor to help you calculate these. For example, 1458 ÷ 18 = (1458 ÷ 2) ÷ 9.",
@@ -2910,6 +3179,7 @@ window.H3_BANK = {
     },
     {
      "id": "q16e",
+     "help": "1g-factor",
      "label": "16e",
      "section": "Enrichment",
      "stem": "Use factors of the divisor to help you calculate these. For example, 1458 ÷ 18 = (1458 ÷ 2) ÷ 9.",
@@ -2919,6 +3189,7 @@ window.H3_BANK = {
     },
     {
      "id": "q16f",
+     "help": "1g-factor",
      "label": "16f",
      "section": "Enrichment",
      "stem": "Use factors of the divisor to help you calculate these. For example, 1458 ÷ 18 = (1458 ÷ 2) ÷ 9.",
@@ -2936,6 +3207,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "1h-round",
      "label": "1a",
      "section": "Fluency",
      "stem": "Round these numbers as indicated.",
@@ -2945,6 +3217,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "1h-round",
      "label": "1b",
      "section": "Fluency",
      "stem": "Round these numbers as indicated.",
@@ -2954,6 +3227,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1c",
+     "help": "1h-round",
      "label": "1c",
      "section": "Fluency",
      "stem": "Round these numbers as indicated.",
@@ -2963,6 +3237,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1d",
+     "help": "1h-round",
      "label": "1d",
      "section": "Fluency",
      "stem": "Round these numbers as indicated.",
@@ -2972,6 +3247,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1e",
+     "help": "1h-round",
      "label": "1e",
      "section": "Fluency",
      "stem": "Round these numbers as indicated.",
@@ -2981,6 +3257,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1f",
+     "help": "1h-round",
      "label": "1f",
      "section": "Fluency",
      "stem": "Round these numbers as indicated.",
@@ -2990,6 +3267,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1g",
+     "help": "1h-round",
      "label": "1g",
      "section": "Fluency",
      "stem": "Round these numbers as indicated.",
@@ -2999,6 +3277,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1h",
+     "help": "1h-round",
      "label": "1h",
      "section": "Fluency",
      "stem": "Round these numbers as indicated.",
@@ -3008,6 +3287,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1i",
+     "help": "1h-round",
      "label": "1i",
      "section": "Fluency",
      "stem": "Round these numbers as indicated.",
@@ -3017,6 +3297,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1j",
+     "help": "1h-round",
      "label": "1j",
      "section": "Fluency",
      "stem": "Round these numbers as indicated.",
@@ -3026,6 +3307,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "1h-lead",
      "label": "2a",
      "section": "Fluency",
      "stem": "Round these numbers using leading digit approximation. For example, 385 rounds to 400 and 52 rounds to 50.",
@@ -3035,6 +3317,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "1h-lead",
      "label": "2b",
      "section": "Fluency",
      "stem": "Round these numbers using leading digit approximation. For example, 385 rounds to 400 and 52 rounds to 50.",
@@ -3044,6 +3327,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "1h-lead",
      "label": "2c",
      "section": "Fluency",
      "stem": "Round these numbers using leading digit approximation. For example, 385 rounds to 400 and 52 rounds to 50.",
@@ -3053,6 +3337,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "1h-lead",
      "label": "2d",
      "section": "Fluency",
      "stem": "Round these numbers using leading digit approximation. For example, 385 rounds to 400 and 52 rounds to 50.",
@@ -3062,6 +3347,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2e",
+     "help": "1h-lead",
      "label": "2e",
      "section": "Fluency",
      "stem": "Round these numbers using leading digit approximation. For example, 385 rounds to 400 and 52 rounds to 50.",
@@ -3071,6 +3357,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2f",
+     "help": "1h-lead",
      "label": "2f",
      "section": "Fluency",
      "stem": "Round these numbers using leading digit approximation. For example, 385 rounds to 400 and 52 rounds to 50.",
@@ -3080,6 +3367,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2g",
+     "help": "1h-lead",
      "label": "2g",
      "section": "Fluency",
      "stem": "Round these numbers using leading digit approximation. For example, 385 rounds to 400 and 52 rounds to 50.",
@@ -3089,6 +3377,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2h",
+     "help": "1h-lead",
      "label": "2h",
      "section": "Fluency",
      "stem": "Round these numbers using leading digit approximation. For example, 385 rounds to 400 and 52 rounds to 50.",
@@ -3098,6 +3387,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "1h-estimate",
      "label": "3a",
      "section": "Fluency",
      "stem": "Estimate the answers to these problems by first rounding both numbers as indicated.",
@@ -3107,6 +3397,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "1h-estimate",
      "label": "3b",
      "section": "Fluency",
      "stem": "Estimate the answers to these problems by first rounding both numbers as indicated.",
@@ -3116,6 +3407,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "1h-estimate",
      "label": "3c",
      "section": "Fluency",
      "stem": "Estimate the answers to these problems by first rounding both numbers as indicated.",
@@ -3125,6 +3417,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3d",
+     "help": "1h-estimate",
      "label": "3d",
      "section": "Fluency",
      "stem": "Estimate the answers to these problems by first rounding both numbers as indicated.",
@@ -3134,6 +3427,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3e",
+     "help": "1h-estimate",
      "label": "3e",
      "section": "Fluency",
      "stem": "Estimate the answers to these problems by first rounding both numbers as indicated.",
@@ -3143,6 +3437,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3f",
+     "help": "1h-estimate",
      "label": "3f",
      "section": "Fluency",
      "stem": "Estimate the answers to these problems by first rounding both numbers as indicated.",
@@ -3152,6 +3447,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3g",
+     "help": "1h-estimate",
      "label": "3g",
      "section": "Fluency",
      "stem": "Estimate the answers to these problems by first rounding both numbers as indicated.",
@@ -3161,6 +3457,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3h",
+     "help": "1h-estimate",
      "label": "3h",
      "section": "Fluency",
      "stem": "Estimate the answers to these problems by first rounding both numbers as indicated.",
@@ -3170,6 +3467,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3i",
+     "help": "1h-estimate",
      "label": "3i",
      "section": "Fluency",
      "stem": "Estimate the answers to these problems by first rounding both numbers as indicated.",
@@ -3179,6 +3477,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3j",
+     "help": "1h-estimate",
      "label": "3j",
      "section": "Fluency",
      "stem": "Estimate the answers to these problems by first rounding both numbers as indicated.",
@@ -3188,6 +3487,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "1h-estimate",
      "label": "4a",
      "section": "Fluency",
      "stem": "Use leading digit approximation to estimate the answer.",
@@ -3197,6 +3497,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "1h-estimate",
      "label": "4b",
      "section": "Fluency",
      "stem": "Use leading digit approximation to estimate the answer.",
@@ -3206,6 +3507,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "1h-estimate",
      "label": "4c",
      "section": "Fluency",
      "stem": "Use leading digit approximation to estimate the answer.",
@@ -3215,6 +3517,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "1h-estimate",
      "label": "4d",
      "section": "Fluency",
      "stem": "Use leading digit approximation to estimate the answer.",
@@ -3224,6 +3527,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4e",
+     "help": "1h-estimate",
      "label": "4e",
      "section": "Fluency",
      "stem": "Use leading digit approximation to estimate the answer.",
@@ -3233,6 +3537,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4f",
+     "help": "1h-estimate",
      "label": "4f",
      "section": "Fluency",
      "stem": "Use leading digit approximation to estimate the answer.",
@@ -3242,6 +3547,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4g",
+     "help": "1h-estimate",
      "label": "4g",
      "section": "Fluency",
      "stem": "Use leading digit approximation to estimate the answer.",
@@ -3251,6 +3557,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4h",
+     "help": "1h-estimate",
      "label": "4h",
      "section": "Fluency",
      "stem": "Use leading digit approximation to estimate the answer.",
@@ -3260,6 +3567,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "1h-estimate",
      "label": "5a",
      "section": "Fluency",
      "stem": "Estimate the answers to these problems by rounding both numbers as indicated.",
@@ -3269,6 +3577,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "1h-estimate",
      "label": "5b",
      "section": "Fluency",
      "stem": "Estimate the answers to these problems by rounding both numbers as indicated.",
@@ -3278,6 +3587,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "1h-estimate",
      "label": "5c",
      "section": "Fluency",
      "stem": "Estimate the answers to these problems by rounding both numbers as indicated.",
@@ -3287,6 +3597,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5d",
+     "help": "1h-estimate",
      "label": "5d",
      "section": "Fluency",
      "stem": "Estimate the answers to these problems by rounding both numbers as indicated.",
@@ -3296,6 +3607,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5e",
+     "help": "1h-estimate",
      "label": "5e",
      "section": "Fluency",
      "stem": "Estimate the answers to these problems by rounding both numbers as indicated.",
@@ -3305,6 +3617,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5f",
+     "help": "1h-estimate",
      "label": "5f",
      "section": "Fluency",
      "stem": "Estimate the answers to these problems by rounding both numbers as indicated.",
@@ -3314,6 +3627,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5g",
+     "help": "1h-estimate",
      "label": "5g",
      "section": "Fluency",
      "stem": "Estimate the answers to these problems by rounding both numbers as indicated.",
@@ -3323,6 +3637,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5h",
+     "help": "1h-estimate",
      "label": "5h",
      "section": "Fluency",
      "stem": "Estimate the answers to these problems by rounding both numbers as indicated.",
@@ -3332,6 +3647,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6",
+     "help": "1h-word",
      "label": "6",
      "section": "Problem-solving",
      "stem": null,
@@ -3341,6 +3657,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7",
+     "help": "1h-word",
      "label": "7",
      "section": "Problem-solving",
      "stem": null,
@@ -3350,6 +3667,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8",
+     "help": "1h-word",
      "label": "8",
      "section": "Problem-solving",
      "stem": null,
@@ -3359,6 +3677,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9a",
+     "help": "1h-direction",
      "label": "9a",
      "section": "Reasoning",
      "stem": "The letters m and n stand for positive numbers. Compared with the true answer, will the approximate answer be smaller or larger?",
@@ -3372,6 +3691,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9b",
+     "help": "1h-direction",
      "label": "9b",
      "section": "Reasoning",
      "stem": "The letters m and n stand for positive numbers. Compared with the true answer, will the approximate answer be smaller or larger?",
@@ -3385,6 +3705,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9c",
+     "help": "1h-direction",
      "label": "9c",
      "section": "Reasoning",
      "stem": "The letters m and n stand for positive numbers. Compared with the true answer, will the approximate answer be smaller or larger?",
@@ -3398,6 +3719,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9d",
+     "help": "1h-direction",
      "label": "9d",
      "section": "Reasoning",
      "stem": "The letters m and n stand for positive numbers. Compared with the true answer, will the approximate answer be smaller or larger?",
@@ -3411,6 +3733,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9e",
+     "help": "1h-direction",
      "label": "9e",
      "section": "Reasoning",
      "stem": "The letters m and n stand for positive numbers. Compared with the true answer, will the approximate answer be smaller or larger?",
@@ -3424,6 +3747,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9f",
+     "help": "1h-direction",
      "label": "9f",
      "section": "Reasoning",
      "stem": "The letters m and n stand for positive numbers. Compared with the true answer, will the approximate answer be smaller or larger?",
@@ -3437,6 +3761,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9g",
+     "help": "1h-direction",
      "label": "9g",
      "section": "Reasoning",
      "stem": "The letters m and n stand for positive numbers. Compared with the true answer, will the approximate answer be smaller or larger?",
@@ -3450,6 +3775,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9h",
+     "help": "1h-direction",
      "label": "9h",
      "section": "Reasoning",
      "stem": "The letters m and n stand for positive numbers. Compared with the true answer, will the approximate answer be smaller or larger?",
@@ -3463,6 +3789,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10a",
+     "help": "1h-error",
      "label": "10a",
      "section": "Enrichment",
      "stem": "Calculate the error if both numbers are rounded to the nearest 10 before multiplying. For example, 71 × 11 ≈ 70 × 10 = 700, but 71 × 11 = 781, so the error is 81.",
@@ -3472,6 +3799,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10b",
+     "help": "1h-error",
      "label": "10b",
      "section": "Enrichment",
      "stem": "Calculate the error if both numbers are rounded to the nearest 10 before multiplying. For example, 71 × 11 ≈ 70 × 10 = 700, but 71 × 11 = 781, so the error is 81.",
@@ -3481,6 +3809,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10c",
+     "help": "1h-error",
      "label": "10c",
      "section": "Enrichment",
      "stem": "Calculate the error if both numbers are rounded to the nearest 10 before multiplying. For example, 71 × 11 ≈ 70 × 10 = 700, but 71 × 11 = 781, so the error is 81.",
@@ -3490,6 +3819,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10d",
+     "help": "1h-error",
      "label": "10d",
      "section": "Enrichment",
      "stem": "Calculate the error if both numbers are rounded to the nearest 10 before multiplying. For example, 71 × 11 ≈ 70 × 10 = 700, but 71 × 11 = 781, so the error is 81.",
@@ -3507,6 +3837,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "1i-order",
      "label": "1a",
      "section": "Fluency",
      "stem": "Use order of operations to answer the following.",
@@ -3516,6 +3847,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "1i-order",
      "label": "1b",
      "section": "Fluency",
      "stem": "Use order of operations to answer the following.",
@@ -3525,6 +3857,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1c",
+     "help": "1i-order",
      "label": "1c",
      "section": "Fluency",
      "stem": "Use order of operations to answer the following.",
@@ -3534,6 +3867,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1d",
+     "help": "1i-order",
      "label": "1d",
      "section": "Fluency",
      "stem": "Use order of operations to answer the following.",
@@ -3543,6 +3877,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "1i-order",
      "label": "2a",
      "section": "Fluency",
      "stem": "Use order of operations to answer the following.",
@@ -3552,6 +3887,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "1i-order",
      "label": "2b",
      "section": "Fluency",
      "stem": "Use order of operations to answer the following.",
@@ -3561,6 +3897,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "1i-order",
      "label": "2c",
      "section": "Fluency",
      "stem": "Use order of operations to answer the following.",
@@ -3570,6 +3907,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "1i-order",
      "label": "2d",
      "section": "Fluency",
      "stem": "Use order of operations to answer the following.",
@@ -3579,6 +3917,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "1i-order",
      "label": "3a",
      "section": "Fluency",
      "stem": "Use order of operations to answer the following.",
@@ -3588,6 +3927,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "1i-order",
      "label": "3b",
      "section": "Fluency",
      "stem": "Use order of operations to answer the following.",
@@ -3597,6 +3937,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "1i-order",
      "label": "3c",
      "section": "Fluency",
      "stem": "Use order of operations to answer the following.",
@@ -3606,6 +3947,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3d",
+     "help": "1i-order",
      "label": "3d",
      "section": "Fluency",
      "stem": "Use order of operations to answer the following.",
@@ -3615,6 +3957,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "1i-brackets",
      "label": "4a",
      "section": "Fluency",
      "stem": "Use order of operations to answer the following.",
@@ -3624,6 +3967,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "1i-brackets",
      "label": "4b",
      "section": "Fluency",
      "stem": "Use order of operations to answer the following.",
@@ -3633,6 +3977,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "1i-brackets",
      "label": "4c",
      "section": "Fluency",
      "stem": "Use order of operations to answer the following.",
@@ -3642,6 +3987,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "1i-brackets",
      "label": "4d",
      "section": "Fluency",
      "stem": "Use order of operations to answer the following.",
@@ -3651,6 +3997,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "1i-order",
      "label": "5a",
      "section": "Fluency",
      "stem": "Use order of operations to find the answers to the following.",
@@ -3660,6 +4007,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "1i-order",
      "label": "5b",
      "section": "Fluency",
      "stem": "Use order of operations to find the answers to the following.",
@@ -3669,6 +4017,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "1i-order",
      "label": "5c",
      "section": "Fluency",
      "stem": "Use order of operations to find the answers to the following.",
@@ -3678,6 +4027,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5d",
+     "help": "1i-order",
      "label": "5d",
      "section": "Fluency",
      "stem": "Use order of operations to find the answers to the following.",
@@ -3687,6 +4037,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5e",
+     "help": "1i-order",
      "label": "5e",
      "section": "Fluency",
      "stem": "Use order of operations to find the answers to the following.",
@@ -3696,6 +4047,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5f",
+     "help": "1i-order",
      "label": "5f",
      "section": "Fluency",
      "stem": "Use order of operations to find the answers to the following.",
@@ -3705,6 +4057,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5g",
+     "help": "1i-order",
      "label": "5g",
      "section": "Fluency",
      "stem": "Use order of operations to find the answers to the following.",
@@ -3714,6 +4067,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5h",
+     "help": "1i-order",
      "label": "5h",
      "section": "Fluency",
      "stem": "Use order of operations to find the answers to the following.",
@@ -3723,6 +4077,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5i",
+     "help": "1i-order",
      "label": "5i",
      "section": "Fluency",
      "stem": "Use order of operations to find the answers to the following.",
@@ -3732,6 +4087,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5j",
+     "help": "1i-order",
      "label": "5j",
      "section": "Fluency",
      "stem": "Use order of operations to find the answers to the following.",
@@ -3741,6 +4097,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5k",
+     "help": "1i-order",
      "label": "5k",
      "section": "Fluency",
      "stem": "Use order of operations to find the answers to the following.",
@@ -3750,6 +4107,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5l",
+     "help": "1i-order",
      "label": "5l",
      "section": "Fluency",
      "stem": "Use order of operations to find the answers to the following.",
@@ -3759,6 +4117,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6a",
+     "help": "1i-brackets",
      "label": "6a",
      "section": "Fluency",
      "stem": "Use order of operations to find the answer to the following problems.",
@@ -3768,6 +4127,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6b",
+     "help": "1i-brackets",
      "label": "6b",
      "section": "Fluency",
      "stem": "Use order of operations to find the answer to the following problems.",
@@ -3777,6 +4137,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6c",
+     "help": "1i-brackets",
      "label": "6c",
      "section": "Fluency",
      "stem": "Use order of operations to find the answer to the following problems.",
@@ -3786,6 +4147,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6d",
+     "help": "1i-brackets",
      "label": "6d",
      "section": "Fluency",
      "stem": "Use order of operations to find the answer to the following problems.",
@@ -3795,6 +4157,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6e",
+     "help": "1i-brackets",
      "label": "6e",
      "section": "Fluency",
      "stem": "Use order of operations to find the answer to the following problems.",
@@ -3804,6 +4167,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6f",
+     "help": "1i-brackets",
      "label": "6f",
      "section": "Fluency",
      "stem": "Use order of operations to find the answer to the following problems.",
@@ -3813,6 +4177,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6g",
+     "help": "1i-brackets",
      "label": "6g",
      "section": "Fluency",
      "stem": "Use order of operations to find the answer to the following problems.",
@@ -3822,6 +4187,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6h",
+     "help": "1i-brackets",
      "label": "6h",
      "section": "Fluency",
      "stem": "Use order of operations to find the answer to the following problems.",
@@ -3831,6 +4197,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6i",
+     "help": "1i-brackets",
      "label": "6i",
      "section": "Fluency",
      "stem": "Use order of operations to find the answer to the following problems.",
@@ -3840,6 +4207,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6j",
+     "help": "1i-brackets",
      "label": "6j",
      "section": "Fluency",
      "stem": "Use order of operations to find the answer to the following problems.",
@@ -3849,6 +4217,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6k",
+     "help": "1i-brackets",
      "label": "6k",
      "section": "Fluency",
      "stem": "Use order of operations to find the answer to the following problems.",
@@ -3858,6 +4227,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6l",
+     "help": "1i-brackets",
      "label": "6l",
      "section": "Fluency",
      "stem": "Use order of operations to find the answer to the following problems.",
@@ -3867,6 +4237,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7a",
+     "help": "1i-words",
      "label": "7a",
      "section": "Fluency",
      "stem": "Find the answer to these worded problems by first writing the sentence using numbers and symbols.",
@@ -3876,6 +4247,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7b",
+     "help": "1i-words",
      "label": "7b",
      "section": "Fluency",
      "stem": "Find the answer to these worded problems by first writing the sentence using numbers and symbols.",
@@ -3885,6 +4257,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7c",
+     "help": "1i-words",
      "label": "7c",
      "section": "Fluency",
      "stem": "Find the answer to these worded problems by first writing the sentence using numbers and symbols.",
@@ -3894,6 +4267,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7d",
+     "help": "1i-words",
      "label": "7d",
      "section": "Fluency",
      "stem": "Find the answer to these worded problems by first writing the sentence using numbers and symbols.",
@@ -3903,6 +4277,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7e",
+     "help": "1i-words",
      "label": "7e",
      "section": "Fluency",
      "stem": "Find the answer to these worded problems by first writing the sentence using numbers and symbols.",
@@ -3912,6 +4287,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7f",
+     "help": "1i-words",
      "label": "7f",
      "section": "Fluency",
      "stem": "Find the answer to these worded problems by first writing the sentence using numbers and symbols.",
@@ -3921,6 +4297,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7g",
+     "help": "1i-words",
      "label": "7g",
      "section": "Fluency",
      "stem": "Find the answer to these worded problems by first writing the sentence using numbers and symbols.",
@@ -3930,6 +4307,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8a",
+     "help": "1i-brackets",
      "label": "8a",
      "section": "Fluency",
      "stem": "These computations involve brackets within brackets. Work with the inner brackets first.",
@@ -3939,6 +4317,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8b",
+     "help": "1i-brackets",
      "label": "8b",
      "section": "Fluency",
      "stem": "These computations involve brackets within brackets. Work with the inner brackets first.",
@@ -3948,6 +4327,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8c",
+     "help": "1i-brackets",
      "label": "8c",
      "section": "Fluency",
      "stem": "These computations involve brackets within brackets. Work with the inner brackets first.",
@@ -3957,6 +4337,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8d",
+     "help": "1i-brackets",
      "label": "8d",
      "section": "Fluency",
      "stem": "These computations involve brackets within brackets. Work with the inner brackets first.",
@@ -3966,6 +4347,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8e",
+     "help": "1i-brackets",
      "label": "8e",
      "section": "Fluency",
      "stem": "These computations involve brackets within brackets. Work with the inner brackets first.",
@@ -3975,6 +4357,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9",
+     "help": "1i-word",
      "label": "9",
      "section": "Problem-solving",
      "stem": null,
@@ -3984,6 +4367,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10",
+     "help": "1i-word",
      "label": "10",
      "section": "Problem-solving",
      "stem": null,
@@ -3993,6 +4377,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11a",
+     "help": "1i-insert",
      "label": "11a",
      "section": "Problem-solving",
      "stem": "Insert brackets to make these statements true. Type the left-hand side with your brackets, e.g. (3 + 4) × 2.",
@@ -4004,6 +4389,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11b",
+     "help": "1i-insert",
      "label": "11b",
      "section": "Problem-solving",
      "stem": "Insert brackets to make these statements true. Type the left-hand side with your brackets, e.g. (3 + 4) × 2.",
@@ -4015,6 +4401,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11c",
+     "help": "1i-insert",
      "label": "11c",
      "section": "Problem-solving",
      "stem": "Insert brackets to make these statements true. Type the left-hand side with your brackets, e.g. (3 + 4) × 2.",
@@ -4026,6 +4413,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11d",
+     "help": "1i-insert",
      "label": "11d",
      "section": "Problem-solving",
      "stem": "Insert brackets to make these statements true. Type the left-hand side with your brackets, e.g. (3 + 4) × 2.",
@@ -4037,6 +4425,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11e",
+     "help": "1i-insert",
      "label": "11e",
      "section": "Problem-solving",
      "stem": "Insert brackets to make these statements true. Type the left-hand side with your brackets, e.g. (3 + 4) × 2.",
@@ -4048,6 +4437,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11f",
+     "help": "1i-insert",
      "label": "11f",
      "section": "Problem-solving",
      "stem": "Insert brackets to make these statements true. Type the left-hand side with your brackets, e.g. (3 + 4) × 2.",
@@ -4059,6 +4449,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11g",
+     "help": "1i-insert",
      "label": "11g",
      "section": "Problem-solving",
      "stem": "Insert brackets to make these statements true. Type the left-hand side with your brackets, e.g. (3 + 4) × 2.",
@@ -4070,6 +4461,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11h",
+     "help": "1i-insert",
      "label": "11h",
      "section": "Problem-solving",
      "stem": "Insert brackets to make these statements true. Type the left-hand side with your brackets, e.g. (3 + 4) × 2.",
@@ -4081,6 +4473,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12a",
+     "help": "1i-word",
      "label": "12a",
      "section": "Problem-solving",
      "stem": "A total of \\$120 is shared as two equal first prizes and four equal second prizes. Each prize is a whole number of dollars, first prize is at least four times second prize, and second prize is more than \\$9.",
@@ -4091,6 +4484,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12b",
+     "help": "1i-word",
      "label": "12b",
      "section": "Problem-solving",
      "stem": "A total of \\$120 is shared as two equal first prizes and four equal second prizes. Each prize is a whole number of dollars, first prize is at least four times second prize, and second prize is more than \\$9.",
@@ -4101,6 +4495,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13a",
+     "help": "1i-letters",
      "label": "13a",
      "section": "Reasoning",
      "stem": "Simplify the following. Assume c ≠ 0 and d ≠ 0.",
@@ -4111,6 +4506,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13b",
+     "help": "1i-letters",
      "label": "13b",
      "section": "Reasoning",
      "stem": "Simplify the following. Assume c ≠ 0 and d ≠ 0.",
@@ -4121,6 +4517,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13c",
+     "help": "1i-letters",
      "label": "13c",
      "section": "Reasoning",
      "stem": "Simplify the following. Assume c ≠ 0 and d ≠ 0.",
@@ -4131,6 +4528,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13d",
+     "help": "1i-letters",
      "label": "13d",
      "section": "Reasoning",
      "stem": "Simplify the following. Assume c ≠ 0 and d ≠ 0.",
