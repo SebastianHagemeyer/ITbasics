@@ -33095,6 +33095,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "5a-digit",
      "label": "1a",
      "section": "Fluency",
      "stem": "What is the value of the digit $7$ in the following numbers?",
@@ -33105,6 +33106,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "5a-digit",
      "label": "1b",
      "section": "Fluency",
      "stem": "What is the value of the digit $7$ in the following numbers?",
@@ -33114,6 +33116,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1c",
+     "help": "5a-digit",
      "label": "1c",
      "section": "Fluency",
      "stem": "What is the value of the digit $7$ in the following numbers?",
@@ -33123,6 +33126,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "5a-digit",
      "label": "2a",
      "section": "Fluency",
      "stem": "What is the value of the digit $4$ in the following numbers?",
@@ -33133,6 +33137,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "5a-digit",
      "label": "2b",
      "section": "Fluency",
      "stem": "What is the value of the digit $4$ in the following numbers?",
@@ -33142,6 +33147,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "5a-digit",
      "label": "2c",
      "section": "Fluency",
      "stem": "What is the value of the digit $4$ in the following numbers?",
@@ -33151,6 +33157,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "5a-digit",
      "label": "2d",
      "section": "Fluency",
      "stem": "What is the value of the digit $4$ in the following numbers?",
@@ -33160,6 +33167,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2e",
+     "help": "5a-digit",
      "label": "2e",
      "section": "Fluency",
      "stem": "What is the value of the digit $4$ in the following numbers?",
@@ -33169,6 +33177,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2f",
+     "help": "5a-digit",
      "label": "2f",
      "section": "Fluency",
      "stem": "What is the value of the digit $4$ in the following numbers?",
@@ -33178,6 +33187,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2g",
+     "help": "5a-digit",
      "label": "2g",
      "section": "Fluency",
      "stem": "What is the value of the digit $4$ in the following numbers?",
@@ -33187,6 +33197,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2h",
+     "help": "5a-digit",
      "label": "2h",
      "section": "Fluency",
      "stem": "What is the value of the digit $4$ in the following numbers?",
@@ -33196,6 +33207,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "5a-fraction",
      "label": "3a",
      "section": "Fluency",
      "stem": "Write each of these proper fractions as a decimal.",
@@ -33206,6 +33218,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "5a-fraction",
      "label": "3b",
      "section": "Fluency",
      "stem": "Write each of these proper fractions as a decimal.",
@@ -33216,6 +33229,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "5a-fraction",
      "label": "3c",
      "section": "Fluency",
      "stem": "Write each of these proper fractions as a decimal.",
@@ -33226,6 +33240,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3d",
+     "help": "5a-fraction",
      "label": "3d",
      "section": "Fluency",
      "stem": "Write each of these proper fractions as a decimal.",
@@ -33236,6 +33251,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3e",
+     "help": "5a-fraction",
      "label": "3e",
      "section": "Fluency",
      "stem": "Write each of these proper fractions as a decimal.",
@@ -33246,6 +33262,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3f",
+     "help": "5a-fraction",
      "label": "3f",
      "section": "Fluency",
      "stem": "Write each of these proper fractions as a decimal.",
@@ -33256,6 +33273,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3g",
+     "help": "5a-fraction",
      "label": "3g",
      "section": "Fluency",
      "stem": "Write each of these proper fractions as a decimal.",
@@ -33266,6 +33284,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3h",
+     "help": "5a-fraction",
      "label": "3h",
      "section": "Fluency",
      "stem": "Write each of these proper fractions as a decimal.",
@@ -33276,6 +33295,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "5a-fraction",
      "label": "4a",
      "section": "Fluency",
      "stem": "Write each of these mixed numerals as a decimal.",
@@ -33286,6 +33306,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "5a-fraction",
      "label": "4b",
      "section": "Fluency",
      "stem": "Write each of these mixed numerals as a decimal.",
@@ -33296,6 +33317,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "5a-fraction",
      "label": "4c",
      "section": "Fluency",
      "stem": "Write each of these mixed numerals as a decimal.",
@@ -33306,6 +33328,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "5a-fraction",
      "label": "4d",
      "section": "Fluency",
      "stem": "Write each of these mixed numerals as a decimal.",
@@ -33316,6 +33339,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4e",
+     "help": "5a-fraction",
      "label": "4e",
      "section": "Fluency",
      "stem": "Write each of these mixed numerals as a decimal.",
@@ -33326,6 +33350,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4f",
+     "help": "5a-fraction",
      "label": "4f",
      "section": "Fluency",
      "stem": "Write each of these mixed numerals as a decimal.",
@@ -33336,6 +33361,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4g",
+     "help": "5a-fraction",
      "label": "4g",
      "section": "Fluency",
      "stem": "Write each of these mixed numerals as a decimal.",
@@ -33346,6 +33372,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4h",
+     "help": "5a-fraction",
      "label": "4h",
      "section": "Fluency",
      "stem": "Write each of these mixed numerals as a decimal.",
@@ -33356,6 +33383,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "5a-compare",
      "label": "5a",
      "section": "Fluency",
      "stem": "Choose the symbol, $<$ or $>$, that goes in the box to make a true statement.",
@@ -33369,6 +33397,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "5a-compare",
      "label": "5b",
      "section": "Fluency",
      "stem": "Choose the symbol, $<$ or $>$, that goes in the box to make a true statement.",
@@ -33382,6 +33411,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "5a-compare",
      "label": "5c",
      "section": "Fluency",
      "stem": "Choose the symbol, $<$ or $>$, that goes in the box to make a true statement.",
@@ -33395,6 +33425,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5d",
+     "help": "5a-compare",
      "label": "5d",
      "section": "Fluency",
      "stem": "Choose the symbol, $<$ or $>$, that goes in the box to make a true statement.",
@@ -33408,6 +33439,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5e",
+     "help": "5a-compare",
      "label": "5e",
      "section": "Fluency",
      "stem": "Choose the symbol, $<$ or $>$, that goes in the box to make a true statement.",
@@ -33421,6 +33453,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5f",
+     "help": "5a-compare",
      "label": "5f",
      "section": "Fluency",
      "stem": "Choose the symbol, $<$ or $>$, that goes in the box to make a true statement.",
@@ -33434,6 +33467,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5g",
+     "help": "5a-compare",
      "label": "5g",
      "section": "Fluency",
      "stem": "Choose the symbol, $<$ or $>$, that goes in the box to make a true statement.",
@@ -33447,6 +33481,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5h",
+     "help": "5a-compare",
      "label": "5h",
      "section": "Fluency",
      "stem": "Choose the symbol, $<$ or $>$, that goes in the box to make a true statement.",
@@ -33460,6 +33495,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5i",
+     "help": "5a-compare",
      "label": "5i",
      "section": "Fluency",
      "stem": "Choose the symbol, $<$ or $>$, that goes in the box to make a true statement.",
@@ -33473,6 +33509,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5j",
+     "help": "5a-compare",
      "label": "5j",
      "section": "Fluency",
      "stem": "Choose the symbol, $<$ or $>$, that goes in the box to make a true statement.",
@@ -33486,6 +33523,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5k",
+     "help": "5a-compare",
      "label": "5k",
      "section": "Fluency",
      "stem": "Choose the symbol, $<$ or $>$, that goes in the box to make a true statement.",
@@ -33499,6 +33537,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5l",
+     "help": "5a-compare",
      "label": "5l",
      "section": "Fluency",
      "stem": "Choose the symbol, $<$ or $>$, that goes in the box to make a true statement.",
@@ -33512,6 +33551,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6a",
+     "help": "5a-compare",
      "label": "6a",
      "section": "Fluency",
      "stem": "Is each of these statements true or false?",
@@ -33525,6 +33565,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6b",
+     "help": "5a-compare",
      "label": "6b",
      "section": "Fluency",
      "stem": "Is each of these statements true or false?",
@@ -33538,6 +33579,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6c",
+     "help": "5a-compare",
      "label": "6c",
      "section": "Fluency",
      "stem": "Is each of these statements true or false?",
@@ -33551,6 +33593,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6d",
+     "help": "5a-compare",
      "label": "6d",
      "section": "Fluency",
      "stem": "Is each of these statements true or false?",
@@ -33564,6 +33607,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6e",
+     "help": "5a-compare",
      "label": "6e",
      "section": "Fluency",
      "stem": "Is each of these statements true or false?",
@@ -33577,6 +33621,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6f",
+     "help": "5a-compare",
      "label": "6f",
      "section": "Fluency",
      "stem": "Is each of these statements true or false?",
@@ -33590,6 +33635,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6g",
+     "help": "5a-compare",
      "label": "6g",
      "section": "Fluency",
      "stem": "Is each of these statements true or false?",
@@ -33603,6 +33649,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6h",
+     "help": "5a-compare",
      "label": "6h",
      "section": "Fluency",
      "stem": "Is each of these statements true or false?",
@@ -33616,6 +33663,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6i",
+     "help": "5a-compare",
      "label": "6i",
      "section": "Fluency",
      "stem": "Is each of these statements true or false?",
@@ -33629,6 +33677,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6j",
+     "help": "5a-compare",
      "label": "6j",
      "section": "Fluency",
      "stem": "Is each of these statements true or false?",
@@ -33642,6 +33691,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6k",
+     "help": "5a-compare",
      "label": "6k",
      "section": "Fluency",
      "stem": "Is each of these statements true or false?",
@@ -33655,6 +33705,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6l",
+     "help": "5a-compare",
      "label": "6l",
      "section": "Fluency",
      "stem": "Is each of these statements true or false?",
@@ -33668,6 +33719,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7a",
+     "help": "5a-nearest",
      "label": "7a",
      "section": "Problem-solving",
      "stem": "Find the difference between each decimal number and the whole number closest to it.",
@@ -33677,6 +33729,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7b",
+     "help": "5a-nearest",
      "label": "7b",
      "section": "Problem-solving",
      "stem": "Find the difference between each decimal number and the whole number closest to it.",
@@ -33686,6 +33739,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7c",
+     "help": "5a-nearest",
      "label": "7c",
      "section": "Problem-solving",
      "stem": "Find the difference between each decimal number and the whole number closest to it.",
@@ -33695,6 +33749,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7d",
+     "help": "5a-nearest",
      "label": "7d",
      "section": "Problem-solving",
      "stem": "Find the difference between each decimal number and the whole number closest to it.",
@@ -33704,6 +33759,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7e",
+     "help": "5a-nearest",
      "label": "7e",
      "section": "Problem-solving",
      "stem": "Find the difference between each decimal number and the whole number closest to it.",
@@ -33713,6 +33769,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7f",
+     "help": "5a-nearest",
      "label": "7f",
      "section": "Problem-solving",
      "stem": "Find the difference between each decimal number and the whole number closest to it.",
@@ -33722,6 +33779,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7g",
+     "help": "5a-nearest",
      "label": "7g",
      "section": "Problem-solving",
      "stem": "Find the difference between each decimal number and the whole number closest to it.",
@@ -33731,6 +33789,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7h",
+     "help": "5a-nearest",
      "label": "7h",
      "section": "Problem-solving",
      "stem": "Find the difference between each decimal number and the whole number closest to it.",
@@ -33740,6 +33799,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8a",
+     "help": "5a-order",
      "label": "8a",
      "section": "Problem-solving",
      "stem": "Write each group of numbers in ascending order (smallest to largest).",
@@ -33755,6 +33815,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8b",
+     "help": "5a-order",
      "label": "8b",
      "section": "Problem-solving",
      "stem": "Write each group of numbers in ascending order (smallest to largest).",
@@ -33769,6 +33830,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8c",
+     "help": "5a-order",
      "label": "8c",
      "section": "Problem-solving",
      "stem": "Write each group of numbers in ascending order (smallest to largest).",
@@ -33783,6 +33845,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8d",
+     "help": "5a-order",
      "label": "8d",
      "section": "Problem-solving",
      "stem": "Write each group of numbers in ascending order (smallest to largest).",
@@ -33798,6 +33861,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9a",
+     "help": "5a-order",
      "label": "9a",
      "section": "Problem-solving",
      "stem": "The batting averages of five captains from a local cricket club are: Priya $44.81$, Tom $52.07$, Liam $39.62$, Aisha $50.75$ and Ben $47.39$.",
@@ -33814,6 +33878,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9b",
+     "help": "5a-order",
      "label": "9b",
      "section": "Problem-solving",
      "stem": "The batting averages of five captains from a local cricket club are: Priya $44.81$, Tom $52.07$, Liam $39.62$, Aisha $50.75$ and Ben $47.39$.",
@@ -33823,6 +33888,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10a",
+     "help": "5a-order",
      "label": "10a",
      "section": "Problem-solving",
      "stem": "The depth of a creek was measured at 7:00 am on six days in a row. The table shows the results.",
@@ -33856,6 +33922,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10b",
+     "help": "5a-order",
      "label": "10b",
      "section": "Problem-solving",
      "stem": "The depth of a creek was measured at 7:00 am on six days in a row. The table shows the results.",
@@ -33865,6 +33932,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10c",
+     "help": "5a-order",
      "label": "10c",
      "section": "Problem-solving",
      "stem": "The depth of a creek was measured at 7:00 am on six days in a row. The table shows the results.",
@@ -33879,6 +33947,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13a",
+     "help": "5a-letters",
      "label": "13a",
      "section": "Reasoning",
      "stem": "$A$ stands for a digit. Write each of these as a decimal, using the letter A for the digit.",
@@ -33892,6 +33961,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13b",
+     "help": "5a-letters",
      "label": "13b",
      "section": "Reasoning",
      "stem": "$A$ stands for a digit. Write each of these as a decimal, using the letter A for the digit.",
@@ -33904,6 +33974,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13c",
+     "help": "5a-letters",
      "label": "13c",
      "section": "Reasoning",
      "stem": "$A$ stands for a digit. Write each of these as a decimal, using the letter A for the digit.",
@@ -33916,6 +33987,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13d",
+     "help": "5a-letters",
      "label": "13d",
      "section": "Reasoning",
      "stem": "$A$ stands for a digit. Write each of these as a decimal, using the letter A for the digit.",
@@ -33933,6 +34005,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "5b-round",
      "label": "1a",
      "section": "Fluency",
      "stem": "Round each of the following to $1$ decimal place.",
@@ -33942,6 +34015,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "5b-round",
      "label": "1b",
      "section": "Fluency",
      "stem": "Round each of the following to $1$ decimal place.",
@@ -33951,6 +34025,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1c",
+     "help": "5b-round",
      "label": "1c",
      "section": "Fluency",
      "stem": "Round each of the following to $1$ decimal place.",
@@ -33960,6 +34035,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1d",
+     "help": "5b-round",
      "label": "1d",
      "section": "Fluency",
      "stem": "Round each of the following to $1$ decimal place.",
@@ -33969,6 +34045,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "5b-round",
      "label": "2a",
      "section": "Fluency",
      "stem": "Round each of the following to $1$ decimal place.",
@@ -33978,6 +34055,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "5b-round",
      "label": "2b",
      "section": "Fluency",
      "stem": "Round each of the following to $1$ decimal place.",
@@ -33987,6 +34065,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "5b-round",
      "label": "2c",
      "section": "Fluency",
      "stem": "Round each of the following to $1$ decimal place.",
@@ -33996,6 +34075,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "5b-round",
      "label": "2d",
      "section": "Fluency",
      "stem": "Round each of the following to $1$ decimal place.",
@@ -34005,6 +34085,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2e",
+     "help": "5b-round",
      "label": "2e",
      "section": "Fluency",
      "stem": "Round each of the following to $1$ decimal place.",
@@ -34014,6 +34095,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2f",
+     "help": "5b-round",
      "label": "2f",
      "section": "Fluency",
      "stem": "Round each of the following to $1$ decimal place.",
@@ -34023,6 +34105,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2g",
+     "help": "5b-round",
      "label": "2g",
      "section": "Fluency",
      "stem": "Round each of the following to $1$ decimal place.",
@@ -34032,6 +34115,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2h",
+     "help": "5b-round",
      "label": "2h",
      "section": "Fluency",
      "stem": "Round each of the following to $1$ decimal place.",
@@ -34041,6 +34125,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "5b-round",
      "label": "3a",
      "section": "Fluency",
      "stem": "Write each of the following correct to $2$ decimal places.",
@@ -34050,6 +34135,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "5b-round",
      "label": "3b",
      "section": "Fluency",
      "stem": "Write each of the following correct to $2$ decimal places.",
@@ -34059,6 +34145,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "5b-round",
      "label": "3c",
      "section": "Fluency",
      "stem": "Write each of the following correct to $2$ decimal places.",
@@ -34068,6 +34155,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3d",
+     "help": "5b-round",
      "label": "3d",
      "section": "Fluency",
      "stem": "Write each of the following correct to $2$ decimal places.",
@@ -34077,6 +34165,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3e",
+     "help": "5b-round",
      "label": "3e",
      "section": "Fluency",
      "stem": "Write each of the following correct to $2$ decimal places.",
@@ -34086,6 +34175,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3f",
+     "help": "5b-round",
      "label": "3f",
      "section": "Fluency",
      "stem": "Write each of the following correct to $2$ decimal places.",
@@ -34095,6 +34185,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3g",
+     "help": "5b-round",
      "label": "3g",
      "section": "Fluency",
      "stem": "Write each of the following correct to $2$ decimal places.",
@@ -34104,6 +34195,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3h",
+     "help": "5b-round",
      "label": "3h",
      "section": "Fluency",
      "stem": "Write each of the following correct to $2$ decimal places.",
@@ -34113,6 +34205,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3i",
+     "help": "5b-round",
      "label": "3i",
      "section": "Fluency",
      "stem": "Write each of the following correct to $2$ decimal places.",
@@ -34122,6 +34215,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3j",
+     "help": "5b-round",
      "label": "3j",
      "section": "Fluency",
      "stem": "Write each of the following correct to $2$ decimal places.",
@@ -34131,6 +34225,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3k",
+     "help": "5b-round",
      "label": "3k",
      "section": "Fluency",
      "stem": "Write each of the following correct to $2$ decimal places.",
@@ -34140,6 +34235,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3l",
+     "help": "5b-round",
      "label": "3l",
      "section": "Fluency",
      "stem": "Write each of the following correct to $2$ decimal places.",
@@ -34149,6 +34245,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "5b-round",
      "label": "4a",
      "section": "Fluency",
      "stem": "Round each number to the number of decimal places shown in the brackets.",
@@ -34158,6 +34255,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "5b-round",
      "label": "4b",
      "section": "Fluency",
      "stem": "Round each number to the number of decimal places shown in the brackets.",
@@ -34167,6 +34265,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "5b-round",
      "label": "4c",
      "section": "Fluency",
      "stem": "Round each number to the number of decimal places shown in the brackets.",
@@ -34176,6 +34275,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "5b-round",
      "label": "4d",
      "section": "Fluency",
      "stem": "Round each number to the number of decimal places shown in the brackets.",
@@ -34185,6 +34285,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4e",
+     "help": "5b-round",
      "label": "4e",
      "section": "Fluency",
      "stem": "Round each number to the number of decimal places shown in the brackets.",
@@ -34194,6 +34295,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4f",
+     "help": "5b-round",
      "label": "4f",
      "section": "Fluency",
      "stem": "Round each number to the number of decimal places shown in the brackets.",
@@ -34203,6 +34305,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4g",
+     "help": "5b-round",
      "label": "4g",
      "section": "Fluency",
      "stem": "Round each number to the number of decimal places shown in the brackets.",
@@ -34212,6 +34315,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4h",
+     "help": "5b-round",
      "label": "4h",
      "section": "Fluency",
      "stem": "Round each number to the number of decimal places shown in the brackets.",
@@ -34221,6 +34325,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "5b-nines",
      "label": "5a",
      "section": "Fluency",
      "stem": "Round each number to the number of decimal places shown in the brackets.",
@@ -34230,6 +34335,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "5b-nines",
      "label": "5b",
      "section": "Fluency",
      "stem": "Round each number to the number of decimal places shown in the brackets.",
@@ -34239,6 +34345,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "5b-nines",
      "label": "5c",
      "section": "Fluency",
      "stem": "Round each number to the number of decimal places shown in the brackets.",
@@ -34248,6 +34355,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5d",
+     "help": "5b-nines",
      "label": "5d",
      "section": "Fluency",
      "stem": "Round each number to the number of decimal places shown in the brackets.",
@@ -34257,6 +34365,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6a",
+     "help": "5b-whole",
      "label": "6a",
      "section": "Fluency",
      "stem": "Round each of the following to the nearest whole number (that is, to $0$ decimal places).",
@@ -34266,6 +34375,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6b",
+     "help": "5b-whole",
      "label": "6b",
      "section": "Fluency",
      "stem": "Round each of the following to the nearest whole number (that is, to $0$ decimal places).",
@@ -34275,6 +34385,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6c",
+     "help": "5b-whole",
      "label": "6c",
      "section": "Fluency",
      "stem": "Round each of the following to the nearest whole number (that is, to $0$ decimal places).",
@@ -34284,6 +34395,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6d",
+     "help": "5b-whole",
      "label": "6d",
      "section": "Fluency",
      "stem": "Round each of the following to the nearest whole number (that is, to $0$ decimal places).",
@@ -34293,6 +34405,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6e",
+     "help": "5b-whole",
      "label": "6e",
      "section": "Fluency",
      "stem": "Round each of the following to the nearest whole number (that is, to $0$ decimal places).",
@@ -34302,6 +34415,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6f",
+     "help": "5b-whole",
      "label": "6f",
      "section": "Fluency",
      "stem": "Round each of the following to the nearest whole number (that is, to $0$ decimal places).",
@@ -34311,6 +34425,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6g",
+     "help": "5b-whole",
      "label": "6g",
      "section": "Fluency",
      "stem": "Round each of the following to the nearest whole number (that is, to $0$ decimal places).",
@@ -34320,6 +34435,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6h",
+     "help": "5b-whole",
      "label": "6h",
      "section": "Fluency",
      "stem": "Round each of the following to the nearest whole number (that is, to $0$ decimal places).",
@@ -34329,6 +34445,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7a",
+     "help": "5b-whole",
      "label": "7a",
      "section": "Fluency",
      "stem": "Round each amount to the nearest dollar.",
@@ -34339,6 +34456,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7b",
+     "help": "5b-whole",
      "label": "7b",
      "section": "Fluency",
      "stem": "Round each amount to the nearest dollar.",
@@ -34349,6 +34467,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7c",
+     "help": "5b-whole",
      "label": "7c",
      "section": "Fluency",
      "stem": "Round each amount to the nearest dollar.",
@@ -34359,6 +34478,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7d",
+     "help": "5b-whole",
      "label": "7d",
      "section": "Fluency",
      "stem": "Round each amount to the nearest dollar.",
@@ -34369,6 +34489,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7e",
+     "help": "5b-whole",
      "label": "7e",
      "section": "Fluency",
      "stem": "Round each amount to the nearest dollar.",
@@ -34379,6 +34500,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7f",
+     "help": "5b-whole",
      "label": "7f",
      "section": "Fluency",
      "stem": "Round each amount to the nearest dollar.",
@@ -34389,6 +34511,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7g",
+     "help": "5b-whole",
      "label": "7g",
      "section": "Fluency",
      "stem": "Round each amount to the nearest dollar.",
@@ -34399,6 +34522,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7h",
+     "help": "5b-whole",
      "label": "7h",
      "section": "Fluency",
      "stem": "Round each amount to the nearest dollar.",
@@ -34409,6 +34533,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8a",
+     "help": "5b-estimate",
      "label": "8a",
      "section": "Problem-solving",
      "stem": "Some shoppers round the price of each item to the nearest dollar as they put it in the basket, and keep a running total. This gives a good estimate of the final bill.",
@@ -34419,6 +34544,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8b",
+     "help": "5b-estimate",
      "label": "8b",
      "section": "Problem-solving",
      "stem": "Some shoppers round the price of each item to the nearest dollar as they put it in the basket, and keep a running total. This gives a good estimate of the final bill.",
@@ -34429,6 +34555,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8c",
+     "help": "5b-estimate",
      "label": "8c",
      "section": "Problem-solving",
      "stem": "Some shoppers round the price of each item to the nearest dollar as they put it in the basket, and keep a running total. This gives a good estimate of the final bill.",
@@ -34439,6 +34566,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8d",
+     "help": "5b-estimate",
      "label": "8d",
      "section": "Problem-solving",
      "stem": "Some shoppers round the price of each item to the nearest dollar as they put it in the basket, and keep a running total. This gives a good estimate of the final bill.",
@@ -34449,6 +34577,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9a",
+     "help": "5b-timing",
      "label": "9a",
      "section": "Problem-solving",
      "stem": "Electronic timing pads are used at swimming carnivals. In a $100$ m backstroke race, Hana gets a rounded time of $54.62$ seconds and Mei gets a time of $55.38$ seconds.",
@@ -34459,6 +34588,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9b",
+     "help": "5b-timing",
      "label": "9b",
      "section": "Problem-solving",
      "stem": "Electronic timing pads are used at swimming carnivals. In a $100$ m backstroke race, Hana gets a rounded time of $54.62$ seconds and Mei gets a time of $55.38$ seconds.",
@@ -34469,6 +34599,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9c",
+     "help": "5b-timing",
      "label": "9c",
      "section": "Problem-solving",
      "stem": "Electronic timing pads are used at swimming carnivals. In a $100$ m backstroke race, Hana gets a rounded time of $54.62$ seconds and Mei gets a time of $55.38$ seconds.",
@@ -34479,6 +34610,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9d",
+     "help": "5b-timing",
      "label": "9d",
      "section": "Problem-solving",
      "stem": "Electronic timing pads are used at swimming carnivals. In a $100$ m backstroke race, Hana gets a rounded time of $54.62$ seconds and Mei gets a time of $55.38$ seconds.",
@@ -34489,6 +34621,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10a",
+     "help": "5b-money",
      "label": "10a",
      "section": "Reasoning",
      "stem": "Ella and Sam each fill up their cars at a service station.",
@@ -34499,6 +34632,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10b",
+     "help": "5b-money",
      "label": "10b",
      "section": "Reasoning",
      "stem": "Ella and Sam each fill up their cars at a service station.",
@@ -34509,6 +34643,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10c",
+     "help": "5b-money",
      "label": "10c",
      "section": "Reasoning",
      "stem": "Ella and Sam each fill up their cars at a service station.",
@@ -34519,6 +34654,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10d",
+     "help": "5b-money",
      "label": "10d",
      "section": "Reasoning",
      "stem": "Ella and Sam each fill up their cars at a service station.",
@@ -34529,6 +34665,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11a",
+     "help": "5b-check",
      "label": "11a",
      "section": "Reasoning",
      "stem": "Answer these without a calculator.",
@@ -34538,6 +34675,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11b",
+     "help": "5b-check",
      "label": "11b",
      "section": "Reasoning",
      "stem": "Answer these without a calculator.",
@@ -34547,6 +34685,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12",
+     "help": "5b-check",
      "label": "12",
      "section": "Reasoning",
      "prompt": "Mia thinks $0.349999$ rounded to $1$ decimal place is $0.4$, because the $9$s make it round up. Lily thinks it is $0.3$. Who is correct?",
@@ -34567,6 +34706,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "5c-add",
      "label": "1a",
      "section": "Fluency",
      "stem": "Find the value of each of these.",
@@ -34576,6 +34716,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "5c-add",
      "label": "1b",
      "section": "Fluency",
      "stem": "Find the value of each of these.",
@@ -34585,6 +34726,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1c",
+     "help": "5c-add",
      "label": "1c",
      "section": "Fluency",
      "stem": "Find the value of each of these.",
@@ -34594,6 +34736,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1d",
+     "help": "5c-add",
      "label": "1d",
      "section": "Fluency",
      "stem": "Find the value of each of these.",
@@ -34603,6 +34746,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1e",
+     "help": "5c-add",
      "label": "1e",
      "section": "Fluency",
      "stem": "Find the value of each of these.",
@@ -34612,6 +34756,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1f",
+     "help": "5c-add",
      "label": "1f",
      "section": "Fluency",
      "stem": "Find the value of each of these.",
@@ -34621,6 +34766,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1g",
+     "help": "5c-add",
      "label": "1g",
      "section": "Fluency",
      "stem": "Find the value of each of these.",
@@ -34630,6 +34776,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1h",
+     "help": "5c-add",
      "label": "1h",
      "section": "Fluency",
      "stem": "Find the value of each of these.",
@@ -34639,6 +34786,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "5c-add",
      "label": "2a",
      "section": "Fluency",
      "stem": "Find each of the following.",
@@ -34648,6 +34796,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "5c-add",
      "label": "2b",
      "section": "Fluency",
      "stem": "Find each of the following.",
@@ -34657,6 +34806,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "5c-add",
      "label": "2c",
      "section": "Fluency",
      "stem": "Find each of the following.",
@@ -34666,6 +34816,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "5c-add",
      "label": "2d",
      "section": "Fluency",
      "stem": "Find each of the following.",
@@ -34675,6 +34826,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2e",
+     "help": "5c-add",
      "label": "2e",
      "section": "Fluency",
      "stem": "Find each of the following.",
@@ -34684,6 +34836,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2f",
+     "help": "5c-add",
      "label": "2f",
      "section": "Fluency",
      "stem": "Find each of the following.",
@@ -34693,6 +34846,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2g",
+     "help": "5c-add",
      "label": "2g",
      "section": "Fluency",
      "stem": "Find each of the following.",
@@ -34702,6 +34856,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2h",
+     "help": "5c-add",
      "label": "2h",
      "section": "Fluency",
      "stem": "Find each of the following.",
@@ -34711,6 +34866,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "5c-sub",
      "label": "3a",
      "section": "Fluency",
      "stem": "Find:",
@@ -34720,6 +34876,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "5c-sub",
      "label": "3b",
      "section": "Fluency",
      "stem": "Find:",
@@ -34729,6 +34886,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "5c-sub",
      "label": "3c",
      "section": "Fluency",
      "stem": "Find:",
@@ -34738,6 +34896,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3d",
+     "help": "5c-sub",
      "label": "3d",
      "section": "Fluency",
      "stem": "Find:",
@@ -34747,6 +34906,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "5c-sub",
      "label": "4a",
      "section": "Fluency",
      "stem": "Find:",
@@ -34756,6 +34916,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "5c-sub",
      "label": "4b",
      "section": "Fluency",
      "stem": "Find:",
@@ -34765,6 +34926,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "5c-sub",
      "label": "4c",
      "section": "Fluency",
      "stem": "Find:",
@@ -34774,6 +34936,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "5c-sub",
      "label": "4d",
      "section": "Fluency",
      "stem": "Find:",
@@ -34783,6 +34946,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4e",
+     "help": "5c-sub",
      "label": "4e",
      "section": "Fluency",
      "stem": "Find:",
@@ -34792,6 +34956,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4f",
+     "help": "5c-sub",
      "label": "4f",
      "section": "Fluency",
      "stem": "Find:",
@@ -34801,6 +34966,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "5c-missing",
      "label": "5a",
      "section": "Problem-solving",
      "stem": "Find the missing digits in each of these sums. Each box stands for one digit. Type the missing digits in order, reading each row from left to right and working from the top row down, separated by commas.",
@@ -34814,6 +34980,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "5c-missing",
      "label": "5b",
      "section": "Problem-solving",
      "stem": "Find the missing digits in each of these sums. Each box stands for one digit. Type the missing digits in order, reading each row from left to right and working from the top row down, separated by commas.",
@@ -34827,6 +34994,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "5c-missing",
      "label": "5c",
      "section": "Problem-solving",
      "stem": "Find the missing digits in each of these sums. Each box stands for one digit. Type the missing digits in order, reading each row from left to right and working from the top row down, separated by commas.",
@@ -34841,6 +35009,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5d",
+     "help": "5c-missing",
      "label": "5d",
      "section": "Problem-solving",
      "stem": "Find the missing digits in each of these sums. Each box stands for one digit. Type the missing digits in order, reading each row from left to right and working from the top row down, separated by commas.",
@@ -34856,6 +35025,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6",
+     "help": "5c-word",
      "label": "6",
      "section": "Problem-solving",
      "prompt": "How much greater is $384.6$ than $97.42$?",
@@ -34864,6 +35034,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7",
+     "help": "5c-word",
      "label": "7",
      "section": "Problem-solving",
      "prompt": "Maya wants to raise $\\$150$ for an animal shelter. She already has three donations of $\\$42.30$, $\\$18.60$ and $\\$7.50$. How much more does Maya need to raise?",
@@ -34873,6 +35044,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8",
+     "help": "5c-word",
      "label": "8",
      "section": "Problem-solving",
      "prompt": "The daily rainfalls over a $4$-day long weekend were $14.5$ mm, $4.35$ mm, $0.8$ mm and $27.64$ mm. What was the total rainfall over the long weekend?",
@@ -34882,6 +35054,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9a",
+     "help": "5c-table",
      "label": "9a",
      "section": "Problem-solving",
      "stem": "Complete this addition table. Each cell is the number at the start of its row plus the number at the top of its column.",
@@ -34936,6 +35109,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9b",
+     "help": "5c-table",
      "label": "9b",
      "section": "Problem-solving",
      "stem": "Complete this addition table. Each cell is the number at the start of its row plus the number at the top of its column.",
@@ -34949,6 +35123,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9c",
+     "help": "5c-table",
      "label": "9c",
      "section": "Problem-solving",
      "stem": "Complete this addition table. Each cell is the number at the start of its row plus the number at the top of its column.",
@@ -34961,6 +35136,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9d",
+     "help": "5c-table",
      "label": "9d",
      "section": "Problem-solving",
      "stem": "Complete this addition table. Each cell is the number at the start of its row plus the number at the top of its column.",
@@ -34974,6 +35150,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10",
+     "help": "5c-word",
      "label": "10",
      "section": "Problem-solving",
      "prompt": "Jordan earned $\\$4127.85$ from his part-time job over one year. He paid his parents $\\$25$ per week board for $52$ weeks. He also spent $\\$512.40$ on clothes and $\\$318.75$ on presents for family and friends. He put the rest of his money in the bank. How much did Jordan bank for the year?",
@@ -34983,6 +35160,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11a",
+     "help": "5c-facts",
      "label": "11a",
      "section": "Reasoning",
      "stem": "Every addition fact gives two subtraction facts. Use each addition fact to complete the two subtraction facts.",
@@ -34996,6 +35174,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11b",
+     "help": "5c-facts",
      "label": "11b",
      "section": "Reasoning",
      "stem": "Every addition fact gives two subtraction facts. Use each addition fact to complete the two subtraction facts.",
@@ -35008,6 +35187,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11c",
+     "help": "5c-facts",
      "label": "11c",
      "section": "Reasoning",
      "stem": "Every addition fact gives two subtraction facts. Use each addition fact to complete the two subtraction facts.",
@@ -35020,6 +35200,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11d",
+     "help": "5c-facts",
      "label": "11d",
      "section": "Reasoning",
      "stem": "Every addition fact gives two subtraction facts. Use each addition fact to complete the two subtraction facts.",
@@ -35032,6 +35213,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12a",
+     "help": "5c-reason",
      "label": "12a",
      "section": "Reasoning",
      "stem": "Answer yes or no.",
@@ -35045,6 +35227,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12b",
+     "help": "5c-reason",
      "label": "12b",
      "section": "Reasoning",
      "stem": "Answer yes or no.",
@@ -35058,6 +35241,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14a",
+     "help": "5c-trick",
      "label": "14a",
      "section": "Enrichment",
      "stem": "Try this money trick. Start with $\\$8.31$. Reverse the order of the digits to get $\\$1.38$, and subtract the smaller amount from the larger one. Then reverse the digits of that answer and add the two amounts together.",
@@ -35068,6 +35252,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14b",
+     "help": "5c-trick",
      "label": "14b",
      "section": "Enrichment",
      "stem": "Try this money trick. Start with $\\$8.31$. Reverse the order of the digits to get $\\$1.38$, and subtract the smaller amount from the larger one. Then reverse the digits of that answer and add the two amounts together.",
@@ -35086,6 +35271,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "5d-times",
      "label": "1a",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35095,6 +35281,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "5d-times",
      "label": "1b",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35104,6 +35291,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1c",
+     "help": "5d-times",
      "label": "1c",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35113,6 +35301,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "5d-times",
      "label": "2a",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35122,6 +35311,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "5d-times",
      "label": "2b",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35131,6 +35321,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "5d-times",
      "label": "2c",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35140,6 +35331,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "5d-times",
      "label": "2d",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35149,6 +35341,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2e",
+     "help": "5d-times",
      "label": "2e",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35158,6 +35351,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2f",
+     "help": "5d-times",
      "label": "2f",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35167,6 +35361,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2g",
+     "help": "5d-times",
      "label": "2g",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35176,6 +35371,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2h",
+     "help": "5d-times",
      "label": "2h",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35185,6 +35381,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2i",
+     "help": "5d-times",
      "label": "2i",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35194,6 +35391,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2j",
+     "help": "5d-times",
      "label": "2j",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35203,6 +35401,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2k",
+     "help": "5d-times",
      "label": "2k",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35212,6 +35411,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2l",
+     "help": "5d-times",
      "label": "2l",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35221,6 +35421,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "5d-divide",
      "label": "3a",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35230,6 +35431,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "5d-divide",
      "label": "3b",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35239,6 +35441,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "5d-divide",
      "label": "3c",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35248,6 +35451,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3d",
+     "help": "5d-divide",
      "label": "3d",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35257,6 +35461,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3e",
+     "help": "5d-divide",
      "label": "3e",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35266,6 +35471,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3f",
+     "help": "5d-divide",
      "label": "3f",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35275,6 +35481,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3g",
+     "help": "5d-divide",
      "label": "3g",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35284,6 +35491,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3h",
+     "help": "5d-divide",
      "label": "3h",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35293,6 +35501,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3i",
+     "help": "5d-divide",
      "label": "3i",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35302,6 +35511,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3j",
+     "help": "5d-divide",
      "label": "3j",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35311,6 +35521,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3k",
+     "help": "5d-divide",
      "label": "3k",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35320,6 +35531,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3l",
+     "help": "5d-divide",
      "label": "3l",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35329,6 +35541,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "5d-mixed",
      "label": "4a",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35338,6 +35551,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "5d-mixed",
      "label": "4b",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35347,6 +35561,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "5d-mixed",
      "label": "4c",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35356,6 +35571,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "5d-mixed",
      "label": "4d",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35365,6 +35581,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4e",
+     "help": "5d-mixed",
      "label": "4e",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35374,6 +35591,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4f",
+     "help": "5d-mixed",
      "label": "4f",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35383,6 +35601,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "5d-mixed",
      "label": "5a",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35392,6 +35611,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "5d-mixed",
      "label": "5b",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35401,6 +35621,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "5d-mixed",
      "label": "5c",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35410,6 +35631,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5d",
+     "help": "5d-mixed",
      "label": "5d",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35419,6 +35641,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5e",
+     "help": "5d-mixed",
      "label": "5e",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35428,6 +35651,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5f",
+     "help": "5d-mixed",
      "label": "5f",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35437,6 +35661,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5g",
+     "help": "5d-mixed",
      "label": "5g",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35446,6 +35671,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5h",
+     "help": "5d-mixed",
      "label": "5h",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35455,6 +35681,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5i",
+     "help": "5d-mixed",
      "label": "5i",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35464,6 +35691,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6a",
+     "help": "5d-order",
      "label": "6a",
      "section": "Problem-solving",
      "stem": "Evaluate each of these, using the order of operations.",
@@ -35473,6 +35701,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6b",
+     "help": "5d-order",
      "label": "6b",
      "section": "Problem-solving",
      "stem": "Evaluate each of these, using the order of operations.",
@@ -35482,6 +35711,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6c",
+     "help": "5d-order",
      "label": "6c",
      "section": "Problem-solving",
      "stem": "Evaluate each of these, using the order of operations.",
@@ -35491,6 +35721,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6d",
+     "help": "5d-order",
      "label": "6d",
      "section": "Problem-solving",
      "stem": "Evaluate each of these, using the order of operations.",
@@ -35500,6 +35731,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6e",
+     "help": "5d-order",
      "label": "6e",
      "section": "Problem-solving",
      "stem": "Evaluate each of these, using the order of operations.",
@@ -35509,6 +35741,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6f",
+     "help": "5d-order",
      "label": "6f",
      "section": "Problem-solving",
      "stem": "Evaluate each of these, using the order of operations.",
@@ -35518,6 +35751,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6g",
+     "help": "5d-order",
      "label": "6g",
      "section": "Problem-solving",
      "stem": "Evaluate each of these, using the order of operations.",
@@ -35527,6 +35761,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6h",
+     "help": "5d-order",
      "label": "6h",
      "section": "Problem-solving",
      "stem": "Evaluate each of these, using the order of operations.",
@@ -35536,6 +35771,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7",
+     "help": "5d-word",
      "label": "7",
      "section": "Problem-solving",
      "prompt": "A service station charges $\\$1.94$ per litre of petrol. How much will it cost Ahmed to buy $100$ litres of petrol?",
@@ -35545,6 +35781,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8a",
+     "help": "5d-word",
      "label": "8a",
      "section": "Problem-solving",
      "stem": "A juice factory makes $1500$ litres of apple juice per day.",
@@ -35555,6 +35792,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8b",
+     "help": "5d-word",
      "label": "8b",
      "section": "Problem-solving",
      "stem": "A juice factory makes $1500$ litres of apple juice per day.",
@@ -35564,6 +35802,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9a",
+     "help": "5d-word",
      "label": "9a",
      "section": "Problem-solving",
      "stem": "Ravi has a phone plan that charges $4$ cents per text message. On average, he sends $10$ text messages per day.",
@@ -35574,6 +35813,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9b",
+     "help": "5d-word",
      "label": "9b",
      "section": "Problem-solving",
      "stem": "Ravi has a phone plan that charges $4$ cents per text message. On average, he sends $10$ text messages per day.",
@@ -35584,6 +35824,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10",
+     "help": "5d-word",
      "label": "10",
      "section": "Problem-solving",
      "prompt": "Kim wants to buy $10\\,000$ shares at $\\$3.47$ per share. There is also a $\\$150$ brokerage fee. How much will it cost Kim to buy the shares?",
@@ -35593,6 +35834,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11",
+     "help": "5d-word",
      "label": "11",
      "section": "Reasoning",
      "prompt": "A paperclip weighs $0.00045$ kg. An empty paperclip box weighs $0.0062$ kg. Find the total weight of $1000$ boxes, each holding $100$ paperclips.",
@@ -35602,6 +35844,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12a",
+     "help": "5d-power",
      "label": "12a",
      "section": "Reasoning",
      "stem": "For each pair, find the power of $10$ (such as $10$, $100$ or $1000$) that turns the starting number into the answer.",
@@ -35611,6 +35854,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12b",
+     "help": "5d-power",
      "label": "12b",
      "section": "Reasoning",
      "stem": "For each pair, find the power of $10$ (such as $10$, $100$ or $1000$) that turns the starting number into the answer.",
@@ -35620,6 +35864,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12c",
+     "help": "5d-power",
      "label": "12c",
      "section": "Reasoning",
      "stem": "For each pair, find the power of $10$ (such as $10$, $100$ or $1000$) that turns the starting number into the answer.",
@@ -35629,6 +35874,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13",
+     "help": "5d-power",
      "label": "13",
      "section": "Reasoning",
      "prompt": "The number $23\\,456.7891$ goes through five operations. The first four are $\\times 100$, $\\div 10\\,000$, $\\div 10$ and $\\times 1000$. The final number is $2.34567891$. What is the fifth operation?",
@@ -35644,6 +35890,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14a",
+     "help": "5d-standard",
      "label": "14a",
      "section": "Enrichment",
      "stem": "Very large numbers can be written in standard form (scientific notation). For example, $150\\,000\\,000 = 1.5 \\times 10^8$, because the decimal point moves $8$ places.",
@@ -35654,6 +35901,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14b",
+     "help": "5d-standard",
      "label": "14b",
      "section": "Enrichment",
      "stem": "Very large numbers can be written in standard form (scientific notation). For example, $150\\,000\\,000 = 1.5 \\times 10^8$, because the decimal point moves $8$ places.",
@@ -35664,6 +35912,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14c",
+     "help": "5d-standard",
      "label": "14c",
      "section": "Enrichment",
      "stem": "Very large numbers can be written in standard form (scientific notation). For example, $150\\,000\\,000 = 1.5 \\times 10^8$, because the decimal point moves $8$ places.",
@@ -35674,6 +35923,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14d",
+     "help": "5d-standard",
      "label": "14d",
      "section": "Enrichment",
      "stem": "Very large numbers can be written in standard form (scientific notation). For example, $150\\,000\\,000 = 1.5 \\times 10^8$, because the decimal point moves $8$ places.",
@@ -35684,6 +35934,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14e",
+     "help": "5d-standard",
      "label": "14e",
      "section": "Enrichment",
      "stem": "Very large numbers can be written in standard form (scientific notation). For example, $150\\,000\\,000 = 1.5 \\times 10^8$, because the decimal point moves $8$ places.",
@@ -35702,6 +35953,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "5e-estimate",
      "label": "1a",
      "section": "Fluency",
      "stem": "Estimate each product by first rounding each decimal to the nearest whole number.",
@@ -35711,6 +35963,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "5e-estimate",
      "label": "1b",
      "section": "Fluency",
      "stem": "Estimate each product by first rounding each decimal to the nearest whole number.",
@@ -35720,6 +35973,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1c",
+     "help": "5e-estimate",
      "label": "1c",
      "section": "Fluency",
      "stem": "Estimate each product by first rounding each decimal to the nearest whole number.",
@@ -35729,6 +35983,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1d",
+     "help": "5e-estimate",
      "label": "1d",
      "section": "Fluency",
      "stem": "Estimate each product by first rounding each decimal to the nearest whole number.",
@@ -35738,6 +35993,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "5e-by-whole",
      "label": "2a",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35747,6 +36003,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "5e-by-whole",
      "label": "2b",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35756,6 +36013,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "5e-by-whole",
      "label": "2c",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35765,6 +36023,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "5e-by-whole",
      "label": "2d",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35774,6 +36033,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "5e-decimals",
      "label": "3a",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35783,6 +36043,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "5e-decimals",
      "label": "3b",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35792,6 +36053,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "5e-decimals",
      "label": "3c",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35801,6 +36063,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3d",
+     "help": "5e-decimals",
      "label": "3d",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35810,6 +36073,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3e",
+     "help": "5e-decimals",
      "label": "3e",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35819,6 +36083,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3f",
+     "help": "5e-decimals",
      "label": "3f",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35828,6 +36093,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3g",
+     "help": "5e-decimals",
      "label": "3g",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35837,6 +36103,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3h",
+     "help": "5e-decimals",
      "label": "3h",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35846,6 +36113,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3i",
+     "help": "5e-decimals",
      "label": "3i",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35855,6 +36123,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3j",
+     "help": "5e-decimals",
      "label": "3j",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35864,6 +36133,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3k",
+     "help": "5e-decimals",
      "label": "3k",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35873,6 +36143,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3l",
+     "help": "5e-decimals",
      "label": "3l",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35882,6 +36153,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "5e-tens",
      "label": "4a",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35891,6 +36163,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "5e-tens",
      "label": "4b",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35900,6 +36173,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "5e-tens",
      "label": "4c",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35909,6 +36183,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "5e-tens",
      "label": "4d",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35918,6 +36193,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4e",
+     "help": "5e-tens",
      "label": "4e",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35927,6 +36203,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4f",
+     "help": "5e-tens",
      "label": "4f",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35936,6 +36213,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4g",
+     "help": "5e-tens",
      "label": "4g",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35945,6 +36223,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4h",
+     "help": "5e-tens",
      "label": "4h",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35954,6 +36233,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4i",
+     "help": "5e-tens",
      "label": "4i",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -35963,6 +36243,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "5e-money",
      "label": "5a",
      "section": "Fluency",
      "stem": "Calculate, then round your answer to the nearest dollar.",
@@ -35973,6 +36254,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "5e-money",
      "label": "5b",
      "section": "Fluency",
      "stem": "Calculate, then round your answer to the nearest dollar.",
@@ -35983,6 +36265,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "5e-money",
      "label": "5c",
      "section": "Fluency",
      "stem": "Calculate, then round your answer to the nearest dollar.",
@@ -35993,6 +36276,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5d",
+     "help": "5e-money",
      "label": "5d",
      "section": "Fluency",
      "stem": "Calculate, then round your answer to the nearest dollar.",
@@ -36003,6 +36287,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5e",
+     "help": "5e-money",
      "label": "5e",
      "section": "Fluency",
      "stem": "Calculate, then round your answer to the nearest dollar.",
@@ -36013,6 +36298,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5f",
+     "help": "5e-money",
      "label": "5f",
      "section": "Fluency",
      "stem": "Calculate, then round your answer to the nearest dollar.",
@@ -36023,6 +36309,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5g",
+     "help": "5e-money",
      "label": "5g",
      "section": "Fluency",
      "stem": "Calculate, then round your answer to the nearest dollar.",
@@ -36033,6 +36320,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5h",
+     "help": "5e-money",
      "label": "5h",
      "section": "Fluency",
      "stem": "Calculate, then round your answer to the nearest dollar.",
@@ -36043,6 +36331,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5i",
+     "help": "5e-money",
      "label": "5i",
      "section": "Fluency",
      "stem": "Calculate, then round your answer to the nearest dollar.",
@@ -36053,6 +36342,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6a",
+     "help": "5e-word",
      "label": "6a",
      "section": "Problem-solving",
      "stem": "Use decimal multiplication to answer each of these.",
@@ -36063,6 +36353,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6b",
+     "help": "5e-word",
      "label": "6b",
      "section": "Problem-solving",
      "stem": "Use decimal multiplication to answer each of these.",
@@ -36073,6 +36364,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6c",
+     "help": "5e-word",
      "label": "6c",
      "section": "Problem-solving",
      "stem": "Use decimal multiplication to answer each of these.",
@@ -36083,6 +36375,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7a",
+     "help": "5e-word",
      "label": "7a",
      "section": "Problem-solving",
      "stem": "Rosa is building some garden beds. She needs $24$ lengths of timber, each $1.8$ m long.",
@@ -36093,6 +36386,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7b",
+     "help": "5e-word",
      "label": "7b",
      "section": "Problem-solving",
      "stem": "Rosa is building some garden beds. She needs $24$ lengths of timber, each $1.8$ m long.",
@@ -36103,6 +36397,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8",
+     "help": "5e-word",
      "label": "8",
      "section": "Problem-solving",
      "prompt": "An electrician charges $\\$108.00$ per hour. How much does she charge for a job that takes $10.75$ hours?",
@@ -36112,6 +36407,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9a",
+     "help": "5e-word",
      "label": "9a",
      "section": "Problem-solving",
      "stem": "A small car can travel $15.6$ km on $1$ litre of petrol.",
@@ -36122,6 +36418,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9b",
+     "help": "5e-word",
      "label": "9b",
      "section": "Problem-solving",
      "stem": "A small car can travel $15.6$ km on $1$ litre of petrol.",
@@ -36135,6 +36432,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9c",
+     "help": "5e-word",
      "label": "9c",
      "section": "Problem-solving",
      "stem": "A small car can travel $15.6$ km on $1$ litre of petrol.",
@@ -36145,6 +36443,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10a",
+     "help": "5e-estimate",
      "label": "10a",
      "section": "Reasoning",
      "stem": "An estimate is found by rounding each number to the nearest whole number. Without working out the exact answer, decide whether each product is higher or lower than its estimate.",
@@ -36158,6 +36457,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10b",
+     "help": "5e-estimate",
      "label": "10b",
      "section": "Reasoning",
      "stem": "An estimate is found by rounding each number to the nearest whole number. Without working out the exact answer, decide whether each product is higher or lower than its estimate.",
@@ -36171,6 +36471,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13a",
+     "help": "5e-fact",
      "label": "13a",
      "section": "Reasoning",
      "stem": "Use the whole-number fact to find the decimal product.",
@@ -36180,6 +36481,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13b",
+     "help": "5e-fact",
      "label": "13b",
      "section": "Reasoning",
      "stem": "Use the whole-number fact to find the decimal product.",
@@ -36189,6 +36491,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13c",
+     "help": "5e-fact",
      "label": "13c",
      "section": "Reasoning",
      "stem": "Use the whole-number fact to find the decimal product.",
@@ -36198,6 +36501,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13d",
+     "help": "5e-fact",
      "label": "13d",
      "section": "Reasoning",
      "stem": "Use the whole-number fact to find the decimal product.",
@@ -36207,6 +36511,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14a",
+     "help": "5e-word",
      "label": "14a",
      "section": "Enrichment",
      "stem": "A shop cash register multiplies each quantity by its price and adds up the bill. Liam buys: $3$ muesli bars at $\\$1.65$ each; a bottle of dishwashing liquid at $\\$3.85$; $2$ loaves of bread at $\\$3.40$ each; $1.5$ kg of mince at $\\$11.80$ per kg; a magazine at $\\$6.50$; $6$ bananas at $\\$0.45$ each; $2$ cartons of eggs at $\\$5.20$ each.",
@@ -36217,6 +36522,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14b",
+     "help": "5e-word",
      "label": "14b",
      "section": "Enrichment",
      "stem": "A shop cash register multiplies each quantity by its price and adds up the bill. Liam buys: $3$ muesli bars at $\\$1.65$ each; a bottle of dishwashing liquid at $\\$3.85$; $2$ loaves of bread at $\\$3.40$ each; $1.5$ kg of mince at $\\$11.80$ per kg; a magazine at $\\$6.50$; $6$ bananas at $\\$0.45$ each; $2$ cartons of eggs at $\\$5.20$ each.",
@@ -36235,6 +36541,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "5f-short",
      "label": "1a",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -36244,6 +36551,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "5f-short",
      "label": "1b",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -36253,6 +36561,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1c",
+     "help": "5f-short",
      "label": "1c",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -36262,6 +36571,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1d",
+     "help": "5f-short",
      "label": "1d",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -36271,6 +36581,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "5f-short",
      "label": "2a",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -36280,6 +36591,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "5f-short",
      "label": "2b",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -36289,6 +36601,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "5f-short",
      "label": "2c",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -36298,6 +36611,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "5f-short",
      "label": "2d",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -36307,6 +36621,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2e",
+     "help": "5f-short",
      "label": "2e",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -36316,6 +36631,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2f",
+     "help": "5f-short",
      "label": "2f",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -36325,6 +36641,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2g",
+     "help": "5f-short",
      "label": "2g",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -36334,6 +36651,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2h",
+     "help": "5f-short",
      "label": "2h",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -36343,6 +36661,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2i",
+     "help": "5f-short",
      "label": "2i",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -36352,6 +36671,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2j",
+     "help": "5f-short",
      "label": "2j",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -36361,6 +36681,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2k",
+     "help": "5f-short",
      "label": "2k",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -36370,6 +36691,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2l",
+     "help": "5f-short",
      "label": "2l",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -36379,6 +36701,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "5f-by-decimal",
      "label": "3a",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -36388,6 +36711,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "5f-by-decimal",
      "label": "3b",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -36397,6 +36721,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "5f-by-decimal",
      "label": "3c",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -36406,6 +36731,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3d",
+     "help": "5f-by-decimal",
      "label": "3d",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -36415,6 +36741,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3e",
+     "help": "5f-by-decimal",
      "label": "3e",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -36424,6 +36751,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3f",
+     "help": "5f-by-decimal",
      "label": "3f",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -36433,6 +36761,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3g",
+     "help": "5f-by-decimal",
      "label": "3g",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -36442,6 +36771,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3h",
+     "help": "5f-by-decimal",
      "label": "3h",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -36451,6 +36781,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "5f-by-decimal",
      "label": "4a",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -36460,6 +36791,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "5f-by-decimal",
      "label": "4b",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -36469,6 +36801,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "5f-by-decimal",
      "label": "4c",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -36478,6 +36811,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "5f-by-decimal",
      "label": "4d",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -36487,6 +36821,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "5f-tens",
      "label": "5a",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -36496,6 +36831,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "5f-tens",
      "label": "5b",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -36505,6 +36841,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "5f-tens",
      "label": "5c",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -36514,6 +36851,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5d",
+     "help": "5f-tens",
      "label": "5d",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -36523,6 +36861,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5e",
+     "help": "5f-tens",
      "label": "5e",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -36532,6 +36871,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5f",
+     "help": "5f-tens",
      "label": "5f",
      "section": "Fluency",
      "stem": "Calculate:",
@@ -36541,6 +36881,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6a",
+     "help": "5f-round",
      "label": "6a",
      "section": "Fluency",
      "stem": "Calculate the following, rounding your answers to $2$ decimal places.",
@@ -36551,6 +36892,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6b",
+     "help": "5f-round",
      "label": "6b",
      "section": "Fluency",
      "stem": "Calculate the following, rounding your answers to $2$ decimal places.",
@@ -36561,6 +36903,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6c",
+     "help": "5f-round",
      "label": "6c",
      "section": "Fluency",
      "stem": "Calculate the following, rounding your answers to $2$ decimal places.",
@@ -36571,6 +36914,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6d",
+     "help": "5f-round",
      "label": "6d",
      "section": "Fluency",
      "stem": "Calculate the following, rounding your answers to $2$ decimal places.",
@@ -36581,6 +36925,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6e",
+     "help": "5f-round",
      "label": "6e",
      "section": "Fluency",
      "stem": "Calculate the following, rounding your answers to $2$ decimal places.",
@@ -36591,6 +36936,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6f",
+     "help": "5f-round",
      "label": "6f",
      "section": "Fluency",
      "stem": "Calculate the following, rounding your answers to $2$ decimal places.",
@@ -36601,6 +36947,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7a",
+     "help": "5f-order",
      "label": "7a",
      "section": "Problem-solving",
      "stem": "Calculate the following, using the order of operations.",
@@ -36610,6 +36957,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7b",
+     "help": "5f-order",
      "label": "7b",
      "section": "Problem-solving",
      "stem": "Calculate the following, using the order of operations.",
@@ -36619,6 +36967,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7c",
+     "help": "5f-order",
      "label": "7c",
      "section": "Problem-solving",
      "stem": "Calculate the following, using the order of operations.",
@@ -36628,6 +36977,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7d",
+     "help": "5f-order",
      "label": "7d",
      "section": "Problem-solving",
      "stem": "Calculate the following, using the order of operations.",
@@ -36637,6 +36987,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7e",
+     "help": "5f-order",
      "label": "7e",
      "section": "Problem-solving",
      "stem": "Calculate the following, using the order of operations.",
@@ -36646,6 +36997,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7f",
+     "help": "5f-order",
      "label": "7f",
      "section": "Problem-solving",
      "stem": "Calculate the following, using the order of operations.",
@@ -36655,6 +37007,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8a",
+     "help": "5f-missing",
      "label": "8a",
      "section": "Problem-solving",
      "stem": "Find the missing number in each division. Check by multiplying.",
@@ -36664,6 +37017,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8b",
+     "help": "5f-missing",
      "label": "8b",
      "section": "Problem-solving",
      "stem": "Find the missing number in each division. Check by multiplying.",
@@ -36673,6 +37027,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8c",
+     "help": "5f-missing",
      "label": "8c",
      "section": "Problem-solving",
      "stem": "Find the missing number in each division. Check by multiplying.",
@@ -36682,6 +37037,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8d",
+     "help": "5f-missing",
      "label": "8d",
      "section": "Problem-solving",
      "stem": "Find the missing number in each division. Check by multiplying.",
@@ -36691,6 +37047,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9",
+     "help": "5f-word",
      "label": "9",
      "section": "Problem-solving",
      "prompt": "Mia paid $\\$15.84$ to fill her leaf blower and hedge trimmer with $9$ L of fuel. What was the price of the fuel per litre?",
@@ -36700,6 +37057,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10",
+     "help": "5f-complete",
      "label": "10",
      "section": "Problem-solving",
      "prompt": "Tariq makes wooden photo frames. He buys $187.3$ m of timber, and each frame needs $80$ cm ($0.8$ m) of timber. How many complete frames can he make?",
@@ -36709,6 +37067,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11",
+     "help": "5f-complete",
      "label": "11",
      "section": "Problem-solving",
      "prompt": "A drink bottle holds $450$ mL. How many bottles can be completely filled from a water cooler that holds $14$ L?",
@@ -36718,6 +37077,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12a",
+     "help": "5f-word",
      "label": "12a",
      "section": "Problem-solving",
      "stem": "Seven friends go out for dinner and share the bill of $\\$472.15$ equally.",
@@ -36728,6 +37088,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12b",
+     "help": "5f-word",
      "label": "12b",
      "section": "Problem-solving",
      "stem": "Seven friends go out for dinner and share the bill of $\\$472.15$ equally.",
@@ -36738,6 +37099,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13a",
+     "help": "5f-word",
      "label": "13a",
      "section": "Reasoning",
      "stem": "Leon buys $1.5$ kg of pears for $\\$5.70$. His friend Ruby buys $800$ g of grapes for $\\$3.36$ at the same market.",
@@ -36748,6 +37110,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13b",
+     "help": "5f-word",
      "label": "13b",
      "section": "Reasoning",
      "stem": "Leon buys $1.5$ kg of pears for $\\$5.70$. His friend Ruby buys $800$ g of grapes for $\\$3.36$ at the same market.",
@@ -36758,6 +37121,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13c",
+     "help": "5f-word",
      "label": "13c",
      "section": "Reasoning",
      "stem": "Leon buys $1.5$ kg of pears for $\\$5.70$. His friend Ruby buys $800$ g of grapes for $\\$3.36$ at the same market.",
@@ -36771,6 +37135,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14a",
+     "help": "5f-word",
      "label": "14a",
      "section": "Reasoning",
      "stem": "A speed camera measures a car to be $152.7$ m away. Exactly $0.5$ seconds later, it measures the same car to be $143.2$ m away.",
@@ -36781,6 +37146,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14b",
+     "help": "5f-word",
      "label": "14b",
      "section": "Reasoning",
      "stem": "A speed camera measures a car to be $152.7$ m away. Exactly $0.5$ seconds later, it measures the same car to be $143.2$ m away.",
@@ -36791,6 +37157,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14c",
+     "help": "5f-word",
      "label": "14c",
      "section": "Reasoning",
      "stem": "A speed camera measures a car to be $152.7$ m away. Exactly $0.5$ seconds later, it measures the same car to be $143.2$ m away.",
@@ -36804,6 +37171,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15a",
+     "help": "5f-fact",
      "label": "15a",
      "section": "Reasoning",
      "stem": "Given that $36.12 \\times 2.85 = 102.942$, write down the value of each division without using a calculator.",
@@ -36813,6 +37181,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15b",
+     "help": "5f-fact",
      "label": "15b",
      "section": "Reasoning",
      "stem": "Given that $36.12 \\times 2.85 = 102.942$, write down the value of each division without using a calculator.",
@@ -36822,6 +37191,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15c",
+     "help": "5f-fact",
      "label": "15c",
      "section": "Reasoning",
      "stem": "Given that $36.12 \\times 2.85 = 102.942$, write down the value of each division without using a calculator.",
@@ -36831,6 +37201,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15d",
+     "help": "5f-fact",
      "label": "15d",
      "section": "Reasoning",
      "stem": "Given that $36.12 \\times 2.85 = 102.942$, write down the value of each division without using a calculator.",
@@ -36840,6 +37211,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15e",
+     "help": "5f-fact",
      "label": "15e",
      "section": "Reasoning",
      "stem": "Given that $36.12 \\times 2.85 = 102.942$, write down the value of each division without using a calculator.",
@@ -36849,6 +37221,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15f",
+     "help": "5f-fact",
      "label": "15f",
      "section": "Reasoning",
      "stem": "Given that $36.12 \\times 2.85 = 102.942$, write down the value of each division without using a calculator.",
@@ -36858,6 +37231,7 @@ window.H3_BANK = {
     },
     {
      "id": "q16a",
+     "help": "5f-backwards",
      "label": "16a",
      "section": "Enrichment",
      "stem": "I am thinking of a number. Use the clues to find it.",
@@ -36867,6 +37241,7 @@ window.H3_BANK = {
     },
     {
      "id": "q16b",
+     "help": "5f-backwards",
      "label": "16b",
      "section": "Enrichment",
      "stem": "I am thinking of a number. Use the clues to find it.",
@@ -36876,6 +37251,7 @@ window.H3_BANK = {
     },
     {
      "id": "q16c",
+     "help": "5f-backwards",
      "label": "16c",
      "section": "Enrichment",
      "stem": "I am thinking of a number. Use the clues to find it.",
@@ -36885,6 +37261,7 @@ window.H3_BANK = {
     },
     {
      "id": "q16d",
+     "help": "5f-backwards",
      "label": "16d",
      "section": "Enrichment",
      "stem": "I am thinking of a number. Use the clues to find it.",
@@ -36894,6 +37271,7 @@ window.H3_BANK = {
     },
     {
      "id": "q16e",
+     "help": "5f-backwards",
      "label": "16e",
      "section": "Enrichment",
      "stem": "I am thinking of a number. Use the clues to find it.",
@@ -36911,6 +37289,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "5g-to-fraction",
      "label": "1a",
      "section": "Fluency",
      "stem": "Convert the following decimals to fractions in their simplest form.",
@@ -36923,6 +37302,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "5g-to-fraction",
      "label": "1b",
      "section": "Fluency",
      "stem": "Convert the following decimals to fractions in their simplest form.",
@@ -36934,6 +37314,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1c",
+     "help": "5g-to-fraction",
      "label": "1c",
      "section": "Fluency",
      "stem": "Convert the following decimals to fractions in their simplest form.",
@@ -36945,6 +37326,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1d",
+     "help": "5g-to-fraction",
      "label": "1d",
      "section": "Fluency",
      "stem": "Convert the following decimals to fractions in their simplest form.",
@@ -36956,6 +37338,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "5g-to-fraction",
      "label": "2a",
      "section": "Fluency",
      "stem": "Convert the following decimals to fractions in their simplest form.",
@@ -36968,6 +37351,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "5g-to-fraction",
      "label": "2b",
      "section": "Fluency",
      "stem": "Convert the following decimals to fractions in their simplest form.",
@@ -36979,6 +37363,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "5g-to-fraction",
      "label": "2c",
      "section": "Fluency",
      "stem": "Convert the following decimals to fractions in their simplest form.",
@@ -36990,6 +37375,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "5g-to-fraction",
      "label": "2d",
      "section": "Fluency",
      "stem": "Convert the following decimals to fractions in their simplest form.",
@@ -37001,6 +37387,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "5g-to-fraction",
      "label": "3a",
      "section": "Fluency",
      "stem": "Convert the following decimals to fractions or mixed numerals in their simplest form.",
@@ -37013,6 +37400,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "5g-to-fraction",
      "label": "3b",
      "section": "Fluency",
      "stem": "Convert the following decimals to fractions or mixed numerals in their simplest form.",
@@ -37025,6 +37413,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "5g-to-fraction",
      "label": "3c",
      "section": "Fluency",
      "stem": "Convert the following decimals to fractions or mixed numerals in their simplest form.",
@@ -37036,6 +37425,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3d",
+     "help": "5g-to-fraction",
      "label": "3d",
      "section": "Fluency",
      "stem": "Convert the following decimals to fractions or mixed numerals in their simplest form.",
@@ -37047,6 +37437,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3e",
+     "help": "5g-to-fraction",
      "label": "3e",
      "section": "Fluency",
      "stem": "Convert the following decimals to fractions or mixed numerals in their simplest form.",
@@ -37058,6 +37449,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3f",
+     "help": "5g-to-fraction",
      "label": "3f",
      "section": "Fluency",
      "stem": "Convert the following decimals to fractions or mixed numerals in their simplest form.",
@@ -37069,6 +37461,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3g",
+     "help": "5g-to-fraction",
      "label": "3g",
      "section": "Fluency",
      "stem": "Convert the following decimals to fractions or mixed numerals in their simplest form.",
@@ -37080,6 +37473,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3h",
+     "help": "5g-to-fraction",
      "label": "3h",
      "section": "Fluency",
      "stem": "Convert the following decimals to fractions or mixed numerals in their simplest form.",
@@ -37091,6 +37485,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "5g-tenths",
      "label": "4a",
      "section": "Fluency",
      "stem": "Convert each of these fractions to decimals.",
@@ -37101,6 +37496,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "5g-tenths",
      "label": "4b",
      "section": "Fluency",
      "stem": "Convert each of these fractions to decimals.",
@@ -37111,6 +37507,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "5g-tenths",
      "label": "4c",
      "section": "Fluency",
      "stem": "Convert each of these fractions to decimals.",
@@ -37121,6 +37518,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "5g-tenths",
      "label": "4d",
      "section": "Fluency",
      "stem": "Convert each of these fractions to decimals.",
@@ -37131,6 +37529,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4e",
+     "help": "5g-tenths",
      "label": "4e",
      "section": "Fluency",
      "stem": "Convert each of these fractions to decimals.",
@@ -37141,6 +37540,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4f",
+     "help": "5g-tenths",
      "label": "4f",
      "section": "Fluency",
      "stem": "Convert each of these fractions to decimals.",
@@ -37151,6 +37551,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4g",
+     "help": "5g-tenths",
      "label": "4g",
      "section": "Fluency",
      "stem": "Convert each of these fractions to decimals.",
@@ -37161,6 +37562,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4h",
+     "help": "5g-tenths",
      "label": "4h",
      "section": "Fluency",
      "stem": "Convert each of these fractions to decimals.",
@@ -37171,6 +37573,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "5g-equivalent",
      "label": "5a",
      "section": "Fluency",
      "stem": "Convert the following fractions to decimals, by first changing the fraction to an equivalent fraction whose denominator is a power of $10$.",
@@ -37181,6 +37584,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "5g-equivalent",
      "label": "5b",
      "section": "Fluency",
      "stem": "Convert the following fractions to decimals, by first changing the fraction to an equivalent fraction whose denominator is a power of $10$.",
@@ -37191,6 +37595,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "5g-equivalent",
      "label": "5c",
      "section": "Fluency",
      "stem": "Convert the following fractions to decimals, by first changing the fraction to an equivalent fraction whose denominator is a power of $10$.",
@@ -37201,6 +37606,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5d",
+     "help": "5g-equivalent",
      "label": "5d",
      "section": "Fluency",
      "stem": "Convert the following fractions to decimals, by first changing the fraction to an equivalent fraction whose denominator is a power of $10$.",
@@ -37211,6 +37617,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5e",
+     "help": "5g-equivalent",
      "label": "5e",
      "section": "Fluency",
      "stem": "Convert the following fractions to decimals, by first changing the fraction to an equivalent fraction whose denominator is a power of $10$.",
@@ -37221,6 +37628,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5f",
+     "help": "5g-equivalent",
      "label": "5f",
      "section": "Fluency",
      "stem": "Convert the following fractions to decimals, by first changing the fraction to an equivalent fraction whose denominator is a power of $10$.",
@@ -37231,6 +37639,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5g",
+     "help": "5g-equivalent",
      "label": "5g",
      "section": "Fluency",
      "stem": "Convert the following fractions to decimals, by first changing the fraction to an equivalent fraction whose denominator is a power of $10$.",
@@ -37241,6 +37650,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5h",
+     "help": "5g-equivalent",
      "label": "5h",
      "section": "Fluency",
      "stem": "Convert the following fractions to decimals, by first changing the fraction to an equivalent fraction whose denominator is a power of $10$.",
@@ -37251,6 +37661,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6a",
+     "help": "5g-divide",
      "label": "6a",
      "section": "Fluency",
      "stem": "Convert the following fractions to decimals by dividing the numerator by the denominator. If the decimal keeps repeating, round it to $3$ decimal places.",
@@ -37261,6 +37672,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6b",
+     "help": "5g-divide",
      "label": "6b",
      "section": "Fluency",
      "stem": "Convert the following fractions to decimals by dividing the numerator by the denominator. If the decimal keeps repeating, round it to $3$ decimal places.",
@@ -37271,6 +37683,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6c",
+     "help": "5g-divide",
      "label": "6c",
      "section": "Fluency",
      "stem": "Convert the following fractions to decimals by dividing the numerator by the denominator. If the decimal keeps repeating, round it to $3$ decimal places.",
@@ -37281,6 +37694,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6d",
+     "help": "5g-divide",
      "label": "6d",
      "section": "Fluency",
      "stem": "Convert the following fractions to decimals by dividing the numerator by the denominator. If the decimal keeps repeating, round it to $3$ decimal places.",
@@ -37291,6 +37705,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6e",
+     "help": "5g-divide",
      "label": "6e",
      "section": "Fluency",
      "stem": "Convert the following fractions to decimals by dividing the numerator by the denominator. If the decimal keeps repeating, round it to $3$ decimal places.",
@@ -37301,6 +37716,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6f",
+     "help": "5g-divide",
      "label": "6f",
      "section": "Fluency",
      "stem": "Convert the following fractions to decimals by dividing the numerator by the denominator. If the decimal keeps repeating, round it to $3$ decimal places.",
@@ -37311,6 +37727,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6g",
+     "help": "5g-divide",
      "label": "6g",
      "section": "Fluency",
      "stem": "Convert the following fractions to decimals by dividing the numerator by the denominator. If the decimal keeps repeating, round it to $3$ decimal places.",
@@ -37321,6 +37738,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6h",
+     "help": "5g-divide",
      "label": "6h",
      "section": "Fluency",
      "stem": "Convert the following fractions to decimals by dividing the numerator by the denominator. If the decimal keeps repeating, round it to $3$ decimal places.",
@@ -37331,6 +37749,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7a",
+     "help": "5g-divide",
      "label": "7a",
      "section": "Fluency",
      "stem": "Here are some fraction and decimal tables. Give the decimal that goes in each gap. It is worth learning these by heart. If the decimal keeps repeating, round it to $3$ decimal places.",
@@ -37370,6 +37789,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7b",
+     "help": "5g-divide",
      "label": "7b",
      "section": "Fluency",
      "stem": "Here are some fraction and decimal tables. Give the decimal that goes in each gap. It is worth learning these by heart. If the decimal keeps repeating, round it to $3$ decimal places.",
@@ -37409,6 +37829,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7c",
+     "help": "5g-divide",
      "label": "7c",
      "section": "Fluency",
      "stem": "Here are some fraction and decimal tables. Give the decimal that goes in each gap. It is worth learning these by heart. If the decimal keeps repeating, round it to $3$ decimal places.",
@@ -37444,6 +37865,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7d",
+     "help": "5g-divide",
      "label": "7d",
      "section": "Fluency",
      "stem": "Here are some fraction and decimal tables. Give the decimal that goes in each gap. It is worth learning these by heart. If the decimal keeps repeating, round it to $3$ decimal places.",
@@ -37479,6 +37901,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7e",
+     "help": "5g-divide",
      "label": "7e",
      "section": "Fluency",
      "stem": "Here are some fraction and decimal tables. Give the decimal that goes in each gap. It is worth learning these by heart. If the decimal keeps repeating, round it to $3$ decimal places.",
@@ -37512,6 +37935,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7f",
+     "help": "5g-divide",
      "label": "7f",
      "section": "Fluency",
      "stem": "Here are some fraction and decimal tables. Give the decimal that goes in each gap. It is worth learning these by heart. If the decimal keeps repeating, round it to $3$ decimal places.",
@@ -37545,6 +37969,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8a",
+     "help": "5g-compare",
      "label": "8a",
      "section": "Problem-solving",
      "stem": "Arrange the following from smallest to largest.",
@@ -37562,6 +37987,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8b",
+     "help": "5g-compare",
      "label": "8b",
      "section": "Problem-solving",
      "stem": "Arrange the following from smallest to largest.",
@@ -37578,6 +38004,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9a",
+     "help": "5g-word",
      "label": "9a",
      "section": "Problem-solving",
      "stem": "Ava and Ben are working out who is the better chess player. They both play games against a computer. Ava has played $43$ games and beaten the computer $13$ times. Ben has played only $25$ games and has beaten the computer $7$ times.",
@@ -37588,6 +38015,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9b",
+     "help": "5g-word",
      "label": "9b",
      "section": "Problem-solving",
      "stem": "Ava and Ben are working out who is the better chess player. They both play games against a computer. Ava has played $43$ games and beaten the computer $13$ times. Ben has played only $25$ games and has beaten the computer $7$ times.",
@@ -37598,6 +38026,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9c",
+     "help": "5g-word",
      "label": "9c",
      "section": "Problem-solving",
      "stem": "Ava and Ben are working out who is the better chess player. They both play games against a computer. Ava has played $43$ games and beaten the computer $13$ times. Ben has played only $25$ games and has beaten the computer $7$ times.",
@@ -37611,6 +38040,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9d",
+     "help": "5g-word",
      "label": "9d",
      "section": "Problem-solving",
      "stem": "Ava and Ben are working out who is the better chess player. They both play games against a computer. Ava has played $43$ games and beaten the computer $13$ times. Ben has played only $25$ games and has beaten the computer $7$ times.",
@@ -37621,6 +38051,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10a",
+     "help": "5g-word",
      "label": "10a",
      "section": "Problem-solving",
      "stem": "To estimate the thickness of one sheet of card, Hana measures a pile of $250$ sheets. The pile is $72$ mm thick.",
@@ -37632,6 +38063,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10b",
+     "help": "5g-word",
      "label": "10b",
      "section": "Problem-solving",
      "stem": "To estimate the thickness of one sheet of card, Hana measures a pile of $250$ sheets. The pile is $72$ mm thick.",
@@ -37645,6 +38077,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11",
+     "help": "5g-repeat",
      "label": "11",
      "section": "Problem-solving",
      "prompt": "When $\\frac{2}{7}$ is written as a decimal, the digits after the decimal point repeat. What digit is in the $40$th decimal place?",
@@ -37653,6 +38086,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12a",
+     "help": "5g-divide",
      "label": "12a",
      "section": "Reasoning",
      "stem": "Here are some fractions that all have a numerator of $3$. Write each one as a decimal. If the decimal keeps repeating, round it to $3$ decimal places.",
@@ -37663,6 +38097,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12b",
+     "help": "5g-divide",
      "label": "12b",
      "section": "Reasoning",
      "stem": "Here are some fractions that all have a numerator of $3$. Write each one as a decimal. If the decimal keeps repeating, round it to $3$ decimal places.",
@@ -37673,6 +38108,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12c",
+     "help": "5g-divide",
      "label": "12c",
      "section": "Reasoning",
      "stem": "Here are some fractions that all have a numerator of $3$. Write each one as a decimal. If the decimal keeps repeating, round it to $3$ decimal places.",
@@ -37683,6 +38119,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12d",
+     "help": "5g-divide",
      "label": "12d",
      "section": "Reasoning",
      "stem": "Here are some fractions that all have a numerator of $3$. Write each one as a decimal. If the decimal keeps repeating, round it to $3$ decimal places.",
@@ -37693,6 +38130,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12e",
+     "help": "5g-divide",
      "label": "12e",
      "section": "Reasoning",
      "stem": "Here are some fractions that all have a numerator of $3$. Write each one as a decimal. If the decimal keeps repeating, round it to $3$ decimal places.",
@@ -37703,6 +38141,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12f",
+     "help": "5g-divide",
      "label": "12f",
      "section": "Reasoning",
      "stem": "Here are some fractions that all have a numerator of $3$. Write each one as a decimal. If the decimal keeps repeating, round it to $3$ decimal places.",
@@ -37713,6 +38152,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12g",
+     "help": "5g-divide",
      "label": "12g",
      "section": "Reasoning",
      "stem": "Here are some fractions that all have a numerator of $3$. Write each one as a decimal. If the decimal keeps repeating, round it to $3$ decimal places.",
@@ -37727,6 +38167,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13a",
+     "help": "5g-to-fraction",
      "label": "13a",
      "section": "Reasoning",
      "stem": "Write each decimal as a fraction in simplest form.",
@@ -37739,6 +38180,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13b",
+     "help": "5g-to-fraction",
      "label": "13b",
      "section": "Reasoning",
      "stem": "Write each decimal as a fraction in simplest form.",
@@ -37750,6 +38192,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13c",
+     "help": "5g-to-fraction",
      "label": "13c",
      "section": "Reasoning",
      "stem": "Write each decimal as a fraction in simplest form.",
@@ -37761,6 +38204,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13d",
+     "help": "5g-to-fraction",
      "label": "13d",
      "section": "Reasoning",
      "stem": "Write each decimal as a fraction in simplest form.",
@@ -37772,6 +38216,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13e",
+     "help": "5g-to-fraction",
      "label": "13e",
      "section": "Reasoning",
      "stem": "Write each decimal as a fraction in simplest form.",
@@ -37783,6 +38228,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13f",
+     "help": "5g-to-fraction",
      "label": "13f",
      "section": "Reasoning",
      "stem": "Write each decimal as a fraction in simplest form.",
@@ -37794,6 +38240,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13g",
+     "help": "5g-to-fraction",
      "label": "13g",
      "section": "Reasoning",
      "stem": "Write each decimal as a fraction in simplest form.",
@@ -37808,6 +38255,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14",
+     "help": "5g-compare",
      "label": "14",
      "section": "Reasoning",
      "prompt": "Which of these mixed numerals lies between the decimals $3.6$ and $3.7$?",
@@ -37822,6 +38270,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15a",
+     "help": "5g-reason",
      "label": "15a",
      "section": "Reasoning",
      "stem": "A decimal that does not repeat forever is called a terminating decimal. For example, $0.375$ and $4.06$ are terminating decimals. Decide whether each statement is true or false.",
@@ -37835,6 +38284,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15b",
+     "help": "5g-reason",
      "label": "15b",
      "section": "Reasoning",
      "stem": "A decimal that does not repeat forever is called a terminating decimal. For example, $0.375$ and $4.06$ are terminating decimals. Decide whether each statement is true or false.",
@@ -37856,6 +38306,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "5h-to-decimal",
      "label": "1a",
      "section": "Fluency",
      "stem": "Express the following percentages as decimals.",
@@ -37866,6 +38317,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "5h-to-decimal",
      "label": "1b",
      "section": "Fluency",
      "stem": "Express the following percentages as decimals.",
@@ -37876,6 +38328,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1c",
+     "help": "5h-to-decimal",
      "label": "1c",
      "section": "Fluency",
      "stem": "Express the following percentages as decimals.",
@@ -37886,6 +38339,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1d",
+     "help": "5h-to-decimal",
      "label": "1d",
      "section": "Fluency",
      "stem": "Express the following percentages as decimals.",
@@ -37896,6 +38350,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1e",
+     "help": "5h-to-decimal",
      "label": "1e",
      "section": "Fluency",
      "stem": "Express the following percentages as decimals.",
@@ -37906,6 +38361,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1f",
+     "help": "5h-to-decimal",
      "label": "1f",
      "section": "Fluency",
      "stem": "Express the following percentages as decimals.",
@@ -37916,6 +38372,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1g",
+     "help": "5h-to-decimal",
      "label": "1g",
      "section": "Fluency",
      "stem": "Express the following percentages as decimals.",
@@ -37926,6 +38383,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1h",
+     "help": "5h-to-decimal",
      "label": "1h",
      "section": "Fluency",
      "stem": "Express the following percentages as decimals.",
@@ -37936,6 +38394,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "5h-to-decimal",
      "label": "2a",
      "section": "Fluency",
      "stem": "Express the following percentages as decimals.",
@@ -37946,6 +38405,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "5h-to-decimal",
      "label": "2b",
      "section": "Fluency",
      "stem": "Express the following percentages as decimals.",
@@ -37956,6 +38416,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "5h-to-decimal",
      "label": "2c",
      "section": "Fluency",
      "stem": "Express the following percentages as decimals.",
@@ -37966,6 +38427,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "5h-to-decimal",
      "label": "2d",
      "section": "Fluency",
      "stem": "Express the following percentages as decimals.",
@@ -37976,6 +38438,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "5h-to-decimal",
      "label": "3a",
      "section": "Fluency",
      "stem": "Express the following percentages as decimals.",
@@ -37986,6 +38449,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "5h-to-decimal",
      "label": "3b",
      "section": "Fluency",
      "stem": "Express the following percentages as decimals.",
@@ -37996,6 +38460,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "5h-to-decimal",
      "label": "3c",
      "section": "Fluency",
      "stem": "Express the following percentages as decimals.",
@@ -38006,6 +38471,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3d",
+     "help": "5h-to-decimal",
      "label": "3d",
      "section": "Fluency",
      "stem": "Express the following percentages as decimals.",
@@ -38016,6 +38482,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3e",
+     "help": "5h-to-decimal",
      "label": "3e",
      "section": "Fluency",
      "stem": "Express the following percentages as decimals.",
@@ -38026,6 +38493,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3f",
+     "help": "5h-to-decimal",
      "label": "3f",
      "section": "Fluency",
      "stem": "Express the following percentages as decimals.",
@@ -38036,6 +38504,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3g",
+     "help": "5h-to-decimal",
      "label": "3g",
      "section": "Fluency",
      "stem": "Express the following percentages as decimals.",
@@ -38046,6 +38515,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3h",
+     "help": "5h-to-decimal",
      "label": "3h",
      "section": "Fluency",
      "stem": "Express the following percentages as decimals.",
@@ -38056,6 +38526,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3i",
+     "help": "5h-to-decimal",
      "label": "3i",
      "section": "Fluency",
      "stem": "Express the following percentages as decimals.",
@@ -38066,6 +38537,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3j",
+     "help": "5h-to-decimal",
      "label": "3j",
      "section": "Fluency",
      "stem": "Express the following percentages as decimals.",
@@ -38076,6 +38548,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3k",
+     "help": "5h-to-decimal",
      "label": "3k",
      "section": "Fluency",
      "stem": "Express the following percentages as decimals.",
@@ -38086,6 +38559,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3l",
+     "help": "5h-to-decimal",
      "label": "3l",
      "section": "Fluency",
      "stem": "Express the following percentages as decimals.",
@@ -38096,6 +38570,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "5h-to-decimal",
      "label": "4a",
      "section": "Fluency",
      "stem": "Express the following percentages as decimals.",
@@ -38106,6 +38581,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "5h-to-decimal",
      "label": "4b",
      "section": "Fluency",
      "stem": "Express the following percentages as decimals.",
@@ -38116,6 +38592,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "5h-to-decimal",
      "label": "4c",
      "section": "Fluency",
      "stem": "Express the following percentages as decimals.",
@@ -38126,6 +38603,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "5h-to-decimal",
      "label": "4d",
      "section": "Fluency",
      "stem": "Express the following percentages as decimals.",
@@ -38136,6 +38614,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4e",
+     "help": "5h-to-decimal",
      "label": "4e",
      "section": "Fluency",
      "stem": "Express the following percentages as decimals.",
@@ -38146,6 +38625,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4f",
+     "help": "5h-to-decimal",
      "label": "4f",
      "section": "Fluency",
      "stem": "Express the following percentages as decimals.",
@@ -38156,6 +38636,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4g",
+     "help": "5h-to-decimal",
      "label": "4g",
      "section": "Fluency",
      "stem": "Express the following percentages as decimals.",
@@ -38166,6 +38647,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4h",
+     "help": "5h-to-decimal",
      "label": "4h",
      "section": "Fluency",
      "stem": "Express the following percentages as decimals.",
@@ -38176,6 +38658,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4i",
+     "help": "5h-to-decimal",
      "label": "4i",
      "section": "Fluency",
      "stem": "Express the following percentages as decimals.",
@@ -38186,6 +38669,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4j",
+     "help": "5h-to-decimal",
      "label": "4j",
      "section": "Fluency",
      "stem": "Express the following percentages as decimals.",
@@ -38196,6 +38680,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4k",
+     "help": "5h-to-decimal",
      "label": "4k",
      "section": "Fluency",
      "stem": "Express the following percentages as decimals.",
@@ -38206,6 +38691,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4l",
+     "help": "5h-to-decimal",
      "label": "4l",
      "section": "Fluency",
      "stem": "Express the following percentages as decimals.",
@@ -38216,6 +38702,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "5h-to-percent",
      "label": "5a",
      "section": "Fluency",
      "stem": "Express the following decimals as percentages.",
@@ -38227,6 +38714,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "5h-to-percent",
      "label": "5b",
      "section": "Fluency",
      "stem": "Express the following decimals as percentages.",
@@ -38237,6 +38725,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "5h-to-percent",
      "label": "5c",
      "section": "Fluency",
      "stem": "Express the following decimals as percentages.",
@@ -38247,6 +38736,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5d",
+     "help": "5h-to-percent",
      "label": "5d",
      "section": "Fluency",
      "stem": "Express the following decimals as percentages.",
@@ -38257,6 +38747,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6a",
+     "help": "5h-to-percent",
      "label": "6a",
      "section": "Fluency",
      "stem": "Express the following decimals as percentages.",
@@ -38268,6 +38759,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6b",
+     "help": "5h-to-percent",
      "label": "6b",
      "section": "Fluency",
      "stem": "Express the following decimals as percentages.",
@@ -38278,6 +38770,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6c",
+     "help": "5h-to-percent",
      "label": "6c",
      "section": "Fluency",
      "stem": "Express the following decimals as percentages.",
@@ -38288,6 +38781,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6d",
+     "help": "5h-to-percent",
      "label": "6d",
      "section": "Fluency",
      "stem": "Express the following decimals as percentages.",
@@ -38298,6 +38792,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6e",
+     "help": "5h-to-percent",
      "label": "6e",
      "section": "Fluency",
      "stem": "Express the following decimals as percentages.",
@@ -38308,6 +38803,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6f",
+     "help": "5h-to-percent",
      "label": "6f",
      "section": "Fluency",
      "stem": "Express the following decimals as percentages.",
@@ -38318,6 +38814,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6g",
+     "help": "5h-to-percent",
      "label": "6g",
      "section": "Fluency",
      "stem": "Express the following decimals as percentages.",
@@ -38328,6 +38825,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6h",
+     "help": "5h-to-percent",
      "label": "6h",
      "section": "Fluency",
      "stem": "Express the following decimals as percentages.",
@@ -38338,6 +38836,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7a",
+     "help": "5h-order",
      "label": "7a",
      "section": "Problem-solving",
      "stem": "Place the following values in order from highest to lowest. (Hint: change all the percentages to decimals first.)",
@@ -38357,6 +38856,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7b",
+     "help": "5h-order",
      "label": "7b",
      "section": "Problem-solving",
      "stem": "Place the following values in order from highest to lowest. (Hint: change all the percentages to decimals first.)",
@@ -38375,6 +38875,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8",
+     "help": "5h-word",
      "label": "8",
      "section": "Problem-solving",
      "prompt": "At a netball final, $72\\%$ of the crowd supports the home team. What percentage of the crowd does not support the home team?",
@@ -38385,6 +38886,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9a",
+     "help": "5h-word",
      "label": "9a",
      "section": "Problem-solving",
      "stem": "Last Sunday, Ruby spent the $24$ hours of the day like this: $0.4$ of the time sleeping, $0.18$ playing sport and $0.09$ eating. The only other thing Ruby did that day was drawing.",
@@ -38396,6 +38898,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9b",
+     "help": "5h-word",
      "label": "9b",
      "section": "Problem-solving",
      "stem": "Last Sunday, Ruby spent the $24$ hours of the day like this: $0.4$ of the time sleeping, $0.18$ playing sport and $0.09$ eating. The only other thing Ruby did that day was drawing.",
@@ -38406,6 +38909,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10",
+     "help": "5h-word",
      "label": "10",
      "section": "Problem-solving",
      "prompt": "A town reservoir can hold $84$ gigalitres. After a dry summer it is only $35\\%$ full. How many gigalitres of water are in the reservoir?",
@@ -38415,6 +38919,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11a",
+     "help": "5h-letters",
      "label": "11a",
      "section": "Reasoning",
      "stem": "$A$, $B$, $C$ and $D$ are digits. Write the following decimal numbers as percentages.",
@@ -38428,6 +38933,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11b",
+     "help": "5h-letters",
      "label": "11b",
      "section": "Reasoning",
      "stem": "$A$, $B$, $C$ and $D$ are digits. Write the following decimal numbers as percentages.",
@@ -38440,6 +38946,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11c",
+     "help": "5h-letters",
      "label": "11c",
      "section": "Reasoning",
      "stem": "$A$, $B$, $C$ and $D$ are digits. Write the following decimal numbers as percentages.",
@@ -38452,6 +38959,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11d",
+     "help": "5h-letters",
      "label": "11d",
      "section": "Reasoning",
      "stem": "$A$, $B$, $C$ and $D$ are digits. Write the following decimal numbers as percentages.",
@@ -38464,6 +38972,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11e",
+     "help": "5h-letters",
      "label": "11e",
      "section": "Reasoning",
      "stem": "$A$, $B$, $C$ and $D$ are digits. Write the following decimal numbers as percentages.",
@@ -38476,6 +38985,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11f",
+     "help": "5h-letters",
      "label": "11f",
      "section": "Reasoning",
      "stem": "$A$, $B$, $C$ and $D$ are digits. Write the following decimal numbers as percentages.",
@@ -38488,6 +38998,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12a",
+     "help": "5h-letters",
      "label": "12a",
      "section": "Reasoning",
      "stem": "$A$, $B$, $C$ and $D$ are digits. Write the following percentages as decimal numbers.",
@@ -38498,6 +39009,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12b",
+     "help": "5h-letters",
      "label": "12b",
      "section": "Reasoning",
      "stem": "$A$, $B$, $C$ and $D$ are digits. Write the following percentages as decimal numbers.",
@@ -38507,6 +39019,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12c",
+     "help": "5h-letters",
      "label": "12c",
      "section": "Reasoning",
      "stem": "$A$, $B$, $C$ and $D$ are digits. Write the following percentages as decimal numbers.",
@@ -38516,6 +39029,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12d",
+     "help": "5h-letters",
      "label": "12d",
      "section": "Reasoning",
      "stem": "$A$, $B$, $C$ and $D$ are digits. Write the following percentages as decimal numbers.",
@@ -38525,6 +39039,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12e",
+     "help": "5h-letters",
      "label": "12e",
      "section": "Reasoning",
      "stem": "$A$, $B$, $C$ and $D$ are digits. Write the following percentages as decimal numbers.",
@@ -38534,6 +39049,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12f",
+     "help": "5h-letters",
      "label": "12f",
      "section": "Reasoning",
      "stem": "$A$, $B$, $C$ and $D$ are digits. Write the following percentages as decimal numbers.",
@@ -38543,6 +39059,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13a",
+     "help": "5h-reason",
      "label": "13a",
      "section": "Reasoning",
      "stem": "Ollie says that you can never have more than $100\\%$, because if you get every question right on a test you get $100\\%$ and no more.",
@@ -38556,6 +39073,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13b",
+     "help": "5h-reason",
      "label": "13b",
      "section": "Reasoning",
      "stem": "Ollie says that you can never have more than $100\\%$, because if you get every question right on a test you get $100\\%$ and no more.",
@@ -38571,6 +39089,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14a",
+     "help": "5h-ladder",
      "label": "14a",
      "section": "Enrichment",
      "stem": "Here is part of a football ladder. Use a calculator.",
@@ -38657,6 +39176,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14b",
+     "help": "5h-ladder",
      "label": "14b",
      "section": "Enrichment",
      "stem": "Here is part of a football ladder. Use a calculator.",
@@ -38672,6 +39192,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14c",
+     "help": "5h-ladder",
      "label": "14c",
      "section": "Enrichment",
      "prompt": "In their next match, the Northside Kites score $118$ points and have $84$ points scored against them. What will their new percentage be? Round to $2$ decimal places.",
@@ -38681,6 +39202,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14d",
+     "help": "5h-ladder",
      "label": "14d",
      "section": "Enrichment",
      "prompt": "By how many points do the Gumtree Giants need to win their next game to have a percentage of exactly $100$?",
@@ -38691,6 +39213,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14e",
+     "help": "5h-ladder",
      "label": "14e",
      "section": "Enrichment",
      "stem": "Here is part of a football ladder. Use a calculator.",
@@ -38712,6 +39235,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "5i-fraction",
      "label": "1a",
      "section": "Fluency",
      "stem": "Express the following proportions as a fraction of the total. Remember to simplify all fractions.",
@@ -38724,6 +39248,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "5i-fraction",
      "label": "1b",
      "section": "Fluency",
      "stem": "Express the following proportions as a fraction of the total. Remember to simplify all fractions.",
@@ -38735,6 +39260,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1c",
+     "help": "5i-fraction",
      "label": "1c",
      "section": "Fluency",
      "stem": "Express the following proportions as a fraction of the total. Remember to simplify all fractions.",
@@ -38746,6 +39272,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1d",
+     "help": "5i-fraction",
      "label": "1d",
      "section": "Fluency",
      "stem": "Express the following proportions as a fraction of the total. Remember to simplify all fractions.",
@@ -38757,6 +39284,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "5i-dec-pct",
      "label": "2a",
      "section": "Fluency",
      "stem": "Express the following proportions as a decimal.",
@@ -38767,6 +39295,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "5i-dec-pct",
      "label": "2b",
      "section": "Fluency",
      "stem": "Express the following proportions as a decimal.",
@@ -38777,6 +39306,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "5i-dec-pct",
      "label": "2c",
      "section": "Fluency",
      "stem": "Express the following proportions as a decimal.",
@@ -38787,6 +39317,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "5i-dec-pct",
      "label": "2d",
      "section": "Fluency",
      "stem": "Express the following proportions as a decimal.",
@@ -38797,6 +39328,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "5i-dec-pct",
      "label": "3a",
      "section": "Fluency",
      "stem": "Express the following proportions as a percentage.",
@@ -38808,6 +39340,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "5i-dec-pct",
      "label": "3b",
      "section": "Fluency",
      "stem": "Express the following proportions as a percentage.",
@@ -38818,6 +39351,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "5i-dec-pct",
      "label": "3c",
      "section": "Fluency",
      "stem": "Express the following proportions as a percentage.",
@@ -38828,6 +39362,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3d",
+     "help": "5i-dec-pct",
      "label": "3d",
      "section": "Fluency",
      "stem": "Express the following proportions as a percentage.",
@@ -38838,6 +39373,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "5i-all-three",
      "label": "4a",
      "section": "Fluency",
      "stem": "Express each proportion as a fraction, a decimal and a percentage of the total.",
@@ -38850,6 +39386,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "5i-all-three",
      "label": "4b",
      "section": "Fluency",
      "stem": "Express each proportion as a fraction, a decimal and a percentage of the total.",
@@ -38860,6 +39397,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "5i-all-three",
      "label": "4c",
      "section": "Fluency",
      "stem": "Express each proportion as a fraction, a decimal and a percentage of the total.",
@@ -38871,6 +39409,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "5i-all-three",
      "label": "4d",
      "section": "Fluency",
      "stem": "Express each proportion as a fraction, a decimal and a percentage of the total.",
@@ -38882,6 +39421,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4e",
+     "help": "5i-all-three",
      "label": "4e",
      "section": "Fluency",
      "stem": "Express each proportion as a fraction, a decimal and a percentage of the total.",
@@ -38892,6 +39432,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4f",
+     "help": "5i-all-three",
      "label": "4f",
      "section": "Fluency",
      "stem": "Express each proportion as a fraction, a decimal and a percentage of the total.",
@@ -38902,6 +39443,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4g",
+     "help": "5i-all-three",
      "label": "4g",
      "section": "Fluency",
      "stem": "Express each proportion as a fraction, a decimal and a percentage of the total.",
@@ -38913,6 +39455,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4h",
+     "help": "5i-all-three",
      "label": "4h",
      "section": "Fluency",
      "stem": "Express each proportion as a fraction, a decimal and a percentage of the total.",
@@ -38923,6 +39466,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4i",
+     "help": "5i-all-three",
      "label": "4i",
      "section": "Fluency",
      "stem": "Express each proportion as a fraction, a decimal and a percentage of the total.",
@@ -38933,6 +39477,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4j",
+     "help": "5i-all-three",
      "label": "4j",
      "section": "Fluency",
      "stem": "Express each proportion as a fraction, a decimal and a percentage of the total.",
@@ -38944,6 +39489,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4k",
+     "help": "5i-all-three",
      "label": "4k",
      "section": "Fluency",
      "stem": "Express each proportion as a fraction, a decimal and a percentage of the total.",
@@ -38954,6 +39500,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4l",
+     "help": "5i-all-three",
      "label": "4l",
      "section": "Fluency",
      "stem": "Express each proportion as a fraction, a decimal and a percentage of the total.",
@@ -38964,6 +39511,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "5i-shapes",
      "label": "5a",
      "section": "Fluency",
      "stem": "Write the shaded proportion of each shape's total area as a decimal and as a percentage.",
@@ -38988,6 +39536,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "5i-shapes",
      "label": "5b",
      "section": "Fluency",
      "stem": "Write the shaded proportion of each shape's total area as a decimal and as a percentage.",
@@ -39013,6 +39562,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "5i-shapes",
      "label": "5c",
      "section": "Fluency",
      "stem": "Write the shaded proportion of each shape's total area as a decimal and as a percentage.",
@@ -39035,6 +39585,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5d",
+     "help": "5i-shapes",
      "label": "5d",
      "section": "Fluency",
      "stem": "Write the shaded proportion of each shape's total area as a decimal and as a percentage.",
@@ -39057,6 +39608,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5e",
+     "help": "5i-shapes",
      "label": "5e",
      "section": "Fluency",
      "stem": "Write the shaded proportion of each shape's total area as a decimal and as a percentage.",
@@ -39072,6 +39624,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5f",
+     "help": "5i-shapes",
      "label": "5f",
      "section": "Fluency",
      "stem": "Write the shaded proportion of each shape's total area as a decimal and as a percentage.",
@@ -39087,6 +39640,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5g",
+     "help": "5i-shapes",
      "label": "5g",
      "section": "Fluency",
      "stem": "Write the shaded proportion of each shape's total area as a decimal and as a percentage.",
@@ -39106,6 +39660,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5h",
+     "help": "5i-shapes",
      "label": "5h",
      "section": "Fluency",
      "stem": "Write the shaded proportion of each shape's total area as a decimal and as a percentage.",
@@ -39125,6 +39680,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5i",
+     "help": "5i-shapes",
      "label": "5i",
      "section": "Fluency",
      "stem": "Write the shaded proportion of each shape's total area as a decimal and as a percentage.",
@@ -39209,6 +39765,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5j",
+     "help": "5i-shapes",
      "label": "5j",
      "section": "Fluency",
      "stem": "Write the shaded proportion of each shape's total area as a decimal and as a percentage.",
@@ -39293,6 +39850,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5k",
+     "help": "5i-shapes",
      "label": "5k",
      "section": "Fluency",
      "stem": "Write the shaded proportion of each shape's total area as a decimal and as a percentage.",
@@ -39394,6 +39952,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5l",
+     "help": "5i-shapes",
      "label": "5l",
      "section": "Fluency",
      "stem": "Write the shaded proportion of each shape's total area as a decimal and as a percentage.",
@@ -39495,6 +40054,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6a",
+     "help": "5i-parts",
      "label": "6a",
      "section": "Fluency",
      "stem": "A jug of cordial is made from $3$ parts syrup to $22$ parts water. Express the proportion of the total that is syrup as:",
@@ -39507,6 +40067,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6b",
+     "help": "5i-parts",
      "label": "6b",
      "section": "Fluency",
      "stem": "A jug of cordial is made from $3$ parts syrup to $22$ parts water. Express the proportion of the total that is syrup as:",
@@ -39517,6 +40078,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6c",
+     "help": "5i-parts",
      "label": "6c",
      "section": "Fluency",
      "stem": "A jug of cordial is made from $3$ parts syrup to $22$ parts water. Express the proportion of the total that is syrup as:",
@@ -39528,6 +40090,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7a",
+     "help": "5i-parts",
      "label": "7a",
      "section": "Fluency",
      "stem": "A mix of mortar is made from $1$ part cement to $3$ parts sand.",
@@ -39539,6 +40102,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7b",
+     "help": "5i-parts",
      "label": "7b",
      "section": "Fluency",
      "stem": "A mix of mortar is made from $1$ part cement to $3$ parts sand.",
@@ -39549,6 +40113,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7c",
+     "help": "5i-parts",
      "label": "7c",
      "section": "Fluency",
      "stem": "A mix of mortar is made from $1$ part cement to $3$ parts sand.",
@@ -39559,6 +40124,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8a",
+     "help": "5i-compare",
      "label": "8a",
      "section": "Fluency",
      "stem": "On a quiz, Jo scored $\\frac{13}{20}$, Pia got $0.62$ of the questions right and Ruby scored $64\\%$. Use percentages to compare the three scores.",
@@ -39570,6 +40136,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8b",
+     "help": "5i-compare",
      "label": "8b",
      "section": "Fluency",
      "stem": "On a quiz, Jo scored $\\frac{13}{20}$, Pia got $0.62$ of the questions right and Ruby scored $64\\%$. Use percentages to compare the three scores.",
@@ -39580,6 +40147,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8c",
+     "help": "5i-compare",
      "label": "8c",
      "section": "Fluency",
      "stem": "On a quiz, Jo scored $\\frac{13}{20}$, Pia got $0.62$ of the questions right and Ruby scored $64\\%$. Use percentages to compare the three scores.",
@@ -39594,6 +40162,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9a",
+     "help": "5i-compare",
      "label": "9a",
      "section": "Fluency",
      "stem": "Three cousins are walking a bush track. By lunchtime Nate has completed $\\frac{31}{50}$ of the track, Ivy has completed $0.6$ of it and Omar has completed $63\\%$ of it. Use percentages to compare.",
@@ -39604,6 +40173,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9b",
+     "help": "5i-compare",
      "label": "9b",
      "section": "Fluency",
      "stem": "Three cousins are walking a bush track. By lunchtime Nate has completed $\\frac{31}{50}$ of the track, Ivy has completed $0.6$ of it and Omar has completed $63\\%$ of it. Use percentages to compare.",
@@ -39614,6 +40184,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9c",
+     "help": "5i-compare",
      "label": "9c",
      "section": "Fluency",
      "stem": "Three cousins are walking a bush track. By lunchtime Nate has completed $\\frac{31}{50}$ of the track, Ivy has completed $0.6$ of it and Omar has completed $63\\%$ of it. Use percentages to compare.",
@@ -39628,6 +40199,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10a",
+     "help": "5i-all-three",
      "label": "10a",
      "section": "Problem-solving",
      "stem": "A new housing estate covers $40\\,000$ m$^2$. Areas are set aside like this: houses $22\\,000$ m$^2$, shops $3000$ m$^2$, roads and paths $6000$ m$^2$, park $5000$ m$^2$, and factories take up the rest.",
@@ -39638,6 +40210,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10b",
+     "help": "5i-all-three",
      "label": "10b",
      "section": "Problem-solving",
      "stem": "A new housing estate covers $40\\,000$ m$^2$. Areas are set aside like this: houses $22\\,000$ m$^2$, shops $3000$ m$^2$, roads and paths $6000$ m$^2$, park $5000$ m$^2$, and factories take up the rest.",
@@ -39649,6 +40222,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10c",
+     "help": "5i-all-three",
      "label": "10c",
      "section": "Problem-solving",
      "stem": "A new housing estate covers $40\\,000$ m$^2$. Areas are set aside like this: houses $22\\,000$ m$^2$, shops $3000$ m$^2$, roads and paths $6000$ m$^2$, park $5000$ m$^2$, and factories take up the rest.",
@@ -39659,6 +40233,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10d",
+     "help": "5i-all-three",
      "label": "10d",
      "section": "Problem-solving",
      "stem": "A new housing estate covers $40\\,000$ m$^2$. Areas are set aside like this: houses $22\\,000$ m$^2$, shops $3000$ m$^2$, roads and paths $6000$ m$^2$, park $5000$ m$^2$, and factories take up the rest.",
@@ -39670,6 +40245,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10e",
+     "help": "5i-all-three",
      "label": "10e",
      "section": "Problem-solving",
      "stem": "A new housing estate covers $40\\,000$ m$^2$. Areas are set aside like this: houses $22\\,000$ m$^2$, shops $3000$ m$^2$, roads and paths $6000$ m$^2$, park $5000$ m$^2$, and factories take up the rest.",
@@ -39680,6 +40256,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10f",
+     "help": "5i-all-three",
      "label": "10f",
      "section": "Problem-solving",
      "stem": "A new housing estate covers $40\\,000$ m$^2$. Areas are set aside like this: houses $22\\,000$ m$^2$, shops $3000$ m$^2$, roads and paths $6000$ m$^2$, park $5000$ m$^2$, and factories take up the rest.",
@@ -39691,6 +40268,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10g",
+     "help": "5i-all-three",
      "label": "10g",
      "section": "Problem-solving",
      "stem": "A new housing estate covers $40\\,000$ m$^2$. Areas are set aside like this: houses $22\\,000$ m$^2$, shops $3000$ m$^2$, roads and paths $6000$ m$^2$, park $5000$ m$^2$, and factories take up the rest.",
@@ -39701,6 +40279,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10h",
+     "help": "5i-all-three",
      "label": "10h",
      "section": "Problem-solving",
      "stem": "A new housing estate covers $40\\,000$ m$^2$. Areas are set aside like this: houses $22\\,000$ m$^2$, shops $3000$ m$^2$, roads and paths $6000$ m$^2$, park $5000$ m$^2$, and factories take up the rest.",
@@ -39712,6 +40291,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10i",
+     "help": "5i-all-three",
      "label": "10i",
      "section": "Problem-solving",
      "stem": "A new housing estate covers $40\\,000$ m$^2$. Areas are set aside like this: houses $22\\,000$ m$^2$, shops $3000$ m$^2$, roads and paths $6000$ m$^2$, park $5000$ m$^2$, and factories take up the rest.",
@@ -39722,6 +40302,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11a",
+     "help": "5i-all-three",
      "label": "11a",
      "section": "Problem-solving",
      "stem": "Marco pays $\\$120$ tax out of his income of $\\$2400$.",
@@ -39733,6 +40314,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11b",
+     "help": "5i-all-three",
      "label": "11b",
      "section": "Problem-solving",
      "stem": "Marco pays $\\$120$ tax out of his income of $\\$2400$.",
@@ -39743,6 +40325,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12a",
+     "help": "5i-units",
      "label": "12a",
      "section": "Problem-solving",
      "stem": "Express each proportion in the form asked for. Make sure the units are the same first.",
@@ -39754,6 +40337,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12b",
+     "help": "5i-units",
      "label": "12b",
      "section": "Problem-solving",
      "stem": "Express each proportion in the form asked for. Make sure the units are the same first.",
@@ -39764,6 +40348,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12c",
+     "help": "5i-units",
      "label": "12c",
      "section": "Problem-solving",
      "stem": "Express each proportion in the form asked for. Make sure the units are the same first.",
@@ -39774,6 +40359,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12d",
+     "help": "5i-units",
      "label": "12d",
      "section": "Problem-solving",
      "stem": "Express each proportion in the form asked for. Make sure the units are the same first.",
@@ -39785,6 +40371,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12e",
+     "help": "5i-units",
      "label": "12e",
      "section": "Problem-solving",
      "stem": "Express each proportion in the form asked for. Make sure the units are the same first.",
@@ -39795,6 +40382,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12f",
+     "help": "5i-units",
      "label": "12f",
      "section": "Problem-solving",
      "stem": "Express each proportion in the form asked for. Make sure the units are the same first.",
@@ -39805,6 +40393,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13a",
+     "help": "5i-venn",
      "label": "13a",
      "section": "Problem-solving",
      "stem": "In a group of $25$ students, $14$ play sport and $12$ play a musical instrument. Some students do both. $3$ students do not play sport or an instrument.",
@@ -39872,6 +40461,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13b",
+     "help": "5i-venn",
      "label": "13b",
      "section": "Problem-solving",
      "stem": "In a group of $25$ students, $14$ play sport and $12$ play a musical instrument. Some students do both. $3$ students do not play sport or an instrument.",
@@ -39882,6 +40472,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14a",
+     "help": "5i-out-of",
      "label": "14a",
      "section": "Reasoning",
      "stem": "In recent tests, Kai scored $39$ out of $52$ and Lena scored $73$ out of $100$.",
@@ -39893,6 +40484,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14b",
+     "help": "5i-out-of",
      "label": "14b",
      "section": "Reasoning",
      "stem": "In recent tests, Kai scored $39$ out of $52$ and Lena scored $73$ out of $100$.",
@@ -39903,6 +40495,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14c",
+     "help": "5i-out-of",
      "label": "14c",
      "section": "Reasoning",
      "stem": "In recent tests, Kai scored $39$ out of $52$ and Lena scored $73$ out of $100$.",
@@ -39916,6 +40509,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15a",
+     "help": "5i-out-of",
      "label": "15a",
      "section": "Reasoning",
      "stem": "Two cars are on sale. A hatchback priced at $\\$24\\,000$ is reduced by $\\$4200$, and a 4WD priced at $\\$65\\,000$ is reduced by $\\$10\\,400$.",
@@ -39926,6 +40520,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15b",
+     "help": "5i-out-of",
      "label": "15b",
      "section": "Reasoning",
      "stem": "Two cars are on sale. A hatchback priced at $\\$24\\,000$ is reduced by $\\$4200$, and a 4WD priced at $\\$65\\,000$ is reduced by $\\$10\\,400$.",
@@ -39936,6 +40531,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15c",
+     "help": "5i-out-of",
      "label": "15c",
      "section": "Reasoning",
      "stem": "Two cars are on sale. A hatchback priced at $\\$24\\,000$ is reduced by $\\$4200$, and a 4WD priced at $\\$65\\,000$ is reduced by $\\$10\\,400$.",
@@ -39949,6 +40545,7 @@ window.H3_BANK = {
     },
     {
      "id": "q16a",
+     "help": "5i-out-of",
      "label": "16a",
      "section": "Reasoning",
      "stem": "A red sports drink has $45$ g of sugar in a bottle of drink weighing $300$ g (including the sugar). A green sports drink has $52$ g of sugar in a bottle weighing $325$ g (including the sugar).",
@@ -39959,6 +40556,7 @@ window.H3_BANK = {
     },
     {
      "id": "q16b",
+     "help": "5i-out-of",
      "label": "16b",
      "section": "Reasoning",
      "stem": "A red sports drink has $45$ g of sugar in a bottle of drink weighing $300$ g (including the sugar). A green sports drink has $52$ g of sugar in a bottle weighing $325$ g (including the sugar).",
@@ -39969,6 +40567,7 @@ window.H3_BANK = {
     },
     {
      "id": "q16c",
+     "help": "5i-out-of",
      "label": "16c",
      "section": "Reasoning",
      "stem": "A red sports drink has $45$ g of sugar in a bottle of drink weighing $300$ g (including the sugar). A green sports drink has $52$ g of sugar in a bottle weighing $325$ g (including the sugar).",
@@ -39982,6 +40581,7 @@ window.H3_BANK = {
     },
     {
      "id": "q17a",
+     "help": "5i-letters",
      "label": "17a",
      "section": "Reasoning",
      "stem": "A pancake batter has $m$ parts flour to $n$ parts milk.",
@@ -39992,6 +40592,7 @@ window.H3_BANK = {
     },
     {
      "id": "q17b",
+     "help": "5i-letters",
      "label": "17b",
      "section": "Reasoning",
      "stem": "A pancake batter has $m$ parts flour to $n$ parts milk.",
@@ -40004,6 +40605,7 @@ window.H3_BANK = {
     },
     {
      "id": "q18a",
+     "help": "5i-venn",
      "label": "18a",
      "section": "Enrichment",
      "stem": "A survey of $40$ students asks how they got to school last week: by bike, public transport or car. Every student used at least one of these. $13$ students used only a car. $2$ students used all three. $4$ students used only a bike. No students used a bike and a car without public transport. $6$ students used a car and public transport but not a bike. $9$ students used only public transport.",
@@ -40085,6 +40687,7 @@ window.H3_BANK = {
     },
     {
      "id": "q18b",
+     "help": "5i-venn",
      "label": "18b",
      "section": "Enrichment",
      "stem": "A survey of $40$ students asks how they got to school last week: by bike, public transport or car. Every student used at least one of these. $13$ students used only a car. $2$ students used all three. $4$ students used only a bike. No students used a bike and a car without public transport. $6$ students used a car and public transport but not a bike. $9$ students used only public transport.",
@@ -40096,6 +40699,7 @@ window.H3_BANK = {
     },
     {
      "id": "q18c",
+     "help": "5i-venn",
      "label": "18c",
      "section": "Enrichment",
      "stem": "A survey of $40$ students asks how they got to school last week: by bike, public transport or car. Every student used at least one of these. $13$ students used only a car. $2$ students used all three. $4$ students used only a bike. No students used a bike and a car without public transport. $6$ students used a car and public transport but not a bike. $9$ students used only public transport.",
@@ -40107,6 +40711,7 @@ window.H3_BANK = {
     },
     {
      "id": "q18d",
+     "help": "5i-venn",
      "label": "18d",
      "section": "Enrichment",
      "stem": "A survey of $40$ students asks how they got to school last week: by bike, public transport or car. Every student used at least one of these. $13$ students used only a car. $2$ students used all three. $4$ students used only a bike. No students used a bike and a car without public transport. $6$ students used a car and public transport but not a bike. $9$ students used only public transport.",
@@ -40118,6 +40723,7 @@ window.H3_BANK = {
     },
     {
      "id": "q18e",
+     "help": "5i-venn",
      "label": "18e",
      "section": "Enrichment",
      "stem": "A survey of $40$ students asks how they got to school last week: by bike, public transport or car. Every student used at least one of these. $13$ students used only a car. $2$ students used all three. $4$ students used only a bike. No students used a bike and a car without public transport. $6$ students used a car and public transport but not a bike. $9$ students used only public transport.",
@@ -40128,6 +40734,7 @@ window.H3_BANK = {
     },
     {
      "id": "q18f",
+     "help": "5i-venn",
      "label": "18f",
      "section": "Enrichment",
      "stem": "A survey of $40$ students asks how they got to school last week: by bike, public transport or car. Every student used at least one of these. $13$ students used only a car. $2$ students used all three. $4$ students used only a bike. No students used a bike and a car without public transport. $6$ students used a car and public transport but not a bike. $9$ students used only public transport.",
@@ -46796,6 +47403,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "9a-what",
      "label": "1a",
      "section": "Fluency",
      "stem": "Is each of the following an equation? Answer Yes or No.",
@@ -46809,6 +47417,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "9a-what",
      "label": "1b",
      "section": "Fluency",
      "stem": "Is each of the following an equation? Answer Yes or No.",
@@ -46822,6 +47431,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1c",
+     "help": "9a-what",
      "label": "1c",
      "section": "Fluency",
      "stem": "Is each of the following an equation? Answer Yes or No.",
@@ -46835,6 +47445,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1d",
+     "help": "9a-what",
      "label": "1d",
      "section": "Fluency",
      "stem": "Is each of the following an equation? Answer Yes or No.",
@@ -46848,6 +47459,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1e",
+     "help": "9a-what",
      "label": "1e",
      "section": "Fluency",
      "stem": "Is each of the following an equation? Answer Yes or No.",
@@ -46861,6 +47473,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "9a-what",
      "label": "2a",
      "section": "Fluency",
      "stem": "Classify each of the following as an equation (E) or not an equation (N).",
@@ -46874,6 +47487,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "9a-what",
      "label": "2b",
      "section": "Fluency",
      "stem": "Classify each of the following as an equation (E) or not an equation (N).",
@@ -46887,6 +47501,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "9a-what",
      "label": "2c",
      "section": "Fluency",
      "stem": "Classify each of the following as an equation (E) or not an equation (N).",
@@ -46900,6 +47515,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "9a-what",
      "label": "2d",
      "section": "Fluency",
      "stem": "Classify each of the following as an equation (E) or not an equation (N).",
@@ -46913,6 +47529,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2e",
+     "help": "9a-what",
      "label": "2e",
      "section": "Fluency",
      "stem": "Classify each of the following as an equation (E) or not an equation (N).",
@@ -46926,6 +47543,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2f",
+     "help": "9a-what",
      "label": "2f",
      "section": "Fluency",
      "stem": "Classify each of the following as an equation (E) or not an equation (N).",
@@ -46939,6 +47557,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2g",
+     "help": "9a-what",
      "label": "2g",
      "section": "Fluency",
      "stem": "Classify each of the following as an equation (E) or not an equation (N).",
@@ -46952,6 +47571,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2h",
+     "help": "9a-what",
      "label": "2h",
      "section": "Fluency",
      "stem": "Classify each of the following as an equation (E) or not an equation (N).",
@@ -46965,6 +47585,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2i",
+     "help": "9a-what",
      "label": "2i",
      "section": "Fluency",
      "stem": "Classify each of the following as an equation (E) or not an equation (N).",
@@ -46978,6 +47599,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "9a-true",
      "label": "3a",
      "section": "Fluency",
      "stem": "For each of the following equations, state whether it is true or false.",
@@ -46991,6 +47613,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "9a-true",
      "label": "3b",
      "section": "Fluency",
      "stem": "For each of the following equations, state whether it is true or false.",
@@ -47004,6 +47627,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "9a-true",
      "label": "3c",
      "section": "Fluency",
      "stem": "For each of the following equations, state whether it is true or false.",
@@ -47017,6 +47641,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3d",
+     "help": "9a-true",
      "label": "3d",
      "section": "Fluency",
      "stem": "For each of the following equations, state whether it is true or false.",
@@ -47030,6 +47655,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3e",
+     "help": "9a-true",
      "label": "3e",
      "section": "Fluency",
      "stem": "For each of the following equations, state whether it is true or false.",
@@ -47043,6 +47669,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3f",
+     "help": "9a-true",
      "label": "3f",
      "section": "Fluency",
      "stem": "For each of the following equations, state whether it is true or false.",
@@ -47056,6 +47683,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3g",
+     "help": "9a-true",
      "label": "3g",
      "section": "Fluency",
      "stem": "For each of the following equations, state whether it is true or false.",
@@ -47069,6 +47697,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3h",
+     "help": "9a-true",
      "label": "3h",
      "section": "Fluency",
      "stem": "For each of the following equations, state whether it is true or false.",
@@ -47082,6 +47711,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3i",
+     "help": "9a-true",
      "label": "3i",
      "section": "Fluency",
      "stem": "For each of the following equations, state whether it is true or false.",
@@ -47095,6 +47725,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3j",
+     "help": "9a-true",
      "label": "3j",
      "section": "Fluency",
      "stem": "For each of the following equations, state whether it is true or false.",
@@ -47108,6 +47739,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3k",
+     "help": "9a-true",
      "label": "3k",
      "section": "Fluency",
      "stem": "For each of the following equations, state whether it is true or false.",
@@ -47121,6 +47753,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3l",
+     "help": "9a-true",
      "label": "3l",
      "section": "Fluency",
      "stem": "For each of the following equations, state whether it is true or false.",
@@ -47134,6 +47767,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "9a-sub",
      "label": "4a",
      "section": "Fluency",
      "stem": "If $x = 4$, state whether each of these equations is true or false.",
@@ -47147,6 +47781,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "9a-sub",
      "label": "4b",
      "section": "Fluency",
      "stem": "If $x = 4$, state whether each of these equations is true or false.",
@@ -47160,6 +47795,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "9a-sub",
      "label": "4c",
      "section": "Fluency",
      "stem": "If $x = 4$, state whether each of these equations is true or false.",
@@ -47173,6 +47809,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "9a-sub",
      "label": "4d",
      "section": "Fluency",
      "stem": "If $x = 4$, state whether each of these equations is true or false.",
@@ -47186,6 +47823,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "9a-sub",
      "label": "5a",
      "section": "Fluency",
      "stem": "If $b = 3$, state whether each of the following equations is true or false.",
@@ -47199,6 +47837,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "9a-sub",
      "label": "5b",
      "section": "Fluency",
      "stem": "If $b = 3$, state whether each of the following equations is true or false.",
@@ -47212,6 +47851,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "9a-sub",
      "label": "5c",
      "section": "Fluency",
      "stem": "If $b = 3$, state whether each of the following equations is true or false.",
@@ -47225,6 +47865,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5d",
+     "help": "9a-sub",
      "label": "5d",
      "section": "Fluency",
      "stem": "If $b = 3$, state whether each of the following equations is true or false.",
@@ -47238,6 +47879,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6a",
+     "help": "9a-sub",
      "label": "6a",
      "section": "Fluency",
      "stem": "If $a = 9$ and $b = 5$, state whether each of these equations is true or false.",
@@ -47251,6 +47893,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6b",
+     "help": "9a-sub",
      "label": "6b",
      "section": "Fluency",
      "stem": "If $a = 9$ and $b = 5$, state whether each of these equations is true or false.",
@@ -47264,6 +47907,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6c",
+     "help": "9a-sub",
      "label": "6c",
      "section": "Fluency",
      "stem": "If $a = 9$ and $b = 5$, state whether each of these equations is true or false.",
@@ -47277,6 +47921,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6d",
+     "help": "9a-sub",
      "label": "6d",
      "section": "Fluency",
      "stem": "If $a = 9$ and $b = 5$, state whether each of these equations is true or false.",
@@ -47290,6 +47935,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6e",
+     "help": "9a-sub",
      "label": "6e",
      "section": "Fluency",
      "stem": "If $a = 9$ and $b = 5$, state whether each of these equations is true or false.",
@@ -47303,6 +47949,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6f",
+     "help": "9a-sub",
      "label": "6f",
      "section": "Fluency",
      "stem": "If $a = 9$ and $b = 5$, state whether each of these equations is true or false.",
@@ -47316,6 +47963,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6g",
+     "help": "9a-sub",
      "label": "6g",
      "section": "Fluency",
      "stem": "If $a = 9$ and $b = 5$, state whether each of these equations is true or false.",
@@ -47329,6 +47977,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6h",
+     "help": "9a-sub",
      "label": "6h",
      "section": "Fluency",
      "stem": "If $a = 9$ and $b = 5$, state whether each of these equations is true or false.",
@@ -47342,6 +47991,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6i",
+     "help": "9a-sub",
      "label": "6i",
      "section": "Fluency",
      "stem": "If $a = 9$ and $b = 5$, state whether each of these equations is true or false.",
@@ -47355,6 +48005,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7a",
+     "help": "9a-write",
      "label": "7a",
      "section": "Fluency",
      "stem": "Write an equation for each of the following.",
@@ -47365,6 +48016,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7b",
+     "help": "9a-write",
      "label": "7b",
      "section": "Fluency",
      "stem": "Write an equation for each of the following.",
@@ -47374,6 +48026,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7c",
+     "help": "9a-write",
      "label": "7c",
      "section": "Fluency",
      "stem": "Write an equation for each of the following.",
@@ -47383,6 +48036,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7d",
+     "help": "9a-write",
      "label": "7d",
      "section": "Fluency",
      "stem": "Write an equation for each of the following.",
@@ -47392,6 +48046,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7e",
+     "help": "9a-write",
      "label": "7e",
      "section": "Fluency",
      "stem": "Write an equation for each of the following.",
@@ -47401,6 +48056,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7f",
+     "help": "9a-write",
      "label": "7f",
      "section": "Fluency",
      "stem": "Write an equation for each of the following.",
@@ -47410,6 +48066,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7g",
+     "help": "9a-write",
      "label": "7g",
      "section": "Fluency",
      "stem": "Write an equation for each of the following.",
@@ -47420,6 +48077,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7h",
+     "help": "9a-write",
      "label": "7h",
      "section": "Fluency",
      "stem": "Write an equation for each of the following.",
@@ -47429,6 +48087,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8a",
+     "help": "9a-write",
      "label": "8a",
      "section": "Problem-solving",
      "stem": "Write a true equation for each of these problems. You do not need to solve it.",
@@ -47438,6 +48097,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8b",
+     "help": "9a-write",
      "label": "8b",
      "section": "Problem-solving",
      "stem": "Write a true equation for each of these problems. You do not need to solve it.",
@@ -47447,6 +48107,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8c",
+     "help": "9a-write",
      "label": "8c",
      "section": "Problem-solving",
      "stem": "Write a true equation for each of these problems. You do not need to solve it.",
@@ -47456,6 +48117,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8d",
+     "help": "9a-write",
      "label": "8d",
      "section": "Problem-solving",
      "stem": "Write a true equation for each of these problems. You do not need to solve it.",
@@ -47465,6 +48127,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8e",
+     "help": "9a-write",
      "label": "8e",
      "section": "Problem-solving",
      "stem": "Write a true equation for each of these problems. You do not need to solve it.",
@@ -47474,6 +48137,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9",
+     "help": "9a-find",
      "label": "9",
      "section": "Problem-solving",
      "type": "numeric",
@@ -47482,6 +48146,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10",
+     "help": "9a-find",
      "label": "10",
      "section": "Problem-solving",
      "type": "list",
@@ -47494,6 +48159,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11",
+     "help": "9a-find",
      "label": "11",
      "section": "Problem-solving",
      "type": "numeric",
@@ -47502,6 +48168,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14a",
+     "help": "9a-always",
      "label": "14a",
      "section": "Reasoning",
      "stem": "Equations with pronumerals can be sorted into three groups. A: always true, whatever values are substituted. N: never true, whatever values are substituted. S: sometimes true and sometimes false. Classify each equation as A, N or S.",
@@ -47516,6 +48183,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14b",
+     "help": "9a-always",
      "label": "14b",
      "section": "Reasoning",
      "stem": "Equations with pronumerals can be sorted into three groups. A: always true, whatever values are substituted. N: never true, whatever values are substituted. S: sometimes true and sometimes false. Classify each equation as A, N or S.",
@@ -47530,6 +48198,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14c",
+     "help": "9a-always",
      "label": "14c",
      "section": "Reasoning",
      "stem": "Equations with pronumerals can be sorted into three groups. A: always true, whatever values are substituted. N: never true, whatever values are substituted. S: sometimes true and sometimes false. Classify each equation as A, N or S.",
@@ -47544,6 +48213,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14d",
+     "help": "9a-always",
      "label": "14d",
      "section": "Reasoning",
      "stem": "Equations with pronumerals can be sorted into three groups. A: always true, whatever values are substituted. N: never true, whatever values are substituted. S: sometimes true and sometimes false. Classify each equation as A, N or S.",
@@ -47558,6 +48228,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14e",
+     "help": "9a-always",
      "label": "14e",
      "section": "Reasoning",
      "stem": "Equations with pronumerals can be sorted into three groups. A: always true, whatever values are substituted. N: never true, whatever values are substituted. S: sometimes true and sometimes false. Classify each equation as A, N or S.",
@@ -47572,6 +48243,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14f",
+     "help": "9a-always",
      "label": "14f",
      "section": "Reasoning",
      "stem": "Equations with pronumerals can be sorted into three groups. A: always true, whatever values are substituted. N: never true, whatever values are substituted. S: sometimes true and sometimes false. Classify each equation as A, N or S.",
@@ -47586,6 +48258,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14g",
+     "help": "9a-always",
      "label": "14g",
      "section": "Reasoning",
      "stem": "Equations with pronumerals can be sorted into three groups. A: always true, whatever values are substituted. N: never true, whatever values are substituted. S: sometimes true and sometimes false. Classify each equation as A, N or S.",
@@ -47600,6 +48273,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14h",
+     "help": "9a-always",
      "label": "14h",
      "section": "Reasoning",
      "stem": "Equations with pronumerals can be sorted into three groups. A: always true, whatever values are substituted. N: never true, whatever values are substituted. S: sometimes true and sometimes false. Classify each equation as A, N or S.",
@@ -47614,6 +48288,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14i",
+     "help": "9a-always",
      "label": "14i",
      "section": "Reasoning",
      "stem": "Equations with pronumerals can be sorted into three groups. A: always true, whatever values are substituted. N: never true, whatever values are substituted. S: sometimes true and sometimes false. Classify each equation as A, N or S.",
@@ -47628,6 +48303,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14j",
+     "help": "9a-always",
      "label": "14j",
      "section": "Reasoning",
      "stem": "Equations with pronumerals can be sorted into three groups. A: always true, whatever values are substituted. N: never true, whatever values are substituted. S: sometimes true and sometimes false. Classify each equation as A, N or S.",
@@ -47642,6 +48318,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14k",
+     "help": "9a-always",
      "label": "14k",
      "section": "Reasoning",
      "stem": "Equations with pronumerals can be sorted into three groups. A: always true, whatever values are substituted. N: never true, whatever values are substituted. S: sometimes true and sometimes false. Classify each equation as A, N or S.",
@@ -47656,6 +48333,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14l",
+     "help": "9a-always",
      "label": "14l",
      "section": "Reasoning",
      "stem": "Equations with pronumerals can be sorted into three groups. A: always true, whatever values are substituted. N: never true, whatever values are substituted. S: sometimes true and sometimes false. Classify each equation as A, N or S.",
@@ -47670,6 +48348,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15a",
+     "help": "9a-symbols",
      "label": "15a",
      "section": "Enrichment",
      "stem": "Each set of symbols can be rearranged to make a true equation. Which arrangement is true?",
@@ -47685,6 +48364,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15b",
+     "help": "9a-symbols",
      "label": "15b",
      "section": "Enrichment",
      "stem": "Each set of symbols can be rearranged to make a true equation. Which arrangement is true?",
@@ -47700,6 +48380,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15c",
+     "help": "9a-symbols",
      "label": "15c",
      "section": "Enrichment",
      "stem": "Each set of symbols can be rearranged to make a true equation. Which arrangement is true?",
@@ -47715,6 +48396,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15d",
+     "help": "9a-symbols",
      "label": "15d",
      "section": "Enrichment",
      "stem": "Each set of symbols can be rearranged to make a true equation. Which arrangement is true?",
@@ -47730,6 +48412,7 @@ window.H3_BANK = {
     },
     {
      "id": "q16a",
+     "help": "9a-symbols",
      "label": "16a",
      "section": "Enrichment",
      "stem": "Use the symbols $3, 4, 7, +, =$, each exactly once, to make equations.",
@@ -47739,6 +48422,7 @@ window.H3_BANK = {
     },
     {
      "id": "q16b",
+     "help": "9a-symbols",
      "label": "16b",
      "section": "Enrichment",
      "stem": "Use the symbols $3, 4, 7, +, =$, each exactly once, to make equations.",
@@ -47748,6 +48432,7 @@ window.H3_BANK = {
     },
     {
      "id": "q16c",
+     "help": "9a-symbols",
      "label": "16c",
      "section": "Enrichment",
      "stem": "Use the symbols $3, 4, 7, +, =$, each exactly once, to make equations.",
@@ -47761,6 +48446,7 @@ window.H3_BANK = {
     },
     {
      "id": "q16d",
+     "help": "9a-symbols",
      "label": "16d",
      "section": "Enrichment",
      "stem": "Use the symbols $3, 4, 7, +, =$, each exactly once, to make equations.",
@@ -47782,6 +48468,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "9b-missing",
      "label": "1a",
      "section": "Fluency",
      "stem": "For each equation, find the missing number that makes it true.",
@@ -47791,6 +48478,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "9b-missing",
      "label": "1b",
      "section": "Fluency",
      "stem": "For each equation, find the missing number that makes it true.",
@@ -47800,6 +48488,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1c",
+     "help": "9b-missing",
      "label": "1c",
      "section": "Fluency",
      "stem": "For each equation, find the missing number that makes it true.",
@@ -47809,6 +48498,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1d",
+     "help": "9b-missing",
      "label": "1d",
      "section": "Fluency",
      "stem": "For each equation, find the missing number that makes it true.",
@@ -47818,6 +48508,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "9b-missing",
      "label": "2a",
      "section": "Fluency",
      "stem": "Find the value of the missing number.",
@@ -47827,6 +48518,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "9b-missing",
      "label": "2b",
      "section": "Fluency",
      "stem": "Find the value of the missing number.",
@@ -47836,6 +48528,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "9b-missing",
      "label": "2c",
      "section": "Fluency",
      "stem": "Find the value of the missing number.",
@@ -47845,6 +48538,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "9b-missing",
      "label": "2d",
      "section": "Fluency",
      "stem": "Find the value of the missing number.",
@@ -47854,6 +48548,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2e",
+     "help": "9b-missing",
      "label": "2e",
      "section": "Fluency",
      "stem": "Find the value of the missing number.",
@@ -47863,6 +48558,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2f",
+     "help": "9b-missing",
      "label": "2f",
      "section": "Fluency",
      "stem": "Find the value of the missing number.",
@@ -47872,6 +48568,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2g",
+     "help": "9b-missing",
      "label": "2g",
      "section": "Fluency",
      "stem": "Find the value of the missing number.",
@@ -47881,6 +48578,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2h",
+     "help": "9b-missing",
      "label": "2h",
      "section": "Fluency",
      "stem": "Find the value of the missing number.",
@@ -47890,6 +48588,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "9b-inspect",
      "label": "3a",
      "section": "Fluency",
      "stem": "Solve the following equations by inspection.",
@@ -47899,6 +48598,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "9b-inspect",
      "label": "3b",
      "section": "Fluency",
      "stem": "Solve the following equations by inspection.",
@@ -47908,6 +48608,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "9b-inspect",
      "label": "3c",
      "section": "Fluency",
      "stem": "Solve the following equations by inspection.",
@@ -47917,6 +48618,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3d",
+     "help": "9b-inspect",
      "label": "3d",
      "section": "Fluency",
      "stem": "Solve the following equations by inspection.",
@@ -47926,6 +48628,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3e",
+     "help": "9b-inspect",
      "label": "3e",
      "section": "Fluency",
      "stem": "Solve the following equations by inspection.",
@@ -47935,6 +48638,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3f",
+     "help": "9b-inspect",
      "label": "3f",
      "section": "Fluency",
      "stem": "Solve the following equations by inspection.",
@@ -47944,6 +48648,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3g",
+     "help": "9b-inspect",
      "label": "3g",
      "section": "Fluency",
      "stem": "Solve the following equations by inspection.",
@@ -47953,6 +48658,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3h",
+     "help": "9b-inspect",
      "label": "3h",
      "section": "Fluency",
      "stem": "Solve the following equations by inspection.",
@@ -47962,6 +48668,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3i",
+     "help": "9b-inspect",
      "label": "3i",
      "section": "Fluency",
      "stem": "Solve the following equations by inspection.",
@@ -47971,6 +48678,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3j",
+     "help": "9b-inspect",
      "label": "3j",
      "section": "Fluency",
      "stem": "Solve the following equations by inspection.",
@@ -47980,6 +48688,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3k",
+     "help": "9b-inspect",
      "label": "3k",
      "section": "Fluency",
      "stem": "Solve the following equations by inspection.",
@@ -47989,6 +48698,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3l",
+     "help": "9b-inspect",
      "label": "3l",
      "section": "Fluency",
      "stem": "Solve the following equations by inspection.",
@@ -47998,6 +48708,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "9b-guess",
      "label": "4a",
      "section": "Fluency",
      "stem": "Solve the following equations by inspection.",
@@ -48007,6 +48718,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "9b-guess",
      "label": "4b",
      "section": "Fluency",
      "stem": "Solve the following equations by inspection.",
@@ -48016,6 +48728,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "9b-guess",
      "label": "4c",
      "section": "Fluency",
      "stem": "Solve the following equations by inspection.",
@@ -48025,6 +48738,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "9b-guess",
      "label": "4d",
      "section": "Fluency",
      "stem": "Solve the following equations by inspection.",
@@ -48034,6 +48748,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4e",
+     "help": "9b-guess",
      "label": "4e",
      "section": "Fluency",
      "stem": "Solve the following equations by inspection.",
@@ -48043,6 +48758,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4f",
+     "help": "9b-guess",
      "label": "4f",
      "section": "Fluency",
      "stem": "Solve the following equations by inspection.",
@@ -48052,6 +48768,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4g",
+     "help": "9b-guess",
      "label": "4g",
      "section": "Fluency",
      "stem": "Solve the following equations by inspection.",
@@ -48061,6 +48778,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4h",
+     "help": "9b-guess",
      "label": "4h",
      "section": "Fluency",
      "stem": "Solve the following equations by inspection.",
@@ -48070,6 +48788,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4i",
+     "help": "9b-guess",
      "label": "4i",
      "section": "Fluency",
      "stem": "Solve the following equations by inspection.",
@@ -48079,6 +48798,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4j",
+     "help": "9b-guess",
      "label": "4j",
      "section": "Fluency",
      "stem": "Solve the following equations by inspection.",
@@ -48088,6 +48808,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4k",
+     "help": "9b-guess",
      "label": "4k",
      "section": "Fluency",
      "stem": "Solve the following equations by inspection.",
@@ -48097,6 +48818,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4l",
+     "help": "9b-guess",
      "label": "4l",
      "section": "Fluency",
      "stem": "Solve the following equations by inspection.",
@@ -48106,6 +48828,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "9b-guess",
      "label": "5a",
      "section": "Fluency",
      "stem": "Solve the following equations by inspection. (All the solutions are whole numbers between $1$ and $10$.)",
@@ -48115,6 +48838,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "9b-guess",
      "label": "5b",
      "section": "Fluency",
      "stem": "Solve the following equations by inspection. (All the solutions are whole numbers between $1$ and $10$.)",
@@ -48124,6 +48848,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "9b-guess",
      "label": "5c",
      "section": "Fluency",
      "stem": "Solve the following equations by inspection. (All the solutions are whole numbers between $1$ and $10$.)",
@@ -48133,6 +48858,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5d",
+     "help": "9b-guess",
      "label": "5d",
      "section": "Fluency",
      "stem": "Solve the following equations by inspection. (All the solutions are whole numbers between $1$ and $10$.)",
@@ -48142,6 +48868,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5e",
+     "help": "9b-guess",
      "label": "5e",
      "section": "Fluency",
      "stem": "Solve the following equations by inspection. (All the solutions are whole numbers between $1$ and $10$.)",
@@ -48151,6 +48878,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5f",
+     "help": "9b-guess",
      "label": "5f",
      "section": "Fluency",
      "stem": "Solve the following equations by inspection. (All the solutions are whole numbers between $1$ and $10$.)",
@@ -48160,6 +48888,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6a",
+     "help": "9b-words",
      "label": "6a",
      "section": "Problem-solving",
      "stem": "Find the number in each of these.",
@@ -48169,6 +48898,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6b",
+     "help": "9b-words",
      "label": "6b",
      "section": "Problem-solving",
      "stem": "Find the number in each of these.",
@@ -48178,6 +48908,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6c",
+     "help": "9b-words",
      "label": "6c",
      "section": "Problem-solving",
      "stem": "Find the number in each of these.",
@@ -48187,6 +48918,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6d",
+     "help": "9b-words",
      "label": "6d",
      "section": "Problem-solving",
      "stem": "Find the number in each of these.",
@@ -48196,6 +48928,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6e",
+     "help": "9b-words",
      "label": "6e",
      "section": "Problem-solving",
      "stem": "Find the number in each of these.",
@@ -48205,6 +48938,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6f",
+     "help": "9b-words",
      "label": "6f",
      "section": "Problem-solving",
      "stem": "Find the number in each of these.",
@@ -48214,6 +48948,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7a",
+     "help": "9b-words",
      "label": "7a",
      "section": "Problem-solving",
      "stem": "Mateo's current age is unknown. In $7$ years' time he will be $19$ years old.",
@@ -48229,6 +48964,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7b",
+     "help": "9b-words",
      "label": "7b",
      "section": "Problem-solving",
      "stem": "Mateo's current age is unknown. In $7$ years' time he will be $19$ years old.",
@@ -48238,6 +48974,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7c",
+     "help": "9b-words",
      "label": "7c",
      "section": "Problem-solving",
      "stem": "Mateo's current age is unknown. In $7$ years' time he will be $19$ years old.",
@@ -48248,6 +48985,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8a",
+     "help": "9b-words",
      "label": "8a",
      "section": "Problem-solving",
      "stem": "Isla is paid $\\$12$ an hour for $x$ hours. One week she earns $\\$216$.",
@@ -48258,6 +48996,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8b",
+     "help": "9b-words",
      "label": "8b",
      "section": "Problem-solving",
      "stem": "Isla is paid $\\$12$ an hour for $x$ hours. One week she earns $\\$216$.",
@@ -48267,6 +49006,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9a",
+     "help": "9b-words",
      "label": "9a",
      "section": "Problem-solving",
      "stem": "One box weighs $w$ kg. Another box, which is three times as heavy, weighs $48$ kg.",
@@ -48276,6 +49016,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9b",
+     "help": "9b-words",
      "label": "9b",
      "section": "Problem-solving",
      "stem": "One box weighs $w$ kg. Another box, which is three times as heavy, weighs $48$ kg.",
@@ -48286,6 +49027,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10a",
+     "help": "9b-words",
      "label": "10a",
      "section": "Problem-solving",
      "stem": "Noah buys $x$ kg of grapes at $\\$3.50$ per kg. He spends $\\$17.50$ in total.",
@@ -48295,6 +49037,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10b",
+     "help": "9b-words",
      "label": "10b",
      "section": "Problem-solving",
      "stem": "Noah buys $x$ kg of grapes at $\\$3.50$ per kg. He spends $\\$17.50$ in total.",
@@ -48304,6 +49047,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11a",
+     "help": "9b-words",
      "label": "11a",
      "section": "Problem-solving",
      "stem": "Ruby's current age is $y$ years. In $14$ years' time she will be three times as old as she is now.",
@@ -48313,6 +49057,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11b",
+     "help": "9b-words",
      "label": "11b",
      "section": "Problem-solving",
      "stem": "Ruby's current age is $y$ years. In $14$ years' time she will be three times as old as she is now.",
@@ -48322,6 +49067,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12a",
+     "help": "9b-consec",
      "label": "12a",
      "section": "Reasoning",
      "type": "numeric",
@@ -48330,6 +49076,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12b",
+     "help": "9b-consec",
      "label": "12b",
      "section": "Reasoning",
      "type": "numeric",
@@ -48338,6 +49085,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13",
+     "help": "9b-consec",
      "label": "13",
      "section": "Reasoning",
      "type": "list",
@@ -48351,6 +49099,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14a",
+     "help": "9b-two",
      "label": "14a",
      "section": "Enrichment",
      "stem": "Inspection also works when there are two pronumerals. For each equation, find the value of $y$ that makes it true for the given value of $x$.",
@@ -48360,6 +49109,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14b",
+     "help": "9b-two",
      "label": "14b",
      "section": "Enrichment",
      "stem": "Inspection also works when there are two pronumerals. For each equation, find the value of $y$ that makes it true for the given value of $x$.",
@@ -48369,6 +49119,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14c",
+     "help": "9b-two",
      "label": "14c",
      "section": "Enrichment",
      "stem": "Inspection also works when there are two pronumerals. For each equation, find the value of $y$ that makes it true for the given value of $x$.",
@@ -48378,6 +49129,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14d",
+     "help": "9b-two",
      "label": "14d",
      "section": "Enrichment",
      "stem": "Inspection also works when there are two pronumerals. For each equation, find the value of $y$ that makes it true for the given value of $x$.",
@@ -48387,6 +49139,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14e",
+     "help": "9b-two",
      "label": "14e",
      "section": "Enrichment",
      "stem": "Inspection also works when there are two pronumerals. For each equation, find the value of $y$ that makes it true for the given value of $x$.",
@@ -48396,6 +49149,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14f",
+     "help": "9b-two",
      "label": "14f",
      "section": "Enrichment",
      "stem": "Inspection also works when there are two pronumerals. For each equation, find the value of $y$ that makes it true for the given value of $x$.",
@@ -48413,6 +49167,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "9c-apply",
      "label": "1a",
      "section": "Fluency",
      "stem": "Apply the operation in the square brackets to both sides of the equation, then simplify. What number goes in the box?",
@@ -48422,6 +49177,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "9c-apply",
      "label": "1b",
      "section": "Fluency",
      "stem": "Apply the operation in the square brackets to both sides of the equation, then simplify. What number goes in the box?",
@@ -48431,6 +49187,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1c",
+     "help": "9c-apply",
      "label": "1c",
      "section": "Fluency",
      "stem": "Apply the operation in the square brackets to both sides of the equation, then simplify. What number goes in the box?",
@@ -48440,6 +49197,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1d",
+     "help": "9c-apply",
      "label": "1d",
      "section": "Fluency",
      "stem": "Apply the operation in the square brackets to both sides of the equation, then simplify. What number goes in the box?",
@@ -48449,6 +49207,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "9c-apply",
      "label": "2a",
      "section": "Fluency",
      "stem": "Apply the operation in the square brackets to both sides of the equation, then simplify. What number goes in the box?",
@@ -48458,6 +49217,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "9c-apply",
      "label": "2b",
      "section": "Fluency",
      "stem": "Apply the operation in the square brackets to both sides of the equation, then simplify. What number goes in the box?",
@@ -48467,6 +49227,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "9c-apply",
      "label": "2c",
      "section": "Fluency",
      "stem": "Apply the operation in the square brackets to both sides of the equation, then simplify. What number goes in the box?",
@@ -48476,6 +49237,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "9c-apply",
      "label": "2d",
      "section": "Fluency",
      "stem": "Apply the operation in the square brackets to both sides of the equation, then simplify. What number goes in the box?",
@@ -48485,6 +49247,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2e",
+     "help": "9c-apply",
      "label": "2e",
      "section": "Fluency",
      "stem": "Apply the operation in the square brackets to both sides of the equation, then simplify. What number goes in the box?",
@@ -48494,6 +49257,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2f",
+     "help": "9c-apply",
      "label": "2f",
      "section": "Fluency",
      "stem": "Apply the operation in the square brackets to both sides of the equation, then simplify. What number goes in the box?",
@@ -48503,6 +49267,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2g",
+     "help": "9c-apply",
      "label": "2g",
      "section": "Fluency",
      "stem": "Apply the operation in the square brackets to both sides of the equation, then simplify. What number goes in the box?",
@@ -48512,6 +49277,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2h",
+     "help": "9c-apply",
      "label": "2h",
      "section": "Fluency",
      "stem": "Apply the operation in the square brackets to both sides of the equation, then simplify. What number goes in the box?",
@@ -48521,6 +49287,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2i",
+     "help": "9c-apply",
      "label": "2i",
      "section": "Fluency",
      "stem": "Apply the operation in the square brackets to both sides of the equation, then simplify. What number goes in the box?",
@@ -48530,6 +49297,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "9c-which",
      "label": "3a",
      "section": "Fluency",
      "stem": "These pairs of equations are equivalent. Which operation turns the first equation into the second?",
@@ -48545,6 +49313,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "9c-which",
      "label": "3b",
      "section": "Fluency",
      "stem": "These pairs of equations are equivalent. Which operation turns the first equation into the second?",
@@ -48560,6 +49329,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "9c-which",
      "label": "3c",
      "section": "Fluency",
      "stem": "These pairs of equations are equivalent. Which operation turns the first equation into the second?",
@@ -48575,6 +49345,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3d",
+     "help": "9c-which",
      "label": "3d",
      "section": "Fluency",
      "stem": "These pairs of equations are equivalent. Which operation turns the first equation into the second?",
@@ -48590,6 +49361,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3e",
+     "help": "9c-which",
      "label": "3e",
      "section": "Fluency",
      "stem": "These pairs of equations are equivalent. Which operation turns the first equation into the second?",
@@ -48605,6 +49377,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3f",
+     "help": "9c-which",
      "label": "3f",
      "section": "Fluency",
      "stem": "These pairs of equations are equivalent. Which operation turns the first equation into the second?",
@@ -48620,6 +49393,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3g",
+     "help": "9c-which",
      "label": "3g",
      "section": "Fluency",
      "stem": "These pairs of equations are equivalent. Which operation turns the first equation into the second?",
@@ -48635,6 +49409,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3h",
+     "help": "9c-which",
      "label": "3h",
      "section": "Fluency",
      "stem": "These pairs of equations are equivalent. Which operation turns the first equation into the second?",
@@ -48650,6 +49425,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "9c-chain",
      "label": "4a",
      "section": "Fluency",
      "stem": "For each equation, add $5$ to both sides and then multiply both sides by $2$. What number goes in the box?",
@@ -48659,6 +49435,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "9c-chain",
      "label": "4b",
      "section": "Fluency",
      "stem": "For each equation, add $5$ to both sides and then multiply both sides by $2$. What number goes in the box?",
@@ -48668,6 +49445,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "9c-chain",
      "label": "4c",
      "section": "Fluency",
      "stem": "For each equation, add $5$ to both sides and then multiply both sides by $2$. What number goes in the box?",
@@ -48677,6 +49455,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "9c-chain",
      "label": "4d",
      "section": "Fluency",
      "stem": "For each equation, add $5$ to both sides and then multiply both sides by $2$. What number goes in the box?",
@@ -48686,6 +49465,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4e",
+     "help": "9c-chain",
      "label": "4e",
      "section": "Fluency",
      "stem": "For each equation, add $5$ to both sides and then multiply both sides by $2$. What number goes in the box?",
@@ -48695,6 +49475,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4f",
+     "help": "9c-chain",
      "label": "4f",
      "section": "Fluency",
      "stem": "For each equation, add $5$ to both sides and then multiply both sides by $2$. What number goes in the box?",
@@ -48704,6 +49485,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "9c-which",
      "label": "5a",
      "section": "Problem-solving",
      "stem": "Match each equation with the equivalent equation from the list A to E.",
@@ -48720,6 +49502,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "9c-which",
      "label": "5b",
      "section": "Problem-solving",
      "stem": "Match each equation with the equivalent equation from the list A to E.",
@@ -48736,6 +49519,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "9c-which",
      "label": "5c",
      "section": "Problem-solving",
      "stem": "Match each equation with the equivalent equation from the list A to E.",
@@ -48752,6 +49536,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5d",
+     "help": "9c-which",
      "label": "5d",
      "section": "Problem-solving",
      "stem": "Match each equation with the equivalent equation from the list A to E.",
@@ -48768,6 +49553,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5e",
+     "help": "9c-which",
      "label": "5e",
      "section": "Problem-solving",
      "stem": "Match each equation with the equivalent equation from the list A to E.",
@@ -48784,6 +49570,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6a",
+     "help": "9c-chain",
      "label": "6a",
      "section": "Problem-solving",
      "stem": "Each pair of equations is equivalent. Which two steps turn the first equation into the second?",
@@ -48799,6 +49586,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6b",
+     "help": "9c-chain",
      "label": "6b",
      "section": "Problem-solving",
      "stem": "Each pair of equations is equivalent. Which two steps turn the first equation into the second?",
@@ -48814,6 +49602,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6c",
+     "help": "9c-chain",
      "label": "6c",
      "section": "Problem-solving",
      "stem": "Each pair of equations is equivalent. Which two steps turn the first equation into the second?",
@@ -48829,6 +49618,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6d",
+     "help": "9c-chain",
      "label": "6d",
      "section": "Problem-solving",
      "stem": "Each pair of equations is equivalent. Which two steps turn the first equation into the second?",
@@ -48844,6 +49634,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7a",
+     "help": "9c-which",
      "label": "7a",
      "section": "Problem-solving",
      "stem": "Which single operation, applied to both sides, gives a simpler equation?",
@@ -48859,6 +49650,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7b",
+     "help": "9c-which",
      "label": "7b",
      "section": "Problem-solving",
      "stem": "Which single operation, applied to both sides, gives a simpler equation?",
@@ -48874,6 +49666,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7c",
+     "help": "9c-which",
      "label": "7c",
      "section": "Problem-solving",
      "stem": "Which single operation, applied to both sides, gives a simpler equation?",
@@ -48889,6 +49682,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7d",
+     "help": "9c-which",
      "label": "7d",
      "section": "Problem-solving",
      "stem": "Which single operation, applied to both sides, gives a simpler equation?",
@@ -48904,6 +49698,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8a",
+     "help": "9c-show",
      "label": "8a",
      "section": "Reasoning",
      "type": "ordered",
@@ -48917,6 +49712,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8b",
+     "help": "9c-show",
      "label": "8b",
      "section": "Reasoning",
      "type": "numeric",
@@ -48925,6 +49721,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8c",
+     "help": "9c-show",
      "label": "8c",
      "section": "Reasoning",
      "type": "numeric",
@@ -48933,6 +49730,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9a",
+     "help": "9c-reason",
      "label": "9a",
      "section": "Reasoning",
      "stem": "Multiplying both sides of an equation by zero is not allowed when making equivalent equations. What do you get if you multiply both sides of this equation by zero?",
@@ -48948,6 +49746,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9b",
+     "help": "9c-reason",
      "label": "9b",
      "section": "Reasoning",
      "stem": "Multiplying both sides of an equation by zero is not allowed when making equivalent equations. What do you get if you multiply both sides of this equation by zero?",
@@ -48963,6 +49762,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9c",
+     "help": "9c-reason",
      "label": "9c",
      "section": "Reasoning",
      "stem": "Multiplying both sides of an equation by zero is not allowed when making equivalent equations. What do you get if you multiply both sides of this equation by zero?",
@@ -48978,6 +49778,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10a",
+     "help": "9c-chain",
      "label": "10a",
      "section": "Reasoning",
      "stem": "Start with the equation $x = 4$. Do the same operations to both sides to make an equivalent equation with the left-hand side shown. What is the right-hand side?",
@@ -48987,6 +49788,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10b",
+     "help": "9c-chain",
      "label": "10b",
      "section": "Reasoning",
      "stem": "Start with the equation $x = 4$. Do the same operations to both sides to make an equivalent equation with the left-hand side shown. What is the right-hand side?",
@@ -48996,6 +49798,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11a",
+     "help": "9c-reason",
      "label": "11a",
      "section": "Enrichment",
      "stem": "Decide whether each statement is true or false.",
@@ -49009,6 +49812,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11b",
+     "help": "9c-reason",
      "label": "11b",
      "section": "Enrichment",
      "stem": "Decide whether each statement is true or false.",
@@ -49022,6 +49826,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11c",
+     "help": "9c-reason",
      "label": "11c",
      "section": "Enrichment",
      "stem": "Decide whether each statement is true or false.",
@@ -49035,6 +49840,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11d",
+     "help": "9c-reason",
      "label": "11d",
      "section": "Enrichment",
      "stem": "Decide whether each statement is true or false.",
@@ -49056,6 +49862,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "9d-one",
      "label": "1a",
      "section": "Fluency",
      "stem": "Solve each of the following equations algebraically.",
@@ -49065,6 +49872,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "9d-one",
      "label": "1b",
      "section": "Fluency",
      "stem": "Solve each of the following equations algebraically.",
@@ -49074,6 +49882,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1c",
+     "help": "9d-one",
      "label": "1c",
      "section": "Fluency",
      "stem": "Solve each of the following equations algebraically.",
@@ -49083,6 +49892,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1d",
+     "help": "9d-one",
      "label": "1d",
      "section": "Fluency",
      "stem": "Solve each of the following equations algebraically.",
@@ -49092,6 +49902,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1e",
+     "help": "9d-one",
      "label": "1e",
      "section": "Fluency",
      "stem": "Solve each of the following equations algebraically.",
@@ -49101,6 +49912,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1f",
+     "help": "9d-one",
      "label": "1f",
      "section": "Fluency",
      "stem": "Solve each of the following equations algebraically.",
@@ -49110,6 +49922,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "9d-one",
      "label": "2a",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically.",
@@ -49119,6 +49932,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "9d-one",
      "label": "2b",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically.",
@@ -49128,6 +49942,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "9d-one",
      "label": "2c",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically.",
@@ -49137,6 +49952,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "9d-one",
      "label": "2d",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically.",
@@ -49146,6 +49962,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2e",
+     "help": "9d-one",
      "label": "2e",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically.",
@@ -49155,6 +49972,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2f",
+     "help": "9d-one",
      "label": "2f",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically.",
@@ -49164,6 +49982,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2g",
+     "help": "9d-one",
      "label": "2g",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically.",
@@ -49173,6 +49992,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2h",
+     "help": "9d-one",
      "label": "2h",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically.",
@@ -49182,6 +50002,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2i",
+     "help": "9d-one",
      "label": "2i",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically.",
@@ -49191,6 +50012,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2j",
+     "help": "9d-one",
      "label": "2j",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically.",
@@ -49200,6 +50022,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2k",
+     "help": "9d-one",
      "label": "2k",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically.",
@@ -49209,6 +50032,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2l",
+     "help": "9d-one",
      "label": "2l",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically.",
@@ -49218,6 +50042,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2m",
+     "help": "9d-one",
      "label": "2m",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically.",
@@ -49227,6 +50052,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2n",
+     "help": "9d-one",
      "label": "2n",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically.",
@@ -49236,6 +50062,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2o",
+     "help": "9d-one",
      "label": "2o",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically.",
@@ -49245,6 +50072,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2p",
+     "help": "9d-one",
      "label": "2p",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically.",
@@ -49254,6 +50082,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2q",
+     "help": "9d-one",
      "label": "2q",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically.",
@@ -49263,6 +50092,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2r",
+     "help": "9d-one",
      "label": "2r",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically.",
@@ -49272,6 +50102,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2s",
+     "help": "9d-one",
      "label": "2s",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically.",
@@ -49281,6 +50112,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2t",
+     "help": "9d-one",
      "label": "2t",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically.",
@@ -49290,6 +50122,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "9d-two",
      "label": "3a",
      "section": "Fluency",
      "stem": "Complete the working to solve each equation. What numbers go in the boxes?",
@@ -49299,6 +50132,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "9d-two",
      "label": "3b",
      "section": "Fluency",
      "stem": "Complete the working to solve each equation. What numbers go in the boxes?",
@@ -49312,6 +50146,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "9d-two",
      "label": "3c",
      "section": "Fluency",
      "stem": "Complete the working to solve each equation. What numbers go in the boxes?",
@@ -49324,6 +50159,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3d",
+     "help": "9d-two",
      "label": "3d",
      "section": "Fluency",
      "stem": "Complete the working to solve each equation. What numbers go in the boxes?",
@@ -49336,6 +50172,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "9d-two",
      "label": "4a",
      "section": "Fluency",
      "stem": "For each equation, which operation would you apply to both sides first to solve it?",
@@ -49351,6 +50188,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "9d-two",
      "label": "4b",
      "section": "Fluency",
      "stem": "For each equation, which operation would you apply to both sides first to solve it?",
@@ -49366,6 +50204,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "9d-two",
      "label": "4c",
      "section": "Fluency",
      "stem": "For each equation, which operation would you apply to both sides first to solve it?",
@@ -49381,6 +50220,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "9d-two",
      "label": "4d",
      "section": "Fluency",
      "stem": "For each equation, which operation would you apply to both sides first to solve it?",
@@ -49396,6 +50236,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "9d-two",
      "label": "5a",
      "section": "Fluency",
      "stem": "Solve each of the following equations algebraically. Check your solution by substituting it into both sides.",
@@ -49405,6 +50246,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "9d-two",
      "label": "5b",
      "section": "Fluency",
      "stem": "Solve each of the following equations algebraically. Check your solution by substituting it into both sides.",
@@ -49414,6 +50256,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "9d-two",
      "label": "5c",
      "section": "Fluency",
      "stem": "Solve each of the following equations algebraically. Check your solution by substituting it into both sides.",
@@ -49423,6 +50266,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5d",
+     "help": "9d-two",
      "label": "5d",
      "section": "Fluency",
      "stem": "Solve each of the following equations algebraically. Check your solution by substituting it into both sides.",
@@ -49432,6 +50276,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5e",
+     "help": "9d-two",
      "label": "5e",
      "section": "Fluency",
      "stem": "Solve each of the following equations algebraically. Check your solution by substituting it into both sides.",
@@ -49441,6 +50286,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5f",
+     "help": "9d-two",
      "label": "5f",
      "section": "Fluency",
      "stem": "Solve each of the following equations algebraically. Check your solution by substituting it into both sides.",
@@ -49450,6 +50296,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5g",
+     "help": "9d-two",
      "label": "5g",
      "section": "Fluency",
      "stem": "Solve each of the following equations algebraically. Check your solution by substituting it into both sides.",
@@ -49459,6 +50306,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5h",
+     "help": "9d-two",
      "label": "5h",
      "section": "Fluency",
      "stem": "Solve each of the following equations algebraically. Check your solution by substituting it into both sides.",
@@ -49468,6 +50316,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5i",
+     "help": "9d-two",
      "label": "5i",
      "section": "Fluency",
      "stem": "Solve each of the following equations algebraically. Check your solution by substituting it into both sides.",
@@ -49477,6 +50326,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5j",
+     "help": "9d-two",
      "label": "5j",
      "section": "Fluency",
      "stem": "Solve each of the following equations algebraically. Check your solution by substituting it into both sides.",
@@ -49486,6 +50336,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5k",
+     "help": "9d-two",
      "label": "5k",
      "section": "Fluency",
      "stem": "Solve each of the following equations algebraically. Check your solution by substituting it into both sides.",
@@ -49495,6 +50346,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5l",
+     "help": "9d-two",
      "label": "5l",
      "section": "Fluency",
      "stem": "Solve each of the following equations algebraically. Check your solution by substituting it into both sides.",
@@ -49504,6 +50356,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5m",
+     "help": "9d-two",
      "label": "5m",
      "section": "Fluency",
      "stem": "Solve each of the following equations algebraically. Check your solution by substituting it into both sides.",
@@ -49513,6 +50366,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5n",
+     "help": "9d-two",
      "label": "5n",
      "section": "Fluency",
      "stem": "Solve each of the following equations algebraically. Check your solution by substituting it into both sides.",
@@ -49522,6 +50376,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5o",
+     "help": "9d-two",
      "label": "5o",
      "section": "Fluency",
      "stem": "Solve each of the following equations algebraically. Check your solution by substituting it into both sides.",
@@ -49531,6 +50386,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5p",
+     "help": "9d-two",
      "label": "5p",
      "section": "Fluency",
      "stem": "Solve each of the following equations algebraically. Check your solution by substituting it into both sides.",
@@ -49540,6 +50396,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5q",
+     "help": "9d-two",
      "label": "5q",
      "section": "Fluency",
      "stem": "Solve each of the following equations algebraically. Check your solution by substituting it into both sides.",
@@ -49549,6 +50406,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5r",
+     "help": "9d-two",
      "label": "5r",
      "section": "Fluency",
      "stem": "Solve each of the following equations algebraically. Check your solution by substituting it into both sides.",
@@ -49558,6 +50416,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5s",
+     "help": "9d-two",
      "label": "5s",
      "section": "Fluency",
      "stem": "Solve each of the following equations algebraically. Check your solution by substituting it into both sides.",
@@ -49567,6 +50426,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5t",
+     "help": "9d-two",
      "label": "5t",
      "section": "Fluency",
      "stem": "Solve each of the following equations algebraically. Check your solution by substituting it into both sides.",
@@ -49576,6 +50436,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6a",
+     "help": "9d-frac",
      "label": "6a",
      "section": "Fluency",
      "stem": "Solve the following equations, giving your solutions as fractions.",
@@ -49586,6 +50447,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6b",
+     "help": "9d-frac",
      "label": "6b",
      "section": "Fluency",
      "stem": "Solve the following equations, giving your solutions as fractions.",
@@ -49595,6 +50457,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6c",
+     "help": "9d-frac",
      "label": "6c",
      "section": "Fluency",
      "stem": "Solve the following equations, giving your solutions as fractions.",
@@ -49604,6 +50467,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6d",
+     "help": "9d-frac",
      "label": "6d",
      "section": "Fluency",
      "stem": "Solve the following equations, giving your solutions as fractions.",
@@ -49613,6 +50477,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6e",
+     "help": "9d-frac",
      "label": "6e",
      "section": "Fluency",
      "stem": "Solve the following equations, giving your solutions as fractions.",
@@ -49622,6 +50487,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6f",
+     "help": "9d-frac",
      "label": "6f",
      "section": "Fluency",
      "stem": "Solve the following equations, giving your solutions as fractions.",
@@ -49631,6 +50497,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7a",
+     "help": "9d-neg",
      "label": "7a",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically. (The solutions are negative numbers.)",
@@ -49641,6 +50508,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7b",
+     "help": "9d-neg",
      "label": "7b",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically. (The solutions are negative numbers.)",
@@ -49650,6 +50518,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7c",
+     "help": "9d-neg",
      "label": "7c",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically. (The solutions are negative numbers.)",
@@ -49659,6 +50528,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7d",
+     "help": "9d-neg",
      "label": "7d",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically. (The solutions are negative numbers.)",
@@ -49668,6 +50538,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7e",
+     "help": "9d-neg",
      "label": "7e",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically. (The solutions are negative numbers.)",
@@ -49677,6 +50548,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7f",
+     "help": "9d-neg",
      "label": "7f",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically. (The solutions are negative numbers.)",
@@ -49686,6 +50558,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7g",
+     "help": "9d-neg",
      "label": "7g",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically. (The solutions are negative numbers.)",
@@ -49695,6 +50568,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7h",
+     "help": "9d-neg",
      "label": "7h",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically. (The solutions are negative numbers.)",
@@ -49704,6 +50578,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7i",
+     "help": "9d-neg",
      "label": "7i",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically. (The solutions are negative numbers.)",
@@ -49713,6 +50588,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8a",
+     "help": "9d-words",
      "label": "8a",
      "section": "Problem-solving",
      "stem": "For each of the following, write an equation and solve it algebraically. Type the value of the pronumeral.",
@@ -49722,6 +50598,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8b",
+     "help": "9d-words",
      "label": "8b",
      "section": "Problem-solving",
      "stem": "For each of the following, write an equation and solve it algebraically. Type the value of the pronumeral.",
@@ -49731,6 +50608,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8c",
+     "help": "9d-words",
      "label": "8c",
      "section": "Problem-solving",
      "stem": "For each of the following, write an equation and solve it algebraically. Type the value of the pronumeral.",
@@ -49740,6 +50618,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8d",
+     "help": "9d-words",
      "label": "8d",
      "section": "Problem-solving",
      "stem": "For each of the following, write an equation and solve it algebraically. Type the value of the pronumeral.",
@@ -49749,6 +50628,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8e",
+     "help": "9d-words",
      "label": "8e",
      "section": "Problem-solving",
      "stem": "For each of the following, write an equation and solve it algebraically. Type the value of the pronumeral.",
@@ -49758,6 +50638,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8f",
+     "help": "9d-words",
      "label": "8f",
      "section": "Problem-solving",
      "stem": "For each of the following, write an equation and solve it algebraically. Type the value of the pronumeral.",
@@ -49767,6 +50648,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9a",
+     "help": "9d-words",
      "label": "9a",
      "section": "Problem-solving",
      "stem": "Zara gets paid $\\$15$ per hour, plus a bonus of $\\$40$ each week. In one week she earned $\\$355$.",
@@ -49777,6 +50659,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9b",
+     "help": "9d-words",
      "label": "9b",
      "section": "Problem-solving",
      "stem": "Zara gets paid $\\$15$ per hour, plus a bonus of $\\$40$ each week. In one week she earned $\\$355$.",
@@ -49787,6 +50670,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10a",
+     "help": "9d-words",
      "label": "10a",
      "section": "Problem-solving",
      "stem": "Hannah buys $8$ pencils and $3$ pens for the new school year. The pencils cost $\\$2$ each.",
@@ -49796,6 +50680,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10b",
+     "help": "9d-words",
      "label": "10b",
      "section": "Problem-solving",
      "stem": "Hannah buys $8$ pencils and $3$ pens for the new school year. The pencils cost $\\$2$ each.",
@@ -49806,6 +50691,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10c",
+     "help": "9d-words",
      "label": "10c",
      "section": "Problem-solving",
      "stem": "Hannah buys $8$ pencils and $3$ pens for the new school year. The pencils cost $\\$2$ each.",
@@ -49816,6 +50702,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10d",
+     "help": "9d-words",
      "label": "10d",
      "section": "Problem-solving",
      "stem": "Hannah buys $8$ pencils and $3$ pens for the new school year. The pencils cost $\\$2$ each.",
@@ -49826,6 +50713,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11a",
+     "help": "9d-shape",
      "label": "11a",
      "section": "Problem-solving",
      "stem": "Write an equation and solve it algebraically to find the unknown length in each diagram.",
@@ -49855,6 +50743,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11b",
+     "help": "9d-shape",
      "label": "11b",
      "section": "Problem-solving",
      "stem": "Write an equation and solve it algebraically to find the unknown length in each diagram.",
@@ -49884,6 +50773,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11c",
+     "help": "9d-shape",
      "label": "11c",
      "section": "Problem-solving",
      "stem": "Write an equation and solve it algebraically to find the unknown length in each diagram.",
@@ -49913,6 +50803,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11d",
+     "help": "9d-shape",
      "label": "11d",
      "section": "Problem-solving",
      "stem": "Write an equation and solve it algebraically to find the unknown length in each diagram.",
@@ -49942,6 +50833,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12a",
+     "help": "9d-two",
      "label": "12a",
      "section": "Problem-solving",
      "stem": "Solve the following equations algebraically.",
@@ -49951,6 +50843,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12b",
+     "help": "9d-two",
      "label": "12b",
      "section": "Problem-solving",
      "stem": "Solve the following equations algebraically.",
@@ -49960,6 +50853,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12c",
+     "help": "9d-two",
      "label": "12c",
      "section": "Problem-solving",
      "stem": "Solve the following equations algebraically.",
@@ -49969,6 +50863,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14a",
+     "help": "9d-equiv",
      "label": "14a",
      "section": "Reasoning",
      "type": "numeric",
@@ -49977,6 +50872,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14b",
+     "help": "9d-equiv",
      "label": "14b",
      "section": "Reasoning",
      "type": "numeric",
@@ -49985,6 +50881,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14c",
+     "help": "9d-equiv",
      "label": "14c",
      "section": "Reasoning",
      "type": "choice",
@@ -49997,6 +50894,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14d",
+     "help": "9d-equiv",
      "label": "14d",
      "section": "Reasoning",
      "type": "choice",
@@ -50009,6 +50907,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15a",
+     "help": "9d-mistakes",
      "label": "15a",
      "section": "Reasoning",
      "stem": "Callum tried to solve four equations but made a mistake in each one. Which mistake did he make?",
@@ -50024,6 +50923,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15b",
+     "help": "9d-mistakes",
      "label": "15b",
      "section": "Reasoning",
      "stem": "Callum tried to solve four equations but made a mistake in each one. Which mistake did he make?",
@@ -50039,6 +50939,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15c",
+     "help": "9d-mistakes",
      "label": "15c",
      "section": "Reasoning",
      "stem": "Callum tried to solve four equations but made a mistake in each one. Which mistake did he make?",
@@ -50054,6 +50955,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15d",
+     "help": "9d-mistakes",
      "label": "15d",
      "section": "Reasoning",
      "stem": "Callum tried to solve four equations but made a mistake in each one. Which mistake did he make?",
@@ -50069,6 +50971,7 @@ window.H3_BANK = {
     },
     {
      "id": "q16a",
+     "help": "9d-both",
      "label": "16a",
      "section": "Enrichment",
      "stem": "Solve each equation by first subtracting a pronumeral term from both sides.",
@@ -50078,6 +50981,7 @@ window.H3_BANK = {
     },
     {
      "id": "q16b",
+     "help": "9d-both",
      "label": "16b",
      "section": "Enrichment",
      "stem": "Solve each equation by first subtracting a pronumeral term from both sides.",
@@ -50087,6 +50991,7 @@ window.H3_BANK = {
     },
     {
      "id": "q16c",
+     "help": "9d-both",
      "label": "16c",
      "section": "Enrichment",
      "stem": "Solve each equation by first subtracting a pronumeral term from both sides.",
@@ -50096,6 +51001,7 @@ window.H3_BANK = {
     },
     {
      "id": "q16d",
+     "help": "9d-both",
      "label": "16d",
      "section": "Enrichment",
      "stem": "Solve each equation by first subtracting a pronumeral term from both sides.",
@@ -50105,6 +51011,7 @@ window.H3_BANK = {
     },
     {
      "id": "q16e",
+     "help": "9d-both",
      "label": "16e",
      "section": "Enrichment",
      "stem": "Solve each equation by first subtracting a pronumeral term from both sides.",
@@ -50114,6 +51021,7 @@ window.H3_BANK = {
     },
     {
      "id": "q16f",
+     "help": "9d-both",
      "label": "16f",
      "section": "Enrichment",
      "stem": "Solve each equation by first subtracting a pronumeral term from both sides.",
@@ -50123,6 +51031,7 @@ window.H3_BANK = {
     },
     {
      "id": "q16g",
+     "help": "9d-both",
      "label": "16g",
      "section": "Enrichment",
      "stem": "Solve each equation by first subtracting a pronumeral term from both sides.",
@@ -50132,6 +51041,7 @@ window.H3_BANK = {
     },
     {
      "id": "q16h",
+     "help": "9d-both",
      "label": "16h",
      "section": "Enrichment",
      "stem": "Solve each equation by first subtracting a pronumeral term from both sides.",
@@ -50149,6 +51059,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "9e-divide",
      "label": "1a",
      "section": "Fluency",
      "stem": "Solve each of the following equations.",
@@ -50158,6 +51069,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "9e-divide",
      "label": "1b",
      "section": "Fluency",
      "stem": "Solve each of the following equations.",
@@ -50167,6 +51079,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1c",
+     "help": "9e-divide",
      "label": "1c",
      "section": "Fluency",
      "stem": "Solve each of the following equations.",
@@ -50176,6 +51089,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1d",
+     "help": "9e-divide",
      "label": "1d",
      "section": "Fluency",
      "stem": "Solve each of the following equations.",
@@ -50185,6 +51099,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "9e-divide",
      "label": "2a",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically.",
@@ -50194,6 +51109,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "9e-divide",
      "label": "2b",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically.",
@@ -50203,6 +51119,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "9e-divide",
      "label": "2c",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically.",
@@ -50212,6 +51129,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "9e-divide",
      "label": "2d",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically.",
@@ -50221,6 +51139,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2e",
+     "help": "9e-divide",
      "label": "2e",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically.",
@@ -50230,6 +51149,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2f",
+     "help": "9e-divide",
      "label": "2f",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically.",
@@ -50239,6 +51159,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2g",
+     "help": "9e-divide",
      "label": "2g",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically.",
@@ -50248,6 +51169,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2h",
+     "help": "9e-divide",
      "label": "2h",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically.",
@@ -50257,6 +51179,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2i",
+     "help": "9e-divide",
      "label": "2i",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically.",
@@ -50266,6 +51189,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2j",
+     "help": "9e-divide",
      "label": "2j",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically.",
@@ -50275,6 +51199,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2k",
+     "help": "9e-divide",
      "label": "2k",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically.",
@@ -50284,6 +51209,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2l",
+     "help": "9e-divide",
      "label": "2l",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically.",
@@ -50293,6 +51219,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "9e-twostep",
      "label": "3a",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically. Check your solutions using substitution.",
@@ -50302,6 +51229,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "9e-twostep",
      "label": "3b",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically. Check your solutions using substitution.",
@@ -50311,6 +51239,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "9e-twostep",
      "label": "3c",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically. Check your solutions using substitution.",
@@ -50320,6 +51249,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3d",
+     "help": "9e-twostep",
      "label": "3d",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically. Check your solutions using substitution.",
@@ -50329,6 +51259,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3e",
+     "help": "9e-twostep",
      "label": "3e",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically. Check your solutions using substitution.",
@@ -50338,6 +51269,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3f",
+     "help": "9e-twostep",
      "label": "3f",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically. Check your solutions using substitution.",
@@ -50347,6 +51279,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3g",
+     "help": "9e-twostep",
      "label": "3g",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically. Check your solutions using substitution.",
@@ -50356,6 +51289,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3h",
+     "help": "9e-twostep",
      "label": "3h",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically. Check your solutions using substitution.",
@@ -50365,6 +51299,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3i",
+     "help": "9e-twostep",
      "label": "3i",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically. Check your solutions using substitution.",
@@ -50374,6 +51309,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3j",
+     "help": "9e-twostep",
      "label": "3j",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically. Check your solutions using substitution.",
@@ -50383,6 +51319,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3k",
+     "help": "9e-twostep",
      "label": "3k",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically. Check your solutions using substitution.",
@@ -50392,6 +51329,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3l",
+     "help": "9e-twostep",
      "label": "3l",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically. Check your solutions using substitution.",
@@ -50401,6 +51339,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3m",
+     "help": "9e-twostep",
      "label": "3m",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically. Check your solutions using substitution.",
@@ -50410,6 +51349,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3n",
+     "help": "9e-twostep",
      "label": "3n",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically. Check your solutions using substitution.",
@@ -50419,6 +51359,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3o",
+     "help": "9e-twostep",
      "label": "3o",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically. Check your solutions using substitution.",
@@ -50428,6 +51369,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3p",
+     "help": "9e-twostep",
      "label": "3p",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically. Check your solutions using substitution.",
@@ -50437,6 +51379,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3q",
+     "help": "9e-twostep",
      "label": "3q",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically. Check your solutions using substitution.",
@@ -50446,6 +51389,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3r",
+     "help": "9e-twostep",
      "label": "3r",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically. Check your solutions using substitution.",
@@ -50455,6 +51399,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3s",
+     "help": "9e-twostep",
      "label": "3s",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically. Check your solutions using substitution.",
@@ -50464,6 +51409,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3t",
+     "help": "9e-twostep",
      "label": "3t",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically. Check your solutions using substitution.",
@@ -50473,6 +51419,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "9e-twostep",
      "label": "4a",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically. (Note: the solutions to these equations are negative numbers.)",
@@ -50483,6 +51430,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "9e-twostep",
      "label": "4b",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically. (Note: the solutions to these equations are negative numbers.)",
@@ -50492,6 +51440,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "9e-twostep",
      "label": "4c",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically. (Note: the solutions to these equations are negative numbers.)",
@@ -50501,6 +51450,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "9e-twostep",
      "label": "4d",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically. (Note: the solutions to these equations are negative numbers.)",
@@ -50510,6 +51460,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4e",
+     "help": "9e-twostep",
      "label": "4e",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically. (Note: the solutions to these equations are negative numbers.)",
@@ -50519,6 +51470,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4f",
+     "help": "9e-twostep",
      "label": "4f",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically. (Note: the solutions to these equations are negative numbers.)",
@@ -50528,6 +51480,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4g",
+     "help": "9e-twostep",
      "label": "4g",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically. (Note: the solutions to these equations are negative numbers.)",
@@ -50537,6 +51490,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4h",
+     "help": "9e-twostep",
      "label": "4h",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically. (Note: the solutions to these equations are negative numbers.)",
@@ -50546,6 +51500,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "9e-words",
      "label": "5a",
      "section": "Problem-solving",
      "stem": "In each case, write an equation and solve it to find the number. Type the number.",
@@ -50555,6 +51510,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "9e-words",
      "label": "5b",
      "section": "Problem-solving",
      "stem": "In each case, write an equation and solve it to find the number. Type the number.",
@@ -50564,6 +51520,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "9e-words",
      "label": "5c",
      "section": "Problem-solving",
      "stem": "In each case, write an equation and solve it to find the number. Type the number.",
@@ -50573,6 +51530,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5d",
+     "help": "9e-words",
      "label": "5d",
      "section": "Problem-solving",
      "stem": "In each case, write an equation and solve it to find the number. Type the number.",
@@ -50582,6 +51540,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5e",
+     "help": "9e-words",
      "label": "5e",
      "section": "Problem-solving",
      "stem": "In each case, write an equation and solve it to find the number. Type the number.",
@@ -50591,6 +51550,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5f",
+     "help": "9e-words",
      "label": "5f",
      "section": "Problem-solving",
      "stem": "In each case, write an equation and solve it to find the number. Type the number.",
@@ -50600,6 +51560,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6a",
+     "help": "9e-words",
      "label": "6a",
      "section": "Problem-solving",
      "stem": "A group of six friends go out for dinner and split the bill evenly. They each pay $\\$24.50$.",
@@ -50610,6 +51571,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6b",
+     "help": "9e-words",
      "label": "6b",
      "section": "Problem-solving",
      "stem": "A group of six friends go out for dinner and split the bill evenly. They each pay $\\$24.50$.",
@@ -50619,6 +51581,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6c",
+     "help": "9e-words",
      "label": "6c",
      "section": "Problem-solving",
      "stem": "A group of six friends go out for dinner and split the bill evenly. They each pay $\\$24.50$.",
@@ -50629,6 +51592,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7a",
+     "help": "9e-words",
      "label": "7a",
      "section": "Problem-solving",
      "stem": "Mia and Jordan hire a bowling lane for $\\$x$ and split the cost evenly. Mia also buys herself a drink for $\\$4$.",
@@ -50639,6 +51603,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7b",
+     "help": "9e-words",
      "label": "7b",
      "section": "Problem-solving",
      "stem": "Mia and Jordan hire a bowling lane for $\\$x$ and split the cost evenly. Mia also buys herself a drink for $\\$4$.",
@@ -50649,6 +51614,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7c",
+     "help": "9e-words",
      "label": "7c",
      "section": "Problem-solving",
      "stem": "Mia and Jordan hire a bowling lane for $\\$x$ and split the cost evenly. Mia also buys herself a drink for $\\$4$.",
@@ -50659,6 +51625,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8a",
+     "help": "9e-twostep",
      "label": "8a",
      "section": "Reasoning",
      "stem": "Compare the expressions $\\frac{4x + 2}{3}$ and $\\frac{4x}{3} + 2$.",
@@ -50674,6 +51641,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8b",
+     "help": "9e-twostep",
      "label": "8b",
      "section": "Reasoning",
      "stem": "Compare the expressions $\\frac{4x + 2}{3}$ and $\\frac{4x}{3} + 2$.",
@@ -50689,6 +51657,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8c",
+     "help": "9e-twostep",
      "label": "8c",
      "section": "Reasoning",
      "stem": "Compare the expressions $\\frac{4x + 2}{3}$ and $\\frac{4x}{3} + 2$.",
@@ -50702,6 +51671,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9a",
+     "help": "9e-fracans",
      "label": "9a",
      "section": "Reasoning",
      "stem": "Sometimes the solution to an equation is a fraction. For example, $3x = 1$ has the solution $x = \\frac{1}{3}$.",
@@ -50713,6 +51683,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9b",
+     "help": "9e-fracans",
      "label": "9b",
      "section": "Reasoning",
      "stem": "Sometimes the solution to an equation is a fraction. For example, $3x = 1$ has the solution $x = \\frac{1}{3}$.",
@@ -50728,6 +51699,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9c",
+     "help": "9e-fracans",
      "label": "9c",
      "section": "Reasoning",
      "stem": "Sometimes the solution to an equation is a fraction. For example, $3x = 1$ has the solution $x = \\frac{1}{3}$.",
@@ -50741,6 +51713,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10a",
+     "help": "9e-twostep",
      "label": "10a",
      "section": "Reasoning",
      "stem": "Dividing by a number and multiplying by its reciprocal have the same effect. Solve each equation.",
@@ -50750,6 +51723,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10b",
+     "help": "9e-twostep",
      "label": "10b",
      "section": "Reasoning",
      "stem": "Dividing by a number and multiplying by its reciprocal have the same effect. Solve each equation.",
@@ -50759,6 +51733,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10c",
+     "help": "9e-twostep",
      "label": "10c",
      "section": "Reasoning",
      "stem": "Dividing by a number and multiplying by its reciprocal have the same effect. Solve each equation.",
@@ -50768,6 +51743,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10d",
+     "help": "9e-twostep",
      "label": "10d",
      "section": "Reasoning",
      "stem": "Dividing by a number and multiplying by its reciprocal have the same effect. Solve each equation.",
@@ -50777,6 +51753,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11a",
+     "help": "9e-fracans",
      "label": "11a",
      "section": "Enrichment",
      "stem": "Solve each of the following equations, giving your answers as a fraction.",
@@ -50788,6 +51765,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11b",
+     "help": "9e-fracans",
      "label": "11b",
      "section": "Enrichment",
      "stem": "Solve each of the following equations, giving your answers as a fraction.",
@@ -50798,6 +51776,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11c",
+     "help": "9e-fracans",
      "label": "11c",
      "section": "Enrichment",
      "stem": "Solve each of the following equations, giving your answers as a fraction.",
@@ -50808,6 +51787,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11d",
+     "help": "9e-fracans",
      "label": "11d",
      "section": "Enrichment",
      "stem": "Solve each of the following equations, giving your answers as a fraction.",
@@ -50818,6 +51798,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12",
+     "help": "9e-fracans",
      "label": "12",
      "section": "Enrichment",
      "prompt": "The equation $\\frac{4x - 2}{5} = 6$ has the solution $x = 8$. You can change the $6$ on the right-hand side so that the solution becomes $x = 13$. What number should replace the $6$?",
@@ -50834,6 +51815,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "9f-expand",
      "label": "1a",
      "section": "Fluency",
      "stem": "Expand each of the following.",
@@ -50844,6 +51826,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "9f-expand",
      "label": "1b",
      "section": "Fluency",
      "stem": "Expand each of the following.",
@@ -50854,6 +51837,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1c",
+     "help": "9f-expand",
      "label": "1c",
      "section": "Fluency",
      "stem": "Expand each of the following.",
@@ -50864,6 +51848,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1d",
+     "help": "9f-expand",
      "label": "1d",
      "section": "Fluency",
      "stem": "Expand each of the following.",
@@ -50874,6 +51859,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1e",
+     "help": "9f-expand",
      "label": "1e",
      "section": "Fluency",
      "stem": "Expand each of the following.",
@@ -50884,6 +51870,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1f",
+     "help": "9f-expand",
      "label": "1f",
      "section": "Fluency",
      "stem": "Expand each of the following.",
@@ -50894,6 +51881,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "9f-expand",
      "label": "2a",
      "section": "Fluency",
      "stem": "Expand each of the following.",
@@ -50904,6 +51892,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "9f-expand",
      "label": "2b",
      "section": "Fluency",
      "stem": "Expand each of the following.",
@@ -50914,6 +51903,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "9f-expand",
      "label": "2c",
      "section": "Fluency",
      "stem": "Expand each of the following.",
@@ -50924,6 +51914,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "9f-expand",
      "label": "2d",
      "section": "Fluency",
      "stem": "Expand each of the following.",
@@ -50934,6 +51925,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2e",
+     "help": "9f-expand",
      "label": "2e",
      "section": "Fluency",
      "stem": "Expand each of the following.",
@@ -50944,6 +51936,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2f",
+     "help": "9f-expand",
      "label": "2f",
      "section": "Fluency",
      "stem": "Expand each of the following.",
@@ -50954,6 +51947,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2g",
+     "help": "9f-expand",
      "label": "2g",
      "section": "Fluency",
      "stem": "Expand each of the following.",
@@ -50964,6 +51958,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2h",
+     "help": "9f-expand",
      "label": "2h",
      "section": "Fluency",
      "stem": "Expand each of the following.",
@@ -50974,6 +51969,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "9f-collect",
      "label": "3a",
      "section": "Fluency",
      "stem": "Simplify these expressions by collecting like terms.",
@@ -50984,6 +51980,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "9f-collect",
      "label": "3b",
      "section": "Fluency",
      "stem": "Simplify these expressions by collecting like terms.",
@@ -50994,6 +51991,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "9f-collect",
      "label": "3c",
      "section": "Fluency",
      "stem": "Simplify these expressions by collecting like terms.",
@@ -51004,6 +52002,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3d",
+     "help": "9f-collect",
      "label": "3d",
      "section": "Fluency",
      "stem": "Simplify these expressions by collecting like terms.",
@@ -51014,6 +52013,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3e",
+     "help": "9f-collect",
      "label": "3e",
      "section": "Fluency",
      "stem": "Simplify these expressions by collecting like terms.",
@@ -51024,6 +52024,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3f",
+     "help": "9f-collect",
      "label": "3f",
      "section": "Fluency",
      "stem": "Simplify these expressions by collecting like terms.",
@@ -51034,6 +52035,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3g",
+     "help": "9f-collect",
      "label": "3g",
      "section": "Fluency",
      "stem": "Simplify these expressions by collecting like terms.",
@@ -51044,6 +52046,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3h",
+     "help": "9f-collect",
      "label": "3h",
      "section": "Fluency",
      "stem": "Simplify these expressions by collecting like terms.",
@@ -51054,6 +52057,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "9f-solve",
      "label": "4a",
      "section": "Fluency",
      "stem": "Solve the following equations by expanding the brackets first. Check your solutions by substituting them in.",
@@ -51063,6 +52067,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "9f-solve",
      "label": "4b",
      "section": "Fluency",
      "stem": "Solve the following equations by expanding the brackets first. Check your solutions by substituting them in.",
@@ -51072,6 +52077,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "9f-solve",
      "label": "4c",
      "section": "Fluency",
      "stem": "Solve the following equations by expanding the brackets first. Check your solutions by substituting them in.",
@@ -51081,6 +52087,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4d",
+     "help": "9f-solve",
      "label": "4d",
      "section": "Fluency",
      "stem": "Solve the following equations by expanding the brackets first. Check your solutions by substituting them in.",
@@ -51090,6 +52097,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4e",
+     "help": "9f-solve",
      "label": "4e",
      "section": "Fluency",
      "stem": "Solve the following equations by expanding the brackets first. Check your solutions by substituting them in.",
@@ -51099,6 +52107,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4f",
+     "help": "9f-solve",
      "label": "4f",
      "section": "Fluency",
      "stem": "Solve the following equations by expanding the brackets first. Check your solutions by substituting them in.",
@@ -51108,6 +52117,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4g",
+     "help": "9f-solve",
      "label": "4g",
      "section": "Fluency",
      "stem": "Solve the following equations by expanding the brackets first. Check your solutions by substituting them in.",
@@ -51117,6 +52127,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4h",
+     "help": "9f-solve",
      "label": "4h",
      "section": "Fluency",
      "stem": "Solve the following equations by expanding the brackets first. Check your solutions by substituting them in.",
@@ -51126,6 +52137,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4i",
+     "help": "9f-solve",
      "label": "4i",
      "section": "Fluency",
      "stem": "Solve the following equations by expanding the brackets first. Check your solutions by substituting them in.",
@@ -51135,6 +52147,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4j",
+     "help": "9f-solve",
      "label": "4j",
      "section": "Fluency",
      "stem": "Solve the following equations by expanding the brackets first. Check your solutions by substituting them in.",
@@ -51144,6 +52157,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4k",
+     "help": "9f-solve",
      "label": "4k",
      "section": "Fluency",
      "stem": "Solve the following equations by expanding the brackets first. Check your solutions by substituting them in.",
@@ -51153,6 +52167,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4l",
+     "help": "9f-solve",
      "label": "4l",
      "section": "Fluency",
      "stem": "Solve the following equations by expanding the brackets first. Check your solutions by substituting them in.",
@@ -51162,6 +52177,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "9f-solve",
      "label": "5a",
      "section": "Fluency",
      "stem": "Solve these equations by expanding the brackets first.",
@@ -51171,6 +52187,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "9f-solve",
      "label": "5b",
      "section": "Fluency",
      "stem": "Solve these equations by expanding the brackets first.",
@@ -51180,6 +52197,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "9f-solve",
      "label": "5c",
      "section": "Fluency",
      "stem": "Solve these equations by expanding the brackets first.",
@@ -51189,6 +52207,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5d",
+     "help": "9f-solve",
      "label": "5d",
      "section": "Fluency",
      "stem": "Solve these equations by expanding the brackets first.",
@@ -51198,6 +52217,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5e",
+     "help": "9f-solve",
      "label": "5e",
      "section": "Fluency",
      "stem": "Solve these equations by expanding the brackets first.",
@@ -51207,6 +52227,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5f",
+     "help": "9f-solve",
      "label": "5f",
      "section": "Fluency",
      "stem": "Solve these equations by expanding the brackets first.",
@@ -51216,6 +52237,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5g",
+     "help": "9f-solve",
      "label": "5g",
      "section": "Fluency",
      "stem": "Solve these equations by expanding the brackets first.",
@@ -51225,6 +52247,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5h",
+     "help": "9f-solve",
      "label": "5h",
      "section": "Fluency",
      "stem": "Solve these equations by expanding the brackets first.",
@@ -51234,6 +52257,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6a",
+     "help": "9f-collect-solve",
      "label": "6a",
      "section": "Fluency",
      "stem": "Solve the following equations by first expanding the brackets. You will need to simplify by collecting like terms.",
@@ -51243,6 +52267,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6b",
+     "help": "9f-collect-solve",
      "label": "6b",
      "section": "Fluency",
      "stem": "Solve the following equations by first expanding the brackets. You will need to simplify by collecting like terms.",
@@ -51252,6 +52277,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6c",
+     "help": "9f-collect-solve",
      "label": "6c",
      "section": "Fluency",
      "stem": "Solve the following equations by first expanding the brackets. You will need to simplify by collecting like terms.",
@@ -51261,6 +52287,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6d",
+     "help": "9f-collect-solve",
      "label": "6d",
      "section": "Fluency",
      "stem": "Solve the following equations by first expanding the brackets. You will need to simplify by collecting like terms.",
@@ -51270,6 +52297,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6e",
+     "help": "9f-collect-solve",
      "label": "6e",
      "section": "Fluency",
      "stem": "Solve the following equations by first expanding the brackets. You will need to simplify by collecting like terms.",
@@ -51279,6 +52307,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6f",
+     "help": "9f-collect-solve",
      "label": "6f",
      "section": "Fluency",
      "stem": "Solve the following equations by first expanding the brackets. You will need to simplify by collecting like terms.",
@@ -51288,6 +52317,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6g",
+     "help": "9f-collect-solve",
      "label": "6g",
      "section": "Fluency",
      "stem": "Solve the following equations by first expanding the brackets. You will need to simplify by collecting like terms.",
@@ -51297,6 +52327,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6h",
+     "help": "9f-collect-solve",
      "label": "6h",
      "section": "Fluency",
      "stem": "Solve the following equations by first expanding the brackets. You will need to simplify by collecting like terms.",
@@ -51306,6 +52337,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6i",
+     "help": "9f-collect-solve",
      "label": "6i",
      "section": "Fluency",
      "stem": "Solve the following equations by first expanding the brackets. You will need to simplify by collecting like terms.",
@@ -51315,6 +52347,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7a",
+     "help": "9f-solve",
      "label": "7a",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically. (Note: the answers to these equations are negative numbers.)",
@@ -51325,6 +52358,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7b",
+     "help": "9f-solve",
      "label": "7b",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically. (Note: the answers to these equations are negative numbers.)",
@@ -51334,6 +52368,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7c",
+     "help": "9f-solve",
      "label": "7c",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically. (Note: the answers to these equations are negative numbers.)",
@@ -51343,6 +52378,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7d",
+     "help": "9f-solve",
      "label": "7d",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically. (Note: the answers to these equations are negative numbers.)",
@@ -51352,6 +52388,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7e",
+     "help": "9f-solve",
      "label": "7e",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically. (Note: the answers to these equations are negative numbers.)",
@@ -51361,6 +52398,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7f",
+     "help": "9f-solve",
      "label": "7f",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically. (Note: the answers to these equations are negative numbers.)",
@@ -51370,6 +52408,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7g",
+     "help": "9f-solve",
      "label": "7g",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically. (Note: the answers to these equations are negative numbers.)",
@@ -51379,6 +52418,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7h",
+     "help": "9f-solve",
      "label": "7h",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically. (Note: the answers to these equations are negative numbers.)",
@@ -51388,6 +52428,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7i",
+     "help": "9f-solve",
      "label": "7i",
      "section": "Fluency",
      "stem": "Solve the following equations algebraically. (Note: the answers to these equations are negative numbers.)",
@@ -51397,6 +52438,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8a",
+     "help": "9f-words",
      "label": "8a",
      "section": "Problem-solving",
      "stem": "For each problem, write an equation, then solve it by first expanding any brackets. Type the value of the pronumeral.",
@@ -51406,6 +52448,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8b",
+     "help": "9f-words",
      "label": "8b",
      "section": "Problem-solving",
      "stem": "For each problem, write an equation, then solve it by first expanding any brackets. Type the value of the pronumeral.",
@@ -51415,6 +52458,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8c",
+     "help": "9f-words",
      "label": "8c",
      "section": "Problem-solving",
      "stem": "For each problem, write an equation, then solve it by first expanding any brackets. Type the value of the pronumeral.",
@@ -51424,6 +52468,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8d",
+     "help": "9f-words",
      "label": "8d",
      "section": "Problem-solving",
      "stem": "For each problem, write an equation, then solve it by first expanding any brackets. Type the value of the pronumeral.",
@@ -51433,6 +52478,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9a",
+     "help": "9f-solve",
      "label": "9a",
      "section": "Problem-solving",
      "stem": "Solve the following equations.",
@@ -51442,6 +52488,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9b",
+     "help": "9f-solve",
      "label": "9b",
      "section": "Problem-solving",
      "stem": "Solve the following equations.",
@@ -51451,6 +52498,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9c",
+     "help": "9f-solve",
      "label": "9c",
      "section": "Problem-solving",
      "stem": "Solve the following equations.",
@@ -51460,6 +52508,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10a",
+     "help": "9f-nosol",
      "label": "10a",
      "section": "Reasoning",
      "stem": "Each equation below has no solution. Simplify the left-hand side of each equation to see why.",
@@ -51470,6 +52519,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10b",
+     "help": "9f-nosol",
      "label": "10b",
      "section": "Reasoning",
      "stem": "Each equation below has no solution. Simplify the left-hand side of each equation to see why.",
@@ -51480,6 +52530,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10c",
+     "help": "9f-nosol",
      "label": "10c",
      "section": "Reasoning",
      "stem": "Each equation below has no solution. Simplify the left-hand side of each equation to see why.",
@@ -51490,6 +52541,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10d",
+     "help": "9f-nosol",
      "label": "10d",
      "section": "Reasoning",
      "stem": "Each equation below has no solution. Simplify the left-hand side of each equation to see why.",
@@ -51504,6 +52556,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11a",
+     "help": "9f-nosol",
      "label": "11a",
      "section": "Reasoning",
      "stem": "Consider the equation $2(3x + 3) - 6x + 4 = 10$.",
@@ -51513,6 +52566,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11b",
+     "help": "9f-nosol",
      "label": "11b",
      "section": "Reasoning",
      "stem": "Consider the equation $2(3x + 3) - 6x + 4 = 10$.",
@@ -51522,6 +52576,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11c",
+     "help": "9f-nosol",
      "label": "11c",
      "section": "Reasoning",
      "stem": "Consider the equation $2(3x + 3) - 6x + 4 = 10$.",
@@ -51536,6 +52591,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13a",
+     "help": "9f-collect-solve",
      "label": "13a",
      "section": "Enrichment",
      "stem": "Solve each of the following equations by expanding all sets of brackets.",
@@ -51545,6 +52601,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13b",
+     "help": "9f-collect-solve",
      "label": "13b",
      "section": "Enrichment",
      "stem": "Solve each of the following equations by expanding all sets of brackets.",
@@ -51554,6 +52611,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13c",
+     "help": "9f-collect-solve",
      "label": "13c",
      "section": "Enrichment",
      "stem": "Solve each of the following equations by expanding all sets of brackets.",
@@ -51563,6 +52621,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13d",
+     "help": "9f-collect-solve",
      "label": "13d",
      "section": "Enrichment",
      "stem": "Solve each of the following equations by expanding all sets of brackets.",
@@ -51572,6 +52631,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13e",
+     "help": "9f-collect-solve",
      "label": "13e",
      "section": "Enrichment",
      "stem": "Solve each of the following equations by expanding all sets of brackets.",
@@ -51581,6 +52641,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13f",
+     "help": "9f-collect-solve",
      "label": "13f",
      "section": "Enrichment",
      "stem": "Solve each of the following equations by expanding all sets of brackets.",
@@ -51590,6 +52651,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13g",
+     "help": "9f-collect-solve",
      "label": "13g",
      "section": "Enrichment",
      "stem": "Solve each of the following equations by expanding all sets of brackets.",
@@ -51599,6 +52661,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13h",
+     "help": "9f-collect-solve",
      "label": "13h",
      "section": "Enrichment",
      "stem": "Solve each of the following equations by expanding all sets of brackets.",
@@ -51608,6 +52671,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13i",
+     "help": "9f-collect-solve",
      "label": "13i",
      "section": "Enrichment",
      "stem": "Solve each of the following equations by expanding all sets of brackets.",
@@ -51617,6 +52681,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13j",
+     "help": "9f-collect-solve",
      "label": "13j",
      "section": "Enrichment",
      "stem": "Solve each of the following equations by expanding all sets of brackets.",
@@ -51634,6 +52699,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1a",
+     "help": "9g-rule",
      "label": "1a",
      "section": "Fluency",
      "stem": "Consider the rule $k = 4b + 7$. Find the value of:",
@@ -51643,6 +52709,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1b",
+     "help": "9g-rule",
      "label": "1b",
      "section": "Fluency",
      "stem": "Consider the rule $k = 4b + 7$. Find the value of:",
@@ -51652,6 +52719,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1c",
+     "help": "9g-rule",
      "label": "1c",
      "section": "Fluency",
      "stem": "Consider the rule $k = 4b + 7$. Find the value of:",
@@ -51661,6 +52729,7 @@ window.H3_BANK = {
     },
     {
      "id": "q1d",
+     "help": "9g-rule",
      "label": "1d",
      "section": "Fluency",
      "stem": "Consider the rule $k = 4b + 7$. Find the value of:",
@@ -51670,6 +52739,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "9g-rule",
      "label": "2a",
      "section": "Fluency",
      "stem": "Consider the rule $h = 3m + 2$. Find:",
@@ -51679,6 +52749,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "9g-rule",
      "label": "2b",
      "section": "Fluency",
      "stem": "Consider the rule $h = 3m + 2$. Find:",
@@ -51688,6 +52759,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2c",
+     "help": "9g-rule",
      "label": "2c",
      "section": "Fluency",
      "stem": "Consider the rule $h = 3m + 2$. Find:",
@@ -51697,6 +52769,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2d",
+     "help": "9g-rule",
      "label": "2d",
      "section": "Fluency",
      "stem": "Consider the rule $h = 3m + 2$. Find:",
@@ -51706,6 +52779,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "9g-rule",
      "label": "3a",
      "section": "Fluency",
      "stem": "Consider the formula $y = 4 + 2x$. Find:",
@@ -51715,6 +52789,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "9g-rule",
      "label": "3b",
      "section": "Fluency",
      "stem": "Consider the formula $y = 4 + 2x$. Find:",
@@ -51724,6 +52799,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3c",
+     "help": "9g-rule",
      "label": "3c",
      "section": "Fluency",
      "stem": "Consider the formula $y = 4 + 2x$. Find:",
@@ -51733,6 +52809,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "9g-rule",
      "label": "4a",
      "section": "Fluency",
      "stem": "Consider the rule $A = q + t$. Find:",
@@ -51742,6 +52819,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "9g-rule",
      "label": "4b",
      "section": "Fluency",
      "stem": "Consider the rule $A = q + t$. Find:",
@@ -51751,6 +52829,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4c",
+     "help": "9g-rule",
      "label": "4c",
      "section": "Fluency",
      "stem": "Consider the rule $A = q + t$. Find:",
@@ -51760,6 +52839,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "9g-rule",
      "label": "5a",
      "section": "Fluency",
      "stem": "Consider the formula $G = 5x + 3y$. Find:",
@@ -51769,6 +52849,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "9g-rule",
      "label": "5b",
      "section": "Fluency",
      "stem": "Consider the formula $G = 5x + 3y$. Find:",
@@ -51778,6 +52859,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "9g-rule",
      "label": "5c",
      "section": "Fluency",
      "stem": "Consider the formula $G = 5x + 3y$. Find:",
@@ -51787,6 +52869,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6a",
+     "help": "9g-shape",
      "label": "6a",
      "section": "Problem-solving",
      "stem": "The formula for the area of a rectangle is $A = l \\times w$, where $l$ is the length and $w$ is the width.",
@@ -51816,6 +52899,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6b",
+     "help": "9g-shape",
      "label": "6b",
      "section": "Problem-solving",
      "stem": "The formula for the area of a rectangle is $A = l \\times w$, where $l$ is the length and $w$ is the width.",
@@ -51825,6 +52909,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6c",
+     "help": "9g-shape",
      "label": "6c",
      "section": "Problem-solving",
      "stem": "The formula for the area of a rectangle is $A = l \\times w$, where $l$ is the length and $w$ is the width.",
@@ -51839,6 +52924,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7a",
+     "help": "9g-shape",
      "label": "7a",
      "section": "Problem-solving",
      "stem": "The perimeter of a rectangle is given by $P = 2(w + l)$. Find the:",
@@ -51848,6 +52934,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7b",
+     "help": "9g-shape",
      "label": "7b",
      "section": "Problem-solving",
      "stem": "The perimeter of a rectangle is given by $P = 2(w + l)$. Find the:",
@@ -51857,6 +52944,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7c",
+     "help": "9g-shape",
      "label": "7c",
      "section": "Problem-solving",
      "stem": "The perimeter of a rectangle is given by $P = 2(w + l)$. Find the:",
@@ -51866,6 +52954,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8a",
+     "help": "9g-science",
      "label": "8a",
      "section": "Problem-solving",
      "stem": "A formula relating density $(d)$, mass $(m)$ and volume $(v)$ is $d = \\frac{m}{v}$.",
@@ -51875,6 +52964,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8b",
+     "help": "9g-science",
      "label": "8b",
      "section": "Problem-solving",
      "stem": "A formula relating density $(d)$, mass $(m)$ and volume $(v)$ is $d = \\frac{m}{v}$.",
@@ -51885,6 +52975,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8c",
+     "help": "9g-science",
      "label": "8c",
      "section": "Problem-solving",
      "stem": "A formula relating density $(d)$, mass $(m)$ and volume $(v)$ is $d = \\frac{m}{v}$.",
@@ -51895,6 +52986,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9a",
+     "help": "9g-science",
      "label": "9a",
      "section": "Problem-solving",
      "stem": "To convert between temperatures in Celsius and Fahrenheit, the rule is $F = \\frac{9C}{5} + 32$.",
@@ -51904,6 +52996,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9b",
+     "help": "9g-science",
      "label": "9b",
      "section": "Problem-solving",
      "stem": "To convert between temperatures in Celsius and Fahrenheit, the rule is $F = \\frac{9C}{5} + 32$.",
@@ -51913,6 +53006,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9c",
+     "help": "9g-science",
      "label": "9c",
      "section": "Problem-solving",
      "stem": "To convert between temperatures in Celsius and Fahrenheit, the rule is $F = \\frac{9C}{5} + 32$.",
@@ -51923,6 +53017,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9d",
+     "help": "9g-science",
      "label": "9d",
      "section": "Problem-solving",
      "stem": "To convert between temperatures in Celsius and Fahrenheit, the rule is $F = \\frac{9C}{5} + 32$.",
@@ -51933,6 +53028,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10a",
+     "help": "9g-science",
      "label": "10a",
      "section": "Reasoning",
      "stem": "Two formulas can be used to estimate a person's maximum heart rate $(H)$ from their age $(a)$. Formula 1: $H = 220 - a$. Formula 2: $H = 206.9 - 0.67a$.",
@@ -51942,6 +53038,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10b",
+     "help": "9g-science",
      "label": "10b",
      "section": "Reasoning",
      "stem": "Two formulas can be used to estimate a person's maximum heart rate $(H)$ from their age $(a)$. Formula 1: $H = 220 - a$. Formula 2: $H = 206.9 - 0.67a$.",
@@ -51951,6 +53048,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10c",
+     "help": "9g-science",
      "label": "10c",
      "section": "Reasoning",
      "stem": "Two formulas can be used to estimate a person's maximum heart rate $(H)$ from their age $(a)$. Formula 1: $H = 220 - a$. Formula 2: $H = 206.9 - 0.67a$.",
@@ -51960,6 +53058,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10d",
+     "help": "9g-science",
      "label": "10d",
      "section": "Reasoning",
      "stem": "Two formulas can be used to estimate a person's maximum heart rate $(H)$ from their age $(a)$. Formula 1: $H = 220 - a$. Formula 2: $H = 206.9 - 0.67a$.",
@@ -51969,6 +53068,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10e",
+     "help": "9g-science",
      "label": "10e",
      "section": "Reasoning",
      "stem": "Two formulas can be used to estimate a person's maximum heart rate $(H)$ from their age $(a)$. Formula 1: $H = 220 - a$. Formula 2: $H = 206.9 - 0.67a$.",
@@ -51978,6 +53078,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10f",
+     "help": "9g-science",
      "label": "10f",
      "section": "Reasoning",
      "stem": "Two formulas can be used to estimate a person's maximum heart rate $(H)$ from their age $(a)$. Formula 1: $H = 220 - a$. Formula 2: $H = 206.9 - 0.67a$.",
@@ -51987,6 +53088,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11a",
+     "help": "9g-rearrange",
      "label": "11a",
      "section": "Reasoning",
      "stem": "Rearranging a formula means writing an equivalent formula with a different pronumeral by itself on one side. For example, $S = 6g + b$ rearranges to $g = \\frac{S - b}{6}$. Type each rearranged formula in full.",
@@ -51997,6 +53099,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11b",
+     "help": "9g-rearrange",
      "label": "11b",
      "section": "Reasoning",
      "stem": "Rearranging a formula means writing an equivalent formula with a different pronumeral by itself on one side. For example, $S = 6g + b$ rearranges to $g = \\frac{S - b}{6}$. Type each rearranged formula in full.",
@@ -52006,6 +53109,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11c",
+     "help": "9g-rearrange",
      "label": "11c",
      "section": "Reasoning",
      "stem": "Rearranging a formula means writing an equivalent formula with a different pronumeral by itself on one side. For example, $S = 6g + b$ rearranges to $g = \\frac{S - b}{6}$. Type each rearranged formula in full.",
@@ -52015,6 +53119,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12a",
+     "help": "9g-table",
      "label": "12a",
      "section": "Reasoning",
      "stem": "A taxi company charges based on distance $(D)$ in km and time $(t)$ in minutes. Some sample costs $(C)$ in dollars are shown. Is each rule consistent with all the values in the table?",
@@ -52048,6 +53153,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12b",
+     "help": "9g-table",
      "label": "12b",
      "section": "Reasoning",
      "stem": "A taxi company charges based on distance $(D)$ in km and time $(t)$ in minutes. Some sample costs $(C)$ in dollars are shown. Is each rule consistent with all the values in the table?",
@@ -52061,6 +53167,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12c",
+     "help": "9g-table",
      "label": "12c",
      "section": "Reasoning",
      "stem": "A taxi company charges based on distance $(D)$ in km and time $(t)$ in minutes. Some sample costs $(C)$ in dollars are shown. Is each rule consistent with all the values in the table?",
@@ -52074,6 +53181,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13a",
+     "help": "9g-science",
      "label": "13a",
      "section": "Enrichment",
      "stem": "In Australian Rules Football, a team's score is $S = 6g + b$, where $g$ is the number of goals and $b$ is the number of behinds.",
@@ -52087,6 +53195,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13b",
+     "help": "9g-science",
      "label": "13b",
      "section": "Enrichment",
      "stem": "In Australian Rules Football, a team's score is $S = 6g + b$, where $g$ is the number of goals and $b$ is the number of behinds.",
@@ -52096,6 +53205,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13c",
+     "help": "9g-science",
      "label": "13c",
      "section": "Enrichment",
      "stem": "In Australian Rules Football, a team's score is $S = 6g + b$, where $g$ is the number of goals and $b$ is the number of behinds.",
@@ -52106,6 +53216,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13d",
+     "help": "9g-science",
      "label": "13d",
      "section": "Enrichment",
      "stem": "In Australian Rules Football, a team's score is $S = 6g + b$, where $g$ is the number of goals and $b$ is the number of behinds.",
@@ -52123,6 +53234,7 @@ window.H3_BANK = {
    "questions": [
     {
      "id": "q1",
+     "help": "9h-relate",
      "label": "1",
      "section": "Fluency",
      "prompt": "The sum of Ava's current age and her age next year is $27$. How old is Ava?",
@@ -52132,6 +53244,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2a",
+     "help": "9h-steps",
      "label": "2a",
      "section": "Fluency",
      "stem": "Leon buys a boat and a trailer for a combined cost of $\\$36\\,000$. The trailer costs $\\$3500$.",
@@ -52142,6 +53255,7 @@ window.H3_BANK = {
     },
     {
      "id": "q2b",
+     "help": "9h-steps",
      "label": "2b",
      "section": "Fluency",
      "stem": "Leon buys a boat and a trailer for a combined cost of $\\$36\\,000$. The trailer costs $\\$3500$.",
@@ -52152,6 +53266,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3a",
+     "help": "9h-steps",
      "label": "3a",
      "section": "Fluency",
      "stem": "Noah buys $15$ markers for a total cost of $\\$22.50$.",
@@ -52162,6 +53277,7 @@ window.H3_BANK = {
     },
     {
      "id": "q3b",
+     "help": "9h-steps",
      "label": "3b",
      "section": "Fluency",
      "stem": "Noah buys $15$ markers for a total cost of $\\$22.50$.",
@@ -52172,6 +53288,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4a",
+     "help": "9h-steps",
      "label": "4a",
      "section": "Fluency",
      "stem": "Sofia is paid $\\$19$ per hour and gets a bonus of $\\$45$ each week. One week she earned $\\$558$.",
@@ -52182,6 +53299,7 @@ window.H3_BANK = {
     },
     {
      "id": "q4b",
+     "help": "9h-steps",
      "label": "4b",
      "section": "Fluency",
      "stem": "Sofia is paid $\\$19$ per hour and gets a bonus of $\\$45$ each week. One week she earned $\\$558$.",
@@ -52192,6 +53310,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5a",
+     "help": "9h-shape",
      "label": "5a",
      "section": "Fluency",
      "stem": "This rectangular paddock has an area of $630\\text{ m}^2$.",
@@ -52217,6 +53336,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5b",
+     "help": "9h-shape",
      "label": "5b",
      "section": "Fluency",
      "stem": "This rectangular paddock has an area of $630\\text{ m}^2$.",
@@ -52227,6 +53347,7 @@ window.H3_BANK = {
     },
     {
      "id": "q5c",
+     "help": "9h-shape",
      "label": "5c",
      "section": "Fluency",
      "stem": "This rectangular paddock has an area of $630\\text{ m}^2$.",
@@ -52237,6 +53358,7 @@ window.H3_BANK = {
     },
     {
      "id": "q6",
+     "help": "9h-relate",
      "label": "6",
      "section": "Problem-solving",
      "prompt": "A number is tripled, then $4$ is added and the result is doubled. This gives a final result of $50$. Set up and solve an equation to find the original number.",
@@ -52245,6 +53367,7 @@ window.H3_BANK = {
     },
     {
      "id": "q7",
+     "help": "9h-shape",
      "label": "7",
      "section": "Problem-solving",
      "prompt": "A four-sided shape has sides of length $x$, $8$, $3x$ and $14$. Its perimeter is $42$. Find the value of $x$.",
@@ -52253,6 +53376,7 @@ window.H3_BANK = {
     },
     {
      "id": "q8",
+     "help": "9h-relate",
      "label": "8",
      "section": "Problem-solving",
      "prompt": "Jai reads for some time on Monday, then twice as long on Tuesday, then twice as long again on Wednesday. He reads for a total of $8\\frac{3}{4}$ hours from Monday to Wednesday. How long did Jai read for on Monday?",
@@ -52263,6 +53387,7 @@ window.H3_BANK = {
     },
     {
      "id": "q9",
+     "help": "9h-relate",
      "label": "9",
      "section": "Problem-solving",
      "prompt": "Ellie and Tom's combined age is $41$. Ellie is $5$ years older than Tom. Write an equation and find Tom's age.",
@@ -52272,6 +53397,7 @@ window.H3_BANK = {
     },
     {
      "id": "q10",
+     "help": "9h-angles",
      "label": "10",
      "section": "Problem-solving",
      "prompt": "An isosceles triangle has a top angle of $128°$ and two equal base angles of $x°$ each. Write an equation and solve it to find $x$. (Remember: the angles in a triangle add to $180°$.)",
@@ -52281,6 +53407,7 @@ window.H3_BANK = {
     },
     {
      "id": "q11",
+     "help": "9h-angles",
      "label": "11",
      "section": "Problem-solving",
      "prompt": "A right-angled triangle has its other two angles equal to $y°$ and $(4y)°$. Write an equation and find the value of $y$.",
@@ -52290,6 +53417,7 @@ window.H3_BANK = {
     },
     {
      "id": "q12",
+     "help": "9h-shape",
      "label": "12",
      "section": "Problem-solving",
      "prompt": "A rectangle has width $3$ and height $h$. Its perimeter and its area are equal. Write an equation and solve it to find $h$.",
@@ -52298,6 +53426,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13a",
+     "help": "9h-shape",
      "label": "13a",
      "section": "Problem-solving",
      "stem": "In this rectangle the top side is $2x + 5$ and the bottom side is $17$. The left side is $4y$ and the right side is $12$.",
@@ -52322,6 +53451,7 @@ window.H3_BANK = {
     },
     {
      "id": "q13b",
+     "help": "9h-shape",
      "label": "13b",
      "section": "Problem-solving",
      "stem": "In this rectangle the top side is $2x + 5$ and the bottom side is $17$. The left side is $4y$ and the right side is $12$.",
@@ -52331,6 +53461,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14a",
+     "help": "9h-sense",
      "label": "14a",
      "section": "Reasoning",
      "stem": "Consider the equation $5c + 18 = 3$.",
@@ -52340,6 +53471,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14b",
+     "help": "9h-sense",
      "label": "14b",
      "section": "Reasoning",
      "stem": "Consider the equation $5c + 18 = 3$.",
@@ -52353,6 +53485,7 @@ window.H3_BANK = {
     },
     {
      "id": "q14c",
+     "help": "9h-sense",
      "label": "14c",
      "section": "Reasoning",
      "stem": "Consider the equation $5c + 18 = 3$.",
@@ -52366,6 +53499,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15a",
+     "help": "9h-sense",
      "label": "15a",
      "section": "Reasoning",
      "stem": "Printing costs $40$ cents a page and $p$ is the number of pages printed. You must pay for whole pages. Does each equation have a possible solution (a whole number of pages)?",
@@ -52379,6 +53513,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15b",
+     "help": "9h-sense",
      "label": "15b",
      "section": "Reasoning",
      "stem": "Printing costs $40$ cents a page and $p$ is the number of pages printed. You must pay for whole pages. Does each equation have a possible solution (a whole number of pages)?",
@@ -52392,6 +53527,7 @@ window.H3_BANK = {
     },
     {
      "id": "q15c",
+     "help": "9h-sense",
      "label": "15c",
      "section": "Reasoning",
      "stem": "Printing costs $40$ cents a page and $p$ is the number of pages printed. You must pay for whole pages. Does each equation have a possible solution (a whole number of pages)?",
@@ -52405,6 +53541,7 @@ window.H3_BANK = {
     },
     {
      "id": "q17a",
+     "help": "9h-angles",
      "label": "17a",
      "section": "Enrichment",
      "stem": "The angles in a triangle add to $180°$. These triangles are not drawn to scale.",
@@ -52414,6 +53551,7 @@ window.H3_BANK = {
     },
     {
      "id": "q17b",
+     "help": "9h-angles",
      "label": "17b",
      "section": "Enrichment",
      "stem": "The angles in a triangle add to $180°$. These triangles are not drawn to scale.",
@@ -52424,6 +53562,7 @@ window.H3_BANK = {
     },
     {
      "id": "q17c",
+     "help": "9h-angles",
      "label": "17c",
      "section": "Enrichment",
      "stem": "The angles in a triangle add to $180°$. These triangles are not drawn to scale.",
@@ -52438,6 +53577,7 @@ window.H3_BANK = {
     },
     {
      "id": "q17d",
+     "help": "9h-angles",
      "label": "17d",
      "section": "Enrichment",
      "stem": "The angles in a triangle add to $180°$. These triangles are not drawn to scale.",
@@ -52447,6 +53587,7 @@ window.H3_BANK = {
     },
     {
      "id": "q17e",
+     "help": "9h-angles",
      "label": "17e",
      "section": "Enrichment",
      "stem": "The angles in a triangle add to $180°$. These triangles are not drawn to scale.",
