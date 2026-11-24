@@ -140157,3 +140157,59333 @@ window.H3_BANK.sets.push(
  ]
 }
 );
+
+// Chapter 9
+window.H3_BANK.sets.push(
+{
+ "id": "y8-9a",
+ "year": 8,
+ "chapter": "Chapter 9: Linear relationships",
+ "title": "9A The Cartesian plane",
+ "description": "Read and plot points on the number plane, find midpoints, count grid points on a segment and find distances between points.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Write the coordinates of each point shown on the number plane.",
+   "type": "point",
+   "prompt": "Point $A$",
+   "answer": "(1,4)",
+   "hint": "Type coordinates in brackets, for example (2,-3)",
+   "stemFigure": {
+    "kind": "plane",
+    "x": [
+     -4,
+     4
+    ],
+    "y": [
+     -4,
+     4
+    ],
+    "points": {
+     "A": [
+      1,
+      4
+     ],
+     "B": [
+      -3,
+      2
+     ],
+     "C": [
+      0,
+      -3
+     ],
+     "D": [
+      3,
+      0
+     ],
+     "E": [
+      -2,
+      -1
+     ],
+     "F": [
+      2,
+      -4
+     ]
+    }
+   }
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Write the coordinates of each point shown on the number plane.",
+   "type": "point",
+   "prompt": "Point $B$",
+   "answer": "(-3,2)"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "Write the coordinates of each point shown on the number plane.",
+   "type": "point",
+   "prompt": "Point $C$",
+   "answer": "(0,-3)"
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "Write the coordinates of each point shown on the number plane.",
+   "type": "point",
+   "prompt": "Point $D$",
+   "answer": "(3,0)"
+  },
+  {
+   "id": "q1e",
+   "label": "1e",
+   "section": "Fluency",
+   "stem": "Write the coordinates of each point shown on the number plane.",
+   "type": "point",
+   "prompt": "Point $E$",
+   "answer": "(-2,-1)"
+  },
+  {
+   "id": "q1f",
+   "label": "1f",
+   "section": "Fluency",
+   "stem": "Write the coordinates of each point shown on the number plane.",
+   "type": "point",
+   "prompt": "Point $F$",
+   "answer": "(2,-4)"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Which point on this number plane is at each of these coordinates?",
+   "type": "text",
+   "prompt": "$(3, 4)$",
+   "answer": "G",
+   "hint": "Type the letter.",
+   "stemFigure": {
+    "kind": "plane",
+    "x": [
+     -4,
+     4
+    ],
+    "y": [
+     -4,
+     4
+    ],
+    "points": {
+     "A": [
+      -3,
+      0
+     ],
+     "B": [
+      0,
+      -1.5
+     ],
+     "C": [
+      -2,
+      1
+     ],
+     "D": [
+      1,
+      2
+     ],
+     "E": [
+      -2.5,
+      2.5
+     ],
+     "F": [
+      0,
+      3
+     ],
+     "G": [
+      3,
+      4
+     ],
+     "H": [
+      2,
+      -3
+     ],
+     "J": [
+      4,
+      1.5
+     ],
+     "K": [
+      -3.5,
+      -1.5
+     ],
+     "L": [
+      -4,
+      4
+     ],
+     "M": [
+      -1,
+      -2
+     ],
+     "N": [
+      -3.5,
+      3
+     ],
+     "P": [
+      -1.5,
+      -3.5
+     ],
+     "Q": [
+      3.5,
+      -3.5
+     ],
+     "R": [
+      2.5,
+      -1
+     ]
+    }
+   }
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Which point on this number plane is at each of these coordinates?",
+   "type": "text",
+   "prompt": "$(1, 2)$",
+   "answer": "D"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Which point on this number plane is at each of these coordinates?",
+   "type": "text",
+   "prompt": "$(0, 3)$",
+   "answer": "F"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Which point on this number plane is at each of these coordinates?",
+   "type": "text",
+   "prompt": "$(-2, 1)$",
+   "answer": "C"
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Which point on this number plane is at each of these coordinates?",
+   "type": "text",
+   "prompt": "$(-4, 4)$",
+   "answer": "L"
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "Which point on this number plane is at each of these coordinates?",
+   "type": "text",
+   "prompt": "$(-3, 0)$",
+   "answer": "A"
+  },
+  {
+   "id": "q2g",
+   "label": "2g",
+   "section": "Fluency",
+   "stem": "Which point on this number plane is at each of these coordinates?",
+   "type": "text",
+   "prompt": "$(-1, -2)$",
+   "answer": "M"
+  },
+  {
+   "id": "q2h",
+   "label": "2h",
+   "section": "Fluency",
+   "stem": "Which point on this number plane is at each of these coordinates?",
+   "type": "text",
+   "prompt": "$(2, -3)$",
+   "answer": "H"
+  },
+  {
+   "id": "q2i",
+   "label": "2i",
+   "section": "Fluency",
+   "stem": "Which point on this number plane is at each of these coordinates?",
+   "type": "text",
+   "prompt": "$(0, -1.5)$",
+   "answer": "B"
+  },
+  {
+   "id": "q2j",
+   "label": "2j",
+   "section": "Fluency",
+   "stem": "Which point on this number plane is at each of these coordinates?",
+   "type": "text",
+   "prompt": "$(-2.5, 2.5)$",
+   "answer": "E"
+  },
+  {
+   "id": "q2k",
+   "label": "2k",
+   "section": "Fluency",
+   "stem": "Which point on this number plane is at each of these coordinates?",
+   "type": "text",
+   "prompt": "$(2.5, -1)$",
+   "answer": "R"
+  },
+  {
+   "id": "q2l",
+   "label": "2l",
+   "section": "Fluency",
+   "stem": "Which point on this number plane is at each of these coordinates?",
+   "type": "text",
+   "prompt": "$(-3.5, 3)$",
+   "answer": "N"
+  },
+  {
+   "id": "q2m",
+   "label": "2m",
+   "section": "Fluency",
+   "stem": "Which point on this number plane is at each of these coordinates?",
+   "type": "text",
+   "prompt": "$(3.5, -3.5)$",
+   "answer": "Q"
+  },
+  {
+   "id": "q2n",
+   "label": "2n",
+   "section": "Fluency",
+   "stem": "Which point on this number plane is at each of these coordinates?",
+   "type": "text",
+   "prompt": "$(-3.5, -1.5)$",
+   "answer": "K"
+  },
+  {
+   "id": "q2o",
+   "label": "2o",
+   "section": "Fluency",
+   "stem": "Which point on this number plane is at each of these coordinates?",
+   "type": "text",
+   "prompt": "$(4, 1.5)$",
+   "answer": "J"
+  },
+  {
+   "id": "q2p",
+   "label": "2p",
+   "section": "Fluency",
+   "stem": "Which point on this number plane is at each of these coordinates?",
+   "type": "text",
+   "prompt": "$(-1.5, -3.5)$",
+   "answer": "P"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "On a number plane from $-5$ to $5$ on both axes, plot these points in order and join them. Which picture do they make?",
+   "type": "choice",
+   "prompt": "$(-4, -1)$, $(1, -1)$, $(1, -3)$, $(5, 0)$, $(1, 3)$, $(1, 1)$, $(-4, 1)$, $(-4, -1)$",
+   "answer": 0,
+   "options": [
+    "An arrow",
+    "A tree",
+    "A house",
+    "A fish",
+    "A boat"
+   ]
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "On a number plane from $-5$ to $5$ on both axes, plot these points in order and join them. Which picture do they make?",
+   "type": "choice",
+   "prompt": "$(0, 5)$, $(-3, 1)$, $(-1, 1)$, $(-3, -2)$, $(-1, -2)$, $(-1, -4)$, $(1, -4)$, $(1, -2)$, $(3, -2)$, $(1, 1)$, $(3, 1)$, $(0, 5)$",
+   "answer": 1,
+   "options": [
+    "An arrow",
+    "A tree",
+    "A house",
+    "A fish",
+    "A boat"
+   ]
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Problem-solving",
+   "stem": "In each set, one point is not in line with the other four. Name that point.",
+   "type": "text",
+   "prompt": "$A(0, -1)$, $B(1, 1)$, $C(2, 3)$, $D(3, 4)$, $E(4, 7)$",
+   "answer": "D",
+   "hint": "Type the letter."
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Problem-solving",
+   "stem": "In each set, one point is not in line with the other four. Name that point.",
+   "type": "text",
+   "prompt": "$A(-4, 5)$, $B(-3, 3)$, $C(-2, 2)$, $D(-1, -1)$, $E(0, -3)$",
+   "answer": "C"
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Problem-solving",
+   "stem": "In each set, one point is not in line with the other four. Name that point.",
+   "type": "text",
+   "prompt": "$A(-4, -1)$, $B(-2, 0)$, $C(0, 1)$, $D(1, 2)$, $E(4, 3)$",
+   "answer": "D"
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Problem-solving",
+   "stem": "In each set, one point is not in line with the other four. Name that point.",
+   "type": "text",
+   "prompt": "$A(5, -3)$, $B(-1, 3)$, $C(2, 1)$, $D(0, 2)$, $E(3, -1)$",
+   "answer": "C"
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Problem-solving",
+   "stem": "The points in each set are joined in order to make a basic shape. Which shape is it?",
+   "type": "choice",
+   "prompt": "$A(-3, 1)$, $B(2, 4)$, $C(1, -3)$",
+   "answer": 0,
+   "options": [
+    "Triangle",
+    "Square",
+    "Rectangle",
+    "Parallelogram",
+    "Kite",
+    "Trapezium"
+   ]
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Problem-solving",
+   "stem": "The points in each set are joined in order to make a basic shape. Which shape is it?",
+   "type": "choice",
+   "prompt": "$A(-4, 3)$, $B(3, 3)$, $C(3, -1)$, $D(-4, -1)$",
+   "answer": 2,
+   "options": [
+    "Triangle",
+    "Square",
+    "Rectangle",
+    "Parallelogram",
+    "Kite",
+    "Trapezium"
+   ]
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Problem-solving",
+   "stem": "The points in each set are joined in order to make a basic shape. Which shape is it?",
+   "type": "choice",
+   "prompt": "$A(-3, -1)$, $B(2, -1)$, $C(4, 2)$, $D(-1, 2)$",
+   "answer": 3,
+   "options": [
+    "Triangle",
+    "Square",
+    "Rectangle",
+    "Parallelogram",
+    "Kite",
+    "Trapezium"
+   ]
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Problem-solving",
+   "stem": "The points in each set are joined in order to make a basic shape. Which shape is it?",
+   "type": "choice",
+   "prompt": "$A(0, 4)$, $B(2, 1)$, $C(0, -6)$, $D(-2, 1)$",
+   "answer": 4,
+   "options": [
+    "Triangle",
+    "Square",
+    "Rectangle",
+    "Parallelogram",
+    "Kite",
+    "Trapezium"
+   ]
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Problem-solving",
+   "stem": "The midpoint of a line segment is the point that cuts it in half. Find the midpoint of the segment joining each pair of points.",
+   "type": "point",
+   "prompt": "$(2, 1)$ and $(4, 7)$",
+   "answer": "(3,4)",
+   "hint": "Type halves as decimals, for example (1.5,-2)"
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Problem-solving",
+   "stem": "The midpoint of a line segment is the point that cuts it in half. Find the midpoint of the segment joining each pair of points.",
+   "type": "point",
+   "prompt": "$(-5, 2)$ and $(-1, 6)$",
+   "answer": "(-3,4)"
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Problem-solving",
+   "stem": "The midpoint of a line segment is the point that cuts it in half. Find the midpoint of the segment joining each pair of points.",
+   "type": "point",
+   "prompt": "$(-3, -4)$ and $(-1, -1)$",
+   "answer": "(-2,-2.5)"
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Problem-solving",
+   "stem": "The midpoint of a line segment is the point that cuts it in half. Find the midpoint of the segment joining each pair of points.",
+   "type": "point",
+   "prompt": "$(2, -6)$ and $(7, -3)$",
+   "answer": "(4.5,-4.5)"
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Reasoning",
+   "stem": "How many points with whole-number coordinates (both $x$ and $y$ integers) lie on the segment joining these points? Count the two end points too.",
+   "type": "numeric",
+   "prompt": "$(2, -4)$ and $(2, 2)$",
+   "answer": "7"
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Reasoning",
+   "stem": "How many points with whole-number coordinates (both $x$ and $y$ integers) lie on the segment joining these points? Count the two end points too.",
+   "type": "numeric",
+   "prompt": "$(-3, 0)$ and $(2, 0)$",
+   "answer": "6"
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Reasoning",
+   "stem": "How many points with whole-number coordinates (both $x$ and $y$ integers) lie on the segment joining these points? Count the two end points too.",
+   "type": "numeric",
+   "prompt": "$(-2, 3)$ and $(4, -3)$",
+   "answer": "7"
+  },
+  {
+   "id": "q7d",
+   "label": "7d",
+   "section": "Reasoning",
+   "stem": "How many points with whole-number coordinates (both $x$ and $y$ integers) lie on the segment joining these points? Count the two end points too.",
+   "type": "numeric",
+   "prompt": "$(-2, -5)$ and $(2, 7)$",
+   "answer": "5"
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Reasoning",
+   "stem": "The point $(a, b)$ is on a number plane. Which quadrant or quadrants match each description?",
+   "type": "list",
+   "prompt": "$a < 0$ and $b < 0$",
+   "answer": [
+    "3"
+   ],
+   "hint": "Type the quadrant number (1, 2, 3 or 4). If there are two, separate them with a comma."
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Reasoning",
+   "stem": "The point $(a, b)$ is on a number plane. Which quadrant or quadrants match each description?",
+   "type": "list",
+   "prompt": "$a > 0$ and $b > 0$",
+   "answer": [
+    "1"
+   ]
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Reasoning",
+   "stem": "The point $(a, b)$ is on a number plane. Which quadrant or quadrants match each description?",
+   "type": "list",
+   "prompt": "$b > 0$",
+   "answer": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "id": "q8d",
+   "label": "8d",
+   "section": "Reasoning",
+   "stem": "The point $(a, b)$ is on a number plane. Which quadrant or quadrants match each description?",
+   "type": "list",
+   "prompt": "$a > 0$",
+   "answer": [
+    "1",
+    "4"
+   ]
+  },
+  {
+   "id": "q9",
+   "label": "9",
+   "section": "Reasoning",
+   "type": "choice",
+   "prompt": "A set of points has coordinates $(x, 0)$, where $x$ can be any number. What does this set of points make?",
+   "answer": 0,
+   "options": [
+    "The x-axis",
+    "The y-axis",
+    "The origin only",
+    "A line sloping up through the origin"
+   ]
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Enrichment",
+   "stem": "Find the distance between each pair of points.",
+   "type": "numeric",
+   "prompt": "$(0, 0)$ and $(0, 7)$",
+   "answer": "7"
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Enrichment",
+   "stem": "Find the distance between each pair of points.",
+   "type": "numeric",
+   "prompt": "$(0, 0)$ and $(-6, 0)$",
+   "answer": "6"
+  },
+  {
+   "id": "q10c",
+   "label": "10c",
+   "section": "Enrichment",
+   "stem": "Find the distance between each pair of points.",
+   "type": "numeric",
+   "prompt": "$(-3, 0)$ and $(4, 0)$",
+   "answer": "7"
+  },
+  {
+   "id": "q10d",
+   "label": "10d",
+   "section": "Enrichment",
+   "stem": "Find the distance between each pair of points.",
+   "type": "numeric",
+   "prompt": "$(0, -5)$ and $(0, 6)$",
+   "answer": "11"
+  },
+  {
+   "id": "q10e",
+   "label": "10e",
+   "section": "Enrichment",
+   "stem": "Find the distance between each pair of points.",
+   "type": "numeric",
+   "prompt": "$(-2, 3)$ and $(6, 3)$",
+   "answer": "8"
+  },
+  {
+   "id": "q10f",
+   "label": "10f",
+   "section": "Enrichment",
+   "stem": "Find the distance between each pair of points.",
+   "type": "numeric",
+   "prompt": "$(5, -4)$ and $(5, 2)$",
+   "answer": "6"
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Enrichment",
+   "stem": "When two points are not in line vertically or horizontally, Pythagoras' theorem ($c^2 = a^2 + b^2$) gives the distance between them. Find the distance between each pair of points, rounding to $2$ decimal places where needed.",
+   "type": "numeric",
+   "prompt": "$(0, 0)$ and $(6, 8)$",
+   "answer": "10",
+   "dp": 2
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Enrichment",
+   "stem": "When two points are not in line vertically or horizontally, Pythagoras' theorem ($c^2 = a^2 + b^2$) gives the distance between them. Find the distance between each pair of points, rounding to $2$ decimal places where needed.",
+   "type": "numeric",
+   "prompt": "$(0, 0)$ and $(8, 15)$",
+   "answer": "17",
+   "dp": 2
+  },
+  {
+   "id": "q11c",
+   "label": "11c",
+   "section": "Enrichment",
+   "stem": "When two points are not in line vertically or horizontally, Pythagoras' theorem ($c^2 = a^2 + b^2$) gives the distance between them. Find the distance between each pair of points, rounding to $2$ decimal places where needed.",
+   "type": "numeric",
+   "prompt": "$(-2, -3)$ and $(5, 21)$",
+   "answer": "25",
+   "dp": 2
+  },
+  {
+   "id": "q11d",
+   "label": "11d",
+   "section": "Enrichment",
+   "stem": "When two points are not in line vertically or horizontally, Pythagoras' theorem ($c^2 = a^2 + b^2$) gives the distance between them. Find the distance between each pair of points, rounding to $2$ decimal places where needed.",
+   "type": "numeric",
+   "prompt": "$(2, 1)$ and $(5, -1)$",
+   "answer": "3.61",
+   "dp": 2
+  },
+  {
+   "id": "q11e",
+   "label": "11e",
+   "section": "Enrichment",
+   "stem": "When two points are not in line vertically or horizontally, Pythagoras' theorem ($c^2 = a^2 + b^2$) gives the distance between them. Find the distance between each pair of points, rounding to $2$ decimal places where needed.",
+   "type": "numeric",
+   "prompt": "$(-2, -1)$ and $(1, 5)$",
+   "answer": "6.71",
+   "dp": 2
+  },
+  {
+   "id": "q11f",
+   "label": "11f",
+   "section": "Enrichment",
+   "stem": "When two points are not in line vertically or horizontally, Pythagoras' theorem ($c^2 = a^2 + b^2$) gives the distance between them. Find the distance between each pair of points, rounding to $2$ decimal places where needed.",
+   "type": "numeric",
+   "prompt": "$(-4, 3)$ and $(3, -1)$",
+   "answer": "8.06",
+   "dp": 2
+  }
+ ]
+},
+{
+ "id": "y8-9b",
+ "year": 8,
+ "chapter": "Chapter 9: Linear relationships",
+ "title": "9B Using rules, tables and graphs to explore linear relationships",
+ "description": "Complete tables of values from linear rules, test whether points lie on a line and find where lines cross the axes.",
+ "questions": [
+  {
+   "id": "q1",
+   "label": "1",
+   "section": "Fluency",
+   "type": "ordered",
+   "prompt": "For the rule $y = 4x - 3$, complete the table of values. (You could then plot the points to draw the graph.)",
+   "answer": [
+    "-11",
+    "-7",
+    "-3",
+    "1",
+    "5"
+   ],
+   "hint": "Type the y-values in order, separated by commas, for example -3, -1, 1",
+   "figure": {
+    "kind": "table",
+    "rows": [
+     [
+      "x",
+      "-2",
+      "-1",
+      "0",
+      "1",
+      "2"
+     ],
+     [
+      "y",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "For each rule, complete the table of values for $x$ from $-3$ to $3$.",
+   "type": "ordered",
+   "prompt": "$y = x + 3$",
+   "answer": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "hint": "Type the y-values in order, separated by commas, for example -3, -1, 1",
+   "figure": {
+    "kind": "table",
+    "rows": [
+     [
+      "x",
+      "-3",
+      "-2",
+      "-1",
+      "0",
+      "1",
+      "2",
+      "3"
+     ],
+     [
+      "y",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "For each rule, complete the table of values for $x$ from $-3$ to $3$.",
+   "type": "ordered",
+   "prompt": "$y = x - 4$",
+   "answer": [
+    "-7",
+    "-6",
+    "-5",
+    "-4",
+    "-3",
+    "-2",
+    "-1"
+   ],
+   "figure": {
+    "kind": "table",
+    "rows": [
+     [
+      "x",
+      "-3",
+      "-2",
+      "-1",
+      "0",
+      "1",
+      "2",
+      "3"
+     ],
+     [
+      "y",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "For each rule, complete the table of values for $x$ from $-3$ to $3$.",
+   "type": "ordered",
+   "prompt": "$y = 2x - 1$",
+   "answer": [
+    "-7",
+    "-5",
+    "-3",
+    "-1",
+    "1",
+    "3",
+    "5"
+   ],
+   "figure": {
+    "kind": "table",
+    "rows": [
+     [
+      "x",
+      "-3",
+      "-2",
+      "-1",
+      "0",
+      "1",
+      "2",
+      "3"
+     ],
+     [
+      "y",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "For each rule, complete the table of values for $x$ from $-3$ to $3$.",
+   "type": "ordered",
+   "prompt": "$y = 3x + 2$",
+   "answer": [
+    "-7",
+    "-4",
+    "-1",
+    "2",
+    "5",
+    "8",
+    "11"
+   ],
+   "figure": {
+    "kind": "table",
+    "rows": [
+     [
+      "x",
+      "-3",
+      "-2",
+      "-1",
+      "0",
+      "1",
+      "2",
+      "3"
+     ],
+     [
+      "y",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "For each rule, complete the table of values for $x$ from $-3$ to $3$.",
+   "type": "ordered",
+   "prompt": "$y = -2x + 1$",
+   "answer": [
+    "7",
+    "5",
+    "3",
+    "1",
+    "-1",
+    "-3",
+    "-5"
+   ],
+   "figure": {
+    "kind": "table",
+    "rows": [
+     [
+      "x",
+      "-3",
+      "-2",
+      "-1",
+      "0",
+      "1",
+      "2",
+      "3"
+     ],
+     [
+      "y",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "For each rule, complete the table of values for $x$ from $-3$ to $3$.",
+   "type": "ordered",
+   "prompt": "$y = -3x + 2$",
+   "answer": [
+    "11",
+    "8",
+    "5",
+    "2",
+    "-1",
+    "-4",
+    "-7"
+   ],
+   "figure": {
+    "kind": "table",
+    "rows": [
+     [
+      "x",
+      "-3",
+      "-2",
+      "-1",
+      "0",
+      "1",
+      "2",
+      "3"
+     ],
+     [
+      "y",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q2g",
+   "label": "2g",
+   "section": "Fluency",
+   "stem": "For each rule, complete the table of values for $x$ from $-3$ to $3$.",
+   "type": "ordered",
+   "prompt": "$y = -2x$",
+   "answer": [
+    "6",
+    "4",
+    "2",
+    "0",
+    "-2",
+    "-4",
+    "-6"
+   ],
+   "figure": {
+    "kind": "table",
+    "rows": [
+     [
+      "x",
+      "-3",
+      "-2",
+      "-1",
+      "0",
+      "1",
+      "2",
+      "3"
+     ],
+     [
+      "y",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q2h",
+   "label": "2h",
+   "section": "Fluency",
+   "stem": "For each rule, complete the table of values for $x$ from $-3$ to $3$.",
+   "type": "ordered",
+   "prompt": "$y = -x + 5$",
+   "answer": [
+    "8",
+    "7",
+    "6",
+    "5",
+    "4",
+    "3",
+    "2"
+   ],
+   "figure": {
+    "kind": "table",
+    "rows": [
+     [
+      "x",
+      "-3",
+      "-2",
+      "-1",
+      "0",
+      "1",
+      "2",
+      "3"
+     ],
+     [
+      "y",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "The points in each table all lie on one straight line. Write the rule for the line.",
+   "type": "expression",
+   "prompt": "A horizontal line",
+   "answer": "y=-3",
+   "hint": "Type the rule, for example y=5 or x=-1",
+   "figure": {
+    "kind": "table",
+    "rows": [
+     [
+      "x",
+      "-2",
+      "-1",
+      "0",
+      "1",
+      "2"
+     ],
+     [
+      "y",
+      "-3",
+      "-3",
+      "-3",
+      "-3",
+      "-3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "The points in each table all lie on one straight line. Write the rule for the line.",
+   "type": "expression",
+   "prompt": "A vertical line",
+   "answer": "x=4",
+   "figure": {
+    "kind": "table",
+    "rows": [
+     [
+      "x",
+      "4",
+      "4",
+      "4",
+      "4",
+      "4"
+     ],
+     [
+      "y",
+      "-2",
+      "-1",
+      "0",
+      "1",
+      "2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "For each rule, decide which of the two points lie on its graph.",
+   "type": "choice",
+   "prompt": "Rule: $y = 3x$. Points: $(2, 6)$ and $(4, 10)$",
+   "answer": 1,
+   "options": [
+    "Both points",
+    "Only (2, 6)",
+    "Only (4, 10)",
+    "Neither point"
+   ]
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "For each rule, decide which of the two points lie on its graph.",
+   "type": "choice",
+   "prompt": "Rule: $y = 2x - 3$. Points: $(1, 0)$ and $(3, 3)$",
+   "answer": 2,
+   "options": [
+    "Both points",
+    "Only (1, 0)",
+    "Only (3, 3)",
+    "Neither point"
+   ]
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "For each rule, decide which of the two points lie on its graph.",
+   "type": "choice",
+   "prompt": "Rule: $y = 4x - 5$. Points: $(-1, -9)$ and $(2, 4)$",
+   "answer": 1,
+   "options": [
+    "Both points",
+    "Only (-1, -9)",
+    "Only (2, 4)",
+    "Neither point"
+   ]
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "For each rule, decide which of the two points lie on its graph.",
+   "type": "choice",
+   "prompt": "Rule: $y = -3x + 5$. Points: $(1, 3)$ and $(2, 1)$",
+   "answer": 3,
+   "options": [
+    "Both points",
+    "Only (1, 3)",
+    "Only (2, 1)",
+    "Neither point"
+   ]
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Fluency",
+   "stem": "For each rule, decide which of the two points lie on its graph.",
+   "type": "choice",
+   "prompt": "Rule: $y = 4 - x$. Points: $(1, 3)$ and $(5, -1)$",
+   "answer": 0,
+   "options": [
+    "Both points",
+    "Only (1, 3)",
+    "Only (5, -1)",
+    "Neither point"
+   ]
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Fluency",
+   "stem": "For each rule, decide which of the two points lie on its graph.",
+   "type": "choice",
+   "prompt": "Rule: $y = 9 - 2x$. Points: $(2, 5)$ and $(0, 9)$",
+   "answer": 0,
+   "options": [
+    "Both points",
+    "Only (2, 5)",
+    "Only (0, 9)",
+    "Neither point"
+   ]
+  },
+  {
+   "id": "q4g",
+   "label": "4g",
+   "section": "Fluency",
+   "stem": "For each rule, decide which of the two points lie on its graph.",
+   "type": "choice",
+   "prompt": "Rule: $y = -3x - 2$. Points: $(1, -4)$ and $(-2, 4)$",
+   "answer": 2,
+   "options": [
+    "Both points",
+    "Only (1, -4)",
+    "Only (-2, 4)",
+    "Neither point"
+   ]
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Problem-solving",
+   "stem": "For $x$-values from $-3$ to $3$, complete the table of values for each rule. Remember that subtracting a negative is the same as adding, for example $4 - (-2) = 4 + 2$.",
+   "type": "ordered",
+   "prompt": "$y = \\frac{1}{2}x - 1$",
+   "answer": [
+    "-2.5",
+    "-2",
+    "-1.5",
+    "-1",
+    "-0.5",
+    "0",
+    "0.5"
+   ],
+   "hint": "Type the y-values in order, separated by commas. Type halves as decimals, for example -2.5",
+   "figure": {
+    "kind": "table",
+    "rows": [
+     [
+      "x",
+      "-3",
+      "-2",
+      "-1",
+      "0",
+      "1",
+      "2",
+      "3"
+     ],
+     [
+      "y",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Problem-solving",
+   "stem": "For $x$-values from $-3$ to $3$, complete the table of values for each rule. Remember that subtracting a negative is the same as adding, for example $4 - (-2) = 4 + 2$.",
+   "type": "ordered",
+   "prompt": "$y = -\\frac{1}{2}x + 2$",
+   "answer": [
+    "3.5",
+    "3",
+    "2.5",
+    "2",
+    "1.5",
+    "1",
+    "0.5"
+   ],
+   "figure": {
+    "kind": "table",
+    "rows": [
+     [
+      "x",
+      "-3",
+      "-2",
+      "-1",
+      "0",
+      "1",
+      "2",
+      "3"
+     ],
+     [
+      "y",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Problem-solving",
+   "stem": "For $x$-values from $-3$ to $3$, complete the table of values for each rule. Remember that subtracting a negative is the same as adding, for example $4 - (-2) = 4 + 2$.",
+   "type": "ordered",
+   "prompt": "$y = 4 - x$",
+   "answer": [
+    "7",
+    "6",
+    "5",
+    "4",
+    "3",
+    "2",
+    "1"
+   ],
+   "figure": {
+    "kind": "table",
+    "rows": [
+     [
+      "x",
+      "-3",
+      "-2",
+      "-1",
+      "0",
+      "1",
+      "2",
+      "3"
+     ],
+     [
+      "y",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Problem-solving",
+   "stem": "For $x$-values from $-3$ to $3$, complete the table of values for each rule. Remember that subtracting a negative is the same as adding, for example $4 - (-2) = 4 + 2$.",
+   "type": "ordered",
+   "prompt": "$y = 2 - 3x$",
+   "answer": [
+    "11",
+    "8",
+    "5",
+    "2",
+    "-1",
+    "-4",
+    "-7"
+   ],
+   "figure": {
+    "kind": "table",
+    "rows": [
+     [
+      "x",
+      "-3",
+      "-2",
+      "-1",
+      "0",
+      "1",
+      "2",
+      "3"
+     ],
+     [
+      "y",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Problem-solving",
+   "stem": "State the coordinates of the point where the graph of each rule cuts the given axis.",
+   "type": "point",
+   "prompt": "$y = x + 3$: the $x$-axis",
+   "answer": "(-3,0)",
+   "hint": "Type coordinates in brackets, for example (2,0). Type halves as decimals."
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Problem-solving",
+   "stem": "State the coordinates of the point where the graph of each rule cuts the given axis.",
+   "type": "point",
+   "prompt": "$y = x + 3$: the $y$-axis",
+   "answer": "(0,3)"
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Problem-solving",
+   "stem": "State the coordinates of the point where the graph of each rule cuts the given axis.",
+   "type": "point",
+   "prompt": "$y = 4 - x$: the $x$-axis",
+   "answer": "(4,0)"
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Problem-solving",
+   "stem": "State the coordinates of the point where the graph of each rule cuts the given axis.",
+   "type": "point",
+   "prompt": "$y = 4 - x$: the $y$-axis",
+   "answer": "(0,4)"
+  },
+  {
+   "id": "q6e",
+   "label": "6e",
+   "section": "Problem-solving",
+   "stem": "State the coordinates of the point where the graph of each rule cuts the given axis.",
+   "type": "point",
+   "prompt": "$y = 2x + 6$: the $x$-axis",
+   "answer": "(-3,0)"
+  },
+  {
+   "id": "q6f",
+   "label": "6f",
+   "section": "Problem-solving",
+   "stem": "State the coordinates of the point where the graph of each rule cuts the given axis.",
+   "type": "point",
+   "prompt": "$y = 2x + 6$: the $y$-axis",
+   "answer": "(0,6)"
+  },
+  {
+   "id": "q6g",
+   "label": "6g",
+   "section": "Problem-solving",
+   "stem": "State the coordinates of the point where the graph of each rule cuts the given axis.",
+   "type": "point",
+   "prompt": "$y = 12 - 4x$: the $x$-axis",
+   "answer": "(3,0)"
+  },
+  {
+   "id": "q6h",
+   "label": "6h",
+   "section": "Problem-solving",
+   "stem": "State the coordinates of the point where the graph of each rule cuts the given axis.",
+   "type": "point",
+   "prompt": "$y = 12 - 4x$: the $y$-axis",
+   "answer": "(0,12)"
+  },
+  {
+   "id": "q6i",
+   "label": "6i",
+   "section": "Problem-solving",
+   "stem": "State the coordinates of the point where the graph of each rule cuts the given axis.",
+   "type": "point",
+   "prompt": "$y = 2x - 5$: the $x$-axis",
+   "answer": "(2.5,0)"
+  },
+  {
+   "id": "q6j",
+   "label": "6j",
+   "section": "Problem-solving",
+   "stem": "State the coordinates of the point where the graph of each rule cuts the given axis.",
+   "type": "point",
+   "prompt": "$y = 2x - 5$: the $y$-axis",
+   "answer": "(0,-5)"
+  },
+  {
+   "id": "q6k",
+   "label": "6k",
+   "section": "Problem-solving",
+   "stem": "State the coordinates of the point where the graph of each rule cuts the given axis.",
+   "type": "point",
+   "prompt": "$y = 6 - 4x$: the $x$-axis",
+   "answer": "(1.5,0)"
+  },
+  {
+   "id": "q6l",
+   "label": "6l",
+   "section": "Problem-solving",
+   "stem": "State the coordinates of the point where the graph of each rule cuts the given axis.",
+   "type": "point",
+   "prompt": "$y = 6 - 4x$: the $y$-axis",
+   "answer": "(0,6)"
+  },
+  {
+   "id": "q7",
+   "label": "7",
+   "section": "Problem-solving",
+   "type": "point",
+   "prompt": "The rules for two lines are $y = x + 4$ and $y = 10 - 2x$. At what point do the lines meet?",
+   "answer": "(2,6)"
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Problem-solving",
+   "stem": "A straight line graph is drawn from a rule. Its table of values has some gaps.",
+   "type": "ordered",
+   "prompt": "Fill in the gaps: type the four missing $y$-values in order.",
+   "answer": [
+    "-4",
+    "2",
+    "5",
+    "11"
+   ],
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "x",
+      "-2",
+      "-1",
+      "0",
+      "1",
+      "2",
+      "3"
+     ],
+     [
+      "y",
+      "?",
+      "-1",
+      "?",
+      "?",
+      "8",
+      "?"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Problem-solving",
+   "stem": "A straight line graph is drawn from a rule. Its table of values has some gaps.",
+   "type": "choice",
+   "prompt": "Would the point $(4, 15)$ be on the graph?",
+   "answer": 1,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Problem-solving",
+   "stem": "A straight line graph is drawn from a rule. Its table of values has some gaps.",
+   "type": "numeric",
+   "prompt": "What would the value of $y$ be when $x = -10$?",
+   "answer": "-28"
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Reasoning",
+   "type": "numeric",
+   "prompt": "What is the smallest number of points you need to draw the graph of a straight line?",
+   "answer": "2"
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Reasoning",
+   "stem": "You can graph a straight line by plotting just two points. For each rule, find the $y$-values when $x = 0$ and when $x = 1$.",
+   "type": "ordered",
+   "prompt": "$y = \\frac{1}{4}x$",
+   "answer": [
+    "0",
+    "0.25"
+   ],
+   "hint": "Type the two y-values in order, for example 0, 0.5"
+  },
+  {
+   "id": "q9c",
+   "label": "9c",
+   "section": "Reasoning",
+   "stem": "You can graph a straight line by plotting just two points. For each rule, find the $y$-values when $x = 0$ and when $x = 1$.",
+   "type": "ordered",
+   "prompt": "$y = 3x - 2$",
+   "answer": [
+    "-2",
+    "1"
+   ]
+  },
+  {
+   "id": "q10",
+   "label": "10",
+   "section": "Reasoning",
+   "type": "point",
+   "prompt": "A table of values is made for a linear rule, but one $y$-value was worked out wrongly. Write the correct coordinates of the point with the mistake.",
+   "answer": "(-1,5)",
+   "figure": {
+    "kind": "table",
+    "rows": [
+     [
+      "x",
+      "-3",
+      "-2",
+      "-1",
+      "0",
+      "1",
+      "2",
+      "3"
+     ],
+     [
+      "y",
+      "1",
+      "3",
+      "6",
+      "7",
+      "9",
+      "11",
+      "13"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q12a",
+   "label": "12a",
+   "section": "Reasoning",
+   "stem": "Look back at your rules in Question 2.",
+   "type": "choice",
+   "prompt": "As $x$ increases, the $y$-values in parts a to d increase. What do the rules in parts a to d have in common?",
+   "answer": 0,
+   "options": [
+    "A positive coefficient of x",
+    "A negative coefficient of x",
+    "A constant of zero",
+    "A positive constant"
+   ]
+  },
+  {
+   "id": "q12b",
+   "label": "12b",
+   "section": "Reasoning",
+   "stem": "Look back at your rules in Question 2.",
+   "type": "choice",
+   "prompt": "As $x$ increases, the $y$-values in parts e to h decrease. What do the rules in parts e to h have in common?",
+   "answer": 1,
+   "options": [
+    "A positive coefficient of x",
+    "A negative coefficient of x",
+    "A constant of zero",
+    "A positive constant"
+   ]
+  },
+  {
+   "id": "q12c",
+   "label": "12c",
+   "section": "Reasoning",
+   "stem": "Look back at your rules in Question 2.",
+   "type": "choice",
+   "prompt": "The rule $y = -5x + 9$: as $x$ increases, does the graph go up or down?",
+   "answer": 1,
+   "options": [
+    "Up (y increases)",
+    "Down (y decreases)"
+   ]
+  },
+  {
+   "id": "q13a",
+   "label": "13a",
+   "section": "Enrichment",
+   "stem": "The $x$-intercept is where the graph cuts the $x$-axis ($y = 0$) and the $y$-intercept is where it cuts the $y$-axis ($x = 0$). Find both intercepts for each rule.",
+   "type": "ordered",
+   "prompt": "$y = x + 5$",
+   "answer": [
+    "-5",
+    "5"
+   ],
+   "hint": "Type the x-intercept, then the y-intercept, as two numbers, for example -4, 4"
+  },
+  {
+   "id": "q13b",
+   "label": "13b",
+   "section": "Enrichment",
+   "stem": "The $x$-intercept is where the graph cuts the $x$-axis ($y = 0$) and the $y$-intercept is where it cuts the $y$-axis ($x = 0$). Find both intercepts for each rule.",
+   "type": "ordered",
+   "prompt": "$y = 3x - 6$",
+   "answer": [
+    "2",
+    "-6"
+   ]
+  },
+  {
+   "id": "q13c",
+   "label": "13c",
+   "section": "Enrichment",
+   "stem": "The $x$-intercept is where the graph cuts the $x$-axis ($y = 0$) and the $y$-intercept is where it cuts the $y$-axis ($x = 0$). Find both intercepts for each rule.",
+   "type": "ordered",
+   "prompt": "$y = 3 - x$",
+   "answer": [
+    "3",
+    "3"
+   ]
+  },
+  {
+   "id": "q13d",
+   "label": "13d",
+   "section": "Enrichment",
+   "stem": "The $x$-intercept is where the graph cuts the $x$-axis ($y = 0$) and the $y$-intercept is where it cuts the $y$-axis ($x = 0$). Find both intercepts for each rule.",
+   "type": "ordered",
+   "prompt": "$y = -2 + 4x$",
+   "answer": [
+    "0.5",
+    "-2"
+   ]
+  },
+  {
+   "id": "q13e",
+   "label": "13e",
+   "section": "Enrichment",
+   "stem": "The $x$-intercept is where the graph cuts the $x$-axis ($y = 0$) and the $y$-intercept is where it cuts the $y$-axis ($x = 0$). Find both intercepts for each rule.",
+   "type": "ordered",
+   "prompt": "$y = 5x - 15$",
+   "answer": [
+    "3",
+    "-15"
+   ]
+  },
+  {
+   "id": "q13f",
+   "label": "13f",
+   "section": "Enrichment",
+   "stem": "The $x$-intercept is where the graph cuts the $x$-axis ($y = 0$) and the $y$-intercept is where it cuts the $y$-axis ($x = 0$). Find both intercepts for each rule.",
+   "type": "ordered",
+   "prompt": "$y = 6 - 3x$",
+   "answer": [
+    "2",
+    "6"
+   ]
+  },
+  {
+   "id": "q13g",
+   "label": "13g",
+   "section": "Enrichment",
+   "stem": "The $x$-intercept is where the graph cuts the $x$-axis ($y = 0$) and the $y$-intercept is where it cuts the $y$-axis ($x = 0$). Find both intercepts for each rule.",
+   "type": "ordered",
+   "prompt": "$y = 5 - 2x$",
+   "answer": [
+    "2.5",
+    "5"
+   ]
+  },
+  {
+   "id": "q13h",
+   "label": "13h",
+   "section": "Enrichment",
+   "stem": "The $x$-intercept is where the graph cuts the $x$-axis ($y = 0$) and the $y$-intercept is where it cuts the $y$-axis ($x = 0$). Find both intercepts for each rule.",
+   "type": "ordered",
+   "prompt": "$2y - 3x = 6$",
+   "answer": [
+    "-2",
+    "3"
+   ]
+  },
+  {
+   "id": "q13i",
+   "label": "13i",
+   "section": "Enrichment",
+   "stem": "The $x$-intercept is where the graph cuts the $x$-axis ($y = 0$) and the $y$-intercept is where it cuts the $y$-axis ($x = 0$). Find both intercepts for each rule.",
+   "type": "ordered",
+   "prompt": "$4x - 3y = 12$",
+   "answer": [
+    "3",
+    "-4"
+   ]
+  }
+ ]
+},
+{
+ "id": "y8-9c",
+ "year": 8,
+ "chapter": "Chapter 9: Linear relationships",
+ "title": "9C Finding the rule using a table of values",
+ "description": "Find the rule for a linear relationship from a table of values, a graph, a set of points or a matchstick pattern.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Find the rule for each table of values.",
+   "type": "expression",
+   "prompt": "Table a",
+   "answer": "y=3x+5",
+   "accept": [
+    "3x+5"
+   ],
+   "hint": "Type the rule, for example y=2x+3",
+   "figure": {
+    "kind": "table",
+    "rows": [
+     [
+      "x",
+      "-2",
+      "-1",
+      "0",
+      "1",
+      "2"
+     ],
+     [
+      "y",
+      "-1",
+      "2",
+      "5",
+      "8",
+      "11"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Find the rule for each table of values.",
+   "type": "expression",
+   "prompt": "Table b",
+   "answer": "y=-2x+6",
+   "accept": [
+    "-2x+6"
+   ],
+   "figure": {
+    "kind": "table",
+    "rows": [
+     [
+      "x",
+      "-2",
+      "-1",
+      "0",
+      "1",
+      "2"
+     ],
+     [
+      "y",
+      "10",
+      "8",
+      "6",
+      "4",
+      "2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Find the rule for each table of values.",
+   "type": "expression",
+   "prompt": "Table a",
+   "answer": "y=4x+2",
+   "accept": [
+    "4x+2"
+   ],
+   "figure": {
+    "kind": "table",
+    "rows": [
+     [
+      "x",
+      "-2",
+      "-1",
+      "0",
+      "1",
+      "2"
+     ],
+     [
+      "y",
+      "-6",
+      "-2",
+      "2",
+      "6",
+      "10"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Find the rule for each table of values.",
+   "type": "expression",
+   "prompt": "Table b",
+   "answer": "y=2x-3",
+   "accept": [
+    "2x-3"
+   ],
+   "figure": {
+    "kind": "table",
+    "rows": [
+     [
+      "x",
+      "-2",
+      "-1",
+      "0",
+      "1",
+      "2"
+     ],
+     [
+      "y",
+      "-7",
+      "-5",
+      "-3",
+      "-1",
+      "1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Find the rule for each table of values.",
+   "type": "expression",
+   "prompt": "Table c",
+   "answer": "y=-x+3",
+   "accept": [
+    "-x+3"
+   ],
+   "figure": {
+    "kind": "table",
+    "rows": [
+     [
+      "x",
+      "-3",
+      "-2",
+      "-1",
+      "0",
+      "1"
+     ],
+     [
+      "y",
+      "6",
+      "5",
+      "4",
+      "3",
+      "2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Find the rule for each table of values.",
+   "type": "expression",
+   "prompt": "Table d",
+   "answer": "y=-3x+4",
+   "accept": [
+    "-3x+4"
+   ],
+   "figure": {
+    "kind": "table",
+    "rows": [
+     [
+      "x",
+      "-1",
+      "0",
+      "1",
+      "2",
+      "3"
+     ],
+     [
+      "y",
+      "7",
+      "4",
+      "1",
+      "-2",
+      "-5"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Find the rule for each table of values.",
+   "type": "expression",
+   "prompt": "Table a",
+   "answer": "y=3x+2",
+   "accept": [
+    "3x+2"
+   ],
+   "figure": {
+    "kind": "table",
+    "rows": [
+     [
+      "x",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+     ],
+     [
+      "y",
+      "5",
+      "8",
+      "11",
+      "14",
+      "17"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Find the rule for each table of values.",
+   "type": "expression",
+   "prompt": "Table b",
+   "answer": "y=4x+7",
+   "accept": [
+    "4x+7"
+   ],
+   "figure": {
+    "kind": "table",
+    "rows": [
+     [
+      "x",
+      "-5",
+      "-4",
+      "-3",
+      "-2",
+      "-1"
+     ],
+     [
+      "y",
+      "-13",
+      "-9",
+      "-5",
+      "-1",
+      "3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Find the rule for each table of values.",
+   "type": "expression",
+   "prompt": "Table c",
+   "answer": "y=-3x+1",
+   "accept": [
+    "-3x+1"
+   ],
+   "figure": {
+    "kind": "table",
+    "rows": [
+     [
+      "x",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+     ],
+     [
+      "y",
+      "-14",
+      "-17",
+      "-20",
+      "-23",
+      "-26"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Find the rule for each table of values.",
+   "type": "expression",
+   "prompt": "Table d",
+   "answer": "y=-x+2",
+   "accept": [
+    "-x+2"
+   ],
+   "figure": {
+    "kind": "table",
+    "rows": [
+     [
+      "x",
+      "-6",
+      "-5",
+      "-4",
+      "-3",
+      "-2"
+     ],
+     [
+      "y",
+      "8",
+      "7",
+      "6",
+      "5",
+      "4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "Find the rule for each graph. It may help to make a table of $(x, y)$ values first.",
+   "type": "expression",
+   "prompt": "Graph a",
+   "answer": "y=x+2",
+   "accept": [
+    "x+2"
+   ],
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -3,
+     3
+    ],
+    "y": [
+     -3,
+     4
+    ],
+    "path": [
+     [
+      -3,
+      -1
+     ],
+     [
+      2,
+      4
+     ]
+    ],
+    "points": {
+     "(-3, -1)": [
+      -3,
+      -1
+     ],
+     "(-1, 1)": [
+      -1,
+      1
+     ],
+     "(1, 3)": [
+      1,
+      3
+     ]
+    }
+   }
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "Find the rule for each graph. It may help to make a table of $(x, y)$ values first.",
+   "type": "expression",
+   "prompt": "Graph b",
+   "answer": "y=3x-2",
+   "accept": [
+    "3x-2"
+   ],
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -3,
+     3
+    ],
+    "y": [
+     -5,
+     5
+    ],
+    "path": [
+     [
+      -1,
+      -5
+     ],
+     [
+      2.3333,
+      5
+     ]
+    ],
+    "points": {
+     "(-1, -5)": [
+      -1,
+      -5
+     ],
+     "(0, -2)": [
+      0,
+      -2
+     ],
+     "(1, 1)": [
+      1,
+      1
+     ],
+     "(2, 4)": [
+      2,
+      4
+     ]
+    }
+   }
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "Find the rule for each graph. It may help to make a table of $(x, y)$ values first.",
+   "type": "expression",
+   "prompt": "Graph c",
+   "answer": "y=-2x+3",
+   "accept": [
+    "-2x+3"
+   ],
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -3,
+     3
+    ],
+    "y": [
+     -2,
+     5
+    ],
+    "path": [
+     [
+      -1,
+      5
+     ],
+     [
+      2.5,
+      -2
+     ]
+    ],
+    "points": {
+     "(-1, 5)": [
+      -1,
+      5
+     ],
+     "(0, 3)": [
+      0,
+      3
+     ],
+     "(1, 1)": [
+      1,
+      1
+     ],
+     "(2, -1)": [
+      2,
+      -1
+     ]
+    }
+   }
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "Find the rule for each graph. It may help to make a table of $(x, y)$ values first.",
+   "type": "expression",
+   "prompt": "Graph d",
+   "answer": "y=-x-1",
+   "accept": [
+    "-x-1"
+   ],
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -3,
+     3
+    ],
+    "y": [
+     -3,
+     3
+    ],
+    "path": [
+     [
+      -3,
+      2
+     ],
+     [
+      2,
+      -3
+     ]
+    ],
+    "points": {
+     "(-2, 1)": [
+      -2,
+      1
+     ],
+     "(0, -1)": [
+      0,
+      -1
+     ],
+     "(2, -3)": [
+      2,
+      -3
+     ]
+    }
+   }
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Problem-solving",
+   "stem": "Find the rule for each set of points. Try to do it without drawing a graph or a table.",
+   "type": "expression",
+   "prompt": "$(1, 5)$, $(2, 6)$, $(3, 7)$, $(4, 8)$",
+   "answer": "y=x+4",
+   "accept": [
+    "x+4"
+   ]
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Problem-solving",
+   "stem": "Find the rule for each set of points. Try to do it without drawing a graph or a table.",
+   "type": "expression",
+   "prompt": "$(-3, -8)$, $(-2, -7)$, $(-1, -6)$, $(0, -5)$",
+   "answer": "y=x-5",
+   "accept": [
+    "x-5"
+   ]
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Problem-solving",
+   "stem": "Find the rule for each set of points. Try to do it without drawing a graph or a table.",
+   "type": "expression",
+   "prompt": "$(-1, -5)$, $(0, -2)$, $(1, 1)$, $(2, 4)$",
+   "answer": "y=3x-2",
+   "accept": [
+    "3x-2"
+   ]
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Problem-solving",
+   "stem": "Find the rule for each set of points. Try to do it without drawing a graph or a table.",
+   "type": "expression",
+   "prompt": "$(-2, 5)$, $(-1, 3)$, $(0, 1)$, $(1, -1)$",
+   "answer": "y=-2x+1",
+   "accept": [
+    "-2x+1"
+   ]
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Problem-solving",
+   "stem": "Write a rule for each matchstick pattern.",
+   "type": "expression",
+   "prompt": "$x$ = number of triangles, $y$ = number of matchsticks",
+   "answer": "y=2x+1",
+   "accept": [
+    "2x+1"
+   ],
+   "figure": {
+    "kind": "sticks",
+    "stages": [
+     [
+      [
+       0,
+       0,
+       0.5,
+       0.87
+      ],
+      [
+       0.5,
+       0.87,
+       1,
+       0
+      ],
+      [
+       0,
+       0,
+       1,
+       0
+      ]
+     ],
+     [
+      [
+       0,
+       0,
+       0.5,
+       0.87
+      ],
+      [
+       0.5,
+       0.87,
+       1,
+       0
+      ],
+      [
+       1,
+       0,
+       1.5,
+       0.87
+      ],
+      [
+       0,
+       0,
+       1,
+       0
+      ],
+      [
+       0.5,
+       0.87,
+       1.5,
+       0.87
+      ]
+     ],
+     [
+      [
+       0,
+       0,
+       0.5,
+       0.87
+      ],
+      [
+       0.5,
+       0.87,
+       1,
+       0
+      ],
+      [
+       1,
+       0,
+       1.5,
+       0.87
+      ],
+      [
+       1.5,
+       0.87,
+       2,
+       0
+      ],
+      [
+       0,
+       0,
+       1,
+       0
+      ],
+      [
+       0.5,
+       0.87,
+       1.5,
+       0.87
+      ],
+      [
+       1,
+       0,
+       2,
+       0
+      ]
+     ],
+     [
+      [
+       0,
+       0,
+       0.5,
+       0.87
+      ],
+      [
+       0.5,
+       0.87,
+       1,
+       0
+      ],
+      [
+       1,
+       0,
+       1.5,
+       0.87
+      ],
+      [
+       1.5,
+       0.87,
+       2,
+       0
+      ],
+      [
+       2,
+       0,
+       2.5,
+       0.87
+      ],
+      [
+       0,
+       0,
+       1,
+       0
+      ],
+      [
+       0.5,
+       0.87,
+       1.5,
+       0.87
+      ],
+      [
+       1,
+       0,
+       2,
+       0
+      ],
+      [
+       1.5,
+       0.87,
+       2.5,
+       0.87
+      ]
+     ]
+    ],
+    "unit": 30
+   }
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Problem-solving",
+   "stem": "Write a rule for each matchstick pattern.",
+   "type": "expression",
+   "prompt": "$x$ = number of house shapes, $y$ = number of matchsticks",
+   "answer": "y=4x+1",
+   "accept": [
+    "4x+1"
+   ],
+   "figure": {
+    "kind": "sticks",
+    "stages": [
+     [
+      [
+       0,
+       0,
+       1,
+       0
+      ],
+      [
+       0,
+       1,
+       0.5,
+       1.6
+      ],
+      [
+       0.5,
+       1.6,
+       1,
+       1
+      ],
+      [
+       0,
+       0,
+       0,
+       1
+      ],
+      [
+       1,
+       0,
+       1,
+       1
+      ]
+     ],
+     [
+      [
+       0,
+       0,
+       1,
+       0
+      ],
+      [
+       0,
+       1,
+       0.5,
+       1.6
+      ],
+      [
+       0.5,
+       1.6,
+       1,
+       1
+      ],
+      [
+       1,
+       0,
+       2,
+       0
+      ],
+      [
+       1,
+       1,
+       1.5,
+       1.6
+      ],
+      [
+       1.5,
+       1.6,
+       2,
+       1
+      ],
+      [
+       0,
+       0,
+       0,
+       1
+      ],
+      [
+       1,
+       0,
+       1,
+       1
+      ],
+      [
+       2,
+       0,
+       2,
+       1
+      ]
+     ],
+     [
+      [
+       0,
+       0,
+       1,
+       0
+      ],
+      [
+       0,
+       1,
+       0.5,
+       1.6
+      ],
+      [
+       0.5,
+       1.6,
+       1,
+       1
+      ],
+      [
+       1,
+       0,
+       2,
+       0
+      ],
+      [
+       1,
+       1,
+       1.5,
+       1.6
+      ],
+      [
+       1.5,
+       1.6,
+       2,
+       1
+      ],
+      [
+       2,
+       0,
+       3,
+       0
+      ],
+      [
+       2,
+       1,
+       2.5,
+       1.6
+      ],
+      [
+       2.5,
+       1.6,
+       3,
+       1
+      ],
+      [
+       0,
+       0,
+       0,
+       1
+      ],
+      [
+       1,
+       0,
+       1,
+       1
+      ],
+      [
+       2,
+       0,
+       2,
+       1
+      ],
+      [
+       3,
+       0,
+       3,
+       1
+      ]
+     ],
+     [
+      [
+       0,
+       0,
+       1,
+       0
+      ],
+      [
+       0,
+       1,
+       0.5,
+       1.6
+      ],
+      [
+       0.5,
+       1.6,
+       1,
+       1
+      ],
+      [
+       1,
+       0,
+       2,
+       0
+      ],
+      [
+       1,
+       1,
+       1.5,
+       1.6
+      ],
+      [
+       1.5,
+       1.6,
+       2,
+       1
+      ],
+      [
+       2,
+       0,
+       3,
+       0
+      ],
+      [
+       2,
+       1,
+       2.5,
+       1.6
+      ],
+      [
+       2.5,
+       1.6,
+       3,
+       1
+      ],
+      [
+       3,
+       0,
+       4,
+       0
+      ],
+      [
+       3,
+       1,
+       3.5,
+       1.6
+      ],
+      [
+       3.5,
+       1.6,
+       4,
+       1
+      ],
+      [
+       0,
+       0,
+       0,
+       1
+      ],
+      [
+       1,
+       0,
+       1,
+       1
+      ],
+      [
+       2,
+       0,
+       2,
+       1
+      ],
+      [
+       3,
+       0,
+       3,
+       1
+      ],
+      [
+       4,
+       0,
+       4,
+       1
+      ]
+     ]
+    ],
+    "unit": 30
+   }
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Problem-solving",
+   "stem": "Write a rule for each matchstick pattern.",
+   "type": "expression",
+   "prompt": "$x$ = number of matchsticks on the top row, $y$ = number of matchsticks",
+   "answer": "y=2x+2",
+   "accept": [
+    "2x+2"
+   ],
+   "figure": {
+    "kind": "sticks",
+    "stages": [
+     [
+      [
+       0,
+       0,
+       1,
+       0
+      ],
+      [
+       0,
+       1,
+       1,
+       1
+      ],
+      [
+       0,
+       0,
+       0,
+       1
+      ],
+      [
+       1,
+       0,
+       1,
+       1
+      ]
+     ],
+     [
+      [
+       0,
+       0,
+       1,
+       0
+      ],
+      [
+       0,
+       1,
+       1,
+       1
+      ],
+      [
+       1,
+       0,
+       2,
+       0
+      ],
+      [
+       1,
+       1,
+       2,
+       1
+      ],
+      [
+       0,
+       0,
+       0,
+       1
+      ],
+      [
+       2,
+       0,
+       2,
+       1
+      ]
+     ],
+     [
+      [
+       0,
+       0,
+       1,
+       0
+      ],
+      [
+       0,
+       1,
+       1,
+       1
+      ],
+      [
+       1,
+       0,
+       2,
+       0
+      ],
+      [
+       1,
+       1,
+       2,
+       1
+      ],
+      [
+       2,
+       0,
+       3,
+       0
+      ],
+      [
+       2,
+       1,
+       3,
+       1
+      ],
+      [
+       0,
+       0,
+       0,
+       1
+      ],
+      [
+       3,
+       0,
+       3,
+       1
+      ]
+     ],
+     [
+      [
+       0,
+       0,
+       1,
+       0
+      ],
+      [
+       0,
+       1,
+       1,
+       1
+      ],
+      [
+       1,
+       0,
+       2,
+       0
+      ],
+      [
+       1,
+       1,
+       2,
+       1
+      ],
+      [
+       2,
+       0,
+       3,
+       0
+      ],
+      [
+       2,
+       1,
+       3,
+       1
+      ],
+      [
+       3,
+       0,
+       4,
+       0
+      ],
+      [
+       3,
+       1,
+       4,
+       1
+      ],
+      [
+       0,
+       0,
+       0,
+       1
+      ],
+      [
+       4,
+       0,
+       4,
+       1
+      ]
+     ]
+    ],
+    "unit": 30
+   }
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Problem-solving",
+   "stem": "The table shows two points on a straight line graph, $(0, -1)$ and $(2, 5)$.",
+   "type": "ordered",
+   "prompt": "Find the three missing $y$-values, in order from left to right.",
+   "answer": [
+    "-7",
+    "-4",
+    "2"
+   ],
+   "hint": "Type the three numbers separated by commas.",
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "x",
+      "-2",
+      "-1",
+      "0",
+      "1",
+      "2"
+     ],
+     [
+      "y",
+      "?",
+      "?",
+      "-1",
+      "?",
+      "5"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Problem-solving",
+   "stem": "The table shows two points on a straight line graph, $(0, -1)$ and $(2, 5)$.",
+   "type": "expression",
+   "prompt": "State the rule for this graph.",
+   "answer": "y=3x-1",
+   "accept": [
+    "3x-1"
+   ]
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Problem-solving",
+   "type": "expression",
+   "prompt": "A straight line graph passes through the points $(0, 3)$ and $(1, -4)$. What is the rule of the graph?",
+   "answer": "y=-7x+3",
+   "accept": [
+    "-7x+3"
+   ]
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Problem-solving",
+   "type": "expression",
+   "prompt": "A straight line graph passes through the points $(-3, -4)$ and $(3, 8)$. What is the rule of the graph?",
+   "answer": "y=2x+2",
+   "accept": [
+    "2x+2"
+   ]
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Reasoning",
+   "stem": "The rule $y = -2x + 3$ can also be written as $y = 3 - 2x$. Which rule is the same as each of these?",
+   "type": "choice",
+   "prompt": "$y = -2x + 7$",
+   "answer": 0,
+   "options": [
+    "y = 7 - 2x",
+    "y = 2x - 7",
+    "y = 7 + 2x",
+    "y = 2 - 7x"
+   ]
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Reasoning",
+   "stem": "The rule $y = -2x + 3$ can also be written as $y = 3 - 2x$. Which rule is the same as each of these?",
+   "type": "choice",
+   "prompt": "$y = -4x + 9$",
+   "answer": 2,
+   "options": [
+    "y = 4x - 9",
+    "y = 4 - 9x",
+    "y = 9 - 4x",
+    "y = 9 + 4x"
+   ]
+  },
+  {
+   "id": "q9c",
+   "label": "9c",
+   "section": "Reasoning",
+   "stem": "The rule $y = -2x + 3$ can also be written as $y = 3 - 2x$. Which rule is the same as each of these?",
+   "type": "choice",
+   "prompt": "$y = -x + 6$",
+   "answer": 3,
+   "options": [
+    "y = 1 - 6x",
+    "y = 6 + x",
+    "y = x - 6",
+    "y = 6 - x"
+   ]
+  },
+  {
+   "id": "q9d",
+   "label": "9d",
+   "section": "Reasoning",
+   "stem": "The rule $y = -2x + 3$ can also be written as $y = 3 - 2x$. Which rule is the same as each of these?",
+   "type": "choice",
+   "prompt": "$y = -5x + 2$",
+   "answer": 3,
+   "options": [
+    "y = 2 + 5x",
+    "y = 5 - 2x",
+    "y = 5x - 2",
+    "y = 2 - 5x"
+   ]
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Reasoning",
+   "type": "numeric",
+   "prompt": "In Question 6a each new triangle needs $2$ more matchsticks, and $1$ extra matchstick completes the first triangle (so the rule is $y = 2x + 1$). In Question 6b, how many more matchsticks does each new house shape need?",
+   "answer": "4"
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Reasoning",
+   "type": "numeric",
+   "prompt": "In Question 6c, how many more matchsticks are needed for each extra matchstick on the top row?",
+   "answer": "2"
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Reasoning",
+   "stem": "A straight line graph passes through $(20, 12)$ and $(24, 18)$.",
+   "type": "ordered",
+   "prompt": "Complete the table: type the three missing $y$-values in order.",
+   "answer": [
+    "13.5",
+    "15",
+    "16.5"
+   ],
+   "hint": "Type decimals if you need them, for example 4.5",
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "x",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24"
+     ],
+     [
+      "y",
+      "12",
+      "?",
+      "?",
+      "?",
+      "18"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Reasoning",
+   "stem": "A straight line graph passes through $(20, 12)$ and $(24, 18)$.",
+   "type": "numeric",
+   "prompt": "What would the $y$-value be when $x = 30$?",
+   "answer": "27"
+  },
+  {
+   "id": "q11c",
+   "label": "11c",
+   "section": "Reasoning",
+   "stem": "A straight line graph passes through $(20, 12)$ and $(24, 18)$.",
+   "type": "expression",
+   "prompt": "Find the rule for this graph.",
+   "answer": "y=3x/2-18",
+   "accept": [
+    "3x/2-18"
+   ]
+  },
+  {
+   "id": "q11d",
+   "label": "11d",
+   "section": "Reasoning",
+   "stem": "A straight line graph passes through $(20, 12)$ and $(24, 18)$.",
+   "type": "numeric",
+   "prompt": "Use your rule to find the $y$-value when $x = 0$.",
+   "answer": "-18"
+  },
+  {
+   "id": "q12a",
+   "label": "12a",
+   "section": "Reasoning",
+   "stem": "A straight line passes through the points $(0, -3)$ and $(1, m)$.",
+   "type": "expression",
+   "prompt": "Write an expression for the coefficient of $x$ in the rule linking $y$ and $x$.",
+   "answer": "m+3"
+  },
+  {
+   "id": "q12b",
+   "label": "12b",
+   "section": "Reasoning",
+   "stem": "A straight line passes through the points $(0, -3)$ and $(1, m)$.",
+   "type": "expression",
+   "prompt": "Write the rule for the graph in terms of $m$.",
+   "answer": "y=(m+3)x-3",
+   "accept": [
+    "(m+3)x-3"
+   ],
+   "hint": "Use brackets, for example y=(m+1)x+4"
+  },
+  {
+   "id": "q13a",
+   "label": "13a",
+   "section": "Reasoning",
+   "stem": "A straight line passes through the points $(0, p)$ and $(1, q)$.",
+   "type": "expression",
+   "prompt": "Write an expression for the coefficient of $x$ in the rule linking $y$ and $x$.",
+   "answer": "q-p"
+  },
+  {
+   "id": "q13b",
+   "label": "13b",
+   "section": "Reasoning",
+   "stem": "A straight line passes through the points $(0, p)$ and $(1, q)$.",
+   "type": "expression",
+   "prompt": "Write the rule for the graph in terms of $p$ and $q$.",
+   "answer": "y=(q-p)x+p",
+   "accept": [
+    "(q-p)x+p"
+   ]
+  },
+  {
+   "id": "q14a",
+   "label": "14a",
+   "section": "Enrichment",
+   "stem": "In this table the $x$-values go up by $2$ each time.",
+   "type": "numeric",
+   "prompt": "The pattern is linear. By how much does $y$ increase for each increase of $1$ in $x$?",
+   "answer": "3",
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "x",
+      "-2",
+      "0",
+      "2",
+      "4"
+     ],
+     [
+      "y",
+      "-5",
+      "1",
+      "7",
+      "13"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q14b",
+   "label": "14b",
+   "section": "Enrichment",
+   "stem": "In this table the $x$-values go up by $2$ each time.",
+   "type": "expression",
+   "prompt": "Write the rule for the relationship.",
+   "answer": "y=3x+1",
+   "accept": [
+    "3x+1"
+   ]
+  },
+  {
+   "id": "q14c",
+   "label": "14c",
+   "section": "Enrichment",
+   "stem": "Find the rule for each table.",
+   "type": "expression",
+   "prompt": "Table c",
+   "answer": "y=2x-1",
+   "accept": [
+    "2x-1"
+   ],
+   "figure": {
+    "kind": "table",
+    "rows": [
+     [
+      "x",
+      "-4",
+      "-2",
+      "0",
+      "2",
+      "4"
+     ],
+     [
+      "y",
+      "-9",
+      "-5",
+      "-1",
+      "3",
+      "7"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q14d",
+   "label": "14d",
+   "section": "Enrichment",
+   "stem": "Find the rule for each table.",
+   "type": "expression",
+   "prompt": "Table d",
+   "answer": "y=4x+1",
+   "accept": [
+    "4x+1"
+   ],
+   "figure": {
+    "kind": "table",
+    "rows": [
+     [
+      "x",
+      "-3",
+      "-1",
+      "1",
+      "3",
+      "5"
+     ],
+     [
+      "y",
+      "-11",
+      "-3",
+      "5",
+      "13",
+      "21"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q14e",
+   "label": "14e",
+   "section": "Enrichment",
+   "stem": "Find the rule for each table.",
+   "type": "expression",
+   "prompt": "Table e",
+   "answer": "y=-x+5",
+   "accept": [
+    "-x+5"
+   ],
+   "figure": {
+    "kind": "table",
+    "rows": [
+     [
+      "x",
+      "-6",
+      "-3",
+      "0",
+      "3",
+      "6"
+     ],
+     [
+      "y",
+      "11",
+      "8",
+      "5",
+      "2",
+      "-1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q14f",
+   "label": "14f",
+   "section": "Enrichment",
+   "stem": "Find the rule for each table.",
+   "type": "expression",
+   "prompt": "Table f",
+   "answer": "y=-3x-7",
+   "accept": [
+    "-3x-7"
+   ],
+   "figure": {
+    "kind": "table",
+    "rows": [
+     [
+      "x",
+      "-9",
+      "-7",
+      "-5",
+      "-3",
+      "-1"
+     ],
+     [
+      "y",
+      "20",
+      "14",
+      "8",
+      "2",
+      "-4"
+     ]
+    ]
+   }
+  }
+ ]
+},
+{
+ "id": "y8-9d",
+ "year": 8,
+ "chapter": "Chapter 9: Linear relationships",
+ "title": "9D Using graphs to solve linear equations",
+ "description": "Read solutions to linear equations from straight line graphs and find where two lines intersect.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Use the graph of $y = 2x - 3$ to solve each equation.",
+   "type": "numeric",
+   "prompt": "$2x - 3 = 1$ (Hint: find $x$ when $y = 1$.)",
+   "answer": "2",
+   "stemFigure": {
+    "kind": "plane",
+    "x": [
+     -5,
+     5
+    ],
+    "y": [
+     -6,
+     6
+    ],
+    "path": [
+     [
+      -1.5,
+      -6
+     ],
+     [
+      4.5,
+      6
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Use the graph of $y = 2x - 3$ to solve each equation.",
+   "type": "numeric",
+   "prompt": "$2x - 3 = 0$",
+   "answer": "1.5"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "Use the graph of $y = 2x - 3$ to solve each equation.",
+   "type": "numeric",
+   "prompt": "$2x - 3 = 5$",
+   "answer": "4"
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "Use the graph of $y = 2x - 3$ to solve each equation.",
+   "type": "numeric",
+   "prompt": "$2x - 3 = -6$",
+   "answer": "-1.5"
+  },
+  {
+   "id": "q1e",
+   "label": "1e",
+   "section": "Fluency",
+   "stem": "Use the graph of $y = 2x - 3$ to solve each equation.",
+   "type": "numeric",
+   "prompt": "$2x - 3 = -4$",
+   "answer": "-0.5"
+  },
+  {
+   "id": "q1f",
+   "label": "1f",
+   "section": "Fluency",
+   "stem": "Use the graph of $y = 2x - 3$ to solve each equation.",
+   "type": "numeric",
+   "prompt": "$2x - 3 = -3$",
+   "answer": "0"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Use the graph of $y = 1 - x$ to solve each equation.",
+   "type": "numeric",
+   "prompt": "$1 - x = 3$ (Hint: find $x$ when $y = 3$.)",
+   "answer": "-2",
+   "stemFigure": {
+    "kind": "plane",
+    "x": [
+     -5,
+     5
+    ],
+    "y": [
+     -5,
+     6
+    ],
+    "path": [
+     [
+      -5,
+      6
+     ],
+     [
+      5,
+      -4
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Use the graph of $y = 1 - x$ to solve each equation.",
+   "type": "numeric",
+   "prompt": "$1 - x = 4.5$",
+   "answer": "-3.5"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Use the graph of $y = 1 - x$ to solve each equation.",
+   "type": "numeric",
+   "prompt": "$1 - x = 0$",
+   "answer": "1"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Use the graph of $y = 1 - x$ to solve each equation.",
+   "type": "numeric",
+   "prompt": "$1 - x = 2.5$",
+   "answer": "-1.5"
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Use the graph of $y = 1 - x$ to solve each equation.",
+   "type": "numeric",
+   "prompt": "$1 - x = -2$",
+   "answer": "3"
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "Use the graph of $y = 1 - x$ to solve each equation.",
+   "type": "numeric",
+   "prompt": "$1 - x = -3$",
+   "answer": "4"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "This graph shows the distance travelled by a kayaker over $4$ hours.",
+   "type": "numeric",
+   "prompt": "How far has the kayaker travelled after $3$ hours?",
+   "answer": "18",
+   "units": "km",
+   "stemFigure": {
+    "kind": "linegraph",
+    "xs": [
+     "0",
+     "0.5",
+     "1",
+     "1.5",
+     "2",
+     "2.5",
+     "3",
+     "3.5",
+     "4"
+    ],
+    "ys": [
+     0,
+     3,
+     6,
+     9,
+     12,
+     15,
+     18,
+     21,
+     24
+    ],
+    "ymin": 0,
+    "ymax": 24,
+    "step": 3,
+    "xlabel": "Time (hours)",
+    "ylabel": "Distance (km)"
+   }
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "This graph shows the distance travelled by a kayaker over $4$ hours.",
+   "type": "numeric",
+   "prompt": "How far has the kayaker travelled after $1.5$ hours?",
+   "answer": "9",
+   "units": "km"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "This graph shows the distance travelled by a kayaker over $4$ hours.",
+   "type": "numeric",
+   "prompt": "How long does it take the kayaker to travel $12$ km?",
+   "answer": "2",
+   "units": "hours"
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "This graph shows the distance travelled by a kayaker over $4$ hours.",
+   "type": "numeric",
+   "prompt": "How long does it take the kayaker to travel $21$ km?",
+   "answer": "3.5",
+   "units": "hours"
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "Complete a table of values for each pair of lines, graph them on the same axes and read off the point of intersection.",
+   "type": "point",
+   "prompt": "$y = 2x - 3$ and $y = x - 1$",
+   "answer": "(2,1)",
+   "figure": [
+    {
+     "kind": "table",
+     "rows": [
+      [
+       "x",
+       "-2",
+       "-1",
+       "0",
+       "1",
+       "2",
+       "3"
+      ],
+      [
+       "y=2x-3",
+       "?",
+       "?",
+       "?",
+       "?",
+       "?",
+       "?"
+      ]
+     ]
+    },
+    {
+     "kind": "table",
+     "rows": [
+      [
+       "x",
+       "-2",
+       "-1",
+       "0",
+       "1",
+       "2",
+       "3"
+      ],
+      [
+       "y=x-1",
+       "?",
+       "?",
+       "?",
+       "?",
+       "?",
+       "?"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "Complete a table of values for each pair of lines, graph them on the same axes and read off the point of intersection.",
+   "type": "point",
+   "prompt": "$y = -x + 1$ and $y = x + 3$",
+   "answer": "(-1,2)",
+   "figure": [
+    {
+     "kind": "table",
+     "rows": [
+      [
+       "x",
+       "-2",
+       "-1",
+       "0",
+       "1",
+       "2",
+       "3"
+      ],
+      [
+       "y=-x+1",
+       "?",
+       "?",
+       "?",
+       "?",
+       "?",
+       "?"
+      ]
+     ]
+    },
+    {
+     "kind": "table",
+     "rows": [
+      [
+       "x",
+       "-2",
+       "-1",
+       "0",
+       "1",
+       "2",
+       "3"
+      ],
+      [
+       "y=x+3",
+       "?",
+       "?",
+       "?",
+       "?",
+       "?",
+       "?"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Fluency",
+   "stem": "Use graphing software to sketch $y = 2.5x - 1.5$ for $x$- and $y$-values between $-7$ and $7$. Use the graph to solve each equation, rounding to $2$ decimal places where needed.",
+   "type": "numeric",
+   "prompt": "$2.5x - 1.5 = 4$",
+   "answer": "2.2",
+   "dp": 2
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Fluency",
+   "stem": "Use graphing software to sketch $y = 2.5x - 1.5$ for $x$- and $y$-values between $-7$ and $7$. Use the graph to solve each equation, rounding to $2$ decimal places where needed.",
+   "type": "numeric",
+   "prompt": "$2.5x - 1.5 = -3.7$",
+   "answer": "-0.88",
+   "dp": 2
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Fluency",
+   "stem": "Use graphing software to sketch $y = 2.5x - 1.5$ for $x$- and $y$-values between $-7$ and $7$. Use the graph to solve each equation, rounding to $2$ decimal places where needed.",
+   "type": "numeric",
+   "prompt": "$2.5x - 1.5 = 6.318$",
+   "answer": "3.13",
+   "dp": 2
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Fluency",
+   "stem": "Use graphing software to sketch each pair of lines and find the coordinates of the point of intersection, rounding to $2$ decimal places.",
+   "type": "point",
+   "prompt": "$y = 0.35x + 0.62$ and $y = 1.4x - 4.8$",
+   "answer": "(5.16,2.43)",
+   "dp": 2,
+   "hint": "Type the point in brackets, for example (1.25,-0.40)"
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Fluency",
+   "stem": "Use graphing software to sketch each pair of lines and find the coordinates of the point of intersection, rounding to $2$ decimal places.",
+   "type": "point",
+   "prompt": "$y = 3 - 1.12x$ and $y = 1.3x + 4$",
+   "answer": "(-0.41,3.46)",
+   "dp": 2
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Problem-solving",
+   "stem": "This graph shows a car journey over $5$ hours.",
+   "type": "numeric",
+   "prompt": "What total distance has been travelled after $1$ hour?",
+   "answer": "40",
+   "units": "km",
+   "stemFigure": {
+    "kind": "linegraph",
+    "xs": [
+     "0",
+     "0.5",
+     "1",
+     "1.5",
+     "2",
+     "2.5",
+     "3",
+     "3.5",
+     "4",
+     "4.5",
+     "5"
+    ],
+    "ys": [
+     0,
+     20,
+     40,
+     60,
+     80,
+     80,
+     80,
+     110,
+     140,
+     170,
+     200
+    ],
+    "ymin": 0,
+    "ymax": 200,
+    "step": 20,
+    "xlabel": "Time (hours)",
+    "ylabel": "Distance (km)"
+   }
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Problem-solving",
+   "stem": "This graph shows a car journey over $5$ hours.",
+   "type": "numeric",
+   "prompt": "What total distance has been travelled after $2.5$ hours?",
+   "answer": "80",
+   "units": "km"
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Problem-solving",
+   "stem": "This graph shows a car journey over $5$ hours.",
+   "type": "numeric",
+   "prompt": "What total distance has been travelled after $4$ hours?",
+   "answer": "140",
+   "units": "km"
+  },
+  {
+   "id": "q7d",
+   "label": "7d",
+   "section": "Problem-solving",
+   "stem": "This graph shows a car journey over $5$ hours.",
+   "type": "numeric",
+   "prompt": "What total distance has been travelled after $4.5$ hours?",
+   "answer": "170",
+   "units": "km"
+  },
+  {
+   "id": "q7e",
+   "label": "7e",
+   "section": "Problem-solving",
+   "stem": "This graph shows a car journey over $5$ hours.",
+   "type": "numeric",
+   "prompt": "How long does it take to travel $20$ km?",
+   "answer": "0.5",
+   "units": "hours"
+  },
+  {
+   "id": "q7f",
+   "label": "7f",
+   "section": "Problem-solving",
+   "stem": "This graph shows a car journey over $5$ hours.",
+   "type": "numeric",
+   "prompt": "How long does it take to travel $60$ km?",
+   "answer": "1.5",
+   "units": "hours"
+  },
+  {
+   "id": "q7g",
+   "label": "7g",
+   "section": "Problem-solving",
+   "stem": "This graph shows a car journey over $5$ hours.",
+   "type": "numeric",
+   "prompt": "How long does it take to travel $140$ km?",
+   "answer": "4",
+   "units": "hours"
+  },
+  {
+   "id": "q7h",
+   "label": "7h",
+   "section": "Problem-solving",
+   "stem": "This graph shows a car journey over $5$ hours.",
+   "type": "numeric",
+   "prompt": "How long does it take to travel $200$ km?",
+   "answer": "5",
+   "units": "hours"
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Problem-solving",
+   "stem": "Use the graphs of $y = 7 - 2x$ and $y = x + 1$ to answer these questions.",
+   "type": "point",
+   "prompt": "The point $(1, \\ ?)$ is on the line $y = 7 - 2x$. Write its coordinates.",
+   "answer": "(1,5)",
+   "stemFigure": {
+    "kind": "diagram",
+    "items": [
+     {
+      "seg": [
+       -3,
+       -3,
+       -3,
+       10
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       -2,
+       -3,
+       -2,
+       10
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       -1,
+       -3,
+       -1,
+       10
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       0,
+       -3,
+       0,
+       10
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       1,
+       -3,
+       1,
+       10
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       2,
+       -3,
+       2,
+       10
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       3,
+       -3,
+       3,
+       10
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       4,
+       -3,
+       4,
+       10
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       5,
+       -3,
+       5,
+       10
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       -3,
+       -3,
+       5,
+       -3
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       -3,
+       -2,
+       5,
+       -2
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       -3,
+       -1,
+       5,
+       -1
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       -3,
+       0,
+       5,
+       0
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       -3,
+       1,
+       5,
+       1
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       -3,
+       2,
+       5,
+       2
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       -3,
+       3,
+       5,
+       3
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       -3,
+       4,
+       5,
+       4
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       -3,
+       5,
+       5,
+       5
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       -3,
+       6,
+       5,
+       6
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       -3,
+       7,
+       5,
+       7
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       -3,
+       8,
+       5,
+       8
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       -3,
+       9,
+       5,
+       9
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       -3,
+       10,
+       5,
+       10
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       -3,
+       0,
+       5.6,
+       0
+      ],
+      "arrow": "end"
+     },
+     {
+      "seg": [
+       0,
+       -3,
+       0,
+       10.6
+      ],
+      "arrow": "end"
+     },
+     {
+      "label": "x",
+      "at": [
+       5.95,
+       0
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       10.95
+      ]
+     },
+     {
+      "label": "-3",
+      "at": [
+       -3,
+       -0.5
+      ]
+     },
+     {
+      "label": "-2",
+      "at": [
+       -2,
+       -0.5
+      ]
+     },
+     {
+      "label": "-1",
+      "at": [
+       -1,
+       -0.5
+      ]
+     },
+     {
+      "label": "1",
+      "at": [
+       1,
+       -0.5
+      ]
+     },
+     {
+      "label": "2",
+      "at": [
+       2,
+       -0.5
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       3,
+       -0.5
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       4,
+       -0.5
+      ]
+     },
+     {
+      "label": "5",
+      "at": [
+       5,
+       -0.5
+      ]
+     },
+     {
+      "label": "-3",
+      "at": [
+       -0.2,
+       -3.05
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-2",
+      "at": [
+       -0.2,
+       -2.05
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-1",
+      "at": [
+       -0.2,
+       -1.05
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "1",
+      "at": [
+       -0.2,
+       0.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "2",
+      "at": [
+       -0.2,
+       1.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "3",
+      "at": [
+       -0.2,
+       2.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "4",
+      "at": [
+       -0.2,
+       3.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "5",
+      "at": [
+       -0.2,
+       4.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "6",
+      "at": [
+       -0.2,
+       5.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "7",
+      "at": [
+       -0.2,
+       6.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "8",
+      "at": [
+       -0.2,
+       7.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "9",
+      "at": [
+       -0.2,
+       8.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "10",
+      "at": [
+       -0.2,
+       9.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.25,
+       -0.5
+      ],
+      "anchor": "end"
+     },
+     {
+      "seg": [
+       -1.5,
+       10,
+       5,
+       -3
+      ]
+     },
+     {
+      "label": "y = 7 - 2x",
+      "at": [
+       4.3,
+       -2.6
+      ],
+      "anchor": "end"
+     },
+     {
+      "seg": [
+       -3,
+       -2,
+       5,
+       6
+      ]
+     },
+     {
+      "label": "y = x + 1",
+      "at": [
+       3.4,
+       3.1
+      ],
+      "anchor": "start"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Problem-solving",
+   "stem": "Use the graphs of $y = 7 - 2x$ and $y = x + 1$ to answer these questions.",
+   "type": "point",
+   "prompt": "The point $(-2, \\ ?)$ is on the line $y = x + 1$. Write its coordinates.",
+   "answer": "(-2,-1)"
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Problem-solving",
+   "stem": "Use the graphs of $y = 7 - 2x$ and $y = x + 1$ to answer these questions.",
+   "type": "point",
+   "prompt": "Write the coordinates of the point of intersection.",
+   "answer": "(2,3)"
+  },
+  {
+   "id": "q8d",
+   "label": "8d",
+   "section": "Problem-solving",
+   "stem": "Use the graphs of $y = 7 - 2x$ and $y = x + 1$ to answer these questions.",
+   "type": "numeric",
+   "prompt": "Solve the equation $7 - 2x = x + 1$ from the graph.",
+   "answer": "2"
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Problem-solving",
+   "stem": "Ava and Noah are saving for a school camp. Ava has already saved $\\$30$ and earns $\\$5$ per hour walking dogs. Noah has saved $\\$12$ and earns $\\$8$ per hour tutoring. The graph shows the amount $A$ (in dollars) each has saved after working $n$ hours.",
+   "type": "choice",
+   "prompt": "Which rule gives Noah's savings?",
+   "answer": 1,
+   "options": [
+    "A = 30 + 5n",
+    "A = 12 + 8n"
+   ],
+   "stemFigure": {
+    "kind": "diagram",
+    "items": [
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       11
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       1,
+       0,
+       1,
+       11
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       2,
+       0,
+       2,
+       11
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       3,
+       0,
+       3,
+       11
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       4,
+       0,
+       4,
+       11
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       5,
+       0,
+       5,
+       11
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       6,
+       0,
+       6,
+       11
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       7,
+       0,
+       7,
+       11
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       8,
+       0,
+       8,
+       11
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       9,
+       0,
+       9,
+       11
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       10,
+       0,
+       10,
+       11
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       11,
+       0,
+       11,
+       11
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       12,
+       0,
+       12,
+       11
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       0,
+       0,
+       12,
+       0
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       0,
+       1,
+       12,
+       1
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       0,
+       2,
+       12,
+       2
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       0,
+       3,
+       12,
+       3
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       0,
+       4,
+       12,
+       4
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       0,
+       5,
+       12,
+       5
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       0,
+       6,
+       12,
+       6
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       0,
+       7,
+       12,
+       7
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       0,
+       8,
+       12,
+       8
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       0,
+       9,
+       12,
+       9
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       0,
+       10,
+       12,
+       10
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       0,
+       11,
+       12,
+       11
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       0,
+       0,
+       12.6,
+       0
+      ],
+      "arrow": "end"
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       11.6
+      ],
+      "arrow": "end"
+     },
+     {
+      "label": "n",
+      "at": [
+       12.95,
+       0
+      ]
+     },
+     {
+      "label": "A ($)",
+      "at": [
+       0,
+       11.95
+      ]
+     },
+     {
+      "label": "1",
+      "at": [
+       1,
+       -0.5
+      ]
+     },
+     {
+      "label": "2",
+      "at": [
+       2,
+       -0.5
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       3,
+       -0.5
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       4,
+       -0.5
+      ]
+     },
+     {
+      "label": "5",
+      "at": [
+       5,
+       -0.5
+      ]
+     },
+     {
+      "label": "6",
+      "at": [
+       6,
+       -0.5
+      ]
+     },
+     {
+      "label": "7",
+      "at": [
+       7,
+       -0.5
+      ]
+     },
+     {
+      "label": "8",
+      "at": [
+       8,
+       -0.5
+      ]
+     },
+     {
+      "label": "9",
+      "at": [
+       9,
+       -0.5
+      ]
+     },
+     {
+      "label": "10",
+      "at": [
+       10,
+       -0.5
+      ]
+     },
+     {
+      "label": "11",
+      "at": [
+       11,
+       -0.5
+      ]
+     },
+     {
+      "label": "12",
+      "at": [
+       12,
+       -0.5
+      ]
+     },
+     {
+      "label": "10",
+      "at": [
+       -0.2,
+       0.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "20",
+      "at": [
+       -0.2,
+       1.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "30",
+      "at": [
+       -0.2,
+       2.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "40",
+      "at": [
+       -0.2,
+       3.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "50",
+      "at": [
+       -0.2,
+       4.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "60",
+      "at": [
+       -0.2,
+       5.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "70",
+      "at": [
+       -0.2,
+       6.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "80",
+      "at": [
+       -0.2,
+       7.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "90",
+      "at": [
+       -0.2,
+       8.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "100",
+      "at": [
+       -0.2,
+       9.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "110",
+      "at": [
+       -0.2,
+       10.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.25,
+       -0.5
+      ],
+      "anchor": "end"
+     },
+     {
+      "seg": [
+       0,
+       3,
+       12,
+       9
+      ]
+     },
+     {
+      "label": "Ava",
+      "at": [
+       12.2,
+       8.8
+      ],
+      "anchor": "start"
+     },
+     {
+      "seg": [
+       0,
+       1.2,
+       12,
+       10.8
+      ]
+     },
+     {
+      "label": "Noah",
+      "at": [
+       12.2,
+       10.6
+      ],
+      "anchor": "start"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Problem-solving",
+   "stem": "Ava and Noah are saving for a school camp. Ava has already saved $\\$30$ and earns $\\$5$ per hour walking dogs. Noah has saved $\\$12$ and earns $\\$8$ per hour tutoring. The graph shows the amount $A$ (in dollars) each has saved after working $n$ hours.",
+   "type": "numeric",
+   "prompt": "Use the right line to solve $12 + 8n = 44$.",
+   "answer": "4"
+  },
+  {
+   "id": "q9c",
+   "label": "9c",
+   "section": "Problem-solving",
+   "stem": "Ava and Noah are saving for a school camp. Ava has already saved $\\$30$ and earns $\\$5$ per hour walking dogs. Noah has saved $\\$12$ and earns $\\$8$ per hour tutoring. The graph shows the amount $A$ (in dollars) each has saved after working $n$ hours.",
+   "type": "numeric",
+   "prompt": "Use the right line to solve $30 + 5n = 50$.",
+   "answer": "4"
+  },
+  {
+   "id": "q9d",
+   "label": "9d",
+   "section": "Problem-solving",
+   "stem": "Ava and Noah are saving for a school camp. Ava has already saved $\\$30$ and earns $\\$5$ per hour walking dogs. Noah has saved $\\$12$ and earns $\\$8$ per hour tutoring. The graph shows the amount $A$ (in dollars) each has saved after working $n$ hours.",
+   "type": "numeric",
+   "prompt": "Use the right line to solve $12 + 8n = 76$.",
+   "answer": "8"
+  },
+  {
+   "id": "q9e",
+   "label": "9e",
+   "section": "Problem-solving",
+   "stem": "Ava and Noah are saving for a school camp. Ava has already saved $\\$30$ and earns $\\$5$ per hour walking dogs. Noah has saved $\\$12$ and earns $\\$8$ per hour tutoring. The graph shows the amount $A$ (in dollars) each has saved after working $n$ hours.",
+   "type": "numeric",
+   "prompt": "Use the right line to solve $30 + 5n = 75$.",
+   "answer": "9"
+  },
+  {
+   "id": "q9f",
+   "label": "9f",
+   "section": "Problem-solving",
+   "stem": "Ava and Noah are saving for a school camp. Ava has already saved $\\$30$ and earns $\\$5$ per hour walking dogs. Noah has saved $\\$12$ and earns $\\$8$ per hour tutoring. The graph shows the amount $A$ (in dollars) each has saved after working $n$ hours.",
+   "type": "numeric",
+   "prompt": "Use the right line to solve $12 + 8n = 92$.",
+   "answer": "10"
+  },
+  {
+   "id": "q9g",
+   "label": "9g",
+   "section": "Problem-solving",
+   "stem": "Ava and Noah are saving for a school camp. Ava has already saved $\\$30$ and earns $\\$5$ per hour walking dogs. Noah has saved $\\$12$ and earns $\\$8$ per hour tutoring. The graph shows the amount $A$ (in dollars) each has saved after working $n$ hours.",
+   "type": "numeric",
+   "prompt": "Use the right line to solve $30 + 5n = 85$.",
+   "answer": "11"
+  },
+  {
+   "id": "q9h",
+   "label": "9h",
+   "section": "Problem-solving",
+   "stem": "Ava and Noah are saving for a school camp. Ava has already saved $\\$30$ and earns $\\$5$ per hour walking dogs. Noah has saved $\\$12$ and earns $\\$8$ per hour tutoring. The graph shows the amount $A$ (in dollars) each has saved after working $n$ hours.",
+   "type": "numeric",
+   "prompt": "The point $(5, \\ ?)$ is a solution of $A = 12 + 8n$. What is the missing value?",
+   "answer": "52"
+  },
+  {
+   "id": "q9i",
+   "label": "9i",
+   "section": "Problem-solving",
+   "stem": "Ava and Noah are saving for a school camp. Ava has already saved $\\$30$ and earns $\\$5$ per hour walking dogs. Noah has saved $\\$12$ and earns $\\$8$ per hour tutoring. The graph shows the amount $A$ (in dollars) each has saved after working $n$ hours.",
+   "type": "numeric",
+   "prompt": "The point $(2, \\ ?)$ is a solution of $A = 30 + 5n$. What is the missing value?",
+   "answer": "40"
+  },
+  {
+   "id": "q9j",
+   "label": "9j",
+   "section": "Problem-solving",
+   "stem": "Ava and Noah are saving for a school camp. Ava has already saved $\\$30$ and earns $\\$5$ per hour walking dogs. Noah has saved $\\$12$ and earns $\\$8$ per hour tutoring. The graph shows the amount $A$ (in dollars) each has saved after working $n$ hours.",
+   "type": "point",
+   "prompt": "Write the solution $(n, A)$ that is true for both Ava's and Noah's rules.",
+   "answer": "(6,60)"
+  },
+  {
+   "id": "q9k",
+   "label": "9k",
+   "section": "Problem-solving",
+   "stem": "Ava and Noah are saving for a school camp. Ava has already saved $\\$30$ and earns $\\$5$ per hour walking dogs. Noah has saved $\\$12$ and earns $\\$8$ per hour tutoring. The graph shows the amount $A$ (in dollars) each has saved after working $n$ hours.",
+   "type": "numeric",
+   "prompt": "Solve $12 + 8n = 30 + 5n$ (the number of hours after which their savings are equal).",
+   "answer": "6"
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Problem-solving",
+   "stem": "Leo and Mia run a $10$-second race. Leo runs at $7$ m/s. Mia is given a $12$ m head start and runs at $5$ m/s. Let $d$ be the distance (in metres) from Leo's starting line after $t$ seconds.",
+   "type": "ordered",
+   "prompt": "Complete Leo's row of the table: type his distances for $t = 1$ to $10$.",
+   "answer": [
+    "7",
+    "14",
+    "21",
+    "28",
+    "35",
+    "42",
+    "49",
+    "56",
+    "63",
+    "70"
+   ],
+   "hint": "Type the ten numbers in order, separated by commas.",
+   "stemFigure": [
+    {
+     "kind": "table",
+     "rows": [
+      [
+       "t (s)",
+       "0",
+       "1",
+       "2",
+       "3",
+       "4",
+       "5"
+      ],
+      [
+       "Leo (m)",
+       "0",
+       "?",
+       "?",
+       "?",
+       "?",
+       "?"
+      ],
+      [
+       "Mia (m)",
+       "12",
+       "?",
+       "?",
+       "?",
+       "?",
+       "?"
+      ]
+     ]
+    },
+    {
+     "kind": "table",
+     "rows": [
+      [
+       "t (s)",
+       "6",
+       "7",
+       "8",
+       "9",
+       "10"
+      ],
+      [
+       "Leo (m)",
+       "?",
+       "?",
+       "?",
+       "?",
+       "?"
+      ],
+      [
+       "Mia (m)",
+       "?",
+       "?",
+       "?",
+       "?",
+       "?"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Problem-solving",
+   "stem": "Leo and Mia run a $10$-second race. Leo runs at $7$ m/s. Mia is given a $12$ m head start and runs at $5$ m/s. Let $d$ be the distance (in metres) from Leo's starting line after $t$ seconds.",
+   "type": "ordered",
+   "prompt": "Complete Mia's row: type her distances for $t = 1$ to $10$.",
+   "answer": [
+    "17",
+    "22",
+    "27",
+    "32",
+    "37",
+    "42",
+    "47",
+    "52",
+    "57",
+    "62"
+   ]
+  },
+  {
+   "id": "q10c",
+   "label": "10c",
+   "section": "Problem-solving",
+   "stem": "Leo and Mia run a $10$-second race. Leo runs at $7$ m/s. Mia is given a $12$ m head start and runs at $5$ m/s. Let $d$ be the distance (in metres) from Leo's starting line after $t$ seconds.",
+   "type": "expression",
+   "prompt": "Find the rule linking $d$ and $t$ for Leo.",
+   "answer": "d=7t",
+   "accept": [
+    "7t"
+   ],
+   "hint": "Type the rule, for example d=4t"
+  },
+  {
+   "id": "q10d",
+   "label": "10d",
+   "section": "Problem-solving",
+   "stem": "Leo and Mia run a $10$-second race. Leo runs at $7$ m/s. Mia is given a $12$ m head start and runs at $5$ m/s. Let $d$ be the distance (in metres) from Leo's starting line after $t$ seconds.",
+   "type": "expression",
+   "prompt": "Using Leo's rule, write an equation that has the solution $t = 3$.",
+   "answer": "7t=21",
+   "hint": "Type the whole equation, for example 4t=20"
+  },
+  {
+   "id": "q10e",
+   "label": "10e",
+   "section": "Problem-solving",
+   "stem": "Leo and Mia run a $10$-second race. Leo runs at $7$ m/s. Mia is given a $12$ m head start and runs at $5$ m/s. Let $d$ be the distance (in metres) from Leo's starting line after $t$ seconds.",
+   "type": "expression",
+   "prompt": "Using Leo's rule, write an equation that has the solution $t = 5$.",
+   "answer": "7t=35"
+  },
+  {
+   "id": "q10f",
+   "label": "10f",
+   "section": "Problem-solving",
+   "stem": "Leo and Mia run a $10$-second race. Leo runs at $7$ m/s. Mia is given a $12$ m head start and runs at $5$ m/s. Let $d$ be the distance (in metres) from Leo's starting line after $t$ seconds.",
+   "type": "expression",
+   "prompt": "Using Leo's rule, write an equation that has the solution $t = 8$.",
+   "answer": "7t=56"
+  },
+  {
+   "id": "q10g",
+   "label": "10g",
+   "section": "Problem-solving",
+   "stem": "Leo and Mia run a $10$-second race. Leo runs at $7$ m/s. Mia is given a $12$ m head start and runs at $5$ m/s. Let $d$ be the distance (in metres) from Leo's starting line after $t$ seconds.",
+   "type": "expression",
+   "prompt": "Find the rule linking $d$ and $t$ for Mia.",
+   "answer": "d=5t+12",
+   "accept": [
+    "5t+12"
+   ]
+  },
+  {
+   "id": "q10h",
+   "label": "10h",
+   "section": "Problem-solving",
+   "stem": "Leo and Mia run a $10$-second race. Leo runs at $7$ m/s. Mia is given a $12$ m head start and runs at $5$ m/s. Let $d$ be the distance (in metres) from Leo's starting line after $t$ seconds.",
+   "type": "expression",
+   "prompt": "Using Mia's rule, write an equation that has the solution $t = 3$.",
+   "answer": "5t+12=27"
+  },
+  {
+   "id": "q10i",
+   "label": "10i",
+   "section": "Problem-solving",
+   "stem": "Leo and Mia run a $10$-second race. Leo runs at $7$ m/s. Mia is given a $12$ m head start and runs at $5$ m/s. Let $d$ be the distance (in metres) from Leo's starting line after $t$ seconds.",
+   "type": "expression",
+   "prompt": "Using Mia's rule, write an equation that has the solution $t = 5$.",
+   "answer": "5t+12=37"
+  },
+  {
+   "id": "q10j",
+   "label": "10j",
+   "section": "Problem-solving",
+   "stem": "Leo and Mia run a $10$-second race. Leo runs at $7$ m/s. Mia is given a $12$ m head start and runs at $5$ m/s. Let $d$ be the distance (in metres) from Leo's starting line after $t$ seconds.",
+   "type": "expression",
+   "prompt": "Using Mia's rule, write an equation that has the solution $t = 8$.",
+   "answer": "5t+12=52"
+  },
+  {
+   "id": "q10k",
+   "label": "10k",
+   "section": "Problem-solving",
+   "stem": "Leo and Mia run a $10$-second race. Leo runs at $7$ m/s. Mia is given a $12$ m head start and runs at $5$ m/s. Let $d$ be the distance (in metres) from Leo's starting line after $t$ seconds.",
+   "type": "point",
+   "prompt": "Write the solution $(t, d)$ that is true for both distance rules.",
+   "answer": "(6,42)"
+  },
+  {
+   "id": "q10l",
+   "label": "10l",
+   "section": "Problem-solving",
+   "stem": "Leo and Mia run a $10$-second race. Leo runs at $7$ m/s. Mia is given a $12$ m head start and runs at $5$ m/s. Let $d$ be the distance (in metres) from Leo's starting line after $t$ seconds.",
+   "type": "numeric",
+   "prompt": "At that moment Leo catches Mia. How far from Leo's starting line are they?",
+   "answer": "42",
+   "units": "m"
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Reasoning",
+   "stem": "The graph shows the lines $y = 10 - 3x$ and $y = x + 2$.",
+   "type": "ordered",
+   "prompt": "Complete the points $(x, \\ ?)$ on $y = 10 - 3x$ for $x = -2, -1, 0, 1, 2, 3, 4, 5$: type the eight $y$-values in order.",
+   "answer": [
+    "16",
+    "13",
+    "10",
+    "7",
+    "4",
+    "1",
+    "-2",
+    "-5"
+   ],
+   "hint": "Type the numbers in order, separated by commas.",
+   "stemFigure": {
+    "kind": "diagram",
+    "items": [
+     {
+      "seg": [
+       -2,
+       -3,
+       -2,
+       8
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       -1,
+       -3,
+       -1,
+       8
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       0,
+       -3,
+       0,
+       8
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       1,
+       -3,
+       1,
+       8
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       2,
+       -3,
+       2,
+       8
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       3,
+       -3,
+       3,
+       8
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       4,
+       -3,
+       4,
+       8
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       5,
+       -3,
+       5,
+       8
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       -2,
+       -3,
+       5,
+       -3
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       -2,
+       -2,
+       5,
+       -2
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       -2,
+       -1,
+       5,
+       -1
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       -2,
+       0,
+       5,
+       0
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       -2,
+       1,
+       5,
+       1
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       -2,
+       2,
+       5,
+       2
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       -2,
+       3,
+       5,
+       3
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       -2,
+       4,
+       5,
+       4
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       -2,
+       5,
+       5,
+       5
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       -2,
+       6,
+       5,
+       6
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       -2,
+       7,
+       5,
+       7
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       -2,
+       8,
+       5,
+       8
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       -2,
+       0,
+       5.6,
+       0
+      ],
+      "arrow": "end"
+     },
+     {
+      "seg": [
+       0,
+       -3,
+       0,
+       8.6
+      ],
+      "arrow": "end"
+     },
+     {
+      "label": "x",
+      "at": [
+       5.95,
+       0
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       8.95
+      ]
+     },
+     {
+      "label": "-2",
+      "at": [
+       -2,
+       -0.5
+      ]
+     },
+     {
+      "label": "-1",
+      "at": [
+       -1,
+       -0.5
+      ]
+     },
+     {
+      "label": "1",
+      "at": [
+       1,
+       -0.5
+      ]
+     },
+     {
+      "label": "2",
+      "at": [
+       2,
+       -0.5
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       3,
+       -0.5
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       4,
+       -0.5
+      ]
+     },
+     {
+      "label": "5",
+      "at": [
+       5,
+       -0.5
+      ]
+     },
+     {
+      "label": "-6",
+      "at": [
+       -0.2,
+       -3.05
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-4",
+      "at": [
+       -0.2,
+       -2.05
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-2",
+      "at": [
+       -0.2,
+       -1.05
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "2",
+      "at": [
+       -0.2,
+       0.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "4",
+      "at": [
+       -0.2,
+       1.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "6",
+      "at": [
+       -0.2,
+       2.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "8",
+      "at": [
+       -0.2,
+       3.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "10",
+      "at": [
+       -0.2,
+       4.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "12",
+      "at": [
+       -0.2,
+       5.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "14",
+      "at": [
+       -0.2,
+       6.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "16",
+      "at": [
+       -0.2,
+       7.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.25,
+       -0.5
+      ],
+      "anchor": "end"
+     },
+     {
+      "seg": [
+       -2,
+       8,
+       5,
+       -2.5
+      ]
+     },
+     {
+      "label": "y = 10 - 3x",
+      "at": [
+       4.3,
+       -2.4
+      ],
+      "anchor": "end"
+     },
+     {
+      "seg": [
+       -2,
+       0,
+       5,
+       3.5
+      ]
+     },
+     {
+      "label": "y = x + 2",
+      "at": [
+       2.4,
+       3.8
+      ],
+      "anchor": "start"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Reasoning",
+   "stem": "The graph shows the lines $y = 10 - 3x$ and $y = x + 2$.",
+   "type": "ordered",
+   "prompt": "Do the same for $y = x + 2$: type the eight $y$-values for $x = -2$ to $5$ in order.",
+   "answer": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+   ]
+  },
+  {
+   "id": "q11c",
+   "label": "11c",
+   "section": "Reasoning",
+   "stem": "The graph shows the lines $y = 10 - 3x$ and $y = x + 2$.",
+   "type": "point",
+   "prompt": "State the coordinates of the point of intersection.",
+   "answer": "(2,4)"
+  },
+  {
+   "id": "q12",
+   "label": "12",
+   "section": "Reasoning",
+   "type": "choice",
+   "prompt": "The graphs of $y = 3x + 1$ and $y = 3x + 4$ are parallel lines. How many solutions does the equation $3x + 1 = 3x + 4$ have?",
+   "answer": 0,
+   "options": [
+    "None",
+    "Exactly one",
+    "Exactly two",
+    "Infinitely many"
+   ]
+  },
+  {
+   "id": "q13a",
+   "label": "13a",
+   "section": "Reasoning",
+   "stem": "The point $(1.37, 1.74)$ lies on the line $y = 2x - 1$.",
+   "type": "expression",
+   "prompt": "Write the equation in $x$ that has the solution $x = 1.37$, using this point.",
+   "answer": "2x-1=1.74",
+   "hint": "Type the whole equation, for example 2x-1=3"
+  },
+  {
+   "id": "q13b",
+   "label": "13b",
+   "section": "Reasoning",
+   "stem": "The point $(1.37, 1.74)$ lies on the line $y = 2x - 1$.",
+   "type": "choice",
+   "prompt": "True or false: there are infinitely many equations that can be solved from points on a straight line.",
+   "answer": 0,
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "id": "q14a",
+   "label": "14a",
+   "section": "Enrichment",
+   "stem": "Use this graph of $y = x^2$ to solve these equations.",
+   "type": "list",
+   "prompt": "$x^2 = 1$",
+   "answer": [
+    "1",
+    "-1"
+   ],
+   "stemFigure": {
+    "kind": "diagram",
+    "items": [
+     {
+      "seg": [
+       -6,
+       0,
+       -6,
+       9
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       -5,
+       0,
+       -5,
+       9
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       -4,
+       0,
+       -4,
+       9
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       -3,
+       0,
+       -3,
+       9
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       -2,
+       0,
+       -2,
+       9
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       -1,
+       0,
+       -1,
+       9
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       9
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       1,
+       0,
+       1,
+       9
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       2,
+       0,
+       2,
+       9
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       3,
+       0,
+       3,
+       9
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       4,
+       0,
+       4,
+       9
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       5,
+       0,
+       5,
+       9
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       6,
+       0,
+       6,
+       9
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       -6,
+       0,
+       6,
+       0
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       -6,
+       1,
+       6,
+       1
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       -6,
+       2,
+       6,
+       2
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       -6,
+       3,
+       6,
+       3
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       -6,
+       4,
+       6,
+       4
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       -6,
+       5,
+       6,
+       5
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       -6,
+       6,
+       6,
+       6
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       -6,
+       7,
+       6,
+       7
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       -6,
+       8,
+       6,
+       8
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       -6,
+       9,
+       6,
+       9
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       -6,
+       0,
+       6.6,
+       0
+      ],
+      "arrow": "end"
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       9.6
+      ],
+      "arrow": "end"
+     },
+     {
+      "label": "x",
+      "at": [
+       6.95,
+       0
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       9.95
+      ]
+     },
+     {
+      "label": "-6",
+      "at": [
+       -6,
+       -0.5
+      ]
+     },
+     {
+      "label": "-5",
+      "at": [
+       -5,
+       -0.5
+      ]
+     },
+     {
+      "label": "-4",
+      "at": [
+       -4,
+       -0.5
+      ]
+     },
+     {
+      "label": "-3",
+      "at": [
+       -3,
+       -0.5
+      ]
+     },
+     {
+      "label": "-2",
+      "at": [
+       -2,
+       -0.5
+      ]
+     },
+     {
+      "label": "-1",
+      "at": [
+       -1,
+       -0.5
+      ]
+     },
+     {
+      "label": "1",
+      "at": [
+       1,
+       -0.5
+      ]
+     },
+     {
+      "label": "2",
+      "at": [
+       2,
+       -0.5
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       3,
+       -0.5
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       4,
+       -0.5
+      ]
+     },
+     {
+      "label": "5",
+      "at": [
+       5,
+       -0.5
+      ]
+     },
+     {
+      "label": "6",
+      "at": [
+       6,
+       -0.5
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       -0.2,
+       0.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "8",
+      "at": [
+       -0.2,
+       1.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "12",
+      "at": [
+       -0.2,
+       2.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "16",
+      "at": [
+       -0.2,
+       3.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "20",
+      "at": [
+       -0.2,
+       4.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "24",
+      "at": [
+       -0.2,
+       5.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "28",
+      "at": [
+       -0.2,
+       6.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "32",
+      "at": [
+       -0.2,
+       7.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "36",
+      "at": [
+       -0.2,
+       8.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.25,
+       -0.5
+      ],
+      "anchor": "end"
+     },
+     {
+      "poly": [
+       [
+        -6,
+        9
+       ],
+       [
+        -5.75,
+        8.2656
+       ],
+       [
+        -5.5,
+        7.5625
+       ],
+       [
+        -5.25,
+        6.8906
+       ],
+       [
+        -5,
+        6.25
+       ],
+       [
+        -4.75,
+        5.6406
+       ],
+       [
+        -4.5,
+        5.0625
+       ],
+       [
+        -4.25,
+        4.5156
+       ],
+       [
+        -4,
+        4
+       ],
+       [
+        -3.75,
+        3.5156
+       ],
+       [
+        -3.5,
+        3.0625
+       ],
+       [
+        -3.25,
+        2.6406
+       ],
+       [
+        -3,
+        2.25
+       ],
+       [
+        -2.75,
+        1.8906
+       ],
+       [
+        -2.5,
+        1.5625
+       ],
+       [
+        -2.25,
+        1.2656
+       ],
+       [
+        -2,
+        1
+       ],
+       [
+        -1.75,
+        0.7656
+       ],
+       [
+        -1.5,
+        0.5625
+       ],
+       [
+        -1.25,
+        0.3906
+       ],
+       [
+        -1,
+        0.25
+       ],
+       [
+        -0.75,
+        0.1406
+       ],
+       [
+        -0.5,
+        0.0625
+       ],
+       [
+        -0.25,
+        0.0156
+       ],
+       [
+        0,
+        0
+       ],
+       [
+        0.25,
+        0.0156
+       ],
+       [
+        0.5,
+        0.0625
+       ],
+       [
+        0.75,
+        0.1406
+       ],
+       [
+        1,
+        0.25
+       ],
+       [
+        1.25,
+        0.3906
+       ],
+       [
+        1.5,
+        0.5625
+       ],
+       [
+        1.75,
+        0.7656
+       ],
+       [
+        2,
+        1
+       ],
+       [
+        2.25,
+        1.2656
+       ],
+       [
+        2.5,
+        1.5625
+       ],
+       [
+        2.75,
+        1.8906
+       ],
+       [
+        3,
+        2.25
+       ],
+       [
+        3.25,
+        2.6406
+       ],
+       [
+        3.5,
+        3.0625
+       ],
+       [
+        3.75,
+        3.5156
+       ],
+       [
+        4,
+        4
+       ],
+       [
+        4.25,
+        4.5156
+       ],
+       [
+        4.5,
+        5.0625
+       ],
+       [
+        4.75,
+        5.6406
+       ],
+       [
+        5,
+        6.25
+       ],
+       [
+        5.25,
+        6.8906
+       ],
+       [
+        5.5,
+        7.5625
+       ],
+       [
+        5.75,
+        8.2656
+       ],
+       [
+        6,
+        9
+       ]
+      ],
+      "open": true
+     },
+     {
+      "label": "y = x²",
+      "at": [
+       3.3,
+       8.25
+      ],
+      "anchor": "end"
+     }
+    ]
+   },
+   "hint": "There are two answers. Separate them with a comma."
+  },
+  {
+   "id": "q14b",
+   "label": "14b",
+   "section": "Enrichment",
+   "stem": "Use this graph of $y = x^2$ to solve these equations.",
+   "type": "list",
+   "prompt": "$x^2 = 36$",
+   "answer": [
+    "6",
+    "-6"
+   ]
+  },
+  {
+   "id": "q14c",
+   "label": "14c",
+   "section": "Enrichment",
+   "stem": "Use this graph of $y = x^2$ to solve these equations.",
+   "type": "list",
+   "prompt": "$x^2 = 9$",
+   "answer": [
+    "3",
+    "-3"
+   ]
+  },
+  {
+   "id": "q14d",
+   "label": "14d",
+   "section": "Enrichment",
+   "stem": "Use graphing software to graph $y = x^2$ and solve these equations, rounding to $2$ decimal places.",
+   "type": "list",
+   "prompt": "$x^2 = 7$",
+   "answer": [
+    "2.65",
+    "-2.65"
+   ],
+   "dp": 2
+  },
+  {
+   "id": "q14e",
+   "label": "14e",
+   "section": "Enrichment",
+   "stem": "Use graphing software to graph $y = x^2$ and solve these equations, rounding to $2$ decimal places.",
+   "type": "list",
+   "prompt": "$x^2 = 3.6$",
+   "answer": [
+    "1.9",
+    "-1.9"
+   ],
+   "dp": 2
+  },
+  {
+   "id": "q14f",
+   "label": "14f",
+   "section": "Enrichment",
+   "stem": "Use graphing software to graph $y = x^2$ and solve these equations, rounding to $2$ decimal places.",
+   "type": "list",
+   "prompt": "$x^2 = 0.81$",
+   "answer": [
+    "0.9",
+    "-0.9"
+   ],
+   "dp": 2
+  },
+  {
+   "id": "q14g",
+   "label": "14g",
+   "section": "Enrichment",
+   "stem": "Use graphing software to graph $y = x^2$ and solve these equations, rounding to $2$ decimal places.",
+   "type": "list",
+   "prompt": "$x^2 = 14.25$",
+   "answer": [
+    "3.77",
+    "-3.77"
+   ],
+   "dp": 2
+  },
+  {
+   "id": "q14h",
+   "label": "14h",
+   "section": "Enrichment",
+   "stem": "Use graphing software to graph $y = x^2$ and solve these equations, rounding to $2$ decimal places.",
+   "type": "list",
+   "prompt": "$x^2 = 21.73$",
+   "answer": [
+    "4.66",
+    "-4.66"
+   ],
+   "dp": 2
+  },
+  {
+   "id": "q14i",
+   "label": "14i",
+   "section": "Enrichment",
+   "type": "choice",
+   "prompt": "How many solutions does $x^2 = -4$ have?",
+   "answer": 0,
+   "options": [
+    "None",
+    "One",
+    "Two"
+   ]
+  },
+  {
+   "id": "q14j",
+   "label": "14j",
+   "section": "Enrichment",
+   "stem": "Use graphing software to solve each equation by finding the $x$-values where the two graphs intersect. Round to $2$ decimal places where needed.",
+   "type": "list",
+   "prompt": "$x^2 = x + 6$",
+   "answer": [
+    "3",
+    "-2"
+   ]
+  },
+  {
+   "id": "q14k",
+   "label": "14k",
+   "section": "Enrichment",
+   "stem": "Use graphing software to solve each equation by finding the $x$-values where the two graphs intersect. Round to $2$ decimal places where needed.",
+   "type": "list",
+   "prompt": "$x^2 = 2x + 11$",
+   "answer": [
+    "4.46",
+    "-2.46"
+   ],
+   "dp": 2
+  },
+  {
+   "id": "q14l",
+   "label": "14l",
+   "section": "Enrichment",
+   "stem": "Use graphing software to solve each equation by finding the $x$-values where the two graphs intersect. Round to $2$ decimal places where needed.",
+   "type": "list",
+   "prompt": "$x^2 = 20 - 4x$",
+   "answer": [
+    "2.9",
+    "-6.9"
+   ],
+   "dp": 2
+  },
+  {
+   "id": "q14m",
+   "label": "14m",
+   "section": "Enrichment",
+   "stem": "Use graphing software to solve each equation by finding the $x$-values where the two graphs intersect. Round to $2$ decimal places where needed.",
+   "type": "choice",
+   "prompt": "How many solutions does $x^2 = 4x - 7$ have?",
+   "answer": 0,
+   "options": [
+    "None",
+    "One",
+    "Two"
+   ]
+  },
+  {
+   "id": "q14n",
+   "label": "14n",
+   "section": "Enrichment",
+   "stem": "Use graphing software to solve each equation by finding the $x$-values where the two graphs intersect. Round to $2$ decimal places where needed.",
+   "type": "numeric",
+   "prompt": "$x^2 = 10x - 25$ (this one has just one solution)",
+   "answer": "5"
+  }
+ ]
+},
+{
+ "id": "y8-9e",
+ "year": 8,
+ "chapter": "Chapter 9: Linear relationships",
+ "title": "9E Using graphs to solve linear inequalities",
+ "description": "Write rules for horizontal and vertical lines, describe regions with inequalities and solve inequalities using graphs.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Write the rule for each horizontal or vertical line.",
+   "type": "expression",
+   "prompt": "Line a",
+   "answer": "y=3",
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -5,
+     5
+    ],
+    "y": [
+     -5,
+     5
+    ],
+    "points": {
+     "(0, 3)": [
+      0,
+      3
+     ]
+    },
+    "path": [
+     [
+      -5,
+      3
+     ],
+     [
+      5,
+      3
+     ]
+    ]
+   },
+   "hint": "Type the rule, for example y=5 or x=-1"
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Write the rule for each horizontal or vertical line.",
+   "type": "expression",
+   "prompt": "Line b",
+   "answer": "y=-2",
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -5,
+     5
+    ],
+    "y": [
+     -5,
+     5
+    ],
+    "points": {
+     "(0, -2)": [
+      0,
+      -2
+     ]
+    },
+    "path": [
+     [
+      -5,
+      -2
+     ],
+     [
+      5,
+      -2
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "Write the rule for each horizontal or vertical line.",
+   "type": "expression",
+   "prompt": "Line c",
+   "answer": "y=-4",
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -5,
+     5
+    ],
+    "y": [
+     -5,
+     5
+    ],
+    "points": {
+     "(0, -4)": [
+      0,
+      -4
+     ]
+    },
+    "path": [
+     [
+      -5,
+      -4
+     ],
+     [
+      5,
+      -4
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "Write the rule for each horizontal or vertical line.",
+   "type": "expression",
+   "prompt": "Line d",
+   "answer": "x=-3",
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -5,
+     5
+    ],
+    "y": [
+     -5,
+     5
+    ],
+    "points": {
+     "(-3, 0)": [
+      -3,
+      0
+     ]
+    },
+    "path": [
+     [
+      -3,
+      -5
+     ],
+     [
+      -3,
+      5
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q1e",
+   "label": "1e",
+   "section": "Fluency",
+   "stem": "Write the rule for each horizontal or vertical line.",
+   "type": "expression",
+   "prompt": "Line e",
+   "answer": "x=2",
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -5,
+     5
+    ],
+    "y": [
+     -5,
+     5
+    ],
+    "points": {
+     "(2, 0)": [
+      2,
+      0
+     ]
+    },
+    "path": [
+     [
+      2,
+      -5
+     ],
+     [
+      2,
+      5
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q1f",
+   "label": "1f",
+   "section": "Fluency",
+   "stem": "Write the rule for each horizontal or vertical line.",
+   "type": "expression",
+   "prompt": "Line f",
+   "answer": "x=4",
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -5,
+     5
+    ],
+    "y": [
+     -5,
+     5
+    ],
+    "points": {
+     "(4, 0)": [
+      4,
+      0
+     ]
+    },
+    "path": [
+     [
+      4,
+      -5
+     ],
+     [
+      4,
+      5
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Each rule gives a horizontal or vertical line. State the coordinates of the point where the line crosses an axis.",
+   "type": "point",
+   "prompt": "$y = 3$",
+   "answer": "(0,3)",
+   "hint": "Type coordinates in brackets, for example (0,4)"
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Each rule gives a horizontal or vertical line. State the coordinates of the point where the line crosses an axis.",
+   "type": "point",
+   "prompt": "$y = -2$",
+   "answer": "(0,-2)"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Each rule gives a horizontal or vertical line. State the coordinates of the point where the line crosses an axis.",
+   "type": "point",
+   "prompt": "$y = -5$",
+   "answer": "(0,-5)"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Each rule gives a horizontal or vertical line. State the coordinates of the point where the line crosses an axis.",
+   "type": "point",
+   "prompt": "$y = 1$",
+   "answer": "(0,1)"
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Each rule gives a horizontal or vertical line. State the coordinates of the point where the line crosses an axis.",
+   "type": "point",
+   "prompt": "$x = -2$",
+   "answer": "(-2,0)"
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "Each rule gives a horizontal or vertical line. State the coordinates of the point where the line crosses an axis.",
+   "type": "point",
+   "prompt": "$x = 5$",
+   "answer": "(5,0)"
+  },
+  {
+   "id": "q2g",
+   "label": "2g",
+   "section": "Fluency",
+   "stem": "Each rule gives a horizontal or vertical line. State the coordinates of the point where the line crosses an axis.",
+   "type": "point",
+   "prompt": "$x = 2$",
+   "answer": "(2,0)"
+  },
+  {
+   "id": "q2h",
+   "label": "2h",
+   "section": "Fluency",
+   "stem": "Each rule gives a horizontal or vertical line. State the coordinates of the point where the line crosses an axis.",
+   "type": "point",
+   "prompt": "$x = -4$",
+   "answer": "(-4,0)"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "You are sketching each region on a number plane. How should the boundary line be drawn, and which side should be shaded?",
+   "type": "choice",
+   "prompt": "$y \\ge 2$",
+   "answer": 0,
+   "options": [
+    "Solid line, shade above it",
+    "Solid line, shade below it",
+    "Dashed line, shade above it",
+    "Dashed line, shade below it"
+   ]
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "You are sketching each region on a number plane. How should the boundary line be drawn, and which side should be shaded?",
+   "type": "choice",
+   "prompt": "$y > -3$",
+   "answer": 2,
+   "options": [
+    "Solid line, shade above it",
+    "Solid line, shade below it",
+    "Dashed line, shade above it",
+    "Dashed line, shade below it"
+   ]
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "You are sketching each region on a number plane. How should the boundary line be drawn, and which side should be shaded?",
+   "type": "choice",
+   "prompt": "$y < 1$",
+   "answer": 3,
+   "options": [
+    "Solid line, shade above it",
+    "Solid line, shade below it",
+    "Dashed line, shade above it",
+    "Dashed line, shade below it"
+   ]
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "You are sketching each region on a number plane. How should the boundary line be drawn, and which side should be shaded?",
+   "type": "choice",
+   "prompt": "$y \\le -2$",
+   "answer": 1,
+   "options": [
+    "Solid line, shade above it",
+    "Solid line, shade below it",
+    "Dashed line, shade above it",
+    "Dashed line, shade below it"
+   ]
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "You are sketching each region on a number plane. How should the boundary line be drawn, and which side should be shaded?",
+   "type": "choice",
+   "prompt": "$x < 3$",
+   "answer": 3,
+   "options": [
+    "Solid line, shade to the right",
+    "Solid line, shade to the left",
+    "Dashed line, shade to the right",
+    "Dashed line, shade to the left"
+   ]
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "You are sketching each region on a number plane. How should the boundary line be drawn, and which side should be shaded?",
+   "type": "choice",
+   "prompt": "$x \\le -1$",
+   "answer": 1,
+   "options": [
+    "Solid line, shade to the right",
+    "Solid line, shade to the left",
+    "Dashed line, shade to the right",
+    "Dashed line, shade to the left"
+   ]
+  },
+  {
+   "id": "q3g",
+   "label": "3g",
+   "section": "Fluency",
+   "stem": "You are sketching each region on a number plane. How should the boundary line be drawn, and which side should be shaded?",
+   "type": "choice",
+   "prompt": "$x \\ge 4$",
+   "answer": 0,
+   "options": [
+    "Solid line, shade to the right",
+    "Solid line, shade to the left",
+    "Dashed line, shade to the right",
+    "Dashed line, shade to the left"
+   ]
+  },
+  {
+   "id": "q3h",
+   "label": "3h",
+   "section": "Fluency",
+   "stem": "You are sketching each region on a number plane. How should the boundary line be drawn, and which side should be shaded?",
+   "type": "choice",
+   "prompt": "$x > -2$",
+   "answer": 2,
+   "options": [
+    "Solid line, shade to the right",
+    "Solid line, shade to the left",
+    "Dashed line, shade to the right",
+    "Dashed line, shade to the left"
+   ]
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "Write the inequality that matches each shaded region. A dashed line is not included in the region; a solid line is.",
+   "type": "inequality",
+   "prompt": "Region a",
+   "answer": "x<1",
+   "figure": {
+    "kind": "diagram",
+    "items": [
+     {
+      "seg": [
+       -5,
+       4.5,
+       -4.5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       4,
+       -4,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       3.5,
+       -3.5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       3,
+       -3,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       2.5,
+       -2.5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       2,
+       -2,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       1.5,
+       -1.5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       1,
+       -1,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       0.5,
+       -0.5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       0,
+       0,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -0.5,
+       0.5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -1,
+       1,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -1.5,
+       1,
+       4.5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -2,
+       1,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -2.5,
+       1,
+       3.5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -3,
+       1,
+       3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -3.5,
+       1,
+       2.5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -4,
+       1,
+       2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -4.5,
+       1,
+       1.5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -5,
+       1,
+       1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -4.5,
+       -5,
+       1,
+       0.5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -4,
+       -5,
+       1,
+       0
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -3.5,
+       -5,
+       1,
+       -0.5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -3,
+       -5,
+       1,
+       -1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -2.5,
+       -5,
+       1,
+       -1.5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -2,
+       -5,
+       1,
+       -2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1.5,
+       -5,
+       1,
+       -2.5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1,
+       -5,
+       1,
+       -3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -0.5,
+       -5,
+       1,
+       -3.5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       -5,
+       1,
+       -4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0.5,
+       -5,
+       1,
+       -4.5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -5,
+       -5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -4,
+       -5,
+       -4,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -3,
+       -5,
+       -3,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -2,
+       -5,
+       -2,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1,
+       -5,
+       -1,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       -5,
+       0,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       1,
+       -5,
+       1,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       2,
+       -5,
+       2,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       -5,
+       3,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       4,
+       -5,
+       4,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       5,
+       -5,
+       5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -5,
+       5,
+       -5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -4,
+       5,
+       -4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -3,
+       5,
+       -3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -2,
+       5,
+       -2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -1,
+       5,
+       -1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       0,
+       5,
+       0
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       1,
+       5,
+       1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       2,
+       5,
+       2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       3,
+       5,
+       3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       4,
+       5,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       5,
+       5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       0,
+       5.6,
+       0
+      ],
+      "arrow": "end"
+     },
+     {
+      "seg": [
+       0,
+       -5,
+       0,
+       5.6
+      ],
+      "arrow": "end"
+     },
+     {
+      "label": "x",
+      "at": [
+       5.95,
+       0
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       5.95
+      ]
+     },
+     {
+      "label": "-5",
+      "at": [
+       -5,
+       -0.5
+      ]
+     },
+     {
+      "label": "-4",
+      "at": [
+       -4,
+       -0.5
+      ]
+     },
+     {
+      "label": "-3",
+      "at": [
+       -3,
+       -0.5
+      ]
+     },
+     {
+      "label": "-2",
+      "at": [
+       -2,
+       -0.5
+      ]
+     },
+     {
+      "label": "-1",
+      "at": [
+       -1,
+       -0.5
+      ]
+     },
+     {
+      "label": "1",
+      "at": [
+       1,
+       -0.5
+      ]
+     },
+     {
+      "label": "2",
+      "at": [
+       2,
+       -0.5
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       3,
+       -0.5
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       4,
+       -0.5
+      ]
+     },
+     {
+      "label": "5",
+      "at": [
+       5,
+       -0.5
+      ]
+     },
+     {
+      "label": "-5",
+      "at": [
+       -0.2,
+       -5.05
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-4",
+      "at": [
+       -0.2,
+       -4.05
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-3",
+      "at": [
+       -0.2,
+       -3.05
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-2",
+      "at": [
+       -0.2,
+       -2.05
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-1",
+      "at": [
+       -0.2,
+       -1.05
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "1",
+      "at": [
+       -0.2,
+       0.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "2",
+      "at": [
+       -0.2,
+       1.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "3",
+      "at": [
+       -0.2,
+       2.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "4",
+      "at": [
+       -0.2,
+       3.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "5",
+      "at": [
+       -0.2,
+       4.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.25,
+       -0.5
+      ],
+      "anchor": "end"
+     },
+     {
+      "seg": [
+       1,
+       -5,
+       1,
+       5
+      ],
+      "dash": true
+     },
+     {
+      "point": [
+       1,
+       0
+      ],
+      "name": "(1, 0)",
+      "pos": "ne"
+     }
+    ]
+   },
+   "hint": "Type the inequality with < > <= or >=, for example x >= 2"
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "Write the inequality that matches each shaded region. A dashed line is not included in the region; a solid line is.",
+   "type": "inequality",
+   "prompt": "Region b",
+   "answer": "x>=-2",
+   "figure": {
+    "kind": "diagram",
+    "items": [
+     {
+      "seg": [
+       -2,
+       4.5,
+       -1.5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -2,
+       4,
+       -1,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -2,
+       3.5,
+       -0.5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -2,
+       3,
+       0,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -2,
+       2.5,
+       0.5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -2,
+       2,
+       1,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -2,
+       1.5,
+       1.5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -2,
+       1,
+       2,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -2,
+       0.5,
+       2.5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -2,
+       0,
+       3,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -2,
+       -0.5,
+       3.5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -2,
+       -1,
+       4,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -2,
+       -1.5,
+       4.5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -2,
+       -2,
+       5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -2,
+       -2.5,
+       5,
+       4.5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -2,
+       -3,
+       5,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -2,
+       -3.5,
+       5,
+       3.5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -2,
+       -4,
+       5,
+       3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -2,
+       -4.5,
+       5,
+       2.5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -2,
+       -5,
+       5,
+       2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1.5,
+       -5,
+       5,
+       1.5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1,
+       -5,
+       5,
+       1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -0.5,
+       -5,
+       5,
+       0.5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       -5,
+       5,
+       0
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0.5,
+       -5,
+       5,
+       -0.5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       1,
+       -5,
+       5,
+       -1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       1.5,
+       -5,
+       5,
+       -1.5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       2,
+       -5,
+       5,
+       -2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       2.5,
+       -5,
+       5,
+       -2.5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       -5,
+       5,
+       -3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3.5,
+       -5,
+       5,
+       -3.5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       4,
+       -5,
+       5,
+       -4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       4.5,
+       -5,
+       5,
+       -4.5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -5,
+       -5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -4,
+       -5,
+       -4,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -3,
+       -5,
+       -3,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -2,
+       -5,
+       -2,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1,
+       -5,
+       -1,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       -5,
+       0,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       1,
+       -5,
+       1,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       2,
+       -5,
+       2,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       -5,
+       3,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       4,
+       -5,
+       4,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       5,
+       -5,
+       5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -5,
+       5,
+       -5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -4,
+       5,
+       -4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -3,
+       5,
+       -3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -2,
+       5,
+       -2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -1,
+       5,
+       -1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       0,
+       5,
+       0
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       1,
+       5,
+       1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       2,
+       5,
+       2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       3,
+       5,
+       3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       4,
+       5,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       5,
+       5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       0,
+       5.6,
+       0
+      ],
+      "arrow": "end"
+     },
+     {
+      "seg": [
+       0,
+       -5,
+       0,
+       5.6
+      ],
+      "arrow": "end"
+     },
+     {
+      "label": "x",
+      "at": [
+       5.95,
+       0
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       5.95
+      ]
+     },
+     {
+      "label": "-5",
+      "at": [
+       -5,
+       -0.5
+      ]
+     },
+     {
+      "label": "-4",
+      "at": [
+       -4,
+       -0.5
+      ]
+     },
+     {
+      "label": "-3",
+      "at": [
+       -3,
+       -0.5
+      ]
+     },
+     {
+      "label": "-2",
+      "at": [
+       -2,
+       -0.5
+      ]
+     },
+     {
+      "label": "-1",
+      "at": [
+       -1,
+       -0.5
+      ]
+     },
+     {
+      "label": "1",
+      "at": [
+       1,
+       -0.5
+      ]
+     },
+     {
+      "label": "2",
+      "at": [
+       2,
+       -0.5
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       3,
+       -0.5
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       4,
+       -0.5
+      ]
+     },
+     {
+      "label": "5",
+      "at": [
+       5,
+       -0.5
+      ]
+     },
+     {
+      "label": "-5",
+      "at": [
+       -0.2,
+       -5.05
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-4",
+      "at": [
+       -0.2,
+       -4.05
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-3",
+      "at": [
+       -0.2,
+       -3.05
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-2",
+      "at": [
+       -0.2,
+       -2.05
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-1",
+      "at": [
+       -0.2,
+       -1.05
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "1",
+      "at": [
+       -0.2,
+       0.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "2",
+      "at": [
+       -0.2,
+       1.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "3",
+      "at": [
+       -0.2,
+       2.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "4",
+      "at": [
+       -0.2,
+       3.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "5",
+      "at": [
+       -0.2,
+       4.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.25,
+       -0.5
+      ],
+      "anchor": "end"
+     },
+     {
+      "seg": [
+       -2,
+       -5,
+       -2,
+       5
+      ]
+     },
+     {
+      "point": [
+       -2,
+       0
+      ],
+      "name": "(-2, 0)",
+      "pos": "nw"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "Write the inequality that matches each shaded region. A dashed line is not included in the region; a solid line is.",
+   "type": "inequality",
+   "prompt": "Region c",
+   "answer": "y<=4",
+   "figure": {
+    "kind": "diagram",
+    "items": [
+     {
+      "seg": [
+       -5,
+       3.5,
+       -4.5,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       3,
+       -4,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       2.5,
+       -3.5,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       2,
+       -3,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       1.5,
+       -2.5,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       1,
+       -2,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       0.5,
+       -1.5,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       0,
+       -1,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -0.5,
+       -0.5,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -1,
+       0,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -1.5,
+       0.5,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -2,
+       1,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -2.5,
+       1.5,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -3,
+       2,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -3.5,
+       2.5,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -4,
+       3,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -4.5,
+       3.5,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -5,
+       4,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -4.5,
+       -5,
+       4.5,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -4,
+       -5,
+       5,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -3.5,
+       -5,
+       5,
+       3.5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -3,
+       -5,
+       5,
+       3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -2.5,
+       -5,
+       5,
+       2.5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -2,
+       -5,
+       5,
+       2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1.5,
+       -5,
+       5,
+       1.5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1,
+       -5,
+       5,
+       1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -0.5,
+       -5,
+       5,
+       0.5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       -5,
+       5,
+       0
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0.5,
+       -5,
+       5,
+       -0.5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       1,
+       -5,
+       5,
+       -1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       1.5,
+       -5,
+       5,
+       -1.5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       2,
+       -5,
+       5,
+       -2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       2.5,
+       -5,
+       5,
+       -2.5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       -5,
+       5,
+       -3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3.5,
+       -5,
+       5,
+       -3.5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       4,
+       -5,
+       5,
+       -4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       4.5,
+       -5,
+       5,
+       -4.5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -5,
+       -5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -4,
+       -5,
+       -4,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -3,
+       -5,
+       -3,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -2,
+       -5,
+       -2,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1,
+       -5,
+       -1,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       -5,
+       0,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       1,
+       -5,
+       1,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       2,
+       -5,
+       2,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       -5,
+       3,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       4,
+       -5,
+       4,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       5,
+       -5,
+       5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -5,
+       5,
+       -5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -4,
+       5,
+       -4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -3,
+       5,
+       -3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -2,
+       5,
+       -2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -1,
+       5,
+       -1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       0,
+       5,
+       0
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       1,
+       5,
+       1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       2,
+       5,
+       2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       3,
+       5,
+       3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       4,
+       5,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       5,
+       5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       0,
+       5.6,
+       0
+      ],
+      "arrow": "end"
+     },
+     {
+      "seg": [
+       0,
+       -5,
+       0,
+       5.6
+      ],
+      "arrow": "end"
+     },
+     {
+      "label": "x",
+      "at": [
+       5.95,
+       0
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       5.95
+      ]
+     },
+     {
+      "label": "-5",
+      "at": [
+       -5,
+       -0.5
+      ]
+     },
+     {
+      "label": "-4",
+      "at": [
+       -4,
+       -0.5
+      ]
+     },
+     {
+      "label": "-3",
+      "at": [
+       -3,
+       -0.5
+      ]
+     },
+     {
+      "label": "-2",
+      "at": [
+       -2,
+       -0.5
+      ]
+     },
+     {
+      "label": "-1",
+      "at": [
+       -1,
+       -0.5
+      ]
+     },
+     {
+      "label": "1",
+      "at": [
+       1,
+       -0.5
+      ]
+     },
+     {
+      "label": "2",
+      "at": [
+       2,
+       -0.5
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       3,
+       -0.5
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       4,
+       -0.5
+      ]
+     },
+     {
+      "label": "5",
+      "at": [
+       5,
+       -0.5
+      ]
+     },
+     {
+      "label": "-5",
+      "at": [
+       -0.2,
+       -5.05
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-4",
+      "at": [
+       -0.2,
+       -4.05
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-3",
+      "at": [
+       -0.2,
+       -3.05
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-2",
+      "at": [
+       -0.2,
+       -2.05
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-1",
+      "at": [
+       -0.2,
+       -1.05
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "1",
+      "at": [
+       -0.2,
+       0.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "2",
+      "at": [
+       -0.2,
+       1.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "3",
+      "at": [
+       -0.2,
+       2.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "4",
+      "at": [
+       -0.2,
+       3.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "5",
+      "at": [
+       -0.2,
+       4.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.25,
+       -0.5
+      ],
+      "anchor": "end"
+     },
+     {
+      "seg": [
+       -5,
+       4,
+       5,
+       4
+      ]
+     },
+     {
+      "point": [
+       0,
+       4
+      ],
+      "name": "(0, 4)",
+      "pos": "ne"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "Write the inequality that matches each shaded region. A dashed line is not included in the region; a solid line is.",
+   "type": "inequality",
+   "prompt": "Region d",
+   "answer": "y>-3",
+   "figure": {
+    "kind": "diagram",
+    "items": [
+     {
+      "seg": [
+       -5,
+       4.5,
+       -4.5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       4,
+       -4,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       3.5,
+       -3.5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       3,
+       -3,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       2.5,
+       -2.5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       2,
+       -2,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       1.5,
+       -1.5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       1,
+       -1,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       0.5,
+       -0.5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       0,
+       0,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -0.5,
+       0.5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -1,
+       1,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -1.5,
+       1.5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -2,
+       2,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -2.5,
+       2.5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -3,
+       3,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -4.5,
+       -3,
+       3.5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -4,
+       -3,
+       4,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -3.5,
+       -3,
+       4.5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -3,
+       -3,
+       5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -2.5,
+       -3,
+       5,
+       4.5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -2,
+       -3,
+       5,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1.5,
+       -3,
+       5,
+       3.5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1,
+       -3,
+       5,
+       3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -0.5,
+       -3,
+       5,
+       2.5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       -3,
+       5,
+       2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0.5,
+       -3,
+       5,
+       1.5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       1,
+       -3,
+       5,
+       1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       1.5,
+       -3,
+       5,
+       0.5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       2,
+       -3,
+       5,
+       0
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       2.5,
+       -3,
+       5,
+       -0.5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       -3,
+       5,
+       -1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3.5,
+       -3,
+       5,
+       -1.5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       4,
+       -3,
+       5,
+       -2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       4.5,
+       -3,
+       5,
+       -2.5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -5,
+       -5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -4,
+       -5,
+       -4,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -3,
+       -5,
+       -3,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -2,
+       -5,
+       -2,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1,
+       -5,
+       -1,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       -5,
+       0,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       1,
+       -5,
+       1,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       2,
+       -5,
+       2,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       -5,
+       3,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       4,
+       -5,
+       4,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       5,
+       -5,
+       5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -5,
+       5,
+       -5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -4,
+       5,
+       -4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -3,
+       5,
+       -3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -2,
+       5,
+       -2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -1,
+       5,
+       -1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       0,
+       5,
+       0
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       1,
+       5,
+       1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       2,
+       5,
+       2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       3,
+       5,
+       3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       4,
+       5,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       5,
+       5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       0,
+       5.6,
+       0
+      ],
+      "arrow": "end"
+     },
+     {
+      "seg": [
+       0,
+       -5,
+       0,
+       5.6
+      ],
+      "arrow": "end"
+     },
+     {
+      "label": "x",
+      "at": [
+       5.95,
+       0
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       5.95
+      ]
+     },
+     {
+      "label": "-5",
+      "at": [
+       -5,
+       -0.5
+      ]
+     },
+     {
+      "label": "-4",
+      "at": [
+       -4,
+       -0.5
+      ]
+     },
+     {
+      "label": "-3",
+      "at": [
+       -3,
+       -0.5
+      ]
+     },
+     {
+      "label": "-2",
+      "at": [
+       -2,
+       -0.5
+      ]
+     },
+     {
+      "label": "-1",
+      "at": [
+       -1,
+       -0.5
+      ]
+     },
+     {
+      "label": "1",
+      "at": [
+       1,
+       -0.5
+      ]
+     },
+     {
+      "label": "2",
+      "at": [
+       2,
+       -0.5
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       3,
+       -0.5
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       4,
+       -0.5
+      ]
+     },
+     {
+      "label": "5",
+      "at": [
+       5,
+       -0.5
+      ]
+     },
+     {
+      "label": "-5",
+      "at": [
+       -0.2,
+       -5.05
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-4",
+      "at": [
+       -0.2,
+       -4.05
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-3",
+      "at": [
+       -0.2,
+       -3.05
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-2",
+      "at": [
+       -0.2,
+       -2.05
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-1",
+      "at": [
+       -0.2,
+       -1.05
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "1",
+      "at": [
+       -0.2,
+       0.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "2",
+      "at": [
+       -0.2,
+       1.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "3",
+      "at": [
+       -0.2,
+       2.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "4",
+      "at": [
+       -0.2,
+       3.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "5",
+      "at": [
+       -0.2,
+       4.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.25,
+       -0.5
+      ],
+      "anchor": "end"
+     },
+     {
+      "seg": [
+       -5,
+       -3,
+       5,
+       -3
+      ],
+      "dash": true
+     },
+     {
+      "point": [
+       0,
+       -3
+      ],
+      "name": "(0, -3)",
+      "pos": "se"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Fluency",
+   "stem": "Write the inequality that matches each shaded region. A dashed line is not included in the region; a solid line is.",
+   "type": "inequality",
+   "prompt": "Region e",
+   "answer": "x>3",
+   "figure": {
+    "kind": "diagram",
+    "items": [
+     {
+      "seg": [
+       3,
+       4.5,
+       3.5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       4,
+       4,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       3.5,
+       4.5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       3,
+       5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       2.5,
+       5,
+       4.5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       2,
+       5,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       1.5,
+       5,
+       3.5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       1,
+       5,
+       3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       0.5,
+       5,
+       2.5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       0,
+       5,
+       2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       -0.5,
+       5,
+       1.5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       -1,
+       5,
+       1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       -1.5,
+       5,
+       0.5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       -2,
+       5,
+       0
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       -2.5,
+       5,
+       -0.5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       -3,
+       5,
+       -1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       -3.5,
+       5,
+       -1.5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       -4,
+       5,
+       -2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       -4.5,
+       5,
+       -2.5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       -5,
+       5,
+       -3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3.5,
+       -5,
+       5,
+       -3.5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       4,
+       -5,
+       5,
+       -4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       4.5,
+       -5,
+       5,
+       -4.5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -5,
+       -5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -4,
+       -5,
+       -4,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -3,
+       -5,
+       -3,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -2,
+       -5,
+       -2,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1,
+       -5,
+       -1,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       -5,
+       0,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       1,
+       -5,
+       1,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       2,
+       -5,
+       2,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       -5,
+       3,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       4,
+       -5,
+       4,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       5,
+       -5,
+       5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -5,
+       5,
+       -5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -4,
+       5,
+       -4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -3,
+       5,
+       -3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -2,
+       5,
+       -2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -1,
+       5,
+       -1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       0,
+       5,
+       0
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       1,
+       5,
+       1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       2,
+       5,
+       2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       3,
+       5,
+       3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       4,
+       5,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       5,
+       5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       0,
+       5.6,
+       0
+      ],
+      "arrow": "end"
+     },
+     {
+      "seg": [
+       0,
+       -5,
+       0,
+       5.6
+      ],
+      "arrow": "end"
+     },
+     {
+      "label": "x",
+      "at": [
+       5.95,
+       0
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       5.95
+      ]
+     },
+     {
+      "label": "-5",
+      "at": [
+       -5,
+       -0.5
+      ]
+     },
+     {
+      "label": "-4",
+      "at": [
+       -4,
+       -0.5
+      ]
+     },
+     {
+      "label": "-3",
+      "at": [
+       -3,
+       -0.5
+      ]
+     },
+     {
+      "label": "-2",
+      "at": [
+       -2,
+       -0.5
+      ]
+     },
+     {
+      "label": "-1",
+      "at": [
+       -1,
+       -0.5
+      ]
+     },
+     {
+      "label": "1",
+      "at": [
+       1,
+       -0.5
+      ]
+     },
+     {
+      "label": "2",
+      "at": [
+       2,
+       -0.5
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       3,
+       -0.5
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       4,
+       -0.5
+      ]
+     },
+     {
+      "label": "5",
+      "at": [
+       5,
+       -0.5
+      ]
+     },
+     {
+      "label": "-5",
+      "at": [
+       -0.2,
+       -5.05
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-4",
+      "at": [
+       -0.2,
+       -4.05
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-3",
+      "at": [
+       -0.2,
+       -3.05
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-2",
+      "at": [
+       -0.2,
+       -2.05
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-1",
+      "at": [
+       -0.2,
+       -1.05
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "1",
+      "at": [
+       -0.2,
+       0.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "2",
+      "at": [
+       -0.2,
+       1.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "3",
+      "at": [
+       -0.2,
+       2.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "4",
+      "at": [
+       -0.2,
+       3.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "5",
+      "at": [
+       -0.2,
+       4.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.25,
+       -0.5
+      ],
+      "anchor": "end"
+     },
+     {
+      "seg": [
+       3,
+       -5,
+       3,
+       5
+      ],
+      "dash": true
+     },
+     {
+      "point": [
+       3,
+       0
+      ],
+      "name": "(3, 0)",
+      "pos": "ne"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Fluency",
+   "stem": "Write the inequality that matches each shaded region. A dashed line is not included in the region; a solid line is.",
+   "type": "inequality",
+   "prompt": "Region f",
+   "answer": "y>=2",
+   "figure": {
+    "kind": "diagram",
+    "items": [
+     {
+      "seg": [
+       -5,
+       4.5,
+       -4.5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       4,
+       -4,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       3.5,
+       -3.5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       3,
+       -3,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       2.5,
+       -2.5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       2,
+       -2,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -4.5,
+       2,
+       -1.5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -4,
+       2,
+       -1,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -3.5,
+       2,
+       -0.5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -3,
+       2,
+       0,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -2.5,
+       2,
+       0.5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -2,
+       2,
+       1,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1.5,
+       2,
+       1.5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1,
+       2,
+       2,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -0.5,
+       2,
+       2.5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       2,
+       3,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0.5,
+       2,
+       3.5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       1,
+       2,
+       4,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       1.5,
+       2,
+       4.5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       2,
+       2,
+       5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       2.5,
+       2,
+       5,
+       4.5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       2,
+       5,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3.5,
+       2,
+       5,
+       3.5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       4,
+       2,
+       5,
+       3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       4.5,
+       2,
+       5,
+       2.5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -5,
+       -5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -4,
+       -5,
+       -4,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -3,
+       -5,
+       -3,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -2,
+       -5,
+       -2,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1,
+       -5,
+       -1,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       -5,
+       0,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       1,
+       -5,
+       1,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       2,
+       -5,
+       2,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       -5,
+       3,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       4,
+       -5,
+       4,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       5,
+       -5,
+       5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -5,
+       5,
+       -5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -4,
+       5,
+       -4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -3,
+       5,
+       -3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -2,
+       5,
+       -2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -1,
+       5,
+       -1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       0,
+       5,
+       0
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       1,
+       5,
+       1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       2,
+       5,
+       2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       3,
+       5,
+       3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       4,
+       5,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       5,
+       5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       0,
+       5.6,
+       0
+      ],
+      "arrow": "end"
+     },
+     {
+      "seg": [
+       0,
+       -5,
+       0,
+       5.6
+      ],
+      "arrow": "end"
+     },
+     {
+      "label": "x",
+      "at": [
+       5.95,
+       0
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       5.95
+      ]
+     },
+     {
+      "label": "-5",
+      "at": [
+       -5,
+       -0.5
+      ]
+     },
+     {
+      "label": "-4",
+      "at": [
+       -4,
+       -0.5
+      ]
+     },
+     {
+      "label": "-3",
+      "at": [
+       -3,
+       -0.5
+      ]
+     },
+     {
+      "label": "-2",
+      "at": [
+       -2,
+       -0.5
+      ]
+     },
+     {
+      "label": "-1",
+      "at": [
+       -1,
+       -0.5
+      ]
+     },
+     {
+      "label": "1",
+      "at": [
+       1,
+       -0.5
+      ]
+     },
+     {
+      "label": "2",
+      "at": [
+       2,
+       -0.5
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       3,
+       -0.5
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       4,
+       -0.5
+      ]
+     },
+     {
+      "label": "5",
+      "at": [
+       5,
+       -0.5
+      ]
+     },
+     {
+      "label": "-5",
+      "at": [
+       -0.2,
+       -5.05
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-4",
+      "at": [
+       -0.2,
+       -4.05
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-3",
+      "at": [
+       -0.2,
+       -3.05
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-2",
+      "at": [
+       -0.2,
+       -2.05
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-1",
+      "at": [
+       -0.2,
+       -1.05
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "1",
+      "at": [
+       -0.2,
+       0.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "2",
+      "at": [
+       -0.2,
+       1.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "3",
+      "at": [
+       -0.2,
+       2.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "4",
+      "at": [
+       -0.2,
+       3.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "5",
+      "at": [
+       -0.2,
+       4.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.25,
+       -0.5
+      ],
+      "anchor": "end"
+     },
+     {
+      "seg": [
+       -5,
+       2,
+       5,
+       2
+      ]
+     },
+     {
+      "point": [
+       0,
+       2
+      ],
+      "name": "(0, 2)",
+      "pos": "ne"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Fluency",
+   "stem": "Use the point where the two graphs intersect to solve each equation.",
+   "type": "numeric",
+   "prompt": "$x + 1 = 4$",
+   "answer": "3",
+   "figure": {
+    "kind": "diagram",
+    "items": [
+     {
+      "seg": [
+       -5,
+       -5,
+       -5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -4,
+       -5,
+       -4,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -3,
+       -5,
+       -3,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -2,
+       -5,
+       -2,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1,
+       -5,
+       -1,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       -5,
+       0,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       1,
+       -5,
+       1,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       2,
+       -5,
+       2,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       -5,
+       3,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       4,
+       -5,
+       4,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       5,
+       -5,
+       5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -5,
+       5,
+       -5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -4,
+       5,
+       -4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -3,
+       5,
+       -3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -2,
+       5,
+       -2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -1,
+       5,
+       -1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       0,
+       5,
+       0
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       1,
+       5,
+       1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       2,
+       5,
+       2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       3,
+       5,
+       3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       4,
+       5,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       5,
+       5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       0,
+       5.6,
+       0
+      ],
+      "arrow": "end"
+     },
+     {
+      "seg": [
+       0,
+       -5,
+       0,
+       5.6
+      ],
+      "arrow": "end"
+     },
+     {
+      "label": "x",
+      "at": [
+       5.95,
+       0
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       5.95
+      ]
+     },
+     {
+      "label": "-5",
+      "at": [
+       -5,
+       -0.5
+      ]
+     },
+     {
+      "label": "-4",
+      "at": [
+       -4,
+       -0.5
+      ]
+     },
+     {
+      "label": "-3",
+      "at": [
+       -3,
+       -0.5
+      ]
+     },
+     {
+      "label": "-2",
+      "at": [
+       -2,
+       -0.5
+      ]
+     },
+     {
+      "label": "-1",
+      "at": [
+       -1,
+       -0.5
+      ]
+     },
+     {
+      "label": "1",
+      "at": [
+       1,
+       -0.5
+      ]
+     },
+     {
+      "label": "2",
+      "at": [
+       2,
+       -0.5
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       3,
+       -0.5
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       4,
+       -0.5
+      ]
+     },
+     {
+      "label": "5",
+      "at": [
+       5,
+       -0.5
+      ]
+     },
+     {
+      "label": "-5",
+      "at": [
+       -0.2,
+       -5.05
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-4",
+      "at": [
+       -0.2,
+       -4.05
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-3",
+      "at": [
+       -0.2,
+       -3.05
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-2",
+      "at": [
+       -0.2,
+       -2.05
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-1",
+      "at": [
+       -0.2,
+       -1.05
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "1",
+      "at": [
+       -0.2,
+       0.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "2",
+      "at": [
+       -0.2,
+       1.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "3",
+      "at": [
+       -0.2,
+       2.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "4",
+      "at": [
+       -0.2,
+       3.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "5",
+      "at": [
+       -0.2,
+       4.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.25,
+       -0.5
+      ],
+      "anchor": "end"
+     },
+     {
+      "seg": [
+       -5,
+       -4,
+       4,
+       5
+      ]
+     },
+     {
+      "label": "y = x + 1",
+      "at": [
+       1.6,
+       -2.2
+      ],
+      "anchor": "start"
+     },
+     {
+      "seg": [
+       -5,
+       4,
+       5,
+       4
+      ]
+     },
+     {
+      "label": "y = 4",
+      "at": [
+       5.2,
+       4.25
+      ],
+      "anchor": "start"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Fluency",
+   "stem": "Use the point where the two graphs intersect to solve each equation.",
+   "type": "numeric",
+   "prompt": "$-2x + 3 = -1$",
+   "answer": "2",
+   "figure": {
+    "kind": "diagram",
+    "items": [
+     {
+      "seg": [
+       -5,
+       -5,
+       -5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -4,
+       -5,
+       -4,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -3,
+       -5,
+       -3,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -2,
+       -5,
+       -2,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1,
+       -5,
+       -1,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       -5,
+       0,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       1,
+       -5,
+       1,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       2,
+       -5,
+       2,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       -5,
+       3,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       4,
+       -5,
+       4,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       5,
+       -5,
+       5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -5,
+       5,
+       -5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -4,
+       5,
+       -4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -3,
+       5,
+       -3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -2,
+       5,
+       -2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -1,
+       5,
+       -1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       0,
+       5,
+       0
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       1,
+       5,
+       1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       2,
+       5,
+       2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       3,
+       5,
+       3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       4,
+       5,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       5,
+       5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       0,
+       5.6,
+       0
+      ],
+      "arrow": "end"
+     },
+     {
+      "seg": [
+       0,
+       -5,
+       0,
+       5.6
+      ],
+      "arrow": "end"
+     },
+     {
+      "label": "x",
+      "at": [
+       5.95,
+       0
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       5.95
+      ]
+     },
+     {
+      "label": "-5",
+      "at": [
+       -5,
+       -0.5
+      ]
+     },
+     {
+      "label": "-4",
+      "at": [
+       -4,
+       -0.5
+      ]
+     },
+     {
+      "label": "-3",
+      "at": [
+       -3,
+       -0.5
+      ]
+     },
+     {
+      "label": "-2",
+      "at": [
+       -2,
+       -0.5
+      ]
+     },
+     {
+      "label": "-1",
+      "at": [
+       -1,
+       -0.5
+      ]
+     },
+     {
+      "label": "1",
+      "at": [
+       1,
+       -0.5
+      ]
+     },
+     {
+      "label": "2",
+      "at": [
+       2,
+       -0.5
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       3,
+       -0.5
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       4,
+       -0.5
+      ]
+     },
+     {
+      "label": "5",
+      "at": [
+       5,
+       -0.5
+      ]
+     },
+     {
+      "label": "-5",
+      "at": [
+       -0.2,
+       -5.05
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-4",
+      "at": [
+       -0.2,
+       -4.05
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-3",
+      "at": [
+       -0.2,
+       -3.05
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-2",
+      "at": [
+       -0.2,
+       -2.05
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-1",
+      "at": [
+       -0.2,
+       -1.05
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "1",
+      "at": [
+       -0.2,
+       0.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "2",
+      "at": [
+       -0.2,
+       1.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "3",
+      "at": [
+       -0.2,
+       2.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "4",
+      "at": [
+       -0.2,
+       3.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "5",
+      "at": [
+       -0.2,
+       4.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.25,
+       -0.5
+      ],
+      "anchor": "end"
+     },
+     {
+      "seg": [
+       -1,
+       5,
+       4,
+       -5
+      ]
+     },
+     {
+      "label": "y = -2x + 3",
+      "at": [
+       -4.8,
+       4.2
+      ],
+      "anchor": "start"
+     },
+     {
+      "seg": [
+       -5,
+       -1,
+       5,
+       -1
+      ]
+     },
+     {
+      "label": "y = -1",
+      "at": [
+       5.2,
+       -0.75
+      ],
+      "anchor": "start"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Fluency",
+   "stem": "Solve each inequality using the given graph.",
+   "type": "inequality",
+   "prompt": "Solve $2x + 3 \\le 5$ using the graph of $y = 2x + 3$.",
+   "answer": "x<=1",
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -6,
+     6
+    ],
+    "y": [
+     -6,
+     6
+    ],
+    "path": [
+     [
+      -4.5,
+      -6
+     ],
+     [
+      1.5,
+      6
+     ]
+    ]
+   },
+   "hint": "Type the inequality with < > <= or >=, for example x >= 2"
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Fluency",
+   "stem": "Solve each inequality using the given graph.",
+   "type": "inequality",
+   "prompt": "Solve $x + 3 \\le 1$ using the graph of $y = x + 3$.",
+   "answer": "x<=-2",
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -6,
+     6
+    ],
+    "y": [
+     -6,
+     6
+    ],
+    "path": [
+     [
+      -6,
+      -3
+     ],
+     [
+      3,
+      6
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Fluency",
+   "stem": "Solve each inequality using the given graph.",
+   "type": "inequality",
+   "prompt": "Solve $x - 2 \\ge 1$ using the graph of $y = x - 2$.",
+   "answer": "x>=3",
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -6,
+     6
+    ],
+    "y": [
+     -6,
+     6
+    ],
+    "path": [
+     [
+      -4,
+      -6
+     ],
+     [
+      6,
+      4
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Fluency",
+   "stem": "Solve each inequality using the given graph.",
+   "type": "inequality",
+   "prompt": "Solve $3x + 1 > 4$ using the graph of $y = 3x + 1$.",
+   "answer": "x>1",
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -6,
+     6
+    ],
+    "y": [
+     -6,
+     6
+    ],
+    "path": [
+     [
+      -2.3333,
+      -6
+     ],
+     [
+      1.6667,
+      6
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q6e",
+   "label": "6e",
+   "section": "Fluency",
+   "stem": "Solve each inequality using the given graph.",
+   "type": "inequality",
+   "prompt": "Solve $2x - 1 < -5$ using the graph of $y = 2x - 1$.",
+   "answer": "x<-2",
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -6,
+     6
+    ],
+    "y": [
+     -6,
+     6
+    ],
+    "path": [
+     [
+      -2.5,
+      -6
+     ],
+     [
+      3.5,
+      6
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q6f",
+   "label": "6f",
+   "section": "Fluency",
+   "stem": "Solve each inequality using the given graph.",
+   "type": "inequality",
+   "prompt": "Solve $4x + 3 > -5$ using the graph of $y = 4x + 3$.",
+   "answer": "x>-2",
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -6,
+     6
+    ],
+    "y": [
+     -6,
+     6
+    ],
+    "path": [
+     [
+      -2.25,
+      -6
+     ],
+     [
+      0.75,
+      6
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Fluency",
+   "stem": "Solve each inequality using the given graph.",
+   "type": "inequality",
+   "prompt": "Solve $-x + 3 \\ge 1$ using the graph of $y = -x + 3$.",
+   "answer": "x<=2",
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -6,
+     6
+    ],
+    "y": [
+     -6,
+     6
+    ],
+    "path": [
+     [
+      -3,
+      6
+     ],
+     [
+      6,
+      -3
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Fluency",
+   "stem": "Solve each inequality using the given graph.",
+   "type": "inequality",
+   "prompt": "Solve $-2x + 1 \\le -3$ using the graph of $y = -2x + 1$.",
+   "answer": "x>=2",
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -6,
+     6
+    ],
+    "y": [
+     -6,
+     6
+    ],
+    "path": [
+     [
+      -2.5,
+      6
+     ],
+     [
+      3.5,
+      -6
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Fluency",
+   "stem": "Solve each inequality using the given graph.",
+   "type": "inequality",
+   "prompt": "Solve $-3x + 1 \\ge 4$ using the graph of $y = -3x + 1$.",
+   "answer": "x<=-1",
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -6,
+     6
+    ],
+    "y": [
+     -6,
+     6
+    ],
+    "path": [
+     [
+      -1.6667,
+      6
+     ],
+     [
+      2.3333,
+      -6
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q7d",
+   "label": "7d",
+   "section": "Fluency",
+   "stem": "Solve each inequality using the given graph.",
+   "type": "inequality",
+   "prompt": "Solve $-x + 1 > -2$ using the graph of $y = -x + 1$.",
+   "answer": "x<3",
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -6,
+     6
+    ],
+    "y": [
+     -6,
+     6
+    ],
+    "path": [
+     [
+      -5,
+      6
+     ],
+     [
+      6,
+      -5
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q7e",
+   "label": "7e",
+   "section": "Fluency",
+   "stem": "Solve each inequality using the given graph.",
+   "type": "inequality",
+   "prompt": "Solve $-3x - 1 < -7$ using the graph of $y = -3x - 1$.",
+   "answer": "x>2",
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -6,
+     6
+    ],
+    "y": [
+     -6,
+     6
+    ],
+    "path": [
+     [
+      -2.3333,
+      6
+     ],
+     [
+      1.6667,
+      -6
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q7f",
+   "label": "7f",
+   "section": "Fluency",
+   "stem": "Solve each inequality using the given graph.",
+   "type": "inequality",
+   "prompt": "Solve $-2x + 4 < -2$ using the graph of $y = -2x + 4$.",
+   "answer": "x>3",
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -6,
+     6
+    ],
+    "y": [
+     -6,
+     6
+    ],
+    "path": [
+     [
+      -1,
+      6
+     ],
+     [
+      5,
+      -6
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Problem-solving",
+   "stem": "Match each rule with its graph, A to F.",
+   "type": "choice",
+   "prompt": "$x \\ge -3$",
+   "answer": 2,
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F"
+   ],
+   "stemFigure": [
+    {
+     "kind": "diagram",
+     "items": [
+      {
+       "seg": [
+        -5,
+        -1.5,
+        -4.5,
+        -1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -5,
+        -2,
+        -4,
+        -1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -5,
+        -2.5,
+        -3.5,
+        -1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -5,
+        -3,
+        -3,
+        -1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -5,
+        -3.5,
+        -2.5,
+        -1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -5,
+        -4,
+        -2,
+        -1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -5,
+        -4.5,
+        -1.5,
+        -1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -5,
+        -5,
+        -1,
+        -1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -4.5,
+        -5,
+        -0.5,
+        -1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -4,
+        -5,
+        0,
+        -1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3.5,
+        -5,
+        0.5,
+        -1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        -5,
+        1,
+        -1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2.5,
+        -5,
+        1.5,
+        -1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        -5,
+        2,
+        -1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -1.5,
+        -5,
+        2.5,
+        -1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -1,
+        -5,
+        3,
+        -1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -0.5,
+        -5,
+        3.5,
+        -1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        -5,
+        4,
+        -1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0.5,
+        -5,
+        4.5,
+        -1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        -5,
+        5,
+        -1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1.5,
+        -5,
+        5,
+        -1.5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        2,
+        -5,
+        5,
+        -2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        2.5,
+        -5,
+        5,
+        -2.5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        3,
+        -5,
+        5,
+        -3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        3.5,
+        -5,
+        5,
+        -3.5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        4,
+        -5,
+        5,
+        -4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        4.5,
+        -5,
+        5,
+        -4.5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -5,
+        0,
+        5.6,
+        0
+       ],
+       "arrow": "end"
+      },
+      {
+       "seg": [
+        0,
+        -5,
+        0,
+        5.6
+       ],
+       "arrow": "end"
+      },
+      {
+       "label": "x",
+       "at": [
+        5.95,
+        0
+       ]
+      },
+      {
+       "label": "y",
+       "at": [
+        0,
+        5.95
+       ]
+      },
+      {
+       "seg": [
+        -5,
+        -1,
+        5,
+        -1
+       ]
+      },
+      {
+       "point": [
+        0,
+        -1
+       ],
+       "name": "(0, -1)",
+       "pos": "se"
+      }
+     ],
+     "unit": 13,
+     "caption": "A"
+    },
+    {
+     "kind": "diagram",
+     "items": [
+      {
+       "seg": [
+        -5,
+        0,
+        5.6,
+        0
+       ],
+       "arrow": "end"
+      },
+      {
+       "seg": [
+        0,
+        -5,
+        0,
+        5.6
+       ],
+       "arrow": "end"
+      },
+      {
+       "label": "x",
+       "at": [
+        5.95,
+        0
+       ]
+      },
+      {
+       "label": "y",
+       "at": [
+        0,
+        5.95
+       ]
+      },
+      {
+       "seg": [
+        -5,
+        -1,
+        5,
+        -1
+       ]
+      },
+      {
+       "point": [
+        0,
+        -1
+       ],
+       "name": "(0, -1)",
+       "pos": "se"
+      }
+     ],
+     "unit": 13,
+     "caption": "B"
+    },
+    {
+     "kind": "diagram",
+     "items": [
+      {
+       "seg": [
+        -3,
+        4.5,
+        -2.5,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        4,
+        -2,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        3.5,
+        -1.5,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        3,
+        -1,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        2.5,
+        -0.5,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        2,
+        0,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        1.5,
+        0.5,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        1,
+        1,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        0.5,
+        1.5,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        0,
+        2,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        -0.5,
+        2.5,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        -1,
+        3,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        -1.5,
+        3.5,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        -2,
+        4,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        -2.5,
+        4.5,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        -3,
+        5,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        -3.5,
+        5,
+        4.5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        -4,
+        5,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        -4.5,
+        5,
+        3.5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        -5,
+        5,
+        3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2.5,
+        -5,
+        5,
+        2.5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        -5,
+        5,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -1.5,
+        -5,
+        5,
+        1.5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -1,
+        -5,
+        5,
+        1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -0.5,
+        -5,
+        5,
+        0.5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        -5,
+        5,
+        0
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0.5,
+        -5,
+        5,
+        -0.5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        -5,
+        5,
+        -1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1.5,
+        -5,
+        5,
+        -1.5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        2,
+        -5,
+        5,
+        -2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        2.5,
+        -5,
+        5,
+        -2.5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        3,
+        -5,
+        5,
+        -3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        3.5,
+        -5,
+        5,
+        -3.5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        4,
+        -5,
+        5,
+        -4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        4.5,
+        -5,
+        5,
+        -4.5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -5,
+        0,
+        5.6,
+        0
+       ],
+       "arrow": "end"
+      },
+      {
+       "seg": [
+        0,
+        -5,
+        0,
+        5.6
+       ],
+       "arrow": "end"
+      },
+      {
+       "label": "x",
+       "at": [
+        5.95,
+        0
+       ]
+      },
+      {
+       "label": "y",
+       "at": [
+        0,
+        5.95
+       ]
+      },
+      {
+       "seg": [
+        -3,
+        -5,
+        -3,
+        5
+       ]
+      },
+      {
+       "point": [
+        -3,
+        0
+       ],
+       "name": "(-3, 0)",
+       "pos": "nw"
+      }
+     ],
+     "unit": 13,
+     "caption": "C"
+    },
+    {
+     "kind": "diagram",
+     "items": [
+      {
+       "seg": [
+        -5,
+        0,
+        5.6,
+        0
+       ],
+       "arrow": "end"
+      },
+      {
+       "seg": [
+        0,
+        -5,
+        0,
+        5.6
+       ],
+       "arrow": "end"
+      },
+      {
+       "label": "x",
+       "at": [
+        5.95,
+        0
+       ]
+      },
+      {
+       "label": "y",
+       "at": [
+        0,
+        5.95
+       ]
+      },
+      {
+       "seg": [
+        -1,
+        -5,
+        -1,
+        5
+       ]
+      },
+      {
+       "point": [
+        -1,
+        0
+       ],
+       "name": "(-1, 0)",
+       "pos": "nw"
+      }
+     ],
+     "unit": 13,
+     "caption": "D"
+    },
+    {
+     "kind": "diagram",
+     "items": [
+      {
+       "seg": [
+        -5,
+        0,
+        5.6,
+        0
+       ],
+       "arrow": "end"
+      },
+      {
+       "seg": [
+        0,
+        -5,
+        0,
+        5.6
+       ],
+       "arrow": "end"
+      },
+      {
+       "label": "x",
+       "at": [
+        5.95,
+        0
+       ]
+      },
+      {
+       "label": "y",
+       "at": [
+        0,
+        5.95
+       ]
+      },
+      {
+       "seg": [
+        3,
+        -5,
+        3,
+        5
+       ]
+      },
+      {
+       "point": [
+        3,
+        0
+       ],
+       "name": "(3, 0)",
+       "pos": "ne"
+      }
+     ],
+     "unit": 13,
+     "caption": "E"
+    },
+    {
+     "kind": "diagram",
+     "items": [
+      {
+       "seg": [
+        -5,
+        1.5,
+        -4.5,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -5,
+        1,
+        -4,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -5,
+        0.5,
+        -3.5,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -5,
+        0,
+        -3,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -5,
+        -0.5,
+        -2.5,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -5,
+        -1,
+        -2,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -5,
+        -1.5,
+        -1.5,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -5,
+        -2,
+        -1,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -5,
+        -2.5,
+        -0.5,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -5,
+        -3,
+        0,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -5,
+        -3.5,
+        0.5,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -5,
+        -4,
+        1,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -5,
+        -4.5,
+        1.5,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -5,
+        -5,
+        2,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -4.5,
+        -5,
+        2.5,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -4,
+        -5,
+        3,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3.5,
+        -5,
+        3.5,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        -5,
+        4,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2.5,
+        -5,
+        4.5,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        -5,
+        5,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -1.5,
+        -5,
+        5,
+        1.5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -1,
+        -5,
+        5,
+        1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -0.5,
+        -5,
+        5,
+        0.5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        -5,
+        5,
+        0
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0.5,
+        -5,
+        5,
+        -0.5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        -5,
+        5,
+        -1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1.5,
+        -5,
+        5,
+        -1.5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        2,
+        -5,
+        5,
+        -2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        2.5,
+        -5,
+        5,
+        -2.5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        3,
+        -5,
+        5,
+        -3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        3.5,
+        -5,
+        5,
+        -3.5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        4,
+        -5,
+        5,
+        -4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        4.5,
+        -5,
+        5,
+        -4.5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -5,
+        0,
+        5.6,
+        0
+       ],
+       "arrow": "end"
+      },
+      {
+       "seg": [
+        0,
+        -5,
+        0,
+        5.6
+       ],
+       "arrow": "end"
+      },
+      {
+       "label": "x",
+       "at": [
+        5.95,
+        0
+       ]
+      },
+      {
+       "label": "y",
+       "at": [
+        0,
+        5.95
+       ]
+      },
+      {
+       "seg": [
+        -5,
+        2,
+        5,
+        2
+       ],
+       "dash": true
+      },
+      {
+       "point": [
+        0,
+        2
+       ],
+       "name": "(0, 2)",
+       "pos": "ne"
+      }
+     ],
+     "unit": 13,
+     "caption": "F"
+    }
+   ]
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Problem-solving",
+   "stem": "Match each rule with its graph, A to F.",
+   "type": "choice",
+   "prompt": "$y < 2$",
+   "answer": 5,
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F"
+   ]
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Problem-solving",
+   "stem": "Match each rule with its graph, A to F.",
+   "type": "choice",
+   "prompt": "$x = 3$",
+   "answer": 4,
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F"
+   ]
+  },
+  {
+   "id": "q8d",
+   "label": "8d",
+   "section": "Problem-solving",
+   "stem": "Match each rule with its graph, A to F.",
+   "type": "choice",
+   "prompt": "$x = -1$",
+   "answer": 3,
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F"
+   ]
+  },
+  {
+   "id": "q8e",
+   "label": "8e",
+   "section": "Problem-solving",
+   "stem": "Match each rule with its graph, A to F.",
+   "type": "choice",
+   "prompt": "$y = -1$",
+   "answer": 1,
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F"
+   ]
+  },
+  {
+   "id": "q8f",
+   "label": "8f",
+   "section": "Problem-solving",
+   "stem": "Match each rule with its graph, A to F.",
+   "type": "choice",
+   "prompt": "$y \\le -1$",
+   "answer": 0,
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F"
+   ]
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Problem-solving",
+   "stem": "Use the graph of $y = -2x + 4$ to solve these equations and inequalities.",
+   "type": "numeric",
+   "prompt": "$-2x + 4 = 6$",
+   "answer": "-1",
+   "stemFigure": {
+    "kind": "plane",
+    "x": [
+     -5,
+     5
+    ],
+    "y": [
+     -5,
+     5
+    ],
+    "path": [
+     [
+      -0.5,
+      5
+     ],
+     [
+      4.5,
+      -5
+     ]
+    ],
+    "points": {
+     "(0, 4)": [
+      0,
+      4
+     ]
+    }
+   }
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Problem-solving",
+   "stem": "Use the graph of $y = -2x + 4$ to solve these equations and inequalities.",
+   "type": "numeric",
+   "prompt": "$-2x + 4 = -2$",
+   "answer": "3"
+  },
+  {
+   "id": "q9c",
+   "label": "9c",
+   "section": "Problem-solving",
+   "stem": "Use the graph of $y = -2x + 4$ to solve these equations and inequalities.",
+   "type": "numeric",
+   "prompt": "$-2x + 4 = 0$",
+   "answer": "2"
+  },
+  {
+   "id": "q9d",
+   "label": "9d",
+   "section": "Problem-solving",
+   "stem": "Use the graph of $y = -2x + 4$ to solve these equations and inequalities.",
+   "type": "inequality",
+   "prompt": "$-2x + 4 < 0$",
+   "answer": "x>2",
+   "hint": "Type the inequality with < > <= or >=, for example x >= 2"
+  },
+  {
+   "id": "q9e",
+   "label": "9e",
+   "section": "Problem-solving",
+   "stem": "Use the graph of $y = -2x + 4$ to solve these equations and inequalities.",
+   "type": "inequality",
+   "prompt": "$-2x + 4 \\ge 0$",
+   "answer": "x<=2"
+  },
+  {
+   "id": "q9f",
+   "label": "9f",
+   "section": "Problem-solving",
+   "stem": "Use the graph of $y = -2x + 4$ to solve these equations and inequalities.",
+   "type": "inequality",
+   "prompt": "$-2x + 4 \\ge 2$",
+   "answer": "x<=1"
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Problem-solving",
+   "stem": "Is the point $(-2, 3)$ on the given line or inside the given region?",
+   "type": "choice",
+   "prompt": "$y = 3$",
+   "answer": 0,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Problem-solving",
+   "stem": "Is the point $(-2, 3)$ on the given line or inside the given region?",
+   "type": "choice",
+   "prompt": "$y > 3$",
+   "answer": 1,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q10c",
+   "label": "10c",
+   "section": "Problem-solving",
+   "stem": "Is the point $(-2, 3)$ on the given line or inside the given region?",
+   "type": "choice",
+   "prompt": "$x = 2$",
+   "answer": 1,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q10d",
+   "label": "10d",
+   "section": "Problem-solving",
+   "stem": "Is the point $(-2, 3)$ on the given line or inside the given region?",
+   "type": "choice",
+   "prompt": "$x = -2$",
+   "answer": 0,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q10e",
+   "label": "10e",
+   "section": "Problem-solving",
+   "stem": "Is the point $(-2, 3)$ on the given line or inside the given region?",
+   "type": "choice",
+   "prompt": "$x = 3$",
+   "answer": 1,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q10f",
+   "label": "10f",
+   "section": "Problem-solving",
+   "stem": "Is the point $(-2, 3)$ on the given line or inside the given region?",
+   "type": "choice",
+   "prompt": "$x \\le -2$",
+   "answer": 0,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q10g",
+   "label": "10g",
+   "section": "Problem-solving",
+   "stem": "Is the point $(-2, 3)$ on the given line or inside the given region?",
+   "type": "choice",
+   "prompt": "$x > -2$",
+   "answer": 1,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q10h",
+   "label": "10h",
+   "section": "Problem-solving",
+   "stem": "Is the point $(-2, 3)$ on the given line or inside the given region?",
+   "type": "choice",
+   "prompt": "$y \\le 3$",
+   "answer": 0,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q10i",
+   "label": "10i",
+   "section": "Problem-solving",
+   "stem": "Is the point $(-2, 3)$ on the given line or inside the given region?",
+   "type": "choice",
+   "prompt": "$y < -1$",
+   "answer": 1,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q10j",
+   "label": "10j",
+   "section": "Problem-solving",
+   "stem": "Is the point $(-2, 3)$ on the given line or inside the given region?",
+   "type": "choice",
+   "prompt": "$y < 5$",
+   "answer": 0,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q10k",
+   "label": "10k",
+   "section": "Problem-solving",
+   "stem": "Is the point $(-2, 3)$ on the given line or inside the given region?",
+   "type": "choice",
+   "prompt": "$x > -4$",
+   "answer": 0,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q10l",
+   "label": "10l",
+   "section": "Problem-solving",
+   "stem": "Is the point $(-2, 3)$ on the given line or inside the given region?",
+   "type": "choice",
+   "prompt": "$y \\ge -6$",
+   "answer": 0,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Problem-solving",
+   "stem": "Find the area of the rectangle enclosed by each set of lines.",
+   "type": "numeric",
+   "prompt": "$x = 6$, $x = 1$, $y = 3$, $y = 7$",
+   "answer": "20",
+   "units": "square units"
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Problem-solving",
+   "stem": "Find the area of the rectangle enclosed by each set of lines.",
+   "type": "numeric",
+   "prompt": "$x = 4$, $x = -2$, $y = -3$, $y = 2$",
+   "answer": "30",
+   "units": "square units"
+  },
+  {
+   "id": "q12a",
+   "label": "12a",
+   "section": "Reasoning",
+   "type": "expression",
+   "prompt": "What is the rule for the $x$-axis?",
+   "answer": "y=0",
+   "hint": "Type the rule, for example y=5 or x=-1"
+  },
+  {
+   "id": "q12b",
+   "label": "12b",
+   "section": "Reasoning",
+   "type": "expression",
+   "prompt": "What is the rule for the $y$-axis?",
+   "answer": "x=0"
+  },
+  {
+   "id": "q13a",
+   "label": "13a",
+   "section": "Reasoning",
+   "stem": "To solve $2x + 4 \\ge 0$ with the graph of $y = 2x + 4$, choose the $x$-values of the points on the line that are also in the region $y \\ge 0$. So the solution is $x \\ge -2$. Use the given graphs to solve these inequalities.",
+   "type": "inequality",
+   "prompt": "Solve $x + 3 \\ge 0$ using the graph of $y = x + 3$.",
+   "answer": "x>=-3",
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -5,
+     5
+    ],
+    "y": [
+     -5,
+     5
+    ],
+    "path": [
+     [
+      -5,
+      -2
+     ],
+     [
+      2,
+      5
+     ]
+    ]
+   },
+   "hint": "Type the inequality with < > <= or >=, for example x >= 2"
+  },
+  {
+   "id": "q13b",
+   "label": "13b",
+   "section": "Reasoning",
+   "stem": "To solve $2x + 4 \\ge 0$ with the graph of $y = 2x + 4$, choose the $x$-values of the points on the line that are also in the region $y \\ge 0$. So the solution is $x \\ge -2$. Use the given graphs to solve these inequalities.",
+   "type": "inequality",
+   "prompt": "Solve $-2x + 5 > 0$ using the graph of $y = -2x + 5$.",
+   "answer": "x<2.5",
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -5,
+     5
+    ],
+    "y": [
+     -5,
+     5
+    ],
+    "path": [
+     [
+      0,
+      5
+     ],
+     [
+      5,
+      -5
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q14a",
+   "label": "14a",
+   "section": "Reasoning",
+   "stem": "A rectangular region can be described by four inequalities, for example $x \\ge 1$, $x \\le 4$, $y \\ge 1$ and $y \\le 5$. Which four inequalities describe each shaded rectangle?",
+   "type": "choice",
+   "prompt": "Rectangle a",
+   "answer": 1,
+   "options": [
+    "x ≥ 1, x ≤ 5, y ≥ 2, y ≤ 3",
+    "x ≥ 1, x ≤ 3, y ≥ 2, y ≤ 5",
+    "x ≥ 2, x ≤ 5, y ≥ 1, y ≤ 3",
+    "x ≥ 3, x ≤ 1, y ≥ 5, y ≤ 2"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "items": [
+     {
+      "poly": [
+       [
+        1,
+        2
+       ],
+       [
+        3,
+        2
+       ],
+       [
+        3,
+        5
+       ],
+       [
+        1,
+        5
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       1,
+       0,
+       1,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       2,
+       0,
+       2,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       0,
+       3,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       4,
+       0,
+       4,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       5,
+       0,
+       5,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       6,
+       0,
+       6,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       0,
+       6,
+       0
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       1,
+       6,
+       1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       2,
+       6,
+       2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       3,
+       6,
+       3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       4,
+       6,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       5,
+       6,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       6,
+       6,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       0,
+       6.6,
+       0
+      ],
+      "arrow": "end"
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       6.6
+      ],
+      "arrow": "end"
+     },
+     {
+      "label": "x",
+      "at": [
+       6.95,
+       0
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       6.95
+      ]
+     },
+     {
+      "label": "1",
+      "at": [
+       1,
+       -0.5
+      ]
+     },
+     {
+      "label": "2",
+      "at": [
+       2,
+       -0.5
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       3,
+       -0.5
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       4,
+       -0.5
+      ]
+     },
+     {
+      "label": "5",
+      "at": [
+       5,
+       -0.5
+      ]
+     },
+     {
+      "label": "6",
+      "at": [
+       6,
+       -0.5
+      ]
+     },
+     {
+      "label": "1",
+      "at": [
+       -0.2,
+       0.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "2",
+      "at": [
+       -0.2,
+       1.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "3",
+      "at": [
+       -0.2,
+       2.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "4",
+      "at": [
+       -0.2,
+       3.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "5",
+      "at": [
+       -0.2,
+       4.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "6",
+      "at": [
+       -0.2,
+       5.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.25,
+       -0.5
+      ],
+      "anchor": "end"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q14b",
+   "label": "14b",
+   "section": "Reasoning",
+   "stem": "A rectangular region can be described by four inequalities, for example $x \\ge 1$, $x \\le 4$, $y \\ge 1$ and $y \\le 5$. Which four inequalities describe each shaded rectangle?",
+   "type": "choice",
+   "prompt": "Rectangle b",
+   "answer": 3,
+   "options": [
+    "x ≥ -3, x ≤ -1, y ≥ -4, y ≤ 1",
+    "x ≥ 1, x ≤ -4, y ≥ -1, y ≤ -3",
+    "x ≥ -4, x ≤ -1, y ≥ -3, y ≤ 1",
+    "x ≥ -4, x ≤ 1, y ≥ -3, y ≤ -1"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "items": [
+     {
+      "poly": [
+       [
+        -4,
+        -3
+       ],
+       [
+        1,
+        -3
+       ],
+       [
+        1,
+        -1
+       ],
+       [
+        -4,
+        -1
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       -5,
+       -5,
+       -5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -4,
+       -5,
+       -4,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -3,
+       -5,
+       -3,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -2,
+       -5,
+       -2,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1,
+       -5,
+       -1,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       -5,
+       0,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       1,
+       -5,
+       1,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       2,
+       -5,
+       2,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       -5,
+       3,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       4,
+       -5,
+       4,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       5,
+       -5,
+       5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -5,
+       5,
+       -5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -4,
+       5,
+       -4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -3,
+       5,
+       -3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -2,
+       5,
+       -2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -1,
+       5,
+       -1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       0,
+       5,
+       0
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       1,
+       5,
+       1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       2,
+       5,
+       2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       3,
+       5,
+       3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       4,
+       5,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       5,
+       5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       0,
+       5.6,
+       0
+      ],
+      "arrow": "end"
+     },
+     {
+      "seg": [
+       0,
+       -5,
+       0,
+       5.6
+      ],
+      "arrow": "end"
+     },
+     {
+      "label": "x",
+      "at": [
+       5.95,
+       0
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       5.95
+      ]
+     },
+     {
+      "label": "-5",
+      "at": [
+       -5,
+       -0.5
+      ]
+     },
+     {
+      "label": "-4",
+      "at": [
+       -4,
+       -0.5
+      ]
+     },
+     {
+      "label": "-3",
+      "at": [
+       -3,
+       -0.5
+      ]
+     },
+     {
+      "label": "-2",
+      "at": [
+       -2,
+       -0.5
+      ]
+     },
+     {
+      "label": "-1",
+      "at": [
+       -1,
+       -0.5
+      ]
+     },
+     {
+      "label": "1",
+      "at": [
+       1,
+       -0.5
+      ]
+     },
+     {
+      "label": "2",
+      "at": [
+       2,
+       -0.5
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       3,
+       -0.5
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       4,
+       -0.5
+      ]
+     },
+     {
+      "label": "5",
+      "at": [
+       5,
+       -0.5
+      ]
+     },
+     {
+      "label": "-5",
+      "at": [
+       -0.2,
+       -5.05
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-4",
+      "at": [
+       -0.2,
+       -4.05
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-3",
+      "at": [
+       -0.2,
+       -3.05
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-2",
+      "at": [
+       -0.2,
+       -2.05
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-1",
+      "at": [
+       -0.2,
+       -1.05
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "1",
+      "at": [
+       -0.2,
+       0.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "2",
+      "at": [
+       -0.2,
+       1.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "3",
+      "at": [
+       -0.2,
+       2.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "4",
+      "at": [
+       -0.2,
+       3.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "5",
+      "at": [
+       -0.2,
+       4.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.25,
+       -0.5
+      ],
+      "anchor": "end"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q15a",
+   "label": "15a",
+   "section": "Enrichment",
+   "stem": "You are sketching each half plane. How should the boundary line be drawn, and which side should be shaded?",
+   "type": "choice",
+   "prompt": "$y \\ge -x$",
+   "answer": 0,
+   "options": [
+    "Solid line, shade above it",
+    "Solid line, shade below it",
+    "Dashed line, shade above it",
+    "Dashed line, shade below it"
+   ]
+  },
+  {
+   "id": "q15b",
+   "label": "15b",
+   "section": "Enrichment",
+   "stem": "You are sketching each half plane. How should the boundary line be drawn, and which side should be shaded?",
+   "type": "choice",
+   "prompt": "$y < x$",
+   "answer": 3,
+   "options": [
+    "Solid line, shade above it",
+    "Solid line, shade below it",
+    "Dashed line, shade above it",
+    "Dashed line, shade below it"
+   ]
+  },
+  {
+   "id": "q15c",
+   "label": "15c",
+   "section": "Enrichment",
+   "stem": "You are sketching each half plane. How should the boundary line be drawn, and which side should be shaded?",
+   "type": "choice",
+   "prompt": "$y > 3x$",
+   "answer": 2,
+   "options": [
+    "Solid line, shade above it",
+    "Solid line, shade below it",
+    "Dashed line, shade above it",
+    "Dashed line, shade below it"
+   ]
+  },
+  {
+   "id": "q15d",
+   "label": "15d",
+   "section": "Enrichment",
+   "stem": "You are sketching each half plane. How should the boundary line be drawn, and which side should be shaded?",
+   "type": "choice",
+   "prompt": "$y \\le -2x$",
+   "answer": 1,
+   "options": [
+    "Solid line, shade above it",
+    "Solid line, shade below it",
+    "Dashed line, shade above it",
+    "Dashed line, shade below it"
+   ]
+  },
+  {
+   "id": "q15e",
+   "label": "15e",
+   "section": "Enrichment",
+   "stem": "You are sketching each half plane. How should the boundary line be drawn, and which side should be shaded?",
+   "type": "choice",
+   "prompt": "$y \\ge x - 1$",
+   "answer": 0,
+   "options": [
+    "Solid line, shade above it",
+    "Solid line, shade below it",
+    "Dashed line, shade above it",
+    "Dashed line, shade below it"
+   ]
+  },
+  {
+   "id": "q15f",
+   "label": "15f",
+   "section": "Enrichment",
+   "stem": "You are sketching each half plane. How should the boundary line be drawn, and which side should be shaded?",
+   "type": "choice",
+   "prompt": "$y < x + 2$",
+   "answer": 3,
+   "options": [
+    "Solid line, shade above it",
+    "Solid line, shade below it",
+    "Dashed line, shade above it",
+    "Dashed line, shade below it"
+   ]
+  }
+ ]
+},
+{
+ "id": "y8-9f",
+ "year": 8,
+ "chapter": "Chapter 9: Linear relationships",
+ "title": "9F The x- and y-intercepts",
+ "description": "Find the x- and y-intercepts of straight lines and use them in area and real-life problems.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "For the graph of $y = 4x - 20$, find the:",
+   "type": "point",
+   "prompt": "$x$-intercept",
+   "answer": "(5,0)",
+   "hint": "Type a point as (x, y), for example (3, 0) or (0, -5/2)."
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "For the graph of $y = 4x - 20$, find the:",
+   "type": "point",
+   "prompt": "$y$-intercept",
+   "answer": "(0,-20)"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Find the $x$- and $y$-intercepts for the graph of each rule.",
+   "type": "point",
+   "prompt": "$y = x - 3$: the $x$-intercept",
+   "answer": "(3,0)",
+   "hint": "Type a point as (x, y), for example (3, 0) or (0, -5/2)."
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Find the $x$- and $y$-intercepts for the graph of each rule.",
+   "type": "point",
+   "prompt": "$y = x - 3$: the $y$-intercept",
+   "answer": "(0,-3)"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Find the $x$- and $y$-intercepts for the graph of each rule.",
+   "type": "point",
+   "prompt": "$y = x - 5$: the $x$-intercept",
+   "answer": "(5,0)"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Find the $x$- and $y$-intercepts for the graph of each rule.",
+   "type": "point",
+   "prompt": "$y = x - 5$: the $y$-intercept",
+   "answer": "(0,-5)"
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Find the $x$- and $y$-intercepts for the graph of each rule.",
+   "type": "point",
+   "prompt": "$y = x + 4$: the $x$-intercept",
+   "answer": "(-4,0)"
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "Find the $x$- and $y$-intercepts for the graph of each rule.",
+   "type": "point",
+   "prompt": "$y = x + 4$: the $y$-intercept",
+   "answer": "(0,4)"
+  },
+  {
+   "id": "q2g",
+   "label": "2g",
+   "section": "Fluency",
+   "stem": "Find the $x$- and $y$-intercepts for the graph of each rule.",
+   "type": "point",
+   "prompt": "$y = 2x - 6$: the $x$-intercept",
+   "answer": "(3,0)"
+  },
+  {
+   "id": "q2h",
+   "label": "2h",
+   "section": "Fluency",
+   "stem": "Find the $x$- and $y$-intercepts for the graph of each rule.",
+   "type": "point",
+   "prompt": "$y = 2x - 6$: the $y$-intercept",
+   "answer": "(0,-6)"
+  },
+  {
+   "id": "q2i",
+   "label": "2i",
+   "section": "Fluency",
+   "stem": "Find the $x$- and $y$-intercepts for the graph of each rule.",
+   "type": "point",
+   "prompt": "$y = 5x - 10$: the $x$-intercept",
+   "answer": "(2,0)"
+  },
+  {
+   "id": "q2j",
+   "label": "2j",
+   "section": "Fluency",
+   "stem": "Find the $x$- and $y$-intercepts for the graph of each rule.",
+   "type": "point",
+   "prompt": "$y = 5x - 10$: the $y$-intercept",
+   "answer": "(0,-10)"
+  },
+  {
+   "id": "q2k",
+   "label": "2k",
+   "section": "Fluency",
+   "stem": "Find the $x$- and $y$-intercepts for the graph of each rule.",
+   "type": "point",
+   "prompt": "$y = 3x + 9$: the $x$-intercept",
+   "answer": "(-3,0)"
+  },
+  {
+   "id": "q2l",
+   "label": "2l",
+   "section": "Fluency",
+   "stem": "Find the $x$- and $y$-intercepts for the graph of each rule.",
+   "type": "point",
+   "prompt": "$y = 3x + 9$: the $y$-intercept",
+   "answer": "(0,9)"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Find the $x$- and $y$-intercepts for these rules. Some coordinates will involve fractions.",
+   "type": "point",
+   "prompt": "$y = 2x - 7$: the $x$-intercept",
+   "answer": "(7/2,0)",
+   "hint": "Type a point as (x, y), for example (3, 0) or (0, -5/2)."
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Find the $x$- and $y$-intercepts for these rules. Some coordinates will involve fractions.",
+   "type": "point",
+   "prompt": "$y = 2x - 7$: the $y$-intercept",
+   "answer": "(0,-7)"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Find the $x$- and $y$-intercepts for these rules. Some coordinates will involve fractions.",
+   "type": "point",
+   "prompt": "$y = 3x - 5$: the $x$-intercept",
+   "answer": "(5/3,0)"
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Find the $x$- and $y$-intercepts for these rules. Some coordinates will involve fractions.",
+   "type": "point",
+   "prompt": "$y = 3x - 5$: the $y$-intercept",
+   "answer": "(0,-5)"
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "Find the $x$- and $y$-intercepts for these rules. Some coordinates will involve fractions.",
+   "type": "point",
+   "prompt": "$y = -2x + 6$: the $x$-intercept",
+   "answer": "(3,0)"
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "Find the $x$- and $y$-intercepts for these rules. Some coordinates will involve fractions.",
+   "type": "point",
+   "prompt": "$y = -2x + 6$: the $y$-intercept",
+   "answer": "(0,6)"
+  },
+  {
+   "id": "q3g",
+   "label": "3g",
+   "section": "Fluency",
+   "stem": "Find the $x$- and $y$-intercepts for these rules. Some coordinates will involve fractions.",
+   "type": "point",
+   "prompt": "$y = -5x + 10$: the $x$-intercept",
+   "answer": "(2,0)"
+  },
+  {
+   "id": "q3h",
+   "label": "3h",
+   "section": "Fluency",
+   "stem": "Find the $x$- and $y$-intercepts for these rules. Some coordinates will involve fractions.",
+   "type": "point",
+   "prompt": "$y = -5x + 10$: the $y$-intercept",
+   "answer": "(0,10)"
+  },
+  {
+   "id": "q3i",
+   "label": "3i",
+   "section": "Fluency",
+   "stem": "Find the $x$- and $y$-intercepts for these rules. Some coordinates will involve fractions.",
+   "type": "point",
+   "prompt": "$y = -4x + 10$: the $x$-intercept",
+   "answer": "(5/2,0)"
+  },
+  {
+   "id": "q3j",
+   "label": "3j",
+   "section": "Fluency",
+   "stem": "Find the $x$- and $y$-intercepts for these rules. Some coordinates will involve fractions.",
+   "type": "point",
+   "prompt": "$y = -4x + 10$: the $y$-intercept",
+   "answer": "(0,10)"
+  },
+  {
+   "id": "q3k",
+   "label": "3k",
+   "section": "Fluency",
+   "stem": "Find the $x$- and $y$-intercepts for these rules. Some coordinates will involve fractions.",
+   "type": "point",
+   "prompt": "$y = -3x - 7$: the $x$-intercept",
+   "answer": "(-7/3,0)"
+  },
+  {
+   "id": "q3l",
+   "label": "3l",
+   "section": "Fluency",
+   "stem": "Find the $x$- and $y$-intercepts for these rules. Some coordinates will involve fractions.",
+   "type": "point",
+   "prompt": "$y = -3x - 7$: the $y$-intercept",
+   "answer": "(0,-7)"
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "The graph of $y = 2x + 4$ is drawn below. Read off where it crosses each axis.",
+   "type": "point",
+   "prompt": "the $x$-intercept",
+   "answer": "(-2,0)",
+   "stemFigure": {
+    "kind": "plane",
+    "x": [
+     -4,
+     4
+    ],
+    "y": [
+     -3,
+     7
+    ],
+    "path": [
+     [
+      -3.5,
+      -3
+     ],
+     [
+      1.5,
+      7
+     ]
+    ]
+   },
+   "hint": "Type a point as (x, y), for example (3, 0) or (0, -5/2)."
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "The graph of $y = 2x + 4$ is drawn below. Read off where it crosses each axis.",
+   "type": "point",
+   "prompt": "the $y$-intercept",
+   "answer": "(0,4)"
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Fluency",
+   "stem": "Find the $x$- and $y$-intercepts of the graphs of these rules (the two points you would use to sketch each graph).",
+   "type": "point",
+   "prompt": "$y = x + 6$: the $x$-intercept",
+   "answer": "(-6,0)",
+   "hint": "Type a point as (x, y), for example (3, 0) or (0, -5/2)."
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Fluency",
+   "stem": "Find the $x$- and $y$-intercepts of the graphs of these rules (the two points you would use to sketch each graph).",
+   "type": "point",
+   "prompt": "$y = x + 6$: the $y$-intercept",
+   "answer": "(0,6)"
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Fluency",
+   "stem": "Find the $x$- and $y$-intercepts of the graphs of these rules (the two points you would use to sketch each graph).",
+   "type": "point",
+   "prompt": "$y = x - 2$: the $x$-intercept",
+   "answer": "(2,0)"
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Fluency",
+   "stem": "Find the $x$- and $y$-intercepts of the graphs of these rules (the two points you would use to sketch each graph).",
+   "type": "point",
+   "prompt": "$y = x - 2$: the $y$-intercept",
+   "answer": "(0,-2)"
+  },
+  {
+   "id": "q5e",
+   "label": "5e",
+   "section": "Fluency",
+   "stem": "Find the $x$- and $y$-intercepts of the graphs of these rules (the two points you would use to sketch each graph).",
+   "type": "point",
+   "prompt": "$y = 2x - 12$: the $x$-intercept",
+   "answer": "(6,0)"
+  },
+  {
+   "id": "q5f",
+   "label": "5f",
+   "section": "Fluency",
+   "stem": "Find the $x$- and $y$-intercepts of the graphs of these rules (the two points you would use to sketch each graph).",
+   "type": "point",
+   "prompt": "$y = 2x - 12$: the $y$-intercept",
+   "answer": "(0,-12)"
+  },
+  {
+   "id": "q5g",
+   "label": "5g",
+   "section": "Fluency",
+   "stem": "Find the $x$- and $y$-intercepts of the graphs of these rules (the two points you would use to sketch each graph).",
+   "type": "point",
+   "prompt": "$y = 4x + 8$: the $x$-intercept",
+   "answer": "(-2,0)"
+  },
+  {
+   "id": "q5h",
+   "label": "5h",
+   "section": "Fluency",
+   "stem": "Find the $x$- and $y$-intercepts of the graphs of these rules (the two points you would use to sketch each graph).",
+   "type": "point",
+   "prompt": "$y = 4x + 8$: the $y$-intercept",
+   "answer": "(0,8)"
+  },
+  {
+   "id": "q5i",
+   "label": "5i",
+   "section": "Fluency",
+   "stem": "Find the $x$- and $y$-intercepts of the graphs of these rules (the two points you would use to sketch each graph).",
+   "type": "point",
+   "prompt": "$y = -3x - 6$: the $x$-intercept",
+   "answer": "(-2,0)"
+  },
+  {
+   "id": "q5j",
+   "label": "5j",
+   "section": "Fluency",
+   "stem": "Find the $x$- and $y$-intercepts of the graphs of these rules (the two points you would use to sketch each graph).",
+   "type": "point",
+   "prompt": "$y = -3x - 6$: the $y$-intercept",
+   "answer": "(0,-6)"
+  },
+  {
+   "id": "q5k",
+   "label": "5k",
+   "section": "Fluency",
+   "stem": "Find the $x$- and $y$-intercepts of the graphs of these rules (the two points you would use to sketch each graph).",
+   "type": "point",
+   "prompt": "$y = -2x + 10$: the $x$-intercept",
+   "answer": "(5,0)"
+  },
+  {
+   "id": "q5l",
+   "label": "5l",
+   "section": "Fluency",
+   "stem": "Find the $x$- and $y$-intercepts of the graphs of these rules (the two points you would use to sketch each graph).",
+   "type": "point",
+   "prompt": "$y = -2x + 10$: the $y$-intercept",
+   "answer": "(0,10)"
+  },
+  {
+   "id": "q5m",
+   "label": "5m",
+   "section": "Fluency",
+   "stem": "Find the $x$- and $y$-intercepts of the graphs of these rules (the two points you would use to sketch each graph).",
+   "type": "point",
+   "prompt": "$y = -x + 7$: the $x$-intercept",
+   "answer": "(7,0)"
+  },
+  {
+   "id": "q5n",
+   "label": "5n",
+   "section": "Fluency",
+   "stem": "Find the $x$- and $y$-intercepts of the graphs of these rules (the two points you would use to sketch each graph).",
+   "type": "point",
+   "prompt": "$y = -x + 7$: the $y$-intercept",
+   "answer": "(0,7)"
+  },
+  {
+   "id": "q5o",
+   "label": "5o",
+   "section": "Fluency",
+   "stem": "Find the $x$- and $y$-intercepts of the graphs of these rules (the two points you would use to sketch each graph).",
+   "type": "point",
+   "prompt": "$y = -x - 4$: the $x$-intercept",
+   "answer": "(-4,0)"
+  },
+  {
+   "id": "q5p",
+   "label": "5p",
+   "section": "Fluency",
+   "stem": "Find the $x$- and $y$-intercepts of the graphs of these rules (the two points you would use to sketch each graph).",
+   "type": "point",
+   "prompt": "$y = -x - 4$: the $y$-intercept",
+   "answer": "(0,-4)"
+  },
+  {
+   "id": "q5q",
+   "label": "5q",
+   "section": "Fluency",
+   "stem": "Find the $x$- and $y$-intercepts of the graphs of these rules (the two points you would use to sketch each graph).",
+   "type": "point",
+   "prompt": "$y = -5x - 10$: the $x$-intercept",
+   "answer": "(-2,0)"
+  },
+  {
+   "id": "q5r",
+   "label": "5r",
+   "section": "Fluency",
+   "stem": "Find the $x$- and $y$-intercepts of the graphs of these rules (the two points you would use to sketch each graph).",
+   "type": "point",
+   "prompt": "$y = -5x - 10$: the $y$-intercept",
+   "answer": "(0,-10)"
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Problem-solving",
+   "stem": "Find the area of the triangle enclosed by the $x$-axis, the $y$-axis and the given line. First find the $x$- and $y$-intercepts.",
+   "type": "numeric",
+   "prompt": "$y = 3x + 6$",
+   "answer": "6",
+   "units": "square units"
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Problem-solving",
+   "stem": "Find the area of the triangle enclosed by the $x$-axis, the $y$-axis and the given line. First find the $x$- and $y$-intercepts.",
+   "type": "numeric",
+   "prompt": "$y = 2x - 8$",
+   "answer": "16",
+   "units": "square units"
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Problem-solving",
+   "stem": "Find the area of the triangle enclosed by the $x$-axis, the $y$-axis and the given line. First find the $x$- and $y$-intercepts.",
+   "type": "numeric",
+   "prompt": "$y = -x + 7$",
+   "answer": "49/2",
+   "units": "square units"
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Problem-solving",
+   "stem": "Find the area of the triangle enclosed by the $x$-axis, the $y$-axis and the given line. First find the $x$- and $y$-intercepts.",
+   "type": "numeric",
+   "prompt": "$y = -3x - 9$",
+   "answer": "27/2",
+   "units": "square units"
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Problem-solving",
+   "stem": "Consider the rule $y = 3x + 4$.",
+   "type": "point",
+   "prompt": "Find the $y$-intercept.",
+   "answer": "(0,4)",
+   "hint": "Type a point as (x, y), for example (3, 0) or (0, -5/2)."
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Problem-solving",
+   "stem": "Consider the rule $y = 3x + 4$.",
+   "type": "choice",
+   "prompt": "Which of these rules has the same $y$-intercept as $y = 3x + 4$?",
+   "answer": 1,
+   "options": [
+    "y = 3x - 4",
+    "y = 5x + 4",
+    "y = 4x + 3",
+    "y = 4x"
+   ]
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Problem-solving",
+   "stem": "Consider the rule $y = 4x - 8$.",
+   "type": "point",
+   "prompt": "Find the $x$-intercept.",
+   "answer": "(2,0)",
+   "hint": "Type a point as (x, y), for example (3, 0) or (0, -5/2)."
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Problem-solving",
+   "stem": "Consider the rule $y = 4x - 8$.",
+   "type": "choice",
+   "prompt": "Which of these rules has the same $x$-intercept as $y = 4x - 8$?",
+   "answer": 1,
+   "options": [
+    "y = 2x - 8",
+    "y = x - 2",
+    "y = 4x + 8",
+    "y = 8x - 4"
+   ]
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Problem-solving",
+   "stem": "A straight line graph passes through the points $(3, 2)$ and $(5, 6)$.",
+   "type": "point",
+   "prompt": "Find its $x$-intercept.",
+   "answer": "(2,0)",
+   "hint": "Type a point as (x, y), for example (3, 0) or (0, -5/2)."
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Problem-solving",
+   "stem": "A straight line graph passes through the points $(3, 2)$ and $(5, 6)$.",
+   "type": "point",
+   "prompt": "Find its $y$-intercept.",
+   "answer": "(0,-4)"
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Problem-solving",
+   "stem": "The depth of water ($D$ cm) in a leaking bucket is given by $D = -3t + 24$, where $t$ is the time in seconds.",
+   "type": "numeric",
+   "prompt": "Find the depth of water at the start (when $t = 0$).",
+   "answer": "24",
+   "units": "cm"
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Problem-solving",
+   "stem": "The depth of water ($D$ cm) in a leaking bucket is given by $D = -3t + 24$, where $t$ is the time in seconds.",
+   "type": "numeric",
+   "prompt": "How many seconds will it take for the bucket to empty?",
+   "answer": "8",
+   "units": "seconds"
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Problem-solving",
+   "stem": "The data left on a phone plan ($D$ megabytes) is given by $D = -t + 350$, where $t$ is the number of minutes spent streaming.",
+   "type": "numeric",
+   "prompt": "How much data is left at the start (when $t = 0$)?",
+   "answer": "350",
+   "units": "MB"
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Problem-solving",
+   "stem": "The data left on a phone plan ($D$ megabytes) is given by $D = -t + 350$, where $t$ is the number of minutes spent streaming.",
+   "type": "numeric",
+   "prompt": "For how many minutes can you stream before the data runs out?",
+   "answer": "350",
+   "units": "minutes"
+  },
+  {
+   "id": "q12a",
+   "label": "12a",
+   "section": "Reasoning",
+   "stem": "Some lines never cross the $x$-axis.",
+   "type": "choice",
+   "prompt": "Some lines have no $x$-intercept. What type of lines are they?",
+   "answer": 0,
+   "options": [
+    "Horizontal lines (other than the x-axis itself)",
+    "Vertical lines",
+    "Lines through the origin",
+    "Lines with a negative gradient"
+   ]
+  },
+  {
+   "id": "q12b",
+   "label": "12b",
+   "section": "Reasoning",
+   "stem": "Some lines never cross the $x$-axis.",
+   "type": "choice",
+   "prompt": "Which of these lines has no $x$-intercept?",
+   "answer": 2,
+   "options": [
+    "x = 5",
+    "y = 5x",
+    "y = 5",
+    "y = x + 5"
+   ]
+  },
+  {
+   "id": "q13a",
+   "label": "13a",
+   "section": "Reasoning",
+   "stem": "Some lines have the $x$-intercept and $y$-intercept at the same point.",
+   "type": "point",
+   "prompt": "Find the $x$-intercept of $y = 6x$.",
+   "answer": "(0,0)",
+   "hint": "Type a point as (x, y), for example (3, 0) or (0, -5/2)."
+  },
+  {
+   "id": "q13b",
+   "label": "13b",
+   "section": "Reasoning",
+   "stem": "Some lines have the $x$-intercept and $y$-intercept at the same point.",
+   "type": "point",
+   "prompt": "Find the $y$-intercept of $y = 6x$.",
+   "answer": "(0,0)"
+  },
+  {
+   "id": "q13c",
+   "label": "13c",
+   "section": "Reasoning",
+   "stem": "Some lines have the $x$-intercept and $y$-intercept at the same point.",
+   "type": "choice",
+   "prompt": "Which other rule has its $x$- and $y$-intercepts at the same point?",
+   "answer": 1,
+   "options": [
+    "y = 6x + 1",
+    "y = -5x",
+    "y = x - 3",
+    "y = 2"
+   ]
+  },
+  {
+   "id": "q14",
+   "label": "14",
+   "section": "Reasoning",
+   "type": "expression",
+   "prompt": "Write an expression for the $x$-coordinate of the $x$-intercept of $y = mx + c$. Your answer will include $m$ and $c$.",
+   "answer": "-c/m",
+   "accept": [
+    "x=-c/m"
+   ],
+   "hint": "Type a fraction with /, for example a/b"
+  },
+  {
+   "id": "q16a",
+   "label": "16a",
+   "section": "Enrichment",
+   "stem": "Find the $x$-intercept of the graph of each rule. Start by substituting $y = 0$.",
+   "type": "point",
+   "prompt": "$x + y = 8$",
+   "answer": "(8,0)",
+   "hint": "Type a point as (x, y), for example (3, 0) or (0, -5/2)."
+  },
+  {
+   "id": "q16b",
+   "label": "16b",
+   "section": "Enrichment",
+   "stem": "Find the $x$-intercept of the graph of each rule. Start by substituting $y = 0$.",
+   "type": "point",
+   "prompt": "$2x - 3y = 12$",
+   "answer": "(6,0)"
+  },
+  {
+   "id": "q16c",
+   "label": "16c",
+   "section": "Enrichment",
+   "stem": "Find the $x$-intercept of the graph of each rule. Start by substituting $y = 0$.",
+   "type": "point",
+   "prompt": "$y - 3x = 6$",
+   "answer": "(-2,0)"
+  },
+  {
+   "id": "q16d",
+   "label": "16d",
+   "section": "Enrichment",
+   "stem": "Find the $x$-intercept of the graph of each rule. Start by substituting $y = 0$.",
+   "type": "point",
+   "prompt": "$3y - 2x = -8$",
+   "answer": "(4,0)"
+  },
+  {
+   "id": "q16e",
+   "label": "16e",
+   "section": "Enrichment",
+   "stem": "Find the $x$-intercept of the graph of each rule. Start by substituting $y = 0$.",
+   "type": "point",
+   "prompt": "$y - 4x = 3$",
+   "answer": "(-3/4,0)"
+  },
+  {
+   "id": "q16f",
+   "label": "16f",
+   "section": "Enrichment",
+   "stem": "Find the $x$-intercept of the graph of each rule. Start by substituting $y = 0$.",
+   "type": "point",
+   "prompt": "$2y + 3x = 9$",
+   "answer": "(3,0)"
+  },
+  {
+   "id": "q16g",
+   "label": "16g",
+   "section": "Enrichment",
+   "stem": "Find the $x$-intercept of the graph of each rule. Start by substituting $y = 0$.",
+   "type": "point",
+   "prompt": "$4x - 5y = -12$",
+   "answer": "(-3,0)"
+  },
+  {
+   "id": "q16h",
+   "label": "16h",
+   "section": "Enrichment",
+   "stem": "Find the $x$-intercept of the graph of each rule. Start by substituting $y = 0$.",
+   "type": "point",
+   "prompt": "$3x + 2y = 4$",
+   "answer": "(4/3,0)"
+  },
+  {
+   "id": "q16i",
+   "label": "16i",
+   "section": "Enrichment",
+   "stem": "Find the $x$-intercept of the graph of each rule. Start by substituting $y = 0$.",
+   "type": "point",
+   "prompt": "$y - 5x = -2$",
+   "answer": "(2/5,0)"
+  }
+ ]
+},
+{
+ "id": "y8-9g",
+ "year": 8,
+ "chapter": "Chapter 9: Linear relationships",
+ "title": "9G Gradient",
+ "description": "Describe and calculate the gradient of a line using rise over run.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Decide if each line labelled a, b, c and d on this graph has a positive, negative, zero or undefined gradient.",
+   "type": "choice",
+   "prompt": "Line a",
+   "answer": 0,
+   "options": [
+    "Positive",
+    "Negative",
+    "Zero",
+    "Undefined"
+   ],
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "seg": [
+       -5,
+       0,
+       5,
+       0
+      ],
+      "arrow": "both"
+     },
+     {
+      "seg": [
+       0,
+       -5,
+       0,
+       5
+      ],
+      "arrow": "both"
+     },
+     {
+      "label": "x",
+      "at": [
+       5.4,
+       0
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       5.45
+      ]
+     },
+     {
+      "seg": [
+       -4.5,
+       -2.5,
+       3.5,
+       3
+      ],
+      "arrow": "both"
+     },
+     {
+      "label": "a",
+      "at": [
+       3.9,
+       3.4
+      ]
+     },
+     {
+      "seg": [
+       -4.5,
+       -3.2,
+       4.5,
+       -3.2
+      ],
+      "arrow": "both"
+     },
+     {
+      "label": "b",
+      "at": [
+       4.5,
+       -2.7
+      ]
+     },
+     {
+      "seg": [
+       -3,
+       4.5,
+       2.5,
+       -4
+      ],
+      "arrow": "both"
+     },
+     {
+      "label": "c",
+      "at": [
+       2.9,
+       -4.3
+      ]
+     },
+     {
+      "seg": [
+       2.2,
+       -4.5,
+       2.2,
+       4.5
+      ],
+      "arrow": "both"
+     },
+     {
+      "label": "d",
+      "at": [
+       2.6,
+       4.6
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Decide if each line labelled a, b, c and d on this graph has a positive, negative, zero or undefined gradient.",
+   "type": "choice",
+   "prompt": "Line b",
+   "answer": 2,
+   "options": [
+    "Positive",
+    "Negative",
+    "Zero",
+    "Undefined"
+   ]
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "Decide if each line labelled a, b, c and d on this graph has a positive, negative, zero or undefined gradient.",
+   "type": "choice",
+   "prompt": "Line c",
+   "answer": 1,
+   "options": [
+    "Positive",
+    "Negative",
+    "Zero",
+    "Undefined"
+   ]
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "Decide if each line labelled a, b, c and d on this graph has a positive, negative, zero or undefined gradient.",
+   "type": "choice",
+   "prompt": "Line d",
+   "answer": 3,
+   "options": [
+    "Positive",
+    "Negative",
+    "Zero",
+    "Undefined"
+   ]
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Decide if each line labelled a, b, c and d on this graph has a positive, negative, zero or undefined gradient.",
+   "type": "choice",
+   "prompt": "Line a",
+   "answer": 1,
+   "options": [
+    "Positive",
+    "Negative",
+    "Zero",
+    "Undefined"
+   ],
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "seg": [
+       -5,
+       0,
+       5,
+       0
+      ],
+      "arrow": "both"
+     },
+     {
+      "seg": [
+       0,
+       -5,
+       0,
+       5
+      ],
+      "arrow": "both"
+     },
+     {
+      "label": "x",
+      "at": [
+       5.4,
+       0
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       5.45
+      ]
+     },
+     {
+      "seg": [
+       -3.8,
+       4.5,
+       4.2,
+       -3.5
+      ],
+      "arrow": "both"
+     },
+     {
+      "label": "a",
+      "at": [
+       4.5,
+       -3.9
+      ]
+     },
+     {
+      "seg": [
+       -4.5,
+       2.6,
+       4.5,
+       2.6
+      ],
+      "arrow": "both"
+     },
+     {
+      "label": "b",
+      "at": [
+       4.6,
+       3.1
+      ]
+     },
+     {
+      "seg": [
+       -3,
+       -4.5,
+       -3,
+       4.5
+      ],
+      "arrow": "both"
+     },
+     {
+      "label": "c",
+      "at": [
+       -2.6,
+       4.6
+      ]
+     },
+     {
+      "seg": [
+       -1.5,
+       -4.5,
+       3.5,
+       4.5
+      ],
+      "arrow": "both"
+     },
+     {
+      "label": "d",
+      "at": [
+       3.9,
+       4.6
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Decide if each line labelled a, b, c and d on this graph has a positive, negative, zero or undefined gradient.",
+   "type": "choice",
+   "prompt": "Line b",
+   "answer": 2,
+   "options": [
+    "Positive",
+    "Negative",
+    "Zero",
+    "Undefined"
+   ]
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Decide if each line labelled a, b, c and d on this graph has a positive, negative, zero or undefined gradient.",
+   "type": "choice",
+   "prompt": "Line c",
+   "answer": 3,
+   "options": [
+    "Positive",
+    "Negative",
+    "Zero",
+    "Undefined"
+   ]
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Decide if each line labelled a, b, c and d on this graph has a positive, negative, zero or undefined gradient.",
+   "type": "choice",
+   "prompt": "Line d",
+   "answer": 0,
+   "options": [
+    "Positive",
+    "Negative",
+    "Zero",
+    "Undefined"
+   ]
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Find the gradient of each line. Use gradient $= \\frac{\\text{rise}}{\\text{run}}$.",
+   "type": "numeric",
+   "prompt": "Find the gradient.",
+   "answer": "4",
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -2,
+     3
+    ],
+    "y": [
+     -2,
+     6
+    ],
+    "path": [
+     [
+      -0.5,
+      -2
+     ],
+     [
+      1.5,
+      6
+     ]
+    ],
+    "points": {
+     "(1, 4)": [
+      1,
+      4
+     ]
+    }
+   },
+   "hint": "Type a fraction with /, for example 3/4 or -5/2."
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Find the gradient of each line. Use gradient $= \\frac{\\text{rise}}{\\text{run}}$.",
+   "type": "numeric",
+   "prompt": "Find the gradient.",
+   "answer": "2/3",
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -2,
+     5
+    ],
+    "y": [
+     -2,
+     4
+    ],
+    "path": [
+     [
+      -2,
+      -1.3333333333333333
+     ],
+     [
+      5,
+      3.3333333333333335
+     ]
+    ],
+    "points": {
+     "(3, 2)": [
+      3,
+      2
+     ]
+    }
+   }
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Find the gradient of each line. Use gradient $= \\frac{\\text{rise}}{\\text{run}}$.",
+   "type": "numeric",
+   "prompt": "Find the gradient.",
+   "answer": "1/2",
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -2,
+     6
+    ],
+    "y": [
+     -2,
+     4
+    ],
+    "path": [
+     [
+      -2,
+      -1
+     ],
+     [
+      6,
+      3
+     ]
+    ],
+    "points": {
+     "(4, 2)": [
+      4,
+      2
+     ]
+    }
+   }
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Find the gradient of each line. Use gradient $= \\frac{\\text{rise}}{\\text{run}}$.",
+   "type": "numeric",
+   "prompt": "Find the gradient.",
+   "answer": "3",
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -2,
+     3
+    ],
+    "y": [
+     -3,
+     4
+    ],
+    "path": [
+     [
+      -0.6666666666666666,
+      -3
+     ],
+     [
+      1.6666666666666667,
+      4
+     ]
+    ],
+    "points": {
+     "(0, −1)": [
+      0,
+      -1
+     ],
+     "(1, 2)": [
+      1,
+      2
+     ]
+    }
+   }
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "Find the gradient of each line. Use gradient $= \\frac{\\text{rise}}{\\text{run}}$.",
+   "type": "numeric",
+   "prompt": "Find the gradient.",
+   "answer": "3/4",
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -6,
+     2
+    ],
+    "y": [
+     -2,
+     5
+    ],
+    "path": [
+     [
+      -6,
+      -1.5
+     ],
+     [
+      2,
+      4.5
+     ]
+    ],
+    "points": {
+     "(−4, 0)": [
+      -4,
+      0
+     ],
+     "(0, 3)": [
+      0,
+      3
+     ]
+    }
+   }
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "Find the gradient of each line. Use gradient $= \\frac{\\text{rise}}{\\text{run}}$.",
+   "type": "numeric",
+   "prompt": "Find the gradient.",
+   "answer": "2",
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -4,
+     2
+    ],
+    "y": [
+     -2,
+     6
+    ],
+    "path": [
+     [
+      -3,
+      -2
+     ],
+     [
+      1,
+      6
+     ]
+    ],
+    "points": {
+     "(−2, 0)": [
+      -2,
+      0
+     ],
+     "(0, 4)": [
+      0,
+      4
+     ]
+    }
+   }
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "Find the gradient of each line.",
+   "type": "numeric",
+   "prompt": "Find the gradient.",
+   "answer": "-3",
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -2,
+     3
+    ],
+    "y": [
+     -5,
+     2
+    ],
+    "path": [
+     [
+      -0.6666666666666666,
+      2
+     ],
+     [
+      1.6666666666666667,
+      -5
+     ]
+    ],
+    "points": {
+     "(1, −3)": [
+      1,
+      -3
+     ]
+    }
+   },
+   "hint": "Type a fraction with /, for example 3/4 or -5/2."
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "Find the gradient of each line.",
+   "type": "numeric",
+   "prompt": "Find the gradient.",
+   "answer": "-3/4",
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -2,
+     6
+    ],
+    "y": [
+     -5,
+     2
+    ],
+    "path": [
+     [
+      -2,
+      1.5
+     ],
+     [
+      6,
+      -4.5
+     ]
+    ],
+    "points": {
+     "(4, −3)": [
+      4,
+      -3
+     ]
+    }
+   }
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "Find the gradient of each line.",
+   "type": "numeric",
+   "prompt": "Find the gradient.",
+   "answer": "-5/2",
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -2,
+     4
+    ],
+    "y": [
+     -7,
+     2
+    ],
+    "path": [
+     [
+      -0.8,
+      2
+     ],
+     [
+      2.8,
+      -7
+     ]
+    ],
+    "points": {
+     "(2, −5)": [
+      2,
+      -5
+     ]
+    }
+   }
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "Find the gradient of each line.",
+   "type": "numeric",
+   "prompt": "Find the gradient.",
+   "answer": "-2",
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -2,
+     4
+    ],
+    "y": [
+     -2,
+     6
+    ],
+    "path": [
+     [
+      -1,
+      6
+     ],
+     [
+      3,
+      -2
+     ]
+    ],
+    "points": {
+     "(0, 4)": [
+      0,
+      4
+     ],
+     "(2, 0)": [
+      2,
+      0
+     ]
+    }
+   }
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Fluency",
+   "stem": "Find the gradient of each line.",
+   "type": "numeric",
+   "prompt": "Find the gradient.",
+   "answer": "-1",
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -4,
+     2
+    ],
+    "y": [
+     -4,
+     2
+    ],
+    "path": [
+     [
+      -4,
+      2
+     ],
+     [
+      2,
+      -4
+     ]
+    ],
+    "points": {
+     "(0, −2)": [
+      0,
+      -2
+     ],
+     "(−2, 0)": [
+      -2,
+      0
+     ]
+    }
+   }
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Fluency",
+   "stem": "Find the gradient of each line.",
+   "type": "numeric",
+   "prompt": "Find the gradient.",
+   "answer": "-4/3",
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -5,
+     2
+    ],
+    "y": [
+     -2,
+     7
+    ],
+    "path": [
+     [
+      -4.5,
+      7
+     ],
+     [
+      2,
+      -1.6666666666666667
+     ]
+    ],
+    "points": {
+     "(0, 1)": [
+      0,
+      1
+     ],
+     "(−3, 5)": [
+      -3,
+      5
+     ]
+    }
+   }
+  },
+  {
+   "id": "q5",
+   "label": "5",
+   "section": "Problem-solving",
+   "type": "choice",
+   "prompt": "Mia walks up a hillside path that rises $15$ m for every $6$ m across. Her friend Tom takes a nearby track that rises $22$ m for every $9$ m across. Which slope is steeper?",
+   "answer": 0,
+   "options": [
+    "Mia's path",
+    "Tom's track",
+    "They are equally steep"
+   ]
+  },
+  {
+   "id": "q6",
+   "label": "6",
+   "section": "Problem-solving",
+   "type": "choice",
+   "prompt": "A ski run falls $180$ m for every $60$ m across. A toboggan run falls $250$ m for every $80$ m across. Which has the steeper gradient?",
+   "answer": 1,
+   "options": [
+    "The ski run",
+    "The toboggan run",
+    "They are equally steep"
+   ]
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Problem-solving",
+   "stem": "Find the gradient of each line. You will first need to calculate the rise and the run.",
+   "type": "numeric",
+   "prompt": "Find the gradient.",
+   "answer": "2/3",
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -4,
+     4
+    ],
+    "y": [
+     -3,
+     3
+    ],
+    "path": [
+     [
+      -4,
+      -2.6666666666666665
+     ],
+     [
+      4,
+      2.6666666666666665
+     ]
+    ],
+    "points": {
+     "(−3, −2)": [
+      -3,
+      -2
+     ],
+     "(3, 2)": [
+      3,
+      2
+     ]
+    }
+   },
+   "hint": "Type a fraction with /, for example 3/4 or -5/2."
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Problem-solving",
+   "stem": "Find the gradient of each line. You will first need to calculate the rise and the run.",
+   "type": "numeric",
+   "prompt": "Find the gradient.",
+   "answer": "3",
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -3,
+     3
+    ],
+    "y": [
+     -6,
+     8
+    ],
+    "path": [
+     [
+      -2.3333333333333335,
+      -6
+     ],
+     [
+      2.3333333333333335,
+      8
+     ]
+    ],
+    "points": {
+     "(−2, −5)": [
+      -2,
+      -5
+     ],
+     "(2, 7)": [
+      2,
+      7
+     ]
+    }
+   }
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Problem-solving",
+   "stem": "Find the gradient of each line. You will first need to calculate the rise and the run.",
+   "type": "numeric",
+   "prompt": "Find the gradient.",
+   "answer": "-3/2",
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -3,
+     5
+    ],
+    "y": [
+     -5,
+     6
+    ],
+    "path": [
+     [
+      -2.6666666666666665,
+      6
+     ],
+     [
+      4.666666666666667,
+      -5
+     ]
+    ],
+    "points": {
+     "(−2, 5)": [
+      -2,
+      5
+     ],
+     "(4, −4)": [
+      4,
+      -4
+     ]
+    }
+   }
+  },
+  {
+   "id": "q7d",
+   "label": "7d",
+   "section": "Problem-solving",
+   "stem": "Find the gradient of each line. You will first need to calculate the rise and the run.",
+   "type": "numeric",
+   "prompt": "Find the gradient.",
+   "answer": "-3/4",
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -4,
+     6
+    ],
+    "y": [
+     -3,
+     5
+    ],
+    "path": [
+     [
+      -4,
+      4.75
+     ],
+     [
+      6,
+      -2.75
+     ]
+    ],
+    "points": {
+     "(−3, 4)": [
+      -3,
+      4
+     ],
+     "(5, −2)": [
+      5,
+      -2
+     ]
+    }
+   }
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Problem-solving",
+   "stem": "Find the gradient of the line joining each pair of points.",
+   "type": "numeric",
+   "prompt": "$(0, 3)$ and $(2, 8)$",
+   "answer": "5/2",
+   "hint": "Type a fraction with /, for example 3/4 or -5/2."
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Problem-solving",
+   "stem": "Find the gradient of the line joining each pair of points.",
+   "type": "numeric",
+   "prompt": "$(0, -2)$ and $(4, 4)$",
+   "answer": "3/2"
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Problem-solving",
+   "stem": "Find the gradient of the line joining each pair of points.",
+   "type": "numeric",
+   "prompt": "$(-2, 9)$ and $(0, 1)$",
+   "answer": "-4"
+  },
+  {
+   "id": "q8d",
+   "label": "8d",
+   "section": "Problem-solving",
+   "stem": "Find the gradient of the line joining each pair of points.",
+   "type": "numeric",
+   "prompt": "$(-4, 5)$ and $(2, 1)$",
+   "answer": "-2/3"
+  },
+  {
+   "id": "q8e",
+   "label": "8e",
+   "section": "Problem-solving",
+   "stem": "Find the gradient of the line joining each pair of points.",
+   "type": "numeric",
+   "prompt": "$(-3, -4)$ and $(2, 6)$",
+   "answer": "2"
+  },
+  {
+   "id": "q8f",
+   "label": "8f",
+   "section": "Problem-solving",
+   "stem": "Find the gradient of the line joining each pair of points.",
+   "type": "numeric",
+   "prompt": "$(-4, 3)$ and $(4, -3)$",
+   "answer": "-3/4"
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Reasoning",
+   "stem": "A line with gradient $4$ joins the origin $(0, 0)$ to another point $A$.",
+   "type": "numeric",
+   "prompt": "$A$ has $x$-coordinate $3$. Find its $y$-coordinate.",
+   "answer": "12"
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Reasoning",
+   "stem": "A line with gradient $4$ joins the origin $(0, 0)$ to another point $A$.",
+   "type": "numeric",
+   "prompt": "$A$ has $y$-coordinate $20$. Find its $x$-coordinate.",
+   "answer": "5"
+  },
+  {
+   "id": "q9c",
+   "label": "9c",
+   "section": "Reasoning",
+   "stem": "A line with gradient $4$ joins the origin $(0, 0)$ to another point $A$.",
+   "type": "numeric",
+   "prompt": "$A$ has $x$-coordinate $-2$. Find its $y$-coordinate.",
+   "answer": "-8"
+  },
+  {
+   "id": "q9d",
+   "label": "9d",
+   "section": "Reasoning",
+   "stem": "A line with gradient $4$ joins the origin $(0, 0)$ to another point $A$.",
+   "type": "choice",
+   "prompt": "Could $A$ be the point $(-3, -12)$?",
+   "answer": 0,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Reasoning",
+   "stem": "Think about graphs with rules of the form $y = kx$, such as $y = 2x$ or $y = -7x$.",
+   "type": "choice",
+   "prompt": "Which rule has a graph with a positive gradient?",
+   "answer": 1,
+   "options": [
+    "y = -3x",
+    "y = 5x",
+    "y = -x",
+    "y = -8x"
+   ]
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Reasoning",
+   "stem": "Think about graphs with rules of the form $y = kx$, such as $y = 2x$ or $y = -7x$.",
+   "type": "choice",
+   "prompt": "Which rule has a graph with a negative gradient?",
+   "answer": 2,
+   "options": [
+    "y = 4x",
+    "y = x",
+    "y = -6x",
+    "y = 9x"
+   ]
+  },
+  {
+   "id": "q10c",
+   "label": "10c",
+   "section": "Reasoning",
+   "stem": "Think about graphs with rules of the form $y = kx$, such as $y = 2x$ or $y = -7x$.",
+   "type": "choice",
+   "prompt": "How does the coefficient of $x$ affect the graph?",
+   "answer": 0,
+   "options": [
+    "It is the gradient: the bigger it is, the steeper the line rises",
+    "It is where the line crosses the y-axis",
+    "It has no effect on the line"
+   ]
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Reasoning",
+   "stem": "A line joins the point $(0, 0)$ to the point $(a, b)$ and has a gradient of $3$.",
+   "type": "numeric",
+   "prompt": "If $a = 1$, find $b$.",
+   "answer": "3"
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Reasoning",
+   "stem": "A line joins the point $(0, 0)$ to the point $(a, b)$ and has a gradient of $3$.",
+   "type": "numeric",
+   "prompt": "If $a = 4$, find $b$.",
+   "answer": "12"
+  },
+  {
+   "id": "q11c",
+   "label": "11c",
+   "section": "Reasoning",
+   "stem": "A line joins the point $(0, 0)$ to the point $(a, b)$ and has a gradient of $3$.",
+   "type": "expression",
+   "prompt": "Write a rule for $b$ in terms of $a$.",
+   "answer": "b=3a",
+   "accept": [
+    "3a"
+   ],
+   "hint": "Start with b =, for example b = 5a"
+  },
+  {
+   "id": "q11d",
+   "label": "11d",
+   "section": "Reasoning",
+   "stem": "A line joins the point $(0, 0)$ to the point $(a, b)$ and has a gradient of $3$.",
+   "type": "expression",
+   "prompt": "Write a rule for $a$ in terms of $b$.",
+   "answer": "a=b/3",
+   "accept": [
+    "b/3"
+   ],
+   "hint": "Start with a =, for example a = b/5"
+  },
+  {
+   "id": "q12a",
+   "label": "12a",
+   "section": "Reasoning",
+   "stem": "A line joins the point $(0, 0)$ to the point $(a, b)$ and has a gradient of $-\\frac{2}{3}$.",
+   "type": "numeric",
+   "prompt": "If $a = 1$, find $b$.",
+   "answer": "-2/3",
+   "hint": "Type a fraction with /, for example 3/4 or -5/2."
+  },
+  {
+   "id": "q12b",
+   "label": "12b",
+   "section": "Reasoning",
+   "stem": "A line joins the point $(0, 0)$ to the point $(a, b)$ and has a gradient of $-\\frac{2}{3}$.",
+   "type": "numeric",
+   "prompt": "If $a = 6$, find $b$.",
+   "answer": "-4"
+  },
+  {
+   "id": "q12c",
+   "label": "12c",
+   "section": "Reasoning",
+   "stem": "A line joins the point $(0, 0)$ to the point $(a, b)$ and has a gradient of $-\\frac{2}{3}$.",
+   "type": "expression",
+   "prompt": "Write a rule for $b$ in terms of $a$.",
+   "answer": "b=-2a/3",
+   "accept": [
+    "-2a/3"
+   ],
+   "hint": "Start with b =, for example b = 5a"
+  },
+  {
+   "id": "q12d",
+   "label": "12d",
+   "section": "Reasoning",
+   "stem": "A line joins the point $(0, 0)$ to the point $(a, b)$ and has a gradient of $-\\frac{2}{3}$.",
+   "type": "expression",
+   "prompt": "Write a rule for $a$ in terms of $b$.",
+   "answer": "a=-3b/2",
+   "accept": [
+    "-3b/2"
+   ],
+   "hint": "Start with a =, for example a = b/5"
+  },
+  {
+   "id": "q13a",
+   "label": "13a",
+   "section": "Enrichment",
+   "stem": "The rise and run between two points are the differences between their $y$-coordinates and their $x$-coordinates. Use this to find the gradient of the line joining the points.",
+   "type": "numeric",
+   "prompt": "Find the gradient.",
+   "answer": "2/3",
+   "hint": "Type a fraction with /, for example 3/4 or -5/2.",
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -6,
+     5
+    ],
+    "y": [
+     -4,
+     4
+    ],
+    "path": [
+     [
+      -6,
+      -3.6666666666666665
+     ],
+     [
+      5,
+      3.6666666666666665
+     ]
+    ],
+    "points": {
+     "(−5, −3)": [
+      -5,
+      -3
+     ],
+     "(4, 3)": [
+      4,
+      3
+     ]
+    }
+   }
+  },
+  {
+   "id": "q13b",
+   "label": "13b",
+   "section": "Enrichment",
+   "stem": "The rise and run between two points are the differences between their $y$-coordinates and their $x$-coordinates. Use this to find the gradient of the line joining the points.",
+   "type": "numeric",
+   "prompt": "Find the gradient.",
+   "answer": "-4/7",
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -5,
+     4
+    ],
+    "y": [
+     -3,
+     3
+    ],
+    "path": [
+     [
+      -5,
+      2.5714285714285716
+     ],
+     [
+      4,
+      -2.5714285714285716
+     ]
+    ],
+    "points": {
+     "(−4, 2)": [
+      -4,
+      2
+     ],
+     "(3, −2)": [
+      3,
+      -2
+     ]
+    }
+   }
+  },
+  {
+   "id": "q13c",
+   "label": "13c",
+   "section": "Enrichment",
+   "stem": "The rise and run between two points are the differences between their $y$-coordinates and their $x$-coordinates. Use this to find the gradient of the line joining the points.",
+   "type": "numeric",
+   "prompt": "Find the gradient.",
+   "answer": "3/4",
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -4,
+     6
+    ],
+    "y": [
+     -5,
+     3
+    ],
+    "path": [
+     [
+      -4,
+      -4.75
+     ],
+     [
+      6,
+      2.75
+     ]
+    ],
+    "points": {
+     "(−3, −4)": [
+      -3,
+      -4
+     ],
+     "(5, 2)": [
+      5,
+      2
+     ]
+    }
+   }
+  },
+  {
+   "id": "q13d",
+   "label": "13d",
+   "section": "Enrichment",
+   "stem": "The rise and run between two points are the differences between their $y$-coordinates and their $x$-coordinates. Use this to find the gradient of the line joining the points.",
+   "type": "numeric",
+   "prompt": "Find the gradient.",
+   "answer": "5/2",
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -3,
+     1
+    ],
+    "y": [
+     -1,
+     6
+    ],
+    "path": [
+     [
+      -2.4,
+      -1
+     ],
+     [
+      0.4,
+      6
+     ]
+    ],
+    "points": {
+     "(−2, 0)": [
+      -2,
+      0
+     ],
+     "(0, 5)": [
+      0,
+      5
+     ]
+    }
+   }
+  },
+  {
+   "id": "q13e",
+   "label": "13e",
+   "section": "Enrichment",
+   "stem": "The rise and run between two points are the differences between their $y$-coordinates and their $x$-coordinates. Use this to find the gradient of the line joining the points.",
+   "type": "numeric",
+   "prompt": "$(-4, 2)$ and $(5, -1)$",
+   "answer": "-1/3"
+  },
+  {
+   "id": "q13f",
+   "label": "13f",
+   "section": "Enrichment",
+   "stem": "The rise and run between two points are the differences between their $y$-coordinates and their $x$-coordinates. Use this to find the gradient of the line joining the points.",
+   "type": "numeric",
+   "prompt": "$(-3, -4)$ and $(1, 8)$",
+   "answer": "3"
+  },
+  {
+   "id": "q13g",
+   "label": "13g",
+   "section": "Enrichment",
+   "stem": "The rise and run between two points are the differences between their $y$-coordinates and their $x$-coordinates. Use this to find the gradient of the line joining the points.",
+   "type": "numeric",
+   "prompt": "$(6, -3)$ and $(-3, 5)$",
+   "answer": "-8/9"
+  },
+  {
+   "id": "q13h",
+   "label": "13h",
+   "section": "Enrichment",
+   "stem": "The rise and run between two points are the differences between their $y$-coordinates and their $x$-coordinates. Use this to find the gradient of the line joining the points.",
+   "type": "numeric",
+   "prompt": "$(-\\frac{3}{2}, 4)$ and $(\\frac{5}{2}, -2)$",
+   "answer": "-3/2"
+  },
+  {
+   "id": "q13i",
+   "label": "13i",
+   "section": "Enrichment",
+   "stem": "The rise and run between two points are the differences between their $y$-coordinates and their $x$-coordinates. Use this to find the gradient of the line joining the points.",
+   "type": "numeric",
+   "prompt": "$(-5, \\frac{1}{3})$ and $(2, -\\frac{5}{3})$",
+   "answer": "-2/7"
+  },
+  {
+   "id": "q13j",
+   "label": "13j",
+   "section": "Enrichment",
+   "stem": "The rise and run between two points are the differences between their $y$-coordinates and their $x$-coordinates. Use this to find the gradient of the line joining the points.",
+   "type": "numeric",
+   "prompt": "$(-\\frac{5}{2}, \\frac{1}{4})$ and $(3, -\\frac{3}{4})$",
+   "answer": "-2/11"
+  },
+  {
+   "id": "q13k",
+   "label": "13k",
+   "section": "Enrichment",
+   "stem": "The rise and run between two points are the differences between their $y$-coordinates and their $x$-coordinates. Use this to find the gradient of the line joining the points.",
+   "type": "numeric",
+   "prompt": "$(-\\frac{5}{3}, 3)$ and $(\\frac{1}{2}, \\frac{1}{4})$",
+   "answer": "-33/26"
+  }
+ ]
+},
+{
+ "id": "y8-9h",
+ "year": 8,
+ "chapter": "Chapter 9: Linear relationships",
+ "title": "9H Gradient-intercept form",
+ "description": "Read the gradient and y-intercept from y = mx + c and write rules for straight line graphs.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "State the gradient ($m$) and the $y$-intercept ($c$) for the graph of each rule.",
+   "type": "numeric",
+   "prompt": "$y = 3x + 5$: the gradient",
+   "answer": "3",
+   "hint": "Type a fraction with /, for example 3/4 or -5/2."
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "State the gradient ($m$) and the $y$-intercept ($c$) for the graph of each rule.",
+   "type": "numeric",
+   "prompt": "$y = 3x + 5$: the $y$-intercept",
+   "answer": "5"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "State the gradient ($m$) and the $y$-intercept ($c$) for the graph of each rule.",
+   "type": "numeric",
+   "prompt": "$y = 7x - 2$: the gradient",
+   "answer": "7"
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "State the gradient ($m$) and the $y$-intercept ($c$) for the graph of each rule.",
+   "type": "numeric",
+   "prompt": "$y = 7x - 2$: the $y$-intercept",
+   "answer": "-2"
+  },
+  {
+   "id": "q1e",
+   "label": "1e",
+   "section": "Fluency",
+   "stem": "State the gradient ($m$) and the $y$-intercept ($c$) for the graph of each rule.",
+   "type": "numeric",
+   "prompt": "$y = \\frac{1}{3}x - 4$: the gradient",
+   "answer": "1/3"
+  },
+  {
+   "id": "q1f",
+   "label": "1f",
+   "section": "Fluency",
+   "stem": "State the gradient ($m$) and the $y$-intercept ($c$) for the graph of each rule.",
+   "type": "numeric",
+   "prompt": "$y = \\frac{1}{3}x - 4$: the $y$-intercept",
+   "answer": "-4"
+  },
+  {
+   "id": "q1g",
+   "label": "1g",
+   "section": "Fluency",
+   "stem": "State the gradient ($m$) and the $y$-intercept ($c$) for the graph of each rule.",
+   "type": "numeric",
+   "prompt": "$y = -\\frac{3}{4}x + 2$: the gradient",
+   "answer": "-3/4"
+  },
+  {
+   "id": "q1h",
+   "label": "1h",
+   "section": "Fluency",
+   "stem": "State the gradient ($m$) and the $y$-intercept ($c$) for the graph of each rule.",
+   "type": "numeric",
+   "prompt": "$y = -\\frac{3}{4}x + 2$: the $y$-intercept",
+   "answer": "2"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "State the gradient ($m$) and the $y$-intercept ($c$) for the graph of each rule.",
+   "type": "numeric",
+   "prompt": "$y = 5x + 3$: the gradient",
+   "answer": "5",
+   "hint": "Type a fraction with /, for example 3/4 or -5/2."
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "State the gradient ($m$) and the $y$-intercept ($c$) for the graph of each rule.",
+   "type": "numeric",
+   "prompt": "$y = 5x + 3$: the $y$-intercept",
+   "answer": "3"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "State the gradient ($m$) and the $y$-intercept ($c$) for the graph of each rule.",
+   "type": "numeric",
+   "prompt": "$y = 2x + 9$: the gradient",
+   "answer": "2"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "State the gradient ($m$) and the $y$-intercept ($c$) for the graph of each rule.",
+   "type": "numeric",
+   "prompt": "$y = 2x + 9$: the $y$-intercept",
+   "answer": "9"
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "State the gradient ($m$) and the $y$-intercept ($c$) for the graph of each rule.",
+   "type": "numeric",
+   "prompt": "$y = \\frac{1}{4}x + 3$: the gradient",
+   "answer": "1/4"
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "State the gradient ($m$) and the $y$-intercept ($c$) for the graph of each rule.",
+   "type": "numeric",
+   "prompt": "$y = \\frac{1}{4}x + 3$: the $y$-intercept",
+   "answer": "3"
+  },
+  {
+   "id": "q2g",
+   "label": "2g",
+   "section": "Fluency",
+   "stem": "State the gradient ($m$) and the $y$-intercept ($c$) for the graph of each rule.",
+   "type": "numeric",
+   "prompt": "$y = \\frac{3}{5}x + \\frac{1}{3}$: the gradient",
+   "answer": "3/5"
+  },
+  {
+   "id": "q2h",
+   "label": "2h",
+   "section": "Fluency",
+   "stem": "State the gradient ($m$) and the $y$-intercept ($c$) for the graph of each rule.",
+   "type": "numeric",
+   "prompt": "$y = \\frac{3}{5}x + \\frac{1}{3}$: the $y$-intercept",
+   "answer": "1/3"
+  },
+  {
+   "id": "q2i",
+   "label": "2i",
+   "section": "Fluency",
+   "stem": "State the gradient ($m$) and the $y$-intercept ($c$) for the graph of each rule.",
+   "type": "numeric",
+   "prompt": "$y = -3x + 8$: the gradient",
+   "answer": "-3"
+  },
+  {
+   "id": "q2j",
+   "label": "2j",
+   "section": "Fluency",
+   "stem": "State the gradient ($m$) and the $y$-intercept ($c$) for the graph of each rule.",
+   "type": "numeric",
+   "prompt": "$y = -3x + 8$: the $y$-intercept",
+   "answer": "8"
+  },
+  {
+   "id": "q2k",
+   "label": "2k",
+   "section": "Fluency",
+   "stem": "State the gradient ($m$) and the $y$-intercept ($c$) for the graph of each rule.",
+   "type": "numeric",
+   "prompt": "$y = -5x + 5$: the gradient",
+   "answer": "-5"
+  },
+  {
+   "id": "q2l",
+   "label": "2l",
+   "section": "Fluency",
+   "stem": "State the gradient ($m$) and the $y$-intercept ($c$) for the graph of each rule.",
+   "type": "numeric",
+   "prompt": "$y = -5x + 5$: the $y$-intercept",
+   "answer": "5"
+  },
+  {
+   "id": "q2m",
+   "label": "2m",
+   "section": "Fluency",
+   "stem": "State the gradient ($m$) and the $y$-intercept ($c$) for the graph of each rule.",
+   "type": "numeric",
+   "prompt": "$y = -x - 7$: the gradient",
+   "answer": "-1"
+  },
+  {
+   "id": "q2n",
+   "label": "2n",
+   "section": "Fluency",
+   "stem": "State the gradient ($m$) and the $y$-intercept ($c$) for the graph of each rule.",
+   "type": "numeric",
+   "prompt": "$y = -x - 7$: the $y$-intercept",
+   "answer": "-7"
+  },
+  {
+   "id": "q2o",
+   "label": "2o",
+   "section": "Fluency",
+   "stem": "State the gradient ($m$) and the $y$-intercept ($c$) for the graph of each rule.",
+   "type": "numeric",
+   "prompt": "$y = -\\frac{3}{4}x - \\frac{2}{5}$: the gradient",
+   "answer": "-3/4"
+  },
+  {
+   "id": "q2p",
+   "label": "2p",
+   "section": "Fluency",
+   "stem": "State the gradient ($m$) and the $y$-intercept ($c$) for the graph of each rule.",
+   "type": "numeric",
+   "prompt": "$y = -\\frac{3}{4}x - \\frac{2}{5}$: the $y$-intercept",
+   "answer": "-2/5"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Find the rule for each graph by first finding the gradient ($m$) and the $y$-intercept ($c$).",
+   "type": "expression",
+   "prompt": "Write the rule.",
+   "answer": "y=3x-2",
+   "accept": [
+    "3x-2"
+   ],
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -1,
+     3
+    ],
+    "y": [
+     -3,
+     2
+    ],
+    "path": [
+     [
+      -0.3333333333333333,
+      -3
+     ],
+     [
+      1.3333333333333333,
+      2
+     ]
+    ],
+    "points": {
+     "(0, −2)": [
+      0,
+      -2
+     ],
+     "(1, 1)": [
+      1,
+      1
+     ]
+    }
+   },
+   "hint": "Type the rule starting with y =, for example y = 3x - 1. Type a fraction gradient like 2/3x or 2x/3."
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Find the rule for each graph by first finding the gradient ($m$) and the $y$-intercept ($c$).",
+   "type": "expression",
+   "prompt": "Write the rule.",
+   "answer": "y=x-3",
+   "accept": [
+    "x-3"
+   ],
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -1,
+     5
+    ],
+    "y": [
+     -4,
+     1
+    ],
+    "path": [
+     [
+      -1,
+      -4
+     ],
+     [
+      4,
+      1
+     ]
+    ],
+    "points": {
+     "(3, 0)": [
+      3,
+      0
+     ],
+     "(0, −3)": [
+      0,
+      -3
+     ]
+    }
+   }
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Find the rule for each graph by first finding the gradient ($m$) and the $y$-intercept ($c$).",
+   "type": "expression",
+   "prompt": "Write the rule.",
+   "answer": "y=2x+4",
+   "accept": [
+    "2x+4"
+   ],
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -3,
+     2
+    ],
+    "y": [
+     -1,
+     5
+    ],
+    "path": [
+     [
+      -2.5,
+      -1
+     ],
+     [
+      0.5,
+      5
+     ]
+    ],
+    "points": {
+     "(0, 4)": [
+      0,
+      4
+     ],
+     "(−2, 0)": [
+      -2,
+      0
+     ]
+    }
+   }
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Find the rule for each graph by first finding the gradient ($m$) and the $y$-intercept ($c$).",
+   "type": "expression",
+   "prompt": "Write the rule.",
+   "answer": "y=x+4",
+   "accept": [
+    "x+4"
+   ],
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -5,
+     2
+    ],
+    "y": [
+     -1,
+     5
+    ],
+    "path": [
+     [
+      -5,
+      -1
+     ],
+     [
+      1,
+      5
+     ]
+    ],
+    "points": {
+     "(−4, 0)": [
+      -4,
+      0
+     ],
+     "(0, 4)": [
+      0,
+      4
+     ]
+    }
+   }
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "Find the rule for each graph by first finding the gradient ($m$) and the $y$-intercept ($c$).",
+   "type": "expression",
+   "prompt": "Write the rule.",
+   "answer": "y=3x+1",
+   "accept": [
+    "3x+1"
+   ],
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -2,
+     2
+    ],
+    "y": [
+     -3,
+     2
+    ],
+    "path": [
+     [
+      -1.3333333333333333,
+      -3
+     ],
+     [
+      0.3333333333333333,
+      2
+     ]
+    ],
+    "points": {
+     "(−1, −2)": [
+      -1,
+      -2
+     ],
+     "(0, 1)": [
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "Find the rule for each graph by first finding the gradient ($m$) and the $y$-intercept ($c$).",
+   "type": "expression",
+   "prompt": "Write the rule.",
+   "answer": "y=2x-1",
+   "accept": [
+    "2x-1"
+   ],
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -3,
+     2
+    ],
+    "y": [
+     -6,
+     1
+    ],
+    "path": [
+     [
+      -2.5,
+      -6
+     ],
+     [
+      1,
+      1
+     ]
+    ],
+    "points": {
+     "(−2, −5)": [
+      -2,
+      -5
+     ],
+     "(0, −1)": [
+      0,
+      -1
+     ]
+    }
+   }
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "Find the rule for each graph by first finding the values of $m$ and $c$.",
+   "type": "expression",
+   "prompt": "Write the rule.",
+   "answer": "y=-x+3",
+   "accept": [
+    "-x+3"
+   ],
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -1,
+     5
+    ],
+    "y": [
+     -1,
+     4
+    ],
+    "path": [
+     [
+      -1,
+      4
+     ],
+     [
+      4,
+      -1
+     ]
+    ],
+    "points": {
+     "(3, 0)": [
+      3,
+      0
+     ],
+     "(0, 3)": [
+      0,
+      3
+     ]
+    }
+   },
+   "hint": "Type the rule starting with y =, for example y = 3x - 1. Type a fraction gradient like 2/3x or 2x/3."
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "Find the rule for each graph by first finding the values of $m$ and $c$.",
+   "type": "expression",
+   "prompt": "Write the rule.",
+   "answer": "y=-3x+3",
+   "accept": [
+    "-3x+3"
+   ],
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -1,
+     3
+    ],
+    "y": [
+     -1,
+     4
+    ],
+    "path": [
+     [
+      -0.3333333333333333,
+      4
+     ],
+     [
+      1.3333333333333333,
+      -1
+     ]
+    ],
+    "points": {
+     "(1, 0)": [
+      1,
+      0
+     ],
+     "(0, 3)": [
+      0,
+      3
+     ]
+    }
+   }
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "Find the rule for each graph by first finding the values of $m$ and $c$.",
+   "type": "expression",
+   "prompt": "Write the rule.",
+   "answer": "y=-4x+1",
+   "accept": [
+    "-4x+1"
+   ],
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -1,
+     3
+    ],
+    "y": [
+     -4,
+     2
+    ],
+    "path": [
+     [
+      -0.25,
+      2
+     ],
+     [
+      1.25,
+      -4
+     ]
+    ],
+    "points": {
+     "(1, −3)": [
+      1,
+      -3
+     ],
+     "(0, 1)": [
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "Find the rule for each graph by first finding the values of $m$ and $c$.",
+   "type": "expression",
+   "prompt": "Write the rule.",
+   "answer": "y=-2x+1",
+   "accept": [
+    "-2x+1"
+   ],
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -3,
+     2
+    ],
+    "y": [
+     -1,
+     6
+    ],
+    "path": [
+     [
+      -2.5,
+      6
+     ],
+     [
+      1,
+      -1
+     ]
+    ],
+    "points": {
+     "(−2, 5)": [
+      -2,
+      5
+     ],
+     "(0, 1)": [
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Fluency",
+   "stem": "Find the rule for each graph by first finding the values of $m$ and $c$.",
+   "type": "expression",
+   "prompt": "Write the rule.",
+   "answer": "y=-5x-1",
+   "accept": [
+    "-5x-1"
+   ],
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -2,
+     2
+    ],
+    "y": [
+     -2,
+     5
+    ],
+    "path": [
+     [
+      -1.2,
+      5
+     ],
+     [
+      0.2,
+      -2
+     ]
+    ],
+    "points": {
+     "(−1, 4)": [
+      -1,
+      4
+     ],
+     "(0, −1)": [
+      0,
+      -1
+     ]
+    }
+   }
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Fluency",
+   "stem": "Find the rule for each graph by first finding the values of $m$ and $c$.",
+   "type": "expression",
+   "prompt": "Write the rule.",
+   "answer": "y=-2x+2",
+   "accept": [
+    "-2x+2"
+   ],
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -5,
+     2
+    ],
+    "y": [
+     -1,
+     11
+    ],
+    "path": [
+     [
+      -4.5,
+      11
+     ],
+     [
+      1.5,
+      -1
+     ]
+    ],
+    "points": {
+     "(−4, 10)": [
+      -4,
+      10
+     ],
+     "(0, 2)": [
+      0,
+      2
+     ]
+    }
+   }
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Fluency",
+   "stem": "These graphs have rules that involve fractions. Find $m$ and $c$ and write the rule.",
+   "type": "expression",
+   "prompt": "Write the rule.",
+   "answer": "y=2x/3+2",
+   "accept": [
+    "2x/3+2"
+   ],
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -4,
+     2
+    ],
+    "y": [
+     -1,
+     3
+    ],
+    "path": [
+     [
+      -4,
+      -0.6666666666666666
+     ],
+     [
+      1.5,
+      3
+     ]
+    ],
+    "points": {
+     "(−3, 0)": [
+      -3,
+      0
+     ],
+     "(0, 2)": [
+      0,
+      2
+     ]
+    }
+   },
+   "hint": "Type the rule starting with y =, for example y = 3x - 1. Type a fraction gradient like 2/3x or 2x/3."
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Fluency",
+   "stem": "These graphs have rules that involve fractions. Find $m$ and $c$ and write the rule.",
+   "type": "expression",
+   "prompt": "Write the rule.",
+   "answer": "y=-x/2+1/2",
+   "accept": [
+    "-x/2+1/2"
+   ],
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -4,
+     2
+    ],
+    "y": [
+     -1,
+     3
+    ],
+    "path": [
+     [
+      -4,
+      2.5
+     ],
+     [
+      2,
+      -0.5
+     ]
+    ],
+    "points": {
+     "(−3, 2)": [
+      -3,
+      2
+     ],
+     "(0, 1/2)": [
+      0,
+      0.5
+     ]
+    }
+   }
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Fluency",
+   "stem": "These graphs have rules that involve fractions. Find $m$ and $c$ and write the rule.",
+   "type": "expression",
+   "prompt": "Write the rule.",
+   "answer": "y=x/3-5/2",
+   "accept": [
+    "x/3-5/2"
+   ],
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -4,
+     2
+    ],
+    "y": [
+     -5,
+     1
+    ],
+    "path": [
+     [
+      -4,
+      -3.8333333333333335
+     ],
+     [
+      2,
+      -1.8333333333333333
+     ]
+    ],
+    "points": {
+     "(−3, −7/2)": [
+      -3,
+      -3.5
+     ],
+     "(0, −5/2)": [
+      0,
+      -2.5
+     ]
+    }
+   }
+  },
+  {
+   "id": "q6",
+   "label": "6",
+   "section": "Problem-solving",
+   "type": "ordered",
+   "prompt": "The rules are labelled: $\\text{A}: y = 3x + 4$,  $\\text{B}: y = 5x - 2$,  $\\text{C}: y = x + 8$,  $\\text{D}: y = 2x - 9$. Order the graphs from steepest to least steep.",
+   "answer": [
+    "B",
+    "A",
+    "D",
+    "C"
+   ],
+   "hint": "Type the letters in order, separated by commas, for example D, C, B, A"
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Problem-solving",
+   "stem": "Each graph is drawn without numbers on the axes (and the axes may have different scales). Choose the correct rule for each graph.",
+   "type": "choice",
+   "prompt": "Graph a",
+   "answer": 1,
+   "options": [
+    "y = x - 5",
+    "y = 2x + 3",
+    "y = -x + 4",
+    "y = -3x - 2"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 22,
+    "items": [
+     {
+      "seg": [
+       -4.5,
+       0,
+       4.5,
+       0
+      ],
+      "arrow": "both"
+     },
+     {
+      "seg": [
+       0,
+       -4.5,
+       0,
+       4.5
+      ],
+      "arrow": "both"
+     },
+     {
+      "label": "x",
+      "at": [
+       4.9,
+       0
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       4.95
+      ]
+     },
+     {
+      "seg": [
+       -4,
+       -2.4,
+       2.4,
+       4
+      ],
+      "arrow": "both"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Problem-solving",
+   "stem": "Each graph is drawn without numbers on the axes (and the axes may have different scales). Choose the correct rule for each graph.",
+   "type": "choice",
+   "prompt": "Graph b",
+   "answer": 3,
+   "options": [
+    "y = x - 5",
+    "y = 2x + 3",
+    "y = -x + 4",
+    "y = -3x - 2"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 22,
+    "items": [
+     {
+      "seg": [
+       -4.5,
+       0,
+       4.5,
+       0
+      ],
+      "arrow": "both"
+     },
+     {
+      "seg": [
+       0,
+       -4.5,
+       0,
+       4.5
+      ],
+      "arrow": "both"
+     },
+     {
+      "label": "x",
+      "at": [
+       4.9,
+       0
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       4.95
+      ]
+     },
+     {
+      "seg": [
+       -3.375,
+       4,
+       1.625,
+       -4
+      ],
+      "arrow": "both"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Problem-solving",
+   "stem": "Each graph is drawn without numbers on the axes (and the axes may have different scales). Choose the correct rule for each graph.",
+   "type": "choice",
+   "prompt": "Graph c",
+   "answer": 0,
+   "options": [
+    "y = x - 5",
+    "y = 2x + 3",
+    "y = -x + 4",
+    "y = -3x - 2"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 22,
+    "items": [
+     {
+      "seg": [
+       -4.5,
+       0,
+       4.5,
+       0
+      ],
+      "arrow": "both"
+     },
+     {
+      "seg": [
+       0,
+       -4.5,
+       0,
+       4.5
+      ],
+      "arrow": "both"
+     },
+     {
+      "label": "x",
+      "at": [
+       4.9,
+       0
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       4.95
+      ]
+     },
+     {
+      "seg": [
+       -1.75,
+       -4,
+       4,
+       0.6
+      ],
+      "arrow": "both"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q7d",
+   "label": "7d",
+   "section": "Problem-solving",
+   "stem": "Each graph is drawn without numbers on the axes (and the axes may have different scales). Choose the correct rule for each graph.",
+   "type": "choice",
+   "prompt": "Graph d",
+   "answer": 2,
+   "options": [
+    "y = x - 5",
+    "y = 2x + 3",
+    "y = -x + 4",
+    "y = -3x - 2"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 22,
+    "items": [
+     {
+      "seg": [
+       -4.5,
+       0,
+       4.5,
+       0
+      ],
+      "arrow": "both"
+     },
+     {
+      "seg": [
+       0,
+       -4.5,
+       0,
+       4.5
+      ],
+      "arrow": "both"
+     },
+     {
+      "label": "x",
+      "at": [
+       4.9,
+       0
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       4.95
+      ]
+     },
+     {
+      "seg": [
+       -2.25,
+       4,
+       4,
+       -1
+      ],
+      "arrow": "both"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Problem-solving",
+   "stem": "Find the rule for the line joining each pair of points.",
+   "type": "expression",
+   "prompt": "$(0, 0)$ and $(3, 12)$",
+   "answer": "y=4x",
+   "accept": [
+    "4x"
+   ],
+   "hint": "Type the rule starting with y =, for example y = 3x - 1. Type a fraction gradient like 2/3x or 2x/3."
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Problem-solving",
+   "stem": "Find the rule for the line joining each pair of points.",
+   "type": "expression",
+   "prompt": "$(-2, 6)$ and $(0, 0)$",
+   "answer": "y=-3x",
+   "accept": [
+    "-3x"
+   ]
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Problem-solving",
+   "stem": "Find the rule for the line joining each pair of points.",
+   "type": "expression",
+   "prompt": "$(-3, 8)$ and $(0, 2)$",
+   "answer": "y=-2x+2",
+   "accept": [
+    "-2x+2"
+   ]
+  },
+  {
+   "id": "q8d",
+   "label": "8d",
+   "section": "Problem-solving",
+   "stem": "Find the rule for the line joining each pair of points.",
+   "type": "expression",
+   "prompt": "$(0, -5)$ and $(2, 2)$",
+   "answer": "y=7x/2-5",
+   "accept": [
+    "7x/2-5"
+   ]
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Problem-solving",
+   "stem": "A line passes through the two points given. The $y$-intercept is not given. Find $m$ and $c$ and write the rule. A sketch may help.",
+   "type": "expression",
+   "prompt": "$(-1, 2)$ and $(1, 8)$",
+   "answer": "y=3x+5",
+   "accept": [
+    "3x+5"
+   ],
+   "hint": "Type the rule starting with y =, for example y = 3x - 1. Type a fraction gradient like 2/3x or 2x/3."
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Problem-solving",
+   "stem": "A line passes through the two points given. The $y$-intercept is not given. Find $m$ and $c$ and write the rule. A sketch may help.",
+   "type": "expression",
+   "prompt": "$(-2, 7)$ and $(2, 5)$",
+   "answer": "y=-x/2+6",
+   "accept": [
+    "-x/2+6"
+   ]
+  },
+  {
+   "id": "q9c",
+   "label": "9c",
+   "section": "Problem-solving",
+   "stem": "A line passes through the two points given. The $y$-intercept is not given. Find $m$ and $c$ and write the rule. A sketch may help.",
+   "type": "expression",
+   "prompt": "$(-3, 5)$ and $(2, -5)$",
+   "answer": "y=-2x-1",
+   "accept": [
+    "-2x-1"
+   ]
+  },
+  {
+   "id": "q9d",
+   "label": "9d",
+   "section": "Problem-solving",
+   "stem": "A line passes through the two points given. The $y$-intercept is not given. Find $m$ and $c$ and write the rule. A sketch may help.",
+   "type": "expression",
+   "prompt": "$(-4, 0)$ and $(2, 9)$",
+   "answer": "y=3x/2+6",
+   "accept": [
+    "3x/2+6"
+   ]
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Reasoning",
+   "stem": "Lines are parallel if they have the same gradient.",
+   "type": "numeric",
+   "prompt": "What is the gradient of both $y = 3x + 1$ and $y = 3x - 7$?",
+   "answer": "3"
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Reasoning",
+   "stem": "Lines are parallel if they have the same gradient.",
+   "type": "expression",
+   "prompt": "Write the rule of the line that is parallel to $y = 4x - 1$ and passes through $(0, 6)$.",
+   "answer": "y=4x+6",
+   "accept": [
+    "4x+6"
+   ],
+   "hint": "Type the rule starting with y =, for example y = 3x - 1. Type a fraction gradient like 2/3x or 2x/3."
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Reasoning",
+   "stem": "A graph passes through the points $(0, -3)$ and $(6, -3)$.",
+   "type": "numeric",
+   "prompt": "Find the gradient using $\\frac{\\text{rise}}{\\text{run}}$.",
+   "answer": "0"
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Reasoning",
+   "stem": "A graph passes through the points $(0, -3)$ and $(6, -3)$.",
+   "type": "numeric",
+   "prompt": "State the $y$-intercept (the value of $c$).",
+   "answer": "-3"
+  },
+  {
+   "id": "q11c",
+   "label": "11c",
+   "section": "Reasoning",
+   "stem": "A graph passes through the points $(0, -3)$ and $(6, -3)$.",
+   "type": "expression",
+   "prompt": "Write the rule, in the simplest way it is usually written.",
+   "answer": "y=-3",
+   "hint": "Start with y ="
+  },
+  {
+   "id": "q12a",
+   "label": "12a",
+   "section": "Reasoning",
+   "stem": "Write the rule for each graph. Your rule should include the pronumerals $p$ and/or $q$.",
+   "type": "expression",
+   "prompt": "The line passes through $O$ and $(p, q)$.",
+   "answer": "y=q*x/p",
+   "accept": [
+    "qx/p"
+   ],
+   "hint": "Start with y =, for example y = px/q",
+   "figure": {
+    "kind": "diagram",
+    "unit": 24,
+    "items": [
+     {
+      "seg": [
+       -4.5,
+       0,
+       4.5,
+       0
+      ],
+      "arrow": "both"
+     },
+     {
+      "seg": [
+       0,
+       -4.5,
+       0,
+       4.5
+      ],
+      "arrow": "both"
+     },
+     {
+      "label": "x",
+      "at": [
+       4.9,
+       0
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       4.95
+      ]
+     },
+     {
+      "seg": [
+       -3,
+       -3.6,
+       3.6,
+       4.32
+      ],
+      "arrow": "both"
+     },
+     {
+      "point": [
+       2.5,
+       3
+      ],
+      "name": "(p, q)",
+      "pos": "e"
+     },
+     {
+      "label": "O",
+      "at": [
+       0.4,
+       -0.45
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q12b",
+   "label": "12b",
+   "section": "Reasoning",
+   "stem": "Write the rule for each graph. Your rule should include the pronumerals $p$ and/or $q$.",
+   "type": "expression",
+   "prompt": "The line passes through $O$ and $(p, 2p)$.",
+   "answer": "y=2x",
+   "accept": [
+    "2x"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 24,
+    "items": [
+     {
+      "seg": [
+       -4.5,
+       0,
+       4.5,
+       0
+      ],
+      "arrow": "both"
+     },
+     {
+      "seg": [
+       0,
+       -4.5,
+       0,
+       4.5
+      ],
+      "arrow": "both"
+     },
+     {
+      "label": "x",
+      "at": [
+       4.9,
+       0
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       4.95
+      ]
+     },
+     {
+      "seg": [
+       -2.1,
+       -4.2,
+       2.1,
+       4.2
+      ],
+      "arrow": "both"
+     },
+     {
+      "point": [
+       1.8,
+       3.6
+      ],
+      "name": "(p, 2p)",
+      "pos": "e"
+     },
+     {
+      "label": "O",
+      "at": [
+       0.4,
+       -0.45
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q12c",
+   "label": "12c",
+   "section": "Reasoning",
+   "stem": "Write the rule for each graph. Your rule should include the pronumerals $p$ and/or $q$.",
+   "type": "expression",
+   "prompt": "The line passes through $(q, 0)$ and $(0, p)$.",
+   "answer": "y=-p*x/q+p",
+   "accept": [
+    "p-px/q"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 24,
+    "items": [
+     {
+      "seg": [
+       -4.5,
+       0,
+       4.5,
+       0
+      ],
+      "arrow": "both"
+     },
+     {
+      "seg": [
+       0,
+       -4.5,
+       0,
+       4.5
+      ],
+      "arrow": "both"
+     },
+     {
+      "label": "x",
+      "at": [
+       4.9,
+       0
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       4.95
+      ]
+     },
+     {
+      "seg": [
+       -1.2,
+       3.5,
+       4.2,
+       -1
+      ],
+      "arrow": "both"
+     },
+     {
+      "point": [
+       3,
+       0
+      ],
+      "name": "(q, 0)",
+      "pos": "ne"
+     },
+     {
+      "point": [
+       0,
+       2.5
+      ],
+      "name": "(0, p)",
+      "pos": "ne"
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.4,
+       -0.45
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q13a",
+   "label": "13a",
+   "section": "Reasoning",
+   "stem": "Rearrange each rule into the form $y = mx + c$, then state $m$ and $c$.",
+   "type": "numeric",
+   "prompt": "$2y + 8x = 6$: the gradient",
+   "answer": "-4",
+   "hint": "Type a fraction with /, for example 3/4 or -5/2."
+  },
+  {
+   "id": "q13b",
+   "label": "13b",
+   "section": "Reasoning",
+   "stem": "Rearrange each rule into the form $y = mx + c$, then state $m$ and $c$.",
+   "type": "numeric",
+   "prompt": "$2y + 8x = 6$: the $y$-intercept",
+   "answer": "3"
+  },
+  {
+   "id": "q13c",
+   "label": "13c",
+   "section": "Reasoning",
+   "stem": "Rearrange each rule into the form $y = mx + c$, then state $m$ and $c$.",
+   "type": "numeric",
+   "prompt": "$3y - 9x = 12$: the gradient",
+   "answer": "3"
+  },
+  {
+   "id": "q13d",
+   "label": "13d",
+   "section": "Reasoning",
+   "stem": "Rearrange each rule into the form $y = mx + c$, then state $m$ and $c$.",
+   "type": "numeric",
+   "prompt": "$3y - 9x = 12$: the $y$-intercept",
+   "answer": "4"
+  },
+  {
+   "id": "q13e",
+   "label": "13e",
+   "section": "Reasoning",
+   "stem": "Rearrange each rule into the form $y = mx + c$, then state $m$ and $c$.",
+   "type": "numeric",
+   "prompt": "$2y - 5x = 6$: the gradient",
+   "answer": "5/2"
+  },
+  {
+   "id": "q13f",
+   "label": "13f",
+   "section": "Reasoning",
+   "stem": "Rearrange each rule into the form $y = mx + c$, then state $m$ and $c$.",
+   "type": "numeric",
+   "prompt": "$2y - 5x = 6$: the $y$-intercept",
+   "answer": "3"
+  },
+  {
+   "id": "q13g",
+   "label": "13g",
+   "section": "Reasoning",
+   "stem": "Rearrange each rule into the form $y = mx + c$, then state $m$ and $c$.",
+   "type": "numeric",
+   "prompt": "$x - 3y = -6$: the gradient",
+   "answer": "1/3"
+  },
+  {
+   "id": "q13h",
+   "label": "13h",
+   "section": "Reasoning",
+   "stem": "Rearrange each rule into the form $y = mx + c$, then state $m$ and $c$.",
+   "type": "numeric",
+   "prompt": "$x - 3y = -6$: the $y$-intercept",
+   "answer": "2"
+  },
+  {
+   "id": "q14a",
+   "label": "14a",
+   "section": "Enrichment",
+   "stem": "To sketch a graph, plot the $y$-intercept, then use the gradient to step to a second point. For each rule, find the point on the graph with the given $x$-coordinate.",
+   "type": "point",
+   "prompt": "$y = 4x - 2$, at $x = 1$",
+   "answer": "(1,2)",
+   "hint": "Type a point as (x, y), for example (1, 3)."
+  },
+  {
+   "id": "q14b",
+   "label": "14b",
+   "section": "Enrichment",
+   "stem": "To sketch a graph, plot the $y$-intercept, then use the gradient to step to a second point. For each rule, find the point on the graph with the given $x$-coordinate.",
+   "type": "point",
+   "prompt": "$y = 3x - 4$, at $x = 1$",
+   "answer": "(1,-1)"
+  },
+  {
+   "id": "q14c",
+   "label": "14c",
+   "section": "Enrichment",
+   "stem": "To sketch a graph, plot the $y$-intercept, then use the gradient to step to a second point. For each rule, find the point on the graph with the given $x$-coordinate.",
+   "type": "point",
+   "prompt": "$y = -x + 5$, at $x = 1$",
+   "answer": "(1,4)"
+  },
+  {
+   "id": "q14d",
+   "label": "14d",
+   "section": "Enrichment",
+   "stem": "To sketch a graph, plot the $y$-intercept, then use the gradient to step to a second point. For each rule, find the point on the graph with the given $x$-coordinate.",
+   "type": "point",
+   "prompt": "$y = -2x - 3$, at $x = 1$",
+   "answer": "(1,-5)"
+  },
+  {
+   "id": "q14e",
+   "label": "14e",
+   "section": "Enrichment",
+   "stem": "To sketch a graph, plot the $y$-intercept, then use the gradient to step to a second point. For each rule, find the point on the graph with the given $x$-coordinate.",
+   "type": "point",
+   "prompt": "$y = 5x$, at $x = 1$",
+   "answer": "(1,5)"
+  },
+  {
+   "id": "q14f",
+   "label": "14f",
+   "section": "Enrichment",
+   "stem": "To sketch a graph, plot the $y$-intercept, then use the gradient to step to a second point. For each rule, find the point on the graph with the given $x$-coordinate.",
+   "type": "point",
+   "prompt": "$y = -4x$, at $x = 1$",
+   "answer": "(1,-4)"
+  },
+  {
+   "id": "q14g",
+   "label": "14g",
+   "section": "Enrichment",
+   "stem": "To sketch a graph, plot the $y$-intercept, then use the gradient to step to a second point. For each rule, find the point on the graph with the given $x$-coordinate.",
+   "type": "point",
+   "prompt": "$y = \\frac{1}{3}x - 1$, at $x = 3$",
+   "answer": "(3,0)"
+  },
+  {
+   "id": "q14h",
+   "label": "14h",
+   "section": "Enrichment",
+   "stem": "To sketch a graph, plot the $y$-intercept, then use the gradient to step to a second point. For each rule, find the point on the graph with the given $x$-coordinate.",
+   "type": "point",
+   "prompt": "$y = -\\frac{3}{2}x + 2$, at $x = 2$",
+   "answer": "(2,-1)"
+  }
+ ]
+},
+{
+ "id": "y8-9i",
+ "year": 8,
+ "chapter": "Chapter 9: Linear relationships",
+ "title": "9I Applications of straight line graphs",
+ "description": "Write and use linear rules for real situations involving constant rates of change.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "A walker walks at a constant speed of $4$ km per hour for $5$ hours.",
+   "type": "ordered",
+   "prompt": "Complete the table of values, using $t$ for time in hours and $d$ for the distance travelled. Type the missing values of $d$.",
+   "answer": [
+    "4",
+    "8",
+    "12",
+    "16",
+    "20"
+   ],
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "t (hours)",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+     ],
+     [
+      "d (km)",
+      "0",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+     ]
+    ]
+   },
+   "hint": "Type the missing values in order, separated by commas."
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "A walker walks at a constant speed of $4$ km per hour for $5$ hours.",
+   "type": "expression",
+   "prompt": "Write a rule linking $d$ with $t$.",
+   "answer": "d=4t",
+   "accept": [
+    "4t"
+   ],
+   "hint": "Start with d =, for example d = 3t"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "A walker walks at a constant speed of $4$ km per hour for $5$ hours.",
+   "type": "numeric",
+   "prompt": "Use your rule to find the distance travelled after $2.5$ hours.",
+   "answer": "10",
+   "units": "km"
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "A walker walks at a constant speed of $4$ km per hour for $5$ hours.",
+   "type": "numeric",
+   "prompt": "Use your rule to find how long it takes for the distance travelled to reach $14$ km.",
+   "answer": "3.5",
+   "units": "hours"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "A ferry travels along a river at a constant speed of $7$ km per hour for $6$ hours.",
+   "type": "ordered",
+   "prompt": "Complete the table of values, using $t$ for time in hours and $d$ for the distance travelled. Type the missing values of $d$.",
+   "answer": [
+    "7",
+    "14",
+    "21",
+    "28",
+    "35",
+    "42"
+   ],
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "t (hours)",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+     ],
+     [
+      "d (km)",
+      "0",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+     ]
+    ]
+   },
+   "hint": "Type the missing values in order, separated by commas."
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "A ferry travels along a river at a constant speed of $7$ km per hour for $6$ hours.",
+   "type": "expression",
+   "prompt": "Write a rule linking $d$ with $t$.",
+   "answer": "d=7t",
+   "accept": [
+    "7t"
+   ]
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "A ferry travels along a river at a constant speed of $7$ km per hour for $6$ hours.",
+   "type": "numeric",
+   "prompt": "Use your rule to find the distance travelled after $3.5$ hours.",
+   "answer": "24.5",
+   "units": "km"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "A ferry travels along a river at a constant speed of $7$ km per hour for $6$ hours.",
+   "type": "numeric",
+   "prompt": "Use your rule to find how long it takes for the distance travelled to reach $35$ km.",
+   "answer": "5",
+   "units": "hours"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "A bath holds $36$ L of water. The plug is pulled out and the volume drops by $6$ L per second for $6$ seconds.",
+   "type": "ordered",
+   "prompt": "Complete the table of values, using $t$ for time in seconds and $V$ for the volume of water. Type the missing values of $V$.",
+   "answer": [
+    "30",
+    "24",
+    "18",
+    "12",
+    "6",
+    "0"
+   ],
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "t (seconds)",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+     ],
+     [
+      "V (L)",
+      "36",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+     ]
+    ]
+   },
+   "hint": "Type the missing values in order, separated by commas."
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "A bath holds $36$ L of water. The plug is pulled out and the volume drops by $6$ L per second for $6$ seconds.",
+   "type": "expression",
+   "prompt": "Write a rule linking $V$ with $t$.",
+   "answer": "V=36-6t",
+   "accept": [
+    "36-6t"
+   ]
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "A bath holds $36$ L of water. The plug is pulled out and the volume drops by $6$ L per second for $6$ seconds.",
+   "type": "numeric",
+   "prompt": "Use your rule to find the volume of water after $2.5$ seconds.",
+   "answer": "21",
+   "units": "L"
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "A bath holds $36$ L of water. The plug is pulled out and the volume drops by $6$ L per second for $6$ seconds.",
+   "type": "numeric",
+   "prompt": "Use your rule to find how long it takes for the volume of water to reach $15$ L.",
+   "answer": "3.5",
+   "units": "seconds"
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "A drone flying at a height of $360$ m starts to come down at a steady $90$ m per minute for $4$ minutes.",
+   "type": "ordered",
+   "prompt": "Complete the table of values, using $t$ for time in minutes and $h$ for the height of the drone. Type the missing values of $h$.",
+   "answer": [
+    "270",
+    "180",
+    "90",
+    "0"
+   ],
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "t (minutes)",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+     ],
+     [
+      "h (m)",
+      "360",
+      "?",
+      "?",
+      "?",
+      "?"
+     ]
+    ]
+   },
+   "hint": "Type the missing values in order, separated by commas."
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "A drone flying at a height of $360$ m starts to come down at a steady $90$ m per minute for $4$ minutes.",
+   "type": "expression",
+   "prompt": "Write a rule linking $h$ with $t$.",
+   "answer": "h=360-90t",
+   "accept": [
+    "360-90t"
+   ]
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "A drone flying at a height of $360$ m starts to come down at a steady $90$ m per minute for $4$ minutes.",
+   "type": "numeric",
+   "prompt": "Use your rule to find the height of the drone after $1.5$ minutes.",
+   "answer": "225",
+   "units": "m"
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "A drone flying at a height of $360$ m starts to come down at a steady $90$ m per minute for $4$ minutes.",
+   "type": "numeric",
+   "prompt": "Use your rule to find how long it takes for the height of the drone to reach $135$ m.",
+   "answer": "2.5",
+   "units": "minutes"
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Problem-solving",
+   "stem": "A camping gas canister starts with $2.4$ kg of gas. Gas is used at a rate of $0.3$ kg per hour.",
+   "type": "expression",
+   "prompt": "Write a rule for the mass of gas $M$ (kg) in terms of the time $t$ (hours).",
+   "answer": "M=2.4-0.3t",
+   "accept": [
+    "2.4-0.3t"
+   ],
+   "hint": "Start with M ="
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Problem-solving",
+   "stem": "A camping gas canister starts with $2.4$ kg of gas. Gas is used at a rate of $0.3$ kg per hour.",
+   "type": "numeric",
+   "prompt": "How long will it take for the canister to empty?",
+   "answer": "8",
+   "units": "hours"
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Problem-solving",
+   "stem": "A camping gas canister starts with $2.4$ kg of gas. Gas is used at a rate of $0.3$ kg per hour.",
+   "type": "numeric",
+   "prompt": "How long will it take for the mass of gas to drop to $1.05$ kg?",
+   "answer": "4.5",
+   "units": "hours"
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Problem-solving",
+   "stem": "A rower completes a $30$ km course at an average speed of $8$ km per hour.",
+   "type": "expression",
+   "prompt": "Write a rule for the distance travelled $d$ (km) in terms of the time $t$ (hours).",
+   "answer": "d=8t",
+   "accept": [
+    "8t"
+   ],
+   "hint": "Start with d ="
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Problem-solving",
+   "stem": "A rower completes a $30$ km course at an average speed of $8$ km per hour.",
+   "type": "numeric",
+   "prompt": "How long will it take the rower to travel $20$ km?",
+   "answer": "2.5",
+   "units": "hours"
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Problem-solving",
+   "stem": "A rower completes a $30$ km course at an average speed of $8$ km per hour.",
+   "type": "ordered",
+   "prompt": "How long will the rower take to finish the $30$ km course? Give your answer in hours and minutes.",
+   "answer": [
+    "3",
+    "45"
+   ],
+   "hint": "Type the hours, then the minutes, for example 2, 10"
+  },
+  {
+   "id": "q7",
+   "label": "7",
+   "section": "Problem-solving",
+   "type": "ordered",
+   "prompt": "A patch of algae on a pond grows by $6$ m$^2$ per day, starting from nothing. How long will it take to cover $20$ m$^2$? Give your answer in days and hours.",
+   "answer": [
+    "3",
+    "8"
+   ],
+   "hint": "Type the days, then the hours, for example 1, 6"
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Reasoning",
+   "stem": "The volume of water in a tank (in litres) is given by $V = 1500 - 250t$, where $t$ is in hours.",
+   "type": "numeric",
+   "prompt": "What is the initial volume?",
+   "answer": "1500",
+   "units": "L"
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Reasoning",
+   "stem": "The volume of water in a tank (in litres) is given by $V = 1500 - 250t$, where $t$ is in hours.",
+   "type": "choice",
+   "prompt": "Is the volume of water in the tank increasing or decreasing?",
+   "answer": 1,
+   "options": [
+    "Increasing",
+    "Decreasing"
+   ]
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Reasoning",
+   "stem": "The volume of water in a tank (in litres) is given by $V = 1500 - 250t$, where $t$ is in hours.",
+   "type": "numeric",
+   "prompt": "By how many litres does the volume change each hour?",
+   "answer": "250",
+   "units": "L"
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Reasoning",
+   "stem": "A toy balloon's height (in metres) above the ground after $t$ seconds is given by the rule $h = 12 - 3t$.",
+   "type": "numeric",
+   "prompt": "State the initial height of the balloon.",
+   "answer": "12",
+   "units": "m"
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Reasoning",
+   "stem": "A toy balloon's height (in metres) above the ground after $t$ seconds is given by the rule $h = 12 - 3t$.",
+   "type": "choice",
+   "prompt": "Is the balloon going up or down?",
+   "answer": 1,
+   "options": [
+    "Up",
+    "Down"
+   ]
+  },
+  {
+   "id": "q9c",
+   "label": "9c",
+   "section": "Reasoning",
+   "stem": "A toy balloon's height (in metres) above the ground after $t$ seconds is given by the rule $h = 12 - 3t$.",
+   "type": "numeric",
+   "prompt": "Find the height of the balloon after $2$ seconds.",
+   "answer": "6",
+   "units": "m"
+  },
+  {
+   "id": "q9d",
+   "label": "9d",
+   "section": "Reasoning",
+   "stem": "A toy balloon's height (in metres) above the ground after $t$ seconds is given by the rule $h = 12 - 3t$.",
+   "type": "numeric",
+   "prompt": "The rule stops working once the balloon reaches the ground. After how many seconds does that happen?",
+   "answer": "4",
+   "units": "seconds"
+  },
+  {
+   "id": "q9e",
+   "label": "9e",
+   "section": "Reasoning",
+   "stem": "A toy balloon's height (in metres) above the ground after $t$ seconds is given by the rule $h = 12 - 3t$.",
+   "type": "expression",
+   "prompt": "If the balloon had started from a height of $30$ m and come down at the same rate, write a rule relating $h$ and $t$.",
+   "answer": "h=30-3t",
+   "accept": [
+    "30-3t"
+   ],
+   "hint": "Start with h ="
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Reasoning",
+   "stem": "A phone call costs $15$ cents plus $0.4$ cents per second.",
+   "type": "expression",
+   "prompt": "Write a rule for the cost $c$ cents of a call lasting $t$ seconds.",
+   "answer": "c=0.4t+15",
+   "accept": [
+    "0.4t+15"
+   ],
+   "hint": "Start with c ="
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Reasoning",
+   "stem": "A phone call costs $15$ cents plus $0.4$ cents per second.",
+   "type": "expression",
+   "prompt": "Write a rule for the cost $D$ dollars of a call lasting $t$ seconds.",
+   "answer": "D=0.004t+0.15",
+   "accept": [
+    "0.004t+0.15"
+   ],
+   "hint": "Start with D ="
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Enrichment",
+   "stem": "Two small planes are near the same airfield. The first plane takes off from the runway and climbs at $18$ m per second. At the same moment, the second plane is flying at $90$ m and comes down at $9$ m per second.",
+   "type": "ordered",
+   "prompt": "Complete the table: type the missing heights $h_1$ of the first plane.",
+   "answer": [
+    "36",
+    "72",
+    "108",
+    "144",
+    "180"
+   ],
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "t (s)",
+      "0",
+      "2",
+      "4",
+      "6",
+      "8",
+      "10"
+     ],
+     [
+      "h₁ (m)",
+      "0",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+     ],
+     [
+      "h₂ (m)",
+      "90",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+     ]
+    ]
+   },
+   "hint": "Type the missing values in order, separated by commas."
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Enrichment",
+   "stem": "Two small planes are near the same airfield. The first plane takes off from the runway and climbs at $18$ m per second. At the same moment, the second plane is flying at $90$ m and comes down at $9$ m per second.",
+   "type": "ordered",
+   "prompt": "Complete the table: type the missing heights $h_2$ of the second plane.",
+   "answer": [
+    "72",
+    "54",
+    "36",
+    "18",
+    "0"
+   ],
+   "hint": "Type the missing values in order, separated by commas."
+  },
+  {
+   "id": "q11c",
+   "label": "11c",
+   "section": "Enrichment",
+   "stem": "Two small planes are near the same airfield. The first plane takes off from the runway and climbs at $18$ m per second. At the same moment, the second plane is flying at $90$ m and comes down at $9$ m per second.",
+   "type": "numeric",
+   "prompt": "How long does it take for the second plane to touch the ground?",
+   "answer": "10",
+   "units": "seconds"
+  },
+  {
+   "id": "q11d",
+   "label": "11d",
+   "section": "Enrichment",
+   "stem": "Two small planes are near the same airfield. The first plane takes off from the runway and climbs at $18$ m per second. At the same moment, the second plane is flying at $90$ m and comes down at $9$ m per second.",
+   "type": "expression",
+   "prompt": "Write a rule for the height $h$ of the first plane.",
+   "answer": "h=18t",
+   "accept": [
+    "18t"
+   ],
+   "hint": "Start with h ="
+  },
+  {
+   "id": "q11e",
+   "label": "11e",
+   "section": "Enrichment",
+   "stem": "Two small planes are near the same airfield. The first plane takes off from the runway and climbs at $18$ m per second. At the same moment, the second plane is flying at $90$ m and comes down at $9$ m per second.",
+   "type": "expression",
+   "prompt": "Write a rule for the height $h$ of the second plane.",
+   "answer": "h=90-9t",
+   "accept": [
+    "90-9t"
+   ],
+   "hint": "Start with h ="
+  },
+  {
+   "id": "q11f",
+   "label": "11f",
+   "section": "Enrichment",
+   "stem": "Two small planes are near the same airfield. The first plane takes off from the runway and climbs at $18$ m per second. At the same moment, the second plane is flying at $90$ m and comes down at $9$ m per second.",
+   "type": "numeric",
+   "prompt": "At what time are the two planes at the same height?",
+   "answer": "10/3",
+   "units": "seconds",
+   "hint": "Give an exact answer, as a fraction or mixed numeral, for example 2 1/3"
+  },
+  {
+   "id": "q11g",
+   "label": "11g",
+   "section": "Enrichment",
+   "stem": "Two small planes are near the same airfield. The first plane takes off from the runway and climbs at $18$ m per second. At the same moment, the second plane is flying at $90$ m and comes down at $9$ m per second.",
+   "type": "numeric",
+   "prompt": "At what time is the first plane at a height of $45$ m?",
+   "answer": "2.5",
+   "units": "seconds"
+  },
+  {
+   "id": "q11h",
+   "label": "11h",
+   "section": "Enrichment",
+   "stem": "Two small planes are near the same airfield. The first plane takes off from the runway and climbs at $18$ m per second. At the same moment, the second plane is flying at $90$ m and comes down at $9$ m per second.",
+   "type": "numeric",
+   "prompt": "At what time is the second plane at a height of $27$ m?",
+   "answer": "7",
+   "units": "seconds"
+  },
+  {
+   "id": "q11i",
+   "label": "11i",
+   "section": "Enrichment",
+   "stem": "Two small planes are near the same airfield. The first plane takes off from the runway and climbs at $18$ m per second. At the same moment, the second plane is flying at $90$ m and comes down at $9$ m per second.",
+   "type": "choice",
+   "prompt": "At the same moment, a third plane at $130$ m comes down at $20$ m per second. Will all three planes ever be at the same height at the same time?",
+   "answer": 1,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q11j",
+   "label": "11j",
+   "section": "Enrichment",
+   "stem": "Two small planes are near the same airfield. The first plane takes off from the runway and climbs at $18$ m per second. At the same moment, the second plane is flying at $90$ m and comes down at $9$ m per second.",
+   "type": "ordered",
+   "prompt": "What are the heights of the first, second and third planes at the $4$-second mark?",
+   "answer": [
+    "72",
+    "54",
+    "50"
+   ],
+   "units": "m",
+   "hint": "Type the three heights in order, separated by commas"
+  }
+ ]
+},
+{
+ "id": "y8-9j",
+ "year": 8,
+ "chapter": "Chapter 9: Linear relationships",
+ "title": "9J Non-linear graphs",
+ "description": "Complete tables of values for non-linear rules such as parabolas, and read features of curved graphs.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Use a table of values to draw the graph of $y = x^2 - 3$.",
+   "type": "ordered",
+   "prompt": "Complete the table of values. Type the missing $y$-values from left to right.",
+   "answer": [
+    "6",
+    "-2",
+    "-3",
+    "-2",
+    "1",
+    "6"
+   ],
+   "figure": {
+    "kind": "table",
+    "rows": [
+     [
+      "x",
+      "-3",
+      "-2",
+      "-1",
+      "0",
+      "1",
+      "2",
+      "3"
+     ],
+     [
+      "y",
+      "?",
+      "1",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+     ]
+    ]
+   },
+   "hint": "Type the missing values in order, separated by commas."
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Use a table of values to draw the graph of $y = x^2 - 3$.",
+   "type": "point",
+   "prompt": "The graph of $y = x^2 - 3$ is drawn above. What are the coordinates of its lowest point?",
+   "answer": "(0,-3)",
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -4,
+     4
+    ],
+    "y": [
+     -4,
+     7
+    ],
+    "path": [
+     [
+      -3,
+      6
+     ],
+     [
+      -2.75,
+      4.5625
+     ],
+     [
+      -2.5,
+      3.25
+     ],
+     [
+      -2.25,
+      2.0625
+     ],
+     [
+      -2,
+      1
+     ],
+     [
+      -1.75,
+      0.0625
+     ],
+     [
+      -1.5,
+      -0.75
+     ],
+     [
+      -1.25,
+      -1.4375
+     ],
+     [
+      -1,
+      -2
+     ],
+     [
+      -0.75,
+      -2.4375
+     ],
+     [
+      -0.5,
+      -2.75
+     ],
+     [
+      -0.25,
+      -2.9375
+     ],
+     [
+      0,
+      -3
+     ],
+     [
+      0.25,
+      -2.9375
+     ],
+     [
+      0.5,
+      -2.75
+     ],
+     [
+      0.75,
+      -2.4375
+     ],
+     [
+      1,
+      -2
+     ],
+     [
+      1.25,
+      -1.4375
+     ],
+     [
+      1.5,
+      -0.75
+     ],
+     [
+      1.75,
+      0.0625
+     ],
+     [
+      2,
+      1
+     ],
+     [
+      2.25,
+      2.0625
+     ],
+     [
+      2.5,
+      3.25
+     ],
+     [
+      2.75,
+      4.5625
+     ],
+     [
+      3,
+      6
+     ]
+    ]
+   },
+   "hint": "Type a point as (x, y), for example (2, -1)."
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Complete the table of values for each rule (the first step in plotting its graph). Type the missing $y$-values from left to right.",
+   "type": "ordered",
+   "prompt": "$y = x^2 + 2$",
+   "answer": [
+    "11",
+    "6",
+    "3",
+    "2",
+    "3",
+    "11"
+   ],
+   "figure": {
+    "kind": "table",
+    "rows": [
+     [
+      "x",
+      "-3",
+      "-2",
+      "-1",
+      "0",
+      "1",
+      "2",
+      "3"
+     ],
+     [
+      "y",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "6",
+      "?"
+     ]
+    ]
+   },
+   "hint": "Type the missing values in order, separated by commas."
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Complete the table of values for each rule (the first step in plotting its graph). Type the missing $y$-values from left to right.",
+   "type": "ordered",
+   "prompt": "$y = x^2 - 5$",
+   "answer": [
+    "4",
+    "-1",
+    "-5",
+    "-4",
+    "-1",
+    "4"
+   ],
+   "figure": {
+    "kind": "table",
+    "rows": [
+     [
+      "x",
+      "-3",
+      "-2",
+      "-1",
+      "0",
+      "1",
+      "2",
+      "3"
+     ],
+     [
+      "y",
+      "?",
+      "?",
+      "-4",
+      "?",
+      "?",
+      "?",
+      "?"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Complete the table of values for each rule (the first step in plotting its graph). Type the missing $y$-values from left to right.",
+   "type": "ordered",
+   "prompt": "$y = x(5 - x)$",
+   "answer": [
+    "0",
+    "4",
+    "6",
+    "4",
+    "0"
+   ],
+   "figure": {
+    "kind": "table",
+    "rows": [
+     [
+      "x",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+     ],
+     [
+      "y",
+      "?",
+      "?",
+      "6",
+      "?",
+      "?",
+      "?"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Complete the table of values for each rule (the first step in plotting its graph). Type the missing $y$-values from left to right.",
+   "type": "ordered",
+   "prompt": "$y = 4 - x^2$",
+   "answer": [
+    "-5",
+    "0",
+    "3",
+    "4",
+    "0",
+    "-5"
+   ],
+   "figure": {
+    "kind": "table",
+    "rows": [
+     [
+      "x",
+      "-3",
+      "-2",
+      "-1",
+      "0",
+      "1",
+      "2",
+      "3"
+     ],
+     [
+      "y",
+      "?",
+      "?",
+      "?",
+      "?",
+      "3",
+      "?",
+      "?"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "The value of one Australian dollar in Swiss francs over a $6$-month period is shown in this table.",
+   "type": "choice",
+   "prompt": "Plot the points and join them with a smooth curve. Which best describes the shape of the graph?",
+   "answer": 1,
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "Month",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+     ],
+     [
+      "Francs",
+      "0.93",
+      "0.88",
+      "0.85",
+      "0.84",
+      "0.85",
+      "0.88",
+      "0.93"
+     ]
+    ]
+   },
+   "options": [
+    "A straight line going down",
+    "A U-shaped curve: it falls, then rises",
+    "An upside-down U: it rises, then falls",
+    "A straight line going up"
+   ]
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "The value of one Australian dollar in Swiss francs over a $6$-month period is shown in this table.",
+   "type": "numeric",
+   "prompt": "By how much did the value fall in the first month?",
+   "answer": "0.05",
+   "units": "francs"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "The value of one Australian dollar in Swiss francs over a $6$-month period is shown in this table.",
+   "type": "numeric",
+   "prompt": "By how much did the value rise in the fifth month (from month $4$ to month $5$)?",
+   "answer": "0.03",
+   "units": "francs"
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "The value of one Australian dollar in Swiss francs over a $6$-month period is shown in this table.",
+   "type": "choice",
+   "prompt": "If the pattern continues, which is the best estimate of the value after $7$ months?",
+   "answer": 2,
+   "options": [
+    "about 0.88",
+    "about 0.93",
+    "about 1.00",
+    "about 1.50"
+   ]
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Problem-solving",
+   "stem": "Priya has $12$ cm of string to form a rectangle. The table shows some possible widths.",
+   "type": "ordered",
+   "prompt": "Complete the Length row. Type the missing lengths from left to right.",
+   "answer": [
+    "6",
+    "5",
+    "3",
+    "2",
+    "1",
+    "0"
+   ],
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "Width (cm)",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+     ],
+     [
+      "Length (cm)",
+      "?",
+      "?",
+      "4",
+      "?",
+      "?",
+      "?",
+      "?"
+     ],
+     [
+      "Area (cm²)",
+      "?",
+      "?",
+      "8",
+      "?",
+      "?",
+      "?",
+      "?"
+     ]
+    ]
+   },
+   "hint": "Type the missing values in order, separated by commas."
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Problem-solving",
+   "stem": "Priya has $12$ cm of string to form a rectangle. The table shows some possible widths.",
+   "type": "ordered",
+   "prompt": "Complete the Area row. Type the missing areas from left to right.",
+   "answer": [
+    "0",
+    "5",
+    "9",
+    "8",
+    "5",
+    "0"
+   ],
+   "hint": "Type the missing values in order, separated by commas."
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Problem-solving",
+   "stem": "Priya has $12$ cm of string to form a rectangle. The table shows some possible widths.",
+   "type": "choice",
+   "prompt": "If you plot Area against Width, what shape is the graph?",
+   "answer": 2,
+   "options": [
+    "A straight line",
+    "A U-shaped curve",
+    "An upside-down U-shaped curve",
+    "A horizontal line"
+   ]
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Problem-solving",
+   "stem": "Priya has $12$ cm of string to form a rectangle. The table shows some possible widths.",
+   "type": "numeric",
+   "prompt": "Which width gives the maximum area?",
+   "answer": "3",
+   "units": "cm"
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Problem-solving",
+   "stem": "Priya has $12$ cm of string to form a rectangle. The table shows some possible widths.",
+   "type": "numeric",
+   "prompt": "What is the maximum area?",
+   "answer": "9",
+   "units": "cm²"
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Problem-solving",
+   "stem": "Leo has enough paint to cover $16$ cm$^2$. He will paint a rectangle with this area.",
+   "type": "ordered",
+   "prompt": "Complete the Length row. Type the missing lengths from left to right.",
+   "answer": [
+    "8",
+    "4",
+    "2"
+   ],
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "Width (cm)",
+      "1",
+      "2",
+      "4",
+      "8"
+     ],
+     [
+      "Length (cm)",
+      "16",
+      "?",
+      "?",
+      "?"
+     ],
+     [
+      "Perimeter (cm)",
+      "34",
+      "?",
+      "?",
+      "?"
+     ]
+    ]
+   },
+   "hint": "Type the missing values in order, separated by commas."
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Problem-solving",
+   "stem": "Leo has enough paint to cover $16$ cm$^2$. He will paint a rectangle with this area.",
+   "type": "ordered",
+   "prompt": "Complete the Perimeter row. Type the missing perimeters from left to right.",
+   "answer": [
+    "20",
+    "16",
+    "20"
+   ],
+   "hint": "Type the missing values in order, separated by commas."
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Problem-solving",
+   "stem": "Leo has enough paint to cover $16$ cm$^2$. He will paint a rectangle with this area.",
+   "type": "choice",
+   "prompt": "If you plot Perimeter against Width, is the graph linear or non-linear?",
+   "answer": 1,
+   "options": [
+    "Linear",
+    "Non-linear"
+   ]
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Problem-solving",
+   "stem": "Leo has enough paint to cover $16$ cm$^2$. He will paint a rectangle with this area.",
+   "type": "numeric",
+   "prompt": "From the table, what width gives the smallest perimeter?",
+   "answer": "4",
+   "units": "cm"
+  },
+  {
+   "id": "q5e",
+   "label": "5e",
+   "section": "Problem-solving",
+   "stem": "Leo has enough paint to cover $16$ cm$^2$. He will paint a rectangle with this area.",
+   "type": "numeric",
+   "prompt": "What is that smallest perimeter?",
+   "answer": "16",
+   "units": "cm"
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Problem-solving",
+   "stem": "Find the smallest and largest values of $y$ on the graph of each rule, if $x$ goes from $-3$ to $3$.",
+   "type": "ordered",
+   "prompt": "$y = x^2 + 1$",
+   "answer": [
+    "1",
+    "10"
+   ],
+   "hint": "Type the smallest value, then the largest, for example -2, 5"
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Problem-solving",
+   "stem": "Find the smallest and largest values of $y$ on the graph of each rule, if $x$ goes from $-3$ to $3$.",
+   "type": "ordered",
+   "prompt": "$y = x^2 - 7$",
+   "answer": [
+    "-7",
+    "2"
+   ]
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Problem-solving",
+   "stem": "Find the smallest and largest values of $y$ on the graph of each rule, if $x$ goes from $-3$ to $3$.",
+   "type": "ordered",
+   "prompt": "$y = 8 - x^2$",
+   "answer": [
+    "-1",
+    "8"
+   ]
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Reasoning",
+   "stem": "By choosing and plotting a few points in your head, decide whether each rule gives a linear (straight line) or non-linear graph.",
+   "type": "choice",
+   "prompt": "$y = 3x$",
+   "answer": 0,
+   "options": [
+    "Linear",
+    "Non-linear"
+   ]
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Reasoning",
+   "stem": "By choosing and plotting a few points in your head, decide whether each rule gives a linear (straight line) or non-linear graph.",
+   "type": "choice",
+   "prompt": "$y = 4 - x$",
+   "answer": 0,
+   "options": [
+    "Linear",
+    "Non-linear"
+   ]
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Reasoning",
+   "stem": "By choosing and plotting a few points in your head, decide whether each rule gives a linear (straight line) or non-linear graph.",
+   "type": "choice",
+   "prompt": "$y = x^2 - 1$",
+   "answer": 1,
+   "options": [
+    "Linear",
+    "Non-linear"
+   ]
+  },
+  {
+   "id": "q8d",
+   "label": "8d",
+   "section": "Reasoning",
+   "stem": "By choosing and plotting a few points in your head, decide whether each rule gives a linear (straight line) or non-linear graph.",
+   "type": "choice",
+   "prompt": "$y = \\frac{3}{x}$",
+   "answer": 1,
+   "options": [
+    "Linear",
+    "Non-linear"
+   ]
+  },
+  {
+   "id": "q8e",
+   "label": "8e",
+   "section": "Reasoning",
+   "stem": "By choosing and plotting a few points in your head, decide whether each rule gives a linear (straight line) or non-linear graph.",
+   "type": "choice",
+   "prompt": "$y = \\frac{x}{4} + 1$",
+   "answer": 0,
+   "options": [
+    "Linear",
+    "Non-linear"
+   ]
+  },
+  {
+   "id": "q8f",
+   "label": "8f",
+   "section": "Reasoning",
+   "stem": "By choosing and plotting a few points in your head, decide whether each rule gives a linear (straight line) or non-linear graph.",
+   "type": "choice",
+   "prompt": "$y = x(x - 2)$",
+   "answer": 1,
+   "options": [
+    "Linear",
+    "Non-linear"
+   ]
+  },
+  {
+   "id": "q9",
+   "label": "9",
+   "section": "Reasoning",
+   "type": "numeric",
+   "prompt": "Two numbers add to $12$. What is the largest possible value of their product? (Hint: try a table of values or a graph.)",
+   "answer": "36"
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Enrichment",
+   "stem": "Think about these families of parabolas. A table of values or graphing software may help.",
+   "type": "choice",
+   "prompt": "For $y = ax^2$, what happens to the graph as $a$ gets bigger (for example $a = \\frac{1}{2}$, then $1$, $2$, $3$)?",
+   "answer": 0,
+   "options": [
+    "It gets narrower (steeper)",
+    "It gets wider",
+    "It moves up",
+    "It moves to the right"
+   ]
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Enrichment",
+   "stem": "Think about these families of parabolas. A table of values or graphing software may help.",
+   "type": "choice",
+   "prompt": "How is the graph of $y = -2x^2$ different from the graph of $y = 2x^2$?",
+   "answer": 1,
+   "options": [
+    "It is wider",
+    "It is flipped upside down (it opens downwards)",
+    "It moves 2 units down",
+    "There is no difference"
+   ]
+  },
+  {
+   "id": "q10c",
+   "label": "10c",
+   "section": "Enrichment",
+   "stem": "Think about these families of parabolas. A table of values or graphing software may help.",
+   "type": "point",
+   "prompt": "For $y = x^2 + a$ with $a = -4$, what are the coordinates of the lowest point of the graph?",
+   "answer": "(0,-4)",
+   "hint": "Type a point as (x, y), for example (2, -1)."
+  },
+  {
+   "id": "q10d",
+   "label": "10d",
+   "section": "Enrichment",
+   "stem": "Think about these families of parabolas. A table of values or graphing software may help.",
+   "type": "point",
+   "prompt": "For $y = (x - a)^2$ with $a = 3$, what are the coordinates of the lowest point of the graph?",
+   "answer": "(3,0)"
+  }
+ ]
+}
+);
+
+// Chapter 10
+window.H3_BANK.sets.push(
+{
+ "id": "y8-10a",
+ "year": 8,
+ "chapter": "Chapter 10: Transformations and congruence",
+ "title": "10A Reflection",
+ "description": "Reflect shapes and points in mirror lines, find mirror lines, give image coordinates and count lines of symmetry.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "The shaded shape is reflected in the dashed mirror line. Which diagram shows the correct image (the unshaded shape)?",
+   "type": "choice",
+   "prompt": "Vertical mirror line.",
+   "answer": 1,
+   "options": [
+    "A",
+    "B",
+    "C"
+   ],
+   "figure": [
+    {
+     "kind": "diagram",
+     "unit": 19,
+     "items": [
+      {
+       "seg": [
+        0,
+        0,
+        0,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        0,
+        1,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        2,
+        0,
+        2,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        3,
+        0,
+        3,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        4,
+        0,
+        4,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        5,
+        0,
+        5,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        6,
+        0,
+        6,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        7,
+        0,
+        7,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        8,
+        0,
+        8,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        9,
+        0,
+        9,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        10,
+        0,
+        10,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        11,
+        0,
+        11,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        12,
+        0,
+        12,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        0,
+        12,
+        0
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        1,
+        12,
+        1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        2,
+        12,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        3,
+        12,
+        3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        4,
+        12,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        5,
+        12,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "poly": [
+        [
+         1,
+         1
+        ],
+        [
+         3,
+         1
+        ],
+        [
+         3,
+         2
+        ],
+        [
+         2,
+         2
+        ],
+        [
+         2,
+         4
+        ],
+        [
+         1,
+         4
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "poly": [
+        [
+         9,
+         1
+        ],
+        [
+         11,
+         1
+        ],
+        [
+         11,
+         2
+        ],
+        [
+         10,
+         2
+        ],
+        [
+         10,
+         4
+        ],
+        [
+         9,
+         4
+        ]
+       ],
+       "fill": false
+      },
+      {
+       "seg": [
+        5,
+        0,
+        5,
+        5
+       ],
+       "dash": true
+      }
+     ],
+     "caption": "A"
+    },
+    {
+     "kind": "diagram",
+     "unit": 19,
+     "items": [
+      {
+       "seg": [
+        0,
+        0,
+        0,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        0,
+        1,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        2,
+        0,
+        2,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        3,
+        0,
+        3,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        4,
+        0,
+        4,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        5,
+        0,
+        5,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        6,
+        0,
+        6,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        7,
+        0,
+        7,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        8,
+        0,
+        8,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        9,
+        0,
+        9,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        10,
+        0,
+        10,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        11,
+        0,
+        11,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        12,
+        0,
+        12,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        0,
+        12,
+        0
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        1,
+        12,
+        1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        2,
+        12,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        3,
+        12,
+        3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        4,
+        12,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        5,
+        12,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "poly": [
+        [
+         1,
+         1
+        ],
+        [
+         3,
+         1
+        ],
+        [
+         3,
+         2
+        ],
+        [
+         2,
+         2
+        ],
+        [
+         2,
+         4
+        ],
+        [
+         1,
+         4
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "poly": [
+        [
+         9,
+         1
+        ],
+        [
+         7,
+         1
+        ],
+        [
+         7,
+         2
+        ],
+        [
+         8,
+         2
+        ],
+        [
+         8,
+         4
+        ],
+        [
+         9,
+         4
+        ]
+       ],
+       "fill": false
+      },
+      {
+       "seg": [
+        5,
+        0,
+        5,
+        5
+       ],
+       "dash": true
+      }
+     ],
+     "caption": "B"
+    },
+    {
+     "kind": "diagram",
+     "unit": 19,
+     "items": [
+      {
+       "seg": [
+        0,
+        0,
+        0,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        0,
+        1,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        2,
+        0,
+        2,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        3,
+        0,
+        3,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        4,
+        0,
+        4,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        5,
+        0,
+        5,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        6,
+        0,
+        6,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        7,
+        0,
+        7,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        8,
+        0,
+        8,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        9,
+        0,
+        9,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        10,
+        0,
+        10,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        11,
+        0,
+        11,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        12,
+        0,
+        12,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        0,
+        12,
+        0
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        1,
+        12,
+        1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        2,
+        12,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        3,
+        12,
+        3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        4,
+        12,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        5,
+        12,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "poly": [
+        [
+         1,
+         1
+        ],
+        [
+         3,
+         1
+        ],
+        [
+         3,
+         2
+        ],
+        [
+         2,
+         2
+        ],
+        [
+         2,
+         4
+        ],
+        [
+         1,
+         4
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "poly": [
+        [
+         9,
+         4
+        ],
+        [
+         7,
+         4
+        ],
+        [
+         7,
+         3
+        ],
+        [
+         8,
+         3
+        ],
+        [
+         8,
+         1
+        ],
+        [
+         9,
+         1
+        ]
+       ],
+       "fill": false
+      },
+      {
+       "seg": [
+        5,
+        0,
+        5,
+        5
+       ],
+       "dash": true
+      }
+     ],
+     "caption": "C"
+    }
+   ]
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "The shaded shape is reflected in the dashed mirror line. Which diagram shows the correct image (the unshaded shape)?",
+   "type": "choice",
+   "prompt": "Horizontal mirror line.",
+   "answer": 2,
+   "options": [
+    "A",
+    "B",
+    "C"
+   ],
+   "figure": [
+    {
+     "kind": "diagram",
+     "unit": 19,
+     "items": [
+      {
+       "seg": [
+        0,
+        1,
+        0,
+        14
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        1,
+        1,
+        14
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        2,
+        1,
+        2,
+        14
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        3,
+        1,
+        3,
+        14
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        4,
+        1,
+        4,
+        14
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        5,
+        1,
+        5,
+        14
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        1,
+        5,
+        1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        2,
+        5,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        3,
+        5,
+        3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        4,
+        5,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        5,
+        5,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        6,
+        5,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        7,
+        5,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        8,
+        5,
+        8
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        9,
+        5,
+        9
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        10,
+        5,
+        10
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        11,
+        5,
+        11
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        12,
+        5,
+        12
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        13,
+        5,
+        13
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        14,
+        5,
+        14
+       ],
+       "thin": true
+      },
+      {
+       "poly": [
+        [
+         1,
+         2
+        ],
+        [
+         4,
+         4
+        ],
+        [
+         4,
+         5
+        ],
+        [
+         1,
+         3
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "poly": [
+        [
+         1,
+         10
+        ],
+        [
+         4,
+         12
+        ],
+        [
+         4,
+         13
+        ],
+        [
+         1,
+         11
+        ]
+       ],
+       "fill": false
+      },
+      {
+       "seg": [
+        0,
+        6,
+        5,
+        6
+       ],
+       "dash": true
+      }
+     ],
+     "caption": "A"
+    },
+    {
+     "kind": "diagram",
+     "unit": 19,
+     "items": [
+      {
+       "seg": [
+        0,
+        1,
+        0,
+        14
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        1,
+        1,
+        14
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        2,
+        1,
+        2,
+        14
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        3,
+        1,
+        3,
+        14
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        4,
+        1,
+        4,
+        14
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        5,
+        1,
+        5,
+        14
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        1,
+        5,
+        1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        2,
+        5,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        3,
+        5,
+        3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        4,
+        5,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        5,
+        5,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        6,
+        5,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        7,
+        5,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        8,
+        5,
+        8
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        9,
+        5,
+        9
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        10,
+        5,
+        10
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        11,
+        5,
+        11
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        12,
+        5,
+        12
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        13,
+        5,
+        13
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        14,
+        5,
+        14
+       ],
+       "thin": true
+      },
+      {
+       "poly": [
+        [
+         1,
+         2
+        ],
+        [
+         4,
+         4
+        ],
+        [
+         4,
+         5
+        ],
+        [
+         1,
+         3
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "poly": [
+        [
+         4,
+         10
+        ],
+        [
+         1,
+         8
+        ],
+        [
+         1,
+         7
+        ],
+        [
+         4,
+         9
+        ]
+       ],
+       "fill": false
+      },
+      {
+       "seg": [
+        0,
+        6,
+        5,
+        6
+       ],
+       "dash": true
+      }
+     ],
+     "caption": "B"
+    },
+    {
+     "kind": "diagram",
+     "unit": 19,
+     "items": [
+      {
+       "seg": [
+        0,
+        1,
+        0,
+        14
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        1,
+        1,
+        14
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        2,
+        1,
+        2,
+        14
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        3,
+        1,
+        3,
+        14
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        4,
+        1,
+        4,
+        14
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        5,
+        1,
+        5,
+        14
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        1,
+        5,
+        1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        2,
+        5,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        3,
+        5,
+        3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        4,
+        5,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        5,
+        5,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        6,
+        5,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        7,
+        5,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        8,
+        5,
+        8
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        9,
+        5,
+        9
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        10,
+        5,
+        10
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        11,
+        5,
+        11
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        12,
+        5,
+        12
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        13,
+        5,
+        13
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        14,
+        5,
+        14
+       ],
+       "thin": true
+      },
+      {
+       "poly": [
+        [
+         1,
+         2
+        ],
+        [
+         4,
+         4
+        ],
+        [
+         4,
+         5
+        ],
+        [
+         1,
+         3
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "poly": [
+        [
+         1,
+         10
+        ],
+        [
+         4,
+         8
+        ],
+        [
+         4,
+         7
+        ],
+        [
+         1,
+         9
+        ]
+       ],
+       "fill": false
+      },
+      {
+       "seg": [
+        0,
+        6,
+        5,
+        6
+       ],
+       "dash": true
+      }
+     ],
+     "caption": "C"
+    }
+   ]
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "The shaded shape is reflected in the dashed mirror line. Which diagram shows the correct image (the unshaded shape)?",
+   "type": "choice",
+   "prompt": "Vertical mirror line.",
+   "answer": 0,
+   "options": [
+    "A",
+    "B",
+    "C"
+   ],
+   "figure": [
+    {
+     "kind": "diagram",
+     "unit": 19,
+     "items": [
+      {
+       "seg": [
+        -3,
+        0,
+        -3,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        0,
+        -2,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -1,
+        0,
+        -1,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        0,
+        0,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        0,
+        1,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        2,
+        0,
+        2,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        3,
+        0,
+        3,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        4,
+        0,
+        4,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        0,
+        4,
+        0
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        1,
+        4,
+        1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        2,
+        4,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        3,
+        4,
+        3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        4,
+        4,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        5,
+        4,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "poly": [
+        [
+         2,
+         1
+        ],
+        [
+         3,
+         3
+        ],
+        [
+         2,
+         4
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "poly": [
+        [
+         0,
+         1
+        ],
+        [
+         -1,
+         3
+        ],
+        [
+         0,
+         4
+        ]
+       ],
+       "fill": false
+      },
+      {
+       "seg": [
+        1,
+        0,
+        1,
+        5
+       ],
+       "dash": true
+      }
+     ],
+     "caption": "A"
+    },
+    {
+     "kind": "diagram",
+     "unit": 19,
+     "items": [
+      {
+       "seg": [
+        -3,
+        0,
+        -3,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        0,
+        -2,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -1,
+        0,
+        -1,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        0,
+        0,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        0,
+        1,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        2,
+        0,
+        2,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        3,
+        0,
+        3,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        4,
+        0,
+        4,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        0,
+        4,
+        0
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        1,
+        4,
+        1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        2,
+        4,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        3,
+        4,
+        3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        4,
+        4,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        5,
+        4,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "poly": [
+        [
+         2,
+         1
+        ],
+        [
+         3,
+         3
+        ],
+        [
+         2,
+         4
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "poly": [
+        [
+         -2,
+         1
+        ],
+        [
+         -1,
+         3
+        ],
+        [
+         -2,
+         4
+        ]
+       ],
+       "fill": false
+      },
+      {
+       "seg": [
+        1,
+        0,
+        1,
+        5
+       ],
+       "dash": true
+      }
+     ],
+     "caption": "B"
+    },
+    {
+     "kind": "diagram",
+     "unit": 19,
+     "items": [
+      {
+       "seg": [
+        -3,
+        0,
+        -3,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        0,
+        -2,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -1,
+        0,
+        -1,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        0,
+        0,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        0,
+        1,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        2,
+        0,
+        2,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        3,
+        0,
+        3,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        4,
+        0,
+        4,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        0,
+        4,
+        0
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        1,
+        4,
+        1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        2,
+        4,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        3,
+        4,
+        3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        4,
+        4,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        5,
+        4,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "poly": [
+        [
+         2,
+         1
+        ],
+        [
+         3,
+         3
+        ],
+        [
+         2,
+         4
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "poly": [
+        [
+         0,
+         4
+        ],
+        [
+         -1,
+         2
+        ],
+        [
+         0,
+         1
+        ]
+       ],
+       "fill": false
+      },
+      {
+       "seg": [
+        1,
+        0,
+        1,
+        5
+       ],
+       "dash": true
+      }
+     ],
+     "caption": "C"
+    }
+   ]
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "The shaded shape is reflected in the dashed mirror line. Which diagram shows the correct image (the unshaded shape)?",
+   "type": "choice",
+   "prompt": "Horizontal mirror line.",
+   "answer": 2,
+   "options": [
+    "A",
+    "B",
+    "C"
+   ],
+   "figure": [
+    {
+     "kind": "diagram",
+     "unit": 19,
+     "items": [
+      {
+       "seg": [
+        0,
+        -6,
+        0,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        -6,
+        1,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        2,
+        -6,
+        2,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        3,
+        -6,
+        3,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        4,
+        -6,
+        4,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        5,
+        -6,
+        5,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        -6,
+        5,
+        -6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        -5,
+        5,
+        -5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        -4,
+        5,
+        -4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        -3,
+        5,
+        -3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        -2,
+        5,
+        -2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        -1,
+        5,
+        -1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        0,
+        5,
+        0
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        1,
+        5,
+        1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        2,
+        5,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        3,
+        5,
+        3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        4,
+        5,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        5,
+        5,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        6,
+        5,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        7,
+        5,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "poly": [
+        [
+         1,
+         3
+        ],
+        [
+         4,
+         3
+        ],
+        [
+         4,
+         4
+        ],
+        [
+         2,
+         6
+        ],
+        [
+         1,
+         6
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "poly": [
+        [
+         1,
+         -5
+        ],
+        [
+         4,
+         -5
+        ],
+        [
+         4,
+         -4
+        ],
+        [
+         2,
+         -2
+        ],
+        [
+         1,
+         -2
+        ]
+       ],
+       "fill": false
+      },
+      {
+       "seg": [
+        0,
+        2,
+        5,
+        2
+       ],
+       "dash": true
+      }
+     ],
+     "caption": "A"
+    },
+    {
+     "kind": "diagram",
+     "unit": 19,
+     "items": [
+      {
+       "seg": [
+        0,
+        -6,
+        0,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        -6,
+        1,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        2,
+        -6,
+        2,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        3,
+        -6,
+        3,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        4,
+        -6,
+        4,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        5,
+        -6,
+        5,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        -6,
+        5,
+        -6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        -5,
+        5,
+        -5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        -4,
+        5,
+        -4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        -3,
+        5,
+        -3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        -2,
+        5,
+        -2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        -1,
+        5,
+        -1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        0,
+        5,
+        0
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        1,
+        5,
+        1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        2,
+        5,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        3,
+        5,
+        3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        4,
+        5,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        5,
+        5,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        6,
+        5,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        7,
+        5,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "poly": [
+        [
+         1,
+         3
+        ],
+        [
+         4,
+         3
+        ],
+        [
+         4,
+         4
+        ],
+        [
+         2,
+         6
+        ],
+        [
+         1,
+         6
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "poly": [
+        [
+         4,
+         1
+        ],
+        [
+         1,
+         1
+        ],
+        [
+         1,
+         0
+        ],
+        [
+         3,
+         -2
+        ],
+        [
+         4,
+         -2
+        ]
+       ],
+       "fill": false
+      },
+      {
+       "seg": [
+        0,
+        2,
+        5,
+        2
+       ],
+       "dash": true
+      }
+     ],
+     "caption": "B"
+    },
+    {
+     "kind": "diagram",
+     "unit": 19,
+     "items": [
+      {
+       "seg": [
+        0,
+        -6,
+        0,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        -6,
+        1,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        2,
+        -6,
+        2,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        3,
+        -6,
+        3,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        4,
+        -6,
+        4,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        5,
+        -6,
+        5,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        -6,
+        5,
+        -6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        -5,
+        5,
+        -5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        -4,
+        5,
+        -4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        -3,
+        5,
+        -3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        -2,
+        5,
+        -2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        -1,
+        5,
+        -1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        0,
+        5,
+        0
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        1,
+        5,
+        1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        2,
+        5,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        3,
+        5,
+        3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        4,
+        5,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        5,
+        5,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        6,
+        5,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        7,
+        5,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "poly": [
+        [
+         1,
+         3
+        ],
+        [
+         4,
+         3
+        ],
+        [
+         4,
+         4
+        ],
+        [
+         2,
+         6
+        ],
+        [
+         1,
+         6
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "poly": [
+        [
+         1,
+         1
+        ],
+        [
+         4,
+         1
+        ],
+        [
+         4,
+         0
+        ],
+        [
+         2,
+         -2
+        ],
+        [
+         1,
+         -2
+        ]
+       ],
+       "fill": false
+      },
+      {
+       "seg": [
+        0,
+        2,
+        5,
+        2
+       ],
+       "dash": true
+      }
+     ],
+     "caption": "C"
+    }
+   ]
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "The shaded shape is reflected in the dashed mirror line. Which diagram shows the correct image (the unshaded shape)?",
+   "type": "choice",
+   "prompt": "Sloping mirror line.",
+   "answer": 1,
+   "options": [
+    "A",
+    "B",
+    "C"
+   ],
+   "figure": [
+    {
+     "kind": "diagram",
+     "unit": 19,
+     "items": [
+      {
+       "seg": [
+        0,
+        -4,
+        0,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        -4,
+        1,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        2,
+        -4,
+        2,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        3,
+        -4,
+        3,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        4,
+        -4,
+        4,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        5,
+        -4,
+        5,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        6,
+        -4,
+        6,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        7,
+        -4,
+        7,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        8,
+        -4,
+        8,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        9,
+        -4,
+        9,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        10,
+        -4,
+        10,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        -4,
+        10,
+        -4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        -3,
+        10,
+        -3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        -2,
+        10,
+        -2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        -1,
+        10,
+        -1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        0,
+        10,
+        0
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        1,
+        10,
+        1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        2,
+        10,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        3,
+        10,
+        3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        4,
+        10,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        5,
+        10,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        6,
+        10,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "poly": [
+        [
+         1,
+         3
+        ],
+        [
+         2,
+         2
+        ],
+        [
+         4,
+         4
+        ],
+        [
+         2,
+         5
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "poly": [
+        [
+         6,
+         -2
+        ],
+        [
+         7,
+         -3
+        ],
+        [
+         9,
+         -1
+        ],
+        [
+         7,
+         0
+        ]
+       ],
+       "fill": false
+      },
+      {
+       "seg": [
+        0,
+        -2,
+        8,
+        6
+       ],
+       "dash": true
+      }
+     ],
+     "caption": "A"
+    },
+    {
+     "kind": "diagram",
+     "unit": 19,
+     "items": [
+      {
+       "seg": [
+        0,
+        -4,
+        0,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        -4,
+        1,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        2,
+        -4,
+        2,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        3,
+        -4,
+        3,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        4,
+        -4,
+        4,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        5,
+        -4,
+        5,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        6,
+        -4,
+        6,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        7,
+        -4,
+        7,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        8,
+        -4,
+        8,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        9,
+        -4,
+        9,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        10,
+        -4,
+        10,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        -4,
+        10,
+        -4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        -3,
+        10,
+        -3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        -2,
+        10,
+        -2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        -1,
+        10,
+        -1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        0,
+        10,
+        0
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        1,
+        10,
+        1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        2,
+        10,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        3,
+        10,
+        3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        4,
+        10,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        5,
+        10,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        6,
+        10,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "poly": [
+        [
+         1,
+         3
+        ],
+        [
+         2,
+         2
+        ],
+        [
+         4,
+         4
+        ],
+        [
+         2,
+         5
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "poly": [
+        [
+         5,
+         -1
+        ],
+        [
+         4,
+         0
+        ],
+        [
+         6,
+         2
+        ],
+        [
+         7,
+         0
+        ]
+       ],
+       "fill": false
+      },
+      {
+       "seg": [
+        0,
+        -2,
+        8,
+        6
+       ],
+       "dash": true
+      }
+     ],
+     "caption": "B"
+    },
+    {
+     "kind": "diagram",
+     "unit": 19,
+     "items": [
+      {
+       "seg": [
+        0,
+        -4,
+        0,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        -4,
+        1,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        2,
+        -4,
+        2,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        3,
+        -4,
+        3,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        4,
+        -4,
+        4,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        5,
+        -4,
+        5,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        6,
+        -4,
+        6,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        7,
+        -4,
+        7,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        8,
+        -4,
+        8,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        9,
+        -4,
+        9,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        10,
+        -4,
+        10,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        -4,
+        10,
+        -4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        -3,
+        10,
+        -3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        -2,
+        10,
+        -2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        -1,
+        10,
+        -1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        0,
+        10,
+        0
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        1,
+        10,
+        1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        2,
+        10,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        3,
+        10,
+        3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        4,
+        10,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        5,
+        10,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        6,
+        10,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "poly": [
+        [
+         1,
+         3
+        ],
+        [
+         2,
+         2
+        ],
+        [
+         4,
+         4
+        ],
+        [
+         2,
+         5
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "poly": [
+        [
+         7,
+         1
+        ],
+        [
+         6,
+         2
+        ],
+        [
+         4,
+         0
+        ],
+        [
+         6,
+         -1
+        ]
+       ],
+       "fill": false
+      },
+      {
+       "seg": [
+        0,
+        -2,
+        8,
+        6
+       ],
+       "dash": true
+      }
+     ],
+     "caption": "C"
+    }
+   ]
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "The shaded shape is reflected in the dashed mirror line. Which diagram shows the correct image (the unshaded shape)?",
+   "type": "choice",
+   "prompt": "Sloping mirror line.",
+   "answer": 0,
+   "options": [
+    "A",
+    "B",
+    "C"
+   ],
+   "figure": [
+    {
+     "kind": "diagram",
+     "unit": 19,
+     "items": [
+      {
+       "seg": [
+        -2,
+        -5,
+        -2,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -1,
+        -5,
+        -1,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        -5,
+        0,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        -5,
+        1,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        2,
+        -5,
+        2,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        3,
+        -5,
+        3,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        4,
+        -5,
+        4,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        5,
+        -5,
+        5,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        6,
+        -5,
+        6,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        7,
+        -5,
+        7,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        -5,
+        7,
+        -5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        -4,
+        7,
+        -4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        -3,
+        7,
+        -3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        -2,
+        7,
+        -2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        -1,
+        7,
+        -1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        0,
+        7,
+        0
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        1,
+        7,
+        1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        2,
+        7,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        3,
+        7,
+        3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        4,
+        7,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        5,
+        7,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "poly": [
+        [
+         4,
+         1
+        ],
+        [
+         6,
+         2
+        ],
+        [
+         5,
+         4
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "poly": [
+        [
+         3,
+         0
+        ],
+        [
+         2,
+         -2
+        ],
+        [
+         0,
+         -1
+        ]
+       ],
+       "fill": false
+      },
+      {
+       "seg": [
+        -1,
+        5,
+        7,
+        -3
+       ],
+       "dash": true
+      }
+     ],
+     "caption": "A"
+    },
+    {
+     "kind": "diagram",
+     "unit": 19,
+     "items": [
+      {
+       "seg": [
+        -2,
+        -5,
+        -2,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -1,
+        -5,
+        -1,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        -5,
+        0,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        -5,
+        1,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        2,
+        -5,
+        2,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        3,
+        -5,
+        3,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        4,
+        -5,
+        4,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        5,
+        -5,
+        5,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        6,
+        -5,
+        6,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        7,
+        -5,
+        7,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        -5,
+        7,
+        -5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        -4,
+        7,
+        -4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        -3,
+        7,
+        -3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        -2,
+        7,
+        -2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        -1,
+        7,
+        -1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        0,
+        7,
+        0
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        1,
+        7,
+        1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        2,
+        7,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        3,
+        7,
+        3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        4,
+        7,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        5,
+        7,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "poly": [
+        [
+         4,
+         1
+        ],
+        [
+         6,
+         2
+        ],
+        [
+         5,
+         4
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "poly": [
+        [
+         -1,
+         -4
+        ],
+        [
+         1,
+         -3
+        ],
+        [
+         0,
+         -1
+        ]
+       ],
+       "fill": false
+      },
+      {
+       "seg": [
+        -1,
+        5,
+        7,
+        -3
+       ],
+       "dash": true
+      }
+     ],
+     "caption": "B"
+    },
+    {
+     "kind": "diagram",
+     "unit": 19,
+     "items": [
+      {
+       "seg": [
+        -2,
+        -5,
+        -2,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -1,
+        -5,
+        -1,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        -5,
+        0,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        -5,
+        1,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        2,
+        -5,
+        2,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        3,
+        -5,
+        3,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        4,
+        -5,
+        4,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        5,
+        -5,
+        5,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        6,
+        -5,
+        6,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        7,
+        -5,
+        7,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        -5,
+        7,
+        -5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        -4,
+        7,
+        -4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        -3,
+        7,
+        -3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        -2,
+        7,
+        -2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        -1,
+        7,
+        -1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        0,
+        7,
+        0
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        1,
+        7,
+        1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        2,
+        7,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        3,
+        7,
+        3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        4,
+        7,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        5,
+        7,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "poly": [
+        [
+         4,
+         1
+        ],
+        [
+         6,
+         2
+        ],
+        [
+         5,
+         4
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "poly": [
+        [
+         3,
+         0
+        ],
+        [
+         1,
+         -1
+        ],
+        [
+         2,
+         -3
+        ]
+       ],
+       "fill": false
+      },
+      {
+       "seg": [
+        -1,
+        5,
+        7,
+        -3
+       ],
+       "dash": true
+      }
+     ],
+     "caption": "C"
+    }
+   ]
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "The shaded shape is reflected in the dashed mirror line. Which diagram shows the correct image (the unshaded shape)?",
+   "type": "choice",
+   "prompt": "Vertical mirror line. The shape touches or crosses the mirror line.",
+   "answer": 2,
+   "options": [
+    "A",
+    "B",
+    "C"
+   ],
+   "figure": [
+    {
+     "kind": "diagram",
+     "unit": 19,
+     "items": [
+      {
+       "seg": [
+        0,
+        -1,
+        0,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        -1,
+        1,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        2,
+        -1,
+        2,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        3,
+        -1,
+        3,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        4,
+        -1,
+        4,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        5,
+        -1,
+        5,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        6,
+        -1,
+        6,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        7,
+        -1,
+        7,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        8,
+        -1,
+        8,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        9,
+        -1,
+        9,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        10,
+        -1,
+        10,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        11,
+        -1,
+        11,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        -1,
+        11,
+        -1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        0,
+        11,
+        0
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        1,
+        11,
+        1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        2,
+        11,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        3,
+        11,
+        3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        4,
+        11,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "poly": [
+        [
+         1,
+         1
+        ],
+        [
+         4,
+         1
+        ],
+        [
+         2,
+         3
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "poly": [
+        [
+         7,
+         1
+        ],
+        [
+         10,
+         1
+        ],
+        [
+         8,
+         3
+        ]
+       ],
+       "fill": false
+      },
+      {
+       "seg": [
+        4,
+        -1,
+        4,
+        4
+       ],
+       "dash": true
+      }
+     ],
+     "caption": "A"
+    },
+    {
+     "kind": "diagram",
+     "unit": 19,
+     "items": [
+      {
+       "seg": [
+        0,
+        -1,
+        0,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        -1,
+        1,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        2,
+        -1,
+        2,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        3,
+        -1,
+        3,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        4,
+        -1,
+        4,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        5,
+        -1,
+        5,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        6,
+        -1,
+        6,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        7,
+        -1,
+        7,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        8,
+        -1,
+        8,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        9,
+        -1,
+        9,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        10,
+        -1,
+        10,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        11,
+        -1,
+        11,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        -1,
+        11,
+        -1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        0,
+        11,
+        0
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        1,
+        11,
+        1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        2,
+        11,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        3,
+        11,
+        3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        4,
+        11,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "poly": [
+        [
+         1,
+         1
+        ],
+        [
+         4,
+         1
+        ],
+        [
+         2,
+         3
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "poly": [
+        [
+         7,
+         2
+        ],
+        [
+         4,
+         2
+        ],
+        [
+         6,
+         0
+        ]
+       ],
+       "fill": false
+      },
+      {
+       "seg": [
+        4,
+        -1,
+        4,
+        4
+       ],
+       "dash": true
+      }
+     ],
+     "caption": "B"
+    },
+    {
+     "kind": "diagram",
+     "unit": 19,
+     "items": [
+      {
+       "seg": [
+        0,
+        -1,
+        0,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        -1,
+        1,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        2,
+        -1,
+        2,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        3,
+        -1,
+        3,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        4,
+        -1,
+        4,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        5,
+        -1,
+        5,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        6,
+        -1,
+        6,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        7,
+        -1,
+        7,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        8,
+        -1,
+        8,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        9,
+        -1,
+        9,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        10,
+        -1,
+        10,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        11,
+        -1,
+        11,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        -1,
+        11,
+        -1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        0,
+        11,
+        0
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        1,
+        11,
+        1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        2,
+        11,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        3,
+        11,
+        3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        4,
+        11,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "poly": [
+        [
+         1,
+         1
+        ],
+        [
+         4,
+         1
+        ],
+        [
+         2,
+         3
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "poly": [
+        [
+         7,
+         1
+        ],
+        [
+         4,
+         1
+        ],
+        [
+         6,
+         3
+        ]
+       ],
+       "fill": false
+      },
+      {
+       "seg": [
+        4,
+        -1,
+        4,
+        4
+       ],
+       "dash": true
+      }
+     ],
+     "caption": "C"
+    }
+   ]
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "The shaded shape is reflected in the dashed mirror line. Which diagram shows the correct image (the unshaded shape)?",
+   "type": "choice",
+   "prompt": "Horizontal mirror line. The shape touches or crosses the mirror line.",
+   "answer": 0,
+   "options": [
+    "A",
+    "B",
+    "C"
+   ],
+   "figure": [
+    {
+     "kind": "diagram",
+     "unit": 19,
+     "items": [
+      {
+       "seg": [
+        1,
+        -5,
+        1,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        2,
+        -5,
+        2,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        3,
+        -5,
+        3,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        4,
+        -5,
+        4,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        5,
+        -5,
+        5,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        6,
+        -5,
+        6,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        -5,
+        6,
+        -5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        -4,
+        6,
+        -4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        -3,
+        6,
+        -3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        -2,
+        6,
+        -2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        -1,
+        6,
+        -1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        0,
+        6,
+        0
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        1,
+        6,
+        1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        2,
+        6,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        3,
+        6,
+        3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        4,
+        6,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        5,
+        6,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        6,
+        6,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "poly": [
+        [
+         2,
+         2
+        ],
+        [
+         5,
+         3
+        ],
+        [
+         4,
+         5
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "poly": [
+        [
+         2,
+         2
+        ],
+        [
+         5,
+         1
+        ],
+        [
+         4,
+         -1
+        ]
+       ],
+       "fill": false
+      },
+      {
+       "seg": [
+        1,
+        2,
+        6,
+        2
+       ],
+       "dash": true
+      }
+     ],
+     "caption": "A"
+    },
+    {
+     "kind": "diagram",
+     "unit": 19,
+     "items": [
+      {
+       "seg": [
+        1,
+        -5,
+        1,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        2,
+        -5,
+        2,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        3,
+        -5,
+        3,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        4,
+        -5,
+        4,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        5,
+        -5,
+        5,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        6,
+        -5,
+        6,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        -5,
+        6,
+        -5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        -4,
+        6,
+        -4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        -3,
+        6,
+        -3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        -2,
+        6,
+        -2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        -1,
+        6,
+        -1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        0,
+        6,
+        0
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        1,
+        6,
+        1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        2,
+        6,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        3,
+        6,
+        3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        4,
+        6,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        5,
+        6,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        6,
+        6,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "poly": [
+        [
+         2,
+         2
+        ],
+        [
+         5,
+         3
+        ],
+        [
+         4,
+         5
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "poly": [
+        [
+         2,
+         -4
+        ],
+        [
+         5,
+         -3
+        ],
+        [
+         4,
+         -1
+        ]
+       ],
+       "fill": false
+      },
+      {
+       "seg": [
+        1,
+        2,
+        6,
+        2
+       ],
+       "dash": true
+      }
+     ],
+     "caption": "B"
+    },
+    {
+     "kind": "diagram",
+     "unit": 19,
+     "items": [
+      {
+       "seg": [
+        1,
+        -5,
+        1,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        2,
+        -5,
+        2,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        3,
+        -5,
+        3,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        4,
+        -5,
+        4,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        5,
+        -5,
+        5,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        6,
+        -5,
+        6,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        -5,
+        6,
+        -5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        -4,
+        6,
+        -4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        -3,
+        6,
+        -3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        -2,
+        6,
+        -2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        -1,
+        6,
+        -1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        0,
+        6,
+        0
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        1,
+        6,
+        1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        2,
+        6,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        3,
+        6,
+        3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        4,
+        6,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        5,
+        6,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        6,
+        6,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "poly": [
+        [
+         2,
+         2
+        ],
+        [
+         5,
+         3
+        ],
+        [
+         4,
+         5
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "poly": [
+        [
+         5,
+         2
+        ],
+        [
+         2,
+         1
+        ],
+        [
+         3,
+         -1
+        ]
+       ],
+       "fill": false
+      },
+      {
+       "seg": [
+        1,
+        2,
+        6,
+        2
+       ],
+       "dash": true
+      }
+     ],
+     "caption": "C"
+    }
+   ]
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "The shaded shape is reflected in the dashed mirror line. Which diagram shows the correct image (the unshaded shape)?",
+   "type": "choice",
+   "prompt": "Sloping mirror line. The shape touches or crosses the mirror line.",
+   "answer": 1,
+   "options": [
+    "A",
+    "B",
+    "C"
+   ],
+   "figure": [
+    {
+     "kind": "diagram",
+     "unit": 19,
+     "items": [
+      {
+       "seg": [
+        -2,
+        -1,
+        -2,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -1,
+        -1,
+        -1,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        -1,
+        0,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        -1,
+        1,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        2,
+        -1,
+        2,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        3,
+        -1,
+        3,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        4,
+        -1,
+        4,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        5,
+        -1,
+        5,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        6,
+        -1,
+        6,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        -1,
+        6,
+        -1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        0,
+        6,
+        0
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        1,
+        6,
+        1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        2,
+        6,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        3,
+        6,
+        3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        4,
+        6,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        5,
+        6,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        6,
+        6,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "poly": [
+        [
+         2,
+         0
+        ],
+        [
+         5,
+         3
+        ],
+        [
+         1,
+         3
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "poly": [
+        [
+         0,
+         2
+        ],
+        [
+         3,
+         5
+        ],
+        [
+         -1,
+         5
+        ]
+       ],
+       "fill": false
+      },
+      {
+       "seg": [
+        -1,
+        -1,
+        6,
+        6
+       ],
+       "dash": true
+      }
+     ],
+     "caption": "A"
+    },
+    {
+     "kind": "diagram",
+     "unit": 19,
+     "items": [
+      {
+       "seg": [
+        -2,
+        -1,
+        -2,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -1,
+        -1,
+        -1,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        -1,
+        0,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        -1,
+        1,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        2,
+        -1,
+        2,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        3,
+        -1,
+        3,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        4,
+        -1,
+        4,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        5,
+        -1,
+        5,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        6,
+        -1,
+        6,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        -1,
+        6,
+        -1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        0,
+        6,
+        0
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        1,
+        6,
+        1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        2,
+        6,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        3,
+        6,
+        3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        4,
+        6,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        5,
+        6,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        6,
+        6,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "poly": [
+        [
+         2,
+         0
+        ],
+        [
+         5,
+         3
+        ],
+        [
+         1,
+         3
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "poly": [
+        [
+         0,
+         2
+        ],
+        [
+         3,
+         5
+        ],
+        [
+         3,
+         1
+        ]
+       ],
+       "fill": false
+      },
+      {
+       "seg": [
+        -1,
+        -1,
+        6,
+        6
+       ],
+       "dash": true
+      }
+     ],
+     "caption": "B"
+    },
+    {
+     "kind": "diagram",
+     "unit": 19,
+     "items": [
+      {
+       "seg": [
+        -2,
+        -1,
+        -2,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -1,
+        -1,
+        -1,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        -1,
+        0,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        -1,
+        1,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        2,
+        -1,
+        2,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        3,
+        -1,
+        3,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        4,
+        -1,
+        4,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        5,
+        -1,
+        5,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        6,
+        -1,
+        6,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        -1,
+        6,
+        -1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        0,
+        6,
+        0
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        1,
+        6,
+        1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        2,
+        6,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        3,
+        6,
+        3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        4,
+        6,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        5,
+        6,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        6,
+        6,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "poly": [
+        [
+         2,
+         0
+        ],
+        [
+         5,
+         3
+        ],
+        [
+         1,
+         3
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "poly": [
+        [
+         3,
+         5
+        ],
+        [
+         0,
+         2
+        ],
+        [
+         4,
+         2
+        ]
+       ],
+       "fill": false
+      },
+      {
+       "seg": [
+        -1,
+        -1,
+        6,
+        6
+       ],
+       "dash": true
+      }
+     ],
+     "caption": "C"
+    }
+   ]
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "The shaded shape is reflected in the dashed mirror line. Which diagram shows the correct image (the unshaded shape)?",
+   "type": "choice",
+   "prompt": "Sloping mirror line. The shape touches or crosses the mirror line.",
+   "answer": 2,
+   "options": [
+    "A",
+    "B",
+    "C"
+   ],
+   "figure": [
+    {
+     "kind": "diagram",
+     "unit": 19,
+     "items": [
+      {
+       "seg": [
+        -3,
+        -3,
+        -3,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        -3,
+        -2,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -1,
+        -3,
+        -1,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        -3,
+        0,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        -3,
+        1,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        2,
+        -3,
+        2,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        3,
+        -3,
+        3,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        4,
+        -3,
+        4,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        5,
+        -3,
+        5,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        6,
+        -3,
+        6,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        -3,
+        6,
+        -3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        -2,
+        6,
+        -2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        -1,
+        6,
+        -1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        0,
+        6,
+        0
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        1,
+        6,
+        1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        2,
+        6,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        3,
+        6,
+        3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        4,
+        6,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "poly": [
+        [
+         1,
+         1
+        ],
+        [
+         5,
+         1
+        ],
+        [
+         5,
+         2
+        ],
+        [
+         2,
+         2
+        ],
+        [
+         2,
+         3
+        ],
+        [
+         1,
+         3
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "poly": [
+        [
+         -2,
+         -2
+        ],
+        [
+         2,
+         -2
+        ],
+        [
+         2,
+         -1
+        ],
+        [
+         -1,
+         -1
+        ],
+        [
+         -1,
+         0
+        ],
+        [
+         -2,
+         0
+        ]
+       ],
+       "fill": false
+      },
+      {
+       "seg": [
+        0,
+        4,
+        6,
+        -2
+       ],
+       "dash": true
+      }
+     ],
+     "caption": "A"
+    },
+    {
+     "kind": "diagram",
+     "unit": 19,
+     "items": [
+      {
+       "seg": [
+        -3,
+        -3,
+        -3,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        -3,
+        -2,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -1,
+        -3,
+        -1,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        -3,
+        0,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        -3,
+        1,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        2,
+        -3,
+        2,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        3,
+        -3,
+        3,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        4,
+        -3,
+        4,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        5,
+        -3,
+        5,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        6,
+        -3,
+        6,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        -3,
+        6,
+        -3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        -2,
+        6,
+        -2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        -1,
+        6,
+        -1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        0,
+        6,
+        0
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        1,
+        6,
+        1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        2,
+        6,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        3,
+        6,
+        3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        4,
+        6,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "poly": [
+        [
+         1,
+         1
+        ],
+        [
+         5,
+         1
+        ],
+        [
+         5,
+         2
+        ],
+        [
+         2,
+         2
+        ],
+        [
+         2,
+         3
+        ],
+        [
+         1,
+         3
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "poly": [
+        [
+         4,
+         2
+        ],
+        [
+         0,
+         2
+        ],
+        [
+         0,
+         1
+        ],
+        [
+         3,
+         1
+        ],
+        [
+         3,
+         0
+        ],
+        [
+         4,
+         0
+        ]
+       ],
+       "fill": false
+      },
+      {
+       "seg": [
+        0,
+        4,
+        6,
+        -2
+       ],
+       "dash": true
+      }
+     ],
+     "caption": "B"
+    },
+    {
+     "kind": "diagram",
+     "unit": 19,
+     "items": [
+      {
+       "seg": [
+        -3,
+        -3,
+        -3,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        -3,
+        -2,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -1,
+        -3,
+        -1,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        -3,
+        0,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        -3,
+        1,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        2,
+        -3,
+        2,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        3,
+        -3,
+        3,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        4,
+        -3,
+        4,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        5,
+        -3,
+        5,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        6,
+        -3,
+        6,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        -3,
+        6,
+        -3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        -2,
+        6,
+        -2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        -1,
+        6,
+        -1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        0,
+        6,
+        0
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        1,
+        6,
+        1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        2,
+        6,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        3,
+        6,
+        3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        4,
+        6,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "poly": [
+        [
+         1,
+         1
+        ],
+        [
+         5,
+         1
+        ],
+        [
+         5,
+         2
+        ],
+        [
+         2,
+         2
+        ],
+        [
+         2,
+         3
+        ],
+        [
+         1,
+         3
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "poly": [
+        [
+         3,
+         3
+        ],
+        [
+         3,
+         -1
+        ],
+        [
+         2,
+         -1
+        ],
+        [
+         2,
+         2
+        ],
+        [
+         1,
+         2
+        ],
+        [
+         1,
+         3
+        ]
+       ],
+       "fill": false
+      },
+      {
+       "seg": [
+        0,
+        4,
+        6,
+        -2
+       ],
+       "dash": true
+      }
+     ],
+     "caption": "C"
+    }
+   ]
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "The shaded shape has been reflected to give the unshaded shape. What is the equation of the mirror line?",
+   "type": "text",
+   "prompt": "Type the equation, for example x = 3.",
+   "answer": "x=1",
+   "accept": [
+    "x = 1",
+    "x =1",
+    "x= 1"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 28,
+    "items": [
+     {
+      "seg": [
+       -5,
+       -1,
+       -5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -4,
+       -1,
+       -4,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -3,
+       -1,
+       -3,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -2,
+       -1,
+       -2,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1,
+       -1,
+       -1,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       -1,
+       0,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       1,
+       -1,
+       1,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       2,
+       -1,
+       2,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       -1,
+       3,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       4,
+       -1,
+       4,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       5,
+       -1,
+       5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       6,
+       -1,
+       6,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       7,
+       -1,
+       7,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -1,
+       7,
+       -1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       0,
+       7,
+       0
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       1,
+       7,
+       1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       2,
+       7,
+       2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       3,
+       7,
+       3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       4,
+       7,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       5,
+       7,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5.4,
+       0,
+       7.4,
+       0
+      ],
+      "arrow": "both"
+     },
+     {
+      "seg": [
+       0,
+       -1.4,
+       0,
+       5.4
+      ],
+      "arrow": "both"
+     },
+     {
+      "label": "x",
+      "at": [
+       7.75,
+       0
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       5.75
+      ]
+     },
+     {
+      "label": "-5",
+      "at": [
+       -5,
+       -0.55
+      ]
+     },
+     {
+      "label": "-4",
+      "at": [
+       -4,
+       -0.55
+      ]
+     },
+     {
+      "label": "-3",
+      "at": [
+       -3,
+       -0.55
+      ]
+     },
+     {
+      "label": "-2",
+      "at": [
+       -2,
+       -0.55
+      ]
+     },
+     {
+      "label": "-1",
+      "at": [
+       -1,
+       -0.55
+      ]
+     },
+     {
+      "label": "1",
+      "at": [
+       1,
+       -0.55
+      ]
+     },
+     {
+      "label": "2",
+      "at": [
+       2,
+       -0.55
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       3,
+       -0.55
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       4,
+       -0.55
+      ]
+     },
+     {
+      "label": "5",
+      "at": [
+       5,
+       -0.55
+      ]
+     },
+     {
+      "label": "6",
+      "at": [
+       6,
+       -0.55
+      ]
+     },
+     {
+      "label": "7",
+      "at": [
+       7,
+       -0.55
+      ]
+     },
+     {
+      "label": "-1",
+      "at": [
+       -0.45,
+       -1
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "1",
+      "at": [
+       -0.45,
+       1
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "2",
+      "at": [
+       -0.45,
+       2
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "3",
+      "at": [
+       -0.45,
+       3
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "4",
+      "at": [
+       -0.45,
+       4
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "5",
+      "at": [
+       -0.45,
+       5
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.4,
+       -0.55
+      ]
+     },
+     {
+      "poly": [
+       [
+        -4,
+        1
+       ],
+       [
+        -1,
+        1
+       ],
+       [
+        -1,
+        2
+       ],
+       [
+        -3,
+        2
+       ],
+       [
+        -3,
+        4
+       ],
+       [
+        -4,
+        4
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        6,
+        1
+       ],
+       [
+        3,
+        1
+       ],
+       [
+        3,
+        2
+       ],
+       [
+        5,
+        2
+       ],
+       [
+        5,
+        4
+       ],
+       [
+        6,
+        4
+       ]
+      ],
+      "fill": false
+     }
+    ]
+   },
+   "hint": "Type the equation of the line, for example x = 3 or y = -2"
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "The shaded shape has been reflected to give the unshaded shape. What is the equation of the mirror line?",
+   "type": "text",
+   "prompt": "Type the equation, for example y = 3.",
+   "answer": "y=-1",
+   "accept": [
+    "y = -1",
+    "y =-1",
+    "y= -1"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 28,
+    "items": [
+     {
+      "seg": [
+       -4,
+       -6,
+       -4,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -3,
+       -6,
+       -3,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -2,
+       -6,
+       -2,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1,
+       -6,
+       -1,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       -6,
+       0,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       1,
+       -6,
+       1,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -4,
+       -6,
+       1,
+       -6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -4,
+       -5,
+       1,
+       -5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -4,
+       -4,
+       1,
+       -4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -4,
+       -3,
+       1,
+       -3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -4,
+       -2,
+       1,
+       -2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -4,
+       -1,
+       1,
+       -1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -4,
+       0,
+       1,
+       0
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -4,
+       1,
+       1,
+       1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -4,
+       2,
+       1,
+       2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -4,
+       3,
+       1,
+       3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -4,
+       4,
+       1,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -4.4,
+       0,
+       1.4,
+       0
+      ],
+      "arrow": "both"
+     },
+     {
+      "seg": [
+       0,
+       -6.4,
+       0,
+       4.4
+      ],
+      "arrow": "both"
+     },
+     {
+      "label": "x",
+      "at": [
+       1.75,
+       0
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       4.75
+      ]
+     },
+     {
+      "label": "-4",
+      "at": [
+       -4,
+       -0.55
+      ]
+     },
+     {
+      "label": "-3",
+      "at": [
+       -3,
+       -0.55
+      ]
+     },
+     {
+      "label": "-2",
+      "at": [
+       -2,
+       -0.55
+      ]
+     },
+     {
+      "label": "-1",
+      "at": [
+       -1,
+       -0.55
+      ]
+     },
+     {
+      "label": "1",
+      "at": [
+       1,
+       -0.55
+      ]
+     },
+     {
+      "label": "-6",
+      "at": [
+       -0.45,
+       -6
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-5",
+      "at": [
+       -0.45,
+       -5
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-4",
+      "at": [
+       -0.45,
+       -4
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-3",
+      "at": [
+       -0.45,
+       -3
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-2",
+      "at": [
+       -0.45,
+       -2
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-1",
+      "at": [
+       -0.45,
+       -1
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "1",
+      "at": [
+       -0.45,
+       1
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "2",
+      "at": [
+       -0.45,
+       2
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "3",
+      "at": [
+       -0.45,
+       3
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "4",
+      "at": [
+       -0.45,
+       4
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.4,
+       -0.55
+      ]
+     },
+     {
+      "poly": [
+       [
+        -3,
+        1
+       ],
+       [
+        -1,
+        1
+       ],
+       [
+        -1,
+        3
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        -3,
+        -3
+       ],
+       [
+        -1,
+        -3
+       ],
+       [
+        -1,
+        -5
+       ]
+      ],
+      "fill": false
+     }
+    ]
+   },
+   "hint": "Type the equation of the line, for example x = 3 or y = -2"
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "The shaded shape has been reflected to give the unshaded shape. What is the equation of the mirror line?",
+   "type": "text",
+   "prompt": "Type the equation, for example x = 3.",
+   "answer": "x=2",
+   "accept": [
+    "x = 2",
+    "x =2",
+    "x= 2"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 28,
+    "items": [
+     {
+      "seg": [
+       -4,
+       -4,
+       -4,
+       2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -3,
+       -4,
+       -3,
+       2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -2,
+       -4,
+       -2,
+       2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1,
+       -4,
+       -1,
+       2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       -4,
+       0,
+       2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       1,
+       -4,
+       1,
+       2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       2,
+       -4,
+       2,
+       2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       -4,
+       3,
+       2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       4,
+       -4,
+       4,
+       2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       5,
+       -4,
+       5,
+       2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       6,
+       -4,
+       6,
+       2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       7,
+       -4,
+       7,
+       2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       8,
+       -4,
+       8,
+       2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -4,
+       -4,
+       8,
+       -4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -4,
+       -3,
+       8,
+       -3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -4,
+       -2,
+       8,
+       -2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -4,
+       -1,
+       8,
+       -1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -4,
+       0,
+       8,
+       0
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -4,
+       1,
+       8,
+       1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -4,
+       2,
+       8,
+       2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -4.4,
+       0,
+       8.4,
+       0
+      ],
+      "arrow": "both"
+     },
+     {
+      "seg": [
+       0,
+       -4.4,
+       0,
+       2.4
+      ],
+      "arrow": "both"
+     },
+     {
+      "label": "x",
+      "at": [
+       8.75,
+       0
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       2.75
+      ]
+     },
+     {
+      "label": "-4",
+      "at": [
+       -4,
+       -0.55
+      ]
+     },
+     {
+      "label": "-3",
+      "at": [
+       -3,
+       -0.55
+      ]
+     },
+     {
+      "label": "-2",
+      "at": [
+       -2,
+       -0.55
+      ]
+     },
+     {
+      "label": "-1",
+      "at": [
+       -1,
+       -0.55
+      ]
+     },
+     {
+      "label": "1",
+      "at": [
+       1,
+       -0.55
+      ]
+     },
+     {
+      "label": "2",
+      "at": [
+       2,
+       -0.55
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       3,
+       -0.55
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       4,
+       -0.55
+      ]
+     },
+     {
+      "label": "5",
+      "at": [
+       5,
+       -0.55
+      ]
+     },
+     {
+      "label": "6",
+      "at": [
+       6,
+       -0.55
+      ]
+     },
+     {
+      "label": "7",
+      "at": [
+       7,
+       -0.55
+      ]
+     },
+     {
+      "label": "8",
+      "at": [
+       8,
+       -0.55
+      ]
+     },
+     {
+      "label": "-4",
+      "at": [
+       -0.45,
+       -4
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-3",
+      "at": [
+       -0.45,
+       -3
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-2",
+      "at": [
+       -0.45,
+       -2
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-1",
+      "at": [
+       -0.45,
+       -1
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "1",
+      "at": [
+       -0.45,
+       1
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "2",
+      "at": [
+       -0.45,
+       2
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.4,
+       -0.55
+      ]
+     },
+     {
+      "poly": [
+       [
+        -3,
+        -3
+       ],
+       [
+        -1,
+        -3
+       ],
+       [
+        -1,
+        1
+       ],
+       [
+        -3,
+        1
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        7,
+        -3
+       ],
+       [
+        5,
+        -3
+       ],
+       [
+        5,
+        1
+       ],
+       [
+        7,
+        1
+       ]
+      ],
+      "fill": false
+     }
+    ]
+   },
+   "hint": "Type the equation of the line, for example x = 3 or y = -2"
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "The shaded shape has been reflected to give the unshaded shape. What is the equation of the mirror line?",
+   "type": "text",
+   "prompt": "Type the equation, for example y = 3.",
+   "answer": "y=2",
+   "accept": [
+    "y = 2",
+    "y =2",
+    "y= 2"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 28,
+    "items": [
+     {
+      "seg": [
+       -4,
+       -1,
+       -4,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -3,
+       -1,
+       -3,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -2,
+       -1,
+       -2,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1,
+       -1,
+       -1,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       -1,
+       0,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       1,
+       -1,
+       1,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -4,
+       -1,
+       1,
+       -1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -4,
+       0,
+       1,
+       0
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -4,
+       1,
+       1,
+       1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -4,
+       2,
+       1,
+       2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -4,
+       3,
+       1,
+       3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -4,
+       4,
+       1,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -4,
+       5,
+       1,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -4.4,
+       0,
+       1.4,
+       0
+      ],
+      "arrow": "both"
+     },
+     {
+      "seg": [
+       0,
+       -1.4,
+       0,
+       5.4
+      ],
+      "arrow": "both"
+     },
+     {
+      "label": "x",
+      "at": [
+       1.75,
+       0
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       5.75
+      ]
+     },
+     {
+      "label": "-4",
+      "at": [
+       -4,
+       -0.55
+      ]
+     },
+     {
+      "label": "-3",
+      "at": [
+       -3,
+       -0.55
+      ]
+     },
+     {
+      "label": "-2",
+      "at": [
+       -2,
+       -0.55
+      ]
+     },
+     {
+      "label": "-1",
+      "at": [
+       -1,
+       -0.55
+      ]
+     },
+     {
+      "label": "1",
+      "at": [
+       1,
+       -0.55
+      ]
+     },
+     {
+      "label": "-1",
+      "at": [
+       -0.45,
+       -1
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "1",
+      "at": [
+       -0.45,
+       1
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "2",
+      "at": [
+       -0.45,
+       2
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "3",
+      "at": [
+       -0.45,
+       3
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "4",
+      "at": [
+       -0.45,
+       4
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "5",
+      "at": [
+       -0.45,
+       5
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.4,
+       -0.55
+      ]
+     },
+     {
+      "poly": [
+       [
+        -3,
+        3
+       ],
+       [
+        0,
+        3
+       ],
+       [
+        -1,
+        4
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        -3,
+        1
+       ],
+       [
+        0,
+        1
+       ],
+       [
+        -1,
+        0
+       ]
+      ],
+      "fill": false
+     }
+    ]
+   },
+   "hint": "Type the equation of the line, for example x = 3 or y = -2"
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Fluency",
+   "stem": "The shaded shape has been reflected to give the unshaded shape. Which dashed line, p, q or r, is the mirror line?",
+   "type": "choice",
+   "prompt": "Choose the mirror line.",
+   "answer": 2,
+   "options": [
+    "p",
+    "q",
+    "r"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "seg": [
+       -1,
+       -1,
+       -1,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       -1,
+       0,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       1,
+       -1,
+       1,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       2,
+       -1,
+       2,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       -1,
+       3,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       4,
+       -1,
+       4,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       5,
+       -1,
+       5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1,
+       -1,
+       5,
+       -1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1,
+       0,
+       5,
+       0
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1,
+       1,
+       5,
+       1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1,
+       2,
+       5,
+       2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1,
+       3,
+       5,
+       3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1,
+       4,
+       5,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1,
+       5,
+       5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "poly": [
+       [
+        1,
+        1
+       ],
+       [
+        3,
+        1
+       ],
+       [
+        2,
+        3
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        1,
+        1
+       ],
+       [
+        1,
+        3
+       ],
+       [
+        3,
+        2
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "seg": [
+       2,
+       -1,
+       2,
+       5
+      ],
+      "dash": true
+     },
+     {
+      "label": "p",
+      "at": [
+       2.35,
+       5.2
+      ]
+     },
+     {
+      "seg": [
+       -1,
+       2,
+       5,
+       2
+      ],
+      "dash": true
+     },
+     {
+      "label": "q",
+      "at": [
+       5.35,
+       2.2
+      ]
+     },
+     {
+      "seg": [
+       -1,
+       -1,
+       5,
+       5
+      ],
+      "dash": true
+     },
+     {
+      "label": "r",
+      "at": [
+       5.35,
+       5.2
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Fluency",
+   "stem": "The shaded shape has been reflected to give the unshaded shape. Which dashed line, p, q or r, is the mirror line?",
+   "type": "choice",
+   "prompt": "Choose the mirror line.",
+   "answer": 0,
+   "options": [
+    "p",
+    "q",
+    "r"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "seg": [
+       -2,
+       -2,
+       -2,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1,
+       -2,
+       -1,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       -2,
+       0,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       1,
+       -2,
+       1,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       2,
+       -2,
+       2,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       -2,
+       3,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       4,
+       -2,
+       4,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       5,
+       -2,
+       5,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       6,
+       -2,
+       6,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       7,
+       -2,
+       7,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -2,
+       -2,
+       7,
+       -2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -2,
+       -1,
+       7,
+       -1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -2,
+       0,
+       7,
+       0
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -2,
+       1,
+       7,
+       1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -2,
+       2,
+       7,
+       2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -2,
+       3,
+       7,
+       3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -2,
+       4,
+       7,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -2,
+       5,
+       7,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -2,
+       6,
+       7,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -2,
+       7,
+       7,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "poly": [
+       [
+        0,
+        2
+       ],
+       [
+        3,
+        0
+       ],
+       [
+        2,
+        3
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        3,
+        5
+       ],
+       [
+        5,
+        2
+       ],
+       [
+        2,
+        3
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "seg": [
+       -2,
+       7,
+       7,
+       -2
+      ],
+      "dash": true
+     },
+     {
+      "label": "p",
+      "at": [
+       7.35,
+       -1.8
+      ]
+     },
+     {
+      "seg": [
+       3,
+       -2,
+       3,
+       7
+      ],
+      "dash": true
+     },
+     {
+      "label": "q",
+      "at": [
+       3.35,
+       7.2
+      ]
+     },
+     {
+      "seg": [
+       -2,
+       -2,
+       7,
+       7
+      ],
+      "dash": true
+     },
+     {
+      "label": "r",
+      "at": [
+       7.35,
+       7.2
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Fluency",
+   "stem": "Triangle $ABC$ is reflected in the $x$-axis. State the coordinates of each image point.",
+   "type": "point",
+   "prompt": "$A'$",
+   "answer": "(-3,-1)",
+   "stemFigure": {
+    "kind": "plane",
+    "x": [
+     -5,
+     5
+    ],
+    "y": [
+     -5,
+     5
+    ],
+    "path": [
+     [
+      -3,
+      1
+     ],
+     [
+      -1,
+      4
+     ],
+     [
+      -4,
+      3
+     ]
+    ],
+    "closed": true,
+    "points": {
+     "A": [
+      -3,
+      1
+     ],
+     "B": [
+      -1,
+      4
+     ],
+     "C": [
+      -4,
+      3
+     ]
+    }
+   },
+   "hint": "Type a point like (3, -2)"
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Fluency",
+   "stem": "Triangle $ABC$ is reflected in the $x$-axis. State the coordinates of each image point.",
+   "type": "point",
+   "prompt": "$B'$",
+   "answer": "(-1,-4)"
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Fluency",
+   "stem": "Triangle $ABC$ is reflected in the $x$-axis. State the coordinates of each image point.",
+   "type": "point",
+   "prompt": "$C'$",
+   "answer": "(-4,-3)"
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Fluency",
+   "stem": "Triangle $ABC$ is reflected in the $y$-axis. State the coordinates of each image point.",
+   "type": "point",
+   "prompt": "$A'$",
+   "answer": "(3,1)",
+   "stemFigure": {
+    "kind": "plane",
+    "x": [
+     -5,
+     5
+    ],
+    "y": [
+     -5,
+     5
+    ],
+    "path": [
+     [
+      -3,
+      1
+     ],
+     [
+      -1,
+      4
+     ],
+     [
+      -4,
+      3
+     ]
+    ],
+    "closed": true,
+    "points": {
+     "A": [
+      -3,
+      1
+     ],
+     "B": [
+      -1,
+      4
+     ],
+     "C": [
+      -4,
+      3
+     ]
+    }
+   }
+  },
+  {
+   "id": "q5e",
+   "label": "5e",
+   "section": "Fluency",
+   "stem": "Triangle $ABC$ is reflected in the $y$-axis. State the coordinates of each image point.",
+   "type": "point",
+   "prompt": "$B'$",
+   "answer": "(1,4)"
+  },
+  {
+   "id": "q5f",
+   "label": "5f",
+   "section": "Fluency",
+   "stem": "Triangle $ABC$ is reflected in the $y$-axis. State the coordinates of each image point.",
+   "type": "point",
+   "prompt": "$C'$",
+   "answer": "(4,3)"
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Fluency",
+   "stem": "Rectangle $ABCD$ is reflected in the $x$-axis. State the coordinates of each image point.",
+   "type": "point",
+   "prompt": "$A'$",
+   "answer": "(4,1)",
+   "stemFigure": {
+    "kind": "plane",
+    "x": [
+     -5,
+     5
+    ],
+    "y": [
+     -5,
+     5
+    ],
+    "path": [
+     [
+      4,
+      -1
+     ],
+     [
+      1,
+      -1
+     ],
+     [
+      1,
+      -3
+     ],
+     [
+      4,
+      -3
+     ]
+    ],
+    "closed": true,
+    "points": {
+     "A": [
+      4,
+      -1
+     ],
+     "B": [
+      1,
+      -1
+     ],
+     "C": [
+      1,
+      -3
+     ],
+     "D": [
+      4,
+      -3
+     ]
+    }
+   }
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Fluency",
+   "stem": "Rectangle $ABCD$ is reflected in the $x$-axis. State the coordinates of each image point.",
+   "type": "point",
+   "prompt": "$B'$",
+   "answer": "(1,1)"
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Fluency",
+   "stem": "Rectangle $ABCD$ is reflected in the $x$-axis. State the coordinates of each image point.",
+   "type": "point",
+   "prompt": "$C'$",
+   "answer": "(1,3)"
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Fluency",
+   "stem": "Rectangle $ABCD$ is reflected in the $x$-axis. State the coordinates of each image point.",
+   "type": "point",
+   "prompt": "$D'$",
+   "answer": "(4,3)"
+  },
+  {
+   "id": "q6e",
+   "label": "6e",
+   "section": "Fluency",
+   "stem": "Rectangle $ABCD$ is reflected in the $y$-axis. State the coordinates of each image point.",
+   "type": "point",
+   "prompt": "$A'$",
+   "answer": "(-4,-1)",
+   "stemFigure": {
+    "kind": "plane",
+    "x": [
+     -5,
+     5
+    ],
+    "y": [
+     -5,
+     5
+    ],
+    "path": [
+     [
+      4,
+      -1
+     ],
+     [
+      1,
+      -1
+     ],
+     [
+      1,
+      -3
+     ],
+     [
+      4,
+      -3
+     ]
+    ],
+    "closed": true,
+    "points": {
+     "A": [
+      4,
+      -1
+     ],
+     "B": [
+      1,
+      -1
+     ],
+     "C": [
+      1,
+      -3
+     ],
+     "D": [
+      4,
+      -3
+     ]
+    }
+   }
+  },
+  {
+   "id": "q6f",
+   "label": "6f",
+   "section": "Fluency",
+   "stem": "Rectangle $ABCD$ is reflected in the $y$-axis. State the coordinates of each image point.",
+   "type": "point",
+   "prompt": "$B'$",
+   "answer": "(-1,-1)"
+  },
+  {
+   "id": "q6g",
+   "label": "6g",
+   "section": "Fluency",
+   "stem": "Rectangle $ABCD$ is reflected in the $y$-axis. State the coordinates of each image point.",
+   "type": "point",
+   "prompt": "$C'$",
+   "answer": "(-1,-3)"
+  },
+  {
+   "id": "q6h",
+   "label": "6h",
+   "section": "Fluency",
+   "stem": "Rectangle $ABCD$ is reflected in the $y$-axis. State the coordinates of each image point.",
+   "type": "point",
+   "prompt": "$D'$",
+   "answer": "(-4,-3)"
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Problem-solving",
+   "stem": "How many lines of symmetry does each shape have?",
+   "type": "numeric",
+   "prompt": "Regular hexagon",
+   "answer": "6",
+   "figure": {
+    "kind": "diagram",
+    "unit": 24,
+    "items": [
+     {
+      "poly": [
+       [
+        1.6,
+        0
+       ],
+       [
+        0.8,
+        1.386
+       ],
+       [
+        -0.8,
+        1.386
+       ],
+       [
+        -1.6,
+        0
+       ],
+       [
+        -0.8,
+        -1.386
+       ],
+       [
+        0.8,
+        -1.386
+       ]
+      ],
+      "fill": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Problem-solving",
+   "stem": "How many lines of symmetry does each shape have?",
+   "type": "numeric",
+   "prompt": "Rectangle",
+   "answer": "2",
+   "figure": {
+    "kind": "diagram",
+    "unit": 24,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        1.6,
+        0
+       ],
+       [
+        1.6,
+        2.8
+       ],
+       [
+        0,
+        2.8
+       ]
+      ],
+      "fill": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Problem-solving",
+   "stem": "How many lines of symmetry does each shape have?",
+   "type": "numeric",
+   "prompt": "Kite",
+   "answer": "1",
+   "figure": {
+    "kind": "diagram",
+    "unit": 24,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        1.2,
+        1
+       ],
+       [
+        0,
+        3.2
+       ],
+       [
+        -1.2,
+        1
+       ]
+      ],
+      "fill": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "q7d",
+   "label": "7d",
+   "section": "Problem-solving",
+   "stem": "How many lines of symmetry does each shape have?",
+   "type": "numeric",
+   "prompt": "Parallelogram",
+   "answer": "0",
+   "figure": {
+    "kind": "diagram",
+    "unit": 24,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        2.6,
+        0
+       ],
+       [
+        3.6,
+        1.6
+       ],
+       [
+        1,
+        1.6
+       ]
+      ],
+      "fill": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "q7e",
+   "label": "7e",
+   "section": "Problem-solving",
+   "stem": "How many lines of symmetry does each shape have?",
+   "type": "numeric",
+   "prompt": "Isosceles trapezium",
+   "answer": "1",
+   "figure": {
+    "kind": "diagram",
+    "unit": 24,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        3.4,
+        0
+       ],
+       [
+        2.5,
+        1.6
+       ],
+       [
+        0.9,
+        1.6
+       ]
+      ],
+      "fill": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "q7f",
+   "label": "7f",
+   "section": "Problem-solving",
+   "stem": "How many lines of symmetry does each shape have?",
+   "type": "numeric",
+   "prompt": "Equilateral triangle",
+   "answer": "3",
+   "figure": {
+    "kind": "diagram",
+    "unit": 24,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        2.6,
+        0
+       ],
+       [
+        1.3,
+        2.252
+       ]
+      ],
+      "fill": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "q7g",
+   "label": "7g",
+   "section": "Problem-solving",
+   "stem": "How many lines of symmetry does each shape have?",
+   "type": "numeric",
+   "prompt": "Square",
+   "answer": "4",
+   "figure": {
+    "kind": "diagram",
+    "unit": 24,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        2.2,
+        0
+       ],
+       [
+        2.2,
+        2.2
+       ],
+       [
+        0,
+        2.2
+       ]
+      ],
+      "fill": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "q7h",
+   "label": "7h",
+   "section": "Problem-solving",
+   "stem": "How many lines of symmetry does each shape have?",
+   "type": "numeric",
+   "prompt": "Scalene right-angled triangle",
+   "answer": "0",
+   "figure": {
+    "kind": "diagram",
+    "unit": 24,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        3,
+        0
+       ],
+       [
+        0,
+        1.7
+       ]
+      ],
+      "fill": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "q7i",
+   "label": "7i",
+   "section": "Problem-solving",
+   "stem": "How many lines of symmetry does each shape have?",
+   "type": "numeric",
+   "prompt": "Regular pentagon",
+   "answer": "5",
+   "figure": {
+    "kind": "diagram",
+    "unit": 24,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        1.6
+       ],
+       [
+        -1.522,
+        0.494
+       ],
+       [
+        -0.94,
+        -1.294
+       ],
+       [
+        0.94,
+        -1.294
+       ],
+       [
+        1.522,
+        0.494
+       ]
+      ],
+      "fill": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Problem-solving",
+   "stem": "The point $(3, -2)$ is reflected in the given mirror line. State the coordinates of the image point. The lines $x = 2$ and $y = 1$ are drawn as examples.",
+   "type": "point",
+   "prompt": "$x = 2$",
+   "answer": "(1,-2)",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 28,
+    "items": [
+     {
+      "seg": [
+       -5,
+       -5,
+       -5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -4,
+       -5,
+       -4,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -3,
+       -5,
+       -3,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -2,
+       -5,
+       -2,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1,
+       -5,
+       -1,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       -5,
+       0,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       1,
+       -5,
+       1,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       2,
+       -5,
+       2,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       -5,
+       3,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       4,
+       -5,
+       4,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       5,
+       -5,
+       5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -5,
+       5,
+       -5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -4,
+       5,
+       -4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -3,
+       5,
+       -3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -2,
+       5,
+       -2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -1,
+       5,
+       -1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       0,
+       5,
+       0
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       1,
+       5,
+       1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       2,
+       5,
+       2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       3,
+       5,
+       3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       4,
+       5,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       5,
+       5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5.4,
+       0,
+       5.4,
+       0
+      ],
+      "arrow": "both"
+     },
+     {
+      "seg": [
+       0,
+       -5.4,
+       0,
+       5.4
+      ],
+      "arrow": "both"
+     },
+     {
+      "label": "x",
+      "at": [
+       5.75,
+       0
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       5.75
+      ]
+     },
+     {
+      "label": "-5",
+      "at": [
+       -5,
+       -0.55
+      ]
+     },
+     {
+      "label": "-4",
+      "at": [
+       -4,
+       -0.55
+      ]
+     },
+     {
+      "label": "-3",
+      "at": [
+       -3,
+       -0.55
+      ]
+     },
+     {
+      "label": "-2",
+      "at": [
+       -2,
+       -0.55
+      ]
+     },
+     {
+      "label": "-1",
+      "at": [
+       -1,
+       -0.55
+      ]
+     },
+     {
+      "label": "1",
+      "at": [
+       1,
+       -0.55
+      ]
+     },
+     {
+      "label": "2",
+      "at": [
+       2,
+       -0.55
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       3,
+       -0.55
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       4,
+       -0.55
+      ]
+     },
+     {
+      "label": "5",
+      "at": [
+       5,
+       -0.55
+      ]
+     },
+     {
+      "label": "-5",
+      "at": [
+       -0.45,
+       -5
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-4",
+      "at": [
+       -0.45,
+       -4
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-3",
+      "at": [
+       -0.45,
+       -3
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-2",
+      "at": [
+       -0.45,
+       -2
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-1",
+      "at": [
+       -0.45,
+       -1
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "1",
+      "at": [
+       -0.45,
+       1
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "2",
+      "at": [
+       -0.45,
+       2
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "3",
+      "at": [
+       -0.45,
+       3
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "4",
+      "at": [
+       -0.45,
+       4
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "5",
+      "at": [
+       -0.45,
+       5
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.4,
+       -0.55
+      ]
+     },
+     {
+      "seg": [
+       2,
+       -5,
+       2,
+       5
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       -5,
+       1,
+       5,
+       1
+      ],
+      "dash": true
+     },
+     {
+      "label": "x = 2",
+      "at": [
+       2,
+       -5.6
+      ]
+     },
+     {
+      "label": "y = 1",
+      "at": [
+       5.3,
+       1
+      ],
+      "anchor": "start"
+     },
+     {
+      "point": [
+       3,
+       -2
+      ],
+      "pos": "se",
+      "name": "(3, -2)"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Problem-solving",
+   "stem": "The point $(3, -2)$ is reflected in the given mirror line. State the coordinates of the image point. The lines $x = 2$ and $y = 1$ are drawn as examples.",
+   "type": "point",
+   "prompt": "$x = 5$",
+   "answer": "(7,-2)"
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Problem-solving",
+   "stem": "The point $(3, -2)$ is reflected in the given mirror line. State the coordinates of the image point. The lines $x = 2$ and $y = 1$ are drawn as examples.",
+   "type": "point",
+   "prompt": "$x = 0$",
+   "answer": "(-3,-2)"
+  },
+  {
+   "id": "q8d",
+   "label": "8d",
+   "section": "Problem-solving",
+   "stem": "The point $(3, -2)$ is reflected in the given mirror line. State the coordinates of the image point. The lines $x = 2$ and $y = 1$ are drawn as examples.",
+   "type": "point",
+   "prompt": "$x = -2$",
+   "answer": "(-7,-2)"
+  },
+  {
+   "id": "q8e",
+   "label": "8e",
+   "section": "Problem-solving",
+   "stem": "The point $(3, -2)$ is reflected in the given mirror line. State the coordinates of the image point. The lines $x = 2$ and $y = 1$ are drawn as examples.",
+   "type": "point",
+   "prompt": "$x = -3$",
+   "answer": "(-9,-2)"
+  },
+  {
+   "id": "q8f",
+   "label": "8f",
+   "section": "Problem-solving",
+   "stem": "The point $(3, -2)$ is reflected in the given mirror line. State the coordinates of the image point. The lines $x = 2$ and $y = 1$ are drawn as examples.",
+   "type": "point",
+   "prompt": "$x = -15$",
+   "answer": "(-33,-2)"
+  },
+  {
+   "id": "q8g",
+   "label": "8g",
+   "section": "Problem-solving",
+   "stem": "The point $(3, -2)$ is reflected in the given mirror line. State the coordinates of the image point. The lines $x = 2$ and $y = 1$ are drawn as examples.",
+   "type": "point",
+   "prompt": "$y = 1$",
+   "answer": "(3,4)"
+  },
+  {
+   "id": "q8h",
+   "label": "8h",
+   "section": "Problem-solving",
+   "stem": "The point $(3, -2)$ is reflected in the given mirror line. State the coordinates of the image point. The lines $x = 2$ and $y = 1$ are drawn as examples.",
+   "type": "point",
+   "prompt": "$y = -4$",
+   "answer": "(3,-6)"
+  },
+  {
+   "id": "q8i",
+   "label": "8i",
+   "section": "Problem-solving",
+   "stem": "The point $(3, -2)$ is reflected in the given mirror line. State the coordinates of the image point. The lines $x = 2$ and $y = 1$ are drawn as examples.",
+   "type": "point",
+   "prompt": "$y = 0$",
+   "answer": "(3,2)"
+  },
+  {
+   "id": "q8j",
+   "label": "8j",
+   "section": "Problem-solving",
+   "stem": "The point $(3, -2)$ is reflected in the given mirror line. State the coordinates of the image point. The lines $x = 2$ and $y = 1$ are drawn as examples.",
+   "type": "point",
+   "prompt": "$y = 2$",
+   "answer": "(3,6)"
+  },
+  {
+   "id": "q8k",
+   "label": "8k",
+   "section": "Problem-solving",
+   "stem": "The point $(3, -2)$ is reflected in the given mirror line. State the coordinates of the image point. The lines $x = 2$ and $y = 1$ are drawn as examples.",
+   "type": "point",
+   "prompt": "$y = -6$",
+   "answer": "(3,-10)"
+  },
+  {
+   "id": "q8l",
+   "label": "8l",
+   "section": "Problem-solving",
+   "stem": "The point $(3, -2)$ is reflected in the given mirror line. State the coordinates of the image point. The lines $x = 2$ and $y = 1$ are drawn as examples.",
+   "type": "point",
+   "prompt": "$y = -30$",
+   "answer": "(3,-58)"
+  },
+  {
+   "id": "q9",
+   "label": "9",
+   "section": "Reasoning",
+   "type": "numeric",
+   "prompt": "A shape with an area of $14$ m² is reflected in a line. What is the area of the image shape?",
+   "answer": "14",
+   "units": "m²"
+  },
+  {
+   "id": "q10",
+   "label": "10",
+   "section": "Reasoning",
+   "type": "expression",
+   "prompt": "How many lines of symmetry does a regular polygon with $n$ sides have? Write an expression using $n$.",
+   "answer": "n"
+  },
+  {
+   "id": "q11",
+   "label": "11",
+   "section": "Reasoning",
+   "type": "choice",
+   "prompt": "A point is reflected in the $y$-axis, then in the $x$-axis and finally in the $y$-axis again. What single reflection could replace all three reflections?",
+   "answer": 0,
+   "options": [
+    "A reflection in the x-axis",
+    "A reflection in the y-axis",
+    "A reflection in the line y = x",
+    "No single reflection can do it"
+   ]
+  },
+  {
+   "id": "q12a",
+   "label": "12a",
+   "section": "Reasoning",
+   "stem": "Triangle $ABC$ has vertices $A(1, -2)$, $B(4, -2)$ and $C(4, -1)$. The dashed lines are $y = x$ and $y = -x$.",
+   "type": "point",
+   "prompt": "Reflect triangle $ABC$ in the $y$-axis. Give the coordinates of $B'$.",
+   "answer": "(-4,-2)",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 26,
+    "items": [
+     {
+      "seg": [
+       -5,
+       -5,
+       -5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -4,
+       -5,
+       -4,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -3,
+       -5,
+       -3,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -2,
+       -5,
+       -2,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1,
+       -5,
+       -1,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       -5,
+       0,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       1,
+       -5,
+       1,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       2,
+       -5,
+       2,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       -5,
+       3,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       4,
+       -5,
+       4,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       5,
+       -5,
+       5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -5,
+       5,
+       -5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -4,
+       5,
+       -4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -3,
+       5,
+       -3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -2,
+       5,
+       -2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -1,
+       5,
+       -1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       0,
+       5,
+       0
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       1,
+       5,
+       1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       2,
+       5,
+       2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       3,
+       5,
+       3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       4,
+       5,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       5,
+       5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5.4,
+       0,
+       5.4,
+       0
+      ],
+      "arrow": "both"
+     },
+     {
+      "seg": [
+       0,
+       -5.4,
+       0,
+       5.4
+      ],
+      "arrow": "both"
+     },
+     {
+      "label": "x",
+      "at": [
+       5.75,
+       0
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       5.75
+      ]
+     },
+     {
+      "label": "-5",
+      "at": [
+       -5,
+       -0.55
+      ]
+     },
+     {
+      "label": "-4",
+      "at": [
+       -4,
+       -0.55
+      ]
+     },
+     {
+      "label": "-3",
+      "at": [
+       -3,
+       -0.55
+      ]
+     },
+     {
+      "label": "-2",
+      "at": [
+       -2,
+       -0.55
+      ]
+     },
+     {
+      "label": "-1",
+      "at": [
+       -1,
+       -0.55
+      ]
+     },
+     {
+      "label": "1",
+      "at": [
+       1,
+       -0.55
+      ]
+     },
+     {
+      "label": "2",
+      "at": [
+       2,
+       -0.55
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       3,
+       -0.55
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       4,
+       -0.55
+      ]
+     },
+     {
+      "label": "5",
+      "at": [
+       5,
+       -0.55
+      ]
+     },
+     {
+      "label": "-5",
+      "at": [
+       -0.45,
+       -5
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-4",
+      "at": [
+       -0.45,
+       -4
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-3",
+      "at": [
+       -0.45,
+       -3
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-2",
+      "at": [
+       -0.45,
+       -2
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-1",
+      "at": [
+       -0.45,
+       -1
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "1",
+      "at": [
+       -0.45,
+       1
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "2",
+      "at": [
+       -0.45,
+       2
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "3",
+      "at": [
+       -0.45,
+       3
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "4",
+      "at": [
+       -0.45,
+       4
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "5",
+      "at": [
+       -0.45,
+       5
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.4,
+       -0.55
+      ]
+     },
+     {
+      "poly": [
+       [
+        1,
+        -2
+       ],
+       [
+        4,
+        -2
+       ],
+       [
+        4,
+        -1
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       -5,
+       -5,
+       5,
+       5
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       -5,
+       5,
+       5,
+       -5
+      ],
+      "dash": true
+     },
+     {
+      "label": "y = x",
+      "at": [
+       5.2,
+       5.3
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "y = -x",
+      "at": [
+       5.2,
+       -5.3
+      ],
+      "anchor": "start"
+     },
+     {
+      "point": [
+       1,
+       -2
+      ],
+      "pos": "sw",
+      "name": "A"
+     },
+     {
+      "point": [
+       4,
+       -2
+      ],
+      "pos": "se",
+      "name": "B"
+     },
+     {
+      "point": [
+       4,
+       -1
+      ],
+      "pos": "ne",
+      "name": "C"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q12b",
+   "label": "12b",
+   "section": "Reasoning",
+   "stem": "Triangle $ABC$ has vertices $A(1, -2)$, $B(4, -2)$ and $C(4, -1)$. The dashed lines are $y = x$ and $y = -x$.",
+   "type": "point",
+   "prompt": "Reflect triangle $ABC$ in the $x$-axis. Give the coordinates of $C'$.",
+   "answer": "(4,1)"
+  },
+  {
+   "id": "q12c",
+   "label": "12c",
+   "section": "Reasoning",
+   "stem": "Triangle $ABC$ has vertices $A(1, -2)$, $B(4, -2)$ and $C(4, -1)$. The dashed lines are $y = x$ and $y = -x$.",
+   "type": "point",
+   "prompt": "Reflect triangle $ABC$ in the line $y = x$. Give the coordinates of $A'$.",
+   "answer": "(-2,1)"
+  },
+  {
+   "id": "q12d",
+   "label": "12d",
+   "section": "Reasoning",
+   "stem": "Triangle $ABC$ has vertices $A(1, -2)$, $B(4, -2)$ and $C(4, -1)$. The dashed lines are $y = x$ and $y = -x$.",
+   "type": "point",
+   "prompt": "Reflect triangle $ABC$ in the line $y = -x$. Give the coordinates of $B'$.",
+   "answer": "(2,-4)"
+  },
+  {
+   "id": "q12e",
+   "label": "12e",
+   "section": "Reasoning",
+   "stem": "Rectangle $ABCD$ has vertices $A(1, 2)$, $B(4, 2)$, $C(4, 3)$ and $D(1, 3)$. The dashed lines are $y = x$ and $y = -x$.",
+   "type": "point",
+   "prompt": "Reflect rectangle $ABCD$ in the $y$-axis. Give the coordinates of $D'$.",
+   "answer": "(-1,3)",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 26,
+    "items": [
+     {
+      "seg": [
+       -5,
+       -5,
+       -5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -4,
+       -5,
+       -4,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -3,
+       -5,
+       -3,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -2,
+       -5,
+       -2,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1,
+       -5,
+       -1,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       -5,
+       0,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       1,
+       -5,
+       1,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       2,
+       -5,
+       2,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       -5,
+       3,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       4,
+       -5,
+       4,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       5,
+       -5,
+       5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -5,
+       5,
+       -5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -4,
+       5,
+       -4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -3,
+       5,
+       -3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -2,
+       5,
+       -2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -1,
+       5,
+       -1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       0,
+       5,
+       0
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       1,
+       5,
+       1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       2,
+       5,
+       2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       3,
+       5,
+       3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       4,
+       5,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       5,
+       5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5.4,
+       0,
+       5.4,
+       0
+      ],
+      "arrow": "both"
+     },
+     {
+      "seg": [
+       0,
+       -5.4,
+       0,
+       5.4
+      ],
+      "arrow": "both"
+     },
+     {
+      "label": "x",
+      "at": [
+       5.75,
+       0
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       5.75
+      ]
+     },
+     {
+      "label": "-5",
+      "at": [
+       -5,
+       -0.55
+      ]
+     },
+     {
+      "label": "-4",
+      "at": [
+       -4,
+       -0.55
+      ]
+     },
+     {
+      "label": "-3",
+      "at": [
+       -3,
+       -0.55
+      ]
+     },
+     {
+      "label": "-2",
+      "at": [
+       -2,
+       -0.55
+      ]
+     },
+     {
+      "label": "-1",
+      "at": [
+       -1,
+       -0.55
+      ]
+     },
+     {
+      "label": "1",
+      "at": [
+       1,
+       -0.55
+      ]
+     },
+     {
+      "label": "2",
+      "at": [
+       2,
+       -0.55
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       3,
+       -0.55
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       4,
+       -0.55
+      ]
+     },
+     {
+      "label": "5",
+      "at": [
+       5,
+       -0.55
+      ]
+     },
+     {
+      "label": "-5",
+      "at": [
+       -0.45,
+       -5
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-4",
+      "at": [
+       -0.45,
+       -4
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-3",
+      "at": [
+       -0.45,
+       -3
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-2",
+      "at": [
+       -0.45,
+       -2
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-1",
+      "at": [
+       -0.45,
+       -1
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "1",
+      "at": [
+       -0.45,
+       1
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "2",
+      "at": [
+       -0.45,
+       2
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "3",
+      "at": [
+       -0.45,
+       3
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "4",
+      "at": [
+       -0.45,
+       4
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "5",
+      "at": [
+       -0.45,
+       5
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.4,
+       -0.55
+      ]
+     },
+     {
+      "poly": [
+       [
+        1,
+        2
+       ],
+       [
+        4,
+        2
+       ],
+       [
+        4,
+        3
+       ],
+       [
+        1,
+        3
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       -5,
+       -5,
+       5,
+       5
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       -5,
+       5,
+       5,
+       -5
+      ],
+      "dash": true
+     },
+     {
+      "label": "y = x",
+      "at": [
+       5.2,
+       5.3
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "y = -x",
+      "at": [
+       5.2,
+       -5.3
+      ],
+      "anchor": "start"
+     },
+     {
+      "point": [
+       1,
+       2
+      ],
+      "pos": "sw",
+      "name": "A"
+     },
+     {
+      "point": [
+       4,
+       2
+      ],
+      "pos": "se",
+      "name": "B"
+     },
+     {
+      "point": [
+       4,
+       3
+      ],
+      "pos": "ne",
+      "name": "C"
+     },
+     {
+      "point": [
+       1,
+       3
+      ],
+      "pos": "nw",
+      "name": "D"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q12f",
+   "label": "12f",
+   "section": "Reasoning",
+   "stem": "Rectangle $ABCD$ has vertices $A(1, 2)$, $B(4, 2)$, $C(4, 3)$ and $D(1, 3)$. The dashed lines are $y = x$ and $y = -x$.",
+   "type": "point",
+   "prompt": "Reflect rectangle $ABCD$ in the $x$-axis. Give the coordinates of $C'$.",
+   "answer": "(4,-3)"
+  },
+  {
+   "id": "q12g",
+   "label": "12g",
+   "section": "Reasoning",
+   "stem": "Rectangle $ABCD$ has vertices $A(1, 2)$, $B(4, 2)$, $C(4, 3)$ and $D(1, 3)$. The dashed lines are $y = x$ and $y = -x$.",
+   "type": "point",
+   "prompt": "Reflect rectangle $ABCD$ in the line $y = x$. Give the coordinates of $B'$.",
+   "answer": "(2,4)"
+  },
+  {
+   "id": "q12h",
+   "label": "12h",
+   "section": "Reasoning",
+   "stem": "Rectangle $ABCD$ has vertices $A(1, 2)$, $B(4, 2)$, $C(4, 3)$ and $D(1, 3)$. The dashed lines are $y = x$ and $y = -x$.",
+   "type": "point",
+   "prompt": "Reflect rectangle $ABCD$ in the line $y = -x$. Give the coordinates of $C'$.",
+   "answer": "(-3,-4)"
+  },
+  {
+   "id": "q13",
+   "label": "13",
+   "section": "Reasoning",
+   "type": "choice",
+   "prompt": "Some points do not move when they are reflected in a mirror line. Where are these points?",
+   "answer": 2,
+   "options": [
+    "Exactly one unit from the mirror line",
+    "Anywhere on the left of the mirror line",
+    "On the mirror line itself",
+    "At the origin only"
+   ]
+  },
+  {
+   "id": "q14a",
+   "label": "14a",
+   "section": "Enrichment",
+   "stem": "Each shape is reflected through the point $P$ (each point goes straight through $P$ to the same distance on the other side). Give the coordinates of the image of vertex $A$.",
+   "type": "point",
+   "prompt": "$P(4, 2)$",
+   "answer": "(7,3)",
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -1,
+     8
+    ],
+    "y": [
+     -1,
+     5
+    ],
+    "path": [
+     [
+      1,
+      1
+     ],
+     [
+      3,
+      1
+     ],
+     [
+      3,
+      4
+     ],
+     [
+      1,
+      3
+     ]
+    ],
+    "closed": true,
+    "points": {
+     "A": [
+      1,
+      1
+     ],
+     "P": [
+      4,
+      2
+     ]
+    }
+   }
+  },
+  {
+   "id": "q14b",
+   "label": "14b",
+   "section": "Enrichment",
+   "stem": "Each shape is reflected through the point $P$ (each point goes straight through $P$ to the same distance on the other side). Give the coordinates of the image of vertex $A$.",
+   "type": "point",
+   "prompt": "$P(0, 0)$",
+   "answer": "(3,-2)",
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -4,
+     4
+    ],
+    "y": [
+     -3,
+     5
+    ],
+    "path": [
+     [
+      -3,
+      2
+     ],
+     [
+      -1,
+      2
+     ],
+     [
+      -1,
+      4
+     ]
+    ],
+    "closed": true,
+    "points": {
+     "A": [
+      -3,
+      2
+     ],
+     "P": [
+      0,
+      0
+     ]
+    }
+   }
+  },
+  {
+   "id": "q14c",
+   "label": "14c",
+   "section": "Enrichment",
+   "stem": "Each shape is reflected through the point $P$ (each point goes straight through $P$ to the same distance on the other side). Give the coordinates of the image of vertex $A$.",
+   "type": "point",
+   "prompt": "$P(2, 3)$",
+   "answer": "(6,7)",
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -3,
+     7
+    ],
+    "y": [
+     -2,
+     8
+    ],
+    "path": [
+     [
+      -2,
+      -1
+     ],
+     [
+      1,
+      -1
+     ],
+     [
+      0,
+      2
+     ]
+    ],
+    "closed": true,
+    "points": {
+     "A": [
+      -2,
+      -1
+     ],
+     "P": [
+      2,
+      3
+     ]
+    }
+   }
+  },
+  {
+   "id": "q14d",
+   "label": "14d",
+   "section": "Enrichment",
+   "stem": "A shape has point symmetry if a reflection through its centre point gives exactly the same shape. Does this shape have point symmetry?",
+   "type": "choice",
+   "prompt": "Look at the shape.",
+   "answer": 0,
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        3,
+        0
+       ],
+       [
+        4,
+        1.6
+       ],
+       [
+        1,
+        1.6
+       ]
+      ],
+      "fill": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "q14e",
+   "label": "14e",
+   "section": "Enrichment",
+   "stem": "A shape has point symmetry if a reflection through its centre point gives exactly the same shape. Does this shape have point symmetry?",
+   "type": "choice",
+   "prompt": "Look at the shape.",
+   "answer": 1,
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        3,
+        0
+       ],
+       [
+        1.5,
+        2.2
+       ]
+      ],
+      "fill": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "q14f",
+   "label": "14f",
+   "section": "Enrichment",
+   "stem": "A shape has point symmetry if a reflection through its centre point gives exactly the same shape. Does this shape have point symmetry?",
+   "type": "choice",
+   "prompt": "Look at the shape.",
+   "answer": 0,
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        2
+       ],
+       [
+        3,
+        2
+       ],
+       [
+        3,
+        1.6
+       ],
+       [
+        0.9,
+        0.4
+       ],
+       [
+        3,
+        0.4
+       ],
+       [
+        3,
+        0
+       ],
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        0.4
+       ],
+       [
+        2.1,
+        1.6
+       ],
+       [
+        0,
+        1.6
+       ]
+      ],
+      "fill": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "q14g",
+   "label": "14g",
+   "section": "Enrichment",
+   "type": "numeric",
+   "prompt": "How many of these special quadrilaterals have point symmetry: kite, rhombus, isosceles trapezium, square, parallelogram, rectangle?",
+   "answer": "4"
+  }
+ ]
+},
+{
+ "id": "y8-10b",
+ "year": 8,
+ "chapter": "Chapter 10: Transformations and congruence",
+ "title": "10B Translation",
+ "description": "Describe translations with vectors, find image points and combine translation vectors.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "State the translation vector that moves:",
+   "type": "point",
+   "prompt": "$A$ to $A'$",
+   "answer": "(4,-1)",
+   "stemFigure": {
+    "kind": "plane",
+    "x": [
+     -4,
+     3
+    ],
+    "y": [
+     -4,
+     3
+    ],
+    "points": {
+     "A": [
+      -3,
+      2
+     ],
+     "A′": [
+      1,
+      1
+     ],
+     "B": [
+      2,
+      -1
+     ],
+     "B′": [
+      -1,
+      -3
+     ]
+    }
+   },
+   "hint": "Type the vector like (3, -2)"
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "State the translation vector that moves:",
+   "type": "point",
+   "prompt": "$B$ to $B'$",
+   "answer": "(-3,-2)"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Write the vector that takes each point to its image. A grid may help.",
+   "type": "point",
+   "prompt": "$A(1, 4)$ to $A'(3, 1)$",
+   "answer": "(2,-3)"
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Write the vector that takes each point to its image. A grid may help.",
+   "type": "point",
+   "prompt": "$B(2, 5)$ to $B'(5, 4)$",
+   "answer": "(3,-1)"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Write the vector that takes each point to its image. A grid may help.",
+   "type": "point",
+   "prompt": "$C(-3, 2)$ to $C'(1, 0)$",
+   "answer": "(4,-2)"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Write the vector that takes each point to its image. A grid may help.",
+   "type": "point",
+   "prompt": "$D(-4, 2)$ to $D'(-1, -2)$",
+   "answer": "(3,-4)"
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Write the vector that takes each point to its image. A grid may help.",
+   "type": "point",
+   "prompt": "$E(-1, -3)$ to $E'(2, 4)$",
+   "answer": "(3,7)"
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "Write the vector that takes each point to its image. A grid may help.",
+   "type": "point",
+   "prompt": "$F(3, -2)$ to $F'(-1, 1)$",
+   "answer": "(-4,3)"
+  },
+  {
+   "id": "q2g",
+   "label": "2g",
+   "section": "Fluency",
+   "stem": "Write the vector that takes each point to its image. A grid may help.",
+   "type": "point",
+   "prompt": "$G(0, 4)$ to $G'(3, 0)$",
+   "answer": "(3,-4)"
+  },
+  {
+   "id": "q2h",
+   "label": "2h",
+   "section": "Fluency",
+   "stem": "Write the vector that takes each point to its image. A grid may help.",
+   "type": "point",
+   "prompt": "$H(-4, 6)$ to $H'(0, 0)$",
+   "answer": "(4,-6)"
+  },
+  {
+   "id": "q2i",
+   "label": "2i",
+   "section": "Fluency",
+   "stem": "Write the vector that takes each point to its image. A grid may help.",
+   "type": "point",
+   "prompt": "$I(6, 3)$ to $I'(-12, 9)$",
+   "answer": "(-18,6)"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Each shape is translated by the given vector. Where does the vertex $P$ end up?",
+   "type": "point",
+   "prompt": "Vector $(3, 2)$. Give the coordinates of $P'$.",
+   "answer": "(0,0)",
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -4,
+     4
+    ],
+    "y": [
+     -4,
+     4
+    ],
+    "path": [
+     [
+      -3,
+      -2
+     ],
+     [
+      -1,
+      -2
+     ],
+     [
+      -1,
+      -1
+     ],
+     [
+      -2,
+      -1
+     ],
+     [
+      -2,
+      1
+     ],
+     [
+      -3,
+      1
+     ]
+    ],
+    "closed": true,
+    "points": {
+     "P": [
+      -3,
+      -2
+     ]
+    }
+   }
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Each shape is translated by the given vector. Where does the vertex $P$ end up?",
+   "type": "point",
+   "prompt": "Vector $(4, -3)$. Give the coordinates of $P'$.",
+   "answer": "(0,-2)",
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -4,
+     4
+    ],
+    "y": [
+     -4,
+     4
+    ],
+    "path": [
+     [
+      -4,
+      1
+     ],
+     [
+      -3,
+      3
+     ],
+     [
+      -3,
+      0
+     ]
+    ],
+    "closed": true,
+    "points": {
+     "P": [
+      -4,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Each shape is translated by the given vector. Where does the vertex $P$ end up?",
+   "type": "point",
+   "prompt": "Vector $(-2, -3)$. Give the coordinates of $P'$.",
+   "answer": "(-1,-2)",
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -4,
+     4
+    ],
+    "y": [
+     -4,
+     4
+    ],
+    "path": [
+     [
+      1,
+      1
+     ],
+     [
+      3,
+      1
+     ],
+     [
+      4,
+      2
+     ],
+     [
+      2,
+      3
+     ]
+    ],
+    "closed": true,
+    "points": {
+     "P": [
+      1,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Each shape is translated by the given vector. Where does the vertex $P$ end up?",
+   "type": "point",
+   "prompt": "Vector $(0, -4)$. Give the coordinates of $P'$.",
+   "answer": "(-2,-3)",
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -4,
+     4
+    ],
+    "y": [
+     -4,
+     4
+    ],
+    "path": [
+     [
+      -2,
+      1
+     ],
+     [
+      0,
+      3
+     ],
+     [
+      1,
+      1
+     ]
+    ],
+    "closed": true,
+    "points": {
+     "P": [
+      -2,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "Each shape is translated by the given vector. Where does the vertex $P$ end up?",
+   "type": "point",
+   "prompt": "Vector $(-3, -2)$. Give the coordinates of $P'$.",
+   "answer": "(-2,-3)",
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -4,
+     4
+    ],
+    "y": [
+     -4,
+     4
+    ],
+    "path": [
+     [
+      1,
+      -1
+     ],
+     [
+      2,
+      -1
+     ],
+     [
+      3,
+      3
+     ],
+     [
+      2,
+      1
+     ],
+     [
+      1,
+      1
+     ]
+    ],
+    "closed": true,
+    "points": {
+     "P": [
+      1,
+      -1
+     ]
+    }
+   }
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "Each shape is translated by the given vector. Where does the vertex $P$ end up?",
+   "type": "point",
+   "prompt": "Vector $(-4, 0)$. Give the coordinates of $P'$.",
+   "answer": "(-4,-1)",
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -4,
+     4
+    ],
+    "y": [
+     -4,
+     4
+    ],
+    "path": [
+     [
+      0,
+      -1
+     ],
+     [
+      2,
+      -1
+     ],
+     [
+      3,
+      1
+     ],
+     [
+      1,
+      1
+     ],
+     [
+      0,
+      0
+     ]
+    ],
+    "closed": true,
+    "points": {
+     "P": [
+      0,
+      -1
+     ]
+    }
+   }
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "Write the coordinates of the image of the point $A(11, -3)$ after a translation by each vector.",
+   "type": "point",
+   "prompt": "$(3, 2)$",
+   "answer": "(14,-1)"
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "Write the coordinates of the image of the point $A(11, -3)$ after a translation by each vector.",
+   "type": "point",
+   "prompt": "$(7, 0)$",
+   "answer": "(18,-3)"
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "Write the coordinates of the image of the point $A(11, -3)$ after a translation by each vector.",
+   "type": "point",
+   "prompt": "$(0, 6)$",
+   "answer": "(11,3)"
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "Write the coordinates of the image of the point $A(11, -3)$ after a translation by each vector.",
+   "type": "point",
+   "prompt": "$(-5, 4)$",
+   "answer": "(6,1)"
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Fluency",
+   "stem": "Write the coordinates of the image of the point $A(11, -3)$ after a translation by each vector.",
+   "type": "point",
+   "prompt": "$(-3, -2)$",
+   "answer": "(8,-5)"
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Fluency",
+   "stem": "Write the coordinates of the image of the point $A(11, -3)$ after a translation by each vector.",
+   "type": "point",
+   "prompt": "$(-12, 5)$",
+   "answer": "(-1,2)"
+  },
+  {
+   "id": "q4g",
+   "label": "4g",
+   "section": "Fluency",
+   "stem": "Write the coordinates of the image of the point $A(11, -3)$ after a translation by each vector.",
+   "type": "point",
+   "prompt": "$(-1, -9)$",
+   "answer": "(10,-12)"
+  },
+  {
+   "id": "q4h",
+   "label": "4h",
+   "section": "Fluency",
+   "stem": "Write the coordinates of the image of the point $A(11, -3)$ after a translation by each vector.",
+   "type": "point",
+   "prompt": "$(4, -7)$",
+   "answer": "(15,-10)"
+  },
+  {
+   "id": "q4i",
+   "label": "4i",
+   "section": "Fluency",
+   "stem": "Write the coordinates of the image of the point $A(11, -3)$ after a translation by each vector.",
+   "type": "point",
+   "prompt": "$(10, -4)$",
+   "answer": "(21,-7)"
+  },
+  {
+   "id": "q4j",
+   "label": "4j",
+   "section": "Fluency",
+   "stem": "Write the coordinates of the image of the point $A(11, -3)$ after a translation by each vector.",
+   "type": "point",
+   "prompt": "$(-24, 13)$",
+   "answer": "(-13,10)"
+  },
+  {
+   "id": "q4k",
+   "label": "4k",
+   "section": "Fluency",
+   "stem": "Write the coordinates of the image of the point $A(11, -3)$ after a translation by each vector.",
+   "type": "point",
+   "prompt": "$(-6, 17)$",
+   "answer": "(5,14)"
+  },
+  {
+   "id": "q4l",
+   "label": "4l",
+   "section": "Fluency",
+   "stem": "Write the coordinates of the image of the point $A(11, -3)$ after a translation by each vector.",
+   "type": "point",
+   "prompt": "$(-20, -35)$",
+   "answer": "(-9,-38)"
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Problem-solving",
+   "stem": "Which vector takes an object the greatest distance from where it started?",
+   "type": "choice",
+   "prompt": "(-2, 3), (0, 4), (6, 0)",
+   "answer": 2,
+   "options": [
+    "(-2, 3)",
+    "(0, 4)",
+    "(6, 0)"
+   ]
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Problem-solving",
+   "stem": "Which vector takes an object the greatest distance from where it started?",
+   "type": "choice",
+   "prompt": "(-1, -5), (3, 0), (0, 4)",
+   "answer": 0,
+   "options": [
+    "(-1, -5)",
+    "(3, 0)",
+    "(0, 4)"
+   ]
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Problem-solving",
+   "stem": "A delivery bike rides around the city streets following these vectors: $(4, 1)$, $(-6, 3)$, $(2, -2)$ and $(-3, -4)$.",
+   "type": "point",
+   "prompt": "What single vector describes all these vectors combined?",
+   "answer": "(-3,-2)"
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Problem-solving",
+   "stem": "A delivery bike rides around the city streets following these vectors: $(4, 1)$, $(-6, 3)$, $(2, -2)$ and $(-3, -4)$.",
+   "type": "point",
+   "prompt": "The bike started at the origin $(0, 0)$. What vector takes it back to the origin?",
+   "answer": "(3,2)"
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Problem-solving",
+   "stem": "A point is moved by these translation vectors, one after another. The last vector $(x, y)$ takes it back to where it started. Find $(x, y)$.",
+   "type": "point",
+   "prompt": "$(4, 3)$, $(-2, -5)$, $(x, y)$",
+   "answer": "(-2,2)"
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Problem-solving",
+   "stem": "A point is moved by these translation vectors, one after another. The last vector $(x, y)$ takes it back to where it started. Find $(x, y)$.",
+   "type": "point",
+   "prompt": "$(3, 4)$, $(-6, 1)$, $(-2, -2)$, $(x, y)$",
+   "answer": "(5,-3)"
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Problem-solving",
+   "stem": "A point is moved by these translation vectors, one after another. The last vector $(x, y)$ takes it back to where it started. Find $(x, y)$.",
+   "type": "point",
+   "prompt": "$(0, 5)$, $(6, 0)$, $(-3, -8)$, $(x, y)$",
+   "answer": "(-3,3)"
+  },
+  {
+   "id": "q7d",
+   "label": "7d",
+   "section": "Problem-solving",
+   "stem": "A point is moved by these translation vectors, one after another. The last vector $(x, y)$ takes it back to where it started. Find $(x, y)$.",
+   "type": "point",
+   "prompt": "$(-5, 15)$, $(10, 0)$, $(-30, 35)$, $(x, y)$",
+   "answer": "(25,-50)"
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Reasoning",
+   "stem": "A reverse vector moves a point the same distance in the opposite direction. Write the reverse of each vector.",
+   "type": "point",
+   "prompt": "$(4, -3)$",
+   "answer": "(-4,3)"
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Reasoning",
+   "stem": "A reverse vector moves a point the same distance in the opposite direction. Write the reverse of each vector.",
+   "type": "point",
+   "prompt": "$(-6, 0)$",
+   "answer": "(6,0)"
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Reasoning",
+   "stem": "A reverse vector moves a point the same distance in the opposite direction. Write the reverse of each vector.",
+   "type": "point",
+   "prompt": "$(p, q)$",
+   "answer": "(-p,-q)",
+   "hint": "Type the vector like (-p, -q)"
+  },
+  {
+   "id": "q8d",
+   "label": "8d",
+   "section": "Reasoning",
+   "stem": "A reverse vector moves a point the same distance in the opposite direction. Write the reverse of each vector.",
+   "type": "point",
+   "prompt": "$(-p, -q)$",
+   "answer": "(p,q)"
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Reasoning",
+   "stem": "These translation vectors are applied to a shape one after the other. What single vector would do all of them in one go?",
+   "type": "point",
+   "prompt": "$(3, 2)$, $(-4, -1)$, $(0, 5)$",
+   "answer": "(-1,6)"
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Reasoning",
+   "stem": "These translation vectors are applied to a shape one after the other. What single vector would do all of them in one go?",
+   "type": "point",
+   "prompt": "$(5, 3)$, $(7, -4)$, $(-10, 0)$",
+   "answer": "(2,-1)"
+  },
+  {
+   "id": "q9c",
+   "label": "9c",
+   "section": "Reasoning",
+   "stem": "These translation vectors are applied to a shape one after the other. What single vector would do all of them in one go?",
+   "type": "point",
+   "prompt": "$(m, n)$, $(2m, -n)$, $(-m, p)$",
+   "answer": "(2m,p)",
+   "hint": "Simplify each part, for example (3a, b)"
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Reasoning",
+   "stem": "A rectangle $ABCD$ has corners at $A(-1, -3)$, $B(-1, 5)$, $C(5, 5)$ and $D(5, -3)$. It is translated by a vector, and the original and the image may overlap.",
+   "type": "numeric",
+   "prompt": "If the vector is $(2, 5)$, what is the area of the overlapping rectangle?",
+   "answer": "12",
+   "units": "units²"
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Reasoning",
+   "stem": "A rectangle $ABCD$ has corners at $A(-1, -3)$, $B(-1, 5)$, $C(5, 5)$ and $D(5, -3)$. It is translated by a vector, and the original and the image may overlap.",
+   "type": "numeric",
+   "prompt": "If the vector is $(7, 2)$, what is the area of the overlapping region?",
+   "answer": "0",
+   "units": "units²"
+  },
+  {
+   "id": "q10c",
+   "label": "10c",
+   "section": "Reasoning",
+   "stem": "A rectangle $ABCD$ has corners at $A(-1, -3)$, $B(-1, 5)$, $C(5, 5)$ and $D(5, -3)$. It is translated by a vector, and the original and the image may overlap.",
+   "type": "point",
+   "prompt": "The rectangle is moved only to the right. What is the smallest translation vector that makes the overlapping area $0$ units²?",
+   "answer": "(6,0)"
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Enrichment",
+   "stem": "A possum on open ground has $1$ second to reach a hiding hole before a dog spots it. It can run at most $6$ metres in one second.",
+   "type": "numeric",
+   "prompt": "Use Pythagoras' theorem to find the distance $x$ m to the hole in this diagram, correct to $2$ decimal places.",
+   "answer": "5.10",
+   "figure": {
+    "kind": "diagram",
+    "unit": 40,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        1,
+        0
+       ],
+       [
+        1,
+        5
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "angle": [
+       1,
+       0,
+       90,
+       180
+      ],
+      "right": true
+     },
+     {
+      "point": [
+       0,
+       0
+      ],
+      "pos": "s",
+      "name": "Possum"
+     },
+     {
+      "point": [
+       1,
+       5
+      ],
+      "pos": "n",
+      "name": "Hole"
+     },
+     {
+      "label": "1 m",
+      "at": [
+       0.5,
+       -0.45
+      ]
+     },
+     {
+      "label": "5 m",
+      "at": [
+       1.25,
+       2.5
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "x m",
+      "at": [
+       0.3,
+       2.7
+      ],
+      "anchor": "end"
+     }
+    ]
+   },
+   "dp": 2,
+   "units": "m"
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Enrichment",
+   "stem": "A possum on open ground has $1$ second to reach a hiding hole before a dog spots it. It can run at most $6$ metres in one second.",
+   "type": "choice",
+   "prompt": "The possum runs the distance and direction given by the vector $(-4, 5)$, in metres. Can it do this within $1$ second?",
+   "answer": 1,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q11c",
+   "label": "11c",
+   "section": "Enrichment",
+   "stem": "A possum on open ground has $1$ second to reach a hiding hole before a dog spots it. It can run at most $6$ metres in one second.",
+   "type": "numeric",
+   "prompt": "The possum starts at $(0, 0)$ and there is a hole at every point with whole-number coordinates, such as $(2, 3)$ and $(-4, 1)$. How many holes can it reach within $1$ second? (Do not count $(0, 0)$.)",
+   "answer": "112"
+  }
+ ]
+},
+{
+ "id": "y8-10c",
+ "year": 8,
+ "chapter": "Chapter 10: Transformations and congruence",
+ "title": "10C Rotation",
+ "description": "Find orders of rotational symmetry, rotate shapes and points about a centre and find angles of rotation.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Find the order of rotational symmetry for each shape.",
+   "type": "numeric",
+   "prompt": "Find the order of rotational symmetry.",
+   "answer": "2",
+   "figure": {
+    "kind": "diagram",
+    "unit": 26,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        3.2,
+        0
+       ],
+       [
+        3.2,
+        1.6
+       ],
+       [
+        0,
+        1.6
+       ]
+      ],
+      "fill": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Find the order of rotational symmetry for each shape.",
+   "type": "numeric",
+   "prompt": "Find the order of rotational symmetry.",
+   "answer": "3",
+   "figure": {
+    "kind": "diagram",
+    "unit": 26,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        2,
+        0
+       ],
+       [
+        1.5,
+        0.8
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        -1,
+        1.732
+       ],
+       [
+        -1.443,
+        0.899
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        -1,
+        -1.732
+       ],
+       [
+        -0.057,
+        -1.699
+       ]
+      ],
+      "fill": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Find the order of rotational symmetry for each shape.",
+   "type": "numeric",
+   "prompt": "Find the order of rotational symmetry.",
+   "answer": "6",
+   "figure": {
+    "kind": "diagram",
+    "unit": 26,
+    "items": [
+     {
+      "poly": [
+       [
+        1.6,
+        0
+       ],
+       [
+        0.8,
+        1.386
+       ],
+       [
+        -0.8,
+        1.386
+       ],
+       [
+        -1.6,
+        0
+       ],
+       [
+        -0.8,
+        -1.386
+       ],
+       [
+        0.8,
+        -1.386
+       ]
+      ],
+      "fill": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Find the order of rotational symmetry for each shape.",
+   "type": "numeric",
+   "prompt": "Find the order of rotational symmetry.",
+   "answer": "2",
+   "figure": {
+    "kind": "diagram",
+    "unit": 26,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        2.4,
+        1.1
+       ],
+       [
+        0,
+        2.2
+       ],
+       [
+        -2.4,
+        1.1
+       ]
+      ],
+      "fill": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Find the order of rotational symmetry for each shape.",
+   "type": "numeric",
+   "prompt": "Find the order of rotational symmetry.",
+   "answer": "8",
+   "figure": {
+    "kind": "diagram",
+    "unit": 26,
+    "items": [
+     {
+      "poly": [
+       [
+        1.478,
+        0.612
+       ],
+       [
+        0.612,
+        1.478
+       ],
+       [
+        -0.612,
+        1.478
+       ],
+       [
+        -1.478,
+        0.612
+       ],
+       [
+        -1.478,
+        -0.612
+       ],
+       [
+        -0.612,
+        -1.478
+       ],
+       [
+        0.612,
+        -1.478
+       ],
+       [
+        1.478,
+        -0.612
+       ]
+      ],
+      "fill": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Find the order of rotational symmetry for each shape.",
+   "type": "numeric",
+   "prompt": "Find the order of rotational symmetry.",
+   "answer": "2",
+   "figure": {
+    "kind": "diagram",
+    "unit": 26,
+    "items": [
+     {
+      "poly": [
+       [
+        -2.2,
+        1.4
+       ],
+       [
+        -1.6,
+        1.4
+       ],
+       [
+        -1.6,
+        0.3
+       ],
+       [
+        2.2,
+        0.3
+       ],
+       [
+        2.2,
+        -1.4
+       ],
+       [
+        1.6,
+        -1.4
+       ],
+       [
+        1.6,
+        -0.3
+       ],
+       [
+        -2.2,
+        -0.3
+       ]
+      ],
+      "fill": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Find the order of rotational symmetry for each shape.",
+   "type": "numeric",
+   "prompt": "Find the order of rotational symmetry.",
+   "answer": "5",
+   "figure": {
+    "kind": "diagram",
+    "unit": 26,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        1.8
+       ],
+       [
+        -0.441,
+        0.607
+       ],
+       [
+        -1.712,
+        0.556
+       ],
+       [
+        -0.713,
+        -0.232
+       ],
+       [
+        -1.058,
+        -1.456
+       ],
+       [
+        0,
+        -0.75
+       ],
+       [
+        1.058,
+        -1.456
+       ],
+       [
+        0.713,
+        -0.232
+       ],
+       [
+        1.712,
+        0.556
+       ],
+       [
+        0.441,
+        0.607
+       ]
+      ],
+      "fill": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "Find the order of rotational symmetry for each shape.",
+   "type": "numeric",
+   "prompt": "Find the order of rotational symmetry.",
+   "answer": "4",
+   "figure": {
+    "kind": "diagram",
+    "unit": 26,
+    "items": [
+     {
+      "poly": [
+       [
+        0.35,
+        0
+       ],
+       [
+        0.303,
+        0.175
+       ],
+       [
+        0.175,
+        0.303
+       ],
+       [
+        0,
+        0.35
+       ],
+       [
+        -0.175,
+        0.303
+       ],
+       [
+        -0.303,
+        0.175
+       ],
+       [
+        -0.35,
+        0
+       ],
+       [
+        -0.303,
+        -0.175
+       ],
+       [
+        -0.175,
+        -0.303
+       ],
+       [
+        0,
+        -0.35
+       ],
+       [
+        0.175,
+        -0.303
+       ],
+       [
+        0.303,
+        -0.175
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "poly": [
+       [
+        0.35,
+        0
+       ],
+       [
+        1.3,
+        -0.55
+       ],
+       [
+        2.2,
+        -0.1
+       ],
+       [
+        1.4,
+        0.45
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "poly": [
+       [
+        0,
+        0.35
+       ],
+       [
+        0.55,
+        1.3
+       ],
+       [
+        0.1,
+        2.2
+       ],
+       [
+        -0.45,
+        1.4
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "poly": [
+       [
+        -0.35,
+        0
+       ],
+       [
+        -1.3,
+        0.55
+       ],
+       [
+        -2.2,
+        0.1
+       ],
+       [
+        -1.4,
+        -0.45
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "poly": [
+       [
+        0,
+        -0.35
+       ],
+       [
+        -0.55,
+        -1.3
+       ],
+       [
+        -0.1,
+        -2.2
+       ],
+       [
+        0.45,
+        -1.4
+       ]
+      ],
+      "fill": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Each shape is rotated about the point $C$ by the given angle and direction. Where does the vertex $P$ end up?",
+   "type": "point",
+   "prompt": "Clockwise by $90°$. Give the coordinates of $P'$.",
+   "answer": "(2,0)",
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -5,
+     5
+    ],
+    "y": [
+     -5,
+     5
+    ],
+    "path": [
+     [
+      1,
+      1
+     ],
+     [
+      3,
+      1
+     ],
+     [
+      3,
+      3
+     ],
+     [
+      2,
+      3
+     ],
+     [
+      2,
+      2
+     ],
+     [
+      1,
+      2
+     ]
+    ],
+    "closed": true,
+    "points": {
+     "C": [
+      1,
+      2
+     ],
+     "P": [
+      3,
+      3
+     ]
+    }
+   }
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Each shape is rotated about the point $C$ by the given angle and direction. Where does the vertex $P$ end up?",
+   "type": "point",
+   "prompt": "Anticlockwise by $90°$. Give the coordinates of $P'$.",
+   "answer": "(1,-2)",
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -5,
+     5
+    ],
+    "y": [
+     -5,
+     5
+    ],
+    "path": [
+     [
+      -3,
+      -2
+     ],
+     [
+      -1,
+      -2
+     ],
+     [
+      -1,
+      0
+     ],
+     [
+      -2,
+      0
+     ],
+     [
+      -2,
+      -1
+     ],
+     [
+      -3,
+      -1
+     ]
+    ],
+    "closed": true,
+    "points": {
+     "C": [
+      -1,
+      0
+     ],
+     "P": [
+      -3,
+      -2
+     ]
+    }
+   }
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Each shape is rotated about the point $C$ by the given angle and direction. Where does the vertex $P$ end up?",
+   "type": "point",
+   "prompt": "Anticlockwise by $180°$. Give the coordinates of $P'$.",
+   "answer": "(0,-3)",
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -5,
+     5
+    ],
+    "y": [
+     -5,
+     5
+    ],
+    "path": [
+     [
+      1,
+      -1
+     ],
+     [
+      3,
+      -1
+     ],
+     [
+      2,
+      1
+     ],
+     [
+      1,
+      1
+     ]
+    ],
+    "closed": true,
+    "points": {
+     "C": [
+      1,
+      -1
+     ],
+     "P": [
+      2,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Each shape is rotated about the point $C$ by the given angle and direction. Where does the vertex $P$ end up?",
+   "type": "point",
+   "prompt": "Clockwise by $90°$. Give the coordinates of $P'$.",
+   "answer": "(3,-2)",
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -5,
+     5
+    ],
+    "y": [
+     -5,
+     5
+    ],
+    "path": [
+     [
+      0,
+      1
+     ],
+     [
+      2,
+      1
+     ],
+     [
+      3,
+      2
+     ],
+     [
+      3,
+      4
+     ],
+     [
+      1,
+      4
+     ]
+    ],
+    "closed": true,
+    "points": {
+     "C": [
+      0,
+      1
+     ],
+     "P": [
+      3,
+      4
+     ]
+    }
+   }
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "Each shape is rotated about the point $C$ by the given angle and direction. Where does the vertex $P$ end up?",
+   "type": "point",
+   "prompt": "Anticlockwise by $180°$. Give the coordinates of $P'$.",
+   "answer": "(3,3)",
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -5,
+     5
+    ],
+    "y": [
+     -5,
+     5
+    ],
+    "path": [
+     [
+      -3,
+      1
+     ],
+     [
+      -1,
+      1
+     ],
+     [
+      0,
+      2
+     ],
+     [
+      -2,
+      3
+     ]
+    ],
+    "closed": true,
+    "points": {
+     "C": [
+      0,
+      2
+     ],
+     "P": [
+      -3,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "Each shape is rotated about the point $C$ by the given angle and direction. Where does the vertex $P$ end up?",
+   "type": "point",
+   "prompt": "Clockwise by $180°$. Give the coordinates of $P'$.",
+   "answer": "(2,-1)",
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -5,
+     5
+    ],
+    "y": [
+     -5,
+     5
+    ],
+    "path": [
+     [
+      1,
+      1
+     ],
+     [
+      4,
+      1
+     ],
+     [
+      4,
+      2
+     ],
+     [
+      2,
+      3
+     ]
+    ],
+    "closed": true,
+    "points": {
+     "C": [
+      2,
+      1
+     ],
+     "P": [
+      2,
+      3
+     ]
+    }
+   }
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "The shaded shape is rotated about the point $C$. Which diagram shows the correct image (the unshaded shape)?",
+   "type": "choice",
+   "prompt": "Clockwise by $90°$.",
+   "answer": 1,
+   "options": [
+    "A",
+    "B",
+    "C"
+   ],
+   "figure": [
+    {
+     "kind": "diagram",
+     "unit": 19,
+     "items": [
+      {
+       "seg": [
+        -2,
+        -1,
+        -2,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -1,
+        -1,
+        -1,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        -1,
+        0,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        -1,
+        1,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        2,
+        -1,
+        2,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        3,
+        -1,
+        3,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        4,
+        -1,
+        4,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        5,
+        -1,
+        5,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        6,
+        -1,
+        6,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        7,
+        -1,
+        7,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        8,
+        -1,
+        8,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        -1,
+        8,
+        -1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        0,
+        8,
+        0
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        1,
+        8,
+        1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        2,
+        8,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        3,
+        8,
+        3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        4,
+        8,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        5,
+        8,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        6,
+        8,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        7,
+        8,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "poly": [
+        [
+         2,
+         0
+        ],
+        [
+         4,
+         0
+        ],
+        [
+         5,
+         1
+        ],
+        [
+         4,
+         2
+        ],
+        [
+         2,
+         2
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "poly": [
+        [
+         7,
+         3
+        ],
+        [
+         7,
+         5
+        ],
+        [
+         6,
+         6
+        ],
+        [
+         5,
+         5
+        ],
+        [
+         5,
+         3
+        ]
+       ],
+       "fill": false
+      },
+      {
+       "point": [
+        3,
+        4
+       ],
+       "pos": "ne",
+       "name": "C"
+      }
+     ],
+     "caption": "A"
+    },
+    {
+     "kind": "diagram",
+     "unit": 19,
+     "items": [
+      {
+       "seg": [
+        -2,
+        -1,
+        -2,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -1,
+        -1,
+        -1,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        -1,
+        0,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        -1,
+        1,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        2,
+        -1,
+        2,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        3,
+        -1,
+        3,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        4,
+        -1,
+        4,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        5,
+        -1,
+        5,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        6,
+        -1,
+        6,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        7,
+        -1,
+        7,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        8,
+        -1,
+        8,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        -1,
+        8,
+        -1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        0,
+        8,
+        0
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        1,
+        8,
+        1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        2,
+        8,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        3,
+        8,
+        3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        4,
+        8,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        5,
+        8,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        6,
+        8,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        7,
+        8,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "poly": [
+        [
+         2,
+         0
+        ],
+        [
+         4,
+         0
+        ],
+        [
+         5,
+         1
+        ],
+        [
+         4,
+         2
+        ],
+        [
+         2,
+         2
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "poly": [
+        [
+         -1,
+         5
+        ],
+        [
+         -1,
+         3
+        ],
+        [
+         0,
+         2
+        ],
+        [
+         1,
+         3
+        ],
+        [
+         1,
+         5
+        ]
+       ],
+       "fill": false
+      },
+      {
+       "point": [
+        3,
+        4
+       ],
+       "pos": "ne",
+       "name": "C"
+      }
+     ],
+     "caption": "B"
+    },
+    {
+     "kind": "diagram",
+     "unit": 19,
+     "items": [
+      {
+       "seg": [
+        -2,
+        -1,
+        -2,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -1,
+        -1,
+        -1,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        -1,
+        0,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        -1,
+        1,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        2,
+        -1,
+        2,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        3,
+        -1,
+        3,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        4,
+        -1,
+        4,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        5,
+        -1,
+        5,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        6,
+        -1,
+        6,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        7,
+        -1,
+        7,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        8,
+        -1,
+        8,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        -1,
+        8,
+        -1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        0,
+        8,
+        0
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        1,
+        8,
+        1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        2,
+        8,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        3,
+        8,
+        3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        4,
+        8,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        5,
+        8,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        6,
+        8,
+        6
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        7,
+        8,
+        7
+       ],
+       "thin": true
+      },
+      {
+       "poly": [
+        [
+         2,
+         0
+        ],
+        [
+         4,
+         0
+        ],
+        [
+         5,
+         1
+        ],
+        [
+         4,
+         2
+        ],
+        [
+         2,
+         2
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "poly": [
+        [
+         4,
+         0
+        ],
+        [
+         2,
+         0
+        ],
+        [
+         1,
+         1
+        ],
+        [
+         2,
+         2
+        ],
+        [
+         4,
+         2
+        ]
+       ],
+       "fill": false
+      },
+      {
+       "point": [
+        3,
+        4
+       ],
+       "pos": "ne",
+       "name": "C"
+      }
+     ],
+     "caption": "C"
+    }
+   ]
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "The shaded shape is rotated about the point $C$. Which diagram shows the correct image (the unshaded shape)?",
+   "type": "choice",
+   "prompt": "Anticlockwise by $90°$.",
+   "answer": 2,
+   "options": [
+    "A",
+    "B",
+    "C"
+   ],
+   "figure": [
+    {
+     "kind": "diagram",
+     "unit": 19,
+     "items": [
+      {
+       "seg": [
+        -2,
+        -2,
+        -2,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -1,
+        -2,
+        -1,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        -2,
+        0,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        -2,
+        1,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        2,
+        -2,
+        2,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        3,
+        -2,
+        3,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        4,
+        -2,
+        4,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        5,
+        -2,
+        5,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        6,
+        -2,
+        6,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        -2,
+        6,
+        -2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        -1,
+        6,
+        -1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        0,
+        6,
+        0
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        1,
+        6,
+        1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        2,
+        6,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        3,
+        6,
+        3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        4,
+        6,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        5,
+        6,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         1,
+         -1
+        ],
+        [
+         2,
+         0
+        ],
+        [
+         2,
+         2
+        ],
+        [
+         1,
+         2
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "poly": [
+        [
+         0,
+         4
+        ],
+        [
+         -1,
+         3
+        ],
+        [
+         0,
+         2
+        ],
+        [
+         2,
+         2
+        ],
+        [
+         2,
+         3
+        ]
+       ],
+       "fill": false
+      },
+      {
+       "point": [
+        2,
+        2
+       ],
+       "pos": "ne",
+       "name": "C"
+      }
+     ],
+     "caption": "A"
+    },
+    {
+     "kind": "diagram",
+     "unit": 19,
+     "items": [
+      {
+       "seg": [
+        -2,
+        -2,
+        -2,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -1,
+        -2,
+        -1,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        -2,
+        0,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        -2,
+        1,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        2,
+        -2,
+        2,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        3,
+        -2,
+        3,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        4,
+        -2,
+        4,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        5,
+        -2,
+        5,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        6,
+        -2,
+        6,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        -2,
+        6,
+        -2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        -1,
+        6,
+        -1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        0,
+        6,
+        0
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        1,
+        6,
+        1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        2,
+        6,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        3,
+        6,
+        3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        4,
+        6,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        5,
+        6,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         1,
+         -1
+        ],
+        [
+         2,
+         0
+        ],
+        [
+         2,
+         2
+        ],
+        [
+         1,
+         2
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "poly": [
+        [
+         4,
+         0
+        ],
+        [
+         3,
+         -1
+        ],
+        [
+         2,
+         0
+        ],
+        [
+         2,
+         2
+        ],
+        [
+         3,
+         2
+        ]
+       ],
+       "fill": false
+      },
+      {
+       "point": [
+        2,
+        2
+       ],
+       "pos": "ne",
+       "name": "C"
+      }
+     ],
+     "caption": "B"
+    },
+    {
+     "kind": "diagram",
+     "unit": 19,
+     "items": [
+      {
+       "seg": [
+        -2,
+        -2,
+        -2,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -1,
+        -2,
+        -1,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        -2,
+        0,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        -2,
+        1,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        2,
+        -2,
+        2,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        3,
+        -2,
+        3,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        4,
+        -2,
+        4,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        5,
+        -2,
+        5,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        6,
+        -2,
+        6,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        -2,
+        6,
+        -2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        -1,
+        6,
+        -1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        0,
+        6,
+        0
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        1,
+        6,
+        1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        2,
+        6,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        3,
+        6,
+        3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        4,
+        6,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        5,
+        6,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         1,
+         -1
+        ],
+        [
+         2,
+         0
+        ],
+        [
+         2,
+         2
+        ],
+        [
+         1,
+         2
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "poly": [
+        [
+         4,
+         0
+        ],
+        [
+         5,
+         1
+        ],
+        [
+         4,
+         2
+        ],
+        [
+         2,
+         2
+        ],
+        [
+         2,
+         1
+        ]
+       ],
+       "fill": false
+      },
+      {
+       "point": [
+        2,
+        2
+       ],
+       "pos": "ne",
+       "name": "C"
+      }
+     ],
+     "caption": "C"
+    }
+   ]
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "The shaded shape is rotated about the point $C$. Which diagram shows the correct image (the unshaded shape)?",
+   "type": "choice",
+   "prompt": "Anticlockwise by $180°$.",
+   "answer": 0,
+   "options": [
+    "A",
+    "B",
+    "C"
+   ],
+   "figure": [
+    {
+     "kind": "diagram",
+     "unit": 19,
+     "items": [
+      {
+       "seg": [
+        -4,
+        -4,
+        -4,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        -4,
+        -3,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        -4,
+        -2,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -1,
+        -4,
+        -1,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        -4,
+        0,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        -4,
+        1,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        2,
+        -4,
+        2,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        3,
+        -4,
+        3,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        4,
+        -4,
+        4,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        5,
+        -4,
+        5,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        6,
+        -4,
+        6,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -4,
+        -4,
+        6,
+        -4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -4,
+        -3,
+        6,
+        -3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -4,
+        -2,
+        6,
+        -2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -4,
+        -1,
+        6,
+        -1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -4,
+        0,
+        6,
+        0
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -4,
+        1,
+        6,
+        1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -4,
+        2,
+        6,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -4,
+        3,
+        6,
+        3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -4,
+        4,
+        6,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -4,
+        5,
+        6,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "poly": [
+        [
+         2,
+         3
+        ],
+        [
+         3,
+         3
+        ],
+        [
+         5,
+         1
+        ],
+        [
+         5,
+         0
+        ],
+        [
+         4,
+         0
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "poly": [
+        [
+         0,
+         -3
+        ],
+        [
+         -1,
+         -3
+        ],
+        [
+         -3,
+         -1
+        ],
+        [
+         -3,
+         0
+        ],
+        [
+         -2,
+         0
+        ]
+       ],
+       "fill": false
+      },
+      {
+       "point": [
+        1,
+        0
+       ],
+       "pos": "ne",
+       "name": "C"
+      }
+     ],
+     "caption": "A"
+    },
+    {
+     "kind": "diagram",
+     "unit": 19,
+     "items": [
+      {
+       "seg": [
+        -4,
+        -4,
+        -4,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        -4,
+        -3,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        -4,
+        -2,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -1,
+        -4,
+        -1,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        -4,
+        0,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        -4,
+        1,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        2,
+        -4,
+        2,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        3,
+        -4,
+        3,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        4,
+        -4,
+        4,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        5,
+        -4,
+        5,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        6,
+        -4,
+        6,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -4,
+        -4,
+        6,
+        -4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -4,
+        -3,
+        6,
+        -3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -4,
+        -2,
+        6,
+        -2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -4,
+        -1,
+        6,
+        -1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -4,
+        0,
+        6,
+        0
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -4,
+        1,
+        6,
+        1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -4,
+        2,
+        6,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -4,
+        3,
+        6,
+        3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -4,
+        4,
+        6,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -4,
+        5,
+        6,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "poly": [
+        [
+         2,
+         3
+        ],
+        [
+         3,
+         3
+        ],
+        [
+         5,
+         1
+        ],
+        [
+         5,
+         0
+        ],
+        [
+         4,
+         0
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "poly": [
+        [
+         -2,
+         1
+        ],
+        [
+         -2,
+         2
+        ],
+        [
+         0,
+         4
+        ],
+        [
+         1,
+         4
+        ],
+        [
+         1,
+         3
+        ]
+       ],
+       "fill": false
+      },
+      {
+       "point": [
+        1,
+        0
+       ],
+       "pos": "ne",
+       "name": "C"
+      }
+     ],
+     "caption": "B"
+    },
+    {
+     "kind": "diagram",
+     "unit": 19,
+     "items": [
+      {
+       "seg": [
+        -4,
+        -4,
+        -4,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -3,
+        -4,
+        -3,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -2,
+        -4,
+        -2,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -1,
+        -4,
+        -1,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        0,
+        -4,
+        0,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        1,
+        -4,
+        1,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        2,
+        -4,
+        2,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        3,
+        -4,
+        3,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        4,
+        -4,
+        4,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        5,
+        -4,
+        5,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        6,
+        -4,
+        6,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -4,
+        -4,
+        6,
+        -4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -4,
+        -3,
+        6,
+        -3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -4,
+        -2,
+        6,
+        -2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -4,
+        -1,
+        6,
+        -1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -4,
+        0,
+        6,
+        0
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -4,
+        1,
+        6,
+        1
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -4,
+        2,
+        6,
+        2
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -4,
+        3,
+        6,
+        3
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -4,
+        4,
+        6,
+        4
+       ],
+       "thin": true
+      },
+      {
+       "seg": [
+        -4,
+        5,
+        6,
+        5
+       ],
+       "thin": true
+      },
+      {
+       "poly": [
+        [
+         2,
+         3
+        ],
+        [
+         3,
+         3
+        ],
+        [
+         5,
+         1
+        ],
+        [
+         5,
+         0
+        ],
+        [
+         4,
+         0
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "poly": [
+        [
+         2,
+         -3
+        ],
+        [
+         3,
+         -3
+        ],
+        [
+         5,
+         -1
+        ],
+        [
+         5,
+         0
+        ],
+        [
+         4,
+         0
+        ]
+       ],
+       "fill": false
+      },
+      {
+       "point": [
+        1,
+        0
+       ],
+       "pos": "ne",
+       "name": "C"
+      }
+     ],
+     "caption": "C"
+    }
+   ]
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Fluency",
+   "stem": "The point $A(-2, 5)$ is rotated about the origin $(0, 0)$ by the given angle and direction. Give the coordinates of $A'$.",
+   "type": "point",
+   "prompt": "$180°$ clockwise",
+   "answer": "(2,-5)",
+   "stemFigure": {
+    "kind": "plane",
+    "x": [
+     -5,
+     5
+    ],
+    "y": [
+     -5,
+     5
+    ],
+    "points": {
+     "A": [
+      -2,
+      5
+     ]
+    }
+   },
+   "hint": "Type a point like (3, -2)"
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Fluency",
+   "stem": "The point $A(-2, 5)$ is rotated about the origin $(0, 0)$ by the given angle and direction. Give the coordinates of $A'$.",
+   "type": "point",
+   "prompt": "$180°$ anticlockwise",
+   "answer": "(2,-5)"
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Fluency",
+   "stem": "The point $A(-2, 5)$ is rotated about the origin $(0, 0)$ by the given angle and direction. Give the coordinates of $A'$.",
+   "type": "point",
+   "prompt": "$90°$ clockwise",
+   "answer": "(5,2)"
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Fluency",
+   "stem": "The point $A(-2, 5)$ is rotated about the origin $(0, 0)$ by the given angle and direction. Give the coordinates of $A'$.",
+   "type": "point",
+   "prompt": "$90°$ anticlockwise",
+   "answer": "(-5,-2)"
+  },
+  {
+   "id": "q5e",
+   "label": "5e",
+   "section": "Fluency",
+   "stem": "The point $A(-2, 5)$ is rotated about the origin $(0, 0)$ by the given angle and direction. Give the coordinates of $A'$.",
+   "type": "point",
+   "prompt": "$270°$ clockwise",
+   "answer": "(-5,-2)"
+  },
+  {
+   "id": "q5f",
+   "label": "5f",
+   "section": "Fluency",
+   "stem": "The point $A(-2, 5)$ is rotated about the origin $(0, 0)$ by the given angle and direction. Give the coordinates of $A'$.",
+   "type": "point",
+   "prompt": "$270°$ anticlockwise",
+   "answer": "(5,2)"
+  },
+  {
+   "id": "q5g",
+   "label": "5g",
+   "section": "Fluency",
+   "stem": "The point $A(-2, 5)$ is rotated about the origin $(0, 0)$ by the given angle and direction. Give the coordinates of $A'$.",
+   "type": "point",
+   "prompt": "$360°$ clockwise",
+   "answer": "(-2,5)"
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Fluency",
+   "stem": "Triangle $ABC$ is rotated about $(0, 0)$ by the given angle and direction. Give the coordinates of the image point.",
+   "type": "point",
+   "prompt": "$180°$ clockwise: $A'$",
+   "answer": "(-1,-1)",
+   "stemFigure": {
+    "kind": "plane",
+    "x": [
+     -5,
+     5
+    ],
+    "y": [
+     -5,
+     5
+    ],
+    "path": [
+     [
+      1,
+      1
+     ],
+     [
+      4,
+      1
+     ],
+     [
+      1,
+      3
+     ]
+    ],
+    "closed": true,
+    "points": {
+     "A": [
+      1,
+      1
+     ],
+     "B": [
+      4,
+      1
+     ],
+     "C": [
+      1,
+      3
+     ]
+    }
+   }
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Fluency",
+   "stem": "Triangle $ABC$ is rotated about $(0, 0)$ by the given angle and direction. Give the coordinates of the image point.",
+   "type": "point",
+   "prompt": "$180°$ clockwise: $B'$",
+   "answer": "(-4,-1)"
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Fluency",
+   "stem": "Triangle $ABC$ is rotated about $(0, 0)$ by the given angle and direction. Give the coordinates of the image point.",
+   "type": "point",
+   "prompt": "$90°$ clockwise: $B'$",
+   "answer": "(1,-4)"
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Fluency",
+   "stem": "Triangle $ABC$ is rotated about $(0, 0)$ by the given angle and direction. Give the coordinates of the image point.",
+   "type": "point",
+   "prompt": "$90°$ clockwise: $C'$",
+   "answer": "(3,-1)"
+  },
+  {
+   "id": "q6e",
+   "label": "6e",
+   "section": "Fluency",
+   "stem": "Triangle $ABC$ is rotated about $(0, 0)$ by the given angle and direction. Give the coordinates of the image point.",
+   "type": "point",
+   "prompt": "$90°$ anticlockwise: $A'$",
+   "answer": "(-1,1)"
+  },
+  {
+   "id": "q6f",
+   "label": "6f",
+   "section": "Fluency",
+   "stem": "Triangle $ABC$ is rotated about $(0, 0)$ by the given angle and direction. Give the coordinates of the image point.",
+   "type": "point",
+   "prompt": "$90°$ anticlockwise: $C'$",
+   "answer": "(-3,1)"
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Problem-solving",
+   "stem": "The shaded shape has been rotated about $C$ to give the unshaded image. By how many degrees has it been rotated?",
+   "type": "numeric",
+   "prompt": "The shape was turned clockwise about $C$.",
+   "answer": "90",
+   "units": "°",
+   "figure": {
+    "kind": "diagram",
+    "unit": 26,
+    "items": [
+     {
+      "seg": [
+       -1,
+       -1,
+       -1,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       -1,
+       0,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       1,
+       -1,
+       1,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       2,
+       -1,
+       2,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       -1,
+       3,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1,
+       -1,
+       3,
+       -1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1,
+       0,
+       3,
+       0
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1,
+       1,
+       3,
+       1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1,
+       2,
+       3,
+       2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1,
+       3,
+       3,
+       3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1,
+       4,
+       3,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1,
+       5,
+       3,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        2,
+        0
+       ],
+       [
+        2,
+        1
+       ],
+       [
+        1,
+        1
+       ],
+       [
+        1,
+        2
+       ],
+       [
+        0,
+        2
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        0,
+        4
+       ],
+       [
+        0,
+        2
+       ],
+       [
+        1,
+        2
+       ],
+       [
+        1,
+        3
+       ],
+       [
+        2,
+        3
+       ],
+       [
+        2,
+        4
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "point": [
+       2,
+       2
+      ],
+      "pos": "ne",
+      "name": "C"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Problem-solving",
+   "stem": "The shaded shape has been rotated about $C$ to give the unshaded image. By how many degrees has it been rotated?",
+   "type": "numeric",
+   "prompt": "The shape was turned anticlockwise about $C$.",
+   "answer": "180",
+   "units": "°",
+   "figure": {
+    "kind": "diagram",
+    "unit": 26,
+    "items": [
+     {
+      "seg": [
+       -1,
+       -4,
+       -1,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       -4,
+       0,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       1,
+       -4,
+       1,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       2,
+       -4,
+       2,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       -4,
+       3,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1,
+       -4,
+       3,
+       -4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1,
+       -3,
+       3,
+       -3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1,
+       -2,
+       3,
+       -2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1,
+       -1,
+       3,
+       -1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1,
+       0,
+       3,
+       0
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1,
+       1,
+       3,
+       1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1,
+       2,
+       3,
+       2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1,
+       3,
+       3,
+       3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1,
+       4,
+       3,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        1,
+        0
+       ],
+       [
+        1,
+        3
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        2,
+        0
+       ],
+       [
+        1,
+        0
+       ],
+       [
+        1,
+        -3
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "point": [
+       1,
+       0
+      ],
+      "pos": "ne",
+      "name": "C"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Problem-solving",
+   "stem": "The shaded shape has been rotated about $C$ to give the unshaded image. By how many degrees has it been rotated?",
+   "type": "numeric",
+   "prompt": "The shape was turned anticlockwise about $C$.",
+   "answer": "270",
+   "units": "°",
+   "figure": {
+    "kind": "diagram",
+    "unit": 26,
+    "items": [
+     {
+      "seg": [
+       -1,
+       -1,
+       -1,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       -1,
+       0,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       1,
+       -1,
+       1,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       2,
+       -1,
+       2,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       -1,
+       3,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1,
+       -1,
+       3,
+       -1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1,
+       0,
+       3,
+       0
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1,
+       1,
+       3,
+       1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1,
+       2,
+       3,
+       2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1,
+       3,
+       3,
+       3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1,
+       4,
+       3,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1,
+       5,
+       3,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        2,
+        0
+       ],
+       [
+        2,
+        2
+       ],
+       [
+        1,
+        1
+       ],
+       [
+        0,
+        1
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        0,
+        4
+       ],
+       [
+        0,
+        2
+       ],
+       [
+        2,
+        2
+       ],
+       [
+        1,
+        3
+       ],
+       [
+        1,
+        4
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "point": [
+       2,
+       2
+      ],
+      "pos": "ne",
+      "name": "C"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q8",
+   "label": "8",
+   "section": "Problem-solving",
+   "type": "list",
+   "prompt": "Which of these capital letters have rotational symmetry of order $2$ or more? B  E  H  K  M  N  R  S  W  X  Z",
+   "answer": [
+    "H",
+    "N",
+    "S",
+    "X",
+    "Z"
+   ],
+   "hint": "List the letters separated by commas, for example A, B"
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Problem-solving",
+   "stem": "Which shape has these properties?",
+   "type": "choice",
+   "prompt": "Rotational symmetry of order $2$ with no line symmetry",
+   "answer": 1,
+   "options": [
+    "Rectangle",
+    "Parallelogram (not a rectangle or rhombus)",
+    "Isosceles trapezium",
+    "Kite"
+   ]
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Problem-solving",
+   "stem": "Which shape has these properties?",
+   "type": "choice",
+   "prompt": "Rotational symmetry of order $6$ with $6$ lines of symmetry",
+   "answer": 1,
+   "options": [
+    "Regular pentagon",
+    "Regular hexagon",
+    "Rectangle",
+    "Equilateral triangle"
+   ]
+  },
+  {
+   "id": "q9c",
+   "label": "9c",
+   "section": "Problem-solving",
+   "stem": "Which shape has these properties?",
+   "type": "choice",
+   "prompt": "Rotational symmetry of order $4$ with no line symmetry",
+   "answer": 1,
+   "options": [
+    "A",
+    "B",
+    "C"
+   ],
+   "figure": [
+    {
+     "kind": "diagram",
+     "unit": 24,
+     "items": [
+      {
+       "poly": [
+        [
+         0,
+         -1.8
+        ],
+        [
+         1.2,
+         0
+        ],
+        [
+         0,
+         1.8
+        ],
+        [
+         -1.2,
+         0
+        ]
+       ],
+       "fill": false
+      }
+     ],
+     "caption": "A"
+    },
+    {
+     "kind": "diagram",
+     "unit": 24,
+     "items": [
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         1.8,
+         0
+        ],
+        [
+         1.8,
+         0.9
+        ]
+       ],
+       "fill": false
+      },
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         0,
+         1.8
+        ],
+        [
+         -0.9,
+         1.8
+        ]
+       ],
+       "fill": false
+      },
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         -1.8,
+         0
+        ],
+        [
+         -1.8,
+         -0.9
+        ]
+       ],
+       "fill": false
+      },
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         0,
+         -1.8
+        ],
+        [
+         0.9,
+         -1.8
+        ]
+       ],
+       "fill": false
+      }
+     ],
+     "caption": "B"
+    },
+    {
+     "kind": "diagram",
+     "unit": 24,
+     "items": [
+      {
+       "poly": [
+        [
+         -1.4,
+         -1.4
+        ],
+        [
+         1.4,
+         -1.4
+        ],
+        [
+         1.4,
+         1.4
+        ],
+        [
+         -1.4,
+         1.4
+        ]
+       ],
+       "fill": false
+      }
+     ],
+     "caption": "C"
+    }
+   ]
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Reasoning",
+   "stem": "What value of $x$ (between $0$ and $360$) makes each sentence true?",
+   "type": "numeric",
+   "prompt": "Rotating $x$ degrees clockwise has the same effect as rotating $x$ degrees anticlockwise.",
+   "answer": "180"
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Reasoning",
+   "stem": "What value of $x$ (between $0$ and $360$) makes each sentence true?",
+   "type": "numeric",
+   "prompt": "Rotating $x$ degrees clockwise has the same effect as rotating $5x$ degrees anticlockwise.",
+   "answer": "60"
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Enrichment",
+   "stem": "To find the centre of rotation $C$ when the angle is known, draw the isosceles triangle $ACA'$. In this example the angle of rotation is $50°$, so $2x + 50 = 180$ and $x = 65$. Find $x$ for each angle of rotation.",
+   "type": "numeric",
+   "prompt": "Angle of rotation $70°$",
+   "answer": "55",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 40,
+    "items": [
+     {
+      "seg": [
+       0,
+       0,
+       1.69,
+       3.625
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       0,
+       0,
+       -1.69,
+       3.625
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       -1.69,
+       3.625,
+       1.69,
+       3.625
+      ],
+      "dash": true
+     },
+     {
+      "point": [
+       0,
+       0
+      ],
+      "pos": "s",
+      "name": "C"
+     },
+     {
+      "point": [
+       1.69,
+       3.625
+      ],
+      "pos": "e",
+      "name": "A"
+     },
+     {
+      "point": [
+       -1.69,
+       3.625
+      ],
+      "pos": "w",
+      "name": "A′"
+     },
+     {
+      "angle": [
+       0,
+       0,
+       65,
+       115
+      ],
+      "label": "50°",
+      "r": 1.1
+     },
+     {
+      "angle": [
+       1.69,
+       3.625,
+       180,
+       245
+      ],
+      "label": "x°"
+     },
+     {
+      "angle": [
+       -1.69,
+       3.625,
+       295,
+       0
+      ],
+      "label": "x°"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Enrichment",
+   "stem": "To find the centre of rotation $C$ when the angle is known, draw the isosceles triangle $ACA'$. In this example the angle of rotation is $50°$, so $2x + 50 = 180$ and $x = 65$. Find $x$ for each angle of rotation.",
+   "type": "numeric",
+   "prompt": "Angle of rotation $110°$",
+   "answer": "35"
+  }
+ ]
+},
+{
+ "id": "y8-10d",
+ "year": 8,
+ "chapter": "Chapter 10: Transformations and congruence",
+ "title": "10D Congruent figures",
+ "description": "Match corresponding vertices, sides and angles in congruent figures, spot congruent shapes and combine transformations.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "These two quadrilaterals are congruent. Name the part of quadrilateral $EFGH$ that matches each part of quadrilateral $ABCD$.",
+   "type": "text",
+   "prompt": "Vertex $A$",
+   "answer": "G",
+   "hint": "Type the letter, for example K",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 34,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        4.4,
+        0
+       ],
+       [
+        3.4,
+        1.8
+       ],
+       [
+        0,
+        2.6
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "poly": [
+       [
+        6.2,
+        2.443
+       ],
+       [
+        10.335,
+        3.948
+       ],
+       [
+        10.011,
+        1.915
+       ],
+       [
+        7.089,
+        0
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "A",
+      "at": [
+       -0.331,
+       -0.287
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       4.747,
+       -0.256
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       3.742,
+       1.865
+      ]
+     },
+     {
+      "label": "D",
+      "at": [
+       -0.301,
+       2.732
+      ]
+     },
+     {
+      "label": "G",
+      "at": [
+       5.825,
+       2.405
+      ]
+     },
+     {
+      "label": "F",
+      "at": [
+       10.607,
+       4.113
+      ]
+     },
+     {
+      "label": "E",
+      "at": [
+       10.389,
+       1.776
+      ]
+     },
+     {
+      "label": "H",
+      "at": [
+       6.885,
+       -0.421
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "These two quadrilaterals are congruent. Name the part of quadrilateral $EFGH$ that matches each part of quadrilateral $ABCD$.",
+   "type": "text",
+   "prompt": "Vertex $D$",
+   "answer": "H"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "These two quadrilaterals are congruent. Name the part of quadrilateral $EFGH$ that matches each part of quadrilateral $ABCD$.",
+   "type": "text",
+   "prompt": "Side $AD$",
+   "answer": "GH",
+   "accept": [
+    "HG"
+   ],
+   "hint": "Type the two letters, for example KL"
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "These two quadrilaterals are congruent. Name the part of quadrilateral $EFGH$ that matches each part of quadrilateral $ABCD$.",
+   "type": "text",
+   "prompt": "Side $CD$",
+   "answer": "EH",
+   "accept": [
+    "HE"
+   ]
+  },
+  {
+   "id": "q1e",
+   "label": "1e",
+   "section": "Fluency",
+   "stem": "These two quadrilaterals are congruent. Name the part of quadrilateral $EFGH$ that matches each part of quadrilateral $ABCD$.",
+   "type": "text",
+   "prompt": "$\\angle C$",
+   "answer": "E",
+   "accept": [
+    "∠E",
+    "angle E",
+    "<E",
+    "FEH",
+    "∠FEH",
+    "HEF",
+    "∠HEF"
+   ],
+   "hint": "Type the letter of the angle's vertex, for example K"
+  },
+  {
+   "id": "q1f",
+   "label": "1f",
+   "section": "Fluency",
+   "stem": "These two quadrilaterals are congruent. Name the part of quadrilateral $EFGH$ that matches each part of quadrilateral $ABCD$.",
+   "type": "text",
+   "prompt": "$\\angle A$",
+   "answer": "G",
+   "accept": [
+    "∠G",
+    "angle G",
+    "<G",
+    "HGF",
+    "∠HGF",
+    "FGH",
+    "∠FGH"
+   ]
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "These two pentagons are congruent. Name the part of pentagon $FGHIJ$ that matches each part of pentagon $ABCDE$.",
+   "type": "text",
+   "prompt": "Vertex $A$",
+   "answer": "I",
+   "hint": "Type the letter, for example K",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 34,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        3.6,
+        0
+       ],
+       [
+        3.6,
+        1
+       ],
+       [
+        1.6,
+        3.2
+       ],
+       [
+        0,
+        1.6
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "poly": [
+       [
+        9.2,
+        -0.6
+       ],
+       [
+        9.2,
+        3
+       ],
+       [
+        8.2,
+        3
+       ],
+       [
+        6,
+        1
+       ],
+       [
+        7.6,
+        -0.6
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "A",
+      "at": [
+       -0.317,
+       -0.309
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       3.921,
+       -0.303
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       3.979,
+       0.867
+      ]
+     },
+     {
+      "label": "D",
+      "at": [
+       1.57,
+       3.479
+      ]
+     },
+     {
+      "label": "E",
+      "at": [
+       -0.369,
+       1.592
+      ]
+     },
+     {
+      "label": "I",
+      "at": [
+       9.409,
+       -1.017
+      ]
+     },
+     {
+      "label": "J",
+      "at": [
+       9.403,
+       3.221
+      ]
+     },
+     {
+      "label": "F",
+      "at": [
+       8.233,
+       3.279
+      ]
+     },
+     {
+      "label": "G",
+      "at": [
+       5.621,
+       0.87
+      ]
+     },
+     {
+      "label": "H",
+      "at": [
+       7.508,
+       -1.069
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "These two pentagons are congruent. Name the part of pentagon $FGHIJ$ that matches each part of pentagon $ABCDE$.",
+   "type": "text",
+   "prompt": "Vertex $D$",
+   "answer": "G"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "These two pentagons are congruent. Name the part of pentagon $FGHIJ$ that matches each part of pentagon $ABCDE$.",
+   "type": "text",
+   "prompt": "Side $AE$",
+   "answer": "IH",
+   "accept": [
+    "HI"
+   ],
+   "hint": "Type the two letters, for example KL"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "These two pentagons are congruent. Name the part of pentagon $FGHIJ$ that matches each part of pentagon $ABCDE$.",
+   "type": "text",
+   "prompt": "Side $CD$",
+   "answer": "FG",
+   "accept": [
+    "GF"
+   ]
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "These two pentagons are congruent. Name the part of pentagon $FGHIJ$ that matches each part of pentagon $ABCDE$.",
+   "type": "text",
+   "prompt": "$\\angle C$",
+   "answer": "F",
+   "accept": [
+    "∠F",
+    "angle F",
+    "<F",
+    "JFG",
+    "∠JFG",
+    "GFJ",
+    "∠GFJ"
+   ],
+   "hint": "Type the letter of the angle's vertex, for example K"
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "These two pentagons are congruent. Name the part of pentagon $FGHIJ$ that matches each part of pentagon $ABCDE$.",
+   "type": "text",
+   "prompt": "$\\angle E$",
+   "answer": "H",
+   "accept": [
+    "∠H",
+    "angle H",
+    "<H",
+    "GHI",
+    "∠GHI",
+    "IHG",
+    "∠IHG"
+   ]
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Which shape looks congruent to the given shape? Type its letter.",
+   "type": "text",
+   "prompt": "Shape $B$",
+   "answer": "G",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 34,
+    "items": [
+     {
+      "poly": [
+       [
+        0.7,
+        0.807
+       ],
+       [
+        2.3,
+        0.807
+       ],
+       [
+        1.5,
+        2.193
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "A",
+      "at": [
+       0.2,
+       2.65
+      ],
+      "anchor": "start"
+     },
+     {
+      "poly": [
+       [
+        3.5,
+        0.85
+       ],
+       [
+        5.5,
+        0.85
+       ],
+       [
+        4,
+        2.15
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "B",
+      "at": [
+       3.2,
+       2.65
+      ],
+      "anchor": "start"
+     },
+     {
+      "poly": [
+       [
+        6.3,
+        0.9
+       ],
+       [
+        8.7,
+        0.9
+       ],
+       [
+        8.7,
+        2.1
+       ],
+       [
+        6.3,
+        2.1
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "C",
+      "at": [
+       6.2,
+       2.65
+      ],
+      "anchor": "start"
+     },
+     {
+      "circle": [
+       10.5,
+       1.5,
+       0.7
+      ]
+     },
+     {
+      "label": "D",
+      "at": [
+       9.2,
+       2.65
+      ],
+      "anchor": "start"
+     },
+     {
+      "circle": [
+       1.5,
+       -1.5,
+       1.1
+      ]
+     },
+     {
+      "label": "E",
+      "at": [
+       0.2,
+       -0.35
+      ],
+      "anchor": "start"
+     },
+     {
+      "poly": [
+       [
+        3.8,
+        -1.75
+       ],
+       [
+        5.2,
+        -1.75
+       ],
+       [
+        5.2,
+        -1.25
+       ],
+       [
+        3.8,
+        -1.25
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "F",
+      "at": [
+       3.2,
+       -0.35
+      ],
+      "anchor": "start"
+     },
+     {
+      "poly": [
+       [
+        8.159,
+        -2.04
+       ],
+       [
+        6.873,
+        -0.508
+       ],
+       [
+        6.841,
+        -2.492
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "G",
+      "at": [
+       6.2,
+       -0.35
+      ],
+      "anchor": "start"
+     },
+     {
+      "poly": [
+       [
+        9.75,
+        -2.25
+       ],
+       [
+        11.25,
+        -2.25
+       ],
+       [
+        11.25,
+        -0.75
+       ],
+       [
+        9.75,
+        -0.75
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "H",
+      "at": [
+       9.2,
+       -0.35
+      ],
+      "anchor": "start"
+     },
+     {
+      "poly": [
+       [
+        0.9,
+        -5.7
+       ],
+       [
+        2.1,
+        -5.7
+       ],
+       [
+        2.1,
+        -3.3
+       ],
+       [
+        0.9,
+        -3.3
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "I",
+      "at": [
+       0.2,
+       -3.35
+      ],
+      "anchor": "start"
+     },
+     {
+      "poly": [
+       [
+        4.1,
+        -4.9
+       ],
+       [
+        4.9,
+        -4.9
+       ],
+       [
+        4.9,
+        -4.1
+       ],
+       [
+        4.1,
+        -4.1
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "J",
+      "at": [
+       3.2,
+       -3.35
+      ],
+      "anchor": "start"
+     },
+     {
+      "circle": [
+       7.5,
+       -4.5,
+       0.7
+      ]
+     },
+     {
+      "label": "K",
+      "at": [
+       6.2,
+       -3.35
+      ],
+      "anchor": "start"
+     },
+     {
+      "poly": [
+       [
+        9.4,
+        -5.453
+       ],
+       [
+        11.6,
+        -5.453
+       ],
+       [
+        10.5,
+        -3.547
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "L",
+      "at": [
+       9.2,
+       -3.35
+      ],
+      "anchor": "start"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Which shape looks congruent to the given shape? Type its letter.",
+   "type": "text",
+   "prompt": "Shape $C$",
+   "answer": "I"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Which shape looks congruent to the given shape? Type its letter.",
+   "type": "text",
+   "prompt": "Shape $D$",
+   "answer": "K"
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Problem-solving",
+   "stem": "Which triangle looks congruent to the given triangle? Type its letter.",
+   "type": "text",
+   "prompt": "Triangle $A$",
+   "answer": "H",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "poly": [
+       [
+        0.5,
+        1.1
+       ],
+       [
+        2.9,
+        1.1
+       ],
+       [
+        0.5,
+        2.3
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "A",
+      "at": [
+       0.2,
+       3.05
+      ],
+      "anchor": "start"
+     },
+     {
+      "poly": [
+       [
+        3.908,
+        0.734
+       ],
+       [
+        5.976,
+        1.487
+       ],
+       [
+        6.292,
+        2.666
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "B",
+      "at": [
+       3.6,
+       3.05
+      ],
+      "anchor": "start"
+     },
+     {
+      "poly": [
+       [
+        7.7,
+        0.75
+       ],
+       [
+        9.3,
+        0.75
+       ],
+       [
+        8.5,
+        2.65
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "C",
+      "at": [
+       7,
+       3.05
+      ],
+      "anchor": "start"
+     },
+     {
+      "poly": [
+       [
+        13.31,
+        1.892
+       ],
+       [
+        10.49,
+        2.918
+       ],
+       [
+        12.797,
+        0.482
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "D",
+      "at": [
+       10.4,
+       3.05
+      ],
+      "anchor": "start"
+     },
+     {
+      "poly": [
+       [
+        14.6,
+        1.094
+       ],
+       [
+        16,
+        1.094
+       ],
+       [
+        15.3,
+        2.306
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "E",
+      "at": [
+       13.8,
+       3.05
+      ],
+      "anchor": "start"
+     },
+     {
+      "poly": [
+       [
+        0.166,
+        -2.076
+       ],
+       [
+        2.234,
+        -1.324
+       ],
+       [
+        3.234,
+        -2.024
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "F",
+      "at": [
+       0.2,
+       -0.35
+      ],
+      "anchor": "start"
+     },
+     {
+      "poly": [
+       [
+        4.54,
+        -2.365
+       ],
+       [
+        5.66,
+        -2.365
+       ],
+       [
+        5.1,
+        -1.035
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "G",
+      "at": [
+       3.6,
+       -0.35
+      ],
+      "anchor": "start"
+     },
+     {
+      "poly": [
+       [
+        9.1,
+        -0.5
+       ],
+       [
+        9.1,
+        -2.9
+       ],
+       [
+        7.9,
+        -0.5
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "H",
+      "at": [
+       7,
+       -0.35
+      ],
+      "anchor": "start"
+     },
+     {
+      "poly": [
+       [
+        12.7,
+        -0.75
+       ],
+       [
+        11.1,
+        -0.75
+       ],
+       [
+        11.9,
+        -2.65
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "I",
+      "at": [
+       10.4,
+       -0.35
+      ],
+      "anchor": "start"
+     },
+     {
+      "poly": [
+       [
+        13.493,
+        -1.04
+       ],
+       [
+        15.779,
+        -2.36
+       ],
+       [
+        17.107,
+        -1.741
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "J",
+      "at": [
+       13.8,
+       -0.35
+      ],
+      "anchor": "start"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Problem-solving",
+   "stem": "Which triangle looks congruent to the given triangle? Type its letter.",
+   "type": "text",
+   "prompt": "Triangle $B$",
+   "answer": "F"
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Problem-solving",
+   "stem": "Which triangle looks congruent to the given triangle? Type its letter.",
+   "type": "text",
+   "prompt": "Triangle $C$",
+   "answer": "I"
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Problem-solving",
+   "stem": "The square below has side length $4$ units. How many congruent triangles are there in the diagram with each area?",
+   "type": "numeric",
+   "prompt": "area $1$ units²",
+   "answer": "16",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 40,
+    "items": [
+     {
+      "seg": [
+       0,
+       0,
+       4,
+       0
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       4
+      ]
+     },
+     {
+      "seg": [
+       0,
+       2,
+       4,
+       2
+      ]
+     },
+     {
+      "seg": [
+       2,
+       0,
+       2,
+       4
+      ]
+     },
+     {
+      "seg": [
+       0,
+       4,
+       4,
+       4
+      ]
+     },
+     {
+      "seg": [
+       4,
+       0,
+       4,
+       4
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       2,
+       2
+      ]
+     },
+     {
+      "seg": [
+       2,
+       0,
+       0,
+       2
+      ]
+     },
+     {
+      "seg": [
+       0,
+       2,
+       2,
+       4
+      ]
+     },
+     {
+      "seg": [
+       2,
+       2,
+       0,
+       4
+      ]
+     },
+     {
+      "seg": [
+       2,
+       0,
+       4,
+       2
+      ]
+     },
+     {
+      "seg": [
+       4,
+       0,
+       2,
+       2
+      ]
+     },
+     {
+      "seg": [
+       2,
+       2,
+       4,
+       4
+      ]
+     },
+     {
+      "seg": [
+       4,
+       2,
+       2,
+       4
+      ]
+     },
+     {
+      "dim": [
+       0,
+       0,
+       4,
+       0
+      ],
+      "label": "4",
+      "off": -0.5
+     },
+     {
+      "dim": [
+       4,
+       0,
+       4,
+       4
+      ],
+      "label": "4",
+      "off": -0.5
+     }
+    ]
+   }
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Problem-solving",
+   "stem": "The square below has side length $4$ units. How many congruent triangles are there in the diagram with each area?",
+   "type": "numeric",
+   "prompt": "area $2$ units²",
+   "answer": "16"
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Problem-solving",
+   "stem": "The square below has side length $4$ units. How many congruent triangles are there in the diagram with each area?",
+   "type": "numeric",
+   "prompt": "area $4$ units²",
+   "answer": "8"
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Problem-solving",
+   "stem": "The square below has side length $4$ units. How many congruent triangles are there in the diagram with each area?",
+   "type": "numeric",
+   "prompt": "area $8$ units²",
+   "answer": "4"
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Problem-solving",
+   "stem": "These pairs of shapes are congruent (lengths in cm). Complete each congruence statement by writing the matching vertices in the same order.",
+   "type": "text",
+   "prompt": "$\\triangle ABC \\equiv \\triangle \\ldots$",
+   "answer": "EDF",
+   "accept": [
+    "ΔEDF",
+    "triangle EDF"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 34,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        2,
+        0
+       ],
+       [
+        0,
+        1.5
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "poly": [
+       [
+        5.2,
+        1.5
+       ],
+       [
+        3.2,
+        1.5
+       ],
+       [
+        5.2,
+        0
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "A",
+      "at": [
+       -0.304,
+       -0.328
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       2.356,
+       -0.233
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       -0.211,
+       1.716
+      ]
+     },
+     {
+      "label": "E",
+      "at": [
+       5.504,
+       1.628
+      ]
+     },
+     {
+      "label": "D",
+      "at": [
+       2.844,
+       1.533
+      ]
+     },
+     {
+      "label": "F",
+      "at": [
+       5.411,
+       -0.416
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       1,
+       -0.5
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       4.2,
+       1.84
+      ]
+     },
+     {
+      "label": "5",
+      "at": [
+       1.252,
+       1.006
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "5",
+      "at": [
+       3.948,
+       0.334
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "3",
+      "at": [
+       -0.42,
+       0.67
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "3",
+      "at": [
+       5.62,
+       0.67
+      ],
+      "anchor": "start"
+     }
+    ]
+   },
+   "hint": "Type the letters in order, for example PQR"
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Problem-solving",
+   "stem": "These pairs of shapes are congruent (lengths in cm). Complete each congruence statement by writing the matching vertices in the same order.",
+   "type": "text",
+   "prompt": "$ABCD \\equiv \\ldots$",
+   "answer": "YXWZ",
+   "accept": [
+    "quadrilateral YXWZ"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 34,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        3.5,
+        0
+       ],
+       [
+        2.5,
+        2
+       ],
+       [
+        0,
+        2
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "poly": [
+       [
+        9.1,
+        0
+       ],
+       [
+        5.6,
+        0
+       ],
+       [
+        6.6,
+        2
+       ],
+       [
+        9.1,
+        2
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "A",
+      "at": [
+       -0.316,
+       -0.311
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       3.84,
+       -0.27
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       2.769,
+       2.169
+      ]
+     },
+     {
+      "label": "D",
+      "at": [
+       -0.316,
+       2.111
+      ]
+     },
+     {
+      "label": "Y",
+      "at": [
+       9.416,
+       -0.311
+      ]
+     },
+     {
+      "label": "X",
+      "at": [
+       5.26,
+       -0.27
+      ]
+     },
+     {
+      "label": "W",
+      "at": [
+       6.331,
+       2.169
+      ]
+     },
+     {
+      "label": "Z",
+      "at": [
+       9.416,
+       2.111
+      ]
+     },
+     {
+      "label": "7",
+      "at": [
+       1.75,
+       -0.5
+      ]
+     },
+     {
+      "label": "7",
+      "at": [
+       7.35,
+       -0.5
+      ]
+     },
+     {
+      "label": "4.5",
+      "at": [
+       3.376,
+       1.108
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "4.5",
+      "at": [
+       5.724,
+       1.108
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "5",
+      "at": [
+       1.25,
+       2.34
+      ]
+     },
+     {
+      "label": "5",
+      "at": [
+       7.85,
+       2.34
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       -0.42,
+       0.92
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "4",
+      "at": [
+       9.52,
+       0.92
+      ],
+      "anchor": "start"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Problem-solving",
+   "stem": "These pairs of shapes are congruent (lengths in cm). Complete each congruence statement by writing the matching vertices in the same order.",
+   "type": "text",
+   "prompt": "$\\triangle PQR \\equiv \\triangle \\ldots$",
+   "answer": "TSU",
+   "accept": [
+    "ΔTSU",
+    "triangle TSU"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 34,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        3,
+        0
+       ],
+       [
+        1,
+        1.5
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "poly": [
+       [
+        4.6,
+        1.5
+       ],
+       [
+        7.6,
+        1.5
+       ],
+       [
+        5.6,
+        0
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "P",
+      "at": [
+       -0.356,
+       -0.233
+      ]
+     },
+     {
+      "label": "Q",
+      "at": [
+       3.364,
+       -0.209
+      ]
+     },
+     {
+      "label": "R",
+      "at": [
+       0.88,
+       1.76
+      ]
+     },
+     {
+      "label": "T",
+      "at": [
+       4.244,
+       1.533
+      ]
+     },
+     {
+      "label": "S",
+      "at": [
+       7.964,
+       1.509
+      ]
+     },
+     {
+      "label": "U",
+      "at": [
+       5.48,
+       -0.46
+      ]
+     },
+     {
+      "label": "6",
+      "at": [
+       1.5,
+       -0.5
+      ]
+     },
+     {
+      "label": "6",
+      "at": [
+       6.1,
+       1.84
+      ]
+     },
+     {
+      "label": "5",
+      "at": [
+       2.252,
+       1.006
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "5",
+      "at": [
+       6.852,
+       0.334
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "3.6",
+      "at": [
+       0.151,
+       0.903
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "3.6",
+      "at": [
+       4.751,
+       0.437
+      ],
+      "anchor": "end"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Problem-solving",
+   "stem": "These pairs of shapes are congruent (lengths in cm). Complete each congruence statement by writing the matching vertices in the same order.",
+   "type": "text",
+   "prompt": "$ABCDE \\equiv \\ldots$",
+   "answer": "XYZVW",
+   "accept": [
+    "pentagon XYZVW"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        2.5,
+        0
+       ],
+       [
+        3,
+        1.5
+       ],
+       [
+        1.2,
+        2.8
+       ],
+       [
+        0,
+        1.5
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "poly": [
+       [
+        5.2,
+        3
+       ],
+       [
+        5.2,
+        0.5
+       ],
+       [
+        6.7,
+        0
+       ],
+       [
+        8,
+        1.8
+       ],
+       [
+        6.7,
+        3
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "A",
+      "at": [
+       -0.287,
+       -0.349
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       2.769,
+       -0.369
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       3.372,
+       1.476
+      ]
+     },
+     {
+      "label": "D",
+      "at": [
+       1.168,
+       3.079
+      ]
+     },
+     {
+      "label": "E",
+      "at": [
+       -0.368,
+       1.493
+      ]
+     },
+     {
+      "label": "X",
+      "at": [
+       4.951,
+       3.187
+      ]
+     },
+     {
+      "label": "Y",
+      "at": [
+       4.931,
+       0.131
+      ]
+     },
+     {
+      "label": "Z",
+      "at": [
+       6.776,
+       -0.472
+      ]
+     },
+     {
+      "label": "V",
+      "at": [
+       8.379,
+       1.732
+      ]
+     },
+     {
+      "label": "W",
+      "at": [
+       6.793,
+       3.268
+      ]
+     },
+     {
+      "label": "5",
+      "at": [
+       1.25,
+       -0.5
+      ]
+     },
+     {
+      "label": "5",
+      "at": [
+       4.78,
+       1.67
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "3.2",
+      "at": [
+       3.148,
+       0.537
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "3.2",
+      "at": [
+       5.817,
+       -0.228
+      ]
+     },
+     {
+      "label": "4.4",
+      "at": [
+       2.346,
+       2.41
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "4.4",
+      "at": [
+       7.69,
+       0.574
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "3.5",
+      "at": [
+       0.291,
+       2.355
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "3.5",
+      "at": [
+       7.635,
+       2.629
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "3",
+      "at": [
+       -0.42,
+       0.67
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "3",
+      "at": [
+       5.95,
+       3.34
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Reasoning",
+   "stem": "An isosceles triangle $PQR$ is cut from $R$ to $N$, the midpoint of $PQ$.",
+   "type": "choice",
+   "prompt": "Which two triangles are formed?",
+   "answer": 1,
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 40,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        3,
+        0
+       ],
+       [
+        1.5,
+        3.4
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "seg": [
+       1.5,
+       0,
+       1.5,
+       3.4
+      ],
+      "dash": true
+     },
+     {
+      "tick": [
+       0,
+       0,
+       1.5,
+       3.4
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       3,
+       0,
+       1.5,
+       3.4
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       0,
+       0,
+       1.5,
+       0
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       1.5,
+       0,
+       3,
+       0
+      ],
+      "n": 2
+     },
+     {
+      "point": [
+       0,
+       0
+      ],
+      "pos": "sw",
+      "name": "P"
+     },
+     {
+      "point": [
+       3,
+       0
+      ],
+      "pos": "se",
+      "name": "Q"
+     },
+     {
+      "point": [
+       1.5,
+       3.4
+      ],
+      "pos": "n",
+      "name": "R"
+     },
+     {
+      "point": [
+       1.5,
+       0
+      ],
+      "pos": "s",
+      "name": "N"
+     }
+    ]
+   },
+   "options": [
+    "ΔPQR and ΔPNR",
+    "ΔPNR and ΔQNR",
+    "ΔPQN and ΔRQN",
+    "ΔPRQ and ΔNRQ"
+   ]
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Reasoning",
+   "stem": "An isosceles triangle $PQR$ is cut from $R$ to $N$, the midpoint of $PQ$.",
+   "type": "choice",
+   "prompt": "Are the two triangles congruent?",
+   "answer": 0,
+   "options": [
+    "Yes: all three pairs of matching sides are equal",
+    "No: one triangle is bigger than the other",
+    "No: the triangles have different angles"
+   ]
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Reasoning",
+   "stem": "A kite $KLMN$ has $KL = KN$ and $ML = MN$. Its diagonals are $KM$ and $LN$.",
+   "type": "choice",
+   "prompt": "The kite is cut along the diagonal $KM$. Which two triangles are formed?",
+   "answer": 2,
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 40,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        1.4
+       ],
+       [
+        1.4,
+        0
+       ],
+       [
+        0,
+        -2.8
+       ],
+       [
+        -1.4,
+        0
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "seg": [
+       0,
+       1.4,
+       0,
+       -2.8
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       -1.4,
+       0,
+       1.4,
+       0
+      ],
+      "dash": true
+     },
+     {
+      "tick": [
+       0,
+       1.4,
+       1.4,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       0,
+       1.4,
+       -1.4,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       1.4,
+       0,
+       0,
+       -2.8
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       -1.4,
+       0,
+       0,
+       -2.8
+      ],
+      "n": 2
+     },
+     {
+      "point": [
+       0,
+       1.4
+      ],
+      "pos": "n",
+      "name": "K"
+     },
+     {
+      "point": [
+       1.4,
+       0
+      ],
+      "pos": "e",
+      "name": "L"
+     },
+     {
+      "point": [
+       0,
+       -2.8
+      ],
+      "pos": "s",
+      "name": "M"
+     },
+     {
+      "point": [
+       -1.4,
+       0
+      ],
+      "pos": "w",
+      "name": "N"
+     }
+    ]
+   },
+   "options": [
+    "ΔKLN and ΔMLN",
+    "ΔKLM and ΔKLN",
+    "ΔKLM and ΔKNM",
+    "ΔLMN and ΔKMN"
+   ]
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Reasoning",
+   "stem": "A kite $KLMN$ has $KL = KN$ and $ML = MN$. Its diagonals are $KM$ and $LN$.",
+   "type": "choice",
+   "prompt": "Are the two triangles formed by cutting along $KM$ congruent?",
+   "answer": 0,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Reasoning",
+   "stem": "A kite $KLMN$ has $KL = KN$ and $ML = MN$. Its diagonals are $KM$ and $LN$.",
+   "type": "choice",
+   "prompt": "The kite is cut along the diagonal $LN$. Which two triangles are formed?",
+   "answer": 0,
+   "options": [
+    "ΔKLN and ΔMLN",
+    "ΔKLM and ΔKNM",
+    "ΔKLN and ΔKLM",
+    "ΔLMN and ΔKMN"
+   ]
+  },
+  {
+   "id": "q8d",
+   "label": "8d",
+   "section": "Reasoning",
+   "stem": "A kite $KLMN$ has $KL = KN$ and $ML = MN$. Its diagonals are $KM$ and $LN$.",
+   "type": "choice",
+   "prompt": "Are the two triangles formed by cutting along $LN$ congruent?",
+   "answer": 1,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q9",
+   "label": "9",
+   "section": "Reasoning",
+   "type": "choice",
+   "prompt": "A parallelogram $WXYZ$ is cut along the diagonal $WY$. Are the two triangles formed congruent?",
+   "answer": 0,
+   "options": [
+    "Yes: the matching sides are equal (opposite sides of a parallelogram are equal, and WY is shared)",
+    "No: one triangle is always larger",
+    "Only if the parallelogram is a rectangle"
+   ]
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Enrichment",
+   "stem": "Each shape is mapped to its image (the unshaded shape) by the transformations given. Reflections are in the $x$- or $y$-axis and rotations are about $O(0, 0)$. Find the translation vector used last.",
+   "type": "point",
+   "prompt": "$A$ to $A'$ by a reflection in the $y$-axis, then a translation.",
+   "answer": "(-1,-5)",
+   "figure": {
+    "kind": "diagram",
+    "unit": 26,
+    "items": [
+     {
+      "seg": [
+       -5,
+       -5,
+       -5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -4,
+       -5,
+       -4,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -3,
+       -5,
+       -3,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -2,
+       -5,
+       -2,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1,
+       -5,
+       -1,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       -5,
+       0,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       1,
+       -5,
+       1,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       2,
+       -5,
+       2,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       -5,
+       3,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       4,
+       -5,
+       4,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       5,
+       -5,
+       5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -5,
+       5,
+       -5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -4,
+       5,
+       -4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -3,
+       5,
+       -3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -2,
+       5,
+       -2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -1,
+       5,
+       -1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       0,
+       5,
+       0
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       1,
+       5,
+       1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       2,
+       5,
+       2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       3,
+       5,
+       3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       4,
+       5,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       5,
+       5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5.4,
+       0,
+       5.4,
+       0
+      ],
+      "arrow": "both"
+     },
+     {
+      "seg": [
+       0,
+       -5.4,
+       0,
+       5.4
+      ],
+      "arrow": "both"
+     },
+     {
+      "label": "x",
+      "at": [
+       5.75,
+       0
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       5.75
+      ]
+     },
+     {
+      "label": "-5",
+      "at": [
+       -5,
+       -0.55
+      ]
+     },
+     {
+      "label": "-4",
+      "at": [
+       -4,
+       -0.55
+      ]
+     },
+     {
+      "label": "-3",
+      "at": [
+       -3,
+       -0.55
+      ]
+     },
+     {
+      "label": "-2",
+      "at": [
+       -2,
+       -0.55
+      ]
+     },
+     {
+      "label": "-1",
+      "at": [
+       -1,
+       -0.55
+      ]
+     },
+     {
+      "label": "1",
+      "at": [
+       1,
+       -0.55
+      ]
+     },
+     {
+      "label": "2",
+      "at": [
+       2,
+       -0.55
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       3,
+       -0.55
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       4,
+       -0.55
+      ]
+     },
+     {
+      "label": "5",
+      "at": [
+       5,
+       -0.55
+      ]
+     },
+     {
+      "label": "-5",
+      "at": [
+       -0.45,
+       -5
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-4",
+      "at": [
+       -0.45,
+       -4
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-3",
+      "at": [
+       -0.45,
+       -3
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-2",
+      "at": [
+       -0.45,
+       -2
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-1",
+      "at": [
+       -0.45,
+       -1
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "1",
+      "at": [
+       -0.45,
+       1
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "2",
+      "at": [
+       -0.45,
+       2
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "3",
+      "at": [
+       -0.45,
+       3
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "4",
+      "at": [
+       -0.45,
+       4
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "5",
+      "at": [
+       -0.45,
+       5
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.4,
+       -0.55
+      ]
+     },
+     {
+      "poly": [
+       [
+        -4,
+        1
+       ],
+       [
+        -2,
+        1
+       ],
+       [
+        -2,
+        2
+       ],
+       [
+        -3,
+        2
+       ],
+       [
+        -3,
+        4
+       ],
+       [
+        -4,
+        4
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        3,
+        -4
+       ],
+       [
+        1,
+        -4
+       ],
+       [
+        1,
+        -3
+       ],
+       [
+        2,
+        -3
+       ],
+       [
+        2,
+        -1
+       ],
+       [
+        3,
+        -1
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "A",
+      "at": [
+       -3.5,
+       2.35
+      ]
+     },
+     {
+      "label": "A′",
+      "at": [
+       2.5,
+       -2.65
+      ]
+     }
+    ]
+   },
+   "hint": "Type the vector like (3, -2)"
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Enrichment",
+   "stem": "Each shape is mapped to its image (the unshaded shape) by the transformations given. Reflections are in the $x$- or $y$-axis and rotations are about $O(0, 0)$. Find the translation vector used last.",
+   "type": "point",
+   "prompt": "$B$ to $B'$ by a rotation of $90°$ clockwise about $O$, then a translation.",
+   "answer": "(4,-1)",
+   "figure": {
+    "kind": "diagram",
+    "unit": 26,
+    "items": [
+     {
+      "seg": [
+       -5,
+       -5,
+       -5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -4,
+       -5,
+       -4,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -3,
+       -5,
+       -3,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -2,
+       -5,
+       -2,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1,
+       -5,
+       -1,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       -5,
+       0,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       1,
+       -5,
+       1,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       2,
+       -5,
+       2,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       -5,
+       3,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       4,
+       -5,
+       4,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       5,
+       -5,
+       5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -5,
+       5,
+       -5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -4,
+       5,
+       -4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -3,
+       5,
+       -3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -2,
+       5,
+       -2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -1,
+       5,
+       -1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       0,
+       5,
+       0
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       1,
+       5,
+       1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       2,
+       5,
+       2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       3,
+       5,
+       3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       4,
+       5,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       5,
+       5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5.4,
+       0,
+       5.4,
+       0
+      ],
+      "arrow": "both"
+     },
+     {
+      "seg": [
+       0,
+       -5.4,
+       0,
+       5.4
+      ],
+      "arrow": "both"
+     },
+     {
+      "label": "x",
+      "at": [
+       5.75,
+       0
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       5.75
+      ]
+     },
+     {
+      "label": "-5",
+      "at": [
+       -5,
+       -0.55
+      ]
+     },
+     {
+      "label": "-4",
+      "at": [
+       -4,
+       -0.55
+      ]
+     },
+     {
+      "label": "-3",
+      "at": [
+       -3,
+       -0.55
+      ]
+     },
+     {
+      "label": "-2",
+      "at": [
+       -2,
+       -0.55
+      ]
+     },
+     {
+      "label": "-1",
+      "at": [
+       -1,
+       -0.55
+      ]
+     },
+     {
+      "label": "1",
+      "at": [
+       1,
+       -0.55
+      ]
+     },
+     {
+      "label": "2",
+      "at": [
+       2,
+       -0.55
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       3,
+       -0.55
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       4,
+       -0.55
+      ]
+     },
+     {
+      "label": "5",
+      "at": [
+       5,
+       -0.55
+      ]
+     },
+     {
+      "label": "-5",
+      "at": [
+       -0.45,
+       -5
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-4",
+      "at": [
+       -0.45,
+       -4
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-3",
+      "at": [
+       -0.45,
+       -3
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-2",
+      "at": [
+       -0.45,
+       -2
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-1",
+      "at": [
+       -0.45,
+       -1
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "1",
+      "at": [
+       -0.45,
+       1
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "2",
+      "at": [
+       -0.45,
+       2
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "3",
+      "at": [
+       -0.45,
+       3
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "4",
+      "at": [
+       -0.45,
+       4
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "5",
+      "at": [
+       -0.45,
+       5
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.4,
+       -0.55
+      ]
+     },
+     {
+      "poly": [
+       [
+        -4,
+        -1
+       ],
+       [
+        -1,
+        -1
+       ],
+       [
+        -1,
+        -3
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        3,
+        3
+       ],
+       [
+        3,
+        0
+       ],
+       [
+        1,
+        0
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "B",
+      "at": [
+       -2.5,
+       -1.65
+      ]
+     },
+     {
+      "label": "B′",
+      "at": [
+       2.5,
+       0.35
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q10c",
+   "label": "10c",
+   "section": "Enrichment",
+   "stem": "Each shape is mapped to its image (the unshaded shape) by the transformations given. Reflections are in the $x$- or $y$-axis and rotations are about $O(0, 0)$. Find the translation vector used last.",
+   "type": "point",
+   "prompt": "$C$ to $C'$ by a reflection in the $x$-axis, then a translation.",
+   "answer": "(-4,0)",
+   "figure": {
+    "kind": "diagram",
+    "unit": 26,
+    "items": [
+     {
+      "seg": [
+       -5,
+       -5,
+       -5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -4,
+       -5,
+       -4,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -3,
+       -5,
+       -3,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -2,
+       -5,
+       -2,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1,
+       -5,
+       -1,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       -5,
+       0,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       1,
+       -5,
+       1,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       2,
+       -5,
+       2,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       -5,
+       3,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       4,
+       -5,
+       4,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       5,
+       -5,
+       5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -5,
+       5,
+       -5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -4,
+       5,
+       -4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -3,
+       5,
+       -3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -2,
+       5,
+       -2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -1,
+       5,
+       -1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       0,
+       5,
+       0
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       1,
+       5,
+       1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       2,
+       5,
+       2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       3,
+       5,
+       3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       4,
+       5,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       5,
+       5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5.4,
+       0,
+       5.4,
+       0
+      ],
+      "arrow": "both"
+     },
+     {
+      "seg": [
+       0,
+       -5.4,
+       0,
+       5.4
+      ],
+      "arrow": "both"
+     },
+     {
+      "label": "x",
+      "at": [
+       5.75,
+       0
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       5.75
+      ]
+     },
+     {
+      "label": "-5",
+      "at": [
+       -5,
+       -0.55
+      ]
+     },
+     {
+      "label": "-4",
+      "at": [
+       -4,
+       -0.55
+      ]
+     },
+     {
+      "label": "-3",
+      "at": [
+       -3,
+       -0.55
+      ]
+     },
+     {
+      "label": "-2",
+      "at": [
+       -2,
+       -0.55
+      ]
+     },
+     {
+      "label": "-1",
+      "at": [
+       -1,
+       -0.55
+      ]
+     },
+     {
+      "label": "1",
+      "at": [
+       1,
+       -0.55
+      ]
+     },
+     {
+      "label": "2",
+      "at": [
+       2,
+       -0.55
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       3,
+       -0.55
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       4,
+       -0.55
+      ]
+     },
+     {
+      "label": "5",
+      "at": [
+       5,
+       -0.55
+      ]
+     },
+     {
+      "label": "-5",
+      "at": [
+       -0.45,
+       -5
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-4",
+      "at": [
+       -0.45,
+       -4
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-3",
+      "at": [
+       -0.45,
+       -3
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-2",
+      "at": [
+       -0.45,
+       -2
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-1",
+      "at": [
+       -0.45,
+       -1
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "1",
+      "at": [
+       -0.45,
+       1
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "2",
+      "at": [
+       -0.45,
+       2
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "3",
+      "at": [
+       -0.45,
+       3
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "4",
+      "at": [
+       -0.45,
+       4
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "5",
+      "at": [
+       -0.45,
+       5
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.4,
+       -0.55
+      ]
+     },
+     {
+      "poly": [
+       [
+        1,
+        1
+       ],
+       [
+        3,
+        1
+       ],
+       [
+        4,
+        3
+       ],
+       [
+        2,
+        4
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        -3,
+        -1
+       ],
+       [
+        -1,
+        -1
+       ],
+       [
+        0,
+        -3
+       ],
+       [
+        -2,
+        -4
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "C",
+      "at": [
+       2.5,
+       2.35
+      ]
+     },
+     {
+      "label": "C′",
+      "at": [
+       -1.5,
+       -2.65
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q10d",
+   "label": "10d",
+   "section": "Enrichment",
+   "stem": "Each shape is mapped to its image (the unshaded shape) by the transformations given. Reflections are in the $x$- or $y$-axis and rotations are about $O(0, 0)$. Find the translation vector used last.",
+   "type": "point",
+   "prompt": "$D$ to $D'$ by a rotation of $180°$ about $O$, then a translation.",
+   "answer": "(-1,1)",
+   "figure": {
+    "kind": "diagram",
+    "unit": 26,
+    "items": [
+     {
+      "seg": [
+       -5,
+       -5,
+       -5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -4,
+       -5,
+       -4,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -3,
+       -5,
+       -3,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -2,
+       -5,
+       -2,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -1,
+       -5,
+       -1,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       -5,
+       0,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       1,
+       -5,
+       1,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       2,
+       -5,
+       2,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       -5,
+       3,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       4,
+       -5,
+       4,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       5,
+       -5,
+       5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -5,
+       5,
+       -5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -4,
+       5,
+       -4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -3,
+       5,
+       -3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -2,
+       5,
+       -2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       -1,
+       5,
+       -1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       0,
+       5,
+       0
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       1,
+       5,
+       1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       2,
+       5,
+       2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       3,
+       5,
+       3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       4,
+       5,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5,
+       5,
+       5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       -5.4,
+       0,
+       5.4,
+       0
+      ],
+      "arrow": "both"
+     },
+     {
+      "seg": [
+       0,
+       -5.4,
+       0,
+       5.4
+      ],
+      "arrow": "both"
+     },
+     {
+      "label": "x",
+      "at": [
+       5.75,
+       0
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       5.75
+      ]
+     },
+     {
+      "label": "-5",
+      "at": [
+       -5,
+       -0.55
+      ]
+     },
+     {
+      "label": "-4",
+      "at": [
+       -4,
+       -0.55
+      ]
+     },
+     {
+      "label": "-3",
+      "at": [
+       -3,
+       -0.55
+      ]
+     },
+     {
+      "label": "-2",
+      "at": [
+       -2,
+       -0.55
+      ]
+     },
+     {
+      "label": "-1",
+      "at": [
+       -1,
+       -0.55
+      ]
+     },
+     {
+      "label": "1",
+      "at": [
+       1,
+       -0.55
+      ]
+     },
+     {
+      "label": "2",
+      "at": [
+       2,
+       -0.55
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       3,
+       -0.55
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       4,
+       -0.55
+      ]
+     },
+     {
+      "label": "5",
+      "at": [
+       5,
+       -0.55
+      ]
+     },
+     {
+      "label": "-5",
+      "at": [
+       -0.45,
+       -5
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-4",
+      "at": [
+       -0.45,
+       -4
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-3",
+      "at": [
+       -0.45,
+       -3
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-2",
+      "at": [
+       -0.45,
+       -2
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "-1",
+      "at": [
+       -0.45,
+       -1
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "1",
+      "at": [
+       -0.45,
+       1
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "2",
+      "at": [
+       -0.45,
+       2
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "3",
+      "at": [
+       -0.45,
+       3
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "4",
+      "at": [
+       -0.45,
+       4
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "5",
+      "at": [
+       -0.45,
+       5
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.4,
+       -0.55
+      ]
+     },
+     {
+      "poly": [
+       [
+        1,
+        -1
+       ],
+       [
+        4,
+        -1
+       ],
+       [
+        4,
+        -2
+       ],
+       [
+        2,
+        -3
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        -2,
+        2
+       ],
+       [
+        -5,
+        2
+       ],
+       [
+        -5,
+        3
+       ],
+       [
+        -3,
+        4
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "D",
+      "at": [
+       2.5,
+       -1.65
+      ]
+     },
+     {
+      "label": "D′",
+      "at": [
+       -3.5,
+       2.35
+      ]
+     }
+    ]
+   }
+  }
+ ]
+},
+{
+ "id": "y8-10e",
+ "year": 8,
+ "chapter": "Chapter 10: Transformations and congruence",
+ "title": "10E Congruent triangles",
+ "description": "Choose the congruence test (SSS, SAS, AAS or RHS), decide if triangles are congruent and find unknown sides and angles.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Which test (SSS, SAS, AAS or RHS) would you choose to show these two triangles are congruent?",
+   "type": "choice",
+   "prompt": "Look at the side lengths.",
+   "answer": 0,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 40,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        3.6,
+        0
+       ],
+       [
+        1.45,
+        1.067
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "6 m",
+      "at": [
+       1.8,
+       -0.5
+      ]
+     },
+     {
+      "label": "4 m",
+      "at": [
+       2.712,
+       0.83
+      ]
+     },
+     {
+      "label": "3 m",
+      "at": [
+       0.476,
+       0.792
+      ],
+      "anchor": "end"
+     },
+     {
+      "poly": [
+       [
+        5.2,
+        1.067
+       ],
+       [
+        8.8,
+        1.067
+       ],
+       [
+        6.65,
+        0
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "6 m",
+      "at": [
+       7,
+       1.407
+      ]
+     },
+     {
+      "label": "4 m",
+      "at": [
+       7.912,
+       0.077
+      ]
+     },
+     {
+      "label": "3 m",
+      "at": [
+       5.676,
+       0.115
+      ],
+      "anchor": "end"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Which test (SSS, SAS, AAS or RHS) would you choose to show these two triangles are congruent?",
+   "type": "choice",
+   "prompt": "Look at the marked sides and angle.",
+   "answer": 1,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 40,
+    "items": [
+     {
+      "poly": [
+       [
+        1.2,
+        0
+       ],
+       [
+        4.8,
+        0
+       ],
+       [
+        0,
+        2.078
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "6 cm",
+      "at": [
+       3,
+       -0.5
+      ]
+     },
+     {
+      "label": "4 cm",
+      "at": [
+       0.236,
+       0.749
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       1.2,
+       0,
+       0,
+       120
+      ],
+      "label": "120°",
+      "r": 0.55
+     },
+     {
+      "poly": [
+       [
+        9.783,
+        1.543
+       ],
+       [
+        6.4,
+        0.311
+       ],
+       [
+        11.621,
+        0
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "6 cm",
+      "at": [
+       7.948,
+       1.242
+      ]
+     },
+     {
+      "label": "4 cm",
+      "at": [
+       10.972,
+       1.013
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       9.783,
+       1.543,
+       200,
+       320
+      ],
+      "label": "120°",
+      "r": 0.55
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Which test (SSS, SAS, AAS or RHS) would you choose to show these triangles are congruent?",
+   "type": "choice",
+   "prompt": "Two triangles",
+   "answer": 1,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 40,
+    "items": [
+     {
+      "poly": [
+       [
+        0.287,
+        0
+       ],
+       [
+        3.037,
+        0
+       ],
+       [
+        0,
+        1.625
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "5 cm",
+      "at": [
+       1.662,
+       -0.5
+      ]
+     },
+     {
+      "label": "3 cm",
+      "at": [
+       -0.27,
+       0.66
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       0.287,
+       0,
+       0,
+       100
+      ],
+      "label": "100°",
+      "r": 0.55
+     },
+     {
+      "poly": [
+       [
+        5.697,
+        1.375
+       ],
+       [
+        8.079,
+        0
+       ],
+       [
+        4.637,
+        0.111
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "5 cm",
+      "at": [
+       7.098,
+       0.971
+      ]
+     },
+     {
+      "label": "3 cm",
+      "at": [
+       4.845,
+       0.933
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       5.697,
+       1.375,
+       230,
+       330
+      ],
+      "label": "100°",
+      "r": 0.55
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Which test (SSS, SAS, AAS or RHS) would you choose to show these triangles are congruent?",
+   "type": "choice",
+   "prompt": "Two triangles",
+   "answer": 0,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 40,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        3.85,
+        0
+       ],
+       [
+        2.357,
+        2.31
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "7 cm",
+      "at": [
+       1.925,
+       -0.5
+      ]
+     },
+     {
+      "label": "5 cm",
+      "at": [
+       3.456,
+       1.303
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "6 cm",
+      "at": [
+       0.885,
+       1.375
+      ],
+      "anchor": "end"
+     },
+     {
+      "poly": [
+       [
+        8.134,
+        0
+       ],
+       [
+        7.465,
+        3.792
+       ],
+       [
+        5.45,
+        1.92
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "7 cm",
+      "at": [
+       8.213,
+       1.889
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "5 cm",
+      "at": [
+       6.172,
+       3.084
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "6 cm",
+      "at": [
+       6.547,
+       0.539
+      ],
+      "anchor": "end"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Which test (SSS, SAS, AAS or RHS) would you choose to show these triangles are congruent?",
+   "type": "choice",
+   "prompt": "Two right-angled triangles",
+   "answer": 3,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 40,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        2.75,
+        0
+       ],
+       [
+        0,
+        4.116
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "5 cm",
+      "at": [
+       1.375,
+       -0.5
+      ]
+     },
+     {
+      "label": "9 cm",
+      "at": [
+       1.724,
+       2.211
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       90
+      ],
+      "right": true
+     },
+     {
+      "poly": [
+       [
+        6.7,
+        0
+       ],
+       [
+        3.95,
+        0
+       ],
+       [
+        6.7,
+        4.116
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "5 cm",
+      "at": [
+       5.325,
+       -0.5
+      ]
+     },
+     {
+      "label": "9 cm",
+      "at": [
+       4.976,
+       2.211
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       6.7,
+       0,
+       90,
+       180
+      ],
+      "right": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Which test (SSS, SAS, AAS or RHS) would you choose to show these triangles are congruent?",
+   "type": "choice",
+   "prompt": "Two triangles",
+   "answer": 2,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 40,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        2.64,
+        0
+       ],
+       [
+        2.155,
+        1.809
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "4 cm",
+      "at": [
+       1.32,
+       -0.5
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       40
+      ],
+      "label": "40°",
+      "r": 0.75
+     },
+     {
+      "angle": [
+       2.64,
+       0,
+       105,
+       180
+      ],
+      "label": "75°",
+      "r": 0.55
+     },
+     {
+      "poly": [
+       [
+        6.84,
+        1.407
+       ],
+       [
+        4.24,
+        1.865
+       ],
+       [
+        4.403,
+        0
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "4 cm",
+      "at": [
+       5.613,
+       1.97
+      ]
+     },
+     {
+      "angle": [
+       6.84,
+       1.407,
+       170,
+       210
+      ],
+      "label": "40°",
+      "r": 0.75
+     },
+     {
+      "angle": [
+       4.24,
+       1.865,
+       275,
+       350
+      ],
+      "label": "75°",
+      "r": 0.55
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Which test (SSS, SAS, AAS or RHS) would you choose to show these triangles are congruent?",
+   "type": "choice",
+   "prompt": "A rectangle is cut by its diagonal into two triangles. The diagonal is $8$ cm long.",
+   "answer": 3,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 60,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        3.6,
+        0
+       ],
+       [
+        3.6,
+        1.35
+       ],
+       [
+        0,
+        1.35
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "seg": [
+       0,
+       0,
+       3.6,
+       1.35
+      ]
+     },
+     {
+      "angle": [
+       0,
+       1.35,
+       270,
+       360
+      ],
+      "right": true
+     },
+     {
+      "angle": [
+       3.6,
+       0,
+       90,
+       180
+      ],
+      "right": true
+     },
+     {
+      "label": "3 cm",
+      "at": [
+       -0.15,
+       0.675
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "3 cm",
+      "at": [
+       3.75,
+       0.675
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "8 cm",
+      "at": [
+       1.6,
+       1.025
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "Which test (SSS, SAS, AAS or RHS) would you choose to show these triangles are congruent?",
+   "type": "choice",
+   "prompt": "A triangle is split into two triangles by the line from the top vertex, which is $6$ cm long.",
+   "answer": 2,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 60,
+    "items": [
+     {
+      "poly": [
+       [
+        -1.092,
+        0
+       ],
+       [
+        1.092,
+        0
+       ],
+       [
+        0,
+        3
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       3
+      ]
+     },
+     {
+      "angle": [
+       -1.092,
+       0,
+       0,
+       70
+      ],
+      "label": "70°",
+      "r": 0.5
+     },
+     {
+      "angle": [
+       1.092,
+       0,
+       110,
+       180
+      ],
+      "label": "70°",
+      "r": 0.5
+     },
+     {
+      "angle": [
+       0,
+       3,
+       250,
+       270
+      ],
+      "label": "20°",
+      "r": 1.2
+     },
+     {
+      "angle": [
+       0,
+       3,
+       270,
+       290
+      ],
+      "label": "20°",
+      "r": 1.5
+     },
+     {
+      "label": "6 cm",
+      "at": [
+       0.12,
+       0.9
+      ],
+      "anchor": "start"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "State which test (SSS, SAS, AAS or RHS) shows that each triangle is unique.",
+   "type": "choice",
+   "prompt": "$\\triangle PQR$ with $\\angle P = 50°$, $PQ = 6$ cm and $\\angle Q = 70°$",
+   "answer": 2,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "State which test (SSS, SAS, AAS or RHS) shows that each triangle is unique.",
+   "type": "choice",
+   "prompt": "$\\triangle KLM$ with $KL = 4$ cm, $LM = 7$ cm and $KM = 8$ cm",
+   "answer": 0,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "State which test (SSS, SAS, AAS or RHS) shows that each triangle is unique.",
+   "type": "choice",
+   "prompt": "$\\triangle UVW$ with $\\angle U = 90°$, $UV = 5$ cm and $VW = 13$ cm",
+   "answer": 3,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "State which test (SSS, SAS, AAS or RHS) shows that each triangle is unique.",
+   "type": "choice",
+   "prompt": "$\\triangle ABC$ with $AB = 5$ cm, $\\angle B = 35°$ and $BC = 7$ cm",
+   "answer": 1,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "State which test (SSS, SAS, AAS or RHS) shows that each triangle is unique.",
+   "type": "choice",
+   "prompt": "$\\triangle DEF$ with $DE = 3$ cm, $EF = 5$ cm and $DF = 6$ cm",
+   "answer": 0,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "State which test (SSS, SAS, AAS or RHS) shows that each triangle is unique.",
+   "type": "choice",
+   "prompt": "$\\triangle GHI$ with $GH = 7$ cm, $\\angle G = 40°$ and $\\angle H = 75°$",
+   "answer": 2,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q3g",
+   "label": "3g",
+   "section": "Fluency",
+   "stem": "State which test (SSS, SAS, AAS or RHS) shows that each triangle is unique.",
+   "type": "choice",
+   "prompt": "$\\triangle XYZ$ with $XY = 6$ cm, $\\angle X = 55°$ and $XZ = 3$ cm",
+   "answer": 1,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q3h",
+   "label": "3h",
+   "section": "Fluency",
+   "stem": "State which test (SSS, SAS, AAS or RHS) shows that each triangle is unique.",
+   "type": "choice",
+   "prompt": "$\\triangle LMN$ with $\\angle L = 30°$, $\\angle M = 80°$ and $MN = 6$ cm",
+   "answer": 2,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q3i",
+   "label": "3i",
+   "section": "Fluency",
+   "stem": "State which test (SSS, SAS, AAS or RHS) shows that each triangle is unique.",
+   "type": "choice",
+   "prompt": "$\\triangle RST$ with $\\angle S = 65°$, $ST = 5$ cm and $\\angle R = 45°$",
+   "answer": 2,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q3j",
+   "label": "3j",
+   "section": "Fluency",
+   "stem": "State which test (SSS, SAS, AAS or RHS) shows that each triangle is unique.",
+   "type": "choice",
+   "prompt": "$\\triangle JKL$ with $\\angle K = 90°$, $KL = 6$ cm and $JL = 10$ cm",
+   "answer": 3,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "Each pair of triangles is congruent. Find the value of each pronumeral. The marked angles are equal.",
+   "type": "numeric",
+   "prompt": "$x$",
+   "answer": "6",
+   "figure": {
+    "kind": "diagram",
+    "unit": 40,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        3.3,
+        0
+       ],
+       [
+        2.062,
+        1.819
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "6 m",
+      "at": [
+       1.65,
+       -0.5
+      ]
+     },
+     {
+      "label": "4 m",
+      "at": [
+       3.029,
+       1.066
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "5 m",
+      "at": [
+       0.753,
+       1.144
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       41.41
+      ],
+      "r": 0.7359037789072915
+     },
+     {
+      "poly": [
+       [
+        4.9,
+        2.719
+       ],
+       [
+        7.428,
+        0.598
+       ],
+       [
+        5.311,
+        0
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "x m",
+      "at": [
+       6.434,
+       1.9
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "y m",
+      "at": [
+       6.484,
+       -0.185
+      ]
+     },
+     {
+      "label": "5 m",
+      "at": [
+       4.69,
+       1.217
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       4.9,
+       2.719,
+       278.59,
+       320
+      ],
+      "r": 0.7359037789072915
+     }
+    ]
+   },
+   "units": "m"
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "Each pair of triangles is congruent. Find the value of each pronumeral. The marked angles are equal.",
+   "type": "numeric",
+   "prompt": "$y$",
+   "answer": "4",
+   "units": "m"
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "Each pair of triangles is congruent. Find the value of each pronumeral.",
+   "type": "numeric",
+   "prompt": "$x$",
+   "answer": "8",
+   "figure": {
+    "kind": "diagram",
+    "unit": 40,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        3.2,
+        0
+       ],
+       [
+        0,
+        2.241
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "x cm",
+      "at": [
+       1.6,
+       -0.5
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       90
+      ],
+      "right": true
+     },
+     {
+      "angle": [
+       3.2,
+       0,
+       145,
+       180
+      ],
+      "label": "35°",
+      "r": 0.8
+     },
+     {
+      "poly": [
+       [
+        4.8,
+        2.241
+       ],
+       [
+        8,
+        2.241
+       ],
+       [
+        4.8,
+        0
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "8 cm",
+      "at": [
+       6.4,
+       2.581
+      ]
+     },
+     {
+      "angle": [
+       4.8,
+       2.241,
+       270,
+       360
+      ],
+      "right": true
+     },
+     {
+      "angle": [
+       8,
+       2.241,
+       180,
+       215
+      ],
+      "label": "a°",
+      "r": 0.8
+     }
+    ]
+   },
+   "units": "cm"
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "Each pair of triangles is congruent. Find the value of each pronumeral.",
+   "type": "numeric",
+   "prompt": "$a$",
+   "answer": "35",
+   "units": "°"
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Fluency",
+   "stem": "Each pair of triangles is congruent. Find the value of each pronumeral.",
+   "type": "numeric",
+   "prompt": "$a$",
+   "answer": "30",
+   "figure": {
+    "kind": "diagram",
+    "unit": 40,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        2.7,
+        0
+       ],
+       [
+        4.009,
+        1.869
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "6 cm",
+      "at": [
+       1.35,
+       -0.5
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       25
+      ],
+      "label": "25°",
+      "r": 0.9000000000000001
+     },
+     {
+      "angle": [
+       4.009,
+       1.869,
+       205,
+       235
+      ],
+      "label": "a°",
+      "r": 0.8500000000000001
+     },
+     {
+      "poly": [
+       [
+        5.609,
+        0.386
+       ],
+       [
+        8.146,
+        1.309
+       ],
+       [
+        10.016,
+        0
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "x cm",
+      "at": [
+       6.734,
+       1.162
+      ]
+     },
+     {
+      "angle": [
+       5.609,
+       0.386,
+       355,
+       20
+      ],
+      "label": "25°",
+      "r": 0.9000000000000001
+     },
+     {
+      "angle": [
+       10.016,
+       0,
+       145,
+       175
+      ],
+      "label": "30°",
+      "r": 0.8500000000000001
+     }
+    ]
+   },
+   "units": "°"
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Fluency",
+   "stem": "Each pair of triangles is congruent. Find the value of each pronumeral.",
+   "type": "numeric",
+   "prompt": "$x$",
+   "answer": "6",
+   "units": "cm"
+  },
+  {
+   "id": "q4g",
+   "label": "4g",
+   "section": "Fluency",
+   "stem": "Each pair of triangles is congruent. Find the value of each pronumeral. (The shape is a parallelogram cut by a diagonal.)",
+   "type": "numeric",
+   "prompt": "$x$",
+   "answer": "5",
+   "figure": {
+    "kind": "diagram",
+    "unit": 45,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        5,
+        0
+       ],
+       [
+        4.284,
+        3
+       ],
+       [
+        -0.716,
+        3
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "seg": [
+       0,
+       0,
+       4.284,
+       3
+      ]
+     },
+     {
+      "angle": [
+       4.284,
+       3,
+       180,
+       215
+      ],
+      "label": "35°",
+      "r": 1.1
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       35
+      ],
+      "label": "a°",
+      "r": 1.1
+     },
+     {
+      "par": [
+       -0.716,
+       3,
+       4.284,
+       3
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       0,
+       0,
+       5,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "label": "5 cm",
+      "at": [
+       1.784,
+       3.4
+      ]
+     },
+     {
+      "label": "x cm",
+      "at": [
+       2.5,
+       -0.45
+      ]
+     }
+    ]
+   },
+   "units": "cm"
+  },
+  {
+   "id": "q4h",
+   "label": "4h",
+   "section": "Fluency",
+   "stem": "Each pair of triangles is congruent. Find the value of each pronumeral. (The shape is a parallelogram cut by a diagonal.)",
+   "type": "numeric",
+   "prompt": "$a$",
+   "answer": "35",
+   "units": "°"
+  },
+  {
+   "id": "q4i",
+   "label": "4i",
+   "section": "Fluency",
+   "stem": "Each pair of triangles is congruent. Find the value of each pronumeral. (The triangles meet at a point. Sides with the same marks are equal.)",
+   "type": "numeric",
+   "prompt": "$x$",
+   "answer": "5",
+   "figure": {
+    "kind": "diagram",
+    "unit": 45,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        -2.443,
+        0.889
+       ],
+       [
+        -0.295,
+        -1.671
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "5 cm",
+      "at": [
+       -1.078,
+       0.759
+      ]
+     },
+     {
+      "tick": [
+       -0.295,
+       -1.671,
+       0,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       0,
+       0,
+       160,
+       260
+      ],
+      "label": "100°",
+      "r": 0.55
+     },
+     {
+      "angle": [
+       -2.443,
+       0.889,
+       310,
+       340
+      ],
+      "label": "30°",
+      "r": 0.8500000000000001
+     },
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        2.443,
+        -0.889
+       ],
+       [
+        0.295,
+        1.671
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "x cm",
+      "at": [
+       1.078,
+       -0.919
+      ]
+     },
+     {
+      "tick": [
+       0.295,
+       1.671,
+       0,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       2.443,
+       -0.889,
+       130,
+       160
+      ],
+      "label": "a°",
+      "r": 0.8500000000000001
+     },
+     {
+      "angle": [
+       0.295,
+       1.671,
+       260,
+       310
+      ],
+      "label": "b°",
+      "r": 0.65
+     }
+    ]
+   },
+   "units": "cm"
+  },
+  {
+   "id": "q4j",
+   "label": "4j",
+   "section": "Fluency",
+   "stem": "Each pair of triangles is congruent. Find the value of each pronumeral. (The triangles meet at a point. Sides with the same marks are equal.)",
+   "type": "numeric",
+   "prompt": "$a$",
+   "answer": "30",
+   "units": "°"
+  },
+  {
+   "id": "q4k",
+   "label": "4k",
+   "section": "Fluency",
+   "stem": "Each pair of triangles is congruent. Find the value of each pronumeral. (The triangles meet at a point. Sides with the same marks are equal.)",
+   "type": "numeric",
+   "prompt": "$b$",
+   "answer": "50",
+   "units": "°"
+  },
+  {
+   "id": "q4l",
+   "label": "4l",
+   "section": "Fluency",
+   "stem": "Each pair of triangles is congruent. Find the value of each pronumeral. (The triangles meet at a point and $b$ is at that point. Sides with the same marks are equal.)",
+   "type": "numeric",
+   "prompt": "$x$",
+   "answer": "9",
+   "figure": {
+    "kind": "diagram",
+    "unit": 45,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        -2.255,
+        -0.821
+       ],
+       [
+        0.256,
+        -2.928
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "9 cm",
+      "at": [
+       -1.27,
+       -2.276
+      ],
+      "anchor": "end"
+     },
+     {
+      "tick": [
+       0,
+       0,
+       -2.255,
+       -0.821
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       -2.255,
+       -0.821,
+       320,
+       20
+      ],
+      "label": "60°",
+      "r": 0.55
+     },
+     {
+      "angle": [
+       0.256,
+       -2.928,
+       95,
+       140
+      ],
+      "label": "45°",
+      "r": 0.7000000000000001
+     },
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        2.255,
+        0.821
+       ],
+       [
+        -0.256,
+        2.928
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "x cm",
+      "at": [
+       1.27,
+       2.116
+      ],
+      "anchor": "start"
+     },
+     {
+      "tick": [
+       0,
+       0,
+       2.255,
+       0.821
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       -0.256,
+       2.928,
+       275,
+       320
+      ],
+      "label": "a°",
+      "r": 0.7000000000000001
+     },
+     {
+      "angle": [
+       0,
+       0,
+       20,
+       95
+      ],
+      "label": "b°",
+      "r": 0.55
+     }
+    ]
+   },
+   "units": "cm"
+  },
+  {
+   "id": "q4m",
+   "label": "4m",
+   "section": "Fluency",
+   "stem": "Each pair of triangles is congruent. Find the value of each pronumeral. (The triangles meet at a point and $b$ is at that point. Sides with the same marks are equal.)",
+   "type": "numeric",
+   "prompt": "$a$",
+   "answer": "45",
+   "units": "°"
+  },
+  {
+   "id": "q4n",
+   "label": "4n",
+   "section": "Fluency",
+   "stem": "Each pair of triangles is congruent. Find the value of each pronumeral. (The triangles meet at a point and $b$ is at that point. Sides with the same marks are equal.)",
+   "type": "numeric",
+   "prompt": "$b$",
+   "answer": "75",
+   "units": "°"
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Fluency",
+   "stem": "Decide if each pair of triangles is congruent. If it is, choose the reason.",
+   "type": "choice",
+   "prompt": "Two right-angled triangles",
+   "answer": 4,
+   "options": [
+    "Congruent (SSS)",
+    "Congruent (SAS)",
+    "Congruent (AAS)",
+    "Congruent (RHS)",
+    "Not congruent"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 40,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        3.2,
+        0
+       ],
+       [
+        0,
+        2.4
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "8 m",
+      "at": [
+       1.6,
+       -0.5
+      ]
+     },
+     {
+      "label": "10 m",
+      "at": [
+       1.852,
+       1.456
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       90
+      ],
+      "right": true
+     },
+     {
+      "poly": [
+       [
+        7.6,
+        0
+       ],
+       [
+        4.8,
+        0
+       ],
+       [
+        7.6,
+        2.857
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "7 m",
+      "at": [
+       6.2,
+       -0.5
+      ]
+     },
+     {
+      "label": "10 m",
+      "at": [
+       5.9,
+       1.642
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       7.6,
+       0,
+       90,
+       180
+      ],
+      "right": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Fluency",
+   "stem": "Decide if each pair of triangles is congruent. If it is, choose the reason.",
+   "type": "choice",
+   "prompt": "Two triangles",
+   "answer": 1,
+   "options": [
+    "Congruent (SSS)",
+    "Congruent (SAS)",
+    "Congruent (AAS)",
+    "Congruent (RHS)",
+    "Not congruent"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 40,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        3,
+        0
+       ],
+       [
+        1.379,
+        1.157
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "5",
+      "at": [
+       1.5,
+       -0.5
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       0.419,
+       0.82
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       40
+      ],
+      "label": "40°",
+      "r": 0.7500000000000001
+     },
+     {
+      "poly": [
+       [
+        4.6,
+        0
+       ],
+       [
+        6.898,
+        1.928
+       ],
+       [
+        6.4,
+        0
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "5",
+      "at": [
+       5.479,
+       1.206
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "3",
+      "at": [
+       5.5,
+       -0.5
+      ]
+     },
+     {
+      "angle": [
+       4.6,
+       0,
+       0,
+       40
+      ],
+      "label": "40°",
+      "r": 0.75
+     }
+    ]
+   }
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Fluency",
+   "stem": "Decide if each pair of triangles is congruent. If it is, choose the reason.",
+   "type": "choice",
+   "prompt": "Two triangles",
+   "answer": 2,
+   "options": [
+    "Congruent (SSS)",
+    "Congruent (SAS)",
+    "Congruent (AAS)",
+    "Congruent (RHS)",
+    "Not congruent"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 40,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        3.2,
+        0
+       ],
+       [
+        2.232,
+        2.66
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "8",
+      "at": [
+       1.6,
+       -0.5
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       50
+      ],
+      "label": "50°",
+      "r": 0.65
+     },
+     {
+      "angle": [
+       2.232,
+       2.66,
+       230,
+       290
+      ],
+      "label": "60°",
+      "r": 0.55
+     },
+     {
+      "poly": [
+       [
+        8.219,
+        0
+       ],
+       [
+        6.619,
+        2.771
+       ],
+       [
+        4.8,
+        0.603
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "8",
+      "at": [
+       7.783,
+       1.516
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       8.219,
+       0,
+       120,
+       170
+      ],
+      "label": "50°",
+      "r": 0.6500000000000001
+     },
+     {
+      "angle": [
+       4.8,
+       0.603,
+       350,
+       50
+      ],
+      "label": "60°",
+      "r": 0.55
+     }
+    ]
+   }
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Fluency",
+   "stem": "Decide if each pair of triangles is congruent. If it is, choose the reason.",
+   "type": "choice",
+   "prompt": "Two triangles",
+   "answer": 4,
+   "options": [
+    "Congruent (SSS)",
+    "Congruent (SAS)",
+    "Congruent (AAS)",
+    "Congruent (RHS)",
+    "Not congruent"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 52,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        2.4,
+        0
+       ],
+       [
+        1.637,
+        1.637
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "3",
+      "at": [
+       1.2,
+       -0.5
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       45
+      ],
+      "label": "45°",
+      "r": 0.7000000000000001
+     },
+     {
+      "angle": [
+       2.4,
+       0,
+       115,
+       180
+      ],
+      "label": "65°",
+      "r": 0.55
+     },
+     {
+      "poly": [
+       [
+        3.8,
+        0
+       ],
+       [
+        7.264,
+        2
+       ],
+       [
+        4.798,
+        3.726
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "5",
+      "at": [
+       5.742,
+       0.556
+      ]
+     },
+     {
+      "angle": [
+       3.8,
+       0,
+       30,
+       75
+      ],
+      "label": "45°",
+      "r": 0.7
+     },
+     {
+      "angle": [
+       7.264,
+       2,
+       145,
+       210
+      ],
+      "label": "65°",
+      "r": 0.55
+     }
+    ]
+   }
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Problem-solving",
+   "stem": "Which piece of information must be added for the two triangles to be congruent? Choose from: ∠B = 40°, ∠C = 25°, EF = 6 m, DE = 6 m, AC = 7 cm, AB = 7 cm, ∠A = 25°.",
+   "type": "choice",
+   "prompt": "Right-angled triangles $ABC$ and $DEF$",
+   "answer": 2,
+   "options": [
+    "∠B = 40°",
+    "∠C = 25°",
+    "EF = 6 m",
+    "DE = 6 m",
+    "AC = 7 cm",
+    "AB = 7 cm",
+    "∠A = 25°"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 40,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        2.8
+       ],
+       [
+        0,
+        0
+       ],
+       [
+        2.1,
+        0
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "6 m",
+      "at": [
+       1.05,
+       -0.5
+      ]
+     },
+     {
+      "label": "10 m",
+      "at": [
+       1.386,
+       1.572
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       90
+      ],
+      "right": true
+     },
+     {
+      "label": "A",
+      "at": [
+       -0.133,
+       3.056
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       -0.228,
+       -0.404
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       2.416,
+       -0.311
+      ]
+     },
+     {
+      "poly": [
+       [
+        5.8,
+        2.8
+       ],
+       [
+        5.8,
+        0
+       ],
+       [
+        3.7,
+        0
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "10 m",
+      "at": [
+       4.414,
+       1.572
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       5.8,
+       0,
+       90,
+       180
+      ],
+      "right": true
+     },
+     {
+      "label": "D",
+      "at": [
+       5.933,
+       3.056
+      ]
+     },
+     {
+      "label": "E",
+      "at": [
+       6.028,
+       -0.404
+      ]
+     },
+     {
+      "label": "F",
+      "at": [
+       3.384,
+       -0.311
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Problem-solving",
+   "stem": "Which piece of information must be added for the two triangles to be congruent? Choose from: ∠B = 40°, ∠C = 25°, EF = 6 m, DE = 6 m, AC = 7 cm, AB = 7 cm, ∠A = 25°.",
+   "type": "choice",
+   "prompt": "Triangles $ABC$ and $DEF$",
+   "answer": 0,
+   "options": [
+    "∠B = 40°",
+    "∠C = 25°",
+    "EF = 6 m",
+    "DE = 6 m",
+    "AC = 7 cm",
+    "AB = 7 cm",
+    "∠A = 25°"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 40,
+    "items": [
+     {
+      "poly": [
+       [
+        0.967,
+        0
+       ],
+       [
+        3.167,
+        0
+       ],
+       [
+        0,
+        2.658
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "15 mm",
+      "at": [
+       0.089,
+       1.105
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       0.967,
+       0,
+       0,
+       110
+      ],
+      "label": "110°",
+      "r": 0.55
+     },
+     {
+      "label": "A",
+      "at": [
+       0.807,
+       -0.445
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       3.508,
+       -0.269
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       -0.233,
+       2.858
+      ]
+     },
+     {
+      "poly": [
+       [
+        6.585,
+        2.167
+       ],
+       [
+        8.653,
+        1.414
+       ],
+       [
+        4.767,
+        0
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "15 mm",
+      "at": [
+       5.355,
+       1.273
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       6.585,
+       2.167,
+       230,
+       340
+      ],
+      "label": "110°",
+      "r": 0.55
+     },
+     {
+      "angle": [
+       8.653,
+       1.414,
+       160,
+       200
+      ],
+      "label": "40°",
+      "r": 0.75
+     },
+     {
+      "label": "D",
+      "at": [
+       6.553,
+       2.445
+      ]
+     },
+     {
+      "label": "E",
+      "at": [
+       9.03,
+       1.356
+      ]
+     },
+     {
+      "label": "F",
+      "at": [
+       4.445,
+       -0.302
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Problem-solving",
+   "stem": "Which piece of information must be added for the two triangles to be congruent? Choose from: ∠B = 40°, ∠C = 25°, EF = 6 m, DE = 6 m, AC = 7 cm, AB = 7 cm, ∠A = 25°.",
+   "type": "choice",
+   "prompt": "Triangles $ABC$ and $DEF$",
+   "answer": 4,
+   "options": [
+    "∠B = 40°",
+    "∠C = 25°",
+    "EF = 6 m",
+    "DE = 6 m",
+    "AC = 7 cm",
+    "AB = 7 cm",
+    "∠A = 25°"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 40,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        2.8,
+        0
+       ],
+       [
+        1.925,
+        1.516
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "8 cm",
+      "at": [
+       1.4,
+       -0.5
+      ]
+     },
+     {
+      "label": "5 cm",
+      "at": [
+       2.726,
+       0.888
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "A",
+      "at": [
+       -0.362,
+       -0.216
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       3.151,
+       -0.245
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       2.049,
+       1.775
+      ]
+     },
+     {
+      "poly": [
+       [
+        7.831,
+        2.083
+       ],
+       [
+        5.2,
+        1.125
+       ],
+       [
+        6.541,
+        0
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "8 cm",
+      "at": [
+       6.372,
+       1.918
+      ]
+     },
+     {
+      "label": "5 cm",
+      "at": [
+       5.6,
+       0.161
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "7 cm",
+      "at": [
+       7.543,
+       0.74
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "D",
+      "at": [
+       8.131,
+       2.215
+      ]
+     },
+     {
+      "label": "E",
+      "at": [
+       4.82,
+       1.041
+      ]
+     },
+     {
+      "label": "F",
+      "at": [
+       6.547,
+       -0.48
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Problem-solving",
+   "stem": "Which piece of information must be added for the two triangles to be congruent? Choose from: ∠B = 40°, ∠C = 25°, EF = 6 m, DE = 6 m, AC = 7 cm, AB = 7 cm, ∠A = 25°.",
+   "type": "choice",
+   "prompt": "Triangles $ABC$ and $DEF$",
+   "answer": 6,
+   "options": [
+    "∠B = 40°",
+    "∠C = 25°",
+    "EF = 6 m",
+    "DE = 6 m",
+    "AC = 7 cm",
+    "AB = 7 cm",
+    "∠A = 25°"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 40,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        3,
+        0
+       ],
+       [
+        3.399,
+        1.585
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "12 m",
+      "at": [
+       1.5,
+       -0.5
+      ]
+     },
+     {
+      "label": "15 m",
+      "at": [
+       1.522,
+       1.093
+      ]
+     },
+     {
+      "label": "A",
+      "at": [
+       -0.369,
+       -0.191
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       3.325,
+       -0.298
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       3.69,
+       1.728
+      ]
+     },
+     {
+      "poly": [
+       [
+        5.399,
+        1.585
+       ],
+       [
+        8.399,
+        1.585
+       ],
+       [
+        8.797,
+        0
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "12 m",
+      "at": [
+       6.899,
+       1.925
+      ]
+     },
+     {
+      "label": "15 m",
+      "at": [
+       6.92,
+       0.332
+      ]
+     },
+     {
+      "angle": [
+       5.399,
+       1.585,
+       335,
+       360
+      ],
+      "label": "25°",
+      "r": 0.9000000000000001
+     },
+     {
+      "label": "D",
+      "at": [
+       5.03,
+       1.576
+      ]
+     },
+     {
+      "label": "E",
+      "at": [
+       8.723,
+       1.683
+      ]
+     },
+     {
+      "label": "F",
+      "at": [
+       9.089,
+       -0.344
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Problem-solving",
+   "stem": "Are these two triangles congruent? You may need the angle sum of a triangle first.",
+   "type": "choice",
+   "prompt": "Two isosceles triangles with equal legs",
+   "answer": 0,
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 45,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        2,
+        0
+       ],
+       [
+        1,
+        2.747
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "tick": [
+       2,
+       0,
+       1,
+       2.747
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       1,
+       2.747,
+       0,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       70
+      ],
+      "label": "70°",
+      "r": 0.55
+     },
+     {
+      "poly": [
+       [
+        5.4,
+        2.747
+       ],
+       [
+        3.4,
+        2.747
+       ],
+       [
+        4.4,
+        0
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "tick": [
+       3.4,
+       2.747,
+       4.4,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       4.4,
+       0,
+       5.4,
+       2.747
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       4.4,
+       0,
+       70,
+       110
+      ],
+      "label": "40°",
+      "r": 0.75
+     }
+    ]
+   }
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Problem-solving",
+   "stem": "Are these two triangles congruent? You may need the angle sum of a triangle first.",
+   "type": "choice",
+   "prompt": "Two isosceles triangles with equal legs",
+   "answer": 1,
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 45,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        2,
+        0
+       ],
+       [
+        1,
+        2.145
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "tick": [
+       2,
+       0,
+       1,
+       2.145
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       1,
+       2.145,
+       0,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       1,
+       2.145,
+       245,
+       295
+      ],
+      "label": "50°",
+      "r": 0.65
+     },
+     {
+      "poly": [
+       [
+        5.449,
+        0
+       ],
+       [
+        5.449,
+        2.366
+       ],
+       [
+        3.4,
+        1.183
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "tick": [
+       5.449,
+       2.366,
+       3.4,
+       1.183
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       3.4,
+       1.183,
+       5.449,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       5.449,
+       2.366,
+       210,
+       270
+      ],
+      "label": "60°",
+      "r": 0.55
+     }
+    ]
+   }
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Problem-solving",
+   "stem": "Are these two triangles congruent? You may need the angle sum of a triangle first.",
+   "type": "choice",
+   "prompt": "Two triangles",
+   "answer": 0,
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 40,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        3.2,
+        0
+       ],
+       [
+        4.371,
+        4.371
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "6 cm",
+      "at": [
+       4.191,
+       1.997
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       45
+      ],
+      "label": "45°",
+      "r": 0.7000000000000001
+     },
+     {
+      "angle": [
+       3.2,
+       0,
+       75,
+       180
+      ],
+      "label": "105°",
+      "r": 0.55
+     },
+     {
+      "poly": [
+       [
+        5.971,
+        3.546
+       ],
+       [
+        9.123,
+        4.101
+       ],
+       [
+        11.035,
+        0
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "6 cm",
+      "at": [
+       10.46,
+       2.148
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       9.123,
+       4.101,
+       190,
+       295
+      ],
+      "label": "105°",
+      "r": 0.55
+     },
+     {
+      "angle": [
+       11.035,
+       0,
+       115,
+       145
+      ],
+      "label": "30°",
+      "r": 0.8500000000000001
+     }
+    ]
+   }
+  },
+  {
+   "id": "q7d",
+   "label": "7d",
+   "section": "Problem-solving",
+   "stem": "Are these two triangles congruent? You may need the angle sum of a triangle first.",
+   "type": "choice",
+   "prompt": "Two right-angled triangles",
+   "answer": 1,
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 45,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        2.413,
+        0
+       ],
+       [
+        2.413,
+        2.025
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "9 cm",
+      "at": [
+       0.937,
+       1.254
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       2.413,
+       0,
+       90,
+       180
+      ],
+      "right": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       40
+      ],
+      "label": "40°",
+      "r": 0.75
+     },
+     {
+      "poly": [
+       [
+        5.388,
+        0
+       ],
+       [
+        3.813,
+        0
+       ],
+       [
+        3.813,
+        2.728
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "9 cm",
+      "at": [
+       4.964,
+       1.494
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       3.813,
+       0,
+       0,
+       90
+      ],
+      "right": true
+     },
+     {
+      "angle": [
+       5.388,
+       0,
+       120,
+       180
+      ],
+      "label": "60°",
+      "r": 0.55
+     }
+    ]
+   }
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Problem-solving",
+   "stem": "Two triangular blocks of land have the measurements shown.",
+   "type": "numeric",
+   "prompt": "Use Pythagoras' theorem to find the length of the unlabelled side of the second block.",
+   "answer": "15",
+   "figure": {
+    "kind": "diagram",
+    "unit": 40,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        1.44,
+        0
+       ],
+       [
+        0,
+        2.7
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "8 km",
+      "at": [
+       0.72,
+       -0.5
+      ]
+     },
+     {
+      "label": "15 km",
+      "at": [
+       -0.42,
+       1.27
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       90
+      ],
+      "right": true
+     },
+     {
+      "poly": [
+       [
+        4.38,
+        0
+       ],
+       [
+        2.94,
+        0
+       ],
+       [
+        4.38,
+        2.7
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "label": "8 km",
+      "at": [
+       3.66,
+       -0.5
+      ]
+     },
+     {
+      "label": "17 km",
+      "at": [
+       3.289,
+       1.468
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       4.38,
+       0,
+       90,
+       180
+      ],
+      "right": true
+     }
+    ]
+   },
+   "units": "km"
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Problem-solving",
+   "stem": "Two triangular blocks of land have the measurements shown.",
+   "type": "choice",
+   "prompt": "Are the two blocks of land congruent?",
+   "answer": 0,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Reasoning",
+   "stem": "Decide if each test is enough to prove two triangles are congruent.",
+   "type": "choice",
+   "prompt": "Is knowing two sides and a non-included angle (SSA) enough to prove two triangles are congruent?",
+   "answer": 1,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Reasoning",
+   "stem": "Decide if each test is enough to prove two triangles are congruent.",
+   "type": "choice",
+   "prompt": "Is knowing all three angles (AAA) enough to prove two triangles are congruent?",
+   "answer": 1,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Reasoning",
+   "stem": "These pairs of triangles are congruent. Which test (SSS, SAS, AAS or RHS) would you use in a proof? Marks show equal sides, equal angles and parallel lines.",
+   "type": "choice",
+   "prompt": "$\\triangle PQR$ and $\\triangle TSR$",
+   "answer": 2,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 45,
+    "items": [
+     {
+      "seg": [
+       0,
+       3,
+       4,
+       0
+      ]
+     },
+     {
+      "seg": [
+       3,
+       3,
+       1,
+       0
+      ]
+     },
+     {
+      "seg": [
+       0,
+       3,
+       3,
+       3
+      ]
+     },
+     {
+      "seg": [
+       1,
+       0,
+       4,
+       0
+      ]
+     },
+     {
+      "par": [
+       0,
+       3,
+       3,
+       3
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       1,
+       0,
+       4,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       0,
+       3,
+       2,
+       1.5
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       2,
+       1.5,
+       4,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "point": [
+       0,
+       3
+      ],
+      "pos": "nw",
+      "name": "P"
+     },
+     {
+      "point": [
+       3,
+       3
+      ],
+      "pos": "ne",
+      "name": "Q"
+     },
+     {
+      "point": [
+       2,
+       1.5
+      ],
+      "pos": "e",
+      "name": "R"
+     },
+     {
+      "point": [
+       1,
+       0
+      ],
+      "pos": "sw",
+      "name": "S"
+     },
+     {
+      "point": [
+       4,
+       0
+      ],
+      "pos": "se",
+      "name": "T"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Reasoning",
+   "stem": "These pairs of triangles are congruent. Which test (SSS, SAS, AAS or RHS) would you use in a proof? Marks show equal sides, equal angles and parallel lines.",
+   "type": "choice",
+   "prompt": "$\\triangle NKL$ and $\\triangle NML$ (the angles at $N$ are equal)",
+   "answer": 1,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 45,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        4,
+        0
+       ],
+       [
+        2,
+        3.2
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "seg": [
+       2,
+       0,
+       2,
+       3.2
+      ]
+     },
+     {
+      "tick": [
+       0,
+       0,
+       2,
+       3.2
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       4,
+       0,
+       2,
+       3.2
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       2,
+       3.2,
+       237.995,
+       270
+      ],
+      "r": 0.9
+     },
+     {
+      "angle": [
+       2,
+       3.2,
+       270,
+       302.005
+      ],
+      "r": 1.1
+     },
+     {
+      "point": [
+       0,
+       0
+      ],
+      "pos": "sw",
+      "name": "K"
+     },
+     {
+      "point": [
+       2,
+       0
+      ],
+      "pos": "s",
+      "name": "L"
+     },
+     {
+      "point": [
+       4,
+       0
+      ],
+      "pos": "se",
+      "name": "M"
+     },
+     {
+      "point": [
+       2,
+       3.2
+      ],
+      "pos": "n",
+      "name": "N"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q10c",
+   "label": "10c",
+   "section": "Reasoning",
+   "stem": "These pairs of triangles are congruent. Which test (SSS, SAS, AAS or RHS) would you use in a proof? Marks show equal sides, equal angles and parallel lines.",
+   "type": "choice",
+   "prompt": "$\\triangle WXY$ and $\\triangle YZW$",
+   "answer": 2,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 45,
+    "items": [
+     {
+      "poly": [
+       [
+        1,
+        2.5
+       ],
+       [
+        5,
+        2.5
+       ],
+       [
+        4,
+        0
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "seg": [
+       1,
+       2.5,
+       4,
+       0
+      ]
+     },
+     {
+      "par": [
+       1,
+       2.5,
+       5,
+       2.5
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       0,
+       0,
+       4,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       0,
+       0,
+       1,
+       2.5
+      ],
+      "n": 2
+     },
+     {
+      "par": [
+       4,
+       0,
+       5,
+       2.5
+      ],
+      "n": 2
+     },
+     {
+      "point": [
+       1,
+       2.5
+      ],
+      "pos": "nw",
+      "name": "W"
+     },
+     {
+      "point": [
+       5,
+       2.5
+      ],
+      "pos": "ne",
+      "name": "X"
+     },
+     {
+      "point": [
+       4,
+       0
+      ],
+      "pos": "se",
+      "name": "Y"
+     },
+     {
+      "point": [
+       0,
+       0
+      ],
+      "pos": "sw",
+      "name": "Z"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q10d",
+   "label": "10d",
+   "section": "Reasoning",
+   "stem": "These pairs of triangles are congruent. Which test (SSS, SAS, AAS or RHS) would you use in a proof? Marks show equal sides, equal angles and parallel lines.",
+   "type": "choice",
+   "prompt": "$\\triangle EFG$ and $\\triangle EHG$",
+   "answer": 3,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 45,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        2.56,
+        -1.92
+       ],
+       [
+        4,
+        0
+       ],
+       [
+        2.56,
+        1.92
+       ]
+      ],
+      "fill": false
+     },
+     {
+      "seg": [
+       0,
+       0,
+       4,
+       0
+      ]
+     },
+     {
+      "angle": [
+       2.56,
+       1.92,
+       216.87,
+       306.87
+      ],
+      "right": true
+     },
+     {
+      "angle": [
+       2.56,
+       -1.92,
+       53.13,
+       143.13
+      ],
+      "right": true
+     },
+     {
+      "tick": [
+       4,
+       0,
+       2.56,
+       1.92
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       2.56,
+       -1.92,
+       4,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "point": [
+       0,
+       0
+      ],
+      "pos": "w",
+      "name": "E"
+     },
+     {
+      "point": [
+       2.56,
+       1.92
+      ],
+      "pos": "n",
+      "name": "F"
+     },
+     {
+      "point": [
+       4,
+       0
+      ],
+      "pos": "e",
+      "name": "G"
+     },
+     {
+      "point": [
+       2.56,
+       -1.92
+      ],
+      "pos": "s",
+      "name": "H"
+     }
+    ]
+   }
+  }
+ ]
+},
+{
+ "id": "y8-10f",
+ "year": 8,
+ "chapter": "Chapter 10: Transformations and congruence",
+ "title": "10F Tessellations",
+ "description": "Use angle sums at a vertex to decide which shapes tessellate and to name regular and semi-regular tessellations.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "An isosceles trapezium has two angles of $70°$, as shown. Copies of it are fitted together to make a tiling.",
+   "type": "numeric",
+   "prompt": "What size is each of the other two angles of the trapezium?",
+   "answer": "110",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 40,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        5,
+        0
+       ],
+       [
+        4.145,
+        2.349
+       ],
+       [
+        0.855,
+        2.349
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       70
+      ],
+      "r": 0.55,
+      "label": "70°"
+     },
+     {
+      "angle": [
+       5,
+       0,
+       110,
+       180
+      ],
+      "r": 0.55,
+      "label": "70°"
+     },
+     {
+      "tick": [
+       0,
+       0,
+       0.855,
+       2.349
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       5,
+       0,
+       4.145,
+       2.349
+      ],
+      "n": 1
+     }
+    ]
+   },
+   "units": "°"
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "An isosceles trapezium has two angles of $70°$, as shown. Copies of it are fitted together to make a tiling.",
+   "type": "numeric",
+   "prompt": "At one point of the tiling, two $70°$ angles and two $110°$ angles meet. What do these four angles add to?",
+   "answer": "360",
+   "units": "°"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "An isosceles trapezium has two angles of $70°$, as shown. Copies of it are fitted together to make a tiling.",
+   "type": "choice",
+   "prompt": "So does this trapezium tessellate (fit together with no gaps and no overlaps)?",
+   "answer": 0,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "A regular tessellation uses copies of just one regular polygon. How many copies meet at each vertex of the tessellation?",
+   "type": "numeric",
+   "prompt": "Equilateral triangles (each angle is $60°$)",
+   "answer": "6"
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "A regular tessellation uses copies of just one regular polygon. How many copies meet at each vertex of the tessellation?",
+   "type": "numeric",
+   "prompt": "Squares",
+   "answer": "4"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "A regular tessellation uses copies of just one regular polygon. How many copies meet at each vertex of the tessellation?",
+   "type": "numeric",
+   "prompt": "Regular hexagons (each interior angle is $120°$)",
+   "answer": "3"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Does this shape tessellate by itself? You may use reflections, rotations and translations of the shape.",
+   "type": "choice",
+   "prompt": "A regular pentagon",
+   "answer": 1,
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        2
+       ],
+       [
+        -1.902,
+        0.618
+       ],
+       [
+        -1.176,
+        -1.618
+       ],
+       [
+        1.176,
+        -1.618
+       ],
+       [
+        1.902,
+        0.618
+       ]
+      ],
+      "fill": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Does this shape tessellate by itself? You may use reflections, rotations and translations of the shape.",
+   "type": "choice",
+   "prompt": "A right-angled triangle",
+   "answer": 0,
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        4,
+        0
+       ],
+       [
+        0,
+        2.5
+       ]
+      ],
+      "fill": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Does this shape tessellate by itself? You may use reflections, rotations and translations of the shape.",
+   "type": "choice",
+   "prompt": "An oval",
+   "answer": 1,
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "poly": [
+       [
+        2.2,
+        0
+       ],
+       [
+        2.181,
+        0.17
+       ],
+       [
+        2.125,
+        0.336
+       ],
+       [
+        2.033,
+        0.497
+       ],
+       [
+        1.905,
+        0.65
+       ],
+       [
+        1.745,
+        0.791
+       ],
+       [
+        1.556,
+        0.919
+       ],
+       [
+        1.339,
+        1.031
+       ],
+       [
+        1.1,
+        1.126
+       ],
+       [
+        0.842,
+        1.201
+       ],
+       [
+        0.569,
+        1.256
+       ],
+       [
+        0.287,
+        1.289
+       ],
+       [
+        0,
+        1.3
+       ],
+       [
+        -0.287,
+        1.289
+       ],
+       [
+        -0.569,
+        1.256
+       ],
+       [
+        -0.842,
+        1.201
+       ],
+       [
+        -1.1,
+        1.126
+       ],
+       [
+        -1.339,
+        1.031
+       ],
+       [
+        -1.556,
+        0.919
+       ],
+       [
+        -1.745,
+        0.791
+       ],
+       [
+        -1.905,
+        0.65
+       ],
+       [
+        -2.033,
+        0.497
+       ],
+       [
+        -2.125,
+        0.336
+       ],
+       [
+        -2.181,
+        0.17
+       ],
+       [
+        -2.2,
+        0
+       ],
+       [
+        -2.181,
+        -0.17
+       ],
+       [
+        -2.125,
+        -0.336
+       ],
+       [
+        -2.033,
+        -0.497
+       ],
+       [
+        -1.905,
+        -0.65
+       ],
+       [
+        -1.745,
+        -0.791
+       ],
+       [
+        -1.556,
+        -0.919
+       ],
+       [
+        -1.339,
+        -1.031
+       ],
+       [
+        -1.1,
+        -1.126
+       ],
+       [
+        -0.842,
+        -1.201
+       ],
+       [
+        -0.569,
+        -1.256
+       ],
+       [
+        -0.287,
+        -1.289
+       ],
+       [
+        0,
+        -1.3
+       ],
+       [
+        0.287,
+        -1.289
+       ],
+       [
+        0.569,
+        -1.256
+       ],
+       [
+        0.842,
+        -1.201
+       ],
+       [
+        1.1,
+        -1.126
+       ],
+       [
+        1.339,
+        -1.031
+       ],
+       [
+        1.556,
+        -0.919
+       ],
+       [
+        1.745,
+        -0.791
+       ],
+       [
+        1.905,
+        -0.65
+       ],
+       [
+        2.033,
+        -0.497
+       ],
+       [
+        2.125,
+        -0.336
+       ],
+       [
+        2.181,
+        -0.17
+       ]
+      ],
+      "fill": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Does this shape tessellate by itself? You may use reflections, rotations and translations of the shape.",
+   "type": "choice",
+   "prompt": "A dart (a quadrilateral with one reflex angle)",
+   "answer": 0,
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        2,
+        1
+       ],
+       [
+        4,
+        0
+       ],
+       [
+        2,
+        3.2
+       ]
+      ],
+      "fill": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "Does this shape tessellate by itself? You may use reflections, rotations and translations of the shape.",
+   "type": "choice",
+   "prompt": "A hexagon whose opposite sides are parallel and equal",
+   "answer": 0,
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        3,
+        0
+       ],
+       [
+        4,
+        1.8
+       ],
+       [
+        2.6,
+        3
+       ],
+       [
+        -0.4,
+        3
+       ],
+       [
+        -1.4,
+        1.2
+       ]
+      ],
+      "fill": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "Does this shape tessellate by itself? You may use reflections, rotations and translations of the shape.",
+   "type": "choice",
+   "prompt": "A semicircle",
+   "answer": 1,
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "poly": [
+       [
+        2,
+        0
+       ],
+       [
+        1.983,
+        0.261
+       ],
+       [
+        1.932,
+        0.518
+       ],
+       [
+        1.848,
+        0.765
+       ],
+       [
+        1.732,
+        1
+       ],
+       [
+        1.587,
+        1.218
+       ],
+       [
+        1.414,
+        1.414
+       ],
+       [
+        1.218,
+        1.587
+       ],
+       [
+        1,
+        1.732
+       ],
+       [
+        0.765,
+        1.848
+       ],
+       [
+        0.518,
+        1.932
+       ],
+       [
+        0.261,
+        1.983
+       ],
+       [
+        0,
+        2
+       ],
+       [
+        -0.261,
+        1.983
+       ],
+       [
+        -0.518,
+        1.932
+       ],
+       [
+        -0.765,
+        1.848
+       ],
+       [
+        -1,
+        1.732
+       ],
+       [
+        -1.218,
+        1.587
+       ],
+       [
+        -1.414,
+        1.414
+       ],
+       [
+        -1.587,
+        1.218
+       ],
+       [
+        -1.732,
+        1
+       ],
+       [
+        -1.848,
+        0.765
+       ],
+       [
+        -1.932,
+        0.518
+       ],
+       [
+        -1.983,
+        0.261
+       ],
+       [
+        -2,
+        0
+       ]
+      ],
+      "fill": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "By looking at any vertex, name this semi-regular tessellation.",
+   "type": "text",
+   "prompt": "Tessellation a",
+   "answer": "4.8.8",
+   "figure": {
+    "kind": "diagram",
+    "unit": 34,
+    "items": [
+     {
+      "poly": [
+       [
+        1.207,
+        0.5
+       ],
+       [
+        0.5,
+        1.207
+       ],
+       [
+        -0.5,
+        1.207
+       ],
+       [
+        -1.207,
+        0.5
+       ],
+       [
+        -1.207,
+        -0.5
+       ],
+       [
+        -0.5,
+        -1.207
+       ],
+       [
+        0.5,
+        -1.207
+       ],
+       [
+        1.207,
+        -0.5
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        1.914,
+        1.207
+       ],
+       [
+        1.207,
+        1.914
+       ],
+       [
+        0.5,
+        1.207
+       ],
+       [
+        1.207,
+        0.5
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        1.207,
+        2.914
+       ],
+       [
+        0.5,
+        3.621
+       ],
+       [
+        -0.5,
+        3.621
+       ],
+       [
+        -1.207,
+        2.914
+       ],
+       [
+        -1.207,
+        1.914
+       ],
+       [
+        -0.5,
+        1.207
+       ],
+       [
+        0.5,
+        1.207
+       ],
+       [
+        1.207,
+        1.914
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        1.914,
+        3.621
+       ],
+       [
+        1.207,
+        4.328
+       ],
+       [
+        0.5,
+        3.621
+       ],
+       [
+        1.207,
+        2.914
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        1.207,
+        5.328
+       ],
+       [
+        0.5,
+        6.036
+       ],
+       [
+        -0.5,
+        6.036
+       ],
+       [
+        -1.207,
+        5.328
+       ],
+       [
+        -1.207,
+        4.328
+       ],
+       [
+        -0.5,
+        3.621
+       ],
+       [
+        0.5,
+        3.621
+       ],
+       [
+        1.207,
+        4.328
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        3.621,
+        0.5
+       ],
+       [
+        2.914,
+        1.207
+       ],
+       [
+        1.914,
+        1.207
+       ],
+       [
+        1.207,
+        0.5
+       ],
+       [
+        1.207,
+        -0.5
+       ],
+       [
+        1.914,
+        -1.207
+       ],
+       [
+        2.914,
+        -1.207
+       ],
+       [
+        3.621,
+        -0.5
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        4.328,
+        1.207
+       ],
+       [
+        3.621,
+        1.914
+       ],
+       [
+        2.914,
+        1.207
+       ],
+       [
+        3.621,
+        0.5
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        3.621,
+        2.914
+       ],
+       [
+        2.914,
+        3.621
+       ],
+       [
+        1.914,
+        3.621
+       ],
+       [
+        1.207,
+        2.914
+       ],
+       [
+        1.207,
+        1.914
+       ],
+       [
+        1.914,
+        1.207
+       ],
+       [
+        2.914,
+        1.207
+       ],
+       [
+        3.621,
+        1.914
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        4.328,
+        3.621
+       ],
+       [
+        3.621,
+        4.328
+       ],
+       [
+        2.914,
+        3.621
+       ],
+       [
+        3.621,
+        2.914
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        3.621,
+        5.328
+       ],
+       [
+        2.914,
+        6.036
+       ],
+       [
+        1.914,
+        6.036
+       ],
+       [
+        1.207,
+        5.328
+       ],
+       [
+        1.207,
+        4.328
+       ],
+       [
+        1.914,
+        3.621
+       ],
+       [
+        2.914,
+        3.621
+       ],
+       [
+        3.621,
+        4.328
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        6.036,
+        0.5
+       ],
+       [
+        5.328,
+        1.207
+       ],
+       [
+        4.328,
+        1.207
+       ],
+       [
+        3.621,
+        0.5
+       ],
+       [
+        3.621,
+        -0.5
+       ],
+       [
+        4.328,
+        -1.207
+       ],
+       [
+        5.328,
+        -1.207
+       ],
+       [
+        6.036,
+        -0.5
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        6.743,
+        1.207
+       ],
+       [
+        6.036,
+        1.914
+       ],
+       [
+        5.328,
+        1.207
+       ],
+       [
+        6.036,
+        0.5
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        6.036,
+        2.914
+       ],
+       [
+        5.328,
+        3.621
+       ],
+       [
+        4.328,
+        3.621
+       ],
+       [
+        3.621,
+        2.914
+       ],
+       [
+        3.621,
+        1.914
+       ],
+       [
+        4.328,
+        1.207
+       ],
+       [
+        5.328,
+        1.207
+       ],
+       [
+        6.036,
+        1.914
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        6.743,
+        3.621
+       ],
+       [
+        6.036,
+        4.328
+       ],
+       [
+        5.328,
+        3.621
+       ],
+       [
+        6.036,
+        2.914
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        6.036,
+        5.328
+       ],
+       [
+        5.328,
+        6.036
+       ],
+       [
+        4.328,
+        6.036
+       ],
+       [
+        3.621,
+        5.328
+       ],
+       [
+        3.621,
+        4.328
+       ],
+       [
+        4.328,
+        3.621
+       ],
+       [
+        5.328,
+        3.621
+       ],
+       [
+        6.036,
+        4.328
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        8.45,
+        0.5
+       ],
+       [
+        7.743,
+        1.207
+       ],
+       [
+        6.743,
+        1.207
+       ],
+       [
+        6.036,
+        0.5
+       ],
+       [
+        6.036,
+        -0.5
+       ],
+       [
+        6.743,
+        -1.207
+       ],
+       [
+        7.743,
+        -1.207
+       ],
+       [
+        8.45,
+        -0.5
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        9.157,
+        1.207
+       ],
+       [
+        8.45,
+        1.914
+       ],
+       [
+        7.743,
+        1.207
+       ],
+       [
+        8.45,
+        0.5
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        8.45,
+        2.914
+       ],
+       [
+        7.743,
+        3.621
+       ],
+       [
+        6.743,
+        3.621
+       ],
+       [
+        6.036,
+        2.914
+       ],
+       [
+        6.036,
+        1.914
+       ],
+       [
+        6.743,
+        1.207
+       ],
+       [
+        7.743,
+        1.207
+       ],
+       [
+        8.45,
+        1.914
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        9.157,
+        3.621
+       ],
+       [
+        8.45,
+        4.328
+       ],
+       [
+        7.743,
+        3.621
+       ],
+       [
+        8.45,
+        2.914
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        8.45,
+        5.328
+       ],
+       [
+        7.743,
+        6.036
+       ],
+       [
+        6.743,
+        6.036
+       ],
+       [
+        6.036,
+        5.328
+       ],
+       [
+        6.036,
+        4.328
+       ],
+       [
+        6.743,
+        3.621
+       ],
+       [
+        7.743,
+        3.621
+       ],
+       [
+        8.45,
+        4.328
+       ]
+      ],
+      "fill": true
+     }
+    ]
+   },
+   "accept": [
+    "4, 8, 8",
+    "4,8,8",
+    "8, 4, 8",
+    "8, 8, 4",
+    "8,4,8",
+    "8,8,4",
+    "8.4.8",
+    "8.8.4"
+   ],
+   "hint": "Go round one vertex and type the number of sides of each polygon, with dots between, for example 3.4.6.4"
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "By looking at any vertex, name this semi-regular tessellation.",
+   "type": "text",
+   "prompt": "Tessellation b",
+   "answer": "3.6.3.6",
+   "figure": {
+    "kind": "diagram",
+    "unit": 34,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        5.196
+       ],
+       [
+        0.5,
+        6.062
+       ],
+       [
+        -0.5,
+        6.062
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        -0.5,
+        4.33
+       ],
+       [
+        0.5,
+        4.33
+       ],
+       [
+        0,
+        5.196
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        0,
+        1.732
+       ],
+       [
+        0.5,
+        2.598
+       ],
+       [
+        -0.5,
+        2.598
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        1,
+        3.464
+       ],
+       [
+        1.5,
+        4.33
+       ],
+       [
+        0.5,
+        4.33
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        2,
+        5.196
+       ],
+       [
+        2.5,
+        6.062
+       ],
+       [
+        1.5,
+        6.062
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        -0.5,
+        0.866
+       ],
+       [
+        0.5,
+        0.866
+       ],
+       [
+        0,
+        1.732
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        0.5,
+        2.598
+       ],
+       [
+        1.5,
+        2.598
+       ],
+       [
+        1,
+        3.464
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        1.5,
+        4.33
+       ],
+       [
+        2.5,
+        4.33
+       ],
+       [
+        2,
+        5.196
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        1,
+        0
+       ],
+       [
+        1.5,
+        0.866
+       ],
+       [
+        0.5,
+        0.866
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        2,
+        1.732
+       ],
+       [
+        2.5,
+        2.598
+       ],
+       [
+        1.5,
+        2.598
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        3,
+        3.464
+       ],
+       [
+        3.5,
+        4.33
+       ],
+       [
+        2.5,
+        4.33
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        4,
+        5.196
+       ],
+       [
+        4.5,
+        6.062
+       ],
+       [
+        3.5,
+        6.062
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        1.5,
+        0.866
+       ],
+       [
+        2.5,
+        0.866
+       ],
+       [
+        2,
+        1.732
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        2.5,
+        2.598
+       ],
+       [
+        3.5,
+        2.598
+       ],
+       [
+        3,
+        3.464
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        3.5,
+        4.33
+       ],
+       [
+        4.5,
+        4.33
+       ],
+       [
+        4,
+        5.196
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        3,
+        0
+       ],
+       [
+        3.5,
+        0.866
+       ],
+       [
+        2.5,
+        0.866
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        4,
+        1.732
+       ],
+       [
+        4.5,
+        2.598
+       ],
+       [
+        3.5,
+        2.598
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        5,
+        3.464
+       ],
+       [
+        5.5,
+        4.33
+       ],
+       [
+        4.5,
+        4.33
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        6,
+        5.196
+       ],
+       [
+        6.5,
+        6.062
+       ],
+       [
+        5.5,
+        6.062
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        3.5,
+        0.866
+       ],
+       [
+        4.5,
+        0.866
+       ],
+       [
+        4,
+        1.732
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        4.5,
+        2.598
+       ],
+       [
+        5.5,
+        2.598
+       ],
+       [
+        5,
+        3.464
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        5.5,
+        4.33
+       ],
+       [
+        6.5,
+        4.33
+       ],
+       [
+        6,
+        5.196
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        5,
+        0
+       ],
+       [
+        5.5,
+        0.866
+       ],
+       [
+        4.5,
+        0.866
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        6,
+        1.732
+       ],
+       [
+        6.5,
+        2.598
+       ],
+       [
+        5.5,
+        2.598
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        7,
+        3.464
+       ],
+       [
+        7.5,
+        4.33
+       ],
+       [
+        6.5,
+        4.33
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        8,
+        5.196
+       ],
+       [
+        8.5,
+        6.062
+       ],
+       [
+        7.5,
+        6.062
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        5.5,
+        0.866
+       ],
+       [
+        6.5,
+        0.866
+       ],
+       [
+        6,
+        1.732
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        6.5,
+        2.598
+       ],
+       [
+        7.5,
+        2.598
+       ],
+       [
+        7,
+        3.464
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        7.5,
+        4.33
+       ],
+       [
+        8.5,
+        4.33
+       ],
+       [
+        8,
+        5.196
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        7,
+        0
+       ],
+       [
+        7.5,
+        0.866
+       ],
+       [
+        6.5,
+        0.866
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        8,
+        1.732
+       ],
+       [
+        8.5,
+        2.598
+       ],
+       [
+        7.5,
+        2.598
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        9,
+        3.464
+       ],
+       [
+        9.5,
+        4.33
+       ],
+       [
+        8.5,
+        4.33
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        7.5,
+        0.866
+       ],
+       [
+        8.5,
+        0.866
+       ],
+       [
+        8,
+        1.732
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        8.5,
+        2.598
+       ],
+       [
+        9.5,
+        2.598
+       ],
+       [
+        9,
+        3.464
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        9,
+        0
+       ],
+       [
+        9.5,
+        0.866
+       ],
+       [
+        8.5,
+        0.866
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        9,
+        0
+       ],
+       [
+        8.5,
+        0.866
+       ],
+       [
+        7.5,
+        0.866
+       ],
+       [
+        7,
+        0
+       ],
+       [
+        7.5,
+        -0.866
+       ],
+       [
+        8.5,
+        -0.866
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        6,
+        1.732
+       ],
+       [
+        5.5,
+        2.598
+       ],
+       [
+        4.5,
+        2.598
+       ],
+       [
+        4,
+        1.732
+       ],
+       [
+        4.5,
+        0.866
+       ],
+       [
+        5.5,
+        0.866
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        1,
+        0
+       ],
+       [
+        0.5,
+        0.866
+       ],
+       [
+        -0.5,
+        0.866
+       ],
+       [
+        -1,
+        0
+       ],
+       [
+        -0.5,
+        -0.866
+       ],
+       [
+        0.5,
+        -0.866
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        2,
+        5.196
+       ],
+       [
+        1.5,
+        6.062
+       ],
+       [
+        0.5,
+        6.062
+       ],
+       [
+        0,
+        5.196
+       ],
+       [
+        0.5,
+        4.33
+       ],
+       [
+        1.5,
+        4.33
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        7,
+        0
+       ],
+       [
+        6.5,
+        0.866
+       ],
+       [
+        5.5,
+        0.866
+       ],
+       [
+        5,
+        0
+       ],
+       [
+        5.5,
+        -0.866
+       ],
+       [
+        6.5,
+        -0.866
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        4,
+        1.732
+       ],
+       [
+        3.5,
+        2.598
+       ],
+       [
+        2.5,
+        2.598
+       ],
+       [
+        2,
+        1.732
+       ],
+       [
+        2.5,
+        0.866
+       ],
+       [
+        3.5,
+        0.866
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        9,
+        3.464
+       ],
+       [
+        8.5,
+        4.33
+       ],
+       [
+        7.5,
+        4.33
+       ],
+       [
+        7,
+        3.464
+       ],
+       [
+        7.5,
+        2.598
+       ],
+       [
+        8.5,
+        2.598
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        1,
+        3.464
+       ],
+       [
+        0.5,
+        4.33
+       ],
+       [
+        -0.5,
+        4.33
+       ],
+       [
+        -1,
+        3.464
+       ],
+       [
+        -0.5,
+        2.598
+       ],
+       [
+        0.5,
+        2.598
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        8,
+        5.196
+       ],
+       [
+        7.5,
+        6.062
+       ],
+       [
+        6.5,
+        6.062
+       ],
+       [
+        6,
+        5.196
+       ],
+       [
+        6.5,
+        4.33
+       ],
+       [
+        7.5,
+        4.33
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        3,
+        3.464
+       ],
+       [
+        2.5,
+        4.33
+       ],
+       [
+        1.5,
+        4.33
+       ],
+       [
+        1,
+        3.464
+       ],
+       [
+        1.5,
+        2.598
+       ],
+       [
+        2.5,
+        2.598
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        5,
+        0
+       ],
+       [
+        4.5,
+        0.866
+       ],
+       [
+        3.5,
+        0.866
+       ],
+       [
+        3,
+        0
+       ],
+       [
+        3.5,
+        -0.866
+       ],
+       [
+        4.5,
+        -0.866
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        10,
+        1.732
+       ],
+       [
+        9.5,
+        2.598
+       ],
+       [
+        8.5,
+        2.598
+       ],
+       [
+        8,
+        1.732
+       ],
+       [
+        8.5,
+        0.866
+       ],
+       [
+        9.5,
+        0.866
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        2,
+        1.732
+       ],
+       [
+        1.5,
+        2.598
+       ],
+       [
+        0.5,
+        2.598
+       ],
+       [
+        0,
+        1.732
+       ],
+       [
+        0.5,
+        0.866
+       ],
+       [
+        1.5,
+        0.866
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        6,
+        5.196
+       ],
+       [
+        5.5,
+        6.062
+       ],
+       [
+        4.5,
+        6.062
+       ],
+       [
+        4,
+        5.196
+       ],
+       [
+        4.5,
+        4.33
+       ],
+       [
+        5.5,
+        4.33
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        3,
+        0
+       ],
+       [
+        2.5,
+        0.866
+       ],
+       [
+        1.5,
+        0.866
+       ],
+       [
+        1,
+        0
+       ],
+       [
+        1.5,
+        -0.866
+       ],
+       [
+        2.5,
+        -0.866
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        8,
+        1.732
+       ],
+       [
+        7.5,
+        2.598
+       ],
+       [
+        6.5,
+        2.598
+       ],
+       [
+        6,
+        1.732
+       ],
+       [
+        6.5,
+        0.866
+       ],
+       [
+        7.5,
+        0.866
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        5,
+        3.464
+       ],
+       [
+        4.5,
+        4.33
+       ],
+       [
+        3.5,
+        4.33
+       ],
+       [
+        3,
+        3.464
+       ],
+       [
+        3.5,
+        2.598
+       ],
+       [
+        4.5,
+        2.598
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        10,
+        5.196
+       ],
+       [
+        9.5,
+        6.062
+       ],
+       [
+        8.5,
+        6.062
+       ],
+       [
+        8,
+        5.196
+       ],
+       [
+        8.5,
+        4.33
+       ],
+       [
+        9.5,
+        4.33
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        7,
+        3.464
+       ],
+       [
+        6.5,
+        4.33
+       ],
+       [
+        5.5,
+        4.33
+       ],
+       [
+        5,
+        3.464
+       ],
+       [
+        5.5,
+        2.598
+       ],
+       [
+        6.5,
+        2.598
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        4,
+        5.196
+       ],
+       [
+        3.5,
+        6.062
+       ],
+       [
+        2.5,
+        6.062
+       ],
+       [
+        2,
+        5.196
+       ],
+       [
+        2.5,
+        4.33
+       ],
+       [
+        3.5,
+        4.33
+       ]
+      ],
+      "fill": true
+     }
+    ]
+   },
+   "accept": [
+    "3, 6, 3, 6",
+    "3,6,3,6",
+    "6, 3, 6, 3",
+    "6,3,6,3",
+    "6.3.6.3"
+   ]
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "By looking at any vertex, name this semi-regular tessellation.",
+   "type": "text",
+   "prompt": "Tessellation c",
+   "answer": "4.6.12",
+   "figure": {
+    "kind": "diagram",
+    "unit": 34,
+    "items": [
+     {
+      "poly": [
+       [
+        0.5,
+        4.598
+       ],
+       [
+        -0.5,
+        4.598
+       ],
+       [
+        -0.5,
+        3.598
+       ],
+       [
+        0.5,
+        3.598
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        1,
+        5.464
+       ],
+       [
+        0.5,
+        6.33
+       ],
+       [
+        -0.5,
+        6.33
+       ],
+       [
+        -1,
+        5.464
+       ],
+       [
+        -0.5,
+        4.598
+       ],
+       [
+        0.5,
+        4.598
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        1.866,
+        8.696
+       ],
+       [
+        1.366,
+        9.562
+       ],
+       [
+        0.5,
+        10.062
+       ],
+       [
+        -0.5,
+        10.062
+       ],
+       [
+        -1.366,
+        9.562
+       ],
+       [
+        -1.866,
+        8.696
+       ],
+       [
+        -1.866,
+        7.696
+       ],
+       [
+        -1.366,
+        6.83
+       ],
+       [
+        -0.5,
+        6.33
+       ],
+       [
+        0.5,
+        6.33
+       ],
+       [
+        1.366,
+        6.83
+       ],
+       [
+        1.866,
+        7.696
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        2.866,
+        8.696
+       ],
+       [
+        1.866,
+        8.696
+       ],
+       [
+        1.866,
+        7.696
+       ],
+       [
+        2.866,
+        7.696
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        1.866,
+        0.5
+       ],
+       [
+        1.366,
+        1.366
+       ],
+       [
+        0.5,
+        1.866
+       ],
+       [
+        -0.5,
+        1.866
+       ],
+       [
+        -1.366,
+        1.366
+       ],
+       [
+        -1.866,
+        0.5
+       ],
+       [
+        -1.866,
+        -0.5
+       ],
+       [
+        -1.366,
+        -1.366
+       ],
+       [
+        -0.5,
+        -1.866
+       ],
+       [
+        0.5,
+        -1.866
+       ],
+       [
+        1.366,
+        -1.366
+       ],
+       [
+        1.866,
+        -0.5
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        2.866,
+        0.5
+       ],
+       [
+        1.866,
+        0.5
+       ],
+       [
+        1.866,
+        -0.5
+       ],
+       [
+        2.866,
+        -0.5
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        1,
+        2.732
+       ],
+       [
+        0.5,
+        1.866
+       ],
+       [
+        1.366,
+        1.366
+       ],
+       [
+        1.866,
+        2.232
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        3.366,
+        1.366
+       ],
+       [
+        2.866,
+        2.232
+       ],
+       [
+        1.866,
+        2.232
+       ],
+       [
+        1.366,
+        1.366
+       ],
+       [
+        1.866,
+        0.5
+       ],
+       [
+        2.866,
+        0.5
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        1,
+        2.732
+       ],
+       [
+        0.5,
+        3.598
+       ],
+       [
+        -0.5,
+        3.598
+       ],
+       [
+        -1,
+        2.732
+       ],
+       [
+        -0.5,
+        1.866
+       ],
+       [
+        0.5,
+        1.866
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        4.232,
+        4.598
+       ],
+       [
+        3.732,
+        5.464
+       ],
+       [
+        2.866,
+        5.964
+       ],
+       [
+        1.866,
+        5.964
+       ],
+       [
+        1,
+        5.464
+       ],
+       [
+        0.5,
+        4.598
+       ],
+       [
+        0.5,
+        3.598
+       ],
+       [
+        1,
+        2.732
+       ],
+       [
+        1.866,
+        2.232
+       ],
+       [
+        2.866,
+        2.232
+       ],
+       [
+        3.732,
+        2.732
+       ],
+       [
+        4.232,
+        3.598
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        5.232,
+        4.598
+       ],
+       [
+        4.232,
+        4.598
+       ],
+       [
+        4.232,
+        3.598
+       ],
+       [
+        5.232,
+        3.598
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        3.366,
+        6.83
+       ],
+       [
+        2.866,
+        5.964
+       ],
+       [
+        3.732,
+        5.464
+       ],
+       [
+        4.232,
+        6.33
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        0.5,
+        6.33
+       ],
+       [
+        1,
+        5.464
+       ],
+       [
+        1.866,
+        5.964
+       ],
+       [
+        1.366,
+        6.83
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        5.732,
+        5.464
+       ],
+       [
+        5.232,
+        6.33
+       ],
+       [
+        4.232,
+        6.33
+       ],
+       [
+        3.732,
+        5.464
+       ],
+       [
+        4.232,
+        4.598
+       ],
+       [
+        5.232,
+        4.598
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        3.366,
+        6.83
+       ],
+       [
+        2.866,
+        7.696
+       ],
+       [
+        1.866,
+        7.696
+       ],
+       [
+        1.366,
+        6.83
+       ],
+       [
+        1.866,
+        5.964
+       ],
+       [
+        2.866,
+        5.964
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        6.598,
+        8.696
+       ],
+       [
+        6.098,
+        9.562
+       ],
+       [
+        5.232,
+        10.062
+       ],
+       [
+        4.232,
+        10.062
+       ],
+       [
+        3.366,
+        9.562
+       ],
+       [
+        2.866,
+        8.696
+       ],
+       [
+        2.866,
+        7.696
+       ],
+       [
+        3.366,
+        6.83
+       ],
+       [
+        4.232,
+        6.33
+       ],
+       [
+        5.232,
+        6.33
+       ],
+       [
+        6.098,
+        6.83
+       ],
+       [
+        6.598,
+        7.696
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        7.598,
+        8.696
+       ],
+       [
+        6.598,
+        8.696
+       ],
+       [
+        6.598,
+        7.696
+       ],
+       [
+        7.598,
+        7.696
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        6.598,
+        0.5
+       ],
+       [
+        6.098,
+        1.366
+       ],
+       [
+        5.232,
+        1.866
+       ],
+       [
+        4.232,
+        1.866
+       ],
+       [
+        3.366,
+        1.366
+       ],
+       [
+        2.866,
+        0.5
+       ],
+       [
+        2.866,
+        -0.5
+       ],
+       [
+        3.366,
+        -1.366
+       ],
+       [
+        4.232,
+        -1.866
+       ],
+       [
+        5.232,
+        -1.866
+       ],
+       [
+        6.098,
+        -1.366
+       ],
+       [
+        6.598,
+        -0.5
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        7.598,
+        0.5
+       ],
+       [
+        6.598,
+        0.5
+       ],
+       [
+        6.598,
+        -0.5
+       ],
+       [
+        7.598,
+        -0.5
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        5.732,
+        2.732
+       ],
+       [
+        5.232,
+        1.866
+       ],
+       [
+        6.098,
+        1.366
+       ],
+       [
+        6.598,
+        2.232
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        2.866,
+        2.232
+       ],
+       [
+        3.366,
+        1.366
+       ],
+       [
+        4.232,
+        1.866
+       ],
+       [
+        3.732,
+        2.732
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        8.098,
+        1.366
+       ],
+       [
+        7.598,
+        2.232
+       ],
+       [
+        6.598,
+        2.232
+       ],
+       [
+        6.098,
+        1.366
+       ],
+       [
+        6.598,
+        0.5
+       ],
+       [
+        7.598,
+        0.5
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        5.732,
+        2.732
+       ],
+       [
+        5.232,
+        3.598
+       ],
+       [
+        4.232,
+        3.598
+       ],
+       [
+        3.732,
+        2.732
+       ],
+       [
+        4.232,
+        1.866
+       ],
+       [
+        5.232,
+        1.866
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        8.964,
+        4.598
+       ],
+       [
+        8.464,
+        5.464
+       ],
+       [
+        7.598,
+        5.964
+       ],
+       [
+        6.598,
+        5.964
+       ],
+       [
+        5.732,
+        5.464
+       ],
+       [
+        5.232,
+        4.598
+       ],
+       [
+        5.232,
+        3.598
+       ],
+       [
+        5.732,
+        2.732
+       ],
+       [
+        6.598,
+        2.232
+       ],
+       [
+        7.598,
+        2.232
+       ],
+       [
+        8.464,
+        2.732
+       ],
+       [
+        8.964,
+        3.598
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        9.964,
+        4.598
+       ],
+       [
+        8.964,
+        4.598
+       ],
+       [
+        8.964,
+        3.598
+       ],
+       [
+        9.964,
+        3.598
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        8.098,
+        6.83
+       ],
+       [
+        7.598,
+        5.964
+       ],
+       [
+        8.464,
+        5.464
+       ],
+       [
+        8.964,
+        6.33
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        5.232,
+        6.33
+       ],
+       [
+        5.732,
+        5.464
+       ],
+       [
+        6.598,
+        5.964
+       ],
+       [
+        6.098,
+        6.83
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        10.464,
+        5.464
+       ],
+       [
+        9.964,
+        6.33
+       ],
+       [
+        8.964,
+        6.33
+       ],
+       [
+        8.464,
+        5.464
+       ],
+       [
+        8.964,
+        4.598
+       ],
+       [
+        9.964,
+        4.598
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        8.098,
+        6.83
+       ],
+       [
+        7.598,
+        7.696
+       ],
+       [
+        6.598,
+        7.696
+       ],
+       [
+        6.098,
+        6.83
+       ],
+       [
+        6.598,
+        5.964
+       ],
+       [
+        7.598,
+        5.964
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        11.33,
+        8.696
+       ],
+       [
+        10.83,
+        9.562
+       ],
+       [
+        9.964,
+        10.062
+       ],
+       [
+        8.964,
+        10.062
+       ],
+       [
+        8.098,
+        9.562
+       ],
+       [
+        7.598,
+        8.696
+       ],
+       [
+        7.598,
+        7.696
+       ],
+       [
+        8.098,
+        6.83
+       ],
+       [
+        8.964,
+        6.33
+       ],
+       [
+        9.964,
+        6.33
+       ],
+       [
+        10.83,
+        6.83
+       ],
+       [
+        11.33,
+        7.696
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        12.33,
+        8.696
+       ],
+       [
+        11.33,
+        8.696
+       ],
+       [
+        11.33,
+        7.696
+       ],
+       [
+        12.33,
+        7.696
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        11.33,
+        0.5
+       ],
+       [
+        10.83,
+        1.366
+       ],
+       [
+        9.964,
+        1.866
+       ],
+       [
+        8.964,
+        1.866
+       ],
+       [
+        8.098,
+        1.366
+       ],
+       [
+        7.598,
+        0.5
+       ],
+       [
+        7.598,
+        -0.5
+       ],
+       [
+        8.098,
+        -1.366
+       ],
+       [
+        8.964,
+        -1.866
+       ],
+       [
+        9.964,
+        -1.866
+       ],
+       [
+        10.83,
+        -1.366
+       ],
+       [
+        11.33,
+        -0.5
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        12.33,
+        0.5
+       ],
+       [
+        11.33,
+        0.5
+       ],
+       [
+        11.33,
+        -0.5
+       ],
+       [
+        12.33,
+        -0.5
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        10.464,
+        2.732
+       ],
+       [
+        9.964,
+        1.866
+       ],
+       [
+        10.83,
+        1.366
+       ],
+       [
+        11.33,
+        2.232
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        7.598,
+        2.232
+       ],
+       [
+        8.098,
+        1.366
+       ],
+       [
+        8.964,
+        1.866
+       ],
+       [
+        8.464,
+        2.732
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        12.83,
+        1.366
+       ],
+       [
+        12.33,
+        2.232
+       ],
+       [
+        11.33,
+        2.232
+       ],
+       [
+        10.83,
+        1.366
+       ],
+       [
+        11.33,
+        0.5
+       ],
+       [
+        12.33,
+        0.5
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        10.464,
+        2.732
+       ],
+       [
+        9.964,
+        3.598
+       ],
+       [
+        8.964,
+        3.598
+       ],
+       [
+        8.464,
+        2.732
+       ],
+       [
+        8.964,
+        1.866
+       ],
+       [
+        9.964,
+        1.866
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        13.696,
+        4.598
+       ],
+       [
+        13.196,
+        5.464
+       ],
+       [
+        12.33,
+        5.964
+       ],
+       [
+        11.33,
+        5.964
+       ],
+       [
+        10.464,
+        5.464
+       ],
+       [
+        9.964,
+        4.598
+       ],
+       [
+        9.964,
+        3.598
+       ],
+       [
+        10.464,
+        2.732
+       ],
+       [
+        11.33,
+        2.232
+       ],
+       [
+        12.33,
+        2.232
+       ],
+       [
+        13.196,
+        2.732
+       ],
+       [
+        13.696,
+        3.598
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        9.964,
+        6.33
+       ],
+       [
+        10.464,
+        5.464
+       ],
+       [
+        11.33,
+        5.964
+       ],
+       [
+        10.83,
+        6.83
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        12.83,
+        6.83
+       ],
+       [
+        12.33,
+        7.696
+       ],
+       [
+        11.33,
+        7.696
+       ],
+       [
+        10.83,
+        6.83
+       ],
+       [
+        11.33,
+        5.964
+       ],
+       [
+        12.33,
+        5.964
+       ]
+      ],
+      "fill": true
+     }
+    ]
+   },
+   "accept": [
+    "12, 4, 6",
+    "12, 6, 4",
+    "12,4,6",
+    "12,6,4",
+    "12.4.6",
+    "12.6.4",
+    "4, 12, 6",
+    "4, 6, 12",
+    "4,12,6",
+    "4,6,12",
+    "4.12.6",
+    "6, 12, 4",
+    "6, 4, 12",
+    "6,12,4",
+    "6,4,12",
+    "6.12.4",
+    "6.4.12"
+   ]
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "By looking at any vertex, name this semi-regular tessellation.",
+   "type": "text",
+   "prompt": "Tessellation d",
+   "answer": "3.3.3.3.6",
+   "figure": {
+    "kind": "diagram",
+    "unit": 34,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        3.464
+       ],
+       [
+        1,
+        3.464
+       ],
+       [
+        0.5,
+        4.33
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        1,
+        3.464
+       ],
+       [
+        1.5,
+        4.33
+       ],
+       [
+        0.5,
+        4.33
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        2,
+        5.196
+       ],
+       [
+        2.5,
+        6.062
+       ],
+       [
+        1.5,
+        6.062
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        0.5,
+        0.866
+       ],
+       [
+        1,
+        1.732
+       ],
+       [
+        0,
+        1.732
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        1.5,
+        2.598
+       ],
+       [
+        2,
+        3.464
+       ],
+       [
+        1,
+        3.464
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        1,
+        3.464
+       ],
+       [
+        2,
+        3.464
+       ],
+       [
+        1.5,
+        4.33
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        2,
+        3.464
+       ],
+       [
+        2.5,
+        4.33
+       ],
+       [
+        1.5,
+        4.33
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        1.5,
+        4.33
+       ],
+       [
+        2.5,
+        4.33
+       ],
+       [
+        2,
+        5.196
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        2.5,
+        4.33
+       ],
+       [
+        3,
+        5.196
+       ],
+       [
+        2,
+        5.196
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        2,
+        5.196
+       ],
+       [
+        3,
+        5.196
+       ],
+       [
+        2.5,
+        6.062
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        1,
+        0
+       ],
+       [
+        1.5,
+        0.866
+       ],
+       [
+        0.5,
+        0.866
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        0.5,
+        0.866
+       ],
+       [
+        1.5,
+        0.866
+       ],
+       [
+        1,
+        1.732
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        1.5,
+        0.866
+       ],
+       [
+        2,
+        1.732
+       ],
+       [
+        1,
+        1.732
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        1,
+        1.732
+       ],
+       [
+        2,
+        1.732
+       ],
+       [
+        1.5,
+        2.598
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        2,
+        1.732
+       ],
+       [
+        2.5,
+        2.598
+       ],
+       [
+        1.5,
+        2.598
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        1.5,
+        2.598
+       ],
+       [
+        2.5,
+        2.598
+       ],
+       [
+        2,
+        3.464
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        2.5,
+        4.33
+       ],
+       [
+        3.5,
+        4.33
+       ],
+       [
+        3,
+        5.196
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        3.5,
+        4.33
+       ],
+       [
+        4,
+        5.196
+       ],
+       [
+        3,
+        5.196
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        1,
+        0
+       ],
+       [
+        2,
+        0
+       ],
+       [
+        1.5,
+        0.866
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        2,
+        1.732
+       ],
+       [
+        3,
+        1.732
+       ],
+       [
+        2.5,
+        2.598
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        3,
+        1.732
+       ],
+       [
+        3.5,
+        2.598
+       ],
+       [
+        2.5,
+        2.598
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        4,
+        3.464
+       ],
+       [
+        4.5,
+        4.33
+       ],
+       [
+        3.5,
+        4.33
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        3.5,
+        4.33
+       ],
+       [
+        4.5,
+        4.33
+       ],
+       [
+        4,
+        5.196
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        4.5,
+        4.33
+       ],
+       [
+        5,
+        5.196
+       ],
+       [
+        4,
+        5.196
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        4,
+        5.196
+       ],
+       [
+        5,
+        5.196
+       ],
+       [
+        4.5,
+        6.062
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        5,
+        5.196
+       ],
+       [
+        5.5,
+        6.062
+       ],
+       [
+        4.5,
+        6.062
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        3.5,
+        0.866
+       ],
+       [
+        4,
+        1.732
+       ],
+       [
+        3,
+        1.732
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        3,
+        1.732
+       ],
+       [
+        4,
+        1.732
+       ],
+       [
+        3.5,
+        2.598
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        4,
+        1.732
+       ],
+       [
+        4.5,
+        2.598
+       ],
+       [
+        3.5,
+        2.598
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        3.5,
+        2.598
+       ],
+       [
+        4.5,
+        2.598
+       ],
+       [
+        4,
+        3.464
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        4.5,
+        2.598
+       ],
+       [
+        5,
+        3.464
+       ],
+       [
+        4,
+        3.464
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        4,
+        3.464
+       ],
+       [
+        5,
+        3.464
+       ],
+       [
+        4.5,
+        4.33
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        5,
+        5.196
+       ],
+       [
+        6,
+        5.196
+       ],
+       [
+        5.5,
+        6.062
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        6,
+        5.196
+       ],
+       [
+        6.5,
+        6.062
+       ],
+       [
+        5.5,
+        6.062
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        3,
+        0
+       ],
+       [
+        4,
+        0
+       ],
+       [
+        3.5,
+        0.866
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        4,
+        0
+       ],
+       [
+        4.5,
+        0.866
+       ],
+       [
+        3.5,
+        0.866
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        3.5,
+        0.866
+       ],
+       [
+        4.5,
+        0.866
+       ],
+       [
+        4,
+        1.732
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        4.5,
+        2.598
+       ],
+       [
+        5.5,
+        2.598
+       ],
+       [
+        5,
+        3.464
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        5.5,
+        2.598
+       ],
+       [
+        6,
+        3.464
+       ],
+       [
+        5,
+        3.464
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        6.5,
+        4.33
+       ],
+       [
+        7,
+        5.196
+       ],
+       [
+        6,
+        5.196
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        6,
+        5.196
+       ],
+       [
+        7,
+        5.196
+       ],
+       [
+        6.5,
+        6.062
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        7,
+        5.196
+       ],
+       [
+        7.5,
+        6.062
+       ],
+       [
+        6.5,
+        6.062
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        4,
+        0
+       ],
+       [
+        5,
+        0
+       ],
+       [
+        4.5,
+        0.866
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        5,
+        0
+       ],
+       [
+        5.5,
+        0.866
+       ],
+       [
+        4.5,
+        0.866
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        6,
+        1.732
+       ],
+       [
+        6.5,
+        2.598
+       ],
+       [
+        5.5,
+        2.598
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        5.5,
+        2.598
+       ],
+       [
+        6.5,
+        2.598
+       ],
+       [
+        6,
+        3.464
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        6.5,
+        2.598
+       ],
+       [
+        7,
+        3.464
+       ],
+       [
+        6,
+        3.464
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        6,
+        3.464
+       ],
+       [
+        7,
+        3.464
+       ],
+       [
+        6.5,
+        4.33
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        7,
+        3.464
+       ],
+       [
+        7.5,
+        4.33
+       ],
+       [
+        6.5,
+        4.33
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        6.5,
+        4.33
+       ],
+       [
+        7.5,
+        4.33
+       ],
+       [
+        7,
+        5.196
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        5,
+        0
+       ],
+       [
+        6,
+        0
+       ],
+       [
+        5.5,
+        0.866
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        6,
+        0
+       ],
+       [
+        6.5,
+        0.866
+       ],
+       [
+        5.5,
+        0.866
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        5.5,
+        0.866
+       ],
+       [
+        6.5,
+        0.866
+       ],
+       [
+        6,
+        1.732
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        6.5,
+        0.866
+       ],
+       [
+        7,
+        1.732
+       ],
+       [
+        6,
+        1.732
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        6,
+        1.732
+       ],
+       [
+        7,
+        1.732
+       ],
+       [
+        6.5,
+        2.598
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        7,
+        3.464
+       ],
+       [
+        8,
+        3.464
+       ],
+       [
+        7.5,
+        4.33
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        8,
+        3.464
+       ],
+       [
+        8.5,
+        4.33
+       ],
+       [
+        7.5,
+        4.33
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        9,
+        5.196
+       ],
+       [
+        9.5,
+        6.062
+       ],
+       [
+        8.5,
+        6.062
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        6.5,
+        0.866
+       ],
+       [
+        7.5,
+        0.866
+       ],
+       [
+        7,
+        1.732
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        7.5,
+        0.866
+       ],
+       [
+        8,
+        1.732
+       ],
+       [
+        7,
+        1.732
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        8.5,
+        2.598
+       ],
+       [
+        9,
+        3.464
+       ],
+       [
+        8,
+        3.464
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        8,
+        3.464
+       ],
+       [
+        9,
+        3.464
+       ],
+       [
+        8.5,
+        4.33
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        9,
+        3.464
+       ],
+       [
+        9.5,
+        4.33
+       ],
+       [
+        8.5,
+        4.33
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        8.5,
+        4.33
+       ],
+       [
+        9.5,
+        4.33
+       ],
+       [
+        9,
+        5.196
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        8,
+        0
+       ],
+       [
+        8.5,
+        0.866
+       ],
+       [
+        7.5,
+        0.866
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        7.5,
+        0.866
+       ],
+       [
+        8.5,
+        0.866
+       ],
+       [
+        8,
+        1.732
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        8.5,
+        0.866
+       ],
+       [
+        9,
+        1.732
+       ],
+       [
+        8,
+        1.732
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        8,
+        1.732
+       ],
+       [
+        9,
+        1.732
+       ],
+       [
+        8.5,
+        2.598
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        9,
+        1.732
+       ],
+       [
+        9.5,
+        2.598
+       ],
+       [
+        8.5,
+        2.598
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        8.5,
+        2.598
+       ],
+       [
+        9.5,
+        2.598
+       ],
+       [
+        9,
+        3.464
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        8,
+        0
+       ],
+       [
+        9,
+        0
+       ],
+       [
+        8.5,
+        0.866
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        6,
+        1.732
+       ],
+       [
+        5.5,
+        2.598
+       ],
+       [
+        4.5,
+        2.598
+       ],
+       [
+        4,
+        1.732
+       ],
+       [
+        4.5,
+        0.866
+       ],
+       [
+        5.5,
+        0.866
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        4.5,
+        6.062
+       ],
+       [
+        4,
+        6.928
+       ],
+       [
+        3,
+        6.928
+       ],
+       [
+        2.5,
+        6.062
+       ],
+       [
+        3,
+        5.196
+       ],
+       [
+        4,
+        5.196
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        6.5,
+        4.33
+       ],
+       [
+        6,
+        5.196
+       ],
+       [
+        5,
+        5.196
+       ],
+       [
+        4.5,
+        4.33
+       ],
+       [
+        5,
+        3.464
+       ],
+       [
+        6,
+        3.464
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        9,
+        5.196
+       ],
+       [
+        8.5,
+        6.062
+       ],
+       [
+        7.5,
+        6.062
+       ],
+       [
+        7,
+        5.196
+       ],
+       [
+        7.5,
+        4.33
+       ],
+       [
+        8.5,
+        4.33
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        3.5,
+        0.866
+       ],
+       [
+        3,
+        1.732
+       ],
+       [
+        2,
+        1.732
+       ],
+       [
+        1.5,
+        0.866
+       ],
+       [
+        2,
+        0
+       ],
+       [
+        3,
+        0
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        2,
+        5.196
+       ],
+       [
+        1.5,
+        6.062
+       ],
+       [
+        0.5,
+        6.062
+       ],
+       [
+        0,
+        5.196
+       ],
+       [
+        0.5,
+        4.33
+       ],
+       [
+        1.5,
+        4.33
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        4,
+        3.464
+       ],
+       [
+        3.5,
+        4.33
+       ],
+       [
+        2.5,
+        4.33
+       ],
+       [
+        2,
+        3.464
+       ],
+       [
+        2.5,
+        2.598
+       ],
+       [
+        3.5,
+        2.598
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        8.5,
+        2.598
+       ],
+       [
+        8,
+        3.464
+       ],
+       [
+        7,
+        3.464
+       ],
+       [
+        6.5,
+        2.598
+       ],
+       [
+        7,
+        1.732
+       ],
+       [
+        8,
+        1.732
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        1.5,
+        2.598
+       ],
+       [
+        1,
+        3.464
+       ],
+       [
+        0,
+        3.464
+       ],
+       [
+        -0.5,
+        2.598
+       ],
+       [
+        0,
+        1.732
+       ],
+       [
+        1,
+        1.732
+       ]
+      ],
+      "fill": true
+     }
+    ]
+   },
+   "accept": [
+    "3, 3, 3, 3, 6",
+    "3, 3, 3, 6, 3",
+    "3, 3, 6, 3, 3",
+    "3, 6, 3, 3, 3",
+    "3,3,3,3,6",
+    "3,3,3,6,3",
+    "3,3,6,3,3",
+    "3,6,3,3,3",
+    "3.3.3.6.3",
+    "3.3.6.3.3",
+    "3.6.3.3.3",
+    "6, 3, 3, 3, 3",
+    "6,3,3,3,3",
+    "6.3.3.3.3"
+   ]
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Fluency",
+   "stem": "Each tile is made of unit squares. How many tiles are needed to cover the rectangle exactly, with no gaps or overlaps?",
+   "type": "numeric",
+   "prompt": "Tiles of this shape (5 squares), covering a $10$ by $6$ rectangle",
+   "answer": "12",
+   "figure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        1,
+        0
+       ],
+       [
+        1,
+        1
+       ],
+       [
+        0,
+        1
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        1,
+        0
+       ],
+       [
+        2,
+        0
+       ],
+       [
+        2,
+        1
+       ],
+       [
+        1,
+        1
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        0,
+        1
+       ],
+       [
+        1,
+        1
+       ],
+       [
+        1,
+        2
+       ],
+       [
+        0,
+        2
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        1,
+        1
+       ],
+       [
+        2,
+        1
+       ],
+       [
+        2,
+        2
+       ],
+       [
+        1,
+        2
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        0,
+        2
+       ],
+       [
+        1,
+        2
+       ],
+       [
+        1,
+        3
+       ],
+       [
+        0,
+        3
+       ]
+      ],
+      "fill": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Fluency",
+   "stem": "Each tile is made of unit squares. How many tiles are needed to cover the rectangle exactly, with no gaps or overlaps?",
+   "type": "numeric",
+   "prompt": "Tiles of this shape (4 squares), covering an $8$ by $6$ rectangle",
+   "answer": "12",
+   "figure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        1,
+        0
+       ],
+       [
+        1,
+        1
+       ],
+       [
+        0,
+        1
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        1,
+        0
+       ],
+       [
+        2,
+        0
+       ],
+       [
+        2,
+        1
+       ],
+       [
+        1,
+        1
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        2,
+        0
+       ],
+       [
+        3,
+        0
+       ],
+       [
+        3,
+        1
+       ],
+       [
+        2,
+        1
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        0,
+        1
+       ],
+       [
+        1,
+        1
+       ],
+       [
+        1,
+        2
+       ],
+       [
+        0,
+        2
+       ]
+      ],
+      "fill": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Fluency",
+   "stem": "Using a mixture of the two tiles:",
+   "type": "numeric",
+   "prompt": "A $7$ by $4$ rectangle is covered using both tiles from parts a and b. Exactly $4$ of the 5-square tiles are used. How many 4-square tiles are used?",
+   "answer": "2"
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Fluency",
+   "stem": "Name each regular tessellation from Question 2 by looking at one vertex (type the number of sides of each polygon around the vertex, with dots between).",
+   "type": "text",
+   "prompt": "Equilateral triangles",
+   "answer": "3.3.3.3.3.3",
+   "accept": [
+    "3,3,3,3,3,3",
+    "3, 3, 3, 3, 3, 3"
+   ]
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Fluency",
+   "stem": "Name each regular tessellation from Question 2 by looking at one vertex (type the number of sides of each polygon around the vertex, with dots between).",
+   "type": "text",
+   "prompt": "Squares",
+   "answer": "4.4.4.4",
+   "accept": [
+    "4,4,4,4",
+    "4, 4, 4, 4"
+   ]
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Fluency",
+   "stem": "Name each regular tessellation from Question 2 by looking at one vertex (type the number of sides of each polygon around the vertex, with dots between).",
+   "type": "text",
+   "prompt": "Regular hexagons",
+   "answer": "6.6.6",
+   "accept": [
+    "6,6,6",
+    "6, 6, 6"
+   ]
+  },
+  {
+   "id": "q7",
+   "label": "7",
+   "section": "Problem-solving",
+   "type": "numeric",
+   "prompt": "A courtyard measuring $8$ m by $9$ m is to be paved with rectangular pavers measuring $20$ cm by $40$ cm. How many pavers are needed to cover the courtyard?",
+   "answer": "900"
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Problem-solving",
+   "stem": "A tessellation is made using only regular dodecagons (12 sides) and one other regular polygon. At each vertex, two dodecagons meet.",
+   "type": "numeric",
+   "prompt": "Find the size of each interior angle of a regular dodecagon.",
+   "answer": "150",
+   "units": "°"
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Problem-solving",
+   "stem": "A tessellation is made using only regular dodecagons (12 sides) and one other regular polygon. At each vertex, two dodecagons meet.",
+   "type": "numeric",
+   "prompt": "How many degrees are left at the vertex after the two dodecagons?",
+   "answer": "60",
+   "units": "°"
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Problem-solving",
+   "stem": "A tessellation is made using only regular dodecagons (12 sides) and one other regular polygon. At each vertex, two dodecagons meet.",
+   "type": "choice",
+   "prompt": "Which regular polygon fills the gap?",
+   "answer": 0,
+   "options": [
+    "Equilateral triangle",
+    "Square",
+    "Regular pentagon",
+    "Regular hexagon"
+   ]
+  },
+  {
+   "id": "q10",
+   "label": "10",
+   "section": "Reasoning",
+   "type": "numeric",
+   "prompt": "Each Tetris piece is made of $4$ squares, each $1$ cm by $1$ cm. How many pieces are needed to completely fill a rectangle $12$ cm wide and $18$ cm high?",
+   "answer": "54"
+  },
+  {
+   "id": "q11",
+   "label": "11",
+   "section": "Reasoning",
+   "type": "choice",
+   "prompt": "Can circles that are all the same size be used by themselves to make a tessellation?",
+   "answer": 1,
+   "options": [
+    "Yes, they fit together with no gaps",
+    "No, there are always gaps between the circles",
+    "Yes, but only if they overlap"
+   ]
+  },
+  {
+   "id": "q12a",
+   "label": "12a",
+   "section": "Reasoning",
+   "stem": "Interior angles explain which regular polygons tessellate by themselves.",
+   "type": "numeric",
+   "prompt": "Find the size of each interior angle of a regular pentagon.",
+   "answer": "108",
+   "units": "°"
+  },
+  {
+   "id": "q12b",
+   "label": "12b",
+   "section": "Reasoning",
+   "stem": "Interior angles explain which regular polygons tessellate by themselves.",
+   "type": "choice",
+   "prompt": "Is $360°$ a whole number of these angles, so can regular pentagons tessellate by themselves?",
+   "answer": 1,
+   "options": [
+    "Yes, 360° is a whole number of pentagon angles",
+    "No, 360° is not a whole number of pentagon angles"
+   ]
+  },
+  {
+   "id": "q12c",
+   "label": "12c",
+   "section": "Reasoning",
+   "stem": "Interior angles explain which regular polygons tessellate by themselves.",
+   "type": "choice",
+   "prompt": "A regular polygon with more than $6$ sides has interior angles between $120°$ and $180°$. Which statement is true?",
+   "answer": 2,
+   "options": [
+    "Three of them fit exactly around a point",
+    "Four of them fit exactly around a point",
+    "Two of them leave a gap and three of them overlap, so they cannot tessellate by themselves",
+    "They tessellate if the polygon is large enough"
+   ]
+  },
+  {
+   "id": "q15",
+   "label": "15",
+   "section": "Enrichment",
+   "type": "numeric",
+   "prompt": "A pentagon that tessellates by itself has four angles of $90°$, $120°$, $90°$ and $120°$. Find the size of the fifth angle.",
+   "answer": "120",
+   "units": "°"
+  }
+ ]
+},
+{
+ "id": "y8-10g",
+ "year": 8,
+ "chapter": "Chapter 10: Transformations and congruence",
+ "title": "10G Congruence and quadrilaterals",
+ "description": "Use parallel line facts and congruent triangle tests to prove properties of parallelograms, rhombuses, rectangles, squares and kites.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Follow these steps to prove that the diagonals of square $PQRS$ bisect each other. The diagonals meet at $M$.",
+   "type": "choice",
+   "prompt": "Why is $\\angle MPQ = \\angle MRS$?",
+   "answer": 0,
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 34,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        4,
+        0
+       ],
+       [
+        4,
+        4
+       ],
+       [
+        0,
+        4
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "P",
+      "at": [
+       -0.27,
+       -0.329
+      ]
+     },
+     {
+      "label": "Q",
+      "at": [
+       4.27,
+       -0.329
+      ]
+     },
+     {
+      "label": "R",
+      "at": [
+       4.27,
+       4.212
+      ]
+     },
+     {
+      "label": "S",
+      "at": [
+       -0.27,
+       4.212
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       4,
+       4
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       4,
+       0,
+       0,
+       4
+      ],
+      "dash": true
+     },
+     {
+      "tick": [
+       0,
+       0,
+       4,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       4,
+       0,
+       4,
+       4
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       4,
+       4,
+       0,
+       4
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       0,
+       4,
+       0,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 0.529
+     },
+     {
+      "angle": [
+       4,
+       0,
+       90,
+       180
+      ],
+      "right": true,
+      "r": 0.529
+     },
+     {
+      "angle": [
+       4,
+       4,
+       180,
+       270
+      ],
+      "right": true,
+      "r": 0.529
+     },
+     {
+      "angle": [
+       0,
+       4,
+       270,
+       0
+      ],
+      "right": true,
+      "r": 0.529
+     },
+     {
+      "label": "M",
+      "at": [
+       2,
+       2.706
+      ]
+     }
+    ]
+   },
+   "options": [
+    "Alternate angles in parallel lines are equal",
+    "Corresponding angles in parallel lines are equal",
+    "Vertically opposite angles are equal",
+    "Co-interior angles add to 180°"
+   ]
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Follow these steps to prove that the diagonals of square $PQRS$ bisect each other. The diagonals meet at $M$.",
+   "type": "choice",
+   "prompt": "Why is $\\angle PQM = \\angle RSM$?",
+   "answer": 0,
+   "options": [
+    "Alternate angles in parallel lines are equal",
+    "Corresponding angles in parallel lines are equal",
+    "Vertically opposite angles are equal",
+    "Co-interior angles add to 180°"
+   ]
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "Follow these steps to prove that the diagonals of square $PQRS$ bisect each other. The diagonals meet at $M$.",
+   "type": "text",
+   "prompt": "Which side of $\\triangle RSM$ is equal in length to $PQ$?",
+   "answer": "RS",
+   "accept": [
+    "SR"
+   ],
+   "hint": "Type the two letters, for example AB"
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "Follow these steps to prove that the diagonals of square $PQRS$ bisect each other. The diagonals meet at $M$.",
+   "type": "choice",
+   "prompt": "Which test shows that $\\triangle PQM \\equiv \\triangle RSM$?",
+   "answer": 2,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q1e",
+   "label": "1e",
+   "section": "Fluency",
+   "stem": "Follow these steps to prove that the diagonals of square $PQRS$ bisect each other. The diagonals meet at $M$.",
+   "type": "choice",
+   "prompt": "What does this prove?",
+   "answer": 0,
+   "options": [
+    "PM = RM and QM = SM, so the diagonals bisect each other",
+    "The diagonals meet at right angles",
+    "All four sides are equal",
+    "PQ is parallel to SR"
+   ]
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Prove that the diagonals of parallelogram $JKLM$ bisect each other. You may assume that opposite sides are equal, so $JK = LM$. The diagonals meet at $N$.",
+   "type": "choice",
+   "prompt": "Step 1: Why is $\\angle NJK = \\angle NLM$?",
+   "answer": 0,
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 34,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        5,
+        0
+       ],
+       [
+        6.5,
+        3
+       ],
+       [
+        1.5,
+        3
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "J",
+      "at": [
+       -0.347,
+       -0.219
+      ]
+     },
+     {
+      "label": "K",
+      "at": [
+       5.29,
+       -0.308
+      ]
+     },
+     {
+      "label": "L",
+      "at": [
+       6.847,
+       3.101
+      ]
+     },
+     {
+      "label": "M",
+      "at": [
+       1.21,
+       3.19
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       6.5,
+       3
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       5,
+       0,
+       1.5,
+       3
+      ],
+      "dash": true
+     },
+     {
+      "par": [
+       0,
+       0,
+       5,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       1.5,
+       3,
+       6.5,
+       3
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       0,
+       0,
+       1.5,
+       3
+      ],
+      "n": 2
+     },
+     {
+      "par": [
+       5,
+       0,
+       6.5,
+       3
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       0,
+       0,
+       3.8,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       2.7,
+       3,
+       6.5,
+       3
+      ],
+      "n": 1
+     },
+     {
+      "label": "N",
+      "at": [
+       3.25,
+       1.971
+      ]
+     }
+    ]
+   },
+   "options": [
+    "Alternate angles in parallel lines are equal",
+    "Corresponding angles in parallel lines are equal",
+    "Vertically opposite angles are equal",
+    "Co-interior angles add to 180°"
+   ]
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Prove that the diagonals of parallelogram $JKLM$ bisect each other. You may assume that opposite sides are equal, so $JK = LM$. The diagonals meet at $N$.",
+   "type": "choice",
+   "prompt": "Step 1: Why is $\\angle NKJ = \\angle NML$?",
+   "answer": 0,
+   "options": [
+    "Alternate angles in parallel lines are equal",
+    "Corresponding angles in parallel lines are equal",
+    "Vertically opposite angles are equal",
+    "Co-interior angles add to 180°"
+   ]
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Prove that the diagonals of parallelogram $JKLM$ bisect each other. You may assume that opposite sides are equal, so $JK = LM$. The diagonals meet at $N$.",
+   "type": "text",
+   "prompt": "Step 2: Which side of $\\triangle LMN$ is equal in length to $JK$?",
+   "answer": "LM",
+   "accept": [
+    "ML"
+   ]
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Prove that the diagonals of parallelogram $JKLM$ bisect each other. You may assume that opposite sides are equal, so $JK = LM$. The diagonals meet at $N$.",
+   "type": "choice",
+   "prompt": "Step 3: Which test shows that $\\triangle JKN \\equiv \\triangle LMN$?",
+   "answer": 2,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Prove that the diagonals of parallelogram $JKLM$ bisect each other. You may assume that opposite sides are equal, so $JK = LM$. The diagonals meet at $N$.",
+   "type": "choice",
+   "prompt": "Step 4: Which statement follows?",
+   "answer": 1,
+   "options": [
+    "JK = KL and LM = MJ",
+    "KN = MN and JN = LN",
+    "JL = KM",
+    "Angle JNK = 90°"
+   ]
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Which test would be used to prove that the two triangles in each diagram are congruent? Equal marks show equal sides or angles.",
+   "type": "choice",
+   "prompt": "Diagram a",
+   "answer": 0,
+   "figure": {
+    "kind": "diagram",
+    "unit": 34,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        4.2
+       ],
+       [
+        1.6,
+        2.8
+       ],
+       [
+        0,
+        0
+       ],
+       [
+        -1.6,
+        2.8
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       0,
+       4.2,
+       0,
+       0
+      ]
+     },
+     {
+      "tick": [
+       0,
+       4.2,
+       -1.6,
+       2.8
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       0,
+       4.2,
+       1.6,
+       2.8
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       -1.6,
+       2.8,
+       0,
+       0
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       1.6,
+       2.8,
+       0,
+       0
+      ],
+      "n": 2
+     }
+    ]
+   },
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Which test would be used to prove that the two triangles in each diagram are congruent? Equal marks show equal sides or angles.",
+   "type": "choice",
+   "prompt": "Diagram b",
+   "answer": 1,
+   "figure": {
+    "kind": "diagram",
+    "unit": 34,
+    "items": [
+     {
+      "poly": [
+       [
+        2.3,
+        3.6
+       ],
+       [
+        0,
+        0
+       ],
+       [
+        4.6,
+        0
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       2.3,
+       3.6,
+       2.3,
+       0
+      ]
+     },
+     {
+      "tick": [
+       2.3,
+       3.6,
+       0,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       2.3,
+       3.6,
+       4.6,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       2.3,
+       3.6,
+       241.426,
+       266
+      ],
+      "r": 0.706
+     },
+     {
+      "angle": [
+       2.3,
+       3.6,
+       274,
+       298.574
+      ],
+      "r": 0.706
+     }
+    ]
+   },
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Which test would be used to prove that the two triangles in each diagram are congruent? Equal marks show equal sides or angles.",
+   "type": "choice",
+   "prompt": "Diagram c",
+   "answer": 3,
+   "figure": {
+    "kind": "diagram",
+    "unit": 34,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        -1.64,
+        2.512
+       ],
+       [
+        1.71,
+        4.698
+       ],
+       [
+        2.871,
+        0.871
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       0,
+       0,
+       1.71,
+       4.698
+      ]
+     },
+     {
+      "angle": [
+       -1.64,
+       2.512,
+       303.13,
+       33.13
+      ],
+      "right": true,
+      "r": 0.529
+     },
+     {
+      "angle": [
+       2.871,
+       0.871,
+       106.87,
+       196.87
+      ],
+      "right": true,
+      "r": 0.529
+     },
+     {
+      "tick": [
+       0,
+       0,
+       -1.64,
+       2.512
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       0,
+       0,
+       2.871,
+       0.871
+      ],
+      "n": 1
+     }
+    ]
+   },
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Which test would be used to prove that the two triangles in each diagram are congruent? Equal marks show equal sides or angles.",
+   "type": "choice",
+   "prompt": "Diagram d",
+   "answer": 2,
+   "figure": {
+    "kind": "diagram",
+    "unit": 34,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        3.2,
+        0
+       ],
+       [
+        2.3,
+        1.6
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        1.4,
+        3.2
+       ],
+       [
+        4.6,
+        3.2
+       ],
+       [
+        2.3,
+        1.6
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       34.824
+      ],
+      "r": 0.647
+     },
+     {
+      "angle": [
+       4.6,
+       3.2,
+       180,
+       214.824
+      ],
+      "r": 0.647
+     },
+     {
+      "angle": [
+       2.3,
+       1.6,
+       214.824,
+       299.358
+      ],
+      "r": 0.471
+     },
+     {
+      "angle": [
+       2.3,
+       1.6,
+       214.824,
+       299.358
+      ],
+      "r": 0.618
+     },
+     {
+      "angle": [
+       2.3,
+       1.6,
+       34.824,
+       119.358
+      ],
+      "r": 0.471
+     },
+     {
+      "angle": [
+       2.3,
+       1.6,
+       34.824,
+       119.358
+      ],
+      "r": 0.618
+     },
+     {
+      "tick": [
+       0,
+       0,
+       3.2,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       1.4,
+       3.2,
+       4.6,
+       3.2
+      ],
+      "n": 1
+     }
+    ]
+   },
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "Which test would be used to prove that the two triangles in each diagram are congruent? Equal marks show equal sides or angles.",
+   "type": "choice",
+   "prompt": "Diagram e",
+   "answer": 1,
+   "figure": {
+    "kind": "diagram",
+    "unit": 34,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        4.6,
+        0
+       ],
+       [
+        6.2,
+        2.7
+       ],
+       [
+        1.6,
+        2.7
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       4.6,
+       0,
+       1.6,
+       2.7
+      ]
+     },
+     {
+      "tick": [
+       0,
+       0,
+       4.6,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       1.6,
+       2.7,
+       6.2,
+       2.7
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       4.6,
+       0,
+       138.013,
+       180
+      ],
+      "r": 0.765
+     },
+     {
+      "angle": [
+       1.6,
+       2.7,
+       318.013,
+       0
+      ],
+      "r": 0.765
+     }
+    ]
+   },
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "Which test would be used to prove that the two triangles in each diagram are congruent? Equal marks show equal sides or angles.",
+   "type": "choice",
+   "prompt": "Diagram f",
+   "answer": 0,
+   "figure": {
+    "kind": "diagram",
+    "unit": 34,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        4.8,
+        0
+       ],
+       [
+        3,
+        2.646
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        10.5,
+        2.4
+       ],
+       [
+        14.85,
+        0.371
+       ],
+       [
+        12.101,
+        -1.266
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "tick": [
+       0,
+       0,
+       4.8,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       4.8,
+       0,
+       3,
+       2.646
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       3,
+       2.646,
+       0,
+       0
+      ],
+      "n": 3
+     },
+     {
+      "tick": [
+       10.5,
+       2.4,
+       14.85,
+       0.371
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       14.85,
+       0.371,
+       12.101,
+       -1.266
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       12.101,
+       -1.266,
+       10.5,
+       2.4
+      ],
+      "n": 3
+     }
+    ]
+   },
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "$WXYZ$ is a parallelogram, so it has two pairs of parallel sides. The diagonal $XZ$ is drawn.",
+   "type": "choice",
+   "prompt": "What can be said about $\\angle WXZ$ and $\\angle YZX$?",
+   "answer": 0,
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 34,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        5,
+        0
+       ],
+       [
+        6.6,
+        3
+       ],
+       [
+        1.6,
+        3
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "W",
+      "at": [
+       -0.348,
+       -0.217
+      ]
+     },
+     {
+      "label": "X",
+      "at": [
+       5.287,
+       -0.312
+      ]
+     },
+     {
+      "label": "Y",
+      "at": [
+       6.948,
+       3.099
+      ]
+     },
+     {
+      "label": "Z",
+      "at": [
+       1.313,
+       3.194
+      ]
+     },
+     {
+      "seg": [
+       5,
+       0,
+       1.6,
+       3
+      ]
+     },
+     {
+      "par": [
+       0,
+       0,
+       5,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       1.6,
+       3,
+       6.6,
+       3
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       0,
+       0,
+       1.6,
+       3
+      ],
+      "n": 2
+     },
+     {
+      "par": [
+       5,
+       0,
+       6.6,
+       3
+      ],
+      "n": 2
+     }
+    ]
+   },
+   "options": [
+    "They are equal (alternate angles in parallel lines)",
+    "They are equal (corresponding angles in parallel lines)",
+    "They add to 180° (co-interior angles)",
+    "They are equal (vertically opposite angles)"
+   ]
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "$WXYZ$ is a parallelogram, so it has two pairs of parallel sides. The diagonal $XZ$ is drawn.",
+   "type": "choice",
+   "prompt": "What can be said about $\\angle XZW$ and $\\angle ZXY$?",
+   "answer": 0,
+   "options": [
+    "They are equal (alternate angles in parallel lines)",
+    "They are equal (corresponding angles in parallel lines)",
+    "They add to 180° (co-interior angles)",
+    "They are equal (vertically opposite angles)"
+   ]
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "$WXYZ$ is a parallelogram, so it has two pairs of parallel sides. The diagonal $XZ$ is drawn.",
+   "type": "text",
+   "prompt": "Which side is common to both $\\triangle WXZ$ and $\\triangle YZX$?",
+   "answer": "XZ",
+   "accept": [
+    "ZX"
+   ]
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "$WXYZ$ is a parallelogram, so it has two pairs of parallel sides. The diagonal $XZ$ is drawn.",
+   "type": "choice",
+   "prompt": "Which test shows that $\\triangle WXZ \\equiv \\triangle YZX$?",
+   "answer": 2,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Fluency",
+   "stem": "$WXYZ$ is a parallelogram, so it has two pairs of parallel sides. The diagonal $XZ$ is drawn.",
+   "type": "choice",
+   "prompt": "Since $\\triangle WXZ \\equiv \\triangle YZX$, what can be said about the opposite sides of a parallelogram?",
+   "answer": 1,
+   "options": [
+    "They are perpendicular",
+    "They are equal in length",
+    "They bisect each other",
+    "Nothing can be said"
+   ]
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Problem-solving",
+   "stem": "$EFGH$ is a rhombus (all sides equal). Its diagonals meet at $K$. Assume that $EK = KG$.",
+   "type": "choice",
+   "prompt": "Which test shows that $\\triangle EKF \\equiv \\triangle GKF$?",
+   "answer": 0,
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 34,
+    "items": [
+     {
+      "poly": [
+       [
+        -2.719,
+        -1.268
+       ],
+       [
+        -0.803,
+        1.722
+       ],
+       [
+        2.719,
+        1.268
+       ],
+       [
+        0.803,
+        -1.722
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "E",
+      "at": [
+       -3.065,
+       -1.488
+      ]
+     },
+     {
+      "label": "F",
+      "at": [
+       -0.965,
+       2.01
+      ]
+     },
+     {
+      "label": "G",
+      "at": [
+       3.065,
+       1.371
+      ]
+     },
+     {
+      "label": "H",
+      "at": [
+       0.965,
+       -2.127
+      ]
+     },
+     {
+      "seg": [
+       -2.719,
+       -1.268,
+       2.719,
+       1.268
+      ]
+     },
+     {
+      "seg": [
+       -0.803,
+       1.722,
+       0.803,
+       -1.722
+      ]
+     },
+     {
+      "tick": [
+       -2.719,
+       -1.268,
+       -0.803,
+       1.722
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       -0.803,
+       1.722,
+       2.719,
+       1.268
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       2.719,
+       1.268,
+       0.803,
+       -1.722
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       0.803,
+       -1.722,
+       -2.719,
+       -1.268
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       -2.719,
+       -1.268,
+       0,
+       0
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       0,
+       0,
+       2.719,
+       1.268
+      ],
+      "n": 2
+     },
+     {
+      "label": "K",
+      "at": [
+       0.241,
+       0.604
+      ]
+     }
+    ]
+   },
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Problem-solving",
+   "stem": "$EFGH$ is a rhombus (all sides equal). Its diagonals meet at $K$. Assume that $EK = KG$.",
+   "type": "numeric",
+   "prompt": "So $\\angle EKF = \\angle GKF$. These two angles lie on a straight line. What is the size of each angle?",
+   "answer": "90",
+   "units": "°"
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Problem-solving",
+   "stem": "$ABCD$ is a square. Its diagonals meet at $E$. Assume that $AE = EC$ and $BE = ED$.",
+   "type": "choice",
+   "prompt": "Which test shows that $\\triangle ABE \\equiv \\triangle CBE$?",
+   "answer": 0,
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 34,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        4,
+        0
+       ],
+       [
+        4,
+        4
+       ],
+       [
+        0,
+        4
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "A",
+      "at": [
+       -0.27,
+       -0.329
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       4.27,
+       -0.329
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       4.27,
+       4.212
+      ]
+     },
+     {
+      "label": "D",
+      "at": [
+       -0.27,
+       4.212
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       4,
+       4
+      ]
+     },
+     {
+      "seg": [
+       4,
+       0,
+       0,
+       4
+      ]
+     },
+     {
+      "tick": [
+       0,
+       0,
+       4,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       4,
+       0,
+       4,
+       4
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       4,
+       4,
+       0,
+       4
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       0,
+       4,
+       0,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       0,
+       0,
+       2,
+       2
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       2,
+       2,
+       4,
+       4
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       4,
+       0,
+       2,
+       2
+      ],
+      "n": 3
+     },
+     {
+      "tick": [
+       2,
+       2,
+       0,
+       4
+      ],
+      "n": 3
+     },
+     {
+      "label": "E",
+      "at": [
+       2,
+       2.706
+      ]
+     }
+    ]
+   },
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Problem-solving",
+   "stem": "$ABCD$ is a square. Its diagonals meet at $E$. Assume that $AE = EC$ and $BE = ED$.",
+   "type": "numeric",
+   "prompt": "So $\\angle AEB = \\angle CEB$, and they lie on a straight line. What is the size of each angle?",
+   "answer": "90",
+   "units": "°"
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Problem-solving",
+   "stem": "$ABCD$ is a square. Its diagonals meet at $E$. Assume that $AE = EC$ and $BE = ED$.",
+   "type": "numeric",
+   "prompt": "The diagonals of a square are equal, so $AE = BE$ and $\\triangle ABE$ is isosceles. Find the size of $\\angle EAB$.",
+   "answer": "45",
+   "units": "°"
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Problem-solving",
+   "stem": "$ABCD$ is a kite with $AB = AD$ and $CB = CD$. The diagonal $AC$ is drawn.",
+   "type": "choice",
+   "prompt": "Which test shows that $\\triangle ABC \\equiv \\triangle ADC$?",
+   "answer": 0,
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 34,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        4.4
+       ],
+       [
+        1.8,
+        3
+       ],
+       [
+        0,
+        0
+       ],
+       [
+        -1.8,
+        3
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "A",
+      "at": [
+       0,
+       4.724
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       2.173,
+       3.024
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       0,
+       -0.441
+      ]
+     },
+     {
+      "label": "D",
+      "at": [
+       -2.173,
+       3.024
+      ]
+     },
+     {
+      "seg": [
+       0,
+       4.4,
+       0,
+       0
+      ]
+     },
+     {
+      "tick": [
+       0,
+       4.4,
+       1.8,
+       3
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       0,
+       4.4,
+       -1.8,
+       3
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       1.8,
+       3,
+       0,
+       0
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       -1.8,
+       3,
+       0,
+       0
+      ],
+      "n": 2
+     }
+    ]
+   },
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Problem-solving",
+   "stem": "$ABCD$ is a kite with $AB = AD$ and $CB = CD$. The diagonal $AC$ is drawn.",
+   "type": "choice",
+   "prompt": "Why is $\\angle ABC = \\angle ADC$?",
+   "answer": 0,
+   "options": [
+    "Corresponding angles in congruent triangles are equal",
+    "Alternate angles in parallel lines are equal",
+    "Vertically opposite angles are equal",
+    "Angles in a triangle add to 180°"
+   ]
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Problem-solving",
+   "stem": "$ABCD$ is a kite with $AB = AD$ and $CB = CD$. The diagonal $AC$ is drawn.",
+   "type": "numeric",
+   "prompt": "The congruent triangles also give $\\angle BAC = \\angle DAC$. If $\\angle BAC = 34°$, find the size of $\\angle BAD$.",
+   "answer": "68",
+   "units": "°"
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Reasoning",
+   "stem": "$EFGH$ is a rectangle with $EF = 20$ cm and $FG = 21$ cm. Opposite sides are equal.",
+   "type": "numeric",
+   "prompt": "Use Pythagoras' theorem in $\\triangle EFG$ to find the length of the diagonal $EG$.",
+   "answer": "29",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 34,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        5,
+        0
+       ],
+       [
+        5,
+        5.25
+       ],
+       [
+        0,
+        5.25
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "E",
+      "at": [
+       -0.264,
+       -0.336
+      ]
+     },
+     {
+      "label": "F",
+      "at": [
+       5.264,
+       -0.336
+      ]
+     },
+     {
+      "label": "G",
+      "at": [
+       5.264,
+       5.468
+      ]
+     },
+     {
+      "label": "H",
+      "at": [
+       -0.264,
+       5.468
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       5,
+       5.25
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       5,
+       0,
+       0,
+       5.25
+      ],
+      "dash": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 0.529
+     },
+     {
+      "angle": [
+       5,
+       0,
+       90,
+       180
+      ],
+      "right": true,
+      "r": 0.529
+     },
+     {
+      "angle": [
+       5,
+       5.25,
+       180,
+       270
+      ],
+      "right": true,
+      "r": 0.529
+     },
+     {
+      "angle": [
+       0,
+       5.25,
+       270,
+       0
+      ],
+      "right": true,
+      "r": 0.529
+     },
+     {
+      "label": "20 cm",
+      "at": [
+       2.5,
+       -0.441
+      ],
+      "anchor": "middle"
+     },
+     {
+      "label": "21 cm",
+      "at": [
+       5.324,
+       2.625
+      ],
+      "anchor": "start"
+     }
+    ]
+   },
+   "units": "cm"
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Reasoning",
+   "stem": "$EFGH$ is a rectangle with $EF = 20$ cm and $FG = 21$ cm. Opposite sides are equal.",
+   "type": "numeric",
+   "prompt": "Use Pythagoras' theorem in $\\triangle FEH$ to find the length of the diagonal $FH$.",
+   "answer": "29",
+   "units": "cm"
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Reasoning",
+   "stem": "$EFGH$ is a rectangle with $EF = 20$ cm and $FG = 21$ cm. Opposite sides are equal.",
+   "type": "choice",
+   "prompt": "What does this show about the diagonals of a rectangle?",
+   "answer": 2,
+   "options": [
+    "They are perpendicular",
+    "They bisect the angles",
+    "They are equal in length",
+    "They are parallel"
+   ]
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Reasoning",
+   "stem": "Follow the steps of Question 2 to show that the opposite sides of rectangle $WXYZ$ are equal. The diagonal $WY$ is drawn.",
+   "type": "choice",
+   "prompt": "Why is $\\angle XWY = \\angle ZYW$?",
+   "answer": 0,
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 34,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        5,
+        0
+       ],
+       [
+        5,
+        3
+       ],
+       [
+        0,
+        3
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "W",
+      "at": [
+       -0.328,
+       -0.256
+      ]
+     },
+     {
+      "label": "X",
+      "at": [
+       5.328,
+       -0.256
+      ]
+     },
+     {
+      "label": "Y",
+      "at": [
+       5.328,
+       3.138
+      ]
+     },
+     {
+      "label": "Z",
+      "at": [
+       -0.328,
+       3.138
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       5,
+       3
+      ]
+     },
+     {
+      "par": [
+       0,
+       0,
+       5,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       0,
+       3,
+       5,
+       3
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       0,
+       0,
+       0,
+       3
+      ],
+      "n": 2
+     },
+     {
+      "par": [
+       5,
+       0,
+       5,
+       3
+      ],
+      "n": 2
+     },
+     {
+      "angle": [
+       5,
+       0,
+       90,
+       180
+      ],
+      "right": true,
+      "r": 0.529
+     }
+    ]
+   },
+   "options": [
+    "Alternate angles in parallel lines are equal",
+    "Corresponding angles in parallel lines are equal",
+    "Vertically opposite angles are equal",
+    "Co-interior angles add to 180°"
+   ]
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Reasoning",
+   "stem": "Follow the steps of Question 2 to show that the opposite sides of rectangle $WXYZ$ are equal. The diagonal $WY$ is drawn.",
+   "type": "choice",
+   "prompt": "Why is $\\angle XYW = \\angle ZWY$?",
+   "answer": 0,
+   "options": [
+    "Alternate angles in parallel lines are equal",
+    "Corresponding angles in parallel lines are equal",
+    "Vertically opposite angles are equal",
+    "Co-interior angles add to 180°"
+   ]
+  },
+  {
+   "id": "q9c",
+   "label": "9c",
+   "section": "Reasoning",
+   "stem": "Follow the steps of Question 2 to show that the opposite sides of rectangle $WXYZ$ are equal. The diagonal $WY$ is drawn.",
+   "type": "choice",
+   "prompt": "$WY$ is a common side. Which test shows that $\\triangle WXY \\equiv \\triangle YZW$?",
+   "answer": 2,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q9d",
+   "label": "9d",
+   "section": "Reasoning",
+   "stem": "Follow the steps of Question 2 to show that the opposite sides of rectangle $WXYZ$ are equal. The diagonal $WY$ is drawn.",
+   "type": "text",
+   "prompt": "So which side is equal in length to $WX$?",
+   "answer": "YZ",
+   "accept": [
+    "ZY"
+   ]
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Reasoning",
+   "stem": "$PQRS$ is a trapezium with $PQ \\parallel SR$. Its diagonals meet at $T$.",
+   "type": "text",
+   "prompt": "Which angle in $\\triangle RST$ is equal to $\\angle QPT$?",
+   "answer": "SRT",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 34,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        6.4,
+        0
+       ],
+       [
+        4.4,
+        2.6
+       ],
+       [
+        1.4,
+        2.6
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "P",
+      "at": [
+       -0.352,
+       -0.209
+      ]
+     },
+     {
+      "label": "Q",
+      "at": [
+       6.756,
+       -0.197
+      ]
+     },
+     {
+      "label": "R",
+      "at": [
+       4.675,
+       2.806
+      ]
+     },
+     {
+      "label": "S",
+      "at": [
+       1.1,
+       2.778
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       4.4,
+       2.6
+      ]
+     },
+     {
+      "seg": [
+       6.4,
+       0,
+       1.4,
+       2.6
+      ]
+     },
+     {
+      "par": [
+       0,
+       0,
+       6.4,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       1.4,
+       2.6,
+       4.4,
+       2.6
+      ],
+      "n": 1
+     },
+     {
+      "label": "T",
+      "at": [
+       2.996,
+       1.182
+      ]
+     }
+    ]
+   },
+   "accept": [
+    "∠SRT",
+    "angle SRT",
+    "TRS",
+    "∠TRS",
+    "angle TRS",
+    "SRP",
+    "∠SRP",
+    "angle SRP",
+    "PRS",
+    "∠PRS",
+    "angle PRS"
+   ],
+   "hint": "Type the angle with three letters, the vertex in the middle, for example ABC"
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Reasoning",
+   "stem": "$PQRS$ is a trapezium with $PQ \\parallel SR$. Its diagonals meet at $T$.",
+   "type": "text",
+   "prompt": "Which angle in $\\triangle RST$ is equal to $\\angle PQT$?",
+   "answer": "RST",
+   "accept": [
+    "∠RST",
+    "angle RST",
+    "TSR",
+    "∠TSR",
+    "angle TSR",
+    "RSQ",
+    "∠RSQ",
+    "angle RSQ",
+    "QSR",
+    "∠QSR",
+    "angle QSR"
+   ],
+   "hint": "Type the angle with three letters, the vertex in the middle, for example ABC"
+  },
+  {
+   "id": "q10c",
+   "label": "10c",
+   "section": "Reasoning",
+   "stem": "$PQRS$ is a trapezium with $PQ \\parallel SR$. Its diagonals meet at $T$.",
+   "type": "choice",
+   "prompt": "Why is $\\triangle PQT$ not congruent to $\\triangle RST$?",
+   "answer": 1,
+   "options": [
+    "Their angles are not equal",
+    "PQ is longer than RS, so they are the same shape but different sizes",
+    "They are congruent",
+    "T is not on the diagonal"
+   ]
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Reasoning",
+   "stem": "$PQRS$ is a kite with $PS = PQ$ and $RS = RQ$. Its diagonals meet at $E$. Assume that $\\angle SPE = \\angle QPE$, as marked.",
+   "type": "choice",
+   "prompt": "Why is $\\angle PSE = \\angle PQE$?",
+   "answer": 0,
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 34,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        2
+       ],
+       [
+        1.9,
+        0.6
+       ],
+       [
+        0,
+        -3.4
+       ],
+       [
+        -1.9,
+        0.6
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "P",
+      "at": [
+       0,
+       2.324
+      ]
+     },
+     {
+      "label": "Q",
+      "at": [
+       2.262,
+       0.665
+      ]
+     },
+     {
+      "label": "R",
+      "at": [
+       0,
+       -3.841
+      ]
+     },
+     {
+      "label": "S",
+      "at": [
+       -2.262,
+       0.665
+      ]
+     },
+     {
+      "seg": [
+       0,
+       2,
+       0,
+       -3.4
+      ]
+     },
+     {
+      "seg": [
+       -1.9,
+       0.6,
+       1.9,
+       0.6
+      ]
+     },
+     {
+      "tick": [
+       0,
+       2,
+       -1.9,
+       0.6
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       0,
+       2,
+       1.9,
+       0.6
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       -1.9,
+       0.6,
+       0,
+       -3.4
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       1.9,
+       0.6,
+       0,
+       -3.4
+      ],
+      "n": 2
+     },
+     {
+      "angle": [
+       0,
+       2,
+       221.384,
+       265
+      ],
+      "r": 0.647
+     },
+     {
+      "angle": [
+       0,
+       2,
+       275,
+       318.616
+      ],
+      "r": 0.647
+     },
+     {
+      "label": "E",
+      "at": [
+       0.27,
+       0.271
+      ]
+     }
+    ]
+   },
+   "options": [
+    "Triangle PSQ is isosceles (PS = PQ), so its base angles are equal",
+    "Alternate angles in parallel lines are equal",
+    "Vertically opposite angles are equal",
+    "Corresponding angles in parallel lines are equal"
+   ]
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Reasoning",
+   "stem": "$PQRS$ is a kite with $PS = PQ$ and $RS = RQ$. Its diagonals meet at $E$. Assume that $\\angle SPE = \\angle QPE$, as marked.",
+   "type": "choice",
+   "prompt": "Using $PS = PQ$, $\\angle SPE = \\angle QPE$ and the common side $PE$, which test shows that $\\triangle PSE \\equiv \\triangle PQE$?",
+   "answer": 1,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q11c",
+   "label": "11c",
+   "section": "Reasoning",
+   "stem": "$PQRS$ is a kite with $PS = PQ$ and $RS = RQ$. Its diagonals meet at $E$. Assume that $\\angle SPE = \\angle QPE$, as marked.",
+   "type": "numeric",
+   "prompt": "So $\\angle PES = \\angle PEQ$, and they lie on a straight line. What is the size of each angle?",
+   "answer": "90",
+   "units": "°"
+  },
+  {
+   "id": "q12a",
+   "label": "12a",
+   "section": "Enrichment",
+   "type": "choice",
+   "prompt": "Quadrilateral $EFGH$ has $EF = GH$ and $FG = HE$. The diagonal $FH$ is drawn. Which test shows that $\\triangle EFH \\equiv \\triangle GHF$? (This leads to alternate angles being equal, so the opposite sides are parallel.)",
+   "answer": 0,
+   "figure": {
+    "kind": "diagram",
+    "unit": 34,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        4.4,
+        0
+       ],
+       [
+        6,
+        2.8
+       ],
+       [
+        1.6,
+        2.8
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "E",
+      "at": [
+       -0.346,
+       -0.221
+      ]
+     },
+     {
+      "label": "F",
+      "at": [
+       4.67,
+       -0.329
+      ]
+     },
+     {
+      "label": "G",
+      "at": [
+       6.346,
+       2.903
+      ]
+     },
+     {
+      "label": "H",
+      "at": [
+       1.33,
+       3.012
+      ]
+     },
+     {
+      "seg": [
+       4.4,
+       0,
+       1.6,
+       2.8
+      ]
+     },
+     {
+      "tick": [
+       0,
+       0,
+       4.4,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       1.6,
+       2.8,
+       6,
+       2.8
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       0,
+       0,
+       1.6,
+       2.8
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       4.4,
+       0,
+       6,
+       2.8
+      ],
+      "n": 2
+     }
+    ]
+   },
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q12b",
+   "label": "12b",
+   "section": "Enrichment",
+   "type": "choice",
+   "prompt": "In quadrilateral $JKLM$ the diagonals bisect each other at $N$. Which test shows that $\\triangle JKN \\equiv \\triangle LMN$? (Use the vertically opposite angles at $N$.)",
+   "answer": 1,
+   "figure": {
+    "kind": "diagram",
+    "unit": 34,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        5,
+        0.6
+       ],
+       [
+        6.2,
+        3.4
+       ],
+       [
+        1.2,
+        2.8
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "J",
+      "at": [
+       -0.335,
+       -0.243
+      ]
+     },
+     {
+      "label": "K",
+      "at": [
+       5.331,
+       0.35
+      ]
+     },
+     {
+      "label": "L",
+      "at": [
+       6.535,
+       3.525
+      ]
+     },
+     {
+      "label": "M",
+      "at": [
+       0.869,
+       2.933
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       6.2,
+       3.4
+      ]
+     },
+     {
+      "seg": [
+       5,
+       0.6,
+       1.2,
+       2.8
+      ]
+     },
+     {
+      "tick": [
+       0,
+       0,
+       3.1,
+       1.7
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       3.1,
+       1.7,
+       6.2,
+       3.4
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       5,
+       0.6,
+       3.1,
+       1.7
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       3.1,
+       1.7,
+       1.2,
+       2.8
+      ],
+      "n": 2
+     },
+     {
+      "label": "N",
+      "at": [
+       3.1,
+       2.171
+      ]
+     }
+    ]
+   },
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q12c",
+   "label": "12c",
+   "section": "Enrichment",
+   "type": "numeric",
+   "prompt": "Parallelogram $PQRS$ has equal diagonals, $PR = QS$. Triangles $PQS$ and $QPR$ are congruent (SSS), so $\\angle SPQ = \\angle RQP$. These two angles are co-interior angles between the parallel sides $PS$ and $QR$. What is the size of each angle?",
+   "answer": "90",
+   "figure": {
+    "kind": "diagram",
+    "unit": 34,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        5,
+        0
+       ],
+       [
+        5,
+        3
+       ],
+       [
+        0,
+        3
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "P",
+      "at": [
+       -0.328,
+       -0.256
+      ]
+     },
+     {
+      "label": "Q",
+      "at": [
+       5.328,
+       -0.256
+      ]
+     },
+     {
+      "label": "R",
+      "at": [
+       5.328,
+       3.138
+      ]
+     },
+     {
+      "label": "S",
+      "at": [
+       -0.328,
+       3.138
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       5,
+       3
+      ]
+     },
+     {
+      "seg": [
+       5,
+       0,
+       0,
+       3
+      ]
+     },
+     {
+      "par": [
+       0,
+       0,
+       5,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       0,
+       3,
+       5,
+       3
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       0,
+       0,
+       0,
+       3
+      ],
+      "n": 2
+     },
+     {
+      "par": [
+       5,
+       0,
+       5,
+       3
+      ],
+      "n": 2
+     }
+    ]
+   },
+   "units": "°"
+  }
+ ]
+},
+{
+ "id": "y8-10h",
+ "year": 8,
+ "chapter": "Chapter 10: Transformations and congruence",
+ "title": "10H Similar figures",
+ "description": "Identify corresponding sides and angles of similar figures, find scale factors and missing lengths, and decide whether shapes are similar.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Quadrilaterals $ABCD$ and $EFGH$ are similar, with the vertices in matching order.",
+   "type": "text",
+   "prompt": "Which side of $EFGH$ corresponds to $BC$?",
+   "answer": "FG",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        4,
+        0
+       ],
+       [
+        5.5,
+        2.598
+       ],
+       [
+        0,
+        2
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "A",
+      "at": [
+       -0.549,
+       -0.359
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       4.497,
+       -0.446
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       6.053,
+       2.761
+      ]
+     },
+     {
+      "label": "D",
+      "at": [
+       -0.574,
+       2.112
+      ]
+     },
+     {
+      "label": "4 m",
+      "at": [
+       2,
+       -0.703
+      ],
+      "anchor": "middle"
+     },
+     {
+      "label": "x m",
+      "at": [
+       5.197,
+       1.041
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "2 m",
+      "at": [
+       -0.516,
+       1
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       4,
+       0,
+       60,
+       180
+      ],
+      "r": 0.938,
+      "label": "a°"
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 0.844
+     },
+     {
+      "poly": [
+       [
+        22.5,
+        -1
+       ],
+       [
+        12.5,
+        -1
+       ],
+       [
+        8.75,
+        5.495
+       ],
+       [
+        22.5,
+        4
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "E",
+      "at": [
+       23.049,
+       -1.359
+      ]
+     },
+     {
+      "label": "F",
+      "at": [
+       12.003,
+       -1.446
+      ]
+     },
+     {
+      "label": "G",
+      "at": [
+       8.197,
+       5.658
+      ]
+     },
+     {
+      "label": "H",
+      "at": [
+       23.074,
+       4.112
+      ]
+     },
+     {
+      "label": "10 m",
+      "at": [
+       17.5,
+       -1.703
+      ],
+      "anchor": "middle"
+     },
+     {
+      "label": "7.5 m",
+      "at": [
+       10.178,
+       1.99
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "y m",
+      "at": [
+       23.016,
+       1.5
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       12.5,
+       -1,
+       0,
+       120
+      ],
+      "r": 0.938,
+      "label": "120°"
+     },
+     {
+      "angle": [
+       22.5,
+       -1,
+       90,
+       180
+      ],
+      "right": true,
+      "r": 0.844
+     }
+    ]
+   },
+   "accept": [
+    "GF"
+   ],
+   "hint": "Type the two letters, for example AB"
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Quadrilaterals $ABCD$ and $EFGH$ are similar, with the vertices in matching order.",
+   "type": "text",
+   "prompt": "Which angle of $EFGH$ corresponds to $\\angle D$?",
+   "answer": "H",
+   "accept": [
+    "∠H",
+    "angle H",
+    "GHE",
+    "∠GHE",
+    "angle GHE",
+    "EHG",
+    "∠EHG",
+    "angle EHG"
+   ],
+   "hint": "Type the vertex letter, for example A"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "Quadrilaterals $ABCD$ and $EFGH$ are similar, with the vertices in matching order.",
+   "type": "numeric",
+   "prompt": "Find the scale factor (from the smaller figure to the larger).",
+   "answer": "5/2",
+   "hint": "Type a fraction like 7/3 or a decimal"
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "Quadrilaterals $ABCD$ and $EFGH$ are similar, with the vertices in matching order.",
+   "type": "numeric",
+   "prompt": "Find the value of $x$.",
+   "answer": "3"
+  },
+  {
+   "id": "q1e",
+   "label": "1e",
+   "section": "Fluency",
+   "stem": "Quadrilaterals $ABCD$ and $EFGH$ are similar, with the vertices in matching order.",
+   "type": "numeric",
+   "prompt": "Find the value of $y$.",
+   "answer": "5"
+  },
+  {
+   "id": "q1f",
+   "label": "1f",
+   "section": "Fluency",
+   "stem": "Quadrilaterals $ABCD$ and $EFGH$ are similar, with the vertices in matching order.",
+   "type": "numeric",
+   "prompt": "Find the value of $a$.",
+   "answer": "120"
+  },
+  {
+   "id": "q1g",
+   "label": "1g",
+   "section": "Fluency",
+   "stem": "Triangles $JKL$ and $RST$ are similar, with the vertices in matching order.",
+   "type": "text",
+   "prompt": "Which side of $\\triangle RST$ corresponds to $JL$?",
+   "answer": "RT",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "poly": [
+       [
+        4,
+        0
+       ],
+       [
+        0,
+        0
+       ],
+       [
+        -1.042,
+        5.909
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "J",
+      "at": [
+       4.42,
+       -0.352
+      ]
+     },
+     {
+      "label": "K",
+      "at": [
+       -0.225,
+       -0.526
+      ]
+     },
+     {
+      "label": "L",
+      "at": [
+       -1.272,
+       6.278
+      ]
+     },
+     {
+      "label": "4 cm",
+      "at": [
+       2,
+       -0.579
+      ],
+      "anchor": "middle"
+     },
+     {
+      "label": "6 cm",
+      "at": [
+       -0.939,
+       2.881
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       100
+      ],
+      "r": 0.773,
+      "label": "b°"
+     },
+     {
+      "poly": [
+       [
+        7.362,
+        3.948
+       ],
+       [
+        13,
+        6
+       ],
+       [
+        17.5,
+        -1.794
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "R",
+      "at": [
+       6.873,
+       3.985
+      ]
+     },
+     {
+      "label": "S",
+      "at": [
+       13.058,
+       6.422
+      ]
+     },
+     {
+      "label": "T",
+      "at": [
+       17.869,
+       -2.212
+      ]
+     },
+     {
+      "label": "6 cm",
+      "at": [
+       9.983,
+       5.518
+      ],
+      "anchor": "middle"
+     },
+     {
+      "label": "x cm",
+      "at": [
+       15.618,
+       2.315
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       13,
+       6,
+       200,
+       300
+      ],
+      "r": 0.773,
+      "label": "100°"
+     }
+    ]
+   },
+   "accept": [
+    "TR"
+   ]
+  },
+  {
+   "id": "q1h",
+   "label": "1h",
+   "section": "Fluency",
+   "stem": "Triangles $JKL$ and $RST$ are similar, with the vertices in matching order.",
+   "type": "text",
+   "prompt": "Which angle of $\\triangle RST$ corresponds to $\\angle J$?",
+   "answer": "R",
+   "accept": [
+    "∠R",
+    "angle R",
+    "SRT",
+    "∠SRT",
+    "angle SRT",
+    "TRS",
+    "∠TRS",
+    "angle TRS"
+   ]
+  },
+  {
+   "id": "q1i",
+   "label": "1i",
+   "section": "Fluency",
+   "stem": "Triangles $JKL$ and $RST$ are similar, with the vertices in matching order.",
+   "type": "numeric",
+   "prompt": "Find the scale factor (from the smaller triangle to the larger).",
+   "answer": "3/2"
+  },
+  {
+   "id": "q1j",
+   "label": "1j",
+   "section": "Fluency",
+   "stem": "Triangles $JKL$ and $RST$ are similar, with the vertices in matching order.",
+   "type": "numeric",
+   "prompt": "Find the value of $x$.",
+   "answer": "9"
+  },
+  {
+   "id": "q1k",
+   "label": "1k",
+   "section": "Fluency",
+   "stem": "Triangles $JKL$ and $RST$ are similar, with the vertices in matching order.",
+   "type": "numeric",
+   "prompt": "Find the value of $b$.",
+   "answer": "100"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Quadrilaterals $ABCD$ and $EFGH$ are similar, with the vertices in matching order.",
+   "type": "text",
+   "prompt": "Which side of $EFGH$ corresponds to $AD$?",
+   "answer": "EH",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        1.732
+       ],
+       [
+        3,
+        1.732
+       ],
+       [
+        2,
+        0
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "A",
+      "at": [
+       -0.356,
+       1.912
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       3.388,
+       1.858
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       2.284,
+       -0.394
+      ]
+     },
+     {
+      "label": "D",
+      "at": [
+       -0.356,
+       -0.313
+      ]
+     },
+     {
+      "label": "3 m",
+      "at": [
+       1.5,
+       2.232
+      ],
+      "anchor": "middle"
+     },
+     {
+      "label": "y m",
+      "at": [
+       2.818,
+       0.683
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "2 m",
+      "at": [
+       1,
+       -0.5
+      ],
+      "anchor": "middle"
+     },
+     {
+      "angle": [
+       2,
+       0,
+       60,
+       180
+      ],
+      "r": 0.667,
+      "label": "120°"
+     },
+     {
+      "angle": [
+       0,
+       1.732,
+       270,
+       0
+      ],
+      "right": true,
+      "r": 0.6
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 0.6
+     },
+     {
+      "poly": [
+       [
+        6,
+        3.696
+       ],
+       [
+        15,
+        3.696
+       ],
+       [
+        12,
+        -1.5
+       ],
+       [
+        6,
+        -1.5
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "E",
+      "at": [
+       5.644,
+       3.876
+      ]
+     },
+     {
+      "label": "F",
+      "at": [
+       15.388,
+       3.822
+      ]
+     },
+     {
+      "label": "G",
+      "at": [
+       12.284,
+       -1.894
+      ]
+     },
+     {
+      "label": "H",
+      "at": [
+       5.644,
+       -1.813
+      ]
+     },
+     {
+      "label": "9 m",
+      "at": [
+       10.5,
+       4.196
+      ],
+      "anchor": "middle"
+     },
+     {
+      "label": "6 m",
+      "at": [
+       13.818,
+       0.915
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "x m",
+      "at": [
+       9,
+       -2
+      ],
+      "anchor": "middle"
+     },
+     {
+      "angle": [
+       12,
+       -1.5,
+       60,
+       180
+      ],
+      "r": 0.667,
+      "label": "a°"
+     },
+     {
+      "angle": [
+       6,
+       3.696,
+       270,
+       0
+      ],
+      "right": true,
+      "r": 0.6
+     },
+     {
+      "angle": [
+       6,
+       -1.5,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 0.6
+     }
+    ]
+   },
+   "accept": [
+    "HE"
+   ]
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Quadrilaterals $ABCD$ and $EFGH$ are similar, with the vertices in matching order.",
+   "type": "text",
+   "prompt": "Which angle of $EFGH$ corresponds to $\\angle B$?",
+   "answer": "F",
+   "accept": [
+    "∠F",
+    "angle F",
+    "EFG",
+    "∠EFG",
+    "angle EFG",
+    "GFE",
+    "∠GFE",
+    "angle GFE"
+   ]
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Quadrilaterals $ABCD$ and $EFGH$ are similar, with the vertices in matching order.",
+   "type": "numeric",
+   "prompt": "Find the scale factor (from the smaller figure to the larger).",
+   "answer": "3"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Quadrilaterals $ABCD$ and $EFGH$ are similar, with the vertices in matching order.",
+   "type": "numeric",
+   "prompt": "Find the value of $x$.",
+   "answer": "6"
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Quadrilaterals $ABCD$ and $EFGH$ are similar, with the vertices in matching order.",
+   "type": "numeric",
+   "prompt": "Find the value of $y$.",
+   "answer": "2"
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "Quadrilaterals $ABCD$ and $EFGH$ are similar, with the vertices in matching order.",
+   "type": "numeric",
+   "prompt": "Find the value of $a$.",
+   "answer": "120"
+  },
+  {
+   "id": "q2g",
+   "label": "2g",
+   "section": "Fluency",
+   "stem": "Pentagons $ABCDE$ and $FGHIJ$ are similar, with the vertices in matching order.",
+   "type": "text",
+   "prompt": "Which side of $FGHIJ$ corresponds to $CD$?",
+   "answer": "HI",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        4,
+        0
+       ],
+       [
+        4,
+        2
+       ],
+       [
+        2,
+        3.349
+       ],
+       [
+        0,
+        2
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "A",
+      "at": [
+       -0.447,
+       -0.414
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       4.447,
+       -0.414
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       4.537,
+       2.057
+      ]
+     },
+     {
+      "label": "D",
+      "at": [
+       2,
+       3.819
+      ]
+     },
+     {
+      "label": "E",
+      "at": [
+       -0.537,
+       2.057
+      ]
+     },
+     {
+      "label": "4 cm",
+      "at": [
+       2,
+       -0.641
+      ],
+      "anchor": "middle"
+     },
+     {
+      "label": "x cm",
+      "at": [
+       4.47,
+       1
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       2,
+       3.349,
+       214,
+       326
+      ],
+      "r": 0.854,
+      "label": "a°"
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 0.769
+     },
+     {
+      "angle": [
+       4,
+       0,
+       90,
+       180
+      ],
+      "right": true,
+      "r": 0.769
+     },
+     {
+      "poly": [
+       [
+        6.5,
+        0
+       ],
+       [
+        20.5,
+        0
+       ],
+       [
+        20.5,
+        7
+       ],
+       [
+        13.5,
+        11.722
+       ],
+       [
+        6.5,
+        7
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "F",
+      "at": [
+       6.053,
+       -0.414
+      ]
+     },
+     {
+      "label": "G",
+      "at": [
+       20.947,
+       -0.414
+      ]
+     },
+     {
+      "label": "H",
+      "at": [
+       21.037,
+       7.057
+      ]
+     },
+     {
+      "label": "I",
+      "at": [
+       13.5,
+       12.191
+      ]
+     },
+     {
+      "label": "J",
+      "at": [
+       5.963,
+       7.057
+      ]
+     },
+     {
+      "label": "14 cm",
+      "at": [
+       13.5,
+       -0.641
+      ],
+      "anchor": "middle"
+     },
+     {
+      "label": "7 cm",
+      "at": [
+       20.97,
+       3.5
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       13.5,
+       11.722,
+       214,
+       326
+      ],
+      "r": 0.854,
+      "label": "112°"
+     },
+     {
+      "angle": [
+       6.5,
+       0,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 0.769
+     },
+     {
+      "angle": [
+       20.5,
+       0,
+       90,
+       180
+      ],
+      "right": true,
+      "r": 0.769
+     }
+    ]
+   },
+   "accept": [
+    "IH"
+   ]
+  },
+  {
+   "id": "q2h",
+   "label": "2h",
+   "section": "Fluency",
+   "stem": "Pentagons $ABCDE$ and $FGHIJ$ are similar, with the vertices in matching order.",
+   "type": "text",
+   "prompt": "Which angle of $FGHIJ$ corresponds to $\\angle E$?",
+   "answer": "J",
+   "accept": [
+    "∠J",
+    "angle J",
+    "IJF",
+    "∠IJF",
+    "angle IJF",
+    "FJI",
+    "∠FJI",
+    "angle FJI"
+   ]
+  },
+  {
+   "id": "q2i",
+   "label": "2i",
+   "section": "Fluency",
+   "stem": "Pentagons $ABCDE$ and $FGHIJ$ are similar, with the vertices in matching order.",
+   "type": "numeric",
+   "prompt": "Find the scale factor (from the smaller figure to the larger).",
+   "answer": "7/2"
+  },
+  {
+   "id": "q2j",
+   "label": "2j",
+   "section": "Fluency",
+   "stem": "Pentagons $ABCDE$ and $FGHIJ$ are similar, with the vertices in matching order.",
+   "type": "numeric",
+   "prompt": "Find the value of $x$.",
+   "answer": "2"
+  },
+  {
+   "id": "q2k",
+   "label": "2k",
+   "section": "Fluency",
+   "stem": "Pentagons $ABCDE$ and $FGHIJ$ are similar, with the vertices in matching order.",
+   "type": "numeric",
+   "prompt": "Find the value of $a$.",
+   "answer": "112"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Are the two shapes on the grid similar? If so, what is the scale factor?",
+   "type": "choice",
+   "prompt": "Grid a",
+   "answer": 1,
+   "figure": {
+    "kind": "diagram",
+    "unit": 26,
+    "items": [
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       1,
+       0,
+       1,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       2,
+       0,
+       2,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       0,
+       3,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       4,
+       0,
+       4,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       5,
+       0,
+       5,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       6,
+       0,
+       6,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       7,
+       0,
+       7,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       8,
+       0,
+       8,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       9,
+       0,
+       9,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       10,
+       0,
+       10,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       0,
+       10,
+       0
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       1,
+       10,
+       1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       2,
+       10,
+       2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       3,
+       10,
+       3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       4,
+       10,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       5,
+       10,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       6,
+       10,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       7,
+       10,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "poly": [
+       [
+        1,
+        4
+       ],
+       [
+        3,
+        4
+       ],
+       [
+        3,
+        5
+       ],
+       [
+        2,
+        6
+       ],
+       [
+        1,
+        6
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        5,
+        0
+       ],
+       [
+        9,
+        0
+       ],
+       [
+        9,
+        2
+       ],
+       [
+        7,
+        4
+       ],
+       [
+        5,
+        4
+       ]
+      ],
+      "fill": true
+     }
+    ]
+   },
+   "options": [
+    "Not similar",
+    "Similar, scale factor 2",
+    "Similar, scale factor 3",
+    "Similar, scale factor 4"
+   ]
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Are the two shapes on the grid similar? If so, what is the scale factor?",
+   "type": "choice",
+   "prompt": "Grid b",
+   "answer": 2,
+   "figure": {
+    "kind": "diagram",
+    "unit": 26,
+    "items": [
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       1,
+       0,
+       1,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       2,
+       0,
+       2,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       0,
+       3,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       4,
+       0,
+       4,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       5,
+       0,
+       5,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       6,
+       0,
+       6,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       7,
+       0,
+       7,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       8,
+       0,
+       8,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       9,
+       0,
+       9,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       10,
+       0,
+       10,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       0,
+       10,
+       0
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       1,
+       10,
+       1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       2,
+       10,
+       2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       3,
+       10,
+       3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       4,
+       10,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       5,
+       10,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       6,
+       10,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       7,
+       10,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "poly": [
+       [
+        1,
+        4
+       ],
+       [
+        2,
+        4
+       ],
+       [
+        1,
+        6
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        3,
+        0
+       ],
+       [
+        9,
+        0
+       ],
+       [
+        9,
+        3
+       ]
+      ],
+      "fill": true
+     }
+    ]
+   },
+   "options": [
+    "Not similar",
+    "Similar, scale factor 2",
+    "Similar, scale factor 3",
+    "Similar, scale factor 4"
+   ]
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Are the two shapes on the grid similar? If so, what is the scale factor?",
+   "type": "choice",
+   "prompt": "Grid c",
+   "answer": 0,
+   "figure": {
+    "kind": "diagram",
+    "unit": 26,
+    "items": [
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       1,
+       0,
+       1,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       2,
+       0,
+       2,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       0,
+       3,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       4,
+       0,
+       4,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       5,
+       0,
+       5,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       6,
+       0,
+       6,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       7,
+       0,
+       7,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       8,
+       0,
+       8,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       9,
+       0,
+       9,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       10,
+       0,
+       10,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       0,
+       10,
+       0
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       1,
+       10,
+       1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       2,
+       10,
+       2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       3,
+       10,
+       3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       4,
+       10,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       5,
+       10,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       6,
+       10,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       7,
+       10,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "poly": [
+       [
+        1,
+        5
+       ],
+       [
+        4,
+        5
+       ],
+       [
+        4,
+        6
+       ],
+       [
+        1,
+        6
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        4,
+        1
+       ],
+       [
+        8,
+        1
+       ],
+       [
+        8,
+        3
+       ],
+       [
+        4,
+        3
+       ]
+      ],
+      "fill": true
+     }
+    ]
+   },
+   "options": [
+    "Not similar",
+    "Similar, scale factor 2",
+    "Similar, scale factor 3",
+    "Similar, scale factor 4"
+   ]
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Are the two shapes on the grid similar? If so, what is the scale factor?",
+   "type": "choice",
+   "prompt": "Grid d",
+   "answer": 3,
+   "figure": {
+    "kind": "diagram",
+    "unit": 26,
+    "items": [
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       9
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       1,
+       0,
+       1,
+       9
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       2,
+       0,
+       2,
+       9
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       0,
+       3,
+       9
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       4,
+       0,
+       4,
+       9
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       5,
+       0,
+       5,
+       9
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       6,
+       0,
+       6,
+       9
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       7,
+       0,
+       7,
+       9
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       8,
+       0,
+       8,
+       9
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       9,
+       0,
+       9,
+       9
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       10,
+       0,
+       10,
+       9
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       0,
+       10,
+       0
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       1,
+       10,
+       1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       2,
+       10,
+       2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       3,
+       10,
+       3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       4,
+       10,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       5,
+       10,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       6,
+       10,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       7,
+       10,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       8,
+       10,
+       8
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       9,
+       10,
+       9
+      ],
+      "thin": true
+     },
+     {
+      "poly": [
+       [
+        1,
+        6
+       ],
+       [
+        1.174,
+        6.015
+       ],
+       [
+        1.342,
+        6.06
+       ],
+       [
+        1.5,
+        6.134
+       ],
+       [
+        1.643,
+        6.234
+       ],
+       [
+        1.766,
+        6.357
+       ],
+       [
+        1.866,
+        6.5
+       ],
+       [
+        1.94,
+        6.658
+       ],
+       [
+        1.985,
+        6.826
+       ],
+       [
+        2,
+        7
+       ],
+       [
+        1.985,
+        7.174
+       ],
+       [
+        1.94,
+        7.342
+       ],
+       [
+        1.866,
+        7.5
+       ],
+       [
+        1.766,
+        7.643
+       ],
+       [
+        1.643,
+        7.766
+       ],
+       [
+        1.5,
+        7.866
+       ],
+       [
+        1.342,
+        7.94
+       ],
+       [
+        1.174,
+        7.985
+       ],
+       [
+        1,
+        8
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        5,
+        0
+       ],
+       [
+        5.695,
+        0.061
+       ],
+       [
+        6.368,
+        0.241
+       ],
+       [
+        7,
+        0.536
+       ],
+       [
+        7.571,
+        0.936
+       ],
+       [
+        8.064,
+        1.429
+       ],
+       [
+        8.464,
+        2
+       ],
+       [
+        8.759,
+        2.632
+       ],
+       [
+        8.939,
+        3.305
+       ],
+       [
+        9,
+        4
+       ],
+       [
+        8.939,
+        4.695
+       ],
+       [
+        8.759,
+        5.368
+       ],
+       [
+        8.464,
+        6
+       ],
+       [
+        8.064,
+        6.571
+       ],
+       [
+        7.571,
+        7.064
+       ],
+       [
+        7,
+        7.464
+       ],
+       [
+        6.368,
+        7.759
+       ],
+       [
+        5.695,
+        7.939
+       ],
+       [
+        5,
+        8
+       ]
+      ],
+      "fill": true
+     }
+    ]
+   },
+   "options": [
+    "Not similar",
+    "Similar, scale factor 2",
+    "Similar, scale factor 3",
+    "Similar, scale factor 4"
+   ]
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "Decide whether the two shapes are similar by looking at corresponding angles and the ratios of corresponding sides.",
+   "type": "choice",
+   "prompt": "Shapes a",
+   "answer": 0,
+   "figure": {
+    "kind": "diagram",
+    "unit": 26,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        8,
+        0
+       ],
+       [
+        0,
+        6
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "A",
+      "at": [
+       -0.563,
+       -0.531
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       8.659,
+       -0.356
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       -0.391,
+       6.478
+      ]
+     },
+     {
+      "label": "8 cm",
+      "at": [
+       4,
+       -0.813
+      ],
+      "anchor": "middle"
+     },
+     {
+      "label": "10 cm",
+      "at": [
+       4.357,
+       3.477
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "6 cm",
+      "at": [
+       -0.596,
+       3
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 0.975
+     },
+     {
+      "poly": [
+       [
+        26,
+        0
+       ],
+       [
+        26,
+        12
+       ],
+       [
+        17,
+        0
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "D",
+      "at": [
+       26.422,
+       -0.672
+      ]
+     },
+     {
+      "label": "E",
+      "at": [
+       26.247,
+       12.551
+      ]
+     },
+     {
+      "label": "F",
+      "at": [
+       16.414,
+       -0.499
+      ]
+     },
+     {
+      "label": "12 cm",
+      "at": [
+       26.596,
+       6
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "15 cm",
+      "at": [
+       21.023,
+       6.357
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "9 cm",
+      "at": [
+       21.5,
+       -0.812
+      ],
+      "anchor": "middle"
+     },
+     {
+      "angle": [
+       26,
+       0,
+       90,
+       180
+      ],
+      "right": true,
+      "r": 0.975
+     }
+    ]
+   },
+   "options": [
+    "Yes, they are similar",
+    "No, they are not similar"
+   ]
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "Decide whether the two shapes are similar by looking at corresponding angles and the ratios of corresponding sides.",
+   "type": "choice",
+   "prompt": "Shapes b (all sides of each shape are equal)",
+   "answer": 1,
+   "figure": {
+    "kind": "diagram",
+    "unit": 26,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        3,
+        0
+       ],
+       [
+        4.5,
+        2.598
+       ],
+       [
+        1.5,
+        2.598
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "A",
+      "at": [
+       -0.433,
+       -0.327
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       3.25,
+       -0.51
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       4.933,
+       2.771
+      ]
+     },
+     {
+      "label": "D",
+      "at": [
+       1.25,
+       2.954
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       60
+      ],
+      "r": 0.769,
+      "label": "60°"
+     },
+     {
+      "poly": [
+       [
+        7,
+        0
+       ],
+       [
+        11,
+        0
+       ],
+       [
+        11.695,
+        3.939
+       ],
+       [
+        7.695,
+        3.939
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "E",
+      "at": [
+       6.617,
+       -0.398
+      ]
+     },
+     {
+      "label": "F",
+      "at": [
+       11.321,
+       -0.46
+      ]
+     },
+     {
+      "label": "G",
+      "at": [
+       12.078,
+       4.184
+      ]
+     },
+     {
+      "label": "H",
+      "at": [
+       7.373,
+       4.245
+      ]
+     },
+     {
+      "angle": [
+       7,
+       0,
+       0,
+       80
+      ],
+      "r": 0.769,
+      "label": "80°"
+     },
+     {
+      "tick": [
+       0,
+       0,
+       3,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       3,
+       0,
+       4.5,
+       2.598
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       4.5,
+       2.598,
+       1.5,
+       2.598
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       1.5,
+       2.598,
+       0,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       7,
+       0,
+       11,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       11,
+       0,
+       11.695,
+       3.939
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       11.695,
+       3.939,
+       7.695,
+       3.939
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       7.695,
+       3.939,
+       7,
+       0
+      ],
+      "n": 1
+     }
+    ]
+   },
+   "options": [
+    "Yes, they are similar",
+    "No, they are not similar"
+   ]
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "Decide whether the two shapes are similar by looking at corresponding angles and the ratios of corresponding sides.",
+   "type": "choice",
+   "prompt": "Shapes c (drawn to different scales)",
+   "answer": 0,
+   "figure": {
+    "kind": "diagram",
+    "unit": 26,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        6,
+        0
+       ],
+       [
+        6,
+        4
+       ],
+       [
+        0,
+        4
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "A",
+      "at": [
+       -0.416,
+       -0.354
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       6.416,
+       -0.354
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       6.416,
+       4.2
+      ]
+     },
+     {
+      "label": "D",
+      "at": [
+       -0.416,
+       4.2
+      ]
+     },
+     {
+      "label": "6 m",
+      "at": [
+       3,
+       -0.577
+      ],
+      "anchor": "middle"
+     },
+     {
+      "label": "4 m",
+      "at": [
+       6.423,
+       2
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 0.692
+     },
+     {
+      "angle": [
+       6,
+       0,
+       90,
+       180
+      ],
+      "right": true,
+      "r": 0.692
+     },
+     {
+      "angle": [
+       6,
+       4,
+       180,
+       270
+      ],
+      "right": true,
+      "r": 0.692
+     },
+     {
+      "angle": [
+       0,
+       4,
+       270,
+       0
+      ],
+      "right": true,
+      "r": 0.692
+     },
+     {
+      "poly": [
+       [
+        9.5,
+        -1
+       ],
+       [
+        17,
+        -1
+       ],
+       [
+        17,
+        4
+       ],
+       [
+        9.5,
+        4
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "E",
+      "at": [
+       9.084,
+       -1.354
+      ]
+     },
+     {
+      "label": "F",
+      "at": [
+       17.416,
+       -1.354
+      ]
+     },
+     {
+      "label": "G",
+      "at": [
+       17.416,
+       4.2
+      ]
+     },
+     {
+      "label": "H",
+      "at": [
+       9.084,
+       4.2
+      ]
+     },
+     {
+      "label": "15 m",
+      "at": [
+       13.25,
+       -1.577
+      ],
+      "anchor": "middle"
+     },
+     {
+      "label": "10 m",
+      "at": [
+       17.423,
+       1.5
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       9.5,
+       -1,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 0.692
+     },
+     {
+      "angle": [
+       17,
+       -1,
+       90,
+       180
+      ],
+      "right": true,
+      "r": 0.692
+     },
+     {
+      "angle": [
+       17,
+       4,
+       180,
+       270
+      ],
+      "right": true,
+      "r": 0.692
+     },
+     {
+      "angle": [
+       9.5,
+       4,
+       270,
+       0
+      ],
+      "right": true,
+      "r": 0.692
+     }
+    ]
+   },
+   "options": [
+    "Yes, they are similar",
+    "No, they are not similar"
+   ]
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "Decide whether the two shapes are similar by looking at corresponding angles and the ratios of corresponding sides.",
+   "type": "choice",
+   "prompt": "Shapes d (both are parallelograms, drawn to the same scale as each other)",
+   "answer": 1,
+   "figure": {
+    "kind": "diagram",
+    "unit": 26,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        5,
+        0
+       ],
+       [
+        6.147,
+        1.638
+       ],
+       [
+        1.147,
+        1.638
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "A",
+      "at": [
+       -0.483,
+       -0.206
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       5.46,
+       -0.273
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       6.63,
+       1.69
+      ]
+     },
+     {
+      "label": "D",
+      "at": [
+       0.687,
+       1.757
+      ]
+     },
+     {
+      "label": "10 cm",
+      "at": [
+       2.5,
+       -0.577
+      ],
+      "anchor": "middle"
+     },
+     {
+      "label": "4 cm",
+      "at": [
+       0.227,
+       1.062
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       55
+      ],
+      "r": 0.769,
+      "label": "55°"
+     },
+     {
+      "poly": [
+       [
+        9.5,
+        0
+       ],
+       [
+        15.5,
+        0
+       ],
+       [
+        17.221,
+        2.457
+       ],
+       [
+        11.221,
+        2.457
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "E",
+      "at": [
+       9.024,
+       -0.229
+      ]
+     },
+     {
+      "label": "F",
+      "at": [
+       15.934,
+       -0.326
+      ]
+     },
+     {
+      "label": "G",
+      "at": [
+       17.697,
+       2.532
+      ]
+     },
+     {
+      "label": "H",
+      "at": [
+       10.787,
+       2.63
+      ]
+     },
+     {
+      "label": "12 cm",
+      "at": [
+       12.5,
+       -0.577
+      ],
+      "anchor": "middle"
+     },
+     {
+      "label": "6 cm",
+      "at": [
+       10.014,
+       1.471
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       9.5,
+       0,
+       0,
+       55
+      ],
+      "r": 0.769,
+      "label": "55°"
+     }
+    ]
+   },
+   "options": [
+    "Yes, they are similar",
+    "No, they are not similar"
+   ]
+  },
+  {
+   "id": "q5",
+   "label": "5",
+   "section": "Problem-solving",
+   "type": "numeric",
+   "prompt": "Two rectangular picture frames are similar. A pair of corresponding sides measure $30$ cm and $45$ cm. The other side of the smaller frame is $48$ cm. Find the perimeter of the larger frame.",
+   "answer": "234",
+   "units": "cm"
+  },
+  {
+   "id": "q6",
+   "label": "6",
+   "section": "Problem-solving",
+   "type": "numeric",
+   "prompt": "Two similar triangles have a scale factor of $\\frac{5}{2}$. A side of the larger triangle is $45$ cm. Find the length of the corresponding side of the smaller triangle.",
+   "answer": "18",
+   "units": "cm"
+  },
+  {
+   "id": "q7",
+   "label": "7",
+   "section": "Problem-solving",
+   "type": "numeric",
+   "prompt": "One circle has a circumference of $14\\pi$ cm and another circle has an area of $25\\pi$ cm$^2$. Find the scale factor of their diameters (from the smaller circle to the larger).",
+   "answer": "7/5",
+   "hint": "Type a fraction like 7/3 or a decimal"
+  },
+  {
+   "id": "q8",
+   "label": "8",
+   "section": "Problem-solving",
+   "type": "numeric",
+   "prompt": "A square photo with an area of $64$ cm$^2$ is enlarged to an area of $400$ cm$^2$. Find the scale factor of the side lengths.",
+   "answer": "5/2"
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Reasoning",
+   "stem": "True or false?",
+   "type": "choice",
+   "prompt": "All squares are similar.",
+   "answer": 0,
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Reasoning",
+   "stem": "True or false?",
+   "type": "choice",
+   "prompt": "All rectangles are similar.",
+   "answer": 1,
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "id": "q9c",
+   "label": "9c",
+   "section": "Reasoning",
+   "stem": "True or false?",
+   "type": "choice",
+   "prompt": "All equilateral triangles are similar.",
+   "answer": 0,
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "id": "q9d",
+   "label": "9d",
+   "section": "Reasoning",
+   "stem": "True or false?",
+   "type": "choice",
+   "prompt": "All right-angled triangles are similar.",
+   "answer": 1,
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "id": "q9e",
+   "label": "9e",
+   "section": "Reasoning",
+   "stem": "True or false?",
+   "type": "choice",
+   "prompt": "All rhombuses are similar.",
+   "answer": 1,
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "id": "q9f",
+   "label": "9f",
+   "section": "Reasoning",
+   "stem": "True or false?",
+   "type": "choice",
+   "prompt": "All regular hexagons are similar.",
+   "answer": 0,
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "id": "q9g",
+   "label": "9g",
+   "section": "Reasoning",
+   "stem": "True or false?",
+   "type": "choice",
+   "prompt": "All kites are similar.",
+   "answer": 1,
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "id": "q9h",
+   "label": "9h",
+   "section": "Reasoning",
+   "stem": "True or false?",
+   "type": "choice",
+   "prompt": "All isosceles right-angled triangles are similar.",
+   "answer": 0,
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "id": "q9i",
+   "label": "9i",
+   "section": "Reasoning",
+   "stem": "True or false?",
+   "type": "choice",
+   "prompt": "All semicircles are similar.",
+   "answer": 0,
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Reasoning",
+   "stem": "Think about angles and side ratios.",
+   "type": "choice",
+   "prompt": "A regular hexagon is enlarged. Do its interior angles change?",
+   "answer": 1,
+   "options": [
+    "Yes, they get bigger",
+    "No, they stay the same",
+    "Yes, they get smaller"
+   ]
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Reasoning",
+   "stem": "Think about angles and side ratios.",
+   "type": "choice",
+   "prompt": "Are all pentagons similar to each other?",
+   "answer": 1,
+   "options": [
+    "Yes, they all have 5 sides",
+    "No, their angles and side ratios can be different"
+   ]
+  },
+  {
+   "id": "q11",
+   "label": "11",
+   "section": "Reasoning",
+   "type": "ratio",
+   "prompt": "One square is similar to another with a scale factor of $5$. What is the ratio of the area of the small square to the area of the large square?",
+   "answer": "1:25",
+   "simplest": true,
+   "hint": "Type a ratio like 2:3"
+  },
+  {
+   "id": "q12a",
+   "label": "12a",
+   "section": "Enrichment",
+   "stem": "A design is made of squares. Each square is formed by joining the midpoints of the sides of the next larger square. The outside square has sides of $6$ cm.",
+   "type": "numeric",
+   "prompt": "Use Pythagoras' theorem to find the side length of the second largest square, correct to 2 decimal places.",
+   "answer": "4.24",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "poly": [
+       [
+        -3,
+        -3
+       ],
+       [
+        3,
+        -3
+       ],
+       [
+        3,
+        3
+       ],
+       [
+        -3,
+        3
+       ]
+      ]
+     },
+     {
+      "poly": [
+       [
+        3,
+        0
+       ],
+       [
+        0,
+        3
+       ],
+       [
+        -3,
+        0
+       ],
+       [
+        0,
+        -3
+       ]
+      ]
+     },
+     {
+      "poly": [
+       [
+        -1.5,
+        -1.5
+       ],
+       [
+        1.5,
+        -1.5
+       ],
+       [
+        1.5,
+        1.5
+       ],
+       [
+        -1.5,
+        1.5
+       ]
+      ]
+     },
+     {
+      "poly": [
+       [
+        1.5,
+        0
+       ],
+       [
+        0,
+        1.5
+       ],
+       [
+        -1.5,
+        0
+       ],
+       [
+        0,
+        -1.5
+       ]
+      ]
+     },
+     {
+      "poly": [
+       [
+        -0.75,
+        -0.75
+       ],
+       [
+        0.75,
+        -0.75
+       ],
+       [
+        0.75,
+        0.75
+       ],
+       [
+        -0.75,
+        0.75
+       ]
+      ]
+     },
+     {
+      "label": "6 cm",
+      "at": [
+       0,
+       -3.55
+      ]
+     }
+    ]
+   },
+   "dp": 2,
+   "units": "cm"
+  },
+  {
+   "id": "q12b",
+   "label": "12b",
+   "section": "Enrichment",
+   "stem": "A design is made of squares. Each square is formed by joining the midpoints of the sides of the next larger square. The outside square has sides of $6$ cm.",
+   "type": "numeric",
+   "prompt": "Find the side length of the third largest square.",
+   "answer": "3",
+   "units": "cm"
+  },
+  {
+   "id": "q12c",
+   "label": "12c",
+   "section": "Enrichment",
+   "stem": "A design is made of squares. Each square is formed by joining the midpoints of the sides of the next larger square. The outside square has sides of $6$ cm.",
+   "type": "numeric",
+   "prompt": "Find the scale factor from one square to the next larger square, correct to 2 decimal places.",
+   "answer": "1.41",
+   "dp": 2
+  },
+  {
+   "id": "q12d",
+   "label": "12d",
+   "section": "Enrichment",
+   "stem": "A design is made of squares. Each square is formed by joining the midpoints of the sides of the next larger square. The outside square has sides of $6$ cm.",
+   "type": "numeric",
+   "prompt": "What is the scale factor between alternate squares (for example the third largest to the largest)?",
+   "answer": "2"
+  }
+ ]
+},
+{
+ "id": "y8-10i",
+ "year": 8,
+ "chapter": "Chapter 10: Transformations and congruence",
+ "title": "10I Similar triangles",
+ "description": "Use the AAA, SSS, SAS and RHS tests to show triangles are similar, and use scale factors to find missing lengths.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "These pairs of triangles are similar. What ratio (scale factor) of corresponding sides shows this? Give it from the smaller triangle to the larger.",
+   "type": "numeric",
+   "prompt": "Pair a (right-angled triangles)",
+   "answer": "5/2",
+   "figure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        3,
+        0
+       ],
+       [
+        0,
+        4
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "A",
+      "at": [
+       -0.26,
+       -0.413
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       3.361,
+       -0.307
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       -0.152,
+       4.339
+      ]
+     },
+     {
+      "label": "3 m",
+      "at": [
+       1.5,
+       -0.5
+      ],
+      "anchor": "middle"
+     },
+     {
+      "label": "5 m",
+      "at": [
+       1.793,
+       2.22
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 0.6
+     },
+     {
+      "poly": [
+       [
+        12,
+        0
+       ],
+       [
+        7.5,
+        0
+       ],
+       [
+        12,
+        6
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "D",
+      "at": [
+       12.26,
+       -0.413
+      ]
+     },
+     {
+      "label": "E",
+      "at": [
+       7.139,
+       -0.307
+      ]
+     },
+     {
+      "label": "F",
+      "at": [
+       12.152,
+       6.339
+      ]
+     },
+     {
+      "label": "7.5 m",
+      "at": [
+       9.75,
+       -0.5
+      ],
+      "anchor": "middle"
+     },
+     {
+      "label": "12.5 m",
+      "at": [
+       9.457,
+       3.22
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       12,
+       0,
+       90,
+       180
+      ],
+      "right": true,
+      "r": 0.6
+     }
+    ]
+   },
+   "hint": "Type a fraction like 7/4 or a decimal"
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "These pairs of triangles are similar. What ratio (scale factor) of corresponding sides shows this? Give it from the smaller triangle to the larger.",
+   "type": "numeric",
+   "prompt": "Pair b",
+   "answer": "4/3",
+   "figure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        6,
+        0
+       ],
+       [
+        3.938,
+        2.179
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "A",
+      "at": [
+       -0.423,
+       -0.159
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       6.418,
+       -0.18
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       4.109,
+       2.51
+      ]
+     },
+     {
+      "label": "6 cm",
+      "at": [
+       3,
+       -0.5
+      ],
+      "anchor": "middle"
+     },
+     {
+      "label": "3 cm",
+      "at": [
+       5.235,
+       1.341
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "4.5 cm",
+      "at": [
+       1.791,
+       1.41
+      ],
+      "anchor": "end"
+     },
+     {
+      "poly": [
+       [
+        14,
+        2.5
+       ],
+       [
+        8,
+        2.5
+       ],
+       [
+        10.062,
+        0.321
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "D",
+      "at": [
+       14.423,
+       2.526
+      ]
+     },
+     {
+      "label": "E",
+      "at": [
+       7.582,
+       2.546
+      ]
+     },
+     {
+      "label": "F",
+      "at": [
+       9.891,
+       -0.143
+      ]
+     },
+     {
+      "label": "8 cm",
+      "at": [
+       11,
+       3
+      ],
+      "anchor": "middle"
+     },
+     {
+      "label": "4 cm",
+      "at": [
+       8.765,
+       1.159
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "6 cm",
+      "at": [
+       12.209,
+       1.09
+      ],
+      "anchor": "start"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Which test (AAA, SSS, SAS or RHS) shows that the two triangles are similar?",
+   "type": "choice",
+   "prompt": "Pair a",
+   "answer": 1,
+   "figure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        7,
+        0
+       ],
+       [
+        4.143,
+        2.799
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "7 m",
+      "at": [
+       3.5,
+       -0.5
+      ],
+      "anchor": "middle"
+     },
+     {
+      "label": "4 m",
+      "at": [
+       5.828,
+       1.662
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "5 m",
+      "at": [
+       1.866,
+       1.704
+      ],
+      "anchor": "end"
+     },
+     {
+      "poly": [
+       [
+        15,
+        3.2
+       ],
+       [
+        7.107,
+        6.073
+       ],
+       [
+        9.179,
+        1.744
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "10.5 m",
+      "at": [
+       11.224,
+       5.106
+      ],
+      "anchor": "middle"
+     },
+     {
+      "label": "6 m",
+      "at": [
+       7.812,
+       3.75
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "7.5 m",
+      "at": [
+       12.211,
+       1.987
+      ],
+      "anchor": "middle"
+     }
+    ]
+   },
+   "options": [
+    "AAA",
+    "SSS",
+    "SAS",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Which test (AAA, SSS, SAS or RHS) shows that the two triangles are similar?",
+   "type": "choice",
+   "prompt": "Pair b",
+   "answer": 0,
+   "figure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        5,
+        0
+       ],
+       [
+        3.214,
+        3.83
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       50
+      ],
+      "r": 0.667,
+      "label": "50°"
+     },
+     {
+      "angle": [
+       5,
+       0,
+       115,
+       180
+      ],
+      "r": 0.667,
+      "label": "65°"
+     },
+     {
+      "poly": [
+       [
+        8,
+        0
+       ],
+       [
+        12,
+        0
+       ],
+       [
+        9.429,
+        3.064
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       8,
+       0,
+       0,
+       65
+      ],
+      "r": 0.667,
+      "label": "65°"
+     },
+     {
+      "angle": [
+       12,
+       0,
+       130,
+       180
+      ],
+      "r": 0.667,
+      "label": "50°"
+     }
+    ]
+   },
+   "options": [
+    "AAA",
+    "SSS",
+    "SAS",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Which test (AAA, SSS, SAS or RHS) shows that the two triangles are similar?",
+   "type": "choice",
+   "prompt": "Pair c",
+   "answer": 2,
+   "figure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        6,
+        0
+       ],
+       [
+        -1.368,
+        3.759
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "6 m",
+      "at": [
+       3,
+       -0.556
+      ],
+      "anchor": "middle"
+     },
+     {
+      "label": "4 m",
+      "at": [
+       -1.067,
+       1.74
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       110
+      ],
+      "r": 0.742,
+      "label": "110°"
+     },
+     {
+      "poly": [
+       [
+        15,
+        0
+       ],
+       [
+        8.7,
+        0
+       ],
+       [
+        16.436,
+        3.947
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "9 m",
+      "at": [
+       11.85,
+       -0.556
+      ],
+      "anchor": "middle"
+     },
+     {
+      "label": "6 m",
+      "at": [
+       16.102,
+       1.834
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       15,
+       0,
+       70,
+       180
+      ],
+      "r": 0.742,
+      "label": "110°"
+     }
+    ]
+   },
+   "options": [
+    "AAA",
+    "SSS",
+    "SAS",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Which test (AAA, SSS, SAS or RHS) shows that the two triangles are similar?",
+   "type": "choice",
+   "prompt": "Pair d",
+   "answer": 3,
+   "figure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        8,
+        0
+       ],
+       [
+        0,
+        6
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "10 cm",
+      "at": [
+       4.254,
+       3.339
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "6 cm",
+      "at": [
+       -0.424,
+       3
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 0.694
+     },
+     {
+      "poly": [
+       [
+        18.5,
+        0
+       ],
+       [
+        18.5,
+        10
+       ],
+       [
+        11,
+        0
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "25 cm",
+      "at": [
+       14.411,
+       5.254
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "15 cm",
+      "at": [
+       14.75,
+       -0.578
+      ],
+      "anchor": "middle"
+     },
+     {
+      "angle": [
+       18.5,
+       0,
+       90,
+       180
+      ],
+      "right": true,
+      "r": 0.694
+     }
+    ]
+   },
+   "options": [
+    "AAA",
+    "SSS",
+    "SAS",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Which test (AAA, SSS, SAS or RHS) shows that the two triangles are similar?",
+   "type": "choice",
+   "prompt": "Pair e",
+   "answer": 3,
+   "figure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        2
+       ],
+       [
+        2,
+        2
+       ],
+       [
+        0,
+        3.5
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "1.5 m",
+      "at": [
+       -0.367,
+       2.75
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "2.5 m",
+      "at": [
+       1.22,
+       3.043
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       0,
+       2,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 0.6
+     },
+     {
+      "poly": [
+       [
+        10,
+        3
+       ],
+       [
+        6,
+        3
+       ],
+       [
+        10,
+        0
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "6 m",
+      "at": [
+       10.367,
+       1.5
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "10 m",
+      "at": [
+       7.78,
+       1.207
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       10,
+       3,
+       180,
+       270
+      ],
+      "right": true,
+      "r": 0.6
+     }
+    ]
+   },
+   "options": [
+    "AAA",
+    "SSS",
+    "SAS",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "Which test (AAA, SSS, SAS or RHS) shows that the two triangles are similar?",
+   "type": "choice",
+   "prompt": "Pair f",
+   "answer": 2,
+   "figure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        8,
+        0
+       ],
+       [
+        3.536,
+        3.536
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "8 cm",
+      "at": [
+       4,
+       -0.531
+      ],
+      "anchor": "middle"
+     },
+     {
+      "label": "5 cm",
+      "at": [
+       1.492,
+       2.043
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       45
+      ],
+      "r": 0.708,
+      "label": "45°"
+     },
+     {
+      "poly": [
+       [
+        17,
+        4
+       ],
+       [
+        9.107,
+        1.127
+       ],
+       [
+        14.781,
+        -0.758
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "12 cm",
+      "at": [
+       12.872,
+       3.063
+      ],
+      "anchor": "middle"
+     },
+     {
+      "label": "7.5 cm",
+      "at": [
+       16.244,
+       1.456
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       17,
+       4,
+       200,
+       245
+      ],
+      "r": 0.708,
+      "label": "45°"
+     }
+    ]
+   },
+   "options": [
+    "AAA",
+    "SSS",
+    "SAS",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q2g",
+   "label": "2g",
+   "section": "Fluency",
+   "stem": "Which test (AAA, SSS, SAS or RHS) shows that the two triangles are similar?",
+   "type": "choice",
+   "prompt": "Pair g",
+   "answer": 0,
+   "figure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        5,
+        0
+       ],
+       [
+        4.082,
+        3.425
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       40
+      ],
+      "r": 0.667,
+      "label": "40°"
+     },
+     {
+      "angle": [
+       5,
+       0,
+       105,
+       180
+      ],
+      "r": 0.667,
+      "label": "75°"
+     },
+     {
+      "poly": [
+       [
+        14,
+        4.5
+       ],
+       [
+        8,
+        4.5
+       ],
+       [
+        11.81,
+        -3.672
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       14,
+       4.5,
+       180,
+       255
+      ],
+      "r": 0.667,
+      "label": "75°"
+     },
+     {
+      "angle": [
+       8,
+       4.5,
+       295,
+       360
+      ],
+      "r": 0.667,
+      "label": "65°"
+     }
+    ]
+   },
+   "options": [
+    "AAA",
+    "SSS",
+    "SAS",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q2h",
+   "label": "2h",
+   "section": "Fluency",
+   "stem": "Which test (AAA, SSS, SAS or RHS) shows that the two triangles are similar?",
+   "type": "choice",
+   "prompt": "Pair h",
+   "answer": 1,
+   "figure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        6,
+        0
+       ],
+       [
+        3,
+        2.646
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "6 m",
+      "at": [
+       3,
+       -0.5
+      ],
+      "anchor": "middle"
+     },
+     {
+      "label": "4 m",
+      "at": [
+       4.743,
+       1.598
+      ],
+      "anchor": "start"
+     },
+     {
+      "tick": [
+       6,
+       0,
+       3,
+       2.646
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       3,
+       2.646,
+       0,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "poly": [
+       [
+        8.5,
+        0
+       ],
+       [
+        16,
+        0
+       ],
+       [
+        12.25,
+        3.307
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "15 m",
+      "at": [
+       12.25,
+       -0.5
+      ],
+      "anchor": "middle"
+     },
+     {
+      "label": "10 m",
+      "at": [
+       14.368,
+       1.929
+      ],
+      "anchor": "start"
+     },
+     {
+      "tick": [
+       16,
+       0,
+       12.25,
+       3.307
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       12.25,
+       3.307,
+       8.5,
+       0
+      ],
+      "n": 1
+     }
+    ]
+   },
+   "options": [
+    "AAA",
+    "SSS",
+    "SAS",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Each pair of triangles is similar. Find the value of each pronumeral.",
+   "type": "numeric",
+   "prompt": "Diagram a: find $x$.",
+   "answer": "12",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        12,
+        0
+       ],
+       [
+        0,
+        5
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "x",
+      "at": [
+       6,
+       -0.919
+      ],
+      "anchor": "middle"
+     },
+     {
+      "label": "y",
+      "at": [
+       6.259,
+       3.122
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "5",
+      "at": [
+       -0.674,
+       2.5
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 1.103
+     },
+     {
+      "poly": [
+       [
+        15,
+        0
+       ],
+       [
+        29.4,
+        0
+       ],
+       [
+        15,
+        6
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "36",
+      "at": [
+       22.2,
+       -0.919
+      ],
+      "anchor": "middle"
+     },
+     {
+      "label": "39",
+      "at": [
+       22.459,
+       3.622
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "15",
+      "at": [
+       14.326,
+       3
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       15,
+       0,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 1.103
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Each pair of triangles is similar. Find the value of each pronumeral.",
+   "type": "numeric",
+   "prompt": "Diagram a: find $y$.",
+   "answer": "13"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Each pair of triangles is similar. Find the value of each pronumeral.",
+   "type": "numeric",
+   "prompt": "Diagram b (equal angles are marked the same way): find $x$.",
+   "answer": "10.5",
+   "figure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        8,
+        0
+       ],
+       [
+        7.188,
+        6.953
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "8",
+      "at": [
+       4,
+       -0.775
+      ],
+      "anchor": "middle"
+     },
+     {
+      "label": "7",
+      "at": [
+       8.158,
+       3.542
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "y",
+      "at": [
+       3.199,
+       3.885
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       8,
+       0,
+       96.665,
+       180
+      ],
+      "r": 0.826
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       44.049
+      ],
+      "r": 0.826
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       44.049
+      ],
+      "r": 1.085
+     },
+     {
+      "poly": [
+       [
+        17,
+        3
+       ],
+       [
+        24.794,
+        -1.5
+       ],
+       [
+        20.092,
+        -7.817
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "12",
+      "at": [
+       21.181,
+       1.242
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "x",
+      "at": [
+       22.899,
+       -4.998
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "15",
+      "at": [
+       18,
+       -2.565
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       24.794,
+       -1.5,
+       150,
+       233.335
+      ],
+      "r": 0.826
+     },
+     {
+      "angle": [
+       17,
+       3,
+       285.951,
+       330
+      ],
+      "r": 0.826
+     },
+     {
+      "angle": [
+       17,
+       3,
+       285.951,
+       330
+      ],
+      "r": 1.085
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Each pair of triangles is similar. Find the value of each pronumeral.",
+   "type": "numeric",
+   "prompt": "Diagram b: find $y$.",
+   "answer": "10"
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "Each pair of triangles is similar. Find the value of each pronumeral.",
+   "type": "numeric",
+   "prompt": "Diagram c: find $x$.",
+   "answer": "15",
+   "figure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        -15,
+        0
+       ],
+       [
+        -10.7,
+        9.028
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       -6,
+       0,
+       -4.28,
+       3.611
+      ]
+     },
+     {
+      "label": "10",
+      "at": [
+       -13.181,
+       4.672
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "4",
+      "at": [
+       -5.351,
+       1.906
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "6",
+      "at": [
+       -3,
+       -0.5
+      ],
+      "anchor": "middle"
+     },
+     {
+      "label": "y",
+      "at": [
+       -1.947,
+       2.035
+      ],
+      "anchor": "start"
+     },
+     {
+      "par": [
+       -15,
+       0,
+       -10.7,
+       9.028
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       -6,
+       0,
+       -4.28,
+       3.611
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       -15,
+       0,
+       0,
+       64.532
+      ],
+      "r": 0.6
+     },
+     {
+      "angle": [
+       -6,
+       0,
+       0,
+       64.532
+      ],
+      "r": 0.6
+     },
+     {
+      "dim": [
+       -15,
+       0,
+       0,
+       0
+      ],
+      "label": "x",
+      "off": -1
+     },
+     {
+      "dim": [
+       0,
+       0,
+       -10.7,
+       9.028
+      ],
+      "label": "14",
+      "off": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "Each pair of triangles is similar. Find the value of each pronumeral.",
+   "type": "numeric",
+   "prompt": "Diagram c: find $y$.",
+   "answer": "5.6"
+  },
+  {
+   "id": "q3g",
+   "label": "3g",
+   "section": "Fluency",
+   "stem": "Each pair of triangles is similar. Find the value of each pronumeral.",
+   "type": "numeric",
+   "prompt": "Diagram d (the arrows show parallel sides): find $x$.",
+   "answer": "4",
+   "figure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        7.372,
+        -5.162
+       ],
+       [
+        3.989,
+        6.351
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        -2.457,
+        1.721
+       ],
+       [
+        -1.33,
+        -2.117
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "9",
+      "at": [
+       3.473,
+       -2.886
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "y",
+      "at": [
+       1.679,
+       3.374
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "12",
+      "at": [
+       6.038,
+       0.699
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "3",
+      "at": [
+       -1.015,
+       1.165
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "2.5",
+      "at": [
+       -0.349,
+       -1.257
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "x",
+      "at": [
+       -2.251,
+       -0.303
+      ],
+      "anchor": "end"
+     },
+     {
+      "par": [
+       7.372,
+       -5.162,
+       3.989,
+       6.351
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       -1.33,
+       -2.117,
+       -2.457,
+       1.721
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       7.372,
+       -5.162,
+       106.375,
+       145
+      ],
+      "r": 0.542
+     },
+     {
+      "angle": [
+       -2.457,
+       1.721,
+       286.375,
+       325
+      ],
+      "r": 0.542
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3h",
+   "label": "3h",
+   "section": "Fluency",
+   "stem": "Each pair of triangles is similar. Find the value of each pronumeral.",
+   "type": "numeric",
+   "prompt": "Diagram d: find $y$.",
+   "answer": "7.5"
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Problem-solving",
+   "stem": "Two triangular running tracks are used for the junior and open divisions of a school carnival.",
+   "type": "ordered",
+   "prompt": "Find the scale factor (open ÷ junior) for the shortest sides, the middle sides and the longest sides, in that order.",
+   "answer": [
+    "2.4",
+    "2.4",
+    "2.4"
+   ],
+   "stemFigure": [
+    {
+     "kind": "diagram",
+     "unit": 30,
+     "items": [
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         4,
+         0
+        ],
+        [
+         0,
+         1.667
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "label": "120 m",
+       "at": [
+        2,
+        -0.5
+       ],
+       "anchor": "middle"
+      },
+      {
+       "label": "130 m",
+       "at": [
+        2.141,
+        1.172
+       ],
+       "anchor": "start"
+      },
+      {
+       "label": "50 m",
+       "at": [
+        -0.367,
+        0.833
+       ],
+       "anchor": "end"
+      }
+     ],
+     "caption": "Junior"
+    },
+    {
+     "kind": "diagram",
+     "unit": 30,
+     "items": [
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         -9.6,
+         0
+        ],
+        [
+         0,
+         -4
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "label": "288 m",
+       "at": [
+        -4.8,
+        0.5
+       ],
+       "anchor": "middle"
+      },
+      {
+       "label": "312 m",
+       "at": [
+        -4.941,
+        -2.338
+       ],
+       "anchor": "end"
+      },
+      {
+       "label": "120 m",
+       "at": [
+        0.367,
+        -2
+       ],
+       "anchor": "start"
+      }
+     ],
+     "caption": "Open"
+    }
+   ],
+   "hint": "Type three numbers separated by commas"
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Problem-solving",
+   "stem": "Two triangular running tracks are used for the junior and open divisions of a school carnival.",
+   "type": "choice",
+   "prompt": "Are the two tracks similar in shape?",
+   "answer": 0,
+   "options": [
+    "Yes, all three pairs of sides are in the same ratio (SSS)",
+    "No, the ratios are different",
+    "Yes, because both shapes are triangles"
+   ]
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Problem-solving",
+   "stem": "Two triangular running tracks are used for the junior and open divisions of a school carnival.",
+   "type": "numeric",
+   "prompt": "How many laps of the junior track cover the same distance as one lap of the open track?",
+   "answer": "2.4"
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Problem-solving",
+   "stem": "Use the angle sum of a triangle to decide whether the two triangles are similar.",
+   "type": "choice",
+   "prompt": "Pair a",
+   "answer": 0,
+   "figure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        5,
+        0
+       ],
+       [
+        -2.198,
+        6.04
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       110
+      ],
+      "r": 0.741,
+      "label": "110°"
+     },
+     {
+      "angle": [
+       5,
+       0,
+       140,
+       180
+      ],
+      "r": 0.741,
+      "label": "40°"
+     },
+     {
+      "poly": [
+       [
+        8,
+        0
+       ],
+       [
+        14,
+        0
+       ],
+       [
+        15.596,
+        4.386
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       8,
+       0,
+       0,
+       30
+      ],
+      "r": 0.741,
+      "label": "30°"
+     },
+     {
+      "angle": [
+       14,
+       0,
+       70,
+       180
+      ],
+      "r": 0.741,
+      "label": "110°"
+     }
+    ]
+   },
+   "options": [
+    "Yes, they are similar",
+    "No, they are not similar"
+   ]
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Problem-solving",
+   "stem": "Use the angle sum of a triangle to decide whether the two triangles are similar.",
+   "type": "choice",
+   "prompt": "Pair b",
+   "answer": 1,
+   "figure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        4,
+        0
+       ],
+       [
+        0,
+        2.906
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       4,
+       0,
+       144,
+       180
+      ],
+      "r": 0.667,
+      "label": "36°"
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 0.6
+     },
+     {
+      "poly": [
+       [
+        7,
+        0
+       ],
+       [
+        10,
+        0
+       ],
+       [
+        10,
+        4.448
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       7,
+       0,
+       0,
+       56
+      ],
+      "r": 0.667,
+      "label": "56°"
+     },
+     {
+      "angle": [
+       10,
+       0,
+       90,
+       180
+      ],
+      "right": true,
+      "r": 0.6
+     }
+    ]
+   },
+   "options": [
+    "Yes, they are similar",
+    "No, they are not similar"
+   ]
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Problem-solving",
+   "stem": "Use the angle sum of a triangle to decide whether the two triangles are similar.",
+   "type": "choice",
+   "prompt": "Pair c (sides with the same marks are equal)",
+   "answer": 1,
+   "figure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        3,
+        0
+       ],
+       [
+        1.5,
+        4.121
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       70
+      ],
+      "r": 0.667,
+      "label": "70°"
+     },
+     {
+      "tick": [
+       3,
+       0,
+       1.5,
+       4.121
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       1.5,
+       4.121,
+       0,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "poly": [
+       [
+        9,
+        3.4
+       ],
+       [
+        5.5,
+        3.4
+       ],
+       [
+        7.25,
+        -0.353
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       7.25,
+       -0.353,
+       65,
+       115
+      ],
+      "r": 0.667,
+      "label": "50°"
+     },
+     {
+      "tick": [
+       5.5,
+       3.4,
+       7.25,
+       -0.353
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       7.25,
+       -0.353,
+       9,
+       3.4
+      ],
+      "n": 1
+     }
+    ]
+   },
+   "options": [
+    "Yes, they are similar",
+    "No, they are not similar"
+   ]
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Problem-solving",
+   "stem": "Use the angle sum of a triangle to decide whether the two triangles are similar.",
+   "type": "choice",
+   "prompt": "Pair d (sides with the same marks are equal)",
+   "answer": 0,
+   "figure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "poly": [
+       [
+        7,
+        1.9
+       ],
+       [
+        0,
+        1.9
+       ],
+       [
+        3.5,
+        0.078
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       7,
+       1.9,
+       180,
+       207.5
+      ],
+      "r": 1,
+      "label": "27.5°"
+     },
+     {
+      "tick": [
+       0,
+       1.9,
+       3.5,
+       0.078
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       3.5,
+       0.078,
+       7,
+       1.9
+      ],
+      "n": 1
+     },
+     {
+      "poly": [
+       [
+        8.5,
+        0
+       ],
+       [
+        15,
+        0
+       ],
+       [
+        11.75,
+        1.692
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       11.75,
+       1.692,
+       207.5,
+       332.5
+      ],
+      "r": 0.533,
+      "label": "125°"
+     },
+     {
+      "tick": [
+       15,
+       0,
+       11.75,
+       1.692
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       11.75,
+       1.692,
+       8.5,
+       0
+      ],
+      "n": 1
+     }
+    ]
+   },
+   "options": [
+    "Yes, they are similar",
+    "No, they are not similar"
+   ]
+  },
+  {
+   "id": "q6",
+   "label": "6",
+   "section": "Problem-solving",
+   "type": "numeric",
+   "prompt": "In minigolf, a ball starts $1.5$ m below the top left corner, bounces off the top wall $4$ m from that corner (making equal angles with the wall, as marked) and travels on to hit the right wall at $A$. The top wall is $10$ m long. How far down the right wall is $A$?",
+   "answer": "2.25",
+   "figure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "seg": [
+       0,
+       0,
+       10,
+       0
+      ]
+     },
+     {
+      "seg": [
+       10,
+       0,
+       10,
+       -4.2
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       -2.6
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       0,
+       -1.5,
+       4,
+       0
+      ],
+      "arrow": "end"
+     },
+     {
+      "seg": [
+       4,
+       0,
+       10,
+       -2.25
+      ],
+      "arrow": "end"
+     },
+     {
+      "angle": [
+       10,
+       0,
+       180,
+       270
+      ],
+      "right": true,
+      "r": 0.6
+     },
+     {
+      "angle": [
+       4,
+       0,
+       180,
+       200.556
+      ],
+      "r": 1.133
+     },
+     {
+      "angle": [
+       4,
+       0,
+       339.444,
+       0
+      ],
+      "r": 1.133
+     },
+     {
+      "dim": [
+       0,
+       0,
+       10,
+       0
+      ],
+      "label": "10 m",
+      "off": 1.3
+     },
+     {
+      "dim": [
+       0,
+       0,
+       4,
+       0
+      ],
+      "label": "4 m",
+      "off": 0.55
+     },
+     {
+      "label": "1.5 m",
+      "at": [
+       -0.25,
+       -0.75
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "?",
+      "at": [
+       10.35,
+       -1.125
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "A",
+      "at": [
+       10.433,
+       -2.317
+      ]
+     }
+    ]
+   },
+   "units": "m"
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Problem-solving",
+   "stem": "Trees (dots) on the banks of a river are used to make two right-angled triangles, as shown. The measurements are $5$ m, $6$ m and $21$ m.",
+   "type": "choice",
+   "prompt": "Are the two triangles similar?",
+   "answer": 0,
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "poly": [
+       [
+        -9,
+        0
+       ],
+       [
+        24,
+        0
+       ],
+       [
+        24,
+        17.5
+       ],
+       [
+        -9,
+        17.5
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       -6,
+       -5,
+       21,
+       17.5
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       -6,
+       0,
+       -6,
+       -5
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       21,
+       0,
+       21,
+       17.5
+      ],
+      "dash": true
+     },
+     {
+      "angle": [
+       -6,
+       0,
+       270,
+       0
+      ],
+      "right": true,
+      "r": 1.238
+     },
+     {
+      "angle": [
+       21,
+       0,
+       90,
+       180
+      ],
+      "right": true,
+      "r": 1.238
+     },
+     {
+      "point": [
+       -6,
+       -5
+      ]
+     },
+     {
+      "point": [
+       0,
+       0
+      ]
+     },
+     {
+      "point": [
+       21,
+       17.5
+      ]
+     },
+     {
+      "point": [
+       -6,
+       0
+      ]
+     },
+     {
+      "point": [
+       21,
+       0
+      ]
+     },
+     {
+      "label": "River",
+      "at": [
+       -5.5,
+       15
+      ]
+     },
+     {
+      "label": "6 m",
+      "at": [
+       -3,
+       0.963
+      ],
+      "anchor": "middle"
+     },
+     {
+      "label": "5 m",
+      "at": [
+       -6.55,
+       -2.5
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "21 m",
+      "at": [
+       10.5,
+       -0.963
+      ],
+      "anchor": "middle"
+     }
+    ]
+   },
+   "options": [
+    "Yes, AAA: they have right angles and vertically opposite angles, so all three angles match",
+    "No, the triangles are different sizes",
+    "Yes, SSS: all sides are known"
+   ]
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Problem-solving",
+   "stem": "Trees (dots) on the banks of a river are used to make two right-angled triangles, as shown. The measurements are $5$ m, $6$ m and $21$ m.",
+   "type": "numeric",
+   "prompt": "Find the scale factor (from the smaller triangle to the larger).",
+   "answer": "7/2"
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Problem-solving",
+   "stem": "Trees (dots) on the banks of a river are used to make two right-angled triangles, as shown. The measurements are $5$ m, $6$ m and $21$ m.",
+   "type": "numeric",
+   "prompt": "How far is it across the river?",
+   "answer": "17.5",
+   "units": "m"
+  },
+  {
+   "id": "q8",
+   "label": "8",
+   "section": "Reasoning",
+   "type": "choice",
+   "prompt": "Why are only two pairs of equal angles needed to show that two triangles are similar?",
+   "answer": 0,
+   "options": [
+    "The third pair must also be equal, because the angles in a triangle add to 180°",
+    "Two angles fix all the side lengths",
+    "The third angle is always 90°",
+    "Only the two largest angles matter"
+   ]
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Reasoning",
+   "stem": "A student measures two angles in each triangle first, then a side if needed. Classify each pair as congruent (C), similar but not congruent (S), or neither (N).",
+   "type": "choice",
+   "prompt": "Triangle 1: angles $40°$ and $65°$, with $7$ cm between them. Triangle 2: angles $40°$ and $65°$, with $7$ cm between them.",
+   "answer": 0,
+   "options": [
+    "Congruent (C)",
+    "Similar but not congruent (S)",
+    "Neither (N)"
+   ]
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Reasoning",
+   "stem": "A student measures two angles in each triangle first, then a side if needed. Classify each pair as congruent (C), similar but not congruent (S), or neither (N).",
+   "type": "choice",
+   "prompt": "Triangle 1: angles $40°$ and $65°$, with $7$ cm between them. Triangle 2: angles $65°$ and $75°$, with $10.5$ cm between them.",
+   "answer": 1,
+   "options": [
+    "Congruent (C)",
+    "Similar but not congruent (S)",
+    "Neither (N)"
+   ]
+  },
+  {
+   "id": "q9c",
+   "label": "9c",
+   "section": "Reasoning",
+   "stem": "A student measures two angles in each triangle first, then a side if needed. Classify each pair as congruent (C), similar but not congruent (S), or neither (N).",
+   "type": "choice",
+   "prompt": "Triangle 1: angles $50°$ and $60°$. Triangle 2: angles $50°$ and $80°$.",
+   "answer": 2,
+   "options": [
+    "Congruent (C)",
+    "Similar but not congruent (S)",
+    "Neither (N)"
+   ]
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Reasoning",
+   "stem": "Choose the correct reason why the two triangles are similar.",
+   "type": "choice",
+   "prompt": "$\\triangle JKL$ and $\\triangle MNL$",
+   "answer": 0,
+   "figure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        3.6
+       ],
+       [
+        0,
+        0
+       ],
+       [
+        6,
+        0
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       3.5,
+       1.5,
+       3.5,
+       0
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 0.6
+     },
+     {
+      "angle": [
+       3.5,
+       0,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 0.6
+     },
+     {
+      "par": [
+       0,
+       0,
+       0,
+       3.6
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       3.5,
+       0,
+       3.5,
+       1.5
+      ],
+      "n": 1
+     },
+     {
+      "label": "J",
+      "at": [
+       -0.277,
+       3.866
+      ]
+     },
+     {
+      "label": "K",
+      "at": [
+       -0.372,
+       -0.29
+      ]
+     },
+     {
+      "label": "L",
+      "at": [
+       6.415,
+       -0.191
+      ]
+     },
+     {
+      "label": "M",
+      "at": [
+       3.806,
+       1.74
+      ]
+     },
+     {
+      "label": "N",
+      "at": [
+       3.5,
+       -0.5
+      ]
+     }
+    ]
+   },
+   "options": [
+    "AAA: angle L is common and angle JKL = angle MNL = 90°",
+    "AAA: angle J = angle L (alternate angles)",
+    "SAS: JK = MN and angle L is common",
+    "RHS: JL = ML"
+   ]
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Reasoning",
+   "stem": "Choose the correct reason why the two triangles are similar.",
+   "type": "choice",
+   "prompt": "$\\triangle PQT$ and $\\triangle RST$",
+   "answer": 2,
+   "figure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "seg": [
+       0,
+       3,
+       5,
+       3
+      ]
+     },
+     {
+      "seg": [
+       0,
+       3,
+       4.06,
+       0.39
+      ]
+     },
+     {
+      "seg": [
+       5,
+       3,
+       1.81,
+       0.39
+      ]
+     },
+     {
+      "seg": [
+       1.81,
+       0.39,
+       4.06,
+       0.39
+      ]
+     },
+     {
+      "par": [
+       0,
+       3,
+       5,
+       3
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       1.81,
+       0.39,
+       4.06,
+       0.39
+      ],
+      "n": 1
+     },
+     {
+      "label": "P",
+      "at": [
+       -0.365,
+       3.168
+      ]
+     },
+     {
+      "label": "Q",
+      "at": [
+       5.335,
+       3.208
+      ]
+     },
+     {
+      "label": "R",
+      "at": [
+       4.425,
+       0.089
+      ]
+     },
+     {
+      "label": "S",
+      "at": [
+       1.475,
+       0.049
+      ]
+     },
+     {
+      "label": "T",
+      "at": [
+       2.067,
+       1.133
+      ]
+     }
+    ]
+   },
+   "options": [
+    "SSS: PQ = RS",
+    "RHS: there are right angles at T",
+    "AAA: the angles at T are vertically opposite, and angle QPT = angle SRT (alternate angles)",
+    "SAS: PT = RT"
+   ]
+  },
+  {
+   "id": "q10c",
+   "label": "10c",
+   "section": "Reasoning",
+   "stem": "Choose the correct reason why the two triangles are similar.",
+   "type": "choice",
+   "prompt": "$\\triangle EFG$ and $\\triangle FHG$",
+   "answer": 1,
+   "figure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        3
+       ],
+       [
+        0,
+        0
+       ],
+       [
+        6,
+        0
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       0,
+       0,
+       1.2,
+       2.4
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 0.6
+     },
+     {
+      "angle": [
+       1.2,
+       2.4,
+       243.435,
+       333.435
+      ],
+      "right": true,
+      "r": 0.6
+     },
+     {
+      "label": "E",
+      "at": [
+       -0.306,
+       3.24
+      ]
+     },
+     {
+      "label": "F",
+      "at": [
+       -0.388,
+       -0.26
+      ]
+     },
+     {
+      "label": "G",
+      "at": [
+       6.42,
+       -0.172
+      ]
+     },
+     {
+      "label": "H",
+      "at": [
+       1.394,
+       2.721
+      ]
+     }
+    ]
+   },
+   "options": [
+    "AAA: angle E is common to both triangles",
+    "AAA: angle G is common and angle EFG = angle FHG = 90°",
+    "SAS: FH = FG and angle G is common",
+    "SSS: EG = FG"
+   ]
+  },
+  {
+   "id": "q10d",
+   "label": "10d",
+   "section": "Reasoning",
+   "stem": "Choose the correct reason why the two triangles are similar.",
+   "type": "choice",
+   "prompt": "$\\triangle ADE$ and $\\triangle ABC$",
+   "answer": 3,
+   "figure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "poly": [
+       [
+        2,
+        4
+       ],
+       [
+        0,
+        0
+       ],
+       [
+        6,
+        0
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       1,
+       2,
+       4,
+       2
+      ]
+     },
+     {
+      "tick": [
+       2,
+       4,
+       1,
+       2
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       1,
+       2,
+       0,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       2,
+       4,
+       4,
+       2
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       4,
+       2,
+       6,
+       0
+      ],
+      "n": 2
+     },
+     {
+      "label": "A",
+      "at": [
+       1.895,
+       4.354
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       -0.388,
+       -0.26
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       6.402,
+       -0.228
+      ]
+     },
+     {
+      "label": "D",
+      "at": [
+       0.567,
+       1.933
+      ]
+     },
+     {
+      "label": "E",
+      "at": [
+       4.433,
+       1.933
+      ]
+     }
+    ]
+   },
+   "options": [
+    "AAA: angle A = 90°",
+    "RHS: DE = BC",
+    "SSS: AD = DB = AE = EC",
+    "SAS: AD/AB = AE/AC = 1/2 and angle A is common"
+   ]
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Reasoning",
+   "stem": "$\\triangle PQR$ has a right angle at $Q$, $PQ = 8$ and $QR = 15$. $\\triangle STU$ has a right angle at $T$, $ST = 24$ and $SU = 51$.",
+   "type": "numeric",
+   "prompt": "Use Pythagoras' theorem to find $PR$.",
+   "answer": "17",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        5,
+        0
+       ],
+       [
+        0,
+        2.667
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "15",
+      "at": [
+       2.5,
+       -0.5
+      ],
+      "anchor": "middle"
+     },
+     {
+      "label": "8",
+      "at": [
+       -0.367,
+       1.333
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 0.6
+     },
+     {
+      "poly": [
+       [
+        8,
+        0
+       ],
+       [
+        14.75,
+        0
+       ],
+       [
+        8,
+        3.6
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "51",
+      "at": [
+       11.548,
+       2.124
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "24",
+      "at": [
+       7.633,
+       1.8
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       8,
+       0,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 0.6
+     },
+     {
+      "label": "Q",
+      "at": [
+       -0.382,
+       -0.271
+      ]
+     },
+     {
+      "label": "R",
+      "at": [
+       5.419,
+       -0.178
+      ]
+     },
+     {
+      "label": "P",
+      "at": [
+       -0.296,
+       2.916
+      ]
+     },
+     {
+      "label": "T",
+      "at": [
+       7.618,
+       -0.271
+      ]
+     },
+     {
+      "label": "U",
+      "at": [
+       15.169,
+       -0.178
+      ]
+     },
+     {
+      "label": "S",
+      "at": [
+       7.704,
+       3.849
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Reasoning",
+   "stem": "$\\triangle PQR$ has a right angle at $Q$, $PQ = 8$ and $QR = 15$. $\\triangle STU$ has a right angle at $T$, $ST = 24$ and $SU = 51$.",
+   "type": "numeric",
+   "prompt": "Use Pythagoras' theorem to find $TU$.",
+   "answer": "45"
+  },
+  {
+   "id": "q11c",
+   "label": "11c",
+   "section": "Reasoning",
+   "stem": "$\\triangle PQR$ has a right angle at $Q$, $PQ = 8$ and $QR = 15$. $\\triangle STU$ has a right angle at $T$, $ST = 24$ and $SU = 51$.",
+   "type": "choice",
+   "prompt": "Are the triangles similar?",
+   "answer": 0,
+   "options": [
+    "Yes, every pair of corresponding sides is in the ratio 3 (SSS)",
+    "No, the ratios of the sides are different",
+    "Only if the angles are measured"
+   ]
+  },
+  {
+   "id": "q12a",
+   "label": "12a",
+   "section": "Enrichment",
+   "stem": "In each diagram, $x$ cm is not a full side of a triangle. Find the value of $x$.",
+   "type": "numeric",
+   "prompt": "Diagram a",
+   "answer": "4.5",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        7.5,
+        0
+       ],
+       [
+        7.5,
+        5
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       3,
+       0,
+       3,
+       2
+      ]
+     },
+     {
+      "angle": [
+       3,
+       0,
+       90,
+       180
+      ],
+      "right": true,
+      "r": 0.6
+     },
+     {
+      "angle": [
+       7.5,
+       0,
+       90,
+       180
+      ],
+      "right": true,
+      "r": 0.6
+     },
+     {
+      "label": "3 cm",
+      "at": [
+       1.5,
+       -0.5
+      ],
+      "anchor": "middle"
+     },
+     {
+      "label": "x cm",
+      "at": [
+       5.25,
+       -0.5
+      ],
+      "anchor": "middle"
+     },
+     {
+      "label": "2 cm",
+      "at": [
+       3.233,
+       1
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "5 cm",
+      "at": [
+       7.867,
+       2.5
+      ],
+      "anchor": "start"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q12b",
+   "label": "12b",
+   "section": "Enrichment",
+   "stem": "In each diagram, $x$ cm is not a full side of a triangle. Find the value of $x$.",
+   "type": "numeric",
+   "prompt": "Diagram b (the arrows show parallel sides)",
+   "answer": "2.5",
+   "figure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        7.048,
+        -2.565
+       ],
+       [
+        8.379,
+        3.285
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       4.698,
+       -1.71,
+       5.586,
+       2.19
+      ]
+     },
+     {
+      "label": "5 cm",
+      "at": [
+       2.178,
+       -1.325
+      ],
+      "anchor": "middle"
+     },
+     {
+      "label": "x cm",
+      "at": [
+       5.702,
+       -2.607
+      ],
+      "anchor": "middle"
+     },
+     {
+      "label": "4 cm",
+      "at": [
+       5.727,
+       0.107
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "6 cm",
+      "at": [
+       8.298,
+       0.227
+      ],
+      "anchor": "start"
+     },
+     {
+      "par": [
+       4.698,
+       -1.71,
+       5.586,
+       2.19
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       7.048,
+       -2.565,
+       8.379,
+       3.285
+      ],
+      "n": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "q12c",
+   "label": "12c",
+   "section": "Enrichment",
+   "stem": "In each diagram, $x$ cm is not a full side of a triangle. Find the value of $x$.",
+   "type": "numeric",
+   "prompt": "Diagram c",
+   "answer": "5",
+   "figure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        6
+       ],
+       [
+        6.708,
+        0
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       0,
+       0,
+       2.981,
+       3.333
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 0.6
+     },
+     {
+      "angle": [
+       2.981,
+       3.333,
+       138.19,
+       228.19
+      ],
+      "right": true,
+      "r": 0.6
+     },
+     {
+      "label": "6 cm",
+      "at": [
+       -0.367,
+       3
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "4 cm",
+      "at": [
+       1.735,
+       4.94
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "x cm",
+      "at": [
+       5.089,
+       1.94
+      ],
+      "anchor": "start"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q12d",
+   "label": "12d",
+   "section": "Enrichment",
+   "stem": "In each diagram, $x$ cm is not a full side of a triangle. Find the value of $x$.",
+   "type": "numeric",
+   "prompt": "Diagram d (the arrows show parallel sides)",
+   "answer": "2",
+   "figure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        10,
+        0
+       ],
+       [
+        6.95,
+        -3.962
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       4,
+       0,
+       2.78,
+       -1.585
+      ]
+     },
+     {
+      "label": "4 cm",
+      "at": [
+       2,
+       0.5
+      ],
+      "anchor": "middle"
+     },
+     {
+      "label": "3x cm",
+      "at": [
+       7,
+       0.5
+      ],
+      "anchor": "middle"
+     },
+     {
+      "label": "x cm",
+      "at": [
+       3.865,
+       -1.158
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "5 cm",
+      "at": [
+       8.95,
+       -2.347
+      ],
+      "anchor": "start"
+     },
+     {
+      "par": [
+       4,
+       0,
+       2.78,
+       -1.585
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       10,
+       0,
+       6.95,
+       -3.962
+      ],
+      "n": 1
+     }
+    ]
+   }
+  }
+ ]
+}
+);
