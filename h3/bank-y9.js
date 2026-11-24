@@ -76422,6 +76422,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-7a-pairs",
    "label": "1a",
    "section": "Fluency",
    "stem": "For each angle size, find the size of the supplementary angle and the complementary angle.",
@@ -76431,6 +76432,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-7a-pairs",
    "label": "1b",
    "section": "Fluency",
    "stem": "For each angle size, find the size of the supplementary angle and the complementary angle.",
@@ -76440,6 +76442,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-7a-pairs",
    "label": "1c",
    "section": "Fluency",
    "stem": "For each angle size, find the size of the supplementary angle and the complementary angle.",
@@ -76449,6 +76452,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-7a-pairs",
    "label": "1d",
    "section": "Fluency",
    "stem": "For each angle size, find the size of the supplementary angle and the complementary angle.",
@@ -76458,6 +76462,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-7a-pairs",
    "label": "1e",
    "section": "Fluency",
    "stem": "For each angle size, find the size of the supplementary angle and the complementary angle.",
@@ -76467,6 +76472,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-7a-pairs",
    "label": "1f",
    "section": "Fluency",
    "stem": "For each angle size, find the size of the supplementary angle and the complementary angle.",
@@ -76476,6 +76482,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1g",
+   "help": "y9-7a-pairs",
    "label": "1g",
    "section": "Fluency",
    "stem": "For each angle size, find the size of the supplementary angle and the complementary angle.",
@@ -76485,6 +76492,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1h",
+   "help": "y9-7a-pairs",
    "label": "1h",
    "section": "Fluency",
    "stem": "For each angle size, find the size of the supplementary angle and the complementary angle.",
@@ -76494,6 +76502,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1i",
+   "help": "y9-7a-pairs",
    "label": "1i",
    "section": "Fluency",
    "stem": "For each angle size, find the size of the supplementary angle and the complementary angle.",
@@ -76503,6 +76512,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1j",
+   "help": "y9-7a-pairs",
    "label": "1j",
    "section": "Fluency",
    "stem": "For each angle size, find the size of the supplementary angle and the complementary angle.",
@@ -76512,6 +76522,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1k",
+   "help": "y9-7a-pairs",
    "label": "1k",
    "section": "Fluency",
    "stem": "For each angle size, find the size of the supplementary angle and the complementary angle.",
@@ -76521,6 +76532,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1l",
+   "help": "y9-7a-pairs",
    "label": "1l",
    "section": "Fluency",
    "stem": "For each angle size, find the size of the supplementary angle and the complementary angle.",
@@ -76530,6 +76542,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-7a-pairs",
    "label": "2a",
    "section": "Fluency",
    "stem": "Find the value of $a$ in each diagram. Each one uses complementary or supplementary angles, or angles in a revolution.",
@@ -76611,6 +76624,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-7a-pairs",
    "label": "2b",
    "section": "Fluency",
    "stem": "Find the value of $a$ in each diagram. Each one uses complementary or supplementary angles, or angles in a revolution.",
@@ -76692,6 +76706,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-7a-pairs",
    "label": "2c",
    "section": "Fluency",
    "stem": "Find the value of $a$ in each diagram. Each one uses complementary or supplementary angles, or angles in a revolution.",
@@ -76755,6 +76770,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-7a-pairs",
    "label": "2d",
    "section": "Fluency",
    "stem": "Find the value of $a$ in each diagram. Each one uses complementary or supplementary angles, or angles in a revolution.",
@@ -76818,6 +76834,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-7a-pairs",
    "label": "2e",
    "section": "Fluency",
    "stem": "Find the value of $a$ in each diagram. Each one uses complementary or supplementary angles, or angles in a revolution.",
@@ -76881,6 +76898,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-7a-pairs",
    "label": "2f",
    "section": "Fluency",
    "stem": "Find the value of $a$ in each diagram. Each one uses complementary or supplementary angles, or angles in a revolution.",
@@ -76962,6 +76980,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-7a-triangle",
    "label": "3a",
    "section": "Fluency",
    "stem": "Find the value of the pronumeral, then name the type of triangle.",
@@ -77042,6 +77061,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-7a-triangle",
    "label": "3b",
    "section": "Fluency",
    "stem": "Find the value of the pronumeral, then name the type of triangle.",
@@ -77127,6 +77147,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-7a-triangle",
    "label": "3c",
    "section": "Fluency",
    "stem": "Find the value of the pronumeral, then name the type of triangle.",
@@ -77207,6 +77228,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-7a-triangle",
    "label": "3d",
    "section": "Fluency",
    "stem": "Find the value of the pronumeral, then name the type of triangle.",
@@ -77292,6 +77314,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-7a-triangle",
    "label": "3e",
    "section": "Fluency",
    "stem": "Find the value of the pronumeral, then name the type of triangle.",
@@ -77366,6 +77389,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-7a-triangle",
    "label": "3f",
    "section": "Fluency",
    "stem": "Find the value of the pronumeral, then name the type of triangle.",
@@ -77445,6 +77469,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3g",
+   "help": "y9-7a-triangle",
    "label": "3g",
    "section": "Fluency",
    "stem": "Find the value of the pronumeral, then name the type of triangle.",
@@ -77520,6 +77545,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3h",
+   "help": "y9-7a-triangle",
    "label": "3h",
    "section": "Fluency",
    "stem": "Find the value of the pronumeral, then name the type of triangle.",
@@ -77600,6 +77626,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3i",
+   "help": "y9-7a-triangle",
    "label": "3i",
    "section": "Fluency",
    "stem": "Find the value of the pronumeral, then name the type of triangle.",
@@ -77682,6 +77709,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3j",
+   "help": "y9-7a-triangle",
    "label": "3j",
    "section": "Fluency",
    "stem": "Find the value of the pronumeral, then name the type of triangle.",
@@ -77769,6 +77797,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3k",
+   "help": "y9-7a-triangle",
    "label": "3k",
    "section": "Fluency",
    "stem": "Find the value of the pronumeral, then name the type of triangle.",
@@ -77843,6 +77872,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3l",
+   "help": "y9-7a-triangle",
    "label": "3l",
    "section": "Fluency",
    "stem": "Find the value of the pronumeral, then name the type of triangle.",
@@ -77922,6 +77952,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3m",
+   "help": "y9-7a-triangle",
    "label": "3m",
    "section": "Fluency",
    "stem": "Find the value of the pronumeral, then name the type of triangle.",
@@ -78002,6 +78033,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3n",
+   "help": "y9-7a-triangle",
    "label": "3n",
    "section": "Fluency",
    "stem": "Find the value of the pronumeral, then name the type of triangle.",
@@ -78087,6 +78119,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3o",
+   "help": "y9-7a-triangle",
    "label": "3o",
    "section": "Fluency",
    "stem": "Find the value of the pronumeral, then name the type of triangle.",
@@ -78167,6 +78200,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3p",
+   "help": "y9-7a-triangle",
    "label": "3p",
    "section": "Fluency",
    "stem": "Find the value of the pronumeral, then name the type of triangle.",
@@ -78252,6 +78286,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3q",
+   "help": "y9-7a-triangle",
    "label": "3q",
    "section": "Fluency",
    "stem": "Find the value of the pronumeral, then name the type of triangle.",
@@ -78332,6 +78367,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3r",
+   "help": "y9-7a-triangle",
    "label": "3r",
    "section": "Fluency",
    "stem": "Find the value of the pronumeral, then name the type of triangle.",
@@ -78417,6 +78453,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-7a-mixed",
    "label": "4a",
    "section": "Fluency",
    "stem": "Find the value of each pronumeral.",
@@ -78492,6 +78529,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-7a-mixed",
    "label": "4b",
    "section": "Fluency",
    "stem": "Find the value of each pronumeral.",
@@ -78582,6 +78620,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-7a-mixed",
    "label": "4c",
    "section": "Fluency",
    "stem": "Find the value of each pronumeral.",
@@ -78669,6 +78708,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-7a-mixed",
    "label": "4d",
    "section": "Fluency",
    "stem": "Find the value of each pronumeral.",
@@ -78767,6 +78807,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y9-7a-mixed",
    "label": "4e",
    "section": "Fluency",
    "stem": "Find the value of each pronumeral.",
@@ -78865,6 +78906,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y9-7a-mixed",
    "label": "4f",
    "section": "Fluency",
    "stem": "Find the value of each pronumeral.",
@@ -78971,6 +79013,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4g",
+   "help": "y9-7a-mixed",
    "label": "4g",
    "section": "Fluency",
    "stem": "Find the value of each pronumeral.",
@@ -79077,6 +79120,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4h",
+   "help": "y9-7a-mixed",
    "label": "4h",
    "section": "Fluency",
    "stem": "Find the value of each pronumeral.",
@@ -79183,6 +79227,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4i",
+   "help": "y9-7a-mixed",
    "label": "4i",
    "section": "Fluency",
    "stem": "Find the value of each pronumeral.",
@@ -79289,6 +79334,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-7a-minute",
    "label": "5a",
    "section": "Problem-solving",
    "stem": "How many degrees does the minute hand of a clock turn through in each time?",
@@ -79299,6 +79345,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-7a-minute",
    "label": "5b",
    "section": "Problem-solving",
    "stem": "How many degrees does the minute hand of a clock turn through in each time?",
@@ -79309,6 +79356,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-7a-minute",
    "label": "5c",
    "section": "Problem-solving",
    "stem": "How many degrees does the minute hand of a clock turn through in each time?",
@@ -79319,6 +79367,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-7a-minute",
    "label": "5d",
    "section": "Problem-solving",
    "stem": "How many degrees does the minute hand of a clock turn through in each time?",
@@ -79329,6 +79378,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y9-7a-minute",
    "label": "5e",
    "section": "Problem-solving",
    "stem": "How many degrees does the minute hand of a clock turn through in each time?",
@@ -79339,6 +79389,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y9-7a-minute",
    "label": "5f",
    "section": "Problem-solving",
    "stem": "How many degrees does the minute hand of a clock turn through in each time?",
@@ -79349,6 +79400,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5g",
+   "help": "y9-7a-minute",
    "label": "5g",
    "section": "Problem-solving",
    "stem": "How many degrees does the minute hand of a clock turn through in each time?",
@@ -79359,6 +79411,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5h",
+   "help": "y9-7a-minute",
    "label": "5h",
    "section": "Problem-solving",
    "stem": "How many degrees does the minute hand of a clock turn through in each time?",
@@ -79369,6 +79422,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-7a-mixed",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "Find the value of $x$ in each diagram.",
@@ -79467,6 +79521,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-7a-mixed",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "Find the value of $x$ in each diagram.",
@@ -79563,6 +79618,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-7a-clock",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "Find the angle (acute or obtuse) between the hour hand and the minute hand of a clock at each time. Remember that the hour hand keeps moving between the whole hours.",
@@ -79573,6 +79629,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-7a-clock",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "Find the angle (acute or obtuse) between the hour hand and the minute hand of a clock at each time. Remember that the hour hand keeps moving between the whole hours.",
@@ -79583,6 +79640,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-7a-clock",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "Find the angle (acute or obtuse) between the hour hand and the minute hand of a clock at each time. Remember that the hour hand keeps moving between the whole hours.",
@@ -79593,6 +79651,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y9-7a-clock",
    "label": "7d",
    "section": "Problem-solving",
    "stem": "Find the angle (acute or obtuse) between the hour hand and the minute hand of a clock at each time. Remember that the hour hand keeps moving between the whole hours.",
@@ -79603,6 +79662,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7e",
+   "help": "y9-7a-clock",
    "label": "7e",
    "section": "Problem-solving",
    "stem": "Find the angle (acute or obtuse) between the hour hand and the minute hand of a clock at each time. Remember that the hour hand keeps moving between the whole hours.",
@@ -79613,6 +79673,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7f",
+   "help": "y9-7a-clock",
    "label": "7f",
    "section": "Problem-solving",
    "stem": "Find the angle (acute or obtuse) between the hour hand and the minute hand of a clock at each time. Remember that the hour hand keeps moving between the whole hours.",
@@ -79623,6 +79684,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7g",
+   "help": "y9-7a-clock",
    "label": "7g",
    "section": "Problem-solving",
    "stem": "Find the angle (acute or obtuse) between the hour hand and the minute hand of a clock at each time. Remember that the hour hand keeps moving between the whole hours.",
@@ -79633,6 +79695,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7h",
+   "help": "y9-7a-clock",
    "label": "7h",
    "section": "Problem-solving",
    "stem": "Find the angle (acute or obtuse) between the hour hand and the minute hand of a clock at each time. Remember that the hour hand keeps moving between the whole hours.",
@@ -79643,6 +79706,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7i",
+   "help": "y9-7a-clock",
    "label": "7i",
    "section": "Problem-solving",
    "stem": "Find the angle (acute or obtuse) between the hour hand and the minute hand of a clock at each time. Remember that the hour hand keeps moving between the whole hours.",
@@ -79653,6 +79717,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8",
+   "help": "y9-7a-circle",
    "label": "8",
    "section": "Reasoning",
    "type": "numeric",
@@ -79772,6 +79837,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9",
+   "help": "y9-7a-circle",
    "label": "9",
    "section": "Reasoning",
    "type": "numeric",
@@ -79850,6 +79916,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y9-7a-exterior",
    "label": "10a",
    "section": "Reasoning",
    "stem": "In this diagram, $\\angle XYZ$ is an exterior angle of triangle $YZW$. Find $\\angle XYZ$ for each pair of values, using the angle sum of the triangle and angles on a straight line.",
@@ -79955,6 +80022,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y9-7a-exterior",
    "label": "10b",
    "section": "Reasoning",
    "stem": "In this diagram, $\\angle XYZ$ is an exterior angle of triangle $YZW$. Find $\\angle XYZ$ for each pair of values, using the angle sum of the triangle and angles on a straight line.",
@@ -79965,6 +80033,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y9-7a-exterior",
    "label": "10c",
    "section": "Reasoning",
    "stem": "In this diagram, $\\angle XYZ$ is an exterior angle of triangle $YZW$. Find $\\angle XYZ$ for each pair of values, using the angle sum of the triangle and angles on a straight line.",
@@ -79975,6 +80044,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y9-7a-equation",
    "label": "12a",
    "section": "Enrichment",
    "stem": "Write an equation for each diagram and solve it to find $x$.",
@@ -80056,6 +80126,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y9-7a-equation",
    "label": "12b",
    "section": "Enrichment",
    "stem": "Write an equation for each diagram and solve it to find $x$.",
@@ -80119,6 +80190,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y9-7a-equation",
    "label": "12c",
    "section": "Enrichment",
    "stem": "Write an equation for each diagram and solve it to find $x$.",
@@ -80230,6 +80302,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12d",
+   "help": "y9-7a-equation",
    "label": "12d",
    "section": "Enrichment",
    "stem": "Write an equation for each diagram and solve it to find $x$.",
@@ -80323,6 +80396,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12e",
+   "help": "y9-7a-equation",
    "label": "12e",
    "section": "Enrichment",
    "stem": "Write an equation for each diagram and solve it to find $x$.",
@@ -80416,6 +80490,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12f",
+   "help": "y9-7a-equation",
    "label": "12f",
    "section": "Enrichment",
    "stem": "Write an equation for each diagram and solve it to find $x$.",
@@ -80515,6 +80590,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-7b-test",
    "label": "1a",
    "section": "Fluency",
    "stem": "Decide if each diagram contains a pair of parallel lines, and choose the reason.",
@@ -80592,6 +80668,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-7b-test",
    "label": "1b",
    "section": "Fluency",
    "stem": "Decide if each diagram contains a pair of parallel lines, and choose the reason.",
@@ -80669,6 +80746,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-7b-test",
    "label": "1c",
    "section": "Fluency",
    "stem": "Decide if each diagram contains a pair of parallel lines, and choose the reason.",
@@ -80746,6 +80824,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-7b-test",
    "label": "1d",
    "section": "Fluency",
    "stem": "Decide if each diagram contains a pair of parallel lines, and choose the reason.",
@@ -80823,6 +80902,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-7b-test",
    "label": "1e",
    "section": "Fluency",
    "stem": "Decide if each diagram contains a pair of parallel lines, and choose the reason.",
@@ -80900,6 +80980,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-7b-test",
    "label": "1f",
    "section": "Fluency",
    "stem": "Decide if each diagram contains a pair of parallel lines, and choose the reason.",
@@ -80977,6 +81058,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-7b-find",
    "label": "2a",
    "section": "Fluency",
    "stem": "The arrows show parallel lines. Find the value of each pronumeral.",
@@ -81082,6 +81164,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-7b-find",
    "label": "2b",
    "section": "Fluency",
    "stem": "The arrows show parallel lines. Find the value of each pronumeral.",
@@ -81187,6 +81270,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-7b-find",
    "label": "2c",
    "section": "Fluency",
    "stem": "The arrows show parallel lines. Find the value of each pronumeral.",
@@ -81292,6 +81376,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-7b-find",
    "label": "2d",
    "section": "Fluency",
    "stem": "The arrows show parallel lines. Find the value of each pronumeral.",
@@ -81397,6 +81482,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-7b-find",
    "label": "2e",
    "section": "Fluency",
    "stem": "The arrows show parallel lines. Find the value of each pronumeral.",
@@ -81518,6 +81604,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-7b-find",
    "label": "2f",
    "section": "Fluency",
    "stem": "The arrows show parallel lines. Find the value of each pronumeral.",
@@ -81639,6 +81726,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y9-7b-find",
    "label": "2g",
    "section": "Fluency",
    "stem": "The arrows show parallel lines. Find the value of each pronumeral.",
@@ -81760,6 +81848,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y9-7b-find",
    "label": "2h",
    "section": "Fluency",
    "stem": "The arrows show parallel lines. Find the value of each pronumeral.",
@@ -81865,6 +81954,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2i",
+   "help": "y9-7b-find",
    "label": "2i",
    "section": "Fluency",
    "stem": "The arrows show parallel lines. Find the value of each pronumeral.",
@@ -81970,6 +82060,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2j",
+   "help": "y9-7b-find",
    "label": "2j",
    "section": "Fluency",
    "stem": "The arrows show parallel lines. Find the value of each pronumeral.",
@@ -82091,6 +82182,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2k",
+   "help": "y9-7b-find",
    "label": "2k",
    "section": "Fluency",
    "stem": "The arrows show parallel lines. Find the value of each pronumeral.",
@@ -82212,6 +82304,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2l",
+   "help": "y9-7b-find",
    "label": "2l",
    "section": "Fluency",
    "stem": "The arrows show parallel lines. Find the value of each pronumeral.",
@@ -82333,6 +82426,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2m",
+   "help": "y9-7b-find",
    "label": "2m",
    "section": "Fluency",
    "stem": "The arrows show parallel lines. Find the value of each pronumeral.",
@@ -82454,6 +82548,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2n",
+   "help": "y9-7b-find",
    "label": "2n",
    "section": "Fluency",
    "stem": "The arrows show parallel lines. Find the value of each pronumeral.",
@@ -82575,6 +82670,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2o",
+   "help": "y9-7b-find",
    "label": "2o",
    "section": "Fluency",
    "stem": "The arrows show parallel lines. Find the value of each pronumeral.",
@@ -82696,6 +82792,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-7b-multi",
    "label": "3a",
    "section": "Problem-solving",
    "stem": "Find the value of each pronumeral. The arrows show parallel lines.",
@@ -82825,6 +82922,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-7b-multi",
    "label": "3b",
    "section": "Problem-solving",
    "stem": "Find the value of each pronumeral. The arrows show parallel lines.",
@@ -82954,6 +83052,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-7b-multi",
    "label": "3c",
    "section": "Problem-solving",
    "stem": "Find the value of each pronumeral. The arrows show parallel lines.",
@@ -83076,6 +83175,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-7b-multi",
    "label": "3d",
    "section": "Problem-solving",
    "stem": "Find the value of each pronumeral. The arrows show parallel lines.",
@@ -83198,6 +83298,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-7b-multi",
    "label": "3e",
    "section": "Problem-solving",
    "stem": "Find the value of each pronumeral. The arrows show parallel lines.",
@@ -83361,6 +83462,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-7b-multi",
    "label": "3f",
    "section": "Problem-solving",
    "stem": "Find the value of each pronumeral. The arrows show parallel lines.",
@@ -83524,6 +83626,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3g",
+   "help": "y9-7b-multi",
    "label": "3g",
    "section": "Problem-solving",
    "stem": "Find the value of each pronumeral. The arrows show parallel lines.",
@@ -83687,6 +83790,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3h",
+   "help": "y9-7b-multi",
    "label": "3h",
    "section": "Problem-solving",
    "stem": "Find the value of each pronumeral. The arrows show parallel lines.",
@@ -83811,6 +83915,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3i",
+   "help": "y9-7b-multi",
    "label": "3i",
    "section": "Problem-solving",
    "stem": "Find the value of each pronumeral. The arrows show parallel lines.",
@@ -83924,6 +84029,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3j",
+   "help": "y9-7b-multi",
    "label": "3j",
    "section": "Problem-solving",
    "stem": "Find the value of each pronumeral. The arrows show parallel lines.",
@@ -84037,6 +84143,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-7b-bend",
    "label": "4a",
    "section": "Problem-solving",
    "stem": "The arrows show parallel lines. Adding a third parallel line through $B$ may help. Find the size of $\\angle ABC$.",
@@ -84166,6 +84273,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-7b-bend",
    "label": "4b",
    "section": "Problem-solving",
    "stem": "The arrows show parallel lines. Adding a third parallel line through $B$ may help. Find the size of $\\angle ABC$.",
@@ -84295,6 +84403,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-7b-bend",
    "label": "4c",
    "section": "Problem-solving",
    "stem": "The arrows show parallel lines. Adding a third parallel line through $B$ may help. Find the size of $\\angle ABC$.",
@@ -84424,6 +84533,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-7b-bend",
    "label": "4d",
    "section": "Problem-solving",
    "stem": "The arrows show parallel lines. Adding a third parallel line through $B$ may help. Find the size of $\\angle ABC$.",
@@ -84553,6 +84663,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y9-7b-bend",
    "label": "4e",
    "section": "Problem-solving",
    "stem": "The arrows show parallel lines. Adding a third parallel line through $B$ may help. Find the size of $\\angle ABC$.",
@@ -84682,6 +84793,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y9-7b-bend",
    "label": "4f",
    "section": "Problem-solving",
    "stem": "The arrows show parallel lines. Adding a third parallel line through $B$ may help. Find the size of $\\angle ABC$.",
@@ -84811,6 +84923,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-7b-multi",
    "label": "5a",
    "section": "Problem-solving",
    "stem": "Find the value of $x$.",
@@ -84924,6 +85037,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-7b-multi",
    "label": "5b",
    "section": "Problem-solving",
    "stem": "Find the value of $x$.",
@@ -85031,6 +85145,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-7b-multi",
    "label": "5c",
    "section": "Problem-solving",
    "stem": "Find the value of $x$.",
@@ -85165,6 +85280,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-7b-expr",
    "label": "6a",
    "section": "Reasoning",
    "stem": "Write an expression for $\\angle ABC$ in each diagram, using the pronumerals shown. The arrows show parallel lines.",
@@ -85272,6 +85388,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-7b-expr",
    "label": "6b",
    "section": "Reasoning",
    "stem": "Write an expression for $\\angle ABC$ in each diagram, using the pronumerals shown. The arrows show parallel lines.",
@@ -85380,6 +85497,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y9-7b-expr",
    "label": "6c",
    "section": "Reasoning",
    "stem": "Write an expression for $\\angle ABC$ in each diagram, using the pronumerals shown. The arrows show parallel lines.",
@@ -85518,6 +85636,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y9-7b-expr",
    "label": "6d",
    "section": "Reasoning",
    "stem": "Write an expression for $\\angle ABC$ in each diagram, using the pronumerals shown. The arrows show parallel lines.",
@@ -85641,6 +85760,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6e",
+   "help": "y9-7b-expr",
    "label": "6e",
    "section": "Reasoning",
    "stem": "Write an expression for $\\angle ABC$ in each diagram, using the pronumerals shown. The arrows show parallel lines.",
@@ -85772,6 +85892,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6f",
+   "help": "y9-7b-expr",
    "label": "6f",
    "section": "Reasoning",
    "stem": "Write an expression for $\\angle ABC$ in each diagram, using the pronumerals shown. The arrows show parallel lines.",
@@ -85896,6 +86017,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-7b-proof",
    "label": "7a",
    "section": "Reasoning",
    "stem": "In this diagram, $\\angle ABD = 54^\\circ$, $\\angle DBC = 54^\\circ$ and $\\angle BCD = 72^\\circ$.",
@@ -86016,6 +86138,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-7b-proof",
    "label": "7b",
    "section": "Reasoning",
    "stem": "In this diagram, $\\angle ABD = 54^\\circ$, $\\angle DBC = 54^\\circ$ and $\\angle BCD = 72^\\circ$.",
@@ -86031,6 +86154,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-7b-proof",
    "label": "8a",
    "section": "Reasoning",
    "stem": "In this diagram, the ray from $B$ is parallel to $AC$. The angles at $A$ and $B$ inside the triangle are $a^\\circ$ and $b^\\circ$, and the angle between $BC$ and the ray is $c^\\circ$.",
@@ -86161,6 +86285,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-7b-proof",
    "label": "8b",
    "section": "Reasoning",
    "stem": "In this diagram, the ray from $B$ is parallel to $AC$. The angles at $A$ and $B$ inside the triangle are $a^\\circ$ and $b^\\circ$, and the angle between $BC$ and the ray is $c^\\circ$.",
@@ -86176,6 +86301,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y9-7b-proof",
    "label": "8c",
    "section": "Reasoning",
    "stem": "In this diagram, the ray from $B$ is parallel to $AC$. The angles at $A$ and $B$ inside the triangle are $a^\\circ$ and $b^\\circ$, and the angle between $BC$ and the ray is $c^\\circ$.",
@@ -86191,6 +86317,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-7b-multi",
    "label": "9a",
    "section": "Enrichment",
    "stem": "Find the size of $\\angle ABC$ in each diagram for the values given. The arrows show parallel lines.",
@@ -86329,6 +86456,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-7b-multi",
    "label": "9b",
    "section": "Enrichment",
    "stem": "Find the size of $\\angle ABC$ in each diagram for the values given. The arrows show parallel lines.",
@@ -86442,6 +86570,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y9-7b-multi",
    "label": "9c",
    "section": "Enrichment",
    "stem": "Find the size of $\\angle ABC$ in each diagram for the values given. The arrows show parallel lines.",
@@ -86599,6 +86728,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-7c-quad",
    "label": "1a",
    "section": "Fluency",
    "stem": "Find the value of the pronumeral in each quadrilateral.",
@@ -86687,6 +86817,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-7c-quad",
    "label": "1b",
    "section": "Fluency",
    "stem": "Find the value of the pronumeral in each quadrilateral.",
@@ -86781,6 +86912,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-7c-quad",
    "label": "1c",
    "section": "Fluency",
    "stem": "Find the value of the pronumeral in each quadrilateral.",
@@ -86875,6 +87007,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-7c-quad",
    "label": "1d",
    "section": "Fluency",
    "stem": "Find the value of the pronumeral in each quadrilateral.",
@@ -86975,6 +87108,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-7c-quad",
    "label": "1e",
    "section": "Fluency",
    "stem": "Find the value of the pronumeral in each quadrilateral.",
@@ -87075,6 +87209,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-7c-quad",
    "label": "1f",
    "section": "Fluency",
    "stem": "Find the value of the pronumeral in each quadrilateral.",
@@ -87186,6 +87321,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-7c-special",
    "label": "2a",
    "section": "Fluency",
    "stem": "Find the value of the pronumeral. Sides with the same marks are equal, and arrows show parallel sides.",
@@ -87306,6 +87442,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-7c-special",
    "label": "2b",
    "section": "Fluency",
    "stem": "Find the value of the pronumeral. Sides with the same marks are equal, and arrows show parallel sides.",
@@ -87426,6 +87563,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-7c-special",
    "label": "2c",
    "section": "Fluency",
    "stem": "Find the value of the pronumeral. Sides with the same marks are equal, and arrows show parallel sides.",
@@ -87512,6 +87650,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-7c-special",
    "label": "2d",
    "section": "Fluency",
    "stem": "Find the value of the pronumeral. Sides with the same marks are equal, and arrows show parallel sides.",
@@ -87609,6 +87748,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-7c-special",
    "label": "2e",
    "section": "Fluency",
    "stem": "Find the value of the pronumeral. Sides with the same marks are equal, and arrows show parallel sides.",
@@ -87713,6 +87853,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-7c-special",
    "label": "2f",
    "section": "Fluency",
    "stem": "Find the value of the pronumeral. Sides with the same marks are equal, and arrows show parallel sides.",
@@ -87817,6 +87958,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-7c-polygon",
    "label": "3a",
    "section": "Fluency",
    "stem": "Use the angle sum $S = (n - 2) \\times 180^\\circ$ to find the value of each pronumeral. The polygons in parts e to m are regular.",
@@ -87925,6 +88067,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-7c-polygon",
    "label": "3b",
    "section": "Fluency",
    "stem": "Use the angle sum $S = (n - 2) \\times 180^\\circ$ to find the value of each pronumeral. The polygons in parts e to m are regular.",
@@ -88085,6 +88228,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-7c-polygon",
    "label": "3c",
    "section": "Fluency",
    "stem": "Use the angle sum $S = (n - 2) \\times 180^\\circ$ to find the value of each pronumeral. The polygons in parts e to m are regular.",
@@ -88219,6 +88363,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-7c-polygon",
    "label": "3d",
    "section": "Fluency",
    "stem": "Use the angle sum $S = (n - 2) \\times 180^\\circ$ to find the value of each pronumeral. The polygons in parts e to m are regular.",
@@ -88319,6 +88464,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-7c-polygon",
    "label": "3e",
    "section": "Fluency",
    "stem": "Use the angle sum $S = (n - 2) \\times 180^\\circ$ to find the value of each pronumeral. The polygons in parts e to m are regular.",
@@ -88483,6 +88629,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-7c-polygon",
    "label": "3f",
    "section": "Fluency",
    "stem": "Use the angle sum $S = (n - 2) \\times 180^\\circ$ to find the value of each pronumeral. The polygons in parts e to m are regular.",
@@ -88647,6 +88794,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3g",
+   "help": "y9-7c-polygon",
    "label": "3g",
    "section": "Fluency",
    "stem": "Use the angle sum $S = (n - 2) \\times 180^\\circ$ to find the value of each pronumeral. The polygons in parts e to m are regular.",
@@ -88824,6 +88972,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3h",
+   "help": "y9-7c-polygon",
    "label": "3h",
    "section": "Fluency",
    "stem": "Use the angle sum $S = (n - 2) \\times 180^\\circ$ to find the value of each pronumeral. The polygons in parts e to m are regular.",
@@ -89001,6 +89150,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3i",
+   "help": "y9-7c-polygon",
    "label": "3i",
    "section": "Fluency",
    "stem": "Use the angle sum $S = (n - 2) \\times 180^\\circ$ to find the value of each pronumeral. The polygons in parts e to m are regular.",
@@ -89118,6 +89268,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3j",
+   "help": "y9-7c-polygon",
    "label": "3j",
    "section": "Fluency",
    "stem": "Use the angle sum $S = (n - 2) \\times 180^\\circ$ to find the value of each pronumeral. The polygons in parts e to m are regular.",
@@ -89235,6 +89386,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3k",
+   "help": "y9-7c-polygon",
    "label": "3k",
    "section": "Fluency",
    "stem": "Use the angle sum $S = (n - 2) \\times 180^\\circ$ to find the value of each pronumeral. The polygons in parts e to m are regular.",
@@ -89417,6 +89569,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3l",
+   "help": "y9-7c-polygon",
    "label": "3l",
    "section": "Fluency",
    "stem": "Use the angle sum $S = (n - 2) \\times 180^\\circ$ to find the value of each pronumeral. The polygons in parts e to m are regular.",
@@ -89599,6 +89752,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3m",
+   "help": "y9-7c-polygon",
    "label": "3m",
    "section": "Fluency",
    "stem": "Use the angle sum $S = (n - 2) \\times 180^\\circ$ to find the value of each pronumeral. The polygons in parts e to m are regular.",
@@ -89740,6 +89894,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-7c-props",
    "label": "4a",
    "section": "Problem-solving",
    "stem": "Which list gives ALL the special quadrilaterals (square, rectangle, rhombus, parallelogram, kite, trapezium) with this property? (Here a trapezium has just one pair of parallel sides and its other two sides are not equal.)",
@@ -89756,6 +89911,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-7c-props",
    "label": "4b",
    "section": "Problem-solving",
    "stem": "Which list gives ALL the special quadrilaterals (square, rectangle, rhombus, parallelogram, kite, trapezium) with this property? (Here a trapezium has just one pair of parallel sides and its other two sides are not equal.)",
@@ -89772,6 +89928,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-7c-props",
    "label": "4c",
    "section": "Problem-solving",
    "stem": "Which list gives ALL the special quadrilaterals (square, rectangle, rhombus, parallelogram, kite, trapezium) with this property? (Here a trapezium has just one pair of parallel sides and its other two sides are not equal.)",
@@ -89788,6 +89945,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-7c-props",
    "label": "4d",
    "section": "Problem-solving",
    "stem": "Which list gives ALL the special quadrilaterals (square, rectangle, rhombus, parallelogram, kite, trapezium) with this property? (Here a trapezium has just one pair of parallel sides and its other two sides are not equal.)",
@@ -89804,6 +89962,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-7c-sides",
    "label": "5a",
    "section": "Problem-solving",
    "stem": "Find the number of sides of a polygon with each angle sum.",
@@ -89813,6 +89972,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-7c-sides",
    "label": "5b",
    "section": "Problem-solving",
    "stem": "Find the number of sides of a polygon with each angle sum.",
@@ -89822,6 +89982,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-7c-sides",
    "label": "5c",
    "section": "Problem-solving",
    "stem": "Find the number of sides of a polygon with each angle sum.",
@@ -89831,6 +89992,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-7c-mixed",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "Find the value of $x$ in each diagram. Sides with the same marks are equal, and arrows show parallel sides.",
@@ -89959,6 +90121,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-7c-mixed",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "Find the value of $x$ in each diagram. Sides with the same marks are equal, and arrows show parallel sides.",
@@ -90104,6 +90267,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y9-7c-mixed",
    "label": "6c",
    "section": "Problem-solving",
    "stem": "Find the value of $x$ in each diagram. Sides with the same marks are equal, and arrows show parallel sides.",
@@ -90220,6 +90384,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y9-7c-mixed",
    "label": "6d",
    "section": "Problem-solving",
    "stem": "Find the value of $x$ in each diagram. Sides with the same marks are equal, and arrows show parallel sides.",
@@ -90331,6 +90496,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6e",
+   "help": "y9-7c-mixed",
    "label": "6e",
    "section": "Problem-solving",
    "stem": "Find the value of $x$ in each diagram. Sides with the same marks are equal, and arrows show parallel sides.",
@@ -90453,6 +90619,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6f",
+   "help": "y9-7c-mixed",
    "label": "6f",
    "section": "Problem-solving",
    "stem": "Find the value of $x$ in each diagram. Sides with the same marks are equal, and arrows show parallel sides.",
@@ -90612,6 +90779,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-7c-rules",
    "label": "8a",
    "section": "Reasoning",
    "stem": "Think about a regular polygon with $n$ sides. Write an expression in $n$ for each of these.",
@@ -90625,6 +90793,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-7c-rules",
    "label": "8b",
    "section": "Reasoning",
    "stem": "Think about a regular polygon with $n$ sides. Write an expression in $n$ for each of these.",
@@ -90637,6 +90806,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y9-7c-rules",
    "label": "8c",
    "section": "Reasoning",
    "stem": "Think about a regular polygon with $n$ sides. Write an expression in $n$ for each of these.",
@@ -90649,6 +90819,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y9-7c-rules",
    "label": "8d",
    "section": "Reasoning",
    "type": "numeric",
@@ -90658,6 +90829,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-7c-reflex",
    "label": "9a",
    "section": "Reasoning",
    "stem": "A non-convex polygon has at least one reflex interior angle. What is the greatest number of reflex interior angles possible in each polygon?",
@@ -90667,6 +90839,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-7c-reflex",
    "label": "9b",
    "section": "Reasoning",
    "stem": "A non-convex polygon has at least one reflex interior angle. What is the greatest number of reflex interior angles possible in each polygon?",
@@ -90676,6 +90849,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y9-7c-reflex",
    "label": "9c",
    "section": "Reasoning",
    "stem": "A non-convex polygon has at least one reflex interior angle. What is the greatest number of reflex interior angles possible in each polygon?",
@@ -90685,6 +90859,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y9-7c-reflex",
    "label": "9d",
    "section": "Reasoning",
    "stem": "A non-convex polygon has at least one reflex interior angle. What is the greatest number of reflex interior angles possible in each polygon?",
@@ -90694,6 +90869,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y9-7c-rules",
    "label": "10a",
    "section": "Enrichment",
    "stem": "Walking once around any polygon and turning at each corner, you turn through a total of $360^\\circ$, so the exterior angles add to $360^\\circ$. Each exterior angle is $180^\\circ$ minus the interior angle next to it. For a pentagon this gives $5 \\times 180^\\circ - S = 360^\\circ$, where $S$ is the angle sum.",
@@ -90704,6 +90880,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y9-7c-rules",
    "label": "10b",
    "section": "Enrichment",
    "stem": "Walking once around any polygon and turning at each corner, you turn through a total of $360^\\circ$, so the exterior angles add to $360^\\circ$. Each exterior angle is $180^\\circ$ minus the interior angle next to it. For a pentagon this gives $5 \\times 180^\\circ - S = 360^\\circ$, where $S$ is the angle sum.",
@@ -90714,6 +90891,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y9-7c-rules",
    "label": "10c",
    "section": "Enrichment",
    "stem": "Walking once around any polygon and turning at each corner, you turn through a total of $360^\\circ$, so the exterior angles add to $360^\\circ$. Each exterior angle is $180^\\circ$ minus the interior angle next to it. For a pentagon this gives $5 \\times 180^\\circ - S = 360^\\circ$, where $S$ is the angle sum.",
@@ -90724,6 +90902,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10d",
+   "help": "y9-7c-rules",
    "label": "10d",
    "section": "Enrichment",
    "stem": "Walking once around any polygon and turning at each corner, you turn through a total of $360^\\circ$, so the exterior angles add to $360^\\circ$. Each exterior angle is $180^\\circ$ minus the interior angle next to it. For a pentagon this gives $5 \\times 180^\\circ - S = 360^\\circ$, where $S$ is the angle sum.",
@@ -90742,6 +90921,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-7d-tests",
    "label": "1a",
    "section": "Fluency",
    "stem": "Which congruence test (SSS, SAS, AAS or RHS) would you use to show that each pair of triangles is congruent? Sides with the same marks are equal, and angles with the same marks are equal.",
@@ -90869,6 +91049,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-7d-tests",
    "label": "1b",
    "section": "Fluency",
    "stem": "Which congruence test (SSS, SAS, AAS or RHS) would you use to show that each pair of triangles is congruent? Sides with the same marks are equal, and angles with the same marks are equal.",
@@ -90978,6 +91159,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-7d-tests",
    "label": "1c",
    "section": "Fluency",
    "stem": "Which congruence test (SSS, SAS, AAS or RHS) would you use to show that each pair of triangles is congruent? Sides with the same marks are equal, and angles with the same marks are equal.",
@@ -91089,6 +91271,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-7d-tests",
    "label": "1d",
    "section": "Fluency",
    "stem": "Which congruence test (SSS, SAS, AAS or RHS) would you use to show that each pair of triangles is congruent? Sides with the same marks are equal, and angles with the same marks are equal.",
@@ -91198,6 +91381,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-7d-tests",
    "label": "1e",
    "section": "Fluency",
    "stem": "Which congruence test (SSS, SAS, AAS or RHS) would you use to show that each pair of triangles is congruent? Sides with the same marks are equal, and angles with the same marks are equal.",
@@ -91309,6 +91493,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-7d-tests",
    "label": "1f",
    "section": "Fluency",
    "stem": "Which congruence test (SSS, SAS, AAS or RHS) would you use to show that each pair of triangles is congruent? Sides with the same marks are equal, and angles with the same marks are equal.",
@@ -91436,6 +91621,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-7d-find",
    "label": "2a",
    "section": "Fluency",
    "stem": "Each pair of triangles is congruent. Find the value of each pronumeral. Sides with the same marks are equal.",
@@ -91551,6 +91737,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-7d-find",
    "label": "2b",
    "section": "Fluency",
    "stem": "Each pair of triangles is congruent. Find the value of each pronumeral. Sides with the same marks are equal.",
@@ -91666,6 +91853,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-7d-find",
    "label": "2c",
    "section": "Fluency",
    "stem": "Each pair of triangles is congruent. Find the value of each pronumeral. Sides with the same marks are equal.",
@@ -91761,6 +91949,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-7d-find",
    "label": "2d",
    "section": "Fluency",
    "stem": "Each pair of triangles is congruent. Find the value of each pronumeral. Sides with the same marks are equal.",
@@ -91856,6 +92045,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-7d-find",
    "label": "2e",
    "section": "Fluency",
    "stem": "Each pair of triangles is congruent. Find the value of each pronumeral. Sides with the same marks are equal.",
@@ -92027,6 +92217,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-7d-find",
    "label": "2f",
    "section": "Fluency",
    "stem": "Each pair of triangles is congruent. Find the value of each pronumeral. Sides with the same marks are equal.",
@@ -92198,6 +92389,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y9-7d-find",
    "label": "2g",
    "section": "Fluency",
    "stem": "Each pair of triangles is congruent. Find the value of each pronumeral. Sides with the same marks are equal.",
@@ -92347,6 +92539,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y9-7d-find",
    "label": "2h",
    "section": "Fluency",
    "stem": "Each pair of triangles is congruent. Find the value of each pronumeral. Sides with the same marks are equal.",
@@ -92496,6 +92689,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2i",
+   "help": "y9-7d-find",
    "label": "2i",
    "section": "Fluency",
    "stem": "Each pair of triangles is congruent. Find the value of each pronumeral. Sides with the same marks are equal.",
@@ -92648,6 +92842,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2j",
+   "help": "y9-7d-find",
    "label": "2j",
    "section": "Fluency",
    "stem": "Each pair of triangles is congruent. Find the value of each pronumeral. Sides with the same marks are equal.",
@@ -92800,6 +92995,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2k",
+   "help": "y9-7d-find",
    "label": "2k",
    "section": "Fluency",
    "stem": "Each pair of triangles is congruent. Find the value of each pronumeral. Sides with the same marks are equal.",
@@ -92987,6 +93183,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2l",
+   "help": "y9-7d-find",
    "label": "2l",
    "section": "Fluency",
    "stem": "Each pair of triangles is congruent. Find the value of each pronumeral. Sides with the same marks are equal.",
@@ -93174,6 +93371,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2m",
+   "help": "y9-7d-find",
    "label": "2m",
    "section": "Fluency",
    "stem": "Each pair of triangles is congruent. Find the value of each pronumeral. Sides with the same marks are equal.",
@@ -93361,6 +93559,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2n",
+   "help": "y9-7d-find",
    "label": "2n",
    "section": "Fluency",
    "stem": "Each pair of triangles is congruent. Find the value of each pronumeral. Sides with the same marks are equal.",
@@ -93512,6 +93711,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2o",
+   "help": "y9-7d-find",
    "label": "2o",
    "section": "Fluency",
    "stem": "Each pair of triangles is congruent. Find the value of each pronumeral. Sides with the same marks are equal.",
@@ -93663,6 +93863,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2p",
+   "help": "y9-7d-find",
    "label": "2p",
    "section": "Fluency",
    "stem": "Each pair of triangles is congruent. Find the value of each pronumeral. Sides with the same marks are equal.",
@@ -93798,6 +93999,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2q",
+   "help": "y9-7d-find",
    "label": "2q",
    "section": "Fluency",
    "stem": "Each pair of triangles is congruent. Find the value of each pronumeral. Sides with the same marks are equal.",
@@ -93933,6 +94135,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-7d-which",
    "label": "3a",
    "section": "Problem-solving",
    "stem": "In each group, two of the three triangles are congruent.",
@@ -94143,6 +94346,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-7d-which",
    "label": "3b",
    "section": "Problem-solving",
    "stem": "In each group, two of the three triangles are congruent.",
@@ -94353,6 +94557,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-7d-which",
    "label": "3c",
    "section": "Problem-solving",
    "stem": "In each group, two of the three triangles are congruent.",
@@ -94558,6 +94763,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-7d-which",
    "label": "3d",
    "section": "Problem-solving",
    "stem": "In each group, two of the three triangles are congruent.",
@@ -94763,6 +94969,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-7d-which",
    "label": "3e",
    "section": "Problem-solving",
    "stem": "In each group, two of the three triangles are congruent.",
@@ -94991,6 +95198,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-7d-which",
    "label": "3f",
    "section": "Problem-solving",
    "stem": "In each group, two of the three triangles are congruent.",
@@ -95219,6 +95427,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3g",
+   "help": "y9-7d-which",
    "label": "3g",
    "section": "Problem-solving",
    "stem": "In each group, two of the three triangles are congruent.",
@@ -95473,6 +95682,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3h",
+   "help": "y9-7d-which",
    "label": "3h",
    "section": "Problem-solving",
    "stem": "In each group, two of the three triangles are congruent.",
@@ -95727,6 +95937,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3i",
+   "help": "y9-7d-which",
    "label": "3i",
    "section": "Problem-solving",
    "stem": "In each group, two of the three triangles are congruent.",
@@ -95937,6 +96148,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3j",
+   "help": "y9-7d-which",
    "label": "3j",
    "section": "Problem-solving",
    "stem": "In each group, two of the three triangles are congruent.",
@@ -96147,6 +96359,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-7d-which",
    "label": "4a",
    "section": "Problem-solving",
    "stem": "Here are eight triangles, labelled A to H. Lengths are in cm.",
@@ -96621,6 +96834,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-7d-which",
    "label": "4b",
    "section": "Problem-solving",
    "stem": "Here are eight triangles, labelled A to H. Lengths are in cm.",
@@ -96636,6 +96850,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-7d-which",
    "label": "4c",
    "section": "Problem-solving",
    "stem": "Here are eight triangles, labelled A to H. Lengths are in cm.",
@@ -96654,6 +96869,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-7d-which",
    "label": "4d",
    "section": "Problem-solving",
    "stem": "Here are eight triangles, labelled A to H. Lengths are in cm.",
@@ -96669,6 +96885,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y9-7d-which",
    "label": "4e",
    "section": "Problem-solving",
    "stem": "Here are eight triangles, labelled A to H. Lengths are in cm.",
@@ -96687,6 +96904,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y9-7d-which",
    "label": "4f",
    "section": "Problem-solving",
    "stem": "Here are eight triangles, labelled A to H. Lengths are in cm.",
@@ -96702,6 +96920,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4g",
+   "help": "y9-7d-which",
    "label": "4g",
    "section": "Problem-solving",
    "stem": "Here are eight triangles, labelled A to H. Lengths are in cm.",
@@ -96716,6 +96935,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-7d-pythag",
    "label": "5a",
    "section": "Problem-solving",
    "stem": "Each pair of triangles is congruent. Use Pythagoras' theorem to find the length $BC$.",
@@ -96842,6 +97062,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-7d-pythag",
    "label": "5b",
    "section": "Problem-solving",
    "stem": "Each pair of triangles is congruent. Use Pythagoras' theorem to find the length $BC$.",
@@ -96968,6 +97189,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6",
+   "help": "y9-7d-not",
    "label": "6",
    "section": "Reasoning",
    "type": "choice",
@@ -96981,6 +97203,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-7d-hidden",
    "label": "7a",
    "section": "Reasoning",
    "stem": "Two triangles meet at a point where their sides cross. Sides with the same marks are equal.",
@@ -97106,6 +97329,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-7d-hidden",
    "label": "7b",
    "section": "Reasoning",
    "stem": "Two triangles meet at a point where their sides cross. Sides with the same marks are equal.",
@@ -97121,6 +97345,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-7d-hidden",
    "label": "8a",
    "section": "Reasoning",
    "stem": "$ABCD$ is a parallelogram with diagonal $AC$. Sides with the same marks are equal.",
@@ -97244,6 +97469,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-7d-hidden",
    "label": "8b",
    "section": "Reasoning",
    "stem": "$ABCD$ is a parallelogram with diagonal $AC$. Sides with the same marks are equal.",
@@ -97259,6 +97485,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-7d-hidden",
    "label": "9a",
    "section": "Reasoning",
    "stem": "In $\\triangle ABC$, $AB = CB$ and the line $BD$ cuts $\\angle ABC$ into two equal angles.",
@@ -97384,6 +97611,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-7d-hidden",
    "label": "9b",
    "section": "Reasoning",
    "stem": "In $\\triangle ABC$, $AB = CB$ and the line $BD$ cuts $\\angle ABC$ into two equal angles.",
@@ -97399,6 +97627,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y9-7d-hidden",
    "label": "9c",
    "section": "Reasoning",
    "stem": "In $\\triangle ABC$, $AB = CB$ and the line $BD$ cuts $\\angle ABC$ into two equal angles.",
@@ -97414,6 +97643,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y9-7d-hidden",
    "label": "9d",
    "section": "Reasoning",
    "stem": "In $\\triangle ABC$, $AB = CB$ and the line $BD$ cuts $\\angle ABC$ into two equal angles.",
@@ -97424,6 +97654,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y9-7d-not",
    "label": "10a",
    "section": "Enrichment",
    "stem": "Angle, side, side (ASS) is not a congruence test. Here $AB = 6$ cm and $\\angle A = 35^\\circ$. The arc shows every point that is $4.5$ cm from $B$.",
@@ -97549,6 +97780,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y9-7d-not",
    "label": "10b",
    "section": "Enrichment",
    "stem": "Angle, side, side (ASS) is not a congruence test. Here $AB = 6$ cm and $\\angle A = 35^\\circ$. The arc shows every point that is $4.5$ cm from $B$.",
@@ -97558,6 +97790,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y9-7d-not",
    "label": "10c",
    "section": "Enrichment",
    "stem": "Angle, side, side (ASS) is not a congruence test. Here $AB = 6$ cm and $\\angle A = 35^\\circ$. The arc shows every point that is $4.5$ cm from $B$.",
@@ -97580,6 +97813,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-7e-common",
    "label": "1a",
    "section": "Fluency",
    "stem": "Each diagram shows a pair of triangles, with equal sides and angles marked. For each diagram, choose the congruence test, then give the extra fact or reason the proof needs.",
@@ -97707,6 +97941,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-7e-common",
    "label": "1b",
    "section": "Fluency",
    "stem": "Each diagram shows a pair of triangles, with equal sides and angles marked. For each diagram, choose the congruence test, then give the extra fact or reason the proof needs.",
@@ -97831,6 +98066,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-7e-common",
    "label": "1c",
    "section": "Fluency",
    "stem": "Each diagram shows a pair of triangles, with equal sides and angles marked. For each diagram, choose the congruence test, then give the extra fact or reason the proof needs.",
@@ -97956,6 +98192,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-7e-common",
    "label": "1d",
    "section": "Fluency",
    "stem": "Each diagram shows a pair of triangles, with equal sides and angles marked. For each diagram, choose the congruence test, then give the extra fact or reason the proof needs.",
@@ -98078,6 +98315,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-7e-common",
    "label": "1e",
    "section": "Fluency",
    "stem": "Each diagram shows a pair of triangles, with equal sides and angles marked. For each diagram, choose the congruence test, then give the extra fact or reason the proof needs.",
@@ -98221,6 +98459,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-7e-common",
    "label": "1f",
    "section": "Fluency",
    "stem": "Each diagram shows a pair of triangles, with equal sides and angles marked. For each diagram, choose the congruence test, then give the extra fact or reason the proof needs.",
@@ -98361,6 +98600,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1g",
+   "help": "y9-7e-common",
    "label": "1g",
    "section": "Fluency",
    "stem": "Each diagram shows a pair of triangles, with equal sides and angles marked. For each diagram, choose the congruence test, then give the extra fact or reason the proof needs.",
@@ -98486,6 +98726,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1h",
+   "help": "y9-7e-common",
    "label": "1h",
    "section": "Fluency",
    "stem": "Each diagram shows a pair of triangles, with equal sides and angles marked. For each diagram, choose the congruence test, then give the extra fact or reason the proof needs.",
@@ -98608,6 +98849,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1i",
+   "help": "y9-7e-common",
    "label": "1i",
    "section": "Fluency",
    "stem": "Each diagram shows a pair of triangles, with equal sides and angles marked. For each diagram, choose the congruence test, then give the extra fact or reason the proof needs.",
@@ -98732,6 +98974,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1j",
+   "help": "y9-7e-common",
    "label": "1j",
    "section": "Fluency",
    "stem": "Each diagram shows a pair of triangles, with equal sides and angles marked. For each diagram, choose the congruence test, then give the extra fact or reason the proof needs.",
@@ -98856,6 +99099,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1k",
+   "help": "y9-7e-common",
    "label": "1k",
    "section": "Fluency",
    "stem": "Each diagram shows a pair of triangles, with equal sides and angles marked. For each diagram, choose the congruence test, then give the extra fact or reason the proof needs.",
@@ -98980,6 +99224,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1l",
+   "help": "y9-7e-common",
    "label": "1l",
    "section": "Fluency",
    "stem": "Each diagram shows a pair of triangles, with equal sides and angles marked. For each diagram, choose the congruence test, then give the extra fact or reason the proof needs.",
@@ -99104,6 +99349,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1m",
+   "help": "y9-7e-common",
    "label": "1m",
    "section": "Fluency",
    "stem": "Each diagram shows a pair of triangles, with equal sides and angles marked. For each diagram, choose the congruence test, then give the extra fact or reason the proof needs.",
@@ -99228,6 +99474,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1n",
+   "help": "y9-7e-common",
    "label": "1n",
    "section": "Fluency",
    "stem": "Each diagram shows a pair of triangles, with equal sides and angles marked. For each diagram, choose the congruence test, then give the extra fact or reason the proof needs.",
@@ -99352,6 +99599,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1o",
+   "help": "y9-7e-common",
    "label": "1o",
    "section": "Fluency",
    "stem": "Each diagram shows a pair of triangles, with equal sides and angles marked. For each diagram, choose the congruence test, then give the extra fact or reason the proof needs.",
@@ -99469,6 +99717,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1p",
+   "help": "y9-7e-common",
    "label": "1p",
    "section": "Fluency",
    "stem": "Each diagram shows a pair of triangles, with equal sides and angles marked. For each diagram, choose the congruence test, then give the extra fact or reason the proof needs.",
@@ -99583,6 +99832,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1q",
+   "help": "y9-7e-common",
    "label": "1q",
    "section": "Fluency",
    "stem": "Each diagram shows a pair of triangles, with equal sides and angles marked. For each diagram, choose the congruence test, then give the extra fact or reason the proof needs.",
@@ -99696,6 +99946,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1r",
+   "help": "y9-7e-common",
    "label": "1r",
    "section": "Fluency",
    "stem": "Each diagram shows a pair of triangles, with equal sides and angles marked. For each diagram, choose the congruence test, then give the extra fact or reason the proof needs.",
@@ -99806,6 +100057,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1s",
+   "help": "y9-7e-common",
    "label": "1s",
    "section": "Fluency",
    "stem": "Each diagram shows a pair of triangles, with equal sides and angles marked. For each diagram, choose the congruence test, then give the extra fact or reason the proof needs.",
@@ -99919,6 +100171,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1t",
+   "help": "y9-7e-common",
    "label": "1t",
    "section": "Fluency",
    "stem": "Each diagram shows a pair of triangles, with equal sides and angles marked. For each diagram, choose the congruence test, then give the extra fact or reason the proof needs.",
@@ -100032,6 +100285,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1u",
+   "help": "y9-7e-common",
    "label": "1u",
    "section": "Fluency",
    "stem": "Each diagram shows a pair of triangles, with equal sides and angles marked. For each diagram, choose the congruence test, then give the extra fact or reason the proof needs.",
@@ -100152,6 +100406,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1v",
+   "help": "y9-7e-common",
    "label": "1v",
    "section": "Fluency",
    "stem": "Each diagram shows a pair of triangles, with equal sides and angles marked. For each diagram, choose the congruence test, then give the extra fact or reason the proof needs.",
@@ -100272,6 +100527,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1w",
+   "help": "y9-7e-common",
    "label": "1w",
    "section": "Fluency",
    "stem": "Each diagram shows a pair of triangles, with equal sides and angles marked. For each diagram, choose the congruence test, then give the extra fact or reason the proof needs.",
@@ -100373,6 +100629,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1x",
+   "help": "y9-7e-common",
    "label": "1x",
    "section": "Fluency",
    "stem": "Each diagram shows a pair of triangles, with equal sides and angles marked. For each diagram, choose the congruence test, then give the extra fact or reason the proof needs.",
@@ -100474,6 +100731,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-7e-parallel",
    "label": "2a",
    "section": "Problem-solving",
    "stem": "In this diagram, $KP$ and $NL$ are straight lines that cross at $M$.",
@@ -100598,6 +100856,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-7e-parallel",
    "label": "2b",
    "section": "Problem-solving",
    "stem": "In this diagram, $KP$ and $NL$ are straight lines that cross at $M$.",
@@ -100608,6 +100867,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-7e-parallel",
    "label": "2c",
    "section": "Problem-solving",
    "stem": "In this diagram, $KP$ and $NL$ are straight lines that cross at $M$.",
@@ -100623,6 +100883,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-7e-parallel",
    "label": "3a",
    "section": "Problem-solving",
    "stem": "In this diagram, $FH$ and $JK$ are straight lines that cross at right angles at $G$.",
@@ -100757,6 +101018,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-7e-parallel",
    "label": "3b",
    "section": "Problem-solving",
    "stem": "In this diagram, $FH$ and $JK$ are straight lines that cross at right angles at $G$.",
@@ -100767,6 +101029,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-7e-parallel",
    "label": "3c",
    "section": "Problem-solving",
    "stem": "In this diagram, $FH$ and $JK$ are straight lines that cross at right angles at $G$.",
@@ -100782,6 +101045,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-7e-parallel",
    "label": "4a",
    "section": "Problem-solving",
    "stem": "Look at this diagram, where equal sides are marked.",
@@ -100895,6 +101159,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-7e-parallel",
    "label": "4b",
    "section": "Problem-solving",
    "stem": "Look at this diagram, where equal sides are marked.",
@@ -100905,6 +101170,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-7e-parallel",
    "label": "4c",
    "section": "Problem-solving",
    "stem": "Look at this diagram, where equal sides are marked.",
@@ -100920,6 +101186,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-7e-circle",
    "label": "5a",
    "section": "Problem-solving",
    "stem": "$O$ is the centre of the circle. $WZ$ and $XY$ are diameters.",
@@ -101021,6 +101288,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-7e-circle",
    "label": "5b",
    "section": "Problem-solving",
    "stem": "$O$ is the centre of the circle. $WZ$ and $XY$ are diameters.",
@@ -101031,6 +101299,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-7e-circle",
    "label": "5c",
    "section": "Problem-solving",
    "stem": "$O$ is the centre of the circle. $WZ$ and $XY$ are diameters.",
@@ -101041,6 +101310,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-7e-circle",
    "label": "5d",
    "section": "Problem-solving",
    "stem": "$O$ is the centre of the circle. $WZ$ and $XY$ are diameters.",
@@ -101056,6 +101326,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-7e-iso",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "In this diagram, $L$, $M$ and $N$ lie on a straight line, $KL = KN$ and $\\angle LKM = \\angle NKM$.",
@@ -101173,6 +101444,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-7e-iso",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "In this diagram, $L$, $M$ and $N$ lie on a straight line, $KL = KN$ and $\\angle LKM = \\angle NKM$.",
@@ -101183,6 +101455,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y9-7e-iso",
    "label": "6c",
    "section": "Problem-solving",
    "stem": "In this diagram, $L$, $M$ and $N$ lie on a straight line, $KL = KN$ and $\\angle LKM = \\angle NKM$.",
@@ -101193,6 +101466,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-7e-iso",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "In this diagram, $TS$ is perpendicular to $RU$ and $\\angle RTS = \\angle UTS$.",
@@ -101302,6 +101576,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-7e-iso",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "In this diagram, $TS$ is perpendicular to $RU$ and $\\angle RTS = \\angle UTS$.",
@@ -101312,6 +101587,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-7e-iso",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "In this diagram, $TS$ is perpendicular to $RU$ and $\\angle RTS = \\angle UTS$.",
@@ -101322,6 +101598,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-7e-para",
    "label": "8a",
    "section": "Reasoning",
    "stem": "$PQRS$ is a parallelogram. The diagonal $PR$ splits it into two triangles.",
@@ -101435,6 +101712,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-7e-para",
    "label": "8b",
    "section": "Reasoning",
    "stem": "$PQRS$ is a parallelogram. The diagonal $PR$ splits it into two triangles.",
@@ -101450,6 +101728,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y9-7e-para",
    "label": "8c",
    "section": "Reasoning",
    "stem": "$PQRS$ is a parallelogram. The diagonal $PR$ splits it into two triangles.",
@@ -101460,6 +101739,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-7e-circle",
    "label": "9a",
    "section": "Reasoning",
    "stem": "$O$ is the centre of the circle and $M$ is the midpoint of the chord $GH$. The dashed radii $OG$ and $OH$ form two triangles.",
@@ -101581,6 +101861,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-7e-circle",
    "label": "9b",
    "section": "Reasoning",
    "stem": "$O$ is the centre of the circle and $M$ is the midpoint of the chord $GH$. The dashed radii $OG$ and $OH$ form two triangles.",
@@ -101591,6 +101872,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y9-7e-circle",
    "label": "9c",
    "section": "Reasoning",
    "stem": "$O$ is the centre of the circle and $M$ is the midpoint of the chord $GH$. The dashed radii $OG$ and $OH$ form two triangles.",
@@ -101601,6 +101883,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y9-7e-circle",
    "label": "9d",
    "section": "Reasoning",
    "stem": "$O$ is the centre of the circle and $M$ is the midpoint of the chord $GH$. The dashed radii $OG$ and $OH$ form two triangles.",
@@ -101611,6 +101894,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y9-7e-para",
    "label": "10a",
    "section": "Reasoning",
    "stem": "$JKLM$ is a parallelogram. Its diagonals cross at $N$.",
@@ -101739,6 +102023,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y9-7e-para",
    "label": "10b",
    "section": "Reasoning",
    "stem": "$JKLM$ is a parallelogram. Its diagonals cross at $N$.",
@@ -101749,6 +102034,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y9-7e-para",
    "label": "10c",
    "section": "Reasoning",
    "stem": "$JKLM$ is a parallelogram. Its diagonals cross at $N$.",
@@ -101759,6 +102045,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y9-7e-diag",
    "label": "11a",
    "section": "Reasoning",
    "stem": "$ABCD$ is a rectangle. Use $\\triangle ABC$ and $\\triangle BAD$ to show the diagonals are equal.",
@@ -101864,6 +102151,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y9-7e-diag",
    "label": "11b",
    "section": "Reasoning",
    "stem": "$ABCD$ is a rectangle. Use $\\triangle ABC$ and $\\triangle BAD$ to show the diagonals are equal.",
@@ -101874,6 +102162,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y9-7e-diag",
    "label": "12a",
    "section": "Enrichment",
    "stem": "$PQRS$ is a rhombus (all four sides are equal and opposite sides are parallel). Its diagonals cross at $T$.",
@@ -102002,6 +102291,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y9-7e-diag",
    "label": "12b",
    "section": "Enrichment",
    "stem": "$PQRS$ is a rhombus (all four sides are equal and opposite sides are parallel). Its diagonals cross at $T$.",
@@ -102017,6 +102307,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y9-7e-diag",
    "label": "12c",
    "section": "Enrichment",
    "stem": "$PQRS$ is a rhombus (all four sides are equal and opposite sides are parallel). Its diagonals cross at $T$.",
@@ -102027,6 +102318,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12d",
+   "help": "y9-7e-diag",
    "label": "12d",
    "section": "Enrichment",
    "stem": "$PQRS$ is a rhombus (all four sides are equal and opposite sides are parallel). Its diagonals cross at $T$.",
@@ -102037,6 +102329,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y9-7e-iso",
    "label": "13a",
    "section": "Enrichment",
    "stem": "$\\triangle XYZ$ is equilateral. $M$ is the midpoint of $XY$.",
@@ -102138,6 +102431,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y9-7e-iso",
    "label": "13b",
    "section": "Enrichment",
    "stem": "$\\triangle XYZ$ is equilateral. $M$ is the midpoint of $XY$.",
@@ -102157,6 +102451,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-7f-centre",
    "label": "1a",
    "section": "Fluency",
    "stem": "Triangle $ABC$ is enlarged using $O$ as the centre of enlargement. Give the coordinates of each image point as $(x, y)$.",
@@ -102210,6 +102505,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-7f-centre",
    "label": "1b",
    "section": "Fluency",
    "stem": "Triangle $ABC$ is enlarged using $O$ as the centre of enlargement. Give the coordinates of each image point as $(x, y)$.",
@@ -102219,6 +102515,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-7f-centre",
    "label": "1c",
    "section": "Fluency",
    "stem": "Triangle $ABC$ is enlarged using $O$ as the centre of enlargement. Give the coordinates of each image point as $(x, y)$.",
@@ -102228,6 +102525,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-7f-centre",
    "label": "1d",
    "section": "Fluency",
    "stem": "Triangle $ABC$ is enlarged using $O$ as the centre of enlargement. Give the coordinates of each image point as $(x, y)$.",
@@ -102237,6 +102535,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-7f-centre",
    "label": "1e",
    "section": "Fluency",
    "stem": "Triangle $ABC$ is enlarged using $O$ as the centre of enlargement. Give the coordinates of each image point as $(x, y)$.",
@@ -102246,6 +102545,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-7f-centre",
    "label": "1f",
    "section": "Fluency",
    "stem": "Triangle $ABC$ is enlarged using $O$ as the centre of enlargement. Give the coordinates of each image point as $(x, y)$.",
@@ -102255,6 +102555,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-7f-centre",
    "label": "2a",
    "section": "Fluency",
    "stem": "Square $ABCD$ has its centre at $O$. It is enlarged using $O$ as the centre of enlargement.",
@@ -102316,6 +102617,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-7f-centre",
    "label": "2b",
    "section": "Fluency",
    "stem": "Square $ABCD$ has its centre at $O$. It is enlarged using $O$ as the centre of enlargement.",
@@ -102325,6 +102627,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-7f-centre",
    "label": "2c",
    "section": "Fluency",
    "stem": "Square $ABCD$ has its centre at $O$. It is enlarged using $O$ as the centre of enlargement.",
@@ -102334,6 +102637,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-7f-centre",
    "label": "2d",
    "section": "Fluency",
    "stem": "Square $ABCD$ has its centre at $O$. It is enlarged using $O$ as the centre of enlargement.",
@@ -102343,6 +102647,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-7f-centre",
    "label": "2e",
    "section": "Fluency",
    "stem": "Square $ABCD$ has its centre at $O$. It is enlarged using $O$ as the centre of enlargement.",
@@ -102352,6 +102657,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-7f-centre",
    "label": "2f",
    "section": "Fluency",
    "stem": "Square $ABCD$ has its centre at $O$. It is enlarged using $O$ as the centre of enlargement.",
@@ -102361,6 +102667,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-7f-sf",
    "label": "3a",
    "section": "Fluency",
    "stem": "Each pair of figures is similar (matching angles are marked the same way).",
@@ -102494,6 +102801,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-7f-sf",
    "label": "3b",
    "section": "Fluency",
    "stem": "Each pair of figures is similar (matching angles are marked the same way).",
@@ -102627,6 +102935,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-7f-sf",
    "label": "3c",
    "section": "Fluency",
    "stem": "Each pair of figures is similar (matching angles are marked the same way).",
@@ -102760,6 +103069,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-7f-sf",
    "label": "3d",
    "section": "Fluency",
    "stem": "Each pair of figures is similar (matching angles are marked the same way).",
@@ -102910,6 +103220,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-7f-sf",
    "label": "3e",
    "section": "Fluency",
    "stem": "Each pair of figures is similar (matching angles are marked the same way).",
@@ -103060,6 +103371,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-7f-sf",
    "label": "3f",
    "section": "Fluency",
    "stem": "Each pair of figures is similar (matching angles are marked the same way).",
@@ -103210,6 +103522,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3g",
+   "help": "y9-7f-sf",
    "label": "3g",
    "section": "Fluency",
    "stem": "Each pair of figures is similar (matching angles are marked the same way).",
@@ -103371,6 +103684,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3h",
+   "help": "y9-7f-sf",
    "label": "3h",
    "section": "Fluency",
    "stem": "Each pair of figures is similar (matching angles are marked the same way).",
@@ -103532,6 +103846,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3i",
+   "help": "y9-7f-sf",
    "label": "3i",
    "section": "Fluency",
    "stem": "Each pair of figures is similar (matching angles are marked the same way).",
@@ -103693,6 +104008,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3j",
+   "help": "y9-7f-sf",
    "label": "3j",
    "section": "Fluency",
    "stem": "Each pair of figures is similar (matching angles are marked the same way).",
@@ -103862,6 +104178,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3k",
+   "help": "y9-7f-sf",
    "label": "3k",
    "section": "Fluency",
    "stem": "Each pair of figures is similar (matching angles are marked the same way).",
@@ -104031,6 +104348,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3l",
+   "help": "y9-7f-sf",
    "label": "3l",
    "section": "Fluency",
    "stem": "Each pair of figures is similar (matching angles are marked the same way).",
@@ -104200,6 +104518,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3m",
+   "help": "y9-7f-sf",
    "label": "3m",
    "section": "Fluency",
    "stem": "Each pair of figures is similar (matching angles are marked the same way).",
@@ -104333,6 +104652,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3n",
+   "help": "y9-7f-sf",
    "label": "3n",
    "section": "Fluency",
    "stem": "Each pair of figures is similar (matching angles are marked the same way).",
@@ -104466,6 +104786,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3o",
+   "help": "y9-7f-sf",
    "label": "3o",
    "section": "Fluency",
    "stem": "Each pair of figures is similar (matching angles are marked the same way).",
@@ -104599,6 +104920,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3p",
+   "help": "y9-7f-sf",
    "label": "3p",
    "section": "Fluency",
    "stem": "Each pair of figures is similar (matching angles are marked the same way).",
@@ -104756,6 +105078,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3q",
+   "help": "y9-7f-sf",
    "label": "3q",
    "section": "Fluency",
    "stem": "Each pair of figures is similar (matching angles are marked the same way).",
@@ -104913,6 +105236,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3r",
+   "help": "y9-7f-sf",
    "label": "3r",
    "section": "Fluency",
    "stem": "Each pair of figures is similar (matching angles are marked the same way).",
@@ -105070,6 +105394,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-7f-findcentre",
    "label": "4a",
    "section": "Problem-solving",
    "stem": "Each diagram shows a shape (shaded) and its image (unshaded) after an enlargement.",
@@ -105431,6 +105756,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-7f-findcentre",
    "label": "4b",
    "section": "Problem-solving",
    "stem": "Each diagram shows a shape (shaded) and its image (unshaded) after an enlargement.",
@@ -105792,6 +106118,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-7f-findcentre",
    "label": "4c",
    "section": "Problem-solving",
    "stem": "Each diagram shows a shape (shaded) and its image (unshaded) after an enlargement.",
@@ -106131,6 +106458,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-7f-findcentre",
    "label": "4d",
    "section": "Problem-solving",
    "stem": "Each diagram shows a shape (shaded) and its image (unshaded) after an enlargement.",
@@ -106470,6 +106798,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y9-7f-findcentre",
    "label": "4e",
    "section": "Problem-solving",
    "stem": "Each diagram shows a shape (shaded) and its image (unshaded) after an enlargement.",
@@ -106831,6 +107160,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y9-7f-findcentre",
    "label": "4f",
    "section": "Problem-solving",
    "stem": "Each diagram shows a shape (shaded) and its image (unshaded) after an enlargement.",
@@ -107192,6 +107522,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4g",
+   "help": "y9-7f-findcentre",
    "label": "4g",
    "section": "Problem-solving",
    "stem": "Each diagram shows a shape (shaded) and its image (unshaded) after an enlargement.",
@@ -107563,6 +107894,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4h",
+   "help": "y9-7f-findcentre",
    "label": "4h",
    "section": "Problem-solving",
    "stem": "Each diagram shows a shape (shaded) and its image (unshaded) after an enlargement.",
@@ -107934,6 +108266,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-7f-shadow",
    "label": "5a",
    "section": "Problem-solving",
    "stem": "A person $1.6$ m tall stands $2.5$ m in front of a light on the floor. Their shadow falls on a wall behind them. The light, the top of their head and the top of the shadow are in a straight line, so the triangles are similar.",
@@ -108039,6 +108372,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-7f-shadow",
    "label": "5b",
    "section": "Problem-solving",
    "stem": "A person $1.6$ m tall stands $2.5$ m in front of a light on the floor. Their shadow falls on a wall behind them. The light, the top of their head and the top of the shadow are in a straight line, so the triangles are similar.",
@@ -108049,6 +108383,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-7f-shadow",
    "label": "5c",
    "section": "Problem-solving",
    "stem": "A person $1.6$ m tall stands $2.5$ m in front of a light on the floor. Their shadow falls on a wall behind them. The light, the top of their head and the top of the shadow are in a straight line, so the triangles are similar.",
@@ -108059,6 +108394,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-7f-shadow",
    "label": "5d",
    "section": "Problem-solving",
    "stem": "A person $1.6$ m tall stands $2.5$ m in front of a light on the floor. Their shadow falls on a wall behind them. The light, the top of their head and the top of the shadow are in a straight line, so the triangles are similar.",
@@ -108069,6 +108405,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y9-7f-shadow",
    "label": "5e",
    "section": "Problem-solving",
    "stem": "A person $1.6$ m tall stands $2.5$ m in front of a light on the floor. Their shadow falls on a wall behind them. The light, the top of their head and the top of the shadow are in a straight line, so the triangles are similar.",
@@ -108079,6 +108416,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y9-7f-shadow",
    "label": "5f",
    "section": "Problem-solving",
    "stem": "A person $1.6$ m tall stands $2.5$ m in front of a light on the floor. Their shadow falls on a wall behind them. The light, the top of their head and the top of the shadow are in a straight line, so the triangles are similar.",
@@ -108089,6 +108427,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5g",
+   "help": "y9-7f-shadow",
    "label": "5g",
    "section": "Problem-solving",
    "stem": "A person $1.6$ m tall stands $2.5$ m in front of a light on the floor. Their shadow falls on a wall behind them. The light, the top of their head and the top of the shadow are in a straight line, so the triangles are similar.",
@@ -108099,6 +108438,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-7f-scale",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "A bus is $14.7$ m long. In a photo of the side of the bus, it is $7$ cm long and $1.9$ cm high.",
@@ -108109,6 +108449,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-7f-scale",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "A bus is $14.7$ m long. In a photo of the side of the bus, it is $7$ cm long and $1.9$ cm high.",
@@ -108120,6 +108461,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-7f-facts",
    "label": "7a",
    "section": "Reasoning",
    "stem": "A figure is enlarged by a scale factor of $a$, where $a > 0$.",
@@ -108134,6 +108476,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-7f-facts",
    "label": "7b",
    "section": "Reasoning",
    "stem": "A figure is enlarged by a scale factor of $a$, where $a > 0$.",
@@ -108148,6 +108491,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-7f-facts",
    "label": "7c",
    "section": "Reasoning",
    "stem": "A figure is enlarged by a scale factor of $a$, where $a > 0$.",
@@ -108157,6 +108501,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-7f-facts",
    "label": "8a",
    "section": "Reasoning",
    "stem": "Decide whether any two of these shapes must be similar.",
@@ -108170,6 +108515,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-7f-facts",
    "label": "8b",
    "section": "Reasoning",
    "stem": "Decide whether any two of these shapes must be similar.",
@@ -108183,6 +108529,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y9-7f-facts",
    "label": "8c",
    "section": "Reasoning",
    "stem": "Decide whether any two of these shapes must be similar.",
@@ -108196,6 +108543,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y9-7f-facts",
    "label": "8d",
    "section": "Reasoning",
    "stem": "Decide whether any two of these shapes must be similar.",
@@ -108209,6 +108557,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8e",
+   "help": "y9-7f-facts",
    "label": "8e",
    "section": "Reasoning",
    "stem": "Decide whether any two of these shapes must be similar.",
@@ -108222,6 +108571,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-7f-facts",
    "label": "9a",
    "section": "Reasoning",
    "stem": "An object is enlarged, then the image is enlarged again to get back to the original size.",
@@ -108234,6 +108584,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-7f-facts",
    "label": "9b",
    "section": "Reasoning",
    "stem": "An object is enlarged, then the image is enlarged again to get back to the original size.",
@@ -108244,6 +108595,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y9-7f-scale",
    "label": "10a",
    "section": "Reasoning",
    "stem": "A map has a scale ratio of $1 : 40\\,000$.",
@@ -108254,6 +108606,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y9-7f-scale",
    "label": "10b",
    "section": "Reasoning",
    "stem": "A map has a scale ratio of $1 : 40\\,000$.",
@@ -108264,6 +108617,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y9-7f-pattern",
    "label": "11a",
    "section": "Enrichment",
    "stem": "The Sierpinski triangle pattern starts with a shaded equilateral triangle (Figure 1). To make each new figure, every shaded triangle is enlarged by a factor of $\\frac{1}{2}$ and three copies are arranged in its place, leaving the middle unshaded.",
@@ -108566,6 +108920,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y9-7f-pattern",
    "label": "11b",
    "section": "Enrichment",
    "stem": "The Sierpinski triangle pattern starts with a shaded equilateral triangle (Figure 1). To make each new figure, every shaded triangle is enlarged by a factor of $\\frac{1}{2}$ and three copies are arranged in its place, leaving the middle unshaded.",
@@ -108576,6 +108931,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y9-7f-pattern",
    "label": "11c",
    "section": "Enrichment",
    "stem": "The Sierpinski triangle pattern starts with a shaded equilateral triangle (Figure 1). To make each new figure, every shaded triangle is enlarged by a factor of $\\frac{1}{2}$ and three copies are arranged in its place, leaving the middle unshaded.",
@@ -108586,6 +108942,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11d",
+   "help": "y9-7f-pattern",
    "label": "11d",
    "section": "Enrichment",
    "stem": "The Sierpinski triangle pattern starts with a shaded equilateral triangle (Figure 1). To make each new figure, every shaded triangle is enlarged by a factor of $\\frac{1}{2}$ and three copies are arranged in its place, leaving the middle unshaded.",
@@ -108598,6 +108955,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11e",
+   "help": "y9-7f-pattern",
    "label": "11e",
    "section": "Enrichment",
    "stem": "The Sierpinski triangle pattern starts with a shaded equilateral triangle (Figure 1). To make each new figure, every shaded triangle is enlarged by a factor of $\\frac{1}{2}$ and three copies are arranged in its place, leaving the middle unshaded.",
@@ -108607,6 +108965,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11f",
+   "help": "y9-7f-pattern",
    "label": "11f",
    "section": "Enrichment",
    "stem": "The Sierpinski triangle pattern starts with a shaded equilateral triangle (Figure 1). To make each new figure, every shaded triangle is enlarged by a factor of $\\frac{1}{2}$ and three copies are arranged in its place, leaving the middle unshaded.",
@@ -108616,6 +108975,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11g",
+   "help": "y9-7f-pattern",
    "label": "11g",
    "section": "Enrichment",
    "stem": "The Sierpinski triangle pattern starts with a shaded equilateral triangle (Figure 1). To make each new figure, every shaded triangle is enlarged by a factor of $\\frac{1}{2}$ and three copies are arranged in its place, leaving the middle unshaded.",
@@ -108634,6 +108994,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-7g-tests",
    "label": "1a",
    "section": "Fluency",
    "stem": "Choose the similarity test which proves that each pair of triangles is similar.",
@@ -108761,6 +109122,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-7g-tests",
    "label": "1b",
    "section": "Fluency",
    "stem": "Choose the similarity test which proves that each pair of triangles is similar.",
@@ -108875,6 +109237,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-7g-tests",
    "label": "1c",
    "section": "Fluency",
    "stem": "Choose the similarity test which proves that each pair of triangles is similar.",
@@ -108984,6 +109347,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-7g-tests",
    "label": "1d",
    "section": "Fluency",
    "stem": "Choose the similarity test which proves that each pair of triangles is similar.",
@@ -109110,6 +109474,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-7g-tests",
    "label": "1e",
    "section": "Fluency",
    "stem": "Choose the similarity test which proves that each pair of triangles is similar.",
@@ -109224,6 +109589,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-7g-tests",
    "label": "1f",
    "section": "Fluency",
    "stem": "Choose the similarity test which proves that each pair of triangles is similar.",
@@ -109351,6 +109717,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1g",
+   "help": "y9-7g-tests",
    "label": "1g",
    "section": "Fluency",
    "stem": "Choose the similarity test which proves that each pair of triangles is similar.",
@@ -109477,6 +109844,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1h",
+   "help": "y9-7g-tests",
    "label": "1h",
    "section": "Fluency",
    "stem": "Choose the similarity test which proves that each pair of triangles is similar.",
@@ -109586,6 +109954,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-7g-statement",
    "label": "2a",
    "section": "Fluency",
    "stem": "These pairs of triangles are similar. Complete each similarity statement, writing the letters in matching order. Angles marked the same way are equal, and arrows show parallel lines.",
@@ -109731,6 +110100,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-7g-statement",
    "label": "2b",
    "section": "Fluency",
    "stem": "These pairs of triangles are similar. Complete each similarity statement, writing the letters in matching order. Angles marked the same way are equal, and arrows show parallel lines.",
@@ -109892,6 +110262,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-7g-statement",
    "label": "2c",
    "section": "Fluency",
    "stem": "These pairs of triangles are similar. Complete each similarity statement, writing the letters in matching order. Angles marked the same way are equal, and arrows show parallel lines.",
@@ -110021,6 +110392,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-7g-statement",
    "label": "2d",
    "section": "Fluency",
    "stem": "These pairs of triangles are similar. Complete each similarity statement, writing the letters in matching order. Angles marked the same way are equal, and arrows show parallel lines.",
@@ -110132,6 +110504,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-7g-statement",
    "label": "2e",
    "section": "Fluency",
    "stem": "These pairs of triangles are similar. Complete each similarity statement, writing the letters in matching order. Angles marked the same way are equal, and arrows show parallel lines.",
@@ -110238,6 +110611,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-7g-statement",
    "label": "2f",
    "section": "Fluency",
    "stem": "These pairs of triangles are similar. Complete each similarity statement, writing the letters in matching order. Angles marked the same way are equal, and arrows show parallel lines.",
@@ -110344,6 +110718,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-7g-find",
    "label": "3a",
    "section": "Fluency",
    "stem": "In this diagram $BD$ is parallel to $AE$, so $\\triangle CBD$ and $\\triangle CAE$ are similar.",
@@ -110482,6 +110857,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-7g-find",
    "label": "3b",
    "section": "Fluency",
    "stem": "In this diagram $BD$ is parallel to $AE$, so $\\triangle CBD$ and $\\triangle CAE$ are similar.",
@@ -110492,6 +110868,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-7g-find",
    "label": "4a",
    "section": "Fluency",
    "stem": "For this pair of right-angled triangles:",
@@ -110613,6 +110990,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-7g-find",
    "label": "4b",
    "section": "Fluency",
    "stem": "For this pair of right-angled triangles:",
@@ -110623,6 +111001,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-7g-find",
    "label": "5a",
    "section": "Fluency",
    "stem": "These pairs of triangles are similar. For each pair find the scale factor which enlarges the smaller triangle to the larger one, then the value of $x$.",
@@ -110740,6 +111119,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-7g-find",
    "label": "5b",
    "section": "Fluency",
    "stem": "These pairs of triangles are similar. For each pair find the scale factor which enlarges the smaller triangle to the larger one, then the value of $x$.",
@@ -110857,6 +111237,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-7g-find",
    "label": "5c",
    "section": "Fluency",
    "stem": "These pairs of triangles are similar. For each pair find the scale factor which enlarges the smaller triangle to the larger one, then the value of $x$.",
@@ -110954,6 +111335,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-7g-find",
    "label": "5d",
    "section": "Fluency",
    "stem": "These pairs of triangles are similar. For each pair find the scale factor which enlarges the smaller triangle to the larger one, then the value of $x$.",
@@ -111051,6 +111433,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-7g-find",
    "label": "6a",
    "section": "Fluency",
    "stem": "In this diagram the top and bottom sides are parallel.",
@@ -111154,6 +111537,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-7g-find",
    "label": "6b",
    "section": "Fluency",
    "stem": "In this diagram the top and bottom sides are parallel.",
@@ -111164,6 +111548,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-7g-part",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "For each pair of similar triangles, choose the test that shows they are similar, then find the value of $x$.",
@@ -111283,6 +111668,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-7g-part",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "For each pair of similar triangles, choose the test that shows they are similar, then find the value of $x$.",
@@ -111396,6 +111782,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-7g-part",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "For each pair of similar triangles, choose the test that shows they are similar, then find the value of $x$.",
@@ -111492,6 +111879,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y9-7g-part",
    "label": "7d",
    "section": "Problem-solving",
    "stem": "For each pair of similar triangles, choose the test that shows they are similar, then find the value of $x$.",
@@ -111582,6 +111970,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7e",
+   "help": "y9-7g-part",
    "label": "7e",
    "section": "Problem-solving",
    "stem": "For each pair of similar triangles, choose the test that shows they are similar, then find the value of $x$.",
@@ -111676,6 +112065,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7f",
+   "help": "y9-7g-part",
    "label": "7f",
    "section": "Problem-solving",
    "stem": "For each pair of similar triangles, choose the test that shows they are similar, then find the value of $x$.",
@@ -111764,6 +112154,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-7g-part",
    "label": "8a",
    "section": "Problem-solving",
    "stem": "Find the value of $x$ in each diagram. Arrows show parallel lines.",
@@ -111852,6 +112243,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-7g-part",
    "label": "8b",
    "section": "Problem-solving",
    "stem": "Find the value of $x$ in each diagram. Arrows show parallel lines.",
@@ -111942,6 +112334,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y9-7g-part",
    "label": "8c",
    "section": "Problem-solving",
    "stem": "Find the value of $x$ in each diagram. Arrows show parallel lines.",
@@ -112030,6 +112423,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-7g-odd",
    "label": "9a",
    "section": "Problem-solving",
    "stem": "In each group, two of the triangles are similar. Which triangle is not similar to the other two?",
@@ -112274,6 +112668,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-7g-odd",
    "label": "9b",
    "section": "Problem-solving",
    "stem": "In each group, two of the triangles are similar. Which triangle is not similar to the other two?",
@@ -112500,6 +112895,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y9-7g-odd",
    "label": "9c",
    "section": "Problem-solving",
    "stem": "In each group, two of the triangles are similar. Which triangle is not similar to the other two?",
@@ -112741,6 +113137,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y9-7g-odd",
    "label": "9d",
    "section": "Problem-solving",
    "stem": "In each group, two of the triangles are similar. Which triangle is not similar to the other two?",
@@ -112990,6 +113387,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y9-7g-statement",
    "label": "10a",
    "section": "Reasoning",
    "stem": "Look at these two triangles.",
@@ -113154,6 +113552,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y9-7g-statement",
    "label": "10b",
    "section": "Reasoning",
    "stem": "Look at these two triangles.",
@@ -113171,6 +113570,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y9-7g-statement",
    "label": "10c",
    "section": "Reasoning",
    "stem": "Look at these two triangles.",
@@ -113186,6 +113586,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y9-7g-angles",
    "label": "11a",
    "section": "Reasoning",
    "stem": "In the first diagram $A$, $B$ and $C$ lie on a straight line. In the second, $Z$, $Y$ and $X$ lie on a straight line.",
@@ -113399,6 +113800,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y9-7g-angles",
    "label": "11b",
    "section": "Reasoning",
    "stem": "In the first diagram $A$, $B$ and $C$ lie on a straight line. In the second, $Z$, $Y$ and $X$ lie on a straight line.",
@@ -113409,6 +113811,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y9-7g-angles",
    "label": "11c",
    "section": "Reasoning",
    "stem": "In the first diagram $A$, $B$ and $C$ lie on a straight line. In the second, $Z$, $Y$ and $X$ lie on a straight line.",
@@ -113419,6 +113822,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11d",
+   "help": "y9-7g-angles",
    "label": "11d",
    "section": "Reasoning",
    "stem": "In the first diagram $A$, $B$ and $C$ lie on a straight line. In the second, $Z$, $Y$ and $X$ lie on a straight line.",
@@ -113432,6 +113836,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12",
+   "help": "y9-7g-angles",
    "label": "12",
    "section": "Reasoning",
    "type": "choice",
@@ -113502,6 +113907,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13",
+   "help": "y9-7g-tests",
    "label": "13",
    "section": "Reasoning",
    "type": "choice",
@@ -113516,6 +113922,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y9-7g-scale",
    "label": "14a",
    "section": "Enrichment",
    "stem": "These four triangular prisms are similar (not drawn to scale). Each cross-section is a right-angled triangle. The length scale factors of Image 1, 2 and 3 compared with the original are 2, 3 and 4.",
@@ -113960,6 +114367,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y9-7g-scale",
    "label": "14b",
    "section": "Enrichment",
    "stem": "These four triangular prisms are similar (not drawn to scale). Each cross-section is a right-angled triangle. The length scale factors of Image 1, 2 and 3 compared with the original are 2, 3 and 4.",
@@ -113973,6 +114381,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14c",
+   "help": "y9-7g-scale",
    "label": "14c",
    "section": "Enrichment",
    "stem": "These four triangular prisms are similar (not drawn to scale). Each cross-section is a right-angled triangle. The length scale factors of Image 1, 2 and 3 compared with the original are 2, 3 and 4.",
@@ -113986,6 +114395,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14d",
+   "help": "y9-7g-scale",
    "label": "14d",
    "section": "Enrichment",
    "stem": "These four triangular prisms are similar (not drawn to scale). Each cross-section is a right-angled triangle. The length scale factors of Image 1, 2 and 3 compared with the original are 2, 3 and 4.",
@@ -113996,6 +114406,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14e",
+   "help": "y9-7g-scale",
    "label": "14e",
    "section": "Enrichment",
    "stem": "These four triangular prisms are similar (not drawn to scale). Each cross-section is a right-angled triangle. The length scale factors of Image 1, 2 and 3 compared with the original are 2, 3 and 4.",
@@ -114009,6 +114420,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14f",
+   "help": "y9-7g-scale",
    "label": "14f",
    "section": "Enrichment",
    "stem": "These four triangular prisms are similar (not drawn to scale). Each cross-section is a right-angled triangle. The length scale factors of Image 1, 2 and 3 compared with the original are 2, 3 and 4.",
@@ -114022,6 +114434,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14g",
+   "help": "y9-7g-scale",
    "label": "14g",
    "section": "Enrichment",
    "stem": "These four triangular prisms are similar (not drawn to scale). Each cross-section is a right-angled triangle. The length scale factors of Image 1, 2 and 3 compared with the original are 2, 3 and 4.",
@@ -114037,6 +114450,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14h",
+   "help": "y9-7g-scale",
    "label": "14h",
    "section": "Enrichment",
    "stem": "Use the pattern from the prisms.",
@@ -114047,6 +114461,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14i",
+   "help": "y9-7g-scale",
    "label": "14i",
    "section": "Enrichment",
    "stem": "Use the pattern from the prisms.",
@@ -114056,6 +114471,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14j",
+   "help": "y9-7g-scale",
    "label": "14j",
    "section": "Enrichment",
    "stem": "Use the pattern from the prisms.",
@@ -114065,6 +114481,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14k",
+   "help": "y9-7g-scale",
    "label": "14k",
    "section": "Enrichment",
    "stem": "Use the pattern from the prisms.",
@@ -114074,6 +114491,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14l",
+   "help": "y9-7g-scale",
    "label": "14l",
    "section": "Enrichment",
    "stem": "Use the pattern from the prisms.",
@@ -114083,6 +114501,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14m",
+   "help": "y9-7g-scale",
    "label": "14m",
    "section": "Enrichment",
    "stem": "Use the pattern from the prisms.",
@@ -114098,6 +114517,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14n",
+   "help": "y9-7g-scale",
    "label": "14n",
    "section": "Enrichment",
    "stem": "Use the pattern from the prisms.",
@@ -114108,6 +114528,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14o",
+   "help": "y9-7g-scale",
    "label": "14o",
    "section": "Enrichment",
    "stem": "Use the pattern from the prisms.",
@@ -114117,6 +114538,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14p",
+   "help": "y9-7g-scale",
    "label": "14p",
    "section": "Enrichment",
    "stem": "Use the pattern from the prisms.",
@@ -114126,6 +114548,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14q",
+   "help": "y9-7g-scale",
    "label": "14q",
    "section": "Enrichment",
    "stem": "Use the pattern from the prisms.",
@@ -114144,6 +114567,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-7h-reason",
    "label": "1a",
    "section": "Fluency",
    "stem": "Each diagram shows a pair of similar triangles. Arrows show parallel lines and angles marked the same way are equal. Complete the similarity statement, then choose the reason the triangles are similar.",
@@ -114257,6 +114681,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-7h-reason",
    "label": "1b",
    "section": "Fluency",
    "stem": "Each diagram shows a pair of similar triangles. Arrows show parallel lines and angles marked the same way are equal. Complete the similarity statement, then choose the reason the triangles are similar.",
@@ -114368,6 +114793,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-7h-reason",
    "label": "1c",
    "section": "Fluency",
    "stem": "Each diagram shows a pair of similar triangles. Arrows show parallel lines and angles marked the same way are equal. Complete the similarity statement, then choose the reason the triangles are similar.",
@@ -114481,6 +114907,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-7h-reason",
    "label": "1d",
    "section": "Fluency",
    "stem": "Each diagram shows a pair of similar triangles. Arrows show parallel lines and angles marked the same way are equal. Complete the similarity statement, then choose the reason the triangles are similar.",
@@ -114592,6 +115019,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-7h-reason",
    "label": "1e",
    "section": "Fluency",
    "stem": "Each diagram shows a pair of similar triangles. Arrows show parallel lines and angles marked the same way are equal. Complete the similarity statement, then choose the reason the triangles are similar.",
@@ -114698,6 +115126,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-7h-reason",
    "label": "1f",
    "section": "Fluency",
    "stem": "Each diagram shows a pair of similar triangles. Arrows show parallel lines and angles marked the same way are equal. Complete the similarity statement, then choose the reason the triangles are similar.",
@@ -114802,6 +115231,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1g",
+   "help": "y9-7h-reason",
    "label": "1g",
    "section": "Fluency",
    "stem": "Each diagram shows a pair of similar triangles. Arrows show parallel lines and angles marked the same way are equal. Complete the similarity statement, then choose the reason the triangles are similar.",
@@ -114908,6 +115338,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1h",
+   "help": "y9-7h-reason",
    "label": "1h",
    "section": "Fluency",
    "stem": "Each diagram shows a pair of similar triangles. Arrows show parallel lines and angles marked the same way are equal. Complete the similarity statement, then choose the reason the triangles are similar.",
@@ -115012,6 +115443,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-7h-sas",
    "label": "2a",
    "section": "Fluency",
    "stem": "Each diagram shows a pair of similar triangles. Complete the similarity statement, find the scale factor from the smaller triangle to the larger one, and choose the test.",
@@ -115134,6 +115566,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-7h-sas",
    "label": "2b",
    "section": "Fluency",
    "stem": "Each diagram shows a pair of similar triangles. Complete the similarity statement, find the scale factor from the smaller triangle to the larger one, and choose the test.",
@@ -115248,6 +115681,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-7h-sas",
    "label": "2c",
    "section": "Fluency",
    "stem": "Each diagram shows a pair of similar triangles. Complete the similarity statement, find the scale factor from the smaller triangle to the larger one, and choose the test.",
@@ -115368,6 +115802,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-7h-sas",
    "label": "2d",
    "section": "Fluency",
    "stem": "Each diagram shows a pair of similar triangles. Complete the similarity statement, find the scale factor from the smaller triangle to the larger one, and choose the test.",
@@ -115496,6 +115931,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-7h-sas",
    "label": "2e",
    "section": "Fluency",
    "stem": "Each diagram shows a pair of similar triangles. Complete the similarity statement, find the scale factor from the smaller triangle to the larger one, and choose the test.",
@@ -115616,6 +116052,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-7h-sas",
    "label": "2f",
    "section": "Fluency",
    "stem": "Each diagram shows a pair of similar triangles. Complete the similarity statement, find the scale factor from the smaller triangle to the larger one, and choose the test.",
@@ -115742,6 +116179,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y9-7h-sas",
    "label": "2g",
    "section": "Fluency",
    "stem": "Each diagram shows a pair of similar triangles. Complete the similarity statement, find the scale factor from the smaller triangle to the larger one, and choose the test.",
@@ -115871,6 +116309,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y9-7h-sas",
    "label": "2h",
    "section": "Fluency",
    "stem": "Each diagram shows a pair of similar triangles. Complete the similarity statement, find the scale factor from the smaller triangle to the larger one, and choose the test.",
@@ -115992,6 +116431,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2i",
+   "help": "y9-7h-sas",
    "label": "2i",
    "section": "Fluency",
    "stem": "Each diagram shows a pair of similar triangles. Complete the similarity statement, find the scale factor from the smaller triangle to the larger one, and choose the test.",
@@ -116119,6 +116559,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-7h-shadow",
    "label": "3a",
    "section": "Problem-solving",
    "stem": "A tree casts a shadow $18$ m long. At the same time, a $1.5$ m vertical stick casts a shadow $0.6$ m long.",
@@ -116234,6 +116675,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-7h-shadow",
    "label": "3b",
    "section": "Problem-solving",
    "stem": "A tree casts a shadow $18$ m long. At the same time, a $1.5$ m vertical stick casts a shadow $0.6$ m long.",
@@ -116244,6 +116686,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-7h-shadow",
    "label": "4a",
    "section": "Problem-solving",
    "stem": "Two straight cables hold up a vertical pole and make the same angle with the ground. The cables are $5$ m and $12$ m long, and the shorter cable reaches $3.5$ m up the pole. The longer cable reaches the top.",
@@ -116351,6 +116794,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-7h-shadow",
    "label": "4b",
    "section": "Problem-solving",
    "stem": "Two straight cables hold up a vertical pole and make the same angle with the ground. The cables are $5$ m and $12$ m long, and the shorter cable reaches $3.5$ m up the pole. The longer cable reaches the top.",
@@ -116361,6 +116805,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5",
+   "help": "y9-7h-shadow",
    "label": "5",
    "section": "Problem-solving",
    "type": "numeric",
@@ -116370,6 +116815,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6",
+   "help": "y9-7h-river",
    "label": "6",
    "section": "Problem-solving",
    "type": "numeric",
@@ -116513,6 +116959,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7",
+   "help": "y9-7h-river",
    "label": "7",
    "section": "Problem-solving",
    "type": "numeric",
@@ -116653,6 +117100,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8",
+   "help": "y9-7h-shared",
    "label": "8",
    "section": "Problem-solving",
    "type": "numeric",
@@ -116754,6 +117202,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-7h-shared",
    "label": "9a",
    "section": "Reasoning",
    "stem": "In this diagram $\\triangle ADC$ is isosceles with $AD = AC = 8$ cm, $AB = 12$ cm, and the marked angles are equal.",
@@ -116886,6 +117335,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-7h-shared",
    "label": "9b",
    "section": "Reasoning",
    "stem": "In this diagram $\\triangle ADC$ is isosceles with $AD = AC = 8$ cm, $AB = 12$ cm, and the marked angles are equal.",
@@ -116901,6 +117351,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y9-7h-shared",
    "label": "9c",
    "section": "Reasoning",
    "stem": "In this diagram $\\triangle ADC$ is isosceles with $AD = AC = 8$ cm, $AB = 12$ cm, and the marked angles are equal.",
@@ -116913,6 +117364,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y9-7h-shared",
    "label": "9d",
    "section": "Reasoning",
    "stem": "In this diagram $\\triangle ADC$ is isosceles with $AD = AC = 8$ cm, $AB = 12$ cm, and the marked angles are equal.",
@@ -116924,6 +117376,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y9-7h-altitude",
    "label": "10a",
    "section": "Reasoning",
    "stem": "In this diagram $\\triangle ABD$ has a right angle at $A$, and $AC$ is perpendicular to $BD$.",
@@ -117037,6 +117490,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y9-7h-altitude",
    "label": "10b",
    "section": "Reasoning",
    "stem": "In this diagram $\\triangle ABD$ has a right angle at $A$, and $AC$ is perpendicular to $BD$.",
@@ -117051,6 +117505,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y9-7h-altitude",
    "label": "10c",
    "section": "Reasoning",
    "stem": "In this diagram $\\triangle ABD$ has a right angle at $A$, and $AC$ is perpendicular to $BD$.",
@@ -117060,6 +117515,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10d",
+   "help": "y9-7h-altitude",
    "label": "10d",
    "section": "Reasoning",
    "stem": "In this diagram $\\triangle ABD$ has a right angle at $A$, and $AC$ is perpendicular to $BD$.",
@@ -117069,6 +117525,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10e",
+   "help": "y9-7h-altitude",
    "label": "10e",
    "section": "Reasoning",
    "stem": "In this diagram $\\triangle ABD$ has a right angle at $A$, and $AC$ is perpendicular to $BD$.",
@@ -117078,6 +117535,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y9-7h-k",
    "label": "11a",
    "section": "Enrichment",
    "stem": "In each diagram a length is a multiple of another length. Find the number $k$. Arrows show parallel lines and angles marked the same way are equal.",
@@ -117199,6 +117657,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y9-7h-k",
    "label": "11b",
    "section": "Enrichment",
    "stem": "In each diagram a length is a multiple of another length. Find the number $k$. Arrows show parallel lines and angles marked the same way are equal.",
@@ -117313,6 +117772,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y9-7h-k",
    "label": "11c",
    "section": "Enrichment",
    "stem": "In each diagram a length is a multiple of another length. Find the number $k$. Arrows show parallel lines and angles marked the same way are equal.",
@@ -117425,6 +117885,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11d",
+   "help": "y9-7h-k",
    "label": "11d",
    "section": "Enrichment",
    "stem": "In each diagram a length is a multiple of another length. Find the number $k$. Arrows show parallel lines and angles marked the same way are equal.",
