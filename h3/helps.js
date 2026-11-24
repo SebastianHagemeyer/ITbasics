@@ -869,15 +869,15 @@
         <li><b>× and ÷</b> next, left to right</li>
         <li><b>+ and −</b> last, left to right</li>
       </ol>
-      <p class="hp-tag">Worked example: <b>49 − 5 × 7 + 27 ÷ 9</b></p>
+      <p class="hp-tag">Worked example: <b>49 − 5 × 7 + 28 ÷ 4</b></p>
       ${steps(
         `<p><strong>Do the × and ÷ first</strong>, from left to right.</p>
-         ${sum(`49 − ${now('5 × 7')} + 27 ÷ 9`)}
-         ${sum(`49 − 35 + ${now('27 ÷ 9')}`)}`,
+         ${sum(`49 − ${now('5 × 7')} + 28 ÷ 4`)}
+         ${sum(`49 − 35 + ${now('28 ÷ 4')}`)}`,
         `<p><strong>Then + and −</strong>, from left to right.</p>
-         ${sum(`${now('49 − 35')} + 3`)}
-         ${sum('14 + 3 = 17')}
-         ${ans('17')}`
+         ${sum(`${now('49 − 35')} + 7`)}
+         ${sum('14 + 7 = 21')}
+         ${ans('21')}`
       )}
       ${tip('× and ÷ are equal partners, so do whichever comes first from the left. The same goes for + and −.')}`,
 
@@ -924,15 +924,15 @@
 
     // Q11: insert brackets
     '1i-insert': `
-      <p class="hp-tag">Worked example: add brackets to make <b>2 + 7 × 5 = 45</b> true.</p>
+      <p class="hp-tag">Worked example: add brackets to make <b>3 + 8 × 5 = 55</b> true.</p>
       ${steps(
         `<p><strong>Work it out without brackets first.</strong></p>
-         ${sum('2 + 7 × 5 = 2 + 35 = 37 ✗')}`,
+         ${sum('3 + 8 × 5 = 3 + 40 = 43 ✗')}`,
         `<p><strong>Try brackets around a different pair.</strong></p>
-         ${sum('(2 + 7) × 5 = 9 × 5 = 45 ✓')}
-         ${ans('(2 + 7) × 5')}`
+         ${sum('(3 + 8) × 5 = 11 × 5 = 55 ✓')}
+         ${ans('(3 + 8) × 5')}`
       )}
-      ${tip('Type the whole left side with your brackets, like (2+7)x5. If one try does not work, move the brackets and try again.')}`,
+      ${tip('Type the whole left side with your brackets, like (3+8)x5. If one try does not work, move the brackets and try again.')}`,
 
     // Q13: simplify with letters
     '1i-letters': `

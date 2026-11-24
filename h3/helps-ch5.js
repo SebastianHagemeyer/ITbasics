@@ -392,9 +392,9 @@
          ${sum('2&nbsp;400&nbsp;000 = 2.4 × 10^6')}
          ${ans('2.4×10^6')}`,
         `<p><strong>To multiply,</strong> write both in standard form, multiply the front numbers and add the powers.</p>
-         ${sum('50&nbsp;000 × 700&nbsp;000 = 5 × 10^4 × 7 × 10^5<br>= 35 × 10^9 = 3.5 × 10^10')}`
+         ${sum('60&nbsp;000 × 900&nbsp;000 = 6 × 10^4 × 9 × 10^5<br>= 54 × 10^9 = 5.4 × 10^10')}`
       )}
-      ${tip('Type it like 3.5x10^10. The front number must be between 1 and 10, so 35 × 10^9 needs one more step.')}`,
+      ${tip('Type it like 5.4x10^10. The front number must be between 1 and 10, so 54 × 10^9 needs one more step.')}`,
 
     // =====================================================================
     // 5E Multiplying decimals

@@ -568,7 +568,7 @@
          ${ans('$300')}`
       )}
       ${fig({ kind: 'table', rows: [['Hours', '1', '2', '3'], ['Cost ($)', '140', '220', '300']] })}
-      <p><strong>Working backwards:</strong> how many hours for $380? Take off the fee, then divide by the rate: 380 − 60 = 320, 320 ÷ 80 = 4 hours. The average cost per hour for a 2-hour job is 220 ÷ 2 = $110.</p>
+      <p><strong>Working backwards:</strong> how many hours for $460? Take off the fee, then divide by the rate: 460 − 60 = 400, 400 ÷ 80 = 5 hours. The average cost per hour for a 2-hour job is 220 ÷ 2 = $110.</p>
       ${tip('Cents to dollars: divide by 100. So 430 cents is $4.30, and a cost of 30 + 20t cents is 0.3 + 0.2t dollars.')}`,
 
     // 4G Q11: points for two kinds of score

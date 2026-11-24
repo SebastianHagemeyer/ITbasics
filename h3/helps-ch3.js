@@ -1099,18 +1099,18 @@
     // 3J Q18: the jigsaw puzzles
     '3j-puzzle': `
       <p class="hp-tag">Worked example:</p>
-      <p class="hp-story">Sam does a <span class="hp-hl">500</span>-piece puzzle in <span class="hp-hl">4</span> weeks. Each week he does <span class="hp-hl">40</span> <span class="hp-kw">fewer</span> pieces than the week before. How many does he do each week, and what percentage is that?</p>
+      <p class="hp-story">Sam does a <span class="hp-hl">500</span>-piece puzzle in <span class="hp-hl">4</span> weeks. Each week he does <span class="hp-hl">20</span> <span class="hp-kw">fewer</span> pieces than the week before. How many does he do each week, and what percentage is that?</p>
       ${steps(
         `<p><strong>Add up how far each week falls short of week 1.</strong></p>
-         ${sum('week 2: 40 less, week 3: 80 less, week 4: 120 less<br>40 + 80 + 120 = 240')}`,
-        `<p><strong>Put the shortfall back and share by 4.</strong> If every week matched week 1, he would do 240 more pieces.</p>
-         ${sum('(500 + 240) ÷ 4 = 740 ÷ 4 = 185')}
-         ${chips(['185'], ['145'], ['105'], ['65'])}`,
+         ${sum('week 2: 20 less, week 3: 40 less, week 4: 60 less<br>20 + 40 + 60 = 120')}`,
+        `<p><strong>Put the shortfall back and share by 4.</strong> If every week matched week 1, he would do 120 more pieces.</p>
+         ${sum('(500 + 120) ÷ 4 = 620 ÷ 4 = 155')}
+         ${chips(['155'], ['135'], ['115'], ['95'])}`,
         `<p><strong>Turn each week into a percentage of 500.</strong> Out of 500, so divide by 5 to get out of 100.</p>
-         ${sum('185/500 = 37/100 = 37%')}
-         ${ans('37%, 29%, 21%, 13%')}`
+         ${sum('155/500 = 31/100 = 31%')}
+         ${ans('31%, 27%, 23%, 19%')}`
       )}
-      ${tip('Check the weeks add up to the total: 185 + 145 + 105 + 65 = 500. A running total adds on each week: 185, 330, 435, 500. Type lists in order, with commas.')}`,
+      ${tip('Check the weeks add up to the total: 155 + 135 + 115 + 95 = 500. A running total adds on each week: 155, 290, 405, 500. Type lists in order, with commas.')}`,
 
     // =====================================================================
     // 3K Introduction to ratios

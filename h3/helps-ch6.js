@@ -274,7 +274,7 @@
          ${flow(['Start', '5 − (−9)'], ['− − becomes +', '5 + 9'], ['Add', '14'])}
          ${ans('14')}`,
         `<p><strong>It works when you start below zero too.</strong></p>
-         ${sum('−11 − (−4) = −11 + 4 = −7')}`
+         ${sum('−10 − (−3) = −10 + 3 = −7')}`
       )}
       ${tip('Taking away a debt makes you richer. Only change the two signs that sit next to each other.')}`,
 

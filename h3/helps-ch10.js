@@ -814,12 +814,12 @@
 
     // 10H Q11: a halving pattern that goes on forever
     '10h-pattern': `
-      <p class="hp-tag">Worked example: continue the pattern <b>3/4, 3/8, 3/16, ...</b> for three more numbers.</p>
+      <p class="hp-tag">Worked example: continue the pattern <b>3/5, 3/10, 3/20, ...</b> for three more numbers.</p>
       ${steps(
         `<p><strong>Find the rule.</strong> Each number is half the one before: the top stays the same and the bottom doubles.</p>`,
         `<p><strong>Keep doubling the bottom.</strong></p>
-         ${sum('16 × 2 = 32, 32 × 2 = 64, 64 × 2 = 128')}
-         ${ans('3/32, 3/64, 3/128')}`
+         ${sum('20 × 2 = 40, 40 × 2 = 80, 80 × 2 = 160')}
+         ${ans('3/40, 3/80, 3/160')}`
       )}
       <p><strong>Adding forever:</strong> 0.9 + 0.09 + 0.009 + ... gives 0.9, 0.99, 0.999, ... Each total gets closer to 1, but never goes past it.</p>
       ${tip('Type a list of fractions with commas between, like 1/3, 1/9. Halving can always go on: there is no smallest piece.')}`,

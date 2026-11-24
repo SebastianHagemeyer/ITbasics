@@ -573,12 +573,12 @@
 
     // 2E Q10, Q15: comparing powers
     '2e-compare': `
-      <p class="hp-tag">Worked example: which symbol, &lt;, = or &gt;, goes in <b>20³ □ 90²</b>?</p>
+      <p class="hp-tag">Worked example: which symbol, &lt;, = or &gt;, goes in <b>14³ □ 52²</b>?</p>
       ${steps(
         `<p><strong>Work out both sides.</strong></p>
-         ${sum('20³ = 20 × 20 × 20 = 8000<br>90² = 90 × 90 = 8100')}`,
-        `<p><strong>Compare the values.</strong> 8000 is less than 8100.</p>
-         ${ans('&lt;')}`
+         ${sum('14³ = 14 × 14 × 14 = 2744<br>52² = 52 × 52 = 2704')}`,
+        `<p><strong>Compare the values.</strong> 2744 is greater than 2704.</p>
+         ${ans('&gt;')}`
       )}
       <p><strong>Puzzle with a<sup>b</sup> and b<sup>a</sup>?</strong> Start with the smallest numbers. For each pair, work out both powers and look for a match.</p>
       ${tip('Same base? The bigger power wins, no working needed. Different bases? Always work them out. A big base or a big power on its own does not tell you which is bigger.')}`,
