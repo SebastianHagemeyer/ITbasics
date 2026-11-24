@@ -238,9 +238,11 @@ const Checker = (() => {
     if (!terms || terms.join('') !== s.replace(/^\+/, '')) return false;
     const seen = new Set(); let ints = 0;
     const squareFree = (n) => { for (let k = 2; k * k <= n; k++) if (n % (k * k) === 0) return false; return true; };
-    for (const t of terms) {
+    for (let t of terms) {
+      t = t.replace(/^([+-]?)\(([^()+-]+)\)(\/\d+)$/, '$1$2$3');   // (7√3)/12 is 7√3/12
       const m = t.match(/^[+-]?(\d*)\*?(?:sqrt\(?(\d+)\)?)?(?:\/(\d+))?$/);
       if (!m || (!m[1] && !m[2])) return false;
+      if (m[3] && gcd(+(m[1] || 1), +m[3]) > 1) return false;   // 14√3/24 still cancels to 7√3/12
       if (m[2] == null) { if (+m[1] === 0) return false; ints++; continue; }
       const r = +m[2];
       if (r < 2 || !squareFree(r) || seen.has(r)) return false;
