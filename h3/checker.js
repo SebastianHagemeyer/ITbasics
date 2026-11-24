@@ -165,6 +165,15 @@ const Checker = (() => {
     }
     return false;
   }
+  // How many bracketed-sum factors a product has, counting (x + 1)^2 as two. Used so
+  // 3(x^2 - 4) is not taken as fully factorised when the key is 3(x - 2)(x + 2).
+  function sumFactors(n) {
+    n = strip(n);
+    if (n.k === 'neg') return sumFactors(n.a);
+    if (n.k === '^') return isSum(n.a) ? (strip(n.b).k === 'num' ? Math.max(1, Math.round(strip(n.b).v)) : 1) : 0;
+    if (n.k === '*') return sumFactors(n.a) + sumFactors(n.b);
+    return isSum(n) ? 1 : 0;
+  }
   // expanded: no product or power has a sum as an operand
   function isExpanded(n) {
     if (!n) return true;
@@ -195,8 +204,10 @@ const Checker = (() => {
       return { ok: true, v, percent, frac: { n: +m[3] + (+m[2]) * (+m[4]), d: +m[4] }, mixed: true, plain: true,
         parts: { w: +m[2], n: +m[3], d: +m[4] } };
     }
+    // a bearing "045°T" or "045 T" is the number 45
+    s = s.replace(/^(\d{3}(?:\.\d+)?)\s*°?\s*t(rue)?$/, '$1');
     // scientific "3.2 x 10^5"
-    s = s.replace(/(\d)\s*[x*]\s*10\s*\^\s*(-?\d+)/, '$1e$2');
+    s = s.replace(/(\d)\s*[x*]\s*10\s*\^\s*\(?\s*(-?\d+)\s*\)?/, '$1e$2');
     const tryParse = (str) => {
       try { const tree = parse(str); if (varsOf(tree).size) return null; const v = evaluate(tree, {}); return isFinite(v) ? { v, tree } : null; }
       catch (e) { return null; }
@@ -216,6 +227,29 @@ const Checker = (() => {
     return { ok: true, v: r.v, percent, frac, raw: s, plain };
   }
 
+  // Simplest surd form ("as": "surd"): terms like 5, 3√2, -√7, √6/3 or 2√5/5, joined by
+  // + or -. Every radicand is a whole number above 1 with no square factor (√12 is
+  // not simplest, 2√3 is), no two terms share a radicand (2√3 + √3 is not collected)
+  // and there is at most one whole-number term. Decimals and √(a fraction) fail.
+  function simplestSurd(raw) {
+    const s = clean(raw).toLowerCase().replace(/\s+/g, '').replace(/^[a-z]=/, '');
+    if (!s || /\./.test(s)) return false;
+    const terms = s.replace(/^\+/, '').match(/^-?[^+-]+|[+-][^+-]+/g);
+    if (!terms || terms.join('') !== s.replace(/^\+/, '')) return false;
+    const seen = new Set(); let ints = 0;
+    const squareFree = (n) => { for (let k = 2; k * k <= n; k++) if (n % (k * k) === 0) return false; return true; };
+    for (const t of terms) {
+      const m = t.match(/^[+-]?(\d*)\*?(?:sqrt\(?(\d+)\)?)?(?:\/(\d+))?$/);
+      if (!m || (!m[1] && !m[2])) return false;
+      if (m[2] == null) { if (+m[1] === 0) return false; ints++; continue; }
+      const r = +m[2];
+      if (r < 2 || !squareFree(r) || seen.has(r)) return false;
+      if (m[1] === '1' || m[1] === '0') return false;
+      seen.add(r);
+    }
+    return ints <= 1;
+  }
+
   function close(a, b, tol) {
     if (tol != null) return Math.abs(a - b) <= tol + 1e-12;
     return Math.abs(a - b) <= 1e-9 * Math.max(1, Math.abs(a), Math.abs(b));
@@ -224,7 +258,7 @@ const Checker = (() => {
   function numericMatch(q, studentRaw, expectedRaw) {
     const st = toNumber(studentRaw);
     if (!st.ok) return { correct: false, reason: 'unreadable' };
-    if (!st.plain && !q.allowExpr) return { correct: false, reason: 'not a number' };
+    if (!st.plain && !q.allowExpr && q.as !== 'surd') return { correct: false, reason: 'not a number' };
     const ex = toNumber(expectedRaw);
     if (!ex.ok) return { correct: false, reason: 'bad key' };
     // A % on one side only means "this many hundredths", so 25% can match 0.25 (and a
@@ -260,6 +294,12 @@ const Checker = (() => {
       if (q.as === 'fraction' && !(isFrac || whole)) return { correct: false, reason: 'use fraction' };
       if (q.as === 'decimal' && (st.frac || st.mixed || st.percent)) return { correct: false, reason: 'use decimal' };
       if (q.as === 'percent' && !st.percent) return { correct: false, reason: 'use percent' };
+      if (q.as === 'surd' && !simplestSurd(studentRaw)) return { correct: false, reason: 'use surd' };
+      // Scientific notation: a × 10^n with 1 <= |a| < 10 ("3.2 x 10^5", "3.2e5" is not asked for).
+      if (q.as === 'scientific') {
+        const m = clean(studentRaw).toLowerCase().replace(/\s+/g, '').match(/^-?(\d+(?:\.\d+)?)[x*]10\^\(?(-?\d+)\)?$/);
+        if (!m || +m[1] < 1 || +m[1] >= 10) return { correct: false, reason: 'use scientific' };
+      }
     }
     return { correct: ok };
   }
@@ -332,6 +372,7 @@ const Checker = (() => {
         // Fully factorised: the bracket must have nothing left in common, so
         // 2(2x+4) or 7(2cn+3n) do not pass for 4(x+2) or 7n(2c+3).
         if (bracketHasCommon(String(studentRaw)) && !bracketHasCommon(String(expectedRaw))) return { correct: false, reason: 'not fully factorised' };
+        if (sumFactors(sTrees[0]) < sumFactors(eTrees[0])) return { correct: false, reason: 'not fully factorised' };
       }
       if (q.form === 'expanded' && !isExpanded(sTrees[0])) return { correct: false, reason: 'not expanded' };
       if (q.form === 'simplified') {
@@ -403,7 +444,14 @@ const Checker = (() => {
     let st;
     if (ordered) {
       const inner = clean(studentRaw).replace(/^\(|\)$/g, '');
-      st = inner.split(/\s*[,;]\s*/).filter(Boolean);
+      st = inner.split(q.type === 'point' ? /\s*[,;]\s*|\s+and\s+/i : /\s*[,;]\s*/).filter(Boolean);
+      // A solution pair typed with its letters in any order ("y = -3, x = 2") is read
+      // as x first, then y, then z.
+      const lettered = st.map(p => /^\s*([a-z])\s*=/i.exec(p));
+      if (q.type === 'point' && lettered.every(Boolean)) {
+        const letters = lettered.map(m => m[1].toLowerCase());
+        if (new Set(letters).size === letters.length) st = st.map((p, i) => [letters[i], p]).sort((a, b) => a[0].localeCompare(b[0])).map(x => x[1]);
+      }
     } else st = splitList(studentRaw);
     if (st.length !== exp.length) return { correct: false, reason: st.length < exp.length ? 'missing values' : 'too many values' };
     if (ordered) return { correct: exp.every((e, i) => valueMatch(q, st[i], e)) };

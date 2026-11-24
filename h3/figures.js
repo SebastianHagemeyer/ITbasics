@@ -304,7 +304,7 @@
   // { "kind": "columns", "cats": ["Mon", "Tue"], "values": [3, 5], "ymax": 10, "step": 2,
   //   "xlabel": "Day", "ylabel": "Number of students", "title": "..." }
   function columns(f) {
-    const cats = f.cats || [], vals = f.values || [], n = cats.length;
+    const cats = f.cats || [], vals = f.values || [], n = Math.max(cats.length, vals.length);
     const step = f.step || niceStep(Math.max(...vals)), ymax = f.ymax || Math.ceil(Math.max(...vals) / step) * step;
     const L = 56, B = 54, T = f.title ? 30 : 14, cw = Math.max(34, Math.min(64, 420 / n)), W = n * cw + 20, Hh = 200;
     const Y = (v) => T + Hh - (v / ymax) * Hh;
@@ -312,11 +312,16 @@
     for (let v = 0; v <= ymax + 1e-9; v += step) {
       g += `<line class="fg-grid" x1="${L}" y1="${Y(v)}" x2="${L + W}" y2="${Y(v)}"/><text class="fg-tick" x="${L - 6}" y="${Y(v) + 4}" text-anchor="end">${+v.toFixed(6)}</text>`;
     }
+    // "histogram": true joins the columns (no gaps); "edges" then labels the class
+    // boundaries under the joins instead of each column's middle (one more edge than columns).
+    const hist = !!f.histogram, edges = f.edges;
     vals.forEach((v, i) => {
       const x = L + 10 + i * cw;
-      g += `<rect class="fg-col" x="${x + cw * 0.15}" y="${Y(v)}" width="${cw * 0.7}" height="${Y(0) - Y(v)}"/>`;
-      g += `<text class="fg-tick" x="${x + cw / 2}" y="${T + Hh + 16}" text-anchor="middle">${esc(cats[i])}</text>`;
+      g += hist ? `<rect class="fg-col fg-hist" x="${x}" y="${Y(v)}" width="${cw}" height="${Y(0) - Y(v)}"/>`
+        : `<rect class="fg-col" x="${x + cw * 0.15}" y="${Y(v)}" width="${cw * 0.7}" height="${Y(0) - Y(v)}"/>`;
+      if (!(hist && edges)) g += `<text class="fg-tick" x="${x + cw / 2}" y="${T + Hh + 16}" text-anchor="middle">${esc(cats[i] ?? '')}</text>`;
     });
+    if (hist && edges) edges.forEach((e, i) => { g += `<text class="fg-tick" x="${L + 10 + i * cw}" y="${T + Hh + 16}" text-anchor="middle">${esc(e)}</text>`; });
     g += `<line class="fg-axis" x1="${L}" y1="${T}" x2="${L}" y2="${T + Hh}"/><line class="fg-axis" x1="${L}" y1="${T + Hh}" x2="${L + W}" y2="${T + Hh}"/>`;
     if (f.xlabel) g += `<text class="fg-label" x="${L + W / 2}" y="${T + Hh + 40}" text-anchor="middle">${esc(f.xlabel)}</text>`;
     if (f.ylabel) g += `<text class="fg-label" transform="translate(14 ${T + Hh / 2}) rotate(-90)" text-anchor="middle">${esc(f.ylabel)}</text>`;
@@ -404,7 +409,32 @@
     return frame(`<svg viewBox="0 0 160 160" width="160" height="160" role="img" aria-label="${esc(f.alt || 'A spinner')}">${g}</svg>`, f.caption);
   }
 
-  const KINDS = { plane, sticks, dots, table, pie, bar, grid, numberline, rect, tri, diagram, columns, dotplot, stemleaf, linegraph, sector, dividedbar, spinner };
+  // { "kind": "boxplot", "min": 0, "max": 50, "step": 5, "xlabel": "Minutes",
+  //   "plots": [{ "label": "Class A", "five": [4, 12, 20, 31, 44], "outliers": [49] }] }
+  // five = minimum, Q1, median, Q3, maximum (the whiskers; outliers sit beyond them as
+  // crosses). Several plots share one scale, for parallel box plots.
+  function boxplot(f) {
+    const lo = f.min ?? 0, hi = f.max ?? 10, st = f.step || niceStep(hi - lo), plots = f.plots || [];
+    const labelled = plots.some(p => p.label), L = labelled ? 86 : 20, W = 400, rowH = 46, T = 10;
+    const X = (v) => L + ((v - lo) / (hi - lo)) * W;
+    const yAxis = T + plots.length * rowH + 6;
+    let g = '';
+    plots.forEach((p, i) => {
+      const [a, q1, m, q3, b] = p.five || [], cy = T + i * rowH + rowH / 2, h = 26;
+      g += `<line class="fg-axis" x1="${X(a)}" y1="${cy}" x2="${X(q1)}" y2="${cy}"/><line class="fg-axis" x1="${X(q3)}" y1="${cy}" x2="${X(b)}" y2="${cy}"/>`;
+      g += `<line class="fg-axis" x1="${X(a)}" y1="${cy - 8}" x2="${X(a)}" y2="${cy + 8}"/><line class="fg-axis" x1="${X(b)}" y1="${cy - 8}" x2="${X(b)}" y2="${cy + 8}"/>`;
+      g += `<rect class="fg-col" x="${X(q1)}" y="${cy - h / 2}" width="${X(q3) - X(q1)}" height="${h}"/>`;
+      g += `<line class="fg-axis" x1="${X(m)}" y1="${cy - h / 2}" x2="${X(m)}" y2="${cy + h / 2}"/>`;
+      (p.outliers || []).forEach(o => { g += `<path class="fg-axis" d="M${X(o) - 5},${cy - 5} L${X(o) + 5},${cy + 5} M${X(o) - 5},${cy + 5} L${X(o) + 5},${cy - 5}"/>`; });
+      if (p.label) g += `<text class="fg-label" x="${L - 10}" y="${cy + 4}" text-anchor="end">${esc(p.label)}</text>`;
+    });
+    g += `<line class="fg-axis" x1="${L - 6}" y1="${yAxis}" x2="${L + W + 6}" y2="${yAxis}"/>`;
+    for (let v = lo; v <= hi + 1e-9; v += st) { const vv = +v.toFixed(6); g += `<line class="fg-axis" x1="${X(vv)}" y1="${yAxis}" x2="${X(vv)}" y2="${yAxis + 6}"/><text class="fg-tick" x="${X(vv)}" y="${yAxis + 20}" text-anchor="middle">${vv}</text>`; }
+    if (f.xlabel) g += `<text class="fg-label" x="${L + W / 2}" y="${yAxis + 42}" text-anchor="middle">${esc(f.xlabel)}</text>`;
+    return frame(`<svg viewBox="0 0 ${L + W + 24} ${yAxis + (f.xlabel ? 50 : 28)}" width="${L + W + 24}" role="img" aria-label="${esc(f.alt || 'A box plot')}">${g}</svg>`, f.caption);
+  }
+
+  const KINDS = { plane, sticks, dots, table, pie, bar, grid, numberline, rect, tri, diagram, columns, dotplot, stemleaf, linegraph, sector, dividedbar, spinner, boxplot };
   window.H3Figure = function (spec) {
     try { return KINDS[spec && spec.kind] ? KINDS[spec.kind](spec) : ''; }
     catch (e) { return ''; }
