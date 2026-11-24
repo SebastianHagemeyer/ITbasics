@@ -105744,6 +105744,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-6a-equiv",
    "label": "1a",
    "section": "Fluency",
    "stem": "Find the missing number in each pair of equivalent ratios.",
@@ -105753,6 +105754,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-6a-equiv",
    "label": "1b",
    "section": "Fluency",
    "stem": "Find the missing number in each pair of equivalent ratios.",
@@ -105762,6 +105764,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y8-6a-equiv",
    "label": "1c",
    "section": "Fluency",
    "stem": "Find the missing number in each pair of equivalent ratios.",
@@ -105771,6 +105774,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-6a-simplify",
    "label": "2a",
    "section": "Fluency",
    "stem": "Simplify the following ratios.",
@@ -105782,6 +105786,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-6a-simplify",
    "label": "2b",
    "section": "Fluency",
    "stem": "Simplify the following ratios.",
@@ -105792,6 +105797,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-6a-simplify",
    "label": "2c",
    "section": "Fluency",
    "stem": "Simplify the following ratios.",
@@ -105802,6 +105808,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y8-6a-simplify",
    "label": "2d",
    "section": "Fluency",
    "stem": "Simplify the following ratios.",
@@ -105812,6 +105819,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y8-6a-simplify",
    "label": "2e",
    "section": "Fluency",
    "stem": "Simplify the following ratios.",
@@ -105822,6 +105830,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y8-6a-simplify",
    "label": "2f",
    "section": "Fluency",
    "stem": "Simplify the following ratios.",
@@ -105832,6 +105841,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y8-6a-simplify",
    "label": "2g",
    "section": "Fluency",
    "stem": "Simplify the following ratios.",
@@ -105842,6 +105852,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y8-6a-simplify",
    "label": "2h",
    "section": "Fluency",
    "stem": "Simplify the following ratios.",
@@ -105852,6 +105863,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2i",
+   "help": "y8-6a-simplify",
    "label": "2i",
    "section": "Fluency",
    "stem": "Simplify the following ratios.",
@@ -105862,6 +105874,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2j",
+   "help": "y8-6a-simplify",
    "label": "2j",
    "section": "Fluency",
    "stem": "Simplify the following ratios.",
@@ -105872,6 +105885,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2k",
+   "help": "y8-6a-simplify",
    "label": "2k",
    "section": "Fluency",
    "stem": "Simplify the following ratios.",
@@ -105882,6 +105896,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2l",
+   "help": "y8-6a-simplify",
    "label": "2l",
    "section": "Fluency",
    "stem": "Simplify the following ratios.",
@@ -105892,6 +105907,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2m",
+   "help": "y8-6a-simplify",
    "label": "2m",
    "section": "Fluency",
    "stem": "Simplify the following ratios.",
@@ -105902,6 +105918,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2n",
+   "help": "y8-6a-simplify",
    "label": "2n",
    "section": "Fluency",
    "stem": "Simplify the following ratios.",
@@ -105912,6 +105929,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2o",
+   "help": "y8-6a-simplify",
    "label": "2o",
    "section": "Fluency",
    "stem": "Simplify the following ratios.",
@@ -105922,6 +105940,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2p",
+   "help": "y8-6a-simplify",
    "label": "2p",
    "section": "Fluency",
    "stem": "Simplify the following ratios.",
@@ -105932,6 +105951,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-6a-simplify",
    "label": "3a",
    "section": "Fluency",
    "stem": "Simplify the following ratios. (You can divide all three numbers by their highest common factor.)",
@@ -105943,6 +105963,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-6a-simplify",
    "label": "3b",
    "section": "Fluency",
    "stem": "Simplify the following ratios. (You can divide all three numbers by their highest common factor.)",
@@ -105953,6 +105974,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-6a-simplify",
    "label": "3c",
    "section": "Fluency",
    "stem": "Simplify the following ratios. (You can divide all three numbers by their highest common factor.)",
@@ -105963,6 +105985,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y8-6a-simplify",
    "label": "3d",
    "section": "Fluency",
    "stem": "Simplify the following ratios. (You can divide all three numbers by their highest common factor.)",
@@ -105973,6 +105996,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y8-6a-simplify",
    "label": "3e",
    "section": "Fluency",
    "stem": "Simplify the following ratios. (You can divide all three numbers by their highest common factor.)",
@@ -105983,6 +106007,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y8-6a-simplify",
    "label": "3f",
    "section": "Fluency",
    "stem": "Simplify the following ratios. (You can divide all three numbers by their highest common factor.)",
@@ -105993,6 +106018,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3g",
+   "help": "y8-6a-simplify",
    "label": "3g",
    "section": "Fluency",
    "stem": "Simplify the following ratios. (You can divide all three numbers by their highest common factor.)",
@@ -106003,6 +106029,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3h",
+   "help": "y8-6a-simplify",
    "label": "3h",
    "section": "Fluency",
    "stem": "Simplify the following ratios. (You can divide all three numbers by their highest common factor.)",
@@ -106013,6 +106040,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-6a-fractions",
    "label": "4a",
    "section": "Fluency",
    "stem": "Simplify the following ratios involving fractions and mixed numerals.",
@@ -106024,6 +106052,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-6a-fractions",
    "label": "4b",
    "section": "Fluency",
    "stem": "Simplify the following ratios involving fractions and mixed numerals.",
@@ -106034,6 +106063,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y8-6a-fractions",
    "label": "4c",
    "section": "Fluency",
    "stem": "Simplify the following ratios involving fractions and mixed numerals.",
@@ -106044,6 +106074,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y8-6a-fractions",
    "label": "4d",
    "section": "Fluency",
    "stem": "Simplify the following ratios involving fractions and mixed numerals.",
@@ -106054,6 +106085,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y8-6a-fractions",
    "label": "4e",
    "section": "Fluency",
    "stem": "Simplify the following ratios involving fractions and mixed numerals.",
@@ -106064,6 +106096,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y8-6a-fractions",
    "label": "4f",
    "section": "Fluency",
    "stem": "Simplify the following ratios involving fractions and mixed numerals.",
@@ -106074,6 +106107,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4g",
+   "help": "y8-6a-fractions",
    "label": "4g",
    "section": "Fluency",
    "stem": "Simplify the following ratios involving fractions and mixed numerals.",
@@ -106084,6 +106118,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4h",
+   "help": "y8-6a-fractions",
    "label": "4h",
    "section": "Fluency",
    "stem": "Simplify the following ratios involving fractions and mixed numerals.",
@@ -106094,6 +106129,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4i",
+   "help": "y8-6a-fractions",
    "label": "4i",
    "section": "Fluency",
    "stem": "Simplify the following ratios involving fractions and mixed numerals.",
@@ -106104,6 +106140,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4j",
+   "help": "y8-6a-fractions",
    "label": "4j",
    "section": "Fluency",
    "stem": "Simplify the following ratios involving fractions and mixed numerals.",
@@ -106114,6 +106151,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4k",
+   "help": "y8-6a-fractions",
    "label": "4k",
    "section": "Fluency",
    "stem": "Simplify the following ratios involving fractions and mixed numerals.",
@@ -106124,6 +106162,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4l",
+   "help": "y8-6a-fractions",
    "label": "4l",
    "section": "Fluency",
    "stem": "Simplify the following ratios involving fractions and mixed numerals.",
@@ -106134,6 +106173,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y8-6a-words",
    "label": "5a",
    "section": "Fluency",
    "stem": "Over the past four weeks (28 days), it rained on 11 days and it was foggy on 4 days. The rest of the days were fine. Write the ratio of:",
@@ -106143,6 +106183,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y8-6a-words",
    "label": "5b",
    "section": "Fluency",
    "stem": "Over the past four weeks (28 days), it rained on 11 days and it was foggy on 4 days. The rest of the days were fine. Write the ratio of:",
@@ -106152,6 +106193,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y8-6a-words",
    "label": "5c",
    "section": "Fluency",
    "stem": "Over the past four weeks (28 days), it rained on 11 days and it was foggy on 4 days. The rest of the days were fine. Write the ratio of:",
@@ -106161,6 +106203,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y8-6a-words",
    "label": "5d",
    "section": "Fluency",
    "stem": "Over the past four weeks (28 days), it rained on 11 days and it was foggy on 4 days. The rest of the days were fine. Write the ratio of:",
@@ -106170,6 +106213,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y8-6a-units",
    "label": "6a",
    "section": "Fluency",
    "stem": "First change the quantities to the same unit, then write each pair as a ratio in simplest form.",
@@ -106180,6 +106224,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y8-6a-units",
    "label": "6b",
    "section": "Fluency",
    "stem": "First change the quantities to the same unit, then write each pair as a ratio in simplest form.",
@@ -106190,6 +106235,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y8-6a-units",
    "label": "6c",
    "section": "Fluency",
    "stem": "First change the quantities to the same unit, then write each pair as a ratio in simplest form.",
@@ -106200,6 +106246,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y8-6a-units",
    "label": "6d",
    "section": "Fluency",
    "stem": "First change the quantities to the same unit, then write each pair as a ratio in simplest form.",
@@ -106210,6 +106257,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6e",
+   "help": "y8-6a-units",
    "label": "6e",
    "section": "Fluency",
    "stem": "First change the quantities to the same unit, then write each pair as a ratio in simplest form.",
@@ -106220,6 +106268,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6f",
+   "help": "y8-6a-units",
    "label": "6f",
    "section": "Fluency",
    "stem": "First change the quantities to the same unit, then write each pair as a ratio in simplest form.",
@@ -106230,6 +106279,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6g",
+   "help": "y8-6a-units",
    "label": "6g",
    "section": "Fluency",
    "stem": "First change the quantities to the same unit, then write each pair as a ratio in simplest form.",
@@ -106240,6 +106290,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6h",
+   "help": "y8-6a-units",
    "label": "6h",
    "section": "Fluency",
    "stem": "First change the quantities to the same unit, then write each pair as a ratio in simplest form.",
@@ -106250,6 +106301,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6i",
+   "help": "y8-6a-units",
    "label": "6i",
    "section": "Fluency",
    "stem": "First change the quantities to the same unit, then write each pair as a ratio in simplest form.",
@@ -106260,6 +106312,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6j",
+   "help": "y8-6a-units",
    "label": "6j",
    "section": "Fluency",
    "stem": "First change the quantities to the same unit, then write each pair as a ratio in simplest form.",
@@ -106270,6 +106323,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6k",
+   "help": "y8-6a-units",
    "label": "6k",
    "section": "Fluency",
    "stem": "First change the quantities to the same unit, then write each pair as a ratio in simplest form.",
@@ -106280,6 +106334,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6l",
+   "help": "y8-6a-units",
    "label": "6l",
    "section": "Fluency",
    "stem": "First change the quantities to the same unit, then write each pair as a ratio in simplest form.",
@@ -106290,6 +106345,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6m",
+   "help": "y8-6a-units",
    "label": "6m",
    "section": "Fluency",
    "stem": "First change the quantities to the same unit, then write each pair as a ratio in simplest form.",
@@ -106300,6 +106356,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6n",
+   "help": "y8-6a-units",
    "label": "6n",
    "section": "Fluency",
    "stem": "First change the quantities to the same unit, then write each pair as a ratio in simplest form.",
@@ -106310,6 +106367,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6o",
+   "help": "y8-6a-units",
    "label": "6o",
    "section": "Fluency",
    "stem": "First change the quantities to the same unit, then write each pair as a ratio in simplest form.",
@@ -106320,6 +106378,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6p",
+   "help": "y8-6a-units",
    "label": "6p",
    "section": "Fluency",
    "stem": "First change the quantities to the same unit, then write each pair as a ratio in simplest form.",
@@ -106330,6 +106389,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6q",
+   "help": "y8-6a-units",
    "label": "6q",
    "section": "Fluency",
    "stem": "First change the quantities to the same unit, then write each pair as a ratio in simplest form.",
@@ -106340,6 +106400,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6r",
+   "help": "y8-6a-units",
    "label": "6r",
    "section": "Fluency",
    "stem": "First change the quantities to the same unit, then write each pair as a ratio in simplest form.",
@@ -106350,6 +106411,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7",
+   "help": "y8-6a-fractions",
    "label": "7",
    "section": "Problem-solving",
    "prompt": "Which of these is the simplest form of the ratio $\\frac{1}{3} : 3$?",
@@ -106364,6 +106426,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y8-6a-words",
    "label": "8a",
    "section": "Problem-solving",
    "stem": "Marcus was absent from school on 6 days in Term 2. There were 48 school days in Term 2. Write the following ratios in simplest form.",
@@ -106374,6 +106437,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y8-6a-words",
    "label": "8b",
    "section": "Problem-solving",
    "stem": "Marcus was absent from school on 6 days in Term 2. There were 48 school days in Term 2. Write the following ratios in simplest form.",
@@ -106384,6 +106448,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y8-6a-words",
    "label": "8c",
    "section": "Problem-solving",
    "stem": "Marcus was absent from school on 6 days in Term 2. There were 48 school days in Term 2. Write the following ratios in simplest form.",
@@ -106394,6 +106459,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y8-6a-words",
    "label": "9a",
    "section": "Problem-solving",
    "stem": "Over the past three weeks (21 nights), the Nguyen family had takeaway for dinner 9 times: tacos twice, sushi four times and noodles three times. Every other night they cooked dinner at home. Write the following ratios in simplest form.",
@@ -106404,6 +106470,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y8-6a-words",
    "label": "9b",
    "section": "Problem-solving",
    "stem": "Over the past three weeks (21 nights), the Nguyen family had takeaway for dinner 9 times: tacos twice, sushi four times and noodles three times. Every other night they cooked dinner at home. Write the following ratios in simplest form.",
@@ -106414,6 +106481,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y8-6a-words",
    "label": "9c",
    "section": "Problem-solving",
    "stem": "Over the past three weeks (21 nights), the Nguyen family had takeaway for dinner 9 times: tacos twice, sushi four times and noodles three times. Every other night they cooked dinner at home. Write the following ratios in simplest form.",
@@ -106424,6 +106492,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y8-6a-words",
    "label": "9d",
    "section": "Problem-solving",
    "stem": "Over the past three weeks (21 nights), the Nguyen family had takeaway for dinner 9 times: tacos twice, sushi four times and noodles three times. Every other night they cooked dinner at home. Write the following ratios in simplest form.",
@@ -106434,6 +106503,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y8-6a-words",
    "label": "10a",
    "section": "Problem-solving",
    "stem": "When Ana makes fruit salad she uses 4 kiwifruit, 6 apples, 3 mangoes, 2 peaches, 5 plums, 1 lime (for juice) and 18 grapes.",
@@ -106444,6 +106514,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y8-6a-words",
    "label": "10b",
    "section": "Problem-solving",
    "stem": "When Ana makes fruit salad she uses 4 kiwifruit, 6 apples, 3 mangoes, 2 peaches, 5 plums, 1 lime (for juice) and 18 grapes.",
@@ -106461,6 +106532,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y8-6a-words",
    "label": "10c",
    "section": "Problem-solving",
    "stem": "When Ana makes fruit salad she uses 4 kiwifruit, 6 apples, 3 mangoes, 2 peaches, 5 plums, 1 lime (for juice) and 18 grapes.",
@@ -106471,6 +106543,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10d",
+   "help": "y8-6a-words",
    "label": "10d",
    "section": "Problem-solving",
    "stem": "When Ana makes fruit salad she uses 4 kiwifruit, 6 apples, 3 mangoes, 2 peaches, 5 plums, 1 lime (for juice) and 18 grapes.",
@@ -106481,6 +106554,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11",
+   "help": "y8-6a-units",
    "label": "11",
    "section": "Reasoning",
    "prompt": "Jai simplified $16$ cm to $4$ mm as the ratio $4 : 1$, which is wrong. What is the correct ratio in simplest form?",
@@ -106490,6 +106564,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y8-6a-units",
    "label": "12a",
    "section": "Reasoning",
    "stem": "Priya has $\\$6$ and Tom has $75$ cents.",
@@ -106500,6 +106575,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y8-6a-units",
    "label": "12b",
    "section": "Reasoning",
    "stem": "Priya has $\\$6$ and Tom has $75$ cents.",
@@ -106513,6 +106589,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y8-6a-units",
    "label": "13a",
    "section": "Reasoning",
    "prompt": "Which pair of times is in the ratio $2 : 5$?",
@@ -106527,6 +106604,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y8-6a-units",
    "label": "13b",
    "section": "Reasoning",
    "prompt": "Which pair of distances is in the ratio $4 : 3$?",
@@ -106541,6 +106619,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y8-6a-algebra",
    "label": "14a",
    "section": "Reasoning",
    "stem": "Simplify the following ratios.",
@@ -106556,6 +106635,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y8-6a-algebra",
    "label": "14b",
    "section": "Reasoning",
    "stem": "Simplify the following ratios.",
@@ -106570,6 +106650,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14c",
+   "help": "y8-6a-algebra",
    "label": "14c",
    "section": "Reasoning",
    "stem": "Simplify the following ratios.",
@@ -106584,6 +106665,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14d",
+   "help": "y8-6a-algebra",
    "label": "14d",
    "section": "Reasoning",
    "stem": "Simplify the following ratios.",
@@ -106594,6 +106676,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14e",
+   "help": "y8-6a-algebra",
    "label": "14e",
    "section": "Reasoning",
    "stem": "Simplify the following ratios.",
@@ -106608,6 +106691,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14f",
+   "help": "y8-6a-algebra",
    "label": "14f",
    "section": "Reasoning",
    "stem": "Simplify the following ratios.",
@@ -106622,6 +106706,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15a",
+   "help": "y8-6a-fractions",
    "label": "15a",
    "section": "Enrichment",
    "stem": "The aspect ratio of a screen or picture compares its width to its height.",
@@ -106633,6 +106718,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15b",
+   "help": "y8-6a-fractions",
    "label": "15b",
    "section": "Enrichment",
    "stem": "The aspect ratio of a screen or picture compares its width to its height.",
@@ -106643,6 +106729,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15c",
+   "help": "y8-6a-fractions",
    "label": "15c",
    "section": "Enrichment",
    "stem": "The aspect ratio of a screen or picture compares its width to its height.",
@@ -106662,6 +106749,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-6b-onepart",
    "label": "1a",
    "section": "Fluency",
    "stem": "Flour and milk are mixed in the ratio $3 : 5$ to make pancake batter. Find the amount of milk that is mixed with:",
@@ -106672,6 +106760,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-6b-onepart",
    "label": "1b",
    "section": "Fluency",
    "stem": "Flour and milk are mixed in the ratio $3 : 5$ to make pancake batter. Find the amount of milk that is mixed with:",
@@ -106682,6 +106771,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y8-6b-onepart",
    "label": "1c",
    "section": "Fluency",
    "stem": "Flour and milk are mixed in the ratio $3 : 5$ to make pancake batter. Find the amount of milk that is mixed with:",
@@ -106692,6 +106782,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y8-6b-onepart",
    "label": "1d",
    "section": "Fluency",
    "stem": "Flour and milk are mixed in the ratio $3 : 5$ to make pancake batter. Find the amount of milk that is mixed with:",
@@ -106702,6 +106793,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-6b-onepart",
    "label": "2a",
    "section": "Fluency",
    "stem": "Yellow and white paint are mixed in the ratio $3 : 7$.",
@@ -106712,6 +106804,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-6b-onepart",
    "label": "2b",
    "section": "Fluency",
    "stem": "Yellow and white paint are mixed in the ratio $3 : 7$.",
@@ -106722,6 +106815,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-6b-onepart",
    "label": "2c",
    "section": "Fluency",
    "stem": "Yellow and white paint are mixed in the ratio $3 : 7$.",
@@ -106732,6 +106826,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y8-6b-onepart",
    "label": "2d",
    "section": "Fluency",
    "stem": "Yellow and white paint are mixed in the ratio $3 : 7$.",
@@ -106742,6 +106837,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-6b-onepart",
    "label": "3a",
    "section": "Fluency",
    "stem": "At a junior sports camp the ratio of coaches to players is $1 : 6$.",
@@ -106751,6 +106847,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-6b-onepart",
    "label": "3b",
    "section": "Fluency",
    "stem": "At a junior sports camp the ratio of coaches to players is $1 : 6$.",
@@ -106760,6 +106857,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-6b-onepart",
    "label": "3c",
    "section": "Fluency",
    "stem": "At a junior sports camp the ratio of coaches to players is $1 : 6$.",
@@ -106769,6 +106867,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y8-6b-onepart",
    "label": "3d",
    "section": "Fluency",
    "stem": "At a junior sports camp the ratio of coaches to players is $1 : 6$.",
@@ -106778,6 +106877,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-6b-onepart",
    "label": "4a",
    "section": "Fluency",
    "stem": "In a jar of beads, the ratio of red to blue to white beads is $3 : 4 : 1$.",
@@ -106791,6 +106891,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-6b-onepart",
    "label": "4b",
    "section": "Fluency",
    "stem": "In a jar of beads, the ratio of red to blue to white beads is $3 : 4 : 1$.",
@@ -106804,6 +106905,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y8-6b-onepart",
    "label": "4c",
    "section": "Fluency",
    "stem": "In a jar of beads, the ratio of red to blue to white beads is $3 : 4 : 1$.",
@@ -106817,6 +106919,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y8-6b-divide",
    "label": "5a",
    "section": "Fluency",
    "stem": "Divide:",
@@ -106831,6 +106934,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y8-6b-divide",
    "label": "5b",
    "section": "Fluency",
    "stem": "Divide:",
@@ -106844,6 +106948,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y8-6b-divide",
    "label": "5c",
    "section": "Fluency",
    "stem": "Divide:",
@@ -106857,6 +106962,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y8-6b-divide",
    "label": "5d",
    "section": "Fluency",
    "stem": "Divide:",
@@ -106870,6 +106976,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y8-6b-divide",
    "label": "5e",
    "section": "Fluency",
    "stem": "Divide:",
@@ -106883,6 +106990,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y8-6b-divide",
    "label": "5f",
    "section": "Fluency",
    "stem": "Divide:",
@@ -106896,6 +107004,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y8-6b-divide",
    "label": "6a",
    "section": "Fluency",
    "stem": "Divide:",
@@ -106911,6 +107020,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y8-6b-divide",
    "label": "6b",
    "section": "Fluency",
    "stem": "Divide:",
@@ -106925,6 +107035,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y8-6b-divide",
    "label": "6c",
    "section": "Fluency",
    "stem": "Divide:",
@@ -106939,6 +107050,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y8-6b-divide",
    "label": "6d",
    "section": "Fluency",
    "stem": "Divide:",
@@ -106953,6 +107065,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6e",
+   "help": "y8-6b-divide",
    "label": "6e",
    "section": "Fluency",
    "stem": "Divide:",
@@ -106967,6 +107080,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6f",
+   "help": "y8-6b-divide",
    "label": "6f",
    "section": "Fluency",
    "stem": "Divide:",
@@ -106982,6 +107096,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y8-6b-onepart",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "Zara and Hamish share some stickers in the ratio $1 : 3$.",
@@ -106991,6 +107106,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y8-6b-onepart",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "Zara and Hamish share some stickers in the ratio $1 : 3$.",
@@ -107000,6 +107116,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y8-6b-onepart",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "Zara and Hamish share some stickers in the ratio $1 : 3$.",
@@ -107012,6 +107129,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8",
+   "help": "y8-6b-onepart",
    "label": "8",
    "section": "Problem-solving",
    "prompt": "At a pet shop the ratio of rabbits to guinea pigs is $4 : 9$. There are no other animals. If there are $28$ rabbits, find the total number of animals.",
@@ -107020,6 +107138,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9",
+   "help": "y8-6b-divide",
    "label": "9",
    "section": "Problem-solving",
    "prompt": "Ollie and Grace baked $45$ muffins. For every $4$ muffins Ollie baked, Grace baked $5$. How many muffins did each of them bake? Type Ollie's number first.",
@@ -107031,6 +107150,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10",
+   "help": "y8-6b-divide",
    "label": "10",
    "section": "Problem-solving",
    "prompt": "The angles of a triangle are in the ratio $4 : 5 : 9$. Find the size of each angle, in the same order.",
@@ -107045,6 +107165,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11",
+   "help": "y8-6b-divide",
    "label": "11",
    "section": "Problem-solving",
    "prompt": "Three friends, Ruby, Kai and Mateo, share a prize of $\\$960$ in the ratio $2 : 5 : 9$. How much more money does Mateo get than Ruby?",
@@ -107054,6 +107175,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12",
+   "help": "y8-6b-onepart",
    "label": "12",
    "section": "Problem-solving",
    "prompt": "A photo album has three sections, and the numbers of photos in the sections are in the ratio $4 : 7 : 6$. If the smallest section has $36$ photos, how many photos are in the album?",
@@ -107062,6 +107184,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13",
+   "help": "y8-6b-onepart",
    "label": "13",
    "section": "Problem-solving",
    "prompt": "The ratio of the cost of a cap to the cost of a backpack is $3 : 8$. The backpack costs $\\$165$ more than the cap. Find the cost of the cap and the cost of the backpack.",
@@ -107075,6 +107198,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14",
+   "help": "y8-6b-divide",
    "label": "14",
    "section": "Reasoning",
    "prompt": "An amount of $\\$86$ is divided in the ratio $1 : 1$. How much does each person receive?",
@@ -107084,6 +107208,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15a",
+   "help": "y8-6b-divide",
    "label": "15a",
    "section": "Reasoning",
    "stem": "In a sports club, the ratio of players to coaches is $12 : 1$.",
@@ -107099,6 +107224,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15b",
+   "help": "y8-6b-divide",
    "label": "15b",
    "section": "Reasoning",
    "stem": "In a sports club, the ratio of players to coaches is $12 : 1$.",
@@ -107108,6 +107234,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15c",
+   "help": "y8-6b-divide",
    "label": "15c",
    "section": "Reasoning",
    "stem": "In a sports club, the ratio of players to coaches is $12 : 1$.",
@@ -107120,6 +107247,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15d",
+   "help": "y8-6b-divide",
    "label": "15d",
    "section": "Reasoning",
    "stem": "In a sports club, the ratio of players to coaches is $12 : 1$.",
@@ -107129,6 +107257,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16a",
+   "help": "y8-6b-ages",
    "label": "16a",
    "section": "Reasoning",
    "stem": "Ella and Noah are cousins who share a birthday. Noah is exactly $10$ years older than Ella.",
@@ -107139,6 +107268,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16b",
+   "help": "y8-6b-ages",
    "label": "16b",
    "section": "Reasoning",
    "stem": "Ella and Noah are cousins who share a birthday. Noah is exactly $10$ years older than Ella.",
@@ -107149,6 +107279,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16c",
+   "help": "y8-6b-ages",
    "label": "16c",
    "section": "Reasoning",
    "stem": "Ella and Noah are cousins who share a birthday. Noah is exactly $10$ years older than Ella.",
@@ -107161,6 +107292,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16d",
+   "help": "y8-6b-ages",
    "label": "16d",
    "section": "Reasoning",
    "stem": "Ella and Noah are cousins who share a birthday. Noah is exactly $10$ years older than Ella.",
@@ -107173,6 +107305,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16e",
+   "help": "y8-6b-ages",
    "label": "16e",
    "section": "Reasoning",
    "stem": "Ella and Noah are cousins who share a birthday. Noah is exactly $10$ years older than Ella.",
@@ -107186,6 +107319,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17a",
+   "help": "y8-6b-shares",
    "label": "17a",
    "section": "Enrichment",
    "stem": "Priya, Leo and Hana entered a science fair as a group. Leo spent $2\\frac{1}{2}$ hours building the model, Hana spent $2$ hours making the poster and Priya spent $5$ hours writing the report. They won a prize of $\\$370$ and first decided to share it in the ratio $3 : 2 : 1$ (Priya : Leo : Hana).",
@@ -107200,6 +107334,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17b",
+   "help": "y8-6b-shares",
    "label": "17b",
    "section": "Enrichment",
    "stem": "Priya, Leo and Hana entered a science fair as a group. Leo spent $2\\frac{1}{2}$ hours building the model, Hana spent $2$ hours making the poster and Priya spent $5$ hours writing the report. They won a prize of $\\$370$ and first decided to share it in the ratio $3 : 2 : 1$ (Priya : Leo : Hana).",
@@ -107210,6 +107345,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17c",
+   "help": "y8-6b-shares",
    "label": "17c",
    "section": "Enrichment",
    "stem": "Priya, Leo and Hana entered a science fair as a group. Leo spent $2\\frac{1}{2}$ hours building the model, Hana spent $2$ hours making the poster and Priya spent $5$ hours writing the report. They won a prize of $\\$370$ and first decided to share it in the ratio $3 : 2 : 1$ (Priya : Leo : Hana).",
@@ -107224,6 +107360,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17d",
+   "help": "y8-6b-shares",
    "label": "17d",
    "section": "Enrichment",
    "stem": "Priya, Leo and Hana entered a science fair as a group. Leo spent $2\\frac{1}{2}$ hours building the model, Hana spent $2$ hours making the poster and Priya spent $5$ hours writing the report. They won a prize of $\\$370$ and first decided to share it in the ratio $3 : 2 : 1$ (Priya : Leo : Hana).",
@@ -107237,6 +107374,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17e",
+   "help": "y8-6b-shares",
    "label": "17e",
    "section": "Enrichment",
    "stem": "Priya, Leo and Hana entered a science fair as a group. Leo spent $2\\frac{1}{2}$ hours building the model, Hana spent $2$ hours making the poster and Priya spent $5$ hours writing the report. They won a prize of $\\$370$ and first decided to share it in the ratio $3 : 2 : 1$ (Priya : Leo : Hana).",
@@ -107247,6 +107385,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17f",
+   "help": "y8-6b-shares",
    "label": "17f",
    "section": "Enrichment",
    "stem": "Priya, Leo and Hana entered a science fair as a group. Leo spent $2\\frac{1}{2}$ hours building the model, Hana spent $2$ hours making the poster and Priya spent $5$ hours writing the report. They won a prize of $\\$370$ and first decided to share it in the ratio $3 : 2 : 1$ (Priya : Leo : Hana).",
@@ -107260,6 +107399,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17g",
+   "help": "y8-6b-shares",
    "label": "17g",
    "section": "Enrichment",
    "stem": "Priya, Leo and Hana entered a science fair as a group. Leo spent $2\\frac{1}{2}$ hours building the model, Hana spent $2$ hours making the poster and Priya spent $5$ hours writing the report. They won a prize of $\\$370$ and first decided to share it in the ratio $3 : 2 : 1$ (Priya : Leo : Hana).",
@@ -107283,6 +107423,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-6c-actual",
    "label": "1a",
    "section": "Fluency",
    "stem": "A map has a scale of $1 : 25\\,000$. Find the actual distance for each scaled distance.",
@@ -107293,6 +107434,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-6c-actual",
    "label": "1b",
    "section": "Fluency",
    "stem": "A map has a scale of $1 : 25\\,000$. Find the actual distance for each scaled distance.",
@@ -107303,6 +107445,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y8-6c-actual",
    "label": "1c",
    "section": "Fluency",
    "stem": "A map has a scale of $1 : 25\\,000$. Find the actual distance for each scaled distance.",
@@ -107313,6 +107456,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-6c-actual",
    "label": "2a",
    "section": "Fluency",
    "stem": "A drawing has a scale of $1 : 20\\,000$. Find the actual distance for each scaled distance, in the unit given.",
@@ -107323,6 +107467,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-6c-actual",
    "label": "2b",
    "section": "Fluency",
    "stem": "A drawing has a scale of $1 : 20\\,000$. Find the actual distance for each scaled distance, in the unit given.",
@@ -107333,6 +107478,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-6c-actual",
    "label": "2c",
    "section": "Fluency",
    "stem": "A drawing has a scale of $1 : 20\\,000$. Find the actual distance for each scaled distance, in the unit given.",
@@ -107343,6 +107489,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y8-6c-actual",
    "label": "2d",
    "section": "Fluency",
    "stem": "A drawing has a scale of $1 : 50\\,000$. Find the actual distance for each scaled distance, in the unit given.",
@@ -107353,6 +107500,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y8-6c-actual",
    "label": "2e",
    "section": "Fluency",
    "stem": "A drawing has a scale of $1 : 50\\,000$. Find the actual distance for each scaled distance, in the unit given.",
@@ -107363,6 +107511,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y8-6c-actual",
    "label": "2f",
    "section": "Fluency",
    "stem": "A drawing has a scale of $1 : 50\\,000$. Find the actual distance for each scaled distance, in the unit given.",
@@ -107373,6 +107522,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y8-6c-actual",
    "label": "2g",
    "section": "Fluency",
    "stem": "A drawing has a scale of $1 : 500$. Find the actual distance for each scaled distance, in the unit given.",
@@ -107383,6 +107533,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y8-6c-actual",
    "label": "2h",
    "section": "Fluency",
    "stem": "A drawing has a scale of $1 : 500$. Find the actual distance for each scaled distance, in the unit given.",
@@ -107393,6 +107544,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2i",
+   "help": "y8-6c-actual",
    "label": "2i",
    "section": "Fluency",
    "stem": "A drawing has a scale of $1 : 500$. Find the actual distance for each scaled distance, in the unit given.",
@@ -107403,6 +107555,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2j",
+   "help": "y8-6c-actual",
    "label": "2j",
    "section": "Fluency",
    "stem": "A drawing has a scale of $1 : 200$. Find the actual distance for each scaled distance, in the unit given.",
@@ -107413,6 +107566,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2k",
+   "help": "y8-6c-actual",
    "label": "2k",
    "section": "Fluency",
    "stem": "A drawing has a scale of $1 : 200$. Find the actual distance for each scaled distance, in the unit given.",
@@ -107423,6 +107577,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2l",
+   "help": "y8-6c-actual",
    "label": "2l",
    "section": "Fluency",
    "stem": "A drawing has a scale of $1 : 200$. Find the actual distance for each scaled distance, in the unit given.",
@@ -107433,6 +107588,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2m",
+   "help": "y8-6c-actual",
    "label": "2m",
    "section": "Fluency",
    "stem": "A drawing has a scale of $1 : 5$. Find the actual distance for each scaled distance, in the unit given.",
@@ -107443,6 +107599,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2n",
+   "help": "y8-6c-actual",
    "label": "2n",
    "section": "Fluency",
    "stem": "A drawing has a scale of $1 : 5$. Find the actual distance for each scaled distance, in the unit given.",
@@ -107453,6 +107610,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2o",
+   "help": "y8-6c-actual",
    "label": "2o",
    "section": "Fluency",
    "stem": "A drawing has a scale of $1 : 5$. Find the actual distance for each scaled distance, in the unit given.",
@@ -107463,6 +107621,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2p",
+   "help": "y8-6c-actual",
    "label": "2p",
    "section": "Fluency",
    "stem": "A drawing has a scale of $1 : 0.25$. Find the actual distance for each scaled distance, in the unit given.",
@@ -107473,6 +107632,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2q",
+   "help": "y8-6c-actual",
    "label": "2q",
    "section": "Fluency",
    "stem": "A drawing has a scale of $1 : 0.25$. Find the actual distance for each scaled distance, in the unit given.",
@@ -107483,6 +107643,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2r",
+   "help": "y8-6c-actual",
    "label": "2r",
    "section": "Fluency",
    "stem": "A drawing has a scale of $1 : 0.25$. Find the actual distance for each scaled distance, in the unit given.",
@@ -107493,6 +107654,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-6c-scaled",
    "label": "3a",
    "section": "Fluency",
    "stem": "A model car has a scale of $1 : 250$. Find the scaled distance for each of these actual distances.",
@@ -107503,6 +107665,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-6c-scaled",
    "label": "3b",
    "section": "Fluency",
    "stem": "A model car has a scale of $1 : 250$. Find the scaled distance for each of these actual distances.",
@@ -107513,6 +107676,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-6c-scaled",
    "label": "3c",
    "section": "Fluency",
    "stem": "A model car has a scale of $1 : 250$. Find the scaled distance for each of these actual distances.",
@@ -107523,6 +107687,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-6c-scaled",
    "label": "4a",
    "section": "Fluency",
    "stem": "A drawing has a scale of $1 : 250$. Find the scaled distance for each actual distance, in the unit given.",
@@ -107533,6 +107698,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-6c-scaled",
    "label": "4b",
    "section": "Fluency",
    "stem": "A drawing has a scale of $1 : 250$. Find the scaled distance for each actual distance, in the unit given.",
@@ -107543,6 +107709,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y8-6c-scaled",
    "label": "4c",
    "section": "Fluency",
    "stem": "A drawing has a scale of $1 : 250$. Find the scaled distance for each actual distance, in the unit given.",
@@ -107553,6 +107720,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y8-6c-scaled",
    "label": "4d",
    "section": "Fluency",
    "stem": "A drawing has a scale of $1 : 400$. Find the scaled distance for each actual distance, in the unit given.",
@@ -107563,6 +107731,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y8-6c-scaled",
    "label": "4e",
    "section": "Fluency",
    "stem": "A drawing has a scale of $1 : 400$. Find the scaled distance for each actual distance, in the unit given.",
@@ -107573,6 +107742,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y8-6c-scaled",
    "label": "4f",
    "section": "Fluency",
    "stem": "A drawing has a scale of $1 : 400$. Find the scaled distance for each actual distance, in the unit given.",
@@ -107583,6 +107753,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4g",
+   "help": "y8-6c-scaled",
    "label": "4g",
    "section": "Fluency",
    "stem": "A drawing has a scale of $1 : 20\\,000$. Find the scaled distance for each actual distance, in the unit given.",
@@ -107593,6 +107764,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4h",
+   "help": "y8-6c-scaled",
    "label": "4h",
    "section": "Fluency",
    "stem": "A drawing has a scale of $1 : 20\\,000$. Find the scaled distance for each actual distance, in the unit given.",
@@ -107603,6 +107775,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4i",
+   "help": "y8-6c-scaled",
    "label": "4i",
    "section": "Fluency",
    "stem": "A drawing has a scale of $1 : 20\\,000$. Find the scaled distance for each actual distance, in the unit given.",
@@ -107613,6 +107786,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4j",
+   "help": "y8-6c-scaled",
    "label": "4j",
    "section": "Fluency",
    "stem": "A drawing has a scale of $1 : 50\\,000$. Find the scaled distance for each actual distance, in the unit given.",
@@ -107623,6 +107797,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4k",
+   "help": "y8-6c-scaled",
    "label": "4k",
    "section": "Fluency",
    "stem": "A drawing has a scale of $1 : 50\\,000$. Find the scaled distance for each actual distance, in the unit given.",
@@ -107633,6 +107808,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4l",
+   "help": "y8-6c-scaled",
    "label": "4l",
    "section": "Fluency",
    "stem": "A drawing has a scale of $1 : 50\\,000$. Find the scaled distance for each actual distance, in the unit given.",
@@ -107643,6 +107819,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4m",
+   "help": "y8-6c-scaled",
    "label": "4m",
    "section": "Fluency",
    "stem": "A drawing has a scale of $1 : 200\\,000$. Find the scaled distance for each actual distance, in the unit given.",
@@ -107653,6 +107830,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4n",
+   "help": "y8-6c-scaled",
    "label": "4n",
    "section": "Fluency",
    "stem": "A drawing has a scale of $1 : 200\\,000$. Find the scaled distance for each actual distance, in the unit given.",
@@ -107663,6 +107841,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4o",
+   "help": "y8-6c-scaled",
    "label": "4o",
    "section": "Fluency",
    "stem": "A drawing has a scale of $1 : 200\\,000$. Find the scaled distance for each actual distance, in the unit given.",
@@ -107673,6 +107852,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4p",
+   "help": "y8-6c-scaled",
    "label": "4p",
    "section": "Fluency",
    "stem": "A drawing has a scale of $1 : 0.2$. Find the scaled distance for each actual distance, in the unit given.",
@@ -107683,6 +107863,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4q",
+   "help": "y8-6c-scaled",
    "label": "4q",
    "section": "Fluency",
    "stem": "A drawing has a scale of $1 : 0.2$. Find the scaled distance for each actual distance, in the unit given.",
@@ -107693,6 +107874,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4r",
+   "help": "y8-6c-scaled",
    "label": "4r",
    "section": "Fluency",
    "stem": "A drawing has a scale of $1 : 0.2$. Find the scaled distance for each actual distance, in the unit given.",
@@ -107703,6 +107885,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y8-6c-factor",
    "label": "5a",
    "section": "Fluency",
    "stem": "Find the scale factor for each of the following.",
@@ -107712,6 +107895,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y8-6c-factor",
    "label": "5b",
    "section": "Fluency",
    "stem": "Find the scale factor for each of the following.",
@@ -107721,6 +107905,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y8-6c-factor",
    "label": "5c",
    "section": "Fluency",
    "stem": "Find the scale factor for each of the following.",
@@ -107730,6 +107915,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y8-6c-factor",
    "label": "5d",
    "section": "Fluency",
    "stem": "Find the scale factor for each of the following.",
@@ -107739,6 +107925,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y8-6c-factor",
    "label": "5e",
    "section": "Fluency",
    "stem": "Find the scale factor for each of the following.",
@@ -107749,6 +107936,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y8-6c-factor",
    "label": "5f",
    "section": "Fluency",
    "stem": "Find the scale factor for each of the following.",
@@ -107758,6 +107946,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y8-6c-actual",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "A model of a city centre has a scale of $1 : 500$.",
@@ -107768,6 +107957,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y8-6c-actual",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "A model of a city centre has a scale of $1 : 500$.",
@@ -107778,6 +107968,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7",
+   "help": "y8-6c-actual",
    "label": "7",
    "section": "Problem-solving",
    "prompt": "Ridgeway and Pebble Creek are $23$ cm apart on a map with a scale of $1 : 40\\,000$. How far apart are the two towns in real life, in kilometres?",
@@ -107787,6 +107978,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y8-6c-actual",
    "label": "8a",
    "section": "Problem-solving",
    "stem": "A house plan is drawn with a scale of $1 : 200$. Use the measurements on the plan to find the actual length and width of each room, in metres.",
@@ -107855,6 +108047,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y8-6c-actual",
    "label": "8b",
    "section": "Problem-solving",
    "stem": "A house plan is drawn with a scale of $1 : 200$. Use the measurements on the plan to find the actual length and width of each room, in metres.",
@@ -107922,6 +108115,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y8-6c-actual",
    "label": "8c",
    "section": "Problem-solving",
    "stem": "A house plan is drawn with a scale of $1 : 200$. Use the measurements on the plan to find the actual length and width of each room, in metres.",
@@ -107989,6 +108183,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9",
+   "help": "y8-6c-actual",
    "label": "9",
    "section": "Problem-solving",
    "prompt": "This scale drawing of a truck has a scale of $1 : 80$. Find the actual length and height of the truck, each to the nearest metre. Type the length first.",
@@ -108122,6 +108317,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y8-6c-factor",
    "label": "10a",
    "section": "Problem-solving",
    "stem": "In a photo, Mei is walking her dog. Mei is $4.5$ cm tall in the photo and $1.8$ m tall in real life. The dog is $1.6$ cm tall in the photo.",
@@ -108306,6 +108502,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y8-6c-factor",
    "label": "10b",
    "section": "Problem-solving",
    "stem": "In a photo, Mei is walking her dog. Mei is $4.5$ cm tall in the photo and $1.8$ m tall in real life. The dog is $1.6$ cm tall in the photo.",
@@ -108316,6 +108513,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y8-6c-factor",
    "label": "11a",
    "section": "Problem-solving",
    "stem": "On a map, a length of $3\\frac{1}{2}$ cm stands for an actual distance of $42$ km.",
@@ -108326,6 +108524,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y8-6c-factor",
    "label": "11b",
    "section": "Problem-solving",
    "stem": "On a map, a length of $3\\frac{1}{2}$ cm stands for an actual distance of $42$ km.",
@@ -108336,6 +108535,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y8-6c-factor",
    "label": "11c",
    "section": "Problem-solving",
    "stem": "On a map, a length of $3\\frac{1}{2}$ cm stands for an actual distance of $42$ km.",
@@ -108346,6 +108546,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y8-6c-choose",
    "label": "12a",
    "section": "Reasoning",
    "stem": "Here are six ratios: $1 : 0.02$, $1 : 0.25$, $40 : 1$, $80 : 2$, $50 : 1$, $4 : 1$. They make three pairs of equivalent ratios.",
@@ -108362,6 +108563,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y8-6c-choose",
    "label": "12b",
    "section": "Reasoning",
    "stem": "Here are six ratios: $1 : 0.02$, $1 : 0.25$, $40 : 1$, $80 : 2$, $50 : 1$, $4 : 1$. They make three pairs of equivalent ratios.",
@@ -108378,6 +108580,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y8-6c-choose",
    "label": "12c",
    "section": "Reasoning",
    "stem": "Here are six ratios: $1 : 0.02$, $1 : 0.25$, $40 : 1$, $80 : 2$, $50 : 1$, $4 : 1$. They make three pairs of equivalent ratios.",
@@ -108394,6 +108597,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y8-6c-choose",
    "label": "13a",
    "section": "Reasoning",
    "stem": "You want each scale model or drawing to be a handy size, roughly 20 to 30 cm across. Which scale would be most appropriate for:",
@@ -108409,6 +108613,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y8-6c-choose",
    "label": "13b",
    "section": "Reasoning",
    "stem": "You want each scale model or drawing to be a handy size, roughly 20 to 30 cm across. Which scale would be most appropriate for:",
@@ -108424,6 +108629,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13c",
+   "help": "y8-6c-choose",
    "label": "13c",
    "section": "Reasoning",
    "stem": "You want each scale model or drawing to be a handy size, roughly 20 to 30 cm across. Which scale would be most appropriate for:",
@@ -108439,6 +108645,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14",
+   "help": "y8-6c-scaled",
    "label": "14",
    "section": "Reasoning",
    "prompt": "A map maker wants to draw a map of a square region of land with sides of $6$ km. She decides to use a scale of $1 : 1000$. How long would each side of her map be, in metres?",
@@ -108448,6 +108655,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15",
+   "help": "y8-6c-choose",
    "label": "15",
    "section": "Reasoning",
    "prompt": "Through a magnifying glass, a $2$ mm long ant looks $2$ m long. Which scale ratio (drawing length : actual length) describes the image correctly?",
@@ -108471,6 +108679,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-6d-simplify",
    "label": "1a",
    "section": "Fluency",
    "stem": "Write each of the following as a simplified rate.",
@@ -108482,6 +108691,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-6d-simplify",
    "label": "1b",
    "section": "Fluency",
    "stem": "Write each of the following as a simplified rate.",
@@ -108492,6 +108702,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y8-6d-simplify",
    "label": "1c",
    "section": "Fluency",
    "stem": "Write each of the following as a simplified rate.",
@@ -108502,6 +108713,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y8-6d-simplify",
    "label": "1d",
    "section": "Fluency",
    "stem": "Write each of the following as a simplified rate.",
@@ -108512,6 +108724,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-6d-simplify",
    "label": "2a",
    "section": "Fluency",
    "stem": "Write each of the following as a simplified rate.",
@@ -108522,6 +108735,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-6d-simplify",
    "label": "2b",
    "section": "Fluency",
    "stem": "Write each of the following as a simplified rate.",
@@ -108532,6 +108746,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-6d-simplify",
    "label": "2c",
    "section": "Fluency",
    "stem": "Write each of the following as a simplified rate.",
@@ -108542,6 +108757,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y8-6d-simplify",
    "label": "2d",
    "section": "Fluency",
    "stem": "Write each of the following as a simplified rate.",
@@ -108552,6 +108768,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y8-6d-simplify",
    "label": "2e",
    "section": "Fluency",
    "stem": "Write each of the following as a simplified rate.",
@@ -108562,6 +108779,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y8-6d-simplify",
    "label": "2f",
    "section": "Fluency",
    "stem": "Write each of the following as a simplified rate.",
@@ -108572,6 +108790,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y8-6d-simplify",
    "label": "2g",
    "section": "Fluency",
    "stem": "Write each of the following as a simplified rate.",
@@ -108582,6 +108801,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y8-6d-simplify",
    "label": "2h",
    "section": "Fluency",
    "stem": "Write each of the following as a simplified rate.",
@@ -108592,6 +108812,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2i",
+   "help": "y8-6d-simplify",
    "label": "2i",
    "section": "Fluency",
    "stem": "Write each of the following as a simplified rate.",
@@ -108602,6 +108823,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2j",
+   "help": "y8-6d-simplify",
    "label": "2j",
    "section": "Fluency",
    "stem": "Write each of the following as a simplified rate.",
@@ -108612,6 +108834,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-6d-average",
    "label": "3a",
    "section": "Fluency",
    "stem": "Find the average rate of change for each situation.",
@@ -108622,6 +108845,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-6d-average",
    "label": "3b",
    "section": "Fluency",
    "stem": "Find the average rate of change for each situation.",
@@ -108632,6 +108856,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-6d-average",
    "label": "3c",
    "section": "Fluency",
    "stem": "Find the average rate of change for each situation.",
@@ -108642,6 +108867,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y8-6d-average",
    "label": "3d",
    "section": "Fluency",
    "stem": "Find the average rate of change for each situation.",
@@ -108652,6 +108878,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y8-6d-average",
    "label": "3e",
    "section": "Fluency",
    "stem": "Find the average rate of change for each situation.",
@@ -108662,6 +108889,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y8-6d-average",
    "label": "3f",
    "section": "Fluency",
    "stem": "Find the average rate of change for each situation.",
@@ -108672,6 +108900,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-6d-average",
    "label": "4a",
    "section": "Problem-solving",
    "stem": "A leaking tap filled an $8$ litre bucket in $5$ hours.",
@@ -108682,6 +108911,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-6d-average",
    "label": "4b",
    "section": "Problem-solving",
    "stem": "A leaking tap filled an $8$ litre bucket in $5$ hours.",
@@ -108692,6 +108922,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5",
+   "help": "y8-6d-average",
    "label": "5",
    "section": "Problem-solving",
    "prompt": "Leah grew at an average rate of $7$ cm/year for the first $16$ years of her life. If Leah was $52$ cm long when she was born, how tall was she when she turned $16$?",
@@ -108701,6 +108932,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y8-6d-simplify",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "For a class picnic, $45$ sandwiches were bought to feed $30$ people. The total cost was $\\$135$. Find these rates.",
@@ -108711,6 +108943,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y8-6d-simplify",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "For a class picnic, $45$ sandwiches were bought to feed $30$ people. The total cost was $\\$135$. Find these rates.",
@@ -108721,6 +108954,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y8-6d-simplify",
    "label": "6c",
    "section": "Problem-solving",
    "stem": "For a class picnic, $45$ sandwiches were bought to feed $30$ people. The total cost was $\\$135$. Find these rates.",
@@ -108731,6 +108965,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y8-6d-average",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "The number of hours of sunshine was recorded each day for one week in June: Monday 8 hours, Tuesday 6 hours, Wednesday 9 hours, Thursday 4 hours, Friday 7 hours, Saturday 10 hours, Sunday 5 hours.",
@@ -108741,6 +108976,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y8-6d-average",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "The number of hours of sunshine was recorded each day for one week in June: Monday 8 hours, Tuesday 6 hours, Wednesday 9 hours, Thursday 4 hours, Friday 7 hours, Saturday 10 hours, Sunday 5 hours.",
@@ -108751,6 +108987,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y8-6d-average",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "The number of hours of sunshine was recorded each day for one week in June: Monday 8 hours, Tuesday 6 hours, Wednesday 9 hours, Thursday 4 hours, Friday 7 hours, Saturday 10 hours, Sunday 5 hours.",
@@ -108761,6 +108998,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y8-6d-average",
    "label": "7d",
    "section": "Problem-solving",
    "stem": "The number of hours of sunshine was recorded each day for one week in June: Monday 8 hours, Tuesday 6 hours, Wednesday 9 hours, Thursday 4 hours, Friday 7 hours, Saturday 10 hours, Sunday 5 hours.",
@@ -108771,6 +109009,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7e",
+   "help": "y8-6d-average",
    "label": "7e",
    "section": "Problem-solving",
    "stem": "The number of hours of sunshine was recorded each day for one week in June: Monday 8 hours, Tuesday 6 hours, Wednesday 9 hours, Thursday 4 hours, Friday 7 hours, Saturday 10 hours, Sunday 5 hours.",
@@ -108781,6 +109020,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y8-6d-compare",
    "label": "8a",
    "section": "Problem-solving",
    "stem": "Mia finished a $6$ kilometre run in $31$ minutes and $30$ seconds. Tom finished a $9$ kilometre run in $45$ minutes and $54$ seconds.",
@@ -108791,6 +109031,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y8-6d-compare",
    "label": "8b",
    "section": "Problem-solving",
    "stem": "Mia finished a $6$ kilometre run in $31$ minutes and $30$ seconds. Tom finished a $9$ kilometre run in $45$ minutes and $54$ seconds.",
@@ -108801,6 +109042,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y8-6d-compare",
    "label": "8c",
    "section": "Problem-solving",
    "stem": "Mia finished a $6$ kilometre run in $31$ minutes and $30$ seconds. Tom finished a $9$ kilometre run in $45$ minutes and $54$ seconds.",
@@ -108814,6 +109056,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y8-6d-average",
    "label": "9a",
    "section": "Problem-solving",
    "stem": "The Riverside Netball Club had $15\\,000$ members. After four successful years it now has $21\\,000$ members.",
@@ -108824,6 +109067,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y8-6d-average",
    "label": "9b",
    "section": "Problem-solving",
    "stem": "The Riverside Netball Club had $15\\,000$ members. After four successful years it now has $21\\,000$ members.",
@@ -108834,6 +109078,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y8-6d-simplify",
    "label": "10a",
    "section": "Reasoning",
    "stem": "A car uses $32$ L of petrol to travel $400$ km.",
@@ -108844,6 +109089,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y8-6d-simplify",
    "label": "10b",
    "section": "Reasoning",
    "stem": "A car uses $32$ L of petrol to travel $400$ km.",
@@ -108854,6 +109100,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y8-6d-simplify",
    "label": "10c",
    "section": "Reasoning",
    "stem": "A car uses $32$ L of petrol to travel $400$ km.",
@@ -108869,6 +109116,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11",
+   "help": "y8-6d-compare",
    "label": "11",
    "section": "Reasoning",
    "prompt": "Ava runs at a rate of $4.5$ minutes per kilometre and Ned runs at $5$ minutes per kilometre. Who will win a race between them?",
@@ -108881,6 +109129,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y8-6d-tiers",
    "label": "12a",
    "section": "Reasoning",
    "stem": "SkyTalk charges for phone calls of up to $30$ minutes like this: $40$c/min for the first $10$ minutes, $75$c/min for the second $10$ minutes and $\\$1.10$/min for the third $10$ minutes. ChatWave, another company, charges a constant $55$c/min.",
@@ -108892,6 +109141,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y8-6d-tiers",
    "label": "12b",
    "section": "Reasoning",
    "stem": "SkyTalk charges for phone calls of up to $30$ minutes like this: $40$c/min for the first $10$ minutes, $75$c/min for the second $10$ minutes and $\\$1.10$/min for the third $10$ minutes. ChatWave, another company, charges a constant $55$c/min.",
@@ -108902,6 +109152,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y8-6d-tiers",
    "label": "12c",
    "section": "Reasoning",
    "stem": "SkyTalk charges for phone calls of up to $30$ minutes like this: $40$c/min for the first $10$ minutes, $75$c/min for the second $10$ minutes and $\\$1.10$/min for the third $10$ minutes. ChatWave, another company, charges a constant $55$c/min.",
@@ -108912,6 +109163,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12d",
+   "help": "y8-6d-tiers",
    "label": "12d",
    "section": "Reasoning",
    "stem": "SkyTalk charges for phone calls of up to $30$ minutes like this: $40$c/min for the first $10$ minutes, $75$c/min for the second $10$ minutes and $\\$1.10$/min for the third $10$ minutes. ChatWave, another company, charges a constant $55$c/min.",
@@ -108922,6 +109174,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12e",
+   "help": "y8-6d-tiers",
    "label": "12e",
    "section": "Reasoning",
    "stem": "SkyTalk charges for phone calls of up to $30$ minutes like this: $40$c/min for the first $10$ minutes, $75$c/min for the second $10$ minutes and $\\$1.10$/min for the third $10$ minutes. ChatWave, another company, charges a constant $55$c/min.",
@@ -108932,6 +109185,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12f",
+   "help": "y8-6d-tiers",
    "label": "12f",
    "section": "Reasoning",
    "stem": "SkyTalk charges for phone calls of up to $30$ minutes like this: $40$c/min for the first $10$ minutes, $75$c/min for the second $10$ minutes and $\\$1.10$/min for the third $10$ minutes. ChatWave, another company, charges a constant $55$c/min.",
@@ -108945,6 +109199,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12g",
+   "help": "y8-6d-tiers",
    "label": "12g",
    "section": "Reasoning",
    "stem": "SkyTalk charges for phone calls of up to $30$ minutes like this: $40$c/min for the first $10$ minutes, $75$c/min for the second $10$ minutes and $\\$1.10$/min for the third $10$ minutes. ChatWave, another company, charges a constant $55$c/min.",
@@ -108958,6 +109213,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12h",
+   "help": "y8-6d-tiers",
    "label": "12h",
    "section": "Reasoning",
    "stem": "SkyTalk charges for phone calls of up to $30$ minutes like this: $40$c/min for the first $10$ minutes, $75$c/min for the second $10$ minutes and $\\$1.10$/min for the third $10$ minutes. ChatWave, another company, charges a constant $55$c/min.",
@@ -108968,6 +109224,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y8-6d-average",
    "label": "13a",
    "section": "Enrichment",
    "prompt": "A water authority asks everyone to use no more than $150$ litres of water per person per day. How many litres per day may a household of $5$ people use?",
@@ -108977,6 +109234,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y8-6d-average",
    "label": "13b",
    "section": "Enrichment",
    "prompt": "Before a water saving campaign, people in a town of $20\\,000$ used an average of $170$ litres per person per day. A year later they used $158$ litres per person per day. How many litres of water does this save the whole town in one year (365 days)?",
@@ -108995,6 +109253,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-6e-use",
    "label": "1a",
    "section": "Fluency",
    "stem": "Priya can type $45$ words/minute.",
@@ -109005,6 +109264,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-6e-use",
    "label": "1b",
    "section": "Fluency",
    "stem": "Priya can type $45$ words/minute.",
@@ -109015,6 +109275,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-6e-use",
    "label": "2a",
    "section": "Fluency",
    "stem": "A bakery machine makes $35$ bread rolls per minute.",
@@ -109025,6 +109286,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-6e-use",
    "label": "2b",
    "section": "Fluency",
    "stem": "A bakery machine makes $35$ bread rolls per minute.",
@@ -109035,6 +109297,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3",
+   "help": "y8-6e-use",
    "label": "3",
    "section": "Fluency",
    "type": "numeric",
@@ -109044,6 +109307,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4",
+   "help": "y8-6e-use",
    "label": "4",
    "section": "Fluency",
    "type": "numeric",
@@ -109053,6 +109317,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5",
+   "help": "y8-6e-use",
    "label": "5",
    "section": "Fluency",
    "type": "numeric",
@@ -109062,6 +109327,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y8-6e-use",
    "label": "6a",
    "section": "Fluency",
    "stem": "A ceiling fan spins at a rate of $1200$ revolutions per minute.",
@@ -109072,6 +109338,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y8-6e-use",
    "label": "6b",
    "section": "Fluency",
    "stem": "A ceiling fan spins at a rate of $1200$ revolutions per minute.",
@@ -109082,6 +109349,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y8-6e-use",
    "label": "6c",
    "section": "Fluency",
    "stem": "A ceiling fan spins at a rate of $1200$ revolutions per minute.",
@@ -109092,6 +109360,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y8-6e-use",
    "label": "6d",
    "section": "Fluency",
    "stem": "A ceiling fan spins at a rate of $1200$ revolutions per minute.",
@@ -109102,6 +109371,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y8-6e-use",
    "label": "7a",
    "section": "Fluency",
    "stem": "Kira is an elite swimmer. When training, her steady working heart rate is $140$ beats per minute (bpm). Her resting heart rate is $52$ bpm.",
@@ -109112,6 +109382,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y8-6e-use",
    "label": "7b",
    "section": "Fluency",
    "stem": "Kira is an elite swimmer. When training, her steady working heart rate is $140$ beats per minute (bpm). Her resting heart rate is $52$ bpm.",
@@ -109122,6 +109393,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y8-6e-use",
    "label": "7c",
    "section": "Fluency",
    "stem": "Kira is an elite swimmer. When training, her steady working heart rate is $140$ beats per minute (bpm). Her resting heart rate is $52$ bpm.",
@@ -109132,6 +109404,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8",
+   "help": "y8-6e-measure",
    "label": "8",
    "section": "Problem-solving",
    "type": "numeric",
@@ -109141,6 +109414,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9",
+   "help": "y8-6e-measure",
    "label": "9",
    "section": "Problem-solving",
    "type": "numeric",
@@ -109150,6 +109424,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y8-6e-race",
    "label": "10a",
    "section": "Problem-solving",
    "stem": "Two remote-control cars, Zip and Bolt, have a $3$ km race. Zip gives Bolt a $15$ second head start. Zip travels at $5$ km/min and Bolt travels at $4$ km/min.",
@@ -109163,6 +109438,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y8-6e-race",
    "label": "10b",
    "section": "Problem-solving",
    "stem": "Two remote-control cars, Zip and Bolt, have a $3$ km race. Zip gives Bolt a $15$ second head start. Zip travels at $5$ km/min and Bolt travels at $4$ km/min.",
@@ -109173,6 +109449,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y8-6e-inverse",
    "label": "11a",
    "section": "Problem-solving",
    "stem": "At a school camp there is enough food for $120$ students for $6$ days.",
@@ -109183,6 +109460,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y8-6e-inverse",
    "label": "11b",
    "section": "Problem-solving",
    "stem": "At a school camp there is enough food for $120$ students for $6$ days.",
@@ -109193,6 +109471,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12",
+   "help": "y8-6e-together",
    "label": "12",
    "section": "Reasoning",
    "type": "numeric",
@@ -109202,6 +109481,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y8-6e-together",
    "label": "13a",
    "section": "Reasoning",
    "stem": "Three gardeners, Ruby, Sam and Theo, are landscaping a backyard. Working alone, Ruby would take $9$ days, Sam would take $12$ days and Theo would take $18$ days.",
@@ -109212,6 +109492,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y8-6e-together",
    "label": "13b",
    "section": "Reasoning",
    "stem": "Three gardeners, Ruby, Sam and Theo, are landscaping a backyard. Working alone, Ruby would take $9$ days, Sam would take $12$ days and Theo would take $18$ days.",
@@ -109224,6 +109505,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13c",
+   "help": "y8-6e-together",
    "label": "13c",
    "section": "Reasoning",
    "stem": "Three gardeners, Ruby, Sam and Theo, are landscaping a backyard. Working alone, Ruby would take $9$ days, Sam would take $12$ days and Theo would take $18$ days.",
@@ -109235,6 +109517,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13d",
+   "help": "y8-6e-together",
    "label": "13d",
    "section": "Reasoning",
    "stem": "Three gardeners, Ruby, Sam and Theo, are landscaping a backyard. Working alone, Ruby would take $9$ days, Sam would take $12$ days and Theo would take $18$ days.",
@@ -109246,6 +109529,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y8-6e-inverse",
    "label": "14a",
    "section": "Reasoning",
    "stem": "Six scoops of feed will feed $4$ horses for $1$ day.",
@@ -109256,6 +109540,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y8-6e-inverse",
    "label": "14b",
    "section": "Reasoning",
    "stem": "Six scoops of feed will feed $4$ horses for $1$ day.",
@@ -109266,6 +109551,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14c",
+   "help": "y8-6e-inverse",
    "label": "14c",
    "section": "Reasoning",
    "stem": "Six scoops of feed will feed $4$ horses for $1$ day.",
@@ -109276,6 +109562,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15",
+   "help": "y8-6e-inverse",
    "label": "15",
    "section": "Reasoning",
    "type": "numeric",
@@ -109285,6 +109572,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16a",
+   "help": "y8-6e-value",
    "label": "16a",
    "section": "Enrichment",
    "stem": "A brand of fruit juice is sold in four different sizes, priced as shown.",
@@ -109320,6 +109608,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16b",
+   "help": "y8-6e-value",
    "label": "16b",
    "section": "Enrichment",
    "stem": "A brand of fruit juice is sold in four different sizes, priced as shown.",
@@ -109330,6 +109619,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16c",
+   "help": "y8-6e-value",
    "label": "16c",
    "section": "Enrichment",
    "stem": "A brand of fruit juice is sold in four different sizes, priced as shown.",
@@ -109340,6 +109630,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16d",
+   "help": "y8-6e-value",
    "label": "16d",
    "section": "Enrichment",
    "stem": "A brand of fruit juice is sold in four different sizes, priced as shown.",
@@ -109350,6 +109641,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16e",
+   "help": "y8-6e-value",
    "label": "16e",
    "section": "Enrichment",
    "stem": "A brand of fruit juice is sold in four different sizes, priced as shown.",
@@ -109360,6 +109652,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16f",
+   "help": "y8-6e-value",
    "label": "16f",
    "section": "Enrichment",
    "stem": "A brand of fruit juice is sold in four different sizes, priced as shown.",
@@ -109370,6 +109663,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16g",
+   "help": "y8-6e-value",
    "label": "16g",
    "section": "Enrichment",
    "stem": "A brand of fruit juice is sold in four different sizes, priced as shown.",
@@ -109380,6 +109674,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16h",
+   "help": "y8-6e-value",
    "label": "16h",
    "section": "Enrichment",
    "stem": "A brand of fruit juice is sold in four different sizes, priced as shown.",
@@ -109390,6 +109685,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16i",
+   "help": "y8-6e-value",
    "label": "16i",
    "section": "Enrichment",
    "stem": "A brand of fruit juice is sold in four different sizes, priced as shown.",
@@ -109409,6 +109705,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-6f-speed",
    "label": "1a",
    "section": "Fluency",
    "stem": "Find the average speed in km/h of:",
@@ -109419,6 +109716,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-6f-speed",
    "label": "1b",
    "section": "Fluency",
    "stem": "Find the average speed in km/h of:",
@@ -109429,6 +109727,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y8-6f-speed",
    "label": "1c",
    "section": "Fluency",
    "stem": "Find the average speed in km/h of:",
@@ -109439,6 +109738,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y8-6f-speed",
    "label": "1d",
    "section": "Fluency",
    "stem": "Find the average speed in km/h of:",
@@ -109449,6 +109749,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-6f-speed",
    "label": "2a",
    "section": "Fluency",
    "stem": "Calculate the average speed of:",
@@ -109459,6 +109760,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-6f-speed",
    "label": "2b",
    "section": "Fluency",
    "stem": "Calculate the average speed of:",
@@ -109469,6 +109771,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-6f-speed",
    "label": "2c",
    "section": "Fluency",
    "stem": "Calculate the average speed of:",
@@ -109479,6 +109782,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y8-6f-speed",
    "label": "2d",
    "section": "Fluency",
    "stem": "Calculate the average speed of:",
@@ -109489,6 +109793,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-6f-dt",
    "label": "3a",
    "section": "Fluency",
    "stem": "Calculate the distance travelled by:",
@@ -109499,6 +109804,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-6f-dt",
    "label": "3b",
    "section": "Fluency",
    "stem": "Calculate the distance travelled by:",
@@ -109509,6 +109815,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-6f-dt",
    "label": "3c",
    "section": "Fluency",
    "stem": "Calculate the distance travelled by:",
@@ -109519,6 +109826,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y8-6f-dt",
    "label": "3d",
    "section": "Fluency",
    "stem": "Calculate the distance travelled by:",
@@ -109529,6 +109837,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-6f-dt",
    "label": "4a",
    "section": "Fluency",
    "stem": "Calculate the time taken by:",
@@ -109539,6 +109848,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-6f-dt",
    "label": "4b",
    "section": "Fluency",
    "stem": "Calculate the time taken by:",
@@ -109549,6 +109859,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y8-6f-dt",
    "label": "4c",
    "section": "Fluency",
    "stem": "Calculate the time taken by:",
@@ -109559,6 +109870,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y8-6f-dt",
    "label": "4d",
    "section": "Fluency",
    "stem": "Calculate the time taken by:",
@@ -109569,6 +109881,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y8-6f-dt",
    "label": "5a",
    "section": "Fluency",
    "stem": "Complete the table. Each row is one journey.",
@@ -109626,6 +109939,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y8-6f-dt",
    "label": "5b",
    "section": "Fluency",
    "stem": "Complete the table. Each row is one journey.",
@@ -109636,6 +109950,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y8-6f-dt",
    "label": "5c",
    "section": "Fluency",
    "stem": "Complete the table. Each row is one journey.",
@@ -109646,6 +109961,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y8-6f-dt",
    "label": "5d",
    "section": "Fluency",
    "stem": "Complete the table. Each row is one journey.",
@@ -109656,6 +109972,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y8-6f-dt",
    "label": "5e",
    "section": "Fluency",
    "stem": "Complete the table. Each row is one journey.",
@@ -109666,6 +109983,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y8-6f-dt",
    "label": "5f",
    "section": "Fluency",
    "stem": "Complete the table. Each row is one journey.",
@@ -109676,6 +109994,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6",
+   "help": "y8-6f-clock",
    "label": "6",
    "section": "Problem-solving",
    "type": "numeric",
@@ -109685,6 +110004,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y8-6f-convert",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "The wheels on Isla's bike have a circumference of $2.2$ m. When Isla is riding her fastest, the wheels turn $5$ times per second.",
@@ -109695,6 +110015,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y8-6f-convert",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "The wheels on Isla's bike have a circumference of $2.2$ m. When Isla is riding her fastest, the wheels turn $5$ times per second.",
@@ -109705,6 +110026,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8",
+   "help": "y8-6f-puzzles",
    "label": "8",
    "section": "Problem-solving",
    "type": "numeric",
@@ -109714,6 +110036,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9",
+   "help": "y8-6f-whole",
    "label": "9",
    "section": "Problem-solving",
    "type": "numeric",
@@ -109723,6 +110046,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y8-6f-clock",
    "label": "10a",
    "section": "Problem-solving",
    "stem": "A tourist train travels $3456$ km across the country from one capital city to another. Round your answers correct to one decimal place.",
@@ -109734,6 +110058,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y8-6f-clock",
    "label": "10b",
    "section": "Problem-solving",
    "stem": "A tourist train travels $3456$ km across the country from one capital city to another. Round your answers correct to one decimal place.",
@@ -109745,6 +110070,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11",
+   "help": "y8-6f-puzzles",
    "label": "11",
    "section": "Reasoning",
    "type": "numeric",
@@ -109754,6 +110080,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12",
+   "help": "y8-6f-clock",
    "label": "12",
    "section": "Reasoning",
    "type": "text",
@@ -109776,6 +110103,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y8-6f-whole",
    "label": "13a",
    "section": "Reasoning",
    "stem": "A person runs at $2$ m/s for $40$ metres and then at $4$ m/s for another $40$ metres.",
@@ -109786,6 +110114,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y8-6f-whole",
    "label": "13b",
    "section": "Reasoning",
    "stem": "A person runs at $2$ m/s for $40$ metres and then at $4$ m/s for another $40$ metres.",
@@ -109800,6 +110129,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y8-6f-convert",
    "label": "14a",
    "section": "Enrichment",
    "stem": "Use these facts: sound travels at about $340$ m/s, light travels at about $300\\,000$ km/s, and $1$ knot is $1.852$ km/h.",
@@ -109810,6 +110140,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y8-6f-convert",
    "label": "14b",
    "section": "Enrichment",
    "stem": "Use these facts: sound travels at about $340$ m/s, light travels at about $300\\,000$ km/s, and $1$ knot is $1.852$ km/h.",
@@ -109820,6 +110151,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14c",
+   "help": "y8-6f-convert",
    "label": "14c",
    "section": "Enrichment",
    "stem": "Use these facts: sound travels at about $340$ m/s, light travels at about $300\\,000$ km/s, and $1$ knot is $1.852$ km/h.",
@@ -109830,6 +110162,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14d",
+   "help": "y8-6f-convert",
    "label": "14d",
    "section": "Enrichment",
    "stem": "Use these facts: sound travels at about $340$ m/s, light travels at about $300\\,000$ km/s, and $1$ knot is $1.852$ km/h.",
@@ -109840,6 +110173,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14e",
+   "help": "y8-6f-convert",
    "label": "14e",
    "section": "Enrichment",
    "stem": "Use these facts: sound travels at about $340$ m/s, light travels at about $300\\,000$ km/s, and $1$ knot is $1.852$ km/h.",
@@ -109859,6 +110193,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1",
+   "help": "y8-6g-unitary",
    "label": "1",
    "section": "Fluency",
    "type": "numeric",
@@ -109868,6 +110203,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-6g-unitary",
    "label": "2a",
    "section": "Fluency",
    "stem": "Solve these problems.",
@@ -109878,6 +110214,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-6g-unitary",
    "label": "2b",
    "section": "Fluency",
    "stem": "Solve these problems.",
@@ -109888,6 +110225,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-6g-unitary",
    "label": "2c",
    "section": "Fluency",
    "stem": "Solve these problems.",
@@ -109898,6 +110236,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y8-6g-unitary",
    "label": "2d",
    "section": "Fluency",
    "stem": "Solve these problems.",
@@ -109908,6 +110247,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-6g-ratio",
    "label": "3a",
    "section": "Fluency",
    "stem": "Solve these ratio problems.",
@@ -109918,6 +110258,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-6g-ratio",
    "label": "3b",
    "section": "Fluency",
    "stem": "Solve these ratio problems.",
@@ -109928,6 +110269,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-6g-ratio",
    "label": "3c",
    "section": "Fluency",
    "stem": "Solve these ratio problems.",
@@ -109938,6 +110280,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y8-6g-ratio",
    "label": "3d",
    "section": "Fluency",
    "stem": "Solve these ratio problems.",
@@ -109948,6 +110291,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-6g-unitary",
    "label": "4a",
    "section": "Fluency",
    "stem": "Solve these rate problems.",
@@ -109958,6 +110302,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-6g-unitary",
    "label": "4b",
    "section": "Fluency",
    "stem": "Solve these rate problems.",
@@ -109968,6 +110313,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y8-6g-unitary",
    "label": "4c",
    "section": "Fluency",
    "stem": "Solve these rate problems.",
@@ -109978,6 +110324,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y8-6g-unitary",
    "label": "4d",
    "section": "Fluency",
    "stem": "Solve these rate problems.",
@@ -109988,6 +110335,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y8-6g-ratio",
    "label": "5a",
    "section": "Fluency",
    "stem": "Ava, Bella and Cam share a prize in the ratio $5 : 4 : 3$. Bella receives $\\$600$.",
@@ -109998,6 +110346,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y8-6g-ratio",
    "label": "5b",
    "section": "Fluency",
    "stem": "Ava, Bella and Cam share a prize in the ratio $5 : 4 : 3$. Bella receives $\\$600$.",
@@ -110008,6 +110357,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y8-6g-ratio",
    "label": "5c",
    "section": "Fluency",
    "stem": "Ava, Bella and Cam share a prize in the ratio $5 : 4 : 3$. Bella receives $\\$600$.",
@@ -110018,6 +110368,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y8-6g-convert",
    "label": "6a",
    "section": "Fluency",
    "stem": "Convert these rates into the units given in brackets.",
@@ -110028,6 +110379,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y8-6g-convert",
    "label": "6b",
    "section": "Fluency",
    "stem": "Convert these rates into the units given in brackets.",
@@ -110038,6 +110390,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y8-6g-convert",
    "label": "6c",
    "section": "Fluency",
    "stem": "Convert these rates into the units given in brackets.",
@@ -110048,6 +110401,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y8-6g-convert",
    "label": "6d",
    "section": "Fluency",
    "stem": "Convert these rates into the units given in brackets.",
@@ -110058,6 +110412,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6e",
+   "help": "y8-6g-convert",
    "label": "6e",
    "section": "Fluency",
    "stem": "Convert these rates into the units given in brackets.",
@@ -110068,6 +110423,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6f",
+   "help": "y8-6g-convert",
    "label": "6f",
    "section": "Fluency",
    "stem": "Convert these rates into the units given in brackets.",
@@ -110078,6 +110434,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6g",
+   "help": "y8-6g-convert",
    "label": "6g",
    "section": "Fluency",
    "stem": "Convert these rates into the units given in brackets.",
@@ -110088,6 +110445,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6h",
+   "help": "y8-6g-convert",
    "label": "6h",
    "section": "Fluency",
    "stem": "Convert these rates into the units given in brackets.",
@@ -110098,6 +110456,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6i",
+   "help": "y8-6g-convert",
    "label": "6i",
    "section": "Fluency",
    "stem": "Convert these rates into the units given in brackets.",
@@ -110108,6 +110467,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6j",
+   "help": "y8-6g-convert",
    "label": "6j",
    "section": "Fluency",
    "stem": "Convert these rates into the units given in brackets.",
@@ -110118,6 +110478,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y8-6g-convert",
    "label": "7a",
    "section": "Fluency",
    "stem": "Convert these speeds to m/s.",
@@ -110128,6 +110489,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y8-6g-convert",
    "label": "7b",
    "section": "Fluency",
    "stem": "Convert these speeds to m/s.",
@@ -110138,6 +110500,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y8-6g-convert",
    "label": "7c",
    "section": "Fluency",
    "stem": "Convert these speeds to m/s.",
@@ -110148,6 +110511,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y8-6g-convert",
    "label": "7d",
    "section": "Fluency",
    "stem": "Convert these speeds to m/s.",
@@ -110158,6 +110522,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y8-6g-convert",
    "label": "8a",
    "section": "Fluency",
    "stem": "Convert these speeds to km/h.",
@@ -110168,6 +110533,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y8-6g-convert",
    "label": "8b",
    "section": "Fluency",
    "stem": "Convert these speeds to km/h.",
@@ -110178,6 +110544,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y8-6g-convert",
    "label": "8c",
    "section": "Fluency",
    "stem": "Convert these speeds to km/h.",
@@ -110188,6 +110555,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y8-6g-convert",
    "label": "8d",
    "section": "Fluency",
    "stem": "Convert these speeds to km/h.",
@@ -110198,6 +110566,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y8-6g-best",
    "label": "9a",
    "section": "Problem-solving",
    "stem": "Crunch Oats breakfast cereal is sold in three box sizes: small ($400$ g) for $\\$5.20$, medium ($600$ g) for $\\$7.20$ and large ($900$ g) for $\\$10.35$.",
@@ -110208,6 +110577,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y8-6g-best",
    "label": "9b",
    "section": "Problem-solving",
    "stem": "Crunch Oats breakfast cereal is sold in three box sizes: small ($400$ g) for $\\$5.20$, medium ($600$ g) for $\\$7.20$ and large ($900$ g) for $\\$10.35$.",
@@ -110218,6 +110588,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y8-6g-best",
    "label": "9c",
    "section": "Problem-solving",
    "stem": "Crunch Oats breakfast cereal is sold in three box sizes: small ($400$ g) for $\\$5.20$, medium ($600$ g) for $\\$7.20$ and large ($900$ g) for $\\$10.35$.",
@@ -110228,6 +110599,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y8-6g-best",
    "label": "9d",
    "section": "Problem-solving",
    "stem": "Crunch Oats breakfast cereal is sold in three box sizes: small ($400$ g) for $\\$5.20$, medium ($600$ g) for $\\$7.20$ and large ($900$ g) for $\\$10.35$.",
@@ -110238,6 +110610,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y8-6g-convert",
    "label": "10a",
    "section": "Problem-solving",
    "stem": "A school athlete runs $200$ m in $23.4$ seconds. Find her average speed, rounding your answers correct to one decimal place.",
@@ -110249,6 +110622,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y8-6g-convert",
    "label": "10b",
    "section": "Problem-solving",
    "stem": "A school athlete runs $200$ m in $23.4$ seconds. Find her average speed, rounding your answers correct to one decimal place.",
@@ -110260,6 +110634,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y8-6g-convert",
    "label": "11a",
    "section": "Problem-solving",
    "stem": "Ella's hair grew $7.5$ cm in $6$ months.",
@@ -110270,6 +110645,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y8-6g-convert",
    "label": "11b",
    "section": "Problem-solving",
    "stem": "Ella's hair grew $7.5$ cm in $6$ months.",
@@ -110280,6 +110656,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y8-6g-convert",
    "label": "11c",
    "section": "Problem-solving",
    "stem": "Ella's hair grew $7.5$ cm in $6$ months.",
@@ -110290,6 +110667,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y8-6g-convert",
    "label": "12a",
    "section": "Problem-solving",
    "stem": "Sam can tile $6$ m$^2$ of floor in $15$ minutes.",
@@ -110300,6 +110678,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y8-6g-convert",
    "label": "12b",
    "section": "Problem-solving",
    "stem": "Sam can tile $6$ m$^2$ of floor in $15$ minutes.",
@@ -110310,6 +110689,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y8-6g-convert",
    "label": "12c",
    "section": "Problem-solving",
    "stem": "Sam can tile $6$ m$^2$ of floor in $15$ minutes.",
@@ -110320,6 +110700,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y8-6g-algebra",
    "label": "13a",
    "section": "Reasoning",
    "stem": "If $a$ muffins cost $\\$b$, write an expression for each of these costs (in dollars).",
@@ -110330,6 +110711,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y8-6g-algebra",
    "label": "13b",
    "section": "Reasoning",
    "stem": "If $a$ muffins cost $\\$b$, write an expression for each of these costs (in dollars).",
@@ -110339,6 +110721,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13c",
+   "help": "y8-6g-algebra",
    "label": "13c",
    "section": "Reasoning",
    "stem": "If $a$ muffins cost $\\$b$, write an expression for each of these costs (in dollars).",
@@ -110348,6 +110731,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y8-6g-ratio",
    "label": "14a",
    "section": "Reasoning",
    "stem": "A triangle has side lengths in the ratio $7 : 9 : 5$. Its shortest side is $15$ cm.",
@@ -110362,6 +110746,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y8-6g-ratio",
    "label": "14b",
    "section": "Reasoning",
    "stem": "A triangle has side lengths in the ratio $7 : 9 : 5$. Its shortest side is $15$ cm.",
@@ -110372,6 +110757,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14c",
+   "help": "y8-6g-ratio",
    "label": "14c",
    "section": "Reasoning",
    "stem": "A different triangle has side lengths in the ratio $4 : 6 : 5$. Its longest side is $42$ cm.",
@@ -110386,6 +110772,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14d",
+   "help": "y8-6g-ratio",
    "label": "14d",
    "section": "Reasoning",
    "stem": "A different triangle has side lengths in the ratio $4 : 6 : 5$. Its longest side is $42$ cm.",
@@ -110396,6 +110783,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15",
+   "help": "y8-6g-convert",
    "label": "15",
    "section": "Reasoning",
    "type": "numeric",
@@ -110405,6 +110793,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16a",
+   "help": "y8-6g-meet",
    "label": "16a",
    "section": "Enrichment",
    "stem": "Tia lives in Perth and her friend Ravi lives in Adelaide. The road distance between their houses is $2700$ km (rounded to the nearest $100$ km). Tia drives towards Adelaide and Ravi drives towards Perth. They leave at the same time on the same road. Tia drives at a constant $80$ km/h and Ravi drives at a constant $100$ km/h.",
@@ -110418,6 +110807,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16b",
+   "help": "y8-6g-meet",
    "label": "16b",
    "section": "Enrichment",
    "stem": "Tia lives in Perth and her friend Ravi lives in Adelaide. The road distance between their houses is $2700$ km (rounded to the nearest $100$ km). Tia drives towards Adelaide and Ravi drives towards Perth. They leave at the same time on the same road. Tia drives at a constant $80$ km/h and Ravi drives at a constant $100$ km/h.",
@@ -110428,6 +110818,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16c",
+   "help": "y8-6g-meet",
    "label": "16c",
    "section": "Enrichment",
    "stem": "Tia lives in Perth and her friend Ravi lives in Adelaide. The road distance between their houses is $2700$ km (rounded to the nearest $100$ km). Tia drives towards Adelaide and Ravi drives towards Perth. They leave at the same time on the same road. Tia drives at a constant $80$ km/h and Ravi drives at a constant $100$ km/h.",
@@ -110438,6 +110829,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16d",
+   "help": "y8-6g-meet",
    "label": "16d",
    "section": "Enrichment",
    "stem": "Tia lives in Perth and her friend Ravi lives in Adelaide. The road distance between their houses is $2700$ km (rounded to the nearest $100$ km). Tia drives towards Adelaide and Ravi drives towards Perth. They leave at the same time on the same road. Tia drives at a constant $80$ km/h and Ravi drives at a constant $100$ km/h.",
@@ -110448,6 +110840,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16e",
+   "help": "y8-6g-meet",
    "label": "16e",
    "section": "Enrichment",
    "stem": "Tia lives in Perth and her friend Ravi lives in Adelaide. The road distance between their houses is $2700$ km (rounded to the nearest $100$ km). Tia drives towards Adelaide and Ravi drives towards Perth. They leave at the same time on the same road. Tia drives at a constant $80$ km/h and Ravi drives at a constant $100$ km/h.",
@@ -110458,6 +110851,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16f",
+   "help": "y8-6g-meet",
    "label": "16f",
    "section": "Enrichment",
    "stem": "Tia lives in Perth and her friend Ravi lives in Adelaide. The road distance between their houses is $2700$ km (rounded to the nearest $100$ km). Tia drives towards Adelaide and Ravi drives towards Perth. They leave at the same time on the same road. Tia drives at a constant $80$ km/h and Ravi drives at a constant $100$ km/h.",
@@ -110468,6 +110862,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16g",
+   "help": "y8-6g-meet",
    "label": "16g",
    "section": "Enrichment",
    "stem": "Tia lives in Perth and her friend Ravi lives in Adelaide. The road distance between their houses is $2700$ km (rounded to the nearest $100$ km). Tia drives towards Adelaide and Ravi drives towards Perth. They leave at the same time on the same road. Tia drives at a constant $80$ km/h and Ravi drives at a constant $100$ km/h.",
