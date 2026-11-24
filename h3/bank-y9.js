@@ -60406,6 +60406,4039 @@ window.H3_BANK.sets.push(
    ]
   }
  ]
+},
+{
+ "id": "y9-8g",
+ "year": 9,
+ "chapter": "Chapter 8: Algebraic techniques",
+ "title": "8G Factorising trinomials of the form ax² + bx + c",
+ "description": "Factorise non-monic quadratic trinomials by grouping in pairs, taking out common factors first where needed.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Factorise these quadratic trinomials.",
+   "type": "expression",
+   "prompt": "$2x^2 + 11x + 5$",
+   "answer": "(x+5)(2x+1)",
+   "form": "factorised",
+   "hint": "Type x squared as x^2. Write the answer as brackets multiplied together, for example (2x+1)(x-3)."
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Factorise these quadratic trinomials.",
+   "type": "expression",
+   "prompt": "$3x^2 + 13x + 4$",
+   "answer": "(x+4)(3x+1)",
+   "form": "factorised"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "Factorise these quadratic trinomials.",
+   "type": "expression",
+   "prompt": "$2x^2 + 5x + 3$",
+   "answer": "(x+1)(2x+3)",
+   "form": "factorised"
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "Factorise these quadratic trinomials.",
+   "type": "expression",
+   "prompt": "$3x^2 + 5x + 2$",
+   "answer": "(x+1)(3x+2)",
+   "form": "factorised"
+  },
+  {
+   "id": "q1e",
+   "label": "1e",
+   "section": "Fluency",
+   "stem": "Factorise these quadratic trinomials.",
+   "type": "expression",
+   "prompt": "$5x^2 + 13x + 6$",
+   "answer": "(x+2)(5x+3)",
+   "form": "factorised"
+  },
+  {
+   "id": "q1f",
+   "label": "1f",
+   "section": "Fluency",
+   "stem": "Factorise these quadratic trinomials.",
+   "type": "expression",
+   "prompt": "$2x^2 + 11x + 15$",
+   "answer": "(x+3)(2x+5)",
+   "form": "factorised"
+  },
+  {
+   "id": "q1g",
+   "label": "1g",
+   "section": "Fluency",
+   "stem": "Factorise these quadratic trinomials.",
+   "type": "expression",
+   "prompt": "$6x^2 + 17x + 5$",
+   "answer": "(2x+5)(3x+1)",
+   "form": "factorised"
+  },
+  {
+   "id": "q1h",
+   "label": "1h",
+   "section": "Fluency",
+   "stem": "Factorise these quadratic trinomials.",
+   "type": "expression",
+   "prompt": "$4x^2 + 7x + 3$",
+   "answer": "(x+1)(4x+3)",
+   "form": "factorised"
+  },
+  {
+   "id": "q1i",
+   "label": "1i",
+   "section": "Fluency",
+   "stem": "Factorise these quadratic trinomials.",
+   "type": "expression",
+   "prompt": "$8x^2 + 14x + 3$",
+   "answer": "(2x+3)(4x+1)",
+   "form": "factorised"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Factorise these quadratic trinomials.",
+   "type": "expression",
+   "prompt": "$3x^2 - x - 4$",
+   "answer": "(x+1)(3x-4)",
+   "form": "factorised"
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Factorise these quadratic trinomials.",
+   "type": "expression",
+   "prompt": "$5x^2 + 7x - 6$",
+   "answer": "(x+2)(5x-3)",
+   "form": "factorised"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Factorise these quadratic trinomials.",
+   "type": "expression",
+   "prompt": "$8x^2 + 18x - 5$",
+   "answer": "(2x+5)(4x-1)",
+   "form": "factorised"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Factorise these quadratic trinomials.",
+   "type": "expression",
+   "prompt": "$6x^2 - 11x - 10$",
+   "answer": "(2x-5)(3x+2)",
+   "form": "factorised"
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Factorise these quadratic trinomials.",
+   "type": "expression",
+   "prompt": "$10x^2 - 11x - 6$",
+   "answer": "(2x-3)(5x+2)",
+   "form": "factorised"
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "Factorise these quadratic trinomials.",
+   "type": "expression",
+   "prompt": "$5x^2 - 6x - 8$",
+   "answer": "(x-2)(5x+4)",
+   "form": "factorised"
+  },
+  {
+   "id": "q2g",
+   "label": "2g",
+   "section": "Fluency",
+   "stem": "Factorise these quadratic trinomials.",
+   "type": "expression",
+   "prompt": "$4x^2 - 20x + 21$",
+   "answer": "(2x-7)(2x-3)",
+   "form": "factorised"
+  },
+  {
+   "id": "q2h",
+   "label": "2h",
+   "section": "Fluency",
+   "stem": "Factorise these quadratic trinomials.",
+   "type": "expression",
+   "prompt": "$2x^2 - 11x + 12$",
+   "answer": "(x-4)(2x-3)",
+   "form": "factorised"
+  },
+  {
+   "id": "q2i",
+   "label": "2i",
+   "section": "Fluency",
+   "stem": "Factorise these quadratic trinomials.",
+   "type": "expression",
+   "prompt": "$6x^2 - 25x + 14$",
+   "answer": "(2x-7)(3x-2)",
+   "form": "factorised"
+  },
+  {
+   "id": "q2j",
+   "label": "2j",
+   "section": "Fluency",
+   "stem": "Factorise these quadratic trinomials.",
+   "type": "expression",
+   "prompt": "$12x^2 - 17x - 5$",
+   "answer": "(3x-5)(4x+1)",
+   "form": "factorised"
+  },
+  {
+   "id": "q2k",
+   "label": "2k",
+   "section": "Fluency",
+   "stem": "Factorise these quadratic trinomials.",
+   "type": "expression",
+   "prompt": "$4x^2 - 20x + 25$",
+   "answer": "(2x-5)^2",
+   "form": "factorised"
+  },
+  {
+   "id": "q2l",
+   "label": "2l",
+   "section": "Fluency",
+   "stem": "Factorise these quadratic trinomials.",
+   "type": "expression",
+   "prompt": "$7x^2 + 26x - 8$",
+   "answer": "(x+4)(7x-2)",
+   "form": "factorised"
+  },
+  {
+   "id": "q2m",
+   "label": "2m",
+   "section": "Fluency",
+   "stem": "Factorise these quadratic trinomials.",
+   "type": "expression",
+   "prompt": "$9x^2 + 35x - 4$",
+   "answer": "(x+4)(9x-1)",
+   "form": "factorised"
+  },
+  {
+   "id": "q2n",
+   "label": "2n",
+   "section": "Fluency",
+   "stem": "Factorise these quadratic trinomials.",
+   "type": "expression",
+   "prompt": "$3x^2 - 11x + 10$",
+   "answer": "(x-2)(3x-5)",
+   "form": "factorised"
+  },
+  {
+   "id": "q2o",
+   "label": "2o",
+   "section": "Fluency",
+   "stem": "Factorise these quadratic trinomials.",
+   "type": "expression",
+   "prompt": "$4x^2 - 8x - 21$",
+   "answer": "(2x-7)(2x+3)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Problem-solving",
+   "stem": "Factorise by first taking out a common factor.",
+   "type": "expression",
+   "prompt": "$16x^2 - 20x - 6$",
+   "answer": "2(2x-3)(4x+1)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Problem-solving",
+   "stem": "Factorise by first taking out a common factor.",
+   "type": "expression",
+   "prompt": "$8x^2 + 4x - 40$",
+   "answer": "4(x-2)(2x+5)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Problem-solving",
+   "stem": "Factorise by first taking out a common factor.",
+   "type": "expression",
+   "prompt": "$9x^2 - 39x + 12$",
+   "answer": "3(x-4)(3x-1)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Problem-solving",
+   "stem": "Factorise by first taking out a common factor.",
+   "type": "expression",
+   "prompt": "$10x^2 - 35x + 30$",
+   "answer": "5(x-2)(2x-3)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Problem-solving",
+   "stem": "Factorise by first taking out a common factor.",
+   "type": "expression",
+   "prompt": "$18x^2 + 6x - 24$",
+   "answer": "6(x-1)(3x+4)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Problem-solving",
+   "stem": "Factorise by first taking out a common factor.",
+   "type": "expression",
+   "prompt": "$24x^2 + 44x - 40$",
+   "answer": "4(2x+5)(3x-2)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Problem-solving",
+   "stem": "Factorise these quadratic trinomials.",
+   "type": "expression",
+   "prompt": "$10x^2 + 19x + 6$",
+   "answer": "(2x+3)(5x+2)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Problem-solving",
+   "stem": "Factorise these quadratic trinomials.",
+   "type": "expression",
+   "prompt": "$15x^2 + 17x - 4$",
+   "answer": "(3x+4)(5x-1)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Problem-solving",
+   "stem": "Factorise these quadratic trinomials.",
+   "type": "expression",
+   "prompt": "$20x^2 - 16x + 3$",
+   "answer": "(2x-1)(10x-3)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Problem-solving",
+   "stem": "Factorise these quadratic trinomials.",
+   "type": "expression",
+   "prompt": "$18x^2 + x - 5$",
+   "answer": "(2x-1)(9x+5)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Problem-solving",
+   "stem": "Factorise these quadratic trinomials.",
+   "type": "expression",
+   "prompt": "$25x^2 - 10x - 8$",
+   "answer": "(5x-4)(5x+2)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Problem-solving",
+   "stem": "Factorise these quadratic trinomials.",
+   "type": "expression",
+   "prompt": "$32x^2 - 4x - 3$",
+   "answer": "(4x+1)(8x-3)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4g",
+   "label": "4g",
+   "section": "Problem-solving",
+   "stem": "Factorise these quadratic trinomials.",
+   "type": "expression",
+   "prompt": "$27x^2 + 30x - 8$",
+   "answer": "(3x+4)(9x-2)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4h",
+   "label": "4h",
+   "section": "Problem-solving",
+   "stem": "Factorise these quadratic trinomials.",
+   "type": "expression",
+   "prompt": "$33x^2 + 50x + 8$",
+   "answer": "(3x+4)(11x+2)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4i",
+   "label": "4i",
+   "section": "Problem-solving",
+   "stem": "Factorise these quadratic trinomials.",
+   "type": "expression",
+   "prompt": "$54x^2 - 15x - 4$",
+   "answer": "(6x+1)(9x-4)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4j",
+   "label": "4j",
+   "section": "Problem-solving",
+   "stem": "Factorise these quadratic trinomials.",
+   "type": "expression",
+   "prompt": "$12x^2 - 28x + 15$",
+   "answer": "(2x-3)(6x-5)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4k",
+   "label": "4k",
+   "section": "Problem-solving",
+   "stem": "Factorise these quadratic trinomials.",
+   "type": "expression",
+   "prompt": "$75x^2 - 55x + 6$",
+   "answer": "(5x-3)(15x-2)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4l",
+   "label": "4l",
+   "section": "Problem-solving",
+   "stem": "Factorise these quadratic trinomials.",
+   "type": "expression",
+   "prompt": "$90x^2 - 9x - 4$",
+   "answer": "(6x+1)(15x-4)",
+   "form": "factorised"
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Problem-solving",
+   "stem": "Factorise these trinomials.",
+   "type": "expression",
+   "prompt": "$-3x^2 + 10x - 8$",
+   "answer": "-(x-2)(3x-4)",
+   "form": "factorised",
+   "hint": "Take out -1 first. A minus sign in front of the brackets is fine, for example -(2x-3)(x+4)."
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Problem-solving",
+   "stem": "Factorise these trinomials.",
+   "type": "expression",
+   "prompt": "$-4x^2 - 5x + 9$",
+   "answer": "-(x-1)(4x+9)",
+   "form": "factorised"
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Problem-solving",
+   "stem": "Factorise these trinomials.",
+   "type": "expression",
+   "prompt": "$-6x^2 + 7x + 5$",
+   "answer": "-(2x+1)(3x-5)",
+   "form": "factorised"
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Problem-solving",
+   "stem": "Factorise these trinomials.",
+   "type": "expression",
+   "prompt": "$20 - 7x - 3x^2$",
+   "answer": "-(x+4)(3x-5)",
+   "form": "factorised"
+  },
+  {
+   "id": "q5e",
+   "label": "5e",
+   "section": "Problem-solving",
+   "stem": "Factorise these trinomials.",
+   "type": "expression",
+   "prompt": "$13x - 6x^2 - 6$",
+   "answer": "-(2x-3)(3x-2)",
+   "form": "factorised"
+  },
+  {
+   "id": "q5f",
+   "label": "5f",
+   "section": "Problem-solving",
+   "stem": "Factorise these trinomials.",
+   "type": "expression",
+   "prompt": "$11x - 10x^2 - 3$",
+   "answer": "-(2x-1)(5x-3)",
+   "form": "factorised"
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Reasoning",
+   "stem": "When splitting the $5x$ in $2x^2 + 5x - 12$, you could write: A: $2x^2 + 8x - 3x - 12$, or B: $2x^2 - 3x + 8x - 12$.",
+   "type": "expression",
+   "prompt": "Complete the factorisation using A.",
+   "answer": "(x+4)(2x-3)",
+   "form": "factorised"
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Reasoning",
+   "stem": "When splitting the $5x$ in $2x^2 + 5x - 12$, you could write: A: $2x^2 + 8x - 3x - 12$, or B: $2x^2 - 3x + 8x - 12$.",
+   "type": "expression",
+   "prompt": "Complete the factorisation using B.",
+   "answer": "(x+4)(2x-3)",
+   "form": "factorised"
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Reasoning",
+   "stem": "When splitting the $5x$ in $2x^2 + 5x - 12$, you could write: A: $2x^2 + 8x - 3x - 12$, or B: $2x^2 - 3x + 8x - 12$.",
+   "type": "choice",
+   "prompt": "Does the order matter when you split the $5x$?",
+   "answer": 1,
+   "options": [
+    "Yes, only one order works",
+    "No, both orders give the same factorisation"
+   ]
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Reasoning",
+   "stem": "Factorise these trinomials by grouping in pairs. (You could check your answer by doing it again with the two middle terms the other way round.)",
+   "type": "expression",
+   "prompt": "$3x^2 + 7x - 6$",
+   "answer": "(x+3)(3x-2)",
+   "form": "factorised"
+  },
+  {
+   "id": "q6e",
+   "label": "6e",
+   "section": "Reasoning",
+   "stem": "Factorise these trinomials by grouping in pairs. (You could check your answer by doing it again with the two middle terms the other way round.)",
+   "type": "expression",
+   "prompt": "$5x^2 - 7x - 6$",
+   "answer": "(x-2)(5x+3)",
+   "form": "factorised"
+  },
+  {
+   "id": "q6f",
+   "label": "6f",
+   "section": "Reasoning",
+   "stem": "Factorise these trinomials by grouping in pairs. (You could check your answer by doing it again with the two middle terms the other way round.)",
+   "type": "expression",
+   "prompt": "$6x^2 + 7x - 3$",
+   "answer": "(2x+3)(3x-1)",
+   "form": "factorised"
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Enrichment",
+   "stem": "The cross method: write factors of the $x^2$ term down the left and factors of the constant down the right, then cross-multiply and add until you get the middle term. Use it to factorise these trinomials.",
+   "type": "expression",
+   "prompt": "$6x^2 + x - 12$",
+   "answer": "(2x+3)(3x-4)",
+   "form": "factorised"
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Enrichment",
+   "stem": "The cross method: write factors of the $x^2$ term down the left and factors of the constant down the right, then cross-multiply and add until you get the middle term. Use it to factorise these trinomials.",
+   "type": "expression",
+   "prompt": "$10x^2 - x - 21$",
+   "answer": "(2x-3)(5x+7)",
+   "form": "factorised"
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Enrichment",
+   "stem": "The cross method: write factors of the $x^2$ term down the left and factors of the constant down the right, then cross-multiply and add until you get the middle term. Use it to factorise these trinomials.",
+   "type": "expression",
+   "prompt": "$12x^2 + 7x - 10$",
+   "answer": "(3x-2)(4x+5)",
+   "form": "factorised"
+  }
+ ]
+},
+{
+ "id": "y9-8h",
+ "year": 9,
+ "chapter": "Chapter 8: Algebraic techniques",
+ "title": "8H Simplifying algebraic fractions: Multiplication and division",
+ "description": "Simplify algebraic fractions by factorising and cancelling, including products and quotients of fractions.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Simplify the following by cancelling.",
+   "type": "expression",
+   "prompt": "$\\frac{5(x+3)}{7(x+3)}$",
+   "answer": "5/7",
+   "form": "simplified",
+   "hint": "Type one fraction, with brackets round any top or bottom that has more than one term, for example (2x+3)/(x-1) or 3/(2(x+4))."
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Simplify the following by cancelling.",
+   "type": "expression",
+   "prompt": "$\\frac{x(x+4)}{2x(x+4)}$",
+   "answer": "1/2",
+   "form": "simplified"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "Simplify the following by cancelling.",
+   "type": "expression",
+   "prompt": "$\\frac{18(x-6)}{6(x-6)}$",
+   "answer": "3",
+   "form": "simplified"
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "Simplify the following by cancelling.",
+   "type": "expression",
+   "prompt": "$\\frac{(x+4)(x-4)}{(x-4)}$",
+   "answer": "x+4",
+   "form": "simplified"
+  },
+  {
+   "id": "q1e",
+   "label": "1e",
+   "section": "Fluency",
+   "stem": "Simplify the following by cancelling.",
+   "type": "expression",
+   "prompt": "$\\frac{4(x+2)(x-5)}{10(x-5)}$",
+   "answer": "2(x+2)/5",
+   "form": "simplified",
+   "accept": [
+    "(2x+4)/5"
+   ]
+  },
+  {
+   "id": "q1f",
+   "label": "1f",
+   "section": "Fluency",
+   "stem": "Simplify the following by cancelling.",
+   "type": "expression",
+   "prompt": "$\\frac{6(x+1)}{9(x+1)(x-3)}$",
+   "answer": "2/(3(x-3))",
+   "form": "simplified",
+   "accept": [
+    "2/(3x-9)"
+   ]
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Simplify the following by factorising and then cancelling.",
+   "type": "expression",
+   "prompt": "$\\frac{3x-3}{3}$",
+   "answer": "x-1",
+   "form": "simplified",
+   "hint": "Type one fraction, with brackets round any top or bottom that has more than one term, for example (2x+3)/(x-1) or 3/(2(x+4))."
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Simplify the following by factorising and then cancelling.",
+   "type": "expression",
+   "prompt": "$\\frac{6x-15}{9}$",
+   "answer": "(2x-5)/3",
+   "form": "simplified"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Simplify the following by factorising and then cancelling.",
+   "type": "expression",
+   "prompt": "$\\frac{3x-6}{5x-10}$",
+   "answer": "3/5",
+   "form": "simplified"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Simplify the following by factorising and then cancelling.",
+   "type": "expression",
+   "prompt": "$\\frac{15-5x}{9-3x}$",
+   "answer": "5/3",
+   "form": "simplified"
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Simplify the following by factorising and then cancelling.",
+   "type": "expression",
+   "prompt": "$\\frac{x^2+5x}{x}$",
+   "answer": "x+5",
+   "form": "simplified"
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "Simplify the following by factorising and then cancelling.",
+   "type": "expression",
+   "prompt": "$\\frac{6x^2+8x}{4x}$",
+   "answer": "(3x+4)/2",
+   "form": "simplified"
+  },
+  {
+   "id": "q2g",
+   "label": "2g",
+   "section": "Fluency",
+   "stem": "Simplify the following by factorising and then cancelling.",
+   "type": "expression",
+   "prompt": "$\\frac{4x+4y}{3x+3y}$",
+   "answer": "4/3",
+   "form": "simplified"
+  },
+  {
+   "id": "q2h",
+   "label": "2h",
+   "section": "Fluency",
+   "stem": "Simplify the following by factorising and then cancelling.",
+   "type": "expression",
+   "prompt": "$\\frac{5x-10y}{2x-4y}$",
+   "answer": "5/2",
+   "form": "simplified"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Simplify the following. These expressions involve difference of two squares.",
+   "type": "expression",
+   "prompt": "$\\frac{x^2-64}{x+8}$",
+   "answer": "x-8",
+   "form": "simplified",
+   "hint": "Type one fraction, with brackets round any top or bottom that has more than one term, for example (2x+3)/(x-1) or 3/(2(x+4))."
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Simplify the following. These expressions involve difference of two squares.",
+   "type": "expression",
+   "prompt": "$\\frac{x^2-9}{x-3}$",
+   "answer": "x+3",
+   "form": "simplified"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Simplify the following. These expressions involve difference of two squares.",
+   "type": "expression",
+   "prompt": "$\\frac{x^2-121}{x+11}$",
+   "answer": "x-11",
+   "form": "simplified"
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Simplify the following. These expressions involve difference of two squares.",
+   "type": "expression",
+   "prompt": "$\\frac{3(x-10)}{x^2-100}$",
+   "answer": "3/(x+10)",
+   "form": "simplified"
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "Simplify the following. These expressions involve difference of two squares.",
+   "type": "expression",
+   "prompt": "$\\frac{7(x+4)}{x^2-16}$",
+   "answer": "7/(x-4)",
+   "form": "simplified"
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "Simplify the following. These expressions involve difference of two squares.",
+   "type": "expression",
+   "prompt": "$\\frac{2x+18}{x^2-81}$",
+   "answer": "2/(x-9)",
+   "form": "simplified"
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "Simplify by first factorising the trinomials.",
+   "type": "expression",
+   "prompt": "$\\frac{x^2-2x-8}{x-4}$",
+   "answer": "x+2",
+   "form": "simplified",
+   "hint": "Type one fraction, with brackets round any top or bottom that has more than one term, for example (2x+3)/(x-1) or 3/(2(x+4))."
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "Simplify by first factorising the trinomials.",
+   "type": "expression",
+   "prompt": "$\\frac{x^2+10x+25}{x+5}$",
+   "answer": "x+5",
+   "form": "simplified"
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "Simplify by first factorising the trinomials.",
+   "type": "expression",
+   "prompt": "$\\frac{x^2-9x+20}{x-5}$",
+   "answer": "x-4",
+   "form": "simplified"
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "Simplify by first factorising the trinomials.",
+   "type": "expression",
+   "prompt": "$\\frac{x-3}{x^2+2x-15}$",
+   "answer": "1/(x+5)",
+   "form": "simplified"
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Fluency",
+   "stem": "Simplify by first factorising the trinomials.",
+   "type": "expression",
+   "prompt": "$\\frac{x+6}{x^2+4x-12}$",
+   "answer": "1/(x-2)",
+   "form": "simplified"
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Fluency",
+   "stem": "Simplify by first factorising the trinomials.",
+   "type": "expression",
+   "prompt": "$\\frac{x-8}{x^2-17x+72}$",
+   "answer": "1/(x-9)",
+   "form": "simplified"
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Fluency",
+   "stem": "Simplify the following by cancelling.",
+   "type": "expression",
+   "prompt": "$\\frac{3x(x-2)}{6(x+3)} \\times \\frac{x+3}{x}$",
+   "answer": "(x-2)/2",
+   "form": "simplified",
+   "hint": "Type one fraction, with brackets round any top or bottom that has more than one term, for example (2x+3)/(x-1) or 3/(2(x+4))."
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Fluency",
+   "stem": "Simplify the following by cancelling.",
+   "type": "expression",
+   "prompt": "$\\frac{(x+4)(x-1)}{x-6} \\times \\frac{x-6}{x+4}$",
+   "answer": "x-1",
+   "form": "simplified"
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Fluency",
+   "stem": "Simplify the following by cancelling.",
+   "type": "expression",
+   "prompt": "$\\frac{x-2}{x+5} \\times \\frac{4(x+1)(x+5)}{x+1}$",
+   "answer": "4(x-2)",
+   "form": "simplified",
+   "accept": [
+    "4x-8"
+   ]
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Fluency",
+   "stem": "Simplify the following by cancelling.",
+   "type": "expression",
+   "prompt": "$\\frac{3(x+2)(x+5)}{(x+3)(x-4)} \\times \\frac{x+3}{6(x+2)}$",
+   "answer": "(x+5)/(2(x-4))",
+   "form": "simplified",
+   "accept": [
+    "(x+5)/(2x-8)"
+   ]
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Fluency",
+   "stem": "Simplify the following by cancelling.",
+   "type": "expression",
+   "prompt": "$\\frac{x(x+2)}{x+5} \\div \\frac{x+2}{x+5}$",
+   "answer": "x",
+   "form": "simplified",
+   "hint": "Type one fraction, with brackets round any top or bottom that has more than one term, for example (2x+3)/(x-1) or 3/(2(x+4))."
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Fluency",
+   "stem": "Simplify the following by cancelling.",
+   "type": "expression",
+   "prompt": "$\\frac{x+4}{x+1} \\div \\frac{x+4}{3(x-1)}$",
+   "answer": "3(x-1)/(x+1)",
+   "form": "simplified",
+   "accept": [
+    "(3x-3)/(x+1)"
+   ]
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Fluency",
+   "stem": "Simplify the following by cancelling.",
+   "type": "expression",
+   "prompt": "$\\frac{x-5}{(x+2)(x+6)} \\div \\frac{x-5}{3(x+2)}$",
+   "answer": "3/(x+6)",
+   "form": "simplified"
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Fluency",
+   "stem": "Simplify the following by cancelling.",
+   "type": "expression",
+   "prompt": "$\\frac{6x}{x+3} \\div \\frac{9x}{x-3}$",
+   "answer": "2(x-3)/(3(x+3))",
+   "form": "simplified",
+   "accept": [
+    "2(x-3)/(3x+9)",
+    "(2x-6)/(3(x+3))",
+    "(2x-6)/(3x+9)"
+   ]
+  },
+  {
+   "id": "q6e",
+   "label": "6e",
+   "section": "Fluency",
+   "stem": "Simplify the following by cancelling.",
+   "type": "expression",
+   "prompt": "$\\frac{2(3x-5)(x+1)}{5(x+4)} \\div \\frac{4(x+3)(3x-5)}{15(x+1)(x+4)}$",
+   "answer": "3(x+1)^2/(2(x+3))",
+   "form": "simplified",
+   "accept": [
+    "3(x+1)^2/(2x+6)",
+    "(3x^2+6x+3)/(2(x+3))",
+    "(3x^2+6x+3)/(2x+6)"
+   ]
+  },
+  {
+   "id": "q6f",
+   "label": "6f",
+   "section": "Fluency",
+   "stem": "Simplify the following by cancelling.",
+   "type": "expression",
+   "prompt": "$\\frac{3(4x-1)}{(x+6)} \\div \\frac{(x+5)(4x-1)}{x+6}$",
+   "answer": "3/(x+5)",
+   "form": "simplified"
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Problem-solving",
+   "stem": "These expressions involve a combination of trinomials, difference of two squares and simple common factors. Simplify by first factorising where possible.",
+   "type": "expression",
+   "prompt": "$\\frac{x^2+7x+12}{x+6} \\div \\frac{x+4}{x^2-36}$",
+   "answer": "(x-6)(x+3)",
+   "form": "simplified",
+   "accept": [
+    "x^2-3x-18"
+   ],
+   "hint": "Type one fraction, with brackets round any top or bottom that has more than one term, for example (2x+3)/(x-1) or 3/(2(x+4))."
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Problem-solving",
+   "stem": "These expressions involve a combination of trinomials, difference of two squares and simple common factors. Simplify by first factorising where possible.",
+   "type": "expression",
+   "prompt": "$\\frac{x^2+8x+15}{x^2-4} \\div \\frac{x+5}{x-2}$",
+   "answer": "(x+3)/(x+2)",
+   "form": "simplified"
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Problem-solving",
+   "stem": "These expressions involve a combination of trinomials, difference of two squares and simple common factors. Simplify by first factorising where possible.",
+   "type": "expression",
+   "prompt": "$\\frac{x^2+2x-15}{x^2+10x+25} \\times \\frac{x^2-25}{x^2-6x+9}$",
+   "answer": "(x-5)/(x-3)",
+   "form": "simplified"
+  },
+  {
+   "id": "q7d",
+   "label": "7d",
+   "section": "Problem-solving",
+   "stem": "These expressions involve a combination of trinomials, difference of two squares and simple common factors. Simplify by first factorising where possible.",
+   "type": "expression",
+   "prompt": "$\\frac{x^2+10x+24}{x^2-16} \\times \\frac{x^2-8x+16}{x^2+8x+12}$",
+   "answer": "(x-4)/(x+2)",
+   "form": "simplified"
+  },
+  {
+   "id": "q7e",
+   "label": "7e",
+   "section": "Problem-solving",
+   "stem": "These expressions involve a combination of trinomials, difference of two squares and simple common factors. Simplify by first factorising where possible.",
+   "type": "expression",
+   "prompt": "$\\frac{12x^2-4x}{8x-24x^2}$",
+   "answer": "-1/2",
+   "form": "simplified"
+  },
+  {
+   "id": "q7f",
+   "label": "7f",
+   "section": "Problem-solving",
+   "stem": "These expressions involve a combination of trinomials, difference of two squares and simple common factors. Simplify by first factorising where possible.",
+   "type": "expression",
+   "prompt": "$\\frac{x^2-5x}{2x-x^2}$",
+   "answer": "(5-x)/(x-2)",
+   "form": "simplified",
+   "accept": [
+    "-(x-5)/(x-2)",
+    "(x-5)/(2-x)"
+   ]
+  },
+  {
+   "id": "q7g",
+   "label": "7g",
+   "section": "Problem-solving",
+   "stem": "These expressions involve a combination of trinomials, difference of two squares and simple common factors. Simplify by first factorising where possible.",
+   "type": "expression",
+   "prompt": "$\\frac{2x^2-14x+24}{3x^2-27} \\times \\frac{3x+6}{4x-16}$",
+   "answer": "(x+2)/(2(x+3))",
+   "form": "simplified",
+   "accept": [
+    "(x+2)/(2x+6)"
+   ]
+  },
+  {
+   "id": "q7h",
+   "label": "7h",
+   "section": "Problem-solving",
+   "stem": "These expressions involve a combination of trinomials, difference of two squares and simple common factors. Simplify by first factorising where possible.",
+   "type": "expression",
+   "prompt": "$\\frac{3x^2-21x+30}{x^2-2x-15} \\times \\frac{2x+6}{5x^2-20}$",
+   "answer": "6/(5(x+2))",
+   "form": "simplified",
+   "accept": [
+    "6/(5x+10)"
+   ]
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Reasoning",
+   "stem": "Just as $\\frac{a^2}{2a}$ can be cancelled to $\\frac{a}{2}$, $\\frac{(a+3)^2}{4(a+3)}$ cancels to $\\frac{a+3}{4}$. Use this idea to cancel these fractions.",
+   "type": "expression",
+   "prompt": "$\\frac{(a+4)^2}{(a+4)}$",
+   "answer": "a+4",
+   "form": "simplified",
+   "hint": "Type one fraction, with brackets round any top or bottom that has more than one term, for example (2x+3)/(x-1) or 3/(2(x+4))."
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Reasoning",
+   "stem": "Just as $\\frac{a^2}{2a}$ can be cancelled to $\\frac{a}{2}$, $\\frac{(a+3)^2}{4(a+3)}$ cancels to $\\frac{a+3}{4}$. Use this idea to cancel these fractions.",
+   "type": "expression",
+   "prompt": "$\\frac{3(a-2)^2}{(a-2)}$",
+   "answer": "3(a-2)",
+   "form": "simplified",
+   "accept": [
+    "3a-6"
+   ]
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Reasoning",
+   "stem": "Just as $\\frac{a^2}{2a}$ can be cancelled to $\\frac{a}{2}$, $\\frac{(a+3)^2}{4(a+3)}$ cancels to $\\frac{a+3}{4}$. Use this idea to cancel these fractions.",
+   "type": "expression",
+   "prompt": "$\\frac{6(x+5)^2}{15(x+5)}$",
+   "answer": "2(x+5)/5",
+   "form": "simplified",
+   "accept": [
+    "(2x+10)/5"
+   ]
+  },
+  {
+   "id": "q8d",
+   "label": "8d",
+   "section": "Reasoning",
+   "stem": "Just as $\\frac{a^2}{2a}$ can be cancelled to $\\frac{a}{2}$, $\\frac{(a+3)^2}{4(a+3)}$ cancels to $\\frac{a+3}{4}$. Use this idea to cancel these fractions.",
+   "type": "expression",
+   "prompt": "$\\frac{4(x-2)(x+3)^2}{20(x-2)(x+3)}$",
+   "answer": "(x+3)/5",
+   "form": "simplified"
+  },
+  {
+   "id": "q8e",
+   "label": "8e",
+   "section": "Reasoning",
+   "stem": "Just as $\\frac{a^2}{2a}$ can be cancelled to $\\frac{a}{2}$, $\\frac{(a+3)^2}{4(a+3)}$ cancels to $\\frac{a+3}{4}$. Use this idea to cancel these fractions.",
+   "type": "expression",
+   "prompt": "$\\frac{x^2+8x+16}{3x+12}$",
+   "answer": "(x+4)/3",
+   "form": "simplified"
+  },
+  {
+   "id": "q8f",
+   "label": "8f",
+   "section": "Reasoning",
+   "stem": "Just as $\\frac{a^2}{2a}$ can be cancelled to $\\frac{a}{2}$, $\\frac{(a+3)^2}{4(a+3)}$ cancels to $\\frac{a+3}{4}$. Use this idea to cancel these fractions.",
+   "type": "expression",
+   "prompt": "$\\frac{7x-21}{x^2-6x+9}$",
+   "answer": "7/(x-3)",
+   "form": "simplified"
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Reasoning",
+   "stem": "The expression $\\frac{3-2x}{2x-3}$ can be written as $\\frac{-1(-3+2x)}{2x-3} = \\frac{-1(2x-3)}{2x-3}$, which cancels to $-1$. Use this idea to simplify these algebraic fractions.",
+   "type": "expression",
+   "prompt": "$\\frac{5-4x}{4x-5}$",
+   "answer": "-1",
+   "form": "simplified",
+   "hint": "Type one fraction, with brackets round any top or bottom that has more than one term, for example (2x+3)/(x-1) or 3/(2(x+4))."
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Reasoning",
+   "stem": "The expression $\\frac{3-2x}{2x-3}$ can be written as $\\frac{-1(-3+2x)}{2x-3} = \\frac{-1(2x-3)}{2x-3}$, which cancels to $-1$. Use this idea to simplify these algebraic fractions.",
+   "type": "expression",
+   "prompt": "$\\frac{6x-1}{1-6x}$",
+   "answer": "-1",
+   "form": "simplified"
+  },
+  {
+   "id": "q9c",
+   "label": "9c",
+   "section": "Reasoning",
+   "stem": "The expression $\\frac{3-2x}{2x-3}$ can be written as $\\frac{-1(-3+2x)}{2x-3} = \\frac{-1(2x-3)}{2x-3}$, which cancels to $-1$. Use this idea to simplify these algebraic fractions.",
+   "type": "expression",
+   "prompt": "$\\frac{6x+18}{-3-x}$",
+   "answer": "-6",
+   "form": "simplified"
+  },
+  {
+   "id": "q9d",
+   "label": "9d",
+   "section": "Reasoning",
+   "stem": "The expression $\\frac{3-2x}{2x-3}$ can be written as $\\frac{-1(-3+2x)}{2x-3} = \\frac{-1(2x-3)}{2x-3}$, which cancels to $-1$. Use this idea to simplify these algebraic fractions.",
+   "type": "expression",
+   "prompt": "$\\frac{x+4}{-8-2x}$",
+   "answer": "-1/2",
+   "form": "simplified"
+  },
+  {
+   "id": "q9e",
+   "label": "9e",
+   "section": "Reasoning",
+   "stem": "The expression $\\frac{3-2x}{2x-3}$ can be written as $\\frac{-1(-3+2x)}{2x-3} = \\frac{-1(2x-3)}{2x-3}$, which cancels to $-1$. Use this idea to simplify these algebraic fractions.",
+   "type": "expression",
+   "prompt": "$\\frac{7-2x}{10x-35}$",
+   "answer": "-1/5",
+   "form": "simplified"
+  },
+  {
+   "id": "q9f",
+   "label": "9f",
+   "section": "Reasoning",
+   "stem": "The expression $\\frac{3-2x}{2x-3}$ can be written as $\\frac{-1(-3+2x)}{2x-3} = \\frac{-1(2x-3)}{2x-3}$, which cancels to $-1$. Use this idea to simplify these algebraic fractions.",
+   "type": "expression",
+   "prompt": "$\\frac{x^2-16}{4-x}$",
+   "answer": "-x-4",
+   "form": "simplified",
+   "accept": [
+    "-(x+4)"
+   ]
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Enrichment",
+   "stem": "Use your knowledge of factorisation and the ideas in Questions 8 and 9 to simplify these algebraic fractions.",
+   "type": "expression",
+   "prompt": "$\\frac{3x^2-3x-36}{20-5x}$",
+   "answer": "-3(x+3)/5",
+   "form": "simplified",
+   "accept": [
+    "(-3x-9)/5",
+    "-(3x+9)/5"
+   ],
+   "hint": "Type one fraction, with brackets round any top or bottom that has more than one term, for example (2x+3)/(x-1) or 3/(2(x+4))."
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Enrichment",
+   "stem": "Use your knowledge of factorisation and the ideas in Questions 8 and 9 to simplify these algebraic fractions.",
+   "type": "expression",
+   "prompt": "$\\frac{x^2-10x+25}{15-3x}$",
+   "answer": "(5-x)/3",
+   "form": "simplified",
+   "accept": [
+    "-(x-5)/3"
+   ]
+  },
+  {
+   "id": "q10c",
+   "label": "10c",
+   "section": "Enrichment",
+   "stem": "Use your knowledge of factorisation and the ideas in Questions 8 and 9 to simplify these algebraic fractions.",
+   "type": "expression",
+   "prompt": "$\\frac{x^2-14x+49}{49-x^2}$",
+   "answer": "(7-x)/(x+7)",
+   "form": "simplified",
+   "accept": [
+    "-(x-7)/(x+7)",
+    "(x-7)/(-x-7)"
+   ]
+  },
+  {
+   "id": "q10d",
+   "label": "10d",
+   "section": "Enrichment",
+   "stem": "Use your knowledge of factorisation and the ideas in Questions 8 and 9 to simplify these algebraic fractions.",
+   "type": "expression",
+   "prompt": "$\\frac{9-x^2}{x^2+x-12} \\times \\frac{3x+12}{x^2+6x+9}$",
+   "answer": "-3/(x+3)",
+   "form": "simplified",
+   "accept": [
+    "3/(-x-3)"
+   ]
+  },
+  {
+   "id": "q10e",
+   "label": "10e",
+   "section": "Enrichment",
+   "stem": "Use your knowledge of factorisation and the ideas in Questions 8 and 9 to simplify these algebraic fractions.",
+   "type": "expression",
+   "prompt": "$\\frac{3x^2-12}{x^2-4x+4} \\times \\frac{4-2x}{x^2+4x+4}$",
+   "answer": "-6/(x+2)",
+   "form": "simplified",
+   "accept": [
+    "6/(-x-2)"
+   ]
+  },
+  {
+   "id": "q10f",
+   "label": "10f",
+   "section": "Enrichment",
+   "stem": "Use your knowledge of factorisation and the ideas in Questions 8 and 9 to simplify these algebraic fractions.",
+   "type": "expression",
+   "prompt": "$\\frac{x^2-6x+9}{6-2x} \\div \\frac{9-x^2}{2x^2+12x+18}$",
+   "answer": "x+3",
+   "form": "simplified"
+  },
+  {
+   "id": "q10g",
+   "label": "10g",
+   "section": "Enrichment",
+   "stem": "Use your knowledge of factorisation and the ideas in Questions 8 and 9 to simplify these algebraic fractions.",
+   "type": "expression",
+   "prompt": "$\\frac{9x^2-4}{x^2-4x} \\div \\frac{4-6x}{12-3x}$",
+   "answer": "3(3x+2)/(2x)",
+   "form": "simplified",
+   "accept": [
+    "(9x+6)/(2x)"
+   ]
+  },
+  {
+   "id": "q10h",
+   "label": "10h",
+   "section": "Enrichment",
+   "stem": "Use your knowledge of factorisation and the ideas in Questions 8 and 9 to simplify these algebraic fractions.",
+   "type": "expression",
+   "prompt": "$\\frac{x^2-6x+9}{12-4x} \\times \\frac{-3}{9-x^2}$",
+   "answer": "-3/(4(x+3))",
+   "form": "simplified",
+   "accept": [
+    "-3/(4x+12)",
+    "3/(-4x-12)"
+   ]
+  },
+  {
+   "id": "q10i",
+   "label": "10i",
+   "section": "Enrichment",
+   "stem": "Use your knowledge of factorisation and the ideas in Questions 8 and 9 to simplify these algebraic fractions.",
+   "type": "expression",
+   "prompt": "$\\frac{(x+3)^2-9}{(2-x)^2} \\times \\frac{x^2-4x+4}{2x+12}$",
+   "answer": "x/2",
+   "form": "simplified"
+  },
+  {
+   "id": "q10j",
+   "label": "10j",
+   "section": "Enrichment",
+   "stem": "Use your knowledge of factorisation and the ideas in Questions 8 and 9 to simplify these algebraic fractions.",
+   "type": "expression",
+   "prompt": "$\\frac{3(x-2)^2-27}{x^2-8x+15} \\div \\frac{x^2-1}{5-x}$",
+   "answer": "-3(x-5)/((x-3)(x-1))",
+   "form": "simplified",
+   "accept": [
+    "-3(x-5)/(x^2-4x+3)",
+    "(15-3x)/((x-3)(x-1))",
+    "-(3x-15)/((x-3)(x-1))",
+    "(15-3x)/(x^2-4x+3)",
+    "-(3x-15)/(x^2-4x+3)"
+   ]
+  }
+ ]
+},
+{
+ "id": "y9-8i",
+ "year": 9,
+ "chapter": "Chapter 8: Algebraic techniques",
+ "title": "8I Simplifying algebraic fractions: Addition and subtraction",
+ "description": "Add and subtract algebraic fractions by finding the lowest common denominator, with numbers or pronumerals in the denominators.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{x}{5} + \\frac{x}{3}$",
+   "answer": "8x/15",
+   "form": "simplified",
+   "accept": [
+    "(8x)/15"
+   ],
+   "hint": "Type the answer as one fraction, for example 7x/12 or (5x+2)/6."
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{x}{4} + \\frac{x}{12}$",
+   "answer": "x/3",
+   "form": "simplified"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{x}{3} - \\frac{x}{9}$",
+   "answer": "2x/9",
+   "form": "simplified",
+   "accept": [
+    "(2x)/9"
+   ]
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{x}{7} + \\frac{x}{6}$",
+   "answer": "13x/42",
+   "form": "simplified",
+   "accept": [
+    "(13x)/42"
+   ]
+  },
+  {
+   "id": "q1e",
+   "label": "1e",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{y}{5} - \\frac{y}{6}$",
+   "answer": "y/30",
+   "form": "simplified"
+  },
+  {
+   "id": "q1f",
+   "label": "1f",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{a}{3} + \\frac{a}{10}$",
+   "answer": "13a/30",
+   "form": "simplified",
+   "accept": [
+    "(13a)/30"
+   ]
+  },
+  {
+   "id": "q1g",
+   "label": "1g",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{b}{4} - \\frac{b}{12}$",
+   "answer": "b/6",
+   "form": "simplified"
+  },
+  {
+   "id": "q1h",
+   "label": "1h",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{m}{5} - \\frac{m}{10}$",
+   "answer": "m/10",
+   "form": "simplified"
+  },
+  {
+   "id": "q1i",
+   "label": "1i",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{m}{8} + \\frac{3m}{4}$",
+   "answer": "7m/8",
+   "form": "simplified",
+   "accept": [
+    "(7m)/8"
+   ]
+  },
+  {
+   "id": "q1j",
+   "label": "1j",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{a}{6} + \\frac{2a}{9}$",
+   "answer": "7a/18",
+   "form": "simplified",
+   "accept": [
+    "(7a)/18"
+   ]
+  },
+  {
+   "id": "q1k",
+   "label": "1k",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{3x}{4} + \\frac{x}{8}$",
+   "answer": "7x/8",
+   "form": "simplified",
+   "accept": [
+    "(7x)/8"
+   ]
+  },
+  {
+   "id": "q1l",
+   "label": "1l",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{p}{6} - \\frac{2p}{5}$",
+   "answer": "-7p/30",
+   "form": "simplified",
+   "accept": [
+    "-(7p)/30"
+   ]
+  },
+  {
+   "id": "q1m",
+   "label": "1m",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{b}{3} - \\frac{5b}{8}$",
+   "answer": "-7b/24",
+   "form": "simplified",
+   "accept": [
+    "-(7b)/24"
+   ]
+  },
+  {
+   "id": "q1n",
+   "label": "1n",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{7y}{6} + \\frac{3y}{4}$",
+   "answer": "23y/12",
+   "form": "simplified",
+   "accept": [
+    "(23y)/12"
+   ]
+  },
+  {
+   "id": "q1o",
+   "label": "1o",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{5x}{8} - \\frac{x}{6}$",
+   "answer": "11x/24",
+   "form": "simplified",
+   "accept": [
+    "(11x)/24"
+   ]
+  },
+  {
+   "id": "q1p",
+   "label": "1p",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{4x}{5} - \\frac{x}{2}$",
+   "answer": "3x/10",
+   "form": "simplified",
+   "accept": [
+    "(3x)/10"
+   ]
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{x+2}{3} + \\frac{x+1}{4}$",
+   "answer": "(7x+11)/12",
+   "form": "simplified",
+   "hint": "Type one fraction, with brackets round any top or bottom that has more than one term, for example (2x+3)/(x-1) or 3/(2(x+4))."
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{x+4}{2} + \\frac{x-3}{5}$",
+   "answer": "(7x+14)/10",
+   "form": "simplified",
+   "accept": [
+    "7(x+2)/10"
+   ]
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{a-3}{5} + \\frac{a-4}{6}$",
+   "answer": "(11a-38)/30",
+   "form": "simplified"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{y+5}{3} + \\frac{y-2}{4}$",
+   "answer": "(7y+14)/12",
+   "form": "simplified",
+   "accept": [
+    "7(y+2)/12"
+   ]
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{m-3}{6} + \\frac{m+5}{4}$",
+   "answer": "(5m+9)/12",
+   "form": "simplified"
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{x-4}{10} + \\frac{x-1}{6}$",
+   "answer": "(8x-17)/30",
+   "form": "simplified"
+  },
+  {
+   "id": "q2g",
+   "label": "2g",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{3b-2}{4} + \\frac{b+3}{6}$",
+   "answer": "11b/12",
+   "form": "simplified",
+   "accept": [
+    "(11b)/12"
+   ]
+  },
+  {
+   "id": "q2h",
+   "label": "2h",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{2x+5}{4} + \\frac{3x-1}{6}$",
+   "answer": "(12x+13)/12",
+   "form": "simplified"
+  },
+  {
+   "id": "q2i",
+   "label": "2i",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{3y-4}{5} + \\frac{2y+1}{10}$",
+   "answer": "(8y-7)/10",
+   "form": "simplified"
+  },
+  {
+   "id": "q2j",
+   "label": "2j",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{3t-1}{6} + \\frac{t-4}{12}$",
+   "answer": "(7t-6)/12",
+   "form": "simplified"
+  },
+  {
+   "id": "q2k",
+   "label": "2k",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{5-x}{4} + \\frac{3-x}{6}$",
+   "answer": "(21-5x)/12",
+   "form": "simplified",
+   "accept": [
+    "-(5x-21)/12"
+   ]
+  },
+  {
+   "id": "q2l",
+   "label": "2l",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{3m-2}{8} + \\frac{m-1}{6}$",
+   "answer": "(13m-10)/24",
+   "form": "simplified"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{4}{x} + \\frac{3}{2x}$",
+   "answer": "11/(2x)",
+   "form": "simplified",
+   "hint": "Type one fraction, with brackets round any top or bottom that has more than one term, for example (2x+3)/(x-1) or 3/(2(x+4))."
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{5}{2x} - \\frac{3}{x}$",
+   "answer": "-1/(2x)",
+   "form": "simplified"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{5}{6x} - \\frac{4}{3x}$",
+   "answer": "-1/(2x)",
+   "form": "simplified"
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{2}{5x} + \\frac{3}{10x}$",
+   "answer": "7/(10x)",
+   "form": "simplified"
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{2}{3x} - \\frac{1}{4x}$",
+   "answer": "5/(12x)",
+   "form": "simplified"
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{3}{4x} + \\frac{2}{3x}$",
+   "answer": "17/(12x)",
+   "form": "simplified"
+  },
+  {
+   "id": "q3g",
+   "label": "3g",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{-5}{6x} - \\frac{2}{x}$",
+   "answer": "-17/(6x)",
+   "form": "simplified"
+  },
+  {
+   "id": "q3h",
+   "label": "3h",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{-4}{5x} - \\frac{2}{3x}$",
+   "answer": "-22/(15x)",
+   "form": "simplified"
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{4}{x} + \\frac{3}{x^2}$",
+   "answer": "(4x+3)/x^2",
+   "form": "simplified",
+   "accept": [
+    "(4x+3)/(x^2)"
+   ],
+   "hint": "Type one fraction, with brackets round any top or bottom that has more than one term, for example (2x+3)/(x-1) or 3/(2(x+4)). Type x squared as x^2."
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{2}{x^2} + \\frac{5}{x}$",
+   "answer": "(5x+2)/x^2",
+   "form": "simplified",
+   "accept": [
+    "(5x+2)/(x^2)"
+   ]
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{6}{x} + \\frac{5}{x^2}$",
+   "answer": "(6x+5)/x^2",
+   "form": "simplified",
+   "accept": [
+    "(6x+5)/(x^2)"
+   ]
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{3}{x} - \\frac{7}{x^2}$",
+   "answer": "(3x-7)/x^2",
+   "form": "simplified",
+   "accept": [
+    "(3x-7)/(x^2)"
+   ]
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{5}{x^2} - \\frac{4}{x}$",
+   "answer": "(5-4x)/x^2",
+   "form": "simplified",
+   "accept": [
+    "-(4x-5)/x^2",
+    "(5-4x)/(x^2)"
+   ]
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$-\\frac{2}{x^2} + \\frac{3}{x}$",
+   "answer": "(3x-2)/x^2",
+   "form": "simplified",
+   "accept": [
+    "(3x-2)/(x^2)"
+   ]
+  },
+  {
+   "id": "q4g",
+   "label": "4g",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{4}{x} - \\frac{5}{3x^2}$",
+   "answer": "(12x-5)/(3x^2)",
+   "form": "simplified"
+  },
+  {
+   "id": "q4h",
+   "label": "4h",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$-\\frac{3}{4x} + \\frac{2}{x^2}$",
+   "answer": "(8-3x)/(4x^2)",
+   "form": "simplified",
+   "accept": [
+    "-(3x-8)/(4x^2)"
+   ]
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Problem-solving",
+   "stem": "Simplify these mixed algebraic fractions.",
+   "type": "expression",
+   "prompt": "$\\frac{3}{x} + \\frac{x}{5}$",
+   "answer": "(x^2+15)/(5x)",
+   "form": "simplified",
+   "hint": "Type one fraction, with brackets round any top or bottom that has more than one term, for example (2x+3)/(x-1) or 3/(2(x+4))."
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Problem-solving",
+   "stem": "Simplify these mixed algebraic fractions.",
+   "type": "expression",
+   "prompt": "$\\frac{-4}{x} + \\frac{x}{3}$",
+   "answer": "(x^2-12)/(3x)",
+   "form": "simplified"
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Problem-solving",
+   "stem": "Simplify these mixed algebraic fractions.",
+   "type": "expression",
+   "prompt": "$\\frac{-3}{x} - \\frac{2x}{5}$",
+   "answer": "(-2x^2-15)/(5x)",
+   "form": "simplified",
+   "accept": [
+    "-(2x^2+15)/(5x)"
+   ]
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Problem-solving",
+   "stem": "Simplify these mixed algebraic fractions.",
+   "type": "expression",
+   "prompt": "$\\frac{5}{3x} - \\frac{3x}{2}$",
+   "answer": "(10-9x^2)/(6x)",
+   "form": "simplified",
+   "accept": [
+    "-(9x^2-10)/(6x)"
+   ]
+  },
+  {
+   "id": "q5e",
+   "label": "5e",
+   "section": "Problem-solving",
+   "stem": "Simplify these mixed algebraic fractions.",
+   "type": "expression",
+   "prompt": "$\\frac{2x}{3} - \\frac{3}{4x}$",
+   "answer": "(8x^2-9)/(12x)",
+   "form": "simplified"
+  },
+  {
+   "id": "q5f",
+   "label": "5f",
+   "section": "Problem-solving",
+   "stem": "Simplify these mixed algebraic fractions.",
+   "type": "expression",
+   "prompt": "$\\frac{1}{2x} - \\frac{x}{7}$",
+   "answer": "(7-2x^2)/(14x)",
+   "form": "simplified",
+   "accept": [
+    "-(2x^2-7)/(14x)"
+   ]
+  },
+  {
+   "id": "q5g",
+   "label": "5g",
+   "section": "Problem-solving",
+   "stem": "Simplify these mixed algebraic fractions.",
+   "type": "expression",
+   "prompt": "$-\\frac{3}{4x} + \\frac{5x}{6}$",
+   "answer": "(10x^2-9)/(12x)",
+   "form": "simplified"
+  },
+  {
+   "id": "q5h",
+   "label": "5h",
+   "section": "Problem-solving",
+   "stem": "Simplify these mixed algebraic fractions.",
+   "type": "expression",
+   "prompt": "$-\\frac{2}{3x} - \\frac{4x}{9}$",
+   "answer": "(-4x^2-6)/(9x)",
+   "form": "simplified",
+   "accept": [
+    "-2(2x^2+3)/(9x)",
+    "-(4x^2+6)/(9x)"
+   ]
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Problem-solving",
+   "stem": "Find the missing algebraic fraction. Give it in simplest form.",
+   "type": "expression",
+   "prompt": "$\\frac{x}{3} + \\frac{\\square}{\\square} = \\frac{7x}{12}$",
+   "answer": "x/4",
+   "form": "simplified",
+   "hint": "Type the missing fraction, for example 2x/3."
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Problem-solving",
+   "stem": "Find the missing algebraic fraction. Give it in simplest form.",
+   "type": "expression",
+   "prompt": "$\\frac{\\square}{\\square} + \\frac{x}{5} = \\frac{7x}{10}$",
+   "answer": "x/2",
+   "form": "simplified"
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Problem-solving",
+   "stem": "Find the missing algebraic fraction. Give it in simplest form.",
+   "type": "expression",
+   "prompt": "$\\frac{3x}{4} + \\frac{\\square}{\\square} = \\frac{7x}{8}$",
+   "answer": "x/8",
+   "form": "simplified"
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Problem-solving",
+   "stem": "Find the missing algebraic fraction. Give it in simplest form.",
+   "type": "expression",
+   "prompt": "$\\frac{3x}{4} - \\frac{\\square}{\\square} = \\frac{7x}{20}$",
+   "answer": "2x/5",
+   "form": "simplified",
+   "accept": [
+    "(2x)/5"
+   ]
+  },
+  {
+   "id": "q6e",
+   "label": "6e",
+   "section": "Problem-solving",
+   "stem": "Find the missing algebraic fraction. Give it in simplest form.",
+   "type": "expression",
+   "prompt": "$\\frac{\\square}{\\square} - \\frac{x}{4} = \\frac{5x}{12}$",
+   "answer": "2x/3",
+   "form": "simplified",
+   "accept": [
+    "(2x)/3"
+   ]
+  },
+  {
+   "id": "q6f",
+   "label": "6f",
+   "section": "Problem-solving",
+   "stem": "Find the missing algebraic fraction. Give it in simplest form.",
+   "type": "expression",
+   "prompt": "$\\frac{5x}{6} - \\frac{\\square}{\\square} = \\frac{7x}{18}$",
+   "answer": "4x/9",
+   "form": "simplified",
+   "accept": [
+    "(4x)/9"
+   ]
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Problem-solving",
+   "stem": "A hiker walks $x$ metres up a hill at $\\frac{4}{3}$ m/s and then walks back down the same path to the start at $2$ m/s.",
+   "type": "expression",
+   "prompt": "Write a simplified expression for the total time, in seconds, for the walk in terms of $x$.",
+   "answer": "5x/4",
+   "form": "simplified",
+   "accept": [
+    "(5x)/4"
+   ],
+   "hint": "Time = distance ÷ speed. Type one fraction, for example 5x/8."
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Problem-solving",
+   "stem": "A hiker walks $x$ metres up a hill at $\\frac{4}{3}$ m/s and then walks back down the same path to the start at $2$ m/s.",
+   "type": "numeric",
+   "prompt": "Use your answer to part a to find the time taken if $x = 120$.",
+   "answer": "150",
+   "units": "s"
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Reasoning",
+   "stem": "Each set of working below has an error. Find the correct answer.",
+   "type": "expression",
+   "prompt": "Working: $\\frac{7x}{8} - \\frac{x}{3} = \\frac{6x}{5}$ Write the correct simplified answer.",
+   "answer": "13x/24",
+   "form": "simplified",
+   "accept": [
+    "(13x)/24"
+   ]
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Reasoning",
+   "stem": "Each set of working below has an error. Find the correct answer.",
+   "type": "expression",
+   "prompt": "Working: $\\frac{x+2}{3} + \\frac{x}{4} = \\frac{4x+2}{12} + \\frac{3x}{12} = \\frac{7x+2}{12}$ Write the correct simplified answer.",
+   "answer": "(7x+8)/12",
+   "form": "simplified"
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Reasoning",
+   "stem": "Each set of working below has an error. Find the correct answer.",
+   "type": "expression",
+   "prompt": "Working: $\\frac{4x}{5} + \\frac{x-3}{2} = \\frac{8x}{10} + \\frac{5x-3}{10} = \\frac{13x-3}{10}$ Write the correct simplified answer.",
+   "answer": "(13x-15)/10",
+   "form": "simplified"
+  },
+  {
+   "id": "q8d",
+   "label": "8d",
+   "section": "Reasoning",
+   "stem": "Each set of working below has an error. Find the correct answer.",
+   "type": "expression",
+   "prompt": "Working: $\\frac{4}{x} - \\frac{5}{x^2} = \\frac{4}{x^2} - \\frac{5}{x^2} = \\frac{-1}{x^2}$ Write the correct simplified answer.",
+   "answer": "(4x-5)/x^2",
+   "form": "simplified",
+   "accept": [
+    "(4x-5)/(x^2)"
+   ]
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Reasoning",
+   "stem": "A student thinks that the lowest common denominator to use when simplifying $\\frac{x+3}{2} + \\frac{3x-1}{4}$ is $8$.",
+   "type": "expression",
+   "prompt": "Using a common denominator of $8$, the sum is $\\frac{\\square}{8}$. Write the expanded numerator.",
+   "answer": "10x+10",
+   "form": "expanded",
+   "hint": "Type just the top of the fraction, for example 6x+4."
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Reasoning",
+   "stem": "A student thinks that the lowest common denominator to use when simplifying $\\frac{x+3}{2} + \\frac{3x-1}{4}$ is $8$.",
+   "type": "expression",
+   "prompt": "Now simplify the sum using the actual lowest common denominator of $4$.",
+   "answer": "(5x+5)/4",
+   "form": "simplified",
+   "accept": [
+    "5(x+1)/4"
+   ]
+  },
+  {
+   "id": "q9c",
+   "label": "9c",
+   "section": "Reasoning",
+   "stem": "A student thinks that the lowest common denominator to use when simplifying $\\frac{x+3}{2} + \\frac{3x-1}{4}$ is $8$.",
+   "type": "choice",
+   "prompt": "Once each answer is fully simplified, do the two methods give the same answer?",
+   "answer": 0,
+   "options": [
+    "Yes, they give the same answer",
+    "No, they give different answers"
+   ]
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Enrichment",
+   "stem": "Simplify by first finding the lowest common denominator.",
+   "type": "expression",
+   "prompt": "$\\frac{3x}{4} - \\frac{5x}{6} - \\frac{x}{3}$",
+   "answer": "-5x/12",
+   "form": "simplified",
+   "accept": [
+    "-(5x)/12"
+   ],
+   "hint": "Type one fraction, with brackets round any top or bottom that has more than one term, for example (2x+3)/(x-1) or 3/(2(x+4))."
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Enrichment",
+   "stem": "Simplify by first finding the lowest common denominator.",
+   "type": "expression",
+   "prompt": "$\\frac{x}{2} - \\frac{3x}{5} + \\frac{7x}{10}$",
+   "answer": "3x/5",
+   "form": "simplified",
+   "accept": [
+    "(3x)/5"
+   ]
+  },
+  {
+   "id": "q10c",
+   "label": "10c",
+   "section": "Enrichment",
+   "stem": "Simplify by first finding the lowest common denominator.",
+   "type": "expression",
+   "prompt": "$\\frac{3x}{8} - \\frac{x}{6} + \\frac{5x}{12}$",
+   "answer": "5x/8",
+   "form": "simplified",
+   "accept": [
+    "(5x)/8"
+   ]
+  },
+  {
+   "id": "q10d",
+   "label": "10d",
+   "section": "Enrichment",
+   "stem": "Simplify by first finding the lowest common denominator.",
+   "type": "expression",
+   "prompt": "$\\frac{x+2}{3} + \\frac{3x-1}{5} - \\frac{x}{2}$",
+   "answer": "(13x+14)/30",
+   "form": "simplified"
+  },
+  {
+   "id": "q10e",
+   "label": "10e",
+   "section": "Enrichment",
+   "stem": "Simplify by first finding the lowest common denominator.",
+   "type": "expression",
+   "prompt": "$\\frac{3x-2}{4} - \\frac{3x}{5} + \\frac{x-4}{10}$",
+   "answer": "(5x-18)/20",
+   "form": "simplified"
+  },
+  {
+   "id": "q10f",
+   "label": "10f",
+   "section": "Enrichment",
+   "stem": "Simplify by first finding the lowest common denominator.",
+   "type": "expression",
+   "prompt": "$\\frac{2-3x}{4} - \\frac{2x}{3} + \\frac{2x+1}{6}$",
+   "answer": "(8-13x)/12",
+   "form": "simplified",
+   "accept": [
+    "-(13x-8)/12"
+   ]
+  },
+  {
+   "id": "q10g",
+   "label": "10g",
+   "section": "Enrichment",
+   "stem": "Simplify by first finding the lowest common denominator.",
+   "type": "expression",
+   "prompt": "$\\frac{3}{4x} + \\frac{2}{x} - \\frac{5}{x}$",
+   "answer": "-9/(4x)",
+   "form": "simplified"
+  },
+  {
+   "id": "q10h",
+   "label": "10h",
+   "section": "Enrichment",
+   "stem": "Simplify by first finding the lowest common denominator.",
+   "type": "expression",
+   "prompt": "$-\\frac{3}{4x} + \\frac{1}{x} - \\frac{2}{3x}$",
+   "answer": "-5/(12x)",
+   "form": "simplified"
+  },
+  {
+   "id": "q10i",
+   "label": "10i",
+   "section": "Enrichment",
+   "stem": "Simplify by first finding the lowest common denominator.",
+   "type": "expression",
+   "prompt": "$-\\frac{2}{3x} - \\frac{3}{4x} + \\frac{5}{6x}$",
+   "answer": "-7/(12x)",
+   "form": "simplified"
+  },
+  {
+   "id": "q10j",
+   "label": "10j",
+   "section": "Enrichment",
+   "stem": "Simplify by first finding the lowest common denominator.",
+   "type": "expression",
+   "prompt": "$\\frac{2}{x^2} + \\frac{5}{3x} - \\frac{1}{4x}$",
+   "answer": "(17x+24)/(12x^2)",
+   "form": "simplified"
+  },
+  {
+   "id": "q10k",
+   "label": "10k",
+   "section": "Enrichment",
+   "stem": "Simplify by first finding the lowest common denominator.",
+   "type": "expression",
+   "prompt": "$\\frac{3}{x} - \\frac{4}{3x^2} - \\frac{2}{5x}$",
+   "answer": "(39x-20)/(15x^2)",
+   "form": "simplified"
+  },
+  {
+   "id": "q10l",
+   "label": "10l",
+   "section": "Enrichment",
+   "stem": "Simplify by first finding the lowest common denominator.",
+   "type": "expression",
+   "prompt": "$\\frac{3}{x^2} - \\frac{5}{6x} - \\frac{1}{2x^2}$",
+   "answer": "(15-5x)/(6x^2)",
+   "form": "simplified",
+   "accept": [
+    "-5(x-3)/(6x^2)",
+    "-(5x-15)/(6x^2)"
+   ]
+  },
+  {
+   "id": "q10m",
+   "label": "10m",
+   "section": "Enrichment",
+   "stem": "Simplify by first finding the lowest common denominator.",
+   "type": "expression",
+   "prompt": "$\\frac{3}{x} + \\frac{x}{4} - \\frac{x}{6}$",
+   "answer": "(x^2+36)/(12x)",
+   "form": "simplified"
+  },
+  {
+   "id": "q10n",
+   "label": "10n",
+   "section": "Enrichment",
+   "stem": "Simplify by first finding the lowest common denominator.",
+   "type": "expression",
+   "prompt": "$\\frac{5x}{4} - \\frac{3}{4x} + \\frac{x}{6}$",
+   "answer": "(17x^2-9)/(12x)",
+   "form": "simplified"
+  },
+  {
+   "id": "q10o",
+   "label": "10o",
+   "section": "Enrichment",
+   "stem": "Simplify by first finding the lowest common denominator.",
+   "type": "expression",
+   "prompt": "$-\\frac{2x}{3} + \\frac{3}{4x} + \\frac{3x}{7}$",
+   "answer": "(63-20x^2)/(84x)",
+   "form": "simplified",
+   "accept": [
+    "-(20x^2-63)/(84x)"
+   ]
+  }
+ ]
+},
+{
+ "id": "y9-8j",
+ "year": 9,
+ "chapter": "Chapter 8: Algebraic techniques",
+ "title": "8J Further simplification of algebraic fractions",
+ "description": "Add and subtract algebraic fractions with binomial numerators and denominators, including repeated and factorised denominators.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{x+4}{5} - \\frac{x+1}{3}$",
+   "answer": "(7-2x)/15",
+   "form": "simplified",
+   "accept": [
+    "-(2x-7)/15"
+   ],
+   "hint": "Type one fraction, with brackets round any top or bottom that has more than one term, for example (2x+3)/(x-1) or 3/(2(x+4)). Watch the sign of every term after a minus."
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{x-2}{4} - \\frac{x+5}{3}$",
+   "answer": "(-x-26)/12",
+   "form": "simplified",
+   "accept": [
+    "-(x+26)/12"
+   ]
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{x-3}{2} - \\frac{x+2}{5}$",
+   "answer": "(3x-19)/10",
+   "form": "simplified"
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{4-x}{3} - \\frac{x+2}{4}$",
+   "answer": "(10-7x)/12",
+   "form": "simplified",
+   "accept": [
+    "-(7x-10)/12"
+   ]
+  },
+  {
+   "id": "q1e",
+   "label": "1e",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{3x-1}{5} - \\frac{4+x}{10}$",
+   "answer": "(5x-6)/10",
+   "form": "simplified"
+  },
+  {
+   "id": "q1f",
+   "label": "1f",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{2x+5}{12} - \\frac{x+3}{8}$",
+   "answer": "(x+1)/24",
+   "form": "simplified"
+  },
+  {
+   "id": "q1g",
+   "label": "1g",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{2+5x}{3} - \\frac{3x+1}{4}$",
+   "answer": "(11x+5)/12",
+   "form": "simplified"
+  },
+  {
+   "id": "q1h",
+   "label": "1h",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{3-x}{4} - \\frac{2x+3}{5}$",
+   "answer": "(3-13x)/20",
+   "form": "simplified",
+   "accept": [
+    "-(13x-3)/20"
+   ]
+  },
+  {
+   "id": "q1i",
+   "label": "1i",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{3x-1}{10} - \\frac{5+x}{4}$",
+   "answer": "(x-27)/20",
+   "form": "simplified"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{x+3}{4} - \\frac{x-2}{3}$",
+   "answer": "(17-x)/12",
+   "form": "simplified",
+   "accept": [
+    "-(x-17)/12"
+   ],
+   "hint": "Type one fraction, with brackets round any top or bottom that has more than one term, for example (2x+3)/(x-1) or 3/(2(x+4))."
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{x-5}{3} - \\frac{x-4}{5}$",
+   "answer": "(2x-13)/15",
+   "form": "simplified"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{5x-3}{6} - \\frac{x-2}{3}$",
+   "answer": "(3x+1)/6",
+   "form": "simplified"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{4x-7}{5} - \\frac{3-x}{2}$",
+   "answer": "(13x-29)/10",
+   "form": "simplified"
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{5x+1}{6} - \\frac{4-x}{9}$",
+   "answer": "(17x-5)/18",
+   "form": "simplified"
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{7-3x}{4} - \\frac{1-x}{6}$",
+   "answer": "(19-7x)/12",
+   "form": "simplified",
+   "accept": [
+    "-(7x-19)/12"
+   ]
+  },
+  {
+   "id": "q2g",
+   "label": "2g",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{2x+5}{4} - \\frac{3-4x}{8}$",
+   "answer": "(8x+7)/8",
+   "form": "simplified"
+  },
+  {
+   "id": "q2h",
+   "label": "2h",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{3x-2}{5} - \\frac{2-5x}{15}$",
+   "answer": "(14x-8)/15",
+   "form": "simplified",
+   "accept": [
+    "2(7x-4)/15"
+   ]
+  },
+  {
+   "id": "q2i",
+   "label": "2i",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{2x-5}{6} - \\frac{3x-4}{5}$",
+   "answer": "(-8x-1)/30",
+   "form": "simplified",
+   "accept": [
+    "-(8x+1)/30"
+   ]
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{2}{x-3} + \\frac{5}{x+2}$",
+   "answer": "(7x-11)/((x-3)(x+2))",
+   "form": "simplified",
+   "accept": [
+    "(7x-11)/(x^2-x-6)"
+   ],
+   "hint": "Type one fraction, with brackets round any top or bottom that has more than one term, for example (2x+3)/(x-1) or 3/(2(x+4)). You can leave the bottom as brackets multiplied together."
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{4}{x+1} + \\frac{3}{x-5}$",
+   "answer": "(7x-17)/((x-5)(x+1))",
+   "form": "simplified",
+   "accept": [
+    "(7x-17)/(x^2-4x-5)"
+   ]
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{2}{x+4} + \\frac{3}{x-1}$",
+   "answer": "(5x+10)/((x-1)(x+4))",
+   "form": "simplified",
+   "accept": [
+    "5(x+2)/((x-1)(x+4))",
+    "5(x+2)/(x^2+3x-4)",
+    "(5x+10)/(x^2+3x-4)"
+   ]
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{5}{x-2} + \\frac{1}{x+6}$",
+   "answer": "(6x+28)/((x-2)(x+6))",
+   "form": "simplified",
+   "accept": [
+    "2(3x+14)/((x-2)(x+6))",
+    "2(3x+14)/(x^2+4x-12)",
+    "(6x+28)/(x^2+4x-12)"
+   ]
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{4}{x+3} - \\frac{2}{x+5}$",
+   "answer": "(2x+14)/((x+3)(x+5))",
+   "form": "simplified",
+   "accept": [
+    "2(x+7)/((x+3)(x+5))",
+    "2(x+7)/(x^2+8x+15)",
+    "(2x+14)/(x^2+8x+15)"
+   ]
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{5}{x-1} - \\frac{3}{x+4}$",
+   "answer": "(2x+23)/((x-1)(x+4))",
+   "form": "simplified",
+   "accept": [
+    "(2x+23)/(x^2+3x-4)"
+   ]
+  },
+  {
+   "id": "q3g",
+   "label": "3g",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{-2}{x+3} + \\frac{3}{x+4}$",
+   "answer": "(x+1)/((x+3)(x+4))",
+   "form": "simplified",
+   "accept": [
+    "(x+1)/(x^2+7x+12)"
+   ]
+  },
+  {
+   "id": "q3h",
+   "label": "3h",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{-3}{x-4} - \\frac{2}{x-1}$",
+   "answer": "(11-5x)/((x-4)(x-1))",
+   "form": "simplified",
+   "accept": [
+    "-(5x-11)/((x-4)(x-1))",
+    "(11-5x)/(x^2-5x+4)",
+    "-(5x-11)/(x^2-5x+4)"
+   ]
+  },
+  {
+   "id": "q3i",
+   "label": "3i",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{4}{x-2} - \\frac{3}{x-7}$",
+   "answer": "(x-22)/((x-7)(x-2))",
+   "form": "simplified",
+   "accept": [
+    "(x-22)/(x^2-9x+14)"
+   ]
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{3}{(x+2)^2} - \\frac{2}{x+2}$",
+   "answer": "(-2x-1)/(x+2)^2",
+   "form": "simplified",
+   "accept": [
+    "-(2x+1)/(x+2)^2",
+    "(-2x-1)/(x^2+4x+4)",
+    "-(2x+1)/(x^2+4x+4)",
+    "(-2x-1)/((x+2)^2)"
+   ],
+   "hint": "Type one fraction, with brackets round any top or bottom that has more than one term, for example (2x+3)/(x-1) or 3/(2(x+4)). Type a squared bracket as (x+2)^2."
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{5}{(x-1)^2} - \\frac{3}{x-1}$",
+   "answer": "(8-3x)/(x-1)^2",
+   "form": "simplified",
+   "accept": [
+    "-(3x-8)/(x-1)^2",
+    "(8-3x)/(x^2-2x+1)",
+    "-(3x-8)/(x^2-2x+1)",
+    "(8-3x)/((x-1)^2)"
+   ]
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{4}{x+3} + \\frac{2}{(x+3)^2}$",
+   "answer": "(4x+14)/(x+3)^2",
+   "form": "simplified",
+   "accept": [
+    "2(2x+7)/(x+3)^2",
+    "2(2x+7)/(x^2+6x+9)",
+    "(4x+14)/(x^2+6x+9)",
+    "(4x+14)/((x+3)^2)"
+   ]
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{-3}{x-4} + \\frac{5}{(x-4)^2}$",
+   "answer": "(17-3x)/(x-4)^2",
+   "form": "simplified",
+   "accept": [
+    "-(3x-17)/(x-4)^2",
+    "(17-3x)/(x^2-8x+16)",
+    "-(3x-17)/(x^2-8x+16)",
+    "(17-3x)/((x-4)^2)"
+   ]
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{-1}{x+5} + \\frac{6}{(x+5)^2}$",
+   "answer": "(1-x)/(x+5)^2",
+   "form": "simplified",
+   "accept": [
+    "-(x-1)/(x+5)^2",
+    "(1-x)/(x^2+10x+25)",
+    "-(x-1)/(x^2+10x+25)",
+    "(1-x)/((x+5)^2)"
+   ]
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{3}{(x-2)^2} - \\frac{4}{x-2}$",
+   "answer": "(11-4x)/(x-2)^2",
+   "form": "simplified",
+   "accept": [
+    "-(4x-11)/(x-2)^2",
+    "(11-4x)/(x^2-4x+4)",
+    "-(4x-11)/(x^2-4x+4)",
+    "(11-4x)/((x-2)^2)"
+   ]
+  },
+  {
+   "id": "q4g",
+   "label": "4g",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{4}{(3x+1)^2} + \\frac{3}{3x+1}$",
+   "answer": "(9x+7)/(3x+1)^2",
+   "form": "simplified",
+   "accept": [
+    "(9x+7)/(9x^2+6x+1)",
+    "(9x+7)/((3x+1)^2)"
+   ]
+  },
+  {
+   "id": "q4h",
+   "label": "4h",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{7}{(2x+3)^2} - \\frac{2}{2x+3}$",
+   "answer": "(1-4x)/(2x+3)^2",
+   "form": "simplified",
+   "accept": [
+    "-(4x-1)/(2x+3)^2",
+    "(1-4x)/(4x^2+12x+9)",
+    "-(4x-1)/(4x^2+12x+9)",
+    "(1-4x)/((2x+3)^2)"
+   ]
+  },
+  {
+   "id": "q4i",
+   "label": "4i",
+   "section": "Fluency",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{3}{(1-2x)^2} - \\frac{4}{1-2x}$",
+   "answer": "(8x-1)/(2x-1)^2",
+   "form": "simplified",
+   "accept": [
+    "(8x-1)/(4x^2-4x+1)",
+    "(8x-1)/((2x-1)^2)"
+   ]
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Problem-solving",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{2x}{(x-2)^2} + \\frac{3}{x-2}$",
+   "answer": "(5x-6)/(x-2)^2",
+   "form": "simplified",
+   "accept": [
+    "(5x-6)/(x^2-4x+4)",
+    "(5x-6)/((x-2)^2)"
+   ],
+   "hint": "Type one fraction, with brackets round any top or bottom that has more than one term, for example (2x+3)/(x-1) or 3/(2(x+4))."
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Problem-solving",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{2x+3}{4x} + \\frac{5}{6}$",
+   "answer": "(16x+9)/(12x)",
+   "form": "simplified"
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Problem-solving",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{3x-1}{6} + \\frac{3-2x}{8x}$",
+   "answer": "(12x^2-10x+9)/(24x)",
+   "form": "simplified"
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Problem-solving",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{3x}{x-4} - \\frac{x}{x+2}$",
+   "answer": "(2x^2+10x)/((x-4)(x+2))",
+   "form": "simplified",
+   "accept": [
+    "2x(x+5)/((x-4)(x+2))",
+    "2x(x+5)/(x^2-2x-8)",
+    "(2x^2+10x)/(x^2-2x-8)"
+   ]
+  },
+  {
+   "id": "q5e",
+   "label": "5e",
+   "section": "Problem-solving",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{2}{5-x} - \\frac{3x}{x-3}$",
+   "answer": "(-3x^2+13x+6)/((x-5)(x-3))",
+   "form": "simplified",
+   "accept": [
+    "-(3x^2-13x-6)/((x-5)(x-3))",
+    "(-3x^2+13x+6)/(x^2-8x+15)",
+    "-(3x^2-13x-6)/(x^2-8x+15)"
+   ]
+  },
+  {
+   "id": "q5f",
+   "label": "5f",
+   "section": "Problem-solving",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{3x+2}{(x-4)^2} + \\frac{x}{x-4}$",
+   "answer": "(x^2-x+2)/(x-4)^2",
+   "form": "simplified",
+   "accept": [
+    "(x^2-x+2)/(x^2-8x+16)",
+    "(x^2-x+2)/((x-4)^2)"
+   ]
+  },
+  {
+   "id": "q5g",
+   "label": "5g",
+   "section": "Problem-solving",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{2x-5}{(x-3)^2} - \\frac{4}{x-3}$",
+   "answer": "(7-2x)/(x-3)^2",
+   "form": "simplified",
+   "accept": [
+    "-(2x-7)/(x-3)^2",
+    "(7-2x)/(x^2-6x+9)",
+    "-(2x-7)/(x^2-6x+9)",
+    "(7-2x)/((x-3)^2)"
+   ]
+  },
+  {
+   "id": "q5h",
+   "label": "5h",
+   "section": "Problem-solving",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{-5x}{3x+2} + \\frac{2x}{x+4}$",
+   "answer": "(x^2-16x)/((x+4)(3x+2))",
+   "form": "simplified",
+   "accept": [
+    "x(x-16)/((x+4)(3x+2))",
+    "x(x-16)/(3x^2+14x+8)",
+    "(x^2-16x)/(3x^2+14x+8)"
+   ]
+  },
+  {
+   "id": "q5i",
+   "label": "5i",
+   "section": "Problem-solving",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{x}{x+2} - \\frac{4x+3}{(x+2)^2}$",
+   "answer": "(x^2-2x-3)/(x+2)^2",
+   "form": "simplified",
+   "accept": [
+    "(x-3)(x+1)/(x+2)^2",
+    "(x-3)(x+1)/(x^2+4x+4)",
+    "(x^2-2x-3)/(x^2+4x+4)",
+    "(x^2-2x-3)/((x+2)^2)"
+   ]
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Problem-solving",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{2}{(x+2)(x+3)} + \\frac{3}{(x+3)(x+6)}$",
+   "answer": "(5x+18)/((x+2)(x+3)(x+6))",
+   "form": "simplified",
+   "accept": [
+    "(5x+18)/(x^3+11x^2+36x+36)"
+   ],
+   "hint": "Type one fraction, with brackets round any top or bottom that has more than one term, for example (2x+3)/(x-1) or 3/(2(x+4))."
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Problem-solving",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{4}{(x+2)(x+3)} - \\frac{2}{(x+2)(x+5)}$",
+   "answer": "(2x+14)/((x+2)(x+3)(x+5))",
+   "form": "simplified",
+   "accept": [
+    "2(x+7)/((x+2)(x+3)(x+5))",
+    "2(x+7)/(x^3+10x^2+31x+30)",
+    "(2x+14)/(x^3+10x^2+31x+30)"
+   ]
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Problem-solving",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{3}{(x-2)(x-4)} - \\frac{5}{(x-2)(3-x)}$",
+   "answer": "(8x-29)/((x-4)(x-3)(x-2))",
+   "form": "simplified",
+   "accept": [
+    "(8x-29)/(x^3-9x^2+26x-24)"
+   ]
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Problem-solving",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{4x}{(x+2)(x-3)} - \\frac{3}{x-3}$",
+   "answer": "(x-6)/((x-3)(x+2))",
+   "form": "simplified",
+   "accept": [
+    "(x-6)/(x^2-x-6)"
+   ]
+  },
+  {
+   "id": "q6e",
+   "label": "6e",
+   "section": "Problem-solving",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{2}{x-5} + \\frac{7x}{(x-5)(2-3x)}$",
+   "answer": "(-x-4)/((x-5)(3x-2))",
+   "form": "simplified",
+   "accept": [
+    "-(x+4)/((x-5)(3x-2))",
+    "(-x-4)/(3x^2-17x+10)",
+    "-(x+4)/(3x^2-17x+10)"
+   ]
+  },
+  {
+   "id": "q6f",
+   "label": "6f",
+   "section": "Problem-solving",
+   "stem": "Simplify:",
+   "type": "expression",
+   "prompt": "$\\frac{2x}{(x+3)(3x-1)} - \\frac{x}{(x+3)(2x+1)}$",
+   "answer": "x/((2x+1)(3x-1))",
+   "form": "simplified",
+   "accept": [
+    "x/(6x^2+x-1)"
+   ]
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Reasoning",
+   "stem": "A very common error when subtracting algebraic fractions is hidden in this working: $\\frac{5x}{3} - \\frac{x-4}{2} = \\frac{10x}{6} - \\frac{3(x-4)}{6} = \\frac{10x-3x-12}{6} = \\frac{7x-12}{6}$",
+   "type": "choice",
+   "prompt": "What is the error?",
+   "answer": 2,
+   "options": [
+    "The lowest common denominator should be 5, not 6",
+    "The first fraction should be 5x/6, not 10x/6",
+    "The minus sign was not applied to the -12: it should be -3x + 12",
+    "There is no error"
+   ]
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Reasoning",
+   "stem": "A very common error when subtracting algebraic fractions is hidden in this working: $\\frac{5x}{3} - \\frac{x-4}{2} = \\frac{10x}{6} - \\frac{3(x-4)}{6} = \\frac{10x-3x-12}{6} = \\frac{7x-12}{6}$",
+   "type": "expression",
+   "prompt": "Write the correct simplified answer.",
+   "answer": "(7x+12)/6",
+   "form": "simplified"
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Reasoning",
+   "stem": "Use the fact that $a - b = -1(b - a)$ to help simplify these.",
+   "type": "expression",
+   "prompt": "$\\frac{4}{2-x} - \\frac{3}{x-2}$",
+   "answer": "-7/(x-2)",
+   "form": "simplified",
+   "accept": [
+    "7/(2-x)"
+   ],
+   "hint": "Type one fraction, with brackets round any top or bottom that has more than one term, for example (2x+3)/(x-1) or 3/(2(x+4))."
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Reasoning",
+   "stem": "Use the fact that $a - b = -1(b - a)$ to help simplify these.",
+   "type": "expression",
+   "prompt": "$\\frac{5x}{3-x} + \\frac{2}{x-3}$",
+   "answer": "(2-5x)/(x-3)",
+   "form": "simplified",
+   "accept": [
+    "-(5x-2)/(x-3)",
+    "(5x-2)/(3-x)"
+   ]
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Reasoning",
+   "stem": "Use the fact that $a - b = -1(b - a)$ to help simplify these.",
+   "type": "expression",
+   "prompt": "$\\frac{3}{5x-2} - \\frac{4}{2-5x}$",
+   "answer": "7/(5x-2)",
+   "form": "simplified"
+  },
+  {
+   "id": "q8d",
+   "label": "8d",
+   "section": "Reasoning",
+   "stem": "Use the fact that $a - b = -1(b - a)$ to help simplify these.",
+   "type": "expression",
+   "prompt": "$\\frac{2}{3-4x} + \\frac{3x}{4x-3}$",
+   "answer": "(3x-2)/(4x-3)",
+   "form": "simplified"
+  },
+  {
+   "id": "q8e",
+   "label": "8e",
+   "section": "Reasoning",
+   "stem": "Use the fact that $a - b = -1(b - a)$ to help simplify these.",
+   "type": "expression",
+   "prompt": "$\\frac{-2x}{7-2x} - \\frac{3}{2x-7}$",
+   "answer": "(2x-3)/(2x-7)",
+   "form": "simplified"
+  },
+  {
+   "id": "q8f",
+   "label": "8f",
+   "section": "Reasoning",
+   "stem": "Use the fact that $a - b = -1(b - a)$ to help simplify these.",
+   "type": "expression",
+   "prompt": "$\\frac{5}{x-8} + \\frac{3}{8-x}$",
+   "answer": "2/(x-8)",
+   "form": "simplified"
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Enrichment",
+   "stem": "Simplify these by first factorising the denominators if possible.",
+   "type": "expression",
+   "prompt": "$\\frac{4}{x+3} + \\frac{3}{2x+6}$",
+   "answer": "11/(2(x+3))",
+   "form": "simplified",
+   "accept": [
+    "11/(2x+6)"
+   ],
+   "hint": "Type one fraction, with brackets round any top or bottom that has more than one term, for example (2x+3)/(x-1) or 3/(2(x+4))."
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Enrichment",
+   "stem": "Simplify these by first factorising the denominators if possible.",
+   "type": "expression",
+   "prompt": "$\\frac{5}{2x-2} - \\frac{3}{x-1}$",
+   "answer": "-1/(2(x-1))",
+   "form": "simplified",
+   "accept": [
+    "-1/(2x-2)",
+    "1/(2-2x)"
+   ]
+  },
+  {
+   "id": "q9c",
+   "label": "9c",
+   "section": "Enrichment",
+   "stem": "Simplify these by first factorising the denominators if possible.",
+   "type": "expression",
+   "prompt": "$\\frac{2}{6x-3} - \\frac{4}{1-2x}$",
+   "answer": "14/(3(2x-1))",
+   "form": "simplified",
+   "accept": [
+    "14/(6x-3)"
+   ]
+  },
+  {
+   "id": "q9d",
+   "label": "9d",
+   "section": "Enrichment",
+   "stem": "Simplify these by first factorising the denominators if possible.",
+   "type": "expression",
+   "prompt": "$\\frac{3}{x^2-16} - \\frac{2}{x+4}$",
+   "answer": "(11-2x)/((x-4)(x+4))",
+   "form": "simplified",
+   "accept": [
+    "-(2x-11)/((x-4)(x+4))",
+    "(11-2x)/(x^2-16)",
+    "-(2x-11)/(x^2-16)",
+    "(2x-11)/(16-x^2)"
+   ]
+  },
+  {
+   "id": "q9e",
+   "label": "9e",
+   "section": "Enrichment",
+   "stem": "Simplify these by first factorising the denominators if possible.",
+   "type": "expression",
+   "prompt": "$\\frac{3}{2x+6} + \\frac{5}{x^2-9}$",
+   "answer": "(3x+1)/(2(x-3)(x+3))",
+   "form": "simplified",
+   "accept": [
+    "(3x+1)/(2x^2-18)"
+   ]
+  },
+  {
+   "id": "q9f",
+   "label": "9f",
+   "section": "Enrichment",
+   "stem": "Simplify these by first factorising the denominators if possible.",
+   "type": "expression",
+   "prompt": "$\\frac{8}{2x-3} - \\frac{5}{4x^2-9}$",
+   "answer": "(16x+19)/((2x-3)(2x+3))",
+   "form": "simplified",
+   "accept": [
+    "(16x+19)/(4x^2-9)"
+   ]
+  },
+  {
+   "id": "q9g",
+   "label": "9g",
+   "section": "Enrichment",
+   "stem": "Simplify these by first factorising the denominators if possible.",
+   "type": "expression",
+   "prompt": "$\\frac{4}{x^2+6x+8} + \\frac{3}{x^2-x-6}$",
+   "answer": "7x/((x-3)(x+2)(x+4))",
+   "form": "simplified",
+   "accept": [
+    "7x/(x^3+3x^2-10x-24)",
+    "(7x)/((x-3)(x+2)(x+4))"
+   ]
+  },
+  {
+   "id": "q9h",
+   "label": "9h",
+   "section": "Enrichment",
+   "stem": "Simplify these by first factorising the denominators if possible.",
+   "type": "expression",
+   "prompt": "$\\frac{2}{(x+2)^2-9} - \\frac{3}{x^2+10x+25}$",
+   "answer": "(13-x)/((x-1)(x+5)^2)",
+   "form": "simplified",
+   "accept": [
+    "-(x-13)/((x-1)(x+5)^2)",
+    "(13-x)/(x^3+9x^2+15x-25)",
+    "-(x-13)/(x^3+9x^2+15x-25)"
+   ]
+  },
+  {
+   "id": "q9i",
+   "label": "9i",
+   "section": "Enrichment",
+   "stem": "Simplify these by first factorising the denominators if possible.",
+   "type": "expression",
+   "prompt": "$\\frac{5}{x^2-5x+6} - \\frac{3}{6-3x}$",
+   "answer": "(x+2)/((x-3)(x-2))",
+   "form": "simplified",
+   "accept": [
+    "(x+2)/(x^2-5x+6)"
+   ]
+  },
+  {
+   "id": "q9j",
+   "label": "9j",
+   "section": "Enrichment",
+   "stem": "Simplify these by first factorising the denominators if possible.",
+   "type": "expression",
+   "prompt": "$\\frac{1}{x^2+3x} - \\frac{2}{x^2-3x}$",
+   "answer": "(-x-9)/(x(x-3)(x+3))",
+   "form": "simplified",
+   "accept": [
+    "-(x+9)/(x(x-3)(x+3))",
+    "(-x-9)/(x^3-9x)",
+    "-(x+9)/(x^3-9x)",
+    "(x+9)/(-x^3+9x)"
+   ]
+  }
+ ]
+},
+{
+ "id": "y9-8k",
+ "year": 9,
+ "chapter": "Chapter 8: Algebraic techniques",
+ "title": "8K Equations with algebraic fractions",
+ "description": "Solve equations containing algebraic fractions by multiplying by the lowest common denominator, including literal equations.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Solve each of the following equations.",
+   "type": "numeric",
+   "prompt": "$\\frac{x}{3} + \\frac{x}{4} = 14$",
+   "answer": "24",
+   "hint": "If the answer is not a whole number, type it as a fraction, for example 7/3 or -5/2."
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Solve each of the following equations.",
+   "type": "numeric",
+   "prompt": "$\\frac{x}{2} + \\frac{x}{5} = 14$",
+   "answer": "20"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "Solve each of the following equations.",
+   "type": "numeric",
+   "prompt": "$\\frac{y}{6} + \\frac{y}{3} = 9$",
+   "answer": "18"
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "Solve each of the following equations.",
+   "type": "numeric",
+   "prompt": "$\\frac{x}{3} - \\frac{2x}{5} = -2$",
+   "answer": "30"
+  },
+  {
+   "id": "q1e",
+   "label": "1e",
+   "section": "Fluency",
+   "stem": "Solve each of the following equations.",
+   "type": "numeric",
+   "prompt": "$\\frac{3m}{4} - \\frac{m}{2} = 2$",
+   "answer": "8"
+  },
+  {
+   "id": "q1f",
+   "label": "1f",
+   "section": "Fluency",
+   "stem": "Solve each of the following equations.",
+   "type": "numeric",
+   "prompt": "$\\frac{2a}{3} - \\frac{a}{4} = 5$",
+   "answer": "12"
+  },
+  {
+   "id": "q1g",
+   "label": "1g",
+   "section": "Fluency",
+   "stem": "Solve each of the following equations.",
+   "type": "numeric",
+   "prompt": "$\\frac{5x}{6} - \\frac{3x}{2} = 4$",
+   "answer": "-6"
+  },
+  {
+   "id": "q1h",
+   "label": "1h",
+   "section": "Fluency",
+   "stem": "Solve each of the following equations.",
+   "type": "numeric",
+   "prompt": "$\\frac{7a}{4} - \\frac{2a}{3} = 26$",
+   "answer": "24"
+  },
+  {
+   "id": "q1i",
+   "label": "1i",
+   "section": "Fluency",
+   "stem": "Solve each of the following equations.",
+   "type": "numeric",
+   "prompt": "$\\frac{5b}{3} + \\frac{b}{2} = 13$",
+   "answer": "6"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Solve each of the following equations.",
+   "type": "numeric",
+   "prompt": "$\\frac{x-2}{3} + \\frac{x+1}{4} = 6$",
+   "answer": "11",
+   "hint": "If the answer is not a whole number, type it as a fraction, for example 7/3 or -5/2."
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Solve each of the following equations.",
+   "type": "numeric",
+   "prompt": "$\\frac{b+2}{3} + \\frac{b-3}{2} = 4$",
+   "answer": "29/5"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Solve each of the following equations.",
+   "type": "numeric",
+   "prompt": "$\\frac{n+3}{4} + \\frac{n-1}{3} = 3$",
+   "answer": "31/7"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Solve each of the following equations.",
+   "type": "numeric",
+   "prompt": "$\\frac{a+2}{3} - \\frac{a+2}{5} = 2$",
+   "answer": "13"
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Solve each of the following equations.",
+   "type": "numeric",
+   "prompt": "$\\frac{x+4}{3} - \\frac{x-2}{5} = 4$",
+   "answer": "17"
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "Solve each of the following equations.",
+   "type": "numeric",
+   "prompt": "$\\frac{x+5}{4} - \\frac{x+1}{6} = 1$",
+   "answer": "-1"
+  },
+  {
+   "id": "q2g",
+   "label": "2g",
+   "section": "Fluency",
+   "stem": "Solve each of the following equations.",
+   "type": "numeric",
+   "prompt": "$\\frac{m+3}{2} - \\frac{m-3}{5} = 6$",
+   "answer": "13"
+  },
+  {
+   "id": "q2h",
+   "label": "2h",
+   "section": "Fluency",
+   "stem": "Solve each of the following equations.",
+   "type": "numeric",
+   "prompt": "$\\frac{3a-4}{5} + \\frac{a+2}{3} = 4$",
+   "answer": "31/7"
+  },
+  {
+   "id": "q2i",
+   "label": "2i",
+   "section": "Fluency",
+   "stem": "Solve each of the following equations.",
+   "type": "numeric",
+   "prompt": "$\\frac{3y-2}{5} - \\frac{y-3}{4} = 1$",
+   "answer": "13/7"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Solve each of the following equations.",
+   "type": "numeric",
+   "prompt": "$\\frac{x+2}{3} = \\frac{x}{4}$",
+   "answer": "-8",
+   "hint": "If the answer is not a whole number, type it as a fraction, for example 7/3 or -5/2."
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Solve each of the following equations.",
+   "type": "numeric",
+   "prompt": "$\\frac{x-3}{2} = \\frac{x}{5}$",
+   "answer": "5"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Solve each of the following equations.",
+   "type": "numeric",
+   "prompt": "$\\frac{n+4}{3} = \\frac{n-2}{2}$",
+   "answer": "14"
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Solve each of the following equations.",
+   "type": "numeric",
+   "prompt": "$\\frac{a+3}{4} = \\frac{a+1}{3}$",
+   "answer": "5"
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "Solve each of the following equations.",
+   "type": "numeric",
+   "prompt": "$\\frac{2+y}{3} = \\frac{4-y}{5}$",
+   "answer": "1/4"
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "Solve each of the following equations.",
+   "type": "numeric",
+   "prompt": "$\\frac{3m+1}{5} = \\frac{m+4}{2}$",
+   "answer": "18"
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "Solve each of the following equations.",
+   "type": "numeric",
+   "prompt": "$\\frac{5}{2x} - \\frac{1}{x} = 3$",
+   "answer": "1/2",
+   "hint": "If the answer is not a whole number, type it as a fraction, for example 7/3 or -5/2."
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "Solve each of the following equations.",
+   "type": "numeric",
+   "prompt": "$\\frac{3}{4x} - \\frac{1}{2x} = 1$",
+   "answer": "1/4"
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "Solve each of the following equations.",
+   "type": "numeric",
+   "prompt": "$\\frac{5}{3m} - \\frac{1}{2m} = 2$",
+   "answer": "7/12"
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "Solve each of the following equations.",
+   "type": "numeric",
+   "prompt": "$\\frac{1}{3x} - \\frac{1}{6x} = 4$",
+   "answer": "1/24"
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Fluency",
+   "stem": "Solve each of the following equations.",
+   "type": "numeric",
+   "prompt": "$\\frac{1}{3b} + \\frac{1}{b} = 2$",
+   "answer": "2/3"
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Fluency",
+   "stem": "Solve each of the following equations.",
+   "type": "numeric",
+   "prompt": "$\\frac{1}{4y} + \\frac{1}{2y} = 3$",
+   "answer": "1/4"
+  },
+  {
+   "id": "q4g",
+   "label": "4g",
+   "section": "Fluency",
+   "stem": "Solve each of the following equations.",
+   "type": "numeric",
+   "prompt": "$\\frac{1}{2x} + \\frac{1}{5x} = 1$",
+   "answer": "7/10"
+  },
+  {
+   "id": "q4h",
+   "label": "4h",
+   "section": "Fluency",
+   "stem": "Solve each of the following equations.",
+   "type": "numeric",
+   "prompt": "$\\frac{3}{2x} - \\frac{1}{x} = 4$",
+   "answer": "1/8"
+  },
+  {
+   "id": "q4i",
+   "label": "4i",
+   "section": "Fluency",
+   "stem": "Solve each of the following equations.",
+   "type": "numeric",
+   "prompt": "$\\frac{5}{3a} - \\frac{3}{4a} = 2$",
+   "answer": "11/24"
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Fluency",
+   "stem": "Solve each of the following equations.",
+   "type": "numeric",
+   "prompt": "$\\frac{4}{x+2} = \\frac{1}{x-1}$",
+   "answer": "2",
+   "hint": "If the answer is not a whole number, type it as a fraction, for example 7/3 or -5/2."
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Fluency",
+   "stem": "Solve each of the following equations.",
+   "type": "numeric",
+   "prompt": "$\\frac{3}{x+4} = \\frac{2}{x+1}$",
+   "answer": "5"
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Fluency",
+   "stem": "Solve each of the following equations.",
+   "type": "numeric",
+   "prompt": "$\\frac{5}{x+3} = \\frac{2}{x-3}$",
+   "answer": "7"
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Fluency",
+   "stem": "Solve each of the following equations.",
+   "type": "numeric",
+   "prompt": "$\\frac{1}{x-2} = \\frac{3}{2x+5}$",
+   "answer": "11"
+  },
+  {
+   "id": "q5e",
+   "label": "5e",
+   "section": "Fluency",
+   "stem": "Solve each of the following equations.",
+   "type": "numeric",
+   "prompt": "$\\frac{3}{x-2} = \\frac{1}{2x+1}$",
+   "answer": "-1"
+  },
+  {
+   "id": "q5f",
+   "label": "5f",
+   "section": "Fluency",
+   "stem": "Solve each of the following equations.",
+   "type": "numeric",
+   "prompt": "$\\frac{2}{x+1} = \\frac{1}{3x-2}$",
+   "answer": "1"
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Problem-solving",
+   "stem": "One-third of a number ($x$) plus one-quarter of twice the same number is equal to $10$.",
+   "type": "expression",
+   "prompt": "Write an equation describing the situation.",
+   "answer": "x/3+2x/4=10",
+   "hint": "Type an equation with =, for example x/2+x/5=7."
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Problem-solving",
+   "stem": "One-third of a number ($x$) plus one-quarter of twice the same number is equal to $10$.",
+   "type": "numeric",
+   "prompt": "Solve the equation to find the number.",
+   "answer": "12"
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Problem-solving",
+   "stem": "Tom and Ana each have the same number of stickers ($x$ stickers each). Lily has none, so she takes one-half of Tom's stickers and one-fifth of Ana's stickers, which gives her $63$ stickers.",
+   "type": "expression",
+   "prompt": "Write an equation for the total number of stickers Lily has.",
+   "answer": "x/2+x/5=63",
+   "hint": "Type an equation with =, for example x/3+x/4=21."
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Problem-solving",
+   "stem": "Tom and Ana each have the same number of stickers ($x$ stickers each). Lily has none, so she takes one-half of Tom's stickers and one-fifth of Ana's stickers, which gives her $63$ stickers.",
+   "type": "numeric",
+   "prompt": "Solve the equation to find how many stickers Tom and Ana each had.",
+   "answer": "90"
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Problem-solving",
+   "stem": "Use all the methods you have learnt to solve these equations with algebraic fractions.",
+   "type": "numeric",
+   "prompt": "$\\frac{3x+1}{2-x} = 5$",
+   "answer": "9/8",
+   "hint": "If the answer is not a whole number, type it as a fraction, for example 7/3 or -5/2."
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Problem-solving",
+   "stem": "Use all the methods you have learnt to solve these equations with algebraic fractions.",
+   "type": "numeric",
+   "prompt": "$\\frac{4x+3}{x+3} = 2$",
+   "answer": "3/2"
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Problem-solving",
+   "stem": "Use all the methods you have learnt to solve these equations with algebraic fractions.",
+   "type": "numeric",
+   "prompt": "$\\frac{5x-3}{x-2} = 3$",
+   "answer": "-3/2"
+  },
+  {
+   "id": "q8d",
+   "label": "8d",
+   "section": "Problem-solving",
+   "stem": "Use all the methods you have learnt to solve these equations with algebraic fractions.",
+   "type": "numeric",
+   "prompt": "$\\frac{3x}{4} + \\frac{x-2}{3} = 2x - 2$",
+   "answer": "16/11"
+  },
+  {
+   "id": "q8e",
+   "label": "8e",
+   "section": "Problem-solving",
+   "stem": "Use all the methods you have learnt to solve these equations with algebraic fractions.",
+   "type": "numeric",
+   "prompt": "$\\frac{6}{x^2} - \\frac{1}{x} = \\frac{2}{x}$",
+   "answer": "2"
+  },
+  {
+   "id": "q8f",
+   "label": "8f",
+   "section": "Problem-solving",
+   "stem": "Use all the methods you have learnt to solve these equations with algebraic fractions.",
+   "type": "numeric",
+   "prompt": "$\\frac{2-3x}{x^2} + \\frac{5}{2x} = \\frac{3}{x}$",
+   "answer": "4/7"
+  },
+  {
+   "id": "q8g",
+   "label": "8g",
+   "section": "Problem-solving",
+   "stem": "Use all the methods you have learnt to solve these equations with algebraic fractions.",
+   "type": "numeric",
+   "prompt": "$\\frac{x-3}{2} + \\frac{2x+1}{5} = \\frac{x}{3}$",
+   "answer": "39/17"
+  },
+  {
+   "id": "q8h",
+   "label": "8h",
+   "section": "Problem-solving",
+   "stem": "Use all the methods you have learnt to solve these equations with algebraic fractions.",
+   "type": "numeric",
+   "prompt": "$\\frac{2x+1}{3} - \\frac{x-2}{6} = \\frac{x+7}{6}$",
+   "answer": "3/2"
+  },
+  {
+   "id": "q8i",
+   "label": "8i",
+   "section": "Problem-solving",
+   "stem": "Use all the methods you have learnt to solve these equations with algebraic fractions.",
+   "type": "numeric",
+   "prompt": "$\\frac{1}{x+3} - \\frac{2}{x-2} = \\frac{6}{(x+3)(x-2)}$",
+   "answer": "-14"
+  },
+  {
+   "id": "q8j",
+   "label": "8j",
+   "section": "Problem-solving",
+   "stem": "Use all the methods you have learnt to solve these equations with algebraic fractions.",
+   "type": "numeric",
+   "prompt": "$\\frac{3}{x+1} - \\frac{1}{x-2} = \\frac{4}{(x+1)(x-2)}$",
+   "answer": "11/2"
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Problem-solving",
+   "stem": "One number is three times another number, and the sum of their reciprocals is $\\frac{4}{9}$. Let the smaller number be $x$.",
+   "type": "expression",
+   "prompt": "Write an equation describing the situation.",
+   "answer": "1/x+1/(3x)=4/9",
+   "hint": "The reciprocal of x is 1/x. Type an equation with =."
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Problem-solving",
+   "stem": "One number is three times another number, and the sum of their reciprocals is $\\frac{4}{9}$. Let the smaller number be $x$.",
+   "type": "list",
+   "prompt": "Solve the equation to find the two numbers.",
+   "answer": [
+    "3",
+    "9"
+   ],
+   "hint": "Type both numbers separated by a comma."
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Reasoning",
+   "stem": "A common error when solving equations with algebraic fractions is made in this working: $\\begin{aligned} \\frac{2x-1}{3} + 3x &= \\frac{x}{2} \\quad (\\text{LCD} = 6) \\\\ \\frac{6(2x-1)}{3} + 3x &= \\frac{6x}{2} \\\\ 2(2x-1) + 3x &= 3x \\\\ 4x - 2 &= 0 \\\\ x &= \\frac{1}{2} \\end{aligned}$",
+   "type": "choice",
+   "prompt": "What is the error?",
+   "answer": 1,
+   "options": [
+    "The LCD should be 5, not 6",
+    "The 3x term on the left was not multiplied by 6",
+    "The right-hand side should be 12x, not 3x",
+    "There is no error"
+   ]
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Reasoning",
+   "stem": "A common error when solving equations with algebraic fractions is made in this working: $\\begin{aligned} \\frac{2x-1}{3} + 3x &= \\frac{x}{2} \\quad (\\text{LCD} = 6) \\\\ \\frac{6(2x-1)}{3} + 3x &= \\frac{6x}{2} \\\\ 2(2x-1) + 3x &= 3x \\\\ 4x - 2 &= 0 \\\\ x &= \\frac{1}{2} \\end{aligned}$",
+   "type": "numeric",
+   "prompt": "Solve the equation correctly.",
+   "answer": "2/19",
+   "hint": "If the answer is not a whole number, type it as a fraction, for example 7/3 or -5/2."
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Reasoning",
+   "stem": "Another common error is made in this working: $\\begin{aligned} \\frac{x}{3} - \\frac{3x-1}{4} &= 1 \\quad (\\text{LCD} = 12) \\\\ \\frac{12x}{3} - \\frac{12(3x-1)}{4} &= 12 \\\\ 4x - 3(3x-1) &= 12 \\\\ 4x - 9x - 3 &= 12 \\\\ -5x &= 15 \\\\ x &= -3 \\end{aligned}$",
+   "type": "choice",
+   "prompt": "What is the error?",
+   "answer": 2,
+   "options": [
+    "The LCD should be 7, not 12",
+    "The right-hand side should still be 1, not 12",
+    "When expanding -3(3x - 1), the -3 times -1 should give +3, not -3",
+    "There is no error"
+   ]
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Reasoning",
+   "stem": "Another common error is made in this working: $\\begin{aligned} \\frac{x}{3} - \\frac{3x-1}{4} &= 1 \\quad (\\text{LCD} = 12) \\\\ \\frac{12x}{3} - \\frac{12(3x-1)}{4} &= 12 \\\\ 4x - 3(3x-1) &= 12 \\\\ 4x - 9x - 3 &= 12 \\\\ -5x &= 15 \\\\ x &= -3 \\end{aligned}$",
+   "type": "numeric",
+   "prompt": "Solve the equation correctly.",
+   "answer": "-9/5",
+   "hint": "If the answer is not a whole number, type it as a fraction, for example 7/3 or -5/2."
+  },
+  {
+   "id": "q12a",
+   "label": "12a",
+   "section": "Reasoning",
+   "stem": "Some equations with decimals can be solved by first multiplying both sides by a power of 10. For example, $0.6x - 1.3 = 2.9$ becomes $6x - 13 = 29$, so $x = 7$. Solve these decimal equations using the same idea. For parts d to f you will need to multiply by $100$.",
+   "type": "numeric",
+   "prompt": "$0.7x + 1.3 = 3.1$",
+   "answer": "18/7",
+   "hint": "If the answer is not a whole number, type it as a fraction, for example 7/3 or -5/2."
+  },
+  {
+   "id": "q12b",
+   "label": "12b",
+   "section": "Reasoning",
+   "stem": "Some equations with decimals can be solved by first multiplying both sides by a power of 10. For example, $0.6x - 1.3 = 2.9$ becomes $6x - 13 = 29$, so $x = 7$. Solve these decimal equations using the same idea. For parts d to f you will need to multiply by $100$.",
+   "type": "numeric",
+   "prompt": "$0.6x - 1.1 = 0.7$",
+   "answer": "3"
+  },
+  {
+   "id": "q12c",
+   "label": "12c",
+   "section": "Reasoning",
+   "stem": "Some equations with decimals can be solved by first multiplying both sides by a power of 10. For example, $0.6x - 1.3 = 2.9$ becomes $6x - 13 = 29$, so $x = 7$. Solve these decimal equations using the same idea. For parts d to f you will need to multiply by $100$.",
+   "type": "numeric",
+   "prompt": "$0.9 - 0.4x = 0.1$",
+   "answer": "2"
+  },
+  {
+   "id": "q12d",
+   "label": "12d",
+   "section": "Reasoning",
+   "stem": "Some equations with decimals can be solved by first multiplying both sides by a power of 10. For example, $0.6x - 1.3 = 2.9$ becomes $6x - 13 = 29$, so $x = 7$. Solve these decimal equations using the same idea. For parts d to f you will need to multiply by $100$.",
+   "type": "numeric",
+   "prompt": "$1.25x - 1.5 = 2.25$",
+   "answer": "3"
+  },
+  {
+   "id": "q12e",
+   "label": "12e",
+   "section": "Reasoning",
+   "stem": "Some equations with decimals can be solved by first multiplying both sides by a power of 10. For example, $0.6x - 1.3 = 2.9$ becomes $6x - 13 = 29$, so $x = 7$. Solve these decimal equations using the same idea. For parts d to f you will need to multiply by $100$.",
+   "type": "numeric",
+   "prompt": "$0.36x + 0.2 = 2.9$",
+   "answer": "15/2"
+  },
+  {
+   "id": "q12f",
+   "label": "12f",
+   "section": "Reasoning",
+   "stem": "Some equations with decimals can be solved by first multiplying both sides by a power of 10. For example, $0.6x - 1.3 = 2.9$ becomes $6x - 13 = 29$, so $x = 7$. Solve these decimal equations using the same idea. For parts d to f you will need to multiply by $100$.",
+   "type": "numeric",
+   "prompt": "$3 - 2.25x = 7.5$",
+   "answer": "-2"
+  },
+  {
+   "id": "q13a",
+   "label": "13a",
+   "section": "Enrichment",
+   "stem": "Solve each of the following equations for $x$ in terms of the other pronumerals. (You may need to factorise to make $x$ the subject.)",
+   "type": "expression",
+   "prompt": "$\\frac{x}{a} - \\frac{x}{3a} = b$",
+   "answer": "x=3ab/2",
+   "accept": [
+    "3ab/2"
+   ],
+   "hint": "Type x = ... or just the expression, for example x = 3ab/(a-2). Put brackets round a top or bottom with more than one term."
+  },
+  {
+   "id": "q13b",
+   "label": "13b",
+   "section": "Enrichment",
+   "stem": "Solve each of the following equations for $x$ in terms of the other pronumerals. (You may need to factorise to make $x$ the subject.)",
+   "type": "expression",
+   "prompt": "$\\frac{ax}{c} - \\frac{bx}{3} = d$",
+   "answer": "x=3cd/(3a-bc)",
+   "accept": [
+    "3cd/(3a-bc)"
+   ]
+  },
+  {
+   "id": "q13c",
+   "label": "13c",
+   "section": "Enrichment",
+   "stem": "Solve each of the following equations for $x$ in terms of the other pronumerals. (You may need to factorise to make $x$ the subject.)",
+   "type": "expression",
+   "prompt": "$\\frac{x+a}{b} = \\frac{x}{c}$",
+   "answer": "x=ac/(b-c)",
+   "accept": [
+    "ac/(b-c)"
+   ]
+  },
+  {
+   "id": "q13d",
+   "label": "13d",
+   "section": "Enrichment",
+   "stem": "Solve each of the following equations for $x$ in terms of the other pronumerals. (You may need to factorise to make $x$ the subject.)",
+   "type": "expression",
+   "prompt": "$\\frac{x-a}{c} = \\frac{b+d}{f}$",
+   "answer": "x=(af+bc+cd)/f",
+   "accept": [
+    "(af+bc+cd)/f"
+   ]
+  },
+  {
+   "id": "q13e",
+   "label": "13e",
+   "section": "Enrichment",
+   "stem": "Solve each of the following equations for $x$ in terms of the other pronumerals. (You may need to factorise to make $x$ the subject.)",
+   "type": "expression",
+   "prompt": "$\\frac{ax-b}{3} = \\frac{x+c}{2}$",
+   "answer": "x=(2b+3c)/(2a-3)",
+   "accept": [
+    "(2b+3c)/(2a-3)"
+   ]
+  },
+  {
+   "id": "q13f",
+   "label": "13f",
+   "section": "Enrichment",
+   "stem": "Solve each of the following equations for $x$ in terms of the other pronumerals. (You may need to factorise to make $x$ the subject.)",
+   "type": "expression",
+   "prompt": "$\\frac{x-a}{2b} + \\frac{x+a}{3b} = 1$",
+   "answer": "x=(a+6b)/5",
+   "accept": [
+    "(a+6b)/5"
+   ]
+  },
+  {
+   "id": "q13g",
+   "label": "13g",
+   "section": "Enrichment",
+   "stem": "Solve each of the following equations for $x$ in terms of the other pronumerals. (You may need to factorise to make $x$ the subject.)",
+   "type": "expression",
+   "prompt": "$\\frac{3a-b}{a} + \\frac{b}{x} = a$",
+   "answer": "x=ab/(a^2-3a+b)",
+   "accept": [
+    "ab/(a^2-3a+b)"
+   ]
+  },
+  {
+   "id": "q13h",
+   "label": "13h",
+   "section": "Enrichment",
+   "stem": "Solve each of the following equations for $x$ in terms of the other pronumerals. (You may need to factorise to make $x$ the subject.)",
+   "type": "expression",
+   "prompt": "$\\frac{1}{a} + \\frac{1}{x} = \\frac{1}{c}$",
+   "answer": "x=ac/(a-c)",
+   "accept": [
+    "ac/(a-c)"
+   ]
+  },
+  {
+   "id": "q13i",
+   "label": "13i",
+   "section": "Enrichment",
+   "stem": "Solve each of the following equations for $x$ in terms of the other pronumerals. (You may need to factorise to make $x$ the subject.)",
+   "type": "expression",
+   "prompt": "$\\frac{b}{x} = \\frac{c}{a}$",
+   "answer": "x=ab/c",
+   "accept": [
+    "ab/c"
+   ]
+  },
+  {
+   "id": "q13j",
+   "label": "13j",
+   "section": "Enrichment",
+   "stem": "Solve each of the following equations for $x$ in terms of the other pronumerals. (You may need to factorise to make $x$ the subject.)",
+   "type": "expression",
+   "prompt": "$\\frac{a}{x} - b = \\frac{c}{x}$",
+   "answer": "x=(a-c)/b",
+   "accept": [
+    "(a-c)/b"
+   ]
+  },
+  {
+   "id": "q13k",
+   "label": "13k",
+   "section": "Enrichment",
+   "stem": "Solve each of the following equations for $x$ in terms of the other pronumerals. (You may need to factorise to make $x$ the subject.)",
+   "type": "expression",
+   "prompt": "$\\frac{bx+a}{x-a} = c$",
+   "answer": "x=-a(c+1)/(b-c)",
+   "accept": [
+    "-a(c+1)/(b-c)"
+   ]
+  },
+  {
+   "id": "q13l",
+   "label": "13l",
+   "section": "Enrichment",
+   "stem": "Solve each of the following equations for $x$ in terms of the other pronumerals. (You may need to factorise to make $x$ the subject.)",
+   "type": "expression",
+   "prompt": "$\\frac{ax-b}{x+c} = d$",
+   "answer": "x=(b+cd)/(a-d)",
+   "accept": [
+    "(b+cd)/(a-d)"
+   ]
+  },
+  {
+   "id": "q13m",
+   "label": "13m",
+   "section": "Enrichment",
+   "stem": "Solve each of the following equations for $x$ in terms of the other pronumerals. (You may need to factorise to make $x$ the subject.)",
+   "type": "expression",
+   "prompt": "$\\frac{3b+x}{b} = a$",
+   "answer": "x=b(a-3)",
+   "accept": [
+    "b(a-3)"
+   ]
+  },
+  {
+   "id": "q13n",
+   "label": "13n",
+   "section": "Enrichment",
+   "stem": "Solve each of the following equations for $x$ in terms of the other pronumerals. (You may need to factorise to make $x$ the subject.)",
+   "type": "expression",
+   "prompt": "$\\frac{1}{x+a} = \\frac{1}{bx-c}$",
+   "answer": "x=(a+c)/(b-1)",
+   "accept": [
+    "(a+c)/(b-1)"
+   ]
+  },
+  {
+   "id": "q13o",
+   "label": "13o",
+   "section": "Enrichment",
+   "stem": "Solve each of the following equations for $x$ in terms of the other pronumerals. (You may need to factorise to make $x$ the subject.)",
+   "type": "expression",
+   "prompt": "$\\frac{b}{a} - \\frac{b}{b+x} = 1$",
+   "answer": "x=-b(2a-b)/(a-b)",
+   "accept": [
+    "-b(2a-b)/(a-b)"
+   ]
+  }
+ ]
 }
 );
 
