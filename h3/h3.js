@@ -51,16 +51,48 @@
   // The year a student is looking at: their last pick on this device, or the
   // year their roster class starts with ("8A" -> 8), or Year 7.
   const LS_YEAR = 'h3-year';
+  // A student's assigned year level is the number their roster class starts with
+  // ("8B" -> 8). No number (or a year H3 does not have) means no assigned level.
+  function assignedYear() {
+    const m = /^\s*(\d{1,2})/.exec((state.me && state.me.class) || '');
+    return m && YEARS.includes(Number(m[1])) ? Number(m[1]) : null;
+  }
+  // The pick is remembered per student, so a shared computer does not carry one
+  // student's choice over to the next.
+  const yearKey = () => LS_YEAR + ':' + ((state.me && state.me.code) || '');
   function chosenYear() {
     let y = null;
-    try { y = Number(localStorage.getItem(LS_YEAR)); } catch (e) { /* private mode */ }
-    if (!YEARS.includes(y)) {
-      const m = /^\s*(\d{1,2})/.exec((state.me && state.me.class) || '');
-      y = m && YEARS.includes(Number(m[1])) ? Number(m[1]) : 7;
-    }
+    try { y = Number(localStorage.getItem(yearKey())); } catch (e) { /* private mode */ }
+    if (!YEARS.includes(y)) y = assignedYear() || 7;
     return y;
   }
-  function pickYear(y) { try { localStorage.setItem(LS_YEAR, String(y)); } catch (e) { /* private mode */ } }
+  function pickYear(y) { try { localStorage.setItem(yearKey(), String(y)); } catch (e) { /* private mode */ } }
+
+  // Going outside your own year level asks first.
+  function confirmOtherYear(current) {
+    const own = assignedYear();
+    const others = YEARS.filter(y => y !== current);
+    const dlg = document.createElement('dialog');
+    dlg.className = 'yr-modal';
+    dlg.setAttribute('aria-labelledby', 'yr-modal-title');
+    dlg.innerHTML = `
+      <h2 id="yr-modal-title">Are you sure you want to access questions outside of your grade level?</h2>
+      <p>You are in <b>Year ${esc(own)}</b>. Questions from another year level may be harder or cover things your class has not done yet. Your Year ${esc(own)} work stays saved either way.</p>
+      <div class="yr-modal-actions">
+        ${others.map(y => `<button class="btn" type="button" data-go="${y}">Yes, show Year ${y}</button>`).join('')}
+        <button class="btn ghost" type="button" data-stay>Stay in Year ${esc(current)}</button>
+      </div>`;
+    document.body.appendChild(dlg);
+    const close = () => { dlg.close(); dlg.remove(); };
+    dlg.addEventListener('click', (e) => {
+      const go = e.target.closest('[data-go]');
+      if (go) { close(); pickYear(Number(go.dataset.go)); viewHome(); return; }
+      if (e.target.closest('[data-stay]') || e.target === dlg) close();
+    });
+    dlg.addEventListener('cancel', () => dlg.remove());
+    if (dlg.showModal) dlg.showModal(); else dlg.setAttribute('open', '');
+    const first = dlg.querySelector('[data-stay]'); if (first) first.focus();
+  }
 
   const LS_RESULTS = 'h3-results-v1';     // per code: { code: results }
   const LS_SESSION = 'h3-session';         // the signed-in student row
@@ -376,8 +408,19 @@
     const sum = Notes.summary(SETS, state.results);
     const started = SETS.some(s => setScore(s, state.results[s.id]).tried);
     const yearChapters = sum.chapters.filter(ch => ch.year === year);
-    const tabs = YEARS.length > 1 ? `<div class="year-tabs" role="group" aria-label="Year level">${YEARS.map(y =>
-      `<button type="button" class="year-tab${y === year ? ' on' : ''}" data-year="${y}" aria-pressed="${y === year}">Year ${y}</button>`).join('')}</div>` : '';
+    // Students with an assigned year see only that year, with an "other year levels"
+    // link that asks first. Students without one (class has no year number) get tabs.
+    const own = assignedYear();
+    let tabs = '', outside = '';
+    if (YEARS.length > 1 && own == null) {
+      tabs = `<div class="year-tabs" role="group" aria-label="Year level">${YEARS.map(y =>
+        `<button type="button" class="year-tab${y === year ? ' on' : ''}" data-year="${y}" aria-pressed="${y === year}">Year ${y}</button>`).join('')}</div>`;
+    } else if (YEARS.length > 1 && year === own) {
+      tabs = `<button type="button" class="other-years" id="other-years">Other year levels <span aria-hidden="true">›</span></button>`;
+    } else if (YEARS.length > 1) {
+      outside = `<div class="yr-outside" role="status"><span>You are looking at <b>Year ${esc(year)}</b>, outside your year level.</span>
+        <button type="button" class="btn small" data-year="${own}" id="back-own">Back to Year ${esc(own)}</button></div>`;
+    }
     app.innerHTML = `
       <section class="welcome">
         <div>
@@ -390,6 +433,7 @@
           <small>green note${sum.earned === 1 ? '' : 's'} earned</small>
         </div>
       </section>
+      ${outside}
       <div class="list-head-row"><h3 class="list-head">Year ${esc(year)} chapters</h3>${tabs}</div>
       ${yearChapters.length ? '' : `<p class="lede">Year ${esc(year)} chapters are on their way. Check back soon.</p>`}
       <div class="sets chapters">
@@ -407,9 +451,11 @@
           </a>`;
         }).join('')}
       </div>`;
-    app.querySelectorAll('.year-tab').forEach(b => b.addEventListener('click', () => {
+    app.querySelectorAll('.year-tab, #back-own').forEach(b => b.addEventListener('click', () => {
       pickYear(Number(b.dataset.year)); viewHome();
     }));
+    const other = document.getElementById('other-years');
+    if (other) other.addEventListener('click', () => confirmOtherYear(year));
     typeset(app);
   }
 
