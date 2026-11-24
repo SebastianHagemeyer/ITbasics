@@ -13,6 +13,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-1a-order",
    "label": "1a",
    "section": "Fluency",
    "stem": "Evaluate each of these, showing your steps.",
@@ -22,6 +23,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-1a-order",
    "label": "1b",
    "section": "Fluency",
    "stem": "Evaluate each of these, showing your steps.",
@@ -31,6 +33,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-1a-order",
    "label": "1c",
    "section": "Fluency",
    "stem": "Evaluate each of these, showing your steps.",
@@ -40,6 +43,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-1a-order",
    "label": "1d",
    "section": "Fluency",
    "stem": "Evaluate each of these, showing your steps.",
@@ -49,6 +53,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-1a-order",
    "label": "1e",
    "section": "Fluency",
    "stem": "Evaluate each of these, showing your steps.",
@@ -58,6 +63,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-1a-order",
    "label": "1f",
    "section": "Fluency",
    "stem": "Evaluate each of these, showing your steps.",
@@ -67,6 +73,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1g",
+   "help": "y9-1a-order",
    "label": "1g",
    "section": "Fluency",
    "stem": "Evaluate each of these, showing your steps.",
@@ -76,6 +83,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1h",
+   "help": "y9-1a-order",
    "label": "1h",
    "section": "Fluency",
    "stem": "Evaluate each of these, showing your steps.",
@@ -85,6 +93,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1i",
+   "help": "y9-1a-order",
    "label": "1i",
    "section": "Fluency",
    "stem": "Evaluate each of these, showing your steps.",
@@ -94,6 +103,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1j",
+   "help": "y9-1a-order",
    "label": "1j",
    "section": "Fluency",
    "stem": "Evaluate each of these, showing your steps.",
@@ -103,6 +113,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1k",
+   "help": "y9-1a-order",
    "label": "1k",
    "section": "Fluency",
    "stem": "Evaluate each of these, showing your steps.",
@@ -112,6 +123,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1l",
+   "help": "y9-1a-order",
    "label": "1l",
    "section": "Fluency",
    "stem": "Evaluate each of these, showing your steps.",
@@ -121,6 +133,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1m",
+   "help": "y9-1a-order",
    "label": "1m",
    "section": "Fluency",
    "stem": "Evaluate each of these, showing your steps.",
@@ -130,6 +143,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1n",
+   "help": "y9-1a-order",
    "label": "1n",
    "section": "Fluency",
    "stem": "Evaluate each of these, showing your steps.",
@@ -139,6 +153,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1o",
+   "help": "y9-1a-order",
    "label": "1o",
    "section": "Fluency",
    "stem": "Evaluate each of these, showing your steps.",
@@ -148,6 +163,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1p",
+   "help": "y9-1a-order",
    "label": "1p",
    "section": "Fluency",
    "stem": "Evaluate each of these, showing your steps.",
@@ -157,6 +173,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1q",
+   "help": "y9-1a-order",
    "label": "1q",
    "section": "Fluency",
    "stem": "Evaluate each of these, showing your steps.",
@@ -166,6 +183,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1r",
+   "help": "y9-1a-order",
    "label": "1r",
    "section": "Fluency",
    "stem": "Evaluate each of these, showing your steps.",
@@ -175,6 +193,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1s",
+   "help": "y9-1a-order",
    "label": "1s",
    "section": "Fluency",
    "stem": "Evaluate each of these, showing your steps.",
@@ -184,6 +203,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1t",
+   "help": "y9-1a-order",
    "label": "1t",
    "section": "Fluency",
    "stem": "Evaluate each of these, showing your steps.",
@@ -193,6 +213,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-1a-lcm",
    "label": "2a",
    "section": "Fluency",
    "stem": "Find the LCM (lowest common multiple) of each pair of numbers.",
@@ -202,6 +223,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-1a-lcm",
    "label": "2b",
    "section": "Fluency",
    "stem": "Find the LCM (lowest common multiple) of each pair of numbers.",
@@ -211,6 +233,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-1a-lcm",
    "label": "2c",
    "section": "Fluency",
    "stem": "Find the LCM (lowest common multiple) of each pair of numbers.",
@@ -220,6 +243,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-1a-lcm",
    "label": "2d",
    "section": "Fluency",
    "stem": "Find the LCM (lowest common multiple) of each pair of numbers.",
@@ -229,6 +253,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-1a-hcf",
    "label": "3a",
    "section": "Fluency",
    "stem": "Find the HCF (highest common factor) of each pair of numbers.",
@@ -238,6 +263,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-1a-hcf",
    "label": "3b",
    "section": "Fluency",
    "stem": "Find the HCF (highest common factor) of each pair of numbers.",
@@ -247,6 +273,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-1a-hcf",
    "label": "3c",
    "section": "Fluency",
    "stem": "Find the HCF (highest common factor) of each pair of numbers.",
@@ -256,6 +283,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-1a-hcf",
    "label": "3d",
    "section": "Fluency",
    "stem": "Find the HCF (highest common factor) of each pair of numbers.",
@@ -265,6 +293,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-1a-powers",
    "label": "4a",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -274,6 +303,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-1a-powers",
    "label": "4b",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -283,6 +313,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-1a-powers",
    "label": "4c",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -292,6 +323,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-1a-powers",
    "label": "4d",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -301,6 +333,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y9-1a-powers",
    "label": "4e",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -310,6 +343,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y9-1a-powers",
    "label": "4f",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -319,6 +353,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4g",
+   "help": "y9-1a-powers",
    "label": "4g",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -328,6 +363,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4h",
+   "help": "y9-1a-powers",
    "label": "4h",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -337,6 +373,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4i",
+   "help": "y9-1a-powers",
    "label": "4i",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -346,6 +383,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-1a-sub",
    "label": "5a",
    "section": "Fluency",
    "stem": "Evaluate each expression by substituting $a = -4$, $b = 2$ and $c = -2$.",
@@ -355,6 +393,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-1a-sub",
    "label": "5b",
    "section": "Fluency",
    "stem": "Evaluate each expression by substituting $a = -4$, $b = 2$ and $c = -2$.",
@@ -364,6 +403,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-1a-sub",
    "label": "5c",
    "section": "Fluency",
    "stem": "Evaluate each expression by substituting $a = -4$, $b = 2$ and $c = -2$.",
@@ -373,6 +413,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-1a-sub",
    "label": "5d",
    "section": "Fluency",
    "stem": "Evaluate each expression by substituting $a = -4$, $b = 2$ and $c = -2$.",
@@ -382,6 +423,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y9-1a-sub",
    "label": "5e",
    "section": "Fluency",
    "stem": "Evaluate each expression by substituting $a = -4$, $b = 2$ and $c = -2$.",
@@ -391,6 +433,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y9-1a-sub",
    "label": "5f",
    "section": "Fluency",
    "stem": "Evaluate each expression by substituting $a = -4$, $b = 2$ and $c = -2$.",
@@ -400,6 +443,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5g",
+   "help": "y9-1a-sub",
    "label": "5g",
    "section": "Fluency",
    "stem": "Evaluate each expression by substituting $a = -4$, $b = 2$ and $c = -2$.",
@@ -409,6 +453,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5h",
+   "help": "y9-1a-sub",
    "label": "5h",
    "section": "Fluency",
    "stem": "Evaluate each expression by substituting $a = -4$, $b = 2$ and $c = -2$.",
@@ -418,6 +463,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5i",
+   "help": "y9-1a-sub",
    "label": "5i",
    "section": "Fluency",
    "stem": "Evaluate each expression by substituting $a = -4$, $b = 2$ and $c = -2$.",
@@ -427,6 +473,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-1a-brackets",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "Brackets have been added to each statement in different places. Which version makes the statement true?",
@@ -440,6 +487,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-1a-brackets",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "Brackets have been added to each statement in different places. Which version makes the statement true?",
@@ -453,6 +501,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y9-1a-brackets",
    "label": "6c",
    "section": "Problem-solving",
    "stem": "Brackets have been added to each statement in different places. Which version makes the statement true?",
@@ -466,6 +515,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y9-1a-brackets",
    "label": "6d",
    "section": "Problem-solving",
    "stem": "Brackets have been added to each statement in different places. Which version makes the statement true?",
@@ -479,6 +529,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6e",
+   "help": "y9-1a-brackets",
    "label": "6e",
    "section": "Problem-solving",
    "stem": "Brackets have been added to each statement in different places. Which version makes the statement true?",
@@ -493,6 +544,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6f",
+   "help": "y9-1a-brackets",
    "label": "6f",
    "section": "Problem-solving",
    "stem": "Brackets have been added to each statement in different places. Which version makes the statement true?",
@@ -506,6 +558,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7",
+   "help": "y9-1a-lcm",
    "label": "7",
    "section": "Problem-solving",
    "prompt": "Priya and Tom both catch the ferry to Rottnest Island. Priya makes the trip every $18$ days and Tom makes it every $24$ days. They are on the same ferry today. In how many days will they next be on the same ferry?",
@@ -515,6 +568,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8",
+   "help": "y9-1a-brackets",
    "label": "8",
    "section": "Problem-solving",
    "prompt": "Any number of pairs of brackets can be inserted into this expression. How many different answers are possible? $-5 \\times 3 - (-4) + (-2)$",
@@ -523,6 +577,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-1a-pair",
    "label": "9a",
    "section": "Problem-solving",
    "prompt": "The sum of two numbers is $4$ and their difference is $10$. What are the two numbers?",
@@ -535,6 +590,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-1a-pair",
    "label": "9b",
    "section": "Problem-solving",
    "prompt": "The sum of two numbers is $-2$ and their product is $-15$. What are the two numbers?",
@@ -546,6 +602,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10",
+   "help": "y9-1a-hcf",
    "label": "10",
    "section": "Problem-solving",
    "prompt": "Two netball clubs have $28$ and $42$ players. For a training day, each club splits into smaller groups, all of the same size. What is the largest possible group size if both clubs use the same group size?",
@@ -555,6 +612,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y9-1a-powers",
    "label": "11a",
    "section": "Reasoning",
    "stem": "Evaluate:",
@@ -564,6 +622,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y9-1a-powers",
    "label": "11b",
    "section": "Reasoning",
    "stem": "Evaluate:",
@@ -573,6 +632,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y9-1a-powers",
    "label": "11c",
    "section": "Reasoning",
    "prompt": "If $a^2 = 36$, write down the possible values of $a$.",
@@ -585,6 +645,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11d",
+   "help": "y9-1a-powers",
    "label": "11d",
    "section": "Reasoning",
    "prompt": "If $a^3 = 64$, write down the value of $a$.",
@@ -593,6 +654,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11e",
+   "help": "y9-1a-powers",
    "label": "11e",
    "section": "Reasoning",
    "prompt": "Find $\\sqrt[3]{-125}$.",
@@ -601,6 +663,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11f",
+   "help": "y9-1a-powers",
    "label": "11f",
    "section": "Reasoning",
    "stem": "Remember that $-2^2$ means $-1 \\times 2^2$. Evaluate:",
@@ -610,6 +673,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11g",
+   "help": "y9-1a-powers",
    "label": "11g",
    "section": "Reasoning",
    "stem": "Remember that $-2^2$ means $-1 \\times 2^2$. Evaluate:",
@@ -619,6 +683,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11h",
+   "help": "y9-1a-powers",
    "label": "11h",
    "section": "Reasoning",
    "stem": "Remember that $-2^2$ means $-1 \\times 2^2$. Evaluate:",
@@ -628,6 +693,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11i",
+   "help": "y9-1a-powers",
    "label": "11i",
    "section": "Reasoning",
    "stem": "Remember that $-2^2$ means $-1 \\times 2^2$. Evaluate:",
@@ -637,6 +703,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11j",
+   "help": "y9-1a-powers",
    "label": "11j",
    "section": "Reasoning",
    "prompt": "Are $(-4)^2$ and $-4^2$ equal?",
@@ -649,6 +716,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11k",
+   "help": "y9-1a-powers",
    "label": "11k",
    "section": "Reasoning",
    "prompt": "Are $(-5)^3$ and $-5^3$ equal?",
@@ -661,6 +729,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11l",
+   "help": "y9-1a-powers",
    "label": "11l",
    "section": "Reasoning",
    "prompt": "The HCF of two different prime numbers is always:",
@@ -675,6 +744,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11m",
+   "help": "y9-1a-powers",
    "label": "11m",
    "section": "Reasoning",
    "prompt": "The LCM of two different prime numbers $p$ and $q$ is always:",
@@ -689,6 +759,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y9-1a-signs",
    "label": "12a",
    "section": "Reasoning",
    "stem": "$a$ and $b$ are both positive numbers and $a > b$. Decide whether each statement is true or false.",
@@ -702,6 +773,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y9-1a-signs",
    "label": "12b",
    "section": "Reasoning",
    "stem": "$a$ and $b$ are both positive numbers and $a > b$. Decide whether each statement is true or false.",
@@ -715,6 +787,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y9-1a-signs",
    "label": "12c",
    "section": "Reasoning",
    "stem": "$a$ and $b$ are both positive numbers and $a > b$. Decide whether each statement is true or false.",
@@ -728,6 +801,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12d",
+   "help": "y9-1a-signs",
    "label": "12d",
    "section": "Reasoning",
    "stem": "$a$ and $b$ are both positive numbers and $a > b$. Decide whether each statement is true or false.",
@@ -741,6 +815,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12e",
+   "help": "y9-1a-signs",
    "label": "12e",
    "section": "Reasoning",
    "stem": "$a$ and $b$ are both positive numbers and $a > b$. Decide whether each statement is true or false.",
@@ -754,6 +829,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12f",
+   "help": "y9-1a-signs",
    "label": "12f",
    "section": "Reasoning",
    "stem": "$a$ and $b$ are both positive numbers and $a > b$. Decide whether each statement is true or false.",
@@ -767,6 +843,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y9-1a-sequences",
    "label": "13a",
    "section": "Enrichment",
    "stem": "A perfect number is a positive whole number that equals the sum of all its factors, not counting the number itself.",
@@ -776,6 +853,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y9-1a-sequences",
    "label": "13b",
    "section": "Enrichment",
    "stem": "A perfect number is a positive whole number that equals the sum of all its factors, not counting the number itself.",
@@ -785,6 +863,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13c",
+   "help": "y9-1a-sequences",
    "label": "13c",
    "section": "Enrichment",
    "stem": "A perfect number is a positive whole number that equals the sum of all its factors, not counting the number itself.",
@@ -794,6 +873,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13d",
+   "help": "y9-1a-sequences",
    "label": "13d",
    "section": "Enrichment",
    "stem": "Triangular numbers count the dots needed to make a triangle with 1 row, 2 rows, 3 rows and so on (1 dot, then 3 dots, then 6 dots, ...).",
@@ -832,6 +912,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13e",
+   "help": "y9-1a-sequences",
    "label": "13e",
    "section": "Enrichment",
    "stem": "Triangular numbers count the dots needed to make a triangle with 1 row, 2 rows, 3 rows and so on (1 dot, then 3 dots, then 6 dots, ...).",
@@ -844,6 +925,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13f",
+   "help": "y9-1a-sequences",
    "label": "13f",
    "section": "Enrichment",
    "stem": "In the Fibonacci sequence each number is the sum of the two numbers before it. The first two numbers are $0$ and $1$.",
@@ -867,6 +949,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13g",
+   "help": "y9-1a-sequences",
    "label": "13g",
    "section": "Enrichment",
    "stem": "In the Fibonacci sequence each number is the sum of the two numbers before it. The first two numbers are $0$ and $1$.",
@@ -890,6 +973,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-1b-dp",
    "label": "1a",
    "section": "Fluency",
    "stem": "Round each of these to two decimal places.",
@@ -899,6 +983,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-1b-dp",
    "label": "1b",
    "section": "Fluency",
    "stem": "Round each of these to two decimal places.",
@@ -908,6 +993,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-1b-dp",
    "label": "1c",
    "section": "Fluency",
    "stem": "Round each of these to two decimal places.",
@@ -917,6 +1003,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-1b-dp",
    "label": "1d",
    "section": "Fluency",
    "stem": "Round each of these to two decimal places.",
@@ -926,6 +1013,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-1b-dp",
    "label": "1e",
    "section": "Fluency",
    "stem": "Round each of these to two decimal places.",
@@ -935,6 +1023,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-1b-dp",
    "label": "1f",
    "section": "Fluency",
    "stem": "Round each of these to two decimal places.",
@@ -944,6 +1033,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-1b-dp",
    "label": "2a",
    "section": "Fluency",
    "stem": "Round each number to two decimal places.",
@@ -953,6 +1043,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-1b-dp",
    "label": "2b",
    "section": "Fluency",
    "stem": "Round each number to two decimal places.",
@@ -962,6 +1053,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-1b-dp",
    "label": "2c",
    "section": "Fluency",
    "stem": "Round each number to two decimal places.",
@@ -971,6 +1063,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-1b-dp",
    "label": "2d",
    "section": "Fluency",
    "stem": "Round each number to two decimal places.",
@@ -980,6 +1073,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-1b-dp",
    "label": "2e",
    "section": "Fluency",
    "stem": "Round each number to two decimal places.",
@@ -989,6 +1083,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-1b-dp",
    "label": "2f",
    "section": "Fluency",
    "stem": "Round each number to two decimal places.",
@@ -998,6 +1093,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y9-1b-dp",
    "label": "2g",
    "section": "Fluency",
    "stem": "Round each number to two decimal places.",
@@ -1007,6 +1103,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y9-1b-dp",
    "label": "2h",
    "section": "Fluency",
    "stem": "Round each number to two decimal places.",
@@ -1016,6 +1113,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2i",
+   "help": "y9-1b-dp",
    "label": "2i",
    "section": "Fluency",
    "stem": "Round each number to two decimal places.",
@@ -1025,6 +1123,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2j",
+   "help": "y9-1b-dp",
    "label": "2j",
    "section": "Fluency",
    "stem": "Round each number to two decimal places.",
@@ -1034,6 +1133,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2k",
+   "help": "y9-1b-dp",
    "label": "2k",
    "section": "Fluency",
    "stem": "Round each number to two decimal places.",
@@ -1043,6 +1143,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2l",
+   "help": "y9-1b-dp",
    "label": "2l",
    "section": "Fluency",
    "stem": "Round each number to two decimal places.",
@@ -1052,6 +1153,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-1b-dp",
    "label": "3a",
    "section": "Fluency",
    "stem": "Round these numbers to the nearest whole number.",
@@ -1061,6 +1163,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-1b-dp",
    "label": "3b",
    "section": "Fluency",
    "stem": "Round these numbers to the nearest whole number.",
@@ -1070,6 +1173,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-1b-dp",
    "label": "3c",
    "section": "Fluency",
    "stem": "Round these numbers to the nearest whole number.",
@@ -1079,6 +1183,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-1b-dp",
    "label": "3d",
    "section": "Fluency",
    "stem": "Round these numbers to the nearest whole number.",
@@ -1088,6 +1193,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-1b-divide",
    "label": "4a",
    "section": "Fluency",
    "stem": "Use division to write each fraction as a decimal rounded to three decimal places.",
@@ -1097,6 +1203,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-1b-divide",
    "label": "4b",
    "section": "Fluency",
    "stem": "Use division to write each fraction as a decimal rounded to three decimal places.",
@@ -1106,6 +1213,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-1b-divide",
    "label": "4c",
    "section": "Fluency",
    "stem": "Use division to write each fraction as a decimal rounded to three decimal places.",
@@ -1115,6 +1223,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-1b-divide",
    "label": "4d",
    "section": "Fluency",
    "stem": "Use division to write each fraction as a decimal rounded to three decimal places.",
@@ -1124,6 +1233,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-1b-sf",
    "label": "5a",
    "section": "Fluency",
    "stem": "Round each number to two significant figures.",
@@ -1133,6 +1243,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-1b-sf",
    "label": "5b",
    "section": "Fluency",
    "stem": "Round each number to two significant figures.",
@@ -1142,6 +1253,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-1b-sf",
    "label": "5c",
    "section": "Fluency",
    "stem": "Round each number to two significant figures.",
@@ -1151,6 +1263,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-1b-sf",
    "label": "5d",
    "section": "Fluency",
    "stem": "Round each number to two significant figures.",
@@ -1160,6 +1273,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y9-1b-sf",
    "label": "5e",
    "section": "Fluency",
    "stem": "Round each number to two significant figures.",
@@ -1169,6 +1283,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y9-1b-sf",
    "label": "5f",
    "section": "Fluency",
    "stem": "Round each number to two significant figures.",
@@ -1178,6 +1293,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5g",
+   "help": "y9-1b-sf",
    "label": "5g",
    "section": "Fluency",
    "stem": "Round each number to two significant figures.",
@@ -1187,6 +1303,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5h",
+   "help": "y9-1b-sf",
    "label": "5h",
    "section": "Fluency",
    "stem": "Round each number to two significant figures.",
@@ -1196,6 +1313,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-1b-sf",
    "label": "6a",
    "section": "Fluency",
    "stem": "Round these numbers to one significant figure.",
@@ -1205,6 +1323,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-1b-sf",
    "label": "6b",
    "section": "Fluency",
    "stem": "Round these numbers to one significant figure.",
@@ -1214,6 +1333,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y9-1b-sf",
    "label": "6c",
    "section": "Fluency",
    "stem": "Round these numbers to one significant figure.",
@@ -1223,6 +1343,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y9-1b-sf",
    "label": "6d",
    "section": "Fluency",
    "stem": "Round these numbers to one significant figure.",
@@ -1232,6 +1353,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-1b-estimate",
    "label": "7a",
    "section": "Fluency",
    "stem": "Estimate the answer by rounding each number to one significant figure first.",
@@ -1241,6 +1363,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-1b-estimate",
    "label": "7b",
    "section": "Fluency",
    "stem": "Estimate the answer by rounding each number to one significant figure first.",
@@ -1250,6 +1373,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-1b-estimate",
    "label": "7c",
    "section": "Fluency",
    "stem": "Estimate the answer by rounding each number to one significant figure first.",
@@ -1259,6 +1383,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y9-1b-estimate",
    "label": "7d",
    "section": "Fluency",
    "stem": "Estimate the answer by rounding each number to one significant figure first.",
@@ -1268,6 +1393,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7e",
+   "help": "y9-1b-estimate",
    "label": "7e",
    "section": "Fluency",
    "stem": "Estimate the answer by rounding each number to one significant figure first.",
@@ -1277,6 +1403,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7f",
+   "help": "y9-1b-estimate",
    "label": "7f",
    "section": "Fluency",
    "stem": "Estimate the answer by rounding each number to one significant figure first.",
@@ -1286,6 +1413,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7g",
+   "help": "y9-1b-estimate",
    "label": "7g",
    "section": "Fluency",
    "stem": "Estimate the answer by rounding each number to one significant figure first.",
@@ -1295,6 +1423,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7h",
+   "help": "y9-1b-estimate",
    "label": "7h",
    "section": "Fluency",
    "stem": "Estimate the answer by rounding each number to one significant figure first.",
@@ -1304,6 +1433,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7i",
+   "help": "y9-1b-estimate",
    "label": "7i",
    "section": "Fluency",
    "stem": "Estimate the answer by rounding each number to one significant figure first.",
@@ -1313,6 +1443,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7j",
+   "help": "y9-1b-estimate",
    "label": "7j",
    "section": "Fluency",
    "stem": "Estimate the answer by rounding each number to one significant figure first.",
@@ -1322,6 +1453,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7k",
+   "help": "y9-1b-estimate",
    "label": "7k",
    "section": "Fluency",
    "stem": "Estimate the answer by rounding each number to one significant figure first.",
@@ -1331,6 +1463,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7l",
+   "help": "y9-1b-estimate",
    "label": "7l",
    "section": "Fluency",
    "stem": "Estimate the answer by rounding each number to one significant figure first.",
@@ -1340,6 +1473,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-1b-before",
    "label": "8a",
    "section": "Problem-solving",
    "stem": "A timer records a relay race. Team A's time is $48.627$ seconds and team B's time is $47.952$ seconds. What is the difference between the two times if both are first written using:",
@@ -1350,6 +1484,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-1b-before",
    "label": "8b",
    "section": "Problem-solving",
    "stem": "A timer records a relay race. Team A's time is $48.627$ seconds and team B's time is $47.952$ seconds. What is the difference between the two times if both are first written using:",
@@ -1360,6 +1495,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y9-1b-before",
    "label": "8c",
    "section": "Problem-solving",
    "stem": "A timer records a relay race. Team A's time is $48.627$ seconds and team B's time is $47.952$ seconds. What is the difference between the two times if both are first written using:",
@@ -1370,6 +1506,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y9-1b-before",
    "label": "8d",
    "section": "Problem-solving",
    "stem": "A timer records a relay race. Team A's time is $48.627$ seconds and team B's time is $47.952$ seconds. What is the difference between the two times if both are first written using:",
@@ -1380,6 +1517,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-1b-estimate",
    "label": "9a",
    "section": "Problem-solving",
    "stem": "$36.7 \\times 4.18 \\times 12.64$ is worked out after first rounding each of the three numbers. What type of rounding was used if the answer is:",
@@ -1395,6 +1533,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-1b-estimate",
    "label": "9b",
    "section": "Problem-solving",
    "stem": "$36.7 \\times 4.18 \\times 12.64$ is worked out after first rounding each of the three numbers. What type of rounding was used if the answer is:",
@@ -1410,6 +1549,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y9-1b-estimate",
    "label": "9c",
    "section": "Problem-solving",
    "stem": "$36.7 \\times 4.18 \\times 12.64$ is worked out after first rounding each of the three numbers. What type of rounding was used if the answer is:",
@@ -1425,6 +1565,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10",
+   "help": "y9-1b-posts",
    "label": "10",
    "section": "Problem-solving",
    "prompt": "Twenty-one posts and $170$ m of fencing are used to fence off an area in the shape of an equilateral triangle. There is a post in each corner and the posts are evenly spaced along the sides. Find the distance between neighbouring posts, in metres, rounded to the nearest centimetre.",
@@ -1434,6 +1575,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11",
+   "help": "y9-1b-divide",
    "label": "11",
    "section": "Problem-solving",
    "prompt": "Three tonnes of mulch is shared equally between $7$ garden beds. How much mulch goes on each bed? Give your answer in tonnes, rounded to the nearest kilogram.",
@@ -1443,6 +1585,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12",
+   "help": "y9-1b-dp",
    "label": "12",
    "section": "Reasoning",
    "prompt": "Should $3.64999$ be rounded down or up when it is rounded to one decimal place?",
@@ -1455,6 +1598,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13",
+   "help": "y9-1b-sf",
    "label": "13",
    "section": "Reasoning",
    "prompt": "A science experiment uses $0.0028$ g of zinc and $0.0041$ g of copper. Which way of recording these amounts keeps the two amounts different from each other?",
@@ -1467,6 +1611,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y9-1b-estimate",
    "label": "14a",
    "section": "Reasoning",
    "stem": "Consider the two numbers $34$ and $36$.",
@@ -1476,6 +1621,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y9-1b-estimate",
    "label": "14b",
    "section": "Reasoning",
    "stem": "Consider the two numbers $34$ and $36$.",
@@ -1485,6 +1631,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14c",
+   "help": "y9-1b-estimate",
    "label": "14c",
    "section": "Reasoning",
    "stem": "Consider the two numbers $34$ and $36$.",
@@ -1494,6 +1641,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14d",
+   "help": "y9-1b-estimate",
    "label": "14d",
    "section": "Reasoning",
    "stem": "Consider the two numbers $34$ and $36$.",
@@ -1503,6 +1651,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15a",
+   "help": "y9-1b-pattern",
    "label": "15a",
    "section": "Enrichment",
    "stem": "Decimal patterns: use the repeating pattern of the decimal to answer each part.",
@@ -1513,6 +1662,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15b",
+   "help": "y9-1b-pattern",
    "label": "15b",
    "section": "Enrichment",
    "stem": "Decimal patterns: use the repeating pattern of the decimal to answer each part.",
@@ -1522,6 +1672,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15c",
+   "help": "y9-1b-pattern",
    "label": "15c",
    "section": "Enrichment",
    "stem": "Decimal patterns: use the repeating pattern of the decimal to answer each part.",
@@ -1531,6 +1682,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15d",
+   "help": "y9-1b-pattern",
    "label": "15d",
    "section": "Enrichment",
    "stem": "Decimal patterns: use the repeating pattern of the decimal to answer each part.",
@@ -1540,6 +1692,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15e",
+   "help": "y9-1b-pattern",
    "label": "15e",
    "section": "Enrichment",
    "stem": "Decimal patterns: use the repeating pattern of the decimal to answer each part.",
@@ -1550,6 +1703,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15f",
+   "help": "y9-1b-pattern",
    "label": "15f",
    "section": "Enrichment",
    "stem": "Decimal patterns: use the repeating pattern of the decimal to answer each part.",
@@ -1559,6 +1713,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15g",
+   "help": "y9-1b-pattern",
    "label": "15g",
    "section": "Enrichment",
    "stem": "Decimal patterns: use the repeating pattern of the decimal to answer each part.",
@@ -1568,6 +1723,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15h",
+   "help": "y9-1b-pattern",
    "label": "15h",
    "section": "Enrichment",
    "stem": "Decimal patterns: use the repeating pattern of the decimal to answer each part.",
@@ -1586,6 +1742,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-1c-to-dec",
    "label": "1a",
    "section": "Fluency",
    "stem": "Write each fraction as a decimal.",
@@ -1596,6 +1753,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-1c-to-dec",
    "label": "1b",
    "section": "Fluency",
    "stem": "Write each fraction as a decimal.",
@@ -1606,6 +1764,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-1c-to-dec",
    "label": "1c",
    "section": "Fluency",
    "stem": "Write each fraction as a decimal.",
@@ -1616,6 +1775,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-1c-to-dec",
    "label": "1d",
    "section": "Fluency",
    "stem": "Write each fraction as a decimal.",
@@ -1626,6 +1786,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-1c-to-dec",
    "label": "1e",
    "section": "Fluency",
    "stem": "Write each fraction as a decimal.",
@@ -1636,6 +1797,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-1c-to-dec",
    "label": "1f",
    "section": "Fluency",
    "stem": "Write each fraction as a decimal.",
@@ -1646,6 +1808,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1g",
+   "help": "y9-1c-to-dec",
    "label": "1g",
    "section": "Fluency",
    "stem": "Write each fraction as a decimal.",
@@ -1656,6 +1819,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1h",
+   "help": "y9-1c-to-dec",
    "label": "1h",
    "section": "Fluency",
    "stem": "Write each fraction as a decimal.",
@@ -1666,6 +1830,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-1c-recurring",
    "label": "2a",
    "section": "Fluency",
    "stem": "Each of these fractions gives a recurring decimal. Recurring dots can't be typed here, so work out the decimal by division and give it correct to 4 decimal places.",
@@ -1676,6 +1841,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-1c-recurring",
    "label": "2b",
    "section": "Fluency",
    "stem": "Each of these fractions gives a recurring decimal. Recurring dots can't be typed here, so work out the decimal by division and give it correct to 4 decimal places.",
@@ -1686,6 +1852,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-1c-recurring",
    "label": "2c",
    "section": "Fluency",
    "stem": "Each of these fractions gives a recurring decimal. Recurring dots can't be typed here, so work out the decimal by division and give it correct to 4 decimal places.",
@@ -1696,6 +1863,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-1c-recurring",
    "label": "2d",
    "section": "Fluency",
    "stem": "Each of these fractions gives a recurring decimal. Recurring dots can't be typed here, so work out the decimal by division and give it correct to 4 decimal places.",
@@ -1706,6 +1874,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-1c-recurring",
    "label": "2e",
    "section": "Fluency",
    "stem": "Each of these fractions gives a recurring decimal. Recurring dots can't be typed here, so work out the decimal by division and give it correct to 4 decimal places.",
@@ -1716,6 +1885,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-1c-recurring",
    "label": "2f",
    "section": "Fluency",
    "stem": "Each of these fractions gives a recurring decimal. Recurring dots can't be typed here, so work out the decimal by division and give it correct to 4 decimal places.",
@@ -1726,6 +1896,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y9-1c-recurring",
    "label": "2g",
    "section": "Fluency",
    "stem": "Each of these fractions gives a recurring decimal. Recurring dots can't be typed here, so work out the decimal by division and give it correct to 4 decimal places.",
@@ -1736,6 +1907,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y9-1c-recurring",
    "label": "2h",
    "section": "Fluency",
    "stem": "Each of these fractions gives a recurring decimal. Recurring dots can't be typed here, so work out the decimal by division and give it correct to 4 decimal places.",
@@ -1746,6 +1918,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-1c-to-frac",
    "label": "3a",
    "section": "Fluency",
    "stem": "Write each decimal as a fraction in simplest form. Use a mixed numeral when the number is more than 1.",
@@ -1757,6 +1930,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-1c-to-frac",
    "label": "3b",
    "section": "Fluency",
    "stem": "Write each decimal as a fraction in simplest form. Use a mixed numeral when the number is more than 1.",
@@ -1768,6 +1942,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-1c-to-frac",
    "label": "3c",
    "section": "Fluency",
    "stem": "Write each decimal as a fraction in simplest form. Use a mixed numeral when the number is more than 1.",
@@ -1779,6 +1954,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-1c-to-frac",
    "label": "3d",
    "section": "Fluency",
    "stem": "Write each decimal as a fraction in simplest form. Use a mixed numeral when the number is more than 1.",
@@ -1790,6 +1966,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-1c-to-frac",
    "label": "3e",
    "section": "Fluency",
    "stem": "Write each decimal as a fraction in simplest form. Use a mixed numeral when the number is more than 1.",
@@ -1801,6 +1978,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-1c-to-frac",
    "label": "3f",
    "section": "Fluency",
    "stem": "Write each decimal as a fraction in simplest form. Use a mixed numeral when the number is more than 1.",
@@ -1812,6 +1990,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3g",
+   "help": "y9-1c-to-frac",
    "label": "3g",
    "section": "Fluency",
    "stem": "Write each decimal as a fraction in simplest form. Use a mixed numeral when the number is more than 1.",
@@ -1823,6 +2002,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3h",
+   "help": "y9-1c-to-frac",
    "label": "3h",
    "section": "Fluency",
    "stem": "Write each decimal as a fraction in simplest form. Use a mixed numeral when the number is more than 1.",
@@ -1834,6 +2014,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3i",
+   "help": "y9-1c-to-frac",
    "label": "3i",
    "section": "Fluency",
    "stem": "Write each decimal as a fraction in simplest form. Use a mixed numeral when the number is more than 1.",
@@ -1845,6 +2026,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3j",
+   "help": "y9-1c-to-frac",
    "label": "3j",
    "section": "Fluency",
    "stem": "Write each decimal as a fraction in simplest form. Use a mixed numeral when the number is more than 1.",
@@ -1856,6 +2038,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3k",
+   "help": "y9-1c-to-frac",
    "label": "3k",
    "section": "Fluency",
    "stem": "Write each decimal as a fraction in simplest form. Use a mixed numeral when the number is more than 1.",
@@ -1867,6 +2050,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3l",
+   "help": "y9-1c-to-frac",
    "label": "3l",
    "section": "Fluency",
    "stem": "Write each decimal as a fraction in simplest form. Use a mixed numeral when the number is more than 1.",
@@ -1878,6 +2062,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-1c-compare",
    "label": "4a",
    "section": "Fluency",
    "stem": "Which is the larger fraction in each pair?",
@@ -1891,6 +2076,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-1c-compare",
    "label": "4b",
    "section": "Fluency",
    "stem": "Which is the larger fraction in each pair?",
@@ -1904,6 +2090,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-1c-compare",
    "label": "4c",
    "section": "Fluency",
    "stem": "Which is the larger fraction in each pair?",
@@ -1917,6 +2104,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-1c-compare",
    "label": "4d",
    "section": "Fluency",
    "stem": "Which is the larger fraction in each pair?",
@@ -1930,6 +2118,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y9-1c-compare",
    "label": "4e",
    "section": "Fluency",
    "stem": "Which is the larger fraction in each pair?",
@@ -1943,6 +2132,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y9-1c-compare",
    "label": "4f",
    "section": "Fluency",
    "stem": "Which is the larger fraction in each pair?",
@@ -1956,6 +2146,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4g",
+   "help": "y9-1c-compare",
    "label": "4g",
    "section": "Fluency",
    "stem": "Which is the larger fraction in each pair?",
@@ -1969,6 +2160,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4h",
+   "help": "y9-1c-compare",
    "label": "4h",
    "section": "Fluency",
    "stem": "Which is the larger fraction in each pair?",
@@ -1982,6 +2174,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-1c-compare",
    "label": "5a",
    "section": "Fluency",
    "stem": "Write these fractions in descending order (largest first).",
@@ -1996,6 +2189,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-1c-compare",
    "label": "5b",
    "section": "Fluency",
    "stem": "Write these fractions in descending order (largest first).",
@@ -2009,6 +2203,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-1c-compare",
    "label": "5c",
    "section": "Fluency",
    "stem": "Write these fractions in descending order (largest first).",
@@ -2022,6 +2217,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-1c-quantity",
    "label": "6a",
    "section": "Fluency",
    "stem": "Write each quantity as a fraction in simplest form.",
@@ -2033,6 +2229,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-1c-quantity",
    "label": "6b",
    "section": "Fluency",
    "stem": "Write each quantity as a fraction in simplest form.",
@@ -2044,6 +2241,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y9-1c-quantity",
    "label": "6c",
    "section": "Fluency",
    "stem": "Write each quantity as a fraction in simplest form.",
@@ -2055,6 +2253,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y9-1c-quantity",
    "label": "6d",
    "section": "Fluency",
    "stem": "Write each quantity as a fraction in simplest form.",
@@ -2066,6 +2265,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-1c-pattern",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "Each list of fractions follows a pattern. Find the next two fractions in the pattern.",
@@ -2079,6 +2279,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-1c-pattern",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "Each list of fractions follows a pattern. Find the next two fractions in the pattern.",
@@ -2091,6 +2292,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-1c-pattern",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "Each list of fractions follows a pattern. Find the next two fractions in the pattern.",
@@ -2103,6 +2305,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y9-1c-pattern",
    "label": "7d",
    "section": "Problem-solving",
    "stem": "Each list of fractions follows a pattern. Find the next two fractions in the pattern.",
@@ -2115,6 +2318,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8",
+   "help": "y9-1c-compare",
    "label": "8",
    "section": "Problem-solving",
    "prompt": "The SkyWatch website says there is a $0.38$ chance of rain tomorrow. The RainCheck website says the chance is $\\frac{11}{30}$. Which website gives the smaller chance of rain?",
@@ -2127,6 +2331,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-1c-strength",
    "label": "9a",
    "section": "Problem-solving",
    "stem": "A jug holds $300$ mL of half-strength apple juice. This amount of full-strength juice is added. What fraction describes the strength of the drink now?",
@@ -2138,6 +2343,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-1c-strength",
    "label": "9b",
    "section": "Problem-solving",
    "stem": "A jug holds $300$ mL of half-strength apple juice. This amount of full-strength juice is added. What fraction describes the strength of the drink now?",
@@ -2149,6 +2355,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y9-1c-strength",
    "label": "9c",
    "section": "Problem-solving",
    "stem": "A jug holds $300$ mL of half-strength apple juice. This amount of full-strength juice is added. What fraction describes the strength of the drink now?",
@@ -2160,6 +2367,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y9-1c-strength",
    "label": "9d",
    "section": "Problem-solving",
    "stem": "A jug holds $300$ mL of half-strength apple juice. This amount of full-strength juice is added. What fraction describes the strength of the drink now?",
@@ -2171,6 +2379,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y9-1c-between",
    "label": "10a",
    "section": "Problem-solving",
    "stem": "$x$ is an integer. Find all the values that $x$ can take.",
@@ -2185,6 +2394,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y9-1c-between",
    "label": "10b",
    "section": "Problem-solving",
    "stem": "$x$ is an integer. Find all the values that $x$ can take.",
@@ -2204,6 +2414,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y9-1c-between",
    "label": "10c",
    "section": "Problem-solving",
    "stem": "$x$ is an integer. Find all the values that $x$ can take.",
@@ -2218,6 +2429,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10d",
+   "help": "y9-1c-between",
    "label": "10d",
    "section": "Problem-solving",
    "stem": "$x$ is an integer. Find all the values that $x$ can take.",
@@ -2230,6 +2442,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10e",
+   "help": "y9-1c-between",
    "label": "10e",
    "section": "Problem-solving",
    "stem": "$x$ is an integer. Find all the values that $x$ can take.",
@@ -2251,6 +2464,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10f",
+   "help": "y9-1c-between",
    "label": "10f",
    "section": "Problem-solving",
    "stem": "$x$ is an integer. Find all the values that $x$ can take.",
@@ -2264,6 +2478,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11",
+   "help": "y9-1c-letters",
    "label": "11",
    "section": "Reasoning",
    "prompt": "$p\\frac{q}{r}$ is a mixed numeral where $p$, $q$ and $r$ are unknown digits. Which of these is the same number written as an improper fraction?",
@@ -2278,6 +2493,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y9-1c-simplest",
    "label": "12a",
    "section": "Reasoning",
    "stem": "$\\frac{m}{n}$ is a fraction.",
@@ -2291,6 +2507,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y9-1c-simplest",
    "label": "12b",
    "section": "Reasoning",
    "stem": "$\\frac{m}{n}$ is a fraction.",
@@ -2304,6 +2521,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y9-1c-simplest",
    "label": "12c",
    "section": "Reasoning",
    "stem": "$\\frac{m}{n}$ is a fraction.",
@@ -2317,6 +2535,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12d",
+   "help": "y9-1c-simplest",
    "label": "12d",
    "section": "Reasoning",
    "stem": "$\\frac{m}{n}$ is a fraction.",
@@ -2330,6 +2549,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y9-1c-rec-to-frac",
    "label": "13a",
    "section": "Enrichment",
    "stem": "Convert each recurring decimal to a fraction in simplest form. For example, let $x = 0.\\dot{5}$, so $10x = 5.\\dot{5}$, then $9x = 5$ and $x = \\frac{5}{9}$. A mixed numeral is fine for numbers bigger than 1.",
@@ -2340,6 +2560,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y9-1c-rec-to-frac",
    "label": "13b",
    "section": "Enrichment",
    "stem": "Convert each recurring decimal to a fraction in simplest form. For example, let $x = 0.\\dot{5}$, so $10x = 5.\\dot{5}$, then $9x = 5$ and $x = \\frac{5}{9}$. A mixed numeral is fine for numbers bigger than 1.",
@@ -2350,6 +2571,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13c",
+   "help": "y9-1c-rec-to-frac",
    "label": "13c",
    "section": "Enrichment",
    "stem": "Convert each recurring decimal to a fraction in simplest form. For example, let $x = 0.\\dot{5}$, so $10x = 5.\\dot{5}$, then $9x = 5$ and $x = \\frac{5}{9}$. A mixed numeral is fine for numbers bigger than 1.",
@@ -2360,6 +2582,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13d",
+   "help": "y9-1c-rec-to-frac",
    "label": "13d",
    "section": "Enrichment",
    "stem": "Convert each recurring decimal to a fraction in simplest form. For example, let $x = 0.\\dot{5}$, so $10x = 5.\\dot{5}$, then $9x = 5$ and $x = \\frac{5}{9}$. A mixed numeral is fine for numbers bigger than 1.",
@@ -2370,6 +2593,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13e",
+   "help": "y9-1c-rec-to-frac",
    "label": "13e",
    "section": "Enrichment",
    "stem": "Convert each recurring decimal to a fraction in simplest form. For example, let $x = 0.\\dot{5}$, so $10x = 5.\\dot{5}$, then $9x = 5$ and $x = \\frac{5}{9}$. A mixed numeral is fine for numbers bigger than 1.",
@@ -2380,6 +2604,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13f",
+   "help": "y9-1c-rec-to-frac",
    "label": "13f",
    "section": "Enrichment",
    "stem": "Convert each recurring decimal to a fraction in simplest form. For example, let $x = 0.\\dot{5}$, so $10x = 5.\\dot{5}$, then $9x = 5$ and $x = \\frac{5}{9}$. A mixed numeral is fine for numbers bigger than 1.",
@@ -2390,6 +2615,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13g",
+   "help": "y9-1c-rec-to-frac",
    "label": "13g",
    "section": "Enrichment",
    "stem": "Convert each recurring decimal to a fraction in simplest form. For example, let $x = 0.\\dot{5}$, so $10x = 5.\\dot{5}$, then $9x = 5$ and $x = \\frac{5}{9}$. A mixed numeral is fine for numbers bigger than 1.",
@@ -2400,6 +2626,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13h",
+   "help": "y9-1c-rec-to-frac",
    "label": "13h",
    "section": "Enrichment",
    "stem": "Convert each recurring decimal to a fraction in simplest form. For example, let $x = 0.\\dot{5}$, so $10x = 5.\\dot{5}$, then $9x = 5$ and $x = \\frac{5}{9}$. A mixed numeral is fine for numbers bigger than 1.",
@@ -2419,6 +2646,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-1d-add",
    "label": "1a",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -2429,6 +2657,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-1d-add",
    "label": "1b",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -2438,6 +2667,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-1d-add",
    "label": "1c",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -2447,6 +2677,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-1d-add",
    "label": "1d",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -2456,6 +2687,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-1d-add",
    "label": "1e",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -2465,6 +2697,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-1d-add",
    "label": "1f",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -2474,6 +2707,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1g",
+   "help": "y9-1d-add",
    "label": "1g",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -2483,6 +2717,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1h",
+   "help": "y9-1d-add",
    "label": "1h",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -2492,6 +2727,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-1d-add",
    "label": "2a",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -2501,6 +2737,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-1d-add",
    "label": "2b",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -2510,6 +2747,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-1d-add",
    "label": "2c",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -2519,6 +2757,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-1d-add",
    "label": "2d",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -2528,6 +2767,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-1d-add",
    "label": "2e",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -2537,6 +2777,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-1d-add",
    "label": "2f",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -2546,6 +2787,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y9-1d-add",
    "label": "2g",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -2555,6 +2797,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y9-1d-add",
    "label": "2h",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -2564,6 +2807,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-1d-mixed-add",
    "label": "3a",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -2573,6 +2817,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-1d-mixed-add",
    "label": "3b",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -2582,6 +2827,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-1d-mixed-add",
    "label": "3c",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -2591,6 +2837,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-1d-mixed-add",
    "label": "3d",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -2600,6 +2847,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-1d-mixed-add",
    "label": "3e",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -2609,6 +2857,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-1d-mixed-add",
    "label": "3f",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -2618,6 +2867,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-1d-mixed-add",
    "label": "4a",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -2627,6 +2877,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-1d-mixed-add",
    "label": "4b",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -2636,6 +2887,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-1d-mixed-add",
    "label": "4c",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -2645,6 +2897,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-1d-mixed-add",
    "label": "4d",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -2654,6 +2907,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y9-1d-mixed-add",
    "label": "4e",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -2663,6 +2917,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y9-1d-mixed-add",
    "label": "4f",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -2672,6 +2927,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-1d-multiply",
    "label": "5a",
    "section": "Fluency",
    "stem": "Evaluate each of these. Remember that a whole number like $6$ can be written as $\\frac{6}{1}$.",
@@ -2681,6 +2937,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-1d-multiply",
    "label": "5b",
    "section": "Fluency",
    "stem": "Evaluate each of these. Remember that a whole number like $6$ can be written as $\\frac{6}{1}$.",
@@ -2690,6 +2947,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-1d-multiply",
    "label": "5c",
    "section": "Fluency",
    "stem": "Evaluate each of these. Remember that a whole number like $6$ can be written as $\\frac{6}{1}$.",
@@ -2699,6 +2957,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-1d-multiply",
    "label": "5d",
    "section": "Fluency",
    "stem": "Evaluate each of these. Remember that a whole number like $6$ can be written as $\\frac{6}{1}$.",
@@ -2708,6 +2967,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y9-1d-multiply",
    "label": "5e",
    "section": "Fluency",
    "stem": "Evaluate each of these. Remember that a whole number like $6$ can be written as $\\frac{6}{1}$.",
@@ -2717,6 +2977,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y9-1d-multiply",
    "label": "5f",
    "section": "Fluency",
    "stem": "Evaluate each of these. Remember that a whole number like $6$ can be written as $\\frac{6}{1}$.",
@@ -2726,6 +2987,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5g",
+   "help": "y9-1d-multiply",
    "label": "5g",
    "section": "Fluency",
    "stem": "Evaluate each of these. Remember that a whole number like $6$ can be written as $\\frac{6}{1}$.",
@@ -2735,6 +2997,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5h",
+   "help": "y9-1d-multiply",
    "label": "5h",
    "section": "Fluency",
    "stem": "Evaluate each of these. Remember that a whole number like $6$ can be written as $\\frac{6}{1}$.",
@@ -2744,6 +3007,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5i",
+   "help": "y9-1d-multiply",
    "label": "5i",
    "section": "Fluency",
    "stem": "Evaluate each of these. Remember that a whole number like $6$ can be written as $\\frac{6}{1}$.",
@@ -2753,6 +3017,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5j",
+   "help": "y9-1d-multiply",
    "label": "5j",
    "section": "Fluency",
    "stem": "Evaluate each of these. Remember that a whole number like $6$ can be written as $\\frac{6}{1}$.",
@@ -2762,6 +3027,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5k",
+   "help": "y9-1d-multiply",
    "label": "5k",
    "section": "Fluency",
    "stem": "Evaluate each of these. Remember that a whole number like $6$ can be written as $\\frac{6}{1}$.",
@@ -2771,6 +3037,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5l",
+   "help": "y9-1d-multiply",
    "label": "5l",
    "section": "Fluency",
    "stem": "Evaluate each of these. Remember that a whole number like $6$ can be written as $\\frac{6}{1}$.",
@@ -2780,6 +3047,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5m",
+   "help": "y9-1d-multiply",
    "label": "5m",
    "section": "Fluency",
    "stem": "Evaluate each of these. Remember that a whole number like $6$ can be written as $\\frac{6}{1}$.",
@@ -2789,6 +3057,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5n",
+   "help": "y9-1d-multiply",
    "label": "5n",
    "section": "Fluency",
    "stem": "Evaluate each of these. Remember that a whole number like $6$ can be written as $\\frac{6}{1}$.",
@@ -2798,6 +3067,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5o",
+   "help": "y9-1d-multiply",
    "label": "5o",
    "section": "Fluency",
    "stem": "Evaluate each of these. Remember that a whole number like $6$ can be written as $\\frac{6}{1}$.",
@@ -2807,6 +3077,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5p",
+   "help": "y9-1d-multiply",
    "label": "5p",
    "section": "Fluency",
    "stem": "Evaluate each of these. Remember that a whole number like $6$ can be written as $\\frac{6}{1}$.",
@@ -2816,6 +3087,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-1d-divide",
    "label": "6a",
    "section": "Fluency",
    "stem": "Evaluate each of these. To divide by a fraction, multiply by its reciprocal (the reciprocal of $5$ is $\\frac{1}{5}$ and of $\\frac{2}{3}$ is $\\frac{3}{2}$).",
@@ -2825,6 +3097,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-1d-divide",
    "label": "6b",
    "section": "Fluency",
    "stem": "Evaluate each of these. To divide by a fraction, multiply by its reciprocal (the reciprocal of $5$ is $\\frac{1}{5}$ and of $\\frac{2}{3}$ is $\\frac{3}{2}$).",
@@ -2834,6 +3107,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y9-1d-divide",
    "label": "6c",
    "section": "Fluency",
    "stem": "Evaluate each of these. To divide by a fraction, multiply by its reciprocal (the reciprocal of $5$ is $\\frac{1}{5}$ and of $\\frac{2}{3}$ is $\\frac{3}{2}$).",
@@ -2843,6 +3117,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y9-1d-divide",
    "label": "6d",
    "section": "Fluency",
    "stem": "Evaluate each of these. To divide by a fraction, multiply by its reciprocal (the reciprocal of $5$ is $\\frac{1}{5}$ and of $\\frac{2}{3}$ is $\\frac{3}{2}$).",
@@ -2852,6 +3127,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6e",
+   "help": "y9-1d-divide",
    "label": "6e",
    "section": "Fluency",
    "stem": "Evaluate each of these. To divide by a fraction, multiply by its reciprocal (the reciprocal of $5$ is $\\frac{1}{5}$ and of $\\frac{2}{3}$ is $\\frac{3}{2}$).",
@@ -2861,6 +3137,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6f",
+   "help": "y9-1d-divide",
    "label": "6f",
    "section": "Fluency",
    "stem": "Evaluate each of these. To divide by a fraction, multiply by its reciprocal (the reciprocal of $5$ is $\\frac{1}{5}$ and of $\\frac{2}{3}$ is $\\frac{3}{2}$).",
@@ -2870,6 +3147,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6g",
+   "help": "y9-1d-divide",
    "label": "6g",
    "section": "Fluency",
    "stem": "Evaluate each of these. To divide by a fraction, multiply by its reciprocal (the reciprocal of $5$ is $\\frac{1}{5}$ and of $\\frac{2}{3}$ is $\\frac{3}{2}$).",
@@ -2879,6 +3157,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6h",
+   "help": "y9-1d-divide",
    "label": "6h",
    "section": "Fluency",
    "stem": "Evaluate each of these. To divide by a fraction, multiply by its reciprocal (the reciprocal of $5$ is $\\frac{1}{5}$ and of $\\frac{2}{3}$ is $\\frac{3}{2}$).",
@@ -2888,6 +3167,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6i",
+   "help": "y9-1d-divide",
    "label": "6i",
    "section": "Fluency",
    "stem": "Evaluate each of these. To divide by a fraction, multiply by its reciprocal (the reciprocal of $5$ is $\\frac{1}{5}$ and of $\\frac{2}{3}$ is $\\frac{3}{2}$).",
@@ -2897,6 +3177,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6j",
+   "help": "y9-1d-divide",
    "label": "6j",
    "section": "Fluency",
    "stem": "Evaluate each of these. To divide by a fraction, multiply by its reciprocal (the reciprocal of $5$ is $\\frac{1}{5}$ and of $\\frac{2}{3}$ is $\\frac{3}{2}$).",
@@ -2906,6 +3187,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6k",
+   "help": "y9-1d-divide",
    "label": "6k",
    "section": "Fluency",
    "stem": "Evaluate each of these. To divide by a fraction, multiply by its reciprocal (the reciprocal of $5$ is $\\frac{1}{5}$ and of $\\frac{2}{3}$ is $\\frac{3}{2}$).",
@@ -2915,6 +3197,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6l",
+   "help": "y9-1d-divide",
    "label": "6l",
    "section": "Fluency",
    "stem": "Evaluate each of these. To divide by a fraction, multiply by its reciprocal (the reciprocal of $5$ is $\\frac{1}{5}$ and of $\\frac{2}{3}$ is $\\frac{3}{2}$).",
@@ -2924,6 +3207,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6m",
+   "help": "y9-1d-divide",
    "label": "6m",
    "section": "Fluency",
    "stem": "Evaluate each of these. To divide by a fraction, multiply by its reciprocal (the reciprocal of $5$ is $\\frac{1}{5}$ and of $\\frac{2}{3}$ is $\\frac{3}{2}$).",
@@ -2933,6 +3217,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6n",
+   "help": "y9-1d-divide",
    "label": "6n",
    "section": "Fluency",
    "stem": "Evaluate each of these. To divide by a fraction, multiply by its reciprocal (the reciprocal of $5$ is $\\frac{1}{5}$ and of $\\frac{2}{3}$ is $\\frac{3}{2}$).",
@@ -2942,6 +3227,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6o",
+   "help": "y9-1d-divide",
    "label": "6o",
    "section": "Fluency",
    "stem": "Evaluate each of these. To divide by a fraction, multiply by its reciprocal (the reciprocal of $5$ is $\\frac{1}{5}$ and of $\\frac{2}{3}$ is $\\frac{3}{2}$).",
@@ -2951,6 +3237,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6p",
+   "help": "y9-1d-divide",
    "label": "6p",
    "section": "Fluency",
    "stem": "Evaluate each of these. To divide by a fraction, multiply by its reciprocal (the reciprocal of $5$ is $\\frac{1}{5}$ and of $\\frac{2}{3}$ is $\\frac{3}{2}$).",
@@ -2960,6 +3247,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6q",
+   "help": "y9-1d-divide",
    "label": "6q",
    "section": "Fluency",
    "stem": "Evaluate each of these. To divide by a fraction, multiply by its reciprocal (the reciprocal of $5$ is $\\frac{1}{5}$ and of $\\frac{2}{3}$ is $\\frac{3}{2}$).",
@@ -2969,6 +3257,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6r",
+   "help": "y9-1d-divide",
    "label": "6r",
    "section": "Fluency",
    "stem": "Evaluate each of these. To divide by a fraction, multiply by its reciprocal (the reciprocal of $5$ is $\\frac{1}{5}$ and of $\\frac{2}{3}$ is $\\frac{3}{2}$).",
@@ -2978,6 +3267,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6s",
+   "help": "y9-1d-divide",
    "label": "6s",
    "section": "Fluency",
    "stem": "Evaluate each of these. To divide by a fraction, multiply by its reciprocal (the reciprocal of $5$ is $\\frac{1}{5}$ and of $\\frac{2}{3}$ is $\\frac{3}{2}$).",
@@ -2987,6 +3277,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6t",
+   "help": "y9-1d-divide",
    "label": "6t",
    "section": "Fluency",
    "stem": "Evaluate each of these. To divide by a fraction, multiply by its reciprocal (the reciprocal of $5$ is $\\frac{1}{5}$ and of $\\frac{2}{3}$ is $\\frac{3}{2}$).",
@@ -2996,6 +3287,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7",
+   "help": "y9-1d-mixed-add",
    "label": "7",
    "section": "Problem-solving",
    "prompt": "A quarry sieves $4\\frac{1}{4}$ tonnes of gravel. If $1\\frac{5}{6}$ tonnes of dust and grit is removed, how many tonnes of gravel are left?",
@@ -3005,6 +3297,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8",
+   "help": "y9-1d-mixed-add",
    "label": "8",
    "section": "Problem-solving",
    "prompt": "When a load of ore is processed it produces $2\\frac{3}{5}$ tonnes of metal and $4\\frac{1}{6}$ tonnes of waste. How many tonnes of ore were processed?",
@@ -3014,6 +3307,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9",
+   "help": "y9-1d-word",
    "label": "9",
    "section": "Problem-solving",
    "prompt": "In a $2\\frac{2}{3}$ hour science exam, $\\frac{1}{8}$ of the time is reading time. How many minutes of reading time is that?",
@@ -3023,6 +3317,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y9-1d-mixed-ops",
    "label": "10a",
    "section": "Problem-solving",
    "stem": "Evaluate these mixed-operation problems.",
@@ -3032,6 +3327,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y9-1d-mixed-ops",
    "label": "10b",
    "section": "Problem-solving",
    "stem": "Evaluate these mixed-operation problems.",
@@ -3041,6 +3337,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y9-1d-mixed-ops",
    "label": "10c",
    "section": "Problem-solving",
    "stem": "Evaluate these mixed-operation problems.",
@@ -3050,6 +3347,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10d",
+   "help": "y9-1d-mixed-ops",
    "label": "10d",
    "section": "Problem-solving",
    "stem": "Evaluate these mixed-operation problems.",
@@ -3059,6 +3357,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10e",
+   "help": "y9-1d-mixed-ops",
    "label": "10e",
    "section": "Problem-solving",
    "stem": "Evaluate these mixed-operation problems.",
@@ -3068,6 +3367,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10f",
+   "help": "y9-1d-mixed-ops",
    "label": "10f",
    "section": "Problem-solving",
    "stem": "Evaluate these mixed-operation problems.",
@@ -3077,6 +3377,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11",
+   "help": "y9-1d-divide",
    "label": "11",
    "section": "Problem-solving",
    "prompt": "A path needs $16\\frac{1}{3}\\text{ m}^3$ of gravel. A small trailer can carry $2\\frac{1}{4}\\text{ m}^3$ of gravel. How many trailer loads will be needed?",
@@ -3086,6 +3387,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12",
+   "help": "y9-1d-word",
    "label": "12",
    "section": "Problem-solving",
    "prompt": "Mei worked for $8\\frac{3}{4}$ hours at a bakery. Three-sevenths of her time was spent baking and the rest serving customers. How many hours did she spend serving customers?",
@@ -3095,6 +3397,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13",
+   "help": "y9-1d-mixed-add",
    "label": "13",
    "section": "Reasoning",
    "prompt": "Here the fraction part being taken away is bigger than the fraction part it is taken from, so you cannot just subtract the whole numbers and the fractions separately. Evaluate $3\\frac{1}{5} - 1\\frac{1}{2}$.",
@@ -3103,6 +3406,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y9-1d-letters",
    "label": "14a",
    "section": "Reasoning",
    "prompt": "A fraction is given by $\\frac{p}{q}$. Write down its reciprocal.",
@@ -3113,6 +3417,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y9-1d-letters",
    "label": "14b",
    "section": "Reasoning",
    "prompt": "A mixed numeral is given by $p\\frac{q}{r}$. Write an expression for its reciprocal, as a single fraction.",
@@ -3123,6 +3428,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15a",
+   "help": "y9-1d-letters",
    "label": "15a",
    "section": "Reasoning",
    "stem": "$p$, $q$ and $r$ are positive integers. Simplify each of these.",
@@ -3134,6 +3440,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15b",
+   "help": "y9-1d-letters",
    "label": "15b",
    "section": "Reasoning",
    "stem": "$p$, $q$ and $r$ are positive integers. Simplify each of these.",
@@ -3144,6 +3451,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15c",
+   "help": "y9-1d-letters",
    "label": "15c",
    "section": "Reasoning",
    "stem": "$p$, $q$ and $r$ are positive integers. Simplify each of these.",
@@ -3153,6 +3461,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15d",
+   "help": "y9-1d-letters",
    "label": "15d",
    "section": "Reasoning",
    "stem": "$p$, $q$ and $r$ are positive integers. Simplify each of these.",
@@ -3162,6 +3471,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15e",
+   "help": "y9-1d-letters",
    "label": "15e",
    "section": "Reasoning",
    "stem": "$p$, $q$ and $r$ are positive integers. Simplify each of these.",
@@ -3172,6 +3482,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15f",
+   "help": "y9-1d-letters",
    "label": "15f",
    "section": "Reasoning",
    "stem": "$p$, $q$ and $r$ are positive integers. Simplify each of these.",
@@ -3182,6 +3493,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16a",
+   "help": "y9-1d-order",
    "label": "16a",
    "section": "Enrichment",
    "stem": "Evaluate each of these. Take care with the order of operations.",
@@ -3191,6 +3503,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16b",
+   "help": "y9-1d-order",
    "label": "16b",
    "section": "Enrichment",
    "stem": "Evaluate each of these. Take care with the order of operations.",
@@ -3200,6 +3513,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16c",
+   "help": "y9-1d-order",
    "label": "16c",
    "section": "Enrichment",
    "stem": "Evaluate each of these. Take care with the order of operations.",
@@ -3209,6 +3523,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16d",
+   "help": "y9-1d-order",
    "label": "16d",
    "section": "Enrichment",
    "stem": "Evaluate each of these. Take care with the order of operations.",
@@ -3218,6 +3533,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16e",
+   "help": "y9-1d-order",
    "label": "16e",
    "section": "Enrichment",
    "stem": "Evaluate each of these. Take care with the order of operations.",
@@ -3227,6 +3543,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16f",
+   "help": "y9-1d-order",
    "label": "16f",
    "section": "Enrichment",
    "stem": "Evaluate each of these. Take care with the order of operations.",
@@ -3236,6 +3553,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16g",
+   "help": "y9-1d-order",
    "label": "16g",
    "section": "Enrichment",
    "stem": "Evaluate each of these. Take care with the order of operations.",
@@ -3245,6 +3563,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16h",
+   "help": "y9-1d-order",
    "label": "16h",
    "section": "Enrichment",
    "stem": "Evaluate each of these. Take care with the order of operations.",
@@ -3254,6 +3573,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16i",
+   "help": "y9-1d-order",
    "label": "16i",
    "section": "Enrichment",
    "stem": "Evaluate each of these. Take care with the order of operations.",
@@ -3263,6 +3583,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16j",
+   "help": "y9-1d-order",
    "label": "16j",
    "section": "Enrichment",
    "stem": "Evaluate each of these. Take care with the order of operations.",
@@ -3281,6 +3602,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-1e-simplify",
    "label": "1a",
    "section": "Fluency",
    "stem": "Simplify these ratios.",
@@ -3292,6 +3614,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-1e-simplify",
    "label": "1b",
    "section": "Fluency",
    "stem": "Simplify these ratios.",
@@ -3302,6 +3625,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-1e-simplify",
    "label": "1c",
    "section": "Fluency",
    "stem": "Simplify these ratios.",
@@ -3312,6 +3636,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-1e-simplify",
    "label": "1d",
    "section": "Fluency",
    "stem": "Simplify these ratios.",
@@ -3322,6 +3647,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-1e-simplify",
    "label": "1e",
    "section": "Fluency",
    "stem": "Simplify these ratios.",
@@ -3332,6 +3658,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-1e-simplify",
    "label": "1f",
    "section": "Fluency",
    "stem": "Simplify these ratios.",
@@ -3342,6 +3669,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1g",
+   "help": "y9-1e-simplify",
    "label": "1g",
    "section": "Fluency",
    "stem": "Simplify these ratios.",
@@ -3352,6 +3680,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1h",
+   "help": "y9-1e-simplify",
    "label": "1h",
    "section": "Fluency",
    "stem": "Simplify these ratios.",
@@ -3362,6 +3691,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1i",
+   "help": "y9-1e-simplify",
    "label": "1i",
    "section": "Fluency",
    "stem": "Simplify these ratios.",
@@ -3372,6 +3702,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1j",
+   "help": "y9-1e-simplify",
    "label": "1j",
    "section": "Fluency",
    "stem": "Simplify these ratios.",
@@ -3382,6 +3713,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1k",
+   "help": "y9-1e-simplify",
    "label": "1k",
    "section": "Fluency",
    "stem": "Simplify these ratios.",
@@ -3392,6 +3724,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1l",
+   "help": "y9-1e-simplify",
    "label": "1l",
    "section": "Fluency",
    "stem": "Simplify these ratios.",
@@ -3402,6 +3735,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-1e-units",
    "label": "2a",
    "section": "Fluency",
    "stem": "Write each of these as a ratio in simplest form. Change to the same unit first.",
@@ -3412,6 +3746,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-1e-units",
    "label": "2b",
    "section": "Fluency",
    "stem": "Write each of these as a ratio in simplest form. Change to the same unit first.",
@@ -3422,6 +3757,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-1e-units",
    "label": "2c",
    "section": "Fluency",
    "stem": "Write each of these as a ratio in simplest form. Change to the same unit first.",
@@ -3432,6 +3768,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-1e-units",
    "label": "2d",
    "section": "Fluency",
    "stem": "Write each of these as a ratio in simplest form. Change to the same unit first.",
@@ -3442,6 +3779,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-1e-units",
    "label": "2e",
    "section": "Fluency",
    "stem": "Write each of these as a ratio in simplest form. Change to the same unit first.",
@@ -3452,6 +3790,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-1e-units",
    "label": "2f",
    "section": "Fluency",
    "stem": "Write each of these as a ratio in simplest form. Change to the same unit first.",
@@ -3462,6 +3801,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y9-1e-units",
    "label": "2g",
    "section": "Fluency",
    "stem": "Write each of these as a ratio in simplest form. Change to the same unit first.",
@@ -3472,6 +3812,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y9-1e-units",
    "label": "2h",
    "section": "Fluency",
    "stem": "Write each of these as a ratio in simplest form. Change to the same unit first.",
@@ -3482,6 +3823,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2i",
+   "help": "y9-1e-units",
    "label": "2i",
    "section": "Fluency",
    "stem": "Write each of these as a ratio in simplest form. Change to the same unit first.",
@@ -3492,6 +3834,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2j",
+   "help": "y9-1e-units",
    "label": "2j",
    "section": "Fluency",
    "stem": "Write each of these as a ratio in simplest form. Change to the same unit first.",
@@ -3502,6 +3845,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2k",
+   "help": "y9-1e-units",
    "label": "2k",
    "section": "Fluency",
    "stem": "Write each of these as a ratio in simplest form. Change to the same unit first.",
@@ -3512,6 +3856,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2l",
+   "help": "y9-1e-units",
    "label": "2l",
    "section": "Fluency",
    "stem": "Write each of these as a ratio in simplest form. Change to the same unit first.",
@@ -3522,6 +3867,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-1e-divide",
    "label": "3a",
    "section": "Fluency",
    "stem": "Divide \\$800 in each ratio using the unitary method. Give the shares in order.",
@@ -3535,6 +3881,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-1e-divide",
    "label": "3b",
    "section": "Fluency",
    "stem": "Divide \\$800 in each ratio using the unitary method. Give the shares in order.",
@@ -3547,6 +3894,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-1e-divide",
    "label": "3c",
    "section": "Fluency",
    "stem": "Divide \\$800 in each ratio using the unitary method. Give the shares in order.",
@@ -3559,6 +3907,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-1e-divide",
    "label": "3d",
    "section": "Fluency",
    "stem": "Divide \\$800 in each ratio using the unitary method. Give the shares in order.",
@@ -3571,6 +3920,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-1e-divide",
    "label": "4a",
    "section": "Fluency",
    "stem": "Divide \\$90 in each ratio. Give the shares in order.",
@@ -3584,6 +3934,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-1e-divide",
    "label": "4b",
    "section": "Fluency",
    "stem": "Divide \\$90 in each ratio. Give the shares in order.",
@@ -3597,6 +3948,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-1e-divide",
    "label": "4c",
    "section": "Fluency",
    "stem": "Divide \\$90 in each ratio. Give the shares in order.",
@@ -3610,6 +3962,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-1e-rates",
    "label": "5a",
    "section": "Fluency",
    "stem": "Write each rate in simplest form, as an amount for one unit of time.",
@@ -3620,6 +3973,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-1e-rates",
    "label": "5b",
    "section": "Fluency",
    "stem": "Write each rate in simplest form, as an amount for one unit of time.",
@@ -3630,6 +3984,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-1e-rates",
    "label": "5c",
    "section": "Fluency",
    "stem": "Write each rate in simplest form, as an amount for one unit of time.",
@@ -3640,6 +3995,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-1e-rates",
    "label": "5d",
    "section": "Fluency",
    "stem": "Write each rate in simplest form, as an amount for one unit of time.",
@@ -3650,6 +4006,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y9-1e-rates",
    "label": "5e",
    "section": "Fluency",
    "stem": "Write each rate in simplest form, as an amount for one unit of time.",
@@ -3660,6 +4017,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y9-1e-rates",
    "label": "5f",
    "section": "Fluency",
    "stem": "Write each rate in simplest form, as an amount for one unit of time.",
@@ -3670,6 +4028,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-1e-rates",
    "label": "6a",
    "section": "Fluency",
    "stem": "Priya rides her bike at an average speed of $18$ km/h. How far does she ride in:",
@@ -3680,6 +4039,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-1e-rates",
    "label": "6b",
    "section": "Fluency",
    "stem": "Priya rides her bike at an average speed of $18$ km/h. How far does she ride in:",
@@ -3690,6 +4050,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y9-1e-rates",
    "label": "6c",
    "section": "Fluency",
    "stem": "Priya rides her bike at an average speed of $18$ km/h. How far does she ride in:",
@@ -3700,6 +4061,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-1e-best-buy",
    "label": "7a",
    "section": "Fluency",
    "stem": "Which is the better buy (cheaper deal)?",
@@ -3713,6 +4075,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-1e-best-buy",
    "label": "7b",
    "section": "Fluency",
    "stem": "Which is the better buy (cheaper deal)?",
@@ -3726,6 +4089,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-1e-best-buy",
    "label": "7c",
    "section": "Fluency",
    "stem": "Which is the better buy (cheaper deal)?",
@@ -3739,6 +4103,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y9-1e-best-buy",
    "label": "7d",
    "section": "Fluency",
    "stem": "Which is the better buy (cheaper deal)?",
@@ -3752,6 +4117,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-1e-best-buy",
    "label": "8a",
    "section": "Fluency",
    "stem": "Find the cost of $100$ g of each product, then decide which is the better buy (cheaper deal).",
@@ -3765,6 +4131,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-1e-best-buy",
    "label": "8b",
    "section": "Fluency",
    "stem": "Find the cost of $100$ g of each product, then decide which is the better buy (cheaper deal).",
@@ -3778,6 +4145,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y9-1e-best-buy",
    "label": "8c",
    "section": "Fluency",
    "stem": "Find the cost of $100$ g of each product, then decide which is the better buy (cheaper deal).",
@@ -3791,6 +4159,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9",
+   "help": "y9-1e-divide",
    "label": "9",
    "section": "Problem-solving",
    "prompt": "Leo runs a fruit shop. Each day he buys apples and pears in the ratio $5 : 3$. On one day he bought $240$ pieces of fruit altogether. How many apples did he buy?",
@@ -3800,6 +4169,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10",
+   "help": "y9-1e-divide",
    "label": "10",
    "section": "Problem-solving",
    "prompt": "A prize of \\$8400 is shared between Ava, Mia and Zara in the ratio $3 : 4 : 5$. How much does each girl get? Give the amounts in that order.",
@@ -3813,6 +4183,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11",
+   "help": "y9-1e-value",
    "label": "11",
    "section": "Problem-solving",
    "prompt": "A box of twenty-four $375$ mL cans of sparkling water works out at \\$1.60 per litre. A box of $36$ of the same cans is advertised as saving $8$ cents per can compared with the 24-can box. How much does the 36-can box cost? Give your answer to the nearest cent.",
@@ -3823,6 +4194,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12",
+   "help": "y9-1e-one-part",
    "label": "12",
    "section": "Problem-solving",
    "prompt": "A cleaning product is mixed with water in the ratio $3 : 5$ (cleaner to water). If you have $45$ litres of cleaner, how much water is needed?",
@@ -3832,6 +4204,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13",
+   "help": "y9-1e-value",
    "label": "13",
    "section": "Problem-solving",
    "prompt": "Josh is looking at a supermarket catalogue. A $3$ L tub of vanilla ice-cream is advertised for \\$7.20. His favourite mint ice-cream is usually \\$4.65 for a $1.5$ L tub. How much would the price of the mint tub need to drop for it to be the same value per litre as the vanilla tub? Give your answer to the nearest cent.",
@@ -3842,6 +4215,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14",
+   "help": "y9-1e-simplify",
    "label": "14",
    "section": "Problem-solving",
    "prompt": "The ratio of the side lengths of two squares is $2 : 3$. Find the ratio of their areas.",
@@ -3850,6 +4224,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15",
+   "help": "y9-1e-divide",
    "label": "15",
    "section": "Problem-solving",
    "prompt": "A quadrilateral (angle sum $360^\\circ$) has interior angles in the ratio $2 : 3 : 5 : 8$. Find the size of each angle, in that order.",
@@ -3864,6 +4239,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16",
+   "help": "y9-1e-best-buy",
    "label": "16",
    "section": "Reasoning",
    "prompt": "$3.2$ kg of cereal A costs \\$6.40 and $1.8$ kg of cereal B costs \\$3.69. Which cereal is the better buy (cheaper deal)?",
@@ -3876,6 +4252,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17a",
+   "help": "y9-1e-letters",
    "label": "17a",
    "section": "Reasoning",
    "stem": "$p : q$ is a ratio in simplest form. Decide whether each statement is true or false.",
@@ -3889,6 +4266,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17b",
+   "help": "y9-1e-letters",
    "label": "17b",
    "section": "Reasoning",
    "stem": "$p : q$ is a ratio in simplest form. Decide whether each statement is true or false.",
@@ -3902,6 +4280,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17c",
+   "help": "y9-1e-letters",
    "label": "17c",
    "section": "Reasoning",
    "stem": "$p : q$ is a ratio in simplest form. Decide whether each statement is true or false.",
@@ -3915,6 +4294,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17d",
+   "help": "y9-1e-letters",
    "label": "17d",
    "section": "Reasoning",
    "stem": "$p : q$ is a ratio in simplest form. Decide whether each statement is true or false.",
@@ -3928,6 +4308,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q18a",
+   "help": "y9-1e-letters",
    "label": "18a",
    "section": "Reasoning",
    "stem": "A ratio is $m : n$, where $m$ and $n$ are positive integers and $m < n$. Write an expression for:",
@@ -3937,6 +4318,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q18b",
+   "help": "y9-1e-letters",
    "label": "18b",
    "section": "Reasoning",
    "stem": "A ratio is $m : n$, where $m$ and $n$ are positive integers and $m < n$. Write an expression for:",
@@ -3947,6 +4329,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q18c",
+   "help": "y9-1e-letters",
    "label": "18c",
    "section": "Reasoning",
    "stem": "A ratio is $m : n$, where $m$ and $n$ are positive integers and $m < n$. Write an expression for:",
@@ -3956,6 +4339,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q19a",
+   "help": "y9-1e-mix",
    "label": "19a",
    "section": "Enrichment",
    "stem": "Four jugs of cordial are mixed with the cordial to water ratios and total volumes shown in the table.",
@@ -3992,6 +4376,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q19b",
+   "help": "y9-1e-mix",
    "label": "19b",
    "section": "Enrichment",
    "stem": "Four jugs of cordial are mixed with the cordial to water ratios and total volumes shown in the table.",
@@ -4002,6 +4387,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q19c",
+   "help": "y9-1e-mix",
    "label": "19c",
    "section": "Enrichment",
    "stem": "Four jugs of cordial are mixed with the cordial to water ratios and total volumes shown in the table.",
@@ -4012,6 +4398,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q19d",
+   "help": "y9-1e-mix",
    "label": "19d",
    "section": "Enrichment",
    "stem": "Four jugs of cordial are mixed with the cordial to water ratios and total volumes shown in the table.",
@@ -4022,6 +4409,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q19e",
+   "help": "y9-1e-mix",
    "label": "19e",
    "section": "Enrichment",
    "stem": "Four jugs of cordial are mixed with the cordial to water ratios and total volumes shown in the table.",
@@ -4032,6 +4420,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q19f",
+   "help": "y9-1e-mix",
    "label": "19f",
    "section": "Enrichment",
    "stem": "Four jugs of cordial are mixed with the cordial to water ratios and total volumes shown in the table.",
@@ -4042,6 +4431,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q19g",
+   "help": "y9-1e-mix",
    "label": "19g",
    "section": "Enrichment",
    "stem": "Four jugs of cordial are mixed with the cordial to water ratios and total volumes shown in the table.",
@@ -4052,6 +4442,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q19h",
+   "help": "y9-1e-mix",
    "label": "19h",
    "section": "Enrichment",
    "stem": "Four jugs of cordial are mixed with the cordial to water ratios and total volumes shown in the table.",
@@ -4062,6 +4453,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q19i",
+   "help": "y9-1e-mix",
    "label": "19i",
    "section": "Enrichment",
    "stem": "Four jugs of cordial are mixed with the cordial to water ratios and total volumes shown in the table.",
@@ -4072,6 +4464,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q19j",
+   "help": "y9-1e-mix",
    "label": "19j",
    "section": "Enrichment",
    "stem": "Four jugs of cordial are mixed with the cordial to water ratios and total volumes shown in the table.",
@@ -4082,6 +4475,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q19k",
+   "help": "y9-1e-mix",
    "label": "19k",
    "section": "Enrichment",
    "stem": "Four jugs of cordial are mixed with the cordial to water ratios and total volumes shown in the table.",
@@ -4108,6 +4502,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-1f-dec-pc",
    "label": "1a",
    "section": "Fluency",
    "stem": "Write each decimal as a percentage.",
@@ -4119,6 +4514,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-1f-dec-pc",
    "label": "1b",
    "section": "Fluency",
    "stem": "Write each decimal as a percentage.",
@@ -4129,6 +4525,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-1f-dec-pc",
    "label": "1c",
    "section": "Fluency",
    "stem": "Write each decimal as a percentage.",
@@ -4139,6 +4536,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-1f-dec-pc",
    "label": "1d",
    "section": "Fluency",
    "stem": "Write each decimal as a percentage.",
@@ -4149,6 +4547,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-1f-dec-pc",
    "label": "1e",
    "section": "Fluency",
    "stem": "Write each decimal as a percentage.",
@@ -4159,6 +4558,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-1f-dec-pc",
    "label": "1f",
    "section": "Fluency",
    "stem": "Write each decimal as a percentage.",
@@ -4169,6 +4569,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1g",
+   "help": "y9-1f-dec-pc",
    "label": "1g",
    "section": "Fluency",
    "stem": "Write each decimal as a percentage.",
@@ -4179,6 +4580,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1h",
+   "help": "y9-1f-dec-pc",
    "label": "1h",
    "section": "Fluency",
    "stem": "Write each decimal as a percentage.",
@@ -4189,6 +4591,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-1f-dec-pc",
    "label": "2a",
    "section": "Fluency",
    "stem": "Write each percentage as a decimal.",
@@ -4199,6 +4602,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-1f-dec-pc",
    "label": "2b",
    "section": "Fluency",
    "stem": "Write each percentage as a decimal.",
@@ -4209,6 +4613,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-1f-dec-pc",
    "label": "2c",
    "section": "Fluency",
    "stem": "Write each percentage as a decimal.",
@@ -4219,6 +4624,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-1f-dec-pc",
    "label": "2d",
    "section": "Fluency",
    "stem": "Write each percentage as a decimal.",
@@ -4229,6 +4635,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-1f-dec-pc",
    "label": "2e",
    "section": "Fluency",
    "stem": "Write each percentage as a decimal.",
@@ -4239,6 +4646,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-1f-dec-pc",
    "label": "2f",
    "section": "Fluency",
    "stem": "Write each percentage as a decimal.",
@@ -4249,6 +4657,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y9-1f-dec-pc",
    "label": "2g",
    "section": "Fluency",
    "stem": "Write each percentage as a decimal.",
@@ -4259,6 +4668,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y9-1f-dec-pc",
    "label": "2h",
    "section": "Fluency",
    "stem": "Write each percentage as a decimal.",
@@ -4269,6 +4679,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-1f-frac",
    "label": "3a",
    "section": "Fluency",
    "stem": "Write each percentage from Question 2 as a fraction in simplest form. Use a mixed numeral if it is more than 1.",
@@ -4280,6 +4691,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-1f-frac",
    "label": "3b",
    "section": "Fluency",
    "stem": "Write each percentage from Question 2 as a fraction in simplest form. Use a mixed numeral if it is more than 1.",
@@ -4291,6 +4703,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-1f-frac",
    "label": "3c",
    "section": "Fluency",
    "stem": "Write each percentage from Question 2 as a fraction in simplest form. Use a mixed numeral if it is more than 1.",
@@ -4302,6 +4715,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-1f-frac",
    "label": "3d",
    "section": "Fluency",
    "stem": "Write each percentage from Question 2 as a fraction in simplest form. Use a mixed numeral if it is more than 1.",
@@ -4313,6 +4727,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-1f-frac",
    "label": "3e",
    "section": "Fluency",
    "stem": "Write each percentage from Question 2 as a fraction in simplest form. Use a mixed numeral if it is more than 1.",
@@ -4324,6 +4739,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-1f-frac",
    "label": "3f",
    "section": "Fluency",
    "stem": "Write each percentage from Question 2 as a fraction in simplest form. Use a mixed numeral if it is more than 1.",
@@ -4335,6 +4751,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3g",
+   "help": "y9-1f-frac",
    "label": "3g",
    "section": "Fluency",
    "stem": "Write each percentage from Question 2 as a fraction in simplest form. Use a mixed numeral if it is more than 1.",
@@ -4346,6 +4763,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3h",
+   "help": "y9-1f-frac",
    "label": "3h",
    "section": "Fluency",
    "stem": "Write each percentage from Question 2 as a fraction in simplest form. Use a mixed numeral if it is more than 1.",
@@ -4357,6 +4775,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-1f-frac",
    "label": "4a",
    "section": "Fluency",
    "stem": "Each table shows a percentage, a fraction and a decimal that are all equal. Fill in the two missing entries. Use the simplest form for fractions.",
@@ -4388,6 +4807,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-1f-frac",
    "label": "4b",
    "section": "Fluency",
    "stem": "Each table shows a percentage, a fraction and a decimal that are all equal. Fill in the two missing entries. Use the simplest form for fractions.",
@@ -4418,6 +4838,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-1f-frac",
    "label": "4c",
    "section": "Fluency",
    "stem": "Each table shows a percentage, a fraction and a decimal that are all equal. Fill in the two missing entries. Use the simplest form for fractions.",
@@ -4448,6 +4869,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-1f-frac",
    "label": "4d",
    "section": "Fluency",
    "stem": "Each table shows a percentage, a fraction and a decimal that are all equal. Fill in the two missing entries. Use the simplest form for fractions.",
@@ -4478,6 +4900,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y9-1f-frac",
    "label": "4e",
    "section": "Fluency",
    "stem": "Each table shows a percentage, a fraction and a decimal that are all equal. Fill in the two missing entries. Use the simplest form for fractions.",
@@ -4508,6 +4931,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y9-1f-frac",
    "label": "4f",
    "section": "Fluency",
    "stem": "Each table shows a percentage, a fraction and a decimal that are all equal. Fill in the two missing entries. Use the simplest form for fractions.",
@@ -4538,6 +4962,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4g",
+   "help": "y9-1f-frac",
    "label": "4g",
    "section": "Fluency",
    "stem": "Each table shows a percentage, a fraction and a decimal that are all equal. Fill in the two missing entries. Use the simplest form for fractions.",
@@ -4568,6 +4993,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4h",
+   "help": "y9-1f-frac",
    "label": "4h",
    "section": "Fluency",
    "stem": "Each table shows a percentage, a fraction and a decimal that are all equal. Fill in the two missing entries. Use the simplest form for fractions.",
@@ -4598,6 +5024,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-1f-as-percent",
    "label": "5a",
    "section": "Fluency",
    "stem": "Write each of these as a percentage.",
@@ -4608,6 +5035,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-1f-as-percent",
    "label": "5b",
    "section": "Fluency",
    "stem": "Write each of these as a percentage.",
@@ -4619,6 +5047,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-1f-as-percent",
    "label": "5c",
    "section": "Fluency",
    "stem": "Write each of these as a percentage.",
@@ -4629,6 +5058,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-1f-as-percent",
    "label": "5d",
    "section": "Fluency",
    "stem": "Write each of these as a percentage.",
@@ -4639,6 +5069,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y9-1f-as-percent",
    "label": "5e",
    "section": "Fluency",
    "stem": "Write each of these as a percentage.",
@@ -4649,6 +5080,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y9-1f-as-percent",
    "label": "5f",
    "section": "Fluency",
    "stem": "Write each of these as a percentage.",
@@ -4659,6 +5091,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-1f-of",
    "label": "6a",
    "section": "Fluency",
    "stem": "Find:",
@@ -4669,6 +5102,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-1f-of",
    "label": "6b",
    "section": "Fluency",
    "stem": "Find:",
@@ -4679,6 +5113,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y9-1f-of",
    "label": "6c",
    "section": "Fluency",
    "stem": "Find:",
@@ -4689,6 +5124,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y9-1f-of",
    "label": "6d",
    "section": "Fluency",
    "stem": "Find:",
@@ -4699,6 +5135,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6e",
+   "help": "y9-1f-of",
    "label": "6e",
    "section": "Fluency",
    "stem": "Find:",
@@ -4709,6 +5146,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6f",
+   "help": "y9-1f-of",
    "label": "6f",
    "section": "Fluency",
    "stem": "Find:",
@@ -4719,6 +5157,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6g",
+   "help": "y9-1f-of",
    "label": "6g",
    "section": "Fluency",
    "stem": "Find:",
@@ -4729,6 +5168,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6h",
+   "help": "y9-1f-of",
    "label": "6h",
    "section": "Fluency",
    "stem": "Find:",
@@ -4739,6 +5179,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6i",
+   "help": "y9-1f-of",
    "label": "6i",
    "section": "Fluency",
    "stem": "Find:",
@@ -4749,6 +5190,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-1f-original",
    "label": "7a",
    "section": "Fluency",
    "stem": "Find the original amount when:",
@@ -4760,6 +5202,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-1f-original",
    "label": "7b",
    "section": "Fluency",
    "stem": "Find the original amount when:",
@@ -4771,6 +5214,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-1f-original",
    "label": "7c",
    "section": "Fluency",
    "stem": "Find the original amount when:",
@@ -4782,6 +5226,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y9-1f-original",
    "label": "7d",
    "section": "Fluency",
    "stem": "Find the original amount when:",
@@ -4793,6 +5238,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7e",
+   "help": "y9-1f-original",
    "label": "7e",
    "section": "Fluency",
    "stem": "Find the original amount when:",
@@ -4804,6 +5250,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7f",
+   "help": "y9-1f-original",
    "label": "7f",
    "section": "Fluency",
    "stem": "Find the original amount when:",
@@ -4815,6 +5262,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-1f-original",
    "label": "8a",
    "section": "Fluency",
    "stem": "Find the value of $x$ in each of these.",
@@ -4825,6 +5273,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-1f-original",
    "label": "8b",
    "section": "Fluency",
    "stem": "Find the value of $x$ in each of these.",
@@ -4835,6 +5284,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y9-1f-original",
    "label": "8c",
    "section": "Fluency",
    "stem": "Find the value of $x$ in each of these.",
@@ -4845,6 +5295,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y9-1f-original",
    "label": "8d",
    "section": "Fluency",
    "stem": "Find the value of $x$ in each of these.",
@@ -4855,6 +5306,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8e",
+   "help": "y9-1f-original",
    "label": "8e",
    "section": "Fluency",
    "stem": "Find the value of $x$ in each of these.",
@@ -4865,6 +5317,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8f",
+   "help": "y9-1f-original",
    "label": "8f",
    "section": "Fluency",
    "stem": "Find the value of $x$ in each of these.",
@@ -4875,6 +5328,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9",
+   "help": "y9-1f-as-percent",
    "label": "9",
    "section": "Problem-solving",
    "prompt": "Rain stopped a cricket match for $45$ minutes of a scheduled $3\\frac{3}{4}$ hour game. What percentage of the scheduled time was lost?",
@@ -4884,6 +5338,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10",
+   "help": "y9-1f-as-percent",
    "label": "10",
    "section": "Problem-solving",
    "prompt": "Sam lost $6$ kg and now weighs $74$ kg. What percentage of his original weight did he lose?",
@@ -4893,6 +5348,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11",
+   "help": "y9-1f-of",
    "label": "11",
    "section": "Problem-solving",
    "prompt": "About $60\\%$ of the mass of an adult's body is water. If Mia weighs $55$ kg, about how many kilograms of her body mass is water?",
@@ -4902,6 +5358,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12",
+   "help": "y9-1f-of",
    "label": "12",
    "section": "Problem-solving",
    "prompt": "In a class of $30$ students, $30\\%$ have been to Japan. How many students have not been to Japan?",
@@ -4911,6 +5368,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13",
+   "help": "y9-1f-of",
    "label": "13",
    "section": "Problem-solving",
    "prompt": "$5\\%$ of a school's $960$ students are in the swimming team, and $25\\%$ of the swimming team are under $14$. How many students in the swimming team are under $14$?",
@@ -4920,6 +5378,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14",
+   "help": "y9-1f-original",
    "label": "14",
    "section": "Problem-solving",
    "prompt": "One week Liam spent $15\\%$ of his weekly wage on headphones that cost \\$129. What is his weekly wage?",
@@ -4930,6 +5389,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15a",
+   "help": "y9-1f-reason",
    "label": "15a",
    "section": "Reasoning",
    "stem": "Think about statements of the form $P\\%$ of $a = b$ (like $25\\%$ of $60 = 15$ or $120\\%$ of $35 = 42$), where $a$ is a positive number.",
@@ -4939,6 +5399,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15b",
+   "help": "y9-1f-reason",
    "label": "15b",
    "section": "Reasoning",
    "stem": "Think about statements of the form $P\\%$ of $a = b$ (like $25\\%$ of $60 = 15$ or $120\\%$ of $35 = 42$), where $a$ is a positive number.",
@@ -4949,6 +5410,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15c",
+   "help": "y9-1f-reason",
    "label": "15c",
    "section": "Reasoning",
    "stem": "Think about statements of the form $P\\%$ of $a = b$ (like $25\\%$ of $60 = 15$ or $120\\%$ of $35 = 42$), where $a$ is a positive number.",
@@ -4958,6 +5420,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16a",
+   "help": "y9-1f-reason",
    "label": "16a",
    "section": "Reasoning",
    "stem": "Write an equation connecting $x$ and $y$ in its simplest form (for example $x = 3y$ or $2x = 5y$) if:",
@@ -4968,6 +5431,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16b",
+   "help": "y9-1f-reason",
    "label": "16b",
    "section": "Reasoning",
    "stem": "Write an equation connecting $x$ and $y$ in its simplest form (for example $x = 3y$ or $2x = 5y$) if:",
@@ -4977,6 +5441,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16c",
+   "help": "y9-1f-reason",
    "label": "16c",
    "section": "Reasoning",
    "stem": "Write an equation connecting $x$ and $y$ in its simplest form (for example $x = 3y$ or $2x = 5y$) if:",
@@ -4986,6 +5451,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16d",
+   "help": "y9-1f-reason",
    "label": "16d",
    "section": "Reasoning",
    "stem": "Write an equation connecting $x$ and $y$ in its simplest form (for example $x = 3y$ or $2x = 5y$) if:",
@@ -4995,6 +5461,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17a",
+   "help": "y9-1f-of",
    "label": "17a",
    "section": "Enrichment",
    "stem": "These questions involve percentages of more than 100%.",
@@ -5004,6 +5471,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17b",
+   "help": "y9-1f-of",
    "label": "17b",
    "section": "Enrichment",
    "stem": "These questions involve percentages of more than 100%.",
@@ -5013,6 +5481,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17c",
+   "help": "y9-1f-of",
    "label": "17c",
    "section": "Enrichment",
    "stem": "These questions involve percentages of more than 100%.",
@@ -5023,6 +5492,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17d",
+   "help": "y9-1f-of",
    "label": "17d",
    "section": "Enrichment",
    "stem": "These questions involve percentages of more than 100%.",
@@ -5033,6 +5503,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17e",
+   "help": "y9-1f-of",
    "label": "17e",
    "section": "Enrichment",
    "stem": "These questions involve percentages of more than 100%.",
@@ -5052,6 +5523,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-1g-multiplier",
    "label": "1a",
    "section": "Fluency",
    "stem": "Increase each amount by the percentage given in brackets.",
@@ -5063,6 +5535,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-1g-multiplier",
    "label": "1b",
    "section": "Fluency",
    "stem": "Increase each amount by the percentage given in brackets.",
@@ -5073,6 +5546,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-1g-multiplier",
    "label": "1c",
    "section": "Fluency",
    "stem": "Increase each amount by the percentage given in brackets.",
@@ -5083,6 +5557,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-1g-multiplier",
    "label": "1d",
    "section": "Fluency",
    "stem": "Increase each amount by the percentage given in brackets.",
@@ -5093,6 +5568,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-1g-multiplier",
    "label": "1e",
    "section": "Fluency",
    "stem": "Increase each amount by the percentage given in brackets.",
@@ -5103,6 +5579,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-1g-multiplier",
    "label": "1f",
    "section": "Fluency",
    "stem": "Increase each amount by the percentage given in brackets.",
@@ -5113,6 +5590,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1g",
+   "help": "y9-1g-multiplier",
    "label": "1g",
    "section": "Fluency",
    "stem": "Increase each amount by the percentage given in brackets.",
@@ -5124,6 +5602,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1h",
+   "help": "y9-1g-multiplier",
    "label": "1h",
    "section": "Fluency",
    "stem": "Increase each amount by the percentage given in brackets.",
@@ -5135,6 +5614,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-1g-multiplier",
    "label": "2a",
    "section": "Fluency",
    "stem": "Decrease each amount by the percentage given in brackets.",
@@ -5145,6 +5625,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-1g-multiplier",
    "label": "2b",
    "section": "Fluency",
    "stem": "Decrease each amount by the percentage given in brackets.",
@@ -5155,6 +5636,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-1g-multiplier",
    "label": "2c",
    "section": "Fluency",
    "stem": "Decrease each amount by the percentage given in brackets.",
@@ -5165,6 +5647,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-1g-multiplier",
    "label": "2d",
    "section": "Fluency",
    "stem": "Decrease each amount by the percentage given in brackets.",
@@ -5175,6 +5658,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-1g-multiplier",
    "label": "2e",
    "section": "Fluency",
    "stem": "Decrease each amount by the percentage given in brackets.",
@@ -5186,6 +5670,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-1g-multiplier",
    "label": "2f",
    "section": "Fluency",
    "stem": "Decrease each amount by the percentage given in brackets.",
@@ -5196,6 +5681,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y9-1g-multiplier",
    "label": "2g",
    "section": "Fluency",
    "stem": "Decrease each amount by the percentage given in brackets.",
@@ -5206,6 +5692,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y9-1g-multiplier",
    "label": "2h",
    "section": "Fluency",
    "stem": "Decrease each amount by the percentage given in brackets.",
@@ -5217,6 +5704,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3",
+   "help": "y9-1g-change",
    "label": "3",
    "section": "Fluency",
    "prompt": "The length of a school fun run is increased from $750$ m to $1200$ m. Find the percentage increase.",
@@ -5226,6 +5714,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4",
+   "help": "y9-1g-change",
    "label": "4",
    "section": "Fluency",
    "prompt": "From age 11 to 16, Ella's height increased from $135$ cm to $162$ cm. Find the percentage increase.",
@@ -5235,6 +5724,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5",
+   "help": "y9-1g-change",
    "label": "5",
    "section": "Fluency",
    "prompt": "The temperature dropped from $32^\\circ$C in the afternoon to $24^\\circ$C at night. Find the percentage decrease.",
@@ -5244,6 +5734,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6",
+   "help": "y9-1g-change",
    "label": "6",
    "section": "Fluency",
    "prompt": "Tia, a rising swimmer, lowered her 100 m time from $75$ seconds to $72.75$ seconds. Find the percentage decrease.",
@@ -5253,6 +5744,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-1g-change",
    "label": "7a",
    "section": "Fluency",
    "stem": "Find the percentage change in each situation, rounded to one decimal place.",
@@ -5263,6 +5755,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-1g-change",
    "label": "7b",
    "section": "Fluency",
    "stem": "Find the percentage change in each situation, rounded to one decimal place.",
@@ -5273,6 +5766,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-1g-change",
    "label": "7c",
    "section": "Fluency",
    "stem": "Find the percentage change in each situation, rounded to one decimal place.",
@@ -5283,6 +5777,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y9-1g-change",
    "label": "7d",
    "section": "Fluency",
    "stem": "Find the percentage change in each situation, rounded to one decimal place.",
@@ -5293,6 +5788,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8",
+   "help": "y9-1g-original",
    "label": "8",
    "section": "Problem-solving",
    "prompt": "After a price rise of $15\\%$, the cost of a concert ticket is \\$27.60. Find the original price.",
@@ -5303,6 +5799,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9",
+   "help": "y9-1g-original",
    "label": "9",
    "section": "Problem-solving",
    "prompt": "The average crowd at a club's home games rose by $6\\%$ this year to $28\\,451$. Find the average crowd last year, to the nearest whole number.",
@@ -5312,6 +5809,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10",
+   "help": "y9-1g-original",
    "label": "10",
    "section": "Problem-solving",
    "prompt": "When it was sold, a car had lost $41\\%$ of its value and was worth \\$11 260. What was its original price, to the nearest dollar?",
@@ -5321,6 +5819,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y9-1g-error",
    "label": "11a",
    "section": "Problem-solving",
    "stem": "Find the percentage error of each experimental measurement compared with the theoretical value.",
@@ -5331,6 +5830,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y9-1g-error",
    "label": "11b",
    "section": "Problem-solving",
    "stem": "Find the percentage error of each experimental measurement compared with the theoretical value.",
@@ -5341,6 +5841,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y9-1g-error",
    "label": "11c",
    "section": "Problem-solving",
    "stem": "Find the percentage error of each experimental measurement compared with the theoretical value.",
@@ -5351,6 +5852,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11d",
+   "help": "y9-1g-error",
    "label": "11d",
    "section": "Problem-solving",
    "stem": "Find the percentage error of each experimental measurement compared with the theoretical value.",
@@ -5361,6 +5863,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12",
+   "help": "y9-1g-gst",
    "label": "12",
    "section": "Problem-solving",
    "prompt": "The price of a jacket including GST (at $10\\%$) is \\$85. How much GST is included, to the nearest cent?",
@@ -5371,6 +5874,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13",
+   "help": "y9-1g-gst",
    "label": "13",
    "section": "Problem-solving",
    "prompt": "A sports coach charges a club \\$290 per hour including GST (at $10\\%$). The club hires the coach for $3$ hours and can claim back the GST from the tax office. Find the net cost of the coach for the club, to the nearest cent.",
@@ -5381,6 +5885,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y9-1g-back",
    "label": "14a",
    "section": "Reasoning",
    "stem": "An investor starts with \\$2000.",
@@ -5392,6 +5897,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y9-1g-back",
    "label": "14b",
    "section": "Reasoning",
    "stem": "An investor starts with \\$2000.",
@@ -5403,6 +5909,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15",
+   "help": "y9-1g-back",
    "label": "15",
    "section": "Reasoning",
    "prompt": "In a sale, all board games in a shop are reduced from \\$40 by $25\\%$. What percentage increase is needed to take the price back to \\$40? Round to two decimal places if needed.",
@@ -5413,6 +5920,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16",
+   "help": "y9-1g-back",
    "label": "16",
    "section": "Reasoning",
    "prompt": "The cost of an item is reduced by $60\\%$. What percentage increase is needed to return it to its original price?",
@@ -5422,6 +5930,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17",
+   "help": "y9-1g-back",
    "label": "17",
    "section": "Reasoning",
    "prompt": "The cost of an item is increased by $45\\%$. What percentage decrease is needed to return it to its original price? Round to two decimal places.",
@@ -5431,6 +5940,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q18a",
+   "help": "y9-1g-repeated",
    "label": "18a",
    "section": "Enrichment",
    "stem": "If a \\$60 item has its price increased three times, by $10\\%$, $20\\%$ and $5\\%$, the final price is $\\$60 \\times 1.10 \\times 1.20 \\times 1.05 = \\$83.16$. Use the same method to find each final price, to the nearest cent.",
@@ -5442,6 +5952,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q18b",
+   "help": "y9-1g-repeated",
    "label": "18b",
    "section": "Enrichment",
    "stem": "If a \\$60 item has its price increased three times, by $10\\%$, $20\\%$ and $5\\%$, the final price is $\\$60 \\times 1.10 \\times 1.20 \\times 1.05 = \\$83.16$. Use the same method to find each final price, to the nearest cent.",
@@ -5453,6 +5964,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q18c",
+   "help": "y9-1g-repeated",
    "label": "18c",
    "section": "Enrichment",
    "stem": "If a \\$60 item has its price increased three times, by $10\\%$, $20\\%$ and $5\\%$, the final price is $\\$60 \\times 1.10 \\times 1.20 \\times 1.05 = \\$83.16$. Use the same method to find each final price, to the nearest cent.",
@@ -5464,6 +5976,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q18d",
+   "help": "y9-1g-repeated",
    "label": "18d",
    "section": "Enrichment",
    "stem": "If a \\$60 item has its price increased three times, by $10\\%$, $20\\%$ and $5\\%$, the final price is $\\$60 \\times 1.10 \\times 1.20 \\times 1.05 = \\$83.16$. Use the same method to find each final price, to the nearest cent.",
@@ -5475,6 +5988,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q19a",
+   "help": "y9-1g-repeated",
    "label": "19a",
    "section": "Enrichment",
    "stem": "If an amount changes by the same percentage each time, powers can be used. For example, $40$ kg increased by $10\\%$ three times becomes $40 \\times 1.1^3 = 53.24$ kg. Find each final value, rounded to two decimal places.",
@@ -5485,6 +5999,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q19b",
+   "help": "y9-1g-repeated",
    "label": "19b",
    "section": "Enrichment",
    "stem": "If an amount changes by the same percentage each time, powers can be used. For example, $40$ kg increased by $10\\%$ three times becomes $40 \\times 1.1^3 = 53.24$ kg. Find each final value, rounded to two decimal places.",
@@ -5495,6 +6010,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q19c",
+   "help": "y9-1g-repeated",
    "label": "19c",
    "section": "Enrichment",
    "stem": "If an amount changes by the same percentage each time, powers can be used. For example, $40$ kg increased by $10\\%$ three times becomes $40 \\times 1.1^3 = 53.24$ kg. Find each final value, rounded to two decimal places.",
@@ -5505,6 +6021,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q19d",
+   "help": "y9-1g-repeated",
    "label": "19d",
    "section": "Enrichment",
    "stem": "If an amount changes by the same percentage each time, powers can be used. For example, $40$ kg increased by $10\\%$ three times becomes $40 \\times 1.1^3 = 53.24$ kg. Find each final value, rounded to two decimal places.",
@@ -5524,6 +6041,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-1h-profit",
    "label": "1a",
    "section": "Fluency",
    "stem": "A sports shop buys a pair of running shoes for \\$640 and sells them for \\$736.",
@@ -5535,6 +6053,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-1h-profit",
    "label": "1b",
    "section": "Fluency",
    "stem": "A sports shop buys a pair of running shoes for \\$640 and sells them for \\$736.",
@@ -5545,6 +6064,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-1h-profit",
    "label": "2a",
    "section": "Fluency",
    "stem": "A furniture maker builds and sells items at the prices shown. Find each value.",
@@ -5556,6 +6076,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-1h-profit",
    "label": "2b",
    "section": "Fluency",
    "stem": "A furniture maker builds and sells items at the prices shown. Find each value.",
@@ -5566,6 +6087,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-1h-profit",
    "label": "2c",
    "section": "Fluency",
    "stem": "A furniture maker builds and sells items at the prices shown. Find each value.",
@@ -5577,6 +6099,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-1h-profit",
    "label": "2d",
    "section": "Fluency",
    "stem": "A furniture maker builds and sells items at the prices shown. Find each value.",
@@ -5587,6 +6110,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-1h-profit",
    "label": "2e",
    "section": "Fluency",
    "stem": "A furniture maker builds and sells items at the prices shown. Find each value.",
@@ -5598,6 +6122,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-1h-profit",
    "label": "2f",
    "section": "Fluency",
    "stem": "A furniture maker builds and sells items at the prices shown. Find each value.",
@@ -5608,6 +6133,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y9-1h-profit",
    "label": "2g",
    "section": "Fluency",
    "stem": "A furniture maker builds and sells items at the prices shown. Find each value.",
@@ -5619,6 +6145,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y9-1h-profit",
    "label": "2h",
    "section": "Fluency",
    "stem": "A furniture maker builds and sells items at the prices shown. Find each value.",
@@ -5629,6 +6156,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3",
+   "help": "y9-1h-profit",
    "label": "3",
    "section": "Fluency",
    "prompt": "Mia runs a food truck. Last year she took in \\$96 000 and it cost her \\$41 000 to run the business. What was her percentage profit for the year (profit as a percentage of the running costs)? Round to two decimal places.",
@@ -5639,6 +6167,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4",
+   "help": "y9-1h-profit",
    "label": "4",
    "section": "Fluency",
    "prompt": "A train trip between two cities used to take 15 hours. It now takes 9 hours. What is the percentage decrease in travel time?",
@@ -5648,6 +6177,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5",
+   "help": "y9-1h-markup",
    "label": "5",
    "section": "Fluency",
    "prompt": "A gift shop marks up all of its items by 35%. If the cost price of a candle set is \\$40, what is its selling price?",
@@ -5658,6 +6188,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6",
+   "help": "y9-1h-markup",
    "label": "6",
    "section": "Fluency",
    "prompt": "Priya marks up every bike in her store by 17.5%. If a bike cost her \\$845, what is its selling price, to the nearest cent?",
@@ -5668,6 +6199,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7",
+   "help": "y9-1h-profit",
    "label": "7",
    "section": "Fluency",
    "prompt": "A used-car dealer buys a car for \\$14 500 and sells it for \\$19 800. Find the percentage mark-up on the car, correct to one decimal place.",
@@ -5678,6 +6210,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8",
+   "help": "y9-1h-discount",
    "label": "8",
    "section": "Fluency",
    "prompt": "A store gives a 12% discount to customers who pay with cash. Tom wants a blender marked at \\$185. How much will he pay if he pays with cash?",
@@ -5688,6 +6221,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9",
+   "help": "y9-1h-discount",
    "label": "9",
    "section": "Fluency",
    "prompt": "A computer store has a laptop marked at \\$1280 and a laptop bag marked at \\$95. Ella is offered an 18% discount if she buys both. How much will she pay for the two items?",
@@ -5698,6 +6232,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10",
+   "help": "y9-1h-original",
    "label": "10",
    "section": "Fluency",
    "prompt": "A washing machine is discounted by 30%. If Jordan pays \\$545 for it, what was the original price? Round to the nearest cent.",
@@ -5708,6 +6243,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11",
+   "help": "y9-1h-original",
    "label": "11",
    "section": "Fluency",
    "prompt": "A season pass for a swimming pool is discounted by 20%. If the new price is \\$236, what was the original price?",
@@ -5718,6 +6254,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12",
+   "help": "y9-1h-chain",
    "label": "12",
    "section": "Problem-solving",
    "prompt": "A store marks up a \\$650 gaming console by 40%. During a sale, the marked price is discounted by 25%. By what percentage is the sale price higher than the original price of \\$650?",
@@ -5727,6 +6264,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13",
+   "help": "y9-1h-original",
    "label": "13",
    "section": "Problem-solving",
    "prompt": "A desk was bought for a cost price of \\$420 and marked up to a retail price. It was then discounted by 15% to a sale price of \\$535.50. What was the percentage mark-up from the cost price to the retail price?",
@@ -5736,6 +6274,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y9-1h-chain",
    "label": "14a",
    "section": "Problem-solving",
    "stem": "Backpacks are made for \\$30 each. The maker sells them to a warehouse with a mark-up of 20%. The warehouse sells them to a distributor after adding a storage fee of \\$8 per backpack. The distributor sells them to the shop \"Trail Gear\" for a percentage profit of 15%. The shop then marks them up by 35%.",
@@ -5746,6 +6285,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y9-1h-chain",
    "label": "14b",
    "section": "Problem-solving",
    "stem": "Backpacks are made for \\$30 each. The maker sells them to a warehouse with a mark-up of 20%. The warehouse sells them to a distributor after adding a storage fee of \\$8 per backpack. The distributor sells them to the shop \"Trail Gear\" for a percentage profit of 15%. The shop then marks them up by 35%.",
@@ -5757,6 +6297,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15",
+   "help": "y9-1h-chain",
    "label": "15",
    "section": "Reasoning",
    "prompt": "Two shops each sell a \\$200 jacket. Shop A marks it up by 25% and then discounts that price by 20%. Shop B discounts it by 20% first and then marks that price up by 25%. Which shop ends up with the higher price?",
@@ -5770,6 +6311,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16",
+   "help": "y9-1h-depreciation",
    "label": "16",
    "section": "Reasoning",
    "prompt": "Depreciation is a fall in value. A tablet loses 25% of its value in its first year. If it cost \\$1800 new, what is it worth after one year?",
@@ -5780,6 +6322,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17a",
+   "help": "y9-1h-depreciation",
    "label": "17a",
    "section": "Reasoning",
    "stem": "Nadia buys a car for \\$68 000. Its value depreciates by 12% each year, so after one year it is worth 88% of its value at the start of that year, that is, $0.88 \\times 68\\,000 = 59\\,840$ dollars.",
@@ -5791,6 +6334,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17b",
+   "help": "y9-1h-depreciation",
    "label": "17b",
    "section": "Reasoning",
    "stem": "Nadia buys a car for \\$68 000. Its value depreciates by 12% each year, so after one year it is worth 88% of its value at the start of that year, that is, $0.88 \\times 68\\,000 = 59\\,840$ dollars.",
@@ -5802,6 +6346,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17c",
+   "help": "y9-1h-depreciation",
    "label": "17c",
    "section": "Reasoning",
    "stem": "Nadia buys a car for \\$68 000. Its value depreciates by 12% each year, so after one year it is worth 88% of its value at the start of that year, that is, $0.88 \\times 68\\,000 = 59\\,840$ dollars.",
@@ -5812,6 +6357,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q18a",
+   "help": "y9-1h-deposit",
    "label": "18a",
    "section": "Enrichment",
    "stem": "A car yard offers a deposit deal. After the cash deposit is paid, the amount still owing is discounted by a percentage that is one tenth of the deposit percentage. For example, a deposit of \\$9000 on a \\$45 000 car is 20% of the price, so the remaining \\$36 000 is discounted by 2%. Find the total amount paid (deposit plus the discounted remainder) for each car. Round to the nearest cent where needed.",
@@ -5823,6 +6369,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q18b",
+   "help": "y9-1h-deposit",
    "label": "18b",
    "section": "Enrichment",
    "stem": "A car yard offers a deposit deal. After the cash deposit is paid, the amount still owing is discounted by a percentage that is one tenth of the deposit percentage. For example, a deposit of \\$9000 on a \\$45 000 car is 20% of the price, so the remaining \\$36 000 is discounted by 2%. Find the total amount paid (deposit plus the discounted remainder) for each car. Round to the nearest cent where needed.",
@@ -5834,6 +6381,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q18c",
+   "help": "y9-1h-deposit",
    "label": "18c",
    "section": "Enrichment",
    "stem": "A car yard offers a deposit deal. After the cash deposit is paid, the amount still owing is discounted by a percentage that is one tenth of the deposit percentage. For example, a deposit of \\$9000 on a \\$45 000 car is 20% of the price, so the remaining \\$36 000 is discounted by 2%. Find the total amount paid (deposit plus the discounted remainder) for each car. Round to the nearest cent where needed.",
@@ -5845,6 +6393,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q18d",
+   "help": "y9-1h-deposit",
    "label": "18d",
    "section": "Enrichment",
    "stem": "A car yard offers a deposit deal. After the cash deposit is paid, the amount still owing is discounted by a percentage that is one tenth of the deposit percentage. For example, a deposit of \\$9000 on a \\$45 000 car is 20% of the price, so the remaining \\$36 000 is discounted by 2%. Find the total amount paid (deposit plus the discounted remainder) for each car. Round to the nearest cent where needed.",
@@ -5856,6 +6405,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q18e",
+   "help": "y9-1h-deposit",
    "label": "18e",
    "section": "Enrichment",
    "stem": "A car yard offers a deposit deal. After the cash deposit is paid, the amount still owing is discounted by a percentage that is one tenth of the deposit percentage. For example, a deposit of \\$9000 on a \\$45 000 car is 20% of the price, so the remaining \\$36 000 is discounted by 2%. Find the total amount paid (deposit plus the discounted remainder) for each car. Round to the nearest cent where needed.",
@@ -5867,6 +6417,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q18f",
+   "help": "y9-1h-deposit",
    "label": "18f",
    "section": "Enrichment",
    "stem": "A car yard offers a deposit deal. After the cash deposit is paid, the amount still owing is discounted by a percentage that is one tenth of the deposit percentage. For example, a deposit of \\$9000 on a \\$45 000 car is 20% of the price, so the remaining \\$36 000 is discounted by 2%. Find the total amount paid (deposit plus the discounted remainder) for each car. Round to the nearest cent where needed.",
@@ -5887,6 +6438,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-1i-salary",
    "label": "1a",
    "section": "Fluency",
    "stem": "Priya earns an annual salary of \\$98 800 and works a 40-hour week. Her partner Sam works part time and earns \\$49.75 per hour. Use 52 weeks in a year.",
@@ -5898,6 +6450,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-1i-salary",
    "label": "1b",
    "section": "Fluency",
    "stem": "Priya earns an annual salary of \\$98 800 and works a 40-hour week. Her partner Sam works part time and earns \\$49.75 per hour. Use 52 weeks in a year.",
@@ -5912,6 +6465,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-1i-salary",
    "label": "1c",
    "section": "Fluency",
    "stem": "Priya earns an annual salary of \\$98 800 and works a 40-hour week. Her partner Sam works part time and earns \\$49.75 per hour. Use 52 weeks in a year.",
@@ -5923,6 +6477,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-1i-salary",
    "label": "2a",
    "section": "Fluency",
    "stem": "Find the hourly rate of pay for a 38-hour working week (52 weeks a year) with an annual salary of:",
@@ -5934,6 +6489,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-1i-salary",
    "label": "2b",
    "section": "Fluency",
    "stem": "Find the hourly rate of pay for a 38-hour working week (52 weeks a year) with an annual salary of:",
@@ -5945,6 +6501,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-1i-salary",
    "label": "2c",
    "section": "Fluency",
    "stem": "Find the hourly rate of pay for a 38-hour working week (52 weeks a year) with an annual salary of:",
@@ -5956,6 +6513,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-1i-salary",
    "label": "2d",
    "section": "Fluency",
    "stem": "Find the yearly income (52 weeks) for someone who earns \\$26.40 per hour and works, on average, this many hours each week:",
@@ -5967,6 +6525,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-1i-salary",
    "label": "2e",
    "section": "Fluency",
    "stem": "Find the yearly income (52 weeks) for someone who earns \\$26.40 per hour and works, on average, this many hours each week:",
@@ -5978,6 +6537,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-1i-salary",
    "label": "2f",
    "section": "Fluency",
    "stem": "Find the yearly income (52 weeks) for someone who earns \\$26.40 per hour and works, on average, this many hours each week:",
@@ -5989,6 +6549,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-1i-overtime",
    "label": "3a",
    "section": "Fluency",
    "stem": "A job pays \\$21.60 per hour for normal working hours. Find the total pay, including overtime, for these hours worked.",
@@ -6000,6 +6561,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-1i-overtime",
    "label": "3b",
    "section": "Fluency",
    "stem": "A job pays \\$21.60 per hour for normal working hours. Find the total pay, including overtime, for these hours worked.",
@@ -6011,6 +6573,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-1i-overtime",
    "label": "3c",
    "section": "Fluency",
    "stem": "A job pays \\$21.60 per hour for normal working hours. Find the total pay, including overtime, for these hours worked.",
@@ -6022,6 +6585,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-1i-overtime",
    "label": "3d",
    "section": "Fluency",
    "stem": "A job pays \\$21.60 per hour for normal working hours. Find the total pay, including overtime, for these hours worked.",
@@ -6033,6 +6597,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-1i-overtime",
    "label": "3e",
    "section": "Fluency",
    "stem": "A job pays \\$21.60 per hour for normal working hours. Find the total pay, including overtime, for these hours worked.",
@@ -6044,6 +6609,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-1i-overtime",
    "label": "3f",
    "section": "Fluency",
    "stem": "A job pays \\$21.60 per hour for normal working hours. Find the total pay, including overtime, for these hours worked.",
@@ -6055,6 +6621,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-1i-overtime",
    "label": "4a",
    "section": "Fluency",
    "stem": "How many hours at the normal hourly rate are these working hours worth?",
@@ -6065,6 +6632,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-1i-overtime",
    "label": "4b",
    "section": "Fluency",
    "stem": "How many hours at the normal hourly rate are these working hours worth?",
@@ -6075,6 +6643,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-1i-overtime",
    "label": "4c",
    "section": "Fluency",
    "stem": "How many hours at the normal hourly rate are these working hours worth?",
@@ -6085,6 +6654,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-1i-overtime",
    "label": "4d",
    "section": "Fluency",
    "stem": "How many hours at the normal hourly rate are these working hours worth?",
@@ -6095,6 +6665,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y9-1i-overtime",
    "label": "4e",
    "section": "Fluency",
    "stem": "How many hours at the normal hourly rate are these working hours worth?",
@@ -6105,6 +6676,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y9-1i-overtime",
    "label": "4f",
    "section": "Fluency",
    "stem": "How many hours at the normal hourly rate are these working hours worth?",
@@ -6115,6 +6687,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5",
+   "help": "y9-1i-rate",
    "label": "5",
    "section": "Fluency",
    "prompt": "Leo, a part-time dog groomer, earned \\$425.50 in a week in which he worked 14 hours at the normal rate and 6 hours overtime at time and a half. What is his normal hourly rate of pay?",
@@ -6125,6 +6698,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6",
+   "help": "y9-1i-rate",
    "label": "6",
    "section": "Fluency",
    "prompt": "Zoe earned \\$504.90 in a week in which she worked 12 hours on weekdays, 5 hours on Saturday at time and a half and 3 hours on Sunday at double time. What is her normal hourly rate of pay?",
@@ -6135,6 +6709,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7",
+   "help": "y9-1i-commission",
    "label": "7",
    "section": "Fluency",
    "prompt": "Ruby works at a shoe store. In one week she sells shoes worth \\$1200. If she earns \\$480 per week plus 6% commission on her sales, how much does she earn that week?",
@@ -6145,6 +6720,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8",
+   "help": "y9-1i-commission",
    "label": "8",
    "section": "Fluency",
    "prompt": "Ethan sells solar panels and earns \\$720 per month plus 3.5% commission on sales. How much does he earn in a month in which he sells \\$68 000 worth of solar panels?",
@@ -6155,6 +6731,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9",
+   "help": "y9-1i-piecework",
    "label": "9",
    "section": "Fluency",
    "prompt": "Nina delivers catalogues. She is paid \\$36 to deliver 600 catalogues. How much is she paid for each one?",
@@ -6166,6 +6743,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10",
+   "help": "y9-1i-piecework",
    "label": "10",
    "section": "Fluency",
    "prompt": "Jack is paid \\$12 for every bag of weeds he pulls. Last week he worked for 5 hours and filled 14 bags. Find his hourly rate of pay.",
@@ -6176,6 +6754,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11",
+   "help": "y9-1i-salary",
    "label": "11",
    "section": "Problem-solving",
    "prompt": "Put these workers in order from the most to the least earned in one week. Use 52 weeks in a year. Ava has an annual salary of \\$43 160. Ben works 30 hours at \\$28.40 per hour. Chloe earns \\$3640 per month. Dev does shift work 5 nights a week from 9 p.m. to 3 a.m. He earns \\$24.50 per hour before midnight and \\$31 per hour after midnight. Ella works 20 hours at the normal rate of \\$23.40 per hour, 6 hours at time and a half and 4 hours at double time.",
@@ -6191,6 +6770,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12",
+   "help": "y9-1i-overtime",
    "label": "12",
    "section": "Problem-solving",
    "prompt": "Marcus earns \\$19.60 per hour for the first 38 hours he works in a week, time and a half for the next 3 hours, and double time for every hour after that. Find his earnings for a week in which he works 45 hours.",
@@ -6201,6 +6781,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13",
+   "help": "y9-1i-commission",
    "label": "13",
    "section": "Problem-solving",
    "prompt": "Grace works for a real estate agency and earns \\$750 per week plus 0.06% commission on her sales. This week she sold three houses for \\$412 000, \\$386 500 and \\$529 000. How much did she earn this week?",
@@ -6211,6 +6792,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14",
+   "help": "y9-1i-commission",
    "label": "14",
    "section": "Problem-solving",
    "prompt": "A salesperson sells 12 water filters in one week at \\$950 each. For the week she earns a total of \\$980, made up of a retainer of \\$350 plus commission. Find her commission rate as a percentage, correct to two decimal places.",
@@ -6221,6 +6803,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15",
+   "help": "y9-1i-loading",
    "label": "15",
    "section": "Problem-solving",
    "prompt": "Kai is going on holiday. He receives \\$3290, which is his normal pay plus 17.5% leave loading. How much is the leave loading?",
@@ -6231,6 +6814,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16a",
+   "help": "y9-1i-combos",
    "label": "16a",
    "section": "Problem-solving",
    "stem": "Mason wants to earn \\$105 from a casual job paying \\$8.75 per hour.",
@@ -6241,6 +6825,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16b",
+   "help": "y9-1i-combos",
    "label": "16b",
    "section": "Problem-solving",
    "stem": "Mason wants to earn \\$105 from a casual job paying \\$8.75 per hour. He can also work some hours at time and a half. He works $x$ hours at the normal rate and $y$ hours at time and a half to earn exactly the same amount, where $x$ and $y$ are both whole numbers bigger than zero.",
@@ -6254,6 +6839,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16c",
+   "help": "y9-1i-combos",
    "label": "16c",
    "section": "Problem-solving",
    "stem": "Mason wants to earn \\$105 from a casual job paying \\$8.75 per hour. He can also work some hours at time and a half. He works $x$ hours at the normal rate and $y$ hours at time and a half to earn exactly the same amount, where $x$ and $y$ are both whole numbers bigger than zero.",
@@ -6267,6 +6853,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17a",
+   "help": "y9-1i-plans",
    "label": "17a",
    "section": "Reasoning",
    "stem": "A boat salesperson earns 2.5% commission on sales up to $\\$50\\,000$ and 3% on the part of sales above $\\$50\\,000$.",
@@ -6278,6 +6865,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17b",
+   "help": "y9-1i-plans",
    "label": "17b",
    "section": "Reasoning",
    "stem": "A boat salesperson earns 2.5% commission on sales up to $\\$50\\,000$ and 3% on the part of sales above $\\$50\\,000$.",
@@ -6289,6 +6877,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17c",
+   "help": "y9-1i-plans",
    "label": "17c",
    "section": "Reasoning",
    "stem": "A boat salesperson earns 2.5% commission on sales up to $\\$50\\,000$ and 3% on the part of sales above $\\$50\\,000$.",
@@ -6302,6 +6891,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17d",
+   "help": "y9-1i-plans",
    "label": "17d",
    "section": "Reasoning",
    "stem": "A boat salesperson earns 2.5% commission on sales up to $\\$50\\,000$ and 3% on the part of sales above $\\$50\\,000$.",
@@ -6315,6 +6905,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q18a",
+   "help": "y9-1i-plans",
    "label": "18a",
    "section": "Reasoning",
    "stem": "Leila sells jewellery and must choose a pay plan. Plan A: \\$250 per week plus 4% of sales. Plan B: 9% of sales and no weekly retainer.",
@@ -6326,6 +6917,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q18b",
+   "help": "y9-1i-plans",
    "label": "18b",
    "section": "Reasoning",
    "stem": "Leila sells jewellery and must choose a pay plan. Plan A: \\$250 per week plus 4% of sales. Plan B: 9% of sales and no weekly retainer.",
@@ -6339,6 +6931,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q19a",
+   "help": "y9-1i-payslip",
    "label": "19a",
    "section": "Enrichment",
    "stem": "This is part of a fortnightly payslip for a part-time librarian. Superannuation is money the employer pays into a fund for the worker's retirement. The compulsory superannuation rate is 12% of gross pay.",
@@ -6380,6 +6973,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q19b",
+   "help": "y9-1i-payslip",
    "label": "19b",
    "section": "Enrichment",
    "stem": "This is part of a fortnightly payslip for a part-time librarian. Superannuation is money the employer pays into a fund for the worker's retirement. The compulsory superannuation rate is 12% of gross pay.",
@@ -6393,6 +6987,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q19c",
+   "help": "y9-1i-payslip",
    "label": "19c",
    "section": "Enrichment",
    "stem": "This is part of a fortnightly payslip for a part-time librarian. Superannuation is money the employer pays into a fund for the worker's retirement. The compulsory superannuation rate is 12% of gross pay.",
@@ -6404,6 +6999,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q19d",
+   "help": "y9-1i-payslip",
    "label": "19d",
    "section": "Enrichment",
    "stem": "This is part of a fortnightly payslip for a part-time librarian. Superannuation is money the employer pays into a fund for the worker's retirement. The compulsory superannuation rate is 12% of gross pay.",
@@ -6415,6 +7011,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q19e",
+   "help": "y9-1i-payslip",
    "label": "19e",
    "section": "Enrichment",
    "stem": "This is part of a fortnightly payslip for a part-time librarian. Superannuation is money the employer pays into a fund for the worker's retirement. The compulsory superannuation rate is 12% of gross pay.",
@@ -6435,6 +7032,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-1j-return",
    "label": "1a",
    "section": "Fluency",
    "stem": "Oliver earned \\$1650 per week (\\$85 800 per year) from his employer and other sources such as interest on savings. He has receipts for \\$1450 of work-related expenses and donations.",
@@ -6446,6 +7044,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-1j-return",
    "label": "1b",
    "section": "Fluency",
    "stem": "Oliver earned \\$1650 per week (\\$85 800 per year) from his employer and other sources such as interest on savings. He has receipts for \\$1450 of work-related expenses and donations.",
@@ -6482,6 +7081,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-1j-return",
    "label": "1c",
    "section": "Fluency",
    "stem": "Oliver earned \\$1650 per week (\\$85 800 per year) from his employer and other sources such as interest on savings. He has receipts for \\$1450 of work-related expenses and donations.",
@@ -6493,6 +7093,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-1j-return",
    "label": "1d",
    "section": "Fluency",
    "stem": "Oliver earned \\$1650 per week (\\$85 800 per year) from his employer and other sources such as interest on savings. He has receipts for \\$1450 of work-related expenses and donations.",
@@ -6504,6 +7105,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-1j-return",
    "label": "1e",
    "section": "Fluency",
    "stem": "Oliver earned \\$1650 per week (\\$85 800 per year) from his employer and other sources such as interest on savings. He has receipts for \\$1450 of work-related expenses and donations.",
@@ -6515,6 +7117,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-1j-return",
    "label": "1f",
    "section": "Fluency",
    "stem": "Oliver earned \\$1650 per week (\\$85 800 per year) from his employer and other sources such as interest on savings. He has receipts for \\$1450 of work-related expenses and donations.",
@@ -6528,6 +7131,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1g",
+   "help": "y9-1j-return",
    "label": "1g",
    "section": "Fluency",
    "stem": "Oliver earned \\$1650 per week (\\$85 800 per year) from his employer and other sources such as interest on savings. He has receipts for \\$1450 of work-related expenses and donations.",
@@ -6539,6 +7143,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-1j-table",
    "label": "2a",
    "section": "Fluency",
    "stem": "Use the tax table to find the income tax payable on these taxable incomes. Ignore the Medicare levy.",
@@ -6575,6 +7180,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-1j-table",
    "label": "2b",
    "section": "Fluency",
    "stem": "Use the tax table to find the income tax payable on these taxable incomes. Ignore the Medicare levy.",
@@ -6586,6 +7192,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-1j-table",
    "label": "2c",
    "section": "Fluency",
    "stem": "Use the tax table to find the income tax payable on these taxable incomes. Ignore the Medicare levy.",
@@ -6597,6 +7204,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-1j-table",
    "label": "2d",
    "section": "Fluency",
    "stem": "Use the tax table to find the income tax payable on these taxable incomes. Ignore the Medicare levy.",
@@ -6608,6 +7216,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3",
+   "help": "y9-1j-table",
    "label": "3",
    "section": "Fluency",
    "prompt": "Use the tax table to complete this table (ignore the Medicare levy). Give the five tax amounts in order, in dollars.",
@@ -6679,6 +7288,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4",
+   "help": "y9-1j-table",
    "label": "4",
    "section": "Fluency",
    "prompt": "Mia worked for three different employers during the year. Each one paid her \\$14 000, and she has no deductions. How much income tax should she pay? Ignore the Medicare levy.",
@@ -6714,6 +7324,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-1j-return",
    "label": "5a",
    "section": "Fluency",
    "stem": "Ana has finished her first financial year as a nurse. On 30 June she wrote these notes about her year.",
@@ -6754,6 +7365,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-1j-return",
    "label": "5b",
    "section": "Fluency",
    "stem": "Ana has finished her first financial year as a nurse. On 30 June she wrote these notes about her year.",
@@ -6790,6 +7402,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-1j-return",
    "label": "5c",
    "section": "Fluency",
    "stem": "Ana has finished her first financial year as a nurse. On 30 June she wrote these notes about her year.",
@@ -6801,6 +7414,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-1j-return",
    "label": "5d",
    "section": "Fluency",
    "stem": "Ana has finished her first financial year as a nurse. On 30 June she wrote these notes about her year.",
@@ -6812,6 +7426,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y9-1j-return",
    "label": "5e",
    "section": "Fluency",
    "stem": "Ana has finished her first financial year as a nurse. On 30 June she wrote these notes about her year.",
@@ -6823,6 +7438,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y9-1j-return",
    "label": "5f",
    "section": "Fluency",
    "stem": "Ana has finished her first financial year as a nurse. On 30 June she wrote these notes about her year.",
@@ -6836,6 +7452,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5g",
+   "help": "y9-1j-return",
    "label": "5g",
    "section": "Fluency",
    "stem": "Ana has finished her first financial year as a nurse. On 30 June she wrote these notes about her year.",
@@ -6847,6 +7464,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6",
+   "help": "y9-1j-backwards",
    "label": "6",
    "section": "Problem-solving",
    "prompt": "Ravi's Medicare levy was \\$1830. This was 2% of his taxable income. What was his taxable income?",
@@ -6857,6 +7475,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7",
+   "help": "y9-1j-backwards",
    "label": "7",
    "section": "Problem-solving",
    "prompt": "Tess is saving for a trip. Her taxable income is usually \\$24 000. She needs an extra \\$4455 for the trip, so she is going to do some extra work. How much extra must she earn to have an extra \\$4455 after tax? Ignore the Medicare levy.",
@@ -6892,6 +7511,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8",
+   "help": "y9-1j-backwards",
    "label": "8",
    "section": "Problem-solving",
    "prompt": "When Hugo used the tax table to work out his income tax payable, it came to \\$19 192. What was his taxable income?",
@@ -6927,6 +7547,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-1j-progressive",
    "label": "9a",
    "section": "Problem-solving",
    "stem": "Here is an example of a progressive tax system. Find the tax payable on each income.",
@@ -6963,6 +7584,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-1j-progressive",
    "label": "9b",
    "section": "Problem-solving",
    "stem": "Here is an example of a progressive tax system. Find the tax payable on each income.",
@@ -6974,6 +7596,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y9-1j-progressive",
    "label": "9c",
    "section": "Problem-solving",
    "stem": "Here is an example of a progressive tax system. Find the tax payable on each income.",
@@ -6985,6 +7608,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y9-1j-progressive",
    "label": "9d",
    "section": "Problem-solving",
    "stem": "In this progressive tax system, the amounts $A$ and $B$ are the most tax anyone pays in the bracket before. Find:",
@@ -7021,6 +7645,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9e",
+   "help": "y9-1j-progressive",
    "label": "9e",
    "section": "Problem-solving",
    "stem": "In this progressive tax system, the amounts $A$ and $B$ are the most tax anyone pays in the bracket before. Find:",
@@ -7032,6 +7657,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9f",
+   "help": "y9-1j-progressive",
    "label": "9f",
    "section": "Problem-solving",
    "stem": "A different system on \"Tax Island\" works like this. Find the tax payable on an income of:",
@@ -7064,6 +7690,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9g",
+   "help": "y9-1j-progressive",
    "label": "9g",
    "section": "Problem-solving",
    "stem": "A different system on \"Tax Island\" works like this. Find the tax payable on an income of:",
@@ -7075,6 +7702,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9h",
+   "help": "y9-1j-progressive",
    "label": "9h",
    "section": "Problem-solving",
    "stem": "A different system on \"Tax Island\" works like this. Find the tax payable on an income of:",
@@ -7086,6 +7714,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9i",
+   "help": "y9-1j-progressive",
    "label": "9i",
    "section": "Problem-solving",
    "stem": "A different system on \"Tax Island\" works like this. Find the tax payable on an income of:",
@@ -7097,6 +7726,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9j",
+   "help": "y9-1j-progressive",
    "label": "9j",
    "section": "Problem-solving",
    "stem": "A different system on \"Tax Island\" works like this. Find the tax payable on an income of:",
@@ -7108,6 +7738,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10",
+   "help": "y9-1j-terms",
    "label": "10",
    "section": "Reasoning",
    "prompt": "Which of these is the way to find taxable income?",
@@ -7122,6 +7753,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11",
+   "help": "y9-1j-terms",
    "label": "11",
    "section": "Reasoning",
    "prompt": "Kai's employer sent \\$9200 in tax to the ATO during the year, but Kai should only have paid \\$8750. What happens?",
@@ -7135,6 +7767,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12",
+   "help": "y9-1j-table",
    "label": "12",
    "section": "Reasoning",
    "prompt": "Jo says that people in the top tax bracket pay 45 cents in every dollar in tax. Find the tax payable on a taxable income of \\$240 000 as a percentage of that income, correct to one decimal place. Ignore the Medicare levy.",
@@ -7170,6 +7803,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y9-1j-table",
    "label": "13a",
    "section": "Enrichment",
    "stem": "Use the tax table, ignoring the Medicare levy.",
@@ -7206,6 +7840,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y9-1j-table",
    "label": "13b",
    "section": "Enrichment",
    "stem": "Use the tax table, ignoring the Medicare levy.",
@@ -7226,6 +7861,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-1k-interest",
    "label": "1a",
    "section": "Fluency",
    "stem": "Use the rule $I = \\frac{Prt}{100}$ to find the simple interest earned in each case.",
@@ -7237,6 +7873,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-1k-interest",
    "label": "1b",
    "section": "Fluency",
    "stem": "Use the rule $I = \\frac{Prt}{100}$ to find the simple interest earned in each case.",
@@ -7248,6 +7885,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2",
+   "help": "y9-1k-interest",
    "label": "2",
    "section": "Fluency",
    "prompt": "Find the simple interest earned if the principal is \\$3000, the rate is 4% p.a. and the time is 7 years.",
@@ -7258,6 +7896,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-1k-interest",
    "label": "3a",
    "section": "Fluency",
    "stem": "Mei invests \\$12 000 at a rate of 5% p.a. simple interest for 4 years.",
@@ -7269,6 +7908,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-1k-interest",
    "label": "3b",
    "section": "Fluency",
    "stem": "Mei invests \\$12 000 at a rate of 5% p.a. simple interest for 4 years.",
@@ -7280,6 +7920,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-1k-interest",
    "label": "4a",
    "section": "Fluency",
    "stem": "Omar invests \\$18 000 at a rate of 3.5% p.a. simple interest for 32 months.",
@@ -7291,6 +7932,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-1k-interest",
    "label": "4b",
    "section": "Fluency",
    "stem": "Omar invests \\$18 000 at a rate of 3.5% p.a. simple interest for 32 months.",
@@ -7302,6 +7944,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5",
+   "help": "y9-1k-interest",
    "label": "5",
    "section": "Fluency",
    "prompt": "A finance company charges 13% p.a. simple interest. If Lucy borrows \\$2500 to be repaid over 3 years, find her total repayment.",
@@ -7312,6 +7955,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6",
+   "help": "y9-1k-rearrange",
    "label": "6",
    "section": "Fluency",
    "prompt": "Finn invests \\$4200 at 6% p.a. simple interest and earns \\$630 interest. For how many years did he invest the money?",
@@ -7322,6 +7966,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7",
+   "help": "y9-1k-rearrange",
    "label": "7",
    "section": "Fluency",
    "prompt": "An investment of \\$6000 earns \\$135 simple interest at a flat rate of 1.5% p.a. How long was the money invested?",
@@ -7332,6 +7977,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8",
+   "help": "y9-1k-rearrange",
    "label": "8",
    "section": "Fluency",
    "prompt": "Find the principal that earns \\$700 simple interest over 3 years at a rate of 7% p.a. Round to the nearest cent.",
@@ -7342,6 +7988,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9",
+   "help": "y9-1k-compare",
    "label": "9",
    "section": "Problem-solving",
    "prompt": "Theo wins \\$6000 in a robotics competition and wants to invest it. Which choice gives him the greater total at the end of the time?",
@@ -7355,6 +8002,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y9-1k-interest",
    "label": "10a",
    "section": "Problem-solving",
    "stem": "Harper borrows \\$12 000 to buy a used car. The loan is repaid over 4 years at 11% p.a. simple interest.",
@@ -7366,6 +8014,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y9-1k-interest",
    "label": "10b",
    "section": "Problem-solving",
    "stem": "Harper borrows \\$12 000 to buy a used car. The loan is repaid over 4 years at 11% p.a. simple interest.",
@@ -7377,6 +8026,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11",
+   "help": "y9-1k-rearrange",
    "label": "11",
    "section": "Problem-solving",
    "prompt": "An investment of \\$4000 earns \\$3600 simple interest in 15 years. Find the interest rate.",
@@ -7386,6 +8036,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y9-1k-formula",
    "label": "12a",
    "section": "Problem-solving",
    "stem": "Ivy invests $\\$P$ and wants to double this amount of money using simple interest.",
@@ -7395,6 +8046,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y9-1k-formula",
    "label": "12b",
    "section": "Problem-solving",
    "stem": "Ivy invests $\\$P$ and wants to double this amount of money using simple interest.",
@@ -7405,6 +8057,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y9-1k-formula",
    "label": "12c",
    "section": "Problem-solving",
    "stem": "Ivy invests $\\$P$ and wants to double this amount of money using simple interest.",
@@ -7415,6 +8068,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12d",
+   "help": "y9-1k-formula",
    "label": "12d",
    "section": "Problem-solving",
    "stem": "Ivy invests $\\$P$ and wants to double this amount of money using simple interest.",
@@ -7425,6 +8079,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12e",
+   "help": "y9-1k-formula",
    "label": "12e",
    "section": "Problem-solving",
    "stem": "Ivy invests $\\$P$ and wants to double this amount of money using simple interest.",
@@ -7440,6 +8095,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y9-1k-formula",
    "label": "13a",
    "section": "Reasoning",
    "stem": "The total amount $\\$T$ including simple interest is given by the rule $T = P\\left(1 + \\frac{rt}{100}\\right)$.",
@@ -7451,6 +8107,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y9-1k-formula",
    "label": "13b",
    "section": "Reasoning",
    "stem": "The total amount $\\$T$ including simple interest is given by the rule $T = P\\left(1 + \\frac{rt}{100}\\right)$.",
@@ -7461,6 +8118,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y9-1k-formula",
    "label": "14a",
    "section": "Reasoning",
    "stem": "Rearrange the rule $I = \\frac{Prt}{100}$ to make a rule for:",
@@ -7471,6 +8129,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y9-1k-formula",
    "label": "14b",
    "section": "Reasoning",
    "stem": "Rearrange the rule $I = \\frac{Prt}{100}$ to make a rule for:",
@@ -7480,6 +8139,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14c",
+   "help": "y9-1k-formula",
    "label": "14c",
    "section": "Reasoning",
    "stem": "Rearrange the rule $I = \\frac{Prt}{100}$ to make a rule for:",
@@ -7489,6 +8149,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15a",
+   "help": "y9-1k-interest-only",
    "label": "15a",
    "section": "Enrichment",
    "stem": "With an interest-only loan, the amount borrowed stays the same and only the interest is paid back each month. Sam buys an investment unit for \\$420 000 and borrows the full amount at 6.5% p.a. simple interest. He rents the unit out for \\$1800 per month and pays \\$3600 per year in rates and other costs.",
@@ -7500,6 +8161,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15b",
+   "help": "y9-1k-interest-only",
    "label": "15b",
    "section": "Enrichment",
    "stem": "With an interest-only loan, the amount borrowed stays the same and only the interest is paid back each month. Sam buys an investment unit for \\$420 000 and borrows the full amount at 6.5% p.a. simple interest. He rents the unit out for \\$1800 per month and pays \\$3600 per year in rates and other costs.",
@@ -7511,6 +8173,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15c",
+   "help": "y9-1k-interest-only",
    "label": "15c",
    "section": "Enrichment",
    "stem": "With an interest-only loan, the amount borrowed stays the same and only the interest is paid back each month. Sam buys an investment unit for \\$420 000 and borrows the full amount at 6.5% p.a. simple interest. He rents the unit out for \\$1800 per month and pays \\$3600 per year in rates and other costs.",
@@ -7522,6 +8185,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15d",
+   "help": "y9-1k-interest-only",
    "label": "15d",
    "section": "Enrichment",
    "stem": "With an interest-only loan, the amount borrowed stays the same and only the interest is paid back each month. Sam buys an investment unit for \\$420 000 and borrows the full amount at 6.5% p.a. simple interest. He rents the unit out for \\$1800 per month and pays \\$3600 per year in rates and other costs.",
@@ -7542,6 +8206,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1",
+   "help": "y9-1l-growth",
    "label": "1",
    "section": "Fluency",
    "prompt": "Find the total value of an investment when \\$4500 is invested at 5% p.a. compounded annually for 6 years. Round to the nearest cent.",
@@ -7552,6 +8217,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-1l-growth",
    "label": "2a",
    "section": "Fluency",
    "stem": "Find the total balance of each investment. Interest is compounded annually. Round to the nearest cent.",
@@ -7563,6 +8229,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-1l-growth",
    "label": "2b",
    "section": "Fluency",
    "stem": "Find the total balance of each investment. Interest is compounded annually. Round to the nearest cent.",
@@ -7574,6 +8241,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-1l-growth",
    "label": "2c",
    "section": "Fluency",
    "stem": "Find the total balance of each investment. Interest is compounded annually. Round to the nearest cent.",
@@ -7585,6 +8253,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-1l-growth",
    "label": "2d",
    "section": "Fluency",
    "stem": "Find the total balance of each investment. Interest is compounded annually. Round to the nearest cent.",
@@ -7596,6 +8265,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3",
+   "help": "y9-1l-growth",
    "label": "3",
    "section": "Fluency",
    "prompt": "Ben borrows \\$150 000 from a bank for 6 years and pays nothing back until the end. The interest rate is 7.5% p.a. compounded annually. How much must he pay back at the end of the 6 years? Round to the nearest cent.",
@@ -7606,6 +8276,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-1l-percent",
    "label": "4a",
    "section": "Fluency",
    "stem": "Find the total percentage increase in value of each amount, compounded annually at the given rate. Round to one decimal place.",
@@ -7617,6 +8288,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-1l-percent",
    "label": "4b",
    "section": "Fluency",
    "stem": "Find the total percentage increase in value of each amount, compounded annually at the given rate. Round to one decimal place.",
@@ -7628,6 +8300,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-1l-percent",
    "label": "4c",
    "section": "Fluency",
    "stem": "Find the total percentage increase in value of each amount, compounded annually at the given rate. Round to one decimal place.",
@@ -7639,6 +8312,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-1l-percent",
    "label": "4d",
    "section": "Fluency",
    "stem": "Find the total percentage increase in value of each amount, compounded annually at the given rate. Round to one decimal place.",
@@ -7650,6 +8324,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5",
+   "help": "y9-1l-backwards",
    "label": "5",
    "section": "Fluency",
    "prompt": "After 4 years a loan has grown to \\$38 600. The interest was compounded annually at 5.5% p.a. Find the amount first borrowed, to the nearest dollar.",
@@ -7660,6 +8335,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-1l-backwards",
    "label": "6a",
    "section": "Fluency",
    "stem": "Find the amount first invested, to the nearest dollar, for each final balance. Interest is compounded annually.",
@@ -7671,6 +8347,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-1l-backwards",
    "label": "6b",
    "section": "Fluency",
    "stem": "Find the amount first invested, to the nearest dollar, for each final balance. Interest is compounded annually.",
@@ -7682,6 +8359,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y9-1l-backwards",
    "label": "6c",
    "section": "Fluency",
    "stem": "Find the amount first invested, to the nearest dollar, for each final balance. Interest is compounded annually.",
@@ -7693,6 +8371,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y9-1l-backwards",
    "label": "6d",
    "section": "Fluency",
    "stem": "Find the amount first invested, to the nearest dollar, for each final balance. Interest is compounded annually.",
@@ -7704,6 +8383,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-1l-depreciation",
    "label": "7a",
    "section": "Fluency",
    "stem": "Find the depreciated value of each item, to the nearest dollar.",
@@ -7715,6 +8395,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-1l-depreciation",
    "label": "7b",
    "section": "Fluency",
    "stem": "Find the depreciated value of each item, to the nearest dollar.",
@@ -7726,6 +8407,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-1l-depreciation",
    "label": "7c",
    "section": "Fluency",
    "stem": "Find the depreciated value of each item, to the nearest dollar.",
@@ -7737,6 +8419,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y9-1l-depreciation",
    "label": "7d",
    "section": "Fluency",
    "stem": "Find the depreciated value of each item, to the nearest dollar.",
@@ -7748,6 +8431,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8",
+   "help": "y9-1l-growth",
    "label": "8",
    "section": "Problem-solving",
    "prompt": "House prices in a coastal town are expected to grow by 6% per year for the next 4 years. A house is valued at \\$540 000 now. What is its expected value in 4 years, to the nearest dollar?",
@@ -7758,6 +8442,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9",
+   "help": "y9-1l-depreciation",
    "label": "9",
    "section": "Problem-solving",
    "prompt": "The population of a small mining town is expected to fall by 12% per year for the next 6 years. The population is now 18 760. What is the expected population in 6 years? Round to the nearest whole number.",
@@ -7768,6 +8453,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10",
+   "help": "y9-1l-backwards",
    "label": "10",
    "section": "Problem-solving",
    "prompt": "A block of sandstone left out in the weather is thought to have lost 3.5% of its mass each year for the last 12 years. Its mass now is 4.15 kg. Find its approximate mass 12 years ago, correct to two decimal places.",
@@ -7778,6 +8464,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11",
+   "help": "y9-1l-years",
    "label": "11",
    "section": "Problem-solving",
    "prompt": "Lucas wants to invest \\$8000 until it grows to at least \\$16 000. The interest rate is 7.5% p.a. compounded annually. For how many whole years must he invest the money?",
@@ -7787,6 +8474,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12",
+   "help": "y9-1l-years",
    "label": "12",
    "section": "Problem-solving",
    "prompt": "A forgotten loan balance grew from \\$1200 to about \\$2030 at a compound interest rate of 14% p.a. For about how many whole years was the loan forgotten?",
@@ -7796,6 +8484,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y9-1l-percent",
    "label": "13a",
    "section": "Reasoning",
    "stem": "\\$650 is invested for 6 years at 6% p.a.",
@@ -7806,6 +8495,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y9-1l-percent",
    "label": "13b",
    "section": "Reasoning",
    "stem": "\\$650 is invested for 6 years at 6% p.a.",
@@ -7817,6 +8507,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y9-1l-percent",
    "label": "14a",
    "section": "Reasoning",
    "stem": "Find the total percentage increase in each compound interest situation (compounded annually), correct to two decimal places.",
@@ -7828,6 +8519,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y9-1l-percent",
    "label": "14b",
    "section": "Reasoning",
    "stem": "Find the total percentage increase in each compound interest situation (compounded annually), correct to two decimal places.",
@@ -7839,6 +8531,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14c",
+   "help": "y9-1l-percent",
    "label": "14c",
    "section": "Reasoning",
    "stem": "Find the total percentage increase in each compound interest situation (compounded annually), correct to two decimal places.",
@@ -7850,6 +8543,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14d",
+   "help": "y9-1l-percent",
    "label": "14d",
    "section": "Reasoning",
    "stem": "Find the total percentage increase in each compound interest situation (compounded annually), correct to two decimal places.",
@@ -7861,6 +8555,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14e",
+   "help": "y9-1l-percent",
    "label": "14e",
    "section": "Reasoning",
    "stem": "Find the total percentage increase in each compound interest situation (compounded annually), correct to two decimal places.",
@@ -7871,6 +8566,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15a",
+   "help": "y9-1l-equivalent",
    "label": "15a",
    "section": "Enrichment",
    "stem": "\\$12 000 is invested for 6 years at 7% p.a. compounded annually.",
@@ -7882,6 +8578,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15b",
+   "help": "y9-1l-equivalent",
    "label": "15b",
    "section": "Enrichment",
    "stem": "\\$12 000 is invested for 6 years at 7% p.a. compounded annually.",
@@ -7893,6 +8590,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16a",
+   "help": "y9-1l-equivalent",
    "label": "16a",
    "section": "Enrichment",
    "stem": "\\$80 000 is invested for 8 years at 4.5% p.a. compounded annually.",
@@ -7904,6 +8602,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16b",
+   "help": "y9-1l-equivalent",
    "label": "16b",
    "section": "Enrichment",
    "stem": "\\$80 000 is invested for 8 years at 4.5% p.a. compounded annually.",
@@ -7915,6 +8614,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17a",
+   "help": "y9-1l-equivalent",
    "label": "17a",
    "section": "Enrichment",
    "stem": "Find the simple interest rate that is equivalent to each annual compound interest rate over the given time. Round to two decimal places.",
@@ -7926,6 +8626,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17b",
+   "help": "y9-1l-equivalent",
    "label": "17b",
    "section": "Enrichment",
    "stem": "Find the simple interest rate that is equivalent to each annual compound interest rate over the given time. Round to two decimal places.",
@@ -7946,6 +8647,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-1m-formula",
    "label": "1a",
    "section": "Fluency",
    "stem": "Ruby invests \\$6000 in a bank at 4% p.a. compounded annually.",
@@ -7957,6 +8659,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-1m-formula",
    "label": "1b",
    "section": "Fluency",
    "stem": "Ruby invests \\$6000 in a bank at 4% p.a. compounded annually.",
@@ -7968,6 +8671,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-1m-formula",
    "label": "2a",
    "section": "Fluency",
    "stem": "Find the final amount of each investment if interest is compounded annually. Round to the nearest cent.",
@@ -7979,6 +8683,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-1m-formula",
    "label": "2b",
    "section": "Fluency",
    "stem": "Find the final amount of each investment if interest is compounded annually. Round to the nearest cent.",
@@ -7990,6 +8695,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-1m-formula",
    "label": "2c",
    "section": "Fluency",
    "stem": "Find the final amount of each investment if interest is compounded annually. Round to the nearest cent.",
@@ -8001,6 +8707,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-1m-formula",
    "label": "2d",
    "section": "Fluency",
    "stem": "Find the final amount of each investment if interest is compounded annually. Round to the nearest cent.",
@@ -8012,6 +8719,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-1m-formula",
    "label": "2e",
    "section": "Fluency",
    "stem": "Find the final amount of each investment if interest is compounded annually. Round to the nearest cent.",
@@ -8023,6 +8731,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-1m-formula",
    "label": "2f",
    "section": "Fluency",
    "stem": "Find the final amount of each investment if interest is compounded annually. Round to the nearest cent.",
@@ -8034,6 +8743,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y9-1m-formula",
    "label": "2g",
    "section": "Fluency",
    "stem": "Find the final amount of each investment if interest is compounded annually. Round to the nearest cent.",
@@ -8045,6 +8755,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y9-1m-formula",
    "label": "2h",
    "section": "Fluency",
    "stem": "Find the final amount of each investment if interest is compounded annually. Round to the nearest cent.",
@@ -8056,6 +8767,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-1m-monthly",
    "label": "3a",
    "section": "Fluency",
    "stem": "Find the final amount of each investment if interest is compounded monthly. Round to the nearest cent.",
@@ -8067,6 +8779,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-1m-monthly",
    "label": "3b",
    "section": "Fluency",
    "stem": "Find the final amount of each investment if interest is compounded monthly. Round to the nearest cent.",
@@ -8078,6 +8791,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-1m-monthly",
    "label": "3c",
    "section": "Fluency",
    "stem": "Find the final amount of each investment if interest is compounded monthly. Round to the nearest cent.",
@@ -8089,6 +8803,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-1m-monthly",
    "label": "3d",
    "section": "Fluency",
    "stem": "Find the final amount of each investment if interest is compounded monthly. Round to the nearest cent.",
@@ -8100,6 +8815,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-1m-monthly",
    "label": "3e",
    "section": "Fluency",
    "stem": "Find the final amount of each investment if interest is compounded monthly. Round to the nearest cent.",
@@ -8111,6 +8827,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-1m-monthly",
    "label": "3f",
    "section": "Fluency",
    "stem": "Find the final amount of each investment if interest is compounded monthly. Round to the nearest cent.",
@@ -8122,6 +8839,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-1m-depreciation",
    "label": "4a",
    "section": "Fluency",
    "stem": "Many cars lose value at about 16% p.a. Find the value of each car after 3 years, using a depreciation rate of 16% p.a. Answer to the nearest dollar.",
@@ -8133,6 +8851,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-1m-depreciation",
    "label": "4b",
    "section": "Fluency",
    "stem": "Many cars lose value at about 16% p.a. Find the value of each car after 3 years, using a depreciation rate of 16% p.a. Answer to the nearest dollar.",
@@ -8144,6 +8863,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-1m-depreciation",
    "label": "4c",
    "section": "Fluency",
    "stem": "Many cars lose value at about 16% p.a. Find the value of each car after 3 years, using a depreciation rate of 16% p.a. Answer to the nearest dollar.",
@@ -8155,6 +8875,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-1m-depreciation",
    "label": "4d",
    "section": "Fluency",
    "stem": "Many cars lose value at about 16% p.a. Find the value of each car after 3 years, using a depreciation rate of 16% p.a. Answer to the nearest dollar.",
@@ -8166,6 +8887,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y9-1m-depreciation",
    "label": "4e",
    "section": "Fluency",
    "stem": "Many cars lose value at about 16% p.a. Find the value of each car after 3 years, using a depreciation rate of 16% p.a. Answer to the nearest dollar.",
@@ -8177,6 +8899,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y9-1m-depreciation",
    "label": "4f",
    "section": "Fluency",
    "stem": "Many cars lose value at about 16% p.a. Find the value of each car after 3 years, using a depreciation rate of 16% p.a. Answer to the nearest dollar.",
@@ -8188,6 +8911,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-1m-compare",
    "label": "5a",
    "section": "Problem-solving",
    "stem": "How much interest is earned on an investment of \\$650 at 5% p.a. if it is invested:",
@@ -8199,6 +8923,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-1m-compare",
    "label": "5b",
    "section": "Problem-solving",
    "stem": "How much interest is earned on an investment of \\$650 at 5% p.a. if it is invested:",
@@ -8210,6 +8935,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-1m-compare",
    "label": "5c",
    "section": "Problem-solving",
    "stem": "How much interest is earned on an investment of \\$650 at 5% p.a. if it is invested:",
@@ -8221,6 +8947,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-1m-compare",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "Leo invests \\$2400 in an account earning $5\\frac{1}{2}\\%$ p.a. compounded annually for 6 years.",
@@ -8232,6 +8959,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-1m-compare",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "Leo invests \\$2400 in an account earning $5\\frac{1}{2}\\%$ p.a. compounded annually for 6 years.",
@@ -8243,6 +8971,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y9-1m-compare",
    "label": "6c",
    "section": "Problem-solving",
    "stem": "Leo invests \\$2400 in an account earning $5\\frac{1}{2}\\%$ p.a. compounded annually for 6 years.",
@@ -8254,6 +8983,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-1m-formula",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "Prices rise over time because of inflation, which works like compound interest. Find the cost of each item in 4 years if inflation is 2.8% p.a. Round to the nearest cent.",
@@ -8265,6 +8995,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-1m-formula",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "Prices rise over time because of inflation, which works like compound interest. Find the cost of each item in 4 years if inflation is 2.8% p.a. Round to the nearest cent.",
@@ -8276,6 +9007,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-1m-formula",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "Prices rise over time because of inflation, which works like compound interest. Find the cost of each item in 4 years if inflation is 2.8% p.a. Round to the nearest cent.",
@@ -8287,6 +9019,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y9-1m-formula",
    "label": "7d",
    "section": "Problem-solving",
    "stem": "Prices rise over time because of inflation, which works like compound interest. Find the cost of each item in 4 years if inflation is 2.8% p.a. Round to the nearest cent.",
@@ -8298,6 +9031,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7e",
+   "help": "y9-1m-formula",
    "label": "7e",
    "section": "Problem-solving",
    "stem": "Prices rise over time because of inflation, which works like compound interest. Find the cost of each item in 4 years if inflation is 2.8% p.a. Round to the nearest cent.",
@@ -8309,6 +9043,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8",
+   "help": "y9-1m-monthly",
    "label": "8",
    "section": "Problem-solving",
    "prompt": "Ava wants to have \\$18 000 in 4 years for a car. She chooses an account earning 4.2% p.a. compounded monthly. How much does she need to invest today? Round to the nearest cent.",
@@ -8319,6 +9054,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-1m-monthly",
    "label": "9a",
    "section": "Problem-solving",
    "stem": "Find the compound interest, to the nearest cent, when \\$8000 is invested at 5% p.a. for 3 years, compounding:",
@@ -8330,6 +9066,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-1m-monthly",
    "label": "9b",
    "section": "Problem-solving",
    "stem": "Find the compound interest, to the nearest cent, when \\$8000 is invested at 5% p.a. for 3 years, compounding:",
@@ -8341,6 +9078,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y9-1m-monthly",
    "label": "9c",
    "section": "Problem-solving",
    "stem": "Find the compound interest, to the nearest cent, when \\$8000 is invested at 5% p.a. for 3 years, compounding:",
@@ -8352,6 +9090,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y9-1m-monthly",
    "label": "9d",
    "section": "Problem-solving",
    "stem": "Find the compound interest, to the nearest cent, when \\$8000 is invested at 5% p.a. for 3 years, compounding:",
@@ -8363,6 +9102,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9e",
+   "help": "y9-1m-monthly",
    "label": "9e",
    "section": "Problem-solving",
    "stem": "Find the compound interest, to the nearest cent, when \\$8000 is invested at 5% p.a. for 3 years, compounding:",
@@ -8374,6 +9114,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9f",
+   "help": "y9-1m-monthly",
    "label": "9f",
    "section": "Problem-solving",
    "stem": "Find the compound interest, to the nearest cent, when \\$8000 is invested at 5% p.a. for 3 years, compounding:",
@@ -8388,6 +9129,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10",
+   "help": "y9-1m-compare",
    "label": "10",
    "section": "Problem-solving",
    "prompt": "What annual simple interest rate gives the same interest as \\$100 invested at 9% p.a. compounded monthly for 4 years? Round to two decimal places.",
@@ -8398,6 +9140,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y9-1m-read",
    "label": "11a",
    "section": "Reasoning",
    "stem": "Each line of working below is for compound interest or depreciation. Choose the situation it matches.",
@@ -8412,6 +9155,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y9-1m-read",
    "label": "11b",
    "section": "Reasoning",
    "stem": "Each line of working below is for compound interest or depreciation. Choose the situation it matches.",
@@ -8426,6 +9170,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y9-1m-read",
    "label": "11c",
    "section": "Reasoning",
    "stem": "Each line of working below is for compound interest or depreciation. Choose the situation it matches.",
@@ -8440,6 +9185,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11d",
+   "help": "y9-1m-read",
    "label": "11d",
    "section": "Reasoning",
    "stem": "Each line of working below is for compound interest or depreciation. Choose the situation it matches.",
@@ -8454,6 +9200,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y9-1m-compare",
    "label": "12a",
    "section": "Reasoning",
    "stem": "Compare these investments, all compounded annually. Round money to the nearest cent.",
@@ -8465,6 +9212,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y9-1m-compare",
    "label": "12b",
    "section": "Reasoning",
    "stem": "Compare these investments, all compounded annually. Round money to the nearest cent.",
@@ -8476,6 +9224,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y9-1m-compare",
    "label": "12c",
    "section": "Reasoning",
    "stem": "Compare these investments, all compounded annually. Round money to the nearest cent.",
@@ -8489,6 +9238,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12d",
+   "help": "y9-1m-compare",
    "label": "12d",
    "section": "Reasoning",
    "stem": "Compare these investments, all compounded annually. Round money to the nearest cent.",
@@ -8500,6 +9250,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12e",
+   "help": "y9-1m-compare",
    "label": "12e",
    "section": "Reasoning",
    "stem": "Compare these investments, all compounded annually. Round money to the nearest cent.",
@@ -8513,6 +9264,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y9-1m-monthly",
    "label": "13a",
    "section": "Reasoning",
    "stem": "Find the interest earned, to the nearest cent, when \\$2000 is invested at 4.8% p.a. for 1 year, compounded:",
@@ -8524,6 +9276,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y9-1m-monthly",
    "label": "13b",
    "section": "Reasoning",
    "stem": "Find the interest earned, to the nearest cent, when \\$2000 is invested at 4.8% p.a. for 1 year, compounded:",
@@ -8535,6 +9288,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13c",
+   "help": "y9-1m-monthly",
    "label": "13c",
    "section": "Reasoning",
    "stem": "Find the interest earned, to the nearest cent, when \\$2000 is invested at 4.8% p.a. for 1 year, compounded:",
@@ -8546,6 +9300,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13d",
+   "help": "y9-1m-monthly",
    "label": "13d",
    "section": "Reasoning",
    "stem": "Find the interest earned, to the nearest cent, when \\$2000 is invested at 4.8% p.a. for 1 year, compounded:",
@@ -8557,6 +9312,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13e",
+   "help": "y9-1m-monthly",
    "label": "13e",
    "section": "Reasoning",
    "stem": "Find the interest earned, to the nearest cent, when \\$2000 is invested at 4.8% p.a. for 1 year, compounded:",
@@ -8568,6 +9324,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13f",
+   "help": "y9-1m-monthly",
    "label": "13f",
    "section": "Reasoning",
    "stem": "Find the interest earned, to the nearest cent, when \\$2000 is invested at 4.8% p.a. for 1 year, compounded:",
@@ -8579,6 +9336,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y9-1m-double",
    "label": "14a",
    "section": "Enrichment",
    "stem": "Nico wants to know how long it takes to double his money at 6% p.a. compounded annually. If $P$ is his starting amount, he needs $2P = P(1.06)^n$, which becomes $2 = (1.06)^n$.",
@@ -8594,6 +9352,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y9-1m-double",
    "label": "14b",
    "section": "Enrichment",
    "stem": "Nico wants to know how long it takes to double his money at 6% p.a. compounded annually. If $P$ is his starting amount, he needs $2P = P(1.06)^n$, which becomes $2 = (1.06)^n$.",
@@ -8604,6 +9363,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14c",
+   "help": "y9-1m-double",
    "label": "14c",
    "section": "Enrichment",
    "stem": "Still with annual compounding, find the smallest whole number of years for money to at least double at:",
@@ -8614,6 +9374,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14d",
+   "help": "y9-1m-double",
    "label": "14d",
    "section": "Enrichment",
    "stem": "Still with annual compounding, find the smallest whole number of years for money to at least double at:",
@@ -8624,6 +9385,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14e",
+   "help": "y9-1m-double",
    "label": "14e",
    "section": "Enrichment",
    "stem": "Still with annual compounding, find the smallest whole number of years for money to at least double at:",
@@ -8634,6 +9396,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14f",
+   "help": "y9-1m-double",
    "label": "14f",
    "section": "Enrichment",
    "prompt": "What interest rate, compounded annually, doubles money in exactly 3 years? Give your answer correct to one decimal place.",
@@ -8644,6 +9407,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14g",
+   "help": "y9-1m-double",
    "label": "14g",
    "section": "Enrichment",
    "stem": "Nico wants to know how long it takes to double his money at 6% p.a. compounded annually. If $P$ is his starting amount, he needs $2P = P(1.06)^n$, which becomes $2 = (1.06)^n$.",
@@ -8653,6 +9417,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14h",
+   "help": "y9-1m-double",
    "label": "14h",
    "section": "Enrichment",
    "stem": "A rough rule, called the rule of 72, says that (years to double) $\times$ (interest rate) $\u0007pprox 72$. Use it to estimate the interest rate needed to double your money in:",
@@ -8663,6 +9428,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14i",
+   "help": "y9-1m-double",
    "label": "14i",
    "section": "Enrichment",
    "stem": "A rough rule, called the rule of 72, says that (years to double) $\times$ (interest rate) $\u0007pprox 72$. Use it to estimate the interest rate needed to double your money in:",
@@ -8673,6 +9439,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14j",
+   "help": "y9-1m-double",
    "label": "14j",
    "section": "Enrichment",
    "stem": "A rough rule, called the rule of 72, says that (years to double) $\times$ (interest rate) $\u0007pprox 72$. Use it to estimate the interest rate needed to double your money in:",
@@ -24045,6 +24812,12624 @@ window.H3_BANK.sets.push(
     "96"
    ],
    "hint": "Separate the numbers with commas."
+  }
+ ]
+}
+);
+
+// Chapter 9
+window.H3_BANK.sets.push(
+{
+ "id": "y9-9a",
+ "year": 9,
+ "chapter": "Chapter 9: Probability and statistics",
+ "title": "9A Review of probability",
+ "description": "Sample spaces and probabilities for spinners, letters, dice, cards and numbers chosen at random.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "This spinner has eight equal sections.",
+   "type": "list",
+   "prompt": "List the sample space using the given numbers.",
+   "answer": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8"
+   ],
+   "stemFigure": {
+    "kind": "spinner",
+    "labels": [
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8"
+    ]
+   },
+   "hint": "Type the values separated by commas, for example 1, 4, 9"
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "This spinner has eight equal sections.",
+   "type": "numeric",
+   "prompt": "Find Pr($3$).",
+   "answer": "1/8",
+   "hint": "Type a fraction, for example 3/8"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "This spinner has eight equal sections.",
+   "type": "numeric",
+   "prompt": "Find Pr(not a $3$).",
+   "answer": "7/8"
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "This spinner has eight equal sections.",
+   "type": "numeric",
+   "prompt": "Find Pr(a $3$ or a $4$).",
+   "answer": "1/4"
+  },
+  {
+   "id": "q1e",
+   "label": "1e",
+   "section": "Fluency",
+   "stem": "This spinner has eight equal sections.",
+   "type": "numeric",
+   "prompt": "Find Pr(a number which is at least $3$).",
+   "answer": "3/4"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Spinner a has 4 equal sections.",
+   "type": "list",
+   "prompt": "List the sample space using the given numbers (each number once).",
+   "answer": [
+    "2",
+    "5",
+    "8"
+   ],
+   "stemFigure": {
+    "kind": "spinner",
+    "labels": [
+     "5",
+     "2",
+     "2",
+     "8"
+    ]
+   },
+   "hint": "Type the values separated by commas, for example 1, 4, 9"
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Spinner a has 4 equal sections.",
+   "type": "numeric",
+   "prompt": "Find Pr($2$).",
+   "answer": "1/2"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Spinner a has 4 equal sections.",
+   "type": "numeric",
+   "prompt": "Find Pr(not a $2$).",
+   "answer": "1/2"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Spinner a has 4 equal sections.",
+   "type": "numeric",
+   "prompt": "Find Pr(a $2$ or a $3$).",
+   "answer": "1/2"
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Spinner a has 4 equal sections.",
+   "type": "numeric",
+   "prompt": "Find Pr(a number which is at least $2$).",
+   "answer": "1"
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "Spinner b has 6 equal sections.",
+   "type": "list",
+   "prompt": "List the sample space using the given numbers (each number once).",
+   "answer": [
+    "1",
+    "2",
+    "3"
+   ],
+   "stemFigure": {
+    "kind": "spinner",
+    "labels": [
+     "2",
+     "1",
+     "3",
+     "2",
+     "2",
+     "3"
+    ]
+   }
+  },
+  {
+   "id": "q2g",
+   "label": "2g",
+   "section": "Fluency",
+   "stem": "Spinner b has 6 equal sections.",
+   "type": "numeric",
+   "prompt": "Find Pr($2$).",
+   "answer": "1/2"
+  },
+  {
+   "id": "q2h",
+   "label": "2h",
+   "section": "Fluency",
+   "stem": "Spinner b has 6 equal sections.",
+   "type": "numeric",
+   "prompt": "Find Pr(not a $2$).",
+   "answer": "1/2"
+  },
+  {
+   "id": "q2i",
+   "label": "2i",
+   "section": "Fluency",
+   "stem": "Spinner b has 6 equal sections.",
+   "type": "numeric",
+   "prompt": "Find Pr(a $2$ or a $3$).",
+   "answer": "5/6"
+  },
+  {
+   "id": "q2j",
+   "label": "2j",
+   "section": "Fluency",
+   "stem": "Spinner b has 6 equal sections.",
+   "type": "numeric",
+   "prompt": "Find Pr(a number which is at least $2$).",
+   "answer": "5/6"
+  },
+  {
+   "id": "q2k",
+   "label": "2k",
+   "section": "Fluency",
+   "stem": "Spinner c has 6 equal sections.",
+   "type": "list",
+   "prompt": "List the sample space using the given numbers (each number once).",
+   "answer": [
+    "1",
+    "2",
+    "3"
+   ],
+   "stemFigure": {
+    "kind": "spinner",
+    "labels": [
+     "3",
+     "1",
+     "2",
+     "1",
+     "1",
+     "3"
+    ]
+   }
+  },
+  {
+   "id": "q2l",
+   "label": "2l",
+   "section": "Fluency",
+   "stem": "Spinner c has 6 equal sections.",
+   "type": "numeric",
+   "prompt": "Find Pr($2$).",
+   "answer": "1/6"
+  },
+  {
+   "id": "q2m",
+   "label": "2m",
+   "section": "Fluency",
+   "stem": "Spinner c has 6 equal sections.",
+   "type": "numeric",
+   "prompt": "Find Pr(not a $2$).",
+   "answer": "5/6"
+  },
+  {
+   "id": "q2n",
+   "label": "2n",
+   "section": "Fluency",
+   "stem": "Spinner c has 6 equal sections.",
+   "type": "numeric",
+   "prompt": "Find Pr(a $2$ or a $3$).",
+   "answer": "1/2"
+  },
+  {
+   "id": "q2o",
+   "label": "2o",
+   "section": "Fluency",
+   "stem": "Spinner c has 6 equal sections.",
+   "type": "numeric",
+   "prompt": "Find Pr(a number which is at least $2$).",
+   "answer": "1/2"
+  },
+  {
+   "id": "q2p",
+   "label": "2p",
+   "section": "Fluency",
+   "stem": "Spinner d has 7 equal sections.",
+   "type": "list",
+   "prompt": "List the sample space using the given numbers (each number once).",
+   "answer": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "stemFigure": {
+    "kind": "spinner",
+    "labels": [
+     "4",
+     "1",
+     "2",
+     "4",
+     "3",
+     "1",
+     "3"
+    ]
+   }
+  },
+  {
+   "id": "q2q",
+   "label": "2q",
+   "section": "Fluency",
+   "stem": "Spinner d has 7 equal sections.",
+   "type": "numeric",
+   "prompt": "Find Pr($2$).",
+   "answer": "1/7"
+  },
+  {
+   "id": "q2r",
+   "label": "2r",
+   "section": "Fluency",
+   "stem": "Spinner d has 7 equal sections.",
+   "type": "numeric",
+   "prompt": "Find Pr(not a $2$).",
+   "answer": "6/7"
+  },
+  {
+   "id": "q2s",
+   "label": "2s",
+   "section": "Fluency",
+   "stem": "Spinner d has 7 equal sections.",
+   "type": "numeric",
+   "prompt": "Find Pr(a $2$ or a $3$).",
+   "answer": "3/7"
+  },
+  {
+   "id": "q2t",
+   "label": "2t",
+   "section": "Fluency",
+   "stem": "Spinner d has 7 equal sections.",
+   "type": "numeric",
+   "prompt": "Find Pr(a number which is at least $2$).",
+   "answer": "5/7"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "A ball is chosen at random from a box. Find the probability that it is blue if the box contains:",
+   "type": "numeric",
+   "prompt": "$5$ blue balls and $3$ red balls",
+   "answer": "5/8"
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "A ball is chosen at random from a box. Find the probability that it is blue if the box contains:",
+   "type": "numeric",
+   "prompt": "$2$ blue balls and $7$ red balls",
+   "answer": "2/9"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "A ball is chosen at random from a box. Find the probability that it is blue if the box contains:",
+   "type": "numeric",
+   "prompt": "$2$ blue balls, $4$ red balls and $3$ white balls",
+   "answer": "2/9"
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "A ball is chosen at random from a box. Find the probability that it is blue if the box contains:",
+   "type": "numeric",
+   "prompt": "$6$ blue balls, $11$ black balls and $13$ green balls",
+   "answer": "1/5"
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "A ball is chosen at random from a box. Find the probability that it is blue if the box contains:",
+   "type": "numeric",
+   "prompt": "$12$ blue balls only",
+   "answer": "1"
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "A ball is chosen at random from a box. Find the probability that it is blue if the box contains:",
+   "type": "numeric",
+   "prompt": "$4$ yellow balls and $6$ green balls",
+   "answer": "0"
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "A ball is chosen at random from a box. Find the probability that it is NOT blue if the box contains:",
+   "type": "numeric",
+   "prompt": "$5$ blue balls and $3$ red balls",
+   "answer": "3/8"
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "A ball is chosen at random from a box. Find the probability that it is NOT blue if the box contains:",
+   "type": "numeric",
+   "prompt": "$2$ blue balls and $7$ red balls",
+   "answer": "7/9"
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "A ball is chosen at random from a box. Find the probability that it is NOT blue if the box contains:",
+   "type": "numeric",
+   "prompt": "$2$ blue balls, $4$ red balls and $3$ white balls",
+   "answer": "7/9"
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "A ball is chosen at random from a box. Find the probability that it is NOT blue if the box contains:",
+   "type": "numeric",
+   "prompt": "$6$ blue balls, $11$ black balls and $13$ green balls",
+   "answer": "4/5"
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Fluency",
+   "stem": "A ball is chosen at random from a box. Find the probability that it is NOT blue if the box contains:",
+   "type": "numeric",
+   "prompt": "$12$ blue balls only",
+   "answer": "0"
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Fluency",
+   "stem": "A ball is chosen at random from a box. Find the probability that it is NOT blue if the box contains:",
+   "type": "numeric",
+   "prompt": "$4$ yellow balls and $6$ green balls",
+   "answer": "1"
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Fluency",
+   "stem": "A running race has six lanes, and each of the six runners has an equal chance of being drawn in lane $4$. Find the probability that a particular runner:",
+   "type": "numeric",
+   "prompt": "is drawn in lane $4$",
+   "answer": "1/6"
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Fluency",
+   "stem": "A running race has six lanes, and each of the six runners has an equal chance of being drawn in lane $4$. Find the probability that a particular runner:",
+   "type": "numeric",
+   "prompt": "is not drawn in lane $4$",
+   "answer": "5/6"
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Fluency",
+   "stem": "A letter is chosen at random from the word PARALLEL. Find each probability.",
+   "type": "numeric",
+   "prompt": "Pr(R)",
+   "answer": "1/8"
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Fluency",
+   "stem": "A letter is chosen at random from the word PARALLEL. Find each probability.",
+   "type": "numeric",
+   "prompt": "Pr(L)",
+   "answer": "3/8"
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Fluency",
+   "stem": "A letter is chosen at random from the word PARALLEL. Find each probability.",
+   "type": "numeric",
+   "prompt": "Pr(A or L)",
+   "answer": "5/8"
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Fluency",
+   "stem": "A letter is chosen at random from the word PARALLEL. Find each probability.",
+   "type": "numeric",
+   "prompt": "Pr(vowel)",
+   "answer": "3/8"
+  },
+  {
+   "id": "q6e",
+   "label": "6e",
+   "section": "Fluency",
+   "stem": "A letter is chosen at random from the word PARALLEL. Find each probability.",
+   "type": "numeric",
+   "prompt": "Pr(consonant)",
+   "answer": "5/8"
+  },
+  {
+   "id": "q6f",
+   "label": "6f",
+   "section": "Fluency",
+   "stem": "A letter is chosen at random from the word PARALLEL. Find each probability.",
+   "type": "numeric",
+   "prompt": "Pr(vowel or consonant)",
+   "answer": "1"
+  },
+  {
+   "id": "q6g",
+   "label": "6g",
+   "section": "Fluency",
+   "stem": "A letter is chosen at random from the word PARALLEL. Find each probability.",
+   "type": "numeric",
+   "prompt": "Pr(Z)",
+   "answer": "0"
+  },
+  {
+   "id": "q6h",
+   "label": "6h",
+   "section": "Fluency",
+   "stem": "A letter is chosen at random from the word PARALLEL. Find each probability.",
+   "type": "numeric",
+   "prompt": "Pr(R or Z)",
+   "answer": "1/8"
+  },
+  {
+   "id": "q6i",
+   "label": "6i",
+   "section": "Fluency",
+   "stem": "A letter is chosen at random from the word PARALLEL. Find each probability.",
+   "type": "numeric",
+   "prompt": "Pr(not an L)",
+   "answer": "5/8"
+  },
+  {
+   "id": "q6j",
+   "label": "6j",
+   "section": "Fluency",
+   "stem": "A letter is chosen at random from the word PARALLEL. Find each probability.",
+   "type": "numeric",
+   "prompt": "Pr(a letter from the first half of the alphabet, A to M)",
+   "answer": "3/4"
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Problem-solving",
+   "stem": "The sport captain is chosen at random from four candidates. Mei and Tomas are $16$ years old, and Priya and Jack are $15$ years old.",
+   "type": "list",
+   "prompt": "List the sample space (the four names).",
+   "answer": [
+    "Mei",
+    "Tomas",
+    "Priya",
+    "Jack"
+   ],
+   "hint": "Type the names separated by commas"
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Problem-solving",
+   "stem": "The sport captain is chosen at random from four candidates. Mei and Tomas are $16$ years old, and Priya and Jack are $15$ years old.",
+   "type": "numeric",
+   "prompt": "Find the probability that the captain will be Mei.",
+   "answer": "1/4"
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Problem-solving",
+   "stem": "The sport captain is chosen at random from four candidates. Mei and Tomas are $16$ years old, and Priya and Jack are $15$ years old.",
+   "type": "numeric",
+   "prompt": "Find the probability that the captain is currently $15$ years old.",
+   "answer": "1/2"
+  },
+  {
+   "id": "q7d",
+   "label": "7d",
+   "section": "Problem-solving",
+   "stem": "The sport captain is chosen at random from four candidates. Mei and Tomas are $16$ years old, and Priya and Jack are $15$ years old.",
+   "type": "numeric",
+   "prompt": "Find the probability that the captain will be neither Jack nor Mei.",
+   "answer": "1/2"
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Problem-solving",
+   "stem": "A fair six-sided die is rolled. Find each probability.",
+   "type": "numeric",
+   "prompt": "Pr($5$)",
+   "answer": "1/6"
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Problem-solving",
+   "stem": "A fair six-sided die is rolled. Find each probability.",
+   "type": "numeric",
+   "prompt": "Pr($2$)",
+   "answer": "1/6"
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Problem-solving",
+   "stem": "A fair six-sided die is rolled. Find each probability.",
+   "type": "numeric",
+   "prompt": "Pr(not a $2$)",
+   "answer": "5/6"
+  },
+  {
+   "id": "q8d",
+   "label": "8d",
+   "section": "Problem-solving",
+   "stem": "A fair six-sided die is rolled. Find each probability.",
+   "type": "numeric",
+   "prompt": "Pr($3$ or $4$)",
+   "answer": "1/3"
+  },
+  {
+   "id": "q8e",
+   "label": "8e",
+   "section": "Problem-solving",
+   "stem": "A fair six-sided die is rolled. Find each probability.",
+   "type": "numeric",
+   "prompt": "Pr(a number less than $3$)",
+   "answer": "1/3"
+  },
+  {
+   "id": "q8f",
+   "label": "8f",
+   "section": "Problem-solving",
+   "stem": "A fair six-sided die is rolled. Find each probability.",
+   "type": "numeric",
+   "prompt": "Pr(an even number or an odd number)",
+   "answer": "1"
+  },
+  {
+   "id": "q8g",
+   "label": "8g",
+   "section": "Problem-solving",
+   "stem": "A fair six-sided die is rolled. Find each probability.",
+   "type": "numeric",
+   "prompt": "Pr(a square number)",
+   "answer": "1/3"
+  },
+  {
+   "id": "q8h",
+   "label": "8h",
+   "section": "Problem-solving",
+   "stem": "A fair six-sided die is rolled. Find each probability.",
+   "type": "numeric",
+   "prompt": "Pr(not a prime number)",
+   "answer": "1/2"
+  },
+  {
+   "id": "q8i",
+   "label": "8i",
+   "section": "Problem-solving",
+   "stem": "A fair six-sided die is rolled. Find each probability.",
+   "type": "numeric",
+   "prompt": "Pr(a number greater than $2$)",
+   "answer": "2/3"
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Problem-solving",
+   "stem": "A card is drawn at random from a standard deck of $52$ playing cards: $13$ black spades, $13$ black clubs, $13$ red hearts and $13$ red diamonds, with four each of ace, $2$ to $10$, jack, queen and king. Find the probability that the card is:",
+   "type": "numeric",
+   "prompt": "the jack of hearts",
+   "answer": "1/52"
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Problem-solving",
+   "stem": "A card is drawn at random from a standard deck of $52$ playing cards: $13$ black spades, $13$ black clubs, $13$ red hearts and $13$ red diamonds, with four each of ace, $2$ to $10$, jack, queen and king. Find the probability that the card is:",
+   "type": "numeric",
+   "prompt": "a king",
+   "answer": "1/13"
+  },
+  {
+   "id": "q9c",
+   "label": "9c",
+   "section": "Problem-solving",
+   "stem": "A card is drawn at random from a standard deck of $52$ playing cards: $13$ black spades, $13$ black clubs, $13$ red hearts and $13$ red diamonds, with four each of ace, $2$ to $10$, jack, queen and king. Find the probability that the card is:",
+   "type": "numeric",
+   "prompt": "a black ten",
+   "answer": "1/26"
+  },
+  {
+   "id": "q9d",
+   "label": "9d",
+   "section": "Problem-solving",
+   "stem": "A card is drawn at random from a standard deck of $52$ playing cards: $13$ black spades, $13$ black clubs, $13$ red hearts and $13$ red diamonds, with four each of ace, $2$ to $10$, jack, queen and king. Find the probability that the card is:",
+   "type": "numeric",
+   "prompt": "a black card",
+   "answer": "1/2"
+  },
+  {
+   "id": "q9e",
+   "label": "9e",
+   "section": "Problem-solving",
+   "stem": "A card is drawn at random from a standard deck of $52$ playing cards: $13$ black spades, $13$ black clubs, $13$ red hearts and $13$ red diamonds, with four each of ace, $2$ to $10$, jack, queen and king. Find the probability that the card is:",
+   "type": "numeric",
+   "prompt": "a $9$ or a $10$",
+   "answer": "2/13"
+  },
+  {
+   "id": "q9f",
+   "label": "9f",
+   "section": "Problem-solving",
+   "stem": "A card is drawn at random from a standard deck of $52$ playing cards: $13$ black spades, $13$ black clubs, $13$ red hearts and $13$ red diamonds, with four each of ace, $2$ to $10$, jack, queen and king. Find the probability that the card is:",
+   "type": "numeric",
+   "prompt": "any card except an ace",
+   "answer": "12/13"
+  },
+  {
+   "id": "q9g",
+   "label": "9g",
+   "section": "Problem-solving",
+   "stem": "A card is drawn at random from a standard deck of $52$ playing cards: $13$ black spades, $13$ black clubs, $13$ red hearts and $13$ red diamonds, with four each of ace, $2$ to $10$, jack, queen and king. Find the probability that the card is:",
+   "type": "numeric",
+   "prompt": "any card except a king or a red jack",
+   "answer": "23/26"
+  },
+  {
+   "id": "q9h",
+   "label": "9h",
+   "section": "Problem-solving",
+   "stem": "A card is drawn at random from a standard deck of $52$ playing cards: $13$ black spades, $13$ black clubs, $13$ red hearts and $13$ red diamonds, with four each of ace, $2$ to $10$, jack, queen and king. Find the probability that the card is:",
+   "type": "numeric",
+   "prompt": "not a red queen",
+   "answer": "25/26"
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Problem-solving",
+   "stem": "A letter is chosen at random from the word ENGINEERING. Find the probability that the letter is:",
+   "type": "numeric",
+   "prompt": "an N",
+   "answer": "3/11"
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Problem-solving",
+   "stem": "A letter is chosen at random from the word ENGINEERING. Find the probability that the letter is:",
+   "type": "numeric",
+   "prompt": "not an N",
+   "answer": "8/11"
+  },
+  {
+   "id": "q10c",
+   "label": "10c",
+   "section": "Problem-solving",
+   "stem": "A letter is chosen at random from the word ENGINEERING. Find the probability that the letter is:",
+   "type": "numeric",
+   "prompt": "one of the first five letters of the alphabet (A to E)",
+   "answer": "3/11"
+  },
+  {
+   "id": "q10d",
+   "label": "10d",
+   "section": "Problem-solving",
+   "stem": "A letter is chosen at random from the word ENGINEERING. Find the probability that the letter is:",
+   "type": "numeric",
+   "prompt": "a letter from the word GRIN",
+   "answer": "8/11"
+  },
+  {
+   "id": "q10e",
+   "label": "10e",
+   "section": "Problem-solving",
+   "stem": "A letter is chosen at random from the word ENGINEERING. Find the probability that the letter is:",
+   "type": "numeric",
+   "prompt": "a letter that is not in the word GRIN",
+   "answer": "3/11"
+  },
+  {
+   "id": "q11",
+   "label": "11",
+   "section": "Reasoning",
+   "type": "numeric",
+   "prompt": "Amir chooses a letter at random from the word LEVEL. He writes Pr(L) $= \\frac{1}{3}$ because the word uses three different letters. That is wrong. What is the correct value of Pr(L)?",
+   "answer": "2/5"
+  },
+  {
+   "id": "q12a",
+   "label": "12a",
+   "section": "Reasoning",
+   "stem": "A fair six-sided die is rolled. Does each event have a probability equal to $\\frac{1}{3}$?",
+   "type": "choice",
+   "prompt": "more than $4$",
+   "answer": 0,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q12b",
+   "label": "12b",
+   "section": "Reasoning",
+   "stem": "A fair six-sided die is rolled. Does each event have a probability equal to $\\frac{1}{3}$?",
+   "type": "choice",
+   "prompt": "at least $4$",
+   "answer": 1,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q12c",
+   "label": "12c",
+   "section": "Reasoning",
+   "stem": "A fair six-sided die is rolled. Does each event have a probability equal to $\\frac{1}{3}$?",
+   "type": "choice",
+   "prompt": "less than or equal to $2$",
+   "answer": 0,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q12d",
+   "label": "12d",
+   "section": "Reasoning",
+   "stem": "A fair six-sided die is rolled. Does each event have a probability equal to $\\frac{1}{3}$?",
+   "type": "choice",
+   "prompt": "no more than $3$",
+   "answer": 1,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q12e",
+   "label": "12e",
+   "section": "Reasoning",
+   "stem": "A fair six-sided die is rolled. Does each event have a probability equal to $\\frac{1}{3}$?",
+   "type": "choice",
+   "prompt": "at least $5$",
+   "answer": 0,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q12f",
+   "label": "12f",
+   "section": "Reasoning",
+   "stem": "A fair six-sided die is rolled. Does each event have a probability equal to $\\frac{1}{3}$?",
+   "type": "choice",
+   "prompt": "less than $5$",
+   "answer": 1,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q13a",
+   "label": "13a",
+   "section": "Reasoning",
+   "stem": "A number is chosen at random from the set $\\{1, 2, 3, \\ldots, 30\\}$. Find the probability that the number is:",
+   "type": "numeric",
+   "prompt": "a multiple of $3$",
+   "answer": "1/3"
+  },
+  {
+   "id": "q13b",
+   "label": "13b",
+   "section": "Reasoning",
+   "stem": "A number is chosen at random from the set $\\{1, 2, 3, \\ldots, 30\\}$. Find the probability that the number is:",
+   "type": "numeric",
+   "prompt": "a factor of $36$",
+   "answer": "4/15"
+  },
+  {
+   "id": "q13c",
+   "label": "13c",
+   "section": "Reasoning",
+   "stem": "A number is chosen at random from the set $\\{1, 2, 3, \\ldots, 30\\}$. Find the probability that the number is:",
+   "type": "numeric",
+   "prompt": "a square number",
+   "answer": "1/6"
+  },
+  {
+   "id": "q13d",
+   "label": "13d",
+   "section": "Reasoning",
+   "stem": "A number is chosen at random from the set $\\{1, 2, 3, \\ldots, 30\\}$. Find the probability that the number is:",
+   "type": "numeric",
+   "prompt": "a prime number",
+   "answer": "1/3"
+  },
+  {
+   "id": "q13e",
+   "label": "13e",
+   "section": "Reasoning",
+   "stem": "A number is chosen at random from the set $\\{1, 2, 3, \\ldots, 30\\}$. Find the probability that the number is:",
+   "type": "numeric",
+   "prompt": "divisible by $5$",
+   "answer": "1/5"
+  },
+  {
+   "id": "q13f",
+   "label": "13f",
+   "section": "Reasoning",
+   "stem": "A number is chosen at random from the set $\\{1, 2, 3, \\ldots, 30\\}$. Find the probability that the number is:",
+   "type": "numeric",
+   "prompt": "divisible by $5$ or $2$",
+   "answer": "3/5"
+  },
+  {
+   "id": "q13g",
+   "label": "13g",
+   "section": "Reasoning",
+   "stem": "A number is chosen at random from the set $\\{1, 2, 3, \\ldots, 30\\}$. Find the probability that the number is:",
+   "type": "numeric",
+   "prompt": "divisible by $5$ and $2$",
+   "answer": "1/10"
+  },
+  {
+   "id": "q13h",
+   "label": "13h",
+   "section": "Reasoning",
+   "stem": "A number is chosen at random from the set $\\{1, 2, 3, \\ldots, 30\\}$. Find the probability that the number is:",
+   "type": "numeric",
+   "prompt": "divisible by $2$ or $3$ or $5$",
+   "answer": "11/15"
+  },
+  {
+   "id": "q13i",
+   "label": "13i",
+   "section": "Reasoning",
+   "stem": "A number is chosen at random from the set $\\{1, 2, 3, \\ldots, 30\\}$. Find the probability that the number is:",
+   "type": "numeric",
+   "prompt": "divisible by $11$ and $3$",
+   "answer": "0"
+  },
+  {
+   "id": "q14a",
+   "label": "14a",
+   "section": "Enrichment",
+   "stem": "Zara's music player is faulty: when she presses shuffle on an album, it starts playing at a random moment somewhere on the album, not necessarily at the start of a track. The table shows the length of each track.",
+   "type": "numeric",
+   "prompt": "Find the total number of minutes of music on the album.",
+   "answer": "32",
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "Track",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+     ],
+     [
+      "Time (minutes)",
+      "4",
+      "3",
+      "5",
+      "3",
+      "4",
+      "6",
+      "3",
+      "4"
+     ]
+    ]
+   },
+   "units": "minutes"
+  },
+  {
+   "id": "q14b",
+   "label": "14b",
+   "section": "Enrichment",
+   "stem": "Zara's music player is faulty: when she presses shuffle on an album, it starts playing at a random moment somewhere on the album, not necessarily at the start of a track. The table shows the length of each track.",
+   "type": "numeric",
+   "prompt": "Find the probability that it starts playing on track $1$.",
+   "answer": "1/8"
+  },
+  {
+   "id": "q14c",
+   "label": "14c",
+   "section": "Enrichment",
+   "stem": "Zara's music player is faulty: when she presses shuffle on an album, it starts playing at a random moment somewhere on the album, not necessarily at the start of a track. The table shows the length of each track.",
+   "type": "numeric",
+   "prompt": "Find the probability that it starts playing on track $2$.",
+   "answer": "3/32"
+  },
+  {
+   "id": "q14d",
+   "label": "14d",
+   "section": "Enrichment",
+   "stem": "Zara's music player is faulty: when she presses shuffle on an album, it starts playing at a random moment somewhere on the album, not necessarily at the start of a track. The table shows the length of each track.",
+   "type": "numeric",
+   "prompt": "Find the probability that it starts playing on track $3$.",
+   "answer": "5/32"
+  },
+  {
+   "id": "q14e",
+   "label": "14e",
+   "section": "Enrichment",
+   "stem": "Zara's music player is faulty: when she presses shuffle on an album, it starts playing at a random moment somewhere on the album, not necessarily at the start of a track. The table shows the length of each track.",
+   "type": "numeric",
+   "prompt": "Find the probability that it starts playing on a track that is $3$ minutes long.",
+   "answer": "9/32"
+  },
+  {
+   "id": "q14f",
+   "label": "14f",
+   "section": "Enrichment",
+   "stem": "Zara's music player is faulty: when she presses shuffle on an album, it starts playing at a random moment somewhere on the album, not necessarily at the start of a track. The table shows the length of each track.",
+   "type": "numeric",
+   "prompt": "Find the probability that it starts playing on track $6$.",
+   "answer": "3/16"
+  },
+  {
+   "id": "q14g",
+   "label": "14g",
+   "section": "Enrichment",
+   "stem": "Zara's music player is faulty: when she presses shuffle on an album, it starts playing at a random moment somewhere on the album, not necessarily at the start of a track. The table shows the length of each track.",
+   "type": "numeric",
+   "prompt": "Find the probability that it starts playing on track $7$ or track $8$.",
+   "answer": "7/32"
+  },
+  {
+   "id": "q14h",
+   "label": "14h",
+   "section": "Enrichment",
+   "stem": "Zara's music player is faulty: when she presses shuffle on an album, it starts playing at a random moment somewhere on the album, not necessarily at the start of a track. The table shows the length of each track.",
+   "type": "numeric",
+   "prompt": "Find the probability that it starts playing on a track that is not $3$ minutes long.",
+   "answer": "23/32"
+  }
+ ]
+},
+{
+ "id": "y9-9b",
+ "year": 9,
+ "chapter": "Chapter 9: Probability and statistics",
+ "title": "9B Venn diagrams and two-way tables",
+ "description": "Use Venn diagrams and two-way tables to organise counts and find probabilities.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "In a class of $32$ students, $21$ carried a water bottle, $11$ carried a hat, $4$ carried both a water bottle and a hat, and $4$ carried neither.",
+   "type": "ordered",
+   "prompt": "The Venn diagram has a circle for Bottle and a circle for Hat. Type the numbers that go in regions P, Q, R and S, in that order.",
+   "answer": [
+    "17",
+    "4",
+    "7",
+    "4"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 32,
+    "items": [
+     {
+      "poly": [
+       [
+        -5,
+        -3
+       ],
+       [
+        5,
+        -3
+       ],
+       [
+        5,
+        3.2
+       ],
+       [
+        -5,
+        3.2
+       ]
+      ]
+     },
+     {
+      "circle": [
+       -1.2,
+       -0.2,
+       2.2
+      ]
+     },
+     {
+      "circle": [
+       1.2,
+       -0.2,
+       2.2
+      ]
+     },
+     {
+      "label": "Bottle",
+      "at": [
+       -2.2,
+       2.55
+      ]
+     },
+     {
+      "label": "Hat",
+      "at": [
+       2.2,
+       2.55
+      ]
+     },
+     {
+      "label": "P",
+      "at": [
+       -2.2,
+       -0.2
+      ]
+     },
+     {
+      "label": "Q",
+      "at": [
+       0,
+       -0.2
+      ]
+     },
+     {
+      "label": "R",
+      "at": [
+       2.2,
+       -0.2
+      ]
+     },
+     {
+      "label": "S",
+      "at": [
+       4.1,
+       -2.5
+      ]
+     }
+    ]
+   },
+   "hint": "Type four numbers separated by commas"
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "In a class of $32$ students, $21$ carried a water bottle, $11$ carried a hat, $4$ carried both a water bottle and a hat, and $4$ carried neither.",
+   "type": "numeric",
+   "prompt": "How many students carried a water bottle or a hat or both?",
+   "answer": "28"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "In a class of $32$ students, $21$ carried a water bottle, $11$ carried a hat, $4$ carried both a water bottle and a hat, and $4$ carried neither.",
+   "type": "numeric",
+   "prompt": "How many students did not carry a hat?",
+   "answer": "21"
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "In a class of $32$ students, $21$ carried a water bottle, $11$ carried a hat, $4$ carried both a water bottle and a hat, and $4$ carried neither.",
+   "type": "numeric",
+   "prompt": "How many students carried only a hat?",
+   "answer": "7"
+  },
+  {
+   "id": "q1e",
+   "label": "1e",
+   "section": "Fluency",
+   "stem": "In a class of $32$ students, $21$ carried a water bottle, $11$ carried a hat, $4$ carried both a water bottle and a hat, and $4$ carried neither.",
+   "type": "numeric",
+   "prompt": "One student is chosen at random. Find Pr(carries a water bottle and a hat).",
+   "answer": "1/8",
+   "hint": "Type a fraction, for example 3/8"
+  },
+  {
+   "id": "q1f",
+   "label": "1f",
+   "section": "Fluency",
+   "stem": "In a class of $32$ students, $21$ carried a water bottle, $11$ carried a hat, $4$ carried both a water bottle and a hat, and $4$ carried neither.",
+   "type": "numeric",
+   "prompt": "One student is chosen at random. Find Pr(carries neither a water bottle nor a hat).",
+   "answer": "1/8"
+  },
+  {
+   "id": "q1g",
+   "label": "1g",
+   "section": "Fluency",
+   "stem": "In a class of $32$ students, $21$ carried a water bottle, $11$ carried a hat, $4$ carried both a water bottle and a hat, and $4$ carried neither.",
+   "type": "numeric",
+   "prompt": "One student is chosen at random. Find Pr(carries only a water bottle).",
+   "answer": "17/32"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "In a survey of $25$ people, $14$ like swimming and $12$ like cycling. Also $5$ people like both swimming and cycling, and $4$ like neither.",
+   "type": "ordered",
+   "prompt": "The Venn diagram has a circle for Swimming and a circle for Cycling. Type the numbers that go in regions P, Q, R and S, in that order.",
+   "answer": [
+    "9",
+    "5",
+    "7",
+    "4"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 32,
+    "items": [
+     {
+      "poly": [
+       [
+        -5,
+        -3
+       ],
+       [
+        5,
+        -3
+       ],
+       [
+        5,
+        3.2
+       ],
+       [
+        -5,
+        3.2
+       ]
+      ]
+     },
+     {
+      "circle": [
+       -1.2,
+       -0.2,
+       2.2
+      ]
+     },
+     {
+      "circle": [
+       1.2,
+       -0.2,
+       2.2
+      ]
+     },
+     {
+      "label": "Swimming",
+      "at": [
+       -2.2,
+       2.55
+      ]
+     },
+     {
+      "label": "Cycling",
+      "at": [
+       2.2,
+       2.55
+      ]
+     },
+     {
+      "label": "P",
+      "at": [
+       -2.2,
+       -0.2
+      ]
+     },
+     {
+      "label": "Q",
+      "at": [
+       0,
+       -0.2
+      ]
+     },
+     {
+      "label": "R",
+      "at": [
+       2.2,
+       -0.2
+      ]
+     },
+     {
+      "label": "S",
+      "at": [
+       4.1,
+       -2.5
+      ]
+     }
+    ]
+   },
+   "hint": "Type four numbers separated by commas"
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "In a survey of $25$ people, $14$ like swimming and $12$ like cycling. Also $5$ people like both swimming and cycling, and $4$ like neither.",
+   "type": "numeric",
+   "prompt": "How many people like swimming or cycling?",
+   "answer": "21"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "In a survey of $25$ people, $14$ like swimming and $12$ like cycling. Also $5$ people like both swimming and cycling, and $4$ like neither.",
+   "type": "numeric",
+   "prompt": "How many people do not like swimming?",
+   "answer": "11"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "In a survey of $25$ people, $14$ like swimming and $12$ like cycling. Also $5$ people like both swimming and cycling, and $4$ like neither.",
+   "type": "numeric",
+   "prompt": "How many people like only swimming?",
+   "answer": "9"
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "In a survey of $25$ people, $14$ like swimming and $12$ like cycling. Also $5$ people like both swimming and cycling, and $4$ like neither.",
+   "type": "numeric",
+   "prompt": "One person is chosen at random. Find Pr(likes swimming and cycling).",
+   "answer": "1/5"
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "In a survey of $25$ people, $14$ like swimming and $12$ like cycling. Also $5$ people like both swimming and cycling, and $4$ like neither.",
+   "type": "numeric",
+   "prompt": "One person is chosen at random. Find Pr(likes only cycling).",
+   "answer": "7/25"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "For Venn diagram a, find each probability. Work out the total number in the sample space first.",
+   "type": "numeric",
+   "prompt": "Pr(A)",
+   "answer": "2/5",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 32,
+    "items": [
+     {
+      "poly": [
+       [
+        -5,
+        -3
+       ],
+       [
+        5,
+        -3
+       ],
+       [
+        5,
+        3.2
+       ],
+       [
+        -5,
+        3.2
+       ]
+      ]
+     },
+     {
+      "circle": [
+       -1.2,
+       -0.2,
+       2.2
+      ]
+     },
+     {
+      "circle": [
+       1.2,
+       -0.2,
+       2.2
+      ]
+     },
+     {
+      "label": "A",
+      "at": [
+       -2.2,
+       2.55
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       2.2,
+       2.55
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       -2.2,
+       -0.2
+      ]
+     },
+     {
+      "label": "2",
+      "at": [
+       0,
+       -0.2
+      ]
+     },
+     {
+      "label": "6",
+      "at": [
+       2.2,
+       -0.2
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       4.1,
+       -2.5
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "For Venn diagram a, find each probability. Work out the total number in the sample space first.",
+   "type": "numeric",
+   "prompt": "Pr(A only)",
+   "answer": "4/15"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "For Venn diagram a, find each probability. Work out the total number in the sample space first.",
+   "type": "numeric",
+   "prompt": "Pr(not B)",
+   "answer": "7/15"
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "For Venn diagram a, find each probability. Work out the total number in the sample space first.",
+   "type": "numeric",
+   "prompt": "Pr(A and B)",
+   "answer": "2/15"
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "For Venn diagram a, find each probability. Work out the total number in the sample space first.",
+   "type": "numeric",
+   "prompt": "Pr(A or B)",
+   "answer": "4/5"
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "For Venn diagram a, find each probability. Work out the total number in the sample space first.",
+   "type": "numeric",
+   "prompt": "Pr(neither A nor B)",
+   "answer": "1/5"
+  },
+  {
+   "id": "q3g",
+   "label": "3g",
+   "section": "Fluency",
+   "stem": "For Venn diagram b, find each probability. Work out the total number in the sample space first.",
+   "type": "numeric",
+   "prompt": "Pr(A)",
+   "answer": "14/31",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 32,
+    "items": [
+     {
+      "poly": [
+       [
+        -5,
+        -3
+       ],
+       [
+        5,
+        -3
+       ],
+       [
+        5,
+        3.2
+       ],
+       [
+        -5,
+        3.2
+       ]
+      ]
+     },
+     {
+      "circle": [
+       -1.2,
+       -0.2,
+       2.2
+      ]
+     },
+     {
+      "circle": [
+       1.2,
+       -0.2,
+       2.2
+      ]
+     },
+     {
+      "label": "A",
+      "at": [
+       -2.2,
+       2.55
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       2.2,
+       2.55
+      ]
+     },
+     {
+      "label": "10",
+      "at": [
+       -2.2,
+       -0.2
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       0,
+       -0.2
+      ]
+     },
+     {
+      "label": "15",
+      "at": [
+       2.2,
+       -0.2
+      ]
+     },
+     {
+      "label": "2",
+      "at": [
+       4.1,
+       -2.5
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3h",
+   "label": "3h",
+   "section": "Fluency",
+   "stem": "For Venn diagram b, find each probability. Work out the total number in the sample space first.",
+   "type": "numeric",
+   "prompt": "Pr(A only)",
+   "answer": "10/31"
+  },
+  {
+   "id": "q3i",
+   "label": "3i",
+   "section": "Fluency",
+   "stem": "For Venn diagram b, find each probability. Work out the total number in the sample space first.",
+   "type": "numeric",
+   "prompt": "Pr(not B)",
+   "answer": "12/31"
+  },
+  {
+   "id": "q3j",
+   "label": "3j",
+   "section": "Fluency",
+   "stem": "For Venn diagram b, find each probability. Work out the total number in the sample space first.",
+   "type": "numeric",
+   "prompt": "Pr(A and B)",
+   "answer": "4/31"
+  },
+  {
+   "id": "q3k",
+   "label": "3k",
+   "section": "Fluency",
+   "stem": "For Venn diagram b, find each probability. Work out the total number in the sample space first.",
+   "type": "numeric",
+   "prompt": "Pr(A or B)",
+   "answer": "29/31"
+  },
+  {
+   "id": "q3l",
+   "label": "3l",
+   "section": "Fluency",
+   "stem": "For Venn diagram b, find each probability. Work out the total number in the sample space first.",
+   "type": "numeric",
+   "prompt": "Pr(neither A nor B)",
+   "answer": "2/31"
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "Of the $60$ pizzas sold at a cafe one night, $28$ had olives, $24$ had mushrooms and $7$ had both olives and mushrooms.",
+   "type": "ordered",
+   "prompt": "Complete the two-way table. Type the three numbers in the 'No olives' row, left to right.",
+   "answer": [
+    "17",
+    "15",
+    "32"
+   ],
+   "figure": {
+    "kind": "table",
+    "rows": [
+     [
+      "",
+      "Mushrooms",
+      "No mushrooms",
+      "Total"
+     ],
+     [
+      "Olives",
+      "?",
+      "?",
+      "?"
+     ],
+     [
+      "No olives",
+      "?",
+      "?",
+      "?"
+     ],
+     [
+      "Total",
+      "?",
+      "?",
+      "?"
+     ]
+    ]
+   },
+   "hint": "Type three numbers separated by commas"
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "Of the $60$ pizzas sold at a cafe one night, $28$ had olives, $24$ had mushrooms and $7$ had both olives and mushrooms.",
+   "type": "numeric",
+   "prompt": "How many of the pizzas did not have mushrooms?",
+   "answer": "36"
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "Of the $60$ pizzas sold at a cafe one night, $28$ had olives, $24$ had mushrooms and $7$ had both olives and mushrooms.",
+   "type": "numeric",
+   "prompt": "How many of the pizzas had neither olives nor mushrooms?",
+   "answer": "15"
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "Of the $60$ pizzas sold at a cafe one night, $28$ had olives, $24$ had mushrooms and $7$ had both olives and mushrooms.",
+   "type": "numeric",
+   "prompt": "Find the probability that a pizza chosen at random had mushrooms.",
+   "answer": "2/5"
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Fluency",
+   "stem": "Of the $60$ pizzas sold at a cafe one night, $28$ had olives, $24$ had mushrooms and $7$ had both olives and mushrooms.",
+   "type": "numeric",
+   "prompt": "Find the probability that a pizza chosen at random had only mushrooms.",
+   "answer": "17/60"
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Fluency",
+   "stem": "Of the $60$ pizzas sold at a cafe one night, $28$ had olives, $24$ had mushrooms and $7$ had both olives and mushrooms.",
+   "type": "numeric",
+   "prompt": "Find the probability that a pizza chosen at random had mushrooms or olives.",
+   "answer": "3/4"
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Fluency",
+   "stem": "For table a, fill in the missing numbers, then find each probability.",
+   "type": "numeric",
+   "prompt": "Pr(A)",
+   "answer": "1/2",
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "",
+      "A",
+      "Not A",
+      "Total"
+     ],
+     [
+      "B",
+      "4",
+      "2",
+      ""
+     ],
+     [
+      "Not B",
+      "3",
+      "",
+      "8"
+     ],
+     [
+      "Total",
+      "",
+      "",
+      ""
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Fluency",
+   "stem": "For table a, fill in the missing numbers, then find each probability.",
+   "type": "numeric",
+   "prompt": "Pr(not A)",
+   "answer": "1/2"
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Fluency",
+   "stem": "For table a, fill in the missing numbers, then find each probability.",
+   "type": "numeric",
+   "prompt": "Pr(A and B)",
+   "answer": "2/7"
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Fluency",
+   "stem": "For table a, fill in the missing numbers, then find each probability.",
+   "type": "numeric",
+   "prompt": "Pr(A or B)",
+   "answer": "9/14"
+  },
+  {
+   "id": "q5e",
+   "label": "5e",
+   "section": "Fluency",
+   "stem": "For table a, fill in the missing numbers, then find each probability.",
+   "type": "numeric",
+   "prompt": "Pr(B only)",
+   "answer": "1/7"
+  },
+  {
+   "id": "q5f",
+   "label": "5f",
+   "section": "Fluency",
+   "stem": "For table a, fill in the missing numbers, then find each probability.",
+   "type": "numeric",
+   "prompt": "Pr(neither A nor B)",
+   "answer": "5/14"
+  },
+  {
+   "id": "q5g",
+   "label": "5g",
+   "section": "Fluency",
+   "stem": "For table b, fill in the missing numbers, then find each probability.",
+   "type": "numeric",
+   "prompt": "Pr(A)",
+   "answer": "1/2",
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "",
+      "A",
+      "Not A",
+      "Total"
+     ],
+     [
+      "B",
+      "",
+      "5",
+      "12"
+     ],
+     [
+      "Not B",
+      "8",
+      "",
+      ""
+     ],
+     [
+      "Total",
+      "",
+      "",
+      "30"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q5h",
+   "label": "5h",
+   "section": "Fluency",
+   "stem": "For table b, fill in the missing numbers, then find each probability.",
+   "type": "numeric",
+   "prompt": "Pr(not A)",
+   "answer": "1/2"
+  },
+  {
+   "id": "q5i",
+   "label": "5i",
+   "section": "Fluency",
+   "stem": "For table b, fill in the missing numbers, then find each probability.",
+   "type": "numeric",
+   "prompt": "Pr(A and B)",
+   "answer": "7/30"
+  },
+  {
+   "id": "q5j",
+   "label": "5j",
+   "section": "Fluency",
+   "stem": "For table b, fill in the missing numbers, then find each probability.",
+   "type": "numeric",
+   "prompt": "Pr(A or B)",
+   "answer": "2/3"
+  },
+  {
+   "id": "q5k",
+   "label": "5k",
+   "section": "Fluency",
+   "stem": "For table b, fill in the missing numbers, then find each probability.",
+   "type": "numeric",
+   "prompt": "Pr(B only)",
+   "answer": "1/6"
+  },
+  {
+   "id": "q5l",
+   "label": "5l",
+   "section": "Fluency",
+   "stem": "For table b, fill in the missing numbers, then find each probability.",
+   "type": "numeric",
+   "prompt": "Pr(neither A nor B)",
+   "answer": "1/3"
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Problem-solving",
+   "stem": "Fill in the missing numbers in table a, then transfer the information to the Venn diagram.",
+   "type": "ordered",
+   "prompt": "Type the numbers that go in regions P, Q, R and S of the Venn diagram, in that order.",
+   "answer": [
+    "4",
+    "3",
+    "6",
+    "2"
+   ],
+   "figure": [
+    {
+     "kind": "table",
+     "rows": [
+      [
+       "",
+       "A",
+       "Not A",
+       "Total"
+      ],
+      [
+       "B",
+       "3",
+       "",
+       "9"
+      ],
+      [
+       "Not B",
+       "",
+       "",
+       ""
+      ],
+      [
+       "Total",
+       "",
+       "8",
+       "15"
+      ]
+     ]
+    },
+    {
+     "kind": "diagram",
+     "unit": 32,
+     "items": [
+      {
+       "poly": [
+        [
+         -5,
+         -3
+        ],
+        [
+         5,
+         -3
+        ],
+        [
+         5,
+         3.2
+        ],
+        [
+         -5,
+         3.2
+        ]
+       ]
+      },
+      {
+       "circle": [
+        -1.2,
+        -0.2,
+        2.2
+       ]
+      },
+      {
+       "circle": [
+        1.2,
+        -0.2,
+        2.2
+       ]
+      },
+      {
+       "label": "A",
+       "at": [
+        -2.2,
+        2.55
+       ]
+      },
+      {
+       "label": "B",
+       "at": [
+        2.2,
+        2.55
+       ]
+      },
+      {
+       "label": "P",
+       "at": [
+        -2.2,
+        -0.2
+       ]
+      },
+      {
+       "label": "Q",
+       "at": [
+        0,
+        -0.2
+       ]
+      },
+      {
+       "label": "R",
+       "at": [
+        2.2,
+        -0.2
+       ]
+      },
+      {
+       "label": "S",
+       "at": [
+        4.1,
+        -2.5
+       ]
+      }
+     ]
+    }
+   ],
+   "hint": "Type four numbers separated by commas"
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Problem-solving",
+   "stem": "Fill in the missing numbers in table b, then transfer the information to the Venn diagram.",
+   "type": "ordered",
+   "prompt": "Type the numbers that go in regions P, Q, R and S of the Venn diagram, in that order.",
+   "answer": [
+    "7",
+    "3",
+    "5",
+    "5"
+   ],
+   "figure": [
+    {
+     "kind": "table",
+     "rows": [
+      [
+       "",
+       "A",
+       "Not A",
+       "Total"
+      ],
+      [
+       "B",
+       "",
+       "5",
+       ""
+      ],
+      [
+       "Not B",
+       "7",
+       "",
+       "12"
+      ],
+      [
+       "Total",
+       "10",
+       "",
+       ""
+      ]
+     ]
+    },
+    {
+     "kind": "diagram",
+     "unit": 32,
+     "items": [
+      {
+       "poly": [
+        [
+         -5,
+         -3
+        ],
+        [
+         5,
+         -3
+        ],
+        [
+         5,
+         3.2
+        ],
+        [
+         -5,
+         3.2
+        ]
+       ]
+      },
+      {
+       "circle": [
+        -1.2,
+        -0.2,
+        2.2
+       ]
+      },
+      {
+       "circle": [
+        1.2,
+        -0.2,
+        2.2
+       ]
+      },
+      {
+       "label": "A",
+       "at": [
+        -2.2,
+        2.55
+       ]
+      },
+      {
+       "label": "B",
+       "at": [
+        2.2,
+        2.55
+       ]
+      },
+      {
+       "label": "P",
+       "at": [
+        -2.2,
+        -0.2
+       ]
+      },
+      {
+       "label": "Q",
+       "at": [
+        0,
+        -0.2
+       ]
+      },
+      {
+       "label": "R",
+       "at": [
+        2.2,
+        -0.2
+       ]
+      },
+      {
+       "label": "S",
+       "at": [
+        4.1,
+        -2.5
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Problem-solving",
+   "stem": "Of a group of $12$ friends, $7$ own a bike, $5$ own a scooter and $3$ own neither a bike nor a scooter.",
+   "type": "ordered",
+   "prompt": "The Venn diagram has a circle for Bike and a circle for Scooter. Type the numbers that go in regions P, Q, R and S, in that order.",
+   "answer": [
+    "4",
+    "3",
+    "2",
+    "3"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 32,
+    "items": [
+     {
+      "poly": [
+       [
+        -5,
+        -3
+       ],
+       [
+        5,
+        -3
+       ],
+       [
+        5,
+        3.2
+       ],
+       [
+        -5,
+        3.2
+       ]
+      ]
+     },
+     {
+      "circle": [
+       -1.2,
+       -0.2,
+       2.2
+      ]
+     },
+     {
+      "circle": [
+       1.2,
+       -0.2,
+       2.2
+      ]
+     },
+     {
+      "label": "Bike",
+      "at": [
+       -2.2,
+       2.55
+      ]
+     },
+     {
+      "label": "Scooter",
+      "at": [
+       2.2,
+       2.55
+      ]
+     },
+     {
+      "label": "P",
+      "at": [
+       -2.2,
+       -0.2
+      ]
+     },
+     {
+      "label": "Q",
+      "at": [
+       0,
+       -0.2
+      ]
+     },
+     {
+      "label": "R",
+      "at": [
+       2.2,
+       -0.2
+      ]
+     },
+     {
+      "label": "S",
+      "at": [
+       4.1,
+       -2.5
+      ]
+     }
+    ]
+   },
+   "hint": "Type four numbers separated by commas"
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Problem-solving",
+   "stem": "Of a group of $12$ friends, $7$ own a bike, $5$ own a scooter and $3$ own neither a bike nor a scooter.",
+   "type": "numeric",
+   "prompt": "How many of the friends own both a bike and a scooter?",
+   "answer": "3"
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Problem-solving",
+   "stem": "Of a group of $12$ friends, $7$ own a bike, $5$ own a scooter and $3$ own neither a bike nor a scooter.",
+   "type": "numeric",
+   "prompt": "Find the probability that a friend chosen at random owns only a scooter.",
+   "answer": "1/6"
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Problem-solving",
+   "stem": "One hundred and twenty households were asked how they heat water. Of these, $30$ said they use solar power, $70$ said they use mains gas, and $35$ said they use neither (they use something else).",
+   "type": "ordered",
+   "prompt": "Complete the two-way table. Type the three numbers in the 'Solar' row, left to right.",
+   "answer": [
+    "15",
+    "15",
+    "30"
+   ],
+   "figure": {
+    "kind": "table",
+    "rows": [
+     [
+      "",
+      "Gas",
+      "No gas",
+      "Total"
+     ],
+     [
+      "Solar",
+      "?",
+      "?",
+      "?"
+     ],
+     [
+      "No solar",
+      "?",
+      "?",
+      "?"
+     ],
+     [
+      "Total",
+      "?",
+      "?",
+      "?"
+     ]
+    ]
+   },
+   "hint": "Type three numbers separated by commas"
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Problem-solving",
+   "stem": "One hundred and twenty households were asked how they heat water. Of these, $30$ said they use solar power, $70$ said they use mains gas, and $35$ said they use neither (they use something else).",
+   "type": "numeric",
+   "prompt": "How many households use both solar power and gas?",
+   "answer": "15"
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Problem-solving",
+   "stem": "One hundred and twenty households were asked how they heat water. Of these, $30$ said they use solar power, $70$ said they use mains gas, and $35$ said they use neither (they use something else).",
+   "type": "numeric",
+   "prompt": "What is the probability that a household chosen at random uses only gas?",
+   "answer": "11/24"
+  },
+  {
+   "id": "q8d",
+   "label": "8d",
+   "section": "Problem-solving",
+   "stem": "One hundred and twenty households were asked how they heat water. Of these, $30$ said they use solar power, $70$ said they use mains gas, and $35$ said they use neither (they use something else).",
+   "type": "numeric",
+   "prompt": "What is the probability that a household chosen at random uses gas or solar power?",
+   "answer": "17/24"
+  },
+  {
+   "id": "q9",
+   "label": "9",
+   "section": "Problem-solving",
+   "type": "numeric",
+   "prompt": "Every member of a sports club plays basketball or netball or both. Of the members, $9$ play only netball, $20$ play basketball and $6$ play both basketball and netball. How many people are in the club?",
+   "answer": "29"
+  },
+  {
+   "id": "q10",
+   "label": "10",
+   "section": "Problem-solving",
+   "type": "numeric",
+   "prompt": "Of $40$ dogs at a kennel, $31$ eat biscuits or meat (or both), $14$ eat meat and $6$ eat both biscuits and meat. Find the probability that a dog chosen at random eats only biscuits.",
+   "answer": "17/40"
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Reasoning",
+   "stem": "Complete the two-way table using the pronumerals $p$, $q$, $r$ and $s$, then transfer it to a Venn diagram.",
+   "type": "expression",
+   "prompt": "What goes in the Total column of the B row?",
+   "answer": "p+q",
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "",
+      "A",
+      "Not A",
+      "Total"
+     ],
+     [
+      "B",
+      "p",
+      "q",
+      ""
+     ],
+     [
+      "Not B",
+      "r",
+      "s",
+      ""
+     ],
+     [
+      "Total",
+      "",
+      "",
+      ""
+     ]
+    ]
+   },
+   "hint": "Type an expression, for example p+r"
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Reasoning",
+   "stem": "Complete the two-way table using the pronumerals $p$, $q$, $r$ and $s$, then transfer it to a Venn diagram.",
+   "type": "expression",
+   "prompt": "What goes in the Total row of the A column?",
+   "answer": "p+r"
+  },
+  {
+   "id": "q11c",
+   "label": "11c",
+   "section": "Reasoning",
+   "stem": "Complete the two-way table using the pronumerals $p$, $q$, $r$ and $s$, then transfer it to a Venn diagram.",
+   "type": "expression",
+   "prompt": "What goes in the bottom right corner (the overall total)?",
+   "answer": "p+q+r+s"
+  },
+  {
+   "id": "q11d",
+   "label": "11d",
+   "section": "Reasoning",
+   "stem": "Complete the two-way table using the pronumerals $p$, $q$, $r$ and $s$, then transfer it to a Venn diagram.",
+   "type": "text",
+   "prompt": "In the Venn diagram, which pronumeral goes in the overlap of circles A and B?",
+   "answer": "p"
+  },
+  {
+   "id": "q11e",
+   "label": "11e",
+   "section": "Reasoning",
+   "stem": "Complete the two-way table using the pronumerals $p$, $q$, $r$ and $s$, then transfer it to a Venn diagram.",
+   "type": "text",
+   "prompt": "In the Venn diagram, which pronumeral goes outside both circles?",
+   "answer": "s"
+  },
+  {
+   "id": "q12a",
+   "label": "12a",
+   "section": "Reasoning",
+   "stem": "The total number of people in a survey is $T$. The number who play a sport is $x$ and the number who play a musical instrument is $y$. The number who play both a sport and an instrument is $z$. Write an expression, using any of $x$, $y$, $z$ and $T$, for the number who:",
+   "type": "expression",
+   "prompt": "play neither a sport nor an instrument",
+   "answer": "T-x-y+z",
+   "hint": "Use capital T for the total, for example T-y"
+  },
+  {
+   "id": "q12b",
+   "label": "12b",
+   "section": "Reasoning",
+   "stem": "The total number of people in a survey is $T$. The number who play a sport is $x$ and the number who play a musical instrument is $y$. The number who play both a sport and an instrument is $z$. Write an expression, using any of $x$, $y$, $z$ and $T$, for the number who:",
+   "type": "expression",
+   "prompt": "do not play a sport",
+   "answer": "T-x"
+  },
+  {
+   "id": "q12c",
+   "label": "12c",
+   "section": "Reasoning",
+   "stem": "The total number of people in a survey is $T$. The number who play a sport is $x$ and the number who play a musical instrument is $y$. The number who play both a sport and an instrument is $z$. Write an expression, using any of $x$, $y$, $z$ and $T$, for the number who:",
+   "type": "expression",
+   "prompt": "do not play an instrument",
+   "answer": "T-y"
+  },
+  {
+   "id": "q12d",
+   "label": "12d",
+   "section": "Reasoning",
+   "stem": "The total number of people in a survey is $T$. The number who play a sport is $x$ and the number who play a musical instrument is $y$. The number who play both a sport and an instrument is $z$. Write an expression, using any of $x$, $y$, $z$ and $T$, for the number who:",
+   "type": "expression",
+   "prompt": "play a sport but not an instrument",
+   "answer": "x-z"
+  },
+  {
+   "id": "q12e",
+   "label": "12e",
+   "section": "Reasoning",
+   "stem": "The total number of people in a survey is $T$. The number who play a sport is $x$ and the number who play a musical instrument is $y$. The number who play both a sport and an instrument is $z$. Write an expression, using any of $x$, $y$, $z$ and $T$, for the number who:",
+   "type": "expression",
+   "prompt": "play an instrument but not a sport",
+   "answer": "y-z"
+  },
+  {
+   "id": "q12f",
+   "label": "12f",
+   "section": "Reasoning",
+   "stem": "The total number of people in a survey is $T$. The number who play a sport is $x$ and the number who play a musical instrument is $y$. The number who play both a sport and an instrument is $z$. Write an expression, using any of $x$, $y$, $z$ and $T$, for the number who:",
+   "type": "expression",
+   "prompt": "play a sport or an instrument or both",
+   "answer": "x+y-z"
+  },
+  {
+   "id": "q13a",
+   "label": "13a",
+   "section": "Reasoning",
+   "stem": "Here is a two-way table with some numbers filled in. Try to complete it.",
+   "type": "numeric",
+   "prompt": "Use the Not A column to work out the number that would go in the 'Not A, Not B' cell.",
+   "answer": "-2",
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "",
+      "A",
+      "Not A",
+      "Total"
+     ],
+     [
+      "B",
+      "",
+      "10",
+      ""
+     ],
+     [
+      "Not B",
+      "",
+      "",
+      "6"
+     ],
+     [
+      "Total",
+      "9",
+      "",
+      "17"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q13b",
+   "label": "13b",
+   "section": "Reasoning",
+   "stem": "Here is a two-way table with some numbers filled in. Try to complete it.",
+   "type": "choice",
+   "prompt": "What is wrong with this table?",
+   "answer": 1,
+   "options": [
+    "Nothing, it can be completed",
+    "One cell would need a negative number of people",
+    "The totals do not need to add up"
+   ]
+  },
+  {
+   "id": "q14",
+   "label": "14",
+   "section": "Reasoning",
+   "type": "numeric",
+   "prompt": "What is the smallest number of values that must be given in a two-way table (with two rows and two columns plus totals) so that every other number in it can be worked out?",
+   "answer": "3"
+  },
+  {
+   "id": "q15a",
+   "label": "15a",
+   "section": "Enrichment",
+   "stem": "Two overlapping events, A and B, include $20$ elements altogether, with $0$ elements in the 'neither A nor B' region. How many elements are in the overlap (A and B) when:",
+   "type": "numeric",
+   "prompt": "the number in A is $13$ and the number in B is $9$?",
+   "answer": "2",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 32,
+    "items": [
+     {
+      "poly": [
+       [
+        -5,
+        -3
+       ],
+       [
+        5,
+        -3
+       ],
+       [
+        5,
+        3.2
+       ],
+       [
+        -5,
+        3.2
+       ]
+      ]
+     },
+     {
+      "circle": [
+       -1.2,
+       -0.2,
+       2.2
+      ]
+     },
+     {
+      "circle": [
+       1.2,
+       -0.2,
+       2.2
+      ]
+     },
+     {
+      "label": "A",
+      "at": [
+       -2.2,
+       2.55
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       2.2,
+       2.55
+      ]
+     },
+     {
+      "label": "?",
+      "at": [
+       0,
+       -0.2
+      ]
+     },
+     {
+      "label": "0",
+      "at": [
+       4.1,
+       -2.5
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q15b",
+   "label": "15b",
+   "section": "Enrichment",
+   "stem": "Two overlapping events, A and B, include $20$ elements altogether, with $0$ elements in the 'neither A nor B' region. How many elements are in the overlap (A and B) when:",
+   "type": "numeric",
+   "prompt": "the number in A is $16$ and the number in B is $12$?",
+   "answer": "8"
+  },
+  {
+   "id": "q15c",
+   "label": "15c",
+   "section": "Enrichment",
+   "stem": "Two overlapping events, A and B, include $20$ elements altogether, with $0$ elements in the 'neither A nor B' region. How many elements are in the overlap (A and B) when:",
+   "type": "numeric",
+   "prompt": "the number in A is $17$ and the number in B is $7$?",
+   "answer": "4"
+  },
+  {
+   "id": "q15d",
+   "label": "15d",
+   "section": "Enrichment",
+   "stem": "Two overlapping events, A and B, include $100$ elements altogether, with $0$ elements in the 'neither A nor B' region. How many elements are in the overlap (A and B) when:",
+   "type": "numeric",
+   "prompt": "the number in A is $55$ and the number in B is $65$?",
+   "answer": "20",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 32,
+    "items": [
+     {
+      "poly": [
+       [
+        -5,
+        -3
+       ],
+       [
+        5,
+        -3
+       ],
+       [
+        5,
+        3.2
+       ],
+       [
+        -5,
+        3.2
+       ]
+      ]
+     },
+     {
+      "circle": [
+       -1.2,
+       -0.2,
+       2.2
+      ]
+     },
+     {
+      "circle": [
+       1.2,
+       -0.2,
+       2.2
+      ]
+     },
+     {
+      "label": "A",
+      "at": [
+       -2.2,
+       2.55
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       2.2,
+       2.55
+      ]
+     },
+     {
+      "label": "?",
+      "at": [
+       0,
+       -0.2
+      ]
+     },
+     {
+      "label": "0",
+      "at": [
+       4.1,
+       -2.5
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q15e",
+   "label": "15e",
+   "section": "Enrichment",
+   "stem": "Two overlapping events, A and B, include $100$ elements altogether, with $0$ elements in the 'neither A nor B' region. How many elements are in the overlap (A and B) when:",
+   "type": "numeric",
+   "prompt": "the number in A is $42$ and the number in B is $73$?",
+   "answer": "15"
+  },
+  {
+   "id": "q15f",
+   "label": "15f",
+   "section": "Enrichment",
+   "stem": "Two overlapping events, A and B, include $100$ elements altogether, with $0$ elements in the 'neither A nor B' region. How many elements are in the overlap (A and B) when:",
+   "type": "numeric",
+   "prompt": "the number in A is $88$ and the number in B is $91$?",
+   "answer": "79"
+  },
+  {
+   "id": "q15g",
+   "label": "15g",
+   "section": "Enrichment",
+   "type": "expression",
+   "prompt": "Write a rule for the number in the overlap, using $a$ for the number in A, $b$ for the number in B and $n$ for the total number of elements (with none in 'neither').",
+   "answer": "a+b-n",
+   "hint": "Type an expression, for example a-n"
+  }
+ ]
+},
+{
+ "id": "y9-9c",
+ "year": 9,
+ "chapter": "Chapter 9: Probability and statistics",
+ "title": "9C Using set notation",
+ "description": "Use set notation (intersection, union, complement) to list sets, count elements and find probabilities.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "A number is chosen from the positive integers from $1$ to $14$ inclusive. $A$ is the set of odd numbers from $1$ to $14$, and $B$ is the set of prime numbers from $1$ to $14$.",
+   "type": "list",
+   "prompt": "List the sample space $\\Omega$.",
+   "answer": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14"
+   ],
+   "hint": "Type the elements separated by commas, for example 2, 5, 9"
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "A number is chosen from the positive integers from $1$ to $14$ inclusive. $A$ is the set of odd numbers from $1$ to $14$, and $B$ is the set of prime numbers from $1$ to $14$.",
+   "type": "list",
+   "prompt": "List the set $A$.",
+   "answer": [
+    "1",
+    "3",
+    "5",
+    "7",
+    "9",
+    "11",
+    "13"
+   ]
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "A number is chosen from the positive integers from $1$ to $14$ inclusive. $A$ is the set of odd numbers from $1$ to $14$, and $B$ is the set of prime numbers from $1$ to $14$.",
+   "type": "list",
+   "prompt": "List the set $B$.",
+   "answer": [
+    "2",
+    "3",
+    "5",
+    "7",
+    "11",
+    "13"
+   ]
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "A number is chosen from the positive integers from $1$ to $14$ inclusive. $A$ is the set of odd numbers from $1$ to $14$, and $B$ is the set of prime numbers from $1$ to $14$.",
+   "type": "list",
+   "prompt": "List the set $A \\cap B$.",
+   "answer": [
+    "3",
+    "5",
+    "7",
+    "11",
+    "13"
+   ]
+  },
+  {
+   "id": "q1e",
+   "label": "1e",
+   "section": "Fluency",
+   "stem": "A number is chosen from the positive integers from $1$ to $14$ inclusive. $A$ is the set of odd numbers from $1$ to $14$, and $B$ is the set of prime numbers from $1$ to $14$.",
+   "type": "list",
+   "prompt": "List the set $A \\cup B$.",
+   "answer": [
+    "1",
+    "2",
+    "3",
+    "5",
+    "7",
+    "9",
+    "11",
+    "13"
+   ]
+  },
+  {
+   "id": "q1f",
+   "label": "1f",
+   "section": "Fluency",
+   "stem": "A number is chosen from the positive integers from $1$ to $14$ inclusive. $A$ is the set of odd numbers from $1$ to $14$, and $B$ is the set of prime numbers from $1$ to $14$.",
+   "type": "list",
+   "prompt": "List the set $A'$.",
+   "answer": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14"
+   ]
+  },
+  {
+   "id": "q1g",
+   "label": "1g",
+   "section": "Fluency",
+   "stem": "A number is chosen from the positive integers from $1$ to $14$ inclusive. $A$ is the set of odd numbers from $1$ to $14$, and $B$ is the set of prime numbers from $1$ to $14$.",
+   "type": "list",
+   "prompt": "List the set '$B$ only'.",
+   "answer": [
+    "2"
+   ]
+  },
+  {
+   "id": "q1h",
+   "label": "1h",
+   "section": "Fluency",
+   "stem": "A number is chosen from the positive integers from $1$ to $14$ inclusive. $A$ is the set of odd numbers from $1$ to $14$, and $B$ is the set of prime numbers from $1$ to $14$.",
+   "type": "ordered",
+   "prompt": "The Venn diagram shows the number of elements in each region. Type the numbers that go in regions P, Q, R and S, in that order.",
+   "answer": [
+    "2",
+    "5",
+    "1",
+    "6"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 32,
+    "items": [
+     {
+      "poly": [
+       [
+        -5,
+        -3
+       ],
+       [
+        5,
+        -3
+       ],
+       [
+        5,
+        3.2
+       ],
+       [
+        -5,
+        3.2
+       ]
+      ]
+     },
+     {
+      "circle": [
+       -1.2,
+       -0.2,
+       2.2
+      ]
+     },
+     {
+      "circle": [
+       1.2,
+       -0.2,
+       2.2
+      ]
+     },
+     {
+      "label": "A",
+      "at": [
+       -2.2,
+       2.55
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       2.2,
+       2.55
+      ]
+     },
+     {
+      "label": "P",
+      "at": [
+       -2.2,
+       -0.2
+      ]
+     },
+     {
+      "label": "Q",
+      "at": [
+       0,
+       -0.2
+      ]
+     },
+     {
+      "label": "R",
+      "at": [
+       2.2,
+       -0.2
+      ]
+     },
+     {
+      "label": "S",
+      "at": [
+       4.1,
+       -2.5
+      ]
+     }
+    ]
+   },
+   "hint": "Type four numbers separated by commas"
+  },
+  {
+   "id": "q1i",
+   "label": "1i",
+   "section": "Fluency",
+   "stem": "A number is chosen from the positive integers from $1$ to $14$ inclusive. $A$ is the set of odd numbers from $1$ to $14$, and $B$ is the set of prime numbers from $1$ to $14$.",
+   "type": "numeric",
+   "prompt": "Find $n(A)$.",
+   "answer": "7"
+  },
+  {
+   "id": "q1j",
+   "label": "1j",
+   "section": "Fluency",
+   "stem": "A number is chosen from the positive integers from $1$ to $14$ inclusive. $A$ is the set of odd numbers from $1$ to $14$, and $B$ is the set of prime numbers from $1$ to $14$.",
+   "type": "numeric",
+   "prompt": "Find Pr($A$).",
+   "answer": "1/2",
+   "hint": "Type a fraction, for example 3/8"
+  },
+  {
+   "id": "q1k",
+   "label": "1k",
+   "section": "Fluency",
+   "stem": "A number is chosen from the positive integers from $1$ to $14$ inclusive. $A$ is the set of odd numbers from $1$ to $14$, and $B$ is the set of prime numbers from $1$ to $14$.",
+   "type": "numeric",
+   "prompt": "Find $n(A \\cap B)$.",
+   "answer": "5"
+  },
+  {
+   "id": "q1l",
+   "label": "1l",
+   "section": "Fluency",
+   "stem": "A number is chosen from the positive integers from $1$ to $14$ inclusive. $A$ is the set of odd numbers from $1$ to $14$, and $B$ is the set of prime numbers from $1$ to $14$.",
+   "type": "numeric",
+   "prompt": "Find Pr($A \\cap B$).",
+   "answer": "5/14"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "A number is chosen from the positive integers from $1$ to $18$ inclusive. $A$ is the set of multiples of $4$ that are less than $18$, and $B$ is the set of factors of $12$.",
+   "type": "list",
+   "prompt": "List the set $A$.",
+   "answer": [
+    "4",
+    "8",
+    "12",
+    "16"
+   ]
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "A number is chosen from the positive integers from $1$ to $18$ inclusive. $A$ is the set of multiples of $4$ that are less than $18$, and $B$ is the set of factors of $12$.",
+   "type": "list",
+   "prompt": "List the set $B$.",
+   "answer": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "6",
+    "12"
+   ]
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "A number is chosen from the positive integers from $1$ to $18$ inclusive. $A$ is the set of multiples of $4$ that are less than $18$, and $B$ is the set of factors of $12$.",
+   "type": "list",
+   "prompt": "List the set $A \\cap B$.",
+   "answer": [
+    "4",
+    "12"
+   ]
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "A number is chosen from the positive integers from $1$ to $18$ inclusive. $A$ is the set of multiples of $4$ that are less than $18$, and $B$ is the set of factors of $12$.",
+   "type": "list",
+   "prompt": "List the set $A \\cup B$.",
+   "answer": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "6",
+    "8",
+    "12",
+    "16"
+   ]
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "A number is chosen from the positive integers from $1$ to $18$ inclusive. $A$ is the set of multiples of $4$ that are less than $18$, and $B$ is the set of factors of $12$.",
+   "type": "list",
+   "prompt": "List the set $A'$.",
+   "answer": [
+    "1",
+    "2",
+    "3",
+    "5",
+    "6",
+    "7",
+    "9",
+    "10",
+    "11",
+    "13",
+    "14",
+    "15",
+    "17",
+    "18"
+   ]
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "A number is chosen from the positive integers from $1$ to $18$ inclusive. $A$ is the set of multiples of $4$ that are less than $18$, and $B$ is the set of factors of $12$.",
+   "type": "list",
+   "prompt": "List the set '$B$ only'.",
+   "answer": [
+    "1",
+    "2",
+    "3",
+    "6"
+   ]
+  },
+  {
+   "id": "q2g",
+   "label": "2g",
+   "section": "Fluency",
+   "stem": "A number is chosen from the positive integers from $1$ to $18$ inclusive. $A$ is the set of multiples of $4$ that are less than $18$, and $B$ is the set of factors of $12$.",
+   "type": "ordered",
+   "prompt": "The Venn diagram shows the number of elements in each region. Type the numbers that go in regions P, Q, R and S, in that order.",
+   "answer": [
+    "2",
+    "2",
+    "4",
+    "10"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 32,
+    "items": [
+     {
+      "poly": [
+       [
+        -5,
+        -3
+       ],
+       [
+        5,
+        -3
+       ],
+       [
+        5,
+        3.2
+       ],
+       [
+        -5,
+        3.2
+       ]
+      ]
+     },
+     {
+      "circle": [
+       -1.2,
+       -0.2,
+       2.2
+      ]
+     },
+     {
+      "circle": [
+       1.2,
+       -0.2,
+       2.2
+      ]
+     },
+     {
+      "label": "A",
+      "at": [
+       -2.2,
+       2.55
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       2.2,
+       2.55
+      ]
+     },
+     {
+      "label": "P",
+      "at": [
+       -2.2,
+       -0.2
+      ]
+     },
+     {
+      "label": "Q",
+      "at": [
+       0,
+       -0.2
+      ]
+     },
+     {
+      "label": "R",
+      "at": [
+       2.2,
+       -0.2
+      ]
+     },
+     {
+      "label": "S",
+      "at": [
+       4.1,
+       -2.5
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2h",
+   "label": "2h",
+   "section": "Fluency",
+   "stem": "A number is chosen from the positive integers from $1$ to $18$ inclusive. $A$ is the set of multiples of $4$ that are less than $18$, and $B$ is the set of factors of $12$.",
+   "type": "numeric",
+   "prompt": "Find $n(B)$.",
+   "answer": "6"
+  },
+  {
+   "id": "q2i",
+   "label": "2i",
+   "section": "Fluency",
+   "stem": "A number is chosen from the positive integers from $1$ to $18$ inclusive. $A$ is the set of multiples of $4$ that are less than $18$, and $B$ is the set of factors of $12$.",
+   "type": "numeric",
+   "prompt": "Find Pr($B$).",
+   "answer": "1/3"
+  },
+  {
+   "id": "q2j",
+   "label": "2j",
+   "section": "Fluency",
+   "stem": "A number is chosen from the positive integers from $1$ to $18$ inclusive. $A$ is the set of multiples of $4$ that are less than $18$, and $B$ is the set of factors of $12$.",
+   "type": "numeric",
+   "prompt": "Find $n(A \\cap B)$.",
+   "answer": "2"
+  },
+  {
+   "id": "q2k",
+   "label": "2k",
+   "section": "Fluency",
+   "stem": "A number is chosen from the positive integers from $1$ to $18$ inclusive. $A$ is the set of multiples of $4$ that are less than $18$, and $B$ is the set of factors of $12$.",
+   "type": "numeric",
+   "prompt": "Find Pr($A \\cap B$).",
+   "answer": "1/9"
+  },
+  {
+   "id": "q2l",
+   "label": "2l",
+   "section": "Fluency",
+   "stem": "A number is chosen from the positive integers from $1$ to $18$ inclusive. $A$ is the set of multiples of $4$ that are less than $18$, and $B$ is the set of factors of $12$.",
+   "type": "numeric",
+   "prompt": "Find $n(A \\cup B)$.",
+   "answer": "8"
+  },
+  {
+   "id": "q2m",
+   "label": "2m",
+   "section": "Fluency",
+   "stem": "A number is chosen from the positive integers from $1$ to $18$ inclusive. $A$ is the set of multiples of $4$ that are less than $18$, and $B$ is the set of factors of $12$.",
+   "type": "numeric",
+   "prompt": "Find Pr($A \\cup B$).",
+   "answer": "4/9"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Consider the sample space $\\Omega = \\{1, 2, 3, 4, 5, 6, 7\\}$ and the sets $A = \\{2, 5, 7\\}$ and $B = \\{1, 3, 4, 6\\}$. Is each statement true or false?",
+   "type": "choice",
+   "prompt": "$A \\subset \\Omega$",
+   "answer": 0,
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Consider the sample space $\\Omega = \\{1, 2, 3, 4, 5, 6, 7\\}$ and the sets $A = \\{2, 5, 7\\}$ and $B = \\{1, 3, 4, 6\\}$. Is each statement true or false?",
+   "type": "choice",
+   "prompt": "$B \\subset \\Omega$",
+   "answer": 0,
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Consider the sample space $\\Omega = \\{1, 2, 3, 4, 5, 6, 7\\}$ and the sets $A = \\{2, 5, 7\\}$ and $B = \\{1, 3, 4, 6\\}$. Is each statement true or false?",
+   "type": "choice",
+   "prompt": "$4 \\in A$",
+   "answer": 1,
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Consider the sample space $\\Omega = \\{1, 2, 3, 4, 5, 6, 7\\}$ and the sets $A = \\{2, 5, 7\\}$ and $B = \\{1, 3, 4, 6\\}$. Is each statement true or false?",
+   "type": "choice",
+   "prompt": "$5 \\in A$",
+   "answer": 0,
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "Consider the sample space $\\Omega = \\{1, 2, 3, 4, 5, 6, 7\\}$ and the sets $A = \\{2, 5, 7\\}$ and $B = \\{1, 3, 4, 6\\}$. Is each statement true or false?",
+   "type": "choice",
+   "prompt": "$n(B) = 4$",
+   "answer": 0,
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "Consider the sample space $\\Omega = \\{1, 2, 3, 4, 5, 6, 7\\}$ and the sets $A = \\{2, 5, 7\\}$ and $B = \\{1, 3, 4, 6\\}$. Is each statement true or false?",
+   "type": "choice",
+   "prompt": "$n(B') = 4$",
+   "answer": 1,
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "id": "q3g",
+   "label": "3g",
+   "section": "Fluency",
+   "stem": "Consider the sample space $\\Omega = \\{1, 2, 3, 4, 5, 6, 7\\}$ and the sets $A = \\{2, 5, 7\\}$ and $B = \\{1, 3, 4, 6\\}$. Is each statement true or false?",
+   "type": "choice",
+   "prompt": "$A \\cap B = \\emptyset$",
+   "answer": 0,
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "id": "q3h",
+   "label": "3h",
+   "section": "Fluency",
+   "stem": "Consider the sample space $\\Omega = \\{1, 2, 3, 4, 5, 6, 7\\}$ and the sets $A = \\{2, 5, 7\\}$ and $B = \\{1, 3, 4, 6\\}$. Is each statement true or false?",
+   "type": "choice",
+   "prompt": "$A \\cup B = \\emptyset$",
+   "answer": 1,
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "id": "q3i",
+   "label": "3i",
+   "section": "Fluency",
+   "stem": "For the same sets $\\Omega = \\{1, 2, 3, 4, 5, 6, 7\\}$, $A = \\{2, 5, 7\\}$ and $B = \\{1, 3, 4, 6\\}$, find each probability.",
+   "type": "numeric",
+   "prompt": "Pr($B$)",
+   "answer": "4/7"
+  },
+  {
+   "id": "q3j",
+   "label": "3j",
+   "section": "Fluency",
+   "stem": "For the same sets $\\Omega = \\{1, 2, 3, 4, 5, 6, 7\\}$, $A = \\{2, 5, 7\\}$ and $B = \\{1, 3, 4, 6\\}$, find each probability.",
+   "type": "numeric",
+   "prompt": "Pr($B'$)",
+   "answer": "3/7"
+  },
+  {
+   "id": "q3k",
+   "label": "3k",
+   "section": "Fluency",
+   "stem": "For the same sets $\\Omega = \\{1, 2, 3, 4, 5, 6, 7\\}$, $A = \\{2, 5, 7\\}$ and $B = \\{1, 3, 4, 6\\}$, find each probability.",
+   "type": "numeric",
+   "prompt": "Pr($A \\cap B$)",
+   "answer": "0"
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "For diagram a, find each probability.",
+   "type": "numeric",
+   "prompt": "Pr($A \\cap B$)",
+   "answer": "4/15",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 32,
+    "items": [
+     {
+      "poly": [
+       [
+        -5,
+        -3
+       ],
+       [
+        5,
+        -3
+       ],
+       [
+        5,
+        3.2
+       ],
+       [
+        -5,
+        3.2
+       ]
+      ]
+     },
+     {
+      "circle": [
+       -1.2,
+       -0.2,
+       2.2
+      ]
+     },
+     {
+      "circle": [
+       1.2,
+       -0.2,
+       2.2
+      ]
+     },
+     {
+      "label": "A",
+      "at": [
+       -2.2,
+       2.55
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       2.2,
+       2.55
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       -2.2,
+       -0.2
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       0,
+       -0.2
+      ]
+     },
+     {
+      "label": "6",
+      "at": [
+       2.2,
+       -0.2
+      ]
+     },
+     {
+      "label": "2",
+      "at": [
+       4.1,
+       -2.5
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "For diagram a, find each probability.",
+   "type": "numeric",
+   "prompt": "Pr($A \\cup B$)",
+   "answer": "13/15"
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "For diagram a, find each probability.",
+   "type": "numeric",
+   "prompt": "Pr($A'$)",
+   "answer": "8/15"
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "For diagram b, find each probability.",
+   "type": "numeric",
+   "prompt": "Pr($A \\cap B$)",
+   "answer": "9/50",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 32,
+    "items": [
+     {
+      "poly": [
+       [
+        -5,
+        -3
+       ],
+       [
+        5,
+        -3
+       ],
+       [
+        5,
+        3.2
+       ],
+       [
+        -5,
+        3.2
+       ]
+      ]
+     },
+     {
+      "circle": [
+       -1.2,
+       -0.2,
+       2.2
+      ]
+     },
+     {
+      "circle": [
+       1.2,
+       -0.2,
+       2.2
+      ]
+     },
+     {
+      "label": "A",
+      "at": [
+       -2.2,
+       2.55
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       2.2,
+       2.55
+      ]
+     },
+     {
+      "label": "15",
+      "at": [
+       -2.2,
+       -0.2
+      ]
+     },
+     {
+      "label": "9",
+      "at": [
+       0,
+       -0.2
+      ]
+     },
+     {
+      "label": "20",
+      "at": [
+       2.2,
+       -0.2
+      ]
+     },
+     {
+      "label": "6",
+      "at": [
+       4.1,
+       -2.5
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Fluency",
+   "stem": "For diagram b, find each probability.",
+   "type": "numeric",
+   "prompt": "Pr($A \\cup B$)",
+   "answer": "22/25"
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Fluency",
+   "stem": "For diagram b, find each probability.",
+   "type": "numeric",
+   "prompt": "Pr($A'$)",
+   "answer": "13/25"
+  },
+  {
+   "id": "q4g",
+   "label": "4g",
+   "section": "Fluency",
+   "stem": "For table c, find each probability (fill in the missing numbers first).",
+   "type": "numeric",
+   "prompt": "Pr($A \\cap B$)",
+   "answer": "1/3",
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "",
+      "A",
+      "A′",
+      "Total"
+     ],
+     [
+      "B",
+      "6",
+      "3",
+      ""
+     ],
+     [
+      "B′",
+      "",
+      "",
+      ""
+     ],
+     [
+      "Total",
+      "10",
+      "",
+      "18"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q4h",
+   "label": "4h",
+   "section": "Fluency",
+   "stem": "For table c, find each probability (fill in the missing numbers first).",
+   "type": "numeric",
+   "prompt": "Pr($A \\cup B$)",
+   "answer": "13/18"
+  },
+  {
+   "id": "q4i",
+   "label": "4i",
+   "section": "Fluency",
+   "stem": "For table c, find each probability (fill in the missing numbers first).",
+   "type": "numeric",
+   "prompt": "Pr($A'$)",
+   "answer": "4/9"
+  },
+  {
+   "id": "q4j",
+   "label": "4j",
+   "section": "Fluency",
+   "stem": "For table d, find each probability (fill in the missing numbers first).",
+   "type": "numeric",
+   "prompt": "Pr($A \\cap B$)",
+   "answer": "2/11",
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "",
+      "A",
+      "A′",
+      "Total"
+     ],
+     [
+      "B",
+      "",
+      "6",
+      "10"
+     ],
+     [
+      "B′",
+      "5",
+      "",
+      ""
+     ],
+     [
+      "Total",
+      "",
+      "13",
+      ""
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q4k",
+   "label": "4k",
+   "section": "Fluency",
+   "stem": "For table d, find each probability (fill in the missing numbers first).",
+   "type": "numeric",
+   "prompt": "Pr($A \\cup B$)",
+   "answer": "15/22"
+  },
+  {
+   "id": "q4l",
+   "label": "4l",
+   "section": "Fluency",
+   "stem": "For table d, find each probability (fill in the missing numbers first).",
+   "type": "numeric",
+   "prompt": "Pr($A'$)",
+   "answer": "13/22"
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Problem-solving",
+   "stem": "Four students are named PETER, TOM, BETH and OWEN. The sets are $A$ = {students with a name including the letter T}, $B$ = {students with a name including the letter E} and $C$ = {students with a name including the letter Q}.",
+   "type": "list",
+   "prompt": "List the set $A$.",
+   "answer": [
+    "PETER",
+    "TOM",
+    "BETH"
+   ],
+   "hint": "Type the names separated by commas"
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Problem-solving",
+   "stem": "Four students are named PETER, TOM, BETH and OWEN. The sets are $A$ = {students with a name including the letter T}, $B$ = {students with a name including the letter E} and $C$ = {students with a name including the letter Q}.",
+   "type": "list",
+   "prompt": "List the set $B$.",
+   "answer": [
+    "PETER",
+    "BETH",
+    "OWEN"
+   ]
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Problem-solving",
+   "stem": "Four students are named PETER, TOM, BETH and OWEN. The sets are $A$ = {students with a name including the letter T}, $B$ = {students with a name including the letter E} and $C$ = {students with a name including the letter Q}.",
+   "type": "numeric",
+   "prompt": "How many elements are in the set $C$?",
+   "answer": "0"
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Problem-solving",
+   "stem": "Four students are named PETER, TOM, BETH and OWEN. The sets are $A$ = {students with a name including the letter T}, $B$ = {students with a name including the letter E} and $C$ = {students with a name including the letter Q}.",
+   "type": "list",
+   "prompt": "List the set $A \\cap B$.",
+   "answer": [
+    "PETER",
+    "BETH"
+   ]
+  },
+  {
+   "id": "q5e",
+   "label": "5e",
+   "section": "Problem-solving",
+   "stem": "Four students are named PETER, TOM, BETH and OWEN. The sets are $A$ = {students with a name including the letter T}, $B$ = {students with a name including the letter E} and $C$ = {students with a name including the letter Q}.",
+   "type": "numeric",
+   "prompt": "A student is chosen at random. Find Pr($A$).",
+   "answer": "3/4"
+  },
+  {
+   "id": "q5f",
+   "label": "5f",
+   "section": "Problem-solving",
+   "stem": "Four students are named PETER, TOM, BETH and OWEN. The sets are $A$ = {students with a name including the letter T}, $B$ = {students with a name including the letter E} and $C$ = {students with a name including the letter Q}.",
+   "type": "numeric",
+   "prompt": "A student is chosen at random. Find Pr($A'$).",
+   "answer": "1/4"
+  },
+  {
+   "id": "q5g",
+   "label": "5g",
+   "section": "Problem-solving",
+   "stem": "Four students are named PETER, TOM, BETH and OWEN. The sets are $A$ = {students with a name including the letter T}, $B$ = {students with a name including the letter E} and $C$ = {students with a name including the letter Q}.",
+   "type": "numeric",
+   "prompt": "A student is chosen at random. Find Pr($C$).",
+   "answer": "0"
+  },
+  {
+   "id": "q5h",
+   "label": "5h",
+   "section": "Problem-solving",
+   "stem": "Four students are named PETER, TOM, BETH and OWEN. The sets are $A$ = {students with a name including the letter T}, $B$ = {students with a name including the letter E} and $C$ = {students with a name including the letter Q}.",
+   "type": "numeric",
+   "prompt": "A student is chosen at random. Find Pr($C'$).",
+   "answer": "1"
+  },
+  {
+   "id": "q5i",
+   "label": "5i",
+   "section": "Problem-solving",
+   "stem": "Four students are named PETER, TOM, BETH and OWEN. The sets are $A$ = {students with a name including the letter T}, $B$ = {students with a name including the letter E} and $C$ = {students with a name including the letter Q}.",
+   "type": "numeric",
+   "prompt": "A student is chosen at random. Find Pr($A \\cap B$).",
+   "answer": "1/2"
+  },
+  {
+   "id": "q5j",
+   "label": "5j",
+   "section": "Problem-solving",
+   "stem": "Four students are named PETER, TOM, BETH and OWEN. The sets are $A$ = {students with a name including the letter T}, $B$ = {students with a name including the letter E} and $C$ = {students with a name including the letter Q}.",
+   "type": "numeric",
+   "prompt": "A student is chosen at random. Find Pr($A \\cup B$).",
+   "answer": "1"
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Problem-solving",
+   "stem": "Consider all $26$ letters of the alphabet. Let $A$ = {the set of vowels} and $B$ = {the different letters of the word GEOGRAPHY}. Find:",
+   "type": "numeric",
+   "prompt": "$n(\\Omega)$, the number in the sample space",
+   "answer": "26"
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Problem-solving",
+   "stem": "Consider all $26$ letters of the alphabet. Let $A$ = {the set of vowels} and $B$ = {the different letters of the word GEOGRAPHY}. Find:",
+   "type": "numeric",
+   "prompt": "$n(A)$",
+   "answer": "5"
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Problem-solving",
+   "stem": "Consider all $26$ letters of the alphabet. Let $A$ = {the set of vowels} and $B$ = {the different letters of the word GEOGRAPHY}. Find:",
+   "type": "numeric",
+   "prompt": "$n(A \\cap B)$",
+   "answer": "3"
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Problem-solving",
+   "stem": "Consider all $26$ letters of the alphabet. Let $A$ = {the set of vowels} and $B$ = {the different letters of the word GEOGRAPHY}. Find:",
+   "type": "numeric",
+   "prompt": "$n(B')$",
+   "answer": "18"
+  },
+  {
+   "id": "q6e",
+   "label": "6e",
+   "section": "Problem-solving",
+   "stem": "Consider all $26$ letters of the alphabet. Let $A$ = {the set of vowels} and $B$ = {the different letters of the word GEOGRAPHY}. Find:",
+   "type": "numeric",
+   "prompt": "Pr($A$)",
+   "answer": "5/26"
+  },
+  {
+   "id": "q6f",
+   "label": "6f",
+   "section": "Problem-solving",
+   "stem": "Consider all $26$ letters of the alphabet. Let $A$ = {the set of vowels} and $B$ = {the different letters of the word GEOGRAPHY}. Find:",
+   "type": "numeric",
+   "prompt": "Pr($A'$)",
+   "answer": "21/26"
+  },
+  {
+   "id": "q6g",
+   "label": "6g",
+   "section": "Problem-solving",
+   "stem": "Consider all $26$ letters of the alphabet. Let $A$ = {the set of vowels} and $B$ = {the different letters of the word GEOGRAPHY}. Find:",
+   "type": "numeric",
+   "prompt": "Pr($A \\cap B$)",
+   "answer": "3/26"
+  },
+  {
+   "id": "q6h",
+   "label": "6h",
+   "section": "Problem-solving",
+   "stem": "Consider all $26$ letters of the alphabet. Let $A$ = {the set of vowels} and $B$ = {the different letters of the word GEOGRAPHY}. Find:",
+   "type": "numeric",
+   "prompt": "Pr($A \\cup B$)",
+   "answer": "5/13"
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Problem-solving",
+   "stem": "Each of $60$ teenagers owns a bike or a skateboard (or both). Let $A$ be the set who own a bike and $B$ the set who own a skateboard. If $n(A) = 41$ and $n(B) = 33$, find:",
+   "type": "numeric",
+   "prompt": "$n(A \\cap B)$",
+   "answer": "14"
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Problem-solving",
+   "stem": "Each of $60$ teenagers owns a bike or a skateboard (or both). Let $A$ be the set who own a bike and $B$ the set who own a skateboard. If $n(A) = 41$ and $n(B) = 33$, find:",
+   "type": "numeric",
+   "prompt": "$n(A \\text{ only})$",
+   "answer": "27"
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Problem-solving",
+   "stem": "Each of $60$ teenagers owns a bike or a skateboard (or both). Let $A$ be the set who own a bike and $B$ the set who own a skateboard. If $n(A) = 41$ and $n(B) = 33$, find:",
+   "type": "numeric",
+   "prompt": "Pr($A \\cup B$)",
+   "answer": "1"
+  },
+  {
+   "id": "q7d",
+   "label": "7d",
+   "section": "Problem-solving",
+   "stem": "Each of $60$ teenagers owns a bike or a skateboard (or both). Let $A$ be the set who own a bike and $B$ the set who own a skateboard. If $n(A) = 41$ and $n(B) = 33$, find:",
+   "type": "numeric",
+   "prompt": "Pr($A'$)",
+   "answer": "19/60"
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Reasoning",
+   "stem": "In Question 7, $A$ is the set of bike owners and $B$ is the set of skateboard owners. Which description matches each group?",
+   "type": "choice",
+   "prompt": "$A \\cap B$",
+   "answer": 0,
+   "options": [
+    "Owns both a bike and a skateboard",
+    "Owns a bike or a skateboard or both",
+    "Does not own a skateboard",
+    "Owns a skateboard but not a bike",
+    "Owns neither a bike nor a skateboard"
+   ]
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Reasoning",
+   "stem": "In Question 7, $A$ is the set of bike owners and $B$ is the set of skateboard owners. Which description matches each group?",
+   "type": "choice",
+   "prompt": "$A \\cup B$",
+   "answer": 1,
+   "options": [
+    "Owns both a bike and a skateboard",
+    "Owns a bike or a skateboard or both",
+    "Does not own a skateboard",
+    "Owns a skateboard but not a bike",
+    "Owns neither a bike nor a skateboard"
+   ]
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Reasoning",
+   "stem": "In Question 7, $A$ is the set of bike owners and $B$ is the set of skateboard owners. Which description matches each group?",
+   "type": "choice",
+   "prompt": "$B'$",
+   "answer": 2,
+   "options": [
+    "Owns both a bike and a skateboard",
+    "Owns a bike or a skateboard or both",
+    "Does not own a skateboard",
+    "Owns a skateboard but not a bike",
+    "Owns neither a bike nor a skateboard"
+   ]
+  },
+  {
+   "id": "q8d",
+   "label": "8d",
+   "section": "Reasoning",
+   "stem": "In Question 7, $A$ is the set of bike owners and $B$ is the set of skateboard owners. Which description matches each group?",
+   "type": "choice",
+   "prompt": "$B$ only",
+   "answer": 3,
+   "options": [
+    "Owns both a bike and a skateboard",
+    "Owns a bike or a skateboard or both",
+    "Does not own a skateboard",
+    "Owns a skateboard but not a bike",
+    "Owns neither a bike nor a skateboard"
+   ]
+  },
+  {
+   "id": "q9",
+   "label": "9",
+   "section": "Reasoning",
+   "type": "choice",
+   "prompt": "The region '$A$ only' is the intersection of $A$ and the complement of $B$, so $A$ only $= A \\cap B'$. Which set notation describes the region '$B$ only'?",
+   "answer": 1,
+   "options": [
+    "A ∩ B",
+    "A′ ∩ B",
+    "A ∪ B′",
+    "A′ ∩ B′"
+   ]
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Reasoning",
+   "type": "choice",
+   "prompt": "Can $n(A) + n(B)$ ever be equal to $n(A \\cup B)$?",
+   "answer": 0,
+   "options": [
+    "Yes, when A and B have no elements in common",
+    "No, never"
+   ]
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Reasoning",
+   "type": "choice",
+   "prompt": "Can $n(A) + n(B)$ ever be less than $n(A \\cup B)$?",
+   "answer": 1,
+   "options": [
+    "Yes, when A and B overlap",
+    "No, never"
+   ]
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Reasoning",
+   "stem": "The four inner cells of a two-way table can be described with intersections. The cell for 'A and not B' is $n(A \\cap B')$. Which intersection describes each lettered cell?",
+   "type": "choice",
+   "prompt": "Cell P",
+   "answer": 0,
+   "options": [
+    "n(A ∩ B)",
+    "n(A′ ∩ B)",
+    "n(A ∩ B′)",
+    "n(A′ ∩ B′)"
+   ],
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "",
+      "A",
+      "A′",
+      "Total"
+     ],
+     [
+      "B",
+      "P",
+      "Q",
+      "n(B)"
+     ],
+     [
+      "B′",
+      "n(A ∩ B′)",
+      "R",
+      "n(B′)"
+     ],
+     [
+      "Total",
+      "n(A)",
+      "n(A′)",
+      "n(Ω)"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Reasoning",
+   "stem": "The four inner cells of a two-way table can be described with intersections. The cell for 'A and not B' is $n(A \\cap B')$. Which intersection describes each lettered cell?",
+   "type": "choice",
+   "prompt": "Cell Q",
+   "answer": 1,
+   "options": [
+    "n(A ∩ B)",
+    "n(A′ ∩ B)",
+    "n(A ∩ B′)",
+    "n(A′ ∩ B′)"
+   ]
+  },
+  {
+   "id": "q11c",
+   "label": "11c",
+   "section": "Reasoning",
+   "stem": "The four inner cells of a two-way table can be described with intersections. The cell for 'A and not B' is $n(A \\cap B')$. Which intersection describes each lettered cell?",
+   "type": "choice",
+   "prompt": "Cell R",
+   "answer": 3,
+   "options": [
+    "n(A ∩ B)",
+    "n(A′ ∩ B)",
+    "n(A ∩ B′)",
+    "n(A′ ∩ B′)"
+   ]
+  },
+  {
+   "id": "q13a",
+   "label": "13a",
+   "section": "Enrichment",
+   "stem": "Consider the set of integers $\\{1, 2, 3, \\ldots, 18\\}$. Let $A$ = {prime numbers less than $18$} and $B$ = {factors of $18$}. List each set.",
+   "type": "list",
+   "prompt": "$A$",
+   "answer": [
+    "2",
+    "3",
+    "5",
+    "7",
+    "11",
+    "13",
+    "17"
+   ],
+   "hint": "Type the elements separated by commas, for example 2, 5, 9"
+  },
+  {
+   "id": "q13b",
+   "label": "13b",
+   "section": "Enrichment",
+   "stem": "Consider the set of integers $\\{1, 2, 3, \\ldots, 18\\}$. Let $A$ = {prime numbers less than $18$} and $B$ = {factors of $18$}. List each set.",
+   "type": "list",
+   "prompt": "$B$",
+   "answer": [
+    "1",
+    "2",
+    "3",
+    "6",
+    "9",
+    "18"
+   ]
+  },
+  {
+   "id": "q13c",
+   "label": "13c",
+   "section": "Enrichment",
+   "stem": "Consider the set of integers $\\{1, 2, 3, \\ldots, 18\\}$. Let $A$ = {prime numbers less than $18$} and $B$ = {factors of $18$}. List each set.",
+   "type": "list",
+   "prompt": "$A \\cap B$",
+   "answer": [
+    "2",
+    "3"
+   ]
+  },
+  {
+   "id": "q13d",
+   "label": "13d",
+   "section": "Enrichment",
+   "stem": "Consider the set of integers $\\{1, 2, 3, \\ldots, 18\\}$. Let $A$ = {prime numbers less than $18$} and $B$ = {factors of $18$}. List each set.",
+   "type": "list",
+   "prompt": "$A \\cup B$",
+   "answer": [
+    "1",
+    "2",
+    "3",
+    "5",
+    "6",
+    "7",
+    "9",
+    "11",
+    "13",
+    "17",
+    "18"
+   ]
+  },
+  {
+   "id": "q13e",
+   "label": "13e",
+   "section": "Enrichment",
+   "stem": "Consider the set of integers $\\{1, 2, 3, \\ldots, 18\\}$. Let $A$ = {prime numbers less than $18$} and $B$ = {factors of $18$}. List each set.",
+   "type": "list",
+   "prompt": "$A' \\cap B$",
+   "answer": [
+    "1",
+    "6",
+    "9",
+    "18"
+   ]
+  },
+  {
+   "id": "q13f",
+   "label": "13f",
+   "section": "Enrichment",
+   "stem": "Consider the set of integers $\\{1, 2, 3, \\ldots, 18\\}$. Let $A$ = {prime numbers less than $18$} and $B$ = {factors of $18$}. List each set.",
+   "type": "list",
+   "prompt": "$A \\cap B'$",
+   "answer": [
+    "5",
+    "7",
+    "11",
+    "13",
+    "17"
+   ]
+  },
+  {
+   "id": "q13g",
+   "label": "13g",
+   "section": "Enrichment",
+   "stem": "Consider the set of integers $\\{1, 2, 3, \\ldots, 18\\}$. Let $A$ = {prime numbers less than $18$} and $B$ = {factors of $18$}. List each set.",
+   "type": "list",
+   "prompt": "$A' \\cup B$",
+   "answer": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "6",
+    "8",
+    "9",
+    "10",
+    "12",
+    "14",
+    "15",
+    "16",
+    "18"
+   ]
+  },
+  {
+   "id": "q13h",
+   "label": "13h",
+   "section": "Enrichment",
+   "stem": "Consider the set of integers $\\{1, 2, 3, \\ldots, 18\\}$. Let $A$ = {prime numbers less than $18$} and $B$ = {factors of $18$}. List each set.",
+   "type": "list",
+   "prompt": "$A \\cup B'$",
+   "answer": [
+    "2",
+    "3",
+    "4",
+    "5",
+    "7",
+    "8",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17"
+   ]
+  },
+  {
+   "id": "q13i",
+   "label": "13i",
+   "section": "Enrichment",
+   "stem": "Consider the set of integers $\\{1, 2, 3, \\ldots, 18\\}$. Let $A$ = {prime numbers less than $18$} and $B$ = {factors of $18$}. List each set.",
+   "type": "list",
+   "prompt": "$A' \\cup B'$",
+   "answer": [
+    "1",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18"
+   ]
+  },
+  {
+   "id": "q13j",
+   "label": "13j",
+   "section": "Enrichment",
+   "stem": "For the same sets ($\\Omega = \\{1, 2, \\ldots, 18\\}$, $A$ = primes less than $18$, $B$ = factors of $18$), find each probability.",
+   "type": "numeric",
+   "prompt": "Pr($A \\cup B$)",
+   "answer": "11/18"
+  },
+  {
+   "id": "q13k",
+   "label": "13k",
+   "section": "Enrichment",
+   "stem": "For the same sets ($\\Omega = \\{1, 2, \\ldots, 18\\}$, $A$ = primes less than $18$, $B$ = factors of $18$), find each probability.",
+   "type": "numeric",
+   "prompt": "Pr($A \\cap B$)",
+   "answer": "1/9"
+  },
+  {
+   "id": "q13l",
+   "label": "13l",
+   "section": "Enrichment",
+   "stem": "For the same sets ($\\Omega = \\{1, 2, \\ldots, 18\\}$, $A$ = primes less than $18$, $B$ = factors of $18$), find each probability.",
+   "type": "numeric",
+   "prompt": "Pr($A' \\cap B$)",
+   "answer": "2/9"
+  },
+  {
+   "id": "q13m",
+   "label": "13m",
+   "section": "Enrichment",
+   "stem": "For the same sets ($\\Omega = \\{1, 2, \\ldots, 18\\}$, $A$ = primes less than $18$, $B$ = factors of $18$), find each probability.",
+   "type": "numeric",
+   "prompt": "Pr($A' \\cap B'$)",
+   "answer": "7/18"
+  },
+  {
+   "id": "q13n",
+   "label": "13n",
+   "section": "Enrichment",
+   "stem": "For the same sets ($\\Omega = \\{1, 2, \\ldots, 18\\}$, $A$ = primes less than $18$, $B$ = factors of $18$), find each probability.",
+   "type": "numeric",
+   "prompt": "Pr($A \\cup B'$)",
+   "answer": "7/9"
+  },
+  {
+   "id": "q13o",
+   "label": "13o",
+   "section": "Enrichment",
+   "stem": "For the same sets ($\\Omega = \\{1, 2, \\ldots, 18\\}$, $A$ = primes less than $18$, $B$ = factors of $18$), find each probability.",
+   "type": "numeric",
+   "prompt": "Pr($(A \\cap B)'$)",
+   "answer": "8/9"
+  },
+  {
+   "id": "q13p",
+   "label": "13p",
+   "section": "Enrichment",
+   "stem": "For the same sets ($\\Omega = \\{1, 2, \\ldots, 18\\}$, $A$ = primes less than $18$, $B$ = factors of $18$), find each probability.",
+   "type": "numeric",
+   "prompt": "Pr($A' \\cup B'$)",
+   "answer": "8/9"
+  },
+  {
+   "id": "q13q",
+   "label": "13q",
+   "section": "Enrichment",
+   "stem": "For the same sets ($\\Omega = \\{1, 2, \\ldots, 18\\}$, $A$ = primes less than $18$, $B$ = factors of $18$), find each probability.",
+   "type": "numeric",
+   "prompt": "Pr($(A \\cup B)'$)",
+   "answer": "7/18"
+  },
+  {
+   "id": "q13r",
+   "label": "13r",
+   "section": "Enrichment",
+   "type": "choice",
+   "prompt": "Compare your answers. Are $A' \\cap B'$ and $(A \\cup B)'$ the same region of a Venn diagram?",
+   "answer": 0,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  }
+ ]
+},
+{
+ "id": "y9-9d",
+ "year": 9,
+ "chapter": "Chapter 9: Probability and statistics",
+ "title": "9D Using arrays for two-step experiments",
+ "description": "Use tables (arrays) to list the outcomes of two-step experiments, with and without replacement, and find probabilities.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "A spinner with five equal sections numbered $1$ to $5$ is spun twice. The table will show every outcome as (1st spin, 2nd spin).",
+   "type": "point",
+   "prompt": "Which outcome goes in the cell where the 1st spin is $4$ and the 2nd spin is $3$?",
+   "answer": "(4,3)",
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "2nd \\ 1st",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+     ],
+     [
+      "1",
+      "(1, 1)",
+      "(2, 1)",
+      "",
+      "",
+      ""
+     ],
+     [
+      "2",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     [
+      "3",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     [
+      "4",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     [
+      "5",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ]
+    ]
+   },
+   "hint": "Type it like the others, for example (2, 1)"
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "A spinner with five equal sections numbered $1$ to $5$ is spun twice. The table will show every outcome as (1st spin, 2nd spin).",
+   "type": "numeric",
+   "prompt": "What is the total number of outcomes?",
+   "answer": "25"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "A spinner with five equal sections numbered $1$ to $5$ is spun twice. The table will show every outcome as (1st spin, 2nd spin).",
+   "type": "numeric",
+   "prompt": "Find the probability of the outcome $(2, 2)$.",
+   "answer": "1/25",
+   "hint": "Type a fraction, for example 3/8"
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "A spinner with five equal sections numbered $1$ to $5$ is spun twice. The table will show every outcome as (1st spin, 2nd spin).",
+   "type": "numeric",
+   "prompt": "Find the probability of a double (both spins the same).",
+   "answer": "1/5"
+  },
+  {
+   "id": "q1e",
+   "label": "1e",
+   "section": "Fluency",
+   "stem": "A spinner with five equal sections numbered $1$ to $5$ is spun twice. The table will show every outcome as (1st spin, 2nd spin).",
+   "type": "numeric",
+   "prompt": "Find the probability of one of the outcomes $(4, 1)$, $(3, 2)$ or $(1, 4)$.",
+   "answer": "3/25"
+  },
+  {
+   "id": "q1f",
+   "label": "1f",
+   "section": "Fluency",
+   "stem": "A spinner with five equal sections numbered $1$ to $5$ is spun twice. The table will show every outcome as (1st spin, 2nd spin).",
+   "type": "numeric",
+   "prompt": "Find the probability of an outcome containing a $1$ or a $5$.",
+   "answer": "16/25"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Bag A holds one green and two white counters. Bag B holds two green counters and one white counter. One counter is taken from each bag, and the result is written as (Bag A colour, Bag B colour).",
+   "type": "numeric",
+   "prompt": "Complete a table like this one. What is the total number of outcomes?",
+   "answer": "9",
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "B \\ A",
+      "green",
+      "white",
+      "white"
+     ],
+     [
+      "green",
+      "",
+      "",
+      ""
+     ],
+     [
+      "green",
+      "",
+      "",
+      ""
+     ],
+     [
+      "white",
+      "",
+      "",
+      ""
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Bag A holds one green and two white counters. Bag B holds two green counters and one white counter. One counter is taken from each bag, and the result is written as (Bag A colour, Bag B colour).",
+   "type": "numeric",
+   "prompt": "Find the probability that the outcome is (green, white).",
+   "answer": "1/9"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Bag A holds one green and two white counters. Bag B holds two green counters and one white counter. One counter is taken from each bag, and the result is written as (Bag A colour, Bag B colour).",
+   "type": "numeric",
+   "prompt": "Find the probability that the outcome contains exactly one green counter.",
+   "answer": "5/9"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Bag A holds one green and two white counters. Bag B holds two green counters and one white counter. One counter is taken from each bag, and the result is written as (Bag A colour, Bag B colour).",
+   "type": "numeric",
+   "prompt": "Find the probability that both counters are the same colour.",
+   "answer": "4/9"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Two letters are chosen at random from the word SUN, without replacement. Outcomes are written as (1st letter, 2nd letter).",
+   "type": "numeric",
+   "prompt": "Complete a table like this one. How many outcomes are there?",
+   "answer": "6",
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "2nd \\ 1st",
+      "S",
+      "U",
+      "N"
+     ],
+     [
+      "S",
+      "×",
+      "(U, S)",
+      "(N, S)"
+     ],
+     [
+      "U",
+      "",
+      "×",
+      ""
+     ],
+     [
+      "N",
+      "",
+      "",
+      "×"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Two letters are chosen at random from the word SUN, without replacement. Outcomes are written as (1st letter, 2nd letter).",
+   "type": "numeric",
+   "prompt": "Find the probability of the outcome (N, S).",
+   "answer": "1/6"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Two letters are chosen at random from the word SUN, without replacement. Outcomes are written as (1st letter, 2nd letter).",
+   "type": "numeric",
+   "prompt": "Find the probability of an outcome with a U in it.",
+   "answer": "2/3"
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "Two digits are chosen at random, without replacement, from the set $\\{1, 2, 3, 4, 5\\}$. Outcomes are written as (1st digit, 2nd digit), and doubles such as $(1, 1)$ are not possible.",
+   "type": "numeric",
+   "prompt": "Draw a table to show the sample space. How many outcomes are there?",
+   "answer": "20"
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "Two digits are chosen at random, without replacement, from the set $\\{1, 2, 3, 4, 5\\}$. Outcomes are written as (1st digit, 2nd digit), and doubles such as $(1, 1)$ are not possible.",
+   "type": "numeric",
+   "prompt": "Find Pr$(2, 5)$.",
+   "answer": "1/20"
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "Two digits are chosen at random, without replacement, from the set $\\{1, 2, 3, 4, 5\\}$. Outcomes are written as (1st digit, 2nd digit), and doubles such as $(1, 1)$ are not possible.",
+   "type": "numeric",
+   "prompt": "Find Pr$(5, 1)$.",
+   "answer": "1/20"
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "Two digits are chosen at random, without replacement, from the set $\\{1, 2, 3, 4, 5\\}$. Outcomes are written as (1st digit, 2nd digit), and doubles such as $(1, 1)$ are not possible.",
+   "type": "numeric",
+   "prompt": "Find the probability that both digits are at least $4$.",
+   "answer": "1/10"
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Fluency",
+   "stem": "Two digits are chosen at random, without replacement, from the set $\\{1, 2, 3, 4, 5\\}$. Outcomes are written as (1st digit, 2nd digit), and doubles such as $(1, 1)$ are not possible.",
+   "type": "numeric",
+   "prompt": "Find the probability that the outcome contains a $1$ or a $5$.",
+   "answer": "7/10"
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Fluency",
+   "stem": "Two digits are chosen at random, without replacement, from the set $\\{1, 2, 3, 4, 5\\}$. Outcomes are written as (1st digit, 2nd digit), and doubles such as $(1, 1)$ are not possible.",
+   "type": "numeric",
+   "prompt": "Find the probability that the outcome contains a $1$ and a $5$.",
+   "answer": "1/10"
+  },
+  {
+   "id": "q4g",
+   "label": "4g",
+   "section": "Fluency",
+   "stem": "Two digits are chosen at random, without replacement, from the set $\\{1, 2, 3, 4, 5\\}$. Outcomes are written as (1st digit, 2nd digit), and doubles such as $(1, 1)$ are not possible.",
+   "type": "numeric",
+   "prompt": "Find the probability that the outcome does not contain a $3$.",
+   "answer": "3/5"
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Problem-solving",
+   "stem": "Two four-sided dice, each with faces numbered $0$, $1$, $2$ and $3$, are rolled and the total is recorded.",
+   "type": "numeric",
+   "prompt": "Complete a table of totals like this one. In how many cells is the total equal to $3$?",
+   "answer": "4",
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "Roll 2 \\ Roll 1",
+      "0",
+      "1",
+      "2",
+      "3"
+     ],
+     [
+      "0",
+      "0",
+      "1",
+      "",
+      ""
+     ],
+     [
+      "1",
+      "",
+      "",
+      "",
+      ""
+     ],
+     [
+      "2",
+      "",
+      "",
+      "",
+      ""
+     ],
+     [
+      "3",
+      "",
+      "",
+      "",
+      ""
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Problem-solving",
+   "stem": "Two four-sided dice, each with faces numbered $0$, $1$, $2$ and $3$, are rolled and the total is recorded.",
+   "type": "numeric",
+   "prompt": "Find the probability that the total is $0$.",
+   "answer": "1/16"
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Problem-solving",
+   "stem": "Two four-sided dice, each with faces numbered $0$, $1$, $2$ and $3$, are rolled and the total is recorded.",
+   "type": "numeric",
+   "prompt": "Find the probability that the total is $0$ or $1$.",
+   "answer": "3/16"
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Problem-solving",
+   "stem": "Two four-sided dice, each with faces numbered $0$, $1$, $2$ and $3$, are rolled and the total is recorded.",
+   "type": "numeric",
+   "prompt": "Find the probability that the total is less than or equal to $3$.",
+   "answer": "5/8"
+  },
+  {
+   "id": "q5e",
+   "label": "5e",
+   "section": "Problem-solving",
+   "stem": "Two four-sided dice, each with faces numbered $0$, $1$, $2$ and $3$, are rolled and the total is recorded.",
+   "type": "numeric",
+   "prompt": "Find the probability that the total is more than $4$.",
+   "answer": "3/16"
+  },
+  {
+   "id": "q5f",
+   "label": "5f",
+   "section": "Problem-solving",
+   "stem": "Two four-sided dice, each with faces numbered $0$, $1$, $2$ and $3$, are rolled and the total is recorded.",
+   "type": "numeric",
+   "prompt": "Find the probability that the total is at most $4$.",
+   "answer": "13/16"
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Problem-solving",
+   "stem": "Kofi guesses the answers to two multiple-choice questions. Each question has options A, B, C and D, and each question has exactly one correct option.",
+   "type": "numeric",
+   "prompt": "Complete a table of all his possible pairs of guesses. How many outcomes are there?",
+   "answer": "16"
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Problem-solving",
+   "stem": "Kofi guesses the answers to two multiple-choice questions. Each question has options A, B, C and D, and each question has exactly one correct option.",
+   "type": "numeric",
+   "prompt": "Find the probability that he guesses (C, A).",
+   "answer": "1/16"
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Problem-solving",
+   "stem": "Kofi guesses the answers to two multiple-choice questions. Each question has options A, B, C and D, and each question has exactly one correct option.",
+   "type": "numeric",
+   "prompt": "Find the probability that he guesses the same letter both times.",
+   "answer": "1/4"
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Problem-solving",
+   "stem": "Kofi guesses the answers to two multiple-choice questions. Each question has options A, B, C and D, and each question has exactly one correct option.",
+   "type": "numeric",
+   "prompt": "Find the probability that he guesses different letters.",
+   "answer": "3/4"
+  },
+  {
+   "id": "q6e",
+   "label": "6e",
+   "section": "Problem-solving",
+   "stem": "Kofi guesses the answers to two multiple-choice questions. Each question has options A, B, C and D, and each question has exactly one correct option.",
+   "type": "numeric",
+   "prompt": "Find the probability that exactly one of his answers is correct.",
+   "answer": "3/8"
+  },
+  {
+   "id": "q6f",
+   "label": "6f",
+   "section": "Problem-solving",
+   "stem": "Kofi guesses the answers to two multiple-choice questions. Each question has options A, B, C and D, and each question has exactly one correct option.",
+   "type": "numeric",
+   "prompt": "Find the probability that both of his answers are correct.",
+   "answer": "1/16"
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Problem-solving",
+   "stem": "Two fair six-sided dice are rolled and their numbers are added. Use a table to find the probability that the total is:",
+   "type": "numeric",
+   "prompt": "$11$",
+   "answer": "1/18"
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Problem-solving",
+   "stem": "Two fair six-sided dice are rolled and their numbers are added. Use a table to find the probability that the total is:",
+   "type": "numeric",
+   "prompt": "$3$ or $4$",
+   "answer": "5/36"
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Problem-solving",
+   "stem": "Two fair six-sided dice are rolled and their numbers are added. Use a table to find the probability that the total is:",
+   "type": "numeric",
+   "prompt": "$10$ or $12$",
+   "answer": "1/9"
+  },
+  {
+   "id": "q7d",
+   "label": "7d",
+   "section": "Problem-solving",
+   "stem": "Two fair six-sided dice are rolled and their numbers are added. Use a table to find the probability that the total is:",
+   "type": "numeric",
+   "prompt": "less than or equal to $6$",
+   "answer": "5/12"
+  },
+  {
+   "id": "q7e",
+   "label": "7e",
+   "section": "Problem-solving",
+   "stem": "Two fair six-sided dice are rolled and their numbers are added. Use a table to find the probability that the total is:",
+   "type": "numeric",
+   "prompt": "less than $6$",
+   "answer": "5/18"
+  },
+  {
+   "id": "q7f",
+   "label": "7f",
+   "section": "Problem-solving",
+   "stem": "Two fair six-sided dice are rolled and their numbers are added. Use a table to find the probability that the total is:",
+   "type": "numeric",
+   "prompt": "at least $9$",
+   "answer": "5/18"
+  },
+  {
+   "id": "q7g",
+   "label": "7g",
+   "section": "Problem-solving",
+   "stem": "Two fair six-sided dice are rolled and their numbers are added. Use a table to find the probability that the total is:",
+   "type": "numeric",
+   "prompt": "at most $3$",
+   "answer": "1/12"
+  },
+  {
+   "id": "q7h",
+   "label": "7h",
+   "section": "Problem-solving",
+   "stem": "Two fair six-sided dice are rolled and their numbers are added. Use a table to find the probability that the total is:",
+   "type": "numeric",
+   "prompt": "$13$",
+   "answer": "0"
+  },
+  {
+   "id": "q7i",
+   "label": "7i",
+   "section": "Problem-solving",
+   "stem": "Two fair six-sided dice are rolled and their numbers are added.",
+   "type": "numeric",
+   "prompt": "Which total is the most likely?",
+   "answer": "7"
+  },
+  {
+   "id": "q7j",
+   "label": "7j",
+   "section": "Problem-solving",
+   "stem": "Two fair six-sided dice are rolled and their numbers are added.",
+   "type": "numeric",
+   "prompt": "What is the probability of rolling that most likely total?",
+   "answer": "1/6"
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Reasoning",
+   "stem": "Two letters are chosen at random from the word CHOCOLATE.",
+   "type": "numeric",
+   "prompt": "How many outcomes are in the sample space if the letters are chosen with replacement?",
+   "answer": "81"
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Reasoning",
+   "stem": "Two letters are chosen at random from the word CHOCOLATE.",
+   "type": "numeric",
+   "prompt": "How many outcomes are in the sample space if the letters are chosen without replacement?",
+   "answer": "72"
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Reasoning",
+   "stem": "Two letters are chosen at random from the word CHOCOLATE.",
+   "type": "numeric",
+   "prompt": "With replacement, how many of the outcomes show the same letter twice?",
+   "answer": "13"
+  },
+  {
+   "id": "q8d",
+   "label": "8d",
+   "section": "Reasoning",
+   "stem": "Two letters are chosen at random from the word CHOCOLATE.",
+   "type": "numeric",
+   "prompt": "Without replacement, how many of the outcomes show the same letter twice?",
+   "answer": "4"
+  },
+  {
+   "id": "q9",
+   "label": "9",
+   "section": "Reasoning",
+   "type": "choice",
+   "prompt": "Two letters are chosen from the word FEET without replacement. Is it possible to get the outcome (E, E)?",
+   "answer": 0,
+   "options": [
+    "Yes, because the word has two E's",
+    "No, because the first E is not put back"
+   ]
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Reasoning",
+   "stem": "A bag holds four counters, each a different colour: red (R), green (G), blue (B) and white (W).",
+   "type": "numeric",
+   "prompt": "A counter is taken, put back, and then a second counter is taken. Find Pr(R, W), a red counter then a white counter.",
+   "answer": "1/16"
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Reasoning",
+   "stem": "A bag holds four counters, each a different colour: red (R), green (G), blue (B) and white (W).",
+   "type": "numeric",
+   "prompt": "This time the first counter is not put back before the second is taken. Find Pr(R, W).",
+   "answer": "1/12"
+  },
+  {
+   "id": "q11",
+   "label": "11",
+   "section": "Reasoning",
+   "type": "list",
+   "prompt": "A six-sided die and an eight-sided die (numbered $1$ to $8$) are rolled together and the numbers are added. Which total or totals have the highest probability?",
+   "answer": [
+    "7",
+    "8",
+    "9"
+   ],
+   "hint": "If there is more than one, type them separated by commas"
+  },
+  {
+   "id": "q12a",
+   "label": "12a",
+   "section": "Reasoning",
+   "stem": "A spinner numbered $1$ to $40$, with equal sectors, is spun twice. Find the probability that the total of the two spins is:",
+   "type": "numeric",
+   "prompt": "$80$",
+   "answer": "1/1600"
+  },
+  {
+   "id": "q12b",
+   "label": "12b",
+   "section": "Reasoning",
+   "stem": "A spinner numbered $1$ to $40$, with equal sectors, is spun twice. Find the probability that the total of the two spins is:",
+   "type": "numeric",
+   "prompt": "$41$",
+   "answer": "1/40"
+  },
+  {
+   "id": "q12c",
+   "label": "12c",
+   "section": "Reasoning",
+   "stem": "A spinner numbered $1$ to $40$, with equal sectors, is spun twice. Find the probability that the total of the two spins is:",
+   "type": "numeric",
+   "prompt": "$79$",
+   "answer": "1/800"
+  },
+  {
+   "id": "q12d",
+   "label": "12d",
+   "section": "Reasoning",
+   "stem": "A spinner numbered $1$ to $40$, with equal sectors, is spun twice. Find the probability that the total of the two spins is:",
+   "type": "numeric",
+   "prompt": "$42$",
+   "answer": "39/1600"
+  },
+  {
+   "id": "q12e",
+   "label": "12e",
+   "section": "Reasoning",
+   "stem": "A spinner numbered $1$ to $40$, with equal sectors, is spun twice. Find the probability that the total of the two spins is:",
+   "type": "numeric",
+   "prompt": "$45$",
+   "answer": "9/400"
+  },
+  {
+   "id": "q13a",
+   "label": "13a",
+   "section": "Enrichment",
+   "stem": "Two cards are dealt to you from a standard pack of $52$ playing cards (four suits, hearts, diamonds, clubs and spades, each with $2$ to $10$, J, Q, K and A). You keep both cards. Count the first card and the second card in order.",
+   "type": "choice",
+   "prompt": "Is this selection with replacement or without replacement?",
+   "answer": 1,
+   "options": [
+    "With replacement",
+    "Without replacement"
+   ]
+  },
+  {
+   "id": "q13b",
+   "label": "13b",
+   "section": "Enrichment",
+   "stem": "Two cards are dealt to you from a standard pack of $52$ playing cards (four suits, hearts, diamonds, clubs and spades, each with $2$ to $10$, J, Q, K and A). You keep both cards. Count the first card and the second card in order.",
+   "type": "numeric",
+   "prompt": "How many outcomes are in the sample space?",
+   "answer": "2652"
+  },
+  {
+   "id": "q13c",
+   "label": "13c",
+   "section": "Enrichment",
+   "stem": "Two cards are dealt to you from a standard pack of $52$ playing cards (four suits, hearts, diamonds, clubs and spades, each with $2$ to $10$, J, Q, K and A). You keep both cards. Count the first card and the second card in order.",
+   "type": "numeric",
+   "prompt": "What is the probability of receiving the ace of spades and the king of spades (in either order)?",
+   "answer": "1/1326"
+  },
+  {
+   "id": "q13d",
+   "label": "13d",
+   "section": "Enrichment",
+   "stem": "Two cards are dealt to you from a standard pack of $52$ playing cards (four suits, hearts, diamonds, clubs and spades, each with $2$ to $10$, J, Q, K and A). You keep both cards. Count the first card and the second card in order.",
+   "type": "numeric",
+   "prompt": "Find the probability that both cards are picture cards (J, Q or K).",
+   "answer": "11/221"
+  },
+  {
+   "id": "q13e",
+   "label": "13e",
+   "section": "Enrichment",
+   "stem": "Two cards are dealt to you from a standard pack of $52$ playing cards (four suits, hearts, diamonds, clubs and spades, each with $2$ to $10$, J, Q, K and A). You keep both cards. Count the first card and the second card in order.",
+   "type": "numeric",
+   "prompt": "Find the probability that both cards are red (hearts or diamonds).",
+   "answer": "25/102"
+  }
+ ]
+},
+{
+ "id": "y9-9e",
+ "year": 9,
+ "chapter": "Chapter 9: Probability and statistics",
+ "title": "9E Using tree diagrams",
+ "description": "Use tree diagrams to list outcomes of multi-step experiments, with and without replacement, and find probabilities.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "A spinner with two equal halves, red (R) and green (G), is spun twice. The tree diagram shows the outcomes.",
+   "type": "text",
+   "prompt": "Complete the tree diagram. Which outcome is shown as ?",
+   "answer": "GR",
+   "accept": [
+    "G R",
+    "G, R"
+   ],
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "seg": [
+       3.35,
+       -0.45,
+       5.55,
+       0
+      ]
+     },
+     {
+      "label": "R",
+      "at": [
+       6,
+       0
+      ]
+     },
+     {
+      "seg": [
+       3.35,
+       -0.45,
+       5.55,
+       -0.9
+      ]
+     },
+     {
+      "label": "G",
+      "at": [
+       6,
+       -0.9
+      ]
+     },
+     {
+      "seg": [
+       3.35,
+       -2.25,
+       5.55,
+       -1.8
+      ]
+     },
+     {
+      "label": "R",
+      "at": [
+       6,
+       -1.8
+      ]
+     },
+     {
+      "seg": [
+       3.35,
+       -2.25,
+       5.55,
+       -2.7
+      ]
+     },
+     {
+      "label": "G",
+      "at": [
+       6,
+       -2.7
+      ]
+     },
+     {
+      "seg": [
+       0,
+       -1.35,
+       2.55,
+       -0.45
+      ]
+     },
+     {
+      "label": "R",
+      "at": [
+       3,
+       -0.45
+      ]
+     },
+     {
+      "seg": [
+       0,
+       -1.35,
+       2.55,
+       -2.25
+      ]
+     },
+     {
+      "label": "G",
+      "at": [
+       3,
+       -2.25
+      ]
+     },
+     {
+      "label": "RR",
+      "at": [
+       8.4,
+       0
+      ]
+     },
+     {
+      "label": "RG",
+      "at": [
+       8.4,
+       -0.9
+      ]
+     },
+     {
+      "label": "?",
+      "at": [
+       8.4,
+       -1.8
+      ]
+     },
+     {
+      "label": "GG",
+      "at": [
+       8.4,
+       -2.7
+      ]
+     },
+     {
+      "label": "Outcome",
+      "at": [
+       8.4,
+       0.9
+      ]
+     },
+     {
+      "label": "Spin 1",
+      "at": [
+       3,
+       0.9
+      ]
+     },
+     {
+      "label": "Spin 2",
+      "at": [
+       6,
+       0.9
+      ]
+     }
+    ]
+   },
+   "hint": "Type the letters together, like the other outcomes, for example RG"
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "A spinner with two equal halves, red (R) and green (G), is spun twice. The tree diagram shows the outcomes.",
+   "type": "numeric",
+   "prompt": "What is the total number of outcomes?",
+   "answer": "4"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "A spinner with two equal halves, red (R) and green (G), is spun twice. The tree diagram shows the outcomes.",
+   "type": "numeric",
+   "prompt": "Find the probability of spinning two greens.",
+   "answer": "1/4",
+   "hint": "Type a fraction, for example 3/8"
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "A spinner with two equal halves, red (R) and green (G), is spun twice. The tree diagram shows the outcomes.",
+   "type": "numeric",
+   "prompt": "Find the probability of spinning exactly one green.",
+   "answer": "1/2"
+  },
+  {
+   "id": "q1e",
+   "label": "1e",
+   "section": "Fluency",
+   "stem": "A spinner with two equal halves, red (R) and green (G), is spun twice. The tree diagram shows the outcomes.",
+   "type": "numeric",
+   "prompt": "Find the probability of spinning at least one red.",
+   "answer": "3/4"
+  },
+  {
+   "id": "q1f",
+   "label": "1f",
+   "section": "Fluency",
+   "stem": "A spinner with two equal halves, red (R) and green (G), is spun twice. The tree diagram shows the outcomes.",
+   "type": "numeric",
+   "prompt": "Find the probability of spinning at least one green.",
+   "answer": "3/4"
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "A spinner with four equal sections numbered $1$, $2$, $3$ and $4$ is spun twice. Use a tree diagram to list the outcomes.",
+   "type": "numeric",
+   "prompt": "What is the total number of possible outcomes?",
+   "answer": "16"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "A spinner with four equal sections numbered $1$, $2$, $3$ and $4$ is spun twice. Use a tree diagram to list the outcomes.",
+   "type": "numeric",
+   "prompt": "Find the probability of spinning two $4$s.",
+   "answer": "1/16"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "A spinner with four equal sections numbered $1$, $2$, $3$ and $4$ is spun twice. Use a tree diagram to list the outcomes.",
+   "type": "numeric",
+   "prompt": "Find the probability of spinning at least one $4$.",
+   "answer": "7/16"
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "A spinner with four equal sections numbered $1$, $2$, $3$ and $4$ is spun twice. Use a tree diagram to list the outcomes.",
+   "type": "numeric",
+   "prompt": "Find the probability of spinning no more than one $3$.",
+   "answer": "15/16"
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "A spinner with four equal sections numbered $1$, $2$, $3$ and $4$ is spun twice. Use a tree diagram to list the outcomes.",
+   "type": "numeric",
+   "prompt": "Find the probability of spinning two even numbers.",
+   "answer": "1/4"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Two people are chosen at random, without replacement, from a group of four: Ana (A), Ben (B), Cleo (C) and Dev (D). The tree diagram shows the outcomes.",
+   "type": "text",
+   "prompt": "Which outcome is shown as ?",
+   "answer": "CD",
+   "accept": [
+    "C D",
+    "C, D"
+   ],
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "seg": [
+       3.35,
+       -0.8,
+       5.55,
+       0
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       6,
+       0
+      ]
+     },
+     {
+      "seg": [
+       3.35,
+       -0.8,
+       5.55,
+       -0.8
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       6,
+       -0.8
+      ]
+     },
+     {
+      "seg": [
+       3.35,
+       -0.8,
+       5.55,
+       -1.6
+      ]
+     },
+     {
+      "label": "D",
+      "at": [
+       6,
+       -1.6
+      ]
+     },
+     {
+      "seg": [
+       3.35,
+       -3.2,
+       5.55,
+       -2.4
+      ]
+     },
+     {
+      "label": "A",
+      "at": [
+       6,
+       -2.4
+      ]
+     },
+     {
+      "seg": [
+       3.35,
+       -3.2,
+       5.55,
+       -3.2
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       6,
+       -3.2
+      ]
+     },
+     {
+      "seg": [
+       3.35,
+       -3.2,
+       5.55,
+       -4
+      ]
+     },
+     {
+      "label": "D",
+      "at": [
+       6,
+       -4
+      ]
+     },
+     {
+      "seg": [
+       3.35,
+       -5.6,
+       5.55,
+       -4.8
+      ]
+     },
+     {
+      "label": "A",
+      "at": [
+       6,
+       -4.8
+      ]
+     },
+     {
+      "seg": [
+       3.35,
+       -5.6,
+       5.55,
+       -5.6
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       6,
+       -5.6
+      ]
+     },
+     {
+      "seg": [
+       3.35,
+       -5.6,
+       5.55,
+       -6.4
+      ]
+     },
+     {
+      "label": "D",
+      "at": [
+       6,
+       -6.4
+      ]
+     },
+     {
+      "seg": [
+       3.35,
+       -8,
+       5.55,
+       -7.2
+      ]
+     },
+     {
+      "label": "A",
+      "at": [
+       6,
+       -7.2
+      ]
+     },
+     {
+      "seg": [
+       3.35,
+       -8,
+       5.55,
+       -8
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       6,
+       -8
+      ]
+     },
+     {
+      "seg": [
+       3.35,
+       -8,
+       5.55,
+       -8.8
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       6,
+       -8.8
+      ]
+     },
+     {
+      "seg": [
+       0,
+       -4.4,
+       2.55,
+       -0.8
+      ]
+     },
+     {
+      "label": "A",
+      "at": [
+       3,
+       -0.8
+      ]
+     },
+     {
+      "seg": [
+       0,
+       -4.4,
+       2.55,
+       -3.2
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       3,
+       -3.2
+      ]
+     },
+     {
+      "seg": [
+       0,
+       -4.4,
+       2.55,
+       -5.6
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       3,
+       -5.6
+      ]
+     },
+     {
+      "seg": [
+       0,
+       -4.4,
+       2.55,
+       -8
+      ]
+     },
+     {
+      "label": "D",
+      "at": [
+       3,
+       -8
+      ]
+     },
+     {
+      "label": "AB",
+      "at": [
+       8.4,
+       0
+      ]
+     },
+     {
+      "label": "AC",
+      "at": [
+       8.4,
+       -0.8
+      ]
+     },
+     {
+      "label": "AD",
+      "at": [
+       8.4,
+       -1.6
+      ]
+     },
+     {
+      "label": "BA",
+      "at": [
+       8.4,
+       -2.4
+      ]
+     },
+     {
+      "label": "BC",
+      "at": [
+       8.4,
+       -3.2
+      ]
+     },
+     {
+      "label": "BD",
+      "at": [
+       8.4,
+       -4
+      ]
+     },
+     {
+      "label": "CA",
+      "at": [
+       8.4,
+       -4.8
+      ]
+     },
+     {
+      "label": "CB",
+      "at": [
+       8.4,
+       -5.6
+      ]
+     },
+     {
+      "label": "?",
+      "at": [
+       8.4,
+       -6.4
+      ]
+     },
+     {
+      "label": "DA",
+      "at": [
+       8.4,
+       -7.2
+      ]
+     },
+     {
+      "label": "DB",
+      "at": [
+       8.4,
+       -8
+      ]
+     },
+     {
+      "label": "DC",
+      "at": [
+       8.4,
+       -8.8
+      ]
+     },
+     {
+      "label": "Outcome",
+      "at": [
+       8.4,
+       0.9
+      ]
+     },
+     {
+      "label": "1st",
+      "at": [
+       3,
+       0.9
+      ]
+     },
+     {
+      "label": "2nd",
+      "at": [
+       6,
+       0.9
+      ]
+     }
+    ]
+   },
+   "hint": "Type the letters together, for example AB"
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Two people are chosen at random, without replacement, from a group of four: Ana (A), Ben (B), Cleo (C) and Dev (D). The tree diagram shows the outcomes.",
+   "type": "numeric",
+   "prompt": "How many outcomes are there?",
+   "answer": "12"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Two people are chosen at random, without replacement, from a group of four: Ana (A), Ben (B), Cleo (C) and Dev (D). The tree diagram shows the outcomes.",
+   "type": "numeric",
+   "prompt": "Find the probability that the two people chosen include both Ana and Ben.",
+   "answer": "1/6"
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Two people are chosen at random, without replacement, from a group of four: Ana (A), Ben (B), Cleo (C) and Dev (D). The tree diagram shows the outcomes.",
+   "type": "numeric",
+   "prompt": "Find the probability that the two people chosen include Dev.",
+   "answer": "1/2"
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "Two people are chosen at random, without replacement, from a group of four: Ana (A), Ben (B), Cleo (C) and Dev (D). The tree diagram shows the outcomes.",
+   "type": "numeric",
+   "prompt": "Find the probability that the two people chosen include Dev or Cleo (or both).",
+   "answer": "5/6"
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "A drawer holds two white socks (W), one grey sock (G) and one navy sock (N). Two socks are taken at random without replacement.",
+   "type": "text",
+   "prompt": "Complete the tree diagram. Which outcome is shown as ?",
+   "answer": "GN",
+   "accept": [
+    "G N",
+    "G, N"
+   ],
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "seg": [
+       3.35,
+       -0.8,
+       5.55,
+       0
+      ]
+     },
+     {
+      "label": "W",
+      "at": [
+       6,
+       0
+      ]
+     },
+     {
+      "seg": [
+       3.35,
+       -0.8,
+       5.55,
+       -0.8
+      ]
+     },
+     {
+      "label": "G",
+      "at": [
+       6,
+       -0.8
+      ]
+     },
+     {
+      "seg": [
+       3.35,
+       -0.8,
+       5.55,
+       -1.6
+      ]
+     },
+     {
+      "label": "N",
+      "at": [
+       6,
+       -1.6
+      ]
+     },
+     {
+      "seg": [
+       3.35,
+       -3.2,
+       5.55,
+       -2.4
+      ]
+     },
+     {
+      "label": "W",
+      "at": [
+       6,
+       -2.4
+      ]
+     },
+     {
+      "seg": [
+       3.35,
+       -3.2,
+       5.55,
+       -3.2
+      ]
+     },
+     {
+      "label": "G",
+      "at": [
+       6,
+       -3.2
+      ]
+     },
+     {
+      "seg": [
+       3.35,
+       -3.2,
+       5.55,
+       -4
+      ]
+     },
+     {
+      "label": "N",
+      "at": [
+       6,
+       -4
+      ]
+     },
+     {
+      "seg": [
+       3.35,
+       -5.6,
+       5.55,
+       -4.8
+      ]
+     },
+     {
+      "label": "W",
+      "at": [
+       6,
+       -4.8
+      ]
+     },
+     {
+      "seg": [
+       3.35,
+       -5.6,
+       5.55,
+       -5.6
+      ]
+     },
+     {
+      "label": "W",
+      "at": [
+       6,
+       -5.6
+      ]
+     },
+     {
+      "seg": [
+       3.35,
+       -5.6,
+       5.55,
+       -6.4
+      ]
+     },
+     {
+      "label": "N",
+      "at": [
+       6,
+       -6.4
+      ]
+     },
+     {
+      "seg": [
+       3.35,
+       -8,
+       5.55,
+       -7.2
+      ]
+     },
+     {
+      "label": "W",
+      "at": [
+       6,
+       -7.2
+      ]
+     },
+     {
+      "seg": [
+       3.35,
+       -8,
+       5.55,
+       -8
+      ]
+     },
+     {
+      "label": "W",
+      "at": [
+       6,
+       -8
+      ]
+     },
+     {
+      "seg": [
+       3.35,
+       -8,
+       5.55,
+       -8.8
+      ]
+     },
+     {
+      "label": "G",
+      "at": [
+       6,
+       -8.8
+      ]
+     },
+     {
+      "seg": [
+       0,
+       -4.4,
+       2.55,
+       -0.8
+      ]
+     },
+     {
+      "label": "W",
+      "at": [
+       3,
+       -0.8
+      ]
+     },
+     {
+      "seg": [
+       0,
+       -4.4,
+       2.55,
+       -3.2
+      ]
+     },
+     {
+      "label": "W",
+      "at": [
+       3,
+       -3.2
+      ]
+     },
+     {
+      "seg": [
+       0,
+       -4.4,
+       2.55,
+       -5.6
+      ]
+     },
+     {
+      "label": "G",
+      "at": [
+       3,
+       -5.6
+      ]
+     },
+     {
+      "seg": [
+       0,
+       -4.4,
+       2.55,
+       -8
+      ]
+     },
+     {
+      "label": "N",
+      "at": [
+       3,
+       -8
+      ]
+     },
+     {
+      "label": "WW",
+      "at": [
+       8.4,
+       0
+      ]
+     },
+     {
+      "label": "WG",
+      "at": [
+       8.4,
+       -0.8
+      ]
+     },
+     {
+      "label": "WN",
+      "at": [
+       8.4,
+       -1.6
+      ]
+     },
+     {
+      "label": "WW",
+      "at": [
+       8.4,
+       -2.4
+      ]
+     },
+     {
+      "label": "WG",
+      "at": [
+       8.4,
+       -3.2
+      ]
+     },
+     {
+      "label": "WN",
+      "at": [
+       8.4,
+       -4
+      ]
+     },
+     {
+      "label": "GW",
+      "at": [
+       8.4,
+       -4.8
+      ]
+     },
+     {
+      "label": "GW",
+      "at": [
+       8.4,
+       -5.6
+      ]
+     },
+     {
+      "label": "?",
+      "at": [
+       8.4,
+       -6.4
+      ]
+     },
+     {
+      "label": "NW",
+      "at": [
+       8.4,
+       -7.2
+      ]
+     },
+     {
+      "label": "NW",
+      "at": [
+       8.4,
+       -8
+      ]
+     },
+     {
+      "label": "NG",
+      "at": [
+       8.4,
+       -8.8
+      ]
+     },
+     {
+      "label": "Outcome",
+      "at": [
+       8.4,
+       0.9
+      ]
+     },
+     {
+      "label": "Sock 1",
+      "at": [
+       3,
+       0.9
+      ]
+     },
+     {
+      "label": "Sock 2",
+      "at": [
+       6,
+       0.9
+      ]
+     }
+    ]
+   },
+   "hint": "Type the letters together, like the other outcomes, for example WG"
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "A drawer holds two white socks (W), one grey sock (G) and one navy sock (N). Two socks are taken at random without replacement.",
+   "type": "numeric",
+   "prompt": "Find the probability of getting a white sock and a navy sock.",
+   "answer": "1/3"
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "A drawer holds two white socks (W), one grey sock (G) and one navy sock (N). Two socks are taken at random without replacement.",
+   "type": "numeric",
+   "prompt": "Find the probability of getting two white socks.",
+   "answer": "1/6"
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "A drawer holds two white socks (W), one grey sock (G) and one navy sock (N). Two socks are taken at random without replacement.",
+   "type": "numeric",
+   "prompt": "Find the probability of getting a pair of socks of the same colour.",
+   "answer": "1/6"
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Fluency",
+   "stem": "A drawer holds two white socks (W), one grey sock (G) and one navy sock (N). Two socks are taken at random without replacement.",
+   "type": "numeric",
+   "prompt": "Find the probability of getting a pair of socks of different colours.",
+   "answer": "5/6"
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Fluency",
+   "stem": "A student who has not studied guesses every answer on a multiple-choice quiz. There are three questions, each with four options (A, B, C and D), and only one option is correct for each question. Find the probability that the student guesses:",
+   "type": "numeric",
+   "prompt": "exactly $1$ correct answer",
+   "answer": "27/64"
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Fluency",
+   "stem": "A student who has not studied guesses every answer on a multiple-choice quiz. There are three questions, each with four options (A, B, C and D), and only one option is correct for each question. Find the probability that the student guesses:",
+   "type": "numeric",
+   "prompt": "exactly $2$ correct answers",
+   "answer": "9/64"
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Fluency",
+   "stem": "A student who has not studied guesses every answer on a multiple-choice quiz. There are three questions, each with four options (A, B, C and D), and only one option is correct for each question. Find the probability that the student guesses:",
+   "type": "numeric",
+   "prompt": "all $3$ correct answers",
+   "answer": "1/64"
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Fluency",
+   "stem": "A student who has not studied guesses every answer on a multiple-choice quiz. There are three questions, each with four options (A, B, C and D), and only one option is correct for each question. Find the probability that the student guesses:",
+   "type": "numeric",
+   "prompt": "$0$ correct answers",
+   "answer": "27/64"
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Problem-solving",
+   "stem": "Lena makes three trips in order: home to the library (A), the library to the pool (B), and the pool to her friend's house (C). The table shows the ways she can travel on each trip.",
+   "type": "numeric",
+   "prompt": "Draw a tree diagram of all her travel options. What is the total number of possible outcomes?",
+   "answer": "12",
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "Trip",
+      "Ways to travel"
+     ],
+     [
+      "Home to A",
+      "tram or bike"
+     ],
+     [
+      "A to B",
+      "bus, tram or bike"
+     ],
+     [
+      "B to C",
+      "tram or walk"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Problem-solving",
+   "stem": "Lena makes three trips in order: home to the library (A), the library to the pool (B), and the pool to her friend's house (C). The table shows the ways she can travel on each trip.",
+   "type": "numeric",
+   "prompt": "Lena chooses one of the outcomes at random. Find the probability that she uses the tram all three times.",
+   "answer": "1/12"
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Problem-solving",
+   "stem": "Lena makes three trips in order: home to the library (A), the library to the pool (B), and the pool to her friend's house (C). The table shows the ways she can travel on each trip.",
+   "type": "numeric",
+   "prompt": "Lena chooses one of the outcomes at random. Find the probability that she uses the tram exactly twice.",
+   "answer": "1/3"
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Problem-solving",
+   "stem": "Lena makes three trips in order: home to the library (A), the library to the pool (B), and the pool to her friend's house (C). The table shows the ways she can travel on each trip.",
+   "type": "numeric",
+   "prompt": "Lena chooses one of the outcomes at random. Find the probability that she uses her bike exactly once.",
+   "answer": "1/2"
+  },
+  {
+   "id": "q6e",
+   "label": "6e",
+   "section": "Problem-solving",
+   "stem": "Lena makes three trips in order: home to the library (A), the library to the pool (B), and the pool to her friend's house (C). The table shows the ways she can travel on each trip.",
+   "type": "numeric",
+   "prompt": "Lena chooses one of the outcomes at random. Find the probability that she uses a different way of travelling on each trip.",
+   "answer": "5/12"
+  },
+  {
+   "id": "q6f",
+   "label": "6f",
+   "section": "Problem-solving",
+   "stem": "Lena makes three trips in order: home to the library (A), the library to the pool (B), and the pool to her friend's house (C). The table shows the ways she can travel on each trip.",
+   "type": "numeric",
+   "prompt": "Lena chooses one of the outcomes at random. Find the probability that she uses walking at least once.",
+   "answer": "1/2"
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Problem-solving",
+   "stem": "A paint shop shelf holds equal numbers of blue and red paint tins, all mixed up, with the colour labels missing. You grab five tins. The shelf is refilled straight away, so the probabilities stay the same. Find the probability that you get:",
+   "type": "numeric",
+   "prompt": "five blue tins",
+   "answer": "1/32"
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Problem-solving",
+   "stem": "A paint shop shelf holds equal numbers of blue and red paint tins, all mixed up, with the colour labels missing. You grab five tins. The shelf is refilled straight away, so the probabilities stay the same. Find the probability that you get:",
+   "type": "numeric",
+   "prompt": "five red tins",
+   "answer": "1/32"
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Problem-solving",
+   "stem": "A paint shop shelf holds equal numbers of blue and red paint tins, all mixed up, with the colour labels missing. You grab five tins. The shelf is refilled straight away, so the probabilities stay the same. Find the probability that you get:",
+   "type": "numeric",
+   "prompt": "at least four blue tins",
+   "answer": "3/16"
+  },
+  {
+   "id": "q7d",
+   "label": "7d",
+   "section": "Problem-solving",
+   "stem": "A paint shop shelf holds equal numbers of blue and red paint tins, all mixed up, with the colour labels missing. You grab five tins. The shelf is refilled straight away, so the probabilities stay the same. Find the probability that you get:",
+   "type": "numeric",
+   "prompt": "at least two red tins",
+   "answer": "13/16"
+  },
+  {
+   "id": "q7e",
+   "label": "7e",
+   "section": "Problem-solving",
+   "stem": "A paint shop shelf holds equal numbers of blue and red paint tins, all mixed up, with the colour labels missing. You grab five tins. The shelf is refilled straight away, so the probabilities stay the same. Find the probability that you get:",
+   "type": "numeric",
+   "prompt": "at least one blue tin",
+   "answer": "31/32"
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Reasoning",
+   "stem": "A spinner with two equal halves, Win and Lose, is spun four times. Use a tree diagram to find the probability of spinning:",
+   "type": "numeric",
+   "prompt": "exactly $0$ Wins",
+   "answer": "1/16"
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Reasoning",
+   "stem": "A spinner with two equal halves, Win and Lose, is spun four times. Use a tree diagram to find the probability of spinning:",
+   "type": "numeric",
+   "prompt": "exactly $1$ Win",
+   "answer": "1/4"
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Reasoning",
+   "stem": "A spinner with two equal halves, Win and Lose, is spun four times. Use a tree diagram to find the probability of spinning:",
+   "type": "numeric",
+   "prompt": "exactly $2$ Wins",
+   "answer": "3/8"
+  },
+  {
+   "id": "q8d",
+   "label": "8d",
+   "section": "Reasoning",
+   "stem": "A spinner with two equal halves, Win and Lose, is spun four times. Use a tree diagram to find the probability of spinning:",
+   "type": "numeric",
+   "prompt": "exactly $3$ Wins",
+   "answer": "1/4"
+  },
+  {
+   "id": "q8e",
+   "label": "8e",
+   "section": "Reasoning",
+   "stem": "A spinner with two equal halves, Win and Lose, is spun four times. Use a tree diagram to find the probability of spinning:",
+   "type": "numeric",
+   "prompt": "exactly $4$ Wins",
+   "answer": "1/16"
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Reasoning",
+   "type": "numeric",
+   "prompt": "A coin is tossed $6$ times. How many outcomes are there?",
+   "answer": "64"
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Reasoning",
+   "type": "expression",
+   "prompt": "A coin is tossed $n$ times. Write a rule for the number of outcomes in the sample space.",
+   "answer": "2^n",
+   "hint": "Type a power with ^, for example 3^n"
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Reasoning",
+   "stem": "A bag holds four red counters and two blue counters. Two counters are taken at random. Use a tree diagram to find:",
+   "type": "numeric",
+   "prompt": "Pr(two red counters), if the first counter is put back before the second is taken",
+   "answer": "4/9"
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Reasoning",
+   "stem": "A bag holds four red counters and two blue counters. Two counters are taken at random. Use a tree diagram to find:",
+   "type": "numeric",
+   "prompt": "Pr(one counter of each colour), if the first counter is put back",
+   "answer": "4/9"
+  },
+  {
+   "id": "q10c",
+   "label": "10c",
+   "section": "Reasoning",
+   "stem": "A bag holds four red counters and two blue counters. Two counters are taken at random. Use a tree diagram to find:",
+   "type": "numeric",
+   "prompt": "Pr(two red counters), if the first counter is not put back",
+   "answer": "2/5"
+  },
+  {
+   "id": "q10d",
+   "label": "10d",
+   "section": "Reasoning",
+   "stem": "A bag holds four red counters and two blue counters. Two counters are taken at random. Use a tree diagram to find:",
+   "type": "numeric",
+   "prompt": "Pr(one counter of each colour), if the first counter is not put back",
+   "answer": "8/15"
+  },
+  {
+   "id": "q10e",
+   "label": "10e",
+   "section": "Reasoning",
+   "stem": "A bag holds four red counters and two blue counters. Two counters are taken at random. Use a tree diagram to find:",
+   "type": "choice",
+   "prompt": "Does putting the first counter back change these probabilities?",
+   "answer": 0,
+   "options": [
+    "Yes, the probabilities are different",
+    "No, they are the same"
+   ]
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Enrichment",
+   "stem": "Tess chooses at random a scarf from one green and two blue scarves, a top from one blue and two white tops, and a hat that is either blue or black. Use a tree diagram to find the probability that she chooses:",
+   "type": "numeric",
+   "prompt": "a blue scarf, a blue top and a black hat",
+   "answer": "1/9"
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Enrichment",
+   "stem": "Tess chooses at random a scarf from one green and two blue scarves, a top from one blue and two white tops, and a hat that is either blue or black. Use a tree diagram to find the probability that she chooses:",
+   "type": "numeric",
+   "prompt": "all three items blue",
+   "answer": "1/9"
+  },
+  {
+   "id": "q11c",
+   "label": "11c",
+   "section": "Enrichment",
+   "stem": "Tess chooses at random a scarf from one green and two blue scarves, a top from one blue and two white tops, and a hat that is either blue or black. Use a tree diagram to find the probability that she chooses:",
+   "type": "numeric",
+   "prompt": "exactly one blue item",
+   "answer": "7/18"
+  },
+  {
+   "id": "q11d",
+   "label": "11d",
+   "section": "Enrichment",
+   "stem": "Tess chooses at random a scarf from one green and two blue scarves, a top from one blue and two white tops, and a hat that is either blue or black. Use a tree diagram to find the probability that she chooses:",
+   "type": "numeric",
+   "prompt": "exactly two blue items",
+   "answer": "7/18"
+  },
+  {
+   "id": "q11e",
+   "label": "11e",
+   "section": "Enrichment",
+   "stem": "Tess chooses at random a scarf from one green and two blue scarves, a top from one blue and two white tops, and a hat that is either blue or black. Use a tree diagram to find the probability that she chooses:",
+   "type": "numeric",
+   "prompt": "at least two blue items",
+   "answer": "1/2"
+  },
+  {
+   "id": "q11f",
+   "label": "11f",
+   "section": "Enrichment",
+   "stem": "Tess chooses at random a scarf from one green and two blue scarves, a top from one blue and two white tops, and a hat that is either blue or black. Use a tree diagram to find the probability that she chooses:",
+   "type": "numeric",
+   "prompt": "a green hat",
+   "answer": "0"
+  },
+  {
+   "id": "q11g",
+   "label": "11g",
+   "section": "Enrichment",
+   "stem": "Tess chooses at random a scarf from one green and two blue scarves, a top from one blue and two white tops, and a hat that is either blue or black. Use a tree diagram to find the probability that she chooses:",
+   "type": "numeric",
+   "prompt": "a green scarf and a black hat",
+   "answer": "1/6"
+  },
+  {
+   "id": "q11h",
+   "label": "11h",
+   "section": "Enrichment",
+   "stem": "Tess chooses at random a scarf from one green and two blue scarves, a top from one blue and two white tops, and a hat that is either blue or black. Use a tree diagram to find the probability that she chooses:",
+   "type": "numeric",
+   "prompt": "a green scarf or a black hat (or both)",
+   "answer": "2/3"
+  },
+  {
+   "id": "q11i",
+   "label": "11i",
+   "section": "Enrichment",
+   "stem": "Tess chooses at random a scarf from one green and two blue scarves, a top from one blue and two white tops, and a hat that is either blue or black. Use a tree diagram to find the probability that she chooses:",
+   "type": "numeric",
+   "prompt": "no blue items",
+   "answer": "1/9"
+  },
+  {
+   "id": "q11j",
+   "label": "11j",
+   "section": "Enrichment",
+   "stem": "Tess chooses at random a scarf from one green and two blue scarves, a top from one blue and two white tops, and a hat that is either blue or black. Use a tree diagram to find the probability that she chooses:",
+   "type": "numeric",
+   "prompt": "a blue scarf or a white top or a black hat",
+   "answer": "17/18"
+  }
+ ]
+},
+{
+ "id": "y9-9f",
+ "year": 9,
+ "chapter": "Chapter 9: Probability and statistics",
+ "title": "9F Using relative frequencies to estimate probabilities",
+ "description": "Find experimental probabilities from results and use them to estimate expected numbers.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "A bag holds an unknown number of counters. A counter is taken out, its colour is noted and it is put back. This is done $200$ times, and $70$ of the counters drawn were red.",
+   "type": "numeric",
+   "prompt": "Find the experimental probability of drawing a red counter.",
+   "answer": "7/20",
+   "hint": "A fraction or a decimal is fine"
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "A bag holds an unknown number of counters. A counter is taken out, its colour is noted and it is put back. This is done $200$ times, and $70$ of the counters drawn were red.",
+   "type": "numeric",
+   "prompt": "Find the expected number of red counters drawn if this is done $200$ times.",
+   "answer": "70"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "A bag holds an unknown number of counters. A counter is taken out, its colour is noted and it is put back. This is done $200$ times, and $70$ of the counters drawn were red.",
+   "type": "numeric",
+   "prompt": "Find the expected number of red counters drawn if this is done $400$ times.",
+   "answer": "140"
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "A bag holds an unknown number of counters. A counter is taken out, its colour is noted and it is put back. This is done $200$ times, and $70$ of the counters drawn were red.",
+   "type": "numeric",
+   "prompt": "Find the expected number of red counters drawn if this is done $1000$ times.",
+   "answer": "350"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "In a survey of $250$ people chosen at random, $190$ said that they own a bike.",
+   "type": "numeric",
+   "prompt": "Calculate the experimental probability that a person chosen at random owns a bike.",
+   "answer": "19/25"
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "In a survey of $250$ people chosen at random, $190$ said that they own a bike.",
+   "type": "numeric",
+   "prompt": "Find the expected number of bike owners in a group of $500$ people.",
+   "answer": "380"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "In a survey of $250$ people chosen at random, $190$ said that they own a bike.",
+   "type": "numeric",
+   "prompt": "Find the expected number of bike owners in a group of $3000$ people.",
+   "answer": "2280"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "In a survey of $250$ people chosen at random, $190$ said that they own a bike.",
+   "type": "numeric",
+   "prompt": "Find the expected number of bike owners in a group of $50$ people.",
+   "answer": "38"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Use the experimental probability to estimate the chance of each event. Give a fraction or a decimal.",
+   "type": "numeric",
+   "prompt": "Kai will catch the bus to school today, given that he caught it on $12$ of the last $80$ school days.",
+   "answer": "3/20"
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Use the experimental probability to estimate the chance of each event. Give a fraction or a decimal.",
+   "type": "numeric",
+   "prompt": "Zoe will win her next game of chess, given that she has won $27$ of her last $45$ games.",
+   "answer": "3/5"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Use the experimental probability to estimate the chance of each event. Give a fraction or a decimal.",
+   "type": "numeric",
+   "prompt": "Sam will score with his next free throw, given that he scored with $39$ of his last $120$ attempts.",
+   "answer": "13/40"
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Problem-solving",
+   "stem": "The colours of cars passing a school were recorded for a short time, as shown in this frequency table.",
+   "type": "numeric",
+   "prompt": "How many cars had their colour recorded?",
+   "answer": "25",
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "Colour",
+      "Red",
+      "Black",
+      "White",
+      "Grey"
+     ],
+     [
+      "Frequency",
+      "6",
+      "9",
+      "8",
+      "2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Problem-solving",
+   "stem": "The colours of cars passing a school were recorded for a short time, as shown in this frequency table.",
+   "type": "numeric",
+   "prompt": "Find the experimental probability that a car is red.",
+   "answer": "6/25"
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Problem-solving",
+   "stem": "The colours of cars passing a school were recorded for a short time, as shown in this frequency table.",
+   "type": "numeric",
+   "prompt": "Find the experimental probability that a car is white.",
+   "answer": "8/25"
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Problem-solving",
+   "stem": "The colours of cars passing a school were recorded for a short time, as shown in this frequency table.",
+   "type": "numeric",
+   "prompt": "If the colours of $100$ cars were recorded, what would be the expected number of red cars?",
+   "answer": "24"
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Problem-solving",
+   "stem": "The colours of cars passing a school were recorded for a short time, as shown in this frequency table.",
+   "type": "numeric",
+   "prompt": "If the colours of $100$ cars were recorded, what would be the expected number of grey cars?",
+   "answer": "8"
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Problem-solving",
+   "stem": "The colours of cars passing a school were recorded for a short time, as shown in this frequency table.",
+   "type": "numeric",
+   "prompt": "If the colours of $100$ cars were recorded, what would be the expected number of red or grey cars?",
+   "answer": "32"
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Problem-solving",
+   "stem": "A fair six-sided die is rolled $180$ times. How many times would you expect each event to happen?",
+   "type": "numeric",
+   "prompt": "a $4$",
+   "answer": "30"
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Problem-solving",
+   "stem": "A fair six-sided die is rolled $180$ times. How many times would you expect each event to happen?",
+   "type": "numeric",
+   "prompt": "a $5$ or a $6$",
+   "answer": "60"
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Problem-solving",
+   "stem": "A fair six-sided die is rolled $180$ times. How many times would you expect each event to happen?",
+   "type": "numeric",
+   "prompt": "a number less than $3$",
+   "answer": "60"
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Problem-solving",
+   "stem": "A fair six-sided die is rolled $180$ times. How many times would you expect each event to happen?",
+   "type": "numeric",
+   "prompt": "a number that is at least $4$",
+   "answer": "90"
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Problem-solving",
+   "stem": "The letters of a three-letter word are written on separate cards. A card is chosen at random, noted and put back, and this is done $100$ times. The table shows the results.",
+   "type": "numeric",
+   "prompt": "Find the experimental probability of choosing an O.",
+   "answer": "13/20",
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "Letter",
+      "T",
+      "O"
+     ],
+     [
+      "Frequency",
+      "35",
+      "65"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Problem-solving",
+   "stem": "The letters of a three-letter word are written on separate cards. A card is chosen at random, noted and put back, and this is done $100$ times. The table shows the results.",
+   "type": "text",
+   "prompt": "Based on these results, what is the three-letter word likely to be?",
+   "answer": "TOO"
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Problem-solving",
+   "stem": "A spinner is divided into three regions, numbered $1$, $2$ and $3$, that are not necessarily the same size. It is spun $50$ times, with the results shown.",
+   "type": "numeric",
+   "prompt": "Find the experimental probability of spinning a $1$.",
+   "answer": "12/25",
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "Number",
+      "1",
+      "2",
+      "3"
+     ],
+     [
+      "Frequency",
+      "24",
+      "13",
+      "13"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Problem-solving",
+   "stem": "A spinner is divided into three regions, numbered $1$, $2$ and $3$, that are not necessarily the same size. It is spun $50$ times, with the results shown.",
+   "type": "numeric",
+   "prompt": "Find the experimental probability of spinning at least a $2$.",
+   "answer": "13/25"
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Problem-solving",
+   "stem": "A spinner is divided into three regions, numbered $1$, $2$ and $3$, that are not necessarily the same size. It is spun $50$ times, with the results shown.",
+   "type": "numeric",
+   "prompt": "Find the experimental probability of spinning a $1$ or a $3$.",
+   "answer": "37/50"
+  },
+  {
+   "id": "q7d",
+   "label": "7d",
+   "section": "Problem-solving",
+   "stem": "A spinner is divided into three regions, numbered $1$, $2$ and $3$, that are not necessarily the same size. It is spun $50$ times, with the results shown.",
+   "type": "numeric",
+   "prompt": "Based on these results, how many $3$s would you expect if the spinner is spun $300$ times?",
+   "answer": "78"
+  },
+  {
+   "id": "q7e",
+   "label": "7e",
+   "section": "Problem-solving",
+   "stem": "A spinner is divided into three regions, numbered $1$, $2$ and $3$, that are not necessarily the same size. It is spun $50$ times, with the results shown.",
+   "type": "choice",
+   "prompt": "The regions are really simple fractions of the spinner. Which division is most likely?",
+   "answer": 0,
+   "options": [
+    "1: one half, 2: one quarter, 3: one quarter",
+    "1: one third, 2: one third, 3: one third",
+    "1: one quarter, 2: one half, 3: one quarter"
+   ]
+  },
+  {
+   "id": "q8",
+   "label": "8",
+   "section": "Reasoning",
+   "type": "choice",
+   "prompt": "Which experimental probability best represents the chance that the bottle lands upright?",
+   "answer": 5,
+   "figure": {
+    "kind": "table",
+    "rows": [
+     [
+      "Number of flips",
+      "Times upright",
+      "Experimental probability"
+     ],
+     [
+      "1",
+      "0",
+      "0.00"
+     ],
+     [
+      "5",
+      "3",
+      "0.60"
+     ],
+     [
+      "10",
+      "2",
+      "0.20"
+     ],
+     [
+      "25",
+      "7",
+      "0.28"
+     ],
+     [
+      "50",
+      "16",
+      "0.32"
+     ],
+     [
+      "200",
+      "58",
+      "0.29"
+     ]
+    ]
+   },
+   "options": [
+    "0.00 (after 1 flip)",
+    "0.60 (after 5 flips)",
+    "0.20 (after 10 flips)",
+    "0.28 (after 25 flips)",
+    "0.32 (after 50 flips)",
+    "0.29 (after 200 flips)"
+   ]
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Reasoning",
+   "stem": "Theo rolls a fair six-sided die $12$ times and, amazingly, gets $10$ sixes.",
+   "type": "numeric",
+   "prompt": "Find the experimental probability of rolling a six.",
+   "answer": "5/6"
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Reasoning",
+   "stem": "Theo rolls a fair six-sided die $12$ times and, amazingly, gets $10$ sixes.",
+   "type": "choice",
+   "prompt": "Is it likely that Theo will get $10$ sixes again if he rolls the die $12$ more times?",
+   "answer": 1,
+   "options": [
+    "Yes, the die has shown it rolls lots of sixes",
+    "No, the die is fair, so about 2 sixes in 12 rolls is expected"
+   ]
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Reasoning",
+   "stem": "Do you think a coin is fair or biased, given each set of results?",
+   "type": "choice",
+   "prompt": "$52$ heads out of $100$ tosses",
+   "answer": 0,
+   "options": [
+    "Probably fair",
+    "Probably biased",
+    "Too few tosses to tell"
+   ]
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Reasoning",
+   "stem": "Do you think a coin is fair or biased, given each set of results?",
+   "type": "choice",
+   "prompt": "$19$ tails out of $20$ tosses",
+   "answer": 1,
+   "options": [
+    "Probably fair",
+    "Probably biased",
+    "Too few tosses to tell"
+   ]
+  },
+  {
+   "id": "q10c",
+   "label": "10c",
+   "section": "Reasoning",
+   "stem": "Do you think a coin is fair or biased, given each set of results?",
+   "type": "choice",
+   "prompt": "$1$ head out of $1$ toss",
+   "answer": 2,
+   "options": [
+    "Probably fair",
+    "Probably biased",
+    "Too few tosses to tell"
+   ]
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Reasoning",
+   "stem": "Is each statement true or false?",
+   "type": "choice",
+   "prompt": "The experimental probability is always equal to the theoretical probability.",
+   "answer": 1,
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Reasoning",
+   "stem": "Is each statement true or false?",
+   "type": "choice",
+   "prompt": "The experimental probability can be greater than the theoretical probability.",
+   "answer": 0,
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "id": "q11c",
+   "label": "11c",
+   "section": "Reasoning",
+   "stem": "Is each statement true or false?",
+   "type": "choice",
+   "prompt": "If the experimental probability is zero, then the theoretical probability is zero.",
+   "answer": 1,
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "id": "q11d",
+   "label": "11d",
+   "section": "Reasoning",
+   "stem": "Is each statement true or false?",
+   "type": "choice",
+   "prompt": "If the theoretical probability is zero, then the experimental probability is zero.",
+   "answer": 0,
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "id": "q12a",
+   "label": "12a",
+   "section": "Reasoning",
+   "stem": "One hundred darts are thrown at random at each dartboard, and none miss the board. How many darts would you expect to hit the shaded target?",
+   "type": "numeric",
+   "prompt": "The board is a rectangle $50$ cm by $40$ cm. The target is a square of side $20$ cm.",
+   "answer": "20",
+   "figure": {
+    "kind": "diagram",
+    "unit": 5,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        50,
+        0
+       ],
+       [
+        50,
+        40
+       ],
+       [
+        0,
+        40
+       ]
+      ]
+     },
+     {
+      "poly": [
+       [
+        15,
+        10
+       ],
+       [
+        35,
+        10
+       ],
+       [
+        35,
+        30
+       ],
+       [
+        15,
+        30
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "dim": [
+       0,
+       0,
+       50,
+       0
+      ],
+      "label": "50 cm",
+      "off": -5
+     },
+     {
+      "dim": [
+       50,
+       0,
+       50,
+       40
+      ],
+      "label": "40 cm",
+      "off": -5
+     },
+     {
+      "dim": [
+       35,
+       10,
+       35,
+       30
+      ],
+      "label": "20 cm",
+      "off": -4
+     },
+     {
+      "angle": [
+       15,
+       10,
+       0,
+       90
+      ],
+      "right": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "q12b",
+   "label": "12b",
+   "section": "Reasoning",
+   "stem": "One hundred darts are thrown at random at each dartboard, and none miss the board. How many darts would you expect to hit the shaded target?",
+   "type": "numeric",
+   "prompt": "The board is a square of side $80$ cm. The target is a triangle with base $40$ cm and height $32$ cm.",
+   "answer": "10",
+   "figure": {
+    "kind": "diagram",
+    "unit": 3.5,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        80,
+        0
+       ],
+       [
+        80,
+        80
+       ],
+       [
+        0,
+        80
+       ]
+      ]
+     },
+     {
+      "poly": [
+       [
+        20,
+        20
+       ],
+       [
+        60,
+        20
+       ],
+       [
+        40,
+        52
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "dim": [
+       0,
+       0,
+       80,
+       0
+      ],
+      "label": "80 cm",
+      "off": -6
+     },
+     {
+      "dim": [
+       20,
+       20,
+       60,
+       20
+      ],
+      "label": "40 cm",
+      "off": -5
+     },
+     {
+      "seg": [
+       40,
+       20,
+       40,
+       52
+      ],
+      "dash": true
+     },
+     {
+      "dim": [
+       60,
+       20,
+       60,
+       52
+      ],
+      "label": "32 cm",
+      "off": -5
+     },
+     {
+      "angle": [
+       40,
+       20,
+       0,
+       90
+      ],
+      "right": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "q12c",
+   "label": "12c",
+   "section": "Reasoning",
+   "stem": "One hundred darts are thrown at random at each dartboard, and none miss the board. How many darts would you expect to hit the shaded target?",
+   "type": "numeric",
+   "prompt": "The board is a triangle with base $30$ cm and height $20$ cm. The target is the shaded part: the whole triangle except a rectangular notch, $5$ cm wide and $6$ cm tall, cut out of the bottom edge.",
+   "answer": "90",
+   "figure": {
+    "kind": "diagram",
+    "unit": 11,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        12.5,
+        0
+       ],
+       [
+        12.5,
+        6
+       ],
+       [
+        17.5,
+        6
+       ],
+       [
+        17.5,
+        0
+       ],
+       [
+        30,
+        0
+       ],
+       [
+        15,
+        20
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "dim": [
+       0,
+       0,
+       30,
+       0
+      ],
+      "label": "30 cm",
+      "off": -2
+     },
+     {
+      "dim": [
+       30,
+       0,
+       30,
+       20
+      ],
+      "label": "20 cm",
+      "off": -3
+     },
+     {
+      "label": "5 cm",
+      "at": [
+       15,
+       7.2
+      ]
+     },
+     {
+      "label": "6 cm",
+      "at": [
+       15,
+       3
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q12d",
+   "label": "12d",
+   "section": "Reasoning",
+   "stem": "One hundred darts are thrown at random at each dartboard, and none miss the board. How many darts would you expect to hit the shaded target?",
+   "type": "numeric",
+   "prompt": "The board is a circle of diameter $40$ cm. The target is the shaded ring: the whole board except a circle of diameter $20$ cm in the middle. The ring is $10$ cm wide.",
+   "answer": "75",
+   "figure": {
+    "kind": "diagram",
+    "unit": 5,
+    "items": [
+     {
+      "poly": [
+       [
+        20,
+        0
+       ],
+       [
+        19.924,
+        1.743
+       ],
+       [
+        19.696,
+        3.473
+       ],
+       [
+        19.319,
+        5.176
+       ],
+       [
+        18.794,
+        6.84
+       ],
+       [
+        18.126,
+        8.452
+       ],
+       [
+        17.321,
+        10
+       ],
+       [
+        16.383,
+        11.472
+       ],
+       [
+        15.321,
+        12.856
+       ],
+       [
+        14.142,
+        14.142
+       ],
+       [
+        12.856,
+        15.321
+       ],
+       [
+        11.472,
+        16.383
+       ],
+       [
+        10,
+        17.321
+       ],
+       [
+        8.452,
+        18.126
+       ],
+       [
+        6.84,
+        18.794
+       ],
+       [
+        5.176,
+        19.319
+       ],
+       [
+        3.473,
+        19.696
+       ],
+       [
+        1.743,
+        19.924
+       ],
+       [
+        0,
+        20
+       ],
+       [
+        -1.743,
+        19.924
+       ],
+       [
+        -3.473,
+        19.696
+       ],
+       [
+        -5.176,
+        19.319
+       ],
+       [
+        -6.84,
+        18.794
+       ],
+       [
+        -8.452,
+        18.126
+       ],
+       [
+        -10,
+        17.321
+       ],
+       [
+        -11.472,
+        16.383
+       ],
+       [
+        -12.856,
+        15.321
+       ],
+       [
+        -14.142,
+        14.142
+       ],
+       [
+        -15.321,
+        12.856
+       ],
+       [
+        -16.383,
+        11.472
+       ],
+       [
+        -17.321,
+        10
+       ],
+       [
+        -18.126,
+        8.452
+       ],
+       [
+        -18.794,
+        6.84
+       ],
+       [
+        -19.319,
+        5.176
+       ],
+       [
+        -19.696,
+        3.473
+       ],
+       [
+        -19.924,
+        1.743
+       ],
+       [
+        -20,
+        0
+       ],
+       [
+        -19.924,
+        -1.743
+       ],
+       [
+        -19.696,
+        -3.473
+       ],
+       [
+        -19.319,
+        -5.176
+       ],
+       [
+        -18.794,
+        -6.84
+       ],
+       [
+        -18.126,
+        -8.452
+       ],
+       [
+        -17.321,
+        -10
+       ],
+       [
+        -16.383,
+        -11.472
+       ],
+       [
+        -15.321,
+        -12.856
+       ],
+       [
+        -14.142,
+        -14.142
+       ],
+       [
+        -12.856,
+        -15.321
+       ],
+       [
+        -11.472,
+        -16.383
+       ],
+       [
+        -10,
+        -17.321
+       ],
+       [
+        -8.452,
+        -18.126
+       ],
+       [
+        -6.84,
+        -18.794
+       ],
+       [
+        -5.176,
+        -19.319
+       ],
+       [
+        -3.473,
+        -19.696
+       ],
+       [
+        -1.743,
+        -19.924
+       ],
+       [
+        0,
+        -20
+       ],
+       [
+        1.743,
+        -19.924
+       ],
+       [
+        3.473,
+        -19.696
+       ],
+       [
+        5.176,
+        -19.319
+       ],
+       [
+        6.84,
+        -18.794
+       ],
+       [
+        8.452,
+        -18.126
+       ],
+       [
+        10,
+        -17.321
+       ],
+       [
+        11.472,
+        -16.383
+       ],
+       [
+        12.856,
+        -15.321
+       ],
+       [
+        14.142,
+        -14.142
+       ],
+       [
+        15.321,
+        -12.856
+       ],
+       [
+        16.383,
+        -11.472
+       ],
+       [
+        17.321,
+        -10
+       ],
+       [
+        18.126,
+        -8.452
+       ],
+       [
+        18.794,
+        -6.84
+       ],
+       [
+        19.319,
+        -5.176
+       ],
+       [
+        19.696,
+        -3.473
+       ],
+       [
+        19.924,
+        -1.743
+       ],
+       [
+        20,
+        0
+       ],
+       [
+        10,
+        0
+       ],
+       [
+        9.962,
+        -0.872
+       ],
+       [
+        9.848,
+        -1.736
+       ],
+       [
+        9.659,
+        -2.588
+       ],
+       [
+        9.397,
+        -3.42
+       ],
+       [
+        9.063,
+        -4.226
+       ],
+       [
+        8.66,
+        -5
+       ],
+       [
+        8.192,
+        -5.736
+       ],
+       [
+        7.66,
+        -6.428
+       ],
+       [
+        7.071,
+        -7.071
+       ],
+       [
+        6.428,
+        -7.66
+       ],
+       [
+        5.736,
+        -8.192
+       ],
+       [
+        5,
+        -8.66
+       ],
+       [
+        4.226,
+        -9.063
+       ],
+       [
+        3.42,
+        -9.397
+       ],
+       [
+        2.588,
+        -9.659
+       ],
+       [
+        1.736,
+        -9.848
+       ],
+       [
+        0.872,
+        -9.962
+       ],
+       [
+        0,
+        -10
+       ],
+       [
+        -0.872,
+        -9.962
+       ],
+       [
+        -1.736,
+        -9.848
+       ],
+       [
+        -2.588,
+        -9.659
+       ],
+       [
+        -3.42,
+        -9.397
+       ],
+       [
+        -4.226,
+        -9.063
+       ],
+       [
+        -5,
+        -8.66
+       ],
+       [
+        -5.736,
+        -8.192
+       ],
+       [
+        -6.428,
+        -7.66
+       ],
+       [
+        -7.071,
+        -7.071
+       ],
+       [
+        -7.66,
+        -6.428
+       ],
+       [
+        -8.192,
+        -5.736
+       ],
+       [
+        -8.66,
+        -5
+       ],
+       [
+        -9.063,
+        -4.226
+       ],
+       [
+        -9.397,
+        -3.42
+       ],
+       [
+        -9.659,
+        -2.588
+       ],
+       [
+        -9.848,
+        -1.736
+       ],
+       [
+        -9.962,
+        -0.872
+       ],
+       [
+        -10,
+        0
+       ],
+       [
+        -9.962,
+        0.872
+       ],
+       [
+        -9.848,
+        1.736
+       ],
+       [
+        -9.659,
+        2.588
+       ],
+       [
+        -9.397,
+        3.42
+       ],
+       [
+        -9.063,
+        4.226
+       ],
+       [
+        -8.66,
+        5
+       ],
+       [
+        -8.192,
+        5.736
+       ],
+       [
+        -7.66,
+        6.428
+       ],
+       [
+        -7.071,
+        7.071
+       ],
+       [
+        -6.428,
+        7.66
+       ],
+       [
+        -5.736,
+        8.192
+       ],
+       [
+        -5,
+        8.66
+       ],
+       [
+        -4.226,
+        9.063
+       ],
+       [
+        -3.42,
+        9.397
+       ],
+       [
+        -2.588,
+        9.659
+       ],
+       [
+        -1.736,
+        9.848
+       ],
+       [
+        -0.872,
+        9.962
+       ],
+       [
+        0,
+        10
+       ],
+       [
+        0.872,
+        9.962
+       ],
+       [
+        1.736,
+        9.848
+       ],
+       [
+        2.588,
+        9.659
+       ],
+       [
+        3.42,
+        9.397
+       ],
+       [
+        4.226,
+        9.063
+       ],
+       [
+        5,
+        8.66
+       ],
+       [
+        5.736,
+        8.192
+       ],
+       [
+        6.428,
+        7.66
+       ],
+       [
+        7.071,
+        7.071
+       ],
+       [
+        7.66,
+        6.428
+       ],
+       [
+        8.192,
+        5.736
+       ],
+       [
+        8.66,
+        5
+       ],
+       [
+        9.063,
+        4.226
+       ],
+       [
+        9.397,
+        3.42
+       ],
+       [
+        9.659,
+        2.588
+       ],
+       [
+        9.848,
+        1.736
+       ],
+       [
+        9.962,
+        0.872
+       ],
+       [
+        10,
+        0
+       ],
+       [
+        10,
+        0
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       -10,
+       0,
+       10,
+       0
+      ],
+      "arrow": "both"
+     },
+     {
+      "label": "20 cm",
+      "at": [
+       0,
+       2.2
+      ]
+     },
+     {
+      "label": "10 cm",
+      "at": [
+       15,
+       2.2
+      ]
+     },
+     {
+      "dim": [
+       -20,
+       -20,
+       20,
+       -20
+      ],
+      "label": "40 cm",
+      "off": -3
+     }
+    ]
+   }
+  },
+  {
+   "id": "q13",
+   "label": "13",
+   "section": "Enrichment",
+   "type": "ordered",
+   "prompt": "A bag of $10$ counters has counters of four different colours. A counter is drawn and put back $90$ times, with the results shown. How many counters of each colour are likely to be in the bag? Give the numbers in the order blue, red, green, yellow.",
+   "answer": [
+    "3",
+    "2",
+    "4",
+    "1"
+   ],
+   "figure": {
+    "kind": "table",
+    "rows": [
+     [
+      "Colour",
+      "Total"
+     ],
+     [
+      "Blue",
+      "28"
+     ],
+     [
+      "Red",
+      "17"
+     ],
+     [
+      "Green",
+      "36"
+     ],
+     [
+      "Yellow",
+      "9"
+     ]
+    ]
+   },
+   "hint": "Type four numbers separated by commas"
+  },
+  {
+   "id": "q14",
+   "label": "14",
+   "section": "Enrichment",
+   "type": "ordered",
+   "prompt": "A box of $15$ chocolates, all the same size and shape, has five different centres. A chocolate is chosen and put back $75$ times, with the results shown. How many chocolates of each type are likely to be in the box? Give the numbers in the order strawberry, caramel, coconut, nut, mint.",
+   "answer": [
+    "3",
+    "5",
+    "2",
+    "2",
+    "3"
+   ],
+   "figure": {
+    "kind": "table",
+    "rows": [
+     [
+      "Centre",
+      "Total"
+     ],
+     [
+      "Strawberry",
+      "16"
+     ],
+     [
+      "Caramel",
+      "24"
+     ],
+     [
+      "Coconut",
+      "9"
+     ],
+     [
+      "Nut",
+      "11"
+     ],
+     [
+      "Mint",
+      "15"
+     ]
+    ]
+   },
+   "hint": "Type five numbers separated by commas"
+  }
+ ]
+},
+{
+ "id": "y9-9g",
+ "year": 9,
+ "chapter": "Chapter 9: Probability and statistics",
+ "title": "9G Data and sampling",
+ "description": "Classify data as numerical or categorical, name sampling methods, spot bias and work out stratified sample sizes.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Classify each of these as numerical or categorical data.",
+   "type": "choice",
+   "prompt": "The number of books on the shelf in each classroom",
+   "answer": 0,
+   "options": [
+    "Numerical",
+    "Categorical"
+   ]
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Classify each of these as numerical or categorical data.",
+   "type": "choice",
+   "prompt": "The eye colour of $18$ students in a drama class",
+   "answer": 1,
+   "options": [
+    "Numerical",
+    "Categorical"
+   ]
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "Classify each of these as numerical or categorical data.",
+   "type": "choice",
+   "prompt": "The way students get to school, recorded as bus, car, bike or walk",
+   "answer": 1,
+   "options": [
+    "Numerical",
+    "Categorical"
+   ]
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "Classify each of these as numerical or categorical data.",
+   "type": "choice",
+   "prompt": "The mass in kilograms of $12$ watermelons at a market",
+   "answer": 0,
+   "options": [
+    "Numerical",
+    "Categorical"
+   ]
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Classify the data from each survey as numerical discrete, numerical continuous, categorical ordinal or categorical nominal.",
+   "type": "choice",
+   "prompt": "The brand of sneakers worn by each student in a class",
+   "answer": 3,
+   "options": [
+    "Numerical discrete",
+    "Numerical continuous",
+    "Categorical ordinal",
+    "Categorical nominal"
+   ]
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Classify the data from each survey as numerical discrete, numerical continuous, categorical ordinal or categorical nominal.",
+   "type": "choice",
+   "prompt": "How spicy each curry on a menu is, described as mild, medium or hot",
+   "answer": 2,
+   "options": [
+    "Numerical discrete",
+    "Numerical continuous",
+    "Categorical ordinal",
+    "Categorical nominal"
+   ]
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Classify the data from each survey as numerical discrete, numerical continuous, categorical ordinal or categorical nominal.",
+   "type": "choice",
+   "prompt": "The lengths of $30$ fish caught on a fishing trip",
+   "answer": 1,
+   "options": [
+    "Numerical discrete",
+    "Numerical continuous",
+    "Categorical ordinal",
+    "Categorical nominal"
+   ]
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Classify the data from each survey as numerical discrete, numerical continuous, categorical ordinal or categorical nominal.",
+   "type": "choice",
+   "prompt": "The number of pages in each book on a library trolley",
+   "answer": 0,
+   "options": [
+    "Numerical discrete",
+    "Numerical continuous",
+    "Categorical ordinal",
+    "Categorical nominal"
+   ]
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Classify the data from each survey as numerical discrete, numerical continuous, categorical ordinal or categorical nominal.",
+   "type": "choice",
+   "prompt": "The type of fruit bought at a farmers market",
+   "answer": 3,
+   "options": [
+    "Numerical discrete",
+    "Numerical continuous",
+    "Categorical ordinal",
+    "Categorical nominal"
+   ]
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Classify the data from each survey as numerical discrete, numerical continuous, categorical ordinal or categorical nominal.",
+   "type": "choice",
+   "prompt": "The time taken to swim $50$ m",
+   "answer": 1,
+   "options": [
+    "Numerical discrete",
+    "Numerical continuous",
+    "Categorical ordinal",
+    "Categorical nominal"
+   ]
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Classify the data from each survey as numerical discrete, numerical continuous, categorical ordinal or categorical nominal.",
+   "type": "choice",
+   "prompt": "Customers' ratings of a cafe's service with the options excellent, good, fair and poor",
+   "answer": 2,
+   "options": [
+    "Numerical discrete",
+    "Numerical continuous",
+    "Categorical ordinal",
+    "Categorical nominal"
+   ]
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Classify the data from each survey as numerical discrete, numerical continuous, categorical ordinal or categorical nominal.",
+   "type": "choice",
+   "prompt": "Scores out of $30$ on a quiz, marked in whole numbers only",
+   "answer": 0,
+   "options": [
+    "Numerical discrete",
+    "Numerical continuous",
+    "Categorical ordinal",
+    "Categorical nominal"
+   ]
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "Name the sampling method used in each survey.",
+   "type": "choice",
+   "prompt": "A computer picks $50$ student ID numbers at random from the school's records, and those students are asked about the canteen menu.",
+   "answer": 0,
+   "options": [
+    "Simple random sampling",
+    "Systematic sampling",
+    "Stratified sampling"
+   ]
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "Name the sampling method used in each survey.",
+   "type": "choice",
+   "prompt": "The members of a gym are sorted into age groups, then some members from each age group are asked about the opening hours.",
+   "answer": 2,
+   "options": [
+    "Simple random sampling",
+    "Systematic sampling",
+    "Stratified sampling"
+   ]
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "Name the sampling method used in each survey.",
+   "type": "choice",
+   "prompt": "Every fifteenth shopper leaving a supermarket is asked how easy it was to find a car park.",
+   "answer": 1,
+   "options": [
+    "Simple random sampling",
+    "Systematic sampling",
+    "Stratified sampling"
+   ]
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "type": "choice",
+   "prompt": "A music teacher wants to know what her students really think of the new practice timetable. In class, she asks them to raise their hands and answer out loud in front of everyone. Is this sample likely to be biased?",
+   "answer": 1,
+   "options": [
+    "No, because every student in the class gets a say",
+    "Yes, because students may not give their honest opinion in front of the teacher and the class",
+    "No, because answering out loud is always more accurate than a written survey"
+   ]
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Fluency",
+   "stem": "Name the sampling method used in each survey.",
+   "type": "choice",
+   "prompt": "Every twelfth car that goes through a car wash is checked for scratches afterwards.",
+   "answer": 1,
+   "options": [
+    "Simple random sampling",
+    "Systematic sampling",
+    "Stratified sampling"
+   ]
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Fluency",
+   "stem": "Name the sampling method used in each survey.",
+   "type": "choice",
+   "prompt": "A sports club surveys members about new jerseys by choosing $10$ players at random from each age division.",
+   "answer": 2,
+   "options": [
+    "Simple random sampling",
+    "Systematic sampling",
+    "Stratified sampling"
+   ]
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Fluency",
+   "stem": "Name the sampling method used in each survey.",
+   "type": "choice",
+   "prompt": "People chosen at random from the electoral roll are asked how satisfied they are with their local council.",
+   "answer": 0,
+   "options": [
+    "Simple random sampling",
+    "Systematic sampling",
+    "Stratified sampling"
+   ]
+  },
+  {
+   "id": "q5e",
+   "label": "5e",
+   "section": "Fluency",
+   "type": "choice",
+   "prompt": "Oscar wants to record the types of birds living on his family's property. He sits beside the dam each morning and records the birds that come to drink. Is his sample likely to be biased?",
+   "answer": 0,
+   "options": [
+    "Yes, because birds that do not visit the dam will be missed",
+    "No, because every bird on the property drinks at the dam at the same time",
+    "No, because he is recording the birds himself"
+   ]
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Problem-solving",
+   "stem": "A company has $80$ people working in its warehouse and $40$ people working in its office. A stratified sample of $12$ people is to be chosen, with each department represented in proportion to its size.",
+   "type": "numeric",
+   "prompt": "How many people should be chosen from the warehouse?",
+   "answer": "8",
+   "units": "people"
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Problem-solving",
+   "stem": "A company has $80$ people working in its warehouse and $40$ people working in its office. A stratified sample of $12$ people is to be chosen, with each department represented in proportion to its size.",
+   "type": "numeric",
+   "prompt": "How many people should be chosen from the office?",
+   "answer": "4",
+   "units": "people"
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Problem-solving",
+   "stem": "These facts were recorded about Priya's dog. Classify the type of data for each one.",
+   "type": "choice",
+   "prompt": "Height: $54.3$ cm",
+   "answer": 1,
+   "options": [
+    "Numerical discrete",
+    "Numerical continuous",
+    "Categorical ordinal",
+    "Categorical nominal"
+   ]
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Problem-solving",
+   "stem": "These facts were recorded about Priya's dog. Classify the type of data for each one.",
+   "type": "choice",
+   "prompt": "Mass: $23.8$ kg",
+   "answer": 1,
+   "options": [
+    "Numerical discrete",
+    "Numerical continuous",
+    "Categorical ordinal",
+    "Categorical nominal"
+   ]
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Problem-solving",
+   "stem": "These facts were recorded about Priya's dog. Classify the type of data for each one.",
+   "type": "choice",
+   "prompt": "Favourite brand of dog treat: Crunchies",
+   "answer": 3,
+   "options": [
+    "Numerical discrete",
+    "Numerical continuous",
+    "Categorical ordinal",
+    "Categorical nominal"
+   ]
+  },
+  {
+   "id": "q7d",
+   "label": "7d",
+   "section": "Problem-solving",
+   "stem": "These facts were recorded about Priya's dog. Classify the type of data for each one.",
+   "type": "choice",
+   "prompt": "Number of tricks it can do: $6$",
+   "answer": 0,
+   "options": [
+    "Numerical discrete",
+    "Numerical continuous",
+    "Categorical ordinal",
+    "Categorical nominal"
+   ]
+  },
+  {
+   "id": "q7e",
+   "label": "7e",
+   "section": "Problem-solving",
+   "stem": "These facts were recorded about Priya's dog. Classify the type of data for each one.",
+   "type": "choice",
+   "prompt": "Size of its collar, sold as small, medium or large",
+   "answer": 2,
+   "options": [
+    "Numerical discrete",
+    "Numerical continuous",
+    "Categorical ordinal",
+    "Categorical nominal"
+   ]
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Problem-solving",
+   "stem": "Each person below is trying to collect unbiased data. Choose the best advice for each one.",
+   "type": "choice",
+   "prompt": "Leila wants to find out how hard the Year 9 science test was, so she asks her four closest friends.",
+   "answer": 1,
+   "options": [
+    "Ask her four closest friends again after the results come out",
+    "Ask a random selection of students from everyone who sat the test",
+    "Ask only the students who got the highest marks"
+   ]
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Problem-solving",
+   "stem": "Each person below is trying to collect unbiased data. Choose the best advice for each one.",
+   "type": "choice",
+   "prompt": "Dr Chen, a dentist, wants to review how long patients wait at her practice, so she only looks at the waiting times for her fastest dentist.",
+   "answer": 2,
+   "options": [
+    "Look at the waiting times for her fastest dentist over a longer period",
+    "Look at the waiting times for her slowest dentist instead",
+    "Look at the waiting times for all the dentists, or a random sample of patients across all of them"
+   ]
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Problem-solving",
+   "stem": "Each person below is trying to collect unbiased data. Choose the best advice for each one.",
+   "type": "choice",
+   "prompt": "Marco is researching the price of milk in his town and records the price of every type of milk at one service station.",
+   "answer": 0,
+   "options": [
+    "Record milk prices from a range of shops across the town",
+    "Record only the cheapest milk at the service station",
+    "Record the prices at the same service station every day for a month"
+   ]
+  },
+  {
+   "id": "q8d",
+   "label": "8d",
+   "section": "Problem-solving",
+   "stem": "Each person below is trying to collect unbiased data. Choose the best advice for each one.",
+   "type": "choice",
+   "prompt": "Grace wants to know how much time students spend on maths homework, so she surveys students coming out of the advanced maths competition.",
+   "answer": 1,
+   "options": [
+    "Survey only the students who won a prize in the competition",
+    "Survey a random sample of students from all maths classes",
+    "Survey the same students again a week later"
+   ]
+  },
+  {
+   "id": "q9",
+   "label": "9",
+   "section": "Problem-solving",
+   "type": "numeric",
+   "prompt": "A school has $45$ junior school staff and $75$ senior school staff. A stratified sample of $16$ staff is to be chosen to give their views on the camp program. How many junior school staff should be chosen?",
+   "answer": "6",
+   "units": "staff"
+  },
+  {
+   "id": "q10",
+   "label": "10",
+   "section": "Reasoning",
+   "type": "choice",
+   "prompt": "A shoe shop records the size of every pair of shoes it sells. Sizes come only in whole numbers and halves, such as $8$, $8.5$ and $9$. What type of data does this produce?",
+   "answer": 0,
+   "options": [
+    "Numerical discrete",
+    "Numerical continuous",
+    "Categorical ordinal",
+    "Categorical nominal"
+   ]
+  },
+  {
+   "id": "q11",
+   "label": "11",
+   "section": "Reasoning",
+   "type": "choice",
+   "prompt": "A health researcher wants to study how many hours of sleep people get each night. Why might stratified sampling be a good choice?",
+   "answer": 2,
+   "options": [
+    "Because it is the quickest way to survey a large number of people",
+    "Because it makes sure every person in the population is surveyed",
+    "Because sleep needs change with age, so each age group should be fairly represented in the sample",
+    "Because it chooses people at regular intervals from a list"
+   ]
+  },
+  {
+   "id": "q12",
+   "label": "12",
+   "section": "Reasoning",
+   "type": "choice",
+   "prompt": "In voluntary response sampling, the sample is made up of people who choose to take part, for example by replying to an online poll. Why can this method lead to bias?",
+   "answer": 1,
+   "options": [
+    "Because the sample is always too large",
+    "Because people with strong opinions are more likely to volunteer, so they are over-represented",
+    "Because every person in the population has the same chance of being chosen",
+    "Because the results cannot be put in a table"
+   ]
+  }
+ ]
+},
+{
+ "id": "y9-9h",
+ "year": 9,
+ "chapter": "Chapter 9: Probability and statistics",
+ "title": "9H Mean, median and mode",
+ "description": "Find the mean, median and mode, see the effect of outliers and find a data value needed for a target mean.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "For each data set, find the mean, the median and the mode.",
+   "type": "numeric",
+   "prompt": "Data set a: $8 \\quad 14 \\quad 4 \\quad 3 \\quad 24 \\quad 11 \\quad 2 \\quad 4 \\quad 11$. Find the mean",
+   "answer": "9"
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "For each data set, find the mean, the median and the mode.",
+   "type": "numeric",
+   "prompt": "Data set a: $8 \\quad 14 \\quad 4 \\quad 3 \\quad 24 \\quad 11 \\quad 2 \\quad 4 \\quad 11$. Find the median",
+   "answer": "8"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "For each data set, find the mean, the median and the mode.",
+   "type": "list",
+   "prompt": "Data set a: $8 \\quad 14 \\quad 4 \\quad 3 \\quad 24 \\quad 11 \\quad 2 \\quad 4 \\quad 11$. Find the mode",
+   "answer": [
+    "4",
+    "11"
+   ],
+   "hint": "If there is more than one mode, type them all separated by commas. If there is no mode, type none."
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "For each data set, find the mean, the median and the mode.",
+   "type": "numeric",
+   "prompt": "Data set b: $12 \\quad 19 \\quad 6 \\quad 15 \\quad 3 \\quad 11$. Find the mean",
+   "answer": "11"
+  },
+  {
+   "id": "q1e",
+   "label": "1e",
+   "section": "Fluency",
+   "stem": "For each data set, find the mean, the median and the mode.",
+   "type": "numeric",
+   "prompt": "Data set b: $12 \\quad 19 \\quad 6 \\quad 15 \\quad 3 \\quad 11$. Find the median",
+   "answer": "11.5"
+  },
+  {
+   "id": "q1f",
+   "label": "1f",
+   "section": "Fluency",
+   "stem": "For each data set, find the mean, the median and the mode.",
+   "type": "text",
+   "prompt": "Data set b: $12 \\quad 19 \\quad 6 \\quad 15 \\quad 3 \\quad 11$. Find the mode",
+   "answer": "none",
+   "accept": [
+    "no mode",
+    "there is no mode"
+   ]
+  },
+  {
+   "id": "q1g",
+   "label": "1g",
+   "section": "Fluency",
+   "stem": "For each data set, find the mean, the median and the mode.",
+   "type": "numeric",
+   "prompt": "Data set c: $2.5 \\quad 3.1 \\quad 5.0 \\quad 7.4 \\quad 3.1$. Find the mean",
+   "answer": "4.22"
+  },
+  {
+   "id": "q1h",
+   "label": "1h",
+   "section": "Fluency",
+   "stem": "For each data set, find the mean, the median and the mode.",
+   "type": "numeric",
+   "prompt": "Data set c: $2.5 \\quad 3.1 \\quad 5.0 \\quad 7.4 \\quad 3.1$. Find the median",
+   "answer": "3.1"
+  },
+  {
+   "id": "q1i",
+   "label": "1i",
+   "section": "Fluency",
+   "stem": "For each data set, find the mean, the median and the mode.",
+   "type": "list",
+   "prompt": "Data set c: $2.5 \\quad 3.1 \\quad 5.0 \\quad 7.4 \\quad 3.1$. Find the mode",
+   "answer": [
+    "3.1"
+   ]
+  },
+  {
+   "id": "q1j",
+   "label": "1j",
+   "section": "Fluency",
+   "stem": "For each data set, find the mean, the median and the mode.",
+   "type": "numeric",
+   "prompt": "Data set d: $0.8 \\quad 4 \\quad 2.6 \\quad 11.2 \\quad 5 \\quad 6.4 \\quad 1.5 \\quad 8.1$. Find the mean",
+   "answer": "4.95"
+  },
+  {
+   "id": "q1k",
+   "label": "1k",
+   "section": "Fluency",
+   "stem": "For each data set, find the mean, the median and the mode.",
+   "type": "numeric",
+   "prompt": "Data set d: $0.8 \\quad 4 \\quad 2.6 \\quad 11.2 \\quad 5 \\quad 6.4 \\quad 1.5 \\quad 8.1$. Find the median",
+   "answer": "4.5"
+  },
+  {
+   "id": "q1l",
+   "label": "1l",
+   "section": "Fluency",
+   "stem": "For each data set, find the mean, the median and the mode.",
+   "type": "text",
+   "prompt": "Data set d: $0.8 \\quad 4 \\quad 2.6 \\quad 11.2 \\quad 5 \\quad 6.4 \\quad 1.5 \\quad 8.1$. Find the mode",
+   "answer": "none",
+   "accept": [
+    "no mode",
+    "there is no mode"
+   ]
+  },
+  {
+   "id": "q1m",
+   "label": "1m",
+   "section": "Fluency",
+   "stem": "For each data set, find the mean, the median and the mode.",
+   "type": "numeric",
+   "prompt": "Data set e: $7 \\quad 0 \\quad -4 \\quad 9 \\quad 3 \\quad -4 \\quad 10 \\quad 3$. Find the mean",
+   "answer": "3"
+  },
+  {
+   "id": "q1n",
+   "label": "1n",
+   "section": "Fluency",
+   "stem": "For each data set, find the mean, the median and the mode.",
+   "type": "numeric",
+   "prompt": "Data set e: $7 \\quad 0 \\quad -4 \\quad 9 \\quad 3 \\quad -4 \\quad 10 \\quad 3$. Find the median",
+   "answer": "3"
+  },
+  {
+   "id": "q1o",
+   "label": "1o",
+   "section": "Fluency",
+   "stem": "For each data set, find the mean, the median and the mode.",
+   "type": "list",
+   "prompt": "Data set e: $7 \\quad 0 \\quad -4 \\quad 9 \\quad 3 \\quad -4 \\quad 10 \\quad 3$. Find the mode",
+   "answer": [
+    "-4",
+    "3"
+   ]
+  },
+  {
+   "id": "q1p",
+   "label": "1p",
+   "section": "Fluency",
+   "stem": "For each data set, find the mean, the median and the mode.",
+   "type": "numeric",
+   "prompt": "Data set f: $5 \\quad -6 \\quad 1 \\quad 5 \\quad -1 \\quad -4 \\quad 7$. Find the mean",
+   "answer": "1"
+  },
+  {
+   "id": "q1q",
+   "label": "1q",
+   "section": "Fluency",
+   "stem": "For each data set, find the mean, the median and the mode.",
+   "type": "numeric",
+   "prompt": "Data set f: $5 \\quad -6 \\quad 1 \\quad 5 \\quad -1 \\quad -4 \\quad 7$. Find the median",
+   "answer": "1"
+  },
+  {
+   "id": "q1r",
+   "label": "1r",
+   "section": "Fluency",
+   "stem": "For each data set, find the mean, the median and the mode.",
+   "type": "list",
+   "prompt": "Data set f: $5 \\quad -6 \\quad 1 \\quad 5 \\quad -1 \\quad -4 \\quad 7$. Find the mode",
+   "answer": [
+    "5"
+   ]
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Decide whether each data set is bi-modal (has exactly two modes).",
+   "type": "choice",
+   "prompt": "$3 \\quad 8 \\quad 10 \\quad 6 \\quad 7 \\quad 3 \\quad 9 \\quad 8 \\quad 5$",
+   "answer": 0,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Decide whether each data set is bi-modal (has exactly two modes).",
+   "type": "choice",
+   "prompt": "$2 \\quad 7 \\quad 3 \\quad 4 \\quad 4 \\quad 2 \\quad 6 \\quad 5 \\quad 2 \\quad 10$",
+   "answer": 1,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Decide whether each data set is bi-modal (has exactly two modes).",
+   "type": "choice",
+   "prompt": "$11 \\quad 16 \\quad 13 \\quad 12 \\quad 19 \\quad 14 \\quad 10 \\quad 17 \\quad 18$",
+   "answer": 1,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Decide whether each data set is bi-modal (has exactly two modes).",
+   "type": "choice",
+   "prompt": "$24 \\quad 26 \\quad 27 \\quad 24 \\quad 20 \\quad 25 \\quad 29 \\quad 27 \\quad 28$",
+   "answer": 0,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Each data set includes an outlier (a value that is extreme compared with the rest of the data). Find the outlier, then the mean and the median, including the outlier in your calculations.",
+   "type": "numeric",
+   "prompt": "Data set a: $4 \\quad 6 \\quad 6 \\quad 9 \\quad 11 \\quad 36$. What is the outlier?",
+   "answer": "36"
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Each data set includes an outlier (a value that is extreme compared with the rest of the data). Find the outlier, then the mean and the median, including the outlier in your calculations.",
+   "type": "numeric",
+   "prompt": "Data set a: $4 \\quad 6 \\quad 6 \\quad 9 \\quad 11 \\quad 36$. Find the mean",
+   "answer": "12"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Each data set includes an outlier (a value that is extreme compared with the rest of the data). Find the outlier, then the mean and the median, including the outlier in your calculations.",
+   "type": "numeric",
+   "prompt": "Data set a: $4 \\quad 6 \\quad 6 \\quad 9 \\quad 11 \\quad 36$. Find the median",
+   "answer": "7.5"
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Each data set includes an outlier (a value that is extreme compared with the rest of the data). Find the outlier, then the mean and the median, including the outlier in your calculations.",
+   "type": "numeric",
+   "prompt": "Data set b: $2.4 \\quad 2.2 \\quad 2.0 \\quad 2.8 \\quad 2.6 \\quad 2.7 \\quad -0.9 \\quad 2.6$. What is the outlier?",
+   "answer": "-0.9"
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "Each data set includes an outlier (a value that is extreme compared with the rest of the data). Find the outlier, then the mean and the median, including the outlier in your calculations.",
+   "type": "numeric",
+   "prompt": "Data set b: $2.4 \\quad 2.2 \\quad 2.0 \\quad 2.8 \\quad 2.6 \\quad 2.7 \\quad -0.9 \\quad 2.6$. Find the mean",
+   "answer": "2.05"
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "Each data set includes an outlier (a value that is extreme compared with the rest of the data). Find the outlier, then the mean and the median, including the outlier in your calculations.",
+   "type": "numeric",
+   "prompt": "Data set b: $2.4 \\quad 2.2 \\quad 2.0 \\quad 2.8 \\quad 2.6 \\quad 2.7 \\quad -0.9 \\quad 2.6$. Find the median",
+   "answer": "2.5"
+  },
+  {
+   "id": "q3g",
+   "label": "3g",
+   "section": "Fluency",
+   "stem": "Each data set includes an outlier (a value that is extreme compared with the rest of the data). Find the outlier, then the mean and the median, including the outlier in your calculations.",
+   "type": "numeric",
+   "prompt": "Data set c: $-47 \\quad -50 \\quad -49 \\quad -3 \\quad -51$. What is the outlier?",
+   "answer": "-3"
+  },
+  {
+   "id": "q3h",
+   "label": "3h",
+   "section": "Fluency",
+   "stem": "Each data set includes an outlier (a value that is extreme compared with the rest of the data). Find the outlier, then the mean and the median, including the outlier in your calculations.",
+   "type": "numeric",
+   "prompt": "Data set c: $-47 \\quad -50 \\quad -49 \\quad -3 \\quad -51$. Find the mean",
+   "answer": "-40"
+  },
+  {
+   "id": "q3i",
+   "label": "3i",
+   "section": "Fluency",
+   "stem": "Each data set includes an outlier (a value that is extreme compared with the rest of the data). Find the outlier, then the mean and the median, including the outlier in your calculations.",
+   "type": "numeric",
+   "prompt": "Data set c: $-47 \\quad -50 \\quad -49 \\quad -3 \\quad -51$. Find the median",
+   "answer": "-49"
+  },
+  {
+   "id": "q3j",
+   "label": "3j",
+   "section": "Fluency",
+   "stem": "Each data set includes an outlier (a value that is extreme compared with the rest of the data). Find the outlier, then the mean and the median, including the outlier in your calculations.",
+   "type": "numeric",
+   "prompt": "Data set d: $-8.5 \\quad -3.4 \\quad -6.6 \\quad -2.2 \\quad 12$. What is the outlier?",
+   "answer": "12"
+  },
+  {
+   "id": "q3k",
+   "label": "3k",
+   "section": "Fluency",
+   "stem": "Each data set includes an outlier (a value that is extreme compared with the rest of the data). Find the outlier, then the mean and the median, including the outlier in your calculations.",
+   "type": "numeric",
+   "prompt": "Data set d: $-8.5 \\quad -3.4 \\quad -6.6 \\quad -2.2 \\quad 12$. Find the mean",
+   "answer": "-1.74"
+  },
+  {
+   "id": "q3l",
+   "label": "3l",
+   "section": "Fluency",
+   "stem": "Each data set includes an outlier (a value that is extreme compared with the rest of the data). Find the outlier, then the mean and the median, including the outlier in your calculations.",
+   "type": "numeric",
+   "prompt": "Data set d: $-8.5 \\quad -3.4 \\quad -6.6 \\quad -2.2 \\quad 12$. Find the median",
+   "answer": "-3.4"
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "In three swimming races Kai recorded the times $31.4$ seconds, $30.9$ seconds and $30.2$ seconds.",
+   "type": "numeric",
+   "prompt": "What is his mean time? Round to two decimal places.",
+   "answer": "30.83",
+   "dp": 2,
+   "units": "seconds"
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "In three swimming races Kai recorded the times $31.4$ seconds, $30.9$ seconds and $30.2$ seconds.",
+   "type": "numeric",
+   "prompt": "Find his median time.",
+   "answer": "30.9",
+   "units": "seconds"
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Problem-solving",
+   "stem": "A basketball player scored these numbers of points in her $10$ most recent games: $18 \\quad 17 \\quad 19 \\quad 17 \\quad 18 \\quad 15 \\quad 19 \\quad 20 \\quad 19 \\quad 18$",
+   "type": "numeric",
+   "prompt": "What is her mean score?",
+   "answer": "18",
+   "units": "points"
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Problem-solving",
+   "stem": "A basketball player scored these numbers of points in her $10$ most recent games: $18 \\quad 17 \\quad 19 \\quad 17 \\quad 18 \\quad 15 \\quad 19 \\quad 20 \\quad 19 \\quad 18$",
+   "type": "numeric",
+   "prompt": "How many points does she need to score in the next game for the mean of her scores to be $19$?",
+   "answer": "29",
+   "units": "points"
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Problem-solving",
+   "stem": "Ruby's scores on her first five history tests were: $88 \\quad 79 \\quad 91 \\quad 84 \\quad 93$",
+   "type": "numeric",
+   "prompt": "What is her mean test score?",
+   "answer": "87"
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Problem-solving",
+   "stem": "Ruby's scores on her first five history tests were: $88 \\quad 79 \\quad 91 \\quad 84 \\quad 93$",
+   "type": "numeric",
+   "prompt": "There is one more test to come and she wants an average of at least $85$ over all six tests. What is the lowest score she can get on the final test?",
+   "answer": "75"
+  },
+  {
+   "id": "q7",
+   "label": "7",
+   "section": "Problem-solving",
+   "type": "numeric",
+   "prompt": "Seven numbers have a mean of $9$. Six of the numbers are $11$, $8$, $5$, $3$, $12$ and $10$. Find the seventh number.",
+   "answer": "14"
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Problem-solving",
+   "stem": "Which set of five numbers has the mean, median and mode given?",
+   "type": "choice",
+   "prompt": "Mean $6$, median $7$ and mode $8$",
+   "answer": 1,
+   "options": [
+    "2, 7, 7, 8, 8",
+    "3, 4, 7, 8, 8",
+    "2, 4, 8, 8, 8",
+    "4, 7, 8, 8, 9"
+   ]
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Problem-solving",
+   "stem": "Which set of five numbers has the mean, median and mode given?",
+   "type": "choice",
+   "prompt": "Mean $6$, median $5$ and mode $9$",
+   "answer": 3,
+   "options": [
+    "1, 4, 5, 9, 9",
+    "2, 4, 5, 9, 10",
+    "3, 5, 5, 8, 9",
+    "3, 4, 5, 9, 9"
+   ]
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Problem-solving",
+   "stem": "Which set of five numbers has the mean, median and mode given?",
+   "type": "choice",
+   "prompt": "Mean $5$, median $5$ and mode $5$",
+   "answer": 1,
+   "options": [
+    "2, 5, 5, 6, 8",
+    "3, 5, 5, 5, 7",
+    "5, 5, 5, 6, 6",
+    "1, 4, 5, 5, 9"
+   ]
+  },
+  {
+   "id": "q8d",
+   "label": "8d",
+   "section": "Problem-solving",
+   "stem": "Which set of five numbers has the mean, median and mode given?",
+   "type": "choice",
+   "prompt": "Mean $5.5$, median $4$ and mode $3.5$",
+   "answer": 0,
+   "options": [
+    "3.5, 3.5, 4, 6, 10.5",
+    "3.5, 3.5, 4, 7, 9",
+    "2, 3.5, 3.5, 4, 10",
+    "3.5, 4, 4, 6.5, 9.5"
+   ]
+  },
+  {
+   "id": "q8e",
+   "label": "8e",
+   "section": "Problem-solving",
+   "stem": "Which set of five numbers has the mean, median and mode given?",
+   "type": "choice",
+   "prompt": "Mean $1$, median $0$ and mode $6$",
+   "answer": 1,
+   "options": [
+    "-3, -2, 0, 6, 6",
+    "-4, -3, 0, 6, 6",
+    "-5, -3, 0, 6, 6",
+    "-2, -2, 0, 6, 8"
+   ]
+  },
+  {
+   "id": "q8f",
+   "label": "8f",
+   "section": "Problem-solving",
+   "stem": "Which set of five numbers has the mean, median and mode given?",
+   "type": "choice",
+   "prompt": "Mean $2$, median $2\\frac{1}{2}$ and mode $2\\frac{1}{2}$",
+   "answer": 1,
+   "options": [
+    "-1, 1, 2.5, 2.5, 6",
+    "0, 1, 2.5, 2.5, 4",
+    "1, 2, 2, 2.5, 2.5",
+    "-2, 1.5, 2.5, 2.5, 4.5"
+   ]
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Reasoning",
+   "stem": "The prices of six houses sold in a Hobart suburb one month are: \\$412 000, \\$375 000, \\$528 000, \\$389 000, \\$467 000, \\$1 950 000.",
+   "type": "numeric",
+   "prompt": "What is the median house price?",
+   "answer": "439500",
+   "units": "$"
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Reasoning",
+   "stem": "The prices of six houses sold in a Hobart suburb one month are: \\$412 000, \\$375 000, \\$528 000, \\$389 000, \\$467 000, \\$1 950 000.",
+   "type": "numeric",
+   "prompt": "The data includes an outlier. Which price is the outlier?",
+   "answer": "1950000",
+   "units": "$"
+  },
+  {
+   "id": "q9c",
+   "label": "9c",
+   "section": "Reasoning",
+   "stem": "The prices of six houses sold in a Hobart suburb one month are: \\$412 000, \\$375 000, \\$528 000, \\$389 000, \\$467 000, \\$1 950 000.",
+   "type": "numeric",
+   "prompt": "If the outlier is removed, by how much does the median change?",
+   "answer": "27500",
+   "units": "$"
+  },
+  {
+   "id": "q9d",
+   "label": "9d",
+   "section": "Reasoning",
+   "stem": "The prices of six houses sold in a Hobart suburb one month are: \\$412 000, \\$375 000, \\$528 000, \\$389 000, \\$467 000, \\$1 950 000.",
+   "type": "numeric",
+   "prompt": "Find the mean house price, to the nearest dollar.",
+   "answer": "686833",
+   "units": "$"
+  },
+  {
+   "id": "q9e",
+   "label": "9e",
+   "section": "Reasoning",
+   "stem": "The prices of six houses sold in a Hobart suburb one month are: \\$412 000, \\$375 000, \\$528 000, \\$389 000, \\$467 000, \\$1 950 000.",
+   "type": "numeric",
+   "prompt": "If the outlier is removed, by how much does the mean change, to the nearest dollar?",
+   "answer": "252633",
+   "units": "$"
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Reasoning",
+   "stem": "This dot plot shows the number of cars owned by each household in a street.",
+   "type": "numeric",
+   "prompt": "How many households were surveyed?",
+   "answer": "20",
+   "stemFigure": {
+    "kind": "dotplot",
+    "min": 0,
+    "max": 3,
+    "values": [
+     0,
+     0,
+     0,
+     0,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     3,
+     3
+    ],
+    "xlabel": "Number of cars"
+   },
+   "units": "households"
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Reasoning",
+   "stem": "This dot plot shows the number of cars owned by each household in a street.",
+   "type": "numeric",
+   "prompt": "Find the mean number of cars.",
+   "answer": "1.4"
+  },
+  {
+   "id": "q11c",
+   "label": "11c",
+   "section": "Reasoning",
+   "stem": "This dot plot shows the number of cars owned by each household in a street.",
+   "type": "numeric",
+   "prompt": "Find the median number of cars.",
+   "answer": "1"
+  },
+  {
+   "id": "q11d",
+   "label": "11d",
+   "section": "Reasoning",
+   "stem": "This dot plot shows the number of cars owned by each household in a street.",
+   "type": "numeric",
+   "prompt": "Find the mode.",
+   "answer": "1"
+  },
+  {
+   "id": "q11e",
+   "label": "11e",
+   "section": "Reasoning",
+   "stem": "This dot plot shows the number of cars owned by each household in a street.",
+   "type": "choice",
+   "prompt": "Another household with $6$ cars is added to the data. Does this change the median?",
+   "answer": 1,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q12a",
+   "label": "12a",
+   "section": "Reasoning",
+   "stem": "This data set contains nine numbers: $2 \\quad 3 \\quad 3 \\quad 3 \\quad 3 \\quad 3 \\quad 3 \\quad 5 \\quad 6$",
+   "type": "numeric",
+   "prompt": "Find the median.",
+   "answer": "3"
+  },
+  {
+   "id": "q12b",
+   "label": "12b",
+   "section": "Reasoning",
+   "stem": "This data set contains nine numbers: $2 \\quad 3 \\quad 3 \\quad 3 \\quad 3 \\quad 3 \\quad 3 \\quad 5 \\quad 6$",
+   "type": "numeric",
+   "prompt": "What is the least number of values greater than $6$ that must be added to the list to change the median?",
+   "answer": "5"
+  },
+  {
+   "id": "q12c",
+   "label": "12c",
+   "section": "Reasoning",
+   "stem": "This data set contains nine numbers: $2 \\quad 3 \\quad 3 \\quad 3 \\quad 3 \\quad 3 \\quad 3 \\quad 5 \\quad 6$",
+   "type": "numeric",
+   "prompt": "What is the least number of values less than $2$ that must be added to the list to change the median?",
+   "answer": "7"
+  },
+  {
+   "id": "q13a",
+   "label": "13a",
+   "section": "Enrichment",
+   "stem": "A school gives each student a maths grade for the semester from their average score over five topics, using the table. Zara has these scores for four topics and has one topic to go: $72 \\quad 64 \\quad 88 \\quad 81$",
+   "type": "numeric",
+   "prompt": "What is Zara's mean score so far?",
+   "answer": "76.25",
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "Average score",
+      "90-100",
+      "80-",
+      "70-",
+      "60-",
+      "50-",
+      "0-"
+     ],
+     [
+      "Grade",
+      "A+",
+      "A",
+      "B+",
+      "B",
+      "C+",
+      "C"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q13b",
+   "label": "13b",
+   "section": "Enrichment",
+   "stem": "A school gives each student a maths grade for the semester from their average score over five topics, using the table. Zara has these scores for four topics and has one topic to go: $72 \\quad 64 \\quad 88 \\quad 81$",
+   "type": "choice",
+   "prompt": "What grade will she get for the semester if her fifth score is $40$?",
+   "answer": 3,
+   "options": [
+    "A+",
+    "A",
+    "B+",
+    "B",
+    "C+",
+    "C"
+   ]
+  },
+  {
+   "id": "q13c",
+   "label": "13c",
+   "section": "Enrichment",
+   "stem": "A school gives each student a maths grade for the semester from their average score over five topics, using the table. Zara has these scores for four topics and has one topic to go: $72 \\quad 64 \\quad 88 \\quad 81$",
+   "type": "choice",
+   "prompt": "What grade will she get for the semester if her fifth score is $66$?",
+   "answer": 2,
+   "options": [
+    "A+",
+    "A",
+    "B+",
+    "B",
+    "C+",
+    "C"
+   ]
+  },
+  {
+   "id": "q13d",
+   "label": "13d",
+   "section": "Enrichment",
+   "stem": "A school gives each student a maths grade for the semester from their average score over five topics, using the table. Zara has these scores for four topics and has one topic to go: $72 \\quad 64 \\quad 88 \\quad 81$",
+   "type": "choice",
+   "prompt": "What grade will she get for the semester if her fifth score is $97$?",
+   "answer": 1,
+   "options": [
+    "A+",
+    "A",
+    "B+",
+    "B",
+    "C+",
+    "C"
+   ]
+  },
+  {
+   "id": "q13e",
+   "label": "13e",
+   "section": "Enrichment",
+   "stem": "A school gives each student a maths grade for the semester from their average score over five topics, using the table. Zara has these scores for four topics and has one topic to go: $72 \\quad 64 \\quad 88 \\quad 81$",
+   "type": "numeric",
+   "prompt": "What is the highest average score she can get for the semester?",
+   "answer": "81"
+  },
+  {
+   "id": "q13f",
+   "label": "13f",
+   "section": "Enrichment",
+   "stem": "A school gives each student a maths grade for the semester from their average score over five topics, using the table. Zara has these scores for four topics and has one topic to go: $72 \\quad 64 \\quad 88 \\quad 81$",
+   "type": "choice",
+   "prompt": "Is it possible for her to get an A+?",
+   "answer": 1,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q13g",
+   "label": "13g",
+   "section": "Enrichment",
+   "stem": "A school gives each student a maths grade for the semester from their average score over five topics, using the table. Zara has these scores for four topics and has one topic to go: $72 \\quad 64 \\quad 88 \\quad 81$",
+   "type": "numeric",
+   "prompt": "What is the least score she needs in her fifth topic to get an average of at least $70$ (a grade of B+)?",
+   "answer": "45"
+  },
+  {
+   "id": "q13h",
+   "label": "13h",
+   "section": "Enrichment",
+   "stem": "A school gives each student a maths grade for the semester from their average score over five topics, using the table. Zara has these scores for four topics and has one topic to go: $72 \\quad 64 \\quad 88 \\quad 81$",
+   "type": "numeric",
+   "prompt": "What is the least score she needs in her fifth topic to get an average of at least $80$ (a grade of A)?",
+   "answer": "95"
+  },
+  {
+   "id": "q13i",
+   "label": "13i",
+   "section": "Enrichment",
+   "stem": "A school gives each student a maths grade for the semester from their average score over five topics, using the table. Zara has these scores for four topics and has one topic to go: $72 \\quad 64 \\quad 88 \\quad 81$",
+   "type": "expression",
+   "prompt": "Write a rule for her mean score $M$ for the semester if she scores $k$ in the fifth topic.",
+   "answer": "M=(305+k)/5",
+   "hint": "Start with M =, for example M = (100 + k)/4"
+  },
+  {
+   "id": "q13j",
+   "label": "13j",
+   "section": "Enrichment",
+   "stem": "A school gives each student a maths grade for the semester from their average score over five topics, using the table. Zara has these scores for four topics and has one topic to go: $72 \\quad 64 \\quad 88 \\quad 81$",
+   "type": "expression",
+   "prompt": "Write a rule for the score $k$ she needs in the fifth topic to get a mean of $M$ for the semester.",
+   "answer": "k=5M-305",
+   "hint": "Start with k ="
+  }
+ ]
+},
+{
+ "id": "y9-9i",
+ "year": 9,
+ "chapter": "Chapter 9: Probability and statistics",
+ "title": "9I Stem-and-leaf plots",
+ "description": "Read and use stem-and-leaf plots, including back-to-back and split-stem plots, to find medians, modes and percentages and to describe skew.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "For each data set, organise the data into an ordered stem-and-leaf plot (on paper), then answer the questions.",
+   "type": "numeric",
+   "prompt": "Data set a: $1.4 \\quad 4.3 \\quad 5.6 \\quad 1.9 \\quad 1.7 \\quad 2.2 \\quad 2.7 \\quad 2.6 \\quad 2.4 \\quad 3.8 \\quad 3.1 \\quad 1.4 \\quad 2.9 \\quad 1.4$. Find the median.",
+   "answer": "2.5"
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "For each data set, organise the data into an ordered stem-and-leaf plot (on paper), then answer the questions.",
+   "type": "list",
+   "prompt": "Data set a: $1.4 \\quad 4.3 \\quad 5.6 \\quad 1.9 \\quad 1.7 \\quad 2.2 \\quad 2.7 \\quad 2.6 \\quad 2.4 \\quad 3.8 \\quad 3.1 \\quad 1.4 \\quad 2.9 \\quad 1.4$. Find the mode.",
+   "answer": [
+    "1.4"
+   ],
+   "hint": "If there is more than one mode, type them all separated by commas."
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "For each data set, organise the data into an ordered stem-and-leaf plot (on paper), then answer the questions.",
+   "type": "choice",
+   "prompt": "Data set a: $1.4 \\quad 4.3 \\quad 5.6 \\quad 1.9 \\quad 1.7 \\quad 2.2 \\quad 2.7 \\quad 2.6 \\quad 2.4 \\quad 3.8 \\quad 3.1 \\quad 1.4 \\quad 2.9 \\quad 1.4$. Describe the shape of the data.",
+   "answer": 1,
+   "options": [
+    "Symmetrical",
+    "Positively skewed",
+    "Negatively skewed"
+   ]
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "For each data set, organise the data into an ordered stem-and-leaf plot (on paper), then answer the questions.",
+   "type": "numeric",
+   "prompt": "Data set b: $19 \\quad 25 \\quad 17 \\quad 25 \\quad 21 \\quad 53 \\quad 34 \\quad 19 \\quad 23 \\quad 42 \\quad 36 \\quad 47 \\quad 30 \\quad 28 \\quad 25$. Find the median.",
+   "answer": "25"
+  },
+  {
+   "id": "q1e",
+   "label": "1e",
+   "section": "Fluency",
+   "stem": "For each data set, organise the data into an ordered stem-and-leaf plot (on paper), then answer the questions.",
+   "type": "list",
+   "prompt": "Data set b: $19 \\quad 25 \\quad 17 \\quad 25 \\quad 21 \\quad 53 \\quad 34 \\quad 19 \\quad 23 \\quad 42 \\quad 36 \\quad 47 \\quad 30 \\quad 28 \\quad 25$. Find the mode.",
+   "answer": [
+    "25"
+   ]
+  },
+  {
+   "id": "q1f",
+   "label": "1f",
+   "section": "Fluency",
+   "stem": "For each data set, organise the data into an ordered stem-and-leaf plot (on paper), then answer the questions.",
+   "type": "choice",
+   "prompt": "Data set b: $19 \\quad 25 \\quad 17 \\quad 25 \\quad 21 \\quad 53 \\quad 34 \\quad 19 \\quad 23 \\quad 42 \\quad 36 \\quad 47 \\quad 30 \\quad 28 \\quad 25$. Describe the shape of the data.",
+   "answer": 1,
+   "options": [
+    "Symmetrical",
+    "Positively skewed",
+    "Negatively skewed"
+   ]
+  },
+  {
+   "id": "q1g",
+   "label": "1g",
+   "section": "Fluency",
+   "stem": "For each data set, organise the data into an ordered stem-and-leaf plot (on paper), then answer the questions.",
+   "type": "numeric",
+   "prompt": "Data set c: $35 \\quad 27 \\quad 50 \\quad 33 \\quad 29 \\quad 44 \\quad 53 \\quad 41 \\quad 18 \\quad 30 \\quad 36 \\quad 16 \\quad 32 \\quad 45 \\quad 39 \\quad 47 \\quad 33 \\quad 24 \\quad 24 \\quad 48 \\quad 21 \\quad 23 \\quad 33 \\quad 42 \\quad 38$. Find the median.",
+   "answer": "33"
+  },
+  {
+   "id": "q1h",
+   "label": "1h",
+   "section": "Fluency",
+   "stem": "For each data set, organise the data into an ordered stem-and-leaf plot (on paper), then answer the questions.",
+   "type": "list",
+   "prompt": "Data set c: $35 \\quad 27 \\quad 50 \\quad 33 \\quad 29 \\quad 44 \\quad 53 \\quad 41 \\quad 18 \\quad 30 \\quad 36 \\quad 16 \\quad 32 \\quad 45 \\quad 39 \\quad 47 \\quad 33 \\quad 24 \\quad 24 \\quad 48 \\quad 21 \\quad 23 \\quad 33 \\quad 42 \\quad 38$. Find the mode.",
+   "answer": [
+    "33"
+   ]
+  },
+  {
+   "id": "q1i",
+   "label": "1i",
+   "section": "Fluency",
+   "stem": "For each data set, organise the data into an ordered stem-and-leaf plot (on paper), then answer the questions.",
+   "type": "choice",
+   "prompt": "Data set c: $35 \\quad 27 \\quad 50 \\quad 33 \\quad 29 \\quad 44 \\quad 53 \\quad 41 \\quad 18 \\quad 30 \\quad 36 \\quad 16 \\quad 32 \\quad 45 \\quad 39 \\quad 47 \\quad 33 \\quad 24 \\quad 24 \\quad 48 \\quad 21 \\quad 23 \\quad 33 \\quad 42 \\quad 38$. Describe the shape of the data.",
+   "answer": 0,
+   "options": [
+    "Symmetrical",
+    "Positively skewed",
+    "Negatively skewed"
+   ]
+  },
+  {
+   "id": "q1j",
+   "label": "1j",
+   "section": "Fluency",
+   "stem": "For each data set, organise the data into an ordered stem-and-leaf plot (on paper), then answer the questions.",
+   "type": "numeric",
+   "prompt": "Data set d: $36.4 \\quad 37.3 \\quad 33.1 \\quad 36.2 \\quad 36.1 \\quad 33.7 \\quad 36.7 \\quad 36.4 \\quad 34.5 \\quad 37.0 \\quad 35.3 \\quad 35.9 \\quad 32.4 \\quad 36.4 \\quad 35.0 \\quad 35.6 \\quad 35.6 \\quad 34.2 \\quad 34.8 \\quad 36.8$. Find the median.",
+   "answer": "35.75"
+  },
+  {
+   "id": "q1k",
+   "label": "1k",
+   "section": "Fluency",
+   "stem": "For each data set, organise the data into an ordered stem-and-leaf plot (on paper), then answer the questions.",
+   "type": "list",
+   "prompt": "Data set d: $36.4 \\quad 37.3 \\quad 33.1 \\quad 36.2 \\quad 36.1 \\quad 33.7 \\quad 36.7 \\quad 36.4 \\quad 34.5 \\quad 37.0 \\quad 35.3 \\quad 35.9 \\quad 32.4 \\quad 36.4 \\quad 35.0 \\quad 35.6 \\quad 35.6 \\quad 34.2 \\quad 34.8 \\quad 36.8$. Find the mode.",
+   "answer": [
+    "36.4"
+   ]
+  },
+  {
+   "id": "q1l",
+   "label": "1l",
+   "section": "Fluency",
+   "stem": "For each data set, organise the data into an ordered stem-and-leaf plot (on paper), then answer the questions.",
+   "type": "choice",
+   "prompt": "Data set d: $36.4 \\quad 37.3 \\quad 33.1 \\quad 36.2 \\quad 36.1 \\quad 33.7 \\quad 36.7 \\quad 36.4 \\quad 34.5 \\quad 37.0 \\quad 35.3 \\quad 35.9 \\quad 32.4 \\quad 36.4 \\quad 35.0 \\quad 35.6 \\quad 35.6 \\quad 34.2 \\quad 34.8 \\quad 36.8$. Describe the shape of the data.",
+   "answer": 2,
+   "options": [
+    "Symmetrical",
+    "Positively skewed",
+    "Negatively skewed"
+   ]
+  },
+  {
+   "id": "q1m",
+   "label": "1m",
+   "section": "Fluency",
+   "stem": "For each data set, organise the data into an ordered stem-and-leaf plot (on paper), then answer the questions.",
+   "type": "numeric",
+   "prompt": "Data set e: $167 \\quad 161 \\quad 170 \\quad 158 \\quad 173 \\quad 160 \\quad 159 \\quad 169 \\quad 162 \\quad 185 \\quad 158 \\quad 196 \\quad 164 \\quad 156 \\quad 164 \\quad 191 \\quad 187 \\quad 153 \\quad 175 \\quad 158 \\quad 204 \\quad 176 \\quad 182$. Find the median.",
+   "answer": "167"
+  },
+  {
+   "id": "q1n",
+   "label": "1n",
+   "section": "Fluency",
+   "stem": "For each data set, organise the data into an ordered stem-and-leaf plot (on paper), then answer the questions.",
+   "type": "list",
+   "prompt": "Data set e: $167 \\quad 161 \\quad 170 \\quad 158 \\quad 173 \\quad 160 \\quad 159 \\quad 169 \\quad 162 \\quad 185 \\quad 158 \\quad 196 \\quad 164 \\quad 156 \\quad 164 \\quad 191 \\quad 187 \\quad 153 \\quad 175 \\quad 158 \\quad 204 \\quad 176 \\quad 182$. Find the mode.",
+   "answer": [
+    "158"
+   ]
+  },
+  {
+   "id": "q1o",
+   "label": "1o",
+   "section": "Fluency",
+   "stem": "For each data set, organise the data into an ordered stem-and-leaf plot (on paper), then answer the questions.",
+   "type": "choice",
+   "prompt": "Data set e: $167 \\quad 161 \\quad 170 \\quad 158 \\quad 173 \\quad 160 \\quad 159 \\quad 169 \\quad 162 \\quad 185 \\quad 158 \\quad 196 \\quad 164 \\quad 156 \\quad 164 \\quad 191 \\quad 187 \\quad 153 \\quad 175 \\quad 158 \\quad 204 \\quad 176 \\quad 182$. Describe the shape of the data.",
+   "answer": 1,
+   "options": [
+    "Symmetrical",
+    "Positively skewed",
+    "Negatively skewed"
+   ]
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "The number of empty rooms at a holiday park each week over a $20$-week period is shown below. Draw a stem-and-leaf plot of the data to help you.<br>$14 \\quad 9 \\quad 13 \\quad 11 \\quad 23 \\quad 14 \\quad 7 \\quad 13 \\quad 14 \\quad 18 \\quad 16 \\quad 25 \\quad 6 \\quad 17 \\quad 22 \\quad 7 \\quad 19 \\quad 9 \\quad 16 \\quad 10$",
+   "type": "numeric",
+   "prompt": "In how many weeks were there fewer than $12$ empty rooms?",
+   "answer": "7",
+   "units": "weeks"
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "The number of empty rooms at a holiday park each week over a $20$-week period is shown below. Draw a stem-and-leaf plot of the data to help you.<br>$14 \\quad 9 \\quad 13 \\quad 11 \\quad 23 \\quad 14 \\quad 7 \\quad 13 \\quad 14 \\quad 18 \\quad 16 \\quad 25 \\quad 6 \\quad 17 \\quad 22 \\quad 7 \\quad 19 \\quad 9 \\quad 16 \\quad 10$",
+   "type": "numeric",
+   "prompt": "Find the median number of empty rooms.",
+   "answer": "14"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "For each pair of data sets, draw a back-to-back stem-and-leaf plot (on paper), then find the median and the range of each set to compare them.",
+   "type": "numeric",
+   "prompt": "Pair a. Set A: $47 \\quad 33 \\quad 41 \\quad 44 \\quad 46 \\quad 48 \\quad 52 \\quad 55 \\quad 41 \\quad 55 \\quad 34 \\quad 49 \\quad 38 \\quad 44$<br>Set B: $49 \\quad 50 \\quad 32 \\quad 41 \\quad 44 \\quad 48 \\quad 49 \\quad 42 \\quad 50 \\quad 52 \\quad 45 \\quad 47 \\quad 54 \\quad 45$<br>Find the median of set A.",
+   "answer": "45"
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "For each pair of data sets, draw a back-to-back stem-and-leaf plot (on paper), then find the median and the range of each set to compare them.",
+   "type": "numeric",
+   "prompt": "Pair a. Set A: $47 \\quad 33 \\quad 41 \\quad 44 \\quad 46 \\quad 48 \\quad 52 \\quad 55 \\quad 41 \\quad 55 \\quad 34 \\quad 49 \\quad 38 \\quad 44$<br>Set B: $49 \\quad 50 \\quad 32 \\quad 41 \\quad 44 \\quad 48 \\quad 49 \\quad 42 \\quad 50 \\quad 52 \\quad 45 \\quad 47 \\quad 54 \\quad 45$<br>Find the median of set B.",
+   "answer": "47.5"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "For each pair of data sets, draw a back-to-back stem-and-leaf plot (on paper), then find the median and the range of each set to compare them.",
+   "type": "numeric",
+   "prompt": "Pair a. Set A: $47 \\quad 33 \\quad 41 \\quad 44 \\quad 46 \\quad 48 \\quad 52 \\quad 55 \\quad 41 \\quad 55 \\quad 34 \\quad 49 \\quad 38 \\quad 44$<br>Set B: $49 \\quad 50 \\quad 32 \\quad 41 \\quad 44 \\quad 48 \\quad 49 \\quad 42 \\quad 50 \\quad 52 \\quad 45 \\quad 47 \\quad 54 \\quad 45$<br>Find the range of set A.",
+   "answer": "22"
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "For each pair of data sets, draw a back-to-back stem-and-leaf plot (on paper), then find the median and the range of each set to compare them.",
+   "type": "numeric",
+   "prompt": "Pair a. Set A: $47 \\quad 33 \\quad 41 \\quad 44 \\quad 46 \\quad 48 \\quad 52 \\quad 55 \\quad 41 \\quad 55 \\quad 34 \\quad 49 \\quad 38 \\quad 44$<br>Set B: $49 \\quad 50 \\quad 32 \\quad 41 \\quad 44 \\quad 48 \\quad 49 \\quad 42 \\quad 50 \\quad 52 \\quad 45 \\quad 47 \\quad 54 \\quad 45$<br>Find the range of set B.",
+   "answer": "22"
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "For each pair of data sets, draw a back-to-back stem-and-leaf plot (on paper), then find the median and the range of each set to compare them.",
+   "type": "numeric",
+   "prompt": "Pair b. Set A: $5.6 \\quad 5.1 \\quad 8.9 \\quad 7.3 \\quad 7.5 \\quad 5.8 \\quad 3.0 \\quad 4.1 \\quad 5.3 \\quad 2.4 \\quad 6.6 \\quad 7.1 \\quad 4.5 \\quad 3.3 \\quad 3.9 \\quad 4.7 \\quad 5.0 \\quad 9.1 \\quad 5.4 \\quad 1.2 \\quad 5.6 \\quad 2.5 \\quad 5.9 \\quad 8.4 \\quad 8.0 \\quad 1.2 \\quad 7.6 \\quad 2.7 \\quad 5.8 \\quad 5.9$<br>Set B: $4.3 \\quad 2.9 \\quad 2.4 \\quad 3.7 \\quad 4.8 \\quad 4.0 \\quad 0.9 \\quad 4.2 \\quad 1.4 \\quad 3.4 \\quad 2.7 \\quad 1.7 \\quad 1.6 \\quad 1.8 \\quad 4.4 \\quad 0.3 \\quad 2.2 \\quad 3.3 \\quad 2.7 \\quad 6.4 \\quad 6.8 \\quad 3.2 \\quad 7.9 \\quad 4.3 \\quad 0.8 \\quad 7.9 \\quad 4.9 \\quad 7.0 \\quad 5.8 \\quad 4.9$<br>Find the median of set A.",
+   "answer": "5.5"
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "For each pair of data sets, draw a back-to-back stem-and-leaf plot (on paper), then find the median and the range of each set to compare them.",
+   "type": "numeric",
+   "prompt": "Pair b. Set A: $5.6 \\quad 5.1 \\quad 8.9 \\quad 7.3 \\quad 7.5 \\quad 5.8 \\quad 3.0 \\quad 4.1 \\quad 5.3 \\quad 2.4 \\quad 6.6 \\quad 7.1 \\quad 4.5 \\quad 3.3 \\quad 3.9 \\quad 4.7 \\quad 5.0 \\quad 9.1 \\quad 5.4 \\quad 1.2 \\quad 5.6 \\quad 2.5 \\quad 5.9 \\quad 8.4 \\quad 8.0 \\quad 1.2 \\quad 7.6 \\quad 2.7 \\quad 5.8 \\quad 5.9$<br>Set B: $4.3 \\quad 2.9 \\quad 2.4 \\quad 3.7 \\quad 4.8 \\quad 4.0 \\quad 0.9 \\quad 4.2 \\quad 1.4 \\quad 3.4 \\quad 2.7 \\quad 1.7 \\quad 1.6 \\quad 1.8 \\quad 4.4 \\quad 0.3 \\quad 2.2 \\quad 3.3 \\quad 2.7 \\quad 6.4 \\quad 6.8 \\quad 3.2 \\quad 7.9 \\quad 4.3 \\quad 0.8 \\quad 7.9 \\quad 4.9 \\quad 7.0 \\quad 5.8 \\quad 4.9$<br>Find the median of set B.",
+   "answer": "3.55"
+  },
+  {
+   "id": "q3g",
+   "label": "3g",
+   "section": "Fluency",
+   "stem": "For each pair of data sets, draw a back-to-back stem-and-leaf plot (on paper), then find the median and the range of each set to compare them.",
+   "type": "numeric",
+   "prompt": "Pair b. Set A: $5.6 \\quad 5.1 \\quad 8.9 \\quad 7.3 \\quad 7.5 \\quad 5.8 \\quad 3.0 \\quad 4.1 \\quad 5.3 \\quad 2.4 \\quad 6.6 \\quad 7.1 \\quad 4.5 \\quad 3.3 \\quad 3.9 \\quad 4.7 \\quad 5.0 \\quad 9.1 \\quad 5.4 \\quad 1.2 \\quad 5.6 \\quad 2.5 \\quad 5.9 \\quad 8.4 \\quad 8.0 \\quad 1.2 \\quad 7.6 \\quad 2.7 \\quad 5.8 \\quad 5.9$<br>Set B: $4.3 \\quad 2.9 \\quad 2.4 \\quad 3.7 \\quad 4.8 \\quad 4.0 \\quad 0.9 \\quad 4.2 \\quad 1.4 \\quad 3.4 \\quad 2.7 \\quad 1.7 \\quad 1.6 \\quad 1.8 \\quad 4.4 \\quad 0.3 \\quad 2.2 \\quad 3.3 \\quad 2.7 \\quad 6.4 \\quad 6.8 \\quad 3.2 \\quad 7.9 \\quad 4.3 \\quad 0.8 \\quad 7.9 \\quad 4.9 \\quad 7.0 \\quad 5.8 \\quad 4.9$<br>Find the range of set A.",
+   "answer": "7.9"
+  },
+  {
+   "id": "q3h",
+   "label": "3h",
+   "section": "Fluency",
+   "stem": "For each pair of data sets, draw a back-to-back stem-and-leaf plot (on paper), then find the median and the range of each set to compare them.",
+   "type": "numeric",
+   "prompt": "Pair b. Set A: $5.6 \\quad 5.1 \\quad 8.9 \\quad 7.3 \\quad 7.5 \\quad 5.8 \\quad 3.0 \\quad 4.1 \\quad 5.3 \\quad 2.4 \\quad 6.6 \\quad 7.1 \\quad 4.5 \\quad 3.3 \\quad 3.9 \\quad 4.7 \\quad 5.0 \\quad 9.1 \\quad 5.4 \\quad 1.2 \\quad 5.6 \\quad 2.5 \\quad 5.9 \\quad 8.4 \\quad 8.0 \\quad 1.2 \\quad 7.6 \\quad 2.7 \\quad 5.8 \\quad 5.9$<br>Set B: $4.3 \\quad 2.9 \\quad 2.4 \\quad 3.7 \\quad 4.8 \\quad 4.0 \\quad 0.9 \\quad 4.2 \\quad 1.4 \\quad 3.4 \\quad 2.7 \\quad 1.7 \\quad 1.6 \\quad 1.8 \\quad 4.4 \\quad 0.3 \\quad 2.2 \\quad 3.3 \\quad 2.7 \\quad 6.4 \\quad 6.8 \\quad 3.2 \\quad 7.9 \\quad 4.3 \\quad 0.8 \\quad 7.9 \\quad 4.9 \\quad 7.0 \\quad 5.8 \\quad 4.9$<br>Find the range of set B.",
+   "answer": "7.6"
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "The final scores of two basketball teams in their last $24$ games are shown. A back-to-back stem-and-leaf plot will help.<br>Riverside Rams: $118 \\quad 72 \\quad 84 \\quad 95 \\quad 91 \\quad 112 \\quad 86 \\quad 121 \\quad 109 \\quad 115 \\quad 88 \\quad 79 \\quad 83 \\quad 70 \\quad 90 \\quad 134 \\quad 103 \\quad 107 \\quad 125 \\quad 82 \\quad 96 \\quad 87 \\quad 98 \\quad 74$<br>Hilltop Hawks: $97 \\quad 81 \\quad 102 \\quad 76 \\quad 88 \\quad 93 \\quad 69 \\quad 110 \\quad 85 \\quad 92 \\quad 79 \\quad 101 \\quad 74 \\quad 95 \\quad 83 \\quad 99 \\quad 120 \\quad 87 \\quad 77 \\quad 90 \\quad 105 \\quad 66 \\quad 94 \\quad 108$",
+   "type": "numeric",
+   "prompt": "In what percentage of games did the Rams score more than $100$ points?",
+   "answer": "37.5",
+   "units": "%"
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "The final scores of two basketball teams in their last $24$ games are shown. A back-to-back stem-and-leaf plot will help.<br>Riverside Rams: $118 \\quad 72 \\quad 84 \\quad 95 \\quad 91 \\quad 112 \\quad 86 \\quad 121 \\quad 109 \\quad 115 \\quad 88 \\quad 79 \\quad 83 \\quad 70 \\quad 90 \\quad 134 \\quad 103 \\quad 107 \\quad 125 \\quad 82 \\quad 96 \\quad 87 \\quad 98 \\quad 74$<br>Hilltop Hawks: $97 \\quad 81 \\quad 102 \\quad 76 \\quad 88 \\quad 93 \\quad 69 \\quad 110 \\quad 85 \\quad 92 \\quad 79 \\quad 101 \\quad 74 \\quad 95 \\quad 83 \\quad 99 \\quad 120 \\quad 87 \\quad 77 \\quad 90 \\quad 105 \\quad 66 \\quad 94 \\quad 108$",
+   "type": "numeric",
+   "prompt": "In what percentage of games did the Hawks score more than $100$ points?",
+   "answer": "25",
+   "units": "%"
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "The final scores of two basketball teams in their last $24$ games are shown. A back-to-back stem-and-leaf plot will help.<br>Riverside Rams: $118 \\quad 72 \\quad 84 \\quad 95 \\quad 91 \\quad 112 \\quad 86 \\quad 121 \\quad 109 \\quad 115 \\quad 88 \\quad 79 \\quad 83 \\quad 70 \\quad 90 \\quad 134 \\quad 103 \\quad 107 \\quad 125 \\quad 82 \\quad 96 \\quad 87 \\quad 98 \\quad 74$<br>Hilltop Hawks: $97 \\quad 81 \\quad 102 \\quad 76 \\quad 88 \\quad 93 \\quad 69 \\quad 110 \\quad 85 \\quad 92 \\quad 79 \\quad 101 \\quad 74 \\quad 95 \\quad 83 \\quad 99 \\quad 120 \\quad 87 \\quad 77 \\quad 90 \\quad 105 \\quad 66 \\quad 94 \\quad 108$",
+   "type": "choice",
+   "prompt": "Which team has the higher median score?",
+   "answer": 0,
+   "options": [
+    "Riverside Rams",
+    "Hilltop Hawks"
+   ]
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Fluency",
+   "stem": "The maximum temperature each day for three weeks in autumn is shown below (in °C). Use a stem-and-leaf plot to find each value.<br>$22 \\quad 22 \\quad 19 \\quad 21 \\quad 23 \\quad 21 \\quad 25 \\quad 24 \\quad 19 \\quad 21 \\quad 19 \\quad 22 \\quad 23 \\quad 23 \\quad 24 \\quad 26 \\quad 23 \\quad 21 \\quad 23 \\quad 19 \\quad 21$",
+   "type": "numeric",
+   "prompt": "The number of days on which the temperature was higher than $22$°C",
+   "answer": "9",
+   "units": "days"
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Fluency",
+   "stem": "The maximum temperature each day for three weeks in autumn is shown below (in °C). Use a stem-and-leaf plot to find each value.<br>$22 \\quad 22 \\quad 19 \\quad 21 \\quad 23 \\quad 21 \\quad 25 \\quad 24 \\quad 19 \\quad 21 \\quad 19 \\quad 22 \\quad 23 \\quad 23 \\quad 24 \\quad 26 \\quad 23 \\quad 21 \\quad 23 \\quad 19 \\quad 21$",
+   "type": "numeric",
+   "prompt": "The median temperature",
+   "answer": "22",
+   "units": "°C"
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Fluency",
+   "stem": "The maximum temperature each day for three weeks in autumn is shown below (in °C). Use a stem-and-leaf plot to find each value.<br>$22 \\quad 22 \\quad 19 \\quad 21 \\quad 23 \\quad 21 \\quad 25 \\quad 24 \\quad 19 \\quad 21 \\quad 19 \\quad 22 \\quad 23 \\quad 23 \\quad 24 \\quad 26 \\quad 23 \\quad 21 \\quad 23 \\quad 19 \\quad 21$",
+   "type": "numeric",
+   "prompt": "The difference between the minimum and maximum temperatures",
+   "answer": "7",
+   "units": "°C"
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Problem-solving",
+   "stem": "This stem-and-leaf plot shows the time taken, in seconds, by Tama to swim $50$ m in his last $25$ races.",
+   "type": "numeric",
+   "prompt": "Find Tama's median time.",
+   "answer": "15.1",
+   "stemFigure": {
+    "kind": "stemleaf",
+    "rows": [
+     [
+      "13",
+      "8"
+     ],
+     [
+      "14",
+      "2 3 5 5 6 6 6 8 9"
+     ],
+     [
+      "15",
+      "0 0 1 2 2 3 3 4 5 5 5 7 7"
+     ],
+     [
+      "16",
+      "1 2"
+     ]
+    ],
+    "key": "14 | 2 means 14.2 seconds"
+   },
+   "units": "seconds"
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Problem-solving",
+   "stem": "This stem-and-leaf plot shows the time taken, in seconds, by Tama to swim $50$ m in his last $25$ races.",
+   "type": "numeric",
+   "prompt": "What is the difference between his slowest and fastest times?",
+   "answer": "2.4",
+   "units": "seconds"
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Problem-solving",
+   "stem": "This stem-and-leaf plot shows the time taken, in seconds, by Tama to swim $50$ m in his last $25$ races.",
+   "type": "numeric",
+   "prompt": "In his 26th race his time was $14.4$ seconds. If this is added to the plot, by how much does his median time change?",
+   "answer": "0.05",
+   "units": "seconds"
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Problem-solving",
+   "stem": "Two brands of phone battery were tested to find how long they last, in hours, on a single charge. A back-to-back stem-and-leaf plot will help.<br>Brand A: $6.8 \\quad 7.4 \\quad 7.7 \\quad 7.9 \\quad 8.0 \\quad 8.2 \\quad 8.3 \\quad 8.5 \\quad 8.6 \\quad 8.7 \\quad 8.8 \\quad 8.9 \\quad 8.9 \\quad 9.0 \\quad 9.1 \\quad 9.1 \\quad 9.3 \\quad 9.4 \\quad 9.6 \\quad 9.8$<br>Brand B: $6.5 \\quad 6.6 \\quad 6.9 \\quad 7.0 \\quad 7.1 \\quad 7.3 \\quad 7.4 \\quad 7.4 \\quad 7.6 \\quad 7.8 \\quad 8.1 \\quad 8.6 \\quad 8.8 \\quad 8.9 \\quad 9.0 \\quad 9.2 \\quad 9.3 \\quad 9.5 \\quad 9.7 \\quad 9.9$",
+   "type": "numeric",
+   "prompt": "How many brand A batteries lasted more than $9$ hours?",
+   "answer": "6"
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Problem-solving",
+   "stem": "Two brands of phone battery were tested to find how long they last, in hours, on a single charge. A back-to-back stem-and-leaf plot will help.<br>Brand A: $6.8 \\quad 7.4 \\quad 7.7 \\quad 7.9 \\quad 8.0 \\quad 8.2 \\quad 8.3 \\quad 8.5 \\quad 8.6 \\quad 8.7 \\quad 8.8 \\quad 8.9 \\quad 8.9 \\quad 9.0 \\quad 9.1 \\quad 9.1 \\quad 9.3 \\quad 9.4 \\quad 9.6 \\quad 9.8$<br>Brand B: $6.5 \\quad 6.6 \\quad 6.9 \\quad 7.0 \\quad 7.1 \\quad 7.3 \\quad 7.4 \\quad 7.4 \\quad 7.6 \\quad 7.8 \\quad 8.1 \\quad 8.6 \\quad 8.8 \\quad 8.9 \\quad 9.0 \\quad 9.2 \\quad 9.3 \\quad 9.5 \\quad 9.7 \\quad 9.9$",
+   "type": "numeric",
+   "prompt": "How many brand B batteries lasted more than $9$ hours?",
+   "answer": "5"
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Problem-solving",
+   "stem": "Two brands of phone battery were tested to find how long they last, in hours, on a single charge. A back-to-back stem-and-leaf plot will help.<br>Brand A: $6.8 \\quad 7.4 \\quad 7.7 \\quad 7.9 \\quad 8.0 \\quad 8.2 \\quad 8.3 \\quad 8.5 \\quad 8.6 \\quad 8.7 \\quad 8.8 \\quad 8.9 \\quad 8.9 \\quad 9.0 \\quad 9.1 \\quad 9.1 \\quad 9.3 \\quad 9.4 \\quad 9.6 \\quad 9.8$<br>Brand B: $6.5 \\quad 6.6 \\quad 6.9 \\quad 7.0 \\quad 7.1 \\quad 7.3 \\quad 7.4 \\quad 7.4 \\quad 7.6 \\quad 7.8 \\quad 8.1 \\quad 8.6 \\quad 8.8 \\quad 8.9 \\quad 9.0 \\quad 9.2 \\quad 9.3 \\quad 9.5 \\quad 9.7 \\quad 9.9$",
+   "type": "numeric",
+   "prompt": "Find the median lifetime for brand A.",
+   "answer": "8.75",
+   "units": "hours"
+  },
+  {
+   "id": "q7d",
+   "label": "7d",
+   "section": "Problem-solving",
+   "stem": "Two brands of phone battery were tested to find how long they last, in hours, on a single charge. A back-to-back stem-and-leaf plot will help.<br>Brand A: $6.8 \\quad 7.4 \\quad 7.7 \\quad 7.9 \\quad 8.0 \\quad 8.2 \\quad 8.3 \\quad 8.5 \\quad 8.6 \\quad 8.7 \\quad 8.8 \\quad 8.9 \\quad 8.9 \\quad 9.0 \\quad 9.1 \\quad 9.1 \\quad 9.3 \\quad 9.4 \\quad 9.6 \\quad 9.8$<br>Brand B: $6.5 \\quad 6.6 \\quad 6.9 \\quad 7.0 \\quad 7.1 \\quad 7.3 \\quad 7.4 \\quad 7.4 \\quad 7.6 \\quad 7.8 \\quad 8.1 \\quad 8.6 \\quad 8.8 \\quad 8.9 \\quad 9.0 \\quad 9.2 \\quad 9.3 \\quad 9.5 \\quad 9.7 \\quad 9.9$",
+   "type": "numeric",
+   "prompt": "Find the median lifetime for brand B.",
+   "answer": "7.95",
+   "units": "hours"
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Reasoning",
+   "stem": "This ordered stem-and-leaf plot has some unknown digits, $m$, $p$ and $q$.",
+   "type": "numeric",
+   "prompt": "What is the value of $m$?",
+   "answer": "6",
+   "stemFigure": {
+    "kind": "stemleaf",
+    "rows": [
+     [
+      "4",
+      "1 4 7"
+     ],
+     [
+      "5",
+      "0 3 p 9"
+     ],
+     [
+      "m",
+      "2 q 5 8"
+     ],
+     [
+      "7",
+      "0 6 6"
+     ]
+    ],
+    "key": "5 | 3 means 5.3"
+   }
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Reasoning",
+   "stem": "This ordered stem-and-leaf plot has some unknown digits, $m$, $p$ and $q$.",
+   "type": "numeric",
+   "prompt": "What is the smallest number in the data set?",
+   "answer": "4.1"
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Reasoning",
+   "stem": "This ordered stem-and-leaf plot has some unknown digits, $m$, $p$ and $q$.",
+   "type": "list",
+   "prompt": "List all the values the digit $p$ could take.",
+   "answer": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9"
+   ],
+   "hint": "Separate the values with commas, for example 3, 7, 12"
+  },
+  {
+   "id": "q8d",
+   "label": "8d",
+   "section": "Reasoning",
+   "stem": "This ordered stem-and-leaf plot has some unknown digits, $m$, $p$ and $q$.",
+   "type": "list",
+   "prompt": "List all the values the digit $q$ could take.",
+   "answer": [
+    "2",
+    "3",
+    "4",
+    "5"
+   ]
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Reasoning",
+   "stem": "A farmer grew pumpkins in two paddocks, one with fertiliser and one without. The back-to-back stem-and-leaf plot shows the masses of the pumpkins in kilograms. Each stem is split in two: 2 holds the leaves 0 to 4 and 2* holds the leaves 5 to 9.",
+   "type": "numeric",
+   "prompt": "What percentage of the pumpkins grown without fertiliser have a mass of less than $3$ kg?",
+   "answer": "48",
+   "units": "%",
+   "stemFigure": {
+    "kind": "stemleaf",
+    "rows": [
+     [
+      "2",
+      "4"
+     ],
+     [
+      "2*",
+      "7 9"
+     ],
+     [
+      "3",
+      "0 1 1 2 3 4"
+     ],
+     [
+      "3*",
+      "5 5 6 6 7 7 8 9"
+     ],
+     [
+      "4",
+      "0 2"
+     ],
+     [
+      "4*",
+      "6"
+     ]
+    ],
+    "back": [
+     [
+      "",
+      "3 3 2 1"
+     ],
+     [
+      "",
+      "9 9 8 7 7 6 5 5"
+     ],
+     [
+      "",
+      "4 4 3 2 1 1 0 0 0"
+     ],
+     [
+      "",
+      "8 6 5"
+     ],
+     [
+      "",
+      "2"
+     ],
+     [
+      "",
+      ""
+     ]
+    ],
+    "backLabel": "No fertiliser",
+    "leafLabel": "Fertiliser",
+    "key": "2 | 4 means 2.4 kg, and 2* | 5 means 2.5 kg"
+   }
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Reasoning",
+   "stem": "A farmer grew pumpkins in two paddocks, one with fertiliser and one without. The back-to-back stem-and-leaf plot shows the masses of the pumpkins in kilograms. Each stem is split in two: 2 holds the leaves 0 to 4 and 2* holds the leaves 5 to 9.",
+   "type": "numeric",
+   "prompt": "What percentage of the pumpkins grown with fertiliser have a mass of less than $3$ kg?",
+   "answer": "15",
+   "units": "%"
+  },
+  {
+   "id": "q9c",
+   "label": "9c",
+   "section": "Reasoning",
+   "stem": "A farmer grew pumpkins in two paddocks, one with fertiliser and one without. The back-to-back stem-and-leaf plot shows the masses of the pumpkins in kilograms. Each stem is split in two: 2 holds the leaves 0 to 4 and 2* holds the leaves 5 to 9.",
+   "type": "choice",
+   "prompt": "Which pumpkins tend to be heavier?",
+   "answer": 0,
+   "options": [
+    "The pumpkins grown with fertiliser",
+    "The pumpkins grown without fertiliser",
+    "Neither, they have the same median"
+   ]
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Reasoning",
+   "stem": "Find the median if all the data in each back-to-back stem-and-leaf plot is combined into one data set.",
+   "type": "numeric",
+   "prompt": "Plot a",
+   "answer": "51",
+   "figure": {
+    "kind": "stemleaf",
+    "rows": [
+     [
+      "3",
+      "1 6"
+     ],
+     [
+      "4",
+      "2 2 3 5 7 8"
+     ],
+     [
+      "5",
+      "3 3 5 9"
+     ],
+     [
+      "6",
+      "1 6"
+     ]
+    ],
+    "back": [
+     [
+      "",
+      "5"
+     ],
+     [
+      "",
+      "9 7 3 1"
+     ],
+     [
+      "",
+      "8 6 4 2 1"
+     ],
+     [
+      "",
+      "7 2 0"
+     ]
+    ],
+    "key": "4 | 2 means 42"
+   }
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Reasoning",
+   "stem": "Find the median if all the data in each back-to-back stem-and-leaf plot is combined into one data set.",
+   "type": "numeric",
+   "prompt": "Plot b",
+   "answer": "17.2",
+   "figure": {
+    "kind": "stemleaf",
+    "rows": [
+     [
+      "15",
+      "8"
+     ],
+     [
+      "16",
+      "1 3 3 7"
+     ],
+     [
+      "17",
+      "0 2 2 5"
+     ],
+     [
+      "18",
+      "1 2 4 8"
+     ],
+     [
+      "19",
+      "0 3"
+     ]
+    ],
+    "back": [
+     [
+      "",
+      "3"
+     ],
+     [
+      "",
+      "9 8 5 2"
+     ],
+     [
+      "",
+      "9 7 4 4 1 0"
+     ],
+     [
+      "",
+      "6"
+     ],
+     [
+      "",
+      ""
+     ]
+    ],
+    "key": "16 | 3 means 16.3"
+   }
+  },
+  {
+   "id": "q12a",
+   "label": "12a",
+   "section": "Enrichment",
+   "stem": "This stem-and-leaf plot shows a negatively skewed data set: its tail points towards the smaller numbers.",
+   "type": "numeric",
+   "prompt": "Find the mean, correct to two decimal places.",
+   "answer": "41.29",
+   "stemFigure": {
+    "kind": "stemleaf",
+    "rows": [
+     [
+      "1",
+      "6"
+     ],
+     [
+      "2",
+      "2 5"
+     ],
+     [
+      "3",
+      "1 4 8"
+     ],
+     [
+      "4",
+      "0 2 2 5 7 9"
+     ],
+     [
+      "5",
+      "1 3 3 6 8"
+     ]
+    ],
+    "key": "3 | 4 means 34"
+   },
+   "dp": 2
+  },
+  {
+   "id": "q12b",
+   "label": "12b",
+   "section": "Enrichment",
+   "stem": "This stem-and-leaf plot shows a negatively skewed data set: its tail points towards the smaller numbers.",
+   "type": "numeric",
+   "prompt": "Find the median.",
+   "answer": "42"
+  },
+  {
+   "id": "q12c",
+   "label": "12c",
+   "section": "Enrichment",
+   "stem": "This stem-and-leaf plot shows a negatively skewed data set: its tail points towards the smaller numbers.",
+   "type": "choice",
+   "prompt": "Which is higher for this data set?",
+   "answer": 1,
+   "options": [
+    "The mean",
+    "The median"
+   ]
+  },
+  {
+   "id": "q12d",
+   "label": "12d",
+   "section": "Enrichment",
+   "stem": "This stem-and-leaf plot shows a negatively skewed data set: its tail points towards the smaller numbers.",
+   "type": "choice",
+   "prompt": "For a positively skewed data set, which would you expect to be higher?",
+   "answer": 0,
+   "options": [
+    "The mean",
+    "The median"
+   ]
+  },
+  {
+   "id": "q12e",
+   "label": "12e",
+   "section": "Enrichment",
+   "stem": "This stem-and-leaf plot shows a negatively skewed data set: its tail points towards the smaller numbers.",
+   "type": "choice",
+   "prompt": "What type of distribution makes the mean and the median quite close together?",
+   "answer": 0,
+   "options": [
+    "Symmetrical",
+    "Positively skewed",
+    "Negatively skewed"
+   ]
+  }
+ ]
+},
+{
+ "id": "y9-9j",
+ "year": 9,
+ "chapter": "Chapter 9: Probability and statistics",
+ "title": "9J Grouping data into classes",
+ "description": "Sort data into class intervals, complete frequency and percentage frequency tables, and read histograms.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "The number of drinks sold from a juice stand each day over a $50$-day period is shown below.<br>$48 \\quad 9 \\quad 17 \\quad 12 \\quad 27 \\quad 21 \\quad 24 \\quad 13 \\quad 5 \\quad 11 \\quad 3 \\quad 3 \\quad 13 \\quad 33 \\quad 4 \\quad 5 \\quad 7 \\quad 25 \\quad 47 \\quad 17 \\quad 36 \\quad 31 \\quad 18 \\quad 16 \\quad 43 \\quad 26 \\quad 23 \\quad 36 \\quad 34 \\quad 1 \\quad 0 \\quad 21 \\quad 36 \\quad 15 \\quad 36 \\quad 7 \\quad 3 \\quad 7 \\quad 16 \\quad 8 \\quad 3 \\quad 29 \\quad 4 \\quad 9 \\quad 40 \\quad 46 \\quad 13 \\quad 3 \\quad 15 \\quad 8$<br>Use the class intervals 0-, 10-, 20-, 30- and 40-.",
+   "type": "ordered",
+   "prompt": "Complete the frequency column. Type the frequencies in order.",
+   "answer": [
+    "18",
+    "12",
+    "8",
+    "7",
+    "5"
+   ],
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "Class interval",
+      "0-",
+      "10-",
+      "20-",
+      "30-",
+      "40-"
+     ],
+     [
+      "Frequency",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+     ],
+     [
+      "Percentage frequency",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+     ]
+    ]
+   },
+   "hint": "Type the values in order from the first class to the last, separated by commas, for example 4, 11, 9, 6, 2"
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "The number of drinks sold from a juice stand each day over a $50$-day period is shown below.<br>$48 \\quad 9 \\quad 17 \\quad 12 \\quad 27 \\quad 21 \\quad 24 \\quad 13 \\quad 5 \\quad 11 \\quad 3 \\quad 3 \\quad 13 \\quad 33 \\quad 4 \\quad 5 \\quad 7 \\quad 25 \\quad 47 \\quad 17 \\quad 36 \\quad 31 \\quad 18 \\quad 16 \\quad 43 \\quad 26 \\quad 23 \\quad 36 \\quad 34 \\quad 1 \\quad 0 \\quad 21 \\quad 36 \\quad 15 \\quad 36 \\quad 7 \\quad 3 \\quad 7 \\quad 16 \\quad 8 \\quad 3 \\quad 29 \\quad 4 \\quad 9 \\quad 40 \\quad 46 \\quad 13 \\quad 3 \\quad 15 \\quad 8$<br>Use the class intervals 0-, 10-, 20-, 30- and 40-.",
+   "type": "ordered",
+   "prompt": "Complete the percentage frequency column. Type the percentages in order.",
+   "answer": [
+    "36",
+    "24",
+    "16",
+    "14",
+    "10"
+   ]
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "The number of drinks sold from a juice stand each day over a $50$-day period is shown below.<br>$48 \\quad 9 \\quad 17 \\quad 12 \\quad 27 \\quad 21 \\quad 24 \\quad 13 \\quad 5 \\quad 11 \\quad 3 \\quad 3 \\quad 13 \\quad 33 \\quad 4 \\quad 5 \\quad 7 \\quad 25 \\quad 47 \\quad 17 \\quad 36 \\quad 31 \\quad 18 \\quad 16 \\quad 43 \\quad 26 \\quad 23 \\quad 36 \\quad 34 \\quad 1 \\quad 0 \\quad 21 \\quad 36 \\quad 15 \\quad 36 \\quad 7 \\quad 3 \\quad 7 \\quad 16 \\quad 8 \\quad 3 \\quad 29 \\quad 4 \\quad 9 \\quad 40 \\quad 46 \\quad 13 \\quad 3 \\quad 15 \\quad 8$<br>Use the class intervals 0-, 10-, 20-, 30- and 40-.",
+   "type": "numeric",
+   "prompt": "On how many days did the stand sell fewer than $20$ drinks?",
+   "answer": "30",
+   "units": "days"
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "The number of drinks sold from a juice stand each day over a $50$-day period is shown below.<br>$48 \\quad 9 \\quad 17 \\quad 12 \\quad 27 \\quad 21 \\quad 24 \\quad 13 \\quad 5 \\quad 11 \\quad 3 \\quad 3 \\quad 13 \\quad 33 \\quad 4 \\quad 5 \\quad 7 \\quad 25 \\quad 47 \\quad 17 \\quad 36 \\quad 31 \\quad 18 \\quad 16 \\quad 43 \\quad 26 \\quad 23 \\quad 36 \\quad 34 \\quad 1 \\quad 0 \\quad 21 \\quad 36 \\quad 15 \\quad 36 \\quad 7 \\quad 3 \\quad 7 \\quad 16 \\quad 8 \\quad 3 \\quad 29 \\quad 4 \\quad 9 \\quad 40 \\quad 46 \\quad 13 \\quad 3 \\quad 15 \\quad 8$<br>Use the class intervals 0-, 10-, 20-, 30- and 40-.",
+   "type": "numeric",
+   "prompt": "On how many days did the stand sell at least $30$ drinks?",
+   "answer": "12",
+   "units": "days"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "The marks out of $100$ on a geography exam for $60$ Year $9$ students are shown below.<br>$68 \\quad 77 \\quad 57 \\quad 77 \\quad 82 \\quad 53 \\quad 63 \\quad 83 \\quad 95 \\quad 81 \\quad 83 \\quad 66 \\quad 56 \\quad 90 \\quad 77 \\quad 57 \\quad 94 \\quad 83 \\quad 63 \\quad 74 \\quad 84 \\quad 68 \\quad 53 \\quad 83 \\quad 83 \\quad 57 \\quad 85 \\quad 83 \\quad 67 \\quad 66 \\quad 73 \\quad 69 \\quad 94 \\quad 63 \\quad 50 \\quad 82 \\quad 97 \\quad 74 \\quad 56 \\quad 56 \\quad 65 \\quad 86 \\quad 95 \\quad 56 \\quad 82 \\quad 93 \\quad 81 \\quad 67 \\quad 50 \\quad 78 \\quad 85 \\quad 62 \\quad 80 \\quad 86 \\quad 70 \\quad 70 \\quad 77 \\quad 84 \\quad 65 \\quad 80$<br>Use the class intervals 50-, 60-, 70-, 80- and 90-.",
+   "type": "ordered",
+   "prompt": "Complete the frequency column. Type the frequencies in order.",
+   "answer": [
+    "11",
+    "13",
+    "10",
+    "19",
+    "7"
+   ],
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "Class interval",
+      "50-",
+      "60-",
+      "70-",
+      "80-",
+      "90-"
+     ],
+     [
+      "Frequency",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+     ],
+     [
+      "Percentage frequency",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "The marks out of $100$ on a geography exam for $60$ Year $9$ students are shown below.<br>$68 \\quad 77 \\quad 57 \\quad 77 \\quad 82 \\quad 53 \\quad 63 \\quad 83 \\quad 95 \\quad 81 \\quad 83 \\quad 66 \\quad 56 \\quad 90 \\quad 77 \\quad 57 \\quad 94 \\quad 83 \\quad 63 \\quad 74 \\quad 84 \\quad 68 \\quad 53 \\quad 83 \\quad 83 \\quad 57 \\quad 85 \\quad 83 \\quad 67 \\quad 66 \\quad 73 \\quad 69 \\quad 94 \\quad 63 \\quad 50 \\quad 82 \\quad 97 \\quad 74 \\quad 56 \\quad 56 \\quad 65 \\quad 86 \\quad 95 \\quad 56 \\quad 82 \\quad 93 \\quad 81 \\quad 67 \\quad 50 \\quad 78 \\quad 85 \\quad 62 \\quad 80 \\quad 86 \\quad 70 \\quad 70 \\quad 77 \\quad 84 \\quad 65 \\quad 80$<br>Use the class intervals 50-, 60-, 70-, 80- and 90-.",
+   "type": "ordered",
+   "prompt": "Complete the percentage frequency column, rounding to two decimal places where needed. Type the percentages in order.",
+   "answer": [
+    "18.33",
+    "21.67",
+    "16.67",
+    "31.67",
+    "11.67"
+   ]
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "The marks out of $100$ on a geography exam for $60$ Year $9$ students are shown below.<br>$68 \\quad 77 \\quad 57 \\quad 77 \\quad 82 \\quad 53 \\quad 63 \\quad 83 \\quad 95 \\quad 81 \\quad 83 \\quad 66 \\quad 56 \\quad 90 \\quad 77 \\quad 57 \\quad 94 \\quad 83 \\quad 63 \\quad 74 \\quad 84 \\quad 68 \\quad 53 \\quad 83 \\quad 83 \\quad 57 \\quad 85 \\quad 83 \\quad 67 \\quad 66 \\quad 73 \\quad 69 \\quad 94 \\quad 63 \\quad 50 \\quad 82 \\quad 97 \\quad 74 \\quad 56 \\quad 56 \\quad 65 \\quad 86 \\quad 95 \\quad 56 \\quad 82 \\quad 93 \\quad 81 \\quad 67 \\quad 50 \\quad 78 \\quad 85 \\quad 62 \\quad 80 \\quad 86 \\quad 70 \\quad 70 \\quad 77 \\quad 84 \\quad 65 \\quad 80$<br>Use the class intervals 50-, 60-, 70-, 80- and 90-.",
+   "type": "numeric",
+   "prompt": "How many marks were less than $70$?",
+   "answer": "24"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "The marks out of $100$ on a geography exam for $60$ Year $9$ students are shown below.<br>$68 \\quad 77 \\quad 57 \\quad 77 \\quad 82 \\quad 53 \\quad 63 \\quad 83 \\quad 95 \\quad 81 \\quad 83 \\quad 66 \\quad 56 \\quad 90 \\quad 77 \\quad 57 \\quad 94 \\quad 83 \\quad 63 \\quad 74 \\quad 84 \\quad 68 \\quad 53 \\quad 83 \\quad 83 \\quad 57 \\quad 85 \\quad 83 \\quad 67 \\quad 66 \\quad 73 \\quad 69 \\quad 94 \\quad 63 \\quad 50 \\quad 82 \\quad 97 \\quad 74 \\quad 56 \\quad 56 \\quad 65 \\quad 86 \\quad 95 \\quad 56 \\quad 82 \\quad 93 \\quad 81 \\quad 67 \\quad 50 \\quad 78 \\quad 85 \\quad 62 \\quad 80 \\quad 86 \\quad 70 \\quad 70 \\quad 77 \\quad 84 \\quad 65 \\quad 80$<br>Use the class intervals 50-, 60-, 70-, 80- and 90-.",
+   "type": "numeric",
+   "prompt": "What percentage of marks were at least $80$? Answer correct to one decimal place.",
+   "answer": "43.3",
+   "dp": 1,
+   "units": "%"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "The number of goals scored by a water polo player in each of her last $30$ matches is shown below.<br>$6 \\quad 8 \\quad 9 \\quad 2 \\quad 0 \\quad 9 \\quad 11 \\quad 7 \\quad 7 \\quad 14 \\quad 13 \\quad 13 \\quad 8 \\quad 6 \\quad 12 \\quad 10 \\quad 3 \\quad 5 \\quad 8 \\quad 11 \\quad 5 \\quad 3 \\quad 7 \\quad 5 \\quad 4 \\quad 0 \\quad 9 \\quad 5 \\quad 7 \\quad 11$",
+   "type": "ordered",
+   "prompt": "Group the data using class intervals of width $3$ starting at $0$ (0-2, 3-5, 6-8, 9-11, 12-14). Type the frequencies in order.",
+   "answer": [
+    "3",
+    "7",
+    "9",
+    "7",
+    "4"
+   ],
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "Class interval",
+      "0-2",
+      "3-5",
+      "6-8",
+      "9-11",
+      "12-14"
+     ],
+     [
+      "Frequency",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "The number of goals scored by a water polo player in each of her last $30$ matches is shown below.<br>$6 \\quad 8 \\quad 9 \\quad 2 \\quad 0 \\quad 9 \\quad 11 \\quad 7 \\quad 7 \\quad 14 \\quad 13 \\quad 13 \\quad 8 \\quad 6 \\quad 12 \\quad 10 \\quad 3 \\quad 5 \\quad 8 \\quad 11 \\quad 5 \\quad 3 \\quad 7 \\quad 5 \\quad 4 \\quad 0 \\quad 9 \\quad 5 \\quad 7 \\quad 11$",
+   "type": "numeric",
+   "prompt": "In how many matches did she score fewer than six goals?",
+   "answer": "10"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "The number of goals scored by a water polo player in each of her last $30$ matches is shown below.<br>$6 \\quad 8 \\quad 9 \\quad 2 \\quad 0 \\quad 9 \\quad 11 \\quad 7 \\quad 7 \\quad 14 \\quad 13 \\quad 13 \\quad 8 \\quad 6 \\quad 12 \\quad 10 \\quad 3 \\quad 5 \\quad 8 \\quad 11 \\quad 5 \\quad 3 \\quad 7 \\quad 5 \\quad 4 \\quad 0 \\quad 9 \\quad 5 \\quad 7 \\quad 11$",
+   "type": "numeric",
+   "prompt": "In how many matches did she score more than $11$ goals?",
+   "answer": "4"
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "Does each histogram show a symmetrical data set or a skewed data set?",
+   "type": "choice",
+   "prompt": "Histogram a",
+   "answer": 0,
+   "figure": {
+    "kind": "columns",
+    "histogram": true,
+    "cats": [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    "values": [
+     6,
+     14,
+     22,
+     28,
+     21,
+     13,
+     5
+    ],
+    "edges": [
+     "0",
+     "10",
+     "20",
+     "30",
+     "40",
+     "50",
+     "60",
+     "70"
+    ],
+    "ymax": 30,
+    "step": 5,
+    "ylabel": "Frequency"
+   },
+   "options": [
+    "Symmetrical",
+    "Skewed"
+   ]
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "Does each histogram show a symmetrical data set or a skewed data set?",
+   "type": "choice",
+   "prompt": "Histogram b",
+   "answer": 1,
+   "figure": {
+    "kind": "columns",
+    "histogram": true,
+    "cats": [
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    "values": [
+     30,
+     35,
+     34,
+     10,
+     5
+    ],
+    "edges": [
+     "0",
+     "10",
+     "20",
+     "30",
+     "40",
+     "50"
+    ],
+    "ymax": 35,
+    "step": 5,
+    "ylabel": "Frequency"
+   },
+   "options": [
+    "Symmetrical",
+    "Skewed"
+   ]
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Problem-solving",
+   "stem": "Find the value of each pronumeral in frequency table A.",
+   "type": "numeric",
+   "prompt": "Table A: find $a$.",
+   "answer": "16",
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "Class interval",
+      "Frequency",
+      "Percentage frequency"
+     ],
+     [
+      "10-",
+      "a",
+      "20"
+     ],
+     [
+      "15-",
+      "18",
+      "b"
+     ],
+     [
+      "20-",
+      "12",
+      "c"
+     ],
+     [
+      "25-",
+      "d",
+      "25"
+     ],
+     [
+      "30-34",
+      "e",
+      "f"
+     ],
+     [
+      "Total",
+      "80",
+      "g"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Problem-solving",
+   "stem": "Find the value of each pronumeral in frequency table A.",
+   "type": "numeric",
+   "prompt": "Table A: find $b$.",
+   "answer": "22.5"
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Problem-solving",
+   "stem": "Find the value of each pronumeral in frequency table A.",
+   "type": "numeric",
+   "prompt": "Table A: find $c$.",
+   "answer": "15"
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Problem-solving",
+   "stem": "Find the value of each pronumeral in frequency table A.",
+   "type": "numeric",
+   "prompt": "Table A: find $d$.",
+   "answer": "20"
+  },
+  {
+   "id": "q5e",
+   "label": "5e",
+   "section": "Problem-solving",
+   "stem": "Find the value of each pronumeral in frequency table A.",
+   "type": "numeric",
+   "prompt": "Table A: find $e$.",
+   "answer": "14"
+  },
+  {
+   "id": "q5f",
+   "label": "5f",
+   "section": "Problem-solving",
+   "stem": "Find the value of each pronumeral in frequency table A.",
+   "type": "numeric",
+   "prompt": "Table A: find $f$.",
+   "answer": "17.5"
+  },
+  {
+   "id": "q5g",
+   "label": "5g",
+   "section": "Problem-solving",
+   "stem": "Find the value of each pronumeral in frequency table A.",
+   "type": "numeric",
+   "prompt": "Table A: find $g$.",
+   "answer": "100"
+  },
+  {
+   "id": "q5h",
+   "label": "5h",
+   "section": "Problem-solving",
+   "stem": "Find the value of each pronumeral in frequency table B.",
+   "type": "numeric",
+   "prompt": "Table B: find $a$.",
+   "answer": "2",
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "Class interval",
+      "Frequency",
+      "Percentage frequency"
+     ],
+     [
+      "0-",
+      "a",
+      "8"
+     ],
+     [
+      "3-",
+      "7",
+      "b"
+     ],
+     [
+      "6-",
+      "c",
+      "32"
+     ],
+     [
+      "9-",
+      "5",
+      "d"
+     ],
+     [
+      "12-14",
+      "e",
+      "f"
+     ],
+     [
+      "Total",
+      "25",
+      "g"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q5i",
+   "label": "5i",
+   "section": "Problem-solving",
+   "stem": "Find the value of each pronumeral in frequency table B.",
+   "type": "numeric",
+   "prompt": "Table B: find $b$.",
+   "answer": "28"
+  },
+  {
+   "id": "q5j",
+   "label": "5j",
+   "section": "Problem-solving",
+   "stem": "Find the value of each pronumeral in frequency table B.",
+   "type": "numeric",
+   "prompt": "Table B: find $c$.",
+   "answer": "8"
+  },
+  {
+   "id": "q5k",
+   "label": "5k",
+   "section": "Problem-solving",
+   "stem": "Find the value of each pronumeral in frequency table B.",
+   "type": "numeric",
+   "prompt": "Table B: find $d$.",
+   "answer": "20"
+  },
+  {
+   "id": "q5l",
+   "label": "5l",
+   "section": "Problem-solving",
+   "stem": "Find the value of each pronumeral in frequency table B.",
+   "type": "numeric",
+   "prompt": "Table B: find $e$.",
+   "answer": "3"
+  },
+  {
+   "id": "q5m",
+   "label": "5m",
+   "section": "Problem-solving",
+   "stem": "Find the value of each pronumeral in frequency table B.",
+   "type": "numeric",
+   "prompt": "Table B: find $f$.",
+   "answer": "12"
+  },
+  {
+   "id": "q5n",
+   "label": "5n",
+   "section": "Problem-solving",
+   "stem": "Find the value of each pronumeral in frequency table B.",
+   "type": "numeric",
+   "prompt": "Table B: find $g$.",
+   "answer": "100"
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Problem-solving",
+   "stem": "This percentage frequency histogram shows the heights of the trees in a park.",
+   "type": "numeric",
+   "prompt": "What percentage of the trees have heights between $5$ m and $10$ m?",
+   "answer": "25",
+   "units": "%",
+   "stemFigure": {
+    "kind": "columns",
+    "histogram": true,
+    "cats": [
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    "values": [
+     10,
+     25,
+     35,
+     20,
+     10
+    ],
+    "edges": [
+     "0",
+     "5",
+     "10",
+     "15",
+     "20",
+     "25"
+    ],
+    "ymax": 40,
+    "step": 5,
+    "xlabel": "Height (m)",
+    "ylabel": "% Frequency"
+   }
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Problem-solving",
+   "stem": "This percentage frequency histogram shows the heights of the trees in a park.",
+   "type": "numeric",
+   "prompt": "What percentage of the trees are less than $15$ m tall?",
+   "answer": "70",
+   "units": "%"
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Problem-solving",
+   "stem": "This percentage frequency histogram shows the heights of the trees in a park.",
+   "type": "numeric",
+   "prompt": "What percentage of the trees are no more than $20$ m tall?",
+   "answer": "90",
+   "units": "%"
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Problem-solving",
+   "stem": "This percentage frequency histogram shows the heights of the trees in a park.",
+   "type": "numeric",
+   "prompt": "What percentage of the trees are at least $10$ m tall?",
+   "answer": "65",
+   "units": "%"
+  },
+  {
+   "id": "q6e",
+   "label": "6e",
+   "section": "Problem-solving",
+   "stem": "This percentage frequency histogram shows the heights of the trees in a park.",
+   "type": "numeric",
+   "prompt": "What percentage of the trees are between $10$ m and $15$ m tall or more than $20$ m tall?",
+   "answer": "45",
+   "units": "%"
+  },
+  {
+   "id": "q6f",
+   "label": "6f",
+   "section": "Problem-solving",
+   "stem": "This percentage frequency histogram shows the heights of the trees in a park.",
+   "type": "numeric",
+   "prompt": "If there are $200$ trees in the park, how many are between $10$ m and $15$ m tall?",
+   "answer": "70",
+   "units": "trees"
+  },
+  {
+   "id": "q6g",
+   "label": "6g",
+   "section": "Problem-solving",
+   "stem": "This percentage frequency histogram shows the heights of the trees in a park.",
+   "type": "numeric",
+   "prompt": "If there are $200$ trees in the park, how many are at least $15$ m tall?",
+   "answer": "60",
+   "units": "trees"
+  },
+  {
+   "id": "q6h",
+   "label": "6h",
+   "section": "Problem-solving",
+   "stem": "This percentage frequency histogram shows the heights of the trees in a park.",
+   "type": "numeric",
+   "prompt": "If there are $60$ trees in the park, how many are between $0$ m and $5$ m tall?",
+   "answer": "6",
+   "units": "trees"
+  },
+  {
+   "id": "q6i",
+   "label": "6i",
+   "section": "Problem-solving",
+   "stem": "This percentage frequency histogram shows the heights of the trees in a park.",
+   "type": "numeric",
+   "prompt": "If there are $60$ trees in the park, how many are no more than $15$ m tall?",
+   "answer": "42",
+   "units": "trees"
+  },
+  {
+   "id": "q7",
+   "label": "7",
+   "section": "Problem-solving",
+   "type": "numeric",
+   "prompt": "The lengths, in minutes, of $55$ phone calls made from an office in one week are shown below.<br>$7.7 \\quad 12.8 \\quad 14.1 \\quad 13.3 \\quad 1.9 \\quad 13.9 \\quad 2.9 \\quad 11.8 \\quad 6.6 \\quad 12.3 \\quad 7.9 \\quad 2.2 \\quad 8.3 \\quad 7.6 \\quad 12.3 \\quad 9 \\quad 7.5 \\quad 12.3 \\quad 11.5 \\quad 9.9 \\quad 7.5 \\quad 11 \\quad 10.7 \\quad 13.1 \\quad 0.7 \\quad 0.5 \\quad 12.4 \\quad 2.5 \\quad 14 \\quad 0.9 \\quad 3.3 \\quad 0.6 \\quad 1.4 \\quad 5 \\quad 7.6 \\quad 10.8 \\quad 9.1 \\quad 11.7 \\quad 12.1 \\quad 13.6 \\quad 0.9 \\quad 12.1 \\quad 13.4 \\quad 9.3 \\quad 8.2 \\quad 3 \\quad 11.8 \\quad 3 \\quad 3 \\quad 1.8 \\quad 1.5 \\quad 3 \\quad 10.3 \\quad 12.2 \\quad 13$<br>What percentage of the calls were more than $3$ minutes long? Answer correct to one decimal place.",
+   "answer": "70.9",
+   "dp": 1,
+   "units": "%"
+  },
+  {
+   "id": "q9",
+   "label": "9",
+   "section": "Reasoning",
+   "type": "choice",
+   "prompt": "What can you work out from a frequency histogram that you cannot work out from a percentage frequency histogram?",
+   "answer": 1,
+   "options": [
+    "Which class has the most data values",
+    "The total number of data values",
+    "The shape of the distribution",
+    "The percentage of data values in each class"
+   ]
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Reasoning",
+   "stem": "Two students drew different histograms for the same set of data.",
+   "type": "choice",
+   "prompt": "Which histogram is more useful for analysing the data?",
+   "answer": 0,
+   "stemFigure": [
+    {
+     "kind": "columns",
+     "histogram": true,
+     "cats": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "values": [
+      2,
+      6,
+      4,
+      4,
+      7,
+      2
+     ],
+     "edges": [
+      "0",
+      "5",
+      "10",
+      "15",
+      "20",
+      "25",
+      "30"
+     ],
+     "ymax": 8,
+     "step": 2,
+     "ylabel": "Frequency",
+     "caption": "Student A"
+    },
+    {
+     "kind": "columns",
+     "histogram": true,
+     "cats": [
+      "",
+      ""
+     ],
+     "values": [
+      12,
+      13
+     ],
+     "edges": [
+      "0",
+      "15",
+      "30"
+     ],
+     "ymax": 15,
+     "step": 3,
+     "ylabel": "Frequency",
+     "caption": "Student B"
+    }
+   ],
+   "options": [
+    "Student A",
+    "Student B"
+   ]
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Reasoning",
+   "stem": "Two students drew different histograms for the same set of data.",
+   "type": "choice",
+   "prompt": "What should student B do differently?",
+   "answer": 2,
+   "options": [
+    "Use fewer class intervals",
+    "Start the first class at 15",
+    "Use more class intervals with a smaller width",
+    "Make the columns narrower with gaps between them"
+   ]
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Enrichment",
+   "stem": "The weekly wages, in dollars, of $50$ people are shown below.<br>$432 \\quad 412 \\quad 562 \\quad 866 \\quad 354 \\quad 582 \\quad 666 \\quad 294 \\quad 954 \\quad 726 \\quad 400 \\quad 304 \\quad 824 \\quad 556 \\quad 884 \\quad 908 \\quad 318 \\quad 658 \\quad 360 \\quad 856 \\quad 788 \\quad 390 \\quad 488 \\quad 252 \\quad 590 \\quad 700 \\quad 502 \\quad 564 \\quad 528 \\quad 432 \\quad 338 \\quad 860 \\quad 744 \\quad 808 \\quad 680 \\quad 572 \\quad 652 \\quad 332 \\quad 692 \\quad 820 \\quad 350 \\quad 220 \\quad 666 \\quad 508 \\quad 434 \\quad 348 \\quad 672 \\quad 458 \\quad 752 \\quad 244$",
+   "type": "numeric",
+   "prompt": "What is the minimum weekly wage?",
+   "answer": "220",
+   "units": "$"
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Enrichment",
+   "stem": "The weekly wages, in dollars, of $50$ people are shown below.<br>$432 \\quad 412 \\quad 562 \\quad 866 \\quad 354 \\quad 582 \\quad 666 \\quad 294 \\quad 954 \\quad 726 \\quad 400 \\quad 304 \\quad 824 \\quad 556 \\quad 884 \\quad 908 \\quad 318 \\quad 658 \\quad 360 \\quad 856 \\quad 788 \\quad 390 \\quad 488 \\quad 252 \\quad 590 \\quad 700 \\quad 502 \\quad 564 \\quad 528 \\quad 432 \\quad 338 \\quad 860 \\quad 744 \\quad 808 \\quad 680 \\quad 572 \\quad 652 \\quad 332 \\quad 692 \\quad 820 \\quad 350 \\quad 220 \\quad 666 \\quad 508 \\quad 434 \\quad 348 \\quad 672 \\quad 458 \\quad 752 \\quad 244$",
+   "type": "numeric",
+   "prompt": "What is the maximum weekly wage?",
+   "answer": "954",
+   "units": "$"
+  },
+  {
+   "id": "q11c",
+   "label": "11c",
+   "section": "Enrichment",
+   "stem": "The weekly wages, in dollars, of $50$ people are shown below.<br>$432 \\quad 412 \\quad 562 \\quad 866 \\quad 354 \\quad 582 \\quad 666 \\quad 294 \\quad 954 \\quad 726 \\quad 400 \\quad 304 \\quad 824 \\quad 556 \\quad 884 \\quad 908 \\quad 318 \\quad 658 \\quad 360 \\quad 856 \\quad 788 \\quad 390 \\quad 488 \\quad 252 \\quad 590 \\quad 700 \\quad 502 \\quad 564 \\quad 528 \\quad 432 \\quad 338 \\quad 860 \\quad 744 \\quad 808 \\quad 680 \\quad 572 \\quad 652 \\quad 332 \\quad 692 \\quad 820 \\quad 350 \\quad 220 \\quad 666 \\quad 508 \\quad 434 \\quad 348 \\quad 672 \\quad 458 \\quad 752 \\quad 244$",
+   "type": "ordered",
+   "prompt": "Organise the data into $8$ class intervals: 200-, 300-, 400-, ..., 900-. Type the frequencies in order.",
+   "answer": [
+    "4",
+    "9",
+    "7",
+    "9",
+    "7",
+    "5",
+    "7",
+    "2"
+   ],
+   "hint": "Type the values in order from the first class to the last, separated by commas, for example 4, 11, 9, 6, 2"
+  },
+  {
+   "id": "q11d",
+   "label": "11d",
+   "section": "Enrichment",
+   "stem": "The weekly wages, in dollars, of $50$ people are shown below.<br>$432 \\quad 412 \\quad 562 \\quad 866 \\quad 354 \\quad 582 \\quad 666 \\quad 294 \\quad 954 \\quad 726 \\quad 400 \\quad 304 \\quad 824 \\quad 556 \\quad 884 \\quad 908 \\quad 318 \\quad 658 \\quad 360 \\quad 856 \\quad 788 \\quad 390 \\quad 488 \\quad 252 \\quad 590 \\quad 700 \\quad 502 \\quad 564 \\quad 528 \\quad 432 \\quad 338 \\quad 860 \\quad 744 \\quad 808 \\quad 680 \\quad 572 \\quad 652 \\quad 332 \\quad 692 \\quad 820 \\quad 350 \\quad 220 \\quad 666 \\quad 508 \\quad 434 \\quad 348 \\quad 672 \\quad 458 \\quad 752 \\quad 244$",
+   "type": "ordered",
+   "prompt": "Now organise the data into $4$ class intervals: 200-, 400-, 600- and 800-. Type the frequencies in order.",
+   "answer": [
+    "13",
+    "16",
+    "12",
+    "9"
+   ]
+  }
+ ]
+},
+{
+ "id": "y9-9k",
+ "year": 9,
+ "chapter": "Chapter 9: Probability and statistics",
+ "title": "9K Measures of spread: range and interquartile range",
+ "description": "Find the range, quartiles and interquartile range of data sets, including data in stem-and-leaf plots and frequency tables.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "For each data set, answer the questions.",
+   "type": "ordered",
+   "prompt": "Data set a: $6 \\quad 8 \\quad 2 \\quad 7 \\quad 3 \\quad 0 \\quad 10 \\quad 8 \\quad 12 \\quad 10 \\quad 1 \\quad 9 \\quad 6$.<br>List the data in order from smallest to largest.",
+   "answer": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "6",
+    "6",
+    "7",
+    "8",
+    "8",
+    "9",
+    "10",
+    "10",
+    "12"
+   ],
+   "hint": "Separate the values with commas, for example 3, 7, 12"
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "For each data set, answer the questions.",
+   "type": "numeric",
+   "prompt": "Data set a: $6 \\quad 8 \\quad 2 \\quad 7 \\quad 3 \\quad 0 \\quad 10 \\quad 8 \\quad 12 \\quad 10 \\quad 1 \\quad 9 \\quad 6$.<br>Find the range.",
+   "answer": "12"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "For each data set, answer the questions.",
+   "type": "numeric",
+   "prompt": "Data set a: $6 \\quad 8 \\quad 2 \\quad 7 \\quad 3 \\quad 0 \\quad 10 \\quad 8 \\quad 12 \\quad 10 \\quad 1 \\quad 9 \\quad 6$.<br>Find the median $(Q_2)$.",
+   "answer": "7"
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "For each data set, answer the questions.",
+   "type": "numeric",
+   "prompt": "Data set a: $6 \\quad 8 \\quad 2 \\quad 7 \\quad 3 \\quad 0 \\quad 10 \\quad 8 \\quad 12 \\quad 10 \\quad 1 \\quad 9 \\quad 6$.<br>Find the lower quartile $(Q_1)$.",
+   "answer": "2.5"
+  },
+  {
+   "id": "q1e",
+   "label": "1e",
+   "section": "Fluency",
+   "stem": "For each data set, answer the questions.",
+   "type": "numeric",
+   "prompt": "Data set a: $6 \\quad 8 \\quad 2 \\quad 7 \\quad 3 \\quad 0 \\quad 10 \\quad 8 \\quad 12 \\quad 10 \\quad 1 \\quad 9 \\quad 6$.<br>Find the upper quartile $(Q_3)$.",
+   "answer": "9.5"
+  },
+  {
+   "id": "q1f",
+   "label": "1f",
+   "section": "Fluency",
+   "stem": "For each data set, answer the questions.",
+   "type": "numeric",
+   "prompt": "Data set a: $6 \\quad 8 \\quad 2 \\quad 7 \\quad 3 \\quad 0 \\quad 10 \\quad 8 \\quad 12 \\quad 10 \\quad 1 \\quad 9 \\quad 6$.<br>Find the interquartile range (IQR).",
+   "answer": "7"
+  },
+  {
+   "id": "q1g",
+   "label": "1g",
+   "section": "Fluency",
+   "stem": "For each data set, answer the questions.",
+   "type": "ordered",
+   "prompt": "Data set b: $42 \\quad 39 \\quad 24 \\quad 19 \\quad 31 \\quad 45 \\quad 33 \\quad 38 \\quad 40 \\quad 33 \\quad 34 \\quad 24 \\quad 29$.<br>List the data in order from smallest to largest.",
+   "answer": [
+    "19",
+    "24",
+    "24",
+    "29",
+    "31",
+    "33",
+    "33",
+    "34",
+    "38",
+    "39",
+    "40",
+    "42",
+    "45"
+   ]
+  },
+  {
+   "id": "q1h",
+   "label": "1h",
+   "section": "Fluency",
+   "stem": "For each data set, answer the questions.",
+   "type": "numeric",
+   "prompt": "Data set b: $42 \\quad 39 \\quad 24 \\quad 19 \\quad 31 \\quad 45 \\quad 33 \\quad 38 \\quad 40 \\quad 33 \\quad 34 \\quad 24 \\quad 29$.<br>Find the range.",
+   "answer": "26"
+  },
+  {
+   "id": "q1i",
+   "label": "1i",
+   "section": "Fluency",
+   "stem": "For each data set, answer the questions.",
+   "type": "numeric",
+   "prompt": "Data set b: $42 \\quad 39 \\quad 24 \\quad 19 \\quad 31 \\quad 45 \\quad 33 \\quad 38 \\quad 40 \\quad 33 \\quad 34 \\quad 24 \\quad 29$.<br>Find the median $(Q_2)$.",
+   "answer": "33"
+  },
+  {
+   "id": "q1j",
+   "label": "1j",
+   "section": "Fluency",
+   "stem": "For each data set, answer the questions.",
+   "type": "numeric",
+   "prompt": "Data set b: $42 \\quad 39 \\quad 24 \\quad 19 \\quad 31 \\quad 45 \\quad 33 \\quad 38 \\quad 40 \\quad 33 \\quad 34 \\quad 24 \\quad 29$.<br>Find the lower quartile $(Q_1)$.",
+   "answer": "26.5"
+  },
+  {
+   "id": "q1k",
+   "label": "1k",
+   "section": "Fluency",
+   "stem": "For each data set, answer the questions.",
+   "type": "numeric",
+   "prompt": "Data set b: $42 \\quad 39 \\quad 24 \\quad 19 \\quad 31 \\quad 45 \\quad 33 \\quad 38 \\quad 40 \\quad 33 \\quad 34 \\quad 24 \\quad 29$.<br>Find the upper quartile $(Q_3)$.",
+   "answer": "39.5"
+  },
+  {
+   "id": "q1l",
+   "label": "1l",
+   "section": "Fluency",
+   "stem": "For each data set, answer the questions.",
+   "type": "numeric",
+   "prompt": "Data set b: $42 \\quad 39 \\quad 24 \\quad 19 \\quad 31 \\quad 45 \\quad 33 \\quad 38 \\quad 40 \\quad 33 \\quad 34 \\quad 24 \\quad 29$.<br>Find the interquartile range (IQR).",
+   "answer": "13"
+  },
+  {
+   "id": "q1m",
+   "label": "1m",
+   "section": "Fluency",
+   "stem": "For each data set, answer the questions.",
+   "type": "ordered",
+   "prompt": "Data set c: $210 \\quad 345 \\quad 188 \\quad 205 \\quad 372 \\quad 236 \\quad 191 \\quad 268 \\quad 247$.<br>List the data in order from smallest to largest.",
+   "answer": [
+    "188",
+    "191",
+    "205",
+    "210",
+    "236",
+    "247",
+    "268",
+    "345",
+    "372"
+   ]
+  },
+  {
+   "id": "q1n",
+   "label": "1n",
+   "section": "Fluency",
+   "stem": "For each data set, answer the questions.",
+   "type": "numeric",
+   "prompt": "Data set c: $210 \\quad 345 \\quad 188 \\quad 205 \\quad 372 \\quad 236 \\quad 191 \\quad 268 \\quad 247$.<br>Find the range.",
+   "answer": "184"
+  },
+  {
+   "id": "q1o",
+   "label": "1o",
+   "section": "Fluency",
+   "stem": "For each data set, answer the questions.",
+   "type": "numeric",
+   "prompt": "Data set c: $210 \\quad 345 \\quad 188 \\quad 205 \\quad 372 \\quad 236 \\quad 191 \\quad 268 \\quad 247$.<br>Find the median $(Q_2)$.",
+   "answer": "236"
+  },
+  {
+   "id": "q1p",
+   "label": "1p",
+   "section": "Fluency",
+   "stem": "For each data set, answer the questions.",
+   "type": "numeric",
+   "prompt": "Data set c: $210 \\quad 345 \\quad 188 \\quad 205 \\quad 372 \\quad 236 \\quad 191 \\quad 268 \\quad 247$.<br>Find the lower quartile $(Q_1)$.",
+   "answer": "198"
+  },
+  {
+   "id": "q1q",
+   "label": "1q",
+   "section": "Fluency",
+   "stem": "For each data set, answer the questions.",
+   "type": "numeric",
+   "prompt": "Data set c: $210 \\quad 345 \\quad 188 \\quad 205 \\quad 372 \\quad 236 \\quad 191 \\quad 268 \\quad 247$.<br>Find the upper quartile $(Q_3)$.",
+   "answer": "306.5"
+  },
+  {
+   "id": "q1r",
+   "label": "1r",
+   "section": "Fluency",
+   "stem": "For each data set, answer the questions.",
+   "type": "numeric",
+   "prompt": "Data set c: $210 \\quad 345 \\quad 188 \\quad 205 \\quad 372 \\quad 236 \\quad 191 \\quad 268 \\quad 247$.<br>Find the interquartile range (IQR).",
+   "answer": "108.5"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "For each data set, answer the questions.",
+   "type": "ordered",
+   "prompt": "Data set a: $274 \\quad 158 \\quad 31 \\quad 498 \\quad 902 \\quad 19 \\quad 384 \\quad 71 \\quad 39 \\quad 815 \\quad 14 \\quad 352 \\quad 82 \\quad 5 \\quad 31$.<br>List the data in order from smallest to largest.",
+   "answer": [
+    "5",
+    "14",
+    "19",
+    "31",
+    "31",
+    "39",
+    "71",
+    "82",
+    "158",
+    "274",
+    "352",
+    "384",
+    "498",
+    "815",
+    "902"
+   ],
+   "hint": "Separate the values with commas, for example 3, 7, 12"
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "For each data set, answer the questions.",
+   "type": "numeric",
+   "prompt": "Data set a: $274 \\quad 158 \\quad 31 \\quad 498 \\quad 902 \\quad 19 \\quad 384 \\quad 71 \\quad 39 \\quad 815 \\quad 14 \\quad 352 \\quad 82 \\quad 5 \\quad 31$.<br>Find the range.",
+   "answer": "897"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "For each data set, answer the questions.",
+   "type": "numeric",
+   "prompt": "Data set a: $274 \\quad 158 \\quad 31 \\quad 498 \\quad 902 \\quad 19 \\quad 384 \\quad 71 \\quad 39 \\quad 815 \\quad 14 \\quad 352 \\quad 82 \\quad 5 \\quad 31$.<br>Find the median $(Q_2)$.",
+   "answer": "82"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "For each data set, answer the questions.",
+   "type": "numeric",
+   "prompt": "Data set a: $274 \\quad 158 \\quad 31 \\quad 498 \\quad 902 \\quad 19 \\quad 384 \\quad 71 \\quad 39 \\quad 815 \\quad 14 \\quad 352 \\quad 82 \\quad 5 \\quad 31$.<br>Find the lower quartile $(Q_1)$.",
+   "answer": "31"
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "For each data set, answer the questions.",
+   "type": "numeric",
+   "prompt": "Data set a: $274 \\quad 158 \\quad 31 \\quad 498 \\quad 902 \\quad 19 \\quad 384 \\quad 71 \\quad 39 \\quad 815 \\quad 14 \\quad 352 \\quad 82 \\quad 5 \\quad 31$.<br>Find the upper quartile $(Q_3)$.",
+   "answer": "384"
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "For each data set, answer the questions.",
+   "type": "numeric",
+   "prompt": "Data set a: $274 \\quad 158 \\quad 31 \\quad 498 \\quad 902 \\quad 19 \\quad 384 \\quad 71 \\quad 39 \\quad 815 \\quad 14 \\quad 352 \\quad 82 \\quad 5 \\quad 31$.<br>Find the interquartile range (IQR).",
+   "answer": "353"
+  },
+  {
+   "id": "q2g",
+   "label": "2g",
+   "section": "Fluency",
+   "stem": "For each data set, answer the questions.",
+   "type": "ordered",
+   "prompt": "Data set b: $2.4 \\quad 2.6 \\quad 1.9 \\quad 1.7 \\quad 2.8 \\quad 1.7 \\quad 1.3 \\quad 2.2 \\quad 1.1$.<br>List the data in order from smallest to largest.",
+   "answer": [
+    "1.1",
+    "1.3",
+    "1.7",
+    "1.7",
+    "1.9",
+    "2.2",
+    "2.4",
+    "2.6",
+    "2.8"
+   ]
+  },
+  {
+   "id": "q2h",
+   "label": "2h",
+   "section": "Fluency",
+   "stem": "For each data set, answer the questions.",
+   "type": "numeric",
+   "prompt": "Data set b: $2.4 \\quad 2.6 \\quad 1.9 \\quad 1.7 \\quad 2.8 \\quad 1.7 \\quad 1.3 \\quad 2.2 \\quad 1.1$.<br>Find the range.",
+   "answer": "1.7"
+  },
+  {
+   "id": "q2i",
+   "label": "2i",
+   "section": "Fluency",
+   "stem": "For each data set, answer the questions.",
+   "type": "numeric",
+   "prompt": "Data set b: $2.4 \\quad 2.6 \\quad 1.9 \\quad 1.7 \\quad 2.8 \\quad 1.7 \\quad 1.3 \\quad 2.2 \\quad 1.1$.<br>Find the median $(Q_2)$.",
+   "answer": "1.9"
+  },
+  {
+   "id": "q2j",
+   "label": "2j",
+   "section": "Fluency",
+   "stem": "For each data set, answer the questions.",
+   "type": "numeric",
+   "prompt": "Data set b: $2.4 \\quad 2.6 \\quad 1.9 \\quad 1.7 \\quad 2.8 \\quad 1.7 \\quad 1.3 \\quad 2.2 \\quad 1.1$.<br>Find the lower quartile $(Q_1)$.",
+   "answer": "1.5"
+  },
+  {
+   "id": "q2k",
+   "label": "2k",
+   "section": "Fluency",
+   "stem": "For each data set, answer the questions.",
+   "type": "numeric",
+   "prompt": "Data set b: $2.4 \\quad 2.6 \\quad 1.9 \\quad 1.7 \\quad 2.8 \\quad 1.7 \\quad 1.3 \\quad 2.2 \\quad 1.1$.<br>Find the upper quartile $(Q_3)$.",
+   "answer": "2.5"
+  },
+  {
+   "id": "q2l",
+   "label": "2l",
+   "section": "Fluency",
+   "stem": "For each data set, answer the questions.",
+   "type": "numeric",
+   "prompt": "Data set b: $2.4 \\quad 2.6 \\quad 1.9 \\quad 1.7 \\quad 2.8 \\quad 1.7 \\quad 1.3 \\quad 2.2 \\quad 1.1$.<br>Find the interquartile range (IQR).",
+   "answer": "1"
+  },
+  {
+   "id": "q2m",
+   "label": "2m",
+   "section": "Fluency",
+   "stem": "For each data set, answer the questions.",
+   "type": "ordered",
+   "prompt": "Data set c: $14 \\quad 41 \\quad 0.3 \\quad 2.7 \\quad 28 \\quad 15 \\quad 0.05$.<br>List the data in order from smallest to largest.",
+   "answer": [
+    "0.05",
+    "0.3",
+    "2.7",
+    "14",
+    "15",
+    "28",
+    "41"
+   ]
+  },
+  {
+   "id": "q2n",
+   "label": "2n",
+   "section": "Fluency",
+   "stem": "For each data set, answer the questions.",
+   "type": "numeric",
+   "prompt": "Data set c: $14 \\quad 41 \\quad 0.3 \\quad 2.7 \\quad 28 \\quad 15 \\quad 0.05$.<br>Find the range.",
+   "answer": "40.95"
+  },
+  {
+   "id": "q2o",
+   "label": "2o",
+   "section": "Fluency",
+   "stem": "For each data set, answer the questions.",
+   "type": "numeric",
+   "prompt": "Data set c: $14 \\quad 41 \\quad 0.3 \\quad 2.7 \\quad 28 \\quad 15 \\quad 0.05$.<br>Find the median $(Q_2)$.",
+   "answer": "14"
+  },
+  {
+   "id": "q2p",
+   "label": "2p",
+   "section": "Fluency",
+   "stem": "For each data set, answer the questions.",
+   "type": "numeric",
+   "prompt": "Data set c: $14 \\quad 41 \\quad 0.3 \\quad 2.7 \\quad 28 \\quad 15 \\quad 0.05$.<br>Find the lower quartile $(Q_1)$.",
+   "answer": "0.3"
+  },
+  {
+   "id": "q2q",
+   "label": "2q",
+   "section": "Fluency",
+   "stem": "For each data set, answer the questions.",
+   "type": "numeric",
+   "prompt": "Data set c: $14 \\quad 41 \\quad 0.3 \\quad 2.7 \\quad 28 \\quad 15 \\quad 0.05$.<br>Find the upper quartile $(Q_3)$.",
+   "answer": "28"
+  },
+  {
+   "id": "q2r",
+   "label": "2r",
+   "section": "Fluency",
+   "stem": "For each data set, answer the questions.",
+   "type": "numeric",
+   "prompt": "Data set c: $14 \\quad 41 \\quad 0.3 \\quad 2.7 \\quad 28 \\quad 15 \\quad 0.05$.<br>Find the interquartile range (IQR).",
+   "answer": "27.7"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "The ten highest box office takings for a group of films, in millions of dollars, are:<br>$1612 \\quad 1485 \\quad 1798 \\quad 2236 \\quad 2310 \\quad 2954 \\quad 2190 \\quad 1427 \\quad 1503 \\quad 1398$",
+   "type": "numeric",
+   "prompt": "Find the range.",
+   "answer": "1556",
+   "units": "million dollars"
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "The ten highest box office takings for a group of films, in millions of dollars, are:<br>$1612 \\quad 1485 \\quad 1798 \\quad 2236 \\quad 2310 \\quad 2954 \\quad 2190 \\quad 1427 \\quad 1503 \\quad 1398$",
+   "type": "numeric",
+   "prompt": "Find the median $(Q_2)$.",
+   "answer": "1705",
+   "units": "million dollars"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "The ten highest box office takings for a group of films, in millions of dollars, are:<br>$1612 \\quad 1485 \\quad 1798 \\quad 2236 \\quad 2310 \\quad 2954 \\quad 2190 \\quad 1427 \\quad 1503 \\quad 1398$",
+   "type": "numeric",
+   "prompt": "Find the lower quartile $(Q_1)$.",
+   "answer": "1485",
+   "units": "million dollars"
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "The ten highest box office takings for a group of films, in millions of dollars, are:<br>$1612 \\quad 1485 \\quad 1798 \\quad 2236 \\quad 2310 \\quad 2954 \\quad 2190 \\quad 1427 \\quad 1503 \\quad 1398$",
+   "type": "numeric",
+   "prompt": "Find the upper quartile $(Q_3)$.",
+   "answer": "2236",
+   "units": "million dollars"
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "The ten highest box office takings for a group of films, in millions of dollars, are:<br>$1612 \\quad 1485 \\quad 1798 \\quad 2236 \\quad 2310 \\quad 2954 \\quad 2190 \\quad 1427 \\quad 1503 \\quad 1398$",
+   "type": "numeric",
+   "prompt": "Find the interquartile range (IQR).",
+   "answer": "751",
+   "units": "million dollars"
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "The ten highest box office takings for a group of films, in millions of dollars, are:<br>$1612 \\quad 1485 \\quad 1798 \\quad 2236 \\quad 2310 \\quad 2954 \\quad 2190 \\quad 1427 \\quad 1503 \\quad 1398$",
+   "type": "choice",
+   "prompt": "Which statement best describes what the IQR tells you?",
+   "answer": 0,
+   "options": [
+    "The middle 50% of the data values lie within a spread of this size",
+    "Half of the data values are less than this value",
+    "It is the difference between the largest and smallest values",
+    "It is the average of all the data values"
+   ]
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "The running times, in minutes, of $16$ movies showing at a cinema are:<br>$118 \\quad 104 \\quad 95 \\quad 126 \\quad 99 \\quad 141 \\quad 109 \\quad 135 \\quad 121 \\quad 148 \\quad 51 \\quad 92 \\quad 157 \\quad 113 \\quad 122 \\quad 131$",
+   "type": "numeric",
+   "prompt": "Find the range.",
+   "answer": "106",
+   "units": "minutes"
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "The running times, in minutes, of $16$ movies showing at a cinema are:<br>$118 \\quad 104 \\quad 95 \\quad 126 \\quad 99 \\quad 141 \\quad 109 \\quad 135 \\quad 121 \\quad 148 \\quad 51 \\quad 92 \\quad 157 \\quad 113 \\quad 122 \\quad 131$",
+   "type": "numeric",
+   "prompt": "Find the median $(Q_2)$.",
+   "answer": "119.5",
+   "units": "minutes"
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "The running times, in minutes, of $16$ movies showing at a cinema are:<br>$118 \\quad 104 \\quad 95 \\quad 126 \\quad 99 \\quad 141 \\quad 109 \\quad 135 \\quad 121 \\quad 148 \\quad 51 \\quad 92 \\quad 157 \\quad 113 \\quad 122 \\quad 131$",
+   "type": "numeric",
+   "prompt": "Find the lower quartile $(Q_1)$.",
+   "answer": "101.5",
+   "units": "minutes"
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "The running times, in minutes, of $16$ movies showing at a cinema are:<br>$118 \\quad 104 \\quad 95 \\quad 126 \\quad 99 \\quad 141 \\quad 109 \\quad 135 \\quad 121 \\quad 148 \\quad 51 \\quad 92 \\quad 157 \\quad 113 \\quad 122 \\quad 131$",
+   "type": "numeric",
+   "prompt": "Find the upper quartile $(Q_3)$.",
+   "answer": "133",
+   "units": "minutes"
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Fluency",
+   "stem": "The running times, in minutes, of $16$ movies showing at a cinema are:<br>$118 \\quad 104 \\quad 95 \\quad 126 \\quad 99 \\quad 141 \\quad 109 \\quad 135 \\quad 121 \\quad 148 \\quad 51 \\quad 92 \\quad 157 \\quad 113 \\quad 122 \\quad 131$",
+   "type": "numeric",
+   "prompt": "Find the interquartile range (IQR).",
+   "answer": "31.5",
+   "units": "minutes"
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Fluency",
+   "stem": "The running times, in minutes, of $16$ movies showing at a cinema are:<br>$118 \\quad 104 \\quad 95 \\quad 126 \\quad 99 \\quad 141 \\quad 109 \\quad 135 \\quad 121 \\quad 148 \\quad 51 \\quad 92 \\quad 157 \\quad 113 \\quad 122 \\quad 131$",
+   "type": "choice",
+   "prompt": "Which statement best describes what the IQR tells you?",
+   "answer": 0,
+   "options": [
+    "The middle 50% of the data values lie within a spread of this size",
+    "Half of the data values are less than this value",
+    "It is the difference between the largest and smallest values",
+    "It is the average of all the data values"
+   ]
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Problem-solving",
+   "stem": "The sale prices, in thousands of dollars, of $14$ vintage motorbikes are:<br>$72 \\quad 38 \\quad 64 \\quad 35 \\quad 15 \\quad 49 \\quad 64 \\quad 88 \\quad 412 \\quad 51 \\quad 58 \\quad 64 \\quad 69 \\quad 27$",
+   "type": "numeric",
+   "prompt": "Find the lowest price paid, in thousands of dollars.",
+   "answer": "15"
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Problem-solving",
+   "stem": "The sale prices, in thousands of dollars, of $14$ vintage motorbikes are:<br>$72 \\quad 38 \\quad 64 \\quad 35 \\quad 15 \\quad 49 \\quad 64 \\quad 88 \\quad 412 \\quad 51 \\quad 58 \\quad 64 \\quad 69 \\quad 27$",
+   "type": "numeric",
+   "prompt": "Find the highest price paid, in thousands of dollars.",
+   "answer": "412"
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Problem-solving",
+   "stem": "The sale prices, in thousands of dollars, of $14$ vintage motorbikes are:<br>$72 \\quad 38 \\quad 64 \\quad 35 \\quad 15 \\quad 49 \\quad 64 \\quad 88 \\quad 412 \\quad 51 \\quad 58 \\quad 64 \\quad 69 \\quad 27$",
+   "type": "numeric",
+   "prompt": "Find the median price, in thousands of dollars.",
+   "answer": "61"
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Problem-solving",
+   "stem": "The sale prices, in thousands of dollars, of $14$ vintage motorbikes are:<br>$72 \\quad 38 \\quad 64 \\quad 35 \\quad 15 \\quad 49 \\quad 64 \\quad 88 \\quad 412 \\quad 51 \\quad 58 \\quad 64 \\quad 69 \\quad 27$",
+   "type": "numeric",
+   "prompt": "Find the lower quartile, in thousands of dollars.",
+   "answer": "38"
+  },
+  {
+   "id": "q5e",
+   "label": "5e",
+   "section": "Problem-solving",
+   "stem": "The sale prices, in thousands of dollars, of $14$ vintage motorbikes are:<br>$72 \\quad 38 \\quad 64 \\quad 35 \\quad 15 \\quad 49 \\quad 64 \\quad 88 \\quad 412 \\quad 51 \\quad 58 \\quad 64 \\quad 69 \\quad 27$",
+   "type": "numeric",
+   "prompt": "Find the upper quartile, in thousands of dollars.",
+   "answer": "69"
+  },
+  {
+   "id": "q5f",
+   "label": "5f",
+   "section": "Problem-solving",
+   "stem": "The sale prices, in thousands of dollars, of $14$ vintage motorbikes are:<br>$72 \\quad 38 \\quad 64 \\quad 35 \\quad 15 \\quad 49 \\quad 64 \\quad 88 \\quad 412 \\quad 51 \\quad 58 \\quad 64 \\quad 69 \\quad 27$",
+   "type": "numeric",
+   "prompt": "Find the IQR, in thousands of dollars.",
+   "answer": "31"
+  },
+  {
+   "id": "q5g",
+   "label": "5g",
+   "section": "Problem-solving",
+   "stem": "The sale prices, in thousands of dollars, of $14$ vintage motorbikes are:<br>$72 \\quad 38 \\quad 64 \\quad 35 \\quad 15 \\quad 49 \\quad 64 \\quad 88 \\quad 412 \\quad 51 \\quad 58 \\quad 64 \\quad 69 \\quad 27$",
+   "type": "choice",
+   "prompt": "Which statement best describes what the IQR tells you about the prices?",
+   "answer": 1,
+   "options": [
+    "Half of the motorbikes sold for less than the IQR",
+    "The middle 50% of the prices lie within a spread of this many thousand dollars",
+    "The most expensive motorbike cost this much more than the cheapest",
+    "The IQR is the typical price of a vintage motorbike"
+   ]
+  },
+  {
+   "id": "q5h",
+   "label": "5h",
+   "section": "Problem-solving",
+   "stem": "The sale prices, in thousands of dollars, of $14$ vintage motorbikes are:<br>$72 \\quad 38 \\quad 64 \\quad 35 \\quad 15 \\quad 49 \\quad 64 \\quad 88 \\quad 412 \\quad 51 \\quad 58 \\quad 64 \\quad 69 \\quad 27$",
+   "type": "choice",
+   "prompt": "If the price of the most expensive motorbike increased, what would happen?",
+   "answer": 2,
+   "options": [
+    "$Q_1$, $Q_2$ and $Q_3$ would all increase, and so would the mean",
+    "$Q_3$ would increase, but $Q_1$, $Q_2$ and the mean would stay the same",
+    "$Q_1$, $Q_2$ and $Q_3$ would stay the same, but the mean would increase",
+    "Nothing would change"
+   ]
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Problem-solving",
+   "stem": "Find the interquartile range for the data in each stem-and-leaf plot.",
+   "type": "numeric",
+   "prompt": "Plot a",
+   "answer": "18.5",
+   "figure": {
+    "kind": "stemleaf",
+    "rows": [
+     [
+      "2",
+      "3 5 8"
+     ],
+     [
+      "3",
+      "0 2 7 7"
+     ],
+     [
+      "4",
+      "1 4 6 9"
+     ],
+     [
+      "5",
+      "3 5"
+     ]
+    ],
+    "key": "4 | 1 means 41"
+   }
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Problem-solving",
+   "stem": "Find the interquartile range for the data in each stem-and-leaf plot.",
+   "type": "numeric",
+   "prompt": "Plot b",
+   "answer": "2.1",
+   "figure": {
+    "kind": "stemleaf",
+    "rows": [
+     [
+      "26",
+      "3 7"
+     ],
+     [
+      "27",
+      "1 2 5 9"
+     ],
+     [
+      "28",
+      "0 2 2 4 8"
+     ],
+     [
+      "29",
+      "3 6 6 8"
+     ],
+     [
+      "30",
+      "1 5 8"
+     ]
+    ],
+    "key": "28 | 4 means 28.4"
+   }
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Problem-solving",
+   "stem": "Over $30$ days, Ivy records how many kookaburras visit her backyard each day. The data is shown in this frequency table.",
+   "type": "numeric",
+   "prompt": "Find the median number of kookaburras.",
+   "answer": "2",
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "Kookaburras each day",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+     ],
+     [
+      "Frequency",
+      "5",
+      "6",
+      "9",
+      "4",
+      "5",
+      "1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Problem-solving",
+   "stem": "Over $30$ days, Ivy records how many kookaburras visit her backyard each day. The data is shown in this frequency table.",
+   "type": "numeric",
+   "prompt": "Find the interquartile range.",
+   "answer": "2"
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Problem-solving",
+   "stem": "Over $30$ days, Ivy records how many kookaburras visit her backyard each day. The data is shown in this frequency table.",
+   "type": "choice",
+   "prompt": "Ivy realises that on the day she recorded $5$ kookaburras there were really $10$. Would this change the IQR?",
+   "answer": 1,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q8",
+   "label": "8",
+   "section": "Reasoning",
+   "type": "choice",
+   "prompt": "Two data sets have the same range. Must they have the same lowest and highest values?",
+   "answer": 1,
+   "options": [
+    "Yes, the same range means the same lowest and highest values",
+    "No, for example 1 to 6 and 11 to 16 both have a range of 5"
+   ]
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Reasoning",
+   "stem": "A bike shop has more than $10$ bikes for sale. One expensive bike is priced at \\$45 000 and the rest are all priced near \\$4000. The owner realises the expensive bike's price has one too many zeros: it should be \\$4500.",
+   "type": "choice",
+   "prompt": "Does fixing the price change the range?",
+   "answer": 0,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Reasoning",
+   "stem": "A bike shop has more than $10$ bikes for sale. One expensive bike is priced at \\$45 000 and the rest are all priced near \\$4000. The owner realises the expensive bike's price has one too many zeros: it should be \\$4500.",
+   "type": "choice",
+   "prompt": "Does fixing the price change the median?",
+   "answer": 1,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q9c",
+   "label": "9c",
+   "section": "Reasoning",
+   "stem": "A bike shop has more than $10$ bikes for sale. One expensive bike is priced at \\$45 000 and the rest are all priced near \\$4000. The owner realises the expensive bike's price has one too many zeros: it should be \\$4500.",
+   "type": "choice",
+   "prompt": "Does fixing the price change the IQR?",
+   "answer": 1,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Reasoning",
+   "type": "choice",
+   "prompt": "Is it possible for the range to equal the IQR?",
+   "answer": 0,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Reasoning",
+   "type": "choice",
+   "prompt": "Is it possible for the IQR to equal zero?",
+   "answer": 0,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Enrichment",
+   "stem": "The numbers of marshmallows in $10$ bags bought from each of two shops, A and B, are shown.<br>Shop A: $31 \\quad 32 \\quad 30 \\quad 30 \\quad 34 \\quad 32 \\quad 33 \\quad 31 \\quad 32 \\quad 34$<br>Shop B: $28 \\quad 32 \\quad 27 \\quad 30 \\quad 35 \\quad 25 \\quad 31 \\quad 33 \\quad 37 \\quad 28$",
+   "type": "numeric",
+   "prompt": "Find $Q_1$ for shop A.",
+   "answer": "31"
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Enrichment",
+   "stem": "The numbers of marshmallows in $10$ bags bought from each of two shops, A and B, are shown.<br>Shop A: $31 \\quad 32 \\quad 30 \\quad 30 \\quad 34 \\quad 32 \\quad 33 \\quad 31 \\quad 32 \\quad 34$<br>Shop B: $28 \\quad 32 \\quad 27 \\quad 30 \\quad 35 \\quad 25 \\quad 31 \\quad 33 \\quad 37 \\quad 28$",
+   "type": "numeric",
+   "prompt": "Find $Q_2$ for shop A.",
+   "answer": "32"
+  },
+  {
+   "id": "q11c",
+   "label": "11c",
+   "section": "Enrichment",
+   "stem": "The numbers of marshmallows in $10$ bags bought from each of two shops, A and B, are shown.<br>Shop A: $31 \\quad 32 \\quad 30 \\quad 30 \\quad 34 \\quad 32 \\quad 33 \\quad 31 \\quad 32 \\quad 34$<br>Shop B: $28 \\quad 32 \\quad 27 \\quad 30 \\quad 35 \\quad 25 \\quad 31 \\quad 33 \\quad 37 \\quad 28$",
+   "type": "numeric",
+   "prompt": "Find $Q_3$ for shop A.",
+   "answer": "33"
+  },
+  {
+   "id": "q11d",
+   "label": "11d",
+   "section": "Enrichment",
+   "stem": "The numbers of marshmallows in $10$ bags bought from each of two shops, A and B, are shown.<br>Shop A: $31 \\quad 32 \\quad 30 \\quad 30 \\quad 34 \\quad 32 \\quad 33 \\quad 31 \\quad 32 \\quad 34$<br>Shop B: $28 \\quad 32 \\quad 27 \\quad 30 \\quad 35 \\quad 25 \\quad 31 \\quad 33 \\quad 37 \\quad 28$",
+   "type": "numeric",
+   "prompt": "Find $Q_1$ for shop B.",
+   "answer": "28"
+  },
+  {
+   "id": "q11e",
+   "label": "11e",
+   "section": "Enrichment",
+   "stem": "The numbers of marshmallows in $10$ bags bought from each of two shops, A and B, are shown.<br>Shop A: $31 \\quad 32 \\quad 30 \\quad 30 \\quad 34 \\quad 32 \\quad 33 \\quad 31 \\quad 32 \\quad 34$<br>Shop B: $28 \\quad 32 \\quad 27 \\quad 30 \\quad 35 \\quad 25 \\quad 31 \\quad 33 \\quad 37 \\quad 28$",
+   "type": "numeric",
+   "prompt": "Find $Q_2$ for shop B.",
+   "answer": "30.5"
+  },
+  {
+   "id": "q11f",
+   "label": "11f",
+   "section": "Enrichment",
+   "stem": "The numbers of marshmallows in $10$ bags bought from each of two shops, A and B, are shown.<br>Shop A: $31 \\quad 32 \\quad 30 \\quad 30 \\quad 34 \\quad 32 \\quad 33 \\quad 31 \\quad 32 \\quad 34$<br>Shop B: $28 \\quad 32 \\quad 27 \\quad 30 \\quad 35 \\quad 25 \\quad 31 \\quad 33 \\quad 37 \\quad 28$",
+   "type": "numeric",
+   "prompt": "Find $Q_3$ for shop B.",
+   "answer": "33"
+  },
+  {
+   "id": "q11g",
+   "label": "11g",
+   "section": "Enrichment",
+   "stem": "The numbers of marshmallows in $10$ bags bought from each of two shops, A and B, are shown.<br>Shop A: $31 \\quad 32 \\quad 30 \\quad 30 \\quad 34 \\quad 32 \\quad 33 \\quad 31 \\quad 32 \\quad 34$<br>Shop B: $28 \\quad 32 \\quad 27 \\quad 30 \\quad 35 \\quad 25 \\quad 31 \\quad 33 \\quad 37 \\quad 28$",
+   "type": "numeric",
+   "prompt": "The top $25\\%$ of the data for shop A is above which value?",
+   "answer": "33"
+  },
+  {
+   "id": "q11h",
+   "label": "11h",
+   "section": "Enrichment",
+   "stem": "The numbers of marshmallows in $10$ bags bought from each of two shops, A and B, are shown.<br>Shop A: $31 \\quad 32 \\quad 30 \\quad 30 \\quad 34 \\quad 32 \\quad 33 \\quad 31 \\quad 32 \\quad 34$<br>Shop B: $28 \\quad 32 \\quad 27 \\quad 30 \\quad 35 \\quad 25 \\quad 31 \\quad 33 \\quad 37 \\quad 28$",
+   "type": "numeric",
+   "prompt": "The lowest $25\\%$ of the data for shop B is below which value?",
+   "answer": "28"
+  },
+  {
+   "id": "q11i",
+   "label": "11i",
+   "section": "Enrichment",
+   "stem": "The numbers of marshmallows in $10$ bags bought from each of two shops, A and B, are shown.<br>Shop A: $31 \\quad 32 \\quad 30 \\quad 30 \\quad 34 \\quad 32 \\quad 33 \\quad 31 \\quad 32 \\quad 34$<br>Shop B: $28 \\quad 32 \\quad 27 \\quad 30 \\quad 35 \\quad 25 \\quad 31 \\quad 33 \\quad 37 \\quad 28$",
+   "type": "numeric",
+   "prompt": "Find the IQR for shop A.",
+   "answer": "2"
+  },
+  {
+   "id": "q11j",
+   "label": "11j",
+   "section": "Enrichment",
+   "stem": "The numbers of marshmallows in $10$ bags bought from each of two shops, A and B, are shown.<br>Shop A: $31 \\quad 32 \\quad 30 \\quad 30 \\quad 34 \\quad 32 \\quad 33 \\quad 31 \\quad 32 \\quad 34$<br>Shop B: $28 \\quad 32 \\quad 27 \\quad 30 \\quad 35 \\quad 25 \\quad 31 \\quad 33 \\quad 37 \\quad 28$",
+   "type": "numeric",
+   "prompt": "Find the IQR for shop B.",
+   "answer": "5"
+  },
+  {
+   "id": "q11k",
+   "label": "11k",
+   "section": "Enrichment",
+   "stem": "The numbers of marshmallows in $10$ bags bought from each of two shops, A and B, are shown.<br>Shop A: $31 \\quad 32 \\quad 30 \\quad 30 \\quad 34 \\quad 32 \\quad 33 \\quad 31 \\quad 32 \\quad 34$<br>Shop B: $28 \\quad 32 \\quad 27 \\quad 30 \\quad 35 \\quad 25 \\quad 31 \\quad 33 \\quad 37 \\quad 28$",
+   "type": "choice",
+   "prompt": "Which shop is more consistent in the number of marshmallows in each bag?",
+   "answer": 0,
+   "options": [
+    "Shop A",
+    "Shop B"
+   ]
+  }
+ ]
+},
+{
+ "id": "y9-9l",
+ "year": 9,
+ "chapter": "Chapter 9: Probability and statistics",
+ "title": "9L Box plots",
+ "description": "Read summary statistics from box plots, find the five-number summary of a data set and compare data sets with parallel box plots.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "This box plot summarises the heights of tomato seedlings in a nursery after four weeks.",
+   "type": "numeric",
+   "prompt": "State the minimum height.",
+   "answer": "12",
+   "stemFigure": {
+    "kind": "boxplot",
+    "min": 10,
+    "max": 32,
+    "step": 2,
+    "xlabel": "Height (cm)",
+    "plots": [
+     {
+      "five": [
+       12,
+       18,
+       22,
+       25,
+       31
+      ]
+     }
+    ]
+   },
+   "units": "cm"
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "This box plot summarises the heights of tomato seedlings in a nursery after four weeks.",
+   "type": "numeric",
+   "prompt": "State the maximum height.",
+   "answer": "31",
+   "units": "cm"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "This box plot summarises the heights of tomato seedlings in a nursery after four weeks.",
+   "type": "numeric",
+   "prompt": "Find the range of the heights.",
+   "answer": "19",
+   "units": "cm"
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "This box plot summarises the heights of tomato seedlings in a nursery after four weeks.",
+   "type": "numeric",
+   "prompt": "State the median height.",
+   "answer": "22",
+   "units": "cm"
+  },
+  {
+   "id": "q1e",
+   "label": "1e",
+   "section": "Fluency",
+   "stem": "This box plot summarises the heights of tomato seedlings in a nursery after four weeks.",
+   "type": "numeric",
+   "prompt": "Find the interquartile range.",
+   "answer": "7",
+   "units": "cm"
+  },
+  {
+   "id": "q1f",
+   "label": "1f",
+   "section": "Fluency",
+   "stem": "This box plot summarises the heights of tomato seedlings in a nursery after four weeks.",
+   "type": "numeric",
+   "prompt": "Fifty per cent of the seedlings were shorter than what height?",
+   "answer": "22",
+   "units": "cm"
+  },
+  {
+   "id": "q1g",
+   "label": "1g",
+   "section": "Fluency",
+   "stem": "This box plot summarises the heights of tomato seedlings in a nursery after four weeks.",
+   "type": "numeric",
+   "prompt": "Twenty-five per cent of the seedlings were taller than what height?",
+   "answer": "25",
+   "units": "cm"
+  },
+  {
+   "id": "q1h",
+   "label": "1h",
+   "section": "Fluency",
+   "stem": "This box plot summarises the heights of tomato seedlings in a nursery after four weeks.",
+   "type": "numeric",
+   "prompt": "If there were $120$ seedlings, how many would you expect to be shorter than $18$ cm?",
+   "answer": "30",
+   "units": "seedlings"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "This box plot summarises the number of emails a small business received each day over an $80$-day period.",
+   "type": "numeric",
+   "prompt": "State the minimum number of emails.",
+   "answer": "4",
+   "stemFigure": {
+    "kind": "boxplot",
+    "min": 0,
+    "max": 60,
+    "step": 5,
+    "xlabel": "Number of emails",
+    "plots": [
+     {
+      "five": [
+       4,
+       12,
+       20,
+       34,
+       58
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "This box plot summarises the number of emails a small business received each day over an $80$-day period.",
+   "type": "numeric",
+   "prompt": "State the maximum number of emails.",
+   "answer": "58"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "This box plot summarises the number of emails a small business received each day over an $80$-day period.",
+   "type": "numeric",
+   "prompt": "Find the range of the number of emails.",
+   "answer": "54"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "This box plot summarises the number of emails a small business received each day over an $80$-day period.",
+   "type": "numeric",
+   "prompt": "State the median number of emails.",
+   "answer": "20"
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "This box plot summarises the number of emails a small business received each day over an $80$-day period.",
+   "type": "numeric",
+   "prompt": "Find the interquartile range.",
+   "answer": "22"
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "This box plot summarises the number of emails a small business received each day over an $80$-day period.",
+   "type": "numeric",
+   "prompt": "On $75\\%$ of the days, the number of emails was below what number?",
+   "answer": "34"
+  },
+  {
+   "id": "q2g",
+   "label": "2g",
+   "section": "Fluency",
+   "stem": "This box plot summarises the number of emails a small business received each day over an $80$-day period.",
+   "type": "numeric",
+   "prompt": "On $50\\%$ of the days, the number of emails was more than what number?",
+   "answer": "20"
+  },
+  {
+   "id": "q2h",
+   "label": "2h",
+   "section": "Fluency",
+   "stem": "This box plot summarises the number of emails a small business received each day over an $80$-day period.",
+   "type": "numeric",
+   "prompt": "On how many days were fewer than $12$ emails received?",
+   "answer": "20",
+   "units": "days"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "For each data set, find the five values you need to draw a box plot.",
+   "type": "numeric",
+   "prompt": "Data set a: $3 \\quad 3 \\quad 4 \\quad 4 \\quad 5 \\quad 7 \\quad 8 \\quad 8 \\quad 8 \\quad 9 \\quad 9 \\quad 9 \\quad 9 \\quad 10 \\quad 12 \\quad 12 \\quad 14 \\quad 14 \\quad 14$.<br>State the minimum value.",
+   "answer": "3"
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "For each data set, find the five values you need to draw a box plot.",
+   "type": "numeric",
+   "prompt": "Data set a: $3 \\quad 3 \\quad 4 \\quad 4 \\quad 5 \\quad 7 \\quad 8 \\quad 8 \\quad 8 \\quad 9 \\quad 9 \\quad 9 \\quad 9 \\quad 10 \\quad 12 \\quad 12 \\quad 14 \\quad 14 \\quad 14$.<br>State the maximum value.",
+   "answer": "14"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "For each data set, find the five values you need to draw a box plot.",
+   "type": "numeric",
+   "prompt": "Data set a: $3 \\quad 3 \\quad 4 \\quad 4 \\quad 5 \\quad 7 \\quad 8 \\quad 8 \\quad 8 \\quad 9 \\quad 9 \\quad 9 \\quad 9 \\quad 10 \\quad 12 \\quad 12 \\quad 14 \\quad 14 \\quad 14$.<br>Find the median $(Q_2)$.",
+   "answer": "9"
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "For each data set, find the five values you need to draw a box plot.",
+   "type": "numeric",
+   "prompt": "Data set a: $3 \\quad 3 \\quad 4 \\quad 4 \\quad 5 \\quad 7 \\quad 8 \\quad 8 \\quad 8 \\quad 9 \\quad 9 \\quad 9 \\quad 9 \\quad 10 \\quad 12 \\quad 12 \\quad 14 \\quad 14 \\quad 14$.<br>Find the lower quartile $(Q_1)$.",
+   "answer": "5"
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "For each data set, find the five values you need to draw a box plot.",
+   "type": "numeric",
+   "prompt": "Data set a: $3 \\quad 3 \\quad 4 \\quad 4 \\quad 5 \\quad 7 \\quad 8 \\quad 8 \\quad 8 \\quad 9 \\quad 9 \\quad 9 \\quad 9 \\quad 10 \\quad 12 \\quad 12 \\quad 14 \\quad 14 \\quad 14$.<br>Find the upper quartile $(Q_3)$.",
+   "answer": "12"
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "For each data set, find the five values you need to draw a box plot.",
+   "type": "numeric",
+   "prompt": "Data set b: $52 \\quad 26 \\quad 71 \\quad 48 \\quad 39 \\quad 47 \\quad 44 \\quad 33 \\quad 60 \\quad 55 \\quad 15 \\quad 49 \\quad 76 \\quad 41 \\quad 66 \\quad 58 \\quad 93 \\quad 22$.<br>State the minimum value.",
+   "answer": "15"
+  },
+  {
+   "id": "q3g",
+   "label": "3g",
+   "section": "Fluency",
+   "stem": "For each data set, find the five values you need to draw a box plot.",
+   "type": "numeric",
+   "prompt": "Data set b: $52 \\quad 26 \\quad 71 \\quad 48 \\quad 39 \\quad 47 \\quad 44 \\quad 33 \\quad 60 \\quad 55 \\quad 15 \\quad 49 \\quad 76 \\quad 41 \\quad 66 \\quad 58 \\quad 93 \\quad 22$.<br>State the maximum value.",
+   "answer": "93"
+  },
+  {
+   "id": "q3h",
+   "label": "3h",
+   "section": "Fluency",
+   "stem": "For each data set, find the five values you need to draw a box plot.",
+   "type": "numeric",
+   "prompt": "Data set b: $52 \\quad 26 \\quad 71 \\quad 48 \\quad 39 \\quad 47 \\quad 44 \\quad 33 \\quad 60 \\quad 55 \\quad 15 \\quad 49 \\quad 76 \\quad 41 \\quad 66 \\quad 58 \\quad 93 \\quad 22$.<br>Find the median $(Q_2)$.",
+   "answer": "48.5"
+  },
+  {
+   "id": "q3i",
+   "label": "3i",
+   "section": "Fluency",
+   "stem": "For each data set, find the five values you need to draw a box plot.",
+   "type": "numeric",
+   "prompt": "Data set b: $52 \\quad 26 \\quad 71 \\quad 48 \\quad 39 \\quad 47 \\quad 44 \\quad 33 \\quad 60 \\quad 55 \\quad 15 \\quad 49 \\quad 76 \\quad 41 \\quad 66 \\quad 58 \\quad 93 \\quad 22$.<br>Find the lower quartile $(Q_1)$.",
+   "answer": "39"
+  },
+  {
+   "id": "q3j",
+   "label": "3j",
+   "section": "Fluency",
+   "stem": "For each data set, find the five values you need to draw a box plot.",
+   "type": "numeric",
+   "prompt": "Data set b: $52 \\quad 26 \\quad 71 \\quad 48 \\quad 39 \\quad 47 \\quad 44 \\quad 33 \\quad 60 \\quad 55 \\quad 15 \\quad 49 \\quad 76 \\quad 41 \\quad 66 \\quad 58 \\quad 93 \\quad 22$.<br>Find the upper quartile $(Q_3)$.",
+   "answer": "60"
+  },
+  {
+   "id": "q3k",
+   "label": "3k",
+   "section": "Fluency",
+   "stem": "For each data set, find the five values you need to draw a box plot.",
+   "type": "numeric",
+   "prompt": "Data set c: $512 \\quad 418 \\quad 709 \\quad 287 \\quad 736 \\quad 391 \\quad 268 \\quad 958 \\quad 584 \\quad 302 \\quad 801$.<br>State the minimum value.",
+   "answer": "268"
+  },
+  {
+   "id": "q3l",
+   "label": "3l",
+   "section": "Fluency",
+   "stem": "For each data set, find the five values you need to draw a box plot.",
+   "type": "numeric",
+   "prompt": "Data set c: $512 \\quad 418 \\quad 709 \\quad 287 \\quad 736 \\quad 391 \\quad 268 \\quad 958 \\quad 584 \\quad 302 \\quad 801$.<br>State the maximum value.",
+   "answer": "958"
+  },
+  {
+   "id": "q3m",
+   "label": "3m",
+   "section": "Fluency",
+   "stem": "For each data set, find the five values you need to draw a box plot.",
+   "type": "numeric",
+   "prompt": "Data set c: $512 \\quad 418 \\quad 709 \\quad 287 \\quad 736 \\quad 391 \\quad 268 \\quad 958 \\quad 584 \\quad 302 \\quad 801$.<br>Find the median $(Q_2)$.",
+   "answer": "512"
+  },
+  {
+   "id": "q3n",
+   "label": "3n",
+   "section": "Fluency",
+   "stem": "For each data set, find the five values you need to draw a box plot.",
+   "type": "numeric",
+   "prompt": "Data set c: $512 \\quad 418 \\quad 709 \\quad 287 \\quad 736 \\quad 391 \\quad 268 \\quad 958 \\quad 584 \\quad 302 \\quad 801$.<br>Find the lower quartile $(Q_1)$.",
+   "answer": "302"
+  },
+  {
+   "id": "q3o",
+   "label": "3o",
+   "section": "Fluency",
+   "stem": "For each data set, find the five values you need to draw a box plot.",
+   "type": "numeric",
+   "prompt": "Data set c: $512 \\quad 418 \\quad 709 \\quad 287 \\quad 736 \\quad 391 \\quad 268 \\quad 958 \\quad 584 \\quad 302 \\quad 801$.<br>Find the upper quartile $(Q_3)$.",
+   "answer": "736"
+  },
+  {
+   "id": "q3p",
+   "label": "3p",
+   "section": "Fluency",
+   "stem": "For each data set, find the five values you need to draw a box plot.",
+   "type": "numeric",
+   "prompt": "Data set d: $0.6 \\quad 0.8 \\quad 0.2 \\quad 0.3 \\quad 1.0 \\quad 0.6 \\quad 1.1 \\quad 0.7 \\quad 0.4 \\quad 0.5 \\quad 0.9 \\quad 1.2 \\quad 1.3 \\quad 0.9 \\quad 1.4 \\quad 0.5 \\quad 0.6$.<br>State the minimum value.",
+   "answer": "0.2"
+  },
+  {
+   "id": "q3q",
+   "label": "3q",
+   "section": "Fluency",
+   "stem": "For each data set, find the five values you need to draw a box plot.",
+   "type": "numeric",
+   "prompt": "Data set d: $0.6 \\quad 0.8 \\quad 0.2 \\quad 0.3 \\quad 1.0 \\quad 0.6 \\quad 1.1 \\quad 0.7 \\quad 0.4 \\quad 0.5 \\quad 0.9 \\quad 1.2 \\quad 1.3 \\quad 0.9 \\quad 1.4 \\quad 0.5 \\quad 0.6$.<br>State the maximum value.",
+   "answer": "1.4"
+  },
+  {
+   "id": "q3r",
+   "label": "3r",
+   "section": "Fluency",
+   "stem": "For each data set, find the five values you need to draw a box plot.",
+   "type": "numeric",
+   "prompt": "Data set d: $0.6 \\quad 0.8 \\quad 0.2 \\quad 0.3 \\quad 1.0 \\quad 0.6 \\quad 1.1 \\quad 0.7 \\quad 0.4 \\quad 0.5 \\quad 0.9 \\quad 1.2 \\quad 1.3 \\quad 0.9 \\quad 1.4 \\quad 0.5 \\quad 0.6$.<br>Find the median $(Q_2)$.",
+   "answer": "0.7"
+  },
+  {
+   "id": "q3s",
+   "label": "3s",
+   "section": "Fluency",
+   "stem": "For each data set, find the five values you need to draw a box plot.",
+   "type": "numeric",
+   "prompt": "Data set d: $0.6 \\quad 0.8 \\quad 0.2 \\quad 0.3 \\quad 1.0 \\quad 0.6 \\quad 1.1 \\quad 0.7 \\quad 0.4 \\quad 0.5 \\quad 0.9 \\quad 1.2 \\quad 1.3 \\quad 0.9 \\quad 1.4 \\quad 0.5 \\quad 0.6$.<br>Find the lower quartile $(Q_1)$.",
+   "answer": "0.5"
+  },
+  {
+   "id": "q3t",
+   "label": "3t",
+   "section": "Fluency",
+   "stem": "For each data set, find the five values you need to draw a box plot.",
+   "type": "numeric",
+   "prompt": "Data set d: $0.6 \\quad 0.8 \\quad 0.2 \\quad 0.3 \\quad 1.0 \\quad 0.6 \\quad 1.1 \\quad 0.7 \\quad 0.4 \\quad 0.5 \\quad 0.9 \\quad 1.2 \\quad 1.3 \\quad 0.9 \\quad 1.4 \\quad 0.5 \\quad 0.6$.<br>Find the upper quartile $(Q_3)$.",
+   "answer": "1.05"
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Problem-solving",
+   "stem": "The number of bikes parked at a train station was counted on $18$ days:<br>$16 \\quad 28 \\quad 41 \\quad 44 \\quad 15 \\quad 32 \\quad 7 \\quad 47 \\quad 38 \\quad 28 \\quad 41 \\quad 9 \\quad 10 \\quad 11 \\quad 19 \\quad 49 \\quad 31 \\quad 29$",
+   "type": "choice",
+   "prompt": "Which box plot represents the data?",
+   "answer": 1,
+   "figure": [
+    {
+     "kind": "boxplot",
+     "min": 0,
+     "max": 50,
+     "step": 5,
+     "xlabel": "Number of bikes",
+     "plots": [
+      {
+       "five": [
+        7,
+        28.5,
+        34.75,
+        41,
+        49
+       ]
+      }
+     ],
+     "caption": "A"
+    },
+    {
+     "kind": "boxplot",
+     "min": 0,
+     "max": 50,
+     "step": 5,
+     "xlabel": "Number of bikes",
+     "plots": [
+      {
+       "five": [
+        7,
+        15,
+        28.5,
+        41,
+        49
+       ]
+      }
+     ],
+     "caption": "B"
+    },
+    {
+     "kind": "boxplot",
+     "min": 0,
+     "max": 50,
+     "step": 5,
+     "xlabel": "Number of bikes",
+     "plots": [
+      {
+       "five": [
+        7,
+        12,
+        31.5,
+        43,
+        49
+       ]
+      }
+     ],
+     "caption": "C"
+    }
+   ],
+   "options": [
+    "A",
+    "B",
+    "C"
+   ]
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Problem-solving",
+   "stem": "The number of bikes parked at a train station was counted on $18$ days:<br>$16 \\quad 28 \\quad 41 \\quad 44 \\quad 15 \\quad 32 \\quad 7 \\quad 47 \\quad 38 \\quad 28 \\quad 41 \\quad 9 \\quad 10 \\quad 11 \\quad 19 \\quad 49 \\quad 31 \\quad 29$",
+   "type": "numeric",
+   "prompt": "On what percentage of days was the number of bikes between $5$ and $49$?",
+   "answer": "100",
+   "units": "%"
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Problem-solving",
+   "stem": "The number of bikes parked at a train station was counted on $18$ days:<br>$16 \\quad 28 \\quad 41 \\quad 44 \\quad 15 \\quad 32 \\quad 7 \\quad 47 \\quad 38 \\quad 28 \\quad 41 \\quad 9 \\quad 10 \\quad 11 \\quad 19 \\quad 49 \\quad 31 \\quad 29$",
+   "type": "numeric",
+   "prompt": "On what percentage of days was the number of bikes between $15$ and $41$?",
+   "answer": "50",
+   "units": "%"
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Problem-solving",
+   "stem": "The number of bikes parked at a train station was counted on $18$ days:<br>$16 \\quad 28 \\quad 41 \\quad 44 \\quad 15 \\quad 32 \\quad 7 \\quad 47 \\quad 38 \\quad 28 \\quad 41 \\quad 9 \\quad 10 \\quad 11 \\quad 19 \\quad 49 \\quad 31 \\quad 29$",
+   "type": "numeric",
+   "prompt": "On what percentage of days was the number of bikes between $7$ and $41$?",
+   "answer": "75",
+   "units": "%"
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Problem-solving",
+   "stem": "The number of bikes parked at a train station was counted on $18$ days:<br>$16 \\quad 28 \\quad 41 \\quad 44 \\quad 15 \\quad 32 \\quad 7 \\quad 47 \\quad 38 \\quad 28 \\quad 41 \\quad 9 \\quad 10 \\quad 11 \\quad 19 \\quad 49 \\quad 31 \\quad 29$",
+   "type": "numeric",
+   "prompt": "On what percentage of days was the number of bikes between $41$ and $49$?",
+   "answer": "25",
+   "units": "%"
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Problem-solving",
+   "stem": "The masses of a sample of adult wombats from two regions are summarised in these box plots.",
+   "type": "choice",
+   "prompt": "Which sample has the higher minimum mass?",
+   "answer": 0,
+   "stemFigure": {
+    "kind": "boxplot",
+    "min": 15,
+    "max": 60,
+    "step": 5,
+    "xlabel": "Mass (kg)",
+    "plots": [
+     {
+      "label": "Northern",
+      "five": [
+       30,
+       36,
+       42,
+       48,
+       58
+      ]
+     },
+     {
+      "label": "Southern",
+      "five": [
+       20,
+       30,
+       36,
+       42,
+       50
+      ]
+     }
+    ]
+   },
+   "options": [
+    "Northern",
+    "Southern"
+   ]
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Problem-solving",
+   "stem": "The masses of a sample of adult wombats from two regions are summarised in these box plots.",
+   "type": "numeric",
+   "prompt": "What is the difference between the ranges of the two samples?",
+   "answer": "2",
+   "units": "kg"
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Problem-solving",
+   "stem": "The masses of a sample of adult wombats from two regions are summarised in these box plots.",
+   "type": "choice",
+   "prompt": "Is the IQR the same for both samples?",
+   "answer": 0,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Problem-solving",
+   "stem": "The masses of a sample of adult wombats from two regions are summarised in these box plots.",
+   "type": "numeric",
+   "prompt": "What is the IQR of each sample?",
+   "answer": "12",
+   "units": "kg"
+  },
+  {
+   "id": "q5e",
+   "label": "5e",
+   "section": "Problem-solving",
+   "stem": "The masses of a sample of adult wombats from two regions are summarised in these box plots.",
+   "type": "numeric",
+   "prompt": "What percentage of the Northern wombats have a mass less than $42$ kg?",
+   "answer": "50",
+   "units": "%"
+  },
+  {
+   "id": "q5f",
+   "label": "5f",
+   "section": "Problem-solving",
+   "stem": "The masses of a sample of adult wombats from two regions are summarised in these box plots.",
+   "type": "numeric",
+   "prompt": "What percentage of the Southern wombats have a mass less than $42$ kg?",
+   "answer": "75",
+   "units": "%"
+  },
+  {
+   "id": "q5g",
+   "label": "5g",
+   "section": "Problem-solving",
+   "stem": "The masses of a sample of adult wombats from two regions are summarised in these box plots.",
+   "type": "choice",
+   "prompt": "A wombat has a mass of $53$ kg. Which region is it more likely to be from?",
+   "answer": 0,
+   "options": [
+    "Northern",
+    "Southern"
+   ]
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Problem-solving",
+   "stem": "The times, in minutes, that two brands of phone take to charge from empty to full are summarised in these box plots.",
+   "type": "choice",
+   "prompt": "Which brand has the lower median?",
+   "answer": 1,
+   "stemFigure": {
+    "kind": "boxplot",
+    "min": 20,
+    "max": 65,
+    "step": 5,
+    "xlabel": "Time (minutes)",
+    "plots": [
+     {
+      "label": "Brand X",
+      "five": [
+       32,
+       38,
+       44,
+       50,
+       56
+      ]
+     },
+     {
+      "label": "Brand Y",
+      "five": [
+       26,
+       30,
+       40,
+       54,
+       62
+      ]
+     }
+    ]
+   },
+   "options": [
+    "Brand X",
+    "Brand Y"
+   ]
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Problem-solving",
+   "stem": "The times, in minutes, that two brands of phone take to charge from empty to full are summarised in these box plots.",
+   "type": "numeric",
+   "prompt": "What percentage of brand X phones took less than $50$ minutes to charge?",
+   "answer": "75",
+   "units": "%"
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Problem-solving",
+   "stem": "The times, in minutes, that two brands of phone take to charge from empty to full are summarised in these box plots.",
+   "type": "numeric",
+   "prompt": "What percentage of brand Y phones took longer than $40$ minutes to charge?",
+   "answer": "50",
+   "units": "%"
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Problem-solving",
+   "stem": "The times, in minutes, that two brands of phone take to charge from empty to full are summarised in these box plots.",
+   "type": "choice",
+   "prompt": "What do you notice about the range for brand X and the IQR for brand Y?",
+   "answer": 1,
+   "options": [
+    "The range for brand X is twice the IQR for brand Y",
+    "They are equal, so all of the brand X times are spread over the same width as the middle 50% of the brand Y times",
+    "The IQR for brand Y is smaller than the range for brand X",
+    "They cannot be compared"
+   ]
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Reasoning",
+   "stem": "The number of points scored per game by two netball players over a season is summarised in these box plots.",
+   "type": "choice",
+   "prompt": "Which player has the higher maximum?",
+   "answer": 1,
+   "stemFigure": {
+    "kind": "boxplot",
+    "min": 0,
+    "max": 18,
+    "step": 2,
+    "xlabel": "Points",
+    "plots": [
+     {
+      "label": "Kofi",
+      "five": [
+       5,
+       8,
+       10,
+       11,
+       13
+      ]
+     },
+     {
+      "label": "Liam",
+      "five": [
+       2,
+       6,
+       8,
+       12,
+       17
+      ]
+     }
+    ]
+   },
+   "options": [
+    "Kofi",
+    "Liam"
+   ]
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Reasoning",
+   "stem": "The number of points scored per game by two netball players over a season is summarised in these box plots.",
+   "type": "choice",
+   "prompt": "Which player has the higher median?",
+   "answer": 0,
+   "options": [
+    "Kofi",
+    "Liam"
+   ]
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Reasoning",
+   "stem": "The number of points scored per game by two netball players over a season is summarised in these box plots.",
+   "type": "choice",
+   "prompt": "Which player has the smaller IQR?",
+   "answer": 0,
+   "options": [
+    "Kofi",
+    "Liam"
+   ]
+  },
+  {
+   "id": "q7d",
+   "label": "7d",
+   "section": "Reasoning",
+   "stem": "The number of points scored per game by two netball players over a season is summarised in these box plots.",
+   "type": "choice",
+   "prompt": "Which player is the more consistent scorer?",
+   "answer": 0,
+   "options": [
+    "Kofi, because his range and IQR are both smaller",
+    "Liam, because his range and IQR are both larger",
+    "Liam, because his maximum is higher"
+   ]
+  },
+  {
+   "id": "q7e",
+   "label": "7e",
+   "section": "Reasoning",
+   "stem": "The number of points scored per game by two netball players over a season is summarised in these box plots.",
+   "type": "choice",
+   "prompt": "Which player is more likely to have scored the most points in a single game?",
+   "answer": 1,
+   "options": [
+    "Kofi, because his median is higher",
+    "Liam, because his maximum is higher",
+    "Kofi, because his IQR is smaller"
+   ]
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Reasoning",
+   "stem": "Which data set has the property given?",
+   "type": "choice",
+   "prompt": "Maximum = upper quartile",
+   "answer": 1,
+   "options": [
+    "1, 2, 3, 4, 5, 6",
+    "1, 2, 3, 7, 7, 7",
+    "1, 1, 2, 3, 4, 5",
+    "2, 4, 4, 5, 6, 8"
+   ]
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Reasoning",
+   "stem": "Which data set has the property given?",
+   "type": "choice",
+   "prompt": "Median = lower quartile",
+   "answer": 2,
+   "options": [
+    "1, 2, 3, 4, 5, 6",
+    "3, 4, 5, 6, 8, 9",
+    "2, 2, 2, 2, 6, 9",
+    "1, 1, 2, 3, 4, 5"
+   ]
+  },
+  {
+   "id": "q9",
+   "label": "9",
+   "section": "Reasoning",
+   "type": "choice",
+   "prompt": "Does the median always sit exactly in the middle of the box on a box plot?",
+   "answer": 1,
+   "options": [
+    "Yes, the median is always halfway between $Q_1$ and $Q_3$",
+    "No, it sits wherever the middle value is, which may be closer to $Q_1$ or to $Q_3$"
+   ]
+  },
+  {
+   "id": "q10",
+   "label": "10",
+   "section": "Reasoning",
+   "type": "choice",
+   "prompt": "Could the mean of a data set be greater than $Q_3$?",
+   "answer": 0,
+   "options": [
+    "Yes, for example when there is a very large outlier, as in 1, 1, 1, 1, 1, 1, 1, 50",
+    "No, the mean is always between $Q_1$ and $Q_3$"
+   ]
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Enrichment",
+   "stem": "The life, in months, of a brand of battery used in a remote-control car is shown in this data set:<br>$2 \\quad 3 \\quad 3 \\quad 4 \\quad 5 \\quad 5 \\quad 5 \\quad 6 \\quad 7 \\quad 7 \\quad 8 \\quad 9 \\quad 9 \\quad 21$",
+   "type": "numeric",
+   "prompt": "Using all the values, find $Q_1$.",
+   "answer": "4"
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Enrichment",
+   "stem": "The life, in months, of a brand of battery used in a remote-control car is shown in this data set:<br>$2 \\quad 3 \\quad 3 \\quad 4 \\quad 5 \\quad 5 \\quad 5 \\quad 6 \\quad 7 \\quad 7 \\quad 8 \\quad 9 \\quad 9 \\quad 21$",
+   "type": "numeric",
+   "prompt": "Using all the values, find $Q_2$.",
+   "answer": "5.5"
+  },
+  {
+   "id": "q11c",
+   "label": "11c",
+   "section": "Enrichment",
+   "stem": "The life, in months, of a brand of battery used in a remote-control car is shown in this data set:<br>$2 \\quad 3 \\quad 3 \\quad 4 \\quad 5 \\quad 5 \\quad 5 \\quad 6 \\quad 7 \\quad 7 \\quad 8 \\quad 9 \\quad 9 \\quad 21$",
+   "type": "numeric",
+   "prompt": "Using all the values, find $Q_3$.",
+   "answer": "8"
+  },
+  {
+   "id": "q11d",
+   "label": "11d",
+   "section": "Enrichment",
+   "stem": "The life, in months, of a brand of battery used in a remote-control car is shown in this data set:<br>$2 \\quad 3 \\quad 3 \\quad 4 \\quad 5 \\quad 5 \\quad 5 \\quad 6 \\quad 7 \\quad 7 \\quad 8 \\quad 9 \\quad 9 \\quad 21$",
+   "type": "numeric",
+   "prompt": "Which value appears to be an outlier?",
+   "answer": "21"
+  },
+  {
+   "id": "q11e",
+   "label": "11e",
+   "section": "Enrichment",
+   "stem": "The life, in months, of a brand of battery used in a remote-control car is shown in this data set:<br>$2 \\quad 3 \\quad 3 \\quad 4 \\quad 5 \\quad 5 \\quad 5 \\quad 6 \\quad 7 \\quad 7 \\quad 8 \\quad 9 \\quad 9 \\quad 21$",
+   "type": "numeric",
+   "prompt": "Not including the outlier, what is the next highest value?",
+   "answer": "9"
   }
  ]
 }
