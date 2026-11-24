@@ -127486,6 +127486,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-9a-spinner",
    "label": "1a",
    "section": "Fluency",
    "stem": "This spinner has eight equal sections.",
@@ -127518,6 +127519,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-9a-spinner",
    "label": "1b",
    "section": "Fluency",
    "stem": "This spinner has eight equal sections.",
@@ -127528,6 +127530,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-9a-spinner",
    "label": "1c",
    "section": "Fluency",
    "stem": "This spinner has eight equal sections.",
@@ -127537,6 +127540,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-9a-spinner",
    "label": "1d",
    "section": "Fluency",
    "stem": "This spinner has eight equal sections.",
@@ -127546,6 +127550,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-9a-spinner",
    "label": "1e",
    "section": "Fluency",
    "stem": "This spinner has eight equal sections.",
@@ -127555,6 +127560,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-9a-spinner",
    "label": "2a",
    "section": "Fluency",
    "stem": "Spinner a has 4 equal sections.",
@@ -127578,6 +127584,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-9a-spinner",
    "label": "2b",
    "section": "Fluency",
    "stem": "Spinner a has 4 equal sections.",
@@ -127587,6 +127594,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-9a-spinner",
    "label": "2c",
    "section": "Fluency",
    "stem": "Spinner a has 4 equal sections.",
@@ -127596,6 +127604,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-9a-spinner",
    "label": "2d",
    "section": "Fluency",
    "stem": "Spinner a has 4 equal sections.",
@@ -127605,6 +127614,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-9a-spinner",
    "label": "2e",
    "section": "Fluency",
    "stem": "Spinner a has 4 equal sections.",
@@ -127614,6 +127624,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-9a-spinner",
    "label": "2f",
    "section": "Fluency",
    "stem": "Spinner b has 6 equal sections.",
@@ -127638,6 +127649,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y9-9a-spinner",
    "label": "2g",
    "section": "Fluency",
    "stem": "Spinner b has 6 equal sections.",
@@ -127647,6 +127659,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y9-9a-spinner",
    "label": "2h",
    "section": "Fluency",
    "stem": "Spinner b has 6 equal sections.",
@@ -127656,6 +127669,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2i",
+   "help": "y9-9a-spinner",
    "label": "2i",
    "section": "Fluency",
    "stem": "Spinner b has 6 equal sections.",
@@ -127665,6 +127679,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2j",
+   "help": "y9-9a-spinner",
    "label": "2j",
    "section": "Fluency",
    "stem": "Spinner b has 6 equal sections.",
@@ -127674,6 +127689,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2k",
+   "help": "y9-9a-spinner",
    "label": "2k",
    "section": "Fluency",
    "stem": "Spinner c has 6 equal sections.",
@@ -127698,6 +127714,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2l",
+   "help": "y9-9a-spinner",
    "label": "2l",
    "section": "Fluency",
    "stem": "Spinner c has 6 equal sections.",
@@ -127707,6 +127724,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2m",
+   "help": "y9-9a-spinner",
    "label": "2m",
    "section": "Fluency",
    "stem": "Spinner c has 6 equal sections.",
@@ -127716,6 +127734,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2n",
+   "help": "y9-9a-spinner",
    "label": "2n",
    "section": "Fluency",
    "stem": "Spinner c has 6 equal sections.",
@@ -127725,6 +127744,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2o",
+   "help": "y9-9a-spinner",
    "label": "2o",
    "section": "Fluency",
    "stem": "Spinner c has 6 equal sections.",
@@ -127734,6 +127754,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2p",
+   "help": "y9-9a-spinner",
    "label": "2p",
    "section": "Fluency",
    "stem": "Spinner d has 7 equal sections.",
@@ -127760,6 +127781,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2q",
+   "help": "y9-9a-spinner",
    "label": "2q",
    "section": "Fluency",
    "stem": "Spinner d has 7 equal sections.",
@@ -127769,6 +127791,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2r",
+   "help": "y9-9a-spinner",
    "label": "2r",
    "section": "Fluency",
    "stem": "Spinner d has 7 equal sections.",
@@ -127778,6 +127801,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2s",
+   "help": "y9-9a-spinner",
    "label": "2s",
    "section": "Fluency",
    "stem": "Spinner d has 7 equal sections.",
@@ -127787,6 +127811,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2t",
+   "help": "y9-9a-spinner",
    "label": "2t",
    "section": "Fluency",
    "stem": "Spinner d has 7 equal sections.",
@@ -127796,6 +127821,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-9a-count",
    "label": "3a",
    "section": "Fluency",
    "stem": "A ball is chosen at random from a box. Find the probability that it is blue if the box contains:",
@@ -127805,6 +127831,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-9a-count",
    "label": "3b",
    "section": "Fluency",
    "stem": "A ball is chosen at random from a box. Find the probability that it is blue if the box contains:",
@@ -127814,6 +127841,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-9a-count",
    "label": "3c",
    "section": "Fluency",
    "stem": "A ball is chosen at random from a box. Find the probability that it is blue if the box contains:",
@@ -127823,6 +127851,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-9a-count",
    "label": "3d",
    "section": "Fluency",
    "stem": "A ball is chosen at random from a box. Find the probability that it is blue if the box contains:",
@@ -127832,6 +127861,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-9a-count",
    "label": "3e",
    "section": "Fluency",
    "stem": "A ball is chosen at random from a box. Find the probability that it is blue if the box contains:",
@@ -127841,6 +127871,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-9a-count",
    "label": "3f",
    "section": "Fluency",
    "stem": "A ball is chosen at random from a box. Find the probability that it is blue if the box contains:",
@@ -127850,6 +127881,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-9a-count",
    "label": "4a",
    "section": "Fluency",
    "stem": "A ball is chosen at random from a box. Find the probability that it is NOT blue if the box contains:",
@@ -127859,6 +127891,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-9a-count",
    "label": "4b",
    "section": "Fluency",
    "stem": "A ball is chosen at random from a box. Find the probability that it is NOT blue if the box contains:",
@@ -127868,6 +127901,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-9a-count",
    "label": "4c",
    "section": "Fluency",
    "stem": "A ball is chosen at random from a box. Find the probability that it is NOT blue if the box contains:",
@@ -127877,6 +127911,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-9a-count",
    "label": "4d",
    "section": "Fluency",
    "stem": "A ball is chosen at random from a box. Find the probability that it is NOT blue if the box contains:",
@@ -127886,6 +127921,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y9-9a-count",
    "label": "4e",
    "section": "Fluency",
    "stem": "A ball is chosen at random from a box. Find the probability that it is NOT blue if the box contains:",
@@ -127895,6 +127931,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y9-9a-count",
    "label": "4f",
    "section": "Fluency",
    "stem": "A ball is chosen at random from a box. Find the probability that it is NOT blue if the box contains:",
@@ -127904,6 +127941,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-9a-count",
    "label": "5a",
    "section": "Fluency",
    "stem": "A running race has six lanes, and each of the six runners has an equal chance of being drawn in lane $4$. Find the probability that a particular runner:",
@@ -127913,6 +127951,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-9a-count",
    "label": "5b",
    "section": "Fluency",
    "stem": "A running race has six lanes, and each of the six runners has an equal chance of being drawn in lane $4$. Find the probability that a particular runner:",
@@ -127922,6 +127961,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-9a-letters",
    "label": "6a",
    "section": "Fluency",
    "stem": "A letter is chosen at random from the word PARALLEL. Find each probability.",
@@ -127931,6 +127971,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-9a-letters",
    "label": "6b",
    "section": "Fluency",
    "stem": "A letter is chosen at random from the word PARALLEL. Find each probability.",
@@ -127940,6 +127981,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y9-9a-letters",
    "label": "6c",
    "section": "Fluency",
    "stem": "A letter is chosen at random from the word PARALLEL. Find each probability.",
@@ -127949,6 +127991,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y9-9a-letters",
    "label": "6d",
    "section": "Fluency",
    "stem": "A letter is chosen at random from the word PARALLEL. Find each probability.",
@@ -127958,6 +128001,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6e",
+   "help": "y9-9a-letters",
    "label": "6e",
    "section": "Fluency",
    "stem": "A letter is chosen at random from the word PARALLEL. Find each probability.",
@@ -127967,6 +128011,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6f",
+   "help": "y9-9a-letters",
    "label": "6f",
    "section": "Fluency",
    "stem": "A letter is chosen at random from the word PARALLEL. Find each probability.",
@@ -127976,6 +128021,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6g",
+   "help": "y9-9a-letters",
    "label": "6g",
    "section": "Fluency",
    "stem": "A letter is chosen at random from the word PARALLEL. Find each probability.",
@@ -127985,6 +128031,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6h",
+   "help": "y9-9a-letters",
    "label": "6h",
    "section": "Fluency",
    "stem": "A letter is chosen at random from the word PARALLEL. Find each probability.",
@@ -127994,6 +128041,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6i",
+   "help": "y9-9a-letters",
    "label": "6i",
    "section": "Fluency",
    "stem": "A letter is chosen at random from the word PARALLEL. Find each probability.",
@@ -128003,6 +128051,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6j",
+   "help": "y9-9a-letters",
    "label": "6j",
    "section": "Fluency",
    "stem": "A letter is chosen at random from the word PARALLEL. Find each probability.",
@@ -128012,6 +128061,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-9a-count",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "The sport captain is chosen at random from four candidates. Mei and Tomas are $16$ years old, and Priya and Jack are $15$ years old.",
@@ -128027,6 +128077,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-9a-count",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "The sport captain is chosen at random from four candidates. Mei and Tomas are $16$ years old, and Priya and Jack are $15$ years old.",
@@ -128036,6 +128087,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-9a-count",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "The sport captain is chosen at random from four candidates. Mei and Tomas are $16$ years old, and Priya and Jack are $15$ years old.",
@@ -128045,6 +128097,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y9-9a-count",
    "label": "7d",
    "section": "Problem-solving",
    "stem": "The sport captain is chosen at random from four candidates. Mei and Tomas are $16$ years old, and Priya and Jack are $15$ years old.",
@@ -128054,6 +128107,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-9a-numbers",
    "label": "8a",
    "section": "Problem-solving",
    "stem": "A fair six-sided die is rolled. Find each probability.",
@@ -128063,6 +128117,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-9a-numbers",
    "label": "8b",
    "section": "Problem-solving",
    "stem": "A fair six-sided die is rolled. Find each probability.",
@@ -128072,6 +128127,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y9-9a-numbers",
    "label": "8c",
    "section": "Problem-solving",
    "stem": "A fair six-sided die is rolled. Find each probability.",
@@ -128081,6 +128137,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y9-9a-numbers",
    "label": "8d",
    "section": "Problem-solving",
    "stem": "A fair six-sided die is rolled. Find each probability.",
@@ -128090,6 +128147,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8e",
+   "help": "y9-9a-numbers",
    "label": "8e",
    "section": "Problem-solving",
    "stem": "A fair six-sided die is rolled. Find each probability.",
@@ -128099,6 +128157,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8f",
+   "help": "y9-9a-numbers",
    "label": "8f",
    "section": "Problem-solving",
    "stem": "A fair six-sided die is rolled. Find each probability.",
@@ -128108,6 +128167,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8g",
+   "help": "y9-9a-numbers",
    "label": "8g",
    "section": "Problem-solving",
    "stem": "A fair six-sided die is rolled. Find each probability.",
@@ -128117,6 +128177,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8h",
+   "help": "y9-9a-numbers",
    "label": "8h",
    "section": "Problem-solving",
    "stem": "A fair six-sided die is rolled. Find each probability.",
@@ -128126,6 +128187,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8i",
+   "help": "y9-9a-numbers",
    "label": "8i",
    "section": "Problem-solving",
    "stem": "A fair six-sided die is rolled. Find each probability.",
@@ -128135,6 +128197,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-9a-cards",
    "label": "9a",
    "section": "Problem-solving",
    "stem": "A card is drawn at random from a standard deck of $52$ playing cards: $13$ black spades, $13$ black clubs, $13$ red hearts and $13$ red diamonds, with four each of ace, $2$ to $10$, jack, queen and king. Find the probability that the card is:",
@@ -128144,6 +128207,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-9a-cards",
    "label": "9b",
    "section": "Problem-solving",
    "stem": "A card is drawn at random from a standard deck of $52$ playing cards: $13$ black spades, $13$ black clubs, $13$ red hearts and $13$ red diamonds, with four each of ace, $2$ to $10$, jack, queen and king. Find the probability that the card is:",
@@ -128153,6 +128217,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y9-9a-cards",
    "label": "9c",
    "section": "Problem-solving",
    "stem": "A card is drawn at random from a standard deck of $52$ playing cards: $13$ black spades, $13$ black clubs, $13$ red hearts and $13$ red diamonds, with four each of ace, $2$ to $10$, jack, queen and king. Find the probability that the card is:",
@@ -128162,6 +128227,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y9-9a-cards",
    "label": "9d",
    "section": "Problem-solving",
    "stem": "A card is drawn at random from a standard deck of $52$ playing cards: $13$ black spades, $13$ black clubs, $13$ red hearts and $13$ red diamonds, with four each of ace, $2$ to $10$, jack, queen and king. Find the probability that the card is:",
@@ -128171,6 +128237,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9e",
+   "help": "y9-9a-cards",
    "label": "9e",
    "section": "Problem-solving",
    "stem": "A card is drawn at random from a standard deck of $52$ playing cards: $13$ black spades, $13$ black clubs, $13$ red hearts and $13$ red diamonds, with four each of ace, $2$ to $10$, jack, queen and king. Find the probability that the card is:",
@@ -128180,6 +128247,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9f",
+   "help": "y9-9a-cards",
    "label": "9f",
    "section": "Problem-solving",
    "stem": "A card is drawn at random from a standard deck of $52$ playing cards: $13$ black spades, $13$ black clubs, $13$ red hearts and $13$ red diamonds, with four each of ace, $2$ to $10$, jack, queen and king. Find the probability that the card is:",
@@ -128189,6 +128257,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9g",
+   "help": "y9-9a-cards",
    "label": "9g",
    "section": "Problem-solving",
    "stem": "A card is drawn at random from a standard deck of $52$ playing cards: $13$ black spades, $13$ black clubs, $13$ red hearts and $13$ red diamonds, with four each of ace, $2$ to $10$, jack, queen and king. Find the probability that the card is:",
@@ -128198,6 +128267,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9h",
+   "help": "y9-9a-cards",
    "label": "9h",
    "section": "Problem-solving",
    "stem": "A card is drawn at random from a standard deck of $52$ playing cards: $13$ black spades, $13$ black clubs, $13$ red hearts and $13$ red diamonds, with four each of ace, $2$ to $10$, jack, queen and king. Find the probability that the card is:",
@@ -128207,6 +128277,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y9-9a-letters",
    "label": "10a",
    "section": "Problem-solving",
    "stem": "A letter is chosen at random from the word ENGINEERING. Find the probability that the letter is:",
@@ -128216,6 +128287,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y9-9a-letters",
    "label": "10b",
    "section": "Problem-solving",
    "stem": "A letter is chosen at random from the word ENGINEERING. Find the probability that the letter is:",
@@ -128225,6 +128297,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y9-9a-letters",
    "label": "10c",
    "section": "Problem-solving",
    "stem": "A letter is chosen at random from the word ENGINEERING. Find the probability that the letter is:",
@@ -128234,6 +128307,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10d",
+   "help": "y9-9a-letters",
    "label": "10d",
    "section": "Problem-solving",
    "stem": "A letter is chosen at random from the word ENGINEERING. Find the probability that the letter is:",
@@ -128243,6 +128317,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10e",
+   "help": "y9-9a-letters",
    "label": "10e",
    "section": "Problem-solving",
    "stem": "A letter is chosen at random from the word ENGINEERING. Find the probability that the letter is:",
@@ -128252,6 +128327,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11",
+   "help": "y9-9a-letters",
    "label": "11",
    "section": "Reasoning",
    "type": "numeric",
@@ -128260,6 +128336,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y9-9a-numbers",
    "label": "12a",
    "section": "Reasoning",
    "stem": "A fair six-sided die is rolled. Does each event have a probability equal to $\\frac{1}{3}$?",
@@ -128273,6 +128350,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y9-9a-numbers",
    "label": "12b",
    "section": "Reasoning",
    "stem": "A fair six-sided die is rolled. Does each event have a probability equal to $\\frac{1}{3}$?",
@@ -128286,6 +128364,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y9-9a-numbers",
    "label": "12c",
    "section": "Reasoning",
    "stem": "A fair six-sided die is rolled. Does each event have a probability equal to $\\frac{1}{3}$?",
@@ -128299,6 +128378,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12d",
+   "help": "y9-9a-numbers",
    "label": "12d",
    "section": "Reasoning",
    "stem": "A fair six-sided die is rolled. Does each event have a probability equal to $\\frac{1}{3}$?",
@@ -128312,6 +128392,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12e",
+   "help": "y9-9a-numbers",
    "label": "12e",
    "section": "Reasoning",
    "stem": "A fair six-sided die is rolled. Does each event have a probability equal to $\\frac{1}{3}$?",
@@ -128325,6 +128406,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12f",
+   "help": "y9-9a-numbers",
    "label": "12f",
    "section": "Reasoning",
    "stem": "A fair six-sided die is rolled. Does each event have a probability equal to $\\frac{1}{3}$?",
@@ -128338,6 +128420,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y9-9a-numbers",
    "label": "13a",
    "section": "Reasoning",
    "stem": "A number is chosen at random from the set $\\{1, 2, 3, \\ldots, 30\\}$. Find the probability that the number is:",
@@ -128347,6 +128430,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y9-9a-numbers",
    "label": "13b",
    "section": "Reasoning",
    "stem": "A number is chosen at random from the set $\\{1, 2, 3, \\ldots, 30\\}$. Find the probability that the number is:",
@@ -128356,6 +128440,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13c",
+   "help": "y9-9a-numbers",
    "label": "13c",
    "section": "Reasoning",
    "stem": "A number is chosen at random from the set $\\{1, 2, 3, \\ldots, 30\\}$. Find the probability that the number is:",
@@ -128365,6 +128450,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13d",
+   "help": "y9-9a-numbers",
    "label": "13d",
    "section": "Reasoning",
    "stem": "A number is chosen at random from the set $\\{1, 2, 3, \\ldots, 30\\}$. Find the probability that the number is:",
@@ -128374,6 +128460,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13e",
+   "help": "y9-9a-numbers",
    "label": "13e",
    "section": "Reasoning",
    "stem": "A number is chosen at random from the set $\\{1, 2, 3, \\ldots, 30\\}$. Find the probability that the number is:",
@@ -128383,6 +128470,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13f",
+   "help": "y9-9a-numbers",
    "label": "13f",
    "section": "Reasoning",
    "stem": "A number is chosen at random from the set $\\{1, 2, 3, \\ldots, 30\\}$. Find the probability that the number is:",
@@ -128392,6 +128480,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13g",
+   "help": "y9-9a-numbers",
    "label": "13g",
    "section": "Reasoning",
    "stem": "A number is chosen at random from the set $\\{1, 2, 3, \\ldots, 30\\}$. Find the probability that the number is:",
@@ -128401,6 +128490,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13h",
+   "help": "y9-9a-numbers",
    "label": "13h",
    "section": "Reasoning",
    "stem": "A number is chosen at random from the set $\\{1, 2, 3, \\ldots, 30\\}$. Find the probability that the number is:",
@@ -128410,6 +128500,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13i",
+   "help": "y9-9a-numbers",
    "label": "13i",
    "section": "Reasoning",
    "stem": "A number is chosen at random from the set $\\{1, 2, 3, \\ldots, 30\\}$. Find the probability that the number is:",
@@ -128419,6 +128510,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y9-9a-time",
    "label": "14a",
    "section": "Enrichment",
    "stem": "Zara's music player is faulty: when she presses shuffle on an album, it starts playing at a random moment somewhere on the album, not necessarily at the start of a track. The table shows the length of each track.",
@@ -128456,6 +128548,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y9-9a-time",
    "label": "14b",
    "section": "Enrichment",
    "stem": "Zara's music player is faulty: when she presses shuffle on an album, it starts playing at a random moment somewhere on the album, not necessarily at the start of a track. The table shows the length of each track.",
@@ -128465,6 +128558,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14c",
+   "help": "y9-9a-time",
    "label": "14c",
    "section": "Enrichment",
    "stem": "Zara's music player is faulty: when she presses shuffle on an album, it starts playing at a random moment somewhere on the album, not necessarily at the start of a track. The table shows the length of each track.",
@@ -128474,6 +128568,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14d",
+   "help": "y9-9a-time",
    "label": "14d",
    "section": "Enrichment",
    "stem": "Zara's music player is faulty: when she presses shuffle on an album, it starts playing at a random moment somewhere on the album, not necessarily at the start of a track. The table shows the length of each track.",
@@ -128483,6 +128578,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14e",
+   "help": "y9-9a-time",
    "label": "14e",
    "section": "Enrichment",
    "stem": "Zara's music player is faulty: when she presses shuffle on an album, it starts playing at a random moment somewhere on the album, not necessarily at the start of a track. The table shows the length of each track.",
@@ -128492,6 +128588,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14f",
+   "help": "y9-9a-time",
    "label": "14f",
    "section": "Enrichment",
    "stem": "Zara's music player is faulty: when she presses shuffle on an album, it starts playing at a random moment somewhere on the album, not necessarily at the start of a track. The table shows the length of each track.",
@@ -128501,6 +128598,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14g",
+   "help": "y9-9a-time",
    "label": "14g",
    "section": "Enrichment",
    "stem": "Zara's music player is faulty: when she presses shuffle on an album, it starts playing at a random moment somewhere on the album, not necessarily at the start of a track. The table shows the length of each track.",
@@ -128510,6 +128608,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14h",
+   "help": "y9-9a-time",
    "label": "14h",
    "section": "Enrichment",
    "stem": "Zara's music player is faulty: when she presses shuffle on an album, it starts playing at a random moment somewhere on the album, not necessarily at the start of a track. The table shows the length of each track.",
@@ -128528,6 +128627,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-9b-venn-words",
    "label": "1a",
    "section": "Fluency",
    "stem": "In a class of $32$ students, $21$ carried a water bottle, $11$ carried a hat, $4$ carried both a water bottle and a hat, and $4$ carried neither.",
@@ -128625,6 +128725,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-9b-venn-words",
    "label": "1b",
    "section": "Fluency",
    "stem": "In a class of $32$ students, $21$ carried a water bottle, $11$ carried a hat, $4$ carried both a water bottle and a hat, and $4$ carried neither.",
@@ -128634,6 +128735,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-9b-venn-words",
    "label": "1c",
    "section": "Fluency",
    "stem": "In a class of $32$ students, $21$ carried a water bottle, $11$ carried a hat, $4$ carried both a water bottle and a hat, and $4$ carried neither.",
@@ -128643,6 +128745,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-9b-venn-words",
    "label": "1d",
    "section": "Fluency",
    "stem": "In a class of $32$ students, $21$ carried a water bottle, $11$ carried a hat, $4$ carried both a water bottle and a hat, and $4$ carried neither.",
@@ -128652,6 +128755,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-9b-venn-words",
    "label": "1e",
    "section": "Fluency",
    "stem": "In a class of $32$ students, $21$ carried a water bottle, $11$ carried a hat, $4$ carried both a water bottle and a hat, and $4$ carried neither.",
@@ -128662,6 +128766,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-9b-venn-words",
    "label": "1f",
    "section": "Fluency",
    "stem": "In a class of $32$ students, $21$ carried a water bottle, $11$ carried a hat, $4$ carried both a water bottle and a hat, and $4$ carried neither.",
@@ -128671,6 +128776,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1g",
+   "help": "y9-9b-venn-words",
    "label": "1g",
    "section": "Fluency",
    "stem": "In a class of $32$ students, $21$ carried a water bottle, $11$ carried a hat, $4$ carried both a water bottle and a hat, and $4$ carried neither.",
@@ -128680,6 +128786,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-9b-venn-words",
    "label": "2a",
    "section": "Fluency",
    "stem": "In a survey of $25$ people, $14$ like swimming and $12$ like cycling. Also $5$ people like both swimming and cycling, and $4$ like neither.",
@@ -128777,6 +128884,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-9b-venn-words",
    "label": "2b",
    "section": "Fluency",
    "stem": "In a survey of $25$ people, $14$ like swimming and $12$ like cycling. Also $5$ people like both swimming and cycling, and $4$ like neither.",
@@ -128786,6 +128894,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-9b-venn-words",
    "label": "2c",
    "section": "Fluency",
    "stem": "In a survey of $25$ people, $14$ like swimming and $12$ like cycling. Also $5$ people like both swimming and cycling, and $4$ like neither.",
@@ -128795,6 +128904,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-9b-venn-words",
    "label": "2d",
    "section": "Fluency",
    "stem": "In a survey of $25$ people, $14$ like swimming and $12$ like cycling. Also $5$ people like both swimming and cycling, and $4$ like neither.",
@@ -128804,6 +128914,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-9b-venn-words",
    "label": "2e",
    "section": "Fluency",
    "stem": "In a survey of $25$ people, $14$ like swimming and $12$ like cycling. Also $5$ people like both swimming and cycling, and $4$ like neither.",
@@ -128813,6 +128924,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-9b-venn-words",
    "label": "2f",
    "section": "Fluency",
    "stem": "In a survey of $25$ people, $14$ like swimming and $12$ like cycling. Also $5$ people like both swimming and cycling, and $4$ like neither.",
@@ -128822,6 +128934,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-9b-venn-prob",
    "label": "3a",
    "section": "Fluency",
    "stem": "For Venn diagram a, find each probability. Work out the total number in the sample space first.",
@@ -128913,6 +129026,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-9b-venn-prob",
    "label": "3b",
    "section": "Fluency",
    "stem": "For Venn diagram a, find each probability. Work out the total number in the sample space first.",
@@ -128922,6 +129036,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-9b-venn-prob",
    "label": "3c",
    "section": "Fluency",
    "stem": "For Venn diagram a, find each probability. Work out the total number in the sample space first.",
@@ -128931,6 +129046,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-9b-venn-prob",
    "label": "3d",
    "section": "Fluency",
    "stem": "For Venn diagram a, find each probability. Work out the total number in the sample space first.",
@@ -128940,6 +129056,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-9b-venn-prob",
    "label": "3e",
    "section": "Fluency",
    "stem": "For Venn diagram a, find each probability. Work out the total number in the sample space first.",
@@ -128949,6 +129066,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-9b-venn-prob",
    "label": "3f",
    "section": "Fluency",
    "stem": "For Venn diagram a, find each probability. Work out the total number in the sample space first.",
@@ -128958,6 +129076,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3g",
+   "help": "y9-9b-venn-prob",
    "label": "3g",
    "section": "Fluency",
    "stem": "For Venn diagram b, find each probability. Work out the total number in the sample space first.",
@@ -129049,6 +129168,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3h",
+   "help": "y9-9b-venn-prob",
    "label": "3h",
    "section": "Fluency",
    "stem": "For Venn diagram b, find each probability. Work out the total number in the sample space first.",
@@ -129058,6 +129178,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3i",
+   "help": "y9-9b-venn-prob",
    "label": "3i",
    "section": "Fluency",
    "stem": "For Venn diagram b, find each probability. Work out the total number in the sample space first.",
@@ -129067,6 +129188,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3j",
+   "help": "y9-9b-venn-prob",
    "label": "3j",
    "section": "Fluency",
    "stem": "For Venn diagram b, find each probability. Work out the total number in the sample space first.",
@@ -129076,6 +129198,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3k",
+   "help": "y9-9b-venn-prob",
    "label": "3k",
    "section": "Fluency",
    "stem": "For Venn diagram b, find each probability. Work out the total number in the sample space first.",
@@ -129085,6 +129208,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3l",
+   "help": "y9-9b-venn-prob",
    "label": "3l",
    "section": "Fluency",
    "stem": "For Venn diagram b, find each probability. Work out the total number in the sample space first.",
@@ -129094,6 +129218,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-9b-table",
    "label": "4a",
    "section": "Fluency",
    "stem": "Of the $60$ pizzas sold at a cafe one night, $28$ had olives, $24$ had mushrooms and $7$ had both olives and mushrooms.",
@@ -129137,6 +129262,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-9b-table",
    "label": "4b",
    "section": "Fluency",
    "stem": "Of the $60$ pizzas sold at a cafe one night, $28$ had olives, $24$ had mushrooms and $7$ had both olives and mushrooms.",
@@ -129146,6 +129272,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-9b-table",
    "label": "4c",
    "section": "Fluency",
    "stem": "Of the $60$ pizzas sold at a cafe one night, $28$ had olives, $24$ had mushrooms and $7$ had both olives and mushrooms.",
@@ -129155,6 +129282,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-9b-table",
    "label": "4d",
    "section": "Fluency",
    "stem": "Of the $60$ pizzas sold at a cafe one night, $28$ had olives, $24$ had mushrooms and $7$ had both olives and mushrooms.",
@@ -129164,6 +129292,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y9-9b-table",
    "label": "4e",
    "section": "Fluency",
    "stem": "Of the $60$ pizzas sold at a cafe one night, $28$ had olives, $24$ had mushrooms and $7$ had both olives and mushrooms.",
@@ -129173,6 +129302,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y9-9b-table",
    "label": "4f",
    "section": "Fluency",
    "stem": "Of the $60$ pizzas sold at a cafe one night, $28$ had olives, $24$ had mushrooms and $7$ had both olives and mushrooms.",
@@ -129182,6 +129312,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-9b-table",
    "label": "5a",
    "section": "Fluency",
    "stem": "For table a, fill in the missing numbers, then find each probability.",
@@ -129220,6 +129351,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-9b-table",
    "label": "5b",
    "section": "Fluency",
    "stem": "For table a, fill in the missing numbers, then find each probability.",
@@ -129229,6 +129361,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-9b-table",
    "label": "5c",
    "section": "Fluency",
    "stem": "For table a, fill in the missing numbers, then find each probability.",
@@ -129238,6 +129371,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-9b-table",
    "label": "5d",
    "section": "Fluency",
    "stem": "For table a, fill in the missing numbers, then find each probability.",
@@ -129247,6 +129381,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y9-9b-table",
    "label": "5e",
    "section": "Fluency",
    "stem": "For table a, fill in the missing numbers, then find each probability.",
@@ -129256,6 +129391,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y9-9b-table",
    "label": "5f",
    "section": "Fluency",
    "stem": "For table a, fill in the missing numbers, then find each probability.",
@@ -129265,6 +129401,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5g",
+   "help": "y9-9b-table",
    "label": "5g",
    "section": "Fluency",
    "stem": "For table b, fill in the missing numbers, then find each probability.",
@@ -129303,6 +129440,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5h",
+   "help": "y9-9b-table",
    "label": "5h",
    "section": "Fluency",
    "stem": "For table b, fill in the missing numbers, then find each probability.",
@@ -129312,6 +129450,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5i",
+   "help": "y9-9b-table",
    "label": "5i",
    "section": "Fluency",
    "stem": "For table b, fill in the missing numbers, then find each probability.",
@@ -129321,6 +129460,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5j",
+   "help": "y9-9b-table",
    "label": "5j",
    "section": "Fluency",
    "stem": "For table b, fill in the missing numbers, then find each probability.",
@@ -129330,6 +129470,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5k",
+   "help": "y9-9b-table",
    "label": "5k",
    "section": "Fluency",
    "stem": "For table b, fill in the missing numbers, then find each probability.",
@@ -129339,6 +129480,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5l",
+   "help": "y9-9b-table",
    "label": "5l",
    "section": "Fluency",
    "stem": "For table b, fill in the missing numbers, then find each probability.",
@@ -129348,6 +129490,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-9b-convert",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "Fill in the missing numbers in table a, then transfer the information to the Venn diagram.",
@@ -129476,6 +129619,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-9b-convert",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "Fill in the missing numbers in table b, then transfer the information to the Venn diagram.",
@@ -129603,6 +129747,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-9b-venn-words",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "Of a group of $12$ friends, $7$ own a bike, $5$ own a scooter and $3$ own neither a bike nor a scooter.",
@@ -129700,6 +129845,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-9b-venn-words",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "Of a group of $12$ friends, $7$ own a bike, $5$ own a scooter and $3$ own neither a bike nor a scooter.",
@@ -129709,6 +129855,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-9b-venn-words",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "Of a group of $12$ friends, $7$ own a bike, $5$ own a scooter and $3$ own neither a bike nor a scooter.",
@@ -129718,6 +129865,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-9b-table",
    "label": "8a",
    "section": "Problem-solving",
    "stem": "One hundred and twenty households were asked how they heat water. Of these, $30$ said they use solar power, $70$ said they use mains gas, and $35$ said they use neither (they use something else).",
@@ -129761,6 +129909,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-9b-table",
    "label": "8b",
    "section": "Problem-solving",
    "stem": "One hundred and twenty households were asked how they heat water. Of these, $30$ said they use solar power, $70$ said they use mains gas, and $35$ said they use neither (they use something else).",
@@ -129770,6 +129919,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y9-9b-table",
    "label": "8c",
    "section": "Problem-solving",
    "stem": "One hundred and twenty households were asked how they heat water. Of these, $30$ said they use solar power, $70$ said they use mains gas, and $35$ said they use neither (they use something else).",
@@ -129779,6 +129929,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y9-9b-table",
    "label": "8d",
    "section": "Problem-solving",
    "stem": "One hundred and twenty households were asked how they heat water. Of these, $30$ said they use solar power, $70$ said they use mains gas, and $35$ said they use neither (they use something else).",
@@ -129788,6 +129939,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9",
+   "help": "y9-9b-venn-words",
    "label": "9",
    "section": "Problem-solving",
    "type": "numeric",
@@ -129796,6 +129948,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10",
+   "help": "y9-9b-venn-words",
    "label": "10",
    "section": "Problem-solving",
    "type": "numeric",
@@ -129804,6 +129957,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y9-9b-algebra",
    "label": "11a",
    "section": "Reasoning",
    "stem": "Complete the two-way table using the pronumerals $p$, $q$, $r$ and $s$, then transfer it to a Venn diagram.",
@@ -129843,6 +129997,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y9-9b-algebra",
    "label": "11b",
    "section": "Reasoning",
    "stem": "Complete the two-way table using the pronumerals $p$, $q$, $r$ and $s$, then transfer it to a Venn diagram.",
@@ -129852,6 +130007,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y9-9b-algebra",
    "label": "11c",
    "section": "Reasoning",
    "stem": "Complete the two-way table using the pronumerals $p$, $q$, $r$ and $s$, then transfer it to a Venn diagram.",
@@ -129861,6 +130017,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11d",
+   "help": "y9-9b-algebra",
    "label": "11d",
    "section": "Reasoning",
    "stem": "Complete the two-way table using the pronumerals $p$, $q$, $r$ and $s$, then transfer it to a Venn diagram.",
@@ -129870,6 +130027,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11e",
+   "help": "y9-9b-algebra",
    "label": "11e",
    "section": "Reasoning",
    "stem": "Complete the two-way table using the pronumerals $p$, $q$, $r$ and $s$, then transfer it to a Venn diagram.",
@@ -129879,6 +130037,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y9-9b-algebra",
    "label": "12a",
    "section": "Reasoning",
    "stem": "The total number of people in a survey is $T$. The number who play a sport is $x$ and the number who play a musical instrument is $y$. The number who play both a sport and an instrument is $z$. Write an expression, using any of $x$, $y$, $z$ and $T$, for the number who:",
@@ -129889,6 +130048,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y9-9b-algebra",
    "label": "12b",
    "section": "Reasoning",
    "stem": "The total number of people in a survey is $T$. The number who play a sport is $x$ and the number who play a musical instrument is $y$. The number who play both a sport and an instrument is $z$. Write an expression, using any of $x$, $y$, $z$ and $T$, for the number who:",
@@ -129898,6 +130058,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y9-9b-algebra",
    "label": "12c",
    "section": "Reasoning",
    "stem": "The total number of people in a survey is $T$. The number who play a sport is $x$ and the number who play a musical instrument is $y$. The number who play both a sport and an instrument is $z$. Write an expression, using any of $x$, $y$, $z$ and $T$, for the number who:",
@@ -129907,6 +130068,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12d",
+   "help": "y9-9b-algebra",
    "label": "12d",
    "section": "Reasoning",
    "stem": "The total number of people in a survey is $T$. The number who play a sport is $x$ and the number who play a musical instrument is $y$. The number who play both a sport and an instrument is $z$. Write an expression, using any of $x$, $y$, $z$ and $T$, for the number who:",
@@ -129916,6 +130078,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12e",
+   "help": "y9-9b-algebra",
    "label": "12e",
    "section": "Reasoning",
    "stem": "The total number of people in a survey is $T$. The number who play a sport is $x$ and the number who play a musical instrument is $y$. The number who play both a sport and an instrument is $z$. Write an expression, using any of $x$, $y$, $z$ and $T$, for the number who:",
@@ -129925,6 +130088,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12f",
+   "help": "y9-9b-algebra",
    "label": "12f",
    "section": "Reasoning",
    "stem": "The total number of people in a survey is $T$. The number who play a sport is $x$ and the number who play a musical instrument is $y$. The number who play both a sport and an instrument is $z$. Write an expression, using any of $x$, $y$, $z$ and $T$, for the number who:",
@@ -129934,6 +130098,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y9-9b-table",
    "label": "13a",
    "section": "Reasoning",
    "stem": "Here is a two-way table with some numbers filled in. Try to complete it.",
@@ -129972,6 +130137,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y9-9b-table",
    "label": "13b",
    "section": "Reasoning",
    "stem": "Here is a two-way table with some numbers filled in. Try to complete it.",
@@ -129986,6 +130152,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14",
+   "help": "y9-9b-table",
    "label": "14",
    "section": "Reasoning",
    "type": "numeric",
@@ -129994,6 +130161,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15a",
+   "help": "y9-9b-algebra",
    "label": "15a",
    "section": "Enrichment",
    "stem": "Two overlapping events, A and B, include $20$ elements altogether, with $0$ elements in the 'neither A nor B' region. How many elements are in the overlap (A and B) when:",
@@ -130071,6 +130239,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15b",
+   "help": "y9-9b-algebra",
    "label": "15b",
    "section": "Enrichment",
    "stem": "Two overlapping events, A and B, include $20$ elements altogether, with $0$ elements in the 'neither A nor B' region. How many elements are in the overlap (A and B) when:",
@@ -130080,6 +130249,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15c",
+   "help": "y9-9b-algebra",
    "label": "15c",
    "section": "Enrichment",
    "stem": "Two overlapping events, A and B, include $20$ elements altogether, with $0$ elements in the 'neither A nor B' region. How many elements are in the overlap (A and B) when:",
@@ -130089,6 +130259,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15d",
+   "help": "y9-9b-algebra",
    "label": "15d",
    "section": "Enrichment",
    "stem": "Two overlapping events, A and B, include $100$ elements altogether, with $0$ elements in the 'neither A nor B' region. How many elements are in the overlap (A and B) when:",
@@ -130166,6 +130337,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15e",
+   "help": "y9-9b-algebra",
    "label": "15e",
    "section": "Enrichment",
    "stem": "Two overlapping events, A and B, include $100$ elements altogether, with $0$ elements in the 'neither A nor B' region. How many elements are in the overlap (A and B) when:",
@@ -130175,6 +130347,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15f",
+   "help": "y9-9b-algebra",
    "label": "15f",
    "section": "Enrichment",
    "stem": "Two overlapping events, A and B, include $100$ elements altogether, with $0$ elements in the 'neither A nor B' region. How many elements are in the overlap (A and B) when:",
@@ -130184,6 +130357,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15g",
+   "help": "y9-9b-algebra",
    "label": "15g",
    "section": "Enrichment",
    "type": "expression",
@@ -130202,6 +130376,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-9c-list",
    "label": "1a",
    "section": "Fluency",
    "stem": "A number is chosen from the positive integers from $1$ to $14$ inclusive. $A$ is the set of odd numbers from $1$ to $14$, and $B$ is the set of prime numbers from $1$ to $14$.",
@@ -130227,6 +130402,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-9c-list",
    "label": "1b",
    "section": "Fluency",
    "stem": "A number is chosen from the positive integers from $1$ to $14$ inclusive. $A$ is the set of odd numbers from $1$ to $14$, and $B$ is the set of prime numbers from $1$ to $14$.",
@@ -130244,6 +130420,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-9c-list",
    "label": "1c",
    "section": "Fluency",
    "stem": "A number is chosen from the positive integers from $1$ to $14$ inclusive. $A$ is the set of odd numbers from $1$ to $14$, and $B$ is the set of prime numbers from $1$ to $14$.",
@@ -130260,6 +130437,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-9c-list",
    "label": "1d",
    "section": "Fluency",
    "stem": "A number is chosen from the positive integers from $1$ to $14$ inclusive. $A$ is the set of odd numbers from $1$ to $14$, and $B$ is the set of prime numbers from $1$ to $14$.",
@@ -130275,6 +130453,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-9c-list",
    "label": "1e",
    "section": "Fluency",
    "stem": "A number is chosen from the positive integers from $1$ to $14$ inclusive. $A$ is the set of odd numbers from $1$ to $14$, and $B$ is the set of prime numbers from $1$ to $14$.",
@@ -130293,6 +130472,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-9c-list",
    "label": "1f",
    "section": "Fluency",
    "stem": "A number is chosen from the positive integers from $1$ to $14$ inclusive. $A$ is the set of odd numbers from $1$ to $14$, and $B$ is the set of prime numbers from $1$ to $14$.",
@@ -130310,6 +130490,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1g",
+   "help": "y9-9c-list",
    "label": "1g",
    "section": "Fluency",
    "stem": "A number is chosen from the positive integers from $1$ to $14$ inclusive. $A$ is the set of odd numbers from $1$ to $14$, and $B$ is the set of prime numbers from $1$ to $14$.",
@@ -130321,6 +130502,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1h",
+   "help": "y9-9c-list",
    "label": "1h",
    "section": "Fluency",
    "stem": "A number is chosen from the positive integers from $1$ to $14$ inclusive. $A$ is the set of odd numbers from $1$ to $14$, and $B$ is the set of prime numbers from $1$ to $14$.",
@@ -130418,6 +130600,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1i",
+   "help": "y9-9c-list",
    "label": "1i",
    "section": "Fluency",
    "stem": "A number is chosen from the positive integers from $1$ to $14$ inclusive. $A$ is the set of odd numbers from $1$ to $14$, and $B$ is the set of prime numbers from $1$ to $14$.",
@@ -130427,6 +130610,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1j",
+   "help": "y9-9c-list",
    "label": "1j",
    "section": "Fluency",
    "stem": "A number is chosen from the positive integers from $1$ to $14$ inclusive. $A$ is the set of odd numbers from $1$ to $14$, and $B$ is the set of prime numbers from $1$ to $14$.",
@@ -130437,6 +130621,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1k",
+   "help": "y9-9c-list",
    "label": "1k",
    "section": "Fluency",
    "stem": "A number is chosen from the positive integers from $1$ to $14$ inclusive. $A$ is the set of odd numbers from $1$ to $14$, and $B$ is the set of prime numbers from $1$ to $14$.",
@@ -130446,6 +130631,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1l",
+   "help": "y9-9c-list",
    "label": "1l",
    "section": "Fluency",
    "stem": "A number is chosen from the positive integers from $1$ to $14$ inclusive. $A$ is the set of odd numbers from $1$ to $14$, and $B$ is the set of prime numbers from $1$ to $14$.",
@@ -130455,6 +130641,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-9c-list",
    "label": "2a",
    "section": "Fluency",
    "stem": "A number is chosen from the positive integers from $1$ to $18$ inclusive. $A$ is the set of multiples of $4$ that are less than $18$, and $B$ is the set of factors of $12$.",
@@ -130469,6 +130656,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-9c-list",
    "label": "2b",
    "section": "Fluency",
    "stem": "A number is chosen from the positive integers from $1$ to $18$ inclusive. $A$ is the set of multiples of $4$ that are less than $18$, and $B$ is the set of factors of $12$.",
@@ -130485,6 +130673,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-9c-list",
    "label": "2c",
    "section": "Fluency",
    "stem": "A number is chosen from the positive integers from $1$ to $18$ inclusive. $A$ is the set of multiples of $4$ that are less than $18$, and $B$ is the set of factors of $12$.",
@@ -130497,6 +130686,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-9c-list",
    "label": "2d",
    "section": "Fluency",
    "stem": "A number is chosen from the positive integers from $1$ to $18$ inclusive. $A$ is the set of multiples of $4$ that are less than $18$, and $B$ is the set of factors of $12$.",
@@ -130515,6 +130705,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-9c-list",
    "label": "2e",
    "section": "Fluency",
    "stem": "A number is chosen from the positive integers from $1$ to $18$ inclusive. $A$ is the set of multiples of $4$ that are less than $18$, and $B$ is the set of factors of $12$.",
@@ -130539,6 +130730,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-9c-list",
    "label": "2f",
    "section": "Fluency",
    "stem": "A number is chosen from the positive integers from $1$ to $18$ inclusive. $A$ is the set of multiples of $4$ that are less than $18$, and $B$ is the set of factors of $12$.",
@@ -130553,6 +130745,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y9-9c-list",
    "label": "2g",
    "section": "Fluency",
    "stem": "A number is chosen from the positive integers from $1$ to $18$ inclusive. $A$ is the set of multiples of $4$ that are less than $18$, and $B$ is the set of factors of $12$.",
@@ -130649,6 +130842,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y9-9c-list",
    "label": "2h",
    "section": "Fluency",
    "stem": "A number is chosen from the positive integers from $1$ to $18$ inclusive. $A$ is the set of multiples of $4$ that are less than $18$, and $B$ is the set of factors of $12$.",
@@ -130658,6 +130852,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2i",
+   "help": "y9-9c-list",
    "label": "2i",
    "section": "Fluency",
    "stem": "A number is chosen from the positive integers from $1$ to $18$ inclusive. $A$ is the set of multiples of $4$ that are less than $18$, and $B$ is the set of factors of $12$.",
@@ -130667,6 +130862,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2j",
+   "help": "y9-9c-list",
    "label": "2j",
    "section": "Fluency",
    "stem": "A number is chosen from the positive integers from $1$ to $18$ inclusive. $A$ is the set of multiples of $4$ that are less than $18$, and $B$ is the set of factors of $12$.",
@@ -130676,6 +130872,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2k",
+   "help": "y9-9c-list",
    "label": "2k",
    "section": "Fluency",
    "stem": "A number is chosen from the positive integers from $1$ to $18$ inclusive. $A$ is the set of multiples of $4$ that are less than $18$, and $B$ is the set of factors of $12$.",
@@ -130685,6 +130882,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2l",
+   "help": "y9-9c-list",
    "label": "2l",
    "section": "Fluency",
    "stem": "A number is chosen from the positive integers from $1$ to $18$ inclusive. $A$ is the set of multiples of $4$ that are less than $18$, and $B$ is the set of factors of $12$.",
@@ -130694,6 +130892,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2m",
+   "help": "y9-9c-list",
    "label": "2m",
    "section": "Fluency",
    "stem": "A number is chosen from the positive integers from $1$ to $18$ inclusive. $A$ is the set of multiples of $4$ that are less than $18$, and $B$ is the set of factors of $12$.",
@@ -130703,6 +130902,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-9c-symbols",
    "label": "3a",
    "section": "Fluency",
    "stem": "Consider the sample space $\\Omega = \\{1, 2, 3, 4, 5, 6, 7\\}$ and the sets $A = \\{2, 5, 7\\}$ and $B = \\{1, 3, 4, 6\\}$. Is each statement true or false?",
@@ -130716,6 +130916,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-9c-symbols",
    "label": "3b",
    "section": "Fluency",
    "stem": "Consider the sample space $\\Omega = \\{1, 2, 3, 4, 5, 6, 7\\}$ and the sets $A = \\{2, 5, 7\\}$ and $B = \\{1, 3, 4, 6\\}$. Is each statement true or false?",
@@ -130729,6 +130930,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-9c-symbols",
    "label": "3c",
    "section": "Fluency",
    "stem": "Consider the sample space $\\Omega = \\{1, 2, 3, 4, 5, 6, 7\\}$ and the sets $A = \\{2, 5, 7\\}$ and $B = \\{1, 3, 4, 6\\}$. Is each statement true or false?",
@@ -130742,6 +130944,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-9c-symbols",
    "label": "3d",
    "section": "Fluency",
    "stem": "Consider the sample space $\\Omega = \\{1, 2, 3, 4, 5, 6, 7\\}$ and the sets $A = \\{2, 5, 7\\}$ and $B = \\{1, 3, 4, 6\\}$. Is each statement true or false?",
@@ -130755,6 +130958,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-9c-symbols",
    "label": "3e",
    "section": "Fluency",
    "stem": "Consider the sample space $\\Omega = \\{1, 2, 3, 4, 5, 6, 7\\}$ and the sets $A = \\{2, 5, 7\\}$ and $B = \\{1, 3, 4, 6\\}$. Is each statement true or false?",
@@ -130768,6 +130972,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-9c-symbols",
    "label": "3f",
    "section": "Fluency",
    "stem": "Consider the sample space $\\Omega = \\{1, 2, 3, 4, 5, 6, 7\\}$ and the sets $A = \\{2, 5, 7\\}$ and $B = \\{1, 3, 4, 6\\}$. Is each statement true or false?",
@@ -130781,6 +130986,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3g",
+   "help": "y9-9c-symbols",
    "label": "3g",
    "section": "Fluency",
    "stem": "Consider the sample space $\\Omega = \\{1, 2, 3, 4, 5, 6, 7\\}$ and the sets $A = \\{2, 5, 7\\}$ and $B = \\{1, 3, 4, 6\\}$. Is each statement true or false?",
@@ -130794,6 +131000,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3h",
+   "help": "y9-9c-symbols",
    "label": "3h",
    "section": "Fluency",
    "stem": "Consider the sample space $\\Omega = \\{1, 2, 3, 4, 5, 6, 7\\}$ and the sets $A = \\{2, 5, 7\\}$ and $B = \\{1, 3, 4, 6\\}$. Is each statement true or false?",
@@ -130807,6 +131014,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3i",
+   "help": "y9-9c-symbols",
    "label": "3i",
    "section": "Fluency",
    "stem": "For the same sets $\\Omega = \\{1, 2, 3, 4, 5, 6, 7\\}$, $A = \\{2, 5, 7\\}$ and $B = \\{1, 3, 4, 6\\}$, find each probability.",
@@ -130816,6 +131024,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3j",
+   "help": "y9-9c-symbols",
    "label": "3j",
    "section": "Fluency",
    "stem": "For the same sets $\\Omega = \\{1, 2, 3, 4, 5, 6, 7\\}$, $A = \\{2, 5, 7\\}$ and $B = \\{1, 3, 4, 6\\}$, find each probability.",
@@ -130825,6 +131034,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3k",
+   "help": "y9-9c-symbols",
    "label": "3k",
    "section": "Fluency",
    "stem": "For the same sets $\\Omega = \\{1, 2, 3, 4, 5, 6, 7\\}$, $A = \\{2, 5, 7\\}$ and $B = \\{1, 3, 4, 6\\}$, find each probability.",
@@ -130834,6 +131044,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-9c-diagram",
    "label": "4a",
    "section": "Fluency",
    "stem": "For diagram a, find each probability.",
@@ -130925,6 +131136,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-9c-diagram",
    "label": "4b",
    "section": "Fluency",
    "stem": "For diagram a, find each probability.",
@@ -130934,6 +131146,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-9c-diagram",
    "label": "4c",
    "section": "Fluency",
    "stem": "For diagram a, find each probability.",
@@ -130943,6 +131156,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-9c-diagram",
    "label": "4d",
    "section": "Fluency",
    "stem": "For diagram b, find each probability.",
@@ -131034,6 +131248,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y9-9c-diagram",
    "label": "4e",
    "section": "Fluency",
    "stem": "For diagram b, find each probability.",
@@ -131043,6 +131258,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y9-9c-diagram",
    "label": "4f",
    "section": "Fluency",
    "stem": "For diagram b, find each probability.",
@@ -131052,6 +131268,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4g",
+   "help": "y9-9c-diagram",
    "label": "4g",
    "section": "Fluency",
    "stem": "For table c, find each probability (fill in the missing numbers first).",
@@ -131090,6 +131307,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4h",
+   "help": "y9-9c-diagram",
    "label": "4h",
    "section": "Fluency",
    "stem": "For table c, find each probability (fill in the missing numbers first).",
@@ -131099,6 +131317,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4i",
+   "help": "y9-9c-diagram",
    "label": "4i",
    "section": "Fluency",
    "stem": "For table c, find each probability (fill in the missing numbers first).",
@@ -131108,6 +131327,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4j",
+   "help": "y9-9c-diagram",
    "label": "4j",
    "section": "Fluency",
    "stem": "For table d, find each probability (fill in the missing numbers first).",
@@ -131146,6 +131366,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4k",
+   "help": "y9-9c-diagram",
    "label": "4k",
    "section": "Fluency",
    "stem": "For table d, find each probability (fill in the missing numbers first).",
@@ -131155,6 +131376,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4l",
+   "help": "y9-9c-diagram",
    "label": "4l",
    "section": "Fluency",
    "stem": "For table d, find each probability (fill in the missing numbers first).",
@@ -131164,6 +131386,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-9c-list",
    "label": "5a",
    "section": "Problem-solving",
    "stem": "Four students are named PETER, TOM, BETH and OWEN. The sets are $A$ = {students with a name including the letter T}, $B$ = {students with a name including the letter E} and $C$ = {students with a name including the letter Q}.",
@@ -131178,6 +131401,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-9c-list",
    "label": "5b",
    "section": "Problem-solving",
    "stem": "Four students are named PETER, TOM, BETH and OWEN. The sets are $A$ = {students with a name including the letter T}, $B$ = {students with a name including the letter E} and $C$ = {students with a name including the letter Q}.",
@@ -131191,6 +131415,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-9c-list",
    "label": "5c",
    "section": "Problem-solving",
    "stem": "Four students are named PETER, TOM, BETH and OWEN. The sets are $A$ = {students with a name including the letter T}, $B$ = {students with a name including the letter E} and $C$ = {students with a name including the letter Q}.",
@@ -131200,6 +131425,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-9c-list",
    "label": "5d",
    "section": "Problem-solving",
    "stem": "Four students are named PETER, TOM, BETH and OWEN. The sets are $A$ = {students with a name including the letter T}, $B$ = {students with a name including the letter E} and $C$ = {students with a name including the letter Q}.",
@@ -131212,6 +131438,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y9-9c-list",
    "label": "5e",
    "section": "Problem-solving",
    "stem": "Four students are named PETER, TOM, BETH and OWEN. The sets are $A$ = {students with a name including the letter T}, $B$ = {students with a name including the letter E} and $C$ = {students with a name including the letter Q}.",
@@ -131221,6 +131448,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y9-9c-list",
    "label": "5f",
    "section": "Problem-solving",
    "stem": "Four students are named PETER, TOM, BETH and OWEN. The sets are $A$ = {students with a name including the letter T}, $B$ = {students with a name including the letter E} and $C$ = {students with a name including the letter Q}.",
@@ -131230,6 +131458,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5g",
+   "help": "y9-9c-list",
    "label": "5g",
    "section": "Problem-solving",
    "stem": "Four students are named PETER, TOM, BETH and OWEN. The sets are $A$ = {students with a name including the letter T}, $B$ = {students with a name including the letter E} and $C$ = {students with a name including the letter Q}.",
@@ -131239,6 +131468,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5h",
+   "help": "y9-9c-list",
    "label": "5h",
    "section": "Problem-solving",
    "stem": "Four students are named PETER, TOM, BETH and OWEN. The sets are $A$ = {students with a name including the letter T}, $B$ = {students with a name including the letter E} and $C$ = {students with a name including the letter Q}.",
@@ -131248,6 +131478,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5i",
+   "help": "y9-9c-list",
    "label": "5i",
    "section": "Problem-solving",
    "stem": "Four students are named PETER, TOM, BETH and OWEN. The sets are $A$ = {students with a name including the letter T}, $B$ = {students with a name including the letter E} and $C$ = {students with a name including the letter Q}.",
@@ -131257,6 +131488,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5j",
+   "help": "y9-9c-list",
    "label": "5j",
    "section": "Problem-solving",
    "stem": "Four students are named PETER, TOM, BETH and OWEN. The sets are $A$ = {students with a name including the letter T}, $B$ = {students with a name including the letter E} and $C$ = {students with a name including the letter Q}.",
@@ -131266,6 +131498,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-9c-list",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "Consider all $26$ letters of the alphabet. Let $A$ = {the set of vowels} and $B$ = {the different letters of the word GEOGRAPHY}. Find:",
@@ -131275,6 +131508,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-9c-list",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "Consider all $26$ letters of the alphabet. Let $A$ = {the set of vowels} and $B$ = {the different letters of the word GEOGRAPHY}. Find:",
@@ -131284,6 +131518,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y9-9c-list",
    "label": "6c",
    "section": "Problem-solving",
    "stem": "Consider all $26$ letters of the alphabet. Let $A$ = {the set of vowels} and $B$ = {the different letters of the word GEOGRAPHY}. Find:",
@@ -131293,6 +131528,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y9-9c-list",
    "label": "6d",
    "section": "Problem-solving",
    "stem": "Consider all $26$ letters of the alphabet. Let $A$ = {the set of vowels} and $B$ = {the different letters of the word GEOGRAPHY}. Find:",
@@ -131302,6 +131538,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6e",
+   "help": "y9-9c-list",
    "label": "6e",
    "section": "Problem-solving",
    "stem": "Consider all $26$ letters of the alphabet. Let $A$ = {the set of vowels} and $B$ = {the different letters of the word GEOGRAPHY}. Find:",
@@ -131311,6 +131548,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6f",
+   "help": "y9-9c-list",
    "label": "6f",
    "section": "Problem-solving",
    "stem": "Consider all $26$ letters of the alphabet. Let $A$ = {the set of vowels} and $B$ = {the different letters of the word GEOGRAPHY}. Find:",
@@ -131320,6 +131558,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6g",
+   "help": "y9-9c-list",
    "label": "6g",
    "section": "Problem-solving",
    "stem": "Consider all $26$ letters of the alphabet. Let $A$ = {the set of vowels} and $B$ = {the different letters of the word GEOGRAPHY}. Find:",
@@ -131329,6 +131568,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6h",
+   "help": "y9-9c-list",
    "label": "6h",
    "section": "Problem-solving",
    "stem": "Consider all $26$ letters of the alphabet. Let $A$ = {the set of vowels} and $B$ = {the different letters of the word GEOGRAPHY}. Find:",
@@ -131338,6 +131578,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-9c-formula",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "Each of $60$ teenagers owns a bike or a skateboard (or both). Let $A$ be the set who own a bike and $B$ the set who own a skateboard. If $n(A) = 41$ and $n(B) = 33$, find:",
@@ -131347,6 +131588,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-9c-formula",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "Each of $60$ teenagers owns a bike or a skateboard (or both). Let $A$ be the set who own a bike and $B$ the set who own a skateboard. If $n(A) = 41$ and $n(B) = 33$, find:",
@@ -131356,6 +131598,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-9c-formula",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "Each of $60$ teenagers owns a bike or a skateboard (or both). Let $A$ be the set who own a bike and $B$ the set who own a skateboard. If $n(A) = 41$ and $n(B) = 33$, find:",
@@ -131365,6 +131608,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y9-9c-formula",
    "label": "7d",
    "section": "Problem-solving",
    "stem": "Each of $60$ teenagers owns a bike or a skateboard (or both). Let $A$ be the set who own a bike and $B$ the set who own a skateboard. If $n(A) = 41$ and $n(B) = 33$, find:",
@@ -131374,6 +131618,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-9c-symbols",
    "label": "8a",
    "section": "Reasoning",
    "stem": "In Question 7, $A$ is the set of bike owners and $B$ is the set of skateboard owners. Which description matches each group?",
@@ -131390,6 +131635,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-9c-symbols",
    "label": "8b",
    "section": "Reasoning",
    "stem": "In Question 7, $A$ is the set of bike owners and $B$ is the set of skateboard owners. Which description matches each group?",
@@ -131406,6 +131652,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y9-9c-symbols",
    "label": "8c",
    "section": "Reasoning",
    "stem": "In Question 7, $A$ is the set of bike owners and $B$ is the set of skateboard owners. Which description matches each group?",
@@ -131422,6 +131669,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y9-9c-symbols",
    "label": "8d",
    "section": "Reasoning",
    "stem": "In Question 7, $A$ is the set of bike owners and $B$ is the set of skateboard owners. Which description matches each group?",
@@ -131438,6 +131686,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9",
+   "help": "y9-9c-symbols",
    "label": "9",
    "section": "Reasoning",
    "type": "choice",
@@ -131452,6 +131701,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y9-9c-formula",
    "label": "10a",
    "section": "Reasoning",
    "type": "choice",
@@ -131464,6 +131714,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y9-9c-formula",
    "label": "10b",
    "section": "Reasoning",
    "type": "choice",
@@ -131476,6 +131727,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y9-9c-symbols",
    "label": "11a",
    "section": "Reasoning",
    "stem": "The four inner cells of a two-way table can be described with intersections. The cell for 'A and not B' is $n(A \\cap B')$. Which intersection describes each lettered cell?",
@@ -131520,6 +131772,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y9-9c-symbols",
    "label": "11b",
    "section": "Reasoning",
    "stem": "The four inner cells of a two-way table can be described with intersections. The cell for 'A and not B' is $n(A \\cap B')$. Which intersection describes each lettered cell?",
@@ -131535,6 +131788,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y9-9c-symbols",
    "label": "11c",
    "section": "Reasoning",
    "stem": "The four inner cells of a two-way table can be described with intersections. The cell for 'A and not B' is $n(A \\cap B')$. Which intersection describes each lettered cell?",
@@ -131550,6 +131804,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y9-9c-list",
    "label": "13a",
    "section": "Enrichment",
    "stem": "Consider the set of integers $\\{1, 2, 3, \\ldots, 18\\}$. Let $A$ = {prime numbers less than $18$} and $B$ = {factors of $18$}. List each set.",
@@ -131568,6 +131823,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y9-9c-list",
    "label": "13b",
    "section": "Enrichment",
    "stem": "Consider the set of integers $\\{1, 2, 3, \\ldots, 18\\}$. Let $A$ = {prime numbers less than $18$} and $B$ = {factors of $18$}. List each set.",
@@ -131584,6 +131840,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13c",
+   "help": "y9-9c-list",
    "label": "13c",
    "section": "Enrichment",
    "stem": "Consider the set of integers $\\{1, 2, 3, \\ldots, 18\\}$. Let $A$ = {prime numbers less than $18$} and $B$ = {factors of $18$}. List each set.",
@@ -131596,6 +131853,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13d",
+   "help": "y9-9c-list",
    "label": "13d",
    "section": "Enrichment",
    "stem": "Consider the set of integers $\\{1, 2, 3, \\ldots, 18\\}$. Let $A$ = {prime numbers less than $18$} and $B$ = {factors of $18$}. List each set.",
@@ -131617,6 +131875,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13e",
+   "help": "y9-9c-list",
    "label": "13e",
    "section": "Enrichment",
    "stem": "Consider the set of integers $\\{1, 2, 3, \\ldots, 18\\}$. Let $A$ = {prime numbers less than $18$} and $B$ = {factors of $18$}. List each set.",
@@ -131631,6 +131890,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13f",
+   "help": "y9-9c-list",
    "label": "13f",
    "section": "Enrichment",
    "stem": "Consider the set of integers $\\{1, 2, 3, \\ldots, 18\\}$. Let $A$ = {prime numbers less than $18$} and $B$ = {factors of $18$}. List each set.",
@@ -131646,6 +131906,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13g",
+   "help": "y9-9c-list",
    "label": "13g",
    "section": "Enrichment",
    "stem": "Consider the set of integers $\\{1, 2, 3, \\ldots, 18\\}$. Let $A$ = {prime numbers less than $18$} and $B$ = {factors of $18$}. List each set.",
@@ -131669,6 +131930,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13h",
+   "help": "y9-9c-list",
    "label": "13h",
    "section": "Enrichment",
    "stem": "Consider the set of integers $\\{1, 2, 3, \\ldots, 18\\}$. Let $A$ = {prime numbers less than $18$} and $B$ = {factors of $18$}. List each set.",
@@ -131693,6 +131955,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13i",
+   "help": "y9-9c-list",
    "label": "13i",
    "section": "Enrichment",
    "stem": "Consider the set of integers $\\{1, 2, 3, \\ldots, 18\\}$. Let $A$ = {prime numbers less than $18$} and $B$ = {factors of $18$}. List each set.",
@@ -131719,6 +131982,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13j",
+   "help": "y9-9c-list",
    "label": "13j",
    "section": "Enrichment",
    "stem": "For the same sets ($\\Omega = \\{1, 2, \\ldots, 18\\}$, $A$ = primes less than $18$, $B$ = factors of $18$), find each probability.",
@@ -131728,6 +131992,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13k",
+   "help": "y9-9c-list",
    "label": "13k",
    "section": "Enrichment",
    "stem": "For the same sets ($\\Omega = \\{1, 2, \\ldots, 18\\}$, $A$ = primes less than $18$, $B$ = factors of $18$), find each probability.",
@@ -131737,6 +132002,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13l",
+   "help": "y9-9c-list",
    "label": "13l",
    "section": "Enrichment",
    "stem": "For the same sets ($\\Omega = \\{1, 2, \\ldots, 18\\}$, $A$ = primes less than $18$, $B$ = factors of $18$), find each probability.",
@@ -131746,6 +132012,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13m",
+   "help": "y9-9c-list",
    "label": "13m",
    "section": "Enrichment",
    "stem": "For the same sets ($\\Omega = \\{1, 2, \\ldots, 18\\}$, $A$ = primes less than $18$, $B$ = factors of $18$), find each probability.",
@@ -131755,6 +132022,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13n",
+   "help": "y9-9c-list",
    "label": "13n",
    "section": "Enrichment",
    "stem": "For the same sets ($\\Omega = \\{1, 2, \\ldots, 18\\}$, $A$ = primes less than $18$, $B$ = factors of $18$), find each probability.",
@@ -131764,6 +132032,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13o",
+   "help": "y9-9c-list",
    "label": "13o",
    "section": "Enrichment",
    "stem": "For the same sets ($\\Omega = \\{1, 2, \\ldots, 18\\}$, $A$ = primes less than $18$, $B$ = factors of $18$), find each probability.",
@@ -131773,6 +132042,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13p",
+   "help": "y9-9c-list",
    "label": "13p",
    "section": "Enrichment",
    "stem": "For the same sets ($\\Omega = \\{1, 2, \\ldots, 18\\}$, $A$ = primes less than $18$, $B$ = factors of $18$), find each probability.",
@@ -131782,6 +132052,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13q",
+   "help": "y9-9c-list",
    "label": "13q",
    "section": "Enrichment",
    "stem": "For the same sets ($\\Omega = \\{1, 2, \\ldots, 18\\}$, $A$ = primes less than $18$, $B$ = factors of $18$), find each probability.",
@@ -131791,6 +132062,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13r",
+   "help": "y9-9c-list",
    "label": "13r",
    "section": "Enrichment",
    "type": "choice",
@@ -131812,6 +132084,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-9d-array",
    "label": "1a",
    "section": "Fluency",
    "stem": "A spinner with five equal sections numbered $1$ to $5$ is spun twice. The table will show every outcome as (1st spin, 2nd spin).",
@@ -131875,6 +132148,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-9d-array",
    "label": "1b",
    "section": "Fluency",
    "stem": "A spinner with five equal sections numbered $1$ to $5$ is spun twice. The table will show every outcome as (1st spin, 2nd spin).",
@@ -131884,6 +132158,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-9d-array",
    "label": "1c",
    "section": "Fluency",
    "stem": "A spinner with five equal sections numbered $1$ to $5$ is spun twice. The table will show every outcome as (1st spin, 2nd spin).",
@@ -131894,6 +132169,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-9d-array",
    "label": "1d",
    "section": "Fluency",
    "stem": "A spinner with five equal sections numbered $1$ to $5$ is spun twice. The table will show every outcome as (1st spin, 2nd spin).",
@@ -131903,6 +132179,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-9d-array",
    "label": "1e",
    "section": "Fluency",
    "stem": "A spinner with five equal sections numbered $1$ to $5$ is spun twice. The table will show every outcome as (1st spin, 2nd spin).",
@@ -131912,6 +132189,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-9d-array",
    "label": "1f",
    "section": "Fluency",
    "stem": "A spinner with five equal sections numbered $1$ to $5$ is spun twice. The table will show every outcome as (1st spin, 2nd spin).",
@@ -131921,6 +132199,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-9d-array",
    "label": "2a",
    "section": "Fluency",
    "stem": "Bag A holds one green and two white counters. Bag B holds two green counters and one white counter. One counter is taken from each bag, and the result is written as (Bag A colour, Bag B colour).",
@@ -131959,6 +132238,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-9d-array",
    "label": "2b",
    "section": "Fluency",
    "stem": "Bag A holds one green and two white counters. Bag B holds two green counters and one white counter. One counter is taken from each bag, and the result is written as (Bag A colour, Bag B colour).",
@@ -131968,6 +132248,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-9d-array",
    "label": "2c",
    "section": "Fluency",
    "stem": "Bag A holds one green and two white counters. Bag B holds two green counters and one white counter. One counter is taken from each bag, and the result is written as (Bag A colour, Bag B colour).",
@@ -131977,6 +132258,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-9d-array",
    "label": "2d",
    "section": "Fluency",
    "stem": "Bag A holds one green and two white counters. Bag B holds two green counters and one white counter. One counter is taken from each bag, and the result is written as (Bag A colour, Bag B colour).",
@@ -131986,6 +132268,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-9d-without",
    "label": "3a",
    "section": "Fluency",
    "stem": "Two letters are chosen at random from the word SUN, without replacement. Outcomes are written as (1st letter, 2nd letter).",
@@ -132024,6 +132307,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-9d-without",
    "label": "3b",
    "section": "Fluency",
    "stem": "Two letters are chosen at random from the word SUN, without replacement. Outcomes are written as (1st letter, 2nd letter).",
@@ -132033,6 +132317,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-9d-without",
    "label": "3c",
    "section": "Fluency",
    "stem": "Two letters are chosen at random from the word SUN, without replacement. Outcomes are written as (1st letter, 2nd letter).",
@@ -132042,6 +132327,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-9d-without",
    "label": "4a",
    "section": "Fluency",
    "stem": "Two digits are chosen at random, without replacement, from the set $\\{1, 2, 3, 4, 5\\}$. Outcomes are written as (1st digit, 2nd digit), and doubles such as $(1, 1)$ are not possible.",
@@ -132051,6 +132337,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-9d-without",
    "label": "4b",
    "section": "Fluency",
    "stem": "Two digits are chosen at random, without replacement, from the set $\\{1, 2, 3, 4, 5\\}$. Outcomes are written as (1st digit, 2nd digit), and doubles such as $(1, 1)$ are not possible.",
@@ -132060,6 +132347,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-9d-without",
    "label": "4c",
    "section": "Fluency",
    "stem": "Two digits are chosen at random, without replacement, from the set $\\{1, 2, 3, 4, 5\\}$. Outcomes are written as (1st digit, 2nd digit), and doubles such as $(1, 1)$ are not possible.",
@@ -132069,6 +132357,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-9d-without",
    "label": "4d",
    "section": "Fluency",
    "stem": "Two digits are chosen at random, without replacement, from the set $\\{1, 2, 3, 4, 5\\}$. Outcomes are written as (1st digit, 2nd digit), and doubles such as $(1, 1)$ are not possible.",
@@ -132078,6 +132367,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y9-9d-without",
    "label": "4e",
    "section": "Fluency",
    "stem": "Two digits are chosen at random, without replacement, from the set $\\{1, 2, 3, 4, 5\\}$. Outcomes are written as (1st digit, 2nd digit), and doubles such as $(1, 1)$ are not possible.",
@@ -132087,6 +132377,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y9-9d-without",
    "label": "4f",
    "section": "Fluency",
    "stem": "Two digits are chosen at random, without replacement, from the set $\\{1, 2, 3, 4, 5\\}$. Outcomes are written as (1st digit, 2nd digit), and doubles such as $(1, 1)$ are not possible.",
@@ -132096,6 +132387,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4g",
+   "help": "y9-9d-without",
    "label": "4g",
    "section": "Fluency",
    "stem": "Two digits are chosen at random, without replacement, from the set $\\{1, 2, 3, 4, 5\\}$. Outcomes are written as (1st digit, 2nd digit), and doubles such as $(1, 1)$ are not possible.",
@@ -132105,6 +132397,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-9d-totals",
    "label": "5a",
    "section": "Problem-solving",
    "stem": "Two four-sided dice, each with faces numbered $0$, $1$, $2$ and $3$, are rolled and the total is recorded.",
@@ -132154,6 +132447,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-9d-totals",
    "label": "5b",
    "section": "Problem-solving",
    "stem": "Two four-sided dice, each with faces numbered $0$, $1$, $2$ and $3$, are rolled and the total is recorded.",
@@ -132163,6 +132457,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-9d-totals",
    "label": "5c",
    "section": "Problem-solving",
    "stem": "Two four-sided dice, each with faces numbered $0$, $1$, $2$ and $3$, are rolled and the total is recorded.",
@@ -132172,6 +132467,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-9d-totals",
    "label": "5d",
    "section": "Problem-solving",
    "stem": "Two four-sided dice, each with faces numbered $0$, $1$, $2$ and $3$, are rolled and the total is recorded.",
@@ -132181,6 +132477,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y9-9d-totals",
    "label": "5e",
    "section": "Problem-solving",
    "stem": "Two four-sided dice, each with faces numbered $0$, $1$, $2$ and $3$, are rolled and the total is recorded.",
@@ -132190,6 +132487,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y9-9d-totals",
    "label": "5f",
    "section": "Problem-solving",
    "stem": "Two four-sided dice, each with faces numbered $0$, $1$, $2$ and $3$, are rolled and the total is recorded.",
@@ -132199,6 +132497,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-9d-array",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "Kofi guesses the answers to two multiple-choice questions. Each question has options A, B, C and D, and each question has exactly one correct option.",
@@ -132208,6 +132507,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-9d-array",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "Kofi guesses the answers to two multiple-choice questions. Each question has options A, B, C and D, and each question has exactly one correct option.",
@@ -132217,6 +132517,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y9-9d-array",
    "label": "6c",
    "section": "Problem-solving",
    "stem": "Kofi guesses the answers to two multiple-choice questions. Each question has options A, B, C and D, and each question has exactly one correct option.",
@@ -132226,6 +132527,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y9-9d-array",
    "label": "6d",
    "section": "Problem-solving",
    "stem": "Kofi guesses the answers to two multiple-choice questions. Each question has options A, B, C and D, and each question has exactly one correct option.",
@@ -132235,6 +132537,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6e",
+   "help": "y9-9d-array",
    "label": "6e",
    "section": "Problem-solving",
    "stem": "Kofi guesses the answers to two multiple-choice questions. Each question has options A, B, C and D, and each question has exactly one correct option.",
@@ -132244,6 +132547,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6f",
+   "help": "y9-9d-array",
    "label": "6f",
    "section": "Problem-solving",
    "stem": "Kofi guesses the answers to two multiple-choice questions. Each question has options A, B, C and D, and each question has exactly one correct option.",
@@ -132253,6 +132557,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-9d-totals",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "Two fair six-sided dice are rolled and their numbers are added. Use a table to find the probability that the total is:",
@@ -132262,6 +132567,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-9d-totals",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "Two fair six-sided dice are rolled and their numbers are added. Use a table to find the probability that the total is:",
@@ -132271,6 +132577,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-9d-totals",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "Two fair six-sided dice are rolled and their numbers are added. Use a table to find the probability that the total is:",
@@ -132280,6 +132587,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y9-9d-totals",
    "label": "7d",
    "section": "Problem-solving",
    "stem": "Two fair six-sided dice are rolled and their numbers are added. Use a table to find the probability that the total is:",
@@ -132289,6 +132597,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7e",
+   "help": "y9-9d-totals",
    "label": "7e",
    "section": "Problem-solving",
    "stem": "Two fair six-sided dice are rolled and their numbers are added. Use a table to find the probability that the total is:",
@@ -132298,6 +132607,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7f",
+   "help": "y9-9d-totals",
    "label": "7f",
    "section": "Problem-solving",
    "stem": "Two fair six-sided dice are rolled and their numbers are added. Use a table to find the probability that the total is:",
@@ -132307,6 +132617,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7g",
+   "help": "y9-9d-totals",
    "label": "7g",
    "section": "Problem-solving",
    "stem": "Two fair six-sided dice are rolled and their numbers are added. Use a table to find the probability that the total is:",
@@ -132316,6 +132627,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7h",
+   "help": "y9-9d-totals",
    "label": "7h",
    "section": "Problem-solving",
    "stem": "Two fair six-sided dice are rolled and their numbers are added. Use a table to find the probability that the total is:",
@@ -132325,6 +132637,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7i",
+   "help": "y9-9d-totals",
    "label": "7i",
    "section": "Problem-solving",
    "stem": "Two fair six-sided dice are rolled and their numbers are added.",
@@ -132334,6 +132647,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7j",
+   "help": "y9-9d-totals",
    "label": "7j",
    "section": "Problem-solving",
    "stem": "Two fair six-sided dice are rolled and their numbers are added.",
@@ -132343,6 +132657,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-9d-without",
    "label": "8a",
    "section": "Reasoning",
    "stem": "Two letters are chosen at random from the word CHOCOLATE.",
@@ -132352,6 +132667,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-9d-without",
    "label": "8b",
    "section": "Reasoning",
    "stem": "Two letters are chosen at random from the word CHOCOLATE.",
@@ -132361,6 +132677,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y9-9d-without",
    "label": "8c",
    "section": "Reasoning",
    "stem": "Two letters are chosen at random from the word CHOCOLATE.",
@@ -132370,6 +132687,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y9-9d-without",
    "label": "8d",
    "section": "Reasoning",
    "stem": "Two letters are chosen at random from the word CHOCOLATE.",
@@ -132379,6 +132697,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9",
+   "help": "y9-9d-without",
    "label": "9",
    "section": "Reasoning",
    "type": "choice",
@@ -132391,6 +132710,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y9-9d-without",
    "label": "10a",
    "section": "Reasoning",
    "stem": "A bag holds four counters, each a different colour: red (R), green (G), blue (B) and white (W).",
@@ -132400,6 +132720,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y9-9d-without",
    "label": "10b",
    "section": "Reasoning",
    "stem": "A bag holds four counters, each a different colour: red (R), green (G), blue (B) and white (W).",
@@ -132409,6 +132730,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11",
+   "help": "y9-9d-totals",
    "label": "11",
    "section": "Reasoning",
    "type": "list",
@@ -132422,6 +132744,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y9-9d-totals",
    "label": "12a",
    "section": "Reasoning",
    "stem": "A spinner numbered $1$ to $40$, with equal sectors, is spun twice. Find the probability that the total of the two spins is:",
@@ -132431,6 +132754,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y9-9d-totals",
    "label": "12b",
    "section": "Reasoning",
    "stem": "A spinner numbered $1$ to $40$, with equal sectors, is spun twice. Find the probability that the total of the two spins is:",
@@ -132440,6 +132764,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y9-9d-totals",
    "label": "12c",
    "section": "Reasoning",
    "stem": "A spinner numbered $1$ to $40$, with equal sectors, is spun twice. Find the probability that the total of the two spins is:",
@@ -132449,6 +132774,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12d",
+   "help": "y9-9d-totals",
    "label": "12d",
    "section": "Reasoning",
    "stem": "A spinner numbered $1$ to $40$, with equal sectors, is spun twice. Find the probability that the total of the two spins is:",
@@ -132458,6 +132784,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12e",
+   "help": "y9-9d-totals",
    "label": "12e",
    "section": "Reasoning",
    "stem": "A spinner numbered $1$ to $40$, with equal sectors, is spun twice. Find the probability that the total of the two spins is:",
@@ -132467,6 +132794,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y9-9d-without",
    "label": "13a",
    "section": "Enrichment",
    "stem": "Two cards are dealt to you from a standard pack of $52$ playing cards (four suits, hearts, diamonds, clubs and spades, each with $2$ to $10$, J, Q, K and A). You keep both cards. Count the first card and the second card in order.",
@@ -132480,6 +132808,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y9-9d-without",
    "label": "13b",
    "section": "Enrichment",
    "stem": "Two cards are dealt to you from a standard pack of $52$ playing cards (four suits, hearts, diamonds, clubs and spades, each with $2$ to $10$, J, Q, K and A). You keep both cards. Count the first card and the second card in order.",
@@ -132489,6 +132818,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13c",
+   "help": "y9-9d-without",
    "label": "13c",
    "section": "Enrichment",
    "stem": "Two cards are dealt to you from a standard pack of $52$ playing cards (four suits, hearts, diamonds, clubs and spades, each with $2$ to $10$, J, Q, K and A). You keep both cards. Count the first card and the second card in order.",
@@ -132498,6 +132828,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13d",
+   "help": "y9-9d-without",
    "label": "13d",
    "section": "Enrichment",
    "stem": "Two cards are dealt to you from a standard pack of $52$ playing cards (four suits, hearts, diamonds, clubs and spades, each with $2$ to $10$, J, Q, K and A). You keep both cards. Count the first card and the second card in order.",
@@ -132507,6 +132838,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13e",
+   "help": "y9-9d-without",
    "label": "13e",
    "section": "Enrichment",
    "stem": "Two cards are dealt to you from a standard pack of $52$ playing cards (four suits, hearts, diamonds, clubs and spades, each with $2$ to $10$, J, Q, K and A). You keep both cards. Count the first card and the second card in order.",
@@ -132525,6 +132857,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-9e-tree",
    "label": "1a",
    "section": "Fluency",
    "stem": "A spinner with two equal halves, red (R) and green (G), is spun twice. The tree diagram shows the outcomes.",
@@ -132684,6 +133017,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-9e-tree",
    "label": "1b",
    "section": "Fluency",
    "stem": "A spinner with two equal halves, red (R) and green (G), is spun twice. The tree diagram shows the outcomes.",
@@ -132693,6 +133027,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-9e-tree",
    "label": "1c",
    "section": "Fluency",
    "stem": "A spinner with two equal halves, red (R) and green (G), is spun twice. The tree diagram shows the outcomes.",
@@ -132703,6 +133038,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-9e-tree",
    "label": "1d",
    "section": "Fluency",
    "stem": "A spinner with two equal halves, red (R) and green (G), is spun twice. The tree diagram shows the outcomes.",
@@ -132712,6 +133048,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-9e-tree",
    "label": "1e",
    "section": "Fluency",
    "stem": "A spinner with two equal halves, red (R) and green (G), is spun twice. The tree diagram shows the outcomes.",
@@ -132721,6 +133058,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-9e-tree",
    "label": "1f",
    "section": "Fluency",
    "stem": "A spinner with two equal halves, red (R) and green (G), is spun twice. The tree diagram shows the outcomes.",
@@ -132730,6 +133068,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-9e-tree",
    "label": "2b",
    "section": "Fluency",
    "stem": "A spinner with four equal sections numbered $1$, $2$, $3$ and $4$ is spun twice. Use a tree diagram to list the outcomes.",
@@ -132739,6 +133078,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-9e-tree",
    "label": "2c",
    "section": "Fluency",
    "stem": "A spinner with four equal sections numbered $1$, $2$, $3$ and $4$ is spun twice. Use a tree diagram to list the outcomes.",
@@ -132748,6 +133088,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-9e-tree",
    "label": "2d",
    "section": "Fluency",
    "stem": "A spinner with four equal sections numbered $1$, $2$, $3$ and $4$ is spun twice. Use a tree diagram to list the outcomes.",
@@ -132757,6 +133098,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-9e-tree",
    "label": "2e",
    "section": "Fluency",
    "stem": "A spinner with four equal sections numbered $1$, $2$, $3$ and $4$ is spun twice. Use a tree diagram to list the outcomes.",
@@ -132766,6 +133108,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-9e-tree",
    "label": "2f",
    "section": "Fluency",
    "stem": "A spinner with four equal sections numbered $1$, $2$, $3$ and $4$ is spun twice. Use a tree diagram to list the outcomes.",
@@ -132775,6 +133118,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-9e-without",
    "label": "3a",
    "section": "Fluency",
    "stem": "Two people are chosen at random, without replacement, from a group of four: Ana (A), Ben (B), Cleo (C) and Dev (D). The tree diagram shows the outcomes.",
@@ -133140,6 +133484,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-9e-without",
    "label": "3b",
    "section": "Fluency",
    "stem": "Two people are chosen at random, without replacement, from a group of four: Ana (A), Ben (B), Cleo (C) and Dev (D). The tree diagram shows the outcomes.",
@@ -133149,6 +133494,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-9e-without",
    "label": "3c",
    "section": "Fluency",
    "stem": "Two people are chosen at random, without replacement, from a group of four: Ana (A), Ben (B), Cleo (C) and Dev (D). The tree diagram shows the outcomes.",
@@ -133158,6 +133504,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-9e-without",
    "label": "3d",
    "section": "Fluency",
    "stem": "Two people are chosen at random, without replacement, from a group of four: Ana (A), Ben (B), Cleo (C) and Dev (D). The tree diagram shows the outcomes.",
@@ -133167,6 +133514,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-9e-without",
    "label": "3e",
    "section": "Fluency",
    "stem": "Two people are chosen at random, without replacement, from a group of four: Ana (A), Ben (B), Cleo (C) and Dev (D). The tree diagram shows the outcomes.",
@@ -133176,6 +133524,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-9e-without",
    "label": "4a",
    "section": "Fluency",
    "stem": "A drawer holds two white socks (W), one grey sock (G) and one navy sock (N). Two socks are taken at random without replacement.",
@@ -133541,6 +133890,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-9e-without",
    "label": "4b",
    "section": "Fluency",
    "stem": "A drawer holds two white socks (W), one grey sock (G) and one navy sock (N). Two socks are taken at random without replacement.",
@@ -133550,6 +133900,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-9e-without",
    "label": "4c",
    "section": "Fluency",
    "stem": "A drawer holds two white socks (W), one grey sock (G) and one navy sock (N). Two socks are taken at random without replacement.",
@@ -133559,6 +133910,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-9e-without",
    "label": "4d",
    "section": "Fluency",
    "stem": "A drawer holds two white socks (W), one grey sock (G) and one navy sock (N). Two socks are taken at random without replacement.",
@@ -133568,6 +133920,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y9-9e-without",
    "label": "4e",
    "section": "Fluency",
    "stem": "A drawer holds two white socks (W), one grey sock (G) and one navy sock (N). Two socks are taken at random without replacement.",
@@ -133577,6 +133930,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-9e-repeat",
    "label": "5a",
    "section": "Fluency",
    "stem": "A student who has not studied guesses every answer on a multiple-choice quiz. There are three questions, each with four options (A, B, C and D), and only one option is correct for each question. Find the probability that the student guesses:",
@@ -133586,6 +133940,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-9e-repeat",
    "label": "5b",
    "section": "Fluency",
    "stem": "A student who has not studied guesses every answer on a multiple-choice quiz. There are three questions, each with four options (A, B, C and D), and only one option is correct for each question. Find the probability that the student guesses:",
@@ -133595,6 +133950,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-9e-repeat",
    "label": "5c",
    "section": "Fluency",
    "stem": "A student who has not studied guesses every answer on a multiple-choice quiz. There are three questions, each with four options (A, B, C and D), and only one option is correct for each question. Find the probability that the student guesses:",
@@ -133604,6 +133960,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-9e-repeat",
    "label": "5d",
    "section": "Fluency",
    "stem": "A student who has not studied guesses every answer on a multiple-choice quiz. There are three questions, each with four options (A, B, C and D), and only one option is correct for each question. Find the probability that the student guesses:",
@@ -133613,6 +133970,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-9e-tree",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "Lena makes three trips in order: home to the library (A), the library to the pool (B), and the pool to her friend's house (C). The table shows the ways she can travel on each trip.",
@@ -133643,6 +134001,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-9e-tree",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "Lena makes three trips in order: home to the library (A), the library to the pool (B), and the pool to her friend's house (C). The table shows the ways she can travel on each trip.",
@@ -133652,6 +134011,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y9-9e-tree",
    "label": "6c",
    "section": "Problem-solving",
    "stem": "Lena makes three trips in order: home to the library (A), the library to the pool (B), and the pool to her friend's house (C). The table shows the ways she can travel on each trip.",
@@ -133661,6 +134021,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y9-9e-tree",
    "label": "6d",
    "section": "Problem-solving",
    "stem": "Lena makes three trips in order: home to the library (A), the library to the pool (B), and the pool to her friend's house (C). The table shows the ways she can travel on each trip.",
@@ -133670,6 +134031,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6e",
+   "help": "y9-9e-tree",
    "label": "6e",
    "section": "Problem-solving",
    "stem": "Lena makes three trips in order: home to the library (A), the library to the pool (B), and the pool to her friend's house (C). The table shows the ways she can travel on each trip.",
@@ -133679,6 +134041,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6f",
+   "help": "y9-9e-tree",
    "label": "6f",
    "section": "Problem-solving",
    "stem": "Lena makes three trips in order: home to the library (A), the library to the pool (B), and the pool to her friend's house (C). The table shows the ways she can travel on each trip.",
@@ -133688,6 +134051,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-9e-repeat",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "A paint shop shelf holds equal numbers of blue and red paint tins, all mixed up, with the colour labels missing. You grab five tins. The shelf is refilled straight away, so the probabilities stay the same. Find the probability that you get:",
@@ -133697,6 +134061,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-9e-repeat",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "A paint shop shelf holds equal numbers of blue and red paint tins, all mixed up, with the colour labels missing. You grab five tins. The shelf is refilled straight away, so the probabilities stay the same. Find the probability that you get:",
@@ -133706,6 +134071,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-9e-repeat",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "A paint shop shelf holds equal numbers of blue and red paint tins, all mixed up, with the colour labels missing. You grab five tins. The shelf is refilled straight away, so the probabilities stay the same. Find the probability that you get:",
@@ -133715,6 +134081,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y9-9e-repeat",
    "label": "7d",
    "section": "Problem-solving",
    "stem": "A paint shop shelf holds equal numbers of blue and red paint tins, all mixed up, with the colour labels missing. You grab five tins. The shelf is refilled straight away, so the probabilities stay the same. Find the probability that you get:",
@@ -133724,6 +134091,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7e",
+   "help": "y9-9e-repeat",
    "label": "7e",
    "section": "Problem-solving",
    "stem": "A paint shop shelf holds equal numbers of blue and red paint tins, all mixed up, with the colour labels missing. You grab five tins. The shelf is refilled straight away, so the probabilities stay the same. Find the probability that you get:",
@@ -133733,6 +134101,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-9e-repeat",
    "label": "8a",
    "section": "Reasoning",
    "stem": "A spinner with two equal halves, Win and Lose, is spun four times. Use a tree diagram to find the probability of spinning:",
@@ -133742,6 +134111,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-9e-repeat",
    "label": "8b",
    "section": "Reasoning",
    "stem": "A spinner with two equal halves, Win and Lose, is spun four times. Use a tree diagram to find the probability of spinning:",
@@ -133751,6 +134121,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y9-9e-repeat",
    "label": "8c",
    "section": "Reasoning",
    "stem": "A spinner with two equal halves, Win and Lose, is spun four times. Use a tree diagram to find the probability of spinning:",
@@ -133760,6 +134131,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y9-9e-repeat",
    "label": "8d",
    "section": "Reasoning",
    "stem": "A spinner with two equal halves, Win and Lose, is spun four times. Use a tree diagram to find the probability of spinning:",
@@ -133769,6 +134141,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8e",
+   "help": "y9-9e-repeat",
    "label": "8e",
    "section": "Reasoning",
    "stem": "A spinner with two equal halves, Win and Lose, is spun four times. Use a tree diagram to find the probability of spinning:",
@@ -133778,6 +134151,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-9e-repeat",
    "label": "9a",
    "section": "Reasoning",
    "type": "numeric",
@@ -133786,6 +134160,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-9e-repeat",
    "label": "9b",
    "section": "Reasoning",
    "type": "expression",
@@ -133795,6 +134170,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y9-9e-without",
    "label": "10a",
    "section": "Reasoning",
    "stem": "A bag holds four red counters and two blue counters. Two counters are taken at random. Use a tree diagram to find:",
@@ -133804,6 +134180,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y9-9e-without",
    "label": "10b",
    "section": "Reasoning",
    "stem": "A bag holds four red counters and two blue counters. Two counters are taken at random. Use a tree diagram to find:",
@@ -133813,6 +134190,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y9-9e-without",
    "label": "10c",
    "section": "Reasoning",
    "stem": "A bag holds four red counters and two blue counters. Two counters are taken at random. Use a tree diagram to find:",
@@ -133822,6 +134200,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10d",
+   "help": "y9-9e-without",
    "label": "10d",
    "section": "Reasoning",
    "stem": "A bag holds four red counters and two blue counters. Two counters are taken at random. Use a tree diagram to find:",
@@ -133831,6 +134210,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10e",
+   "help": "y9-9e-without",
    "label": "10e",
    "section": "Reasoning",
    "stem": "A bag holds four red counters and two blue counters. Two counters are taken at random. Use a tree diagram to find:",
@@ -133844,6 +134224,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y9-9e-tree",
    "label": "11a",
    "section": "Enrichment",
    "stem": "Tess chooses at random a scarf from one green and two blue scarves, a top from one blue and two white tops, and a hat that is either blue or black. Use a tree diagram to find the probability that she chooses:",
@@ -133853,6 +134234,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y9-9e-tree",
    "label": "11b",
    "section": "Enrichment",
    "stem": "Tess chooses at random a scarf from one green and two blue scarves, a top from one blue and two white tops, and a hat that is either blue or black. Use a tree diagram to find the probability that she chooses:",
@@ -133862,6 +134244,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y9-9e-tree",
    "label": "11c",
    "section": "Enrichment",
    "stem": "Tess chooses at random a scarf from one green and two blue scarves, a top from one blue and two white tops, and a hat that is either blue or black. Use a tree diagram to find the probability that she chooses:",
@@ -133871,6 +134254,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11d",
+   "help": "y9-9e-tree",
    "label": "11d",
    "section": "Enrichment",
    "stem": "Tess chooses at random a scarf from one green and two blue scarves, a top from one blue and two white tops, and a hat that is either blue or black. Use a tree diagram to find the probability that she chooses:",
@@ -133880,6 +134264,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11e",
+   "help": "y9-9e-tree",
    "label": "11e",
    "section": "Enrichment",
    "stem": "Tess chooses at random a scarf from one green and two blue scarves, a top from one blue and two white tops, and a hat that is either blue or black. Use a tree diagram to find the probability that she chooses:",
@@ -133889,6 +134274,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11f",
+   "help": "y9-9e-tree",
    "label": "11f",
    "section": "Enrichment",
    "stem": "Tess chooses at random a scarf from one green and two blue scarves, a top from one blue and two white tops, and a hat that is either blue or black. Use a tree diagram to find the probability that she chooses:",
@@ -133898,6 +134284,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11g",
+   "help": "y9-9e-tree",
    "label": "11g",
    "section": "Enrichment",
    "stem": "Tess chooses at random a scarf from one green and two blue scarves, a top from one blue and two white tops, and a hat that is either blue or black. Use a tree diagram to find the probability that she chooses:",
@@ -133907,6 +134294,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11h",
+   "help": "y9-9e-tree",
    "label": "11h",
    "section": "Enrichment",
    "stem": "Tess chooses at random a scarf from one green and two blue scarves, a top from one blue and two white tops, and a hat that is either blue or black. Use a tree diagram to find the probability that she chooses:",
@@ -133916,6 +134304,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11i",
+   "help": "y9-9e-tree",
    "label": "11i",
    "section": "Enrichment",
    "stem": "Tess chooses at random a scarf from one green and two blue scarves, a top from one blue and two white tops, and a hat that is either blue or black. Use a tree diagram to find the probability that she chooses:",
@@ -133925,6 +134314,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11j",
+   "help": "y9-9e-tree",
    "label": "11j",
    "section": "Enrichment",
    "stem": "Tess chooses at random a scarf from one green and two blue scarves, a top from one blue and two white tops, and a hat that is either blue or black. Use a tree diagram to find the probability that she chooses:",
@@ -133943,6 +134333,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-9f-expected",
    "label": "1a",
    "section": "Fluency",
    "stem": "A bag holds an unknown number of counters. A counter is taken out, its colour is noted and it is put back. This is done $200$ times, and $70$ of the counters drawn were red.",
@@ -133953,6 +134344,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-9f-expected",
    "label": "1b",
    "section": "Fluency",
    "stem": "A bag holds an unknown number of counters. A counter is taken out, its colour is noted and it is put back. This is done $200$ times, and $70$ of the counters drawn were red.",
@@ -133962,6 +134354,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-9f-expected",
    "label": "1c",
    "section": "Fluency",
    "stem": "A bag holds an unknown number of counters. A counter is taken out, its colour is noted and it is put back. This is done $200$ times, and $70$ of the counters drawn were red.",
@@ -133971,6 +134364,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-9f-expected",
    "label": "1d",
    "section": "Fluency",
    "stem": "A bag holds an unknown number of counters. A counter is taken out, its colour is noted and it is put back. This is done $200$ times, and $70$ of the counters drawn were red.",
@@ -133980,6 +134374,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-9f-expected",
    "label": "2a",
    "section": "Fluency",
    "stem": "In a survey of $250$ people chosen at random, $190$ said that they own a bike.",
@@ -133989,6 +134384,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-9f-expected",
    "label": "2b",
    "section": "Fluency",
    "stem": "In a survey of $250$ people chosen at random, $190$ said that they own a bike.",
@@ -133998,6 +134394,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-9f-expected",
    "label": "2c",
    "section": "Fluency",
    "stem": "In a survey of $250$ people chosen at random, $190$ said that they own a bike.",
@@ -134007,6 +134404,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-9f-expected",
    "label": "2d",
    "section": "Fluency",
    "stem": "In a survey of $250$ people chosen at random, $190$ said that they own a bike.",
@@ -134016,6 +134414,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-9f-expected",
    "label": "3a",
    "section": "Fluency",
    "stem": "Use the experimental probability to estimate the chance of each event. Give a fraction or a decimal.",
@@ -134025,6 +134424,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-9f-expected",
    "label": "3b",
    "section": "Fluency",
    "stem": "Use the experimental probability to estimate the chance of each event. Give a fraction or a decimal.",
@@ -134034,6 +134434,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-9f-expected",
    "label": "3c",
    "section": "Fluency",
    "stem": "Use the experimental probability to estimate the chance of each event. Give a fraction or a decimal.",
@@ -134043,6 +134444,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-9f-table",
    "label": "4a",
    "section": "Problem-solving",
    "stem": "The colours of cars passing a school were recorded for a short time, as shown in this frequency table.",
@@ -134071,6 +134473,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-9f-table",
    "label": "4b",
    "section": "Problem-solving",
    "stem": "The colours of cars passing a school were recorded for a short time, as shown in this frequency table.",
@@ -134080,6 +134483,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-9f-table",
    "label": "4c",
    "section": "Problem-solving",
    "stem": "The colours of cars passing a school were recorded for a short time, as shown in this frequency table.",
@@ -134089,6 +134493,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-9f-table",
    "label": "4d",
    "section": "Problem-solving",
    "stem": "The colours of cars passing a school were recorded for a short time, as shown in this frequency table.",
@@ -134098,6 +134503,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y9-9f-table",
    "label": "4e",
    "section": "Problem-solving",
    "stem": "The colours of cars passing a school were recorded for a short time, as shown in this frequency table.",
@@ -134107,6 +134513,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y9-9f-table",
    "label": "4f",
    "section": "Problem-solving",
    "stem": "The colours of cars passing a school were recorded for a short time, as shown in this frequency table.",
@@ -134116,6 +134523,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-9f-expected",
    "label": "5a",
    "section": "Problem-solving",
    "stem": "A fair six-sided die is rolled $180$ times. How many times would you expect each event to happen?",
@@ -134125,6 +134533,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-9f-expected",
    "label": "5b",
    "section": "Problem-solving",
    "stem": "A fair six-sided die is rolled $180$ times. How many times would you expect each event to happen?",
@@ -134134,6 +134543,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-9f-expected",
    "label": "5c",
    "section": "Problem-solving",
    "stem": "A fair six-sided die is rolled $180$ times. How many times would you expect each event to happen?",
@@ -134143,6 +134553,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-9f-expected",
    "label": "5d",
    "section": "Problem-solving",
    "stem": "A fair six-sided die is rolled $180$ times. How many times would you expect each event to happen?",
@@ -134152,6 +134563,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-9f-table",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "The letters of a three-letter word are written on separate cards. A card is chosen at random, noted and put back, and this is done $100$ times. The table shows the results.",
@@ -134176,6 +134588,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-9f-table",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "The letters of a three-letter word are written on separate cards. A card is chosen at random, noted and put back, and this is done $100$ times. The table shows the results.",
@@ -134185,6 +134598,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-9f-table",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "A spinner is divided into three regions, numbered $1$, $2$ and $3$, that are not necessarily the same size. It is spun $50$ times, with the results shown.",
@@ -134211,6 +134625,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-9f-table",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "A spinner is divided into three regions, numbered $1$, $2$ and $3$, that are not necessarily the same size. It is spun $50$ times, with the results shown.",
@@ -134220,6 +134635,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-9f-table",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "A spinner is divided into three regions, numbered $1$, $2$ and $3$, that are not necessarily the same size. It is spun $50$ times, with the results shown.",
@@ -134229,6 +134645,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y9-9f-table",
    "label": "7d",
    "section": "Problem-solving",
    "stem": "A spinner is divided into three regions, numbered $1$, $2$ and $3$, that are not necessarily the same size. It is spun $50$ times, with the results shown.",
@@ -134238,6 +134655,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7e",
+   "help": "y9-9f-table",
    "label": "7e",
    "section": "Problem-solving",
    "stem": "A spinner is divided into three regions, numbered $1$, $2$ and $3$, that are not necessarily the same size. It is spun $50$ times, with the results shown.",
@@ -134252,6 +134670,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8",
+   "help": "y9-9f-table",
    "label": "8",
    "section": "Reasoning",
    "type": "choice",
@@ -134308,6 +134727,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-9f-expected",
    "label": "9a",
    "section": "Reasoning",
    "stem": "Theo rolls a fair six-sided die $12$ times and, amazingly, gets $10$ sixes.",
@@ -134317,6 +134737,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-9f-expected",
    "label": "9b",
    "section": "Reasoning",
    "stem": "Theo rolls a fair six-sided die $12$ times and, amazingly, gets $10$ sixes.",
@@ -134330,6 +134751,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y9-9f-expected",
    "label": "10a",
    "section": "Reasoning",
    "stem": "Do you think a coin is fair or biased, given each set of results?",
@@ -134344,6 +134766,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y9-9f-expected",
    "label": "10b",
    "section": "Reasoning",
    "stem": "Do you think a coin is fair or biased, given each set of results?",
@@ -134358,6 +134781,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y9-9f-expected",
    "label": "10c",
    "section": "Reasoning",
    "stem": "Do you think a coin is fair or biased, given each set of results?",
@@ -134372,6 +134796,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y9-9f-expected",
    "label": "11a",
    "section": "Reasoning",
    "stem": "Is each statement true or false?",
@@ -134385,6 +134810,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y9-9f-expected",
    "label": "11b",
    "section": "Reasoning",
    "stem": "Is each statement true or false?",
@@ -134398,6 +134824,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y9-9f-expected",
    "label": "11c",
    "section": "Reasoning",
    "stem": "Is each statement true or false?",
@@ -134411,6 +134838,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11d",
+   "help": "y9-9f-expected",
    "label": "11d",
    "section": "Reasoning",
    "stem": "Is each statement true or false?",
@@ -134424,6 +134852,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y9-9f-area",
    "label": "12a",
    "section": "Reasoning",
    "stem": "One hundred darts are thrown at random at each dartboard, and none miss the board. How many darts would you expect to hit the shaded target?",
@@ -134519,6 +134948,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y9-9f-area",
    "label": "12b",
    "section": "Reasoning",
    "stem": "One hundred darts are thrown at random at each dartboard, and none miss the board. How many darts would you expect to hit the shaded target?",
@@ -134619,6 +135049,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y9-9f-area",
    "label": "12c",
    "section": "Reasoning",
    "stem": "One hundred darts are thrown at random at each dartboard, and none miss the board. How many darts would you expect to hit the shaded target?",
@@ -134701,6 +135132,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12d",
+   "help": "y9-9f-area",
    "label": "12d",
    "section": "Reasoning",
    "stem": "One hundred darts are thrown at random at each dartboard, and none miss the board. How many darts would you expect to hit the shaded target?",
@@ -135342,6 +135774,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13",
+   "help": "y9-9f-bag",
    "label": "13",
    "section": "Enrichment",
    "type": "ordered",
@@ -135381,6 +135814,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14",
+   "help": "y9-9f-bag",
    "label": "14",
    "section": "Enrichment",
    "type": "ordered",
@@ -135434,6 +135868,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-9g-types",
    "label": "1a",
    "section": "Fluency",
    "stem": "Classify each of these as numerical or categorical data.",
@@ -135447,6 +135882,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-9g-types",
    "label": "1b",
    "section": "Fluency",
    "stem": "Classify each of these as numerical or categorical data.",
@@ -135460,6 +135896,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-9g-types",
    "label": "1c",
    "section": "Fluency",
    "stem": "Classify each of these as numerical or categorical data.",
@@ -135473,6 +135910,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-9g-types",
    "label": "1d",
    "section": "Fluency",
    "stem": "Classify each of these as numerical or categorical data.",
@@ -135486,6 +135924,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-9g-types",
    "label": "2a",
    "section": "Fluency",
    "stem": "Classify the data from each survey as numerical discrete, numerical continuous, categorical ordinal or categorical nominal.",
@@ -135501,6 +135940,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-9g-types",
    "label": "2b",
    "section": "Fluency",
    "stem": "Classify the data from each survey as numerical discrete, numerical continuous, categorical ordinal or categorical nominal.",
@@ -135516,6 +135956,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-9g-types",
    "label": "2c",
    "section": "Fluency",
    "stem": "Classify the data from each survey as numerical discrete, numerical continuous, categorical ordinal or categorical nominal.",
@@ -135531,6 +135972,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-9g-types",
    "label": "2d",
    "section": "Fluency",
    "stem": "Classify the data from each survey as numerical discrete, numerical continuous, categorical ordinal or categorical nominal.",
@@ -135546,6 +135988,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-9g-types",
    "label": "3a",
    "section": "Fluency",
    "stem": "Classify the data from each survey as numerical discrete, numerical continuous, categorical ordinal or categorical nominal.",
@@ -135561,6 +136004,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-9g-types",
    "label": "3b",
    "section": "Fluency",
    "stem": "Classify the data from each survey as numerical discrete, numerical continuous, categorical ordinal or categorical nominal.",
@@ -135576,6 +136020,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-9g-types",
    "label": "3c",
    "section": "Fluency",
    "stem": "Classify the data from each survey as numerical discrete, numerical continuous, categorical ordinal or categorical nominal.",
@@ -135591,6 +136036,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-9g-types",
    "label": "3d",
    "section": "Fluency",
    "stem": "Classify the data from each survey as numerical discrete, numerical continuous, categorical ordinal or categorical nominal.",
@@ -135606,6 +136052,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-9g-methods",
    "label": "4a",
    "section": "Fluency",
    "stem": "Name the sampling method used in each survey.",
@@ -135620,6 +136067,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-9g-methods",
    "label": "4b",
    "section": "Fluency",
    "stem": "Name the sampling method used in each survey.",
@@ -135634,6 +136082,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-9g-methods",
    "label": "4c",
    "section": "Fluency",
    "stem": "Name the sampling method used in each survey.",
@@ -135648,6 +136097,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-9g-methods",
    "label": "4d",
    "section": "Fluency",
    "type": "choice",
@@ -135661,6 +136111,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-9g-methods",
    "label": "5a",
    "section": "Fluency",
    "stem": "Name the sampling method used in each survey.",
@@ -135675,6 +136126,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-9g-methods",
    "label": "5b",
    "section": "Fluency",
    "stem": "Name the sampling method used in each survey.",
@@ -135689,6 +136141,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-9g-methods",
    "label": "5c",
    "section": "Fluency",
    "stem": "Name the sampling method used in each survey.",
@@ -135703,6 +136156,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y9-9g-methods",
    "label": "5e",
    "section": "Fluency",
    "type": "choice",
@@ -135716,6 +136170,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-9g-stratified",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "A company has $80$ people working in its warehouse and $40$ people working in its office. A stratified sample of $12$ people is to be chosen, with each department represented in proportion to its size.",
@@ -135726,6 +136181,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-9g-stratified",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "A company has $80$ people working in its warehouse and $40$ people working in its office. A stratified sample of $12$ people is to be chosen, with each department represented in proportion to its size.",
@@ -135736,6 +136192,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-9g-types",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "These facts were recorded about Priya's dog. Classify the type of data for each one.",
@@ -135751,6 +136208,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-9g-types",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "These facts were recorded about Priya's dog. Classify the type of data for each one.",
@@ -135766,6 +136224,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-9g-types",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "These facts were recorded about Priya's dog. Classify the type of data for each one.",
@@ -135781,6 +136240,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y9-9g-types",
    "label": "7d",
    "section": "Problem-solving",
    "stem": "These facts were recorded about Priya's dog. Classify the type of data for each one.",
@@ -135796,6 +136256,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7e",
+   "help": "y9-9g-types",
    "label": "7e",
    "section": "Problem-solving",
    "stem": "These facts were recorded about Priya's dog. Classify the type of data for each one.",
@@ -135811,6 +136272,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-9g-methods",
    "label": "8a",
    "section": "Problem-solving",
    "stem": "Each person below is trying to collect unbiased data. Choose the best advice for each one.",
@@ -135825,6 +136287,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-9g-methods",
    "label": "8b",
    "section": "Problem-solving",
    "stem": "Each person below is trying to collect unbiased data. Choose the best advice for each one.",
@@ -135839,6 +136302,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y9-9g-methods",
    "label": "8c",
    "section": "Problem-solving",
    "stem": "Each person below is trying to collect unbiased data. Choose the best advice for each one.",
@@ -135853,6 +136317,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y9-9g-methods",
    "label": "8d",
    "section": "Problem-solving",
    "stem": "Each person below is trying to collect unbiased data. Choose the best advice for each one.",
@@ -135867,6 +136332,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9",
+   "help": "y9-9g-stratified",
    "label": "9",
    "section": "Problem-solving",
    "type": "numeric",
@@ -135876,6 +136342,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10",
+   "help": "y9-9g-types",
    "label": "10",
    "section": "Reasoning",
    "type": "choice",
@@ -135890,6 +136357,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11",
+   "help": "y9-9g-methods",
    "label": "11",
    "section": "Reasoning",
    "type": "choice",
@@ -135904,6 +136372,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12",
+   "help": "y9-9g-methods",
    "label": "12",
    "section": "Reasoning",
    "type": "choice",
@@ -135927,6 +136396,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-9h-centre",
    "label": "1a",
    "section": "Fluency",
    "stem": "For each data set, find the mean, the median and the mode.",
@@ -135936,6 +136406,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-9h-centre",
    "label": "1b",
    "section": "Fluency",
    "stem": "For each data set, find the mean, the median and the mode.",
@@ -135945,6 +136416,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-9h-centre",
    "label": "1c",
    "section": "Fluency",
    "stem": "For each data set, find the mean, the median and the mode.",
@@ -135958,6 +136430,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-9h-centre",
    "label": "1d",
    "section": "Fluency",
    "stem": "For each data set, find the mean, the median and the mode.",
@@ -135967,6 +136440,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-9h-centre",
    "label": "1e",
    "section": "Fluency",
    "stem": "For each data set, find the mean, the median and the mode.",
@@ -135976,6 +136450,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-9h-centre",
    "label": "1f",
    "section": "Fluency",
    "stem": "For each data set, find the mean, the median and the mode.",
@@ -135989,6 +136464,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1g",
+   "help": "y9-9h-centre",
    "label": "1g",
    "section": "Fluency",
    "stem": "For each data set, find the mean, the median and the mode.",
@@ -135998,6 +136474,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1h",
+   "help": "y9-9h-centre",
    "label": "1h",
    "section": "Fluency",
    "stem": "For each data set, find the mean, the median and the mode.",
@@ -136007,6 +136484,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1i",
+   "help": "y9-9h-centre",
    "label": "1i",
    "section": "Fluency",
    "stem": "For each data set, find the mean, the median and the mode.",
@@ -136018,6 +136496,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1j",
+   "help": "y9-9h-centre",
    "label": "1j",
    "section": "Fluency",
    "stem": "For each data set, find the mean, the median and the mode.",
@@ -136027,6 +136506,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1k",
+   "help": "y9-9h-centre",
    "label": "1k",
    "section": "Fluency",
    "stem": "For each data set, find the mean, the median and the mode.",
@@ -136036,6 +136516,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1l",
+   "help": "y9-9h-centre",
    "label": "1l",
    "section": "Fluency",
    "stem": "For each data set, find the mean, the median and the mode.",
@@ -136049,6 +136530,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1m",
+   "help": "y9-9h-centre",
    "label": "1m",
    "section": "Fluency",
    "stem": "For each data set, find the mean, the median and the mode.",
@@ -136058,6 +136540,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1n",
+   "help": "y9-9h-centre",
    "label": "1n",
    "section": "Fluency",
    "stem": "For each data set, find the mean, the median and the mode.",
@@ -136067,6 +136550,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1o",
+   "help": "y9-9h-centre",
    "label": "1o",
    "section": "Fluency",
    "stem": "For each data set, find the mean, the median and the mode.",
@@ -136079,6 +136563,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1p",
+   "help": "y9-9h-centre",
    "label": "1p",
    "section": "Fluency",
    "stem": "For each data set, find the mean, the median and the mode.",
@@ -136088,6 +136573,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1q",
+   "help": "y9-9h-centre",
    "label": "1q",
    "section": "Fluency",
    "stem": "For each data set, find the mean, the median and the mode.",
@@ -136097,6 +136583,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1r",
+   "help": "y9-9h-centre",
    "label": "1r",
    "section": "Fluency",
    "stem": "For each data set, find the mean, the median and the mode.",
@@ -136108,6 +136595,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-9h-centre",
    "label": "2a",
    "section": "Fluency",
    "stem": "Decide whether each data set is bi-modal (has exactly two modes).",
@@ -136121,6 +136609,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-9h-centre",
    "label": "2b",
    "section": "Fluency",
    "stem": "Decide whether each data set is bi-modal (has exactly two modes).",
@@ -136134,6 +136623,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-9h-centre",
    "label": "2c",
    "section": "Fluency",
    "stem": "Decide whether each data set is bi-modal (has exactly two modes).",
@@ -136147,6 +136637,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-9h-centre",
    "label": "2d",
    "section": "Fluency",
    "stem": "Decide whether each data set is bi-modal (has exactly two modes).",
@@ -136160,6 +136651,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-9h-outlier",
    "label": "3a",
    "section": "Fluency",
    "stem": "Each data set includes an outlier (a value that is extreme compared with the rest of the data). Find the outlier, then the mean and the median, including the outlier in your calculations.",
@@ -136169,6 +136661,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-9h-outlier",
    "label": "3b",
    "section": "Fluency",
    "stem": "Each data set includes an outlier (a value that is extreme compared with the rest of the data). Find the outlier, then the mean and the median, including the outlier in your calculations.",
@@ -136178,6 +136671,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-9h-outlier",
    "label": "3c",
    "section": "Fluency",
    "stem": "Each data set includes an outlier (a value that is extreme compared with the rest of the data). Find the outlier, then the mean and the median, including the outlier in your calculations.",
@@ -136187,6 +136681,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-9h-outlier",
    "label": "3d",
    "section": "Fluency",
    "stem": "Each data set includes an outlier (a value that is extreme compared with the rest of the data). Find the outlier, then the mean and the median, including the outlier in your calculations.",
@@ -136196,6 +136691,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-9h-outlier",
    "label": "3e",
    "section": "Fluency",
    "stem": "Each data set includes an outlier (a value that is extreme compared with the rest of the data). Find the outlier, then the mean and the median, including the outlier in your calculations.",
@@ -136205,6 +136701,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-9h-outlier",
    "label": "3f",
    "section": "Fluency",
    "stem": "Each data set includes an outlier (a value that is extreme compared with the rest of the data). Find the outlier, then the mean and the median, including the outlier in your calculations.",
@@ -136214,6 +136711,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3g",
+   "help": "y9-9h-outlier",
    "label": "3g",
    "section": "Fluency",
    "stem": "Each data set includes an outlier (a value that is extreme compared with the rest of the data). Find the outlier, then the mean and the median, including the outlier in your calculations.",
@@ -136223,6 +136721,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3h",
+   "help": "y9-9h-outlier",
    "label": "3h",
    "section": "Fluency",
    "stem": "Each data set includes an outlier (a value that is extreme compared with the rest of the data). Find the outlier, then the mean and the median, including the outlier in your calculations.",
@@ -136232,6 +136731,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3i",
+   "help": "y9-9h-outlier",
    "label": "3i",
    "section": "Fluency",
    "stem": "Each data set includes an outlier (a value that is extreme compared with the rest of the data). Find the outlier, then the mean and the median, including the outlier in your calculations.",
@@ -136241,6 +136741,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3j",
+   "help": "y9-9h-outlier",
    "label": "3j",
    "section": "Fluency",
    "stem": "Each data set includes an outlier (a value that is extreme compared with the rest of the data). Find the outlier, then the mean and the median, including the outlier in your calculations.",
@@ -136250,6 +136751,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3k",
+   "help": "y9-9h-outlier",
    "label": "3k",
    "section": "Fluency",
    "stem": "Each data set includes an outlier (a value that is extreme compared with the rest of the data). Find the outlier, then the mean and the median, including the outlier in your calculations.",
@@ -136259,6 +136761,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3l",
+   "help": "y9-9h-outlier",
    "label": "3l",
    "section": "Fluency",
    "stem": "Each data set includes an outlier (a value that is extreme compared with the rest of the data). Find the outlier, then the mean and the median, including the outlier in your calculations.",
@@ -136268,6 +136771,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-9h-centre",
    "label": "4a",
    "section": "Fluency",
    "stem": "In three swimming races Kai recorded the times $31.4$ seconds, $30.9$ seconds and $30.2$ seconds.",
@@ -136279,6 +136783,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-9h-centre",
    "label": "4b",
    "section": "Fluency",
    "stem": "In three swimming races Kai recorded the times $31.4$ seconds, $30.9$ seconds and $30.2$ seconds.",
@@ -136289,6 +136794,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-9h-target",
    "label": "5a",
    "section": "Problem-solving",
    "stem": "A basketball player scored these numbers of points in her $10$ most recent games: $18 \\quad 17 \\quad 19 \\quad 17 \\quad 18 \\quad 15 \\quad 19 \\quad 20 \\quad 19 \\quad 18$",
@@ -136299,6 +136805,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-9h-target",
    "label": "5b",
    "section": "Problem-solving",
    "stem": "A basketball player scored these numbers of points in her $10$ most recent games: $18 \\quad 17 \\quad 19 \\quad 17 \\quad 18 \\quad 15 \\quad 19 \\quad 20 \\quad 19 \\quad 18$",
@@ -136309,6 +136816,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-9h-target",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "Ruby's scores on her first five history tests were: $88 \\quad 79 \\quad 91 \\quad 84 \\quad 93$",
@@ -136318,6 +136826,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-9h-target",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "Ruby's scores on her first five history tests were: $88 \\quad 79 \\quad 91 \\quad 84 \\quad 93$",
@@ -136327,6 +136836,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7",
+   "help": "y9-9h-target",
    "label": "7",
    "section": "Problem-solving",
    "type": "numeric",
@@ -136335,6 +136845,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-9h-build",
    "label": "8a",
    "section": "Problem-solving",
    "stem": "Which set of five numbers has the mean, median and mode given?",
@@ -136350,6 +136861,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-9h-build",
    "label": "8b",
    "section": "Problem-solving",
    "stem": "Which set of five numbers has the mean, median and mode given?",
@@ -136365,6 +136877,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y9-9h-build",
    "label": "8c",
    "section": "Problem-solving",
    "stem": "Which set of five numbers has the mean, median and mode given?",
@@ -136380,6 +136893,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y9-9h-build",
    "label": "8d",
    "section": "Problem-solving",
    "stem": "Which set of five numbers has the mean, median and mode given?",
@@ -136395,6 +136909,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8e",
+   "help": "y9-9h-build",
    "label": "8e",
    "section": "Problem-solving",
    "stem": "Which set of five numbers has the mean, median and mode given?",
@@ -136410,6 +136925,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8f",
+   "help": "y9-9h-build",
    "label": "8f",
    "section": "Problem-solving",
    "stem": "Which set of five numbers has the mean, median and mode given?",
@@ -136425,6 +136941,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-9h-outlier",
    "label": "9a",
    "section": "Reasoning",
    "stem": "The prices of six houses sold in a Hobart suburb one month are: \\$412 000, \\$375 000, \\$528 000, \\$389 000, \\$467 000, \\$1 950 000.",
@@ -136435,6 +136952,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-9h-outlier",
    "label": "9b",
    "section": "Reasoning",
    "stem": "The prices of six houses sold in a Hobart suburb one month are: \\$412 000, \\$375 000, \\$528 000, \\$389 000, \\$467 000, \\$1 950 000.",
@@ -136445,6 +136963,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y9-9h-outlier",
    "label": "9c",
    "section": "Reasoning",
    "stem": "The prices of six houses sold in a Hobart suburb one month are: \\$412 000, \\$375 000, \\$528 000, \\$389 000, \\$467 000, \\$1 950 000.",
@@ -136455,6 +136974,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y9-9h-outlier",
    "label": "9d",
    "section": "Reasoning",
    "stem": "The prices of six houses sold in a Hobart suburb one month are: \\$412 000, \\$375 000, \\$528 000, \\$389 000, \\$467 000, \\$1 950 000.",
@@ -136465,6 +136985,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9e",
+   "help": "y9-9h-outlier",
    "label": "9e",
    "section": "Reasoning",
    "stem": "The prices of six houses sold in a Hobart suburb one month are: \\$412 000, \\$375 000, \\$528 000, \\$389 000, \\$467 000, \\$1 950 000.",
@@ -136475,6 +136996,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y9-9h-dotplot",
    "label": "11a",
    "section": "Reasoning",
    "stem": "This dot plot shows the number of cars owned by each household in a street.",
@@ -136513,6 +137035,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y9-9h-dotplot",
    "label": "11b",
    "section": "Reasoning",
    "stem": "This dot plot shows the number of cars owned by each household in a street.",
@@ -136522,6 +137045,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y9-9h-dotplot",
    "label": "11c",
    "section": "Reasoning",
    "stem": "This dot plot shows the number of cars owned by each household in a street.",
@@ -136531,6 +137055,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11d",
+   "help": "y9-9h-dotplot",
    "label": "11d",
    "section": "Reasoning",
    "stem": "This dot plot shows the number of cars owned by each household in a street.",
@@ -136540,6 +137065,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11e",
+   "help": "y9-9h-dotplot",
    "label": "11e",
    "section": "Reasoning",
    "stem": "This dot plot shows the number of cars owned by each household in a street.",
@@ -136553,6 +137079,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y9-9h-dotplot",
    "label": "12a",
    "section": "Reasoning",
    "stem": "This data set contains nine numbers: $2 \\quad 3 \\quad 3 \\quad 3 \\quad 3 \\quad 3 \\quad 3 \\quad 5 \\quad 6$",
@@ -136562,6 +137089,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y9-9h-dotplot",
    "label": "12b",
    "section": "Reasoning",
    "stem": "This data set contains nine numbers: $2 \\quad 3 \\quad 3 \\quad 3 \\quad 3 \\quad 3 \\quad 3 \\quad 5 \\quad 6$",
@@ -136571,6 +137099,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y9-9h-dotplot",
    "label": "12c",
    "section": "Reasoning",
    "stem": "This data set contains nine numbers: $2 \\quad 3 \\quad 3 \\quad 3 \\quad 3 \\quad 3 \\quad 3 \\quad 5 \\quad 6$",
@@ -136580,6 +137109,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y9-9h-target",
    "label": "13a",
    "section": "Enrichment",
    "stem": "A school gives each student a maths grade for the semester from their average score over five topics, using the table. Zara has these scores for four topics and has one topic to go: $72 \\quad 64 \\quad 88 \\quad 81$",
@@ -136612,6 +137142,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y9-9h-target",
    "label": "13b",
    "section": "Enrichment",
    "stem": "A school gives each student a maths grade for the semester from their average score over five topics, using the table. Zara has these scores for four topics and has one topic to go: $72 \\quad 64 \\quad 88 \\quad 81$",
@@ -136629,6 +137160,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13c",
+   "help": "y9-9h-target",
    "label": "13c",
    "section": "Enrichment",
    "stem": "A school gives each student a maths grade for the semester from their average score over five topics, using the table. Zara has these scores for four topics and has one topic to go: $72 \\quad 64 \\quad 88 \\quad 81$",
@@ -136646,6 +137178,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13d",
+   "help": "y9-9h-target",
    "label": "13d",
    "section": "Enrichment",
    "stem": "A school gives each student a maths grade for the semester from their average score over five topics, using the table. Zara has these scores for four topics and has one topic to go: $72 \\quad 64 \\quad 88 \\quad 81$",
@@ -136663,6 +137196,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13e",
+   "help": "y9-9h-target",
    "label": "13e",
    "section": "Enrichment",
    "stem": "A school gives each student a maths grade for the semester from their average score over five topics, using the table. Zara has these scores for four topics and has one topic to go: $72 \\quad 64 \\quad 88 \\quad 81$",
@@ -136672,6 +137206,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13f",
+   "help": "y9-9h-target",
    "label": "13f",
    "section": "Enrichment",
    "stem": "A school gives each student a maths grade for the semester from their average score over five topics, using the table. Zara has these scores for four topics and has one topic to go: $72 \\quad 64 \\quad 88 \\quad 81$",
@@ -136685,6 +137220,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13g",
+   "help": "y9-9h-target",
    "label": "13g",
    "section": "Enrichment",
    "stem": "A school gives each student a maths grade for the semester from their average score over five topics, using the table. Zara has these scores for four topics and has one topic to go: $72 \\quad 64 \\quad 88 \\quad 81$",
@@ -136694,6 +137230,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13h",
+   "help": "y9-9h-target",
    "label": "13h",
    "section": "Enrichment",
    "stem": "A school gives each student a maths grade for the semester from their average score over five topics, using the table. Zara has these scores for four topics and has one topic to go: $72 \\quad 64 \\quad 88 \\quad 81$",
@@ -136703,6 +137240,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13i",
+   "help": "y9-9h-target",
    "label": "13i",
    "section": "Enrichment",
    "stem": "A school gives each student a maths grade for the semester from their average score over five topics, using the table. Zara has these scores for four topics and has one topic to go: $72 \\quad 64 \\quad 88 \\quad 81$",
@@ -136713,6 +137251,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13j",
+   "help": "y9-9h-target",
    "label": "13j",
    "section": "Enrichment",
    "stem": "A school gives each student a maths grade for the semester from their average score over five topics, using the table. Zara has these scores for four topics and has one topic to go: $72 \\quad 64 \\quad 88 \\quad 81$",
@@ -136732,6 +137271,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-9i-build",
    "label": "1a",
    "section": "Fluency",
    "stem": "For each data set, organise the data into an ordered stem-and-leaf plot (on paper), then answer the questions.",
@@ -136741,6 +137281,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-9i-build",
    "label": "1b",
    "section": "Fluency",
    "stem": "For each data set, organise the data into an ordered stem-and-leaf plot (on paper), then answer the questions.",
@@ -136753,6 +137294,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-9i-build",
    "label": "1c",
    "section": "Fluency",
    "stem": "For each data set, organise the data into an ordered stem-and-leaf plot (on paper), then answer the questions.",
@@ -136767,6 +137309,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-9i-build",
    "label": "1d",
    "section": "Fluency",
    "stem": "For each data set, organise the data into an ordered stem-and-leaf plot (on paper), then answer the questions.",
@@ -136776,6 +137319,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-9i-build",
    "label": "1e",
    "section": "Fluency",
    "stem": "For each data set, organise the data into an ordered stem-and-leaf plot (on paper), then answer the questions.",
@@ -136787,6 +137331,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-9i-build",
    "label": "1f",
    "section": "Fluency",
    "stem": "For each data set, organise the data into an ordered stem-and-leaf plot (on paper), then answer the questions.",
@@ -136801,6 +137346,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1g",
+   "help": "y9-9i-build",
    "label": "1g",
    "section": "Fluency",
    "stem": "For each data set, organise the data into an ordered stem-and-leaf plot (on paper), then answer the questions.",
@@ -136810,6 +137356,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1h",
+   "help": "y9-9i-build",
    "label": "1h",
    "section": "Fluency",
    "stem": "For each data set, organise the data into an ordered stem-and-leaf plot (on paper), then answer the questions.",
@@ -136821,6 +137368,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1i",
+   "help": "y9-9i-build",
    "label": "1i",
    "section": "Fluency",
    "stem": "For each data set, organise the data into an ordered stem-and-leaf plot (on paper), then answer the questions.",
@@ -136835,6 +137383,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1j",
+   "help": "y9-9i-build",
    "label": "1j",
    "section": "Fluency",
    "stem": "For each data set, organise the data into an ordered stem-and-leaf plot (on paper), then answer the questions.",
@@ -136844,6 +137393,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1k",
+   "help": "y9-9i-build",
    "label": "1k",
    "section": "Fluency",
    "stem": "For each data set, organise the data into an ordered stem-and-leaf plot (on paper), then answer the questions.",
@@ -136855,6 +137405,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1l",
+   "help": "y9-9i-build",
    "label": "1l",
    "section": "Fluency",
    "stem": "For each data set, organise the data into an ordered stem-and-leaf plot (on paper), then answer the questions.",
@@ -136869,6 +137420,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1m",
+   "help": "y9-9i-build",
    "label": "1m",
    "section": "Fluency",
    "stem": "For each data set, organise the data into an ordered stem-and-leaf plot (on paper), then answer the questions.",
@@ -136878,6 +137430,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1n",
+   "help": "y9-9i-build",
    "label": "1n",
    "section": "Fluency",
    "stem": "For each data set, organise the data into an ordered stem-and-leaf plot (on paper), then answer the questions.",
@@ -136889,6 +137442,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1o",
+   "help": "y9-9i-build",
    "label": "1o",
    "section": "Fluency",
    "stem": "For each data set, organise the data into an ordered stem-and-leaf plot (on paper), then answer the questions.",
@@ -136903,6 +137457,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-9i-build",
    "label": "2a",
    "section": "Fluency",
    "stem": "The number of empty rooms at a holiday park each week over a $20$-week period is shown below. Draw a stem-and-leaf plot of the data to help you.<br>$14 \\quad 9 \\quad 13 \\quad 11 \\quad 23 \\quad 14 \\quad 7 \\quad 13 \\quad 14 \\quad 18 \\quad 16 \\quad 25 \\quad 6 \\quad 17 \\quad 22 \\quad 7 \\quad 19 \\quad 9 \\quad 16 \\quad 10$",
@@ -136913,6 +137468,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-9i-build",
    "label": "2b",
    "section": "Fluency",
    "stem": "The number of empty rooms at a holiday park each week over a $20$-week period is shown below. Draw a stem-and-leaf plot of the data to help you.<br>$14 \\quad 9 \\quad 13 \\quad 11 \\quad 23 \\quad 14 \\quad 7 \\quad 13 \\quad 14 \\quad 18 \\quad 16 \\quad 25 \\quad 6 \\quad 17 \\quad 22 \\quad 7 \\quad 19 \\quad 9 \\quad 16 \\quad 10$",
@@ -136922,6 +137478,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-9i-backtoback",
    "label": "3a",
    "section": "Fluency",
    "stem": "For each pair of data sets, draw a back-to-back stem-and-leaf plot (on paper), then find the median and the range of each set to compare them.",
@@ -136931,6 +137488,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-9i-backtoback",
    "label": "3b",
    "section": "Fluency",
    "stem": "For each pair of data sets, draw a back-to-back stem-and-leaf plot (on paper), then find the median and the range of each set to compare them.",
@@ -136940,6 +137498,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-9i-backtoback",
    "label": "3c",
    "section": "Fluency",
    "stem": "For each pair of data sets, draw a back-to-back stem-and-leaf plot (on paper), then find the median and the range of each set to compare them.",
@@ -136949,6 +137508,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-9i-backtoback",
    "label": "3d",
    "section": "Fluency",
    "stem": "For each pair of data sets, draw a back-to-back stem-and-leaf plot (on paper), then find the median and the range of each set to compare them.",
@@ -136958,6 +137518,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-9i-backtoback",
    "label": "3e",
    "section": "Fluency",
    "stem": "For each pair of data sets, draw a back-to-back stem-and-leaf plot (on paper), then find the median and the range of each set to compare them.",
@@ -136967,6 +137528,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-9i-backtoback",
    "label": "3f",
    "section": "Fluency",
    "stem": "For each pair of data sets, draw a back-to-back stem-and-leaf plot (on paper), then find the median and the range of each set to compare them.",
@@ -136976,6 +137538,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3g",
+   "help": "y9-9i-backtoback",
    "label": "3g",
    "section": "Fluency",
    "stem": "For each pair of data sets, draw a back-to-back stem-and-leaf plot (on paper), then find the median and the range of each set to compare them.",
@@ -136985,6 +137548,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3h",
+   "help": "y9-9i-backtoback",
    "label": "3h",
    "section": "Fluency",
    "stem": "For each pair of data sets, draw a back-to-back stem-and-leaf plot (on paper), then find the median and the range of each set to compare them.",
@@ -136994,6 +137558,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-9i-backtoback",
    "label": "4a",
    "section": "Fluency",
    "stem": "The final scores of two basketball teams in their last $24$ games are shown. A back-to-back stem-and-leaf plot will help.<br>Riverside Rams: $118 \\quad 72 \\quad 84 \\quad 95 \\quad 91 \\quad 112 \\quad 86 \\quad 121 \\quad 109 \\quad 115 \\quad 88 \\quad 79 \\quad 83 \\quad 70 \\quad 90 \\quad 134 \\quad 103 \\quad 107 \\quad 125 \\quad 82 \\quad 96 \\quad 87 \\quad 98 \\quad 74$<br>Hilltop Hawks: $97 \\quad 81 \\quad 102 \\quad 76 \\quad 88 \\quad 93 \\quad 69 \\quad 110 \\quad 85 \\quad 92 \\quad 79 \\quad 101 \\quad 74 \\quad 95 \\quad 83 \\quad 99 \\quad 120 \\quad 87 \\quad 77 \\quad 90 \\quad 105 \\quad 66 \\quad 94 \\quad 108$",
@@ -137004,6 +137569,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-9i-backtoback",
    "label": "4b",
    "section": "Fluency",
    "stem": "The final scores of two basketball teams in their last $24$ games are shown. A back-to-back stem-and-leaf plot will help.<br>Riverside Rams: $118 \\quad 72 \\quad 84 \\quad 95 \\quad 91 \\quad 112 \\quad 86 \\quad 121 \\quad 109 \\quad 115 \\quad 88 \\quad 79 \\quad 83 \\quad 70 \\quad 90 \\quad 134 \\quad 103 \\quad 107 \\quad 125 \\quad 82 \\quad 96 \\quad 87 \\quad 98 \\quad 74$<br>Hilltop Hawks: $97 \\quad 81 \\quad 102 \\quad 76 \\quad 88 \\quad 93 \\quad 69 \\quad 110 \\quad 85 \\quad 92 \\quad 79 \\quad 101 \\quad 74 \\quad 95 \\quad 83 \\quad 99 \\quad 120 \\quad 87 \\quad 77 \\quad 90 \\quad 105 \\quad 66 \\quad 94 \\quad 108$",
@@ -137014,6 +137580,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-9i-backtoback",
    "label": "4c",
    "section": "Fluency",
    "stem": "The final scores of two basketball teams in their last $24$ games are shown. A back-to-back stem-and-leaf plot will help.<br>Riverside Rams: $118 \\quad 72 \\quad 84 \\quad 95 \\quad 91 \\quad 112 \\quad 86 \\quad 121 \\quad 109 \\quad 115 \\quad 88 \\quad 79 \\quad 83 \\quad 70 \\quad 90 \\quad 134 \\quad 103 \\quad 107 \\quad 125 \\quad 82 \\quad 96 \\quad 87 \\quad 98 \\quad 74$<br>Hilltop Hawks: $97 \\quad 81 \\quad 102 \\quad 76 \\quad 88 \\quad 93 \\quad 69 \\quad 110 \\quad 85 \\quad 92 \\quad 79 \\quad 101 \\quad 74 \\quad 95 \\quad 83 \\quad 99 \\quad 120 \\quad 87 \\quad 77 \\quad 90 \\quad 105 \\quad 66 \\quad 94 \\quad 108$",
@@ -137027,6 +137594,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-9i-build",
    "label": "5a",
    "section": "Fluency",
    "stem": "The maximum temperature each day for three weeks in autumn is shown below (in °C). Use a stem-and-leaf plot to find each value.<br>$22 \\quad 22 \\quad 19 \\quad 21 \\quad 23 \\quad 21 \\quad 25 \\quad 24 \\quad 19 \\quad 21 \\quad 19 \\quad 22 \\quad 23 \\quad 23 \\quad 24 \\quad 26 \\quad 23 \\quad 21 \\quad 23 \\quad 19 \\quad 21$",
@@ -137037,6 +137605,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-9i-build",
    "label": "5b",
    "section": "Fluency",
    "stem": "The maximum temperature each day for three weeks in autumn is shown below (in °C). Use a stem-and-leaf plot to find each value.<br>$22 \\quad 22 \\quad 19 \\quad 21 \\quad 23 \\quad 21 \\quad 25 \\quad 24 \\quad 19 \\quad 21 \\quad 19 \\quad 22 \\quad 23 \\quad 23 \\quad 24 \\quad 26 \\quad 23 \\quad 21 \\quad 23 \\quad 19 \\quad 21$",
@@ -137047,6 +137616,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-9i-build",
    "label": "5c",
    "section": "Fluency",
    "stem": "The maximum temperature each day for three weeks in autumn is shown below (in °C). Use a stem-and-leaf plot to find each value.<br>$22 \\quad 22 \\quad 19 \\quad 21 \\quad 23 \\quad 21 \\quad 25 \\quad 24 \\quad 19 \\quad 21 \\quad 19 \\quad 22 \\quad 23 \\quad 23 \\quad 24 \\quad 26 \\quad 23 \\quad 21 \\quad 23 \\quad 19 \\quad 21$",
@@ -137057,6 +137627,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-9i-read",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "This stem-and-leaf plot shows the time taken, in seconds, by Tama to swim $50$ m in his last $25$ races.",
@@ -137089,6 +137660,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-9i-read",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "This stem-and-leaf plot shows the time taken, in seconds, by Tama to swim $50$ m in his last $25$ races.",
@@ -137099,6 +137671,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y9-9i-read",
    "label": "6c",
    "section": "Problem-solving",
    "stem": "This stem-and-leaf plot shows the time taken, in seconds, by Tama to swim $50$ m in his last $25$ races.",
@@ -137109,6 +137682,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-9i-backtoback",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "Two brands of phone battery were tested to find how long they last, in hours, on a single charge. A back-to-back stem-and-leaf plot will help.<br>Brand A: $6.8 \\quad 7.4 \\quad 7.7 \\quad 7.9 \\quad 8.0 \\quad 8.2 \\quad 8.3 \\quad 8.5 \\quad 8.6 \\quad 8.7 \\quad 8.8 \\quad 8.9 \\quad 8.9 \\quad 9.0 \\quad 9.1 \\quad 9.1 \\quad 9.3 \\quad 9.4 \\quad 9.6 \\quad 9.8$<br>Brand B: $6.5 \\quad 6.6 \\quad 6.9 \\quad 7.0 \\quad 7.1 \\quad 7.3 \\quad 7.4 \\quad 7.4 \\quad 7.6 \\quad 7.8 \\quad 8.1 \\quad 8.6 \\quad 8.8 \\quad 8.9 \\quad 9.0 \\quad 9.2 \\quad 9.3 \\quad 9.5 \\quad 9.7 \\quad 9.9$",
@@ -137118,6 +137692,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-9i-backtoback",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "Two brands of phone battery were tested to find how long they last, in hours, on a single charge. A back-to-back stem-and-leaf plot will help.<br>Brand A: $6.8 \\quad 7.4 \\quad 7.7 \\quad 7.9 \\quad 8.0 \\quad 8.2 \\quad 8.3 \\quad 8.5 \\quad 8.6 \\quad 8.7 \\quad 8.8 \\quad 8.9 \\quad 8.9 \\quad 9.0 \\quad 9.1 \\quad 9.1 \\quad 9.3 \\quad 9.4 \\quad 9.6 \\quad 9.8$<br>Brand B: $6.5 \\quad 6.6 \\quad 6.9 \\quad 7.0 \\quad 7.1 \\quad 7.3 \\quad 7.4 \\quad 7.4 \\quad 7.6 \\quad 7.8 \\quad 8.1 \\quad 8.6 \\quad 8.8 \\quad 8.9 \\quad 9.0 \\quad 9.2 \\quad 9.3 \\quad 9.5 \\quad 9.7 \\quad 9.9$",
@@ -137127,6 +137702,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-9i-backtoback",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "Two brands of phone battery were tested to find how long they last, in hours, on a single charge. A back-to-back stem-and-leaf plot will help.<br>Brand A: $6.8 \\quad 7.4 \\quad 7.7 \\quad 7.9 \\quad 8.0 \\quad 8.2 \\quad 8.3 \\quad 8.5 \\quad 8.6 \\quad 8.7 \\quad 8.8 \\quad 8.9 \\quad 8.9 \\quad 9.0 \\quad 9.1 \\quad 9.1 \\quad 9.3 \\quad 9.4 \\quad 9.6 \\quad 9.8$<br>Brand B: $6.5 \\quad 6.6 \\quad 6.9 \\quad 7.0 \\quad 7.1 \\quad 7.3 \\quad 7.4 \\quad 7.4 \\quad 7.6 \\quad 7.8 \\quad 8.1 \\quad 8.6 \\quad 8.8 \\quad 8.9 \\quad 9.0 \\quad 9.2 \\quad 9.3 \\quad 9.5 \\quad 9.7 \\quad 9.9$",
@@ -137137,6 +137713,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y9-9i-backtoback",
    "label": "7d",
    "section": "Problem-solving",
    "stem": "Two brands of phone battery were tested to find how long they last, in hours, on a single charge. A back-to-back stem-and-leaf plot will help.<br>Brand A: $6.8 \\quad 7.4 \\quad 7.7 \\quad 7.9 \\quad 8.0 \\quad 8.2 \\quad 8.3 \\quad 8.5 \\quad 8.6 \\quad 8.7 \\quad 8.8 \\quad 8.9 \\quad 8.9 \\quad 9.0 \\quad 9.1 \\quad 9.1 \\quad 9.3 \\quad 9.4 \\quad 9.6 \\quad 9.8$<br>Brand B: $6.5 \\quad 6.6 \\quad 6.9 \\quad 7.0 \\quad 7.1 \\quad 7.3 \\quad 7.4 \\quad 7.4 \\quad 7.6 \\quad 7.8 \\quad 8.1 \\quad 8.6 \\quad 8.8 \\quad 8.9 \\quad 9.0 \\quad 9.2 \\quad 9.3 \\quad 9.5 \\quad 9.7 \\quad 9.9$",
@@ -137147,6 +137724,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-9i-read",
    "label": "8a",
    "section": "Reasoning",
    "stem": "This ordered stem-and-leaf plot has some unknown digits, $m$, $p$ and $q$.",
@@ -137178,6 +137756,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-9i-read",
    "label": "8b",
    "section": "Reasoning",
    "stem": "This ordered stem-and-leaf plot has some unknown digits, $m$, $p$ and $q$.",
@@ -137187,6 +137766,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y9-9i-read",
    "label": "8c",
    "section": "Reasoning",
    "stem": "This ordered stem-and-leaf plot has some unknown digits, $m$, $p$ and $q$.",
@@ -137205,6 +137785,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y9-9i-read",
    "label": "8d",
    "section": "Reasoning",
    "stem": "This ordered stem-and-leaf plot has some unknown digits, $m$, $p$ and $q$.",
@@ -137219,6 +137800,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-9i-backtoback",
    "label": "9a",
    "section": "Reasoning",
    "stem": "A farmer grew pumpkins in two paddocks, one with fertiliser and one without. The back-to-back stem-and-leaf plot shows the masses of the pumpkins in kilograms. Each stem is split in two: 2 holds the leaves 0 to 4 and 2* holds the leaves 5 to 9.",
@@ -137287,6 +137869,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-9i-backtoback",
    "label": "9b",
    "section": "Reasoning",
    "stem": "A farmer grew pumpkins in two paddocks, one with fertiliser and one without. The back-to-back stem-and-leaf plot shows the masses of the pumpkins in kilograms. Each stem is split in two: 2 holds the leaves 0 to 4 and 2* holds the leaves 5 to 9.",
@@ -137297,6 +137880,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y9-9i-backtoback",
    "label": "9c",
    "section": "Reasoning",
    "stem": "A farmer grew pumpkins in two paddocks, one with fertiliser and one without. The back-to-back stem-and-leaf plot shows the masses of the pumpkins in kilograms. Each stem is split in two: 2 holds the leaves 0 to 4 and 2* holds the leaves 5 to 9.",
@@ -137311,6 +137895,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y9-9i-backtoback",
    "label": "11a",
    "section": "Reasoning",
    "stem": "Find the median if all the data in each back-to-back stem-and-leaf plot is combined into one data set.",
@@ -137360,6 +137945,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y9-9i-backtoback",
    "label": "11b",
    "section": "Reasoning",
    "stem": "Find the median if all the data in each back-to-back stem-and-leaf plot is combined into one data set.",
@@ -137417,6 +138003,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y9-9i-skew",
    "label": "12a",
    "section": "Enrichment",
    "stem": "This stem-and-leaf plot shows a negatively skewed data set: its tail points towards the smaller numbers.",
@@ -137453,6 +138040,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y9-9i-skew",
    "label": "12b",
    "section": "Enrichment",
    "stem": "This stem-and-leaf plot shows a negatively skewed data set: its tail points towards the smaller numbers.",
@@ -137462,6 +138050,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y9-9i-skew",
    "label": "12c",
    "section": "Enrichment",
    "stem": "This stem-and-leaf plot shows a negatively skewed data set: its tail points towards the smaller numbers.",
@@ -137475,6 +138064,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12d",
+   "help": "y9-9i-skew",
    "label": "12d",
    "section": "Enrichment",
    "stem": "This stem-and-leaf plot shows a negatively skewed data set: its tail points towards the smaller numbers.",
@@ -137488,6 +138078,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12e",
+   "help": "y9-9i-skew",
    "label": "12e",
    "section": "Enrichment",
    "stem": "This stem-and-leaf plot shows a negatively skewed data set: its tail points towards the smaller numbers.",
@@ -137511,6 +138102,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-9j-freq",
    "label": "1a",
    "section": "Fluency",
    "stem": "The number of drinks sold from a juice stand each day over a $50$-day period is shown below.<br>$48 \\quad 9 \\quad 17 \\quad 12 \\quad 27 \\quad 21 \\quad 24 \\quad 13 \\quad 5 \\quad 11 \\quad 3 \\quad 3 \\quad 13 \\quad 33 \\quad 4 \\quad 5 \\quad 7 \\quad 25 \\quad 47 \\quad 17 \\quad 36 \\quad 31 \\quad 18 \\quad 16 \\quad 43 \\quad 26 \\quad 23 \\quad 36 \\quad 34 \\quad 1 \\quad 0 \\quad 21 \\quad 36 \\quad 15 \\quad 36 \\quad 7 \\quad 3 \\quad 7 \\quad 16 \\quad 8 \\quad 3 \\quad 29 \\quad 4 \\quad 9 \\quad 40 \\quad 46 \\quad 13 \\quad 3 \\quad 15 \\quad 8$<br>Use the class intervals 0-, 10-, 20-, 30- and 40-.",
@@ -137556,6 +138148,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-9j-freq",
    "label": "1b",
    "section": "Fluency",
    "stem": "The number of drinks sold from a juice stand each day over a $50$-day period is shown below.<br>$48 \\quad 9 \\quad 17 \\quad 12 \\quad 27 \\quad 21 \\quad 24 \\quad 13 \\quad 5 \\quad 11 \\quad 3 \\quad 3 \\quad 13 \\quad 33 \\quad 4 \\quad 5 \\quad 7 \\quad 25 \\quad 47 \\quad 17 \\quad 36 \\quad 31 \\quad 18 \\quad 16 \\quad 43 \\quad 26 \\quad 23 \\quad 36 \\quad 34 \\quad 1 \\quad 0 \\quad 21 \\quad 36 \\quad 15 \\quad 36 \\quad 7 \\quad 3 \\quad 7 \\quad 16 \\quad 8 \\quad 3 \\quad 29 \\quad 4 \\quad 9 \\quad 40 \\quad 46 \\quad 13 \\quad 3 \\quad 15 \\quad 8$<br>Use the class intervals 0-, 10-, 20-, 30- and 40-.",
@@ -137571,6 +138164,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-9j-freq",
    "label": "1c",
    "section": "Fluency",
    "stem": "The number of drinks sold from a juice stand each day over a $50$-day period is shown below.<br>$48 \\quad 9 \\quad 17 \\quad 12 \\quad 27 \\quad 21 \\quad 24 \\quad 13 \\quad 5 \\quad 11 \\quad 3 \\quad 3 \\quad 13 \\quad 33 \\quad 4 \\quad 5 \\quad 7 \\quad 25 \\quad 47 \\quad 17 \\quad 36 \\quad 31 \\quad 18 \\quad 16 \\quad 43 \\quad 26 \\quad 23 \\quad 36 \\quad 34 \\quad 1 \\quad 0 \\quad 21 \\quad 36 \\quad 15 \\quad 36 \\quad 7 \\quad 3 \\quad 7 \\quad 16 \\quad 8 \\quad 3 \\quad 29 \\quad 4 \\quad 9 \\quad 40 \\quad 46 \\quad 13 \\quad 3 \\quad 15 \\quad 8$<br>Use the class intervals 0-, 10-, 20-, 30- and 40-.",
@@ -137581,6 +138175,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-9j-freq",
    "label": "1d",
    "section": "Fluency",
    "stem": "The number of drinks sold from a juice stand each day over a $50$-day period is shown below.<br>$48 \\quad 9 \\quad 17 \\quad 12 \\quad 27 \\quad 21 \\quad 24 \\quad 13 \\quad 5 \\quad 11 \\quad 3 \\quad 3 \\quad 13 \\quad 33 \\quad 4 \\quad 5 \\quad 7 \\quad 25 \\quad 47 \\quad 17 \\quad 36 \\quad 31 \\quad 18 \\quad 16 \\quad 43 \\quad 26 \\quad 23 \\quad 36 \\quad 34 \\quad 1 \\quad 0 \\quad 21 \\quad 36 \\quad 15 \\quad 36 \\quad 7 \\quad 3 \\quad 7 \\quad 16 \\quad 8 \\quad 3 \\quad 29 \\quad 4 \\quad 9 \\quad 40 \\quad 46 \\quad 13 \\quad 3 \\quad 15 \\quad 8$<br>Use the class intervals 0-, 10-, 20-, 30- and 40-.",
@@ -137591,6 +138186,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-9j-freq",
    "label": "2a",
    "section": "Fluency",
    "stem": "The marks out of $100$ on a geography exam for $60$ Year $9$ students are shown below.<br>$68 \\quad 77 \\quad 57 \\quad 77 \\quad 82 \\quad 53 \\quad 63 \\quad 83 \\quad 95 \\quad 81 \\quad 83 \\quad 66 \\quad 56 \\quad 90 \\quad 77 \\quad 57 \\quad 94 \\quad 83 \\quad 63 \\quad 74 \\quad 84 \\quad 68 \\quad 53 \\quad 83 \\quad 83 \\quad 57 \\quad 85 \\quad 83 \\quad 67 \\quad 66 \\quad 73 \\quad 69 \\quad 94 \\quad 63 \\quad 50 \\quad 82 \\quad 97 \\quad 74 \\quad 56 \\quad 56 \\quad 65 \\quad 86 \\quad 95 \\quad 56 \\quad 82 \\quad 93 \\quad 81 \\quad 67 \\quad 50 \\quad 78 \\quad 85 \\quad 62 \\quad 80 \\quad 86 \\quad 70 \\quad 70 \\quad 77 \\quad 84 \\quad 65 \\quad 80$<br>Use the class intervals 50-, 60-, 70-, 80- and 90-.",
@@ -137635,6 +138231,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-9j-freq",
    "label": "2b",
    "section": "Fluency",
    "stem": "The marks out of $100$ on a geography exam for $60$ Year $9$ students are shown below.<br>$68 \\quad 77 \\quad 57 \\quad 77 \\quad 82 \\quad 53 \\quad 63 \\quad 83 \\quad 95 \\quad 81 \\quad 83 \\quad 66 \\quad 56 \\quad 90 \\quad 77 \\quad 57 \\quad 94 \\quad 83 \\quad 63 \\quad 74 \\quad 84 \\quad 68 \\quad 53 \\quad 83 \\quad 83 \\quad 57 \\quad 85 \\quad 83 \\quad 67 \\quad 66 \\quad 73 \\quad 69 \\quad 94 \\quad 63 \\quad 50 \\quad 82 \\quad 97 \\quad 74 \\quad 56 \\quad 56 \\quad 65 \\quad 86 \\quad 95 \\quad 56 \\quad 82 \\quad 93 \\quad 81 \\quad 67 \\quad 50 \\quad 78 \\quad 85 \\quad 62 \\quad 80 \\quad 86 \\quad 70 \\quad 70 \\quad 77 \\quad 84 \\quad 65 \\quad 80$<br>Use the class intervals 50-, 60-, 70-, 80- and 90-.",
@@ -137650,6 +138247,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-9j-freq",
    "label": "2c",
    "section": "Fluency",
    "stem": "The marks out of $100$ on a geography exam for $60$ Year $9$ students are shown below.<br>$68 \\quad 77 \\quad 57 \\quad 77 \\quad 82 \\quad 53 \\quad 63 \\quad 83 \\quad 95 \\quad 81 \\quad 83 \\quad 66 \\quad 56 \\quad 90 \\quad 77 \\quad 57 \\quad 94 \\quad 83 \\quad 63 \\quad 74 \\quad 84 \\quad 68 \\quad 53 \\quad 83 \\quad 83 \\quad 57 \\quad 85 \\quad 83 \\quad 67 \\quad 66 \\quad 73 \\quad 69 \\quad 94 \\quad 63 \\quad 50 \\quad 82 \\quad 97 \\quad 74 \\quad 56 \\quad 56 \\quad 65 \\quad 86 \\quad 95 \\quad 56 \\quad 82 \\quad 93 \\quad 81 \\quad 67 \\quad 50 \\quad 78 \\quad 85 \\quad 62 \\quad 80 \\quad 86 \\quad 70 \\quad 70 \\quad 77 \\quad 84 \\quad 65 \\quad 80$<br>Use the class intervals 50-, 60-, 70-, 80- and 90-.",
@@ -137659,6 +138257,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-9j-freq",
    "label": "2d",
    "section": "Fluency",
    "stem": "The marks out of $100$ on a geography exam for $60$ Year $9$ students are shown below.<br>$68 \\quad 77 \\quad 57 \\quad 77 \\quad 82 \\quad 53 \\quad 63 \\quad 83 \\quad 95 \\quad 81 \\quad 83 \\quad 66 \\quad 56 \\quad 90 \\quad 77 \\quad 57 \\quad 94 \\quad 83 \\quad 63 \\quad 74 \\quad 84 \\quad 68 \\quad 53 \\quad 83 \\quad 83 \\quad 57 \\quad 85 \\quad 83 \\quad 67 \\quad 66 \\quad 73 \\quad 69 \\quad 94 \\quad 63 \\quad 50 \\quad 82 \\quad 97 \\quad 74 \\quad 56 \\quad 56 \\quad 65 \\quad 86 \\quad 95 \\quad 56 \\quad 82 \\quad 93 \\quad 81 \\quad 67 \\quad 50 \\quad 78 \\quad 85 \\quad 62 \\quad 80 \\quad 86 \\quad 70 \\quad 70 \\quad 77 \\quad 84 \\quad 65 \\quad 80$<br>Use the class intervals 50-, 60-, 70-, 80- and 90-.",
@@ -137670,6 +138269,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-9j-freq",
    "label": "3a",
    "section": "Fluency",
    "stem": "The number of goals scored by a water polo player in each of her last $30$ matches is shown below.<br>$6 \\quad 8 \\quad 9 \\quad 2 \\quad 0 \\quad 9 \\quad 11 \\quad 7 \\quad 7 \\quad 14 \\quad 13 \\quad 13 \\quad 8 \\quad 6 \\quad 12 \\quad 10 \\quad 3 \\quad 5 \\quad 8 \\quad 11 \\quad 5 \\quad 3 \\quad 7 \\quad 5 \\quad 4 \\quad 0 \\quad 9 \\quad 5 \\quad 7 \\quad 11$",
@@ -137706,6 +138306,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-9j-freq",
    "label": "3b",
    "section": "Fluency",
    "stem": "The number of goals scored by a water polo player in each of her last $30$ matches is shown below.<br>$6 \\quad 8 \\quad 9 \\quad 2 \\quad 0 \\quad 9 \\quad 11 \\quad 7 \\quad 7 \\quad 14 \\quad 13 \\quad 13 \\quad 8 \\quad 6 \\quad 12 \\quad 10 \\quad 3 \\quad 5 \\quad 8 \\quad 11 \\quad 5 \\quad 3 \\quad 7 \\quad 5 \\quad 4 \\quad 0 \\quad 9 \\quad 5 \\quad 7 \\quad 11$",
@@ -137715,6 +138316,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-9j-freq",
    "label": "3c",
    "section": "Fluency",
    "stem": "The number of goals scored by a water polo player in each of her last $30$ matches is shown below.<br>$6 \\quad 8 \\quad 9 \\quad 2 \\quad 0 \\quad 9 \\quad 11 \\quad 7 \\quad 7 \\quad 14 \\quad 13 \\quad 13 \\quad 8 \\quad 6 \\quad 12 \\quad 10 \\quad 3 \\quad 5 \\quad 8 \\quad 11 \\quad 5 \\quad 3 \\quad 7 \\quad 5 \\quad 4 \\quad 0 \\quad 9 \\quad 5 \\quad 7 \\quad 11$",
@@ -137724,6 +138326,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-9j-histogram",
    "label": "4a",
    "section": "Fluency",
    "stem": "Does each histogram show a symmetrical data set or a skewed data set?",
@@ -137772,6 +138375,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-9j-histogram",
    "label": "4b",
    "section": "Fluency",
    "stem": "Does each histogram show a symmetrical data set or a skewed data set?",
@@ -137814,6 +138418,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-9j-unknowns",
    "label": "5a",
    "section": "Problem-solving",
    "stem": "Find the value of each pronumeral in frequency table A.",
@@ -137863,6 +138468,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-9j-unknowns",
    "label": "5b",
    "section": "Problem-solving",
    "stem": "Find the value of each pronumeral in frequency table A.",
@@ -137872,6 +138478,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-9j-unknowns",
    "label": "5c",
    "section": "Problem-solving",
    "stem": "Find the value of each pronumeral in frequency table A.",
@@ -137881,6 +138488,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-9j-unknowns",
    "label": "5d",
    "section": "Problem-solving",
    "stem": "Find the value of each pronumeral in frequency table A.",
@@ -137890,6 +138498,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y9-9j-unknowns",
    "label": "5e",
    "section": "Problem-solving",
    "stem": "Find the value of each pronumeral in frequency table A.",
@@ -137899,6 +138508,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y9-9j-unknowns",
    "label": "5f",
    "section": "Problem-solving",
    "stem": "Find the value of each pronumeral in frequency table A.",
@@ -137908,6 +138518,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5g",
+   "help": "y9-9j-unknowns",
    "label": "5g",
    "section": "Problem-solving",
    "stem": "Find the value of each pronumeral in frequency table A.",
@@ -137917,6 +138528,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5h",
+   "help": "y9-9j-unknowns",
    "label": "5h",
    "section": "Problem-solving",
    "stem": "Find the value of each pronumeral in frequency table B.",
@@ -137966,6 +138578,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5i",
+   "help": "y9-9j-unknowns",
    "label": "5i",
    "section": "Problem-solving",
    "stem": "Find the value of each pronumeral in frequency table B.",
@@ -137975,6 +138588,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5j",
+   "help": "y9-9j-unknowns",
    "label": "5j",
    "section": "Problem-solving",
    "stem": "Find the value of each pronumeral in frequency table B.",
@@ -137984,6 +138598,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5k",
+   "help": "y9-9j-unknowns",
    "label": "5k",
    "section": "Problem-solving",
    "stem": "Find the value of each pronumeral in frequency table B.",
@@ -137993,6 +138608,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5l",
+   "help": "y9-9j-unknowns",
    "label": "5l",
    "section": "Problem-solving",
    "stem": "Find the value of each pronumeral in frequency table B.",
@@ -138002,6 +138618,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5m",
+   "help": "y9-9j-unknowns",
    "label": "5m",
    "section": "Problem-solving",
    "stem": "Find the value of each pronumeral in frequency table B.",
@@ -138011,6 +138628,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5n",
+   "help": "y9-9j-unknowns",
    "label": "5n",
    "section": "Problem-solving",
    "stem": "Find the value of each pronumeral in frequency table B.",
@@ -138020,6 +138638,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-9j-histogram",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "This percentage frequency histogram shows the heights of the trees in a park.",
@@ -138060,6 +138679,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-9j-histogram",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "This percentage frequency histogram shows the heights of the trees in a park.",
@@ -138070,6 +138690,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y9-9j-histogram",
    "label": "6c",
    "section": "Problem-solving",
    "stem": "This percentage frequency histogram shows the heights of the trees in a park.",
@@ -138080,6 +138701,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y9-9j-histogram",
    "label": "6d",
    "section": "Problem-solving",
    "stem": "This percentage frequency histogram shows the heights of the trees in a park.",
@@ -138090,6 +138712,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6e",
+   "help": "y9-9j-histogram",
    "label": "6e",
    "section": "Problem-solving",
    "stem": "This percentage frequency histogram shows the heights of the trees in a park.",
@@ -138100,6 +138723,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6f",
+   "help": "y9-9j-histogram",
    "label": "6f",
    "section": "Problem-solving",
    "stem": "This percentage frequency histogram shows the heights of the trees in a park.",
@@ -138110,6 +138734,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6g",
+   "help": "y9-9j-histogram",
    "label": "6g",
    "section": "Problem-solving",
    "stem": "This percentage frequency histogram shows the heights of the trees in a park.",
@@ -138120,6 +138745,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6h",
+   "help": "y9-9j-histogram",
    "label": "6h",
    "section": "Problem-solving",
    "stem": "This percentage frequency histogram shows the heights of the trees in a park.",
@@ -138130,6 +138756,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6i",
+   "help": "y9-9j-histogram",
    "label": "6i",
    "section": "Problem-solving",
    "stem": "This percentage frequency histogram shows the heights of the trees in a park.",
@@ -138140,6 +138767,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7",
+   "help": "y9-9j-freq",
    "label": "7",
    "section": "Problem-solving",
    "type": "numeric",
@@ -138150,6 +138778,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9",
+   "help": "y9-9j-histogram",
    "label": "9",
    "section": "Reasoning",
    "type": "choice",
@@ -138164,6 +138793,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y9-9j-histogram",
    "label": "10a",
    "section": "Reasoning",
    "stem": "Two students drew different histograms for the same set of data.",
@@ -138233,6 +138863,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y9-9j-histogram",
    "label": "10b",
    "section": "Reasoning",
    "stem": "Two students drew different histograms for the same set of data.",
@@ -138248,6 +138879,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y9-9j-freq",
    "label": "11a",
    "section": "Enrichment",
    "stem": "The weekly wages, in dollars, of $50$ people are shown below.<br>$432 \\quad 412 \\quad 562 \\quad 866 \\quad 354 \\quad 582 \\quad 666 \\quad 294 \\quad 954 \\quad 726 \\quad 400 \\quad 304 \\quad 824 \\quad 556 \\quad 884 \\quad 908 \\quad 318 \\quad 658 \\quad 360 \\quad 856 \\quad 788 \\quad 390 \\quad 488 \\quad 252 \\quad 590 \\quad 700 \\quad 502 \\quad 564 \\quad 528 \\quad 432 \\quad 338 \\quad 860 \\quad 744 \\quad 808 \\quad 680 \\quad 572 \\quad 652 \\quad 332 \\quad 692 \\quad 820 \\quad 350 \\quad 220 \\quad 666 \\quad 508 \\quad 434 \\quad 348 \\quad 672 \\quad 458 \\quad 752 \\quad 244$",
@@ -138258,6 +138890,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y9-9j-freq",
    "label": "11b",
    "section": "Enrichment",
    "stem": "The weekly wages, in dollars, of $50$ people are shown below.<br>$432 \\quad 412 \\quad 562 \\quad 866 \\quad 354 \\quad 582 \\quad 666 \\quad 294 \\quad 954 \\quad 726 \\quad 400 \\quad 304 \\quad 824 \\quad 556 \\quad 884 \\quad 908 \\quad 318 \\quad 658 \\quad 360 \\quad 856 \\quad 788 \\quad 390 \\quad 488 \\quad 252 \\quad 590 \\quad 700 \\quad 502 \\quad 564 \\quad 528 \\quad 432 \\quad 338 \\quad 860 \\quad 744 \\quad 808 \\quad 680 \\quad 572 \\quad 652 \\quad 332 \\quad 692 \\quad 820 \\quad 350 \\quad 220 \\quad 666 \\quad 508 \\quad 434 \\quad 348 \\quad 672 \\quad 458 \\quad 752 \\quad 244$",
@@ -138268,6 +138901,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y9-9j-freq",
    "label": "11c",
    "section": "Enrichment",
    "stem": "The weekly wages, in dollars, of $50$ people are shown below.<br>$432 \\quad 412 \\quad 562 \\quad 866 \\quad 354 \\quad 582 \\quad 666 \\quad 294 \\quad 954 \\quad 726 \\quad 400 \\quad 304 \\quad 824 \\quad 556 \\quad 884 \\quad 908 \\quad 318 \\quad 658 \\quad 360 \\quad 856 \\quad 788 \\quad 390 \\quad 488 \\quad 252 \\quad 590 \\quad 700 \\quad 502 \\quad 564 \\quad 528 \\quad 432 \\quad 338 \\quad 860 \\quad 744 \\quad 808 \\quad 680 \\quad 572 \\quad 652 \\quad 332 \\quad 692 \\quad 820 \\quad 350 \\quad 220 \\quad 666 \\quad 508 \\quad 434 \\quad 348 \\quad 672 \\quad 458 \\quad 752 \\quad 244$",
@@ -138287,6 +138921,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11d",
+   "help": "y9-9j-freq",
    "label": "11d",
    "section": "Enrichment",
    "stem": "The weekly wages, in dollars, of $50$ people are shown below.<br>$432 \\quad 412 \\quad 562 \\quad 866 \\quad 354 \\quad 582 \\quad 666 \\quad 294 \\quad 954 \\quad 726 \\quad 400 \\quad 304 \\quad 824 \\quad 556 \\quad 884 \\quad 908 \\quad 318 \\quad 658 \\quad 360 \\quad 856 \\quad 788 \\quad 390 \\quad 488 \\quad 252 \\quad 590 \\quad 700 \\quad 502 \\quad 564 \\quad 528 \\quad 432 \\quad 338 \\quad 860 \\quad 744 \\quad 808 \\quad 680 \\quad 572 \\quad 652 \\quad 332 \\quad 692 \\quad 820 \\quad 350 \\quad 220 \\quad 666 \\quad 508 \\quad 434 \\quad 348 \\quad 672 \\quad 458 \\quad 752 \\quad 244$",
@@ -138310,6 +138945,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-9k-odd",
    "label": "1a",
    "section": "Fluency",
    "stem": "For each data set, answer the questions.",
@@ -138334,6 +138970,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-9k-odd",
    "label": "1b",
    "section": "Fluency",
    "stem": "For each data set, answer the questions.",
@@ -138343,6 +138980,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-9k-odd",
    "label": "1c",
    "section": "Fluency",
    "stem": "For each data set, answer the questions.",
@@ -138352,6 +138990,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-9k-odd",
    "label": "1d",
    "section": "Fluency",
    "stem": "For each data set, answer the questions.",
@@ -138361,6 +139000,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-9k-odd",
    "label": "1e",
    "section": "Fluency",
    "stem": "For each data set, answer the questions.",
@@ -138370,6 +139010,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-9k-odd",
    "label": "1f",
    "section": "Fluency",
    "stem": "For each data set, answer the questions.",
@@ -138379,6 +139020,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1g",
+   "help": "y9-9k-odd",
    "label": "1g",
    "section": "Fluency",
    "stem": "For each data set, answer the questions.",
@@ -138402,6 +139044,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1h",
+   "help": "y9-9k-odd",
    "label": "1h",
    "section": "Fluency",
    "stem": "For each data set, answer the questions.",
@@ -138411,6 +139054,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1i",
+   "help": "y9-9k-odd",
    "label": "1i",
    "section": "Fluency",
    "stem": "For each data set, answer the questions.",
@@ -138420,6 +139064,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1j",
+   "help": "y9-9k-odd",
    "label": "1j",
    "section": "Fluency",
    "stem": "For each data set, answer the questions.",
@@ -138429,6 +139074,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1k",
+   "help": "y9-9k-odd",
    "label": "1k",
    "section": "Fluency",
    "stem": "For each data set, answer the questions.",
@@ -138438,6 +139084,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1l",
+   "help": "y9-9k-odd",
    "label": "1l",
    "section": "Fluency",
    "stem": "For each data set, answer the questions.",
@@ -138447,6 +139094,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1m",
+   "help": "y9-9k-odd",
    "label": "1m",
    "section": "Fluency",
    "stem": "For each data set, answer the questions.",
@@ -138466,6 +139114,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1n",
+   "help": "y9-9k-odd",
    "label": "1n",
    "section": "Fluency",
    "stem": "For each data set, answer the questions.",
@@ -138475,6 +139124,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1o",
+   "help": "y9-9k-odd",
    "label": "1o",
    "section": "Fluency",
    "stem": "For each data set, answer the questions.",
@@ -138484,6 +139134,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1p",
+   "help": "y9-9k-odd",
    "label": "1p",
    "section": "Fluency",
    "stem": "For each data set, answer the questions.",
@@ -138493,6 +139144,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1q",
+   "help": "y9-9k-odd",
    "label": "1q",
    "section": "Fluency",
    "stem": "For each data set, answer the questions.",
@@ -138502,6 +139154,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1r",
+   "help": "y9-9k-odd",
    "label": "1r",
    "section": "Fluency",
    "stem": "For each data set, answer the questions.",
@@ -138511,6 +139164,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-9k-odd",
    "label": "2a",
    "section": "Fluency",
    "stem": "For each data set, answer the questions.",
@@ -138537,6 +139191,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-9k-odd",
    "label": "2b",
    "section": "Fluency",
    "stem": "For each data set, answer the questions.",
@@ -138546,6 +139201,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-9k-odd",
    "label": "2c",
    "section": "Fluency",
    "stem": "For each data set, answer the questions.",
@@ -138555,6 +139211,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-9k-odd",
    "label": "2d",
    "section": "Fluency",
    "stem": "For each data set, answer the questions.",
@@ -138564,6 +139221,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-9k-odd",
    "label": "2e",
    "section": "Fluency",
    "stem": "For each data set, answer the questions.",
@@ -138573,6 +139231,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-9k-odd",
    "label": "2f",
    "section": "Fluency",
    "stem": "For each data set, answer the questions.",
@@ -138582,6 +139241,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y9-9k-odd",
    "label": "2g",
    "section": "Fluency",
    "stem": "For each data set, answer the questions.",
@@ -138601,6 +139261,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y9-9k-odd",
    "label": "2h",
    "section": "Fluency",
    "stem": "For each data set, answer the questions.",
@@ -138610,6 +139271,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2i",
+   "help": "y9-9k-odd",
    "label": "2i",
    "section": "Fluency",
    "stem": "For each data set, answer the questions.",
@@ -138619,6 +139281,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2j",
+   "help": "y9-9k-odd",
    "label": "2j",
    "section": "Fluency",
    "stem": "For each data set, answer the questions.",
@@ -138628,6 +139291,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2k",
+   "help": "y9-9k-odd",
    "label": "2k",
    "section": "Fluency",
    "stem": "For each data set, answer the questions.",
@@ -138637,6 +139301,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2l",
+   "help": "y9-9k-odd",
    "label": "2l",
    "section": "Fluency",
    "stem": "For each data set, answer the questions.",
@@ -138646,6 +139311,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2m",
+   "help": "y9-9k-odd",
    "label": "2m",
    "section": "Fluency",
    "stem": "For each data set, answer the questions.",
@@ -138663,6 +139329,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2n",
+   "help": "y9-9k-odd",
    "label": "2n",
    "section": "Fluency",
    "stem": "For each data set, answer the questions.",
@@ -138672,6 +139339,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2o",
+   "help": "y9-9k-odd",
    "label": "2o",
    "section": "Fluency",
    "stem": "For each data set, answer the questions.",
@@ -138681,6 +139349,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2p",
+   "help": "y9-9k-odd",
    "label": "2p",
    "section": "Fluency",
    "stem": "For each data set, answer the questions.",
@@ -138690,6 +139359,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2q",
+   "help": "y9-9k-odd",
    "label": "2q",
    "section": "Fluency",
    "stem": "For each data set, answer the questions.",
@@ -138699,6 +139369,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2r",
+   "help": "y9-9k-odd",
    "label": "2r",
    "section": "Fluency",
    "stem": "For each data set, answer the questions.",
@@ -138708,6 +139379,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-9k-even",
    "label": "3a",
    "section": "Fluency",
    "stem": "The ten highest box office takings for a group of films, in millions of dollars, are:<br>$1612 \\quad 1485 \\quad 1798 \\quad 2236 \\quad 2310 \\quad 2954 \\quad 2190 \\quad 1427 \\quad 1503 \\quad 1398$",
@@ -138718,6 +139390,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-9k-even",
    "label": "3b",
    "section": "Fluency",
    "stem": "The ten highest box office takings for a group of films, in millions of dollars, are:<br>$1612 \\quad 1485 \\quad 1798 \\quad 2236 \\quad 2310 \\quad 2954 \\quad 2190 \\quad 1427 \\quad 1503 \\quad 1398$",
@@ -138728,6 +139401,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-9k-even",
    "label": "3c",
    "section": "Fluency",
    "stem": "The ten highest box office takings for a group of films, in millions of dollars, are:<br>$1612 \\quad 1485 \\quad 1798 \\quad 2236 \\quad 2310 \\quad 2954 \\quad 2190 \\quad 1427 \\quad 1503 \\quad 1398$",
@@ -138738,6 +139412,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-9k-even",
    "label": "3d",
    "section": "Fluency",
    "stem": "The ten highest box office takings for a group of films, in millions of dollars, are:<br>$1612 \\quad 1485 \\quad 1798 \\quad 2236 \\quad 2310 \\quad 2954 \\quad 2190 \\quad 1427 \\quad 1503 \\quad 1398$",
@@ -138748,6 +139423,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-9k-even",
    "label": "3e",
    "section": "Fluency",
    "stem": "The ten highest box office takings for a group of films, in millions of dollars, are:<br>$1612 \\quad 1485 \\quad 1798 \\quad 2236 \\quad 2310 \\quad 2954 \\quad 2190 \\quad 1427 \\quad 1503 \\quad 1398$",
@@ -138758,6 +139434,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-9k-even",
    "label": "3f",
    "section": "Fluency",
    "stem": "The ten highest box office takings for a group of films, in millions of dollars, are:<br>$1612 \\quad 1485 \\quad 1798 \\quad 2236 \\quad 2310 \\quad 2954 \\quad 2190 \\quad 1427 \\quad 1503 \\quad 1398$",
@@ -138773,6 +139450,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-9k-even",
    "label": "4a",
    "section": "Fluency",
    "stem": "The running times, in minutes, of $16$ movies showing at a cinema are:<br>$118 \\quad 104 \\quad 95 \\quad 126 \\quad 99 \\quad 141 \\quad 109 \\quad 135 \\quad 121 \\quad 148 \\quad 51 \\quad 92 \\quad 157 \\quad 113 \\quad 122 \\quad 131$",
@@ -138783,6 +139461,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-9k-even",
    "label": "4b",
    "section": "Fluency",
    "stem": "The running times, in minutes, of $16$ movies showing at a cinema are:<br>$118 \\quad 104 \\quad 95 \\quad 126 \\quad 99 \\quad 141 \\quad 109 \\quad 135 \\quad 121 \\quad 148 \\quad 51 \\quad 92 \\quad 157 \\quad 113 \\quad 122 \\quad 131$",
@@ -138793,6 +139472,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-9k-even",
    "label": "4c",
    "section": "Fluency",
    "stem": "The running times, in minutes, of $16$ movies showing at a cinema are:<br>$118 \\quad 104 \\quad 95 \\quad 126 \\quad 99 \\quad 141 \\quad 109 \\quad 135 \\quad 121 \\quad 148 \\quad 51 \\quad 92 \\quad 157 \\quad 113 \\quad 122 \\quad 131$",
@@ -138803,6 +139483,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-9k-even",
    "label": "4d",
    "section": "Fluency",
    "stem": "The running times, in minutes, of $16$ movies showing at a cinema are:<br>$118 \\quad 104 \\quad 95 \\quad 126 \\quad 99 \\quad 141 \\quad 109 \\quad 135 \\quad 121 \\quad 148 \\quad 51 \\quad 92 \\quad 157 \\quad 113 \\quad 122 \\quad 131$",
@@ -138813,6 +139494,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y9-9k-even",
    "label": "4e",
    "section": "Fluency",
    "stem": "The running times, in minutes, of $16$ movies showing at a cinema are:<br>$118 \\quad 104 \\quad 95 \\quad 126 \\quad 99 \\quad 141 \\quad 109 \\quad 135 \\quad 121 \\quad 148 \\quad 51 \\quad 92 \\quad 157 \\quad 113 \\quad 122 \\quad 131$",
@@ -138823,6 +139505,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y9-9k-even",
    "label": "4f",
    "section": "Fluency",
    "stem": "The running times, in minutes, of $16$ movies showing at a cinema are:<br>$118 \\quad 104 \\quad 95 \\quad 126 \\quad 99 \\quad 141 \\quad 109 \\quad 135 \\quad 121 \\quad 148 \\quad 51 \\quad 92 \\quad 157 \\quad 113 \\quad 122 \\quad 131$",
@@ -138838,6 +139521,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-9k-even",
    "label": "5a",
    "section": "Problem-solving",
    "stem": "The sale prices, in thousands of dollars, of $14$ vintage motorbikes are:<br>$72 \\quad 38 \\quad 64 \\quad 35 \\quad 15 \\quad 49 \\quad 64 \\quad 88 \\quad 412 \\quad 51 \\quad 58 \\quad 64 \\quad 69 \\quad 27$",
@@ -138847,6 +139531,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-9k-even",
    "label": "5b",
    "section": "Problem-solving",
    "stem": "The sale prices, in thousands of dollars, of $14$ vintage motorbikes are:<br>$72 \\quad 38 \\quad 64 \\quad 35 \\quad 15 \\quad 49 \\quad 64 \\quad 88 \\quad 412 \\quad 51 \\quad 58 \\quad 64 \\quad 69 \\quad 27$",
@@ -138856,6 +139541,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-9k-even",
    "label": "5c",
    "section": "Problem-solving",
    "stem": "The sale prices, in thousands of dollars, of $14$ vintage motorbikes are:<br>$72 \\quad 38 \\quad 64 \\quad 35 \\quad 15 \\quad 49 \\quad 64 \\quad 88 \\quad 412 \\quad 51 \\quad 58 \\quad 64 \\quad 69 \\quad 27$",
@@ -138865,6 +139551,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-9k-even",
    "label": "5d",
    "section": "Problem-solving",
    "stem": "The sale prices, in thousands of dollars, of $14$ vintage motorbikes are:<br>$72 \\quad 38 \\quad 64 \\quad 35 \\quad 15 \\quad 49 \\quad 64 \\quad 88 \\quad 412 \\quad 51 \\quad 58 \\quad 64 \\quad 69 \\quad 27$",
@@ -138874,6 +139561,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y9-9k-even",
    "label": "5e",
    "section": "Problem-solving",
    "stem": "The sale prices, in thousands of dollars, of $14$ vintage motorbikes are:<br>$72 \\quad 38 \\quad 64 \\quad 35 \\quad 15 \\quad 49 \\quad 64 \\quad 88 \\quad 412 \\quad 51 \\quad 58 \\quad 64 \\quad 69 \\quad 27$",
@@ -138883,6 +139571,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y9-9k-even",
    "label": "5f",
    "section": "Problem-solving",
    "stem": "The sale prices, in thousands of dollars, of $14$ vintage motorbikes are:<br>$72 \\quad 38 \\quad 64 \\quad 35 \\quad 15 \\quad 49 \\quad 64 \\quad 88 \\quad 412 \\quad 51 \\quad 58 \\quad 64 \\quad 69 \\quad 27$",
@@ -138892,6 +139581,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5g",
+   "help": "y9-9k-even",
    "label": "5g",
    "section": "Problem-solving",
    "stem": "The sale prices, in thousands of dollars, of $14$ vintage motorbikes are:<br>$72 \\quad 38 \\quad 64 \\quad 35 \\quad 15 \\quad 49 \\quad 64 \\quad 88 \\quad 412 \\quad 51 \\quad 58 \\quad 64 \\quad 69 \\quad 27$",
@@ -138907,6 +139597,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5h",
+   "help": "y9-9k-even",
    "label": "5h",
    "section": "Problem-solving",
    "stem": "The sale prices, in thousands of dollars, of $14$ vintage motorbikes are:<br>$72 \\quad 38 \\quad 64 \\quad 35 \\quad 15 \\quad 49 \\quad 64 \\quad 88 \\quad 412 \\quad 51 \\quad 58 \\quad 64 \\quad 69 \\quad 27$",
@@ -138922,6 +139613,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-9k-table",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "Find the interquartile range for the data in each stem-and-leaf plot.",
@@ -138953,6 +139645,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-9k-table",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "Find the interquartile range for the data in each stem-and-leaf plot.",
@@ -138988,6 +139681,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-9k-table",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "Over $30$ days, Ivy records how many kookaburras visit her backyard each day. The data is shown in this frequency table.",
@@ -139020,6 +139714,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-9k-table",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "Over $30$ days, Ivy records how many kookaburras visit her backyard each day. The data is shown in this frequency table.",
@@ -139029,6 +139724,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-9k-table",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "Over $30$ days, Ivy records how many kookaburras visit her backyard each day. The data is shown in this frequency table.",
@@ -139042,6 +139738,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8",
+   "help": "y9-9k-reason",
    "label": "8",
    "section": "Reasoning",
    "type": "choice",
@@ -139054,6 +139751,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-9k-reason",
    "label": "9a",
    "section": "Reasoning",
    "stem": "A bike shop has more than $10$ bikes for sale. One expensive bike is priced at \\$45 000 and the rest are all priced near \\$4000. The owner realises the expensive bike's price has one too many zeros: it should be \\$4500.",
@@ -139067,6 +139765,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-9k-reason",
    "label": "9b",
    "section": "Reasoning",
    "stem": "A bike shop has more than $10$ bikes for sale. One expensive bike is priced at \\$45 000 and the rest are all priced near \\$4000. The owner realises the expensive bike's price has one too many zeros: it should be \\$4500.",
@@ -139080,6 +139779,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y9-9k-reason",
    "label": "9c",
    "section": "Reasoning",
    "stem": "A bike shop has more than $10$ bikes for sale. One expensive bike is priced at \\$45 000 and the rest are all priced near \\$4000. The owner realises the expensive bike's price has one too many zeros: it should be \\$4500.",
@@ -139093,6 +139793,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y9-9k-reason",
    "label": "10a",
    "section": "Reasoning",
    "type": "choice",
@@ -139105,6 +139806,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y9-9k-reason",
    "label": "10b",
    "section": "Reasoning",
    "type": "choice",
@@ -139117,6 +139819,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y9-9k-even",
    "label": "11a",
    "section": "Enrichment",
    "stem": "The numbers of marshmallows in $10$ bags bought from each of two shops, A and B, are shown.<br>Shop A: $31 \\quad 32 \\quad 30 \\quad 30 \\quad 34 \\quad 32 \\quad 33 \\quad 31 \\quad 32 \\quad 34$<br>Shop B: $28 \\quad 32 \\quad 27 \\quad 30 \\quad 35 \\quad 25 \\quad 31 \\quad 33 \\quad 37 \\quad 28$",
@@ -139126,6 +139829,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y9-9k-even",
    "label": "11b",
    "section": "Enrichment",
    "stem": "The numbers of marshmallows in $10$ bags bought from each of two shops, A and B, are shown.<br>Shop A: $31 \\quad 32 \\quad 30 \\quad 30 \\quad 34 \\quad 32 \\quad 33 \\quad 31 \\quad 32 \\quad 34$<br>Shop B: $28 \\quad 32 \\quad 27 \\quad 30 \\quad 35 \\quad 25 \\quad 31 \\quad 33 \\quad 37 \\quad 28$",
@@ -139135,6 +139839,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y9-9k-even",
    "label": "11c",
    "section": "Enrichment",
    "stem": "The numbers of marshmallows in $10$ bags bought from each of two shops, A and B, are shown.<br>Shop A: $31 \\quad 32 \\quad 30 \\quad 30 \\quad 34 \\quad 32 \\quad 33 \\quad 31 \\quad 32 \\quad 34$<br>Shop B: $28 \\quad 32 \\quad 27 \\quad 30 \\quad 35 \\quad 25 \\quad 31 \\quad 33 \\quad 37 \\quad 28$",
@@ -139144,6 +139849,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11d",
+   "help": "y9-9k-even",
    "label": "11d",
    "section": "Enrichment",
    "stem": "The numbers of marshmallows in $10$ bags bought from each of two shops, A and B, are shown.<br>Shop A: $31 \\quad 32 \\quad 30 \\quad 30 \\quad 34 \\quad 32 \\quad 33 \\quad 31 \\quad 32 \\quad 34$<br>Shop B: $28 \\quad 32 \\quad 27 \\quad 30 \\quad 35 \\quad 25 \\quad 31 \\quad 33 \\quad 37 \\quad 28$",
@@ -139153,6 +139859,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11e",
+   "help": "y9-9k-even",
    "label": "11e",
    "section": "Enrichment",
    "stem": "The numbers of marshmallows in $10$ bags bought from each of two shops, A and B, are shown.<br>Shop A: $31 \\quad 32 \\quad 30 \\quad 30 \\quad 34 \\quad 32 \\quad 33 \\quad 31 \\quad 32 \\quad 34$<br>Shop B: $28 \\quad 32 \\quad 27 \\quad 30 \\quad 35 \\quad 25 \\quad 31 \\quad 33 \\quad 37 \\quad 28$",
@@ -139162,6 +139869,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11f",
+   "help": "y9-9k-even",
    "label": "11f",
    "section": "Enrichment",
    "stem": "The numbers of marshmallows in $10$ bags bought from each of two shops, A and B, are shown.<br>Shop A: $31 \\quad 32 \\quad 30 \\quad 30 \\quad 34 \\quad 32 \\quad 33 \\quad 31 \\quad 32 \\quad 34$<br>Shop B: $28 \\quad 32 \\quad 27 \\quad 30 \\quad 35 \\quad 25 \\quad 31 \\quad 33 \\quad 37 \\quad 28$",
@@ -139171,6 +139879,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11g",
+   "help": "y9-9k-even",
    "label": "11g",
    "section": "Enrichment",
    "stem": "The numbers of marshmallows in $10$ bags bought from each of two shops, A and B, are shown.<br>Shop A: $31 \\quad 32 \\quad 30 \\quad 30 \\quad 34 \\quad 32 \\quad 33 \\quad 31 \\quad 32 \\quad 34$<br>Shop B: $28 \\quad 32 \\quad 27 \\quad 30 \\quad 35 \\quad 25 \\quad 31 \\quad 33 \\quad 37 \\quad 28$",
@@ -139180,6 +139889,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11h",
+   "help": "y9-9k-even",
    "label": "11h",
    "section": "Enrichment",
    "stem": "The numbers of marshmallows in $10$ bags bought from each of two shops, A and B, are shown.<br>Shop A: $31 \\quad 32 \\quad 30 \\quad 30 \\quad 34 \\quad 32 \\quad 33 \\quad 31 \\quad 32 \\quad 34$<br>Shop B: $28 \\quad 32 \\quad 27 \\quad 30 \\quad 35 \\quad 25 \\quad 31 \\quad 33 \\quad 37 \\quad 28$",
@@ -139189,6 +139899,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11i",
+   "help": "y9-9k-even",
    "label": "11i",
    "section": "Enrichment",
    "stem": "The numbers of marshmallows in $10$ bags bought from each of two shops, A and B, are shown.<br>Shop A: $31 \\quad 32 \\quad 30 \\quad 30 \\quad 34 \\quad 32 \\quad 33 \\quad 31 \\quad 32 \\quad 34$<br>Shop B: $28 \\quad 32 \\quad 27 \\quad 30 \\quad 35 \\quad 25 \\quad 31 \\quad 33 \\quad 37 \\quad 28$",
@@ -139198,6 +139909,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11j",
+   "help": "y9-9k-even",
    "label": "11j",
    "section": "Enrichment",
    "stem": "The numbers of marshmallows in $10$ bags bought from each of two shops, A and B, are shown.<br>Shop A: $31 \\quad 32 \\quad 30 \\quad 30 \\quad 34 \\quad 32 \\quad 33 \\quad 31 \\quad 32 \\quad 34$<br>Shop B: $28 \\quad 32 \\quad 27 \\quad 30 \\quad 35 \\quad 25 \\quad 31 \\quad 33 \\quad 37 \\quad 28$",
@@ -139207,6 +139919,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11k",
+   "help": "y9-9k-even",
    "label": "11k",
    "section": "Enrichment",
    "stem": "The numbers of marshmallows in $10$ bags bought from each of two shops, A and B, are shown.<br>Shop A: $31 \\quad 32 \\quad 30 \\quad 30 \\quad 34 \\quad 32 \\quad 33 \\quad 31 \\quad 32 \\quad 34$<br>Shop B: $28 \\quad 32 \\quad 27 \\quad 30 \\quad 35 \\quad 25 \\quad 31 \\quad 33 \\quad 37 \\quad 28$",
@@ -139229,6 +139942,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-9l-read",
    "label": "1a",
    "section": "Fluency",
    "stem": "This box plot summarises the heights of tomato seedlings in a nursery after four weeks.",
@@ -139257,6 +139971,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-9l-read",
    "label": "1b",
    "section": "Fluency",
    "stem": "This box plot summarises the heights of tomato seedlings in a nursery after four weeks.",
@@ -139267,6 +139982,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-9l-read",
    "label": "1c",
    "section": "Fluency",
    "stem": "This box plot summarises the heights of tomato seedlings in a nursery after four weeks.",
@@ -139277,6 +139993,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-9l-read",
    "label": "1d",
    "section": "Fluency",
    "stem": "This box plot summarises the heights of tomato seedlings in a nursery after four weeks.",
@@ -139287,6 +140004,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-9l-read",
    "label": "1e",
    "section": "Fluency",
    "stem": "This box plot summarises the heights of tomato seedlings in a nursery after four weeks.",
@@ -139297,6 +140015,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-9l-read",
    "label": "1f",
    "section": "Fluency",
    "stem": "This box plot summarises the heights of tomato seedlings in a nursery after four weeks.",
@@ -139307,6 +140026,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1g",
+   "help": "y9-9l-read",
    "label": "1g",
    "section": "Fluency",
    "stem": "This box plot summarises the heights of tomato seedlings in a nursery after four weeks.",
@@ -139317,6 +140037,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1h",
+   "help": "y9-9l-read",
    "label": "1h",
    "section": "Fluency",
    "stem": "This box plot summarises the heights of tomato seedlings in a nursery after four weeks.",
@@ -139327,6 +140048,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-9l-read",
    "label": "2a",
    "section": "Fluency",
    "stem": "This box plot summarises the number of emails a small business received each day over an $80$-day period.",
@@ -139354,6 +140076,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-9l-read",
    "label": "2b",
    "section": "Fluency",
    "stem": "This box plot summarises the number of emails a small business received each day over an $80$-day period.",
@@ -139363,6 +140086,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-9l-read",
    "label": "2c",
    "section": "Fluency",
    "stem": "This box plot summarises the number of emails a small business received each day over an $80$-day period.",
@@ -139372,6 +140096,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-9l-read",
    "label": "2d",
    "section": "Fluency",
    "stem": "This box plot summarises the number of emails a small business received each day over an $80$-day period.",
@@ -139381,6 +140106,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-9l-read",
    "label": "2e",
    "section": "Fluency",
    "stem": "This box plot summarises the number of emails a small business received each day over an $80$-day period.",
@@ -139390,6 +140116,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-9l-read",
    "label": "2f",
    "section": "Fluency",
    "stem": "This box plot summarises the number of emails a small business received each day over an $80$-day period.",
@@ -139399,6 +140126,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y9-9l-read",
    "label": "2g",
    "section": "Fluency",
    "stem": "This box plot summarises the number of emails a small business received each day over an $80$-day period.",
@@ -139408,6 +140136,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y9-9l-read",
    "label": "2h",
    "section": "Fluency",
    "stem": "This box plot summarises the number of emails a small business received each day over an $80$-day period.",
@@ -139418,6 +140147,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-9l-build",
    "label": "3a",
    "section": "Fluency",
    "stem": "For each data set, find the five values you need to draw a box plot.",
@@ -139427,6 +140157,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-9l-build",
    "label": "3b",
    "section": "Fluency",
    "stem": "For each data set, find the five values you need to draw a box plot.",
@@ -139436,6 +140167,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-9l-build",
    "label": "3c",
    "section": "Fluency",
    "stem": "For each data set, find the five values you need to draw a box plot.",
@@ -139445,6 +140177,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-9l-build",
    "label": "3d",
    "section": "Fluency",
    "stem": "For each data set, find the five values you need to draw a box plot.",
@@ -139454,6 +140187,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-9l-build",
    "label": "3e",
    "section": "Fluency",
    "stem": "For each data set, find the five values you need to draw a box plot.",
@@ -139463,6 +140197,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-9l-build",
    "label": "3f",
    "section": "Fluency",
    "stem": "For each data set, find the five values you need to draw a box plot.",
@@ -139472,6 +140207,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3g",
+   "help": "y9-9l-build",
    "label": "3g",
    "section": "Fluency",
    "stem": "For each data set, find the five values you need to draw a box plot.",
@@ -139481,6 +140217,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3h",
+   "help": "y9-9l-build",
    "label": "3h",
    "section": "Fluency",
    "stem": "For each data set, find the five values you need to draw a box plot.",
@@ -139490,6 +140227,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3i",
+   "help": "y9-9l-build",
    "label": "3i",
    "section": "Fluency",
    "stem": "For each data set, find the five values you need to draw a box plot.",
@@ -139499,6 +140237,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3j",
+   "help": "y9-9l-build",
    "label": "3j",
    "section": "Fluency",
    "stem": "For each data set, find the five values you need to draw a box plot.",
@@ -139508,6 +140247,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3k",
+   "help": "y9-9l-build",
    "label": "3k",
    "section": "Fluency",
    "stem": "For each data set, find the five values you need to draw a box plot.",
@@ -139517,6 +140257,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3l",
+   "help": "y9-9l-build",
    "label": "3l",
    "section": "Fluency",
    "stem": "For each data set, find the five values you need to draw a box plot.",
@@ -139526,6 +140267,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3m",
+   "help": "y9-9l-build",
    "label": "3m",
    "section": "Fluency",
    "stem": "For each data set, find the five values you need to draw a box plot.",
@@ -139535,6 +140277,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3n",
+   "help": "y9-9l-build",
    "label": "3n",
    "section": "Fluency",
    "stem": "For each data set, find the five values you need to draw a box plot.",
@@ -139544,6 +140287,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3o",
+   "help": "y9-9l-build",
    "label": "3o",
    "section": "Fluency",
    "stem": "For each data set, find the five values you need to draw a box plot.",
@@ -139553,6 +140297,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3p",
+   "help": "y9-9l-build",
    "label": "3p",
    "section": "Fluency",
    "stem": "For each data set, find the five values you need to draw a box plot.",
@@ -139562,6 +140307,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3q",
+   "help": "y9-9l-build",
    "label": "3q",
    "section": "Fluency",
    "stem": "For each data set, find the five values you need to draw a box plot.",
@@ -139571,6 +140317,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3r",
+   "help": "y9-9l-build",
    "label": "3r",
    "section": "Fluency",
    "stem": "For each data set, find the five values you need to draw a box plot.",
@@ -139580,6 +140327,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3s",
+   "help": "y9-9l-build",
    "label": "3s",
    "section": "Fluency",
    "stem": "For each data set, find the five values you need to draw a box plot.",
@@ -139589,6 +140337,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3t",
+   "help": "y9-9l-build",
    "label": "3t",
    "section": "Fluency",
    "stem": "For each data set, find the five values you need to draw a box plot.",
@@ -139598,6 +140347,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-9l-build",
    "label": "4a",
    "section": "Problem-solving",
    "stem": "The number of bikes parked at a train station was counted on $18$ days:<br>$16 \\quad 28 \\quad 41 \\quad 44 \\quad 15 \\quad 32 \\quad 7 \\quad 47 \\quad 38 \\quad 28 \\quad 41 \\quad 9 \\quad 10 \\quad 11 \\quad 19 \\quad 49 \\quad 31 \\quad 29$",
@@ -139671,6 +140421,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-9l-build",
    "label": "4b",
    "section": "Problem-solving",
    "stem": "The number of bikes parked at a train station was counted on $18$ days:<br>$16 \\quad 28 \\quad 41 \\quad 44 \\quad 15 \\quad 32 \\quad 7 \\quad 47 \\quad 38 \\quad 28 \\quad 41 \\quad 9 \\quad 10 \\quad 11 \\quad 19 \\quad 49 \\quad 31 \\quad 29$",
@@ -139681,6 +140432,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-9l-build",
    "label": "4c",
    "section": "Problem-solving",
    "stem": "The number of bikes parked at a train station was counted on $18$ days:<br>$16 \\quad 28 \\quad 41 \\quad 44 \\quad 15 \\quad 32 \\quad 7 \\quad 47 \\quad 38 \\quad 28 \\quad 41 \\quad 9 \\quad 10 \\quad 11 \\quad 19 \\quad 49 \\quad 31 \\quad 29$",
@@ -139691,6 +140443,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-9l-build",
    "label": "4d",
    "section": "Problem-solving",
    "stem": "The number of bikes parked at a train station was counted on $18$ days:<br>$16 \\quad 28 \\quad 41 \\quad 44 \\quad 15 \\quad 32 \\quad 7 \\quad 47 \\quad 38 \\quad 28 \\quad 41 \\quad 9 \\quad 10 \\quad 11 \\quad 19 \\quad 49 \\quad 31 \\quad 29$",
@@ -139701,6 +140454,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y9-9l-build",
    "label": "4e",
    "section": "Problem-solving",
    "stem": "The number of bikes parked at a train station was counted on $18$ days:<br>$16 \\quad 28 \\quad 41 \\quad 44 \\quad 15 \\quad 32 \\quad 7 \\quad 47 \\quad 38 \\quad 28 \\quad 41 \\quad 9 \\quad 10 \\quad 11 \\quad 19 \\quad 49 \\quad 31 \\quad 29$",
@@ -139711,6 +140465,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-9l-compare",
    "label": "5a",
    "section": "Problem-solving",
    "stem": "The masses of a sample of adult wombats from two regions are summarised in these box plots.",
@@ -139753,6 +140508,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-9l-compare",
    "label": "5b",
    "section": "Problem-solving",
    "stem": "The masses of a sample of adult wombats from two regions are summarised in these box plots.",
@@ -139763,6 +140519,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-9l-compare",
    "label": "5c",
    "section": "Problem-solving",
    "stem": "The masses of a sample of adult wombats from two regions are summarised in these box plots.",
@@ -139776,6 +140533,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-9l-compare",
    "label": "5d",
    "section": "Problem-solving",
    "stem": "The masses of a sample of adult wombats from two regions are summarised in these box plots.",
@@ -139786,6 +140544,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y9-9l-compare",
    "label": "5e",
    "section": "Problem-solving",
    "stem": "The masses of a sample of adult wombats from two regions are summarised in these box plots.",
@@ -139796,6 +140555,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y9-9l-compare",
    "label": "5f",
    "section": "Problem-solving",
    "stem": "The masses of a sample of adult wombats from two regions are summarised in these box plots.",
@@ -139806,6 +140566,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5g",
+   "help": "y9-9l-compare",
    "label": "5g",
    "section": "Problem-solving",
    "stem": "The masses of a sample of adult wombats from two regions are summarised in these box plots.",
@@ -139819,6 +140580,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-9l-compare",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "The times, in minutes, that two brands of phone take to charge from empty to full are summarised in these box plots.",
@@ -139861,6 +140623,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-9l-compare",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "The times, in minutes, that two brands of phone take to charge from empty to full are summarised in these box plots.",
@@ -139871,6 +140634,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y9-9l-compare",
    "label": "6c",
    "section": "Problem-solving",
    "stem": "The times, in minutes, that two brands of phone take to charge from empty to full are summarised in these box plots.",
@@ -139881,6 +140645,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y9-9l-compare",
    "label": "6d",
    "section": "Problem-solving",
    "stem": "The times, in minutes, that two brands of phone take to charge from empty to full are summarised in these box plots.",
@@ -139896,6 +140661,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-9l-compare",
    "label": "7a",
    "section": "Reasoning",
    "stem": "The number of points scored per game by two netball players over a season is summarised in these box plots.",
@@ -139938,6 +140704,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-9l-compare",
    "label": "7b",
    "section": "Reasoning",
    "stem": "The number of points scored per game by two netball players over a season is summarised in these box plots.",
@@ -139951,6 +140718,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-9l-compare",
    "label": "7c",
    "section": "Reasoning",
    "stem": "The number of points scored per game by two netball players over a season is summarised in these box plots.",
@@ -139964,6 +140732,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y9-9l-compare",
    "label": "7d",
    "section": "Reasoning",
    "stem": "The number of points scored per game by two netball players over a season is summarised in these box plots.",
@@ -139978,6 +140747,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7e",
+   "help": "y9-9l-compare",
    "label": "7e",
    "section": "Reasoning",
    "stem": "The number of points scored per game by two netball players over a season is summarised in these box plots.",
@@ -139992,6 +140762,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-9l-property",
    "label": "8a",
    "section": "Reasoning",
    "stem": "Which data set has the property given?",
@@ -140007,6 +140778,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-9l-property",
    "label": "8b",
    "section": "Reasoning",
    "stem": "Which data set has the property given?",
@@ -140022,6 +140794,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9",
+   "help": "y9-9l-property",
    "label": "9",
    "section": "Reasoning",
    "type": "choice",
@@ -140034,6 +140807,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10",
+   "help": "y9-9l-property",
    "label": "10",
    "section": "Reasoning",
    "type": "choice",
@@ -140046,6 +140820,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y9-9l-build",
    "label": "11a",
    "section": "Enrichment",
    "stem": "The life, in months, of a brand of battery used in a remote-control car is shown in this data set:<br>$2 \\quad 3 \\quad 3 \\quad 4 \\quad 5 \\quad 5 \\quad 5 \\quad 6 \\quad 7 \\quad 7 \\quad 8 \\quad 9 \\quad 9 \\quad 21$",
@@ -140055,6 +140830,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y9-9l-build",
    "label": "11b",
    "section": "Enrichment",
    "stem": "The life, in months, of a brand of battery used in a remote-control car is shown in this data set:<br>$2 \\quad 3 \\quad 3 \\quad 4 \\quad 5 \\quad 5 \\quad 5 \\quad 6 \\quad 7 \\quad 7 \\quad 8 \\quad 9 \\quad 9 \\quad 21$",
@@ -140064,6 +140840,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y9-9l-build",
    "label": "11c",
    "section": "Enrichment",
    "stem": "The life, in months, of a brand of battery used in a remote-control car is shown in this data set:<br>$2 \\quad 3 \\quad 3 \\quad 4 \\quad 5 \\quad 5 \\quad 5 \\quad 6 \\quad 7 \\quad 7 \\quad 8 \\quad 9 \\quad 9 \\quad 21$",
@@ -140073,6 +140850,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11d",
+   "help": "y9-9l-build",
    "label": "11d",
    "section": "Enrichment",
    "stem": "The life, in months, of a brand of battery used in a remote-control car is shown in this data set:<br>$2 \\quad 3 \\quad 3 \\quad 4 \\quad 5 \\quad 5 \\quad 5 \\quad 6 \\quad 7 \\quad 7 \\quad 8 \\quad 9 \\quad 9 \\quad 21$",
@@ -140082,6 +140860,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11e",
+   "help": "y9-9l-build",
    "label": "11e",
    "section": "Enrichment",
    "stem": "The life, in months, of a brand of battery used in a remote-control car is shown in this data set:<br>$2 \\quad 3 \\quad 3 \\quad 4 \\quad 5 \\quad 5 \\quad 5 \\quad 6 \\quad 7 \\quad 7 \\quad 8 \\quad 9 \\quad 9 \\quad 21$",
