@@ -125313,3 +125313,14847 @@ window.H3_BANK.sets.push(
  ]
 }
 );
+
+// Chapter 8
+window.H3_BANK.sets.push(
+{
+ "id": "y8-8a",
+ "year": 8,
+ "chapter": "Chapter 8: Probability and statistics",
+ "title": "8A Interpreting graphs and tables",
+ "description": "Read column graphs, tables, line graphs, sector graphs and divided bar graphs, and answer questions about them.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "This column graph shows the population of five small country towns.",
+   "prompt": "What is the population of Marlow?",
+   "type": "numeric",
+   "answer": "1500",
+   "stemFigure": {
+    "kind": "columns",
+    "cats": [
+     "Kelso",
+     "Marlow",
+     "Pinecrest",
+     "Durrow",
+     "Ashby"
+    ],
+    "values": [
+     3000,
+     1500,
+     2500,
+     500,
+     2000
+    ],
+    "ymax": 3500,
+    "step": 500,
+    "xlabel": "Town",
+    "ylabel": "Population",
+    "title": "Town populations"
+   }
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "This column graph shows the population of five small country towns.",
+   "prompt": "What is the difference between Kelso's population and Durrow's population?",
+   "type": "numeric",
+   "answer": "2500"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "This column graph shows the population of five small country towns.",
+   "prompt": "Which town has the smallest population?",
+   "type": "choice",
+   "answer": 3,
+   "options": [
+    "Kelso",
+    "Marlow",
+    "Pinecrest",
+    "Durrow",
+    "Ashby"
+   ]
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "The column graph shows the ages of five cousins.",
+   "prompt": "How old is Ava?",
+   "type": "numeric",
+   "answer": "6",
+   "stemFigure": {
+    "kind": "columns",
+    "cats": [
+     "Ava",
+     "Jett",
+     "Mia",
+     "Rohan",
+     "Lena"
+    ],
+    "values": [
+     6,
+     14,
+     10,
+     4,
+     8
+    ],
+    "ymax": 16,
+    "step": 2,
+    "xlabel": "Child",
+    "ylabel": "Age (years)",
+    "title": "Ages of five cousins"
+   },
+   "units": "years"
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "The column graph shows the ages of five cousins.",
+   "prompt": "How old is Rohan?",
+   "type": "numeric",
+   "answer": "4",
+   "units": "years"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "The column graph shows the ages of five cousins.",
+   "prompt": "Who is the oldest of the five cousins?",
+   "type": "choice",
+   "answer": 1,
+   "options": [
+    "Ava",
+    "Jett",
+    "Mia",
+    "Rohan",
+    "Lena"
+   ]
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "The column graph shows the ages of five cousins.",
+   "prompt": "Who is the youngest of the five cousins?",
+   "type": "choice",
+   "answer": 3,
+   "options": [
+    "Ava",
+    "Jett",
+    "Mia",
+    "Rohan",
+    "Lena"
+   ]
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "The column graph shows the ages of five cousins.",
+   "prompt": "What is the difference in age between Mia and Lena?",
+   "type": "numeric",
+   "answer": "2",
+   "units": "years"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Six Year 8 classes voted for the sport they would most like to play next in PE. The results are in the table.",
+   "prompt": "How many students in 8H want to play hockey?",
+   "type": "numeric",
+   "answer": "8",
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "Sport",
+      "8G",
+      "8H",
+      "8J",
+      "8K",
+      "8L",
+      "8M"
+     ],
+     [
+      "Volleyball",
+      "6",
+      "4",
+      "9",
+      "13",
+      "2",
+      "10"
+     ],
+     [
+      "Hockey",
+      "11",
+      "8",
+      "5",
+      "7",
+      "14",
+      "6"
+     ],
+     [
+      "Lacrosse",
+      "7",
+      "12",
+      "10",
+      "4",
+      "9",
+      "8"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Six Year 8 classes voted for the sport they would most like to play next in PE. The results are in the table.",
+   "prompt": "What is the most popular sport in 8J?",
+   "type": "choice",
+   "answer": 2,
+   "options": [
+    "Volleyball",
+    "Hockey",
+    "Lacrosse"
+   ]
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Six Year 8 classes voted for the sport they would most like to play next in PE. The results are in the table.",
+   "prompt": "How many students are in 8M?",
+   "type": "numeric",
+   "answer": "24"
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Six Year 8 classes voted for the sport they would most like to play next in PE. The results are in the table.",
+   "prompt": "If the teachers decide that all of Year 8 will play volleyball, which class will this please the most?",
+   "type": "choice",
+   "answer": 3,
+   "options": [
+    "8G",
+    "8H",
+    "8J",
+    "8K",
+    "8L",
+    "8M"
+   ]
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "Six Year 8 classes voted for the sport they would most like to play next in PE. The results are in the table.",
+   "prompt": "Which sport had the most votes in total?",
+   "type": "choice",
+   "answer": 1,
+   "options": [
+    "Volleyball",
+    "Hockey",
+    "Lacrosse"
+   ]
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "These line graphs show the heights of the twins Ivy and Jonah from birth until they were 8.",
+   "prompt": "Which twin was taller on their first birthday?",
+   "type": "choice",
+   "answer": 0,
+   "stemFigure": [
+    {
+     "kind": "linegraph",
+     "xs": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+     ],
+     "ys": [
+      52,
+      76,
+      86,
+      94,
+      100,
+      106,
+      112,
+      116,
+      120
+     ],
+     "ymin": 40,
+     "ymax": 140,
+     "step": 10,
+     "xlabel": "Age (years)",
+     "ylabel": "Height (cm)",
+     "title": "Ivy's height"
+    },
+    {
+     "kind": "linegraph",
+     "xs": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+     ],
+     "ys": [
+      48,
+      68,
+      80,
+      90,
+      100,
+      108,
+      116,
+      124,
+      132
+     ],
+     "ymin": 40,
+     "ymax": 140,
+     "step": 10,
+     "xlabel": "Age (years)",
+     "ylabel": "Height (cm)",
+     "title": "Jonah's height"
+    }
+   ],
+   "options": [
+    "Ivy",
+    "Jonah"
+   ]
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "These line graphs show the heights of the twins Ivy and Jonah from birth until they were 8.",
+   "prompt": "Which twin was taller on their eighth birthday?",
+   "type": "choice",
+   "answer": 1,
+   "options": [
+    "Ivy",
+    "Jonah"
+   ]
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "These line graphs show the heights of the twins Ivy and Jonah from birth until they were 8.",
+   "prompt": "How old were the twins when they were the same height?",
+   "type": "numeric",
+   "answer": "4",
+   "units": "years"
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "These line graphs show the heights of the twins Ivy and Jonah from birth until they were 8.",
+   "prompt": "Would you describe the general shape of the graphs as linear (straight line) or non-linear?",
+   "type": "choice",
+   "answer": 1,
+   "options": [
+    "Linear (straight line)",
+    "Non-linear"
+   ]
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Fluency",
+   "stem": "This sector graph (pie chart) shows how a family spent its holiday money.",
+   "prompt": "What was the largest expense?",
+   "type": "choice",
+   "answer": 3,
+   "stemFigure": {
+    "kind": "sector",
+    "parts": [
+     [
+      "Food",
+      25
+     ],
+     [
+      "Activities",
+      15
+     ],
+     [
+      "Souvenirs",
+      10
+     ],
+     [
+      "Accommodation",
+      50
+     ]
+    ]
+   },
+   "options": [
+    "Food",
+    "Activities",
+    "Souvenirs",
+    "Accommodation"
+   ]
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Fluency",
+   "stem": "This sector graph (pie chart) shows how a family spent its holiday money.",
+   "prompt": "What was the smallest expense?",
+   "type": "choice",
+   "answer": 2,
+   "options": [
+    "Food",
+    "Activities",
+    "Souvenirs",
+    "Accommodation"
+   ]
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Fluency",
+   "stem": "This sector graph (pie chart) shows how a family spent its holiday money.",
+   "prompt": "What percentage of the holiday money was spent on accommodation?",
+   "type": "numeric",
+   "answer": "50",
+   "units": "%"
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Fluency",
+   "stem": "This sector graph (pie chart) shows how a family spent its holiday money.",
+   "prompt": "The family spent $\\$450$ on food. What was their total holiday spending?",
+   "type": "numeric",
+   "answer": "1800",
+   "units": "$"
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Fluency",
+   "stem": "The table and graph show the price of one share in a small company over 6 months.",
+   "prompt": "Would you describe the general shape of the graph as linear (straight line) or non-linear?",
+   "type": "choice",
+   "answer": 0,
+   "stemFigure": [
+    {
+     "kind": "table",
+     "rows": [
+      [
+       "Month",
+       "0",
+       "1",
+       "2",
+       "3",
+       "4",
+       "5",
+       "6"
+      ],
+      [
+       "Price ($)",
+       "5.40",
+       "5.25",
+       "5.10",
+       "4.95",
+       "4.80",
+       "4.65",
+       "4.50"
+      ]
+     ]
+    },
+    {
+     "kind": "linegraph",
+     "xs": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+     ],
+     "ys": [
+      5.4,
+      5.25,
+      5.1,
+      4.95,
+      4.8,
+      4.65,
+      4.5
+     ],
+     "ymin": 4,
+     "ymax": 5.6,
+     "step": 0.2,
+     "xlabel": "Time (months)",
+     "ylabel": "Price ($)",
+     "title": "Share price"
+    }
+   ],
+   "options": [
+    "Linear (straight line)",
+    "Non-linear"
+   ]
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Fluency",
+   "stem": "The table and graph show the price of one share in a small company over 6 months.",
+   "prompt": "By how much did the share price decrease in the first 3 months?",
+   "type": "numeric",
+   "answer": "0.45",
+   "units": "$"
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Fluency",
+   "stem": "The table and graph show the price of one share in a small company over 6 months.",
+   "prompt": "By how much did the share price decrease during the second month (from month 1 to month 2)?",
+   "type": "numeric",
+   "answer": "0.15",
+   "units": "$"
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Fluency",
+   "stem": "The table and graph show the price of one share in a small company over 6 months.",
+   "prompt": "If this trend continued, what would the share price be after 7 months?",
+   "type": "numeric",
+   "answer": "4.35",
+   "units": "$"
+  },
+  {
+   "id": "q6e",
+   "label": "6e",
+   "section": "Fluency",
+   "stem": "The table and graph show the price of one share in a small company over 6 months.",
+   "prompt": "If this trend continued, what would the share price be after 9 months?",
+   "type": "numeric",
+   "answer": "4.05",
+   "units": "$"
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Fluency",
+   "stem": "Priya recorded how she spent one day in the divided bar graph below. The scale shows hours.",
+   "prompt": "How much time did she spend studying that day?",
+   "type": "numeric",
+   "answer": "3",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 20,
+    "items": [
+     {
+      "label": "0",
+      "at": [
+       0,
+       -0.9
+      ]
+     },
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        10,
+        0
+       ],
+       [
+        10,
+        2
+       ],
+       [
+        0,
+        2
+       ]
+      ]
+     },
+     {
+      "label": "Sleep",
+      "at": [
+       5,
+       0.85
+      ]
+     },
+     {
+      "seg": [
+       10,
+       0,
+       10,
+       -0.3
+      ],
+      "thin": true
+     },
+     {
+      "label": "10",
+      "at": [
+       10,
+       -0.9
+      ]
+     },
+     {
+      "poly": [
+       [
+        10,
+        0
+       ],
+       [
+        16,
+        0
+       ],
+       [
+        16,
+        2
+       ],
+       [
+        10,
+        2
+       ]
+      ]
+     },
+     {
+      "label": "School",
+      "at": [
+       13,
+       0.85
+      ]
+     },
+     {
+      "seg": [
+       16,
+       0,
+       16,
+       -0.3
+      ],
+      "thin": true
+     },
+     {
+      "label": "16",
+      "at": [
+       16,
+       -0.9
+      ]
+     },
+     {
+      "poly": [
+       [
+        16,
+        0
+       ],
+       [
+        19,
+        0
+       ],
+       [
+        19,
+        2
+       ],
+       [
+        16,
+        2
+       ]
+      ]
+     },
+     {
+      "label": "Study",
+      "at": [
+       17.5,
+       0.85
+      ]
+     },
+     {
+      "seg": [
+       19,
+       0,
+       19,
+       -0.3
+      ],
+      "thin": true
+     },
+     {
+      "label": "19",
+      "at": [
+       19,
+       -0.9
+      ]
+     },
+     {
+      "poly": [
+       [
+        19,
+        0
+       ],
+       [
+        21,
+        0
+       ],
+       [
+        21,
+        2
+       ],
+       [
+        19,
+        2
+       ]
+      ]
+     },
+     {
+      "label": "TV",
+      "at": [
+       20,
+       0.85
+      ]
+     },
+     {
+      "seg": [
+       21,
+       0,
+       21,
+       -0.3
+      ],
+      "thin": true
+     },
+     {
+      "label": "21",
+      "at": [
+       21,
+       -0.9
+      ]
+     },
+     {
+      "poly": [
+       [
+        21,
+        0
+       ],
+       [
+        24,
+        0
+       ],
+       [
+        24,
+        2
+       ],
+       [
+        21,
+        2
+       ]
+      ]
+     },
+     {
+      "label": "Swim",
+      "at": [
+       22.5,
+       0.85
+      ]
+     },
+     {
+      "seg": [
+       24,
+       0,
+       24,
+       -0.3
+      ],
+      "thin": true
+     },
+     {
+      "label": "24",
+      "at": [
+       24,
+       -0.9
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       -0.3
+      ],
+      "thin": true
+     },
+     {
+      "label": "Hours",
+      "at": [
+       12,
+       -1.9
+      ]
+     }
+    ]
+   },
+   "units": "hours"
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Fluency",
+   "stem": "Priya recorded how she spent one day in the divided bar graph below. The scale shows hours.",
+   "prompt": "How much time did she spend at school that day?",
+   "type": "numeric",
+   "answer": "6",
+   "units": "hours"
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Fluency",
+   "stem": "Priya recorded how she spent one day in the divided bar graph below. The scale shows hours.",
+   "prompt": "What did she spend the most time doing?",
+   "type": "choice",
+   "answer": 0,
+   "options": [
+    "Sleep",
+    "School",
+    "Study",
+    "TV",
+    "Swim"
+   ]
+  },
+  {
+   "id": "q7d",
+   "label": "7d",
+   "section": "Fluency",
+   "stem": "Priya recorded how she spent one day in the divided bar graph below. The scale shows hours.",
+   "prompt": "What fraction of her day was spent swimming? Give your answer in simplest form.",
+   "type": "numeric",
+   "answer": "1/8",
+   "as": "fraction",
+   "simplest": true
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Problem-solving",
+   "stem": "The temperature inside a school greenhouse was recorded every hour over an eight-hour period.",
+   "prompt": "What was the temperature at 7 a.m.?",
+   "type": "numeric",
+   "answer": "14",
+   "stemFigure": {
+    "kind": "linegraph",
+    "xs": [
+     "7 a.m.",
+     "8 a.m.",
+     "9 a.m.",
+     "10 a.m.",
+     "11 a.m.",
+     "noon",
+     "1 p.m.",
+     "2 p.m.",
+     "3 p.m."
+    ],
+    "ys": [
+     14,
+     16,
+     16,
+     18,
+     20,
+     22,
+     24,
+     26,
+     28
+    ],
+    "ymin": 10,
+    "ymax": 30,
+    "step": 2,
+    "xlabel": "Time",
+    "ylabel": "Temperature (°C)",
+    "title": "Greenhouse temperature"
+   },
+   "units": "°C"
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Problem-solving",
+   "stem": "The temperature inside a school greenhouse was recorded every hour over an eight-hour period.",
+   "prompt": "By how much did the temperature rise over the eight-hour period?",
+   "type": "numeric",
+   "answer": "14",
+   "units": "°C"
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Problem-solving",
+   "stem": "The temperature inside a school greenhouse was recorded every hour over an eight-hour period.",
+   "prompt": "The seedlings start to wilt when the temperature is $24$°C or more. At what time did the temperature first reach $24$°C?",
+   "type": "text",
+   "answer": "1 p.m.",
+   "accept": [
+    "1 pm",
+    "1pm",
+    "1p.m.",
+    "1 p.m",
+    "13:00",
+    "1:00 pm",
+    "1:00pm",
+    "1:00 p.m.",
+    "1 o'clock",
+    "1"
+   ],
+   "hint": "Type a time, for example 9 a.m. or 9 am."
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Problem-solving",
+   "stem": "A diver jumps off a $5$-metre platform into a pool. The height of the top of her head above the water is shown in the table and graph.",
+   "prompt": "Would you describe the general shape of the graph as linear (straight line) or non-linear?",
+   "type": "choice",
+   "answer": 1,
+   "stemFigure": [
+    {
+     "kind": "table",
+     "rows": [
+      [
+       "Time (s)",
+       "Height (m)"
+      ],
+      [
+       "0",
+       "6.6"
+      ],
+      [
+       "1",
+       "5.2"
+      ],
+      [
+       "2",
+       "2.8"
+      ],
+      [
+       "3",
+       "0.4"
+      ],
+      [
+       "4",
+       "-1.6"
+      ],
+      [
+       "5",
+       "-2.4"
+      ],
+      [
+       "6",
+       "-1.0"
+      ],
+      [
+       "7",
+       "0.3"
+      ]
+     ]
+    },
+    {
+     "kind": "linegraph",
+     "xs": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+     ],
+     "ys": [
+      6.6,
+      5.2,
+      2.8,
+      0.4,
+      -1.6,
+      -2.4,
+      -1,
+      0.3
+     ],
+     "ymin": -4,
+     "ymax": 8,
+     "step": 2,
+     "xlabel": "Time (s)",
+     "ylabel": "Height (m)",
+     "title": "Diver's head height"
+    }
+   ],
+   "options": [
+    "Linear (straight line)",
+    "Non-linear"
+   ]
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Problem-solving",
+   "stem": "A diver jumps off a $5$-metre platform into a pool. The height of the top of her head above the water is shown in the table and graph.",
+   "prompt": "How tall is the diver?",
+   "type": "numeric",
+   "answer": "1.6",
+   "units": "m"
+  },
+  {
+   "id": "q9c",
+   "label": "9c",
+   "section": "Problem-solving",
+   "stem": "A diver jumps off a $5$-metre platform into a pool. The height of the top of her head above the water is shown in the table and graph.",
+   "prompt": "During which second does her head first go under the water?",
+   "type": "choice",
+   "answer": 2,
+   "options": [
+    "Between 1 s and 2 s",
+    "Between 2 s and 3 s",
+    "Between 3 s and 4 s",
+    "Between 4 s and 5 s"
+   ]
+  },
+  {
+   "id": "q9d",
+   "label": "9d",
+   "section": "Problem-solving",
+   "stem": "A diver jumps off a $5$-metre platform into a pool. The height of the top of her head above the water is shown in the table and graph.",
+   "prompt": "How far below the surface of the water does her head reach at its deepest?",
+   "type": "numeric",
+   "answer": "2.4",
+   "accept": [
+    "-2.4"
+   ],
+   "units": "m"
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Reasoning",
+   "stem": "Three different surveys were run to decide whether chips should be sold at the school canteen. Their graphs are shown.",
+   "prompt": "Which survey's graph would most likely be used by someone wanting to show that selling chips would make money for the canteen?",
+   "type": "choice",
+   "answer": 1,
+   "stemFigure": [
+    {
+     "kind": "columns",
+     "cats": [
+      "Plain",
+      "BBQ",
+      "Chicken",
+      "Other"
+     ],
+     "values": [
+      5,
+      4,
+      3,
+      14
+     ],
+     "ymax": 16,
+     "step": 4,
+     "xlabel": "Favourite snack",
+     "ylabel": "Students",
+     "caption": "Survey 1: Favourite snack"
+    },
+    {
+     "kind": "sector",
+     "parts": [
+      [
+       "Chips",
+       65
+      ],
+      [
+       "Fruit",
+       20
+      ],
+      [
+       "Muesli bar",
+       15
+      ]
+     ],
+     "caption": "Survey 2: Favourite type of snack"
+    },
+    {
+     "kind": "columns",
+     "cats": [
+      "Chips",
+      "Pretzels",
+      "Popcorn",
+      "Fruit",
+      "Yoghurt"
+     ],
+     "values": [
+      500,
+      450,
+      300,
+      10,
+      50
+     ],
+     "ymax": 600,
+     "step": 100,
+     "xlabel": "Snack",
+     "ylabel": "Salt (mg per serve)",
+     "caption": "Survey 3: Salt in each snack"
+    }
+   ],
+   "options": [
+    "Survey 1",
+    "Survey 2",
+    "Survey 3"
+   ]
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Reasoning",
+   "stem": "Three different surveys were run to decide whether chips should be sold at the school canteen. Their graphs are shown.",
+   "prompt": "Which survey's graph would most likely be used by someone wanting to show there is not much demand for chips?",
+   "type": "choice",
+   "answer": 0,
+   "options": [
+    "Survey 1",
+    "Survey 2",
+    "Survey 3"
+   ]
+  },
+  {
+   "id": "q10c",
+   "label": "10c",
+   "section": "Reasoning",
+   "stem": "Three different surveys were run to decide whether chips should be sold at the school canteen. Their graphs are shown.",
+   "prompt": "Which survey's graph would most likely be used by someone wanting to show how unhealthy chips are?",
+   "type": "choice",
+   "answer": 2,
+   "options": [
+    "Survey 1",
+    "Survey 2",
+    "Survey 3"
+   ]
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Reasoning",
+   "stem": "The table shows the population of three nearby towns over a 10-year period.",
+   "prompt": "Which town's population grew every year?",
+   "type": "choice",
+   "answer": 1,
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "Year",
+      "Town A",
+      "Town B",
+      "Town C"
+     ],
+     [
+      "2014",
+      "2310",
+      "1720",
+      "1855"
+     ],
+     [
+      "2015",
+      "2195",
+      "1786",
+      "1932"
+     ],
+     [
+      "2016",
+      "2104",
+      "1849",
+      "2010"
+     ],
+     [
+      "2017",
+      "2037",
+      "1933",
+      "2096"
+     ],
+     [
+      "2018",
+      "1988",
+      "2008",
+      "2171"
+     ],
+     [
+      "2019",
+      "2046",
+      "2091",
+      "2083"
+     ],
+     [
+      "2020",
+      "2153",
+      "2155",
+      "1967"
+     ],
+     [
+      "2021",
+      "2240",
+      "2237",
+      "1862"
+     ],
+     [
+      "2022",
+      "2318",
+      "2302",
+      "1748"
+     ],
+     [
+      "2023",
+      "2405",
+      "2386",
+      "1655"
+     ]
+    ]
+   },
+   "options": [
+    "Town A",
+    "Town B",
+    "Town C"
+   ]
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Reasoning",
+   "stem": "The table shows the population of three nearby towns over a 10-year period.",
+   "prompt": "Which town's population fell for several years and then grew again?",
+   "type": "choice",
+   "answer": 0,
+   "options": [
+    "Town A",
+    "Town B",
+    "Town C"
+   ]
+  },
+  {
+   "id": "q11c",
+   "label": "11c",
+   "section": "Reasoning",
+   "stem": "The table shows the population of three nearby towns over a 10-year period.",
+   "prompt": "Which town's population grew for several years and then fell?",
+   "type": "choice",
+   "answer": 2,
+   "options": [
+    "Town A",
+    "Town B",
+    "Town C"
+   ]
+  },
+  {
+   "id": "q11d",
+   "label": "11d",
+   "section": "Reasoning",
+   "stem": "The table shows the population of three nearby towns over a 10-year period.",
+   "prompt": "In which year was Town C's population the largest?",
+   "type": "numeric",
+   "answer": "2018"
+  },
+  {
+   "id": "q11e",
+   "label": "11e",
+   "section": "Reasoning",
+   "stem": "The table shows the population of three nearby towns over a 10-year period.",
+   "prompt": "A 'total' row is added under the table. What number goes in the total row for 2019?",
+   "type": "numeric",
+   "answer": "6220"
+  },
+  {
+   "id": "q13a",
+   "label": "13a",
+   "section": "Reasoning",
+   "stem": "The 'water footprint' of a food is the volume of fresh water used to produce it. The table shows the water footprint of some foods, in litres per kilogram.",
+   "prompt": "Which food in the table has the largest water footprint?",
+   "type": "choice",
+   "answer": 2,
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "Food",
+      "Footprint (L/kg)"
+     ],
+     [
+      "apple",
+      "820"
+     ],
+     [
+      "banana",
+      "790"
+     ],
+     [
+      "beef",
+      "15400"
+     ],
+     [
+      "carrot",
+      "200"
+     ],
+     [
+      "egg",
+      "3300"
+     ],
+     [
+      "oats",
+      "2500"
+     ],
+     [
+      "pasta",
+      "1850"
+     ],
+     [
+      "tomato",
+      "215"
+     ]
+    ]
+   },
+   "options": [
+    "apple",
+    "banana",
+    "beef",
+    "carrot",
+    "egg",
+    "oats",
+    "pasta",
+    "tomato"
+   ]
+  },
+  {
+   "id": "q13b",
+   "label": "13b",
+   "section": "Reasoning",
+   "stem": "The 'water footprint' of a food is the volume of fresh water used to produce it. The table shows the water footprint of some foods, in litres per kilogram.",
+   "prompt": "A pasta dish uses $200$ g of pasta, $150$ g of tomato and $100$ g of beef. How many litres of water were used to produce these ingredients? Round to the nearest litre.",
+   "type": "numeric",
+   "answer": "1942",
+   "units": "L"
+  },
+  {
+   "id": "q13c",
+   "label": "13c",
+   "section": "Reasoning",
+   "stem": "The 'water footprint' of a food is the volume of fresh water used to produce it. The table shows the water footprint of some foods, in litres per kilogram.",
+   "prompt": "Water efficiency is the number of grams of a food made from $1$ kilolitre ($1000$ L) of water. What is the water efficiency of tomatoes, to the nearest gram per kilolitre?",
+   "type": "numeric",
+   "answer": "4651",
+   "units": "g/kL"
+  },
+  {
+   "id": "q13d",
+   "label": "13d",
+   "section": "Reasoning",
+   "stem": "The 'water footprint' of a food is the volume of fresh water used to produce it. The table shows the water footprint of some foods, in litres per kilogram.",
+   "prompt": "What is the water efficiency of beef, to the nearest gram per kilolitre?",
+   "type": "numeric",
+   "answer": "65",
+   "units": "g/kL"
+  },
+  {
+   "id": "q14a",
+   "label": "14a",
+   "section": "Enrichment",
+   "stem": "Mochi is a cat whose owner graphed her weight at the start of each month for a year. A healthy weight for Mochi is between $4$ kg and $6$ kg.",
+   "prompt": "For how many months was Mochi underweight?",
+   "type": "numeric",
+   "answer": "4",
+   "stemFigure": {
+    "kind": "linegraph",
+    "xs": [
+     "J",
+     "F",
+     "M",
+     "A",
+     "M",
+     "J",
+     "J",
+     "A",
+     "S",
+     "O",
+     "N",
+     "D"
+    ],
+    "ys": [
+     4.5,
+     3.5,
+     3,
+     3,
+     3.5,
+     5,
+     5.5,
+     6.5,
+     7,
+     5.5,
+     5,
+     4.5
+    ],
+    "ymin": 2,
+    "ymax": 8,
+    "step": 0.5,
+    "xlabel": "Month",
+    "ylabel": "Weight (kg)",
+    "title": "Mochi's weight over the year"
+   },
+   "units": "months"
+  },
+  {
+   "id": "q14b",
+   "label": "14b",
+   "section": "Enrichment",
+   "stem": "Mochi is a cat whose owner graphed her weight at the start of each month for a year. A healthy weight for Mochi is between $4$ kg and $6$ kg.",
+   "prompt": "For how many months was Mochi a healthy weight?",
+   "type": "numeric",
+   "answer": "6",
+   "units": "months"
+  },
+  {
+   "id": "q14c",
+   "label": "14c",
+   "section": "Enrichment",
+   "stem": "Mochi is a cat whose owner graphed her weight at the start of each month for a year. A healthy weight for Mochi is between $4$ kg and $6$ kg.",
+   "prompt": "For how many months was Mochi overweight?",
+   "type": "numeric",
+   "answer": "2",
+   "units": "months"
+  },
+  {
+   "id": "q14d",
+   "label": "14d",
+   "section": "Enrichment",
+   "stem": "Mochi is a cat whose owner graphed her weight at the start of each month for a year. A healthy weight for Mochi is between $4$ kg and $6$ kg.",
+   "prompt": "These results are shown in a pie chart. What angle should the 'healthy weight' sector have?",
+   "type": "numeric",
+   "answer": "180",
+   "units": "°"
+  }
+ ]
+},
+{
+ "id": "y8-8b",
+ "year": 8,
+ "chapter": "Chapter 8: Probability and statistics",
+ "title": "8B Frequency tables and tallies",
+ "description": "Read tallies, build frequency tables from lists of data, and answer questions using frequency tables.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "A netball goal shooter's performance in one game is recorded in this tally.",
+   "prompt": "Complete the frequency row. Type the frequencies in order, separated by commas. (Passes, Shots at goal, Goals scored, Intercepts)",
+   "type": "ordered",
+   "answer": [
+    "17",
+    "11",
+    "7",
+    "3"
+   ],
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "label": "Event",
+      "at": [
+       0,
+       1.15
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "Tally",
+      "at": [
+       4.2,
+       1.15
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "Passes",
+      "at": [
+       0,
+       0.15
+      ],
+      "anchor": "start"
+     },
+     {
+      "seg": [
+       4.3,
+       -0.1,
+       4.3,
+       0.65
+      ]
+     },
+     {
+      "seg": [
+       4.58,
+       -0.1,
+       4.58,
+       0.65
+      ]
+     },
+     {
+      "seg": [
+       4.859999999999999,
+       -0.1,
+       4.859999999999999,
+       0.65
+      ]
+     },
+     {
+      "seg": [
+       5.14,
+       -0.1,
+       5.14,
+       0.65
+      ]
+     },
+     {
+      "seg": [
+       4.1499999999999995,
+       0.05,
+       5.29,
+       0.5
+      ]
+     },
+     {
+      "seg": [
+       5.79,
+       -0.1,
+       5.79,
+       0.65
+      ]
+     },
+     {
+      "seg": [
+       6.07,
+       -0.1,
+       6.07,
+       0.65
+      ]
+     },
+     {
+      "seg": [
+       6.35,
+       -0.1,
+       6.35,
+       0.65
+      ]
+     },
+     {
+      "seg": [
+       6.63,
+       -0.1,
+       6.63,
+       0.65
+      ]
+     },
+     {
+      "seg": [
+       5.64,
+       0.05,
+       6.78,
+       0.5
+      ]
+     },
+     {
+      "seg": [
+       7.28,
+       -0.1,
+       7.28,
+       0.65
+      ]
+     },
+     {
+      "seg": [
+       7.5600000000000005,
+       -0.1,
+       7.5600000000000005,
+       0.65
+      ]
+     },
+     {
+      "seg": [
+       7.84,
+       -0.1,
+       7.84,
+       0.65
+      ]
+     },
+     {
+      "seg": [
+       8.120000000000001,
+       -0.1,
+       8.120000000000001,
+       0.65
+      ]
+     },
+     {
+      "seg": [
+       7.13,
+       0.05,
+       8.270000000000001,
+       0.5
+      ]
+     },
+     {
+      "seg": [
+       8.77,
+       -0.1,
+       8.77,
+       0.65
+      ]
+     },
+     {
+      "seg": [
+       9.049999999999999,
+       -0.1,
+       9.049999999999999,
+       0.65
+      ]
+     },
+     {
+      "label": "Shots at goal",
+      "at": [
+       0,
+       -0.9999999999999999
+      ],
+      "anchor": "start"
+     },
+     {
+      "seg": [
+       4.3,
+       -1.25,
+       4.3,
+       -0.4999999999999999
+      ]
+     },
+     {
+      "seg": [
+       4.58,
+       -1.25,
+       4.58,
+       -0.4999999999999999
+      ]
+     },
+     {
+      "seg": [
+       4.859999999999999,
+       -1.25,
+       4.859999999999999,
+       -0.4999999999999999
+      ]
+     },
+     {
+      "seg": [
+       5.14,
+       -1.25,
+       5.14,
+       -0.4999999999999999
+      ]
+     },
+     {
+      "seg": [
+       4.1499999999999995,
+       -1.0999999999999999,
+       5.29,
+       -0.6499999999999999
+      ]
+     },
+     {
+      "seg": [
+       5.79,
+       -1.25,
+       5.79,
+       -0.4999999999999999
+      ]
+     },
+     {
+      "seg": [
+       6.07,
+       -1.25,
+       6.07,
+       -0.4999999999999999
+      ]
+     },
+     {
+      "seg": [
+       6.35,
+       -1.25,
+       6.35,
+       -0.4999999999999999
+      ]
+     },
+     {
+      "seg": [
+       6.63,
+       -1.25,
+       6.63,
+       -0.4999999999999999
+      ]
+     },
+     {
+      "seg": [
+       5.64,
+       -1.0999999999999999,
+       6.78,
+       -0.6499999999999999
+      ]
+     },
+     {
+      "seg": [
+       7.28,
+       -1.25,
+       7.28,
+       -0.4999999999999999
+      ]
+     },
+     {
+      "label": "Goals scored",
+      "at": [
+       0,
+       -2.15
+      ],
+      "anchor": "start"
+     },
+     {
+      "seg": [
+       4.3,
+       -2.4,
+       4.3,
+       -1.65
+      ]
+     },
+     {
+      "seg": [
+       4.58,
+       -2.4,
+       4.58,
+       -1.65
+      ]
+     },
+     {
+      "seg": [
+       4.859999999999999,
+       -2.4,
+       4.859999999999999,
+       -1.65
+      ]
+     },
+     {
+      "seg": [
+       5.14,
+       -2.4,
+       5.14,
+       -1.65
+      ]
+     },
+     {
+      "seg": [
+       4.1499999999999995,
+       -2.25,
+       5.29,
+       -1.7999999999999998
+      ]
+     },
+     {
+      "seg": [
+       5.79,
+       -2.4,
+       5.79,
+       -1.65
+      ]
+     },
+     {
+      "seg": [
+       6.07,
+       -2.4,
+       6.07,
+       -1.65
+      ]
+     },
+     {
+      "label": "Intercepts",
+      "at": [
+       0,
+       -3.3
+      ],
+      "anchor": "start"
+     },
+     {
+      "seg": [
+       4.3,
+       -3.55,
+       4.3,
+       -2.8
+      ]
+     },
+     {
+      "seg": [
+       4.58,
+       -3.55,
+       4.58,
+       -2.8
+      ]
+     },
+     {
+      "seg": [
+       4.859999999999999,
+       -3.55,
+       4.859999999999999,
+       -2.8
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "A netball goal shooter's performance in one game is recorded in this tally.",
+   "prompt": "How many shots at goal did she have?",
+   "type": "numeric",
+   "answer": "11"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "A netball goal shooter's performance in one game is recorded in this tally.",
+   "prompt": "How many goals did she score?",
+   "type": "numeric",
+   "answer": "7"
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "A netball goal shooter's performance in one game is recorded in this tally.",
+   "prompt": "How many of her shots at goal missed?",
+   "type": "numeric",
+   "answer": "4"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Lachlan asked a group of people how many hours they spend gaming each week, rounded to the nearest hour. His tally is shown.",
+   "prompt": "Convert the tally into frequencies. Type the frequencies in order, separated by commas. (0-2, 3-6, 7-13, 14-20, 21-27, 28-34, 35+)",
+   "type": "ordered",
+   "answer": [
+    "6",
+    "9",
+    "13",
+    "11",
+    "7",
+    "3",
+    "2"
+   ],
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "label": "Hours",
+      "at": [
+       0,
+       1.15
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "Tally",
+      "at": [
+       4.2,
+       1.15
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "0-2",
+      "at": [
+       0,
+       0.15
+      ],
+      "anchor": "start"
+     },
+     {
+      "seg": [
+       4.3,
+       -0.1,
+       4.3,
+       0.65
+      ]
+     },
+     {
+      "seg": [
+       4.58,
+       -0.1,
+       4.58,
+       0.65
+      ]
+     },
+     {
+      "seg": [
+       4.859999999999999,
+       -0.1,
+       4.859999999999999,
+       0.65
+      ]
+     },
+     {
+      "seg": [
+       5.14,
+       -0.1,
+       5.14,
+       0.65
+      ]
+     },
+     {
+      "seg": [
+       4.1499999999999995,
+       0.05,
+       5.29,
+       0.5
+      ]
+     },
+     {
+      "seg": [
+       5.79,
+       -0.1,
+       5.79,
+       0.65
+      ]
+     },
+     {
+      "label": "3-6",
+      "at": [
+       0,
+       -0.9999999999999999
+      ],
+      "anchor": "start"
+     },
+     {
+      "seg": [
+       4.3,
+       -1.25,
+       4.3,
+       -0.4999999999999999
+      ]
+     },
+     {
+      "seg": [
+       4.58,
+       -1.25,
+       4.58,
+       -0.4999999999999999
+      ]
+     },
+     {
+      "seg": [
+       4.859999999999999,
+       -1.25,
+       4.859999999999999,
+       -0.4999999999999999
+      ]
+     },
+     {
+      "seg": [
+       5.14,
+       -1.25,
+       5.14,
+       -0.4999999999999999
+      ]
+     },
+     {
+      "seg": [
+       4.1499999999999995,
+       -1.0999999999999999,
+       5.29,
+       -0.6499999999999999
+      ]
+     },
+     {
+      "seg": [
+       5.79,
+       -1.25,
+       5.79,
+       -0.4999999999999999
+      ]
+     },
+     {
+      "seg": [
+       6.07,
+       -1.25,
+       6.07,
+       -0.4999999999999999
+      ]
+     },
+     {
+      "seg": [
+       6.35,
+       -1.25,
+       6.35,
+       -0.4999999999999999
+      ]
+     },
+     {
+      "seg": [
+       6.63,
+       -1.25,
+       6.63,
+       -0.4999999999999999
+      ]
+     },
+     {
+      "label": "7-13",
+      "at": [
+       0,
+       -2.15
+      ],
+      "anchor": "start"
+     },
+     {
+      "seg": [
+       4.3,
+       -2.4,
+       4.3,
+       -1.65
+      ]
+     },
+     {
+      "seg": [
+       4.58,
+       -2.4,
+       4.58,
+       -1.65
+      ]
+     },
+     {
+      "seg": [
+       4.859999999999999,
+       -2.4,
+       4.859999999999999,
+       -1.65
+      ]
+     },
+     {
+      "seg": [
+       5.14,
+       -2.4,
+       5.14,
+       -1.65
+      ]
+     },
+     {
+      "seg": [
+       4.1499999999999995,
+       -2.25,
+       5.29,
+       -1.7999999999999998
+      ]
+     },
+     {
+      "seg": [
+       5.79,
+       -2.4,
+       5.79,
+       -1.65
+      ]
+     },
+     {
+      "seg": [
+       6.07,
+       -2.4,
+       6.07,
+       -1.65
+      ]
+     },
+     {
+      "seg": [
+       6.35,
+       -2.4,
+       6.35,
+       -1.65
+      ]
+     },
+     {
+      "seg": [
+       6.63,
+       -2.4,
+       6.63,
+       -1.65
+      ]
+     },
+     {
+      "seg": [
+       5.64,
+       -2.25,
+       6.78,
+       -1.7999999999999998
+      ]
+     },
+     {
+      "seg": [
+       7.28,
+       -2.4,
+       7.28,
+       -1.65
+      ]
+     },
+     {
+      "seg": [
+       7.5600000000000005,
+       -2.4,
+       7.5600000000000005,
+       -1.65
+      ]
+     },
+     {
+      "seg": [
+       7.84,
+       -2.4,
+       7.84,
+       -1.65
+      ]
+     },
+     {
+      "label": "14-20",
+      "at": [
+       0,
+       -3.3
+      ],
+      "anchor": "start"
+     },
+     {
+      "seg": [
+       4.3,
+       -3.55,
+       4.3,
+       -2.8
+      ]
+     },
+     {
+      "seg": [
+       4.58,
+       -3.55,
+       4.58,
+       -2.8
+      ]
+     },
+     {
+      "seg": [
+       4.859999999999999,
+       -3.55,
+       4.859999999999999,
+       -2.8
+      ]
+     },
+     {
+      "seg": [
+       5.14,
+       -3.55,
+       5.14,
+       -2.8
+      ]
+     },
+     {
+      "seg": [
+       4.1499999999999995,
+       -3.4,
+       5.29,
+       -2.9499999999999997
+      ]
+     },
+     {
+      "seg": [
+       5.79,
+       -3.55,
+       5.79,
+       -2.8
+      ]
+     },
+     {
+      "seg": [
+       6.07,
+       -3.55,
+       6.07,
+       -2.8
+      ]
+     },
+     {
+      "seg": [
+       6.35,
+       -3.55,
+       6.35,
+       -2.8
+      ]
+     },
+     {
+      "seg": [
+       6.63,
+       -3.55,
+       6.63,
+       -2.8
+      ]
+     },
+     {
+      "seg": [
+       5.64,
+       -3.4,
+       6.78,
+       -2.9499999999999997
+      ]
+     },
+     {
+      "seg": [
+       7.28,
+       -3.55,
+       7.28,
+       -2.8
+      ]
+     },
+     {
+      "label": "21-27",
+      "at": [
+       0,
+       -4.449999999999999
+      ],
+      "anchor": "start"
+     },
+     {
+      "seg": [
+       4.3,
+       -4.699999999999999,
+       4.3,
+       -3.9499999999999997
+      ]
+     },
+     {
+      "seg": [
+       4.58,
+       -4.699999999999999,
+       4.58,
+       -3.9499999999999997
+      ]
+     },
+     {
+      "seg": [
+       4.859999999999999,
+       -4.699999999999999,
+       4.859999999999999,
+       -3.9499999999999997
+      ]
+     },
+     {
+      "seg": [
+       5.14,
+       -4.699999999999999,
+       5.14,
+       -3.9499999999999997
+      ]
+     },
+     {
+      "seg": [
+       4.1499999999999995,
+       -4.55,
+       5.29,
+       -4.1
+      ]
+     },
+     {
+      "seg": [
+       5.79,
+       -4.699999999999999,
+       5.79,
+       -3.9499999999999997
+      ]
+     },
+     {
+      "seg": [
+       6.07,
+       -4.699999999999999,
+       6.07,
+       -3.9499999999999997
+      ]
+     },
+     {
+      "label": "28-34",
+      "at": [
+       0,
+       -5.6
+      ],
+      "anchor": "start"
+     },
+     {
+      "seg": [
+       4.3,
+       -5.85,
+       4.3,
+       -5.1
+      ]
+     },
+     {
+      "seg": [
+       4.58,
+       -5.85,
+       4.58,
+       -5.1
+      ]
+     },
+     {
+      "seg": [
+       4.859999999999999,
+       -5.85,
+       4.859999999999999,
+       -5.1
+      ]
+     },
+     {
+      "label": "35+",
+      "at": [
+       0,
+       -6.75
+      ],
+      "anchor": "start"
+     },
+     {
+      "seg": [
+       4.3,
+       -7,
+       4.3,
+       -6.25
+      ]
+     },
+     {
+      "seg": [
+       4.58,
+       -7,
+       4.58,
+       -6.25
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Lachlan asked a group of people how many hours they spend gaming each week, rounded to the nearest hour. His tally is shown.",
+   "prompt": "How many people did he survey?",
+   "type": "numeric",
+   "answer": "51"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Lachlan asked a group of people how many hours they spend gaming each week, rounded to the nearest hour. His tally is shown.",
+   "prompt": "How many people spend $14$ to $20$ hours a week gaming?",
+   "type": "numeric",
+   "answer": "11"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Lachlan asked a group of people how many hours they spend gaming each week, rounded to the nearest hour. His tally is shown.",
+   "prompt": "How many people spend at least $21$ hours a week gaming?",
+   "type": "numeric",
+   "answer": "12"
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Lachlan asked a group of people how many hours they spend gaming each week, rounded to the nearest hour. His tally is shown.",
+   "prompt": "How many people spend less than $2$ hours per day gaming, on average? (Hint: how many hours a week is that?)",
+   "type": "numeric",
+   "answer": "28"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Jasmine asked each student in her class how many people live in their house. The results are: $4, 2, 5, 3, 4, 6, 3, 4, 7, 5, 2, 4, 3, 5, 4, 6, 3, 8, 4, 5, 3, 4$",
+   "prompt": "Complete a frequency table for the values $2$ to $8$. Type the frequencies in order, separated by commas. (2, 3, 4, 5, 6, 7, 8)",
+   "type": "ordered",
+   "answer": [
+    "2",
+    "5",
+    "7",
+    "4",
+    "2",
+    "1",
+    "1"
+   ]
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Jasmine asked each student in her class how many people live in their house. The results are: $4, 2, 5, 3, 4, 6, 3, 4, 7, 5, 2, 4, 3, 5, 4, 6, 3, 8, 4, 5, 3, 4$",
+   "prompt": "How many students have exactly $5$ people living in their house?",
+   "type": "numeric",
+   "answer": "4"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Jasmine asked each student in her class how many people live in their house. The results are: $4, 2, 5, 3, 4, 6, 3, 4, 7, 5, 2, 4, 3, 5, 4, 6, 3, 8, 4, 5, 3, 4$",
+   "prompt": "How many students have at least $6$ people living in their house?",
+   "type": "numeric",
+   "answer": "4"
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "The scores of $22$ players in one game of ten-pin bowling are: $112, 87, 145, 63, 158, 131, 99, 176, 124, 108, 91, 185, 142, 117, 76, 133, 104, 168, 95, 121, 150, 139$",
+   "prompt": "Complete the frequency table using the intervals shown. Type the frequencies in order, separated by commas.",
+   "type": "ordered",
+   "answer": [
+    "2",
+    "4",
+    "4",
+    "5",
+    "4",
+    "2",
+    "1"
+   ],
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "Score",
+      "Frequency"
+     ],
+     [
+      "60-79",
+      "?"
+     ],
+     [
+      "80-99",
+      "?"
+     ],
+     [
+      "100-119",
+      "?"
+     ],
+     [
+      "120-139",
+      "?"
+     ],
+     [
+      "140-159",
+      "?"
+     ],
+     [
+      "160-179",
+      "?"
+     ],
+     [
+      "180+",
+      "?"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "The scores of $22$ players in one game of ten-pin bowling are: $112, 87, 145, 63, 158, 131, 99, 176, 124, 108, 91, 185, 142, 117, 76, 133, 104, 168, 95, 121, 150, 139$",
+   "prompt": "How many players scored in the range $100$ to $119$?",
+   "type": "numeric",
+   "answer": "4"
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "The scores of $22$ players in one game of ten-pin bowling are: $112, 87, 145, 63, 158, 131, 99, 176, 124, 108, 91, 185, 142, 117, 76, 133, 104, 168, 95, 121, 150, 139$",
+   "prompt": "How many players scored $160$ or more?",
+   "type": "numeric",
+   "answer": "3"
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "The scores of $22$ players in one game of ten-pin bowling are: $112, 87, 145, 63, 158, 131, 99, 176, 124, 108, 91, 185, 142, 117, 76, 133, 104, 168, 95, 121, 150, 139$",
+   "prompt": "How many players scored from $80$ to $139$?",
+   "type": "numeric",
+   "answer": "13"
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Problem-solving",
+   "stem": "A cricket bowler records the number of wides he bowls in each match of the season.",
+   "prompt": "How many matches did he play in total?",
+   "type": "numeric",
+   "answer": "12",
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "Wides",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+     ],
+     [
+      "Frequency",
+      "3",
+      "5",
+      "2",
+      "1",
+      "0",
+      "1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Problem-solving",
+   "stem": "A cricket bowler records the number of wides he bowls in each match of the season.",
+   "prompt": "In how many matches did he bowl exactly $2$ wides?",
+   "type": "numeric",
+   "answer": "2"
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Problem-solving",
+   "stem": "A cricket bowler records the number of wides he bowls in each match of the season.",
+   "prompt": "In how many matches did he bowl no wides?",
+   "type": "numeric",
+   "answer": "3"
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Problem-solving",
+   "stem": "A cricket bowler records the number of wides he bowls in each match of the season.",
+   "prompt": "How many wides did he bowl in total during the season?",
+   "type": "numeric",
+   "answer": "17"
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Problem-solving",
+   "stem": "Match each data set with the correct column (A, B, C or D) of the frequency table.",
+   "prompt": "$5, 5, 6, 6, 6, 7$",
+   "type": "choice",
+   "answer": 1,
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "Value",
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     [
+      "5",
+      "1",
+      "2",
+      "1",
+      "4"
+     ],
+     [
+      "6",
+      "2",
+      "3",
+      "1",
+      "1"
+     ],
+     [
+      "7",
+      "3",
+      "1",
+      "4",
+      "1"
+     ]
+    ]
+   },
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ]
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Problem-solving",
+   "stem": "Match each data set with the correct column (A, B, C or D) of the frequency table.",
+   "prompt": "$5, 6, 7, 7, 7, 7$",
+   "type": "choice",
+   "answer": 2,
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ]
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Problem-solving",
+   "stem": "Match each data set with the correct column (A, B, C or D) of the frequency table.",
+   "prompt": "$5, 5, 5, 5, 6, 7$",
+   "type": "choice",
+   "answer": 3,
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ]
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Problem-solving",
+   "stem": "Match each data set with the correct column (A, B, C or D) of the frequency table.",
+   "prompt": "$5, 6, 6, 7, 7, 7$",
+   "type": "choice",
+   "answer": 0,
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ]
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Problem-solving",
+   "stem": "Five classes are in the same building in different rooms. The ages of the students in each room are recorded in the frequency table.",
+   "prompt": "How many students are in Room 3?",
+   "type": "numeric",
+   "answer": "26",
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "Age",
+      "Room 1",
+      "Room 2",
+      "Room 3",
+      "Room 4",
+      "Room 5"
+     ],
+     [
+      "11",
+      "4",
+      "0",
+      "0",
+      "0",
+      "2"
+     ],
+     [
+      "12",
+      "21",
+      "3",
+      "0",
+      "0",
+      "17"
+     ],
+     [
+      "13",
+      "2",
+      "19",
+      "2",
+      "0",
+      "5"
+     ],
+     [
+      "14",
+      "0",
+      "4",
+      "15",
+      "1",
+      "0"
+     ],
+     [
+      "15",
+      "0",
+      "0",
+      "9",
+      "13",
+      "0"
+     ],
+     [
+      "16",
+      "0",
+      "0",
+      "0",
+      "11",
+      "0"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Problem-solving",
+   "stem": "Five classes are in the same building in different rooms. The ages of the students in each room are recorded in the frequency table.",
+   "prompt": "How many students are in the building?",
+   "type": "numeric",
+   "answer": "128"
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Problem-solving",
+   "stem": "Five classes are in the same building in different rooms. The ages of the students in each room are recorded in the frequency table.",
+   "prompt": "How many $12$-year-olds are in the building?",
+   "type": "numeric",
+   "answer": "41"
+  },
+  {
+   "id": "q7d",
+   "label": "7d",
+   "section": "Problem-solving",
+   "stem": "Five classes are in the same building in different rooms. The ages of the students in each room are recorded in the frequency table.",
+   "prompt": "What is the mean age of the students in Room 2? Answer to one decimal place.",
+   "type": "numeric",
+   "answer": "13.0",
+   "dp": 1
+  },
+  {
+   "id": "q7e",
+   "label": "7e",
+   "section": "Problem-solving",
+   "stem": "Five classes are in the same building in different rooms. The ages of the students in each room are recorded in the frequency table.",
+   "prompt": "What is the mean age of all the students in the building? Answer to one decimal place.",
+   "type": "numeric",
+   "answer": "13.3",
+   "dp": 1
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Reasoning",
+   "stem": "Some students sat a test marked out of $100$ (whole marks only). The results are in the frequency table.",
+   "prompt": "Redraw the table with intervals of width $20$: $0$-$19$, $20$-$39$, $40$-$59$, $60$-$79$, $80$-$100$. Type the frequencies in order, separated by commas.",
+   "type": "ordered",
+   "answer": [
+    "1",
+    "6",
+    "9",
+    "20",
+    "10"
+   ],
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "Score",
+      "Frequency"
+     ],
+     [
+      "0-9",
+      "0"
+     ],
+     [
+      "10-19",
+      "1"
+     ],
+     [
+      "20-29",
+      "2"
+     ],
+     [
+      "30-39",
+      "4"
+     ],
+     [
+      "40-49",
+      "3"
+     ],
+     [
+      "50-59",
+      "6"
+     ],
+     [
+      "60-69",
+      "9"
+     ],
+     [
+      "70-79",
+      "11"
+     ],
+     [
+      "80-89",
+      "7"
+     ],
+     [
+      "90-100",
+      "3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Reasoning",
+   "stem": "Some students sat a test marked out of $100$ (whole marks only). The results are in the frequency table.",
+   "prompt": "Redraw the table with the intervals $0$-$29$, $30$-$59$, $60$-$89$, $90$-$100$. Type the frequencies in order, separated by commas.",
+   "type": "ordered",
+   "answer": [
+    "3",
+    "13",
+    "27",
+    "3"
+   ]
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Reasoning",
+   "stem": "Some students sat a test marked out of $100$ (whole marks only). The results are in the frequency table.",
+   "prompt": "Now use the intervals $0$-$24$, $25$-$49$, $50$-$74$, $75$-$100$. You are told that $2$ students scored less than $25$ and $13$ students scored from $60$ to $74$. Type the frequencies in order, separated by commas.",
+   "type": "ordered",
+   "answer": [
+    "2",
+    "8",
+    "19",
+    "17"
+   ]
+  },
+  {
+   "id": "q8d",
+   "label": "8d",
+   "section": "Reasoning",
+   "stem": "Some students sat a test marked out of $100$ (whole marks only). The results are in the frequency table.",
+   "prompt": "What is the total of the frequency row in each of these tables?",
+   "type": "numeric",
+   "answer": "46"
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Reasoning",
+   "stem": "Look at this stem-and-leaf plot.",
+   "prompt": "Write it as a frequency table with the intervals $10$-$19$, $20$-$29$ and $30$-$39$. Type the frequencies in order, separated by commas.",
+   "type": "ordered",
+   "answer": [
+    "4",
+    "4",
+    "5"
+   ],
+   "stemFigure": {
+    "kind": "stemleaf",
+    "rows": [
+     [
+      "1",
+      "3 6 7 9"
+     ],
+     [
+      "2",
+      "2 4 4 8"
+     ],
+     [
+      "3",
+      "1 3 5 6 9"
+     ]
+    ],
+    "key": "2 | 4 means 24"
+   }
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Reasoning",
+   "stem": "Look at this stem-and-leaf plot.",
+   "prompt": "Which contains more information?",
+   "type": "choice",
+   "answer": 0,
+   "options": [
+    "The stem-and-leaf plot",
+    "The frequency table",
+    "They contain the same information"
+   ]
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Reasoning",
+   "stem": "A netball goal shooter notes the number of goals she scores in each of the $20$ games of her season. The range $10$-$14$ means at least $10$ but less than $15$.",
+   "prompt": "Some score from $5$ to $9$ must appear more than once in her list. What is the smallest number of times the most common score from $5$ to $9$ could appear?",
+   "type": "numeric",
+   "answer": "2",
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "Goals",
+      "0-4",
+      "5-9",
+      "10-14",
+      "15-19",
+      "20-24"
+     ],
+     [
+      "Frequency",
+      "1",
+      "6",
+      "11",
+      "1",
+      "1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Reasoning",
+   "stem": "A netball goal shooter notes the number of goals she scores in each of the $20$ games of her season. The range $10$-$14$ means at least $10$ but less than $15$.",
+   "prompt": "What is the smallest number of times the most common score from $10$ to $14$ could appear?",
+   "type": "numeric",
+   "answer": "3"
+  },
+  {
+   "id": "q10c",
+   "label": "10c",
+   "section": "Reasoning",
+   "stem": "A netball goal shooter notes the number of goals she scores in each of the $20$ games of her season. The range $10$-$14$ means at least $10$ but less than $15$.",
+   "prompt": "Is it possible for a player to play $20$ games and score a different number of goals in every game?",
+   "type": "choice",
+   "answer": 0,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Enrichment",
+   "stem": "Mei records the number of hours of piano practice she does each evening from Monday to Thursday. Her results are in the frequency table.",
+   "prompt": "If she practised at least as long each night as the night before, how long did she practise on Wednesday?",
+   "type": "numeric",
+   "answer": "2",
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "Hours",
+      "1",
+      "2",
+      "3"
+     ],
+     [
+      "Frequency",
+      "2",
+      "1",
+      "1"
+     ]
+    ]
+   },
+   "units": "hours"
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Enrichment",
+   "stem": "Mei records the number of hours of piano practice she does each evening from Monday to Thursday. Her results are in the frequency table.",
+   "prompt": "In how many different ways could her four nights (Monday, Tuesday, Wednesday, Thursday) match the table?",
+   "type": "numeric",
+   "answer": "12"
+  },
+  {
+   "id": "q11c",
+   "label": "11c",
+   "section": "Enrichment",
+   "stem": "Mei records the number of hours of piano practice she does each evening from Monday to Thursday. Her results are in the frequency table.",
+   "prompt": "If you know she practised for $2$ hours on Monday, how many ways are there?",
+   "type": "numeric",
+   "answer": "3"
+  },
+  {
+   "id": "q11d",
+   "label": "11d",
+   "section": "Enrichment",
+   "stem": "Mei records the number of hours of piano practice she does each evening from Monday to Thursday. Her results are in the frequency table.",
+   "prompt": "If you know she practised for $1$ hour on Monday, how many ways are there?",
+   "type": "numeric",
+   "answer": "6"
+  },
+  {
+   "id": "q11e",
+   "label": "11e",
+   "section": "Enrichment",
+   "stem": "Mei records the number of hours of piano practice she does each evening from Monday to Thursday. Her results are in the frequency table.",
+   "prompt": "Mei's brother practised on all five nights, Monday to Friday. He practised $1$ hour on one night, $2$ hours on one night and $3$ hours on three nights. In how many ways could his five nights be filled in?",
+   "type": "numeric",
+   "answer": "20"
+  }
+ ]
+},
+{
+ "id": "y8-8c",
+ "year": 8,
+ "chapter": "Chapter 8: Probability and statistics",
+ "title": "8C Graphs of frequency tables",
+ "description": "Match frequency tables to dot plots and frequency graphs, and read dot plots and frequency graphs to answer questions.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Each frequency table is drawn as a dot plot.",
+   "prompt": "Which dot plot shows this frequency table?",
+   "type": "choice",
+   "answer": 1,
+   "figure": [
+    {
+     "kind": "table",
+     "rows": [
+      [
+       "Number",
+       "0",
+       "1",
+       "2",
+       "3"
+      ],
+      [
+       "Frequency",
+       "2",
+       "4",
+       "1",
+       "3"
+      ]
+     ]
+    },
+    {
+     "kind": "dotplot",
+     "min": 0,
+     "max": 3,
+     "values": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      2,
+      3,
+      3,
+      3
+     ],
+     "caption": "A"
+    },
+    {
+     "kind": "dotplot",
+     "min": 0,
+     "max": 3,
+     "values": [
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      2,
+      3,
+      3,
+      3
+     ],
+     "caption": "B"
+    },
+    {
+     "kind": "dotplot",
+     "min": 0,
+     "max": 3,
+     "values": [
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      3
+     ],
+     "caption": "C"
+    }
+   ],
+   "options": [
+    "A",
+    "B",
+    "C"
+   ]
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Each frequency table is drawn as a dot plot.",
+   "prompt": "Which dot plot shows this frequency table?",
+   "type": "choice",
+   "answer": 2,
+   "figure": [
+    {
+     "kind": "table",
+     "rows": [
+      [
+       "Number",
+       "1",
+       "2",
+       "3",
+       "4",
+       "5"
+      ],
+      [
+       "Frequency",
+       "3",
+       "1",
+       "4",
+       "2",
+       "2"
+      ]
+     ]
+    },
+    {
+     "kind": "dotplot",
+     "min": 1,
+     "max": 5,
+     "values": [
+      1,
+      1,
+      1,
+      2,
+      3,
+      3,
+      4,
+      4,
+      4,
+      4,
+      5,
+      5
+     ],
+     "caption": "A"
+    },
+    {
+     "kind": "dotplot",
+     "min": 1,
+     "max": 5,
+     "values": [
+      1,
+      1,
+      2,
+      2,
+      3,
+      3,
+      3,
+      3,
+      4,
+      5,
+      5,
+      5
+     ],
+     "caption": "B"
+    },
+    {
+     "kind": "dotplot",
+     "min": 1,
+     "max": 5,
+     "values": [
+      1,
+      1,
+      1,
+      2,
+      3,
+      3,
+      3,
+      3,
+      4,
+      4,
+      5,
+      5
+     ],
+     "caption": "C"
+    }
+   ],
+   "options": [
+    "A",
+    "B",
+    "C"
+   ]
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "The frequency table shows the number of goals a water polo player scored in each match.",
+   "prompt": "Which dot plot shows this table?",
+   "type": "choice",
+   "answer": 0,
+   "figure": [
+    {
+     "kind": "dotplot",
+     "min": 0,
+     "max": 11,
+     "values": [
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3,
+      4,
+      5,
+      11
+     ],
+     "caption": "A"
+    },
+    {
+     "kind": "dotplot",
+     "min": 0,
+     "max": 11,
+     "values": [
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3,
+      4,
+      5,
+      11
+     ],
+     "caption": "B"
+    },
+    {
+     "kind": "dotplot",
+     "min": 0,
+     "max": 11,
+     "values": [
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3,
+      4,
+      4,
+      4,
+      5,
+      11
+     ],
+     "caption": "C"
+    }
+   ],
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "Goals",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "11"
+     ],
+     [
+      "Frequency",
+      "2",
+      "4",
+      "6",
+      "3",
+      "1",
+      "1",
+      "1"
+     ]
+    ]
+   },
+   "options": [
+    "A",
+    "B",
+    "C"
+   ]
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "The frequency table shows the number of goals a water polo player scored in each match.",
+   "prompt": "What was the most common number of goals scored?",
+   "type": "numeric",
+   "answer": "2"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "The frequency table shows the number of goals a water polo player scored in each match.",
+   "prompt": "Which value is an outlier?",
+   "type": "numeric",
+   "answer": "11"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Each frequency table is drawn as a frequency graph.",
+   "prompt": "Which frequency graph shows this table?",
+   "type": "choice",
+   "answer": 2,
+   "figure": [
+    {
+     "kind": "table",
+     "rows": [
+      [
+       "Number",
+       "0",
+       "1",
+       "2",
+       "3",
+       "4"
+      ],
+      [
+       "Frequency",
+       "4",
+       "8",
+       "2",
+       "9",
+       "6"
+      ]
+     ]
+    },
+    {
+     "kind": "columns",
+     "cats": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+     ],
+     "values": [
+      4,
+      8,
+      2,
+      6,
+      9
+     ],
+     "ylabel": "Frequency",
+     "xlabel": "Number",
+     "ymax": 10,
+     "step": 2,
+     "caption": "A"
+    },
+    {
+     "kind": "columns",
+     "cats": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+     ],
+     "values": [
+      6,
+      9,
+      2,
+      8,
+      4
+     ],
+     "ylabel": "Frequency",
+     "xlabel": "Number",
+     "ymax": 10,
+     "step": 2,
+     "caption": "B"
+    },
+    {
+     "kind": "columns",
+     "cats": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+     ],
+     "values": [
+      4,
+      8,
+      2,
+      9,
+      6
+     ],
+     "ylabel": "Frequency",
+     "xlabel": "Number",
+     "ymax": 10,
+     "step": 2,
+     "caption": "C"
+    }
+   ],
+   "options": [
+    "A",
+    "B",
+    "C"
+   ]
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Each frequency table is drawn as a frequency graph.",
+   "prompt": "Which frequency graph shows this table?",
+   "type": "choice",
+   "answer": 0,
+   "figure": [
+    {
+     "kind": "table",
+     "rows": [
+      [
+       "Number of pets",
+       "0",
+       "1",
+       "2",
+       "3"
+      ],
+      [
+       "Frequency",
+       "5",
+       "3",
+       "6",
+       "2"
+      ]
+     ]
+    },
+    {
+     "kind": "columns",
+     "cats": [
+      "0",
+      "1",
+      "2",
+      "3"
+     ],
+     "values": [
+      5,
+      3,
+      6,
+      2
+     ],
+     "ylabel": "Frequency",
+     "xlabel": "Number of pets",
+     "ymax": 8,
+     "step": 2,
+     "caption": "A"
+    },
+    {
+     "kind": "columns",
+     "cats": [
+      "0",
+      "1",
+      "2",
+      "3"
+     ],
+     "values": [
+      5,
+      6,
+      3,
+      2
+     ],
+     "ylabel": "Frequency",
+     "xlabel": "Number of pets",
+     "ymax": 8,
+     "step": 2,
+     "caption": "B"
+    },
+    {
+     "kind": "columns",
+     "cats": [
+      "0",
+      "1",
+      "2",
+      "3"
+     ],
+     "values": [
+      3,
+      5,
+      6,
+      2
+     ],
+     "ylabel": "Frequency",
+     "xlabel": "Number of pets",
+     "ymax": 8,
+     "step": 2,
+     "caption": "C"
+    }
+   ],
+   "options": [
+    "A",
+    "B",
+    "C"
+   ]
+  },
+  {
+   "id": "q4",
+   "label": "4",
+   "section": "Fluency",
+   "prompt": "Which frequency graph shows this grouped frequency table?",
+   "type": "choice",
+   "answer": 1,
+   "figure": [
+    {
+     "kind": "table",
+     "rows": [
+      [
+       "Number",
+       "Frequency"
+      ],
+      [
+       "0-4",
+       "3"
+      ],
+      [
+       "5-9",
+       "9"
+      ],
+      [
+       "10-14",
+       "13"
+      ],
+      [
+       "15-19",
+       "10"
+      ],
+      [
+       "20-24",
+       "6"
+      ],
+      [
+       "25-29",
+       "4"
+      ],
+      [
+       "30-34",
+       "1"
+      ]
+     ]
+    },
+    {
+     "kind": "columns",
+     "cats": [
+      "0-4",
+      "5-9",
+      "10-14",
+      "15-19",
+      "20-24",
+      "25-29",
+      "30-34"
+     ],
+     "values": [
+      3,
+      9,
+      10,
+      13,
+      6,
+      4,
+      1
+     ],
+     "ylabel": "Frequency",
+     "xlabel": "Number",
+     "ymax": 14,
+     "step": 2,
+     "caption": "A"
+    },
+    {
+     "kind": "columns",
+     "cats": [
+      "0-4",
+      "5-9",
+      "10-14",
+      "15-19",
+      "20-24",
+      "25-29",
+      "30-34"
+     ],
+     "values": [
+      3,
+      9,
+      13,
+      10,
+      6,
+      4,
+      1
+     ],
+     "ylabel": "Frequency",
+     "xlabel": "Number",
+     "ymax": 14,
+     "step": 2,
+     "caption": "B"
+    },
+    {
+     "kind": "columns",
+     "cats": [
+      "0-4",
+      "5-9",
+      "10-14",
+      "15-19",
+      "20-24",
+      "25-29",
+      "30-34"
+     ],
+     "values": [
+      3,
+      13,
+      9,
+      10,
+      6,
+      1,
+      4
+     ],
+     "ylabel": "Frequency",
+     "xlabel": "Number",
+     "ymax": 14,
+     "step": 2,
+     "caption": "C"
+    }
+   ],
+   "options": [
+    "A",
+    "B",
+    "C"
+   ]
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Fluency",
+   "stem": "Read each frequency graph to rebuild its frequency table.",
+   "prompt": "This frequency graph was drawn from a frequency table. Read the graph to rebuild the table. Type the frequencies in order, separated by commas. (values 0, 1, 2, 3, 4)",
+   "type": "ordered",
+   "answer": [
+    "6",
+    "2",
+    "4",
+    "5",
+    "3"
+   ],
+   "figure": {
+    "kind": "columns",
+    "cats": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4"
+    ],
+    "values": [
+     6,
+     2,
+     4,
+     5,
+     3
+    ],
+    "ylabel": "Frequency",
+    "xlabel": "Number",
+    "ymax": 8,
+    "step": 1
+   }
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Fluency",
+   "stem": "Read each frequency graph to rebuild its frequency table.",
+   "prompt": "Read the graph to rebuild the table. Type the frequencies in order, separated by commas. (intervals 0-19, 20-39, 40-59, 60-79, 80-100)",
+   "type": "ordered",
+   "answer": [
+    "2",
+    "5",
+    "11",
+    "9",
+    "4"
+   ],
+   "figure": {
+    "kind": "columns",
+    "cats": [
+     "0-19",
+     "20-39",
+     "40-59",
+     "60-79",
+     "80-100"
+    ],
+    "values": [
+     2,
+     5,
+     11,
+     9,
+     4
+    ],
+    "ylabel": "Frequency",
+    "xlabel": "Score",
+    "ymax": 12,
+    "step": 2
+   }
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Fluency",
+   "stem": "These are the results of a quiz marked out of $10$: $7, 4, 9, 6, 5, 8, 6, 3, 10, 6, 7, 2, 5, 8, 6, 9, 4, 7, 6, 1$",
+   "prompt": "Complete a frequency table for the scores $1$ to $10$. Type the frequencies in order, separated by commas.",
+   "type": "ordered",
+   "answer": [
+    "1",
+    "1",
+    "1",
+    "2",
+    "2",
+    "5",
+    "3",
+    "2",
+    "2",
+    "1"
+   ]
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Fluency",
+   "stem": "These are the results of a quiz marked out of $10$: $7, 4, 9, 6, 5, 8, 6, 3, 10, 6, 7, 2, 5, 8, 6, 9, 4, 7, 6, 1$",
+   "prompt": "In a frequency graph of these results, which score would have the tallest column?",
+   "type": "numeric",
+   "answer": "6"
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Fluency",
+   "stem": "These are the results of a quiz marked out of $10$: $7, 4, 9, 6, 5, 8, 6, 3, 10, 6, 7, 2, 5, 8, 6, 9, 4, 7, 6, 1$",
+   "prompt": "In a dot plot of these results, how many dots would be stacked above the score $7$?",
+   "type": "numeric",
+   "answer": "3"
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Problem-solving",
+   "stem": "Look at this dot plot.",
+   "prompt": "Write the matching frequency table for the values $3$ to $10$. Type the frequencies in order, separated by commas.",
+   "type": "ordered",
+   "answer": [
+    "2",
+    "1",
+    "3",
+    "2",
+    "4",
+    "1",
+    "2",
+    "1"
+   ],
+   "stemFigure": {
+    "kind": "dotplot",
+    "min": 3,
+    "max": 10,
+    "values": [
+     3,
+     3,
+     4,
+     5,
+     5,
+     5,
+     6,
+     6,
+     7,
+     7,
+     7,
+     7,
+     8,
+     9,
+     9,
+     10
+    ],
+    "xlabel": "Value"
+   }
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Problem-solving",
+   "stem": "Look at this dot plot.",
+   "prompt": "If one data point is removed, the dot plot and the frequency table can both become one column shorter. Which value would have to be removed?",
+   "type": "numeric",
+   "answer": "10"
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Problem-solving",
+   "stem": "Maya's spelling test results (out of $10$) are $4, 6, 3, 5, 8, 4, 2, 6, 5, 7, 4, 3, 9, 4, 5$. Leo's results are shown in the frequency graph.",
+   "prompt": "Which score did Maya get most often?",
+   "type": "numeric",
+   "answer": "4",
+   "stemFigure": {
+    "kind": "columns",
+    "cats": [
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10"
+    ],
+    "values": [
+     1,
+     0,
+     1,
+     2,
+     5,
+     3,
+     3
+    ],
+    "ylabel": "Frequency",
+    "xlabel": "Test score",
+    "ymax": 6,
+    "step": 1,
+    "title": "Leo's results"
+   }
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Problem-solving",
+   "stem": "Maya's spelling test results (out of $10$) are $4, 6, 3, 5, 8, 4, 2, 6, 5, 7, 4, 3, 9, 4, 5$. Leo's results are shown in the frequency graph.",
+   "prompt": "Is Maya generally a better or a worse speller than Leo?",
+   "type": "choice",
+   "answer": 1,
+   "options": [
+    "Better",
+    "Worse"
+   ]
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Problem-solving",
+   "stem": "Some hockey players count the number of goals they score in each match. Match each graph with the best description.",
+   "prompt": "Graph a",
+   "type": "choice",
+   "answer": 1,
+   "figure": {
+    "kind": "columns",
+    "cats": [
+     "0",
+     "1",
+     "2",
+     "3"
+    ],
+    "values": [
+     5,
+     1,
+     2,
+     6
+    ],
+    "ylabel": "Frequency",
+    "xlabel": "Goals",
+    "ymax": 8,
+    "step": 2
+   },
+   "options": [
+    "Often scores 3 goals",
+    "Usually scores 0 goals or 3 goals",
+    "Scores 0, 1, 2 and 3 goals equally often",
+    "Rarely scores goals"
+   ]
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Problem-solving",
+   "stem": "Some hockey players count the number of goals they score in each match. Match each graph with the best description.",
+   "prompt": "Graph b",
+   "type": "choice",
+   "answer": 2,
+   "figure": {
+    "kind": "columns",
+    "cats": [
+     "0",
+     "1",
+     "2",
+     "3"
+    ],
+    "values": [
+     4,
+     4,
+     4,
+     4
+    ],
+    "ylabel": "Frequency",
+    "xlabel": "Goals",
+    "ymax": 8,
+    "step": 2
+   },
+   "options": [
+    "Often scores 3 goals",
+    "Usually scores 0 goals or 3 goals",
+    "Scores 0, 1, 2 and 3 goals equally often",
+    "Rarely scores goals"
+   ]
+  },
+  {
+   "id": "q9c",
+   "label": "9c",
+   "section": "Problem-solving",
+   "stem": "Some hockey players count the number of goals they score in each match. Match each graph with the best description.",
+   "prompt": "Graph c",
+   "type": "choice",
+   "answer": 3,
+   "figure": {
+    "kind": "columns",
+    "cats": [
+     "0",
+     "1",
+     "2",
+     "3"
+    ],
+    "values": [
+     7,
+     3,
+     1,
+     1
+    ],
+    "ylabel": "Frequency",
+    "xlabel": "Goals",
+    "ymax": 8,
+    "step": 2
+   },
+   "options": [
+    "Often scores 3 goals",
+    "Usually scores 0 goals or 3 goals",
+    "Scores 0, 1, 2 and 3 goals equally often",
+    "Rarely scores goals"
+   ]
+  },
+  {
+   "id": "q9d",
+   "label": "9d",
+   "section": "Problem-solving",
+   "stem": "Some hockey players count the number of goals they score in each match. Match each graph with the best description.",
+   "prompt": "Graph d",
+   "type": "choice",
+   "answer": 0,
+   "figure": {
+    "kind": "columns",
+    "cats": [
+     "0",
+     "1",
+     "2",
+     "3"
+    ],
+    "values": [
+     1,
+     2,
+     4,
+     7
+    ],
+    "ylabel": "Frequency",
+    "xlabel": "Goals",
+    "ymax": 8,
+    "step": 2
+   },
+   "options": [
+    "Often scores 3 goals",
+    "Usually scores 0 goals or 3 goals",
+    "Scores 0, 1, 2 and 3 goals equally often",
+    "Rarely scores goals"
+   ]
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Problem-solving",
+   "stem": "A bike shop records how many bikes each salesperson sells per day over $15$ working days.",
+   "prompt": "Which salesperson holds the record for the most sales in one day?",
+   "type": "choice",
+   "answer": 2,
+   "stemFigure": [
+    {
+     "kind": "columns",
+     "cats": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+     ],
+     "values": [
+      6,
+      4,
+      3,
+      2,
+      0
+     ],
+     "ylabel": "Frequency",
+     "xlabel": "Number of sales",
+     "ymax": 8,
+     "step": 1,
+     "title": "Asha's sales"
+    },
+    {
+     "kind": "columns",
+     "cats": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+     ],
+     "values": [
+      0,
+      7,
+      5,
+      3,
+      0
+     ],
+     "ylabel": "Frequency",
+     "xlabel": "Number of sales",
+     "ymax": 8,
+     "step": 1,
+     "title": "Ben's sales"
+    },
+    {
+     "kind": "columns",
+     "cats": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+     ],
+     "values": [
+      4,
+      2,
+      3,
+      4,
+      2
+     ],
+     "ylabel": "Frequency",
+     "xlabel": "Number of sales",
+     "ymax": 8,
+     "step": 1,
+     "title": "Chloe's sales"
+    },
+    {
+     "kind": "columns",
+     "cats": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+     ],
+     "values": [
+      8,
+      3,
+      3,
+      1,
+      0
+     ],
+     "ylabel": "Frequency",
+     "xlabel": "Number of sales",
+     "ymax": 8,
+     "step": 1,
+     "title": "Dev's sales"
+    }
+   ],
+   "options": [
+    "Asha",
+    "Ben",
+    "Chloe",
+    "Dev"
+   ]
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Problem-solving",
+   "stem": "A bike shop records how many bikes each salesperson sells per day over $15$ working days.",
+   "prompt": "Which salesperson made a sale every day?",
+   "type": "choice",
+   "answer": 1,
+   "options": [
+    "Asha",
+    "Ben",
+    "Chloe",
+    "Dev"
+   ]
+  },
+  {
+   "id": "q10c",
+   "label": "10c",
+   "section": "Problem-solving",
+   "stem": "A bike shop records how many bikes each salesperson sells per day over $15$ working days.",
+   "prompt": "Over the whole period, which salesperson made the most sales in total?",
+   "type": "choice",
+   "answer": 2,
+   "options": [
+    "Asha",
+    "Ben",
+    "Chloe",
+    "Dev"
+   ]
+  },
+  {
+   "id": "q10d",
+   "label": "10d",
+   "section": "Problem-solving",
+   "stem": "A bike shop records how many bikes each salesperson sells per day over $15$ working days.",
+   "prompt": "Over the whole period, which salesperson made the fewest sales in total?",
+   "type": "choice",
+   "answer": 3,
+   "options": [
+    "Asha",
+    "Ben",
+    "Chloe",
+    "Dev"
+   ]
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Reasoning",
+   "stem": "This graph shows the ages of a group of people in a room.",
+   "prompt": "A graph is drawn of the ages of the same people in $12$ years' time. At what age would the tallest column be?",
+   "type": "numeric",
+   "answer": "27",
+   "stemFigure": {
+    "kind": "columns",
+    "cats": [
+     "13",
+     "14",
+     "15",
+     "16",
+     "17"
+    ],
+    "values": [
+     3,
+     6,
+     9,
+     5,
+     2
+    ],
+    "ylabel": "Frequency",
+    "xlabel": "Age",
+    "ymax": 10,
+    "step": 1
+   }
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Reasoning",
+   "stem": "This graph shows the ages of a group of people in a room.",
+   "prompt": "In that graph, how many people would be in the column for age $26$?",
+   "type": "numeric",
+   "answer": "6"
+  },
+  {
+   "id": "q11c",
+   "label": "11c",
+   "section": "Reasoning",
+   "stem": "This graph shows the ages of a group of people in a room.",
+   "prompt": "A graph is drawn of their ages $12$ years ago. What would the youngest age on that graph be?",
+   "type": "numeric",
+   "answer": "1"
+  },
+  {
+   "id": "q12",
+   "label": "12",
+   "section": "Reasoning",
+   "prompt": "To graph the number of phones in each household for every student in your whole school, which type of graph would be better?",
+   "type": "choice",
+   "answer": 1,
+   "options": [
+    "A dot plot",
+    "A frequency graph"
+   ]
+  },
+  {
+   "id": "q13a",
+   "label": "13a",
+   "section": "Reasoning",
+   "stem": "Noa has drawn a frequency graph of her results for a number of spelling tests, each out of $10$.",
+   "prompt": "Does Noa's graph show that her spelling is improving over the year?",
+   "type": "choice",
+   "answer": 1,
+   "stemFigure": {
+    "kind": "columns",
+    "cats": [
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10"
+    ],
+    "values": [
+     1,
+     2,
+     4,
+     5,
+     8,
+     10
+    ],
+    "ylabel": "Frequency",
+    "xlabel": "Test score",
+    "ymax": 10,
+    "step": 1,
+    "title": "Noa's results"
+   },
+   "options": [
+    "Yes, because the columns get taller",
+    "No, a frequency graph does not show the order of the results"
+   ]
+  },
+  {
+   "id": "q13b",
+   "label": "13b",
+   "section": "Reasoning",
+   "stem": "Noa has drawn a frequency graph of her results for a number of spelling tests, each out of $10$.",
+   "prompt": "How many spelling tests has Noa done so far?",
+   "type": "numeric",
+   "answer": "30"
+  },
+  {
+   "id": "q13c",
+   "label": "13c",
+   "section": "Reasoning",
+   "stem": "Noa has drawn a frequency graph of her results for a number of spelling tests, each out of $10$.",
+   "prompt": "Another student's results are shown in this graph. What is the most likely explanation for the scores of $0$?",
+   "type": "choice",
+   "answer": 1,
+   "figure": {
+    "kind": "columns",
+    "cats": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10"
+    ],
+    "values": [
+     3,
+     0,
+     0,
+     0,
+     0,
+     0,
+     5,
+     7,
+     8,
+     6,
+     1
+    ],
+    "ylabel": "Frequency",
+    "xlabel": "Test score",
+    "ymax": 10,
+    "step": 1
+   },
+   "options": [
+    "The student is improving",
+    "The student was away for those tests",
+    "The tests were harder"
+   ]
+  },
+  {
+   "id": "q14a",
+   "label": "14a",
+   "section": "Enrichment",
+   "stem": "Three students surveyed people in a primary school classroom, a shopping centre and a teachers' staffroom to find their heights (cm), weights (kg) and ages (years). They mixed up the nine graphs. The primary school heights are Graph 4.",
+   "prompt": "Primary school classroom: which graph shows weight (kg)?",
+   "type": "choice",
+   "answer": 7,
+   "stemFigure": [
+    {
+     "kind": "columns",
+     "cats": [
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+     ],
+     "values": [
+      3,
+      7,
+      8,
+      6,
+      2
+     ],
+     "ymax": 10,
+     "step": 5,
+     "title": "Graph 1"
+    },
+    {
+     "kind": "columns",
+     "cats": [
+      "50",
+      "60",
+      "70",
+      "80",
+      "90",
+      "100+"
+     ],
+     "values": [
+      2,
+      5,
+      8,
+      6,
+      3,
+      1
+     ],
+     "ymax": 10,
+     "step": 5,
+     "title": "Graph 2"
+    },
+    {
+     "kind": "columns",
+     "cats": [
+      "0",
+      "15",
+      "30",
+      "45",
+      "60",
+      "75+"
+     ],
+     "values": [
+      6,
+      5,
+      7,
+      6,
+      5,
+      3
+     ],
+     "ymax": 10,
+     "step": 5,
+     "title": "Graph 3"
+    },
+    {
+     "kind": "columns",
+     "cats": [
+      "110",
+      "120",
+      "130",
+      "140",
+      "150"
+     ],
+     "values": [
+      3,
+      7,
+      9,
+      5,
+      2
+     ],
+     "ymax": 10,
+     "step": 5,
+     "title": "Graph 4"
+    },
+    {
+     "kind": "columns",
+     "cats": [
+      "10",
+      "30",
+      "50",
+      "70",
+      "90+"
+     ],
+     "values": [
+      4,
+      6,
+      7,
+      8,
+      4
+     ],
+     "ymax": 10,
+     "step": 5,
+     "title": "Graph 5"
+    },
+    {
+     "kind": "columns",
+     "cats": [
+      "150",
+      "160",
+      "170",
+      "180",
+      "190+"
+     ],
+     "values": [
+      3,
+      7,
+      8,
+      5,
+      2
+     ],
+     "ymax": 10,
+     "step": 5,
+     "title": "Graph 6"
+    },
+    {
+     "kind": "columns",
+     "cats": [
+      "22",
+      "32",
+      "42",
+      "52",
+      "62+"
+     ],
+     "values": [
+      5,
+      7,
+      6,
+      6,
+      2
+     ],
+     "ymax": 10,
+     "step": 5,
+     "title": "Graph 7"
+    },
+    {
+     "kind": "columns",
+     "cats": [
+      "20",
+      "25",
+      "30",
+      "35",
+      "40"
+     ],
+     "values": [
+      2,
+      6,
+      8,
+      5,
+      3
+     ],
+     "ymax": 10,
+     "step": 5,
+     "title": "Graph 8"
+    },
+    {
+     "kind": "columns",
+     "cats": [
+      "90",
+      "110",
+      "130",
+      "150",
+      "170",
+      "190"
+     ],
+     "values": [
+      4,
+      5,
+      5,
+      6,
+      7,
+      3
+     ],
+     "ymax": 10,
+     "step": 5,
+     "title": "Graph 9"
+    }
+   ],
+   "options": [
+    "Graph 1",
+    "Graph 2",
+    "Graph 3",
+    "Graph 4",
+    "Graph 5",
+    "Graph 6",
+    "Graph 7",
+    "Graph 8",
+    "Graph 9"
+   ]
+  },
+  {
+   "id": "q14b",
+   "label": "14b",
+   "section": "Enrichment",
+   "stem": "Three students surveyed people in a primary school classroom, a shopping centre and a teachers' staffroom to find their heights (cm), weights (kg) and ages (years). They mixed up the nine graphs. The primary school heights are Graph 4.",
+   "prompt": "Primary school classroom: which graph shows age (years)?",
+   "type": "choice",
+   "answer": 0,
+   "options": [
+    "Graph 1",
+    "Graph 2",
+    "Graph 3",
+    "Graph 4",
+    "Graph 5",
+    "Graph 6",
+    "Graph 7",
+    "Graph 8",
+    "Graph 9"
+   ]
+  },
+  {
+   "id": "q14c",
+   "label": "14c",
+   "section": "Enrichment",
+   "stem": "Three students surveyed people in a primary school classroom, a shopping centre and a teachers' staffroom to find their heights (cm), weights (kg) and ages (years). They mixed up the nine graphs. The primary school heights are Graph 4.",
+   "prompt": "Shopping centre: which graph shows height (cm)?",
+   "type": "choice",
+   "answer": 8,
+   "options": [
+    "Graph 1",
+    "Graph 2",
+    "Graph 3",
+    "Graph 4",
+    "Graph 5",
+    "Graph 6",
+    "Graph 7",
+    "Graph 8",
+    "Graph 9"
+   ]
+  },
+  {
+   "id": "q14d",
+   "label": "14d",
+   "section": "Enrichment",
+   "stem": "Three students surveyed people in a primary school classroom, a shopping centre and a teachers' staffroom to find their heights (cm), weights (kg) and ages (years). They mixed up the nine graphs. The primary school heights are Graph 4.",
+   "prompt": "Shopping centre: which graph shows weight (kg)?",
+   "type": "choice",
+   "answer": 4,
+   "options": [
+    "Graph 1",
+    "Graph 2",
+    "Graph 3",
+    "Graph 4",
+    "Graph 5",
+    "Graph 6",
+    "Graph 7",
+    "Graph 8",
+    "Graph 9"
+   ]
+  },
+  {
+   "id": "q14e",
+   "label": "14e",
+   "section": "Enrichment",
+   "stem": "Three students surveyed people in a primary school classroom, a shopping centre and a teachers' staffroom to find their heights (cm), weights (kg) and ages (years). They mixed up the nine graphs. The primary school heights are Graph 4.",
+   "prompt": "Shopping centre: which graph shows age (years)?",
+   "type": "choice",
+   "answer": 2,
+   "options": [
+    "Graph 1",
+    "Graph 2",
+    "Graph 3",
+    "Graph 4",
+    "Graph 5",
+    "Graph 6",
+    "Graph 7",
+    "Graph 8",
+    "Graph 9"
+   ]
+  },
+  {
+   "id": "q14f",
+   "label": "14f",
+   "section": "Enrichment",
+   "stem": "Three students surveyed people in a primary school classroom, a shopping centre and a teachers' staffroom to find their heights (cm), weights (kg) and ages (years). They mixed up the nine graphs. The primary school heights are Graph 4.",
+   "prompt": "Teachers' staffroom: which graph shows height (cm)?",
+   "type": "choice",
+   "answer": 5,
+   "options": [
+    "Graph 1",
+    "Graph 2",
+    "Graph 3",
+    "Graph 4",
+    "Graph 5",
+    "Graph 6",
+    "Graph 7",
+    "Graph 8",
+    "Graph 9"
+   ]
+  },
+  {
+   "id": "q14g",
+   "label": "14g",
+   "section": "Enrichment",
+   "stem": "Three students surveyed people in a primary school classroom, a shopping centre and a teachers' staffroom to find their heights (cm), weights (kg) and ages (years). They mixed up the nine graphs. The primary school heights are Graph 4.",
+   "prompt": "Teachers' staffroom: which graph shows weight (kg)?",
+   "type": "choice",
+   "answer": 1,
+   "options": [
+    "Graph 1",
+    "Graph 2",
+    "Graph 3",
+    "Graph 4",
+    "Graph 5",
+    "Graph 6",
+    "Graph 7",
+    "Graph 8",
+    "Graph 9"
+   ]
+  },
+  {
+   "id": "q14h",
+   "label": "14h",
+   "section": "Enrichment",
+   "stem": "Three students surveyed people in a primary school classroom, a shopping centre and a teachers' staffroom to find their heights (cm), weights (kg) and ages (years). They mixed up the nine graphs. The primary school heights are Graph 4.",
+   "prompt": "Teachers' staffroom: which graph shows age (years)?",
+   "type": "choice",
+   "answer": 6,
+   "options": [
+    "Graph 1",
+    "Graph 2",
+    "Graph 3",
+    "Graph 4",
+    "Graph 5",
+    "Graph 6",
+    "Graph 7",
+    "Graph 8",
+    "Graph 9"
+   ]
+  }
+ ]
+},
+{
+ "id": "y8-8d",
+ "year": 8,
+ "chapter": "Chapter 8: Probability and statistics",
+ "title": "8D Measures of centre",
+ "description": "Find the mean, median and mode of data sets, including from tables and graphs, and see how outliers affect them.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "For the set of numbers $7, 4, 9, 4, 6, 12$, find:",
+   "prompt": "the mean",
+   "type": "numeric",
+   "answer": "7"
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "For the set of numbers $7, 4, 9, 4, 6, 12$, find:",
+   "prompt": "the mode",
+   "type": "numeric",
+   "answer": "4"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "For each set of numbers, find the mean and the mode.",
+   "prompt": "$3, 3, 2, 3, 2, 5, 3$: the mean",
+   "type": "numeric",
+   "answer": "3"
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "For each set of numbers, find the mean and the mode.",
+   "prompt": "$3, 3, 2, 3, 2, 5, 3$: the mode",
+   "type": "numeric",
+   "answer": "3"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "For each set of numbers, find the mean and the mode.",
+   "prompt": "$6, 2, 2, 9, 9, 5, 2$: the mean",
+   "type": "numeric",
+   "answer": "5"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "For each set of numbers, find the mean and the mode.",
+   "prompt": "$6, 2, 2, 9, 9, 5, 2$: the mode",
+   "type": "numeric",
+   "answer": "2"
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "For each set of numbers, find the mean and the mode.",
+   "prompt": "$12, 18, 8, 8, 21, 10, 18, 18, 14, 13$: the mean",
+   "type": "numeric",
+   "answer": "14"
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "For each set of numbers, find the mean and the mode.",
+   "prompt": "$12, 18, 8, 8, 21, 10, 18, 18, 14, 13$: the mode",
+   "type": "numeric",
+   "answer": "18"
+  },
+  {
+   "id": "q2g",
+   "label": "2g",
+   "section": "Fluency",
+   "stem": "For each set of numbers, find the mean and the mode.",
+   "prompt": "$24, 13, 17, 9, 24, 5, 19, 3, 16, 20$: the mean",
+   "type": "numeric",
+   "answer": "15"
+  },
+  {
+   "id": "q2h",
+   "label": "2h",
+   "section": "Fluency",
+   "stem": "For each set of numbers, find the mean and the mode.",
+   "prompt": "$24, 13, 17, 9, 24, 5, 19, 3, 16, 20$: the mode",
+   "type": "numeric",
+   "answer": "24"
+  },
+  {
+   "id": "q2i",
+   "label": "2i",
+   "section": "Fluency",
+   "stem": "For each set of numbers, find the mean and the mode.",
+   "prompt": "$16, 11, 11, 15, 11, 4, 4, 19, 7, 12$: the mean",
+   "type": "numeric",
+   "answer": "11"
+  },
+  {
+   "id": "q2j",
+   "label": "2j",
+   "section": "Fluency",
+   "stem": "For each set of numbers, find the mean and the mode.",
+   "prompt": "$16, 11, 11, 15, 11, 4, 4, 19, 7, 12$: the mode",
+   "type": "numeric",
+   "answer": "11"
+  },
+  {
+   "id": "q2k",
+   "label": "2k",
+   "section": "Fluency",
+   "stem": "For each set of numbers, find the mean and the mode.",
+   "prompt": "$21, 6, 15, 6, 22, 13, 14, 6, 9, 8$: the mean",
+   "type": "numeric",
+   "answer": "12"
+  },
+  {
+   "id": "q2l",
+   "label": "2l",
+   "section": "Fluency",
+   "stem": "For each set of numbers, find the mean and the mode.",
+   "prompt": "$21, 6, 15, 6, 22, 13, 14, 6, 9, 8$: the mode",
+   "type": "numeric",
+   "answer": "6"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Find the mean of each set of numbers.",
+   "prompt": "$-8, -3, 0, 0, -4, 0, -6$",
+   "type": "numeric",
+   "answer": "-3"
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Find the mean of each set of numbers.",
+   "prompt": "$5, 2, 7, -11, 8, -11$",
+   "type": "numeric",
+   "answer": "0"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Find the mean of each set of numbers.",
+   "prompt": "$4, -7, 9, -5, -2, 7$",
+   "type": "numeric",
+   "answer": "1"
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Find the mean of each set of numbers.",
+   "prompt": "$-14, -5, -5, 18, 7, 11, 4, 3, 17, -9$",
+   "type": "numeric",
+   "answer": "2.7"
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "Find the median of each set.",
+   "prompt": "$2, 4, 7, 9, 11$",
+   "type": "numeric",
+   "answer": "7"
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "Find the median of each set.",
+   "prompt": "$5, 6, 6, 8, 9$",
+   "type": "numeric",
+   "answer": "6"
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "Find the median of each set.",
+   "prompt": "$3, 4, 6, 9, 11, 14, 14$",
+   "type": "numeric",
+   "answer": "9"
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "Find the median of each set.",
+   "prompt": "$1, 6, 6, 6, 9, 13, 15$",
+   "type": "numeric",
+   "answer": "6"
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Fluency",
+   "stem": "Find the median of each set.",
+   "prompt": "$13, 16, 8, 2, 12, 3, 9, 8, 16$",
+   "type": "numeric",
+   "answer": "9"
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Fluency",
+   "stem": "Find the median of each set.",
+   "prompt": "$5, 15, 6, 8, 13, 2, 13, 7, 10$",
+   "type": "numeric",
+   "answer": "8"
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Fluency",
+   "stem": "Find the median of each set.",
+   "prompt": "$3, 3, 5, 8, 9, 10$",
+   "type": "numeric",
+   "answer": "6.5"
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Fluency",
+   "stem": "Find the median of each set.",
+   "prompt": "$2, 2, 3, 10, 10, 12$",
+   "type": "numeric",
+   "answer": "6.5"
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Fluency",
+   "stem": "Find the median of each set.",
+   "prompt": "$2, 4, 6, 8, 9, 12, 14, 15$",
+   "type": "numeric",
+   "answer": "8.5"
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Fluency",
+   "stem": "Find the median of each set.",
+   "prompt": "$0, 2, 10, 14, 2, 11, 8, 13, 10, 3$",
+   "type": "numeric",
+   "answer": "9"
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Fluency",
+   "stem": "Find the median of each set of numbers.",
+   "prompt": "$7, -9, 9, 2, 14, 9, 4, 2, 3$",
+   "type": "numeric",
+   "answer": "4"
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Fluency",
+   "stem": "Find the median of each set of numbers.",
+   "prompt": "$6, -6, 13, 8, -2, 8, -2, 12, 13$",
+   "type": "numeric",
+   "answer": "8"
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Fluency",
+   "stem": "Find the median of each set of numbers.",
+   "prompt": "$13, 16, 6, 11, 3, 16, -3, 14, 12, -7$",
+   "type": "numeric",
+   "answer": "11.5"
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Fluency",
+   "stem": "Find the median of each set of numbers.",
+   "prompt": "$-3, -2, -4, 14, 12, 10, 13, 16, 2, 13$",
+   "type": "numeric",
+   "answer": "11"
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Fluency",
+   "stem": "The ages of some people at a climbing gym are shown in this stem-and-leaf plot.",
+   "prompt": "Write the data out as a list in ascending order.",
+   "type": "ordered",
+   "answer": [
+    "17",
+    "19",
+    "21",
+    "24",
+    "24",
+    "26",
+    "28",
+    "30",
+    "33",
+    "33",
+    "33",
+    "36"
+   ],
+   "stemFigure": {
+    "kind": "stemleaf",
+    "rows": [
+     [
+      "1",
+      "7 9"
+     ],
+     [
+      "2",
+      "1 4 4 6 8"
+     ],
+     [
+      "3",
+      "0 3 3 3 6"
+     ]
+    ],
+    "key": "2 | 4 means 24 years old"
+   },
+   "hint": "Type the ages separated by commas, smallest first."
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Fluency",
+   "stem": "The ages of some people at a climbing gym are shown in this stem-and-leaf plot.",
+   "prompt": "Find the median.",
+   "type": "numeric",
+   "answer": "27"
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Fluency",
+   "stem": "The ages of some people at a climbing gym are shown in this stem-and-leaf plot.",
+   "prompt": "Calculate the mean.",
+   "type": "numeric",
+   "answer": "27"
+  },
+  {
+   "id": "q7d",
+   "label": "7d",
+   "section": "Fluency",
+   "stem": "The ages of some people at a climbing gym are shown in this stem-and-leaf plot.",
+   "prompt": "State the mode.",
+   "type": "numeric",
+   "answer": "33"
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Problem-solving",
+   "stem": "Sophie weighs $10$ apples (in grams) from each of two markets. Both markets charge the same price per apple. Market A: $182.4, 175.9, 190.2, 168.7, 185.3, 179.6, 172.8, 188.1, 181.5, 176.0$. Market B: $195.6, 160.2, 171.4, 201.3, 158.7, 166.9, 199.8, 162.5, 170.1, 183.0$.",
+   "prompt": "Find the mean weight of an apple at Market A.",
+   "type": "numeric",
+   "answer": "180.05",
+   "units": "g"
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Problem-solving",
+   "stem": "Sophie weighs $10$ apples (in grams) from each of two markets. Both markets charge the same price per apple. Market A: $182.4, 175.9, 190.2, 168.7, 185.3, 179.6, 172.8, 188.1, 181.5, 176.0$. Market B: $195.6, 160.2, 171.4, 201.3, 158.7, 166.9, 199.8, 162.5, 170.1, 183.0$.",
+   "prompt": "Find the mean weight of an apple at Market B.",
+   "type": "numeric",
+   "answer": "176.95",
+   "units": "g"
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Problem-solving",
+   "stem": "Sophie weighs $10$ apples (in grams) from each of two markets. Both markets charge the same price per apple. Market A: $182.4, 175.9, 190.2, 168.7, 185.3, 179.6, 172.8, 188.1, 181.5, 176.0$. Market B: $195.6, 160.2, 171.4, 201.3, 158.7, 166.9, 199.8, 162.5, 170.1, 183.0$.",
+   "prompt": "Which market has heavier apples, on average?",
+   "type": "choice",
+   "answer": 0,
+   "options": [
+    "Market A",
+    "Market B"
+   ]
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Problem-solving",
+   "stem": "Tariq competes in diving and each week he gets a score out of $10$. His results for $10$ weeks are shown in the frequency table.",
+   "prompt": "In how many weeks did he score $9$?",
+   "type": "numeric",
+   "answer": "3",
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "Score",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+     ],
+     [
+      "Frequency",
+      "2",
+      "4",
+      "0",
+      "3",
+      "1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Problem-solving",
+   "stem": "Tariq competes in diving and each week he gets a score out of $10$. His results for $10$ weeks are shown in the frequency table.",
+   "prompt": "What score did he get most often?",
+   "type": "numeric",
+   "answer": "7"
+  },
+  {
+   "id": "q9c",
+   "label": "9c",
+   "section": "Problem-solving",
+   "stem": "Tariq competes in diving and each week he gets a score out of $10$. His results for $10$ weeks are shown in the frequency table.",
+   "prompt": "What is his mean score for the $10$ weeks?",
+   "type": "numeric",
+   "answer": "7.7"
+  },
+  {
+   "id": "q9d",
+   "label": "9d",
+   "section": "Problem-solving",
+   "stem": "Tariq competes in diving and each week he gets a score out of $10$. His results for $10$ weeks are shown in the frequency table.",
+   "prompt": "What is his median score for the $10$ weeks?",
+   "type": "numeric",
+   "answer": "7"
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Problem-solving",
+   "stem": "The graph shows the ages of all the students in a school's robotics club.",
+   "prompt": "What is the most common age?",
+   "type": "numeric",
+   "answer": "13",
+   "stemFigure": {
+    "kind": "columns",
+    "cats": [
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "17"
+    ],
+    "values": [
+     3,
+     5,
+     7,
+     4,
+     6,
+     2,
+     1
+    ],
+    "ymax": 8,
+    "step": 1,
+    "xlabel": "Age",
+    "ylabel": "Frequency"
+   },
+   "units": "years"
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Problem-solving",
+   "stem": "The graph shows the ages of all the students in a school's robotics club.",
+   "prompt": "Calculate the mean age, correct to two decimal places.",
+   "type": "numeric",
+   "answer": "13.54",
+   "dp": 2,
+   "units": "years"
+  },
+  {
+   "id": "q10c",
+   "label": "10c",
+   "section": "Problem-solving",
+   "stem": "The graph shows the ages of all the students in a school's robotics club.",
+   "prompt": "Calculate the median age.",
+   "type": "numeric",
+   "answer": "13",
+   "units": "years"
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Problem-solving",
+   "stem": "In each case, find the missing number (shown as ?).",
+   "prompt": "The mean of the set $9, 14,$ ? $, 6$ is equal to $11$.",
+   "type": "numeric",
+   "answer": "15"
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Problem-solving",
+   "stem": "In each case, find the missing number (shown as ?).",
+   "prompt": "The mean of the set $3, 7, 8,$ ? is equal to $4$.",
+   "type": "numeric",
+   "answer": "-2"
+  },
+  {
+   "id": "q11c",
+   "label": "11c",
+   "section": "Problem-solving",
+   "stem": "In each case, find the missing number (shown as ?).",
+   "prompt": "The mode of the set $3, 8,$ ? $, 4$ is equal to $8$.",
+   "type": "numeric",
+   "answer": "8"
+  },
+  {
+   "id": "q11d",
+   "label": "11d",
+   "section": "Problem-solving",
+   "stem": "In each case, find the missing number (shown as ?).",
+   "prompt": "The median of the set $2, 11, 4,$ ? $, 90$ is equal to $8$.",
+   "type": "numeric",
+   "answer": "8"
+  },
+  {
+   "id": "q11e",
+   "label": "11e",
+   "section": "Problem-solving",
+   "stem": "In each case, find the missing number (shown as ?).",
+   "prompt": "The median of the set $17, 12, 3,$ ? $, 6, 25$ is equal to $11$.",
+   "type": "numeric",
+   "answer": "10"
+  },
+  {
+   "id": "q12a",
+   "label": "12a",
+   "section": "Reasoning",
+   "stem": "Zara writes down how many hours she works each day for one week.",
+   "prompt": "What is the mean number of hours she worked each day?",
+   "type": "numeric",
+   "answer": "6.8",
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "Day",
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+     ],
+     [
+      "Hours",
+      "6",
+      "9",
+      "6",
+      "5",
+      "8"
+     ]
+    ]
+   },
+   "units": "hours"
+  },
+  {
+   "id": "q12b",
+   "label": "12b",
+   "section": "Reasoning",
+   "stem": "Zara writes down how many hours she works each day for one week.",
+   "prompt": "What is the median number of hours she worked each day?",
+   "type": "numeric",
+   "answer": "6",
+   "units": "hours"
+  },
+  {
+   "id": "q12c",
+   "label": "12c",
+   "section": "Reasoning",
+   "stem": "Zara writes down how many hours she works each day for one week.",
+   "prompt": "What is the mode number of hours she worked each day?",
+   "type": "numeric",
+   "answer": "6",
+   "units": "hours"
+  },
+  {
+   "id": "q12d",
+   "label": "12d",
+   "section": "Reasoning",
+   "stem": "Zara writes down how many hours she works each day for one week.",
+   "prompt": "If the hours worked on Tuesday changed to $18$ (an outlier), which of these answers would change?",
+   "type": "choice",
+   "answer": 0,
+   "options": [
+    "The mean only",
+    "The median only",
+    "The mode only",
+    "The mean and the median",
+    "All three"
+   ]
+  },
+  {
+   "id": "q13a",
+   "label": "13a",
+   "section": "Reasoning",
+   "stem": "Consider the set $2, 4, 6, 9, 9$.",
+   "prompt": "Find the mean of this set.",
+   "type": "numeric",
+   "answer": "6"
+  },
+  {
+   "id": "q13b",
+   "label": "13b",
+   "section": "Reasoning",
+   "stem": "Consider the set $2, 4, 6, 9, 9$.",
+   "prompt": "Every number is multiplied by $4$. What is the new mean?",
+   "type": "numeric",
+   "answer": "24"
+  },
+  {
+   "id": "q13c",
+   "label": "13c",
+   "section": "Reasoning",
+   "stem": "Consider the set $2, 4, 6, 9, 9$.",
+   "prompt": "Instead, every number has $5$ added. What is the new mean?",
+   "type": "numeric",
+   "answer": "11"
+  },
+  {
+   "id": "q13d",
+   "label": "13d",
+   "section": "Reasoning",
+   "stem": "Consider the set $2, 4, 6, 9, 9$.",
+   "prompt": "Instead, every number is squared. What is the new mean?",
+   "type": "numeric",
+   "answer": "43.6"
+  },
+  {
+   "id": "q13e",
+   "label": "13e",
+   "section": "Reasoning",
+   "stem": "Consider the set $2, 4, 6, 9, 9$.",
+   "prompt": "If every number is squared, what is the new median?",
+   "type": "numeric",
+   "answer": "36"
+  },
+  {
+   "id": "q14a",
+   "label": "14a",
+   "section": "Reasoning",
+   "stem": "The prices of all the houses in Banksia Court are: $\\$610\\,000, \\$545\\,000, \\$720\\,000, \\$580\\,000, \\$865\\,000, \\$635\\,000, \\$790\\,000, \\$700\\,000$ and one mansion worth $\\$9.2$ million.",
+   "prompt": "What is the mean house price in Banksia Court, correct to the nearest dollar?",
+   "type": "numeric",
+   "answer": "1627222",
+   "units": "$"
+  },
+  {
+   "id": "q14b",
+   "label": "14b",
+   "section": "Reasoning",
+   "stem": "The prices of all the houses in Banksia Court are: $\\$610\\,000, \\$545\\,000, \\$720\\,000, \\$580\\,000, \\$865\\,000, \\$635\\,000, \\$790\\,000, \\$700\\,000$ and one mansion worth $\\$9.2$ million.",
+   "prompt": "What is the median house price in Banksia Court?",
+   "type": "numeric",
+   "answer": "700000",
+   "units": "$"
+  },
+  {
+   "id": "q14c",
+   "label": "14c",
+   "section": "Reasoning",
+   "stem": "The prices of all the houses in Banksia Court are: $\\$610\\,000, \\$545\\,000, \\$720\\,000, \\$580\\,000, \\$865\\,000, \\$635\\,000, \\$790\\,000, \\$700\\,000$ and one mansion worth $\\$9.2$ million.",
+   "prompt": "What effect does the $\\$9.2$ million mansion have on the mean?",
+   "type": "choice",
+   "answer": 0,
+   "options": [
+    "It makes the mean much higher",
+    "It makes the mean much lower",
+    "It has almost no effect on the mean"
+   ]
+  },
+  {
+   "id": "q14d",
+   "label": "14d",
+   "section": "Reasoning",
+   "stem": "The prices of all the houses in Banksia Court are: $\\$610\\,000, \\$545\\,000, \\$720\\,000, \\$580\\,000, \\$865\\,000, \\$635\\,000, \\$790\\,000, \\$700\\,000$ and one mansion worth $\\$9.2$ million.",
+   "prompt": "What effect does the mansion have on the median?",
+   "type": "choice",
+   "answer": 2,
+   "options": [
+    "It makes the median much higher",
+    "It makes the median much lower",
+    "It has very little effect on the median"
+   ]
+  },
+  {
+   "id": "q15a",
+   "label": "15a",
+   "section": "Reasoning",
+   "stem": "These frequency graphs are drawn to scale, but the frequencies have been left off. Find the median for each one.",
+   "prompt": "Graph a",
+   "type": "numeric",
+   "answer": "7",
+   "figure": {
+    "kind": "diagram",
+    "unit": 28,
+    "items": [
+     {
+      "seg": [
+       0,
+       0,
+       3.6,
+       0
+      ],
+      "arrow": "end"
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       6
+      ],
+      "arrow": "end"
+     },
+     {
+      "poly": [
+       [
+        0.3,
+        0
+       ],
+       [
+        1.3,
+        0
+       ],
+       [
+        1.3,
+        2
+       ],
+       [
+        0.3,
+        2
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "6",
+      "at": [
+       0.8,
+       -0.6
+      ]
+     },
+     {
+      "poly": [
+       [
+        1.3,
+        0
+       ],
+       [
+        2.3,
+        0
+       ],
+       [
+        2.3,
+        5
+       ],
+       [
+        1.3,
+        5
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "7",
+      "at": [
+       1.8,
+       -0.6
+      ]
+     },
+     {
+      "poly": [
+       [
+        2.3,
+        0
+       ],
+       [
+        3.3,
+        0
+       ],
+       [
+        3.3,
+        1
+       ],
+       [
+        2.3,
+        1
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "8",
+      "at": [
+       2.8,
+       -0.6
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q15b",
+   "label": "15b",
+   "section": "Reasoning",
+   "stem": "These frequency graphs are drawn to scale, but the frequencies have been left off. Find the median for each one.",
+   "prompt": "Graph b",
+   "type": "numeric",
+   "answer": "20",
+   "figure": {
+    "kind": "diagram",
+    "unit": 28,
+    "items": [
+     {
+      "seg": [
+       0,
+       0,
+       2.6,
+       0
+      ],
+      "arrow": "end"
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       6
+      ],
+      "arrow": "end"
+     },
+     {
+      "poly": [
+       [
+        0.3,
+        0
+       ],
+       [
+        1.3,
+        0
+       ],
+       [
+        1.3,
+        5
+       ],
+       [
+        0.3,
+        5
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "20",
+      "at": [
+       0.8,
+       -0.6
+      ]
+     },
+     {
+      "poly": [
+       [
+        1.3,
+        0
+       ],
+       [
+        2.3,
+        0
+       ],
+       [
+        2.3,
+        3
+       ],
+       [
+        1.3,
+        3
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "21",
+      "at": [
+       1.8,
+       -0.6
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q15c",
+   "label": "15c",
+   "section": "Reasoning",
+   "stem": "These frequency graphs are drawn to scale, but the frequencies have been left off. Find the median for each one.",
+   "prompt": "Graph c",
+   "type": "numeric",
+   "answer": "3",
+   "figure": {
+    "kind": "diagram",
+    "unit": 28,
+    "items": [
+     {
+      "seg": [
+       0,
+       0,
+       3.6,
+       0
+      ],
+      "arrow": "end"
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       5
+      ],
+      "arrow": "end"
+     },
+     {
+      "poly": [
+       [
+        0.3,
+        0
+       ],
+       [
+        1.3,
+        0
+       ],
+       [
+        1.3,
+        1
+       ],
+       [
+        0.3,
+        1
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "1",
+      "at": [
+       0.8,
+       -0.6
+      ]
+     },
+     {
+      "poly": [
+       [
+        1.3,
+        0
+       ],
+       [
+        2.3,
+        0
+       ],
+       [
+        2.3,
+        2
+       ],
+       [
+        1.3,
+        2
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "2",
+      "at": [
+       1.8,
+       -0.6
+      ]
+     },
+     {
+      "poly": [
+       [
+        2.3,
+        0
+       ],
+       [
+        3.3,
+        0
+       ],
+       [
+        3.3,
+        4
+       ],
+       [
+        2.3,
+        4
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "3",
+      "at": [
+       2.8,
+       -0.6
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q15d",
+   "label": "15d",
+   "section": "Reasoning",
+   "stem": "These frequency graphs are drawn to scale, but the frequencies have been left off. Find the median for each one.",
+   "prompt": "Graph d",
+   "type": "numeric",
+   "answer": "6.5",
+   "figure": {
+    "kind": "diagram",
+    "unit": 28,
+    "items": [
+     {
+      "seg": [
+       0,
+       0,
+       4.6,
+       0
+      ],
+      "arrow": "end"
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       3
+      ],
+      "arrow": "end"
+     },
+     {
+      "poly": [
+       [
+        0.3,
+        0
+       ],
+       [
+        1.3,
+        0
+       ],
+       [
+        1.3,
+        2
+       ],
+       [
+        0.3,
+        2
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "5",
+      "at": [
+       0.8,
+       -0.6
+      ]
+     },
+     {
+      "poly": [
+       [
+        1.3,
+        0
+       ],
+       [
+        2.3,
+        0
+       ],
+       [
+        2.3,
+        2
+       ],
+       [
+        1.3,
+        2
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "6",
+      "at": [
+       1.8,
+       -0.6
+      ]
+     },
+     {
+      "poly": [
+       [
+        2.3,
+        0
+       ],
+       [
+        3.3,
+        0
+       ],
+       [
+        3.3,
+        2
+       ],
+       [
+        2.3,
+        2
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "7",
+      "at": [
+       2.8,
+       -0.6
+      ]
+     },
+     {
+      "poly": [
+       [
+        3.3,
+        0
+       ],
+       [
+        4.3,
+        0
+       ],
+       [
+        4.3,
+        2
+       ],
+       [
+        3.3,
+        2
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "8",
+      "at": [
+       3.8,
+       -0.6
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q16a",
+   "label": "16a",
+   "section": "Reasoning",
+   "stem": "Decide whether each description of a data set is possible.",
+   "prompt": "This set has four items with a mean of $6$, a median of $7$ and a mode of $8$.",
+   "type": "choice",
+   "answer": 0,
+   "options": [
+    "Possible",
+    "Not possible"
+   ]
+  },
+  {
+   "id": "q16b",
+   "label": "16b",
+   "section": "Reasoning",
+   "stem": "Decide whether each description of a data set is possible.",
+   "prompt": "This set has two items with a mean less than the median.",
+   "type": "choice",
+   "answer": 1,
+   "options": [
+    "Possible",
+    "Not possible"
+   ]
+  },
+  {
+   "id": "q16c",
+   "label": "16c",
+   "section": "Reasoning",
+   "stem": "Decide whether each description of a data set is possible.",
+   "prompt": "This set has three items and the mode is greater than the median.",
+   "type": "choice",
+   "answer": 1,
+   "options": [
+    "Possible",
+    "Not possible"
+   ]
+  },
+  {
+   "id": "q16d",
+   "label": "16d",
+   "section": "Reasoning",
+   "stem": "Decide whether each description of a data set is possible.",
+   "prompt": "This set has four items and the median is three times the mean (and the mean is not $0$).",
+   "type": "choice",
+   "answer": 0,
+   "options": [
+    "Possible",
+    "Not possible"
+   ]
+  },
+  {
+   "id": "q17a",
+   "label": "17a",
+   "section": "Enrichment",
+   "stem": "At one school, marks are given grades using this guide. In one semester Kathryn's grades were B, C, A, C, D, B, A, C. Her final mark is the mean of her $8$ marks (all whole numbers).",
+   "prompt": "What is the lowest possible final mark she could have?",
+   "type": "numeric",
+   "answer": "61.25",
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "Mark",
+      "85-100",
+      "70-84",
+      "50-69",
+      "30-49",
+      "0-29"
+     ],
+     [
+      "Grade",
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q17b",
+   "label": "17b",
+   "section": "Enrichment",
+   "stem": "At one school, marks are given grades using this guide. In one semester Kathryn's grades were B, C, A, C, D, B, A, C. Her final mark is the mean of her $8$ marks (all whole numbers).",
+   "prompt": "What is the highest possible final mark she could have?",
+   "type": "numeric",
+   "answer": "78"
+  },
+  {
+   "id": "q17c",
+   "label": "17c",
+   "section": "Enrichment",
+   "stem": "At one school, marks are given grades using this guide. In one semester Kathryn's grades were B, C, A, C, D, B, A, C. Her final mark is the mean of her $8$ marks (all whole numbers).",
+   "prompt": "Is it possible for Kathryn to have a final mark of $80$?",
+   "type": "choice",
+   "answer": 1,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q17d",
+   "label": "17d",
+   "section": "Enrichment",
+   "stem": "At one school, marks are given grades using this guide. In one semester Kathryn's grades were B, C, A, C, D, B, A, C. Her final mark is the mean of her $8$ marks (all whole numbers).",
+   "prompt": "Which final grades could she have?",
+   "type": "choice",
+   "answer": 2,
+   "options": [
+    "B only",
+    "C only",
+    "B or C",
+    "A or B"
+   ]
+  },
+  {
+   "id": "q17e",
+   "label": "17e",
+   "section": "Enrichment",
+   "stem": "At one school, marks are given grades using this guide. In one semester Kathryn's grades were B, C, A, C, D, B, A, C. Her final mark is the mean of her $8$ marks (all whole numbers).",
+   "prompt": "Another student has just four results: A, B, A, A. What is the lowest possible final mark for this student?",
+   "type": "numeric",
+   "answer": "81.25"
+  },
+  {
+   "id": "q17f",
+   "label": "17f",
+   "section": "Enrichment",
+   "stem": "At one school, marks are given grades using this guide. In one semester Kathryn's grades were B, C, A, C, D, B, A, C. Her final mark is the mean of her $8$ marks (all whole numbers).",
+   "prompt": "What is the highest possible final mark for this student (A, B, A, A)?",
+   "type": "numeric",
+   "answer": "96"
+  },
+  {
+   "id": "q17g",
+   "label": "17g",
+   "section": "Enrichment",
+   "stem": "At one school, marks are given grades using this guide. In one semester Kathryn's grades were B, C, A, C, D, B, A, C. Her final mark is the mean of her $8$ marks (all whole numbers).",
+   "prompt": "Which final grades could this student (A, B, A, A) have?",
+   "type": "choice",
+   "answer": 2,
+   "options": [
+    "A only",
+    "B only",
+    "A or B",
+    "B or C"
+   ]
+  }
+ ]
+},
+{
+ "id": "y8-8e",
+ "year": 8,
+ "chapter": "Chapter 8: Probability and statistics",
+ "title": "8E Measures of spread",
+ "description": "Find the range and the interquartile range (IQR) of data sets, and compare how spread out two sets are.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Find the range of each set of data.",
+   "type": "numeric",
+   "prompt": "$8,\\ 2,\\ 11,\\ 6,\\ 4,\\ 12,\\ 7,\\ 3$",
+   "answer": "10"
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Find the range of each set of data.",
+   "type": "numeric",
+   "prompt": "$6,\\ 14,\\ 2,\\ 9,\\ 11,\\ 5,\\ 13,\\ 4,\\ 8$",
+   "answer": "12"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Find the range of each set.",
+   "type": "numeric",
+   "prompt": "$12,\\ 4,\\ 7,\\ 15,\\ 4,\\ 9,\\ 1,\\ 6$",
+   "answer": "14"
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Find the range of each set.",
+   "type": "numeric",
+   "prompt": "$21,\\ 8,\\ 14,\\ 3,\\ 17,\\ 11,\\ 6,\\ 19,\\ 9,\\ 12$",
+   "answer": "18"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Find the range of each set.",
+   "type": "numeric",
+   "prompt": "$23,\\ 15,\\ 8,\\ 19,\\ 26,\\ 11,\\ 15,\\ 8,\\ 30,\\ 14$",
+   "answer": "22"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Find the range of each set.",
+   "type": "numeric",
+   "prompt": "$14,\\ -6,\\ -2,\\ 9,\\ -11,\\ 17,\\ -4,\\ 5$",
+   "answer": "28"
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Find the range of each set.",
+   "type": "numeric",
+   "prompt": "$4.7,\\ -3.2,\\ 8.1,\\ -6.5,\\ 2.9,\\ 0.4$",
+   "answer": "14.6"
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "Find the range of each set.",
+   "type": "numeric",
+   "prompt": "$-5.3,\\ 1.8,\\ -7.2,\\ 3.6,\\ -0.9,\\ 1.8$",
+   "answer": "10.8"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Find the IQR of each set.",
+   "type": "numeric",
+   "prompt": "$2,\\ 5,\\ 8,\\ 14,\\ 19,\\ 23$",
+   "answer": "14",
+   "hint": "IQR = upper quartile minus lower quartile"
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Find the IQR of each set.",
+   "type": "numeric",
+   "prompt": "$6,\\ 10,\\ 15,\\ 17,\\ 24,\\ 31$",
+   "answer": "14"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Find the IQR of each set.",
+   "type": "numeric",
+   "prompt": "$1,\\ 3,\\ 3,\\ 6,\\ 8,\\ 9,\\ 10,\\ 12,\\ 12,\\ 15,\\ 18,\\ 20$",
+   "answer": "9"
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Find the IQR of each set.",
+   "type": "numeric",
+   "prompt": "$3,\\ 7,\\ 7,\\ 11,\\ 14,\\ 16,\\ 21,\\ 22$",
+   "answer": "11.5"
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "Find the IQR of each set.",
+   "type": "numeric",
+   "prompt": "$0.45,\\ 1.27,\\ 2.86,\\ 3.14,\\ 4.92,\\ 6.33$",
+   "answer": "3.65"
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "Find the IQR of each set.",
+   "type": "numeric",
+   "prompt": "$1.08,\\ 2.54,\\ 3.17,\\ 4.06,\\ 5.81,\\ 7.25$",
+   "answer": "3.27"
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "Find the IQR of each set. (There is an odd number of values, so leave out the middle one first.)",
+   "type": "numeric",
+   "prompt": "$3,\\ 5,\\ 9,\\ 14,\\ 18,\\ 25,\\ 29$",
+   "answer": "20"
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "Find the IQR of each set. (There is an odd number of values, so leave out the middle one first.)",
+   "type": "numeric",
+   "prompt": "$8,\\ 12,\\ 15,\\ 20,\\ 26,\\ 28,\\ 33$",
+   "answer": "16"
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "Find the IQR of each set. (There is an odd number of values, so leave out the middle one first.)",
+   "type": "numeric",
+   "prompt": "$2,\\ 2,\\ 4,\\ 7,\\ 10,\\ 11,\\ 15,\\ 17,\\ 17$",
+   "answer": "13"
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "Find the IQR of each set. (There is an odd number of values, so leave out the middle one first.)",
+   "type": "numeric",
+   "prompt": "$1,\\ 3,\\ 6,\\ 6,\\ 9,\\ 13,\\ 16,\\ 18,\\ 20$",
+   "answer": "12.5"
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Fluency",
+   "stem": "Find the IQR of each set. (There is an odd number of values, so leave out the middle one first.)",
+   "type": "numeric",
+   "prompt": "$0.3,\\ 0.8,\\ 1.1,\\ 1.6,\\ 2.2,\\ 2.9,\\ 3.4,\\ 4.1,\\ 4.5$",
+   "answer": "2.8"
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Fluency",
+   "stem": "Find the IQR of each set. (There is an odd number of values, so leave out the middle one first.)",
+   "type": "numeric",
+   "prompt": "$0.6,\\ 1.0,\\ 1.3,\\ 1.5,\\ 1.9,\\ 2.4,\\ 2.6,\\ 3.3,\\ 5.2$",
+   "answer": "1.8"
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Fluency",
+   "stem": "Find the IQR of each set. Remember to sort the numbers first.",
+   "type": "numeric",
+   "prompt": "$13,\\ 2,\\ 9,\\ 16,\\ 5,\\ 11$",
+   "answer": "8"
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Fluency",
+   "stem": "Find the IQR of each set. Remember to sort the numbers first.",
+   "type": "numeric",
+   "prompt": "$12,\\ 3,\\ 17,\\ 8,\\ 1,\\ 15,\\ 6,\\ 19,\\ 10,\\ 4,\\ 14,\\ 7$",
+   "answer": "9.5"
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Fluency",
+   "stem": "Find the IQR of each set. Remember to sort the numbers first.",
+   "type": "numeric",
+   "prompt": "$9,\\ 4,\\ 17,\\ 12,\\ 5,\\ 19,\\ 8,\\ 14,\\ 3,\\ 11,\\ 16$",
+   "answer": "11"
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Fluency",
+   "stem": "Find the IQR of each set. Remember to sort the numbers first.",
+   "type": "numeric",
+   "prompt": "$7,\\ 3,\\ 12,\\ 9,\\ 15,\\ 5,\\ 20,\\ 11,\\ 8,\\ 17$",
+   "answer": "8"
+  },
+  {
+   "id": "q5e",
+   "label": "5e",
+   "section": "Fluency",
+   "stem": "Find the IQR of each set. Remember to sort the numbers first.",
+   "type": "numeric",
+   "prompt": "$16,\\ -12,\\ 9,\\ -7,\\ 3,\\ -14$",
+   "answer": "21"
+  },
+  {
+   "id": "q5f",
+   "label": "5f",
+   "section": "Fluency",
+   "stem": "Find the IQR of each set. Remember to sort the numbers first.",
+   "type": "numeric",
+   "prompt": "$-9,\\ 14,\\ -3,\\ -16,\\ 8,\\ 2$",
+   "answer": "17"
+  },
+  {
+   "id": "q5g",
+   "label": "5g",
+   "section": "Fluency",
+   "stem": "Find the IQR of each set. Remember to sort the numbers first.",
+   "type": "numeric",
+   "prompt": "$-15,\\ 7,\\ 18,\\ -8,\\ 4,\\ -13,\\ 1,\\ 11,\\ -5,\\ 9,\\ 0$",
+   "answer": "17"
+  },
+  {
+   "id": "q5h",
+   "label": "5h",
+   "section": "Fluency",
+   "stem": "Find the IQR of each set. Remember to sort the numbers first.",
+   "type": "numeric",
+   "prompt": "$-6,\\ 13,\\ -11,\\ 5,\\ 2,\\ -3,\\ -14,\\ 8,\\ 10,\\ -1$",
+   "answer": "14"
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Problem-solving",
+   "stem": "Mia and Zara compare the number of goals they shoot in netball over ten games. Mia: $14,\\ 18,\\ 12,\\ 16,\\ 19,\\ 13,\\ 17,\\ 15,\\ 11,\\ 16$. Zara: $22,\\ 7,\\ 25,\\ 11,\\ 30,\\ 9,\\ 19,\\ 27,\\ 14,\\ 24$.",
+   "type": "numeric",
+   "prompt": "Calculate Mia's range.",
+   "answer": "8"
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Problem-solving",
+   "stem": "Mia and Zara compare the number of goals they shoot in netball over ten games. Mia: $14,\\ 18,\\ 12,\\ 16,\\ 19,\\ 13,\\ 17,\\ 15,\\ 11,\\ 16$. Zara: $22,\\ 7,\\ 25,\\ 11,\\ 30,\\ 9,\\ 19,\\ 27,\\ 14,\\ 24$.",
+   "type": "numeric",
+   "prompt": "Calculate Zara's range.",
+   "answer": "23"
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Problem-solving",
+   "stem": "Mia and Zara compare the number of goals they shoot in netball over ten games. Mia: $14,\\ 18,\\ 12,\\ 16,\\ 19,\\ 13,\\ 17,\\ 15,\\ 11,\\ 16$. Zara: $22,\\ 7,\\ 25,\\ 11,\\ 30,\\ 9,\\ 19,\\ 27,\\ 14,\\ 24$.",
+   "type": "choice",
+   "prompt": "Who has the greater range?",
+   "answer": 1,
+   "options": [
+    "Mia",
+    "Zara"
+   ]
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Problem-solving",
+   "stem": "Mia and Zara compare the number of goals they shoot in netball over ten games. Mia: $14,\\ 18,\\ 12,\\ 16,\\ 19,\\ 13,\\ 17,\\ 15,\\ 11,\\ 16$. Zara: $22,\\ 7,\\ 25,\\ 11,\\ 30,\\ 9,\\ 19,\\ 27,\\ 14,\\ 24$.",
+   "type": "choice",
+   "prompt": "Using only their ranges, which player is more consistent?",
+   "answer": 0,
+   "options": [
+    "Mia",
+    "Zara"
+   ]
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Problem-solving",
+   "stem": "The dot plot shows how many years each person has volunteered at an animal shelter.",
+   "type": "numeric",
+   "prompt": "Find the range.",
+   "answer": "5",
+   "stemFigure": {
+    "kind": "dotplot",
+    "min": 0,
+    "max": 9,
+    "values": [
+     1,
+     1,
+     2,
+     2,
+     2,
+     3,
+     3,
+     3,
+     3,
+     3,
+     4,
+     4,
+     6
+    ],
+    "xlabel": "Years"
+   }
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Problem-solving",
+   "stem": "The dot plot shows how many years each person has volunteered at an animal shelter.",
+   "type": "numeric",
+   "prompt": "Another volunteer joins the survey and the range increases by $2$. How many years has this person volunteered?",
+   "answer": "8",
+   "units": "years"
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Problem-solving",
+   "stem": "Lena and Omar record how many kilometres they cycle each day for a week.",
+   "type": "numeric",
+   "prompt": "Calculate Lena's IQR.",
+   "answer": "2.3",
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "",
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat",
+      "Sun"
+     ],
+     [
+      "Lena",
+      "5.2",
+      "3.8",
+      "6.1",
+      "4.4",
+      "2.9",
+      "7.3",
+      "4.0"
+     ],
+     [
+      "Omar",
+      "3.1",
+      "6.8",
+      "2.4",
+      "5.5",
+      "4.7",
+      "8.2",
+      "1.9"
+     ]
+    ]
+   },
+   "units": "km"
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Problem-solving",
+   "stem": "Lena and Omar record how many kilometres they cycle each day for a week.",
+   "type": "numeric",
+   "prompt": "Calculate Omar's IQR.",
+   "answer": "4.4",
+   "units": "km"
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Problem-solving",
+   "stem": "Lena and Omar record how many kilometres they cycle each day for a week.",
+   "type": "choice",
+   "prompt": "Who has the larger IQR?",
+   "answer": 1,
+   "options": [
+    "Lena",
+    "Omar"
+   ]
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Problem-solving",
+   "stem": "Over a $20$-week period, Ella and Josh record their weekly spelling test scores (out of $10$). The table shows how many weeks they got each score.",
+   "type": "numeric",
+   "prompt": "Find the range for Ella.",
+   "answer": "9",
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "Score",
+      "Ella (weeks)",
+      "Josh (weeks)"
+     ],
+     [
+      "0",
+      "0",
+      "0"
+     ],
+     [
+      "1",
+      "1",
+      "0"
+     ],
+     [
+      "2",
+      "0",
+      "0"
+     ],
+     [
+      "3",
+      "0",
+      "3"
+     ],
+     [
+      "4",
+      "0",
+      "3"
+     ],
+     [
+      "5",
+      "3",
+      "2"
+     ],
+     [
+      "6",
+      "6",
+      "2"
+     ],
+     [
+      "7",
+      "7",
+      "2"
+     ],
+     [
+      "8",
+      "2",
+      "4"
+     ],
+     [
+      "9",
+      "0",
+      "4"
+     ],
+     [
+      "10",
+      "1",
+      "0"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Problem-solving",
+   "stem": "Over a $20$-week period, Ella and Josh record their weekly spelling test scores (out of $10$). The table shows how many weeks they got each score.",
+   "type": "numeric",
+   "prompt": "Find the range for Josh.",
+   "answer": "6"
+  },
+  {
+   "id": "q9c",
+   "label": "9c",
+   "section": "Problem-solving",
+   "stem": "Over a $20$-week period, Ella and Josh record their weekly spelling test scores (out of $10$). The table shows how many weeks they got each score.",
+   "type": "numeric",
+   "prompt": "Find the IQR for Ella.",
+   "answer": "1",
+   "hint": "Write out all 20 scores in order first."
+  },
+  {
+   "id": "q9d",
+   "label": "9d",
+   "section": "Problem-solving",
+   "stem": "Over a $20$-week period, Ella and Josh record their weekly spelling test scores (out of $10$). The table shows how many weeks they got each score.",
+   "type": "numeric",
+   "prompt": "Find the IQR for Josh.",
+   "answer": "4"
+  },
+  {
+   "id": "q9e",
+   "label": "9e",
+   "section": "Problem-solving",
+   "stem": "Over a $20$-week period, Ella and Josh record their weekly spelling test scores (out of $10$). The table shows how many weeks they got each score.",
+   "type": "choice",
+   "prompt": "Using the range only, which student is more consistent?",
+   "answer": 1,
+   "options": [
+    "Ella",
+    "Josh"
+   ]
+  },
+  {
+   "id": "q9f",
+   "label": "9f",
+   "section": "Problem-solving",
+   "stem": "Over a $20$-week period, Ella and Josh record their weekly spelling test scores (out of $10$). The table shows how many weeks they got each score.",
+   "type": "choice",
+   "prompt": "Using the IQR only, which student is more consistent?",
+   "answer": 0,
+   "options": [
+    "Ella",
+    "Josh"
+   ]
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Reasoning",
+   "stem": "Consider the set of numbers $3,\\ 4,\\ 4,\\ 6,\\ 7,\\ 8,\\ 8,\\ 8,\\ 11,\\ 12$.",
+   "type": "numeric",
+   "prompt": "Calculate the range.",
+   "answer": "9"
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Reasoning",
+   "stem": "Consider the set of numbers $3,\\ 4,\\ 4,\\ 6,\\ 7,\\ 8,\\ 8,\\ 8,\\ 11,\\ 12$.",
+   "type": "numeric",
+   "prompt": "Calculate the IQR.",
+   "answer": "4"
+  },
+  {
+   "id": "q11c",
+   "label": "11c",
+   "section": "Reasoning",
+   "stem": "Consider the set of numbers $3,\\ 4,\\ 4,\\ 6,\\ 7,\\ 8,\\ 8,\\ 8,\\ 11,\\ 12$.",
+   "type": "numeric",
+   "prompt": "The number $12$ is changed to $120$. Calculate the new range.",
+   "answer": "117"
+  },
+  {
+   "id": "q11d",
+   "label": "11d",
+   "section": "Reasoning",
+   "stem": "Consider the set of numbers $3,\\ 4,\\ 4,\\ 6,\\ 7,\\ 8,\\ 8,\\ 8,\\ 11,\\ 12$.",
+   "type": "numeric",
+   "prompt": "The number $12$ is changed to $120$. Calculate the new IQR.",
+   "answer": "4"
+  },
+  {
+   "id": "q12a",
+   "label": "12a",
+   "section": "Reasoning",
+   "stem": "Consider the set $2,\\ 5,\\ 6,\\ 6,\\ 9,\\ 10,\\ 14$.",
+   "type": "numeric",
+   "prompt": "Find the range.",
+   "answer": "12"
+  },
+  {
+   "id": "q12b",
+   "label": "12b",
+   "section": "Reasoning",
+   "stem": "Consider the set $2,\\ 5,\\ 6,\\ 6,\\ 9,\\ 10,\\ 14$.",
+   "type": "numeric",
+   "prompt": "Find the IQR.",
+   "answer": "5"
+  },
+  {
+   "id": "q12c",
+   "label": "12c",
+   "section": "Reasoning",
+   "stem": "Consider the set $2,\\ 5,\\ 6,\\ 6,\\ 9,\\ 10,\\ 14$.",
+   "type": "choice",
+   "prompt": "Is it ever possible for the IQR of a set to be larger than its range?",
+   "answer": 1,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q12d",
+   "label": "12d",
+   "section": "Reasoning",
+   "stem": "Consider the set $2,\\ 5,\\ 6,\\ 6,\\ 9,\\ 10,\\ 14$.",
+   "type": "choice",
+   "prompt": "Is it possible for the IQR of a set to equal its range?",
+   "answer": 0,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q13a",
+   "label": "13a",
+   "section": "Reasoning",
+   "stem": "A set has $3$ numbers. What happens to the range if:",
+   "type": "choice",
+   "prompt": "each number is increased by $5$?",
+   "answer": 0,
+   "options": [
+    "The range stays the same",
+    "The range increases by 5",
+    "The range doubles",
+    "The range halves"
+   ]
+  },
+  {
+   "id": "q13b",
+   "label": "13b",
+   "section": "Reasoning",
+   "stem": "A set has $3$ numbers. What happens to the range if:",
+   "type": "choice",
+   "prompt": "each number is doubled?",
+   "answer": 2,
+   "options": [
+    "The range stays the same",
+    "The range increases by 5",
+    "The range doubles",
+    "The range halves"
+   ]
+  },
+  {
+   "id": "q14",
+   "label": "14",
+   "section": "Reasoning",
+   "type": "choice",
+   "prompt": "Why are the words 'lower quartile' and 'upper quartile' used?",
+   "answer": 1,
+   "options": [
+    "They are the quickest values to calculate",
+    "Together with the median, they split the sorted data into four quarters",
+    "They are always a quarter of the range",
+    "They are the two most common values"
+   ]
+  },
+  {
+   "id": "q15a",
+   "label": "15a",
+   "section": "Enrichment",
+   "stem": "Consider the data in this frequency table.",
+   "type": "numeric",
+   "prompt": "What is the range?",
+   "answer": "4",
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "Number",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+     ],
+     [
+      "Frequency",
+      "3",
+      "1",
+      "4",
+      "2",
+      "2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q15b",
+   "label": "15b",
+   "section": "Enrichment",
+   "stem": "Consider the data in this frequency table.",
+   "type": "numeric",
+   "prompt": "Calculate the IQR. (Write the data as a list first.)",
+   "answer": "2.5"
+  },
+  {
+   "id": "q15c",
+   "label": "15c",
+   "section": "Enrichment",
+   "stem": "Consider the data in this frequency table.",
+   "type": "numeric",
+   "prompt": "If the frequency of each number were doubled, what would the range be?",
+   "answer": "4"
+  },
+  {
+   "id": "q15d",
+   "label": "15d",
+   "section": "Enrichment",
+   "stem": "Consider the data in this frequency table.",
+   "type": "numeric",
+   "prompt": "If the frequency of each number were doubled, what would the IQR be?",
+   "answer": "2.5"
+  },
+  {
+   "id": "q15e",
+   "label": "15e",
+   "section": "Enrichment",
+   "stem": "Consider the data in this frequency table.",
+   "type": "numeric",
+   "prompt": "If the numbers themselves were doubled (frequencies unchanged), what would the range be?",
+   "answer": "8"
+  },
+  {
+   "id": "q15f",
+   "label": "15f",
+   "section": "Enrichment",
+   "stem": "Consider the data in this frequency table.",
+   "type": "numeric",
+   "prompt": "If the numbers themselves were doubled (frequencies unchanged), what would the IQR be?",
+   "answer": "5"
+  }
+ ]
+},
+{
+ "id": "y8-8f",
+ "year": 8,
+ "chapter": "Chapter 8: Probability and statistics",
+ "title": "8F Surveying and sampling",
+ "description": "Use samples to estimate for a population, describe the shape of data, classify samples and spot bias.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Anika checks $60$ randomly selected bikes at a bike rack and finds that $9$ have a flat tyre.",
+   "type": "numeric",
+   "prompt": "What proportion of bikes have a flat tyre? Give a fraction.",
+   "answer": "3/20"
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Anika checks $60$ randomly selected bikes at a bike rack and finds that $9$ have a flat tyre.",
+   "type": "numeric",
+   "prompt": "If there are $1400$ bikes in the town, how many would you expect to have a flat tyre, based on this sample?",
+   "answer": "210",
+   "units": "bikes"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Classify each graph as symmetric, positively skewed, negatively skewed or bi-modal.",
+   "type": "choice",
+   "prompt": "What shape is this distribution?",
+   "answer": 1,
+   "options": [
+    "Symmetric",
+    "Positively skewed",
+    "Negatively skewed",
+    "Bi-modal"
+   ],
+   "figure": {
+    "kind": "columns",
+    "cats": [
+     " ",
+     " ",
+     " ",
+     " ",
+     " ",
+     " ",
+     " "
+    ],
+    "values": [
+     2,
+     7,
+     8,
+     5,
+     3,
+     2,
+     1
+    ],
+    "ymax": 10,
+    "step": 2,
+    "ylabel": "Frequency",
+    "alt": "A column graph"
+   }
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Classify each graph as symmetric, positively skewed, negatively skewed or bi-modal.",
+   "type": "choice",
+   "prompt": "What shape is this distribution?",
+   "answer": 0,
+   "options": [
+    "Symmetric",
+    "Positively skewed",
+    "Negatively skewed",
+    "Bi-modal"
+   ],
+   "figure": {
+    "kind": "columns",
+    "cats": [
+     " ",
+     " ",
+     " ",
+     " ",
+     " ",
+     " ",
+     " "
+    ],
+    "values": [
+     1,
+     3,
+     5,
+     7,
+     5,
+     3,
+     1
+    ],
+    "ymax": 10,
+    "step": 2,
+    "ylabel": "Frequency",
+    "alt": "A column graph"
+   }
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Classify each graph as symmetric, positively skewed, negatively skewed or bi-modal.",
+   "type": "choice",
+   "prompt": "What shape is this distribution?",
+   "answer": 2,
+   "options": [
+    "Symmetric",
+    "Positively skewed",
+    "Negatively skewed",
+    "Bi-modal"
+   ],
+   "figure": {
+    "kind": "columns",
+    "cats": [
+     " ",
+     " ",
+     " ",
+     " ",
+     " ",
+     " ",
+     " "
+    ],
+    "values": [
+     1,
+     1,
+     2,
+     4,
+     6,
+     8,
+     5
+    ],
+    "ymax": 10,
+    "step": 2,
+    "ylabel": "Frequency",
+    "alt": "A column graph"
+   }
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Classify each graph as symmetric, positively skewed, negatively skewed or bi-modal.",
+   "type": "choice",
+   "prompt": "What shape is this distribution?",
+   "answer": 3,
+   "options": [
+    "Symmetric",
+    "Positively skewed",
+    "Negatively skewed",
+    "Bi-modal"
+   ],
+   "figure": {
+    "kind": "columns",
+    "cats": [
+     " ",
+     " ",
+     " ",
+     " ",
+     " ",
+     " ",
+     " "
+    ],
+    "values": [
+     3,
+     7,
+     4,
+     2,
+     4,
+     7,
+     3
+    ],
+    "ymax": 10,
+    "step": 2,
+    "ylabel": "Frequency",
+    "alt": "A column graph"
+   }
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Classify each graph as symmetric, positively skewed, negatively skewed or bi-modal.",
+   "type": "choice",
+   "prompt": "What shape is this distribution?",
+   "answer": 2,
+   "options": [
+    "Symmetric",
+    "Positively skewed",
+    "Negatively skewed",
+    "Bi-modal"
+   ],
+   "figure": {
+    "kind": "columns",
+    "cats": [
+     " ",
+     " ",
+     " ",
+     " ",
+     " ",
+     " "
+    ],
+    "values": [
+     1,
+     2,
+     3,
+     4,
+     6,
+     9
+    ],
+    "ymax": 10,
+    "step": 2,
+    "ylabel": "Frequency",
+    "alt": "A column graph"
+   }
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "A survey asks people how many times they went to the cinema last month. You can assume it is a representative sample of the population.",
+   "type": "choice",
+   "prompt": "Describe the shape of the distribution.",
+   "answer": 1,
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "Cinema visits",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "Total"
+     ],
+     [
+      "Responses",
+      "16",
+      "12",
+      "6",
+      "4",
+      "2",
+      "40"
+     ]
+    ]
+   },
+   "options": [
+    "Symmetric",
+    "Positively skewed",
+    "Negatively skewed",
+    "Bi-modal"
+   ]
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "A survey asks people how many times they went to the cinema last month. You can assume it is a representative sample of the population.",
+   "type": "numeric",
+   "prompt": "In a group of $1000$ people, how many would you expect to have not gone to the cinema at all?",
+   "answer": "400",
+   "units": "people"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "A survey asks people how many times they went to the cinema last month. You can assume it is a representative sample of the population.",
+   "type": "numeric",
+   "prompt": "In a group of $2000$ people, how many would you expect to have gone to the cinema $2$ or more times?",
+   "answer": "600",
+   "units": "people"
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "A simple random sample of $20$ children is asked how many different sports they play. The results are shown in the graph. Assume the sample is representative of all children.",
+   "type": "numeric",
+   "prompt": "What proportion of children play exactly one sport? Give a fraction.",
+   "answer": "3/10",
+   "stemFigure": {
+    "kind": "columns",
+    "cats": [
+     "0",
+     "1",
+     "2",
+     "3"
+    ],
+    "values": [
+     8,
+     6,
+     4,
+     2
+    ],
+    "ymax": 10,
+    "step": 2,
+    "xlabel": "Number of sports",
+    "ylabel": "Frequency"
+   }
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "A simple random sample of $20$ children is asked how many different sports they play. The results are shown in the graph. Assume the sample is representative of all children.",
+   "type": "numeric",
+   "prompt": "In a group of $90$ children, how many would you expect to play two sports?",
+   "answer": "18",
+   "units": "children"
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "A simple random sample of $20$ children is asked how many different sports they play. The results are shown in the graph. Assume the sample is representative of all children.",
+   "type": "choice",
+   "prompt": "Describe the shape of the distribution.",
+   "answer": 1,
+   "options": [
+    "Symmetric",
+    "Positively skewed",
+    "Negatively skewed",
+    "Bi-modal"
+   ]
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "A simple random sample of $20$ children is asked how many different sports they play. The results are shown in the graph. Assume the sample is representative of all children.",
+   "type": "choice",
+   "prompt": "Which method of running this survey is more likely to lead to bias?",
+   "answer": 1,
+   "options": [
+    "Method 1: choosing 20 children at random from the school's enrolment list",
+    "Method 2: asking 20 children leaving the sports centre after Saturday training"
+   ]
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Fluency",
+   "stem": "Decide whether each of these is a sample or a population.",
+   "type": "choice",
+   "prompt": "$15$ apples are taken from a crate of apples to test how sweet they are.",
+   "answer": 0,
+   "options": [
+    "Sample",
+    "Population"
+   ]
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Fluency",
+   "stem": "Decide whether each of these is a sample or a population.",
+   "type": "choice",
+   "prompt": "Every student at a school is asked how they travel to school.",
+   "answer": 1,
+   "options": [
+    "Sample",
+    "Population"
+   ]
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Fluency",
+   "stem": "Decide whether each of these is a sample or a population.",
+   "type": "choice",
+   "prompt": "All of the water bills in a town for March are checked by the council.",
+   "answer": 1,
+   "options": [
+    "Sample",
+    "Population"
+   ]
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Fluency",
+   "stem": "Decide whether each of these is a sample or a population.",
+   "type": "choice",
+   "prompt": "$50$ fish are caught from a lake and measured.",
+   "answer": 0,
+   "options": [
+    "Sample",
+    "Population"
+   ]
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Fluency",
+   "stem": "Nia wants to find out whether there is a relationship between people's ages and how much sleep they get. Should each question be included in her survey?",
+   "type": "choice",
+   "prompt": "How old are you, in years?",
+   "answer": 0,
+   "options": [
+    "Include it",
+    "Do not include it"
+   ]
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Fluency",
+   "stem": "Nia wants to find out whether there is a relationship between people's ages and how much sleep they get. Should each question be included in her survey?",
+   "type": "choice",
+   "prompt": "Are you tired?",
+   "answer": 1,
+   "options": [
+    "Include it",
+    "Do not include it"
+   ]
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Fluency",
+   "stem": "Nia wants to find out whether there is a relationship between people's ages and how much sleep they get. Should each question be included in her survey?",
+   "type": "choice",
+   "prompt": "Are you young?",
+   "answer": 1,
+   "options": [
+    "Include it",
+    "Do not include it"
+   ]
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Fluency",
+   "stem": "Nia wants to find out whether there is a relationship between people's ages and how much sleep they get. Should each question be included in her survey?",
+   "type": "choice",
+   "prompt": "Do you like sleeping?",
+   "answer": 1,
+   "options": [
+    "Include it",
+    "Do not include it"
+   ]
+  },
+  {
+   "id": "q6e",
+   "label": "6e",
+   "section": "Fluency",
+   "stem": "Nia wants to find out whether there is a relationship between people's ages and how much sleep they get. Should each question be included in her survey?",
+   "type": "choice",
+   "prompt": "What is your favourite colour?",
+   "answer": 1,
+   "options": [
+    "Include it",
+    "Do not include it"
+   ]
+  },
+  {
+   "id": "q6f",
+   "label": "6f",
+   "section": "Fluency",
+   "stem": "Nia wants to find out whether there is a relationship between people's ages and how much sleep they get. Should each question be included in her survey?",
+   "type": "choice",
+   "prompt": "On an average night, how many hours do you sleep?",
+   "answer": 0,
+   "options": [
+    "Include it",
+    "Do not include it"
+   ]
+  },
+  {
+   "id": "q6g",
+   "label": "6g",
+   "section": "Fluency",
+   "stem": "Nia wants to find out whether there is a relationship between people's ages and how much sleep they get. Should each question be included in her survey?",
+   "type": "choice",
+   "prompt": "How many hours did you sleep at a friend's sleepover last month?",
+   "answer": 1,
+   "options": [
+    "Include it",
+    "Do not include it"
+   ]
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Fluency",
+   "stem": "You want to know the average number of hours of sport played each week by students at your high school. You cannot ask everyone, so you will survey about $30$ students. Classify each sampling method.",
+   "type": "choice",
+   "prompt": "Randomly choose $5$ students from each year level (Year $7$ to Year $12$).",
+   "answer": 2,
+   "options": [
+    "Simple random",
+    "Convenience",
+    "Stratified"
+   ]
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Fluency",
+   "stem": "You want to know the average number of hours of sport played each week by students at your high school. You cannot ask everyone, so you will survey about $30$ students. Classify each sampling method.",
+   "type": "choice",
+   "prompt": "Randomly choose $30$ students from a list of every student in the school.",
+   "answer": 0,
+   "options": [
+    "Simple random",
+    "Convenience",
+    "Stratified"
+   ]
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Fluency",
+   "stem": "You want to know the average number of hours of sport played each week by students at your high school. You cannot ask everyone, so you will survey about $30$ students. Classify each sampling method.",
+   "type": "choice",
+   "prompt": "Ask the first $30$ students who walk into the library.",
+   "answer": 1,
+   "options": [
+    "Simple random",
+    "Convenience",
+    "Stratified"
+   ]
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Problem-solving",
+   "stem": "For each survey, which place and time would be unsuitable because it is likely to cause bias?",
+   "type": "choice",
+   "prompt": "A survey to find the average number of people in a car.",
+   "answer": 0,
+   "options": [
+    "The school drop-off zone at 8:30 am on a school day",
+    "Several sets of traffic lights at different times across a week",
+    "A random sample of car owners contacted by phone"
+   ]
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Problem-solving",
+   "stem": "For each survey, which place and time would be unsuitable because it is likely to cause bias?",
+   "type": "choice",
+   "prompt": "A survey to find how many people are happy with the local council.",
+   "answer": 1,
+   "options": [
+    "Letters posted to a random sample of addresses in the area",
+    "A protest against the council, held outside the council offices",
+    "A phone call to a random sample of residents"
+   ]
+  },
+  {
+   "id": "q9c",
+   "label": "9c",
+   "section": "Problem-solving",
+   "stem": "For each survey, which place and time would be unsuitable because it is likely to cause bias?",
+   "type": "choice",
+   "prompt": "A survey to find the proportion of Australians who are vegetarian.",
+   "answer": 2,
+   "options": [
+    "A random sample of people from the electoral roll",
+    "Households chosen at random from across the country",
+    "A vegetarian food festival on a Sunday"
+   ]
+  },
+  {
+   "id": "q9d",
+   "label": "9d",
+   "section": "Problem-solving",
+   "stem": "For each survey, which place and time would be unsuitable because it is likely to cause bias?",
+   "type": "choice",
+   "prompt": "A survey to find the average amount spent on supermarket groceries.",
+   "answer": 1,
+   "options": [
+    "Several supermarkets at different times across a week",
+    "The express checkout (12 items or fewer) late at night",
+    "A random sample of households keeping a record of their spending"
+   ]
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Problem-solving",
+   "stem": "In a factory making muesli bars, a sample of bars is weighed automatically to check they are between $40$ and $45$ grams. The results are shown in the frequency table.",
+   "type": "numeric",
+   "prompt": "Which weight value is an outlier?",
+   "answer": "91",
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "Weight (g)",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "91"
+     ],
+     [
+      "Frequency",
+      "2",
+      "7",
+      "18",
+      "31",
+      "19",
+      "8",
+      "2",
+      "1"
+     ]
+    ]
+   },
+   "units": "g"
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Problem-solving",
+   "stem": "In a factory making muesli bars, a sample of bars is weighed automatically to check they are between $40$ and $45$ grams. The results are shown in the frequency table.",
+   "type": "choice",
+   "prompt": "Ignoring the outlier, is the distribution skewed or symmetric?",
+   "answer": 2,
+   "options": [
+    "Positively skewed",
+    "Negatively skewed",
+    "Symmetric"
+   ]
+  },
+  {
+   "id": "q10c",
+   "label": "10c",
+   "section": "Problem-solving",
+   "stem": "In a factory making muesli bars, a sample of bars is weighed automatically to check they are between $40$ and $45$ grams. The results are shown in the frequency table.",
+   "type": "choice",
+   "prompt": "To describe the spread of the weights, which is the better measure to use?",
+   "answer": 1,
+   "options": [
+    "The range, because it uses every value",
+    "The IQR, because the outlier does not affect it"
+   ]
+  },
+  {
+   "id": "q10d",
+   "label": "10d",
+   "section": "Problem-solving",
+   "stem": "In a factory making muesli bars, a sample of bars is weighed automatically to check they are between $40$ and $45$ grams. The results are shown in the frequency table.",
+   "type": "choice",
+   "prompt": "If measurement errors are not removed, which is the better guide to the 'central weight' of the bars?",
+   "answer": 1,
+   "options": [
+    "The mean",
+    "The median"
+   ]
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Problem-solving",
+   "stem": "A survey is being run to find out how often adults read books.",
+   "type": "choice",
+   "prompt": "Someone wants to make it seem that most adults hardly ever read. Where and when could they run the survey?",
+   "answer": 1,
+   "options": [
+    "Outside the town library on a Saturday morning",
+    "At a busy football match during the game",
+    "By posting letters to a random sample of adults"
+   ]
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Problem-solving",
+   "stem": "A survey is being run to find out how often adults read books.",
+   "type": "choice",
+   "prompt": "Someone wants to make it seem that most adults read a lot. Where and when could they run the survey?",
+   "answer": 0,
+   "options": [
+    "At a bookshop during a book launch",
+    "At a random sample of homes across the city",
+    "At a car wash on a Sunday afternoon"
+   ]
+  },
+  {
+   "id": "q12",
+   "label": "12",
+   "section": "Reasoning",
+   "type": "choice",
+   "prompt": "Lachlan wants to find out how much time high school students spend on homework. He will survey $50$ students. Which choice of students would give the least bias?",
+   "answer": 2,
+   "options": [
+    "The students in his own Maths class",
+    "The players in his basketball team",
+    "50 students chosen at random from a list of the whole school",
+    "The first 50 students he meets at the school gate"
+   ]
+  },
+  {
+   "id": "q13a",
+   "label": "13a",
+   "section": "Reasoning",
+   "stem": "In a town of $100$ people, a census recorded the number of bedrooms in each person's home. The mean for the whole population is $3.4$. A researcher who cannot see the full results chooses a sample of ten people to estimate the mean.",
+   "type": "choice",
+   "prompt": "Is it possible for the researcher's sample to have a mean of $5$ bedrooms?",
+   "answer": 0,
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "Bedrooms",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+     ],
+     [
+      "Frequency",
+      "6",
+      "17",
+      "28",
+      "33",
+      "12",
+      "4"
+     ]
+    ]
+   },
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q13b",
+   "label": "13b",
+   "section": "Reasoning",
+   "stem": "In a town of $100$ people, a census recorded the number of bedrooms in each person's home. The mean for the whole population is $3.4$. A researcher who cannot see the full results chooses a sample of ten people to estimate the mean.",
+   "type": "choice",
+   "prompt": "Is it possible for the researcher's sample to have a mean of $1.2$ bedrooms?",
+   "answer": 1,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q13c",
+   "label": "13c",
+   "section": "Reasoning",
+   "stem": "In a town of $100$ people, a census recorded the number of bedrooms in each person's home. The mean for the whole population is $3.4$. A researcher who cannot see the full results chooses a sample of ten people to estimate the mean.",
+   "type": "numeric",
+   "prompt": "What is the largest mean the sample of ten could have?",
+   "answer": "5.4",
+   "units": "bedrooms"
+  },
+  {
+   "id": "q13d",
+   "label": "13d",
+   "section": "Reasoning",
+   "stem": "In a town of $100$ people, a census recorded the number of bedrooms in each person's home. The mean for the whole population is $3.4$. A researcher who cannot see the full results chooses a sample of ten people to estimate the mean.",
+   "type": "numeric",
+   "prompt": "What is the smallest mean the sample of ten could have?",
+   "answer": "1.4",
+   "units": "bedrooms"
+  },
+  {
+   "id": "q14a",
+   "label": "14a",
+   "section": "Reasoning",
+   "stem": "A council posts $1000$ surveys to a random sample of residents asking 'Should the town build a skate park?' Only $250$ replies come back: $175$ say 'yes' and $75$ say 'no'.",
+   "type": "numeric",
+   "prompt": "Based on the $250$ replies, what percentage are in favour of the skate park?",
+   "answer": "70",
+   "units": "%"
+  },
+  {
+   "id": "q14b",
+   "label": "14b",
+   "section": "Reasoning",
+   "stem": "A council posts $1000$ surveys to a random sample of residents asking 'Should the town build a skate park?' Only $250$ replies come back: $175$ say 'yes' and $75$ say 'no'.",
+   "type": "numeric",
+   "prompt": "If all $750$ people who did not reply would have said 'yes', what percentage are in favour?",
+   "answer": "92.5",
+   "units": "%"
+  },
+  {
+   "id": "q14c",
+   "label": "14c",
+   "section": "Reasoning",
+   "stem": "A council posts $1000$ surveys to a random sample of residents asking 'Should the town build a skate park?' Only $250$ replies come back: $175$ say 'yes' and $75$ say 'no'.",
+   "type": "numeric",
+   "prompt": "If all $750$ people who did not reply would have said 'no', what percentage are in favour?",
+   "answer": "17.5",
+   "units": "%"
+  },
+  {
+   "id": "q14d",
+   "label": "14d",
+   "section": "Reasoning",
+   "stem": "A council posts $1000$ surveys to a random sample of residents asking 'Should the town build a skate park?' Only $250$ replies come back: $175$ say 'yes' and $75$ say 'no'.",
+   "type": "choice",
+   "prompt": "The $1000$ residents who were sent the survey are representative of the town. What can the council conclude?",
+   "answer": 2,
+   "options": [
+    "Most residents want the skate park",
+    "Most residents do not want the skate park",
+    "It cannot tell whether most residents want the skate park"
+   ]
+  }
+ ]
+},
+{
+ "id": "y8-8g",
+ "year": 8,
+ "chapter": "Chapter 8: Probability and statistics",
+ "title": "8G Probability",
+ "description": "List sample spaces, find probabilities of events and their complements, and reason about probabilities.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "The letters of the word MANGO are written on $5$ cards, and one card is drawn at random from a hat.",
+   "type": "list",
+   "prompt": "List the sample space.",
+   "answer": [
+    "M",
+    "A",
+    "N",
+    "G",
+    "O"
+   ],
+   "hint": "Separate the letters with commas, for example X, Y, Z"
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "The letters of the word MANGO are written on $5$ cards, and one card is drawn at random from a hat.",
+   "type": "numeric",
+   "prompt": "Find Pr(the letter G is chosen).",
+   "answer": "1/5",
+   "hint": "Type a fraction like 3/8"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "The letters of the word MANGO are written on $5$ cards, and one card is drawn at random from a hat.",
+   "type": "list",
+   "prompt": "List the sample space of the event $C$ = choosing a consonant.",
+   "answer": [
+    "M",
+    "N",
+    "G"
+   ]
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "The letters of the word MANGO are written on $5$ cards, and one card is drawn at random from a hat.",
+   "type": "numeric",
+   "prompt": "Find $\\Pr(C)$.",
+   "answer": "3/5"
+  },
+  {
+   "id": "q1e",
+   "label": "1e",
+   "section": "Fluency",
+   "stem": "The letters of the word MANGO are written on $5$ cards, and one card is drawn at random from a hat.",
+   "type": "list",
+   "prompt": "List the sample space of the complement of choosing a consonant, $C'$.",
+   "answer": [
+    "A",
+    "O"
+   ]
+  },
+  {
+   "id": "q1f",
+   "label": "1f",
+   "section": "Fluency",
+   "stem": "The letters of the word MANGO are written on $5$ cards, and one card is drawn at random from a hat.",
+   "type": "numeric",
+   "prompt": "Find $\\Pr(C')$.",
+   "answer": "2/5"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "A fair eight-sided die, numbered $1$ to $8$, is rolled.",
+   "type": "list",
+   "prompt": "List the sample space.",
+   "answer": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8"
+   ],
+   "hint": "Separate the outcomes with commas, for example 1, 2, 3"
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "A fair eight-sided die, numbered $1$ to $8$, is rolled.",
+   "type": "numeric",
+   "prompt": "Find $\\Pr(3)$, the probability that a $3$ is rolled.",
+   "answer": "1/8"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "A fair eight-sided die, numbered $1$ to $8$, is rolled.",
+   "type": "numeric",
+   "prompt": "Find Pr(odd number).",
+   "answer": "1/2"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "A fair eight-sided die, numbered $1$ to $8$, is rolled.",
+   "type": "list",
+   "prompt": "List the sample space of the complement of 'rolling a $3$'.",
+   "answer": [
+    "1",
+    "2",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8"
+   ]
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "A fair eight-sided die, numbered $1$ to $8$, is rolled.",
+   "type": "numeric",
+   "prompt": "Find the probability that a $3$ is not rolled.",
+   "answer": "7/8"
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "A fair eight-sided die, numbered $1$ to $8$, is rolled.",
+   "type": "numeric",
+   "prompt": "What is the probability of rolling an $11$?",
+   "answer": "0"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Seven cards are numbered $1$ to $7$, each with a different number. One card is chosen at random.",
+   "type": "list",
+   "prompt": "List the sample space.",
+   "answer": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+   ]
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Seven cards are numbered $1$ to $7$. One card is chosen at random. Find the probability of selecting:",
+   "type": "numeric",
+   "prompt": "an odd number",
+   "answer": "4/7"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Seven cards are numbered $1$ to $7$. One card is chosen at random. Find the probability of selecting:",
+   "type": "numeric",
+   "prompt": "the number $4$",
+   "answer": "1/7"
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Seven cards are numbered $1$ to $7$. One card is chosen at random. Find the probability of selecting:",
+   "type": "numeric",
+   "prompt": "a number which is at most $5$",
+   "answer": "5/7"
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "Seven cards are numbered $1$ to $7$. One card is chosen at random. Find the probability of selecting:",
+   "type": "numeric",
+   "prompt": "a number which is at least $3$",
+   "answer": "5/7"
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "Seven cards are numbered $1$ to $7$. Which phrase describes each event?",
+   "type": "choice",
+   "prompt": "$\\{1,\\ 2,\\ 3\\}$",
+   "answer": 1,
+   "options": [
+    "At least 3",
+    "At most 3",
+    "At least 4",
+    "At most 2"
+   ]
+  },
+  {
+   "id": "q3g",
+   "label": "3g",
+   "section": "Fluency",
+   "stem": "Seven cards are numbered $1$ to $7$. Which phrase describes each event?",
+   "type": "choice",
+   "prompt": "$\\{6,\\ 7\\}$",
+   "answer": 0,
+   "options": [
+    "At least 6",
+    "At most 6",
+    "At least 7",
+    "At most 5"
+   ]
+  },
+  {
+   "id": "q3h",
+   "label": "3h",
+   "section": "Fluency",
+   "stem": "Seven cards are numbered $1$ to $7$. Which phrase describes each event?",
+   "type": "choice",
+   "prompt": "$\\{2,\\ 3,\\ 4,\\ 5,\\ 6,\\ 7\\}$",
+   "answer": 0,
+   "options": [
+    "At least 2",
+    "At most 2",
+    "At least 3",
+    "At most 1"
+   ]
+  },
+  {
+   "id": "q3i",
+   "label": "3i",
+   "section": "Fluency",
+   "stem": "Seven cards are numbered $1$ to $7$. Which phrase describes each event?",
+   "type": "choice",
+   "prompt": "$\\{1,\\ 2,\\ 3,\\ 4,\\ 5,\\ 6\\}$",
+   "answer": 1,
+   "options": [
+    "At least 6",
+    "At most 6",
+    "At least 7",
+    "At most 5"
+   ]
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "Find each probability.",
+   "type": "numeric",
+   "prompt": "$\\Pr(A')$ if $\\Pr(A) = \\frac{2}{9}$",
+   "answer": "7/9"
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "Find each probability.",
+   "type": "numeric",
+   "prompt": "$\\Pr(A')$ if $\\Pr(A) = 0.65$",
+   "answer": "0.35"
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "Find each probability.",
+   "type": "numeric",
+   "prompt": "$\\Pr(D')$ if $\\Pr(D) = \\frac{5}{12}$",
+   "answer": "7/12"
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "Find each probability.",
+   "type": "numeric",
+   "prompt": "$\\Pr(X')$ if $\\Pr(X) = 0.08$",
+   "answer": "0.92"
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Fluency",
+   "stem": "Find each probability.",
+   "type": "numeric",
+   "prompt": "$\\Pr(B)$ if $\\Pr(B') = 0.7$",
+   "answer": "0.3"
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Fluency",
+   "stem": "Find each probability.",
+   "type": "numeric",
+   "prompt": "$\\Pr(Y)$ if $\\Pr(Y') = \\frac{6}{13}$",
+   "answer": "7/13"
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Fluency",
+   "stem": "There are four blue marbles, three yellow marbles and five white marbles. The $12$ marbles are placed in a bag and one is picked out at random.",
+   "type": "numeric",
+   "prompt": "What is Pr(blue)?",
+   "answer": "1/3"
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Fluency",
+   "stem": "There are four blue marbles, three yellow marbles and five white marbles. The $12$ marbles are placed in a bag and one is picked out at random.",
+   "type": "numeric",
+   "prompt": "Find Pr(yellow).",
+   "answer": "1/4"
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Fluency",
+   "stem": "There are four blue marbles, three yellow marbles and five white marbles. The $12$ marbles are placed in a bag and one is picked out at random.",
+   "type": "numeric",
+   "prompt": "Find Pr(white).",
+   "answer": "5/12"
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Fluency",
+   "stem": "There are four blue marbles, three yellow marbles and five white marbles. The $12$ marbles are placed in a bag and one is picked out at random.",
+   "type": "numeric",
+   "prompt": "Find Pr(a yellow or a white marble).",
+   "answer": "2/3"
+  },
+  {
+   "id": "q5e",
+   "label": "5e",
+   "section": "Fluency",
+   "stem": "There are four blue marbles, three yellow marbles and five white marbles. The $12$ marbles are placed in a bag and one is picked out at random.",
+   "type": "numeric",
+   "prompt": "Find $\\Pr(\\text{blue}')$, the probability of not choosing a blue marble.",
+   "answer": "2/3"
+  },
+  {
+   "id": "q5f",
+   "label": "5f",
+   "section": "Fluency",
+   "stem": "There are four blue marbles, three yellow marbles and five white marbles. The $12$ marbles are placed in a bag and one is picked out at random.",
+   "type": "numeric",
+   "prompt": "Find $\\Pr(\\text{white}')$.",
+   "answer": "7/12"
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Fluency",
+   "stem": "A spinner has eight equal sections coloured as shown (G = green, B = blue, R = red, Y = yellow).",
+   "type": "numeric",
+   "prompt": "How many equally likely outcomes are there when this spinner is spun?",
+   "answer": "8",
+   "stemFigure": {
+    "kind": "spinner",
+    "labels": [
+     "G",
+     "B",
+     "R",
+     "G",
+     "Y",
+     "B",
+     "G",
+     "R"
+    ]
+   }
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Fluency",
+   "stem": "A spinner has eight equal sections coloured as shown (G = green, B = blue, R = red, Y = yellow).",
+   "type": "numeric",
+   "prompt": "Find Pr(red).",
+   "answer": "1/4"
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Fluency",
+   "stem": "A spinner has eight equal sections coloured as shown (G = green, B = blue, R = red, Y = yellow).",
+   "type": "numeric",
+   "prompt": "Find Pr(green).",
+   "answer": "3/8"
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Fluency",
+   "stem": "A spinner has eight equal sections coloured as shown (G = green, B = blue, R = red, Y = yellow).",
+   "type": "numeric",
+   "prompt": "Find Pr(blue).",
+   "answer": "1/4"
+  },
+  {
+   "id": "q6e",
+   "label": "6e",
+   "section": "Fluency",
+   "stem": "A spinner has eight equal sections coloured as shown (G = green, B = blue, R = red, Y = yellow).",
+   "type": "list",
+   "prompt": "List the colours in the complement of the spinner landing on blue.",
+   "answer": [
+    "Green",
+    "Red",
+    "Yellow"
+   ],
+   "hint": "Type each colour once, separated by commas"
+  },
+  {
+   "id": "q6f",
+   "label": "6f",
+   "section": "Fluency",
+   "stem": "A spinner has eight equal sections coloured as shown (G = green, B = blue, R = red, Y = yellow).",
+   "type": "numeric",
+   "prompt": "Find $\\Pr(\\text{blue}')$.",
+   "answer": "3/4"
+  },
+  {
+   "id": "q6g",
+   "label": "6g",
+   "section": "Fluency",
+   "stem": "A spinner has eight equal sections coloured as shown (G = green, B = blue, R = red, Y = yellow).",
+   "type": "numeric",
+   "prompt": "Find Pr(red or green or blue).",
+   "answer": "7/8"
+  },
+  {
+   "id": "q6h",
+   "label": "6h",
+   "section": "Fluency",
+   "stem": "A spinner has eight equal sections coloured as shown (G = green, B = blue, R = red, Y = yellow).",
+   "type": "choice",
+   "prompt": "Which event is equally likely to 'spinning red'?",
+   "answer": 1,
+   "options": [
+    "Spinning green",
+    "Spinning blue",
+    "Spinning yellow"
+   ]
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Fluency",
+   "stem": "The numbers $1$ to $12$ are written on cards, and a card is chosen at random.",
+   "type": "list",
+   "prompt": "List the sample space.",
+   "answer": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12"
+   ]
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Fluency",
+   "stem": "The numbers $1$ to $12$ are written on cards, and a card is chosen at random.",
+   "type": "numeric",
+   "prompt": "Find the probability of choosing an $8$.",
+   "answer": "1/12"
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Fluency",
+   "stem": "The numbers $1$ to $12$ are written on cards, and a card is chosen at random.",
+   "type": "numeric",
+   "prompt": "Find Pr($4$ or $11$).",
+   "answer": "1/6"
+  },
+  {
+   "id": "q7d",
+   "label": "7d",
+   "section": "Fluency",
+   "stem": "The numbers $1$ to $12$ are written on cards, and a card is chosen at random.",
+   "type": "numeric",
+   "prompt": "Find Pr(a multiple of $4$ is chosen).",
+   "answer": "1/4"
+  },
+  {
+   "id": "q7e",
+   "label": "7e",
+   "section": "Fluency",
+   "stem": "The numbers $1$ to $12$ are written on cards, and a card is chosen at random.",
+   "type": "numeric",
+   "prompt": "Find Pr(at least $9$).",
+   "answer": "1/3"
+  },
+  {
+   "id": "q7f",
+   "label": "7f",
+   "section": "Fluency",
+   "stem": "The numbers $1$ to $12$ are written on cards, and a card is chosen at random.",
+   "type": "numeric",
+   "prompt": "Find Pr(a factor of $18$).",
+   "answer": "5/12"
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Problem-solving",
+   "stem": "On a game show, a wheel with six equal sections is spun for a prize. 'Cash' is $\\$5000$ cash, the trip is also worth $\\$5000$, and 'None' means no prize.",
+   "type": "numeric",
+   "prompt": "Priya would be happy with either the $\\$5000$ cash or the trip. What is the probability she gets what she wants?",
+   "answer": "1/3",
+   "stemFigure": {
+    "kind": "spinner",
+    "labels": [
+     "Trip",
+     "Phone",
+     "None",
+     "Cash",
+     "Bike",
+     "TV"
+    ]
+   }
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Problem-solving",
+   "stem": "On a game show, a wheel with six equal sections is spun for a prize. 'Cash' is $\\$5000$ cash, the trip is also worth $\\$5000$, and 'None' means no prize.",
+   "type": "numeric",
+   "prompt": "What is the probability of winning a prize that is not the cash?",
+   "answer": "2/3"
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Problem-solving",
+   "stem": "On a game show, a wheel with six equal sections is spun for a prize. 'Cash' is $\\$5000$ cash, the trip is also worth $\\$5000$, and 'None' means no prize.",
+   "type": "numeric",
+   "prompt": "What is Pr(TV or phone)?",
+   "answer": "1/3"
+  },
+  {
+   "id": "q8d",
+   "label": "8d",
+   "section": "Problem-solving",
+   "stem": "On a game show, a wheel with six equal sections is spun for a prize. 'Cash' is $\\$5000$ cash, the trip is also worth $\\$5000$, and 'None' means no prize.",
+   "type": "numeric",
+   "prompt": "What is the probability of winning a prize?",
+   "answer": "5/6"
+  },
+  {
+   "id": "q9",
+   "label": "9",
+   "section": "Problem-solving",
+   "type": "numeric",
+   "prompt": "In a lucky dip there are $25$ items, and $10$ of them are prizes worth money. One item is chosen at random. What is the probability that the item is not worth money? Answer as a fraction.",
+   "answer": "3/5",
+   "as": "fraction"
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Problem-solving",
+   "stem": "Kai has some blue, green and white marbles of the same size in his pocket. There is a $0.2$ chance of choosing a green marble and a $0.65$ chance of not choosing a blue marble.",
+   "type": "numeric",
+   "prompt": "What is the probability of not choosing a green marble?",
+   "answer": "0.8"
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Problem-solving",
+   "stem": "Kai has some blue, green and white marbles of the same size in his pocket. There is a $0.2$ chance of choosing a green marble and a $0.65$ chance of not choosing a blue marble.",
+   "type": "numeric",
+   "prompt": "What is the probability of choosing a blue marble?",
+   "answer": "0.35"
+  },
+  {
+   "id": "q10c",
+   "label": "10c",
+   "section": "Problem-solving",
+   "stem": "Kai has some blue, green and white marbles of the same size in his pocket. There is a $0.2$ chance of choosing a green marble and a $0.65$ chance of not choosing a blue marble.",
+   "type": "numeric",
+   "prompt": "Find the probability of choosing a white marble. (The three colours' probabilities add to $1$.)",
+   "answer": "0.45"
+  },
+  {
+   "id": "q10d",
+   "label": "10d",
+   "section": "Problem-solving",
+   "stem": "Kai has some blue, green and white marbles of the same size in his pocket. There is a $0.2$ chance of choosing a green marble and a $0.65$ chance of not choosing a blue marble.",
+   "type": "numeric",
+   "prompt": "What is the smallest number of marbles Kai could have in his pocket?",
+   "answer": "20",
+   "units": "marbles"
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Problem-solving",
+   "stem": "A weighted die has the numbers $1$ to $6$, but the probability of each number is unknown. Is each statement guaranteed to be true for this die?",
+   "type": "choice",
+   "prompt": "$\\Pr(5) = \\frac{1}{6}$",
+   "answer": 1,
+   "options": [
+    "Yes, always true",
+    "No, not guaranteed"
+   ]
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Problem-solving",
+   "stem": "A weighted die has the numbers $1$ to $6$, but the probability of each number is unknown. Is each statement guaranteed to be true for this die?",
+   "type": "choice",
+   "prompt": "$\\Pr(\\text{at least } 5) = \\Pr(5) + \\Pr(6)$",
+   "answer": 0,
+   "options": [
+    "Yes, always true",
+    "No, not guaranteed"
+   ]
+  },
+  {
+   "id": "q11c",
+   "label": "11c",
+   "section": "Problem-solving",
+   "stem": "A weighted die has the numbers $1$ to $6$, but the probability of each number is unknown. Is each statement guaranteed to be true for this die?",
+   "type": "choice",
+   "prompt": "$\\Pr(\\text{at most } 6) = 1$",
+   "answer": 0,
+   "options": [
+    "Yes, always true",
+    "No, not guaranteed"
+   ]
+  },
+  {
+   "id": "q11d",
+   "label": "11d",
+   "section": "Problem-solving",
+   "stem": "A weighted die has the numbers $1$ to $6$, but the probability of each number is unknown. Is each statement guaranteed to be true for this die?",
+   "type": "choice",
+   "prompt": "$\\Pr(1) = \\Pr(6)$",
+   "answer": 1,
+   "options": [
+    "Yes, always true",
+    "No, not guaranteed"
+   ]
+  },
+  {
+   "id": "q11e",
+   "label": "11e",
+   "section": "Problem-solving",
+   "stem": "A weighted die has the numbers $1$ to $6$, but the probability of each number is unknown. Is each statement guaranteed to be true for this die?",
+   "type": "choice",
+   "prompt": "$\\Pr(\\text{at most } 2) + \\Pr(\\text{at least } 3) = 1$",
+   "answer": 0,
+   "options": [
+    "Yes, always true",
+    "No, not guaranteed"
+   ]
+  },
+  {
+   "id": "q11f",
+   "label": "11f",
+   "section": "Problem-solving",
+   "stem": "A weighted die has the numbers $1$ to $6$, but the probability of each number is unknown. Is each statement guaranteed to be true for this die?",
+   "type": "choice",
+   "prompt": "$\\Pr(\\text{at most } 4) = 1 - \\Pr(\\text{at least } 4)$",
+   "answer": 1,
+   "options": [
+    "Yes, always true",
+    "No, not guaranteed"
+   ]
+  },
+  {
+   "id": "q11g",
+   "label": "11g",
+   "section": "Problem-solving",
+   "stem": "A weighted die has the numbers $1$ to $6$, but the probability of each number is unknown. Is each statement guaranteed to be true for this die?",
+   "type": "choice",
+   "prompt": "$\\Pr(\\text{at most } 2) = 1 - \\Pr(\\text{at least } 3)$",
+   "answer": 0,
+   "options": [
+    "Yes, always true",
+    "No, not guaranteed"
+   ]
+  },
+  {
+   "id": "q11h",
+   "label": "11h",
+   "section": "Problem-solving",
+   "stem": "A weighted die has the numbers $1$ to $6$, but the probability of each number is unknown. Is each statement guaranteed to be true for this die?",
+   "type": "choice",
+   "prompt": "$\\Pr(\\text{at most } 3) + \\Pr(\\text{at least } 3) = 1 + \\Pr(3)$",
+   "answer": 0,
+   "options": [
+    "Yes, always true",
+    "No, not guaranteed"
+   ]
+  },
+  {
+   "id": "q12a",
+   "label": "12a",
+   "section": "Problem-solving",
+   "stem": "Twelve counters coloured red, green or white are placed in a bag. You are told that $\\Pr(\\text{red or white}) = \\frac{7}{12}$ and $\\Pr(\\text{red or green}) = \\frac{2}{3}$.",
+   "type": "ordered",
+   "prompt": "How many counters of each colour are there? Give the numbers in the order red, green, white.",
+   "answer": [
+    "3",
+    "5",
+    "4"
+   ],
+   "hint": "For example: 2, 4, 6"
+  },
+  {
+   "id": "q12b",
+   "label": "12b",
+   "section": "Problem-solving",
+   "stem": "Twelve counters coloured red, green or white are placed in a bag. You are told that $\\Pr(\\text{red or white}) = \\frac{7}{12}$ and $\\Pr(\\text{red or green}) = \\frac{2}{3}$.",
+   "type": "numeric",
+   "prompt": "State Pr(red).",
+   "answer": "1/4"
+  },
+  {
+   "id": "q12c",
+   "label": "12c",
+   "section": "Problem-solving",
+   "stem": "Twelve counters coloured red, green or white are placed in a bag. You are told that $\\Pr(\\text{red or white}) = \\frac{7}{12}$ and $\\Pr(\\text{red or green}) = \\frac{2}{3}$.",
+   "type": "numeric",
+   "prompt": "Find Pr(green).",
+   "answer": "5/12"
+  },
+  {
+   "id": "q12d",
+   "label": "12d",
+   "section": "Problem-solving",
+   "stem": "Twelve counters coloured red, green or white are placed in a bag. You are told that $\\Pr(\\text{red or white}) = \\frac{7}{12}$ and $\\Pr(\\text{red or green}) = \\frac{2}{3}$.",
+   "type": "numeric",
+   "prompt": "Find $\\Pr(\\text{white}')$.",
+   "answer": "2/3"
+  },
+  {
+   "id": "q13a",
+   "label": "13a",
+   "section": "Reasoning",
+   "stem": "A large bucket holds $3$ red balls and $9$ blue balls.",
+   "type": "numeric",
+   "prompt": "State Pr(red).",
+   "answer": "1/4"
+  },
+  {
+   "id": "q13b",
+   "label": "13b",
+   "section": "Reasoning",
+   "stem": "A large bucket holds $3$ red balls and $9$ blue balls.",
+   "type": "numeric",
+   "prompt": "One ball of each colour is added. What is the new Pr(red)?",
+   "answer": "2/7"
+  },
+  {
+   "id": "q13c",
+   "label": "13c",
+   "section": "Reasoning",
+   "stem": "A large bucket holds $3$ red balls and $9$ blue balls.",
+   "type": "numeric",
+   "prompt": "Adding one red and one blue ball is repeated several times. How many balls are in the bucket when $\\Pr(\\text{red}) = \\frac{2}{5}$?",
+   "answer": "30",
+   "units": "balls"
+  },
+  {
+   "id": "q13d",
+   "label": "13d",
+   "section": "Reasoning",
+   "stem": "A large bucket holds $3$ red balls and $9$ blue balls.",
+   "type": "numeric",
+   "prompt": "If this is repeated many, many times, what value does Pr(red) get closer and closer to?",
+   "answer": "1/2"
+  },
+  {
+   "id": "q14a",
+   "label": "14a",
+   "section": "Reasoning",
+   "stem": "In a swimming test, each student either passes or fails, so pass and fail are complements. For Ella, Pr(pass) $= 0.3$ and for Ben, Pr(pass) $= 0.65$.",
+   "type": "numeric",
+   "prompt": "Maya says she is twice as likely to pass as Ella. What is Maya's probability of passing?",
+   "answer": "0.6"
+  },
+  {
+   "id": "q14b",
+   "label": "14b",
+   "section": "Reasoning",
+   "stem": "In a swimming test, each student either passes or fails, so pass and fail are complements. For Ella, Pr(pass) $= 0.3$ and for Ben, Pr(pass) $= 0.65$.",
+   "type": "numeric",
+   "prompt": "Zoe says she is twice as likely to fail as Ben. Find Pr(Ben fails).",
+   "answer": "0.35"
+  },
+  {
+   "id": "q14c",
+   "label": "14c",
+   "section": "Reasoning",
+   "stem": "In a swimming test, each student either passes or fails, so pass and fail are complements. For Ella, Pr(pass) $= 0.3$ and for Ben, Pr(pass) $= 0.65$.",
+   "type": "numeric",
+   "prompt": "Zoe is twice as likely to fail as Ben. Find Pr(Zoe fails).",
+   "answer": "0.7"
+  },
+  {
+   "id": "q14d",
+   "label": "14d",
+   "section": "Reasoning",
+   "stem": "In a swimming test, each student either passes or fails, so pass and fail are complements. For Ella, Pr(pass) $= 0.3$ and for Ben, Pr(pass) $= 0.65$.",
+   "type": "numeric",
+   "prompt": "Zoe is twice as likely to fail as Ben. Find Pr(Zoe passes).",
+   "answer": "0.3"
+  },
+  {
+   "id": "q14e",
+   "label": "14e",
+   "section": "Reasoning",
+   "stem": "In a swimming test, each student either passes or fails, so pass and fail are complements. For Ella, Pr(pass) $= 0.3$ and for Ben, Pr(pass) $= 0.65$.",
+   "type": "expression",
+   "prompt": "If the probability of Ella passing is $p$, write an expression for the probability of passing for someone who is twice as likely as Ella to pass.",
+   "answer": "2p",
+   "hint": "Use the letter p, for example 3p"
+  },
+  {
+   "id": "q14f",
+   "label": "14f",
+   "section": "Reasoning",
+   "stem": "In a swimming test, each student either passes or fails, so pass and fail are complements. For Ella, Pr(pass) $= 0.3$ and for Ben, Pr(pass) $= 0.65$.",
+   "type": "expression",
+   "prompt": "If the probability of Ben passing is $p$, write an expression for the probability of passing for someone who is twice as likely as Ben to fail.",
+   "answer": "2p-1"
+  },
+  {
+   "id": "q15a",
+   "label": "15a",
+   "section": "Enrichment",
+   "stem": "A bag starts with $8$ blue (B), $3$ red (R) and $5$ green (G) marbles. For each part, how many marbles of each colour were removed? Give the numbers in the order blue, red, green.",
+   "type": "ordered",
+   "prompt": "$4$ marbles are removed. Now $\\Pr(R) = 0$ and $\\Pr(B) = \\frac{2}{3}$.",
+   "answer": [
+    "0",
+    "3",
+    "1"
+   ],
+   "hint": "For example 1, 0, 2 means 1 blue, 0 red and 2 green were removed"
+  },
+  {
+   "id": "q15b",
+   "label": "15b",
+   "section": "Enrichment",
+   "stem": "A bag starts with $8$ blue (B), $3$ red (R) and $5$ green (G) marbles. For each part, how many marbles of each colour were removed? Give the numbers in the order blue, red, green.",
+   "type": "ordered",
+   "prompt": "$6$ marbles are removed. Now $\\Pr(B) = \\Pr(G)$ and $\\Pr(R) = \\frac{1}{5}$.",
+   "answer": [
+    "4",
+    "1",
+    "1"
+   ]
+  },
+  {
+   "id": "q15c",
+   "label": "15c",
+   "section": "Enrichment",
+   "stem": "A bag starts with $8$ blue (B), $3$ red (R) and $5$ green (G) marbles. For each part, how many marbles of each colour were removed? Give the numbers in the order blue, red, green.",
+   "type": "ordered",
+   "prompt": "$3$ marbles are removed. Now $\\Pr(G) < \\Pr(R) < \\Pr(B)$.",
+   "answer": [
+    "0",
+    "0",
+    "3"
+   ]
+  },
+  {
+   "id": "q15d",
+   "label": "15d",
+   "section": "Enrichment",
+   "stem": "A bag starts with $8$ blue (B), $3$ red (R) and $5$ green (G) marbles. For each part, how many marbles of each colour were removed? Give the numbers in the order blue, red, green.",
+   "type": "ordered",
+   "prompt": "$13$ marbles are removed. Now $\\Pr(B) = \\Pr(G) = \\Pr(R)$.",
+   "answer": [
+    "7",
+    "2",
+    "4"
+   ]
+  },
+  {
+   "id": "q15e",
+   "label": "15e",
+   "section": "Enrichment",
+   "stem": "A bag starts with $8$ blue (B), $3$ red (R) and $5$ green (G) marbles. For each part, how many marbles of each colour were removed? Give the numbers in the order blue, red, green.",
+   "type": "ordered",
+   "prompt": "$2$ marbles are removed. Now $\\Pr(B) = \\frac{1}{2}$ and $\\Pr(G) = \\frac{2}{7}$.",
+   "answer": [
+    "1",
+    "0",
+    "1"
+   ]
+  },
+  {
+   "id": "q15f",
+   "label": "15f",
+   "section": "Enrichment",
+   "stem": "A bag starts with $8$ blue (B), $3$ red (R) and $5$ green (G) marbles. For each part, how many marbles of each colour were removed? Give the numbers in the order blue, red, green.",
+   "type": "ordered",
+   "prompt": "Some marbles are removed. Now $\\Pr(G) \\times 2 = \\Pr(R)$ and $\\Pr(R) \\times 2 = \\Pr(B)$.",
+   "answer": [
+    "4",
+    "1",
+    "4"
+   ]
+  },
+  {
+   "id": "q15g",
+   "label": "15g",
+   "section": "Enrichment",
+   "stem": "A bag starts with $8$ blue (B), $3$ red (R) and $5$ green (G) marbles. For each part, how many marbles of each colour were removed? Give the numbers in the order blue, red, green.",
+   "type": "ordered",
+   "prompt": "Some marbles are removed. Now $\\Pr(R) = \\frac{1}{2}$ and $\\Pr(B) = \\Pr(G) = \\frac{1}{4}$.",
+   "answer": [
+    "7",
+    "1",
+    "4"
+   ]
+  }
+ ]
+},
+{
+ "id": "y8-8h",
+ "year": 8,
+ "chapter": "Chapter 8: Probability and statistics",
+ "title": "8H Two-step experiments",
+ "description": "Use tables to list the sample space of two-step experiments and find probabilities.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "A coin is tossed and then a fair eight-sided die (numbered $1$ to $8$) is rolled. The table lists the sample space, with some outcomes missing.",
+   "type": "text",
+   "prompt": "Which outcome belongs in the Tails row under $4$?",
+   "answer": "T4",
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+     ],
+     [
+      "H",
+      "H1",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+     ],
+     [
+      "T",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "T8"
+     ]
+    ]
+   },
+   "accept": [
+    "4T",
+    "T 4"
+   ],
+   "hint": "Write it like the others, for example H1"
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "A coin is tossed and then a fair eight-sided die (numbered $1$ to $8$) is rolled. The table lists the sample space, with some outcomes missing.",
+   "type": "numeric",
+   "prompt": "How many possible outcomes are there?",
+   "answer": "16"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "A coin is tossed and then a fair eight-sided die (numbered $1$ to $8$) is rolled. The table lists the sample space, with some outcomes missing.",
+   "type": "numeric",
+   "prompt": "Find the probability of the outcome T5.",
+   "answer": "1/16"
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "A coin is tossed and then a fair eight-sided die (numbered $1$ to $8$) is rolled. The table lists the sample space, with some outcomes missing.",
+   "type": "numeric",
+   "prompt": "Find the probability of heads on the coin with an even number on the die.",
+   "answer": "1/4"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "A letter is chosen at random from the word BOAT and another from the word TONE. Copy and complete the table to list the sample space, then answer the questions.",
+   "type": "numeric",
+   "prompt": "How many possible outcomes are there?",
+   "answer": "16",
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "BOAT \\ TONE",
+      "T",
+      "O",
+      "N",
+      "E"
+     ],
+     [
+      "B",
+      "?",
+      "?",
+      "?",
+      "?"
+     ],
+     [
+      "O",
+      "?",
+      "?",
+      "?",
+      "?"
+     ],
+     [
+      "A",
+      "?",
+      "?",
+      "?",
+      "?"
+     ],
+     [
+      "T",
+      "?",
+      "?",
+      "?",
+      "?"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "A letter is chosen at random from the word BOAT and another from the word TONE. Copy and complete the table to list the sample space, then answer the questions.",
+   "type": "numeric",
+   "prompt": "Find Pr(BN), the probability that B is chosen from BOAT and N is chosen from TONE.",
+   "answer": "1/16"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "A letter is chosen at random from the word BOAT and another from the word TONE. Copy and complete the table to list the sample space, then answer the questions.",
+   "type": "numeric",
+   "prompt": "Find Pr(AE).",
+   "answer": "1/16"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "A letter is chosen at random from the word BOAT and another from the word TONE. Copy and complete the table to list the sample space, then answer the questions.",
+   "type": "numeric",
+   "prompt": "Find the probability that two vowels are chosen.",
+   "answer": "1/4"
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "A letter is chosen at random from the word BOAT and another from the word TONE. Copy and complete the table to list the sample space, then answer the questions.",
+   "type": "numeric",
+   "prompt": "Find the probability that two consonants are chosen.",
+   "answer": "1/4"
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "A letter is chosen at random from the word BOAT and another from the word TONE. Copy and complete the table to list the sample space, then answer the questions.",
+   "type": "numeric",
+   "prompt": "Find the probability that the two letters chosen are the same.",
+   "answer": "1/8"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "The two spinners shown are each spun once. Draw a table to list the sample space (use Y for yellow, R for red, G for green and B for blue), then answer the questions.",
+   "type": "numeric",
+   "prompt": "Find the probability that spinner $1$ shows yellow and spinner $2$ shows red.",
+   "answer": "1/12",
+   "stemFigure": [
+    {
+     "kind": "spinner",
+     "labels": [
+      "Red",
+      "Yellow",
+      "Blue",
+      "Green"
+     ],
+     "caption": "Spinner 1"
+    },
+    {
+     "kind": "spinner",
+     "labels": [
+      "Red",
+      "Green",
+      "Yellow"
+     ],
+     "caption": "Spinner 2"
+    }
+   ]
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "The two spinners shown are each spun once. Draw a table to list the sample space (use Y for yellow, R for red, G for green and B for blue), then answer the questions.",
+   "type": "numeric",
+   "prompt": "Find the probability that both spinners show green.",
+   "answer": "1/12"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "The two spinners shown are each spun once. Draw a table to list the sample space (use Y for yellow, R for red, G for green and B for blue), then answer the questions.",
+   "type": "numeric",
+   "prompt": "What is the probability that spinner $1$ shows blue and spinner $2$ shows yellow?",
+   "answer": "1/12"
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "The two spinners shown are each spun once. Draw a table to list the sample space (use Y for yellow, R for red, G for green and B for blue), then answer the questions.",
+   "type": "numeric",
+   "prompt": "What is the probability that one spinner shows yellow and the other shows red?",
+   "answer": "1/6"
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "The two spinners shown are each spun once. Draw a table to list the sample space (use Y for yellow, R for red, G for green and B for blue), then answer the questions.",
+   "type": "numeric",
+   "prompt": "What is the probability that both spinners show the same colour?",
+   "answer": "1/4"
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "The two spinners shown are each spun once. Draw a table to list the sample space (use Y for yellow, R for red, G for green and B for blue), then answer the questions.",
+   "type": "numeric",
+   "prompt": "What is the probability that the spinners show different colours?",
+   "answer": "3/4"
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "A letter from the word ADD is chosen at random, and then a letter from the word TREE is chosen at random. The sample space is shown below.",
+   "type": "numeric",
+   "prompt": "Find Pr(AT).",
+   "answer": "1/12",
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "",
+      "T",
+      "R",
+      "E",
+      "E"
+     ],
+     [
+      "A",
+      "AT",
+      "AR",
+      "AE",
+      "AE"
+     ],
+     [
+      "D",
+      "DT",
+      "DR",
+      "DE",
+      "DE"
+     ],
+     [
+      "D",
+      "DT",
+      "DR",
+      "DE",
+      "DE"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "A letter from the word ADD is chosen at random, and then a letter from the word TREE is chosen at random. The sample space is shown below.",
+   "type": "numeric",
+   "prompt": "Find Pr(DE).",
+   "answer": "1/3"
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "A letter from the word ADD is chosen at random, and then a letter from the word TREE is chosen at random. The sample space is shown below.",
+   "type": "numeric",
+   "prompt": "Find Pr(both letters are vowels).",
+   "answer": "1/6"
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "A letter from the word ADD is chosen at random, and then a letter from the word TREE is chosen at random. The sample space is shown below.",
+   "type": "numeric",
+   "prompt": "Find Pr(both letters are consonants).",
+   "answer": "1/3"
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Problem-solving",
+   "stem": "In a board game, two spinners, each numbered $1$ to $5$ with equal sections, are spun and the two numbers are added to give a total between $2$ and $10$. Copy and complete the table of totals, then answer the questions.",
+   "type": "numeric",
+   "prompt": "Find the probability that the total is $7$.",
+   "answer": "4/25",
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "+",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+     ],
+     [
+      "1",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+     ],
+     [
+      "2",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+     ],
+     [
+      "3",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+     ],
+     [
+      "4",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+     ],
+     [
+      "5",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Problem-solving",
+   "stem": "In a board game, two spinners, each numbered $1$ to $5$ with equal sections, are spun and the two numbers are added to give a total between $2$ and $10$. Copy and complete the table of totals, then answer the questions.",
+   "type": "numeric",
+   "prompt": "Find the probability that the total is not $7$.",
+   "answer": "21/25"
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Problem-solving",
+   "stem": "In a board game, two spinners, each numbered $1$ to $5$ with equal sections, are spun and the two numbers are added to give a total between $2$ and $10$. Copy and complete the table of totals, then answer the questions.",
+   "type": "numeric",
+   "prompt": "What is the most likely total?",
+   "answer": "6"
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Problem-solving",
+   "stem": "In a board game, two spinners, each numbered $1$ to $5$ with equal sections, are spun and the two numbers are added to give a total between $2$ and $10$. Copy and complete the table of totals, then answer the questions.",
+   "type": "list",
+   "prompt": "What are the two least likely totals?",
+   "answer": [
+    "2",
+    "10"
+   ],
+   "hint": "Separate the two totals with a comma"
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Problem-solving",
+   "stem": "In Amira's left pocket she has two green marbles, one white marble and one red marble. In her right pocket she has one white marble, two blue marbles and one green marble. She chooses one marble at random from each pocket. Copy and complete the table (left-pocket outcomes G, G, W, R down the side).",
+   "type": "numeric",
+   "prompt": "Find the probability that she chooses a green marble and a blue marble.",
+   "answer": "1/4",
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "Left \\ Right",
+      "W",
+      "B",
+      "B",
+      "G"
+     ],
+     [
+      "G",
+      "?",
+      "?",
+      "?",
+      "?"
+     ],
+     [
+      "G",
+      "?",
+      "?",
+      "?",
+      "?"
+     ],
+     [
+      "W",
+      "?",
+      "?",
+      "?",
+      "?"
+     ],
+     [
+      "R",
+      "?",
+      "?",
+      "?",
+      "?"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Problem-solving",
+   "stem": "In Amira's left pocket she has two green marbles, one white marble and one red marble. In her right pocket she has one white marble, two blue marbles and one green marble. She chooses one marble at random from each pocket. Copy and complete the table (left-pocket outcomes G, G, W, R down the side).",
+   "type": "numeric",
+   "prompt": "What is the probability that she chooses a white marble and a blue marble?",
+   "answer": "1/8"
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Problem-solving",
+   "stem": "In Amira's left pocket she has two green marbles, one white marble and one red marble. In her right pocket she has one white marble, two blue marbles and one green marble. She chooses one marble at random from each pocket. Copy and complete the table (left-pocket outcomes G, G, W, R down the side).",
+   "type": "numeric",
+   "prompt": "What is the probability that she chooses a green marble and a white marble?",
+   "answer": "3/16"
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Problem-solving",
+   "stem": "In Amira's left pocket she has two green marbles, one white marble and one red marble. In her right pocket she has one white marble, two blue marbles and one green marble. She chooses one marble at random from each pocket. Copy and complete the table (left-pocket outcomes G, G, W, R down the side).",
+   "type": "numeric",
+   "prompt": "Find the probability that a red marble and a green marble are chosen.",
+   "answer": "1/16"
+  },
+  {
+   "id": "q6e",
+   "label": "6e",
+   "section": "Problem-solving",
+   "stem": "In Amira's left pocket she has two green marbles, one white marble and one red marble. In her right pocket she has one white marble, two blue marbles and one green marble. She chooses one marble at random from each pocket. Copy and complete the table (left-pocket outcomes G, G, W, R down the side).",
+   "type": "numeric",
+   "prompt": "What is the probability that the two marbles are the same colour?",
+   "answer": "3/16"
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Problem-solving",
+   "stem": "In a game show, a wheel with four equal sections is spun to decide the prize money, and then a die is rolled. The prize money is multiplied by the number on the die to give the total winnings.",
+   "type": "numeric",
+   "prompt": "What is the probability that a contestant wins $\\$6000$?",
+   "answer": "1/12",
+   "stemFigure": {
+    "kind": "spinner",
+    "labels": [
+     "$500",
+     "$1500",
+     "$2000",
+     "$4000"
+    ]
+   }
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Problem-solving",
+   "stem": "In a game show, a wheel with four equal sections is spun to decide the prize money, and then a die is rolled. The prize money is multiplied by the number on the die to give the total winnings.",
+   "type": "numeric",
+   "prompt": "What is the probability that a contestant wins more than $\\$7500$?",
+   "answer": "3/8"
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Problem-solving",
+   "stem": "In a game show, a wheel with four equal sections is spun to decide the prize money, and then a die is rolled. The prize money is multiplied by the number on the die to give the total winnings.",
+   "type": "numeric",
+   "prompt": "What is the probability that a contestant wins $\\$7500$ or less?",
+   "answer": "5/8"
+  },
+  {
+   "id": "q8",
+   "label": "8",
+   "section": "Reasoning",
+   "type": "numeric",
+   "prompt": "Two separate experiments are carried out at the same time. The first has $6$ possible outcomes and the second has $11$. How many outcomes are there in the combined experiment?",
+   "answer": "66",
+   "units": "outcomes"
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Reasoning",
+   "stem": "When two dice are rolled, there is a $\\frac{1}{18}$ chance that the numbers multiply to $2$ and a $\\frac{1}{12}$ chance that they multiply to $4$.",
+   "type": "numeric",
+   "prompt": "What is the probability that they do not multiply to $2$?",
+   "answer": "17/18"
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Reasoning",
+   "stem": "When two dice are rolled, there is a $\\frac{1}{18}$ chance that the numbers multiply to $2$ and a $\\frac{1}{12}$ chance that they multiply to $4$.",
+   "type": "numeric",
+   "prompt": "What is the probability that they do not multiply to $4$?",
+   "answer": "11/12"
+  },
+  {
+   "id": "q9c",
+   "label": "9c",
+   "section": "Reasoning",
+   "stem": "When two dice are rolled, there is a $\\frac{1}{18}$ chance that the numbers multiply to $2$ and a $\\frac{1}{12}$ chance that they multiply to $4$.",
+   "type": "numeric",
+   "prompt": "What is the probability that they multiply to $2$ or $4$?",
+   "answer": "5/36"
+  },
+  {
+   "id": "q9d",
+   "label": "9d",
+   "section": "Reasoning",
+   "stem": "When two dice are rolled, there is a $\\frac{1}{18}$ chance that the numbers multiply to $2$ and a $\\frac{1}{12}$ chance that they multiply to $4$.",
+   "type": "numeric",
+   "prompt": "What is the probability that they do not multiply to $2$ or $4$?",
+   "answer": "31/36"
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Reasoning",
+   "stem": "A standard deck has four suits (hearts $\\heartsuit$, diamonds $\\diamondsuit$, clubs $\\clubsuit$, spades $\\spadesuit$) with $13$ cards in each (A, $2$ to $10$, J, Q, K). Hearts and diamonds are red; clubs and spades are black.",
+   "type": "numeric",
+   "prompt": "A card is chosen at random. What is $\\Pr(7\\clubsuit)$?",
+   "answer": "1/52"
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Reasoning",
+   "stem": "A standard deck has four suits (hearts $\\heartsuit$, diamonds $\\diamondsuit$, clubs $\\clubsuit$, spades $\\spadesuit$) with $13$ cards in each (A, $2$ to $10$, J, Q, K). Hearts and diamonds are red; clubs and spades are black.",
+   "type": "numeric",
+   "prompt": "What is Pr(black queen)?",
+   "answer": "1/26"
+  },
+  {
+   "id": "q10c",
+   "label": "10c",
+   "section": "Reasoning",
+   "stem": "A standard deck has four suits (hearts $\\heartsuit$, diamonds $\\diamondsuit$, clubs $\\clubsuit$, spades $\\spadesuit$) with $13$ cards in each (A, $2$ to $10$, J, Q, K). Hearts and diamonds are red; clubs and spades are black.",
+   "type": "numeric",
+   "prompt": "Two cards are chosen at random, one from each of two separate decks. What is the probability that they are both hearts?",
+   "answer": "1/16"
+  },
+  {
+   "id": "q10d",
+   "label": "10d",
+   "section": "Reasoning",
+   "stem": "A standard deck has four suits (hearts $\\heartsuit$, diamonds $\\diamondsuit$, clubs $\\clubsuit$, spades $\\spadesuit$) with $13$ cards in each (A, $2$ to $10$, J, Q, K). Hearts and diamonds are red; clubs and spades are black.",
+   "type": "numeric",
+   "prompt": "Two cards are chosen, one from each of two separate decks. What is the probability that they are both black?",
+   "answer": "1/4"
+  },
+  {
+   "id": "q10e",
+   "label": "10e",
+   "section": "Reasoning",
+   "stem": "A standard deck has four suits (hearts $\\heartsuit$, diamonds $\\diamondsuit$, clubs $\\clubsuit$, spades $\\spadesuit$) with $13$ cards in each (A, $2$ to $10$, J, Q, K). Hearts and diamonds are red; clubs and spades are black.",
+   "type": "numeric",
+   "prompt": "Two cards are chosen, one from each of two separate decks. What is the probability that the $7\\clubsuit$ is chosen from both decks?",
+   "answer": "1/2704"
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Enrichment",
+   "stem": "Spinner $1$ has six equal sections labelled A, A, A, B, C, C. Spinner $2$ has unequal sections, but the same probabilities as Spinner $1$, so spinning it is like choosing a letter from AAABCC. Spinner $3$ has $\\Pr(\\text{A}) = \\frac{2}{5}$, $\\Pr(\\text{D}) = \\frac{2}{5}$ and $\\Pr(\\text{E}) = \\frac{1}{5}$.",
+   "type": "numeric",
+   "prompt": "For Spinner $2$, find Pr(A).",
+   "answer": "1/2",
+   "stemFigure": [
+    {
+     "kind": "spinner",
+     "labels": [
+      "A",
+      "B",
+      "C",
+      "C",
+      "A",
+      "A"
+     ],
+     "caption": "Spinner 1"
+    },
+    {
+     "kind": "sector",
+     "parts": [
+      [
+       "A",
+       3
+      ],
+      [
+       "B",
+       1
+      ],
+      [
+       "C",
+       2
+      ]
+     ],
+     "caption": "Spinner 2"
+    },
+    {
+     "kind": "sector",
+     "parts": [
+      [
+       "A",
+       2
+      ],
+      [
+       "D",
+       2
+      ],
+      [
+       "E",
+       1
+      ]
+     ],
+     "caption": "Spinner 3"
+    }
+   ]
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Enrichment",
+   "stem": "Spinner $1$ has six equal sections labelled A, A, A, B, C, C. Spinner $2$ has unequal sections, but the same probabilities as Spinner $1$, so spinning it is like choosing a letter from AAABCC. Spinner $3$ has $\\Pr(\\text{A}) = \\frac{2}{5}$, $\\Pr(\\text{D}) = \\frac{2}{5}$ and $\\Pr(\\text{E}) = \\frac{1}{5}$.",
+   "type": "numeric",
+   "prompt": "For Spinner $2$, find Pr(C).",
+   "answer": "1/3"
+  },
+  {
+   "id": "q11c",
+   "label": "11c",
+   "section": "Enrichment",
+   "stem": "Spinner $1$ has six equal sections labelled A, A, A, B, C, C. Spinner $2$ has unequal sections, but the same probabilities as Spinner $1$, so spinning it is like choosing a letter from AAABCC. Spinner $3$ has $\\Pr(\\text{A}) = \\frac{2}{5}$, $\\Pr(\\text{D}) = \\frac{2}{5}$ and $\\Pr(\\text{E}) = \\frac{1}{5}$.",
+   "type": "numeric",
+   "prompt": "Spinner $2$ is spun twice. Find the probability of A twice.",
+   "answer": "1/4"
+  },
+  {
+   "id": "q11d",
+   "label": "11d",
+   "section": "Enrichment",
+   "stem": "Spinner $1$ has six equal sections labelled A, A, A, B, C, C. Spinner $2$ has unequal sections, but the same probabilities as Spinner $1$, so spinning it is like choosing a letter from AAABCC. Spinner $3$ has $\\Pr(\\text{A}) = \\frac{2}{5}$, $\\Pr(\\text{D}) = \\frac{2}{5}$ and $\\Pr(\\text{E}) = \\frac{1}{5}$.",
+   "type": "numeric",
+   "prompt": "Spinner $2$ is spun twice. Find the probability of C twice.",
+   "answer": "1/9"
+  },
+  {
+   "id": "q11e",
+   "label": "11e",
+   "section": "Enrichment",
+   "stem": "Spinner $1$ has six equal sections labelled A, A, A, B, C, C. Spinner $2$ has unequal sections, but the same probabilities as Spinner $1$, so spinning it is like choosing a letter from AAABCC. Spinner $3$ has $\\Pr(\\text{A}) = \\frac{2}{5}$, $\\Pr(\\text{D}) = \\frac{2}{5}$ and $\\Pr(\\text{E}) = \\frac{1}{5}$.",
+   "type": "numeric",
+   "prompt": "Spinner $2$ is spun twice. Find the probability of B, then C.",
+   "answer": "1/18"
+  },
+  {
+   "id": "q11f",
+   "label": "11f",
+   "section": "Enrichment",
+   "stem": "Spinner $1$ has six equal sections labelled A, A, A, B, C, C. Spinner $2$ has unequal sections, but the same probabilities as Spinner $1$, so spinning it is like choosing a letter from AAABCC. Spinner $3$ has $\\Pr(\\text{A}) = \\frac{2}{5}$, $\\Pr(\\text{D}) = \\frac{2}{5}$ and $\\Pr(\\text{E}) = \\frac{1}{5}$.",
+   "type": "numeric",
+   "prompt": "Spinner $2$ is spun twice. Find the probability of a B and a C (in either order).",
+   "answer": "1/9"
+  },
+  {
+   "id": "q11g",
+   "label": "11g",
+   "section": "Enrichment",
+   "stem": "Spinner $1$ has six equal sections labelled A, A, A, B, C, C. Spinner $2$ has unequal sections, but the same probabilities as Spinner $1$, so spinning it is like choosing a letter from AAABCC. Spinner $3$ has $\\Pr(\\text{A}) = \\frac{2}{5}$, $\\Pr(\\text{D}) = \\frac{2}{5}$ and $\\Pr(\\text{E}) = \\frac{1}{5}$.",
+   "type": "numeric",
+   "prompt": "Spinner $3$ is spun twice. Find the probability of D twice.",
+   "answer": "4/25"
+  },
+  {
+   "id": "q11h",
+   "label": "11h",
+   "section": "Enrichment",
+   "stem": "Spinner $1$ has six equal sections labelled A, A, A, B, C, C. Spinner $2$ has unequal sections, but the same probabilities as Spinner $1$, so spinning it is like choosing a letter from AAABCC. Spinner $3$ has $\\Pr(\\text{A}) = \\frac{2}{5}$, $\\Pr(\\text{D}) = \\frac{2}{5}$ and $\\Pr(\\text{E}) = \\frac{1}{5}$.",
+   "type": "numeric",
+   "prompt": "Spinner $3$ is spun twice. Find the probability of the same letter twice.",
+   "answer": "9/25"
+  },
+  {
+   "id": "q11i",
+   "label": "11i",
+   "section": "Enrichment",
+   "stem": "Spinner $1$ has six equal sections labelled A, A, A, B, C, C. Spinner $2$ has unequal sections, but the same probabilities as Spinner $1$, so spinning it is like choosing a letter from AAABCC. Spinner $3$ has $\\Pr(\\text{A}) = \\frac{2}{5}$, $\\Pr(\\text{D}) = \\frac{2}{5}$ and $\\Pr(\\text{E}) = \\frac{1}{5}$.",
+   "type": "numeric",
+   "prompt": "Spinner $3$ is spun twice. Find the probability of E, then A.",
+   "answer": "2/25"
+  },
+  {
+   "id": "q11j",
+   "label": "11j",
+   "section": "Enrichment",
+   "stem": "Spinner $1$ has six equal sections labelled A, A, A, B, C, C. Spinner $2$ has unequal sections, but the same probabilities as Spinner $1$, so spinning it is like choosing a letter from AAABCC. Spinner $3$ has $\\Pr(\\text{A}) = \\frac{2}{5}$, $\\Pr(\\text{D}) = \\frac{2}{5}$ and $\\Pr(\\text{E}) = \\frac{1}{5}$.",
+   "type": "numeric",
+   "prompt": "Spinner $3$ is spun twice. Find the probability of an E and an A (in either order).",
+   "answer": "4/25"
+  },
+  {
+   "id": "q11k",
+   "label": "11k",
+   "section": "Enrichment",
+   "stem": "Spinner $1$ has six equal sections labelled A, A, A, B, C, C. Spinner $2$ has unequal sections, but the same probabilities as Spinner $1$, so spinning it is like choosing a letter from AAABCC. Spinner $3$ has $\\Pr(\\text{A}) = \\frac{2}{5}$, $\\Pr(\\text{D}) = \\frac{2}{5}$ and $\\Pr(\\text{E}) = \\frac{1}{5}$.",
+   "type": "numeric",
+   "prompt": "Spinner $3$ is spun twice. Find the probability of at least one E.",
+   "answer": "9/25"
+  },
+  {
+   "id": "q11l",
+   "label": "11l",
+   "section": "Enrichment",
+   "stem": "Spinner $1$ has six equal sections labelled A, A, A, B, C, C. Spinner $2$ has unequal sections, but the same probabilities as Spinner $1$, so spinning it is like choosing a letter from AAABCC. Spinner $3$ has $\\Pr(\\text{A}) = \\frac{2}{5}$, $\\Pr(\\text{D}) = \\frac{2}{5}$ and $\\Pr(\\text{E}) = \\frac{1}{5}$.",
+   "type": "numeric",
+   "prompt": "Spinner $3$ is spun twice. Find the probability of at least one A.",
+   "answer": "16/25"
+  },
+  {
+   "id": "q11m",
+   "label": "11m",
+   "section": "Enrichment",
+   "stem": "Spinner $1$ has six equal sections labelled A, A, A, B, C, C. Spinner $2$ has unequal sections, but the same probabilities as Spinner $1$, so spinning it is like choosing a letter from AAABCC. Spinner $3$ has $\\Pr(\\text{A}) = \\frac{2}{5}$, $\\Pr(\\text{D}) = \\frac{2}{5}$ and $\\Pr(\\text{E}) = \\frac{1}{5}$.",
+   "type": "numeric",
+   "prompt": "Spinners $2$ and $3$ are both spun. Find the probability of A on Spinner $2$ and E on Spinner $3$.",
+   "answer": "1/10"
+  },
+  {
+   "id": "q11n",
+   "label": "11n",
+   "section": "Enrichment",
+   "stem": "Spinner $1$ has six equal sections labelled A, A, A, B, C, C. Spinner $2$ has unequal sections, but the same probabilities as Spinner $1$, so spinning it is like choosing a letter from AAABCC. Spinner $3$ has $\\Pr(\\text{A}) = \\frac{2}{5}$, $\\Pr(\\text{D}) = \\frac{2}{5}$ and $\\Pr(\\text{E}) = \\frac{1}{5}$.",
+   "type": "numeric",
+   "prompt": "Spinners $2$ and $3$ are both spun. Find the probability of C on Spinner $2$ and D on Spinner $3$.",
+   "answer": "2/15"
+  },
+  {
+   "id": "q11o",
+   "label": "11o",
+   "section": "Enrichment",
+   "stem": "Spinner $1$ has six equal sections labelled A, A, A, B, C, C. Spinner $2$ has unequal sections, but the same probabilities as Spinner $1$, so spinning it is like choosing a letter from AAABCC. Spinner $3$ has $\\Pr(\\text{A}) = \\frac{2}{5}$, $\\Pr(\\text{D}) = \\frac{2}{5}$ and $\\Pr(\\text{E}) = \\frac{1}{5}$.",
+   "type": "numeric",
+   "prompt": "Spinners $2$ and $3$ are both spun. Find the probability of B on Spinner $2$ and not D on Spinner $3$.",
+   "answer": "1/10"
+  },
+  {
+   "id": "q11p",
+   "label": "11p",
+   "section": "Enrichment",
+   "stem": "Spinner $1$ has six equal sections labelled A, A, A, B, C, C. Spinner $2$ has unequal sections, but the same probabilities as Spinner $1$, so spinning it is like choosing a letter from AAABCC. Spinner $3$ has $\\Pr(\\text{A}) = \\frac{2}{5}$, $\\Pr(\\text{D}) = \\frac{2}{5}$ and $\\Pr(\\text{E}) = \\frac{1}{5}$.",
+   "type": "numeric",
+   "prompt": "Spinners $2$ and $3$ are both spun. Find the probability that both show A.",
+   "answer": "1/5"
+  },
+  {
+   "id": "q11q",
+   "label": "11q",
+   "section": "Enrichment",
+   "stem": "Spinner $1$ has six equal sections labelled A, A, A, B, C, C. Spinner $2$ has unequal sections, but the same probabilities as Spinner $1$, so spinning it is like choosing a letter from AAABCC. Spinner $3$ has $\\Pr(\\text{A}) = \\frac{2}{5}$, $\\Pr(\\text{D}) = \\frac{2}{5}$ and $\\Pr(\\text{E}) = \\frac{1}{5}$.",
+   "type": "numeric",
+   "prompt": "Spinners $2$ and $3$ are both spun. Find the probability that neither shows A.",
+   "answer": "3/10"
+  },
+  {
+   "id": "q11r",
+   "label": "11r",
+   "section": "Enrichment",
+   "stem": "Spinner $1$ has six equal sections labelled A, A, A, B, C, C. Spinner $2$ has unequal sections, but the same probabilities as Spinner $1$, so spinning it is like choosing a letter from AAABCC. Spinner $3$ has $\\Pr(\\text{A}) = \\frac{2}{5}$, $\\Pr(\\text{D}) = \\frac{2}{5}$ and $\\Pr(\\text{E}) = \\frac{1}{5}$.",
+   "type": "numeric",
+   "prompt": "Spinners $2$ and $3$ are both spun. Find the probability that neither shows C.",
+   "answer": "2/3"
+  }
+ ]
+},
+{
+ "id": "y8-8i",
+ "year": 8,
+ "chapter": "Chapter 8: Probability and statistics",
+ "title": "8I Tree diagrams",
+ "description": "Use tree diagrams to list the outcomes of experiments with two or more steps and find probabilities.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "A letter is chosen at random from the word SALT, and then a letter is chosen at random from the word ON. The tree diagram shows the sample space.",
+   "type": "text",
+   "prompt": "One outcome in the tree diagram is shown as ?. Which outcome is it?",
+   "answer": "LN",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 34,
+    "items": [
+     {
+      "seg": [
+       0.15,
+       3.5,
+       2.58,
+       6.5
+      ]
+     },
+     {
+      "label": "S",
+      "at": [
+       3,
+       6.5
+      ]
+     },
+     {
+      "seg": [
+       3.42,
+       6.5,
+       5.58,
+       7
+      ]
+     },
+     {
+      "label": "O",
+      "at": [
+       6,
+       7
+      ]
+     },
+     {
+      "seg": [
+       3.42,
+       6.5,
+       5.58,
+       6
+      ]
+     },
+     {
+      "label": "N",
+      "at": [
+       6,
+       6
+      ]
+     },
+     {
+      "seg": [
+       0.15,
+       3.5,
+       2.58,
+       4.5
+      ]
+     },
+     {
+      "label": "A",
+      "at": [
+       3,
+       4.5
+      ]
+     },
+     {
+      "seg": [
+       3.42,
+       4.5,
+       5.58,
+       5
+      ]
+     },
+     {
+      "label": "O",
+      "at": [
+       6,
+       5
+      ]
+     },
+     {
+      "seg": [
+       3.42,
+       4.5,
+       5.58,
+       4
+      ]
+     },
+     {
+      "label": "N",
+      "at": [
+       6,
+       4
+      ]
+     },
+     {
+      "seg": [
+       0.15,
+       3.5,
+       2.58,
+       2.5
+      ]
+     },
+     {
+      "label": "L",
+      "at": [
+       3,
+       2.5
+      ]
+     },
+     {
+      "seg": [
+       3.42,
+       2.5,
+       5.58,
+       3
+      ]
+     },
+     {
+      "label": "O",
+      "at": [
+       6,
+       3
+      ]
+     },
+     {
+      "seg": [
+       3.42,
+       2.5,
+       5.58,
+       2
+      ]
+     },
+     {
+      "label": "N",
+      "at": [
+       6,
+       2
+      ]
+     },
+     {
+      "seg": [
+       0.15,
+       3.5,
+       2.58,
+       0.5
+      ]
+     },
+     {
+      "label": "T",
+      "at": [
+       3,
+       0.5
+      ]
+     },
+     {
+      "seg": [
+       3.42,
+       0.5,
+       5.58,
+       1
+      ]
+     },
+     {
+      "label": "O",
+      "at": [
+       6,
+       1
+      ]
+     },
+     {
+      "seg": [
+       3.42,
+       0.5,
+       5.58,
+       0
+      ]
+     },
+     {
+      "label": "N",
+      "at": [
+       6,
+       0
+      ]
+     },
+     {
+      "label": "SO",
+      "at": [
+       8.1,
+       7
+      ]
+     },
+     {
+      "label": "SN",
+      "at": [
+       8.1,
+       6
+      ]
+     },
+     {
+      "label": "AO",
+      "at": [
+       8.1,
+       5
+      ]
+     },
+     {
+      "label": "AN",
+      "at": [
+       8.1,
+       4
+      ]
+     },
+     {
+      "label": "LO",
+      "at": [
+       8.1,
+       3
+      ]
+     },
+     {
+      "label": "?",
+      "at": [
+       8.1,
+       2
+      ]
+     },
+     {
+      "label": "TO",
+      "at": [
+       8.1,
+       1
+      ]
+     },
+     {
+      "label": "TN",
+      "at": [
+       8.1,
+       0
+      ]
+     },
+     {
+      "label": "SALT",
+      "at": [
+       3,
+       8
+      ]
+     },
+     {
+      "label": "ON",
+      "at": [
+       6,
+       8
+      ]
+     },
+     {
+      "label": "Outcome",
+      "at": [
+       8.1,
+       8
+      ]
+     }
+    ]
+   },
+   "hint": "Type the two letters, for example SO"
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "A letter is chosen at random from the word SALT, and then a letter is chosen at random from the word ON. The tree diagram shows the sample space.",
+   "type": "numeric",
+   "prompt": "How many outcomes are possible?",
+   "answer": "8"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "A letter is chosen at random from the word SALT, and then a letter is chosen at random from the word ON. The tree diagram shows the sample space.",
+   "type": "numeric",
+   "prompt": "Find Pr(S then O).",
+   "answer": "1/8",
+   "hint": "Type a fraction, for example 2/9"
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "A letter is chosen at random from the word SALT, and then a letter is chosen at random from the word ON. The tree diagram shows the sample space.",
+   "type": "numeric",
+   "prompt": "Find Pr(T then N).",
+   "answer": "1/8"
+  },
+  {
+   "id": "q1e",
+   "label": "1e",
+   "section": "Fluency",
+   "stem": "A letter is chosen at random from the word SALT, and then a letter is chosen at random from the word ON. The tree diagram shows the sample space.",
+   "type": "numeric",
+   "prompt": "Find Pr(2 consonants).",
+   "answer": "3/8"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "A spinner with three equal sectors numbered $2$, $3$ and $5$ is spun twice. The tree diagram shows the two spins.",
+   "type": "numeric",
+   "prompt": "How many outcomes are in the sample space?",
+   "answer": "9",
+   "stemFigure": [
+    {
+     "kind": "diagram",
+     "unit": 40,
+     "items": [
+      {
+       "circle": [
+        0,
+        0,
+        2
+       ]
+      },
+      {
+       "seg": [
+        0,
+        0,
+        0,
+        2
+       ]
+      },
+      {
+       "label": "2",
+       "at": [
+        1.074,
+        0.57
+       ]
+      },
+      {
+       "seg": [
+        0,
+        0,
+        1.732,
+        -1
+       ]
+      },
+      {
+       "label": "3",
+       "at": [
+        0,
+        -1.29
+       ]
+      },
+      {
+       "seg": [
+        0,
+        0,
+        -1.732,
+        -1
+       ]
+      },
+      {
+       "label": "5",
+       "at": [
+        -1.074,
+        0.57
+       ]
+      },
+      {
+       "seg": [
+        0,
+        0,
+        0.488,
+        1.096
+       ],
+       "arrow": "end"
+      },
+      {
+       "point": [
+        0,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "diagram",
+     "unit": 34,
+     "items": [
+      {
+       "seg": [
+        0.15,
+        4,
+        2.58,
+        7
+       ]
+      },
+      {
+       "label": "2",
+       "at": [
+        3,
+        7
+       ]
+      },
+      {
+       "seg": [
+        3.42,
+        7,
+        5.58,
+        8
+       ]
+      },
+      {
+       "label": "2",
+       "at": [
+        6,
+        8
+       ]
+      },
+      {
+       "seg": [
+        3.42,
+        7,
+        5.58,
+        7
+       ]
+      },
+      {
+       "label": "3",
+       "at": [
+        6,
+        7
+       ]
+      },
+      {
+       "seg": [
+        3.42,
+        7,
+        5.58,
+        6
+       ]
+      },
+      {
+       "label": "5",
+       "at": [
+        6,
+        6
+       ]
+      },
+      {
+       "seg": [
+        0.15,
+        4,
+        2.58,
+        4
+       ]
+      },
+      {
+       "label": "3",
+       "at": [
+        3,
+        4
+       ]
+      },
+      {
+       "seg": [
+        3.42,
+        4,
+        5.58,
+        5
+       ]
+      },
+      {
+       "label": "2",
+       "at": [
+        6,
+        5
+       ]
+      },
+      {
+       "seg": [
+        3.42,
+        4,
+        5.58,
+        4
+       ]
+      },
+      {
+       "label": "3",
+       "at": [
+        6,
+        4
+       ]
+      },
+      {
+       "seg": [
+        3.42,
+        4,
+        5.58,
+        3
+       ]
+      },
+      {
+       "label": "5",
+       "at": [
+        6,
+        3
+       ]
+      },
+      {
+       "seg": [
+        0.15,
+        4,
+        2.58,
+        1
+       ]
+      },
+      {
+       "label": "5",
+       "at": [
+        3,
+        1
+       ]
+      },
+      {
+       "seg": [
+        3.42,
+        1,
+        5.58,
+        2
+       ]
+      },
+      {
+       "label": "2",
+       "at": [
+        6,
+        2
+       ]
+      },
+      {
+       "seg": [
+        3.42,
+        1,
+        5.58,
+        1
+       ]
+      },
+      {
+       "label": "3",
+       "at": [
+        6,
+        1
+       ]
+      },
+      {
+       "seg": [
+        3.42,
+        1,
+        5.58,
+        0
+       ]
+      },
+      {
+       "label": "5",
+       "at": [
+        6,
+        0
+       ]
+      },
+      {
+       "label": "1st spin",
+       "at": [
+        3,
+        9
+       ]
+      },
+      {
+       "label": "2nd spin",
+       "at": [
+        6,
+        9
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "A spinner with three equal sectors numbered $2$, $3$ and $5$ is spun twice. The tree diagram shows the two spins.",
+   "type": "numeric",
+   "prompt": "Find Pr($2$ then $2$).",
+   "answer": "1/9"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "A spinner with three equal sectors numbered $2$, $3$ and $5$ is spun twice. The tree diagram shows the two spins.",
+   "type": "numeric",
+   "prompt": "Find Pr($2$ then $5$).",
+   "answer": "1/9"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "A spinner with three equal sectors numbered $2$, $3$ and $5$ is spun twice. The tree diagram shows the two spins.",
+   "type": "numeric",
+   "prompt": "Find Pr($2$ and $5$ spun in either order).",
+   "answer": "2/9"
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "A spinner with three equal sectors numbered $2$, $3$ and $5$ is spun twice. The tree diagram shows the two spins.",
+   "type": "numeric",
+   "prompt": "Find Pr(both spins show the same number).",
+   "answer": "1/3"
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "A spinner with three equal sectors numbered $2$, $3$ and $5$ is spun twice. The tree diagram shows the two spins.",
+   "type": "numeric",
+   "prompt": "Find Pr(the two numbers add to $8$).",
+   "answer": "2/9"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Ruby guesses the answers to a quiz with three true or false questions, so each answer is equally likely to be correct (C) or wrong (W). The tree diagram shows the sample space.",
+   "type": "numeric",
+   "prompt": "How many outcomes are in the sample space?",
+   "answer": "8",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 34,
+    "items": [
+     {
+      "seg": [
+       0.15,
+       3.5,
+       2.58,
+       5.5
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       3,
+       5.5
+      ]
+     },
+     {
+      "label": "1/2",
+      "at": [
+       1.215,
+       4.82
+      ]
+     },
+     {
+      "seg": [
+       3.42,
+       5.5,
+       5.58,
+       6.5
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       6,
+       6.5
+      ]
+     },
+     {
+      "label": "1/2",
+      "at": [
+       4.35,
+       6.32
+      ]
+     },
+     {
+      "seg": [
+       6.42,
+       6.5,
+       8.58,
+       7
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       9,
+       7
+      ]
+     },
+     {
+      "label": "1/2",
+      "at": [
+       7.35,
+       7.07
+      ]
+     },
+     {
+      "seg": [
+       6.42,
+       6.5,
+       8.58,
+       6
+      ]
+     },
+     {
+      "label": "W",
+      "at": [
+       9,
+       6
+      ]
+     },
+     {
+      "label": "1/2",
+      "at": [
+       7.35,
+       5.93
+      ]
+     },
+     {
+      "seg": [
+       3.42,
+       5.5,
+       5.58,
+       4.5
+      ]
+     },
+     {
+      "label": "W",
+      "at": [
+       6,
+       4.5
+      ]
+     },
+     {
+      "label": "1/2",
+      "at": [
+       4.35,
+       4.68
+      ]
+     },
+     {
+      "seg": [
+       6.42,
+       4.5,
+       8.58,
+       5
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       9,
+       5
+      ]
+     },
+     {
+      "label": "1/2",
+      "at": [
+       7.35,
+       5.07
+      ]
+     },
+     {
+      "seg": [
+       6.42,
+       4.5,
+       8.58,
+       4
+      ]
+     },
+     {
+      "label": "W",
+      "at": [
+       9,
+       4
+      ]
+     },
+     {
+      "label": "1/2",
+      "at": [
+       7.35,
+       3.93
+      ]
+     },
+     {
+      "seg": [
+       0.15,
+       3.5,
+       2.58,
+       1.5
+      ]
+     },
+     {
+      "label": "W",
+      "at": [
+       3,
+       1.5
+      ]
+     },
+     {
+      "label": "1/2",
+      "at": [
+       1.215,
+       2.18
+      ]
+     },
+     {
+      "seg": [
+       3.42,
+       1.5,
+       5.58,
+       2.5
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       6,
+       2.5
+      ]
+     },
+     {
+      "label": "1/2",
+      "at": [
+       4.35,
+       2.32
+      ]
+     },
+     {
+      "seg": [
+       6.42,
+       2.5,
+       8.58,
+       3
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       9,
+       3
+      ]
+     },
+     {
+      "label": "1/2",
+      "at": [
+       7.35,
+       3.07
+      ]
+     },
+     {
+      "seg": [
+       6.42,
+       2.5,
+       8.58,
+       2
+      ]
+     },
+     {
+      "label": "W",
+      "at": [
+       9,
+       2
+      ]
+     },
+     {
+      "label": "1/2",
+      "at": [
+       7.35,
+       1.93
+      ]
+     },
+     {
+      "seg": [
+       3.42,
+       1.5,
+       5.58,
+       0.5
+      ]
+     },
+     {
+      "label": "W",
+      "at": [
+       6,
+       0.5
+      ]
+     },
+     {
+      "label": "1/2",
+      "at": [
+       4.35,
+       0.68
+      ]
+     },
+     {
+      "seg": [
+       6.42,
+       0.5,
+       8.58,
+       1
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       9,
+       1
+      ]
+     },
+     {
+      "label": "1/2",
+      "at": [
+       7.35,
+       1.07
+      ]
+     },
+     {
+      "seg": [
+       6.42,
+       0.5,
+       8.58,
+       0
+      ]
+     },
+     {
+      "label": "W",
+      "at": [
+       9,
+       0
+      ]
+     },
+     {
+      "label": "1/2",
+      "at": [
+       7.35,
+       -0.07
+      ]
+     },
+     {
+      "label": "CCC",
+      "at": [
+       11.1,
+       7
+      ]
+     },
+     {
+      "label": "CCW",
+      "at": [
+       11.1,
+       6
+      ]
+     },
+     {
+      "label": "CWC",
+      "at": [
+       11.1,
+       5
+      ]
+     },
+     {
+      "label": "CWW",
+      "at": [
+       11.1,
+       4
+      ]
+     },
+     {
+      "label": "WCC",
+      "at": [
+       11.1,
+       3
+      ]
+     },
+     {
+      "label": "WCW",
+      "at": [
+       11.1,
+       2
+      ]
+     },
+     {
+      "label": "WWC",
+      "at": [
+       11.1,
+       1
+      ]
+     },
+     {
+      "label": "WWW",
+      "at": [
+       11.1,
+       0
+      ]
+     },
+     {
+      "label": "Q1",
+      "at": [
+       3,
+       8
+      ]
+     },
+     {
+      "label": "Q2",
+      "at": [
+       6,
+       8
+      ]
+     },
+     {
+      "label": "Q3",
+      "at": [
+       9,
+       8
+      ]
+     },
+     {
+      "label": "Outcome",
+      "at": [
+       11.1,
+       8
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Ruby guesses the answers to a quiz with three true or false questions, so each answer is equally likely to be correct (C) or wrong (W). The tree diagram shows the sample space.",
+   "type": "numeric",
+   "prompt": "Find Pr(all $3$ wrong).",
+   "answer": "1/8"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Ruby guesses the answers to a quiz with three true or false questions, so each answer is equally likely to be correct (C) or wrong (W). The tree diagram shows the sample space.",
+   "type": "numeric",
+   "prompt": "Find Pr(at least one correct). (Hint: this is the complement of all $3$ wrong.)",
+   "answer": "7/8"
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Ruby guesses the answers to a quiz with three true or false questions, so each answer is equally likely to be correct (C) or wrong (W). The tree diagram shows the sample space.",
+   "type": "numeric",
+   "prompt": "Find Pr($2$ wrong then $1$ correct), in that order.",
+   "answer": "1/8"
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "Ruby guesses the answers to a quiz with three true or false questions, so each answer is equally likely to be correct (C) or wrong (W). The tree diagram shows the sample space.",
+   "type": "numeric",
+   "prompt": "Find Pr($2$ wrong and $1$ correct, in any order).",
+   "answer": "3/8"
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "Ruby guesses the answers to a quiz with three true or false questions, so each answer is equally likely to be correct (C) or wrong (W). The tree diagram shows the sample space.",
+   "type": "choice",
+   "prompt": "Which is more likely: getting exactly $3$ wrong or getting exactly $2$ wrong?",
+   "answer": 1,
+   "options": [
+    "Exactly 3 wrong",
+    "Exactly 2 wrong",
+    "They are equally likely"
+   ]
+  },
+  {
+   "id": "q3g",
+   "label": "3g",
+   "section": "Fluency",
+   "stem": "Ruby guesses the answers to a quiz with three true or false questions, so each answer is equally likely to be correct (C) or wrong (W). The tree diagram shows the sample space.",
+   "type": "numeric",
+   "prompt": "Find the probability of getting at least $2$ wrong.",
+   "answer": "1/2"
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Problem-solving",
+   "stem": "Two letters are chosen from the word EMU. Once a letter is chosen it cannot be chosen again. The tree diagram is partly filled in.",
+   "type": "list",
+   "prompt": "Which two letters go on the branches marked ? (the second letter when E is chosen first)?",
+   "answer": [
+    "M",
+    "U"
+   ],
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 34,
+    "items": [
+     {
+      "seg": [
+       0.15,
+       2.5,
+       2.58,
+       4.5
+      ]
+     },
+     {
+      "label": "E",
+      "at": [
+       3,
+       4.5
+      ]
+     },
+     {
+      "seg": [
+       3.42,
+       4.5,
+       5.58,
+       5
+      ]
+     },
+     {
+      "label": "?",
+      "at": [
+       6,
+       5
+      ]
+     },
+     {
+      "seg": [
+       3.42,
+       4.5,
+       5.58,
+       4
+      ]
+     },
+     {
+      "label": "?",
+      "at": [
+       6,
+       4
+      ]
+     },
+     {
+      "seg": [
+       0.15,
+       2.5,
+       2.58,
+       2.5
+      ]
+     },
+     {
+      "label": "M",
+      "at": [
+       3,
+       2.5
+      ]
+     },
+     {
+      "seg": [
+       3.42,
+       2.5,
+       5.58,
+       3
+      ]
+     },
+     {
+      "label": "E",
+      "at": [
+       6,
+       3
+      ]
+     },
+     {
+      "seg": [
+       3.42,
+       2.5,
+       5.58,
+       2
+      ]
+     },
+     {
+      "label": "U",
+      "at": [
+       6,
+       2
+      ]
+     },
+     {
+      "seg": [
+       0.15,
+       2.5,
+       2.58,
+       0.5
+      ]
+     },
+     {
+      "label": "U",
+      "at": [
+       3,
+       0.5
+      ]
+     },
+     {
+      "seg": [
+       3.42,
+       0.5,
+       5.58,
+       1
+      ]
+     },
+     {
+      "label": "E",
+      "at": [
+       6,
+       1
+      ]
+     },
+     {
+      "seg": [
+       3.42,
+       0.5,
+       5.58,
+       0
+      ]
+     },
+     {
+      "label": "M",
+      "at": [
+       6,
+       0
+      ]
+     },
+     {
+      "label": "?",
+      "at": [
+       8.1,
+       5
+      ]
+     },
+     {
+      "label": "?",
+      "at": [
+       8.1,
+       4
+      ]
+     },
+     {
+      "label": "ME",
+      "at": [
+       8.1,
+       3
+      ]
+     },
+     {
+      "label": "MU",
+      "at": [
+       8.1,
+       2
+      ]
+     },
+     {
+      "label": "UE",
+      "at": [
+       8.1,
+       1
+      ]
+     },
+     {
+      "label": "UM",
+      "at": [
+       8.1,
+       0
+      ]
+     },
+     {
+      "label": "1st letter",
+      "at": [
+       3,
+       6
+      ]
+     },
+     {
+      "label": "2nd letter",
+      "at": [
+       6,
+       6
+      ]
+     },
+     {
+      "label": "Outcome",
+      "at": [
+       8.1,
+       6
+      ]
+     }
+    ]
+   },
+   "hint": "Separate the letters with a comma"
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Problem-solving",
+   "stem": "Two letters are chosen from the word EMU. Once a letter is chosen it cannot be chosen again. The tree diagram is partly filled in.",
+   "type": "numeric",
+   "prompt": "What is the probability that E and M will be chosen?",
+   "answer": "1/3"
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Problem-solving",
+   "stem": "Two letters are chosen from the word EMU. Once a letter is chosen it cannot be chosen again. The tree diagram is partly filled in.",
+   "type": "numeric",
+   "prompt": "Find Pr($2$ consonants).",
+   "answer": "0"
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Problem-solving",
+   "stem": "Two letters are chosen from the word EMU. Once a letter is chosen it cannot be chosen again. The tree diagram is partly filled in.",
+   "type": "numeric",
+   "prompt": "Find Pr($2$ vowels).",
+   "answer": "1/3"
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Problem-solving",
+   "stem": "Two letters are chosen from the word EMU. Once a letter is chosen it cannot be chosen again. The tree diagram is partly filled in.",
+   "type": "numeric",
+   "prompt": "What is the probability that the two letters chosen will be different?",
+   "answer": "1"
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Problem-solving",
+   "stem": "In a game, a prize wheel with three equal sections (\\$5, \\$10 and \\$30) is spun, then a die is rolled, and finally a coin is flipped. If the coin shows heads, you win the prize multiplied by the number on the die. If the coin shows tails, you get nothing.",
+   "type": "numeric",
+   "prompt": "How much do you win if you spin \\$10, roll a $4$ and then flip heads?",
+   "answer": "40",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 40,
+    "items": [
+     {
+      "circle": [
+       0,
+       0,
+       2
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       2
+      ]
+     },
+     {
+      "label": "$5",
+      "at": [
+       1.074,
+       0.57
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       1.732,
+       -1
+      ]
+     },
+     {
+      "label": "$10",
+      "at": [
+       0,
+       -1.29
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       -1.732,
+       -1
+      ]
+     },
+     {
+      "label": "$30",
+      "at": [
+       -1.074,
+       0.57
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0.488,
+       1.096
+      ],
+      "arrow": "end"
+     },
+     {
+      "point": [
+       0,
+       0
+      ]
+     }
+    ]
+   },
+   "units": "$"
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Problem-solving",
+   "stem": "In a game, a prize wheel with three equal sections (\\$5, \\$10 and \\$30) is spun, then a die is rolled, and finally a coin is flipped. If the coin shows heads, you win the prize multiplied by the number on the die. If the coin shows tails, you get nothing.",
+   "type": "numeric",
+   "prompt": "A tree diagram is drawn for this game. How many outcomes does it show?",
+   "answer": "36"
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Problem-solving",
+   "stem": "In a game, a prize wheel with three equal sections (\\$5, \\$10 and \\$30) is spun, then a die is rolled, and finally a coin is flipped. If the coin shows heads, you win the prize multiplied by the number on the die. If the coin shows tails, you get nothing.",
+   "type": "numeric",
+   "prompt": "What is the probability that you win \\$30?",
+   "answer": "1/12"
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Problem-solving",
+   "stem": "In a game, a prize wheel with three equal sections (\\$5, \\$10 and \\$30) is spun, then a die is rolled, and finally a coin is flipped. If the coin shows heads, you win the prize multiplied by the number on the die. If the coin shows tails, you get nothing.",
+   "type": "numeric",
+   "prompt": "Find Pr(win \\$60 or more).",
+   "answer": "1/6"
+  },
+  {
+   "id": "q5e",
+   "label": "5e",
+   "section": "Problem-solving",
+   "stem": "In a game, a prize wheel with three equal sections (\\$5, \\$10 and \\$30) is spun, then a die is rolled, and finally a coin is flipped. If the coin shows heads, you win the prize multiplied by the number on the die. If the coin shows tails, you get nothing.",
+   "type": "numeric",
+   "prompt": "Find Pr(receive less than \\$25). Include the chance that you get nothing.",
+   "answer": "2/3"
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Problem-solving",
+   "stem": "The letters of the word NOON are written on four cards. Two of the cards are chosen at random, one after the other, without putting the first one back. The tree diagram shows all $12$ outcomes.",
+   "type": "numeric",
+   "prompt": "How many of the $12$ outcomes have O on the first card?",
+   "answer": "6",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 34,
+    "items": [
+     {
+      "seg": [
+       0.15,
+       4.4,
+       2.58,
+       8
+      ]
+     },
+     {
+      "label": "N",
+      "at": [
+       3,
+       8
+      ]
+     },
+     {
+      "seg": [
+       3.42,
+       8,
+       5.58,
+       8.8
+      ]
+     },
+     {
+      "label": "O",
+      "at": [
+       6,
+       8.8
+      ]
+     },
+     {
+      "seg": [
+       3.42,
+       8,
+       5.58,
+       8
+      ]
+     },
+     {
+      "label": "O",
+      "at": [
+       6,
+       8
+      ]
+     },
+     {
+      "seg": [
+       3.42,
+       8,
+       5.58,
+       7.2
+      ]
+     },
+     {
+      "label": "N",
+      "at": [
+       6,
+       7.2
+      ]
+     },
+     {
+      "seg": [
+       0.15,
+       4.4,
+       2.58,
+       5.6
+      ]
+     },
+     {
+      "label": "O",
+      "at": [
+       3,
+       5.6
+      ]
+     },
+     {
+      "seg": [
+       3.42,
+       5.6,
+       5.58,
+       6.4
+      ]
+     },
+     {
+      "label": "N",
+      "at": [
+       6,
+       6.4
+      ]
+     },
+     {
+      "seg": [
+       3.42,
+       5.6,
+       5.58,
+       5.6
+      ]
+     },
+     {
+      "label": "O",
+      "at": [
+       6,
+       5.6
+      ]
+     },
+     {
+      "seg": [
+       3.42,
+       5.6,
+       5.58,
+       4.8
+      ]
+     },
+     {
+      "label": "N",
+      "at": [
+       6,
+       4.8
+      ]
+     },
+     {
+      "seg": [
+       0.15,
+       4.4,
+       2.58,
+       3.2
+      ]
+     },
+     {
+      "label": "O",
+      "at": [
+       3,
+       3.2
+      ]
+     },
+     {
+      "seg": [
+       3.42,
+       3.2,
+       5.58,
+       4
+      ]
+     },
+     {
+      "label": "N",
+      "at": [
+       6,
+       4
+      ]
+     },
+     {
+      "seg": [
+       3.42,
+       3.2,
+       5.58,
+       3.2
+      ]
+     },
+     {
+      "label": "O",
+      "at": [
+       6,
+       3.2
+      ]
+     },
+     {
+      "seg": [
+       3.42,
+       3.2,
+       5.58,
+       2.4
+      ]
+     },
+     {
+      "label": "N",
+      "at": [
+       6,
+       2.4
+      ]
+     },
+     {
+      "seg": [
+       0.15,
+       4.4,
+       2.58,
+       0.8
+      ]
+     },
+     {
+      "label": "N",
+      "at": [
+       3,
+       0.8
+      ]
+     },
+     {
+      "seg": [
+       3.42,
+       0.8,
+       5.58,
+       1.6
+      ]
+     },
+     {
+      "label": "N",
+      "at": [
+       6,
+       1.6
+      ]
+     },
+     {
+      "seg": [
+       3.42,
+       0.8,
+       5.58,
+       0.8
+      ]
+     },
+     {
+      "label": "O",
+      "at": [
+       6,
+       0.8
+      ]
+     },
+     {
+      "seg": [
+       3.42,
+       0.8,
+       5.58,
+       0
+      ]
+     },
+     {
+      "label": "O",
+      "at": [
+       6,
+       0
+      ]
+     },
+     {
+      "label": "1st card",
+      "at": [
+       3,
+       9.8
+      ]
+     },
+     {
+      "label": "2nd card",
+      "at": [
+       6,
+       9.8
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Problem-solving",
+   "stem": "The letters of the word NOON are written on four cards. Two of the cards are chosen at random, one after the other, without putting the first one back. The tree diagram shows all $12$ outcomes.",
+   "type": "numeric",
+   "prompt": "Find Pr($2$ vowels).",
+   "answer": "1/6"
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Problem-solving",
+   "stem": "The letters of the word NOON are written on four cards. Two of the cards are chosen at random, one after the other, without putting the first one back. The tree diagram shows all $12$ outcomes.",
+   "type": "numeric",
+   "prompt": "Find Pr(the same letter is on both cards).",
+   "answer": "1/3"
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Problem-solving",
+   "stem": "The letters of the word NOON are written on four cards. Two of the cards are chosen at random, one after the other, without putting the first one back. The tree diagram shows all $12$ outcomes.",
+   "type": "numeric",
+   "prompt": "What is Pr(at least one card shows N)?",
+   "answer": "5/6"
+  },
+  {
+   "id": "q7",
+   "label": "7",
+   "section": "Reasoning",
+   "type": "numeric",
+   "prompt": "When $2$ coins are tossed there are $4$ outcomes. When $3$ coins are tossed there are $8$ outcomes. How many outcomes are there when $6$ coins are tossed?",
+   "answer": "64"
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Reasoning",
+   "type": "numeric",
+   "prompt": "A coin is flipped $5$ times. What is the probability that it shows tails all five times?",
+   "answer": "1/32"
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Reasoning",
+   "type": "numeric",
+   "prompt": "A coin is flipped $5$ times. What is the probability that it shows T, H, H, T, H in that order?",
+   "answer": "1/32"
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Reasoning",
+   "type": "choice",
+   "prompt": "A coin is flipped $6$ times. Which is more likely: the result HHHHHH or the result HTTHTH?",
+   "answer": 2,
+   "options": [
+    "HHHHHH",
+    "HTTHTH",
+    "They are equally likely"
+   ]
+  },
+  {
+   "id": "q8d",
+   "label": "8d",
+   "section": "Reasoning",
+   "type": "choice",
+   "prompt": "A coin is flipped $6$ times. Which is more likely: exactly $6$ heads or exactly $4$ heads?",
+   "answer": 1,
+   "options": [
+    "Exactly 6 heads",
+    "Exactly 4 heads",
+    "They are equally likely"
+   ]
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Reasoning",
+   "stem": "Three coins are flipped. Which event has this probability?",
+   "type": "choice",
+   "prompt": "$\\frac{1}{4}$",
+   "answer": 1,
+   "options": [
+    "Exactly 3 heads",
+    "The first two coins are both tails",
+    "At least 2 heads",
+    "At least one tail"
+   ]
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Reasoning",
+   "stem": "Three coins are flipped. Which event has this probability?",
+   "type": "choice",
+   "prompt": "$\\frac{5}{8}$",
+   "answer": 2,
+   "options": [
+    "Exactly 2 heads",
+    "The last coin is heads",
+    "Not exactly 1 head",
+    "Exactly 3 heads"
+   ]
+  },
+  {
+   "id": "q10c",
+   "label": "10c",
+   "section": "Reasoning",
+   "stem": "Three coins are flipped. Which event has this probability?",
+   "type": "choice",
+   "prompt": "$\\frac{3}{4}$",
+   "answer": 0,
+   "options": [
+    "At least one head and at least one tail",
+    "At least 2 heads",
+    "At least one tail",
+    "Exactly 2 heads"
+   ]
+  },
+  {
+   "id": "q10d",
+   "label": "10d",
+   "section": "Reasoning",
+   "stem": "Three coins are flipped. Which event has this probability?",
+   "type": "choice",
+   "prompt": "$\\frac{7}{8}$",
+   "answer": 2,
+   "options": [
+    "The last coin is heads",
+    "Exactly 2 heads",
+    "At least one tail",
+    "At most 3 heads"
+   ]
+  },
+  {
+   "id": "q10e",
+   "label": "10e",
+   "section": "Reasoning",
+   "stem": "Three coins are flipped. Which event has this probability?",
+   "type": "choice",
+   "prompt": "$0$",
+   "answer": 1,
+   "options": [
+    "Exactly 3 heads",
+    "Exactly 4 heads",
+    "The first two coins are both tails",
+    "At least 2 heads"
+   ]
+  },
+  {
+   "id": "q10f",
+   "label": "10f",
+   "section": "Reasoning",
+   "stem": "Three coins are flipped. Which event has this probability?",
+   "type": "choice",
+   "prompt": "$1$",
+   "answer": 2,
+   "options": [
+    "At least one tail",
+    "Exactly 2 heads",
+    "At most 3 heads",
+    "Not exactly 1 head"
+   ]
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Reasoning",
+   "type": "numeric",
+   "prompt": "A word has $6$ different letters, each written on a card. How many different outcomes are there if $2$ cards are chosen one after the other? The order matters, so ST and TS are different outcomes.",
+   "answer": "30"
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Reasoning",
+   "type": "numeric",
+   "prompt": "How many different outcomes are there if all $6$ cards are chosen one after the other? Again, the order matters.",
+   "answer": "720"
+  },
+  {
+   "id": "q11c",
+   "label": "11c",
+   "section": "Reasoning",
+   "type": "numeric",
+   "prompt": "Five letters are chosen from the word STRAND. What is the probability that they are all consonants? (Hint: choosing $5$ letters to keep is the same as choosing $1$ letter to leave out.)",
+   "answer": "1/6"
+  },
+  {
+   "id": "q11d",
+   "label": "11d",
+   "section": "Reasoning",
+   "type": "numeric",
+   "prompt": "Five letters are chosen from the word STRAND. What is the probability that at least one is a vowel?",
+   "answer": "5/6"
+  },
+  {
+   "id": "q12a",
+   "label": "12a",
+   "section": "Enrichment",
+   "stem": "In a test a student flips a coin $6$ times. They score $1$ point for each head and $0$ for each tail, so their final score is out of $6$.",
+   "type": "numeric",
+   "prompt": "A tree diagram is drawn for this test. How many outcomes does it show?",
+   "answer": "64"
+  },
+  {
+   "id": "q12b",
+   "label": "12b",
+   "section": "Enrichment",
+   "stem": "In a test a student flips a coin $6$ times. They score $1$ point for each head and $0$ for each tail, so their final score is out of $6$.",
+   "type": "numeric",
+   "prompt": "What is Pr($6$ out of $6$)?",
+   "answer": "1/64"
+  },
+  {
+   "id": "q12c",
+   "label": "12c",
+   "section": "Enrichment",
+   "stem": "In a test a student flips a coin $6$ times. They score $1$ point for each head and $0$ for each tail, so their final score is out of $6$.",
+   "type": "numeric",
+   "prompt": "What is Pr($0$ out of $6$)?",
+   "answer": "1/64"
+  },
+  {
+   "id": "q12d",
+   "label": "12d",
+   "section": "Enrichment",
+   "stem": "In a test a student flips a coin $6$ times. They score $1$ point for each head and $0$ for each tail, so their final score is out of $6$.",
+   "type": "numeric",
+   "prompt": "To pass, a student needs at least $50\\%$. What is Pr(pass the test)?",
+   "answer": "21/32"
+  },
+  {
+   "id": "q12e",
+   "label": "12e",
+   "section": "Enrichment",
+   "stem": "In a test a student flips a coin $6$ times. They score $1$ point for each head and $0$ for each tail, so their final score is out of $6$.",
+   "type": "numeric",
+   "prompt": "What is Pr($2$ out of $6$)?",
+   "answer": "15/64"
+  },
+  {
+   "id": "q12f",
+   "label": "12f",
+   "section": "Enrichment",
+   "stem": "In a test a student flips a coin $6$ times. They score $1$ point for each head and $0$ for each tail, so their final score is out of $6$.",
+   "type": "numeric",
+   "prompt": "A student who scores $2$ out of $6$ can sit a re-test in which they flip $8$ coins and again need at least $50\\%$. What is the probability that a student sitting the re-test passes?",
+   "answer": "163/256"
+  }
+ ]
+},
+{
+ "id": "y8-8j",
+ "year": 8,
+ "chapter": "Chapter 8: Probability and statistics",
+ "title": "8J Venn diagrams and two-way tables",
+ "description": "Show survey results in Venn diagrams and two-way tables, and use them to find probabilities.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "In a group of $36$ students, $9$ learn both piano and guitar, $8$ learn only piano and $12$ learn only guitar.",
+   "type": "numeric",
+   "prompt": "How many students learn neither piano nor guitar?",
+   "answer": "7"
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "In a group of $36$ students, $9$ learn both piano and guitar, $8$ learn only piano and $12$ learn only guitar.",
+   "type": "ordered",
+   "prompt": "The Venn diagram has a circle for Piano and a circle for Guitar. Type the numbers that go in regions P, Q, R and S, in that order.",
+   "answer": [
+    "8",
+    "9",
+    "12",
+    "7"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 32,
+    "items": [
+     {
+      "poly": [
+       [
+        -5,
+        -3
+       ],
+       [
+        5,
+        -3
+       ],
+       [
+        5,
+        3.2
+       ],
+       [
+        -5,
+        3.2
+       ]
+      ]
+     },
+     {
+      "circle": [
+       -1.2,
+       -0.2,
+       2.2
+      ]
+     },
+     {
+      "circle": [
+       1.2,
+       -0.2,
+       2.2
+      ]
+     },
+     {
+      "label": "Piano",
+      "at": [
+       -1.9,
+       2.55
+      ]
+     },
+     {
+      "label": "Guitar",
+      "at": [
+       1.9,
+       2.55
+      ]
+     },
+     {
+      "label": "P",
+      "at": [
+       -2.2,
+       -0.2
+      ]
+     },
+     {
+      "label": "Q",
+      "at": [
+       0,
+       -0.2
+      ]
+     },
+     {
+      "label": "R",
+      "at": [
+       2.2,
+       -0.2
+      ]
+     },
+     {
+      "label": "S",
+      "at": [
+       4.2,
+       -2.5
+      ]
+     }
+    ]
+   },
+   "hint": "Type four numbers separated by commas"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "In a group of $36$ students, $9$ learn both piano and guitar, $8$ learn only piano and $12$ learn only guitar.",
+   "type": "numeric",
+   "prompt": "How many of the students learn piano?",
+   "answer": "17"
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "In a group of $36$ students, $9$ learn both piano and guitar, $8$ learn only piano and $12$ learn only guitar.",
+   "type": "numeric",
+   "prompt": "How many of the students learn either piano or guitar or both? (This is inclusive 'or'.)",
+   "answer": "29"
+  },
+  {
+   "id": "q1e",
+   "label": "1e",
+   "section": "Fluency",
+   "stem": "In a group of $36$ students, $9$ learn both piano and guitar, $8$ learn only piano and $12$ learn only guitar.",
+   "type": "numeric",
+   "prompt": "How many of the students learn either piano or guitar but not both? (This is exclusive 'or'.)",
+   "answer": "20"
+  },
+  {
+   "id": "q1f",
+   "label": "1f",
+   "section": "Fluency",
+   "stem": "In a group of $36$ students, $9$ learn both piano and guitar, $8$ learn only piano and $12$ learn only guitar.",
+   "type": "ordered",
+   "prompt": "Copy and complete the two-way table. Type the three numbers in the 'Total' row, left to right.",
+   "answer": [
+    "21",
+    "15",
+    "36"
+   ],
+   "figure": {
+    "kind": "table",
+    "rows": [
+     [
+      "",
+      "Guitar",
+      "No guitar",
+      "Total"
+     ],
+     [
+      "Piano",
+      "?",
+      "?",
+      "?"
+     ],
+     [
+      "No piano",
+      "?",
+      "?",
+      "?"
+     ],
+     [
+      "Total",
+      "?",
+      "?",
+      "?"
+     ]
+    ]
+   },
+   "hint": "Type three numbers separated by commas"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Of the $50$ bikes in a school bike rack, $22$ had a bell and a light, $9$ had only a bell and $13$ had only a light.",
+   "type": "numeric",
+   "prompt": "How many bikes had neither a bell nor a light?",
+   "answer": "6"
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Of the $50$ bikes in a school bike rack, $22$ had a bell and a light, $9$ had only a bell and $13$ had only a light.",
+   "type": "ordered",
+   "prompt": "The Venn diagram has a circle for Bell and a circle for Light. Type the numbers that go in regions P, Q, R and S, in that order.",
+   "answer": [
+    "9",
+    "22",
+    "13",
+    "6"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 32,
+    "items": [
+     {
+      "poly": [
+       [
+        -5,
+        -3
+       ],
+       [
+        5,
+        -3
+       ],
+       [
+        5,
+        3.2
+       ],
+       [
+        -5,
+        3.2
+       ]
+      ]
+     },
+     {
+      "circle": [
+       -1.2,
+       -0.2,
+       2.2
+      ]
+     },
+     {
+      "circle": [
+       1.2,
+       -0.2,
+       2.2
+      ]
+     },
+     {
+      "label": "Bell",
+      "at": [
+       -1.9,
+       2.55
+      ]
+     },
+     {
+      "label": "Light",
+      "at": [
+       1.9,
+       2.55
+      ]
+     },
+     {
+      "label": "P",
+      "at": [
+       -2.2,
+       -0.2
+      ]
+     },
+     {
+      "label": "Q",
+      "at": [
+       0,
+       -0.2
+      ]
+     },
+     {
+      "label": "R",
+      "at": [
+       2.2,
+       -0.2
+      ]
+     },
+     {
+      "label": "S",
+      "at": [
+       4.2,
+       -2.5
+      ]
+     }
+    ]
+   },
+   "hint": "Type four numbers separated by commas"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Of the $50$ bikes in a school bike rack, $22$ had a bell and a light, $9$ had only a bell and $13$ had only a light.",
+   "type": "numeric",
+   "prompt": "How many bikes had a bell?",
+   "answer": "31"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Of the $50$ bikes in a school bike rack, $22$ had a bell and a light, $9$ had only a bell and $13$ had only a light.",
+   "type": "numeric",
+   "prompt": "How many bikes had either a bell or a light or both? (This is inclusive 'or'.)",
+   "answer": "44"
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Of the $50$ bikes in a school bike rack, $22$ had a bell and a light, $9$ had only a bell and $13$ had only a light.",
+   "type": "numeric",
+   "prompt": "How many bikes had either a bell or a light but not both? (This is exclusive 'or'.)",
+   "answer": "22"
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "Of the $50$ bikes in a school bike rack, $22$ had a bell and a light, $9$ had only a bell and $13$ had only a light.",
+   "type": "ordered",
+   "prompt": "Copy and complete the two-way table. Type the three numbers in the 'No bell' row, left to right.",
+   "answer": [
+    "13",
+    "6",
+    "19"
+   ],
+   "figure": {
+    "kind": "table",
+    "rows": [
+     [
+      "",
+      "Light",
+      "No light",
+      "Total"
+     ],
+     [
+      "Bell",
+      "?",
+      "?",
+      "?"
+     ],
+     [
+      "No bell",
+      "?",
+      "?",
+      "?"
+     ],
+     [
+      "Total",
+      "?",
+      "?",
+      "?"
+     ]
+    ]
+   },
+   "hint": "Type three numbers separated by commas"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "This Venn diagram shows how many people in a survey have a pet and how many play a sport.",
+   "type": "numeric",
+   "prompt": "What is the total number of people in the survey who play a sport?",
+   "answer": "20",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 32,
+    "items": [
+     {
+      "poly": [
+       [
+        -5,
+        -3
+       ],
+       [
+        5,
+        -3
+       ],
+       [
+        5,
+        3.2
+       ],
+       [
+        -5,
+        3.2
+       ]
+      ]
+     },
+     {
+      "circle": [
+       -1.2,
+       -0.2,
+       2.2
+      ]
+     },
+     {
+      "circle": [
+       1.2,
+       -0.2,
+       2.2
+      ]
+     },
+     {
+      "label": "Pet",
+      "at": [
+       -1.9,
+       2.55
+      ]
+     },
+     {
+      "label": "Sport",
+      "at": [
+       1.9,
+       2.55
+      ]
+     },
+     {
+      "label": "6",
+      "at": [
+       -2.2,
+       -0.2
+      ]
+     },
+     {
+      "label": "11",
+      "at": [
+       0,
+       -0.2
+      ]
+     },
+     {
+      "label": "9",
+      "at": [
+       2.2,
+       -0.2
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       4.2,
+       -2.5
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "This Venn diagram shows how many people in a survey have a pet and how many play a sport.",
+   "type": "ordered",
+   "prompt": "Copy and complete the two-way table. Type the three numbers in the 'Total' row, left to right.",
+   "answer": [
+    "20",
+    "10",
+    "30"
+   ],
+   "figure": {
+    "kind": "table",
+    "rows": [
+     [
+      "",
+      "Sport",
+      "No sport",
+      "Total"
+     ],
+     [
+      "Pet",
+      "?",
+      "?",
+      "?"
+     ],
+     [
+      "No pet",
+      "?",
+      "?",
+      "?"
+     ],
+     [
+      "Total",
+      "?",
+      "?",
+      "?"
+     ]
+    ]
+   },
+   "hint": "Type three numbers separated by commas"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "This Venn diagram shows how many people in a survey have a pet and how many play a sport.",
+   "type": "numeric",
+   "prompt": "If the $11$ in the centre of the Venn diagram changed to $12$, how many of the nine cells in the two-way table would change?",
+   "answer": "4"
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "The two-way table shows the results of a survey of Year 7 and Year 8 students about whether they have a library card.",
+   "type": "numeric",
+   "prompt": "How many students took part in the survey?",
+   "answer": "30",
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "",
+      "Year 7",
+      "Year 8",
+      "Total"
+     ],
+     [
+      "Has a library card",
+      "9",
+      "6",
+      "15"
+     ],
+     [
+      "No library card",
+      "5",
+      "10",
+      "15"
+     ],
+     [
+      "Total",
+      "14",
+      "16",
+      "30"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "The two-way table shows the results of a survey of Year 7 and Year 8 students about whether they have a library card.",
+   "type": "numeric",
+   "prompt": "How many Year 7 students were surveyed?",
+   "answer": "14"
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "The two-way table shows the results of a survey of Year 7 and Year 8 students about whether they have a library card.",
+   "type": "numeric",
+   "prompt": "How many of the students surveyed have a library card?",
+   "answer": "15"
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "The two-way table shows the results of a survey of Year 7 and Year 8 students about whether they have a library card.",
+   "type": "numeric",
+   "prompt": "Find the probability that a randomly selected student is in Year 7 and has a library card.",
+   "answer": "3/10",
+   "hint": "Type a fraction, for example 3/10"
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Fluency",
+   "stem": "The two-way table shows the results of a survey of Year 7 and Year 8 students about whether they have a library card.",
+   "type": "numeric",
+   "prompt": "Find the probability that a randomly selected student is in Year 8 and has a library card.",
+   "answer": "1/5"
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Fluency",
+   "stem": "The two-way table shows the results of a survey of Year 7 and Year 8 students about whether they have a library card.",
+   "type": "numeric",
+   "prompt": "Find the probability that a randomly selected student is in Year 8.",
+   "answer": "8/15"
+  },
+  {
+   "id": "q4g",
+   "label": "4g",
+   "section": "Fluency",
+   "stem": "The two-way table shows the results of a survey of Year 7 and Year 8 students about whether they have a library card.",
+   "type": "numeric",
+   "prompt": "Find the probability that a randomly selected student does not have a library card.",
+   "answer": "1/2"
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Fluency",
+   "stem": "The two-way table shows the results of a survey about bike and scooter ownership at a skate park.",
+   "type": "ordered",
+   "prompt": "Show the table as a Venn diagram with a circle for Bike and a circle for Scooter. Type the numbers that go in regions P, Q, R and S, in that order.",
+   "answer": [
+    "14",
+    "12",
+    "5",
+    "9"
+   ],
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "",
+      "Own a bike",
+      "No bike",
+      "Total"
+     ],
+     [
+      "Own a scooter",
+      "12",
+      "5",
+      "17"
+     ],
+     [
+      "No scooter",
+      "14",
+      "9",
+      "23"
+     ],
+     [
+      "Total",
+      "26",
+      "14",
+      "40"
+     ]
+    ]
+   },
+   "figure": {
+    "kind": "diagram",
+    "unit": 32,
+    "items": [
+     {
+      "poly": [
+       [
+        -5,
+        -3
+       ],
+       [
+        5,
+        -3
+       ],
+       [
+        5,
+        3.2
+       ],
+       [
+        -5,
+        3.2
+       ]
+      ]
+     },
+     {
+      "circle": [
+       -1.2,
+       -0.2,
+       2.2
+      ]
+     },
+     {
+      "circle": [
+       1.2,
+       -0.2,
+       2.2
+      ]
+     },
+     {
+      "label": "Bike",
+      "at": [
+       -1.9,
+       2.55
+      ]
+     },
+     {
+      "label": "Scooter",
+      "at": [
+       1.9,
+       2.55
+      ]
+     },
+     {
+      "label": "P",
+      "at": [
+       -2.2,
+       -0.2
+      ]
+     },
+     {
+      "label": "Q",
+      "at": [
+       0,
+       -0.2
+      ]
+     },
+     {
+      "label": "R",
+      "at": [
+       2.2,
+       -0.2
+      ]
+     },
+     {
+      "label": "S",
+      "at": [
+       4.2,
+       -2.5
+      ]
+     }
+    ]
+   },
+   "hint": "Type four numbers separated by commas"
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Fluency",
+   "stem": "The two-way table shows the results of a survey about bike and scooter ownership at a skate park.",
+   "type": "numeric",
+   "prompt": "Find Pr(a randomly selected person owns a bike and a scooter).",
+   "answer": "3/10"
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Fluency",
+   "stem": "The two-way table shows the results of a survey about bike and scooter ownership at a skate park.",
+   "type": "numeric",
+   "prompt": "Find Pr(a randomly selected person owns a bike but not a scooter).",
+   "answer": "7/20"
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Fluency",
+   "stem": "The two-way table shows the results of a survey about bike and scooter ownership at a skate park.",
+   "type": "numeric",
+   "prompt": "What is the probability that a randomly selected person owns a scooter?",
+   "answer": "17/40"
+  },
+  {
+   "id": "q5e",
+   "label": "5e",
+   "section": "Fluency",
+   "stem": "The two-way table shows the results of a survey about bike and scooter ownership at a skate park.",
+   "type": "numeric",
+   "prompt": "A person from the group is selected at random and they own a bike. What is the probability that they also own a scooter?",
+   "answer": "6/13"
+  },
+  {
+   "id": "q5f",
+   "label": "5f",
+   "section": "Fluency",
+   "stem": "The two-way table shows the results of a survey about bike and scooter ownership at a skate park.",
+   "type": "numeric",
+   "prompt": "A person from the group is selected at random and they own a scooter. What is the probability that they also own a bike?",
+   "answer": "12/17"
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Fluency",
+   "stem": "A pool area has $28$ people in it: swimmers, lifeguards and spectators. Use the Venn diagram to answer the questions.",
+   "type": "numeric",
+   "prompt": "How many spectators are at the pool?",
+   "answer": "6",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 32,
+    "items": [
+     {
+      "poly": [
+       [
+        -5,
+        -3
+       ],
+       [
+        5,
+        -3
+       ],
+       [
+        5,
+        3.2
+       ],
+       [
+        -5,
+        3.2
+       ]
+      ]
+     },
+     {
+      "circle": [
+       -2.2,
+       -0.2,
+       1.7
+      ]
+     },
+     {
+      "circle": [
+       2.2,
+       -0.2,
+       1.7
+      ]
+     },
+     {
+      "label": "Swimmers",
+      "at": [
+       -2.2,
+       2.2
+      ]
+     },
+     {
+      "label": "Lifeguards",
+      "at": [
+       2.2,
+       2.2
+      ]
+     },
+     {
+      "label": "19",
+      "at": [
+       -2.2,
+       -0.2
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       2.2,
+       -0.2
+      ]
+     },
+     {
+      "label": "6",
+      "at": [
+       4.2,
+       -2.5
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Fluency",
+   "stem": "A pool area has $28$ people in it: swimmers, lifeguards and spectators. Use the Venn diagram to answer the questions.",
+   "type": "text",
+   "prompt": "No one is both a swimmer and a lifeguard. What is the name given to events like this, with no overlap?",
+   "answer": "mutually exclusive",
+   "accept": [
+    "mutually exclusive events",
+    "mutually exclusive event",
+    "mutually-exclusive",
+    "mutual exclusive"
+   ]
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Fluency",
+   "stem": "A pool area has $28$ people in it: swimmers, lifeguards and spectators. Use the Venn diagram to answer the questions. A person is chosen at random.",
+   "type": "numeric",
+   "prompt": "Find Pr(swimmer).",
+   "answer": "19/28"
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Fluency",
+   "stem": "A pool area has $28$ people in it: swimmers, lifeguards and spectators. Use the Venn diagram to answer the questions. A person is chosen at random.",
+   "type": "numeric",
+   "prompt": "Find Pr(lifeguard).",
+   "answer": "3/28"
+  },
+  {
+   "id": "q6e",
+   "label": "6e",
+   "section": "Fluency",
+   "stem": "A pool area has $28$ people in it: swimmers, lifeguards and spectators. Use the Venn diagram to answer the questions. A person is chosen at random.",
+   "type": "numeric",
+   "prompt": "Find Pr(swimmer′), the probability that the person is not a swimmer.",
+   "answer": "9/28"
+  },
+  {
+   "id": "q6f",
+   "label": "6f",
+   "section": "Fluency",
+   "stem": "A pool area has $28$ people in it: swimmers, lifeguards and spectators. Use the Venn diagram to answer the questions. A person is chosen at random.",
+   "type": "numeric",
+   "prompt": "Find Pr(swimmer and lifeguard).",
+   "answer": "0"
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Fluency",
+   "stem": "The Venn diagram shows how many people at a movie session like popcorn and how many like ice cream.",
+   "type": "numeric",
+   "prompt": "What is the total number of people who like popcorn?",
+   "answer": "15",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 32,
+    "items": [
+     {
+      "poly": [
+       [
+        -5,
+        -3
+       ],
+       [
+        5,
+        -3
+       ],
+       [
+        5,
+        3.2
+       ],
+       [
+        -5,
+        3.2
+       ]
+      ]
+     },
+     {
+      "circle": [
+       -1.2,
+       -0.2,
+       2.2
+      ]
+     },
+     {
+      "circle": [
+       1.2,
+       -0.2,
+       2.2
+      ]
+     },
+     {
+      "label": "Popcorn",
+      "at": [
+       -1.9,
+       2.55
+      ]
+     },
+     {
+      "label": "Ice cream",
+      "at": [
+       1.9,
+       2.55
+      ]
+     },
+     {
+      "label": "11",
+      "at": [
+       -2.2,
+       -0.2
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       0,
+       -0.2
+      ]
+     },
+     {
+      "label": "12",
+      "at": [
+       2.2,
+       -0.2
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       4.2,
+       -2.5
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Fluency",
+   "stem": "The Venn diagram shows how many people at a movie session like popcorn and how many like ice cream.",
+   "type": "numeric",
+   "prompt": "What is the probability that a randomly selected person likes neither popcorn nor ice cream?",
+   "answer": "1/10"
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Fluency",
+   "stem": "The Venn diagram shows how many people at a movie session like popcorn and how many like ice cream.",
+   "type": "numeric",
+   "prompt": "What is the probability that a randomly selected person likes popcorn or ice cream or both?",
+   "answer": "9/10"
+  },
+  {
+   "id": "q7d",
+   "label": "7d",
+   "section": "Fluency",
+   "stem": "The Venn diagram shows how many people at a movie session like popcorn and how many like ice cream.",
+   "type": "numeric",
+   "prompt": "What is the probability that a randomly selected person likes just one of the two snacks?",
+   "answer": "23/30"
+  },
+  {
+   "id": "q7e",
+   "label": "7e",
+   "section": "Fluency",
+   "stem": "The Venn diagram shows how many people at a movie session like popcorn and how many like ice cream.",
+   "type": "numeric",
+   "prompt": "What is the probability that a randomly selected person likes popcorn, given that they like ice cream?",
+   "answer": "1/4"
+  },
+  {
+   "id": "q7f",
+   "label": "7f",
+   "section": "Fluency",
+   "stem": "The Venn diagram shows how many people at a movie session like popcorn and how many like ice cream.",
+   "type": "choice",
+   "prompt": "Are 'liking popcorn' and 'liking ice cream' mutually exclusive?",
+   "answer": 1,
+   "options": [
+    "Yes, because nobody likes both",
+    "No, because some people like both"
+   ]
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Problem-solving",
+   "stem": "Copy and complete the two-way table. Type the missing numbers row by row, from left to right.",
+   "type": "ordered",
+   "prompt": "Fill in the missing numbers in this table.",
+   "answer": [
+    "25",
+    "30",
+    "20",
+    "50",
+    "45"
+   ],
+   "figure": {
+    "kind": "table",
+    "rows": [
+     [
+      "",
+      "B",
+      "Not B",
+      "Total"
+     ],
+     [
+      "A",
+      "15",
+      "?",
+      "40"
+     ],
+     [
+      "Not A",
+      "?",
+      "?",
+      "?"
+     ],
+     [
+      "Total",
+      "?",
+      "45",
+      "90"
+     ]
+    ]
+   },
+   "hint": "Type the numbers separated by commas"
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Problem-solving",
+   "stem": "Copy and complete the two-way table. Type the missing numbers row by row, from left to right.",
+   "type": "ordered",
+   "prompt": "Fill in the missing numbers in this table.",
+   "answer": [
+    "8",
+    "16",
+    "4",
+    "5",
+    "13"
+   ],
+   "figure": {
+    "kind": "table",
+    "rows": [
+     [
+      "",
+      "B",
+      "Not B",
+      "Total"
+     ],
+     [
+      "A",
+      "?",
+      "8",
+      "?"
+     ],
+     [
+      "Not A",
+      "?",
+      "?",
+      "9"
+     ],
+     [
+      "Total",
+      "12",
+      "?",
+      "25"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Problem-solving",
+   "stem": "A shoe shop has $60$ pairs of shoes on display. $24$ pairs are black and $15$ pairs are sneakers. Only $6$ of the pairs of sneakers are black.",
+   "type": "numeric",
+   "prompt": "Complete a two-way table for this situation. How many pairs are neither black nor sneakers?",
+   "answer": "27",
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "",
+      "Sneakers",
+      "Not sneakers",
+      "Total"
+     ],
+     [
+      "Black",
+      "?",
+      "?",
+      "?"
+     ],
+     [
+      "Not black",
+      "?",
+      "?",
+      "?"
+     ],
+     [
+      "Total",
+      "?",
+      "?",
+      "?"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Problem-solving",
+   "stem": "A shoe shop has $60$ pairs of shoes on display. $24$ pairs are black and $15$ pairs are sneakers. Only $6$ of the pairs of sneakers are black.",
+   "type": "numeric",
+   "prompt": "What is the probability that a randomly selected pair is sneakers that are not black?",
+   "answer": "3/20"
+  },
+  {
+   "id": "q9c",
+   "label": "9c",
+   "section": "Problem-solving",
+   "stem": "A shoe shop has $60$ pairs of shoes on display. $24$ pairs are black and $15$ pairs are sneakers. Only $6$ of the pairs of sneakers are black.",
+   "type": "numeric",
+   "prompt": "What is the probability that a randomly selected pair is black and not sneakers?",
+   "answer": "3/10"
+  },
+  {
+   "id": "q9d",
+   "label": "9d",
+   "section": "Problem-solving",
+   "stem": "A shoe shop has $60$ pairs of shoes on display. $24$ pairs are black and $15$ pairs are sneakers. Only $6$ of the pairs of sneakers are black.",
+   "type": "numeric",
+   "prompt": "A black pair is chosen at random. What is the probability that it is sneakers?",
+   "answer": "1/4"
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Problem-solving",
+   "stem": "Events A and B are mutually exclusive. The two-way table is partly filled in.",
+   "type": "ordered",
+   "prompt": "Copy and complete the table. Type the missing numbers row by row, from left to right.",
+   "answer": [
+    "0",
+    "45",
+    "35",
+    "40",
+    "75",
+    "85"
+   ],
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "",
+      "B",
+      "B′",
+      "Total"
+     ],
+     [
+      "A",
+      "?",
+      "?",
+      "45"
+     ],
+     [
+      "A′",
+      "?",
+      "?",
+      "?"
+     ],
+     [
+      "Total",
+      "35",
+      "?",
+      "120"
+     ]
+    ]
+   },
+   "hint": "Remember: A and B cannot both happen"
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Problem-solving",
+   "stem": "Events A and B are mutually exclusive. The two-way table is partly filled in.",
+   "type": "numeric",
+   "prompt": "Find Pr(A).",
+   "answer": "3/8"
+  },
+  {
+   "id": "q10c",
+   "label": "10c",
+   "section": "Problem-solving",
+   "stem": "Events A and B are mutually exclusive. The two-way table is partly filled in.",
+   "type": "numeric",
+   "prompt": "Find Pr(A′).",
+   "answer": "5/8"
+  },
+  {
+   "id": "q10d",
+   "label": "10d",
+   "section": "Problem-solving",
+   "stem": "Events A and B are mutually exclusive. The two-way table is partly filled in.",
+   "type": "numeric",
+   "prompt": "Find Pr(A′ and B′).",
+   "answer": "1/3"
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Problem-solving",
+   "stem": "Lena has $120$ photos on her phone. $40$ were taken at the beach, and $15$ of those have her dog in them. Of the photos not taken at the beach, $62$ do not have her dog in them.",
+   "type": "numeric",
+   "prompt": "A photo is chosen at random. What is the probability that it was taken at the beach?",
+   "answer": "1/3"
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Problem-solving",
+   "stem": "Lena has $120$ photos on her phone. $40$ were taken at the beach, and $15$ of those have her dog in them. Of the photos not taken at the beach, $62$ do not have her dog in them.",
+   "type": "numeric",
+   "prompt": "How many of the photos have her dog in them?",
+   "answer": "33"
+  },
+  {
+   "id": "q11c",
+   "label": "11c",
+   "section": "Problem-solving",
+   "stem": "Lena has $120$ photos on her phone. $40$ were taken at the beach, and $15$ of those have her dog in them. Of the photos not taken at the beach, $62$ do not have her dog in them.",
+   "type": "numeric",
+   "prompt": "A photo with her dog in it is chosen at random. What is the probability that it was taken at the beach?",
+   "answer": "5/11"
+  },
+  {
+   "id": "q11d",
+   "label": "11d",
+   "section": "Problem-solving",
+   "stem": "Lena has $120$ photos on her phone. $40$ were taken at the beach, and $15$ of those have her dog in them. Of the photos not taken at the beach, $62$ do not have her dog in them.",
+   "type": "numeric",
+   "prompt": "A beach photo is chosen at random. What is the probability that her dog is in it?",
+   "answer": "3/8"
+  },
+  {
+   "id": "q12a",
+   "label": "12a",
+   "section": "Reasoning",
+   "stem": "The word 'or' can mean inclusive 'or' (A or B or both) or exclusive 'or' (A or B but not both).",
+   "type": "choice",
+   "prompt": "Which can never have the lower probability?",
+   "answer": 0,
+   "options": [
+    "A inclusive-or B",
+    "A exclusive-or B"
+   ]
+  },
+  {
+   "id": "q12b",
+   "label": "12b",
+   "section": "Reasoning",
+   "stem": "The word 'or' can mean inclusive 'or' (A or B or both) or exclusive 'or' (A or B but not both).",
+   "type": "choice",
+   "prompt": "If A and B are mutually exclusive, how do Pr(A inclusive-or B) and Pr(A exclusive-or B) compare?",
+   "answer": 2,
+   "options": [
+    "Inclusive-or is higher",
+    "Exclusive-or is higher",
+    "They are equal"
+   ]
+  },
+  {
+   "id": "q13a",
+   "label": "13a",
+   "section": "Reasoning",
+   "stem": "A two-way table (with its totals) has $9$ spaces to be filled with numbers.",
+   "type": "numeric",
+   "prompt": "What is the smallest number of spaces that must be filled in before the rest of the table can be worked out?",
+   "answer": "4"
+  },
+  {
+   "id": "q13b",
+   "label": "13b",
+   "section": "Reasoning",
+   "stem": "A two-way table (with its totals) has $9$ spaces to be filled with numbers.",
+   "type": "choice",
+   "prompt": "If you are given a two-way table with $5$ spaces filled in, can you always work out the remaining spaces?",
+   "answer": 1,
+   "options": [
+    "Yes, always",
+    "No, not always"
+   ]
+  },
+  {
+   "id": "q15a",
+   "label": "15a",
+   "section": "Enrichment",
+   "stem": "In this Venn diagram, $p$, $q$, $r$ and $s$ are unknown positive whole numbers.",
+   "type": "expression",
+   "prompt": "Write an expression for Pr(both A and B).",
+   "answer": "q/(p+q+r+s)",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 32,
+    "items": [
+     {
+      "poly": [
+       [
+        -5,
+        -3
+       ],
+       [
+        5,
+        -3
+       ],
+       [
+        5,
+        3.2
+       ],
+       [
+        -5,
+        3.2
+       ]
+      ]
+     },
+     {
+      "circle": [
+       -1.2,
+       -0.2,
+       2.2
+      ]
+     },
+     {
+      "circle": [
+       1.2,
+       -0.2,
+       2.2
+      ]
+     },
+     {
+      "label": "A",
+      "at": [
+       -1.9,
+       2.55
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       1.9,
+       2.55
+      ]
+     },
+     {
+      "label": "p",
+      "at": [
+       -2.2,
+       -0.2
+      ]
+     },
+     {
+      "label": "q",
+      "at": [
+       0,
+       -0.2
+      ]
+     },
+     {
+      "label": "r",
+      "at": [
+       2.2,
+       -0.2
+      ]
+     },
+     {
+      "label": "s",
+      "at": [
+       4.2,
+       -2.5
+      ]
+     }
+    ]
+   },
+   "hint": "Type a fraction with brackets, for example a/(a+b)"
+  },
+  {
+   "id": "q15b",
+   "label": "15b",
+   "section": "Enrichment",
+   "stem": "In this Venn diagram, $p$, $q$, $r$ and $s$ are unknown positive whole numbers.",
+   "type": "expression",
+   "prompt": "Write an expression for Pr(A).",
+   "answer": "(p+q)/(p+q+r+s)"
+  },
+  {
+   "id": "q15c",
+   "label": "15c",
+   "section": "Enrichment",
+   "stem": "In this Venn diagram, $p$, $q$, $r$ and $s$ are unknown positive whole numbers.",
+   "type": "expression",
+   "prompt": "In a two-way table for this Venn diagram, what expression goes in the Total of the A′ row?",
+   "answer": "r+s"
+  },
+  {
+   "id": "q15d",
+   "label": "15d",
+   "section": "Enrichment",
+   "stem": "Events A and B are mutually exclusive, so the Venn diagram has no overlap. Use $m$, $n$ and $k$ to write expressions for:",
+   "type": "expression",
+   "prompt": "Pr(A)",
+   "answer": "m/(m+n+k)",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 32,
+    "items": [
+     {
+      "poly": [
+       [
+        -5,
+        -3
+       ],
+       [
+        5,
+        -3
+       ],
+       [
+        5,
+        3.2
+       ],
+       [
+        -5,
+        3.2
+       ]
+      ]
+     },
+     {
+      "circle": [
+       -2.2,
+       -0.2,
+       1.7
+      ]
+     },
+     {
+      "circle": [
+       2.2,
+       -0.2,
+       1.7
+      ]
+     },
+     {
+      "label": "A",
+      "at": [
+       -2.2,
+       2.2
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       2.2,
+       2.2
+      ]
+     },
+     {
+      "label": "m",
+      "at": [
+       -2.2,
+       -0.2
+      ]
+     },
+     {
+      "label": "n",
+      "at": [
+       2.2,
+       -0.2
+      ]
+     },
+     {
+      "label": "k",
+      "at": [
+       4.2,
+       -2.5
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q15e",
+   "label": "15e",
+   "section": "Enrichment",
+   "stem": "Events A and B are mutually exclusive, so the Venn diagram has no overlap. Use $m$, $n$ and $k$ to write expressions for:",
+   "type": "expression",
+   "prompt": "Pr(B)",
+   "answer": "n/(m+n+k)"
+  },
+  {
+   "id": "q15f",
+   "label": "15f",
+   "section": "Enrichment",
+   "stem": "Events A and B are mutually exclusive, so the Venn diagram has no overlap. Use $m$, $n$ and $k$ to write expressions for:",
+   "type": "expression",
+   "prompt": "Pr(A′)",
+   "answer": "(n+k)/(m+n+k)"
+  },
+  {
+   "id": "q15g",
+   "label": "15g",
+   "section": "Enrichment",
+   "stem": "Events A and B are mutually exclusive, so the Venn diagram has no overlap. Use $m$, $n$ and $k$ to write expressions for:",
+   "type": "expression",
+   "prompt": "Pr(A or B)",
+   "answer": "(m+n)/(m+n+k)"
+  },
+  {
+   "id": "q15h",
+   "label": "15h",
+   "section": "Enrichment",
+   "stem": "Events A and B are mutually exclusive, so the Venn diagram has no overlap. Use $m$, $n$ and $k$ to write expressions for:",
+   "type": "expression",
+   "prompt": "Pr(A′ and B′)",
+   "answer": "k/(m+n+k)"
+  }
+ ]
+},
+{
+ "id": "y8-8k",
+ "year": 8,
+ "chapter": "Chapter 8: Probability and statistics",
+ "title": "8K Experimental probability",
+ "description": "Find experimental probabilities from tallies, tables and simulation results, and work out expected numbers.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Some green, red and white marbles are placed in a jar. Over and over, a marble is taken out, its colour is noted and then it is put back. The results are tallied below.",
+   "type": "numeric",
+   "prompt": "What is the experimental probability that the next marble chosen is green?",
+   "answer": "7/20",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "label": "Green",
+      "at": [
+       -0.4,
+       0
+      ],
+      "anchor": "end"
+     },
+     {
+      "seg": [
+       0.3,
+       -0.35,
+       0.3,
+       0.35
+      ]
+     },
+     {
+      "seg": [
+       0.52,
+       -0.35,
+       0.52,
+       0.35
+      ]
+     },
+     {
+      "seg": [
+       0.74,
+       -0.35,
+       0.74,
+       0.35
+      ]
+     },
+     {
+      "seg": [
+       0.96,
+       -0.35,
+       0.96,
+       0.35
+      ]
+     },
+     {
+      "seg": [
+       0.18,
+       -0.25,
+       1.08,
+       0.25
+      ]
+     },
+     {
+      "seg": [
+       1.51,
+       -0.35,
+       1.51,
+       0.35
+      ]
+     },
+     {
+      "seg": [
+       1.73,
+       -0.35,
+       1.73,
+       0.35
+      ]
+     },
+     {
+      "label": "Red",
+      "at": [
+       -0.4,
+       -1.1
+      ],
+      "anchor": "end"
+     },
+     {
+      "seg": [
+       0.3,
+       -1.4500000000000002,
+       0.3,
+       -0.7500000000000001
+      ]
+     },
+     {
+      "seg": [
+       0.52,
+       -1.4500000000000002,
+       0.52,
+       -0.7500000000000001
+      ]
+     },
+     {
+      "seg": [
+       0.74,
+       -1.4500000000000002,
+       0.74,
+       -0.7500000000000001
+      ]
+     },
+     {
+      "seg": [
+       0.96,
+       -1.4500000000000002,
+       0.96,
+       -0.7500000000000001
+      ]
+     },
+     {
+      "seg": [
+       0.18,
+       -1.35,
+       1.08,
+       -0.8500000000000001
+      ]
+     },
+     {
+      "seg": [
+       1.51,
+       -1.4500000000000002,
+       1.51,
+       -0.7500000000000001
+      ]
+     },
+     {
+      "seg": [
+       1.73,
+       -1.4500000000000002,
+       1.73,
+       -0.7500000000000001
+      ]
+     },
+     {
+      "seg": [
+       1.95,
+       -1.4500000000000002,
+       1.95,
+       -0.7500000000000001
+      ]
+     },
+     {
+      "seg": [
+       2.17,
+       -1.4500000000000002,
+       2.17,
+       -0.7500000000000001
+      ]
+     },
+     {
+      "label": "White",
+      "at": [
+       -0.4,
+       -2.2
+      ],
+      "anchor": "end"
+     },
+     {
+      "seg": [
+       0.3,
+       -2.5500000000000003,
+       0.3,
+       -1.85
+      ]
+     },
+     {
+      "seg": [
+       0.52,
+       -2.5500000000000003,
+       0.52,
+       -1.85
+      ]
+     },
+     {
+      "seg": [
+       0.74,
+       -2.5500000000000003,
+       0.74,
+       -1.85
+      ]
+     },
+     {
+      "seg": [
+       0.96,
+       -2.5500000000000003,
+       0.96,
+       -1.85
+      ]
+     }
+    ]
+   },
+   "hint": "Type a fraction, for example 7/20"
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Some green, red and white marbles are placed in a jar. Over and over, a marble is taken out, its colour is noted and then it is put back. The results are tallied below.",
+   "type": "numeric",
+   "prompt": "What is the experimental probability that a green or red marble is chosen?",
+   "answer": "4/5"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "Some green, red and white marbles are placed in a jar. Over and over, a marble is taken out, its colour is noted and then it is put back. The results are tallied below.",
+   "type": "numeric",
+   "prompt": "If the experiment is done $200$ times, what is the expected number of times a white marble is chosen?",
+   "answer": "40"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "A spinner is spun $40$ times and the results are shown in the frequency table.",
+   "type": "numeric",
+   "prompt": "What is the experimental probability of orange?",
+   "answer": "7/20",
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "Colour",
+      "Orange",
+      "Green",
+      "Pink",
+      "Yellow"
+     ],
+     [
+      "Frequency",
+      "14",
+      "9",
+      "3",
+      "14"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "A spinner is spun $40$ times and the results are shown in the frequency table.",
+   "type": "numeric",
+   "prompt": "What is the experimental probability of green?",
+   "answer": "9/40"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "A spinner is spun $40$ times and the results are shown in the frequency table.",
+   "type": "numeric",
+   "prompt": "What is the experimental probability of orange or yellow?",
+   "answer": "7/10"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "A spinner is spun $40$ times and the results are shown in the frequency table.",
+   "type": "numeric",
+   "prompt": "If the spinner were spun $1000$ times, what is the expected number of times it would land on pink?",
+   "answer": "75"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "A group of students were asked how many pets they have at home. The results are tallied below.",
+   "type": "ordered",
+   "prompt": "Write the tallied results as a frequency table. Type the frequencies for $0$, $1$, $2$, $3$ and $4$ pets, in that order.",
+   "answer": [
+    "11",
+    "18",
+    "14",
+    "5",
+    "2"
+   ],
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "label": "0 pets",
+      "at": [
+       -0.4,
+       0
+      ],
+      "anchor": "end"
+     },
+     {
+      "seg": [
+       0.3,
+       -0.35,
+       0.3,
+       0.35
+      ]
+     },
+     {
+      "seg": [
+       0.52,
+       -0.35,
+       0.52,
+       0.35
+      ]
+     },
+     {
+      "seg": [
+       0.74,
+       -0.35,
+       0.74,
+       0.35
+      ]
+     },
+     {
+      "seg": [
+       0.96,
+       -0.35,
+       0.96,
+       0.35
+      ]
+     },
+     {
+      "seg": [
+       0.18,
+       -0.25,
+       1.08,
+       0.25
+      ]
+     },
+     {
+      "seg": [
+       1.51,
+       -0.35,
+       1.51,
+       0.35
+      ]
+     },
+     {
+      "seg": [
+       1.73,
+       -0.35,
+       1.73,
+       0.35
+      ]
+     },
+     {
+      "seg": [
+       1.95,
+       -0.35,
+       1.95,
+       0.35
+      ]
+     },
+     {
+      "seg": [
+       2.17,
+       -0.35,
+       2.17,
+       0.35
+      ]
+     },
+     {
+      "seg": [
+       1.39,
+       -0.25,
+       2.29,
+       0.25
+      ]
+     },
+     {
+      "seg": [
+       2.72,
+       -0.35,
+       2.72,
+       0.35
+      ]
+     },
+     {
+      "label": "1 pet",
+      "at": [
+       -0.4,
+       -1.1
+      ],
+      "anchor": "end"
+     },
+     {
+      "seg": [
+       0.3,
+       -1.4500000000000002,
+       0.3,
+       -0.7500000000000001
+      ]
+     },
+     {
+      "seg": [
+       0.52,
+       -1.4500000000000002,
+       0.52,
+       -0.7500000000000001
+      ]
+     },
+     {
+      "seg": [
+       0.74,
+       -1.4500000000000002,
+       0.74,
+       -0.7500000000000001
+      ]
+     },
+     {
+      "seg": [
+       0.96,
+       -1.4500000000000002,
+       0.96,
+       -0.7500000000000001
+      ]
+     },
+     {
+      "seg": [
+       0.18,
+       -1.35,
+       1.08,
+       -0.8500000000000001
+      ]
+     },
+     {
+      "seg": [
+       1.51,
+       -1.4500000000000002,
+       1.51,
+       -0.7500000000000001
+      ]
+     },
+     {
+      "seg": [
+       1.73,
+       -1.4500000000000002,
+       1.73,
+       -0.7500000000000001
+      ]
+     },
+     {
+      "seg": [
+       1.95,
+       -1.4500000000000002,
+       1.95,
+       -0.7500000000000001
+      ]
+     },
+     {
+      "seg": [
+       2.17,
+       -1.4500000000000002,
+       2.17,
+       -0.7500000000000001
+      ]
+     },
+     {
+      "seg": [
+       1.39,
+       -1.35,
+       2.29,
+       -0.8500000000000001
+      ]
+     },
+     {
+      "seg": [
+       2.72,
+       -1.4500000000000002,
+       2.72,
+       -0.7500000000000001
+      ]
+     },
+     {
+      "seg": [
+       2.94,
+       -1.4500000000000002,
+       2.94,
+       -0.7500000000000001
+      ]
+     },
+     {
+      "seg": [
+       3.16,
+       -1.4500000000000002,
+       3.16,
+       -0.7500000000000001
+      ]
+     },
+     {
+      "seg": [
+       3.38,
+       -1.4500000000000002,
+       3.38,
+       -0.7500000000000001
+      ]
+     },
+     {
+      "seg": [
+       2.6,
+       -1.35,
+       3.5,
+       -0.8500000000000001
+      ]
+     },
+     {
+      "seg": [
+       3.93,
+       -1.4500000000000002,
+       3.93,
+       -0.7500000000000001
+      ]
+     },
+     {
+      "seg": [
+       4.15,
+       -1.4500000000000002,
+       4.15,
+       -0.7500000000000001
+      ]
+     },
+     {
+      "seg": [
+       4.37,
+       -1.4500000000000002,
+       4.37,
+       -0.7500000000000001
+      ]
+     },
+     {
+      "label": "2 pets",
+      "at": [
+       -0.4,
+       -2.2
+      ],
+      "anchor": "end"
+     },
+     {
+      "seg": [
+       0.3,
+       -2.5500000000000003,
+       0.3,
+       -1.85
+      ]
+     },
+     {
+      "seg": [
+       0.52,
+       -2.5500000000000003,
+       0.52,
+       -1.85
+      ]
+     },
+     {
+      "seg": [
+       0.74,
+       -2.5500000000000003,
+       0.74,
+       -1.85
+      ]
+     },
+     {
+      "seg": [
+       0.96,
+       -2.5500000000000003,
+       0.96,
+       -1.85
+      ]
+     },
+     {
+      "seg": [
+       0.18,
+       -2.45,
+       1.08,
+       -1.9500000000000002
+      ]
+     },
+     {
+      "seg": [
+       1.51,
+       -2.5500000000000003,
+       1.51,
+       -1.85
+      ]
+     },
+     {
+      "seg": [
+       1.73,
+       -2.5500000000000003,
+       1.73,
+       -1.85
+      ]
+     },
+     {
+      "seg": [
+       1.95,
+       -2.5500000000000003,
+       1.95,
+       -1.85
+      ]
+     },
+     {
+      "seg": [
+       2.17,
+       -2.5500000000000003,
+       2.17,
+       -1.85
+      ]
+     },
+     {
+      "seg": [
+       1.39,
+       -2.45,
+       2.29,
+       -1.9500000000000002
+      ]
+     },
+     {
+      "seg": [
+       2.72,
+       -2.5500000000000003,
+       2.72,
+       -1.85
+      ]
+     },
+     {
+      "seg": [
+       2.94,
+       -2.5500000000000003,
+       2.94,
+       -1.85
+      ]
+     },
+     {
+      "seg": [
+       3.16,
+       -2.5500000000000003,
+       3.16,
+       -1.85
+      ]
+     },
+     {
+      "seg": [
+       3.38,
+       -2.5500000000000003,
+       3.38,
+       -1.85
+      ]
+     },
+     {
+      "label": "3 pets",
+      "at": [
+       -0.4,
+       -3.3000000000000003
+      ],
+      "anchor": "end"
+     },
+     {
+      "seg": [
+       0.3,
+       -3.6500000000000004,
+       0.3,
+       -2.95
+      ]
+     },
+     {
+      "seg": [
+       0.52,
+       -3.6500000000000004,
+       0.52,
+       -2.95
+      ]
+     },
+     {
+      "seg": [
+       0.74,
+       -3.6500000000000004,
+       0.74,
+       -2.95
+      ]
+     },
+     {
+      "seg": [
+       0.96,
+       -3.6500000000000004,
+       0.96,
+       -2.95
+      ]
+     },
+     {
+      "seg": [
+       0.18,
+       -3.5500000000000003,
+       1.08,
+       -3.0500000000000003
+      ]
+     },
+     {
+      "label": "4 pets",
+      "at": [
+       -0.4,
+       -4.4
+      ],
+      "anchor": "end"
+     },
+     {
+      "seg": [
+       0.3,
+       -4.75,
+       0.3,
+       -4.050000000000001
+      ]
+     },
+     {
+      "seg": [
+       0.52,
+       -4.75,
+       0.52,
+       -4.050000000000001
+      ]
+     }
+    ]
+   },
+   "hint": "Type five numbers separated by commas"
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "A group of students were asked how many pets they have at home. The results are tallied below.",
+   "type": "numeric",
+   "prompt": "How many students were surveyed?",
+   "answer": "50"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "A group of students were asked how many pets they have at home. The results are tallied below.",
+   "type": "numeric",
+   "prompt": "What is the experimental probability that a randomly chosen student has no pets?",
+   "answer": "11/50"
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "A group of students were asked how many pets they have at home. The results are tallied below.",
+   "type": "numeric",
+   "prompt": "What is the experimental probability that a randomly chosen student has at least $2$ pets?",
+   "answer": "21/50"
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "A fair six-sided die is rolled $120$ times.",
+   "type": "numeric",
+   "prompt": "What is the expected number of times it will land on $6$?",
+   "answer": "20"
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "A fair six-sided die is rolled $120$ times.",
+   "type": "choice",
+   "prompt": "Is it possible that it will land on $6$ exactly $23$ times?",
+   "answer": 0,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "A fair six-sided die is rolled $120$ times.",
+   "type": "choice",
+   "prompt": "Is it possible that it will land on $6$ all $120$ times?",
+   "answer": 0,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Fluency",
+   "stem": "A fair eight-sided die has $4$ yellow faces, $3$ orange faces and $1$ black face.",
+   "type": "numeric",
+   "prompt": "What is the probability that it shows orange on one roll?",
+   "answer": "3/8"
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Fluency",
+   "stem": "A fair eight-sided die has $4$ yellow faces, $3$ orange faces and $1$ black face.",
+   "type": "numeric",
+   "prompt": "How many times would you expect it to show orange in $400$ rolls?",
+   "answer": "150"
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Fluency",
+   "stem": "A fair eight-sided die has $4$ yellow faces, $3$ orange faces and $1$ black face.",
+   "type": "numeric",
+   "prompt": "How many times would you expect it to show yellow in $400$ rolls?",
+   "answer": "200"
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Fluency",
+   "stem": "A spinner shows the numbers $1$, $2$, $3$ and $4$ on four sectors of different sizes. It is spun $25$ times with these results: $4,\\ 1,\\ 1,\\ 1,\\ 4,\\ 3,\\ 2,\\ 1,\\ 4,\\ 2,\\ 2,\\ 1,\\ 2,\\ 1,\\ 1,\\ 4,\\ 1,\\ 1,\\ 2,\\ 3,\\ 4,\\ 1,\\ 1,\\ 4,\\ 2$",
+   "type": "numeric",
+   "prompt": "Give the experimental probability that the spinner landed on $1$.",
+   "answer": "11/25"
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Fluency",
+   "stem": "A spinner shows the numbers $1$, $2$, $3$ and $4$ on four sectors of different sizes. It is spun $25$ times with these results: $4,\\ 1,\\ 1,\\ 1,\\ 4,\\ 3,\\ 2,\\ 1,\\ 4,\\ 2,\\ 2,\\ 1,\\ 2,\\ 1,\\ 1,\\ 4,\\ 1,\\ 1,\\ 2,\\ 3,\\ 4,\\ 1,\\ 1,\\ 4,\\ 2$",
+   "type": "numeric",
+   "prompt": "Give the experimental probability that the spinner landed on $2$.",
+   "answer": "6/25"
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Fluency",
+   "stem": "A spinner shows the numbers $1$, $2$, $3$ and $4$ on four sectors of different sizes. It is spun $25$ times with these results: $4,\\ 1,\\ 1,\\ 1,\\ 4,\\ 3,\\ 2,\\ 1,\\ 4,\\ 2,\\ 2,\\ 1,\\ 2,\\ 1,\\ 1,\\ 4,\\ 1,\\ 1,\\ 2,\\ 3,\\ 4,\\ 1,\\ 1,\\ 4,\\ 2$",
+   "type": "numeric",
+   "prompt": "Give the experimental probability that the spinner landed on $3$.",
+   "answer": "2/25"
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Fluency",
+   "stem": "A spinner shows the numbers $1$, $2$, $3$ and $4$ on four sectors of different sizes. It is spun $25$ times with these results: $4,\\ 1,\\ 1,\\ 1,\\ 4,\\ 3,\\ 2,\\ 1,\\ 4,\\ 2,\\ 2,\\ 1,\\ 2,\\ 1,\\ 1,\\ 4,\\ 1,\\ 1,\\ 2,\\ 3,\\ 4,\\ 1,\\ 1,\\ 4,\\ 2$",
+   "type": "numeric",
+   "prompt": "Give the experimental probability that the spinner landed on $4$.",
+   "answer": "6/25"
+  },
+  {
+   "id": "q6e",
+   "label": "6e",
+   "section": "Fluency",
+   "stem": "A spinner shows the numbers $1$, $2$, $3$ and $4$ on four sectors of different sizes. It is spun $25$ times with these results: $4,\\ 1,\\ 1,\\ 1,\\ 4,\\ 3,\\ 2,\\ 1,\\ 4,\\ 2,\\ 2,\\ 1,\\ 2,\\ 1,\\ 1,\\ 4,\\ 1,\\ 1,\\ 2,\\ 3,\\ 4,\\ 1,\\ 1,\\ 4,\\ 2$",
+   "type": "numeric",
+   "prompt": "Based on this experiment, what is the expected number of times in $1000$ spins that the spinner will land on $3$?",
+   "answer": "80"
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Fluency",
+   "stem": "A netball player has a $1$ in $2$ chance of scoring a goal from a shot. Her coach simulates $24$ shots with a coin: heads means the shot goes in, tails means it misses. The results were: T, H, H, T, H, H, T, T, H, T, T, T, H, T, H, T, T, T, H, H, H, T, T, H",
+   "type": "numeric",
+   "prompt": "How many goals were scored in the simulation?",
+   "answer": "11"
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Fluency",
+   "stem": "A netball player has a $1$ in $2$ chance of scoring a goal from a shot. Her coach simulates $24$ shots with a coin: heads means the shot goes in, tails means it misses. The results were: T, H, H, T, H, H, T, T, H, T, T, T, H, T, H, T, T, T, H, H, H, T, T, H",
+   "type": "numeric",
+   "prompt": "Based on the simulation, what is the experimental probability that a shot goes in?",
+   "answer": "11/24"
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Fluency",
+   "stem": "A netball player has a $1$ in $2$ chance of scoring a goal from a shot. Her coach simulates $24$ shots with a coin: heads means the shot goes in, tails means it misses. The results were: T, H, H, T, H, H, T, T, H, T, T, T, H, T, H, T, T, T, H, H, H, T, T, H",
+   "type": "numeric",
+   "prompt": "Using the actual probability of $\\frac{1}{2}$, how many of $24$ shots are expected to go in?",
+   "answer": "12"
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Problem-solving",
+   "stem": "Priya sits a quiz with $6$ true or false questions and guesses every answer. She passes if she gets at least $4$ correct.",
+   "type": "choice",
+   "prompt": "Which simulation suits this situation?",
+   "answer": 1,
+   "options": [
+    "Flip one coin; heads means she passes",
+    "Flip 6 coins; each head is a correct answer, and 4 or more heads is a pass",
+    "Roll a die; a 4 or more is a pass",
+    "Flip 6 coins; she passes only if all 6 are heads"
+   ]
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Problem-solving",
+   "stem": "Priya sits a quiz with $6$ true or false questions and guesses every answer. She passes if she gets at least $4$ correct.",
+   "type": "numeric",
+   "prompt": "The simulation is run $20$ times. The number of heads in each run was: $4,\\ 4,\\ 5,\\ 4,\\ 3,\\ 3,\\ 2,\\ 3,\\ 1,\\ 3,\\ 4,\\ 4,\\ 3,\\ 5,\\ 5,\\ 4,\\ 3,\\ 3,\\ 2,\\ 3$. What is the experimental probability that Priya passes?",
+   "answer": "9/20"
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Problem-solving",
+   "stem": "A bag holds some blue and some yellow marbles. A marble is chosen and put back after its colour is noted. After $40$ draws the results were: blue $12$, yellow $28$. Based on the experiment, give the most likely answer to each question.",
+   "type": "numeric",
+   "prompt": "If there are $10$ marbles in the bag, how many are blue?",
+   "answer": "3"
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Problem-solving",
+   "stem": "A bag holds some blue and some yellow marbles. A marble is chosen and put back after its colour is noted. After $40$ draws the results were: blue $12$, yellow $28$. Based on the experiment, give the most likely answer to each question.",
+   "type": "numeric",
+   "prompt": "If there are $7$ marbles in the bag, how many are blue?",
+   "answer": "2"
+  },
+  {
+   "id": "q9c",
+   "label": "9c",
+   "section": "Problem-solving",
+   "stem": "A bag holds some blue and some yellow marbles. A marble is chosen and put back after its colour is noted. After $40$ draws the results were: blue $12$, yellow $28$. Based on the experiment, give the most likely answer to each question.",
+   "type": "numeric",
+   "prompt": "If there are $40$ marbles in the bag, how many are blue?",
+   "answer": "12"
+  },
+  {
+   "id": "q9d",
+   "label": "9d",
+   "section": "Problem-solving",
+   "stem": "A bag holds some blue and some yellow marbles. A marble is chosen and put back after its colour is noted. After $40$ draws the results were: blue $12$, yellow $28$. Based on the experiment, give the most likely answer to each question.",
+   "type": "numeric",
+   "prompt": "If there are $6$ marbles in the bag, how many are yellow?",
+   "answer": "4"
+  },
+  {
+   "id": "q9e",
+   "label": "9e",
+   "section": "Problem-solving",
+   "stem": "A bag holds some blue and some yellow marbles. A marble is chosen and put back after its colour is noted. After $40$ draws the results were: blue $12$, yellow $28$. Based on the experiment, give the most likely answer to each question.",
+   "type": "numeric",
+   "prompt": "If there are $21$ yellow marbles in the bag, how many marbles are there in total?",
+   "answer": "30"
+  },
+  {
+   "id": "q9f",
+   "label": "9f",
+   "section": "Problem-solving",
+   "stem": "A bag holds some blue and some yellow marbles. A marble is chosen and put back after its colour is noted. After $40$ draws the results were: blue $12$, yellow $28$. Based on the experiment, give the most likely answer to each question.",
+   "type": "numeric",
+   "prompt": "If there are $6$ blue marbles, how many yellow marbles are there?",
+   "answer": "14"
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Problem-solving",
+   "stem": "An archer has up to $3$ arrows to hit a target, and stops as soon as she hits it. Each arrow has a $1$ in $6$ chance of hitting the bullseye, a $1$ in $3$ chance of hitting the outer ring and a $1$ in $2$ chance of missing. She simulates each arrow by rolling a die: $6$ is a bullseye, $4$ or $5$ is the outer ring, and $1$, $2$ or $3$ is a miss. Match each set of rolls with outcome A, B, C or D.",
+   "type": "choice",
+   "prompt": "Rolls: $1,\\ 3,\\ 2$",
+   "answer": 2,
+   "options": [
+    "A: Hits the outer ring with the first arrow",
+    "B: Misses twice, then hits the bullseye",
+    "C: Misses 3 times",
+    "D: Misses once, then hits the outer ring"
+   ]
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Problem-solving",
+   "stem": "An archer has up to $3$ arrows to hit a target, and stops as soon as she hits it. Each arrow has a $1$ in $6$ chance of hitting the bullseye, a $1$ in $3$ chance of hitting the outer ring and a $1$ in $2$ chance of missing. She simulates each arrow by rolling a die: $6$ is a bullseye, $4$ or $5$ is the outer ring, and $1$, $2$ or $3$ is a miss. Match each set of rolls with outcome A, B, C or D.",
+   "type": "choice",
+   "prompt": "Rolls: $4$",
+   "answer": 0,
+   "options": [
+    "A: Hits the outer ring with the first arrow",
+    "B: Misses twice, then hits the bullseye",
+    "C: Misses 3 times",
+    "D: Misses once, then hits the outer ring"
+   ]
+  },
+  {
+   "id": "q10c",
+   "label": "10c",
+   "section": "Problem-solving",
+   "stem": "An archer has up to $3$ arrows to hit a target, and stops as soon as she hits it. Each arrow has a $1$ in $6$ chance of hitting the bullseye, a $1$ in $3$ chance of hitting the outer ring and a $1$ in $2$ chance of missing. She simulates each arrow by rolling a die: $6$ is a bullseye, $4$ or $5$ is the outer ring, and $1$, $2$ or $3$ is a miss. Match each set of rolls with outcome A, B, C or D.",
+   "type": "choice",
+   "prompt": "Rolls: $2,\\ 5$",
+   "answer": 3,
+   "options": [
+    "A: Hits the outer ring with the first arrow",
+    "B: Misses twice, then hits the bullseye",
+    "C: Misses 3 times",
+    "D: Misses once, then hits the outer ring"
+   ]
+  },
+  {
+   "id": "q10d",
+   "label": "10d",
+   "section": "Problem-solving",
+   "stem": "An archer has up to $3$ arrows to hit a target, and stops as soon as she hits it. Each arrow has a $1$ in $6$ chance of hitting the bullseye, a $1$ in $3$ chance of hitting the outer ring and a $1$ in $2$ chance of missing. She simulates each arrow by rolling a die: $6$ is a bullseye, $4$ or $5$ is the outer ring, and $1$, $2$ or $3$ is a miss. Match each set of rolls with outcome A, B, C or D.",
+   "type": "choice",
+   "prompt": "Rolls: $3,\\ 1,\\ 6$",
+   "answer": 1,
+   "options": [
+    "A: Hits the outer ring with the first arrow",
+    "B: Misses twice, then hits the bullseye",
+    "C: Misses 3 times",
+    "D: Misses once, then hits the outer ring"
+   ]
+  },
+  {
+   "id": "q10e",
+   "label": "10e",
+   "section": "Problem-solving",
+   "stem": "The archer runs the simulation for $50$ turns. She gets a bullseye in $18$ turns, hits the outer ring in $28$ turns and misses all three arrows in $4$ turns.",
+   "type": "numeric",
+   "prompt": "In how many of the $50$ turns did she hit the target?",
+   "answer": "46"
+  },
+  {
+   "id": "q10f",
+   "label": "10f",
+   "section": "Problem-solving",
+   "stem": "The archer runs the simulation for $50$ turns. She gets a bullseye in $18$ turns, hits the outer ring in $28$ turns and misses all three arrows in $4$ turns.",
+   "type": "numeric",
+   "prompt": "Based on the simulation, estimate the probability that she hits the bullseye when she has up to three arrows.",
+   "answer": "9/25"
+  },
+  {
+   "id": "q10g",
+   "label": "10g",
+   "section": "Problem-solving",
+   "stem": "The archer runs the simulation for $50$ turns. She gets a bullseye in $18$ turns, hits the outer ring in $28$ turns and misses all three arrows in $4$ turns.",
+   "type": "numeric",
+   "prompt": "Based on the simulation, in how many of $500$ turns would she expect to miss all three arrows?",
+   "answer": "40"
+  },
+  {
+   "id": "q10h",
+   "label": "10h",
+   "section": "Problem-solving",
+   "type": "numeric",
+   "prompt": "Another archer's real results for $50$ turns are: $11$ bullseyes, $31$ outer ring hits and $8$ turns with three misses. Estimate how many bullseyes she would hit in $150$ turns.",
+   "answer": "33"
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Reasoning",
+   "stem": "A coin toss can be simulated with a die by letting $1$ to $3$ stand for tails and $4$ to $6$ stand for heads. Could this spinner be simulated using a single roll of a die?",
+   "type": "choice",
+   "prompt": "Spinner a",
+   "answer": 0,
+   "figure": {
+    "kind": "diagram",
+    "unit": 40,
+    "items": [
+     {
+      "circle": [
+       0,
+       0,
+       2
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       2
+      ]
+     },
+     {
+      "label": "Red",
+      "at": [
+       1.074,
+       0.57
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       1.732,
+       -1
+      ]
+     },
+     {
+      "label": "Blue",
+      "at": [
+       0,
+       -1.29
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       -1.732,
+       -1
+      ]
+     },
+     {
+      "label": "Green",
+      "at": [
+       -1.074,
+       0.57
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0.488,
+       1.096
+      ],
+      "arrow": "end"
+     },
+     {
+      "point": [
+       0,
+       0
+      ]
+     }
+    ]
+   },
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Reasoning",
+   "stem": "A coin toss can be simulated with a die by letting $1$ to $3$ stand for tails and $4$ to $6$ stand for heads. Could this spinner be simulated using a single roll of a die?",
+   "type": "choice",
+   "prompt": "Spinner b",
+   "answer": 0,
+   "figure": {
+    "kind": "diagram",
+    "unit": 40,
+    "items": [
+     {
+      "circle": [
+       0,
+       0,
+       2
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       2
+      ]
+     },
+     {
+      "label": "Red",
+      "at": [
+       1.24,
+       -0.05
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       -2
+      ]
+     },
+     {
+      "label": "Blue",
+      "at": [
+       -0.62,
+       -1.124
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       -1.732,
+       -1
+      ]
+     },
+     {
+      "label": "Green",
+      "at": [
+       -1.074,
+       0.57
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0.705,
+       0.971
+      ],
+      "arrow": "end"
+     },
+     {
+      "point": [
+       0,
+       0
+      ]
+     }
+    ]
+   },
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q11c",
+   "label": "11c",
+   "section": "Reasoning",
+   "stem": "A coin toss can be simulated with a die by letting $1$ to $3$ stand for tails and $4$ to $6$ stand for heads. Could this spinner be simulated using a single roll of a die?",
+   "type": "choice",
+   "prompt": "Spinner c",
+   "answer": 1,
+   "figure": {
+    "kind": "diagram",
+    "unit": 40,
+    "items": [
+     {
+      "circle": [
+       0,
+       0,
+       2
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       2
+      ]
+     },
+     {
+      "label": "Red",
+      "at": [
+       0.877,
+       0.827
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       2,
+       0
+      ]
+     },
+     {
+      "label": "Blue",
+      "at": [
+       0.877,
+       -0.927
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       -2
+      ]
+     },
+     {
+      "label": "Green",
+      "at": [
+       -1.24,
+       -0.05
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0.371,
+       1.141
+      ],
+      "arrow": "end"
+     },
+     {
+      "point": [
+       0,
+       0
+      ]
+     }
+    ]
+   },
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q12a",
+   "label": "12a",
+   "section": "Reasoning",
+   "type": "choice",
+   "prompt": "An event has a probability of $\\frac{1}{4}$. Which of these could be used to simulate it with two coins?",
+   "answer": 0,
+   "options": [
+    "Both coins show heads",
+    "At least one coin shows heads",
+    "The coins show different faces"
+   ]
+  },
+  {
+   "id": "q12b",
+   "label": "12b",
+   "section": "Reasoning",
+   "type": "choice",
+   "prompt": "An event has a probability of $\\frac{1}{6}$. Which of these could be used to simulate it with a coin and a die?",
+   "answer": 1,
+   "options": [
+    "Heads and an even number",
+    "Tails and a 1 or a 2",
+    "Heads and a 6"
+   ]
+  },
+  {
+   "id": "q12c",
+   "label": "12c",
+   "section": "Reasoning",
+   "type": "choice",
+   "prompt": "An event has a probability of $\\frac{1}{18}$. Which of these could be used to simulate it with two dice?",
+   "answer": 2,
+   "options": [
+    "Both dice show 6",
+    "The dice add to 4",
+    "The dice add to 3"
+   ]
+  },
+  {
+   "id": "q12d",
+   "label": "12d",
+   "section": "Reasoning",
+   "type": "choice",
+   "prompt": "An event has a probability of $\\frac{1}{12}$. Which of these could be used to simulate it with two dice?",
+   "answer": 1,
+   "options": [
+    "Both dice show the same number",
+    "The dice add to 4",
+    "The dice add to 2"
+   ]
+  },
+  {
+   "id": "q13a",
+   "label": "13a",
+   "section": "Reasoning",
+   "stem": "Four coins are flipped over and over, and the number of heads is noted each time. The results are shown in the table.",
+   "type": "numeric",
+   "prompt": "Based on this experiment, what is the experimental probability of getting $4$ heads?",
+   "answer": "0",
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "Number of heads",
+      0,
+      1,
+      2,
+      3,
+      4
+     ],
+     [
+      "Frequency",
+      "2",
+      "4",
+      "7",
+      "3",
+      "0"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q13b",
+   "label": "13b",
+   "section": "Reasoning",
+   "stem": "Four coins are flipped over and over, and the number of heads is noted each time. The results are shown in the table.",
+   "type": "numeric",
+   "prompt": "Based on this experiment, what is the experimental probability of getting $3$ tails?",
+   "answer": "1/4",
+   "hint": "3 tails out of 4 coins means 1 head"
+  },
+  {
+   "id": "q13c",
+   "label": "13c",
+   "section": "Reasoning",
+   "stem": "Four coins are flipped over and over, and the number of heads is noted each time. The results are shown in the table.",
+   "type": "numeric",
+   "prompt": "Use a tree diagram (or list the outcomes) to find the actual probability of getting $4$ heads.",
+   "answer": "1/16"
+  },
+  {
+   "id": "q13d",
+   "label": "13d",
+   "section": "Reasoning",
+   "stem": "Four coins are flipped over and over, and the number of heads is noted each time. The results are shown in the table.",
+   "type": "choice",
+   "prompt": "True or false? If the experimental probability is $0$, then the theoretical probability is $0$.",
+   "answer": 1,
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "id": "q13e",
+   "label": "13e",
+   "section": "Reasoning",
+   "stem": "Four coins are flipped over and over, and the number of heads is noted each time. The results are shown in the table.",
+   "type": "choice",
+   "prompt": "True or false? If the theoretical probability is $0$, then the experimental probability is $0$.",
+   "answer": 0,
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "id": "q14a",
+   "label": "14a",
+   "section": "Enrichment",
+   "stem": "Darts are thrown at random at the picture: a blue 25 cm by 8 cm rectangle with a red square inside. Every dart hits the picture.",
+   "type": "numeric",
+   "prompt": "Find the red area.",
+   "answer": "36",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 16,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        25,
+        0
+       ],
+       [
+        25,
+        8
+       ],
+       [
+        0,
+        8
+       ]
+      ]
+     },
+     {
+      "poly": [
+       [
+        13,
+        1
+       ],
+       [
+        19,
+        1
+       ],
+       [
+        19,
+        7
+       ],
+       [
+        13,
+        7
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "Red",
+      "at": [
+       16,
+       4
+      ]
+     },
+     {
+      "label": "Blue",
+      "at": [
+       5,
+       4
+      ]
+     },
+     {
+      "dim": [
+       19,
+       1,
+       19,
+       7
+      ],
+      "label": "6 cm",
+      "off": -0.8
+     },
+     {
+      "dim": [
+       0,
+       0,
+       25,
+       0
+      ],
+      "label": "25 cm",
+      "off": -0.8
+     },
+     {
+      "dim": [
+       25,
+       0,
+       25,
+       8
+      ],
+      "label": "8 cm",
+      "off": -1.2
+     }
+    ]
+   },
+   "units": "cm²"
+  },
+  {
+   "id": "q14b",
+   "label": "14b",
+   "section": "Enrichment",
+   "stem": "Darts are thrown at random at the picture: a blue 25 cm by 8 cm rectangle with a red square inside. Every dart hits the picture.",
+   "type": "numeric",
+   "prompt": "Find the total area of the picture.",
+   "answer": "200",
+   "units": "cm²"
+  },
+  {
+   "id": "q14c",
+   "label": "14c",
+   "section": "Enrichment",
+   "stem": "Darts are thrown at random at the picture: a blue 25 cm by 8 cm rectangle with a red square inside. Every dart hits the picture.",
+   "type": "numeric",
+   "prompt": "A dart is thrown at random. What is the probability that it hits the red part?",
+   "answer": "9/50"
+  },
+  {
+   "id": "q14d",
+   "label": "14d",
+   "section": "Enrichment",
+   "stem": "Darts are thrown at random at the picture: a blue 25 cm by 8 cm rectangle with a red square inside. Every dart hits the picture.",
+   "type": "numeric",
+   "prompt": "If $100$ darts are thrown, how many would you expect to land in the blue area?",
+   "answer": "82"
+  },
+  {
+   "id": "q14e",
+   "label": "14e",
+   "section": "Enrichment",
+   "stem": "$1000$ darts are thrown at random at this picture: a blue 20 cm by 10 cm rectangle with a 12 cm by 6 cm rectangle inside it, split into a red part and a white triangle. How many darts would you expect to hit:",
+   "type": "numeric",
+   "prompt": "red?",
+   "answer": "300",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 16,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        20,
+        0
+       ],
+       [
+        20,
+        10
+       ],
+       [
+        0,
+        10
+       ]
+      ]
+     },
+     {
+      "poly": [
+       [
+        4,
+        4
+       ],
+       [
+        16,
+        2
+       ],
+       [
+        16,
+        8
+       ],
+       [
+        4,
+        8
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        4,
+        2
+       ],
+       [
+        16,
+        2
+       ],
+       [
+        4,
+        4
+       ]
+      ]
+     },
+     {
+      "label": "Red",
+      "at": [
+       10,
+       5.9
+      ]
+     },
+     {
+      "label": "White",
+      "at": [
+       7.6,
+       2.55
+      ]
+     },
+     {
+      "label": "Blue",
+      "at": [
+       2,
+       8.6
+      ]
+     },
+     {
+      "dim": [
+       4,
+       8,
+       16,
+       8
+      ],
+      "label": "12 cm",
+      "off": 0.8
+     },
+     {
+      "dim": [
+       16,
+       2,
+       16,
+       8
+      ],
+      "label": "6 cm",
+      "off": -0.9
+     },
+     {
+      "dim": [
+       4,
+       2,
+       4,
+       4
+      ],
+      "label": "2 cm",
+      "off": 0.9
+     },
+     {
+      "dim": [
+       0,
+       0,
+       20,
+       0
+      ],
+      "label": "20 cm",
+      "off": -0.8
+     },
+     {
+      "dim": [
+       20,
+       0,
+       20,
+       10
+      ],
+      "label": "10 cm",
+      "off": -1.2
+     }
+    ]
+   }
+  },
+  {
+   "id": "q14f",
+   "label": "14f",
+   "section": "Enrichment",
+   "stem": "$1000$ darts are thrown at random at this picture: a blue 20 cm by 10 cm rectangle with a 12 cm by 6 cm rectangle inside it, split into a red part and a white triangle. How many darts would you expect to hit:",
+   "type": "numeric",
+   "prompt": "white?",
+   "answer": "60"
+  },
+  {
+   "id": "q14g",
+   "label": "14g",
+   "section": "Enrichment",
+   "stem": "$1000$ darts are thrown at random at this picture: a blue 20 cm by 10 cm rectangle with a 12 cm by 6 cm rectangle inside it, split into a red part and a white triangle. How many darts would you expect to hit:",
+   "type": "numeric",
+   "prompt": "blue?",
+   "answer": "640"
+  },
+  {
+   "id": "q14h",
+   "label": "14h",
+   "section": "Enrichment",
+   "stem": "A map of an island is drawn on a 40 cm by 25 cm rectangle. $1000$ darts are thrown at random at the map, and $340$ of them land on the island.",
+   "type": "numeric",
+   "prompt": "Estimate the area of the island on the map.",
+   "answer": "340",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 10,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        40,
+        0
+       ],
+       [
+        40,
+        25
+       ],
+       [
+        0,
+        25
+       ]
+      ]
+     },
+     {
+      "poly": [
+       [
+        6,
+        9
+       ],
+       [
+        9,
+        5
+       ],
+       [
+        15,
+        4
+       ],
+       [
+        19,
+        7
+       ],
+       [
+        24,
+        5
+       ],
+       [
+        30,
+        8
+       ],
+       [
+        33,
+        13
+       ],
+       [
+        31,
+        18
+       ],
+       [
+        26,
+        20
+       ],
+       [
+        22,
+        17
+       ],
+       [
+        17,
+        21
+       ],
+       [
+        11,
+        20
+       ],
+       [
+        8,
+        15
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "dim": [
+       0,
+       0,
+       40,
+       0
+      ],
+      "label": "40 cm",
+      "off": -0.8
+     },
+     {
+      "dim": [
+       40,
+       0,
+       40,
+       25
+      ],
+      "label": "25 cm",
+      "off": -1.2
+     }
+    ]
+   },
+   "units": "cm²"
+  },
+  {
+   "id": "q14i",
+   "label": "14i",
+   "section": "Enrichment",
+   "stem": "A map of an island is drawn on a 40 cm by 25 cm rectangle. $1000$ darts are thrown at random at the map, and $340$ of them land on the island.",
+   "type": "numeric",
+   "prompt": "The map has a scale of $1 : 500\\,000$. Estimate the real area of the island in square kilometres.",
+   "answer": "8500",
+   "units": "km²",
+   "hint": "1 km = 100 000 cm"
+  }
+ ]
+}
+);
