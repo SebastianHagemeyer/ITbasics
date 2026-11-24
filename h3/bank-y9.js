@@ -32965,6 +32965,5742 @@ window.H3_BANK.sets.push(
  ]
 },
 {
+ "id": "y9-3d",
+ "year": 9,
+ "chapter": "Chapter 3: Pythagoras' theorem and trigonometry",
+ "title": "3D Using Pythagoras' theorem to solve three-dimensional problems",
+ "description": "Find right-angled triangles inside prisms, cylinders, cones and pyramids, then use Pythagoras' theorem to find lengths in 3D.",
+ "questions": [
+  {
+   "id": "q1",
+   "label": "1",
+   "section": "Fluency",
+   "type": "numeric",
+   "prompt": "The diagonal across the base of a rectangular prism is $12$ mm long and the prism is $7$ mm high. Find the distance from one corner of the prism to the opposite corner, correct to two decimal places.",
+   "answer": "13.89",
+   "dp": 2,
+   "units": "mm",
+   "figure": {
+    "kind": "diagram",
+    "unit": 19.64,
+    "items": [
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       5
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       2.298,
+       1.928
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       0,
+       0,
+       8,
+       0
+      ]
+     },
+     {
+      "seg": [
+       0,
+       5,
+       2.298,
+       6.928
+      ]
+     },
+     {
+      "seg": [
+       0,
+       5,
+       8,
+       5
+      ]
+     },
+     {
+      "seg": [
+       2.298,
+       1.928,
+       2.298,
+       6.928
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       2.298,
+       1.928,
+       10.298,
+       1.928
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       2.298,
+       6.928,
+       10.298,
+       6.928
+      ]
+     },
+     {
+      "seg": [
+       8,
+       0,
+       8,
+       5
+      ]
+     },
+     {
+      "seg": [
+       8,
+       0,
+       10.298,
+       1.928
+      ]
+     },
+     {
+      "seg": [
+       8,
+       5,
+       10.298,
+       6.928
+      ]
+     },
+     {
+      "seg": [
+       10.298,
+       1.928,
+       10.298,
+       6.928
+      ]
+     },
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        10.298,
+        1.928
+       ],
+       [
+        10.298,
+        6.928
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       0,
+       0,
+       10.298,
+       6.928
+      ]
+     },
+     {
+      "angle": [
+       10.298,
+       1.928,
+       90,
+       180
+      ],
+      "right": true,
+      "r": 0.764
+     },
+     {
+      "label": "7 mm",
+      "at": [
+       10.648,
+       4.428
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "",
+      "at": [
+       12.498,
+       4.428
+      ]
+     },
+     {
+      "seg": [
+       8.6,
+       -1.1,
+       6.179,
+       1.157
+      ],
+      "arrow": "end",
+      "thin": true
+     },
+     {
+      "label": "12 mm",
+      "at": [
+       8.75,
+       -1.22
+      ],
+      "anchor": "start"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Find the distance, $d$ units, from one corner to the opposite corner of each rectangular prism, correct to two decimal places.",
+   "type": "numeric",
+   "prompt": "Base diagonal $0.45$ m, height $0.12$ m.",
+   "answer": "0.47",
+   "dp": 2,
+   "units": "m",
+   "figure": {
+    "kind": "diagram",
+    "unit": 20.99,
+    "items": [
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       2.4
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       1.839,
+       1.543
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       0,
+       0,
+       8,
+       0
+      ]
+     },
+     {
+      "seg": [
+       0,
+       2.4,
+       1.839,
+       3.943
+      ]
+     },
+     {
+      "seg": [
+       0,
+       2.4,
+       8,
+       2.4
+      ]
+     },
+     {
+      "seg": [
+       1.839,
+       1.543,
+       1.839,
+       3.943
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       1.839,
+       1.543,
+       9.839,
+       1.543
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       1.839,
+       3.943,
+       9.839,
+       3.943
+      ]
+     },
+     {
+      "seg": [
+       8,
+       0,
+       8,
+       2.4
+      ]
+     },
+     {
+      "seg": [
+       8,
+       0,
+       9.839,
+       1.543
+      ]
+     },
+     {
+      "seg": [
+       8,
+       2.4,
+       9.839,
+       3.943
+      ]
+     },
+     {
+      "seg": [
+       9.839,
+       1.543,
+       9.839,
+       3.943
+      ]
+     },
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        9.839,
+        1.543
+       ],
+       [
+        9.839,
+        3.943
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       0,
+       0,
+       9.839,
+       3.943
+      ]
+     },
+     {
+      "angle": [
+       9.839,
+       1.543,
+       90,
+       180
+      ],
+      "right": true,
+      "r": 0.715
+     },
+     {
+      "label": "0.12 m",
+      "at": [
+       10.189,
+       2.743
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "",
+      "at": [
+       12.039,
+       2.743
+      ]
+     },
+     {
+      "seg": [
+       8.6,
+       -1.1,
+       5.903,
+       0.926
+      ],
+      "arrow": "end",
+      "thin": true
+     },
+     {
+      "label": "0.45 m",
+      "at": [
+       8.75,
+       -1.22
+      ],
+      "anchor": "start"
+     },
+     {
+      "seg": [
+       -0.2,
+       4.443,
+       4.427,
+       1.774
+      ],
+      "arrow": "end",
+      "thin": true
+     },
+     {
+      "label": "d m",
+      "at": [
+       -0.35,
+       4.323
+      ],
+      "anchor": "end"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Find the distance, $d$ units, from one corner to the opposite corner of each rectangular prism, correct to two decimal places.",
+   "type": "numeric",
+   "prompt": "Base diagonal $15.84$ cm, height $7.36$ cm.",
+   "answer": "17.47",
+   "dp": 2,
+   "units": "cm",
+   "figure": {
+    "kind": "diagram",
+    "unit": 20.24,
+    "items": [
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       4
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       2.298,
+       1.928
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       0,
+       0,
+       8,
+       0
+      ]
+     },
+     {
+      "seg": [
+       0,
+       4,
+       2.298,
+       5.928
+      ]
+     },
+     {
+      "seg": [
+       0,
+       4,
+       8,
+       4
+      ]
+     },
+     {
+      "seg": [
+       2.298,
+       1.928,
+       2.298,
+       5.928
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       2.298,
+       1.928,
+       10.298,
+       1.928
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       2.298,
+       5.928,
+       10.298,
+       5.928
+      ]
+     },
+     {
+      "seg": [
+       8,
+       0,
+       8,
+       4
+      ]
+     },
+     {
+      "seg": [
+       8,
+       0,
+       10.298,
+       1.928
+      ]
+     },
+     {
+      "seg": [
+       8,
+       4,
+       10.298,
+       5.928
+      ]
+     },
+     {
+      "seg": [
+       10.298,
+       1.928,
+       10.298,
+       5.928
+      ]
+     },
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        10.298,
+        1.928
+       ],
+       [
+        10.298,
+        5.928
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       0,
+       0,
+       10.298,
+       5.928
+      ]
+     },
+     {
+      "angle": [
+       10.298,
+       1.928,
+       90,
+       180
+      ],
+      "right": true,
+      "r": 0.741
+     },
+     {
+      "label": "7.36 cm",
+      "at": [
+       10.648,
+       3.928
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "",
+      "at": [
+       12.498,
+       3.928
+      ]
+     },
+     {
+      "seg": [
+       8.6,
+       -1.1,
+       6.179,
+       1.157
+      ],
+      "arrow": "end",
+      "thin": true
+     },
+     {
+      "label": "15.84 cm",
+      "at": [
+       8.75,
+       -1.22
+      ],
+      "anchor": "start"
+     },
+     {
+      "seg": [
+       -0.2,
+       6.428,
+       4.634,
+       2.668
+      ],
+      "arrow": "end",
+      "thin": true
+     },
+     {
+      "label": "d cm",
+      "at": [
+       -0.35,
+       6.308
+      ],
+      "anchor": "end"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Find the slant height, $s$ units, of each cone, correct to one decimal place.",
+   "type": "numeric",
+   "prompt": "Height $4$ cm, radius $1.5$ cm.",
+   "answer": "4.3",
+   "dp": 1,
+   "units": "cm",
+   "figure": {
+    "kind": "diagram",
+    "unit": 32.65,
+    "items": [
+     {
+      "poly": [
+       [
+        1.5,
+        0
+       ],
+       [
+        1.477,
+        0.078
+       ],
+       [
+        1.41,
+        0.154
+       ],
+       [
+        1.299,
+        0.225
+       ],
+       [
+        1.149,
+        0.289
+       ],
+       [
+        0.964,
+        0.345
+       ],
+       [
+        0.75,
+        0.39
+       ],
+       [
+        0.513,
+        0.423
+       ],
+       [
+        0.26,
+        0.443
+       ],
+       [
+        0,
+        0.45
+       ],
+       [
+        -0.26,
+        0.443
+       ],
+       [
+        -0.513,
+        0.423
+       ],
+       [
+        -0.75,
+        0.39
+       ],
+       [
+        -0.964,
+        0.345
+       ],
+       [
+        -1.149,
+        0.289
+       ],
+       [
+        -1.299,
+        0.225
+       ],
+       [
+        -1.41,
+        0.154
+       ],
+       [
+        -1.477,
+        0.078
+       ],
+       [
+        -1.5,
+        0
+       ],
+       [
+        -1.477,
+        -0.078
+       ],
+       [
+        -1.41,
+        -0.154
+       ],
+       [
+        -1.299,
+        -0.225
+       ],
+       [
+        -1.149,
+        -0.289
+       ],
+       [
+        -0.964,
+        -0.345
+       ],
+       [
+        -0.75,
+        -0.39
+       ],
+       [
+        -0.513,
+        -0.423
+       ],
+       [
+        -0.26,
+        -0.443
+       ],
+       [
+        0,
+        -0.45
+       ],
+       [
+        0.26,
+        -0.443
+       ],
+       [
+        0.513,
+        -0.423
+       ],
+       [
+        0.75,
+        -0.39
+       ],
+       [
+        0.964,
+        -0.345
+       ],
+       [
+        1.149,
+        -0.289
+       ],
+       [
+        1.299,
+        -0.225
+       ],
+       [
+        1.41,
+        -0.154
+       ],
+       [
+        1.477,
+        -0.078
+       ],
+       [
+        1.5,
+        0
+       ]
+      ],
+      "open": true
+     },
+     {
+      "seg": [
+       -1.5,
+       0,
+       0,
+       4
+      ]
+     },
+     {
+      "seg": [
+       1.5,
+       0,
+       0,
+       4
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       4
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       0,
+       0,
+       1.5,
+       0
+      ],
+      "dash": true
+     },
+     {
+      "dim": [
+       -2,
+       0,
+       -2,
+       4
+      ],
+      "label": "4 cm",
+      "off": 0
+     },
+     {
+      "label": "1.5 cm",
+      "at": [
+       0.75,
+       -0.9
+      ]
+     },
+     {
+      "label": "s cm",
+      "at": [
+       1.04,
+       2.109
+      ],
+      "anchor": "start"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Find the slant height, $s$ units, of each cone, correct to one decimal place.",
+   "type": "numeric",
+   "prompt": "Height $2.6$ m, base diameter $1.8$ m.",
+   "answer": "2.8",
+   "dp": 1,
+   "units": "m",
+   "figure": {
+    "kind": "diagram",
+    "unit": 60,
+    "items": [
+     {
+      "poly": [
+       [
+        0.27,
+        0
+       ],
+       [
+        0.266,
+        0.156
+       ],
+       [
+        0.254,
+        0.308
+       ],
+       [
+        0.234,
+        0.45
+       ],
+       [
+        0.207,
+        0.579
+       ],
+       [
+        0.174,
+        0.689
+       ],
+       [
+        0.135,
+        0.779
+       ],
+       [
+        0.092,
+        0.846
+       ],
+       [
+        0.047,
+        0.886
+       ],
+       [
+        0,
+        0.9
+       ],
+       [
+        -0.047,
+        0.886
+       ],
+       [
+        -0.092,
+        0.846
+       ],
+       [
+        -0.135,
+        0.779
+       ],
+       [
+        -0.174,
+        0.689
+       ],
+       [
+        -0.207,
+        0.579
+       ],
+       [
+        -0.234,
+        0.45
+       ],
+       [
+        -0.254,
+        0.308
+       ],
+       [
+        -0.266,
+        0.156
+       ],
+       [
+        -0.27,
+        0
+       ],
+       [
+        -0.266,
+        -0.156
+       ],
+       [
+        -0.254,
+        -0.308
+       ],
+       [
+        -0.234,
+        -0.45
+       ],
+       [
+        -0.207,
+        -0.579
+       ],
+       [
+        -0.174,
+        -0.689
+       ],
+       [
+        -0.135,
+        -0.779
+       ],
+       [
+        -0.092,
+        -0.846
+       ],
+       [
+        -0.047,
+        -0.886
+       ],
+       [
+        0,
+        -0.9
+       ],
+       [
+        0.047,
+        -0.886
+       ],
+       [
+        0.092,
+        -0.846
+       ],
+       [
+        0.135,
+        -0.779
+       ],
+       [
+        0.174,
+        -0.689
+       ],
+       [
+        0.207,
+        -0.579
+       ],
+       [
+        0.234,
+        -0.45
+       ],
+       [
+        0.254,
+        -0.308
+       ],
+       [
+        0.266,
+        -0.156
+       ],
+       [
+        0.27,
+        0
+       ]
+      ],
+      "open": true
+     },
+     {
+      "seg": [
+       0,
+       0.9,
+       2.6,
+       0
+      ]
+     },
+     {
+      "seg": [
+       0,
+       -0.9,
+       2.6,
+       0
+      ]
+     },
+     {
+      "seg": [
+       0,
+       -0.9,
+       0,
+       0.9
+      ],
+      "dash": true
+     },
+     {
+      "dim": [
+       -0.7,
+       -0.9,
+       -0.7,
+       0.9
+      ],
+      "label": "1.8 m",
+      "off": 0
+     },
+     {
+      "dim": [
+       0,
+       -1.4,
+       2.6,
+       -1.4
+      ],
+      "label": "2.6 m",
+      "off": -0.233
+     },
+     {
+      "label": "s m",
+      "at": [
+       1.375,
+       0.665
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Find the slant height, $s$ units, of each cone, correct to one decimal place.",
+   "type": "numeric",
+   "prompt": "Height $3.5$ cm, base diameter $1.2$ cm.",
+   "answer": "3.6",
+   "dp": 1,
+   "units": "cm",
+   "figure": {
+    "kind": "diagram",
+    "unit": 39.22,
+    "items": [
+     {
+      "poly": [
+       [
+        0.6,
+        3.5
+       ],
+       [
+        0.591,
+        3.531
+       ],
+       [
+        0.564,
+        3.562
+       ],
+       [
+        0.52,
+        3.59
+       ],
+       [
+        0.46,
+        3.616
+       ],
+       [
+        0.386,
+        3.638
+       ],
+       [
+        0.3,
+        3.656
+       ],
+       [
+        0.205,
+        3.669
+       ],
+       [
+        0.104,
+        3.677
+       ],
+       [
+        0,
+        3.68
+       ],
+       [
+        -0.104,
+        3.677
+       ],
+       [
+        -0.205,
+        3.669
+       ],
+       [
+        -0.3,
+        3.656
+       ],
+       [
+        -0.386,
+        3.638
+       ],
+       [
+        -0.46,
+        3.616
+       ],
+       [
+        -0.52,
+        3.59
+       ],
+       [
+        -0.564,
+        3.562
+       ],
+       [
+        -0.591,
+        3.531
+       ],
+       [
+        -0.6,
+        3.5
+       ],
+       [
+        -0.591,
+        3.469
+       ],
+       [
+        -0.564,
+        3.438
+       ],
+       [
+        -0.52,
+        3.41
+       ],
+       [
+        -0.46,
+        3.384
+       ],
+       [
+        -0.386,
+        3.362
+       ],
+       [
+        -0.3,
+        3.344
+       ],
+       [
+        -0.205,
+        3.331
+       ],
+       [
+        -0.104,
+        3.323
+       ],
+       [
+        0,
+        3.32
+       ],
+       [
+        0.104,
+        3.323
+       ],
+       [
+        0.205,
+        3.331
+       ],
+       [
+        0.3,
+        3.344
+       ],
+       [
+        0.386,
+        3.362
+       ],
+       [
+        0.46,
+        3.384
+       ],
+       [
+        0.52,
+        3.41
+       ],
+       [
+        0.564,
+        3.438
+       ],
+       [
+        0.591,
+        3.469
+       ],
+       [
+        0.6,
+        3.5
+       ]
+      ],
+      "open": true
+     },
+     {
+      "seg": [
+       -0.6,
+       3.5,
+       0,
+       0
+      ]
+     },
+     {
+      "seg": [
+       0.6,
+       3.5,
+       0,
+       0
+      ]
+     },
+     {
+      "dim": [
+       -0.6,
+       4.08,
+       0.6,
+       4.08
+      ],
+      "label": "1.2 cm",
+      "off": 0.306
+     },
+     {
+      "dim": [
+       -1.2,
+       0,
+       -1.2,
+       3.5
+      ],
+      "label": "3.5 cm",
+      "off": 0
+     },
+     {
+      "label": "s cm",
+      "at": [
+       0.527,
+       1.711
+      ],
+      "anchor": "start"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "Find the length of the longest rod that will fit inside a cylinder with these measurements. Give each answer to the nearest millimetre.",
+   "type": "numeric",
+   "prompt": "Diameter $12$ cm and height $18$ cm",
+   "answer": "21.6",
+   "units": "cm",
+   "dp": 1,
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 36.59,
+    "items": [
+     {
+      "poly": [
+       [
+        1.6,
+        0
+       ],
+       [
+        1.576,
+        0.078
+       ],
+       [
+        1.504,
+        0.154
+       ],
+       [
+        1.386,
+        0.225
+       ],
+       [
+        1.226,
+        0.289
+       ],
+       [
+        1.028,
+        0.345
+       ],
+       [
+        0.8,
+        0.39
+       ],
+       [
+        0.547,
+        0.423
+       ],
+       [
+        0.278,
+        0.443
+       ],
+       [
+        0,
+        0.45
+       ],
+       [
+        -0.278,
+        0.443
+       ],
+       [
+        -0.547,
+        0.423
+       ],
+       [
+        -0.8,
+        0.39
+       ],
+       [
+        -1.028,
+        0.345
+       ],
+       [
+        -1.226,
+        0.289
+       ],
+       [
+        -1.386,
+        0.225
+       ],
+       [
+        -1.504,
+        0.154
+       ],
+       [
+        -1.576,
+        0.078
+       ],
+       [
+        -1.6,
+        0
+       ],
+       [
+        -1.576,
+        -0.078
+       ],
+       [
+        -1.504,
+        -0.154
+       ],
+       [
+        -1.386,
+        -0.225
+       ],
+       [
+        -1.226,
+        -0.289
+       ],
+       [
+        -1.028,
+        -0.345
+       ],
+       [
+        -0.8,
+        -0.39
+       ],
+       [
+        -0.547,
+        -0.423
+       ],
+       [
+        -0.278,
+        -0.443
+       ],
+       [
+        0,
+        -0.45
+       ],
+       [
+        0.278,
+        -0.443
+       ],
+       [
+        0.547,
+        -0.423
+       ],
+       [
+        0.8,
+        -0.39
+       ],
+       [
+        1.028,
+        -0.345
+       ],
+       [
+        1.226,
+        -0.289
+       ],
+       [
+        1.386,
+        -0.225
+       ],
+       [
+        1.504,
+        -0.154
+       ],
+       [
+        1.576,
+        -0.078
+       ],
+       [
+        1.6,
+        0
+       ]
+      ],
+      "open": true
+     },
+     {
+      "poly": [
+       [
+        1.6,
+        3.2
+       ],
+       [
+        1.576,
+        3.278
+       ],
+       [
+        1.504,
+        3.354
+       ],
+       [
+        1.386,
+        3.425
+       ],
+       [
+        1.226,
+        3.489
+       ],
+       [
+        1.028,
+        3.545
+       ],
+       [
+        0.8,
+        3.59
+       ],
+       [
+        0.547,
+        3.623
+       ],
+       [
+        0.278,
+        3.643
+       ],
+       [
+        0,
+        3.65
+       ],
+       [
+        -0.278,
+        3.643
+       ],
+       [
+        -0.547,
+        3.623
+       ],
+       [
+        -0.8,
+        3.59
+       ],
+       [
+        -1.028,
+        3.545
+       ],
+       [
+        -1.226,
+        3.489
+       ],
+       [
+        -1.386,
+        3.425
+       ],
+       [
+        -1.504,
+        3.354
+       ],
+       [
+        -1.576,
+        3.278
+       ],
+       [
+        -1.6,
+        3.2
+       ],
+       [
+        -1.576,
+        3.122
+       ],
+       [
+        -1.504,
+        3.046
+       ],
+       [
+        -1.386,
+        2.975
+       ],
+       [
+        -1.226,
+        2.911
+       ],
+       [
+        -1.028,
+        2.855
+       ],
+       [
+        -0.8,
+        2.81
+       ],
+       [
+        -0.547,
+        2.777
+       ],
+       [
+        -0.278,
+        2.757
+       ],
+       [
+        0,
+        2.75
+       ],
+       [
+        0.278,
+        2.757
+       ],
+       [
+        0.547,
+        2.777
+       ],
+       [
+        0.8,
+        2.81
+       ],
+       [
+        1.028,
+        2.855
+       ],
+       [
+        1.226,
+        2.911
+       ],
+       [
+        1.386,
+        2.975
+       ],
+       [
+        1.504,
+        3.046
+       ],
+       [
+        1.576,
+        3.122
+       ],
+       [
+        1.6,
+        3.2
+       ]
+      ],
+      "open": true
+     },
+     {
+      "seg": [
+       -1.6,
+       0,
+       -1.6,
+       3.2
+      ]
+     },
+     {
+      "seg": [
+       1.6,
+       0,
+       1.6,
+       3.2
+      ]
+     },
+     {
+      "seg": [
+       -1.6,
+       0,
+       1.6,
+       3.2
+      ]
+     },
+     {
+      "label": "rod",
+      "at": [
+       0.56,
+       1.44
+      ],
+      "anchor": "start"
+     }
+    ]
+   },
+   "hint": "1 cm = 10 mm, so the nearest millimetre is one decimal place in cm."
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "Find the length of the longest rod that will fit inside a cylinder with these measurements. Give each answer to the nearest millimetre.",
+   "type": "numeric",
+   "prompt": "Radius $3.1$ mm and height $4.6$ mm",
+   "answer": "8",
+   "units": "mm"
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "Find the length of the longest rod that will fit inside a cylinder with these measurements. Give each answer to the nearest millimetre.",
+   "type": "numeric",
+   "prompt": "Diameter $0.042$ m and height $0.019$ m",
+   "answer": "0.046",
+   "units": "m",
+   "dp": 3,
+   "hint": "1 m = 1000 mm, so the nearest millimetre is three decimal places in metres."
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Fluency",
+   "stem": "This cube has sides of $3$ cm.",
+   "type": "numeric",
+   "prompt": "Find the length of $AC$ as an exact value, in simplest surd form.",
+   "answer": "3sqrt2",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 28.87,
+    "items": [
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       4
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       1.839,
+       1.543
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       0,
+       0,
+       4,
+       0
+      ]
+     },
+     {
+      "seg": [
+       0,
+       4,
+       1.839,
+       5.543
+      ]
+     },
+     {
+      "seg": [
+       0,
+       4,
+       4,
+       4
+      ]
+     },
+     {
+      "seg": [
+       1.839,
+       1.543,
+       1.839,
+       5.543
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       1.839,
+       1.543,
+       5.839,
+       1.543
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       1.839,
+       5.543,
+       5.839,
+       5.543
+      ]
+     },
+     {
+      "seg": [
+       4,
+       0,
+       4,
+       4
+      ]
+     },
+     {
+      "seg": [
+       4,
+       0,
+       5.839,
+       1.543
+      ]
+     },
+     {
+      "seg": [
+       4,
+       4,
+       5.839,
+       5.543
+      ]
+     },
+     {
+      "seg": [
+       5.839,
+       1.543,
+       5.839,
+       5.543
+      ]
+     },
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        4,
+        0
+       ],
+       [
+        5.839,
+        1.543
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       0,
+       0,
+       5.839,
+       1.543
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       5.839,
+       5.543
+      ]
+     },
+     {
+      "point": [
+       0,
+       0
+      ],
+      "name": "A",
+      "pos": "sw"
+     },
+     {
+      "point": [
+       4,
+       0
+      ],
+      "name": "B",
+      "pos": "s"
+     },
+     {
+      "point": [
+       5.839,
+       1.543
+      ],
+      "name": "C",
+      "pos": "e"
+     },
+     {
+      "point": [
+       5.839,
+       5.543
+      ],
+      "name": "D",
+      "pos": "ne"
+     }
+    ]
+   },
+   "hint": "Give an exact value: type a square root as sqrt, for example 3sqrt5 or sqrt41",
+   "as": "surd"
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Fluency",
+   "stem": "This cube has sides of $3$ cm.",
+   "type": "numeric",
+   "prompt": "Hence find the length of $AD$, correct to one decimal place.",
+   "answer": "5.2",
+   "dp": 1,
+   "units": "cm"
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Fluency",
+   "stem": "Look at this solid. Angles $ABC$ and $ACD$ are right angles.",
+   "type": "numeric",
+   "prompt": "Find the length of $AC$ as an exact value, in simplest surd form.",
+   "answer": "2sqrt34",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 20.51,
+    "items": [
+     {
+      "seg": [
+       0,
+       0,
+       10,
+       0
+      ]
+     },
+     {
+      "seg": [
+       10,
+       0,
+       12.758,
+       2.314
+      ]
+     },
+     {
+      "seg": [
+       12.758,
+       2.314,
+       12.758,
+       7.314
+      ]
+     },
+     {
+      "seg": [
+       12.758,
+       7.314,
+       2.758,
+       7.314
+      ]
+     },
+     {
+      "seg": [
+       2.758,
+       7.314,
+       0,
+       0
+      ]
+     },
+     {
+      "seg": [
+       10,
+       0,
+       12.758,
+       7.314
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       2.758,
+       2.314
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       2.758,
+       2.314,
+       12.758,
+       2.314
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       2.758,
+       2.314,
+       2.758,
+       7.314
+      ],
+      "dash": true
+     },
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        12.758,
+        2.314
+       ],
+       [
+        12.758,
+        7.314
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       0,
+       0,
+       12.758,
+       2.314
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       12.758,
+       7.314
+      ]
+     },
+     {
+      "point": [
+       0,
+       0
+      ],
+      "name": "A",
+      "pos": "sw"
+     },
+     {
+      "point": [
+       10,
+       0
+      ],
+      "name": "B",
+      "pos": "s"
+     },
+     {
+      "point": [
+       12.758,
+       2.314
+      ],
+      "name": "C",
+      "pos": "e"
+     },
+     {
+      "point": [
+       12.758,
+       7.314
+      ],
+      "name": "D",
+      "pos": "ne"
+     },
+     {
+      "point": [
+       2.758,
+       7.314
+      ],
+      "name": "E",
+      "pos": "n"
+     },
+     {
+      "point": [
+       2.758,
+       2.314
+      ],
+      "name": "F",
+      "pos": "w"
+     },
+     {
+      "label": "10 cm",
+      "at": [
+       5,
+       -0.585
+      ]
+     },
+     {
+      "label": "6 cm",
+      "at": [
+       11.711,
+       0.761
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "5 cm",
+      "at": [
+       13.05,
+       4.814
+      ],
+      "anchor": "start"
+     }
+    ]
+   },
+   "hint": "Give an exact value: type a square root as sqrt, for example 3sqrt5 or sqrt41",
+   "as": "surd"
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Fluency",
+   "stem": "Look at this solid. Angles $ABC$ and $ACD$ are right angles.",
+   "type": "numeric",
+   "prompt": "Hence find the length of $AD$, correct to one decimal place.",
+   "answer": "12.7",
+   "dp": 1,
+   "units": "cm"
+  },
+  {
+   "id": "q7",
+   "label": "7",
+   "section": "Problem-solving",
+   "type": "numeric",
+   "prompt": "A gold prospector claims a circular piece of land with a radius of $35$ m around a marker, and may dig down to a depth of $20$ m. If tunnels can be dug at any angle, how long is the longest straight tunnel that fits inside the claim? Give your answer to the nearest metre.",
+   "answer": "73",
+   "units": "m"
+  },
+  {
+   "id": "q8",
+   "label": "8",
+   "section": "Problem-solving",
+   "type": "numeric",
+   "prompt": "A bowl is a hemisphere (half a sphere) with radius $12$ cm. The surface of the water in the bowl is a circle with radius $8$ cm. How deep is the water? Give your answer correct to two decimal places.",
+   "answer": "3.06",
+   "dp": 2,
+   "units": "cm",
+   "figure": {
+    "kind": "diagram",
+    "unit": 10,
+    "items": [
+     {
+      "poly": [
+       [
+        -12,
+        0
+       ],
+       [
+        -11.954,
+        -1.046
+       ],
+       [
+        -11.818,
+        -2.084
+       ],
+       [
+        -11.591,
+        -3.106
+       ],
+       [
+        -11.276,
+        -4.104
+       ],
+       [
+        -10.876,
+        -5.071
+       ],
+       [
+        -10.392,
+        -6
+       ],
+       [
+        -9.83,
+        -6.883
+       ],
+       [
+        -9.193,
+        -7.713
+       ],
+       [
+        -8.485,
+        -8.485
+       ],
+       [
+        -7.713,
+        -9.193
+       ],
+       [
+        -6.883,
+        -9.83
+       ],
+       [
+        -6,
+        -10.392
+       ],
+       [
+        -5.071,
+        -10.876
+       ],
+       [
+        -4.104,
+        -11.276
+       ],
+       [
+        -3.106,
+        -11.591
+       ],
+       [
+        -2.084,
+        -11.818
+       ],
+       [
+        -1.046,
+        -11.954
+       ],
+       [
+        0,
+        -12
+       ],
+       [
+        1.046,
+        -11.954
+       ],
+       [
+        2.084,
+        -11.818
+       ],
+       [
+        3.106,
+        -11.591
+       ],
+       [
+        4.104,
+        -11.276
+       ],
+       [
+        5.071,
+        -10.876
+       ],
+       [
+        6,
+        -10.392
+       ],
+       [
+        6.883,
+        -9.83
+       ],
+       [
+        7.713,
+        -9.193
+       ],
+       [
+        8.485,
+        -8.485
+       ],
+       [
+        9.193,
+        -7.713
+       ],
+       [
+        9.83,
+        -6.883
+       ],
+       [
+        10.392,
+        -6
+       ],
+       [
+        10.876,
+        -5.071
+       ],
+       [
+        11.276,
+        -4.104
+       ],
+       [
+        11.591,
+        -3.106
+       ],
+       [
+        11.818,
+        -2.084
+       ],
+       [
+        11.954,
+        -1.046
+       ],
+       [
+        12,
+        0
+       ]
+      ],
+      "open": true
+     },
+     {
+      "seg": [
+       0,
+       0,
+       12,
+       0
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       -8.944
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       0,
+       -8.944,
+       8,
+       -8.944
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       0,
+       0,
+       8,
+       -8.944
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       -8,
+       -8.944,
+       8,
+       -8.944
+      ]
+     },
+     {
+      "label": "12 cm",
+      "at": [
+       6,
+       0.9
+      ]
+     },
+     {
+      "label": "8 cm",
+      "at": [
+       3.2,
+       -11.244
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q9",
+   "label": "9",
+   "section": "Problem-solving",
+   "type": "numeric",
+   "prompt": "A cube with side length $l$ sits inside a sphere with radius $r$, so that all eight corners of the cube touch the sphere. Then $r = k \\times l$ for some number $k$. Find $k$ as an exact value.",
+   "answer": "sqrt3/2",
+   "allowExpr": true,
+   "hint": "Give an exact value, not a decimal. Type a square root as sqrt, for example sqrt5/3"
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Reasoning",
+   "stem": "This rectangular prism is $7$ by $3$ by $2$ units.",
+   "type": "numeric",
+   "prompt": "Find the exact length $AB$.",
+   "answer": "sqrt58",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 31.03,
+    "items": [
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       2
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       1.379,
+       1.157
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       0,
+       0,
+       7,
+       0
+      ]
+     },
+     {
+      "seg": [
+       0,
+       2,
+       1.379,
+       3.157
+      ]
+     },
+     {
+      "seg": [
+       0,
+       2,
+       7,
+       2
+      ]
+     },
+     {
+      "seg": [
+       1.379,
+       1.157,
+       1.379,
+       3.157
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       1.379,
+       1.157,
+       8.379,
+       1.157
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       1.379,
+       3.157,
+       8.379,
+       3.157
+      ]
+     },
+     {
+      "seg": [
+       7,
+       0,
+       7,
+       2
+      ]
+     },
+     {
+      "seg": [
+       7,
+       0,
+       8.379,
+       1.157
+      ]
+     },
+     {
+      "seg": [
+       7,
+       2,
+       8.379,
+       3.157
+      ]
+     },
+     {
+      "seg": [
+       8.379,
+       1.157,
+       8.379,
+       3.157
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       8.379,
+       1.157
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       8.379,
+       1.157,
+       8.379,
+       3.157
+      ]
+     },
+     {
+      "point": [
+       0,
+       0
+      ],
+      "name": "A",
+      "pos": "sw"
+     },
+     {
+      "point": [
+       8.379,
+       1.157
+      ],
+      "name": "B",
+      "pos": "e"
+     },
+     {
+      "point": [
+       8.379,
+       3.157
+      ],
+      "name": "C",
+      "pos": "ne"
+     },
+     {
+      "label": "7",
+      "at": [
+       3.5,
+       -0.387
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       7.909,
+       0.317
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "2",
+      "at": [
+       8.572,
+       2.157
+      ],
+      "anchor": "start"
+     }
+    ]
+   },
+   "hint": "Give an exact value: type a square root as sqrt, for example 3sqrt5 or sqrt41",
+   "as": "surd"
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Reasoning",
+   "stem": "This rectangular prism is $7$ by $3$ by $2$ units.",
+   "type": "numeric",
+   "prompt": "Find $AB$ correct to two decimal places.",
+   "answer": "7.62",
+   "dp": 2
+  },
+  {
+   "id": "q10c",
+   "label": "10c",
+   "section": "Reasoning",
+   "stem": "This rectangular prism is $7$ by $3$ by $2$ units.",
+   "type": "numeric",
+   "prompt": "Find $AC$ using your exact answer from part a, then round to two decimal places.",
+   "answer": "7.87",
+   "dp": 2
+  },
+  {
+   "id": "q10d",
+   "label": "10d",
+   "section": "Reasoning",
+   "stem": "This rectangular prism is $7$ by $3$ by $2$ units.",
+   "type": "numeric",
+   "prompt": "Find $AC$ using your rounded answer from part b, then round to two decimal places.",
+   "answer": "7.88",
+   "dp": 2
+  },
+  {
+   "id": "q10e",
+   "label": "10e",
+   "section": "Reasoning",
+   "stem": "This rectangular prism is $7$ by $3$ by $2$ units.",
+   "type": "choice",
+   "prompt": "Why are the answers to parts c and d different?",
+   "answer": 1,
+   "options": [
+    "Part c used the wrong side of the triangle",
+    "Part d used a rounded value part-way through, so its answer is less accurate",
+    "Pythagoras' theorem only works with exact values"
+   ]
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Reasoning",
+   "stem": "For each square-based pyramid, find (i) the exact length of the diagonal of the base, using a surd, and (ii) the height of the pyramid, correct to two decimal places.",
+   "type": "numeric",
+   "prompt": "Base edges $4$ cm, sloping edges $7$ cm: (i) the exact length of the base diagonal.",
+   "answer": "2sqrt2",
+   "figure": {
+    "kind": "diagram",
+    "unit": 25.48,
+    "items": [
+     {
+      "seg": [
+       0,
+       0,
+       4,
+       0
+      ]
+     },
+     {
+      "seg": [
+       4,
+       0,
+       5.839,
+       1.543
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       1.839,
+       1.543
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       1.839,
+       1.543,
+       5.839,
+       1.543
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       2.919,
+       6.671,
+       0,
+       0
+      ]
+     },
+     {
+      "seg": [
+       2.919,
+       6.671,
+       4,
+       0
+      ]
+     },
+     {
+      "seg": [
+       2.919,
+       6.671,
+       5.839,
+       1.543
+      ]
+     },
+     {
+      "seg": [
+       2.919,
+       6.671,
+       1.839,
+       1.543
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       2.919,
+       6.671,
+       2.919,
+       0.771
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       0,
+       0,
+       5.839,
+       1.543
+      ],
+      "dash": true
+     },
+     {
+      "point": [
+       2.919,
+       0.771
+      ]
+     },
+     {
+      "tick": [
+       0,
+       0,
+       4,
+       0
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       4,
+       0,
+       5.839,
+       1.543
+      ],
+      "n": 2
+     },
+     {
+      "label": "4 cm",
+      "at": [
+       2,
+       -0.549
+      ]
+     },
+     {
+      "label": "7 cm",
+      "at": [
+       4.829,
+       4.307
+      ],
+      "anchor": "start"
+     }
+    ]
+   },
+   "hint": "Give an exact value: type a square root as sqrt, for example 3sqrt5 or sqrt41",
+   "units": "cm",
+   "as": "surd"
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Reasoning",
+   "stem": "For each square-based pyramid, find (i) the exact length of the diagonal of the base, using a surd, and (ii) the height of the pyramid, correct to two decimal places.",
+   "type": "numeric",
+   "prompt": "Base edges $4$ cm, sloping edges $7$ cm: (ii) the height of the pyramid.",
+   "answer": "6.40",
+   "dp": 2,
+   "units": "cm"
+  },
+  {
+   "id": "q11c",
+   "label": "11c",
+   "section": "Reasoning",
+   "stem": "For each square-based pyramid, find (i) the exact length of the diagonal of the base, using a surd, and (ii) the height of the pyramid, correct to two decimal places.",
+   "type": "numeric",
+   "prompt": "Base edges $6$ cm, slant height of each face $8$ cm: (i) the exact length of the base diagonal.",
+   "answer": "6sqrt2",
+   "figure": {
+    "kind": "diagram",
+    "unit": 18.36,
+    "items": [
+     {
+      "seg": [
+       0,
+       0,
+       6,
+       0
+      ]
+     },
+     {
+      "seg": [
+       6,
+       0,
+       8.758,
+       2.314
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       2.758,
+       2.314
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       2.758,
+       2.314,
+       8.758,
+       2.314
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       4.379,
+       9.257,
+       0,
+       0
+      ]
+     },
+     {
+      "seg": [
+       4.379,
+       9.257,
+       6,
+       0
+      ]
+     },
+     {
+      "seg": [
+       4.379,
+       9.257,
+       8.758,
+       2.314
+      ]
+     },
+     {
+      "seg": [
+       4.379,
+       9.257,
+       2.758,
+       2.314
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       4.379,
+       9.257,
+       4.379,
+       1.157
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       0,
+       0,
+       8.758,
+       2.314
+      ],
+      "dash": true
+     },
+     {
+      "point": [
+       4.379,
+       1.157
+      ]
+     },
+     {
+      "tick": [
+       0,
+       0,
+       6,
+       0
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       6,
+       0,
+       8.758,
+       2.314
+      ],
+      "n": 2
+     },
+     {
+      "label": "6 cm",
+      "at": [
+       3,
+       -0.762
+      ]
+     },
+     {
+      "seg": [
+       4.379,
+       9.257,
+       7.379,
+       1.157
+      ]
+     },
+     {
+      "seg": [
+       9.558,
+       6.212,
+       5.729,
+       5.612
+      ],
+      "arrow": "end",
+      "thin": true
+     },
+     {
+      "label": "8 cm",
+      "at": [
+       9.708,
+       6.092
+      ],
+      "anchor": "start"
+     }
+    ]
+   },
+   "units": "cm",
+   "as": "surd"
+  },
+  {
+   "id": "q11d",
+   "label": "11d",
+   "section": "Reasoning",
+   "stem": "For each square-based pyramid, find (i) the exact length of the diagonal of the base, using a surd, and (ii) the height of the pyramid, correct to two decimal places.",
+   "type": "numeric",
+   "prompt": "Base edges $6$ cm, slant height of each face $8$ cm: (ii) the height of the pyramid.",
+   "answer": "7.42",
+   "dp": 2,
+   "units": "cm"
+  },
+  {
+   "id": "q12a",
+   "label": "12a",
+   "section": "Enrichment",
+   "stem": "A spider crawls from corner $A$ of the ceiling of a room to the opposite corner $G$ on the floor. The room is a rectangular prism $5.8$ m long, $4.2$ m wide and $3.1$ m high. Give each answer correct to two decimal places.",
+   "type": "numeric",
+   "prompt": "The spider crawls in a straight line from $A$ to $B$, then in a straight line from $B$ to $G$. How far does it crawl?",
+   "answer": "10.78",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 31.78,
+    "items": [
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       3.1
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       1.93,
+       1.62
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       0,
+       0,
+       5.8,
+       0
+      ]
+     },
+     {
+      "seg": [
+       0,
+       3.1,
+       1.93,
+       4.72
+      ]
+     },
+     {
+      "seg": [
+       0,
+       3.1,
+       5.8,
+       3.1
+      ]
+     },
+     {
+      "seg": [
+       1.93,
+       1.62,
+       1.93,
+       4.72
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       1.93,
+       1.62,
+       7.73,
+       1.62
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       1.93,
+       4.72,
+       7.73,
+       4.72
+      ]
+     },
+     {
+      "seg": [
+       5.8,
+       0,
+       5.8,
+       3.1
+      ]
+     },
+     {
+      "seg": [
+       5.8,
+       0,
+       7.73,
+       1.62
+      ]
+     },
+     {
+      "seg": [
+       5.8,
+       3.1,
+       7.73,
+       4.72
+      ]
+     },
+     {
+      "seg": [
+       7.73,
+       1.62,
+       7.73,
+       4.72
+      ]
+     },
+     {
+      "point": [
+       0,
+       0
+      ],
+      "name": "H",
+      "pos": "sw"
+     },
+     {
+      "point": [
+       5.8,
+       0
+      ],
+      "name": "D",
+      "pos": "s"
+     },
+     {
+      "point": [
+       7.73,
+       1.62
+      ],
+      "name": "C",
+      "pos": "e"
+     },
+     {
+      "point": [
+       1.93,
+       1.62
+      ],
+      "name": "G",
+      "pos": "ne"
+     },
+     {
+      "point": [
+       0,
+       3.1
+      ],
+      "name": "E",
+      "pos": "nw"
+     },
+     {
+      "point": [
+       5.8,
+       3.1
+      ],
+      "name": "A",
+      "pos": "n"
+     },
+     {
+      "point": [
+       7.73,
+       4.72
+      ],
+      "name": "B",
+      "pos": "ne"
+     },
+     {
+      "point": [
+       1.93,
+       4.72
+      ],
+      "name": "F",
+      "pos": "n"
+     },
+     {
+      "label": "5.8 m",
+      "at": [
+       2.9,
+       -0.692
+      ]
+     },
+     {
+      "label": "4.2 m",
+      "at": [
+       7.02,
+       0.506
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "3.1 m",
+      "at": [
+       7.982,
+       3.17
+      ],
+      "anchor": "start"
+     }
+    ]
+   },
+   "dp": 2,
+   "units": "m"
+  },
+  {
+   "id": "q12b",
+   "label": "12b",
+   "section": "Enrichment",
+   "stem": "A spider crawls from corner $A$ of the ceiling of a room to the opposite corner $G$ on the floor. The room is a rectangular prism $5.8$ m long, $4.2$ m wide and $3.1$ m high. Give each answer correct to two decimal places.",
+   "type": "numeric",
+   "prompt": "The spider crawls in a straight line from $A$ to $C$, then in a straight line from $C$ to $G$. How far does it crawl?",
+   "answer": "11.02",
+   "dp": 2,
+   "units": "m"
+  },
+  {
+   "id": "q12c",
+   "label": "12c",
+   "section": "Enrichment",
+   "stem": "A spider crawls from corner $A$ of the ceiling of a room to the opposite corner $G$ on the floor. The room is a rectangular prism $5.8$ m long, $4.2$ m wide and $3.1$ m high. Give each answer correct to two decimal places.",
+   "type": "numeric",
+   "prompt": "The spider crawls in a straight line from $A$ to $D$, then in a straight line from $D$ to $G$. How far does it crawl?",
+   "answer": "10.26",
+   "dp": 2,
+   "units": "m"
+  },
+  {
+   "id": "q12d",
+   "label": "12d",
+   "section": "Enrichment",
+   "stem": "A spider crawls from corner $A$ of the ceiling of a room to the opposite corner $G$ on the floor. The room is a rectangular prism $5.8$ m long, $4.2$ m wide and $3.1$ m high. Give each answer correct to two decimal places.",
+   "type": "numeric",
+   "prompt": "The spider crawls in a straight line from $A$ to $F$, then in a straight line from $F$ to $G$. How far does it crawl?",
+   "answer": "10.26",
+   "dp": 2,
+   "units": "m"
+  },
+  {
+   "id": "q12e",
+   "label": "12e",
+   "section": "Enrichment",
+   "stem": "A spider crawls from corner $A$ of the ceiling of a room to the opposite corner $G$ on the floor. The room is a rectangular prism $5.8$ m long, $4.2$ m wide and $3.1$ m high. Give each answer correct to two decimal places.",
+   "type": "numeric",
+   "prompt": "The spider can also walk across two faces in one straight line on the net of the room. What is the shortest distance it can crawl from $A$ to $G$?",
+   "answer": "9.32",
+   "dp": 2,
+   "units": "m",
+   "hint": "Unfold two faces so they lie flat, then use Pythagoras' theorem. Try each pair of faces."
+  }
+ ]
+},
+{
+ "id": "y9-3e",
+ "year": 9,
+ "chapter": "Chapter 3: Pythagoras' theorem and trigonometry",
+ "title": "3E Trigonometric ratios",
+ "description": "Name the opposite, adjacent and hypotenuse sides and write sine, cosine and tangent as fractions.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Using the two given sides, choose the trigonometric ratio for $\\theta$ that you can write for each triangle. Fractions have been simplified where possible.",
+   "type": "choice",
+   "prompt": "Which ratio is correct?",
+   "answer": 0,
+   "options": [
+    "sin θ = 5/9",
+    "sin θ = 9/5",
+    "cos θ = 5/9",
+    "cos θ = 9/5",
+    "tan θ = 5/9",
+    "tan θ = 9/5"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 42,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        3.333
+       ],
+       [
+        -4.989,
+        0
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       90,
+       180
+      ],
+      "right": true,
+      "r": 0.357
+     },
+     {
+      "label": "5",
+      "at": [
+       0.238,
+       1.667
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "9",
+      "at": [
+       -2.693,
+       1.963
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       -4.989,
+       0,
+       0,
+       33.749
+      ],
+      "r": 0.476
+     },
+     {
+      "label": "θ",
+      "at": [
+       -3.655,
+       0.405
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Using the two given sides, choose the trigonometric ratio for $\\theta$ that you can write for each triangle. Fractions have been simplified where possible.",
+   "type": "choice",
+   "prompt": "Which ratio is correct?",
+   "answer": 4,
+   "options": [
+    "sin θ = 6/7",
+    "sin θ = 7/6",
+    "cos θ = 6/7",
+    "cos θ = 7/6",
+    "tan θ = 6/7",
+    "tan θ = 7/6"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 35.85,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        4.556,
+        0
+       ],
+       [
+        0,
+        3.905
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 0.418
+     },
+     {
+      "label": "6",
+      "at": [
+       -0.279,
+       1.952
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "7",
+      "at": [
+       2.278,
+       -0.446
+      ]
+     },
+     {
+      "angle": [
+       4.556,
+       0,
+       139.399,
+       180
+      ],
+      "r": 0.558
+     },
+     {
+      "label": "θ",
+      "at": [
+       3.274,
+       0.474
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "Using the two given sides, choose the trigonometric ratio for $\\theta$ that you can write for each triangle. Fractions have been simplified where possible.",
+   "type": "choice",
+   "prompt": "Which ratio is correct?",
+   "answer": 2,
+   "options": [
+    "sin θ = 4/7",
+    "sin θ = 7/4",
+    "cos θ = 4/7",
+    "cos θ = 7/4",
+    "tan θ = 4/7",
+    "tan θ = 7/4"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 28.43,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        -3.429,
+        0
+       ],
+       [
+        0,
+        -4.924
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       180,
+       270
+      ],
+      "right": true,
+      "r": 0.528
+     },
+     {
+      "label": "4",
+      "at": [
+       -1.714,
+       0.563
+      ]
+     },
+     {
+      "label": "7",
+      "at": [
+       -2.102,
+       -2.732
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       -3.429,
+       0,
+       304.85,
+       0
+      ],
+      "r": 0.703
+     },
+     {
+      "label": "θ",
+      "at": [
+       -2.284,
+       -0.598
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "Using the two given sides, choose the trigonometric ratio for $\\theta$ that you can write for each triangle. Fractions have been simplified where possible.",
+   "type": "choice",
+   "prompt": "Which ratio is correct?",
+   "answer": 2,
+   "options": [
+    "sin θ = 2/3",
+    "sin θ = 3/2",
+    "cos θ = 2/3",
+    "cos θ = 3/2",
+    "tan θ = 2/3",
+    "tan θ = 3/2"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 37.25,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        -1.368,
+        -3.759
+       ],
+       [
+        4.202,
+        -1.53
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       250,
+       340
+      ],
+      "right": true,
+      "r": 0.403
+     },
+     {
+      "label": "6",
+      "at": [
+       -0.988,
+       -1.769
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "9",
+      "at": [
+       1.572,
+       -3.032
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       -1.368,
+       -3.759,
+       21.81,
+       70
+      ],
+      "r": 0.537
+     },
+     {
+      "label": "θ",
+      "at": [
+       -0.59,
+       -2.956
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q1e",
+   "label": "1e",
+   "section": "Fluency",
+   "stem": "Using the two given sides, choose the trigonometric ratio for $\\theta$ that you can write for each triangle. Fractions have been simplified where possible.",
+   "type": "choice",
+   "prompt": "Which ratio is correct?",
+   "answer": 2,
+   "options": [
+    "sin θ = 1",
+    "cos θ = 1",
+    "tan θ = 1"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 33,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        4.243
+       ],
+       [
+        -4.243,
+        0
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       90,
+       180
+      ],
+      "right": true,
+      "r": 0.455
+     },
+     {
+      "label": "7",
+      "at": [
+       -2.121,
+       -0.485
+      ]
+     },
+     {
+      "label": "7",
+      "at": [
+       0.303,
+       2.121
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       0,
+       4.243,
+       225,
+       270
+      ],
+      "r": 0.606
+     },
+     {
+      "label": "θ",
+      "at": [
+       -0.515,
+       2.999
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q1f",
+   "label": "1f",
+   "section": "Fluency",
+   "stem": "Using the two given sides, choose the trigonometric ratio for $\\theta$ that you can write for each triangle. Fractions have been simplified where possible.",
+   "type": "choice",
+   "prompt": "Which ratio is correct?",
+   "answer": 4,
+   "options": [
+    "sin θ = m/n",
+    "sin θ = n/m",
+    "cos θ = m/n",
+    "cos θ = n/m",
+    "tan θ = m/n",
+    "tan θ = n/m"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 36.93,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        4.157,
+        2.4
+       ],
+       [
+        -1.8,
+        3.118
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       30,
+       120
+      ],
+      "right": true,
+      "r": 0.406
+     },
+     {
+      "label": "m",
+      "at": [
+       -1.205,
+       1.383
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "n",
+      "at": [
+       2.284,
+       0.844
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       4.157,
+       2.4,
+       173.13,
+       210
+      ],
+      "r": 0.542
+     },
+     {
+      "label": "θ",
+      "at": [
+       2.731,
+       2.108
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q1g",
+   "label": "1g",
+   "section": "Fluency",
+   "stem": "Using the two given sides, choose the trigonometric ratio for $\\theta$ that you can write for each triangle. Fractions have been simplified where possible.",
+   "type": "choice",
+   "prompt": "Which ratio is correct?",
+   "answer": 0,
+   "options": [
+    "sin θ = 2/5",
+    "sin θ = 5/2",
+    "cos θ = 2/5",
+    "cos θ = 5/2",
+    "tan θ = 2/5",
+    "tan θ = 5/2"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 40.01,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        -2.4
+       ],
+       [
+        5.499,
+        0
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       270,
+       0
+      ],
+      "right": true,
+      "r": 0.375
+     },
+     {
+      "label": "4k",
+      "at": [
+       -0.25,
+       -1.2
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "10k",
+      "at": [
+       2.905,
+       -1.555
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       5.499,
+       0,
+       180,
+       203.578
+      ],
+      "r": 0.5
+     },
+     {
+      "label": "θ",
+      "at": [
+       3.463,
+       -0.425
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q1h",
+   "label": "1h",
+   "section": "Fluency",
+   "stem": "Using the two given sides, choose the trigonometric ratio for $\\theta$ that you can write for each triangle. Fractions have been simplified where possible.",
+   "type": "choice",
+   "prompt": "Which ratio is correct?",
+   "answer": 2,
+   "options": [
+    "sin θ = 2p/(3q)",
+    "sin θ = 3q/(2p)",
+    "cos θ = 2p/(3q)",
+    "cos θ = 3q/(2p)",
+    "tan θ = 2p/(3q)",
+    "tan θ = 3q/(2p)"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 25.13,
+    "items": [
+     {
+      "poly": [
+       [
+        -1.53,
+        4.202
+       ],
+       [
+        -3.759,
+        -1.368
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       110,
+       200
+      ],
+      "right": true,
+      "r": 0.597
+     },
+     {
+      "label": "4p",
+      "at": [
+       -1.667,
+       -1.269
+      ]
+     },
+     {
+      "label": "6q",
+      "at": [
+       -3.096,
+       1.598
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       -3.759,
+       -1.368,
+       20,
+       68.19
+      ],
+      "r": 0.796
+     },
+     {
+      "label": "θ",
+      "at": [
+       -2.569,
+       -0.215
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q1i",
+   "label": "1i",
+   "section": "Fluency",
+   "stem": "Using the two given sides, choose the trigonometric ratio for $\\theta$ that you can write for each triangle. Fractions have been simplified where possible.",
+   "type": "choice",
+   "prompt": "Which ratio is correct?",
+   "answer": 0,
+   "options": [
+    "sin θ = 2x/(7y)",
+    "sin θ = 7y/(2x)",
+    "cos θ = 2x/(7y)",
+    "cos θ = 7y/(2x)",
+    "tan θ = 2x/(7y)",
+    "tan θ = 7y/(2x)"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 35.14,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        5.211,
+        -2.43
+       ],
+       [
+        0.724,
+        1.554
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       335,
+       65
+      ],
+      "right": true,
+      "r": 0.427
+     },
+     {
+      "label": "2x",
+      "at": [
+       0.039,
+       0.928
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "7y",
+      "at": [
+       3.242,
+       -0.13
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       5.211,
+       -2.43,
+       138.398,
+       155
+      ],
+      "r": 0.569
+     },
+     {
+      "label": "θ",
+      "at": [
+       2.411,
+       -0.59
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Triangles A and B are similar. Write each ratio as a fraction, using the side lengths shown.",
+   "type": "numeric",
+   "prompt": "$\\sin \\theta$ for triangle A",
+   "answer": "8/17",
+   "stemFigure": [
+    {
+     "kind": "diagram",
+     "unit": 37.78,
+     "items": [
+      {
+       "poly": [
+        [
+         0,
+         2.824
+        ],
+        [
+         -5.294,
+         0
+        ],
+        [
+         0,
+         0
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "angle": [
+        0,
+        0,
+        90,
+        180
+       ],
+       "right": true,
+       "r": 0.397
+      },
+      {
+       "label": "8",
+       "at": [
+        0.265,
+        1.412
+       ],
+       "anchor": "start"
+      },
+      {
+       "label": "15",
+       "at": [
+        -2.647,
+        -0.424
+       ]
+      },
+      {
+       "label": "17",
+       "at": [
+        -2.838,
+        1.769
+       ],
+       "anchor": "end"
+      },
+      {
+       "angle": [
+        -5.294,
+        0,
+        0,
+        28.072
+       ],
+       "r": 0.529
+      },
+      {
+       "label": "θ",
+       "at": [
+        -3.494,
+        0.45
+       ]
+      }
+     ],
+     "caption": "Triangle A"
+    },
+    {
+     "kind": "diagram",
+     "unit": 53.13,
+     "items": [
+      {
+       "poly": [
+        [
+         0,
+         2.824
+        ],
+        [
+         -5.294,
+         0
+        ],
+        [
+         0,
+         0
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "angle": [
+        0,
+        0,
+        90,
+        180
+       ],
+       "right": true,
+       "r": 0.282
+      },
+      {
+       "label": "16",
+       "at": [
+        0.188,
+        1.412
+       ],
+       "anchor": "start"
+      },
+      {
+       "label": "30",
+       "at": [
+        -2.647,
+        -0.301
+       ]
+      },
+      {
+       "label": "34",
+       "at": [
+        -2.783,
+        1.666
+       ],
+       "anchor": "end"
+      },
+      {
+       "angle": [
+        -5.294,
+        0,
+        0,
+        28.072
+       ],
+       "r": 0.376
+      },
+      {
+       "label": "θ",
+       "at": [
+        -4.014,
+        0.32
+       ]
+      }
+     ],
+     "caption": "Triangle B"
+    }
+   ],
+   "hint": "Type a fraction with /, for example 5/13",
+   "as": "fraction"
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Triangles A and B are similar. Write each ratio as a fraction, using the side lengths shown.",
+   "type": "numeric",
+   "prompt": "$\\sin \\theta$ for triangle B",
+   "answer": "16/34",
+   "as": "fraction"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Triangles A and B are similar. Write each ratio as a fraction, using the side lengths shown.",
+   "type": "choice",
+   "prompt": "What do you notice about your two answers for $\\sin \\theta$?",
+   "answer": 0,
+   "options": [
+    "The two fractions are equal (they simplify to the same fraction)",
+    "The fraction for B is double the fraction for A",
+    "The fraction for B is half the fraction for A"
+   ]
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Triangles A and B are similar. Write each ratio as a fraction, using the side lengths shown.",
+   "type": "numeric",
+   "prompt": "$\\cos \\theta$ for triangle A",
+   "answer": "15/17",
+   "as": "fraction"
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Triangles A and B are similar. Write each ratio as a fraction, using the side lengths shown.",
+   "type": "numeric",
+   "prompt": "$\\cos \\theta$ for triangle B",
+   "answer": "30/34",
+   "as": "fraction"
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "Triangles A and B are similar. Write each ratio as a fraction, using the side lengths shown.",
+   "type": "choice",
+   "prompt": "What do you notice about your two answers for $\\cos \\theta$?",
+   "answer": 0,
+   "options": [
+    "The two fractions are equal (they simplify to the same fraction)",
+    "The fraction for B is double the fraction for A",
+    "The fraction for B is half the fraction for A"
+   ]
+  },
+  {
+   "id": "q2g",
+   "label": "2g",
+   "section": "Fluency",
+   "stem": "Triangles A and B are similar. Write each ratio as a fraction, using the side lengths shown.",
+   "type": "numeric",
+   "prompt": "$\\tan \\theta$ for triangle A",
+   "answer": "8/15",
+   "as": "fraction"
+  },
+  {
+   "id": "q2h",
+   "label": "2h",
+   "section": "Fluency",
+   "stem": "Triangles A and B are similar. Write each ratio as a fraction, using the side lengths shown.",
+   "type": "numeric",
+   "prompt": "$\\tan \\theta$ for triangle B",
+   "answer": "16/30",
+   "as": "fraction"
+  },
+  {
+   "id": "q2i",
+   "label": "2i",
+   "section": "Fluency",
+   "stem": "Triangles A and B are similar. Write each ratio as a fraction, using the side lengths shown.",
+   "type": "choice",
+   "prompt": "What do you notice about your two answers for $\\tan \\theta$?",
+   "answer": 0,
+   "options": [
+    "The two fractions are equal (they simplify to the same fraction)",
+    "The fraction for B is double the fraction for A",
+    "The fraction for B is half the fraction for A"
+   ]
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "For each triangle, write $\\sin \\theta$, $\\cos \\theta$ and $\\tan \\theta$ as fractions in simplest form.",
+   "type": "numeric",
+   "prompt": "Triangle a: $\\sin \\theta$",
+   "answer": "7/25",
+   "figure": {
+    "kind": "diagram",
+    "unit": 45.14,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        1.68
+       ],
+       [
+        -5.76,
+        0
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       90,
+       180
+      ],
+      "right": true,
+      "r": 0.332
+     },
+     {
+      "label": "7",
+      "at": [
+       0.222,
+       0.84
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "24",
+      "at": [
+       -2.88,
+       -0.354
+      ]
+     },
+     {
+      "label": "25",
+      "at": [
+       -2.978,
+       1.175
+      ]
+     },
+     {
+      "angle": [
+       -5.76,
+       0,
+       0,
+       16.26
+      ],
+      "r": 0.443
+     },
+     {
+      "label": "θ",
+      "at": [
+       -3.124,
+       0.377
+      ]
+     }
+    ]
+   },
+   "simplest": true,
+   "as": "fraction"
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "For each triangle, write $\\sin \\theta$, $\\cos \\theta$ and $\\tan \\theta$ as fractions in simplest form.",
+   "type": "numeric",
+   "prompt": "Triangle a: $\\cos \\theta$",
+   "answer": "24/25",
+   "simplest": true,
+   "as": "fraction"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "For each triangle, write $\\sin \\theta$, $\\cos \\theta$ and $\\tan \\theta$ as fractions in simplest form.",
+   "type": "numeric",
+   "prompt": "Triangle a: $\\tan \\theta$",
+   "answer": "7/24",
+   "simplest": true,
+   "as": "fraction"
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "For each triangle, write $\\sin \\theta$, $\\cos \\theta$ and $\\tan \\theta$ as fractions in simplest form.",
+   "type": "numeric",
+   "prompt": "Triangle b: $\\sin \\theta$",
+   "answer": "8/17",
+   "figure": {
+    "kind": "diagram",
+    "unit": 21.68,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        2.647,
+        -4.585
+       ],
+       [
+        2.445,
+        1.412
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       300,
+       30
+      ],
+      "right": true,
+      "r": 0.692
+     },
+     {
+      "label": "16",
+      "at": [
+       0.872,
+       1.313
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "30",
+      "at": [
+       0.804,
+       -2.592
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "34",
+      "at": [
+       3.016,
+       -1.571
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       2.647,
+       -4.585,
+       91.928,
+       120
+      ],
+      "r": 0.923
+     },
+     {
+      "seg": [
+       1.193,
+       -3.997,
+       2.393,
+       -3.698
+      ],
+      "thin": true,
+      "arrow": "end"
+     },
+     {
+      "label": "θ",
+      "at": [
+       1.049,
+       -3.79
+      ],
+      "anchor": "end"
+     }
+    ]
+   },
+   "simplest": true,
+   "as": "fraction"
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "For each triangle, write $\\sin \\theta$, $\\cos \\theta$ and $\\tan \\theta$ as fractions in simplest form.",
+   "type": "numeric",
+   "prompt": "Triangle b: $\\cos \\theta$",
+   "answer": "15/17",
+   "simplest": true,
+   "as": "fraction"
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "For each triangle, write $\\sin \\theta$, $\\cos \\theta$ and $\\tan \\theta$ as fractions in simplest form.",
+   "type": "numeric",
+   "prompt": "Triangle b: $\\tan \\theta$",
+   "answer": "8/15",
+   "simplest": true,
+   "as": "fraction"
+  },
+  {
+   "id": "q3g",
+   "label": "3g",
+   "section": "Fluency",
+   "stem": "For each triangle, write $\\sin \\theta$, $\\cos \\theta$ and $\\tan \\theta$ as fractions in simplest form.",
+   "type": "numeric",
+   "prompt": "Triangle c: $\\sin \\theta$",
+   "answer": "40/41",
+   "figure": {
+    "kind": "diagram",
+    "unit": 44.42,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        -1.317
+       ],
+       [
+        5.854,
+        0
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       270,
+       0
+      ],
+      "right": true,
+      "r": 0.338
+     },
+     {
+      "label": "40",
+      "at": [
+       2.927,
+       0.36
+      ]
+     },
+     {
+      "label": "9",
+      "at": [
+       -0.225,
+       -0.659
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "41",
+      "at": [
+       3.005,
+       -1.007
+      ]
+     },
+     {
+      "angle": [
+       0,
+       -1.317,
+       12.68,
+       90
+      ],
+      "r": 0.45
+     },
+     {
+      "label": "θ",
+      "at": [
+       0.492,
+       -0.702
+      ]
+     }
+    ]
+   },
+   "simplest": true,
+   "as": "fraction"
+  },
+  {
+   "id": "q3h",
+   "label": "3h",
+   "section": "Fluency",
+   "stem": "For each triangle, write $\\sin \\theta$, $\\cos \\theta$ and $\\tan \\theta$ as fractions in simplest form.",
+   "type": "numeric",
+   "prompt": "Triangle c: $\\cos \\theta$",
+   "answer": "9/41",
+   "simplest": true,
+   "as": "fraction"
+  },
+  {
+   "id": "q3i",
+   "label": "3i",
+   "section": "Fluency",
+   "stem": "For each triangle, write $\\sin \\theta$, $\\cos \\theta$ and $\\tan \\theta$ as fractions in simplest form.",
+   "type": "numeric",
+   "prompt": "Triangle c: $\\tan \\theta$",
+   "answer": "40/9",
+   "simplest": true,
+   "as": "fraction"
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "For this triangle, write each ratio as a fraction.",
+   "type": "numeric",
+   "prompt": "$\\sin \\theta$",
+   "answer": "20/29",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 41.08,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        4.138
+       ],
+       [
+        -4.345,
+        0
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       90,
+       180
+      ],
+      "right": true,
+      "r": 0.365
+     },
+     {
+      "label": "20",
+      "at": [
+       0.243,
+       2.069
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "21",
+      "at": [
+       -2.172,
+       -0.389
+      ]
+     },
+     {
+      "label": "29",
+      "at": [
+       -2.413,
+       2.322
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       -4.345,
+       0,
+       0,
+       43.603
+      ],
+      "r": 0.487
+     },
+     {
+      "label": "θ",
+      "at": [
+       -3.31,
+       0.414
+      ]
+     },
+     {
+      "angle": [
+       0,
+       4.138,
+       223.603,
+       270
+      ],
+      "r": 0.487
+     },
+     {
+      "label": "α",
+      "at": [
+       -0.414,
+       3.172
+      ]
+     }
+    ]
+   },
+   "as": "fraction"
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "For this triangle, write each ratio as a fraction.",
+   "type": "numeric",
+   "prompt": "$\\sin \\alpha$",
+   "answer": "21/29",
+   "as": "fraction"
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "For this triangle, write each ratio as a fraction.",
+   "type": "numeric",
+   "prompt": "$\\cos \\theta$",
+   "answer": "21/29",
+   "as": "fraction"
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "For this triangle, write each ratio as a fraction.",
+   "type": "numeric",
+   "prompt": "$\\tan \\alpha$",
+   "answer": "21/20",
+   "as": "fraction"
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Fluency",
+   "stem": "For this triangle, write each ratio as a fraction.",
+   "type": "numeric",
+   "prompt": "$\\cos \\alpha$",
+   "answer": "20/29",
+   "as": "fraction"
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Fluency",
+   "stem": "For this triangle, write each ratio as a fraction.",
+   "type": "numeric",
+   "prompt": "$\\tan \\theta$",
+   "answer": "20/21",
+   "as": "fraction"
+  },
+  {
+   "id": "q5",
+   "label": "5",
+   "section": "Problem-solving",
+   "type": "numeric",
+   "prompt": "A vertical flagpole casts a shadow $24$ m long. The pole is $18$ m high. Find $\\tan \\theta$ as a fraction in simplest form.",
+   "answer": "3/4",
+   "simplest": true,
+   "figure": {
+    "kind": "diagram",
+    "unit": 7.14,
+    "items": [
+     {
+      "seg": [
+       -3,
+       0,
+       28,
+       0
+      ]
+     },
+     {
+      "seg": [
+       24,
+       0,
+       24,
+       18
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       24,
+       18
+      ],
+      "dash": true
+     },
+     {
+      "angle": [
+       24,
+       0,
+       90,
+       180
+      ],
+      "right": true,
+      "r": 2.1
+     },
+     {
+      "poly": [
+       [
+        24,
+        18
+       ],
+       [
+        27.5,
+        17.2
+       ],
+       [
+        27.5,
+        14.8
+       ],
+       [
+        24,
+        15.6
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       36.87
+      ],
+      "r": 3.92
+     },
+     {
+      "label": "θ",
+      "at": [
+       7.14,
+       2.38
+      ]
+     },
+     {
+      "label": "24 m",
+      "at": [
+       12,
+       -1.6
+      ]
+     },
+     {
+      "label": "18 m",
+      "at": [
+       24.8,
+       7.5
+      ],
+      "anchor": "start"
+     }
+    ]
+   },
+   "as": "fraction"
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Problem-solving",
+   "stem": "The triangular front of an old stone temple contains this right-angled triangle, measured in feet (ft). Write each ratio as a fraction.",
+   "type": "numeric",
+   "prompt": "$\\sin \\theta$",
+   "answer": "16/65",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 51.59,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        5.815,
+        0
+       ],
+       [
+        0,
+        1.477
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 0.291
+     },
+     {
+      "label": "16 ft",
+      "at": [
+       -0.194,
+       0.738
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "63 ft",
+      "at": [
+       2.908,
+       -0.31
+      ]
+     },
+     {
+      "label": "65 ft",
+      "at": [
+       2.983,
+       1.036
+      ]
+     },
+     {
+      "angle": [
+       5.815,
+       0,
+       165.75,
+       180
+      ],
+      "r": 0.388
+     },
+     {
+      "label": "θ",
+      "at": [
+       3.179,
+       0.33
+      ]
+     }
+    ]
+   },
+   "as": "fraction"
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Problem-solving",
+   "stem": "The triangular front of an old stone temple contains this right-angled triangle, measured in feet (ft). Write each ratio as a fraction.",
+   "type": "numeric",
+   "prompt": "$\\cos \\theta$",
+   "answer": "63/65",
+   "as": "fraction"
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Problem-solving",
+   "stem": "The triangular front of an old stone temple contains this right-angled triangle, measured in feet (ft). Write each ratio as a fraction.",
+   "type": "numeric",
+   "prompt": "$\\tan \\theta$",
+   "answer": "16/63",
+   "as": "fraction"
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Problem-solving",
+   "stem": "For each triangle, use Pythagoras' theorem to find the length of the third side, then write $\\sin \\theta$, $\\cos \\theta$ and $\\tan \\theta$ as fractions.",
+   "type": "numeric",
+   "prompt": "Triangle a: the length of the third side",
+   "answer": "13",
+   "figure": {
+    "kind": "diagram",
+    "unit": 25.28,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        5.538
+       ],
+       [
+        -2.308,
+        0
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       90,
+       180
+      ],
+      "right": true,
+      "r": 0.593
+     },
+     {
+      "label": "5",
+      "at": [
+       -1.154,
+       -0.633
+      ]
+     },
+     {
+      "label": "12",
+      "at": [
+       0.396,
+       2.769
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       0,
+       5.538,
+       247.38,
+       270
+      ],
+      "r": 0.791
+     },
+     {
+      "seg": [
+       -1.172,
+       4.879,
+       -0.155,
+       4.763
+      ],
+      "thin": true,
+      "arrow": "end"
+     },
+     {
+      "label": "θ",
+      "at": [
+       -1.269,
+       4.646
+      ],
+      "anchor": "end"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Problem-solving",
+   "stem": "For each triangle, use Pythagoras' theorem to find the length of the third side, then write $\\sin \\theta$, $\\cos \\theta$ and $\\tan \\theta$ as fractions.",
+   "type": "numeric",
+   "prompt": "Triangle a: $\\sin \\theta$",
+   "answer": "5/13",
+   "as": "fraction"
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Problem-solving",
+   "stem": "For each triangle, use Pythagoras' theorem to find the length of the third side, then write $\\sin \\theta$, $\\cos \\theta$ and $\\tan \\theta$ as fractions.",
+   "type": "numeric",
+   "prompt": "Triangle a: $\\cos \\theta$",
+   "answer": "12/13",
+   "as": "fraction"
+  },
+  {
+   "id": "q7d",
+   "label": "7d",
+   "section": "Problem-solving",
+   "stem": "For each triangle, use Pythagoras' theorem to find the length of the third side, then write $\\sin \\theta$, $\\cos \\theta$ and $\\tan \\theta$ as fractions.",
+   "type": "numeric",
+   "prompt": "Triangle a: $\\tan \\theta$",
+   "answer": "5/12",
+   "as": "fraction"
+  },
+  {
+   "id": "q7e",
+   "label": "7e",
+   "section": "Problem-solving",
+   "stem": "For each triangle, use Pythagoras' theorem to find the length of the third side, then write $\\sin \\theta$, $\\cos \\theta$ and $\\tan \\theta$ as fractions.",
+   "type": "numeric",
+   "prompt": "Triangle b: the length of the third side",
+   "answer": "15",
+   "figure": {
+    "kind": "diagram",
+    "unit": 28.14,
+    "items": [
+     {
+      "poly": [
+       [
+        -1.811,
+        -4.975
+       ],
+       [
+        2.653,
+        -0.966
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       250,
+       340
+      ],
+      "right": true,
+      "r": 0.533
+     },
+     {
+      "label": "8",
+      "at": [
+       1.517,
+       0.039
+      ]
+     },
+     {
+      "label": "17",
+      "at": [
+       0.765,
+       -3.353
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       2.653,
+       -0.966,
+       160,
+       221.928
+      ],
+      "r": 0.711
+     },
+     {
+      "label": "θ",
+      "at": [
+       1.432,
+       -1.202
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q7f",
+   "label": "7f",
+   "section": "Problem-solving",
+   "stem": "For each triangle, use Pythagoras' theorem to find the length of the third side, then write $\\sin \\theta$, $\\cos \\theta$ and $\\tan \\theta$ as fractions.",
+   "type": "numeric",
+   "prompt": "Triangle b: $\\sin \\theta$",
+   "answer": "15/17",
+   "as": "fraction"
+  },
+  {
+   "id": "q7g",
+   "label": "7g",
+   "section": "Problem-solving",
+   "stem": "For each triangle, use Pythagoras' theorem to find the length of the third side, then write $\\sin \\theta$, $\\cos \\theta$ and $\\tan \\theta$ as fractions.",
+   "type": "numeric",
+   "prompt": "Triangle b: $\\cos \\theta$",
+   "answer": "8/17",
+   "as": "fraction"
+  },
+  {
+   "id": "q7h",
+   "label": "7h",
+   "section": "Problem-solving",
+   "stem": "For each triangle, use Pythagoras' theorem to find the length of the third side, then write $\\sin \\theta$, $\\cos \\theta$ and $\\tan \\theta$ as fractions.",
+   "type": "numeric",
+   "prompt": "Triangle b: $\\tan \\theta$",
+   "answer": "15/8",
+   "as": "fraction"
+  },
+  {
+   "id": "q7i",
+   "label": "7i",
+   "section": "Problem-solving",
+   "stem": "For each triangle, use Pythagoras' theorem to find the length of the third side, then write $\\sin \\theta$, $\\cos \\theta$ and $\\tan \\theta$ as fractions.",
+   "type": "numeric",
+   "prompt": "Triangle c: the length of the third side",
+   "answer": "25",
+   "figure": {
+    "kind": "diagram",
+    "unit": 35.61,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        -2.949,
+        -2.065
+       ],
+       [
+        2.753,
+        -3.932
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       215,
+       305
+      ],
+      "right": true,
+      "r": 0.421
+     },
+     {
+      "label": "20",
+      "at": [
+       1.686,
+       -1.749
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "15",
+      "at": [
+       -1.715,
+       -0.689
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       -2.949,
+       -2.065,
+       341.87,
+       35
+      ],
+      "r": 0.562
+     },
+     {
+      "label": "θ",
+      "at": [
+       -1.893,
+       -1.908
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q7j",
+   "label": "7j",
+   "section": "Problem-solving",
+   "stem": "For each triangle, use Pythagoras' theorem to find the length of the third side, then write $\\sin \\theta$, $\\cos \\theta$ and $\\tan \\theta$ as fractions.",
+   "type": "numeric",
+   "prompt": "Triangle c: $\\sin \\theta$",
+   "answer": "4/5",
+   "as": "fraction"
+  },
+  {
+   "id": "q7k",
+   "label": "7k",
+   "section": "Problem-solving",
+   "stem": "For each triangle, use Pythagoras' theorem to find the length of the third side, then write $\\sin \\theta$, $\\cos \\theta$ and $\\tan \\theta$ as fractions.",
+   "type": "numeric",
+   "prompt": "Triangle c: $\\cos \\theta$",
+   "answer": "3/5",
+   "as": "fraction"
+  },
+  {
+   "id": "q7l",
+   "label": "7l",
+   "section": "Problem-solving",
+   "stem": "For each triangle, use Pythagoras' theorem to find the length of the third side, then write $\\sin \\theta$, $\\cos \\theta$ and $\\tan \\theta$ as fractions.",
+   "type": "numeric",
+   "prompt": "Triangle c: $\\tan \\theta$",
+   "answer": "4/3",
+   "as": "fraction"
+  },
+  {
+   "id": "q7m",
+   "label": "7m",
+   "section": "Problem-solving",
+   "stem": "For each triangle, use Pythagoras' theorem to find the length of the third side, then write $\\sin \\theta$, $\\cos \\theta$ and $\\tan \\theta$ as fractions.",
+   "type": "numeric",
+   "prompt": "Triangle d: the length of the third side",
+   "answer": "12",
+   "figure": {
+    "kind": "diagram",
+    "unit": 25.37,
+    "items": [
+     {
+      "poly": [
+       [
+        -1.8,
+        3.118
+       ],
+       [
+        -4.157,
+        -2.4
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       120,
+       210
+      ],
+      "right": true,
+      "r": 0.591
+     },
+     {
+      "label": "9",
+      "at": [
+       -0.456,
+       1.815
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "15",
+      "at": [
+       -3.426,
+       0.55
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       -4.157,
+       -2.4,
+       30,
+       66.87
+      ],
+      "r": 0.788
+     },
+     {
+      "label": "θ",
+      "at": [
+       -2.751,
+       -0.815
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q7n",
+   "label": "7n",
+   "section": "Problem-solving",
+   "stem": "For each triangle, use Pythagoras' theorem to find the length of the third side, then write $\\sin \\theta$, $\\cos \\theta$ and $\\tan \\theta$ as fractions.",
+   "type": "numeric",
+   "prompt": "Triangle d: $\\sin \\theta$",
+   "answer": "3/5",
+   "as": "fraction"
+  },
+  {
+   "id": "q7o",
+   "label": "7o",
+   "section": "Problem-solving",
+   "stem": "For each triangle, use Pythagoras' theorem to find the length of the third side, then write $\\sin \\theta$, $\\cos \\theta$ and $\\tan \\theta$ as fractions.",
+   "type": "numeric",
+   "prompt": "Triangle d: $\\cos \\theta$",
+   "answer": "4/5",
+   "as": "fraction"
+  },
+  {
+   "id": "q7p",
+   "label": "7p",
+   "section": "Problem-solving",
+   "stem": "For each triangle, use Pythagoras' theorem to find the length of the third side, then write $\\sin \\theta$, $\\cos \\theta$ and $\\tan \\theta$ as fractions.",
+   "type": "numeric",
+   "prompt": "Triangle d: $\\tan \\theta$",
+   "answer": "3/4",
+   "as": "fraction"
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Problem-solving",
+   "stem": "A right-angled triangle has an angle marked $\\theta$. The side opposite $\\theta$ is $21$ units long and the hypotenuse is $29$ units long.",
+   "type": "numeric",
+   "prompt": "Use Pythagoras' theorem to find the length of the adjacent side.",
+   "answer": "20"
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Problem-solving",
+   "stem": "A right-angled triangle has an angle marked $\\theta$. The side opposite $\\theta$ is $21$ units long and the hypotenuse is $29$ units long.",
+   "type": "numeric",
+   "prompt": "Write $\\sin \\theta$ as a fraction.",
+   "answer": "21/29",
+   "as": "fraction"
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Problem-solving",
+   "stem": "A right-angled triangle has an angle marked $\\theta$. The side opposite $\\theta$ is $21$ units long and the hypotenuse is $29$ units long.",
+   "type": "numeric",
+   "prompt": "Write $\\cos \\theta$ as a fraction.",
+   "answer": "20/29",
+   "as": "fraction"
+  },
+  {
+   "id": "q8d",
+   "label": "8d",
+   "section": "Problem-solving",
+   "stem": "A right-angled triangle has an angle marked $\\theta$. The side opposite $\\theta$ is $21$ units long and the hypotenuse is $29$ units long.",
+   "type": "numeric",
+   "prompt": "Write $\\tan \\theta$ as a fraction.",
+   "answer": "21/20",
+   "as": "fraction"
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Reasoning",
+   "stem": "This triangle has angles $90^\\circ$, $60^\\circ$ and $30^\\circ$, and side lengths $1$, $2$ and $\\sqrt{3}$. Write the exact value of each ratio.",
+   "type": "numeric",
+   "prompt": "$\\sin 30^\\circ$",
+   "answer": "1/2",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 40,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        3
+       ],
+       [
+        -5.196,
+        0
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       90,
+       180
+      ],
+      "right": true,
+      "r": 0.375
+     },
+     {
+      "label": "√3",
+      "at": [
+       -2.598,
+       -0.4
+      ]
+     },
+     {
+      "label": "1",
+      "at": [
+       0.25,
+       1.5
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "2",
+      "at": [
+       -2.788,
+       1.829
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       -5.196,
+       0,
+       0,
+       30
+      ],
+      "r": 0.5
+     },
+     {
+      "label": "30°",
+      "at": [
+       -3.61,
+       0.425
+      ]
+     },
+     {
+      "angle": [
+       0,
+       3,
+       210,
+       270
+      ],
+      "r": 0.5
+     },
+     {
+      "label": "60°",
+      "at": [
+       -0.438,
+       2.242
+      ]
+     }
+    ]
+   },
+   "allowExpr": true,
+   "hint": "Give an exact value, not a decimal. Type a square root as sqrt, for example sqrt3/2 or 1/sqrt5"
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Reasoning",
+   "stem": "This triangle has angles $90^\\circ$, $60^\\circ$ and $30^\\circ$, and side lengths $1$, $2$ and $\\sqrt{3}$. Write the exact value of each ratio.",
+   "type": "numeric",
+   "prompt": "$\\cos 30^\\circ$",
+   "answer": "sqrt3/2",
+   "allowExpr": true
+  },
+  {
+   "id": "q9c",
+   "label": "9c",
+   "section": "Reasoning",
+   "stem": "This triangle has angles $90^\\circ$, $60^\\circ$ and $30^\\circ$, and side lengths $1$, $2$ and $\\sqrt{3}$. Write the exact value of each ratio.",
+   "type": "numeric",
+   "prompt": "$\\tan 30^\\circ$",
+   "answer": "1/sqrt3",
+   "allowExpr": true
+  },
+  {
+   "id": "q9d",
+   "label": "9d",
+   "section": "Reasoning",
+   "stem": "This triangle has angles $90^\\circ$, $60^\\circ$ and $30^\\circ$, and side lengths $1$, $2$ and $\\sqrt{3}$. Write the exact value of each ratio.",
+   "type": "numeric",
+   "prompt": "$\\sin 60^\\circ$",
+   "answer": "sqrt3/2",
+   "allowExpr": true
+  },
+  {
+   "id": "q9e",
+   "label": "9e",
+   "section": "Reasoning",
+   "stem": "This triangle has angles $90^\\circ$, $60^\\circ$ and $30^\\circ$, and side lengths $1$, $2$ and $\\sqrt{3}$. Write the exact value of each ratio.",
+   "type": "numeric",
+   "prompt": "$\\cos 60^\\circ$",
+   "answer": "1/2",
+   "allowExpr": true
+  },
+  {
+   "id": "q9f",
+   "label": "9f",
+   "section": "Reasoning",
+   "stem": "This triangle has angles $90^\\circ$, $60^\\circ$ and $30^\\circ$, and side lengths $1$, $2$ and $\\sqrt{3}$. Write the exact value of each ratio.",
+   "type": "numeric",
+   "prompt": "$\\tan 60^\\circ$",
+   "answer": "sqrt3",
+   "allowExpr": true
+  },
+  {
+   "id": "q9g",
+   "label": "9g",
+   "section": "Reasoning",
+   "type": "choice",
+   "prompt": "What do you notice about $\\cos 30^\\circ$ and $\\sin 60^\\circ$?",
+   "answer": 0,
+   "options": [
+    "They are equal",
+    "The first is double the second",
+    "They add to 1"
+   ]
+  },
+  {
+   "id": "q9h",
+   "label": "9h",
+   "section": "Reasoning",
+   "type": "choice",
+   "prompt": "What do you notice about $\\sin 30^\\circ$ and $\\cos 60^\\circ$?",
+   "answer": 0,
+   "options": [
+    "They are equal",
+    "The first is double the second",
+    "They add to 1"
+   ]
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Reasoning",
+   "stem": "Kai measured the sides of this triangle to the nearest millimetre. Use his measurements to find an approximate value for each ratio, correct to two decimal places.",
+   "type": "numeric",
+   "prompt": "$\\cos 35^\\circ$",
+   "answer": "0.82",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 40.68,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        3.441
+       ],
+       [
+        -4.915,
+        0
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       90,
+       180
+      ],
+      "right": true,
+      "r": 0.369
+     },
+     {
+      "label": "50 mm",
+      "at": [
+       -2.457,
+       -0.393
+      ]
+     },
+     {
+      "label": "35 mm",
+      "at": [
+       0.246,
+       1.721
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "61 mm",
+      "at": [
+       -2.668,
+       2.021
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       -4.915,
+       0,
+       0,
+       35
+      ],
+      "r": 0.492
+     },
+     {
+      "label": "35°",
+      "at": [
+       -3.59,
+       0.418
+      ]
+     }
+    ]
+   },
+   "dp": 2
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Reasoning",
+   "stem": "Kai measured the sides of this triangle to the nearest millimetre. Use his measurements to find an approximate value for each ratio, correct to two decimal places.",
+   "type": "numeric",
+   "prompt": "$\\sin 35^\\circ$",
+   "answer": "0.57",
+   "dp": 2
+  },
+  {
+   "id": "q10c",
+   "label": "10c",
+   "section": "Reasoning",
+   "stem": "Kai measured the sides of this triangle to the nearest millimetre. Use his measurements to find an approximate value for each ratio, correct to two decimal places.",
+   "type": "numeric",
+   "prompt": "$\\tan 35^\\circ$",
+   "answer": "0.70",
+   "dp": 2
+  },
+  {
+   "id": "q10d",
+   "label": "10d",
+   "section": "Reasoning",
+   "stem": "Kai measured the sides of this triangle to the nearest millimetre. Use his measurements to find an approximate value for each ratio, correct to two decimal places.",
+   "type": "numeric",
+   "prompt": "$\\sin 55^\\circ$",
+   "answer": "0.82",
+   "dp": 2
+  },
+  {
+   "id": "q10e",
+   "label": "10e",
+   "section": "Reasoning",
+   "stem": "Kai measured the sides of this triangle to the nearest millimetre. Use his measurements to find an approximate value for each ratio, correct to two decimal places.",
+   "type": "numeric",
+   "prompt": "$\\tan 55^\\circ$",
+   "answer": "1.43",
+   "dp": 2
+  },
+  {
+   "id": "q10f",
+   "label": "10f",
+   "section": "Reasoning",
+   "stem": "Kai measured the sides of this triangle to the nearest millimetre. Use his measurements to find an approximate value for each ratio, correct to two decimal places.",
+   "type": "numeric",
+   "prompt": "$\\cos 55^\\circ$",
+   "answer": "0.57",
+   "dp": 2
+  },
+  {
+   "id": "q10g",
+   "label": "10g",
+   "section": "Reasoning",
+   "type": "choice",
+   "prompt": "What do you notice about the ratios for $35^\\circ$ and $55^\\circ$?",
+   "answer": 1,
+   "options": [
+    "sin 35° = sin 55° and cos 35° = cos 55°",
+    "sin 35° = cos 55° and cos 35° = sin 55°",
+    "tan 35° = tan 55°"
+   ]
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Reasoning",
+   "stem": "Is it possible to draw a right-angled triangle where $\\theta$ is one of the two acute angles and:",
+   "type": "choice",
+   "prompt": "$\\tan \\theta = 3$",
+   "answer": 0,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Reasoning",
+   "stem": "Is it possible to draw a right-angled triangle where $\\theta$ is one of the two acute angles and:",
+   "type": "choice",
+   "prompt": "$\\sin \\theta = 1$",
+   "answer": 1,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q11c",
+   "label": "11c",
+   "section": "Reasoning",
+   "stem": "Is it possible to draw a right-angled triangle where $\\theta$ is one of the two acute angles and:",
+   "type": "choice",
+   "prompt": "$\\cos \\theta = 0.4$",
+   "answer": 0,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q11d",
+   "label": "11d",
+   "section": "Reasoning",
+   "stem": "Is it possible to draw a right-angled triangle where $\\theta$ is one of the two acute angles and:",
+   "type": "choice",
+   "prompt": "$\\cos \\theta > 1$",
+   "answer": 1,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q12a",
+   "label": "12a",
+   "section": "Enrichment",
+   "stem": "$\\theta$ is an acute angle and $\\cos \\theta = \\frac{12}{13}$. Use Pythagoras' theorem to find the other ratios as fractions.",
+   "type": "numeric",
+   "prompt": "$\\sin \\theta$",
+   "answer": "5/13",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 39.72,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        2.308
+       ],
+       [
+        -5.538,
+        0
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       90,
+       180
+      ],
+      "right": true,
+      "r": 0.378
+     },
+     {
+      "label": "12",
+      "at": [
+       -2.769,
+       -0.403
+      ]
+     },
+     {
+      "label": "13",
+      "at": [
+       -2.92,
+       1.515
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       -5.538,
+       0,
+       0,
+       22.62
+      ],
+      "r": 0.503
+     },
+     {
+      "label": "θ",
+      "at": [
+       -3.399,
+       0.428
+      ]
+     }
+    ]
+   },
+   "as": "fraction"
+  },
+  {
+   "id": "q12b",
+   "label": "12b",
+   "section": "Enrichment",
+   "stem": "$\\theta$ is an acute angle and $\\cos \\theta = \\frac{12}{13}$. Use Pythagoras' theorem to find the other ratios as fractions.",
+   "type": "numeric",
+   "prompt": "$\\tan \\theta$",
+   "answer": "5/12",
+   "as": "fraction"
+  },
+  {
+   "id": "q12c",
+   "label": "12c",
+   "section": "Enrichment",
+   "stem": "For each ratio, sketch a right-angled triangle, use Pythagoras' theorem to find the third side, then write the exact values of the other two ratios.",
+   "type": "numeric",
+   "prompt": "$\\sin \\theta = \\frac{2}{3}$: find $\\cos \\theta$",
+   "answer": "sqrt5/3",
+   "allowExpr": true,
+   "hint": "Give an exact value, not a decimal. Type a square root as sqrt, for example sqrt3/2 or 1/sqrt5"
+  },
+  {
+   "id": "q12d",
+   "label": "12d",
+   "section": "Enrichment",
+   "stem": "For each ratio, sketch a right-angled triangle, use Pythagoras' theorem to find the third side, then write the exact values of the other two ratios.",
+   "type": "numeric",
+   "prompt": "$\\sin \\theta = \\frac{2}{3}$: find $\\tan \\theta$",
+   "answer": "2/sqrt5",
+   "allowExpr": true
+  },
+  {
+   "id": "q12e",
+   "label": "12e",
+   "section": "Enrichment",
+   "stem": "For each ratio, sketch a right-angled triangle, use Pythagoras' theorem to find the third side, then write the exact values of the other two ratios.",
+   "type": "numeric",
+   "prompt": "$\\cos \\theta = \\frac{1}{3}$: find $\\sin \\theta$",
+   "answer": "2sqrt2/3",
+   "allowExpr": true
+  },
+  {
+   "id": "q12f",
+   "label": "12f",
+   "section": "Enrichment",
+   "stem": "For each ratio, sketch a right-angled triangle, use Pythagoras' theorem to find the third side, then write the exact values of the other two ratios.",
+   "type": "numeric",
+   "prompt": "$\\cos \\theta = \\frac{1}{3}$: find $\\tan \\theta$",
+   "answer": "2sqrt2",
+   "allowExpr": true
+  },
+  {
+   "id": "q12g",
+   "label": "12g",
+   "section": "Enrichment",
+   "stem": "For each ratio, sketch a right-angled triangle, use Pythagoras' theorem to find the third side, then write the exact values of the other two ratios.",
+   "type": "numeric",
+   "prompt": "$\\tan \\theta = 2$: find $\\sin \\theta$",
+   "answer": "2/sqrt5",
+   "allowExpr": true
+  },
+  {
+   "id": "q12h",
+   "label": "12h",
+   "section": "Enrichment",
+   "stem": "For each ratio, sketch a right-angled triangle, use Pythagoras' theorem to find the third side, then write the exact values of the other two ratios.",
+   "type": "numeric",
+   "prompt": "$\\tan \\theta = 2$: find $\\cos \\theta$",
+   "answer": "1/sqrt5",
+   "allowExpr": true
+  },
+  {
+   "id": "q12i",
+   "label": "12i",
+   "section": "Enrichment",
+   "type": "numeric",
+   "prompt": "Use the values from parts a and b: $\\cos \\theta = \\frac{12}{13}$ and $\\sin \\theta = \\frac{5}{13}$. Calculate $(\\cos \\theta)^2 + (\\sin \\theta)^2$.",
+   "answer": "1"
+  }
+ ]
+},
+{
  "id": "y9-3f",
  "year": 9,
  "chapter": "Chapter 3: Pythagoras' theorem and trigonometry",
@@ -40117,6 +45853,2455 @@ window.H3_BANK.sets.push(
    "prompt": "In theory, what would the viewing angle get closer and closer to if Mia could stand as close to the painting as she liked?",
    "answer": "90",
    "units": "°"
+  }
+ ]
+},
+{
+ "id": "y9-3i",
+ "year": 9,
+ "chapter": "Chapter 3: Pythagoras' theorem and trigonometry",
+ "title": "3I Applying trigonometry",
+ "description": "Use angles of elevation and depression and right-angled triangles to solve real problems with trigonometry.",
+ "questions": [
+  {
+   "id": "q1",
+   "label": "1",
+   "section": "Fluency",
+   "type": "numeric",
+   "prompt": "The angle of elevation of the top of a tower from a point on the ground $45$ m from its base is $38^\\circ$. Find the height of the tower, to the nearest metre.",
+   "answer": "35",
+   "units": "m",
+   "figure": {
+    "kind": "diagram",
+    "unit": 3.91,
+    "items": [
+     {
+      "seg": [
+       -3,
+       0,
+       51,
+       0
+      ]
+     },
+     {
+      "poly": [
+       [
+        45,
+        0
+       ],
+       [
+        48,
+        0
+       ],
+       [
+        48,
+        35.158
+       ],
+       [
+        45,
+        35.158
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       0,
+       0,
+       45,
+       35.158
+      ],
+      "dash": true
+     },
+     {
+      "angle": [
+       45,
+       0,
+       90,
+       180
+      ],
+      "right": true,
+      "r": 3.836
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       38
+      ],
+      "r": 6.649
+     },
+     {
+      "label": "38°",
+      "at": [
+       12.625,
+       4.347
+      ]
+     },
+     {
+      "label": "45 m",
+      "at": [
+       22.5,
+       -3.2
+      ]
+     },
+     {
+      "label": "h m",
+      "at": [
+       49,
+       17.579
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "line of sight",
+      "at": [
+       17.9,
+       17.266
+      ],
+      "anchor": "end"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2",
+   "label": "2",
+   "section": "Fluency",
+   "type": "numeric",
+   "prompt": "From a point on the ground $30$ m from the base of a castle wall, the angle of elevation of the top of the wall is $29^\\circ$. Find the height of the wall, to the nearest metre.",
+   "answer": "17",
+   "units": "m"
+  },
+  {
+   "id": "q3",
+   "label": "3",
+   "section": "Fluency",
+   "type": "numeric",
+   "prompt": "From a point on the ground, Priya measures the angle of elevation of the top of a $95$ m tall tower to be $31^\\circ$. How far is Priya from the base of the tower, to the nearest metre?",
+   "answer": "158",
+   "units": "m"
+  },
+  {
+   "id": "q4",
+   "label": "4",
+   "section": "Fluency",
+   "type": "numeric",
+   "prompt": "From a footbridge $19$ m above the road, Leo spots a landmark at an angle of depression of $28^\\circ$. How far is the landmark from the base of the footbridge, to the nearest metre?",
+   "answer": "36",
+   "units": "m",
+   "figure": {
+    "kind": "diagram",
+    "unit": 6.84,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        35.734,
+        0
+       ],
+       [
+        35.734,
+        19
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       35.734,
+       0,
+       90,
+       180
+      ],
+      "right": true,
+      "r": 2.192
+     },
+     {
+      "seg": [
+       5.36,
+       19,
+       35.734,
+       19
+      ],
+      "dash": true
+     },
+     {
+      "angle": [
+       35.734,
+       19,
+       180,
+       208
+      ],
+      "r": 3.8
+     },
+     {
+      "label": "28°",
+      "at": [
+       25.769,
+       16.515
+      ]
+     },
+     {
+      "label": "19 m",
+      "at": [
+       37.195,
+       9.5
+      ],
+      "anchor": "start"
+     },
+     {
+      "point": [
+       0,
+       0
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q5",
+   "label": "5",
+   "section": "Fluency",
+   "type": "numeric",
+   "prompt": "From a fire lookout tower $48$ m high, a ranger spots smoke at an angle of depression of $22^\\circ$. How far is the smoke from the base of the tower, to the nearest metre?",
+   "answer": "119",
+   "units": "m"
+  },
+  {
+   "id": "q6",
+   "label": "6",
+   "section": "Fluency",
+   "type": "numeric",
+   "prompt": "From the top of a vertical cliff $44$ m above sea level, Mateo spots a surfer $65$ m out from the base of the cliff. Find the angle of depression from Mateo to the surfer, to the nearest degree.",
+   "answer": "34",
+   "units": "°"
+  },
+  {
+   "id": "q7",
+   "label": "7",
+   "section": "Fluency",
+   "type": "numeric",
+   "prompt": "From the deck of a ferry, $18$ m above the water, a crew member spots a buoy $240$ m away horizontally. Find the angle of depression from the deck to the buoy, to the nearest degree.",
+   "answer": "4",
+   "units": "°"
+  },
+  {
+   "id": "q8",
+   "label": "8",
+   "section": "Fluency",
+   "type": "numeric",
+   "prompt": "A cable runs from the top of a power pole to the top of a shed. The shed is $3.8$ m high, the pole is $6.5$ m high, and they are $14$ m apart horizontally. Find the angle of elevation of the top of the pole from the top of the shed, to the nearest degree.",
+   "answer": "11",
+   "units": "°"
+  },
+  {
+   "id": "q9",
+   "label": "9",
+   "section": "Problem-solving",
+   "type": "choice",
+   "prompt": "A plane flying at an altitude of $1700$ m starts to climb at $16^\\circ$ to the horizontal. A mountain peak $2380$ m high is $2500$ m away horizontally. Will the plane clear the mountain?",
+   "answer": 0,
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 0.06,
+    "items": [
+     {
+      "seg": [
+       -150,
+       0,
+       2800,
+       0
+      ],
+      "dash": true
+     },
+     {
+      "poly": [
+       [
+        1500,
+        0
+       ],
+       [
+        2050,
+        1309
+       ],
+       [
+        2500,
+        2380
+       ],
+       [
+        2900,
+        1428
+       ],
+       [
+        3300,
+        0
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       0,
+       1700,
+       1375,
+       2094.275
+      ],
+      "arrow": "end"
+     },
+     {
+      "point": [
+       0,
+       1700
+      ]
+     },
+     {
+      "dim": [
+       -80,
+       0,
+       -80,
+       1700
+      ],
+      "label": "1700 m",
+      "off": -266.667
+     },
+     {
+      "seg": [
+       2500,
+       2380,
+       3500,
+       2380
+      ],
+      "dash": true,
+      "thin": true
+     },
+     {
+      "dim": [
+       3500,
+       0,
+       3500,
+       2380
+      ],
+      "label": "2380 m",
+      "off": -66.667
+     },
+     {
+      "label": "",
+      "at": [
+       3800,
+       2380
+      ]
+     },
+     {
+      "dim": [
+       0,
+       -120,
+       2500,
+       -120
+      ],
+      "label": "2500 m",
+      "off": -166.667
+     },
+     {
+      "angle": [
+       0,
+       1700,
+       0,
+       16
+      ],
+      "r": 666.667
+     },
+     {
+      "label": "16°",
+      "at": [
+       1237.835,
+       1873.966
+      ]
+     },
+     {
+      "seg": [
+       0,
+       1700,
+       600,
+       1700
+      ],
+      "dash": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Problem-solving",
+   "stem": "A road rises steadily with a gradient of $1$ in $8$ (it rises $1$ m for every $8$ m horizontally).",
+   "type": "numeric",
+   "prompt": "What angle does the road make with the horizontal, to the nearest degree?",
+   "answer": "7",
+   "units": "°"
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Problem-solving",
+   "stem": "A road rises steadily with a gradient of $1$ in $8$ (it rises $1$ m for every $8$ m horizontally).",
+   "type": "numeric",
+   "prompt": "A cyclist rides $1.5$ km along the road from the bottom. How high has she climbed? Use your rounded angle from part a and give your answer to the nearest metre.",
+   "answer": "183",
+   "units": "m"
+  },
+  {
+   "id": "q11",
+   "label": "11",
+   "section": "Problem-solving",
+   "type": "numeric",
+   "prompt": "A house roof is pitched at $28^\\circ$ to the horizontal. The house is $8400$ mm wide (not counting the eaves) and the eaves stick out $500$ mm on each side. Find the length of one sloping edge of the roof, from the ridge to the end of the eave, to the nearest millimetre.",
+   "answer": "5323",
+   "units": "mm",
+   "figure": {
+    "kind": "diagram",
+    "unit": 0.02,
+    "items": [
+     {
+      "poly": [
+       [
+        500,
+        0
+       ],
+       [
+        8900,
+        0
+       ],
+       [
+        8900,
+        2700
+       ],
+       [
+        500,
+        2700
+       ]
+      ]
+     },
+     {
+      "poly": [
+       [
+        0,
+        2700
+       ],
+       [
+        9400,
+        2700
+       ],
+       [
+        4700,
+        5199.034
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       2700,
+       0,
+       28
+      ],
+      "r": 1320
+     },
+     {
+      "label": "28°",
+      "at": [
+       3000.064,
+       3448
+      ]
+     },
+     {
+      "dim": [
+       500,
+       -250,
+       8900,
+       -250
+      ],
+      "label": "8400 mm",
+      "off": -440
+     },
+     {
+      "label": "500 mm",
+      "at": [
+       -150,
+       2300
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "500 mm",
+      "at": [
+       9550,
+       2300
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "",
+      "at": [
+       -1900,
+       2300
+      ]
+     },
+     {
+      "label": "",
+      "at": [
+       11300,
+       2300
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q12a",
+   "label": "12a",
+   "section": "Problem-solving",
+   "stem": "A garage is built with walls $2600$ mm and $1850$ mm high, $3000$ mm apart. The roof is a straight sloping edge, and the eaves stick out $450$ mm past each wall. Give your answers to the nearest unit.",
+   "type": "numeric",
+   "prompt": "Find the pitch of the roof (the angle it makes with the horizontal).",
+   "answer": "14",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 0.05,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        3000,
+        0
+       ],
+       [
+        3000,
+        1850
+       ],
+       [
+        0,
+        2600
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       -450,
+       2712.5,
+       3450,
+       1737.5
+      ]
+     },
+     {
+      "dim": [
+       0,
+       -150,
+       3000,
+       -150
+      ],
+      "label": "3000 mm",
+      "off": -190.833
+     },
+     {
+      "label": "2600 mm",
+      "at": [
+       -150,
+       1300
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "1850 mm",
+      "at": [
+       3150,
+       925
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "",
+      "at": [
+       -1100,
+       1300
+      ]
+     },
+     {
+      "label": "",
+      "at": [
+       4100,
+       925
+      ]
+     }
+    ]
+   },
+   "units": "°"
+  },
+  {
+   "id": "q12b",
+   "label": "12b",
+   "section": "Problem-solving",
+   "stem": "A garage is built with walls $2600$ mm and $1850$ mm high, $3000$ mm apart. The roof is a straight sloping edge, and the eaves stick out $450$ mm past each wall. Give your answers to the nearest unit.",
+   "type": "numeric",
+   "prompt": "Find the total sloping length of the roof, including both eaves.",
+   "answer": "4020",
+   "units": "mm"
+  },
+  {
+   "id": "q13",
+   "label": "13",
+   "section": "Problem-solving",
+   "type": "numeric",
+   "prompt": "The chains on a swing are $2.8$ m long, and the seat is $0.6$ m off the ground when it hangs straight down. When the swing is pulled back as far as possible, the chains make an angle of $35^\\circ$ with the vertical. How high off the ground is the seat in this position? Give your answer in metres, correct to the nearest centimetre.",
+   "answer": "1.11",
+   "dp": 2,
+   "units": "m"
+  },
+  {
+   "id": "q14a",
+   "label": "14a",
+   "section": "Reasoning",
+   "stem": "A person views a vertical monument $x$ metres away. Their eyes are $h$ metres above the ground, and the top of the monument is $y$ metres above eye level.",
+   "type": "numeric",
+   "prompt": "If $h = 1.6$, $x = 25$ and $\\theta = 14^\\circ$, find the height of the monument, correct to two decimal places.",
+   "answer": "7.83",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 18.07,
+    "items": [
+     {
+      "seg": [
+       -1,
+       0,
+       12,
+       0
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       1.25
+      ]
+     },
+     {
+      "point": [
+       0,
+       1.4
+      ]
+     },
+     {
+      "poly": [
+       [
+        10,
+        0
+       ],
+       [
+        10.35,
+        0
+       ],
+       [
+        10.35,
+        7
+       ],
+       [
+        10,
+        7
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       0,
+       1.6,
+       10,
+       7
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       0,
+       1.6,
+       10,
+       1.6
+      ],
+      "dash": true
+     },
+     {
+      "angle": [
+       0,
+       1.6,
+       0,
+       28.369
+      ],
+      "r": 1.881
+     },
+     {
+      "label": "θ",
+      "at": [
+       3.722,
+       2.541
+      ]
+     },
+     {
+      "dim": [
+       -0.6,
+       0,
+       -0.6,
+       1.6
+      ],
+      "label": "h m",
+      "off": 0.443
+     },
+     {
+      "dim": [
+       0,
+       -0.6,
+       10,
+       -0.6
+      ],
+      "label": "x m",
+      "off": -0.332
+     },
+     {
+      "dim": [
+       10.9,
+       1.6,
+       10.9,
+       7
+      ],
+      "label": "y m",
+      "off": -0.443
+     },
+     {
+      "label": "monument",
+      "at": [
+       10.6,
+       7.7
+      ]
+     }
+    ]
+   },
+   "dp": 2,
+   "units": "m"
+  },
+  {
+   "id": "q14b",
+   "label": "14b",
+   "section": "Reasoning",
+   "stem": "A person views a vertical monument $x$ metres away. Their eyes are $h$ metres above the ground, and the top of the monument is $y$ metres above eye level.",
+   "type": "numeric",
+   "prompt": "If $h = 1.6$, $x = 25$ and $y = 12$, find $\\theta$, correct to one decimal place.",
+   "answer": "25.6",
+   "dp": 1,
+   "units": "°"
+  },
+  {
+   "id": "q14c",
+   "label": "14c",
+   "section": "Reasoning",
+   "stem": "A person views a vertical monument $x$ metres away. Their eyes are $h$ metres above the ground, and the top of the monument is $y$ metres above eye level.",
+   "type": "expression",
+   "prompt": "Let the height of the monument be $m$ metres. Write a rule for $m$ in terms of $y$ and $h$.",
+   "answer": "m=y+h",
+   "accept": [
+    "y+h"
+   ],
+   "hint": "Type the rule starting with m =, for example m = ..."
+  },
+  {
+   "id": "q14d",
+   "label": "14d",
+   "section": "Reasoning",
+   "stem": "A person views a vertical monument $x$ metres away. Their eyes are $h$ metres above the ground, and the top of the monument is $y$ metres above eye level.",
+   "type": "choice",
+   "prompt": "Which rule gives $y$ in terms of $x$ and $\\theta$?",
+   "answer": 1,
+   "options": [
+    "y = x sin θ",
+    "y = x tan θ",
+    "y = x / tan θ",
+    "y = tan θ / x"
+   ]
+  },
+  {
+   "id": "q14e",
+   "label": "14e",
+   "section": "Reasoning",
+   "stem": "A person views a vertical monument $x$ metres away. Their eyes are $h$ metres above the ground, and the top of the monument is $y$ metres above eye level.",
+   "type": "choice",
+   "prompt": "Which rule gives $m$ in terms of $x$, $\\theta$ and $h$?",
+   "answer": 2,
+   "options": [
+    "m = x + h tan θ",
+    "m = h tan θ",
+    "m = x tan θ + h",
+    "m = x cos θ + h"
+   ]
+  },
+  {
+   "id": "q15",
+   "label": "15",
+   "section": "Reasoning",
+   "type": "choice",
+   "prompt": "Which expression gives the area of this right-angled triangle, in terms of $a$ and $\\theta$?",
+   "answer": 3,
+   "figure": {
+    "kind": "diagram",
+    "unit": 31.11,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        3.857
+       ],
+       [
+        -4.596,
+        0
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       90,
+       180
+      ],
+      "right": true,
+      "r": 0.482
+     },
+     {
+      "label": "a",
+      "at": [
+       -2.298,
+       -0.514
+      ]
+     },
+     {
+      "angle": [
+       -4.596,
+       0,
+       0,
+       40
+      ],
+      "r": 0.643
+     },
+     {
+      "label": "θ",
+      "at": [
+       -3.095,
+       0.546
+      ]
+     }
+    ]
+   },
+   "options": [
+    "a² sin θ",
+    "a tan θ / 2",
+    "a² cos θ / 2",
+    "a² tan θ / 2"
+   ]
+  },
+  {
+   "id": "q16a",
+   "label": "16a",
+   "section": "Enrichment",
+   "stem": "A plane takes off and climbs at $22^\\circ$ to the horizontal, flying at $200$ km/h along its flight path for $12$ minutes.",
+   "type": "numeric",
+   "prompt": "How far does the plane fly along its flight path in $12$ minutes?",
+   "answer": "40",
+   "units": "km"
+  },
+  {
+   "id": "q16b",
+   "label": "16b",
+   "section": "Enrichment",
+   "stem": "A plane takes off and climbs at $22^\\circ$ to the horizontal, flying at $200$ km/h along its flight path for $12$ minutes.",
+   "type": "numeric",
+   "prompt": "Find the height of the plane after $12$ minutes, correct to two decimal places.",
+   "answer": "14.98",
+   "dp": 2,
+   "units": "km"
+  },
+  {
+   "id": "q16c",
+   "label": "16c",
+   "section": "Enrichment",
+   "stem": "A plane takes off and climbs at $22^\\circ$ to the horizontal, flying at $200$ km/h along its flight path for $12$ minutes.",
+   "type": "choice",
+   "prompt": "If the plane climbed at twice the angle but at half the speed, would it reach a greater height after the same time?",
+   "answer": 1,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q16d",
+   "label": "16d",
+   "section": "Enrichment",
+   "stem": "A plane takes off and climbs at $22^\\circ$ to the horizontal, flying at $200$ km/h along its flight path for $12$ minutes.",
+   "type": "choice",
+   "prompt": "If the plane flew at twice the speed but climbed at half the angle, would it reach a greater height after the same time?",
+   "answer": 0,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q17a",
+   "label": "17a",
+   "section": "Enrichment",
+   "stem": "The town of Millbrook is $10$ km from an airport. Residents say any plane flying lower than $3$ km over the town disturbs them. Every Sunday the town holds an outdoor concert from 1:00 pm to 3:00 pm.",
+   "type": "choice",
+   "prompt": "A plane takes off from the airport and climbs at $14^\\circ$ straight towards Millbrook. Will it disturb the residents as it flies over?",
+   "answer": 0,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q17b",
+   "label": "17b",
+   "section": "Enrichment",
+   "stem": "The town of Millbrook is $10$ km from an airport. Residents say any plane flying lower than $3$ km over the town disturbs them. Every Sunday the town holds an outdoor concert from 1:00 pm to 3:00 pm.",
+   "type": "numeric",
+   "prompt": "When this plane is directly above Millbrook, how far has it flown along its flight path? Give your answer to the nearest metre.",
+   "answer": "10306",
+   "units": "m"
+  },
+  {
+   "id": "q17c",
+   "label": "17c",
+   "section": "Enrichment",
+   "stem": "The town of Millbrook is $10$ km from an airport. Residents say any plane flying lower than $3$ km over the town disturbs them. Every Sunday the town holds an outdoor concert from 1:00 pm to 3:00 pm.",
+   "type": "choice",
+   "prompt": "The plane leaves at 12:52 pm and flies at an average speed of $160$ km/h. Will it disturb the start of the concert?",
+   "answer": 1,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q17d",
+   "label": "17d",
+   "section": "Enrichment",
+   "stem": "The town of Millbrook is $10$ km from an airport. Residents say any plane flying lower than $3$ km over the town disturbs them. Every Sunday the town holds an outdoor concert from 1:00 pm to 3:00 pm.",
+   "type": "numeric",
+   "prompt": "If it leaves at 12:52 pm, what is the slowest average speed the plane could fly at and still pass over Millbrook before the concert starts? Give your answer to the nearest km/h.",
+   "answer": "77",
+   "units": "km/h",
+   "accept": [
+    "78"
+   ]
+  },
+  {
+   "id": "q18a",
+   "label": "18a",
+   "section": "Enrichment",
+   "stem": "Nina sees a plane flying directly overhead at a height of $750$ m. $25$ seconds later, the angle of elevation of the plane from Nina is $35^\\circ$. Assume the plane flies horizontally.",
+   "type": "numeric",
+   "prompt": "How far did the plane fly in those $25$ seconds, to the nearest metre?",
+   "answer": "1071",
+   "units": "m"
+  },
+  {
+   "id": "q18b",
+   "label": "18b",
+   "section": "Enrichment",
+   "stem": "Nina sees a plane flying directly overhead at a height of $750$ m. $25$ seconds later, the angle of elevation of the plane from Nina is $35^\\circ$. Assume the plane flies horizontally.",
+   "type": "numeric",
+   "prompt": "What is the plane's speed in km/h, to the nearest km/h?",
+   "answer": "154",
+   "units": "km/h"
+  }
+ ]
+},
+{
+ "id": "y9-3j",
+ "year": 9,
+ "chapter": "Chapter 3: Pythagoras' theorem and trigonometry",
+ "title": "3J Bearings",
+ "description": "Read and write true bearings, then use right-angled triangles to find distances north, south, east or west.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "For each diagram, write the true bearing asked for.",
+   "type": "numeric",
+   "prompt": "Diagram a: the true bearing of $A$ from $O$",
+   "answer": "050",
+   "figure": {
+    "kind": "diagram",
+    "unit": 33.93,
+    "items": [
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       2.4
+      ],
+      "arrow": "end"
+     },
+     {
+      "label": "N",
+      "at": [
+       0,
+       2.8
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       2.4,
+       0
+      ],
+      "arrow": "end"
+     },
+     {
+      "label": "E",
+      "at": [
+       2.75,
+       -0.12
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       -2.4
+      ],
+      "arrow": "end"
+     },
+     {
+      "label": "S",
+      "at": [
+       0,
+       -2.8
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       -2.4,
+       0
+      ],
+      "arrow": "end"
+     },
+     {
+      "label": "W",
+      "at": [
+       -2.75,
+       -0.12
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       1.532,
+       1.286
+      ]
+     },
+     {
+      "point": [
+       1.532,
+       1.286
+      ],
+      "name": "A",
+      "pos": "ne"
+     },
+     {
+      "point": [
+       0,
+       0
+      ]
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.3,
+       -0.35
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       0,
+       0,
+       40,
+       90
+      ],
+      "r": 0.648
+     },
+     {
+      "label": "50°",
+      "at": [
+       0.548,
+       1.175
+      ]
+     }
+    ]
+   },
+   "units": "°T",
+   "hint": "Write a true bearing as a number of degrees, for example 045 or 045°T"
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "For each diagram, write the true bearing asked for.",
+   "type": "numeric",
+   "prompt": "Diagram a: the true bearing of $O$ from $A$",
+   "answer": "230",
+   "units": "°T"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "For each diagram, write the true bearing asked for.",
+   "type": "numeric",
+   "prompt": "Diagram b: the true bearing of $A$ from $O$",
+   "answer": "146",
+   "figure": {
+    "kind": "diagram",
+    "unit": 33.93,
+    "items": [
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       2.4
+      ],
+      "arrow": "end"
+     },
+     {
+      "label": "N",
+      "at": [
+       0,
+       2.8
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       2.4,
+       0
+      ],
+      "arrow": "end"
+     },
+     {
+      "label": "E",
+      "at": [
+       2.75,
+       -0.12
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       -2.4
+      ],
+      "arrow": "end"
+     },
+     {
+      "label": "S",
+      "at": [
+       0,
+       -2.8
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       -2.4,
+       0
+      ],
+      "arrow": "end"
+     },
+     {
+      "label": "W",
+      "at": [
+       -2.75,
+       -0.12
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       1.118,
+       -1.658
+      ]
+     },
+     {
+      "point": [
+       1.118,
+       -1.658
+      ],
+      "name": "A",
+      "pos": "se"
+     },
+     {
+      "point": [
+       0,
+       0
+      ]
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.3,
+       -0.35
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       0,
+       0,
+       270,
+       304
+      ],
+      "r": 0.648
+     },
+     {
+      "seg": [
+       0.953,
+       -0.31,
+       0.19,
+       -0.62
+      ],
+      "thin": true,
+      "arrow": "end"
+     },
+     {
+      "label": "34°",
+      "at": [
+       1.054,
+       -0.419
+      ],
+      "anchor": "start"
+     }
+    ]
+   },
+   "units": "°T"
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "For each diagram, write the true bearing asked for.",
+   "type": "numeric",
+   "prompt": "Diagram b: the true bearing of $O$ from $A$",
+   "answer": "326",
+   "units": "°T"
+  },
+  {
+   "id": "q1e",
+   "label": "1e",
+   "section": "Fluency",
+   "stem": "For each diagram, write the true bearing asked for.",
+   "type": "numeric",
+   "prompt": "Diagram c: the true bearing of $A$ from $O$",
+   "answer": "118",
+   "figure": {
+    "kind": "diagram",
+    "unit": 33.93,
+    "items": [
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       2.4
+      ],
+      "arrow": "end"
+     },
+     {
+      "label": "N",
+      "at": [
+       0,
+       2.8
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       2.4,
+       0
+      ],
+      "arrow": "end"
+     },
+     {
+      "label": "E",
+      "at": [
+       2.75,
+       -0.12
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       -2.4
+      ],
+      "arrow": "end"
+     },
+     {
+      "label": "S",
+      "at": [
+       0,
+       -2.8
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       -2.4,
+       0
+      ],
+      "arrow": "end"
+     },
+     {
+      "label": "W",
+      "at": [
+       -2.75,
+       -0.12
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       1.766,
+       -0.939
+      ]
+     },
+     {
+      "point": [
+       1.766,
+       -0.939
+      ],
+      "name": "A",
+      "pos": "se"
+     },
+     {
+      "point": [
+       0,
+       0
+      ]
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.3,
+       -0.35
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       0,
+       0,
+       332,
+       0
+      ],
+      "r": 0.648
+     },
+     {
+      "seg": [
+       0.79,
+       0.617,
+       0.629,
+       -0.157
+      ],
+      "thin": true,
+      "arrow": "end"
+     },
+     {
+      "label": "28°",
+      "at": [
+       0.833,
+       0.835
+      ],
+      "anchor": "start"
+     }
+    ]
+   },
+   "units": "°T"
+  },
+  {
+   "id": "q1f",
+   "label": "1f",
+   "section": "Fluency",
+   "stem": "For each diagram, write the true bearing asked for.",
+   "type": "numeric",
+   "prompt": "Diagram c: the true bearing of $O$ from $A$",
+   "answer": "298",
+   "units": "°T"
+  },
+  {
+   "id": "q1g",
+   "label": "1g",
+   "section": "Fluency",
+   "stem": "For each diagram, write the true bearing asked for.",
+   "type": "numeric",
+   "prompt": "Diagram d: the true bearing of $A$ from $O$",
+   "answer": "073",
+   "figure": {
+    "kind": "diagram",
+    "unit": 33.93,
+    "items": [
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       2.4
+      ],
+      "arrow": "end"
+     },
+     {
+      "label": "N",
+      "at": [
+       0,
+       2.8
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       2.4,
+       0
+      ],
+      "arrow": "end"
+     },
+     {
+      "label": "E",
+      "at": [
+       2.75,
+       -0.12
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       -2.4
+      ],
+      "arrow": "end"
+     },
+     {
+      "label": "S",
+      "at": [
+       0,
+       -2.8
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       -2.4,
+       0
+      ],
+      "arrow": "end"
+     },
+     {
+      "label": "W",
+      "at": [
+       -2.75,
+       -0.12
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       1.913,
+       0.585
+      ]
+     },
+     {
+      "point": [
+       1.913,
+       0.585
+      ],
+      "name": "A",
+      "pos": "e"
+     },
+     {
+      "point": [
+       0,
+       0
+      ]
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.3,
+       -0.35
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       17
+      ],
+      "r": 0.648
+     },
+     {
+      "seg": [
+       0.79,
+       -0.617,
+       0.641,
+       0.096
+      ],
+      "thin": true,
+      "arrow": "end"
+     },
+     {
+      "label": "17°",
+      "at": [
+       0.833,
+       -0.835
+      ],
+      "anchor": "start"
+     }
+    ]
+   },
+   "units": "°T"
+  },
+  {
+   "id": "q1h",
+   "label": "1h",
+   "section": "Fluency",
+   "stem": "For each diagram, write the true bearing asked for.",
+   "type": "numeric",
+   "prompt": "Diagram d: the true bearing of $O$ from $A$",
+   "answer": "253",
+   "units": "°T"
+  },
+  {
+   "id": "q1i",
+   "label": "1i",
+   "section": "Fluency",
+   "stem": "For each diagram, write the true bearing asked for.",
+   "type": "numeric",
+   "prompt": "Diagram e: the true bearing of $A$ from $O$",
+   "answer": "335",
+   "figure": {
+    "kind": "diagram",
+    "unit": 33.93,
+    "items": [
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       2.4
+      ],
+      "arrow": "end"
+     },
+     {
+      "label": "N",
+      "at": [
+       0,
+       2.8
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       2.4,
+       0
+      ],
+      "arrow": "end"
+     },
+     {
+      "label": "E",
+      "at": [
+       2.75,
+       -0.12
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       -2.4
+      ],
+      "arrow": "end"
+     },
+     {
+      "label": "S",
+      "at": [
+       0,
+       -2.8
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       -2.4,
+       0
+      ],
+      "arrow": "end"
+     },
+     {
+      "label": "W",
+      "at": [
+       -2.75,
+       -0.12
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       -0.845,
+       1.813
+      ]
+     },
+     {
+      "point": [
+       -0.845,
+       1.813
+      ],
+      "name": "A",
+      "pos": "nw"
+     },
+     {
+      "point": [
+       0,
+       0
+      ]
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.3,
+       -0.35
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       0,
+       0,
+       90,
+       115
+      ],
+      "r": 0.648
+     },
+     {
+      "seg": [
+       -0.893,
+       0.455,
+       -0.14,
+       0.633
+      ],
+      "thin": true,
+      "arrow": "end"
+     },
+     {
+      "label": "25°",
+      "at": [
+       -0.972,
+       0.616
+      ],
+      "anchor": "end"
+     }
+    ]
+   },
+   "units": "°T"
+  },
+  {
+   "id": "q1j",
+   "label": "1j",
+   "section": "Fluency",
+   "stem": "For each diagram, write the true bearing asked for.",
+   "type": "numeric",
+   "prompt": "Diagram e: the true bearing of $O$ from $A$",
+   "answer": "155",
+   "units": "°T"
+  },
+  {
+   "id": "q1k",
+   "label": "1k",
+   "section": "Fluency",
+   "stem": "For each diagram, write the true bearing asked for.",
+   "type": "numeric",
+   "prompt": "Diagram f: the true bearing of $A$ from $O$",
+   "answer": "223",
+   "figure": {
+    "kind": "diagram",
+    "unit": 33.93,
+    "items": [
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       2.4
+      ],
+      "arrow": "end"
+     },
+     {
+      "label": "N",
+      "at": [
+       0,
+       2.8
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       2.4,
+       0
+      ],
+      "arrow": "end"
+     },
+     {
+      "label": "E",
+      "at": [
+       2.75,
+       -0.12
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       -2.4
+      ],
+      "arrow": "end"
+     },
+     {
+      "label": "S",
+      "at": [
+       0,
+       -2.8
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       -2.4,
+       0
+      ],
+      "arrow": "end"
+     },
+     {
+      "label": "W",
+      "at": [
+       -2.75,
+       -0.12
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       -1.364,
+       -1.463
+      ]
+     },
+     {
+      "point": [
+       -1.364,
+       -1.463
+      ],
+      "name": "A",
+      "pos": "sw"
+     },
+     {
+      "point": [
+       0,
+       0
+      ]
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.3,
+       -0.35
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       0,
+       0,
+       180,
+       227
+      ],
+      "r": 0.648
+     },
+     {
+      "label": "47°",
+      "at": [
+       -1.189,
+       -0.517
+      ]
+     }
+    ]
+   },
+   "units": "°T"
+  },
+  {
+   "id": "q1l",
+   "label": "1l",
+   "section": "Fluency",
+   "stem": "For each diagram, write the true bearing asked for.",
+   "type": "numeric",
+   "prompt": "Diagram f: the true bearing of $O$ from $A$",
+   "answer": "043",
+   "units": "°T"
+  },
+  {
+   "id": "q2",
+   "label": "2",
+   "section": "Fluency",
+   "type": "numeric",
+   "prompt": "A bushwalker walks $6$ km on a true bearing of $065^\\circ$ from point $A$ to point $B$. How far east of $A$ is $B$, correct to two decimal places?",
+   "answer": "5.44",
+   "dp": 2,
+   "units": "km",
+   "figure": {
+    "kind": "diagram",
+    "unit": 42.84,
+    "items": [
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       1.6
+      ],
+      "arrow": "end"
+     },
+     {
+      "label": "N",
+      "at": [
+       0,
+       2
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       1.6,
+       0
+      ],
+      "arrow": "end"
+     },
+     {
+      "label": "E",
+      "at": [
+       1.95,
+       -0.12
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       -1.6
+      ],
+      "arrow": "end"
+     },
+     {
+      "label": "S",
+      "at": [
+       0,
+       -2
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       -1.6,
+       0
+      ],
+      "arrow": "end"
+     },
+     {
+      "label": "W",
+      "at": [
+       -1.95,
+       -0.12
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       2.719,
+       1.268
+      ]
+     },
+     {
+      "point": [
+       2.719,
+       1.268
+      ],
+      "name": "B",
+      "pos": "ne"
+     },
+     {
+      "label": "A",
+      "at": [
+       -0.3,
+       0.3
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       0,
+       0,
+       25,
+       90
+      ],
+      "r": 0.56
+     },
+     {
+      "label": "65°",
+      "at": [
+       0.489,
+       0.768
+      ]
+     },
+     {
+      "label": "6 km",
+      "at": [
+       1.492,
+       0.35
+      ],
+      "anchor": "start"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3",
+   "label": "3",
+   "section": "Fluency",
+   "type": "numeric",
+   "prompt": "A jet ski travels $75$ km on a true bearing of $052^\\circ$. How far east of its starting point is it, correct to two decimal places?",
+   "answer": "59.10",
+   "dp": 2,
+   "units": "km"
+  },
+  {
+   "id": "q4",
+   "label": "4",
+   "section": "Fluency",
+   "type": "numeric",
+   "prompt": "A hiker walks due east, then turns and walks due south. She ends up $5$ km from her starting point, on a true bearing of $155^\\circ$. How far did she walk south, correct to one decimal place?",
+   "answer": "4.5",
+   "dp": 1,
+   "units": "km"
+  },
+  {
+   "id": "q5",
+   "label": "5",
+   "section": "Fluency",
+   "type": "numeric",
+   "prompt": "A four-wheel drive travels $28$ km on a true bearing of $215^\\circ$. How far west of its starting point is it, to the nearest kilometre?",
+   "answer": "16",
+   "units": "km"
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Problem-solving",
+   "stem": "A fishing boat sails $70$ km from point $O$ to point $B$, on a true bearing of $130^\\circ$.",
+   "type": "numeric",
+   "prompt": "How far east of $O$ is the boat, to the nearest kilometre?",
+   "answer": "54",
+   "units": "km",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 47.08,
+    "items": [
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       1.6
+      ],
+      "arrow": "end"
+     },
+     {
+      "label": "N",
+      "at": [
+       0,
+       2
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       1.6,
+       0
+      ],
+      "arrow": "end"
+     },
+     {
+      "label": "E",
+      "at": [
+       1.95,
+       -0.12
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       -1.6
+      ],
+      "arrow": "end"
+     },
+     {
+      "label": "S",
+      "at": [
+       0,
+       -2
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       -1.6,
+       0
+      ],
+      "arrow": "end"
+     },
+     {
+      "label": "W",
+      "at": [
+       -1.95,
+       -0.12
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       2.298,
+       -1.928
+      ]
+     },
+     {
+      "point": [
+       2.298,
+       -1.928
+      ],
+      "name": "B",
+      "pos": "se"
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.3,
+       0.3
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       0,
+       0,
+       320,
+       90
+      ],
+      "r": 0.382
+     },
+     {
+      "label": "130°",
+      "at": [
+       0.655,
+       0.305
+      ]
+     },
+     {
+      "label": "70 km",
+      "at": [
+       1.321,
+       -0.759
+      ],
+      "anchor": "start"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Problem-solving",
+   "stem": "A fishing boat sails $70$ km from point $O$ to point $B$, on a true bearing of $130^\\circ$.",
+   "type": "numeric",
+   "prompt": "What is the true bearing of $O$ from $B$?",
+   "answer": "310",
+   "units": "°T",
+   "hint": "Write a true bearing as a number of degrees, for example 045 or 045°T"
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Problem-solving",
+   "stem": "Two towns, $A$ and $B$, are $15$ km apart. The true bearing of $B$ from $A$ is $244^\\circ$.",
+   "type": "numeric",
+   "prompt": "How far west of $A$ is $B$, correct to one decimal place?",
+   "answer": "13.5",
+   "dp": 1,
+   "units": "km"
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Problem-solving",
+   "stem": "Two towns, $A$ and $B$, are $15$ km apart. The true bearing of $B$ from $A$ is $244^\\circ$.",
+   "type": "numeric",
+   "prompt": "What is the true bearing of $A$ from $B$?",
+   "answer": "064",
+   "units": "°T"
+  },
+  {
+   "id": "q8",
+   "label": "8",
+   "section": "Problem-solving",
+   "type": "numeric",
+   "prompt": "A helicopter flies on a true bearing of $145^\\circ$ for $190$ km, then flies due east for $160$ km. How far east of its starting point is it, to the nearest kilometre?",
+   "answer": "269",
+   "units": "km"
+  },
+  {
+   "id": "q9",
+   "label": "9",
+   "section": "Problem-solving",
+   "type": "numeric",
+   "prompt": "Amara walks $6$ km due south, then walks on a true bearing of $042^\\circ$ until she is due east of her starting point. How far is she from her starting point, correct to one decimal place?",
+   "answer": "5.4",
+   "dp": 1,
+   "units": "km"
+  },
+  {
+   "id": "q10",
+   "label": "10",
+   "section": "Problem-solving",
+   "type": "numeric",
+   "prompt": "Two cyclists leave from the same point. One rides due west, while the other rides on a true bearing of $205^\\circ$. After riding $20$ km, the second cyclist is due south of the first cyclist. How far has the first cyclist ridden? Give your answer in metres, to the nearest metre.",
+   "answer": "8452",
+   "units": "m"
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Reasoning",
+   "stem": "A true bearing is $a^\\circ$. Write an expression for the true bearing of the opposite direction when:",
+   "type": "expression",
+   "prompt": "$a$ is between $0$ and $180$",
+   "answer": "a+180",
+   "hint": "Write an expression using a, for example a - 90"
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Reasoning",
+   "stem": "A true bearing is $a^\\circ$. Write an expression for the true bearing of the opposite direction when:",
+   "type": "expression",
+   "prompt": "$a$ is between $180$ and $360$",
+   "answer": "a-180"
+  },
+  {
+   "id": "q12a",
+   "label": "12a",
+   "section": "Reasoning",
+   "stem": "A hiker walks around a triangular track from $A$ to $B$, then to $C$, then back to $A$. $C$ is due south of $A$. The bearing of $B$ from $A$ is $135^\\circ$ and $\\angle ABC = 70^\\circ$.",
+   "type": "numeric",
+   "prompt": "Find the bearing of $A$ from $B$.",
+   "answer": "315",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 13.82,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        7.071,
+        -7.071
+       ],
+       [
+        0,
+        -10.368
+       ]
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       3.5
+      ],
+      "arrow": "end"
+     },
+     {
+      "label": "N",
+      "at": [
+       0,
+       4.1
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       315,
+       90
+      ],
+      "r": 1.302
+     },
+     {
+      "label": "135°",
+      "at": [
+       2.272,
+       0.941
+      ]
+     },
+     {
+      "angle": [
+       7.071,
+       -7.071,
+       135,
+       205
+      ],
+      "r": 1.302
+     },
+     {
+      "label": "70°",
+      "at": [
+       4.72,
+       -6.657
+      ]
+     },
+     {
+      "point": [
+       0,
+       0
+      ],
+      "name": "A",
+      "pos": "w"
+     },
+     {
+      "point": [
+       7.071,
+       -7.071
+      ],
+      "name": "B",
+      "pos": "e"
+     },
+     {
+      "point": [
+       0,
+       -10.368
+      ],
+      "name": "C",
+      "pos": "sw"
+     }
+    ]
+   },
+   "units": "°T",
+   "hint": "Write a true bearing as a number of degrees, for example 045 or 045°T"
+  },
+  {
+   "id": "q12b",
+   "label": "12b",
+   "section": "Reasoning",
+   "stem": "A hiker walks around a triangular track from $A$ to $B$, then to $C$, then back to $A$. $C$ is due south of $A$. The bearing of $B$ from $A$ is $135^\\circ$ and $\\angle ABC = 70^\\circ$.",
+   "type": "numeric",
+   "prompt": "Find the bearing of $C$ from $B$.",
+   "answer": "245",
+   "units": "°T"
+  },
+  {
+   "id": "q12c",
+   "label": "12c",
+   "section": "Reasoning",
+   "stem": "A hiker walks around a triangular track from $A$ to $B$, then to $C$, then back to $A$. $C$ is due south of $A$. The bearing of $B$ from $A$ is $135^\\circ$ and $\\angle ABC = 70^\\circ$.",
+   "type": "numeric",
+   "prompt": "Find the bearing of $B$ from $C$.",
+   "answer": "065",
+   "units": "°T"
+  },
+  {
+   "id": "q12d",
+   "label": "12d",
+   "section": "Reasoning",
+   "stem": "A hiker walks around a triangular track from $A$ to $B$, then to $C$, then back to $A$. $C$ is due south of $A$. The bearing of $B$ from $A$ is $135^\\circ$ and $\\angle ABC = 70^\\circ$.",
+   "type": "numeric",
+   "prompt": "If the bearing of $B$ from $A$ was $128^\\circ$ instead, with $\\angle ABC$ still $70^\\circ$, find the bearing of $C$ from $B$.",
+   "answer": "238",
+   "units": "°T"
+  },
+  {
+   "id": "q12e",
+   "label": "12e",
+   "section": "Reasoning",
+   "stem": "A hiker walks around a triangular track from $A$ to $B$, then to $C$, then back to $A$. $C$ is due south of $A$. The bearing of $B$ from $A$ is $135^\\circ$ and $\\angle ABC = 70^\\circ$.",
+   "type": "numeric",
+   "prompt": "If $\\angle ABC$ was $48^\\circ$ instead, with the bearing of $B$ from $A$ still $135^\\circ$, find the bearing of $C$ from $B$.",
+   "answer": "267",
+   "units": "°T"
+  },
+  {
+   "id": "q13a",
+   "label": "13a",
+   "section": "Enrichment",
+   "stem": "A plane flies on a true bearing of $162^\\circ$ for $3$ hours at an average speed of $280$ km/h. Give each answer to the nearest kilometre.",
+   "type": "numeric",
+   "prompt": "How far has the plane travelled?",
+   "answer": "840",
+   "units": "km"
+  },
+  {
+   "id": "q13b",
+   "label": "13b",
+   "section": "Enrichment",
+   "stem": "A plane flies on a true bearing of $162^\\circ$ for $3$ hours at an average speed of $280$ km/h. Give each answer to the nearest kilometre.",
+   "type": "numeric",
+   "prompt": "How far south of its starting point is the plane?",
+   "answer": "799",
+   "units": "km"
+  },
+  {
+   "id": "q13c",
+   "label": "13c",
+   "section": "Enrichment",
+   "stem": "A plane flies on a true bearing of $162^\\circ$ for $3$ hours at an average speed of $280$ km/h. Give each answer to the nearest kilometre.",
+   "type": "numeric",
+   "prompt": "How far east of its starting point is the plane?",
+   "answer": "260",
+   "units": "km"
+  },
+  {
+   "id": "q14a",
+   "label": "14a",
+   "section": "Enrichment",
+   "stem": "A pilot plans to fly to Westvale, which is $260$ km due north of the starting point. The trip usually takes $55$ minutes. Because of a storm, the pilot instead flies to Ridgeton, on a true bearing of $325^\\circ$ for $150$ km, at an average speed of $190$ km/h.",
+   "type": "numeric",
+   "prompt": "How far north of the starting point is Ridgeton, to the nearest kilometre?",
+   "answer": "123",
+   "units": "km"
+  },
+  {
+   "id": "q14b",
+   "label": "14b",
+   "section": "Enrichment",
+   "stem": "A pilot plans to fly to Westvale, which is $260$ km due north of the starting point. The trip usually takes $55$ minutes. Because of a storm, the pilot instead flies to Ridgeton, on a true bearing of $325^\\circ$ for $150$ km, at an average speed of $190$ km/h.",
+   "type": "numeric",
+   "prompt": "How far west of the starting point is Ridgeton, to the nearest kilometre?",
+   "answer": "86",
+   "units": "km"
+  },
+  {
+   "id": "q14c",
+   "label": "14c",
+   "section": "Enrichment",
+   "stem": "A pilot plans to fly to Westvale, which is $260$ km due north of the starting point. The trip usually takes $55$ minutes. Because of a storm, the pilot instead flies to Ridgeton, on a true bearing of $325^\\circ$ for $150$ km, at an average speed of $190$ km/h.",
+   "type": "numeric",
+   "prompt": "How far is Ridgeton from Westvale, to the nearest kilometre?",
+   "answer": "162",
+   "units": "km"
+  },
+  {
+   "id": "q14d",
+   "label": "14d",
+   "section": "Enrichment",
+   "stem": "A pilot plans to fly to Westvale, which is $260$ km due north of the starting point. The trip usually takes $55$ minutes. Because of a storm, the pilot instead flies to Ridgeton, on a true bearing of $325^\\circ$ for $150$ km, at an average speed of $190$ km/h.",
+   "type": "numeric",
+   "prompt": "From Ridgeton the pilot flies straight to Westvale at $250$ km/h. Compared with the usual route, how many extra kilometres has the pilot flown, to the nearest kilometre?",
+   "answer": "52",
+   "units": "km"
+  },
+  {
+   "id": "q14e",
+   "label": "14e",
+   "section": "Enrichment",
+   "stem": "A pilot plans to fly to Westvale, which is $260$ km due north of the starting point. The trip usually takes $55$ minutes. Because of a storm, the pilot instead flies to Ridgeton, on a true bearing of $325^\\circ$ for $150$ km, at an average speed of $190$ km/h.",
+   "type": "numeric",
+   "prompt": "Compared with the usual trip, how many extra minutes did the trip to Westvale take, correct to one decimal place?",
+   "answer": "31.2",
+   "dp": 1,
+   "units": "min"
   }
  ]
 }
@@ -50037,6 +58222,3872 @@ window.H3_BANK.sets.push(
    "type": "point",
    "prompt": "$m = -\\frac{2}{5}$",
    "answer": "(15,0)"
+  }
+ ]
+},
+{
+ "id": "y9-4e",
+ "year": 9,
+ "chapter": "Chapter 4: Linear relationships",
+ "title": "4E Gradient and direct proportion",
+ "description": "Find rates and gradients, write direct proportion rules like d = 50t, and use them to solve problems.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "A $360$ litre fish tank takes $4$ hours to fill from a hose at a steady rate.",
+   "type": "numeric",
+   "prompt": "At what rate is water poured into the tank, in litres per hour?",
+   "answer": "90",
+   "units": "L/h"
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "A $360$ litre fish tank takes $4$ hours to fill from a hose at a steady rate.",
+   "type": "numeric",
+   "prompt": "A graph of volume ($V$ litres) against time ($t$ hours) is drawn for $0 \\le t \\le 4$. What is the gradient of the graph?",
+   "answer": "90"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "A $360$ litre fish tank takes $4$ hours to fill from a hose at a steady rate.",
+   "type": "expression",
+   "prompt": "Write the rule for $V$ in terms of $t$.",
+   "answer": "V=90t",
+   "accept": [
+    "90t"
+   ],
+   "hint": "Type the rule with its letters, for example V = 50t"
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "A $360$ litre fish tank takes $4$ hours to fill from a hose at a steady rate.",
+   "type": "numeric",
+   "prompt": "Use your rule to find the volume after $2.5$ hours.",
+   "answer": "225",
+   "units": "L"
+  },
+  {
+   "id": "q1e",
+   "label": "1e",
+   "section": "Fluency",
+   "stem": "A $360$ litre fish tank takes $4$ hours to fill from a hose at a steady rate.",
+   "type": "numeric",
+   "prompt": "Use your rule to find the time it takes to fill $270$ litres.",
+   "answer": "3",
+   "units": "hours"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "A solar-powered car travels $150$ km in $5$ hours at a steady speed.",
+   "type": "numeric",
+   "prompt": "What is the rate of change of distance over time (the speed), in km/h?",
+   "answer": "30",
+   "units": "km/h"
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "A solar-powered car travels $150$ km in $5$ hours at a steady speed.",
+   "type": "numeric",
+   "prompt": "A graph of distance ($d$ km) against time ($t$ hours) is drawn for $0 \\le t \\le 5$. What is the gradient of the graph?",
+   "answer": "30"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "A solar-powered car travels $150$ km in $5$ hours at a steady speed.",
+   "type": "expression",
+   "prompt": "Write the rule for $d$ in terms of $t$.",
+   "answer": "d=30t",
+   "accept": [
+    "30t"
+   ],
+   "hint": "Type the rule with its letters, for example d = 40t"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "A solar-powered car travels $150$ km in $5$ hours at a steady speed.",
+   "type": "numeric",
+   "prompt": "Use your rule to find the distance after $3.5$ hours.",
+   "answer": "105",
+   "units": "km"
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "A solar-powered car travels $150$ km in $5$ hours at a steady speed.",
+   "type": "numeric",
+   "prompt": "Use your rule to find the time it takes to travel $75$ km.",
+   "answer": "2.5",
+   "units": "hours"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Write a rule linking the given variables.",
+   "type": "expression",
+   "prompt": "I drive $450$ km in $9$ hours. Use $d$ for distance in km and $t$ for time in hours.",
+   "answer": "d=50t",
+   "accept": [
+    "50t"
+   ],
+   "hint": "Type the rule, for example d = 40t. Decimals are fine, for example C = 1.5n"
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Write a rule linking the given variables.",
+   "type": "expression",
+   "prompt": "A sunflower grows $15$ cm in $5$ weeks. Use $g$ for growth in cm and $t$ for time in weeks.",
+   "answer": "g=3t",
+   "accept": [
+    "3t"
+   ]
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Write a rule linking the given variables.",
+   "type": "expression",
+   "prompt": "Diesel costs $\\$120$ for $75$ litres. Use $C$ for the cost in dollars and $n$ for the number of litres.",
+   "answer": "C=1.6n",
+   "accept": [
+    "1.6n"
+   ]
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Write a rule linking the given variables.",
+   "type": "expression",
+   "prompt": "A farm makes a profit of $\\$12\\,000$ for $400$ tonnes of wheat. Use $P$ for profit in dollars and $t$ for the number of tonnes.",
+   "answer": "P=30t",
+   "accept": [
+    "30t"
+   ]
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "Use the gradient to find the speed shown by each graph. Use the units given on the graph.",
+   "type": "numeric",
+   "prompt": "Graph a",
+   "answer": "80",
+   "units": "km/h",
+   "figure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "seg": [
+       0,
+       0,
+       6.8,
+       0
+      ],
+      "arrow": "end"
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       5.3
+      ],
+      "arrow": "end"
+     },
+     {
+      "seg": [
+       0,
+       0,
+       6,
+       4.5
+      ]
+     },
+     {
+      "point": [
+       6,
+       4.5
+      ]
+     },
+     {
+      "seg": [
+       6,
+       4.5,
+       6,
+       0
+      ],
+      "dash": true,
+      "thin": true
+     },
+     {
+      "seg": [
+       6,
+       4.5,
+       0,
+       4.5
+      ],
+      "dash": true,
+      "thin": true
+     },
+     {
+      "label": "10",
+      "at": [
+       6,
+       -0.55
+      ]
+     },
+     {
+      "label": "800",
+      "at": [
+       -0.2,
+       4.45
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "t (hours)",
+      "at": [
+       3,
+       -1.3
+      ]
+     },
+     {
+      "label": "d (km)",
+      "at": [
+       -0.3,
+       5.7
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.2,
+       -0.5
+      ],
+      "anchor": "end"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "Use the gradient to find the speed shown by each graph. Use the units given on the graph.",
+   "type": "numeric",
+   "prompt": "Graph b",
+   "answer": "7",
+   "units": "cm/s",
+   "figure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "seg": [
+       0,
+       0,
+       6.8,
+       0
+      ],
+      "arrow": "end"
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       5.3
+      ],
+      "arrow": "end"
+     },
+     {
+      "seg": [
+       0,
+       0,
+       6,
+       4.5
+      ]
+     },
+     {
+      "point": [
+       6,
+       4.5
+      ]
+     },
+     {
+      "seg": [
+       6,
+       4.5,
+       6,
+       0
+      ],
+      "dash": true,
+      "thin": true
+     },
+     {
+      "seg": [
+       6,
+       4.5,
+       0,
+       4.5
+      ],
+      "dash": true,
+      "thin": true
+     },
+     {
+      "label": "6",
+      "at": [
+       6,
+       -0.55
+      ]
+     },
+     {
+      "label": "42",
+      "at": [
+       -0.2,
+       4.45
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "t (seconds)",
+      "at": [
+       3,
+       -1.3
+      ]
+     },
+     {
+      "label": "d (cm)",
+      "at": [
+       -0.3,
+       5.7
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.2,
+       -0.5
+      ],
+      "anchor": "end"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "Use the gradient to find the speed shown by each graph. Use the units given on the graph.",
+   "type": "numeric",
+   "prompt": "Graph c",
+   "answer": "1.5",
+   "units": "cm/min",
+   "figure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "seg": [
+       0,
+       0,
+       6.8,
+       0
+      ],
+      "arrow": "end"
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       5.3
+      ],
+      "arrow": "end"
+     },
+     {
+      "seg": [
+       0,
+       0,
+       6,
+       4.5
+      ]
+     },
+     {
+      "point": [
+       6,
+       4.5
+      ]
+     },
+     {
+      "seg": [
+       6,
+       4.5,
+       6,
+       0
+      ],
+      "dash": true,
+      "thin": true
+     },
+     {
+      "seg": [
+       6,
+       4.5,
+       0,
+       4.5
+      ],
+      "dash": true,
+      "thin": true
+     },
+     {
+      "label": "12",
+      "at": [
+       6,
+       -0.55
+      ]
+     },
+     {
+      "label": "18",
+      "at": [
+       -0.2,
+       4.45
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "t (minutes)",
+      "at": [
+       3,
+       -1.3
+      ]
+     },
+     {
+      "label": "d (cm)",
+      "at": [
+       -0.3,
+       5.7
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.2,
+       -0.5
+      ],
+      "anchor": "end"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "Use the gradient to find the speed shown by each graph. Use the units given on the graph.",
+   "type": "numeric",
+   "prompt": "Graph d",
+   "answer": "42",
+   "units": "mm/min",
+   "figure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "seg": [
+       0,
+       0,
+       6.8,
+       0
+      ],
+      "arrow": "end"
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       5.3
+      ],
+      "arrow": "end"
+     },
+     {
+      "seg": [
+       0,
+       0,
+       6,
+       4.5
+      ]
+     },
+     {
+      "point": [
+       6,
+       4.5
+      ]
+     },
+     {
+      "seg": [
+       6,
+       4.5,
+       6,
+       0
+      ],
+      "dash": true,
+      "thin": true
+     },
+     {
+      "seg": [
+       6,
+       4.5,
+       0,
+       4.5
+      ],
+      "dash": true,
+      "thin": true
+     },
+     {
+      "label": "3",
+      "at": [
+       6,
+       -0.55
+      ]
+     },
+     {
+      "label": "126",
+      "at": [
+       -0.2,
+       4.45
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "t (minutes)",
+      "at": [
+       3,
+       -1.3
+      ]
+     },
+     {
+      "label": "d (mm)",
+      "at": [
+       -0.3,
+       5.7
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.2,
+       -0.5
+      ],
+      "anchor": "end"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Problem-solving",
+   "stem": "The trip computer in a car shows a fuel economy of $7.5$ L per $100$ km.",
+   "type": "numeric",
+   "prompt": "How many litres would be used for $140$ km?",
+   "answer": "10.5",
+   "units": "L"
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Problem-solving",
+   "stem": "The trip computer in a car shows a fuel economy of $7.5$ L per $100$ km.",
+   "type": "numeric",
+   "prompt": "How many litres would be used for $920$ km?",
+   "answer": "69",
+   "units": "L"
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Problem-solving",
+   "stem": "The trip computer in a car shows a fuel economy of $7.5$ L per $100$ km.",
+   "type": "numeric",
+   "prompt": "How many kilometres could be travelled on a full tank of $57$ L?",
+   "answer": "760",
+   "units": "km"
+  },
+  {
+   "id": "q6",
+   "label": "6",
+   "section": "Problem-solving",
+   "type": "choice",
+   "prompt": "Who is travelling the fastest? Jordan runs $150$ m in $25$ seconds; Mei rides $780$ m in $2$ minutes; Tama skates $2100$ m in $5$ minutes.",
+   "answer": 2,
+   "options": [
+    "Jordan",
+    "Mei",
+    "Tama"
+   ]
+  },
+  {
+   "id": "q7",
+   "label": "7",
+   "section": "Problem-solving",
+   "type": "choice",
+   "prompt": "Which animal is travelling the slowest? a greyhound runs $240$ m in $16$ seconds; a horse gallops $3$ km in $4$ minutes; a kangaroo hops $50$ km in $1.25$ hours.",
+   "answer": 2,
+   "options": [
+    "A greyhound",
+    "A horse",
+    "A kangaroo"
+   ]
+  },
+  {
+   "id": "q8",
+   "label": "8",
+   "section": "Problem-solving",
+   "type": "numeric",
+   "prompt": "Savings fund A starts at $\\$0$ and grows by $\\$150$ per month. Fund B starts at $\\$6000$ and goes down by $\\$1200$ per year. After how many months will the two funds hold the same amount of money?",
+   "answer": "24",
+   "units": "months"
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Reasoning",
+   "stem": "The circumference of a circle, $C = 2\\pi r$, is directly proportional to its radius $r$.",
+   "type": "numeric",
+   "prompt": "Find the exact circumference when $r = 0$.",
+   "answer": "0"
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Reasoning",
+   "stem": "The circumference of a circle, $C = 2\\pi r$, is directly proportional to its radius $r$.",
+   "type": "numeric",
+   "prompt": "Find the exact circumference when $r = 3$.",
+   "answer": "6pi",
+   "allowExpr": true,
+   "hint": "Give an exact answer: type π as pi, for example 4pi"
+  },
+  {
+   "id": "q9c",
+   "label": "9c",
+   "section": "Reasoning",
+   "stem": "The circumference of a circle, $C = 2\\pi r$, is directly proportional to its radius $r$.",
+   "type": "numeric",
+   "prompt": "Find the exact circumference when $r = 5$.",
+   "answer": "10pi",
+   "allowExpr": true
+  },
+  {
+   "id": "q9d",
+   "label": "9d",
+   "section": "Reasoning",
+   "stem": "The circumference of a circle, $C = 2\\pi r$, is directly proportional to its radius $r$.",
+   "type": "numeric",
+   "prompt": "A graph of $C$ against $r$ is drawn for $0 \\le r \\le 6$. What is its exact gradient?",
+   "answer": "2pi",
+   "allowExpr": true,
+   "hint": "Give an exact answer: type π as pi, for example 4pi"
+  },
+  {
+   "id": "q10",
+   "label": "10",
+   "section": "Reasoning",
+   "type": "choice",
+   "prompt": "Is the area of a circle, $A = \\pi r^2$, directly proportional to its radius?",
+   "answer": 1,
+   "options": [
+    "Yes, because the area gets bigger as the radius gets bigger",
+    "No, because a graph of A against r is a curve, not a straight line through the origin",
+    "Yes, because the graph passes through the origin"
+   ]
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Reasoning",
+   "stem": "A triangle has a base of $6$ cm and a height of $h$ cm that can change.",
+   "type": "expression",
+   "prompt": "Write a rule for the area $A$ of the triangle in terms of $h$.",
+   "answer": "A=3h",
+   "accept": [
+    "3h"
+   ],
+   "hint": "Type the rule, for example A = 5h"
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Reasoning",
+   "stem": "A triangle has a base of $6$ cm and a height of $h$ cm that can change.",
+   "type": "numeric",
+   "prompt": "At what rate does the area change with respect to the height, in cm² per cm?",
+   "answer": "3"
+  },
+  {
+   "id": "q12a",
+   "label": "12a",
+   "section": "Reasoning",
+   "stem": "An object travels for exactly $4$ hours.",
+   "type": "choice",
+   "prompt": "Over this time, is its average speed directly proportional to the distance it travels?",
+   "answer": 0,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q12b",
+   "label": "12b",
+   "section": "Reasoning",
+   "stem": "An object travels for exactly $4$ hours.",
+   "type": "expression",
+   "prompt": "Write a rule for the speed $s$ in km/h in terms of the distance $d$ in km.",
+   "answer": "s=d/4",
+   "accept": [
+    "d/4"
+   ],
+   "hint": "Type the rule, for example s = d/3"
+  },
+  {
+   "id": "q13",
+   "label": "13",
+   "section": "Enrichment",
+   "type": "numeric",
+   "prompt": "Hose A can fill a bucket in $4$ minutes and hose B can fill the same bucket in $6$ minutes. How long would it take to fill the bucket using both hoses at the same time?",
+   "answer": "2.4",
+   "units": "minutes",
+   "hint": "Decimals or fractions are fine, for example 2.5 or 5/2"
+  },
+  {
+   "id": "q14",
+   "label": "14",
+   "section": "Enrichment",
+   "type": "numeric",
+   "prompt": "A river flows downstream at $1$ km/h. Sam swims at $4$ km/h in still water. Sam swims downstream for a certain distance, then turns around and swims upstream back to the start. The whole swim takes $40$ minutes. How far did Sam swim downstream?",
+   "answer": "1.25",
+   "units": "km"
+  }
+ ]
+},
+{
+ "id": "y9-4f",
+ "year": 9,
+ "chapter": "Chapter 4: Linear relationships",
+ "title": "4F Gradient-intercept form",
+ "description": "Read the gradient and y-intercept from y = mx + c, rearrange equations into this form, and match rules to graphs.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "State the gradient and the coordinates of the $y$-intercept for the graph of each rule.",
+   "type": "numeric",
+   "prompt": "$y = 4x + 1$: the gradient",
+   "answer": "4",
+   "hint": "Fractions are fine, for example -2/3"
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "State the gradient and the coordinates of the $y$-intercept for the graph of each rule.",
+   "type": "point",
+   "prompt": "$y = 4x + 1$: the $y$-intercept",
+   "answer": "(0,1)",
+   "hint": "Type the y-intercept as a point, for example (0, -2)"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "State the gradient and the coordinates of the $y$-intercept for the graph of each rule.",
+   "type": "numeric",
+   "prompt": "$y = -3x - 5$: the gradient",
+   "answer": "-3"
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "State the gradient and the coordinates of the $y$-intercept for the graph of each rule.",
+   "type": "point",
+   "prompt": "$y = -3x - 5$: the $y$-intercept",
+   "answer": "(0,-5)"
+  },
+  {
+   "id": "q1e",
+   "label": "1e",
+   "section": "Fluency",
+   "stem": "State the gradient and the coordinates of the $y$-intercept for the graph of each rule.",
+   "type": "numeric",
+   "prompt": "$y = -6x + 2$: the gradient",
+   "answer": "-6"
+  },
+  {
+   "id": "q1f",
+   "label": "1f",
+   "section": "Fluency",
+   "stem": "State the gradient and the coordinates of the $y$-intercept for the graph of each rule.",
+   "type": "point",
+   "prompt": "$y = -6x + 2$: the $y$-intercept",
+   "answer": "(0,2)"
+  },
+  {
+   "id": "q1g",
+   "label": "1g",
+   "section": "Fluency",
+   "stem": "State the gradient and the coordinates of the $y$-intercept for the graph of each rule.",
+   "type": "numeric",
+   "prompt": "$y = \\frac{1}{4}x - 3$: the gradient",
+   "answer": "1/4"
+  },
+  {
+   "id": "q1h",
+   "label": "1h",
+   "section": "Fluency",
+   "stem": "State the gradient and the coordinates of the $y$-intercept for the graph of each rule.",
+   "type": "point",
+   "prompt": "$y = \\frac{1}{4}x - 3$: the $y$-intercept",
+   "answer": "(0,-3)"
+  },
+  {
+   "id": "q1i",
+   "label": "1i",
+   "section": "Fluency",
+   "stem": "State the gradient and the coordinates of the $y$-intercept for the graph of each rule.",
+   "type": "numeric",
+   "prompt": "$y = -2x$: the gradient",
+   "answer": "-2"
+  },
+  {
+   "id": "q1j",
+   "label": "1j",
+   "section": "Fluency",
+   "stem": "State the gradient and the coordinates of the $y$-intercept for the graph of each rule.",
+   "type": "point",
+   "prompt": "$y = -2x$: the $y$-intercept",
+   "answer": "(0,0)"
+  },
+  {
+   "id": "q1k",
+   "label": "1k",
+   "section": "Fluency",
+   "stem": "State the gradient and the coordinates of the $y$-intercept for the graph of each rule.",
+   "type": "numeric",
+   "prompt": "$y = 5x$: the gradient",
+   "answer": "5"
+  },
+  {
+   "id": "q1l",
+   "label": "1l",
+   "section": "Fluency",
+   "stem": "State the gradient and the coordinates of the $y$-intercept for the graph of each rule.",
+   "type": "point",
+   "prompt": "$y = 5x$: the $y$-intercept",
+   "answer": "(0,0)"
+  },
+  {
+   "id": "q1m",
+   "label": "1m",
+   "section": "Fluency",
+   "stem": "State the gradient and the coordinates of the $y$-intercept for the graph of each rule.",
+   "type": "numeric",
+   "prompt": "$y = -x$: the gradient",
+   "answer": "-1"
+  },
+  {
+   "id": "q1n",
+   "label": "1n",
+   "section": "Fluency",
+   "stem": "State the gradient and the coordinates of the $y$-intercept for the graph of each rule.",
+   "type": "point",
+   "prompt": "$y = -x$: the $y$-intercept",
+   "answer": "(0,0)"
+  },
+  {
+   "id": "q1o",
+   "label": "1o",
+   "section": "Fluency",
+   "stem": "State the gradient and the coordinates of the $y$-intercept for the graph of each rule.",
+   "type": "numeric",
+   "prompt": "$y = -0.4x$: the gradient",
+   "answer": "-2/5"
+  },
+  {
+   "id": "q1p",
+   "label": "1p",
+   "section": "Fluency",
+   "stem": "State the gradient and the coordinates of the $y$-intercept for the graph of each rule.",
+   "type": "point",
+   "prompt": "$y = -0.4x$: the $y$-intercept",
+   "answer": "(0,0)"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Rearrange each linear equation into the form shown.",
+   "type": "expression",
+   "prompt": "$2x + y = 7$ into the form $y = mx + c$. Complete: $y = \\square$",
+   "answer": "-2x+7",
+   "form": "simplified",
+   "hint": "Type only the right-hand side, for example -2x + 5"
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Rearrange each linear equation into the form shown.",
+   "type": "expression",
+   "prompt": "$-4x + y = -3$ into the form $y = mx + c$. Complete: $y = \\square$",
+   "answer": "4x-3",
+   "form": "simplified"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Rearrange each linear equation into the form shown.",
+   "type": "expression",
+   "prompt": "$6x + 3y = 9$ into the form $y = mx + c$. Complete: $y = \\square$",
+   "answer": "-2x+3",
+   "form": "simplified"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Rearrange each linear equation into the form shown.",
+   "type": "expression",
+   "prompt": "$-2x + 2y = 10$ into the form $y = mx + c$. Complete: $y = \\square$",
+   "answer": "x+5",
+   "form": "simplified"
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Rearrange each linear equation into the form shown.",
+   "type": "expression",
+   "prompt": "$y = 3x - 2$ into the form $ax + by = d$. Complete: $\\square = 2$",
+   "answer": "3x-y",
+   "form": "simplified",
+   "accept": [
+    "-y+3x"
+   ],
+   "hint": "Type only the left-hand side, for example 4x - y"
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "Rearrange each linear equation into the form shown.",
+   "type": "expression",
+   "prompt": "$y = -5x + 4$ into the form $ax + by = d$. Complete: $\\square = 4$",
+   "answer": "5x+y",
+   "form": "simplified",
+   "accept": [
+    "y+5x"
+   ]
+  },
+  {
+   "id": "q2g",
+   "label": "2g",
+   "section": "Fluency",
+   "stem": "Rearrange each linear equation into the form shown.",
+   "type": "expression",
+   "prompt": "$4y = x - 3$ into the form $ax + by = d$. Complete: $\\square = 3$",
+   "answer": "x-4y",
+   "form": "simplified",
+   "accept": [
+    "-4y+x"
+   ]
+  },
+  {
+   "id": "q2h",
+   "label": "2h",
+   "section": "Fluency",
+   "stem": "Rearrange each linear equation into the form shown.",
+   "type": "expression",
+   "prompt": "$5y - 3 = 2x$ into the form $ax + by = d$. Complete: $\\square = -3$",
+   "answer": "2x-5y",
+   "form": "simplified",
+   "accept": [
+    "-5y+2x"
+   ]
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
+   "type": "numeric",
+   "prompt": "$y = x - 3$: the gradient",
+   "answer": "1",
+   "hint": "Fractions are fine, for example -2/3"
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
+   "type": "point",
+   "prompt": "$y = x - 3$: the $y$-intercept",
+   "answer": "(0,-3)",
+   "hint": "Type the y-intercept as a point, for example (0, -2)"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
+   "type": "numeric",
+   "prompt": "$y = 3x - 2$: the gradient",
+   "answer": "3"
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
+   "type": "point",
+   "prompt": "$y = 3x - 2$: the $y$-intercept",
+   "answer": "(0,-2)"
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
+   "type": "numeric",
+   "prompt": "$y = \\frac{1}{3}x + 2$: the gradient",
+   "answer": "1/3"
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
+   "type": "point",
+   "prompt": "$y = \\frac{1}{3}x + 2$: the $y$-intercept",
+   "answer": "(0,2)"
+  },
+  {
+   "id": "q3g",
+   "label": "3g",
+   "section": "Fluency",
+   "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
+   "type": "numeric",
+   "prompt": "$y = -\\frac{1}{4}x + 1$: the gradient",
+   "answer": "-1/4"
+  },
+  {
+   "id": "q3h",
+   "label": "3h",
+   "section": "Fluency",
+   "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
+   "type": "point",
+   "prompt": "$y = -\\frac{1}{4}x + 1$: the $y$-intercept",
+   "answer": "(0,1)"
+  },
+  {
+   "id": "q3i",
+   "label": "3i",
+   "section": "Fluency",
+   "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
+   "type": "numeric",
+   "prompt": "$y = -2x + 4$: the gradient",
+   "answer": "-2"
+  },
+  {
+   "id": "q3j",
+   "label": "3j",
+   "section": "Fluency",
+   "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
+   "type": "point",
+   "prompt": "$y = -2x + 4$: the $y$-intercept",
+   "answer": "(0,4)"
+  },
+  {
+   "id": "q3k",
+   "label": "3k",
+   "section": "Fluency",
+   "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
+   "type": "numeric",
+   "prompt": "$y = \\frac{5}{2}x - 1$: the gradient",
+   "answer": "5/2"
+  },
+  {
+   "id": "q3l",
+   "label": "3l",
+   "section": "Fluency",
+   "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
+   "type": "point",
+   "prompt": "$y = \\frac{5}{2}x - 1$: the $y$-intercept",
+   "answer": "(0,-1)"
+  },
+  {
+   "id": "q3m",
+   "label": "3m",
+   "section": "Fluency",
+   "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
+   "type": "numeric",
+   "prompt": "$y = -\\frac{2}{3}x$: the gradient",
+   "answer": "-2/3"
+  },
+  {
+   "id": "q3n",
+   "label": "3n",
+   "section": "Fluency",
+   "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
+   "type": "point",
+   "prompt": "$y = -\\frac{2}{3}x$: the $y$-intercept",
+   "answer": "(0,0)"
+  },
+  {
+   "id": "q3o",
+   "label": "3o",
+   "section": "Fluency",
+   "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
+   "type": "numeric",
+   "prompt": "$y = \\frac{4}{3}x - \\frac{2}{3}$: the gradient",
+   "answer": "4/3"
+  },
+  {
+   "id": "q3p",
+   "label": "3p",
+   "section": "Fluency",
+   "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
+   "type": "point",
+   "prompt": "$y = \\frac{4}{3}x - \\frac{2}{3}$: the $y$-intercept",
+   "answer": "(0,-2/3)"
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "Rearrange each equation into the form $y = mx + c$, then find the gradient and the $y$-intercept.",
+   "type": "numeric",
+   "prompt": "$x + y = 5$: the gradient",
+   "answer": "-1",
+   "hint": "Fractions are fine, for example -2/3"
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "Rearrange each equation into the form $y = mx + c$, then find the gradient and the $y$-intercept.",
+   "type": "point",
+   "prompt": "$x + y = 5$: the $y$-intercept",
+   "answer": "(0,5)",
+   "hint": "Type the y-intercept as a point, for example (0, -2)"
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "Rearrange each equation into the form $y = mx + c$, then find the gradient and the $y$-intercept.",
+   "type": "numeric",
+   "prompt": "$x - y = 4$: the gradient",
+   "answer": "1"
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "Rearrange each equation into the form $y = mx + c$, then find the gradient and the $y$-intercept.",
+   "type": "point",
+   "prompt": "$x - y = 4$: the $y$-intercept",
+   "answer": "(0,-4)"
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Fluency",
+   "stem": "Rearrange each equation into the form $y = mx + c$, then find the gradient and the $y$-intercept.",
+   "type": "numeric",
+   "prompt": "$x + 2y = 8$: the gradient",
+   "answer": "-1/2"
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Fluency",
+   "stem": "Rearrange each equation into the form $y = mx + c$, then find the gradient and the $y$-intercept.",
+   "type": "point",
+   "prompt": "$x + 2y = 8$: the $y$-intercept",
+   "answer": "(0,4)"
+  },
+  {
+   "id": "q4g",
+   "label": "4g",
+   "section": "Fluency",
+   "stem": "Rearrange each equation into the form $y = mx + c$, then find the gradient and the $y$-intercept.",
+   "type": "numeric",
+   "prompt": "$x - 3y = 6$: the gradient",
+   "answer": "1/3"
+  },
+  {
+   "id": "q4h",
+   "label": "4h",
+   "section": "Fluency",
+   "stem": "Rearrange each equation into the form $y = mx + c$, then find the gradient and the $y$-intercept.",
+   "type": "point",
+   "prompt": "$x - 3y = 6$: the $y$-intercept",
+   "answer": "(0,-2)"
+  },
+  {
+   "id": "q4i",
+   "label": "4i",
+   "section": "Fluency",
+   "stem": "Rearrange each equation into the form $y = mx + c$, then find the gradient and the $y$-intercept.",
+   "type": "numeric",
+   "prompt": "$3x - 2y = 6$: the gradient",
+   "answer": "3/2"
+  },
+  {
+   "id": "q4j",
+   "label": "4j",
+   "section": "Fluency",
+   "stem": "Rearrange each equation into the form $y = mx + c$, then find the gradient and the $y$-intercept.",
+   "type": "point",
+   "prompt": "$3x - 2y = 6$: the $y$-intercept",
+   "answer": "(0,-3)"
+  },
+  {
+   "id": "q4k",
+   "label": "4k",
+   "section": "Fluency",
+   "stem": "Rearrange each equation into the form $y = mx + c$, then find the gradient and the $y$-intercept.",
+   "type": "numeric",
+   "prompt": "$2x + 5y = 10$: the gradient",
+   "answer": "-2/5"
+  },
+  {
+   "id": "q4l",
+   "label": "4l",
+   "section": "Fluency",
+   "stem": "Rearrange each equation into the form $y = mx + c$, then find the gradient and the $y$-intercept.",
+   "type": "point",
+   "prompt": "$2x + 5y = 10$: the $y$-intercept",
+   "answer": "(0,2)"
+  },
+  {
+   "id": "q4m",
+   "label": "4m",
+   "section": "Fluency",
+   "stem": "Rearrange each equation into the form $y = mx + c$, then find the gradient and the $y$-intercept.",
+   "type": "numeric",
+   "prompt": "$x - 4y = -8$: the gradient",
+   "answer": "1/4"
+  },
+  {
+   "id": "q4n",
+   "label": "4n",
+   "section": "Fluency",
+   "stem": "Rearrange each equation into the form $y = mx + c$, then find the gradient and the $y$-intercept.",
+   "type": "point",
+   "prompt": "$x - 4y = -8$: the $y$-intercept",
+   "answer": "(0,2)"
+  },
+  {
+   "id": "q4o",
+   "label": "4o",
+   "section": "Fluency",
+   "stem": "Rearrange each equation into the form $y = mx + c$, then find the gradient and the $y$-intercept.",
+   "type": "numeric",
+   "prompt": "$3x + 2y = 12$: the gradient",
+   "answer": "-3/2"
+  },
+  {
+   "id": "q4p",
+   "label": "4p",
+   "section": "Fluency",
+   "stem": "Rearrange each equation into the form $y = mx + c$, then find the gradient and the $y$-intercept.",
+   "type": "point",
+   "prompt": "$3x + 2y = 12$: the $y$-intercept",
+   "answer": "(0,6)"
+  },
+  {
+   "id": "q4q",
+   "label": "4q",
+   "section": "Fluency",
+   "stem": "Rearrange each equation into the form $y = mx + c$, then find the gradient and the $y$-intercept.",
+   "type": "numeric",
+   "prompt": "$4x - 3y = 12$: the gradient",
+   "answer": "4/3"
+  },
+  {
+   "id": "q4r",
+   "label": "4r",
+   "section": "Fluency",
+   "stem": "Rearrange each equation into the form $y = mx + c$, then find the gradient and the $y$-intercept.",
+   "type": "point",
+   "prompt": "$4x - 3y = 12$: the $y$-intercept",
+   "answer": "(0,-4)"
+  },
+  {
+   "id": "q4s",
+   "label": "4s",
+   "section": "Fluency",
+   "stem": "Rearrange each equation into the form $y = mx + c$, then find the gradient and the $y$-intercept.",
+   "type": "numeric",
+   "prompt": "$x + 3y = 0$: the gradient",
+   "answer": "-1/3"
+  },
+  {
+   "id": "q4t",
+   "label": "4t",
+   "section": "Fluency",
+   "stem": "Rearrange each equation into the form $y = mx + c$, then find the gradient and the $y$-intercept.",
+   "type": "point",
+   "prompt": "$x + 3y = 0$: the $y$-intercept",
+   "answer": "(0,0)"
+  },
+  {
+   "id": "q4u",
+   "label": "4u",
+   "section": "Fluency",
+   "stem": "Rearrange each equation into the form $y = mx + c$, then find the gradient and the $y$-intercept.",
+   "type": "numeric",
+   "prompt": "$x - 6y = 0$: the gradient",
+   "answer": "1/6"
+  },
+  {
+   "id": "q4v",
+   "label": "4v",
+   "section": "Fluency",
+   "stem": "Rearrange each equation into the form $y = mx + c$, then find the gradient and the $y$-intercept.",
+   "type": "point",
+   "prompt": "$x - 6y = 0$: the $y$-intercept",
+   "answer": "(0,0)"
+  },
+  {
+   "id": "q4w",
+   "label": "4w",
+   "section": "Fluency",
+   "stem": "Rearrange each equation into the form $y = mx + c$, then find the gradient and the $y$-intercept.",
+   "type": "numeric",
+   "prompt": "$x - 4y = 0$: the gradient",
+   "answer": "1/4"
+  },
+  {
+   "id": "q4x",
+   "label": "4x",
+   "section": "Fluency",
+   "stem": "Rearrange each equation into the form $y = mx + c$, then find the gradient and the $y$-intercept.",
+   "type": "point",
+   "prompt": "$x - 4y = 0$: the $y$-intercept",
+   "answer": "(0,0)"
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Problem-solving",
+   "stem": "Match each equation to one of the straight lines A to F.",
+   "type": "choice",
+   "prompt": "$y = -2$",
+   "answer": 1,
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F"
+   ],
+   "stemFigure": [
+    {
+     "kind": "diagram",
+     "unit": 22,
+     "items": [
+      {
+       "seg": [
+        -4,
+        -4,
+        -4,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -3,
+        -4,
+        -3,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -2,
+        -4,
+        -2,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -1,
+        -4,
+        -1,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        0,
+        -4,
+        0,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        1,
+        -4,
+        1,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        2,
+        -4,
+        2,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        3,
+        -4,
+        3,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        4,
+        -4,
+        4,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        -4,
+        4,
+        -4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        -3,
+        4,
+        -3
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        -2,
+        4,
+        -2
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        -1,
+        4,
+        -1
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        0,
+        4,
+        0
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        1,
+        4,
+        1
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        2,
+        4,
+        2
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        3,
+        4,
+        3
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        4,
+        4,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        0,
+        4.6,
+        0
+       ],
+       "arrow": "end"
+      },
+      {
+       "seg": [
+        0,
+        -4,
+        0,
+        4.6
+       ],
+       "arrow": "end"
+      },
+      {
+       "label": "x",
+       "at": [
+        4.95,
+        0
+       ]
+      },
+      {
+       "label": "y",
+       "at": [
+        0,
+        4.95
+       ]
+      },
+      {
+       "label": "-4",
+       "at": [
+        -4,
+        -0.5
+       ]
+      },
+      {
+       "label": "-2",
+       "at": [
+        -2,
+        -0.5
+       ]
+      },
+      {
+       "label": "2",
+       "at": [
+        2,
+        -0.5
+       ]
+      },
+      {
+       "label": "4",
+       "at": [
+        4,
+        -0.5
+       ]
+      },
+      {
+       "label": "-4",
+       "at": [
+        -0.2,
+        -4.05
+       ],
+       "anchor": "end"
+      },
+      {
+       "label": "-2",
+       "at": [
+        -0.2,
+        -2.05
+       ],
+       "anchor": "end"
+      },
+      {
+       "label": "2",
+       "at": [
+        -0.2,
+        1.95
+       ],
+       "anchor": "end"
+      },
+      {
+       "label": "4",
+       "at": [
+        -0.2,
+        3.95
+       ],
+       "anchor": "end"
+      },
+      {
+       "label": "O",
+       "at": [
+        -0.2,
+        -0.5
+       ],
+       "anchor": "end"
+      },
+      {
+       "seg": [
+        0.25,
+        3.75,
+        3.75,
+        0.25
+       ],
+       "arrow": "both"
+      }
+     ],
+     "caption": "A"
+    },
+    {
+     "kind": "diagram",
+     "unit": 22,
+     "items": [
+      {
+       "seg": [
+        -4,
+        -4,
+        -4,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -3,
+        -4,
+        -3,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -2,
+        -4,
+        -2,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -1,
+        -4,
+        -1,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        0,
+        -4,
+        0,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        1,
+        -4,
+        1,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        2,
+        -4,
+        2,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        3,
+        -4,
+        3,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        4,
+        -4,
+        4,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        -4,
+        4,
+        -4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        -3,
+        4,
+        -3
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        -2,
+        4,
+        -2
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        -1,
+        4,
+        -1
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        0,
+        4,
+        0
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        1,
+        4,
+        1
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        2,
+        4,
+        2
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        3,
+        4,
+        3
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        4,
+        4,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        0,
+        4.6,
+        0
+       ],
+       "arrow": "end"
+      },
+      {
+       "seg": [
+        0,
+        -4,
+        0,
+        4.6
+       ],
+       "arrow": "end"
+      },
+      {
+       "label": "x",
+       "at": [
+        4.95,
+        0
+       ]
+      },
+      {
+       "label": "y",
+       "at": [
+        0,
+        4.95
+       ]
+      },
+      {
+       "label": "-4",
+       "at": [
+        -4,
+        -0.5
+       ]
+      },
+      {
+       "label": "-2",
+       "at": [
+        -2,
+        -0.5
+       ]
+      },
+      {
+       "label": "2",
+       "at": [
+        2,
+        -0.5
+       ]
+      },
+      {
+       "label": "4",
+       "at": [
+        4,
+        -0.5
+       ]
+      },
+      {
+       "label": "-4",
+       "at": [
+        -0.2,
+        -4.05
+       ],
+       "anchor": "end"
+      },
+      {
+       "label": "-2",
+       "at": [
+        -0.2,
+        -2.05
+       ],
+       "anchor": "end"
+      },
+      {
+       "label": "2",
+       "at": [
+        -0.2,
+        1.95
+       ],
+       "anchor": "end"
+      },
+      {
+       "label": "4",
+       "at": [
+        -0.2,
+        3.95
+       ],
+       "anchor": "end"
+      },
+      {
+       "label": "O",
+       "at": [
+        -0.2,
+        -0.5
+       ],
+       "anchor": "end"
+      },
+      {
+       "seg": [
+        -3.75,
+        -2,
+        3.75,
+        -2
+       ],
+       "arrow": "both"
+      }
+     ],
+     "caption": "B"
+    },
+    {
+     "kind": "diagram",
+     "unit": 22,
+     "items": [
+      {
+       "seg": [
+        -4,
+        -4,
+        -4,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -3,
+        -4,
+        -3,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -2,
+        -4,
+        -2,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -1,
+        -4,
+        -1,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        0,
+        -4,
+        0,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        1,
+        -4,
+        1,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        2,
+        -4,
+        2,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        3,
+        -4,
+        3,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        4,
+        -4,
+        4,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        -4,
+        4,
+        -4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        -3,
+        4,
+        -3
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        -2,
+        4,
+        -2
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        -1,
+        4,
+        -1
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        0,
+        4,
+        0
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        1,
+        4,
+        1
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        2,
+        4,
+        2
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        3,
+        4,
+        3
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        4,
+        4,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        0,
+        4.6,
+        0
+       ],
+       "arrow": "end"
+      },
+      {
+       "seg": [
+        0,
+        -4,
+        0,
+        4.6
+       ],
+       "arrow": "end"
+      },
+      {
+       "label": "x",
+       "at": [
+        4.95,
+        0
+       ]
+      },
+      {
+       "label": "y",
+       "at": [
+        0,
+        4.95
+       ]
+      },
+      {
+       "label": "-4",
+       "at": [
+        -4,
+        -0.5
+       ]
+      },
+      {
+       "label": "-2",
+       "at": [
+        -2,
+        -0.5
+       ]
+      },
+      {
+       "label": "2",
+       "at": [
+        2,
+        -0.5
+       ]
+      },
+      {
+       "label": "4",
+       "at": [
+        4,
+        -0.5
+       ]
+      },
+      {
+       "label": "-4",
+       "at": [
+        -0.2,
+        -4.05
+       ],
+       "anchor": "end"
+      },
+      {
+       "label": "-2",
+       "at": [
+        -0.2,
+        -2.05
+       ],
+       "anchor": "end"
+      },
+      {
+       "label": "2",
+       "at": [
+        -0.2,
+        1.95
+       ],
+       "anchor": "end"
+      },
+      {
+       "label": "4",
+       "at": [
+        -0.2,
+        3.95
+       ],
+       "anchor": "end"
+      },
+      {
+       "label": "O",
+       "at": [
+        -0.2,
+        -0.5
+       ],
+       "anchor": "end"
+      },
+      {
+       "seg": [
+        -2.75,
+        3.75,
+        3.75,
+        -2.75
+       ],
+       "arrow": "both"
+      }
+     ],
+     "caption": "C"
+    },
+    {
+     "kind": "diagram",
+     "unit": 22,
+     "items": [
+      {
+       "seg": [
+        -4,
+        -4,
+        -4,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -3,
+        -4,
+        -3,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -2,
+        -4,
+        -2,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -1,
+        -4,
+        -1,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        0,
+        -4,
+        0,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        1,
+        -4,
+        1,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        2,
+        -4,
+        2,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        3,
+        -4,
+        3,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        4,
+        -4,
+        4,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        -4,
+        4,
+        -4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        -3,
+        4,
+        -3
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        -2,
+        4,
+        -2
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        -1,
+        4,
+        -1
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        0,
+        4,
+        0
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        1,
+        4,
+        1
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        2,
+        4,
+        2
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        3,
+        4,
+        3
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        4,
+        4,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        0,
+        4.6,
+        0
+       ],
+       "arrow": "end"
+      },
+      {
+       "seg": [
+        0,
+        -4,
+        0,
+        4.6
+       ],
+       "arrow": "end"
+      },
+      {
+       "label": "x",
+       "at": [
+        4.95,
+        0
+       ]
+      },
+      {
+       "label": "y",
+       "at": [
+        0,
+        4.95
+       ]
+      },
+      {
+       "label": "-4",
+       "at": [
+        -4,
+        -0.5
+       ]
+      },
+      {
+       "label": "-2",
+       "at": [
+        -2,
+        -0.5
+       ]
+      },
+      {
+       "label": "2",
+       "at": [
+        2,
+        -0.5
+       ]
+      },
+      {
+       "label": "4",
+       "at": [
+        4,
+        -0.5
+       ]
+      },
+      {
+       "label": "-4",
+       "at": [
+        -0.2,
+        -4.05
+       ],
+       "anchor": "end"
+      },
+      {
+       "label": "-2",
+       "at": [
+        -0.2,
+        -2.05
+       ],
+       "anchor": "end"
+      },
+      {
+       "label": "2",
+       "at": [
+        -0.2,
+        1.95
+       ],
+       "anchor": "end"
+      },
+      {
+       "label": "4",
+       "at": [
+        -0.2,
+        3.95
+       ],
+       "anchor": "end"
+      },
+      {
+       "label": "O",
+       "at": [
+        -0.2,
+        -0.5
+       ],
+       "anchor": "end"
+      },
+      {
+       "seg": [
+        -0.375,
+        -3.75,
+        3.375,
+        3.75
+       ],
+       "arrow": "both"
+      }
+     ],
+     "caption": "D"
+    },
+    {
+     "kind": "diagram",
+     "unit": 22,
+     "items": [
+      {
+       "seg": [
+        -4,
+        -4,
+        -4,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -3,
+        -4,
+        -3,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -2,
+        -4,
+        -2,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -1,
+        -4,
+        -1,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        0,
+        -4,
+        0,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        1,
+        -4,
+        1,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        2,
+        -4,
+        2,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        3,
+        -4,
+        3,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        4,
+        -4,
+        4,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        -4,
+        4,
+        -4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        -3,
+        4,
+        -3
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        -2,
+        4,
+        -2
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        -1,
+        4,
+        -1
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        0,
+        4,
+        0
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        1,
+        4,
+        1
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        2,
+        4,
+        2
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        3,
+        4,
+        3
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        4,
+        4,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        0,
+        4.6,
+        0
+       ],
+       "arrow": "end"
+      },
+      {
+       "seg": [
+        0,
+        -4,
+        0,
+        4.6
+       ],
+       "arrow": "end"
+      },
+      {
+       "label": "x",
+       "at": [
+        4.95,
+        0
+       ]
+      },
+      {
+       "label": "y",
+       "at": [
+        0,
+        4.95
+       ]
+      },
+      {
+       "label": "-4",
+       "at": [
+        -4,
+        -0.5
+       ]
+      },
+      {
+       "label": "-2",
+       "at": [
+        -2,
+        -0.5
+       ]
+      },
+      {
+       "label": "2",
+       "at": [
+        2,
+        -0.5
+       ]
+      },
+      {
+       "label": "4",
+       "at": [
+        4,
+        -0.5
+       ]
+      },
+      {
+       "label": "-4",
+       "at": [
+        -0.2,
+        -4.05
+       ],
+       "anchor": "end"
+      },
+      {
+       "label": "-2",
+       "at": [
+        -0.2,
+        -2.05
+       ],
+       "anchor": "end"
+      },
+      {
+       "label": "2",
+       "at": [
+        -0.2,
+        1.95
+       ],
+       "anchor": "end"
+      },
+      {
+       "label": "4",
+       "at": [
+        -0.2,
+        3.95
+       ],
+       "anchor": "end"
+      },
+      {
+       "label": "O",
+       "at": [
+        -0.2,
+        -0.5
+       ],
+       "anchor": "end"
+      },
+      {
+       "seg": [
+        -3,
+        -3.75,
+        -3,
+        3.75
+       ],
+       "arrow": "both"
+      }
+     ],
+     "caption": "E"
+    },
+    {
+     "kind": "diagram",
+     "unit": 22,
+     "items": [
+      {
+       "seg": [
+        -4,
+        -4,
+        -4,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -3,
+        -4,
+        -3,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -2,
+        -4,
+        -2,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -1,
+        -4,
+        -1,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        0,
+        -4,
+        0,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        1,
+        -4,
+        1,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        2,
+        -4,
+        2,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        3,
+        -4,
+        3,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        4,
+        -4,
+        4,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        -4,
+        4,
+        -4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        -3,
+        4,
+        -3
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        -2,
+        4,
+        -2
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        -1,
+        4,
+        -1
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        0,
+        4,
+        0
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        1,
+        4,
+        1
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        2,
+        4,
+        2
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        3,
+        4,
+        3
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        4,
+        4,
+        4
+       ],
+       "thin": true,
+       "dash": true
+      },
+      {
+       "seg": [
+        -4,
+        0,
+        4.6,
+        0
+       ],
+       "arrow": "end"
+      },
+      {
+       "seg": [
+        0,
+        -4,
+        0,
+        4.6
+       ],
+       "arrow": "end"
+      },
+      {
+       "label": "x",
+       "at": [
+        4.95,
+        0
+       ]
+      },
+      {
+       "label": "y",
+       "at": [
+        0,
+        4.95
+       ]
+      },
+      {
+       "label": "-4",
+       "at": [
+        -4,
+        -0.5
+       ]
+      },
+      {
+       "label": "-2",
+       "at": [
+        -2,
+        -0.5
+       ]
+      },
+      {
+       "label": "2",
+       "at": [
+        2,
+        -0.5
+       ]
+      },
+      {
+       "label": "4",
+       "at": [
+        4,
+        -0.5
+       ]
+      },
+      {
+       "label": "-4",
+       "at": [
+        -0.2,
+        -4.05
+       ],
+       "anchor": "end"
+      },
+      {
+       "label": "-2",
+       "at": [
+        -0.2,
+        -2.05
+       ],
+       "anchor": "end"
+      },
+      {
+       "label": "2",
+       "at": [
+        -0.2,
+        1.95
+       ],
+       "anchor": "end"
+      },
+      {
+       "label": "4",
+       "at": [
+        -0.2,
+        3.95
+       ],
+       "anchor": "end"
+      },
+      {
+       "label": "O",
+       "at": [
+        -0.2,
+        -0.5
+       ],
+       "anchor": "end"
+      },
+      {
+       "seg": [
+        -2.375,
+        -3.75,
+        1.375,
+        3.75
+       ],
+       "arrow": "both"
+      }
+     ],
+     "caption": "F"
+    }
+   ]
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Problem-solving",
+   "stem": "Match each equation to one of the straight lines A to F.",
+   "type": "choice",
+   "prompt": "$y = 2x + 1$",
+   "answer": 5,
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F"
+   ]
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Problem-solving",
+   "stem": "Match each equation to one of the straight lines A to F.",
+   "type": "choice",
+   "prompt": "$y = 2x - 3$",
+   "answer": 3,
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F"
+   ]
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Problem-solving",
+   "stem": "Match each equation to one of the straight lines A to F.",
+   "type": "choice",
+   "prompt": "$y = -x + 4$",
+   "answer": 0,
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F"
+   ]
+  },
+  {
+   "id": "q5e",
+   "label": "5e",
+   "section": "Problem-solving",
+   "stem": "Match each equation to one of the straight lines A to F.",
+   "type": "choice",
+   "prompt": "$x = -3$",
+   "answer": 4,
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F"
+   ]
+  },
+  {
+   "id": "q5f",
+   "label": "5f",
+   "section": "Problem-solving",
+   "stem": "Match each equation to one of the straight lines A to F.",
+   "type": "choice",
+   "prompt": "$y = -x + 1$",
+   "answer": 2,
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F"
+   ]
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Problem-solving",
+   "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
+   "type": "numeric",
+   "prompt": "$3x - 2y = 12$: the gradient",
+   "answer": "3/2",
+   "hint": "Fractions are fine, for example -2/3"
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Problem-solving",
+   "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
+   "type": "point",
+   "prompt": "$3x - 2y = 12$: the $y$-intercept",
+   "answer": "(0,-6)",
+   "hint": "Type the y-intercept as a point, for example (0, -2)"
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Problem-solving",
+   "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
+   "type": "numeric",
+   "prompt": "$y = -4$: the gradient",
+   "answer": "0"
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Problem-solving",
+   "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
+   "type": "point",
+   "prompt": "$y = -4$: the $y$-intercept",
+   "answer": "(0,-4)"
+  },
+  {
+   "id": "q6e",
+   "label": "6e",
+   "section": "Problem-solving",
+   "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
+   "type": "numeric",
+   "prompt": "$x - y = 0$: the gradient",
+   "answer": "1"
+  },
+  {
+   "id": "q6f",
+   "label": "6f",
+   "section": "Problem-solving",
+   "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
+   "type": "point",
+   "prompt": "$x - y = 0$: the $y$-intercept",
+   "answer": "(0,0)"
+  },
+  {
+   "id": "q6g",
+   "label": "6g",
+   "section": "Problem-solving",
+   "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
+   "type": "numeric",
+   "prompt": "$y = 3 - x$: the gradient",
+   "answer": "-1"
+  },
+  {
+   "id": "q6h",
+   "label": "6h",
+   "section": "Problem-solving",
+   "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
+   "type": "point",
+   "prompt": "$y = 3 - x$: the $y$-intercept",
+   "answer": "(0,3)"
+  },
+  {
+   "id": "q6i",
+   "label": "6i",
+   "section": "Problem-solving",
+   "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
+   "type": "numeric",
+   "prompt": "$y = \\frac{x}{3} + 2$: the gradient",
+   "answer": "1/3"
+  },
+  {
+   "id": "q6j",
+   "label": "6j",
+   "section": "Problem-solving",
+   "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
+   "type": "point",
+   "prompt": "$y = \\frac{x}{3} + 2$: the $y$-intercept",
+   "answer": "(0,2)"
+  },
+  {
+   "id": "q6k",
+   "label": "6k",
+   "section": "Problem-solving",
+   "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
+   "type": "numeric",
+   "prompt": "$5y - 2x = 0$: the gradient",
+   "answer": "2/5"
+  },
+  {
+   "id": "q6l",
+   "label": "6l",
+   "section": "Problem-solving",
+   "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
+   "type": "point",
+   "prompt": "$5y - 2x = 0$: the $y$-intercept",
+   "answer": "(0,0)"
+  },
+  {
+   "id": "q6m",
+   "label": "6m",
+   "section": "Problem-solving",
+   "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
+   "type": "numeric",
+   "prompt": "$3x + y - 6 = 0$: the gradient",
+   "answer": "-3"
+  },
+  {
+   "id": "q6n",
+   "label": "6n",
+   "section": "Problem-solving",
+   "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
+   "type": "point",
+   "prompt": "$3x + y - 6 = 0$: the $y$-intercept",
+   "answer": "(0,6)"
+  },
+  {
+   "id": "q6o",
+   "label": "6o",
+   "section": "Problem-solving",
+   "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
+   "type": "numeric",
+   "prompt": "$4x + 5y - 10 = 0$: the gradient",
+   "answer": "-4/5"
+  },
+  {
+   "id": "q6p",
+   "label": "6p",
+   "section": "Problem-solving",
+   "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
+   "type": "point",
+   "prompt": "$4x + 5y - 10 = 0$: the $y$-intercept",
+   "answer": "(0,2)"
+  },
+  {
+   "id": "q7",
+   "label": "7",
+   "section": "Problem-solving",
+   "type": "list",
+   "prompt": "Which of these linear relations have a gradient of $3$ and a $y$-intercept at $(0, -2)$? A: y = 3(x - 2); B: y = 2 - 3x; C: y = (2 - 3x)/(-1); D: y = 3(x - 2/3); E: y = (3x - 6)/3; F: y = (6x - 4)/2; G: 2y = 6x - 2; H: -2y = 4 - 6x. List all the correct letters.",
+   "answer": [
+    "C",
+    "D",
+    "F",
+    "H"
+   ],
+   "hint": "Type the letters separated by commas, for example A, B"
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Reasoning",
+   "stem": "Hana says that the graph of $y = 3(x + 2)$ has gradient $3$ and $y$-intercept $(0, 2)$.",
+   "type": "point",
+   "prompt": "What is the correct $y$-intercept?",
+   "answer": "(0,6)",
+   "hint": "Type a point, for example (0, 5)"
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Reasoning",
+   "stem": "Hana says that the graph of $y = 3(x + 2)$ has gradient $3$ and $y$-intercept $(0, 2)$.",
+   "type": "expression",
+   "prompt": "Expanding the brackets shows the $y$-intercept. Expand: complete $y = \\square$",
+   "answer": "3x+6",
+   "form": "expanded"
+  },
+  {
+   "id": "q9",
+   "label": "9",
+   "section": "Reasoning",
+   "type": "expression",
+   "prompt": "A horizontal line has gradient $0$ and $y$-intercept $(0, k)$. Write its rule in gradient-intercept form.",
+   "answer": "y=k",
+   "hint": "Type the rule, for example y = ..."
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Reasoning",
+   "stem": "Write the rule $ax + by = d$ in gradient-intercept form.",
+   "type": "expression",
+   "prompt": "Complete: $y = \\square$",
+   "answer": "-a/b*x+d/b",
+   "hint": "Use a, b and d, for example -a/b*x + d/b"
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Reasoning",
+   "stem": "Write the rule $ax + by = d$ in gradient-intercept form.",
+   "type": "expression",
+   "prompt": "What is the gradient $m$?",
+   "answer": "-a/b"
+  },
+  {
+   "id": "q10c",
+   "label": "10c",
+   "section": "Reasoning",
+   "stem": "Write the rule $ax + by = d$ in gradient-intercept form.",
+   "type": "expression",
+   "prompt": "What is the $y$-value of the $y$-intercept?",
+   "answer": "d/b"
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Enrichment",
+   "stem": "This line passes through $(-2, 1)$ and $(2, 3)$, so its gradient is $\\frac{1}{2}$. Going from $(-2, 1)$ to $x = 0$ is a run of $2$, so the rise is $1$ and the $y$-intercept is $(0, 2)$. The rule is $y = \\frac{1}{2}x + 2$. Use this method to find the rule of the line through each pair of points.",
+   "type": "expression",
+   "prompt": "$(-1, 2)$ and $(1, 6)$",
+   "answer": "y=2x+4",
+   "accept": [
+    "2x+4"
+   ],
+   "hint": "Type the rule, for example y = 2x + 3. Type a fraction gradient like 2/3x.",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 24,
+    "items": [
+     {
+      "seg": [
+       -4,
+       -1,
+       -4,
+       5
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       -3,
+       -1,
+       -3,
+       5
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       -2,
+       -1,
+       -2,
+       5
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       -1,
+       -1,
+       -1,
+       5
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       0,
+       -1,
+       0,
+       5
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       1,
+       -1,
+       1,
+       5
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       2,
+       -1,
+       2,
+       5
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       3,
+       -1,
+       3,
+       5
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       4,
+       -1,
+       4,
+       5
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       -4,
+       -1,
+       4,
+       -1
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       -4,
+       0,
+       4,
+       0
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       -4,
+       1,
+       4,
+       1
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       -4,
+       2,
+       4,
+       2
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       -4,
+       3,
+       4,
+       3
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       -4,
+       4,
+       4,
+       4
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       -4,
+       5,
+       4,
+       5
+      ],
+      "thin": true,
+      "dash": true
+     },
+     {
+      "seg": [
+       -4,
+       0,
+       4.6,
+       0
+      ],
+      "arrow": "end"
+     },
+     {
+      "seg": [
+       0,
+       -1,
+       0,
+       5.6
+      ],
+      "arrow": "end"
+     },
+     {
+      "label": "x",
+      "at": [
+       4.95,
+       0
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       5.95
+      ]
+     },
+     {
+      "label": "-4",
+      "at": [
+       -4,
+       -0.5
+      ]
+     },
+     {
+      "label": "-3",
+      "at": [
+       -3,
+       -0.5
+      ]
+     },
+     {
+      "label": "-2",
+      "at": [
+       -2,
+       -0.5
+      ]
+     },
+     {
+      "label": "-1",
+      "at": [
+       -1,
+       -0.5
+      ]
+     },
+     {
+      "label": "1",
+      "at": [
+       1,
+       -0.5
+      ]
+     },
+     {
+      "label": "2",
+      "at": [
+       2,
+       -0.5
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       3,
+       -0.5
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       4,
+       -0.5
+      ]
+     },
+     {
+      "label": "-1",
+      "at": [
+       -0.2,
+       -1.05
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "1",
+      "at": [
+       -0.2,
+       0.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "2",
+      "at": [
+       -0.2,
+       1.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "3",
+      "at": [
+       -0.2,
+       2.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "4",
+      "at": [
+       -0.2,
+       3.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "5",
+      "at": [
+       -0.2,
+       4.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.2,
+       -0.5
+      ],
+      "anchor": "end"
+     },
+     {
+      "seg": [
+       -3.75,
+       0.125,
+       3.75,
+       3.875
+      ],
+      "arrow": "both"
+     },
+     {
+      "point": [
+       -2,
+       1
+      ],
+      "name": "(-2, 1)",
+      "pos": "nw"
+     },
+     {
+      "point": [
+       2,
+       3
+      ],
+      "name": "(2, 3)",
+      "pos": "se"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Enrichment",
+   "stem": "This line passes through $(-2, 1)$ and $(2, 3)$, so its gradient is $\\frac{1}{2}$. Going from $(-2, 1)$ to $x = 0$ is a run of $2$, so the rise is $1$ and the $y$-intercept is $(0, 2)$. The rule is $y = \\frac{1}{2}x + 2$. Use this method to find the rule of the line through each pair of points.",
+   "type": "expression",
+   "prompt": "$(-2, 5)$ and $(2, 1)$",
+   "answer": "y=-x+3",
+   "accept": [
+    "-x+3"
+   ]
+  },
+  {
+   "id": "q11c",
+   "label": "11c",
+   "section": "Enrichment",
+   "stem": "This line passes through $(-2, 1)$ and $(2, 3)$, so its gradient is $\\frac{1}{2}$. Going from $(-2, 1)$ to $x = 0$ is a run of $2$, so the rise is $1$ and the $y$-intercept is $(0, 2)$. The rule is $y = \\frac{1}{2}x + 2$. Use this method to find the rule of the line through each pair of points.",
+   "type": "expression",
+   "prompt": "$(-1, -2)$ and $(2, 7)$",
+   "answer": "y=3x+1",
+   "accept": [
+    "3x+1"
+   ]
+  },
+  {
+   "id": "q11d",
+   "label": "11d",
+   "section": "Enrichment",
+   "stem": "This line passes through $(-2, 1)$ and $(2, 3)$, so its gradient is $\\frac{1}{2}$. Going from $(-2, 1)$ to $x = 0$ is a run of $2$, so the rise is $1$ and the $y$-intercept is $(0, 2)$. The rule is $y = \\frac{1}{2}x + 2$. Use this method to find the rule of the line through each pair of points.",
+   "type": "expression",
+   "prompt": "$(-3, 2)$ and $(2, -1)$",
+   "answer": "y=-3x/5+1/5",
+   "accept": [
+    "-3x/5+1/5"
+   ]
   }
  ]
 },
