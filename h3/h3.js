@@ -16,10 +16,51 @@
   "use strict";
 
   // ---------- data ----------
-  const BANK = window.H3_BANK || { sets: [] };
-  const SETS = BANK.sets || [];
-  const setById = Object.fromEntries(SETS.map(s => [s.id, s]));
+  // Year 7 (bank.js) loads with the page. Other years load only when they are
+  // first needed (loadYear), and push their sets into the same array, so SETS
+  // always holds every loaded set; setById is rebuilt after each load.
+  const BANK = window.H3_BANK = window.H3_BANK || { sets: [] };
+  const SETS = BANK.sets = BANK.sets || [];
+  let setById = {};
+  const reindex = () => { setById = Object.fromEntries(SETS.map(s => [s.id, s])); };
+  reindex();
   const Notes = window.H3Notes;
+
+  // Years H3 offers, and the files each later year needs. Adding a chapter's
+  // help panels for a year is one more entry in its list.
+  const YEAR_FILES = {
+    7: [],
+    8: ['/h3/bank-y8.js'],
+  };
+  const YEARS = Object.keys(YEAR_FILES).map(Number);
+  const yearLoaded = { 7: true }, yearLoading = {};
+  function loadYear(y) {
+    if (yearLoaded[y] || !YEAR_FILES[y]) return Promise.resolve();
+    if (!yearLoading[y]) {
+      yearLoading[y] = YEAR_FILES[y].reduce((p, src) => p.then(() => new Promise(done => {
+        const s = document.createElement('script');
+        s.src = src; s.onload = done; s.onerror = done;   // a missing file just means no sets yet
+        document.head.appendChild(s);
+      })), Promise.resolve()).then(() => { yearLoaded[y] = true; reindex(); });
+    }
+    return yearLoading[y];
+  }
+  const loadAllYears = () => Promise.all(YEARS.map(loadYear));
+  const yearOfSetId = (id) => { const m = /^y(\d+)-/.exec(id || ''); return m ? Number(m[1]) : 7; };
+
+  // The year a student is looking at: their last pick on this device, or the
+  // year their roster class starts with ("8A" -> 8), or Year 7.
+  const LS_YEAR = 'h3-year';
+  function chosenYear() {
+    let y = null;
+    try { y = Number(localStorage.getItem(LS_YEAR)); } catch (e) { /* private mode */ }
+    if (!YEARS.includes(y)) {
+      const m = /^\s*(\d{1,2})/.exec((state.me && state.me.class) || '');
+      y = m && YEARS.includes(Number(m[1])) ? Number(m[1]) : 7;
+    }
+    return y;
+  }
+  function pickYear(y) { try { localStorage.setItem(LS_YEAR, String(y)); } catch (e) { /* private mode */ } }
 
   const LS_RESULTS = 'h3-results-v1';     // per code: { code: results }
   const LS_SESSION = 'h3-session';         // the signed-in student row
@@ -197,6 +238,7 @@
     ordered: 'Separate with commas, e.g. 12, 21, 112',
     powers: 'Use ^ for powers, e.g. 2^3 x 5',
     ratio: 'Use a colon, e.g. 3:4',
+    inequality: 'e.g. x > 3 or x <= -2',
   };
 
   const REASONS = {
@@ -223,6 +265,7 @@
     'use percent': 'Write it as a percentage, with the % sign, e.g. 75%.',
     'use ratio': 'Write it as a ratio with a colon, e.g. 3:4.',
     'write the equation': 'Write the equation from the question (with the letter in it), not its solution.',
+    'use inequality': 'Write it as an inequality with a symbol, e.g. x > 3 or x <= -2.',
     'ratio not simplest': 'Simplify the ratio: whole numbers with no common factor, e.g. 3:4.',
   };
 
@@ -320,8 +363,20 @@
       app.innerHTML = `<div class="narrow"><h2>No homework yet</h2><p class="lede">Your teacher hasn't added any questions yet. Check back soon.</p></div>`;
       return;
     }
+    const year = chosenYear();
+    if (!yearLoaded[year]) {
+      app.innerHTML = `<div class="narrow"><p class="lede">Loading Year ${esc(year)}...</p></div>`;
+      loadYear(year).then(() => { if (!/^#?(set-|chapter-|teacher)/.test(location.hash.replace(/^#/, ''))) viewHome(); });
+      return;
+    }
+    // The green note total counts every year with saved work, so load those too.
+    const workYears = [...new Set(Object.keys(state.results || {}).map(yearOfSetId))].filter(y => YEARS.includes(y) && !yearLoaded[y]);
+    if (workYears.length) Promise.all(workYears.map(loadYear)).then(() => { const h = location.hash.replace(/^#/, ''); if (!h || h === 'home') viewHome(); });
     const sum = Notes.summary(SETS, state.results);
     const started = SETS.some(s => setScore(s, state.results[s.id]).tried);
+    const yearChapters = sum.chapters.filter(ch => ch.year === year);
+    const tabs = YEARS.length > 1 ? `<div class="year-tabs" role="group" aria-label="Year level">${YEARS.map(y =>
+      `<button type="button" class="year-tab${y === year ? ' on' : ''}" data-year="${y}" aria-pressed="${y === year}">Year ${y}</button>`).join('')}</div>` : '';
     app.innerHTML = `
       <section class="welcome">
         <div>
@@ -334,13 +389,14 @@
           <small>green note${sum.earned === 1 ? '' : 's'} earned</small>
         </div>
       </section>
-      <h3 class="list-head">Chapters</h3>
+      <div class="list-head-row"><h3 class="list-head">Year ${esc(year)} chapters</h3>${tabs}</div>
+      ${yearChapters.length ? '' : `<p class="lede">Year ${esc(year)} chapters are on their way. Check back soon.</p>`}
       <div class="sets chapters">
-        ${sum.chapters.map(ch => {
+        ${yearChapters.map(ch => {
           const pct = chapterPct(ch);
           const max = Math.floor(ch.total / Notes.PER_NOTE) + 1;
           return `<a class="set-card chapter-card ${ch.full ? 'is-full' : ''}" href="#chapter-${esc(ch.id)}">
-            <div class="chapter-top"><span class="chapter-id"><span class="chapter-num">${esc(ch.id)}</span><span class="chapter-pct" title="${pct}% of this chapter's questions correct">${pct}%</span></span>
+            <div class="chapter-top"><span class="chapter-id"><span class="chapter-num">${esc(ch.num)}</span><span class="chapter-pct" title="${pct}% of this chapter's questions correct">${pct}%</span></span>
               <span class="gn-row" title="${ch.earned} of ${max} green notes">${Array.from({ length: max }, (_, i) => `<span class="gn-dot ${i < ch.earned ? 'on' : ''}">${noteIcon}</span>`).join('')}</span></div>
             ${yearOf(ch) ? `<p class="chapter-year">Year ${esc(yearOf(ch))}</p>` : ''}
             <h3>${esc(ch.name.replace(/^Chapter\s+\d+:\s*/i, ''))}</h3>
@@ -350,6 +406,9 @@
           </a>`;
         }).join('')}
       </div>`;
+    app.querySelectorAll('.year-tab').forEach(b => b.addEventListener('click', () => {
+      pickYear(Number(b.dataset.year)); viewHome();
+    }));
     typeset(app);
   }
 
@@ -358,10 +417,10 @@
     const ch = sum.chapters.find(c => c.id === id);
     if (!ch) { location.hash = '#home'; return; }
     app.innerHTML = `
-      <a class="back" href="#home">${backArrow}All chapters</a>
+      <a class="back" href="#home">${backArrow}All Year ${esc(ch.year)} chapters</a>
       <div class="set-head">
         <div>
-          <div class="key-meta" style="text-transform:uppercase;letter-spacing:.08em;font-weight:700">${yearOf(ch) ? `Year ${esc(yearOf(ch))} · ` : ''}Chapter ${esc(ch.id)}</div>
+          <div class="key-meta" style="text-transform:uppercase;letter-spacing:.08em;font-weight:700">Year ${esc(ch.year)} · Chapter ${esc(ch.num)}</div>
           <h2>${esc(ch.name.replace(/^Chapter\s+\d+:\s*/i, ''))}</h2>
         </div>
         <div class="score"><b>${ch.done}/${ch.total}</b><small>sub-chapters done</small></div>
@@ -412,6 +471,11 @@
     const ch = Notes.chapters(SETS).find(c => c.sets.indexOf(set) !== -1);
     return ch ? ch.id : '';
   }
+  // The number to show ("Chapter 3"); the id can be "y8-3".
+  function chapterNumOf(set) {
+    const ch = Notes.chapters(SETS).find(c => c.sets.indexOf(set) !== -1);
+    return ch ? ch.num : '';
+  }
 
   // Pictures for a question (figures.js draws them from a spec in bank.js).
   const figureHtml = (f) => (f && window.H3Figure) ? `<div class="qfig">${[].concat(f).map(window.H3Figure).join('')}</div>` : '';
@@ -455,7 +519,7 @@
     const holders = new Set(set.questions.map((q, i) => helpHolder(set, res, i)).filter(i => i != null));
     app.innerHTML = `
       <div class="narrow">
-        <a class="back" href="#chapter-${esc(chId)}">${backArrow}Chapter ${esc(chId)}</a>
+        <a class="back" href="#chapter-${esc(chId)}">${backArrow}${(set.year || 7) !== 7 ? `Year ${esc(set.year)} · ` : ''}Chapter ${esc(chapterNumOf(set))}</a>
         <div class="set-head">
           <div>
             ${set.chapter ? `<div class="key-meta" style="text-transform:uppercase;letter-spacing:.08em;font-weight:700">${esc(set.chapter)}</div>` : ''}
@@ -871,7 +935,10 @@
   function viewTeacher() {
     if (!state.staff) { viewStaffGate(); return; }
     startOverviewTimer();
-    const sel = state.teacherSet && setById[state.teacherSet] ? state.teacherSet : (SETS[0] && SETS[0].id);
+    if (!YEARS.includes(state.teacherYear)) state.teacherYear = 7;
+    const yearSets = SETS.filter(s => (s.year || 7) === state.teacherYear);
+    const sel = state.teacherSet && setById[state.teacherSet] && (setById[state.teacherSet].year || 7) === state.teacherYear
+      ? state.teacherSet : (yearSets[0] && yearSets[0].id);
     state.teacherSet = sel;
     const set = setById[sel];
     const all = state.overview || [];
@@ -881,7 +948,7 @@
       .filter(r => !state.teacherClass || r.class === state.teacherClass)
       .map(r => {
         const sum = Notes.summary(SETS, r.sets || {});
-        const done = sum.chapters.reduce((a, c) => a + c.done, 0);
+        const done = sum.chapters.filter(c => c.year === state.teacherYear).reduce((a, c) => a + c.done, 0);
         return Object.assign({}, r, { earned: sum.earned, done, owed: Math.max(0, sum.earned - (r.notes_issued || 0)) });
       })
       .filter(r => !state.owedOnly || r.owed > 0);
@@ -922,6 +989,8 @@
           <p class="lede">Refreshes every 20 seconds. Select a score to see each answer.</p>
         </div>
         <div class="toolbar">
+          ${YEARS.length > 1 ? `<label for="t-year" class="key-meta">Year</label>
+          <select id="t-year">${YEARS.map(y => `<option value="${y}" ${y === state.teacherYear ? 'selected' : ''}>Year ${y}</option>`).join('')}</select>` : ''}
           <label for="t-class" class="key-meta">Class</label>
           <select id="t-class"><option value="">All classes</option>${classes.map(c => `<option ${c === state.teacherClass ? 'selected' : ''}>${esc(c)}</option>`).join('')}</select>
           <button class="btn ghost" id="t-refresh" type="button">Refresh</button>
@@ -932,15 +1001,15 @@
       <div class="panel">
         <div class="toolbar" style="justify-content:space-between">
           <div><h2>Green notes</h2>
-          <div class="key-meta">${totalOwed} to hand out${state.teacherClass ? ' in ' + esc(state.teacherClass) : ''}. Earned: every 3 sub-chapters done, plus 1 per finished chapter.</div></div>
+          <div class="key-meta">${totalOwed} to hand out${state.teacherClass ? ' in ' + esc(state.teacherClass) : ''}. Earned (all years): every 3 sub-chapters done, plus 1 per finished chapter.</div></div>
           <label class="key-meta"><input type="checkbox" id="owed-only" ${state.owedOnly ? 'checked' : ''}> Only students owed notes</label>
         </div>
         ${rows.length ? `<div class="tbl-wrap"><table class="notes-tbl">
-          <thead><tr><th>Student</th><th>Class</th><th>Sub-chapters done</th><th>Earned</th><th>Issued</th><th>Owed</th><th></th></tr></thead>
+          <thead><tr><th>Student</th><th>Class</th><th>Year ${esc(state.teacherYear)} sub-chapters done</th><th>Earned</th><th>Issued</th><th>Owed</th><th></th></tr></thead>
           <tbody>${rows.map(r => `<tr class="${r.owed ? 'is-owed' : ''}">
             <td>${esc(fullName(r))} <span class="key-meta mono">${esc(r.code)}</span></td>
             <td>${esc(r.class)}</td>
-            <td>${r.done} of ${SETS.length}</td>
+            <td>${r.done} of ${yearSets.length}</td>
             <td><b>${r.earned}</b></td>
             <td>${r.notes_issued || 0}</td>
             <td>${r.owed ? `<span class="owed">${r.owed}</span>` : '<span class="key-meta">0</span>'}</td>
@@ -954,8 +1023,8 @@
         <h2>Class results</h2>
         <div class="key-meta">${rows.length} ${rows.length === 1 ? 'student' : 'students'}</div>
         ${rows.length ? `<div class="tbl-wrap"><table>
-          <thead><tr><th>Student</th>${SETS.map(s => { const code = splitTitle(s.title).code; return `<th title="${esc(s.title)}">${esc(code || (s.title.length > 22 ? s.title.slice(0, 21) + '...' : s.title))}</th>`; }).join('')}</tr></thead>
-          <tbody>${rows.map(r => `<tr><td>${esc(fullName(r))}</td>${SETS.map(s => cellFor(r, s)).join('')}</tr>`).join('')}</tbody>
+          <thead><tr><th>Student</th>${yearSets.map(s => { const code = splitTitle(s.title).code; return `<th title="${esc(s.title)}">${esc(code || (s.title.length > 22 ? s.title.slice(0, 21) + '...' : s.title))}</th>`; }).join('')}</tr></thead>
+          <tbody>${rows.map(r => `<tr><td>${esc(fullName(r))}</td>${yearSets.map(s => cellFor(r, s)).join('')}</tr>`).join('')}</tbody>
         </table></div>` : ''}
       </div>`}
       ${detail}
@@ -980,7 +1049,7 @@
           <h2>Question bank</h2>
           <div class="toolbar">
             <label for="key-set" class="key-meta">Set</label>
-            <select id="key-set">${SETS.map(s => `<option value="${esc(s.id)}" ${s.id === sel ? 'selected' : ''}>${esc(s.title)}</option>`).join('')}</select>
+            <select id="key-set">${Notes.chapters(yearSets).map(c => `<optgroup label="Chapter ${esc(c.num)}">${c.sets.map(s => `<option value="${esc(s.id)}" ${s.id === sel ? 'selected' : ''}>${esc(s.title)}</option>`).join('')}</optgroup>`).join('')}</select>
             <button class="btn ghost" id="toggle-key" type="button">${state.showKey ? 'Hide answers' : 'Show answers'}</button>
           </div>
         </div>
@@ -1009,6 +1078,7 @@
     on('key-set', 'change', (e) => { state.teacherSet = e.target.value; viewTeacher(); });
     on('toggle-key', 'click', () => { state.showKey = !state.showKey; viewTeacher(); });
     on('t-class', 'change', (e) => { state.teacherClass = e.target.value; viewTeacher(); });
+    on('t-year', 'change', (e) => { state.teacherYear = Number(e.target.value); state.teacherSet = null; state.teacherDetail = null; viewTeacher(); });
     on('owed-only', 'change', (e) => { state.owedOnly = e.target.checked; viewTeacher(); });
     on('t-refresh', 'click', () => loadOverview());
     on('paste', 'input', previewImport);
@@ -1026,6 +1096,16 @@
     const h = location.hash.replace(/^#/, '');
     const view = h === 'teacher' ? 'teacher' : 'home';
     document.querySelectorAll('nav a').forEach(a => a.setAttribute('aria-current', a.dataset.view === view ? 'page' : 'false'));
+    // A link into a year that is not loaded yet (#set-y8-2c) loads it first.
+    const needYear = h === 'teacher' ? null : yearOfSetId(h.replace(/^(set|chapter)-/, ''));
+    if (h === 'teacher' && YEARS.some(y => !yearLoaded[y])) {
+      app.innerHTML = `<div class="narrow"><p class="lede">Loading...</p></div>`;
+      loadAllYears().then(route); return;
+    }
+    if (needYear && !yearLoaded[needYear] && /^(set|chapter)-/.test(h)) {
+      app.innerHTML = `<div class="narrow"><p class="lede">Loading Year ${esc(needYear)}...</p></div>`;
+      loadYear(needYear).then(route); return;
+    }
     if (h === 'teacher') viewTeacher();
     else if (!state.me) viewSignin(db ? '' : "H3 can't reach its database right now. Check your connection and reload.", !db);
     else if (h.startsWith('set-')) viewSet(h.slice(4));

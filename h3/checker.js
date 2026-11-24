@@ -433,6 +433,27 @@ const Checker = (() => {
     return { correct: a.every((x, i) => x === b[i]) };
   }
 
+  // inequalities: "x > 3", "x>=-2", "x ≤ 5/2", "3 < x" (read as x > 3), "x is greater than 3"
+  // is not accepted (type the symbol). The letter, the direction and the value must all match.
+  function inequalityMatch(q, raw, key) {
+    const read = (src) => {
+      let s = clean(String(src)).toLowerCase().trim()
+        .replace(/≥|=>/g, '>=').replace(/≤|=</g, '<=').replace(/≠/g, '!=');
+      const m = s.match(/^([a-z])\s*(<=|>=|<|>)\s*(.+?)$/) || s.match(/^(.+?)\s*(<=|>=|<|>)\s*([a-z])$/);
+      if (!m) return null;
+      m[1] = m[1].trim(); m[3] = m[3].trim();
+      const flip = { '<': '>', '>': '<', '<=': '>=', '>=': '<=' };
+      const letterFirst = /^[a-z]$/.test(m[1]) && !/^[a-z]$/.test(m[3]);
+      const letter = letterFirst ? m[1] : m[3], op = letterFirst ? m[2] : flip[m[2]], num = toNumber(letterFirst ? m[3] : m[1]);
+      if (!num.ok) return null;
+      return { letter, op, v: num.v };
+    };
+    const st = read(raw), ex = read(key);
+    if (!ex) return { correct: false, reason: 'bad key' };
+    if (!st) return { correct: false, reason: 'use inequality' };
+    return { correct: st.letter === ex.letter && st.op === ex.op && close(st.v, ex.v) };
+  }
+
   // ratios: "3:4", "3 : 4", "2:3:5". Order matters. Equivalent ratios pass
   // (6:8 for 3:4) unless q.simplest, which wants whole-number parts with no
   // common factor. Parts may be decimals or fractions on the way.
@@ -525,6 +546,11 @@ const Checker = (() => {
         case 'brackets': return bracketsMatch(q, raw);
         case 'product': return productMatch(q, raw);
         case 'placevalue': return placeValueMatch(q, raw);
+        case 'inequality': {
+          let last = { correct: false };
+          for (const k of keys) { last = inequalityMatch(q, raw, String(k)); if (last.correct) return last; }
+          return last;
+        }
         case 'ratio': {
           let last = { correct: false };
           for (const k of keys) { last = ratioMatch(q, raw, String(k)); if (last.correct) return last; }

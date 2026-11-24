@@ -30,18 +30,21 @@
     var out = [];
     sets.forEach(function (s) {
       var name = s.chapter || "Homework";
-      var ch = out.find(function (c) { return c.name === name; });
+      var year = s.year || 7;      // sets without a year are Year 7 (bank.js)
+      var ch = out.find(function (c) { return c.name === name && c.year === year; });
       if (!ch) {
-        ch = { name: name, id: String(out.length + 1), sets: [] };
         var m = name.match(/^Chapter\s+(\d+)/i);
-        if (m) ch.id = m[1];
+        var num = m ? m[1] : String(out.length + 1);
+        // Year 7 keeps the plain ids ("1".."10") so old links and saved work still
+        // line up; other years get their own ("y8-1") so the two never clash.
+        ch = { name: name, year: year, num: num, id: year === 7 ? num : "y" + year + "-" + num, sets: [] };
         out.push(ch);
       }
       ch.sets.push(s);
     });
-    // Chapter order follows the chapter number, not where a chapter sits in bank.js,
-    // so a chapter written later still lands in its place. Sets keep their bank order.
-    out.sort(function (a, b) { return (parseInt(a.id, 10) || 999) - (parseInt(b.id, 10) || 999); });
+    // Order: year, then chapter number, whatever order the sets were loaded in.
+    // Sets within a chapter keep their bank order.
+    out.sort(function (a, b) { return (a.year - b.year) || ((parseInt(a.num, 10) || 999) - (parseInt(b.num, 10) || 999)); });
     return out;
   }
 

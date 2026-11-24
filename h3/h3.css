@@ -513,3 +513,10 @@ textarea, .small-input { width: 100%; font: 15px/1.4 var(--f-mono); color: var(-
 .hp-steps > li { grid-template-columns: 28px minmax(0, 1fr); }
 .hp-step > * { max-width: 100%; }
 .hp-step { grid-template-columns: minmax(0, 1fr); }
+
+/* Year picker on the home page: Year 7 / Year 8 tabs beside the chapter heading. */
+.list-head-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.year-tabs { display: inline-flex; gap: 4px; padding: 4px; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); }
+.year-tab { font: 700 15px var(--f-body); color: var(--muted); background: none; border: 0; border-radius: 999px; padding: 7px 16px; cursor: pointer; }
+.year-tab:hover { color: var(--ink); }
+.year-tab.on { background: var(--h3-green); color: var(--accent-ink); }
