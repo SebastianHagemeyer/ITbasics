@@ -265,6 +265,7 @@
     'use percent': 'Write it as a percentage, with the % sign, e.g. 75%.',
     'use ratio': 'Write it as a ratio with a colon, e.g. 3:4.',
     'write the equation': 'Write the equation from the question (with the letter in it), not its solution.',
+    'not fully factorised': 'Take out every common factor, so nothing in the bracket shares a factor, e.g. 4(x + 2) not 2(2x + 4).',
     'use inequality': 'Write it as an inequality with a symbol, e.g. x > 3 or x <= -2.',
     'ratio not simplest': 'Simplify the ratio: whole numbers with no common factor, e.g. 3:4.',
   };

@@ -285,6 +285,34 @@ const Checker = (() => {
     return tested >= 3;
   }
 
+  // A + or - that is not inside brackets (a leading minus sign does not count).
+  function topLevelPlusMinus(src) {
+    const s = clean(src).replace(/\s+/g, '');
+    let depth = 0;
+    for (let i = 0; i < s.length; i++) {
+      const c = s[i];
+      if (c === '(' || c === '[') depth++;
+      else if (c === ')' || c === ']') depth--;
+      else if ((c === '+' || c === '-') && depth === 0 && i > 0 && !/[*/^(]/.test(s[i - 1])) return true;
+    }
+    return false;
+  }
+
+  // In a factorised answer, does any bracket still have a common factor across its
+  // terms (a whole number above 1, or a letter in every term)? 2(2x+4) and 7(2cn+3n) do.
+  function bracketHasCommon(src) {
+    const s = clean(src).toLowerCase().replace(/\s+/g, '').replace(/\*/g, '');
+    const groups = s.match(/\(([^()]+)\)/g) || [];
+    return groups.some(g => {
+      const terms = g.slice(1, -1).split(/(?<!\^)(?=[+-])/).map(t => t.replace(/^[+-]/, '')).filter(Boolean);
+      if (terms.length < 2) return false;
+      const nums = terms.map(t => { const m = t.match(/^(\d+)/); return m ? +m[1] : 1; });
+      if (nums.reduce((a, b) => gcd(a, b)) > 1) return true;
+      const letterSets = terms.map(t => new Set(t.replace(/\^\d+/g, '').replace(/\d/g, '').split('').filter(ch => /[a-z]/.test(ch))));
+      return [...letterSets[0]].some(ch => letterSets.every(set => set.has(ch)));
+    });
+  }
+
   function expressionMatch(q, studentRaw, expectedRaw) {
     if (!/x/i.test(String(expectedRaw))) studentRaw = String(studentRaw).replace(/[xX]/g, '*');
     let sParts, eParts;
@@ -301,6 +329,9 @@ const Checker = (() => {
       if (!ok) return { correct: false };
       if (q.form === 'factorised' || q.form === 'factorized' || q.form === 'factored') {
         if (!isFactored(sTrees[0])) return { correct: false, reason: 'not factorised' };
+        // Fully factorised: the bracket must have nothing left in common, so
+        // 2(2x+4) or 7(2cn+3n) do not pass for 4(x+2) or 7n(2c+3).
+        if (bracketHasCommon(String(studentRaw)) && !bracketHasCommon(String(expectedRaw))) return { correct: false, reason: 'not fully factorised' };
       }
       if (q.form === 'expanded' && !isExpanded(sTrees[0])) return { correct: false, reason: 'not expanded' };
       if (q.form === 'simplified') {
@@ -313,7 +344,11 @@ const Checker = (() => {
           const s = clean(src).toLowerCase().replace(/\s+/g, '').replace(/\*/g, '');
           if (/[a-z]{3,}/.test(s.replace(/[^a-z]+/g, ' ').split(' ').filter(w => /^(sqrt|sin|cos|tan|log|ln|abs|pi)/.test(w)).join(''))) return false;
           return s.split(/(?<![\^(])[+-]/).some(term => {
-            if (!term || /[()]/.test(term)) return false;
+            if (!term) return false;
+            // a number fraction that still cancels, even with letters and a bracketed bottom: 21/(30x)
+            const frb = term.match(/^-?(\d+)[a-z^0-9]*\/\((\d+)[a-z^0-9]*\)$/);
+            if (frb && gcd(+frb[1], +frb[2]) > 1) return true;
+            if (/[()]/.test(term)) return false;
             const letters = term.replace(/\^\d+/g, '').match(/[a-z]/g) || [];
             if (new Set(letters).size !== letters.length) return true;
             const fr = term.match(/^(\d+)[a-z^0-9]*\/(\d+)$/) || term.match(/^[a-z^0-9]*?(\d+)\/(\d+)[a-z^0-9]*$/);
@@ -321,6 +356,9 @@ const Checker = (() => {
           });
         };
         if (loose(String(studentRaw)) && !loose(String(expectedRaw))) return { correct: false, reason: 'not simplified' };
+        // "Write as a single fraction": if the key has no + or - outside brackets, a
+        // student answer that still has one (a/2 + b/3) is not finished.
+        if (!topLevelPlusMinus(String(expectedRaw)) && topLevelPlusMinus(String(studentRaw))) return { correct: false, reason: 'not simplified' };
       }
       return { correct: true };
     }
