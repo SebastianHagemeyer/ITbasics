@@ -8295,3 +8295,7694 @@ window.H3_BANK.sets.push(
  ]
 }
 );
+
+// Chapter 1
+window.H3_BANK.sets.push(
+{
+ "id": "y8-1a",
+ "year": 8,
+ "chapter": "Chapter 1: Computation with integers",
+ "title": "1A Adding and subtracting positive integers",
+ "description": "Mental strategies, written algorithms, estimation and missing-digit puzzles for adding and subtracting.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Evaluate these differences and sums mentally.",
+   "prompt": "$257 - 34$",
+   "type": "numeric",
+   "answer": "223"
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Evaluate these differences and sums mentally.",
+   "prompt": "$643 - 38$",
+   "type": "numeric",
+   "answer": "605"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "Evaluate these differences and sums mentally.",
+   "prompt": "$140 + 139$",
+   "type": "numeric",
+   "answer": "279"
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "Evaluate these differences and sums mentally.",
+   "prompt": "$215 + 217$",
+   "type": "numeric",
+   "answer": "432"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Evaluate these sums and differences mentally.",
+   "prompt": "$87 - 53$",
+   "type": "numeric",
+   "answer": "34"
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Evaluate these sums and differences mentally.",
+   "prompt": "$235 + 352$",
+   "type": "numeric",
+   "answer": "587"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Evaluate these sums and differences mentally.",
+   "prompt": "$2687 - 452$",
+   "type": "numeric",
+   "answer": "2235"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Evaluate these sums and differences mentally.",
+   "prompt": "$47 + 28$",
+   "type": "numeric",
+   "answer": "75"
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Evaluate these sums and differences mentally.",
+   "prompt": "$156 + 37$",
+   "type": "numeric",
+   "answer": "193"
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "Evaluate these sums and differences mentally.",
+   "prompt": "$362 - 47$",
+   "type": "numeric",
+   "answer": "315"
+  },
+  {
+   "id": "q2g",
+   "label": "2g",
+   "section": "Fluency",
+   "stem": "Evaluate these sums and differences mentally.",
+   "prompt": "$88 - 30$",
+   "type": "numeric",
+   "answer": "58"
+  },
+  {
+   "id": "q2h",
+   "label": "2h",
+   "section": "Fluency",
+   "stem": "Evaluate these sums and differences mentally.",
+   "prompt": "$573 - 60$",
+   "type": "numeric",
+   "answer": "513"
+  },
+  {
+   "id": "q2i",
+   "label": "2i",
+   "section": "Fluency",
+   "stem": "Evaluate these sums and differences mentally.",
+   "prompt": "$450 + 451$",
+   "type": "numeric",
+   "answer": "901"
+  },
+  {
+   "id": "q2j",
+   "label": "2j",
+   "section": "Fluency",
+   "stem": "Evaluate these sums and differences mentally.",
+   "prompt": "$125 + 124$",
+   "type": "numeric",
+   "answer": "249"
+  },
+  {
+   "id": "q2k",
+   "label": "2k",
+   "section": "Fluency",
+   "stem": "Evaluate these sums and differences mentally.",
+   "prompt": "$70 - 38$",
+   "type": "numeric",
+   "answer": "32"
+  },
+  {
+   "id": "q2l",
+   "label": "2l",
+   "section": "Fluency",
+   "stem": "Evaluate these sums and differences mentally.",
+   "prompt": "$430 - 168$",
+   "type": "numeric",
+   "answer": "262"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Use an algorithm to find these sums and differences.",
+   "prompt": "$\\begin{array}{r} 237 \\\\ +\\;58 \\\\ \\hline \\end{array}$",
+   "type": "numeric",
+   "answer": "295"
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Use an algorithm to find these sums and differences.",
+   "prompt": "$\\begin{array}{r} 86 \\\\ +\\;425 \\\\ \\hline \\end{array}$",
+   "type": "numeric",
+   "answer": "511"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Use an algorithm to find these sums and differences.",
+   "prompt": "$\\begin{array}{r} 8036 \\\\ 745 \\\\ +\\;532 \\\\ \\hline \\end{array}$",
+   "type": "numeric",
+   "answer": "9313"
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Use an algorithm to find these sums and differences.",
+   "prompt": "$\\begin{array}{r} 723 \\\\ 1546 \\\\ +\\;237 \\\\ \\hline \\end{array}$",
+   "type": "numeric",
+   "answer": "2506"
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "Use an algorithm to find these sums and differences.",
+   "prompt": "$\\begin{array}{r} 83 \\\\ -\\;47 \\\\ \\hline \\end{array}$",
+   "type": "numeric",
+   "answer": "36"
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "Use an algorithm to find these sums and differences.",
+   "prompt": "$\\begin{array}{r} 532 \\\\ -\\;317 \\\\ \\hline \\end{array}$",
+   "type": "numeric",
+   "answer": "215"
+  },
+  {
+   "id": "q3g",
+   "label": "3g",
+   "section": "Fluency",
+   "stem": "Use an algorithm to find these sums and differences.",
+   "prompt": "$\\begin{array}{r} 2815 \\\\ -\\;2788 \\\\ \\hline \\end{array}$",
+   "type": "numeric",
+   "answer": "27"
+  },
+  {
+   "id": "q3h",
+   "label": "3h",
+   "section": "Fluency",
+   "stem": "Use an algorithm to find these sums and differences.",
+   "prompt": "$\\begin{array}{r} 13064 \\\\ -\\;427 \\\\ \\hline \\end{array}$",
+   "type": "numeric",
+   "answer": "12637"
+  },
+  {
+   "id": "q3i",
+   "label": "3i",
+   "section": "Fluency",
+   "stem": "Use an algorithm to find these sums and differences.",
+   "prompt": "$\\begin{array}{r} 516 \\\\ 413 \\\\ 206 \\\\ +\\;38 \\\\ \\hline \\end{array}$",
+   "type": "numeric",
+   "answer": "1173"
+  },
+  {
+   "id": "q3j",
+   "label": "3j",
+   "section": "Fluency",
+   "stem": "Use an algorithm to find these sums and differences.",
+   "prompt": "$\\begin{array}{r} 1003 \\\\ 3518 \\\\ 8207 \\\\ +\\;10385 \\\\ \\hline \\end{array}$",
+   "type": "numeric",
+   "answer": "23113"
+  },
+  {
+   "id": "q3k",
+   "label": "3k",
+   "section": "Fluency",
+   "stem": "Use an algorithm to find these sums and differences.",
+   "prompt": "$\\begin{array}{r} 4026 \\\\ -\\;3958 \\\\ \\hline \\end{array}$",
+   "type": "numeric",
+   "answer": "68"
+  },
+  {
+   "id": "q3l",
+   "label": "3l",
+   "section": "Fluency",
+   "stem": "Use an algorithm to find these sums and differences.",
+   "prompt": "$\\begin{array}{r} 20035 \\\\ -\\;847 \\\\ \\hline \\end{array}$",
+   "type": "numeric",
+   "answer": "19188"
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "Estimate each answer by first rounding each amount to the nearest dollar. (For example, $\\$4.97 + \\$2.04$ rounds to $\\$5 + \\$2$, so an estimate of $\\$7$ is reasonable.)",
+   "prompt": "$\\$2.98 + \\$4.03$",
+   "type": "numeric",
+   "units": "$",
+   "answer": "7"
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "Estimate each answer by first rounding each amount to the nearest dollar. (For example, $\\$4.97 + \\$2.04$ rounds to $\\$5 + \\$2$, so an estimate of $\\$7$ is reasonable.)",
+   "prompt": "$\\$5.04 + \\$2.97$",
+   "type": "numeric",
+   "units": "$",
+   "answer": "8"
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "Estimate each answer by first rounding each amount to the nearest dollar. (For example, $\\$4.97 + \\$2.04$ rounds to $\\$5 + \\$2$, so an estimate of $\\$7$ is reasonable.)",
+   "prompt": "$\\$12.06 + \\$0.97$",
+   "type": "numeric",
+   "units": "$",
+   "answer": "13"
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "Estimate each answer by first rounding each amount to the nearest dollar. (For example, $\\$4.97 + \\$2.04$ rounds to $\\$5 + \\$2$, so an estimate of $\\$7$ is reasonable.)",
+   "prompt": "$\\$9.02 - \\$4.95$",
+   "type": "numeric",
+   "units": "$",
+   "answer": "4"
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Fluency",
+   "stem": "Estimate each answer by first rounding each amount to the nearest dollar. (For example, $\\$4.97 + \\$2.04$ rounds to $\\$5 + \\$2$, so an estimate of $\\$7$ is reasonable.)",
+   "prompt": "$\\$18.97 - \\$3.08$",
+   "type": "numeric",
+   "units": "$",
+   "answer": "16"
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Fluency",
+   "stem": "Estimate each answer by first rounding each amount to the nearest dollar. (For example, $\\$4.97 + \\$2.04$ rounds to $\\$5 + \\$2$, so an estimate of $\\$7$ is reasonable.)",
+   "prompt": "$\\$7.81 - \\$4.88$",
+   "type": "numeric",
+   "units": "$",
+   "answer": "3"
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Fluency",
+   "stem": "Estimate each answer by first rounding each number as shown in brackets.",
+   "prompt": "$68 + 43$ (to the nearest $10$)",
+   "type": "numeric",
+   "answer": "110"
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Fluency",
+   "stem": "Estimate each answer by first rounding each number as shown in brackets.",
+   "prompt": "$47 - 22$ (to the nearest $10$)",
+   "type": "numeric",
+   "answer": "30"
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Fluency",
+   "stem": "Estimate each answer by first rounding each number as shown in brackets.",
+   "prompt": "$827 + 1352$ (to the nearest $100$)",
+   "type": "numeric",
+   "answer": "2200"
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Fluency",
+   "stem": "Estimate each answer by first rounding each number as shown in brackets.",
+   "prompt": "$3968 - 1129$ (to the nearest $100$)",
+   "type": "numeric",
+   "answer": "2900"
+  },
+  {
+   "id": "q5e",
+   "label": "5e",
+   "section": "Fluency",
+   "stem": "Estimate each answer by first rounding each number as shown in brackets.",
+   "prompt": "$4.02 - 1.96$ (to the nearest $1$)",
+   "type": "numeric",
+   "answer": "2"
+  },
+  {
+   "id": "q5f",
+   "label": "5f",
+   "section": "Fluency",
+   "stem": "Estimate each answer by first rounding each number as shown in brackets.",
+   "prompt": "$48\\,370 + 5712$ (to the nearest $1000$)",
+   "type": "numeric",
+   "answer": "54000"
+  },
+  {
+   "id": "q6",
+   "label": "6",
+   "section": "Problem-solving",
+   "prompt": "A family car's odometer reads $35\\,268$ km at the start of a road trip and $36\\,041$ km at the end. How far did the family drive?",
+   "type": "numeric",
+   "units": "km",
+   "answer": "773"
+  },
+  {
+   "id": "q7",
+   "label": "7",
+   "section": "Problem-solving",
+   "prompt": "Two numbers add to $47$ and their difference is $9$. What is the larger number?",
+   "type": "numeric",
+   "answer": "28"
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Problem-solving",
+   "stem": "Find the missing digits. Type them in order, reading each row from left to right, starting with the top row. Separate them with commas.",
+   "hint": "For example, type 3, 0, 7",
+   "prompt": "$\\begin{array}{cccc}  & 3 & 4 & \\square \\\\ + & \\square & 8 & 5 \\\\ \\hline  & 7 & \\square & 2 \\\\ \\end{array}$",
+   "type": "ordered",
+   "answer": [
+    "7",
+    "3",
+    "3"
+   ]
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Problem-solving",
+   "stem": "Find the missing digits. Type them in order, reading each row from left to right, starting with the top row. Separate them with commas.",
+   "hint": "For example, type 3, 0, 7",
+   "prompt": "$\\begin{array}{cccc}  & \\square & 4 & \\square \\\\ + &  & \\square & 6 \\\\ \\hline  & 3 & 2 & 4 \\\\ \\end{array}$",
+   "type": "ordered",
+   "answer": [
+    "2",
+    "8",
+    "7"
+   ]
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Problem-solving",
+   "stem": "Find the missing digits. Type them in order, reading each row from left to right, starting with the top row. Separate them with commas.",
+   "hint": "For example, type 3, 0, 7",
+   "prompt": "$\\begin{array}{cccc}  & \\square & 5 & 8 \\\\ + & 3 & 6 & \\square \\\\ \\hline  & 8 & \\square & 4 \\\\ \\end{array}$",
+   "type": "ordered",
+   "answer": [
+    "4",
+    "6",
+    "2"
+   ]
+  },
+  {
+   "id": "q8d",
+   "label": "8d",
+   "section": "Problem-solving",
+   "stem": "Find the missing digits. Type them in order, reading each row from left to right, starting with the top row. Separate them with commas.",
+   "hint": "For example, type 3, 0, 7",
+   "prompt": "$\\begin{array}{ccc}  & \\square & 2 \\\\ - & 3 & 7 \\\\ \\hline  & 4 & \\square \\\\ \\end{array}$",
+   "type": "ordered",
+   "answer": [
+    "8",
+    "5"
+   ]
+  },
+  {
+   "id": "q8e",
+   "label": "8e",
+   "section": "Problem-solving",
+   "stem": "Find the missing digits. Type them in order, reading each row from left to right, starting with the top row. Separate them with commas.",
+   "hint": "For example, type 3, 0, 7",
+   "prompt": "$\\begin{array}{cccc}  & 5 & \\square & 3 \\\\ - & \\square & 6 & \\square \\\\ \\hline  & 2 & 1 & 7 \\\\ \\end{array}$",
+   "type": "ordered",
+   "answer": [
+    "8",
+    "3",
+    "6"
+   ]
+  },
+  {
+   "id": "q8f",
+   "label": "8f",
+   "section": "Problem-solving",
+   "stem": "Find the missing digits. Type them in order, reading each row from left to right, starting with the top row. Separate them with commas.",
+   "hint": "For example, type 3, 0, 7",
+   "prompt": "$\\begin{array}{ccccc}  & 4 & \\square & \\square & 7 \\\\ - &  & 5 & 9 & \\square \\\\ \\hline  & \\square & 2 & 6 & 8 \\\\ \\end{array}$",
+   "type": "ordered",
+   "answer": [
+    "8",
+    "6",
+    "9",
+    "4"
+   ]
+  },
+  {
+   "id": "q9",
+   "label": "9",
+   "section": "Problem-solving",
+   "prompt": "Priya has $4$ more stickers than Leo. Together they have $62$ stickers. How many stickers does Leo have?",
+   "type": "numeric",
+   "answer": "29"
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Problem-solving",
+   "stem": "Evaluate these without a calculator.",
+   "prompt": "$1 + 2 + 3 + 4 + \\dots + 59 + 60 - 59 - 58 - \\dots - 2 - 1$",
+   "type": "numeric",
+   "answer": "60"
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Problem-solving",
+   "stem": "Evaluate these without a calculator.",
+   "prompt": "$1 - 2 + 3 - 4 + 5 - 6 + \\dots - 78 + 79$",
+   "type": "numeric",
+   "answer": "40"
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Reasoning",
+   "stem": "Each of these puzzles cannot be solved. Choose the reason why. (Hint: try to solve it and see what goes wrong.)",
+   "prompt": "$\\begin{array}{ccccc}  &  & \\square & 5 & \\square \\\\ + &  & 2 & \\square & 4 \\\\ \\hline  & 1 & 3 & 8 & 6 \\\\ \\end{array}$",
+   "type": "choice",
+   "options": [
+    "The units digits can never add to give a 6 in the answer",
+    "Even using the biggest digits possible, the sum is less than 1386",
+    "The answer needs a digit bigger than 9 in the tens column"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Reasoning",
+   "stem": "Each of these puzzles cannot be solved. Choose the reason why. (Hint: try to solve it and see what goes wrong.)",
+   "prompt": "$\\begin{array}{cccc}  & 4 & \\square & 8 \\\\ - & 3 & \\square & 6 \\\\ \\hline  & 2 & 1 & \\square \\\\ \\end{array}$",
+   "type": "choice",
+   "options": [
+    "Even using the biggest and smallest digits possible, the difference is less than 200",
+    "The units digits would need to borrow",
+    "The answer cannot end in a box"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "q12a",
+   "label": "12a",
+   "section": "Reasoning",
+   "stem": "The letters $a$, $b$ and $c$ stand for any numbers. What goes in the box so that each equation is always true?",
+   "hint": "Type a single letter.",
+   "prompt": "$a + b + c = \\square + a + b$",
+   "type": "expression",
+   "answer": "c"
+  },
+  {
+   "id": "q12b",
+   "label": "12b",
+   "section": "Reasoning",
+   "stem": "The letters $a$, $b$ and $c$ stand for any numbers. What goes in the box so that each equation is always true?",
+   "hint": "Type a single letter.",
+   "prompt": "$a - b + c = c - \\square + a$",
+   "type": "expression",
+   "answer": "b"
+  },
+  {
+   "id": "q12c",
+   "label": "12c",
+   "section": "Reasoning",
+   "stem": "The letters $a$, $b$ and $c$ stand for any numbers. What goes in the box so that each equation is always true?",
+   "hint": "Type a single letter.",
+   "prompt": "$a - b + c = a + c - \\square$",
+   "type": "expression",
+   "answer": "b"
+  },
+  {
+   "id": "q13a",
+   "label": "13a",
+   "section": "Reasoning",
+   "stem": "How many different combinations of digits make each of these puzzles true?",
+   "prompt": "$\\begin{array}{cccc}  & 2 & \\square & 3 \\\\ + & 1 & \\square & \\square \\\\ \\hline  & 4 & 5 & 1 \\\\ \\end{array}$",
+   "type": "numeric",
+   "answer": "5"
+  },
+  {
+   "id": "q13b",
+   "label": "13b",
+   "section": "Reasoning",
+   "stem": "How many different combinations of digits make each of these puzzles true?",
+   "prompt": "$\\begin{array}{cccc}  & 6 & \\square & \\square \\\\ - & 2 & \\square & 5 \\\\ \\hline  & 3 & 1 & 8 \\\\ \\end{array}$",
+   "type": "numeric",
+   "answer": "2"
+  },
+  {
+   "id": "q14a",
+   "label": "14a",
+   "section": "Enrichment",
+   "stem": "In a magic triangle, the digits $1$ to $9$ are each placed once in the nine boxes so that the four numbers along every side add to the same total.",
+   "prompt": "Each side adds to $17$. Which three digits must go in the corners? Separate them with commas.",
+   "type": "list",
+   "answer": [
+    "1",
+    "2",
+    "3"
+   ],
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 34,
+    "items": [
+     {
+      "poly": [
+       [
+        -0.3,
+        -0.3
+       ],
+       [
+        0.3,
+        -0.3
+       ],
+       [
+        0.3,
+        0.3
+       ],
+       [
+        -0.3,
+        0.3
+       ]
+      ]
+     },
+     {
+      "poly": [
+       [
+        1.3,
+        -0.3
+       ],
+       [
+        1.9000000000000001,
+        -0.3
+       ],
+       [
+        1.9000000000000001,
+        0.3
+       ],
+       [
+        1.3,
+        0.3
+       ]
+      ]
+     },
+     {
+      "poly": [
+       [
+        2.9000000000000004,
+        -0.3
+       ],
+       [
+        3.5,
+        -0.3
+       ],
+       [
+        3.5,
+        0.3
+       ],
+       [
+        2.9000000000000004,
+        0.3
+       ]
+      ]
+     },
+     {
+      "poly": [
+       [
+        4.500000000000001,
+        -0.3
+       ],
+       [
+        5.1000000000000005,
+        -0.3
+       ],
+       [
+        5.1000000000000005,
+        0.3
+       ],
+       [
+        4.500000000000001,
+        0.3
+       ]
+      ]
+     },
+     {
+      "poly": [
+       [
+        3.7,
+        1.092
+       ],
+       [
+        4.3,
+        1.092
+       ],
+       [
+        4.3,
+        1.6920000000000002
+       ],
+       [
+        3.7,
+        1.6920000000000002
+       ]
+      ]
+     },
+     {
+      "poly": [
+       [
+        2.9000000000000004,
+        2.4680000000000004
+       ],
+       [
+        3.5,
+        2.4680000000000004
+       ],
+       [
+        3.5,
+        3.068
+       ],
+       [
+        2.9000000000000004,
+        3.068
+       ]
+      ]
+     },
+     {
+      "poly": [
+       [
+        2.1000000000000005,
+        3.8600000000000003
+       ],
+       [
+        2.7,
+        3.8600000000000003
+       ],
+       [
+        2.7,
+        4.46
+       ],
+       [
+        2.1000000000000005,
+        4.46
+       ]
+      ]
+     },
+     {
+      "poly": [
+       [
+        1.3,
+        2.4680000000000004
+       ],
+       [
+        1.9000000000000001,
+        2.4680000000000004
+       ],
+       [
+        1.9000000000000001,
+        3.068
+       ],
+       [
+        1.3,
+        3.068
+       ]
+      ]
+     },
+     {
+      "poly": [
+       [
+        0.5,
+        1.092
+       ],
+       [
+        1.1,
+        1.092
+       ],
+       [
+        1.1,
+        1.6920000000000002
+       ],
+       [
+        0.5,
+        1.6920000000000002
+       ]
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q14b",
+   "label": "14b",
+   "section": "Enrichment",
+   "stem": "In a magic triangle, the digits $1$ to $9$ are each placed once in the nine boxes so that the four numbers along every side add to the same total.",
+   "prompt": "Each side adds to $23$. Which three digits must go in the corners? Separate them with commas.",
+   "type": "list",
+   "answer": [
+    "7",
+    "8",
+    "9"
+   ]
+  },
+  {
+   "id": "q14c",
+   "label": "14c",
+   "section": "Enrichment",
+   "stem": "In a magic triangle, the digits $1$ to $9$ are each placed once in the nine boxes so that the four numbers along every side add to the same total.",
+   "prompt": "How many different side totals are possible?",
+   "type": "numeric",
+   "answer": "5"
+  },
+  {
+   "id": "q14d",
+   "label": "14d",
+   "section": "Enrichment",
+   "stem": "In a magic triangle, the digits $1$ to $9$ are each placed once in the nine boxes so that the four numbers along every side add to the same total.",
+   "prompt": "List every possible side total, separated by commas.",
+   "type": "list",
+   "answer": [
+    "17",
+    "19",
+    "20",
+    "21",
+    "23"
+   ]
+  }
+ ]
+},
+{
+ "id": "y8-1b",
+ "year": 8,
+ "chapter": "Chapter 1: Computation with integers",
+ "title": "1B Multiplying and dividing positive integers",
+ "description": "Mental strategies and written algorithms for multiplying and dividing whole numbers.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Use a mental strategy to evaluate these products.",
+   "prompt": "$5 \\times 140$",
+   "type": "numeric",
+   "answer": "700"
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Use a mental strategy to evaluate these products.",
+   "prompt": "$4 \\times 35$",
+   "type": "numeric",
+   "answer": "140"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "Use a mental strategy to evaluate these products.",
+   "prompt": "$60 \\times 5$",
+   "type": "numeric",
+   "answer": "300"
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "Use a mental strategy to evaluate these products.",
+   "prompt": "$50 \\times 16$",
+   "type": "numeric",
+   "answer": "800"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Use a mental strategy to evaluate these products.",
+   "prompt": "$4 \\times 31$",
+   "type": "numeric",
+   "answer": "124"
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Use a mental strategy to evaluate these products.",
+   "prompt": "$6 \\times 41$",
+   "type": "numeric",
+   "answer": "246"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Use a mental strategy to evaluate these products.",
+   "prompt": "$7 \\times 19$",
+   "type": "numeric",
+   "answer": "133"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Use a mental strategy to evaluate these products.",
+   "prompt": "$3 \\times 49$",
+   "type": "numeric",
+   "answer": "147"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Use a mental strategy to evaluate these quotients.",
+   "prompt": "$180 \\div 4$",
+   "type": "numeric",
+   "answer": "45"
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Use a mental strategy to evaluate these quotients.",
+   "prompt": "$240 \\div 8$",
+   "type": "numeric",
+   "answer": "30"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Use a mental strategy to evaluate these quotients.",
+   "prompt": "$684 \\div 2$",
+   "type": "numeric",
+   "answer": "342"
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Use a mental strategy to evaluate these quotients.",
+   "prompt": "$936 \\div 3$",
+   "type": "numeric",
+   "answer": "312"
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "Use the multiplication algorithm to evaluate these.",
+   "prompt": "$\\begin{array}{r} 78 \\\\ \\times\\; 7 \\\\ \\hline \\end{array}$",
+   "type": "numeric",
+   "answer": "546"
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "Use the multiplication algorithm to evaluate these.",
+   "prompt": "$\\begin{array}{r} 136 \\\\ \\times\\; 5 \\\\ \\hline \\end{array}$",
+   "type": "numeric",
+   "answer": "680"
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "Use the multiplication algorithm to evaluate these.",
+   "prompt": "$\\begin{array}{r} 317 \\\\ \\times\\; 14 \\\\ \\hline \\end{array}$",
+   "type": "numeric",
+   "answer": "4438"
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "Use the multiplication algorithm to evaluate these.",
+   "prompt": "$\\begin{array}{r} 2003 \\\\ \\times\\; 80 \\\\ \\hline \\end{array}$",
+   "type": "numeric",
+   "answer": "160240"
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Fluency",
+   "stem": "Use the multiplication algorithm to evaluate these.",
+   "prompt": "$\\begin{array}{r} 580 \\\\ \\times\\; 16 \\\\ \\hline \\end{array}$",
+   "type": "numeric",
+   "answer": "9280"
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Fluency",
+   "stem": "Use the multiplication algorithm to evaluate these.",
+   "prompt": "$\\begin{array}{r} 3070 \\\\ \\times\\; 102 \\\\ \\hline \\end{array}$",
+   "type": "numeric",
+   "answer": "313140"
+  },
+  {
+   "id": "q4g",
+   "label": "4g",
+   "section": "Fluency",
+   "stem": "Use the multiplication algorithm to evaluate these.",
+   "prompt": "$\\begin{array}{r} 358 \\\\ \\times\\; 127 \\\\ \\hline \\end{array}$",
+   "type": "numeric",
+   "answer": "45466"
+  },
+  {
+   "id": "q4h",
+   "label": "4h",
+   "section": "Fluency",
+   "stem": "Use the multiplication algorithm to evaluate these.",
+   "prompt": "$\\begin{array}{r} 1528 \\\\ \\times\\; 307 \\\\ \\hline \\end{array}$",
+   "type": "numeric",
+   "answer": "469096"
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Fluency",
+   "stem": "Use the short division algorithm to evaluate these. Give the quotient and the remainder.",
+   "hint": "Type the quotient then the remainder, for example 27 r 2.",
+   "prompt": "$97 \\div 4$",
+   "type": "qr",
+   "answer": [
+    24,
+    1
+   ]
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Fluency",
+   "stem": "Use the short division algorithm to evaluate these. Give the quotient and the remainder.",
+   "hint": "Type the quotient then the remainder, for example 27 r 2.",
+   "prompt": "$259 \\div 6$",
+   "type": "qr",
+   "answer": [
+    43,
+    1
+   ]
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Fluency",
+   "stem": "Use the short division algorithm to evaluate these. Give the quotient and the remainder.",
+   "hint": "Type the quotient then the remainder, for example 27 r 2.",
+   "prompt": "$5283 \\div 10$",
+   "type": "qr",
+   "answer": [
+    528,
+    3
+   ]
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Fluency",
+   "stem": "Use the short division algorithm to evaluate these. Give the quotient and the remainder.",
+   "hint": "Type the quotient then the remainder, for example 27 r 2.",
+   "prompt": "$156 \\div 12$",
+   "type": "qr",
+   "answer": [
+    13,
+    0
+   ]
+  },
+  {
+   "id": "q5e",
+   "label": "5e",
+   "section": "Fluency",
+   "stem": "Use the short division algorithm to evaluate these. Give the quotient and the remainder.",
+   "hint": "Type the quotient then the remainder, for example 27 r 2.",
+   "prompt": "$253 \\div 14$",
+   "type": "qr",
+   "answer": [
+    18,
+    1
+   ]
+  },
+  {
+   "id": "q5f",
+   "label": "5f",
+   "section": "Fluency",
+   "stem": "Use the short division algorithm to evaluate these. Give the quotient and the remainder.",
+   "hint": "Type the quotient then the remainder, for example 27 r 2.",
+   "prompt": "$2895 \\div 17$",
+   "type": "qr",
+   "answer": [
+    170,
+    5
+   ]
+  },
+  {
+   "id": "q5g",
+   "label": "5g",
+   "section": "Fluency",
+   "stem": "Use the short division algorithm to evaluate these. Give the quotient and the remainder.",
+   "hint": "Type the quotient then the remainder, for example 27 r 2.",
+   "prompt": "$182 \\div 26$",
+   "type": "qr",
+   "answer": [
+    7,
+    0
+   ]
+  },
+  {
+   "id": "q5h",
+   "label": "5h",
+   "section": "Fluency",
+   "stem": "Use the short division algorithm to evaluate these. Give the quotient and the remainder.",
+   "hint": "Type the quotient then the remainder, for example 27 r 2.",
+   "prompt": "$41\\,570 \\div 32$",
+   "type": "qr",
+   "answer": [
+    1299,
+    2
+   ]
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Fluency",
+   "stem": "Use a mental strategy to evaluate these.",
+   "prompt": "$5 \\times 17 \\times 2$",
+   "type": "numeric",
+   "answer": "170"
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Fluency",
+   "stem": "Use a mental strategy to evaluate these.",
+   "prompt": "$2 \\times 38 \\times 5$",
+   "type": "numeric",
+   "answer": "380"
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Fluency",
+   "stem": "Use a mental strategy to evaluate these.",
+   "prompt": "$4 \\times 45$",
+   "type": "numeric",
+   "answer": "180"
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Fluency",
+   "stem": "Use a mental strategy to evaluate these.",
+   "prompt": "$19 \\times 4$",
+   "type": "numeric",
+   "answer": "76"
+  },
+  {
+   "id": "q6e",
+   "label": "6e",
+   "section": "Fluency",
+   "stem": "Use a mental strategy to evaluate these.",
+   "prompt": "$23 \\times 1000$",
+   "type": "numeric",
+   "answer": "23000"
+  },
+  {
+   "id": "q6f",
+   "label": "6f",
+   "section": "Fluency",
+   "stem": "Use a mental strategy to evaluate these.",
+   "prompt": "$158 \\times 100$",
+   "type": "numeric",
+   "answer": "15800"
+  },
+  {
+   "id": "q6g",
+   "label": "6g",
+   "section": "Fluency",
+   "stem": "Use a mental strategy to evaluate these.",
+   "prompt": "$49 \\times 7$",
+   "type": "numeric",
+   "answer": "343"
+  },
+  {
+   "id": "q6h",
+   "label": "6h",
+   "section": "Fluency",
+   "stem": "Use a mental strategy to evaluate these.",
+   "prompt": "$129 \\times 6$",
+   "type": "numeric",
+   "answer": "774"
+  },
+  {
+   "id": "q6i",
+   "label": "6i",
+   "section": "Fluency",
+   "stem": "Use a mental strategy to evaluate these.",
+   "prompt": "$8 \\times 51$",
+   "type": "numeric",
+   "answer": "408"
+  },
+  {
+   "id": "q6j",
+   "label": "6j",
+   "section": "Fluency",
+   "stem": "Use a mental strategy to evaluate these.",
+   "prompt": "$7 \\times 61$",
+   "type": "numeric",
+   "answer": "427"
+  },
+  {
+   "id": "q6k",
+   "label": "6k",
+   "section": "Fluency",
+   "stem": "Use a mental strategy to evaluate these.",
+   "prompt": "$4 \\times 253$",
+   "type": "numeric",
+   "answer": "1012"
+  },
+  {
+   "id": "q6l",
+   "label": "6l",
+   "section": "Fluency",
+   "stem": "Use a mental strategy to evaluate these.",
+   "prompt": "$999 \\times 7$",
+   "type": "numeric",
+   "answer": "6993"
+  },
+  {
+   "id": "q6m",
+   "label": "6m",
+   "section": "Fluency",
+   "stem": "Use a mental strategy to evaluate these.",
+   "prompt": "$144 \\div 8$",
+   "type": "numeric",
+   "answer": "18"
+  },
+  {
+   "id": "q6n",
+   "label": "6n",
+   "section": "Fluency",
+   "stem": "Use a mental strategy to evaluate these.",
+   "prompt": "$356 \\div 4$",
+   "type": "numeric",
+   "answer": "89"
+  },
+  {
+   "id": "q6o",
+   "label": "6o",
+   "section": "Fluency",
+   "stem": "Use a mental strategy to evaluate these.",
+   "prompt": "$126 \\div 3$",
+   "type": "numeric",
+   "answer": "42"
+  },
+  {
+   "id": "q6p",
+   "label": "6p",
+   "section": "Fluency",
+   "stem": "Use a mental strategy to evaluate these.",
+   "prompt": "$612 \\div 4$",
+   "type": "numeric",
+   "answer": "153"
+  },
+  {
+   "id": "q6q",
+   "label": "6q",
+   "section": "Fluency",
+   "stem": "Use a mental strategy to evaluate these.",
+   "prompt": "$84 \\div 6$",
+   "type": "numeric",
+   "answer": "14"
+  },
+  {
+   "id": "q6r",
+   "label": "6r",
+   "section": "Fluency",
+   "stem": "Use a mental strategy to evaluate these.",
+   "prompt": "$1208 \\div 8$",
+   "type": "numeric",
+   "answer": "151"
+  },
+  {
+   "id": "q6s",
+   "label": "6s",
+   "section": "Fluency",
+   "stem": "Use a mental strategy to evaluate these.",
+   "prompt": "$5 \\times 14 \\times 3$",
+   "type": "numeric",
+   "answer": "210"
+  },
+  {
+   "id": "q6t",
+   "label": "6t",
+   "section": "Fluency",
+   "stem": "Use a mental strategy to evaluate these.",
+   "prompt": "$660 \\div 5 \\div 4$",
+   "type": "numeric",
+   "answer": "33"
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Fluency",
+   "stem": "Estimate each answer by first rounding each amount to the nearest dollar. (For example, $4$ packets at $\\$2.95$ is about $4 \\times \\$3 = \\$12$.)",
+   "prompt": "6 packets at $\\$3.95$ each",
+   "type": "numeric",
+   "units": "$",
+   "answer": "24"
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Fluency",
+   "stem": "Estimate each answer by first rounding each amount to the nearest dollar. (For example, $4$ packets at $\\$2.95$ is about $4 \\times \\$3 = \\$12$.)",
+   "prompt": "8 packets at $\\$4.99$ each",
+   "type": "numeric",
+   "units": "$",
+   "answer": "40"
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Fluency",
+   "stem": "Estimate each answer by first rounding each amount to the nearest dollar. (For example, $4$ packets at $\\$2.95$ is about $4 \\times \\$3 = \\$12$.)",
+   "prompt": "30 boxes at $\\$14.85$ each",
+   "type": "numeric",
+   "units": "$",
+   "answer": "450"
+  },
+  {
+   "id": "q7d",
+   "label": "7d",
+   "section": "Fluency",
+   "stem": "Estimate each answer by first rounding each amount to the nearest dollar. (For example, $4$ packets at $\\$2.95$ is about $4 \\times \\$3 = \\$12$.)",
+   "prompt": "$\\$35.90$ shared into 9 equal parts",
+   "type": "numeric",
+   "units": "$",
+   "answer": "4"
+  },
+  {
+   "id": "q7e",
+   "label": "7e",
+   "section": "Fluency",
+   "stem": "Estimate each answer by first rounding each amount to the nearest dollar. (For example, $4$ packets at $\\$2.95$ is about $4 \\times \\$3 = \\$12$.)",
+   "prompt": "$\\$160.25$ shared into 4 equal parts",
+   "type": "numeric",
+   "units": "$",
+   "answer": "40"
+  },
+  {
+   "id": "q7f",
+   "label": "7f",
+   "section": "Fluency",
+   "stem": "Estimate each answer by first rounding each amount to the nearest dollar. (For example, $4$ packets at $\\$2.95$ is about $4 \\times \\$3 = \\$12$.)",
+   "prompt": "$\\$1199.70$ shared into 30 equal parts",
+   "type": "numeric",
+   "units": "$",
+   "answer": "40"
+  },
+  {
+   "id": "q8",
+   "label": "8",
+   "section": "Problem-solving",
+   "prompt": "A café worker earns $\\$612$ for $36$ hours of work. What is her pay rate per hour?",
+   "type": "numeric",
+   "units": "$",
+   "answer": "17"
+  },
+  {
+   "id": "q9",
+   "label": "9",
+   "section": "Problem-solving",
+   "prompt": "A hardware store buys light globes in boxes of $24$. It orders $185$ boxes and sells $67$ boxes in one week. How many light globes are left in the store?",
+   "type": "numeric",
+   "answer": "2832"
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Problem-solving",
+   "stem": "Mele is buying a washing machine. She can pay in one of two ways. Option A: $12$ payments of $\\$147$. Option B: $\\$1689$ up front.",
+   "prompt": "Which option is cheaper?",
+   "type": "choice",
+   "options": [
+    "Option A",
+    "Option B"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Problem-solving",
+   "stem": "Mele is buying a washing machine. She can pay in one of two ways. Option A: $12$ payments of $\\$147$. Option B: $\\$1689$ up front.",
+   "prompt": "How much cheaper is it?",
+   "type": "numeric",
+   "units": "$",
+   "answer": "75"
+  },
+  {
+   "id": "q11",
+   "label": "11",
+   "section": "Problem-solving",
+   "prompt": "A dump truck can carry $14$ tonnes of soil in each load. How many loads are needed to move $925$ tonnes of soil?",
+   "type": "numeric",
+   "answer": "67"
+  },
+  {
+   "id": "q12a",
+   "label": "12a",
+   "section": "Problem-solving",
+   "stem": "Find the missing digits. Type them in order, reading each row from left to right, starting with the top row. Separate them with commas.",
+   "hint": "For example, type 3, 0, 7",
+   "prompt": "$\\begin{array}{cccc}  &  & 3 & \\square \\\\ \\times &  & 1 & 3 \\\\ \\hline  & 1 & 1 & \\square \\\\  & 3 & \\square & 0 \\\\ \\hline  & 4 & \\square & 1 \\\\ \\end{array}$",
+   "type": "ordered",
+   "answer": [
+    "7",
+    "1",
+    "7",
+    "8"
+   ]
+  },
+  {
+   "id": "q12b",
+   "label": "12b",
+   "section": "Problem-solving",
+   "stem": "Find the missing digits. Type them in order, reading each row from left to right, starting with the top row. Separate them with commas.",
+   "hint": "For example, type 3, 0, 7",
+   "prompt": "$\\begin{array}{ccccc}  &  & 1 & \\square & 6 \\\\ \\times &  &  & 2 & \\square \\\\ \\hline  &  & \\square & 4 & 4 \\\\  & 2 & \\square & 2 & 0 \\\\ \\hline  & \\square & \\square & 6 & 4 \\\\ \\end{array}$",
+   "type": "ordered",
+   "answer": [
+    "3",
+    "4",
+    "5",
+    "7",
+    "3",
+    "2"
+   ]
+  },
+  {
+   "id": "q12c",
+   "label": "12c",
+   "section": "Problem-solving",
+   "stem": "Find the missing digits. Type them in order, reading each row from left to right, starting with the top row. Separate them with commas.",
+   "hint": "For example, type 3, 0, 7",
+   "prompt": "$7\\square1 \\div 8 = 91$ with remainder $3$",
+   "type": "ordered",
+   "answer": [
+    "3"
+   ]
+  },
+  {
+   "id": "q12d",
+   "label": "12d",
+   "section": "Problem-solving",
+   "stem": "Find the missing digits. Type them in order, reading each row from left to right, starting with the top row. Separate them with commas.",
+   "hint": "For example, type 3, 0, 7",
+   "prompt": "$\\square\\square5 \\div 23 = 18$ with remainder $11$",
+   "type": "ordered",
+   "answer": [
+    "4",
+    "2"
+   ]
+  },
+  {
+   "id": "q13a",
+   "label": "13a",
+   "section": "Reasoning",
+   "stem": "The letter $b$ stands for any number except $0$. Simplify each of these.",
+   "prompt": "$b \\div b$",
+   "type": "expression",
+   "answer": "1"
+  },
+  {
+   "id": "q13b",
+   "label": "13b",
+   "section": "Reasoning",
+   "stem": "The letter $b$ stands for any number except $0$. Simplify each of these.",
+   "prompt": "$b \\div 1$",
+   "type": "expression",
+   "answer": "b"
+  },
+  {
+   "id": "q13c",
+   "label": "13c",
+   "section": "Reasoning",
+   "stem": "The letter $b$ stands for any number except $0$. Simplify each of these.",
+   "prompt": "$0 \\div b$",
+   "type": "expression",
+   "answer": "0"
+  },
+  {
+   "id": "q13d",
+   "label": "13d",
+   "section": "Reasoning",
+   "stem": "The letter $b$ stands for any number except $0$. Simplify each of these.",
+   "prompt": "$12 \\times b \\div b$",
+   "type": "expression",
+   "answer": "12"
+  },
+  {
+   "id": "q14a",
+   "label": "14a",
+   "section": "Reasoning",
+   "stem": "You can divide by a number by dividing by two of its factors, one after the other. For example, $156 \\div 6 = (156 \\div 2) \\div 3 = 78 \\div 3 = 26$. Use this method to evaluate these.",
+   "prompt": "$222 \\div 6$",
+   "type": "numeric",
+   "answer": "37"
+  },
+  {
+   "id": "q14b",
+   "label": "14b",
+   "section": "Reasoning",
+   "stem": "You can divide by a number by dividing by two of its factors, one after the other. For example, $156 \\div 6 = (156 \\div 2) \\div 3 = 78 \\div 3 = 26$. Use this method to evaluate these.",
+   "prompt": "$168 \\div 8$",
+   "type": "numeric",
+   "answer": "21"
+  },
+  {
+   "id": "q14c",
+   "label": "14c",
+   "section": "Reasoning",
+   "stem": "You can divide by a number by dividing by two of its factors, one after the other. For example, $156 \\div 6 = (156 \\div 2) \\div 3 = 78 \\div 3 = 26$. Use this method to evaluate these.",
+   "prompt": "$315 \\div 9$",
+   "type": "numeric",
+   "answer": "35"
+  },
+  {
+   "id": "q14d",
+   "label": "14d",
+   "section": "Reasoning",
+   "stem": "You can divide by a number by dividing by two of its factors, one after the other. For example, $156 \\div 6 = (156 \\div 2) \\div 3 = 78 \\div 3 = 26$. Use this method to evaluate these.",
+   "prompt": "$378 \\div 18$",
+   "type": "numeric",
+   "answer": "21"
+  },
+  {
+   "id": "q15a",
+   "label": "15a",
+   "section": "Reasoning",
+   "stem": "Evaluate these without using an algorithm.",
+   "prompt": "$(98 \\times 13) + (2 \\times 13)$",
+   "type": "numeric",
+   "answer": "1300"
+  },
+  {
+   "id": "q15b",
+   "label": "15b",
+   "section": "Reasoning",
+   "stem": "Evaluate these without using an algorithm.",
+   "prompt": "$(63 \\times 9) - (3 \\times 9)$",
+   "type": "numeric",
+   "answer": "540"
+  },
+  {
+   "id": "q15c",
+   "label": "15c",
+   "section": "Reasoning",
+   "stem": "Evaluate these without using an algorithm.",
+   "prompt": "$(384 \\times 15) + (616 \\times 15)$",
+   "type": "numeric",
+   "answer": "15000"
+  },
+  {
+   "id": "q15d",
+   "label": "15d",
+   "section": "Reasoning",
+   "stem": "Evaluate these without using an algorithm.",
+   "prompt": "$(457 \\times 12) - (437 \\times 12)$",
+   "type": "numeric",
+   "answer": "240"
+  },
+  {
+   "id": "q16a",
+   "label": "16a",
+   "section": "Enrichment",
+   "stem": "Find the greatest number of tickets that could be bought in each case.",
+   "prompt": "Mia spends exactly $\\$95$ on child tickets at $\\$8$ each and adult tickets at $\\$13$ each.",
+   "type": "numeric",
+   "answer": "10"
+  },
+  {
+   "id": "q16b",
+   "label": "16b",
+   "section": "Enrichment",
+   "stem": "Find the greatest number of tickets that could be bought in each case.",
+   "prompt": "Tom spends exactly $\\$157$ on child tickets at $\\$11$ each and adult tickets at $\\$17$ each.",
+   "type": "numeric",
+   "answer": "11"
+  }
+ ]
+},
+{
+ "id": "y8-1c",
+ "year": 8,
+ "chapter": "Chapter 1: Computation with integers",
+ "title": "1C Number properties",
+ "description": "LCM, HCF, primes, squares, cubes and their roots.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Find the LCM of each pair of numbers.",
+   "prompt": "$3$ and $4$",
+   "type": "numeric",
+   "answer": "12"
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Find the LCM of each pair of numbers.",
+   "prompt": "$6$ and $7$",
+   "type": "numeric",
+   "answer": "42"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "Find the LCM of each pair of numbers.",
+   "prompt": "$6$ and $9$",
+   "type": "numeric",
+   "answer": "18"
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "Find the LCM of each pair of numbers.",
+   "prompt": "$5$ and $10$",
+   "type": "numeric",
+   "answer": "10"
+  },
+  {
+   "id": "q1e",
+   "label": "1e",
+   "section": "Fluency",
+   "stem": "Find the LCM of each pair of numbers.",
+   "prompt": "$15$ and $45$",
+   "type": "numeric",
+   "answer": "45"
+  },
+  {
+   "id": "q1f",
+   "label": "1f",
+   "section": "Fluency",
+   "stem": "Find the LCM of each pair of numbers.",
+   "prompt": "$6$ and $14$",
+   "type": "numeric",
+   "answer": "42"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Find the HCF of each pair of numbers.",
+   "prompt": "$8$ and $12$",
+   "type": "numeric",
+   "answer": "4"
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Find the HCF of each pair of numbers.",
+   "prompt": "$21$ and $7$",
+   "type": "numeric",
+   "answer": "7"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Find the HCF of each pair of numbers.",
+   "prompt": "$18$ and $27$",
+   "type": "numeric",
+   "answer": "9"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Find the HCF of each pair of numbers.",
+   "prompt": "$28$ and $42$",
+   "type": "numeric",
+   "answer": "14"
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Find the HCF of each pair of numbers.",
+   "prompt": "$11$ and $17$",
+   "type": "numeric",
+   "answer": "1"
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "Find the HCF of each pair of numbers.",
+   "prompt": "$23$ and $29$",
+   "type": "numeric",
+   "answer": "1"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Evaluate these squares.",
+   "prompt": "$3^2$",
+   "type": "numeric",
+   "answer": "9"
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Evaluate these squares.",
+   "prompt": "$12^2$",
+   "type": "numeric",
+   "answer": "144"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Evaluate these squares.",
+   "prompt": "$14^2$",
+   "type": "numeric",
+   "answer": "196"
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Evaluate these squares.",
+   "prompt": "$16^2$",
+   "type": "numeric",
+   "answer": "256"
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "Evaluate these squares.",
+   "prompt": "$40^2$",
+   "type": "numeric",
+   "answer": "1600"
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "Evaluate these squares.",
+   "prompt": "$300^2$",
+   "type": "numeric",
+   "answer": "90000"
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "Evaluate these square roots.",
+   "prompt": "$\\sqrt{16}$",
+   "type": "numeric",
+   "answer": "4"
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "Evaluate these square roots.",
+   "prompt": "$\\sqrt{81}$",
+   "type": "numeric",
+   "answer": "9"
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "Evaluate these square roots.",
+   "prompt": "$\\sqrt{9}$",
+   "type": "numeric",
+   "answer": "3"
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "Evaluate these square roots.",
+   "prompt": "$\\sqrt{144}$",
+   "type": "numeric",
+   "answer": "12"
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Fluency",
+   "stem": "Evaluate these square roots.",
+   "prompt": "$\\sqrt{64}$",
+   "type": "numeric",
+   "answer": "8"
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Fluency",
+   "stem": "Evaluate these square roots.",
+   "prompt": "$\\sqrt{400}$",
+   "type": "numeric",
+   "answer": "20"
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Fluency",
+   "stem": "Evaluate these cubes.",
+   "prompt": "$1^3$",
+   "type": "numeric",
+   "answer": "1"
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Fluency",
+   "stem": "Evaluate these cubes.",
+   "prompt": "$3^3$",
+   "type": "numeric",
+   "answer": "27"
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Fluency",
+   "stem": "Evaluate these cubes.",
+   "prompt": "$8^3$",
+   "type": "numeric",
+   "answer": "512"
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Fluency",
+   "stem": "Evaluate these cubes.",
+   "prompt": "$9^3$",
+   "type": "numeric",
+   "answer": "729"
+  },
+  {
+   "id": "q5e",
+   "label": "5e",
+   "section": "Fluency",
+   "stem": "Evaluate these cubes.",
+   "prompt": "$11^3$",
+   "type": "numeric",
+   "answer": "1331"
+  },
+  {
+   "id": "q5f",
+   "label": "5f",
+   "section": "Fluency",
+   "stem": "Evaluate these cubes.",
+   "prompt": "$20^3$",
+   "type": "numeric",
+   "answer": "8000"
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Fluency",
+   "stem": "Evaluate these cube roots.",
+   "prompt": "$\\sqrt[3]{64}$",
+   "type": "numeric",
+   "answer": "4"
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Fluency",
+   "stem": "Evaluate these cube roots.",
+   "prompt": "$\\sqrt[3]{1000}$",
+   "type": "numeric",
+   "answer": "10"
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Fluency",
+   "stem": "Evaluate these cube roots.",
+   "prompt": "$\\sqrt[3]{343}$",
+   "type": "numeric",
+   "answer": "7"
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Fluency",
+   "stem": "Evaluate these cube roots.",
+   "prompt": "$\\sqrt[3]{729}$",
+   "type": "numeric",
+   "answer": "9"
+  },
+  {
+   "id": "q6e",
+   "label": "6e",
+   "section": "Fluency",
+   "stem": "Evaluate these cube roots.",
+   "prompt": "$\\sqrt[3]{1331}$",
+   "type": "numeric",
+   "answer": "11"
+  },
+  {
+   "id": "q6f",
+   "label": "6f",
+   "section": "Fluency",
+   "stem": "Evaluate these cube roots.",
+   "prompt": "$\\sqrt[3]{8000}$",
+   "type": "numeric",
+   "answer": "20"
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Fluency",
+   "stem": "Find each LCM or HCF.",
+   "prompt": "Find the LCM of $4, 6$ and $9$.",
+   "type": "numeric",
+   "answer": "36"
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Fluency",
+   "stem": "Find each LCM or HCF.",
+   "prompt": "Find the LCM of $2, 7$ and $9$.",
+   "type": "numeric",
+   "answer": "126"
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Fluency",
+   "stem": "Find each LCM or HCF.",
+   "prompt": "Find the HCF of $12, 18$ and $30$.",
+   "type": "numeric",
+   "answer": "6"
+  },
+  {
+   "id": "q7d",
+   "label": "7d",
+   "section": "Fluency",
+   "stem": "Find each LCM or HCF.",
+   "prompt": "Find the HCF of $36, 54$ and $90$.",
+   "type": "numeric",
+   "answer": "18"
+  },
+  {
+   "id": "q8",
+   "label": "8",
+   "section": "Problem-solving",
+   "prompt": "A coach has $48$ players to split into equal groups, with at least $2$ groups and at least $2$ players in each group. One way is two groups of $24$. How many other ways can this be done?",
+   "type": "numeric",
+   "answer": "7"
+  },
+  {
+   "id": "q9",
+   "label": "9",
+   "section": "Problem-solving",
+   "prompt": "Two runners start together at the same point on a track. Runner A completes a lap every $6$ minutes and Runner B completes a lap every $8$ minutes. How many minutes will it be until they are both back at the starting point at the same time?",
+   "type": "numeric",
+   "units": "minutes",
+   "answer": "24"
+  },
+  {
+   "id": "q10",
+   "label": "10",
+   "section": "Problem-solving",
+   "prompt": "Three lighthouses all flash at exactly 8 p.m. Lighthouse A flashes every $4$ seconds, Lighthouse B every $6$ seconds and Lighthouse C every $9$ seconds. How many seconds will it be until all three flash together again?",
+   "type": "numeric",
+   "units": "seconds",
+   "answer": "36"
+  },
+  {
+   "id": "q11",
+   "label": "11",
+   "section": "Problem-solving",
+   "prompt": "How many prime numbers are there less than $60$?",
+   "type": "numeric",
+   "answer": "17"
+  },
+  {
+   "id": "q12a",
+   "label": "12a",
+   "section": "Problem-solving",
+   "stem": "Look at this $4$ by $4$ grid of small squares.",
+   "prompt": "How many squares of any size are there in the grid?",
+   "type": "numeric",
+   "answer": "30",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 34,
+    "items": [
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       4
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       4,
+       0
+      ]
+     },
+     {
+      "seg": [
+       1,
+       0,
+       1,
+       4
+      ]
+     },
+     {
+      "seg": [
+       0,
+       1,
+       4,
+       1
+      ]
+     },
+     {
+      "seg": [
+       2,
+       0,
+       2,
+       4
+      ]
+     },
+     {
+      "seg": [
+       0,
+       2,
+       4,
+       2
+      ]
+     },
+     {
+      "seg": [
+       3,
+       0,
+       3,
+       4
+      ]
+     },
+     {
+      "seg": [
+       0,
+       3,
+       4,
+       3
+      ]
+     },
+     {
+      "seg": [
+       4,
+       0,
+       4,
+       4
+      ]
+     },
+     {
+      "seg": [
+       0,
+       4,
+       4,
+       4
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q12b",
+   "label": "12b",
+   "section": "Problem-solving",
+   "stem": "Look at this $4$ by $4$ grid of small squares.",
+   "prompt": "How many of these squares are $2$ by $2$ squares?",
+   "type": "numeric",
+   "answer": "9"
+  },
+  {
+   "id": "q15a",
+   "label": "15a",
+   "section": "Reasoning",
+   "stem": "Is each statement always true? Assume that $p$ and $q$ are different whole numbers.",
+   "prompt": "The LCM of $p$ and $q$ is $p \\times q$.",
+   "type": "choice",
+   "options": [
+    "Always true",
+    "Not always true"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "q15b",
+   "label": "15b",
+   "section": "Reasoning",
+   "stem": "Is each statement always true? Assume that $p$ and $q$ are different whole numbers.",
+   "prompt": "If $p$ and $q$ are both prime, the LCM of $p$ and $q$ is $p \\times q$.",
+   "type": "choice",
+   "options": [
+    "Always true",
+    "Not always true"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "q15c",
+   "label": "15c",
+   "section": "Reasoning",
+   "stem": "Is each statement always true? Assume that $p$ and $q$ are different whole numbers.",
+   "prompt": "If $p$ and $q$ are both prime, the HCF of $p$ and $q$ is $1$.",
+   "type": "choice",
+   "options": [
+    "Always true",
+    "Not always true"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "q16a",
+   "label": "16a",
+   "section": "Enrichment",
+   "stem": "Goldbach's conjecture says that every even number greater than $2$ is the sum of two primes. For example, $10 = 3 + 7$ and $10 = 5 + 5$, so there are two ways for $10$. (Swapping the order, like $7 + 3$, does not count as a new way.)",
+   "prompt": "In how many different ways can $30$ be written as the sum of two primes?",
+   "type": "numeric",
+   "answer": "3"
+  },
+  {
+   "id": "q16b",
+   "label": "16b",
+   "section": "Enrichment",
+   "stem": "Goldbach's conjecture says that every even number greater than $2$ is the sum of two primes. For example, $10 = 3 + 7$ and $10 = 5 + 5$, so there are two ways for $10$. (Swapping the order, like $7 + 3$, does not count as a new way.)",
+   "prompt": "In how many different ways can $48$ be written as the sum of two primes?",
+   "type": "numeric",
+   "answer": "5"
+  },
+  {
+   "id": "q16c",
+   "label": "16c",
+   "section": "Enrichment",
+   "stem": "Goldbach's conjecture says that every even number greater than $2$ is the sum of two primes. For example, $10 = 3 + 7$ and $10 = 5 + 5$, so there are two ways for $10$. (Swapping the order, like $7 + 3$, does not count as a new way.)",
+   "prompt": "In how many different ways can $84$ be written as the sum of two primes?",
+   "type": "numeric",
+   "answer": "8"
+  },
+  {
+   "id": "q16d",
+   "label": "16d",
+   "section": "Enrichment",
+   "stem": "Goldbach's conjecture says that every even number greater than $2$ is the sum of two primes. For example, $10 = 3 + 7$ and $10 = 5 + 5$, so there are two ways for $10$. (Swapping the order, like $7 + 3$, does not count as a new way.)",
+   "prompt": "Which odd numbers greater than $20$ and less than $40$ cannot be written as the sum of two primes? Separate them with commas.",
+   "type": "list",
+   "answer": [
+    "23",
+    "27",
+    "29",
+    "35",
+    "37"
+   ]
+  },
+  {
+   "id": "q17",
+   "label": "17",
+   "section": "Enrichment",
+   "prompt": "Twin primes are pairs of prime numbers that differ by $2$, such as $41$ and $43$. How many pairs of twin primes are there between $100$ and $200$?",
+   "type": "numeric",
+   "answer": "7"
+  }
+ ]
+},
+{
+ "id": "y8-1d",
+ "year": 8,
+ "chapter": "Chapter 1: Computation with integers",
+ "title": "1D Divisibility and prime factorisation",
+ "description": "Factor trees, prime factor form, divisibility tests, and LCM and HCF using prime factors.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Look at each factor tree. Work out the missing numbers (marked ?), then write the prime factor form of the number at the top, using powers.",
+   "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5",
+   "prompt": "Write the prime factor form of $100$.",
+   "type": "powers",
+   "index": true,
+   "answer": "2^2×5^2",
+   "figure": {
+    "kind": "diagram",
+    "unit": 40,
+    "items": [
+     {
+      "label": "100",
+      "at": [
+       0,
+       0
+      ],
+      "anchor": "middle"
+     },
+     {
+      "seg": [
+       -0.15,
+       -0.35,
+       -0.9500000000000001,
+       -0.8500000000000001
+      ]
+     },
+     {
+      "seg": [
+       0.15,
+       -0.35,
+       0.9500000000000001,
+       -0.8500000000000001
+      ]
+     },
+     {
+      "label": "2",
+      "at": [
+       -1.1,
+       -1.3
+      ],
+      "anchor": "middle"
+     },
+     {
+      "label": "?",
+      "at": [
+       1.1,
+       -1.3
+      ],
+      "anchor": "middle"
+     },
+     {
+      "seg": [
+       0.9500000000000001,
+       -1.65,
+       0.15,
+       -2.15
+      ]
+     },
+     {
+      "seg": [
+       1.25,
+       -1.65,
+       2.0500000000000003,
+       -2.15
+      ]
+     },
+     {
+      "label": "2",
+      "at": [
+       0,
+       -2.6
+      ],
+      "anchor": "middle"
+     },
+     {
+      "label": "?",
+      "at": [
+       2.2,
+       -2.6
+      ],
+      "anchor": "middle"
+     },
+     {
+      "seg": [
+       2.0500000000000003,
+       -2.95,
+       1.25,
+       -3.45
+      ]
+     },
+     {
+      "seg": [
+       2.35,
+       -2.95,
+       3.1500000000000004,
+       -3.45
+      ]
+     },
+     {
+      "label": "5",
+      "at": [
+       1.1,
+       -3.9000000000000004
+      ],
+      "anchor": "middle"
+     },
+     {
+      "label": "5",
+      "at": [
+       3.3000000000000003,
+       -3.9000000000000004
+      ],
+      "anchor": "middle"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Look at each factor tree. Work out the missing numbers (marked ?), then write the prime factor form of the number at the top, using powers.",
+   "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5",
+   "prompt": "Write the prime factor form of $378$.",
+   "type": "powers",
+   "index": true,
+   "answer": "2×3^3×7",
+   "figure": {
+    "kind": "diagram",
+    "unit": 40,
+    "items": [
+     {
+      "label": "378",
+      "at": [
+       0,
+       0
+      ],
+      "anchor": "middle"
+     },
+     {
+      "seg": [
+       -0.15,
+       -0.35,
+       -0.9500000000000001,
+       -0.8500000000000001
+      ]
+     },
+     {
+      "seg": [
+       0.15,
+       -0.35,
+       0.9500000000000001,
+       -0.8500000000000001
+      ]
+     },
+     {
+      "label": "2",
+      "at": [
+       -1.1,
+       -1.3
+      ],
+      "anchor": "middle"
+     },
+     {
+      "label": "?",
+      "at": [
+       1.1,
+       -1.3
+      ],
+      "anchor": "middle"
+     },
+     {
+      "seg": [
+       0.9500000000000001,
+       -1.65,
+       0.15,
+       -2.15
+      ]
+     },
+     {
+      "seg": [
+       1.25,
+       -1.65,
+       2.0500000000000003,
+       -2.15
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       0,
+       -2.6
+      ],
+      "anchor": "middle"
+     },
+     {
+      "label": "?",
+      "at": [
+       2.2,
+       -2.6
+      ],
+      "anchor": "middle"
+     },
+     {
+      "seg": [
+       2.0500000000000003,
+       -2.95,
+       1.25,
+       -3.45
+      ]
+     },
+     {
+      "seg": [
+       2.35,
+       -2.95,
+       3.1500000000000004,
+       -3.45
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       1.1,
+       -3.9000000000000004
+      ],
+      "anchor": "middle"
+     },
+     {
+      "label": "?",
+      "at": [
+       3.3000000000000003,
+       -3.9000000000000004
+      ],
+      "anchor": "middle"
+     },
+     {
+      "seg": [
+       3.1500000000000004,
+       -4.25,
+       2.35,
+       -4.75
+      ]
+     },
+     {
+      "seg": [
+       3.45,
+       -4.25,
+       4.25,
+       -4.75
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       2.2,
+       -5.2
+      ],
+      "anchor": "middle"
+     },
+     {
+      "label": "7",
+      "at": [
+       4.4,
+       -5.2
+      ],
+      "anchor": "middle"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Use a factor tree to find the prime factor form of these numbers. Use powers where you can.",
+   "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5",
+   "prompt": "$24$",
+   "type": "powers",
+   "index": true,
+   "answer": "2^3×3"
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Use a factor tree to find the prime factor form of these numbers. Use powers where you can.",
+   "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5",
+   "prompt": "$44$",
+   "type": "powers",
+   "index": true,
+   "answer": "2^2×11"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Use a factor tree to find the prime factor form of these numbers. Use powers where you can.",
+   "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5",
+   "prompt": "$56$",
+   "type": "powers",
+   "index": true,
+   "answer": "2^3×7"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Use a factor tree to find the prime factor form of these numbers. Use powers where you can.",
+   "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5",
+   "prompt": "$150$",
+   "type": "powers",
+   "index": true,
+   "answer": "2×3×5^2"
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Use a factor tree to find the prime factor form of these numbers. Use powers where you can.",
+   "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5",
+   "prompt": "$420$",
+   "type": "powers",
+   "index": true,
+   "answer": "2^2×3×5×7"
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "Use a factor tree to find the prime factor form of these numbers. Use powers where you can.",
+   "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5",
+   "prompt": "$484$",
+   "type": "powers",
+   "index": true,
+   "answer": "2^2×11^2"
+  },
+  {
+   "id": "q2g",
+   "label": "2g",
+   "section": "Fluency",
+   "stem": "Use a factor tree to find the prime factor form of these numbers. Use powers where you can.",
+   "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5",
+   "prompt": "$540$",
+   "type": "powers",
+   "index": true,
+   "answer": "2^2×3^3×5"
+  },
+  {
+   "id": "q2h",
+   "label": "2h",
+   "section": "Fluency",
+   "stem": "Use a factor tree to find the prime factor form of these numbers. Use powers where you can.",
+   "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5",
+   "prompt": "$924$",
+   "type": "powers",
+   "index": true,
+   "answer": "2^2×3×7×11"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "How many different primes make up the prime factor form of each number? (For example, $60 = 2^2 \\times 3 \\times 5$ uses three different primes: $2$, $3$ and $5$.)",
+   "prompt": "$42$",
+   "type": "numeric",
+   "answer": "3"
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "How many different primes make up the prime factor form of each number? (For example, $60 = 2^2 \\times 3 \\times 5$ uses three different primes: $2$, $3$ and $5$.)",
+   "prompt": "$75$",
+   "type": "numeric",
+   "answer": "2"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "How many different primes make up the prime factor form of each number? (For example, $60 = 2^2 \\times 3 \\times 5$ uses three different primes: $2$, $3$ and $5$.)",
+   "prompt": "$252$",
+   "type": "numeric",
+   "answer": "3"
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "How many different primes make up the prime factor form of each number? (For example, $60 = 2^2 \\times 3 \\times 5$ uses three different primes: $2$, $3$ and $5$.)",
+   "prompt": "$3465$",
+   "type": "numeric",
+   "answer": "4"
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "Use divisibility tests to decide which of $2, 3, 4, 5, 6, 8$ and $9$ each number is divisible by. Type all of them, separated by commas. If it is divisible by none of them, type none.",
+   "prompt": "$57$",
+   "type": "list",
+   "answer": [
+    "3"
+   ]
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "Use divisibility tests to decide which of $2, 3, 4, 5, 6, 8$ and $9$ each number is divisible by. Type all of them, separated by commas. If it is divisible by none of them, type none.",
+   "prompt": "$144$",
+   "type": "list",
+   "answer": [
+    "2",
+    "3",
+    "4",
+    "6",
+    "8",
+    "9"
+   ]
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "Use divisibility tests to decide which of $2, 3, 4, 5, 6, 8$ and $9$ each number is divisible by. Type all of them, separated by commas. If it is divisible by none of them, type none.",
+   "prompt": "$296$",
+   "type": "list",
+   "answer": [
+    "2",
+    "4",
+    "8"
+   ]
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "Use divisibility tests to decide which of $2, 3, 4, 5, 6, 8$ and $9$ each number is divisible by. Type all of them, separated by commas. If it is divisible by none of them, type none.",
+   "prompt": "$405$",
+   "type": "list",
+   "answer": [
+    "3",
+    "5",
+    "9"
+   ]
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Fluency",
+   "stem": "Use divisibility tests to decide which of $2, 3, 4, 5, 6, 8$ and $9$ each number is divisible by. Type all of them, separated by commas. If it is divisible by none of them, type none.",
+   "prompt": "$225$",
+   "type": "list",
+   "answer": [
+    "3",
+    "5",
+    "9"
+   ]
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Fluency",
+   "stem": "Use divisibility tests to decide which of $2, 3, 4, 5, 6, 8$ and $9$ each number is divisible by. Type all of them, separated by commas. If it is divisible by none of them, type none.",
+   "prompt": "$623$",
+   "type": "text",
+   "answer": "none",
+   "accept": [
+    "none of them"
+   ]
+  },
+  {
+   "id": "q4g",
+   "label": "4g",
+   "section": "Fluency",
+   "stem": "Use divisibility tests to decide which of $2, 3, 4, 5, 6, 8$ and $9$ each number is divisible by. Type all of them, separated by commas. If it is divisible by none of them, type none.",
+   "prompt": "$732$",
+   "type": "list",
+   "answer": [
+    "2",
+    "3",
+    "4",
+    "6"
+   ]
+  },
+  {
+   "id": "q4h",
+   "label": "4h",
+   "section": "Fluency",
+   "stem": "Use divisibility tests to decide which of $2, 3, 4, 5, 6, 8$ and $9$ each number is divisible by. Type all of them, separated by commas. If it is divisible by none of them, type none.",
+   "prompt": "$4103$",
+   "type": "text",
+   "answer": "none",
+   "accept": [
+    "none of them"
+   ]
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Problem-solving",
+   "stem": "Find the highest common prime factor of each pair of numbers.",
+   "prompt": "$14, 35$",
+   "type": "numeric",
+   "answer": "7"
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Problem-solving",
+   "stem": "Find the highest common prime factor of each pair of numbers.",
+   "prompt": "$30, 84$",
+   "type": "numeric",
+   "answer": "3"
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Problem-solving",
+   "stem": "Find the highest common prime factor of each pair of numbers.",
+   "prompt": "$36, 90$",
+   "type": "numeric",
+   "answer": "3"
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Problem-solving",
+   "stem": "Find the highest common prime factor of each pair of numbers.",
+   "prompt": "$455, 637$",
+   "type": "numeric",
+   "answer": "13"
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Problem-solving",
+   "stem": "Use prime factorisation to find the LCM and the HCF of each pair of numbers. Type the LCM first, then the HCF, separated by a comma.",
+   "hint": "For example, type 60, 2",
+   "prompt": "$6, 8$",
+   "type": "ordered",
+   "answer": [
+    "24",
+    "2"
+   ]
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Problem-solving",
+   "stem": "Use prime factorisation to find the LCM and the HCF of each pair of numbers. Type the LCM first, then the HCF, separated by a comma.",
+   "hint": "For example, type 60, 2",
+   "prompt": "$16, 32$",
+   "type": "ordered",
+   "answer": [
+    "32",
+    "16"
+   ]
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Problem-solving",
+   "stem": "Use prime factorisation to find the LCM and the HCF of each pair of numbers. Type the LCM first, then the HCF, separated by a comma.",
+   "hint": "For example, type 60, 2",
+   "prompt": "$18, 24$",
+   "type": "ordered",
+   "answer": [
+    "72",
+    "6"
+   ]
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Problem-solving",
+   "stem": "Use prime factorisation to find the LCM and the HCF of each pair of numbers. Type the LCM first, then the HCF, separated by a comma.",
+   "hint": "For example, type 60, 2",
+   "prompt": "$9, 15$",
+   "type": "ordered",
+   "answer": [
+    "45",
+    "3"
+   ]
+  },
+  {
+   "id": "q6e",
+   "label": "6e",
+   "section": "Problem-solving",
+   "stem": "Use prime factorisation to find the LCM and the HCF of each pair of numbers. Type the LCM first, then the HCF, separated by a comma.",
+   "hint": "For example, type 60, 2",
+   "prompt": "$24, 36$",
+   "type": "ordered",
+   "answer": [
+    "72",
+    "12"
+   ]
+  },
+  {
+   "id": "q6f",
+   "label": "6f",
+   "section": "Problem-solving",
+   "stem": "Use prime factorisation to find the LCM and the HCF of each pair of numbers. Type the LCM first, then the HCF, separated by a comma.",
+   "hint": "For example, type 60, 2",
+   "prompt": "$11, 20$",
+   "type": "ordered",
+   "answer": [
+    "220",
+    "1"
+   ]
+  },
+  {
+   "id": "q6g",
+   "label": "6g",
+   "section": "Problem-solving",
+   "stem": "Use prime factorisation to find the LCM and the HCF of each pair of numbers. Type the LCM first, then the HCF, separated by a comma.",
+   "hint": "For example, type 60, 2",
+   "prompt": "$45, 6$",
+   "type": "ordered",
+   "answer": [
+    "90",
+    "3"
+   ]
+  },
+  {
+   "id": "q6h",
+   "label": "6h",
+   "section": "Problem-solving",
+   "stem": "Use prime factorisation to find the LCM and the HCF of each pair of numbers. Type the LCM first, then the HCF, separated by a comma.",
+   "hint": "For example, type 60, 2",
+   "prompt": "$84, 126$",
+   "type": "ordered",
+   "answer": [
+    "252",
+    "42"
+   ]
+  },
+  {
+   "id": "q7",
+   "label": "7",
+   "section": "Problem-solving",
+   "prompt": "Grandpa Joe's granddaughter visits him every $28$ days and his grandson visits every $42$ days. If they both visit on the same day, how many days will it be until they both visit on the same day again?",
+   "type": "numeric",
+   "units": "days",
+   "answer": "84"
+  },
+  {
+   "id": "q8",
+   "label": "8",
+   "section": "Problem-solving",
+   "prompt": "Two schools meet for a sports carnival. One school has $1014$ students and the other has $702$ students. All the students are split into teams, and every team at the carnival must be the same size, with no one left over. What is the largest possible team size?",
+   "type": "numeric",
+   "answer": "78"
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Reasoning",
+   "stem": "Decide whether each statement is true or false.",
+   "prompt": "All numbers divisible by $6$ are divisible by $3$.",
+   "type": "choice",
+   "options": [
+    "True",
+    "False"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Reasoning",
+   "stem": "Decide whether each statement is true or false.",
+   "prompt": "All numbers divisible by $3$ are divisible by $6$.",
+   "type": "choice",
+   "options": [
+    "True",
+    "False"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "q9c",
+   "label": "9c",
+   "section": "Reasoning",
+   "stem": "Decide whether each statement is true or false.",
+   "prompt": "All numbers divisible by $10$ are divisible by $5$.",
+   "type": "choice",
+   "options": [
+    "True",
+    "False"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "q9d",
+   "label": "9d",
+   "section": "Reasoning",
+   "stem": "Decide whether each statement is true or false.",
+   "prompt": "All numbers divisible by $5$ are divisible by $10$.",
+   "type": "choice",
+   "options": [
+    "True",
+    "False"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Reasoning",
+   "stem": "A number is divisible by $6$ if it is divisible by both $2$ and $3$. In the same way, a number is divisible by each of these numbers if it is divisible by which two primes? Separate them with commas.",
+   "prompt": "Divisible by $26$",
+   "type": "list",
+   "answer": [
+    "2",
+    "13"
+   ]
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Reasoning",
+   "stem": "A number is divisible by $6$ if it is divisible by both $2$ and $3$. In the same way, a number is divisible by each of these numbers if it is divisible by which two primes? Separate them with commas.",
+   "prompt": "Divisible by $21$",
+   "type": "list",
+   "answer": [
+    "3",
+    "7"
+   ]
+  },
+  {
+   "id": "q10c",
+   "label": "10c",
+   "section": "Reasoning",
+   "stem": "A number is divisible by $6$ if it is divisible by both $2$ and $3$. In the same way, a number is divisible by each of these numbers if it is divisible by which two primes? Separate them with commas.",
+   "prompt": "Divisible by $35$",
+   "type": "list",
+   "answer": [
+    "5",
+    "7"
+   ]
+  },
+  {
+   "id": "q10d",
+   "label": "10d",
+   "section": "Reasoning",
+   "stem": "A number is divisible by $6$ if it is divisible by both $2$ and $3$. In the same way, a number is divisible by each of these numbers if it is divisible by which two primes? Separate them with commas.",
+   "prompt": "Divisible by $91$",
+   "type": "list",
+   "answer": [
+    "7",
+    "13"
+   ]
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Reasoning",
+   "stem": "Write the prime factor form of each number. Some powers will be higher than $3$. (For example, $80 = 2 \\times 2 \\times 2 \\times 2 \\times 5 = 2^4 \\times 5$.)",
+   "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5",
+   "prompt": "$176$",
+   "type": "powers",
+   "index": true,
+   "answer": "2^4×11"
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Reasoning",
+   "stem": "Write the prime factor form of each number. Some powers will be higher than $3$. (For example, $80 = 2 \\times 2 \\times 2 \\times 2 \\times 5 = 2^4 \\times 5$.)",
+   "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5",
+   "prompt": "$486$",
+   "type": "powers",
+   "index": true,
+   "answer": "2×3^5"
+  },
+  {
+   "id": "q11c",
+   "label": "11c",
+   "section": "Reasoning",
+   "stem": "Write the prime factor form of each number. Some powers will be higher than $3$. (For example, $80 = 2 \\times 2 \\times 2 \\times 2 \\times 5 = 2^4 \\times 5$.)",
+   "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5",
+   "prompt": "$3888$",
+   "type": "powers",
+   "index": true,
+   "answer": "2^4×3^5"
+  },
+  {
+   "id": "q11d",
+   "label": "11d",
+   "section": "Reasoning",
+   "stem": "Write the prime factor form of each number. Some powers will be higher than $3$. (For example, $80 = 2 \\times 2 \\times 2 \\times 2 \\times 5 = 2^4 \\times 5$.)",
+   "hint": "Type powers with ^, for example 3^4. Type x for times, for example 2^3 x 5",
+   "prompt": "$1250$",
+   "type": "powers",
+   "index": true,
+   "answer": "2×5^4"
+  },
+  {
+   "id": "q12a",
+   "label": "12a",
+   "section": "Enrichment",
+   "stem": "Divide each of these numbers by $11$.",
+   "prompt": "$33 \\div 11$",
+   "type": "numeric",
+   "answer": "3"
+  },
+  {
+   "id": "q12b",
+   "label": "12b",
+   "section": "Enrichment",
+   "stem": "Divide each of these numbers by $11$.",
+   "prompt": "$77 \\div 11$",
+   "type": "numeric",
+   "answer": "7"
+  },
+  {
+   "id": "q12c",
+   "label": "12c",
+   "section": "Enrichment",
+   "stem": "Divide each of these numbers by $11$.",
+   "prompt": "$132 \\div 11$",
+   "type": "numeric",
+   "answer": "12"
+  },
+  {
+   "id": "q12d",
+   "label": "12d",
+   "section": "Enrichment",
+   "stem": "Divide each of these numbers by $11$.",
+   "prompt": "$187 \\div 11$",
+   "type": "numeric",
+   "answer": "17"
+  },
+  {
+   "id": "q12e",
+   "label": "12e",
+   "section": "Enrichment",
+   "stem": "Divide each of these numbers by $11$.",
+   "prompt": "$495 \\div 11$",
+   "type": "numeric",
+   "answer": "45"
+  },
+  {
+   "id": "q12f",
+   "label": "12f",
+   "section": "Enrichment",
+   "stem": "Divide each of these numbers by $11$.",
+   "prompt": "$616 \\div 11$",
+   "type": "numeric",
+   "answer": "56"
+  },
+  {
+   "id": "q12g",
+   "label": "12g",
+   "section": "Enrichment",
+   "stem": "Divide each of these numbers by $11$.",
+   "prompt": "$1067 \\div 11$",
+   "type": "numeric",
+   "answer": "97"
+  },
+  {
+   "id": "q12h",
+   "label": "12h",
+   "section": "Enrichment",
+   "stem": "Divide each of these numbers by $11$.",
+   "prompt": "$7040 \\div 11$",
+   "type": "numeric",
+   "answer": "640"
+  },
+  {
+   "id": "q12i",
+   "label": "12i",
+   "section": "Enrichment",
+   "stem": "The number $3168$ is divisible by $11$.",
+   "prompt": "Find the sum of its first and third digits.",
+   "type": "numeric",
+   "answer": "9"
+  },
+  {
+   "id": "q12j",
+   "label": "12j",
+   "section": "Enrichment",
+   "stem": "The number $3168$ is divisible by $11$.",
+   "prompt": "Find the sum of its second and fourth digits.",
+   "type": "numeric",
+   "answer": "9"
+  },
+  {
+   "id": "q12k",
+   "label": "12k",
+   "section": "Enrichment",
+   "stem": "The number $3168$ is divisible by $11$.",
+   "prompt": "Subtract your second answer from your first answer.",
+   "type": "numeric",
+   "answer": "0"
+  },
+  {
+   "id": "q12l",
+   "label": "12l",
+   "section": "Enrichment",
+   "stem": "The number $9273$ is divisible by $11$.",
+   "prompt": "Find the sum of its first and third digits.",
+   "type": "numeric",
+   "answer": "16"
+  },
+  {
+   "id": "q12m",
+   "label": "12m",
+   "section": "Enrichment",
+   "stem": "The number $9273$ is divisible by $11$.",
+   "prompt": "Find the sum of its second and fourth digits.",
+   "type": "numeric",
+   "answer": "5"
+  },
+  {
+   "id": "q12n",
+   "label": "12n",
+   "section": "Enrichment",
+   "stem": "The number $9273$ is divisible by $11$.",
+   "prompt": "Subtract your second answer from your first answer.",
+   "type": "numeric",
+   "answer": "11"
+  },
+  {
+   "id": "q12o",
+   "label": "12o",
+   "section": "Enrichment",
+   "stem": "Each of these numbers is divisible by $11$. Add up every second digit starting with the first digit, then add up the other digits. Subtract the second sum from the first sum.",
+   "prompt": "$5082$",
+   "type": "numeric",
+   "answer": "11"
+  },
+  {
+   "id": "q12p",
+   "label": "12p",
+   "section": "Enrichment",
+   "stem": "Each of these numbers is divisible by $11$. Add up every second digit starting with the first digit, then add up the other digits. Subtract the second sum from the first sum.",
+   "prompt": "$627$",
+   "type": "numeric",
+   "answer": "11"
+  },
+  {
+   "id": "q12q",
+   "label": "12q",
+   "section": "Enrichment",
+   "stem": "Each of these numbers is divisible by $11$. Add up every second digit starting with the first digit, then add up the other digits. Subtract the second sum from the first sum.",
+   "prompt": "$3586$",
+   "type": "numeric",
+   "answer": "0"
+  },
+  {
+   "id": "q12r",
+   "label": "12r",
+   "section": "Enrichment",
+   "stem": "Each of these numbers is divisible by $11$. Add up every second digit starting with the first digit, then add up the other digits. Subtract the second sum from the first sum.",
+   "prompt": "$99$",
+   "type": "numeric",
+   "answer": "0"
+  },
+  {
+   "id": "q12s",
+   "label": "12s",
+   "section": "Enrichment",
+   "stem": "Use what you found in the earlier parts.",
+   "prompt": "Which of these is a correct test for divisibility by $11$?",
+   "type": "choice",
+   "options": [
+    "The sum of all the digits is divisible by 11",
+    "The last two digits make a number divisible by 11",
+    "The difference between the two alternate digit sums is 0 or a multiple of 11",
+    "The number ends in 1 or 0"
+   ],
+   "answer": 2
+  }
+ ]
+},
+{
+ "id": "y8-1e",
+ "year": 8,
+ "chapter": "Chapter 1: Computation with integers",
+ "title": "1E Negative integers",
+ "description": "Add and subtract positive integers with negative starting points, using number lines and missing numbers.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-8 + 3$",
+   "type": "numeric",
+   "answer": "-5"
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-12 + 5$",
+   "type": "numeric",
+   "answer": "-7"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-4 + 9$",
+   "type": "numeric",
+   "answer": "5"
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-6 + 13$",
+   "type": "numeric",
+   "answer": "7"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-1 + 4$",
+   "type": "numeric",
+   "answer": "3"
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-5 + 8$",
+   "type": "numeric",
+   "answer": "3"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-12 + 13$",
+   "type": "numeric",
+   "answer": "1"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-3 + 10$",
+   "type": "numeric",
+   "answer": "7"
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-30 + 42$",
+   "type": "numeric",
+   "answer": "12"
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-200 + 305$",
+   "type": "numeric",
+   "answer": "105"
+  },
+  {
+   "id": "q2g",
+   "label": "2g",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-9 + 4$",
+   "type": "numeric",
+   "answer": "-5"
+  },
+  {
+   "id": "q2h",
+   "label": "2h",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-17 + 6$",
+   "type": "numeric",
+   "answer": "-11"
+  },
+  {
+   "id": "q2i",
+   "label": "2i",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-31 + 22$",
+   "type": "numeric",
+   "answer": "-9"
+  },
+  {
+   "id": "q2j",
+   "label": "2j",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-45 + 27$",
+   "type": "numeric",
+   "answer": "-18"
+  },
+  {
+   "id": "q2k",
+   "label": "2k",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-186 + 93$",
+   "type": "numeric",
+   "answer": "-93"
+  },
+  {
+   "id": "q2l",
+   "label": "2l",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-415 + 398$",
+   "type": "numeric",
+   "answer": "-17"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$6 - 9$",
+   "type": "numeric",
+   "answer": "-3"
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$12 - 20$",
+   "type": "numeric",
+   "answer": "-8"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$0 - 33$",
+   "type": "numeric",
+   "answer": "-33"
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$15 - 42$",
+   "type": "numeric",
+   "answer": "-27"
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$108 - 215$",
+   "type": "numeric",
+   "answer": "-107"
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$427 - 501$",
+   "type": "numeric",
+   "answer": "-74"
+  },
+  {
+   "id": "q3g",
+   "label": "3g",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-5 - 8$",
+   "type": "numeric",
+   "answer": "-13"
+  },
+  {
+   "id": "q3h",
+   "label": "3h",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-13 - 24$",
+   "type": "numeric",
+   "answer": "-37"
+  },
+  {
+   "id": "q3i",
+   "label": "3i",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-16 - 17$",
+   "type": "numeric",
+   "answer": "-33"
+  },
+  {
+   "id": "q3j",
+   "label": "3j",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-20 - 200$",
+   "type": "numeric",
+   "answer": "-220"
+  },
+  {
+   "id": "q3k",
+   "label": "3k",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-500 - 46$",
+   "type": "numeric",
+   "answer": "-546"
+  },
+  {
+   "id": "q3l",
+   "label": "3l",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-263 - 158$",
+   "type": "numeric",
+   "answer": "-421"
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "Each jump is $1$ unit and the jumps start at the dot. Choose the sum or difference that matches each number line.",
+   "prompt": "Which calculation matches this number line?",
+   "figure": {
+    "kind": "diagram",
+    "unit": 40,
+    "items": [
+     {
+      "seg": [
+       -4.7,
+       0,
+       2.7,
+       0
+      ],
+      "arrow": "both"
+     },
+     {
+      "seg": [
+       -4,
+       -0.13,
+       -4,
+       0.13
+      ]
+     },
+     {
+      "label": "−4",
+      "at": [
+       -4,
+       -0.55
+      ]
+     },
+     {
+      "seg": [
+       -3,
+       -0.13,
+       -3,
+       0.13
+      ]
+     },
+     {
+      "label": "−3",
+      "at": [
+       -3,
+       -0.55
+      ]
+     },
+     {
+      "seg": [
+       -2,
+       -0.13,
+       -2,
+       0.13
+      ]
+     },
+     {
+      "label": "−2",
+      "at": [
+       -2,
+       -0.55
+      ]
+     },
+     {
+      "seg": [
+       -1,
+       -0.13,
+       -1,
+       0.13
+      ]
+     },
+     {
+      "label": "−1",
+      "at": [
+       -1,
+       -0.55
+      ]
+     },
+     {
+      "seg": [
+       0,
+       -0.13,
+       0,
+       0.13
+      ]
+     },
+     {
+      "label": "0",
+      "at": [
+       0,
+       -0.55
+      ]
+     },
+     {
+      "seg": [
+       1,
+       -0.13,
+       1,
+       0.13
+      ]
+     },
+     {
+      "label": "1",
+      "at": [
+       1,
+       -0.55
+      ]
+     },
+     {
+      "seg": [
+       2,
+       -0.13,
+       2,
+       0.13
+      ]
+     },
+     {
+      "label": "2",
+      "at": [
+       2,
+       -0.55
+      ]
+     },
+     {
+      "arc": [
+       -2.5,
+       0.12,
+       0.5,
+       15,
+       165
+      ]
+     },
+     {
+      "seg": [
+       -2.0770370868554657,
+       0.36940952255126036,
+       -2.0170370868554657,
+       0.24940952255126037
+      ],
+      "arrow": "end"
+     },
+     {
+      "arc": [
+       -1.5,
+       0.12,
+       0.5,
+       15,
+       165
+      ]
+     },
+     {
+      "seg": [
+       -1.077037086855466,
+       0.36940952255126036,
+       -1.017037086855466,
+       0.24940952255126037
+      ],
+      "arrow": "end"
+     },
+     {
+      "arc": [
+       -0.5,
+       0.12,
+       0.5,
+       15,
+       165
+      ]
+     },
+     {
+      "seg": [
+       -0.07703708685546584,
+       0.36940952255126036,
+       -0.017037086855465844,
+       0.24940952255126037
+      ],
+      "arrow": "end"
+     },
+     {
+      "arc": [
+       0.5,
+       0.12,
+       0.5,
+       15,
+       165
+      ]
+     },
+     {
+      "seg": [
+       0.922962913144534,
+       0.36940952255126036,
+       0.9829629131445341,
+       0.24940952255126037
+      ],
+      "arrow": "end"
+     },
+     {
+      "point": [
+       -3,
+       0
+      ],
+      "name": "",
+      "pos": "n"
+     }
+    ],
+    "alt": "A number line with jumps starting at the dot"
+   },
+   "type": "choice",
+   "options": [
+    "-3 - 4 = -7",
+    "-3 + 4 = 1",
+    "1 + 4 = 5",
+    "3 + 4 = 7"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "Each jump is $1$ unit and the jumps start at the dot. Choose the sum or difference that matches each number line.",
+   "prompt": "Which calculation matches this number line?",
+   "figure": {
+    "kind": "diagram",
+    "unit": 40,
+    "items": [
+     {
+      "seg": [
+       -11.7,
+       0,
+       -3.3,
+       0
+      ],
+      "arrow": "both"
+     },
+     {
+      "seg": [
+       -11,
+       -0.13,
+       -11,
+       0.13
+      ]
+     },
+     {
+      "label": "−11",
+      "at": [
+       -11,
+       -0.55
+      ]
+     },
+     {
+      "seg": [
+       -10,
+       -0.13,
+       -10,
+       0.13
+      ]
+     },
+     {
+      "label": "−10",
+      "at": [
+       -10,
+       -0.55
+      ]
+     },
+     {
+      "seg": [
+       -9,
+       -0.13,
+       -9,
+       0.13
+      ]
+     },
+     {
+      "label": "−9",
+      "at": [
+       -9,
+       -0.55
+      ]
+     },
+     {
+      "seg": [
+       -8,
+       -0.13,
+       -8,
+       0.13
+      ]
+     },
+     {
+      "label": "−8",
+      "at": [
+       -8,
+       -0.55
+      ]
+     },
+     {
+      "seg": [
+       -7,
+       -0.13,
+       -7,
+       0.13
+      ]
+     },
+     {
+      "label": "−7",
+      "at": [
+       -7,
+       -0.55
+      ]
+     },
+     {
+      "seg": [
+       -6,
+       -0.13,
+       -6,
+       0.13
+      ]
+     },
+     {
+      "label": "−6",
+      "at": [
+       -6,
+       -0.55
+      ]
+     },
+     {
+      "seg": [
+       -5,
+       -0.13,
+       -5,
+       0.13
+      ]
+     },
+     {
+      "label": "−5",
+      "at": [
+       -5,
+       -0.55
+      ]
+     },
+     {
+      "seg": [
+       -4,
+       -0.13,
+       -4,
+       0.13
+      ]
+     },
+     {
+      "label": "−4",
+      "at": [
+       -4,
+       -0.55
+      ]
+     },
+     {
+      "arc": [
+       -5.5,
+       0.12,
+       0.5,
+       15,
+       165
+      ]
+     },
+     {
+      "seg": [
+       -5.922962913144534,
+       0.36940952255126047,
+       -5.982962913144534,
+       0.2494095225512605
+      ],
+      "arrow": "end"
+     },
+     {
+      "arc": [
+       -6.5,
+       0.12,
+       0.5,
+       15,
+       165
+      ]
+     },
+     {
+      "seg": [
+       -6.922962913144534,
+       0.36940952255126047,
+       -6.982962913144534,
+       0.2494095225512605
+      ],
+      "arrow": "end"
+     },
+     {
+      "arc": [
+       -7.5,
+       0.12,
+       0.5,
+       15,
+       165
+      ]
+     },
+     {
+      "seg": [
+       -7.922962913144534,
+       0.36940952255126047,
+       -7.982962913144534,
+       0.2494095225512605
+      ],
+      "arrow": "end"
+     },
+     {
+      "arc": [
+       -8.5,
+       0.12,
+       0.5,
+       15,
+       165
+      ]
+     },
+     {
+      "seg": [
+       -8.922962913144534,
+       0.36940952255126047,
+       -8.982962913144535,
+       0.2494095225512605
+      ],
+      "arrow": "end"
+     },
+     {
+      "arc": [
+       -9.5,
+       0.12,
+       0.5,
+       15,
+       165
+      ]
+     },
+     {
+      "seg": [
+       -9.922962913144534,
+       0.36940952255126047,
+       -9.982962913144535,
+       0.2494095225512605
+      ],
+      "arrow": "end"
+     },
+     {
+      "point": [
+       -5,
+       0
+      ],
+      "name": "",
+      "pos": "n"
+     }
+    ],
+    "alt": "A number line with jumps starting at the dot"
+   },
+   "type": "choice",
+   "options": [
+    "-10 - 5 = -15",
+    "5 - 5 = 0",
+    "-5 - 5 = -10",
+    "-5 + 5 = 0"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "Each jump is $1$ unit and the jumps start at the dot. Choose the sum or difference that matches each number line.",
+   "prompt": "Which calculation matches this number line?",
+   "figure": {
+    "kind": "diagram",
+    "unit": 40,
+    "items": [
+     {
+      "seg": [
+       -2.7,
+       0,
+       5.7,
+       0
+      ],
+      "arrow": "both"
+     },
+     {
+      "seg": [
+       -2,
+       -0.13,
+       -2,
+       0.13
+      ]
+     },
+     {
+      "label": "−2",
+      "at": [
+       -2,
+       -0.55
+      ]
+     },
+     {
+      "seg": [
+       -1,
+       -0.13,
+       -1,
+       0.13
+      ]
+     },
+     {
+      "label": "−1",
+      "at": [
+       -1,
+       -0.55
+      ]
+     },
+     {
+      "seg": [
+       0,
+       -0.13,
+       0,
+       0.13
+      ]
+     },
+     {
+      "label": "0",
+      "at": [
+       0,
+       -0.55
+      ]
+     },
+     {
+      "seg": [
+       1,
+       -0.13,
+       1,
+       0.13
+      ]
+     },
+     {
+      "label": "1",
+      "at": [
+       1,
+       -0.55
+      ]
+     },
+     {
+      "seg": [
+       2,
+       -0.13,
+       2,
+       0.13
+      ]
+     },
+     {
+      "label": "2",
+      "at": [
+       2,
+       -0.55
+      ]
+     },
+     {
+      "seg": [
+       3,
+       -0.13,
+       3,
+       0.13
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       3,
+       -0.55
+      ]
+     },
+     {
+      "seg": [
+       4,
+       -0.13,
+       4,
+       0.13
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       4,
+       -0.55
+      ]
+     },
+     {
+      "seg": [
+       5,
+       -0.13,
+       5,
+       0.13
+      ]
+     },
+     {
+      "label": "5",
+      "at": [
+       5,
+       -0.55
+      ]
+     },
+     {
+      "arc": [
+       -0.5,
+       0.12,
+       0.5,
+       15,
+       165
+      ]
+     },
+     {
+      "seg": [
+       -0.07703708685546584,
+       0.36940952255126036,
+       -0.017037086855465844,
+       0.24940952255126037
+      ],
+      "arrow": "end"
+     },
+     {
+      "arc": [
+       0.5,
+       0.12,
+       0.5,
+       15,
+       165
+      ]
+     },
+     {
+      "seg": [
+       0.922962913144534,
+       0.36940952255126036,
+       0.9829629131445341,
+       0.24940952255126037
+      ],
+      "arrow": "end"
+     },
+     {
+      "arc": [
+       1.5,
+       0.12,
+       0.5,
+       15,
+       165
+      ]
+     },
+     {
+      "seg": [
+       1.922962913144534,
+       0.36940952255126036,
+       1.982962913144534,
+       0.24940952255126037
+      ],
+      "arrow": "end"
+     },
+     {
+      "arc": [
+       2.5,
+       0.12,
+       0.5,
+       15,
+       165
+      ]
+     },
+     {
+      "seg": [
+       2.9229629131445343,
+       0.36940952255126036,
+       2.9829629131445343,
+       0.24940952255126037
+      ],
+      "arrow": "end"
+     },
+     {
+      "arc": [
+       3.5,
+       0.12,
+       0.5,
+       15,
+       165
+      ]
+     },
+     {
+      "seg": [
+       3.9229629131445343,
+       0.36940952255126036,
+       3.9829629131445343,
+       0.24940952255126037
+      ],
+      "arrow": "end"
+     },
+     {
+      "point": [
+       -1,
+       0
+      ],
+      "name": "",
+      "pos": "n"
+     }
+    ],
+    "alt": "A number line with jumps starting at the dot"
+   },
+   "type": "choice",
+   "options": [
+    "-1 + 5 = 4",
+    "4 + 5 = 9",
+    "1 + 5 = 6",
+    "-1 - 5 = -6"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "Each jump is $1$ unit and the jumps start at the dot. Choose the sum or difference that matches each number line.",
+   "prompt": "Which calculation matches this number line?",
+   "figure": {
+    "kind": "diagram",
+    "unit": 40,
+    "items": [
+     {
+      "seg": [
+       -19.7,
+       0,
+       -11.3,
+       0
+      ],
+      "arrow": "both"
+     },
+     {
+      "seg": [
+       -19,
+       -0.13,
+       -19,
+       0.13
+      ]
+     },
+     {
+      "label": "−19",
+      "at": [
+       -19,
+       -0.55
+      ]
+     },
+     {
+      "seg": [
+       -18,
+       -0.13,
+       -18,
+       0.13
+      ]
+     },
+     {
+      "label": "−18",
+      "at": [
+       -18,
+       -0.55
+      ]
+     },
+     {
+      "seg": [
+       -17,
+       -0.13,
+       -17,
+       0.13
+      ]
+     },
+     {
+      "label": "−17",
+      "at": [
+       -17,
+       -0.55
+      ]
+     },
+     {
+      "seg": [
+       -16,
+       -0.13,
+       -16,
+       0.13
+      ]
+     },
+     {
+      "label": "−16",
+      "at": [
+       -16,
+       -0.55
+      ]
+     },
+     {
+      "seg": [
+       -15,
+       -0.13,
+       -15,
+       0.13
+      ]
+     },
+     {
+      "label": "−15",
+      "at": [
+       -15,
+       -0.55
+      ]
+     },
+     {
+      "seg": [
+       -14,
+       -0.13,
+       -14,
+       0.13
+      ]
+     },
+     {
+      "label": "−14",
+      "at": [
+       -14,
+       -0.55
+      ]
+     },
+     {
+      "seg": [
+       -13,
+       -0.13,
+       -13,
+       0.13
+      ]
+     },
+     {
+      "label": "−13",
+      "at": [
+       -13,
+       -0.55
+      ]
+     },
+     {
+      "seg": [
+       -12,
+       -0.13,
+       -12,
+       0.13
+      ]
+     },
+     {
+      "label": "−12",
+      "at": [
+       -12,
+       -0.55
+      ]
+     },
+     {
+      "arc": [
+       -13.5,
+       0.12,
+       0.5,
+       15,
+       165
+      ]
+     },
+     {
+      "seg": [
+       -13.922962913144534,
+       0.36940952255126047,
+       -13.982962913144535,
+       0.2494095225512605
+      ],
+      "arrow": "end"
+     },
+     {
+      "arc": [
+       -14.5,
+       0.12,
+       0.5,
+       15,
+       165
+      ]
+     },
+     {
+      "seg": [
+       -14.922962913144534,
+       0.36940952255126047,
+       -14.982962913144535,
+       0.2494095225512605
+      ],
+      "arrow": "end"
+     },
+     {
+      "arc": [
+       -15.5,
+       0.12,
+       0.5,
+       15,
+       165
+      ]
+     },
+     {
+      "seg": [
+       -15.922962913144534,
+       0.36940952255126047,
+       -15.982962913144535,
+       0.2494095225512605
+      ],
+      "arrow": "end"
+     },
+     {
+      "arc": [
+       -16.5,
+       0.12,
+       0.5,
+       15,
+       165
+      ]
+     },
+     {
+      "seg": [
+       -16.922962913144534,
+       0.36940952255126047,
+       -16.982962913144533,
+       0.2494095225512605
+      ],
+      "arrow": "end"
+     },
+     {
+      "point": [
+       -13,
+       0
+      ],
+      "name": "",
+      "pos": "n"
+     }
+    ],
+    "alt": "A number line with jumps starting at the dot"
+   },
+   "type": "choice",
+   "options": [
+    "13 - 4 = 9",
+    "-13 + 4 = -9",
+    "-13 - 4 = -17",
+    "-17 - 4 = -21"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Fluency",
+   "stem": "State the missing number.",
+   "prompt": "$-3 + \\square = 4$",
+   "type": "numeric",
+   "answer": "7"
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Fluency",
+   "stem": "State the missing number.",
+   "prompt": "$\\square + 25 = 19$",
+   "type": "numeric",
+   "answer": "-6"
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Fluency",
+   "stem": "State the missing number.",
+   "prompt": "$\\square + 14 = -5$",
+   "type": "numeric",
+   "answer": "-19"
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Fluency",
+   "stem": "State the missing number.",
+   "prompt": "$-41 + \\square = -27$",
+   "type": "numeric",
+   "answer": "14"
+  },
+  {
+   "id": "q5e",
+   "label": "5e",
+   "section": "Fluency",
+   "stem": "State the missing number.",
+   "prompt": "$8 - \\square = -6$",
+   "type": "numeric",
+   "answer": "14"
+  },
+  {
+   "id": "q5f",
+   "label": "5f",
+   "section": "Fluency",
+   "stem": "State the missing number.",
+   "prompt": "$\\square - 21 = -15$",
+   "type": "numeric",
+   "answer": "6"
+  },
+  {
+   "id": "q5g",
+   "label": "5g",
+   "section": "Fluency",
+   "stem": "State the missing number.",
+   "prompt": "$\\square - 6 = -11$",
+   "type": "numeric",
+   "answer": "-5"
+  },
+  {
+   "id": "q5h",
+   "label": "5h",
+   "section": "Fluency",
+   "stem": "State the missing number.",
+   "prompt": "$-34 - \\square = -49$",
+   "type": "numeric",
+   "answer": "15"
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Fluency",
+   "stem": "Evaluate the following. (Addition and subtraction are at the same level, so work from left to right.)",
+   "prompt": "$-5 + 7 - 9 + 4$",
+   "type": "numeric",
+   "answer": "-3"
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Fluency",
+   "stem": "Evaluate the following. (Addition and subtraction are at the same level, so work from left to right.)",
+   "prompt": "$0 - 12 + 21 - 3$",
+   "type": "numeric",
+   "answer": "6"
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Fluency",
+   "stem": "Evaluate the following. (Addition and subtraction are at the same level, so work from left to right.)",
+   "prompt": "$31 - 45 + 17 - 8$",
+   "type": "numeric",
+   "answer": "-5"
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Fluency",
+   "stem": "Evaluate the following. (Addition and subtraction are at the same level, so work from left to right.)",
+   "prompt": "$7 - 22 + 54 - 40$",
+   "type": "numeric",
+   "answer": "-1"
+  },
+  {
+   "id": "q7",
+   "label": "7",
+   "section": "Problem-solving",
+   "prompt": "A hotel has $30$ floors above the ground floor and $5$ car park levels below it. Call the ground floor $0$, so the levels below are $-1$, $-2$, and so on. A lift starts at floor $4$. It goes down $6$ floors, then up $15$ floors, up $3$ more floors, down $20$ floors and finally up $7$ floors. At which floor does the lift finish?",
+   "type": "numeric",
+   "answer": "3"
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Problem-solving",
+   "stem": "Choose the $+$ and $-$ signs that make each statement true.",
+   "prompt": "$6 \\;\\square\\; 9 = -3$",
+   "type": "choice",
+   "options": [
+    "6 + 9 = -3",
+    "6 - 9 = -3"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Problem-solving",
+   "stem": "Choose the $+$ and $-$ signs that make each statement true.",
+   "prompt": "$5 \\;\\square\\; 8 \\;\\square\\; 2 = -1$",
+   "type": "choice",
+   "options": [
+    "5 + 8 + 2 = -1",
+    "5 + 8 - 2 = -1",
+    "5 - 8 + 2 = -1",
+    "5 - 8 - 2 = -1"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Problem-solving",
+   "stem": "Choose the $+$ and $-$ signs that make each statement true.",
+   "prompt": "$-3 \\;\\square\\; 6 \\;\\square\\; 2 = -7$",
+   "type": "choice",
+   "options": [
+    "-3 + 6 + 2 = -7",
+    "-3 + 6 - 2 = -7",
+    "-3 - 6 + 2 = -7",
+    "-3 - 6 - 2 = -7"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "q9",
+   "label": "9",
+   "section": "Problem-solving",
+   "prompt": "On Monday Jai borrows $\\$45$ from his sister. On Wednesday he pays her $\\$50$. On Thursday he borrows another $\\$36$ and pays back $\\$25$ that night. How much does Jai owe his sister in the end?",
+   "type": "numeric",
+   "units": "$",
+   "answer": "6"
+  },
+  {
+   "id": "q10",
+   "label": "10",
+   "section": "Problem-solving",
+   "prompt": "On a winter day in a mountain town, the temperature rises $23^\\circ\\text{C}$ from its minimum to reach a maximum of $-7^\\circ\\text{C}$. What was the minimum temperature that day?",
+   "type": "numeric",
+   "units": "°C",
+   "answer": "-30"
+  },
+  {
+   "id": "q12a",
+   "label": "12a",
+   "section": "Reasoning",
+   "stem": "$a$ and $b$ are positive integers. Is each statement always true?",
+   "prompt": "$b + a$ is positive",
+   "type": "choice",
+   "options": [
+    "Always true",
+    "Not always true"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "q12b",
+   "label": "12b",
+   "section": "Reasoning",
+   "stem": "$a$ and $b$ are positive integers. Is each statement always true?",
+   "prompt": "$a - b$ is positive",
+   "type": "choice",
+   "options": [
+    "Always true",
+    "Not always true"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "q12c",
+   "label": "12c",
+   "section": "Reasoning",
+   "stem": "$a$ and $b$ are positive integers. Is each statement always true?",
+   "prompt": "$-b - a$ is negative",
+   "type": "choice",
+   "options": [
+    "Always true",
+    "Not always true"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "q12d",
+   "label": "12d",
+   "section": "Reasoning",
+   "stem": "$a$ and $b$ are positive integers. Is each statement always true?",
+   "prompt": "$b - a$ is negative",
+   "type": "choice",
+   "options": [
+    "Always true",
+    "Not always true"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "q12e",
+   "label": "12e",
+   "section": "Reasoning",
+   "stem": "$a$ and $b$ are positive integers. Is each statement always true?",
+   "prompt": "$-a - b$ is positive",
+   "type": "choice",
+   "options": [
+    "Always true",
+    "Not always true"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "q12f",
+   "label": "12f",
+   "section": "Reasoning",
+   "stem": "$a$ and $b$ are positive integers. Is each statement always true?",
+   "prompt": "$-a + b$ is positive",
+   "type": "choice",
+   "options": [
+    "Always true",
+    "Not always true"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "q13",
+   "label": "13",
+   "section": "Reasoning",
+   "prompt": "There is only one number $a$ for which $a = -a$. What is it?",
+   "type": "numeric",
+   "answer": "0"
+  },
+  {
+   "id": "q14",
+   "label": "14",
+   "section": "Reasoning",
+   "prompt": "Find a quick way to evaluate this without a calculator: $1 - 2 + 3 - 4 + 5 - 6 + \\dots + 797 - 798 + 799 - 800$",
+   "type": "numeric",
+   "answer": "-400"
+  },
+  {
+   "id": "q15a",
+   "label": "15a",
+   "section": "Enrichment",
+   "stem": "Find the pair of integers $(a, b)$ that makes both equations true.",
+   "prompt": "$a + b = 7$ and $a - b = -1$",
+   "type": "point",
+   "answer": "(3,4)",
+   "hint": "Type the pair as (a, b), for example (6, -2)"
+  },
+  {
+   "id": "q15b",
+   "label": "15b",
+   "section": "Enrichment",
+   "stem": "Find the pair of integers $(a, b)$ that makes both equations true.",
+   "prompt": "$a + b = -6$ and $a - b = -12$",
+   "type": "point",
+   "answer": "(-9,3)"
+  },
+  {
+   "id": "q15c",
+   "label": "15c",
+   "section": "Enrichment",
+   "stem": "Find the pair of integers $(a, b)$ that makes both equations true.",
+   "prompt": "$a + 2b = -3$ and $a - 2b = -11$",
+   "type": "point",
+   "answer": "(-7,2)"
+  },
+  {
+   "id": "q15d",
+   "label": "15d",
+   "section": "Enrichment",
+   "stem": "Find the pair of integers $(a, b)$ that makes both equations true.",
+   "prompt": "$a + b = -5$ and $a - 2b = -17$",
+   "type": "point",
+   "answer": "(-9,4)"
+  }
+ ]
+},
+{
+ "id": "y8-1f",
+ "year": 8,
+ "chapter": "Chapter 1: Computation with integers",
+ "title": "1F Adding and subtracting negative integers",
+ "description": "Add and subtract negative integers by adding or subtracting the opposite.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$6 + (-4)$",
+   "type": "numeric",
+   "answer": "2"
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$9 + (-2)$",
+   "type": "numeric",
+   "answer": "7"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$5 + (-1)$",
+   "type": "numeric",
+   "answer": "4"
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$8 + (-6)$",
+   "type": "numeric",
+   "answer": "2"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$7 + (-3)$",
+   "type": "numeric",
+   "answer": "4"
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$5 + (-2)$",
+   "type": "numeric",
+   "answer": "3"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$6 + (-11)$",
+   "type": "numeric",
+   "answer": "-5"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$30 + (-8)$",
+   "type": "numeric",
+   "answer": "22"
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$3 + (-7)$",
+   "type": "numeric",
+   "answer": "-4"
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$24 + (-50)$",
+   "type": "numeric",
+   "answer": "-26"
+  },
+  {
+   "id": "q2g",
+   "label": "2g",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-4 + (-5)$",
+   "type": "numeric",
+   "answer": "-9"
+  },
+  {
+   "id": "q2h",
+   "label": "2h",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-13 + (-9)$",
+   "type": "numeric",
+   "answer": "-22"
+  },
+  {
+   "id": "q2i",
+   "label": "2i",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-17 + (-30)$",
+   "type": "numeric",
+   "answer": "-47"
+  },
+  {
+   "id": "q2j",
+   "label": "2j",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-42 + (-60)$",
+   "type": "numeric",
+   "answer": "-102"
+  },
+  {
+   "id": "q2k",
+   "label": "2k",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-75 + (-28)$",
+   "type": "numeric",
+   "answer": "-103"
+  },
+  {
+   "id": "q2l",
+   "label": "2l",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-140 + (-126)$",
+   "type": "numeric",
+   "answer": "-266"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$6 - (-4)$",
+   "type": "numeric",
+   "answer": "10"
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$12 - (-15)$",
+   "type": "numeric",
+   "answer": "27"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$9 - (-2)$",
+   "type": "numeric",
+   "answer": "11"
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$3 - (-8)$",
+   "type": "numeric",
+   "answer": "11"
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$3 - (-5)$",
+   "type": "numeric",
+   "answer": "8"
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$6 - (-6)$",
+   "type": "numeric",
+   "answer": "12"
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$17 - (-8)$",
+   "type": "numeric",
+   "answer": "25"
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$26 - (-19)$",
+   "type": "numeric",
+   "answer": "45"
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$64 - (-17)$",
+   "type": "numeric",
+   "answer": "81"
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$183 - (-250)$",
+   "type": "numeric",
+   "answer": "433"
+  },
+  {
+   "id": "q4g",
+   "label": "4g",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-7 - (-2)$",
+   "type": "numeric",
+   "answer": "-5"
+  },
+  {
+   "id": "q4h",
+   "label": "4h",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-9 - (-14)$",
+   "type": "numeric",
+   "answer": "5"
+  },
+  {
+   "id": "q4i",
+   "label": "4i",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-12 - (-19)$",
+   "type": "numeric",
+   "answer": "7"
+  },
+  {
+   "id": "q4j",
+   "label": "4j",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-20 - (-53)$",
+   "type": "numeric",
+   "answer": "33"
+  },
+  {
+   "id": "q4k",
+   "label": "4k",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-96 - (-37)$",
+   "type": "numeric",
+   "answer": "-59"
+  },
+  {
+   "id": "q4l",
+   "label": "4l",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-142 - (-215)$",
+   "type": "numeric",
+   "answer": "73"
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Fluency",
+   "stem": "State the missing number.",
+   "prompt": "$5 + \\square = 2$",
+   "type": "numeric",
+   "answer": "-3"
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Fluency",
+   "stem": "State the missing number.",
+   "prompt": "$9 + \\square = 0$",
+   "type": "numeric",
+   "answer": "-9"
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Fluency",
+   "stem": "State the missing number.",
+   "prompt": "$-3 + \\square = -1$",
+   "type": "numeric",
+   "answer": "2"
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Fluency",
+   "stem": "State the missing number.",
+   "prompt": "$\\square + (-6) = 4$",
+   "type": "numeric",
+   "answer": "10"
+  },
+  {
+   "id": "q5e",
+   "label": "5e",
+   "section": "Fluency",
+   "stem": "State the missing number.",
+   "prompt": "$\\square + (-7) = -2$",
+   "type": "numeric",
+   "answer": "5"
+  },
+  {
+   "id": "q5f",
+   "label": "5f",
+   "section": "Fluency",
+   "stem": "State the missing number.",
+   "prompt": "$\\square + (-4) = -19$",
+   "type": "numeric",
+   "answer": "-15"
+  },
+  {
+   "id": "q5g",
+   "label": "5g",
+   "section": "Fluency",
+   "stem": "State the missing number.",
+   "prompt": "$15 - \\square = 18$",
+   "type": "numeric",
+   "answer": "-3"
+  },
+  {
+   "id": "q5h",
+   "label": "5h",
+   "section": "Fluency",
+   "stem": "State the missing number.",
+   "prompt": "$6 - \\square = 13$",
+   "type": "numeric",
+   "answer": "-7"
+  },
+  {
+   "id": "q5i",
+   "label": "5i",
+   "section": "Fluency",
+   "stem": "State the missing number.",
+   "prompt": "$-2 - \\square = 31$",
+   "type": "numeric",
+   "answer": "-33"
+  },
+  {
+   "id": "q5j",
+   "label": "5j",
+   "section": "Fluency",
+   "stem": "State the missing number.",
+   "prompt": "$\\square - (-9) = 3$",
+   "type": "numeric",
+   "answer": "-6"
+  },
+  {
+   "id": "q5k",
+   "label": "5k",
+   "section": "Fluency",
+   "stem": "State the missing number.",
+   "prompt": "$\\square - (-3) = -8$",
+   "type": "numeric",
+   "answer": "-11"
+  },
+  {
+   "id": "q5l",
+   "label": "5l",
+   "section": "Fluency",
+   "stem": "State the missing number.",
+   "prompt": "$\\square - (-347) = 412$",
+   "type": "numeric",
+   "answer": "65"
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Problem-solving",
+   "stem": "Place the integers from $-4$ to $1$ in this magic triangle (one in each circle) so that each side adds to the given number. Which three integers must go in the corner circles?",
+   "prompt": "Each side adds to $-6$",
+   "type": "list",
+   "answer": [
+    "-4",
+    "-3",
+    "-2"
+   ],
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 40,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        4,
+        0
+       ],
+       [
+        2,
+        3.464
+       ]
+      ]
+     },
+     {
+      "circle": [
+       0,
+       0,
+       0.45
+      ],
+      "fill": true
+     },
+     {
+      "circle": [
+       2,
+       0,
+       0.45
+      ],
+      "fill": true
+     },
+     {
+      "circle": [
+       4,
+       0,
+       0.45
+      ],
+      "fill": true
+     },
+     {
+      "circle": [
+       3,
+       1.732,
+       0.45
+      ],
+      "fill": true
+     },
+     {
+      "circle": [
+       2,
+       3.464,
+       0.45
+      ],
+      "fill": true
+     },
+     {
+      "circle": [
+       1,
+       1.732,
+       0.45
+      ],
+      "fill": true
+     }
+    ],
+    "alt": "A triangle with a circle at each corner and one in the middle of each side"
+   },
+   "hint": "Type the three corner numbers separated by commas, in any order"
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Problem-solving",
+   "stem": "Place the integers from $-4$ to $1$ in this magic triangle (one in each circle) so that each side adds to the given number. Which three integers must go in the corner circles?",
+   "prompt": "Each side adds to $-3$",
+   "type": "list",
+   "answer": [
+    "-1",
+    "0",
+    "1"
+   ]
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Problem-solving",
+   "stem": "In a magic square, every row, column and main diagonal adds to the same magic sum. Complete each magic square.",
+   "prompt": "Give the values of A, B, C, D and E, in that order.",
+   "figure": {
+    "kind": "diagram",
+    "unit": 40,
+    "items": [
+     {
+      "seg": [
+       0,
+       0,
+       3.6,
+       0
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       3.6
+      ]
+     },
+     {
+      "seg": [
+       0,
+       1.2,
+       3.6,
+       1.2
+      ]
+     },
+     {
+      "seg": [
+       1.2,
+       0,
+       1.2,
+       3.6
+      ]
+     },
+     {
+      "seg": [
+       0,
+       2.4,
+       3.6,
+       2.4
+      ]
+     },
+     {
+      "seg": [
+       2.4,
+       0,
+       2.4,
+       3.6
+      ]
+     },
+     {
+      "seg": [
+       0,
+       3.5999999999999996,
+       3.6,
+       3.5999999999999996
+      ]
+     },
+     {
+      "seg": [
+       3.5999999999999996,
+       0,
+       3.5999999999999996,
+       3.6
+      ]
+     },
+     {
+      "label": "−2",
+      "at": [
+       0.6,
+       3
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       1.7999999999999998,
+       3
+      ]
+     },
+     {
+      "label": "A",
+      "at": [
+       3,
+       3
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       0.6,
+       1.7999999999999998
+      ]
+     },
+     {
+      "label": "−1",
+      "at": [
+       1.7999999999999998,
+       1.7999999999999998
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       3,
+       1.7999999999999998
+      ]
+     },
+     {
+      "label": "D",
+      "at": [
+       0.6,
+       0.6
+      ]
+     },
+     {
+      "label": "−5",
+      "at": [
+       1.7999999999999998,
+       0.6
+      ]
+     },
+     {
+      "label": "E",
+      "at": [
+       3,
+       0.6
+      ]
+     }
+    ],
+    "alt": "A 3 by 3 magic square with some numbers missing"
+   },
+   "type": "ordered",
+   "answer": [
+    "-4",
+    "-3",
+    "1",
+    "2",
+    "0"
+   ],
+   "hint": "Separate the numbers with commas, for example 4, -1, 0, 2, -3"
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Problem-solving",
+   "stem": "In a magic square, every row, column and main diagonal adds to the same magic sum. Complete each magic square.",
+   "prompt": "Give the values of A, B, C, D and E, in that order.",
+   "figure": {
+    "kind": "diagram",
+    "unit": 40,
+    "items": [
+     {
+      "seg": [
+       0,
+       0,
+       3.6,
+       0
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       3.6
+      ]
+     },
+     {
+      "seg": [
+       0,
+       1.2,
+       3.6,
+       1.2
+      ]
+     },
+     {
+      "seg": [
+       1.2,
+       0,
+       1.2,
+       3.6
+      ]
+     },
+     {
+      "seg": [
+       0,
+       2.4,
+       3.6,
+       2.4
+      ]
+     },
+     {
+      "seg": [
+       2.4,
+       0,
+       2.4,
+       3.6
+      ]
+     },
+     {
+      "seg": [
+       0,
+       3.5999999999999996,
+       3.6,
+       3.5999999999999996
+      ]
+     },
+     {
+      "seg": [
+       3.5999999999999996,
+       0,
+       3.5999999999999996,
+       3.6
+      ]
+     },
+     {
+      "label": "A",
+      "at": [
+       0.6,
+       3
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       1.7999999999999998,
+       3
+      ]
+     },
+     {
+      "label": "−11",
+      "at": [
+       3,
+       3
+      ]
+     },
+     {
+      "label": "−14",
+      "at": [
+       0.6,
+       1.7999999999999998
+      ]
+     },
+     {
+      "label": "−12",
+      "at": [
+       1.7999999999999998,
+       1.7999999999999998
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       3,
+       1.7999999999999998
+      ]
+     },
+     {
+      "label": "−13",
+      "at": [
+       0.6,
+       0.6
+      ]
+     },
+     {
+      "label": "D",
+      "at": [
+       1.7999999999999998,
+       0.6
+      ]
+     },
+     {
+      "label": "E",
+      "at": [
+       3,
+       0.6
+      ]
+     }
+    ],
+    "alt": "A 3 by 3 magic square with some numbers missing"
+   },
+   "type": "ordered",
+   "answer": [
+    "-9",
+    "-16",
+    "-10",
+    "-8",
+    "-15"
+   ]
+  },
+  {
+   "id": "q8",
+   "label": "8",
+   "section": "Problem-solving",
+   "prompt": "A bank account starts the week with a balance of $\\$230$. During the week: $\\$260$ is spent on a bike; $\\$400$ of debt is added as a cash advance; $\\$350$ of debt is repaid; $\\$90$ of debt is added as a bank fee; and $\\$120$ of debt is removed with a cash deposit. What is the balance at the end of the week? (Give an amount owing as a negative number.)",
+   "type": "numeric",
+   "units": "$",
+   "answer": "-50"
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Problem-solving",
+   "stem": "Find the pair of negative integers $a$ and $b$ that makes both equations true. Give your answer as $(a, b)$.",
+   "prompt": "$a + b = -10$ and $a - b = 4$",
+   "type": "point",
+   "answer": "(-3,-7)",
+   "hint": "Type the pair as (a, b), for example (-3, -8)"
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Problem-solving",
+   "stem": "Find the pair of negative integers $a$ and $b$ that makes both equations true. Give your answer as $(a, b)$.",
+   "prompt": "$a + b = -30$ and $a - b = -8$",
+   "type": "point",
+   "answer": "(-19,-11)"
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Problem-solving",
+   "prompt": "The sum of two integers is $-7$ and their difference is $13$. What are the two integers?",
+   "type": "list",
+   "answer": [
+    "3",
+    "-10"
+   ]
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Problem-solving",
+   "prompt": "The sum of two integers is $9$ and their difference is $21$. What are the two integers?",
+   "type": "list",
+   "answer": [
+    "15",
+    "-6"
+   ]
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Reasoning",
+   "stem": "Each working below has a mistake in it. Work out the correct answer.",
+   "prompt": "$7 - (-3) = 7 - 3 = 4$",
+   "type": "numeric",
+   "answer": "10"
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Reasoning",
+   "stem": "Each working below has a mistake in it. Work out the correct answer.",
+   "prompt": "$-4 + (-6) = 4 - 6 = -2$",
+   "type": "numeric",
+   "answer": "-10"
+  },
+  {
+   "id": "q12a",
+   "label": "12a",
+   "section": "Reasoning",
+   "stem": "An addition fact like $2 + 3 = 5$ gives two subtraction facts: $5 - 2 = 3$ and $5 - 3 = 2$. Give the two missing numbers, in order.",
+   "prompt": "From $5 + 9 = 14$: $\\;14 - 5 = \\square\\;$ and $\\;14 - 9 = \\square$",
+   "type": "ordered",
+   "answer": [
+    "9",
+    "5"
+   ],
+   "hint": "Type the two numbers separated by a comma"
+  },
+  {
+   "id": "q12b",
+   "label": "12b",
+   "section": "Reasoning",
+   "stem": "An addition fact like $2 + 3 = 5$ gives two subtraction facts: $5 - 2 = 3$ and $5 - 3 = 2$. Give the two missing numbers, in order.",
+   "prompt": "From $8 + (-3) = 5$: $\\;5 - 8 = \\square\\;$ and $\\;5 - (-3) = \\square$",
+   "type": "ordered",
+   "answer": [
+    "-3",
+    "8"
+   ]
+  },
+  {
+   "id": "q13a",
+   "label": "13a",
+   "section": "Reasoning",
+   "stem": "$a$ and $b$ are both negative integers and $a < b$. Is each of these always less than zero?",
+   "prompt": "$a + b$",
+   "type": "choice",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "q13b",
+   "label": "13b",
+   "section": "Reasoning",
+   "stem": "$a$ and $b$ are both negative integers and $a < b$. Is each of these always less than zero?",
+   "prompt": "$b + a$",
+   "type": "choice",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "q13c",
+   "label": "13c",
+   "section": "Reasoning",
+   "stem": "$a$ and $b$ are both negative integers and $a < b$. Is each of these always less than zero?",
+   "prompt": "$a - b$",
+   "type": "choice",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "q13d",
+   "label": "13d",
+   "section": "Reasoning",
+   "stem": "$a$ and $b$ are both negative integers and $a < b$. Is each of these always less than zero?",
+   "prompt": "$b - a$",
+   "type": "choice",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "q14a",
+   "label": "14a",
+   "section": "Reasoning",
+   "stem": "$b$ is a negative number. Is each of these equal to zero?",
+   "prompt": "$b - b$",
+   "type": "choice",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "q14b",
+   "label": "14b",
+   "section": "Reasoning",
+   "stem": "$b$ is a negative number. Is each of these equal to zero?",
+   "prompt": "$b + b$",
+   "type": "choice",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "q14c",
+   "label": "14c",
+   "section": "Reasoning",
+   "stem": "$b$ is a negative number. Is each of these equal to zero?",
+   "prompt": "$b - (-b)$",
+   "type": "choice",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "q14d",
+   "label": "14d",
+   "section": "Reasoning",
+   "stem": "$b$ is a negative number. Is each of these equal to zero?",
+   "prompt": "$(-b) + b$",
+   "type": "choice",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "q15a",
+   "label": "15a",
+   "section": "Enrichment",
+   "stem": "A rule linking two integers, $x$ and $y$, is $y = -4 - x$.",
+   "prompt": "Complete the table. Give the $y$ values in order from left to right.",
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "x",
+      "-3",
+      "-2",
+      "-1",
+      "0",
+      "1",
+      "2"
+     ],
+     [
+      "y",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+     ]
+    ]
+   },
+   "type": "ordered",
+   "answer": [
+    "-1",
+    "-2",
+    "-3",
+    "-4",
+    "-5",
+    "-6"
+   ],
+   "hint": "Separate the numbers with commas"
+  },
+  {
+   "id": "q15b",
+   "label": "15b",
+   "section": "Enrichment",
+   "stem": "A rule linking two integers, $x$ and $y$, is $y = -4 - x$.",
+   "prompt": "Find the value of $y$ when $x = -11$.",
+   "type": "numeric",
+   "answer": "7"
+  },
+  {
+   "id": "q15c",
+   "label": "15c",
+   "section": "Enrichment",
+   "stem": "A rule linking two integers, $x$ and $y$, is $y = -4 - x$.",
+   "prompt": "Find the value of $x$ when $y = 40$.",
+   "type": "numeric",
+   "answer": "-44"
+  },
+  {
+   "id": "q16a",
+   "label": "16a",
+   "section": "Enrichment",
+   "stem": "A rule linking two integers, $x$ and $y$, is $x - y = -5$.",
+   "prompt": "Complete the table. Give the $y$ values in order from left to right.",
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "x",
+      "-3",
+      "-2",
+      "-1",
+      "0",
+      "1",
+      "2",
+      "3"
+     ],
+     [
+      "y",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+     ]
+    ]
+   },
+   "type": "ordered",
+   "answer": [
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8"
+   ],
+   "hint": "Separate the numbers with commas"
+  },
+  {
+   "id": "q16b",
+   "label": "16b",
+   "section": "Enrichment",
+   "stem": "A rule linking two integers, $x$ and $y$, is $x - y = -5$.",
+   "prompt": "Find the value of $y$ when $x = 14$.",
+   "type": "numeric",
+   "answer": "19"
+  },
+  {
+   "id": "q16c",
+   "label": "16c",
+   "section": "Enrichment",
+   "stem": "A rule linking two integers, $x$ and $y$, is $x - y = -5$.",
+   "prompt": "Find the value of $x$ when $y = -7$.",
+   "type": "numeric",
+   "answer": "-12"
+  }
+ ]
+},
+{
+ "id": "y8-1g",
+ "year": 8,
+ "chapter": "Chapter 1: Computation with integers",
+ "title": "1G Multiplying and dividing negative integers",
+ "description": "Multiply and divide with negative integers, using the sign rules and working left to right.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$3 \\times (-8)$",
+   "type": "numeric",
+   "answer": "-24"
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$4 \\times (-7)$",
+   "type": "numeric",
+   "answer": "-28"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-2 \\times (-9)$",
+   "type": "numeric",
+   "answer": "18"
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-6 \\times (-12)$",
+   "type": "numeric",
+   "answer": "72"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$3 \\times (-6)$",
+   "type": "numeric",
+   "answer": "-18"
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$7 \\times (-8)$",
+   "type": "numeric",
+   "answer": "-56"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-5 \\times 10$",
+   "type": "numeric",
+   "answer": "-50"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-12 \\times 8$",
+   "type": "numeric",
+   "answer": "-96"
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-3 \\times (-4)$",
+   "type": "numeric",
+   "answer": "12"
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-6 \\times (-2)$",
+   "type": "numeric",
+   "answer": "12"
+  },
+  {
+   "id": "q2g",
+   "label": "2g",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-10 \\times (-7)$",
+   "type": "numeric",
+   "answer": "70"
+  },
+  {
+   "id": "q2h",
+   "label": "2h",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-100 \\times (-6)$",
+   "type": "numeric",
+   "answer": "600"
+  },
+  {
+   "id": "q2i",
+   "label": "2i",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-5 \\times 9$",
+   "type": "numeric",
+   "answer": "-45"
+  },
+  {
+   "id": "q2j",
+   "label": "2j",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$30 \\times (-4)$",
+   "type": "numeric",
+   "answer": "-120"
+  },
+  {
+   "id": "q2k",
+   "label": "2k",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-30 \\times (-2)$",
+   "type": "numeric",
+   "answer": "60"
+  },
+  {
+   "id": "q2l",
+   "label": "2l",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-30 \\times (-30)$",
+   "type": "numeric",
+   "answer": "900"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-14 \\div 2$",
+   "type": "numeric",
+   "answer": "-7"
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-60 \\div 10$",
+   "type": "numeric",
+   "answer": "-6"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-50 \\div 10$",
+   "type": "numeric",
+   "answer": "-5"
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-18 \\div 6$",
+   "type": "numeric",
+   "answer": "-3"
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$21 \\div (-7)$",
+   "type": "numeric",
+   "answer": "-3"
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$37 \\div (-1)$",
+   "type": "numeric",
+   "answer": "-37"
+  },
+  {
+   "id": "q3g",
+   "label": "3g",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$80 \\div (-2)$",
+   "type": "numeric",
+   "answer": "-40"
+  },
+  {
+   "id": "q3h",
+   "label": "3h",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$120 \\div (-30)$",
+   "type": "numeric",
+   "answer": "-4"
+  },
+  {
+   "id": "q3i",
+   "label": "3i",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-8 \\div (-2)$",
+   "type": "numeric",
+   "answer": "4"
+  },
+  {
+   "id": "q3j",
+   "label": "3j",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-40 \\div (-10)$",
+   "type": "numeric",
+   "answer": "4"
+  },
+  {
+   "id": "q3k",
+   "label": "3k",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-63 \\div (-7)$",
+   "type": "numeric",
+   "answer": "9"
+  },
+  {
+   "id": "q3l",
+   "label": "3l",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-42 \\div (-6)$",
+   "type": "numeric",
+   "answer": "7"
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "State the missing number.",
+   "prompt": "$\\square \\times 4 = -12$",
+   "type": "numeric",
+   "answer": "-3"
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "State the missing number.",
+   "prompt": "$\\square \\times (-6) = 42$",
+   "type": "numeric",
+   "answer": "-7"
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "State the missing number.",
+   "prompt": "$\\square \\times (-5) = -35$",
+   "type": "numeric",
+   "answer": "7"
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "State the missing number.",
+   "prompt": "$-4 \\times \\square = -24$",
+   "type": "numeric",
+   "answer": "6"
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Fluency",
+   "stem": "State the missing number.",
+   "prompt": "$-13 \\times \\square = 52$",
+   "type": "numeric",
+   "answer": "-4"
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Fluency",
+   "stem": "State the missing number.",
+   "prompt": "$-17 \\times \\square = -68$",
+   "type": "numeric",
+   "answer": "4"
+  },
+  {
+   "id": "q4g",
+   "label": "4g",
+   "section": "Fluency",
+   "stem": "State the missing number.",
+   "prompt": "$\\square \\div (-7) = 6$",
+   "type": "numeric",
+   "answer": "-42"
+  },
+  {
+   "id": "q4h",
+   "label": "4h",
+   "section": "Fluency",
+   "stem": "State the missing number.",
+   "prompt": "$\\square \\div 5 = -31$",
+   "type": "numeric",
+   "answer": "-155"
+  },
+  {
+   "id": "q4i",
+   "label": "4i",
+   "section": "Fluency",
+   "stem": "State the missing number.",
+   "prompt": "$96 \\div \\square = -16$",
+   "type": "numeric",
+   "answer": "-6"
+  },
+  {
+   "id": "q4j",
+   "label": "4j",
+   "section": "Fluency",
+   "stem": "State the missing number.",
+   "prompt": "$-140 \\div \\square = 7$",
+   "type": "numeric",
+   "answer": "-20"
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Fluency",
+   "stem": "Evaluate the following. (Multiplication and division are at the same level, so work from left to right.)",
+   "prompt": "$-6 \\times 3 \\div (-9)$",
+   "type": "numeric",
+   "answer": "2"
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Fluency",
+   "stem": "Evaluate the following. (Multiplication and division are at the same level, so work from left to right.)",
+   "prompt": "$28 \\div (-14) \\times (-8)$",
+   "type": "numeric",
+   "answer": "16"
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Fluency",
+   "stem": "Evaluate the following. (Multiplication and division are at the same level, so work from left to right.)",
+   "prompt": "$54 \\div (-6) \\times (-10)$",
+   "type": "numeric",
+   "answer": "90"
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Fluency",
+   "stem": "Evaluate the following. (Multiplication and division are at the same level, so work from left to right.)",
+   "prompt": "$-1 \\times 46 \\times (-3) \\div (-6)$",
+   "type": "numeric",
+   "answer": "-23"
+  },
+  {
+   "id": "q5e",
+   "label": "5e",
+   "section": "Fluency",
+   "stem": "Evaluate the following. (Multiplication and division are at the same level, so work from left to right.)",
+   "prompt": "$-120 \\div (-12) \\times 7 \\div (-1)$",
+   "type": "numeric",
+   "answer": "-70"
+  },
+  {
+   "id": "q5f",
+   "label": "5f",
+   "section": "Fluency",
+   "stem": "Evaluate the following. (Multiplication and division are at the same level, so work from left to right.)",
+   "prompt": "$-18 \\times (-2) \\div (-4) \\times (-3)$",
+   "type": "numeric",
+   "answer": "27"
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Problem-solving",
+   "stem": "Choose the $\\times$ and $\\div$ signs that make each equation true.",
+   "prompt": "$-3 \\;\\square\\; 4 \\;\\square\\; (-12) = 1$",
+   "type": "choice",
+   "options": [
+    "-3 × 4 × (-12) = 1",
+    "-3 × 4 ÷ (-12) = 1",
+    "-3 ÷ 4 × (-12) = 1",
+    "-3 ÷ 4 ÷ (-12) = 1"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Problem-solving",
+   "stem": "Choose the $\\times$ and $\\div$ signs that make each equation true.",
+   "prompt": "$12 \\;\\square\\; (-4) \\;\\square\\; (-2) = 6$",
+   "type": "choice",
+   "options": [
+    "12 × (-4) × (-2) = 6",
+    "12 × (-4) ÷ (-2) = 6",
+    "12 ÷ (-4) × (-2) = 6",
+    "12 ÷ (-4) ÷ (-2) = 6"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Problem-solving",
+   "stem": "Choose the $\\times$ and $\\div$ signs that make each equation true.",
+   "prompt": "$5 \\;\\square\\; (-5) \\;\\square\\; 30 = -30$",
+   "type": "choice",
+   "options": [
+    "5 × (-5) × 30 = -30",
+    "5 × (-5) ÷ 30 = -30",
+    "5 ÷ (-5) × 30 = -30",
+    "5 ÷ (-5) ÷ 30 = -30"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Problem-solving",
+   "stem": "Choose the $\\times$ and $\\div$ signs that make each equation true.",
+   "prompt": "$-18 \\;\\square\\; (-9) \\;\\square\\; (-2) = -1$",
+   "type": "choice",
+   "options": [
+    "-18 × (-9) × (-2) = -1",
+    "-18 × (-9) ÷ (-2) = -1",
+    "-18 ÷ (-9) × (-2) = -1",
+    "-18 ÷ (-9) ÷ (-2) = -1"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "q6e",
+   "label": "6e",
+   "section": "Problem-solving",
+   "stem": "Choose the $\\times$ and $\\div$ signs that make each equation true.",
+   "prompt": "$-36 \\;\\square\\; (-4) \\;\\square\\; (-3) = -48$",
+   "type": "choice",
+   "options": [
+    "-36 × (-4) × (-3) = -48",
+    "-36 × (-4) ÷ (-3) = -48",
+    "-36 ÷ (-4) × (-3) = -48",
+    "-36 ÷ (-4) ÷ (-3) = -48"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "q6f",
+   "label": "6f",
+   "section": "Problem-solving",
+   "stem": "Choose the $\\times$ and $\\div$ signs that make each equation true.",
+   "prompt": "$140 \\;\\square\\; (-5) \\;\\square\\; (-4) = 112$",
+   "type": "choice",
+   "options": [
+    "140 × (-5) × (-4) = 112",
+    "140 × (-5) ÷ (-4) = 112",
+    "140 ÷ (-5) × (-4) = 112",
+    "140 ÷ (-5) ÷ (-4) = 112"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "q7",
+   "label": "7",
+   "section": "Problem-solving",
+   "prompt": "Find the average of the numbers $-9$, $-14$ and $-4$. (To find the average of three numbers, add them and divide by $3$.)",
+   "type": "numeric",
+   "answer": "-9"
+  },
+  {
+   "id": "q8",
+   "label": "8",
+   "section": "Problem-solving",
+   "prompt": "The average of two numbers is $-6$. A third number is added to the list, and the average of all three becomes $-5$. What is the third number?",
+   "type": "numeric",
+   "answer": "-3"
+  },
+  {
+   "id": "q9",
+   "label": "9",
+   "section": "Problem-solving",
+   "prompt": "The product of two numbers is $-30$ and their sum is $-7$. What are the two numbers?",
+   "type": "list",
+   "answer": [
+    "-10",
+    "3"
+   ],
+   "hint": "Type both numbers separated by a comma"
+  },
+  {
+   "id": "q10",
+   "label": "10",
+   "section": "Problem-solving",
+   "prompt": "When one number is divided by another, the answer is $-3$. When the second number is subtracted from the first, the answer is $12$. What are the two numbers? Give the first number, then the second.",
+   "type": "ordered",
+   "answer": [
+    "9",
+    "-3"
+   ],
+   "hint": "Type the two numbers in order, separated by a comma"
+  },
+  {
+   "id": "q12a",
+   "label": "12a",
+   "section": "Reasoning",
+   "stem": "Remember that $a^2 = a \\times a$ and $a^3 = a \\times a \\times a$.",
+   "prompt": "Evaluate $(-3)^2$",
+   "type": "numeric",
+   "answer": "9"
+  },
+  {
+   "id": "q12b",
+   "label": "12b",
+   "section": "Reasoning",
+   "stem": "Remember that $a^2 = a \\times a$ and $a^3 = a \\times a \\times a$.",
+   "prompt": "Evaluate $(-2)^3$",
+   "type": "numeric",
+   "answer": "-8"
+  },
+  {
+   "id": "q12c",
+   "label": "12c",
+   "section": "Reasoning",
+   "stem": "Remember that $a^2 = a \\times a$ and $a^3 = a \\times a \\times a$.",
+   "prompt": "Evaluate $(-5)^3$",
+   "type": "numeric",
+   "answer": "-125"
+  },
+  {
+   "id": "q12d",
+   "label": "12d",
+   "section": "Reasoning",
+   "stem": "Remember that $a^2 = a \\times a$ and $a^3 = a \\times a \\times a$.",
+   "prompt": "Evaluate $(-6)^2$",
+   "type": "numeric",
+   "answer": "36"
+  },
+  {
+   "id": "q12e",
+   "label": "12e",
+   "section": "Reasoning",
+   "stem": "Remember that $a^2 = a \\times a$ and $a^3 = a \\times a \\times a$.",
+   "prompt": "Will the square of a negative number always be positive?",
+   "type": "choice",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "q12f",
+   "label": "12f",
+   "section": "Reasoning",
+   "stem": "Remember that $a^2 = a \\times a$ and $a^3 = a \\times a \\times a$.",
+   "prompt": "Will the cube of a negative number always be negative?",
+   "type": "choice",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "q13a",
+   "label": "13a",
+   "section": "Reasoning",
+   "stem": "Powers of $-1$.",
+   "prompt": "State the value of $(-1)^{3}$",
+   "type": "numeric",
+   "answer": "-1"
+  },
+  {
+   "id": "q13b",
+   "label": "13b",
+   "section": "Reasoning",
+   "stem": "Powers of $-1$.",
+   "prompt": "State the value of $(-1)^{4}$",
+   "type": "numeric",
+   "answer": "1"
+  },
+  {
+   "id": "q13c",
+   "label": "13c",
+   "section": "Reasoning",
+   "stem": "Powers of $-1$.",
+   "prompt": "State the value of $(-1)^{7}$",
+   "type": "numeric",
+   "answer": "-1"
+  },
+  {
+   "id": "q13d",
+   "label": "13d",
+   "section": "Reasoning",
+   "stem": "Powers of $-1$.",
+   "prompt": "State the value of $(-1)^{8}$",
+   "type": "numeric",
+   "answer": "1"
+  },
+  {
+   "id": "q13e",
+   "label": "13e",
+   "section": "Reasoning",
+   "stem": "Powers of $-1$.",
+   "prompt": "State the value of $(-1)^{11}$",
+   "type": "numeric",
+   "answer": "-1"
+  },
+  {
+   "id": "q13f",
+   "label": "13f",
+   "section": "Reasoning",
+   "stem": "Powers of $-1$.",
+   "prompt": "Which statement is true for any whole number $n$?",
+   "type": "choice",
+   "options": [
+    "(-1)^n is 1 when n is even, and -1 when n is odd",
+    "(-1)^n is 1 when n is odd, and -1 when n is even"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "q13g",
+   "label": "13g",
+   "section": "Reasoning",
+   "stem": "Powers of $-1$.",
+   "prompt": "What is the value of $(-1)^{1001}$?",
+   "type": "numeric",
+   "answer": "-1"
+  },
+  {
+   "id": "q14",
+   "label": "14",
+   "section": "Reasoning",
+   "prompt": "We know that $4^2 = 16$ and $(-4)^2 = 16$. Is $\\sqrt{-16}$ a real number?",
+   "type": "choice",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "q15a",
+   "label": "15a",
+   "section": "Reasoning",
+   "stem": "Cube roots of negative numbers.",
+   "prompt": "Is it possible to find the cube root of a negative number?",
+   "type": "choice",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "q15b",
+   "label": "15b",
+   "section": "Reasoning",
+   "stem": "Cube roots of negative numbers.",
+   "prompt": "Evaluate $\\sqrt[3]{-125}$",
+   "type": "numeric",
+   "answer": "-5"
+  },
+  {
+   "id": "q15c",
+   "label": "15c",
+   "section": "Reasoning",
+   "stem": "Cube roots of negative numbers.",
+   "prompt": "Evaluate $\\sqrt[3]{-8}$",
+   "type": "numeric",
+   "answer": "-2"
+  },
+  {
+   "id": "q16a",
+   "label": "16a",
+   "section": "Enrichment",
+   "stem": "Find a rule linking $x$ and $y$ for each table. Start your rule with $y =$, for example $y = 3x - 4$.",
+   "prompt": "Find the rule for this table.",
+   "figure": {
+    "kind": "table",
+    "rows": [
+     [
+      "x",
+      "-3",
+      "-2",
+      "-1",
+      "0",
+      "1",
+      "2"
+     ],
+     [
+      "y",
+      "13",
+      "9",
+      "5",
+      "1",
+      "-3",
+      "-7"
+     ]
+    ]
+   },
+   "type": "expression",
+   "answer": "y=-4x+1",
+   "accept": [
+    "-4x+1"
+   ],
+   "hint": "Type the rule like y = 3x - 4. Type x squared as x^2"
+  },
+  {
+   "id": "q16b",
+   "label": "16b",
+   "section": "Enrichment",
+   "stem": "Find a rule linking $x$ and $y$ for each table. Start your rule with $y =$, for example $y = 3x - 4$.",
+   "prompt": "Find the rule for this table.",
+   "figure": {
+    "kind": "table",
+    "rows": [
+     [
+      "x",
+      "-3",
+      "-2",
+      "-1",
+      "0",
+      "1",
+      "2"
+     ],
+     [
+      "y",
+      "13",
+      "8",
+      "3",
+      "-2",
+      "-7",
+      "-12"
+     ]
+    ]
+   },
+   "type": "expression",
+   "answer": "y=-5x-2",
+   "accept": [
+    "-5x-2"
+   ]
+  },
+  {
+   "id": "q16c",
+   "label": "16c",
+   "section": "Enrichment",
+   "stem": "Find a rule linking $x$ and $y$ for each table. Start your rule with $y =$, for example $y = 3x - 4$.",
+   "prompt": "Find the rule for this table.",
+   "figure": {
+    "kind": "table",
+    "rows": [
+     [
+      "x",
+      "-4",
+      "-2",
+      "0",
+      "2",
+      "4",
+      "6"
+     ],
+     [
+      "y",
+      "13",
+      "1",
+      "-3",
+      "1",
+      "13",
+      "33"
+     ]
+    ]
+   },
+   "type": "expression",
+   "answer": "y=x^2-3",
+   "accept": [
+    "x^2-3"
+   ]
+  }
+ ]
+},
+{
+ "id": "y8-1h",
+ "year": 8,
+ "chapter": "Chapter 1: Computation with integers",
+ "title": "1H Order of operations and substitution",
+ "description": "Use the order of operations with negative integers, and substitute negative values into expressions.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$5 + 3 \\times (-2)$",
+   "type": "numeric",
+   "answer": "-1"
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$7 + 1 \\times (-4)$",
+   "type": "numeric",
+   "answer": "3"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$9 - 3 \\times (-2)$",
+   "type": "numeric",
+   "answer": "15"
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$12 - 1 \\times (-6)$",
+   "type": "numeric",
+   "answer": "18"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Evaluate the following. Remember to use the normal order of operations.",
+   "prompt": "$-3 \\times 4 \\times 2$",
+   "type": "numeric",
+   "answer": "-24"
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Evaluate the following. Remember to use the normal order of operations.",
+   "prompt": "$-5 - 3 \\times 4$",
+   "type": "numeric",
+   "answer": "-17"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Evaluate the following. Remember to use the normal order of operations.",
+   "prompt": "$6 - 7 \\times (-1)$",
+   "type": "numeric",
+   "answer": "13"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Evaluate the following. Remember to use the normal order of operations.",
+   "prompt": "$-8 \\div (-2) + 5 \\times (-3)$",
+   "type": "numeric",
+   "answer": "-11"
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Evaluate the following. Remember to use the normal order of operations.",
+   "prompt": "$7 \\times (-3) - 12 \\div (-4)$",
+   "type": "numeric",
+   "answer": "-18"
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "Evaluate the following. Remember to use the normal order of operations.",
+   "prompt": "$5 + 6 \\times (-4) \\div (-8)$",
+   "type": "numeric",
+   "answer": "8"
+  },
+  {
+   "id": "q2g",
+   "label": "2g",
+   "section": "Fluency",
+   "stem": "Evaluate the following. Remember to use the normal order of operations.",
+   "prompt": "$18 - 12 \\div (-3) \\times 2$",
+   "type": "numeric",
+   "answer": "26"
+  },
+  {
+   "id": "q2h",
+   "label": "2h",
+   "section": "Fluency",
+   "stem": "Evaluate the following. Remember to use the normal order of operations.",
+   "prompt": "$0 \\times (-7) + 3 \\times (-20)$",
+   "type": "numeric",
+   "answer": "-60"
+  },
+  {
+   "id": "q2i",
+   "label": "2i",
+   "section": "Fluency",
+   "stem": "Evaluate the following. Remember to use the normal order of operations.",
+   "prompt": "$40 - 18 \\div (-3) + 0$",
+   "type": "numeric",
+   "answer": "46"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Use the order of operations to evaluate the following.",
+   "prompt": "$4 \\times (3 - 6)$",
+   "type": "numeric",
+   "answer": "-12"
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Use the order of operations to evaluate the following.",
+   "prompt": "$(5 - (-3)) \\times 2$",
+   "type": "numeric",
+   "answer": "16"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Use the order of operations to evaluate the following.",
+   "prompt": "$(-9 + (-3)) \\div (-4)$",
+   "type": "numeric",
+   "answer": "3"
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Use the order of operations to evaluate the following.",
+   "prompt": "$36 \\div (5 - (-4)) + 2$",
+   "type": "numeric",
+   "answer": "6"
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "Use the order of operations to evaluate the following.",
+   "prompt": "$0 \\times (27 - (-5)) \\times (-8)$",
+   "type": "numeric",
+   "answer": "0"
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "Use the order of operations to evaluate the following.",
+   "prompt": "$-8 \\times (-2 + 5) \\div (-6)$",
+   "type": "numeric",
+   "answer": "4"
+  },
+  {
+   "id": "q3g",
+   "label": "3g",
+   "section": "Fluency",
+   "stem": "Use the order of operations to evaluate the following.",
+   "prompt": "$((-3) + 1) \\times (6 - (-4))$",
+   "type": "numeric",
+   "answer": "-20"
+  },
+  {
+   "id": "q3h",
+   "label": "3h",
+   "section": "Fluency",
+   "stem": "Use the order of operations to evaluate the following.",
+   "prompt": "$(-8 - 7) \\div (30 \\div (-6))$",
+   "type": "numeric",
+   "answer": "3"
+  },
+  {
+   "id": "q3i",
+   "label": "3i",
+   "section": "Fluency",
+   "stem": "Use the order of operations to evaluate the following.",
+   "prompt": "$-3 \\times (6 - 4 \\times (-2))$",
+   "type": "numeric",
+   "answer": "-42"
+  },
+  {
+   "id": "q3j",
+   "label": "3j",
+   "section": "Fluency",
+   "stem": "Use the order of operations to evaluate the following.",
+   "prompt": "$(5 - (-3) \\times 3) \\div 7$",
+   "type": "numeric",
+   "answer": "2"
+  },
+  {
+   "id": "q3k",
+   "label": "3k",
+   "section": "Fluency",
+   "stem": "Use the order of operations to evaluate the following.",
+   "prompt": "$-5 \\times (3 - (-8) \\div 4)$",
+   "type": "numeric",
+   "answer": "-25"
+  },
+  {
+   "id": "q3l",
+   "label": "3l",
+   "section": "Fluency",
+   "stem": "Use the order of operations to evaluate the following.",
+   "prompt": "$-12 \\div (2 - 4 \\times 2)$",
+   "type": "numeric",
+   "answer": "2"
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "Use the order of operations to evaluate the following.",
+   "prompt": "$4 \\times 3^2 \\div 6$",
+   "type": "numeric",
+   "answer": "6"
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "Use the order of operations to evaluate the following.",
+   "prompt": "$5 + 2^2 \\times 3$",
+   "type": "numeric",
+   "answer": "17"
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "Use the order of operations to evaluate the following.",
+   "prompt": "$(7 - 3^2) \\times (-3)$",
+   "type": "numeric",
+   "answer": "6"
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "Use the order of operations to evaluate the following.",
+   "prompt": "$(10 + 2^3) \\div (-6)$",
+   "type": "numeric",
+   "answer": "-3"
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Fluency",
+   "stem": "Use the order of operations to evaluate the following.",
+   "prompt": "$3^2 - 4^2$",
+   "type": "numeric",
+   "answer": "-7"
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Fluency",
+   "stem": "Use the order of operations to evaluate the following.",
+   "prompt": "$2^3 \\div 4 + 5$",
+   "type": "numeric",
+   "answer": "7"
+  },
+  {
+   "id": "q4g",
+   "label": "4g",
+   "section": "Fluency",
+   "stem": "Use the order of operations to evaluate the following.",
+   "prompt": "$12 \\div (-1)^3 \\times 3$",
+   "type": "numeric",
+   "answer": "-36"
+  },
+  {
+   "id": "q4h",
+   "label": "4h",
+   "section": "Fluency",
+   "stem": "Use the order of operations to evaluate the following.",
+   "prompt": "$(-3)^3 - 8 \\div (-4)$",
+   "type": "numeric",
+   "answer": "-25"
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Fluency",
+   "stem": "Evaluate these expressions using $a = -3$ and $b = 2$.",
+   "prompt": "$a + b$",
+   "type": "numeric",
+   "answer": "-1"
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Fluency",
+   "stem": "Evaluate these expressions using $a = -3$ and $b = 2$.",
+   "prompt": "$a - b$",
+   "type": "numeric",
+   "answer": "-5"
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Fluency",
+   "stem": "Evaluate these expressions using $a = -3$ and $b = 2$.",
+   "prompt": "$2a - b$",
+   "type": "numeric",
+   "answer": "-8"
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Fluency",
+   "stem": "Evaluate these expressions using $a = -3$ and $b = 2$.",
+   "prompt": "$b - a$",
+   "type": "numeric",
+   "answer": "5"
+  },
+  {
+   "id": "q5e",
+   "label": "5e",
+   "section": "Fluency",
+   "stem": "Evaluate these expressions using $a = -3$ and $b = 2$.",
+   "prompt": "$a - 3b$",
+   "type": "numeric",
+   "answer": "-9"
+  },
+  {
+   "id": "q5f",
+   "label": "5f",
+   "section": "Fluency",
+   "stem": "Evaluate these expressions using $a = -3$ and $b = 2$.",
+   "prompt": "$4b - 2a$",
+   "type": "numeric",
+   "answer": "14"
+  },
+  {
+   "id": "q5g",
+   "label": "5g",
+   "section": "Fluency",
+   "stem": "Evaluate these expressions using $a = -3$ and $b = 2$.",
+   "prompt": "$b \\times (3 + a)$",
+   "type": "numeric",
+   "answer": "0"
+  },
+  {
+   "id": "q5h",
+   "label": "5h",
+   "section": "Fluency",
+   "stem": "Evaluate these expressions using $a = -3$ and $b = 2$.",
+   "prompt": "$a(4 - b)$",
+   "type": "numeric",
+   "answer": "-6"
+  },
+  {
+   "id": "q5i",
+   "label": "5i",
+   "section": "Fluency",
+   "stem": "Evaluate these expressions using $a = -3$ and $b = 2$.",
+   "prompt": "$(3b + a) - (b - 2a)$",
+   "type": "numeric",
+   "answer": "-5"
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Fluency",
+   "stem": "Evaluate these expressions using $a = -4$ and $b = 3$.",
+   "prompt": "$ab$",
+   "type": "numeric",
+   "answer": "-12"
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Fluency",
+   "stem": "Evaluate these expressions using $a = -4$ and $b = 3$.",
+   "prompt": "$ba$",
+   "type": "numeric",
+   "answer": "-12"
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Fluency",
+   "stem": "Evaluate these expressions using $a = -4$ and $b = 3$.",
+   "prompt": "$a + b$",
+   "type": "numeric",
+   "answer": "-1"
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Fluency",
+   "stem": "Evaluate these expressions using $a = -4$ and $b = 3$.",
+   "prompt": "$a - b$",
+   "type": "numeric",
+   "answer": "-7"
+  },
+  {
+   "id": "q6e",
+   "label": "6e",
+   "section": "Fluency",
+   "stem": "Evaluate these expressions using $a = -4$ and $b = 3$.",
+   "prompt": "$b - a$",
+   "type": "numeric",
+   "answer": "7"
+  },
+  {
+   "id": "q6f",
+   "label": "6f",
+   "section": "Fluency",
+   "stem": "Evaluate these expressions using $a = -4$ and $b = 3$.",
+   "prompt": "$2a + 3b$",
+   "type": "numeric",
+   "answer": "1"
+  },
+  {
+   "id": "q6g",
+   "label": "6g",
+   "section": "Fluency",
+   "stem": "Evaluate these expressions using $a = -4$ and $b = 3$.",
+   "prompt": "$(a + b) \\times (-3)$",
+   "type": "numeric",
+   "answer": "3"
+  },
+  {
+   "id": "q6h",
+   "label": "6h",
+   "section": "Fluency",
+   "stem": "Evaluate these expressions using $a = -4$ and $b = 3$.",
+   "prompt": "$(a + b) - (a - b)$",
+   "type": "numeric",
+   "answer": "6"
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Fluency",
+   "stem": "Evaluate these expressions using $a = -4$ and $b = 3$.",
+   "prompt": "$a + b^2$",
+   "type": "numeric",
+   "answer": "5"
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Fluency",
+   "stem": "Evaluate these expressions using $a = -4$ and $b = 3$.",
+   "prompt": "$a^2 - b$",
+   "type": "numeric",
+   "answer": "13"
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Fluency",
+   "stem": "Evaluate these expressions using $a = -4$ and $b = 3$.",
+   "prompt": "$b^2 - a$",
+   "type": "numeric",
+   "answer": "13"
+  },
+  {
+   "id": "q7d",
+   "label": "7d",
+   "section": "Fluency",
+   "stem": "Evaluate these expressions using $a = -4$ and $b = 3$.",
+   "prompt": "$b^3 + a$",
+   "type": "numeric",
+   "answer": "23"
+  },
+  {
+   "id": "q7e",
+   "label": "7e",
+   "section": "Fluency",
+   "stem": "Evaluate these expressions using $a = -4$ and $b = 3$.",
+   "prompt": "$a^3 - b$",
+   "type": "numeric",
+   "answer": "-67"
+  },
+  {
+   "id": "q7f",
+   "label": "7f",
+   "section": "Fluency",
+   "stem": "Evaluate these expressions using $a = -4$ and $b = 3$.",
+   "prompt": "$a^2 - b^2$",
+   "type": "numeric",
+   "answer": "7"
+  },
+  {
+   "id": "q7g",
+   "label": "7g",
+   "section": "Fluency",
+   "stem": "Evaluate these expressions using $a = -4$ and $b = 3$.",
+   "prompt": "$b^3 - a^3$",
+   "type": "numeric",
+   "answer": "91"
+  },
+  {
+   "id": "q7h",
+   "label": "7h",
+   "section": "Fluency",
+   "stem": "Evaluate these expressions using $a = -4$ and $b = 3$.",
+   "prompt": "$(b - a^2)^2$",
+   "type": "numeric",
+   "answer": "169"
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Fluency",
+   "stem": "Evaluate these expressions using $a = -5$ and $b = -2$.",
+   "prompt": "$3a + b$",
+   "type": "numeric",
+   "answer": "-17"
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Fluency",
+   "stem": "Evaluate these expressions using $a = -5$ and $b = -2$.",
+   "prompt": "$b - 2a$",
+   "type": "numeric",
+   "answer": "8"
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Fluency",
+   "stem": "Evaluate these expressions using $a = -5$ and $b = -2$.",
+   "prompt": "$4b - 7a$",
+   "type": "numeric",
+   "answer": "27"
+  },
+  {
+   "id": "q8d",
+   "label": "8d",
+   "section": "Fluency",
+   "stem": "Evaluate these expressions using $a = -5$ and $b = -2$.",
+   "prompt": "$-2a - 2b$",
+   "type": "numeric",
+   "answer": "14"
+  },
+  {
+   "id": "q8e",
+   "label": "8e",
+   "section": "Fluency",
+   "stem": "Evaluate these expressions using $a = -5$ and $b = -2$.",
+   "prompt": "$6 + a - 3b$",
+   "type": "numeric",
+   "answer": "7"
+  },
+  {
+   "id": "q8f",
+   "label": "8f",
+   "section": "Fluency",
+   "stem": "Evaluate these expressions using $a = -5$ and $b = -2$.",
+   "prompt": "$ab - 4a$",
+   "type": "numeric",
+   "answer": "30"
+  },
+  {
+   "id": "q8g",
+   "label": "8g",
+   "section": "Fluency",
+   "stem": "Evaluate these expressions using $a = -5$ and $b = -2$.",
+   "prompt": "$-2 \\times (a - 2b) + 3$",
+   "type": "numeric",
+   "answer": "5"
+  },
+  {
+   "id": "q8h",
+   "label": "8h",
+   "section": "Fluency",
+   "stem": "Evaluate these expressions using $a = -5$ and $b = -2$.",
+   "prompt": "$ab - ba$",
+   "type": "numeric",
+   "answer": "0"
+  },
+  {
+   "id": "q8i",
+   "label": "8i",
+   "section": "Fluency",
+   "stem": "Evaluate these expressions using $a = -5$ and $b = -2$.",
+   "prompt": "$3a + 4b + ab$",
+   "type": "numeric",
+   "answer": "-13"
+  },
+  {
+   "id": "q8j",
+   "label": "8j",
+   "section": "Fluency",
+   "stem": "Evaluate these expressions using $a = -5$ and $b = -2$.",
+   "prompt": "$a^2 - b$",
+   "type": "numeric",
+   "answer": "27"
+  },
+  {
+   "id": "q8k",
+   "label": "8k",
+   "section": "Fluency",
+   "stem": "Evaluate these expressions using $a = -5$ and $b = -2$.",
+   "prompt": "$a^2 - b^2$",
+   "type": "numeric",
+   "answer": "21"
+  },
+  {
+   "id": "q8l",
+   "label": "8l",
+   "section": "Fluency",
+   "stem": "Evaluate these expressions using $a = -5$ and $b = -2$.",
+   "prompt": "$b^3 - a^3$",
+   "type": "numeric",
+   "answer": "117"
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$4 \\times (-3)^2$",
+   "type": "numeric",
+   "answer": "36"
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-3 \\times (-2)^3$",
+   "type": "numeric",
+   "answer": "24"
+  },
+  {
+   "id": "q9c",
+   "label": "9c",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-24 \\div (-2)^3$",
+   "type": "numeric",
+   "answer": "3"
+  },
+  {
+   "id": "q9d",
+   "label": "9d",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-6 + \\sqrt{36}$",
+   "type": "numeric",
+   "answer": "0"
+  },
+  {
+   "id": "q9e",
+   "label": "9e",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$9 - \\sqrt{25}$",
+   "type": "numeric",
+   "answer": "4"
+  },
+  {
+   "id": "q9f",
+   "label": "9f",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-30 + \\sqrt[3]{64}$",
+   "type": "numeric",
+   "answer": "-26"
+  },
+  {
+   "id": "q9g",
+   "label": "9g",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-5 + 3 \\times \\sqrt[3]{8}$",
+   "type": "numeric",
+   "answer": "1"
+  },
+  {
+   "id": "q9h",
+   "label": "9h",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-27 \\div \\sqrt[3]{-27} + 2$",
+   "type": "numeric",
+   "answer": "11"
+  },
+  {
+   "id": "q9i",
+   "label": "9i",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$-2 \\times (-3)^3 + 5$",
+   "type": "numeric",
+   "answer": "59"
+  },
+  {
+   "id": "q9j",
+   "label": "9j",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$(4 - (-3)^2) \\times (-3)$",
+   "type": "numeric",
+   "answer": "15"
+  },
+  {
+   "id": "q9k",
+   "label": "9k",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$(\\sqrt[3]{-64} + 4) \\div (-1)$",
+   "type": "numeric",
+   "answer": "0"
+  },
+  {
+   "id": "q9l",
+   "label": "9l",
+   "section": "Fluency",
+   "stem": "Evaluate the following.",
+   "prompt": "$\\sqrt[3]{-27} \\times (\\sqrt[3]{125} + 2)$",
+   "type": "numeric",
+   "answer": "-21"
+  },
+  {
+   "id": "q10",
+   "label": "10",
+   "section": "Problem-solving",
+   "prompt": "The temperature inside a ski lodge is $12^\\circ\\text{C}$ at 8 pm on Friday night. It drops by $3^\\circ\\text{C}$ per hour for $9$ hours, and then rises by $2^\\circ\\text{C}$ per hour for the next $5$ hours. What is the temperature at 10 am on Saturday?",
+   "type": "numeric",
+   "units": "°C",
+   "answer": "-5"
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Problem-solving",
+   "stem": "Where do the brackets go to make each statement true?",
+   "prompt": "$-3 + 2 \\times 4 = -4$",
+   "type": "choice",
+   "options": [
+    "-3 + (2 × 4) = -4",
+    "(-3 + 2) × 4 = -4"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Problem-solving",
+   "stem": "Where do the brackets go to make each statement true?",
+   "prompt": "$-12 \\div 4 - (-2) = -2$",
+   "type": "choice",
+   "options": [
+    "-12 ÷ (4 - (-2)) = -2",
+    "(-12 ÷ 4) - (-2) = -2"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "q11c",
+   "label": "11c",
+   "section": "Problem-solving",
+   "stem": "Where do the brackets go to make each statement true?",
+   "prompt": "$-6 \\div (-2) + 4 = -3$",
+   "type": "choice",
+   "options": [
+    "(-6 ÷ (-2)) + 4 = -3",
+    "-6 ÷ ((-2) + 4) = -3"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "q11d",
+   "label": "11d",
+   "section": "Problem-solving",
+   "stem": "Where do the brackets go to make each statement true?",
+   "prompt": "$-2 - 3 \\times 4 + (-5) = 5$",
+   "type": "choice",
+   "options": [
+    "(-2 - 3) × (4 + (-5)) = 5",
+    "(-2 - 3) × 4 + (-5) = 5",
+    "(-2 - 3 × 4) + (-5) = 5",
+    "-2 - (3 × 4 + (-5)) = 5"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "q11e",
+   "label": "11e",
+   "section": "Problem-solving",
+   "stem": "Where do the brackets go to make each statement true?",
+   "prompt": "$-6 + (-4) \\div 5 + (-3) = -5$",
+   "type": "choice",
+   "options": [
+    "(-6 + (-4) ÷ 5) + (-3) = -5",
+    "(-6 + (-4)) ÷ (5 + (-3)) = -5",
+    "-6 + (-4) ÷ (5 + (-3)) = -5",
+    "-6 + ((-4) ÷ 5) + (-3) = -5"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "q11f",
+   "label": "11f",
+   "section": "Problem-solving",
+   "stem": "Where do the brackets go to make each statement true?",
+   "prompt": "$15 + 3 - 6 \\times (-2) = -24$",
+   "type": "choice",
+   "options": [
+    "(15 + 3) - 6 × (-2) = -24",
+    "15 + (3 - 6) × (-2) = -24",
+    "(15 + 3 - 6) × (-2) = -24",
+    "15 + (3 - 6 × (-2)) = -24"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "q11g",
+   "label": "11g",
+   "section": "Problem-solving",
+   "stem": "Where do the brackets go to make each statement true?",
+   "prompt": "$2 - (-5) \\times 2 \\times 3 = 42$",
+   "type": "choice",
+   "options": [
+    "(2 - (-5) × 2) × 3 = 42",
+    "2 - ((-5) × 2) × 3 = 42",
+    "2 - ((-5) × 2 × 3) = 42",
+    "(2 - (-5)) × 2 × 3 = 42"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "q11h",
+   "label": "11h",
+   "section": "Problem-solving",
+   "stem": "Where do the brackets go to make each statement true?",
+   "prompt": "$6 + (-9) \\div 3 \\times (-2) = 2$",
+   "type": "choice",
+   "options": [
+    "(6 + (-9)) ÷ 3 × (-2) = 2",
+    "(6 + (-9) ÷ 3) × (-2) = 2",
+    "6 + ((-9) ÷ 3) × (-2) = 2",
+    "6 + (-9) ÷ (3 × (-2)) = 2"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "q12a",
+   "label": "12a",
+   "section": "Reasoning",
+   "stem": "$a$, $b$ and $c$ are integers (none of them zero). Is each equation always true?",
+   "prompt": "$a \\times b = b \\times a$",
+   "type": "choice",
+   "options": [
+    "Always true",
+    "Not always true"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "q12b",
+   "label": "12b",
+   "section": "Reasoning",
+   "stem": "$a$, $b$ and $c$ are integers (none of them zero). Is each equation always true?",
+   "prompt": "$a \\div b = b \\div a$",
+   "type": "choice",
+   "options": [
+    "Always true",
+    "Not always true"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "q12c",
+   "label": "12c",
+   "section": "Reasoning",
+   "stem": "$a$, $b$ and $c$ are integers (none of them zero). Is each equation always true?",
+   "prompt": "$(a + b) + c = a + (b + c)$",
+   "type": "choice",
+   "options": [
+    "Always true",
+    "Not always true"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "q12d",
+   "label": "12d",
+   "section": "Reasoning",
+   "stem": "$a$, $b$ and $c$ are integers (none of them zero). Is each equation always true?",
+   "prompt": "$a - (b + c) = a - b - c$",
+   "type": "choice",
+   "options": [
+    "Always true",
+    "Not always true"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "q12e",
+   "label": "12e",
+   "section": "Reasoning",
+   "stem": "$a$, $b$ and $c$ are integers (none of them zero). Is each equation always true?",
+   "prompt": "$(a - b) - c = a - (b - c)$",
+   "type": "choice",
+   "options": [
+    "Always true",
+    "Not always true"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "q12f",
+   "label": "12f",
+   "section": "Reasoning",
+   "stem": "$a$, $b$ and $c$ are integers (none of them zero). Is each equation always true?",
+   "prompt": "$-(a + b) = -a - b$",
+   "type": "choice",
+   "options": [
+    "Always true",
+    "Not always true"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "q13a",
+   "label": "13a",
+   "section": "Reasoning",
+   "stem": "We can write $(a + b) \\div c$ without brackets as $\\frac{a + b}{c}$. Evaluate these expressions if $a = -6$, $b = -2$ and $c = -4$.",
+   "prompt": "$\\frac{a + b}{c}$",
+   "type": "numeric",
+   "answer": "2"
+  },
+  {
+   "id": "q13b",
+   "label": "13b",
+   "section": "Reasoning",
+   "stem": "We can write $(a + b) \\div c$ without brackets as $\\frac{a + b}{c}$. Evaluate these expressions if $a = -6$, $b = -2$ and $c = -4$.",
+   "prompt": "$\\frac{a - b}{c}$",
+   "type": "numeric",
+   "answer": "1"
+  },
+  {
+   "id": "q13c",
+   "label": "13c",
+   "section": "Reasoning",
+   "stem": "We can write $(a + b) \\div c$ without brackets as $\\frac{a + b}{c}$. Evaluate these expressions if $a = -6$, $b = -2$ and $c = -4$.",
+   "prompt": "$\\frac{2c - 5a}{b}$",
+   "type": "numeric",
+   "answer": "-11"
+  },
+  {
+   "id": "q13d",
+   "label": "13d",
+   "section": "Reasoning",
+   "stem": "We can write $(a + b) \\div c$ without brackets as $\\frac{a + b}{c}$. Evaluate these expressions if $a = -6$, $b = -2$ and $c = -4$.",
+   "prompt": "$\\frac{-c - 2a}{b}$",
+   "type": "numeric",
+   "answer": "-8"
+  },
+  {
+   "id": "q14a",
+   "label": "14a",
+   "section": "Reasoning",
+   "stem": "Brackets can sit inside other brackets. Work out the inside brackets first. Evaluate these.",
+   "prompt": "$(-5 \\times (-3 + 1) + 2) \\times (-3)$",
+   "type": "numeric",
+   "answer": "-36"
+  },
+  {
+   "id": "q14b",
+   "label": "14b",
+   "section": "Reasoning",
+   "stem": "Brackets can sit inside other brackets. Work out the inside brackets first. Evaluate these.",
+   "prompt": "$(4 - (6 - (-2))) \\times (-3)$",
+   "type": "numeric",
+   "answer": "12"
+  },
+  {
+   "id": "q14c",
+   "label": "14c",
+   "section": "Reasoning",
+   "stem": "Brackets can sit inside other brackets. Work out the inside brackets first. Evaluate these.",
+   "prompt": "$-24 \\div (3 \\times (5 - (-3)))$",
+   "type": "numeric",
+   "answer": "-1"
+  },
+  {
+   "id": "q15a",
+   "label": "15a",
+   "section": "Enrichment",
+   "stem": "Where do the brackets go to make each statement true? You may need more than one set.",
+   "prompt": "$2 - 4 \\times (-3) \\div (-7) = -2$",
+   "type": "choice",
+   "options": [
+    "(2 - 4) × (-3) ÷ (-7) = -2",
+    "(2 - 4 × (-3)) ÷ (-7) = -2",
+    "2 - (4 × (-3)) ÷ (-7) = -2",
+    "2 - (4 × (-3) ÷ (-7)) = -2"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "q15b",
+   "label": "15b",
+   "section": "Enrichment",
+   "stem": "Where do the brackets go to make each statement true? You may need more than one set.",
+   "prompt": "$6 \\div 2 + (-8) \\times (-3) = 3$",
+   "type": "choice",
+   "options": [
+    "(6 ÷ 2) + (-8) × (-3) = 3",
+    "(6 ÷ 2 + (-8)) × (-3) = 3",
+    "6 ÷ (2 + (-8)) × (-3) = 3",
+    "6 ÷ (2 + (-8) × (-3)) = 3"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "q15c",
+   "label": "15c",
+   "section": "Enrichment",
+   "stem": "Where do the brackets go to make each statement true? You may need more than one set.",
+   "prompt": "$10 - 12 \\div (-3) + 1 = 1$",
+   "type": "choice",
+   "options": [
+    "(10 - 12) ÷ (-3) + 1 = 1",
+    "(10 - 12 ÷ (-3)) + 1 = 1",
+    "10 - (12 ÷ (-3) + 1) = 1",
+    "(10 - 12) ÷ ((-3) + 1) = 1"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "q15d",
+   "label": "15d",
+   "section": "Enrichment",
+   "stem": "Where do the brackets go to make each statement true? You may need more than one set.",
+   "prompt": "$-2 - 6 + (-3) \\times 2 - 5 = 7$",
+   "type": "choice",
+   "options": [
+    "-2 - (6 + (-3)) × (2 - 5) = 7",
+    "(-2 - 6) + (-3) × 2 - 5 = 7",
+    "(-2 - 6 + (-3)) × 2 - 5 = 7",
+    "-2 - (6 + (-3)) × 2 - 5 = 7"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "q16",
+   "label": "16",
+   "section": "Enrichment",
+   "prompt": "One extra set of brackets is put somewhere into $-5 \\times 2 - (-3) + 6$. How many different answers are possible? (Count the answer you get when the brackets make no difference too.)",
+   "type": "numeric",
+   "answer": "4"
+  }
+ ]
+}
+);
