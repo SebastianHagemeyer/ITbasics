@@ -130243,3 +130243,22894 @@ window.H3_BANK.sets.push(
  ]
 }
 );
+
+// Chapter 10
+window.H3_BANK.sets.push(
+{
+ "id": "y9-10a",
+ "year": 9,
+ "chapter": "Chapter 10: Introduction to quadratic equations and graphs",
+ "title": "10A Quadratic equations",
+ "description": "Write quadratic equations in standard form, test possible solutions and solve with the Null Factor Law.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Write each equation in standard form $ax^2 + bx + c = 0$ with $a > 0$. Give the values of $a$, $b$ and $c$, in that order.",
+   "type": "ordered",
+   "prompt": "$x^2  =  5x + 3$",
+   "answer": [
+    "1",
+    "-5",
+    "-3"
+   ],
+   "hint": "Type the three numbers in order, separated by commas, for example 2, -5, 1. Use 0 for a missing term."
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Write each equation in standard form $ax^2 + bx + c = 0$ with $a > 0$. Give the values of $a$, $b$ and $c$, in that order.",
+   "type": "ordered",
+   "prompt": "$x^2 - 6x  =  -4$",
+   "answer": [
+    "1",
+    "-6",
+    "4"
+   ]
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "Write each equation in standard form $ax^2 + bx + c = 0$ with $a > 0$. Give the values of $a$, $b$ and $c$, in that order.",
+   "type": "ordered",
+   "prompt": "$x^2  =  3x - 7$",
+   "answer": [
+    "1",
+    "-3",
+    "7"
+   ]
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "Write each equation in standard form $ax^2 + bx + c = 0$ with $a > 0$. Give the values of $a$, $b$ and $c$, in that order.",
+   "type": "ordered",
+   "prompt": "$2(x^2 - 3x)  =  5$",
+   "answer": [
+    "2",
+    "-6",
+    "-5"
+   ]
+  },
+  {
+   "id": "q1e",
+   "label": "1e",
+   "section": "Fluency",
+   "stem": "Write each equation in standard form $ax^2 + bx + c = 0$ with $a > 0$. Give the values of $a$, $b$ and $c$, in that order.",
+   "type": "ordered",
+   "prompt": "$3(x^2 + 2x) + 2  =  0$",
+   "answer": [
+    "3",
+    "6",
+    "2"
+   ]
+  },
+  {
+   "id": "q1f",
+   "label": "1f",
+   "section": "Fluency",
+   "stem": "Write each equation in standard form $ax^2 + bx + c = 0$ with $a > 0$. Give the values of $a$, $b$ and $c$, in that order.",
+   "type": "ordered",
+   "prompt": "$4(x^2 - x)  =  -3$",
+   "answer": [
+    "4",
+    "-4",
+    "3"
+   ]
+  },
+  {
+   "id": "q1g",
+   "label": "1g",
+   "section": "Fluency",
+   "stem": "Write each equation in standard form $ax^2 + bx + c = 0$ with $a > 0$. Give the values of $a$, $b$ and $c$, in that order.",
+   "type": "ordered",
+   "prompt": "$5  =  -2x^2$",
+   "answer": [
+    "2",
+    "0",
+    "5"
+   ]
+  },
+  {
+   "id": "q1h",
+   "label": "1h",
+   "section": "Fluency",
+   "stem": "Write each equation in standard form $ax^2 + bx + c = 0$ with $a > 0$. Give the values of $a$, $b$ and $c$, in that order.",
+   "type": "ordered",
+   "prompt": "$4x  =  x^2 - 3$",
+   "answer": [
+    "1",
+    "-4",
+    "-3"
+   ]
+  },
+  {
+   "id": "q1i",
+   "label": "1i",
+   "section": "Fluency",
+   "stem": "Write each equation in standard form $ax^2 + bx + c = 0$ with $a > 0$. Give the values of $a$, $b$ and $c$, in that order.",
+   "type": "ordered",
+   "prompt": "$3x  =  2(-x^2 + 4)$",
+   "answer": [
+    "2",
+    "3",
+    "-8"
+   ]
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Substitute the given value of $x$ into the equation. Is it a solution?",
+   "type": "choice",
+   "prompt": "$x^2 - 4  =  0$, $x = 2$",
+   "answer": 0,
+   "options": [
+    "Yes, it is a solution",
+    "No, it is not a solution"
+   ]
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Substitute the given value of $x$ into the equation. Is it a solution?",
+   "type": "choice",
+   "prompt": "$x^2 - 36  =  0$, $x = 6$",
+   "answer": 0,
+   "options": [
+    "Yes, it is a solution",
+    "No, it is not a solution"
+   ]
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Substitute the given value of $x$ into the equation. Is it a solution?",
+   "type": "choice",
+   "prompt": "$x^2 - 9  =  0$, $x = 1$",
+   "answer": 1,
+   "options": [
+    "Yes, it is a solution",
+    "No, it is not a solution"
+   ]
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Substitute the given value of $x$ into the equation. Is it a solution?",
+   "type": "choice",
+   "prompt": "$3x^2 + 2  =  0$, $x = 0$",
+   "answer": 1,
+   "options": [
+    "Yes, it is a solution",
+    "No, it is not a solution"
+   ]
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Substitute the given value of $x$ into the equation. Is it a solution?",
+   "type": "choice",
+   "prompt": "$x^2 - 16  =  0$, $x = -4$",
+   "answer": 0,
+   "options": [
+    "Yes, it is a solution",
+    "No, it is not a solution"
+   ]
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "Substitute the given value of $x$ into the equation. Is it a solution?",
+   "type": "choice",
+   "prompt": "$x^2 - x - 20  =  0$, $x = 4$",
+   "answer": 1,
+   "options": [
+    "Yes, it is a solution",
+    "No, it is not a solution"
+   ]
+  },
+  {
+   "id": "q2g",
+   "label": "2g",
+   "section": "Fluency",
+   "stem": "Substitute the given value of $x$ into the equation. Is it a solution?",
+   "type": "choice",
+   "prompt": "$x^2 + 4x + 4  =  0$, $x = -2$",
+   "answer": 0,
+   "options": [
+    "Yes, it is a solution",
+    "No, it is not a solution"
+   ]
+  },
+  {
+   "id": "q2h",
+   "label": "2h",
+   "section": "Fluency",
+   "stem": "Substitute the given value of $x$ into the equation. Is it a solution?",
+   "type": "choice",
+   "prompt": "$3x^2 - x + 2  =  0$, $x = -1$",
+   "answer": 1,
+   "options": [
+    "Yes, it is a solution",
+    "No, it is not a solution"
+   ]
+  },
+  {
+   "id": "q2i",
+   "label": "2i",
+   "section": "Fluency",
+   "stem": "Substitute the given value of $x$ into the equation. Is it a solution?",
+   "type": "choice",
+   "prompt": "$7 - 3x + x^2  =  0$, $x = -2$",
+   "answer": 1,
+   "options": [
+    "Yes, it is a solution",
+    "No, it is not a solution"
+   ]
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Consider the equation $x^2 - 4x - 12  =  0$.",
+   "type": "numeric",
+   "prompt": "Find the value of the left-hand side when $x = -2$.",
+   "answer": "0"
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Consider the equation $x^2 - 4x - 12  =  0$.",
+   "type": "numeric",
+   "prompt": "Find the value of the left-hand side when $x = 6$.",
+   "answer": "0"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Consider the equation $x^2 - 4x - 12  =  0$.",
+   "type": "choice",
+   "prompt": "What do you notice?",
+   "answer": 0,
+   "options": [
+    "x = -2 and x = 6 are both solutions",
+    "Only x = -2 is a solution",
+    "Only x = 6 is a solution",
+    "Neither value is a solution"
+   ]
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "Consider the equation $x^2 + x - 20  =  0$.",
+   "type": "numeric",
+   "prompt": "Find the value of the left-hand side when $x = -5$.",
+   "answer": "0"
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "Consider the equation $x^2 + x - 20  =  0$.",
+   "type": "numeric",
+   "prompt": "Find the value of the left-hand side when $x = 4$.",
+   "answer": "0"
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "Consider the equation $x^2 + x - 20  =  0$.",
+   "type": "choice",
+   "prompt": "What do you notice?",
+   "answer": 0,
+   "options": [
+    "x = -5 and x = 4 are both solutions",
+    "Only x = -5 is a solution",
+    "Only x = 4 is a solution",
+    "Neither value is a solution"
+   ]
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Fluency",
+   "stem": "Use the Null Factor Law to solve each equation.",
+   "type": "list",
+   "prompt": "$x(x + 3)  =  0$",
+   "answer": [
+    "-3",
+    "0"
+   ],
+   "hint": "Type every solution, separated by commas or 'or', for example x = 2 or x = -3"
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Fluency",
+   "stem": "Use the Null Factor Law to solve each equation.",
+   "type": "list",
+   "prompt": "$x(x + 6)  =  0$",
+   "answer": [
+    "-6",
+    "0"
+   ]
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Fluency",
+   "stem": "Use the Null Factor Law to solve each equation.",
+   "type": "list",
+   "prompt": "$x(x - 4)  =  0$",
+   "answer": [
+    "0",
+    "4"
+   ]
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Fluency",
+   "stem": "Use the Null Factor Law to solve each equation.",
+   "type": "list",
+   "prompt": "$x(x - 9)  =  0$",
+   "answer": [
+    "0",
+    "9"
+   ]
+  },
+  {
+   "id": "q5e",
+   "label": "5e",
+   "section": "Fluency",
+   "stem": "Use the Null Factor Law to solve each equation.",
+   "type": "list",
+   "prompt": "$(x + 2)(x - 5)  =  0$",
+   "answer": [
+    "-2",
+    "5"
+   ]
+  },
+  {
+   "id": "q5f",
+   "label": "5f",
+   "section": "Fluency",
+   "stem": "Use the Null Factor Law to solve each equation.",
+   "type": "list",
+   "prompt": "$(x - 3)(x + 6)  =  0$",
+   "answer": [
+    "-6",
+    "3"
+   ]
+  },
+  {
+   "id": "q5g",
+   "label": "5g",
+   "section": "Fluency",
+   "stem": "Use the Null Factor Law to solve each equation.",
+   "type": "list",
+   "prompt": "$(x + 8)(x - 2)  =  0$",
+   "answer": [
+    "-8",
+    "2"
+   ]
+  },
+  {
+   "id": "q5h",
+   "label": "5h",
+   "section": "Fluency",
+   "stem": "Use the Null Factor Law to solve each equation.",
+   "type": "list",
+   "prompt": "$\\left(x + \\frac{1}{3}\\right)\\left(x - \\frac{1}{3}\\right) = 0$",
+   "answer": [
+    "-1/3",
+    "1/3"
+   ],
+   "hint": "Fractions are fine, for example x = 2/3"
+  },
+  {
+   "id": "q5i",
+   "label": "5i",
+   "section": "Fluency",
+   "stem": "Use the Null Factor Law to solve each equation.",
+   "type": "list",
+   "prompt": "$3x(x + 4)  =  0$",
+   "answer": [
+    "-4",
+    "0"
+   ]
+  },
+  {
+   "id": "q5j",
+   "label": "5j",
+   "section": "Fluency",
+   "stem": "Use the Null Factor Law to solve each equation.",
+   "type": "list",
+   "prompt": "$4x\\left(x - \\frac{3}{4}\\right) = 0$",
+   "answer": [
+    "0",
+    "3/4"
+   ]
+  },
+  {
+   "id": "q5k",
+   "label": "5k",
+   "section": "Fluency",
+   "stem": "Use the Null Factor Law to solve each equation.",
+   "type": "list",
+   "prompt": "$\\frac{x}{2}\\left(x + \\frac{3}{4}\\right) = 0$",
+   "answer": [
+    "-3/4",
+    "0"
+   ]
+  },
+  {
+   "id": "q5l",
+   "label": "5l",
+   "section": "Fluency",
+   "stem": "Use the Null Factor Law to solve each equation.",
+   "type": "list",
+   "prompt": "$\\frac{3x}{7}(x + 5) = 0$",
+   "answer": [
+    "-5",
+    "0"
+   ]
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Fluency",
+   "stem": "Use the Null Factor Law to solve each equation.",
+   "type": "list",
+   "prompt": "$(3x - 1)(x + 4)  =  0$",
+   "answer": [
+    "-4",
+    "1/3"
+   ],
+   "hint": "Fractions are fine, for example x = 1/3 or x = -4"
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Fluency",
+   "stem": "Use the Null Factor Law to solve each equation.",
+   "type": "list",
+   "prompt": "$(x + 5)(2x - 1)  =  0$",
+   "answer": [
+    "-5",
+    "1/2"
+   ]
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Fluency",
+   "stem": "Use the Null Factor Law to solve each equation.",
+   "type": "list",
+   "prompt": "$(4x + 3)(x + 2)  =  0$",
+   "answer": [
+    "-2",
+    "-3/4"
+   ]
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Fluency",
+   "stem": "Use the Null Factor Law to solve each equation.",
+   "type": "list",
+   "prompt": "$(x - 2)(5x - 1)  =  0$",
+   "answer": [
+    "1/5",
+    "2"
+   ]
+  },
+  {
+   "id": "q6e",
+   "label": "6e",
+   "section": "Fluency",
+   "stem": "Use the Null Factor Law to solve each equation.",
+   "type": "list",
+   "prompt": "$(x + 6)(3x + 2)  =  0$",
+   "answer": [
+    "-6",
+    "-2/3"
+   ]
+  },
+  {
+   "id": "q6f",
+   "label": "6f",
+   "section": "Fluency",
+   "stem": "Use the Null Factor Law to solve each equation.",
+   "type": "list",
+   "prompt": "$(2x - 5)(4x + 1)  =  0$",
+   "answer": [
+    "-1/4",
+    "5/2"
+   ]
+  },
+  {
+   "id": "q6g",
+   "label": "6g",
+   "section": "Fluency",
+   "stem": "Use the Null Factor Law to solve each equation.",
+   "type": "list",
+   "prompt": "$(9x - 4)(2x - 11)  =  0$",
+   "answer": [
+    "4/9",
+    "11/2"
+   ]
+  },
+  {
+   "id": "q6h",
+   "label": "6h",
+   "section": "Fluency",
+   "stem": "Use the Null Factor Law to solve each equation.",
+   "type": "list",
+   "prompt": "$(3x + 8)(5x - 6)  =  0$",
+   "answer": [
+    "-8/3",
+    "6/5"
+   ]
+  },
+  {
+   "id": "q6i",
+   "label": "6i",
+   "section": "Fluency",
+   "stem": "Use the Null Factor Law to solve each equation.",
+   "type": "list",
+   "prompt": "$(5x - 2)(6x + 1)  =  0$",
+   "answer": [
+    "-1/6",
+    "2/5"
+   ]
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Problem-solving",
+   "stem": "Find the numbers $x$ that satisfy each condition.",
+   "type": "list",
+   "prompt": "The product of $x$ and a number $5$ more than $x$ is zero.",
+   "answer": [
+    "-5",
+    "0"
+   ],
+   "hint": "Type every solution, separated by commas or 'or', for example x = 2 or x = -3"
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Problem-solving",
+   "stem": "Find the numbers $x$ that satisfy each condition.",
+   "type": "list",
+   "prompt": "The product of $x$ and a number $4$ less than $x$ is zero.",
+   "answer": [
+    "0",
+    "4"
+   ]
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Problem-solving",
+   "stem": "Find the numbers $x$ that satisfy each condition.",
+   "type": "list",
+   "prompt": "The product of a number $2$ less than $x$ and a number $6$ more than $x$ is zero.",
+   "answer": [
+    "-6",
+    "2"
+   ]
+  },
+  {
+   "id": "q7d",
+   "label": "7d",
+   "section": "Problem-solving",
+   "stem": "Find the numbers $x$ that satisfy each condition.",
+   "type": "list",
+   "prompt": "The product of a number $1$ less than three times $x$ and a number $2$ more than $x$ is zero.",
+   "answer": [
+    "-2",
+    "1/3"
+   ]
+  },
+  {
+   "id": "q7e",
+   "label": "7e",
+   "section": "Problem-solving",
+   "stem": "Find the numbers $x$ that satisfy each condition.",
+   "type": "list",
+   "prompt": "The product of a number $5$ more than twice $x$ and a number $3$ less than twice $x$ is zero.",
+   "answer": [
+    "-5/2",
+    "3/2"
+   ]
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Problem-solving",
+   "stem": "Write each equation as a quadratic in standard form $ax^2 + bx + c = 0$, removing any brackets and fractions. Use whole numbers with no common factor and $a > 0$. Give the values of $a$, $b$ and $c$, in that order.",
+   "type": "ordered",
+   "prompt": "$4x^2 + 3x  =  x^2 - 2$",
+   "answer": [
+    "3",
+    "3",
+    "2"
+   ],
+   "hint": "Type the three numbers in order, separated by commas, for example 2, -5, 1. Use 0 for a missing term."
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Problem-solving",
+   "stem": "Write each equation as a quadratic in standard form $ax^2 + bx + c = 0$, removing any brackets and fractions. Use whole numbers with no common factor and $a > 0$. Give the values of $a$, $b$ and $c$, in that order.",
+   "type": "ordered",
+   "prompt": "$3x  =  2x^2 - 2x$",
+   "answer": [
+    "2",
+    "-5",
+    "0"
+   ]
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Problem-solving",
+   "stem": "Write each equation as a quadratic in standard form $ax^2 + bx + c = 0$, removing any brackets and fractions. Use whole numbers with no common factor and $a > 0$. Give the values of $a$, $b$ and $c$, in that order.",
+   "type": "ordered",
+   "prompt": "$2(x^2 - 2)  =  3 + x$",
+   "answer": [
+    "2",
+    "-1",
+    "-7"
+   ]
+  },
+  {
+   "id": "q8d",
+   "label": "8d",
+   "section": "Problem-solving",
+   "stem": "Write each equation as a quadratic in standard form $ax^2 + bx + c = 0$, removing any brackets and fractions. Use whole numbers with no common factor and $a > 0$. Give the values of $a$, $b$ and $c$, in that order.",
+   "type": "ordered",
+   "prompt": "$3(1 - 2x^2)  =  x(2 - x)$",
+   "answer": [
+    "5",
+    "2",
+    "-3"
+   ]
+  },
+  {
+   "id": "q8e",
+   "label": "8e",
+   "section": "Problem-solving",
+   "stem": "Write each equation as a quadratic in standard form $ax^2 + bx + c = 0$, removing any brackets and fractions. Use whole numbers with no common factor and $a > 0$. Give the values of $a$, $b$ and $c$, in that order.",
+   "type": "ordered",
+   "prompt": "$\\frac{x}{3} = x^2 - \\frac{2}{3}$",
+   "answer": [
+    "3",
+    "-1",
+    "-2"
+   ]
+  },
+  {
+   "id": "q8f",
+   "label": "8f",
+   "section": "Problem-solving",
+   "stem": "Write each equation as a quadratic in standard form $ax^2 + bx + c = 0$, removing any brackets and fractions. Use whole numbers with no common factor and $a > 0$. Give the values of $a$, $b$ and $c$, in that order.",
+   "type": "ordered",
+   "prompt": "$\\frac{3x}{4} - x^2 = 2(1 - x)$",
+   "answer": [
+    "4",
+    "-11",
+    "8"
+   ]
+  },
+  {
+   "id": "q8g",
+   "label": "8g",
+   "section": "Problem-solving",
+   "stem": "Write each equation as a quadratic in standard form $ax^2 + bx + c = 0$, removing any brackets and fractions. Use whole numbers with no common factor and $a > 0$. Give the values of $a$, $b$ and $c$, in that order.",
+   "type": "ordered",
+   "prompt": "$\\frac{4}{x} + 1 = x$",
+   "answer": [
+    "1",
+    "-1",
+    "-4"
+   ]
+  },
+  {
+   "id": "q8h",
+   "label": "8h",
+   "section": "Problem-solving",
+   "stem": "Write each equation as a quadratic in standard form $ax^2 + bx + c = 0$, removing any brackets and fractions. Use whole numbers with no common factor and $a > 0$. Give the values of $a$, $b$ and $c$, in that order.",
+   "type": "ordered",
+   "prompt": "$\\frac{2}{x} + \\frac{3}{2} = 2x$",
+   "answer": [
+    "4",
+    "-3",
+    "-4"
+   ]
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Problem-solving",
+   "stem": "Each equation has two whole-number solutions between $-5$ and $5$. Use trial and error to find them.",
+   "type": "list",
+   "prompt": "$x^2 - x - 6  =  0$",
+   "answer": [
+    "-2",
+    "3"
+   ],
+   "hint": "Type every solution, separated by commas or 'or', for example x = 2 or x = -3"
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Problem-solving",
+   "stem": "Each equation has two whole-number solutions between $-5$ and $5$. Use trial and error to find them.",
+   "type": "list",
+   "prompt": "$x^2 - 5x + 4  =  0$",
+   "answer": [
+    "1",
+    "4"
+   ]
+  },
+  {
+   "id": "q9c",
+   "label": "9c",
+   "section": "Problem-solving",
+   "stem": "Each equation has two whole-number solutions between $-5$ and $5$. Use trial and error to find them.",
+   "type": "list",
+   "prompt": "$x^2 - 3x  =  0$",
+   "answer": [
+    "0",
+    "3"
+   ]
+  },
+  {
+   "id": "q9d",
+   "label": "9d",
+   "section": "Problem-solving",
+   "stem": "Each equation has two whole-number solutions between $-5$ and $5$. Use trial and error to find them.",
+   "type": "list",
+   "prompt": "$x^2 + 5x  =  0$",
+   "answer": [
+    "-5",
+    "0"
+   ]
+  },
+  {
+   "id": "q9e",
+   "label": "9e",
+   "section": "Problem-solving",
+   "stem": "Each equation has two whole-number solutions between $-5$ and $5$. Use trial and error to find them.",
+   "type": "list",
+   "prompt": "$x^2 + 2x - 3  =  0$",
+   "answer": [
+    "-3",
+    "1"
+   ]
+  },
+  {
+   "id": "q9f",
+   "label": "9f",
+   "section": "Problem-solving",
+   "stem": "Each equation has two whole-number solutions between $-5$ and $5$. Use trial and error to find them.",
+   "type": "list",
+   "prompt": "$x^2 - 9  =  0$",
+   "answer": [
+    "-3",
+    "3"
+   ]
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Reasoning",
+   "stem": "Consider the equation $(x + 4)^2 = 0$, which is the same as $(x + 4)(x + 4) = 0$.",
+   "type": "list",
+   "prompt": "Use the Null Factor Law to solve the equation.",
+   "answer": [
+    "-4"
+   ],
+   "hint": "If there is only one solution, type just that one"
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Reasoning",
+   "stem": "Consider the equation $(x + 4)^2 = 0$, which is the same as $(x + 4)(x + 4) = 0$.",
+   "type": "numeric",
+   "prompt": "How many different solutions does the equation have?",
+   "answer": "1"
+  },
+  {
+   "id": "q10c",
+   "label": "10c",
+   "section": "Reasoning",
+   "stem": "Solve each equation. Each has only one solution.",
+   "type": "list",
+   "prompt": "$(x + 5)^2  =  0$",
+   "answer": [
+    "-5"
+   ]
+  },
+  {
+   "id": "q10d",
+   "label": "10d",
+   "section": "Reasoning",
+   "stem": "Solve each equation. Each has only one solution.",
+   "type": "list",
+   "prompt": "$(x - 6)^2  =  0$",
+   "answer": [
+    "6"
+   ]
+  },
+  {
+   "id": "q10e",
+   "label": "10e",
+   "section": "Reasoning",
+   "stem": "Solve each equation. Each has only one solution.",
+   "type": "list",
+   "prompt": "$(3x - 1)^2  =  0$",
+   "answer": [
+    "1/3"
+   ]
+  },
+  {
+   "id": "q10f",
+   "label": "10f",
+   "section": "Reasoning",
+   "stem": "Solve each equation. Each has only one solution.",
+   "type": "list",
+   "prompt": "$(4x - 9)^2  =  0$",
+   "answer": [
+    "9/4"
+   ]
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Reasoning",
+   "stem": "Solve each equation. (Hint: dividing both sides by the number in front does not change the solutions.)",
+   "type": "list",
+   "prompt": "$3(x - 1)(x + 2)  =  0$",
+   "answer": [
+    "-2",
+    "1"
+   ]
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Reasoning",
+   "stem": "Solve each equation. (Hint: dividing both sides by the number in front does not change the solutions.)",
+   "type": "list",
+   "prompt": "$5(x + 3)(x - 4)  =  0$",
+   "answer": [
+    "-3",
+    "4"
+   ]
+  },
+  {
+   "id": "q11c",
+   "label": "11c",
+   "section": "Reasoning",
+   "stem": "Solve each equation. (Hint: dividing both sides by the number in front does not change the solutions.)",
+   "type": "list",
+   "prompt": "$9x(x + 5)  =  0$",
+   "answer": [
+    "-5",
+    "0"
+   ]
+  },
+  {
+   "id": "q11d",
+   "label": "11d",
+   "section": "Reasoning",
+   "stem": "Solve each equation. (Hint: dividing both sides by the number in front does not change the solutions.)",
+   "type": "list",
+   "prompt": "$\\frac{(x + 2)(x - 6)}{3} = 0$",
+   "answer": [
+    "-2",
+    "6"
+   ]
+  },
+  {
+   "id": "q11e",
+   "label": "11e",
+   "section": "Reasoning",
+   "stem": "Solve each equation. (Hint: dividing both sides by the number in front does not change the solutions.)",
+   "type": "list",
+   "prompt": "$-4(x + 1)(x - 7)  =  0$",
+   "answer": [
+    "-1",
+    "7"
+   ]
+  },
+  {
+   "id": "q12a",
+   "label": "12a",
+   "section": "Reasoning",
+   "stem": "Consider the equation $(x - 2)^2 + 3 = 0$.",
+   "type": "numeric",
+   "prompt": "Find the value of the left-hand side when $x = 2$.",
+   "answer": "3"
+  },
+  {
+   "id": "q12b",
+   "label": "12b",
+   "section": "Reasoning",
+   "stem": "Consider the equation $(x - 2)^2 + 3 = 0$.",
+   "type": "numeric",
+   "prompt": "Find the value of the left-hand side when $x = 3$.",
+   "answer": "4"
+  },
+  {
+   "id": "q12c",
+   "label": "12c",
+   "section": "Reasoning",
+   "stem": "Consider the equation $(x - 2)^2 + 3 = 0$.",
+   "type": "numeric",
+   "prompt": "Find the value of the left-hand side when $x = 0$.",
+   "answer": "7"
+  },
+  {
+   "id": "q12d",
+   "label": "12d",
+   "section": "Reasoning",
+   "stem": "Consider the equation $(x - 2)^2 + 3 = 0$.",
+   "type": "numeric",
+   "prompt": "Find the value of the left-hand side when $x = -1$.",
+   "answer": "12"
+  },
+  {
+   "id": "q12e",
+   "label": "12e",
+   "section": "Reasoning",
+   "stem": "Consider the equation $(x - 2)^2 + 3 = 0$.",
+   "type": "choice",
+   "prompt": "Do you think the equation has a solution?",
+   "answer": 0,
+   "options": [
+    "No: (x - 2)² is never negative, so the left-hand side is always at least 3",
+    "Yes: x = 2 is a solution",
+    "Yes: x = -2 is a solution"
+   ]
+  },
+  {
+   "id": "q13a",
+   "label": "13a",
+   "section": "Enrichment",
+   "stem": "Polynomials are named by the highest power of $x$: constant (no $x$), linear ($x$), quadratic ($x^2$), cubic ($x^3$), quartic ($x^4$) and quintic ($x^5$). Name each polynomial equation.",
+   "type": "choice",
+   "prompt": "$4x + 7  =  0$",
+   "answer": 1,
+   "options": [
+    "Constant",
+    "Linear",
+    "Quadratic",
+    "Cubic",
+    "Quartic",
+    "Quintic"
+   ]
+  },
+  {
+   "id": "q13b",
+   "label": "13b",
+   "section": "Enrichment",
+   "stem": "Polynomials are named by the highest power of $x$: constant (no $x$), linear ($x$), quadratic ($x^2$), cubic ($x^3$), quartic ($x^4$) and quintic ($x^5$). Name each polynomial equation.",
+   "type": "choice",
+   "prompt": "$x^2 - 5  =  0$",
+   "answer": 2,
+   "options": [
+    "Constant",
+    "Linear",
+    "Quadratic",
+    "Cubic",
+    "Quartic",
+    "Quintic"
+   ]
+  },
+  {
+   "id": "q13c",
+   "label": "13c",
+   "section": "Enrichment",
+   "stem": "Polynomials are named by the highest power of $x$: constant (no $x$), linear ($x$), quadratic ($x^2$), cubic ($x^3$), quartic ($x^4$) and quintic ($x^5$). Name each polynomial equation.",
+   "type": "choice",
+   "prompt": "$x^5 + 2x^3 - 1  =  0$",
+   "answer": 5,
+   "options": [
+    "Constant",
+    "Linear",
+    "Quadratic",
+    "Cubic",
+    "Quartic",
+    "Quintic"
+   ]
+  },
+  {
+   "id": "q13d",
+   "label": "13d",
+   "section": "Enrichment",
+   "stem": "Polynomials are named by the highest power of $x$: constant (no $x$), linear ($x$), quadratic ($x^2$), cubic ($x^3$), quartic ($x^4$) and quintic ($x^5$). Name each polynomial equation.",
+   "type": "choice",
+   "prompt": "$3 + x - 2x^3  =  0$",
+   "answer": 3,
+   "options": [
+    "Constant",
+    "Linear",
+    "Quadratic",
+    "Cubic",
+    "Quartic",
+    "Quintic"
+   ]
+  },
+  {
+   "id": "q13e",
+   "label": "13e",
+   "section": "Enrichment",
+   "stem": "Polynomials are named by the highest power of $x$: constant (no $x$), linear ($x$), quadratic ($x^2$), cubic ($x^3$), quartic ($x^4$) and quintic ($x^5$). Name each polynomial equation.",
+   "type": "choice",
+   "prompt": "$6x - x^4 + 2x^2  =  0$",
+   "answer": 4,
+   "options": [
+    "Constant",
+    "Linear",
+    "Quadratic",
+    "Cubic",
+    "Quartic",
+    "Quintic"
+   ]
+  },
+  {
+   "id": "q13f",
+   "label": "13f",
+   "section": "Enrichment",
+   "stem": "Polynomials are named by the highest power of $x$: constant (no $x$), linear ($x$), quadratic ($x^2$), cubic ($x^3$), quartic ($x^4$) and quintic ($x^5$). Name each polynomial equation.",
+   "type": "choice",
+   "prompt": "$2 - x^3  =  x^5 + 4x$",
+   "answer": 5,
+   "options": [
+    "Constant",
+    "Linear",
+    "Quadratic",
+    "Cubic",
+    "Quartic",
+    "Quintic"
+   ]
+  },
+  {
+   "id": "q14a",
+   "label": "14a",
+   "section": "Enrichment",
+   "stem": "Solve each polynomial equation using the Null Factor Law.",
+   "type": "list",
+   "prompt": "$(x + 2)(x - 4)(x + 3)  =  0$",
+   "answer": [
+    "-3",
+    "-2",
+    "4"
+   ],
+   "hint": "Type every solution, separated by commas or 'or', for example x = 2 or x = -3"
+  },
+  {
+   "id": "q14b",
+   "label": "14b",
+   "section": "Enrichment",
+   "stem": "Solve each polynomial equation using the Null Factor Law.",
+   "type": "list",
+   "prompt": "$(x - 1)(x - 6)(x + 9)  =  0$",
+   "answer": [
+    "-9",
+    "1",
+    "6"
+   ]
+  },
+  {
+   "id": "q14c",
+   "label": "14c",
+   "section": "Enrichment",
+   "stem": "Solve each polynomial equation using the Null Factor Law.",
+   "type": "list",
+   "prompt": "$(3x - 1)(2x + 5)(4x - 3)  =  0$",
+   "answer": [
+    "-5/2",
+    "1/3",
+    "3/4"
+   ]
+  },
+  {
+   "id": "q14d",
+   "label": "14d",
+   "section": "Enrichment",
+   "stem": "Solve each polynomial equation using the Null Factor Law.",
+   "type": "list",
+   "prompt": "$(2x + 3)(5x - 2)(3x + 7)(4x - 11)  =  0$",
+   "answer": [
+    "-7/3",
+    "-3/2",
+    "2/5",
+    "11/4"
+   ]
+  }
+ ]
+},
+{
+ "id": "y9-10b",
+ "year": 9,
+ "chapter": "Chapter 10: Introduction to quadratic equations and graphs",
+ "title": "10B Solving ax² + bx = 0 and x² = d",
+ "description": "Solve quadratic equations by taking out a common factor or by taking square roots.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Solve these equations.",
+   "type": "list",
+   "prompt": "$x^2 + 5x  =  0$",
+   "answer": [
+    "-5",
+    "0"
+   ],
+   "hint": "Type every solution, separated by commas or 'or', for example x = 2 or x = -3"
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Solve these equations.",
+   "type": "list",
+   "prompt": "$x^2 + 9x  =  0$",
+   "answer": [
+    "-9",
+    "0"
+   ]
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "Solve these equations.",
+   "type": "list",
+   "prompt": "$x^2 + 2x  =  0$",
+   "answer": [
+    "-2",
+    "0"
+   ]
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "Solve these equations.",
+   "type": "list",
+   "prompt": "$x^2 - 6x  =  0$",
+   "answer": [
+    "0",
+    "6"
+   ]
+  },
+  {
+   "id": "q1e",
+   "label": "1e",
+   "section": "Fluency",
+   "stem": "Solve these equations.",
+   "type": "list",
+   "prompt": "$x^2 - 11x  =  0$",
+   "answer": [
+    "0",
+    "11"
+   ]
+  },
+  {
+   "id": "q1f",
+   "label": "1f",
+   "section": "Fluency",
+   "stem": "Solve these equations.",
+   "type": "list",
+   "prompt": "$x^2 - 3x  =  0$",
+   "answer": [
+    "0",
+    "3"
+   ]
+  },
+  {
+   "id": "q1g",
+   "label": "1g",
+   "section": "Fluency",
+   "stem": "Solve these equations.",
+   "type": "list",
+   "prompt": "$x^2 + \\frac{1}{4}x = 0$",
+   "answer": [
+    "-1/4",
+    "0"
+   ],
+   "hint": "Fractions are fine, for example x = 1/2"
+  },
+  {
+   "id": "q1h",
+   "label": "1h",
+   "section": "Fluency",
+   "stem": "Solve these equations.",
+   "type": "list",
+   "prompt": "$x^2 - \\frac{2}{3}x = 0$",
+   "answer": [
+    "0",
+    "2/3"
+   ]
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Solve these equations by first taking out the highest common factor.",
+   "type": "list",
+   "prompt": "$3x^2 - 9x  =  0$",
+   "answer": [
+    "0",
+    "3"
+   ],
+   "hint": "Type every solution, separated by commas or 'or', for example x = 2 or x = -3"
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Solve these equations by first taking out the highest common factor.",
+   "type": "list",
+   "prompt": "$2x^2 - 14x  =  0$",
+   "answer": [
+    "0",
+    "7"
+   ]
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Solve these equations by first taking out the highest common factor.",
+   "type": "list",
+   "prompt": "$5x^2 + 30x  =  0$",
+   "answer": [
+    "-6",
+    "0"
+   ]
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Solve these equations by first taking out the highest common factor.",
+   "type": "list",
+   "prompt": "$4x^2 - 28x  =  0$",
+   "answer": [
+    "0",
+    "7"
+   ]
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Solve these equations by first taking out the highest common factor.",
+   "type": "list",
+   "prompt": "$-3x^2 + 12x  =  0$",
+   "answer": [
+    "0",
+    "4"
+   ]
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "Solve these equations by first taking out the highest common factor.",
+   "type": "list",
+   "prompt": "$-4x^2 - 20x  =  0$",
+   "answer": [
+    "-5",
+    "0"
+   ]
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Solve these equations by first rearranging into standard form.",
+   "type": "list",
+   "prompt": "$x^2  =  5x$",
+   "answer": [
+    "0",
+    "5"
+   ]
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Solve these equations by first rearranging into standard form.",
+   "type": "list",
+   "prompt": "$3x^2  =  12x$",
+   "answer": [
+    "0",
+    "4"
+   ]
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Solve these equations by first rearranging into standard form.",
+   "type": "list",
+   "prompt": "$2x^2  =  14x$",
+   "answer": [
+    "0",
+    "7"
+   ]
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Solve these equations by first rearranging into standard form.",
+   "type": "list",
+   "prompt": "$4x^2  =  -12x$",
+   "answer": [
+    "-3",
+    "0"
+   ]
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "Solve these equations by first rearranging into standard form.",
+   "type": "list",
+   "prompt": "$3x^2  =  -15x$",
+   "answer": [
+    "-5",
+    "0"
+   ]
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "Solve these equations by first rearranging into standard form.",
+   "type": "list",
+   "prompt": "$6x^2  =  -24x$",
+   "answer": [
+    "-4",
+    "0"
+   ]
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "Solve these equations. Remember there are two solutions.",
+   "type": "list",
+   "prompt": "$x^2  =  16$",
+   "answer": [
+    "-4",
+    "4"
+   ],
+   "hint": "Type both solutions, for example x = 3 or x = -3"
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "Solve these equations. Remember there are two solutions.",
+   "type": "list",
+   "prompt": "$x^2  =  49$",
+   "answer": [
+    "-7",
+    "7"
+   ]
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "Solve these equations. Remember there are two solutions.",
+   "type": "list",
+   "prompt": "$x^2  =  64$",
+   "answer": [
+    "-8",
+    "8"
+   ]
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "Solve these equations. Remember there are two solutions.",
+   "type": "list",
+   "prompt": "$x^2 - 121  =  0$",
+   "answer": [
+    "-11",
+    "11"
+   ]
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Fluency",
+   "stem": "Solve these equations. Remember there are two solutions.",
+   "type": "list",
+   "prompt": "$x^2 - 100  =  0$",
+   "answer": [
+    "-10",
+    "10"
+   ]
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Fluency",
+   "stem": "Solve these equations. Remember there are two solutions.",
+   "type": "list",
+   "prompt": "$x^2 - 225  =  0$",
+   "answer": [
+    "-15",
+    "15"
+   ]
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Fluency",
+   "stem": "Solve each equation by first noting the common factor. Leave any square roots in exact form.",
+   "type": "list",
+   "prompt": "$3x^2  =  48$",
+   "answer": [
+    "-4",
+    "4"
+   ]
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Fluency",
+   "stem": "Solve each equation by first noting the common factor. Leave any square roots in exact form.",
+   "type": "list",
+   "prompt": "$4x^2  =  100$",
+   "answer": [
+    "-5",
+    "5"
+   ]
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Fluency",
+   "stem": "Solve each equation by first noting the common factor. Leave any square roots in exact form.",
+   "type": "list",
+   "prompt": "$2x^2  =  72$",
+   "answer": [
+    "-6",
+    "6"
+   ]
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Fluency",
+   "stem": "Solve each equation by first noting the common factor. Leave any square roots in exact form.",
+   "type": "list",
+   "prompt": "$5x^2  =  20$",
+   "answer": [
+    "-2",
+    "2"
+   ]
+  },
+  {
+   "id": "q5e",
+   "label": "5e",
+   "section": "Fluency",
+   "stem": "Solve each equation by first noting the common factor. Leave any square roots in exact form.",
+   "type": "list",
+   "prompt": "$3x^2  =  21$",
+   "answer": [
+    "-sqrt7",
+    "sqrt7"
+   ],
+   "allowExpr": true,
+   "hint": "Type a square root as sqrt7 or √7, for example x = sqrt7 or x = -sqrt7"
+  },
+  {
+   "id": "q5f",
+   "label": "5f",
+   "section": "Fluency",
+   "stem": "Solve each equation by first noting the common factor. Leave any square roots in exact form.",
+   "type": "list",
+   "prompt": "$2x^2  =  22$",
+   "answer": [
+    "-sqrt11",
+    "sqrt11"
+   ],
+   "allowExpr": true
+  },
+  {
+   "id": "q5g",
+   "label": "5g",
+   "section": "Fluency",
+   "stem": "Solve each equation by first noting the common factor. Leave any square roots in exact form.",
+   "type": "list",
+   "prompt": "$4x^2 - 20  =  0$",
+   "answer": [
+    "-sqrt5",
+    "sqrt5"
+   ],
+   "allowExpr": true
+  },
+  {
+   "id": "q5h",
+   "label": "5h",
+   "section": "Fluency",
+   "stem": "Solve each equation by first noting the common factor. Leave any square roots in exact form.",
+   "type": "list",
+   "prompt": "$6x^2 - 18  =  0$",
+   "answer": [
+    "-sqrt3",
+    "sqrt3"
+   ],
+   "allowExpr": true
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Problem-solving",
+   "stem": "Solve these equations by first rearranging where necessary.",
+   "type": "list",
+   "prompt": "$9  =  x^2$",
+   "answer": [
+    "-3",
+    "3"
+   ],
+   "hint": "Type every solution, separated by commas or 'or', for example x = 2 or x = -3"
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Problem-solving",
+   "stem": "Solve these equations by first rearranging where necessary.",
+   "type": "list",
+   "prompt": "$-x^2 + 49  =  0$",
+   "answer": [
+    "-7",
+    "7"
+   ]
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Problem-solving",
+   "stem": "Solve these equations by first rearranging where necessary.",
+   "type": "list",
+   "prompt": "$-x^2  =  -64$",
+   "answer": [
+    "-8",
+    "8"
+   ]
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Problem-solving",
+   "stem": "Solve these equations by first rearranging where necessary.",
+   "type": "list",
+   "prompt": "$-2x^2  =  16x$",
+   "answer": [
+    "-8",
+    "0"
+   ]
+  },
+  {
+   "id": "q6e",
+   "label": "6e",
+   "section": "Problem-solving",
+   "stem": "Solve these equations by first rearranging where necessary.",
+   "type": "list",
+   "prompt": "$-4x^2 + 28x  =  0$",
+   "answer": [
+    "0",
+    "7"
+   ]
+  },
+  {
+   "id": "q6f",
+   "label": "6f",
+   "section": "Problem-solving",
+   "stem": "Solve these equations by first rearranging where necessary.",
+   "type": "list",
+   "prompt": "$36 - x^2  =  0$",
+   "answer": [
+    "-6",
+    "6"
+   ]
+  },
+  {
+   "id": "q6g",
+   "label": "6g",
+   "section": "Problem-solving",
+   "stem": "Solve these equations by first rearranging where necessary.",
+   "type": "list",
+   "prompt": "$10x  =  15x^2$",
+   "answer": [
+    "0",
+    "2/3"
+   ]
+  },
+  {
+   "id": "q6h",
+   "label": "6h",
+   "section": "Problem-solving",
+   "stem": "Solve these equations by first rearranging where necessary.",
+   "type": "list",
+   "prompt": "$3x^2 + 2x  =  5x^2 - 4x$",
+   "answer": [
+    "0",
+    "3"
+   ]
+  },
+  {
+   "id": "q6i",
+   "label": "6i",
+   "section": "Problem-solving",
+   "stem": "Solve these equations by first rearranging where necessary.",
+   "type": "list",
+   "prompt": "$12 - x^2  =  2x^2$",
+   "answer": [
+    "-2",
+    "2"
+   ]
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Problem-solving",
+   "stem": "Write an equation for each and solve it to find the possible values of the number.",
+   "type": "list",
+   "prompt": "The square of a number is $5$ times the same number.",
+   "answer": [
+    "0",
+    "5"
+   ],
+   "hint": "Type all the possible numbers, for example 0, 6"
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Problem-solving",
+   "stem": "Write an equation for each and solve it to find the possible values of the number.",
+   "type": "list",
+   "prompt": "The difference between the square of a number and $81$ is zero.",
+   "answer": [
+    "-9",
+    "9"
+   ]
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Problem-solving",
+   "stem": "Write an equation for each and solve it to find the possible values of the number.",
+   "type": "list",
+   "prompt": "$4$ times the square of a number is equal to $-20$ times the number.",
+   "answer": [
+    "-5",
+    "0"
+   ]
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Problem-solving",
+   "stem": "Remove brackets or fractions to help solve these equations.",
+   "type": "list",
+   "prompt": "$x - \\frac{9}{x} = 0$",
+   "answer": [
+    "-3",
+    "3"
+   ]
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Problem-solving",
+   "stem": "Remove brackets or fractions to help solve these equations.",
+   "type": "list",
+   "prompt": "$\\frac{25}{x} - x = 0$",
+   "answer": [
+    "-5",
+    "5"
+   ]
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Problem-solving",
+   "stem": "Remove brackets or fractions to help solve these equations.",
+   "type": "list",
+   "prompt": "$\\frac{8}{x^2} = 2$",
+   "answer": [
+    "-2",
+    "2"
+   ]
+  },
+  {
+   "id": "q8d",
+   "label": "8d",
+   "section": "Problem-solving",
+   "stem": "Remove brackets or fractions to help solve these equations.",
+   "type": "list",
+   "prompt": "$4(x^2 + 2)  =  2x^2 + 26$",
+   "answer": [
+    "-3",
+    "3"
+   ]
+  },
+  {
+   "id": "q8e",
+   "label": "8e",
+   "section": "Problem-solving",
+   "stem": "Remove brackets or fractions to help solve these equations.",
+   "type": "list",
+   "prompt": "$x(x - 5)  =  2x^2 + 3x$",
+   "answer": [
+    "-8",
+    "0"
+   ]
+  },
+  {
+   "id": "q8f",
+   "label": "8f",
+   "section": "Problem-solving",
+   "stem": "Remove brackets or fractions to help solve these equations.",
+   "type": "list",
+   "prompt": "$2x(4 - x)  =  x(6 - x)$",
+   "answer": [
+    "0",
+    "2"
+   ]
+  },
+  {
+   "id": "q9",
+   "label": "9",
+   "section": "Reasoning",
+   "type": "choice",
+   "prompt": "Are there any solutions to the equation $x^2 + 9 = 0$?",
+   "answer": 0,
+   "options": [
+    "No, because x² is never negative, so x² + 9 is always at least 9",
+    "Yes, x = 3 and x = -3",
+    "Yes, x = -9 only"
+   ]
+  },
+  {
+   "id": "q10",
+   "label": "10",
+   "section": "Reasoning",
+   "type": "expression",
+   "prompt": "An equation of the form $ax^2 + bx = 0$ (with $a$ and $b$ not zero) has two solutions, and one of them is $x = 0$. Write the rule for the other solution in terms of $a$ and $b$.",
+   "answer": "x=-b/a",
+   "accept": [
+    "-b/a"
+   ],
+   "hint": "Type the rule, for example x = -b/a or x = 2a/b"
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Enrichment",
+   "stem": "Solve these equations. For example, $4x^2 = 9$ gives $x^2 = \\frac{9}{4}$, so $x = \\frac{3}{2}$ or $x = -\\frac{3}{2}$.",
+   "type": "list",
+   "prompt": "$4x^2  =  25$",
+   "answer": [
+    "-5/2",
+    "5/2"
+   ],
+   "hint": "Type fractions with /, for example x = 3/2 or x = -3/2"
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Enrichment",
+   "stem": "Solve these equations. For example, $4x^2 = 9$ gives $x^2 = \\frac{9}{4}$, so $x = \\frac{3}{2}$ or $x = -\\frac{3}{2}$.",
+   "type": "list",
+   "prompt": "$16x^2  =  49$",
+   "answer": [
+    "-7/4",
+    "7/4"
+   ]
+  },
+  {
+   "id": "q11c",
+   "label": "11c",
+   "section": "Enrichment",
+   "stem": "Solve these equations. For example, $4x^2 = 9$ gives $x^2 = \\frac{9}{4}$, so $x = \\frac{3}{2}$ or $x = -\\frac{3}{2}$.",
+   "type": "list",
+   "prompt": "$9  =  100x^2$",
+   "answer": [
+    "-3/10",
+    "3/10"
+   ]
+  },
+  {
+   "id": "q11d",
+   "label": "11d",
+   "section": "Enrichment",
+   "stem": "Solve these equations. For example, $4x^2 = 9$ gives $x^2 = \\frac{9}{4}$, so $x = \\frac{3}{2}$ or $x = -\\frac{3}{2}$.",
+   "type": "list",
+   "prompt": "$64 - 9x^2  =  0$",
+   "answer": [
+    "-8/3",
+    "8/3"
+   ]
+  },
+  {
+   "id": "q11e",
+   "label": "11e",
+   "section": "Enrichment",
+   "stem": "Solve these equations. For example, $4x^2 = 9$ gives $x^2 = \\frac{9}{4}$, so $x = \\frac{3}{2}$ or $x = -\\frac{3}{2}$.",
+   "type": "list",
+   "prompt": "$49 - 36x^2  =  0$",
+   "answer": [
+    "-7/6",
+    "7/6"
+   ]
+  },
+  {
+   "id": "q11f",
+   "label": "11f",
+   "section": "Enrichment",
+   "stem": "Solve these equations. For example, $4x^2 = 9$ gives $x^2 = \\frac{9}{4}$, so $x = \\frac{3}{2}$ or $x = -\\frac{3}{2}$.",
+   "type": "list",
+   "prompt": "$-81x^2 + 16  =  0$",
+   "answer": [
+    "-4/9",
+    "4/9"
+   ]
+  },
+  {
+   "id": "q12a",
+   "label": "12a",
+   "section": "Enrichment",
+   "stem": "Solve these equations. For example, $(x - 1)^2 - 4 = 0$ becomes $(x - 1)^2 = 4$, so $x - 1 = 2$ or $x - 1 = -2$, giving $x = 3$ or $x = -1$.",
+   "type": "list",
+   "prompt": "$(x - 3)^2  =  16$",
+   "answer": [
+    "-1",
+    "7"
+   ]
+  },
+  {
+   "id": "q12b",
+   "label": "12b",
+   "section": "Enrichment",
+   "stem": "Solve these equations. For example, $(x - 1)^2 - 4 = 0$ becomes $(x - 1)^2 = 4$, so $x - 1 = 2$ or $x - 1 = -2$, giving $x = 3$ or $x = -1$.",
+   "type": "list",
+   "prompt": "$(x + 4)^2  =  25$",
+   "answer": [
+    "-9",
+    "1"
+   ]
+  },
+  {
+   "id": "q12c",
+   "label": "12c",
+   "section": "Enrichment",
+   "stem": "Solve these equations. For example, $(x - 1)^2 - 4 = 0$ becomes $(x - 1)^2 = 4$, so $x - 1 = 2$ or $x - 1 = -2$, giving $x = 3$ or $x = -1$.",
+   "type": "list",
+   "prompt": "$(3x + 1)^2  =  4$",
+   "answer": [
+    "-1",
+    "1/3"
+   ]
+  },
+  {
+   "id": "q12d",
+   "label": "12d",
+   "section": "Enrichment",
+   "stem": "Solve these equations. For example, $(x - 1)^2 - 4 = 0$ becomes $(x - 1)^2 = 4$, so $x - 1 = 2$ or $x - 1 = -2$, giving $x = 3$ or $x = -1$.",
+   "type": "list",
+   "prompt": "$(2x - 5)^2 - 49  =  0$",
+   "answer": [
+    "-1",
+    "6"
+   ]
+  },
+  {
+   "id": "q12e",
+   "label": "12e",
+   "section": "Enrichment",
+   "stem": "Solve these equations. For example, $(x - 1)^2 - 4 = 0$ becomes $(x - 1)^2 = 4$, so $x - 1 = 2$ or $x - 1 = -2$, giving $x = 3$ or $x = -1$.",
+   "type": "list",
+   "prompt": "$(3 - x)^2 - 16  =  0$",
+   "answer": [
+    "-1",
+    "7"
+   ]
+  },
+  {
+   "id": "q12f",
+   "label": "12f",
+   "section": "Enrichment",
+   "stem": "Solve these equations. For example, $(x - 1)^2 - 4 = 0$ becomes $(x - 1)^2 = 4$, so $x - 1 = 2$ or $x - 1 = -2$, giving $x = 3$ or $x = -1$.",
+   "type": "list",
+   "prompt": "$(2 - 5x)^2 - 64  =  0$",
+   "answer": [
+    "-6/5",
+    "2"
+   ]
+  }
+ ]
+},
+{
+ "id": "y9-10c",
+ "year": 9,
+ "chapter": "Chapter 10: Introduction to quadratic equations and graphs",
+ "title": "10C Solving x² + bx + c = 0",
+ "description": "Solve quadratic equations by factorising trinomials, including perfect squares and equations that need rearranging.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Solve these quadratic equations.",
+   "type": "list",
+   "prompt": "$x^2 + 9x + 14  =  0$",
+   "answer": [
+    "-7",
+    "-2"
+   ],
+   "hint": "Type every solution, separated by commas or 'or', for example x = 2 or x = -3"
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Solve these quadratic equations.",
+   "type": "list",
+   "prompt": "$x^2 + 10x + 21  =  0$",
+   "answer": [
+    "-7",
+    "-3"
+   ]
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "Solve these quadratic equations.",
+   "type": "list",
+   "prompt": "$x^2 + 8x + 15  =  0$",
+   "answer": [
+    "-5",
+    "-3"
+   ]
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Solve these quadratic equations.",
+   "type": "list",
+   "prompt": "$x^2 + 11x + 28  =  0$",
+   "answer": [
+    "-7",
+    "-4"
+   ]
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Solve these quadratic equations.",
+   "type": "list",
+   "prompt": "$x^2 + 8x + 12  =  0$",
+   "answer": [
+    "-6",
+    "-2"
+   ]
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Solve these quadratic equations.",
+   "type": "list",
+   "prompt": "$x^2 + 6x + 5  =  0$",
+   "answer": [
+    "-5",
+    "-1"
+   ]
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Solve these quadratic equations.",
+   "type": "list",
+   "prompt": "$x^2 - 11x + 30  =  0$",
+   "answer": [
+    "5",
+    "6"
+   ]
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Solve these quadratic equations.",
+   "type": "list",
+   "prompt": "$x^2 - 8x + 15  =  0$",
+   "answer": [
+    "3",
+    "5"
+   ]
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "Solve these quadratic equations.",
+   "type": "list",
+   "prompt": "$x^2 - 9x + 14  =  0$",
+   "answer": [
+    "2",
+    "7"
+   ]
+  },
+  {
+   "id": "q2g",
+   "label": "2g",
+   "section": "Fluency",
+   "stem": "Solve these quadratic equations.",
+   "type": "list",
+   "prompt": "$x^2 - 3x - 10  =  0$",
+   "answer": [
+    "-2",
+    "5"
+   ]
+  },
+  {
+   "id": "q2h",
+   "label": "2h",
+   "section": "Fluency",
+   "stem": "Solve these quadratic equations.",
+   "type": "list",
+   "prompt": "$x^2 - 5x - 24  =  0$",
+   "answer": [
+    "-3",
+    "8"
+   ]
+  },
+  {
+   "id": "q2i",
+   "label": "2i",
+   "section": "Fluency",
+   "stem": "Solve these quadratic equations.",
+   "type": "list",
+   "prompt": "$x^2 - 2x - 48  =  0$",
+   "answer": [
+    "-6",
+    "8"
+   ]
+  },
+  {
+   "id": "q2j",
+   "label": "2j",
+   "section": "Fluency",
+   "stem": "Solve these quadratic equations.",
+   "type": "list",
+   "prompt": "$x^2 - 11x + 24  =  0$",
+   "answer": [
+    "3",
+    "8"
+   ]
+  },
+  {
+   "id": "q2k",
+   "label": "2k",
+   "section": "Fluency",
+   "stem": "Solve these quadratic equations.",
+   "type": "list",
+   "prompt": "$x^2 - x - 56  =  0$",
+   "answer": [
+    "-7",
+    "8"
+   ]
+  },
+  {
+   "id": "q2l",
+   "label": "2l",
+   "section": "Fluency",
+   "stem": "Solve these quadratic equations.",
+   "type": "list",
+   "prompt": "$x^2 + 4x - 60  =  0$",
+   "answer": [
+    "-10",
+    "6"
+   ]
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Solve these quadratic equations, which include perfect squares.",
+   "type": "list",
+   "prompt": "$x^2 + 8x + 16  =  0$",
+   "answer": [
+    "-4"
+   ],
+   "hint": "A perfect square has only one solution: type just that one"
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Solve these quadratic equations, which include perfect squares.",
+   "type": "list",
+   "prompt": "$x^2 + 2x + 1  =  0$",
+   "answer": [
+    "-1"
+   ]
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Solve these quadratic equations, which include perfect squares.",
+   "type": "list",
+   "prompt": "$x^2 + 12x + 36  =  0$",
+   "answer": [
+    "-6"
+   ]
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Solve these quadratic equations, which include perfect squares.",
+   "type": "list",
+   "prompt": "$x^2 + 22x + 121  =  0$",
+   "answer": [
+    "-11"
+   ]
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "Solve these quadratic equations, which include perfect squares.",
+   "type": "list",
+   "prompt": "$x^2 - 14x + 49  =  0$",
+   "answer": [
+    "7"
+   ]
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "Solve these quadratic equations, which include perfect squares.",
+   "type": "list",
+   "prompt": "$x^2 - 18x + 81  =  0$",
+   "answer": [
+    "9"
+   ]
+  },
+  {
+   "id": "q3g",
+   "label": "3g",
+   "section": "Fluency",
+   "stem": "Solve these quadratic equations, which include perfect squares.",
+   "type": "list",
+   "prompt": "$x^2 - 4x + 4  =  0$",
+   "answer": [
+    "2"
+   ]
+  },
+  {
+   "id": "q3h",
+   "label": "3h",
+   "section": "Fluency",
+   "stem": "Solve these quadratic equations, which include perfect squares.",
+   "type": "list",
+   "prompt": "$x^2 - 16x + 64  =  0$",
+   "answer": [
+    "8"
+   ]
+  },
+  {
+   "id": "q3i",
+   "label": "3i",
+   "section": "Fluency",
+   "stem": "Solve these quadratic equations, which include perfect squares.",
+   "type": "list",
+   "prompt": "$x^2 - 24x + 144  =  0$",
+   "answer": [
+    "12"
+   ]
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "Solve these quadratic equations by first rearranging to standard form.",
+   "type": "list",
+   "prompt": "$x^2  =  2x + 15$",
+   "answer": [
+    "-3",
+    "5"
+   ]
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "Solve these quadratic equations by first rearranging to standard form.",
+   "type": "list",
+   "prompt": "$x^2  =  9x - 20$",
+   "answer": [
+    "4",
+    "5"
+   ]
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "Solve these quadratic equations by first rearranging to standard form.",
+   "type": "list",
+   "prompt": "$x^2  =  10x - 25$",
+   "answer": [
+    "5"
+   ]
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "Solve these quadratic equations by first rearranging to standard form.",
+   "type": "list",
+   "prompt": "$x^2  =  6 - 5x$",
+   "answer": [
+    "-6",
+    "1"
+   ]
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Fluency",
+   "stem": "Solve these quadratic equations by first rearranging to standard form.",
+   "type": "list",
+   "prompt": "$12 - x  =  x^2$",
+   "answer": [
+    "-4",
+    "3"
+   ]
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Fluency",
+   "stem": "Solve these quadratic equations by first rearranging to standard form.",
+   "type": "list",
+   "prompt": "$x^2 + 36  =  12x$",
+   "answer": [
+    "6"
+   ]
+  },
+  {
+   "id": "q4g",
+   "label": "4g",
+   "section": "Fluency",
+   "stem": "Solve these quadratic equations by first rearranging to standard form.",
+   "type": "list",
+   "prompt": "$x^2 - 20  =  -8x$",
+   "answer": [
+    "-10",
+    "2"
+   ]
+  },
+  {
+   "id": "q4h",
+   "label": "4h",
+   "section": "Fluency",
+   "stem": "Solve these quadratic equations by first rearranging to standard form.",
+   "type": "list",
+   "prompt": "$8 - x^2  =  7x$",
+   "answer": [
+    "-8",
+    "1"
+   ]
+  },
+  {
+   "id": "q4i",
+   "label": "4i",
+   "section": "Fluency",
+   "stem": "Solve these quadratic equations by first rearranging to standard form.",
+   "type": "list",
+   "prompt": "$12  =  7x - x^2$",
+   "answer": [
+    "3",
+    "4"
+   ]
+  },
+  {
+   "id": "q4j",
+   "label": "4j",
+   "section": "Fluency",
+   "stem": "Solve these quadratic equations by first rearranging to standard form.",
+   "type": "list",
+   "prompt": "$21 - 4x  =  x^2$",
+   "answer": [
+    "-7",
+    "3"
+   ]
+  },
+  {
+   "id": "q4k",
+   "label": "4k",
+   "section": "Fluency",
+   "stem": "Solve these quadratic equations by first rearranging to standard form.",
+   "type": "list",
+   "prompt": "$-8x  =  x^2 + 15$",
+   "answer": [
+    "-5",
+    "-3"
+   ]
+  },
+  {
+   "id": "q4l",
+   "label": "4l",
+   "section": "Fluency",
+   "stem": "Solve these quadratic equations by first rearranging to standard form.",
+   "type": "list",
+   "prompt": "$-x^2 - 5x  =  -14$",
+   "answer": [
+    "-7",
+    "2"
+   ]
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Problem-solving",
+   "stem": "Solve these equations by taking out a common factor as the first step.",
+   "type": "list",
+   "prompt": "$3x^2 - 3x - 18  =  0$",
+   "answer": [
+    "-2",
+    "3"
+   ]
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Problem-solving",
+   "stem": "Solve these equations by taking out a common factor as the first step.",
+   "type": "list",
+   "prompt": "$2x^2 + 16x + 30  =  0$",
+   "answer": [
+    "-5",
+    "-3"
+   ]
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Problem-solving",
+   "stem": "Solve these equations by taking out a common factor as the first step.",
+   "type": "list",
+   "prompt": "$5x^2 - 15x - 50  =  0$",
+   "answer": [
+    "-2",
+    "5"
+   ]
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Problem-solving",
+   "stem": "Solve these equations by taking out a common factor as the first step.",
+   "type": "list",
+   "prompt": "$3x^2 - 21x + 30  =  0$",
+   "answer": [
+    "2",
+    "5"
+   ]
+  },
+  {
+   "id": "q5e",
+   "label": "5e",
+   "section": "Problem-solving",
+   "stem": "Solve these equations by taking out a common factor as the first step.",
+   "type": "list",
+   "prompt": "$3x^2 - 12x + 12  =  0$",
+   "answer": [
+    "2"
+   ]
+  },
+  {
+   "id": "q5f",
+   "label": "5f",
+   "section": "Problem-solving",
+   "stem": "Solve these equations by taking out a common factor as the first step.",
+   "type": "list",
+   "prompt": "$4x^2 + 8x + 4  =  0$",
+   "answer": [
+    "-1"
+   ]
+  },
+  {
+   "id": "q5g",
+   "label": "5g",
+   "section": "Problem-solving",
+   "stem": "Solve these equations by taking out a common factor as the first step.",
+   "type": "list",
+   "prompt": "$5x^2 - 40x + 80  =  0$",
+   "answer": [
+    "4"
+   ]
+  },
+  {
+   "id": "q5h",
+   "label": "5h",
+   "section": "Problem-solving",
+   "stem": "Solve these equations by taking out a common factor as the first step.",
+   "type": "list",
+   "prompt": "$3x^2 + 18x  =  -27$",
+   "answer": [
+    "-3"
+   ]
+  },
+  {
+   "id": "q5i",
+   "label": "5i",
+   "section": "Problem-solving",
+   "stem": "Solve these equations by taking out a common factor as the first step.",
+   "type": "list",
+   "prompt": "$2x^2  =  30 - 4x$",
+   "answer": [
+    "-5",
+    "3"
+   ]
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Problem-solving",
+   "stem": "The temperature in $^\\circ$C inside a research hut in Antarctica, $t$ hours after 10 a.m., is given by $t^2 - 10t + 21$.",
+   "type": "list",
+   "prompt": "How many hours after 10 a.m. is the temperature $0^\\circ$C? Give both answers.",
+   "answer": [
+    "3",
+    "7"
+   ],
+   "hint": "Type both numbers of hours, for example 2, 5"
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Problem-solving",
+   "stem": "The temperature in $^\\circ$C inside a research hut in Antarctica, $t$ hours after 10 a.m., is given by $t^2 - 10t + 21$.",
+   "type": "text",
+   "prompt": "At what time of day is the temperature $0^\\circ$C for the second time?",
+   "answer": "5 pm",
+   "accept": [
+    "5:00 pm",
+    "5pm",
+    "5:00pm",
+    "5 p.m.",
+    "5:00 p.m.",
+    "17:00",
+    "1700"
+   ],
+   "hint": "Type a time like 3 pm or 15:00"
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Problem-solving",
+   "stem": "Write down a quadratic equation $x^2 + bx + c = 0$ that has the given solutions. Give the values of $b$ and $c$, in that order.",
+   "type": "ordered",
+   "prompt": "$x = 2$ and $x = 3$",
+   "answer": [
+    "-5",
+    "6"
+   ],
+   "hint": "Type the two numbers in order, separated by a comma, for example -3, 2"
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Problem-solving",
+   "stem": "Write down a quadratic equation $x^2 + bx + c = 0$ that has the given solutions. Give the values of $b$ and $c$, in that order.",
+   "type": "ordered",
+   "prompt": "$x = 4$ and $x = -1$",
+   "answer": [
+    "-3",
+    "-4"
+   ]
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Problem-solving",
+   "stem": "Write down a quadratic equation $x^2 + bx + c = 0$ that has the given solutions. Give the values of $b$ and $c$, in that order.",
+   "type": "ordered",
+   "prompt": "$x = -5$ and $x = 2$",
+   "answer": [
+    "3",
+    "-10"
+   ]
+  },
+  {
+   "id": "q7d",
+   "label": "7d",
+   "section": "Problem-solving",
+   "stem": "Write down a quadratic equation $x^2 + bx + c = 0$ that has the given solutions. Give the values of $b$ and $c$, in that order.",
+   "type": "ordered",
+   "prompt": "$x = -2$ and $x = 9$",
+   "answer": [
+    "-7",
+    "-18"
+   ]
+  },
+  {
+   "id": "q7e",
+   "label": "7e",
+   "section": "Problem-solving",
+   "stem": "Write down a quadratic equation $x^2 + bx + c = 0$ that has the given solutions. Give the values of $b$ and $c$, in that order.",
+   "type": "ordered",
+   "prompt": "$x = 6$ only",
+   "answer": [
+    "-12",
+    "36"
+   ]
+  },
+  {
+   "id": "q7f",
+   "label": "7f",
+   "section": "Problem-solving",
+   "stem": "Write down a quadratic equation $x^2 + bx + c = 0$ that has the given solutions. Give the values of $b$ and $c$, in that order.",
+   "type": "ordered",
+   "prompt": "$x = -7$ only",
+   "answer": [
+    "14",
+    "49"
+   ]
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Problem-solving",
+   "stem": "Remove brackets, decimals or fractions and write in standard form to help solve these equations.",
+   "type": "list",
+   "prompt": "$x^2  =  4(x - 0.75)$",
+   "answer": [
+    "1",
+    "3"
+   ]
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Problem-solving",
+   "stem": "Remove brackets, decimals or fractions and write in standard form to help solve these equations.",
+   "type": "list",
+   "prompt": "$2x(x - 2)  =  x^2 - 4$",
+   "answer": [
+    "2"
+   ]
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Problem-solving",
+   "stem": "Remove brackets, decimals or fractions and write in standard form to help solve these equations.",
+   "type": "list",
+   "prompt": "$2(x^2 + x - 3)  =  x^2 - 3(x + 4)$",
+   "answer": [
+    "-3",
+    "-2"
+   ]
+  },
+  {
+   "id": "q8d",
+   "label": "8d",
+   "section": "Problem-solving",
+   "stem": "Remove brackets, decimals or fractions and write in standard form to help solve these equations.",
+   "type": "list",
+   "prompt": "$x - 3 = \\frac{28}{x}$",
+   "answer": [
+    "-4",
+    "7"
+   ]
+  },
+  {
+   "id": "q8e",
+   "label": "8e",
+   "section": "Problem-solving",
+   "stem": "Remove brackets, decimals or fractions and write in standard form to help solve these equations.",
+   "type": "list",
+   "prompt": "$3 + \\frac{2}{x} = -x$",
+   "answer": [
+    "-2",
+    "-1"
+   ]
+  },
+  {
+   "id": "q8f",
+   "label": "8f",
+   "section": "Problem-solving",
+   "stem": "Remove brackets, decimals or fractions and write in standard form to help solve these equations.",
+   "type": "list",
+   "prompt": "$\\frac{x}{9} = 1 - \\frac{2}{x}$",
+   "answer": [
+    "3",
+    "6"
+   ]
+  },
+  {
+   "id": "q9",
+   "label": "9",
+   "section": "Reasoning",
+   "stem": "Jess solved $x^2 + x - 20 = -8$ like this: $(x + 5)(x - 4) = -8$, so $x + 5 = -8$ or $x - 4 = -8$, giving $x = -13$ or $x = -4$. Her working is wrong: the Null Factor Law only works when one side is $0$.",
+   "type": "list",
+   "prompt": "Find the correct solutions to $x^2 + x - 20 = -8$.",
+   "answer": [
+    "-4",
+    "3"
+   ]
+  },
+  {
+   "id": "q10",
+   "label": "10",
+   "section": "Reasoning",
+   "type": "numeric",
+   "prompt": "How many different solutions does $x^2 - 6x + 9 = 0$ have?",
+   "answer": "1"
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Reasoning",
+   "stem": "Write down a quadratic equation in factorised form that has these solutions.",
+   "type": "expression",
+   "prompt": "$x = a$ only",
+   "answer": "(x-a)^2=0",
+   "hint": "Type an equation, for example (x - a)(x + 3) = 0"
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Reasoning",
+   "stem": "Write down a quadratic equation in factorised form that has these solutions.",
+   "type": "expression",
+   "prompt": "$x = a$ and $x = b$",
+   "answer": "(x-a)(x-b)=0"
+  },
+  {
+   "id": "q12a",
+   "label": "12a",
+   "section": "Enrichment",
+   "stem": "Quadratics where the coefficient of $x^2$ is not $1$ are called non-monic. For example, $2x^2 + 5x - 3 = 0$ factorises to $(2x - 1)(x + 3) = 0$. Solve these quadratic equations.",
+   "type": "list",
+   "prompt": "$3x^2 + 10x + 3  =  0$",
+   "answer": [
+    "-3",
+    "-1/3"
+   ],
+   "hint": "Fractions are fine, for example x = 1/2 or x = -3"
+  },
+  {
+   "id": "q12b",
+   "label": "12b",
+   "section": "Enrichment",
+   "stem": "Quadratics where the coefficient of $x^2$ is not $1$ are called non-monic. For example, $2x^2 + 5x - 3 = 0$ factorises to $(2x - 1)(x + 3) = 0$. Solve these quadratic equations.",
+   "type": "list",
+   "prompt": "$2x^2 + 3x - 2  =  0$",
+   "answer": [
+    "-2",
+    "1/2"
+   ]
+  },
+  {
+   "id": "q12c",
+   "label": "12c",
+   "section": "Enrichment",
+   "stem": "Quadratics where the coefficient of $x^2$ is not $1$ are called non-monic. For example, $2x^2 + 5x - 3 = 0$ factorises to $(2x - 1)(x + 3) = 0$. Solve these quadratic equations.",
+   "type": "list",
+   "prompt": "$6x^2 + x - 2  =  0$",
+   "answer": [
+    "-2/3",
+    "1/2"
+   ]
+  },
+  {
+   "id": "q12d",
+   "label": "12d",
+   "section": "Enrichment",
+   "stem": "Quadratics where the coefficient of $x^2$ is not $1$ are called non-monic. For example, $2x^2 + 5x - 3 = 0$ factorises to $(2x - 1)(x + 3) = 0$. Solve these quadratic equations.",
+   "type": "list",
+   "prompt": "$8x^2 + 4x - 4  =  0$",
+   "answer": [
+    "-1",
+    "1/2"
+   ]
+  },
+  {
+   "id": "q12e",
+   "label": "12e",
+   "section": "Enrichment",
+   "stem": "Quadratics where the coefficient of $x^2$ is not $1$ are called non-monic. For example, $2x^2 + 5x - 3 = 0$ factorises to $(2x - 1)(x + 3) = 0$. Solve these quadratic equations.",
+   "type": "list",
+   "prompt": "$3x^2  =  10 - 13x$",
+   "answer": [
+    "-5",
+    "2/3"
+   ]
+  },
+  {
+   "id": "q12f",
+   "label": "12f",
+   "section": "Enrichment",
+   "stem": "Quadratics where the coefficient of $x^2$ is not $1$ are called non-monic. For example, $2x^2 + 5x - 3 = 0$ factorises to $(2x - 1)(x + 3) = 0$. Solve these quadratic equations.",
+   "type": "list",
+   "prompt": "$9x^2  =  12x - 4$",
+   "answer": [
+    "2/3"
+   ]
+  },
+  {
+   "id": "q12g",
+   "label": "12g",
+   "section": "Enrichment",
+   "stem": "Quadratics where the coefficient of $x^2$ is not $1$ are called non-monic. For example, $2x^2 + 5x - 3 = 0$ factorises to $(2x - 1)(x + 3) = 0$. Solve these quadratic equations.",
+   "type": "list",
+   "prompt": "$x  =  2x^2 - 6$",
+   "answer": [
+    "-3/2",
+    "2"
+   ]
+  },
+  {
+   "id": "q12h",
+   "label": "12h",
+   "section": "Enrichment",
+   "stem": "Quadratics where the coefficient of $x^2$ is not $1$ are called non-monic. For example, $2x^2 + 5x - 3 = 0$ factorises to $(2x - 1)(x + 3) = 0$. Solve these quadratic equations.",
+   "type": "list",
+   "prompt": "$13x  =  6 - 5x^2$",
+   "answer": [
+    "-3",
+    "2/5"
+   ]
+  },
+  {
+   "id": "q12i",
+   "label": "12i",
+   "section": "Enrichment",
+   "stem": "Quadratics where the coefficient of $x^2$ is not $1$ are called non-monic. For example, $2x^2 + 5x - 3 = 0$ factorises to $(2x - 1)(x + 3) = 0$. Solve these quadratic equations.",
+   "type": "list",
+   "prompt": "$16  =  -9x^2 - 24x$",
+   "answer": [
+    "-4/3"
+   ]
+  }
+ ]
+},
+{
+ "id": "y9-10d",
+ "year": 9,
+ "chapter": "Chapter 10: Introduction to quadratic equations and graphs",
+ "title": "10D Using quadratic equations to solve problems",
+ "description": "Write and solve quadratic equations for areas, number puzzles and formulas, then pick the solutions that make sense.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "The length of a rectangular poster is $6$ cm more than its width, and its area is $112$ cm$^2$.",
+   "type": "numeric",
+   "prompt": "Find the width.",
+   "answer": "8",
+   "units": "cm"
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "The length of a rectangular poster is $6$ cm more than its width, and its area is $112$ cm$^2$.",
+   "type": "numeric",
+   "prompt": "Find the length.",
+   "answer": "14",
+   "units": "cm"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "The length of a rectangular flyer is $3$ cm more than its width, and its area is $40$ cm$^2$.",
+   "type": "numeric",
+   "prompt": "Find the width.",
+   "answer": "5",
+   "units": "cm"
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "The length of a rectangular flyer is $3$ cm more than its width, and its area is $40$ cm$^2$.",
+   "type": "numeric",
+   "prompt": "Find the length.",
+   "answer": "8",
+   "units": "cm"
+  },
+  {
+   "id": "q3",
+   "label": "3",
+   "section": "Fluency",
+   "type": "list",
+   "prompt": "The product of a number and $4$ more than the same number is $45$. Write an equation and solve it to find the two possible values of the number.",
+   "answer": [
+    "-9",
+    "5"
+   ],
+   "hint": "Type both values, for example 4, -7"
+  },
+  {
+   "id": "q4",
+   "label": "4",
+   "section": "Fluency",
+   "type": "list",
+   "prompt": "The product of a number and $6$ less than the same number is $72$. Write an equation and solve it to find the two possible values of the number.",
+   "answer": [
+    "-6",
+    "12"
+   ]
+  },
+  {
+   "id": "q5",
+   "label": "5",
+   "section": "Fluency",
+   "type": "list",
+   "prompt": "The product of a number and $11$ less than the same number is $26$. Write an equation and solve it to find the two possible values of the number.",
+   "answer": [
+    "-2",
+    "13"
+   ]
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Fluency",
+   "stem": "The length of a rectangular vegetable patch is $15$ metres less than its width, and its area is $54$ m$^2$.",
+   "type": "numeric",
+   "prompt": "Find the width.",
+   "answer": "18",
+   "units": "m"
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Fluency",
+   "stem": "The length of a rectangular vegetable patch is $15$ metres less than its width, and its area is $54$ m$^2$.",
+   "type": "numeric",
+   "prompt": "Find the length.",
+   "answer": "3",
+   "units": "m"
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Problem-solving",
+   "stem": "A square of side length $12$ metres has a square of side length $x$ metres removed from one corner.",
+   "type": "expression",
+   "prompt": "Write an expression for the area remaining, in m$^2$.",
+   "answer": "144-x^2",
+   "hint": "Type x squared as x^2",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 22,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        12,
+        0
+       ],
+       [
+        12,
+        8
+       ],
+       [
+        8,
+        8
+       ],
+       [
+        8,
+        12
+       ],
+       [
+        0,
+        12
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       8,
+       12,
+       12,
+       12
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       12,
+       12,
+       12,
+       8
+      ],
+      "dash": true
+     },
+     {
+      "dim": [
+       0,
+       0,
+       12,
+       0
+      ],
+      "label": "12 m",
+      "off": -0.9
+     },
+     {
+      "label": "x m",
+      "at": [
+       10,
+       12.7
+      ]
+     },
+     {
+      "label": "x m",
+      "at": [
+       13.1,
+       10
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Problem-solving",
+   "stem": "A square of side length $12$ metres has a square of side length $x$ metres removed from one corner.",
+   "type": "numeric",
+   "prompt": "Find the value of $x$ if the area remaining is $108$ m$^2$.",
+   "answer": "6",
+   "units": "m"
+  },
+  {
+   "id": "q8",
+   "label": "8",
+   "section": "Problem-solving",
+   "type": "numeric",
+   "prompt": "An isosceles triangle has height $h$ equal to half its base length. Find the value of $h$ if the area is $49$ square units.",
+   "answer": "7",
+   "figure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        6,
+        0
+       ],
+       [
+        3,
+        3
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       3,
+       0,
+       3,
+       3
+      ],
+      "dash": true
+     },
+     {
+      "angle": [
+       3,
+       0,
+       0,
+       90
+      ],
+      "right": true
+     },
+     {
+      "label": "h",
+      "at": [
+       3.4,
+       1.3
+      ]
+     },
+     {
+      "tick": [
+       0,
+       0,
+       3,
+       3
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       6,
+       0,
+       3,
+       3
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       0,
+       0,
+       3,
+       0
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       3,
+       0,
+       6,
+       0
+      ],
+      "n": 2
+     }
+    ]
+   }
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Problem-solving",
+   "stem": "A rectangular shed ($4$ m by $6$ m) is extended to form an L shape, as shown. The new part is $x$ m wide.",
+   "type": "expression",
+   "prompt": "Write an expression for the total area of the extended shed, in m$^2$.",
+   "answer": "24+x(x+6)",
+   "hint": "Any correct expression is fine, for example x^2 + 3x + 10",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 20,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        5,
+        0
+       ],
+       [
+        5,
+        5
+       ],
+       [
+        9,
+        5
+       ],
+       [
+        9,
+        11
+       ],
+       [
+        0,
+        11
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "6 m",
+      "at": [
+       10,
+       8
+      ]
+     },
+     {
+      "label": "4 m",
+      "at": [
+       7,
+       4.3
+      ]
+     },
+     {
+      "label": "x m",
+      "at": [
+       5.9,
+       2.5
+      ]
+     },
+     {
+      "label": "x m",
+      "at": [
+       2.5,
+       -0.7
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Problem-solving",
+   "stem": "A rectangular shed ($4$ m by $6$ m) is extended to form an L shape, as shown. The new part is $x$ m wide.",
+   "type": "numeric",
+   "prompt": "Find the value of $x$ if the total area is to be $96$ m$^2$.",
+   "answer": "6",
+   "units": "m"
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Problem-solving",
+   "stem": "Use Pythagoras' theorem to find the value of $x$ in each right-angled triangle.",
+   "type": "numeric",
+   "prompt": "Triangle a",
+   "answer": "5",
+   "figure": {
+    "kind": "diagram",
+    "unit": 34,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        4.8,
+        0
+       ],
+       [
+        0,
+        2.4
+       ]
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       90
+      ],
+      "right": true
+     },
+     {
+      "label": "x + 7",
+      "at": [
+       2.4,
+       -0.45
+      ]
+     },
+     {
+      "label": "x",
+      "at": [
+       -0.7,
+       1.2
+      ]
+     },
+     {
+      "label": "13",
+      "at": [
+       2.95,
+       1.6
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Problem-solving",
+   "stem": "Use Pythagoras' theorem to find the value of $x$ in each right-angled triangle.",
+   "type": "numeric",
+   "prompt": "Triangle b",
+   "answer": "24",
+   "figure": {
+    "kind": "diagram",
+    "unit": 34,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        5.2,
+        0
+       ],
+       [
+        0,
+        1.6
+       ]
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       90
+      ],
+      "right": true
+     },
+     {
+      "label": "x",
+      "at": [
+       2.6,
+       -0.45
+      ]
+     },
+     {
+      "label": "7",
+      "at": [
+       -0.7,
+       0.8
+      ]
+     },
+     {
+      "label": "x + 1",
+      "at": [
+       3.1500000000000004,
+       1.2000000000000002
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q10c",
+   "label": "10c",
+   "section": "Problem-solving",
+   "stem": "Use Pythagoras' theorem to find the value of $x$ in each right-angled triangle.",
+   "type": "numeric",
+   "prompt": "Triangle c",
+   "answer": "41",
+   "figure": {
+    "kind": "diagram",
+    "unit": 34,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        5.2,
+        0
+       ],
+       [
+        0,
+        1.4
+       ]
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       90
+      ],
+      "right": true
+     },
+     {
+      "label": "x - 1",
+      "at": [
+       2.6,
+       -0.45
+      ]
+     },
+     {
+      "label": "9",
+      "at": [
+       -0.7,
+       0.7
+      ]
+     },
+     {
+      "label": "x",
+      "at": [
+       3.1500000000000004,
+       1.1
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Reasoning",
+   "stem": "The area of this rectangle is $40$ cm$^2$, which gives the equation $x^2 + 3x - 40 = 0$.",
+   "type": "list",
+   "prompt": "Solve the equation.",
+   "answer": [
+    "-8",
+    "5"
+   ],
+   "hint": "Type every solution, separated by commas or 'or', for example x = 2 or x = -3",
+   "stemFigure": {
+    "kind": "rect",
+    "cols": [
+     [
+      "(x + 3) cm",
+      1
+     ]
+    ],
+    "rows": [
+     [
+      "x cm",
+      1
+     ]
+    ],
+    "cells": [
+     [
+      "40 cm²"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Reasoning",
+   "stem": "The area of this rectangle is $40$ cm$^2$, which gives the equation $x^2 + 3x - 40 = 0$.",
+   "type": "choice",
+   "prompt": "Which solution should be ignored?",
+   "answer": 0,
+   "options": [
+    "x = -8, because a length cannot be negative",
+    "x = 5, because it is too small",
+    "Neither: both give a real rectangle"
+   ]
+  },
+  {
+   "id": "q12a",
+   "label": "12a",
+   "section": "Reasoning",
+   "stem": "The product of a whole number and one less than the same number is $12$. This gives the equation $x^2 - x - 12 = 0$.",
+   "type": "list",
+   "prompt": "Find all the possible numbers.",
+   "answer": [
+    "-3",
+    "4"
+   ],
+   "hint": "Type all of them, for example 5, -2"
+  },
+  {
+   "id": "q12b",
+   "label": "12b",
+   "section": "Reasoning",
+   "stem": "The product of a whole number and one less than the same number is $12$. This gives the equation $x^2 - x - 12 = 0$.",
+   "type": "numeric",
+   "prompt": "How many different solutions are possible?",
+   "answer": "2"
+  },
+  {
+   "id": "q13a",
+   "label": "13a",
+   "section": "Reasoning",
+   "stem": "This table shows the sum of the first $n$ positive whole numbers. For example, if $n = 3$ the sum is $1 + 2 + 3 = 6$.",
+   "type": "ordered",
+   "prompt": "Write the sums for $n = 4$, $n = 5$ and $n = 6$, in order.",
+   "answer": [
+    "10",
+    "15",
+    "21"
+   ],
+   "hint": "Type the three sums in order, separated by commas",
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "n",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+     ],
+     [
+      "Sum",
+      "1",
+      "3",
+      "6",
+      "?",
+      "?",
+      "?"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q13b",
+   "label": "13b",
+   "section": "Reasoning",
+   "stem": "The sum of the first $n$ positive whole numbers is given by $\\frac{n(n + 1)}{2}$.",
+   "type": "numeric",
+   "prompt": "Use the expression to find the sum when $n = 8$.",
+   "answer": "36"
+  },
+  {
+   "id": "q13c",
+   "label": "13c",
+   "section": "Reasoning",
+   "stem": "The sum of the first $n$ positive whole numbers is given by $\\frac{n(n + 1)}{2}$.",
+   "type": "numeric",
+   "prompt": "Use the expression to find the sum when $n = 30$.",
+   "answer": "465"
+  },
+  {
+   "id": "q13d",
+   "label": "13d",
+   "section": "Reasoning",
+   "stem": "The sum of the first $n$ positive whole numbers is given by $\\frac{n(n + 1)}{2}$.",
+   "type": "numeric",
+   "prompt": "Write an equation and solve it to find $n$ when the sum is $55$.",
+   "answer": "10"
+  },
+  {
+   "id": "q13e",
+   "label": "13e",
+   "section": "Reasoning",
+   "stem": "The sum of the first $n$ positive whole numbers is given by $\\frac{n(n + 1)}{2}$.",
+   "type": "numeric",
+   "prompt": "Write an equation and solve it to find $n$ when the sum is $136$.",
+   "answer": "16"
+  },
+  {
+   "id": "q14a",
+   "label": "14a",
+   "section": "Reasoning",
+   "stem": "The number of diagonals in a polygon with $n$ sides is given by $\\frac{n}{2}(n - 3)$.",
+   "type": "ordered",
+   "prompt": "Find the two missing numbers in the table, in order.",
+   "answer": [
+    "9",
+    "14"
+   ],
+   "hint": "Type the two numbers in order, separated by a comma",
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "n",
+      "4",
+      "5",
+      "6",
+      "7"
+     ],
+     [
+      "Diagonals",
+      "2",
+      "5",
+      "?",
+      "?"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q14b",
+   "label": "14b",
+   "section": "Reasoning",
+   "stem": "The number of diagonals in a polygon with $n$ sides is given by $\\frac{n}{2}(n - 3)$.",
+   "type": "numeric",
+   "prompt": "Find the value of $n$ if the number of diagonals is $35$.",
+   "answer": "10"
+  },
+  {
+   "id": "q14c",
+   "label": "14c",
+   "section": "Reasoning",
+   "stem": "The number of diagonals in a polygon with $n$ sides is given by $\\frac{n}{2}(n - 3)$.",
+   "type": "numeric",
+   "prompt": "Find the value of $n$ if the number of diagonals is $65$.",
+   "answer": "13"
+  },
+  {
+   "id": "q15a",
+   "label": "15a",
+   "section": "Enrichment",
+   "stem": "A square picture of side length $30$ cm has a border of width $x$ cm all the way round.",
+   "type": "expression",
+   "prompt": "Write an expression for the total area of the picture and border, in cm$^2$.",
+   "answer": "(30+2x)^2",
+   "hint": "Any correct expression is fine, for example (x + 5)^2",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 7,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        38,
+        0
+       ],
+       [
+        38,
+        38
+       ],
+       [
+        0,
+        38
+       ]
+      ]
+     },
+     {
+      "poly": [
+       [
+        4,
+        4
+       ],
+       [
+        34,
+        4
+       ],
+       [
+        34,
+        34
+       ],
+       [
+        4,
+        34
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "30 cm",
+      "at": [
+       19,
+       19
+      ]
+     },
+     {
+      "seg": [
+       34,
+       26.5,
+       38,
+       26.5
+      ],
+      "arrow": "both",
+      "thin": true
+     },
+     {
+      "label": "x cm",
+      "at": [
+       41.2,
+       26.5
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q15b",
+   "label": "15b",
+   "section": "Enrichment",
+   "stem": "A square picture of side length $30$ cm has a border of width $x$ cm all the way round.",
+   "type": "numeric",
+   "prompt": "Find the width of the border if the total area is $1296$ cm$^2$.",
+   "answer": "3",
+   "units": "cm"
+  },
+  {
+   "id": "q16",
+   "label": "16",
+   "section": "Enrichment",
+   "type": "numeric",
+   "prompt": "A square picture of side length $x$ cm is surrounded by a rectangular frame, as shown. The total area is $396$ cm$^2$. Find the side length of the picture.",
+   "answer": "8",
+   "units": "cm",
+   "figure": {
+    "kind": "diagram",
+    "unit": 12,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        20,
+        0
+       ],
+       [
+        20,
+        16
+       ],
+       [
+        0,
+        16
+       ]
+      ]
+     },
+     {
+      "poly": [
+       [
+        7,
+        5
+       ],
+       [
+        13,
+        5
+       ],
+       [
+        13,
+        11
+       ],
+       [
+        7,
+        11
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "x cm",
+      "at": [
+       10,
+       8
+      ]
+     },
+     {
+      "seg": [
+       10,
+       11,
+       10,
+       16
+      ],
+      "arrow": "both",
+      "thin": true
+     },
+     {
+      "label": "5 cm",
+      "at": [
+       11.6,
+       13.5
+      ]
+     },
+     {
+      "seg": [
+       10,
+       0,
+       10,
+       5
+      ],
+      "arrow": "both",
+      "thin": true
+     },
+     {
+      "label": "5 cm",
+      "at": [
+       11.6,
+       2.5
+      ]
+     },
+     {
+      "seg": [
+       0,
+       8,
+       7,
+       8
+      ],
+      "arrow": "both",
+      "thin": true
+     },
+     {
+      "label": "7 cm",
+      "at": [
+       3.5,
+       8.9
+      ]
+     },
+     {
+      "seg": [
+       13,
+       8,
+       20,
+       8
+      ],
+      "arrow": "both",
+      "thin": true
+     },
+     {
+      "label": "7 cm",
+      "at": [
+       16.5,
+       8.9
+      ]
+     }
+    ]
+   }
+  }
+ ]
+},
+{
+ "id": "y9-10e",
+ "year": 9,
+ "chapter": "Chapter 10: Introduction to quadratic equations and graphs",
+ "title": "10E The parabola",
+ "description": "Read the key features of a parabola from its graph or rule: axis of symmetry, turning point and intercepts.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Graph A: state each feature of this parabola.",
+   "type": "expression",
+   "prompt": "The equation of the axis of symmetry",
+   "answer": "x=-1",
+   "hint": "Type the equation of the line, for example x = 2",
+   "stemFigure": {
+    "kind": "plane",
+    "x": [
+     -5,
+     3
+    ],
+    "y": [
+     -5,
+     5
+    ],
+    "path": [
+     [
+      -4,
+      5
+     ],
+     [
+      -4,
+      5
+     ],
+     [
+      -3.9,
+      4.41
+     ],
+     [
+      -3.8,
+      3.84
+     ],
+     [
+      -3.7,
+      3.29
+     ],
+     [
+      -3.6,
+      2.76
+     ],
+     [
+      -3.5,
+      2.25
+     ],
+     [
+      -3.4,
+      1.76
+     ],
+     [
+      -3.3,
+      1.29
+     ],
+     [
+      -3.2,
+      0.84
+     ],
+     [
+      -3.1,
+      0.41
+     ],
+     [
+      -3,
+      0
+     ],
+     [
+      -2.9,
+      -0.39
+     ],
+     [
+      -2.8,
+      -0.76
+     ],
+     [
+      -2.7,
+      -1.11
+     ],
+     [
+      -2.6,
+      -1.44
+     ],
+     [
+      -2.5,
+      -1.75
+     ],
+     [
+      -2.4,
+      -2.04
+     ],
+     [
+      -2.3,
+      -2.31
+     ],
+     [
+      -2.2,
+      -2.56
+     ],
+     [
+      -2.1,
+      -2.79
+     ],
+     [
+      -2,
+      -3
+     ],
+     [
+      -1.9,
+      -3.19
+     ],
+     [
+      -1.8,
+      -3.36
+     ],
+     [
+      -1.7,
+      -3.51
+     ],
+     [
+      -1.6,
+      -3.64
+     ],
+     [
+      -1.5,
+      -3.75
+     ],
+     [
+      -1.4,
+      -3.84
+     ],
+     [
+      -1.3,
+      -3.91
+     ],
+     [
+      -1.2,
+      -3.96
+     ],
+     [
+      -1.1,
+      -3.99
+     ],
+     [
+      -1,
+      -4
+     ],
+     [
+      -0.9,
+      -3.99
+     ],
+     [
+      -0.8,
+      -3.96
+     ],
+     [
+      -0.7,
+      -3.91
+     ],
+     [
+      -0.6,
+      -3.84
+     ],
+     [
+      -0.5,
+      -3.75
+     ],
+     [
+      -0.4,
+      -3.64
+     ],
+     [
+      -0.3,
+      -3.51
+     ],
+     [
+      -0.2,
+      -3.36
+     ],
+     [
+      -0.1,
+      -3.19
+     ],
+     [
+      0,
+      -3
+     ],
+     [
+      0.1,
+      -2.79
+     ],
+     [
+      0.2,
+      -2.56
+     ],
+     [
+      0.3,
+      -2.31
+     ],
+     [
+      0.4,
+      -2.04
+     ],
+     [
+      0.5,
+      -1.75
+     ],
+     [
+      0.6,
+      -1.44
+     ],
+     [
+      0.7,
+      -1.11
+     ],
+     [
+      0.8,
+      -0.76
+     ],
+     [
+      0.9,
+      -0.39
+     ],
+     [
+      1,
+      0
+     ],
+     [
+      1.1,
+      0.41
+     ],
+     [
+      1.2,
+      0.84
+     ],
+     [
+      1.3,
+      1.29
+     ],
+     [
+      1.4,
+      1.76
+     ],
+     [
+      1.5,
+      2.25
+     ],
+     [
+      1.6,
+      2.76
+     ],
+     [
+      1.7,
+      3.29
+     ],
+     [
+      1.8,
+      3.84
+     ],
+     [
+      1.9,
+      4.41
+     ],
+     [
+      2,
+      5
+     ],
+     [
+      2,
+      5
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Graph A: state each feature of this parabola.",
+   "type": "choice",
+   "prompt": "The type of turning point",
+   "answer": 1,
+   "options": [
+    "Maximum",
+    "Minimum"
+   ]
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "Graph A: state each feature of this parabola.",
+   "type": "point",
+   "prompt": "The coordinates of the turning point",
+   "answer": "(-1,-4)",
+   "hint": "Type a point as (x, y), for example (2, -3)"
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "Graph A: state each feature of this parabola.",
+   "type": "list",
+   "prompt": "The $x$-coordinates of the $x$-intercepts",
+   "answer": [
+    "-3",
+    "1"
+   ],
+   "hint": "Type the x-values separated by commas, for example -1, 3. If there is only one, type just that one."
+  },
+  {
+   "id": "q1e",
+   "label": "1e",
+   "section": "Fluency",
+   "stem": "Graph A: state each feature of this parabola.",
+   "type": "point",
+   "prompt": "The coordinates of the $y$-intercept",
+   "answer": "(0,-3)"
+  },
+  {
+   "id": "q1f",
+   "label": "1f",
+   "section": "Fluency",
+   "stem": "Graph B: state each feature of this parabola.",
+   "type": "expression",
+   "prompt": "The equation of the axis of symmetry",
+   "answer": "x=2",
+   "stemFigure": {
+    "kind": "plane",
+    "x": [
+     -1,
+     5
+    ],
+    "y": [
+     -2,
+     5
+    ],
+    "path": [
+     [
+      -0.449,
+      -2
+     ],
+     [
+      -0.4,
+      -1.76
+     ],
+     [
+      -0.3,
+      -1.29
+     ],
+     [
+      -0.2,
+      -0.84
+     ],
+     [
+      -0.1,
+      -0.41
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0.1,
+      0.39
+     ],
+     [
+      0.2,
+      0.76
+     ],
+     [
+      0.3,
+      1.11
+     ],
+     [
+      0.4,
+      1.44
+     ],
+     [
+      0.5,
+      1.75
+     ],
+     [
+      0.6,
+      2.04
+     ],
+     [
+      0.7,
+      2.31
+     ],
+     [
+      0.8,
+      2.56
+     ],
+     [
+      0.9,
+      2.79
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      1.1,
+      3.19
+     ],
+     [
+      1.2,
+      3.36
+     ],
+     [
+      1.3,
+      3.51
+     ],
+     [
+      1.4,
+      3.64
+     ],
+     [
+      1.5,
+      3.75
+     ],
+     [
+      1.6,
+      3.84
+     ],
+     [
+      1.7,
+      3.91
+     ],
+     [
+      1.8,
+      3.96
+     ],
+     [
+      1.9,
+      3.99
+     ],
+     [
+      2,
+      4
+     ],
+     [
+      2.1,
+      3.99
+     ],
+     [
+      2.2,
+      3.96
+     ],
+     [
+      2.3,
+      3.91
+     ],
+     [
+      2.4,
+      3.84
+     ],
+     [
+      2.5,
+      3.75
+     ],
+     [
+      2.6,
+      3.64
+     ],
+     [
+      2.7,
+      3.51
+     ],
+     [
+      2.8,
+      3.36
+     ],
+     [
+      2.9,
+      3.19
+     ],
+     [
+      3,
+      3
+     ],
+     [
+      3.1,
+      2.79
+     ],
+     [
+      3.2,
+      2.56
+     ],
+     [
+      3.3,
+      2.31
+     ],
+     [
+      3.4,
+      2.04
+     ],
+     [
+      3.5,
+      1.75
+     ],
+     [
+      3.6,
+      1.44
+     ],
+     [
+      3.7,
+      1.11
+     ],
+     [
+      3.8,
+      0.76
+     ],
+     [
+      3.9,
+      0.39
+     ],
+     [
+      4,
+      0
+     ],
+     [
+      4.1,
+      -0.41
+     ],
+     [
+      4.2,
+      -0.84
+     ],
+     [
+      4.3,
+      -1.29
+     ],
+     [
+      4.4,
+      -1.76
+     ],
+     [
+      4.449,
+      -2
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q1g",
+   "label": "1g",
+   "section": "Fluency",
+   "stem": "Graph B: state each feature of this parabola.",
+   "type": "choice",
+   "prompt": "The type of turning point",
+   "answer": 0,
+   "options": [
+    "Maximum",
+    "Minimum"
+   ]
+  },
+  {
+   "id": "q1h",
+   "label": "1h",
+   "section": "Fluency",
+   "stem": "Graph B: state each feature of this parabola.",
+   "type": "point",
+   "prompt": "The coordinates of the turning point",
+   "answer": "(2,4)"
+  },
+  {
+   "id": "q1i",
+   "label": "1i",
+   "section": "Fluency",
+   "stem": "Graph B: state each feature of this parabola.",
+   "type": "list",
+   "prompt": "The $x$-coordinates of the $x$-intercepts",
+   "answer": [
+    "0",
+    "4"
+   ]
+  },
+  {
+   "id": "q1j",
+   "label": "1j",
+   "section": "Fluency",
+   "stem": "Graph B: state each feature of this parabola.",
+   "type": "point",
+   "prompt": "The coordinates of the $y$-intercept",
+   "answer": "(0,0)"
+  },
+  {
+   "id": "q1k",
+   "label": "1k",
+   "section": "Fluency",
+   "stem": "Graph C: state each feature of this parabola.",
+   "type": "expression",
+   "prompt": "The equation of the axis of symmetry",
+   "answer": "x=2",
+   "stemFigure": {
+    "kind": "plane",
+    "x": [
+     -1,
+     5
+    ],
+    "y": [
+     -1,
+     7
+    ],
+    "path": [
+     [
+      -0.449,
+      7
+     ],
+     [
+      -0.4,
+      6.76
+     ],
+     [
+      -0.3,
+      6.29
+     ],
+     [
+      -0.2,
+      5.84
+     ],
+     [
+      -0.1,
+      5.41
+     ],
+     [
+      0,
+      5
+     ],
+     [
+      0.1,
+      4.61
+     ],
+     [
+      0.2,
+      4.24
+     ],
+     [
+      0.3,
+      3.89
+     ],
+     [
+      0.4,
+      3.56
+     ],
+     [
+      0.5,
+      3.25
+     ],
+     [
+      0.6,
+      2.96
+     ],
+     [
+      0.7,
+      2.69
+     ],
+     [
+      0.8,
+      2.44
+     ],
+     [
+      0.9,
+      2.21
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      1.1,
+      1.81
+     ],
+     [
+      1.2,
+      1.64
+     ],
+     [
+      1.3,
+      1.49
+     ],
+     [
+      1.4,
+      1.36
+     ],
+     [
+      1.5,
+      1.25
+     ],
+     [
+      1.6,
+      1.16
+     ],
+     [
+      1.7,
+      1.09
+     ],
+     [
+      1.8,
+      1.04
+     ],
+     [
+      1.9,
+      1.01
+     ],
+     [
+      2,
+      1
+     ],
+     [
+      2.1,
+      1.01
+     ],
+     [
+      2.2,
+      1.04
+     ],
+     [
+      2.3,
+      1.09
+     ],
+     [
+      2.4,
+      1.16
+     ],
+     [
+      2.5,
+      1.25
+     ],
+     [
+      2.6,
+      1.36
+     ],
+     [
+      2.7,
+      1.49
+     ],
+     [
+      2.8,
+      1.64
+     ],
+     [
+      2.9,
+      1.81
+     ],
+     [
+      3,
+      2
+     ],
+     [
+      3.1,
+      2.21
+     ],
+     [
+      3.2,
+      2.44
+     ],
+     [
+      3.3,
+      2.69
+     ],
+     [
+      3.4,
+      2.96
+     ],
+     [
+      3.5,
+      3.25
+     ],
+     [
+      3.6,
+      3.56
+     ],
+     [
+      3.7,
+      3.89
+     ],
+     [
+      3.8,
+      4.24
+     ],
+     [
+      3.9,
+      4.61
+     ],
+     [
+      4,
+      5
+     ],
+     [
+      4.1,
+      5.41
+     ],
+     [
+      4.2,
+      5.84
+     ],
+     [
+      4.3,
+      6.29
+     ],
+     [
+      4.4,
+      6.76
+     ],
+     [
+      4.449,
+      7
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q1l",
+   "label": "1l",
+   "section": "Fluency",
+   "stem": "Graph C: state each feature of this parabola.",
+   "type": "choice",
+   "prompt": "The type of turning point",
+   "answer": 1,
+   "options": [
+    "Maximum",
+    "Minimum"
+   ]
+  },
+  {
+   "id": "q1m",
+   "label": "1m",
+   "section": "Fluency",
+   "stem": "Graph C: state each feature of this parabola.",
+   "type": "point",
+   "prompt": "The coordinates of the turning point",
+   "answer": "(2,1)"
+  },
+  {
+   "id": "q1n",
+   "label": "1n",
+   "section": "Fluency",
+   "stem": "Graph C: state each feature of this parabola.",
+   "type": "numeric",
+   "prompt": "How many $x$-intercepts does this parabola have?",
+   "answer": "0"
+  },
+  {
+   "id": "q1o",
+   "label": "1o",
+   "section": "Fluency",
+   "stem": "Graph C: state each feature of this parabola.",
+   "type": "point",
+   "prompt": "The coordinates of the $y$-intercept",
+   "answer": "(0,5)"
+  },
+  {
+   "id": "q1p",
+   "label": "1p",
+   "section": "Fluency",
+   "stem": "Graph D: state each feature of this parabola.",
+   "type": "expression",
+   "prompt": "The equation of the axis of symmetry",
+   "answer": "x=-2",
+   "stemFigure": {
+    "kind": "plane",
+    "x": [
+     -5,
+     2
+    ],
+    "y": [
+     -1,
+     6
+    ],
+    "path": [
+     [
+      -4.449,
+      6
+     ],
+     [
+      -4.4,
+      5.76
+     ],
+     [
+      -4.3,
+      5.29
+     ],
+     [
+      -4.2,
+      4.84
+     ],
+     [
+      -4.1,
+      4.41
+     ],
+     [
+      -4,
+      4
+     ],
+     [
+      -3.9,
+      3.61
+     ],
+     [
+      -3.8,
+      3.24
+     ],
+     [
+      -3.7,
+      2.89
+     ],
+     [
+      -3.6,
+      2.56
+     ],
+     [
+      -3.5,
+      2.25
+     ],
+     [
+      -3.4,
+      1.96
+     ],
+     [
+      -3.3,
+      1.69
+     ],
+     [
+      -3.2,
+      1.44
+     ],
+     [
+      -3.1,
+      1.21
+     ],
+     [
+      -3,
+      1
+     ],
+     [
+      -2.9,
+      0.81
+     ],
+     [
+      -2.8,
+      0.64
+     ],
+     [
+      -2.7,
+      0.49
+     ],
+     [
+      -2.6,
+      0.36
+     ],
+     [
+      -2.5,
+      0.25
+     ],
+     [
+      -2.4,
+      0.16
+     ],
+     [
+      -2.3,
+      0.09
+     ],
+     [
+      -2.2,
+      0.04
+     ],
+     [
+      -2.1,
+      0.01
+     ],
+     [
+      -2,
+      0
+     ],
+     [
+      -1.9,
+      0.01
+     ],
+     [
+      -1.8,
+      0.04
+     ],
+     [
+      -1.7,
+      0.09
+     ],
+     [
+      -1.6,
+      0.16
+     ],
+     [
+      -1.5,
+      0.25
+     ],
+     [
+      -1.4,
+      0.36
+     ],
+     [
+      -1.3,
+      0.49
+     ],
+     [
+      -1.2,
+      0.64
+     ],
+     [
+      -1.1,
+      0.81
+     ],
+     [
+      -1,
+      1
+     ],
+     [
+      -0.9,
+      1.21
+     ],
+     [
+      -0.8,
+      1.44
+     ],
+     [
+      -0.7,
+      1.69
+     ],
+     [
+      -0.6,
+      1.96
+     ],
+     [
+      -0.5,
+      2.25
+     ],
+     [
+      -0.4,
+      2.56
+     ],
+     [
+      -0.3,
+      2.89
+     ],
+     [
+      -0.2,
+      3.24
+     ],
+     [
+      -0.1,
+      3.61
+     ],
+     [
+      0,
+      4
+     ],
+     [
+      0.1,
+      4.41
+     ],
+     [
+      0.2,
+      4.84
+     ],
+     [
+      0.3,
+      5.29
+     ],
+     [
+      0.4,
+      5.76
+     ],
+     [
+      0.449,
+      6
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q1q",
+   "label": "1q",
+   "section": "Fluency",
+   "stem": "Graph D: state each feature of this parabola.",
+   "type": "choice",
+   "prompt": "The type of turning point",
+   "answer": 1,
+   "options": [
+    "Maximum",
+    "Minimum"
+   ]
+  },
+  {
+   "id": "q1r",
+   "label": "1r",
+   "section": "Fluency",
+   "stem": "Graph D: state each feature of this parabola.",
+   "type": "point",
+   "prompt": "The coordinates of the turning point",
+   "answer": "(-2,0)"
+  },
+  {
+   "id": "q1s",
+   "label": "1s",
+   "section": "Fluency",
+   "stem": "Graph D: state each feature of this parabola.",
+   "type": "list",
+   "prompt": "The $x$-coordinates of the $x$-intercepts",
+   "answer": [
+    "-2"
+   ]
+  },
+  {
+   "id": "q1t",
+   "label": "1t",
+   "section": "Fluency",
+   "stem": "Graph D: state each feature of this parabola.",
+   "type": "point",
+   "prompt": "The coordinates of the $y$-intercept",
+   "answer": "(0,4)"
+  },
+  {
+   "id": "q1u",
+   "label": "1u",
+   "section": "Fluency",
+   "stem": "Graph E: state each feature of this parabola.",
+   "type": "expression",
+   "prompt": "The equation of the axis of symmetry",
+   "answer": "x=3",
+   "stemFigure": {
+    "kind": "plane",
+    "x": [
+     -1,
+     7
+    ],
+    "y": [
+     -6,
+     5
+    ],
+    "path": [
+     [
+      -0.162,
+      -6
+     ],
+     [
+      -0.1,
+      -5.61
+     ],
+     [
+      0,
+      -5
+     ],
+     [
+      0.1,
+      -4.41
+     ],
+     [
+      0.2,
+      -3.84
+     ],
+     [
+      0.3,
+      -3.29
+     ],
+     [
+      0.4,
+      -2.76
+     ],
+     [
+      0.5,
+      -2.25
+     ],
+     [
+      0.6,
+      -1.76
+     ],
+     [
+      0.7,
+      -1.29
+     ],
+     [
+      0.8,
+      -0.84
+     ],
+     [
+      0.9,
+      -0.41
+     ],
+     [
+      1,
+      0
+     ],
+     [
+      1.1,
+      0.39
+     ],
+     [
+      1.2,
+      0.76
+     ],
+     [
+      1.3,
+      1.11
+     ],
+     [
+      1.4,
+      1.44
+     ],
+     [
+      1.5,
+      1.75
+     ],
+     [
+      1.6,
+      2.04
+     ],
+     [
+      1.7,
+      2.31
+     ],
+     [
+      1.8,
+      2.56
+     ],
+     [
+      1.9,
+      2.79
+     ],
+     [
+      2,
+      3
+     ],
+     [
+      2.1,
+      3.19
+     ],
+     [
+      2.2,
+      3.36
+     ],
+     [
+      2.3,
+      3.51
+     ],
+     [
+      2.4,
+      3.64
+     ],
+     [
+      2.5,
+      3.75
+     ],
+     [
+      2.6,
+      3.84
+     ],
+     [
+      2.7,
+      3.91
+     ],
+     [
+      2.8,
+      3.96
+     ],
+     [
+      2.9,
+      3.99
+     ],
+     [
+      3,
+      4
+     ],
+     [
+      3.1,
+      3.99
+     ],
+     [
+      3.2,
+      3.96
+     ],
+     [
+      3.3,
+      3.91
+     ],
+     [
+      3.4,
+      3.84
+     ],
+     [
+      3.5,
+      3.75
+     ],
+     [
+      3.6,
+      3.64
+     ],
+     [
+      3.7,
+      3.51
+     ],
+     [
+      3.8,
+      3.36
+     ],
+     [
+      3.9,
+      3.19
+     ],
+     [
+      4,
+      3
+     ],
+     [
+      4.1,
+      2.79
+     ],
+     [
+      4.2,
+      2.56
+     ],
+     [
+      4.3,
+      2.31
+     ],
+     [
+      4.4,
+      2.04
+     ],
+     [
+      4.5,
+      1.75
+     ],
+     [
+      4.6,
+      1.44
+     ],
+     [
+      4.7,
+      1.11
+     ],
+     [
+      4.8,
+      0.76
+     ],
+     [
+      4.9,
+      0.39
+     ],
+     [
+      5,
+      0
+     ],
+     [
+      5.1,
+      -0.41
+     ],
+     [
+      5.2,
+      -0.84
+     ],
+     [
+      5.3,
+      -1.29
+     ],
+     [
+      5.4,
+      -1.76
+     ],
+     [
+      5.5,
+      -2.25
+     ],
+     [
+      5.6,
+      -2.76
+     ],
+     [
+      5.7,
+      -3.29
+     ],
+     [
+      5.8,
+      -3.84
+     ],
+     [
+      5.9,
+      -4.41
+     ],
+     [
+      6,
+      -5
+     ],
+     [
+      6.1,
+      -5.61
+     ],
+     [
+      6.162,
+      -6
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q1v",
+   "label": "1v",
+   "section": "Fluency",
+   "stem": "Graph E: state each feature of this parabola.",
+   "type": "choice",
+   "prompt": "The type of turning point",
+   "answer": 0,
+   "options": [
+    "Maximum",
+    "Minimum"
+   ]
+  },
+  {
+   "id": "q1w",
+   "label": "1w",
+   "section": "Fluency",
+   "stem": "Graph E: state each feature of this parabola.",
+   "type": "point",
+   "prompt": "The coordinates of the turning point",
+   "answer": "(3,4)"
+  },
+  {
+   "id": "q1x",
+   "label": "1x",
+   "section": "Fluency",
+   "stem": "Graph E: state each feature of this parabola.",
+   "type": "list",
+   "prompt": "The $x$-coordinates of the $x$-intercepts",
+   "answer": [
+    "1",
+    "5"
+   ]
+  },
+  {
+   "id": "q1y",
+   "label": "1y",
+   "section": "Fluency",
+   "stem": "Graph E: state each feature of this parabola.",
+   "type": "point",
+   "prompt": "The coordinates of the $y$-intercept",
+   "answer": "(0,-5)"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Use the quadratic rule $y = x^2 - 4$.",
+   "type": "ordered",
+   "prompt": "Complete the table of values. Give the $y$-values in order, from $x = -2$ to $x = 2$.",
+   "answer": [
+    "0",
+    "-3",
+    "-4",
+    "-3",
+    "0"
+   ],
+   "hint": "Type the y-values in order, separated by commas, for example 4, 1, 0, 1, 4",
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "x",
+      "-2",
+      "-1",
+      "0",
+      "1",
+      "2"
+     ],
+     [
+      "y",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Use the quadratic rule $y = x^2 - 4$.",
+   "type": "choice",
+   "prompt": "Type of turning point",
+   "answer": 1,
+   "options": [
+    "Maximum",
+    "Minimum"
+   ]
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Use the quadratic rule $y = x^2 - 4$.",
+   "type": "expression",
+   "prompt": "Equation of the axis of symmetry",
+   "answer": "x=0",
+   "hint": "Type the equation of the line, for example x = 2"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Use the quadratic rule $y = x^2 - 4$.",
+   "type": "point",
+   "prompt": "Coordinates of the turning point",
+   "answer": "(0,-4)"
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Use the quadratic rule $y = x^2 - 4$.",
+   "type": "point",
+   "prompt": "Coordinates of the $y$-intercept",
+   "answer": "(0,-4)"
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "Use the quadratic rule $y = x^2 - 4$.",
+   "type": "list",
+   "prompt": "The $x$-coordinates of the $x$-intercepts",
+   "answer": [
+    "-2",
+    "2"
+   ],
+   "hint": "Type the x-values separated by commas, for example -1, 3"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Use the quadratic rule $y = x^2 - 2x - 3$.",
+   "type": "ordered",
+   "prompt": "Complete the table of values. Give the $y$-values in order, from $x = -2$ to $x = 4$.",
+   "answer": [
+    "5",
+    "0",
+    "-3",
+    "-4",
+    "-3",
+    "0",
+    "5"
+   ],
+   "hint": "Type the y-values in order, separated by commas, for example 4, 1, 0, 1, 4",
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "x",
+      "-2",
+      "-1",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+     ],
+     [
+      "y",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Use the quadratic rule $y = x^2 - 2x - 3$.",
+   "type": "choice",
+   "prompt": "Type of turning point",
+   "answer": 1,
+   "options": [
+    "Maximum",
+    "Minimum"
+   ]
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Use the quadratic rule $y = x^2 - 2x - 3$.",
+   "type": "expression",
+   "prompt": "Equation of the axis of symmetry",
+   "answer": "x=1",
+   "hint": "Type the equation of the line, for example x = 2"
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Use the quadratic rule $y = x^2 - 2x - 3$.",
+   "type": "point",
+   "prompt": "Coordinates of the turning point",
+   "answer": "(1,-4)"
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "Use the quadratic rule $y = x^2 - 2x - 3$.",
+   "type": "point",
+   "prompt": "Coordinates of the $y$-intercept",
+   "answer": "(0,-3)"
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "Use the quadratic rule $y = x^2 - 2x - 3$.",
+   "type": "list",
+   "prompt": "The $x$-coordinates of the $x$-intercepts",
+   "answer": [
+    "-1",
+    "3"
+   ],
+   "hint": "Type the x-values separated by commas, for example -1, 3"
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "Use the quadratic rule $y = 4 - x^2$.",
+   "type": "ordered",
+   "prompt": "Complete the table of values. Give the $y$-values in order, from $x = -3$ to $x = 3$.",
+   "answer": [
+    "-5",
+    "0",
+    "3",
+    "4",
+    "3",
+    "0",
+    "-5"
+   ],
+   "hint": "Type the y-values in order, separated by commas, for example 4, 1, 0, 1, 4",
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "x",
+      "-3",
+      "-2",
+      "-1",
+      "0",
+      "1",
+      "2",
+      "3"
+     ],
+     [
+      "y",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "Use the quadratic rule $y = 4 - x^2$.",
+   "type": "choice",
+   "prompt": "Type of turning point",
+   "answer": 0,
+   "options": [
+    "Maximum",
+    "Minimum"
+   ]
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "Use the quadratic rule $y = 4 - x^2$.",
+   "type": "expression",
+   "prompt": "Equation of the axis of symmetry",
+   "answer": "x=0",
+   "hint": "Type the equation of the line, for example x = 2"
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "Use the quadratic rule $y = 4 - x^2$.",
+   "type": "point",
+   "prompt": "Coordinates of the turning point",
+   "answer": "(0,4)"
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Fluency",
+   "stem": "Use the quadratic rule $y = 4 - x^2$.",
+   "type": "point",
+   "prompt": "Coordinates of the $y$-intercept",
+   "answer": "(0,4)"
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Fluency",
+   "stem": "Use the quadratic rule $y = 4 - x^2$.",
+   "type": "list",
+   "prompt": "The $x$-coordinates of the $x$-intercepts",
+   "answer": [
+    "-2",
+    "2"
+   ],
+   "hint": "Type the x-values separated by commas, for example -1, 3"
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Fluency",
+   "stem": "Use the quadratic rule $y = -x^2 - x + 6$.",
+   "type": "ordered",
+   "prompt": "Complete the table of values. Give the $y$-values in order, from $x = -4$ to $x = 3$.",
+   "answer": [
+    "-6",
+    "0",
+    "4",
+    "6",
+    "6",
+    "4",
+    "0",
+    "-6"
+   ],
+   "hint": "Type the y-values in order, separated by commas, for example 4, 1, 0, 1, 4",
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "x",
+      "-4",
+      "-3",
+      "-2",
+      "-1",
+      "0",
+      "1",
+      "2",
+      "3"
+     ],
+     [
+      "y",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Fluency",
+   "stem": "Use the quadratic rule $y = -x^2 - x + 6$.",
+   "type": "choice",
+   "prompt": "Type of turning point",
+   "answer": 0,
+   "options": [
+    "Maximum",
+    "Minimum"
+   ]
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Fluency",
+   "stem": "Use the quadratic rule $y = -x^2 - x + 6$.",
+   "type": "expression",
+   "prompt": "Equation of the axis of symmetry",
+   "answer": "x=-0.5",
+   "hint": "Type the equation of the line, for example x = 2"
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Fluency",
+   "stem": "Use the quadratic rule $y = -x^2 - x + 6$.",
+   "type": "point",
+   "prompt": "Coordinates of the turning point",
+   "answer": "(-0.5,6.25)",
+   "hint": "Type a point as (x, y). Decimals or fractions are fine."
+  },
+  {
+   "id": "q5e",
+   "label": "5e",
+   "section": "Fluency",
+   "stem": "Use the quadratic rule $y = -x^2 - x + 6$.",
+   "type": "point",
+   "prompt": "Coordinates of the $y$-intercept",
+   "answer": "(0,6)"
+  },
+  {
+   "id": "q5f",
+   "label": "5f",
+   "section": "Fluency",
+   "stem": "Use the quadratic rule $y = -x^2 - x + 6$.",
+   "type": "list",
+   "prompt": "The $x$-coordinates of the $x$-intercepts",
+   "answer": [
+    "-3",
+    "2"
+   ],
+   "hint": "Type the x-values separated by commas, for example -1, 3"
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Problem-solving",
+   "stem": "This graph shows the height of a netball, $y$ metres, $t$ seconds after it is thrown up from the ground.",
+   "type": "list",
+   "prompt": "At what times is the ball at a height of $10$ m?",
+   "answer": [
+    "1",
+    "5"
+   ],
+   "hint": "Type both times, for example 2, 4",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 34,
+    "items": [
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       9
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       1,
+       0,
+       1,
+       9
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       2,
+       0,
+       2,
+       9
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       0,
+       3,
+       9
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       4,
+       0,
+       4,
+       9
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       5,
+       0,
+       5,
+       9
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       6,
+       0,
+       6,
+       9
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       0,
+       6,
+       0
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       1,
+       6,
+       1
+      ],
+      "thin": true
+     },
+     {
+      "label": "2",
+      "at": [
+       -0.45,
+       1
+      ]
+     },
+     {
+      "seg": [
+       0,
+       2,
+       6,
+       2
+      ],
+      "thin": true
+     },
+     {
+      "label": "4",
+      "at": [
+       -0.45,
+       2
+      ]
+     },
+     {
+      "seg": [
+       0,
+       3,
+       6,
+       3
+      ],
+      "thin": true
+     },
+     {
+      "label": "6",
+      "at": [
+       -0.45,
+       3
+      ]
+     },
+     {
+      "seg": [
+       0,
+       4,
+       6,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "label": "8",
+      "at": [
+       -0.45,
+       4
+      ]
+     },
+     {
+      "seg": [
+       0,
+       5,
+       6,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "label": "10",
+      "at": [
+       -0.45,
+       5
+      ]
+     },
+     {
+      "seg": [
+       0,
+       6,
+       6,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "label": "12",
+      "at": [
+       -0.45,
+       6
+      ]
+     },
+     {
+      "seg": [
+       0,
+       7,
+       6,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "label": "14",
+      "at": [
+       -0.45,
+       7
+      ]
+     },
+     {
+      "seg": [
+       0,
+       8,
+       6,
+       8
+      ],
+      "thin": true
+     },
+     {
+      "label": "16",
+      "at": [
+       -0.45,
+       8
+      ]
+     },
+     {
+      "seg": [
+       0,
+       9,
+       6,
+       9
+      ],
+      "thin": true
+     },
+     {
+      "label": "18",
+      "at": [
+       -0.45,
+       9
+      ]
+     },
+     {
+      "label": "1",
+      "at": [
+       1,
+       -0.45
+      ]
+     },
+     {
+      "label": "2",
+      "at": [
+       2,
+       -0.45
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       3,
+       -0.45
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       4,
+       -0.45
+      ]
+     },
+     {
+      "label": "5",
+      "at": [
+       5,
+       -0.45
+      ]
+     },
+     {
+      "label": "6",
+      "at": [
+       6,
+       -0.45
+      ]
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.35,
+       -0.45
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       6.6,
+       0
+      ],
+      "arrow": "end"
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       9.6
+      ],
+      "arrow": "end"
+     },
+     {
+      "label": "t",
+      "at": [
+       6.95,
+       0
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       10
+      ]
+     },
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        0.05,
+        0.298
+       ],
+       [
+        0.1,
+        0.59
+       ],
+       [
+        0.15,
+        0.878
+       ],
+       [
+        0.2,
+        1.16
+       ],
+       [
+        0.25,
+        1.438
+       ],
+       [
+        0.3,
+        1.71
+       ],
+       [
+        0.35,
+        1.978
+       ],
+       [
+        0.4,
+        2.24
+       ],
+       [
+        0.45,
+        2.498
+       ],
+       [
+        0.5,
+        2.75
+       ],
+       [
+        0.55,
+        2.998
+       ],
+       [
+        0.6,
+        3.24
+       ],
+       [
+        0.65,
+        3.478
+       ],
+       [
+        0.7,
+        3.71
+       ],
+       [
+        0.75,
+        3.938
+       ],
+       [
+        0.8,
+        4.16
+       ],
+       [
+        0.85,
+        4.378
+       ],
+       [
+        0.9,
+        4.59
+       ],
+       [
+        0.95,
+        4.798
+       ],
+       [
+        1,
+        5
+       ],
+       [
+        1.05,
+        5.198
+       ],
+       [
+        1.1,
+        5.39
+       ],
+       [
+        1.15,
+        5.578
+       ],
+       [
+        1.2,
+        5.76
+       ],
+       [
+        1.25,
+        5.938
+       ],
+       [
+        1.3,
+        6.11
+       ],
+       [
+        1.35,
+        6.278
+       ],
+       [
+        1.4,
+        6.44
+       ],
+       [
+        1.45,
+        6.598
+       ],
+       [
+        1.5,
+        6.75
+       ],
+       [
+        1.55,
+        6.898
+       ],
+       [
+        1.6,
+        7.04
+       ],
+       [
+        1.65,
+        7.178
+       ],
+       [
+        1.7,
+        7.31
+       ],
+       [
+        1.75,
+        7.438
+       ],
+       [
+        1.8,
+        7.56
+       ],
+       [
+        1.85,
+        7.678
+       ],
+       [
+        1.9,
+        7.79
+       ],
+       [
+        1.95,
+        7.898
+       ],
+       [
+        2,
+        8
+       ],
+       [
+        2.05,
+        8.098
+       ],
+       [
+        2.1,
+        8.19
+       ],
+       [
+        2.15,
+        8.277
+       ],
+       [
+        2.2,
+        8.36
+       ],
+       [
+        2.25,
+        8.438
+       ],
+       [
+        2.3,
+        8.51
+       ],
+       [
+        2.35,
+        8.578
+       ],
+       [
+        2.4,
+        8.64
+       ],
+       [
+        2.45,
+        8.697
+       ],
+       [
+        2.5,
+        8.75
+       ],
+       [
+        2.55,
+        8.797
+       ],
+       [
+        2.6,
+        8.84
+       ],
+       [
+        2.65,
+        8.878
+       ],
+       [
+        2.7,
+        8.91
+       ],
+       [
+        2.75,
+        8.938
+       ],
+       [
+        2.8,
+        8.96
+       ],
+       [
+        2.85,
+        8.978
+       ],
+       [
+        2.9,
+        8.99
+       ],
+       [
+        2.95,
+        8.998
+       ],
+       [
+        3,
+        9
+       ],
+       [
+        3.05,
+        8.997
+       ],
+       [
+        3.1,
+        8.99
+       ],
+       [
+        3.15,
+        8.977
+       ],
+       [
+        3.2,
+        8.96
+       ],
+       [
+        3.25,
+        8.938
+       ],
+       [
+        3.3,
+        8.91
+       ],
+       [
+        3.35,
+        8.878
+       ],
+       [
+        3.4,
+        8.84
+       ],
+       [
+        3.45,
+        8.798
+       ],
+       [
+        3.5,
+        8.75
+       ],
+       [
+        3.55,
+        8.697
+       ],
+       [
+        3.6,
+        8.64
+       ],
+       [
+        3.65,
+        8.577
+       ],
+       [
+        3.7,
+        8.51
+       ],
+       [
+        3.75,
+        8.438
+       ],
+       [
+        3.8,
+        8.36
+       ],
+       [
+        3.85,
+        8.277
+       ],
+       [
+        3.9,
+        8.19
+       ],
+       [
+        3.95,
+        8.098
+       ],
+       [
+        4,
+        8
+       ],
+       [
+        4.05,
+        7.897
+       ],
+       [
+        4.1,
+        7.79
+       ],
+       [
+        4.15,
+        7.677
+       ],
+       [
+        4.2,
+        7.56
+       ],
+       [
+        4.25,
+        7.438
+       ],
+       [
+        4.3,
+        7.31
+       ],
+       [
+        4.35,
+        7.177
+       ],
+       [
+        4.4,
+        7.04
+       ],
+       [
+        4.45,
+        6.898
+       ],
+       [
+        4.5,
+        6.75
+       ],
+       [
+        4.55,
+        6.598
+       ],
+       [
+        4.6,
+        6.44
+       ],
+       [
+        4.65,
+        6.277
+       ],
+       [
+        4.7,
+        6.11
+       ],
+       [
+        4.75,
+        5.938
+       ],
+       [
+        4.8,
+        5.76
+       ],
+       [
+        4.85,
+        5.577
+       ],
+       [
+        4.9,
+        5.39
+       ],
+       [
+        4.95,
+        5.198
+       ],
+       [
+        5,
+        5
+       ],
+       [
+        5.05,
+        4.797
+       ],
+       [
+        5.1,
+        4.59
+       ],
+       [
+        5.15,
+        4.377
+       ],
+       [
+        5.2,
+        4.16
+       ],
+       [
+        5.25,
+        3.938
+       ],
+       [
+        5.3,
+        3.71
+       ],
+       [
+        5.35,
+        3.477
+       ],
+       [
+        5.4,
+        3.24
+       ],
+       [
+        5.45,
+        2.998
+       ],
+       [
+        5.5,
+        2.75
+       ],
+       [
+        5.55,
+        2.497
+       ],
+       [
+        5.6,
+        2.24
+       ],
+       [
+        5.65,
+        1.978
+       ],
+       [
+        5.7,
+        1.71
+       ],
+       [
+        5.75,
+        1.438
+       ],
+       [
+        5.8,
+        1.16
+       ],
+       [
+        5.85,
+        0.877
+       ],
+       [
+        5.9,
+        0.59
+       ],
+       [
+        5.95,
+        0.297
+       ],
+       [
+        6,
+        0
+       ]
+      ],
+      "open": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Problem-solving",
+   "stem": "This graph shows the height of a netball, $y$ metres, $t$ seconds after it is thrown up from the ground.",
+   "type": "numeric",
+   "prompt": "At what time is the ball at its greatest height?",
+   "answer": "3",
+   "units": "s"
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Problem-solving",
+   "stem": "This graph shows the height of a netball, $y$ metres, $t$ seconds after it is thrown up from the ground.",
+   "type": "numeric",
+   "prompt": "What is the greatest height the ball reaches?",
+   "answer": "18",
+   "units": "m"
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Problem-solving",
+   "stem": "This graph shows the height of a netball, $y$ metres, $t$ seconds after it is thrown up from the ground.",
+   "type": "numeric",
+   "prompt": "After how many seconds does it hit the ground?",
+   "answer": "6",
+   "units": "s"
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Problem-solving",
+   "stem": "The graph shows the height, $h$ m, of a rocket $t$ seconds after it is fired up into the air from the top of a cliff.",
+   "type": "numeric",
+   "prompt": "From what height is the rocket launched?",
+   "answer": "100",
+   "units": "m",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 34,
+    "items": [
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       9
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       1,
+       0,
+       1,
+       9
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       2,
+       0,
+       2,
+       9
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       0,
+       3,
+       9
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       4,
+       0,
+       4,
+       9
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       5,
+       0,
+       5,
+       9
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       0,
+       5,
+       0
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       1,
+       5,
+       1
+      ],
+      "thin": true
+     },
+     {
+      "label": "20",
+      "at": [
+       -0.45,
+       1
+      ]
+     },
+     {
+      "seg": [
+       0,
+       2,
+       5,
+       2
+      ],
+      "thin": true
+     },
+     {
+      "label": "40",
+      "at": [
+       -0.45,
+       2
+      ]
+     },
+     {
+      "seg": [
+       0,
+       3,
+       5,
+       3
+      ],
+      "thin": true
+     },
+     {
+      "label": "60",
+      "at": [
+       -0.45,
+       3
+      ]
+     },
+     {
+      "seg": [
+       0,
+       4,
+       5,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "label": "80",
+      "at": [
+       -0.45,
+       4
+      ]
+     },
+     {
+      "seg": [
+       0,
+       5,
+       5,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "label": "100",
+      "at": [
+       -0.45,
+       5
+      ]
+     },
+     {
+      "seg": [
+       0,
+       6,
+       5,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "label": "120",
+      "at": [
+       -0.45,
+       6
+      ]
+     },
+     {
+      "seg": [
+       0,
+       7,
+       5,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "label": "140",
+      "at": [
+       -0.45,
+       7
+      ]
+     },
+     {
+      "seg": [
+       0,
+       8,
+       5,
+       8
+      ],
+      "thin": true
+     },
+     {
+      "label": "160",
+      "at": [
+       -0.45,
+       8
+      ]
+     },
+     {
+      "seg": [
+       0,
+       9,
+       5,
+       9
+      ],
+      "thin": true
+     },
+     {
+      "label": "180",
+      "at": [
+       -0.45,
+       9
+      ]
+     },
+     {
+      "label": "1",
+      "at": [
+       1,
+       -0.45
+      ]
+     },
+     {
+      "label": "2",
+      "at": [
+       2,
+       -0.45
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       3,
+       -0.45
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       4,
+       -0.45
+      ]
+     },
+     {
+      "label": "5",
+      "at": [
+       5,
+       -0.45
+      ]
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.35,
+       -0.45
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       5.6,
+       0
+      ],
+      "arrow": "end"
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       9.6
+      ],
+      "arrow": "end"
+     },
+     {
+      "label": "t",
+      "at": [
+       5.95,
+       0
+      ]
+     },
+     {
+      "label": "h",
+      "at": [
+       0,
+       10
+      ]
+     },
+     {
+      "poly": [
+       [
+        0,
+        5
+       ],
+       [
+        0.05,
+        5.198
+       ],
+       [
+        0.1,
+        5.39
+       ],
+       [
+        0.15,
+        5.578
+       ],
+       [
+        0.2,
+        5.76
+       ],
+       [
+        0.25,
+        5.938
+       ],
+       [
+        0.3,
+        6.11
+       ],
+       [
+        0.35,
+        6.278
+       ],
+       [
+        0.4,
+        6.44
+       ],
+       [
+        0.45,
+        6.598
+       ],
+       [
+        0.5,
+        6.75
+       ],
+       [
+        0.55,
+        6.897
+       ],
+       [
+        0.6,
+        7.04
+       ],
+       [
+        0.65,
+        7.178
+       ],
+       [
+        0.7,
+        7.31
+       ],
+       [
+        0.75,
+        7.438
+       ],
+       [
+        0.8,
+        7.56
+       ],
+       [
+        0.85,
+        7.678
+       ],
+       [
+        0.9,
+        7.79
+       ],
+       [
+        0.95,
+        7.897
+       ],
+       [
+        1,
+        8
+       ],
+       [
+        1.05,
+        8.098
+       ],
+       [
+        1.1,
+        8.19
+       ],
+       [
+        1.15,
+        8.278
+       ],
+       [
+        1.2,
+        8.36
+       ],
+       [
+        1.25,
+        8.438
+       ],
+       [
+        1.3,
+        8.51
+       ],
+       [
+        1.35,
+        8.578
+       ],
+       [
+        1.4,
+        8.64
+       ],
+       [
+        1.45,
+        8.697
+       ],
+       [
+        1.5,
+        8.75
+       ],
+       [
+        1.55,
+        8.797
+       ],
+       [
+        1.6,
+        8.84
+       ],
+       [
+        1.65,
+        8.877
+       ],
+       [
+        1.7,
+        8.91
+       ],
+       [
+        1.75,
+        8.938
+       ],
+       [
+        1.8,
+        8.96
+       ],
+       [
+        1.85,
+        8.978
+       ],
+       [
+        1.9,
+        8.99
+       ],
+       [
+        1.95,
+        8.998
+       ],
+       [
+        2,
+        9
+       ],
+       [
+        2.05,
+        8.998
+       ],
+       [
+        2.1,
+        8.99
+       ],
+       [
+        2.15,
+        8.978
+       ],
+       [
+        2.2,
+        8.96
+       ],
+       [
+        2.25,
+        8.938
+       ],
+       [
+        2.3,
+        8.91
+       ],
+       [
+        2.35,
+        8.877
+       ],
+       [
+        2.4,
+        8.84
+       ],
+       [
+        2.45,
+        8.797
+       ],
+       [
+        2.5,
+        8.75
+       ],
+       [
+        2.55,
+        8.698
+       ],
+       [
+        2.6,
+        8.64
+       ],
+       [
+        2.65,
+        8.577
+       ],
+       [
+        2.7,
+        8.51
+       ],
+       [
+        2.75,
+        8.438
+       ],
+       [
+        2.8,
+        8.36
+       ],
+       [
+        2.85,
+        8.277
+       ],
+       [
+        2.9,
+        8.19
+       ],
+       [
+        2.95,
+        8.098
+       ],
+       [
+        3,
+        8
+       ],
+       [
+        3.05,
+        7.897
+       ],
+       [
+        3.1,
+        7.79
+       ],
+       [
+        3.15,
+        7.677
+       ],
+       [
+        3.2,
+        7.56
+       ],
+       [
+        3.25,
+        7.438
+       ],
+       [
+        3.3,
+        7.31
+       ],
+       [
+        3.35,
+        7.178
+       ],
+       [
+        3.4,
+        7.04
+       ],
+       [
+        3.45,
+        6.897
+       ],
+       [
+        3.5,
+        6.75
+       ],
+       [
+        3.55,
+        6.597
+       ],
+       [
+        3.6,
+        6.44
+       ],
+       [
+        3.65,
+        6.277
+       ],
+       [
+        3.7,
+        6.11
+       ],
+       [
+        3.75,
+        5.938
+       ],
+       [
+        3.8,
+        5.76
+       ],
+       [
+        3.85,
+        5.577
+       ],
+       [
+        3.9,
+        5.39
+       ],
+       [
+        3.95,
+        5.197
+       ],
+       [
+        4,
+        5
+       ],
+       [
+        4.05,
+        4.797
+       ],
+       [
+        4.1,
+        4.59
+       ],
+       [
+        4.15,
+        4.377
+       ],
+       [
+        4.2,
+        4.16
+       ],
+       [
+        4.25,
+        3.938
+       ],
+       [
+        4.3,
+        3.71
+       ],
+       [
+        4.35,
+        3.478
+       ],
+       [
+        4.4,
+        3.24
+       ],
+       [
+        4.45,
+        2.997
+       ],
+       [
+        4.5,
+        2.75
+       ],
+       [
+        4.55,
+        2.498
+       ],
+       [
+        4.6,
+        2.24
+       ],
+       [
+        4.65,
+        1.977
+       ],
+       [
+        4.7,
+        1.71
+       ],
+       [
+        4.75,
+        1.438
+       ],
+       [
+        4.8,
+        1.16
+       ],
+       [
+        4.85,
+        0.877
+       ],
+       [
+        4.9,
+        0.59
+       ],
+       [
+        4.95,
+        0.297
+       ],
+       [
+        5,
+        0
+       ]
+      ],
+      "open": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Problem-solving",
+   "stem": "The graph shows the height, $h$ m, of a rocket $t$ seconds after it is fired up into the air from the top of a cliff.",
+   "type": "numeric",
+   "prompt": "What is the maximum height the rocket reaches?",
+   "answer": "180",
+   "units": "m"
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Problem-solving",
+   "stem": "The graph shows the height, $h$ m, of a rocket $t$ seconds after it is fired up into the air from the top of a cliff.",
+   "type": "numeric",
+   "prompt": "For how long is the rocket in the air?",
+   "answer": "5",
+   "units": "s"
+  },
+  {
+   "id": "q7d",
+   "label": "7d",
+   "section": "Problem-solving",
+   "stem": "The graph shows the height, $h$ m, of a rocket $t$ seconds after it is fired up into the air from the top of a cliff.",
+   "type": "numeric",
+   "prompt": "How much longer does the rocket spend coming down than going up?",
+   "answer": "1",
+   "units": "s"
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Problem-solving",
+   "stem": "A parabola has $x$-intercepts at $(-4, 0)$ and $(2, 0)$. The $y$-coordinate of its turning point is $-9$.",
+   "type": "expression",
+   "prompt": "What is the equation of its axis of symmetry?",
+   "answer": "x=-1",
+   "hint": "Type the equation of the line, for example x = 2"
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Problem-solving",
+   "stem": "A parabola has $x$-intercepts at $(-4, 0)$ and $(2, 0)$. The $y$-coordinate of its turning point is $-9$.",
+   "type": "point",
+   "prompt": "What are the coordinates of the turning point?",
+   "answer": "(-1,-9)"
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Problem-solving",
+   "stem": "A parabola has a turning point at $(2, 5)$ and one of its $x$-intercepts at $(0, 0)$.",
+   "type": "expression",
+   "prompt": "What is the equation of its axis of symmetry?",
+   "answer": "x=2"
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Problem-solving",
+   "stem": "A parabola has a turning point at $(2, 5)$ and one of its $x$-intercepts at $(0, 0)$.",
+   "type": "point",
+   "prompt": "What are the coordinates of the other $x$-intercept?",
+   "answer": "(4,0)"
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Problem-solving",
+   "stem": "Write the rule for each parabola. Use trial and error, and check your rule by substituting a point on the graph.",
+   "type": "expression",
+   "prompt": "Graph a",
+   "answer": "y=x^2+1",
+   "accept": [
+    "x^2+1"
+   ],
+   "hint": "Type the rule, for example y = x^2 - 2x + 1",
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -3,
+     3
+    ],
+    "y": [
+     -1,
+     6
+    ],
+    "path": [
+     [
+      -2.236,
+      6
+     ],
+     [
+      -2.2,
+      5.84
+     ],
+     [
+      -2.1,
+      5.41
+     ],
+     [
+      -2,
+      5
+     ],
+     [
+      -1.9,
+      4.61
+     ],
+     [
+      -1.8,
+      4.24
+     ],
+     [
+      -1.7,
+      3.89
+     ],
+     [
+      -1.6,
+      3.56
+     ],
+     [
+      -1.5,
+      3.25
+     ],
+     [
+      -1.4,
+      2.96
+     ],
+     [
+      -1.3,
+      2.69
+     ],
+     [
+      -1.2,
+      2.44
+     ],
+     [
+      -1.1,
+      2.21
+     ],
+     [
+      -1,
+      2
+     ],
+     [
+      -0.9,
+      1.81
+     ],
+     [
+      -0.8,
+      1.64
+     ],
+     [
+      -0.7,
+      1.49
+     ],
+     [
+      -0.6,
+      1.36
+     ],
+     [
+      -0.5,
+      1.25
+     ],
+     [
+      -0.4,
+      1.16
+     ],
+     [
+      -0.3,
+      1.09
+     ],
+     [
+      -0.2,
+      1.04
+     ],
+     [
+      -0.1,
+      1.01
+     ],
+     [
+      0,
+      1
+     ],
+     [
+      0.1,
+      1.01
+     ],
+     [
+      0.2,
+      1.04
+     ],
+     [
+      0.3,
+      1.09
+     ],
+     [
+      0.4,
+      1.16
+     ],
+     [
+      0.5,
+      1.25
+     ],
+     [
+      0.6,
+      1.36
+     ],
+     [
+      0.7,
+      1.49
+     ],
+     [
+      0.8,
+      1.64
+     ],
+     [
+      0.9,
+      1.81
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      1.1,
+      2.21
+     ],
+     [
+      1.2,
+      2.44
+     ],
+     [
+      1.3,
+      2.69
+     ],
+     [
+      1.4,
+      2.96
+     ],
+     [
+      1.5,
+      3.25
+     ],
+     [
+      1.6,
+      3.56
+     ],
+     [
+      1.7,
+      3.89
+     ],
+     [
+      1.8,
+      4.24
+     ],
+     [
+      1.9,
+      4.61
+     ],
+     [
+      2,
+      5
+     ],
+     [
+      2.1,
+      5.41
+     ],
+     [
+      2.2,
+      5.84
+     ],
+     [
+      2.236,
+      6
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Problem-solving",
+   "stem": "Write the rule for each parabola. Use trial and error, and check your rule by substituting a point on the graph.",
+   "type": "expression",
+   "prompt": "Graph b",
+   "answer": "y=x^2-3",
+   "accept": [
+    "x^2-3"
+   ],
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -3,
+     3
+    ],
+    "y": [
+     -4,
+     3
+    ],
+    "path": [
+     [
+      -2.449,
+      3
+     ],
+     [
+      -2.4,
+      2.76
+     ],
+     [
+      -2.3,
+      2.29
+     ],
+     [
+      -2.2,
+      1.84
+     ],
+     [
+      -2.1,
+      1.41
+     ],
+     [
+      -2,
+      1
+     ],
+     [
+      -1.9,
+      0.61
+     ],
+     [
+      -1.8,
+      0.24
+     ],
+     [
+      -1.7,
+      -0.11
+     ],
+     [
+      -1.6,
+      -0.44
+     ],
+     [
+      -1.5,
+      -0.75
+     ],
+     [
+      -1.4,
+      -1.04
+     ],
+     [
+      -1.3,
+      -1.31
+     ],
+     [
+      -1.2,
+      -1.56
+     ],
+     [
+      -1.1,
+      -1.79
+     ],
+     [
+      -1,
+      -2
+     ],
+     [
+      -0.9,
+      -2.19
+     ],
+     [
+      -0.8,
+      -2.36
+     ],
+     [
+      -0.7,
+      -2.51
+     ],
+     [
+      -0.6,
+      -2.64
+     ],
+     [
+      -0.5,
+      -2.75
+     ],
+     [
+      -0.4,
+      -2.84
+     ],
+     [
+      -0.3,
+      -2.91
+     ],
+     [
+      -0.2,
+      -2.96
+     ],
+     [
+      -0.1,
+      -2.99
+     ],
+     [
+      0,
+      -3
+     ],
+     [
+      0.1,
+      -2.99
+     ],
+     [
+      0.2,
+      -2.96
+     ],
+     [
+      0.3,
+      -2.91
+     ],
+     [
+      0.4,
+      -2.84
+     ],
+     [
+      0.5,
+      -2.75
+     ],
+     [
+      0.6,
+      -2.64
+     ],
+     [
+      0.7,
+      -2.51
+     ],
+     [
+      0.8,
+      -2.36
+     ],
+     [
+      0.9,
+      -2.19
+     ],
+     [
+      1,
+      -2
+     ],
+     [
+      1.1,
+      -1.79
+     ],
+     [
+      1.2,
+      -1.56
+     ],
+     [
+      1.3,
+      -1.31
+     ],
+     [
+      1.4,
+      -1.04
+     ],
+     [
+      1.5,
+      -0.75
+     ],
+     [
+      1.6,
+      -0.44
+     ],
+     [
+      1.7,
+      -0.11
+     ],
+     [
+      1.8,
+      0.24
+     ],
+     [
+      1.9,
+      0.61
+     ],
+     [
+      2,
+      1
+     ],
+     [
+      2.1,
+      1.41
+     ],
+     [
+      2.2,
+      1.84
+     ],
+     [
+      2.3,
+      2.29
+     ],
+     [
+      2.4,
+      2.76
+     ],
+     [
+      2.449,
+      3
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q10c",
+   "label": "10c",
+   "section": "Problem-solving",
+   "stem": "Write the rule for each parabola. Use trial and error, and check your rule by substituting a point on the graph.",
+   "type": "expression",
+   "prompt": "Graph c",
+   "answer": "y=-x^2+2",
+   "accept": [
+    "-x^2+2"
+   ],
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -3,
+     3
+    ],
+    "y": [
+     -3,
+     3
+    ],
+    "path": [
+     [
+      -2.236,
+      -3
+     ],
+     [
+      -2.2,
+      -2.84
+     ],
+     [
+      -2.1,
+      -2.41
+     ],
+     [
+      -2,
+      -2
+     ],
+     [
+      -1.9,
+      -1.61
+     ],
+     [
+      -1.8,
+      -1.24
+     ],
+     [
+      -1.7,
+      -0.89
+     ],
+     [
+      -1.6,
+      -0.56
+     ],
+     [
+      -1.5,
+      -0.25
+     ],
+     [
+      -1.4,
+      0.04
+     ],
+     [
+      -1.3,
+      0.31
+     ],
+     [
+      -1.2,
+      0.56
+     ],
+     [
+      -1.1,
+      0.79
+     ],
+     [
+      -1,
+      1
+     ],
+     [
+      -0.9,
+      1.19
+     ],
+     [
+      -0.8,
+      1.36
+     ],
+     [
+      -0.7,
+      1.51
+     ],
+     [
+      -0.6,
+      1.64
+     ],
+     [
+      -0.5,
+      1.75
+     ],
+     [
+      -0.4,
+      1.84
+     ],
+     [
+      -0.3,
+      1.91
+     ],
+     [
+      -0.2,
+      1.96
+     ],
+     [
+      -0.1,
+      1.99
+     ],
+     [
+      0,
+      2
+     ],
+     [
+      0.1,
+      1.99
+     ],
+     [
+      0.2,
+      1.96
+     ],
+     [
+      0.3,
+      1.91
+     ],
+     [
+      0.4,
+      1.84
+     ],
+     [
+      0.5,
+      1.75
+     ],
+     [
+      0.6,
+      1.64
+     ],
+     [
+      0.7,
+      1.51
+     ],
+     [
+      0.8,
+      1.36
+     ],
+     [
+      0.9,
+      1.19
+     ],
+     [
+      1,
+      1
+     ],
+     [
+      1.1,
+      0.79
+     ],
+     [
+      1.2,
+      0.56
+     ],
+     [
+      1.3,
+      0.31
+     ],
+     [
+      1.4,
+      0.04
+     ],
+     [
+      1.5,
+      -0.25
+     ],
+     [
+      1.6,
+      -0.56
+     ],
+     [
+      1.7,
+      -0.89
+     ],
+     [
+      1.8,
+      -1.24
+     ],
+     [
+      1.9,
+      -1.61
+     ],
+     [
+      2,
+      -2
+     ],
+     [
+      2.1,
+      -2.41
+     ],
+     [
+      2.2,
+      -2.84
+     ],
+     [
+      2.236,
+      -3
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q10d",
+   "label": "10d",
+   "section": "Problem-solving",
+   "stem": "Write the rule for each parabola. Use trial and error, and check your rule by substituting a point on the graph.",
+   "type": "expression",
+   "prompt": "Graph d",
+   "answer": "y=x^2+2x+1",
+   "accept": [
+    "x^2+2x+1"
+   ],
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -4,
+     2
+    ],
+    "y": [
+     -1,
+     5
+    ],
+    "path": [
+     [
+      -3.236,
+      5
+     ],
+     [
+      -3.2,
+      4.84
+     ],
+     [
+      -3.1,
+      4.41
+     ],
+     [
+      -3,
+      4
+     ],
+     [
+      -2.9,
+      3.61
+     ],
+     [
+      -2.8,
+      3.24
+     ],
+     [
+      -2.7,
+      2.89
+     ],
+     [
+      -2.6,
+      2.56
+     ],
+     [
+      -2.5,
+      2.25
+     ],
+     [
+      -2.4,
+      1.96
+     ],
+     [
+      -2.3,
+      1.69
+     ],
+     [
+      -2.2,
+      1.44
+     ],
+     [
+      -2.1,
+      1.21
+     ],
+     [
+      -2,
+      1
+     ],
+     [
+      -1.9,
+      0.81
+     ],
+     [
+      -1.8,
+      0.64
+     ],
+     [
+      -1.7,
+      0.49
+     ],
+     [
+      -1.6,
+      0.36
+     ],
+     [
+      -1.5,
+      0.25
+     ],
+     [
+      -1.4,
+      0.16
+     ],
+     [
+      -1.3,
+      0.09
+     ],
+     [
+      -1.2,
+      0.04
+     ],
+     [
+      -1.1,
+      0.01
+     ],
+     [
+      -1,
+      0
+     ],
+     [
+      -0.9,
+      0.01
+     ],
+     [
+      -0.8,
+      0.04
+     ],
+     [
+      -0.7,
+      0.09
+     ],
+     [
+      -0.6,
+      0.16
+     ],
+     [
+      -0.5,
+      0.25
+     ],
+     [
+      -0.4,
+      0.36
+     ],
+     [
+      -0.3,
+      0.49
+     ],
+     [
+      -0.2,
+      0.64
+     ],
+     [
+      -0.1,
+      0.81
+     ],
+     [
+      0,
+      1
+     ],
+     [
+      0.1,
+      1.21
+     ],
+     [
+      0.2,
+      1.44
+     ],
+     [
+      0.3,
+      1.69
+     ],
+     [
+      0.4,
+      1.96
+     ],
+     [
+      0.5,
+      2.25
+     ],
+     [
+      0.6,
+      2.56
+     ],
+     [
+      0.7,
+      2.89
+     ],
+     [
+      0.8,
+      3.24
+     ],
+     [
+      0.9,
+      3.61
+     ],
+     [
+      1,
+      4
+     ],
+     [
+      1.1,
+      4.41
+     ],
+     [
+      1.2,
+      4.84
+     ],
+     [
+      1.236,
+      5
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q10e",
+   "label": "10e",
+   "section": "Problem-solving",
+   "stem": "Write the rule for each parabola. Use trial and error, and check your rule by substituting a point on the graph.",
+   "type": "expression",
+   "prompt": "Graph e",
+   "answer": "y=-x^2+2x",
+   "accept": [
+    "-x^2+2x"
+   ],
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -2,
+     4
+    ],
+    "y": [
+     -4,
+     2
+    ],
+    "path": [
+     [
+      -1.236,
+      -4
+     ],
+     [
+      -1.2,
+      -3.84
+     ],
+     [
+      -1.1,
+      -3.41
+     ],
+     [
+      -1,
+      -3
+     ],
+     [
+      -0.9,
+      -2.61
+     ],
+     [
+      -0.8,
+      -2.24
+     ],
+     [
+      -0.7,
+      -1.89
+     ],
+     [
+      -0.6,
+      -1.56
+     ],
+     [
+      -0.5,
+      -1.25
+     ],
+     [
+      -0.4,
+      -0.96
+     ],
+     [
+      -0.3,
+      -0.69
+     ],
+     [
+      -0.2,
+      -0.44
+     ],
+     [
+      -0.1,
+      -0.21
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0.1,
+      0.19
+     ],
+     [
+      0.2,
+      0.36
+     ],
+     [
+      0.3,
+      0.51
+     ],
+     [
+      0.4,
+      0.64
+     ],
+     [
+      0.5,
+      0.75
+     ],
+     [
+      0.6,
+      0.84
+     ],
+     [
+      0.7,
+      0.91
+     ],
+     [
+      0.8,
+      0.96
+     ],
+     [
+      0.9,
+      0.99
+     ],
+     [
+      1,
+      1
+     ],
+     [
+      1.1,
+      0.99
+     ],
+     [
+      1.2,
+      0.96
+     ],
+     [
+      1.3,
+      0.91
+     ],
+     [
+      1.4,
+      0.84
+     ],
+     [
+      1.5,
+      0.75
+     ],
+     [
+      1.6,
+      0.64
+     ],
+     [
+      1.7,
+      0.51
+     ],
+     [
+      1.8,
+      0.36
+     ],
+     [
+      1.9,
+      0.19
+     ],
+     [
+      2,
+      0
+     ],
+     [
+      2.1,
+      -0.21
+     ],
+     [
+      2.2,
+      -0.44
+     ],
+     [
+      2.3,
+      -0.69
+     ],
+     [
+      2.4,
+      -0.96
+     ],
+     [
+      2.5,
+      -1.25
+     ],
+     [
+      2.6,
+      -1.56
+     ],
+     [
+      2.7,
+      -1.89
+     ],
+     [
+      2.8,
+      -2.24
+     ],
+     [
+      2.9,
+      -2.61
+     ],
+     [
+      3,
+      -3
+     ],
+     [
+      3.1,
+      -3.41
+     ],
+     [
+      3.2,
+      -3.84
+     ],
+     [
+      3.236,
+      -4
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q10f",
+   "label": "10f",
+   "section": "Problem-solving",
+   "stem": "Write the rule for each parabola. Use trial and error, and check your rule by substituting a point on the graph.",
+   "type": "expression",
+   "prompt": "Graph f",
+   "answer": "y=x^2-2x-3",
+   "accept": [
+    "x^2-2x-3"
+   ],
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -2,
+     4
+    ],
+    "y": [
+     -5,
+     3
+    ],
+    "path": [
+     [
+      -1.646,
+      3
+     ],
+     [
+      -1.6,
+      2.76
+     ],
+     [
+      -1.5,
+      2.25
+     ],
+     [
+      -1.4,
+      1.76
+     ],
+     [
+      -1.3,
+      1.29
+     ],
+     [
+      -1.2,
+      0.84
+     ],
+     [
+      -1.1,
+      0.41
+     ],
+     [
+      -1,
+      0
+     ],
+     [
+      -0.9,
+      -0.39
+     ],
+     [
+      -0.8,
+      -0.76
+     ],
+     [
+      -0.7,
+      -1.11
+     ],
+     [
+      -0.6,
+      -1.44
+     ],
+     [
+      -0.5,
+      -1.75
+     ],
+     [
+      -0.4,
+      -2.04
+     ],
+     [
+      -0.3,
+      -2.31
+     ],
+     [
+      -0.2,
+      -2.56
+     ],
+     [
+      -0.1,
+      -2.79
+     ],
+     [
+      0,
+      -3
+     ],
+     [
+      0.1,
+      -3.19
+     ],
+     [
+      0.2,
+      -3.36
+     ],
+     [
+      0.3,
+      -3.51
+     ],
+     [
+      0.4,
+      -3.64
+     ],
+     [
+      0.5,
+      -3.75
+     ],
+     [
+      0.6,
+      -3.84
+     ],
+     [
+      0.7,
+      -3.91
+     ],
+     [
+      0.8,
+      -3.96
+     ],
+     [
+      0.9,
+      -3.99
+     ],
+     [
+      1,
+      -4
+     ],
+     [
+      1.1,
+      -3.99
+     ],
+     [
+      1.2,
+      -3.96
+     ],
+     [
+      1.3,
+      -3.91
+     ],
+     [
+      1.4,
+      -3.84
+     ],
+     [
+      1.5,
+      -3.75
+     ],
+     [
+      1.6,
+      -3.64
+     ],
+     [
+      1.7,
+      -3.51
+     ],
+     [
+      1.8,
+      -3.36
+     ],
+     [
+      1.9,
+      -3.19
+     ],
+     [
+      2,
+      -3
+     ],
+     [
+      2.1,
+      -2.79
+     ],
+     [
+      2.2,
+      -2.56
+     ],
+     [
+      2.3,
+      -2.31
+     ],
+     [
+      2.4,
+      -2.04
+     ],
+     [
+      2.5,
+      -1.75
+     ],
+     [
+      2.6,
+      -1.44
+     ],
+     [
+      2.7,
+      -1.11
+     ],
+     [
+      2.8,
+      -0.76
+     ],
+     [
+      2.9,
+      -0.39
+     ],
+     [
+      3,
+      0
+     ],
+     [
+      3.1,
+      0.41
+     ],
+     [
+      3.2,
+      0.84
+     ],
+     [
+      3.3,
+      1.29
+     ],
+     [
+      3.4,
+      1.76
+     ],
+     [
+      3.5,
+      2.25
+     ],
+     [
+      3.6,
+      2.76
+     ],
+     [
+      3.646,
+      3
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Reasoning",
+   "stem": "Is it possible to draw a parabola with each property?",
+   "type": "choice",
+   "prompt": "Two $x$-intercepts",
+   "answer": 0,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Reasoning",
+   "stem": "Is it possible to draw a parabola with each property?",
+   "type": "choice",
+   "prompt": "One $x$-intercept",
+   "answer": 0,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q11c",
+   "label": "11c",
+   "section": "Reasoning",
+   "stem": "Is it possible to draw a parabola with each property?",
+   "type": "choice",
+   "prompt": "No $x$-intercepts",
+   "answer": 0,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q11d",
+   "label": "11d",
+   "section": "Reasoning",
+   "stem": "Is it possible to draw a parabola with each property?",
+   "type": "choice",
+   "prompt": "No $y$-intercept",
+   "answer": 1,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q12a",
+   "label": "12a",
+   "section": "Reasoning",
+   "stem": "Each student made an error. Find the correct $y$-value.",
+   "type": "numeric",
+   "prompt": "Kim works out $y$ for $x = 3$ using $y = -x^2 + 4x$ and gets $y = 21$.",
+   "answer": "3"
+  },
+  {
+   "id": "q12b",
+   "label": "12b",
+   "section": "Reasoning",
+   "stem": "Each student made an error. Find the correct $y$-value.",
+   "type": "numeric",
+   "prompt": "Raj works out $y$ for $x = -2$ using $y = x - x^2$ and gets $y = 2$.",
+   "answer": "-6"
+  },
+  {
+   "id": "q13a",
+   "label": "13a",
+   "section": "Reasoning",
+   "stem": "This graph shows the parabola $y = x^2 - 1$.",
+   "type": "list",
+   "prompt": "For what values of $x$ is $y = 0$?",
+   "answer": [
+    "-1",
+    "1"
+   ],
+   "hint": "Type the x-values separated by commas, for example -1, 3",
+   "stemFigure": {
+    "kind": "plane",
+    "x": [
+     -3,
+     3
+    ],
+    "y": [
+     -2,
+     6
+    ],
+    "path": [
+     [
+      -2.646,
+      6
+     ],
+     [
+      -2.6,
+      5.76
+     ],
+     [
+      -2.5,
+      5.25
+     ],
+     [
+      -2.4,
+      4.76
+     ],
+     [
+      -2.3,
+      4.29
+     ],
+     [
+      -2.2,
+      3.84
+     ],
+     [
+      -2.1,
+      3.41
+     ],
+     [
+      -2,
+      3
+     ],
+     [
+      -1.9,
+      2.61
+     ],
+     [
+      -1.8,
+      2.24
+     ],
+     [
+      -1.7,
+      1.89
+     ],
+     [
+      -1.6,
+      1.56
+     ],
+     [
+      -1.5,
+      1.25
+     ],
+     [
+      -1.4,
+      0.96
+     ],
+     [
+      -1.3,
+      0.69
+     ],
+     [
+      -1.2,
+      0.44
+     ],
+     [
+      -1.1,
+      0.21
+     ],
+     [
+      -1,
+      0
+     ],
+     [
+      -0.9,
+      -0.19
+     ],
+     [
+      -0.8,
+      -0.36
+     ],
+     [
+      -0.7,
+      -0.51
+     ],
+     [
+      -0.6,
+      -0.64
+     ],
+     [
+      -0.5,
+      -0.75
+     ],
+     [
+      -0.4,
+      -0.84
+     ],
+     [
+      -0.3,
+      -0.91
+     ],
+     [
+      -0.2,
+      -0.96
+     ],
+     [
+      -0.1,
+      -0.99
+     ],
+     [
+      0,
+      -1
+     ],
+     [
+      0.1,
+      -0.99
+     ],
+     [
+      0.2,
+      -0.96
+     ],
+     [
+      0.3,
+      -0.91
+     ],
+     [
+      0.4,
+      -0.84
+     ],
+     [
+      0.5,
+      -0.75
+     ],
+     [
+      0.6,
+      -0.64
+     ],
+     [
+      0.7,
+      -0.51
+     ],
+     [
+      0.8,
+      -0.36
+     ],
+     [
+      0.9,
+      -0.19
+     ],
+     [
+      1,
+      0
+     ],
+     [
+      1.1,
+      0.21
+     ],
+     [
+      1.2,
+      0.44
+     ],
+     [
+      1.3,
+      0.69
+     ],
+     [
+      1.4,
+      0.96
+     ],
+     [
+      1.5,
+      1.25
+     ],
+     [
+      1.6,
+      1.56
+     ],
+     [
+      1.7,
+      1.89
+     ],
+     [
+      1.8,
+      2.24
+     ],
+     [
+      1.9,
+      2.61
+     ],
+     [
+      2,
+      3
+     ],
+     [
+      2.1,
+      3.41
+     ],
+     [
+      2.2,
+      3.84
+     ],
+     [
+      2.3,
+      4.29
+     ],
+     [
+      2.4,
+      4.76
+     ],
+     [
+      2.5,
+      5.25
+     ],
+     [
+      2.6,
+      5.76
+     ],
+     [
+      2.646,
+      6
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q13b",
+   "label": "13b",
+   "section": "Reasoning",
+   "stem": "This graph shows the parabola $y = x^2 - 1$.",
+   "type": "numeric",
+   "prompt": "For what value of $x$ is $y = -1$?",
+   "answer": "0"
+  },
+  {
+   "id": "q13c",
+   "label": "13c",
+   "section": "Reasoning",
+   "stem": "This graph shows the parabola $y = x^2 - 1$.",
+   "type": "choice",
+   "prompt": "How many values of $x$ give a $y$-value greater than $-1$?",
+   "answer": 3,
+   "options": [
+    "None",
+    "1",
+    "2",
+    "Infinitely many"
+   ]
+  },
+  {
+   "id": "q13d",
+   "label": "13d",
+   "section": "Reasoning",
+   "stem": "This graph shows the parabola $y = x^2 - 1$.",
+   "type": "choice",
+   "prompt": "How many values of $x$ give a $y$-value equal to $-1$?",
+   "answer": 1,
+   "options": [
+    "None",
+    "1",
+    "2",
+    "Infinitely many"
+   ]
+  },
+  {
+   "id": "q13e",
+   "label": "13e",
+   "section": "Reasoning",
+   "stem": "This graph shows the parabola $y = x^2 - 1$.",
+   "type": "choice",
+   "prompt": "How many values of $x$ give a $y$-value less than $-1$?",
+   "answer": 0,
+   "options": [
+    "None",
+    "1",
+    "2",
+    "Infinitely many"
+   ]
+  },
+  {
+   "id": "q14a",
+   "label": "14a",
+   "section": "Reasoning",
+   "stem": "This table is for the rule $y = x^2 + 2x$.",
+   "type": "list",
+   "prompt": "Use the table to solve $0 = x^2 + 2x$.",
+   "answer": [
+    "-2",
+    "0"
+   ],
+   "hint": "Type every solution, separated by commas or 'or', for example x = 2 or x = -3",
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "x",
+      "-4",
+      "-3",
+      "-2",
+      "-1",
+      "0",
+      "1",
+      "2"
+     ],
+     [
+      "y",
+      "8",
+      "3",
+      "0",
+      "-1",
+      "0",
+      "3",
+      "8"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q14b",
+   "label": "14b",
+   "section": "Reasoning",
+   "stem": "This table is for the rule $y = x^2 + 2x$.",
+   "type": "list",
+   "prompt": "Use the table to solve $3 = x^2 + 2x$.",
+   "answer": [
+    "-3",
+    "1"
+   ]
+  },
+  {
+   "id": "q14c",
+   "label": "14c",
+   "section": "Reasoning",
+   "stem": "This table is for the rule $y = x^2 + 2x$.",
+   "type": "numeric",
+   "prompt": "How many solutions are there to $8 = x^2 + 2x$?",
+   "answer": "2"
+  },
+  {
+   "id": "q14d",
+   "label": "14d",
+   "section": "Reasoning",
+   "stem": "This table is for the rule $y = x^2 + 2x$.",
+   "type": "numeric",
+   "prompt": "How many solutions are there to $-1 = x^2 + 2x$?",
+   "answer": "1"
+  },
+  {
+   "id": "q14e",
+   "label": "14e",
+   "section": "Reasoning",
+   "stem": "This table is for the rule $y = x^2 + 2x$.",
+   "type": "numeric",
+   "prompt": "How many solutions are there to $-2 = x^2 + 2x$?",
+   "answer": "0"
+  }
+ ]
+},
+{
+ "id": "y9-10f",
+ "year": 9,
+ "chapter": "Chapter 10: Introduction to quadratic equations and graphs",
+ "title": "10F Sketching y = ax² with dilations and reflections",
+ "description": "See how the value of a in y = ax² makes a parabola narrower, wider or upside down.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Consider the graphs of $y = x^2$, $y = 4x^2$ and $y = \\frac{1}{4}x^2$ for $-2 \\le x \\le 2$.",
+   "type": "ordered",
+   "prompt": "Complete the table of values for $y = x^2$, giving the $y$-values from $x = -2$ to $x = 2$.",
+   "answer": [
+    "4",
+    "1",
+    "0",
+    "1",
+    "4"
+   ],
+   "hint": "Type the y-values in order, separated by commas, for example 4, 1, 0, 1, 4. Fractions are fine.",
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "x",
+      "-2",
+      "-1",
+      "0",
+      "1",
+      "2"
+     ],
+     [
+      "y",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Consider the graphs of $y = x^2$, $y = 4x^2$ and $y = \\frac{1}{4}x^2$ for $-2 \\le x \\le 2$.",
+   "type": "ordered",
+   "prompt": "Complete the table of values for $y = 4x^2$, giving the $y$-values from $x = -2$ to $x = 2$.",
+   "answer": [
+    "16",
+    "4",
+    "0",
+    "4",
+    "16"
+   ]
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "Consider the graphs of $y = x^2$, $y = 4x^2$ and $y = \\frac{1}{4}x^2$ for $-2 \\le x \\le 2$.",
+   "type": "ordered",
+   "prompt": "Complete the table of values for $y = \\frac{1}{4}x^2$, giving the $y$-values from $x = -2$ to $x = 2$.",
+   "answer": [
+    "1",
+    "1/4",
+    "0",
+    "1/4",
+    "1"
+   ]
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "Consider the graphs of $y = x^2$, $y = 4x^2$ and $y = \\frac{1}{4}x^2$ for $-2 \\le x \\le 2$.",
+   "type": "expression",
+   "prompt": "Write the equation of the axis of symmetry (it is the same for all three).",
+   "answer": "x=0",
+   "hint": "Type the equation of the line, for example x = 2"
+  },
+  {
+   "id": "q1e",
+   "label": "1e",
+   "section": "Fluency",
+   "stem": "Consider the graphs of $y = x^2$, $y = 4x^2$ and $y = \\frac{1}{4}x^2$ for $-2 \\le x \\le 2$.",
+   "type": "point",
+   "prompt": "Write the coordinates of the turning point (it is the same for all three).",
+   "answer": "(0,0)"
+  },
+  {
+   "id": "q1f",
+   "label": "1f",
+   "section": "Fluency",
+   "stem": "Consider the graphs of $y = x^2$, $y = 4x^2$ and $y = \\frac{1}{4}x^2$ for $-2 \\le x \\le 2$.",
+   "type": "choice",
+   "prompt": "Does the graph of $y = 4x^2$ appear wider or narrower than the graph of $y = x^2$?",
+   "answer": 1,
+   "options": [
+    "Wider",
+    "Narrower"
+   ]
+  },
+  {
+   "id": "q1g",
+   "label": "1g",
+   "section": "Fluency",
+   "stem": "Consider the graphs of $y = x^2$, $y = 4x^2$ and $y = \\frac{1}{4}x^2$ for $-2 \\le x \\le 2$.",
+   "type": "choice",
+   "prompt": "Does the graph of $y = \\frac{1}{4}x^2$ appear wider or narrower than the graph of $y = x^2$?",
+   "answer": 0,
+   "options": [
+    "Wider",
+    "Narrower"
+   ]
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Consider the graph of $y = 7x^2$.",
+   "type": "ordered",
+   "prompt": "Complete the table of values for $-2 \\le x \\le 2$, giving the $y$-values in order.",
+   "answer": [
+    "28",
+    "7",
+    "0",
+    "7",
+    "28"
+   ],
+   "hint": "Type the y-values in order, separated by commas, for example 4, 1, 0, 1, 4",
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "x",
+      "-2",
+      "-1",
+      "0",
+      "1",
+      "2"
+     ],
+     [
+      "y",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Consider the graph of $y = 7x^2$.",
+   "type": "point",
+   "prompt": "Write the coordinates of the turning point.",
+   "answer": "(0,0)"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Consider the graph of $y = 7x^2$.",
+   "type": "expression",
+   "prompt": "Write the equation of the axis of symmetry.",
+   "answer": "x=0",
+   "hint": "Type the equation of the line, for example x = 2"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Consider the graph of $y = 7x^2$.",
+   "type": "choice",
+   "prompt": "Does it appear wider or narrower than the graph of $y = x^2$?",
+   "answer": 1,
+   "options": [
+    "Wider",
+    "Narrower"
+   ]
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Consider the graph of $y = 3x^2$.",
+   "type": "ordered",
+   "prompt": "Complete the table of values for $-2 \\le x \\le 2$, giving the $y$-values in order.",
+   "answer": [
+    "12",
+    "3",
+    "0",
+    "3",
+    "12"
+   ],
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "x",
+      "-2",
+      "-1",
+      "0",
+      "1",
+      "2"
+     ],
+     [
+      "y",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "Consider the graph of $y = 3x^2$.",
+   "type": "point",
+   "prompt": "Write the coordinates of the turning point.",
+   "answer": "(0,0)"
+  },
+  {
+   "id": "q2g",
+   "label": "2g",
+   "section": "Fluency",
+   "stem": "Consider the graph of $y = 3x^2$.",
+   "type": "expression",
+   "prompt": "Write the equation of the axis of symmetry.",
+   "answer": "x=0"
+  },
+  {
+   "id": "q2h",
+   "label": "2h",
+   "section": "Fluency",
+   "stem": "Consider the graph of $y = 3x^2$.",
+   "type": "choice",
+   "prompt": "Does it appear wider or narrower than the graph of $y = x^2$?",
+   "answer": 1,
+   "options": [
+    "Wider",
+    "Narrower"
+   ]
+  },
+  {
+   "id": "q2i",
+   "label": "2i",
+   "section": "Fluency",
+   "stem": "Consider the graph of $y = \\frac{1}{8}x^2$.",
+   "type": "ordered",
+   "prompt": "Complete the table of values for $-2 \\le x \\le 2$, giving the $y$-values in order.",
+   "answer": [
+    "1/2",
+    "1/8",
+    "0",
+    "1/8",
+    "1/2"
+   ],
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "x",
+      "-2",
+      "-1",
+      "0",
+      "1",
+      "2"
+     ],
+     [
+      "y",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q2j",
+   "label": "2j",
+   "section": "Fluency",
+   "stem": "Consider the graph of $y = \\frac{1}{8}x^2$.",
+   "type": "point",
+   "prompt": "Write the coordinates of the turning point.",
+   "answer": "(0,0)"
+  },
+  {
+   "id": "q2k",
+   "label": "2k",
+   "section": "Fluency",
+   "stem": "Consider the graph of $y = \\frac{1}{8}x^2$.",
+   "type": "expression",
+   "prompt": "Write the equation of the axis of symmetry.",
+   "answer": "x=0"
+  },
+  {
+   "id": "q2l",
+   "label": "2l",
+   "section": "Fluency",
+   "stem": "Consider the graph of $y = \\frac{1}{8}x^2$.",
+   "type": "choice",
+   "prompt": "Does it appear wider or narrower than the graph of $y = x^2$?",
+   "answer": 0,
+   "options": [
+    "Wider",
+    "Narrower"
+   ]
+  },
+  {
+   "id": "q2m",
+   "label": "2m",
+   "section": "Fluency",
+   "stem": "Consider the graph of $y = \\frac{1}{3}x^2$.",
+   "type": "ordered",
+   "prompt": "Complete the table of values for $-2 \\le x \\le 2$, giving the $y$-values in order.",
+   "answer": [
+    "4/3",
+    "1/3",
+    "0",
+    "1/3",
+    "4/3"
+   ],
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "x",
+      "-2",
+      "-1",
+      "0",
+      "1",
+      "2"
+     ],
+     [
+      "y",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q2n",
+   "label": "2n",
+   "section": "Fluency",
+   "stem": "Consider the graph of $y = \\frac{1}{3}x^2$.",
+   "type": "point",
+   "prompt": "Write the coordinates of the turning point.",
+   "answer": "(0,0)"
+  },
+  {
+   "id": "q2o",
+   "label": "2o",
+   "section": "Fluency",
+   "stem": "Consider the graph of $y = \\frac{1}{3}x^2$.",
+   "type": "expression",
+   "prompt": "Write the equation of the axis of symmetry.",
+   "answer": "x=0"
+  },
+  {
+   "id": "q2p",
+   "label": "2p",
+   "section": "Fluency",
+   "stem": "Consider the graph of $y = \\frac{1}{3}x^2$.",
+   "type": "choice",
+   "prompt": "Does it appear wider or narrower than the graph of $y = x^2$?",
+   "answer": 0,
+   "options": [
+    "Wider",
+    "Narrower"
+   ]
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Consider the graph of $y = -4x^2$.",
+   "type": "ordered",
+   "prompt": "Complete the table of values for $-2 \\le x \\le 2$, giving the $y$-values in order.",
+   "answer": [
+    "-16",
+    "-4",
+    "0",
+    "-4",
+    "-16"
+   ],
+   "hint": "Type the y-values in order, separated by commas, for example 4, 1, 0, 1, 4",
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "x",
+      "-2",
+      "-1",
+      "0",
+      "1",
+      "2"
+     ],
+     [
+      "y",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Consider the graph of $y = -4x^2$.",
+   "type": "point",
+   "prompt": "Write the coordinates of the turning point.",
+   "answer": "(0,0)"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Consider the graph of $y = -4x^2$.",
+   "type": "expression",
+   "prompt": "Write the equation of the axis of symmetry.",
+   "answer": "x=0",
+   "hint": "Type the equation of the line, for example x = 2"
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Consider the graph of $y = -4x^2$.",
+   "type": "choice",
+   "prompt": "Does it appear wider or narrower than the graph of $y = -x^2$?",
+   "answer": 1,
+   "options": [
+    "Wider",
+    "Narrower"
+   ]
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "Consider the graph of $y = -5x^2$.",
+   "type": "ordered",
+   "prompt": "Complete the table of values for $-2 \\le x \\le 2$, giving the $y$-values in order.",
+   "answer": [
+    "-20",
+    "-5",
+    "0",
+    "-5",
+    "-20"
+   ],
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "x",
+      "-2",
+      "-1",
+      "0",
+      "1",
+      "2"
+     ],
+     [
+      "y",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "Consider the graph of $y = -5x^2$.",
+   "type": "point",
+   "prompt": "Write the coordinates of the turning point.",
+   "answer": "(0,0)"
+  },
+  {
+   "id": "q3g",
+   "label": "3g",
+   "section": "Fluency",
+   "stem": "Consider the graph of $y = -5x^2$.",
+   "type": "expression",
+   "prompt": "Write the equation of the axis of symmetry.",
+   "answer": "x=0"
+  },
+  {
+   "id": "q3h",
+   "label": "3h",
+   "section": "Fluency",
+   "stem": "Consider the graph of $y = -5x^2$.",
+   "type": "choice",
+   "prompt": "Does it appear wider or narrower than the graph of $y = -x^2$?",
+   "answer": 1,
+   "options": [
+    "Wider",
+    "Narrower"
+   ]
+  },
+  {
+   "id": "q3i",
+   "label": "3i",
+   "section": "Fluency",
+   "stem": "Consider the graph of $y = -\\frac{1}{5}x^2$.",
+   "type": "ordered",
+   "prompt": "Complete the table of values for $-2 \\le x \\le 2$, giving the $y$-values in order.",
+   "answer": [
+    "-4/5",
+    "-1/5",
+    "0",
+    "-1/5",
+    "-4/5"
+   ],
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "x",
+      "-2",
+      "-1",
+      "0",
+      "1",
+      "2"
+     ],
+     [
+      "y",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q3j",
+   "label": "3j",
+   "section": "Fluency",
+   "stem": "Consider the graph of $y = -\\frac{1}{5}x^2$.",
+   "type": "point",
+   "prompt": "Write the coordinates of the turning point.",
+   "answer": "(0,0)"
+  },
+  {
+   "id": "q3k",
+   "label": "3k",
+   "section": "Fluency",
+   "stem": "Consider the graph of $y = -\\frac{1}{5}x^2$.",
+   "type": "expression",
+   "prompt": "Write the equation of the axis of symmetry.",
+   "answer": "x=0"
+  },
+  {
+   "id": "q3l",
+   "label": "3l",
+   "section": "Fluency",
+   "stem": "Consider the graph of $y = -\\frac{1}{5}x^2$.",
+   "type": "choice",
+   "prompt": "Does it appear wider or narrower than the graph of $y = -x^2$?",
+   "answer": 0,
+   "options": [
+    "Wider",
+    "Narrower"
+   ]
+  },
+  {
+   "id": "q3m",
+   "label": "3m",
+   "section": "Fluency",
+   "stem": "Consider the graph of $y = -\\frac{1}{6}x^2$.",
+   "type": "ordered",
+   "prompt": "Complete the table of values for $-2 \\le x \\le 2$, giving the $y$-values in order.",
+   "answer": [
+    "-2/3",
+    "-1/6",
+    "0",
+    "-1/6",
+    "-2/3"
+   ],
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "x",
+      "-2",
+      "-1",
+      "0",
+      "1",
+      "2"
+     ],
+     [
+      "y",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q3n",
+   "label": "3n",
+   "section": "Fluency",
+   "stem": "Consider the graph of $y = -\\frac{1}{6}x^2$.",
+   "type": "point",
+   "prompt": "Write the coordinates of the turning point.",
+   "answer": "(0,0)"
+  },
+  {
+   "id": "q3o",
+   "label": "3o",
+   "section": "Fluency",
+   "stem": "Consider the graph of $y = -\\frac{1}{6}x^2$.",
+   "type": "expression",
+   "prompt": "Write the equation of the axis of symmetry.",
+   "answer": "x=0"
+  },
+  {
+   "id": "q3p",
+   "label": "3p",
+   "section": "Fluency",
+   "stem": "Consider the graph of $y = -\\frac{1}{6}x^2$.",
+   "type": "choice",
+   "prompt": "Does it appear wider or narrower than the graph of $y = -x^2$?",
+   "answer": 0,
+   "options": [
+    "Wider",
+    "Narrower"
+   ]
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Problem-solving",
+   "stem": "Here are eight quadratic rules of the form $y = ax^2$: A $y = 5x^2$, B $y = -8x^2$, C $y = 3x^2$, D $y = \\frac{1}{7}x^2$, E $y = \\frac{x^2}{6}$, F $y = 0.4x^2$, G $y = -3.6x^2$, H $y = -0.2x^2$.",
+   "type": "choice",
+   "prompt": "Which rule gives a graph that is upright (concave up) and the narrowest?",
+   "answer": 0,
+   "options": [
+    "A: y = 5x²",
+    "B: y = -8x²",
+    "C: y = 3x²",
+    "D: y = (1/7)x²",
+    "E: y = x²/6",
+    "F: y = 0.4x²",
+    "G: y = -3.6x²",
+    "H: y = -0.2x²"
+   ]
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Problem-solving",
+   "stem": "Here are eight quadratic rules of the form $y = ax^2$: A $y = 5x^2$, B $y = -8x^2$, C $y = 3x^2$, D $y = \\frac{1}{7}x^2$, E $y = \\frac{x^2}{6}$, F $y = 0.4x^2$, G $y = -3.6x^2$, H $y = -0.2x^2$.",
+   "type": "choice",
+   "prompt": "Which rule gives a graph that is inverted (concave down) and the widest?",
+   "answer": 7,
+   "options": [
+    "A: y = 5x²",
+    "B: y = -8x²",
+    "C: y = 3x²",
+    "D: y = (1/7)x²",
+    "E: y = x²/6",
+    "F: y = 0.4x²",
+    "G: y = -3.6x²",
+    "H: y = -0.2x²"
+   ]
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Problem-solving",
+   "stem": "Match each parabola with its equation. Check by substituting the coordinates of a point on the graph.",
+   "type": "choice",
+   "prompt": "Graph A",
+   "answer": 2,
+   "options": [
+    "y = 4x²",
+    "y = -2x²",
+    "y = 3x²",
+    "y = (1/2)x²",
+    "y = -4x²",
+    "y = x²"
+   ],
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -3,
+     3
+    ],
+    "y": [
+     -1,
+     6
+    ],
+    "path": [
+     [
+      -1.414,
+      6
+     ],
+     [
+      -1.4,
+      5.88
+     ],
+     [
+      -1.3,
+      5.07
+     ],
+     [
+      -1.2,
+      4.32
+     ],
+     [
+      -1.1,
+      3.63
+     ],
+     [
+      -1,
+      3
+     ],
+     [
+      -0.9,
+      2.43
+     ],
+     [
+      -0.8,
+      1.92
+     ],
+     [
+      -0.7,
+      1.47
+     ],
+     [
+      -0.6,
+      1.08
+     ],
+     [
+      -0.5,
+      0.75
+     ],
+     [
+      -0.4,
+      0.48
+     ],
+     [
+      -0.3,
+      0.27
+     ],
+     [
+      -0.2,
+      0.12
+     ],
+     [
+      -0.1,
+      0.03
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0.1,
+      0.03
+     ],
+     [
+      0.2,
+      0.12
+     ],
+     [
+      0.3,
+      0.27
+     ],
+     [
+      0.4,
+      0.48
+     ],
+     [
+      0.5,
+      0.75
+     ],
+     [
+      0.6,
+      1.08
+     ],
+     [
+      0.7,
+      1.47
+     ],
+     [
+      0.8,
+      1.92
+     ],
+     [
+      0.9,
+      2.43
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      1.1,
+      3.63
+     ],
+     [
+      1.2,
+      4.32
+     ],
+     [
+      1.3,
+      5.07
+     ],
+     [
+      1.4,
+      5.88
+     ],
+     [
+      1.414,
+      6
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Problem-solving",
+   "stem": "Match each parabola with its equation. Check by substituting the coordinates of a point on the graph.",
+   "type": "choice",
+   "prompt": "Graph B",
+   "answer": 5,
+   "options": [
+    "y = 4x²",
+    "y = -2x²",
+    "y = 3x²",
+    "y = (1/2)x²",
+    "y = -4x²",
+    "y = x²"
+   ],
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -3,
+     3
+    ],
+    "y": [
+     -1,
+     6
+    ],
+    "path": [
+     [
+      -2.449,
+      6
+     ],
+     [
+      -2.4,
+      5.76
+     ],
+     [
+      -2.3,
+      5.29
+     ],
+     [
+      -2.2,
+      4.84
+     ],
+     [
+      -2.1,
+      4.41
+     ],
+     [
+      -2,
+      4
+     ],
+     [
+      -1.9,
+      3.61
+     ],
+     [
+      -1.8,
+      3.24
+     ],
+     [
+      -1.7,
+      2.89
+     ],
+     [
+      -1.6,
+      2.56
+     ],
+     [
+      -1.5,
+      2.25
+     ],
+     [
+      -1.4,
+      1.96
+     ],
+     [
+      -1.3,
+      1.69
+     ],
+     [
+      -1.2,
+      1.44
+     ],
+     [
+      -1.1,
+      1.21
+     ],
+     [
+      -1,
+      1
+     ],
+     [
+      -0.9,
+      0.81
+     ],
+     [
+      -0.8,
+      0.64
+     ],
+     [
+      -0.7,
+      0.49
+     ],
+     [
+      -0.6,
+      0.36
+     ],
+     [
+      -0.5,
+      0.25
+     ],
+     [
+      -0.4,
+      0.16
+     ],
+     [
+      -0.3,
+      0.09
+     ],
+     [
+      -0.2,
+      0.04
+     ],
+     [
+      -0.1,
+      0.01
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0.1,
+      0.01
+     ],
+     [
+      0.2,
+      0.04
+     ],
+     [
+      0.3,
+      0.09
+     ],
+     [
+      0.4,
+      0.16
+     ],
+     [
+      0.5,
+      0.25
+     ],
+     [
+      0.6,
+      0.36
+     ],
+     [
+      0.7,
+      0.49
+     ],
+     [
+      0.8,
+      0.64
+     ],
+     [
+      0.9,
+      0.81
+     ],
+     [
+      1,
+      1
+     ],
+     [
+      1.1,
+      1.21
+     ],
+     [
+      1.2,
+      1.44
+     ],
+     [
+      1.3,
+      1.69
+     ],
+     [
+      1.4,
+      1.96
+     ],
+     [
+      1.5,
+      2.25
+     ],
+     [
+      1.6,
+      2.56
+     ],
+     [
+      1.7,
+      2.89
+     ],
+     [
+      1.8,
+      3.24
+     ],
+     [
+      1.9,
+      3.61
+     ],
+     [
+      2,
+      4
+     ],
+     [
+      2.1,
+      4.41
+     ],
+     [
+      2.2,
+      4.84
+     ],
+     [
+      2.3,
+      5.29
+     ],
+     [
+      2.4,
+      5.76
+     ],
+     [
+      2.449,
+      6
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Problem-solving",
+   "stem": "Match each parabola with its equation. Check by substituting the coordinates of a point on the graph.",
+   "type": "choice",
+   "prompt": "Graph C",
+   "answer": 1,
+   "options": [
+    "y = 4x²",
+    "y = -2x²",
+    "y = 3x²",
+    "y = (1/2)x²",
+    "y = -4x²",
+    "y = x²"
+   ],
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -3,
+     3
+    ],
+    "y": [
+     -6,
+     1
+    ],
+    "path": [
+     [
+      -1.732,
+      -6
+     ],
+     [
+      -1.7,
+      -5.78
+     ],
+     [
+      -1.6,
+      -5.12
+     ],
+     [
+      -1.5,
+      -4.5
+     ],
+     [
+      -1.4,
+      -3.92
+     ],
+     [
+      -1.3,
+      -3.38
+     ],
+     [
+      -1.2,
+      -2.88
+     ],
+     [
+      -1.1,
+      -2.42
+     ],
+     [
+      -1,
+      -2
+     ],
+     [
+      -0.9,
+      -1.62
+     ],
+     [
+      -0.8,
+      -1.28
+     ],
+     [
+      -0.7,
+      -0.98
+     ],
+     [
+      -0.6,
+      -0.72
+     ],
+     [
+      -0.5,
+      -0.5
+     ],
+     [
+      -0.4,
+      -0.32
+     ],
+     [
+      -0.3,
+      -0.18
+     ],
+     [
+      -0.2,
+      -0.08
+     ],
+     [
+      -0.1,
+      -0.02
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0.1,
+      -0.02
+     ],
+     [
+      0.2,
+      -0.08
+     ],
+     [
+      0.3,
+      -0.18
+     ],
+     [
+      0.4,
+      -0.32
+     ],
+     [
+      0.5,
+      -0.5
+     ],
+     [
+      0.6,
+      -0.72
+     ],
+     [
+      0.7,
+      -0.98
+     ],
+     [
+      0.8,
+      -1.28
+     ],
+     [
+      0.9,
+      -1.62
+     ],
+     [
+      1,
+      -2
+     ],
+     [
+      1.1,
+      -2.42
+     ],
+     [
+      1.2,
+      -2.88
+     ],
+     [
+      1.3,
+      -3.38
+     ],
+     [
+      1.4,
+      -3.92
+     ],
+     [
+      1.5,
+      -4.5
+     ],
+     [
+      1.6,
+      -5.12
+     ],
+     [
+      1.7,
+      -5.78
+     ],
+     [
+      1.732,
+      -6
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Problem-solving",
+   "stem": "Match each parabola with its equation. Check by substituting the coordinates of a point on the graph.",
+   "type": "choice",
+   "prompt": "Graph D",
+   "answer": 0,
+   "options": [
+    "y = 4x²",
+    "y = -2x²",
+    "y = 3x²",
+    "y = (1/2)x²",
+    "y = -4x²",
+    "y = x²"
+   ],
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -3,
+     3
+    ],
+    "y": [
+     -1,
+     6
+    ],
+    "path": [
+     [
+      -1.225,
+      6
+     ],
+     [
+      -1.2,
+      5.76
+     ],
+     [
+      -1.1,
+      4.84
+     ],
+     [
+      -1,
+      4
+     ],
+     [
+      -0.9,
+      3.24
+     ],
+     [
+      -0.8,
+      2.56
+     ],
+     [
+      -0.7,
+      1.96
+     ],
+     [
+      -0.6,
+      1.44
+     ],
+     [
+      -0.5,
+      1
+     ],
+     [
+      -0.4,
+      0.64
+     ],
+     [
+      -0.3,
+      0.36
+     ],
+     [
+      -0.2,
+      0.16
+     ],
+     [
+      -0.1,
+      0.04
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0.1,
+      0.04
+     ],
+     [
+      0.2,
+      0.16
+     ],
+     [
+      0.3,
+      0.36
+     ],
+     [
+      0.4,
+      0.64
+     ],
+     [
+      0.5,
+      1
+     ],
+     [
+      0.6,
+      1.44
+     ],
+     [
+      0.7,
+      1.96
+     ],
+     [
+      0.8,
+      2.56
+     ],
+     [
+      0.9,
+      3.24
+     ],
+     [
+      1,
+      4
+     ],
+     [
+      1.1,
+      4.84
+     ],
+     [
+      1.2,
+      5.76
+     ],
+     [
+      1.225,
+      6
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q5e",
+   "label": "5e",
+   "section": "Problem-solving",
+   "stem": "Match each parabola with its equation. Check by substituting the coordinates of a point on the graph.",
+   "type": "choice",
+   "prompt": "Graph E",
+   "answer": 3,
+   "options": [
+    "y = 4x²",
+    "y = -2x²",
+    "y = 3x²",
+    "y = (1/2)x²",
+    "y = -4x²",
+    "y = x²"
+   ],
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -3,
+     3
+    ],
+    "y": [
+     -1,
+     6
+    ],
+    "path": [
+     [
+      -3,
+      4.5
+     ],
+     [
+      -2.9,
+      4.205
+     ],
+     [
+      -2.8,
+      3.92
+     ],
+     [
+      -2.7,
+      3.645
+     ],
+     [
+      -2.6,
+      3.38
+     ],
+     [
+      -2.5,
+      3.125
+     ],
+     [
+      -2.4,
+      2.88
+     ],
+     [
+      -2.3,
+      2.645
+     ],
+     [
+      -2.2,
+      2.42
+     ],
+     [
+      -2.1,
+      2.205
+     ],
+     [
+      -2,
+      2
+     ],
+     [
+      -1.9,
+      1.805
+     ],
+     [
+      -1.8,
+      1.62
+     ],
+     [
+      -1.7,
+      1.445
+     ],
+     [
+      -1.6,
+      1.28
+     ],
+     [
+      -1.5,
+      1.125
+     ],
+     [
+      -1.4,
+      0.98
+     ],
+     [
+      -1.3,
+      0.845
+     ],
+     [
+      -1.2,
+      0.72
+     ],
+     [
+      -1.1,
+      0.605
+     ],
+     [
+      -1,
+      0.5
+     ],
+     [
+      -0.9,
+      0.405
+     ],
+     [
+      -0.8,
+      0.32
+     ],
+     [
+      -0.7,
+      0.245
+     ],
+     [
+      -0.6,
+      0.18
+     ],
+     [
+      -0.5,
+      0.125
+     ],
+     [
+      -0.4,
+      0.08
+     ],
+     [
+      -0.3,
+      0.045
+     ],
+     [
+      -0.2,
+      0.02
+     ],
+     [
+      -0.1,
+      0.005
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0.1,
+      0.005
+     ],
+     [
+      0.2,
+      0.02
+     ],
+     [
+      0.3,
+      0.045
+     ],
+     [
+      0.4,
+      0.08
+     ],
+     [
+      0.5,
+      0.125
+     ],
+     [
+      0.6,
+      0.18
+     ],
+     [
+      0.7,
+      0.245
+     ],
+     [
+      0.8,
+      0.32
+     ],
+     [
+      0.9,
+      0.405
+     ],
+     [
+      1,
+      0.5
+     ],
+     [
+      1.1,
+      0.605
+     ],
+     [
+      1.2,
+      0.72
+     ],
+     [
+      1.3,
+      0.845
+     ],
+     [
+      1.4,
+      0.98
+     ],
+     [
+      1.5,
+      1.125
+     ],
+     [
+      1.6,
+      1.28
+     ],
+     [
+      1.7,
+      1.445
+     ],
+     [
+      1.8,
+      1.62
+     ],
+     [
+      1.9,
+      1.805
+     ],
+     [
+      2,
+      2
+     ],
+     [
+      2.1,
+      2.205
+     ],
+     [
+      2.2,
+      2.42
+     ],
+     [
+      2.3,
+      2.645
+     ],
+     [
+      2.4,
+      2.88
+     ],
+     [
+      2.5,
+      3.125
+     ],
+     [
+      2.6,
+      3.38
+     ],
+     [
+      2.7,
+      3.645
+     ],
+     [
+      2.8,
+      3.92
+     ],
+     [
+      2.9,
+      4.205
+     ],
+     [
+      3,
+      4.5
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q5f",
+   "label": "5f",
+   "section": "Problem-solving",
+   "stem": "Match each parabola with its equation. Check by substituting the coordinates of a point on the graph.",
+   "type": "choice",
+   "prompt": "Graph F",
+   "answer": 4,
+   "options": [
+    "y = 4x²",
+    "y = -2x²",
+    "y = 3x²",
+    "y = (1/2)x²",
+    "y = -4x²",
+    "y = x²"
+   ],
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -3,
+     3
+    ],
+    "y": [
+     -6,
+     1
+    ],
+    "path": [
+     [
+      -1.225,
+      -6
+     ],
+     [
+      -1.2,
+      -5.76
+     ],
+     [
+      -1.1,
+      -4.84
+     ],
+     [
+      -1,
+      -4
+     ],
+     [
+      -0.9,
+      -3.24
+     ],
+     [
+      -0.8,
+      -2.56
+     ],
+     [
+      -0.7,
+      -1.96
+     ],
+     [
+      -0.6,
+      -1.44
+     ],
+     [
+      -0.5,
+      -1
+     ],
+     [
+      -0.4,
+      -0.64
+     ],
+     [
+      -0.3,
+      -0.36
+     ],
+     [
+      -0.2,
+      -0.16
+     ],
+     [
+      -0.1,
+      -0.04
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0.1,
+      -0.04
+     ],
+     [
+      0.2,
+      -0.16
+     ],
+     [
+      0.3,
+      -0.36
+     ],
+     [
+      0.4,
+      -0.64
+     ],
+     [
+      0.5,
+      -1
+     ],
+     [
+      0.6,
+      -1.44
+     ],
+     [
+      0.7,
+      -1.96
+     ],
+     [
+      0.8,
+      -2.56
+     ],
+     [
+      0.9,
+      -3.24
+     ],
+     [
+      1,
+      -4
+     ],
+     [
+      1.1,
+      -4.84
+     ],
+     [
+      1.2,
+      -5.76
+     ],
+     [
+      1.225,
+      -6
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Reasoning",
+   "stem": "The graph of $y = -2x^2$ can be obtained from $y = x^2$ by a reflection in the $x$-axis and a dilation by a factor of $2$ from the $x$-axis. Which transformations take the first graph to the second?",
+   "type": "choice",
+   "prompt": "$y = x^2$ to $y = -4x^2$",
+   "answer": 0,
+   "options": [
+    "A reflection in the x-axis and a dilation by a factor of 4 from the x-axis",
+    "A dilation by a factor of 4 from the x-axis only",
+    "A reflection in the x-axis and a dilation by a factor of 1/4 from the x-axis",
+    "A reflection in the y-axis and a dilation by a factor of 4 from the x-axis"
+   ]
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Reasoning",
+   "stem": "The graph of $y = -2x^2$ can be obtained from $y = x^2$ by a reflection in the $x$-axis and a dilation by a factor of $2$ from the $x$-axis. Which transformations take the first graph to the second?",
+   "type": "choice",
+   "prompt": "$y = x^2$ to $y = -5x^2$",
+   "answer": 0,
+   "options": [
+    "A reflection in the x-axis and a dilation by a factor of 5 from the x-axis",
+    "A dilation by a factor of 5 from the x-axis only",
+    "A reflection in the x-axis and a dilation by a factor of 1/5 from the x-axis",
+    "A reflection in the y-axis and a dilation by a factor of 5 from the x-axis"
+   ]
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Reasoning",
+   "stem": "The graph of $y = -2x^2$ can be obtained from $y = x^2$ by a reflection in the $x$-axis and a dilation by a factor of $2$ from the $x$-axis. Which transformations take the first graph to the second?",
+   "type": "choice",
+   "prompt": "$y = x^2$ to $y = -\\frac{1}{3}x^2$",
+   "answer": 0,
+   "options": [
+    "A reflection in the x-axis and a dilation by a factor of 1/3 from the x-axis",
+    "A dilation by a factor of 1/3 from the x-axis only",
+    "A reflection in the x-axis and a dilation by a factor of 3 from the x-axis",
+    "A reflection in the y-axis and a dilation by a factor of 1/3 from the x-axis"
+   ]
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Reasoning",
+   "stem": "The graph of $y = -2x^2$ can be obtained from $y = x^2$ by a reflection in the $x$-axis and a dilation by a factor of $2$ from the $x$-axis. Which transformations take the first graph to the second?",
+   "type": "choice",
+   "prompt": "$y = -x^2$ to $y = 4x^2$",
+   "answer": 0,
+   "options": [
+    "A reflection in the x-axis and a dilation by a factor of 4 from the x-axis",
+    "A dilation by a factor of 4 from the x-axis only",
+    "A reflection in the x-axis and a dilation by a factor of 1/4 from the x-axis",
+    "A reflection in the y-axis and a dilation by a factor of 4 from the x-axis"
+   ]
+  },
+  {
+   "id": "q6e",
+   "label": "6e",
+   "section": "Reasoning",
+   "stem": "The graph of $y = -2x^2$ can be obtained from $y = x^2$ by a reflection in the $x$-axis and a dilation by a factor of $2$ from the $x$-axis. Which transformations take the first graph to the second?",
+   "type": "choice",
+   "prompt": "$y = -x^2$ to $y = 6x^2$",
+   "answer": 0,
+   "options": [
+    "A reflection in the x-axis and a dilation by a factor of 6 from the x-axis",
+    "A dilation by a factor of 6 from the x-axis only",
+    "A reflection in the x-axis and a dilation by a factor of 1/6 from the x-axis",
+    "A reflection in the y-axis and a dilation by a factor of 6 from the x-axis"
+   ]
+  },
+  {
+   "id": "q6f",
+   "label": "6f",
+   "section": "Reasoning",
+   "stem": "The graph of $y = -2x^2$ can be obtained from $y = x^2$ by a reflection in the $x$-axis and a dilation by a factor of $2$ from the $x$-axis. Which transformations take the first graph to the second?",
+   "type": "choice",
+   "prompt": "$y = -x^2$ to $y = \\frac{1}{4}x^2$",
+   "answer": 0,
+   "options": [
+    "A reflection in the x-axis and a dilation by a factor of 1/4 from the x-axis",
+    "A dilation by a factor of 1/4 from the x-axis only",
+    "A reflection in the x-axis and a dilation by a factor of 4 from the x-axis",
+    "A reflection in the y-axis and a dilation by a factor of 1/4 from the x-axis"
+   ]
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Reasoning",
+   "stem": "Write the rule for the graph after each set of transformations.",
+   "type": "expression",
+   "prompt": "The graph of $y = x^2$ is reflected in the $x$-axis, then dilated by a factor of $3$ from the $x$-axis.",
+   "answer": "y=-3x^2",
+   "accept": [
+    "-3x^2"
+   ],
+   "hint": "Type the rule, for example y = -5x^2 or y = 1/2x^2"
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Reasoning",
+   "stem": "Write the rule for the graph after each set of transformations.",
+   "type": "expression",
+   "prompt": "The graph of $y = -x^2$ is reflected in the $x$-axis, then dilated by a factor of $\\frac{1}{2}$ from the $x$-axis.",
+   "answer": "y=1/2x^2",
+   "accept": [
+    "1/2x^2"
+   ]
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Reasoning",
+   "stem": "Write the rule for the graph after each set of transformations.",
+   "type": "expression",
+   "prompt": "The graph of $y = 3x^2$ is reflected in the $x$-axis, then dilated by a factor of $2$ from the $x$-axis.",
+   "answer": "y=-6x^2",
+   "accept": [
+    "-6x^2"
+   ]
+  },
+  {
+   "id": "q7d",
+   "label": "7d",
+   "section": "Reasoning",
+   "stem": "Write the rule for the graph after each set of transformations.",
+   "type": "expression",
+   "prompt": "The graph of $y = \\frac{1}{2}x^2$ is reflected in the $x$-axis, then dilated by a factor of $8$ from the $x$-axis.",
+   "answer": "y=-4x^2",
+   "accept": [
+    "-4x^2"
+   ]
+  },
+  {
+   "id": "q8",
+   "label": "8",
+   "section": "Reasoning",
+   "type": "choice",
+   "prompt": "The graph of $y = ax^2$ is reflected in the $x$-axis and dilated from the $x$-axis by a given factor. Does it matter which transformation is done first?",
+   "answer": 0,
+   "options": [
+    "No, both orders give the same graph",
+    "Yes, the two orders give different graphs"
+   ]
+  },
+  {
+   "id": "q9",
+   "label": "9",
+   "section": "Reasoning",
+   "type": "expression",
+   "prompt": "The graph of $y = ax^2$ is reflected in the $y$-axis. What is the new rule?",
+   "answer": "y=ax^2",
+   "accept": [
+    "ax^2"
+   ],
+   "hint": "Type the rule using a, for example y = 2ax^2"
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Enrichment",
+   "stem": "A parabola has a rule of the form $y = ax^2$. Substitute the given point to find $a$, then write the rule. For example, through $(1, 4)$: $4 = a \\times 1^2$, so $y = 4x^2$.",
+   "type": "expression",
+   "prompt": "Passes through $(1, 6)$",
+   "answer": "y=6x^2",
+   "accept": [
+    "6x^2"
+   ],
+   "hint": "Type the rule, for example y = 3x^2 or y = 2/9x^2"
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Enrichment",
+   "stem": "A parabola has a rule of the form $y = ax^2$. Substitute the given point to find $a$, then write the rule. For example, through $(1, 4)$: $4 = a \\times 1^2$, so $y = 4x^2$.",
+   "type": "expression",
+   "prompt": "Passes through $(1, 9)$",
+   "answer": "y=9x^2",
+   "accept": [
+    "9x^2"
+   ]
+  },
+  {
+   "id": "q10c",
+   "label": "10c",
+   "section": "Enrichment",
+   "stem": "A parabola has a rule of the form $y = ax^2$. Substitute the given point to find $a$, then write the rule. For example, through $(1, 4)$: $4 = a \\times 1^2$, so $y = 4x^2$.",
+   "type": "expression",
+   "prompt": "Passes through $(-1, -3)$",
+   "answer": "y=-3x^2",
+   "accept": [
+    "-3x^2"
+   ]
+  },
+  {
+   "id": "q10d",
+   "label": "10d",
+   "section": "Enrichment",
+   "stem": "A parabola has a rule of the form $y = ax^2$. Substitute the given point to find $a$, then write the rule. For example, through $(1, 4)$: $4 = a \\times 1^2$, so $y = 4x^2$.",
+   "type": "expression",
+   "prompt": "Passes through $(-2, 5)$",
+   "answer": "y=5/4x^2",
+   "accept": [
+    "5/4x^2"
+   ]
+  },
+  {
+   "id": "q10e",
+   "label": "10e",
+   "section": "Enrichment",
+   "stem": "A parabola has a rule of the form $y = ax^2$. Substitute the given point to find $a$, then write the rule. For example, through $(1, 4)$: $4 = a \\times 1^2$, so $y = 4x^2$.",
+   "type": "expression",
+   "prompt": "Passes through $(-3, 4)$",
+   "answer": "y=4/9x^2",
+   "accept": [
+    "4/9x^2"
+   ]
+  },
+  {
+   "id": "q10f",
+   "label": "10f",
+   "section": "Enrichment",
+   "stem": "A parabola has a rule of the form $y = ax^2$. Substitute the given point to find $a$, then write the rule. For example, through $(1, 4)$: $4 = a \\times 1^2$, so $y = 4x^2$.",
+   "type": "expression",
+   "prompt": "Passes through $(3, 20)$",
+   "answer": "y=20/9x^2",
+   "accept": [
+    "20/9x^2"
+   ]
+  },
+  {
+   "id": "q10g",
+   "label": "10g",
+   "section": "Enrichment",
+   "stem": "A parabola has a rule of the form $y = ax^2$. Substitute the given point to find $a$, then write the rule. For example, through $(1, 4)$: $4 = a \\times 1^2$, so $y = 4x^2$.",
+   "type": "expression",
+   "prompt": "Passes through $(5, 75)$",
+   "answer": "y=3x^2",
+   "accept": [
+    "3x^2"
+   ]
+  },
+  {
+   "id": "q10h",
+   "label": "10h",
+   "section": "Enrichment",
+   "stem": "A parabola has a rule of the form $y = ax^2$. Substitute the given point to find $a$, then write the rule. For example, through $(1, 4)$: $4 = a \\times 1^2$, so $y = 4x^2$.",
+   "type": "expression",
+   "prompt": "Passes through $(-1, -40)$",
+   "answer": "y=-40x^2",
+   "accept": [
+    "-40x^2"
+   ]
+  },
+  {
+   "id": "q11",
+   "label": "11",
+   "section": "Enrichment",
+   "type": "expression",
+   "prompt": "The main cable of a suspension bridge is shaped like a parabola $y = ax^2$, with its lowest point at $(0, 0)$. The top of one tower is at $(400, 80)$, in metres. Find the rule for the cable.",
+   "answer": "y=1/2000x^2",
+   "accept": [
+    "1/2000x^2"
+   ],
+   "hint": "Type the rule, for example y = 1/500x^2"
+  }
+ ]
+},
+{
+ "id": "y9-10g",
+ "year": 9,
+ "chapter": "Chapter 10: Introduction to quadratic equations and graphs",
+ "title": "10G Sketching translations of y = x²",
+ "description": "Find the turning point and y-intercept of translated parabolas, and write rules in turning point form.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
+   "type": "point",
+   "prompt": "$y = x^2 + 2$: turning point",
+   "answer": "(0,2)",
+   "hint": "Type a point as (x, y), for example (2, -3)"
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
+   "type": "point",
+   "prompt": "$y = x^2 + 2$: $y$-intercept",
+   "answer": "(0,2)"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
+   "type": "point",
+   "prompt": "$y = x^2 + 5$: turning point",
+   "answer": "(0,5)"
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
+   "type": "point",
+   "prompt": "$y = x^2 + 5$: $y$-intercept",
+   "answer": "(0,5)"
+  },
+  {
+   "id": "q1e",
+   "label": "1e",
+   "section": "Fluency",
+   "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
+   "type": "point",
+   "prompt": "$y = x^2 - 3$: turning point",
+   "answer": "(0,-3)"
+  },
+  {
+   "id": "q1f",
+   "label": "1f",
+   "section": "Fluency",
+   "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
+   "type": "point",
+   "prompt": "$y = x^2 - 3$: $y$-intercept",
+   "answer": "(0,-3)"
+  },
+  {
+   "id": "q1g",
+   "label": "1g",
+   "section": "Fluency",
+   "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
+   "type": "point",
+   "prompt": "$y = -x^2 + 3$: turning point",
+   "answer": "(0,3)"
+  },
+  {
+   "id": "q1h",
+   "label": "1h",
+   "section": "Fluency",
+   "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
+   "type": "point",
+   "prompt": "$y = -x^2 + 3$: $y$-intercept",
+   "answer": "(0,3)"
+  },
+  {
+   "id": "q1i",
+   "label": "1i",
+   "section": "Fluency",
+   "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
+   "type": "point",
+   "prompt": "$y = -x^2 + 2$: turning point",
+   "answer": "(0,2)"
+  },
+  {
+   "id": "q1j",
+   "label": "1j",
+   "section": "Fluency",
+   "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
+   "type": "point",
+   "prompt": "$y = -x^2 + 2$: $y$-intercept",
+   "answer": "(0,2)"
+  },
+  {
+   "id": "q1k",
+   "label": "1k",
+   "section": "Fluency",
+   "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
+   "type": "point",
+   "prompt": "$y = -x^2 - 4$: turning point",
+   "answer": "(0,-4)"
+  },
+  {
+   "id": "q1l",
+   "label": "1l",
+   "section": "Fluency",
+   "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
+   "type": "point",
+   "prompt": "$y = -x^2 - 4$: $y$-intercept",
+   "answer": "(0,-4)"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
+   "type": "point",
+   "prompt": "$y = (x - 1)^2$: turning point",
+   "answer": "(1,0)",
+   "hint": "Type a point as (x, y), for example (2, -3)"
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
+   "type": "point",
+   "prompt": "$y = (x - 1)^2$: $y$-intercept",
+   "answer": "(0,1)"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
+   "type": "point",
+   "prompt": "$y = (x - 5)^2$: turning point",
+   "answer": "(5,0)"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
+   "type": "point",
+   "prompt": "$y = (x - 5)^2$: $y$-intercept",
+   "answer": "(0,25)"
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
+   "type": "point",
+   "prompt": "$y = (x + 4)^2$: turning point",
+   "answer": "(-4,0)"
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
+   "type": "point",
+   "prompt": "$y = (x + 4)^2$: $y$-intercept",
+   "answer": "(0,16)"
+  },
+  {
+   "id": "q2g",
+   "label": "2g",
+   "section": "Fluency",
+   "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
+   "type": "point",
+   "prompt": "$y = -(x - 2)^2$: turning point",
+   "answer": "(2,0)"
+  },
+  {
+   "id": "q2h",
+   "label": "2h",
+   "section": "Fluency",
+   "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
+   "type": "point",
+   "prompt": "$y = -(x - 2)^2$: $y$-intercept",
+   "answer": "(0,-4)"
+  },
+  {
+   "id": "q2i",
+   "label": "2i",
+   "section": "Fluency",
+   "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
+   "type": "point",
+   "prompt": "$y = -(x + 5)^2$: turning point",
+   "answer": "(-5,0)"
+  },
+  {
+   "id": "q2j",
+   "label": "2j",
+   "section": "Fluency",
+   "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
+   "type": "point",
+   "prompt": "$y = -(x + 5)^2$: $y$-intercept",
+   "answer": "(0,-25)"
+  },
+  {
+   "id": "q2k",
+   "label": "2k",
+   "section": "Fluency",
+   "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
+   "type": "point",
+   "prompt": "$y = -(x + 1)^2$: turning point",
+   "answer": "(-1,0)"
+  },
+  {
+   "id": "q2l",
+   "label": "2l",
+   "section": "Fluency",
+   "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
+   "type": "point",
+   "prompt": "$y = -(x + 1)^2$: $y$-intercept",
+   "answer": "(0,-1)"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "The diagram shows the graphs of $y = x^2$, $y = -x^2$, $y = -(x - 1)^2 + 4$ and $y = (x + 2)^2 - 1$.",
+   "type": "point",
+   "prompt": "State the coordinates of the turning point of $y = -(x - 1)^2 + 4$.",
+   "answer": "(1,4)",
+   "hint": "Type a point as (x, y), for example (2, -3)",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 28,
+    "items": [
+     {
+      "seg": [
+       -5,
+       0,
+       4,
+       0
+      ],
+      "arrow": "end",
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       -5,
+       0,
+       6
+      ],
+      "arrow": "end",
+      "thin": true
+     },
+     {
+      "label": "x",
+      "at": [
+       4.45,
+       0
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       6.5
+      ]
+     },
+     {
+      "label": "O",
+      "at": [
+       0.35,
+       -0.5
+      ]
+     },
+     {
+      "poly": [
+       [
+        -2.408,
+        5.8
+       ],
+       [
+        -2.368,
+        5.605
+       ],
+       [
+        -2.255,
+        5.085
+       ],
+       [
+        -2.143,
+        4.59
+       ],
+       [
+        -2.03,
+        4.121
+       ],
+       [
+        -1.918,
+        3.677
+       ],
+       [
+        -1.805,
+        3.258
+       ],
+       [
+        -1.693,
+        2.865
+       ],
+       [
+        -1.58,
+        2.496
+       ],
+       [
+        -1.468,
+        2.154
+       ],
+       [
+        -1.355,
+        1.836
+       ],
+       [
+        -1.243,
+        1.544
+       ],
+       [
+        -1.13,
+        1.277
+       ],
+       [
+        -1.018,
+        1.035
+       ],
+       [
+        -0.905,
+        0.819
+       ],
+       [
+        -0.793,
+        0.628
+       ],
+       [
+        -0.68,
+        0.462
+       ],
+       [
+        -0.567,
+        0.322
+       ],
+       [
+        -0.455,
+        0.207
+       ],
+       [
+        -0.343,
+        0.117
+       ],
+       [
+        -0.23,
+        0.053
+       ],
+       [
+        -0.118,
+        0.014
+       ],
+       [
+        -0.005,
+        0
+       ],
+       [
+        0.107,
+        0.012
+       ],
+       [
+        0.22,
+        0.048
+       ],
+       [
+        0.332,
+        0.111
+       ],
+       [
+        0.445,
+        0.198
+       ],
+       [
+        0.558,
+        0.311
+       ],
+       [
+        0.67,
+        0.449
+       ],
+       [
+        0.782,
+        0.612
+       ],
+       [
+        0.895,
+        0.801
+       ],
+       [
+        1.007,
+        1.015
+       ],
+       [
+        1.12,
+        1.254
+       ],
+       [
+        1.232,
+        1.519
+       ],
+       [
+        1.345,
+        1.809
+       ],
+       [
+        1.457,
+        2.124
+       ],
+       [
+        1.57,
+        2.465
+       ],
+       [
+        1.683,
+        2.831
+       ],
+       [
+        1.795,
+        3.222
+       ],
+       [
+        1.907,
+        3.639
+       ],
+       [
+        2.02,
+        4.08
+       ],
+       [
+        2.132,
+        4.548
+       ],
+       [
+        2.245,
+        5.04
+       ],
+       [
+        2.357,
+        5.558
+       ],
+       [
+        2.408,
+        5.8
+       ]
+      ],
+      "open": true
+     },
+     {
+      "poly": [
+       [
+        -2.191,
+        -4.8
+       ],
+       [
+        -2.143,
+        -4.59
+       ],
+       [
+        -2.03,
+        -4.121
+       ],
+       [
+        -1.918,
+        -3.677
+       ],
+       [
+        -1.805,
+        -3.258
+       ],
+       [
+        -1.693,
+        -2.865
+       ],
+       [
+        -1.58,
+        -2.496
+       ],
+       [
+        -1.468,
+        -2.154
+       ],
+       [
+        -1.355,
+        -1.836
+       ],
+       [
+        -1.243,
+        -1.544
+       ],
+       [
+        -1.13,
+        -1.277
+       ],
+       [
+        -1.018,
+        -1.035
+       ],
+       [
+        -0.905,
+        -0.819
+       ],
+       [
+        -0.793,
+        -0.628
+       ],
+       [
+        -0.68,
+        -0.462
+       ],
+       [
+        -0.567,
+        -0.322
+       ],
+       [
+        -0.455,
+        -0.207
+       ],
+       [
+        -0.343,
+        -0.117
+       ],
+       [
+        -0.23,
+        -0.053
+       ],
+       [
+        -0.118,
+        -0.014
+       ],
+       [
+        -0.005,
+        0
+       ],
+       [
+        0.107,
+        -0.012
+       ],
+       [
+        0.22,
+        -0.048
+       ],
+       [
+        0.332,
+        -0.111
+       ],
+       [
+        0.445,
+        -0.198
+       ],
+       [
+        0.558,
+        -0.311
+       ],
+       [
+        0.67,
+        -0.449
+       ],
+       [
+        0.782,
+        -0.612
+       ],
+       [
+        0.895,
+        -0.801
+       ],
+       [
+        1.007,
+        -1.015
+       ],
+       [
+        1.12,
+        -1.254
+       ],
+       [
+        1.232,
+        -1.519
+       ],
+       [
+        1.345,
+        -1.809
+       ],
+       [
+        1.457,
+        -2.124
+       ],
+       [
+        1.57,
+        -2.465
+       ],
+       [
+        1.683,
+        -2.831
+       ],
+       [
+        1.795,
+        -3.222
+       ],
+       [
+        1.907,
+        -3.639
+       ],
+       [
+        2.02,
+        -4.08
+       ],
+       [
+        2.132,
+        -4.548
+       ],
+       [
+        2.191,
+        -4.8
+       ]
+      ],
+      "open": true
+     },
+     {
+      "poly": [
+       [
+        -1.966,
+        -4.8
+       ],
+       [
+        -1.918,
+        -4.512
+       ],
+       [
+        -1.805,
+        -3.868
+       ],
+       [
+        -1.693,
+        -3.25
+       ],
+       [
+        -1.58,
+        -2.656
+       ],
+       [
+        -1.468,
+        -2.089
+       ],
+       [
+        -1.355,
+        -1.546
+       ],
+       [
+        -1.243,
+        -1.029
+       ],
+       [
+        -1.13,
+        -0.537
+       ],
+       [
+        -1.018,
+        -0.07
+       ],
+       [
+        -0.905,
+        0.371
+       ],
+       [
+        -0.793,
+        0.787
+       ],
+       [
+        -0.68,
+        1.178
+       ],
+       [
+        -0.567,
+        1.543
+       ],
+       [
+        -0.455,
+        1.883
+       ],
+       [
+        -0.343,
+        2.198
+       ],
+       [
+        -0.23,
+        2.487
+       ],
+       [
+        -0.118,
+        2.751
+       ],
+       [
+        -0.005,
+        2.99
+       ],
+       [
+        0.107,
+        3.203
+       ],
+       [
+        0.22,
+        3.392
+       ],
+       [
+        0.332,
+        3.554
+       ],
+       [
+        0.445,
+        3.692
+       ],
+       [
+        0.558,
+        3.804
+       ],
+       [
+        0.67,
+        3.891
+       ],
+       [
+        0.782,
+        3.953
+       ],
+       [
+        0.895,
+        3.989
+       ],
+       [
+        1.007,
+        4
+       ],
+       [
+        1.12,
+        3.986
+       ],
+       [
+        1.232,
+        3.946
+       ],
+       [
+        1.345,
+        3.881
+       ],
+       [
+        1.457,
+        3.791
+       ],
+       [
+        1.57,
+        3.675
+       ],
+       [
+        1.683,
+        3.534
+       ],
+       [
+        1.795,
+        3.368
+       ],
+       [
+        1.907,
+        3.176
+       ],
+       [
+        2.02,
+        2.96
+       ],
+       [
+        2.132,
+        2.717
+       ],
+       [
+        2.245,
+        2.45
+       ],
+       [
+        2.357,
+        2.157
+       ],
+       [
+        2.47,
+        1.839
+       ],
+       [
+        2.582,
+        1.496
+       ],
+       [
+        2.695,
+        1.127
+       ],
+       [
+        2.808,
+        0.733
+       ],
+       [
+        2.92,
+        0.314
+       ],
+       [
+        3.032,
+        -0.131
+       ],
+       [
+        3.145,
+        -0.601
+       ],
+       [
+        3.257,
+        -1.096
+       ],
+       [
+        3.37,
+        -1.617
+       ],
+       [
+        3.482,
+        -2.163
+       ],
+       [
+        3.595,
+        -2.734
+       ],
+       [
+        3.707,
+        -3.331
+       ]
+      ],
+      "open": true
+     },
+     {
+      "poly": [
+       [
+        -4.608,
+        5.8
+       ],
+       [
+        -4.505,
+        5.275
+       ],
+       [
+        -4.393,
+        4.724
+       ],
+       [
+        -4.28,
+        4.198
+       ],
+       [
+        -4.168,
+        3.698
+       ],
+       [
+        -4.055,
+        3.223
+       ],
+       [
+        -3.943,
+        2.773
+       ],
+       [
+        -3.83,
+        2.349
+       ],
+       [
+        -3.718,
+        1.95
+       ],
+       [
+        -3.605,
+        1.576
+       ],
+       [
+        -3.493,
+        1.228
+       ],
+       [
+        -3.38,
+        0.904
+       ],
+       [
+        -3.268,
+        0.607
+       ],
+       [
+        -3.155,
+        0.334
+       ],
+       [
+        -3.043,
+        0.087
+       ],
+       [
+        -2.93,
+        -0.135
+       ],
+       [
+        -2.818,
+        -0.332
+       ],
+       [
+        -2.705,
+        -0.503
+       ],
+       [
+        -2.593,
+        -0.649
+       ],
+       [
+        -2.48,
+        -0.77
+       ],
+       [
+        -2.368,
+        -0.865
+       ],
+       [
+        -2.255,
+        -0.935
+       ],
+       [
+        -2.143,
+        -0.98
+       ],
+       [
+        -2.03,
+        -0.999
+       ],
+       [
+        -1.918,
+        -0.993
+       ],
+       [
+        -1.805,
+        -0.962
+       ],
+       [
+        -1.693,
+        -0.905
+       ],
+       [
+        -1.58,
+        -0.824
+       ],
+       [
+        -1.468,
+        -0.716
+       ],
+       [
+        -1.355,
+        -0.584
+       ],
+       [
+        -1.243,
+        -0.426
+       ],
+       [
+        -1.13,
+        -0.243
+       ],
+       [
+        -1.018,
+        -0.035
+       ],
+       [
+        -0.905,
+        0.199
+       ],
+       [
+        -0.793,
+        0.458
+       ],
+       [
+        -0.68,
+        0.742
+       ],
+       [
+        -0.567,
+        1.052
+       ],
+       [
+        -0.455,
+        1.387
+       ],
+       [
+        -0.343,
+        1.747
+       ],
+       [
+        -0.23,
+        2.133
+       ],
+       [
+        -0.118,
+        2.544
+       ],
+       [
+        -0.005,
+        2.98
+       ],
+       [
+        0.107,
+        3.442
+       ],
+       [
+        0.22,
+        3.928
+       ],
+       [
+        0.332,
+        4.441
+       ],
+       [
+        0.445,
+        4.978
+       ],
+       [
+        0.558,
+        5.541
+       ],
+       [
+        0.608,
+        5.8
+       ]
+      ],
+      "open": true
+     },
+     {
+      "label": "y = x²",
+      "at": [
+       2.9,
+       6.4
+      ]
+     },
+     {
+      "label": "y = -x²",
+      "at": [
+       -2.9,
+       -5.4
+      ]
+     },
+     {
+      "label": "y = -(x - 1)² + 4",
+      "at": [
+       1.2,
+       4.7
+      ]
+     },
+     {
+      "label": "y = (x + 2)² - 1",
+      "at": [
+       -4.4,
+       6.4
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "The diagram shows the graphs of $y = x^2$, $y = -x^2$, $y = -(x - 1)^2 + 4$ and $y = (x + 2)^2 - 1$.",
+   "type": "point",
+   "prompt": "State the coordinates of the turning point of $y = (x + 2)^2 - 1$.",
+   "answer": "(-2,-1)"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "The diagram shows the graphs of $y = x^2$, $y = -x^2$, $y = -(x - 1)^2 + 4$ and $y = (x + 2)^2 - 1$.",
+   "type": "numeric",
+   "prompt": "From $y = x^2$ to $y = (x + 2)^2 - 1$: how many units across is the graph translated?",
+   "answer": "2"
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "The diagram shows the graphs of $y = x^2$, $y = -x^2$, $y = -(x - 1)^2 + 4$ and $y = (x + 2)^2 - 1$.",
+   "type": "choice",
+   "prompt": "From $y = x^2$ to $y = (x + 2)^2 - 1$: is the translation across to the left or the right?",
+   "answer": 0,
+   "options": [
+    "Left",
+    "Right"
+   ]
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "The diagram shows the graphs of $y = x^2$, $y = -x^2$, $y = -(x - 1)^2 + 4$ and $y = (x + 2)^2 - 1$.",
+   "type": "numeric",
+   "prompt": "From $y = x^2$ to $y = (x + 2)^2 - 1$: how many units is the graph translated up or down?",
+   "answer": "1"
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "The diagram shows the graphs of $y = x^2$, $y = -x^2$, $y = -(x - 1)^2 + 4$ and $y = (x + 2)^2 - 1$.",
+   "type": "choice",
+   "prompt": "From $y = x^2$ to $y = (x + 2)^2 - 1$: is that translation up or down?",
+   "answer": 1,
+   "options": [
+    "Up",
+    "Down"
+   ]
+  },
+  {
+   "id": "q3g",
+   "label": "3g",
+   "section": "Fluency",
+   "stem": "The diagram shows the graphs of $y = x^2$, $y = -x^2$, $y = -(x - 1)^2 + 4$ and $y = (x + 2)^2 - 1$.",
+   "type": "numeric",
+   "prompt": "From $y = -x^2$ to $y = -(x - 1)^2 + 4$: how many units across is the graph translated?",
+   "answer": "1"
+  },
+  {
+   "id": "q3h",
+   "label": "3h",
+   "section": "Fluency",
+   "stem": "The diagram shows the graphs of $y = x^2$, $y = -x^2$, $y = -(x - 1)^2 + 4$ and $y = (x + 2)^2 - 1$.",
+   "type": "choice",
+   "prompt": "From $y = -x^2$ to $y = -(x - 1)^2 + 4$: is the translation across to the left or the right?",
+   "answer": 1,
+   "options": [
+    "Left",
+    "Right"
+   ]
+  },
+  {
+   "id": "q3i",
+   "label": "3i",
+   "section": "Fluency",
+   "stem": "The diagram shows the graphs of $y = x^2$, $y = -x^2$, $y = -(x - 1)^2 + 4$ and $y = (x + 2)^2 - 1$.",
+   "type": "numeric",
+   "prompt": "From $y = -x^2$ to $y = -(x - 1)^2 + 4$: how many units is the graph translated up or down?",
+   "answer": "4"
+  },
+  {
+   "id": "q3j",
+   "label": "3j",
+   "section": "Fluency",
+   "stem": "The diagram shows the graphs of $y = x^2$, $y = -x^2$, $y = -(x - 1)^2 + 4$ and $y = (x + 2)^2 - 1$.",
+   "type": "choice",
+   "prompt": "From $y = -x^2$ to $y = -(x - 1)^2 + 4$: is that translation up or down?",
+   "answer": 0,
+   "options": [
+    "Up",
+    "Down"
+   ]
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
+   "type": "point",
+   "prompt": "$y = (x - 2)^2 + 3$: turning point",
+   "answer": "(2,3)",
+   "hint": "Type a point as (x, y), for example (2, -3)"
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
+   "type": "point",
+   "prompt": "$y = (x - 2)^2 + 3$: $y$-intercept",
+   "answer": "(0,7)"
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
+   "type": "point",
+   "prompt": "$y = (x - 3)^2 - 2$: turning point",
+   "answer": "(3,-2)"
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
+   "type": "point",
+   "prompt": "$y = (x - 3)^2 - 2$: $y$-intercept",
+   "answer": "(0,7)"
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Fluency",
+   "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
+   "type": "point",
+   "prompt": "$y = (x + 1)^2 - 4$: turning point",
+   "answer": "(-1,-4)"
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Fluency",
+   "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
+   "type": "point",
+   "prompt": "$y = (x + 1)^2 - 4$: $y$-intercept",
+   "answer": "(0,-3)"
+  },
+  {
+   "id": "q4g",
+   "label": "4g",
+   "section": "Fluency",
+   "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
+   "type": "point",
+   "prompt": "$y = (x + 3)^2 + 1$: turning point",
+   "answer": "(-3,1)"
+  },
+  {
+   "id": "q4h",
+   "label": "4h",
+   "section": "Fluency",
+   "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
+   "type": "point",
+   "prompt": "$y = (x + 3)^2 + 1$: $y$-intercept",
+   "answer": "(0,10)"
+  },
+  {
+   "id": "q4i",
+   "label": "4i",
+   "section": "Fluency",
+   "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
+   "type": "point",
+   "prompt": "$y = -(x - 1)^2 + 5$: turning point",
+   "answer": "(1,5)"
+  },
+  {
+   "id": "q4j",
+   "label": "4j",
+   "section": "Fluency",
+   "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
+   "type": "point",
+   "prompt": "$y = -(x - 1)^2 + 5$: $y$-intercept",
+   "answer": "(0,4)"
+  },
+  {
+   "id": "q4k",
+   "label": "4k",
+   "section": "Fluency",
+   "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
+   "type": "point",
+   "prompt": "$y = -(x - 4)^2 + 2$: turning point",
+   "answer": "(4,2)"
+  },
+  {
+   "id": "q4l",
+   "label": "4l",
+   "section": "Fluency",
+   "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
+   "type": "point",
+   "prompt": "$y = -(x - 4)^2 + 2$: $y$-intercept",
+   "answer": "(0,-14)"
+  },
+  {
+   "id": "q4m",
+   "label": "4m",
+   "section": "Fluency",
+   "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
+   "type": "point",
+   "prompt": "$y = -(x + 2)^2 - 3$: turning point",
+   "answer": "(-2,-3)"
+  },
+  {
+   "id": "q4n",
+   "label": "4n",
+   "section": "Fluency",
+   "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
+   "type": "point",
+   "prompt": "$y = -(x + 2)^2 - 3$: $y$-intercept",
+   "answer": "(0,-7)"
+  },
+  {
+   "id": "q4o",
+   "label": "4o",
+   "section": "Fluency",
+   "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
+   "type": "point",
+   "prompt": "$y = -(x + 4)^2 - 1$: turning point",
+   "answer": "(-4,-1)"
+  },
+  {
+   "id": "q4p",
+   "label": "4p",
+   "section": "Fluency",
+   "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
+   "type": "point",
+   "prompt": "$y = -(x + 4)^2 - 1$: $y$-intercept",
+   "answer": "(0,-17)"
+  },
+  {
+   "id": "q4q",
+   "label": "4q",
+   "section": "Fluency",
+   "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
+   "type": "point",
+   "prompt": "$y = -(x - 2)^2 - 5$: turning point",
+   "answer": "(2,-5)"
+  },
+  {
+   "id": "q4r",
+   "label": "4r",
+   "section": "Fluency",
+   "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
+   "type": "point",
+   "prompt": "$y = -(x - 2)^2 - 5$: $y$-intercept",
+   "answer": "(0,-9)"
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Problem-solving",
+   "stem": "Match each parabola with its equation.",
+   "type": "choice",
+   "prompt": "Graph A",
+   "answer": 6,
+   "options": [
+    "y = x²",
+    "y = (x + 1)²",
+    "y = x² - 3",
+    "y = -x² - 2",
+    "y = (x - 3)²",
+    "y = x² + 2",
+    "y = 3 - x²",
+    "y = (x + 4)²",
+    "y = (x - 1)²",
+    "y = x² + 4",
+    "y = -(x + 2)²",
+    "y = -x² + 1"
+   ],
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -3,
+     3
+    ],
+    "y": [
+     -3,
+     4
+    ],
+    "path": [
+     [
+      -2.449,
+      -3
+     ],
+     [
+      -2.4,
+      -2.76
+     ],
+     [
+      -2.3,
+      -2.29
+     ],
+     [
+      -2.2,
+      -1.84
+     ],
+     [
+      -2.1,
+      -1.41
+     ],
+     [
+      -2,
+      -1
+     ],
+     [
+      -1.9,
+      -0.61
+     ],
+     [
+      -1.8,
+      -0.24
+     ],
+     [
+      -1.7,
+      0.11
+     ],
+     [
+      -1.6,
+      0.44
+     ],
+     [
+      -1.5,
+      0.75
+     ],
+     [
+      -1.4,
+      1.04
+     ],
+     [
+      -1.3,
+      1.31
+     ],
+     [
+      -1.2,
+      1.56
+     ],
+     [
+      -1.1,
+      1.79
+     ],
+     [
+      -1,
+      2
+     ],
+     [
+      -0.9,
+      2.19
+     ],
+     [
+      -0.8,
+      2.36
+     ],
+     [
+      -0.7,
+      2.51
+     ],
+     [
+      -0.6,
+      2.64
+     ],
+     [
+      -0.5,
+      2.75
+     ],
+     [
+      -0.4,
+      2.84
+     ],
+     [
+      -0.3,
+      2.91
+     ],
+     [
+      -0.2,
+      2.96
+     ],
+     [
+      -0.1,
+      2.99
+     ],
+     [
+      0,
+      3
+     ],
+     [
+      0.1,
+      2.99
+     ],
+     [
+      0.2,
+      2.96
+     ],
+     [
+      0.3,
+      2.91
+     ],
+     [
+      0.4,
+      2.84
+     ],
+     [
+      0.5,
+      2.75
+     ],
+     [
+      0.6,
+      2.64
+     ],
+     [
+      0.7,
+      2.51
+     ],
+     [
+      0.8,
+      2.36
+     ],
+     [
+      0.9,
+      2.19
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      1.1,
+      1.79
+     ],
+     [
+      1.2,
+      1.56
+     ],
+     [
+      1.3,
+      1.31
+     ],
+     [
+      1.4,
+      1.04
+     ],
+     [
+      1.5,
+      0.75
+     ],
+     [
+      1.6,
+      0.44
+     ],
+     [
+      1.7,
+      0.11
+     ],
+     [
+      1.8,
+      -0.24
+     ],
+     [
+      1.9,
+      -0.61
+     ],
+     [
+      2,
+      -1
+     ],
+     [
+      2.1,
+      -1.41
+     ],
+     [
+      2.2,
+      -1.84
+     ],
+     [
+      2.3,
+      -2.29
+     ],
+     [
+      2.4,
+      -2.76
+     ],
+     [
+      2.449,
+      -3
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Problem-solving",
+   "stem": "Match each parabola with its equation.",
+   "type": "choice",
+   "prompt": "Graph B",
+   "answer": 1,
+   "options": [
+    "y = x²",
+    "y = (x + 1)²",
+    "y = x² - 3",
+    "y = -x² - 2",
+    "y = (x - 3)²",
+    "y = x² + 2",
+    "y = 3 - x²",
+    "y = (x + 4)²",
+    "y = (x - 1)²",
+    "y = x² + 4",
+    "y = -(x + 2)²",
+    "y = -x² + 1"
+   ],
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -4,
+     2
+    ],
+    "y": [
+     -1,
+     6
+    ],
+    "path": [
+     [
+      -3.449,
+      6
+     ],
+     [
+      -3.4,
+      5.76
+     ],
+     [
+      -3.3,
+      5.29
+     ],
+     [
+      -3.2,
+      4.84
+     ],
+     [
+      -3.1,
+      4.41
+     ],
+     [
+      -3,
+      4
+     ],
+     [
+      -2.9,
+      3.61
+     ],
+     [
+      -2.8,
+      3.24
+     ],
+     [
+      -2.7,
+      2.89
+     ],
+     [
+      -2.6,
+      2.56
+     ],
+     [
+      -2.5,
+      2.25
+     ],
+     [
+      -2.4,
+      1.96
+     ],
+     [
+      -2.3,
+      1.69
+     ],
+     [
+      -2.2,
+      1.44
+     ],
+     [
+      -2.1,
+      1.21
+     ],
+     [
+      -2,
+      1
+     ],
+     [
+      -1.9,
+      0.81
+     ],
+     [
+      -1.8,
+      0.64
+     ],
+     [
+      -1.7,
+      0.49
+     ],
+     [
+      -1.6,
+      0.36
+     ],
+     [
+      -1.5,
+      0.25
+     ],
+     [
+      -1.4,
+      0.16
+     ],
+     [
+      -1.3,
+      0.09
+     ],
+     [
+      -1.2,
+      0.04
+     ],
+     [
+      -1.1,
+      0.01
+     ],
+     [
+      -1,
+      0
+     ],
+     [
+      -0.9,
+      0.01
+     ],
+     [
+      -0.8,
+      0.04
+     ],
+     [
+      -0.7,
+      0.09
+     ],
+     [
+      -0.6,
+      0.16
+     ],
+     [
+      -0.5,
+      0.25
+     ],
+     [
+      -0.4,
+      0.36
+     ],
+     [
+      -0.3,
+      0.49
+     ],
+     [
+      -0.2,
+      0.64
+     ],
+     [
+      -0.1,
+      0.81
+     ],
+     [
+      0,
+      1
+     ],
+     [
+      0.1,
+      1.21
+     ],
+     [
+      0.2,
+      1.44
+     ],
+     [
+      0.3,
+      1.69
+     ],
+     [
+      0.4,
+      1.96
+     ],
+     [
+      0.5,
+      2.25
+     ],
+     [
+      0.6,
+      2.56
+     ],
+     [
+      0.7,
+      2.89
+     ],
+     [
+      0.8,
+      3.24
+     ],
+     [
+      0.9,
+      3.61
+     ],
+     [
+      1,
+      4
+     ],
+     [
+      1.1,
+      4.41
+     ],
+     [
+      1.2,
+      4.84
+     ],
+     [
+      1.3,
+      5.29
+     ],
+     [
+      1.4,
+      5.76
+     ],
+     [
+      1.449,
+      6
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Problem-solving",
+   "stem": "Match each parabola with its equation.",
+   "type": "choice",
+   "prompt": "Graph C",
+   "answer": 9,
+   "options": [
+    "y = x²",
+    "y = (x + 1)²",
+    "y = x² - 3",
+    "y = -x² - 2",
+    "y = (x - 3)²",
+    "y = x² + 2",
+    "y = 3 - x²",
+    "y = (x + 4)²",
+    "y = (x - 1)²",
+    "y = x² + 4",
+    "y = -(x + 2)²",
+    "y = -x² + 1"
+   ],
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -3,
+     3
+    ],
+    "y": [
+     -1,
+     10
+    ],
+    "path": [
+     [
+      -2.449,
+      10
+     ],
+     [
+      -2.4,
+      9.76
+     ],
+     [
+      -2.3,
+      9.29
+     ],
+     [
+      -2.2,
+      8.84
+     ],
+     [
+      -2.1,
+      8.41
+     ],
+     [
+      -2,
+      8
+     ],
+     [
+      -1.9,
+      7.61
+     ],
+     [
+      -1.8,
+      7.24
+     ],
+     [
+      -1.7,
+      6.89
+     ],
+     [
+      -1.6,
+      6.56
+     ],
+     [
+      -1.5,
+      6.25
+     ],
+     [
+      -1.4,
+      5.96
+     ],
+     [
+      -1.3,
+      5.69
+     ],
+     [
+      -1.2,
+      5.44
+     ],
+     [
+      -1.1,
+      5.21
+     ],
+     [
+      -1,
+      5
+     ],
+     [
+      -0.9,
+      4.81
+     ],
+     [
+      -0.8,
+      4.64
+     ],
+     [
+      -0.7,
+      4.49
+     ],
+     [
+      -0.6,
+      4.36
+     ],
+     [
+      -0.5,
+      4.25
+     ],
+     [
+      -0.4,
+      4.16
+     ],
+     [
+      -0.3,
+      4.09
+     ],
+     [
+      -0.2,
+      4.04
+     ],
+     [
+      -0.1,
+      4.01
+     ],
+     [
+      0,
+      4
+     ],
+     [
+      0.1,
+      4.01
+     ],
+     [
+      0.2,
+      4.04
+     ],
+     [
+      0.3,
+      4.09
+     ],
+     [
+      0.4,
+      4.16
+     ],
+     [
+      0.5,
+      4.25
+     ],
+     [
+      0.6,
+      4.36
+     ],
+     [
+      0.7,
+      4.49
+     ],
+     [
+      0.8,
+      4.64
+     ],
+     [
+      0.9,
+      4.81
+     ],
+     [
+      1,
+      5
+     ],
+     [
+      1.1,
+      5.21
+     ],
+     [
+      1.2,
+      5.44
+     ],
+     [
+      1.3,
+      5.69
+     ],
+     [
+      1.4,
+      5.96
+     ],
+     [
+      1.5,
+      6.25
+     ],
+     [
+      1.6,
+      6.56
+     ],
+     [
+      1.7,
+      6.89
+     ],
+     [
+      1.8,
+      7.24
+     ],
+     [
+      1.9,
+      7.61
+     ],
+     [
+      2,
+      8
+     ],
+     [
+      2.1,
+      8.41
+     ],
+     [
+      2.2,
+      8.84
+     ],
+     [
+      2.3,
+      9.29
+     ],
+     [
+      2.4,
+      9.76
+     ],
+     [
+      2.449,
+      10
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Problem-solving",
+   "stem": "Match each parabola with its equation.",
+   "type": "choice",
+   "prompt": "Graph D",
+   "answer": 3,
+   "options": [
+    "y = x²",
+    "y = (x + 1)²",
+    "y = x² - 3",
+    "y = -x² - 2",
+    "y = (x - 3)²",
+    "y = x² + 2",
+    "y = 3 - x²",
+    "y = (x + 4)²",
+    "y = (x - 1)²",
+    "y = x² + 4",
+    "y = -(x + 2)²",
+    "y = -x² + 1"
+   ],
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -3,
+     3
+    ],
+    "y": [
+     -8,
+     1
+    ],
+    "path": [
+     [
+      -2.449,
+      -8
+     ],
+     [
+      -2.4,
+      -7.76
+     ],
+     [
+      -2.3,
+      -7.29
+     ],
+     [
+      -2.2,
+      -6.84
+     ],
+     [
+      -2.1,
+      -6.41
+     ],
+     [
+      -2,
+      -6
+     ],
+     [
+      -1.9,
+      -5.61
+     ],
+     [
+      -1.8,
+      -5.24
+     ],
+     [
+      -1.7,
+      -4.89
+     ],
+     [
+      -1.6,
+      -4.56
+     ],
+     [
+      -1.5,
+      -4.25
+     ],
+     [
+      -1.4,
+      -3.96
+     ],
+     [
+      -1.3,
+      -3.69
+     ],
+     [
+      -1.2,
+      -3.44
+     ],
+     [
+      -1.1,
+      -3.21
+     ],
+     [
+      -1,
+      -3
+     ],
+     [
+      -0.9,
+      -2.81
+     ],
+     [
+      -0.8,
+      -2.64
+     ],
+     [
+      -0.7,
+      -2.49
+     ],
+     [
+      -0.6,
+      -2.36
+     ],
+     [
+      -0.5,
+      -2.25
+     ],
+     [
+      -0.4,
+      -2.16
+     ],
+     [
+      -0.3,
+      -2.09
+     ],
+     [
+      -0.2,
+      -2.04
+     ],
+     [
+      -0.1,
+      -2.01
+     ],
+     [
+      0,
+      -2
+     ],
+     [
+      0.1,
+      -2.01
+     ],
+     [
+      0.2,
+      -2.04
+     ],
+     [
+      0.3,
+      -2.09
+     ],
+     [
+      0.4,
+      -2.16
+     ],
+     [
+      0.5,
+      -2.25
+     ],
+     [
+      0.6,
+      -2.36
+     ],
+     [
+      0.7,
+      -2.49
+     ],
+     [
+      0.8,
+      -2.64
+     ],
+     [
+      0.9,
+      -2.81
+     ],
+     [
+      1,
+      -3
+     ],
+     [
+      1.1,
+      -3.21
+     ],
+     [
+      1.2,
+      -3.44
+     ],
+     [
+      1.3,
+      -3.69
+     ],
+     [
+      1.4,
+      -3.96
+     ],
+     [
+      1.5,
+      -4.25
+     ],
+     [
+      1.6,
+      -4.56
+     ],
+     [
+      1.7,
+      -4.89
+     ],
+     [
+      1.8,
+      -5.24
+     ],
+     [
+      1.9,
+      -5.61
+     ],
+     [
+      2,
+      -6
+     ],
+     [
+      2.1,
+      -6.41
+     ],
+     [
+      2.2,
+      -6.84
+     ],
+     [
+      2.3,
+      -7.29
+     ],
+     [
+      2.4,
+      -7.76
+     ],
+     [
+      2.449,
+      -8
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q5e",
+   "label": "5e",
+   "section": "Problem-solving",
+   "stem": "Match each parabola with its equation.",
+   "type": "choice",
+   "prompt": "Graph E",
+   "answer": 0,
+   "options": [
+    "y = x²",
+    "y = (x + 1)²",
+    "y = x² - 3",
+    "y = -x² - 2",
+    "y = (x - 3)²",
+    "y = x² + 2",
+    "y = 3 - x²",
+    "y = (x + 4)²",
+    "y = (x - 1)²",
+    "y = x² + 4",
+    "y = -(x + 2)²",
+    "y = -x² + 1"
+   ],
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -3,
+     3
+    ],
+    "y": [
+     -1,
+     6
+    ],
+    "path": [
+     [
+      -2.449,
+      6
+     ],
+     [
+      -2.4,
+      5.76
+     ],
+     [
+      -2.3,
+      5.29
+     ],
+     [
+      -2.2,
+      4.84
+     ],
+     [
+      -2.1,
+      4.41
+     ],
+     [
+      -2,
+      4
+     ],
+     [
+      -1.9,
+      3.61
+     ],
+     [
+      -1.8,
+      3.24
+     ],
+     [
+      -1.7,
+      2.89
+     ],
+     [
+      -1.6,
+      2.56
+     ],
+     [
+      -1.5,
+      2.25
+     ],
+     [
+      -1.4,
+      1.96
+     ],
+     [
+      -1.3,
+      1.69
+     ],
+     [
+      -1.2,
+      1.44
+     ],
+     [
+      -1.1,
+      1.21
+     ],
+     [
+      -1,
+      1
+     ],
+     [
+      -0.9,
+      0.81
+     ],
+     [
+      -0.8,
+      0.64
+     ],
+     [
+      -0.7,
+      0.49
+     ],
+     [
+      -0.6,
+      0.36
+     ],
+     [
+      -0.5,
+      0.25
+     ],
+     [
+      -0.4,
+      0.16
+     ],
+     [
+      -0.3,
+      0.09
+     ],
+     [
+      -0.2,
+      0.04
+     ],
+     [
+      -0.1,
+      0.01
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0.1,
+      0.01
+     ],
+     [
+      0.2,
+      0.04
+     ],
+     [
+      0.3,
+      0.09
+     ],
+     [
+      0.4,
+      0.16
+     ],
+     [
+      0.5,
+      0.25
+     ],
+     [
+      0.6,
+      0.36
+     ],
+     [
+      0.7,
+      0.49
+     ],
+     [
+      0.8,
+      0.64
+     ],
+     [
+      0.9,
+      0.81
+     ],
+     [
+      1,
+      1
+     ],
+     [
+      1.1,
+      1.21
+     ],
+     [
+      1.2,
+      1.44
+     ],
+     [
+      1.3,
+      1.69
+     ],
+     [
+      1.4,
+      1.96
+     ],
+     [
+      1.5,
+      2.25
+     ],
+     [
+      1.6,
+      2.56
+     ],
+     [
+      1.7,
+      2.89
+     ],
+     [
+      1.8,
+      3.24
+     ],
+     [
+      1.9,
+      3.61
+     ],
+     [
+      2,
+      4
+     ],
+     [
+      2.1,
+      4.41
+     ],
+     [
+      2.2,
+      4.84
+     ],
+     [
+      2.3,
+      5.29
+     ],
+     [
+      2.4,
+      5.76
+     ],
+     [
+      2.449,
+      6
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q5f",
+   "label": "5f",
+   "section": "Problem-solving",
+   "stem": "Match each parabola with its equation.",
+   "type": "choice",
+   "prompt": "Graph F",
+   "answer": 10,
+   "options": [
+    "y = x²",
+    "y = (x + 1)²",
+    "y = x² - 3",
+    "y = -x² - 2",
+    "y = (x - 3)²",
+    "y = x² + 2",
+    "y = 3 - x²",
+    "y = (x + 4)²",
+    "y = (x - 1)²",
+    "y = x² + 4",
+    "y = -(x + 2)²",
+    "y = -x² + 1"
+   ],
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -5,
+     1
+    ],
+    "y": [
+     -6,
+     1
+    ],
+    "path": [
+     [
+      -4.449,
+      -6
+     ],
+     [
+      -4.4,
+      -5.76
+     ],
+     [
+      -4.3,
+      -5.29
+     ],
+     [
+      -4.2,
+      -4.84
+     ],
+     [
+      -4.1,
+      -4.41
+     ],
+     [
+      -4,
+      -4
+     ],
+     [
+      -3.9,
+      -3.61
+     ],
+     [
+      -3.8,
+      -3.24
+     ],
+     [
+      -3.7,
+      -2.89
+     ],
+     [
+      -3.6,
+      -2.56
+     ],
+     [
+      -3.5,
+      -2.25
+     ],
+     [
+      -3.4,
+      -1.96
+     ],
+     [
+      -3.3,
+      -1.69
+     ],
+     [
+      -3.2,
+      -1.44
+     ],
+     [
+      -3.1,
+      -1.21
+     ],
+     [
+      -3,
+      -1
+     ],
+     [
+      -2.9,
+      -0.81
+     ],
+     [
+      -2.8,
+      -0.64
+     ],
+     [
+      -2.7,
+      -0.49
+     ],
+     [
+      -2.6,
+      -0.36
+     ],
+     [
+      -2.5,
+      -0.25
+     ],
+     [
+      -2.4,
+      -0.16
+     ],
+     [
+      -2.3,
+      -0.09
+     ],
+     [
+      -2.2,
+      -0.04
+     ],
+     [
+      -2.1,
+      -0.01
+     ],
+     [
+      -2,
+      0
+     ],
+     [
+      -1.9,
+      -0.01
+     ],
+     [
+      -1.8,
+      -0.04
+     ],
+     [
+      -1.7,
+      -0.09
+     ],
+     [
+      -1.6,
+      -0.16
+     ],
+     [
+      -1.5,
+      -0.25
+     ],
+     [
+      -1.4,
+      -0.36
+     ],
+     [
+      -1.3,
+      -0.49
+     ],
+     [
+      -1.2,
+      -0.64
+     ],
+     [
+      -1.1,
+      -0.81
+     ],
+     [
+      -1,
+      -1
+     ],
+     [
+      -0.9,
+      -1.21
+     ],
+     [
+      -0.8,
+      -1.44
+     ],
+     [
+      -0.7,
+      -1.69
+     ],
+     [
+      -0.6,
+      -1.96
+     ],
+     [
+      -0.5,
+      -2.25
+     ],
+     [
+      -0.4,
+      -2.56
+     ],
+     [
+      -0.3,
+      -2.89
+     ],
+     [
+      -0.2,
+      -3.24
+     ],
+     [
+      -0.1,
+      -3.61
+     ],
+     [
+      0,
+      -4
+     ],
+     [
+      0.1,
+      -4.41
+     ],
+     [
+      0.2,
+      -4.84
+     ],
+     [
+      0.3,
+      -5.29
+     ],
+     [
+      0.4,
+      -5.76
+     ],
+     [
+      0.449,
+      -6
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q5g",
+   "label": "5g",
+   "section": "Problem-solving",
+   "stem": "Match each parabola with its equation.",
+   "type": "choice",
+   "prompt": "Graph G",
+   "answer": 4,
+   "options": [
+    "y = x²",
+    "y = (x + 1)²",
+    "y = x² - 3",
+    "y = -x² - 2",
+    "y = (x - 3)²",
+    "y = x² + 2",
+    "y = 3 - x²",
+    "y = (x + 4)²",
+    "y = (x - 1)²",
+    "y = x² + 4",
+    "y = -(x + 2)²",
+    "y = -x² + 1"
+   ],
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -1,
+     6
+    ],
+    "y": [
+     -1,
+     6
+    ],
+    "path": [
+     [
+      0.551,
+      6
+     ],
+     [
+      0.6,
+      5.76
+     ],
+     [
+      0.7,
+      5.29
+     ],
+     [
+      0.8,
+      4.84
+     ],
+     [
+      0.9,
+      4.41
+     ],
+     [
+      1,
+      4
+     ],
+     [
+      1.1,
+      3.61
+     ],
+     [
+      1.2,
+      3.24
+     ],
+     [
+      1.3,
+      2.89
+     ],
+     [
+      1.4,
+      2.56
+     ],
+     [
+      1.5,
+      2.25
+     ],
+     [
+      1.6,
+      1.96
+     ],
+     [
+      1.7,
+      1.69
+     ],
+     [
+      1.8,
+      1.44
+     ],
+     [
+      1.9,
+      1.21
+     ],
+     [
+      2,
+      1
+     ],
+     [
+      2.1,
+      0.81
+     ],
+     [
+      2.2,
+      0.64
+     ],
+     [
+      2.3,
+      0.49
+     ],
+     [
+      2.4,
+      0.36
+     ],
+     [
+      2.5,
+      0.25
+     ],
+     [
+      2.6,
+      0.16
+     ],
+     [
+      2.7,
+      0.09
+     ],
+     [
+      2.8,
+      0.04
+     ],
+     [
+      2.9,
+      0.01
+     ],
+     [
+      3,
+      0
+     ],
+     [
+      3.1,
+      0.01
+     ],
+     [
+      3.2,
+      0.04
+     ],
+     [
+      3.3,
+      0.09
+     ],
+     [
+      3.4,
+      0.16
+     ],
+     [
+      3.5,
+      0.25
+     ],
+     [
+      3.6,
+      0.36
+     ],
+     [
+      3.7,
+      0.49
+     ],
+     [
+      3.8,
+      0.64
+     ],
+     [
+      3.9,
+      0.81
+     ],
+     [
+      4,
+      1
+     ],
+     [
+      4.1,
+      1.21
+     ],
+     [
+      4.2,
+      1.44
+     ],
+     [
+      4.3,
+      1.69
+     ],
+     [
+      4.4,
+      1.96
+     ],
+     [
+      4.5,
+      2.25
+     ],
+     [
+      4.6,
+      2.56
+     ],
+     [
+      4.7,
+      2.89
+     ],
+     [
+      4.8,
+      3.24
+     ],
+     [
+      4.9,
+      3.61
+     ],
+     [
+      5,
+      4
+     ],
+     [
+      5.1,
+      4.41
+     ],
+     [
+      5.2,
+      4.84
+     ],
+     [
+      5.3,
+      5.29
+     ],
+     [
+      5.4,
+      5.76
+     ],
+     [
+      5.449,
+      6
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q5h",
+   "label": "5h",
+   "section": "Problem-solving",
+   "stem": "Match each parabola with its equation.",
+   "type": "choice",
+   "prompt": "Graph H",
+   "answer": 7,
+   "options": [
+    "y = x²",
+    "y = (x + 1)²",
+    "y = x² - 3",
+    "y = -x² - 2",
+    "y = (x - 3)²",
+    "y = x² + 2",
+    "y = 3 - x²",
+    "y = (x + 4)²",
+    "y = (x - 1)²",
+    "y = x² + 4",
+    "y = -(x + 2)²",
+    "y = -x² + 1"
+   ],
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -7,
+     1
+    ],
+    "y": [
+     -1,
+     6
+    ],
+    "path": [
+     [
+      -6.449,
+      6
+     ],
+     [
+      -6.4,
+      5.76
+     ],
+     [
+      -6.3,
+      5.29
+     ],
+     [
+      -6.2,
+      4.84
+     ],
+     [
+      -6.1,
+      4.41
+     ],
+     [
+      -6,
+      4
+     ],
+     [
+      -5.9,
+      3.61
+     ],
+     [
+      -5.8,
+      3.24
+     ],
+     [
+      -5.7,
+      2.89
+     ],
+     [
+      -5.6,
+      2.56
+     ],
+     [
+      -5.5,
+      2.25
+     ],
+     [
+      -5.4,
+      1.96
+     ],
+     [
+      -5.3,
+      1.69
+     ],
+     [
+      -5.2,
+      1.44
+     ],
+     [
+      -5.1,
+      1.21
+     ],
+     [
+      -5,
+      1
+     ],
+     [
+      -4.9,
+      0.81
+     ],
+     [
+      -4.8,
+      0.64
+     ],
+     [
+      -4.7,
+      0.49
+     ],
+     [
+      -4.6,
+      0.36
+     ],
+     [
+      -4.5,
+      0.25
+     ],
+     [
+      -4.4,
+      0.16
+     ],
+     [
+      -4.3,
+      0.09
+     ],
+     [
+      -4.2,
+      0.04
+     ],
+     [
+      -4.1,
+      0.01
+     ],
+     [
+      -4,
+      0
+     ],
+     [
+      -3.9,
+      0.01
+     ],
+     [
+      -3.8,
+      0.04
+     ],
+     [
+      -3.7,
+      0.09
+     ],
+     [
+      -3.6,
+      0.16
+     ],
+     [
+      -3.5,
+      0.25
+     ],
+     [
+      -3.4,
+      0.36
+     ],
+     [
+      -3.3,
+      0.49
+     ],
+     [
+      -3.2,
+      0.64
+     ],
+     [
+      -3.1,
+      0.81
+     ],
+     [
+      -3,
+      1
+     ],
+     [
+      -2.9,
+      1.21
+     ],
+     [
+      -2.8,
+      1.44
+     ],
+     [
+      -2.7,
+      1.69
+     ],
+     [
+      -2.6,
+      1.96
+     ],
+     [
+      -2.5,
+      2.25
+     ],
+     [
+      -2.4,
+      2.56
+     ],
+     [
+      -2.3,
+      2.89
+     ],
+     [
+      -2.2,
+      3.24
+     ],
+     [
+      -2.1,
+      3.61
+     ],
+     [
+      -2,
+      4
+     ],
+     [
+      -1.9,
+      4.41
+     ],
+     [
+      -1.8,
+      4.84
+     ],
+     [
+      -1.7,
+      5.29
+     ],
+     [
+      -1.6,
+      5.76
+     ],
+     [
+      -1.551,
+      6
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q5i",
+   "label": "5i",
+   "section": "Problem-solving",
+   "stem": "Match each parabola with its equation.",
+   "type": "choice",
+   "prompt": "Graph I",
+   "answer": 2,
+   "options": [
+    "y = x²",
+    "y = (x + 1)²",
+    "y = x² - 3",
+    "y = -x² - 2",
+    "y = (x - 3)²",
+    "y = x² + 2",
+    "y = 3 - x²",
+    "y = (x + 4)²",
+    "y = (x - 1)²",
+    "y = x² + 4",
+    "y = -(x + 2)²",
+    "y = -x² + 1"
+   ],
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -3,
+     3
+    ],
+    "y": [
+     -4,
+     3
+    ],
+    "path": [
+     [
+      -2.449,
+      3
+     ],
+     [
+      -2.4,
+      2.76
+     ],
+     [
+      -2.3,
+      2.29
+     ],
+     [
+      -2.2,
+      1.84
+     ],
+     [
+      -2.1,
+      1.41
+     ],
+     [
+      -2,
+      1
+     ],
+     [
+      -1.9,
+      0.61
+     ],
+     [
+      -1.8,
+      0.24
+     ],
+     [
+      -1.7,
+      -0.11
+     ],
+     [
+      -1.6,
+      -0.44
+     ],
+     [
+      -1.5,
+      -0.75
+     ],
+     [
+      -1.4,
+      -1.04
+     ],
+     [
+      -1.3,
+      -1.31
+     ],
+     [
+      -1.2,
+      -1.56
+     ],
+     [
+      -1.1,
+      -1.79
+     ],
+     [
+      -1,
+      -2
+     ],
+     [
+      -0.9,
+      -2.19
+     ],
+     [
+      -0.8,
+      -2.36
+     ],
+     [
+      -0.7,
+      -2.51
+     ],
+     [
+      -0.6,
+      -2.64
+     ],
+     [
+      -0.5,
+      -2.75
+     ],
+     [
+      -0.4,
+      -2.84
+     ],
+     [
+      -0.3,
+      -2.91
+     ],
+     [
+      -0.2,
+      -2.96
+     ],
+     [
+      -0.1,
+      -2.99
+     ],
+     [
+      0,
+      -3
+     ],
+     [
+      0.1,
+      -2.99
+     ],
+     [
+      0.2,
+      -2.96
+     ],
+     [
+      0.3,
+      -2.91
+     ],
+     [
+      0.4,
+      -2.84
+     ],
+     [
+      0.5,
+      -2.75
+     ],
+     [
+      0.6,
+      -2.64
+     ],
+     [
+      0.7,
+      -2.51
+     ],
+     [
+      0.8,
+      -2.36
+     ],
+     [
+      0.9,
+      -2.19
+     ],
+     [
+      1,
+      -2
+     ],
+     [
+      1.1,
+      -1.79
+     ],
+     [
+      1.2,
+      -1.56
+     ],
+     [
+      1.3,
+      -1.31
+     ],
+     [
+      1.4,
+      -1.04
+     ],
+     [
+      1.5,
+      -0.75
+     ],
+     [
+      1.6,
+      -0.44
+     ],
+     [
+      1.7,
+      -0.11
+     ],
+     [
+      1.8,
+      0.24
+     ],
+     [
+      1.9,
+      0.61
+     ],
+     [
+      2,
+      1
+     ],
+     [
+      2.1,
+      1.41
+     ],
+     [
+      2.2,
+      1.84
+     ],
+     [
+      2.3,
+      2.29
+     ],
+     [
+      2.4,
+      2.76
+     ],
+     [
+      2.449,
+      3
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q5j",
+   "label": "5j",
+   "section": "Problem-solving",
+   "stem": "Match each parabola with its equation.",
+   "type": "choice",
+   "prompt": "Graph J",
+   "answer": 11,
+   "options": [
+    "y = x²",
+    "y = (x + 1)²",
+    "y = x² - 3",
+    "y = -x² - 2",
+    "y = (x - 3)²",
+    "y = x² + 2",
+    "y = 3 - x²",
+    "y = (x + 4)²",
+    "y = (x - 1)²",
+    "y = x² + 4",
+    "y = -(x + 2)²",
+    "y = -x² + 1"
+   ],
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -3,
+     3
+    ],
+    "y": [
+     -5,
+     2
+    ],
+    "path": [
+     [
+      -2.449,
+      -5
+     ],
+     [
+      -2.4,
+      -4.76
+     ],
+     [
+      -2.3,
+      -4.29
+     ],
+     [
+      -2.2,
+      -3.84
+     ],
+     [
+      -2.1,
+      -3.41
+     ],
+     [
+      -2,
+      -3
+     ],
+     [
+      -1.9,
+      -2.61
+     ],
+     [
+      -1.8,
+      -2.24
+     ],
+     [
+      -1.7,
+      -1.89
+     ],
+     [
+      -1.6,
+      -1.56
+     ],
+     [
+      -1.5,
+      -1.25
+     ],
+     [
+      -1.4,
+      -0.96
+     ],
+     [
+      -1.3,
+      -0.69
+     ],
+     [
+      -1.2,
+      -0.44
+     ],
+     [
+      -1.1,
+      -0.21
+     ],
+     [
+      -1,
+      0
+     ],
+     [
+      -0.9,
+      0.19
+     ],
+     [
+      -0.8,
+      0.36
+     ],
+     [
+      -0.7,
+      0.51
+     ],
+     [
+      -0.6,
+      0.64
+     ],
+     [
+      -0.5,
+      0.75
+     ],
+     [
+      -0.4,
+      0.84
+     ],
+     [
+      -0.3,
+      0.91
+     ],
+     [
+      -0.2,
+      0.96
+     ],
+     [
+      -0.1,
+      0.99
+     ],
+     [
+      0,
+      1
+     ],
+     [
+      0.1,
+      0.99
+     ],
+     [
+      0.2,
+      0.96
+     ],
+     [
+      0.3,
+      0.91
+     ],
+     [
+      0.4,
+      0.84
+     ],
+     [
+      0.5,
+      0.75
+     ],
+     [
+      0.6,
+      0.64
+     ],
+     [
+      0.7,
+      0.51
+     ],
+     [
+      0.8,
+      0.36
+     ],
+     [
+      0.9,
+      0.19
+     ],
+     [
+      1,
+      0
+     ],
+     [
+      1.1,
+      -0.21
+     ],
+     [
+      1.2,
+      -0.44
+     ],
+     [
+      1.3,
+      -0.69
+     ],
+     [
+      1.4,
+      -0.96
+     ],
+     [
+      1.5,
+      -1.25
+     ],
+     [
+      1.6,
+      -1.56
+     ],
+     [
+      1.7,
+      -1.89
+     ],
+     [
+      1.8,
+      -2.24
+     ],
+     [
+      1.9,
+      -2.61
+     ],
+     [
+      2,
+      -3
+     ],
+     [
+      2.1,
+      -3.41
+     ],
+     [
+      2.2,
+      -3.84
+     ],
+     [
+      2.3,
+      -4.29
+     ],
+     [
+      2.4,
+      -4.76
+     ],
+     [
+      2.449,
+      -5
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q5k",
+   "label": "5k",
+   "section": "Problem-solving",
+   "stem": "Match each parabola with its equation.",
+   "type": "choice",
+   "prompt": "Graph K",
+   "answer": 8,
+   "options": [
+    "y = x²",
+    "y = (x + 1)²",
+    "y = x² - 3",
+    "y = -x² - 2",
+    "y = (x - 3)²",
+    "y = x² + 2",
+    "y = 3 - x²",
+    "y = (x + 4)²",
+    "y = (x - 1)²",
+    "y = x² + 4",
+    "y = -(x + 2)²",
+    "y = -x² + 1"
+   ],
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -2,
+     4
+    ],
+    "y": [
+     -1,
+     6
+    ],
+    "path": [
+     [
+      -1.449,
+      6
+     ],
+     [
+      -1.4,
+      5.76
+     ],
+     [
+      -1.3,
+      5.29
+     ],
+     [
+      -1.2,
+      4.84
+     ],
+     [
+      -1.1,
+      4.41
+     ],
+     [
+      -1,
+      4
+     ],
+     [
+      -0.9,
+      3.61
+     ],
+     [
+      -0.8,
+      3.24
+     ],
+     [
+      -0.7,
+      2.89
+     ],
+     [
+      -0.6,
+      2.56
+     ],
+     [
+      -0.5,
+      2.25
+     ],
+     [
+      -0.4,
+      1.96
+     ],
+     [
+      -0.3,
+      1.69
+     ],
+     [
+      -0.2,
+      1.44
+     ],
+     [
+      -0.1,
+      1.21
+     ],
+     [
+      0,
+      1
+     ],
+     [
+      0.1,
+      0.81
+     ],
+     [
+      0.2,
+      0.64
+     ],
+     [
+      0.3,
+      0.49
+     ],
+     [
+      0.4,
+      0.36
+     ],
+     [
+      0.5,
+      0.25
+     ],
+     [
+      0.6,
+      0.16
+     ],
+     [
+      0.7,
+      0.09
+     ],
+     [
+      0.8,
+      0.04
+     ],
+     [
+      0.9,
+      0.01
+     ],
+     [
+      1,
+      0
+     ],
+     [
+      1.1,
+      0.01
+     ],
+     [
+      1.2,
+      0.04
+     ],
+     [
+      1.3,
+      0.09
+     ],
+     [
+      1.4,
+      0.16
+     ],
+     [
+      1.5,
+      0.25
+     ],
+     [
+      1.6,
+      0.36
+     ],
+     [
+      1.7,
+      0.49
+     ],
+     [
+      1.8,
+      0.64
+     ],
+     [
+      1.9,
+      0.81
+     ],
+     [
+      2,
+      1
+     ],
+     [
+      2.1,
+      1.21
+     ],
+     [
+      2.2,
+      1.44
+     ],
+     [
+      2.3,
+      1.69
+     ],
+     [
+      2.4,
+      1.96
+     ],
+     [
+      2.5,
+      2.25
+     ],
+     [
+      2.6,
+      2.56
+     ],
+     [
+      2.7,
+      2.89
+     ],
+     [
+      2.8,
+      3.24
+     ],
+     [
+      2.9,
+      3.61
+     ],
+     [
+      3,
+      4
+     ],
+     [
+      3.1,
+      4.41
+     ],
+     [
+      3.2,
+      4.84
+     ],
+     [
+      3.3,
+      5.29
+     ],
+     [
+      3.4,
+      5.76
+     ],
+     [
+      3.449,
+      6
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q5l",
+   "label": "5l",
+   "section": "Problem-solving",
+   "stem": "Match each parabola with its equation.",
+   "type": "choice",
+   "prompt": "Graph L",
+   "answer": 5,
+   "options": [
+    "y = x²",
+    "y = (x + 1)²",
+    "y = x² - 3",
+    "y = -x² - 2",
+    "y = (x - 3)²",
+    "y = x² + 2",
+    "y = 3 - x²",
+    "y = (x + 4)²",
+    "y = (x - 1)²",
+    "y = x² + 4",
+    "y = -(x + 2)²",
+    "y = -x² + 1"
+   ],
+   "figure": {
+    "kind": "plane",
+    "x": [
+     -3,
+     3
+    ],
+    "y": [
+     -1,
+     8
+    ],
+    "path": [
+     [
+      -2.449,
+      8
+     ],
+     [
+      -2.4,
+      7.76
+     ],
+     [
+      -2.3,
+      7.29
+     ],
+     [
+      -2.2,
+      6.84
+     ],
+     [
+      -2.1,
+      6.41
+     ],
+     [
+      -2,
+      6
+     ],
+     [
+      -1.9,
+      5.61
+     ],
+     [
+      -1.8,
+      5.24
+     ],
+     [
+      -1.7,
+      4.89
+     ],
+     [
+      -1.6,
+      4.56
+     ],
+     [
+      -1.5,
+      4.25
+     ],
+     [
+      -1.4,
+      3.96
+     ],
+     [
+      -1.3,
+      3.69
+     ],
+     [
+      -1.2,
+      3.44
+     ],
+     [
+      -1.1,
+      3.21
+     ],
+     [
+      -1,
+      3
+     ],
+     [
+      -0.9,
+      2.81
+     ],
+     [
+      -0.8,
+      2.64
+     ],
+     [
+      -0.7,
+      2.49
+     ],
+     [
+      -0.6,
+      2.36
+     ],
+     [
+      -0.5,
+      2.25
+     ],
+     [
+      -0.4,
+      2.16
+     ],
+     [
+      -0.3,
+      2.09
+     ],
+     [
+      -0.2,
+      2.04
+     ],
+     [
+      -0.1,
+      2.01
+     ],
+     [
+      0,
+      2
+     ],
+     [
+      0.1,
+      2.01
+     ],
+     [
+      0.2,
+      2.04
+     ],
+     [
+      0.3,
+      2.09
+     ],
+     [
+      0.4,
+      2.16
+     ],
+     [
+      0.5,
+      2.25
+     ],
+     [
+      0.6,
+      2.36
+     ],
+     [
+      0.7,
+      2.49
+     ],
+     [
+      0.8,
+      2.64
+     ],
+     [
+      0.9,
+      2.81
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      1.1,
+      3.21
+     ],
+     [
+      1.2,
+      3.44
+     ],
+     [
+      1.3,
+      3.69
+     ],
+     [
+      1.4,
+      3.96
+     ],
+     [
+      1.5,
+      4.25
+     ],
+     [
+      1.6,
+      4.56
+     ],
+     [
+      1.7,
+      4.89
+     ],
+     [
+      1.8,
+      5.24
+     ],
+     [
+      1.9,
+      5.61
+     ],
+     [
+      2,
+      6
+     ],
+     [
+      2.1,
+      6.41
+     ],
+     [
+      2.2,
+      6.84
+     ],
+     [
+      2.3,
+      7.29
+     ],
+     [
+      2.4,
+      7.76
+     ],
+     [
+      2.449,
+      8
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Problem-solving",
+   "stem": "Write the rule for each graph in turning point form, $y = (x - h)^2 + k$ or $y = -(x - h)^2 + k$.",
+   "type": "expression",
+   "prompt": "Graph a",
+   "answer": "y=(x-2)^2+1",
+   "accept": [
+    "(x-2)^2+1"
+   ],
+   "hint": "Type the rule, for example y = (x - 3)^2 + 2",
+   "figure": {
+    "kind": "diagram",
+    "unit": 26,
+    "items": [
+     {
+      "seg": [
+       -2,
+       0,
+       5,
+       0
+      ],
+      "arrow": "end",
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       -2,
+       0,
+       7
+      ],
+      "arrow": "end",
+      "thin": true
+     },
+     {
+      "label": "x",
+      "at": [
+       5.45,
+       0
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       7.5
+      ]
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.4,
+       -0.5
+      ]
+     },
+     {
+      "poly": [
+       [
+        -0.408,
+        6.8
+       ],
+       [
+        -0.39,
+        6.712
+       ],
+       [
+        -0.303,
+        6.302
+       ],
+       [
+        -0.215,
+        5.906
+       ],
+       [
+        -0.128,
+        5.526
+       ],
+       [
+        -0.04,
+        5.162
+       ],
+       [
+        0.047,
+        4.812
+       ],
+       [
+        0.135,
+        4.478
+       ],
+       [
+        0.222,
+        4.16
+       ],
+       [
+        0.31,
+        3.856
+       ],
+       [
+        0.397,
+        3.568
+       ],
+       [
+        0.485,
+        3.295
+       ],
+       [
+        0.572,
+        3.038
+       ],
+       [
+        0.66,
+        2.796
+       ],
+       [
+        0.747,
+        2.569
+       ],
+       [
+        0.835,
+        2.357
+       ],
+       [
+        0.922,
+        2.161
+       ],
+       [
+        1.01,
+        1.98
+       ],
+       [
+        1.097,
+        1.815
+       ],
+       [
+        1.185,
+        1.664
+       ],
+       [
+        1.272,
+        1.529
+       ],
+       [
+        1.36,
+        1.41
+       ],
+       [
+        1.447,
+        1.305
+       ],
+       [
+        1.535,
+        1.216
+       ],
+       [
+        1.622,
+        1.143
+       ],
+       [
+        1.71,
+        1.084
+       ],
+       [
+        1.797,
+        1.041
+       ],
+       [
+        1.885,
+        1.013
+       ],
+       [
+        1.972,
+        1.001
+       ],
+       [
+        2.06,
+        1.004
+       ],
+       [
+        2.147,
+        1.022
+       ],
+       [
+        2.235,
+        1.055
+       ],
+       [
+        2.322,
+        1.104
+       ],
+       [
+        2.41,
+        1.168
+       ],
+       [
+        2.497,
+        1.248
+       ],
+       [
+        2.585,
+        1.342
+       ],
+       [
+        2.672,
+        1.452
+       ],
+       [
+        2.76,
+        1.578
+       ],
+       [
+        2.847,
+        1.718
+       ],
+       [
+        2.935,
+        1.874
+       ],
+       [
+        3.022,
+        2.046
+       ],
+       [
+        3.11,
+        2.232
+       ],
+       [
+        3.197,
+        2.434
+       ],
+       [
+        3.285,
+        2.651
+       ],
+       [
+        3.372,
+        2.884
+       ],
+       [
+        3.46,
+        3.132
+       ],
+       [
+        3.547,
+        3.395
+       ],
+       [
+        3.635,
+        3.673
+       ],
+       [
+        3.722,
+        3.967
+       ],
+       [
+        3.81,
+        4.276
+       ],
+       [
+        3.897,
+        4.601
+       ],
+       [
+        3.985,
+        4.94
+       ],
+       [
+        4.072,
+        5.295
+       ],
+       [
+        4.16,
+        5.666
+       ],
+       [
+        4.247,
+        6.051
+       ],
+       [
+        4.335,
+        6.452
+       ],
+       [
+        4.408,
+        6.8
+       ]
+      ],
+      "open": true
+     },
+     {
+      "point": [
+       2,
+       1
+      ],
+      "name": "(2, 1)",
+      "pos": "s"
+     },
+     {
+      "point": [
+       0,
+       5
+      ],
+      "name": "5",
+      "pos": "w"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Problem-solving",
+   "stem": "Write the rule for each graph in turning point form, $y = (x - h)^2 + k$ or $y = -(x - h)^2 + k$.",
+   "type": "expression",
+   "prompt": "Graph b",
+   "answer": "y=(x+1)^2+3",
+   "accept": [
+    "(x+1)^2+3"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 26,
+    "items": [
+     {
+      "seg": [
+       -4,
+       0,
+       2,
+       0
+      ],
+      "arrow": "end",
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       -1,
+       0,
+       7
+      ],
+      "arrow": "end",
+      "thin": true
+     },
+     {
+      "label": "x",
+      "at": [
+       2.45,
+       0
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       7.5
+      ]
+     },
+     {
+      "label": "O",
+      "at": [
+       0.35,
+       -0.5
+      ]
+     },
+     {
+      "poly": [
+       [
+        -2.949,
+        6.8
+       ],
+       [
+        -2.92,
+        6.686
+       ],
+       [
+        -2.845,
+        6.404
+       ],
+       [
+        -2.77,
+        6.133
+       ],
+       [
+        -2.695,
+        5.873
+       ],
+       [
+        -2.62,
+        5.624
+       ],
+       [
+        -2.545,
+        5.387
+       ],
+       [
+        -2.47,
+        5.161
+       ],
+       [
+        -2.395,
+        4.946
+       ],
+       [
+        -2.32,
+        4.742
+       ],
+       [
+        -2.245,
+        4.55
+       ],
+       [
+        -2.17,
+        4.369
+       ],
+       [
+        -2.095,
+        4.199
+       ],
+       [
+        -2.02,
+        4.04
+       ],
+       [
+        -1.945,
+        3.893
+       ],
+       [
+        -1.87,
+        3.757
+       ],
+       [
+        -1.795,
+        3.632
+       ],
+       [
+        -1.72,
+        3.518
+       ],
+       [
+        -1.645,
+        3.416
+       ],
+       [
+        -1.57,
+        3.325
+       ],
+       [
+        -1.495,
+        3.245
+       ],
+       [
+        -1.42,
+        3.176
+       ],
+       [
+        -1.345,
+        3.119
+       ],
+       [
+        -1.27,
+        3.073
+       ],
+       [
+        -1.195,
+        3.038
+       ],
+       [
+        -1.12,
+        3.014
+       ],
+       [
+        -1.045,
+        3.002
+       ],
+       [
+        -0.97,
+        3.001
+       ],
+       [
+        -0.895,
+        3.011
+       ],
+       [
+        -0.82,
+        3.032
+       ],
+       [
+        -0.745,
+        3.065
+       ],
+       [
+        -0.67,
+        3.109
+       ],
+       [
+        -0.595,
+        3.164
+       ],
+       [
+        -0.52,
+        3.23
+       ],
+       [
+        -0.445,
+        3.308
+       ],
+       [
+        -0.37,
+        3.397
+       ],
+       [
+        -0.295,
+        3.497
+       ],
+       [
+        -0.22,
+        3.608
+       ],
+       [
+        -0.145,
+        3.731
+       ],
+       [
+        -0.07,
+        3.865
+       ],
+       [
+        0.005,
+        4.01
+       ],
+       [
+        0.08,
+        4.166
+       ],
+       [
+        0.155,
+        4.334
+       ],
+       [
+        0.23,
+        4.513
+       ],
+       [
+        0.305,
+        4.703
+       ],
+       [
+        0.38,
+        4.904
+       ],
+       [
+        0.455,
+        5.117
+       ],
+       [
+        0.53,
+        5.341
+       ],
+       [
+        0.605,
+        5.576
+       ],
+       [
+        0.68,
+        5.822
+       ],
+       [
+        0.755,
+        6.08
+       ],
+       [
+        0.83,
+        6.349
+       ],
+       [
+        0.905,
+        6.629
+       ],
+       [
+        0.949,
+        6.8
+       ]
+      ],
+      "open": true
+     },
+     {
+      "point": [
+       -1,
+       3
+      ],
+      "name": "(-1, 3)",
+      "pos": "s"
+     },
+     {
+      "point": [
+       0,
+       4
+      ],
+      "name": "4",
+      "pos": "e"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Problem-solving",
+   "stem": "Write the rule for each graph in turning point form, $y = (x - h)^2 + k$ or $y = -(x - h)^2 + k$.",
+   "type": "expression",
+   "prompt": "Graph c",
+   "answer": "y=(x+2)^2-1",
+   "accept": [
+    "(x+2)^2-1"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 26,
+    "items": [
+     {
+      "seg": [
+       -5,
+       0,
+       2,
+       0
+      ],
+      "arrow": "end",
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       -3,
+       0,
+       5
+      ],
+      "arrow": "end",
+      "thin": true
+     },
+     {
+      "label": "x",
+      "at": [
+       2.45,
+       0
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       5.5
+      ]
+     },
+     {
+      "label": "O",
+      "at": [
+       0.35,
+       -0.5
+      ]
+     },
+     {
+      "poly": [
+       [
+        -4.408,
+        4.8
+       ],
+       [
+        -4.353,
+        4.534
+       ],
+       [
+        -4.265,
+        4.13
+       ],
+       [
+        -4.178,
+        3.742
+       ],
+       [
+        -4.09,
+        3.368
+       ],
+       [
+        -4.003,
+        3.01
+       ],
+       [
+        -3.915,
+        2.667
+       ],
+       [
+        -3.828,
+        2.34
+       ],
+       [
+        -3.74,
+        2.028
+       ],
+       [
+        -3.652,
+        1.731
+       ],
+       [
+        -3.565,
+        1.449
+       ],
+       [
+        -3.478,
+        1.183
+       ],
+       [
+        -3.39,
+        0.932
+       ],
+       [
+        -3.303,
+        0.697
+       ],
+       [
+        -3.215,
+        0.476
+       ],
+       [
+        -3.128,
+        0.271
+       ],
+       [
+        -3.04,
+        0.082
+       ],
+       [
+        -2.953,
+        -0.093
+       ],
+       [
+        -2.865,
+        -0.252
+       ],
+       [
+        -2.778,
+        -0.395
+       ],
+       [
+        -2.69,
+        -0.524
+       ],
+       [
+        -2.603,
+        -0.637
+       ],
+       [
+        -2.515,
+        -0.735
+       ],
+       [
+        -2.428,
+        -0.817
+       ],
+       [
+        -2.34,
+        -0.884
+       ],
+       [
+        -2.253,
+        -0.936
+       ],
+       [
+        -2.165,
+        -0.973
+       ],
+       [
+        -2.078,
+        -0.994
+       ],
+       [
+        -1.99,
+        -1
+       ],
+       [
+        -1.903,
+        -0.99
+       ],
+       [
+        -1.815,
+        -0.966
+       ],
+       [
+        -1.728,
+        -0.926
+       ],
+       [
+        -1.64,
+        -0.87
+       ],
+       [
+        -1.553,
+        -0.8
+       ],
+       [
+        -1.465,
+        -0.714
+       ],
+       [
+        -1.378,
+        -0.612
+       ],
+       [
+        -1.29,
+        -0.496
+       ],
+       [
+        -1.203,
+        -0.364
+       ],
+       [
+        -1.115,
+        -0.217
+       ],
+       [
+        -1.028,
+        -0.054
+       ],
+       [
+        -0.94,
+        0.124
+       ],
+       [
+        -0.853,
+        0.317
+       ],
+       [
+        -0.765,
+        0.525
+       ],
+       [
+        -0.678,
+        0.749
+       ],
+       [
+        -0.59,
+        0.988
+       ],
+       [
+        -0.503,
+        1.243
+       ],
+       [
+        -0.415,
+        1.512
+       ],
+       [
+        -0.328,
+        1.797
+       ],
+       [
+        -0.24,
+        2.098
+       ],
+       [
+        -0.153,
+        2.413
+       ],
+       [
+        -0.065,
+        2.744
+       ],
+       [
+        0.022,
+        3.091
+       ],
+       [
+        0.11,
+        3.452
+       ],
+       [
+        0.197,
+        3.829
+       ],
+       [
+        0.285,
+        4.221
+       ],
+       [
+        0.372,
+        4.629
+       ],
+       [
+        0.408,
+        4.8
+       ]
+      ],
+      "open": true
+     },
+     {
+      "point": [
+       -2,
+       -1
+      ],
+      "name": "(-2, -1)",
+      "pos": "s"
+     },
+     {
+      "point": [
+       0,
+       3
+      ],
+      "name": "3",
+      "pos": "e"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Problem-solving",
+   "stem": "Write the rule for each graph in turning point form, $y = (x - h)^2 + k$ or $y = -(x - h)^2 + k$.",
+   "type": "expression",
+   "prompt": "Graph d",
+   "answer": "y=-(x-2)^2+3",
+   "accept": [
+    "-(x-2)^2+3"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 26,
+    "items": [
+     {
+      "seg": [
+       -2,
+       0,
+       5,
+       0
+      ],
+      "arrow": "end",
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       -3,
+       0,
+       5
+      ],
+      "arrow": "end",
+      "thin": true
+     },
+     {
+      "label": "x",
+      "at": [
+       5.45,
+       0
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       5.5
+      ]
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.4,
+       -0.5
+      ]
+     },
+     {
+      "poly": [
+       [
+        -0.408,
+        -2.8
+       ],
+       [
+        -0.39,
+        -2.712
+       ],
+       [
+        -0.303,
+        -2.302
+       ],
+       [
+        -0.215,
+        -1.906
+       ],
+       [
+        -0.128,
+        -1.526
+       ],
+       [
+        -0.04,
+        -1.162
+       ],
+       [
+        0.047,
+        -0.812
+       ],
+       [
+        0.135,
+        -0.478
+       ],
+       [
+        0.222,
+        -0.16
+       ],
+       [
+        0.31,
+        0.144
+       ],
+       [
+        0.397,
+        0.432
+       ],
+       [
+        0.485,
+        0.705
+       ],
+       [
+        0.572,
+        0.962
+       ],
+       [
+        0.66,
+        1.204
+       ],
+       [
+        0.747,
+        1.431
+       ],
+       [
+        0.835,
+        1.643
+       ],
+       [
+        0.922,
+        1.839
+       ],
+       [
+        1.01,
+        2.02
+       ],
+       [
+        1.097,
+        2.185
+       ],
+       [
+        1.185,
+        2.336
+       ],
+       [
+        1.272,
+        2.471
+       ],
+       [
+        1.36,
+        2.59
+       ],
+       [
+        1.447,
+        2.695
+       ],
+       [
+        1.535,
+        2.784
+       ],
+       [
+        1.622,
+        2.857
+       ],
+       [
+        1.71,
+        2.916
+       ],
+       [
+        1.797,
+        2.959
+       ],
+       [
+        1.885,
+        2.987
+       ],
+       [
+        1.972,
+        2.999
+       ],
+       [
+        2.06,
+        2.996
+       ],
+       [
+        2.147,
+        2.978
+       ],
+       [
+        2.235,
+        2.945
+       ],
+       [
+        2.322,
+        2.896
+       ],
+       [
+        2.41,
+        2.832
+       ],
+       [
+        2.497,
+        2.752
+       ],
+       [
+        2.585,
+        2.658
+       ],
+       [
+        2.672,
+        2.548
+       ],
+       [
+        2.76,
+        2.422
+       ],
+       [
+        2.847,
+        2.282
+       ],
+       [
+        2.935,
+        2.126
+       ],
+       [
+        3.022,
+        1.954
+       ],
+       [
+        3.11,
+        1.768
+       ],
+       [
+        3.197,
+        1.566
+       ],
+       [
+        3.285,
+        1.349
+       ],
+       [
+        3.372,
+        1.116
+       ],
+       [
+        3.46,
+        0.868
+       ],
+       [
+        3.547,
+        0.605
+       ],
+       [
+        3.635,
+        0.327
+       ],
+       [
+        3.722,
+        0.033
+       ],
+       [
+        3.81,
+        -0.276
+       ],
+       [
+        3.897,
+        -0.601
+       ],
+       [
+        3.985,
+        -0.94
+       ],
+       [
+        4.072,
+        -1.295
+       ],
+       [
+        4.16,
+        -1.666
+       ],
+       [
+        4.247,
+        -2.051
+       ],
+       [
+        4.335,
+        -2.452
+       ],
+       [
+        4.408,
+        -2.8
+       ]
+      ],
+      "open": true
+     },
+     {
+      "point": [
+       2,
+       3
+      ],
+      "name": "(2, 3)",
+      "pos": "n"
+     },
+     {
+      "point": [
+       0,
+       -1
+      ],
+      "name": "-1",
+      "pos": "w"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q6e",
+   "label": "6e",
+   "section": "Problem-solving",
+   "stem": "Write the rule for each graph in turning point form, $y = (x - h)^2 + k$ or $y = -(x - h)^2 + k$.",
+   "type": "expression",
+   "prompt": "Graph e",
+   "answer": "y=-(x-3)^2-1",
+   "accept": [
+    "-(x-3)^2-1"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 26,
+    "items": [
+     {
+      "seg": [
+       -1,
+       0,
+       6,
+       0
+      ],
+      "arrow": "end",
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       -11,
+       0,
+       2
+      ],
+      "arrow": "end",
+      "thin": true
+     },
+     {
+      "label": "x",
+      "at": [
+       6.45,
+       0
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       2.5
+      ]
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.4,
+       -0.5
+      ]
+     },
+     {
+      "poly": [
+       [
+        -0.13,
+        -10.8
+       ],
+       [
+        -0.09,
+        -10.548
+       ],
+       [
+        -0.003,
+        -10.015
+       ],
+       [
+        0.085,
+        -9.497
+       ],
+       [
+        0.172,
+        -8.995
+       ],
+       [
+        0.26,
+        -8.508
+       ],
+       [
+        0.347,
+        -8.036
+       ],
+       [
+        0.435,
+        -7.579
+       ],
+       [
+        0.522,
+        -7.138
+       ],
+       [
+        0.61,
+        -6.712
+       ],
+       [
+        0.697,
+        -6.302
+       ],
+       [
+        0.785,
+        -5.906
+       ],
+       [
+        0.872,
+        -5.526
+       ],
+       [
+        0.96,
+        -5.162
+       ],
+       [
+        1.047,
+        -4.812
+       ],
+       [
+        1.135,
+        -4.478
+       ],
+       [
+        1.222,
+        -4.16
+       ],
+       [
+        1.31,
+        -3.856
+       ],
+       [
+        1.397,
+        -3.568
+       ],
+       [
+        1.485,
+        -3.295
+       ],
+       [
+        1.572,
+        -3.038
+       ],
+       [
+        1.66,
+        -2.796
+       ],
+       [
+        1.747,
+        -2.569
+       ],
+       [
+        1.835,
+        -2.357
+       ],
+       [
+        1.922,
+        -2.161
+       ],
+       [
+        2.01,
+        -1.98
+       ],
+       [
+        2.097,
+        -1.815
+       ],
+       [
+        2.185,
+        -1.664
+       ],
+       [
+        2.272,
+        -1.529
+       ],
+       [
+        2.36,
+        -1.41
+       ],
+       [
+        2.447,
+        -1.305
+       ],
+       [
+        2.535,
+        -1.216
+       ],
+       [
+        2.622,
+        -1.143
+       ],
+       [
+        2.71,
+        -1.084
+       ],
+       [
+        2.797,
+        -1.041
+       ],
+       [
+        2.885,
+        -1.013
+       ],
+       [
+        2.972,
+        -1.001
+       ],
+       [
+        3.06,
+        -1.004
+       ],
+       [
+        3.147,
+        -1.022
+       ],
+       [
+        3.235,
+        -1.055
+       ],
+       [
+        3.322,
+        -1.104
+       ],
+       [
+        3.41,
+        -1.168
+       ],
+       [
+        3.497,
+        -1.248
+       ],
+       [
+        3.585,
+        -1.342
+       ],
+       [
+        3.672,
+        -1.452
+       ],
+       [
+        3.76,
+        -1.578
+       ],
+       [
+        3.847,
+        -1.718
+       ],
+       [
+        3.935,
+        -1.874
+       ],
+       [
+        4.022,
+        -2.046
+       ],
+       [
+        4.11,
+        -2.232
+       ],
+       [
+        4.197,
+        -2.434
+       ],
+       [
+        4.285,
+        -2.651
+       ],
+       [
+        4.372,
+        -2.884
+       ],
+       [
+        4.46,
+        -3.132
+       ],
+       [
+        4.547,
+        -3.395
+       ],
+       [
+        4.635,
+        -3.673
+       ],
+       [
+        4.722,
+        -3.967
+       ],
+       [
+        4.81,
+        -4.276
+       ],
+       [
+        4.897,
+        -4.601
+       ],
+       [
+        4.985,
+        -4.94
+       ],
+       [
+        5.072,
+        -5.295
+       ],
+       [
+        5.16,
+        -5.666
+       ],
+       [
+        5.247,
+        -6.051
+       ],
+       [
+        5.335,
+        -6.452
+       ],
+       [
+        5.422,
+        -6.869
+       ],
+       [
+        5.51,
+        -7.3
+       ],
+       [
+        5.597,
+        -7.747
+       ],
+       [
+        5.685,
+        -8.209
+       ],
+       [
+        5.772,
+        -8.687
+       ]
+      ],
+      "open": true
+     },
+     {
+      "point": [
+       3,
+       -1
+      ],
+      "name": "(3, -1)",
+      "pos": "n"
+     },
+     {
+      "point": [
+       0,
+       -10
+      ],
+      "name": "-10",
+      "pos": "w"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q6f",
+   "label": "6f",
+   "section": "Problem-solving",
+   "stem": "Write the rule for each graph in turning point form, $y = (x - h)^2 + k$ or $y = -(x - h)^2 + k$.",
+   "type": "expression",
+   "prompt": "Graph f",
+   "answer": "y=-(x+3)^2+9",
+   "accept": [
+    "-(x+3)^2+9"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 26,
+    "items": [
+     {
+      "seg": [
+       -7,
+       0,
+       2,
+       0
+      ],
+      "arrow": "end",
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       -2,
+       0,
+       11
+      ],
+      "arrow": "end",
+      "thin": true
+     },
+     {
+      "label": "x",
+      "at": [
+       2.45,
+       0
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       11.5
+      ]
+     },
+     {
+      "label": "O",
+      "at": [
+       0.35,
+       -0.5
+      ]
+     },
+     {
+      "poly": [
+       [
+        -6.286,
+        -1.8
+       ],
+       [
+        -6.28,
+        -1.758
+       ],
+       [
+        -6.168,
+        -1.033
+       ],
+       [
+        -6.055,
+        -0.333
+       ],
+       [
+        -5.943,
+        0.342
+       ],
+       [
+        -5.83,
+        0.991
+       ],
+       [
+        -5.718,
+        1.615
+       ],
+       [
+        -5.605,
+        2.214
+       ],
+       [
+        -5.493,
+        2.787
+       ],
+       [
+        -5.38,
+        3.336
+       ],
+       [
+        -5.268,
+        3.858
+       ],
+       [
+        -5.155,
+        4.356
+       ],
+       [
+        -5.043,
+        4.828
+       ],
+       [
+        -4.93,
+        5.275
+       ],
+       [
+        -4.818,
+        5.697
+       ],
+       [
+        -4.705,
+        6.093
+       ],
+       [
+        -4.593,
+        6.464
+       ],
+       [
+        -4.48,
+        6.81
+       ],
+       [
+        -4.367,
+        7.13
+       ],
+       [
+        -4.255,
+        7.425
+       ],
+       [
+        -4.143,
+        7.695
+       ],
+       [
+        -4.03,
+        7.939
+       ],
+       [
+        -3.918,
+        8.158
+       ],
+       [
+        -3.805,
+        8.352
+       ],
+       [
+        -3.693,
+        8.52
+       ],
+       [
+        -3.58,
+        8.664
+       ],
+       [
+        -3.468,
+        8.781
+       ],
+       [
+        -3.355,
+        8.874
+       ],
+       [
+        -3.243,
+        8.941
+       ],
+       [
+        -3.13,
+        8.983
+       ],
+       [
+        -3.018,
+        9
+       ],
+       [
+        -2.905,
+        8.991
+       ],
+       [
+        -2.793,
+        8.957
+       ],
+       [
+        -2.68,
+        8.898
+       ],
+       [
+        -2.567,
+        8.813
+       ],
+       [
+        -2.455,
+        8.703
+       ],
+       [
+        -2.343,
+        8.568
+       ],
+       [
+        -2.23,
+        8.407
+       ],
+       [
+        -2.118,
+        8.221
+       ],
+       [
+        -2.005,
+        8.01
+       ],
+       [
+        -1.893,
+        7.773
+       ],
+       [
+        -1.78,
+        7.512
+       ],
+       [
+        -1.668,
+        7.224
+       ],
+       [
+        -1.555,
+        6.912
+       ],
+       [
+        -1.442,
+        6.574
+       ],
+       [
+        -1.33,
+        6.211
+       ],
+       [
+        -1.218,
+        5.823
+       ],
+       [
+        -1.105,
+        5.409
+       ],
+       [
+        -0.993,
+        4.97
+       ],
+       [
+        -0.88,
+        4.506
+       ],
+       [
+        -0.768,
+        4.016
+       ],
+       [
+        -0.655,
+        3.501
+       ],
+       [
+        -0.543,
+        2.961
+       ],
+       [
+        -0.43,
+        2.395
+       ],
+       [
+        -0.317,
+        1.804
+       ],
+       [
+        -0.205,
+        1.188
+       ],
+       [
+        -0.093,
+        0.546
+       ],
+       [
+        0.02,
+        -0.12
+       ],
+       [
+        0.132,
+        -0.813
+       ],
+       [
+        0.245,
+        -1.53
+       ],
+       [
+        0.286,
+        -1.8
+       ]
+      ],
+      "open": true
+     },
+     {
+      "point": [
+       -3,
+       9
+      ],
+      "name": "(-3, 9)",
+      "pos": "n"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Problem-solving",
+   "stem": "A bike track is modelled by two quadratics. The first part is $y = -(x - 1)^2 + 4$ for $-2 \\le x \\le 3$, and the second part is $y = (x - 5)^2 - 4$ for $3 \\le x \\le 8$.",
+   "type": "point",
+   "prompt": "Find the turning point of the first part.",
+   "answer": "(1,4)",
+   "hint": "Type a point as (x, y), for example (2, -3)"
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Problem-solving",
+   "stem": "A bike track is modelled by two quadratics. The first part is $y = -(x - 1)^2 + 4$ for $-2 \\le x \\le 3$, and the second part is $y = (x - 5)^2 - 4$ for $3 \\le x \\le 8$.",
+   "type": "point",
+   "prompt": "Find the turning point of the second part.",
+   "answer": "(5,-4)"
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Problem-solving",
+   "stem": "A bike track is modelled by two quadratics. The first part is $y = -(x - 1)^2 + 4$ for $-2 \\le x \\le 3$, and the second part is $y = (x - 5)^2 - 4$ for $3 \\le x \\le 8$.",
+   "type": "point",
+   "prompt": "Find the coordinates of the start of the track (where $x = -2$).",
+   "answer": "(-2,-5)"
+  },
+  {
+   "id": "q7d",
+   "label": "7d",
+   "section": "Problem-solving",
+   "stem": "A bike track is modelled by two quadratics. The first part is $y = -(x - 1)^2 + 4$ for $-2 \\le x \\le 3$, and the second part is $y = (x - 5)^2 - 4$ for $3 \\le x \\le 8$.",
+   "type": "point",
+   "prompt": "Find the coordinates of the finish of the track (where $x = 8$).",
+   "answer": "(8,5)"
+  },
+  {
+   "id": "q7e",
+   "label": "7e",
+   "section": "Problem-solving",
+   "stem": "A bike track is modelled by two quadratics. The first part is $y = -(x - 1)^2 + 4$ for $-2 \\le x \\le 3$, and the second part is $y = (x - 5)^2 - 4$ for $3 \\le x \\le 8$.",
+   "type": "list",
+   "prompt": "Find all the $x$-values where the track crosses the $x$-axis.",
+   "answer": [
+    "-1",
+    "3",
+    "7"
+   ],
+   "hint": "Type the x-values separated by commas"
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Reasoning",
+   "stem": "For example, $y = 4 - (x + 2)^2$ can be rearranged to $y = -(x + 2)^2 + 4$, which is the form $y = a(x - h)^2 + k$ with $a = -1$, $h = -2$ and $k = 4$.",
+   "type": "ordered",
+   "prompt": "Write $y = 5 - (x + 2)^2$ in the form $y = a(x - h)^2 + k$ and give the values of $a$, $h$ and $k$, in that order.",
+   "answer": [
+    "-1",
+    "-2",
+    "5"
+   ],
+   "hint": "Type the three numbers in order, for example -1, -2, 4"
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Reasoning",
+   "stem": "For example, $y = 4 - (x + 2)^2$ can be rearranged to $y = -(x + 2)^2 + 4$, which is the form $y = a(x - h)^2 + k$ with $a = -1$, $h = -2$ and $k = 4$.",
+   "type": "ordered",
+   "prompt": "Write $y = 2 + (x + 4)^2$ in the form $y = a(x - h)^2 + k$ and give the values of $a$, $h$ and $k$, in that order.",
+   "answer": [
+    "1",
+    "-4",
+    "2"
+   ]
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Reasoning",
+   "stem": "For example, $y = 4 - (x + 2)^2$ can be rearranged to $y = -(x + 2)^2 + 4$, which is the form $y = a(x - h)^2 + k$ with $a = -1$, $h = -2$ and $k = 4$.",
+   "type": "ordered",
+   "prompt": "Write $y = -1 + (x - 3)^2$ in the form $y = a(x - h)^2 + k$ and give the values of $a$, $h$ and $k$, in that order.",
+   "answer": [
+    "1",
+    "3",
+    "-1"
+   ]
+  },
+  {
+   "id": "q8d",
+   "label": "8d",
+   "section": "Reasoning",
+   "stem": "For example, $y = 4 - (x + 2)^2$ can be rearranged to $y = -(x + 2)^2 + 4$, which is the form $y = a(x - h)^2 + k$ with $a = -1$, $h = -2$ and $k = 4$.",
+   "type": "ordered",
+   "prompt": "Write $y = -4 - (x - 6)^2$ in the form $y = a(x - h)^2 + k$ and give the values of $a$, $h$ and $k$, in that order.",
+   "answer": [
+    "-1",
+    "6",
+    "-4"
+   ]
+  },
+  {
+   "id": "q8e",
+   "label": "8e",
+   "section": "Reasoning",
+   "stem": "For example, $y = 4 - (x + 2)^2$ can be rearranged to $y = -(x + 2)^2 + 4$, which is the form $y = a(x - h)^2 + k$ with $a = -1$, $h = -2$ and $k = 4$.",
+   "type": "ordered",
+   "prompt": "Write $y = -3 - x^2$ in the form $y = a(x - h)^2 + k$ and give the values of $a$, $h$ and $k$, in that order.",
+   "answer": [
+    "-1",
+    "0",
+    "-3"
+   ]
+  },
+  {
+   "id": "q8f",
+   "label": "8f",
+   "section": "Reasoning",
+   "stem": "For example, $y = 4 - (x + 2)^2$ can be rearranged to $y = -(x + 2)^2 + 4$, which is the form $y = a(x - h)^2 + k$ with $a = -1$, $h = -2$ and $k = 4$.",
+   "type": "ordered",
+   "prompt": "Write $y = -5 + x^2$ in the form $y = a(x - h)^2 + k$ and give the values of $a$, $h$ and $k$, in that order.",
+   "answer": [
+    "1",
+    "0",
+    "-5"
+   ]
+  },
+  {
+   "id": "q8g",
+   "label": "8g",
+   "section": "Reasoning",
+   "stem": "For example, $y = 4 - (x + 2)^2$ can be rearranged to $y = -(x + 2)^2 + 4$, which is the form $y = a(x - h)^2 + k$ with $a = -1$, $h = -2$ and $k = 4$.",
+   "type": "point",
+   "prompt": "Write the coordinates of the turning point of $y = 5 - (x + 2)^2$.",
+   "answer": "(-2,5)"
+  },
+  {
+   "id": "q8h",
+   "label": "8h",
+   "section": "Reasoning",
+   "stem": "For example, $y = 4 - (x + 2)^2$ can be rearranged to $y = -(x + 2)^2 + 4$, which is the form $y = a(x - h)^2 + k$ with $a = -1$, $h = -2$ and $k = 4$.",
+   "type": "point",
+   "prompt": "Write the coordinates of the turning point of $y = 2 + (x + 4)^2$.",
+   "answer": "(-4,2)"
+  },
+  {
+   "id": "q8i",
+   "label": "8i",
+   "section": "Reasoning",
+   "stem": "For example, $y = 4 - (x + 2)^2$ can be rearranged to $y = -(x + 2)^2 + 4$, which is the form $y = a(x - h)^2 + k$ with $a = -1$, $h = -2$ and $k = 4$.",
+   "type": "point",
+   "prompt": "Write the coordinates of the turning point of $y = -1 + (x - 3)^2$.",
+   "answer": "(3,-1)"
+  },
+  {
+   "id": "q8j",
+   "label": "8j",
+   "section": "Reasoning",
+   "stem": "For example, $y = 4 - (x + 2)^2$ can be rearranged to $y = -(x + 2)^2 + 4$, which is the form $y = a(x - h)^2 + k$ with $a = -1$, $h = -2$ and $k = 4$.",
+   "type": "point",
+   "prompt": "Write the coordinates of the turning point of $y = -4 - (x - 6)^2$.",
+   "answer": "(6,-4)"
+  },
+  {
+   "id": "q8k",
+   "label": "8k",
+   "section": "Reasoning",
+   "stem": "For example, $y = 4 - (x + 2)^2$ can be rearranged to $y = -(x + 2)^2 + 4$, which is the form $y = a(x - h)^2 + k$ with $a = -1$, $h = -2$ and $k = 4$.",
+   "type": "point",
+   "prompt": "Write the coordinates of the turning point of $y = -3 - x^2$.",
+   "answer": "(0,-3)"
+  },
+  {
+   "id": "q8l",
+   "label": "8l",
+   "section": "Reasoning",
+   "stem": "For example, $y = 4 - (x + 2)^2$ can be rearranged to $y = -(x + 2)^2 + 4$, which is the form $y = a(x - h)^2 + k$ with $a = -1$, $h = -2$ and $k = 4$.",
+   "type": "point",
+   "prompt": "Write the coordinates of the turning point of $y = -5 + x^2$.",
+   "answer": "(0,-5)"
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Reasoning",
+   "stem": "A quadratic has the rule $y = a(x - h)^2 + k$.",
+   "type": "point",
+   "prompt": "What are the coordinates of the turning point?",
+   "answer": "(h,k)",
+   "hint": "Type the point using letters, for example (a, k)"
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Reasoning",
+   "stem": "A quadratic has the rule $y = a(x - h)^2 + k$.",
+   "type": "expression",
+   "prompt": "Write an expression for the $y$-coordinate of the $y$-intercept.",
+   "answer": "ah^2+k",
+   "hint": "Type it using a, h and k, for example a^2 + h"
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Reasoning",
+   "stem": "How does the graph of the first rule compare with the graph of the second?",
+   "type": "choice",
+   "prompt": "$y = (3 - x)^2$ and $y = (x - 3)^2$",
+   "answer": 0,
+   "options": [
+    "They are the same graph",
+    "One is the reflection of the other in the x-axis",
+    "One is translated 6 units from the other",
+    "One is the reflection of the other in the y-axis"
+   ]
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Reasoning",
+   "stem": "How does the graph of the first rule compare with the graph of the second?",
+   "type": "choice",
+   "prompt": "$y = (4 - x)^2$ and $y = (x - 4)^2$",
+   "answer": 0,
+   "options": [
+    "They are the same graph",
+    "One is the reflection of the other in the x-axis",
+    "One is translated 6 units from the other",
+    "One is the reflection of the other in the y-axis"
+   ]
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Enrichment",
+   "stem": "Find the rule of the quadratic of the form $y = x^2 + c$ that passes through each point.",
+   "type": "expression",
+   "prompt": "$(1, 6)$",
+   "answer": "y=x^2+5",
+   "accept": [
+    "x^2+5"
+   ],
+   "hint": "Type the rule, for example y = x^2 - 2"
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Enrichment",
+   "stem": "Find the rule of the quadratic of the form $y = x^2 + c$ that passes through each point.",
+   "type": "expression",
+   "prompt": "$(2, 7)$",
+   "answer": "y=x^2+3",
+   "accept": [
+    "x^2+3"
+   ]
+  },
+  {
+   "id": "q11c",
+   "label": "11c",
+   "section": "Enrichment",
+   "stem": "Find the rule of the quadratic of the form $y = x^2 + c$ that passes through each point.",
+   "type": "expression",
+   "prompt": "$(3, 4)$",
+   "answer": "y=x^2-5",
+   "accept": [
+    "x^2-5"
+   ]
+  },
+  {
+   "id": "q11d",
+   "label": "11d",
+   "section": "Enrichment",
+   "stem": "Find the rule of the quadratic of the form $y = x^2 + c$ that passes through each point.",
+   "type": "expression",
+   "prompt": "$(2, -3)$",
+   "answer": "y=x^2-7",
+   "accept": [
+    "x^2-7"
+   ]
+  },
+  {
+   "id": "q12a",
+   "label": "12a",
+   "section": "Enrichment",
+   "stem": "Find the rule of the quadratic of the form $y = -x^2 + c$ that passes through each point.",
+   "type": "expression",
+   "prompt": "$(1, 4)$",
+   "answer": "y=-x^2+5",
+   "accept": [
+    "-x^2+5"
+   ]
+  },
+  {
+   "id": "q12b",
+   "label": "12b",
+   "section": "Enrichment",
+   "stem": "Find the rule of the quadratic of the form $y = -x^2 + c$ that passes through each point.",
+   "type": "expression",
+   "prompt": "$(-1, 2)$",
+   "answer": "y=-x^2+3",
+   "accept": [
+    "-x^2+3"
+   ]
+  },
+  {
+   "id": "q12c",
+   "label": "12c",
+   "section": "Enrichment",
+   "stem": "Find the rule of the quadratic of the form $y = -x^2 + c$ that passes through each point.",
+   "type": "expression",
+   "prompt": "$(3, 12)$",
+   "answer": "y=-x^2+21",
+   "accept": [
+    "-x^2+21"
+   ]
+  },
+  {
+   "id": "q12d",
+   "label": "12d",
+   "section": "Enrichment",
+   "stem": "Find the rule of the quadratic of the form $y = -x^2 + c$ that passes through each point.",
+   "type": "expression",
+   "prompt": "$(-2, 5)$",
+   "answer": "y=-x^2+9",
+   "accept": [
+    "-x^2+9"
+   ]
+  },
+  {
+   "id": "q13a",
+   "label": "13a",
+   "section": "Enrichment",
+   "stem": "A quadratic has a rule of the form $y = (x - h)^2$. Find both possible rules if its graph passes through each point.",
+   "type": "list",
+   "prompt": "$(1, 9)$",
+   "answer": [
+    "(x+2)^2",
+    "(x-4)^2"
+   ],
+   "hint": "Type both rules separated by 'or', for example y = (x - 1)^2 or y = (x + 5)^2"
+  },
+  {
+   "id": "q13b",
+   "label": "13b",
+   "section": "Enrichment",
+   "stem": "A quadratic has a rule of the form $y = (x - h)^2$. Find both possible rules if its graph passes through each point.",
+   "type": "list",
+   "prompt": "$(4, 1)$",
+   "answer": [
+    "(x-3)^2",
+    "(x-5)^2"
+   ]
+  },
+  {
+   "id": "q13c",
+   "label": "13c",
+   "section": "Enrichment",
+   "stem": "A quadratic has a rule of the form $y = (x - h)^2$. Find both possible rules if its graph passes through each point.",
+   "type": "list",
+   "prompt": "$(-2, 16)$",
+   "answer": [
+    "(x+6)^2",
+    "(x-2)^2"
+   ]
+  },
+  {
+   "id": "q13d",
+   "label": "13d",
+   "section": "Enrichment",
+   "stem": "A quadratic has a rule of the form $y = (x - h)^2$. Find both possible rules if its graph passes through each point.",
+   "type": "list",
+   "prompt": "$(2, 4)$",
+   "answer": [
+    "x^2",
+    "(x-4)^2"
+   ]
+  },
+  {
+   "id": "q14a",
+   "label": "14a",
+   "section": "Enrichment",
+   "stem": "Find the rule for each parabola from its turning point (TP) and $y$-intercept. Each rule has the form $y = (x - h)^2 + k$ or $y = -(x - h)^2 + k$.",
+   "type": "expression",
+   "prompt": "TP $= (2, 4)$, $y$-intercept $= (0, 0)$",
+   "answer": "y=-(x-2)^2+4",
+   "accept": [
+    "-(x-2)^2+4"
+   ],
+   "hint": "Type the rule, for example y = -(x + 1)^2 + 3"
+  },
+  {
+   "id": "q14b",
+   "label": "14b",
+   "section": "Enrichment",
+   "stem": "Find the rule for each parabola from its turning point (TP) and $y$-intercept. Each rule has the form $y = (x - h)^2 + k$ or $y = -(x - h)^2 + k$.",
+   "type": "expression",
+   "prompt": "TP $= (-3, 0)$, $y$-intercept $= (0, 9)$",
+   "answer": "y=(x+3)^2",
+   "accept": [
+    "(x+3)^2"
+   ]
+  },
+  {
+   "id": "q14c",
+   "label": "14c",
+   "section": "Enrichment",
+   "stem": "Find the rule for each parabola from its turning point (TP) and $y$-intercept. Each rule has the form $y = (x - h)^2 + k$ or $y = -(x - h)^2 + k$.",
+   "type": "expression",
+   "prompt": "TP $= (2, 0)$, $y$-intercept $= (0, -4)$",
+   "answer": "y=-(x-2)^2",
+   "accept": [
+    "-(x-2)^2"
+   ]
+  },
+  {
+   "id": "q14d",
+   "label": "14d",
+   "section": "Enrichment",
+   "stem": "Find the rule for each parabola from its turning point (TP) and $y$-intercept. Each rule has the form $y = (x - h)^2 + k$ or $y = -(x - h)^2 + k$.",
+   "type": "expression",
+   "prompt": "TP $= (-2, 3)$, $y$-intercept $= (0, -1)$",
+   "answer": "y=-(x+2)^2+3",
+   "accept": [
+    "-(x+2)^2+3"
+   ]
+  },
+  {
+   "id": "q14e",
+   "label": "14e",
+   "section": "Enrichment",
+   "stem": "Find the rule for each parabola from its turning point (TP) and $y$-intercept. Each rule has the form $y = (x - h)^2 + k$ or $y = -(x - h)^2 + k$.",
+   "type": "expression",
+   "prompt": "TP $= (-1, 2)$, $y$-intercept $= (0, 3)$",
+   "answer": "y=(x+1)^2+2",
+   "accept": [
+    "(x+1)^2+2"
+   ]
+  },
+  {
+   "id": "q14f",
+   "label": "14f",
+   "section": "Enrichment",
+   "stem": "Find the rule for each parabola from its turning point (TP) and $y$-intercept. Each rule has the form $y = (x - h)^2 + k$ or $y = -(x - h)^2 + k$.",
+   "type": "expression",
+   "prompt": "TP $= (2, -4)$, $y$-intercept $= (0, 0)$",
+   "answer": "y=(x-2)^2-4",
+   "accept": [
+    "(x-2)^2-4"
+   ]
+  }
+ ]
+},
+{
+ "id": "y9-10h",
+ "year": 9,
+ "chapter": "Chapter 10: Introduction to quadratic equations and graphs",
+ "title": "10H Sketching parabolas using intercept form",
+ "description": "Use the factorised (intercept) form of a quadratic to find its intercepts, axis of symmetry and turning point.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "For each quadratic relation, find the $x$-intercepts and the $y$-intercept.",
+   "type": "list",
+   "prompt": "$y = x(x + 5)$: the $x$-coordinates of the $x$-intercepts",
+   "answer": [
+    "-5",
+    "0"
+   ],
+   "hint": "Type the x-values separated by commas, for example -1, 3"
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "For each quadratic relation, find the $x$-intercepts and the $y$-intercept.",
+   "type": "point",
+   "prompt": "$y = x(x + 5)$: the coordinates of the $y$-intercept",
+   "answer": "(0,0)",
+   "hint": "Type a point as (x, y), for example (2, -3)"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "For each quadratic relation, find the $x$-intercepts and the $y$-intercept.",
+   "type": "list",
+   "prompt": "$y = x(x + 2)$: the $x$-coordinates of the $x$-intercepts",
+   "answer": [
+    "-2",
+    "0"
+   ]
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "For each quadratic relation, find the $x$-intercepts and the $y$-intercept.",
+   "type": "point",
+   "prompt": "$y = x(x + 2)$: the coordinates of the $y$-intercept",
+   "answer": "(0,0)"
+  },
+  {
+   "id": "q1e",
+   "label": "1e",
+   "section": "Fluency",
+   "stem": "For each quadratic relation, find the $x$-intercepts and the $y$-intercept.",
+   "type": "list",
+   "prompt": "$y = x(x - 6)$: the $x$-coordinates of the $x$-intercepts",
+   "answer": [
+    "0",
+    "6"
+   ]
+  },
+  {
+   "id": "q1f",
+   "label": "1f",
+   "section": "Fluency",
+   "stem": "For each quadratic relation, find the $x$-intercepts and the $y$-intercept.",
+   "type": "point",
+   "prompt": "$y = x(x - 6)$: the coordinates of the $y$-intercept",
+   "answer": "(0,0)"
+  },
+  {
+   "id": "q1g",
+   "label": "1g",
+   "section": "Fluency",
+   "stem": "For each quadratic relation, find the $x$-intercepts and the $y$-intercept.",
+   "type": "list",
+   "prompt": "$y = (x - 3)(x + 5)$: the $x$-coordinates of the $x$-intercepts",
+   "answer": [
+    "-5",
+    "3"
+   ]
+  },
+  {
+   "id": "q1h",
+   "label": "1h",
+   "section": "Fluency",
+   "stem": "For each quadratic relation, find the $x$-intercepts and the $y$-intercept.",
+   "type": "point",
+   "prompt": "$y = (x - 3)(x + 5)$: the coordinates of the $y$-intercept",
+   "answer": "(0,-15)"
+  },
+  {
+   "id": "q1i",
+   "label": "1i",
+   "section": "Fluency",
+   "stem": "For each quadratic relation, find the $x$-intercepts and the $y$-intercept.",
+   "type": "list",
+   "prompt": "$y = (x + 4)(x - 2)$: the $x$-coordinates of the $x$-intercepts",
+   "answer": [
+    "-4",
+    "2"
+   ]
+  },
+  {
+   "id": "q1j",
+   "label": "1j",
+   "section": "Fluency",
+   "stem": "For each quadratic relation, find the $x$-intercepts and the $y$-intercept.",
+   "type": "point",
+   "prompt": "$y = (x + 4)(x - 2)$: the coordinates of the $y$-intercept",
+   "answer": "(0,-8)"
+  },
+  {
+   "id": "q1k",
+   "label": "1k",
+   "section": "Fluency",
+   "stem": "For each quadratic relation, find the $x$-intercepts and the $y$-intercept.",
+   "type": "list",
+   "prompt": "$y = (x - 6)(x + 1)$: the $x$-coordinates of the $x$-intercepts",
+   "answer": [
+    "-1",
+    "6"
+   ]
+  },
+  {
+   "id": "q1l",
+   "label": "1l",
+   "section": "Fluency",
+   "stem": "For each quadratic relation, find the $x$-intercepts and the $y$-intercept.",
+   "type": "point",
+   "prompt": "$y = (x - 6)(x + 1)$: the coordinates of the $y$-intercept",
+   "answer": "(0,-6)"
+  },
+  {
+   "id": "q1m",
+   "label": "1m",
+   "section": "Fluency",
+   "stem": "For each quadratic relation, find the $x$-intercepts and the $y$-intercept.",
+   "type": "list",
+   "prompt": "$y = 2(x + 2)(x - 3)$: the $x$-coordinates of the $x$-intercepts",
+   "answer": [
+    "-2",
+    "3"
+   ]
+  },
+  {
+   "id": "q1n",
+   "label": "1n",
+   "section": "Fluency",
+   "stem": "For each quadratic relation, find the $x$-intercepts and the $y$-intercept.",
+   "type": "point",
+   "prompt": "$y = 2(x + 2)(x - 3)$: the coordinates of the $y$-intercept",
+   "answer": "(0,-12)"
+  },
+  {
+   "id": "q1o",
+   "label": "1o",
+   "section": "Fluency",
+   "stem": "For each quadratic relation, find the $x$-intercepts and the $y$-intercept.",
+   "type": "list",
+   "prompt": "$y = 3(x + 5)(x + 1)$: the $x$-coordinates of the $x$-intercepts",
+   "answer": [
+    "-5",
+    "-1"
+   ]
+  },
+  {
+   "id": "q1p",
+   "label": "1p",
+   "section": "Fluency",
+   "stem": "For each quadratic relation, find the $x$-intercepts and the $y$-intercept.",
+   "type": "point",
+   "prompt": "$y = 3(x + 5)(x + 1)$: the coordinates of the $y$-intercept",
+   "answer": "(0,15)"
+  },
+  {
+   "id": "q1q",
+   "label": "1q",
+   "section": "Fluency",
+   "stem": "For each quadratic relation, find the $x$-intercepts and the $y$-intercept.",
+   "type": "list",
+   "prompt": "$y = (4 - x)(1 - x)$: the $x$-coordinates of the $x$-intercepts",
+   "answer": [
+    "1",
+    "4"
+   ]
+  },
+  {
+   "id": "q1r",
+   "label": "1r",
+   "section": "Fluency",
+   "stem": "For each quadratic relation, find the $x$-intercepts and the $y$-intercept.",
+   "type": "point",
+   "prompt": "$y = (4 - x)(1 - x)$: the coordinates of the $y$-intercept",
+   "answer": "(0,4)"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Consider the quadratic relation $y = x^2 - 6x$.",
+   "type": "expression",
+   "prompt": "Factorise the relation (type the right-hand side).",
+   "answer": "x(x-6)",
+   "form": "factorised",
+   "hint": "Type the factorised form, for example x(x - 3) or (x + 1)(x - 4)"
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Consider the quadratic relation $y = x^2 - 6x$.",
+   "type": "list",
+   "prompt": "Find the $x$-coordinates of the $x$-intercepts.",
+   "answer": [
+    "0",
+    "6"
+   ],
+   "hint": "Type the x-values separated by commas, for example -1, 3. If there is only one, type just that one."
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Consider the quadratic relation $y = x^2 - 6x$.",
+   "type": "expression",
+   "prompt": "Find the equation of the axis of symmetry.",
+   "answer": "x=3",
+   "hint": "Type the equation of the line, for example x = 2"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Consider the quadratic relation $y = x^2 - 6x$.",
+   "type": "point",
+   "prompt": "Find the coordinates of the turning point.",
+   "answer": "(3,-9)"
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Consider the quadratic relation $y = x^2 + 4x$.",
+   "type": "expression",
+   "prompt": "Factorise the relation (type the right-hand side).",
+   "answer": "x(x+4)",
+   "form": "factorised"
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "Consider the quadratic relation $y = x^2 + 4x$.",
+   "type": "list",
+   "prompt": "Find the $x$-coordinates of the $x$-intercepts.",
+   "answer": [
+    "-4",
+    "0"
+   ]
+  },
+  {
+   "id": "q2g",
+   "label": "2g",
+   "section": "Fluency",
+   "stem": "Consider the quadratic relation $y = x^2 + 4x$.",
+   "type": "expression",
+   "prompt": "Find the equation of the axis of symmetry.",
+   "answer": "x=-2"
+  },
+  {
+   "id": "q2h",
+   "label": "2h",
+   "section": "Fluency",
+   "stem": "Consider the quadratic relation $y = x^2 + 4x$.",
+   "type": "point",
+   "prompt": "Find the coordinates of the turning point.",
+   "answer": "(-2,-4)"
+  },
+  {
+   "id": "q2i",
+   "label": "2i",
+   "section": "Fluency",
+   "stem": "Consider the quadratic relation $y = x^2 - x$.",
+   "type": "expression",
+   "prompt": "Factorise the relation (type the right-hand side).",
+   "answer": "x(x-1)",
+   "form": "factorised"
+  },
+  {
+   "id": "q2j",
+   "label": "2j",
+   "section": "Fluency",
+   "stem": "Consider the quadratic relation $y = x^2 - x$.",
+   "type": "list",
+   "prompt": "Find the $x$-coordinates of the $x$-intercepts.",
+   "answer": [
+    "0",
+    "1"
+   ]
+  },
+  {
+   "id": "q2k",
+   "label": "2k",
+   "section": "Fluency",
+   "stem": "Consider the quadratic relation $y = x^2 - x$.",
+   "type": "expression",
+   "prompt": "Find the equation of the axis of symmetry.",
+   "answer": "x=0.5"
+  },
+  {
+   "id": "q2l",
+   "label": "2l",
+   "section": "Fluency",
+   "stem": "Consider the quadratic relation $y = x^2 - x$.",
+   "type": "point",
+   "prompt": "Find the coordinates of the turning point.",
+   "answer": "(0.5,-0.25)",
+   "hint": "Type a point as (x, y). Decimals or fractions are fine."
+  },
+  {
+   "id": "q2m",
+   "label": "2m",
+   "section": "Fluency",
+   "stem": "Consider the quadratic relation $y = 8x + x^2$.",
+   "type": "expression",
+   "prompt": "Factorise the relation (type the right-hand side).",
+   "answer": "x(x+8)",
+   "form": "factorised"
+  },
+  {
+   "id": "q2n",
+   "label": "2n",
+   "section": "Fluency",
+   "stem": "Consider the quadratic relation $y = 8x + x^2$.",
+   "type": "list",
+   "prompt": "Find the $x$-coordinates of the $x$-intercepts.",
+   "answer": [
+    "-8",
+    "0"
+   ]
+  },
+  {
+   "id": "q2o",
+   "label": "2o",
+   "section": "Fluency",
+   "stem": "Consider the quadratic relation $y = 8x + x^2$.",
+   "type": "expression",
+   "prompt": "Find the equation of the axis of symmetry.",
+   "answer": "x=-4"
+  },
+  {
+   "id": "q2p",
+   "label": "2p",
+   "section": "Fluency",
+   "stem": "Consider the quadratic relation $y = 8x + x^2$.",
+   "type": "point",
+   "prompt": "Find the coordinates of the turning point.",
+   "answer": "(-4,-16)"
+  },
+  {
+   "id": "q2q",
+   "label": "2q",
+   "section": "Fluency",
+   "stem": "Consider the quadratic relation $y = 4x - x^2$.",
+   "type": "expression",
+   "prompt": "Factorise the relation (type the right-hand side).",
+   "answer": "x(4-x)",
+   "form": "factorised"
+  },
+  {
+   "id": "q2r",
+   "label": "2r",
+   "section": "Fluency",
+   "stem": "Consider the quadratic relation $y = 4x - x^2$.",
+   "type": "list",
+   "prompt": "Find the $x$-coordinates of the $x$-intercepts.",
+   "answer": [
+    "0",
+    "4"
+   ]
+  },
+  {
+   "id": "q2s",
+   "label": "2s",
+   "section": "Fluency",
+   "stem": "Consider the quadratic relation $y = 4x - x^2$.",
+   "type": "expression",
+   "prompt": "Find the equation of the axis of symmetry.",
+   "answer": "x=2"
+  },
+  {
+   "id": "q2t",
+   "label": "2t",
+   "section": "Fluency",
+   "stem": "Consider the quadratic relation $y = 4x - x^2$.",
+   "type": "point",
+   "prompt": "Find the coordinates of the turning point.",
+   "answer": "(2,4)"
+  },
+  {
+   "id": "q2u",
+   "label": "2u",
+   "section": "Fluency",
+   "stem": "Consider the quadratic relation $y = -x^2 - 6x$.",
+   "type": "expression",
+   "prompt": "Factorise the relation (type the right-hand side).",
+   "answer": "-x(x+6)",
+   "form": "factorised"
+  },
+  {
+   "id": "q2v",
+   "label": "2v",
+   "section": "Fluency",
+   "stem": "Consider the quadratic relation $y = -x^2 - 6x$.",
+   "type": "list",
+   "prompt": "Find the $x$-coordinates of the $x$-intercepts.",
+   "answer": [
+    "-6",
+    "0"
+   ]
+  },
+  {
+   "id": "q2w",
+   "label": "2w",
+   "section": "Fluency",
+   "stem": "Consider the quadratic relation $y = -x^2 - 6x$.",
+   "type": "expression",
+   "prompt": "Find the equation of the axis of symmetry.",
+   "answer": "x=-3"
+  },
+  {
+   "id": "q2x",
+   "label": "2x",
+   "section": "Fluency",
+   "stem": "Consider the quadratic relation $y = -x^2 - 6x$.",
+   "type": "point",
+   "prompt": "Find the coordinates of the turning point.",
+   "answer": "(-3,9)"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Consider the quadratic relation $y = x^2 - 5x + 4$.",
+   "type": "point",
+   "prompt": "Find the coordinates of the $y$-intercept.",
+   "answer": "(0,4)",
+   "hint": "Type a point as (x, y), for example (2, -3)"
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Consider the quadratic relation $y = x^2 - 5x + 4$.",
+   "type": "expression",
+   "prompt": "Factorise the relation (type the right-hand side).",
+   "answer": "(x-1)(x-4)",
+   "form": "factorised",
+   "hint": "Type the factorised form, for example x(x - 3) or (x + 1)(x - 4)"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Consider the quadratic relation $y = x^2 - 5x + 4$.",
+   "type": "list",
+   "prompt": "Find the $x$-coordinates of the $x$-intercepts.",
+   "answer": [
+    "1",
+    "4"
+   ],
+   "hint": "Type the x-values separated by commas, for example -1, 3. If there is only one, type just that one."
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Consider the quadratic relation $y = x^2 - 5x + 4$.",
+   "type": "expression",
+   "prompt": "Find the equation of the axis of symmetry.",
+   "answer": "x=2.5",
+   "hint": "Type the equation of the line, for example x = 2"
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "Consider the quadratic relation $y = x^2 - 5x + 4$.",
+   "type": "point",
+   "prompt": "Find the coordinates of the turning point.",
+   "answer": "(2.5,-2.25)",
+   "hint": "Type a point as (x, y). Decimals or fractions are fine."
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "Consider the quadratic relation $y = x^2 - 6x + 8$.",
+   "type": "point",
+   "prompt": "Find the coordinates of the $y$-intercept.",
+   "answer": "(0,8)"
+  },
+  {
+   "id": "q3g",
+   "label": "3g",
+   "section": "Fluency",
+   "stem": "Consider the quadratic relation $y = x^2 - 6x + 8$.",
+   "type": "expression",
+   "prompt": "Factorise the relation (type the right-hand side).",
+   "answer": "(x-2)(x-4)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3h",
+   "label": "3h",
+   "section": "Fluency",
+   "stem": "Consider the quadratic relation $y = x^2 - 6x + 8$.",
+   "type": "list",
+   "prompt": "Find the $x$-coordinates of the $x$-intercepts.",
+   "answer": [
+    "2",
+    "4"
+   ]
+  },
+  {
+   "id": "q3i",
+   "label": "3i",
+   "section": "Fluency",
+   "stem": "Consider the quadratic relation $y = x^2 - 6x + 8$.",
+   "type": "expression",
+   "prompt": "Find the equation of the axis of symmetry.",
+   "answer": "x=3"
+  },
+  {
+   "id": "q3j",
+   "label": "3j",
+   "section": "Fluency",
+   "stem": "Consider the quadratic relation $y = x^2 - 6x + 8$.",
+   "type": "point",
+   "prompt": "Find the coordinates of the turning point.",
+   "answer": "(3,-1)"
+  },
+  {
+   "id": "q3k",
+   "label": "3k",
+   "section": "Fluency",
+   "stem": "Consider the quadratic relation $y = x^2 + 2x - 15$.",
+   "type": "point",
+   "prompt": "Find the coordinates of the $y$-intercept.",
+   "answer": "(0,-15)"
+  },
+  {
+   "id": "q3l",
+   "label": "3l",
+   "section": "Fluency",
+   "stem": "Consider the quadratic relation $y = x^2 + 2x - 15$.",
+   "type": "expression",
+   "prompt": "Factorise the relation (type the right-hand side).",
+   "answer": "(x+5)(x-3)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3m",
+   "label": "3m",
+   "section": "Fluency",
+   "stem": "Consider the quadratic relation $y = x^2 + 2x - 15$.",
+   "type": "list",
+   "prompt": "Find the $x$-coordinates of the $x$-intercepts.",
+   "answer": [
+    "-5",
+    "3"
+   ]
+  },
+  {
+   "id": "q3n",
+   "label": "3n",
+   "section": "Fluency",
+   "stem": "Consider the quadratic relation $y = x^2 + 2x - 15$.",
+   "type": "expression",
+   "prompt": "Find the equation of the axis of symmetry.",
+   "answer": "x=-1"
+  },
+  {
+   "id": "q3o",
+   "label": "3o",
+   "section": "Fluency",
+   "stem": "Consider the quadratic relation $y = x^2 + 2x - 15$.",
+   "type": "point",
+   "prompt": "Find the coordinates of the turning point.",
+   "answer": "(-1,-16)"
+  },
+  {
+   "id": "q3p",
+   "label": "3p",
+   "section": "Fluency",
+   "stem": "Consider the quadratic relation $y = x^2 + 6x + 9$.",
+   "type": "point",
+   "prompt": "Find the coordinates of the $y$-intercept.",
+   "answer": "(0,9)"
+  },
+  {
+   "id": "q3q",
+   "label": "3q",
+   "section": "Fluency",
+   "stem": "Consider the quadratic relation $y = x^2 + 6x + 9$.",
+   "type": "expression",
+   "prompt": "Factorise the relation (type the right-hand side).",
+   "answer": "(x+3)(x+3)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3r",
+   "label": "3r",
+   "section": "Fluency",
+   "stem": "Consider the quadratic relation $y = x^2 + 6x + 9$.",
+   "type": "list",
+   "prompt": "Find the $x$-coordinates of the $x$-intercepts.",
+   "answer": [
+    "-3"
+   ]
+  },
+  {
+   "id": "q3s",
+   "label": "3s",
+   "section": "Fluency",
+   "stem": "Consider the quadratic relation $y = x^2 + 6x + 9$.",
+   "type": "expression",
+   "prompt": "Find the equation of the axis of symmetry.",
+   "answer": "x=-3"
+  },
+  {
+   "id": "q3t",
+   "label": "3t",
+   "section": "Fluency",
+   "stem": "Consider the quadratic relation $y = x^2 + 6x + 9$.",
+   "type": "point",
+   "prompt": "Find the coordinates of the turning point.",
+   "answer": "(-3,0)"
+  },
+  {
+   "id": "q3u",
+   "label": "3u",
+   "section": "Fluency",
+   "stem": "Consider the quadratic relation $y = x^2 + 4x + 3$.",
+   "type": "point",
+   "prompt": "Find the coordinates of the $y$-intercept.",
+   "answer": "(0,3)"
+  },
+  {
+   "id": "q3v",
+   "label": "3v",
+   "section": "Fluency",
+   "stem": "Consider the quadratic relation $y = x^2 + 4x + 3$.",
+   "type": "expression",
+   "prompt": "Factorise the relation (type the right-hand side).",
+   "answer": "(x+1)(x+3)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3w",
+   "label": "3w",
+   "section": "Fluency",
+   "stem": "Consider the quadratic relation $y = x^2 + 4x + 3$.",
+   "type": "list",
+   "prompt": "Find the $x$-coordinates of the $x$-intercepts.",
+   "answer": [
+    "-3",
+    "-1"
+   ]
+  },
+  {
+   "id": "q3x",
+   "label": "3x",
+   "section": "Fluency",
+   "stem": "Consider the quadratic relation $y = x^2 + 4x + 3$.",
+   "type": "expression",
+   "prompt": "Find the equation of the axis of symmetry.",
+   "answer": "x=-2"
+  },
+  {
+   "id": "q3y",
+   "label": "3y",
+   "section": "Fluency",
+   "stem": "Consider the quadratic relation $y = x^2 + 4x + 3$.",
+   "type": "point",
+   "prompt": "Find the coordinates of the turning point.",
+   "answer": "(-2,-1)"
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "For each relation, find the key features of its graph.",
+   "type": "list",
+   "prompt": "$y = x^2 - 4$: the $x$-coordinates of the $x$-intercepts",
+   "answer": [
+    "-2",
+    "2"
+   ],
+   "hint": "Type the x-values separated by commas, for example -1, 3"
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "For each relation, find the key features of its graph.",
+   "type": "point",
+   "prompt": "$y = x^2 - 4$: the coordinates of the $y$-intercept",
+   "answer": "(0,-4)"
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "For each relation, find the key features of its graph.",
+   "type": "point",
+   "prompt": "$y = x^2 - 4$: the coordinates of the turning point",
+   "answer": "(0,-4)"
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "For each relation, find the key features of its graph.",
+   "type": "list",
+   "prompt": "$y = 16 - x^2$: the $x$-coordinates of the $x$-intercepts",
+   "answer": [
+    "-4",
+    "4"
+   ]
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Fluency",
+   "stem": "For each relation, find the key features of its graph.",
+   "type": "point",
+   "prompt": "$y = 16 - x^2$: the coordinates of the $y$-intercept",
+   "answer": "(0,16)"
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Fluency",
+   "stem": "For each relation, find the key features of its graph.",
+   "type": "point",
+   "prompt": "$y = 16 - x^2$: the coordinates of the turning point",
+   "answer": "(0,16)"
+  },
+  {
+   "id": "q4g",
+   "label": "4g",
+   "section": "Fluency",
+   "stem": "For each relation, find the key features of its graph.",
+   "type": "list",
+   "prompt": "$y = x^2 + 3x$: the $x$-coordinates of the $x$-intercepts",
+   "answer": [
+    "-3",
+    "0"
+   ]
+  },
+  {
+   "id": "q4h",
+   "label": "4h",
+   "section": "Fluency",
+   "stem": "For each relation, find the key features of its graph.",
+   "type": "point",
+   "prompt": "$y = x^2 + 3x$: the coordinates of the $y$-intercept",
+   "answer": "(0,0)"
+  },
+  {
+   "id": "q4i",
+   "label": "4i",
+   "section": "Fluency",
+   "stem": "For each relation, find the key features of its graph.",
+   "type": "point",
+   "prompt": "$y = x^2 + 3x$: the coordinates of the turning point",
+   "answer": "(-1.5,-2.25)",
+   "hint": "Type a point as (x, y). Decimals or fractions are fine."
+  },
+  {
+   "id": "q4j",
+   "label": "4j",
+   "section": "Fluency",
+   "stem": "For each relation, find the key features of its graph.",
+   "type": "list",
+   "prompt": "$y = 3x^2 - 6x$: the $x$-coordinates of the $x$-intercepts",
+   "answer": [
+    "0",
+    "2"
+   ]
+  },
+  {
+   "id": "q4k",
+   "label": "4k",
+   "section": "Fluency",
+   "stem": "For each relation, find the key features of its graph.",
+   "type": "point",
+   "prompt": "$y = 3x^2 - 6x$: the coordinates of the $y$-intercept",
+   "answer": "(0,0)"
+  },
+  {
+   "id": "q4l",
+   "label": "4l",
+   "section": "Fluency",
+   "stem": "For each relation, find the key features of its graph.",
+   "type": "point",
+   "prompt": "$y = 3x^2 - 6x$: the coordinates of the turning point",
+   "answer": "(1,-3)"
+  },
+  {
+   "id": "q4m",
+   "label": "4m",
+   "section": "Fluency",
+   "stem": "For each relation, find the key features of its graph.",
+   "type": "list",
+   "prompt": "$y = 2x^2 + 8x$: the $x$-coordinates of the $x$-intercepts",
+   "answer": [
+    "-4",
+    "0"
+   ]
+  },
+  {
+   "id": "q4n",
+   "label": "4n",
+   "section": "Fluency",
+   "stem": "For each relation, find the key features of its graph.",
+   "type": "point",
+   "prompt": "$y = 2x^2 + 8x$: the coordinates of the $y$-intercept",
+   "answer": "(0,0)"
+  },
+  {
+   "id": "q4o",
+   "label": "4o",
+   "section": "Fluency",
+   "stem": "For each relation, find the key features of its graph.",
+   "type": "point",
+   "prompt": "$y = 2x^2 + 8x$: the coordinates of the turning point",
+   "answer": "(-2,-8)"
+  },
+  {
+   "id": "q4p",
+   "label": "4p",
+   "section": "Fluency",
+   "stem": "For each relation, find the key features of its graph.",
+   "type": "list",
+   "prompt": "$y = x^2 - 2x - 8$: the $x$-coordinates of the $x$-intercepts",
+   "answer": [
+    "-2",
+    "4"
+   ]
+  },
+  {
+   "id": "q4q",
+   "label": "4q",
+   "section": "Fluency",
+   "stem": "For each relation, find the key features of its graph.",
+   "type": "point",
+   "prompt": "$y = x^2 - 2x - 8$: the coordinates of the $y$-intercept",
+   "answer": "(0,-8)"
+  },
+  {
+   "id": "q4r",
+   "label": "4r",
+   "section": "Fluency",
+   "stem": "For each relation, find the key features of its graph.",
+   "type": "point",
+   "prompt": "$y = x^2 - 2x - 8$: the coordinates of the turning point",
+   "answer": "(1,-9)"
+  },
+  {
+   "id": "q4s",
+   "label": "4s",
+   "section": "Fluency",
+   "stem": "For each relation, find the key features of its graph.",
+   "type": "list",
+   "prompt": "$y = x^2 + x - 6$: the $x$-coordinates of the $x$-intercepts",
+   "answer": [
+    "-3",
+    "2"
+   ]
+  },
+  {
+   "id": "q4t",
+   "label": "4t",
+   "section": "Fluency",
+   "stem": "For each relation, find the key features of its graph.",
+   "type": "point",
+   "prompt": "$y = x^2 + x - 6$: the coordinates of the $y$-intercept",
+   "answer": "(0,-6)"
+  },
+  {
+   "id": "q4u",
+   "label": "4u",
+   "section": "Fluency",
+   "stem": "For each relation, find the key features of its graph.",
+   "type": "point",
+   "prompt": "$y = x^2 + x - 6$: the coordinates of the turning point",
+   "answer": "(-0.5,-6.25)",
+   "hint": "Type a point as (x, y). Decimals or fractions are fine."
+  },
+  {
+   "id": "q4v",
+   "label": "4v",
+   "section": "Fluency",
+   "stem": "For each relation, find the key features of its graph.",
+   "type": "list",
+   "prompt": "$y = x^2 - 8x + 16$: the $x$-coordinates of the $x$-intercepts",
+   "answer": [
+    "4"
+   ]
+  },
+  {
+   "id": "q4w",
+   "label": "4w",
+   "section": "Fluency",
+   "stem": "For each relation, find the key features of its graph.",
+   "type": "point",
+   "prompt": "$y = x^2 - 8x + 16$: the coordinates of the $y$-intercept",
+   "answer": "(0,16)"
+  },
+  {
+   "id": "q4x",
+   "label": "4x",
+   "section": "Fluency",
+   "stem": "For each relation, find the key features of its graph.",
+   "type": "point",
+   "prompt": "$y = x^2 - 8x + 16$: the coordinates of the turning point",
+   "answer": "(4,0)"
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Problem-solving",
+   "stem": "Use the symmetry of each parabola to find the missing number (?).",
+   "type": "numeric",
+   "prompt": "Graph a",
+   "answer": "-5",
+   "figure": {
+    "kind": "diagram",
+    "unit": 26,
+    "items": [
+     {
+      "seg": [
+       -7,
+       0,
+       7,
+       0
+      ],
+      "arrow": "end",
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       -3,
+       0,
+       8
+      ],
+      "arrow": "end",
+      "thin": true
+     },
+     {
+      "label": "x",
+      "at": [
+       7.45,
+       0
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       8.5
+      ]
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.4,
+       -0.5
+      ]
+     },
+     {
+      "poly": [
+       [
+        -6.055,
+        -2.8
+       ],
+       [
+        -6.055,
+        -2.799
+       ],
+       [
+        -5.88,
+        -2.298
+       ],
+       [
+        -5.705,
+        -1.811
+       ],
+       [
+        -5.53,
+        -1.339
+       ],
+       [
+        -5.355,
+        -0.882
+       ],
+       [
+        -5.18,
+        -0.44
+       ],
+       [
+        -5.005,
+        -0.012
+       ],
+       [
+        -4.83,
+        0.401
+       ],
+       [
+        -4.655,
+        0.799
+       ],
+       [
+        -4.48,
+        1.183
+       ],
+       [
+        -4.305,
+        1.552
+       ],
+       [
+        -4.13,
+        1.906
+       ],
+       [
+        -3.955,
+        2.246
+       ],
+       [
+        -3.78,
+        2.571
+       ],
+       [
+        -3.605,
+        2.881
+       ],
+       [
+        -3.43,
+        3.176
+       ],
+       [
+        -3.255,
+        3.457
+       ],
+       [
+        -3.08,
+        3.723
+       ],
+       [
+        -2.905,
+        3.975
+       ],
+       [
+        -2.73,
+        4.211
+       ],
+       [
+        -2.555,
+        4.433
+       ],
+       [
+        -2.38,
+        4.641
+       ],
+       [
+        -2.205,
+        4.833
+       ],
+       [
+        -2.03,
+        5.011
+       ],
+       [
+        -1.855,
+        5.174
+       ],
+       [
+        -1.68,
+        5.323
+       ],
+       [
+        -1.505,
+        5.456
+       ],
+       [
+        -1.33,
+        5.575
+       ],
+       [
+        -1.155,
+        5.68
+       ],
+       [
+        -0.98,
+        5.77
+       ],
+       [
+        -0.805,
+        5.844
+       ],
+       [
+        -0.63,
+        5.905
+       ],
+       [
+        -0.455,
+        5.95
+       ],
+       [
+        -0.28,
+        5.981
+       ],
+       [
+        -0.105,
+        5.997
+       ],
+       [
+        0.07,
+        5.999
+       ],
+       [
+        0.245,
+        5.986
+       ],
+       [
+        0.42,
+        5.958
+       ],
+       [
+        0.595,
+        5.915
+       ],
+       [
+        0.77,
+        5.858
+       ],
+       [
+        0.945,
+        5.786
+       ],
+       [
+        1.12,
+        5.699
+       ],
+       [
+        1.295,
+        5.598
+       ],
+       [
+        1.47,
+        5.481
+       ],
+       [
+        1.645,
+        5.351
+       ],
+       [
+        1.82,
+        5.205
+       ],
+       [
+        1.995,
+        5.045
+       ],
+       [
+        2.17,
+        4.87
+       ],
+       [
+        2.345,
+        4.68
+       ],
+       [
+        2.52,
+        4.476
+       ],
+       [
+        2.695,
+        4.257
+       ],
+       [
+        2.87,
+        4.023
+       ],
+       [
+        3.045,
+        3.775
+       ],
+       [
+        3.22,
+        3.512
+       ],
+       [
+        3.395,
+        3.234
+       ],
+       [
+        3.57,
+        2.941
+       ],
+       [
+        3.745,
+        2.634
+       ],
+       [
+        3.92,
+        2.312
+       ],
+       [
+        4.095,
+        1.975
+       ],
+       [
+        4.27,
+        1.624
+       ],
+       [
+        4.445,
+        1.258
+       ],
+       [
+        4.62,
+        0.877
+       ],
+       [
+        4.795,
+        0.482
+       ],
+       [
+        4.97,
+        0.072
+       ],
+       [
+        5.145,
+        -0.353
+       ],
+       [
+        5.32,
+        -0.793
+       ],
+       [
+        5.495,
+        -1.247
+       ],
+       [
+        5.67,
+        -1.716
+       ],
+       [
+        5.845,
+        -2.199
+       ],
+       [
+        6.02,
+        -2.698
+       ],
+       [
+        6.055,
+        -2.8
+       ]
+      ],
+      "open": true
+     },
+     {
+      "point": [
+       -5,
+       0
+      ],
+      "name": "?",
+      "pos": "sw"
+     },
+     {
+      "point": [
+       5,
+       0
+      ],
+      "name": "5",
+      "pos": "se"
+     },
+     {
+      "point": [
+       0,
+       6
+      ],
+      "name": "(0, 6)",
+      "pos": "ne"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Problem-solving",
+   "stem": "Use the symmetry of each parabola to find the missing number (?).",
+   "type": "numeric",
+   "prompt": "Graph b",
+   "answer": "5",
+   "figure": {
+    "kind": "diagram",
+    "unit": 26,
+    "items": [
+     {
+      "seg": [
+       -3,
+       0,
+       7,
+       0
+      ],
+      "arrow": "end",
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       -5,
+       0,
+       5
+      ],
+      "arrow": "end",
+      "thin": true
+     },
+     {
+      "label": "x",
+      "at": [
+       7.45,
+       0
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       5.5
+      ]
+     },
+     {
+      "label": "O",
+      "at": [
+       0.4,
+       -0.5
+      ]
+     },
+     {
+      "poly": [
+       [
+        -2.45,
+        4.8
+       ],
+       [
+        -2.325,
+        4.314
+       ],
+       [
+        -2.2,
+        3.84
+       ],
+       [
+        -2.075,
+        3.38
+       ],
+       [
+        -1.95,
+        2.934
+       ],
+       [
+        -1.825,
+        2.503
+       ],
+       [
+        -1.7,
+        2.084
+       ],
+       [
+        -1.575,
+        1.68
+       ],
+       [
+        -1.45,
+        1.29
+       ],
+       [
+        -1.325,
+        0.914
+       ],
+       [
+        -1.2,
+        0.551
+       ],
+       [
+        -1.075,
+        0.203
+       ],
+       [
+        -0.95,
+        -0.132
+       ],
+       [
+        -0.825,
+        -0.453
+       ],
+       [
+        -0.7,
+        -0.76
+       ],
+       [
+        -0.575,
+        -1.053
+       ],
+       [
+        -0.45,
+        -1.332
+       ],
+       [
+        -0.325,
+        -1.597
+       ],
+       [
+        -0.2,
+        -1.849
+       ],
+       [
+        -0.075,
+        -2.086
+       ],
+       [
+        0.05,
+        -2.31
+       ],
+       [
+        0.175,
+        -2.52
+       ],
+       [
+        0.3,
+        -2.716
+       ],
+       [
+        0.425,
+        -2.897
+       ],
+       [
+        0.55,
+        -3.066
+       ],
+       [
+        0.675,
+        -3.22
+       ],
+       [
+        0.8,
+        -3.36
+       ],
+       [
+        0.925,
+        -3.486
+       ],
+       [
+        1.05,
+        -3.599
+       ],
+       [
+        1.175,
+        -3.697
+       ],
+       [
+        1.3,
+        -3.782
+       ],
+       [
+        1.425,
+        -3.853
+       ],
+       [
+        1.55,
+        -3.91
+       ],
+       [
+        1.675,
+        -3.953
+       ],
+       [
+        1.8,
+        -3.982
+       ],
+       [
+        1.925,
+        -3.997
+       ],
+       [
+        2.05,
+        -3.999
+       ],
+       [
+        2.175,
+        -3.986
+       ],
+       [
+        2.3,
+        -3.96
+       ],
+       [
+        2.425,
+        -3.92
+       ],
+       [
+        2.55,
+        -3.866
+       ],
+       [
+        2.675,
+        -3.797
+       ],
+       [
+        2.8,
+        -3.716
+       ],
+       [
+        2.925,
+        -3.62
+       ],
+       [
+        3.05,
+        -3.51
+       ],
+       [
+        3.175,
+        -3.386
+       ],
+       [
+        3.3,
+        -3.249
+       ],
+       [
+        3.425,
+        -3.098
+       ],
+       [
+        3.55,
+        -2.932
+       ],
+       [
+        3.675,
+        -2.753
+       ],
+       [
+        3.8,
+        -2.56
+       ],
+       [
+        3.925,
+        -2.353
+       ],
+       [
+        4.05,
+        -2.132
+       ],
+       [
+        4.175,
+        -1.898
+       ],
+       [
+        4.3,
+        -1.649
+       ],
+       [
+        4.425,
+        -1.386
+       ],
+       [
+        4.55,
+        -1.11
+       ],
+       [
+        4.675,
+        -0.82
+       ],
+       [
+        4.8,
+        -0.516
+       ],
+       [
+        4.925,
+        -0.198
+       ],
+       [
+        5.05,
+        0.134
+       ],
+       [
+        5.175,
+        0.48
+       ],
+       [
+        5.3,
+        0.84
+       ],
+       [
+        5.425,
+        1.214
+       ],
+       [
+        5.55,
+        1.601
+       ],
+       [
+        5.675,
+        2.002
+       ],
+       [
+        5.8,
+        2.418
+       ],
+       [
+        5.925,
+        2.847
+       ],
+       [
+        6.05,
+        3.29
+       ],
+       [
+        6.175,
+        3.747
+       ],
+       [
+        6.3,
+        4.218
+       ],
+       [
+        6.425,
+        4.702
+       ],
+       [
+        6.45,
+        4.8
+       ]
+      ],
+      "open": true
+     },
+     {
+      "point": [
+       -1,
+       0
+      ],
+      "name": "-1",
+      "pos": "nw"
+     },
+     {
+      "point": [
+       5,
+       0
+      ],
+      "name": "?",
+      "pos": "ne"
+     },
+     {
+      "point": [
+       2,
+       -4
+      ],
+      "name": "(2, -4)",
+      "pos": "s"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Problem-solving",
+   "stem": "Use the symmetry of each parabola to find the missing number (?).",
+   "type": "numeric",
+   "prompt": "Graph c",
+   "answer": "4",
+   "figure": {
+    "kind": "diagram",
+    "unit": 26,
+    "items": [
+     {
+      "seg": [
+       -2,
+       0,
+       10,
+       0
+      ],
+      "arrow": "end",
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       -4,
+       0,
+       4
+      ],
+      "arrow": "end",
+      "thin": true
+     },
+     {
+      "label": "x",
+      "at": [
+       10.45,
+       0
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       4.5
+      ]
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.4,
+       -0.5
+      ]
+     },
+     {
+      "poly": [
+       [
+        -1.64,
+        2.964
+       ],
+       [
+        -1.49,
+        2.651
+       ],
+       [
+        -1.34,
+        2.347
+       ],
+       [
+        -1.19,
+        2.051
+       ],
+       [
+        -1.04,
+        1.763
+       ],
+       [
+        -0.89,
+        1.484
+       ],
+       [
+        -0.74,
+        1.213
+       ],
+       [
+        -0.59,
+        0.95
+       ],
+       [
+        -0.44,
+        0.696
+       ],
+       [
+        -0.29,
+        0.451
+       ],
+       [
+        -0.14,
+        0.214
+       ],
+       [
+        0.01,
+        -0.015
+       ],
+       [
+        0.16,
+        -0.235
+       ],
+       [
+        0.31,
+        -0.447
+       ],
+       [
+        0.46,
+        -0.65
+       ],
+       [
+        0.61,
+        -0.845
+       ],
+       [
+        0.76,
+        -1.032
+       ],
+       [
+        0.91,
+        -1.21
+       ],
+       [
+        1.06,
+        -1.379
+       ],
+       [
+        1.21,
+        -1.54
+       ],
+       [
+        1.36,
+        -1.693
+       ],
+       [
+        1.51,
+        -1.837
+       ],
+       [
+        1.66,
+        -1.973
+       ],
+       [
+        1.81,
+        -2.101
+       ],
+       [
+        1.96,
+        -2.22
+       ],
+       [
+        2.11,
+        -2.33
+       ],
+       [
+        2.26,
+        -2.432
+       ],
+       [
+        2.41,
+        -2.526
+       ],
+       [
+        2.56,
+        -2.611
+       ],
+       [
+        2.71,
+        -2.688
+       ],
+       [
+        2.86,
+        -2.756
+       ],
+       [
+        3.01,
+        -2.816
+       ],
+       [
+        3.16,
+        -2.868
+       ],
+       [
+        3.31,
+        -2.911
+       ],
+       [
+        3.46,
+        -2.945
+       ],
+       [
+        3.61,
+        -2.971
+       ],
+       [
+        3.76,
+        -2.989
+       ],
+       [
+        3.91,
+        -2.998
+       ],
+       [
+        4.06,
+        -2.999
+       ],
+       [
+        4.21,
+        -2.992
+       ],
+       [
+        4.36,
+        -2.976
+       ],
+       [
+        4.51,
+        -2.951
+       ],
+       [
+        4.66,
+        -2.918
+       ],
+       [
+        4.81,
+        -2.877
+       ],
+       [
+        4.96,
+        -2.827
+       ],
+       [
+        5.11,
+        -2.769
+       ],
+       [
+        5.26,
+        -2.702
+       ],
+       [
+        5.41,
+        -2.627
+       ],
+       [
+        5.56,
+        -2.544
+       ],
+       [
+        5.71,
+        -2.452
+       ],
+       [
+        5.86,
+        -2.351
+       ],
+       [
+        6.01,
+        -2.242
+       ],
+       [
+        6.16,
+        -2.125
+       ],
+       [
+        6.31,
+        -1.999
+       ],
+       [
+        6.46,
+        -1.865
+       ],
+       [
+        6.61,
+        -1.723
+       ],
+       [
+        6.76,
+        -1.572
+       ],
+       [
+        6.91,
+        -1.412
+       ],
+       [
+        7.06,
+        -1.244
+       ],
+       [
+        7.21,
+        -1.068
+       ],
+       [
+        7.36,
+        -0.883
+       ],
+       [
+        7.51,
+        -0.69
+       ],
+       [
+        7.66,
+        -0.488
+       ],
+       [
+        7.81,
+        -0.278
+       ],
+       [
+        7.96,
+        -0.06
+       ],
+       [
+        8.11,
+        0.167
+       ],
+       [
+        8.26,
+        0.403
+       ],
+       [
+        8.41,
+        0.647
+       ],
+       [
+        8.56,
+        0.899
+       ],
+       [
+        8.71,
+        1.16
+       ],
+       [
+        8.86,
+        1.429
+       ],
+       [
+        9.01,
+        1.706
+       ],
+       [
+        9.16,
+        1.992
+       ],
+       [
+        9.31,
+        2.287
+       ],
+       [
+        9.46,
+        2.59
+       ],
+       [
+        9.61,
+        2.901
+       ]
+      ],
+      "open": true
+     },
+     {
+      "point": [
+       8,
+       0
+      ],
+      "name": "8",
+      "pos": "ne"
+     },
+     {
+      "point": [
+       4,
+       -3
+      ],
+      "name": "(?, -3)",
+      "pos": "s"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Problem-solving",
+   "stem": "Use the symmetry of each parabola to find the missing number (?).",
+   "type": "numeric",
+   "prompt": "Graph d",
+   "answer": "-6",
+   "figure": {
+    "kind": "diagram",
+    "unit": 26,
+    "items": [
+     {
+      "seg": [
+       -8,
+       0,
+       2,
+       0
+      ],
+      "arrow": "end",
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       -3,
+       0,
+       6
+      ],
+      "arrow": "end",
+      "thin": true
+     },
+     {
+      "label": "x",
+      "at": [
+       2.45,
+       0
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       6.5
+      ]
+     },
+     {
+      "label": "O",
+      "at": [
+       0.4,
+       -0.5
+      ]
+     },
+     {
+      "poly": [
+       [
+        -6.747,
+        -2.8
+       ],
+       [
+        -6.7,
+        -2.606
+       ],
+       [
+        -6.575,
+        -2.1
+       ],
+       [
+        -6.45,
+        -1.613
+       ],
+       [
+        -6.325,
+        -1.142
+       ],
+       [
+        -6.2,
+        -0.689
+       ],
+       [
+        -6.075,
+        -0.253
+       ],
+       [
+        -5.95,
+        0.165
+       ],
+       [
+        -5.825,
+        0.566
+       ],
+       [
+        -5.7,
+        0.95
+       ],
+       [
+        -5.575,
+        1.316
+       ],
+       [
+        -5.45,
+        1.665
+       ],
+       [
+        -5.325,
+        1.997
+       ],
+       [
+        -5.2,
+        2.311
+       ],
+       [
+        -5.075,
+        2.608
+       ],
+       [
+        -4.95,
+        2.887
+       ],
+       [
+        -4.825,
+        3.15
+       ],
+       [
+        -4.7,
+        3.394
+       ],
+       [
+        -4.575,
+        3.622
+       ],
+       [
+        -4.45,
+        3.832
+       ],
+       [
+        -4.325,
+        4.025
+       ],
+       [
+        -4.2,
+        4.2
+       ],
+       [
+        -4.075,
+        4.358
+       ],
+       [
+        -3.95,
+        4.499
+       ],
+       [
+        -3.825,
+        4.622
+       ],
+       [
+        -3.7,
+        4.728
+       ],
+       [
+        -3.575,
+        4.816
+       ],
+       [
+        -3.45,
+        4.888
+       ],
+       [
+        -3.325,
+        4.941
+       ],
+       [
+        -3.2,
+        4.978
+       ],
+       [
+        -3.075,
+        4.997
+       ],
+       [
+        -2.95,
+        4.999
+       ],
+       [
+        -2.825,
+        4.983
+       ],
+       [
+        -2.7,
+        4.95
+       ],
+       [
+        -2.575,
+        4.9
+       ],
+       [
+        -2.45,
+        4.832
+       ],
+       [
+        -2.325,
+        4.747
+       ],
+       [
+        -2.2,
+        4.644
+       ],
+       [
+        -2.075,
+        4.525
+       ],
+       [
+        -1.95,
+        4.388
+       ],
+       [
+        -1.825,
+        4.233
+       ],
+       [
+        -1.7,
+        4.061
+       ],
+       [
+        -1.575,
+        3.872
+       ],
+       [
+        -1.45,
+        3.665
+       ],
+       [
+        -1.325,
+        3.441
+       ],
+       [
+        -1.2,
+        3.2
+       ],
+       [
+        -1.075,
+        2.941
+       ],
+       [
+        -0.95,
+        2.665
+       ],
+       [
+        -0.825,
+        2.372
+       ],
+       [
+        -0.7,
+        2.061
+       ],
+       [
+        -0.575,
+        1.733
+       ],
+       [
+        -0.45,
+        1.388
+       ],
+       [
+        -0.325,
+        1.025
+       ],
+       [
+        -0.2,
+        0.644
+       ],
+       [
+        -0.075,
+        0.247
+       ],
+       [
+        0.05,
+        -0.168
+       ],
+       [
+        0.175,
+        -0.6
+       ],
+       [
+        0.3,
+        -1.05
+       ],
+       [
+        0.425,
+        -1.517
+       ],
+       [
+        0.55,
+        -2.001
+       ],
+       [
+        0.675,
+        -2.503
+       ],
+       [
+        0.747,
+        -2.8
+       ]
+      ],
+      "open": true
+     },
+     {
+      "point": [
+       -6,
+       0
+      ],
+      "name": "?",
+      "pos": "sw"
+     },
+     {
+      "point": [
+       -3,
+       5
+      ],
+      "name": "(-3, 5)",
+      "pos": "n"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q5e",
+   "label": "5e",
+   "section": "Problem-solving",
+   "stem": "Use the symmetry of each parabola to find the missing number (?).",
+   "type": "numeric",
+   "prompt": "Graph e",
+   "answer": "-3",
+   "figure": {
+    "kind": "diagram",
+    "unit": 26,
+    "items": [
+     {
+      "seg": [
+       -7,
+       0,
+       2,
+       0
+      ],
+      "arrow": "end",
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       -3,
+       0,
+       5
+      ],
+      "arrow": "end",
+      "thin": true
+     },
+     {
+      "label": "x",
+      "at": [
+       2.45,
+       0
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       5.5
+      ]
+     },
+     {
+      "label": "O",
+      "at": [
+       0.4,
+       -0.5
+      ]
+     },
+     {
+      "poly": [
+       [
+        -5.844,
+        4.8
+       ],
+       [
+        -5.83,
+        4.698
+       ],
+       [
+        -5.718,
+        3.9
+       ],
+       [
+        -5.605,
+        3.152
+       ],
+       [
+        -5.493,
+        2.455
+       ],
+       [
+        -5.38,
+        1.809
+       ],
+       [
+        -5.268,
+        1.213
+       ],
+       [
+        -5.155,
+        0.668
+       ],
+       [
+        -5.043,
+        0.174
+       ],
+       [
+        -4.93,
+        -0.27
+       ],
+       [
+        -4.818,
+        -0.663
+       ],
+       [
+        -4.705,
+        -1.006
+       ],
+       [
+        -4.593,
+        -1.298
+       ],
+       [
+        -4.48,
+        -1.539
+       ],
+       [
+        -4.367,
+        -1.73
+       ],
+       [
+        -4.255,
+        -1.87
+       ],
+       [
+        -4.143,
+        -1.959
+       ],
+       [
+        -4.03,
+        -1.998
+       ],
+       [
+        -3.918,
+        -1.986
+       ],
+       [
+        -3.805,
+        -1.924
+       ],
+       [
+        -3.693,
+        -1.811
+       ],
+       [
+        -3.58,
+        -1.647
+       ],
+       [
+        -3.468,
+        -1.433
+       ],
+       [
+        -3.355,
+        -1.168
+       ],
+       [
+        -3.243,
+        -0.852
+       ],
+       [
+        -3.13,
+        -0.486
+       ],
+       [
+        -3.018,
+        -0.069
+       ],
+       [
+        -2.905,
+        0.398
+       ],
+       [
+        -2.793,
+        0.916
+       ],
+       [
+        -2.68,
+        1.485
+       ],
+       [
+        -2.567,
+        2.104
+       ],
+       [
+        -2.455,
+        2.774
+       ],
+       [
+        -2.343,
+        3.495
+       ],
+       [
+        -2.23,
+        4.266
+       ],
+       [
+        -2.156,
+        4.8
+       ]
+      ],
+      "open": true
+     },
+     {
+      "point": [
+       -5,
+       0
+      ],
+      "name": "-5",
+      "pos": "nw"
+     },
+     {
+      "point": [
+       -3,
+       0
+      ],
+      "name": "?",
+      "pos": "ne"
+     },
+     {
+      "point": [
+       -4,
+       -2
+      ],
+      "name": "(-4, -2)",
+      "pos": "s"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q5f",
+   "label": "5f",
+   "section": "Problem-solving",
+   "stem": "Use the symmetry of each parabola to find the missing number (?).",
+   "type": "numeric",
+   "prompt": "Graph f",
+   "answer": "5",
+   "figure": {
+    "kind": "diagram",
+    "unit": 26,
+    "items": [
+     {
+      "seg": [
+       -5,
+       0,
+       7,
+       0
+      ],
+      "arrow": "end",
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       -3,
+       0,
+       8
+      ],
+      "arrow": "end",
+      "thin": true
+     },
+     {
+      "label": "x",
+      "at": [
+       7.45,
+       0
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       8.5
+      ]
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.4,
+       -0.5
+      ]
+     },
+     {
+      "poly": [
+       [
+        -3.844,
+        -2.8
+       ],
+       [
+        -3.74,
+        -2.425
+       ],
+       [
+        -3.59,
+        -1.901
+       ],
+       [
+        -3.44,
+        -1.393
+       ],
+       [
+        -3.29,
+        -0.902
+       ],
+       [
+        -3.14,
+        -0.427
+       ],
+       [
+        -2.99,
+        0.03
+       ],
+       [
+        -2.84,
+        0.47
+       ],
+       [
+        -2.69,
+        0.894
+       ],
+       [
+        -2.54,
+        1.301
+       ],
+       [
+        -2.39,
+        1.69
+       ],
+       [
+        -2.24,
+        2.063
+       ],
+       [
+        -2.09,
+        2.419
+       ],
+       [
+        -1.94,
+        2.759
+       ],
+       [
+        -1.79,
+        3.081
+       ],
+       [
+        -1.64,
+        3.386
+       ],
+       [
+        -1.49,
+        3.675
+       ],
+       [
+        -1.34,
+        3.947
+       ],
+       [
+        -1.19,
+        4.201
+       ],
+       [
+        -1.04,
+        4.439
+       ],
+       [
+        -0.89,
+        4.66
+       ],
+       [
+        -0.74,
+        4.865
+       ],
+       [
+        -0.59,
+        5.052
+       ],
+       [
+        -0.44,
+        5.222
+       ],
+       [
+        -0.29,
+        5.376
+       ],
+       [
+        -0.14,
+        5.513
+       ],
+       [
+        0.01,
+        5.632
+       ],
+       [
+        0.16,
+        5.735
+       ],
+       [
+        0.31,
+        5.821
+       ],
+       [
+        0.46,
+        5.891
+       ],
+       [
+        0.61,
+        5.943
+       ],
+       [
+        0.76,
+        5.978
+       ],
+       [
+        0.91,
+        5.997
+       ],
+       [
+        1.06,
+        5.999
+       ],
+       [
+        1.21,
+        5.983
+       ],
+       [
+        1.36,
+        5.951
+       ],
+       [
+        1.51,
+        5.902
+       ],
+       [
+        1.66,
+        5.837
+       ],
+       [
+        1.81,
+        5.754
+       ],
+       [
+        1.96,
+        5.654
+       ],
+       [
+        2.11,
+        5.538
+       ],
+       [
+        2.26,
+        5.405
+       ],
+       [
+        2.41,
+        5.254
+       ],
+       [
+        2.56,
+        5.087
+       ],
+       [
+        2.71,
+        4.903
+       ],
+       [
+        2.86,
+        4.703
+       ],
+       [
+        3.01,
+        4.485
+       ],
+       [
+        3.16,
+        4.25
+       ],
+       [
+        3.31,
+        3.999
+       ],
+       [
+        3.46,
+        3.731
+       ],
+       [
+        3.61,
+        3.445
+       ],
+       [
+        3.76,
+        3.143
+       ],
+       [
+        3.91,
+        2.824
+       ],
+       [
+        4.06,
+        2.489
+       ],
+       [
+        4.21,
+        2.136
+       ],
+       [
+        4.36,
+        1.766
+       ],
+       [
+        4.51,
+        1.38
+       ],
+       [
+        4.66,
+        0.977
+       ],
+       [
+        4.81,
+        0.556
+       ],
+       [
+        4.96,
+        0.119
+       ],
+       [
+        5.11,
+        -0.335
+       ],
+       [
+        5.26,
+        -0.805
+       ],
+       [
+        5.41,
+        -1.293
+       ],
+       [
+        5.56,
+        -1.798
+       ],
+       [
+        5.71,
+        -2.319
+       ],
+       [
+        5.844,
+        -2.8
+       ]
+      ],
+      "open": true
+     },
+     {
+      "point": [
+       -3,
+       0
+      ],
+      "name": "-3",
+      "pos": "sw"
+     },
+     {
+      "point": [
+       5,
+       0
+      ],
+      "name": "?",
+      "pos": "se"
+     },
+     {
+      "point": [
+       1,
+       6
+      ],
+      "name": "(1, 6)",
+      "pos": "n"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Problem-solving",
+   "stem": "The path of a ball is given by $y = 40x - x^2$, where $y$ is its height in metres above the ground and $x$ is the horizontal distance in metres.",
+   "type": "numeric",
+   "prompt": "How far does the ball travel horizontally?",
+   "answer": "40",
+   "units": "m"
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Problem-solving",
+   "stem": "The path of a ball is given by $y = 40x - x^2$, where $y$ is its height in metres above the ground and $x$ is the horizontal distance in metres.",
+   "type": "numeric",
+   "prompt": "How high does the ball reach mid-flight?",
+   "answer": "400",
+   "units": "m"
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Problem-solving",
+   "stem": "A test rocket follows the path $y = 0.2x(150 - x)$, where $y$ is its height in metres above the ground and $x$ is the horizontal distance in metres.",
+   "type": "numeric",
+   "prompt": "How far does the rocket travel horizontally?",
+   "answer": "150",
+   "units": "m"
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Problem-solving",
+   "stem": "A test rocket follows the path $y = 0.2x(150 - x)$, where $y$ is its height in metres above the ground and $x$ is the horizontal distance in metres.",
+   "type": "numeric",
+   "prompt": "How high does the rocket reach mid-flight?",
+   "answer": "1125",
+   "units": "m"
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Reasoning",
+   "stem": "Write an expression for the $y$-coordinate of the $y$-intercept of each quadratic.",
+   "type": "expression",
+   "prompt": "$y = ax^2 + bx + c$",
+   "answer": "c",
+   "hint": "Type it using the letters in the rule"
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Reasoning",
+   "stem": "Write an expression for the $y$-coordinate of the $y$-intercept of each quadratic.",
+   "type": "expression",
+   "prompt": "$y = (x - a)(x - b)$",
+   "answer": "ab"
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Reasoning",
+   "stem": "The rule $y = x^2 - 4x - 12$ can also be written as $y = (x - 2)^2 - 16$.",
+   "type": "point",
+   "prompt": "Use the second rule to state the coordinates of the turning point.",
+   "answer": "(2,-16)",
+   "hint": "Type a point as (x, y), for example (2, -3)"
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Reasoning",
+   "stem": "The rule $y = x^2 - 4x - 12$ can also be written as $y = (x - 2)^2 - 16$.",
+   "type": "list",
+   "prompt": "Use the first rule to find the $x$-coordinates of the $x$-intercepts.",
+   "answer": [
+    "-2",
+    "6"
+   ],
+   "hint": "Type the x-values separated by commas, for example -1, 3"
+  },
+  {
+   "id": "q10c",
+   "label": "10c",
+   "section": "Reasoning",
+   "stem": "The rule $y = x^2 - 6x - 16$ can be written in the form $y = (x - h)^2 + k$.",
+   "type": "numeric",
+   "prompt": "Find the value of $h$.",
+   "answer": "3"
+  },
+  {
+   "id": "q10d",
+   "label": "10d",
+   "section": "Reasoning",
+   "stem": "The rule $y = x^2 - 6x - 16$ can be written in the form $y = (x - h)^2 + k$.",
+   "type": "numeric",
+   "prompt": "Find the value of $k$.",
+   "answer": "-25"
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Enrichment",
+   "stem": "Find the rule for each graph in intercept form $y = a(x - p)(x - q)$. For example, a graph with $x$-intercepts $-1$ and $3$ and $y$-intercept $-6$ gives $-6 = a(0 + 1)(0 - 3)$, so $a = 2$ and $y = 2(x + 1)(x - 3)$.",
+   "type": "expression",
+   "prompt": "Graph a",
+   "answer": "y=2(x + 2)(x - 4)",
+   "accept": [
+    "2(x + 2)(x - 4)"
+   ],
+   "hint": "Type the rule, for example y = 2(x + 1)(x - 3) or y = -1/2(x - 2)(x + 4)",
+   "figure": {
+    "kind": "diagram",
+    "unit": 24,
+    "items": [
+     {
+      "seg": [
+       -4,
+       0,
+       6,
+       0
+      ],
+      "arrow": "end",
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       -19,
+       0,
+       4
+      ],
+      "arrow": "end",
+      "thin": true
+     },
+     {
+      "label": "x",
+      "at": [
+       6.45,
+       0
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       4.5
+      ]
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.4,
+       -0.5
+      ]
+     },
+     {
+      "poly": [
+       [
+        -2.302,
+        3.8
+       ],
+       [
+        -2.2,
+        2.48
+       ],
+       [
+        -2.075,
+        0.911
+       ],
+       [
+        -1.95,
+        -0.595
+       ],
+       [
+        -1.825,
+        -2.039
+       ],
+       [
+        -1.7,
+        -3.42
+       ],
+       [
+        -1.575,
+        -4.739
+       ],
+       [
+        -1.45,
+        -5.995
+       ],
+       [
+        -1.325,
+        -7.189
+       ],
+       [
+        -1.2,
+        -8.32
+       ],
+       [
+        -1.075,
+        -9.389
+       ],
+       [
+        -0.95,
+        -10.395
+       ],
+       [
+        -0.825,
+        -11.339
+       ],
+       [
+        -0.7,
+        -12.22
+       ],
+       [
+        -0.575,
+        -13.039
+       ],
+       [
+        -0.45,
+        -13.795
+       ],
+       [
+        -0.325,
+        -14.489
+       ],
+       [
+        -0.2,
+        -15.12
+       ],
+       [
+        -0.075,
+        -15.689
+       ],
+       [
+        0.05,
+        -16.195
+       ],
+       [
+        0.175,
+        -16.639
+       ],
+       [
+        0.3,
+        -17.02
+       ],
+       [
+        0.425,
+        -17.339
+       ],
+       [
+        0.55,
+        -17.595
+       ],
+       [
+        0.675,
+        -17.789
+       ],
+       [
+        0.8,
+        -17.92
+       ],
+       [
+        0.925,
+        -17.989
+       ],
+       [
+        1.05,
+        -17.995
+       ],
+       [
+        1.175,
+        -17.939
+       ],
+       [
+        1.3,
+        -17.82
+       ],
+       [
+        1.425,
+        -17.639
+       ],
+       [
+        1.55,
+        -17.395
+       ],
+       [
+        1.675,
+        -17.089
+       ],
+       [
+        1.8,
+        -16.72
+       ],
+       [
+        1.925,
+        -16.289
+       ],
+       [
+        2.05,
+        -15.795
+       ],
+       [
+        2.175,
+        -15.239
+       ],
+       [
+        2.3,
+        -14.62
+       ],
+       [
+        2.425,
+        -13.939
+       ],
+       [
+        2.55,
+        -13.195
+       ],
+       [
+        2.675,
+        -12.389
+       ],
+       [
+        2.8,
+        -11.52
+       ],
+       [
+        2.925,
+        -10.589
+       ],
+       [
+        3.05,
+        -9.595
+       ],
+       [
+        3.175,
+        -8.539
+       ],
+       [
+        3.3,
+        -7.42
+       ],
+       [
+        3.425,
+        -6.239
+       ],
+       [
+        3.55,
+        -4.995
+       ],
+       [
+        3.675,
+        -3.689
+       ],
+       [
+        3.8,
+        -2.32
+       ],
+       [
+        3.925,
+        -0.889
+       ],
+       [
+        4.05,
+        0.605
+       ],
+       [
+        4.175,
+        2.161
+       ],
+       [
+        4.3,
+        3.78
+       ],
+       [
+        4.302,
+        3.8
+       ]
+      ],
+      "open": true
+     },
+     {
+      "point": [
+       -2,
+       0
+      ],
+      "name": "-2",
+      "pos": "nw"
+     },
+     {
+      "point": [
+       4,
+       0
+      ],
+      "name": "4",
+      "pos": "ne"
+     },
+     {
+      "point": [
+       0,
+       -16
+      ],
+      "name": "-16",
+      "pos": "w"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Enrichment",
+   "stem": "Find the rule for each graph in intercept form $y = a(x - p)(x - q)$. For example, a graph with $x$-intercepts $-1$ and $3$ and $y$-intercept $-6$ gives $-6 = a(0 + 1)(0 - 3)$, so $a = 2$ and $y = 2(x + 1)(x - 3)$.",
+   "type": "expression",
+   "prompt": "Graph b",
+   "answer": "y=2(x + 4)(x - 1)",
+   "accept": [
+    "2(x + 4)(x - 1)"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 24,
+    "items": [
+     {
+      "seg": [
+       -6,
+       0,
+       3,
+       0
+      ],
+      "arrow": "end",
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       -14,
+       0,
+       3
+      ],
+      "arrow": "end",
+      "thin": true
+     },
+     {
+      "label": "x",
+      "at": [
+       3.45,
+       0
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       3.5
+      ]
+     },
+     {
+      "label": "O",
+      "at": [
+       0.4,
+       -0.5
+      ]
+     },
+     {
+      "poly": [
+       [
+        -4.266,
+        2.8
+       ],
+       [
+        -4.155,
+        1.598
+       ],
+       [
+        -4.043,
+        0.429
+       ],
+       [
+        -3.93,
+        -0.69
+       ],
+       [
+        -3.818,
+        -1.758
+       ],
+       [
+        -3.705,
+        -2.776
+       ],
+       [
+        -3.593,
+        -3.743
+       ],
+       [
+        -3.48,
+        -4.659
+       ],
+       [
+        -3.368,
+        -5.525
+       ],
+       [
+        -3.255,
+        -6.34
+       ],
+       [
+        -3.143,
+        -7.104
+       ],
+       [
+        -3.03,
+        -7.818
+       ],
+       [
+        -2.918,
+        -8.481
+       ],
+       [
+        -2.805,
+        -9.094
+       ],
+       [
+        -2.693,
+        -9.656
+       ],
+       [
+        -2.58,
+        -10.167
+       ],
+       [
+        -2.468,
+        -10.628
+       ],
+       [
+        -2.355,
+        -11.038
+       ],
+       [
+        -2.243,
+        -11.397
+       ],
+       [
+        -2.13,
+        -11.706
+       ],
+       [
+        -2.018,
+        -11.964
+       ],
+       [
+        -1.905,
+        -12.172
+       ],
+       [
+        -1.793,
+        -12.329
+       ],
+       [
+        -1.68,
+        -12.435
+       ],
+       [
+        -1.567,
+        -12.491
+       ],
+       [
+        -1.455,
+        -12.496
+       ],
+       [
+        -1.343,
+        -12.45
+       ],
+       [
+        -1.23,
+        -12.354
+       ],
+       [
+        -1.118,
+        -12.207
+       ],
+       [
+        -1.005,
+        -12.01
+       ],
+       [
+        -0.893,
+        -11.762
+       ],
+       [
+        -0.78,
+        -11.463
+       ],
+       [
+        -0.668,
+        -11.114
+       ],
+       [
+        -0.555,
+        -10.714
+       ],
+       [
+        -0.442,
+        -10.263
+       ],
+       [
+        -0.33,
+        -9.762
+       ],
+       [
+        -0.218,
+        -9.21
+       ],
+       [
+        -0.105,
+        -8.608
+       ],
+       [
+        0.007,
+        -7.955
+       ],
+       [
+        0.12,
+        -7.251
+       ],
+       [
+        0.232,
+        -6.497
+       ],
+       [
+        0.345,
+        -5.692
+       ],
+       [
+        0.457,
+        -4.836
+       ],
+       [
+        0.57,
+        -3.93
+       ],
+       [
+        0.683,
+        -2.973
+       ],
+       [
+        0.795,
+        -1.966
+       ],
+       [
+        0.907,
+        -0.908
+       ],
+       [
+        1.02,
+        0.201
+       ],
+       [
+        1.132,
+        1.36
+       ],
+       [
+        1.245,
+        2.57
+       ],
+       [
+        1.266,
+        2.8
+       ]
+      ],
+      "open": true
+     },
+     {
+      "point": [
+       -4,
+       0
+      ],
+      "name": "-4",
+      "pos": "nw"
+     },
+     {
+      "point": [
+       1,
+       0
+      ],
+      "name": "1",
+      "pos": "ne"
+     },
+     {
+      "point": [
+       0,
+       -8
+      ],
+      "name": "-8",
+      "pos": "e"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q11c",
+   "label": "11c",
+   "section": "Enrichment",
+   "stem": "Find the rule for each graph in intercept form $y = a(x - p)(x - q)$. For example, a graph with $x$-intercepts $-1$ and $3$ and $y$-intercept $-6$ gives $-6 = a(0 + 1)(0 - 3)$, so $a = 2$ and $y = 2(x + 1)(x - 3)$.",
+   "type": "expression",
+   "prompt": "Graph c",
+   "answer": "y=(x + 2)(x - 3)",
+   "accept": [
+    "(x + 2)(x - 3)"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 24,
+    "items": [
+     {
+      "seg": [
+       -4,
+       0,
+       5,
+       0
+      ],
+      "arrow": "end",
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       -8,
+       0,
+       4
+      ],
+      "arrow": "end",
+      "thin": true
+     },
+     {
+      "label": "x",
+      "at": [
+       5.45,
+       0
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       4.5
+      ]
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.4,
+       -0.5
+      ]
+     },
+     {
+      "poly": [
+       [
+        -2.67,
+        3.8
+       ],
+       [
+        -2.605,
+        3.391
+       ],
+       [
+        -2.492,
+        2.705
+       ],
+       [
+        -2.38,
+        2.044
+       ],
+       [
+        -2.268,
+        1.409
+       ],
+       [
+        -2.155,
+        0.799
+       ],
+       [
+        -2.042,
+        0.214
+       ],
+       [
+        -1.93,
+        -0.345
+       ],
+       [
+        -1.817,
+        -0.879
+       ],
+       [
+        -1.705,
+        -1.388
+       ],
+       [
+        -1.592,
+        -1.871
+       ],
+       [
+        -1.48,
+        -2.33
+       ],
+       [
+        -1.367,
+        -2.762
+       ],
+       [
+        -1.255,
+        -3.17
+       ],
+       [
+        -1.143,
+        -3.552
+       ],
+       [
+        -1.03,
+        -3.909
+       ],
+       [
+        -0.917,
+        -4.241
+       ],
+       [
+        -0.805,
+        -4.547
+       ],
+       [
+        -0.692,
+        -4.828
+       ],
+       [
+        -0.58,
+        -5.084
+       ],
+       [
+        -0.467,
+        -5.314
+       ],
+       [
+        -0.355,
+        -5.519
+       ],
+       [
+        -0.242,
+        -5.699
+       ],
+       [
+        -0.13,
+        -5.853
+       ],
+       [
+        -0.018,
+        -5.982
+       ],
+       [
+        0.095,
+        -6.086
+       ],
+       [
+        0.208,
+        -6.164
+       ],
+       [
+        0.32,
+        -6.218
+       ],
+       [
+        0.433,
+        -6.245
+       ],
+       [
+        0.545,
+        -6.248
+       ],
+       [
+        0.658,
+        -6.225
+       ],
+       [
+        0.77,
+        -6.177
+       ],
+       [
+        0.882,
+        -6.104
+       ],
+       [
+        0.995,
+        -6.005
+       ],
+       [
+        1.108,
+        -5.881
+       ],
+       [
+        1.22,
+        -5.732
+       ],
+       [
+        1.333,
+        -5.557
+       ],
+       [
+        1.445,
+        -5.357
+       ],
+       [
+        1.558,
+        -5.132
+       ],
+       [
+        1.67,
+        -4.881
+       ],
+       [
+        1.783,
+        -4.605
+       ],
+       [
+        1.895,
+        -4.304
+       ],
+       [
+        2.007,
+        -3.977
+       ],
+       [
+        2.12,
+        -3.626
+       ],
+       [
+        2.233,
+        -3.248
+       ],
+       [
+        2.345,
+        -2.846
+       ],
+       [
+        2.458,
+        -2.418
+       ],
+       [
+        2.57,
+        -1.965
+       ],
+       [
+        2.683,
+        -1.487
+       ],
+       [
+        2.795,
+        -0.983
+       ],
+       [
+        2.908,
+        -0.454
+       ],
+       [
+        3.02,
+        0.1
+       ],
+       [
+        3.132,
+        0.68
+       ],
+       [
+        3.245,
+        1.285
+       ],
+       [
+        3.358,
+        1.915
+       ],
+       [
+        3.47,
+        2.571
+       ],
+       [
+        3.583,
+        3.252
+       ],
+       [
+        3.67,
+        3.8
+       ]
+      ],
+      "open": true
+     },
+     {
+      "point": [
+       -2,
+       0
+      ],
+      "name": "-2",
+      "pos": "nw"
+     },
+     {
+      "point": [
+       3,
+       0
+      ],
+      "name": "3",
+      "pos": "ne"
+     },
+     {
+      "point": [
+       0,
+       -6
+      ],
+      "name": "-6",
+      "pos": "w"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q11d",
+   "label": "11d",
+   "section": "Enrichment",
+   "stem": "Find the rule for each graph in intercept form $y = a(x - p)(x - q)$. For example, a graph with $x$-intercepts $-1$ and $3$ and $y$-intercept $-6$ gives $-6 = a(0 + 1)(0 - 3)$, so $a = 2$ and $y = 2(x + 1)(x - 3)$.",
+   "type": "expression",
+   "prompt": "Graph d",
+   "answer": "y=-2(x + 1)(x - 4)",
+   "accept": [
+    "-2(x + 1)(x - 4)"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 24,
+    "items": [
+     {
+      "seg": [
+       -3,
+       0,
+       6,
+       0
+      ],
+      "arrow": "end",
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       -3,
+       0,
+       14
+      ],
+      "arrow": "end",
+      "thin": true
+     },
+     {
+      "label": "x",
+      "at": [
+       6.45,
+       0
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       14.5
+      ]
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.4,
+       -0.5
+      ]
+     },
+     {
+      "poly": [
+       [
+        -1.266,
+        -2.8
+       ],
+       [
+        -1.155,
+        -1.598
+       ],
+       [
+        -1.042,
+        -0.429
+       ],
+       [
+        -0.93,
+        0.69
+       ],
+       [
+        -0.817,
+        1.758
+       ],
+       [
+        -0.705,
+        2.776
+       ],
+       [
+        -0.592,
+        3.743
+       ],
+       [
+        -0.48,
+        4.659
+       ],
+       [
+        -0.367,
+        5.525
+       ],
+       [
+        -0.255,
+        6.34
+       ],
+       [
+        -0.143,
+        7.104
+       ],
+       [
+        -0.03,
+        7.818
+       ],
+       [
+        0.083,
+        8.481
+       ],
+       [
+        0.195,
+        9.094
+       ],
+       [
+        0.308,
+        9.656
+       ],
+       [
+        0.42,
+        10.167
+       ],
+       [
+        0.533,
+        10.628
+       ],
+       [
+        0.645,
+        11.038
+       ],
+       [
+        0.758,
+        11.397
+       ],
+       [
+        0.87,
+        11.706
+       ],
+       [
+        0.982,
+        11.964
+       ],
+       [
+        1.095,
+        12.172
+       ],
+       [
+        1.208,
+        12.329
+       ],
+       [
+        1.32,
+        12.435
+       ],
+       [
+        1.433,
+        12.491
+       ],
+       [
+        1.545,
+        12.496
+       ],
+       [
+        1.658,
+        12.45
+       ],
+       [
+        1.77,
+        12.354
+       ],
+       [
+        1.882,
+        12.207
+       ],
+       [
+        1.995,
+        12.01
+       ],
+       [
+        2.108,
+        11.762
+       ],
+       [
+        2.22,
+        11.463
+       ],
+       [
+        2.333,
+        11.114
+       ],
+       [
+        2.445,
+        10.714
+       ],
+       [
+        2.558,
+        10.263
+       ],
+       [
+        2.67,
+        9.762
+       ],
+       [
+        2.783,
+        9.21
+       ],
+       [
+        2.895,
+        8.608
+       ],
+       [
+        3.007,
+        7.955
+       ],
+       [
+        3.12,
+        7.251
+       ],
+       [
+        3.233,
+        6.497
+       ],
+       [
+        3.345,
+        5.692
+       ],
+       [
+        3.458,
+        4.836
+       ],
+       [
+        3.57,
+        3.93
+       ],
+       [
+        3.683,
+        2.973
+       ],
+       [
+        3.795,
+        1.966
+       ],
+       [
+        3.908,
+        0.908
+       ],
+       [
+        4.02,
+        -0.201
+       ],
+       [
+        4.133,
+        -1.36
+       ],
+       [
+        4.245,
+        -2.57
+       ],
+       [
+        4.266,
+        -2.8
+       ]
+      ],
+      "open": true
+     },
+     {
+      "point": [
+       -1,
+       0
+      ],
+      "name": "-1",
+      "pos": "sw"
+     },
+     {
+      "point": [
+       4,
+       0
+      ],
+      "name": "4",
+      "pos": "se"
+     },
+     {
+      "point": [
+       0,
+       8
+      ],
+      "name": "8",
+      "pos": "w"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q11e",
+   "label": "11e",
+   "section": "Enrichment",
+   "stem": "Find the rule for each graph in intercept form $y = a(x - p)(x - q)$. For example, a graph with $x$-intercepts $-1$ and $3$ and $y$-intercept $-6$ gives $-6 = a(0 + 1)(0 - 3)$, so $a = 2$ and $y = 2(x + 1)(x - 3)$.",
+   "type": "expression",
+   "prompt": "Graph e",
+   "answer": "y=-(x + 6)(x + 2)",
+   "accept": [
+    "-(x + 6)(x + 2)"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 24,
+    "items": [
+     {
+      "seg": [
+       -8,
+       0,
+       2,
+       0
+      ],
+      "arrow": "end",
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       -14,
+       0,
+       6
+      ],
+      "arrow": "end",
+      "thin": true
+     },
+     {
+      "label": "x",
+      "at": [
+       2.45,
+       0
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       6.5
+      ]
+     },
+     {
+      "label": "O",
+      "at": [
+       0.4,
+       -0.5
+      ]
+     },
+     {
+      "poly": [
+       [
+        -7.7,
+        -9.69
+       ],
+       [
+        -7.575,
+        -8.781
+       ],
+       [
+        -7.45,
+        -7.903
+       ],
+       [
+        -7.325,
+        -7.056
+       ],
+       [
+        -7.2,
+        -6.24
+       ],
+       [
+        -7.075,
+        -5.456
+       ],
+       [
+        -6.95,
+        -4.703
+       ],
+       [
+        -6.825,
+        -3.981
+       ],
+       [
+        -6.7,
+        -3.29
+       ],
+       [
+        -6.575,
+        -2.631
+       ],
+       [
+        -6.45,
+        -2.003
+       ],
+       [
+        -6.325,
+        -1.406
+       ],
+       [
+        -6.2,
+        -0.84
+       ],
+       [
+        -6.075,
+        -0.306
+       ],
+       [
+        -5.95,
+        0.197
+       ],
+       [
+        -5.825,
+        0.669
+       ],
+       [
+        -5.7,
+        1.11
+       ],
+       [
+        -5.575,
+        1.519
+       ],
+       [
+        -5.45,
+        1.897
+       ],
+       [
+        -5.325,
+        2.244
+       ],
+       [
+        -5.2,
+        2.56
+       ],
+       [
+        -5.075,
+        2.844
+       ],
+       [
+        -4.95,
+        3.097
+       ],
+       [
+        -4.825,
+        3.319
+       ],
+       [
+        -4.7,
+        3.51
+       ],
+       [
+        -4.575,
+        3.669
+       ],
+       [
+        -4.45,
+        3.797
+       ],
+       [
+        -4.325,
+        3.894
+       ],
+       [
+        -4.2,
+        3.96
+       ],
+       [
+        -4.075,
+        3.994
+       ],
+       [
+        -3.95,
+        3.998
+       ],
+       [
+        -3.825,
+        3.969
+       ],
+       [
+        -3.7,
+        3.91
+       ],
+       [
+        -3.575,
+        3.819
+       ],
+       [
+        -3.45,
+        3.698
+       ],
+       [
+        -3.325,
+        3.544
+       ],
+       [
+        -3.2,
+        3.36
+       ],
+       [
+        -3.075,
+        3.144
+       ],
+       [
+        -2.95,
+        2.898
+       ],
+       [
+        -2.825,
+        2.619
+       ],
+       [
+        -2.7,
+        2.31
+       ],
+       [
+        -2.575,
+        1.969
+       ],
+       [
+        -2.45,
+        1.598
+       ],
+       [
+        -2.325,
+        1.194
+       ],
+       [
+        -2.2,
+        0.76
+       ],
+       [
+        -2.075,
+        0.294
+       ],
+       [
+        -1.95,
+        -0.202
+       ],
+       [
+        -1.825,
+        -0.731
+       ],
+       [
+        -1.7,
+        -1.29
+       ],
+       [
+        -1.575,
+        -1.881
+       ],
+       [
+        -1.45,
+        -2.502
+       ],
+       [
+        -1.325,
+        -3.156
+       ],
+       [
+        -1.2,
+        -3.84
+       ],
+       [
+        -1.075,
+        -4.556
+       ],
+       [
+        -0.95,
+        -5.302
+       ],
+       [
+        -0.825,
+        -6.081
+       ],
+       [
+        -0.7,
+        -6.89
+       ],
+       [
+        -0.575,
+        -7.731
+       ],
+       [
+        -0.45,
+        -8.602
+       ],
+       [
+        -0.325,
+        -9.506
+       ],
+       [
+        -0.2,
+        -10.44
+       ],
+       [
+        -0.075,
+        -11.406
+       ],
+       [
+        0.05,
+        -12.402
+       ],
+       [
+        0.175,
+        -13.431
+       ],
+       [
+        0.219,
+        -13.8
+       ]
+      ],
+      "open": true
+     },
+     {
+      "point": [
+       -6,
+       0
+      ],
+      "name": "-6",
+      "pos": "sw"
+     },
+     {
+      "point": [
+       -2,
+       0
+      ],
+      "name": "-2",
+      "pos": "se"
+     },
+     {
+      "point": [
+       0,
+       -12
+      ],
+      "name": "-12",
+      "pos": "e"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q11f",
+   "label": "11f",
+   "section": "Enrichment",
+   "stem": "Find the rule for each graph in intercept form $y = a(x - p)(x - q)$. For example, a graph with $x$-intercepts $-1$ and $3$ and $y$-intercept $-6$ gives $-6 = a(0 + 1)(0 - 3)$, so $a = 2$ and $y = 2(x + 1)(x - 3)$.",
+   "type": "expression",
+   "prompt": "Graph f",
+   "answer": "y=3(x + 5)(x - 1)",
+   "accept": [
+    "3(x + 5)(x - 1)"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 24,
+    "items": [
+     {
+      "seg": [
+       -8,
+       0,
+       4,
+       0
+      ],
+      "arrow": "end",
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       -30,
+       0,
+       4
+      ],
+      "arrow": "end",
+      "thin": true
+     },
+     {
+      "label": "x",
+      "at": [
+       4.45,
+       0
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       4.5
+      ]
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.6,
+       -2.6
+      ]
+     },
+     {
+      "poly": [
+       [
+        -5.204,
+        3.8
+       ],
+       [
+        -5.09,
+        1.644
+       ],
+       [
+        -4.94,
+        -1.069
+       ],
+       [
+        -4.79,
+        -3.648
+       ],
+       [
+        -4.64,
+        -6.091
+       ],
+       [
+        -4.49,
+        -8.4
+       ],
+       [
+        -4.34,
+        -10.573
+       ],
+       [
+        -4.19,
+        -12.612
+       ],
+       [
+        -4.04,
+        -14.515
+       ],
+       [
+        -3.89,
+        -16.284
+       ],
+       [
+        -3.74,
+        -17.917
+       ],
+       [
+        -3.59,
+        -19.416
+       ],
+       [
+        -3.44,
+        -20.779
+       ],
+       [
+        -3.29,
+        -22.008
+       ],
+       [
+        -3.14,
+        -23.101
+       ],
+       [
+        -2.99,
+        -24.06
+       ],
+       [
+        -2.84,
+        -24.883
+       ],
+       [
+        -2.69,
+        -25.572
+       ],
+       [
+        -2.54,
+        -26.125
+       ],
+       [
+        -2.39,
+        -26.544
+       ],
+       [
+        -2.24,
+        -26.827
+       ],
+       [
+        -2.09,
+        -26.976
+       ],
+       [
+        -1.94,
+        -26.989
+       ],
+       [
+        -1.79,
+        -26.868
+       ],
+       [
+        -1.64,
+        -26.611
+       ],
+       [
+        -1.49,
+        -26.22
+       ],
+       [
+        -1.34,
+        -25.693
+       ],
+       [
+        -1.19,
+        -25.032
+       ],
+       [
+        -1.04,
+        -24.235
+       ],
+       [
+        -0.89,
+        -23.304
+       ],
+       [
+        -0.74,
+        -22.237
+       ],
+       [
+        -0.59,
+        -21.036
+       ],
+       [
+        -0.44,
+        -19.699
+       ],
+       [
+        -0.29,
+        -18.228
+       ],
+       [
+        -0.14,
+        -16.621
+       ],
+       [
+        0.01,
+        -14.88
+       ],
+       [
+        0.16,
+        -13.003
+       ],
+       [
+        0.31,
+        -10.992
+       ],
+       [
+        0.46,
+        -8.845
+       ],
+       [
+        0.61,
+        -6.564
+       ],
+       [
+        0.76,
+        -4.147
+       ],
+       [
+        0.91,
+        -1.596
+       ],
+       [
+        1.06,
+        1.091
+       ],
+       [
+        1.204,
+        3.8
+       ]
+      ],
+      "open": true
+     },
+     {
+      "point": [
+       -5,
+       0
+      ],
+      "name": "-5",
+      "pos": "nw"
+     },
+     {
+      "point": [
+       1,
+       0
+      ],
+      "name": "1",
+      "pos": "ne"
+     },
+     {
+      "point": [
+       0,
+       -15
+      ],
+      "name": "-15",
+      "pos": "e"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q11g",
+   "label": "11g",
+   "section": "Enrichment",
+   "stem": "Find the rule for each graph in intercept form $y = a(x - p)(x - q)$. For example, a graph with $x$-intercepts $-1$ and $3$ and $y$-intercept $-6$ gives $-6 = a(0 + 1)(0 - 3)$, so $a = 2$ and $y = 2(x + 1)(x - 3)$.",
+   "type": "expression",
+   "prompt": "Graph g",
+   "answer": "y=(-1/2)(x + 2)(x - 6)",
+   "accept": [
+    "(-1/2)(x + 2)(x - 6)"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 24,
+    "items": [
+     {
+      "seg": [
+       -4,
+       0,
+       8,
+       0
+      ],
+      "arrow": "end",
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       -3,
+       0,
+       10
+      ],
+      "arrow": "end",
+      "thin": true
+     },
+     {
+      "label": "x",
+      "at": [
+       8.45,
+       0
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       10.5
+      ]
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.4,
+       -0.5
+      ]
+     },
+     {
+      "poly": [
+       [
+        -2.648,
+        -2.8
+       ],
+       [
+        -2.59,
+        -2.534
+       ],
+       [
+        -2.44,
+        -1.857
+       ],
+       [
+        -2.29,
+        -1.202
+       ],
+       [
+        -2.14,
+        -0.57
+       ],
+       [
+        -1.99,
+        0.04
+       ],
+       [
+        -1.84,
+        0.627
+       ],
+       [
+        -1.69,
+        1.192
+       ],
+       [
+        -1.54,
+        1.734
+       ],
+       [
+        -1.39,
+        2.254
+       ],
+       [
+        -1.24,
+        2.751
+       ],
+       [
+        -1.09,
+        3.226
+       ],
+       [
+        -0.94,
+        3.678
+       ],
+       [
+        -0.79,
+        4.108
+       ],
+       [
+        -0.64,
+        4.515
+       ],
+       [
+        -0.49,
+        4.9
+       ],
+       [
+        -0.34,
+        5.262
+       ],
+       [
+        -0.19,
+        5.602
+       ],
+       [
+        -0.04,
+        5.919
+       ],
+       [
+        0.11,
+        6.214
+       ],
+       [
+        0.26,
+        6.486
+       ],
+       [
+        0.41,
+        6.736
+       ],
+       [
+        0.56,
+        6.963
+       ],
+       [
+        0.71,
+        7.168
+       ],
+       [
+        0.86,
+        7.35
+       ],
+       [
+        1.01,
+        7.51
+       ],
+       [
+        1.16,
+        7.647
+       ],
+       [
+        1.31,
+        7.762
+       ],
+       [
+        1.46,
+        7.854
+       ],
+       [
+        1.61,
+        7.924
+       ],
+       [
+        1.76,
+        7.971
+       ],
+       [
+        1.91,
+        7.996
+       ],
+       [
+        2.06,
+        7.998
+       ],
+       [
+        2.21,
+        7.978
+       ],
+       [
+        2.36,
+        7.935
+       ],
+       [
+        2.51,
+        7.87
+       ],
+       [
+        2.66,
+        7.782
+       ],
+       [
+        2.81,
+        7.672
+       ],
+       [
+        2.96,
+        7.539
+       ],
+       [
+        3.11,
+        7.384
+       ],
+       [
+        3.26,
+        7.206
+       ],
+       [
+        3.41,
+        7.006
+       ],
+       [
+        3.56,
+        6.783
+       ],
+       [
+        3.71,
+        6.538
+       ],
+       [
+        3.86,
+        6.27
+       ],
+       [
+        4.01,
+        5.98
+       ],
+       [
+        4.16,
+        5.667
+       ],
+       [
+        4.31,
+        5.332
+       ],
+       [
+        4.46,
+        4.974
+       ],
+       [
+        4.61,
+        4.594
+       ],
+       [
+        4.76,
+        4.191
+       ],
+       [
+        4.91,
+        3.766
+       ],
+       [
+        5.06,
+        3.318
+       ],
+       [
+        5.21,
+        2.848
+       ],
+       [
+        5.36,
+        2.355
+       ],
+       [
+        5.51,
+        1.84
+       ],
+       [
+        5.66,
+        1.302
+       ],
+       [
+        5.81,
+        0.742
+       ],
+       [
+        5.96,
+        0.159
+       ],
+       [
+        6.11,
+        -0.446
+       ],
+       [
+        6.26,
+        -1.074
+       ],
+       [
+        6.41,
+        -1.724
+       ],
+       [
+        6.56,
+        -2.397
+       ],
+       [
+        6.648,
+        -2.8
+       ]
+      ],
+      "open": true
+     },
+     {
+      "point": [
+       -2,
+       0
+      ],
+      "name": "-2",
+      "pos": "sw"
+     },
+     {
+      "point": [
+       6,
+       0
+      ],
+      "name": "6",
+      "pos": "se"
+     },
+     {
+      "point": [
+       0,
+       6
+      ],
+      "name": "6",
+      "pos": "w"
+     }
+    ]
+   }
+  }
+ ]
+}
+);
