@@ -254,7 +254,10 @@ const Checker = (() => {
 
   function close(a, b, tol) {
     if (tol != null) return Math.abs(a - b) <= tol + 1e-12;
-    return Math.abs(a - b) <= 1e-9 * Math.max(1, Math.abs(a), Math.abs(b));
+    // Relative, so tiny answers are compared properly (7 × 10^-10 is not 6 × 10^-10);
+    // a small absolute allowance only when one side is exactly zero.
+    if (a === 0 || b === 0) return Math.abs(a - b) <= 1e-12;
+    return Math.abs(a - b) <= 1e-9 * Math.max(Math.abs(a), Math.abs(b));
   }
 
   function numericMatch(q, studentRaw, expectedRaw) {
