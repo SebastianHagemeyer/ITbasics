@@ -67294,6 +67294,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-5a-error",
    "label": "1a",
    "section": "Fluency",
    "stem": "Calculate the absolute percentage error for each measurement and actual value.",
@@ -67304,6 +67305,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-5a-error",
    "label": "1b",
    "section": "Fluency",
    "stem": "Calculate the absolute percentage error for each measurement and actual value.",
@@ -67314,6 +67316,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-5a-error",
    "label": "1c",
    "section": "Fluency",
    "stem": "Calculate the absolute percentage error for each measurement and actual value.",
@@ -67324,6 +67327,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-5a-error",
    "label": "1d",
    "section": "Fluency",
    "stem": "Calculate the absolute percentage error for each measurement and actual value.",
@@ -67334,6 +67338,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-5a-error",
    "label": "2a",
    "section": "Fluency",
    "stem": "Calculate the absolute percentage error for each measurement and actual value.",
@@ -67344,6 +67349,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-5a-error",
    "label": "2b",
    "section": "Fluency",
    "stem": "Calculate the absolute percentage error for each measurement and actual value.",
@@ -67354,6 +67360,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-5a-error",
    "label": "2c",
    "section": "Fluency",
    "stem": "Calculate the absolute percentage error for each measurement and actual value.",
@@ -67364,6 +67371,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-5a-error",
    "label": "2d",
    "section": "Fluency",
    "stem": "Calculate the absolute percentage error for each measurement and actual value.",
@@ -67374,6 +67382,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-5a-totals",
    "label": "3a",
    "section": "Fluency",
    "stem": "A single muesli bar is weighed on a digital scale that shows grams correct to one decimal place. The scale shows $32.4$ g.",
@@ -67388,6 +67397,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-5a-totals",
    "label": "3b",
    "section": "Fluency",
    "stem": "A single muesli bar is weighed on a digital scale that shows grams correct to one decimal place. The scale shows $32.4$ g.",
@@ -67401,6 +67411,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-5a-totals",
    "label": "4a",
    "section": "Fluency",
    "stem": "A single marker pen is weighed on a digital scale that shows grams correct to the nearest whole number. The scale shows $22$ g.",
@@ -67414,6 +67425,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-5a-totals",
    "label": "4b",
    "section": "Fluency",
    "stem": "A single marker pen is weighed on a digital scale that shows grams correct to the nearest whole number. The scale shows $22$ g.",
@@ -67427,6 +67439,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-5a-totals",
    "label": "5a",
    "section": "Fluency",
    "stem": "A single bottle of juice is measured with a jug whose scale is marked every $10$ mL. The reading is $1.73$ L.",
@@ -67440,6 +67453,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-5a-totals",
    "label": "5b",
    "section": "Fluency",
    "stem": "A single bottle of juice is measured with a jug whose scale is marked every $10$ mL. The reading is $1.73$ L.",
@@ -67453,6 +67467,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-5a-limits",
    "label": "6a",
    "section": "Fluency",
    "stem": "Give the lower and upper limits of accuracy for each measurement.",
@@ -67466,6 +67481,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-5a-limits",
    "label": "6b",
    "section": "Fluency",
    "stem": "Give the lower and upper limits of accuracy for each measurement.",
@@ -67479,6 +67495,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y9-5a-limits",
    "label": "6c",
    "section": "Fluency",
    "stem": "Give the lower and upper limits of accuracy for each measurement.",
@@ -67492,6 +67509,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y9-5a-limits",
    "label": "6d",
    "section": "Fluency",
    "stem": "Give the lower and upper limits of accuracy for each measurement.",
@@ -67505,6 +67523,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6e",
+   "help": "y9-5a-limits",
    "label": "6e",
    "section": "Fluency",
    "stem": "Give the lower and upper limits of accuracy for each measurement.",
@@ -67518,6 +67537,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6f",
+   "help": "y9-5a-limits",
    "label": "6f",
    "section": "Fluency",
    "stem": "Give the lower and upper limits of accuracy for each measurement.",
@@ -67531,6 +67551,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6g",
+   "help": "y9-5a-limits",
    "label": "6g",
    "section": "Fluency",
    "stem": "Give the lower and upper limits of accuracy for each measurement.",
@@ -67544,6 +67565,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6h",
+   "help": "y9-5a-limits",
    "label": "6h",
    "section": "Fluency",
    "stem": "Give the lower and upper limits of accuracy for each measurement.",
@@ -67557,6 +67579,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7",
+   "help": "y9-5a-error",
    "label": "7",
    "section": "Problem-solving",
    "type": "numeric",
@@ -67567,6 +67590,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8",
+   "help": "y9-5a-totals",
    "label": "8",
    "section": "Problem-solving",
    "type": "numeric",
@@ -67576,6 +67600,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9",
+   "help": "y9-5a-reverse",
    "label": "9",
    "section": "Problem-solving",
    "type": "list",
@@ -67590,6 +67615,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10",
+   "help": "y9-5a-reverse",
    "label": "10",
    "section": "Problem-solving",
    "type": "list",
@@ -67604,6 +67630,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y9-5a-mean",
    "label": "11a",
    "section": "Reasoning",
    "stem": "Taking several readings and finding their mean is one way to reduce measurement error. The length of a walking track is measured four times: $31.6$ km, $31.9$ km, $32.3$ km and $32.0$ km. The actual length is known to be $32.2$ km.",
@@ -67614,6 +67641,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y9-5a-mean",
    "label": "11b",
    "section": "Reasoning",
    "stem": "Taking several readings and finding their mean is one way to reduce measurement error. The length of a walking track is measured four times: $31.6$ km, $31.9$ km, $32.3$ km and $32.0$ km. The actual length is known to be $32.2$ km.",
@@ -67625,6 +67653,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y9-5a-accuracy",
    "label": "13a",
    "section": "Reasoning",
    "stem": "A $1\\%$ error can be thought of as $99\\%$ accuracy. Find the accuracy for each of these.",
@@ -67635,6 +67664,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y9-5a-accuracy",
    "label": "13b",
    "section": "Reasoning",
    "stem": "A $1\\%$ error can be thought of as $99\\%$ accuracy. Find the accuracy for each of these.",
@@ -67646,6 +67676,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y9-5a-units",
    "label": "14a",
    "section": "Enrichment",
    "type": "numeric",
@@ -67656,6 +67687,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y9-5a-units",
    "label": "14b",
    "section": "Enrichment",
    "type": "numeric",
@@ -67675,6 +67707,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-5b-perimeter",
    "label": "1a",
    "section": "Fluency",
    "stem": "Find the perimeter of each shape. Sides with the same marks are equal.",
@@ -67804,6 +67837,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-5b-perimeter",
    "label": "1b",
    "section": "Fluency",
    "stem": "Find the perimeter of each shape. Sides with the same marks are equal.",
@@ -67871,6 +67905,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-5b-perimeter",
    "label": "1c",
    "section": "Fluency",
    "stem": "Find the perimeter of each shape. Sides with the same marks are equal.",
@@ -67960,6 +67995,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-5b-perimeter",
    "label": "1d",
    "section": "Fluency",
    "stem": "Find the perimeter of each shape. Sides with the same marks are equal.",
@@ -68081,6 +68117,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-5b-perimeter",
    "label": "2a",
    "section": "Fluency",
    "stem": "Find the perimeter of each composite shape. Sides with the same marks are equal.",
@@ -68218,6 +68255,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-5b-perimeter",
    "label": "2b",
    "section": "Fluency",
    "stem": "Find the perimeter of each composite shape. Sides with the same marks are equal.",
@@ -68371,6 +68409,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-5b-perimeter",
    "label": "2c",
    "section": "Fluency",
    "stem": "Find the perimeter of each composite shape. Sides with the same marks are equal.",
@@ -68510,6 +68549,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-5b-perimeter",
    "label": "2d",
    "section": "Fluency",
    "stem": "Find the perimeter of each composite shape. Sides with the same marks are equal.",
@@ -68725,6 +68765,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-5b-perimeter",
    "label": "2e",
    "section": "Fluency",
    "stem": "Find the perimeter of each composite shape. Sides with the same marks are equal.",
@@ -68892,6 +68933,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-5b-perimeter",
    "label": "2f",
    "section": "Fluency",
    "stem": "Find the perimeter of each composite shape. Sides with the same marks are equal.",
@@ -69030,6 +69072,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-5b-units",
    "label": "3a",
    "section": "Fluency",
    "stem": "Find the perimeter of each shape. First change the measurements to the same unit. Sides with the same marks are equal.",
@@ -69159,6 +69202,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-5b-units",
    "label": "3b",
    "section": "Fluency",
    "stem": "Find the perimeter of each shape. First change the measurements to the same unit. Sides with the same marks are equal.",
@@ -69280,6 +69324,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-5b-units",
    "label": "3c",
    "section": "Fluency",
    "stem": "Find the perimeter of each shape. First change the measurements to the same unit. Sides with the same marks are equal.",
@@ -69337,6 +69382,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-5b-units",
    "label": "4a",
    "section": "Fluency",
    "stem": "Convert each measurement to the unit given in brackets.",
@@ -69347,6 +69393,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-5b-units",
    "label": "4b",
    "section": "Fluency",
    "stem": "Convert each measurement to the unit given in brackets.",
@@ -69357,6 +69404,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-5b-units",
    "label": "4c",
    "section": "Fluency",
    "stem": "Convert each measurement to the unit given in brackets.",
@@ -69367,6 +69415,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-5b-units",
    "label": "4d",
    "section": "Fluency",
    "stem": "Convert each measurement to the unit given in brackets.",
@@ -69377,6 +69426,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y9-5b-units",
    "label": "4e",
    "section": "Fluency",
    "stem": "Convert each measurement to the unit given in brackets.",
@@ -69387,6 +69437,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y9-5b-units",
    "label": "4f",
    "section": "Fluency",
    "stem": "Convert each measurement to the unit given in brackets.",
@@ -69397,6 +69448,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-5b-find-x",
    "label": "5a",
    "section": "Fluency",
    "stem": "Find the value of $x$ in each shape, using the perimeter $P$ given. Sides with the same marks are equal.",
@@ -69464,6 +69516,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-5b-find-x",
    "label": "5b",
    "section": "Fluency",
    "stem": "Find the value of $x$ in each shape, using the perimeter $P$ given. Sides with the same marks are equal.",
@@ -69531,6 +69584,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-5b-find-x",
    "label": "5c",
    "section": "Fluency",
    "stem": "Find the value of $x$ in each shape, using the perimeter $P$ given. Sides with the same marks are equal.",
@@ -69598,6 +69652,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-5b-find-x",
    "label": "5d",
    "section": "Fluency",
    "stem": "Find the value of $x$ in each shape, using the perimeter $P$ given. Sides with the same marks are equal.",
@@ -69697,6 +69752,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y9-5b-find-x",
    "label": "5e",
    "section": "Fluency",
    "stem": "Find the value of $x$ in each shape, using the perimeter $P$ given. Sides with the same marks are equal.",
@@ -69818,6 +69874,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y9-5b-find-x",
    "label": "5f",
    "section": "Fluency",
    "stem": "Find the value of $x$ in each shape, using the perimeter $P$ given. Sides with the same marks are equal.",
@@ -69951,6 +70008,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6",
+   "help": "y9-5b-perimeter",
    "label": "6",
    "section": "Problem-solving",
    "type": "numeric",
@@ -69960,6 +70018,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-5b-stair",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "Find the perimeter of each shape. All angles are right angles. Sides with the same marks are equal.",
@@ -70146,6 +70205,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-5b-stair",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "Find the perimeter of each shape. All angles are right angles. Sides with the same marks are equal.",
@@ -70243,6 +70303,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-5b-find-x",
    "label": "8a",
    "section": "Problem-solving",
    "stem": "Find the value of $x$ in each shape, using the perimeter $P$ given. Sides with the same marks are equal.",
@@ -70372,6 +70433,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-5b-find-x",
    "label": "8b",
    "section": "Problem-solving",
    "stem": "Find the value of $x$ in each shape, using the perimeter $P$ given. Sides with the same marks are equal.",
@@ -70501,6 +70563,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y9-5b-find-x",
    "label": "8c",
    "section": "Problem-solving",
    "stem": "Find the value of $x$ in each shape, using the perimeter $P$ given. Sides with the same marks are equal.",
@@ -70568,6 +70631,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9",
+   "help": "y9-5b-frame",
    "label": "9",
    "section": "Problem-solving",
    "type": "numeric",
@@ -70577,6 +70641,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y9-5b-rule",
    "label": "10a",
    "section": "Reasoning",
    "stem": "Write a rule for the perimeter $P$ of each shape, using the letters shown. Sides with the same marks are equal and all angles that look like right angles are right angles.",
@@ -70709,6 +70774,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y9-5b-rule",
    "label": "10b",
    "section": "Reasoning",
    "stem": "Write a rule for the perimeter $P$ of each shape, using the letters shown. Sides with the same marks are equal and all angles that look like right angles are right angles.",
@@ -70832,6 +70898,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y9-5b-rule",
    "label": "10c",
    "section": "Reasoning",
    "stem": "Write a rule for the perimeter $P$ of each shape, using the letters shown. Sides with the same marks are equal and all angles that look like right angles are right angles.",
@@ -70901,6 +70968,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10d",
+   "help": "y9-5b-rule",
    "label": "10d",
    "section": "Reasoning",
    "stem": "Write a rule for the perimeter $P$ of each shape, using the letters shown. Sides with the same marks are equal and all angles that look like right angles are right angles.",
@@ -71014,6 +71082,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10e",
+   "help": "y9-5b-rule",
    "label": "10e",
    "section": "Reasoning",
    "stem": "Write a rule for the perimeter $P$ of each shape, using the letters shown. Sides with the same marks are equal and all angles that look like right angles are right angles.",
@@ -71163,6 +71232,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10f",
+   "help": "y9-5b-rule",
    "label": "10f",
    "section": "Reasoning",
    "stem": "Write a rule for the perimeter $P$ of each shape, using the letters shown. Sides with the same marks are equal and all angles that look like right angles are right angles.",
@@ -71272,6 +71342,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y9-5b-error",
    "label": "12a",
    "section": "Reasoning",
    "stem": "A square garden bed has its side length wrongly recorded as $3.8$ m when it is really $3.5$ m.",
@@ -71283,6 +71354,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y9-5b-error",
    "label": "12b",
    "section": "Reasoning",
    "stem": "A square garden bed has its side length wrongly recorded as $3.8$ m when it is really $3.5$ m.",
@@ -71294,6 +71366,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y9-5b-error",
    "label": "12c",
    "section": "Reasoning",
    "stem": "A square garden bed has its side length wrongly recorded as $3.8$ m when it is really $3.5$ m.",
@@ -71308,6 +71381,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y9-5b-ratio",
    "label": "13a",
    "section": "Reasoning",
    "stem": "A piece of rope $1.2$ m long is cut into parts in the given ratio. Find the length of each part in metres, in the same order as the ratio.",
@@ -71322,6 +71396,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y9-5b-ratio",
    "label": "13b",
    "section": "Reasoning",
    "stem": "A piece of rope $1.2$ m long is cut into parts in the given ratio. Find the length of each part in metres, in the same order as the ratio.",
@@ -71335,6 +71410,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13c",
+   "help": "y9-5b-ratio",
    "label": "13c",
    "section": "Reasoning",
    "stem": "A piece of rope $1.2$ m long is cut into parts in the given ratio. Find the length of each part in metres, in the same order as the ratio.",
@@ -71348,6 +71424,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13d",
+   "help": "y9-5b-ratio",
    "label": "13d",
    "section": "Reasoning",
    "stem": "A piece of rope $1.2$ m long is cut into parts in the given ratio. Find the length of each part in metres, in the same order as the ratio.",
@@ -71363,6 +71440,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y9-5b-frame",
    "label": "14a",
    "section": "Enrichment",
    "stem": "A square picture with side length $24$ cm is surrounded by a frame of width $x$ cm.",
@@ -71464,6 +71542,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y9-5b-frame",
    "label": "14b",
    "section": "Enrichment",
    "stem": "A square picture with side length $24$ cm is surrounded by a frame of width $x$ cm.",
@@ -71474,6 +71553,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14c",
+   "help": "y9-5b-frame",
    "label": "14c",
    "section": "Enrichment",
    "stem": "A square picture with side length $24$ cm is surrounded by a frame of width $x$ cm.",
@@ -71484,6 +71564,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14d",
+   "help": "y9-5b-frame",
    "label": "14d",
    "section": "Enrichment",
    "stem": "A square picture with side length $24$ cm is surrounded by a frame of width $x$ cm.",
@@ -71497,6 +71578,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14e",
+   "help": "y9-5b-frame",
    "label": "14e",
    "section": "Enrichment",
    "stem": "A square picture with side length $24$ cm is surrounded by a frame of width $x$ cm.",
@@ -71507,6 +71589,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14f",
+   "help": "y9-5b-frame",
    "label": "14f",
    "section": "Enrichment",
    "stem": "A square picture with side length $24$ cm is surrounded by a frame of width $x$ cm.",
@@ -71517,6 +71600,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14g",
+   "help": "y9-5b-frame",
    "label": "14g",
    "section": "Enrichment",
    "stem": "A square picture with side length $24$ cm is surrounded by a frame of width $x$ cm.",
@@ -71527,6 +71611,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14h",
+   "help": "y9-5b-frame",
    "label": "14h",
    "section": "Enrichment",
    "stem": "A square picture with side length $24$ cm is surrounded by a frame of width $x$ cm.",
@@ -71537,6 +71622,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14i",
+   "help": "y9-5b-frame",
    "label": "14i",
    "section": "Enrichment",
    "stem": "A square picture with side length $24$ cm is surrounded by a frame of width $x$ cm.",
@@ -71559,6 +71645,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-5c-circ",
    "label": "1a",
    "section": "Fluency",
    "stem": "Find the circumference of each circle, correct to two decimal places. Use the $\\pi$ key on your calculator.",
@@ -71607,6 +71694,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-5c-circ",
    "label": "1b",
    "section": "Fluency",
    "stem": "Find the circumference of each circle, correct to two decimal places. Use the $\\pi$ key on your calculator.",
@@ -71655,6 +71743,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-5c-circ",
    "label": "1c",
    "section": "Fluency",
    "stem": "Find the circumference of each circle, correct to two decimal places. Use the $\\pi$ key on your calculator.",
@@ -71704,6 +71793,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-5c-sector",
    "label": "2a",
    "section": "Fluency",
    "stem": "Find the perimeter of each sector, correct to two decimal places.",
@@ -71790,6 +71880,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-5c-sector",
    "label": "2b",
    "section": "Fluency",
    "stem": "Find the perimeter of each sector, correct to two decimal places.",
@@ -71936,6 +72027,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-5c-sector",
    "label": "2c",
    "section": "Fluency",
    "stem": "Find the perimeter of each sector, correct to two decimal places.",
@@ -72174,6 +72266,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-5c-sector",
    "label": "2d",
    "section": "Fluency",
    "stem": "Find the perimeter of each sector, correct to two decimal places.",
@@ -72288,6 +72381,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-5c-sector",
    "label": "2e",
    "section": "Fluency",
    "stem": "Find the perimeter of each sector, correct to two decimal places.",
@@ -72452,6 +72546,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-5c-sector",
    "label": "2f",
    "section": "Fluency",
    "stem": "Find the perimeter of each sector, correct to two decimal places.",
@@ -72686,6 +72781,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-5c-approx",
    "label": "3a",
    "section": "Fluency",
    "stem": "Find the circumference of each circle using the value of $\\pi$ given. Do not use a calculator.",
@@ -72733,6 +72829,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-5c-approx",
    "label": "3b",
    "section": "Fluency",
    "stem": "Find the circumference of each circle using the value of $\\pi$ given. Do not use a calculator.",
@@ -72780,6 +72877,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-5c-approx",
    "label": "3c",
    "section": "Fluency",
    "stem": "Find the circumference of each circle using the value of $\\pi$ given. Do not use a calculator.",
@@ -72827,6 +72925,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-5c-approx",
    "label": "3d",
    "section": "Fluency",
    "stem": "Find the circumference of each circle using the value of $\\pi$ given. Do not use a calculator.",
@@ -72874,6 +72973,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-5c-exact",
    "label": "4a",
    "section": "Fluency",
    "stem": "Give the exact circumference of each circle, in terms of $\\pi$.",
@@ -72923,6 +73023,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-5c-exact",
    "label": "4b",
    "section": "Fluency",
    "stem": "Give the exact circumference of each circle, in terms of $\\pi$.",
@@ -72971,6 +73072,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-5c-exact",
    "label": "4c",
    "section": "Fluency",
    "stem": "Give the exact circumference of each circle, in terms of $\\pi$.",
@@ -73019,6 +73121,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-5c-exact",
    "label": "4d",
    "section": "Fluency",
    "stem": "Give the exact circumference of each circle, in terms of $\\pi$.",
@@ -73067,6 +73170,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y9-5c-exact",
    "label": "4e",
    "section": "Fluency",
    "stem": "Give the exact circumference of each circle, in terms of $\\pi$.",
@@ -73115,6 +73219,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y9-5c-exact",
    "label": "4f",
    "section": "Fluency",
    "stem": "Give the exact circumference of each circle, in terms of $\\pi$.",
@@ -73163,6 +73268,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-5c-sector-exact",
    "label": "5a",
    "section": "Fluency",
    "stem": "Give the exact perimeter of each sector, in terms of $\\pi$.",
@@ -73278,6 +73384,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-5c-sector-exact",
    "label": "5b",
    "section": "Fluency",
    "stem": "Give the exact perimeter of each sector, in terms of $\\pi$.",
@@ -73442,6 +73549,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-5c-sector-exact",
    "label": "5c",
    "section": "Fluency",
    "stem": "Give the exact perimeter of each sector, in terms of $\\pi$.",
@@ -73608,6 +73716,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-5c-sector-exact",
    "label": "5d",
    "section": "Fluency",
    "stem": "Give the exact perimeter of each sector, in terms of $\\pi$.",
@@ -73702,6 +73811,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y9-5c-sector-exact",
    "label": "5e",
    "section": "Fluency",
    "stem": "Give the exact perimeter of each sector, in terms of $\\pi$.",
@@ -73968,6 +74078,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y9-5c-sector-exact",
    "label": "5f",
    "section": "Fluency",
    "stem": "Give the exact perimeter of each sector, in terms of $\\pi$.",
@@ -74170,6 +74281,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6",
+   "help": "y9-5c-circ",
    "label": "6",
    "section": "Problem-solving",
    "type": "numeric",
@@ -74180,6 +74292,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7",
+   "help": "y9-5c-circ",
    "label": "7",
    "section": "Problem-solving",
    "type": "numeric",
@@ -74190,6 +74303,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8",
+   "help": "y9-5c-circ",
    "label": "8",
    "section": "Problem-solving",
    "type": "numeric",
@@ -74200,6 +74314,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-5c-wheel",
    "label": "9a",
    "section": "Problem-solving",
    "stem": "A bike wheel with a radius of $35$ cm rolls along a straight path.",
@@ -74256,6 +74371,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-5c-wheel",
    "label": "9b",
    "section": "Problem-solving",
    "stem": "A bike wheel with a radius of $35$ cm rolls along a straight path.",
@@ -74267,6 +74383,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y9-5c-wheel",
    "label": "9c",
    "section": "Problem-solving",
    "stem": "A bike wheel with a radius of $35$ cm rolls along a straight path.",
@@ -74278,6 +74395,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y9-5c-wheel",
    "label": "9d",
    "section": "Problem-solving",
    "stem": "A bike wheel with a radius of $35$ cm rolls along a straight path.",
@@ -74288,6 +74406,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y9-5c-composite",
    "label": "10a",
    "section": "Reasoning",
    "stem": "Give the exact perimeter of each shape, in terms of $\\pi$. Sides with the same marks are equal.",
@@ -74336,6 +74455,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y9-5c-composite",
    "label": "10b",
    "section": "Reasoning",
    "stem": "Give the exact perimeter of each shape, in terms of $\\pi$. Sides with the same marks are equal.",
@@ -74450,6 +74570,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y9-5c-composite",
    "label": "10c",
    "section": "Reasoning",
    "stem": "Give the exact perimeter of each shape, in terms of $\\pi$. Sides with the same marks are equal.",
@@ -74668,6 +74789,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10d",
+   "help": "y9-5c-composite",
    "label": "10d",
    "section": "Reasoning",
    "stem": "Give the exact perimeter of each shape, in terms of $\\pi$. Sides with the same marks are equal.",
@@ -74802,6 +74924,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10e",
+   "help": "y9-5c-composite",
    "label": "10e",
    "section": "Reasoning",
    "stem": "Give the exact perimeter of each shape, in terms of $\\pi$. Sides with the same marks are equal.",
@@ -75098,6 +75221,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10f",
+   "help": "y9-5c-composite",
    "label": "10f",
    "section": "Reasoning",
    "stem": "Give the exact perimeter of each shape, in terms of $\\pi$. Sides with the same marks are equal.",
@@ -75292,6 +75416,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y9-5c-rearrange",
    "label": "11a",
    "section": "Reasoning",
    "stem": "The rule for the circumference of a circle is $C = 2\\pi r$.",
@@ -75305,6 +75430,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y9-5c-rearrange",
    "label": "11b",
    "section": "Reasoning",
    "stem": "The rule for the circumference of a circle is $C = 2\\pi r$.",
@@ -75316,6 +75442,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y9-5c-rearrange",
    "label": "11c",
    "section": "Reasoning",
    "stem": "The rule for the circumference of a circle is $C = 2\\pi r$.",
@@ -75327,6 +75454,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11d",
+   "help": "y9-5c-rearrange",
    "label": "11d",
    "section": "Reasoning",
    "stem": "The rule for the circumference of a circle is $C = 2\\pi r$.",
@@ -75339,6 +75467,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11e",
+   "help": "y9-5c-rearrange",
    "label": "11e",
    "section": "Reasoning",
    "stem": "The rule for the circumference of a circle is $C = 2\\pi r$.",
@@ -75349,6 +75478,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y9-5c-wheel",
    "label": "12a",
    "section": "Enrichment",
    "stem": "A big wheel at a show has a radius of $18$ m. Round your answers to two decimal places.",
@@ -75360,6 +75490,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y9-5c-wheel",
    "label": "12b",
    "section": "Enrichment",
    "stem": "A big wheel at a show has a radius of $18$ m. Round your answers to two decimal places.",
@@ -75371,6 +75502,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y9-5c-wheel",
    "label": "12c",
    "section": "Enrichment",
    "stem": "A big wheel at a show has a radius of $18$ m. Round your answers to two decimal places.",
@@ -75382,6 +75514,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12d",
+   "help": "y9-5c-wheel",
    "label": "12d",
    "section": "Enrichment",
    "stem": "A big wheel at a show has a radius of $18$ m. Round your answers to two decimal places.",
@@ -75393,6 +75526,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12e",
+   "help": "y9-5c-wheel",
    "label": "12e",
    "section": "Enrichment",
    "stem": "A big wheel at a show has a radius of $18$ m. Round your answers to two decimal places.",
@@ -75413,6 +75547,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-5d-convert",
    "label": "1a",
    "section": "Fluency",
    "stem": "Convert each area to the unit given in brackets.",
@@ -75423,6 +75558,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-5d-convert",
    "label": "1b",
    "section": "Fluency",
    "stem": "Convert each area to the unit given in brackets.",
@@ -75433,6 +75569,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-5d-convert",
    "label": "1c",
    "section": "Fluency",
    "stem": "Convert each area to the unit given in brackets.",
@@ -75443,6 +75580,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-5d-convert",
    "label": "1d",
    "section": "Fluency",
    "stem": "Convert each area to the unit given in brackets.",
@@ -75453,6 +75591,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-5d-convert",
    "label": "2a",
    "section": "Fluency",
    "stem": "Convert each area to the unit given in brackets.",
@@ -75463,6 +75602,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-5d-convert",
    "label": "2b",
    "section": "Fluency",
    "stem": "Convert each area to the unit given in brackets.",
@@ -75473,6 +75613,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-5d-convert",
    "label": "2c",
    "section": "Fluency",
    "stem": "Convert each area to the unit given in brackets.",
@@ -75483,6 +75624,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-5d-convert",
    "label": "2d",
    "section": "Fluency",
    "stem": "Convert each area to the unit given in brackets.",
@@ -75493,6 +75635,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-5d-convert",
    "label": "2e",
    "section": "Fluency",
    "stem": "Convert each area to the unit given in brackets.",
@@ -75503,6 +75646,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-5d-convert",
    "label": "2f",
    "section": "Fluency",
    "stem": "Convert each area to the unit given in brackets.",
@@ -75513,6 +75657,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-5d-shapes",
    "label": "3a",
    "section": "Fluency",
    "stem": "Find the area of each shape.",
@@ -75606,6 +75751,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-5d-shapes",
    "label": "3b",
    "section": "Fluency",
    "stem": "Find the area of each shape.",
@@ -75717,6 +75863,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-5d-shapes",
    "label": "3c",
    "section": "Fluency",
    "stem": "Find the area of each shape.",
@@ -75785,6 +75932,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-5d-shapes",
    "label": "3d",
    "section": "Fluency",
    "stem": "Find the area of each shape.",
@@ -75862,6 +76010,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-5d-shapes",
    "label": "3e",
    "section": "Fluency",
    "stem": "Find the area of each shape.",
@@ -75934,6 +76083,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-5d-shapes",
    "label": "3f",
    "section": "Fluency",
    "stem": "Find the area of each shape.",
@@ -76006,6 +76156,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-5d-quads",
    "label": "4a",
    "section": "Fluency",
    "stem": "Find the area of each shape. Dashed lines inside a rhombus or kite are its diagonals.",
@@ -76127,6 +76278,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-5d-quads",
    "label": "4b",
    "section": "Fluency",
    "stem": "Find the area of each shape. Dashed lines inside a rhombus or kite are its diagonals.",
@@ -76248,6 +76400,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-5d-quads",
    "label": "4c",
    "section": "Fluency",
    "stem": "Find the area of each shape. Dashed lines inside a rhombus or kite are its diagonals.",
@@ -76328,6 +76481,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-5d-quads",
    "label": "4d",
    "section": "Fluency",
    "stem": "Find the area of each shape. Dashed lines inside a rhombus or kite are its diagonals.",
@@ -76408,6 +76562,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y9-5d-quads",
    "label": "4e",
    "section": "Fluency",
    "stem": "Find the area of each shape. Dashed lines inside a rhombus or kite are its diagonals.",
@@ -76489,6 +76644,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y9-5d-quads",
    "label": "4f",
    "section": "Fluency",
    "stem": "Find the area of each shape. Dashed lines inside a rhombus or kite are its diagonals.",
@@ -76610,6 +76766,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-5d-quads",
    "label": "5a",
    "section": "Fluency",
    "stem": "Find the area of each shape. Sides with the same marks are equal and sides with the same arrows are parallel.",
@@ -76731,6 +76888,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-5d-quads",
    "label": "5b",
    "section": "Fluency",
    "stem": "Find the area of each shape. Sides with the same marks are equal and sides with the same arrows are parallel.",
@@ -76821,6 +76979,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-5d-quads",
    "label": "5c",
    "section": "Fluency",
    "stem": "Find the area of each shape. Sides with the same marks are equal and sides with the same arrows are parallel.",
@@ -76898,6 +77057,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-5d-quads",
    "label": "5d",
    "section": "Fluency",
    "stem": "Find the area of each shape. Sides with the same marks are equal and sides with the same arrows are parallel.",
@@ -76979,6 +77139,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y9-5d-quads",
    "label": "5e",
    "section": "Fluency",
    "stem": "Find the area of each shape. Sides with the same marks are equal and sides with the same arrows are parallel.",
@@ -77069,6 +77230,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y9-5d-quads",
    "label": "5f",
    "section": "Fluency",
    "stem": "Find the area of each shape. Sides with the same marks are equal and sides with the same arrows are parallel.",
@@ -77177,6 +77339,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-5d-circle",
    "label": "6a",
    "section": "Fluency",
    "stem": "Find the area of each circle using the value of $\\pi$ given. Round to two decimal places.",
@@ -77225,6 +77388,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-5d-circle",
    "label": "6b",
    "section": "Fluency",
    "stem": "Find the area of each circle using the value of $\\pi$ given. Round to two decimal places.",
@@ -77273,6 +77437,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y9-5d-circle",
    "label": "6c",
    "section": "Fluency",
    "stem": "Find the area of each circle using the value of $\\pi$ given. Round to two decimal places.",
@@ -77321,6 +77486,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-5d-sector",
    "label": "7a",
    "section": "Fluency",
    "stem": "Find the area of each sector, rounding to two decimal places.",
@@ -77435,6 +77601,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-5d-sector",
    "label": "7b",
    "section": "Fluency",
    "stem": "Find the area of each sector, rounding to two decimal places.",
@@ -77599,6 +77766,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-5d-sector",
    "label": "7c",
    "section": "Fluency",
    "stem": "Find the area of each sector, rounding to two decimal places.",
@@ -77681,6 +77849,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y9-5d-sector",
    "label": "7d",
    "section": "Fluency",
    "stem": "Find the area of each sector, rounding to two decimal places.",
@@ -77915,6 +78084,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7e",
+   "help": "y9-5d-sector",
    "label": "7e",
    "section": "Fluency",
    "stem": "Find the area of each sector, rounding to two decimal places.",
@@ -78093,6 +78263,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7f",
+   "help": "y9-5d-sector",
    "label": "7f",
    "section": "Fluency",
    "stem": "Find the area of each sector, rounding to two decimal places.",
@@ -78247,6 +78418,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-5d-convert",
    "label": "8a",
    "section": "Problem-solving",
    "stem": "Convert each area to the unit given in brackets.",
@@ -78257,6 +78429,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-5d-convert",
    "label": "8b",
    "section": "Problem-solving",
    "stem": "Convert each area to the unit given in brackets.",
@@ -78267,6 +78440,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y9-5d-convert",
    "label": "8c",
    "section": "Problem-solving",
    "stem": "Convert each area to the unit given in brackets.",
@@ -78277,6 +78451,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9",
+   "help": "y9-5d-convert",
    "label": "9",
    "section": "Problem-solving",
    "type": "numeric",
@@ -78286,6 +78461,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10",
+   "help": "y9-5d-quads",
    "label": "10",
    "section": "Problem-solving",
    "type": "numeric",
@@ -78295,6 +78471,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11",
+   "help": "y9-5d-increase",
    "label": "11",
    "section": "Problem-solving",
    "type": "numeric",
@@ -78305,6 +78482,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12",
+   "help": "y9-5d-region",
    "label": "12",
    "section": "Problem-solving",
    "type": "numeric",
@@ -78673,6 +78851,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y9-5d-rearrange",
    "label": "13a",
    "section": "Reasoning",
    "stem": "The rule for the area of a circle is $A = \\pi r^2$.",
@@ -78686,6 +78865,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y9-5d-rearrange",
    "label": "13b",
    "section": "Reasoning",
    "stem": "The rule for the area of a circle is $A = \\pi r^2$.",
@@ -78697,6 +78877,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13c",
+   "help": "y9-5d-rearrange",
    "label": "13c",
    "section": "Reasoning",
    "stem": "The rule for the area of a circle is $A = \\pi r^2$.",
@@ -78708,6 +78889,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13d",
+   "help": "y9-5d-rearrange",
    "label": "13d",
    "section": "Reasoning",
    "stem": "The rule for the area of a circle is $A = \\pi r^2$.",
@@ -78719,6 +78901,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y9-5d-angle",
    "label": "14a",
    "section": "Reasoning",
    "stem": "A sector has a radius of $4$ m and an angle of $\\theta$ at the centre.",
@@ -78808,6 +78991,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y9-5d-angle",
    "label": "14b",
    "section": "Reasoning",
    "stem": "A sector has a radius of $4$ m and an angle of $\\theta$ at the centre.",
@@ -78818,6 +79002,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14c",
+   "help": "y9-5d-angle",
    "label": "14c",
    "section": "Reasoning",
    "stem": "A sector has a radius of $4$ m and an angle of $\\theta$ at the centre.",
@@ -78832,6 +79017,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15a",
+   "help": "y9-5d-limits",
    "label": "15a",
    "section": "Reasoning",
    "stem": "The side length of a square is recorded as $7.3$ cm, correct to one decimal place.",
@@ -78846,6 +79032,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15b",
+   "help": "y9-5d-limits",
    "label": "15b",
    "section": "Reasoning",
    "stem": "The side length of a square is recorded as $7.3$ cm, correct to one decimal place.",
@@ -78859,6 +79046,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15c",
+   "help": "y9-5d-limits",
    "label": "15c",
    "section": "Reasoning",
    "stem": "The side length of a square is recorded as $7.3$ cm, correct to one decimal place.",
@@ -78873,6 +79061,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16a",
+   "help": "y9-5d-windows",
    "label": "16a",
    "section": "Enrichment",
    "stem": "Six square windows with sides of $2$ m are set into a wall $13$ m wide and $8.8$ m high, in $2$ rows of $3$. The horizontal gaps (between windows and to the edges of the wall) are all equal, and so are the vertical gaps.",
@@ -79060,6 +79249,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16b",
+   "help": "y9-5d-windows",
    "label": "16b",
    "section": "Enrichment",
    "stem": "Six square windows with sides of $2$ m are set into a wall $13$ m wide and $8.8$ m high, in $2$ rows of $3$. The horizontal gaps (between windows and to the edges of the wall) are all equal, and so are the vertical gaps.",
@@ -79070,6 +79260,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16c",
+   "help": "y9-5d-windows",
    "label": "16c",
    "section": "Enrichment",
    "stem": "Six square windows with sides of $2$ m are set into a wall $13$ m wide and $8.8$ m high, in $2$ rows of $3$. The horizontal gaps (between windows and to the edges of the wall) are all equal, and so are the vertical gaps.",
@@ -79080,6 +79271,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16d",
+   "help": "y9-5d-windows",
    "label": "16d",
    "section": "Enrichment",
    "stem": "Six square windows with sides of $2$ m are set into a wall $13$ m wide and $8.8$ m high, in $2$ rows of $3$. The horizontal gaps (between windows and to the edges of the wall) are all equal, and so are the vertical gaps.",
@@ -79090,6 +79282,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16e",
+   "help": "y9-5d-windows",
    "label": "16e",
    "section": "Enrichment",
    "stem": "Six square windows with sides of $2$ m are set into a wall $13$ m wide and $8.8$ m high, in $2$ rows of $3$. The horizontal gaps (between windows and to the edges of the wall) are all equal, and so are the vertical gaps.",
@@ -79100,6 +79293,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17",
+   "help": "y9-5d-region",
    "label": "17",
    "section": "Enrichment",
    "type": "numeric",
@@ -79384,6 +79578,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-5e-both",
    "label": "1a",
    "section": "Fluency",
    "stem": "Find the perimeter and the area of each shape, rounding to two decimal places where necessary. Sides with the same marks are equal.",
@@ -79535,6 +79730,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-5e-both",
    "label": "1b",
    "section": "Fluency",
    "stem": "Find the perimeter and the area of each shape, rounding to two decimal places where necessary. Sides with the same marks are equal.",
@@ -79737,6 +79933,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-5e-both",
    "label": "1c",
    "section": "Fluency",
    "stem": "Find the perimeter and the area of each shape, rounding to two decimal places where necessary. Sides with the same marks are equal.",
@@ -79889,6 +80086,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-5e-both",
    "label": "1d",
    "section": "Fluency",
    "stem": "Find the perimeter and the area of each shape, rounding to two decimal places where necessary. Sides with the same marks are equal.",
@@ -79991,6 +80189,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-5e-both",
    "label": "1e",
    "section": "Fluency",
    "stem": "Find the perimeter and the area of each shape, rounding to two decimal places where necessary. Sides with the same marks are equal.",
@@ -80187,6 +80386,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-5e-both",
    "label": "1f",
    "section": "Fluency",
    "stem": "Find the perimeter and the area of each shape, rounding to two decimal places where necessary. Sides with the same marks are equal.",
@@ -80446,6 +80646,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-5e-add",
    "label": "2a",
    "section": "Fluency",
    "stem": "Find the area of each composite shape.",
@@ -80549,6 +80750,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-5e-add",
    "label": "2b",
    "section": "Fluency",
    "stem": "Find the area of each composite shape.",
@@ -80664,6 +80866,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-5e-add",
    "label": "2c",
    "section": "Fluency",
    "stem": "Find the area of each composite shape.",
@@ -80788,6 +80991,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-5e-add",
    "label": "2d",
    "section": "Fluency",
    "stem": "Find the area of each composite shape.",
@@ -80903,6 +81107,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-5e-add",
    "label": "2e",
    "section": "Fluency",
    "stem": "Find the area of each composite shape.",
@@ -81011,6 +81216,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-5e-add",
    "label": "2f",
    "section": "Fluency",
    "stem": "Find the area of each composite shape.",
@@ -81111,6 +81317,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-5e-subtract",
    "label": "3a",
    "section": "Fluency",
    "stem": "Find the area of each shaded shape. Sides with the same marks are equal.",
@@ -81256,6 +81463,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-5e-subtract",
    "label": "3b",
    "section": "Fluency",
    "stem": "Find the area of each shaded shape. Sides with the same marks are equal.",
@@ -81360,6 +81568,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-5e-subtract",
    "label": "3c",
    "section": "Fluency",
    "stem": "Find the area of each shaded shape. Sides with the same marks are equal.",
@@ -81481,6 +81690,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-5e-subtract",
    "label": "3d",
    "section": "Fluency",
    "stem": "Find the area of each shaded shape. Sides with the same marks are equal.",
@@ -81636,6 +81846,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-5e-subtract",
    "label": "3e",
    "section": "Fluency",
    "stem": "Find the area of each shaded shape. Sides with the same marks are equal.",
@@ -81789,6 +82000,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-5e-subtract",
    "label": "3f",
    "section": "Fluency",
    "stem": "Find the area of each shaded shape. Sides with the same marks are equal.",
@@ -81922,6 +82134,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-5e-subtract",
    "label": "4a",
    "section": "Fluency",
    "stem": "Find the area of each shaded region. Round to one decimal place where necessary.",
@@ -82054,6 +82267,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-5e-subtract",
    "label": "4b",
    "section": "Fluency",
    "stem": "Find the area of each shaded region. Round to one decimal place where necessary.",
@@ -82196,6 +82410,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-5e-subtract",
    "label": "4c",
    "section": "Fluency",
    "stem": "Find the area of each shaded region. Round to one decimal place where necessary.",
@@ -82323,6 +82538,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-5e-subtract",
    "label": "4d",
    "section": "Fluency",
    "stem": "Find the area of each shaded region. Round to one decimal place where necessary.",
@@ -82486,6 +82702,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y9-5e-subtract",
    "label": "4e",
    "section": "Fluency",
    "stem": "Find the area of each shaded region. Round to one decimal place where necessary.",
@@ -83082,6 +83299,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y9-5e-subtract",
    "label": "4f",
    "section": "Fluency",
    "stem": "Find the area of each shaded region. Round to one decimal place where necessary.",
@@ -83516,6 +83734,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4g",
+   "help": "y9-5e-subtract",
    "label": "4g",
    "section": "Fluency",
    "stem": "Find the area of each shaded region. Round to one decimal place where necessary.",
@@ -83859,6 +84078,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4h",
+   "help": "y9-5e-subtract",
    "label": "4h",
    "section": "Fluency",
    "stem": "Find the area of each shaded region. Round to one decimal place where necessary.",
@@ -84569,6 +84789,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4i",
+   "help": "y9-5e-subtract",
    "label": "4i",
    "section": "Fluency",
    "stem": "Find the area of each shaded region. Round to one decimal place where necessary.",
@@ -84850,6 +85071,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5",
+   "help": "y9-5e-add",
    "label": "5",
    "section": "Problem-solving",
    "type": "numeric",
@@ -84860,6 +85082,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6",
+   "help": "y9-5e-subtract",
    "label": "6",
    "section": "Problem-solving",
    "type": "numeric",
@@ -84870,6 +85093,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-5e-curved",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "Find the perimeter and the area of each shape, correct to two decimal places. Curved parts are semicircles unless stated otherwise. Sides with the same marks are equal.",
@@ -85360,6 +85584,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-5e-curved",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "Find the perimeter and the area of each shape, correct to two decimal places. Curved parts are semicircles unless stated otherwise. Sides with the same marks are equal.",
@@ -85611,6 +85836,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-5e-curved",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "Find the perimeter and the area of each shape, correct to two decimal places. Curved parts are semicircles unless stated otherwise. Sides with the same marks are equal.",
@@ -85789,6 +86015,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y9-5e-curved",
    "label": "7d",
    "section": "Problem-solving",
    "stem": "Find the perimeter and the area of each shape, correct to two decimal places. Curved parts are semicircles unless stated otherwise. Sides with the same marks are equal.",
@@ -86161,6 +86388,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7e",
+   "help": "y9-5e-curved",
    "label": "7e",
    "section": "Problem-solving",
    "stem": "Find the perimeter and the area of each shape, correct to two decimal places. Curved parts are semicircles unless stated otherwise. Sides with the same marks are equal.",
@@ -86362,6 +86590,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7f",
+   "help": "y9-5e-curved",
    "label": "7f",
    "section": "Problem-solving",
    "stem": "Find the perimeter and the area of each shape, correct to two decimal places. Curved parts are semicircles unless stated otherwise. Sides with the same marks are equal.",
@@ -86655,6 +86884,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-5e-sector",
    "label": "8a",
    "section": "Problem-solving",
    "stem": "These shapes include sectors. Find each area, correct to one decimal place.",
@@ -86820,6 +87050,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-5e-sector",
    "label": "8b",
    "section": "Problem-solving",
    "stem": "These shapes include sectors. Find each area, correct to one decimal place.",
@@ -86993,6 +87224,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y9-5e-sector",
    "label": "8c",
    "section": "Problem-solving",
    "stem": "These shapes include sectors. Find each area, correct to one decimal place.",
@@ -87261,6 +87493,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9",
+   "help": "y9-5e-reverse",
    "label": "9",
    "section": "Problem-solving",
    "type": "numeric",
@@ -87384,6 +87617,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y9-5e-exact",
    "label": "10a",
    "section": "Reasoning",
    "stem": "Using exact values (for example $10 + 4\\pi$), find the area of each shape in Question 7.",
@@ -87396,6 +87630,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y9-5e-exact",
    "label": "10b",
    "section": "Reasoning",
    "stem": "Using exact values (for example $10 + 4\\pi$), find the area of each shape in Question 7.",
@@ -87406,6 +87641,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y9-5e-exact",
    "label": "10c",
    "section": "Reasoning",
    "stem": "Using exact values (for example $10 + 4\\pi$), find the area of each shape in Question 7.",
@@ -87416,6 +87652,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10d",
+   "help": "y9-5e-exact",
    "label": "10d",
    "section": "Reasoning",
    "stem": "Using exact values (for example $10 + 4\\pi$), find the area of each shape in Question 7.",
@@ -87426,6 +87663,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10e",
+   "help": "y9-5e-exact",
    "label": "10e",
    "section": "Reasoning",
    "stem": "Using exact values (for example $10 + 4\\pi$), find the area of each shape in Question 7.",
@@ -87436,6 +87674,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10f",
+   "help": "y9-5e-exact",
    "label": "10f",
    "section": "Reasoning",
    "stem": "Using exact values (for example $10 + 4\\pi$), find the area of each shape in Question 7.",
@@ -87447,6 +87686,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11",
+   "help": "y9-5e-reverse",
    "label": "11",
    "section": "Reasoning",
    "type": "numeric",
@@ -87457,6 +87697,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y9-5e-pythag",
    "label": "12a",
    "section": "Reasoning",
    "stem": "Each shape has one length labelled wrongly. Use Pythagoras' theorem ($c^2 = a^2 + b^2$) to find what the length should be, correct to two decimal places where necessary.",
@@ -87548,6 +87789,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y9-5e-pythag",
    "label": "12b",
    "section": "Reasoning",
    "stem": "Each shape has one length labelled wrongly. Use Pythagoras' theorem ($c^2 = a^2 + b^2$) to find what the length should be, correct to two decimal places where necessary.",
@@ -87638,6 +87880,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y9-5e-pythag",
    "label": "12c",
    "section": "Reasoning",
    "stem": "Each shape has one length labelled wrongly. Use Pythagoras' theorem ($c^2 = a^2 + b^2$) to find what the length should be, correct to two decimal places where necessary.",
@@ -87883,6 +88126,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13",
+   "help": "y9-5e-big",
    "label": "13",
    "section": "Enrichment",
    "type": "numeric",
@@ -88369,6 +88613,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y9-5e-big",
    "label": "14a",
    "section": "Enrichment",
    "stem": "The number $10$ is cut out of a rectangular sheet of paper. The '1' is made of a base $8$ cm wide and $3$ cm tall, an upright $4$ cm wide that reaches the top of the sheet, and a right-angled triangle with two $4$ cm sides at the top left. The '0' is a ring with an outer radius of $8$ cm and an inner radius of $4$ cm. The tip of the triangle touches the left edge of the sheet, there is a $1$ cm gap between the '1' and the '0', and the '0' touches the top, bottom and right edges of the sheet.",
@@ -88994,6 +89239,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y9-5e-big",
    "label": "14b",
    "section": "Enrichment",
    "stem": "The number $10$ is cut out of a rectangular sheet of paper. The '1' is made of a base $8$ cm wide and $3$ cm tall, an upright $4$ cm wide that reaches the top of the sheet, and a right-angled triangle with two $4$ cm sides at the top left. The '0' is a ring with an outer radius of $8$ cm and an inner radius of $4$ cm. The tip of the triangle touches the left edge of the sheet, there is a $1$ cm gap between the '1' and the '0', and the '0' touches the top, bottom and right edges of the sheet.",
@@ -89005,6 +89251,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14c",
+   "help": "y9-5e-big",
    "label": "14c",
    "section": "Enrichment",
    "stem": "The number $10$ is cut out of a rectangular sheet of paper. The '1' is made of a base $8$ cm wide and $3$ cm tall, an upright $4$ cm wide that reaches the top of the sheet, and a right-angled triangle with two $4$ cm sides at the top left. The '0' is a ring with an outer radius of $8$ cm and an inner radius of $4$ cm. The tip of the triangle touches the left edge of the sheet, there is a $1$ cm gap between the '1' and the '0', and the '0' touches the top, bottom and right edges of the sheet.",
@@ -89025,6 +89272,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-5f-box",
    "label": "1a",
    "section": "Fluency",
    "stem": "Find the surface area of each rectangular prism.",
@@ -89155,6 +89403,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-5f-box",
    "label": "1b",
    "section": "Fluency",
    "stem": "Find the surface area of each rectangular prism.",
@@ -89285,6 +89534,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-5f-box",
    "label": "1c",
    "section": "Fluency",
    "stem": "Find the surface area of each rectangular prism.",
@@ -89415,6 +89665,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-5f-pyramid",
    "label": "2a",
    "section": "Fluency",
    "stem": "Find the surface area of each square-based pyramid. The dashed line on the front face is the height of each triangular face.",
@@ -89567,6 +89818,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-5f-pyramid",
    "label": "2b",
    "section": "Fluency",
    "stem": "Find the surface area of each square-based pyramid. The dashed line on the front face is the height of each triangular face.",
@@ -89719,6 +89971,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-5f-pyramid",
    "label": "2c",
    "section": "Fluency",
    "stem": "Find the surface area of each square-based pyramid. The dashed line on the front face is the height of each triangular face.",
@@ -89871,6 +90124,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-5f-solids",
    "label": "3a",
    "section": "Fluency",
    "stem": "Find the surface area of each solid.",
@@ -89994,6 +90248,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-5f-solids",
    "label": "3b",
    "section": "Fluency",
    "stem": "Find the surface area of each solid.",
@@ -90134,6 +90389,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-5f-solids",
    "label": "3c",
    "section": "Fluency",
    "stem": "Find the surface area of each solid.",
@@ -90286,6 +90542,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-5f-solids",
    "label": "3d",
    "section": "Fluency",
    "stem": "Find the surface area of each solid.",
@@ -90373,6 +90630,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-5f-solids",
    "label": "3e",
    "section": "Fluency",
    "stem": "Find the surface area of each solid.",
@@ -90553,6 +90811,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-5f-solids",
    "label": "3f",
    "section": "Fluency",
    "stem": "Find the surface area of each solid.",
@@ -90742,6 +91001,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4",
+   "help": "y9-5f-box",
    "label": "4",
    "section": "Fluency",
    "type": "numeric",
@@ -90751,6 +91011,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5",
+   "help": "y9-5f-box",
    "label": "5",
    "section": "Problem-solving",
    "type": "numeric",
@@ -90760,6 +91021,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6",
+   "help": "y9-5f-paint",
    "label": "6",
    "section": "Problem-solving",
    "type": "numeric",
@@ -90913,6 +91175,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-5f-paint",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "The four outside walls and the roof of this shed are to be painted. The roof meets the walls $2.5$ m above the ground and its peak is $4.5$ m above the ground.",
@@ -91103,6 +91366,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-5f-paint",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "The four outside walls and the roof of this shed are to be painted. The roof meets the walls $2.5$ m above the ground and its peak is $4.5$ m above the ground.",
@@ -91113,6 +91377,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-5f-thick",
    "label": "8a",
    "section": "Problem-solving",
    "stem": "An open-top rectangular box is $24$ cm wide, $30$ cm long and $12$ cm high on the outside. It is made from wood $1$ cm thick.",
@@ -91243,6 +91508,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-5f-thick",
    "label": "8b",
    "section": "Problem-solving",
    "stem": "An open-top rectangular box is $24$ cm wide, $30$ cm long and $12$ cm high on the outside. It is made from wood $1$ cm thick.",
@@ -91253,6 +91519,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-5f-cubes",
    "label": "9a",
    "section": "Reasoning",
    "stem": "Cubes with sides of $1$ cm are stuck together face to face. Find the smallest possible outside surface area for a stack of:",
@@ -91263,6 +91530,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-5f-cubes",
    "label": "9b",
    "section": "Reasoning",
    "stem": "Cubes with sides of $1$ cm are stuck together face to face. Find the smallest possible outside surface area for a stack of:",
@@ -91273,6 +91541,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y9-5f-cubes",
    "label": "9c",
    "section": "Reasoning",
    "stem": "Cubes with sides of $1$ cm are stuck together face to face. Find the smallest possible outside surface area for a stack of:",
@@ -91283,6 +91552,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y9-5f-cubes",
    "label": "10a",
    "section": "Reasoning",
    "stem": "Cubes with sides of $1$ unit are stacked in a single tower, as shown.",
@@ -91893,6 +92163,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y9-5f-cubes",
    "label": "10b",
    "section": "Reasoning",
    "stem": "Cubes with sides of $1$ unit are stacked in a single tower, as shown.",
@@ -91905,6 +92176,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y9-5f-pythag",
    "label": "11a",
    "section": "Enrichment",
    "stem": "Use Pythagoras' theorem to help find the surface area of each solid. Round to one decimal place.",
@@ -92031,6 +92303,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y9-5f-pythag",
    "label": "11b",
    "section": "Enrichment",
    "stem": "Use Pythagoras' theorem to help find the surface area of each solid. Round to one decimal place.",
@@ -92147,6 +92420,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y9-5f-pythag",
    "label": "11c",
    "section": "Enrichment",
    "stem": "Use Pythagoras' theorem to help find the surface area of each solid. Round to one decimal place.",
@@ -92290,6 +92564,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11d",
+   "help": "y9-5f-pythag",
    "label": "11d",
    "section": "Enrichment",
    "stem": "Use Pythagoras' theorem to help find the surface area of each solid. Round to one decimal place.",
@@ -92415,6 +92690,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11e",
+   "help": "y9-5f-pythag",
    "label": "11e",
    "section": "Enrichment",
    "stem": "Use Pythagoras' theorem to help find the surface area of each solid. Round to one decimal place.",
@@ -92557,6 +92833,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11f",
+   "help": "y9-5f-pythag",
    "label": "11f",
    "section": "Enrichment",
    "stem": "Use Pythagoras' theorem to help find the surface area of each solid. Round to one decimal place.",
@@ -92635,6 +92912,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-5g-cylinder",
    "label": "1a",
    "section": "Fluency",
    "stem": "Find the surface area of each cylinder, rounding to two decimal places.",
@@ -93304,6 +93582,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-5g-cylinder",
    "label": "1b",
    "section": "Fluency",
    "stem": "Find the surface area of each cylinder, rounding to two decimal places.",
@@ -93977,6 +94256,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-5g-cylinder",
    "label": "1c",
    "section": "Fluency",
    "stem": "Find the surface area of each cylinder, rounding to two decimal places.",
@@ -94646,6 +94926,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-5g-cylinder",
    "label": "2a",
    "section": "Fluency",
    "stem": "Find the surface area of each cylinder, rounding to one decimal place. Remember that the radius is half the diameter.",
@@ -95313,6 +95594,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-5g-cylinder",
    "label": "2b",
    "section": "Fluency",
    "stem": "Find the surface area of each cylinder, rounding to one decimal place. Remember that the radius is half the diameter.",
@@ -95976,6 +96258,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-5g-cylinder",
    "label": "2c",
    "section": "Fluency",
    "stem": "Find the surface area of each cylinder, rounding to one decimal place. Remember that the radius is half the diameter.",
@@ -96643,6 +96926,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3",
+   "help": "y9-5g-cylinder",
    "label": "3",
    "section": "Fluency",
    "type": "numeric",
@@ -96653,6 +96937,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-5g-curved",
    "label": "4a",
    "section": "Fluency",
    "stem": "Find the area of the curved surface only of each cylinder, correct to two decimal places.",
@@ -97320,6 +97605,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-5g-curved",
    "label": "4b",
    "section": "Fluency",
    "stem": "Find the area of the curved surface only of each cylinder, correct to two decimal places.",
@@ -97989,6 +98275,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-5g-curved",
    "label": "4c",
    "section": "Fluency",
    "stem": "Find the area of the curved surface only of each cylinder, correct to two decimal places.",
@@ -98652,6 +98939,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-5g-half",
    "label": "5a",
    "section": "Problem-solving",
    "stem": "Find the surface area of each solid, rounding to two decimal places.",
@@ -99078,6 +99366,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-5g-half",
    "label": "5b",
    "section": "Problem-solving",
    "stem": "Find the surface area of each solid, rounding to two decimal places.",
@@ -99504,6 +99793,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-5g-half",
    "label": "5c",
    "section": "Problem-solving",
    "stem": "Find the surface area of each solid, rounding to two decimal places.",
@@ -99885,6 +100175,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-5g-half",
    "label": "5d",
    "section": "Problem-solving",
    "stem": "Find the surface area of each solid, rounding to two decimal places.",
@@ -100251,6 +100542,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y9-5g-half",
    "label": "5e",
    "section": "Problem-solving",
    "stem": "Find the surface area of each solid, rounding to two decimal places.",
@@ -100635,6 +100927,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y9-5g-half",
    "label": "5f",
    "section": "Problem-solving",
    "stem": "Find the surface area of each solid, rounding to two decimal places.",
@@ -101019,6 +101312,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5g",
+   "help": "y9-5g-half",
    "label": "5g",
    "section": "Problem-solving",
    "stem": "Find the surface area of each solid, rounding to two decimal places.",
@@ -101362,6 +101656,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5h",
+   "help": "y9-5g-half",
    "label": "5h",
    "section": "Problem-solving",
    "stem": "Find the surface area of each solid, rounding to two decimal places.",
@@ -101876,6 +102171,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5i",
+   "help": "y9-5g-half",
    "label": "5i",
    "section": "Problem-solving",
    "stem": "Find the surface area of each solid, rounding to two decimal places.",
@@ -102228,6 +102524,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6",
+   "help": "y9-5g-half",
    "label": "6",
    "section": "Problem-solving",
    "type": "numeric",
@@ -102238,6 +102535,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7",
+   "help": "y9-5g-hollow",
    "label": "7",
    "section": "Problem-solving",
    "type": "numeric",
@@ -103105,6 +103403,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-5g-curved",
    "label": "8a",
    "section": "Problem-solving",
    "stem": "A cylindrical roller is used to flatten a rectangular court $28$ m long and $14$ m wide. The roller is $1.2$ m wide and has a diameter of $50$ cm.",
@@ -103116,6 +103415,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-5g-curved",
    "label": "8b",
    "section": "Problem-solving",
    "stem": "A cylindrical roller is used to flatten a rectangular court $28$ m long and $14$ m wide. The roller is $1.2$ m wide and has a diameter of $50$ cm.",
@@ -103127,6 +103427,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y9-5g-curved",
    "label": "8c",
    "section": "Problem-solving",
    "stem": "A cylindrical roller is used to flatten a rectangular court $28$ m long and $14$ m wide. The roller is $1.2$ m wide and has a diameter of $50$ cm.",
@@ -103138,6 +103439,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y9-5g-curved",
    "label": "8d",
    "section": "Problem-solving",
    "stem": "A cylindrical roller is used to flatten a rectangular court $28$ m long and $14$ m wide. The roller is $1.2$ m wide and has a diameter of $50$ cm.",
@@ -103148,6 +103450,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-5g-cylinder",
    "label": "9a",
    "section": "Reasoning",
    "stem": "Give the exact surface area, in terms of $\\pi$, of each cylinder in Question 1.",
@@ -103159,6 +103462,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-5g-cylinder",
    "label": "9b",
    "section": "Reasoning",
    "stem": "Give the exact surface area, in terms of $\\pi$, of each cylinder in Question 1.",
@@ -103170,6 +103474,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y9-5g-cylinder",
    "label": "9c",
    "section": "Reasoning",
    "stem": "Give the exact surface area, in terms of $\\pi$, of each cylinder in Question 1.",
@@ -103181,6 +103486,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y9-5g-sector",
    "label": "11a",
    "section": "Enrichment",
    "stem": "Each solid is a prism whose ends are sectors. Find its exact surface area, in terms of $\\pi$.",
@@ -103677,6 +103983,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y9-5g-sector",
    "label": "11b",
    "section": "Enrichment",
    "stem": "Each solid is a prism whose ends are sectors. Find its exact surface area, in terms of $\\pi$.",
@@ -104272,6 +104579,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y9-5g-sector",
    "label": "11c",
    "section": "Enrichment",
    "stem": "Each solid is a prism whose ends are sectors. Find its exact surface area, in terms of $\\pi$.",
@@ -104633,6 +104941,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-5h-convert",
    "label": "1a",
    "section": "Fluency",
    "stem": "Convert each measurement to the unit given in brackets.",
@@ -104643,6 +104952,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-5h-convert",
    "label": "1b",
    "section": "Fluency",
    "stem": "Convert each measurement to the unit given in brackets.",
@@ -104653,6 +104963,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-5h-convert",
    "label": "1c",
    "section": "Fluency",
    "stem": "Convert each measurement to the unit given in brackets.",
@@ -104663,6 +104974,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-5h-convert",
    "label": "1d",
    "section": "Fluency",
    "stem": "Convert each measurement to the unit given in brackets.",
@@ -104673,6 +104985,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-5h-convert",
    "label": "1e",
    "section": "Fluency",
    "stem": "Convert each measurement to the unit given in brackets.",
@@ -104683,6 +104996,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-5h-convert",
    "label": "1f",
    "section": "Fluency",
    "stem": "Convert each measurement to the unit given in brackets.",
@@ -104693,6 +105007,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1g",
+   "help": "y9-5h-convert",
    "label": "1g",
    "section": "Fluency",
    "stem": "Convert each measurement to the unit given in brackets.",
@@ -104703,6 +105018,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1h",
+   "help": "y9-5h-convert",
    "label": "1h",
    "section": "Fluency",
    "stem": "Convert each measurement to the unit given in brackets.",
@@ -104713,6 +105029,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1i",
+   "help": "y9-5h-convert",
    "label": "1i",
    "section": "Fluency",
    "stem": "Convert each measurement to the unit given in brackets.",
@@ -104723,6 +105040,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1j",
+   "help": "y9-5h-convert",
    "label": "1j",
    "section": "Fluency",
    "stem": "Convert each measurement to the unit given in brackets.",
@@ -104733,6 +105051,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1k",
+   "help": "y9-5h-convert",
    "label": "1k",
    "section": "Fluency",
    "stem": "Convert each measurement to the unit given in brackets.",
@@ -104743,6 +105062,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1l",
+   "help": "y9-5h-convert",
    "label": "1l",
    "section": "Fluency",
    "stem": "Convert each measurement to the unit given in brackets.",
@@ -104753,6 +105073,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-5h-box",
    "label": "2a",
    "section": "Fluency",
    "stem": "Find the volume of each rectangular prism.",
@@ -104856,6 +105177,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-5h-box",
    "label": "2b",
    "section": "Fluency",
    "stem": "Find the volume of each rectangular prism.",
@@ -104959,6 +105281,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-5h-box",
    "label": "2c",
    "section": "Fluency",
    "stem": "Find the volume of each rectangular prism.",
@@ -105062,6 +105385,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-5h-box",
    "label": "2d",
    "section": "Fluency",
    "stem": "Find the volume of each rectangular prism.",
@@ -105165,6 +105489,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-5h-box",
    "label": "2e",
    "section": "Fluency",
    "stem": "Find the volume of each rectangular prism.",
@@ -105268,6 +105593,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-5h-box",
    "label": "2f",
    "section": "Fluency",
    "stem": "Find the volume of each rectangular prism.",
@@ -105371,6 +105697,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-5h-ah",
    "label": "3a",
    "section": "Fluency",
    "stem": "Find the volume of each prism. The area of the shaded cross-section (the front face) is given.",
@@ -105516,6 +105843,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-5h-ah",
    "label": "3b",
    "section": "Fluency",
    "stem": "Find the volume of each prism. The area of the shaded cross-section (the front face) is given.",
@@ -105611,6 +105939,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-5h-ah",
    "label": "3c",
    "section": "Fluency",
    "stem": "Find the volume of each prism. The area of the shaded cross-section (the front face) is given.",
@@ -105731,6 +106060,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-5h-ah",
    "label": "3d",
    "section": "Fluency",
    "stem": "Find the volume of each prism. The area of the shaded cross-section (the front face) is given.",
@@ -105801,6 +106131,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-5h-ah",
    "label": "3e",
    "section": "Fluency",
    "stem": "Find the volume of each prism. The area of the shaded cross-section (the front face) is given.",
@@ -105925,6 +106256,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-5h-ah",
    "label": "3f",
    "section": "Fluency",
    "stem": "Find the volume of each prism. The area of the shaded cross-section (the front face) is given.",
@@ -106045,6 +106377,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3g",
+   "help": "y9-5h-ah",
    "label": "3g",
    "section": "Fluency",
    "stem": "Find the volume of each prism. The area of the shaded cross-section (the front face) is given.",
@@ -106140,6 +106473,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3h",
+   "help": "y9-5h-ah",
    "label": "3h",
    "section": "Fluency",
    "stem": "Find the volume of each prism. The area of the shaded cross-section (the front face) is given.",
@@ -106235,6 +106569,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3i",
+   "help": "y9-5h-ah",
    "label": "3i",
    "section": "Fluency",
    "stem": "Find the volume of each prism. The area of the shaded cross-section (the front face) is given.",
@@ -106334,6 +106669,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-5h-prism",
    "label": "4a",
    "section": "Fluency",
    "stem": "Find the volume of each triangular prism.",
@@ -106422,6 +106758,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-5h-prism",
    "label": "4b",
    "section": "Fluency",
    "stem": "Find the volume of each triangular prism.",
@@ -106519,6 +106856,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-5h-prism",
    "label": "4c",
    "section": "Fluency",
    "stem": "Find the volume of each triangular prism.",
@@ -106607,6 +106945,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-5h-litres",
    "label": "5a",
    "section": "Fluency",
    "stem": "Find the volume of each solid in cm³, then give it in litres. ($1$ cm³ $= 1$ mL and $1$ L $= 1000$ cm³.)",
@@ -106710,6 +107049,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-5h-litres",
    "label": "5b",
    "section": "Fluency",
    "stem": "Find the volume of each solid in cm³, then give it in litres. ($1$ cm³ $= 1$ mL and $1$ L $= 1000$ cm³.)",
@@ -106797,6 +107137,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-5h-litres",
    "label": "5c",
    "section": "Fluency",
    "stem": "Find the volume of each solid in cm³, then give it in litres. ($1$ cm³ $= 1$ mL and $1$ L $= 1000$ cm³.)",
@@ -106885,6 +107226,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-5h-litres",
    "label": "5d",
    "section": "Fluency",
    "stem": "Find the volume of each solid in cm³, then give it in litres. ($1$ cm³ $= 1$ mL and $1$ L $= 1000$ cm³.)",
@@ -107015,6 +107357,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6",
+   "help": "y9-5h-box",
    "label": "6",
    "section": "Problem-solving",
    "type": "numeric",
@@ -107024,6 +107367,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7",
+   "help": "y9-5h-litres",
    "label": "7",
    "section": "Problem-solving",
    "type": "numeric",
@@ -107034,6 +107378,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8",
+   "help": "y9-5h-litres",
    "label": "8",
    "section": "Problem-solving",
    "type": "choice",
@@ -107046,6 +107391,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-5h-prism",
    "label": "9a",
    "section": "Problem-solving",
    "stem": "Find the volume of each solid, rounding to one decimal place where necessary.",
@@ -107169,6 +107515,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-5h-prism",
    "label": "9b",
    "section": "Problem-solving",
    "stem": "Find the volume of each solid, rounding to one decimal place where necessary.",
@@ -107300,6 +107647,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y9-5h-prism",
    "label": "9c",
    "section": "Problem-solving",
    "stem": "Find the volume of each solid, rounding to one decimal place where necessary.",
@@ -107404,6 +107752,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y9-5h-prism",
    "label": "9d",
    "section": "Problem-solving",
    "stem": "Find the volume of each solid, rounding to one decimal place where necessary.",
@@ -107527,6 +107876,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9e",
+   "help": "y9-5h-prism",
    "label": "9e",
    "section": "Problem-solving",
    "stem": "Find the volume of each solid, rounding to one decimal place where necessary.",
@@ -107633,6 +107983,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9f",
+   "help": "y9-5h-prism",
    "label": "9f",
    "section": "Problem-solving",
    "stem": "Find the volume of each solid, rounding to one decimal place where necessary.",
@@ -107756,6 +108107,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y9-5h-litres",
    "label": "10a",
    "section": "Problem-solving",
    "stem": "Find the volume of each solid in litres.",
@@ -107859,6 +108211,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y9-5h-litres",
    "label": "10b",
    "section": "Problem-solving",
    "stem": "Find the volume of each solid in litres.",
@@ -107956,6 +108309,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y9-5h-litres",
    "label": "10c",
    "section": "Problem-solving",
    "stem": "Find the volume of each solid in litres.",
@@ -108043,6 +108397,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y9-5h-pool",
    "label": "11a",
    "section": "Problem-solving",
    "stem": "A new $30$ m swimming pool is $12$ m wide. The diagram shows one side of the pool (not to scale). The pool is $1.2$ m deep for the first $3$ m, then the floor slopes down to a depth of $2.4$ m, and it is $2.4$ m deep for the last $12$ m.",
@@ -108158,6 +108513,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y9-5h-pool",
    "label": "11b",
    "section": "Problem-solving",
    "stem": "A new $30$ m swimming pool is $12$ m wide. The diagram shows one side of the pool (not to scale). The pool is $1.2$ m deep for the first $3$ m, then the floor slopes down to a depth of $2.4$ m, and it is $2.4$ m deep for the last $12$ m.",
@@ -108168,6 +108524,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y9-5h-convert",
    "label": "12a",
    "section": "Reasoning",
    "stem": "What single number do you multiply by to convert from:",
@@ -108177,6 +108534,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y9-5h-convert",
    "label": "12b",
    "section": "Reasoning",
    "stem": "What single number do you multiply by to convert from:",
@@ -108186,6 +108544,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y9-5h-convert",
    "label": "12c",
    "section": "Reasoning",
    "stem": "What single number do you multiply by to convert from:",
@@ -108195,6 +108554,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12d",
+   "help": "y9-5h-convert",
    "label": "12d",
    "section": "Reasoning",
    "stem": "What single number do you divide by to convert from:",
@@ -108204,6 +108564,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12e",
+   "help": "y9-5h-convert",
    "label": "12e",
    "section": "Reasoning",
    "stem": "What single number do you divide by to convert from:",
@@ -108213,6 +108574,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12f",
+   "help": "y9-5h-convert",
    "label": "12f",
    "section": "Reasoning",
    "stem": "What single number do you divide by to convert from:",
@@ -108222,6 +108584,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y9-5h-box",
    "label": "13a",
    "section": "Reasoning",
    "stem": "Write a rule for the volume $V$ of each solid, using the letters given.",
@@ -108235,6 +108598,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y9-5h-box",
    "label": "13b",
    "section": "Reasoning",
    "stem": "Write a rule for the volume $V$ of each solid, using the letters given.",
@@ -108247,6 +108611,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13c",
+   "help": "y9-5h-box",
    "label": "13c",
    "section": "Reasoning",
    "stem": "Write a rule for the volume $V$ of each solid, using the letters given.",
@@ -108259,6 +108624,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y9-5h-pyramid",
    "label": "14a",
    "section": "Enrichment",
    "stem": "A pyramid fits exactly inside a prism with the same base and the same height.",
@@ -108269,6 +108635,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y9-5h-pyramid",
    "label": "14b",
    "section": "Enrichment",
    "stem": "A pyramid fits exactly inside a prism with the same base and the same height.",
@@ -108279,6 +108646,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14c",
+   "help": "y9-5h-pyramid",
    "label": "14c",
    "section": "Enrichment",
    "stem": "A pyramid fits exactly inside a prism with the same base and the same height.",
@@ -108298,6 +108666,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-5i-cylinder",
    "label": "1a",
    "section": "Fluency",
    "stem": "Find the volume of each cylinder, correct to two decimal places.",
@@ -108967,6 +109336,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-5i-cylinder",
    "label": "1b",
    "section": "Fluency",
    "stem": "Find the volume of each cylinder, correct to two decimal places.",
@@ -109636,6 +110006,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-5i-cylinder",
    "label": "1c",
    "section": "Fluency",
    "stem": "Find the volume of each cylinder, correct to two decimal places.",
@@ -110309,6 +110680,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-5i-cylinder",
    "label": "1d",
    "section": "Fluency",
    "stem": "Find the volume of each cylinder, correct to two decimal places.",
@@ -110978,6 +111350,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-5i-cylinder",
    "label": "1e",
    "section": "Fluency",
    "stem": "Find the volume of each cylinder, correct to two decimal places.",
@@ -111651,6 +112024,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-5i-cylinder",
    "label": "1f",
    "section": "Fluency",
    "stem": "Find the volume of each cylinder, correct to two decimal places.",
@@ -112320,6 +112694,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-5i-litres",
    "label": "2a",
    "section": "Fluency",
    "stem": "Find the capacity of each cylinder in litres, rounded to the nearest litre. ($1$ L $= 1000$ cm³ and $1$ m³ $= 1000$ L.)",
@@ -112988,6 +113363,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-5i-litres",
    "label": "2b",
    "section": "Fluency",
    "stem": "Find the capacity of each cylinder in litres, rounded to the nearest litre. ($1$ L $= 1000$ cm³ and $1$ m³ $= 1000$ L.)",
@@ -113660,6 +114036,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-5i-litres",
    "label": "2c",
    "section": "Fluency",
    "stem": "Find the capacity of each cylinder in litres, rounded to the nearest litre. ($1$ L $= 1000$ cm³ and $1$ m³ $= 1000$ L.)",
@@ -114322,6 +114699,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-5i-litres",
    "label": "2d",
    "section": "Fluency",
    "stem": "Find the capacity of each cylinder in litres, rounded to the nearest litre. ($1$ L $= 1000$ cm³ and $1$ m³ $= 1000$ L.)",
@@ -114988,6 +115366,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-5i-litres",
    "label": "2e",
    "section": "Fluency",
    "stem": "Find the capacity of each cylinder in litres, rounded to the nearest litre. ($1$ L $= 1000$ cm³ and $1$ m³ $= 1000$ L.)",
@@ -115654,6 +116033,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-5i-litres",
    "label": "2f",
    "section": "Fluency",
    "stem": "Find the capacity of each cylinder in litres, rounded to the nearest litre. ($1$ L $= 1000$ cm³ and $1$ m³ $= 1000$ L.)",
@@ -116320,6 +116700,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-5i-cylinder",
    "label": "3a",
    "section": "Problem-solving",
    "stem": "A cylindrical rainwater tank has a radius of $2.5$ m and a height of $3$ m.",
@@ -116331,6 +116712,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-5i-cylinder",
    "label": "3b",
    "section": "Problem-solving",
    "stem": "A cylindrical rainwater tank has a radius of $2.5$ m and a height of $3$ m.",
@@ -116341,6 +116723,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4",
+   "help": "y9-5i-cylinder",
    "label": "4",
    "section": "Problem-solving",
    "type": "numeric",
@@ -116350,6 +116733,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-5i-cylinder",
    "label": "5a",
    "section": "Problem-solving",
    "stem": "Compare a cube with sides of $1.2$ m and a cylinder with a radius of $1$ m and a height of $0.6$ m.",
@@ -116363,6 +116747,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-5i-cylinder",
    "label": "5b",
    "section": "Problem-solving",
    "stem": "Compare a cube with sides of $1.2$ m and a cylinder with a radius of $1$ m and a height of $0.6$ m.",
@@ -116374,6 +116759,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-5i-parts",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "Find the volume of each part of a cylinder, correct to two decimal places.",
@@ -116722,6 +117108,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-5i-parts",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "Find the volume of each part of a cylinder, correct to two decimal places.",
@@ -117065,6 +117452,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y9-5i-parts",
    "label": "6c",
    "section": "Problem-solving",
    "stem": "Find the volume of each part of a cylinder, correct to two decimal places.",
@@ -117377,6 +117765,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y9-5i-parts",
    "label": "6d",
    "section": "Problem-solving",
    "stem": "Find the volume of each part of a cylinder, correct to two decimal places.",
@@ -117635,6 +118024,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6e",
+   "help": "y9-5i-parts",
    "label": "6e",
    "section": "Problem-solving",
    "stem": "Find the volume of each part of a cylinder, correct to two decimal places.",
@@ -118230,6 +118620,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6f",
+   "help": "y9-5i-parts",
    "label": "6f",
    "section": "Problem-solving",
    "stem": "Find the volume of each part of a cylinder, correct to two decimal places.",
@@ -119092,6 +119483,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-5i-rearrange",
    "label": "7a",
    "section": "Reasoning",
    "stem": "The rule for the volume of a cylinder is $V = \\pi r^2 h$. Find each value, correct to three decimal places.",
@@ -119102,6 +119494,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-5i-rearrange",
    "label": "7b",
    "section": "Reasoning",
    "stem": "The rule for the volume of a cylinder is $V = \\pi r^2 h$. Find each value, correct to three decimal places.",
@@ -119112,6 +119505,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-5i-exact",
    "label": "8a",
    "section": "Reasoning",
    "stem": "Find the exact volume of each solid, in terms of $\\pi$.",
@@ -119776,6 +120170,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-5i-exact",
    "label": "8b",
    "section": "Reasoning",
    "stem": "Find the exact volume of each solid, in terms of $\\pi$.",
@@ -120449,6 +120844,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y9-5i-exact",
    "label": "8c",
    "section": "Reasoning",
    "stem": "Find the exact volume of each solid, in terms of $\\pi$.",
@@ -120884,6 +121280,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y9-5i-exact",
    "label": "8d",
    "section": "Reasoning",
    "stem": "Find the exact volume of each solid, in terms of $\\pi$.",
@@ -121196,6 +121593,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8e",
+   "help": "y9-5i-exact",
    "label": "8e",
    "section": "Reasoning",
    "stem": "Find the exact volume of each solid, in terms of $\\pi$.",
@@ -121562,6 +121960,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8f",
+   "help": "y9-5i-exact",
    "label": "8f",
    "section": "Reasoning",
    "stem": "Find the exact volume of each solid, in terms of $\\pi$.",
@@ -122424,6 +122823,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y9-5i-sector",
    "label": "10a",
    "section": "Enrichment",
    "stem": "Use the sector area rule $A = \\frac{\\theta}{360} \\times \\pi r^2$ to find the volume of each solid, correct to two decimal places.",
@@ -122652,6 +123052,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y9-5i-sector",
    "label": "10b",
    "section": "Enrichment",
    "stem": "Use the sector area rule $A = \\frac{\\theta}{360} \\times \\pi r^2$ to find the volume of each solid, correct to two decimal places.",
@@ -123061,6 +123462,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y9-5i-sector",
    "label": "10c",
    "section": "Enrichment",
    "stem": "Use the sector area rule $A = \\frac{\\theta}{360} \\times \\pi r^2$ to find the volume of each solid, correct to two decimal places.",
@@ -123671,6 +124073,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10d",
+   "help": "y9-5i-sector",
    "label": "10d",
    "section": "Enrichment",
    "stem": "Use the sector area rule $A = \\frac{\\theta}{360} \\times \\pi r^2$ to find the volume of each solid, correct to two decimal places.",
@@ -124007,6 +124410,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10e",
+   "help": "y9-5i-sector",
    "label": "10e",
    "section": "Enrichment",
    "stem": "Use the sector area rule $A = \\frac{\\theta}{360} \\times \\pi r^2$ to find the volume of each solid, correct to two decimal places.",
@@ -124526,6 +124930,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10f",
+   "help": "y9-5i-sector",
    "label": "10f",
    "section": "Enrichment",
    "stem": "Use the sector area rule $A = \\frac{\\theta}{360} \\times \\pi r^2$ to find the volume of each solid, correct to two decimal places.",
