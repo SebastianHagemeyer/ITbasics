@@ -15986,3 +15986,9920 @@ window.H3_BANK.sets.push(
  ]
 }
 );
+
+// Chapter 5
+window.H3_BANK.sets.push(
+{
+ "id": "y8-5a",
+ "year": 8,
+ "chapter": "Chapter 5: Algebraic techniques and index laws",
+ "title": "5A The language of algebra",
+ "description": "Name terms, coefficients and constants, and turn word descriptions into algebraic expressions.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "type": "list",
+   "hint": "Type the terms separated by commas, for example 3a, 5b.",
+   "prompt": "List the four individual terms in the expression $4p + 6q + 2r + 9$.",
+   "answer": [
+    "4p",
+    "6q",
+    "2r",
+    "9"
+   ]
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "type": "ordered",
+   "hint": "Type them in that order, separated by commas.",
+   "prompt": "In the expression $4p + 6q + 2r + 9$, state the coefficients of $p$, $q$ and $r$.",
+   "answer": [
+    "4",
+    "6",
+    "2"
+   ]
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "type": "list",
+   "hint": "Keep the sign with each term, for example 2a, -7b, -1.",
+   "prompt": "List the individual terms in the expression $8m - 5n - 3k - 6$.",
+   "answer": [
+    "8m",
+    "-5n",
+    "-3k",
+    "-6"
+   ]
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "type": "ordered",
+   "hint": "Type them in that order, separated by commas.",
+   "prompt": "In the expression $8m - 5n - 3k - 6$, state the coefficients of $m$, $n$, $k$ and $j$.",
+   "answer": [
+    "8",
+    "-5",
+    "-3",
+    "0"
+   ]
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "type": "numeric",
+   "prompt": "What is the constant term in $8m - 5n - 3k - 6$?",
+   "answer": "-6"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "type": "numeric",
+   "prompt": "State the coefficient of $n$ in the expression $4mn - m^2 - 7n + 2m$.",
+   "answer": "-7"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "List the terms in each expression. (The number of terms is how many you list.)",
+   "type": "list",
+   "hint": "Separate the terms with commas and keep each term's sign, for example 4a, -2b, 3.",
+   "prompt": "$5m + 3n + p$",
+   "answer": [
+    "5m",
+    "3n",
+    "p"
+   ]
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "List the terms in each expression. (The number of terms is how many you list.)",
+   "type": "list",
+   "prompt": "$21k - 46j + 17$",
+   "answer": [
+    "21k",
+    "-46j",
+    "17"
+   ]
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "List the terms in each expression. (The number of terms is how many you list.)",
+   "type": "list",
+   "prompt": "$b + 4c$",
+   "answer": [
+    "b",
+    "4c"
+   ]
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "List the terms in each expression. (The number of terms is how many you list.)",
+   "type": "list",
+   "prompt": "$6r - 2s + 5t + 108u$",
+   "answer": [
+    "6r",
+    "-2s",
+    "5t",
+    "108u"
+   ]
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "List the terms in each expression. (The number of terms is how many you list.)",
+   "type": "list",
+   "prompt": "$8g + 3hk$",
+   "answer": [
+    "8g",
+    "3hk"
+   ]
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "List the terms in each expression. (The number of terms is how many you list.)",
+   "type": "list",
+   "prompt": "$7 - 3m + 2n + p + q$",
+   "answer": [
+    "7",
+    "-3m",
+    "2n",
+    "p",
+    "q"
+   ]
+  },
+  {
+   "id": "q3g",
+   "label": "3g",
+   "section": "Fluency",
+   "stem": "List the terms in each expression. (The number of terms is how many you list.)",
+   "type": "list",
+   "prompt": "$4 - a^2b + 3cde - 5jk$",
+   "answer": [
+    "4",
+    "-a^2b",
+    "3cde",
+    "-5jk"
+   ]
+  },
+  {
+   "id": "q3h",
+   "label": "3h",
+   "section": "Fluency",
+   "stem": "List the terms in each expression. (The number of terms is how many you list.)",
+   "type": "list",
+   "prompt": "$mn + 3np + 5pq + 7qr$",
+   "answer": [
+    "mn",
+    "3np",
+    "5pq",
+    "7qr"
+   ]
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "For each expression, state the coefficient of $k$.",
+   "type": "numeric",
+   "prompt": "$2j + 5k + m$",
+   "answer": "5"
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "For each expression, state the coefficient of $k$.",
+   "type": "numeric",
+   "prompt": "$4j + k + 3m$",
+   "answer": "1"
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "For each expression, state the coefficient of $k$.",
+   "type": "numeric",
+   "prompt": "$6j + 8k + 3m + n$",
+   "answer": "8"
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "For each expression, state the coefficient of $k$.",
+   "type": "numeric",
+   "prompt": "$5j - 4k + p$",
+   "answer": "-4"
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Fluency",
+   "stem": "For each expression, state the coefficient of $k$.",
+   "type": "numeric",
+   "prompt": "$k + 3j + 7$",
+   "answer": "1"
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Fluency",
+   "stem": "For each expression, state the coefficient of $k$.",
+   "type": "numeric",
+   "prompt": "$4j + 6m$",
+   "answer": "0"
+  },
+  {
+   "id": "q4g",
+   "label": "4g",
+   "section": "Fluency",
+   "stem": "For each expression, state the coefficient of $k$.",
+   "type": "numeric",
+   "prompt": "$9 - 23m + n$",
+   "answer": "0"
+  },
+  {
+   "id": "q4h",
+   "label": "4h",
+   "section": "Fluency",
+   "stem": "For each expression, state the coefficient of $k$.",
+   "type": "numeric",
+   "prompt": "$2j - 7k + m$",
+   "answer": "-7"
+  },
+  {
+   "id": "q4i",
+   "label": "4i",
+   "section": "Fluency",
+   "stem": "For each expression, state the coefficient of $k$.",
+   "type": "numeric",
+   "prompt": "$3j - k + m + n$",
+   "answer": "-1"
+  },
+  {
+   "id": "q4j",
+   "label": "4j",
+   "section": "Fluency",
+   "stem": "For each expression, state the coefficient of $k$.",
+   "type": "numeric",
+   "prompt": "$5j + 3k^2 - 10k$",
+   "answer": "-10"
+  },
+  {
+   "id": "q4k",
+   "label": "4k",
+   "section": "Fluency",
+   "stem": "For each expression, state the coefficient of $k$.",
+   "type": "numeric",
+   "prompt": "$6j - k + m$",
+   "answer": "-1"
+  },
+  {
+   "id": "q4l",
+   "label": "4l",
+   "section": "Fluency",
+   "stem": "For each expression, state the coefficient of $k$.",
+   "type": "numeric",
+   "prompt": "$9j + m - 5k + n$",
+   "answer": "-5"
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Fluency",
+   "stem": "Write an expression for each of the following.",
+   "type": "expression",
+   "hint": "Type fractions with /, for example y/5, and use brackets where you need them, for example 2(a+b) or a/(2b). Type a squared as a^2.",
+   "prompt": "$9$ more than $p$",
+   "answer": "p+9"
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Fluency",
+   "stem": "Write an expression for each of the following.",
+   "type": "expression",
+   "prompt": "$4$ less than $m$",
+   "answer": "m-4"
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Fluency",
+   "stem": "Write an expression for each of the following.",
+   "type": "expression",
+   "prompt": "The sum of $c$ and $d$",
+   "answer": "c+d"
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Fluency",
+   "stem": "Write an expression for each of the following.",
+   "type": "expression",
+   "prompt": "The product of $6$ and $r$",
+   "answer": "6r"
+  },
+  {
+   "id": "q5e",
+   "label": "5e",
+   "section": "Fluency",
+   "stem": "Write an expression for each of the following.",
+   "type": "expression",
+   "prompt": "Half of $n$ is subtracted from $9$",
+   "answer": "9-n/2"
+  },
+  {
+   "id": "q5f",
+   "label": "5f",
+   "section": "Fluency",
+   "stem": "Write an expression for each of the following.",
+   "type": "expression",
+   "prompt": "One-quarter of $t$ is added to $12$",
+   "answer": "12+t/4"
+  },
+  {
+   "id": "q5g",
+   "label": "5g",
+   "section": "Fluency",
+   "stem": "Write an expression for each of the following.",
+   "type": "expression",
+   "prompt": "The sum of $g$ and $h$ multiplied by $5$",
+   "answer": "5(g+h)"
+  },
+  {
+   "id": "q5h",
+   "label": "5h",
+   "section": "Fluency",
+   "stem": "Write an expression for each of the following.",
+   "type": "expression",
+   "prompt": "The sum of $g$ and three times the value of $h$",
+   "answer": "g+3h"
+  },
+  {
+   "id": "q5i",
+   "label": "5i",
+   "section": "Fluency",
+   "stem": "Write an expression for each of the following.",
+   "type": "expression",
+   "prompt": "The product of $p$, $q$ and $r$ divided by $4$",
+   "answer": "pqr/4"
+  },
+  {
+   "id": "q5j",
+   "label": "5j",
+   "section": "Fluency",
+   "stem": "Write an expression for each of the following.",
+   "type": "expression",
+   "prompt": "A third of $m$ added to a quarter of $n$",
+   "answer": "m/3+n/4"
+  },
+  {
+   "id": "q5k",
+   "label": "5k",
+   "section": "Fluency",
+   "stem": "Write an expression for each of the following.",
+   "type": "expression",
+   "prompt": "The quotient of $a$ and $3b$",
+   "answer": "a/(3b)"
+  },
+  {
+   "id": "q5l",
+   "label": "5l",
+   "section": "Fluency",
+   "stem": "Write an expression for each of the following.",
+   "type": "expression",
+   "prompt": "The difference of $p$ and a third of $q$",
+   "answer": "p-q/3"
+  },
+  {
+   "id": "q5m",
+   "label": "5m",
+   "section": "Fluency",
+   "stem": "Write an expression for each of the following.",
+   "type": "expression",
+   "prompt": "The product of $d$ and itself",
+   "answer": "d^2"
+  },
+  {
+   "id": "q5n",
+   "label": "5n",
+   "section": "Fluency",
+   "stem": "Write an expression for each of the following.",
+   "type": "expression",
+   "prompt": "The square of $v$",
+   "answer": "v^2"
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Fluency",
+   "stem": "Choose the description in words that matches each expression.",
+   "type": "choice",
+   "prompt": "$5 + y$",
+   "answer": 0,
+   "options": [
+    "The sum of 5 and y",
+    "The product of 5 and y",
+    "5 less than y"
+   ]
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Fluency",
+   "stem": "Choose the description in words that matches each expression.",
+   "type": "choice",
+   "prompt": "$m + n$",
+   "answer": 1,
+   "options": [
+    "The product of m and n",
+    "The sum of m and n",
+    "The difference of n and m"
+   ]
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Fluency",
+   "stem": "Choose the description in words that matches each expression.",
+   "type": "choice",
+   "prompt": "$3 \\times p \\times q$",
+   "answer": 2,
+   "options": [
+    "The sum of 3, p and q",
+    "3 more than the product of p and q",
+    "The product of 3, p and q"
+   ]
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Fluency",
+   "stem": "Choose the description in words that matches each expression.",
+   "type": "choice",
+   "prompt": "$3a + c$",
+   "answer": 0,
+   "options": [
+    "The sum of three times a and c",
+    "Three times the sum of a and c",
+    "The product of 3, a and c"
+   ]
+  },
+  {
+   "id": "q6e",
+   "label": "6e",
+   "section": "Fluency",
+   "stem": "Choose the description in words that matches each expression.",
+   "type": "choice",
+   "prompt": "$(6 - m) \\times 3$",
+   "answer": 1,
+   "options": [
+    "6 is subtracted from three times m",
+    "m is subtracted from 6 and the result is tripled",
+    "6 is subtracted from m and the result is tripled"
+   ]
+  },
+  {
+   "id": "q6f",
+   "label": "6f",
+   "section": "Fluency",
+   "stem": "Choose the description in words that matches each expression.",
+   "type": "choice",
+   "prompt": "$6 - 3m$",
+   "answer": 2,
+   "options": [
+    "m is subtracted from 6 and the result is tripled",
+    "6 is subtracted from three times m",
+    "Three times m is subtracted from 6"
+   ]
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Problem-solving",
+   "stem": "Priya buys $9$ rose bushes from a garden centre.",
+   "type": "expression",
+   "prompt": "If each rose bush costs $\\$k$, write an expression for the total cost in dollars.",
+   "answer": "9k"
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Problem-solving",
+   "stem": "Priya buys $9$ rose bushes from a garden centre.",
+   "type": "expression",
+   "prompt": "In a sale, the price of each rose bush drops by $\\$4$. Write an expression for the new cost of one rose bush in dollars.",
+   "answer": "k-4"
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Problem-solving",
+   "stem": "Priya buys $9$ rose bushes from a garden centre.",
+   "type": "expression",
+   "hint": "Use brackets where you need them, for example 5(m+2).",
+   "prompt": "Write an expression for the new total cost in dollars of the $9$ rose bushes in the sale.",
+   "answer": "9(k-4)"
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Problem-solving",
+   "stem": "Tomas earns $\\$w$ per week at his job. He works for $46$ weeks each year. Write an expression for the amount he earns:",
+   "type": "expression",
+   "prompt": "in a fortnight",
+   "answer": "2w"
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Problem-solving",
+   "stem": "Tomas earns $\\$w$ per week at his job. He works for $46$ weeks each year. Write an expression for the amount he earns:",
+   "type": "expression",
+   "prompt": "in one year",
+   "answer": "46w"
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Problem-solving",
+   "stem": "Tomas earns $\\$w$ per week at his job. He works for $46$ weeks each year. Write an expression for the amount he earns:",
+   "type": "expression",
+   "prompt": "in one year, if his wage goes up by $\\$25$ per week after he has already worked $32$ weeks of the year",
+   "answer": "32w+14(w+25)"
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Problem-solving",
+   "stem": "Grace buys TV box sets. One show, Galaxy Rangers, costs $\\$m$ per season, and another show, Kitchen Quest, costs $\\$n$ per season. Write an expression for the cost of:",
+   "type": "expression",
+   "prompt": "$3$ seasons of Galaxy Rangers",
+   "answer": "3m"
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Problem-solving",
+   "stem": "Grace buys TV box sets. One show, Galaxy Rangers, costs $\\$m$ per season, and another show, Kitchen Quest, costs $\\$n$ per season. Write an expression for the cost of:",
+   "type": "expression",
+   "prompt": "$6$ seasons of Kitchen Quest",
+   "answer": "6n"
+  },
+  {
+   "id": "q9c",
+   "label": "9c",
+   "section": "Problem-solving",
+   "stem": "Grace buys TV box sets. One show, Galaxy Rangers, costs $\\$m$ per season, and another show, Kitchen Quest, costs $\\$n$ per season. Write an expression for the cost of:",
+   "type": "expression",
+   "prompt": "$4$ seasons of both shows",
+   "answer": "4(m+n)"
+  },
+  {
+   "id": "q9d",
+   "label": "9d",
+   "section": "Problem-solving",
+   "stem": "Grace buys TV box sets. One show, Galaxy Rangers, costs $\\$m$ per season, and another show, Kitchen Quest, costs $\\$n$ per season. Write an expression for the cost of:",
+   "type": "expression",
+   "prompt": "all $6$ seasons of each show, if the total price is halved in a sale",
+   "answer": "6(m+n)/2"
+  },
+  {
+   "id": "q10",
+   "label": "10",
+   "section": "Problem-solving",
+   "type": "expression",
+   "prompt": "An electrician charges an $\\$85$ call-out fee and then $\\$75$ per hour. Write an expression for the total cost in dollars of calling the electrician out for $h$ hours.",
+   "answer": "85+75h"
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Problem-solving",
+   "stem": "A satellite phone call costs a $30$ cent connection fee and then $40$ cents per minute.",
+   "type": "expression",
+   "prompt": "Write an expression for the total cost (in cents) of a call lasting $t$ minutes.",
+   "answer": "30+40t"
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Problem-solving",
+   "stem": "A satellite phone call costs a $30$ cent connection fee and then $40$ cents per minute.",
+   "type": "expression",
+   "hint": "Use decimals for the dollar amounts, for example 0.25 + 0.1t.",
+   "prompt": "Write an expression for the total cost (in dollars) of a call lasting $t$ minutes.",
+   "answer": "0.3+0.4t"
+  },
+  {
+   "id": "q11c",
+   "label": "11c",
+   "section": "Problem-solving",
+   "stem": "A satellite phone call costs a $30$ cent connection fee and then $40$ cents per minute.",
+   "type": "expression",
+   "prompt": "Write an expression for the total cost (in dollars) of a call lasting $t$ hours.",
+   "answer": "0.3+24t"
+  },
+  {
+   "id": "q12a",
+   "label": "12a",
+   "section": "Reasoning",
+   "stem": "If $p$ is a positive number, decide whether each statement is true or false.",
+   "type": "choice",
+   "prompt": "$p$ is always smaller than $3 \\times p$.",
+   "answer": 0,
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "id": "q12b",
+   "label": "12b",
+   "section": "Reasoning",
+   "stem": "If $p$ is a positive number, decide whether each statement is true or false.",
+   "type": "choice",
+   "prompt": "$p$ is always smaller than $p + 5$.",
+   "answer": 0,
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "id": "q12c",
+   "label": "12c",
+   "section": "Reasoning",
+   "stem": "If $p$ is a positive number, decide whether each statement is true or false.",
+   "type": "choice",
+   "prompt": "$p$ is always smaller than $p^2$.",
+   "answer": 1,
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "id": "q12d",
+   "label": "12d",
+   "section": "Reasoning",
+   "stem": "If $p$ is a positive number, decide whether each statement is true or false.",
+   "type": "choice",
+   "prompt": "$2 - p$ is always less than $6 - p$.",
+   "answer": 0,
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "id": "q12e",
+   "label": "12e",
+   "section": "Reasoning",
+   "stem": "If $p$ is a positive number, decide whether each statement is true or false.",
+   "type": "choice",
+   "prompt": "$p - 4$ is always a positive number.",
+   "answer": 1,
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "id": "q12f",
+   "label": "12f",
+   "section": "Reasoning",
+   "stem": "If $p$ is a positive number, decide whether each statement is true or false.",
+   "type": "choice",
+   "prompt": "$p + p - 2$ is always a positive number.",
+   "answer": 1,
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "id": "q13a",
+   "label": "13a",
+   "section": "Reasoning",
+   "stem": "If $n$ is a negative number, decide whether each statement is true or false.",
+   "type": "choice",
+   "prompt": "$n - 5$ must be negative.",
+   "answer": 0,
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "id": "q13b",
+   "label": "13b",
+   "section": "Reasoning",
+   "stem": "If $n$ is a negative number, decide whether each statement is true or false.",
+   "type": "choice",
+   "prompt": "$n + 3$ could be negative.",
+   "answer": 0,
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "id": "q13c",
+   "label": "13c",
+   "section": "Reasoning",
+   "stem": "If $n$ is a negative number, decide whether each statement is true or false.",
+   "type": "choice",
+   "prompt": "$n \\times 4$ could be positive.",
+   "answer": 1,
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "id": "q13d",
+   "label": "13d",
+   "section": "Reasoning",
+   "stem": "If $n$ is a negative number, decide whether each statement is true or false.",
+   "type": "choice",
+   "prompt": "$n + n$ must be negative.",
+   "answer": 0,
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "id": "q14a",
+   "label": "14a",
+   "section": "Reasoning",
+   "stem": "The expressions $2m + 4$ and $2(m + 4)$ mean different things.",
+   "type": "choice",
+   "prompt": "Which expression means \"double $m$, then add $4$\"?",
+   "answer": 0,
+   "options": [
+    "2m + 4",
+    "2(m + 4)"
+   ]
+  },
+  {
+   "id": "q14b",
+   "label": "14b",
+   "section": "Reasoning",
+   "stem": "The expressions $2m + 4$ and $2(m + 4)$ mean different things.",
+   "type": "choice",
+   "prompt": "Which expression means \"add $4$ to $m$, then double the result\"?",
+   "answer": 1,
+   "options": [
+    "2m + 4",
+    "2(m + 4)"
+   ]
+  },
+  {
+   "id": "q15a",
+   "label": "15a",
+   "section": "Enrichment",
+   "stem": "An expression has $26$ terms, one for each letter of the alphabet. It starts $2a + 5b + 10c + 17d + 26e + \\dots$",
+   "type": "numeric",
+   "prompt": "What is the coefficient of $f$?",
+   "answer": "37"
+  },
+  {
+   "id": "q15b",
+   "label": "15b",
+   "section": "Enrichment",
+   "stem": "An expression has $26$ terms, one for each letter of the alphabet. It starts $2a + 5b + 10c + 17d + 26e + \\dots$",
+   "type": "numeric",
+   "prompt": "What is the coefficient of $z$?",
+   "answer": "677"
+  },
+  {
+   "id": "q15c",
+   "label": "15c",
+   "section": "Enrichment",
+   "stem": "An expression has $26$ terms, one for each letter of the alphabet. It starts $2a + 5b + 10c + 17d + 26e + \\dots$",
+   "type": "text",
+   "hint": "Type just the letter.",
+   "prompt": "Which pronumeral has a coefficient of $401$?",
+   "answer": "t"
+  },
+  {
+   "id": "q15d",
+   "label": "15d",
+   "section": "Enrichment",
+   "stem": "An expression has $26$ terms, one for each letter of the alphabet. It starts $2a + 5b + 10c + 17d + 26e + \\dots$",
+   "type": "expression",
+   "prompt": "One term is removed and now the coefficient of $k$ is zero. What was the term?",
+   "answer": "122k"
+  },
+  {
+   "id": "q15e",
+   "label": "15e",
+   "section": "Enrichment",
+   "stem": "An expression has $26$ terms, one for each letter of the alphabet. It starts $2a + 5b + 10c + 17d + 26e + \\dots$",
+   "type": "numeric",
+   "prompt": "Another expression with $26$ terms starts $3a + 6b + 12c + 24d + 48e + \\dots$ (each coefficient is double the one before). What is the sum of all its coefficients?",
+   "answer": "201326589"
+  }
+ ]
+},
+{
+ "id": "y8-5b",
+ "year": 8,
+ "chapter": "Chapter 5: Algebraic techniques and index laws",
+ "title": "5B Substitution and equivalence",
+ "description": "Substitute numbers (including negatives) into expressions and decide whether two expressions are equivalent.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Substitute $m = 6$ to evaluate the following expressions.",
+   "type": "numeric",
+   "prompt": "$m + 3$",
+   "answer": "9"
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Substitute $m = 6$ to evaluate the following expressions.",
+   "type": "numeric",
+   "prompt": "$m - 4$",
+   "answer": "2"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "Substitute $m = 6$ to evaluate the following expressions.",
+   "type": "numeric",
+   "prompt": "$3m$",
+   "answer": "18"
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "Substitute $m = 6$ to evaluate the following expressions.",
+   "type": "numeric",
+   "prompt": "$11 - m$",
+   "answer": "5"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Substitute each value of $p$ into the expression $5p + 3$.",
+   "type": "numeric",
+   "prompt": "$p = 3$",
+   "answer": "18"
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Substitute each value of $p$ into the expression $5p + 3$.",
+   "type": "numeric",
+   "prompt": "$p = 6$",
+   "answer": "33"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Substitute each value of $p$ into the expression $5p + 3$.",
+   "type": "numeric",
+   "prompt": "$p = 1$",
+   "answer": "8"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Substitute each value of $p$ into the expression $5p + 3$.",
+   "type": "numeric",
+   "prompt": "$p = 9$",
+   "answer": "48"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Substitute $m = -4$ to evaluate the following expressions.",
+   "type": "numeric",
+   "prompt": "$m + 3$",
+   "answer": "-1"
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Substitute $m = -4$ to evaluate the following expressions.",
+   "type": "numeric",
+   "prompt": "$m - 4$",
+   "answer": "-8"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Substitute $m = -4$ to evaluate the following expressions.",
+   "type": "numeric",
+   "prompt": "$3m$",
+   "answer": "-12"
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Substitute $m = -4$ to evaluate the following expressions.",
+   "type": "numeric",
+   "prompt": "$11 - m$",
+   "answer": "15"
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "Substitute $a = 3$ and $b = 4$ into each of the following.",
+   "type": "numeric",
+   "prompt": "$4a + 7$",
+   "answer": "19"
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "Substitute $a = 3$ and $b = 4$ into each of the following.",
+   "type": "numeric",
+   "prompt": "$5b$",
+   "answer": "20"
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "Substitute $a = 3$ and $b = 4$ into each of the following.",
+   "type": "numeric",
+   "prompt": "$a + b$",
+   "answer": "7"
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "Substitute $a = 3$ and $b = 4$ into each of the following.",
+   "type": "numeric",
+   "prompt": "$ab - 6 + b$",
+   "answer": "10"
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Fluency",
+   "stem": "Substitute $a = 3$ and $b = 4$ into each of the following.",
+   "type": "numeric",
+   "prompt": "$2a + 3b$",
+   "answer": "18"
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Fluency",
+   "stem": "Substitute $a = 3$ and $b = 4$ into each of the following.",
+   "type": "numeric",
+   "prompt": "$9a - 4b$",
+   "answer": "11"
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Fluency",
+   "stem": "Substitute $a = 6$ and $b = -2$ into each of the following.",
+   "type": "numeric",
+   "prompt": "$\\frac{18}{a} + \\frac{8}{b}$",
+   "answer": "-1"
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Fluency",
+   "stem": "Substitute $a = 6$ and $b = -2$ into each of the following.",
+   "type": "numeric",
+   "prompt": "$\\frac{ab}{4} + b$",
+   "answer": "-5"
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Fluency",
+   "stem": "Substitute $a = 6$ and $b = -2$ into each of the following.",
+   "type": "numeric",
+   "prompt": "$\\frac{120}{a + b}$",
+   "answer": "30"
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Fluency",
+   "stem": "Substitute $a = 6$ and $b = -2$ into each of the following.",
+   "type": "numeric",
+   "prompt": "$a^2 + b$",
+   "answer": "34"
+  },
+  {
+   "id": "q5e",
+   "label": "5e",
+   "section": "Fluency",
+   "stem": "Substitute $a = 6$ and $b = -2$ into each of the following.",
+   "type": "numeric",
+   "prompt": "$3 \\times (b + 5)^2$",
+   "answer": "27"
+  },
+  {
+   "id": "q5f",
+   "label": "5f",
+   "section": "Fluency",
+   "stem": "Substitute $a = 6$ and $b = -2$ into each of the following.",
+   "type": "numeric",
+   "prompt": "$a + b^2 - b$",
+   "answer": "12"
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Fluency",
+   "stem": "For each pair, decide whether the two expressions are equivalent.",
+   "type": "choice",
+   "prompt": "$m + n$ and $n + m$",
+   "answer": 0,
+   "options": [
+    "Equivalent",
+    "Not equivalent"
+   ]
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Fluency",
+   "stem": "For each pair, decide whether the two expressions are equivalent.",
+   "type": "choice",
+   "prompt": "$4 \\times y$ and $y + 3y$",
+   "answer": 0,
+   "options": [
+    "Equivalent",
+    "Not equivalent"
+   ]
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Fluency",
+   "stem": "For each pair, decide whether the two expressions are equivalent.",
+   "type": "choice",
+   "prompt": "$5p + q$ and $5q + p$",
+   "answer": 1,
+   "options": [
+    "Equivalent",
+    "Not equivalent"
+   ]
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Fluency",
+   "stem": "For each pair, decide whether the two expressions are equivalent.",
+   "type": "choice",
+   "prompt": "$9 - k$ and $6 - k + 3$",
+   "answer": 0,
+   "options": [
+    "Equivalent",
+    "Not equivalent"
+   ]
+  },
+  {
+   "id": "q6e",
+   "label": "6e",
+   "section": "Fluency",
+   "stem": "For each pair, decide whether the two expressions are equivalent.",
+   "type": "choice",
+   "prompt": "$3(c + d)$ and $3c + d$",
+   "answer": 1,
+   "options": [
+    "Equivalent",
+    "Not equivalent"
+   ]
+  },
+  {
+   "id": "q6f",
+   "label": "6f",
+   "section": "Fluency",
+   "stem": "For each pair, decide whether the two expressions are equivalent.",
+   "type": "choice",
+   "prompt": "$5 + 3a$ and $3 + 5a$",
+   "answer": 1,
+   "options": [
+    "Equivalent",
+    "Not equivalent"
+   ]
+  },
+  {
+   "id": "q6g",
+   "label": "6g",
+   "section": "Fluency",
+   "stem": "For each pair, decide whether the two expressions are equivalent.",
+   "type": "choice",
+   "prompt": "$\\frac{1}{3} \\times t$ and $\\frac{t}{3}$",
+   "answer": 0,
+   "options": [
+    "Equivalent",
+    "Not equivalent"
+   ]
+  },
+  {
+   "id": "q6h",
+   "label": "6h",
+   "section": "Fluency",
+   "stem": "For each pair, decide whether the two expressions are equivalent.",
+   "type": "choice",
+   "prompt": "$2 + 8w$ and $2(4w + 1)$",
+   "answer": 0,
+   "options": [
+    "Equivalent",
+    "Not equivalent"
+   ]
+  },
+  {
+   "id": "q6i",
+   "label": "6i",
+   "section": "Fluency",
+   "stem": "For each pair, decide whether the two expressions are equivalent.",
+   "type": "choice",
+   "prompt": "$-3(2 - y)$ and $3y - 6$",
+   "answer": 0,
+   "options": [
+    "Equivalent",
+    "Not equivalent"
+   ]
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Fluency",
+   "stem": "In each list, two of the three expressions are equivalent. Choose the odd one out.",
+   "type": "choice",
+   "prompt": "$5m$, $4 + m$, $4m + m$",
+   "answer": 1,
+   "options": [
+    "5m",
+    "4 + m",
+    "4m + m"
+   ]
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Fluency",
+   "stem": "In each list, two of the three expressions are equivalent. Choose the odd one out.",
+   "type": "choice",
+   "prompt": "$5 - k$, $k - 5$, $k + 2 - 7$",
+   "answer": 0,
+   "options": [
+    "5 - k",
+    "k - 5",
+    "k + 2 - 7"
+   ]
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Fluency",
+   "stem": "In each list, two of the three expressions are equivalent. Choose the odd one out.",
+   "type": "choice",
+   "prompt": "$7r - 3r$, $2r + 2r$, $6r - 3r$",
+   "answer": 2,
+   "options": [
+    "7r - 3r",
+    "2r + 2r",
+    "6r - 3r"
+   ]
+  },
+  {
+   "id": "q7d",
+   "label": "7d",
+   "section": "Fluency",
+   "stem": "In each list, two of the three expressions are equivalent. Choose the odd one out.",
+   "type": "choice",
+   "prompt": "$9v - 4$, $4v - 9$, $4v - 4 + 5v$",
+   "answer": 1,
+   "options": [
+    "9v - 4",
+    "4v - 9",
+    "4v - 4 + 5v"
+   ]
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Fluency",
+   "stem": "Evaluate the expression $3ab - 4b + 5c$ when:",
+   "type": "numeric",
+   "prompt": "$a = 2$, $b = 5$ and $c = 3$",
+   "answer": "25"
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Fluency",
+   "stem": "Evaluate the expression $3ab - 4b + 5c$ when:",
+   "type": "numeric",
+   "prompt": "$a = -4$, $b = -3$ and $c = 2$",
+   "answer": "58"
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Fluency",
+   "stem": "Evaluate the expression $3ab - 4b + 5c$ when:",
+   "type": "numeric",
+   "prompt": "$a = -2$, $b = -5$ and $c = -3$",
+   "answer": "35"
+  },
+  {
+   "id": "q8d",
+   "label": "8d",
+   "section": "Fluency",
+   "stem": "Evaluate the expression $3ab - 4b + 5c$ when:",
+   "type": "numeric",
+   "prompt": "$a = 6$, $b = -1$ and $c = 4$",
+   "answer": "6"
+  },
+  {
+   "id": "q8e",
+   "label": "8e",
+   "section": "Fluency",
+   "stem": "Evaluate the expression $3ab - 4b + 5c$ when:",
+   "type": "numeric",
+   "prompt": "$a = -5$, $b = -2$ and $c = 3$",
+   "answer": "53"
+  },
+  {
+   "id": "q8f",
+   "label": "8f",
+   "section": "Fluency",
+   "stem": "Evaluate the expression $3ab - 4b + 5c$ when:",
+   "type": "numeric",
+   "prompt": "$a = -3$, $b = -4$ and $c = 7$",
+   "answer": "87"
+  },
+  {
+   "id": "q9",
+   "label": "9",
+   "section": "Problem-solving",
+   "type": "choice",
+   "prompt": "Which of these expressions is equivalent to $3m + 5n + 2$?",
+   "answer": 0,
+   "options": [
+    "5n + 2 + 3m",
+    "3n + 5m + 2",
+    "3m + 5n",
+    "2 + 3mn + 5"
+   ]
+  },
+  {
+   "id": "q10",
+   "label": "10",
+   "section": "Problem-solving",
+   "type": "inequality",
+   "hint": "Type an inequality, for example x > 7 or x < 7.",
+   "prompt": "A number is substituted for $x$ in the expression $12 - 3x$ and the result is a negative number. Write an inequality that describes the number substituted for $x$.",
+   "answer": "x>4"
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Problem-solving",
+   "stem": "Complete the table. For each column, type the missing values from top to bottom, separated by commas.",
+   "type": "ordered",
+   "prompt": "Column 1",
+   "answer": [
+    "13",
+    "-3",
+    "13"
+   ],
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "Column",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+     ],
+     [
+      "x",
+      "4",
+      "?",
+      "0.5",
+      "?",
+      "-3",
+      "?"
+     ],
+     [
+      "3x + 1",
+      "?",
+      "10",
+      "?",
+      "?",
+      "?",
+      "?"
+     ],
+     [
+      "5 - 2x",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "-7"
+     ],
+     [
+      "4x - 3",
+      "?",
+      "?",
+      "?",
+      "17",
+      "?",
+      "?"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Problem-solving",
+   "stem": "Complete the table. For each column, type the missing values from top to bottom, separated by commas.",
+   "type": "ordered",
+   "prompt": "Column 2",
+   "answer": [
+    "3",
+    "-1",
+    "9"
+   ]
+  },
+  {
+   "id": "q11c",
+   "label": "11c",
+   "section": "Problem-solving",
+   "stem": "Complete the table. For each column, type the missing values from top to bottom, separated by commas.",
+   "type": "ordered",
+   "prompt": "Column 3",
+   "answer": [
+    "2.5",
+    "4",
+    "-1"
+   ]
+  },
+  {
+   "id": "q11d",
+   "label": "11d",
+   "section": "Problem-solving",
+   "stem": "Complete the table. For each column, type the missing values from top to bottom, separated by commas.",
+   "type": "ordered",
+   "prompt": "Column 4",
+   "answer": [
+    "5",
+    "16",
+    "-5"
+   ]
+  },
+  {
+   "id": "q11e",
+   "label": "11e",
+   "section": "Problem-solving",
+   "stem": "Complete the table. For each column, type the missing values from top to bottom, separated by commas.",
+   "type": "ordered",
+   "prompt": "Column 5",
+   "answer": [
+    "-8",
+    "11",
+    "-15"
+   ]
+  },
+  {
+   "id": "q11f",
+   "label": "11f",
+   "section": "Problem-solving",
+   "stem": "Complete the table. For each column, type the missing values from top to bottom, separated by commas.",
+   "type": "ordered",
+   "prompt": "Column 6",
+   "answer": [
+    "6",
+    "19",
+    "21"
+   ]
+  },
+  {
+   "id": "q12a",
+   "label": "12a",
+   "section": "Problem-solving",
+   "stem": "Assume that $a$ and $b$ are integers (positive, negative or zero).",
+   "type": "list",
+   "hint": "Remember the negative numbers. Separate the values with commas.",
+   "prompt": "If $ab = 14$, list all the values that $a$ could have.",
+   "answer": [
+    "-14",
+    "-7",
+    "-2",
+    "-1",
+    "1",
+    "2",
+    "7",
+    "14"
+   ]
+  },
+  {
+   "id": "q12b",
+   "label": "12b",
+   "section": "Problem-solving",
+   "stem": "Assume that $a$ and $b$ are integers (positive, negative or zero).",
+   "type": "choice",
+   "prompt": "If $a + b = 14$, how many pairs of values could $a$ and $b$ have?",
+   "answer": 2,
+   "options": [
+    "None",
+    "Exactly 15",
+    "Infinitely many"
+   ]
+  },
+  {
+   "id": "q12c",
+   "label": "12c",
+   "section": "Problem-solving",
+   "stem": "Assume that $a$ and $b$ are integers (positive, negative or zero).",
+   "type": "list",
+   "prompt": "If $ab = a + b + 3$, list all the values that $a$ could have.",
+   "answer": [
+    "-3",
+    "-1",
+    "0",
+    "2",
+    "3",
+    "5"
+   ]
+  },
+  {
+   "id": "q13a",
+   "label": "13a",
+   "section": "Reasoning",
+   "stem": "Think about the expressions $m + 2n$ and $m + 5n$.",
+   "type": "numeric",
+   "prompt": "The two expressions are equal whenever $n$ has one particular value. What is that value of $n$?",
+   "answer": "0"
+  },
+  {
+   "id": "q13b",
+   "label": "13b",
+   "section": "Reasoning",
+   "stem": "Think about the expressions $m + 2n$ and $m + 5n$.",
+   "type": "choice",
+   "prompt": "Does this mean that $m + 2n$ and $m + 5n$ are equivalent?",
+   "answer": 1,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q14a",
+   "label": "14a",
+   "section": "Reasoning",
+   "stem": "Use $a = 36$, $b = 3$ and $c = 2$.",
+   "type": "numeric",
+   "prompt": "Evaluate $a \\div (b \\times c)$.",
+   "answer": "6"
+  },
+  {
+   "id": "q14b",
+   "label": "14b",
+   "section": "Reasoning",
+   "stem": "Use $a = 36$, $b = 3$ and $c = 2$.",
+   "type": "numeric",
+   "prompt": "Evaluate $(a \\div b) \\times c$.",
+   "answer": "24"
+  },
+  {
+   "id": "q14c",
+   "label": "14c",
+   "section": "Reasoning",
+   "stem": "Use $a = 36$, $b = 3$ and $c = 2$.",
+   "type": "choice",
+   "prompt": "Is $a \\div (b \\div c)$ equivalent to $(a \\div b) \\div c$?",
+   "answer": 1,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q15a",
+   "label": "15a",
+   "section": "Reasoning",
+   "stem": "Look at these four pairs of expressions.",
+   "type": "choice",
+   "prompt": "Which pair is equal only when $a = 6$?",
+   "answer": 0,
+   "options": [
+    "3a and a + 12",
+    "a + b and b + a",
+    "2a + b and a + 2b",
+    "a + 3 and a - 3"
+   ]
+  },
+  {
+   "id": "q15b",
+   "label": "15b",
+   "section": "Reasoning",
+   "stem": "Look at these four pairs of expressions.",
+   "type": "choice",
+   "prompt": "Which pair is equal only when $a = b$?",
+   "answer": 2,
+   "options": [
+    "3a and a + 12",
+    "a + b and b + a",
+    "2a + b and a + 2b",
+    "a + 3 and a - 3"
+   ]
+  },
+  {
+   "id": "q15c",
+   "label": "15c",
+   "section": "Reasoning",
+   "stem": "Look at these four pairs of expressions.",
+   "type": "choice",
+   "prompt": "Which pair is never equal, whatever the values of the pronumerals?",
+   "answer": 3,
+   "options": [
+    "3a and a + 12",
+    "a + b and b + a",
+    "2a + b and a + 2b",
+    "a + 3 and a - 3"
+   ]
+  },
+  {
+   "id": "q16a",
+   "label": "16a",
+   "section": "Reasoning",
+   "stem": "By substituting a range of numbers for $a$ and $b$, decide whether each pair of expressions is equivalent.",
+   "type": "choice",
+   "prompt": "$(ab)^3$ and $a^3b^3$",
+   "answer": 0,
+   "options": [
+    "Equivalent",
+    "Not equivalent"
+   ]
+  },
+  {
+   "id": "q16b",
+   "label": "16b",
+   "section": "Reasoning",
+   "stem": "By substituting a range of numbers for $a$ and $b$, decide whether each pair of expressions is equivalent.",
+   "type": "choice",
+   "prompt": "$(a - b)^2$ and $a^2 - b^2$",
+   "answer": 1,
+   "options": [
+    "Equivalent",
+    "Not equivalent"
+   ]
+  },
+  {
+   "id": "q16c",
+   "label": "16c",
+   "section": "Reasoning",
+   "stem": "By substituting a range of numbers for $a$ and $b$, decide whether each pair of expressions is equivalent.",
+   "type": "choice",
+   "hint": "In parts c and d, use positive numbers only.",
+   "prompt": "$\\sqrt{ab}$ and $\\sqrt{a} \\times \\sqrt{b}$",
+   "answer": 0,
+   "options": [
+    "Equivalent",
+    "Not equivalent"
+   ]
+  },
+  {
+   "id": "q16d",
+   "label": "16d",
+   "section": "Reasoning",
+   "stem": "By substituting a range of numbers for $a$ and $b$, decide whether each pair of expressions is equivalent.",
+   "type": "choice",
+   "prompt": "$\\sqrt{a + b}$ and $\\sqrt{a} + \\sqrt{b}$",
+   "answer": 1,
+   "options": [
+    "Equivalent",
+    "Not equivalent"
+   ]
+  },
+  {
+   "id": "q16e",
+   "label": "16e",
+   "section": "Reasoning",
+   "stem": "By substituting a range of numbers for $a$ and $b$, decide whether each pair of expressions is equivalent.",
+   "type": "choice",
+   "prompt": "Which values make $(a - b)^2$ equal to $a^2 - b^2$?",
+   "answer": 1,
+   "options": [
+    "a = 5, b = 2",
+    "a = 4, b = 4",
+    "a = 3, b = 1",
+    "a = 2, b = 6"
+   ]
+  },
+  {
+   "id": "q18a",
+   "label": "18a",
+   "section": "Enrichment",
+   "stem": "Find the missing values in the table. For each column, type the missing values from top to bottom, separated by commas.",
+   "type": "ordered",
+   "prompt": "Column 1",
+   "answer": [
+    "10",
+    "13",
+    "4",
+    "1"
+   ],
+   "stemFigure": {
+    "kind": "table",
+    "rows": [
+     [
+      "Column",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+     ],
+     [
+      "a",
+      "7",
+      "9",
+      "?",
+      "?",
+      "-15",
+      "?",
+      "?",
+      "?"
+     ],
+     [
+      "b",
+      "3",
+      "?",
+      "2",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+     ],
+     [
+      "a + b",
+      "?",
+      "12",
+      "?",
+      "11",
+      "?",
+      "9",
+      "?",
+      "-16"
+     ],
+     [
+      "a + 2b",
+      "?",
+      "?",
+      "?",
+      "15",
+      "1",
+      "?",
+      "14",
+      "?"
+     ],
+     [
+      "a - b",
+      "?",
+      "?",
+      "4",
+      "?",
+      "?",
+      "15",
+      "?",
+      "?"
+     ],
+     [
+      "a - 2b",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "-22",
+      "17"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q18b",
+   "label": "18b",
+   "section": "Enrichment",
+   "stem": "Find the missing values in the table. For each column, type the missing values from top to bottom, separated by commas.",
+   "type": "ordered",
+   "prompt": "Column 2",
+   "answer": [
+    "3",
+    "15",
+    "6",
+    "3"
+   ]
+  },
+  {
+   "id": "q18c",
+   "label": "18c",
+   "section": "Enrichment",
+   "stem": "Find the missing values in the table. For each column, type the missing values from top to bottom, separated by commas.",
+   "type": "ordered",
+   "prompt": "Column 3",
+   "answer": [
+    "6",
+    "8",
+    "10",
+    "2"
+   ]
+  },
+  {
+   "id": "q18d",
+   "label": "18d",
+   "section": "Enrichment",
+   "stem": "Find the missing values in the table. For each column, type the missing values from top to bottom, separated by commas.",
+   "type": "ordered",
+   "prompt": "Column 4",
+   "answer": [
+    "7",
+    "4",
+    "3",
+    "-1"
+   ]
+  },
+  {
+   "id": "q18e",
+   "label": "18e",
+   "section": "Enrichment",
+   "stem": "Find the missing values in the table. For each column, type the missing values from top to bottom, separated by commas.",
+   "type": "ordered",
+   "prompt": "Column 5",
+   "answer": [
+    "8",
+    "-7",
+    "-23",
+    "-31"
+   ]
+  },
+  {
+   "id": "q18f",
+   "label": "18f",
+   "section": "Enrichment",
+   "stem": "Find the missing values in the table. For each column, type the missing values from top to bottom, separated by commas.",
+   "type": "ordered",
+   "prompt": "Column 6",
+   "answer": [
+    "12",
+    "-3",
+    "6",
+    "18"
+   ]
+  },
+  {
+   "id": "q18g",
+   "label": "18g",
+   "section": "Enrichment",
+   "stem": "Find the missing values in the table. For each column, type the missing values from top to bottom, separated by commas.",
+   "type": "ordered",
+   "prompt": "Column 7",
+   "answer": [
+    "-4",
+    "9",
+    "5",
+    "-13"
+   ]
+  },
+  {
+   "id": "q18h",
+   "label": "18h",
+   "section": "Enrichment",
+   "stem": "Find the missing values in the table. For each column, type the missing values from top to bottom, separated by commas.",
+   "type": "ordered",
+   "prompt": "Column 8",
+   "answer": [
+    "-5",
+    "-11",
+    "-27",
+    "6"
+   ]
+  }
+ ]
+},
+{
+ "id": "y8-5c",
+ "year": 8,
+ "chapter": "Chapter 5: Algebraic techniques and index laws",
+ "title": "5C Adding and subtracting terms",
+ "description": "Recognise like terms and simplify expressions by adding and subtracting them.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Classify each pair as like terms or not like terms.",
+   "type": "choice",
+   "prompt": "$5m$ and $3n$",
+   "answer": 1,
+   "options": [
+    "Like terms",
+    "Not like terms"
+   ]
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Classify each pair as like terms or not like terms.",
+   "type": "choice",
+   "prompt": "$6k$ and $2k$",
+   "answer": 0,
+   "options": [
+    "Like terms",
+    "Not like terms"
+   ]
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "Classify each pair as like terms or not like terms.",
+   "type": "choice",
+   "prompt": "$4r$ and $4s$",
+   "answer": 1,
+   "options": [
+    "Like terms",
+    "Not like terms"
+   ]
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "Classify each pair as like terms or not like terms.",
+   "type": "choice",
+   "prompt": "$7t$ and $3t$",
+   "answer": 0,
+   "options": [
+    "Like terms",
+    "Not like terms"
+   ]
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Classify each pair as like terms or not like terms.",
+   "type": "choice",
+   "prompt": "$6p$ and $2p$",
+   "answer": 0,
+   "options": [
+    "Like terms",
+    "Not like terms"
+   ]
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Classify each pair as like terms or not like terms.",
+   "type": "choice",
+   "prompt": "$5y$ and $-9y$",
+   "answer": 0,
+   "options": [
+    "Like terms",
+    "Not like terms"
+   ]
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Classify each pair as like terms or not like terms.",
+   "type": "choice",
+   "prompt": "$3w$ and $8w$",
+   "answer": 0,
+   "options": [
+    "Like terms",
+    "Not like terms"
+   ]
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Classify each pair as like terms or not like terms.",
+   "type": "choice",
+   "prompt": "$6m$ and $-2n$",
+   "answer": 1,
+   "options": [
+    "Like terms",
+    "Not like terms"
+   ]
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Classify each pair as like terms or not like terms.",
+   "type": "choice",
+   "prompt": "$5ab$ and $4b$",
+   "answer": 1,
+   "options": [
+    "Like terms",
+    "Not like terms"
+   ]
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "Classify each pair as like terms or not like terms.",
+   "type": "choice",
+   "prompt": "$9mn$ and $2nm$",
+   "answer": 0,
+   "options": [
+    "Like terms",
+    "Not like terms"
+   ]
+  },
+  {
+   "id": "q2g",
+   "label": "2g",
+   "section": "Fluency",
+   "stem": "Classify each pair as like terms or not like terms.",
+   "type": "choice",
+   "prompt": "$4pq$ and $-7p$",
+   "answer": 1,
+   "options": [
+    "Like terms",
+    "Not like terms"
+   ]
+  },
+  {
+   "id": "q2h",
+   "label": "2h",
+   "section": "Fluency",
+   "stem": "Classify each pair as like terms or not like terms.",
+   "type": "choice",
+   "prompt": "$3y$ and $5yz$",
+   "answer": 1,
+   "options": [
+    "Like terms",
+    "Not like terms"
+   ]
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Classify each pair as like terms or not like terms.",
+   "type": "choice",
+   "prompt": "$-4a^2b$ and $6a^2b$",
+   "answer": 0,
+   "options": [
+    "Like terms",
+    "Not like terms"
+   ]
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Classify each pair as like terms or not like terms.",
+   "type": "choice",
+   "prompt": "$9mn^2$ and $3n^2m$",
+   "answer": 0,
+   "options": [
+    "Like terms",
+    "Not like terms"
+   ]
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Classify each pair as like terms or not like terms.",
+   "type": "choice",
+   "prompt": "$5mn^2$ and $8nm^2$",
+   "answer": 1,
+   "options": [
+    "Like terms",
+    "Not like terms"
+   ]
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Classify each pair as like terms or not like terms.",
+   "type": "choice",
+   "prompt": "$6xyz$ and $-4zxy$",
+   "answer": 0,
+   "options": [
+    "Like terms",
+    "Not like terms"
+   ]
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "Classify each pair as like terms or not like terms.",
+   "type": "choice",
+   "prompt": "$9p^2q$ and $2qp$",
+   "answer": 1,
+   "options": [
+    "Like terms",
+    "Not like terms"
+   ]
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "Classify each pair as like terms or not like terms.",
+   "type": "choice",
+   "prompt": "$-8pq^2r$ and $-3rqp^2$",
+   "answer": 1,
+   "options": [
+    "Like terms",
+    "Not like terms"
+   ]
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "Simplify the following by combining like terms.",
+   "type": "expression",
+   "prompt": "$4x + 5x$",
+   "answer": "9x",
+   "form": "simplified"
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "Simplify the following by combining like terms.",
+   "type": "expression",
+   "prompt": "$8m + 15m$",
+   "answer": "23m",
+   "form": "simplified"
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "Simplify the following by combining like terms.",
+   "type": "expression",
+   "prompt": "$17y - 9y$",
+   "answer": "8y",
+   "form": "simplified"
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "Simplify the following by combining like terms.",
+   "type": "expression",
+   "prompt": "$5pq + 6pq$",
+   "answer": "11pq",
+   "form": "simplified"
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Fluency",
+   "stem": "Simplify the following by combining like terms.",
+   "type": "expression",
+   "prompt": "$18mn - 7mn$",
+   "answer": "11mn",
+   "form": "simplified"
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Fluency",
+   "stem": "Simplify the following by combining like terms.",
+   "type": "expression",
+   "prompt": "$13jk + 6jk$",
+   "answer": "19jk",
+   "form": "simplified"
+  },
+  {
+   "id": "q4g",
+   "label": "4g",
+   "section": "Fluency",
+   "stem": "Simplify the following by combining like terms.",
+   "type": "expression",
+   "prompt": "$14ab - 6ab + ab$",
+   "answer": "9ab",
+   "form": "simplified"
+  },
+  {
+   "id": "q4h",
+   "label": "4h",
+   "section": "Fluency",
+   "stem": "Simplify the following by combining like terms.",
+   "type": "expression",
+   "prompt": "$4k + 12k - 5k$",
+   "answer": "11k",
+   "form": "simplified"
+  },
+  {
+   "id": "q4i",
+   "label": "4i",
+   "section": "Fluency",
+   "stem": "Simplify the following by combining like terms.",
+   "type": "expression",
+   "prompt": "$19k - 4k - 6k$",
+   "answer": "9k",
+   "form": "simplified"
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Fluency",
+   "stem": "Simplify the following by combining like terms.",
+   "type": "expression",
+   "prompt": "$6g + 3g + 7 + 5$",
+   "answer": "9g+12",
+   "form": "simplified"
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Fluency",
+   "stem": "Simplify the following by combining like terms.",
+   "type": "expression",
+   "prompt": "$12x + 4x + 3y + 6y$",
+   "answer": "16x+9y",
+   "form": "simplified"
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Fluency",
+   "stem": "Simplify the following by combining like terms.",
+   "type": "expression",
+   "prompt": "$3a + 7a + 15b - 4b$",
+   "answer": "10a+11b",
+   "form": "simplified"
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Fluency",
+   "stem": "Simplify the following by combining like terms.",
+   "type": "expression",
+   "prompt": "$9m + 4n + 2m + 7n$",
+   "answer": "11m+11n",
+   "form": "simplified"
+  },
+  {
+   "id": "q5e",
+   "label": "5e",
+   "section": "Fluency",
+   "stem": "Simplify the following by combining like terms.",
+   "type": "expression",
+   "prompt": "$8 + 6p + 3 + 4p$",
+   "answer": "11+10p",
+   "form": "simplified"
+  },
+  {
+   "id": "q5f",
+   "label": "5f",
+   "section": "Fluency",
+   "stem": "Simplify the following by combining like terms.",
+   "type": "expression",
+   "prompt": "$12a + 5 + 3b - 4a - b$",
+   "answer": "8a+5+2b",
+   "form": "simplified"
+  },
+  {
+   "id": "q5g",
+   "label": "5g",
+   "section": "Fluency",
+   "stem": "Simplify the following by combining like terms.",
+   "type": "expression",
+   "prompt": "$8x + 25y - y + 3x$",
+   "answer": "11x+24y",
+   "form": "simplified"
+  },
+  {
+   "id": "q5h",
+   "label": "5h",
+   "section": "Fluency",
+   "stem": "Simplify the following by combining like terms.",
+   "type": "expression",
+   "prompt": "$13a + 6 - 4a + 9a$",
+   "answer": "18a+6",
+   "form": "simplified"
+  },
+  {
+   "id": "q5i",
+   "label": "5i",
+   "section": "Fluency",
+   "stem": "Simplify the following by combining like terms.",
+   "type": "expression",
+   "hint": "Type x squared as x^2.",
+   "prompt": "$5x^2y + 4x + 8yx^2$",
+   "answer": "13x^2y+4x",
+   "form": "simplified"
+  },
+  {
+   "id": "q5j",
+   "label": "5j",
+   "section": "Fluency",
+   "stem": "Simplify the following by combining like terms.",
+   "type": "expression",
+   "prompt": "$15mn - 4nm + 3mn - nm$",
+   "answer": "13mn",
+   "form": "simplified"
+  },
+  {
+   "id": "q5k",
+   "label": "5k",
+   "section": "Fluency",
+   "stem": "Simplify the following by combining like terms.",
+   "type": "expression",
+   "prompt": "$-6y^2 + 2y^2$",
+   "answer": "-4y^2",
+   "form": "simplified"
+  },
+  {
+   "id": "q5l",
+   "label": "5l",
+   "section": "Fluency",
+   "stem": "Simplify the following by combining like terms.",
+   "type": "expression",
+   "prompt": "$-3p + 5q - 6pq + 7p$",
+   "answer": "4p+5q-6pq",
+   "form": "simplified"
+  },
+  {
+   "id": "q5m",
+   "label": "5m",
+   "section": "Fluency",
+   "stem": "Simplify the following by combining like terms.",
+   "type": "expression",
+   "prompt": "$12 + 8k - 5r + 3k - r$",
+   "answer": "12+11k-6r",
+   "form": "simplified"
+  },
+  {
+   "id": "q5n",
+   "label": "5n",
+   "section": "Fluency",
+   "stem": "Simplify the following by combining like terms.",
+   "type": "expression",
+   "prompt": "$9b - 4b^2 + 7b^2 - 3b$",
+   "answer": "6b+3b^2",
+   "form": "simplified"
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Fluency",
+   "stem": "For each expression, choose the equivalent expression from the options.",
+   "type": "choice",
+   "prompt": "$5m + 3m$",
+   "answer": 2,
+   "options": [
+    "7n + 4m",
+    "8mn",
+    "8m",
+    "4n + 4m",
+    "12n - 4m"
+   ]
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Fluency",
+   "stem": "For each expression, choose the equivalent expression from the options.",
+   "type": "choice",
+   "prompt": "$9n + 4m - 2n$",
+   "answer": 0,
+   "options": [
+    "7n + 4m",
+    "8mn",
+    "8m",
+    "4n + 4m",
+    "12n - 4m"
+   ]
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Fluency",
+   "stem": "For each expression, choose the equivalent expression from the options.",
+   "type": "choice",
+   "prompt": "$4m + 4n$",
+   "answer": 3,
+   "options": [
+    "7n + 4m",
+    "8mn",
+    "8m",
+    "4n + 4m",
+    "12n - 4m"
+   ]
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Fluency",
+   "stem": "For each expression, choose the equivalent expression from the options.",
+   "type": "choice",
+   "prompt": "$7n - 3m + 5n - m$",
+   "answer": 4,
+   "options": [
+    "7n + 4m",
+    "8mn",
+    "8m",
+    "4n + 4m",
+    "12n - 4m"
+   ]
+  },
+  {
+   "id": "q6e",
+   "label": "6e",
+   "section": "Fluency",
+   "stem": "For each expression, choose the equivalent expression from the options.",
+   "type": "choice",
+   "prompt": "$2mn + 6nm$",
+   "answer": 1,
+   "options": [
+    "7n + 4m",
+    "8mn",
+    "8m",
+    "4n + 4m",
+    "12n - 4m"
+   ]
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Problem-solving",
+   "stem": "Write an expression for the perimeter of each shape in simplest form.",
+   "type": "expression",
+   "prompt": "The rectangle below.",
+   "answer": "18y",
+   "form": "simplified",
+   "stemFigure": {
+    "kind": "rect",
+    "cols": [
+     [
+      "6y",
+      2
+     ]
+    ],
+    "rows": [
+     [
+      "3y",
+      1
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Problem-solving",
+   "stem": "Write an expression for the perimeter of each shape in simplest form.",
+   "type": "expression",
+   "prompt": "This shape. All corners are right angles.",
+   "answer": "8+8a+2b",
+   "form": "simplified",
+   "figure": {
+    "kind": "diagram",
+    "unit": 40,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        3.5
+       ],
+       [
+        0,
+        2
+       ],
+       [
+        3.9000000000000004,
+        2
+       ],
+       [
+        3.9000000000000004,
+        0
+       ],
+       [
+        5.2,
+        0
+       ],
+       [
+        5.2,
+        3.5
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "4",
+      "at": [
+       -0.35,
+       2.75
+      ]
+     },
+     {
+      "label": "3a",
+      "at": [
+       1.9500000000000002,
+       1.65
+      ]
+     },
+     {
+      "label": "b",
+      "at": [
+       3.6000000000000005,
+       1
+      ]
+     },
+     {
+      "label": "a",
+      "at": [
+       4.55,
+       -0.4
+      ]
+     },
+     {
+      "angle": [
+       0,
+       3.5,
+       270,
+       360
+      ],
+      "right": true
+     },
+     {
+      "angle": [
+       5.2,
+       3.5,
+       180,
+       270
+      ],
+      "right": true
+     },
+     {
+      "angle": [
+       5.2,
+       0,
+       90,
+       180
+      ],
+      "right": true
+     },
+     {
+      "angle": [
+       3.9000000000000004,
+       0,
+       0,
+       90
+      ],
+      "right": true
+     },
+     {
+      "angle": [
+       0,
+       2,
+       0,
+       90
+      ],
+      "right": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Problem-solving",
+   "stem": "Mugs cost $\\$m$ each at a shop.",
+   "type": "expression",
+   "prompt": "Leo buys $4$ mugs, Ana buys $5$ mugs and Wei buys $7$ mugs. Write a fully simplified expression for the total amount they spent on mugs.",
+   "answer": "16m",
+   "form": "simplified"
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Problem-solving",
+   "stem": "Mugs cost $\\$m$ each at a shop.",
+   "type": "expression",
+   "hint": "Write letters next to each other to multiply, for example 7ab.",
+   "prompt": "On another day, Kim buys $n$ mugs, Raj buys three times as many as Kim, and Sam buys twice as many as Raj. Write a simplified expression for the total amount they spent on mugs.",
+   "answer": "10mn",
+   "form": "simplified"
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Problem-solving",
+   "stem": "State the missing numbers, in order, to make each equivalence true.",
+   "type": "ordered",
+   "hint": "Type the numbers in order from left to right, separated by commas.",
+   "prompt": "$12x + 5y - \\square x + \\square y = 4x + 9y$",
+   "answer": [
+    "8",
+    "4"
+   ]
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Problem-solving",
+   "stem": "State the missing numbers, in order, to make each equivalence true.",
+   "type": "ordered",
+   "prompt": "$6a - 4b + \\square a + \\square b = 13a$",
+   "answer": [
+    "7",
+    "4"
+   ]
+  },
+  {
+   "id": "q9c",
+   "label": "9c",
+   "section": "Problem-solving",
+   "stem": "State the missing numbers, in order, to make each equivalence true.",
+   "type": "ordered",
+   "prompt": "$\\square c + \\square d + \\square = 5c + 3d + 2 + 2c + 8d + 6$",
+   "answer": [
+    "7",
+    "11",
+    "8"
+   ]
+  },
+  {
+   "id": "q9d",
+   "label": "9d",
+   "section": "Problem-solving",
+   "stem": "State the missing numbers, in order, to make each equivalence true.",
+   "type": "ordered",
+   "prompt": "$\\square m^2n + \\square n^2m + 3m^2n + n^2m = 6n^2m + 11m^2n$",
+   "answer": [
+    "8",
+    "5"
+   ]
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Problem-solving",
+   "stem": "Find the missing expressions so that all six equations in the puzzle are true (each row and each column adds up). Write each answer in simplest form.",
+   "type": "expression",
+   "prompt": "What goes in box P?",
+   "answer": "5m",
+   "form": "simplified",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 34,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        3,
+        0
+       ],
+       [
+        3,
+        0.9
+       ],
+       [
+        0,
+        0.9
+       ]
+      ]
+     },
+     {
+      "label": "4m",
+      "at": [
+       1.5,
+       0.45
+      ]
+     },
+     {
+      "label": "+",
+      "at": [
+       3.5,
+       0.45
+      ]
+     },
+     {
+      "label": "+",
+      "at": [
+       1.5,
+       -0.35
+      ]
+     },
+     {
+      "poly": [
+       [
+        4,
+        0
+       ],
+       [
+        7,
+        0
+       ],
+       [
+        7,
+        0.9
+       ],
+       [
+        4,
+        0.9
+       ]
+      ]
+     },
+     {
+      "label": "P",
+      "at": [
+       5.5,
+       0.45
+      ]
+     },
+     {
+      "label": "=",
+      "at": [
+       7.5,
+       0.45
+      ]
+     },
+     {
+      "label": "+",
+      "at": [
+       5.5,
+       -0.35
+      ]
+     },
+     {
+      "poly": [
+       [
+        8,
+        0
+       ],
+       [
+        11,
+        0
+       ],
+       [
+        11,
+        0.9
+       ],
+       [
+        8,
+        0.9
+       ]
+      ]
+     },
+     {
+      "label": "9m",
+      "at": [
+       9.5,
+       0.45
+      ]
+     },
+     {
+      "label": "+",
+      "at": [
+       9.5,
+       -0.35
+      ]
+     },
+     {
+      "poly": [
+       [
+        0,
+        -1.6
+       ],
+       [
+        3,
+        -1.6
+       ],
+       [
+        3,
+        -0.7000000000000001
+       ],
+       [
+        0,
+        -0.7000000000000001
+       ]
+      ]
+     },
+     {
+      "label": "2n",
+      "at": [
+       1.5,
+       -1.1500000000000001
+      ]
+     },
+     {
+      "label": "+",
+      "at": [
+       3.5,
+       -1.1500000000000001
+      ]
+     },
+     {
+      "label": "=",
+      "at": [
+       1.5,
+       -1.9500000000000002
+      ]
+     },
+     {
+      "poly": [
+       [
+        4,
+        -1.6
+       ],
+       [
+        7,
+        -1.6
+       ],
+       [
+        7,
+        -0.7000000000000001
+       ],
+       [
+        4,
+        -0.7000000000000001
+       ]
+      ]
+     },
+     {
+      "label": "Q",
+      "at": [
+       5.5,
+       -1.1500000000000001
+      ]
+     },
+     {
+      "label": "=",
+      "at": [
+       7.5,
+       -1.1500000000000001
+      ]
+     },
+     {
+      "label": "=",
+      "at": [
+       5.5,
+       -1.9500000000000002
+      ]
+     },
+     {
+      "poly": [
+       [
+        8,
+        -1.6
+       ],
+       [
+        11,
+        -1.6
+       ],
+       [
+        11,
+        -0.7000000000000001
+       ],
+       [
+        8,
+        -0.7000000000000001
+       ]
+      ]
+     },
+     {
+      "label": "R",
+      "at": [
+       9.5,
+       -1.1500000000000001
+      ]
+     },
+     {
+      "label": "=",
+      "at": [
+       9.5,
+       -1.9500000000000002
+      ]
+     },
+     {
+      "poly": [
+       [
+        0,
+        -3.2
+       ],
+       [
+        3,
+        -3.2
+       ],
+       [
+        3,
+        -2.3000000000000003
+       ],
+       [
+        0,
+        -2.3000000000000003
+       ]
+      ]
+     },
+     {
+      "label": "S",
+      "at": [
+       1.5,
+       -2.75
+      ]
+     },
+     {
+      "label": "+",
+      "at": [
+       3.5,
+       -2.75
+      ]
+     },
+     {
+      "poly": [
+       [
+        4,
+        -3.2
+       ],
+       [
+        7,
+        -3.2
+       ],
+       [
+        7,
+        -2.3000000000000003
+       ],
+       [
+        4,
+        -2.3000000000000003
+       ]
+      ]
+     },
+     {
+      "label": "T",
+      "at": [
+       5.5,
+       -2.75
+      ]
+     },
+     {
+      "label": "=",
+      "at": [
+       7.5,
+       -2.75
+      ]
+     },
+     {
+      "poly": [
+       [
+        8,
+        -3.2
+       ],
+       [
+        11,
+        -3.2
+       ],
+       [
+        11,
+        -2.3000000000000003
+       ],
+       [
+        8,
+        -2.3000000000000003
+       ]
+      ]
+     },
+     {
+      "label": "9m + 5n",
+      "at": [
+       9.5,
+       -2.75
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Problem-solving",
+   "stem": "Find the missing expressions so that all six equations in the puzzle are true (each row and each column adds up). Write each answer in simplest form.",
+   "type": "expression",
+   "prompt": "What goes in box Q?",
+   "answer": "3n",
+   "form": "simplified"
+  },
+  {
+   "id": "q10c",
+   "label": "10c",
+   "section": "Problem-solving",
+   "stem": "Find the missing expressions so that all six equations in the puzzle are true (each row and each column adds up). Write each answer in simplest form.",
+   "type": "expression",
+   "prompt": "What goes in box R?",
+   "answer": "5n",
+   "form": "simplified"
+  },
+  {
+   "id": "q10d",
+   "label": "10d",
+   "section": "Problem-solving",
+   "stem": "Find the missing expressions so that all six equations in the puzzle are true (each row and each column adds up). Write each answer in simplest form.",
+   "type": "expression",
+   "prompt": "What goes in box S?",
+   "answer": "4m+2n",
+   "form": "simplified"
+  },
+  {
+   "id": "q10e",
+   "label": "10e",
+   "section": "Problem-solving",
+   "stem": "Find the missing expressions so that all six equations in the puzzle are true (each row and each column adds up). Write each answer in simplest form.",
+   "type": "expression",
+   "prompt": "What goes in box T?",
+   "answer": "5m+3n",
+   "form": "simplified"
+  },
+  {
+   "id": "q11",
+   "label": "11",
+   "section": "Problem-solving",
+   "type": "numeric",
+   "prompt": "In how many ways can the boxes be filled if every number must be a positive whole number? $\\square m + \\square n + \\square m = 12m + 5n$",
+   "answer": "11"
+  },
+  {
+   "id": "q12",
+   "label": "12",
+   "section": "Problem-solving",
+   "type": "expression",
+   "prompt": "Simplify $2k - 4k + 6k - 8k + 10k - \\dots + 78k - 80k$.",
+   "answer": "-40k",
+   "form": "simplified"
+  },
+  {
+   "id": "q13a",
+   "label": "13a",
+   "section": "Reasoning",
+   "stem": "Show that $8m + 3n + 5m + 4n$ is equivalent to $16m - 3m + 9n - 2n$ by simplifying both expressions.",
+   "type": "expression",
+   "prompt": "$8m + 3n + 5m + 4n$",
+   "answer": "13m+7n",
+   "form": "simplified"
+  },
+  {
+   "id": "q13b",
+   "label": "13b",
+   "section": "Reasoning",
+   "stem": "Show that $8m + 3n + 5m + 4n$ is equivalent to $16m - 3m + 9n - 2n$ by simplifying both expressions.",
+   "type": "expression",
+   "prompt": "$16m - 3m + 9n - 2n$",
+   "answer": "13m+7n",
+   "form": "simplified"
+  },
+  {
+   "id": "q13c",
+   "label": "13c",
+   "section": "Reasoning",
+   "stem": "Show that $8m + 3n + 5m + 4n$ is equivalent to $16m - 3m + 9n - 2n$ by simplifying both expressions.",
+   "type": "choice",
+   "prompt": "So, are the two expressions equivalent?",
+   "answer": 0,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q14a",
+   "label": "14a",
+   "section": "Reasoning",
+   "stem": "Is $5p + 2q$ equivalent to $7pq$?",
+   "type": "numeric",
+   "prompt": "Evaluate $5p + 2q$ when $p = 2$ and $q = 3$.",
+   "answer": "16"
+  },
+  {
+   "id": "q14b",
+   "label": "14b",
+   "section": "Reasoning",
+   "stem": "Is $5p + 2q$ equivalent to $7pq$?",
+   "type": "numeric",
+   "prompt": "Evaluate $7pq$ when $p = 2$ and $q = 3$.",
+   "answer": "42"
+  },
+  {
+   "id": "q14c",
+   "label": "14c",
+   "section": "Reasoning",
+   "stem": "Is $5p + 2q$ equivalent to $7pq$?",
+   "type": "choice",
+   "prompt": "Can $5p + 2q$ ever be equal to $7pq$?",
+   "answer": 0,
+   "options": [
+    "Yes, for example when p = 1 and q = 1",
+    "Yes, for example when p = 2 and q = 2",
+    "No, never"
+   ]
+  },
+  {
+   "id": "q14d",
+   "label": "14d",
+   "section": "Reasoning",
+   "stem": "Is $5p + 2q$ equivalent to $7pq$?",
+   "type": "choice",
+   "prompt": "Is $5p + 2p$ ever not equal to $7p$?",
+   "answer": 1,
+   "options": [
+    "Yes, for some values of p",
+    "No, they are always equal"
+   ]
+  },
+  {
+   "id": "q15a",
+   "label": "15a",
+   "section": "Reasoning",
+   "type": "choice",
+   "prompt": "Is $9y - 4y$ equivalent to $9y + (-4y)$?",
+   "answer": 0,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q15b",
+   "label": "15b",
+   "section": "Reasoning",
+   "type": "ordered",
+   "hint": "Type the numbers in order, separated by commas. They can be negative.",
+   "prompt": "Fill in the missing numbers, in order, to make this equivalence true: $11m + 6n + 4mn + \\square m + \\square n + \\square nm = m$",
+   "answer": [
+    "-10",
+    "-6",
+    "-4"
+   ]
+  },
+  {
+   "id": "q16a",
+   "label": "16a",
+   "section": "Enrichment",
+   "stem": "Fill in the missing expressions so that all eight equations are true: each row of three boxes adds to the box on its right, and each column of three boxes adds to the box below it. Write each answer in simplest form.",
+   "type": "expression",
+   "prompt": "What goes in box A?",
+   "answer": "2m+5",
+   "form": "simplified",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 34,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        4,
+        0
+       ],
+       [
+        4,
+        0.9
+       ],
+       [
+        0,
+        0.9
+       ]
+      ]
+     },
+     {
+      "label": "3m",
+      "at": [
+       2,
+       0.45
+      ]
+     },
+     {
+      "label": "+",
+      "at": [
+       4.375,
+       0.45
+      ]
+     },
+     {
+      "label": "+",
+      "at": [
+       2,
+       -0.35
+      ]
+     },
+     {
+      "poly": [
+       [
+        4.75,
+        0
+       ],
+       [
+        8.75,
+        0
+       ],
+       [
+        8.75,
+        0.9
+       ],
+       [
+        4.75,
+        0.9
+       ]
+      ]
+     },
+     {
+      "label": "A",
+      "at": [
+       6.75,
+       0.45
+      ]
+     },
+     {
+      "label": "+",
+      "at": [
+       9.125,
+       0.45
+      ]
+     },
+     {
+      "label": "+",
+      "at": [
+       6.75,
+       -0.35
+      ]
+     },
+     {
+      "poly": [
+       [
+        9.5,
+        0
+       ],
+       [
+        13.5,
+        0
+       ],
+       [
+        13.5,
+        0.9
+       ],
+       [
+        9.5,
+        0.9
+       ]
+      ]
+     },
+     {
+      "label": "6m",
+      "at": [
+       11.5,
+       0.45
+      ]
+     },
+     {
+      "label": "=",
+      "at": [
+       13.875,
+       0.45
+      ]
+     },
+     {
+      "label": "+",
+      "at": [
+       11.5,
+       -0.35
+      ]
+     },
+     {
+      "poly": [
+       [
+        14.25,
+        0
+       ],
+       [
+        18.25,
+        0
+       ],
+       [
+        18.25,
+        0.9
+       ],
+       [
+        14.25,
+        0.9
+       ]
+      ]
+     },
+     {
+      "label": "11m + 5",
+      "at": [
+       16.25,
+       0.45
+      ]
+     },
+     {
+      "label": "+",
+      "at": [
+       16.25,
+       -0.35
+      ]
+     },
+     {
+      "poly": [
+       [
+        0,
+        -1.6
+       ],
+       [
+        4,
+        -1.6
+       ],
+       [
+        4,
+        -0.7000000000000001
+       ],
+       [
+        0,
+        -0.7000000000000001
+       ]
+      ]
+     },
+     {
+      "label": "4n",
+      "at": [
+       2,
+       -1.1500000000000001
+      ]
+     },
+     {
+      "label": "+",
+      "at": [
+       4.375,
+       -1.1500000000000001
+      ]
+     },
+     {
+      "label": "+",
+      "at": [
+       2,
+       -1.9500000000000002
+      ]
+     },
+     {
+      "poly": [
+       [
+        4.75,
+        -1.6
+       ],
+       [
+        8.75,
+        -1.6
+       ],
+       [
+        8.75,
+        -0.7000000000000001
+       ],
+       [
+        4.75,
+        -0.7000000000000001
+       ]
+      ]
+     },
+     {
+      "label": "2 + m",
+      "at": [
+       6.75,
+       -1.1500000000000001
+      ]
+     },
+     {
+      "label": "+",
+      "at": [
+       9.125,
+       -1.1500000000000001
+      ]
+     },
+     {
+      "label": "+",
+      "at": [
+       6.75,
+       -1.9500000000000002
+      ]
+     },
+     {
+      "poly": [
+       [
+        9.5,
+        -1.6
+       ],
+       [
+        13.5,
+        -1.6
+       ],
+       [
+        13.5,
+        -0.7000000000000001
+       ],
+       [
+        9.5,
+        -0.7000000000000001
+       ]
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       11.5,
+       -1.1500000000000001
+      ]
+     },
+     {
+      "label": "=",
+      "at": [
+       13.875,
+       -1.1500000000000001
+      ]
+     },
+     {
+      "label": "+",
+      "at": [
+       11.5,
+       -1.9500000000000002
+      ]
+     },
+     {
+      "poly": [
+       [
+        14.25,
+        -1.6
+       ],
+       [
+        18.25,
+        -1.6
+       ],
+       [
+        18.25,
+        -0.7000000000000001
+       ],
+       [
+        14.25,
+        -0.7000000000000001
+       ]
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       16.25,
+       -1.1500000000000001
+      ]
+     },
+     {
+      "label": "+",
+      "at": [
+       16.25,
+       -1.9500000000000002
+      ]
+     },
+     {
+      "poly": [
+       [
+        0,
+        -3.2
+       ],
+       [
+        4,
+        -3.2
+       ],
+       [
+        4,
+        -2.3000000000000003
+       ],
+       [
+        0,
+        -2.3000000000000003
+       ]
+      ]
+     },
+     {
+      "label": "D",
+      "at": [
+       2,
+       -2.75
+      ]
+     },
+     {
+      "label": "+",
+      "at": [
+       4.375,
+       -2.75
+      ]
+     },
+     {
+      "label": "=",
+      "at": [
+       2,
+       -3.5500000000000003
+      ]
+     },
+     {
+      "poly": [
+       [
+        4.75,
+        -3.2
+       ],
+       [
+        8.75,
+        -3.2
+       ],
+       [
+        8.75,
+        -2.3000000000000003
+       ],
+       [
+        4.75,
+        -2.3000000000000003
+       ]
+      ]
+     },
+     {
+      "label": "E",
+      "at": [
+       6.75,
+       -2.75
+      ]
+     },
+     {
+      "label": "+",
+      "at": [
+       9.125,
+       -2.75
+      ]
+     },
+     {
+      "label": "=",
+      "at": [
+       6.75,
+       -3.5500000000000003
+      ]
+     },
+     {
+      "poly": [
+       [
+        9.5,
+        -3.2
+       ],
+       [
+        13.5,
+        -3.2
+       ],
+       [
+        13.5,
+        -2.3000000000000003
+       ],
+       [
+        9.5,
+        -2.3000000000000003
+       ]
+      ]
+     },
+     {
+      "label": "-4m",
+      "at": [
+       11.5,
+       -2.75
+      ]
+     },
+     {
+      "label": "=",
+      "at": [
+       13.875,
+       -2.75
+      ]
+     },
+     {
+      "label": "=",
+      "at": [
+       11.5,
+       -3.5500000000000003
+      ]
+     },
+     {
+      "poly": [
+       [
+        14.25,
+        -3.2
+       ],
+       [
+        18.25,
+        -3.2
+       ],
+       [
+        18.25,
+        -2.3000000000000003
+       ],
+       [
+        14.25,
+        -2.3000000000000003
+       ]
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       16.25,
+       -2.75
+      ]
+     },
+     {
+      "label": "=",
+      "at": [
+       16.25,
+       -3.5500000000000003
+      ]
+     },
+     {
+      "poly": [
+       [
+        0,
+        -4.800000000000001
+       ],
+       [
+        4,
+        -4.800000000000001
+       ],
+       [
+        4,
+        -3.900000000000001
+       ],
+       [
+        0,
+        -3.900000000000001
+       ]
+      ]
+     },
+     {
+      "label": "F",
+      "at": [
+       2,
+       -4.3500000000000005
+      ]
+     },
+     {
+      "label": "+",
+      "at": [
+       4.375,
+       -4.3500000000000005
+      ]
+     },
+     {
+      "poly": [
+       [
+        4.75,
+        -4.800000000000001
+       ],
+       [
+        8.75,
+        -4.800000000000001
+       ],
+       [
+        8.75,
+        -3.900000000000001
+       ],
+       [
+        4.75,
+        -3.900000000000001
+       ]
+      ]
+     },
+     {
+      "label": "4m + 10",
+      "at": [
+       6.75,
+       -4.3500000000000005
+      ]
+     },
+     {
+      "label": "+",
+      "at": [
+       9.125,
+       -4.3500000000000005
+      ]
+     },
+     {
+      "poly": [
+       [
+        9.5,
+        -4.800000000000001
+       ],
+       [
+        13.5,
+        -4.800000000000001
+       ],
+       [
+        13.5,
+        -3.900000000000001
+       ],
+       [
+        9.5,
+        -3.900000000000001
+       ]
+      ]
+     },
+     {
+      "label": "G",
+      "at": [
+       11.5,
+       -4.3500000000000005
+      ]
+     },
+     {
+      "label": "=",
+      "at": [
+       13.875,
+       -4.3500000000000005
+      ]
+     },
+     {
+      "poly": [
+       [
+        14.25,
+        -4.800000000000001
+       ],
+       [
+        18.25,
+        -4.800000000000001
+       ],
+       [
+        18.25,
+        -3.900000000000001
+       ],
+       [
+        14.25,
+        -3.900000000000001
+       ]
+      ]
+     },
+     {
+      "label": "11m + 4n + 10",
+      "at": [
+       16.25,
+       -4.3500000000000005
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q16b",
+   "label": "16b",
+   "section": "Enrichment",
+   "stem": "Fill in the missing expressions so that all eight equations are true: each row of three boxes adds to the box on its right, and each column of three boxes adds to the box below it. Write each answer in simplest form.",
+   "type": "expression",
+   "prompt": "What goes in box B?",
+   "answer": "-m",
+   "form": "simplified"
+  },
+  {
+   "id": "q16c",
+   "label": "16c",
+   "section": "Enrichment",
+   "stem": "Fill in the missing expressions so that all eight equations are true: each row of three boxes adds to the box on its right, and each column of three boxes adds to the box below it. Write each answer in simplest form.",
+   "type": "expression",
+   "prompt": "What goes in box C?",
+   "answer": "4n+2",
+   "form": "simplified"
+  },
+  {
+   "id": "q16d",
+   "label": "16d",
+   "section": "Enrichment",
+   "stem": "Fill in the missing expressions so that all eight equations are true: each row of three boxes adds to the box on its right, and each column of three boxes adds to the box below it. Write each answer in simplest form.",
+   "type": "expression",
+   "prompt": "What goes in box D?",
+   "answer": "3m",
+   "form": "simplified"
+  },
+  {
+   "id": "q16e",
+   "label": "16e",
+   "section": "Enrichment",
+   "stem": "Fill in the missing expressions so that all eight equations are true: each row of three boxes adds to the box on its right, and each column of three boxes adds to the box below it. Write each answer in simplest form.",
+   "type": "expression",
+   "prompt": "What goes in box E?",
+   "answer": "m+3",
+   "form": "simplified"
+  },
+  {
+   "id": "q16f",
+   "label": "16f",
+   "section": "Enrichment",
+   "stem": "Fill in the missing expressions so that all eight equations are true: each row of three boxes adds to the box on its right, and each column of three boxes adds to the box below it. Write each answer in simplest form.",
+   "type": "expression",
+   "prompt": "What goes in box F?",
+   "answer": "6m+4n",
+   "form": "simplified"
+  },
+  {
+   "id": "q16g",
+   "label": "16g",
+   "section": "Enrichment",
+   "stem": "Fill in the missing expressions so that all eight equations are true: each row of three boxes adds to the box on its right, and each column of three boxes adds to the box below it. Write each answer in simplest form.",
+   "type": "expression",
+   "prompt": "What goes in box G?",
+   "answer": "m",
+   "form": "simplified"
+  }
+ ]
+},
+{
+ "id": "y8-5d",
+ "year": 8,
+ "chapter": "Chapter 5: Algebraic techniques and index laws",
+ "title": "5D Multiplying and dividing terms",
+ "description": "Multiply algebraic terms and simplify divisions by cancelling common factors.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Simplify the following.",
+   "type": "expression",
+   "prompt": "$4m \\times 5$",
+   "answer": "20m",
+   "form": "simplified"
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Simplify the following.",
+   "type": "expression",
+   "prompt": "$3 \\times 6n$",
+   "answer": "18n",
+   "form": "simplified"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "Simplify the following.",
+   "type": "expression",
+   "prompt": "$7 \\times 2p$",
+   "answer": "14p",
+   "form": "simplified"
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "Simplify the following.",
+   "type": "expression",
+   "prompt": "$8k \\times 3$",
+   "answer": "24k",
+   "form": "simplified"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Simplify the following.",
+   "type": "expression",
+   "hint": "Write the number first, then the letters next to each other, for example 6uv.",
+   "prompt": "$6k \\times 8$",
+   "answer": "48k",
+   "form": "simplified"
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Simplify the following.",
+   "type": "expression",
+   "prompt": "$4m \\times 3n$",
+   "answer": "12mn",
+   "form": "simplified"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Simplify the following.",
+   "type": "expression",
+   "prompt": "$5 \\times 11y$",
+   "answer": "55y",
+   "form": "simplified"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Simplify the following.",
+   "type": "expression",
+   "prompt": "$3a \\times 5b \\times cd$",
+   "answer": "15abcd",
+   "form": "simplified"
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Simplify the following.",
+   "type": "expression",
+   "prompt": "$2p \\times 7qr \\times 3s$",
+   "answer": "42pqrs",
+   "form": "simplified"
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "Simplify the following.",
+   "type": "expression",
+   "prompt": "$3g \\times 5hk \\times 2j$",
+   "answer": "30ghjk",
+   "form": "simplified"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Simplify the following.",
+   "type": "expression",
+   "prompt": "$7mn \\times 4p$",
+   "answer": "28mnp",
+   "form": "simplified"
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Simplify the following.",
+   "type": "expression",
+   "hint": "Type powers with ^, for example u squared is u^2.",
+   "prompt": "$k \\times k$",
+   "answer": "k^2",
+   "form": "simplified"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Simplify the following.",
+   "type": "expression",
+   "prompt": "$5g \\times g$",
+   "answer": "5g^2",
+   "form": "simplified"
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Simplify the following.",
+   "type": "expression",
+   "prompt": "$4h \\times 3h \\times k$",
+   "answer": "12h^2k",
+   "form": "simplified"
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "Simplify the following.",
+   "type": "expression",
+   "prompt": "$6y \\times 3z \\times y$",
+   "answer": "18y^2z",
+   "form": "simplified"
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "Simplify the following.",
+   "type": "expression",
+   "prompt": "$4mn \\times 3m$",
+   "answer": "12m^2n",
+   "form": "simplified"
+  },
+  {
+   "id": "q3g",
+   "label": "3g",
+   "section": "Fluency",
+   "stem": "Simplify the following.",
+   "type": "expression",
+   "prompt": "$5pq \\times 3pr$",
+   "answer": "15p^2qr",
+   "form": "simplified"
+  },
+  {
+   "id": "q3h",
+   "label": "3h",
+   "section": "Fluency",
+   "stem": "Simplify the following.",
+   "type": "expression",
+   "prompt": "$3abc \\times 5abd$",
+   "answer": "15a^2b^2cd",
+   "form": "simplified"
+  },
+  {
+   "id": "q3i",
+   "label": "3i",
+   "section": "Fluency",
+   "stem": "Simplify the following.",
+   "type": "expression",
+   "prompt": "$11m^2n \\times 3m$",
+   "answer": "33m^3n",
+   "form": "simplified"
+  },
+  {
+   "id": "q3j",
+   "label": "3j",
+   "section": "Fluency",
+   "stem": "Simplify the following.",
+   "type": "expression",
+   "prompt": "$8pq \\times 3p^2$",
+   "answer": "24p^3q",
+   "form": "simplified"
+  },
+  {
+   "id": "q3k",
+   "label": "3k",
+   "section": "Fluency",
+   "stem": "Simplify the following.",
+   "type": "expression",
+   "prompt": "$2a^2b \\times 5a \\times 3b$",
+   "answer": "30a^3b^2",
+   "form": "simplified"
+  },
+  {
+   "id": "q3l",
+   "label": "3l",
+   "section": "Fluency",
+   "stem": "Simplify the following.",
+   "type": "expression",
+   "prompt": "$-4yz \\times (-3z)$",
+   "answer": "12yz^2",
+   "form": "simplified"
+  },
+  {
+   "id": "q3m",
+   "label": "3m",
+   "section": "Fluency",
+   "stem": "Simplify the following.",
+   "type": "expression",
+   "prompt": "$-6mn \\times 3nk$",
+   "answer": "-18kmn^2",
+   "form": "simplified"
+  },
+  {
+   "id": "q3n",
+   "label": "3n",
+   "section": "Fluency",
+   "stem": "Simplify the following.",
+   "type": "expression",
+   "prompt": "$9pq^2 \\times 4qp$",
+   "answer": "36p^2q^3",
+   "form": "simplified"
+  },
+  {
+   "id": "q3o",
+   "label": "3o",
+   "section": "Fluency",
+   "stem": "Simplify the following.",
+   "type": "expression",
+   "prompt": "$5ab^2 \\times 3b$",
+   "answer": "15ab^3",
+   "form": "simplified"
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "Simplify the following divisions by cancelling any common factors.",
+   "type": "expression",
+   "hint": "Type a fraction with /. Put brackets around a bottom with more than one part, for example 5u/(7v).",
+   "prompt": "$\\frac{6m}{12m}$",
+   "answer": "1/2",
+   "form": "simplified"
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "Simplify the following divisions by cancelling any common factors.",
+   "type": "expression",
+   "prompt": "$\\frac{5k}{15n}$",
+   "answer": "k/(3n)",
+   "form": "simplified"
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "Simplify the following divisions by cancelling any common factors.",
+   "type": "expression",
+   "prompt": "$\\frac{14pq}{21q}$",
+   "answer": "2p/3",
+   "form": "simplified"
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "Simplify the following divisions by cancelling any common factors.",
+   "type": "expression",
+   "prompt": "$\\frac{mn}{6n}$",
+   "answer": "m/6",
+   "form": "simplified"
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Fluency",
+   "stem": "Simplify the following divisions by cancelling any common factors.",
+   "type": "expression",
+   "prompt": "$\\frac{9abc}{27bc}$",
+   "answer": "a/3",
+   "form": "simplified"
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Fluency",
+   "stem": "Simplify the following divisions by cancelling any common factors.",
+   "type": "expression",
+   "prompt": "$\\frac{3}{15y}$",
+   "answer": "1/(5y)",
+   "form": "simplified"
+  },
+  {
+   "id": "q4g",
+   "label": "4g",
+   "section": "Fluency",
+   "stem": "Simplify the following divisions by cancelling any common factors.",
+   "type": "expression",
+   "prompt": "$\\frac{-6k}{9mn^2}$",
+   "answer": "-2k/(3mn^2)",
+   "form": "simplified"
+  },
+  {
+   "id": "q4h",
+   "label": "4h",
+   "section": "Fluency",
+   "stem": "Simplify the following divisions by cancelling any common factors.",
+   "type": "expression",
+   "prompt": "$\\frac{15y^2}{-20y}$",
+   "answer": "-3y/4",
+   "form": "simplified"
+  },
+  {
+   "id": "q4i",
+   "label": "4i",
+   "section": "Fluency",
+   "stem": "Simplify the following divisions by cancelling any common factors.",
+   "type": "expression",
+   "prompt": "$\\frac{-6p^2}{9pq}$",
+   "answer": "-2p/(3q)",
+   "form": "simplified"
+  },
+  {
+   "id": "q4j",
+   "label": "4j",
+   "section": "Fluency",
+   "stem": "Simplify the following divisions by cancelling any common factors.",
+   "type": "expression",
+   "prompt": "$\\frac{24m}{-4n}$",
+   "answer": "-6m/n",
+   "form": "simplified"
+  },
+  {
+   "id": "q4k",
+   "label": "4k",
+   "section": "Fluency",
+   "stem": "Simplify the following divisions by cancelling any common factors.",
+   "type": "expression",
+   "prompt": "$\\frac{-35k}{-5k}$",
+   "answer": "7",
+   "form": "simplified"
+  },
+  {
+   "id": "q4l",
+   "label": "4l",
+   "section": "Fluency",
+   "stem": "Simplify the following divisions by cancelling any common factors.",
+   "type": "expression",
+   "prompt": "$\\frac{-18z}{-24z^2}$",
+   "answer": "3/(4z)",
+   "form": "simplified"
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Problem-solving",
+   "stem": "Find the missing term in each statement.",
+   "type": "expression",
+   "prompt": "$6m \\times \\square = 18mn$",
+   "answer": "3n",
+   "form": "simplified"
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Problem-solving",
+   "stem": "Find the missing term in each statement.",
+   "type": "expression",
+   "prompt": "$5a \\times \\square = 30abc$",
+   "answer": "6bc",
+   "form": "simplified"
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Problem-solving",
+   "stem": "Write a simplified expression for the area of each rectangle (area = width $\\times$ length).",
+   "type": "expression",
+   "prompt": "The rectangle below.",
+   "answer": "15k",
+   "form": "simplified",
+   "figure": {
+    "kind": "rect",
+    "cols": [
+     [
+      "3k",
+      2
+     ]
+    ],
+    "rows": [
+     [
+      "5",
+      1
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Problem-solving",
+   "stem": "Write a simplified expression for the area of each rectangle (area = width $\\times$ length).",
+   "type": "expression",
+   "prompt": "The rectangle below.",
+   "answer": "24p",
+   "form": "simplified",
+   "figure": {
+    "kind": "rect",
+    "cols": [
+     [
+      "8",
+      2
+     ]
+    ],
+    "rows": [
+     [
+      "3p",
+      1.4
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Problem-solving",
+   "stem": "Write a simplified expression for the area of each rectangle (area = width $\\times$ length).",
+   "type": "expression",
+   "prompt": "The rectangle below.",
+   "answer": "28mn",
+   "form": "simplified",
+   "figure": {
+    "kind": "rect",
+    "cols": [
+     [
+      "4m",
+      1
+     ]
+    ],
+    "rows": [
+     [
+      "7n",
+      2
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Problem-solving",
+   "stem": "Fill in the missing term to make each statement true.",
+   "type": "expression",
+   "prompt": "$4p \\times \\square \\times r = 12pqr$",
+   "answer": "3q",
+   "form": "simplified"
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Problem-solving",
+   "stem": "Fill in the missing term to make each statement true.",
+   "type": "expression",
+   "prompt": "$5m \\times \\square = 20mn^2$",
+   "answer": "4n^2",
+   "form": "simplified"
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Problem-solving",
+   "stem": "Fill in the missing term to make each statement true.",
+   "type": "expression",
+   "prompt": "$-3a \\times \\square \\times 2c = 18ac$",
+   "answer": "-3",
+   "form": "simplified"
+  },
+  {
+   "id": "q7d",
+   "label": "7d",
+   "section": "Problem-solving",
+   "stem": "Fill in the missing term to make each statement true.",
+   "type": "expression",
+   "prompt": "$\\frac{\\square}{5k} = 3m$",
+   "answer": "15km",
+   "form": "simplified"
+  },
+  {
+   "id": "q7e",
+   "label": "7e",
+   "section": "Problem-solving",
+   "stem": "Fill in the missing term to make each statement true.",
+   "type": "expression",
+   "prompt": "$\\frac{\\square}{3pq} = 2q$",
+   "answer": "6pq^2",
+   "form": "simplified"
+  },
+  {
+   "id": "q7f",
+   "label": "7f",
+   "section": "Problem-solving",
+   "stem": "Fill in the missing term to make each statement true.",
+   "type": "expression",
+   "prompt": "$\\frac{18mn}{\\square} = -3n$",
+   "answer": "-6m",
+   "form": "simplified"
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Problem-solving",
+   "stem": "Write a simplified expression for the area of each shape. All corners are right angles.",
+   "type": "expression",
+   "prompt": "Shape A",
+   "answer": "23ab",
+   "form": "simplified",
+   "figure": {
+    "kind": "diagram",
+    "unit": 40,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        2,
+        0
+       ],
+       [
+        2,
+        0.9
+       ],
+       [
+        7,
+        0.9
+       ],
+       [
+        7,
+        3.6
+       ],
+       [
+        0,
+        3.6
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       0,
+       0.9,
+       2,
+       0.9
+      ],
+      "dash": true
+     },
+     {
+      "dim": [
+       0,
+       0.9,
+       0,
+       3.6
+      ],
+      "label": "3a",
+      "off": 0.5
+     },
+     {
+      "dim": [
+       0,
+       0,
+       0,
+       0.9
+      ],
+      "label": "a",
+      "off": 0.5
+     },
+     {
+      "dim": [
+       0,
+       0,
+       2,
+       0
+      ],
+      "label": "2b",
+      "off": -0.5
+     },
+     {
+      "dim": [
+       2,
+       0.9,
+       7,
+       0.9
+      ],
+      "label": "5b",
+      "off": -0.5
+     }
+    ]
+   }
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Problem-solving",
+   "stem": "Write a simplified expression for the area of each shape. All corners are right angles.",
+   "type": "expression",
+   "hint": "Type powers with ^, for example u^2.",
+   "prompt": "Shape B. Sides with the same marks are equal.",
+   "answer": "7k^2",
+   "form": "simplified",
+   "figure": {
+    "kind": "diagram",
+    "unit": 40,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        3.5999999999999996,
+        0
+       ],
+       [
+        3.5999999999999996,
+        2.4
+       ],
+       [
+        1.2,
+        2.4
+       ],
+       [
+        1.2,
+        3.5999999999999996
+       ],
+       [
+        0,
+        3.5999999999999996
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "k",
+      "at": [
+       0.6,
+       4.1
+      ]
+     },
+     {
+      "tick": [
+       0,
+       3.5999999999999996,
+       1.2,
+       3.5999999999999996
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       1.2,
+       3.5999999999999996,
+       1.2,
+       2.4
+      ],
+      "n": 1
+     },
+     {
+      "label": "2k",
+      "at": [
+       2.4,
+       2.9
+      ]
+     },
+     {
+      "tick": [
+       1.2,
+       2.4,
+       3.5999999999999996,
+       2.4
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       3.5999999999999996,
+       2.4,
+       3.5999999999999996,
+       0
+      ],
+      "n": 2
+     }
+    ]
+   }
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Problem-solving",
+   "stem": "Write a simplified expression for the area of each shape. All corners are right angles.",
+   "type": "expression",
+   "prompt": "Shape C",
+   "answer": "37pq",
+   "form": "simplified",
+   "figure": {
+    "kind": "diagram",
+    "unit": 40,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        3.75,
+        0
+       ],
+       [
+        3.75,
+        0.8
+       ],
+       [
+        6,
+        0.8
+       ],
+       [
+        6,
+        4
+       ],
+       [
+        0,
+        4
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "dim": [
+       0,
+       4,
+       6,
+       4
+      ],
+      "label": "8p",
+      "off": 0.5
+     },
+     {
+      "dim": [
+       0,
+       0,
+       0,
+       4
+      ],
+      "label": "5q",
+      "off": 0.5
+     },
+     {
+      "dim": [
+       3.75,
+       0,
+       6,
+       0
+      ],
+      "label": "3p",
+      "off": -0.4
+     },
+     {
+      "dim": [
+       6,
+       0,
+       6,
+       0.8
+      ],
+      "label": "q",
+      "off": -0.4
+     }
+    ]
+   }
+  },
+  {
+   "id": "q9",
+   "label": "9",
+   "section": "Problem-solving",
+   "type": "expression",
+   "prompt": "A box has a height of $h$ cm. It is $4$ times as wide as it is high, and $3$ times as long as it is wide. Find a simplified expression for the volume of the box in cm$^3$ (volume = length $\\times$ width $\\times$ height).",
+   "answer": "48h^3",
+   "form": "simplified"
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Reasoning",
+   "stem": "A rectangle has a width of $k$ cm and a length that is twice its width.",
+   "type": "expression",
+   "prompt": "Write a simplified expression for its area.",
+   "answer": "2k^2",
+   "form": "simplified"
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Reasoning",
+   "stem": "A rectangle has a width of $k$ cm and a length that is twice its width.",
+   "type": "expression",
+   "prompt": "Write a simplified expression for its perimeter.",
+   "answer": "6k",
+   "form": "simplified"
+  },
+  {
+   "id": "q10c",
+   "label": "10c",
+   "section": "Reasoning",
+   "stem": "A rectangle has a width of $k$ cm and a length that is twice its width.",
+   "type": "expression",
+   "hint": "Type a fraction with /. Put brackets around a bottom with more than one part, for example 5u/(7v).",
+   "prompt": "Simplify its area divided by its perimeter.",
+   "answer": "k/3",
+   "form": "simplified"
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Reasoning",
+   "stem": "Look at the expression $2a \\times 25b \\times 6c$, where $a$, $b$ and $c$ are whole numbers.",
+   "type": "expression",
+   "prompt": "Simplify the expression.",
+   "answer": "300abc",
+   "form": "simplified"
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Reasoning",
+   "stem": "Look at the expression $2a \\times 25b \\times 6c$, where $a$, $b$ and $c$ are whole numbers.",
+   "type": "choice",
+   "prompt": "Its value is always a multiple of which of these numbers?",
+   "answer": 1,
+   "options": [
+    "7",
+    "100",
+    "1000"
+   ]
+  },
+  {
+   "id": "q12a",
+   "label": "12a",
+   "section": "Reasoning",
+   "stem": "Mia claims that these three expressions are equivalent: $\\frac{3m}{4}$, $\\frac{3}{4} \\times m$ and $\\frac{3}{4m}$.",
+   "type": "choice",
+   "prompt": "Is she right?",
+   "answer": 1,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q12b",
+   "label": "12b",
+   "section": "Reasoning",
+   "stem": "Mia claims that these three expressions are equivalent: $\\frac{3m}{4}$, $\\frac{3}{4} \\times m$ and $\\frac{3}{4m}$.",
+   "type": "choice",
+   "prompt": "Which two expressions are equivalent?",
+   "answer": 0,
+   "options": [
+    "3m/4 and 3/4 × m",
+    "3m/4 and 3/(4m)",
+    "3/4 × m and 3/(4m)"
+   ]
+  },
+  {
+   "id": "q12c",
+   "label": "12c",
+   "section": "Reasoning",
+   "stem": "Mia claims that these three expressions are equivalent: $\\frac{3m}{4}$, $\\frac{3}{4} \\times m$ and $\\frac{3}{4m}$.",
+   "type": "list",
+   "hint": "Type both values, separated by a comma.",
+   "prompt": "There are two values of $m$ that make all three expressions equal. What are they?",
+   "answer": [
+    "-1",
+    "1"
+   ]
+  },
+  {
+   "id": "q13a",
+   "label": "13a",
+   "section": "Reasoning",
+   "stem": "Note that $\\frac{15pq}{5p} = 3q$ because $5p \\times 3q = 15pq$.",
+   "type": "expression",
+   "prompt": "You are told that $6m^3n^2 \\times 4m^4$ is equivalent to $24m^7n^2$. What does $\\frac{24m^7n^2}{6m^3n^2}$ simplify to?",
+   "answer": "4m^4",
+   "form": "simplified"
+  },
+  {
+   "id": "q13b",
+   "label": "13b",
+   "section": "Reasoning",
+   "stem": "Note that $\\frac{15pq}{5p} = 3q$ because $5p \\times 3q = 15pq$.",
+   "type": "expression",
+   "prompt": "You are told that $-4p^3q \\times (-5q^2r^3)$ is equivalent to $20p^3(qr)^3$. What does $\\frac{20p^3(qr)^3}{-4p^3q}$ simplify to?",
+   "answer": "-5q^2r^3",
+   "form": "simplified"
+  },
+  {
+   "id": "q14a",
+   "label": "14a",
+   "section": "Enrichment",
+   "stem": "Simplify the following expressions. Remember that you can combine like terms when adding or subtracting.",
+   "type": "expression",
+   "hint": "Type a fraction with /. Put brackets around a bottom with more than one part, for example 5u/(7v).",
+   "prompt": "$\\frac{4mn \\times 3np \\times 2pq}{2m \\times 3np \\times q}$",
+   "answer": "4np",
+   "form": "simplified"
+  },
+  {
+   "id": "q14b",
+   "label": "14b",
+   "section": "Enrichment",
+   "stem": "Simplify the following expressions. Remember that you can combine like terms when adding or subtracting.",
+   "type": "expression",
+   "prompt": "$\\frac{15m^2n + 5m^2n}{6n + 2n}$",
+   "answer": "5m^2/2",
+   "form": "simplified"
+  },
+  {
+   "id": "q14c",
+   "label": "14c",
+   "section": "Enrichment",
+   "stem": "Simplify the following expressions. Remember that you can combine like terms when adding or subtracting.",
+   "type": "expression",
+   "prompt": "$\\frac{9p^2q - 4qp^2}{15pq}$",
+   "answer": "p/3",
+   "form": "simplified"
+  },
+  {
+   "id": "q14d",
+   "label": "14d",
+   "section": "Enrichment",
+   "stem": "Simplify the following expressions. Remember that you can combine like terms when adding or subtracting.",
+   "type": "expression",
+   "prompt": "$\\frac{6k^2m + (3k \\times 4mk)}{5mk - 2km}$",
+   "answer": "6k",
+   "form": "simplified"
+  },
+  {
+   "id": "q14e",
+   "label": "14e",
+   "section": "Enrichment",
+   "stem": "Simplify the following expressions. Remember that you can combine like terms when adding or subtracting.",
+   "type": "expression",
+   "prompt": "$\\frac{6pqr + 9rqp + 3p \\times qr}{2r \\times 6pq}$",
+   "answer": "3/2",
+   "form": "simplified"
+  },
+  {
+   "id": "q14f",
+   "label": "14f",
+   "section": "Enrichment",
+   "stem": "Simplify the following expressions. Remember that you can combine like terms when adding or subtracting.",
+   "type": "expression",
+   "prompt": "$\\frac{8m^2n - (4m \\times 5mn)}{9mn^2}$",
+   "answer": "-4m/(3n)",
+   "form": "simplified"
+  }
+ ]
+},
+{
+ "id": "y8-5e",
+ "year": 8,
+ "chapter": "Chapter 5: Algebraic techniques and index laws",
+ "title": "5E Adding and subtracting algebraic fractions",
+ "description": "Find lowest common denominators, then add and subtract algebraic fractions and write the answer as a single simplified fraction.",
+ "questions": [
+  {
+   "id": "q1",
+   "label": "1",
+   "section": "Fluency",
+   "type": "numeric",
+   "prompt": "Find the lowest common denominator of $\\frac{x}{4}$ and $\\frac{x}{10}$.",
+   "answer": "20"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Find the lowest common denominator (LCD) of each pair of algebraic fractions.",
+   "type": "numeric",
+   "prompt": "$\\frac{x}{2}$ and $\\frac{3y}{7}$",
+   "answer": "14"
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Find the lowest common denominator (LCD) of each pair of algebraic fractions.",
+   "type": "numeric",
+   "prompt": "$\\frac{5x}{6}$ and $\\frac{7y}{18}$",
+   "answer": "18"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Find the lowest common denominator (LCD) of each pair of algebraic fractions.",
+   "type": "numeric",
+   "prompt": "$\\frac{x}{3}$ and $\\frac{y}{8}$",
+   "answer": "24"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Find the lowest common denominator (LCD) of each pair of algebraic fractions.",
+   "type": "numeric",
+   "prompt": "$\\frac{x}{10}$ and $\\frac{y}{5}$",
+   "answer": "10"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Find the missing numerator that makes each equation true.",
+   "type": "expression",
+   "prompt": "$\\frac{x}{3} = \\frac{?}{12}$",
+   "answer": "4x",
+   "form": "simplified",
+   "hint": "Type 4 × x as 4x."
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Find the missing numerator that makes each equation true.",
+   "type": "expression",
+   "prompt": "$\\frac{3a}{4} = \\frac{?}{20}$",
+   "answer": "15a",
+   "form": "simplified"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Find the missing numerator that makes each equation true.",
+   "type": "expression",
+   "prompt": "$\\frac{2z}{7} = \\frac{?}{21}$",
+   "answer": "6z",
+   "form": "simplified"
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Find the missing numerator that makes each equation true.",
+   "type": "expression",
+   "prompt": "$\\frac{5k}{6} = \\frac{?}{30}$",
+   "answer": "25k",
+   "form": "simplified"
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "Simplify the following sums.",
+   "type": "expression",
+   "prompt": "$\\frac{x}{5} + \\frac{2x}{5}$",
+   "answer": "3x/5",
+   "form": "simplified",
+   "hint": "Type fractions with /, for example 5a/6 or -a/6."
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "Simplify the following sums.",
+   "type": "expression",
+   "prompt": "$\\frac{4a}{7} + \\frac{2a}{7}$",
+   "answer": "6a/7",
+   "form": "simplified"
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "Simplify the following sums.",
+   "type": "expression",
+   "prompt": "$\\frac{2b}{9} + \\frac{5b}{9}$",
+   "answer": "7b/9",
+   "form": "simplified"
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "Simplify the following sums.",
+   "type": "expression",
+   "prompt": "$\\frac{5k}{4} + \\frac{k}{4}$",
+   "answer": "3k/2",
+   "form": "simplified"
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Fluency",
+   "stem": "Simplify the following sums.",
+   "type": "expression",
+   "prompt": "$\\frac{a}{3} + \\frac{a}{4}$",
+   "answer": "7a/12",
+   "form": "simplified"
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Fluency",
+   "stem": "Simplify the following sums.",
+   "type": "expression",
+   "prompt": "$\\frac{a}{5} + \\frac{a}{6}$",
+   "answer": "11a/30",
+   "form": "simplified"
+  },
+  {
+   "id": "q4g",
+   "label": "4g",
+   "section": "Fluency",
+   "stem": "Simplify the following sums.",
+   "type": "expression",
+   "prompt": "$\\frac{p}{3} + \\frac{p}{7}$",
+   "answer": "10p/21",
+   "form": "simplified"
+  },
+  {
+   "id": "q4h",
+   "label": "4h",
+   "section": "Fluency",
+   "stem": "Simplify the following sums.",
+   "type": "expression",
+   "prompt": "$\\frac{q}{6} + \\frac{q}{3}$",
+   "answer": "q/2",
+   "form": "simplified"
+  },
+  {
+   "id": "q4i",
+   "label": "4i",
+   "section": "Fluency",
+   "stem": "Simplify the following sums.",
+   "type": "expression",
+   "prompt": "$\\frac{3k}{4} + \\frac{2k}{5}$",
+   "answer": "23k/20",
+   "form": "simplified"
+  },
+  {
+   "id": "q4j",
+   "label": "4j",
+   "section": "Fluency",
+   "stem": "Simplify the following sums.",
+   "type": "expression",
+   "prompt": "$\\frac{3m}{7} + \\frac{m}{2}$",
+   "answer": "13m/14",
+   "form": "simplified"
+  },
+  {
+   "id": "q4k",
+   "label": "4k",
+   "section": "Fluency",
+   "stem": "Simplify the following sums.",
+   "type": "expression",
+   "prompt": "$\\frac{5p}{6} + \\frac{3p}{4}$",
+   "answer": "19p/12",
+   "form": "simplified"
+  },
+  {
+   "id": "q4l",
+   "label": "4l",
+   "section": "Fluency",
+   "stem": "Simplify the following sums.",
+   "type": "expression",
+   "prompt": "$\\frac{x}{3} + \\frac{5x}{9}$",
+   "answer": "8x/9",
+   "form": "simplified"
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Fluency",
+   "stem": "Simplify the following differences.",
+   "type": "expression",
+   "prompt": "$\\frac{4y}{7} - \\frac{y}{7}$",
+   "answer": "3y/7",
+   "form": "simplified",
+   "hint": "A negative answer can be typed like -r/6."
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Fluency",
+   "stem": "Simplify the following differences.",
+   "type": "expression",
+   "prompt": "$\\frac{9p}{11} - \\frac{4p}{11}$",
+   "answer": "5p/11",
+   "form": "simplified"
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Fluency",
+   "stem": "Simplify the following differences.",
+   "type": "expression",
+   "prompt": "$\\frac{8r}{9} - \\frac{2r}{9}$",
+   "answer": "2r/3",
+   "form": "simplified"
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Fluency",
+   "stem": "Simplify the following differences.",
+   "type": "expression",
+   "prompt": "$\\frac{7q}{3} - \\frac{q}{3}$",
+   "answer": "2q",
+   "form": "simplified"
+  },
+  {
+   "id": "q5e",
+   "label": "5e",
+   "section": "Fluency",
+   "stem": "Simplify the following differences.",
+   "type": "expression",
+   "prompt": "$\\frac{p}{3} - \\frac{p}{4}$",
+   "answer": "p/12",
+   "form": "simplified"
+  },
+  {
+   "id": "q5f",
+   "label": "5f",
+   "section": "Fluency",
+   "stem": "Simplify the following differences.",
+   "type": "expression",
+   "prompt": "$\\frac{3t}{4} - \\frac{t}{3}$",
+   "answer": "5t/12",
+   "form": "simplified"
+  },
+  {
+   "id": "q5g",
+   "label": "5g",
+   "section": "Fluency",
+   "stem": "Simplify the following differences.",
+   "type": "expression",
+   "prompt": "$\\frac{7u}{9} - \\frac{u}{3}$",
+   "answer": "4u/9",
+   "form": "simplified"
+  },
+  {
+   "id": "q5h",
+   "label": "5h",
+   "section": "Fluency",
+   "stem": "Simplify the following differences.",
+   "type": "expression",
+   "prompt": "$\\frac{5y}{4} - \\frac{3y}{8}$",
+   "answer": "7y/8",
+   "form": "simplified"
+  },
+  {
+   "id": "q5i",
+   "label": "5i",
+   "section": "Fluency",
+   "stem": "Simplify the following differences.",
+   "type": "expression",
+   "prompt": "$\\frac{r}{5} - \\frac{r}{3}$",
+   "answer": "-2r/15",
+   "form": "simplified"
+  },
+  {
+   "id": "q5j",
+   "label": "5j",
+   "section": "Fluency",
+   "stem": "Simplify the following differences.",
+   "type": "expression",
+   "prompt": "$\\frac{4u}{5} - \\frac{5u}{4}$",
+   "answer": "-9u/20",
+   "form": "simplified"
+  },
+  {
+   "id": "q5k",
+   "label": "5k",
+   "section": "Fluency",
+   "stem": "Simplify the following differences.",
+   "type": "expression",
+   "prompt": "$\\frac{7u}{1} - \\frac{2u}{3}$",
+   "answer": "19u/3",
+   "form": "simplified"
+  },
+  {
+   "id": "q5l",
+   "label": "5l",
+   "section": "Fluency",
+   "stem": "Simplify the following differences.",
+   "type": "expression",
+   "prompt": "$\\frac{3p}{10} - \\frac{5p}{9}$",
+   "answer": "-23p/90",
+   "form": "simplified"
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Fluency",
+   "stem": "Simplify the following, giving your final answer as a single algebraic fraction. (Hint: $3x$ is the same as $\\frac{3x}{1}$.)",
+   "type": "expression",
+   "prompt": "$3x + \\frac{x}{4}$",
+   "answer": "13x/4",
+   "form": "simplified",
+   "hint": "Put brackets around a top with more than one term, for example (3x+2y)/12."
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Fluency",
+   "stem": "Simplify the following, giving your final answer as a single algebraic fraction. (Hint: $3x$ is the same as $\\frac{3x}{1}$.)",
+   "type": "expression",
+   "prompt": "$5x + \\frac{x}{3}$",
+   "answer": "16x/3",
+   "form": "simplified"
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Fluency",
+   "stem": "Simplify the following, giving your final answer as a single algebraic fraction. (Hint: $3x$ is the same as $\\frac{3x}{1}$.)",
+   "type": "expression",
+   "prompt": "$\\frac{a}{4} + 3a$",
+   "answer": "13a/4",
+   "form": "simplified"
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Fluency",
+   "stem": "Simplify the following, giving your final answer as a single algebraic fraction. (Hint: $3x$ is the same as $\\frac{3x}{1}$.)",
+   "type": "expression",
+   "prompt": "$\\frac{7p}{2} - 3p$",
+   "answer": "p/2",
+   "form": "simplified"
+  },
+  {
+   "id": "q6e",
+   "label": "6e",
+   "section": "Fluency",
+   "stem": "Simplify the following, giving your final answer as a single algebraic fraction. (Hint: $3x$ is the same as $\\frac{3x}{1}$.)",
+   "type": "expression",
+   "prompt": "$\\frac{5u}{4} + \\frac{2v}{9}$",
+   "answer": "(45u+8v)/36",
+   "form": "simplified"
+  },
+  {
+   "id": "q6f",
+   "label": "6f",
+   "section": "Fluency",
+   "stem": "Simplify the following, giving your final answer as a single algebraic fraction. (Hint: $3x$ is the same as $\\frac{3x}{1}$.)",
+   "type": "expression",
+   "prompt": "$\\frac{5y}{6} - \\frac{3x}{4}$",
+   "answer": "(10y-9x)/12",
+   "form": "simplified"
+  },
+  {
+   "id": "q6g",
+   "label": "6g",
+   "section": "Fluency",
+   "stem": "Simplify the following, giving your final answer as a single algebraic fraction. (Hint: $3x$ is the same as $\\frac{3x}{1}$.)",
+   "type": "expression",
+   "prompt": "$3t + \\frac{5p}{4}$",
+   "answer": "(5p+12t)/4",
+   "form": "simplified"
+  },
+  {
+   "id": "q6h",
+   "label": "6h",
+   "section": "Fluency",
+   "stem": "Simplify the following, giving your final answer as a single algebraic fraction. (Hint: $3x$ is the same as $\\frac{3x}{1}$.)",
+   "type": "expression",
+   "prompt": "$\\frac{x}{5} - y$",
+   "answer": "(x-5y)/5",
+   "form": "simplified"
+  },
+  {
+   "id": "q6i",
+   "label": "6i",
+   "section": "Fluency",
+   "stem": "Simplify the following, giving your final answer as a single algebraic fraction. (Hint: $3x$ is the same as $\\frac{3x}{1}$.)",
+   "type": "expression",
+   "prompt": "$4 - \\frac{3x}{5}$",
+   "answer": "(20-3x)/5",
+   "form": "simplified"
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Problem-solving",
+   "stem": "Priya earns $\\$w$ each week. She spends $\\frac{1}{4}$ of her pay on rent and $\\frac{1}{6}$ of it on food.",
+   "type": "expression",
+   "prompt": "Write an algebraic fraction for the amount she spends on rent.",
+   "answer": "w/4",
+   "hint": "Type the fraction with /, for example w/5."
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Problem-solving",
+   "stem": "Priya earns $\\$w$ each week. She spends $\\frac{1}{4}$ of her pay on rent and $\\frac{1}{6}$ of it on food.",
+   "type": "expression",
+   "prompt": "Write an algebraic fraction for the amount she spends on food.",
+   "answer": "w/6"
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Problem-solving",
+   "stem": "Priya earns $\\$w$ each week. She spends $\\frac{1}{4}$ of her pay on rent and $\\frac{1}{6}$ of it on food.",
+   "type": "expression",
+   "prompt": "Write a single simplified algebraic fraction for the total amount she spends on rent and food.",
+   "answer": "5w/12",
+   "form": "simplified"
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Problem-solving",
+   "stem": "Zara fills a paddling pool until it is one-third full, then pours in a quarter of a watering can of water. A full pool holds $p$ litres and a full watering can holds $c$ litres.",
+   "type": "expression",
+   "prompt": "Write the total amount of water in the pool as the sum of two algebraic fractions.",
+   "answer": "p/3+c/4",
+   "hint": "Type fractions with /, for example p/5 + c/2."
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Problem-solving",
+   "stem": "Zara fills a paddling pool until it is one-third full, then pours in a quarter of a watering can of water. A full pool holds $p$ litres and a full watering can holds $c$ litres.",
+   "type": "expression",
+   "prompt": "Simplify your expression from part a into a single algebraic fraction.",
+   "answer": "(4p+3c)/12",
+   "form": "simplified",
+   "hint": "Put brackets around a top with more than one term, for example (3x+2y)/12."
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Problem-solving",
+   "stem": "Zara fills a paddling pool until it is one-third full, then pours in a quarter of a watering can of water. A full pool holds $p$ litres and a full watering can holds $c$ litres.",
+   "type": "numeric",
+   "prompt": "A full pool holds $900$ litres and a full watering can holds $8$ litres. How many litres of water are in the pool?",
+   "answer": "302",
+   "units": "L"
+  },
+  {
+   "id": "q9",
+   "label": "9",
+   "section": "Problem-solving",
+   "type": "expression",
+   "prompt": "Jun's savings of $\\$s$ are shared equally between Jun and her two brothers. Jun then spends $\\$15$ of her share. Write an algebraic fraction for the amount Jun has left.",
+   "answer": "(s-45)/3",
+   "hint": "Put brackets around a top with more than one term, for example (3x+2y)/12."
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Reasoning",
+   "type": "numeric",
+   "prompt": "Find the value of $\\frac{x}{3} + \\frac{x}{4}$ when $x = 24$.",
+   "answer": "14"
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Reasoning",
+   "type": "numeric",
+   "prompt": "Find the value of $\\frac{7x}{12}$ when $x = 24$.",
+   "answer": "14"
+  },
+  {
+   "id": "q10c",
+   "label": "10c",
+   "section": "Reasoning",
+   "type": "choice",
+   "prompt": "Is $\\frac{x}{5} + \\frac{x}{6}$ equivalent to $\\frac{2x}{11}$?",
+   "answer": 1,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q10d",
+   "label": "10d",
+   "section": "Reasoning",
+   "type": "choice",
+   "prompt": "Is $\\frac{x}{3} + \\frac{x}{6}$ equivalent to $x - \\frac{x}{2}$?",
+   "answer": 0,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Reasoning",
+   "stem": "Simplify the following differences.",
+   "type": "expression",
+   "prompt": "$\\frac{x}{6} - \\frac{x}{7}$",
+   "answer": "x/42",
+   "form": "simplified"
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Reasoning",
+   "stem": "Simplify the following differences.",
+   "type": "expression",
+   "prompt": "$\\frac{x}{7} - \\frac{x}{8}$",
+   "answer": "x/56",
+   "form": "simplified"
+  },
+  {
+   "id": "q11c",
+   "label": "11c",
+   "section": "Reasoning",
+   "stem": "Simplify the following differences.",
+   "type": "expression",
+   "prompt": "$\\frac{x}{8} - \\frac{x}{9}$",
+   "answer": "x/72",
+   "form": "simplified"
+  },
+  {
+   "id": "q11d",
+   "label": "11d",
+   "section": "Reasoning",
+   "stem": "Simplify the following differences.",
+   "type": "expression",
+   "prompt": "$\\frac{x}{9} - \\frac{x}{10}$",
+   "answer": "x/90",
+   "form": "simplified"
+  },
+  {
+   "id": "q11e",
+   "label": "11e",
+   "section": "Reasoning",
+   "stem": "Use the pattern from parts a to d to simplify this difference quickly.",
+   "type": "expression",
+   "prompt": "$\\frac{x}{10} - \\frac{x}{11}$",
+   "answer": "x/110",
+   "form": "simplified"
+  },
+  {
+   "id": "q12a",
+   "label": "12a",
+   "section": "Enrichment",
+   "stem": "For each of the following expressions, find a single equivalent algebraic fraction.",
+   "type": "expression",
+   "prompt": "$\\frac{z}{5} + \\frac{z}{2} + \\frac{z}{10}$",
+   "answer": "4z/5",
+   "form": "simplified",
+   "hint": "Put brackets around a top with more than one term, for example (3x+2y)/12."
+  },
+  {
+   "id": "q12b",
+   "label": "12b",
+   "section": "Enrichment",
+   "stem": "For each of the following expressions, find a single equivalent algebraic fraction.",
+   "type": "expression",
+   "prompt": "$\\frac{3x}{4} + \\frac{x}{2} - \\frac{x}{8}$",
+   "answer": "9x/8",
+   "form": "simplified"
+  },
+  {
+   "id": "q12c",
+   "label": "12c",
+   "section": "Enrichment",
+   "stem": "For each of the following expressions, find a single equivalent algebraic fraction.",
+   "type": "expression",
+   "prompt": "$\\frac{5u}{3} + \\frac{u}{6} - \\frac{3u}{4}$",
+   "answer": "13u/12",
+   "form": "simplified"
+  },
+  {
+   "id": "q12d",
+   "label": "12d",
+   "section": "Enrichment",
+   "stem": "For each of the following expressions, find a single equivalent algebraic fraction.",
+   "type": "expression",
+   "prompt": "$\\frac{7k}{4} + \\frac{k}{8} - \\frac{3k}{2}$",
+   "answer": "3k/8",
+   "form": "simplified"
+  },
+  {
+   "id": "q12e",
+   "label": "12e",
+   "section": "Enrichment",
+   "stem": "For each of the following expressions, find a single equivalent algebraic fraction.",
+   "type": "expression",
+   "prompt": "$\\frac{p}{3} + \\frac{p}{6} - 4$",
+   "answer": "(p-8)/2",
+   "form": "simplified"
+  },
+  {
+   "id": "q12f",
+   "label": "12f",
+   "section": "Enrichment",
+   "stem": "For each of the following expressions, find a single equivalent algebraic fraction.",
+   "type": "expression",
+   "prompt": "$\\frac{u}{2} + \\frac{u}{5} + \\frac{u}{7}$",
+   "answer": "59u/70",
+   "form": "simplified"
+  },
+  {
+   "id": "q12g",
+   "label": "12g",
+   "section": "Enrichment",
+   "stem": "For each of the following expressions, find a single equivalent algebraic fraction.",
+   "type": "expression",
+   "prompt": "$\\frac{7j}{10} - \\frac{j}{5} + 3$",
+   "answer": "(j+6)/2",
+   "form": "simplified"
+  },
+  {
+   "id": "q12h",
+   "label": "12h",
+   "section": "Enrichment",
+   "stem": "For each of the following expressions, find a single equivalent algebraic fraction.",
+   "type": "expression",
+   "prompt": "$\\frac{4t}{3} - \\frac{t}{2} + \\frac{5r}{6}$",
+   "answer": "(5r+5t)/6",
+   "form": "simplified"
+  }
+ ]
+},
+{
+ "id": "y8-5f",
+ "year": 8,
+ "chapter": "Chapter 5: Algebraic techniques and index laws",
+ "title": "5F Multiplying and dividing algebraic fractions",
+ "description": "Multiply and divide algebraic fractions, cancelling common factors to give the simplest answer.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Simplify the following products.",
+   "type": "expression",
+   "prompt": "$\\frac{2a}{3} \\times \\frac{5b}{7}$",
+   "answer": "10ab/21",
+   "form": "simplified",
+   "hint": "Type the fraction with /, for example 6ab/35."
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Simplify the following products.",
+   "type": "expression",
+   "prompt": "$\\frac{4x}{9} \\times \\frac{2y}{5}$",
+   "answer": "8xy/45",
+   "form": "simplified"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "Simplify the following products.",
+   "type": "expression",
+   "prompt": "$\\frac{7a}{4} \\times \\frac{3b}{5}$",
+   "answer": "21ab/20",
+   "form": "simplified"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Simplify the following products.",
+   "type": "expression",
+   "prompt": "$\\frac{x}{5} \\times \\frac{3}{4}$",
+   "answer": "3x/20",
+   "form": "simplified"
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Simplify the following products.",
+   "type": "expression",
+   "prompt": "$\\frac{1}{6} \\times \\frac{a}{7}$",
+   "answer": "a/42",
+   "form": "simplified"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Simplify the following products.",
+   "type": "expression",
+   "prompt": "$\\frac{3}{5} \\times \\frac{2a}{7}$",
+   "answer": "6a/35",
+   "form": "simplified"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Simplify the following products.",
+   "type": "expression",
+   "prompt": "$\\frac{2c}{3} \\times \\frac{1}{7}$",
+   "answer": "2c/21",
+   "form": "simplified"
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Simplify the following products.",
+   "type": "expression",
+   "prompt": "$\\frac{5a}{2} \\times \\frac{3b}{7}$",
+   "answer": "15ab/14",
+   "form": "simplified"
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "Simplify the following products.",
+   "type": "expression",
+   "prompt": "$\\frac{2a}{3} \\times \\frac{5a}{7}$",
+   "answer": "10a^2/21",
+   "form": "simplified",
+   "hint": "Type a squared as a^2."
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Simplify the following products, remembering to cancel any common factors.",
+   "type": "expression",
+   "prompt": "$\\frac{4x}{7} \\times \\frac{5y}{4}$",
+   "answer": "5xy/7",
+   "form": "simplified"
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Simplify the following products, remembering to cancel any common factors.",
+   "type": "expression",
+   "prompt": "$\\frac{3b}{4} \\times \\frac{5d}{9}$",
+   "answer": "5bd/12",
+   "form": "simplified"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Simplify the following products, remembering to cancel any common factors.",
+   "type": "expression",
+   "prompt": "$\\frac{6a}{7} \\times \\frac{5b}{9c}$",
+   "answer": "10ab/(21c)",
+   "form": "simplified",
+   "hint": "If the bottom has a letter in it, put the whole bottom in brackets, for example 5/(3y)."
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Simplify the following products, remembering to cancel any common factors.",
+   "type": "expression",
+   "prompt": "$\\frac{7d}{4} \\times \\frac{6e}{5}$",
+   "answer": "21de/10",
+   "form": "simplified"
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "Simplify the following products, remembering to cancel any common factors.",
+   "type": "expression",
+   "prompt": "$\\frac{5x}{4} \\times \\frac{1}{10x}$",
+   "answer": "1/8",
+   "form": "simplified"
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "Simplify the following products, remembering to cancel any common factors.",
+   "type": "expression",
+   "prompt": "$\\frac{6}{5k} \\times \\frac{10k}{9}$",
+   "answer": "4/3",
+   "form": "simplified"
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "Simplify the following divisions, cancelling any common factors.",
+   "type": "expression",
+   "prompt": "$\\frac{2a}{3} \\div \\frac{1}{4}$",
+   "answer": "8a/3",
+   "form": "simplified"
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "Simplify the following divisions, cancelling any common factors.",
+   "type": "expression",
+   "prompt": "$\\frac{3x}{4} \\div \\frac{2}{5}$",
+   "answer": "15x/8",
+   "form": "simplified"
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "Simplify the following divisions, cancelling any common factors.",
+   "type": "expression",
+   "prompt": "$\\frac{7a}{9} \\div \\frac{1}{3}$",
+   "answer": "7a/3",
+   "form": "simplified"
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "Simplify the following divisions, cancelling any common factors.",
+   "type": "expression",
+   "prompt": "$\\frac{3}{5} \\div \\frac{6x}{7}$",
+   "answer": "7/(10x)",
+   "form": "simplified",
+   "hint": "If the bottom has a letter in it, put the whole bottom in brackets, for example 5/(3y)."
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Fluency",
+   "stem": "Simplify the following divisions, cancelling any common factors.",
+   "type": "expression",
+   "prompt": "$\\frac{2}{7} \\div \\frac{4y}{5}$",
+   "answer": "5/(14y)",
+   "form": "simplified",
+   "hint": "If the bottom has a letter in it, put the whole bottom in brackets, for example 5/(3y)."
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Fluency",
+   "stem": "Simplify the following divisions, cancelling any common factors.",
+   "type": "expression",
+   "prompt": "$\\frac{1}{5} \\div \\frac{3}{x}$",
+   "answer": "x/15",
+   "form": "simplified"
+  },
+  {
+   "id": "q4g",
+   "label": "4g",
+   "section": "Fluency",
+   "stem": "Simplify the following divisions, cancelling any common factors.",
+   "type": "expression",
+   "prompt": "$\\frac{6a}{5} \\div \\frac{3}{4}$",
+   "answer": "8a/5",
+   "form": "simplified"
+  },
+  {
+   "id": "q4h",
+   "label": "4h",
+   "section": "Fluency",
+   "stem": "Simplify the following divisions, cancelling any common factors.",
+   "type": "expression",
+   "prompt": "$\\frac{3b}{5} \\div \\frac{2c}{7}$",
+   "answer": "21b/(10c)",
+   "form": "simplified",
+   "hint": "If the bottom has a letter in it, put the whole bottom in brackets, for example 5/(3y)."
+  },
+  {
+   "id": "q4i",
+   "label": "4i",
+   "section": "Fluency",
+   "stem": "Simplify the following divisions, cancelling any common factors.",
+   "type": "expression",
+   "prompt": "$\\frac{3x}{7} \\div \\frac{9y}{2}$",
+   "answer": "2x/(21y)",
+   "form": "simplified",
+   "hint": "If the bottom has a letter in it, put the whole bottom in brackets, for example 5/(3y)."
+  },
+  {
+   "id": "q4j",
+   "label": "4j",
+   "section": "Fluency",
+   "stem": "Simplify the following divisions, cancelling any common factors.",
+   "type": "expression",
+   "prompt": "$\\frac{3y}{x} \\div \\frac{2}{y}$",
+   "answer": "3y^2/(2x)",
+   "form": "simplified",
+   "hint": "If the bottom has a letter in it, put the whole bottom in brackets, for example 5/(3y)."
+  },
+  {
+   "id": "q4k",
+   "label": "4k",
+   "section": "Fluency",
+   "stem": "Simplify the following divisions, cancelling any common factors.",
+   "type": "expression",
+   "prompt": "$\\frac{3}{10x} \\div \\frac{5x}{4}$",
+   "answer": "6/(25x^2)",
+   "form": "simplified",
+   "hint": "If the bottom has a letter in it, put the whole bottom in brackets, for example 5/(3y)."
+  },
+  {
+   "id": "q4l",
+   "label": "4l",
+   "section": "Fluency",
+   "stem": "Simplify the following divisions, cancelling any common factors.",
+   "type": "expression",
+   "prompt": "$\\frac{2a}{3} \\div \\frac{5b}{4a}$",
+   "answer": "8a^2/(15b)",
+   "form": "simplified",
+   "hint": "If the bottom has a letter in it, put the whole bottom in brackets, for example 5/(3y)."
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Fluency",
+   "stem": "Simplify the following. (Remember that $4 = \\frac{4}{1}$.)",
+   "type": "expression",
+   "prompt": "$\\frac{2x}{7} \\times 4$",
+   "answer": "8x/7",
+   "form": "simplified"
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Fluency",
+   "stem": "Simplify the following. (Remember that $4 = \\frac{4}{1}$.)",
+   "type": "expression",
+   "prompt": "$\\frac{2x}{7} \\div 4$",
+   "answer": "x/14",
+   "form": "simplified"
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Fluency",
+   "stem": "Simplify the following. (Remember that $4 = \\frac{4}{1}$.)",
+   "type": "expression",
+   "prompt": "$3 \\div \\frac{x}{4}$",
+   "answer": "12/x",
+   "form": "simplified",
+   "hint": "If the bottom has a letter in it, put the whole bottom in brackets, for example 5/(3y)."
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Fluency",
+   "stem": "Simplify the following. (Remember that $4 = \\frac{4}{1}$.)",
+   "type": "expression",
+   "prompt": "$5 \\times \\frac{a}{6}$",
+   "answer": "5a/6",
+   "form": "simplified"
+  },
+  {
+   "id": "q5e",
+   "label": "5e",
+   "section": "Fluency",
+   "stem": "Simplify the following. (Remember that $4 = \\frac{4}{1}$.)",
+   "type": "expression",
+   "prompt": "$4 \\times \\frac{3}{8x}$",
+   "answer": "3/(2x)",
+   "form": "simplified",
+   "hint": "If the bottom has a letter in it, put the whole bottom in brackets, for example 5/(3y)."
+  },
+  {
+   "id": "q5f",
+   "label": "5f",
+   "section": "Fluency",
+   "stem": "Simplify the following. (Remember that $4 = \\frac{4}{1}$.)",
+   "type": "expression",
+   "prompt": "$1 \\div \\frac{x}{5}$",
+   "answer": "5/x",
+   "form": "simplified",
+   "hint": "If the bottom has a letter in it, put the whole bottom in brackets, for example 5/(3y)."
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Problem-solving",
+   "stem": "Three families go out for dinner together. The bill comes to $\\$b$ and the families share it equally.",
+   "type": "expression",
+   "prompt": "Write an algebraic fraction for the amount Mia's family pays.",
+   "answer": "b/3",
+   "hint": "Type the fraction with /, for example b/5."
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Problem-solving",
+   "stem": "Three families go out for dinner together. The bill comes to $\\$b$ and the families share it equally.",
+   "type": "expression",
+   "prompt": "Mia offers to pay one-quarter of her family's share. Write an algebraic fraction for the amount Mia pays.",
+   "answer": "b/12"
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Problem-solving",
+   "stem": "A rectangular garden is $a$ metres wide and $b$ metres long. A smaller section is fenced off for a vegetable patch: it is $\\frac{2}{3}$ of the width and $\\frac{1}{4}$ of the length of the garden.",
+   "type": "expression",
+   "prompt": "Write an expression for the area of the whole garden.",
+   "answer": "ab",
+   "stemFigure": {
+    "kind": "rect",
+    "cols": [
+     [
+      "b m",
+      2
+     ]
+    ],
+    "rows": [
+     [
+      "a m",
+      1
+     ]
+    ]
+   },
+   "hint": "Type a × b as ab."
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Problem-solving",
+   "stem": "A rectangular garden is $a$ metres wide and $b$ metres long. A smaller section is fenced off for a vegetable patch: it is $\\frac{2}{3}$ of the width and $\\frac{1}{4}$ of the length of the garden.",
+   "type": "expression",
+   "prompt": "Write an expression for the width of the vegetable patch.",
+   "answer": "2a/3"
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Problem-solving",
+   "stem": "A rectangular garden is $a$ metres wide and $b$ metres long. A smaller section is fenced off for a vegetable patch: it is $\\frac{2}{3}$ of the width and $\\frac{1}{4}$ of the length of the garden.",
+   "type": "expression",
+   "prompt": "Write an expression for the length of the vegetable patch.",
+   "answer": "b/4"
+  },
+  {
+   "id": "q7d",
+   "label": "7d",
+   "section": "Problem-solving",
+   "stem": "A rectangular garden is $a$ metres wide and $b$ metres long. A smaller section is fenced off for a vegetable patch: it is $\\frac{2}{3}$ of the width and $\\frac{1}{4}$ of the length of the garden.",
+   "type": "expression",
+   "prompt": "Write a simplified expression for the area of the vegetable patch.",
+   "answer": "ab/6",
+   "form": "simplified"
+  },
+  {
+   "id": "q7e",
+   "label": "7e",
+   "section": "Problem-solving",
+   "stem": "A rectangular garden is $a$ metres wide and $b$ metres long. A smaller section is fenced off for a vegetable patch: it is $\\frac{2}{3}$ of the width and $\\frac{1}{4}$ of the length of the garden.",
+   "type": "numeric",
+   "prompt": "Divide the area of the patch by the area of the whole garden to find the fraction of the garden that is fenced off.",
+   "answer": "1/6"
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Problem-solving",
+   "stem": "Write a simplified algebraic fraction for the result of each of the following.",
+   "type": "expression",
+   "prompt": "A number $k$ is divided by $3$ and then the result is multiplied by $5$.",
+   "answer": "5k/3",
+   "form": "simplified",
+   "hint": "Type the fraction with /, for example 2k/7."
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Problem-solving",
+   "stem": "Write a simplified algebraic fraction for the result of each of the following.",
+   "type": "expression",
+   "prompt": "A number $n$ is multiplied by $\\frac{4}{5}$ and the result is divided by $2\\frac{2}{3}$.",
+   "answer": "3n/10",
+   "form": "simplified"
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Problem-solving",
+   "stem": "Write a simplified algebraic fraction for the result of each of the following.",
+   "type": "numeric",
+   "prompt": "The fraction $\\frac{m}{n}$ is multiplied by its reciprocal, $\\frac{n}{m}$.",
+   "answer": "1"
+  },
+  {
+   "id": "q8d",
+   "label": "8d",
+   "section": "Problem-solving",
+   "stem": "Write a simplified algebraic fraction for the result of each of the following.",
+   "type": "expression",
+   "prompt": "A number $y$ is increased by $20\\%$ and the result is divided by $3$.",
+   "answer": "2y/5",
+   "form": "simplified"
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Reasoning",
+   "stem": "Remember that any value $m$ can be thought of as the fraction $\\frac{m}{1}$.",
+   "type": "numeric",
+   "prompt": "Simplify $m \\times \\frac{1}{m}$.",
+   "answer": "1"
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Reasoning",
+   "stem": "Remember that any value $m$ can be thought of as the fraction $\\frac{m}{1}$.",
+   "type": "expression",
+   "prompt": "Simplify $m \\div \\frac{1}{m}$.",
+   "answer": "m^2",
+   "form": "simplified",
+   "hint": "Type m squared as m^2."
+  },
+  {
+   "id": "q9c",
+   "label": "9c",
+   "section": "Reasoning",
+   "stem": "Remember that any value $m$ can be thought of as the fraction $\\frac{m}{1}$.",
+   "type": "expression",
+   "prompt": "Write $k \\div 4$ as an algebraic fraction.",
+   "answer": "k/4",
+   "hint": "Type the fraction with /, for example k/7."
+  },
+  {
+   "id": "q9d",
+   "label": "9d",
+   "section": "Reasoning",
+   "stem": "Remember that any value $m$ can be thought of as the fraction $\\frac{m}{1}$.",
+   "type": "expression",
+   "prompt": "Write $\\frac{1}{4} \\times k$ as an algebraic fraction.",
+   "answer": "k/4"
+  },
+  {
+   "id": "q9e",
+   "label": "9e",
+   "section": "Reasoning",
+   "stem": "Remember that any value $m$ can be thought of as the fraction $\\frac{m}{1}$.",
+   "type": "expression",
+   "prompt": "Simplify $\\frac{p}{q} \\div r$.",
+   "answer": "p/(qr)",
+   "form": "simplified",
+   "hint": "Put a bottom made of several letters in brackets, for example a/(bc)."
+  },
+  {
+   "id": "q9f",
+   "label": "9f",
+   "section": "Reasoning",
+   "stem": "Remember that any value $m$ can be thought of as the fraction $\\frac{m}{1}$.",
+   "type": "expression",
+   "prompt": "Simplify $p \\div \\frac{q}{r}$.",
+   "answer": "pr/q",
+   "form": "simplified",
+   "hint": "If the bottom has a letter in it, put the whole bottom in brackets, for example 5/(3y)."
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Reasoning",
+   "stem": "Simplify each of the following expressions.",
+   "type": "expression",
+   "prompt": "$\\frac{x}{4} + \\frac{x}{7}$",
+   "answer": "11x/28",
+   "form": "simplified"
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Reasoning",
+   "stem": "Simplify each of the following expressions.",
+   "type": "expression",
+   "prompt": "$\\frac{x}{4} - \\frac{x}{7}$",
+   "answer": "3x/28",
+   "form": "simplified"
+  },
+  {
+   "id": "q10c",
+   "label": "10c",
+   "section": "Reasoning",
+   "stem": "Simplify each of the following expressions.",
+   "type": "expression",
+   "prompt": "$\\frac{x}{4} \\times \\frac{x}{7}$",
+   "answer": "x^2/28",
+   "form": "simplified",
+   "hint": "Type x squared as x^2."
+  },
+  {
+   "id": "q10d",
+   "label": "10d",
+   "section": "Reasoning",
+   "stem": "Simplify each of the following expressions.",
+   "type": "expression",
+   "prompt": "$\\frac{x}{4} \\div \\frac{x}{7}$",
+   "answer": "7/4",
+   "form": "simplified"
+  },
+  {
+   "id": "q10e",
+   "label": "10e",
+   "section": "Reasoning",
+   "type": "choice",
+   "prompt": "Which one of the expressions in parts a to d always has the same value, whatever the value of $x$?",
+   "answer": 3,
+   "options": [
+    "x/4 + x/7",
+    "x/4 - x/7",
+    "x/4 × x/7",
+    "x/4 ÷ x/7"
+   ]
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Reasoning",
+   "stem": "Let $m$ and $n$ be any two whole numbers (not zero).",
+   "type": "expression",
+   "prompt": "Simplify $1 \\div \\frac{m}{n}$.",
+   "answer": "n/m",
+   "form": "simplified",
+   "hint": "If the bottom has a letter in it, put the whole bottom in brackets, for example 5/(3y)."
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Reasoning",
+   "stem": "Let $m$ and $n$ be any two whole numbers (not zero).",
+   "type": "expression",
+   "prompt": "Find the reciprocal of the reciprocal of $\\frac{m}{n}$ by simplifying $1 \\div (1 \\div \\frac{m}{n})$.",
+   "answer": "m/n",
+   "form": "simplified"
+  },
+  {
+   "id": "q12a",
+   "label": "12a",
+   "section": "Enrichment",
+   "stem": "A square has side length $s$.",
+   "type": "expression",
+   "prompt": "Write an expression for the area of the square.",
+   "answer": "s^2",
+   "form": "simplified",
+   "hint": "Type s squared as s^2."
+  },
+  {
+   "id": "q12b",
+   "label": "12b",
+   "section": "Enrichment",
+   "stem": "A square has side length $s$.",
+   "type": "expression",
+   "prompt": "Each side is divided by $3$. Write an expression for the area of the new square.",
+   "answer": "s^2/9",
+   "form": "simplified"
+  },
+  {
+   "id": "q12c",
+   "label": "12c",
+   "section": "Enrichment",
+   "stem": "A square has side length $s$.",
+   "type": "expression",
+   "prompt": "Instead, each side of the original square is multiplied by $\\frac{2}{3}$. Write an expression for the area of the new square.",
+   "answer": "4s^2/9",
+   "form": "simplified"
+  },
+  {
+   "id": "q12d",
+   "label": "12d",
+   "section": "Enrichment",
+   "stem": "A square has side length $s$.",
+   "type": "choice",
+   "prompt": "Is the area in part c more than or less than half of the original area?",
+   "answer": 1,
+   "options": [
+    "More than half",
+    "Less than half"
+   ]
+  },
+  {
+   "id": "q12e",
+   "label": "12e",
+   "section": "Enrichment",
+   "stem": "A square has side length $s$.",
+   "type": "expression",
+   "prompt": "Each side of the original square is multiplied by $0.6$. Write the area of the new square as an algebraic fraction in simplest form. (Remember $0.6 = \\frac{6}{10}$.)",
+   "answer": "9s^2/25",
+   "form": "simplified"
+  },
+  {
+   "id": "q12f",
+   "label": "12f",
+   "section": "Enrichment",
+   "stem": "A square has side length $s$.",
+   "type": "numeric",
+   "prompt": "Each side of the original square is multiplied by the same number, and the area of the new square is one-third of the original area. What number were the sides multiplied by? Give your answer correct to three decimal places.",
+   "answer": "0.577"
+  }
+ ]
+},
+{
+ "id": "y8-5g",
+ "year": 8,
+ "chapter": "Chapter 5: Algebraic techniques and index laws",
+ "title": "5G Expanding brackets",
+ "description": "Use the distributive law to expand brackets, then collect like terms to simplify.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Expand the following using the distributive law.",
+   "type": "expression",
+   "prompt": "$4(2x + 3)$",
+   "answer": "8x+12",
+   "form": "expanded",
+   "hint": "Type your answer without brackets, for example 6x + 15."
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Expand the following using the distributive law.",
+   "type": "expression",
+   "prompt": "$6(5x + 1)$",
+   "answer": "30x+6",
+   "form": "expanded"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "Expand the following using the distributive law.",
+   "type": "expression",
+   "prompt": "$3(7x + 4)$",
+   "answer": "21x+12",
+   "form": "expanded"
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "Expand the following using the distributive law.",
+   "type": "expression",
+   "prompt": "$8(3x + 5)$",
+   "answer": "24x+40",
+   "form": "expanded"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Use the distributive law to expand these expressions.",
+   "type": "expression",
+   "prompt": "$4(3a + 2)$",
+   "answer": "12a+8",
+   "form": "expanded"
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Use the distributive law to expand these expressions.",
+   "type": "expression",
+   "prompt": "$6(2t + 5)$",
+   "answer": "12t+30",
+   "form": "expanded"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Use the distributive law to expand these expressions.",
+   "type": "expression",
+   "prompt": "$7(3m + 2)$",
+   "answer": "21m+14",
+   "form": "expanded"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Use the distributive law to expand these expressions.",
+   "type": "expression",
+   "prompt": "$5(v + 4)$",
+   "answer": "5v+20",
+   "form": "expanded"
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Use the distributive law to expand these expressions.",
+   "type": "expression",
+   "prompt": "$3(5 - 2j)$",
+   "answer": "15-6j",
+   "form": "expanded"
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "Use the distributive law to expand these expressions.",
+   "type": "expression",
+   "prompt": "$4(3k - 7)$",
+   "answer": "12k-28",
+   "form": "expanded"
+  },
+  {
+   "id": "q2g",
+   "label": "2g",
+   "section": "Fluency",
+   "stem": "Use the distributive law to expand these expressions.",
+   "type": "expression",
+   "prompt": "$5(2m - 1)$",
+   "answer": "10m-5",
+   "form": "expanded"
+  },
+  {
+   "id": "q2h",
+   "label": "2h",
+   "section": "Fluency",
+   "stem": "Use the distributive law to expand these expressions.",
+   "type": "expression",
+   "prompt": "$3(9 - c)$",
+   "answer": "27-3c",
+   "form": "expanded"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Use the distributive law to expand the following.",
+   "type": "expression",
+   "prompt": "$-4(7 + g)$",
+   "answer": "-28-4g",
+   "form": "expanded",
+   "hint": "Start a negative answer with -, for example -12 - 3g."
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Use the distributive law to expand the following.",
+   "type": "expression",
+   "prompt": "$-6(3b + 5)$",
+   "answer": "-18b-30",
+   "form": "expanded"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Use the distributive law to expand the following.",
+   "type": "expression",
+   "prompt": "$-8(u - 7)$",
+   "answer": "-8u+56",
+   "form": "expanded"
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Use the distributive law to expand the following.",
+   "type": "expression",
+   "prompt": "$-3(9 - h)$",
+   "answer": "-27+3h",
+   "form": "expanded"
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "Use the distributive law to expand the following.",
+   "type": "expression",
+   "prompt": "$5z(k - h)$",
+   "answer": "5kz-5hz",
+   "form": "expanded"
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "Use the distributive law to expand the following.",
+   "type": "expression",
+   "prompt": "$-4j(k + a)$",
+   "answer": "-4jk-4aj",
+   "form": "expanded"
+  },
+  {
+   "id": "q3g",
+   "label": "3g",
+   "section": "Fluency",
+   "stem": "Use the distributive law to expand the following.",
+   "type": "expression",
+   "prompt": "$3u(5r - q)$",
+   "answer": "15ru-3qu",
+   "form": "expanded"
+  },
+  {
+   "id": "q3h",
+   "label": "3h",
+   "section": "Fluency",
+   "stem": "Use the distributive law to expand the following.",
+   "type": "expression",
+   "prompt": "$7m(2w - 4a)$",
+   "answer": "14mw-28am",
+   "form": "expanded"
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "Simplify the following by expanding and then collecting like terms.",
+   "type": "expression",
+   "prompt": "$5(4f + 3) + 6f$",
+   "answer": "26f+15",
+   "form": "simplified"
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "Simplify the following by expanding and then collecting like terms.",
+   "type": "expression",
+   "prompt": "$3(5 + 2x) + 7x$",
+   "answer": "15+13x",
+   "form": "simplified"
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "Simplify the following by expanding and then collecting like terms.",
+   "type": "expression",
+   "prompt": "$6(3a + 4) + 5a$",
+   "answer": "23a+24",
+   "form": "simplified"
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "Simplify the following by expanding and then collecting like terms.",
+   "type": "expression",
+   "prompt": "$4(2v + 9) + 3v$",
+   "answer": "11v+36",
+   "form": "simplified"
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Fluency",
+   "stem": "Simplify the following by expanding and then collecting like terms.",
+   "type": "expression",
+   "prompt": "$8(5a + 3) + 2a$",
+   "answer": "42a+24",
+   "form": "simplified"
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Fluency",
+   "stem": "Simplify the following by expanding and then collecting like terms.",
+   "type": "expression",
+   "prompt": "$5(4q - 3) + 7q$",
+   "answer": "27q-15",
+   "form": "simplified"
+  },
+  {
+   "id": "q4g",
+   "label": "4g",
+   "section": "Fluency",
+   "stem": "Simplify the following by expanding and then collecting like terms.",
+   "type": "expression",
+   "prompt": "$3(6m - 7) + 4m$",
+   "answer": "22m-21",
+   "form": "simplified"
+  },
+  {
+   "id": "q4h",
+   "label": "4h",
+   "section": "Fluency",
+   "stem": "Simplify the following by expanding and then collecting like terms.",
+   "type": "expression",
+   "prompt": "$6(3 + 4m) - 9m$",
+   "answer": "18+15m",
+   "form": "simplified"
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Fluency",
+   "stem": "Simplify the following by expanding and then collecting like terms.",
+   "type": "expression",
+   "prompt": "$2(4 + 3d) + 5(2d + 6)$",
+   "answer": "38+16d",
+   "form": "simplified"
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Fluency",
+   "stem": "Simplify the following by expanding and then collecting like terms.",
+   "type": "expression",
+   "prompt": "$6(3 + 7f) + 2(4f + 9)$",
+   "answer": "36+50f",
+   "form": "simplified"
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Fluency",
+   "stem": "Simplify the following by expanding and then collecting like terms.",
+   "type": "expression",
+   "prompt": "$5(2 + 3j) + 3(6j + 4)$",
+   "answer": "22+33j",
+   "form": "simplified"
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Fluency",
+   "stem": "Simplify the following by expanding and then collecting like terms.",
+   "type": "expression",
+   "prompt": "$4(7 + 2d) + 3(5 + 6d)$",
+   "answer": "43+26d",
+   "form": "simplified"
+  },
+  {
+   "id": "q5e",
+   "label": "5e",
+   "section": "Fluency",
+   "stem": "Simplify the following by expanding and then collecting like terms.",
+   "type": "expression",
+   "prompt": "$7(4 - 3j) + 2(8j - 6)$",
+   "answer": "16-5j",
+   "form": "simplified"
+  },
+  {
+   "id": "q5f",
+   "label": "5f",
+   "section": "Fluency",
+   "stem": "Simplify the following by expanding and then collecting like terms.",
+   "type": "expression",
+   "prompt": "$9(2 + 3g) + 4(5 - 2g)$",
+   "answer": "38+19g",
+   "form": "simplified"
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Fluency",
+   "stem": "The distributive law also works when there are more than two terms in the brackets, for example $2(3x - 5y + 4) = 6x - 10y + 8$. Use this to expand the following.",
+   "type": "expression",
+   "prompt": "$3(4x + 5y + 2z)$",
+   "answer": "12x+15y+6z",
+   "form": "expanded"
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Fluency",
+   "stem": "The distributive law also works when there are more than two terms in the brackets, for example $2(3x - 5y + 4) = 6x - 10y + 8$. Use this to expand the following.",
+   "type": "expression",
+   "prompt": "$6a(3 - 2b + 5y)$",
+   "answer": "18a-12ab+30ay",
+   "form": "expanded"
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Fluency",
+   "stem": "The distributive law also works when there are more than two terms in the brackets, for example $2(3x - 5y + 4) = 6x - 10y + 8$. Use this to expand the following.",
+   "type": "expression",
+   "prompt": "$4q(3z + 5a + 2)$",
+   "answer": "12qz+20aq+8q",
+   "form": "expanded"
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Fluency",
+   "stem": "The distributive law also works when there are more than two terms in the brackets, for example $2(3x - 5y + 4) = 6x - 10y + 8$. Use this to expand the following.",
+   "type": "expression",
+   "prompt": "$-2(5 + 3k + 4p)$",
+   "answer": "-10-6k-8p",
+   "form": "expanded"
+  },
+  {
+   "id": "q6e",
+   "label": "6e",
+   "section": "Fluency",
+   "stem": "The distributive law also works when there are more than two terms in the brackets, for example $2(3x - 5y + 4) = 6x - 10y + 8$. Use this to expand the following.",
+   "type": "expression",
+   "prompt": "$-4(2 + 3q - 5r)$",
+   "answer": "-8-12q+20r",
+   "form": "expanded"
+  },
+  {
+   "id": "q6f",
+   "label": "6f",
+   "section": "Fluency",
+   "stem": "The distributive law also works when there are more than two terms in the brackets, for example $2(3x - 5y + 4) = 6x - 10y + 8$. Use this to expand the following.",
+   "type": "expression",
+   "prompt": "$-5k(r + m + s)$",
+   "answer": "-5kr-5km-5ks",
+   "form": "expanded"
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Problem-solving",
+   "stem": "Write an expression for each of the following, then expand it. Type your final expanded answer.",
+   "type": "expression",
+   "prompt": "A number $a$ has $6$ added to it and the result is multiplied by $5$.",
+   "answer": "5a+30",
+   "form": "expanded",
+   "hint": "Type your answer without brackets, for example 6x + 15."
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Problem-solving",
+   "stem": "Write an expression for each of the following, then expand it. Type your final expanded answer.",
+   "type": "expression",
+   "prompt": "A number $b$ has $2$ subtracted from it and the result is tripled.",
+   "answer": "3b-6",
+   "form": "expanded"
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Problem-solving",
+   "stem": "Write an expression for each of the following, then expand it. Type your final expanded answer.",
+   "type": "expression",
+   "prompt": "A number $c$ is doubled, and then $7$ is added. The result is multiplied by $4$.",
+   "answer": "8c+28",
+   "form": "expanded"
+  },
+  {
+   "id": "q7d",
+   "label": "7d",
+   "section": "Problem-solving",
+   "stem": "Write an expression for each of the following, then expand it. Type your final expanded answer.",
+   "type": "expression",
+   "prompt": "A number $d$ is tripled, and then $1$ is subtracted. The result is doubled.",
+   "answer": "6d-2",
+   "form": "expanded"
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Problem-solving",
+   "stem": "Match each description with the equivalent one from the list. (Hint: first write each description as an algebraic expression and expand it.)",
+   "type": "choice",
+   "prompt": "The number $x$ is tripled and $9$ is added.",
+   "answer": 3,
+   "options": [
+    "A: x is tripled and then reduced by 12",
+    "B: x is multiplied by 4",
+    "C: x is decreased by 16",
+    "D: x is increased by 3 and the result is tripled",
+    "E: x is increased by 10"
+   ]
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Problem-solving",
+   "stem": "Match each description with the equivalent one from the list. (Hint: first write each description as an algebraic expression and expand it.)",
+   "type": "choice",
+   "prompt": "The number $x$ is reduced by $4$ and the result is tripled.",
+   "answer": 0,
+   "options": [
+    "A: x is tripled and then reduced by 12",
+    "B: x is multiplied by 4",
+    "C: x is decreased by 16",
+    "D: x is increased by 3 and the result is tripled",
+    "E: x is increased by 10"
+   ]
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Problem-solving",
+   "stem": "Match each description with the equivalent one from the list. (Hint: first write each description as an algebraic expression and expand it.)",
+   "type": "choice",
+   "prompt": "The number $x$ is added to three times the value of $x$.",
+   "answer": 1,
+   "options": [
+    "A: x is tripled and then reduced by 12",
+    "B: x is multiplied by 4",
+    "C: x is decreased by 16",
+    "D: x is increased by 3 and the result is tripled",
+    "E: x is increased by 10"
+   ]
+  },
+  {
+   "id": "q8d",
+   "label": "8d",
+   "section": "Problem-solving",
+   "stem": "Match each description with the equivalent one from the list. (Hint: first write each description as an algebraic expression and expand it.)",
+   "type": "choice",
+   "prompt": "The number $x$ is halved, then $5$ is added and the result is doubled.",
+   "answer": 4,
+   "options": [
+    "A: x is tripled and then reduced by 12",
+    "B: x is multiplied by 4",
+    "C: x is decreased by 16",
+    "D: x is increased by 3 and the result is tripled",
+    "E: x is increased by 10"
+   ]
+  },
+  {
+   "id": "q8e",
+   "label": "8e",
+   "section": "Problem-solving",
+   "stem": "Match each description with the equivalent one from the list. (Hint: first write each description as an algebraic expression and expand it.)",
+   "type": "choice",
+   "prompt": "$4$ is subtracted from one-quarter of $x$ and the result is multiplied by $4$.",
+   "answer": 2,
+   "options": [
+    "A: x is tripled and then reduced by 12",
+    "B: x is multiplied by 4",
+    "C: x is decreased by 16",
+    "D: x is increased by 3 and the result is tripled",
+    "E: x is increased by 10"
+   ]
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Problem-solving",
+   "stem": "A netball club has $p$ players and $c$ coaches. Each player has $3$ training balls and each coach has $2$ training balls.",
+   "type": "expression",
+   "prompt": "Write an expression for the total number of training balls.",
+   "answer": "3p+2c"
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Problem-solving",
+   "stem": "A netball club has $p$ players and $c$ coaches. Each player has $3$ training balls and each coach has $2$ training balls.",
+   "type": "expression",
+   "prompt": "Each ball costs $\\$5$. Write and expand an expression for the total cost, in dollars, of all the balls.",
+   "answer": "15p+10c",
+   "form": "expanded",
+   "hint": "Type your answer without brackets, for example 6x + 15."
+  },
+  {
+   "id": "q9c",
+   "label": "9c",
+   "section": "Problem-solving",
+   "stem": "A netball club has $p$ players and $c$ coaches. Each player has $3$ training balls and each coach has $2$ training balls.",
+   "type": "expression",
+   "prompt": "Every player and coach is also given a drink bottle costing $\\$6$. Write a simplified, expanded expression for the total cost, in dollars, of all the balls and drink bottles.",
+   "answer": "21p+16c",
+   "form": "simplified"
+  },
+  {
+   "id": "q9d",
+   "label": "9d",
+   "section": "Problem-solving",
+   "stem": "A netball club has $p$ players and $c$ coaches. Each player has $3$ training balls and each coach has $2$ training balls.",
+   "type": "numeric",
+   "prompt": "The club has $18$ players and $3$ coaches. What is the total cost of all the balls and drink bottles?",
+   "answer": "426",
+   "units": "$"
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Problem-solving",
+   "type": "choice",
+   "prompt": "Which one of these does NOT expand to give $10a + 30b$?",
+   "answer": 3,
+   "options": [
+    "5(2a + 6b)",
+    "10(a + 3b)",
+    "2(5a + 15b)",
+    "5(2a + 30b)"
+   ]
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Problem-solving",
+   "stem": "Write an expression with brackets that expands to give each of the following.",
+   "type": "expression",
+   "prompt": "$6x + 9y$",
+   "answer": "3(2x+3y)",
+   "form": "factorised",
+   "hint": "Type a number times a bracket, for example 2(a + 4)."
+  },
+  {
+   "id": "q10c",
+   "label": "10c",
+   "section": "Problem-solving",
+   "stem": "Write an expression with brackets that expands to give each of the following.",
+   "type": "expression",
+   "prompt": "$15a - 10b$",
+   "answer": "5(3a-2b)",
+   "form": "factorised"
+  },
+  {
+   "id": "q10d",
+   "label": "10d",
+   "section": "Problem-solving",
+   "stem": "Write an expression with brackets that expands to give each of the following.",
+   "type": "expression",
+   "prompt": "$20ab + 12ac$",
+   "answer": "4a(5b+3c)",
+   "form": "factorised"
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Reasoning",
+   "stem": "Show that $3m(4 + n) + 5mn$ is equivalent to $m(8n + 6) + 6m$ by expanding both expressions.",
+   "type": "expression",
+   "prompt": "Expand and simplify $3m(4 + n) + 5mn$.",
+   "answer": "12m+8mn",
+   "form": "simplified",
+   "hint": "Type m × n as mn."
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Reasoning",
+   "stem": "Show that $3m(4 + n) + 5mn$ is equivalent to $m(8n + 6) + 6m$ by expanding both expressions.",
+   "type": "expression",
+   "prompt": "Expand and simplify $m(8n + 6) + 6m$.",
+   "answer": "8mn+12m",
+   "form": "simplified"
+  },
+  {
+   "id": "q11c",
+   "label": "11c",
+   "section": "Reasoning",
+   "stem": "Show that $3m(4 + n) + 5mn$ is equivalent to $m(8n + 6) + 6m$ by expanding both expressions.",
+   "type": "choice",
+   "prompt": "Are the two expressions equivalent?",
+   "answer": 0,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q12a",
+   "label": "12a",
+   "section": "Reasoning",
+   "stem": "The area model can be used to expand two brackets. For example, the diagram shows $(3a + 2b)(5 + d) = 15a+10b+3ad+2bd$. Use this method to expand the following.",
+   "type": "expression",
+   "prompt": "$(m + n)(4 + p)$",
+   "answer": "4m+mp+4n+np",
+   "form": "expanded",
+   "stemFigure": {
+    "kind": "rect",
+    "cols": [
+     [
+      "3a",
+      3
+     ],
+     [
+      "+2b",
+      2
+     ]
+    ],
+    "rows": [
+     [
+      "5",
+      2
+     ],
+     [
+      "+d",
+      1
+     ]
+    ],
+    "cells": [
+     [
+      "15a",
+      "10b"
+     ],
+     [
+      "3ad",
+      "2bd"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q12b",
+   "label": "12b",
+   "section": "Reasoning",
+   "stem": "The area model can be used to expand two brackets. For example, the diagram shows $(3a + 2b)(5 + d) = 15a+10b+3ad+2bd$. Use this method to expand the following.",
+   "type": "expression",
+   "prompt": "$(2a + 5b)(3 + 4c)$",
+   "answer": "6a+8ac+15b+20bc",
+   "form": "expanded"
+  },
+  {
+   "id": "q12c",
+   "label": "12c",
+   "section": "Reasoning",
+   "stem": "The area model can be used to expand two brackets. For example, the diagram shows $(3a + 2b)(5 + d) = 15a+10b+3ad+2bd$. Use this method to expand the following.",
+   "type": "expression",
+   "prompt": "$(x + 2)(x + 5)$",
+   "answer": "x^2+7x+10",
+   "form": "expanded",
+   "hint": "Type x squared as x^2."
+  },
+  {
+   "id": "q13a",
+   "label": "13a",
+   "section": "Reasoning",
+   "stem": "The distributive law helps with mental arithmetic. For example, $13 \\times 102 = 13 \\times (100 + 2) = 1300 + 26 = 1326$.",
+   "type": "numeric",
+   "prompt": "Find the value of $7 \\times 306$. Start with $7 \\times 306 = 7 \\times (300 + 6)$.",
+   "answer": "2142"
+  },
+  {
+   "id": "q13b",
+   "label": "13b",
+   "section": "Reasoning",
+   "stem": "The distributive law helps with mental arithmetic. For example, $13 \\times 102 = 13 \\times (100 + 2) = 1300 + 26 = 1326$.",
+   "type": "numeric",
+   "prompt": "Find the value of $306 \\times 7$. Start with $306 \\times 7 = 306 \\times (10 - 3)$.",
+   "answer": "2142"
+  },
+  {
+   "id": "q13c",
+   "label": "13c",
+   "section": "Reasoning",
+   "stem": "Using $a \\times 11 = a \\times (10 + 1) = 10a + a$, find the value of each product.",
+   "type": "numeric",
+   "prompt": "$23 \\times 11$",
+   "answer": "253"
+  },
+  {
+   "id": "q13d",
+   "label": "13d",
+   "section": "Reasoning",
+   "stem": "Using $a \\times 11 = a \\times (10 + 1) = 10a + a$, find the value of each product.",
+   "type": "numeric",
+   "prompt": "$45 \\times 11$",
+   "answer": "495"
+  },
+  {
+   "id": "q13e",
+   "label": "13e",
+   "section": "Reasoning",
+   "stem": "Using $a \\times 11 = a \\times (10 + 1) = 10a + a$, find the value of each product.",
+   "type": "numeric",
+   "prompt": "$61 \\times 11$",
+   "answer": "671"
+  },
+  {
+   "id": "q13f",
+   "label": "13f",
+   "section": "Reasoning",
+   "stem": "Using $a \\times 11 = a \\times (10 + 1) = 10a + a$, find the value of each product.",
+   "type": "numeric",
+   "prompt": "$88 \\times 11$",
+   "answer": "968"
+  },
+  {
+   "id": "q13g",
+   "label": "13g",
+   "section": "Reasoning",
+   "stem": "When $(x + 1)(x - 1)$ is expanded it gives $x^2 - 1$. For example, with $x = 6$ this says $7 \\times 5 = 36 - 1 = 35$. Use this fact to find the value of each product.",
+   "type": "numeric",
+   "prompt": "$9 \\times 7$",
+   "answer": "63"
+  },
+  {
+   "id": "q13h",
+   "label": "13h",
+   "section": "Reasoning",
+   "stem": "When $(x + 1)(x - 1)$ is expanded it gives $x^2 - 1$. For example, with $x = 6$ this says $7 \\times 5 = 36 - 1 = 35$. Use this fact to find the value of each product.",
+   "type": "numeric",
+   "prompt": "$31 \\times 29$",
+   "answer": "899"
+  },
+  {
+   "id": "q13i",
+   "label": "13i",
+   "section": "Reasoning",
+   "stem": "When $(x + 1)(x - 1)$ is expanded it gives $x^2 - 1$. For example, with $x = 6$ this says $7 \\times 5 = 36 - 1 = 35$. Use this fact to find the value of each product.",
+   "type": "numeric",
+   "prompt": "$16 \\times 14$",
+   "answer": "224"
+  },
+  {
+   "id": "q13j",
+   "label": "13j",
+   "section": "Reasoning",
+   "stem": "When $(x + 1)(x - 1)$ is expanded it gives $x^2 - 1$. For example, with $x = 6$ this says $7 \\times 5 = 36 - 1 = 35$. Use this fact to find the value of each product.",
+   "type": "numeric",
+   "prompt": "$301 \\times 299$",
+   "answer": "89999"
+  },
+  {
+   "id": "q13k",
+   "label": "13k",
+   "section": "Reasoning",
+   "type": "numeric",
+   "prompt": "The expression $(10n + 5)(10n + 5)$ is equivalent to $100n(n + 1) + 25$. Use this with $n = 6$ to find the value of $65^2$.",
+   "answer": "4225"
+  },
+  {
+   "id": "q14a",
+   "label": "14a",
+   "section": "Reasoning",
+   "stem": "Start with a number $n$. Add $3$. Multiply the result by $4$. Subtract $4$. Multiply the result by $\\frac{1}{2}$. Subtract $4$.",
+   "type": "expression",
+   "prompt": "Write the final result as a simplified expression in $n$.",
+   "answer": "2n",
+   "form": "simplified"
+  },
+  {
+   "id": "q14b",
+   "label": "14b",
+   "section": "Reasoning",
+   "stem": "Start with a number $n$. Add $3$. Multiply the result by $4$. Subtract $4$. Multiply the result by $\\frac{1}{2}$. Subtract $4$.",
+   "type": "choice",
+   "prompt": "Which single operation has the same effect as the whole sequence of steps?",
+   "answer": 0,
+   "options": [
+    "Doubling the number",
+    "Adding 4",
+    "Multiplying by 4",
+    "Halving the number"
+   ]
+  },
+  {
+   "id": "q15a",
+   "label": "15a",
+   "section": "Enrichment",
+   "stem": "To simplify $\\frac{x + 4}{3} + \\frac{x}{2}$, write both fractions over $6$: $\\frac{2(x + 4)}{6} + \\frac{3x}{6} = \\frac{2x + 8 + 3x}{6} = \\frac{5x + 8}{6}$. Use this method to simplify the following sums.",
+   "type": "expression",
+   "prompt": "$\\frac{x + 2}{3} + \\frac{x}{4}$",
+   "answer": "(7x+8)/12",
+   "form": "simplified",
+   "hint": "Put brackets around the top, for example (5x+8)/6."
+  },
+  {
+   "id": "q15b",
+   "label": "15b",
+   "section": "Enrichment",
+   "stem": "To simplify $\\frac{x + 4}{3} + \\frac{x}{2}$, write both fractions over $6$: $\\frac{2(x + 4)}{6} + \\frac{3x}{6} = \\frac{2x + 8 + 3x}{6} = \\frac{5x + 8}{6}$. Use this method to simplify the following sums.",
+   "type": "expression",
+   "prompt": "$\\frac{x + 3}{2} + \\frac{x}{5}$",
+   "answer": "(7x+15)/10",
+   "form": "simplified"
+  },
+  {
+   "id": "q15c",
+   "label": "15c",
+   "section": "Enrichment",
+   "stem": "To simplify $\\frac{x + 4}{3} + \\frac{x}{2}$, write both fractions over $6$: $\\frac{2(x + 4)}{6} + \\frac{3x}{6} = \\frac{2x + 8 + 3x}{6} = \\frac{5x + 8}{6}$. Use this method to simplify the following sums.",
+   "type": "expression",
+   "prompt": "$\\frac{2x}{5} + \\frac{x - 2}{3}$",
+   "answer": "(11x-10)/15",
+   "form": "simplified"
+  },
+  {
+   "id": "q15d",
+   "label": "15d",
+   "section": "Enrichment",
+   "stem": "To simplify $\\frac{x + 4}{3} + \\frac{x}{2}$, write both fractions over $6$: $\\frac{2(x + 4)}{6} + \\frac{3x}{6} = \\frac{2x + 8 + 3x}{6} = \\frac{5x + 8}{6}$. Use this method to simplify the following sums.",
+   "type": "expression",
+   "prompt": "$\\frac{x + 1}{2} + \\frac{x + 4}{5}$",
+   "answer": "(7x+13)/10",
+   "form": "simplified"
+  },
+  {
+   "id": "q15e",
+   "label": "15e",
+   "section": "Enrichment",
+   "stem": "To simplify $\\frac{x + 4}{3} + \\frac{x}{2}$, write both fractions over $6$: $\\frac{2(x + 4)}{6} + \\frac{3x}{6} = \\frac{2x + 8 + 3x}{6} = \\frac{5x + 8}{6}$. Use this method to simplify the following sums.",
+   "type": "expression",
+   "prompt": "$\\frac{3x + 1}{4} + \\frac{x + 2}{8}$",
+   "answer": "(7x+4)/8",
+   "form": "simplified"
+  },
+  {
+   "id": "q15f",
+   "label": "15f",
+   "section": "Enrichment",
+   "stem": "To simplify $\\frac{x + 4}{3} + \\frac{x}{2}$, write both fractions over $6$: $\\frac{2(x + 4)}{6} + \\frac{3x}{6} = \\frac{2x + 8 + 3x}{6} = \\frac{5x + 8}{6}$. Use this method to simplify the following sums.",
+   "type": "expression",
+   "prompt": "$\\frac{3x - 2}{5} + \\frac{2x + 1}{3}$",
+   "answer": "(19x-1)/15",
+   "form": "simplified"
+  }
+ ]
+},
+{
+ "id": "y8-5h",
+ "year": 8,
+ "chapter": "Chapter 5: Algebraic techniques and index laws",
+ "title": "5H Factorising expressions",
+ "description": "Find the highest common factor of terms and use it to factorise expressions fully.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Find the highest common factor (HCF) of the following numbers.",
+   "type": "numeric",
+   "prompt": "$12$ and $18$",
+   "answer": "6"
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Find the highest common factor (HCF) of the following numbers.",
+   "type": "numeric",
+   "prompt": "$24$ and $40$",
+   "answer": "8"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "Find the highest common factor (HCF) of the following numbers.",
+   "type": "numeric",
+   "prompt": "$18$ and $45$",
+   "answer": "9"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Find the highest common factor (HCF) of the following pairs of terms.",
+   "type": "numeric",
+   "prompt": "$12$ and $8x$",
+   "answer": "4"
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Find the highest common factor (HCF) of the following pairs of terms.",
+   "type": "numeric",
+   "prompt": "$18a$ and $30b$",
+   "answer": "6"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Find the highest common factor (HCF) of the following pairs of terms.",
+   "type": "numeric",
+   "prompt": "$24a$ and $8b$",
+   "answer": "8"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Find the highest common factor (HCF) of the following pairs of terms.",
+   "type": "expression",
+   "prompt": "$5xy$ and $15x$",
+   "answer": "5x",
+   "hint": "Type 5 × x as 5x. The HCF is positive."
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Find the highest common factor (HCF) of the following pairs of terms.",
+   "type": "expression",
+   "prompt": "$-3yz$ and $9xy$",
+   "answer": "3y"
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "Find the highest common factor (HCF) of the following pairs of terms.",
+   "type": "expression",
+   "prompt": "$13xy$ and $-26xy$",
+   "answer": "13xy"
+  },
+  {
+   "id": "q2g",
+   "label": "2g",
+   "section": "Fluency",
+   "stem": "Find the highest common factor (HCF) of the following pairs of terms.",
+   "type": "expression",
+   "prompt": "$6qr$ and $-9r$",
+   "answer": "3r"
+  },
+  {
+   "id": "q2h",
+   "label": "2h",
+   "section": "Fluency",
+   "stem": "Find the highest common factor (HCF) of the following pairs of terms.",
+   "type": "expression",
+   "prompt": "$-4a$ and $10a^2$",
+   "answer": "2a"
+  },
+  {
+   "id": "q2i",
+   "label": "2i",
+   "section": "Fluency",
+   "stem": "Find the highest common factor (HCF) of the following pairs of terms.",
+   "type": "expression",
+   "prompt": "$15p$ and $22pq$",
+   "answer": "p"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Factorise the following by first finding the highest common factor. Check your answers by expanding them.",
+   "type": "expression",
+   "prompt": "$4x + 8$",
+   "answer": "4(x+2)",
+   "form": "factorised",
+   "hint": "Type the HCF times a bracket, for example 3(2x + 5)."
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Factorise the following by first finding the highest common factor. Check your answers by expanding them.",
+   "type": "expression",
+   "prompt": "$6v + 42$",
+   "answer": "6(v+7)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Factorise the following by first finding the highest common factor. Check your answers by expanding them.",
+   "type": "expression",
+   "prompt": "$14x + 35$",
+   "answer": "7(2x+5)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Factorise the following by first finding the highest common factor. Check your answers by expanding them.",
+   "type": "expression",
+   "prompt": "$12z + 30$",
+   "answer": "6(2z+5)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "Factorise the following by first finding the highest common factor. Check your answers by expanding them.",
+   "type": "expression",
+   "prompt": "$36 + 9w$",
+   "answer": "9(4+w)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "Factorise the following by first finding the highest common factor. Check your answers by expanding them.",
+   "type": "expression",
+   "prompt": "$7j - 28$",
+   "answer": "7(j-4)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3g",
+   "label": "3g",
+   "section": "Fluency",
+   "stem": "Factorise the following by first finding the highest common factor. Check your answers by expanding them.",
+   "type": "expression",
+   "prompt": "$10b - 25$",
+   "answer": "5(2b-5)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3h",
+   "label": "3h",
+   "section": "Fluency",
+   "stem": "Factorise the following by first finding the highest common factor. Check your answers by expanding them.",
+   "type": "expression",
+   "prompt": "$18 - 24f$",
+   "answer": "6(3-4f)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3i",
+   "label": "3i",
+   "section": "Fluency",
+   "stem": "Factorise the following by first finding the highest common factor. Check your answers by expanding them.",
+   "type": "expression",
+   "prompt": "$8d - 40$",
+   "answer": "8(d-5)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "Factorise the following expressions.",
+   "type": "expression",
+   "prompt": "$14cn + 21n$",
+   "answer": "7n(2c+3)",
+   "form": "factorised",
+   "hint": "The HCF can include a letter, for example 4a(2b + 3)."
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "Factorise the following expressions.",
+   "type": "expression",
+   "prompt": "$18y + 6ry$",
+   "answer": "6y(3+r)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "Factorise the following expressions.",
+   "type": "expression",
+   "prompt": "$12jn + 20n$",
+   "answer": "4n(3j+5)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "Factorise the following expressions.",
+   "type": "expression",
+   "prompt": "$30g + 18gj$",
+   "answer": "6g(5+3j)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Fluency",
+   "stem": "Factorise the following expressions.",
+   "type": "expression",
+   "prompt": "$12h + 9z$",
+   "answer": "3(4h+3z)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Fluency",
+   "stem": "Factorise the following expressions.",
+   "type": "expression",
+   "prompt": "$24u - 16n$",
+   "answer": "8(3u-2n)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4g",
+   "label": "4g",
+   "section": "Fluency",
+   "stem": "Factorise the following expressions.",
+   "type": "expression",
+   "prompt": "$35y + 42ay$",
+   "answer": "7y(5+6a)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4h",
+   "label": "4h",
+   "section": "Fluency",
+   "stem": "Factorise the following expressions.",
+   "type": "expression",
+   "prompt": "$15d + 10dz$",
+   "answer": "5d(3+2z)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4i",
+   "label": "4i",
+   "section": "Fluency",
+   "stem": "Factorise the following expressions.",
+   "type": "expression",
+   "prompt": "$14hm - 21mx$",
+   "answer": "7m(2h-3x)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4j",
+   "label": "4j",
+   "section": "Fluency",
+   "stem": "Factorise the following expressions.",
+   "type": "expression",
+   "prompt": "$36u - 27bu$",
+   "answer": "9u(4-3b)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4k",
+   "label": "4k",
+   "section": "Fluency",
+   "stem": "Factorise the following expressions.",
+   "type": "expression",
+   "prompt": "$30u - 45bu$",
+   "answer": "15u(2-3b)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4l",
+   "label": "4l",
+   "section": "Fluency",
+   "stem": "Factorise the following expressions.",
+   "type": "expression",
+   "prompt": "$20p - 12c$",
+   "answer": "4(5p-3c)",
+   "form": "factorised"
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Problem-solving",
+   "stem": "A rectangle has an area of $18x + 12$.",
+   "type": "expression",
+   "prompt": "One side of the rectangle is $6$ long. Write an expression for the length of the other side.",
+   "answer": "3x+2",
+   "form": "simplified",
+   "figure": {
+    "kind": "rect",
+    "cols": [
+     [
+      "?",
+      3
+     ]
+    ],
+    "rows": [
+     [
+      "6",
+      1
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Problem-solving",
+   "stem": "A rectangle has an area of $18x + 12$.",
+   "type": "expression",
+   "prompt": "A different rectangle has the same area, and one of its sides is $3$ long. Write an expression for the length of the other side.",
+   "answer": "6x+4",
+   "form": "simplified",
+   "figure": {
+    "kind": "rect",
+    "cols": [
+     [
+      "?",
+      3
+     ]
+    ],
+    "rows": [
+     [
+      "3",
+      1
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Problem-solving",
+   "stem": "The area of the rectangle shown is $12b + 8$. One side length is unknown.",
+   "type": "numeric",
+   "prompt": "What is the unknown side length?",
+   "answer": "4",
+   "stemFigure": {
+    "kind": "rect",
+    "cols": [
+     [
+      "3b + 2",
+      3
+     ]
+    ],
+    "rows": [
+     [
+      "?",
+      1
+     ]
+    ]
+   }
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Problem-solving",
+   "stem": "The area of the rectangle shown is $12b + 8$. One side length is unknown.",
+   "type": "expression",
+   "prompt": "Write an expression for the perimeter of the rectangle.",
+   "answer": "6b+12"
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Problem-solving",
+   "stem": "The school band lines up for a photo in $8$ rows, with $n$ students in each row. Another $24$ students then join the photo.",
+   "type": "expression",
+   "prompt": "Write an expression for the total number of students in the photo.",
+   "answer": "8n+24"
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Problem-solving",
+   "stem": "The school band lines up for a photo in $8$ rows, with $n$ students in each row. Another $24$ students then join the photo.",
+   "type": "expression",
+   "prompt": "Factorise your expression from part a.",
+   "answer": "8(n+3)",
+   "form": "factorised",
+   "hint": "Type the HCF times a bracket, for example 3(2x + 5)."
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Problem-solving",
+   "stem": "The school band lines up for a photo in $8$ rows, with $n$ students in each row. Another $24$ students then join the photo.",
+   "type": "expression",
+   "prompt": "If the students now stand in $8$ equal rows, how many students are in each row? Write an expression.",
+   "answer": "n+3",
+   "form": "simplified"
+  },
+  {
+   "id": "q7d",
+   "label": "7d",
+   "section": "Problem-solving",
+   "stem": "The school band lines up for a photo in $8$ rows, with $n$ students in each row. Another $24$ students then join the photo.",
+   "type": "expression",
+   "prompt": "If everyone stands in $4$ equal rows, how many students are in each row? Write an expression.",
+   "answer": "2n+6",
+   "form": "simplified"
+  },
+  {
+   "id": "q7e",
+   "label": "7e",
+   "section": "Problem-solving",
+   "stem": "The school band lines up for a photo in $8$ rows, with $n$ students in each row. Another $24$ students then join the photo.",
+   "type": "expression",
+   "prompt": "If everyone stands in $2$ equal rows, how many students are in each row? Write an expression.",
+   "answer": "4n+12",
+   "form": "simplified"
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Reasoning",
+   "type": "expression",
+   "prompt": "Expand and simplify $3(y + 2) + 4(y + 2)$.",
+   "answer": "7y+14",
+   "form": "simplified",
+   "hint": "Type your answer without brackets."
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Reasoning",
+   "type": "expression",
+   "prompt": "Factorise your answer to part a.",
+   "answer": "7(y+2)",
+   "form": "factorised"
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Reasoning",
+   "type": "expression",
+   "prompt": "Expand and simplify $6(y + 2) + 11(y + 2)$.",
+   "answer": "17y+34",
+   "form": "simplified"
+  },
+  {
+   "id": "q8d",
+   "label": "8d",
+   "section": "Reasoning",
+   "type": "expression",
+   "prompt": "Factorise your answer to part c.",
+   "answer": "17(y+2)",
+   "form": "factorised"
+  },
+  {
+   "id": "q9",
+   "label": "9",
+   "section": "Reasoning",
+   "type": "expression",
+   "prompt": "Use the diagram to write $ab + 4a + 5b + 20$ in factorised form.",
+   "answer": "(a+5)(b+4)",
+   "form": "factorised",
+   "figure": {
+    "kind": "rect",
+    "cols": [
+     [
+      "b",
+      3
+     ],
+     [
+      "+4",
+      1
+     ]
+    ],
+    "rows": [
+     [
+      "a",
+      3
+     ],
+     [
+      "+5",
+      1
+     ]
+    ],
+    "cells": [
+     [
+      "ab",
+      "4a"
+     ],
+     [
+      "5b",
+      "20"
+     ]
+    ]
+   },
+   "hint": "Type two brackets next to each other, for example (a + 2)(b + 3)."
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Enrichment",
+   "stem": "Factorise the top and the bottom, then simplify each algebraic fraction as much as possible.",
+   "type": "numeric",
+   "prompt": "$\\frac{3x + 6}{7x + 14}$",
+   "answer": "3/7",
+   "simplest": true
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Enrichment",
+   "stem": "Factorise the top and the bottom, then simplify each algebraic fraction as much as possible.",
+   "type": "numeric",
+   "prompt": "$\\frac{5x - 5}{3x - 3}$",
+   "answer": "5/3",
+   "simplest": true
+  },
+  {
+   "id": "q11c",
+   "label": "11c",
+   "section": "Enrichment",
+   "stem": "Factorise the top and the bottom, then simplify each algebraic fraction as much as possible.",
+   "type": "expression",
+   "prompt": "$\\frac{4ac + 7a}{a + 3ab}$",
+   "answer": "(4c+7)/(3b+1)",
+   "form": "simplified",
+   "hint": "Use brackets for a top or bottom with more than one term, for example (2a+b)/(3c+d)."
+  },
+  {
+   "id": "q11d",
+   "label": "11d",
+   "section": "Enrichment",
+   "stem": "Factorise the top and the bottom, then simplify each algebraic fraction as much as possible.",
+   "type": "expression",
+   "prompt": "$\\frac{6a + 3b}{9c + 12d}$",
+   "answer": "(2a+b)/(3c+4d)",
+   "form": "simplified",
+   "hint": "Use brackets for a top or bottom with more than one term, for example (2a+b)/(3c+d)."
+  },
+  {
+   "id": "q11e",
+   "label": "11e",
+   "section": "Enrichment",
+   "stem": "Factorise the top and the bottom, then simplify each algebraic fraction as much as possible.",
+   "type": "numeric",
+   "prompt": "$\\frac{4q - 12}{5q - 15}$",
+   "answer": "4/5",
+   "simplest": true
+  },
+  {
+   "id": "q11f",
+   "label": "11f",
+   "section": "Enrichment",
+   "stem": "Factorise the top and the bottom, then simplify each algebraic fraction as much as possible.",
+   "type": "numeric",
+   "prompt": "$\\frac{5p + 15pq}{8p + 24pq}$",
+   "answer": "5/8",
+   "simplest": true
+  },
+  {
+   "id": "q11g",
+   "label": "11g",
+   "section": "Enrichment",
+   "stem": "Factorise the top and the bottom, then simplify each algebraic fraction as much as possible.",
+   "type": "numeric",
+   "prompt": "$\\frac{9a - 36}{4a - 16}$",
+   "answer": "9/4",
+   "simplest": true
+  },
+  {
+   "id": "q11h",
+   "label": "11h",
+   "section": "Enrichment",
+   "stem": "Factorise the top and the bottom, then simplify each algebraic fraction as much as possible.",
+   "type": "expression",
+   "prompt": "$\\frac{15p}{10p + 5pq}$",
+   "answer": "3/(q+2)",
+   "form": "simplified",
+   "hint": "Use brackets for a top or bottom with more than one term, for example (2a+b)/(3c+d)."
+  },
+  {
+   "id": "q11i",
+   "label": "11i",
+   "section": "Enrichment",
+   "stem": "Factorise the top and the bottom, then simplify each algebraic fraction as much as possible.",
+   "type": "numeric",
+   "prompt": "$\\frac{60 - 12x}{15 - 3x}$",
+   "answer": "4"
+  }
+ ]
+},
+{
+ "id": "y8-5i",
+ "year": 8,
+ "chapter": "Chapter 5: Algebraic techniques and index laws",
+ "title": "5I Applying algebra",
+ "description": "Write expressions for costs, areas and perimeters, then substitute to answer real-life questions.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Muffins cost $\\$4$ each. Find the total cost, in dollars, for:",
+   "type": "numeric",
+   "prompt": "$6$ muffins",
+   "answer": "24",
+   "units": "$"
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Muffins cost $\\$4$ each. Find the total cost, in dollars, for:",
+   "type": "numeric",
+   "prompt": "$9$ muffins",
+   "answer": "36",
+   "units": "$"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "Muffins cost $\\$4$ each. Find the total cost, in dollars, for:",
+   "type": "expression",
+   "prompt": "$t$ muffins (write an expression using $t$)",
+   "answer": "4t",
+   "units": "$"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Markers cost $\\$6$ each.",
+   "type": "expression",
+   "prompt": "Write an expression for the total cost, in dollars, of $p$ markers.",
+   "answer": "6p"
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Markers cost $\\$6$ each.",
+   "type": "numeric",
+   "prompt": "If $p = 15$, find the total cost.",
+   "answer": "90",
+   "units": "$"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "The shape below is a rectangle made of two parts.",
+   "stemFigure": {
+    "kind": "rect",
+    "cols": [
+     [
+      "y",
+      3
+     ],
+     [
+      "4",
+      1
+     ]
+    ],
+    "rows": [
+     [
+      "5",
+      1
+     ]
+    ]
+   },
+   "type": "expression",
+   "prompt": "Write an expression for the total area of the shape.",
+   "answer": "5(y+4)",
+   "hint": "Use brackets, for example 2(y+3), or expand them."
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "The shape below is a rectangle made of two parts.",
+   "type": "numeric",
+   "prompt": "If $y = 7$, what is the area?",
+   "answer": "55"
+  },
+  {
+   "id": "q4",
+   "label": "4",
+   "section": "Fluency",
+   "type": "choice",
+   "prompt": "A gardener charges a call-out fee of $\\$45$ plus $\\$80$ per hour. Which expression gives the total cost, in dollars, for $h$ hours?",
+   "answer": 1,
+   "options": [
+    "125h",
+    "45 + 80h",
+    "h(45 + 80)",
+    "45h + 80"
+   ]
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Fluency",
+   "stem": "This shape is a regular hexagon with side length $y$.",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 36,
+    "items": [
+     {
+      "poly": [
+       [
+        1.732,
+        1
+       ],
+       [
+        0,
+        2
+       ],
+       [
+        -1.732,
+        1
+       ],
+       [
+        -1.732,
+        -1
+       ],
+       [
+        0,
+        -2
+       ],
+       [
+        1.732,
+        -1
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "tick": [
+       1.732,
+       1,
+       0,
+       2
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       0,
+       2,
+       -1.732,
+       1
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       -1.732,
+       1,
+       -1.732,
+       -1
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       -1.732,
+       -1,
+       0,
+       -2
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       0,
+       -2,
+       1.732,
+       -1
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       1.732,
+       -1,
+       1.732,
+       1
+      ],
+      "n": 1
+     },
+     {
+      "label": "y",
+      "at": [
+       1.26,
+       2.17
+      ]
+     }
+    ]
+   },
+   "type": "expression",
+   "prompt": "Write an expression for its perimeter.",
+   "answer": "6y"
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Fluency",
+   "stem": "This shape is a regular hexagon with side length $y$.",
+   "type": "expression",
+   "prompt": "If each side length were doubled, what would the perimeter be? Write it in terms of $y$.",
+   "answer": "12y"
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Fluency",
+   "stem": "This shape is a regular hexagon with side length $y$.",
+   "type": "expression",
+   "prompt": "If each side length were increased by $2$, write a new expression for the perimeter.",
+   "answer": "6(y+2)"
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Problem-solving",
+   "stem": "A basketball court costs $\\$35$ per hour to hire, plus a $\\$25$ booking fee.",
+   "type": "expression",
+   "prompt": "Write an expression for the cost, in dollars, of hiring the court for $h$ hours.",
+   "answer": "25+35h"
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Problem-solving",
+   "stem": "A basketball court costs $\\$35$ per hour to hire, plus a $\\$25$ booking fee.",
+   "type": "numeric",
+   "prompt": "Hence, find the cost of hiring the court for a $6$-hour tournament.",
+   "answer": "235",
+   "units": "$"
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Problem-solving",
+   "stem": "An electrician says that the cost, in dollars, of hiring him for $h$ hours is $30 + 80h$.",
+   "type": "numeric",
+   "prompt": "What is his call-out fee?",
+   "answer": "30",
+   "units": "$"
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Problem-solving",
+   "stem": "An electrician says that the cost, in dollars, of hiring him for $h$ hours is $30 + 80h$.",
+   "type": "numeric",
+   "prompt": "How much does he charge per hour?",
+   "answer": "80",
+   "units": "$"
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Problem-solving",
+   "stem": "An electrician says that the cost, in dollars, of hiring him for $h$ hours is $30 + 80h$.",
+   "type": "numeric",
+   "prompt": "If you had $\\$230$, what is the longest time you could hire him for?",
+   "answer": "2.5",
+   "units": "hours"
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Problem-solving",
+   "stem": "A locksmith says the cost, in dollars, of hiring her for $h$ hours is $15(4 + 3h)$.",
+   "type": "numeric",
+   "prompt": "How much would it cost to hire her for $1$ hour?",
+   "answer": "105",
+   "units": "$"
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Problem-solving",
+   "stem": "A locksmith says the cost, in dollars, of hiring her for $h$ hours is $15(4 + 3h)$.",
+   "type": "expression",
+   "prompt": "Expand the expression she has given you.",
+   "answer": "60+45h",
+   "form": "expanded"
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Problem-solving",
+   "stem": "A locksmith says the cost, in dollars, of hiring her for $h$ hours is $15(4 + 3h)$.",
+   "type": "numeric",
+   "prompt": "Hence, state her call-out fee.",
+   "answer": "60",
+   "units": "$"
+  },
+  {
+   "id": "q8d",
+   "label": "8d",
+   "section": "Problem-solving",
+   "stem": "A locksmith says the cost, in dollars, of hiring her for $h$ hours is $15(4 + 3h)$.",
+   "type": "numeric",
+   "prompt": "Hence, state the amount she charges per hour.",
+   "answer": "45",
+   "units": "$"
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Problem-solving",
+   "stem": "Three deals are on offer at a show. Deal 1: pay $\\$8$ entry, then rides cost $\\$5$ each. Deal 2: pay $\\$24$ entry, then rides cost $\\$2$ each. Deal 3: pay $\\$45$ entry and all rides are free.",
+   "type": "expression",
+   "prompt": "Write an expression for the total cost, in dollars, of $n$ rides using Deal 1 (include the entry fee).",
+   "answer": "8+5n"
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Problem-solving",
+   "stem": "Three deals are on offer at a show. Deal 1: pay $\\$8$ entry, then rides cost $\\$5$ each. Deal 2: pay $\\$24$ entry, then rides cost $\\$2$ each. Deal 3: pay $\\$45$ entry and all rides are free.",
+   "type": "expression",
+   "prompt": "Write an expression for the total cost, in dollars, of $n$ rides using Deal 2.",
+   "answer": "24+2n"
+  },
+  {
+   "id": "q9c",
+   "label": "9c",
+   "section": "Problem-solving",
+   "stem": "Three deals are on offer at a show. Deal 1: pay $\\$8$ entry, then rides cost $\\$5$ each. Deal 2: pay $\\$24$ entry, then rides cost $\\$2$ each. Deal 3: pay $\\$45$ entry and all rides are free.",
+   "type": "numeric",
+   "prompt": "What is the total cost, in dollars, of $n$ rides using Deal 3?",
+   "answer": "45",
+   "units": "$"
+  },
+  {
+   "id": "q9d",
+   "label": "9d",
+   "section": "Problem-solving",
+   "stem": "Three deals are on offer at a show. Deal 1: pay $\\$8$ entry, then rides cost $\\$5$ each. Deal 2: pay $\\$24$ entry, then rides cost $\\$2$ each. Deal 3: pay $\\$45$ entry and all rides are free.",
+   "type": "choice",
+   "prompt": "Which deal is best for someone going on $4$ rides?",
+   "answer": 0,
+   "options": [
+    "Deal 1",
+    "Deal 2",
+    "Deal 3"
+   ]
+  },
+  {
+   "id": "q9e",
+   "label": "9e",
+   "section": "Problem-solving",
+   "stem": "Three deals are on offer at a show. Deal 1: pay $\\$8$ entry, then rides cost $\\$5$ each. Deal 2: pay $\\$24$ entry, then rides cost $\\$2$ each. Deal 3: pay $\\$45$ entry and all rides are free.",
+   "type": "choice",
+   "prompt": "Which deal is best for someone going on $8$ rides?",
+   "answer": 1,
+   "options": [
+    "Deal 1",
+    "Deal 2",
+    "Deal 3"
+   ]
+  },
+  {
+   "id": "q9f",
+   "label": "9f",
+   "section": "Problem-solving",
+   "stem": "Three deals are on offer at a show. Deal 1: pay $\\$8$ entry, then rides cost $\\$5$ each. Deal 2: pay $\\$24$ entry, then rides cost $\\$2$ each. Deal 3: pay $\\$45$ entry and all rides are free.",
+   "type": "numeric",
+   "prompt": "Fill in the gap: Deal 1 is best for people wanting up to ___ rides.",
+   "answer": "5"
+  },
+  {
+   "id": "q9g",
+   "label": "9g",
+   "section": "Problem-solving",
+   "stem": "Three deals are on offer at a show. Deal 1: pay $\\$8$ entry, then rides cost $\\$5$ each. Deal 2: pay $\\$24$ entry, then rides cost $\\$2$ each. Deal 3: pay $\\$45$ entry and all rides are free.",
+   "type": "ordered",
+   "prompt": "Fill in the gaps: Deal 2 is best for people wanting between ___ and ___ rides (inclusive).",
+   "answer": [
+    "6",
+    "10"
+   ],
+   "hint": "Type the two numbers, smaller first, separated by a comma."
+  },
+  {
+   "id": "q9h",
+   "label": "9h",
+   "section": "Problem-solving",
+   "stem": "Three deals are on offer at a show. Deal 1: pay $\\$8$ entry, then rides cost $\\$5$ each. Deal 2: pay $\\$24$ entry, then rides cost $\\$2$ each. Deal 3: pay $\\$45$ entry and all rides are free.",
+   "type": "numeric",
+   "prompt": "Fill in the gap: Deal 3 is best for people wanting more than ___ rides.",
+   "answer": "10"
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Reasoning",
+   "stem": "In one town, taxis charge $\\$6$ to pick someone up (flagfall) and then $\\$3$ per minute of travel. Three drivers work out the fare in different ways. Mei adds $2$ to the number of minutes and triples the result. Jono triples the number of minutes and then adds $6$. Priya multiplies the number of minutes by $6$, adds $12$ and then halves the result.",
+   "type": "expression",
+   "prompt": "Write an expression for the total cost, in dollars, of travelling $t$ minutes in Mei's taxi, following her method.",
+   "answer": "3(t+2)",
+   "hint": "Use brackets where the method needs them, for example 4(t+1)."
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Reasoning",
+   "stem": "In one town, taxis charge $\\$6$ to pick someone up (flagfall) and then $\\$3$ per minute of travel. Three drivers work out the fare in different ways. Mei adds $2$ to the number of minutes and triples the result. Jono triples the number of minutes and then adds $6$. Priya multiplies the number of minutes by $6$, adds $12$ and then halves the result.",
+   "type": "expression",
+   "prompt": "Write an expression for the cost of $t$ minutes in Jono's taxi.",
+   "answer": "3t+6"
+  },
+  {
+   "id": "q10c",
+   "label": "10c",
+   "section": "Reasoning",
+   "stem": "In one town, taxis charge $\\$6$ to pick someone up (flagfall) and then $\\$3$ per minute of travel. Three drivers work out the fare in different ways. Mei adds $2$ to the number of minutes and triples the result. Jono triples the number of minutes and then adds $6$. Priya multiplies the number of minutes by $6$, adds $12$ and then halves the result.",
+   "type": "expression",
+   "prompt": "Write an expression for the cost of $t$ minutes in Priya's taxi.",
+   "answer": "(6t+12)/2",
+   "hint": "Type a fraction like (2t+4)/2."
+  },
+  {
+   "id": "q10d",
+   "label": "10d",
+   "section": "Reasoning",
+   "stem": "In one town, taxis charge $\\$6$ to pick someone up (flagfall) and then $\\$3$ per minute of travel. Three drivers work out the fare in different ways. Mei adds $2$ to the number of minutes and triples the result. Jono triples the number of minutes and then adds $6$. Priya multiplies the number of minutes by $6$, adds $12$ and then halves the result.",
+   "type": "expression",
+   "prompt": "Expand Mei's expression to show it matches Jono's.",
+   "answer": "3t+6",
+   "form": "expanded"
+  },
+  {
+   "id": "q10e",
+   "label": "10e",
+   "section": "Reasoning",
+   "stem": "In one town, taxis charge $\\$6$ to pick someone up (flagfall) and then $\\$3$ per minute of travel. Three drivers work out the fare in different ways. Mei adds $2$ to the number of minutes and triples the result. Jono triples the number of minutes and then adds $6$. Priya multiplies the number of minutes by $6$, adds $12$ and then halves the result.",
+   "type": "numeric",
+   "prompt": "A fourth driver multiplies the number of minutes by $9$ and then adds $18$. He should then divide his result by what number to get the correct fare?",
+   "answer": "3"
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Reasoning",
+   "stem": "Lena draws a rectangle with unknown side lengths. She notes that its area is $(a - 2)(b - 5)$.",
+   "stemFigure": {
+    "kind": "rect",
+    "cols": [
+     [
+      "b - 5",
+      1
+     ]
+    ],
+    "rows": [
+     [
+      "a - 2",
+      1
+     ]
+    ]
+   },
+   "type": "numeric",
+   "prompt": "If $a = 7$ and $b = 8$, what is the area?",
+   "answer": "15"
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Reasoning",
+   "stem": "Lena draws a rectangle with unknown side lengths. She notes that its area is $(a - 2)(b - 5)$.",
+   "type": "numeric",
+   "prompt": "What is the value of $(a - 2)(b - 5)$ if $a = 1$ and $b = 2$?",
+   "answer": "3"
+  },
+  {
+   "id": "q11c",
+   "label": "11c",
+   "section": "Reasoning",
+   "stem": "Lena draws a rectangle with unknown side lengths. She notes that its area is $(a - 2)(b - 5)$.",
+   "type": "numeric",
+   "prompt": "Lena says this means that when $a = 1$ and $b = 2$ the rectangle has an area of $3$. Check her claim: work out the perimeter $2(a - 2) + 2(b - 5)$ when $a = 1$ and $b = 2$.",
+   "answer": "-8"
+  },
+  {
+   "id": "q12a",
+   "label": "12a",
+   "section": "Reasoning",
+   "stem": "Whenever Omar hires a gardener, he pays a call-out fee of $\\$C$ and an hourly rate of $\\$R$ per hour.",
+   "type": "expression",
+   "prompt": "Write an expression for the cost, in dollars, of hiring a gardener for one hour.",
+   "answer": "C+R"
+  },
+  {
+   "id": "q12b",
+   "label": "12b",
+   "section": "Reasoning",
+   "stem": "Whenever Omar hires a gardener, he pays a call-out fee of $\\$C$ and an hourly rate of $\\$R$ per hour.",
+   "type": "expression",
+   "prompt": "Write an expression for the cost, in dollars, of hiring a gardener for three hours.",
+   "answer": "C+3R"
+  },
+  {
+   "id": "q12c",
+   "label": "12c",
+   "section": "Reasoning",
+   "stem": "Whenever Omar hires a gardener, he pays a call-out fee of $\\$C$ and an hourly rate of $\\$R$ per hour.",
+   "type": "expression",
+   "prompt": "Write an expression for the cost, in dollars, of hiring a gardener for $15$ minutes.",
+   "answer": "C+R/4",
+   "hint": "Type a fraction like R/2."
+  },
+  {
+   "id": "q12d",
+   "label": "12d",
+   "section": "Reasoning",
+   "stem": "Whenever Omar hires a gardener, he pays a call-out fee of $\\$C$ and an hourly rate of $\\$R$ per hour.",
+   "type": "expression",
+   "prompt": "Write an expression for the cost, in dollars, of hiring a gardener for $t$ hours.",
+   "answer": "C+Rt"
+  },
+  {
+   "id": "q13",
+   "label": "13",
+   "section": "Enrichment",
+   "type": "ordered",
+   "prompt": "A theme park offers six deals to its regular visitors, shown in the table. There are $100$ people in the queue. The first person will go on $1$ ride, the second on $2$ rides, and so on, up to the $100$th person who will go on $100$ rides. Each person picks the cheapest deal for them. How many of each deal will be sold? Give the numbers for deals A to F in order.",
+   "figure": {
+    "kind": "table",
+    "rows": [
+     [
+      "Deal",
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+     ],
+     [
+      "Entry cost ($)",
+      "92",
+      "55",
+      "34",
+      "19",
+      "8",
+      "0"
+     ],
+     [
+      "Cost per ride ($)",
+      "0",
+      "3",
+      "5",
+      "7",
+      "9",
+      "12"
+     ]
+    ]
+   },
+   "answer": [
+    "88",
+    "2",
+    "3",
+    "2",
+    "3",
+    "2"
+   ],
+   "hint": "Type six numbers separated by commas, for deal A first."
+  }
+ ]
+},
+{
+ "id": "y8-5j",
+ "year": 8,
+ "chapter": "Chapter 5: Algebraic techniques and index laws",
+ "title": "5J Index laws for multiplication and division",
+ "description": "Use the index laws to multiply and divide powers with the same base, including terms with numbers and several letters.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Simplify the following using the index law for multiplication. Give your answer in index form.",
+   "type": "powers",
+   "prompt": "$6^{2} \\times 6^{4}$",
+   "answer": "6^6",
+   "index": true,
+   "hint": "Type powers with ^, for example 5^9 or a^4b^2."
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Simplify the following using the index law for multiplication. Give your answer in index form.",
+   "type": "powers",
+   "prompt": "$7^{3} \\times 7^{3}$",
+   "answer": "7^6",
+   "index": true
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "Simplify the following using the index law for multiplication. Give your answer in index form.",
+   "type": "powers",
+   "prompt": "$2^{4} \\times 2^{5}$",
+   "answer": "2^9",
+   "index": true
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "Simplify the following using the index law for multiplication. Give your answer in index form.",
+   "type": "powers",
+   "prompt": "$10^{4} \\times 10^{6}$",
+   "answer": "10^10",
+   "index": true
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Simplify the following, giving your answers in index form.",
+   "type": "powers",
+   "prompt": "$5^{4} \\times 5^{6}$",
+   "answer": "5^10",
+   "index": true,
+   "hint": "Type powers with ^, for example 5^9 or a^4b^2."
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Simplify the following, giving your answers in index form.",
+   "type": "powers",
+   "prompt": "$2^{9} \\times 2^{3}$",
+   "answer": "2^12",
+   "index": true
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Simplify the following, giving your answers in index form.",
+   "type": "powers",
+   "prompt": "$3^{6} \\times 3^{2} \\times 3^{5}$",
+   "answer": "3^13",
+   "index": true
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Simplify the following, giving your answers in index form.",
+   "type": "powers",
+   "prompt": "$8^{3} \\times 8 \\times 8^{4}$",
+   "answer": "8^8",
+   "index": true
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Simplify the following using the index law for multiplication.",
+   "type": "powers",
+   "prompt": "$p^{5} \\times p^{2}$",
+   "answer": "p^7",
+   "index": true,
+   "hint": "Type powers with ^, for example 5^9 or a^4b^2."
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Simplify the following using the index law for multiplication.",
+   "type": "powers",
+   "prompt": "$h^{3} \\times h^{6}$",
+   "answer": "h^9",
+   "index": true
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Simplify the following using the index law for multiplication.",
+   "type": "powers",
+   "prompt": "$w^{9} \\times w^{4}$",
+   "answer": "w^13",
+   "index": true
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Simplify the following using the index law for multiplication.",
+   "type": "powers",
+   "prompt": "$s^{8} \\times s^{3}$",
+   "answer": "s^11",
+   "index": true
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "Simplify the following using the index law for multiplication.",
+   "type": "powers",
+   "prompt": "$d^{3} \\times d^{5} \\times d^{2}$",
+   "answer": "d^10",
+   "index": true
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "Simplify the following using the index law for multiplication.",
+   "type": "powers",
+   "prompt": "$b^{2} \\times b^{5} \\times b^{4}$",
+   "answer": "b^11",
+   "index": true
+  },
+  {
+   "id": "q3g",
+   "label": "3g",
+   "section": "Fluency",
+   "stem": "Simplify the following using the index law for multiplication.",
+   "type": "powers",
+   "prompt": "$t^{3} \\times t^{4} \\times t^{6}$",
+   "answer": "t^13",
+   "index": true
+  },
+  {
+   "id": "q3h",
+   "label": "3h",
+   "section": "Fluency",
+   "stem": "Simplify the following using the index law for multiplication.",
+   "type": "powers",
+   "prompt": "$y^{11} \\times y^{13} \\times y^{15}$",
+   "answer": "y^39",
+   "index": true
+  },
+  {
+   "id": "q3i",
+   "label": "3i",
+   "section": "Fluency",
+   "stem": "Simplify the following using the index law for multiplication.",
+   "type": "powers",
+   "prompt": "$c \\times c^{4}$",
+   "answer": "c^5",
+   "index": true
+  },
+  {
+   "id": "q3j",
+   "label": "3j",
+   "section": "Fluency",
+   "stem": "Simplify the following using the index law for multiplication.",
+   "type": "powers",
+   "prompt": "$g^{3} \\times g$",
+   "answer": "g^4",
+   "index": true
+  },
+  {
+   "id": "q3k",
+   "label": "3k",
+   "section": "Fluency",
+   "stem": "Simplify the following using the index law for multiplication.",
+   "type": "powers",
+   "prompt": "$n^{5} \\times n^{2} \\times n$",
+   "answer": "n^8",
+   "index": true
+  },
+  {
+   "id": "q3l",
+   "label": "3l",
+   "section": "Fluency",
+   "stem": "Simplify the following using the index law for multiplication.",
+   "type": "powers",
+   "prompt": "$u^{3} \\times u \\times u$",
+   "answer": "u^5",
+   "index": true
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "Simplify the following using the index law for multiplication.",
+   "type": "expression",
+   "prompt": "$3p^{2} \\times 6p^{4}$",
+   "answer": "18p^6",
+   "form": "simplified",
+   "hint": "Type powers with ^, for example 12a^5b^2."
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "Simplify the following using the index law for multiplication.",
+   "type": "expression",
+   "prompt": "$4h^{5} \\times 2h^{3}$",
+   "answer": "8h^8",
+   "form": "simplified"
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "Simplify the following using the index law for multiplication.",
+   "type": "expression",
+   "prompt": "$5w^{3} \\times 6w^{11}$",
+   "answer": "30w^14",
+   "form": "simplified"
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "Simplify the following using the index law for multiplication.",
+   "type": "expression",
+   "prompt": "$3k^{4} \\times 8k^{9}$",
+   "answer": "24k^13",
+   "form": "simplified"
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Fluency",
+   "stem": "Simplify the following using the index law for multiplication.",
+   "type": "powers",
+   "prompt": "$a^{3} \\times b^{2} \\times a^{5} \\times b^{4}$",
+   "answer": "a^8b^6",
+   "index": true
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Fluency",
+   "stem": "Simplify the following using the index law for multiplication.",
+   "type": "powers",
+   "prompt": "$c^{3}d \\times d^{4}$",
+   "answer": "c^3d^5",
+   "index": true
+  },
+  {
+   "id": "q4g",
+   "label": "4g",
+   "section": "Fluency",
+   "stem": "Simplify the following using the index law for multiplication.",
+   "type": "expression",
+   "prompt": "$4m^{2}n^{3} \\times n^{6}$",
+   "answer": "4m^2n^9",
+   "form": "simplified"
+  },
+  {
+   "id": "q4h",
+   "label": "4h",
+   "section": "Fluency",
+   "stem": "Simplify the following using the index law for multiplication.",
+   "type": "expression",
+   "prompt": "$3p^{9}q^{3} \\times p^{4}q^{2}$",
+   "answer": "3p^13q^5",
+   "form": "simplified"
+  },
+  {
+   "id": "q4i",
+   "label": "4i",
+   "section": "Fluency",
+   "stem": "Simplify the following using the index law for multiplication.",
+   "type": "expression",
+   "prompt": "$12k \\times 5k^{2}$",
+   "answer": "60k^3",
+   "form": "simplified"
+  },
+  {
+   "id": "q4j",
+   "label": "4j",
+   "section": "Fluency",
+   "stem": "Simplify the following using the index law for multiplication.",
+   "type": "expression",
+   "prompt": "$2t \\times 4t \\times t^{5}$",
+   "answer": "8t^7",
+   "form": "simplified"
+  },
+  {
+   "id": "q4k",
+   "label": "4k",
+   "section": "Fluency",
+   "stem": "Simplify the following using the index law for multiplication.",
+   "type": "expression",
+   "prompt": "$3a^{3}b^{2} \\times 5a^{2}b^{4}$",
+   "answer": "15a^5b^6",
+   "form": "simplified"
+  },
+  {
+   "id": "q4l",
+   "label": "4l",
+   "section": "Fluency",
+   "stem": "Simplify the following using the index law for multiplication.",
+   "type": "expression",
+   "prompt": "$6g^{3}h^{2} \\times 3g^{2}h$",
+   "answer": "18g^5h^3",
+   "form": "simplified"
+  },
+  {
+   "id": "q4m",
+   "label": "4m",
+   "section": "Fluency",
+   "stem": "Simplify the following using the index law for multiplication.",
+   "type": "expression",
+   "prompt": "$-5u^{3}v^{2} \\times 3u^{4}v$",
+   "answer": "-15u^7v^3",
+   "form": "simplified"
+  },
+  {
+   "id": "q4n",
+   "label": "4n",
+   "section": "Fluency",
+   "stem": "Simplify the following using the index law for multiplication.",
+   "type": "expression",
+   "prompt": "$-3ab^{3} \\times a^{5}b$",
+   "answer": "-3a^6b^4",
+   "form": "simplified"
+  },
+  {
+   "id": "q4o",
+   "label": "4o",
+   "section": "Fluency",
+   "stem": "Simplify the following using the index law for multiplication.",
+   "type": "expression",
+   "prompt": "$3c^{5}d \\times (-6c^{3})$",
+   "answer": "-18c^8d",
+   "form": "simplified"
+  },
+  {
+   "id": "q4p",
+   "label": "4p",
+   "section": "Fluency",
+   "stem": "Simplify the following using the index law for multiplication.",
+   "type": "expression",
+   "prompt": "$9w \\times 11w^{2}z^{4}$",
+   "answer": "99w^3z^4",
+   "form": "simplified"
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Fluency",
+   "stem": "Simplify the following, giving your answers in index form.",
+   "type": "powers",
+   "prompt": "$\\frac{4^{9}}{4^{3}}$",
+   "answer": "4^6",
+   "index": true,
+   "hint": "Type powers with ^, for example 5^9 or a^4b^2."
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Fluency",
+   "stem": "Simplify the following, giving your answers in index form.",
+   "type": "powers",
+   "prompt": "$\\frac{10^{12}}{10^{5}}$",
+   "answer": "10^7",
+   "index": true
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Fluency",
+   "stem": "Simplify the following, giving your answers in index form.",
+   "type": "powers",
+   "prompt": "$\\frac{3^{11}}{3^{4}}$",
+   "answer": "3^7",
+   "index": true
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Fluency",
+   "stem": "Simplify the following, giving your answers in index form.",
+   "type": "powers",
+   "prompt": "$\\frac{7^{50}}{7^{47}}$",
+   "answer": "7^3",
+   "index": true
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Fluency",
+   "stem": "Simplify the following using the index law for division.",
+   "type": "powers",
+   "prompt": "$\\frac{p^{7}}{p^{3}}$",
+   "answer": "p^4",
+   "index": true,
+   "hint": "Type powers with ^, for example 5^9 or a^4b^2."
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Fluency",
+   "stem": "Simplify the following using the index law for division.",
+   "type": "powers",
+   "prompt": "$\\frac{h^{8}}{h^{5}}$",
+   "answer": "h^3",
+   "index": true
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Fluency",
+   "stem": "Simplify the following using the index law for division.",
+   "type": "powers",
+   "prompt": "$\\frac{w^{12}}{w^{4}}$",
+   "answer": "w^8",
+   "index": true
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Fluency",
+   "stem": "Simplify the following using the index law for division.",
+   "type": "powers",
+   "prompt": "$\\frac{t^{9}}{t}$",
+   "answer": "t^8",
+   "index": true
+  },
+  {
+   "id": "q6e",
+   "label": "6e",
+   "section": "Fluency",
+   "stem": "Simplify the following using the index law for division.",
+   "type": "powers",
+   "prompt": "$\\frac{m^{6}n^{9}}{m^{2}n^{4}}$",
+   "answer": "m^4n^5",
+   "index": true
+  },
+  {
+   "id": "q6f",
+   "label": "6f",
+   "section": "Fluency",
+   "stem": "Simplify the following using the index law for division.",
+   "type": "powers",
+   "prompt": "$\\frac{a^{9}b^{7}}{a^{4}b^{3}}$",
+   "answer": "a^5b^4",
+   "index": true
+  },
+  {
+   "id": "q6g",
+   "label": "6g",
+   "section": "Fluency",
+   "stem": "Simplify the following using the index law for division.",
+   "type": "powers",
+   "prompt": "$\\frac{r^{5}s^{9}t^{6}}{r^{3}s^{2}t^{4}}$",
+   "answer": "r^2s^7t^2",
+   "index": true
+  },
+  {
+   "id": "q6h",
+   "label": "6h",
+   "section": "Fluency",
+   "stem": "Simplify the following using the index law for division.",
+   "type": "powers",
+   "prompt": "$\\frac{r^{5}s^{8}t^{4}}{r^{3}s^{5}}$",
+   "answer": "r^2s^3t^4",
+   "index": true
+  },
+  {
+   "id": "q6i",
+   "label": "6i",
+   "section": "Fluency",
+   "stem": "Simplify the following using the index law for division.",
+   "type": "expression",
+   "prompt": "$\\frac{6k^{9}}{k^{5}}$",
+   "answer": "6k^4",
+   "form": "simplified"
+  },
+  {
+   "id": "q6j",
+   "label": "6j",
+   "section": "Fluency",
+   "stem": "Simplify the following using the index law for division.",
+   "type": "expression",
+   "prompt": "$\\frac{18m^{15}}{6m^{4}}$",
+   "answer": "3m^11",
+   "form": "simplified"
+  },
+  {
+   "id": "q6k",
+   "label": "6k",
+   "section": "Fluency",
+   "stem": "Simplify the following using the index law for division.",
+   "type": "expression",
+   "prompt": "$\\frac{24p^{16}q^{10}}{36p^{3}q^{4}}$",
+   "answer": "2p^13q^6/3",
+   "accept": [
+    "(2p^13q^6)/3"
+   ],
+   "form": "simplified",
+   "hint": "Type a fraction like 2a^5/3."
+  },
+  {
+   "id": "q6l",
+   "label": "6l",
+   "section": "Fluency",
+   "stem": "Simplify the following using the index law for division.",
+   "type": "expression",
+   "prompt": "$\\frac{b^{4}c}{3bc}$",
+   "answer": "b^3/3",
+   "accept": [
+    "(b^3)/3"
+   ],
+   "form": "simplified"
+  },
+  {
+   "id": "q7",
+   "label": "7",
+   "section": "Problem-solving",
+   "type": "numeric",
+   "prompt": "Given that $3^{10} = 59049$ and $3^{6} = 729$, find the number that makes this equation true: $729 \\times \\, ? = 59049$",
+   "answer": "81"
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Problem-solving",
+   "stem": "Maya types $3^{5000} \\div 3^{4997}$ into her calculator and gets an error message, because $3^{5000}$ is far too large for it.",
+   "type": "numeric",
+   "prompt": "Use the index law for division to work out $3^{5000} \\div 3^{4997}$. Give your final answer as a number.",
+   "answer": "27"
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Problem-solving",
+   "stem": "Maya types $3^{5000} \\div 3^{4997}$ into her calculator and gets an error message, because $3^{5000}$ is far too large for it.",
+   "type": "numeric",
+   "prompt": "Find the value of $(4^{1500} \\times 4^{1502}) \\div 4^{3000}$.",
+   "answer": "16"
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Problem-solving",
+   "stem": "Maya types $3^{5000} \\div 3^{4997}$ into her calculator and gets an error message, because $3^{5000}$ is far too large for it.",
+   "type": "numeric",
+   "prompt": "What is the value of $\\frac{2^{600} \\times 2^{400}}{2^{995}}$?",
+   "answer": "32"
+  },
+  {
+   "id": "q9",
+   "label": "9",
+   "section": "Problem-solving",
+   "type": "ordered",
+   "prompt": "Find two different whole numbers $a$ and $b$, with $a < b$, so that $a^b = b^a$.",
+   "answer": [
+    "2",
+    "4"
+   ],
+   "hint": "Type a, then b, separated by a comma."
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Reasoning",
+   "stem": "A student tries to simplify $2^{3} \\times 2^{4}$ and gets the answer $4^{7}$.",
+   "type": "choice",
+   "prompt": "Is $4^{7}$ equal to $2^{3} \\times 2^{4}$? (Work out both values.)",
+   "answer": 1,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Reasoning",
+   "stem": "A student tries to simplify $2^{3} \\times 2^{4}$ and gets the answer $4^{7}$.",
+   "type": "powers",
+   "prompt": "Simplify $2^{3} \\times 2^{4}$ correctly, in index form.",
+   "answer": "2^7",
+   "index": true,
+   "hint": "Type powers with ^, for example 5^9 or a^4b^2."
+  },
+  {
+   "id": "q10c",
+   "label": "10c",
+   "section": "Reasoning",
+   "stem": "A student tries to simplify $2^{3} \\times 2^{4}$ and gets the answer $4^{7}$.",
+   "type": "choice",
+   "prompt": "What mistake did the student make?",
+   "answer": 1,
+   "options": [
+    "They added the indices instead of multiplying them",
+    "They multiplied the bases as well as adding the indices",
+    "They should have subtracted the indices"
+   ]
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Reasoning",
+   "stem": "Recall that $(-4)^2$ means $-4 \\times (-4)$, so $(-4)^2 = 16$.",
+   "type": "numeric",
+   "prompt": "Evaluate $(-3)^{2}$.",
+   "answer": "9"
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Reasoning",
+   "stem": "Recall that $(-4)^2$ means $-4 \\times (-4)$, so $(-4)^2 = 16$.",
+   "type": "numeric",
+   "prompt": "Evaluate $(-3)^{3}$.",
+   "answer": "-27"
+  },
+  {
+   "id": "q11c",
+   "label": "11c",
+   "section": "Reasoning",
+   "stem": "Recall that $(-4)^2$ means $-4 \\times (-4)$, so $(-4)^2 = 16$.",
+   "type": "numeric",
+   "prompt": "Evaluate $(-3)^{4}$.",
+   "answer": "81"
+  },
+  {
+   "id": "q11d",
+   "label": "11d",
+   "section": "Reasoning",
+   "stem": "Recall that $(-4)^2$ means $-4 \\times (-4)$, so $(-4)^2 = 16$.",
+   "type": "numeric",
+   "prompt": "Evaluate $(-3)^{5}$.",
+   "answer": "-243"
+  },
+  {
+   "id": "q11e",
+   "label": "11e",
+   "section": "Reasoning",
+   "stem": "Recall that $(-4)^2$ means $-4 \\times (-4)$, so $(-4)^2 = 16$.",
+   "type": "choice",
+   "prompt": "Complete the sentence: a negative number to an even power is ___.",
+   "answer": 0,
+   "options": [
+    "positive",
+    "negative"
+   ]
+  },
+  {
+   "id": "q11f",
+   "label": "11f",
+   "section": "Reasoning",
+   "stem": "Recall that $(-4)^2$ means $-4 \\times (-4)$, so $(-4)^2 = 16$.",
+   "type": "choice",
+   "prompt": "Complete the sentence: a negative number to an odd power is ___.",
+   "answer": 1,
+   "options": [
+    "positive",
+    "negative"
+   ]
+  },
+  {
+   "id": "q11g",
+   "label": "11g",
+   "section": "Reasoning",
+   "stem": "Recall that $(-4)^2$ means $-4 \\times (-4)$, so $(-4)^2 = 16$.",
+   "type": "numeric",
+   "prompt": "Given that $3^{8} = 6561$, find the value of $(-3)^{8}$.",
+   "answer": "6561"
+  },
+  {
+   "id": "q12a",
+   "label": "12a",
+   "section": "Reasoning",
+   "stem": "This question looks at $\\frac{7^{4}}{7^{4}}$.",
+   "type": "powers",
+   "prompt": "Use the index law for division to write $\\frac{7^{4}}{7^{4}}$ in index form.",
+   "answer": "7^0",
+   "hint": "Type powers with ^, for example 5^9 or a^4b^2."
+  },
+  {
+   "id": "q12b",
+   "label": "12b",
+   "section": "Reasoning",
+   "stem": "This question looks at $\\frac{7^{4}}{7^{4}}$.",
+   "type": "numeric",
+   "prompt": "Given that $7^{4} = 2401$, what is the numerical value of $\\frac{7^{4}}{7^{4}}$?",
+   "answer": "1"
+  },
+  {
+   "id": "q12c",
+   "label": "12c",
+   "section": "Reasoning",
+   "stem": "This question looks at $\\frac{7^{4}}{7^{4}}$.",
+   "type": "numeric",
+   "prompt": "According to this, what is the value of $7^{0}$?",
+   "answer": "1"
+  },
+  {
+   "id": "q12d",
+   "label": "12d",
+   "section": "Reasoning",
+   "stem": "This question looks at $\\frac{7^{4}}{7^{4}}$.",
+   "type": "numeric",
+   "prompt": "What is the value of $25^{0}$?",
+   "answer": "1"
+  },
+  {
+   "id": "q13a",
+   "label": "13a",
+   "section": "Reasoning",
+   "stem": "Use the index law for division.",
+   "type": "numeric",
+   "prompt": "If $\\frac{5^{a}}{5^{b}} = 25$, what is the value of $a - b$?",
+   "answer": "2"
+  },
+  {
+   "id": "q13b",
+   "label": "13b",
+   "section": "Reasoning",
+   "stem": "Use the index law for division.",
+   "type": "numeric",
+   "prompt": "Given that $\\frac{3^{a}}{3^{b}} = 27$, find the value of $\\frac{6^{a}}{6^{b}}$.",
+   "answer": "216"
+  },
+  {
+   "id": "q14a",
+   "label": "14a",
+   "section": "Enrichment",
+   "stem": "Write each number in scientific notation by finding the missing power of $10$.",
+   "type": "numeric",
+   "prompt": "$40\\,000 = 4 \\times 10^{?}$",
+   "answer": "4",
+   "hint": "Type just the power. It can be negative, like -2."
+  },
+  {
+   "id": "q14b",
+   "label": "14b",
+   "section": "Enrichment",
+   "stem": "Write each number in scientific notation by finding the missing power of $10$.",
+   "type": "numeric",
+   "prompt": "$6\\,000\\,000\\,000 = 6 \\times 10^{?}$",
+   "answer": "9"
+  },
+  {
+   "id": "q14c",
+   "label": "14c",
+   "section": "Enrichment",
+   "stem": "Write each number in scientific notation by finding the missing power of $10$.",
+   "type": "numeric",
+   "prompt": "$0.007 = 7 \\times 10^{?}$",
+   "answer": "-3"
+  },
+  {
+   "id": "q14d",
+   "label": "14d",
+   "section": "Enrichment",
+   "stem": "Write each number in scientific notation by finding the missing power of $10$.",
+   "type": "numeric",
+   "prompt": "$0.0000009 = 9 \\times 10^{?}$",
+   "answer": "-7"
+  },
+  {
+   "id": "q14e",
+   "label": "14e",
+   "section": "Enrichment",
+   "stem": "These times are written in scientific notation. Rewrite each one as an ordinary number.",
+   "type": "numeric",
+   "prompt": "$8 \\times 10^{5}$ seconds (a little over $9$ days)",
+   "answer": "800000"
+  },
+  {
+   "id": "q14f",
+   "label": "14f",
+   "section": "Enrichment",
+   "stem": "These times are written in scientific notation. Rewrite each one as an ordinary number.",
+   "type": "numeric",
+   "prompt": "$6 \\times 10^{7}$ seconds (just under $2$ years)",
+   "answer": "60000000"
+  },
+  {
+   "id": "q14g",
+   "label": "14g",
+   "section": "Enrichment",
+   "stem": "These times are written in scientific notation. Rewrite each one as an ordinary number.",
+   "type": "numeric",
+   "prompt": "$4 \\times 10^{-3}$ seconds",
+   "answer": "0.004"
+  },
+  {
+   "id": "q14h",
+   "label": "14h",
+   "section": "Enrichment",
+   "stem": "These times are written in scientific notation. Rewrite each one as an ordinary number.",
+   "type": "numeric",
+   "prompt": "$9 \\times 10^{-6}$ seconds",
+   "answer": "0.000009"
+  },
+  {
+   "id": "q14i",
+   "label": "14i",
+   "section": "Enrichment",
+   "stem": "Rewrite each time using the unit given.",
+   "type": "numeric",
+   "prompt": "$9 \\times 10^{4}$ seconds (in hours)",
+   "answer": "25",
+   "units": "hours"
+  },
+  {
+   "id": "q14j",
+   "label": "14j",
+   "section": "Enrichment",
+   "stem": "Rewrite each time using the unit given.",
+   "type": "numeric",
+   "prompt": "$6 \\times 10^{7}$ milliseconds (in minutes)",
+   "answer": "1000",
+   "units": "minutes"
+  },
+  {
+   "id": "q14k",
+   "label": "14k",
+   "section": "Enrichment",
+   "stem": "Rewrite each time using the unit given.",
+   "type": "numeric",
+   "prompt": "$5 \\times 10^{-3}$ hours (in seconds)",
+   "answer": "18",
+   "units": "seconds"
+  },
+  {
+   "id": "q14l",
+   "label": "14l",
+   "section": "Enrichment",
+   "stem": "Rewrite each time using the unit given.",
+   "type": "numeric",
+   "prompt": "$2 \\times 10^{-6}$ days (in milliseconds)",
+   "answer": "172.8",
+   "units": "milliseconds"
+  }
+ ]
+},
+{
+ "id": "y8-5k",
+ "year": 8,
+ "chapter": "Chapter 5: Algebraic techniques and index laws",
+ "title": "5K The zero index and power of a power",
+ "description": "Use the zero index and the power of a power law, and combine all the index laws to simplify expressions.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Simplify the following expressions using the index laws.",
+   "type": "numeric",
+   "prompt": "$8^{0}$",
+   "answer": "1"
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Simplify the following expressions using the index laws.",
+   "type": "numeric",
+   "prompt": "$6^{0} + 9^{0}$",
+   "answer": "2"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "Simplify the following expressions using the index laws.",
+   "type": "numeric",
+   "prompt": "$15^{0} - 4^{0}$",
+   "answer": "0"
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "Simplify the following expressions using the index laws.",
+   "type": "numeric",
+   "prompt": "$7 \\times 2^{0}$",
+   "answer": "7"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Simplify the following.",
+   "type": "numeric",
+   "prompt": "$9^{0}$",
+   "answer": "1"
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Simplify the following.",
+   "type": "numeric",
+   "prompt": "$4^{0} \\times 8^{0}$",
+   "answer": "1"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Simplify the following.",
+   "type": "numeric",
+   "prompt": "$7k^{0}$",
+   "answer": "7"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Simplify the following.",
+   "type": "expression",
+   "prompt": "$15a^{0}b^{3}c^{0}$",
+   "answer": "15b^3",
+   "form": "simplified",
+   "hint": "Type powers with ^, for example 5a^2."
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Simplify the following.",
+   "type": "numeric",
+   "prompt": "$(5m^{3})^{0}$",
+   "answer": "1"
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "Simplify the following.",
+   "type": "numeric",
+   "prompt": "$9(p + 2q)^{0}$",
+   "answer": "9"
+  },
+  {
+   "id": "q2g",
+   "label": "2g",
+   "section": "Fluency",
+   "stem": "Simplify the following.",
+   "type": "expression",
+   "prompt": "$3(a^{0}b)^{2}$",
+   "answer": "3b^2",
+   "form": "simplified",
+   "hint": "Type powers with ^, for example 5a^2."
+  },
+  {
+   "id": "q2h",
+   "label": "2h",
+   "section": "Fluency",
+   "stem": "Simplify the following.",
+   "type": "numeric",
+   "prompt": "$6m^{0}(6m)^{0}$",
+   "answer": "6"
+  },
+  {
+   "id": "q2i",
+   "label": "2i",
+   "section": "Fluency",
+   "stem": "Simplify the following.",
+   "type": "expression",
+   "prompt": "$4(c^{3}d^{4})^{0}c^{5}$",
+   "answer": "4c^5",
+   "form": "simplified",
+   "hint": "Type powers with ^, for example 5a^2."
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Simplify the following, giving your answers in index form.",
+   "type": "powers",
+   "prompt": "$(3^{2})^{5}$",
+   "answer": "3^10",
+   "index": true,
+   "hint": "Type powers with ^, for example 5^9 or a^4b^2."
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Simplify the following, giving your answers in index form.",
+   "type": "powers",
+   "prompt": "$(4^{3})^{6}$",
+   "answer": "4^18",
+   "index": true
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Simplify the following, giving your answers in index form.",
+   "type": "powers",
+   "prompt": "$(7^{5})^{8}$",
+   "answer": "7^40",
+   "index": true
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Simplify the following, giving your answers in index form.",
+   "type": "powers",
+   "prompt": "$(g^{4})^{2}$",
+   "answer": "g^8",
+   "index": true
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "Simplify the following, giving your answers in index form.",
+   "type": "powers",
+   "prompt": "$(n^{7})^{3}$",
+   "answer": "n^21",
+   "index": true
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "Simplify the following, giving your answers in index form.",
+   "type": "powers",
+   "prompt": "$(w^{6})^{9}$",
+   "answer": "w^54",
+   "index": true
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "Simplify the following. Large numerical powers like $6^{5}$ can be left in index form.",
+   "type": "expression",
+   "prompt": "$(2a^{3})^{4}$",
+   "answer": "16a^12",
+   "accept": [
+    "2^4a^12"
+   ],
+   "form": "simplified",
+   "hint": "Type powers with ^, for example 9a^8 or 7^4a^8."
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "Simplify the following. Large numerical powers like $6^{5}$ can be left in index form.",
+   "type": "expression",
+   "prompt": "$(3u^{5})^{3}$",
+   "answer": "27u^15",
+   "accept": [
+    "3^3u^15"
+   ],
+   "form": "simplified"
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "Simplify the following. Large numerical powers like $6^{5}$ can be left in index form.",
+   "type": "expression",
+   "prompt": "$(5m^{4})^{4}$",
+   "answer": "625m^16",
+   "accept": [
+    "5^4m^16"
+   ],
+   "form": "simplified"
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "Simplify the following. Large numerical powers like $6^{5}$ can be left in index form.",
+   "type": "expression",
+   "prompt": "$(11p^{4})^{3}$",
+   "answer": "11^3p^12",
+   "accept": [
+    "1331p^12"
+   ],
+   "form": "simplified"
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Fluency",
+   "stem": "Simplify the following. Large numerical powers like $6^{5}$ can be left in index form.",
+   "type": "expression",
+   "prompt": "$(5k^{3})^{2}$",
+   "answer": "25k^6",
+   "accept": [
+    "5^2k^6"
+   ],
+   "form": "simplified"
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Fluency",
+   "stem": "Simplify the following. Large numerical powers like $6^{5}$ can be left in index form.",
+   "type": "expression",
+   "prompt": "$(6b^{4})^{2}$",
+   "answer": "36b^8",
+   "accept": [
+    "6^2b^8"
+   ],
+   "form": "simplified"
+  },
+  {
+   "id": "q4g",
+   "label": "4g",
+   "section": "Fluency",
+   "stem": "Simplify the following. Large numerical powers like $6^{5}$ can be left in index form.",
+   "type": "expression",
+   "prompt": "$(8h^{5})^{10}$",
+   "answer": "8^10h^50",
+   "accept": [
+    "1073741824h^50"
+   ],
+   "form": "simplified"
+  },
+  {
+   "id": "q4h",
+   "label": "4h",
+   "section": "Fluency",
+   "stem": "Simplify the following. Large numerical powers like $6^{5}$ can be left in index form.",
+   "type": "expression",
+   "prompt": "$(10d^{3})^{4}$",
+   "answer": "10^4d^12",
+   "accept": [
+    "10000d^12"
+   ],
+   "form": "simplified"
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Fluency",
+   "stem": "Simplify the following using the index laws.",
+   "type": "powers",
+   "prompt": "$(p^{4})^{2} \\times (p^{3})^{3}$",
+   "answer": "p^17",
+   "index": true,
+   "hint": "Type powers with ^, for example 5^9 or a^4b^2."
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Fluency",
+   "stem": "Simplify the following using the index laws.",
+   "type": "powers",
+   "prompt": "$(w^{3})^{5} \\times (w^{2})^{4}$",
+   "answer": "w^23",
+   "index": true
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Fluency",
+   "stem": "Simplify the following using the index laws.",
+   "type": "expression",
+   "prompt": "$(3k^{2})^{3} \\times (2k^{4})^{2}$",
+   "answer": "108k^14",
+   "form": "simplified",
+   "hint": "Type powers with ^, for example 12a^5b^2."
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Fluency",
+   "stem": "Simplify the following using the index laws.",
+   "type": "expression",
+   "prompt": "$(n^{2})^{5} \\times (4n^{3})^{2}$",
+   "answer": "16n^16",
+   "accept": [
+    "2^4n^16"
+   ],
+   "form": "simplified"
+  },
+  {
+   "id": "q5e",
+   "label": "5e",
+   "section": "Fluency",
+   "stem": "Simplify the following using the index laws.",
+   "type": "expression",
+   "prompt": "$3(a^{2})^{4} \\times 5(a^{3})^{2}$",
+   "answer": "15a^14",
+   "form": "simplified"
+  },
+  {
+   "id": "q5f",
+   "label": "5f",
+   "section": "Fluency",
+   "stem": "Simplify the following using the index laws.",
+   "type": "expression",
+   "prompt": "$2(t^{3})^{4} \\times (2t^{2})^{3}$",
+   "answer": "16t^18",
+   "accept": [
+    "2^4t^18"
+   ],
+   "form": "simplified"
+  },
+  {
+   "id": "q5g",
+   "label": "5g",
+   "section": "Fluency",
+   "stem": "Simplify the following using the index laws.",
+   "type": "powers",
+   "prompt": "$\\frac{(b^{4})^{3}}{b^{5}}$",
+   "answer": "b^7",
+   "index": true
+  },
+  {
+   "id": "q5h",
+   "label": "5h",
+   "section": "Fluency",
+   "stem": "Simplify the following using the index laws.",
+   "type": "powers",
+   "prompt": "$\\frac{(d^{6})^{3}}{(d^{4})^{2}}$",
+   "answer": "d^10",
+   "index": true
+  },
+  {
+   "id": "q5i",
+   "label": "5i",
+   "section": "Fluency",
+   "stem": "Simplify the following using the index laws.",
+   "type": "expression",
+   "prompt": "$\\frac{(3c^{4})^{3}}{3^{2}c^{5}}$",
+   "answer": "3c^7",
+   "form": "simplified"
+  },
+  {
+   "id": "q5j",
+   "label": "5j",
+   "section": "Fluency",
+   "stem": "Simplify the following using the index laws.",
+   "type": "expression",
+   "prompt": "$\\frac{(3m^{2})^{8}}{(m^{3})^{2}}$",
+   "answer": "3^8m^10",
+   "accept": [
+    "6561m^10"
+   ],
+   "form": "simplified"
+  },
+  {
+   "id": "q5k",
+   "label": "5k",
+   "section": "Fluency",
+   "stem": "Simplify the following using the index laws.",
+   "type": "expression",
+   "prompt": "$\\frac{6h^{18}}{(h^{4})^{3}}$",
+   "answer": "6h^6",
+   "form": "simplified"
+  },
+  {
+   "id": "q5l",
+   "label": "5l",
+   "section": "Fluency",
+   "stem": "Simplify the following using the index laws.",
+   "type": "powers",
+   "prompt": "$\\frac{(q^{3})^{8}}{(q^{5})^{4}}$",
+   "answer": "q^4",
+   "index": true
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Problem-solving",
+   "stem": "Find the missing number that makes each simplification correct.",
+   "type": "numeric",
+   "prompt": "$(5^{4})^{\\square} = 5^{20}$",
+   "answer": "5"
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Problem-solving",
+   "stem": "Find the missing number that makes each simplification correct.",
+   "type": "numeric",
+   "prompt": "$(k^{\\square})^{3} = k^{21}$",
+   "answer": "7"
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Problem-solving",
+   "stem": "Find the missing number that makes each simplification correct.",
+   "type": "numeric",
+   "prompt": "$(m^{3})^{4} \\times m^{\\square} = m^{17}$",
+   "answer": "5"
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Problem-solving",
+   "stem": "Find the missing number that makes each simplification correct.",
+   "type": "numeric",
+   "prompt": "$(n^{2})^{\\square} \\times (n^{4})^{3} = n^{20}$",
+   "answer": "4"
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Problem-solving",
+   "type": "powers",
+   "prompt": "Use the fact that $(a^{3})^{2} = a^{6}$ to simplify $((a^{3})^{2})^{5}$.",
+   "answer": "a^30",
+   "index": true,
+   "hint": "Type powers with ^, for example 5^9 or a^4b^2."
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Problem-solving",
+   "type": "powers",
+   "prompt": "Simplify $((b^{4})^{3})^{2}$.",
+   "answer": "b^24",
+   "index": true
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Problem-solving",
+   "type": "ordered",
+   "prompt": "Put these numbers in ascending order (smallest first). You do not need to work out their values. A: $3^{90}$, B: $(3^{8})^{12}$, C: $((3^{2})^{5})^{8}$, D: $((3^{4})^{3})^{7}$",
+   "answer": [
+    "C",
+    "D",
+    "A",
+    "B"
+   ],
+   "hint": "Type the four letters in order, separated by commas, for example B, A, D, C."
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Problem-solving",
+   "stem": "How many zeros does each number have when it is written out in full?",
+   "type": "numeric",
+   "prompt": "$10^{3}$",
+   "answer": "3"
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Problem-solving",
+   "stem": "How many zeros does each number have when it is written out in full?",
+   "type": "numeric",
+   "prompt": "$10^{7}$",
+   "answer": "7"
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Problem-solving",
+   "stem": "How many zeros does each number have when it is written out in full?",
+   "type": "numeric",
+   "prompt": "$10^{9}$",
+   "answer": "9"
+  },
+  {
+   "id": "q8d",
+   "label": "8d",
+   "section": "Problem-solving",
+   "stem": "How many zeros does each number have when it is written out in full?",
+   "type": "numeric",
+   "prompt": "$(10^{2} \\times 10^{4} \\times 10^{5})^{2}$",
+   "answer": "22"
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Problem-solving",
+   "stem": "Compare $b^{2} \\times b^{5}$ with $(b^{2})^{5}$.",
+   "type": "powers",
+   "prompt": "Simplify $b^{2} \\times b^{5}$.",
+   "answer": "b^7",
+   "index": true,
+   "hint": "Type powers with ^, for example 5^9 or a^4b^2."
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Problem-solving",
+   "stem": "Compare $b^{2} \\times b^{5}$ with $(b^{2})^{5}$.",
+   "type": "powers",
+   "prompt": "Simplify $(b^{2})^{5}$.",
+   "answer": "b^10",
+   "index": true
+  },
+  {
+   "id": "q9c",
+   "label": "9c",
+   "section": "Problem-solving",
+   "stem": "Compare $b^{2} \\times b^{5}$ with $(b^{2})^{5}$.",
+   "type": "choice",
+   "prompt": "Are $b^{2} \\times b^{5}$ and $(b^{2})^{5}$ equivalent (equal for every value of $b$)?",
+   "answer": 1,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q9d",
+   "label": "9d",
+   "section": "Problem-solving",
+   "stem": "Compare $b^{2} \\times b^{5}$ with $(b^{2})^{5}$.",
+   "type": "list",
+   "prompt": "Find the two values of $b$ that make $b^{2} \\times b^{5}$ and $(b^{2})^{5}$ equal.",
+   "answer": [
+    "0",
+    "1"
+   ],
+   "hint": "Type both values separated by a comma."
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Reasoning",
+   "stem": "This question shows why $a^{0}$ should equal $1$ for any value of $a$ other than zero.",
+   "type": "numeric",
+   "prompt": "State the value of $\\frac{6^{3}}{6^{3}}$.",
+   "answer": "1"
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Reasoning",
+   "stem": "This question shows why $a^{0}$ should equal $1$ for any value of $a$ other than zero.",
+   "type": "powers",
+   "prompt": "Use the index law for division to write $\\frac{6^{3}}{6^{3}}$ as a power of $6$.",
+   "answer": "6^0",
+   "hint": "Type powers with ^, for example 5^9 or a^4b^2."
+  },
+  {
+   "id": "q10c",
+   "label": "10c",
+   "section": "Reasoning",
+   "stem": "This question shows why $a^{0}$ should equal $1$ for any value of $a$ other than zero.",
+   "type": "powers",
+   "prompt": "Use the same method on $\\frac{4^{5}}{4^{5}}$: write it as a power of $4$.",
+   "answer": "4^0"
+  },
+  {
+   "id": "q10d",
+   "label": "10d",
+   "section": "Reasoning",
+   "stem": "This question shows why $a^{0}$ should equal $1$ for any value of $a$ other than zero.",
+   "type": "numeric",
+   "prompt": "So what should $250^{0}$ equal?",
+   "answer": "1"
+  },
+  {
+   "id": "q10e",
+   "label": "10e",
+   "section": "Reasoning",
+   "stem": "This question shows why $a^{0}$ should equal $1$ for any value of $a$ other than zero.",
+   "type": "choice",
+   "prompt": "Why can this method not be used to show that $0^{0}$ equals $1$?",
+   "answer": 1,
+   "options": [
+    "Because 0 squared is not a number",
+    "Because 0 squared divided by 0 squared means dividing by zero",
+    "Because the index law for division only works for even numbers"
+   ]
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Reasoning",
+   "stem": "Lena uses her calculator and notices that $(3^{2})^{6} = (3^{4})^{3}$.",
+   "type": "numeric",
+   "prompt": "Both sides are equal to $3$ to the power of what number?",
+   "answer": "12"
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Reasoning",
+   "stem": "Lena uses her calculator and notices that $(3^{2})^{6} = (3^{4})^{3}$.",
+   "type": "list",
+   "prompt": "Which of these are also equal to $(3^{2})^{6}$? A: $(3^{3})^{4}$, B: $(9^{2})^{4}$, C: $(9^{3})^{2}$, D: $(27^{2})^{2}$",
+   "answer": [
+    "A",
+    "C",
+    "D"
+   ],
+   "hint": "Type every correct letter, separated by commas."
+  },
+  {
+   "id": "q11c",
+   "label": "11c",
+   "section": "Reasoning",
+   "stem": "Lena uses her calculator and notices that $(3^{2})^{6} = (3^{4})^{3}$.",
+   "type": "numeric",
+   "prompt": "Freddy says $(3^{4})^{5}$ can be written as $(9^{2})^{\\square}$. What number goes in the box?",
+   "answer": "5"
+  },
+  {
+   "id": "q12a",
+   "label": "12a",
+   "section": "Reasoning",
+   "stem": "Use the index laws to explore powers of $0.5$.",
+   "type": "numeric",
+   "prompt": "According to the index laws, what number is equal to $(16^{0.5})^{2}$?",
+   "answer": "16"
+  },
+  {
+   "id": "q12b",
+   "label": "12b",
+   "section": "Reasoning",
+   "stem": "Use the index laws to explore powers of $0.5$.",
+   "type": "numeric",
+   "prompt": "What positive number makes the equation $m^{2} = 16$ true?",
+   "answer": "4"
+  },
+  {
+   "id": "q12c",
+   "label": "12c",
+   "section": "Reasoning",
+   "stem": "Use the index laws to explore powers of $0.5$.",
+   "type": "numeric",
+   "prompt": "What should $16^{0.5}$ equal, according to this?",
+   "answer": "4"
+  },
+  {
+   "id": "q12d",
+   "label": "12d",
+   "section": "Reasoning",
+   "stem": "Use the index laws to explore powers of $0.5$.",
+   "type": "numeric",
+   "prompt": "Use this to predict the value of $49^{0.5}$.",
+   "answer": "7"
+  },
+  {
+   "id": "q13",
+   "label": "13",
+   "section": "Reasoning",
+   "type": "numeric",
+   "prompt": "Nadia notices that $\\frac{(a^{4})^{2} \\times a^{2}}{(a^{5})^{2}}$ always gives the same answer, whatever the value of $a$ (except $0$). Simplify the expression.",
+   "answer": "1"
+  },
+  {
+   "id": "q14a",
+   "label": "14a",
+   "section": "Enrichment",
+   "stem": "Simplify the following using the index laws.",
+   "type": "expression",
+   "prompt": "$\\frac{(2m^{3})^{3} \\times (2m^{2})^{4}}{(2m^{5})^{3}}$",
+   "answer": "16m^2",
+   "form": "simplified",
+   "hint": "Type powers with ^, for example 12a^5b^2."
+  },
+  {
+   "id": "q14b",
+   "label": "14b",
+   "section": "Enrichment",
+   "stem": "Simplify the following using the index laws.",
+   "type": "powers",
+   "prompt": "$\\frac{(p^{3})^{4}}{p^{5}} \\times \\frac{p^{9}}{(p^{2})^{3}}$",
+   "answer": "p^10",
+   "index": true,
+   "hint": "Type powers with ^, for example 5^9 or a^4b^2."
+  },
+  {
+   "id": "q14c",
+   "label": "14c",
+   "section": "Enrichment",
+   "stem": "Simplify the following using the index laws.",
+   "type": "powers",
+   "prompt": "$\\frac{(a^{3}b^{2})^{4} \\times (a^{2}b^{3})^{5}}{(ab)^{6} \\times (a^{3}b)^{4}}$",
+   "answer": "a^4b^13",
+   "index": true
+  },
+  {
+   "id": "q14d",
+   "label": "14d",
+   "section": "Enrichment",
+   "stem": "Simplify the following using the index laws.",
+   "type": "powers",
+   "prompt": "$\\frac{(a^{3}b^{2}c^{5})^{10}}{a^{20}b^{10}c^{40}} \\div \\frac{a^{4}}{b^{3}}$",
+   "answer": "a^6b^13c^10",
+   "index": true
+  },
+  {
+   "id": "q14e",
+   "label": "14e",
+   "section": "Enrichment",
+   "stem": "Simplify the following using the index laws.",
+   "type": "powers",
+   "prompt": "$\\frac{(m^{15}n^{10})^{4}}{(m^{20}n^{15})^{2}}$",
+   "answer": "m^20n^10",
+   "index": true
+  },
+  {
+   "id": "q14f",
+   "label": "14f",
+   "section": "Enrichment",
+   "stem": "Simplify the following using the index laws.",
+   "type": "numeric",
+   "prompt": "$\\frac{(6^{7})^{8}}{(6^{9})^{6}}$",
+   "answer": "36",
+   "hint": "Work out the final value and type it as a number."
+  },
+  {
+   "id": "q14g",
+   "label": "14g",
+   "section": "Enrichment",
+   "stem": "Simplify the following using the index laws.",
+   "type": "numeric",
+   "prompt": "$\\frac{(5^{4})^{7}}{(5^{7})^{4}}$",
+   "answer": "1"
+  },
+  {
+   "id": "q14h",
+   "label": "14h",
+   "section": "Enrichment",
+   "stem": "Simplify the following using the index laws.",
+   "type": "numeric",
+   "prompt": "$\\frac{2^{9} \\times 2^{15}}{(2^{3})^{7}}$",
+   "answer": "8"
+  },
+  {
+   "id": "q14i",
+   "label": "14i",
+   "section": "Enrichment",
+   "stem": "Simplify the following using the index laws.",
+   "type": "numeric",
+   "prompt": "$\\frac{100^{18}}{1000^{11}}$",
+   "answer": "1000"
+  }
+ ]
+}
+);
