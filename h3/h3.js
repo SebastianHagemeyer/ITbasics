@@ -428,12 +428,31 @@
     </details>`;
   };
 
+  // Questions in a row that share a help panel form a run. The panel sits on the
+  // first question of the run that is not answered right yet. Returns that
+  // question's index for the run containing question i, or null when the whole
+  // run is done (or the question has no panel).
+  function helpHolder(set, res, i) {
+    const qs = set.questions, h = qs[i] && qs[i].help;
+    if (!h || !window.H3_HELPS || !window.H3_HELPS[h]) return null;
+    let a = i; while (a > 0 && qs[a - 1].help === h) a--;
+    for (let k = a; k < qs.length && qs[k].help === h; k++) {
+      const r = res[qs[k].id];
+      if (!(r && r.ok)) return k;
+    }
+    return null;
+  }
+
   function viewSet(id) {
     const set = setById[id];
     if (!set) { location.hash = '#home'; return; }
     const res = state.results[set.id] || {};
     const sc = setScore(set, res);
     const chId = chapterIdOf(set);
+    // One help panel per run of questions that share it, on the first question
+    // of the run that is not done yet (see helpHolder). Copies on every question
+    // were a wall of green.
+    const holders = new Set(set.questions.map((q, i) => helpHolder(set, res, i)).filter(i => i != null));
     app.innerHTML = `
       <div class="narrow">
         <a class="back" href="#chapter-${esc(chId)}">${backArrow}Chapter ${esc(chId)}</a>
@@ -474,7 +493,7 @@
                   <button class="btn" type="submit" ${saved && saved.ok ? 'disabled' : ''}>${saved && saved.ok ? 'Done' : 'Check'}</button>
                 </form>
                 ${q.hint && !(saved && saved.ok) ? `<p class="hint">${esc(q.hint)}</p>` : ''}
-                ${!(saved && saved.ok) ? helpHtml(q) : ''}
+                ${holders.has(i) ? helpHtml(q) : ''}
                 <div class="feedback" aria-live="polite">${feedbackHtml(saved)}</div>
               </div>
             </li>`;
@@ -521,7 +540,16 @@
       form.querySelectorAll('input').forEach(i => { i.readOnly = true; if (i.type === 'radio') i.disabled = true; });
       const b = form.querySelector('button'); b.disabled = true; b.textContent = 'Done';
       const h = card.querySelector('.hint'); if (h) h.remove();
-      const hp = card.querySelector('.qhelp'); if (hp) hp.remove();
+      // The run's help panel moves on to the next question in the run that is
+      // still to do, keeping its open or closed state. Once the run is done it goes.
+      const hp = card.querySelector('.qhelp');
+      if (hp) {
+        const idx = set.questions.findIndex(x => x.id === qid);
+        const to = helpHolder(set, res, idx);
+        const toCard = to != null && document.getElementById('card-' + set.questions[to].id);
+        if (toCard) toCard.querySelector('.qbody').insertBefore(hp, toCard.querySelector('.feedback'));
+        else hp.remove();
+      }
       // move focus to the next unanswered question
       const next = card.nextElementSibling && card.nextElementSibling.querySelector('input:not([readonly]):not([disabled])');
       if (next) next.focus();
