@@ -128447,6 +128447,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-8a-columns",
    "label": "1a",
    "section": "Fluency",
    "stem": "This column graph shows the population of five small country towns.",
@@ -128478,6 +128479,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-8a-columns",
    "label": "1b",
    "section": "Fluency",
    "stem": "This column graph shows the population of five small country towns.",
@@ -128487,6 +128489,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y8-8a-columns",
    "label": "1c",
    "section": "Fluency",
    "stem": "This column graph shows the population of five small country towns.",
@@ -128503,6 +128506,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-8a-columns",
    "label": "2a",
    "section": "Fluency",
    "stem": "The column graph shows the ages of five cousins.",
@@ -128535,6 +128539,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-8a-columns",
    "label": "2b",
    "section": "Fluency",
    "stem": "The column graph shows the ages of five cousins.",
@@ -128545,6 +128550,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-8a-columns",
    "label": "2c",
    "section": "Fluency",
    "stem": "The column graph shows the ages of five cousins.",
@@ -128561,6 +128567,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y8-8a-columns",
    "label": "2d",
    "section": "Fluency",
    "stem": "The column graph shows the ages of five cousins.",
@@ -128577,6 +128584,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y8-8a-columns",
    "label": "2e",
    "section": "Fluency",
    "stem": "The column graph shows the ages of five cousins.",
@@ -128587,6 +128595,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-8a-table",
    "label": "3a",
    "section": "Fluency",
    "stem": "Six Year 8 classes voted for the sport they would most like to play next in PE. The results are in the table.",
@@ -128637,6 +128646,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-8a-table",
    "label": "3b",
    "section": "Fluency",
    "stem": "Six Year 8 classes voted for the sport they would most like to play next in PE. The results are in the table.",
@@ -128651,6 +128661,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-8a-table",
    "label": "3c",
    "section": "Fluency",
    "stem": "Six Year 8 classes voted for the sport they would most like to play next in PE. The results are in the table.",
@@ -128660,6 +128671,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y8-8a-table",
    "label": "3d",
    "section": "Fluency",
    "stem": "Six Year 8 classes voted for the sport they would most like to play next in PE. The results are in the table.",
@@ -128677,6 +128689,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y8-8a-table",
    "label": "3e",
    "section": "Fluency",
    "stem": "Six Year 8 classes voted for the sport they would most like to play next in PE. The results are in the table.",
@@ -128691,6 +128704,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-8a-line",
    "label": "4a",
    "section": "Fluency",
    "stem": "These line graphs show the heights of the twins Ivy and Jonah from birth until they were 8.",
@@ -128768,6 +128782,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-8a-line",
    "label": "4b",
    "section": "Fluency",
    "stem": "These line graphs show the heights of the twins Ivy and Jonah from birth until they were 8.",
@@ -128781,6 +128796,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y8-8a-line",
    "label": "4c",
    "section": "Fluency",
    "stem": "These line graphs show the heights of the twins Ivy and Jonah from birth until they were 8.",
@@ -128791,6 +128807,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y8-8a-line",
    "label": "4d",
    "section": "Fluency",
    "stem": "These line graphs show the heights of the twins Ivy and Jonah from birth until they were 8.",
@@ -128804,6 +128821,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y8-8a-sector",
    "label": "5a",
    "section": "Fluency",
    "stem": "This sector graph (pie chart) shows how a family spent its holiday money.",
@@ -128840,6 +128858,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y8-8a-sector",
    "label": "5b",
    "section": "Fluency",
    "stem": "This sector graph (pie chart) shows how a family spent its holiday money.",
@@ -128855,6 +128874,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y8-8a-sector",
    "label": "5c",
    "section": "Fluency",
    "stem": "This sector graph (pie chart) shows how a family spent its holiday money.",
@@ -128865,6 +128885,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y8-8a-sector",
    "label": "5d",
    "section": "Fluency",
    "stem": "This sector graph (pie chart) shows how a family spent its holiday money.",
@@ -128875,6 +128896,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y8-8a-trend",
    "label": "6a",
    "section": "Fluency",
    "stem": "The table and graph show the price of one share in a small company over 6 months.",
@@ -128942,6 +128964,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y8-8a-trend",
    "label": "6b",
    "section": "Fluency",
    "stem": "The table and graph show the price of one share in a small company over 6 months.",
@@ -128952,6 +128975,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y8-8a-trend",
    "label": "6c",
    "section": "Fluency",
    "stem": "The table and graph show the price of one share in a small company over 6 months.",
@@ -128962,6 +128986,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y8-8a-trend",
    "label": "6d",
    "section": "Fluency",
    "stem": "The table and graph show the price of one share in a small company over 6 months.",
@@ -128972,6 +128997,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6e",
+   "help": "y8-8a-trend",
    "label": "6e",
    "section": "Fluency",
    "stem": "The table and graph show the price of one share in a small company over 6 months.",
@@ -128982,6 +129008,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y8-8a-sector",
    "label": "7a",
    "section": "Fluency",
    "stem": "Priya recorded how she spent one day in the divided bar graph below. The scale shows hours.",
@@ -129236,6 +129263,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y8-8a-sector",
    "label": "7b",
    "section": "Fluency",
    "stem": "Priya recorded how she spent one day in the divided bar graph below. The scale shows hours.",
@@ -129246,6 +129274,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y8-8a-sector",
    "label": "7c",
    "section": "Fluency",
    "stem": "Priya recorded how she spent one day in the divided bar graph below. The scale shows hours.",
@@ -129262,6 +129291,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y8-8a-sector",
    "label": "7d",
    "section": "Fluency",
    "stem": "Priya recorded how she spent one day in the divided bar graph below. The scale shows hours.",
@@ -129273,6 +129303,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y8-8a-line",
    "label": "8a",
    "section": "Problem-solving",
    "stem": "The temperature inside a school greenhouse was recorded every hour over an eight-hour period.",
@@ -129314,6 +129345,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y8-8a-line",
    "label": "8b",
    "section": "Problem-solving",
    "stem": "The temperature inside a school greenhouse was recorded every hour over an eight-hour period.",
@@ -129324,6 +129356,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y8-8a-line",
    "label": "8c",
    "section": "Problem-solving",
    "stem": "The temperature inside a school greenhouse was recorded every hour over an eight-hour period.",
@@ -129346,6 +129379,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y8-8a-line",
    "label": "9a",
    "section": "Problem-solving",
    "stem": "A diver jumps off a $5$-metre platform into a pool. The height of the top of her head above the water is shown in the table and graph.",
@@ -129431,6 +129465,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y8-8a-line",
    "label": "9b",
    "section": "Problem-solving",
    "stem": "A diver jumps off a $5$-metre platform into a pool. The height of the top of her head above the water is shown in the table and graph.",
@@ -129441,6 +129476,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y8-8a-line",
    "label": "9c",
    "section": "Problem-solving",
    "stem": "A diver jumps off a $5$-metre platform into a pool. The height of the top of her head above the water is shown in the table and graph.",
@@ -129456,6 +129492,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y8-8a-line",
    "label": "9d",
    "section": "Problem-solving",
    "stem": "A diver jumps off a $5$-metre platform into a pool. The height of the top of her head above the water is shown in the table and graph.",
@@ -129469,6 +129506,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y8-8a-persuade",
    "label": "10a",
    "section": "Reasoning",
    "stem": "Three different surveys were run to decide whether chips should be sold at the school canteen. Their graphs are shown.",
@@ -129545,6 +129583,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y8-8a-persuade",
    "label": "10b",
    "section": "Reasoning",
    "stem": "Three different surveys were run to decide whether chips should be sold at the school canteen. Their graphs are shown.",
@@ -129559,6 +129598,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y8-8a-persuade",
    "label": "10c",
    "section": "Reasoning",
    "stem": "Three different surveys were run to decide whether chips should be sold at the school canteen. Their graphs are shown.",
@@ -129573,6 +129613,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y8-8a-table",
    "label": "11a",
    "section": "Reasoning",
    "stem": "The table shows the population of three nearby towns over a 10-year period.",
@@ -129658,6 +129699,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y8-8a-table",
    "label": "11b",
    "section": "Reasoning",
    "stem": "The table shows the population of three nearby towns over a 10-year period.",
@@ -129672,6 +129714,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y8-8a-table",
    "label": "11c",
    "section": "Reasoning",
    "stem": "The table shows the population of three nearby towns over a 10-year period.",
@@ -129686,6 +129729,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11d",
+   "help": "y8-8a-table",
    "label": "11d",
    "section": "Reasoning",
    "stem": "The table shows the population of three nearby towns over a 10-year period.",
@@ -129695,6 +129739,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11e",
+   "help": "y8-8a-table",
    "label": "11e",
    "section": "Reasoning",
    "stem": "The table shows the population of three nearby towns over a 10-year period.",
@@ -129704,6 +129749,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y8-8a-water",
    "label": "13a",
    "section": "Reasoning",
    "stem": "The 'water footprint' of a food is the volume of fresh water used to produce it. The table shows the water footprint of some foods, in litres per kilogram.",
@@ -129764,6 +129810,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y8-8a-water",
    "label": "13b",
    "section": "Reasoning",
    "stem": "The 'water footprint' of a food is the volume of fresh water used to produce it. The table shows the water footprint of some foods, in litres per kilogram.",
@@ -129774,6 +129821,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13c",
+   "help": "y8-8a-water",
    "label": "13c",
    "section": "Reasoning",
    "stem": "The 'water footprint' of a food is the volume of fresh water used to produce it. The table shows the water footprint of some foods, in litres per kilogram.",
@@ -129784,6 +129832,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13d",
+   "help": "y8-8a-water",
    "label": "13d",
    "section": "Reasoning",
    "stem": "The 'water footprint' of a food is the volume of fresh water used to produce it. The table shows the water footprint of some foods, in litres per kilogram.",
@@ -129794,6 +129843,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y8-8a-months",
    "label": "14a",
    "section": "Enrichment",
    "stem": "Mochi is a cat whose owner graphed her weight at the start of each month for a year. A healthy weight for Mochi is between $4$ kg and $6$ kg.",
@@ -129841,6 +129891,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y8-8a-months",
    "label": "14b",
    "section": "Enrichment",
    "stem": "Mochi is a cat whose owner graphed her weight at the start of each month for a year. A healthy weight for Mochi is between $4$ kg and $6$ kg.",
@@ -129851,6 +129902,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14c",
+   "help": "y8-8a-months",
    "label": "14c",
    "section": "Enrichment",
    "stem": "Mochi is a cat whose owner graphed her weight at the start of each month for a year. A healthy weight for Mochi is between $4$ kg and $6$ kg.",
@@ -129861,6 +129913,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14d",
+   "help": "y8-8a-months",
    "label": "14d",
    "section": "Enrichment",
    "stem": "Mochi is a cat whose owner graphed her weight at the start of each month for a year. A healthy weight for Mochi is between $4$ kg and $6$ kg.",
@@ -129880,6 +129933,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-8b-tally",
    "label": "1a",
    "section": "Fluency",
    "stem": "A netball goal shooter's performance in one game is recorded in this tally.",
@@ -130252,6 +130306,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-8b-tally",
    "label": "1b",
    "section": "Fluency",
    "stem": "A netball goal shooter's performance in one game is recorded in this tally.",
@@ -130261,6 +130316,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y8-8b-tally",
    "label": "1c",
    "section": "Fluency",
    "stem": "A netball goal shooter's performance in one game is recorded in this tally.",
@@ -130270,6 +130326,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y8-8b-tally",
    "label": "1d",
    "section": "Fluency",
    "stem": "A netball goal shooter's performance in one game is recorded in this tally.",
@@ -130279,6 +130336,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-8b-tally",
    "label": "2a",
    "section": "Fluency",
    "stem": "Lachlan asked a group of people how many hours they spend gaming each week, rounded to the nearest hour. His tally is shown.",
@@ -130782,6 +130840,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-8b-tally",
    "label": "2b",
    "section": "Fluency",
    "stem": "Lachlan asked a group of people how many hours they spend gaming each week, rounded to the nearest hour. His tally is shown.",
@@ -130791,6 +130850,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-8b-tally",
    "label": "2c",
    "section": "Fluency",
    "stem": "Lachlan asked a group of people how many hours they spend gaming each week, rounded to the nearest hour. His tally is shown.",
@@ -130800,6 +130860,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y8-8b-tally",
    "label": "2d",
    "section": "Fluency",
    "stem": "Lachlan asked a group of people how many hours they spend gaming each week, rounded to the nearest hour. His tally is shown.",
@@ -130809,6 +130870,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y8-8b-tally",
    "label": "2e",
    "section": "Fluency",
    "stem": "Lachlan asked a group of people how many hours they spend gaming each week, rounded to the nearest hour. His tally is shown.",
@@ -130818,6 +130880,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-8b-build",
    "label": "3a",
    "section": "Fluency",
    "stem": "Jasmine asked each student in her class how many people live in their house. The results are: $4, 2, 5, 3, 4, 6, 3, 4, 7, 5, 2, 4, 3, 5, 4, 6, 3, 8, 4, 5, 3, 4$",
@@ -130835,6 +130898,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-8b-build",
    "label": "3b",
    "section": "Fluency",
    "stem": "Jasmine asked each student in her class how many people live in their house. The results are: $4, 2, 5, 3, 4, 6, 3, 4, 7, 5, 2, 4, 3, 5, 4, 6, 3, 8, 4, 5, 3, 4$",
@@ -130844,6 +130908,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-8b-build",
    "label": "3c",
    "section": "Fluency",
    "stem": "Jasmine asked each student in her class how many people live in their house. The results are: $4, 2, 5, 3, 4, 6, 3, 4, 7, 5, 2, 4, 3, 5, 4, 6, 3, 8, 4, 5, 3, 4$",
@@ -130853,6 +130918,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-8b-build",
    "label": "4a",
    "section": "Fluency",
    "stem": "The scores of $22$ players in one game of ten-pin bowling are: $112, 87, 145, 63, 158, 131, 99, 176, 124, 108, 91, 185, 142, 117, 76, 133, 104, 168, 95, 121, 150, 139$",
@@ -130907,6 +130973,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-8b-build",
    "label": "4b",
    "section": "Fluency",
    "stem": "The scores of $22$ players in one game of ten-pin bowling are: $112, 87, 145, 63, 158, 131, 99, 176, 124, 108, 91, 185, 142, 117, 76, 133, 104, 168, 95, 121, 150, 139$",
@@ -130916,6 +130983,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y8-8b-build",
    "label": "4c",
    "section": "Fluency",
    "stem": "The scores of $22$ players in one game of ten-pin bowling are: $112, 87, 145, 63, 158, 131, 99, 176, 124, 108, 91, 185, 142, 117, 76, 133, 104, 168, 95, 121, 150, 139$",
@@ -130925,6 +130993,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y8-8b-build",
    "label": "4d",
    "section": "Fluency",
    "stem": "The scores of $22$ players in one game of ten-pin bowling are: $112, 87, 145, 63, 158, 131, 99, 176, 124, 108, 91, 185, 142, 117, 76, 133, 104, 168, 95, 121, 150, 139$",
@@ -130934,6 +131003,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y8-8b-read",
    "label": "5a",
    "section": "Problem-solving",
    "stem": "A cricket bowler records the number of wides he bowls in each match of the season.",
@@ -130966,6 +131036,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y8-8b-read",
    "label": "5b",
    "section": "Problem-solving",
    "stem": "A cricket bowler records the number of wides he bowls in each match of the season.",
@@ -130975,6 +131046,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y8-8b-read",
    "label": "5c",
    "section": "Problem-solving",
    "stem": "A cricket bowler records the number of wides he bowls in each match of the season.",
@@ -130984,6 +131056,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y8-8b-read",
    "label": "5d",
    "section": "Problem-solving",
    "stem": "A cricket bowler records the number of wides he bowls in each match of the season.",
@@ -130993,6 +131066,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y8-8b-build",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "Match each data set with the correct column (A, B, C or D) of the frequency table.",
@@ -131041,6 +131115,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y8-8b-build",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "Match each data set with the correct column (A, B, C or D) of the frequency table.",
@@ -131056,6 +131131,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y8-8b-build",
    "label": "6c",
    "section": "Problem-solving",
    "stem": "Match each data set with the correct column (A, B, C or D) of the frequency table.",
@@ -131071,6 +131147,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y8-8b-build",
    "label": "6d",
    "section": "Problem-solving",
    "stem": "Match each data set with the correct column (A, B, C or D) of the frequency table.",
@@ -131086,6 +131163,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y8-8b-read",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "Five classes are in the same building in different rooms. The ages of the students in each room are recorded in the frequency table.",
@@ -131156,6 +131234,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y8-8b-read",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "Five classes are in the same building in different rooms. The ages of the students in each room are recorded in the frequency table.",
@@ -131165,6 +131244,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y8-8b-read",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "Five classes are in the same building in different rooms. The ages of the students in each room are recorded in the frequency table.",
@@ -131174,6 +131254,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y8-8b-read",
    "label": "7d",
    "section": "Problem-solving",
    "stem": "Five classes are in the same building in different rooms. The ages of the students in each room are recorded in the frequency table.",
@@ -131184,6 +131265,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7e",
+   "help": "y8-8b-read",
    "label": "7e",
    "section": "Problem-solving",
    "stem": "Five classes are in the same building in different rooms. The ages of the students in each room are recorded in the frequency table.",
@@ -131194,6 +131276,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y8-8b-regroup",
    "label": "8a",
    "section": "Reasoning",
    "stem": "Some students sat a test marked out of $100$ (whole marks only). The results are in the frequency table.",
@@ -131258,6 +131341,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y8-8b-regroup",
    "label": "8b",
    "section": "Reasoning",
    "stem": "Some students sat a test marked out of $100$ (whole marks only). The results are in the frequency table.",
@@ -131272,6 +131356,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y8-8b-regroup",
    "label": "8c",
    "section": "Reasoning",
    "stem": "Some students sat a test marked out of $100$ (whole marks only). The results are in the frequency table.",
@@ -131286,6 +131371,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y8-8b-regroup",
    "label": "8d",
    "section": "Reasoning",
    "stem": "Some students sat a test marked out of $100$ (whole marks only). The results are in the frequency table.",
@@ -131295,6 +131381,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y8-8b-regroup",
    "label": "9a",
    "section": "Reasoning",
    "stem": "Look at this stem-and-leaf plot.",
@@ -131326,6 +131413,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y8-8b-regroup",
    "label": "9b",
    "section": "Reasoning",
    "stem": "Look at this stem-and-leaf plot.",
@@ -131340,6 +131428,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y8-8b-pigeon",
    "label": "10a",
    "section": "Reasoning",
    "stem": "A netball goal shooter notes the number of goals she scores in each of the $20$ games of her season. The range $10$-$14$ means at least $10$ but less than $15$.",
@@ -131370,6 +131459,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y8-8b-pigeon",
    "label": "10b",
    "section": "Reasoning",
    "stem": "A netball goal shooter notes the number of goals she scores in each of the $20$ games of her season. The range $10$-$14$ means at least $10$ but less than $15$.",
@@ -131379,6 +131469,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y8-8b-pigeon",
    "label": "10c",
    "section": "Reasoning",
    "stem": "A netball goal shooter notes the number of goals she scores in each of the $20$ games of her season. The range $10$-$14$ means at least $10$ but less than $15$.",
@@ -131392,6 +131483,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y8-8b-arrange",
    "label": "11a",
    "section": "Enrichment",
    "stem": "Mei records the number of hours of piano practice she does each evening from Monday to Thursday. Her results are in the frequency table.",
@@ -131419,6 +131511,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y8-8b-arrange",
    "label": "11b",
    "section": "Enrichment",
    "stem": "Mei records the number of hours of piano practice she does each evening from Monday to Thursday. Her results are in the frequency table.",
@@ -131428,6 +131521,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y8-8b-arrange",
    "label": "11c",
    "section": "Enrichment",
    "stem": "Mei records the number of hours of piano practice she does each evening from Monday to Thursday. Her results are in the frequency table.",
@@ -131437,6 +131531,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11d",
+   "help": "y8-8b-arrange",
    "label": "11d",
    "section": "Enrichment",
    "stem": "Mei records the number of hours of piano practice she does each evening from Monday to Thursday. Her results are in the frequency table.",
@@ -131446,6 +131541,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11e",
+   "help": "y8-8b-arrange",
    "label": "11e",
    "section": "Enrichment",
    "stem": "Mei records the number of hours of piano practice she does each evening from Monday to Thursday. Her results are in the frequency table.",
@@ -131464,6 +131560,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-8c-dotplot",
    "label": "1a",
    "section": "Fluency",
    "stem": "Each frequency table is drawn as a dot plot.",
@@ -131553,6 +131650,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-8c-dotplot",
    "label": "1b",
    "section": "Fluency",
    "stem": "Each frequency table is drawn as a dot plot.",
@@ -131650,6 +131748,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-8c-dotplot",
    "label": "2a",
    "section": "Fluency",
    "stem": "The frequency table shows the number of goals a water polo player scored in each match.",
@@ -131769,6 +131868,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-8c-dotplot",
    "label": "2b",
    "section": "Fluency",
    "stem": "The frequency table shows the number of goals a water polo player scored in each match.",
@@ -131778,6 +131878,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-8c-dotplot",
    "label": "2c",
    "section": "Fluency",
    "stem": "The frequency table shows the number of goals a water polo player scored in each match.",
@@ -131787,6 +131888,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-8c-freqgraph",
    "label": "3a",
    "section": "Fluency",
    "stem": "Each frequency table is drawn as a frequency graph.",
@@ -131890,6 +131992,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-8c-freqgraph",
    "label": "3b",
    "section": "Fluency",
    "stem": "Each frequency table is drawn as a frequency graph.",
@@ -131985,6 +132088,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4",
+   "help": "y8-8c-freqgraph",
    "label": "4",
    "section": "Fluency",
    "prompt": "Which frequency graph shows this grouped frequency table?",
@@ -132115,6 +132219,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y8-8c-freqgraph",
    "label": "5a",
    "section": "Fluency",
    "stem": "Read each frequency graph to rebuild its frequency table.",
@@ -132151,6 +132256,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y8-8c-freqgraph",
    "label": "5b",
    "section": "Fluency",
    "stem": "Read each frequency graph to rebuild its frequency table.",
@@ -132187,6 +132293,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y8-8c-freqgraph",
    "label": "6a",
    "section": "Fluency",
    "stem": "These are the results of a quiz marked out of $10$: $7, 4, 9, 6, 5, 8, 6, 3, 10, 6, 7, 2, 5, 8, 6, 9, 4, 7, 6, 1$",
@@ -132207,6 +132314,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y8-8c-freqgraph",
    "label": "6b",
    "section": "Fluency",
    "stem": "These are the results of a quiz marked out of $10$: $7, 4, 9, 6, 5, 8, 6, 3, 10, 6, 7, 2, 5, 8, 6, 9, 4, 7, 6, 1$",
@@ -132216,6 +132324,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y8-8c-freqgraph",
    "label": "6c",
    "section": "Fluency",
    "stem": "These are the results of a quiz marked out of $10$: $7, 4, 9, 6, 5, 8, 6, 3, 10, 6, 7, 2, 5, 8, 6, 9, 4, 7, 6, 1$",
@@ -132225,6 +132334,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y8-8c-dotplot",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "Look at this dot plot.",
@@ -132267,6 +132377,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y8-8c-dotplot",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "Look at this dot plot.",
@@ -132276,6 +132387,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y8-8c-compare",
    "label": "8a",
    "section": "Problem-solving",
    "stem": "Maya's spelling test results (out of $10$) are $4, 6, 3, 5, 8, 4, 2, 6, 5, 7, 4, 3, 9, 4, 5$. Leo's results are shown in the frequency graph.",
@@ -132311,6 +132423,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y8-8c-compare",
    "label": "8b",
    "section": "Problem-solving",
    "stem": "Maya's spelling test results (out of $10$) are $4, 6, 3, 5, 8, 4, 2, 6, 5, 7, 4, 3, 9, 4, 5$. Leo's results are shown in the frequency graph.",
@@ -132324,6 +132437,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y8-8c-compare",
    "label": "9a",
    "section": "Problem-solving",
    "stem": "Some hockey players count the number of goals they score in each match. Match each graph with the best description.",
@@ -132358,6 +132472,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y8-8c-compare",
    "label": "9b",
    "section": "Problem-solving",
    "stem": "Some hockey players count the number of goals they score in each match. Match each graph with the best description.",
@@ -132392,6 +132507,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y8-8c-compare",
    "label": "9c",
    "section": "Problem-solving",
    "stem": "Some hockey players count the number of goals they score in each match. Match each graph with the best description.",
@@ -132426,6 +132542,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y8-8c-compare",
    "label": "9d",
    "section": "Problem-solving",
    "stem": "Some hockey players count the number of goals they score in each match. Match each graph with the best description.",
@@ -132460,6 +132577,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y8-8c-compare",
    "label": "10a",
    "section": "Problem-solving",
    "stem": "A bike shop records how many bikes each salesperson sells per day over $15$ working days.",
@@ -132565,6 +132683,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y8-8c-compare",
    "label": "10b",
    "section": "Problem-solving",
    "stem": "A bike shop records how many bikes each salesperson sells per day over $15$ working days.",
@@ -132580,6 +132699,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y8-8c-compare",
    "label": "10c",
    "section": "Problem-solving",
    "stem": "A bike shop records how many bikes each salesperson sells per day over $15$ working days.",
@@ -132595,6 +132715,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10d",
+   "help": "y8-8c-compare",
    "label": "10d",
    "section": "Problem-solving",
    "stem": "A bike shop records how many bikes each salesperson sells per day over $15$ working days.",
@@ -132610,6 +132731,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y8-8c-shift",
    "label": "11a",
    "section": "Reasoning",
    "stem": "This graph shows the ages of a group of people in a room.",
@@ -132640,6 +132762,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y8-8c-shift",
    "label": "11b",
    "section": "Reasoning",
    "stem": "This graph shows the ages of a group of people in a room.",
@@ -132649,6 +132772,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y8-8c-shift",
    "label": "11c",
    "section": "Reasoning",
    "stem": "This graph shows the ages of a group of people in a room.",
@@ -132658,6 +132782,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12",
+   "help": "y8-8c-dotplot",
    "label": "12",
    "section": "Reasoning",
    "prompt": "To graph the number of phones in each household for every student in your whole school, which type of graph would be better?",
@@ -132670,6 +132795,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y8-8c-compare",
    "label": "13a",
    "section": "Reasoning",
    "stem": "Noa has drawn a frequency graph of her results for a number of spelling tests, each out of $10$.",
@@ -132707,6 +132833,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y8-8c-compare",
    "label": "13b",
    "section": "Reasoning",
    "stem": "Noa has drawn a frequency graph of her results for a number of spelling tests, each out of $10$.",
@@ -132716,6 +132843,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13c",
+   "help": "y8-8c-compare",
    "label": "13c",
    "section": "Reasoning",
    "stem": "Noa has drawn a frequency graph of her results for a number of spelling tests, each out of $10$.",
@@ -132763,6 +132891,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y8-8c-match",
    "label": "14a",
    "section": "Enrichment",
    "stem": "Three students surveyed people in a primary school classroom, a shopping centre and a teachers' staffroom to find their heights (cm), weights (kg) and ages (years). They mixed up the nine graphs. The primary school heights are Graph 4.",
@@ -132971,6 +133100,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y8-8c-match",
    "label": "14b",
    "section": "Enrichment",
    "stem": "Three students surveyed people in a primary school classroom, a shopping centre and a teachers' staffroom to find their heights (cm), weights (kg) and ages (years). They mixed up the nine graphs. The primary school heights are Graph 4.",
@@ -132991,6 +133121,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14c",
+   "help": "y8-8c-match",
    "label": "14c",
    "section": "Enrichment",
    "stem": "Three students surveyed people in a primary school classroom, a shopping centre and a teachers' staffroom to find their heights (cm), weights (kg) and ages (years). They mixed up the nine graphs. The primary school heights are Graph 4.",
@@ -133011,6 +133142,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14d",
+   "help": "y8-8c-match",
    "label": "14d",
    "section": "Enrichment",
    "stem": "Three students surveyed people in a primary school classroom, a shopping centre and a teachers' staffroom to find their heights (cm), weights (kg) and ages (years). They mixed up the nine graphs. The primary school heights are Graph 4.",
@@ -133031,6 +133163,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14e",
+   "help": "y8-8c-match",
    "label": "14e",
    "section": "Enrichment",
    "stem": "Three students surveyed people in a primary school classroom, a shopping centre and a teachers' staffroom to find their heights (cm), weights (kg) and ages (years). They mixed up the nine graphs. The primary school heights are Graph 4.",
@@ -133051,6 +133184,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14f",
+   "help": "y8-8c-match",
    "label": "14f",
    "section": "Enrichment",
    "stem": "Three students surveyed people in a primary school classroom, a shopping centre and a teachers' staffroom to find their heights (cm), weights (kg) and ages (years). They mixed up the nine graphs. The primary school heights are Graph 4.",
@@ -133071,6 +133205,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14g",
+   "help": "y8-8c-match",
    "label": "14g",
    "section": "Enrichment",
    "stem": "Three students surveyed people in a primary school classroom, a shopping centre and a teachers' staffroom to find their heights (cm), weights (kg) and ages (years). They mixed up the nine graphs. The primary school heights are Graph 4.",
@@ -133091,6 +133226,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14h",
+   "help": "y8-8c-match",
    "label": "14h",
    "section": "Enrichment",
    "stem": "Three students surveyed people in a primary school classroom, a shopping centre and a teachers' staffroom to find their heights (cm), weights (kg) and ages (years). They mixed up the nine graphs. The primary school heights are Graph 4.",
@@ -133120,6 +133256,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-8d-mean-mode",
    "label": "1a",
    "section": "Fluency",
    "stem": "For the set of numbers $7, 4, 9, 4, 6, 12$, find:",
@@ -133129,6 +133266,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-8d-mean-mode",
    "label": "1b",
    "section": "Fluency",
    "stem": "For the set of numbers $7, 4, 9, 4, 6, 12$, find:",
@@ -133138,6 +133276,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-8d-mean-mode",
    "label": "2a",
    "section": "Fluency",
    "stem": "For each set of numbers, find the mean and the mode.",
@@ -133147,6 +133286,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-8d-mean-mode",
    "label": "2b",
    "section": "Fluency",
    "stem": "For each set of numbers, find the mean and the mode.",
@@ -133156,6 +133296,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-8d-mean-mode",
    "label": "2c",
    "section": "Fluency",
    "stem": "For each set of numbers, find the mean and the mode.",
@@ -133165,6 +133306,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y8-8d-mean-mode",
    "label": "2d",
    "section": "Fluency",
    "stem": "For each set of numbers, find the mean and the mode.",
@@ -133174,6 +133316,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y8-8d-mean-mode",
    "label": "2e",
    "section": "Fluency",
    "stem": "For each set of numbers, find the mean and the mode.",
@@ -133183,6 +133326,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y8-8d-mean-mode",
    "label": "2f",
    "section": "Fluency",
    "stem": "For each set of numbers, find the mean and the mode.",
@@ -133192,6 +133336,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y8-8d-mean-mode",
    "label": "2g",
    "section": "Fluency",
    "stem": "For each set of numbers, find the mean and the mode.",
@@ -133201,6 +133346,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y8-8d-mean-mode",
    "label": "2h",
    "section": "Fluency",
    "stem": "For each set of numbers, find the mean and the mode.",
@@ -133210,6 +133356,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2i",
+   "help": "y8-8d-mean-mode",
    "label": "2i",
    "section": "Fluency",
    "stem": "For each set of numbers, find the mean and the mode.",
@@ -133219,6 +133366,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2j",
+   "help": "y8-8d-mean-mode",
    "label": "2j",
    "section": "Fluency",
    "stem": "For each set of numbers, find the mean and the mode.",
@@ -133228,6 +133376,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2k",
+   "help": "y8-8d-mean-mode",
    "label": "2k",
    "section": "Fluency",
    "stem": "For each set of numbers, find the mean and the mode.",
@@ -133237,6 +133386,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2l",
+   "help": "y8-8d-mean-mode",
    "label": "2l",
    "section": "Fluency",
    "stem": "For each set of numbers, find the mean and the mode.",
@@ -133246,6 +133396,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-8d-mean-mode",
    "label": "3a",
    "section": "Fluency",
    "stem": "Find the mean of each set of numbers.",
@@ -133255,6 +133406,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-8d-mean-mode",
    "label": "3b",
    "section": "Fluency",
    "stem": "Find the mean of each set of numbers.",
@@ -133264,6 +133416,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-8d-mean-mode",
    "label": "3c",
    "section": "Fluency",
    "stem": "Find the mean of each set of numbers.",
@@ -133273,6 +133426,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y8-8d-mean-mode",
    "label": "3d",
    "section": "Fluency",
    "stem": "Find the mean of each set of numbers.",
@@ -133282,6 +133436,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-8d-median",
    "label": "4a",
    "section": "Fluency",
    "stem": "Find the median of each set.",
@@ -133291,6 +133446,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-8d-median",
    "label": "4b",
    "section": "Fluency",
    "stem": "Find the median of each set.",
@@ -133300,6 +133456,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y8-8d-median",
    "label": "4c",
    "section": "Fluency",
    "stem": "Find the median of each set.",
@@ -133309,6 +133466,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y8-8d-median",
    "label": "4d",
    "section": "Fluency",
    "stem": "Find the median of each set.",
@@ -133318,6 +133476,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y8-8d-median",
    "label": "4e",
    "section": "Fluency",
    "stem": "Find the median of each set.",
@@ -133327,6 +133486,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y8-8d-median",
    "label": "4f",
    "section": "Fluency",
    "stem": "Find the median of each set.",
@@ -133336,6 +133496,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y8-8d-median",
    "label": "5a",
    "section": "Fluency",
    "stem": "Find the median of each set.",
@@ -133345,6 +133506,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y8-8d-median",
    "label": "5b",
    "section": "Fluency",
    "stem": "Find the median of each set.",
@@ -133354,6 +133516,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y8-8d-median",
    "label": "5c",
    "section": "Fluency",
    "stem": "Find the median of each set.",
@@ -133363,6 +133526,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y8-8d-median",
    "label": "5d",
    "section": "Fluency",
    "stem": "Find the median of each set.",
@@ -133372,6 +133536,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y8-8d-median",
    "label": "6a",
    "section": "Fluency",
    "stem": "Find the median of each set of numbers.",
@@ -133381,6 +133546,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y8-8d-median",
    "label": "6b",
    "section": "Fluency",
    "stem": "Find the median of each set of numbers.",
@@ -133390,6 +133556,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y8-8d-median",
    "label": "6c",
    "section": "Fluency",
    "stem": "Find the median of each set of numbers.",
@@ -133399,6 +133566,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y8-8d-median",
    "label": "6d",
    "section": "Fluency",
    "stem": "Find the median of each set of numbers.",
@@ -133408,6 +133576,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y8-8d-stemleaf",
    "label": "7a",
    "section": "Fluency",
    "stem": "The ages of some people at a climbing gym are shown in this stem-and-leaf plot.",
@@ -133449,6 +133618,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y8-8d-stemleaf",
    "label": "7b",
    "section": "Fluency",
    "stem": "The ages of some people at a climbing gym are shown in this stem-and-leaf plot.",
@@ -133458,6 +133628,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y8-8d-stemleaf",
    "label": "7c",
    "section": "Fluency",
    "stem": "The ages of some people at a climbing gym are shown in this stem-and-leaf plot.",
@@ -133467,6 +133638,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y8-8d-stemleaf",
    "label": "7d",
    "section": "Fluency",
    "stem": "The ages of some people at a climbing gym are shown in this stem-and-leaf plot.",
@@ -133476,6 +133648,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y8-8d-mean-mode",
    "label": "8a",
    "section": "Problem-solving",
    "stem": "Sophie weighs $10$ apples (in grams) from each of two markets. Both markets charge the same price per apple. Market A: $182.4, 175.9, 190.2, 168.7, 185.3, 179.6, 172.8, 188.1, 181.5, 176.0$. Market B: $195.6, 160.2, 171.4, 201.3, 158.7, 166.9, 199.8, 162.5, 170.1, 183.0$.",
@@ -133486,6 +133659,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y8-8d-mean-mode",
    "label": "8b",
    "section": "Problem-solving",
    "stem": "Sophie weighs $10$ apples (in grams) from each of two markets. Both markets charge the same price per apple. Market A: $182.4, 175.9, 190.2, 168.7, 185.3, 179.6, 172.8, 188.1, 181.5, 176.0$. Market B: $195.6, 160.2, 171.4, 201.3, 158.7, 166.9, 199.8, 162.5, 170.1, 183.0$.",
@@ -133496,6 +133670,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y8-8d-mean-mode",
    "label": "8c",
    "section": "Problem-solving",
    "stem": "Sophie weighs $10$ apples (in grams) from each of two markets. Both markets charge the same price per apple. Market A: $182.4, 175.9, 190.2, 168.7, 185.3, 179.6, 172.8, 188.1, 181.5, 176.0$. Market B: $195.6, 160.2, 171.4, 201.3, 158.7, 166.9, 199.8, 162.5, 170.1, 183.0$.",
@@ -133509,6 +133684,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y8-8d-freq",
    "label": "9a",
    "section": "Problem-solving",
    "stem": "Tariq competes in diving and each week he gets a score out of $10$. His results for $10$ weeks are shown in the frequency table.",
@@ -133539,6 +133715,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y8-8d-freq",
    "label": "9b",
    "section": "Problem-solving",
    "stem": "Tariq competes in diving and each week he gets a score out of $10$. His results for $10$ weeks are shown in the frequency table.",
@@ -133548,6 +133725,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y8-8d-freq",
    "label": "9c",
    "section": "Problem-solving",
    "stem": "Tariq competes in diving and each week he gets a score out of $10$. His results for $10$ weeks are shown in the frequency table.",
@@ -133557,6 +133735,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y8-8d-freq",
    "label": "9d",
    "section": "Problem-solving",
    "stem": "Tariq competes in diving and each week he gets a score out of $10$. His results for $10$ weeks are shown in the frequency table.",
@@ -133566,6 +133745,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y8-8d-freq",
    "label": "10a",
    "section": "Problem-solving",
    "stem": "The graph shows the ages of all the students in a school's robotics club.",
@@ -133601,6 +133781,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y8-8d-freq",
    "label": "10b",
    "section": "Problem-solving",
    "stem": "The graph shows the ages of all the students in a school's robotics club.",
@@ -133612,6 +133793,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y8-8d-freq",
    "label": "10c",
    "section": "Problem-solving",
    "stem": "The graph shows the ages of all the students in a school's robotics club.",
@@ -133622,6 +133804,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y8-8d-missing",
    "label": "11a",
    "section": "Problem-solving",
    "stem": "In each case, find the missing number (shown as ?).",
@@ -133631,6 +133814,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y8-8d-missing",
    "label": "11b",
    "section": "Problem-solving",
    "stem": "In each case, find the missing number (shown as ?).",
@@ -133640,6 +133824,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y8-8d-missing",
    "label": "11c",
    "section": "Problem-solving",
    "stem": "In each case, find the missing number (shown as ?).",
@@ -133649,6 +133834,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11d",
+   "help": "y8-8d-missing",
    "label": "11d",
    "section": "Problem-solving",
    "stem": "In each case, find the missing number (shown as ?).",
@@ -133658,6 +133844,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11e",
+   "help": "y8-8d-missing",
    "label": "11e",
    "section": "Problem-solving",
    "stem": "In each case, find the missing number (shown as ?).",
@@ -133667,6 +133854,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y8-8d-outlier",
    "label": "12a",
    "section": "Reasoning",
    "stem": "Zara writes down how many hours she works each day for one week.",
@@ -133698,6 +133886,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y8-8d-outlier",
    "label": "12b",
    "section": "Reasoning",
    "stem": "Zara writes down how many hours she works each day for one week.",
@@ -133708,6 +133897,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y8-8d-outlier",
    "label": "12c",
    "section": "Reasoning",
    "stem": "Zara writes down how many hours she works each day for one week.",
@@ -133718,6 +133908,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12d",
+   "help": "y8-8d-outlier",
    "label": "12d",
    "section": "Reasoning",
    "stem": "Zara writes down how many hours she works each day for one week.",
@@ -133734,6 +133925,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y8-8d-transform",
    "label": "13a",
    "section": "Reasoning",
    "stem": "Consider the set $2, 4, 6, 9, 9$.",
@@ -133743,6 +133935,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y8-8d-transform",
    "label": "13b",
    "section": "Reasoning",
    "stem": "Consider the set $2, 4, 6, 9, 9$.",
@@ -133752,6 +133945,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13c",
+   "help": "y8-8d-transform",
    "label": "13c",
    "section": "Reasoning",
    "stem": "Consider the set $2, 4, 6, 9, 9$.",
@@ -133761,6 +133955,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13d",
+   "help": "y8-8d-transform",
    "label": "13d",
    "section": "Reasoning",
    "stem": "Consider the set $2, 4, 6, 9, 9$.",
@@ -133770,6 +133965,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13e",
+   "help": "y8-8d-transform",
    "label": "13e",
    "section": "Reasoning",
    "stem": "Consider the set $2, 4, 6, 9, 9$.",
@@ -133779,6 +133975,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y8-8d-outlier",
    "label": "14a",
    "section": "Reasoning",
    "stem": "The prices of all the houses in Banksia Court are: $\\$610\\,000, \\$545\\,000, \\$720\\,000, \\$580\\,000, \\$865\\,000, \\$635\\,000, \\$790\\,000, \\$700\\,000$ and one mansion worth $\\$9.2$ million.",
@@ -133789,6 +133986,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y8-8d-outlier",
    "label": "14b",
    "section": "Reasoning",
    "stem": "The prices of all the houses in Banksia Court are: $\\$610\\,000, \\$545\\,000, \\$720\\,000, \\$580\\,000, \\$865\\,000, \\$635\\,000, \\$790\\,000, \\$700\\,000$ and one mansion worth $\\$9.2$ million.",
@@ -133799,6 +133997,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14c",
+   "help": "y8-8d-outlier",
    "label": "14c",
    "section": "Reasoning",
    "stem": "The prices of all the houses in Banksia Court are: $\\$610\\,000, \\$545\\,000, \\$720\\,000, \\$580\\,000, \\$865\\,000, \\$635\\,000, \\$790\\,000, \\$700\\,000$ and one mansion worth $\\$9.2$ million.",
@@ -133813,6 +134012,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14d",
+   "help": "y8-8d-outlier",
    "label": "14d",
    "section": "Reasoning",
    "stem": "The prices of all the houses in Banksia Court are: $\\$610\\,000, \\$545\\,000, \\$720\\,000, \\$580\\,000, \\$865\\,000, \\$635\\,000, \\$790\\,000, \\$700\\,000$ and one mansion worth $\\$9.2$ million.",
@@ -133827,6 +134027,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15a",
+   "help": "y8-8d-noscale",
    "label": "15a",
    "section": "Reasoning",
    "stem": "These frequency graphs are drawn to scale, but the frequencies have been left off. Find the median for each one.",
@@ -133944,6 +134145,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15b",
+   "help": "y8-8d-noscale",
    "label": "15b",
    "section": "Reasoning",
    "stem": "These frequency graphs are drawn to scale, but the frequencies have been left off. Find the median for each one.",
@@ -134033,6 +134235,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15c",
+   "help": "y8-8d-noscale",
    "label": "15c",
    "section": "Reasoning",
    "stem": "These frequency graphs are drawn to scale, but the frequencies have been left off. Find the median for each one.",
@@ -134150,6 +134353,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15d",
+   "help": "y8-8d-noscale",
    "label": "15d",
    "section": "Reasoning",
    "stem": "These frequency graphs are drawn to scale, but the frequencies have been left off. Find the median for each one.",
@@ -134295,6 +134499,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16a",
+   "help": "y8-8d-possible",
    "label": "16a",
    "section": "Reasoning",
    "stem": "Decide whether each description of a data set is possible.",
@@ -134308,6 +134513,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16b",
+   "help": "y8-8d-possible",
    "label": "16b",
    "section": "Reasoning",
    "stem": "Decide whether each description of a data set is possible.",
@@ -134321,6 +134527,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16c",
+   "help": "y8-8d-possible",
    "label": "16c",
    "section": "Reasoning",
    "stem": "Decide whether each description of a data set is possible.",
@@ -134334,6 +134541,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16d",
+   "help": "y8-8d-possible",
    "label": "16d",
    "section": "Reasoning",
    "stem": "Decide whether each description of a data set is possible.",
@@ -134347,6 +134555,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17a",
+   "help": "y8-8d-grades",
    "label": "17a",
    "section": "Enrichment",
    "stem": "At one school, marks are given grades using this guide. In one semester Kathryn's grades were B, C, A, C, D, B, A, C. Her final mark is the mean of her $8$ marks (all whole numbers).",
@@ -134377,6 +134586,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17b",
+   "help": "y8-8d-grades",
    "label": "17b",
    "section": "Enrichment",
    "stem": "At one school, marks are given grades using this guide. In one semester Kathryn's grades were B, C, A, C, D, B, A, C. Her final mark is the mean of her $8$ marks (all whole numbers).",
@@ -134386,6 +134596,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17c",
+   "help": "y8-8d-grades",
    "label": "17c",
    "section": "Enrichment",
    "stem": "At one school, marks are given grades using this guide. In one semester Kathryn's grades were B, C, A, C, D, B, A, C. Her final mark is the mean of her $8$ marks (all whole numbers).",
@@ -134399,6 +134610,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17d",
+   "help": "y8-8d-grades",
    "label": "17d",
    "section": "Enrichment",
    "stem": "At one school, marks are given grades using this guide. In one semester Kathryn's grades were B, C, A, C, D, B, A, C. Her final mark is the mean of her $8$ marks (all whole numbers).",
@@ -134414,6 +134626,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17e",
+   "help": "y8-8d-grades",
    "label": "17e",
    "section": "Enrichment",
    "stem": "At one school, marks are given grades using this guide. In one semester Kathryn's grades were B, C, A, C, D, B, A, C. Her final mark is the mean of her $8$ marks (all whole numbers).",
@@ -134423,6 +134636,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17f",
+   "help": "y8-8d-grades",
    "label": "17f",
    "section": "Enrichment",
    "stem": "At one school, marks are given grades using this guide. In one semester Kathryn's grades were B, C, A, C, D, B, A, C. Her final mark is the mean of her $8$ marks (all whole numbers).",
@@ -134432,6 +134646,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17g",
+   "help": "y8-8d-grades",
    "label": "17g",
    "section": "Enrichment",
    "stem": "At one school, marks are given grades using this guide. In one semester Kathryn's grades were B, C, A, C, D, B, A, C. Her final mark is the mean of her $8$ marks (all whole numbers).",
@@ -134456,6 +134671,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-8e-range",
    "label": "1a",
    "section": "Fluency",
    "stem": "Find the range of each set of data.",
@@ -134465,6 +134681,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-8e-range",
    "label": "1b",
    "section": "Fluency",
    "stem": "Find the range of each set of data.",
@@ -134474,6 +134691,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-8e-range",
    "label": "2a",
    "section": "Fluency",
    "stem": "Find the range of each set.",
@@ -134483,6 +134701,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-8e-range",
    "label": "2b",
    "section": "Fluency",
    "stem": "Find the range of each set.",
@@ -134492,6 +134711,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-8e-range",
    "label": "2c",
    "section": "Fluency",
    "stem": "Find the range of each set.",
@@ -134501,6 +134721,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y8-8e-range",
    "label": "2d",
    "section": "Fluency",
    "stem": "Find the range of each set.",
@@ -134510,6 +134731,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y8-8e-range",
    "label": "2e",
    "section": "Fluency",
    "stem": "Find the range of each set.",
@@ -134519,6 +134741,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y8-8e-range",
    "label": "2f",
    "section": "Fluency",
    "stem": "Find the range of each set.",
@@ -134528,6 +134751,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-8e-iqr",
    "label": "3a",
    "section": "Fluency",
    "stem": "Find the IQR of each set.",
@@ -134538,6 +134762,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-8e-iqr",
    "label": "3b",
    "section": "Fluency",
    "stem": "Find the IQR of each set.",
@@ -134547,6 +134772,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-8e-iqr",
    "label": "3c",
    "section": "Fluency",
    "stem": "Find the IQR of each set.",
@@ -134556,6 +134782,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y8-8e-iqr",
    "label": "3d",
    "section": "Fluency",
    "stem": "Find the IQR of each set.",
@@ -134565,6 +134792,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y8-8e-iqr",
    "label": "3e",
    "section": "Fluency",
    "stem": "Find the IQR of each set.",
@@ -134574,6 +134802,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y8-8e-iqr",
    "label": "3f",
    "section": "Fluency",
    "stem": "Find the IQR of each set.",
@@ -134583,6 +134812,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-8e-iqr-odd",
    "label": "4a",
    "section": "Fluency",
    "stem": "Find the IQR of each set. (There is an odd number of values, so leave out the middle one first.)",
@@ -134592,6 +134822,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-8e-iqr-odd",
    "label": "4b",
    "section": "Fluency",
    "stem": "Find the IQR of each set. (There is an odd number of values, so leave out the middle one first.)",
@@ -134601,6 +134832,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y8-8e-iqr-odd",
    "label": "4c",
    "section": "Fluency",
    "stem": "Find the IQR of each set. (There is an odd number of values, so leave out the middle one first.)",
@@ -134610,6 +134842,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y8-8e-iqr-odd",
    "label": "4d",
    "section": "Fluency",
    "stem": "Find the IQR of each set. (There is an odd number of values, so leave out the middle one first.)",
@@ -134619,6 +134852,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y8-8e-iqr-odd",
    "label": "4e",
    "section": "Fluency",
    "stem": "Find the IQR of each set. (There is an odd number of values, so leave out the middle one first.)",
@@ -134628,6 +134862,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y8-8e-iqr-odd",
    "label": "4f",
    "section": "Fluency",
    "stem": "Find the IQR of each set. (There is an odd number of values, so leave out the middle one first.)",
@@ -134637,6 +134872,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y8-8e-iqr",
    "label": "5a",
    "section": "Fluency",
    "stem": "Find the IQR of each set. Remember to sort the numbers first.",
@@ -134646,6 +134882,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y8-8e-iqr",
    "label": "5b",
    "section": "Fluency",
    "stem": "Find the IQR of each set. Remember to sort the numbers first.",
@@ -134655,6 +134892,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y8-8e-iqr",
    "label": "5c",
    "section": "Fluency",
    "stem": "Find the IQR of each set. Remember to sort the numbers first.",
@@ -134664,6 +134902,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y8-8e-iqr",
    "label": "5d",
    "section": "Fluency",
    "stem": "Find the IQR of each set. Remember to sort the numbers first.",
@@ -134673,6 +134912,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y8-8e-iqr",
    "label": "5e",
    "section": "Fluency",
    "stem": "Find the IQR of each set. Remember to sort the numbers first.",
@@ -134682,6 +134922,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y8-8e-iqr",
    "label": "5f",
    "section": "Fluency",
    "stem": "Find the IQR of each set. Remember to sort the numbers first.",
@@ -134691,6 +134932,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5g",
+   "help": "y8-8e-iqr",
    "label": "5g",
    "section": "Fluency",
    "stem": "Find the IQR of each set. Remember to sort the numbers first.",
@@ -134700,6 +134942,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5h",
+   "help": "y8-8e-iqr",
    "label": "5h",
    "section": "Fluency",
    "stem": "Find the IQR of each set. Remember to sort the numbers first.",
@@ -134709,6 +134952,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y8-8e-compare",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "Mia and Zara compare the number of goals they shoot in netball over ten games. Mia: $14,\\ 18,\\ 12,\\ 16,\\ 19,\\ 13,\\ 17,\\ 15,\\ 11,\\ 16$. Zara: $22,\\ 7,\\ 25,\\ 11,\\ 30,\\ 9,\\ 19,\\ 27,\\ 14,\\ 24$.",
@@ -134718,6 +134962,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y8-8e-compare",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "Mia and Zara compare the number of goals they shoot in netball over ten games. Mia: $14,\\ 18,\\ 12,\\ 16,\\ 19,\\ 13,\\ 17,\\ 15,\\ 11,\\ 16$. Zara: $22,\\ 7,\\ 25,\\ 11,\\ 30,\\ 9,\\ 19,\\ 27,\\ 14,\\ 24$.",
@@ -134727,6 +134972,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y8-8e-compare",
    "label": "6c",
    "section": "Problem-solving",
    "stem": "Mia and Zara compare the number of goals they shoot in netball over ten games. Mia: $14,\\ 18,\\ 12,\\ 16,\\ 19,\\ 13,\\ 17,\\ 15,\\ 11,\\ 16$. Zara: $22,\\ 7,\\ 25,\\ 11,\\ 30,\\ 9,\\ 19,\\ 27,\\ 14,\\ 24$.",
@@ -134740,6 +134986,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y8-8e-compare",
    "label": "6d",
    "section": "Problem-solving",
    "stem": "Mia and Zara compare the number of goals they shoot in netball over ten games. Mia: $14,\\ 18,\\ 12,\\ 16,\\ 19,\\ 13,\\ 17,\\ 15,\\ 11,\\ 16$. Zara: $22,\\ 7,\\ 25,\\ 11,\\ 30,\\ 9,\\ 19,\\ 27,\\ 14,\\ 24$.",
@@ -134753,6 +135000,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y8-8e-compare",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "The dot plot shows how many years each person has volunteered at an animal shelter.",
@@ -134783,6 +135031,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y8-8e-compare",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "The dot plot shows how many years each person has volunteered at an animal shelter.",
@@ -134793,6 +135042,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y8-8e-iqr-odd",
    "label": "8a",
    "section": "Problem-solving",
    "stem": "Lena and Omar record how many kilometres they cycle each day for a week.",
@@ -134838,6 +135088,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y8-8e-iqr-odd",
    "label": "8b",
    "section": "Problem-solving",
    "stem": "Lena and Omar record how many kilometres they cycle each day for a week.",
@@ -134848,6 +135099,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y8-8e-iqr-odd",
    "label": "8c",
    "section": "Problem-solving",
    "stem": "Lena and Omar record how many kilometres they cycle each day for a week.",
@@ -134861,6 +135113,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y8-8e-freq",
    "label": "9a",
    "section": "Problem-solving",
    "stem": "Over a $20$-week period, Ella and Josh record their weekly spelling test scores (out of $10$). The table shows how many weeks they got each score.",
@@ -134935,6 +135188,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y8-8e-freq",
    "label": "9b",
    "section": "Problem-solving",
    "stem": "Over a $20$-week period, Ella and Josh record their weekly spelling test scores (out of $10$). The table shows how many weeks they got each score.",
@@ -134944,6 +135198,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y8-8e-freq",
    "label": "9c",
    "section": "Problem-solving",
    "stem": "Over a $20$-week period, Ella and Josh record their weekly spelling test scores (out of $10$). The table shows how many weeks they got each score.",
@@ -134954,6 +135209,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y8-8e-freq",
    "label": "9d",
    "section": "Problem-solving",
    "stem": "Over a $20$-week period, Ella and Josh record their weekly spelling test scores (out of $10$). The table shows how many weeks they got each score.",
@@ -134963,6 +135219,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9e",
+   "help": "y8-8e-freq",
    "label": "9e",
    "section": "Problem-solving",
    "stem": "Over a $20$-week period, Ella and Josh record their weekly spelling test scores (out of $10$). The table shows how many weeks they got each score.",
@@ -134976,6 +135233,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9f",
+   "help": "y8-8e-freq",
    "label": "9f",
    "section": "Problem-solving",
    "stem": "Over a $20$-week period, Ella and Josh record their weekly spelling test scores (out of $10$). The table shows how many weeks they got each score.",
@@ -134989,6 +135247,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y8-8e-outlier",
    "label": "11a",
    "section": "Reasoning",
    "stem": "Consider the set of numbers $3,\\ 4,\\ 4,\\ 6,\\ 7,\\ 8,\\ 8,\\ 8,\\ 11,\\ 12$.",
@@ -134998,6 +135257,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y8-8e-outlier",
    "label": "11b",
    "section": "Reasoning",
    "stem": "Consider the set of numbers $3,\\ 4,\\ 4,\\ 6,\\ 7,\\ 8,\\ 8,\\ 8,\\ 11,\\ 12$.",
@@ -135007,6 +135267,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y8-8e-outlier",
    "label": "11c",
    "section": "Reasoning",
    "stem": "Consider the set of numbers $3,\\ 4,\\ 4,\\ 6,\\ 7,\\ 8,\\ 8,\\ 8,\\ 11,\\ 12$.",
@@ -135016,6 +135277,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11d",
+   "help": "y8-8e-outlier",
    "label": "11d",
    "section": "Reasoning",
    "stem": "Consider the set of numbers $3,\\ 4,\\ 4,\\ 6,\\ 7,\\ 8,\\ 8,\\ 8,\\ 11,\\ 12$.",
@@ -135025,6 +135287,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y8-8e-outlier",
    "label": "12a",
    "section": "Reasoning",
    "stem": "Consider the set $2,\\ 5,\\ 6,\\ 6,\\ 9,\\ 10,\\ 14$.",
@@ -135034,6 +135297,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y8-8e-outlier",
    "label": "12b",
    "section": "Reasoning",
    "stem": "Consider the set $2,\\ 5,\\ 6,\\ 6,\\ 9,\\ 10,\\ 14$.",
@@ -135043,6 +135307,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y8-8e-outlier",
    "label": "12c",
    "section": "Reasoning",
    "stem": "Consider the set $2,\\ 5,\\ 6,\\ 6,\\ 9,\\ 10,\\ 14$.",
@@ -135056,6 +135321,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12d",
+   "help": "y8-8e-outlier",
    "label": "12d",
    "section": "Reasoning",
    "stem": "Consider the set $2,\\ 5,\\ 6,\\ 6,\\ 9,\\ 10,\\ 14$.",
@@ -135069,6 +135335,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y8-8e-compare",
    "label": "13a",
    "section": "Reasoning",
    "stem": "A set has $3$ numbers. What happens to the range if:",
@@ -135084,6 +135351,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y8-8e-compare",
    "label": "13b",
    "section": "Reasoning",
    "stem": "A set has $3$ numbers. What happens to the range if:",
@@ -135099,6 +135367,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14",
+   "help": "y8-8e-outlier",
    "label": "14",
    "section": "Reasoning",
    "type": "choice",
@@ -135113,6 +135382,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15a",
+   "help": "y8-8e-freq",
    "label": "15a",
    "section": "Enrichment",
    "stem": "Consider the data in this frequency table.",
@@ -135143,6 +135413,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15b",
+   "help": "y8-8e-freq",
    "label": "15b",
    "section": "Enrichment",
    "stem": "Consider the data in this frequency table.",
@@ -135152,6 +135423,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15c",
+   "help": "y8-8e-freq",
    "label": "15c",
    "section": "Enrichment",
    "stem": "Consider the data in this frequency table.",
@@ -135161,6 +135433,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15d",
+   "help": "y8-8e-freq",
    "label": "15d",
    "section": "Enrichment",
    "stem": "Consider the data in this frequency table.",
@@ -135170,6 +135443,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15e",
+   "help": "y8-8e-freq",
    "label": "15e",
    "section": "Enrichment",
    "stem": "Consider the data in this frequency table.",
@@ -135179,6 +135453,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15f",
+   "help": "y8-8e-freq",
    "label": "15f",
    "section": "Enrichment",
    "stem": "Consider the data in this frequency table.",
@@ -135197,6 +135472,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-8f-proportion",
    "label": "1a",
    "section": "Fluency",
    "stem": "Anika checks $60$ randomly selected bikes at a bike rack and finds that $9$ have a flat tyre.",
@@ -135206,6 +135482,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-8f-proportion",
    "label": "1b",
    "section": "Fluency",
    "stem": "Anika checks $60$ randomly selected bikes at a bike rack and finds that $9$ have a flat tyre.",
@@ -135216,6 +135493,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-8f-shape",
    "label": "2a",
    "section": "Fluency",
    "stem": "Classify each graph as symmetric, positively skewed, negatively skewed or bi-modal.",
@@ -135256,6 +135534,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-8f-shape",
    "label": "2b",
    "section": "Fluency",
    "stem": "Classify each graph as symmetric, positively skewed, negatively skewed or bi-modal.",
@@ -135296,6 +135575,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-8f-shape",
    "label": "2c",
    "section": "Fluency",
    "stem": "Classify each graph as symmetric, positively skewed, negatively skewed or bi-modal.",
@@ -135336,6 +135616,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y8-8f-shape",
    "label": "2d",
    "section": "Fluency",
    "stem": "Classify each graph as symmetric, positively skewed, negatively skewed or bi-modal.",
@@ -135376,6 +135657,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y8-8f-shape",
    "label": "2e",
    "section": "Fluency",
    "stem": "Classify each graph as symmetric, positively skewed, negatively skewed or bi-modal.",
@@ -135414,6 +135696,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-8f-proportion",
    "label": "3a",
    "section": "Fluency",
    "stem": "A survey asks people how many times they went to the cinema last month. You can assume it is a representative sample of the population.",
@@ -135452,6 +135735,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-8f-proportion",
    "label": "3b",
    "section": "Fluency",
    "stem": "A survey asks people how many times they went to the cinema last month. You can assume it is a representative sample of the population.",
@@ -135462,6 +135746,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-8f-proportion",
    "label": "3c",
    "section": "Fluency",
    "stem": "A survey asks people how many times they went to the cinema last month. You can assume it is a representative sample of the population.",
@@ -135472,6 +135757,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-8f-proportion",
    "label": "4a",
    "section": "Fluency",
    "stem": "A simple random sample of $20$ children is asked how many different sports they play. The results are shown in the graph. Assume the sample is representative of all children.",
@@ -135500,6 +135786,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-8f-proportion",
    "label": "4b",
    "section": "Fluency",
    "stem": "A simple random sample of $20$ children is asked how many different sports they play. The results are shown in the graph. Assume the sample is representative of all children.",
@@ -135510,6 +135797,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y8-8f-proportion",
    "label": "4c",
    "section": "Fluency",
    "stem": "A simple random sample of $20$ children is asked how many different sports they play. The results are shown in the graph. Assume the sample is representative of all children.",
@@ -135525,6 +135813,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y8-8f-proportion",
    "label": "4d",
    "section": "Fluency",
    "stem": "A simple random sample of $20$ children is asked how many different sports they play. The results are shown in the graph. Assume the sample is representative of all children.",
@@ -135538,6 +135827,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y8-8f-sample",
    "label": "5a",
    "section": "Fluency",
    "stem": "Decide whether each of these is a sample or a population.",
@@ -135551,6 +135841,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y8-8f-sample",
    "label": "5b",
    "section": "Fluency",
    "stem": "Decide whether each of these is a sample or a population.",
@@ -135564,6 +135855,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y8-8f-sample",
    "label": "5c",
    "section": "Fluency",
    "stem": "Decide whether each of these is a sample or a population.",
@@ -135577,6 +135869,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y8-8f-sample",
    "label": "5d",
    "section": "Fluency",
    "stem": "Decide whether each of these is a sample or a population.",
@@ -135590,6 +135883,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y8-8f-questions",
    "label": "6a",
    "section": "Fluency",
    "stem": "Nia wants to find out whether there is a relationship between people's ages and how much sleep they get. Should each question be included in her survey?",
@@ -135603,6 +135897,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y8-8f-questions",
    "label": "6b",
    "section": "Fluency",
    "stem": "Nia wants to find out whether there is a relationship between people's ages and how much sleep they get. Should each question be included in her survey?",
@@ -135616,6 +135911,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y8-8f-questions",
    "label": "6c",
    "section": "Fluency",
    "stem": "Nia wants to find out whether there is a relationship between people's ages and how much sleep they get. Should each question be included in her survey?",
@@ -135629,6 +135925,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y8-8f-questions",
    "label": "6d",
    "section": "Fluency",
    "stem": "Nia wants to find out whether there is a relationship between people's ages and how much sleep they get. Should each question be included in her survey?",
@@ -135642,6 +135939,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6e",
+   "help": "y8-8f-questions",
    "label": "6e",
    "section": "Fluency",
    "stem": "Nia wants to find out whether there is a relationship between people's ages and how much sleep they get. Should each question be included in her survey?",
@@ -135655,6 +135953,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6f",
+   "help": "y8-8f-questions",
    "label": "6f",
    "section": "Fluency",
    "stem": "Nia wants to find out whether there is a relationship between people's ages and how much sleep they get. Should each question be included in her survey?",
@@ -135668,6 +135967,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6g",
+   "help": "y8-8f-questions",
    "label": "6g",
    "section": "Fluency",
    "stem": "Nia wants to find out whether there is a relationship between people's ages and how much sleep they get. Should each question be included in her survey?",
@@ -135681,6 +135981,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y8-8f-sample",
    "label": "7a",
    "section": "Fluency",
    "stem": "You want to know the average number of hours of sport played each week by students at your high school. You cannot ask everyone, so you will survey about $30$ students. Classify each sampling method.",
@@ -135695,6 +135996,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y8-8f-sample",
    "label": "7b",
    "section": "Fluency",
    "stem": "You want to know the average number of hours of sport played each week by students at your high school. You cannot ask everyone, so you will survey about $30$ students. Classify each sampling method.",
@@ -135709,6 +136011,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y8-8f-sample",
    "label": "7c",
    "section": "Fluency",
    "stem": "You want to know the average number of hours of sport played each week by students at your high school. You cannot ask everyone, so you will survey about $30$ students. Classify each sampling method.",
@@ -135723,6 +136026,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y8-8f-bias",
    "label": "9a",
    "section": "Problem-solving",
    "stem": "For each survey, which place and time would be unsuitable because it is likely to cause bias?",
@@ -135737,6 +136041,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y8-8f-bias",
    "label": "9b",
    "section": "Problem-solving",
    "stem": "For each survey, which place and time would be unsuitable because it is likely to cause bias?",
@@ -135751,6 +136056,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y8-8f-bias",
    "label": "9c",
    "section": "Problem-solving",
    "stem": "For each survey, which place and time would be unsuitable because it is likely to cause bias?",
@@ -135765,6 +136071,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y8-8f-bias",
    "label": "9d",
    "section": "Problem-solving",
    "stem": "For each survey, which place and time would be unsuitable because it is likely to cause bias?",
@@ -135779,6 +136086,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y8-8f-outlier",
    "label": "10a",
    "section": "Problem-solving",
    "stem": "In a factory making muesli bars, a sample of bars is weighed automatically to check they are between $40$ and $45$ grams. The results are shown in the frequency table.",
@@ -135816,6 +136124,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y8-8f-outlier",
    "label": "10b",
    "section": "Problem-solving",
    "stem": "In a factory making muesli bars, a sample of bars is weighed automatically to check they are between $40$ and $45$ grams. The results are shown in the frequency table.",
@@ -135830,6 +136139,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y8-8f-outlier",
    "label": "10c",
    "section": "Problem-solving",
    "stem": "In a factory making muesli bars, a sample of bars is weighed automatically to check they are between $40$ and $45$ grams. The results are shown in the frequency table.",
@@ -135843,6 +136153,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10d",
+   "help": "y8-8f-outlier",
    "label": "10d",
    "section": "Problem-solving",
    "stem": "In a factory making muesli bars, a sample of bars is weighed automatically to check they are between $40$ and $45$ grams. The results are shown in the frequency table.",
@@ -135856,6 +136167,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y8-8f-bias",
    "label": "11a",
    "section": "Problem-solving",
    "stem": "A survey is being run to find out how often adults read books.",
@@ -135870,6 +136182,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y8-8f-bias",
    "label": "11b",
    "section": "Problem-solving",
    "stem": "A survey is being run to find out how often adults read books.",
@@ -135884,6 +136197,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12",
+   "help": "y8-8f-bias",
    "label": "12",
    "section": "Reasoning",
    "type": "choice",
@@ -135898,6 +136212,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y8-8f-extremes",
    "label": "13a",
    "section": "Reasoning",
    "stem": "In a town of $100$ people, a census recorded the number of bedrooms in each person's home. The mean for the whole population is $3.4$. A researcher who cannot see the full results chooses a sample of ten people to estimate the mean.",
@@ -135934,6 +136249,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y8-8f-extremes",
    "label": "13b",
    "section": "Reasoning",
    "stem": "In a town of $100$ people, a census recorded the number of bedrooms in each person's home. The mean for the whole population is $3.4$. A researcher who cannot see the full results chooses a sample of ten people to estimate the mean.",
@@ -135947,6 +136263,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13c",
+   "help": "y8-8f-extremes",
    "label": "13c",
    "section": "Reasoning",
    "stem": "In a town of $100$ people, a census recorded the number of bedrooms in each person's home. The mean for the whole population is $3.4$. A researcher who cannot see the full results chooses a sample of ten people to estimate the mean.",
@@ -135957,6 +136274,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13d",
+   "help": "y8-8f-extremes",
    "label": "13d",
    "section": "Reasoning",
    "stem": "In a town of $100$ people, a census recorded the number of bedrooms in each person's home. The mean for the whole population is $3.4$. A researcher who cannot see the full results chooses a sample of ten people to estimate the mean.",
@@ -135967,6 +136285,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y8-8f-nonresponse",
    "label": "14a",
    "section": "Reasoning",
    "stem": "A council posts $1000$ surveys to a random sample of residents asking 'Should the town build a skate park?' Only $250$ replies come back: $175$ say 'yes' and $75$ say 'no'.",
@@ -135977,6 +136296,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y8-8f-nonresponse",
    "label": "14b",
    "section": "Reasoning",
    "stem": "A council posts $1000$ surveys to a random sample of residents asking 'Should the town build a skate park?' Only $250$ replies come back: $175$ say 'yes' and $75$ say 'no'.",
@@ -135987,6 +136307,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14c",
+   "help": "y8-8f-nonresponse",
    "label": "14c",
    "section": "Reasoning",
    "stem": "A council posts $1000$ surveys to a random sample of residents asking 'Should the town build a skate park?' Only $250$ replies come back: $175$ say 'yes' and $75$ say 'no'.",
@@ -135997,6 +136318,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14d",
+   "help": "y8-8f-nonresponse",
    "label": "14d",
    "section": "Reasoning",
    "stem": "A council posts $1000$ surveys to a random sample of residents asking 'Should the town build a skate park?' Only $250$ replies come back: $175$ say 'yes' and $75$ say 'no'.",
@@ -136020,6 +136342,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-8g-sample",
    "label": "1a",
    "section": "Fluency",
    "stem": "The letters of the word MANGO are written on $5$ cards, and one card is drawn at random from a hat.",
@@ -136036,6 +136359,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-8g-sample",
    "label": "1b",
    "section": "Fluency",
    "stem": "The letters of the word MANGO are written on $5$ cards, and one card is drawn at random from a hat.",
@@ -136046,6 +136370,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y8-8g-sample",
    "label": "1c",
    "section": "Fluency",
    "stem": "The letters of the word MANGO are written on $5$ cards, and one card is drawn at random from a hat.",
@@ -136059,6 +136384,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y8-8g-sample",
    "label": "1d",
    "section": "Fluency",
    "stem": "The letters of the word MANGO are written on $5$ cards, and one card is drawn at random from a hat.",
@@ -136068,6 +136394,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y8-8g-sample",
    "label": "1e",
    "section": "Fluency",
    "stem": "The letters of the word MANGO are written on $5$ cards, and one card is drawn at random from a hat.",
@@ -136080,6 +136407,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y8-8g-sample",
    "label": "1f",
    "section": "Fluency",
    "stem": "The letters of the word MANGO are written on $5$ cards, and one card is drawn at random from a hat.",
@@ -136089,6 +136417,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-8g-sample",
    "label": "2a",
    "section": "Fluency",
    "stem": "A fair eight-sided die, numbered $1$ to $8$, is rolled.",
@@ -136108,6 +136437,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-8g-sample",
    "label": "2b",
    "section": "Fluency",
    "stem": "A fair eight-sided die, numbered $1$ to $8$, is rolled.",
@@ -136117,6 +136447,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-8g-sample",
    "label": "2c",
    "section": "Fluency",
    "stem": "A fair eight-sided die, numbered $1$ to $8$, is rolled.",
@@ -136126,6 +136457,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y8-8g-sample",
    "label": "2d",
    "section": "Fluency",
    "stem": "A fair eight-sided die, numbered $1$ to $8$, is rolled.",
@@ -136143,6 +136475,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y8-8g-sample",
    "label": "2e",
    "section": "Fluency",
    "stem": "A fair eight-sided die, numbered $1$ to $8$, is rolled.",
@@ -136152,6 +136485,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y8-8g-sample",
    "label": "2f",
    "section": "Fluency",
    "stem": "A fair eight-sided die, numbered $1$ to $8$, is rolled.",
@@ -136161,6 +136495,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-8g-atleast",
    "label": "3a",
    "section": "Fluency",
    "stem": "Seven cards are numbered $1$ to $7$, each with a different number. One card is chosen at random.",
@@ -136178,6 +136513,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-8g-atleast",
    "label": "3b",
    "section": "Fluency",
    "stem": "Seven cards are numbered $1$ to $7$. One card is chosen at random. Find the probability of selecting:",
@@ -136187,6 +136523,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-8g-atleast",
    "label": "3c",
    "section": "Fluency",
    "stem": "Seven cards are numbered $1$ to $7$. One card is chosen at random. Find the probability of selecting:",
@@ -136196,6 +136533,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y8-8g-atleast",
    "label": "3d",
    "section": "Fluency",
    "stem": "Seven cards are numbered $1$ to $7$. One card is chosen at random. Find the probability of selecting:",
@@ -136205,6 +136543,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y8-8g-atleast",
    "label": "3e",
    "section": "Fluency",
    "stem": "Seven cards are numbered $1$ to $7$. One card is chosen at random. Find the probability of selecting:",
@@ -136214,6 +136553,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y8-8g-atleast",
    "label": "3f",
    "section": "Fluency",
    "stem": "Seven cards are numbered $1$ to $7$. Which phrase describes each event?",
@@ -136229,6 +136569,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3g",
+   "help": "y8-8g-atleast",
    "label": "3g",
    "section": "Fluency",
    "stem": "Seven cards are numbered $1$ to $7$. Which phrase describes each event?",
@@ -136244,6 +136585,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3h",
+   "help": "y8-8g-atleast",
    "label": "3h",
    "section": "Fluency",
    "stem": "Seven cards are numbered $1$ to $7$. Which phrase describes each event?",
@@ -136259,6 +136601,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3i",
+   "help": "y8-8g-atleast",
    "label": "3i",
    "section": "Fluency",
    "stem": "Seven cards are numbered $1$ to $7$. Which phrase describes each event?",
@@ -136274,6 +136617,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-8g-complement",
    "label": "4a",
    "section": "Fluency",
    "stem": "Find each probability.",
@@ -136283,6 +136627,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-8g-complement",
    "label": "4b",
    "section": "Fluency",
    "stem": "Find each probability.",
@@ -136292,6 +136637,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y8-8g-complement",
    "label": "4c",
    "section": "Fluency",
    "stem": "Find each probability.",
@@ -136301,6 +136647,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y8-8g-complement",
    "label": "4d",
    "section": "Fluency",
    "stem": "Find each probability.",
@@ -136310,6 +136657,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y8-8g-complement",
    "label": "4e",
    "section": "Fluency",
    "stem": "Find each probability.",
@@ -136319,6 +136667,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y8-8g-complement",
    "label": "4f",
    "section": "Fluency",
    "stem": "Find each probability.",
@@ -136328,6 +136677,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y8-8g-count",
    "label": "5a",
    "section": "Fluency",
    "stem": "There are four blue marbles, three yellow marbles and five white marbles. The $12$ marbles are placed in a bag and one is picked out at random.",
@@ -136337,6 +136687,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y8-8g-count",
    "label": "5b",
    "section": "Fluency",
    "stem": "There are four blue marbles, three yellow marbles and five white marbles. The $12$ marbles are placed in a bag and one is picked out at random.",
@@ -136346,6 +136697,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y8-8g-count",
    "label": "5c",
    "section": "Fluency",
    "stem": "There are four blue marbles, three yellow marbles and five white marbles. The $12$ marbles are placed in a bag and one is picked out at random.",
@@ -136355,6 +136707,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y8-8g-count",
    "label": "5d",
    "section": "Fluency",
    "stem": "There are four blue marbles, three yellow marbles and five white marbles. The $12$ marbles are placed in a bag and one is picked out at random.",
@@ -136364,6 +136717,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y8-8g-count",
    "label": "5e",
    "section": "Fluency",
    "stem": "There are four blue marbles, three yellow marbles and five white marbles. The $12$ marbles are placed in a bag and one is picked out at random.",
@@ -136373,6 +136727,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y8-8g-count",
    "label": "5f",
    "section": "Fluency",
    "stem": "There are four blue marbles, three yellow marbles and five white marbles. The $12$ marbles are placed in a bag and one is picked out at random.",
@@ -136382,6 +136737,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y8-8g-count",
    "label": "6a",
    "section": "Fluency",
    "stem": "A spinner has eight equal sections coloured as shown (G = green, B = blue, R = red, Y = yellow).",
@@ -136404,6 +136760,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y8-8g-count",
    "label": "6b",
    "section": "Fluency",
    "stem": "A spinner has eight equal sections coloured as shown (G = green, B = blue, R = red, Y = yellow).",
@@ -136413,6 +136770,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y8-8g-count",
    "label": "6c",
    "section": "Fluency",
    "stem": "A spinner has eight equal sections coloured as shown (G = green, B = blue, R = red, Y = yellow).",
@@ -136422,6 +136780,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y8-8g-count",
    "label": "6d",
    "section": "Fluency",
    "stem": "A spinner has eight equal sections coloured as shown (G = green, B = blue, R = red, Y = yellow).",
@@ -136431,6 +136790,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6e",
+   "help": "y8-8g-count",
    "label": "6e",
    "section": "Fluency",
    "stem": "A spinner has eight equal sections coloured as shown (G = green, B = blue, R = red, Y = yellow).",
@@ -136445,6 +136805,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6f",
+   "help": "y8-8g-count",
    "label": "6f",
    "section": "Fluency",
    "stem": "A spinner has eight equal sections coloured as shown (G = green, B = blue, R = red, Y = yellow).",
@@ -136454,6 +136815,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6g",
+   "help": "y8-8g-count",
    "label": "6g",
    "section": "Fluency",
    "stem": "A spinner has eight equal sections coloured as shown (G = green, B = blue, R = red, Y = yellow).",
@@ -136463,6 +136825,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6h",
+   "help": "y8-8g-count",
    "label": "6h",
    "section": "Fluency",
    "stem": "A spinner has eight equal sections coloured as shown (G = green, B = blue, R = red, Y = yellow).",
@@ -136477,6 +136840,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y8-8g-atleast",
    "label": "7a",
    "section": "Fluency",
    "stem": "The numbers $1$ to $12$ are written on cards, and a card is chosen at random.",
@@ -136499,6 +136863,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y8-8g-atleast",
    "label": "7b",
    "section": "Fluency",
    "stem": "The numbers $1$ to $12$ are written on cards, and a card is chosen at random.",
@@ -136508,6 +136873,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y8-8g-atleast",
    "label": "7c",
    "section": "Fluency",
    "stem": "The numbers $1$ to $12$ are written on cards, and a card is chosen at random.",
@@ -136517,6 +136883,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y8-8g-atleast",
    "label": "7d",
    "section": "Fluency",
    "stem": "The numbers $1$ to $12$ are written on cards, and a card is chosen at random.",
@@ -136526,6 +136893,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7e",
+   "help": "y8-8g-atleast",
    "label": "7e",
    "section": "Fluency",
    "stem": "The numbers $1$ to $12$ are written on cards, and a card is chosen at random.",
@@ -136535,6 +136903,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7f",
+   "help": "y8-8g-atleast",
    "label": "7f",
    "section": "Fluency",
    "stem": "The numbers $1$ to $12$ are written on cards, and a card is chosen at random.",
@@ -136544,6 +136913,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y8-8g-count",
    "label": "8a",
    "section": "Problem-solving",
    "stem": "On a game show, a wheel with six equal sections is spun for a prize. 'Cash' is $\\$5000$ cash, the trip is also worth $\\$5000$, and 'None' means no prize.",
@@ -136564,6 +136934,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y8-8g-count",
    "label": "8b",
    "section": "Problem-solving",
    "stem": "On a game show, a wheel with six equal sections is spun for a prize. 'Cash' is $\\$5000$ cash, the trip is also worth $\\$5000$, and 'None' means no prize.",
@@ -136573,6 +136944,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y8-8g-count",
    "label": "8c",
    "section": "Problem-solving",
    "stem": "On a game show, a wheel with six equal sections is spun for a prize. 'Cash' is $\\$5000$ cash, the trip is also worth $\\$5000$, and 'None' means no prize.",
@@ -136582,6 +136954,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y8-8g-count",
    "label": "8d",
    "section": "Problem-solving",
    "stem": "On a game show, a wheel with six equal sections is spun for a prize. 'Cash' is $\\$5000$ cash, the trip is also worth $\\$5000$, and 'None' means no prize.",
@@ -136591,6 +136964,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9",
+   "help": "y8-8g-count",
    "label": "9",
    "section": "Problem-solving",
    "type": "numeric",
@@ -136600,6 +136974,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y8-8g-complement",
    "label": "10a",
    "section": "Problem-solving",
    "stem": "Kai has some blue, green and white marbles of the same size in his pocket. There is a $0.2$ chance of choosing a green marble and a $0.65$ chance of not choosing a blue marble.",
@@ -136609,6 +136984,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y8-8g-complement",
    "label": "10b",
    "section": "Problem-solving",
    "stem": "Kai has some blue, green and white marbles of the same size in his pocket. There is a $0.2$ chance of choosing a green marble and a $0.65$ chance of not choosing a blue marble.",
@@ -136618,6 +136994,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y8-8g-complement",
    "label": "10c",
    "section": "Problem-solving",
    "stem": "Kai has some blue, green and white marbles of the same size in his pocket. There is a $0.2$ chance of choosing a green marble and a $0.65$ chance of not choosing a blue marble.",
@@ -136627,6 +137004,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10d",
+   "help": "y8-8g-complement",
    "label": "10d",
    "section": "Problem-solving",
    "stem": "Kai has some blue, green and white marbles of the same size in his pocket. There is a $0.2$ chance of choosing a green marble and a $0.65$ chance of not choosing a blue marble.",
@@ -136637,6 +137015,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y8-8g-weighted",
    "label": "11a",
    "section": "Problem-solving",
    "stem": "A weighted die has the numbers $1$ to $6$, but the probability of each number is unknown. Is each statement guaranteed to be true for this die?",
@@ -136650,6 +137029,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y8-8g-weighted",
    "label": "11b",
    "section": "Problem-solving",
    "stem": "A weighted die has the numbers $1$ to $6$, but the probability of each number is unknown. Is each statement guaranteed to be true for this die?",
@@ -136663,6 +137043,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y8-8g-weighted",
    "label": "11c",
    "section": "Problem-solving",
    "stem": "A weighted die has the numbers $1$ to $6$, but the probability of each number is unknown. Is each statement guaranteed to be true for this die?",
@@ -136676,6 +137057,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11d",
+   "help": "y8-8g-weighted",
    "label": "11d",
    "section": "Problem-solving",
    "stem": "A weighted die has the numbers $1$ to $6$, but the probability of each number is unknown. Is each statement guaranteed to be true for this die?",
@@ -136689,6 +137071,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11e",
+   "help": "y8-8g-weighted",
    "label": "11e",
    "section": "Problem-solving",
    "stem": "A weighted die has the numbers $1$ to $6$, but the probability of each number is unknown. Is each statement guaranteed to be true for this die?",
@@ -136702,6 +137085,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11f",
+   "help": "y8-8g-weighted",
    "label": "11f",
    "section": "Problem-solving",
    "stem": "A weighted die has the numbers $1$ to $6$, but the probability of each number is unknown. Is each statement guaranteed to be true for this die?",
@@ -136715,6 +137099,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11g",
+   "help": "y8-8g-weighted",
    "label": "11g",
    "section": "Problem-solving",
    "stem": "A weighted die has the numbers $1$ to $6$, but the probability of each number is unknown. Is each statement guaranteed to be true for this die?",
@@ -136728,6 +137113,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11h",
+   "help": "y8-8g-weighted",
    "label": "11h",
    "section": "Problem-solving",
    "stem": "A weighted die has the numbers $1$ to $6$, but the probability of each number is unknown. Is each statement guaranteed to be true for this die?",
@@ -136741,6 +137127,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y8-8g-backwards",
    "label": "12a",
    "section": "Problem-solving",
    "stem": "Twelve counters coloured red, green or white are placed in a bag. You are told that $\\Pr(\\text{red or white}) = \\frac{7}{12}$ and $\\Pr(\\text{red or green}) = \\frac{2}{3}$.",
@@ -136755,6 +137142,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y8-8g-backwards",
    "label": "12b",
    "section": "Problem-solving",
    "stem": "Twelve counters coloured red, green or white are placed in a bag. You are told that $\\Pr(\\text{red or white}) = \\frac{7}{12}$ and $\\Pr(\\text{red or green}) = \\frac{2}{3}$.",
@@ -136764,6 +137152,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y8-8g-backwards",
    "label": "12c",
    "section": "Problem-solving",
    "stem": "Twelve counters coloured red, green or white are placed in a bag. You are told that $\\Pr(\\text{red or white}) = \\frac{7}{12}$ and $\\Pr(\\text{red or green}) = \\frac{2}{3}$.",
@@ -136773,6 +137162,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12d",
+   "help": "y8-8g-backwards",
    "label": "12d",
    "section": "Problem-solving",
    "stem": "Twelve counters coloured red, green or white are placed in a bag. You are told that $\\Pr(\\text{red or white}) = \\frac{7}{12}$ and $\\Pr(\\text{red or green}) = \\frac{2}{3}$.",
@@ -136782,6 +137172,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y8-8g-adding",
    "label": "13a",
    "section": "Reasoning",
    "stem": "A large bucket holds $3$ red balls and $9$ blue balls.",
@@ -136791,6 +137182,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y8-8g-adding",
    "label": "13b",
    "section": "Reasoning",
    "stem": "A large bucket holds $3$ red balls and $9$ blue balls.",
@@ -136800,6 +137192,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13c",
+   "help": "y8-8g-adding",
    "label": "13c",
    "section": "Reasoning",
    "stem": "A large bucket holds $3$ red balls and $9$ blue balls.",
@@ -136810,6 +137203,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13d",
+   "help": "y8-8g-adding",
    "label": "13d",
    "section": "Reasoning",
    "stem": "A large bucket holds $3$ red balls and $9$ blue balls.",
@@ -136819,6 +137213,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y8-8g-compare",
    "label": "14a",
    "section": "Reasoning",
    "stem": "In a swimming test, each student either passes or fails, so pass and fail are complements. For Ella, Pr(pass) $= 0.3$ and for Ben, Pr(pass) $= 0.65$.",
@@ -136828,6 +137223,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y8-8g-compare",
    "label": "14b",
    "section": "Reasoning",
    "stem": "In a swimming test, each student either passes or fails, so pass and fail are complements. For Ella, Pr(pass) $= 0.3$ and for Ben, Pr(pass) $= 0.65$.",
@@ -136837,6 +137233,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14c",
+   "help": "y8-8g-compare",
    "label": "14c",
    "section": "Reasoning",
    "stem": "In a swimming test, each student either passes or fails, so pass and fail are complements. For Ella, Pr(pass) $= 0.3$ and for Ben, Pr(pass) $= 0.65$.",
@@ -136846,6 +137243,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14d",
+   "help": "y8-8g-compare",
    "label": "14d",
    "section": "Reasoning",
    "stem": "In a swimming test, each student either passes or fails, so pass and fail are complements. For Ella, Pr(pass) $= 0.3$ and for Ben, Pr(pass) $= 0.65$.",
@@ -136855,6 +137253,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14e",
+   "help": "y8-8g-compare",
    "label": "14e",
    "section": "Reasoning",
    "stem": "In a swimming test, each student either passes or fails, so pass and fail are complements. For Ella, Pr(pass) $= 0.3$ and for Ben, Pr(pass) $= 0.65$.",
@@ -136865,6 +137264,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14f",
+   "help": "y8-8g-compare",
    "label": "14f",
    "section": "Reasoning",
    "stem": "In a swimming test, each student either passes or fails, so pass and fail are complements. For Ella, Pr(pass) $= 0.3$ and for Ben, Pr(pass) $= 0.65$.",
@@ -136874,6 +137274,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15a",
+   "help": "y8-8g-backwards",
    "label": "15a",
    "section": "Enrichment",
    "stem": "A bag starts with $8$ blue (B), $3$ red (R) and $5$ green (G) marbles. For each part, how many marbles of each colour were removed? Give the numbers in the order blue, red, green.",
@@ -136888,6 +137289,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15b",
+   "help": "y8-8g-backwards",
    "label": "15b",
    "section": "Enrichment",
    "stem": "A bag starts with $8$ blue (B), $3$ red (R) and $5$ green (G) marbles. For each part, how many marbles of each colour were removed? Give the numbers in the order blue, red, green.",
@@ -136901,6 +137303,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15c",
+   "help": "y8-8g-backwards",
    "label": "15c",
    "section": "Enrichment",
    "stem": "A bag starts with $8$ blue (B), $3$ red (R) and $5$ green (G) marbles. For each part, how many marbles of each colour were removed? Give the numbers in the order blue, red, green.",
@@ -136914,6 +137317,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15d",
+   "help": "y8-8g-backwards",
    "label": "15d",
    "section": "Enrichment",
    "stem": "A bag starts with $8$ blue (B), $3$ red (R) and $5$ green (G) marbles. For each part, how many marbles of each colour were removed? Give the numbers in the order blue, red, green.",
@@ -136927,6 +137331,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15e",
+   "help": "y8-8g-backwards",
    "label": "15e",
    "section": "Enrichment",
    "stem": "A bag starts with $8$ blue (B), $3$ red (R) and $5$ green (G) marbles. For each part, how many marbles of each colour were removed? Give the numbers in the order blue, red, green.",
@@ -136940,6 +137345,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15f",
+   "help": "y8-8g-backwards",
    "label": "15f",
    "section": "Enrichment",
    "stem": "A bag starts with $8$ blue (B), $3$ red (R) and $5$ green (G) marbles. For each part, how many marbles of each colour were removed? Give the numbers in the order blue, red, green.",
@@ -136953,6 +137359,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15g",
+   "help": "y8-8g-backwards",
    "label": "15g",
    "section": "Enrichment",
    "stem": "A bag starts with $8$ blue (B), $3$ red (R) and $5$ green (G) marbles. For each part, how many marbles of each colour were removed? Give the numbers in the order blue, red, green.",
@@ -136975,6 +137382,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-8h-table",
    "label": "1a",
    "section": "Fluency",
    "stem": "A coin is tossed and then a fair eight-sided die (numbered $1$ to $8$) is rolled. The table lists the sample space, with some outcomes missing.",
@@ -137027,6 +137435,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-8h-table",
    "label": "1b",
    "section": "Fluency",
    "stem": "A coin is tossed and then a fair eight-sided die (numbered $1$ to $8$) is rolled. The table lists the sample space, with some outcomes missing.",
@@ -137036,6 +137445,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y8-8h-table",
    "label": "1c",
    "section": "Fluency",
    "stem": "A coin is tossed and then a fair eight-sided die (numbered $1$ to $8$) is rolled. The table lists the sample space, with some outcomes missing.",
@@ -137045,6 +137455,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y8-8h-table",
    "label": "1d",
    "section": "Fluency",
    "stem": "A coin is tossed and then a fair eight-sided die (numbered $1$ to $8$) is rolled. The table lists the sample space, with some outcomes missing.",
@@ -137054,6 +137465,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-8h-table",
    "label": "2a",
    "section": "Fluency",
    "stem": "A letter is chosen at random from the word BOAT and another from the word TONE. Copy and complete the table to list the sample space, then answer the questions.",
@@ -137103,6 +137515,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-8h-table",
    "label": "2b",
    "section": "Fluency",
    "stem": "A letter is chosen at random from the word BOAT and another from the word TONE. Copy and complete the table to list the sample space, then answer the questions.",
@@ -137112,6 +137525,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-8h-table",
    "label": "2c",
    "section": "Fluency",
    "stem": "A letter is chosen at random from the word BOAT and another from the word TONE. Copy and complete the table to list the sample space, then answer the questions.",
@@ -137121,6 +137535,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y8-8h-table",
    "label": "2d",
    "section": "Fluency",
    "stem": "A letter is chosen at random from the word BOAT and another from the word TONE. Copy and complete the table to list the sample space, then answer the questions.",
@@ -137130,6 +137545,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y8-8h-table",
    "label": "2e",
    "section": "Fluency",
    "stem": "A letter is chosen at random from the word BOAT and another from the word TONE. Copy and complete the table to list the sample space, then answer the questions.",
@@ -137139,6 +137555,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y8-8h-table",
    "label": "2f",
    "section": "Fluency",
    "stem": "A letter is chosen at random from the word BOAT and another from the word TONE. Copy and complete the table to list the sample space, then answer the questions.",
@@ -137148,6 +137565,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-8h-table",
    "label": "3a",
    "section": "Fluency",
    "stem": "The two spinners shown are each spun once. Draw a table to list the sample space (use Y for yellow, R for red, G for green and B for blue), then answer the questions.",
@@ -137178,6 +137596,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-8h-table",
    "label": "3b",
    "section": "Fluency",
    "stem": "The two spinners shown are each spun once. Draw a table to list the sample space (use Y for yellow, R for red, G for green and B for blue), then answer the questions.",
@@ -137187,6 +137606,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-8h-table",
    "label": "3c",
    "section": "Fluency",
    "stem": "The two spinners shown are each spun once. Draw a table to list the sample space (use Y for yellow, R for red, G for green and B for blue), then answer the questions.",
@@ -137196,6 +137616,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y8-8h-table",
    "label": "3d",
    "section": "Fluency",
    "stem": "The two spinners shown are each spun once. Draw a table to list the sample space (use Y for yellow, R for red, G for green and B for blue), then answer the questions.",
@@ -137205,6 +137626,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y8-8h-table",
    "label": "3e",
    "section": "Fluency",
    "stem": "The two spinners shown are each spun once. Draw a table to list the sample space (use Y for yellow, R for red, G for green and B for blue), then answer the questions.",
@@ -137214,6 +137636,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y8-8h-table",
    "label": "3f",
    "section": "Fluency",
    "stem": "The two spinners shown are each spun once. Draw a table to list the sample space (use Y for yellow, R for red, G for green and B for blue), then answer the questions.",
@@ -137223,6 +137646,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-8h-repeats",
    "label": "4a",
    "section": "Fluency",
    "stem": "A letter from the word ADD is chosen at random, and then a letter from the word TREE is chosen at random. The sample space is shown below.",
@@ -137265,6 +137689,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-8h-repeats",
    "label": "4b",
    "section": "Fluency",
    "stem": "A letter from the word ADD is chosen at random, and then a letter from the word TREE is chosen at random. The sample space is shown below.",
@@ -137274,6 +137699,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y8-8h-repeats",
    "label": "4c",
    "section": "Fluency",
    "stem": "A letter from the word ADD is chosen at random, and then a letter from the word TREE is chosen at random. The sample space is shown below.",
@@ -137283,6 +137709,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y8-8h-repeats",
    "label": "4d",
    "section": "Fluency",
    "stem": "A letter from the word ADD is chosen at random, and then a letter from the word TREE is chosen at random. The sample space is shown below.",
@@ -137292,6 +137719,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y8-8h-totals",
    "label": "5a",
    "section": "Problem-solving",
    "stem": "In a board game, two spinners, each numbered $1$ to $5$ with equal sections, are spun and the two numbers are added to give a total between $2$ and $10$. Copy and complete the table of totals, then answer the questions.",
@@ -137354,6 +137782,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y8-8h-totals",
    "label": "5b",
    "section": "Problem-solving",
    "stem": "In a board game, two spinners, each numbered $1$ to $5$ with equal sections, are spun and the two numbers are added to give a total between $2$ and $10$. Copy and complete the table of totals, then answer the questions.",
@@ -137363,6 +137792,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y8-8h-totals",
    "label": "5c",
    "section": "Problem-solving",
    "stem": "In a board game, two spinners, each numbered $1$ to $5$ with equal sections, are spun and the two numbers are added to give a total between $2$ and $10$. Copy and complete the table of totals, then answer the questions.",
@@ -137372,6 +137802,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y8-8h-totals",
    "label": "5d",
    "section": "Problem-solving",
    "stem": "In a board game, two spinners, each numbered $1$ to $5$ with equal sections, are spun and the two numbers are added to give a total between $2$ and $10$. Copy and complete the table of totals, then answer the questions.",
@@ -137385,6 +137816,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y8-8h-repeats",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "In Amira's left pocket she has two green marbles, one white marble and one red marble. In her right pocket she has one white marble, two blue marbles and one green marble. She chooses one marble at random from each pocket. Copy and complete the table (left-pocket outcomes G, G, W, R down the side).",
@@ -137434,6 +137866,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y8-8h-repeats",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "In Amira's left pocket she has two green marbles, one white marble and one red marble. In her right pocket she has one white marble, two blue marbles and one green marble. She chooses one marble at random from each pocket. Copy and complete the table (left-pocket outcomes G, G, W, R down the side).",
@@ -137443,6 +137876,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y8-8h-repeats",
    "label": "6c",
    "section": "Problem-solving",
    "stem": "In Amira's left pocket she has two green marbles, one white marble and one red marble. In her right pocket she has one white marble, two blue marbles and one green marble. She chooses one marble at random from each pocket. Copy and complete the table (left-pocket outcomes G, G, W, R down the side).",
@@ -137452,6 +137886,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y8-8h-repeats",
    "label": "6d",
    "section": "Problem-solving",
    "stem": "In Amira's left pocket she has two green marbles, one white marble and one red marble. In her right pocket she has one white marble, two blue marbles and one green marble. She chooses one marble at random from each pocket. Copy and complete the table (left-pocket outcomes G, G, W, R down the side).",
@@ -137461,6 +137896,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6e",
+   "help": "y8-8h-repeats",
    "label": "6e",
    "section": "Problem-solving",
    "stem": "In Amira's left pocket she has two green marbles, one white marble and one red marble. In her right pocket she has one white marble, two blue marbles and one green marble. She chooses one marble at random from each pocket. Copy and complete the table (left-pocket outcomes G, G, W, R down the side).",
@@ -137470,6 +137906,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y8-8h-totals",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "In a game show, a wheel with four equal sections is spun to decide the prize money, and then a die is rolled. The prize money is multiplied by the number on the die to give the total winnings.",
@@ -137488,6 +137925,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y8-8h-totals",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "In a game show, a wheel with four equal sections is spun to decide the prize money, and then a die is rolled. The prize money is multiplied by the number on the die to give the total winnings.",
@@ -137497,6 +137935,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y8-8h-totals",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "In a game show, a wheel with four equal sections is spun to decide the prize money, and then a die is rolled. The prize money is multiplied by the number on the die to give the total winnings.",
@@ -137506,6 +137945,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8",
+   "help": "y8-8h-multiply",
    "label": "8",
    "section": "Reasoning",
    "type": "numeric",
@@ -137515,6 +137955,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y8-8h-complement",
    "label": "9a",
    "section": "Reasoning",
    "stem": "When two dice are rolled, there is a $\\frac{1}{18}$ chance that the numbers multiply to $2$ and a $\\frac{1}{12}$ chance that they multiply to $4$.",
@@ -137524,6 +137965,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y8-8h-complement",
    "label": "9b",
    "section": "Reasoning",
    "stem": "When two dice are rolled, there is a $\\frac{1}{18}$ chance that the numbers multiply to $2$ and a $\\frac{1}{12}$ chance that they multiply to $4$.",
@@ -137533,6 +137975,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y8-8h-complement",
    "label": "9c",
    "section": "Reasoning",
    "stem": "When two dice are rolled, there is a $\\frac{1}{18}$ chance that the numbers multiply to $2$ and a $\\frac{1}{12}$ chance that they multiply to $4$.",
@@ -137542,6 +137985,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y8-8h-complement",
    "label": "9d",
    "section": "Reasoning",
    "stem": "When two dice are rolled, there is a $\\frac{1}{18}$ chance that the numbers multiply to $2$ and a $\\frac{1}{12}$ chance that they multiply to $4$.",
@@ -137551,6 +137995,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y8-8h-multiply",
    "label": "10a",
    "section": "Reasoning",
    "stem": "A standard deck has four suits (hearts $\\heartsuit$, diamonds $\\diamondsuit$, clubs $\\clubsuit$, spades $\\spadesuit$) with $13$ cards in each (A, $2$ to $10$, J, Q, K). Hearts and diamonds are red; clubs and spades are black.",
@@ -137560,6 +138005,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y8-8h-multiply",
    "label": "10b",
    "section": "Reasoning",
    "stem": "A standard deck has four suits (hearts $\\heartsuit$, diamonds $\\diamondsuit$, clubs $\\clubsuit$, spades $\\spadesuit$) with $13$ cards in each (A, $2$ to $10$, J, Q, K). Hearts and diamonds are red; clubs and spades are black.",
@@ -137569,6 +138015,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y8-8h-multiply",
    "label": "10c",
    "section": "Reasoning",
    "stem": "A standard deck has four suits (hearts $\\heartsuit$, diamonds $\\diamondsuit$, clubs $\\clubsuit$, spades $\\spadesuit$) with $13$ cards in each (A, $2$ to $10$, J, Q, K). Hearts and diamonds are red; clubs and spades are black.",
@@ -137578,6 +138025,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10d",
+   "help": "y8-8h-multiply",
    "label": "10d",
    "section": "Reasoning",
    "stem": "A standard deck has four suits (hearts $\\heartsuit$, diamonds $\\diamondsuit$, clubs $\\clubsuit$, spades $\\spadesuit$) with $13$ cards in each (A, $2$ to $10$, J, Q, K). Hearts and diamonds are red; clubs and spades are black.",
@@ -137587,6 +138035,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10e",
+   "help": "y8-8h-multiply",
    "label": "10e",
    "section": "Reasoning",
    "stem": "A standard deck has four suits (hearts $\\heartsuit$, diamonds $\\diamondsuit$, clubs $\\clubsuit$, spades $\\spadesuit$) with $13$ cards in each (A, $2$ to $10$, J, Q, K). Hearts and diamonds are red; clubs and spades are black.",
@@ -137596,6 +138045,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y8-8h-multiply",
    "label": "11a",
    "section": "Enrichment",
    "stem": "Spinner $1$ has six equal sections labelled A, A, A, B, C, C. Spinner $2$ has unequal sections, but the same probabilities as Spinner $1$, so spinning it is like choosing a letter from AAABCC. Spinner $3$ has $\\Pr(\\text{A}) = \\frac{2}{5}$, $\\Pr(\\text{D}) = \\frac{2}{5}$ and $\\Pr(\\text{E}) = \\frac{1}{5}$.",
@@ -137655,6 +138105,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y8-8h-multiply",
    "label": "11b",
    "section": "Enrichment",
    "stem": "Spinner $1$ has six equal sections labelled A, A, A, B, C, C. Spinner $2$ has unequal sections, but the same probabilities as Spinner $1$, so spinning it is like choosing a letter from AAABCC. Spinner $3$ has $\\Pr(\\text{A}) = \\frac{2}{5}$, $\\Pr(\\text{D}) = \\frac{2}{5}$ and $\\Pr(\\text{E}) = \\frac{1}{5}$.",
@@ -137664,6 +138115,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y8-8h-multiply",
    "label": "11c",
    "section": "Enrichment",
    "stem": "Spinner $1$ has six equal sections labelled A, A, A, B, C, C. Spinner $2$ has unequal sections, but the same probabilities as Spinner $1$, so spinning it is like choosing a letter from AAABCC. Spinner $3$ has $\\Pr(\\text{A}) = \\frac{2}{5}$, $\\Pr(\\text{D}) = \\frac{2}{5}$ and $\\Pr(\\text{E}) = \\frac{1}{5}$.",
@@ -137673,6 +138125,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11d",
+   "help": "y8-8h-multiply",
    "label": "11d",
    "section": "Enrichment",
    "stem": "Spinner $1$ has six equal sections labelled A, A, A, B, C, C. Spinner $2$ has unequal sections, but the same probabilities as Spinner $1$, so spinning it is like choosing a letter from AAABCC. Spinner $3$ has $\\Pr(\\text{A}) = \\frac{2}{5}$, $\\Pr(\\text{D}) = \\frac{2}{5}$ and $\\Pr(\\text{E}) = \\frac{1}{5}$.",
@@ -137682,6 +138135,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11e",
+   "help": "y8-8h-multiply",
    "label": "11e",
    "section": "Enrichment",
    "stem": "Spinner $1$ has six equal sections labelled A, A, A, B, C, C. Spinner $2$ has unequal sections, but the same probabilities as Spinner $1$, so spinning it is like choosing a letter from AAABCC. Spinner $3$ has $\\Pr(\\text{A}) = \\frac{2}{5}$, $\\Pr(\\text{D}) = \\frac{2}{5}$ and $\\Pr(\\text{E}) = \\frac{1}{5}$.",
@@ -137691,6 +138145,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11f",
+   "help": "y8-8h-multiply",
    "label": "11f",
    "section": "Enrichment",
    "stem": "Spinner $1$ has six equal sections labelled A, A, A, B, C, C. Spinner $2$ has unequal sections, but the same probabilities as Spinner $1$, so spinning it is like choosing a letter from AAABCC. Spinner $3$ has $\\Pr(\\text{A}) = \\frac{2}{5}$, $\\Pr(\\text{D}) = \\frac{2}{5}$ and $\\Pr(\\text{E}) = \\frac{1}{5}$.",
@@ -137700,6 +138155,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11g",
+   "help": "y8-8h-multiply",
    "label": "11g",
    "section": "Enrichment",
    "stem": "Spinner $1$ has six equal sections labelled A, A, A, B, C, C. Spinner $2$ has unequal sections, but the same probabilities as Spinner $1$, so spinning it is like choosing a letter from AAABCC. Spinner $3$ has $\\Pr(\\text{A}) = \\frac{2}{5}$, $\\Pr(\\text{D}) = \\frac{2}{5}$ and $\\Pr(\\text{E}) = \\frac{1}{5}$.",
@@ -137709,6 +138165,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11h",
+   "help": "y8-8h-multiply",
    "label": "11h",
    "section": "Enrichment",
    "stem": "Spinner $1$ has six equal sections labelled A, A, A, B, C, C. Spinner $2$ has unequal sections, but the same probabilities as Spinner $1$, so spinning it is like choosing a letter from AAABCC. Spinner $3$ has $\\Pr(\\text{A}) = \\frac{2}{5}$, $\\Pr(\\text{D}) = \\frac{2}{5}$ and $\\Pr(\\text{E}) = \\frac{1}{5}$.",
@@ -137718,6 +138175,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11i",
+   "help": "y8-8h-multiply",
    "label": "11i",
    "section": "Enrichment",
    "stem": "Spinner $1$ has six equal sections labelled A, A, A, B, C, C. Spinner $2$ has unequal sections, but the same probabilities as Spinner $1$, so spinning it is like choosing a letter from AAABCC. Spinner $3$ has $\\Pr(\\text{A}) = \\frac{2}{5}$, $\\Pr(\\text{D}) = \\frac{2}{5}$ and $\\Pr(\\text{E}) = \\frac{1}{5}$.",
@@ -137727,6 +138185,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11j",
+   "help": "y8-8h-multiply",
    "label": "11j",
    "section": "Enrichment",
    "stem": "Spinner $1$ has six equal sections labelled A, A, A, B, C, C. Spinner $2$ has unequal sections, but the same probabilities as Spinner $1$, so spinning it is like choosing a letter from AAABCC. Spinner $3$ has $\\Pr(\\text{A}) = \\frac{2}{5}$, $\\Pr(\\text{D}) = \\frac{2}{5}$ and $\\Pr(\\text{E}) = \\frac{1}{5}$.",
@@ -137736,6 +138195,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11k",
+   "help": "y8-8h-multiply",
    "label": "11k",
    "section": "Enrichment",
    "stem": "Spinner $1$ has six equal sections labelled A, A, A, B, C, C. Spinner $2$ has unequal sections, but the same probabilities as Spinner $1$, so spinning it is like choosing a letter from AAABCC. Spinner $3$ has $\\Pr(\\text{A}) = \\frac{2}{5}$, $\\Pr(\\text{D}) = \\frac{2}{5}$ and $\\Pr(\\text{E}) = \\frac{1}{5}$.",
@@ -137745,6 +138205,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11l",
+   "help": "y8-8h-multiply",
    "label": "11l",
    "section": "Enrichment",
    "stem": "Spinner $1$ has six equal sections labelled A, A, A, B, C, C. Spinner $2$ has unequal sections, but the same probabilities as Spinner $1$, so spinning it is like choosing a letter from AAABCC. Spinner $3$ has $\\Pr(\\text{A}) = \\frac{2}{5}$, $\\Pr(\\text{D}) = \\frac{2}{5}$ and $\\Pr(\\text{E}) = \\frac{1}{5}$.",
@@ -137754,6 +138215,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11m",
+   "help": "y8-8h-multiply",
    "label": "11m",
    "section": "Enrichment",
    "stem": "Spinner $1$ has six equal sections labelled A, A, A, B, C, C. Spinner $2$ has unequal sections, but the same probabilities as Spinner $1$, so spinning it is like choosing a letter from AAABCC. Spinner $3$ has $\\Pr(\\text{A}) = \\frac{2}{5}$, $\\Pr(\\text{D}) = \\frac{2}{5}$ and $\\Pr(\\text{E}) = \\frac{1}{5}$.",
@@ -137763,6 +138225,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11n",
+   "help": "y8-8h-multiply",
    "label": "11n",
    "section": "Enrichment",
    "stem": "Spinner $1$ has six equal sections labelled A, A, A, B, C, C. Spinner $2$ has unequal sections, but the same probabilities as Spinner $1$, so spinning it is like choosing a letter from AAABCC. Spinner $3$ has $\\Pr(\\text{A}) = \\frac{2}{5}$, $\\Pr(\\text{D}) = \\frac{2}{5}$ and $\\Pr(\\text{E}) = \\frac{1}{5}$.",
@@ -137772,6 +138235,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11o",
+   "help": "y8-8h-multiply",
    "label": "11o",
    "section": "Enrichment",
    "stem": "Spinner $1$ has six equal sections labelled A, A, A, B, C, C. Spinner $2$ has unequal sections, but the same probabilities as Spinner $1$, so spinning it is like choosing a letter from AAABCC. Spinner $3$ has $\\Pr(\\text{A}) = \\frac{2}{5}$, $\\Pr(\\text{D}) = \\frac{2}{5}$ and $\\Pr(\\text{E}) = \\frac{1}{5}$.",
@@ -137781,6 +138245,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11p",
+   "help": "y8-8h-multiply",
    "label": "11p",
    "section": "Enrichment",
    "stem": "Spinner $1$ has six equal sections labelled A, A, A, B, C, C. Spinner $2$ has unequal sections, but the same probabilities as Spinner $1$, so spinning it is like choosing a letter from AAABCC. Spinner $3$ has $\\Pr(\\text{A}) = \\frac{2}{5}$, $\\Pr(\\text{D}) = \\frac{2}{5}$ and $\\Pr(\\text{E}) = \\frac{1}{5}$.",
@@ -137790,6 +138255,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11q",
+   "help": "y8-8h-multiply",
    "label": "11q",
    "section": "Enrichment",
    "stem": "Spinner $1$ has six equal sections labelled A, A, A, B, C, C. Spinner $2$ has unequal sections, but the same probabilities as Spinner $1$, so spinning it is like choosing a letter from AAABCC. Spinner $3$ has $\\Pr(\\text{A}) = \\frac{2}{5}$, $\\Pr(\\text{D}) = \\frac{2}{5}$ and $\\Pr(\\text{E}) = \\frac{1}{5}$.",
@@ -137799,6 +138265,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11r",
+   "help": "y8-8h-multiply",
    "label": "11r",
    "section": "Enrichment",
    "stem": "Spinner $1$ has six equal sections labelled A, A, A, B, C, C. Spinner $2$ has unequal sections, but the same probabilities as Spinner $1$, so spinning it is like choosing a letter from AAABCC. Spinner $3$ has $\\Pr(\\text{A}) = \\frac{2}{5}$, $\\Pr(\\text{D}) = \\frac{2}{5}$ and $\\Pr(\\text{E}) = \\frac{1}{5}$.",
@@ -137817,6 +138284,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-8i-tree",
    "label": "1a",
    "section": "Fluency",
    "stem": "A letter is chosen at random from the word SALT, and then a letter is chosen at random from the word ON. The tree diagram shows the sample space.",
@@ -138090,6 +138558,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-8i-tree",
    "label": "1b",
    "section": "Fluency",
    "stem": "A letter is chosen at random from the word SALT, and then a letter is chosen at random from the word ON. The tree diagram shows the sample space.",
@@ -138099,6 +138568,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y8-8i-tree",
    "label": "1c",
    "section": "Fluency",
    "stem": "A letter is chosen at random from the word SALT, and then a letter is chosen at random from the word ON. The tree diagram shows the sample space.",
@@ -138109,6 +138579,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y8-8i-tree",
    "label": "1d",
    "section": "Fluency",
    "stem": "A letter is chosen at random from the word SALT, and then a letter is chosen at random from the word ON. The tree diagram shows the sample space.",
@@ -138118,6 +138589,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y8-8i-tree",
    "label": "1e",
    "section": "Fluency",
    "stem": "A letter is chosen at random from the word SALT, and then a letter is chosen at random from the word ON. The tree diagram shows the sample space.",
@@ -138127,6 +138599,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-8i-tree",
    "label": "2a",
    "section": "Fluency",
    "stem": "A spinner with three equal sectors numbered $2$, $3$ and $5$ is spun twice. The tree diagram shows the two spins.",
@@ -138411,6 +138884,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-8i-tree",
    "label": "2b",
    "section": "Fluency",
    "stem": "A spinner with three equal sectors numbered $2$, $3$ and $5$ is spun twice. The tree diagram shows the two spins.",
@@ -138420,6 +138894,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-8i-tree",
    "label": "2c",
    "section": "Fluency",
    "stem": "A spinner with three equal sectors numbered $2$, $3$ and $5$ is spun twice. The tree diagram shows the two spins.",
@@ -138429,6 +138904,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y8-8i-tree",
    "label": "2d",
    "section": "Fluency",
    "stem": "A spinner with three equal sectors numbered $2$, $3$ and $5$ is spun twice. The tree diagram shows the two spins.",
@@ -138438,6 +138914,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y8-8i-tree",
    "label": "2e",
    "section": "Fluency",
    "stem": "A spinner with three equal sectors numbered $2$, $3$ and $5$ is spun twice. The tree diagram shows the two spins.",
@@ -138447,6 +138924,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y8-8i-tree",
    "label": "2f",
    "section": "Fluency",
    "stem": "A spinner with three equal sectors numbered $2$, $3$ and $5$ is spun twice. The tree diagram shows the two spins.",
@@ -138456,6 +138934,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-8i-tree",
    "label": "3a",
    "section": "Fluency",
    "stem": "Ruby guesses the answers to a quiz with three true or false questions, so each answer is equally likely to be correct (C) or wrong (W). The tree diagram shows the sample space.",
@@ -138863,6 +139342,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-8i-tree",
    "label": "3b",
    "section": "Fluency",
    "stem": "Ruby guesses the answers to a quiz with three true or false questions, so each answer is equally likely to be correct (C) or wrong (W). The tree diagram shows the sample space.",
@@ -138872,6 +139352,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-8i-tree",
    "label": "3c",
    "section": "Fluency",
    "stem": "Ruby guesses the answers to a quiz with three true or false questions, so each answer is equally likely to be correct (C) or wrong (W). The tree diagram shows the sample space.",
@@ -138881,6 +139362,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y8-8i-tree",
    "label": "3d",
    "section": "Fluency",
    "stem": "Ruby guesses the answers to a quiz with three true or false questions, so each answer is equally likely to be correct (C) or wrong (W). The tree diagram shows the sample space.",
@@ -138890,6 +139372,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y8-8i-tree",
    "label": "3e",
    "section": "Fluency",
    "stem": "Ruby guesses the answers to a quiz with three true or false questions, so each answer is equally likely to be correct (C) or wrong (W). The tree diagram shows the sample space.",
@@ -138899,6 +139382,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y8-8i-tree",
    "label": "3f",
    "section": "Fluency",
    "stem": "Ruby guesses the answers to a quiz with three true or false questions, so each answer is equally likely to be correct (C) or wrong (W). The tree diagram shows the sample space.",
@@ -138913,6 +139397,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3g",
+   "help": "y8-8i-tree",
    "label": "3g",
    "section": "Fluency",
    "stem": "Ruby guesses the answers to a quiz with three true or false questions, so each answer is equally likely to be correct (C) or wrong (W). The tree diagram shows the sample space.",
@@ -138922,6 +139407,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-8i-without",
    "label": "4a",
    "section": "Problem-solving",
    "stem": "Two letters are chosen from the word EMU. Once a letter is chosen it cannot be chosen again. The tree diagram is partly filled in.",
@@ -139139,6 +139625,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-8i-without",
    "label": "4b",
    "section": "Problem-solving",
    "stem": "Two letters are chosen from the word EMU. Once a letter is chosen it cannot be chosen again. The tree diagram is partly filled in.",
@@ -139148,6 +139635,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y8-8i-without",
    "label": "4c",
    "section": "Problem-solving",
    "stem": "Two letters are chosen from the word EMU. Once a letter is chosen it cannot be chosen again. The tree diagram is partly filled in.",
@@ -139157,6 +139645,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y8-8i-without",
    "label": "4d",
    "section": "Problem-solving",
    "stem": "Two letters are chosen from the word EMU. Once a letter is chosen it cannot be chosen again. The tree diagram is partly filled in.",
@@ -139166,6 +139655,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y8-8i-without",
    "label": "4e",
    "section": "Problem-solving",
    "stem": "Two letters are chosen from the word EMU. Once a letter is chosen it cannot be chosen again. The tree diagram is partly filled in.",
@@ -139175,6 +139665,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y8-8i-game",
    "label": "5a",
    "section": "Problem-solving",
    "stem": "In a game, a prize wheel with three equal sections (\\$5, \\$10 and \\$30) is spun, then a die is rolled, and finally a coin is flipped. If the coin shows heads, you win the prize multiplied by the number on the die. If the coin shows tails, you get nothing.",
@@ -139258,6 +139749,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y8-8i-game",
    "label": "5b",
    "section": "Problem-solving",
    "stem": "In a game, a prize wheel with three equal sections (\\$5, \\$10 and \\$30) is spun, then a die is rolled, and finally a coin is flipped. If the coin shows heads, you win the prize multiplied by the number on the die. If the coin shows tails, you get nothing.",
@@ -139267,6 +139759,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y8-8i-game",
    "label": "5c",
    "section": "Problem-solving",
    "stem": "In a game, a prize wheel with three equal sections (\\$5, \\$10 and \\$30) is spun, then a die is rolled, and finally a coin is flipped. If the coin shows heads, you win the prize multiplied by the number on the die. If the coin shows tails, you get nothing.",
@@ -139276,6 +139769,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y8-8i-game",
    "label": "5d",
    "section": "Problem-solving",
    "stem": "In a game, a prize wheel with three equal sections (\\$5, \\$10 and \\$30) is spun, then a die is rolled, and finally a coin is flipped. If the coin shows heads, you win the prize multiplied by the number on the die. If the coin shows tails, you get nothing.",
@@ -139285,6 +139779,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y8-8i-game",
    "label": "5e",
    "section": "Problem-solving",
    "stem": "In a game, a prize wheel with three equal sections (\\$5, \\$10 and \\$30) is spun, then a die is rolled, and finally a coin is flipped. If the coin shows heads, you win the prize multiplied by the number on the die. If the coin shows tails, you get nothing.",
@@ -139294,6 +139789,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y8-8i-without",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "The letters of the word NOON are written on four cards. Two of the cards are chosen at random, one after the other, without putting the first one back. The tree diagram shows all $12$ outcomes.",
@@ -139563,6 +140059,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y8-8i-without",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "The letters of the word NOON are written on four cards. Two of the cards are chosen at random, one after the other, without putting the first one back. The tree diagram shows all $12$ outcomes.",
@@ -139572,6 +140069,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y8-8i-without",
    "label": "6c",
    "section": "Problem-solving",
    "stem": "The letters of the word NOON are written on four cards. Two of the cards are chosen at random, one after the other, without putting the first one back. The tree diagram shows all $12$ outcomes.",
@@ -139581,6 +140079,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y8-8i-without",
    "label": "6d",
    "section": "Problem-solving",
    "stem": "The letters of the word NOON are written on four cards. Two of the cards are chosen at random, one after the other, without putting the first one back. The tree diagram shows all $12$ outcomes.",
@@ -139590,6 +140089,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7",
+   "help": "y8-8i-coins",
    "label": "7",
    "section": "Reasoning",
    "type": "numeric",
@@ -139598,6 +140098,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y8-8i-coins",
    "label": "8a",
    "section": "Reasoning",
    "type": "numeric",
@@ -139606,6 +140107,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y8-8i-coins",
    "label": "8b",
    "section": "Reasoning",
    "type": "numeric",
@@ -139614,6 +140116,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y8-8i-coins",
    "label": "8c",
    "section": "Reasoning",
    "type": "choice",
@@ -139627,6 +140130,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y8-8i-coins",
    "label": "8d",
    "section": "Reasoning",
    "type": "choice",
@@ -139640,6 +140144,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y8-8i-coins",
    "label": "10a",
    "section": "Reasoning",
    "stem": "Three coins are flipped. Which event has this probability?",
@@ -139655,6 +140160,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y8-8i-coins",
    "label": "10b",
    "section": "Reasoning",
    "stem": "Three coins are flipped. Which event has this probability?",
@@ -139670,6 +140176,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y8-8i-coins",
    "label": "10c",
    "section": "Reasoning",
    "stem": "Three coins are flipped. Which event has this probability?",
@@ -139685,6 +140192,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10d",
+   "help": "y8-8i-coins",
    "label": "10d",
    "section": "Reasoning",
    "stem": "Three coins are flipped. Which event has this probability?",
@@ -139700,6 +140208,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10e",
+   "help": "y8-8i-coins",
    "label": "10e",
    "section": "Reasoning",
    "stem": "Three coins are flipped. Which event has this probability?",
@@ -139715,6 +140224,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10f",
+   "help": "y8-8i-coins",
    "label": "10f",
    "section": "Reasoning",
    "stem": "Three coins are flipped. Which event has this probability?",
@@ -139730,6 +140240,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y8-8i-arrange",
    "label": "11a",
    "section": "Reasoning",
    "type": "numeric",
@@ -139738,6 +140249,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y8-8i-arrange",
    "label": "11b",
    "section": "Reasoning",
    "type": "numeric",
@@ -139746,6 +140258,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y8-8i-arrange",
    "label": "11c",
    "section": "Reasoning",
    "type": "numeric",
@@ -139754,6 +140267,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11d",
+   "help": "y8-8i-arrange",
    "label": "11d",
    "section": "Reasoning",
    "type": "numeric",
@@ -139762,6 +140276,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y8-8i-coins",
    "label": "12a",
    "section": "Enrichment",
    "stem": "In a test a student flips a coin $6$ times. They score $1$ point for each head and $0$ for each tail, so their final score is out of $6$.",
@@ -139771,6 +140286,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y8-8i-coins",
    "label": "12b",
    "section": "Enrichment",
    "stem": "In a test a student flips a coin $6$ times. They score $1$ point for each head and $0$ for each tail, so their final score is out of $6$.",
@@ -139780,6 +140296,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y8-8i-coins",
    "label": "12c",
    "section": "Enrichment",
    "stem": "In a test a student flips a coin $6$ times. They score $1$ point for each head and $0$ for each tail, so their final score is out of $6$.",
@@ -139789,6 +140306,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12d",
+   "help": "y8-8i-coins",
    "label": "12d",
    "section": "Enrichment",
    "stem": "In a test a student flips a coin $6$ times. They score $1$ point for each head and $0$ for each tail, so their final score is out of $6$.",
@@ -139798,6 +140316,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12e",
+   "help": "y8-8i-coins",
    "label": "12e",
    "section": "Enrichment",
    "stem": "In a test a student flips a coin $6$ times. They score $1$ point for each head and $0$ for each tail, so their final score is out of $6$.",
@@ -139807,6 +140326,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12f",
+   "help": "y8-8i-coins",
    "label": "12f",
    "section": "Enrichment",
    "stem": "In a test a student flips a coin $6$ times. They score $1$ point for each head and $0$ for each tail, so their final score is out of $6$.",
@@ -139825,6 +140345,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-8j-venn",
    "label": "1a",
    "section": "Fluency",
    "stem": "In a group of $36$ students, $9$ learn both piano and guitar, $8$ learn only piano and $12$ learn only guitar.",
@@ -139834,6 +140355,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-8j-venn",
    "label": "1b",
    "section": "Fluency",
    "stem": "In a group of $36$ students, $9$ learn both piano and guitar, $8$ learn only piano and $12$ learn only guitar.",
@@ -139931,6 +140453,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y8-8j-venn",
    "label": "1c",
    "section": "Fluency",
    "stem": "In a group of $36$ students, $9$ learn both piano and guitar, $8$ learn only piano and $12$ learn only guitar.",
@@ -139940,6 +140463,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y8-8j-venn",
    "label": "1d",
    "section": "Fluency",
    "stem": "In a group of $36$ students, $9$ learn both piano and guitar, $8$ learn only piano and $12$ learn only guitar.",
@@ -139949,6 +140473,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y8-8j-venn",
    "label": "1e",
    "section": "Fluency",
    "stem": "In a group of $36$ students, $9$ learn both piano and guitar, $8$ learn only piano and $12$ learn only guitar.",
@@ -139958,6 +140483,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y8-8j-venn",
    "label": "1f",
    "section": "Fluency",
    "stem": "In a group of $36$ students, $9$ learn both piano and guitar, $8$ learn only piano and $12$ learn only guitar.",
@@ -140001,6 +140527,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-8j-venn",
    "label": "2a",
    "section": "Fluency",
    "stem": "Of the $50$ bikes in a school bike rack, $22$ had a bell and a light, $9$ had only a bell and $13$ had only a light.",
@@ -140010,6 +140537,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-8j-venn",
    "label": "2b",
    "section": "Fluency",
    "stem": "Of the $50$ bikes in a school bike rack, $22$ had a bell and a light, $9$ had only a bell and $13$ had only a light.",
@@ -140107,6 +140635,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-8j-venn",
    "label": "2c",
    "section": "Fluency",
    "stem": "Of the $50$ bikes in a school bike rack, $22$ had a bell and a light, $9$ had only a bell and $13$ had only a light.",
@@ -140116,6 +140645,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y8-8j-venn",
    "label": "2d",
    "section": "Fluency",
    "stem": "Of the $50$ bikes in a school bike rack, $22$ had a bell and a light, $9$ had only a bell and $13$ had only a light.",
@@ -140125,6 +140655,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y8-8j-venn",
    "label": "2e",
    "section": "Fluency",
    "stem": "Of the $50$ bikes in a school bike rack, $22$ had a bell and a light, $9$ had only a bell and $13$ had only a light.",
@@ -140134,6 +140665,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y8-8j-venn",
    "label": "2f",
    "section": "Fluency",
    "stem": "Of the $50$ bikes in a school bike rack, $22$ had a bell and a light, $9$ had only a bell and $13$ had only a light.",
@@ -140177,6 +140709,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-8j-convert",
    "label": "3a",
    "section": "Fluency",
    "stem": "This Venn diagram shows how many people in a survey have a pet and how many play a sport.",
@@ -140268,6 +140801,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-8j-convert",
    "label": "3b",
    "section": "Fluency",
    "stem": "This Venn diagram shows how many people in a survey have a pet and how many play a sport.",
@@ -140311,6 +140845,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-8j-convert",
    "label": "3c",
    "section": "Fluency",
    "stem": "This Venn diagram shows how many people in a survey have a pet and how many play a sport.",
@@ -140320,6 +140855,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-8j-table-prob",
    "label": "4a",
    "section": "Fluency",
    "stem": "The two-way table shows the results of a survey of Year 7 and Year 8 students about whether they have a library card.",
@@ -140358,6 +140894,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-8j-table-prob",
    "label": "4b",
    "section": "Fluency",
    "stem": "The two-way table shows the results of a survey of Year 7 and Year 8 students about whether they have a library card.",
@@ -140367,6 +140904,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y8-8j-table-prob",
    "label": "4c",
    "section": "Fluency",
    "stem": "The two-way table shows the results of a survey of Year 7 and Year 8 students about whether they have a library card.",
@@ -140376,6 +140914,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y8-8j-table-prob",
    "label": "4d",
    "section": "Fluency",
    "stem": "The two-way table shows the results of a survey of Year 7 and Year 8 students about whether they have a library card.",
@@ -140386,6 +140925,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y8-8j-table-prob",
    "label": "4e",
    "section": "Fluency",
    "stem": "The two-way table shows the results of a survey of Year 7 and Year 8 students about whether they have a library card.",
@@ -140395,6 +140935,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y8-8j-table-prob",
    "label": "4f",
    "section": "Fluency",
    "stem": "The two-way table shows the results of a survey of Year 7 and Year 8 students about whether they have a library card.",
@@ -140404,6 +140945,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4g",
+   "help": "y8-8j-table-prob",
    "label": "4g",
    "section": "Fluency",
    "stem": "The two-way table shows the results of a survey of Year 7 and Year 8 students about whether they have a library card.",
@@ -140413,6 +140955,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y8-8j-convert",
    "label": "5a",
    "section": "Fluency",
    "stem": "The two-way table shows the results of a survey about bike and scooter ownership at a skate park.",
@@ -140539,6 +141082,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y8-8j-convert",
    "label": "5b",
    "section": "Fluency",
    "stem": "The two-way table shows the results of a survey about bike and scooter ownership at a skate park.",
@@ -140548,6 +141092,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y8-8j-convert",
    "label": "5c",
    "section": "Fluency",
    "stem": "The two-way table shows the results of a survey about bike and scooter ownership at a skate park.",
@@ -140557,6 +141102,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y8-8j-convert",
    "label": "5d",
    "section": "Fluency",
    "stem": "The two-way table shows the results of a survey about bike and scooter ownership at a skate park.",
@@ -140566,6 +141112,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y8-8j-convert",
    "label": "5e",
    "section": "Fluency",
    "stem": "The two-way table shows the results of a survey about bike and scooter ownership at a skate park.",
@@ -140575,6 +141122,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y8-8j-convert",
    "label": "5f",
    "section": "Fluency",
    "stem": "The two-way table shows the results of a survey about bike and scooter ownership at a skate park.",
@@ -140584,6 +141132,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y8-8j-venn-prob",
    "label": "6a",
    "section": "Fluency",
    "stem": "A pool area has $28$ people in it: swimmers, lifeguards and spectators. Use the Venn diagram to answer the questions.",
@@ -140668,6 +141217,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y8-8j-venn-prob",
    "label": "6b",
    "section": "Fluency",
    "stem": "A pool area has $28$ people in it: swimmers, lifeguards and spectators. Use the Venn diagram to answer the questions.",
@@ -140683,6 +141233,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y8-8j-venn-prob",
    "label": "6c",
    "section": "Fluency",
    "stem": "A pool area has $28$ people in it: swimmers, lifeguards and spectators. Use the Venn diagram to answer the questions. A person is chosen at random.",
@@ -140692,6 +141243,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y8-8j-venn-prob",
    "label": "6d",
    "section": "Fluency",
    "stem": "A pool area has $28$ people in it: swimmers, lifeguards and spectators. Use the Venn diagram to answer the questions. A person is chosen at random.",
@@ -140701,6 +141253,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6e",
+   "help": "y8-8j-venn-prob",
    "label": "6e",
    "section": "Fluency",
    "stem": "A pool area has $28$ people in it: swimmers, lifeguards and spectators. Use the Venn diagram to answer the questions. A person is chosen at random.",
@@ -140710,6 +141263,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6f",
+   "help": "y8-8j-venn-prob",
    "label": "6f",
    "section": "Fluency",
    "stem": "A pool area has $28$ people in it: swimmers, lifeguards and spectators. Use the Venn diagram to answer the questions. A person is chosen at random.",
@@ -140719,6 +141273,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y8-8j-venn-prob",
    "label": "7a",
    "section": "Fluency",
    "stem": "The Venn diagram shows how many people at a movie session like popcorn and how many like ice cream.",
@@ -140810,6 +141365,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y8-8j-venn-prob",
    "label": "7b",
    "section": "Fluency",
    "stem": "The Venn diagram shows how many people at a movie session like popcorn and how many like ice cream.",
@@ -140819,6 +141375,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y8-8j-venn-prob",
    "label": "7c",
    "section": "Fluency",
    "stem": "The Venn diagram shows how many people at a movie session like popcorn and how many like ice cream.",
@@ -140828,6 +141385,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y8-8j-venn-prob",
    "label": "7d",
    "section": "Fluency",
    "stem": "The Venn diagram shows how many people at a movie session like popcorn and how many like ice cream.",
@@ -140837,6 +141395,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7e",
+   "help": "y8-8j-venn-prob",
    "label": "7e",
    "section": "Fluency",
    "stem": "The Venn diagram shows how many people at a movie session like popcorn and how many like ice cream.",
@@ -140846,6 +141405,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7f",
+   "help": "y8-8j-venn-prob",
    "label": "7f",
    "section": "Fluency",
    "stem": "The Venn diagram shows how many people at a movie session like popcorn and how many like ice cream.",
@@ -140859,6 +141419,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y8-8j-complete",
    "label": "8a",
    "section": "Problem-solving",
    "stem": "Copy and complete the two-way table. Type the missing numbers row by row, from left to right.",
@@ -140904,6 +141465,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y8-8j-complete",
    "label": "8b",
    "section": "Problem-solving",
    "stem": "Copy and complete the two-way table. Type the missing numbers row by row, from left to right.",
@@ -140948,6 +141510,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y8-8j-table-prob",
    "label": "9a",
    "section": "Problem-solving",
    "stem": "A shoe shop has $60$ pairs of shoes on display. $24$ pairs are black and $15$ pairs are sneakers. Only $6$ of the pairs of sneakers are black.",
@@ -140986,6 +141549,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y8-8j-table-prob",
    "label": "9b",
    "section": "Problem-solving",
    "stem": "A shoe shop has $60$ pairs of shoes on display. $24$ pairs are black and $15$ pairs are sneakers. Only $6$ of the pairs of sneakers are black.",
@@ -140995,6 +141559,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y8-8j-table-prob",
    "label": "9c",
    "section": "Problem-solving",
    "stem": "A shoe shop has $60$ pairs of shoes on display. $24$ pairs are black and $15$ pairs are sneakers. Only $6$ of the pairs of sneakers are black.",
@@ -141004,6 +141569,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y8-8j-table-prob",
    "label": "9d",
    "section": "Problem-solving",
    "stem": "A shoe shop has $60$ pairs of shoes on display. $24$ pairs are black and $15$ pairs are sneakers. Only $6$ of the pairs of sneakers are black.",
@@ -141013,6 +141579,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y8-8j-complete",
    "label": "10a",
    "section": "Problem-solving",
    "stem": "Events A and B are mutually exclusive. The two-way table is partly filled in.",
@@ -141059,6 +141626,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y8-8j-complete",
    "label": "10b",
    "section": "Problem-solving",
    "stem": "Events A and B are mutually exclusive. The two-way table is partly filled in.",
@@ -141068,6 +141636,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y8-8j-complete",
    "label": "10c",
    "section": "Problem-solving",
    "stem": "Events A and B are mutually exclusive. The two-way table is partly filled in.",
@@ -141077,6 +141646,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10d",
+   "help": "y8-8j-complete",
    "label": "10d",
    "section": "Problem-solving",
    "stem": "Events A and B are mutually exclusive. The two-way table is partly filled in.",
@@ -141086,6 +141656,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y8-8j-table-prob",
    "label": "11a",
    "section": "Problem-solving",
    "stem": "Lena has $120$ photos on her phone. $40$ were taken at the beach, and $15$ of those have her dog in them. Of the photos not taken at the beach, $62$ do not have her dog in them.",
@@ -141095,6 +141666,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y8-8j-table-prob",
    "label": "11b",
    "section": "Problem-solving",
    "stem": "Lena has $120$ photos on her phone. $40$ were taken at the beach, and $15$ of those have her dog in them. Of the photos not taken at the beach, $62$ do not have her dog in them.",
@@ -141104,6 +141676,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y8-8j-table-prob",
    "label": "11c",
    "section": "Problem-solving",
    "stem": "Lena has $120$ photos on her phone. $40$ were taken at the beach, and $15$ of those have her dog in them. Of the photos not taken at the beach, $62$ do not have her dog in them.",
@@ -141113,6 +141686,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11d",
+   "help": "y8-8j-table-prob",
    "label": "11d",
    "section": "Problem-solving",
    "stem": "Lena has $120$ photos on her phone. $40$ were taken at the beach, and $15$ of those have her dog in them. Of the photos not taken at the beach, $62$ do not have her dog in them.",
@@ -141122,6 +141696,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y8-8j-venn",
    "label": "12a",
    "section": "Reasoning",
    "stem": "The word 'or' can mean inclusive 'or' (A or B or both) or exclusive 'or' (A or B but not both).",
@@ -141135,6 +141710,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y8-8j-venn",
    "label": "12b",
    "section": "Reasoning",
    "stem": "The word 'or' can mean inclusive 'or' (A or B or both) or exclusive 'or' (A or B but not both).",
@@ -141149,6 +141725,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y8-8j-complete",
    "label": "13a",
    "section": "Reasoning",
    "stem": "A two-way table (with its totals) has $9$ spaces to be filled with numbers.",
@@ -141158,6 +141735,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y8-8j-complete",
    "label": "13b",
    "section": "Reasoning",
    "stem": "A two-way table (with its totals) has $9$ spaces to be filled with numbers.",
@@ -141171,6 +141749,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15a",
+   "help": "y8-8j-algebra",
    "label": "15a",
    "section": "Enrichment",
    "stem": "In this Venn diagram, $p$, $q$, $r$ and $s$ are unknown positive whole numbers.",
@@ -141263,6 +141842,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15b",
+   "help": "y8-8j-algebra",
    "label": "15b",
    "section": "Enrichment",
    "stem": "In this Venn diagram, $p$, $q$, $r$ and $s$ are unknown positive whole numbers.",
@@ -141272,6 +141852,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15c",
+   "help": "y8-8j-algebra",
    "label": "15c",
    "section": "Enrichment",
    "stem": "In this Venn diagram, $p$, $q$, $r$ and $s$ are unknown positive whole numbers.",
@@ -141281,6 +141862,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15d",
+   "help": "y8-8j-algebra",
    "label": "15d",
    "section": "Enrichment",
    "stem": "Events A and B are mutually exclusive, so the Venn diagram has no overlap. Use $m$, $n$ and $k$ to write expressions for:",
@@ -141365,6 +141947,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15e",
+   "help": "y8-8j-algebra",
    "label": "15e",
    "section": "Enrichment",
    "stem": "Events A and B are mutually exclusive, so the Venn diagram has no overlap. Use $m$, $n$ and $k$ to write expressions for:",
@@ -141374,6 +141957,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15f",
+   "help": "y8-8j-algebra",
    "label": "15f",
    "section": "Enrichment",
    "stem": "Events A and B are mutually exclusive, so the Venn diagram has no overlap. Use $m$, $n$ and $k$ to write expressions for:",
@@ -141383,6 +141967,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15g",
+   "help": "y8-8j-algebra",
    "label": "15g",
    "section": "Enrichment",
    "stem": "Events A and B are mutually exclusive, so the Venn diagram has no overlap. Use $m$, $n$ and $k$ to write expressions for:",
@@ -141392,6 +141977,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15h",
+   "help": "y8-8j-algebra",
    "label": "15h",
    "section": "Enrichment",
    "stem": "Events A and B are mutually exclusive, so the Venn diagram has no overlap. Use $m$, $n$ and $k$ to write expressions for:",
@@ -141410,6 +141996,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-8k-experimental",
    "label": "1a",
    "section": "Fluency",
    "stem": "Some green, red and white marbles are placed in a jar. Over and over, a marble is taken out, its colour is noted and then it is put back. The results are tallied below.",
@@ -141610,6 +142197,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-8k-experimental",
    "label": "1b",
    "section": "Fluency",
    "stem": "Some green, red and white marbles are placed in a jar. Over and over, a marble is taken out, its colour is noted and then it is put back. The results are tallied below.",
@@ -141619,6 +142207,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y8-8k-experimental",
    "label": "1c",
    "section": "Fluency",
    "stem": "Some green, red and white marbles are placed in a jar. Over and over, a marble is taken out, its colour is noted and then it is put back. The results are tallied below.",
@@ -141628,6 +142217,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-8k-experimental",
    "label": "2a",
    "section": "Fluency",
    "stem": "A spinner is spun $40$ times and the results are shown in the frequency table.",
@@ -141656,6 +142246,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-8k-experimental",
    "label": "2b",
    "section": "Fluency",
    "stem": "A spinner is spun $40$ times and the results are shown in the frequency table.",
@@ -141665,6 +142256,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-8k-experimental",
    "label": "2c",
    "section": "Fluency",
    "stem": "A spinner is spun $40$ times and the results are shown in the frequency table.",
@@ -141674,6 +142266,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y8-8k-experimental",
    "label": "2d",
    "section": "Fluency",
    "stem": "A spinner is spun $40$ times and the results are shown in the frequency table.",
@@ -141683,6 +142276,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-8k-experimental",
    "label": "3a",
    "section": "Fluency",
    "stem": "A group of students were asked how many pets they have at home. The results are tallied below.",
@@ -142145,6 +142739,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-8k-experimental",
    "label": "3b",
    "section": "Fluency",
    "stem": "A group of students were asked how many pets they have at home. The results are tallied below.",
@@ -142154,6 +142749,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-8k-experimental",
    "label": "3c",
    "section": "Fluency",
    "stem": "A group of students were asked how many pets they have at home. The results are tallied below.",
@@ -142163,6 +142759,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y8-8k-experimental",
    "label": "3d",
    "section": "Fluency",
    "stem": "A group of students were asked how many pets they have at home. The results are tallied below.",
@@ -142172,6 +142769,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-8k-expected",
    "label": "4a",
    "section": "Fluency",
    "stem": "A fair six-sided die is rolled $120$ times.",
@@ -142181,6 +142779,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-8k-expected",
    "label": "4b",
    "section": "Fluency",
    "stem": "A fair six-sided die is rolled $120$ times.",
@@ -142194,6 +142793,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y8-8k-expected",
    "label": "4c",
    "section": "Fluency",
    "stem": "A fair six-sided die is rolled $120$ times.",
@@ -142207,6 +142807,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y8-8k-expected",
    "label": "5a",
    "section": "Fluency",
    "stem": "A fair eight-sided die has $4$ yellow faces, $3$ orange faces and $1$ black face.",
@@ -142216,6 +142817,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y8-8k-expected",
    "label": "5b",
    "section": "Fluency",
    "stem": "A fair eight-sided die has $4$ yellow faces, $3$ orange faces and $1$ black face.",
@@ -142225,6 +142827,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y8-8k-expected",
    "label": "5c",
    "section": "Fluency",
    "stem": "A fair eight-sided die has $4$ yellow faces, $3$ orange faces and $1$ black face.",
@@ -142234,6 +142837,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y8-8k-experimental",
    "label": "6a",
    "section": "Fluency",
    "stem": "A spinner shows the numbers $1$, $2$, $3$ and $4$ on four sectors of different sizes. It is spun $25$ times with these results: $4,\\ 1,\\ 1,\\ 1,\\ 4,\\ 3,\\ 2,\\ 1,\\ 4,\\ 2,\\ 2,\\ 1,\\ 2,\\ 1,\\ 1,\\ 4,\\ 1,\\ 1,\\ 2,\\ 3,\\ 4,\\ 1,\\ 1,\\ 4,\\ 2$",
@@ -142243,6 +142847,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y8-8k-experimental",
    "label": "6b",
    "section": "Fluency",
    "stem": "A spinner shows the numbers $1$, $2$, $3$ and $4$ on four sectors of different sizes. It is spun $25$ times with these results: $4,\\ 1,\\ 1,\\ 1,\\ 4,\\ 3,\\ 2,\\ 1,\\ 4,\\ 2,\\ 2,\\ 1,\\ 2,\\ 1,\\ 1,\\ 4,\\ 1,\\ 1,\\ 2,\\ 3,\\ 4,\\ 1,\\ 1,\\ 4,\\ 2$",
@@ -142252,6 +142857,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y8-8k-experimental",
    "label": "6c",
    "section": "Fluency",
    "stem": "A spinner shows the numbers $1$, $2$, $3$ and $4$ on four sectors of different sizes. It is spun $25$ times with these results: $4,\\ 1,\\ 1,\\ 1,\\ 4,\\ 3,\\ 2,\\ 1,\\ 4,\\ 2,\\ 2,\\ 1,\\ 2,\\ 1,\\ 1,\\ 4,\\ 1,\\ 1,\\ 2,\\ 3,\\ 4,\\ 1,\\ 1,\\ 4,\\ 2$",
@@ -142261,6 +142867,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y8-8k-experimental",
    "label": "6d",
    "section": "Fluency",
    "stem": "A spinner shows the numbers $1$, $2$, $3$ and $4$ on four sectors of different sizes. It is spun $25$ times with these results: $4,\\ 1,\\ 1,\\ 1,\\ 4,\\ 3,\\ 2,\\ 1,\\ 4,\\ 2,\\ 2,\\ 1,\\ 2,\\ 1,\\ 1,\\ 4,\\ 1,\\ 1,\\ 2,\\ 3,\\ 4,\\ 1,\\ 1,\\ 4,\\ 2$",
@@ -142270,6 +142877,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6e",
+   "help": "y8-8k-experimental",
    "label": "6e",
    "section": "Fluency",
    "stem": "A spinner shows the numbers $1$, $2$, $3$ and $4$ on four sectors of different sizes. It is spun $25$ times with these results: $4,\\ 1,\\ 1,\\ 1,\\ 4,\\ 3,\\ 2,\\ 1,\\ 4,\\ 2,\\ 2,\\ 1,\\ 2,\\ 1,\\ 1,\\ 4,\\ 1,\\ 1,\\ 2,\\ 3,\\ 4,\\ 1,\\ 1,\\ 4,\\ 2$",
@@ -142279,6 +142887,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y8-8k-simulate",
    "label": "7a",
    "section": "Fluency",
    "stem": "A netball player has a $1$ in $2$ chance of scoring a goal from a shot. Her coach simulates $24$ shots with a coin: heads means the shot goes in, tails means it misses. The results were: T, H, H, T, H, H, T, T, H, T, T, T, H, T, H, T, T, T, H, H, H, T, T, H",
@@ -142288,6 +142897,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y8-8k-simulate",
    "label": "7b",
    "section": "Fluency",
    "stem": "A netball player has a $1$ in $2$ chance of scoring a goal from a shot. Her coach simulates $24$ shots with a coin: heads means the shot goes in, tails means it misses. The results were: T, H, H, T, H, H, T, T, H, T, T, T, H, T, H, T, T, T, H, H, H, T, T, H",
@@ -142297,6 +142907,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y8-8k-simulate",
    "label": "7c",
    "section": "Fluency",
    "stem": "A netball player has a $1$ in $2$ chance of scoring a goal from a shot. Her coach simulates $24$ shots with a coin: heads means the shot goes in, tails means it misses. The results were: T, H, H, T, H, H, T, T, H, T, T, T, H, T, H, T, T, T, H, H, H, T, T, H",
@@ -142306,6 +142917,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y8-8k-simulate",
    "label": "8a",
    "section": "Problem-solving",
    "stem": "Priya sits a quiz with $6$ true or false questions and guesses every answer. She passes if she gets at least $4$ correct.",
@@ -142321,6 +142933,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y8-8k-simulate",
    "label": "8b",
    "section": "Problem-solving",
    "stem": "Priya sits a quiz with $6$ true or false questions and guesses every answer. She passes if she gets at least $4$ correct.",
@@ -142330,6 +142943,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y8-8k-estimate",
    "label": "9a",
    "section": "Problem-solving",
    "stem": "A bag holds some blue and some yellow marbles. A marble is chosen and put back after its colour is noted. After $40$ draws the results were: blue $12$, yellow $28$. Based on the experiment, give the most likely answer to each question.",
@@ -142339,6 +142953,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y8-8k-estimate",
    "label": "9b",
    "section": "Problem-solving",
    "stem": "A bag holds some blue and some yellow marbles. A marble is chosen and put back after its colour is noted. After $40$ draws the results were: blue $12$, yellow $28$. Based on the experiment, give the most likely answer to each question.",
@@ -142348,6 +142963,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y8-8k-estimate",
    "label": "9c",
    "section": "Problem-solving",
    "stem": "A bag holds some blue and some yellow marbles. A marble is chosen and put back after its colour is noted. After $40$ draws the results were: blue $12$, yellow $28$. Based on the experiment, give the most likely answer to each question.",
@@ -142357,6 +142973,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y8-8k-estimate",
    "label": "9d",
    "section": "Problem-solving",
    "stem": "A bag holds some blue and some yellow marbles. A marble is chosen and put back after its colour is noted. After $40$ draws the results were: blue $12$, yellow $28$. Based on the experiment, give the most likely answer to each question.",
@@ -142366,6 +142983,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9e",
+   "help": "y8-8k-estimate",
    "label": "9e",
    "section": "Problem-solving",
    "stem": "A bag holds some blue and some yellow marbles. A marble is chosen and put back after its colour is noted. After $40$ draws the results were: blue $12$, yellow $28$. Based on the experiment, give the most likely answer to each question.",
@@ -142375,6 +142993,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9f",
+   "help": "y8-8k-estimate",
    "label": "9f",
    "section": "Problem-solving",
    "stem": "A bag holds some blue and some yellow marbles. A marble is chosen and put back after its colour is noted. After $40$ draws the results were: blue $12$, yellow $28$. Based on the experiment, give the most likely answer to each question.",
@@ -142384,6 +143003,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y8-8k-simulate",
    "label": "10a",
    "section": "Problem-solving",
    "stem": "An archer has up to $3$ arrows to hit a target, and stops as soon as she hits it. Each arrow has a $1$ in $6$ chance of hitting the bullseye, a $1$ in $3$ chance of hitting the outer ring and a $1$ in $2$ chance of missing. She simulates each arrow by rolling a die: $6$ is a bullseye, $4$ or $5$ is the outer ring, and $1$, $2$ or $3$ is a miss. Match each set of rolls with outcome A, B, C or D.",
@@ -142399,6 +143019,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y8-8k-simulate",
    "label": "10b",
    "section": "Problem-solving",
    "stem": "An archer has up to $3$ arrows to hit a target, and stops as soon as she hits it. Each arrow has a $1$ in $6$ chance of hitting the bullseye, a $1$ in $3$ chance of hitting the outer ring and a $1$ in $2$ chance of missing. She simulates each arrow by rolling a die: $6$ is a bullseye, $4$ or $5$ is the outer ring, and $1$, $2$ or $3$ is a miss. Match each set of rolls with outcome A, B, C or D.",
@@ -142414,6 +143035,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y8-8k-simulate",
    "label": "10c",
    "section": "Problem-solving",
    "stem": "An archer has up to $3$ arrows to hit a target, and stops as soon as she hits it. Each arrow has a $1$ in $6$ chance of hitting the bullseye, a $1$ in $3$ chance of hitting the outer ring and a $1$ in $2$ chance of missing. She simulates each arrow by rolling a die: $6$ is a bullseye, $4$ or $5$ is the outer ring, and $1$, $2$ or $3$ is a miss. Match each set of rolls with outcome A, B, C or D.",
@@ -142429,6 +143051,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10d",
+   "help": "y8-8k-simulate",
    "label": "10d",
    "section": "Problem-solving",
    "stem": "An archer has up to $3$ arrows to hit a target, and stops as soon as she hits it. Each arrow has a $1$ in $6$ chance of hitting the bullseye, a $1$ in $3$ chance of hitting the outer ring and a $1$ in $2$ chance of missing. She simulates each arrow by rolling a die: $6$ is a bullseye, $4$ or $5$ is the outer ring, and $1$, $2$ or $3$ is a miss. Match each set of rolls with outcome A, B, C or D.",
@@ -142444,6 +143067,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10e",
+   "help": "y8-8k-simulate",
    "label": "10e",
    "section": "Problem-solving",
    "stem": "The archer runs the simulation for $50$ turns. She gets a bullseye in $18$ turns, hits the outer ring in $28$ turns and misses all three arrows in $4$ turns.",
@@ -142453,6 +143077,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10f",
+   "help": "y8-8k-simulate",
    "label": "10f",
    "section": "Problem-solving",
    "stem": "The archer runs the simulation for $50$ turns. She gets a bullseye in $18$ turns, hits the outer ring in $28$ turns and misses all three arrows in $4$ turns.",
@@ -142462,6 +143087,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10g",
+   "help": "y8-8k-simulate",
    "label": "10g",
    "section": "Problem-solving",
    "stem": "The archer runs the simulation for $50$ turns. She gets a bullseye in $18$ turns, hits the outer ring in $28$ turns and misses all three arrows in $4$ turns.",
@@ -142471,6 +143097,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10h",
+   "help": "y8-8k-simulate",
    "label": "10h",
    "section": "Problem-solving",
    "type": "numeric",
@@ -142479,6 +143106,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y8-8k-design",
    "label": "11a",
    "section": "Reasoning",
    "stem": "A coin toss can be simulated with a die by letting $1$ to $3$ stand for tails and $4$ to $6$ stand for heads. Could this spinner be simulated using a single roll of a die?",
@@ -142565,6 +143193,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y8-8k-design",
    "label": "11b",
    "section": "Reasoning",
    "stem": "A coin toss can be simulated with a die by letting $1$ to $3$ stand for tails and $4$ to $6$ stand for heads. Could this spinner be simulated using a single roll of a die?",
@@ -142651,6 +143280,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y8-8k-design",
    "label": "11c",
    "section": "Reasoning",
    "stem": "A coin toss can be simulated with a die by letting $1$ to $3$ stand for tails and $4$ to $6$ stand for heads. Could this spinner be simulated using a single roll of a die?",
@@ -142737,6 +143367,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y8-8k-design",
    "label": "12a",
    "section": "Reasoning",
    "type": "choice",
@@ -142750,6 +143381,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y8-8k-design",
    "label": "12b",
    "section": "Reasoning",
    "type": "choice",
@@ -142763,6 +143395,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y8-8k-design",
    "label": "12c",
    "section": "Reasoning",
    "type": "choice",
@@ -142776,6 +143409,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12d",
+   "help": "y8-8k-design",
    "label": "12d",
    "section": "Reasoning",
    "type": "choice",
@@ -142789,6 +143423,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y8-8k-compare",
    "label": "13a",
    "section": "Reasoning",
    "stem": "Four coins are flipped over and over, and the number of heads is noted each time. The results are shown in the table.",
@@ -142819,6 +143454,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y8-8k-compare",
    "label": "13b",
    "section": "Reasoning",
    "stem": "Four coins are flipped over and over, and the number of heads is noted each time. The results are shown in the table.",
@@ -142829,6 +143465,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13c",
+   "help": "y8-8k-compare",
    "label": "13c",
    "section": "Reasoning",
    "stem": "Four coins are flipped over and over, and the number of heads is noted each time. The results are shown in the table.",
@@ -142838,6 +143475,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13d",
+   "help": "y8-8k-compare",
    "label": "13d",
    "section": "Reasoning",
    "stem": "Four coins are flipped over and over, and the number of heads is noted each time. The results are shown in the table.",
@@ -142851,6 +143489,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13e",
+   "help": "y8-8k-compare",
    "label": "13e",
    "section": "Reasoning",
    "stem": "Four coins are flipped over and over, and the number of heads is noted each time. The results are shown in the table.",
@@ -142864,6 +143503,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y8-8k-area",
    "label": "14a",
    "section": "Enrichment",
    "stem": "Darts are thrown at random at the picture: a blue 25 cm by 8 cm rectangle with a red square inside. Every dart hits the picture.",
@@ -142965,6 +143605,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y8-8k-area",
    "label": "14b",
    "section": "Enrichment",
    "stem": "Darts are thrown at random at the picture: a blue 25 cm by 8 cm rectangle with a red square inside. Every dart hits the picture.",
@@ -142975,6 +143616,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14c",
+   "help": "y8-8k-area",
    "label": "14c",
    "section": "Enrichment",
    "stem": "Darts are thrown at random at the picture: a blue 25 cm by 8 cm rectangle with a red square inside. Every dart hits the picture.",
@@ -142984,6 +143626,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14d",
+   "help": "y8-8k-area",
    "label": "14d",
    "section": "Enrichment",
    "stem": "Darts are thrown at random at the picture: a blue 25 cm by 8 cm rectangle with a red square inside. Every dart hits the picture.",
@@ -142993,6 +143636,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14e",
+   "help": "y8-8k-area",
    "label": "14e",
    "section": "Enrichment",
    "stem": "$1000$ darts are thrown at random at this picture: a blue 20 cm by 10 cm rectangle with a 12 cm by 6 cm rectangle inside it, split into a red part and a white triangle. How many darts would you expect to hit:",
@@ -143136,6 +143780,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14f",
+   "help": "y8-8k-area",
    "label": "14f",
    "section": "Enrichment",
    "stem": "$1000$ darts are thrown at random at this picture: a blue 20 cm by 10 cm rectangle with a 12 cm by 6 cm rectangle inside it, split into a red part and a white triangle. How many darts would you expect to hit:",
@@ -143145,6 +143790,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14g",
+   "help": "y8-8k-area",
    "label": "14g",
    "section": "Enrichment",
    "stem": "$1000$ darts are thrown at random at this picture: a blue 20 cm by 10 cm rectangle with a 12 cm by 6 cm rectangle inside it, split into a red part and a white triangle. How many darts would you expect to hit:",
@@ -143154,6 +143800,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14h",
+   "help": "y8-8k-area",
    "label": "14h",
    "section": "Enrichment",
    "stem": "A map of an island is drawn on a 40 cm by 25 cm rectangle. $1000$ darts are thrown at random at the map, and $340$ of them land on the island.",
@@ -143267,6 +143914,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14i",
+   "help": "y8-8k-area",
    "label": "14i",
    "section": "Enrichment",
    "stem": "A map of an island is drawn on a 40 cm by 25 cm rectangle. $1000$ darts are thrown at random at the map, and $340$ of them land on the island.",
