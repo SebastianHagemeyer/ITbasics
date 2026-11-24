@@ -176407,6 +176407,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-8a-expand",
    "label": "1a",
    "section": "Fluency",
    "stem": "Expand the following.",
@@ -176418,6 +176419,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-8a-expand",
    "label": "1b",
    "section": "Fluency",
    "stem": "Expand the following.",
@@ -176428,6 +176430,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-8a-expand",
    "label": "1c",
    "section": "Fluency",
    "stem": "Expand the following.",
@@ -176438,6 +176441,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-8a-expand",
    "label": "1d",
    "section": "Fluency",
    "stem": "Expand the following.",
@@ -176448,6 +176452,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-8a-expand",
    "label": "1e",
    "section": "Fluency",
    "stem": "Expand the following.",
@@ -176458,6 +176463,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-8a-expand",
    "label": "1f",
    "section": "Fluency",
    "stem": "Expand the following.",
@@ -176468,6 +176474,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1g",
+   "help": "y9-8a-expand",
    "label": "1g",
    "section": "Fluency",
    "stem": "Expand the following.",
@@ -176478,6 +176485,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1h",
+   "help": "y9-8a-expand",
    "label": "1h",
    "section": "Fluency",
    "stem": "Expand the following.",
@@ -176488,6 +176496,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1i",
+   "help": "y9-8a-expand",
    "label": "1i",
    "section": "Fluency",
    "stem": "Expand the following.",
@@ -176498,6 +176507,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1j",
+   "help": "y9-8a-expand",
    "label": "1j",
    "section": "Fluency",
    "stem": "Expand the following.",
@@ -176508,6 +176518,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1k",
+   "help": "y9-8a-expand",
    "label": "1k",
    "section": "Fluency",
    "stem": "Expand the following.",
@@ -176518,6 +176529,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1l",
+   "help": "y9-8a-expand",
    "label": "1l",
    "section": "Fluency",
    "stem": "Expand the following.",
@@ -176528,6 +176540,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-8a-coeff",
    "label": "2a",
    "section": "Fluency",
    "stem": "Expand the following.",
@@ -176538,6 +176551,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-8a-coeff",
    "label": "2b",
    "section": "Fluency",
    "stem": "Expand the following.",
@@ -176548,6 +176562,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-8a-coeff",
    "label": "2c",
    "section": "Fluency",
    "stem": "Expand the following.",
@@ -176558,6 +176573,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-8a-coeff",
    "label": "2d",
    "section": "Fluency",
    "stem": "Expand the following.",
@@ -176568,6 +176584,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-8a-coeff",
    "label": "2e",
    "section": "Fluency",
    "stem": "Expand the following.",
@@ -176578,6 +176595,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-8a-coeff",
    "label": "2f",
    "section": "Fluency",
    "stem": "Expand the following.",
@@ -176588,6 +176606,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y9-8a-coeff",
    "label": "2g",
    "section": "Fluency",
    "stem": "Expand the following.",
@@ -176598,6 +176617,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y9-8a-coeff",
    "label": "2h",
    "section": "Fluency",
    "stem": "Expand the following.",
@@ -176608,6 +176628,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2i",
+   "help": "y9-8a-coeff",
    "label": "2i",
    "section": "Fluency",
    "stem": "Expand the following.",
@@ -176618,6 +176639,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2j",
+   "help": "y9-8a-coeff",
    "label": "2j",
    "section": "Fluency",
    "stem": "Expand the following.",
@@ -176628,6 +176650,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2k",
+   "help": "y9-8a-coeff",
    "label": "2k",
    "section": "Fluency",
    "stem": "Expand the following.",
@@ -176638,6 +176661,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2l",
+   "help": "y9-8a-coeff",
    "label": "2l",
    "section": "Fluency",
    "stem": "Expand the following.",
@@ -176648,6 +176672,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-8a-letters",
    "label": "3a",
    "section": "Fluency",
    "stem": "Expand these binomial products.",
@@ -176659,6 +176684,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-8a-letters",
    "label": "3b",
    "section": "Fluency",
    "stem": "Expand these binomial products.",
@@ -176669,6 +176695,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-8a-letters",
    "label": "3c",
    "section": "Fluency",
    "stem": "Expand these binomial products.",
@@ -176679,6 +176706,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-8a-letters",
    "label": "3d",
    "section": "Fluency",
    "stem": "Expand these binomial products.",
@@ -176689,6 +176717,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-8a-letters",
    "label": "3e",
    "section": "Fluency",
    "stem": "Expand these binomial products.",
@@ -176699,6 +176728,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-8a-letters",
    "label": "3f",
    "section": "Fluency",
    "stem": "Expand these binomial products.",
@@ -176709,6 +176739,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3g",
+   "help": "y9-8a-letters",
    "label": "3g",
    "section": "Fluency",
    "stem": "Expand these binomial products.",
@@ -176719,6 +176750,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3h",
+   "help": "y9-8a-letters",
    "label": "3h",
    "section": "Fluency",
    "stem": "Expand these binomial products.",
@@ -176729,6 +176761,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3i",
+   "help": "y9-8a-letters",
    "label": "3i",
    "section": "Fluency",
    "stem": "Expand these binomial products.",
@@ -176739,6 +176772,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-8a-area",
    "label": "4a",
    "section": "Problem-solving",
    "stem": "A rectangular deck measuring $6$ m by $8$ m is to be enlarged. Both the length and the width are increased by $x$ m.",
@@ -176750,6 +176784,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-8a-area",
    "label": "4b",
    "section": "Problem-solving",
    "stem": "A rectangular deck measuring $6$ m by $8$ m is to be enlarged. Both the length and the width are increased by $x$ m.",
@@ -176760,6 +176795,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-8a-area",
    "label": "4c",
    "section": "Problem-solving",
    "stem": "A rectangular deck measuring $6$ m by $8$ m is to be enlarged. Both the length and the width are increased by $x$ m.",
@@ -176770,6 +176806,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-8a-area",
    "label": "5a",
    "section": "Problem-solving",
    "stem": "A rectangular picture frame has a border $4$ cm wide. The outside of the frame is $x$ cm wide and its length is $3$ times its width.",
@@ -176870,6 +176907,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-8a-area",
    "label": "5b",
    "section": "Problem-solving",
    "stem": "A rectangular picture frame has a border $4$ cm wide. The outside of the frame is $x$ cm wide and its length is $3$ times its width.",
@@ -176881,6 +176919,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-8a-area",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "The outside edge of a path around a swimming pool is $18$ m long and $12$ m wide. The path is $x$ m wide all the way around.",
@@ -176982,6 +177021,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-8a-area",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "The outside edge of a path around a swimming pool is $18$ m long and $12$ m wide. The path is $x$ m wide all the way around.",
@@ -176992,6 +177032,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-8a-missing",
    "label": "7a",
    "section": "Reasoning",
    "stem": "Find the missing number or term in each expansion. Where there is more than one gap, give them in order from left to right, separated by commas.",
@@ -177001,6 +177042,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-8a-missing",
    "label": "7b",
    "section": "Reasoning",
    "stem": "Find the missing number or term in each expansion. Where there is more than one gap, give them in order from left to right, separated by commas.",
@@ -177010,6 +177052,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-8a-missing",
    "label": "7c",
    "section": "Reasoning",
    "stem": "Find the missing number or term in each expansion. Where there is more than one gap, give them in order from left to right, separated by commas.",
@@ -177022,6 +177065,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y9-8a-missing",
    "label": "7d",
    "section": "Reasoning",
    "stem": "Find the missing number or term in each expansion. Where there is more than one gap, give them in order from left to right, separated by commas.",
@@ -177034,6 +177078,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7e",
+   "help": "y9-8a-missing",
    "label": "7e",
    "section": "Reasoning",
    "stem": "Find the missing number or term in each expansion. Where there is more than one gap, give them in order from left to right, separated by commas.",
@@ -177046,6 +177091,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7f",
+   "help": "y9-8a-missing",
    "label": "7f",
    "section": "Reasoning",
    "stem": "Find the missing number or term in each expansion. Where there is more than one gap, give them in order from left to right, separated by commas.",
@@ -177058,6 +177104,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7g",
+   "help": "y9-8a-missing",
    "label": "7g",
    "section": "Reasoning",
    "stem": "Find the missing number or term in each expansion. Where there is more than one gap, give them in order from left to right, separated by commas.",
@@ -177072,6 +177119,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7h",
+   "help": "y9-8a-missing",
    "label": "7h",
    "section": "Reasoning",
    "stem": "Find the missing number or term in each expansion. Where there is more than one gap, give them in order from left to right, separated by commas.",
@@ -177085,6 +177133,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7i",
+   "help": "y9-8a-missing",
    "label": "7i",
    "section": "Reasoning",
    "stem": "Find the missing number or term in each expansion. Where there is more than one gap, give them in order from left to right, separated by commas.",
@@ -177098,6 +177147,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7j",
+   "help": "y9-8a-missing",
    "label": "7j",
    "section": "Reasoning",
    "stem": "Find the missing number or term in each expansion. Where there is more than one gap, give them in order from left to right, separated by commas.",
@@ -177111,6 +177161,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-8a-missing",
    "label": "8a",
    "section": "Reasoning",
    "stem": "Consider the binomial product $(x + a)(x + b)$. Find the integer values of $a$ and $b$ if:",
@@ -177124,6 +177175,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-8a-missing",
    "label": "8b",
    "section": "Reasoning",
    "stem": "Consider the binomial product $(x + a)(x + b)$. Find the integer values of $a$ and $b$ if:",
@@ -177136,6 +177188,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y9-8a-missing",
    "label": "8c",
    "section": "Reasoning",
    "stem": "Consider the binomial product $(x + a)(x + b)$. Find the integer values of $a$ and $b$ if:",
@@ -177148,6 +177201,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y9-8a-missing",
    "label": "8d",
    "section": "Reasoning",
    "stem": "Consider the binomial product $(x + a)(x + b)$. Find the integer values of $a$ and $b$ if:",
@@ -177160,6 +177214,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-8a-cubic",
    "label": "9a",
    "section": "Enrichment",
    "stem": "Use the distributive law to expand and simplify these products. (Remember $x \\times x^2 = x^3$.)",
@@ -177171,6 +177226,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-8a-cubic",
    "label": "9b",
    "section": "Enrichment",
    "stem": "Use the distributive law to expand and simplify these products. (Remember $x \\times x^2 = x^3$.)",
@@ -177181,6 +177237,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y9-8a-cubic",
    "label": "9c",
    "section": "Enrichment",
    "stem": "Use the distributive law to expand and simplify these products. (Remember $x \\times x^2 = x^3$.)",
@@ -177191,6 +177248,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y9-8a-cubic",
    "label": "9d",
    "section": "Enrichment",
    "stem": "Use the distributive law to expand and simplify these products. (Remember $x \\times x^2 = x^3$.)",
@@ -177201,6 +177259,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9e",
+   "help": "y9-8a-cubic",
    "label": "9e",
    "section": "Enrichment",
    "stem": "Use the distributive law to expand and simplify these products. (Remember $x \\times x^2 = x^3$.)",
@@ -177211,6 +177270,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9f",
+   "help": "y9-8a-cubic",
    "label": "9f",
    "section": "Enrichment",
    "stem": "Use the distributive law to expand and simplify these products. (Remember $x \\times x^2 = x^3$.)",
@@ -177221,6 +177281,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9g",
+   "help": "y9-8a-cubic",
    "label": "9g",
    "section": "Enrichment",
    "stem": "Use the distributive law to expand and simplify these products. (Remember $x \\times x^2 = x^3$.)",
@@ -177231,6 +177292,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9h",
+   "help": "y9-8a-cubic",
    "label": "9h",
    "section": "Enrichment",
    "stem": "Use the distributive law to expand and simplify these products. (Remember $x \\times x^2 = x^3$.)",
@@ -177241,6 +177303,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9i",
+   "help": "y9-8a-cubic",
    "label": "9i",
    "section": "Enrichment",
    "stem": "Use the distributive law to expand and simplify these products. (Remember $x \\times x^2 = x^3$.)",
@@ -177251,6 +177314,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9j",
+   "help": "y9-8a-cubic",
    "label": "9j",
    "section": "Enrichment",
    "stem": "Use the distributive law to expand and simplify these products. (Remember $x \\times x^2 = x^3$.)",
@@ -177261,6 +177325,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10",
+   "help": "y9-8a-cubic",
    "label": "10",
    "section": "Enrichment",
    "type": "expression",
@@ -177280,6 +177345,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-8b-square",
    "label": "1a",
    "section": "Fluency",
    "stem": "Expand each of the following perfect squares.",
@@ -177291,6 +177357,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-8b-square",
    "label": "1b",
    "section": "Fluency",
    "stem": "Expand each of the following perfect squares.",
@@ -177301,6 +177368,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-8b-square",
    "label": "1c",
    "section": "Fluency",
    "stem": "Expand each of the following perfect squares.",
@@ -177311,6 +177379,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-8b-square",
    "label": "1d",
    "section": "Fluency",
    "stem": "Expand each of the following perfect squares.",
@@ -177321,6 +177390,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-8b-square",
    "label": "1e",
    "section": "Fluency",
    "stem": "Expand each of the following perfect squares.",
@@ -177331,6 +177401,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-8b-square",
    "label": "1f",
    "section": "Fluency",
    "stem": "Expand each of the following perfect squares.",
@@ -177341,6 +177412,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1g",
+   "help": "y9-8b-square",
    "label": "1g",
    "section": "Fluency",
    "stem": "Expand each of the following perfect squares.",
@@ -177351,6 +177423,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1h",
+   "help": "y9-8b-square",
    "label": "1h",
    "section": "Fluency",
    "stem": "Expand each of the following perfect squares.",
@@ -177361,6 +177434,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1i",
+   "help": "y9-8b-square",
    "label": "1i",
    "section": "Fluency",
    "stem": "Expand each of the following perfect squares.",
@@ -177371,6 +177445,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1j",
+   "help": "y9-8b-square",
    "label": "1j",
    "section": "Fluency",
    "stem": "Expand each of the following perfect squares.",
@@ -177381,6 +177456,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1k",
+   "help": "y9-8b-square",
    "label": "1k",
    "section": "Fluency",
    "stem": "Expand each of the following perfect squares.",
@@ -177391,6 +177467,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1l",
+   "help": "y9-8b-square",
    "label": "1l",
    "section": "Fluency",
    "stem": "Expand each of the following perfect squares.",
@@ -177401,6 +177478,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-8b-square",
    "label": "2a",
    "section": "Fluency",
    "stem": "Expand each of the following perfect squares.",
@@ -177411,6 +177489,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-8b-square",
    "label": "2b",
    "section": "Fluency",
    "stem": "Expand each of the following perfect squares.",
@@ -177421,6 +177500,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-8b-square",
    "label": "2c",
    "section": "Fluency",
    "stem": "Expand each of the following perfect squares.",
@@ -177431,6 +177511,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-8b-square",
    "label": "2d",
    "section": "Fluency",
    "stem": "Expand each of the following perfect squares.",
@@ -177441,6 +177522,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-8b-square",
    "label": "2e",
    "section": "Fluency",
    "stem": "Expand each of the following perfect squares.",
@@ -177451,6 +177533,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-8b-square",
    "label": "2f",
    "section": "Fluency",
    "stem": "Expand each of the following perfect squares.",
@@ -177461,6 +177544,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y9-8b-square",
    "label": "2g",
    "section": "Fluency",
    "stem": "Expand each of the following perfect squares.",
@@ -177471,6 +177555,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y9-8b-square",
    "label": "2h",
    "section": "Fluency",
    "stem": "Expand each of the following perfect squares.",
@@ -177481,6 +177566,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2i",
+   "help": "y9-8b-square",
    "label": "2i",
    "section": "Fluency",
    "stem": "Expand each of the following perfect squares.",
@@ -177491,6 +177577,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2j",
+   "help": "y9-8b-square",
    "label": "2j",
    "section": "Fluency",
    "stem": "Expand each of the following perfect squares.",
@@ -177501,6 +177588,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2k",
+   "help": "y9-8b-square",
    "label": "2k",
    "section": "Fluency",
    "stem": "Expand each of the following perfect squares.",
@@ -177511,6 +177599,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2l",
+   "help": "y9-8b-square",
    "label": "2l",
    "section": "Fluency",
    "stem": "Expand each of the following perfect squares.",
@@ -177521,6 +177610,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2m",
+   "help": "y9-8b-square",
    "label": "2m",
    "section": "Fluency",
    "stem": "Expand each of the following perfect squares.",
@@ -177531,6 +177621,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2n",
+   "help": "y9-8b-square",
    "label": "2n",
    "section": "Fluency",
    "stem": "Expand each of the following perfect squares.",
@@ -177541,6 +177632,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2o",
+   "help": "y9-8b-square",
    "label": "2o",
    "section": "Fluency",
    "stem": "Expand each of the following perfect squares.",
@@ -177551,6 +177643,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2p",
+   "help": "y9-8b-square",
    "label": "2p",
    "section": "Fluency",
    "stem": "Expand each of the following perfect squares.",
@@ -177561,6 +177654,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2q",
+   "help": "y9-8b-square",
    "label": "2q",
    "section": "Fluency",
    "stem": "Expand each of the following perfect squares.",
@@ -177571,6 +177665,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2r",
+   "help": "y9-8b-square",
    "label": "2r",
    "section": "Fluency",
    "stem": "Expand each of the following perfect squares.",
@@ -177581,6 +177676,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2s",
+   "help": "y9-8b-square",
    "label": "2s",
    "section": "Fluency",
    "stem": "Expand each of the following perfect squares.",
@@ -177591,6 +177687,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2t",
+   "help": "y9-8b-square",
    "label": "2t",
    "section": "Fluency",
    "stem": "Expand each of the following perfect squares.",
@@ -177601,6 +177698,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2u",
+   "help": "y9-8b-square",
    "label": "2u",
    "section": "Fluency",
    "stem": "Expand each of the following perfect squares.",
@@ -177611,6 +177709,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-8b-square",
    "label": "3a",
    "section": "Fluency",
    "stem": "Expand each of the following perfect squares.",
@@ -177621,6 +177720,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-8b-square",
    "label": "3b",
    "section": "Fluency",
    "stem": "Expand each of the following perfect squares.",
@@ -177631,6 +177731,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-8b-square",
    "label": "3c",
    "section": "Fluency",
    "stem": "Expand each of the following perfect squares.",
@@ -177641,6 +177742,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-8b-square",
    "label": "3d",
    "section": "Fluency",
    "stem": "Expand each of the following perfect squares.",
@@ -177651,6 +177753,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-8b-square",
    "label": "3e",
    "section": "Fluency",
    "stem": "Expand each of the following perfect squares.",
@@ -177661,6 +177764,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-8b-square",
    "label": "3f",
    "section": "Fluency",
    "stem": "Expand each of the following perfect squares.",
@@ -177671,6 +177775,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3g",
+   "help": "y9-8b-square",
    "label": "3g",
    "section": "Fluency",
    "stem": "Expand each of the following perfect squares.",
@@ -177681,6 +177786,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3h",
+   "help": "y9-8b-square",
    "label": "3h",
    "section": "Fluency",
    "stem": "Expand each of the following perfect squares.",
@@ -177691,6 +177797,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3i",
+   "help": "y9-8b-square",
    "label": "3i",
    "section": "Fluency",
    "stem": "Expand each of the following perfect squares.",
@@ -177701,6 +177808,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-8b-dops",
    "label": "4a",
    "section": "Fluency",
    "stem": "Expand and simplify the following to form a difference of two squares.",
@@ -177714,6 +177822,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-8b-dops",
    "label": "4b",
    "section": "Fluency",
    "stem": "Expand and simplify the following to form a difference of two squares.",
@@ -177727,6 +177836,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-8b-dops",
    "label": "4c",
    "section": "Fluency",
    "stem": "Expand and simplify the following to form a difference of two squares.",
@@ -177740,6 +177850,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-8b-dops",
    "label": "4d",
    "section": "Fluency",
    "stem": "Expand and simplify the following to form a difference of two squares.",
@@ -177753,6 +177864,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y9-8b-dops",
    "label": "4e",
    "section": "Fluency",
    "stem": "Expand and simplify the following to form a difference of two squares.",
@@ -177766,6 +177878,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y9-8b-dops",
    "label": "4f",
    "section": "Fluency",
    "stem": "Expand and simplify the following to form a difference of two squares.",
@@ -177779,6 +177892,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4g",
+   "help": "y9-8b-dops",
    "label": "4g",
    "section": "Fluency",
    "stem": "Expand and simplify the following to form a difference of two squares.",
@@ -177792,6 +177906,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4h",
+   "help": "y9-8b-dops",
    "label": "4h",
    "section": "Fluency",
    "stem": "Expand and simplify the following to form a difference of two squares.",
@@ -177805,6 +177920,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4i",
+   "help": "y9-8b-dops",
    "label": "4i",
    "section": "Fluency",
    "stem": "Expand and simplify the following to form a difference of two squares.",
@@ -177818,6 +177934,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4j",
+   "help": "y9-8b-dops",
    "label": "4j",
    "section": "Fluency",
    "stem": "Expand and simplify the following to form a difference of two squares.",
@@ -177831,6 +177948,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4k",
+   "help": "y9-8b-dops",
    "label": "4k",
    "section": "Fluency",
    "stem": "Expand and simplify the following to form a difference of two squares.",
@@ -177844,6 +177962,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4l",
+   "help": "y9-8b-dops",
    "label": "4l",
    "section": "Fluency",
    "stem": "Expand and simplify the following to form a difference of two squares.",
@@ -177857,6 +177976,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-8b-dops",
    "label": "5a",
    "section": "Fluency",
    "stem": "Expand and simplify the following.",
@@ -177870,6 +177990,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-8b-dops",
    "label": "5b",
    "section": "Fluency",
    "stem": "Expand and simplify the following.",
@@ -177883,6 +178004,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-8b-dops",
    "label": "5c",
    "section": "Fluency",
    "stem": "Expand and simplify the following.",
@@ -177896,6 +178018,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-8b-dops",
    "label": "5d",
    "section": "Fluency",
    "stem": "Expand and simplify the following.",
@@ -177909,6 +178032,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y9-8b-dops",
    "label": "5e",
    "section": "Fluency",
    "stem": "Expand and simplify the following.",
@@ -177922,6 +178046,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y9-8b-dops",
    "label": "5f",
    "section": "Fluency",
    "stem": "Expand and simplify the following.",
@@ -177935,6 +178060,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5g",
+   "help": "y9-8b-dops",
    "label": "5g",
    "section": "Fluency",
    "stem": "Expand and simplify the following.",
@@ -177948,6 +178074,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5h",
+   "help": "y9-8b-dops",
    "label": "5h",
    "section": "Fluency",
    "stem": "Expand and simplify the following.",
@@ -177961,6 +178088,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5i",
+   "help": "y9-8b-dops",
    "label": "5i",
    "section": "Fluency",
    "stem": "Expand and simplify the following.",
@@ -177974,6 +178102,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5j",
+   "help": "y9-8b-dops",
    "label": "5j",
    "section": "Fluency",
    "stem": "Expand and simplify the following.",
@@ -177987,6 +178116,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5k",
+   "help": "y9-8b-dops",
    "label": "5k",
    "section": "Fluency",
    "stem": "Expand and simplify the following.",
@@ -178000,6 +178130,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5l",
+   "help": "y9-8b-dops",
    "label": "5l",
    "section": "Fluency",
    "stem": "Expand and simplify the following.",
@@ -178013,6 +178144,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-8b-area",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "Tomas is $x$ years old. His two cousins are $(x - 3)$ and $(x + 3)$ years old.",
@@ -178022,6 +178154,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-8b-area",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "Tomas is $x$ years old. His two cousins are $(x - 3)$ and $(x + 3)$ years old.",
@@ -178032,6 +178165,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y9-8b-area",
    "label": "6c",
    "section": "Problem-solving",
    "stem": "Tomas is $x$ years old. His two cousins are $(x - 3)$ and $(x + 3)$ years old.",
@@ -178045,6 +178179,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y9-8b-area",
    "label": "6d",
    "section": "Problem-solving",
    "stem": "Tomas is $x$ years old. His two cousins are $(x - 3)$ and $(x + 3)$ years old.",
@@ -178054,6 +178189,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-8b-area",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "A square sheet of metal with side length $24$ cm has a square of side length $x$ cm cut from each corner. The sides are folded up to make an open tray. The centre square is the base of the tray.",
@@ -178251,6 +178387,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-8b-area",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "A square sheet of metal with side length $24$ cm has a square of side length $x$ cm cut from each corner. The sides are folded up to make an open tray. The centre square is the base of the tray.",
@@ -178262,6 +178399,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-8b-area",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "A square sheet of metal with side length $24$ cm has a square of side length $x$ cm cut from each corner. The sides are folded up to make an open tray. The centre square is the base of the tray.",
@@ -178272,6 +178410,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y9-8b-area",
    "label": "7d",
    "section": "Problem-solving",
    "stem": "A square sheet of metal with side length $24$ cm has a square of side length $x$ cm cut from each corner. The sides are folded up to make an open tray. The centre square is the base of the tray.",
@@ -178282,6 +178421,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-8b-area",
    "label": "8a",
    "section": "Reasoning",
    "stem": "Four identical rectangular garden beds, each $m$ m by $n$ m (with $m > n$), are arranged around a square pond as shown.",
@@ -178428,6 +178568,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-8b-area",
    "label": "8b",
    "section": "Reasoning",
    "stem": "Four identical rectangular garden beds, each $m$ m by $n$ m (with $m > n$), are arranged around a square pond as shown.",
@@ -178437,6 +178578,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y9-8b-area",
    "label": "8c",
    "section": "Reasoning",
    "stem": "Four identical rectangular garden beds, each $m$ m by $n$ m (with $m > n$), are arranged around a square pond as shown.",
@@ -178446,6 +178588,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y9-8b-area",
    "label": "8d",
    "section": "Reasoning",
    "stem": "Four identical rectangular garden beds, each $m$ m by $n$ m (with $m > n$), are arranged around a square pond as shown.",
@@ -178455,6 +178598,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8e",
+   "help": "y9-8b-area",
    "label": "8e",
    "section": "Reasoning",
    "stem": "Four identical rectangular garden beds, each $m$ m by $n$ m (with $m > n$), are arranged around a square pond as shown.",
@@ -178465,6 +178609,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8f",
+   "help": "y9-8b-area",
    "label": "8f",
    "section": "Reasoning",
    "stem": "Four identical rectangular garden beds, each $m$ m by $n$ m (with $m > n$), are arranged around a square pond as shown.",
@@ -178474,6 +178619,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-8b-area",
    "label": "9a",
    "section": "Reasoning",
    "stem": "A square has side length $x$ units. One pair of opposite sides is made $2$ units shorter and the other pair is made $2$ units longer, to give a rectangle.",
@@ -178484,6 +178630,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-8b-area",
    "label": "9b",
    "section": "Reasoning",
    "stem": "A square has side length $x$ units. One pair of opposite sides is made $2$ units shorter and the other pair is made $2$ units longer, to give a rectangle.",
@@ -178498,6 +178645,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y9-8b-area",
    "label": "9c",
    "section": "Reasoning",
    "stem": "A square has side length $x$ units. One pair of opposite sides is made $2$ units shorter and the other pair is made $2$ units longer, to give a rectangle.",
@@ -178507,6 +178655,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y9-8b-area",
    "label": "10a",
    "section": "Reasoning",
    "stem": "A square of side length $q$ is removed from the corner of a square of side length $p$, leaving the shaded shape, which is split into regions A, B and C.",
@@ -178628,6 +178777,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y9-8b-area",
    "label": "10b",
    "section": "Reasoning",
    "stem": "A square of side length $q$ is removed from the corner of a square of side length $p$, leaving the shaded shape, which is split into regions A, B and C.",
@@ -178637,6 +178787,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y9-8b-area",
    "label": "10c",
    "section": "Reasoning",
    "stem": "A square of side length $q$ is removed from the corner of a square of side length $p$, leaving the shaded shape, which is split into regions A, B and C.",
@@ -178646,6 +178797,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10d",
+   "help": "y9-8b-area",
    "label": "10d",
    "section": "Reasoning",
    "stem": "A square of side length $q$ is removed from the corner of a square of side length $p$, leaving the shaded shape, which is split into regions A, B and C.",
@@ -178655,6 +178807,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10e",
+   "help": "y9-8b-area",
    "label": "10e",
    "section": "Reasoning",
    "stem": "A square of side length $q$ is removed from the corner of a square of side length $p$, leaving the shaded shape, which is split into regions A, B and C.",
@@ -178668,6 +178821,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y9-8b-mixed",
    "label": "11a",
    "section": "Enrichment",
    "stem": "Expand and simplify these expressions.",
@@ -178678,6 +178832,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y9-8b-mixed",
    "label": "11b",
    "section": "Enrichment",
    "stem": "Expand and simplify these expressions.",
@@ -178691,6 +178846,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y9-8b-mixed",
    "label": "11c",
    "section": "Enrichment",
    "stem": "Expand and simplify these expressions.",
@@ -178704,6 +178860,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11d",
+   "help": "y9-8b-mixed",
    "label": "11d",
    "section": "Enrichment",
    "stem": "Expand and simplify these expressions.",
@@ -178714,6 +178871,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11e",
+   "help": "y9-8b-mixed",
    "label": "11e",
    "section": "Enrichment",
    "stem": "Expand and simplify these expressions.",
@@ -178724,6 +178882,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11f",
+   "help": "y9-8b-mixed",
    "label": "11f",
    "section": "Enrichment",
    "stem": "Expand and simplify these expressions.",
@@ -178734,6 +178893,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11g",
+   "help": "y9-8b-mixed",
    "label": "11g",
    "section": "Enrichment",
    "stem": "Expand and simplify these expressions.",
@@ -178744,6 +178904,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11h",
+   "help": "y9-8b-mixed",
    "label": "11h",
    "section": "Enrichment",
    "stem": "Expand and simplify these expressions.",
@@ -178757,6 +178918,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11i",
+   "help": "y9-8b-mixed",
    "label": "11i",
    "section": "Enrichment",
    "stem": "Expand and simplify these expressions.",
@@ -178770,6 +178932,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11j",
+   "help": "y9-8b-mixed",
    "label": "11j",
    "section": "Enrichment",
    "stem": "Expand and simplify these expressions.",
@@ -178780,6 +178943,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11k",
+   "help": "y9-8b-mixed",
    "label": "11k",
    "section": "Enrichment",
    "stem": "Expand and simplify these expressions.",
@@ -178790,6 +178954,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11l",
+   "help": "y9-8b-mixed",
    "label": "11l",
    "section": "Enrichment",
    "stem": "Expand and simplify these expressions.",
@@ -178800,6 +178965,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11m",
+   "help": "y9-8b-mixed",
    "label": "11m",
    "section": "Enrichment",
    "stem": "Expand and simplify these expressions.",
@@ -178813,6 +178979,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11n",
+   "help": "y9-8b-mixed",
    "label": "11n",
    "section": "Enrichment",
    "stem": "Expand and simplify these expressions.",
@@ -178832,6 +178999,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-8c-hcf",
    "label": "1a",
    "section": "Fluency",
    "stem": "Find the highest common factor (HCF) of the following.",
@@ -178843,6 +179011,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-8c-hcf",
    "label": "1b",
    "section": "Fluency",
    "stem": "Find the highest common factor (HCF) of the following.",
@@ -178853,6 +179022,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-8c-hcf",
    "label": "1c",
    "section": "Fluency",
    "stem": "Find the highest common factor (HCF) of the following.",
@@ -178863,6 +179033,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-8c-hcf",
    "label": "1d",
    "section": "Fluency",
    "stem": "Find the highest common factor (HCF) of the following.",
@@ -178873,6 +179044,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-8c-hcf",
    "label": "2a",
    "section": "Fluency",
    "stem": "Find the highest common factor (HCF) of the following.",
@@ -178883,6 +179055,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-8c-hcf",
    "label": "2b",
    "section": "Fluency",
    "stem": "Find the highest common factor (HCF) of the following.",
@@ -178893,6 +179066,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-8c-hcf",
    "label": "2c",
    "section": "Fluency",
    "stem": "Find the highest common factor (HCF) of the following.",
@@ -178903,6 +179077,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-8c-hcf",
    "label": "2d",
    "section": "Fluency",
    "stem": "Find the highest common factor (HCF) of the following.",
@@ -178913,6 +179088,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-8c-hcf",
    "label": "2e",
    "section": "Fluency",
    "stem": "Find the highest common factor (HCF) of the following.",
@@ -178923,6 +179099,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-8c-hcf",
    "label": "2f",
    "section": "Fluency",
    "stem": "Find the highest common factor (HCF) of the following.",
@@ -178933,6 +179110,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y9-8c-hcf",
    "label": "2g",
    "section": "Fluency",
    "stem": "Find the highest common factor (HCF) of the following.",
@@ -178943,6 +179121,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y9-8c-hcf",
    "label": "2h",
    "section": "Fluency",
    "stem": "Find the highest common factor (HCF) of the following.",
@@ -178953,6 +179132,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2i",
+   "help": "y9-8c-hcf",
    "label": "2i",
    "section": "Fluency",
    "stem": "Find the highest common factor (HCF) of the following.",
@@ -178963,6 +179143,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2j",
+   "help": "y9-8c-hcf",
    "label": "2j",
    "section": "Fluency",
    "stem": "Find the highest common factor (HCF) of the following.",
@@ -178973,6 +179154,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2k",
+   "help": "y9-8c-hcf",
    "label": "2k",
    "section": "Fluency",
    "stem": "Find the highest common factor (HCF) of the following.",
@@ -178983,6 +179165,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2l",
+   "help": "y9-8c-hcf",
    "label": "2l",
    "section": "Fluency",
    "stem": "Find the highest common factor (HCF) of the following.",
@@ -178993,6 +179176,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-8c-factorise",
    "label": "3a",
    "section": "Fluency",
    "stem": "Factorise the following.",
@@ -179004,6 +179188,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-8c-factorise",
    "label": "3b",
    "section": "Fluency",
    "stem": "Factorise the following.",
@@ -179014,6 +179199,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-8c-factorise",
    "label": "3c",
    "section": "Fluency",
    "stem": "Factorise the following.",
@@ -179024,6 +179210,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-8c-factorise",
    "label": "3d",
    "section": "Fluency",
    "stem": "Factorise the following.",
@@ -179034,6 +179221,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-8c-factorise",
    "label": "3e",
    "section": "Fluency",
    "stem": "Factorise the following.",
@@ -179044,6 +179232,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-8c-factorise",
    "label": "3f",
    "section": "Fluency",
    "stem": "Factorise the following.",
@@ -179054,6 +179243,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3g",
+   "help": "y9-8c-factorise",
    "label": "3g",
    "section": "Fluency",
    "stem": "Factorise the following.",
@@ -179064,6 +179254,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3h",
+   "help": "y9-8c-factorise",
    "label": "3h",
    "section": "Fluency",
    "stem": "Factorise the following.",
@@ -179074,6 +179265,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3i",
+   "help": "y9-8c-factorise",
    "label": "3i",
    "section": "Fluency",
    "stem": "Factorise the following.",
@@ -179084,6 +179276,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3j",
+   "help": "y9-8c-factorise",
    "label": "3j",
    "section": "Fluency",
    "stem": "Factorise the following.",
@@ -179094,6 +179287,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3k",
+   "help": "y9-8c-factorise",
    "label": "3k",
    "section": "Fluency",
    "stem": "Factorise the following.",
@@ -179104,6 +179298,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3l",
+   "help": "y9-8c-factorise",
    "label": "3l",
    "section": "Fluency",
    "stem": "Factorise the following.",
@@ -179114,6 +179309,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3m",
+   "help": "y9-8c-factorise",
    "label": "3m",
    "section": "Fluency",
    "stem": "Factorise the following.",
@@ -179124,6 +179320,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3n",
+   "help": "y9-8c-factorise",
    "label": "3n",
    "section": "Fluency",
    "stem": "Factorise the following.",
@@ -179134,6 +179331,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3o",
+   "help": "y9-8c-factorise",
    "label": "3o",
    "section": "Fluency",
    "stem": "Factorise the following.",
@@ -179144,6 +179342,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3p",
+   "help": "y9-8c-factorise",
    "label": "3p",
    "section": "Fluency",
    "stem": "Factorise the following.",
@@ -179154,6 +179353,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3q",
+   "help": "y9-8c-factorise",
    "label": "3q",
    "section": "Fluency",
    "stem": "Factorise the following.",
@@ -179164,6 +179364,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3r",
+   "help": "y9-8c-factorise",
    "label": "3r",
    "section": "Fluency",
    "stem": "Factorise the following.",
@@ -179174,6 +179375,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3s",
+   "help": "y9-8c-factorise",
    "label": "3s",
    "section": "Fluency",
    "stem": "Factorise the following.",
@@ -179184,6 +179386,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3t",
+   "help": "y9-8c-factorise",
    "label": "3t",
    "section": "Fluency",
    "stem": "Factorise the following.",
@@ -179194,6 +179397,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3u",
+   "help": "y9-8c-factorise",
    "label": "3u",
    "section": "Fluency",
    "stem": "Factorise the following.",
@@ -179204,6 +179408,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3v",
+   "help": "y9-8c-factorise",
    "label": "3v",
    "section": "Fluency",
    "stem": "Factorise the following.",
@@ -179214,6 +179419,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3w",
+   "help": "y9-8c-factorise",
    "label": "3w",
    "section": "Fluency",
    "stem": "Factorise the following.",
@@ -179224,6 +179430,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3x",
+   "help": "y9-8c-factorise",
    "label": "3x",
    "section": "Fluency",
    "stem": "Factorise the following.",
@@ -179234,6 +179441,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-8c-negative",
    "label": "4a",
    "section": "Fluency",
    "stem": "Factorise the following by taking out the negative sign as part of the HCF.",
@@ -179244,6 +179452,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-8c-negative",
    "label": "4b",
    "section": "Fluency",
    "stem": "Factorise the following by taking out the negative sign as part of the HCF.",
@@ -179254,6 +179463,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-8c-negative",
    "label": "4c",
    "section": "Fluency",
    "stem": "Factorise the following by taking out the negative sign as part of the HCF.",
@@ -179264,6 +179474,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-8c-negative",
    "label": "4d",
    "section": "Fluency",
    "stem": "Factorise the following by taking out the negative sign as part of the HCF.",
@@ -179274,6 +179485,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y9-8c-negative",
    "label": "4e",
    "section": "Fluency",
    "stem": "Factorise the following by taking out the negative sign as part of the HCF.",
@@ -179284,6 +179496,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y9-8c-negative",
    "label": "4f",
    "section": "Fluency",
    "stem": "Factorise the following by taking out the negative sign as part of the HCF.",
@@ -179294,6 +179507,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4g",
+   "help": "y9-8c-negative",
    "label": "4g",
    "section": "Fluency",
    "stem": "Factorise the following by taking out the negative sign as part of the HCF.",
@@ -179304,6 +179518,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4h",
+   "help": "y9-8c-negative",
    "label": "4h",
    "section": "Fluency",
    "stem": "Factorise the following by taking out the negative sign as part of the HCF.",
@@ -179314,6 +179529,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4i",
+   "help": "y9-8c-negative",
    "label": "4i",
    "section": "Fluency",
    "stem": "Factorise the following by taking out the negative sign as part of the HCF.",
@@ -179324,6 +179540,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4j",
+   "help": "y9-8c-negative",
    "label": "4j",
    "section": "Fluency",
    "stem": "Factorise the following by taking out the negative sign as part of the HCF.",
@@ -179334,6 +179551,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4k",
+   "help": "y9-8c-negative",
    "label": "4k",
    "section": "Fluency",
    "stem": "Factorise the following by taking out the negative sign as part of the HCF.",
@@ -179344,6 +179562,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4l",
+   "help": "y9-8c-negative",
    "label": "4l",
    "section": "Fluency",
    "stem": "Factorise the following by taking out the negative sign as part of the HCF.",
@@ -179354,6 +179573,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4m",
+   "help": "y9-8c-negative",
    "label": "4m",
    "section": "Fluency",
    "stem": "Factorise the following by taking out the negative sign as part of the HCF.",
@@ -179364,6 +179584,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4n",
+   "help": "y9-8c-negative",
    "label": "4n",
    "section": "Fluency",
    "stem": "Factorise the following by taking out the negative sign as part of the HCF.",
@@ -179374,6 +179595,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4o",
+   "help": "y9-8c-negative",
    "label": "4o",
    "section": "Fluency",
    "stem": "Factorise the following by taking out the negative sign as part of the HCF.",
@@ -179384,6 +179606,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4p",
+   "help": "y9-8c-negative",
    "label": "4p",
    "section": "Fluency",
    "stem": "Factorise the following by taking out the negative sign as part of the HCF.",
@@ -179394,6 +179617,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-8c-bracket",
    "label": "5a",
    "section": "Fluency",
    "stem": "Factorise the following, which have a binomial common factor.",
@@ -179405,6 +179629,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-8c-bracket",
    "label": "5b",
    "section": "Fluency",
    "stem": "Factorise the following, which have a binomial common factor.",
@@ -179415,6 +179640,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-8c-bracket",
    "label": "5c",
    "section": "Fluency",
    "stem": "Factorise the following, which have a binomial common factor.",
@@ -179425,6 +179651,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-8c-bracket",
    "label": "5d",
    "section": "Fluency",
    "stem": "Factorise the following, which have a binomial common factor.",
@@ -179435,6 +179662,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y9-8c-bracket",
    "label": "5e",
    "section": "Fluency",
    "stem": "Factorise the following, which have a binomial common factor.",
@@ -179445,6 +179673,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y9-8c-bracket",
    "label": "5f",
    "section": "Fluency",
    "stem": "Factorise the following, which have a binomial common factor.",
@@ -179455,6 +179684,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5g",
+   "help": "y9-8c-bracket",
    "label": "5g",
    "section": "Fluency",
    "stem": "Factorise the following, which have a binomial common factor.",
@@ -179465,6 +179695,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5h",
+   "help": "y9-8c-bracket",
    "label": "5h",
    "section": "Fluency",
    "stem": "Factorise the following, which have a binomial common factor.",
@@ -179475,6 +179706,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5i",
+   "help": "y9-8c-bracket",
    "label": "5i",
    "section": "Fluency",
    "stem": "Factorise the following, which have a binomial common factor.",
@@ -179485,6 +179717,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5j",
+   "help": "y9-8c-bracket",
    "label": "5j",
    "section": "Fluency",
    "stem": "Factorise the following, which have a binomial common factor.",
@@ -179495,6 +179728,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5k",
+   "help": "y9-8c-bracket",
    "label": "5k",
    "section": "Fluency",
    "stem": "Factorise the following, which have a binomial common factor.",
@@ -179505,6 +179739,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5l",
+   "help": "y9-8c-bracket",
    "label": "5l",
    "section": "Fluency",
    "stem": "Factorise the following, which have a binomial common factor.",
@@ -179515,6 +179750,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-8c-mixed",
    "label": "6a",
    "section": "Fluency",
    "stem": "Factorise these mixed expressions.",
@@ -179525,6 +179761,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-8c-mixed",
    "label": "6b",
    "section": "Fluency",
    "stem": "Factorise these mixed expressions.",
@@ -179535,6 +179772,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y9-8c-mixed",
    "label": "6c",
    "section": "Fluency",
    "stem": "Factorise these mixed expressions.",
@@ -179545,6 +179783,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y9-8c-mixed",
    "label": "6d",
    "section": "Fluency",
    "stem": "Factorise these mixed expressions.",
@@ -179555,6 +179794,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6e",
+   "help": "y9-8c-mixed",
    "label": "6e",
    "section": "Fluency",
    "stem": "Factorise these mixed expressions.",
@@ -179565,6 +179805,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6f",
+   "help": "y9-8c-mixed",
    "label": "6f",
    "section": "Fluency",
    "stem": "Factorise these mixed expressions.",
@@ -179575,6 +179816,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6g",
+   "help": "y9-8c-mixed",
    "label": "6g",
    "section": "Fluency",
    "stem": "Factorise these mixed expressions.",
@@ -179585,6 +179827,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6h",
+   "help": "y9-8c-mixed",
    "label": "6h",
    "section": "Fluency",
    "stem": "Factorise these mixed expressions.",
@@ -179595,6 +179838,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6i",
+   "help": "y9-8c-mixed",
    "label": "6i",
    "section": "Fluency",
    "stem": "Factorise these mixed expressions.",
@@ -179605,6 +179849,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6j",
+   "help": "y9-8c-mixed",
    "label": "6j",
    "section": "Fluency",
    "stem": "Factorise these mixed expressions.",
@@ -179615,6 +179860,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6k",
+   "help": "y9-8c-mixed",
    "label": "6k",
    "section": "Fluency",
    "stem": "Factorise these mixed expressions.",
@@ -179625,6 +179871,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6l",
+   "help": "y9-8c-mixed",
    "label": "6l",
    "section": "Fluency",
    "stem": "Factorise these mixed expressions.",
@@ -179635,6 +179882,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6m",
+   "help": "y9-8c-mixed",
    "label": "6m",
    "section": "Fluency",
    "stem": "Factorise these mixed expressions.",
@@ -179645,6 +179893,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6n",
+   "help": "y9-8c-mixed",
    "label": "6n",
    "section": "Fluency",
    "stem": "Factorise these mixed expressions.",
@@ -179655,6 +179904,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6o",
+   "help": "y9-8c-mixed",
    "label": "6o",
    "section": "Fluency",
    "stem": "Factorise these mixed expressions.",
@@ -179665,6 +179915,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-8c-perimeter",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "Write the perimeter of each shape in factorised form.",
@@ -179793,6 +180044,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-8c-perimeter",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "Write the perimeter of each shape in factorised form.",
@@ -179858,6 +180110,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-8c-perimeter",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "Write the perimeter of each shape in factorised form.",
@@ -179945,6 +180198,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y9-8c-perimeter",
    "label": "7d",
    "section": "Problem-solving",
    "stem": "Write the perimeter of each shape in factorised form.",
@@ -180061,6 +180315,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7e",
+   "help": "y9-8c-perimeter",
    "label": "7e",
    "section": "Problem-solving",
    "stem": "Write the perimeter of each shape in factorised form.",
@@ -180188,6 +180443,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7f",
+   "help": "y9-8c-perimeter",
    "label": "7f",
    "section": "Problem-solving",
    "stem": "Write the perimeter of each shape in factorised form.",
@@ -180322,6 +180578,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8",
+   "help": "y9-8c-perimeter",
    "label": "8",
    "section": "Problem-solving",
    "type": "expression",
@@ -180332,6 +180589,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-8c-ball",
    "label": "9a",
    "section": "Problem-solving",
    "stem": "The height, in metres, of a ball above its starting point is given by $6t - t^2$, where $t$ is the time in seconds.",
@@ -180342,6 +180600,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-8c-ball",
    "label": "9b",
    "section": "Problem-solving",
    "stem": "The height, in metres, of a ball above its starting point is given by $6t - t^2$, where $t$ is the time in seconds.",
@@ -180352,6 +180611,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y9-8c-ball",
    "label": "9c",
    "section": "Problem-solving",
    "stem": "The height, in metres, of a ball above its starting point is given by $6t - t^2$, where $t$ is the time in seconds.",
@@ -180362,6 +180622,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y9-8c-ball",
    "label": "9d",
    "section": "Problem-solving",
    "stem": "The height, in metres, of a ball above its starting point is given by $6t - t^2$, where $t$ is the time in seconds.",
@@ -180372,6 +180633,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9e",
+   "help": "y9-8c-ball",
    "label": "9e",
    "section": "Problem-solving",
    "stem": "The height, in metres, of a ball above its starting point is given by $6t - t^2$, where $t$ is the time in seconds.",
@@ -180382,6 +180644,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y9-8c-evaluate",
    "label": "10a",
    "section": "Reasoning",
    "stem": "$6 \\times 7 + 6 \\times 3$ can be worked out by first factorising to $6(7 + 3) = 6 \\times 10 = 60$. Use the same idea to evaluate the following.",
@@ -180391,6 +180654,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y9-8c-evaluate",
    "label": "10b",
    "section": "Reasoning",
    "stem": "$6 \\times 7 + 6 \\times 3$ can be worked out by first factorising to $6(7 + 3) = 6 \\times 10 = 60$. Use the same idea to evaluate the following.",
@@ -180400,6 +180664,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y9-8c-evaluate",
    "label": "10c",
    "section": "Reasoning",
    "stem": "$6 \\times 7 + 6 \\times 3$ can be worked out by first factorising to $6(7 + 3) = 6 \\times 10 = 60$. Use the same idea to evaluate the following.",
@@ -180409,6 +180674,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10d",
+   "help": "y9-8c-evaluate",
    "label": "10d",
    "section": "Reasoning",
    "stem": "$6 \\times 7 + 6 \\times 3$ can be worked out by first factorising to $6(7 + 3) = 6 \\times 10 = 60$. Use the same idea to evaluate the following.",
@@ -180418,6 +180684,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10e",
+   "help": "y9-8c-evaluate",
    "label": "10e",
    "section": "Reasoning",
    "stem": "$6 \\times 7 + 6 \\times 3$ can be worked out by first factorising to $6(7 + 3) = 6 \\times 10 = 60$. Use the same idea to evaluate the following.",
@@ -180427,6 +180694,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10f",
+   "help": "y9-8c-evaluate",
    "label": "10f",
    "section": "Reasoning",
    "stem": "$6 \\times 7 + 6 \\times 3$ can be worked out by first factorising to $6(7 + 3) = 6 \\times 10 = 60$. Use the same idea to evaluate the following.",
@@ -180436,6 +180704,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y9-8c-factorise",
    "label": "11a",
    "section": "Reasoning",
    "stem": "Factorise these expressions by taking out the HCF.",
@@ -180446,6 +180715,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y9-8c-factorise",
    "label": "11b",
    "section": "Reasoning",
    "stem": "Factorise these expressions by taking out the HCF.",
@@ -180456,6 +180726,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y9-8c-factorise",
    "label": "11c",
    "section": "Reasoning",
    "stem": "Factorise these expressions by taking out the HCF.",
@@ -180466,6 +180737,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11d",
+   "help": "y9-8c-factorise",
    "label": "11d",
    "section": "Reasoning",
    "stem": "Factorise these expressions by taking out the HCF.",
@@ -180476,6 +180748,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11e",
+   "help": "y9-8c-factorise",
    "label": "11e",
    "section": "Reasoning",
    "stem": "Factorise these expressions by taking out the HCF.",
@@ -180486,6 +180759,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11f",
+   "help": "y9-8c-factorise",
    "label": "11f",
    "section": "Reasoning",
    "stem": "Factorise these expressions by taking out the HCF.",
@@ -180496,6 +180770,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y9-8c-negative",
    "label": "12a",
    "section": "Reasoning",
    "stem": "Each expression can be factorised by taking out a negative HCF or a positive HCF. Find what goes in the bracket.",
@@ -180506,6 +180781,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y9-8c-negative",
    "label": "12b",
    "section": "Reasoning",
    "stem": "Each expression can be factorised by taking out a negative HCF or a positive HCF. Find what goes in the bracket.",
@@ -180515,6 +180791,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y9-8c-negative",
    "label": "12c",
    "section": "Reasoning",
    "stem": "Each expression can be factorised by taking out a negative HCF or a positive HCF. Find what goes in the bracket.",
@@ -180524,6 +180801,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12d",
+   "help": "y9-8c-negative",
    "label": "12d",
    "section": "Reasoning",
    "stem": "Each expression can be factorised by taking out a negative HCF or a positive HCF. Find what goes in the bracket.",
@@ -180533,6 +180811,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12e",
+   "help": "y9-8c-negative",
    "label": "12e",
    "section": "Reasoning",
    "stem": "Each expression can be factorised by taking out a negative HCF or a positive HCF. Find what goes in the bracket.",
@@ -180542,6 +180821,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12f",
+   "help": "y9-8c-negative",
    "label": "12f",
    "section": "Reasoning",
    "stem": "Each expression can be factorised by taking out a negative HCF or a positive HCF. Find what goes in the bracket.",
@@ -180551,6 +180831,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12g",
+   "help": "y9-8c-negative",
    "label": "12g",
    "section": "Reasoning",
    "stem": "Each expression can be factorised by taking out a negative HCF or a positive HCF. Find what goes in the bracket.",
@@ -180560,6 +180841,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12h",
+   "help": "y9-8c-negative",
    "label": "12h",
    "section": "Reasoning",
    "stem": "Each expression can be factorised by taking out a negative HCF or a positive HCF. Find what goes in the bracket.",
@@ -180569,6 +180851,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12i",
+   "help": "y9-8c-negative",
    "label": "12i",
    "section": "Reasoning",
    "stem": "Each expression can be factorised by taking out a negative HCF or a positive HCF. Find what goes in the bracket.",
@@ -180578,6 +180861,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12j",
+   "help": "y9-8c-negative",
    "label": "12j",
    "section": "Reasoning",
    "stem": "Each expression can be factorised by taking out a negative HCF or a positive HCF. Find what goes in the bracket.",
@@ -180587,6 +180871,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12k",
+   "help": "y9-8c-negative",
    "label": "12k",
    "section": "Reasoning",
    "stem": "Each expression can be factorised by taking out a negative HCF or a positive HCF. Find what goes in the bracket.",
@@ -180596,6 +180881,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12l",
+   "help": "y9-8c-negative",
    "label": "12l",
    "section": "Reasoning",
    "stem": "Each expression can be factorised by taking out a negative HCF or a positive HCF. Find what goes in the bracket.",
@@ -180605,6 +180891,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12m",
+   "help": "y9-8c-negative",
    "label": "12m",
    "section": "Reasoning",
    "stem": "Each expression can be factorised by taking out a negative HCF or a positive HCF. Find what goes in the bracket.",
@@ -180614,6 +180901,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12n",
+   "help": "y9-8c-negative",
    "label": "12n",
    "section": "Reasoning",
    "stem": "Each expression can be factorised by taking out a negative HCF or a positive HCF. Find what goes in the bracket.",
@@ -180623,6 +180911,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12o",
+   "help": "y9-8c-negative",
    "label": "12o",
    "section": "Reasoning",
    "stem": "Each expression can be factorised by taking out a negative HCF or a positive HCF. Find what goes in the bracket.",
@@ -180632,6 +180921,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12p",
+   "help": "y9-8c-negative",
    "label": "12p",
    "section": "Reasoning",
    "stem": "Each expression can be factorised by taking out a negative HCF or a positive HCF. Find what goes in the bracket.",
@@ -180641,6 +180931,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y9-8c-bracket",
    "label": "13a",
    "section": "Enrichment",
    "stem": "Use the fact that $a - b = -(b - a)$ to factorise these expressions.",
@@ -180651,6 +180942,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y9-8c-bracket",
    "label": "13b",
    "section": "Enrichment",
    "stem": "Use the fact that $a - b = -(b - a)$ to factorise these expressions.",
@@ -180661,6 +180953,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13c",
+   "help": "y9-8c-bracket",
    "label": "13c",
    "section": "Enrichment",
    "stem": "Use the fact that $a - b = -(b - a)$ to factorise these expressions.",
@@ -180671,6 +180964,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13d",
+   "help": "y9-8c-bracket",
    "label": "13d",
    "section": "Enrichment",
    "stem": "Use the fact that $a - b = -(b - a)$ to factorise these expressions.",
@@ -180681,6 +180975,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13e",
+   "help": "y9-8c-bracket",
    "label": "13e",
    "section": "Enrichment",
    "stem": "Use the fact that $a - b = -(b - a)$ to factorise these expressions.",
@@ -180691,6 +180986,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13f",
+   "help": "y9-8c-bracket",
    "label": "13f",
    "section": "Enrichment",
    "stem": "Use the fact that $a - b = -(b - a)$ to factorise these expressions.",
@@ -180701,6 +180997,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13g",
+   "help": "y9-8c-bracket",
    "label": "13g",
    "section": "Enrichment",
    "stem": "Use the fact that $a - b = -(b - a)$ to factorise these expressions.",
@@ -180711,6 +181008,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13h",
+   "help": "y9-8c-bracket",
    "label": "13h",
    "section": "Enrichment",
    "stem": "Use the fact that $a - b = -(b - a)$ to factorise these expressions.",
@@ -180721,6 +181019,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13i",
+   "help": "y9-8c-bracket",
    "label": "13i",
    "section": "Enrichment",
    "stem": "Use the fact that $a - b = -(b - a)$ to factorise these expressions.",
@@ -180740,6 +181039,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-8d-dops",
    "label": "1a",
    "section": "Fluency",
    "stem": "Factorise each of the following.",
@@ -180751,6 +181051,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-8d-dops",
    "label": "1b",
    "section": "Fluency",
    "stem": "Factorise each of the following.",
@@ -180761,6 +181062,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-8d-dops",
    "label": "1c",
    "section": "Fluency",
    "stem": "Factorise each of the following.",
@@ -180771,6 +181073,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-8d-dops",
    "label": "1d",
    "section": "Fluency",
    "stem": "Factorise each of the following.",
@@ -180781,6 +181084,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-8d-dops",
    "label": "1e",
    "section": "Fluency",
    "stem": "Factorise each of the following.",
@@ -180791,6 +181095,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-8d-dops",
    "label": "1f",
    "section": "Fluency",
    "stem": "Factorise each of the following.",
@@ -180801,6 +181106,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1g",
+   "help": "y9-8d-dops",
    "label": "1g",
    "section": "Fluency",
    "stem": "Factorise each of the following.",
@@ -180811,6 +181117,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1h",
+   "help": "y9-8d-dops",
    "label": "1h",
    "section": "Fluency",
    "stem": "Factorise each of the following.",
@@ -180821,6 +181128,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1i",
+   "help": "y9-8d-dops",
    "label": "1i",
    "section": "Fluency",
    "stem": "Factorise each of the following.",
@@ -180831,6 +181139,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1j",
+   "help": "y9-8d-dops",
    "label": "1j",
    "section": "Fluency",
    "stem": "Factorise each of the following.",
@@ -180841,6 +181150,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1k",
+   "help": "y9-8d-dops",
    "label": "1k",
    "section": "Fluency",
    "stem": "Factorise each of the following.",
@@ -180851,6 +181161,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1l",
+   "help": "y9-8d-dops",
    "label": "1l",
    "section": "Fluency",
    "stem": "Factorise each of the following.",
@@ -180861,6 +181172,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1m",
+   "help": "y9-8d-dops",
    "label": "1m",
    "section": "Fluency",
    "stem": "Factorise each of the following.",
@@ -180871,6 +181183,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1n",
+   "help": "y9-8d-dops",
    "label": "1n",
    "section": "Fluency",
    "stem": "Factorise each of the following.",
@@ -180881,6 +181194,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1o",
+   "help": "y9-8d-dops",
    "label": "1o",
    "section": "Fluency",
    "stem": "Factorise each of the following.",
@@ -180891,6 +181205,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1p",
+   "help": "y9-8d-dops",
    "label": "1p",
    "section": "Fluency",
    "stem": "Factorise each of the following.",
@@ -180901,6 +181216,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-8d-dops",
    "label": "2a",
    "section": "Fluency",
    "stem": "Factorise each of the following.",
@@ -180911,6 +181227,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-8d-dops",
    "label": "2b",
    "section": "Fluency",
    "stem": "Factorise each of the following.",
@@ -180921,6 +181238,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-8d-dops",
    "label": "2c",
    "section": "Fluency",
    "stem": "Factorise each of the following.",
@@ -180931,6 +181249,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-8d-dops",
    "label": "2d",
    "section": "Fluency",
    "stem": "Factorise each of the following.",
@@ -180941,6 +181260,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-8d-dops",
    "label": "2e",
    "section": "Fluency",
    "stem": "Factorise each of the following.",
@@ -180951,6 +181271,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-8d-dops",
    "label": "2f",
    "section": "Fluency",
    "stem": "Factorise each of the following.",
@@ -180961,6 +181282,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y9-8d-dops",
    "label": "2g",
    "section": "Fluency",
    "stem": "Factorise each of the following.",
@@ -180971,6 +181293,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y9-8d-dops",
    "label": "2h",
    "section": "Fluency",
    "stem": "Factorise each of the following.",
@@ -180981,6 +181304,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2i",
+   "help": "y9-8d-dops",
    "label": "2i",
    "section": "Fluency",
    "stem": "Factorise each of the following.",
@@ -180991,6 +181315,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2j",
+   "help": "y9-8d-dops",
    "label": "2j",
    "section": "Fluency",
    "stem": "Factorise each of the following.",
@@ -181001,6 +181326,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2k",
+   "help": "y9-8d-dops",
    "label": "2k",
    "section": "Fluency",
    "stem": "Factorise each of the following.",
@@ -181011,6 +181337,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2l",
+   "help": "y9-8d-dops",
    "label": "2l",
    "section": "Fluency",
    "stem": "Factorise each of the following.",
@@ -181021,6 +181348,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2m",
+   "help": "y9-8d-dops",
    "label": "2m",
    "section": "Fluency",
    "stem": "Factorise each of the following.",
@@ -181031,6 +181359,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2n",
+   "help": "y9-8d-dops",
    "label": "2n",
    "section": "Fluency",
    "stem": "Factorise each of the following.",
@@ -181041,6 +181370,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2o",
+   "help": "y9-8d-dops",
    "label": "2o",
    "section": "Fluency",
    "stem": "Factorise each of the following.",
@@ -181051,6 +181381,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2p",
+   "help": "y9-8d-dops",
    "label": "2p",
    "section": "Fluency",
    "stem": "Factorise each of the following.",
@@ -181061,6 +181392,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-8d-hcf",
    "label": "3a",
    "section": "Fluency",
    "stem": "Factorise each of the following by first taking out the common factor.",
@@ -181071,6 +181403,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-8d-hcf",
    "label": "3b",
    "section": "Fluency",
    "stem": "Factorise each of the following by first taking out the common factor.",
@@ -181081,6 +181414,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-8d-hcf",
    "label": "3c",
    "section": "Fluency",
    "stem": "Factorise each of the following by first taking out the common factor.",
@@ -181091,6 +181425,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-8d-hcf",
    "label": "3d",
    "section": "Fluency",
    "stem": "Factorise each of the following by first taking out the common factor.",
@@ -181101,6 +181436,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-8d-hcf",
    "label": "3e",
    "section": "Fluency",
    "stem": "Factorise each of the following by first taking out the common factor.",
@@ -181111,6 +181447,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-8d-hcf",
    "label": "3f",
    "section": "Fluency",
    "stem": "Factorise each of the following by first taking out the common factor.",
@@ -181121,6 +181458,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3g",
+   "help": "y9-8d-hcf",
    "label": "3g",
    "section": "Fluency",
    "stem": "Factorise each of the following by first taking out the common factor.",
@@ -181131,6 +181469,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3h",
+   "help": "y9-8d-hcf",
    "label": "3h",
    "section": "Fluency",
    "stem": "Factorise each of the following by first taking out the common factor.",
@@ -181141,6 +181480,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3i",
+   "help": "y9-8d-hcf",
    "label": "3i",
    "section": "Fluency",
    "stem": "Factorise each of the following by first taking out the common factor.",
@@ -181151,6 +181491,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-8d-brackets",
    "label": "4a",
    "section": "Fluency",
    "stem": "Factorise each of the following.",
@@ -181161,6 +181502,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-8d-brackets",
    "label": "4b",
    "section": "Fluency",
    "stem": "Factorise each of the following.",
@@ -181171,6 +181513,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-8d-brackets",
    "label": "4c",
    "section": "Fluency",
    "stem": "Factorise each of the following.",
@@ -181181,6 +181524,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-8d-brackets",
    "label": "4d",
    "section": "Fluency",
    "stem": "Factorise each of the following.",
@@ -181191,6 +181535,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y9-8d-brackets",
    "label": "4e",
    "section": "Fluency",
    "stem": "Factorise each of the following.",
@@ -181201,6 +181546,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y9-8d-brackets",
    "label": "4f",
    "section": "Fluency",
    "stem": "Factorise each of the following.",
@@ -181211,6 +181557,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4g",
+   "help": "y9-8d-brackets",
    "label": "4g",
    "section": "Fluency",
    "stem": "Factorise each of the following.",
@@ -181221,6 +181568,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4h",
+   "help": "y9-8d-brackets",
    "label": "4h",
    "section": "Fluency",
    "stem": "Factorise each of the following.",
@@ -181231,6 +181579,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4i",
+   "help": "y9-8d-brackets",
    "label": "4i",
    "section": "Fluency",
    "stem": "Factorise each of the following.",
@@ -181241,6 +181590,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-8d-context",
    "label": "5a",
    "section": "Problem-solving",
    "stem": "The height above the ground, in metres, of a ball dropped from the top of a tall building is given by $100 - 4t^2$, where $t$ is the time in seconds.",
@@ -181251,6 +181601,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-8d-context",
    "label": "5b",
    "section": "Problem-solving",
    "stem": "The height above the ground, in metres, of a ball dropped from the top of a tall building is given by $100 - 4t^2$, where $t$ is the time in seconds.",
@@ -181261,6 +181612,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-8d-context",
    "label": "5c",
    "section": "Problem-solving",
    "stem": "The height above the ground, in metres, of a ball dropped from the top of a tall building is given by $100 - 4t^2$, where $t$ is the time in seconds.",
@@ -181271,6 +181623,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-8d-context",
    "label": "5d",
    "section": "Problem-solving",
    "stem": "The height above the ground, in metres, of a ball dropped from the top of a tall building is given by $100 - 4t^2$, where $t$ is the time in seconds.",
@@ -181281,6 +181634,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-8d-context",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "A square photo frame has outside side length $40$ cm. It can hold a square picture of side length $x$ cm, and the rest of the square is the frame.",
@@ -181371,6 +181725,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-8d-context",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "A square photo frame has outside side length $40$ cm. It can hold a square picture of side length $x$ cm, and the rest of the square is the frame.",
@@ -181382,6 +181737,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y9-8d-context",
    "label": "6c",
    "section": "Problem-solving",
    "stem": "A square photo frame has outside side length $40$ cm. It can hold a square picture of side length $x$ cm, and the rest of the square is the frame.",
@@ -181392,6 +181748,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y9-8d-context",
    "label": "6d",
    "section": "Problem-solving",
    "stem": "A square photo frame has outside side length $40$ cm. It can hold a square picture of side length $x$ cm, and the rest of the square is the frame.",
@@ -181402,6 +181759,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-8d-dops",
    "label": "7a",
    "section": "Reasoning",
    "stem": "Swap the order of the two terms to see a difference of two squares, then factorise.",
@@ -181412,6 +181770,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-8d-dops",
    "label": "7b",
    "section": "Reasoning",
    "stem": "Swap the order of the two terms to see a difference of two squares, then factorise.",
@@ -181422,6 +181781,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-8d-dops",
    "label": "7c",
    "section": "Reasoning",
    "stem": "Swap the order of the two terms to see a difference of two squares, then factorise.",
@@ -181432,6 +181792,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y9-8d-dops",
    "label": "7d",
    "section": "Reasoning",
    "stem": "Swap the order of the two terms to see a difference of two squares, then factorise.",
@@ -181442,6 +181803,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7e",
+   "help": "y9-8d-dops",
    "label": "7e",
    "section": "Reasoning",
    "stem": "Swap the order of the two terms to see a difference of two squares, then factorise.",
@@ -181452,6 +181814,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7f",
+   "help": "y9-8d-dops",
    "label": "7f",
    "section": "Reasoning",
    "stem": "Swap the order of the two terms to see a difference of two squares, then factorise.",
@@ -181462,6 +181825,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7g",
+   "help": "y9-8d-dops",
    "label": "7g",
    "section": "Reasoning",
    "stem": "Swap the order of the two terms to see a difference of two squares, then factorise.",
@@ -181472,6 +181836,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7h",
+   "help": "y9-8d-dops",
    "label": "7h",
    "section": "Reasoning",
    "stem": "Swap the order of the two terms to see a difference of two squares, then factorise.",
@@ -181482,6 +181847,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-8d-hcf",
    "label": "8a",
    "section": "Reasoning",
    "stem": "Kai factorises $36x^2 - 16$ and gets $(6x + 4)(6x - 4)$.",
@@ -181491,6 +181857,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-8d-hcf",
    "label": "8b",
    "section": "Reasoning",
    "stem": "Kai factorises $36x^2 - 16$ and gets $(6x + 4)(6x - 4)$.",
@@ -181501,6 +181868,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y9-8d-hcf",
    "label": "8c",
    "section": "Reasoning",
    "stem": "Kai factorises $36x^2 - 16$ and gets $(6x + 4)(6x - 4)$.",
@@ -181516,6 +181884,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-8d-brackets",
    "label": "9a",
    "section": "Reasoning",
    "stem": "Here is some working with a mistake in it: $16 - (x - 2)^2 = (4 + x - 2)(4 - x - 2) = (2 + x)(2 - x)$.",
@@ -181529,6 +181898,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-8d-brackets",
    "label": "9b",
    "section": "Reasoning",
    "stem": "Here is some working with a mistake in it: $16 - (x - 2)^2 = (4 + x - 2)(4 - x - 2) = (2 + x)(2 - x)$.",
@@ -181539,6 +181909,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y9-8d-fractions",
    "label": "10a",
    "section": "Enrichment",
    "stem": "Factorise these expressions.",
@@ -181550,6 +181921,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y9-8d-fractions",
    "label": "10b",
    "section": "Enrichment",
    "stem": "Factorise these expressions.",
@@ -181560,6 +181932,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y9-8d-fractions",
    "label": "10c",
    "section": "Enrichment",
    "stem": "Factorise these expressions.",
@@ -181570,6 +181943,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10d",
+   "help": "y9-8d-fractions",
    "label": "10d",
    "section": "Enrichment",
    "stem": "Factorise these expressions.",
@@ -181580,6 +181954,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10e",
+   "help": "y9-8d-fractions",
    "label": "10e",
    "section": "Enrichment",
    "stem": "Factorise these expressions.",
@@ -181590,6 +181965,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10f",
+   "help": "y9-8d-fractions",
    "label": "10f",
    "section": "Enrichment",
    "stem": "Factorise these expressions.",
@@ -181600,6 +181976,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10g",
+   "help": "y9-8d-fractions",
    "label": "10g",
    "section": "Enrichment",
    "stem": "Factorise these expressions.",
@@ -181610,6 +181987,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10h",
+   "help": "y9-8d-fractions",
    "label": "10h",
    "section": "Enrichment",
    "stem": "Factorise these expressions.",
@@ -181621,6 +181999,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10i",
+   "help": "y9-8d-fractions",
    "label": "10i",
    "section": "Enrichment",
    "stem": "Factorise these expressions.",
@@ -181632,6 +182011,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10j",
+   "help": "y9-8d-fractions",
    "label": "10j",
    "section": "Enrichment",
    "stem": "Factorise these expressions.",
@@ -181642,6 +182022,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10k",
+   "help": "y9-8d-fractions",
    "label": "10k",
    "section": "Enrichment",
    "stem": "Factorise these expressions.",
@@ -181652,6 +182033,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10l",
+   "help": "y9-8d-fractions",
    "label": "10l",
    "section": "Enrichment",
    "stem": "Factorise these expressions.",
@@ -181672,6 +182054,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-8e-pairs",
    "label": "1a",
    "section": "Fluency",
    "stem": "Use grouping in pairs to factorise these expressions.",
@@ -181683,6 +182066,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-8e-pairs",
    "label": "1b",
    "section": "Fluency",
    "stem": "Use grouping in pairs to factorise these expressions.",
@@ -181693,6 +182077,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-8e-pairs",
    "label": "1c",
    "section": "Fluency",
    "stem": "Use grouping in pairs to factorise these expressions.",
@@ -181703,6 +182088,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-8e-pairs",
    "label": "1d",
    "section": "Fluency",
    "stem": "Use grouping in pairs to factorise these expressions.",
@@ -181713,6 +182099,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-8e-pairs",
    "label": "1e",
    "section": "Fluency",
    "stem": "Use grouping in pairs to factorise these expressions.",
@@ -181723,6 +182110,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-8e-pairs",
    "label": "1f",
    "section": "Fluency",
    "stem": "Use grouping in pairs to factorise these expressions.",
@@ -181733,6 +182121,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1g",
+   "help": "y9-8e-pairs",
    "label": "1g",
    "section": "Fluency",
    "stem": "Use grouping in pairs to factorise these expressions.",
@@ -181743,6 +182132,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1h",
+   "help": "y9-8e-pairs",
    "label": "1h",
    "section": "Fluency",
    "stem": "Use grouping in pairs to factorise these expressions.",
@@ -181753,6 +182143,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1i",
+   "help": "y9-8e-pairs",
    "label": "1i",
    "section": "Fluency",
    "stem": "Use grouping in pairs to factorise these expressions.",
@@ -181763,6 +182154,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1j",
+   "help": "y9-8e-pairs",
    "label": "1j",
    "section": "Fluency",
    "stem": "Use grouping in pairs to factorise these expressions.",
@@ -181773,6 +182165,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1k",
+   "help": "y9-8e-pairs",
    "label": "1k",
    "section": "Fluency",
    "stem": "Use grouping in pairs to factorise these expressions.",
@@ -181783,6 +182176,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1l",
+   "help": "y9-8e-pairs",
    "label": "1l",
    "section": "Fluency",
    "stem": "Use grouping in pairs to factorise these expressions.",
@@ -181793,6 +182187,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-8e-letters",
    "label": "2a",
    "section": "Fluency",
    "stem": "Use grouping in pairs to factorise these expressions. The HCF of each pair includes a pronumeral.",
@@ -181803,6 +182198,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-8e-letters",
    "label": "2b",
    "section": "Fluency",
    "stem": "Use grouping in pairs to factorise these expressions. The HCF of each pair includes a pronumeral.",
@@ -181813,6 +182209,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-8e-letters",
    "label": "2c",
    "section": "Fluency",
    "stem": "Use grouping in pairs to factorise these expressions. The HCF of each pair includes a pronumeral.",
@@ -181823,6 +182220,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-8e-letters",
    "label": "2d",
    "section": "Fluency",
    "stem": "Use grouping in pairs to factorise these expressions. The HCF of each pair includes a pronumeral.",
@@ -181833,6 +182231,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-8e-letters",
    "label": "2e",
    "section": "Fluency",
    "stem": "Use grouping in pairs to factorise these expressions. The HCF of each pair includes a pronumeral.",
@@ -181843,6 +182242,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-8e-letters",
    "label": "2f",
    "section": "Fluency",
    "stem": "Use grouping in pairs to factorise these expressions. The HCF of each pair includes a pronumeral.",
@@ -181853,6 +182253,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-8e-pairs",
    "label": "3a",
    "section": "Fluency",
    "stem": "Factorise these expressions. Use a factor of $1$ where needed, for example $x^2 - ax + x - a = x(x - a) + 1(x - a)$.",
@@ -181863,6 +182264,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-8e-pairs",
    "label": "3b",
    "section": "Fluency",
    "stem": "Factorise these expressions. Use a factor of $1$ where needed, for example $x^2 - ax + x - a = x(x - a) + 1(x - a)$.",
@@ -181873,6 +182275,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-8e-pairs",
    "label": "3c",
    "section": "Fluency",
    "stem": "Factorise these expressions. Use a factor of $1$ where needed, for example $x^2 - ax + x - a = x(x - a) + 1(x - a)$.",
@@ -181883,6 +182286,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-8e-pairs",
    "label": "3d",
    "section": "Fluency",
    "stem": "Factorise these expressions. Use a factor of $1$ where needed, for example $x^2 - ax + x - a = x(x - a) + 1(x - a)$.",
@@ -181893,6 +182297,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-8e-pairs",
    "label": "3e",
    "section": "Fluency",
    "stem": "Factorise these expressions. Use a factor of $1$ where needed, for example $x^2 - ax + x - a = x(x - a) + 1(x - a)$.",
@@ -181903,6 +182308,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-8e-pairs",
    "label": "3f",
    "section": "Fluency",
    "stem": "Factorise these expressions. Use a factor of $1$ where needed, for example $x^2 - ax + x - a = x(x - a) + 1(x - a)$.",
@@ -181913,6 +182319,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-8e-rearrange",
    "label": "4a",
    "section": "Problem-solving",
    "stem": "Factorise these expressions by first rearranging the terms.",
@@ -181923,6 +182330,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-8e-rearrange",
    "label": "4b",
    "section": "Problem-solving",
    "stem": "Factorise these expressions by first rearranging the terms.",
@@ -181933,6 +182341,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-8e-rearrange",
    "label": "4c",
    "section": "Problem-solving",
    "stem": "Factorise these expressions by first rearranging the terms.",
@@ -181943,6 +182352,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-8e-rearrange",
    "label": "4d",
    "section": "Problem-solving",
    "stem": "Factorise these expressions by first rearranging the terms.",
@@ -181953,6 +182363,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y9-8e-rearrange",
    "label": "4e",
    "section": "Problem-solving",
    "stem": "Factorise these expressions by first rearranging the terms.",
@@ -181963,6 +182374,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y9-8e-rearrange",
    "label": "4f",
    "section": "Problem-solving",
    "stem": "Factorise these expressions by first rearranging the terms.",
@@ -181973,6 +182385,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4g",
+   "help": "y9-8e-rearrange",
    "label": "4g",
    "section": "Problem-solving",
    "stem": "Factorise these expressions by first rearranging the terms.",
@@ -181983,6 +182396,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4h",
+   "help": "y9-8e-rearrange",
    "label": "4h",
    "section": "Problem-solving",
    "stem": "Factorise these expressions by first rearranging the terms.",
@@ -181993,6 +182407,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4i",
+   "help": "y9-8e-rearrange",
    "label": "4i",
    "section": "Problem-solving",
    "stem": "Factorise these expressions by first rearranging the terms.",
@@ -182003,6 +182418,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-8e-expand",
    "label": "5a",
    "section": "Problem-solving",
    "stem": "Write the expanded expression that factorises to each of the following.",
@@ -182013,6 +182429,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-8e-expand",
    "label": "5b",
    "section": "Problem-solving",
    "stem": "Write the expanded expression that factorises to each of the following.",
@@ -182023,6 +182440,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-8e-expand",
    "label": "5c",
    "section": "Problem-solving",
    "stem": "Write the expanded expression that factorises to each of the following.",
@@ -182033,6 +182451,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-8e-expand",
    "label": "5d",
    "section": "Problem-solving",
    "stem": "Write the expanded expression that factorises to each of the following.",
@@ -182043,6 +182462,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y9-8e-expand",
    "label": "5e",
    "section": "Problem-solving",
    "stem": "Write the expanded expression that factorises to each of the following.",
@@ -182053,6 +182473,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y9-8e-expand",
    "label": "5f",
    "section": "Problem-solving",
    "stem": "Write the expanded expression that factorises to each of the following.",
@@ -182063,6 +182484,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5g",
+   "help": "y9-8e-expand",
    "label": "5g",
    "section": "Problem-solving",
    "stem": "Write the expanded expression that factorises to each of the following.",
@@ -182073,6 +182495,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5h",
+   "help": "y9-8e-expand",
    "label": "5h",
    "section": "Problem-solving",
    "stem": "Write the expanded expression that factorises to each of the following.",
@@ -182083,6 +182506,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5i",
+   "help": "y9-8e-expand",
    "label": "5i",
    "section": "Problem-solving",
    "stem": "Write the expanded expression that factorises to each of the following.",
@@ -182093,6 +182517,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-8e-split",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "Write the middle term as two terms, for example $x^2 + 5x + 6 = x^2 + 2x + 3x + 6$, then factorise by grouping in pairs.",
@@ -182103,6 +182528,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-8e-split",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "Write the middle term as two terms, for example $x^2 + 5x + 6 = x^2 + 2x + 3x + 6$, then factorise by grouping in pairs.",
@@ -182113,6 +182539,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y9-8e-split",
    "label": "6c",
    "section": "Problem-solving",
    "stem": "Write the middle term as two terms, for example $x^2 + 5x + 6 = x^2 + 2x + 3x + 6$, then factorise by grouping in pairs.",
@@ -182123,6 +182550,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y9-8e-split",
    "label": "6d",
    "section": "Problem-solving",
    "stem": "Write the middle term as two terms, for example $x^2 + 5x + 6 = x^2 + 2x + 3x + 6$, then factorise by grouping in pairs.",
@@ -182133,6 +182561,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6e",
+   "help": "y9-8e-split",
    "label": "6e",
    "section": "Problem-solving",
    "stem": "Write the middle term as two terms, for example $x^2 + 5x + 6 = x^2 + 2x + 3x + 6$, then factorise by grouping in pairs.",
@@ -182143,6 +182572,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6f",
+   "help": "y9-8e-split",
    "label": "6f",
    "section": "Problem-solving",
    "stem": "Write the middle term as two terms, for example $x^2 + 5x + 6 = x^2 + 2x + 3x + 6$, then factorise by grouping in pairs.",
@@ -182153,6 +182583,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-8e-rearrange",
    "label": "7a",
    "section": "Reasoning",
    "stem": "The expression $xb - 20 + 5b - 4x$ can be rearranged in two ways before factorising. Method 1: $xb + 5b - 4x - 20 = b(x + 5) - 4(\\underline{\\qquad})$. Method 2: $xb - 4x + 5b - 20 = x(b - 4) + 5(\\underline{\\qquad})$.",
@@ -182162,6 +182593,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-8e-rearrange",
    "label": "7b",
    "section": "Reasoning",
    "stem": "The expression $xb - 20 + 5b - 4x$ can be rearranged in two ways before factorising. Method 1: $xb + 5b - 4x - 20 = b(x + 5) - 4(\\underline{\\qquad})$. Method 2: $xb - 4x + 5b - 20 = x(b - 4) + 5(\\underline{\\qquad})$.",
@@ -182172,6 +182604,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-8e-rearrange",
    "label": "7c",
    "section": "Reasoning",
    "stem": "The expression $xb - 20 + 5b - 4x$ can be rearranged in two ways before factorising. Method 1: $xb + 5b - 4x - 20 = b(x + 5) - 4(\\underline{\\qquad})$. Method 2: $xb - 4x + 5b - 20 = x(b - 4) + 5(\\underline{\\qquad})$.",
@@ -182181,6 +182614,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y9-8e-rearrange",
    "label": "7d",
    "section": "Reasoning",
    "stem": "The expression $xb - 20 + 5b - 4x$ can be rearranged in two ways before factorising. Method 1: $xb + 5b - 4x - 20 = b(x + 5) - 4(\\underline{\\qquad})$. Method 2: $xb - 4x + 5b - 20 = x(b - 4) + 5(\\underline{\\qquad})$.",
@@ -182191,6 +182625,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7e",
+   "help": "y9-8e-rearrange",
    "label": "7e",
    "section": "Reasoning",
    "stem": "Factorise each of these by grouping in pairs. (Try arranging the four terms in two different ways: both give the same answer.)",
@@ -182201,6 +182636,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7f",
+   "help": "y9-8e-rearrange",
    "label": "7f",
    "section": "Reasoning",
    "stem": "Factorise each of these by grouping in pairs. (Try arranging the four terms in two different ways: both give the same answer.)",
@@ -182211,6 +182647,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7g",
+   "help": "y9-8e-rearrange",
    "label": "7g",
    "section": "Reasoning",
    "stem": "Factorise each of these by grouping in pairs. (Try arranging the four terms in two different ways: both give the same answer.)",
@@ -182221,6 +182658,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7h",
+   "help": "y9-8e-rearrange",
    "label": "7h",
    "section": "Reasoning",
    "stem": "Factorise each of these by grouping in pairs. (Try arranging the four terms in two different ways: both give the same answer.)",
@@ -182231,6 +182669,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7i",
+   "help": "y9-8e-rearrange",
    "label": "7i",
    "section": "Reasoning",
    "stem": "Factorise each of these by grouping in pairs. (Try arranging the four terms in two different ways: both give the same answer.)",
@@ -182241,6 +182680,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7j",
+   "help": "y9-8e-rearrange",
    "label": "7j",
    "section": "Reasoning",
    "stem": "Factorise each of these by grouping in pairs. (Try arranging the four terms in two different ways: both give the same answer.)",
@@ -182251,6 +182691,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-8e-letters",
    "label": "9a",
    "section": "Enrichment",
    "stem": "Factorise by grouping.",
@@ -182261,6 +182702,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-8e-letters",
    "label": "9b",
    "section": "Enrichment",
    "stem": "Factorise by grouping.",
@@ -182271,6 +182713,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y9-8e-letters",
    "label": "9c",
    "section": "Enrichment",
    "stem": "Factorise by grouping.",
@@ -182281,6 +182724,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y9-8e-letters",
    "label": "9d",
    "section": "Enrichment",
    "stem": "Factorise by grouping.",
@@ -182291,6 +182735,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9e",
+   "help": "y9-8e-letters",
    "label": "9e",
    "section": "Enrichment",
    "stem": "Factorise by grouping.",
@@ -182301,6 +182746,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9f",
+   "help": "y9-8e-letters",
    "label": "9f",
    "section": "Enrichment",
    "stem": "Factorise by grouping.",
@@ -182311,6 +182757,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9g",
+   "help": "y9-8e-letters",
    "label": "9g",
    "section": "Enrichment",
    "stem": "Factorise by grouping.",
@@ -182321,6 +182768,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9h",
+   "help": "y9-8e-letters",
    "label": "9h",
    "section": "Enrichment",
    "stem": "Factorise by grouping.",
@@ -182331,6 +182779,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9i",
+   "help": "y9-8e-letters",
    "label": "9i",
    "section": "Enrichment",
    "stem": "Factorise by grouping.",
@@ -182341,6 +182790,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9j",
+   "help": "y9-8e-letters",
    "label": "9j",
    "section": "Enrichment",
    "stem": "Factorise by grouping.",
@@ -182360,6 +182810,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-8f-plus",
    "label": "1a",
    "section": "Fluency",
    "stem": "Factorise each of the following quadratic expressions.",
@@ -182371,6 +182822,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-8f-plus",
    "label": "1b",
    "section": "Fluency",
    "stem": "Factorise each of the following quadratic expressions.",
@@ -182381,6 +182833,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-8f-plus",
    "label": "1c",
    "section": "Fluency",
    "stem": "Factorise each of the following quadratic expressions.",
@@ -182391,6 +182844,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-8f-plus",
    "label": "1d",
    "section": "Fluency",
    "stem": "Factorise each of the following quadratic expressions.",
@@ -182401,6 +182855,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-8f-plus",
    "label": "1e",
    "section": "Fluency",
    "stem": "Factorise each of the following quadratic expressions.",
@@ -182411,6 +182866,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-8f-plus",
    "label": "1f",
    "section": "Fluency",
    "stem": "Factorise each of the following quadratic expressions.",
@@ -182421,6 +182877,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1g",
+   "help": "y9-8f-plus",
    "label": "1g",
    "section": "Fluency",
    "stem": "Factorise each of the following quadratic expressions.",
@@ -182431,6 +182888,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1h",
+   "help": "y9-8f-plus",
    "label": "1h",
    "section": "Fluency",
    "stem": "Factorise each of the following quadratic expressions.",
@@ -182441,6 +182899,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1i",
+   "help": "y9-8f-plus",
    "label": "1i",
    "section": "Fluency",
    "stem": "Factorise each of the following quadratic expressions.",
@@ -182451,6 +182910,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-8f-minus",
    "label": "2a",
    "section": "Fluency",
    "stem": "Factorise each of the following quadratic expressions.",
@@ -182461,6 +182921,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-8f-minus",
    "label": "2b",
    "section": "Fluency",
    "stem": "Factorise each of the following quadratic expressions.",
@@ -182471,6 +182932,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-8f-minus",
    "label": "2c",
    "section": "Fluency",
    "stem": "Factorise each of the following quadratic expressions.",
@@ -182481,6 +182943,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-8f-minus",
    "label": "2d",
    "section": "Fluency",
    "stem": "Factorise each of the following quadratic expressions.",
@@ -182491,6 +182954,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-8f-minus",
    "label": "2e",
    "section": "Fluency",
    "stem": "Factorise each of the following quadratic expressions.",
@@ -182501,6 +182965,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-8f-minus",
    "label": "2f",
    "section": "Fluency",
    "stem": "Factorise each of the following quadratic expressions.",
@@ -182511,6 +182976,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y9-8f-minus",
    "label": "2g",
    "section": "Fluency",
    "stem": "Factorise each of the following quadratic expressions.",
@@ -182521,6 +182987,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y9-8f-minus",
    "label": "2h",
    "section": "Fluency",
    "stem": "Factorise each of the following quadratic expressions.",
@@ -182531,6 +182998,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2i",
+   "help": "y9-8f-minus",
    "label": "2i",
    "section": "Fluency",
    "stem": "Factorise each of the following quadratic expressions.",
@@ -182541,6 +183009,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-8f-plus",
    "label": "3a",
    "section": "Fluency",
    "stem": "Factorise each of the following quadratic expressions.",
@@ -182551,6 +183020,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-8f-plus",
    "label": "3b",
    "section": "Fluency",
    "stem": "Factorise each of the following quadratic expressions.",
@@ -182561,6 +183031,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-8f-plus",
    "label": "3c",
    "section": "Fluency",
    "stem": "Factorise each of the following quadratic expressions.",
@@ -182571,6 +183042,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-8f-plus",
    "label": "3d",
    "section": "Fluency",
    "stem": "Factorise each of the following quadratic expressions.",
@@ -182581,6 +183053,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-8f-plus",
    "label": "3e",
    "section": "Fluency",
    "stem": "Factorise each of the following quadratic expressions.",
@@ -182591,6 +183064,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-8f-plus",
    "label": "3f",
    "section": "Fluency",
    "stem": "Factorise each of the following quadratic expressions.",
@@ -182601,6 +183075,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3g",
+   "help": "y9-8f-plus",
    "label": "3g",
    "section": "Fluency",
    "stem": "Factorise each of the following quadratic expressions.",
@@ -182611,6 +183086,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3h",
+   "help": "y9-8f-plus",
    "label": "3h",
    "section": "Fluency",
    "stem": "Factorise each of the following quadratic expressions.",
@@ -182621,6 +183097,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3i",
+   "help": "y9-8f-plus",
    "label": "3i",
    "section": "Fluency",
    "stem": "Factorise each of the following quadratic expressions.",
@@ -182631,6 +183108,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-8f-minus",
    "label": "4a",
    "section": "Fluency",
    "stem": "Factorise each of the following quadratic expressions.",
@@ -182641,6 +183119,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-8f-minus",
    "label": "4b",
    "section": "Fluency",
    "stem": "Factorise each of the following quadratic expressions.",
@@ -182651,6 +183130,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-8f-minus",
    "label": "4c",
    "section": "Fluency",
    "stem": "Factorise each of the following quadratic expressions.",
@@ -182661,6 +183141,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-8f-minus",
    "label": "4d",
    "section": "Fluency",
    "stem": "Factorise each of the following quadratic expressions.",
@@ -182671,6 +183152,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y9-8f-minus",
    "label": "4e",
    "section": "Fluency",
    "stem": "Factorise each of the following quadratic expressions.",
@@ -182681,6 +183163,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y9-8f-minus",
    "label": "4f",
    "section": "Fluency",
    "stem": "Factorise each of the following quadratic expressions.",
@@ -182691,6 +183174,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4g",
+   "help": "y9-8f-minus",
    "label": "4g",
    "section": "Fluency",
    "stem": "Factorise each of the following quadratic expressions.",
@@ -182701,6 +183185,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4h",
+   "help": "y9-8f-minus",
    "label": "4h",
    "section": "Fluency",
    "stem": "Factorise each of the following quadratic expressions.",
@@ -182711,6 +183196,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4i",
+   "help": "y9-8f-minus",
    "label": "4i",
    "section": "Fluency",
    "stem": "Factorise each of the following quadratic expressions.",
@@ -182721,6 +183207,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-8f-common",
    "label": "5a",
    "section": "Fluency",
    "stem": "Factorise each of the following quadratic expressions by first taking out a common factor.",
@@ -182731,6 +183218,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-8f-common",
    "label": "5b",
    "section": "Fluency",
    "stem": "Factorise each of the following quadratic expressions by first taking out a common factor.",
@@ -182741,6 +183229,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-8f-common",
    "label": "5c",
    "section": "Fluency",
    "stem": "Factorise each of the following quadratic expressions by first taking out a common factor.",
@@ -182751,6 +183240,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-8f-common",
    "label": "5d",
    "section": "Fluency",
    "stem": "Factorise each of the following quadratic expressions by first taking out a common factor.",
@@ -182761,6 +183251,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y9-8f-common",
    "label": "5e",
    "section": "Fluency",
    "stem": "Factorise each of the following quadratic expressions by first taking out a common factor.",
@@ -182771,6 +183262,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y9-8f-common",
    "label": "5f",
    "section": "Fluency",
    "stem": "Factorise each of the following quadratic expressions by first taking out a common factor.",
@@ -182781,6 +183273,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5g",
+   "help": "y9-8f-common",
    "label": "5g",
    "section": "Fluency",
    "stem": "Factorise each of the following quadratic expressions by first taking out a common factor.",
@@ -182791,6 +183284,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5h",
+   "help": "y9-8f-common",
    "label": "5h",
    "section": "Fluency",
    "stem": "Factorise each of the following quadratic expressions by first taking out a common factor.",
@@ -182801,6 +183295,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5i",
+   "help": "y9-8f-common",
    "label": "5i",
    "section": "Fluency",
    "stem": "Factorise each of the following quadratic expressions by first taking out a common factor.",
@@ -182811,6 +183306,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5j",
+   "help": "y9-8f-common",
    "label": "5j",
    "section": "Fluency",
    "stem": "Factorise each of the following quadratic expressions by first taking out a common factor.",
@@ -182821,6 +183317,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5k",
+   "help": "y9-8f-common",
    "label": "5k",
    "section": "Fluency",
    "stem": "Factorise each of the following quadratic expressions by first taking out a common factor.",
@@ -182831,6 +183328,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5l",
+   "help": "y9-8f-common",
    "label": "5l",
    "section": "Fluency",
    "stem": "Factorise each of the following quadratic expressions by first taking out a common factor.",
@@ -182841,6 +183339,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-8f-missing",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "Find every possible missing term so that the trinomial factorises as $(x + a)(x + b)$ with $a$ and $b$ integers. The box stands for a term like $7x$, where the number in front is a positive whole number.",
@@ -182853,6 +183352,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-8f-missing",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "Find every possible missing term so that the trinomial factorises as $(x + a)(x + b)$ with $a$ and $b$ integers. The box stands for a term like $7x$, where the number in front is a positive whole number.",
@@ -182866,6 +183366,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y9-8f-missing",
    "label": "6c",
    "section": "Problem-solving",
    "stem": "Find every possible missing term so that the trinomial factorises as $(x + a)(x + b)$ with $a$ and $b$ integers. The box stands for a term like $7x$, where the number in front is a positive whole number.",
@@ -182879,6 +183380,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y9-8f-missing",
    "label": "6d",
    "section": "Problem-solving",
    "stem": "Find every possible missing term so that the trinomial factorises as $(x + a)(x + b)$ with $a$ and $b$ integers. The box stands for a term like $7x$, where the number in front is a positive whole number.",
@@ -182892,6 +183394,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6e",
+   "help": "y9-8f-missing",
    "label": "6e",
    "section": "Problem-solving",
    "stem": "Find every possible missing term so that the trinomial factorises as $(x + a)(x + b)$ with $a$ and $b$ integers. The box stands for a term like $7x$, where the number in front is a positive whole number.",
@@ -182905,6 +183408,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6f",
+   "help": "y9-8f-missing",
    "label": "6f",
    "section": "Problem-solving",
    "stem": "Find every possible missing term so that the trinomial factorises as $(x + a)(x + b)$ with $a$ and $b$ integers. The box stands for a term like $7x$, where the number in front is a positive whole number.",
@@ -182918,6 +183422,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6g",
+   "help": "y9-8f-missing",
    "label": "6g",
    "section": "Problem-solving",
    "stem": "Find every possible missing term so that the trinomial factorises as $(x + a)(x + b)$ with $a$ and $b$ integers. The box stands for a term like $7x$, where the number in front is a positive whole number.",
@@ -182930,6 +183435,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6h",
+   "help": "y9-8f-missing",
    "label": "6h",
    "section": "Problem-solving",
    "stem": "Find every possible missing term so that the trinomial factorises as $(x + a)(x + b)$ with $a$ and $b$ integers. The box stands for a term like $7x$, where the number in front is a positive whole number.",
@@ -182944,6 +183450,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-8f-context",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "A rectangular backyard is $x$ metres wide and its length is $4$ metres more than its width. Inside it are three paved squares, each with area $4$ m². The rest of the backyard is lawn.",
@@ -183055,6 +183562,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-8f-context",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "A rectangular backyard is $x$ metres wide and its length is $4$ metres more than its width. Inside it are three paved squares, each with area $4$ m². The rest of the backyard is lawn.",
@@ -183066,6 +183574,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-8f-context",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "A rectangular backyard is $x$ metres wide and its length is $4$ metres more than its width. Inside it are three paved squares, each with area $4$ m². The rest of the backyard is lawn.",
@@ -183077,6 +183586,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y9-8f-context",
    "label": "7d",
    "section": "Problem-solving",
    "stem": "A rectangular backyard is $x$ metres wide and its length is $4$ metres more than its width. Inside it are three paved squares, each with area $4$ m². The rest of the backyard is lawn.",
@@ -183087,6 +183597,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7e",
+   "help": "y9-8f-context",
    "label": "7e",
    "section": "Problem-solving",
    "stem": "A rectangular backyard is $x$ metres wide and its length is $4$ metres more than its width. Inside it are three paved squares, each with area $4$ m². The rest of the backyard is lawn.",
@@ -183097,6 +183608,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-8f-square",
    "label": "8a",
    "section": "Reasoning",
    "stem": "These are perfect squares, such as $x^2 - 8x + 16 = (x - 4)^2$. Factorise them. A common factor may also be involved.",
@@ -183108,6 +183620,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-8f-square",
    "label": "8b",
    "section": "Reasoning",
    "stem": "These are perfect squares, such as $x^2 - 8x + 16 = (x - 4)^2$. Factorise them. A common factor may also be involved.",
@@ -183118,6 +183631,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y9-8f-square",
    "label": "8c",
    "section": "Reasoning",
    "stem": "These are perfect squares, such as $x^2 - 8x + 16 = (x - 4)^2$. Factorise them. A common factor may also be involved.",
@@ -183128,6 +183642,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y9-8f-square",
    "label": "8d",
    "section": "Reasoning",
    "stem": "These are perfect squares, such as $x^2 - 8x + 16 = (x - 4)^2$. Factorise them. A common factor may also be involved.",
@@ -183138,6 +183653,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8e",
+   "help": "y9-8f-square",
    "label": "8e",
    "section": "Reasoning",
    "stem": "These are perfect squares, such as $x^2 - 8x + 16 = (x - 4)^2$. Factorise them. A common factor may also be involved.",
@@ -183148,6 +183664,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8f",
+   "help": "y9-8f-square",
    "label": "8f",
    "section": "Reasoning",
    "stem": "These are perfect squares, such as $x^2 - 8x + 16 = (x - 4)^2$. Factorise them. A common factor may also be involved.",
@@ -183158,6 +183675,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8g",
+   "help": "y9-8f-square",
    "label": "8g",
    "section": "Reasoning",
    "stem": "These are perfect squares, such as $x^2 - 8x + 16 = (x - 4)^2$. Factorise them. A common factor may also be involved.",
@@ -183168,6 +183686,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8h",
+   "help": "y9-8f-square",
    "label": "8h",
    "section": "Reasoning",
    "stem": "These are perfect squares, such as $x^2 - 8x + 16 = (x - 4)^2$. Factorise them. A common factor may also be involved.",
@@ -183178,6 +183697,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8i",
+   "help": "y9-8f-square",
    "label": "8i",
    "section": "Reasoning",
    "stem": "These are perfect squares, such as $x^2 - 8x + 16 = (x - 4)^2$. Factorise them. A common factor may also be involved.",
@@ -183188,6 +183708,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-8f-can",
    "label": "9a",
    "section": "Reasoning",
    "stem": "Decide whether each quadratic can be factorised using integers.",
@@ -183201,6 +183722,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-8f-can",
    "label": "9b",
    "section": "Reasoning",
    "stem": "Decide whether each quadratic can be factorised using integers.",
@@ -183214,6 +183736,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y9-8f-can",
    "label": "9c",
    "section": "Reasoning",
    "stem": "Decide whether each quadratic can be factorised using integers.",
@@ -183227,6 +183750,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y9-8f-can",
    "label": "9d",
    "section": "Reasoning",
    "stem": "Decide whether each quadratic can be factorised using integers.",
@@ -183240,6 +183764,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9e",
+   "help": "y9-8f-can",
    "label": "9e",
    "section": "Reasoning",
    "stem": "Decide whether each quadratic can be factorised using integers.",
@@ -183253,6 +183778,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9f",
+   "help": "y9-8f-can",
    "label": "9f",
    "section": "Reasoning",
    "stem": "Decide whether each quadratic can be factorised using integers.",
@@ -183266,6 +183792,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y9-8f-complete",
    "label": "10a",
    "section": "Enrichment",
    "stem": "Completing the square writes a quadratic in the form $(x + b)^2 + c$. For example, $x^2 - 6x - 8 = x^2 - 6x + 9 - 9 - 8 = (x - 3)^2 - 17$, so $b = -3$ and $c = -17$. Write each quadratic in the form $(x + b)^2 + c$, and give $b$ and $c$ in that order, separated by a comma.",
@@ -183279,6 +183806,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y9-8f-complete",
    "label": "10b",
    "section": "Enrichment",
    "stem": "Completing the square writes a quadratic in the form $(x + b)^2 + c$. For example, $x^2 - 6x - 8 = x^2 - 6x + 9 - 9 - 8 = (x - 3)^2 - 17$, so $b = -3$ and $c = -17$. Write each quadratic in the form $(x + b)^2 + c$, and give $b$ and $c$ in that order, separated by a comma.",
@@ -183291,6 +183819,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y9-8f-complete",
    "label": "10c",
    "section": "Enrichment",
    "stem": "Completing the square writes a quadratic in the form $(x + b)^2 + c$. For example, $x^2 - 6x - 8 = x^2 - 6x + 9 - 9 - 8 = (x - 3)^2 - 17$, so $b = -3$ and $c = -17$. Write each quadratic in the form $(x + b)^2 + c$, and give $b$ and $c$ in that order, separated by a comma.",
@@ -183303,6 +183832,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10d",
+   "help": "y9-8f-complete",
    "label": "10d",
    "section": "Enrichment",
    "stem": "Completing the square writes a quadratic in the form $(x + b)^2 + c$. For example, $x^2 - 6x - 8 = x^2 - 6x + 9 - 9 - 8 = (x - 3)^2 - 17$, so $b = -3$ and $c = -17$. Write each quadratic in the form $(x + b)^2 + c$, and give $b$ and $c$ in that order, separated by a comma.",
@@ -183315,6 +183845,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10e",
+   "help": "y9-8f-complete",
    "label": "10e",
    "section": "Enrichment",
    "stem": "Completing the square writes a quadratic in the form $(x + b)^2 + c$. For example, $x^2 - 6x - 8 = x^2 - 6x + 9 - 9 - 8 = (x - 3)^2 - 17$, so $b = -3$ and $c = -17$. Write each quadratic in the form $(x + b)^2 + c$, and give $b$ and $c$ in that order, separated by a comma.",
@@ -183327,6 +183858,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10f",
+   "help": "y9-8f-complete",
    "label": "10f",
    "section": "Enrichment",
    "stem": "Completing the square writes a quadratic in the form $(x + b)^2 + c$. For example, $x^2 - 6x - 8 = x^2 - 6x + 9 - 9 - 8 = (x - 3)^2 - 17$, so $b = -3$ and $c = -17$. Write each quadratic in the form $(x + b)^2 + c$, and give $b$ and $c$ in that order, separated by a comma.",
@@ -183348,6 +183880,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-8g-ac",
    "label": "1a",
    "section": "Fluency",
    "stem": "Factorise these quadratic trinomials.",
@@ -183359,6 +183892,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-8g-ac",
    "label": "1b",
    "section": "Fluency",
    "stem": "Factorise these quadratic trinomials.",
@@ -183369,6 +183903,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-8g-ac",
    "label": "1c",
    "section": "Fluency",
    "stem": "Factorise these quadratic trinomials.",
@@ -183379,6 +183914,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-8g-ac",
    "label": "1d",
    "section": "Fluency",
    "stem": "Factorise these quadratic trinomials.",
@@ -183389,6 +183925,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-8g-ac",
    "label": "1e",
    "section": "Fluency",
    "stem": "Factorise these quadratic trinomials.",
@@ -183399,6 +183936,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-8g-ac",
    "label": "1f",
    "section": "Fluency",
    "stem": "Factorise these quadratic trinomials.",
@@ -183409,6 +183947,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1g",
+   "help": "y9-8g-ac",
    "label": "1g",
    "section": "Fluency",
    "stem": "Factorise these quadratic trinomials.",
@@ -183419,6 +183958,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1h",
+   "help": "y9-8g-ac",
    "label": "1h",
    "section": "Fluency",
    "stem": "Factorise these quadratic trinomials.",
@@ -183429,6 +183969,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1i",
+   "help": "y9-8g-ac",
    "label": "1i",
    "section": "Fluency",
    "stem": "Factorise these quadratic trinomials.",
@@ -183439,6 +183980,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-8g-signs",
    "label": "2a",
    "section": "Fluency",
    "stem": "Factorise these quadratic trinomials.",
@@ -183449,6 +183991,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-8g-signs",
    "label": "2b",
    "section": "Fluency",
    "stem": "Factorise these quadratic trinomials.",
@@ -183459,6 +184002,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-8g-signs",
    "label": "2c",
    "section": "Fluency",
    "stem": "Factorise these quadratic trinomials.",
@@ -183469,6 +184013,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-8g-signs",
    "label": "2d",
    "section": "Fluency",
    "stem": "Factorise these quadratic trinomials.",
@@ -183479,6 +184024,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-8g-signs",
    "label": "2e",
    "section": "Fluency",
    "stem": "Factorise these quadratic trinomials.",
@@ -183489,6 +184035,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-8g-signs",
    "label": "2f",
    "section": "Fluency",
    "stem": "Factorise these quadratic trinomials.",
@@ -183499,6 +184046,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y9-8g-signs",
    "label": "2g",
    "section": "Fluency",
    "stem": "Factorise these quadratic trinomials.",
@@ -183509,6 +184057,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y9-8g-signs",
    "label": "2h",
    "section": "Fluency",
    "stem": "Factorise these quadratic trinomials.",
@@ -183519,6 +184068,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2i",
+   "help": "y9-8g-signs",
    "label": "2i",
    "section": "Fluency",
    "stem": "Factorise these quadratic trinomials.",
@@ -183529,6 +184079,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2j",
+   "help": "y9-8g-signs",
    "label": "2j",
    "section": "Fluency",
    "stem": "Factorise these quadratic trinomials.",
@@ -183539,6 +184090,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2k",
+   "help": "y9-8g-signs",
    "label": "2k",
    "section": "Fluency",
    "stem": "Factorise these quadratic trinomials.",
@@ -183549,6 +184101,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2l",
+   "help": "y9-8g-signs",
    "label": "2l",
    "section": "Fluency",
    "stem": "Factorise these quadratic trinomials.",
@@ -183559,6 +184112,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2m",
+   "help": "y9-8g-signs",
    "label": "2m",
    "section": "Fluency",
    "stem": "Factorise these quadratic trinomials.",
@@ -183569,6 +184123,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2n",
+   "help": "y9-8g-signs",
    "label": "2n",
    "section": "Fluency",
    "stem": "Factorise these quadratic trinomials.",
@@ -183579,6 +184134,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2o",
+   "help": "y9-8g-signs",
    "label": "2o",
    "section": "Fluency",
    "stem": "Factorise these quadratic trinomials.",
@@ -183589,6 +184145,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-8g-common",
    "label": "3a",
    "section": "Problem-solving",
    "stem": "Factorise by first taking out a common factor.",
@@ -183599,6 +184156,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-8g-common",
    "label": "3b",
    "section": "Problem-solving",
    "stem": "Factorise by first taking out a common factor.",
@@ -183609,6 +184167,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-8g-common",
    "label": "3c",
    "section": "Problem-solving",
    "stem": "Factorise by first taking out a common factor.",
@@ -183619,6 +184178,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-8g-common",
    "label": "3d",
    "section": "Problem-solving",
    "stem": "Factorise by first taking out a common factor.",
@@ -183629,6 +184189,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-8g-common",
    "label": "3e",
    "section": "Problem-solving",
    "stem": "Factorise by first taking out a common factor.",
@@ -183639,6 +184200,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-8g-common",
    "label": "3f",
    "section": "Problem-solving",
    "stem": "Factorise by first taking out a common factor.",
@@ -183649,6 +184211,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-8g-ac",
    "label": "4a",
    "section": "Problem-solving",
    "stem": "Factorise these quadratic trinomials.",
@@ -183659,6 +184222,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-8g-ac",
    "label": "4b",
    "section": "Problem-solving",
    "stem": "Factorise these quadratic trinomials.",
@@ -183669,6 +184233,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-8g-ac",
    "label": "4c",
    "section": "Problem-solving",
    "stem": "Factorise these quadratic trinomials.",
@@ -183679,6 +184244,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-8g-ac",
    "label": "4d",
    "section": "Problem-solving",
    "stem": "Factorise these quadratic trinomials.",
@@ -183689,6 +184255,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y9-8g-ac",
    "label": "4e",
    "section": "Problem-solving",
    "stem": "Factorise these quadratic trinomials.",
@@ -183699,6 +184266,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y9-8g-ac",
    "label": "4f",
    "section": "Problem-solving",
    "stem": "Factorise these quadratic trinomials.",
@@ -183709,6 +184277,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4g",
+   "help": "y9-8g-ac",
    "label": "4g",
    "section": "Problem-solving",
    "stem": "Factorise these quadratic trinomials.",
@@ -183719,6 +184288,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4h",
+   "help": "y9-8g-ac",
    "label": "4h",
    "section": "Problem-solving",
    "stem": "Factorise these quadratic trinomials.",
@@ -183729,6 +184299,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4i",
+   "help": "y9-8g-ac",
    "label": "4i",
    "section": "Problem-solving",
    "stem": "Factorise these quadratic trinomials.",
@@ -183739,6 +184310,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4j",
+   "help": "y9-8g-ac",
    "label": "4j",
    "section": "Problem-solving",
    "stem": "Factorise these quadratic trinomials.",
@@ -183749,6 +184321,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4k",
+   "help": "y9-8g-ac",
    "label": "4k",
    "section": "Problem-solving",
    "stem": "Factorise these quadratic trinomials.",
@@ -183759,6 +184332,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4l",
+   "help": "y9-8g-ac",
    "label": "4l",
    "section": "Problem-solving",
    "stem": "Factorise these quadratic trinomials.",
@@ -183769,6 +184343,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-8g-negative",
    "label": "5a",
    "section": "Problem-solving",
    "stem": "Factorise these trinomials.",
@@ -183780,6 +184355,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-8g-negative",
    "label": "5b",
    "section": "Problem-solving",
    "stem": "Factorise these trinomials.",
@@ -183790,6 +184366,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-8g-negative",
    "label": "5c",
    "section": "Problem-solving",
    "stem": "Factorise these trinomials.",
@@ -183800,6 +184377,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-8g-negative",
    "label": "5d",
    "section": "Problem-solving",
    "stem": "Factorise these trinomials.",
@@ -183810,6 +184388,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y9-8g-negative",
    "label": "5e",
    "section": "Problem-solving",
    "stem": "Factorise these trinomials.",
@@ -183820,6 +184399,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y9-8g-negative",
    "label": "5f",
    "section": "Problem-solving",
    "stem": "Factorise these trinomials.",
@@ -183830,6 +184410,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-8g-order",
    "label": "6a",
    "section": "Reasoning",
    "stem": "When splitting the $5x$ in $2x^2 + 5x - 12$, you could write: A: $2x^2 + 8x - 3x - 12$, or B: $2x^2 - 3x + 8x - 12$.",
@@ -183840,6 +184421,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-8g-order",
    "label": "6b",
    "section": "Reasoning",
    "stem": "When splitting the $5x$ in $2x^2 + 5x - 12$, you could write: A: $2x^2 + 8x - 3x - 12$, or B: $2x^2 - 3x + 8x - 12$.",
@@ -183850,6 +184432,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y9-8g-order",
    "label": "6c",
    "section": "Reasoning",
    "stem": "When splitting the $5x$ in $2x^2 + 5x - 12$, you could write: A: $2x^2 + 8x - 3x - 12$, or B: $2x^2 - 3x + 8x - 12$.",
@@ -183863,6 +184446,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y9-8g-order",
    "label": "6d",
    "section": "Reasoning",
    "stem": "Factorise these trinomials by grouping in pairs. (You could check your answer by doing it again with the two middle terms the other way round.)",
@@ -183873,6 +184457,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6e",
+   "help": "y9-8g-order",
    "label": "6e",
    "section": "Reasoning",
    "stem": "Factorise these trinomials by grouping in pairs. (You could check your answer by doing it again with the two middle terms the other way round.)",
@@ -183883,6 +184468,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6f",
+   "help": "y9-8g-order",
    "label": "6f",
    "section": "Reasoning",
    "stem": "Factorise these trinomials by grouping in pairs. (You could check your answer by doing it again with the two middle terms the other way round.)",
@@ -183893,6 +184479,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-8g-ac",
    "label": "8a",
    "section": "Enrichment",
    "stem": "The cross method: write factors of the $x^2$ term down the left and factors of the constant down the right, then cross-multiply and add until you get the middle term. Use it to factorise these trinomials.",
@@ -183903,6 +184490,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-8g-ac",
    "label": "8b",
    "section": "Enrichment",
    "stem": "The cross method: write factors of the $x^2$ term down the left and factors of the constant down the right, then cross-multiply and add until you get the middle term. Use it to factorise these trinomials.",
@@ -183913,6 +184501,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y9-8g-ac",
    "label": "8c",
    "section": "Enrichment",
    "stem": "The cross method: write factors of the $x^2$ term down the left and factors of the constant down the right, then cross-multiply and add until you get the middle term. Use it to factorise these trinomials.",
@@ -183932,6 +184521,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-8h-cancel",
    "label": "1a",
    "section": "Fluency",
    "stem": "Simplify the following by cancelling.",
@@ -183943,6 +184533,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-8h-cancel",
    "label": "1b",
    "section": "Fluency",
    "stem": "Simplify the following by cancelling.",
@@ -183953,6 +184544,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-8h-cancel",
    "label": "1c",
    "section": "Fluency",
    "stem": "Simplify the following by cancelling.",
@@ -183963,6 +184555,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-8h-cancel",
    "label": "1d",
    "section": "Fluency",
    "stem": "Simplify the following by cancelling.",
@@ -183973,6 +184566,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-8h-cancel",
    "label": "1e",
    "section": "Fluency",
    "stem": "Simplify the following by cancelling.",
@@ -183986,6 +184580,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-8h-cancel",
    "label": "1f",
    "section": "Fluency",
    "stem": "Simplify the following by cancelling.",
@@ -183999,6 +184594,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-8h-factorise",
    "label": "2a",
    "section": "Fluency",
    "stem": "Simplify the following by factorising and then cancelling.",
@@ -184010,6 +184606,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-8h-factorise",
    "label": "2b",
    "section": "Fluency",
    "stem": "Simplify the following by factorising and then cancelling.",
@@ -184020,6 +184617,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-8h-factorise",
    "label": "2c",
    "section": "Fluency",
    "stem": "Simplify the following by factorising and then cancelling.",
@@ -184030,6 +184628,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-8h-factorise",
    "label": "2d",
    "section": "Fluency",
    "stem": "Simplify the following by factorising and then cancelling.",
@@ -184040,6 +184639,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-8h-factorise",
    "label": "2e",
    "section": "Fluency",
    "stem": "Simplify the following by factorising and then cancelling.",
@@ -184050,6 +184650,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-8h-factorise",
    "label": "2f",
    "section": "Fluency",
    "stem": "Simplify the following by factorising and then cancelling.",
@@ -184060,6 +184661,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y9-8h-factorise",
    "label": "2g",
    "section": "Fluency",
    "stem": "Simplify the following by factorising and then cancelling.",
@@ -184070,6 +184672,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y9-8h-factorise",
    "label": "2h",
    "section": "Fluency",
    "stem": "Simplify the following by factorising and then cancelling.",
@@ -184080,6 +184683,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-8h-factorise",
    "label": "3a",
    "section": "Fluency",
    "stem": "Simplify the following. These expressions involve difference of two squares.",
@@ -184091,6 +184695,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-8h-factorise",
    "label": "3b",
    "section": "Fluency",
    "stem": "Simplify the following. These expressions involve difference of two squares.",
@@ -184101,6 +184706,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-8h-factorise",
    "label": "3c",
    "section": "Fluency",
    "stem": "Simplify the following. These expressions involve difference of two squares.",
@@ -184111,6 +184717,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-8h-factorise",
    "label": "3d",
    "section": "Fluency",
    "stem": "Simplify the following. These expressions involve difference of two squares.",
@@ -184121,6 +184728,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-8h-factorise",
    "label": "3e",
    "section": "Fluency",
    "stem": "Simplify the following. These expressions involve difference of two squares.",
@@ -184131,6 +184739,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-8h-factorise",
    "label": "3f",
    "section": "Fluency",
    "stem": "Simplify the following. These expressions involve difference of two squares.",
@@ -184141,6 +184750,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-8h-factorise",
    "label": "4a",
    "section": "Fluency",
    "stem": "Simplify by first factorising the trinomials.",
@@ -184152,6 +184762,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-8h-factorise",
    "label": "4b",
    "section": "Fluency",
    "stem": "Simplify by first factorising the trinomials.",
@@ -184162,6 +184773,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-8h-factorise",
    "label": "4c",
    "section": "Fluency",
    "stem": "Simplify by first factorising the trinomials.",
@@ -184172,6 +184784,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-8h-factorise",
    "label": "4d",
    "section": "Fluency",
    "stem": "Simplify by first factorising the trinomials.",
@@ -184182,6 +184795,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y9-8h-factorise",
    "label": "4e",
    "section": "Fluency",
    "stem": "Simplify by first factorising the trinomials.",
@@ -184192,6 +184806,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y9-8h-factorise",
    "label": "4f",
    "section": "Fluency",
    "stem": "Simplify by first factorising the trinomials.",
@@ -184202,6 +184817,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-8h-times",
    "label": "5a",
    "section": "Fluency",
    "stem": "Simplify the following by cancelling.",
@@ -184213,6 +184829,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-8h-times",
    "label": "5b",
    "section": "Fluency",
    "stem": "Simplify the following by cancelling.",
@@ -184223,6 +184840,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-8h-times",
    "label": "5c",
    "section": "Fluency",
    "stem": "Simplify the following by cancelling.",
@@ -184236,6 +184854,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-8h-times",
    "label": "5d",
    "section": "Fluency",
    "stem": "Simplify the following by cancelling.",
@@ -184249,6 +184868,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-8h-times",
    "label": "6a",
    "section": "Fluency",
    "stem": "Simplify the following by cancelling.",
@@ -184260,6 +184880,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-8h-times",
    "label": "6b",
    "section": "Fluency",
    "stem": "Simplify the following by cancelling.",
@@ -184273,6 +184894,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y9-8h-times",
    "label": "6c",
    "section": "Fluency",
    "stem": "Simplify the following by cancelling.",
@@ -184283,6 +184905,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y9-8h-times",
    "label": "6d",
    "section": "Fluency",
    "stem": "Simplify the following by cancelling.",
@@ -184298,6 +184921,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6e",
+   "help": "y9-8h-times",
    "label": "6e",
    "section": "Fluency",
    "stem": "Simplify the following by cancelling.",
@@ -184313,6 +184937,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6f",
+   "help": "y9-8h-times",
    "label": "6f",
    "section": "Fluency",
    "stem": "Simplify the following by cancelling.",
@@ -184323,6 +184948,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-8h-mixed",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "These expressions involve a combination of trinomials, difference of two squares and simple common factors. Simplify by first factorising where possible.",
@@ -184337,6 +184963,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-8h-mixed",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "These expressions involve a combination of trinomials, difference of two squares and simple common factors. Simplify by first factorising where possible.",
@@ -184347,6 +184974,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-8h-mixed",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "These expressions involve a combination of trinomials, difference of two squares and simple common factors. Simplify by first factorising where possible.",
@@ -184357,6 +184985,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y9-8h-mixed",
    "label": "7d",
    "section": "Problem-solving",
    "stem": "These expressions involve a combination of trinomials, difference of two squares and simple common factors. Simplify by first factorising where possible.",
@@ -184367,6 +184996,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7e",
+   "help": "y9-8h-mixed",
    "label": "7e",
    "section": "Problem-solving",
    "stem": "These expressions involve a combination of trinomials, difference of two squares and simple common factors. Simplify by first factorising where possible.",
@@ -184377,6 +185007,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7f",
+   "help": "y9-8h-mixed",
    "label": "7f",
    "section": "Problem-solving",
    "stem": "These expressions involve a combination of trinomials, difference of two squares and simple common factors. Simplify by first factorising where possible.",
@@ -184391,6 +185022,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7g",
+   "help": "y9-8h-mixed",
    "label": "7g",
    "section": "Problem-solving",
    "stem": "These expressions involve a combination of trinomials, difference of two squares and simple common factors. Simplify by first factorising where possible.",
@@ -184404,6 +185036,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7h",
+   "help": "y9-8h-mixed",
    "label": "7h",
    "section": "Problem-solving",
    "stem": "These expressions involve a combination of trinomials, difference of two squares and simple common factors. Simplify by first factorising where possible.",
@@ -184417,6 +185050,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-8h-cancel",
    "label": "8a",
    "section": "Reasoning",
    "stem": "Just as $\\frac{a^2}{2a}$ can be cancelled to $\\frac{a}{2}$, $\\frac{(a+3)^2}{4(a+3)}$ cancels to $\\frac{a+3}{4}$. Use this idea to cancel these fractions.",
@@ -184428,6 +185062,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-8h-cancel",
    "label": "8b",
    "section": "Reasoning",
    "stem": "Just as $\\frac{a^2}{2a}$ can be cancelled to $\\frac{a}{2}$, $\\frac{(a+3)^2}{4(a+3)}$ cancels to $\\frac{a+3}{4}$. Use this idea to cancel these fractions.",
@@ -184441,6 +185076,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y9-8h-cancel",
    "label": "8c",
    "section": "Reasoning",
    "stem": "Just as $\\frac{a^2}{2a}$ can be cancelled to $\\frac{a}{2}$, $\\frac{(a+3)^2}{4(a+3)}$ cancels to $\\frac{a+3}{4}$. Use this idea to cancel these fractions.",
@@ -184454,6 +185090,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y9-8h-cancel",
    "label": "8d",
    "section": "Reasoning",
    "stem": "Just as $\\frac{a^2}{2a}$ can be cancelled to $\\frac{a}{2}$, $\\frac{(a+3)^2}{4(a+3)}$ cancels to $\\frac{a+3}{4}$. Use this idea to cancel these fractions.",
@@ -184464,6 +185101,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8e",
+   "help": "y9-8h-cancel",
    "label": "8e",
    "section": "Reasoning",
    "stem": "Just as $\\frac{a^2}{2a}$ can be cancelled to $\\frac{a}{2}$, $\\frac{(a+3)^2}{4(a+3)}$ cancels to $\\frac{a+3}{4}$. Use this idea to cancel these fractions.",
@@ -184474,6 +185112,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8f",
+   "help": "y9-8h-cancel",
    "label": "8f",
    "section": "Reasoning",
    "stem": "Just as $\\frac{a^2}{2a}$ can be cancelled to $\\frac{a}{2}$, $\\frac{(a+3)^2}{4(a+3)}$ cancels to $\\frac{a+3}{4}$. Use this idea to cancel these fractions.",
@@ -184484,6 +185123,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-8h-negative",
    "label": "9a",
    "section": "Reasoning",
    "stem": "The expression $\\frac{3-2x}{2x-3}$ can be written as $\\frac{-1(-3+2x)}{2x-3} = \\frac{-1(2x-3)}{2x-3}$, which cancels to $-1$. Use this idea to simplify these algebraic fractions.",
@@ -184495,6 +185135,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-8h-negative",
    "label": "9b",
    "section": "Reasoning",
    "stem": "The expression $\\frac{3-2x}{2x-3}$ can be written as $\\frac{-1(-3+2x)}{2x-3} = \\frac{-1(2x-3)}{2x-3}$, which cancels to $-1$. Use this idea to simplify these algebraic fractions.",
@@ -184505,6 +185146,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y9-8h-negative",
    "label": "9c",
    "section": "Reasoning",
    "stem": "The expression $\\frac{3-2x}{2x-3}$ can be written as $\\frac{-1(-3+2x)}{2x-3} = \\frac{-1(2x-3)}{2x-3}$, which cancels to $-1$. Use this idea to simplify these algebraic fractions.",
@@ -184515,6 +185157,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y9-8h-negative",
    "label": "9d",
    "section": "Reasoning",
    "stem": "The expression $\\frac{3-2x}{2x-3}$ can be written as $\\frac{-1(-3+2x)}{2x-3} = \\frac{-1(2x-3)}{2x-3}$, which cancels to $-1$. Use this idea to simplify these algebraic fractions.",
@@ -184525,6 +185168,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9e",
+   "help": "y9-8h-negative",
    "label": "9e",
    "section": "Reasoning",
    "stem": "The expression $\\frac{3-2x}{2x-3}$ can be written as $\\frac{-1(-3+2x)}{2x-3} = \\frac{-1(2x-3)}{2x-3}$, which cancels to $-1$. Use this idea to simplify these algebraic fractions.",
@@ -184535,6 +185179,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9f",
+   "help": "y9-8h-negative",
    "label": "9f",
    "section": "Reasoning",
    "stem": "The expression $\\frac{3-2x}{2x-3}$ can be written as $\\frac{-1(-3+2x)}{2x-3} = \\frac{-1(2x-3)}{2x-3}$, which cancels to $-1$. Use this idea to simplify these algebraic fractions.",
@@ -184548,6 +185193,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y9-8h-mixed",
    "label": "10a",
    "section": "Enrichment",
    "stem": "Use your knowledge of factorisation and the ideas in Questions 8 and 9 to simplify these algebraic fractions.",
@@ -184563,6 +185209,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y9-8h-mixed",
    "label": "10b",
    "section": "Enrichment",
    "stem": "Use your knowledge of factorisation and the ideas in Questions 8 and 9 to simplify these algebraic fractions.",
@@ -184576,6 +185223,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y9-8h-mixed",
    "label": "10c",
    "section": "Enrichment",
    "stem": "Use your knowledge of factorisation and the ideas in Questions 8 and 9 to simplify these algebraic fractions.",
@@ -184590,6 +185238,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10d",
+   "help": "y9-8h-mixed",
    "label": "10d",
    "section": "Enrichment",
    "stem": "Use your knowledge of factorisation and the ideas in Questions 8 and 9 to simplify these algebraic fractions.",
@@ -184603,6 +185252,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10e",
+   "help": "y9-8h-mixed",
    "label": "10e",
    "section": "Enrichment",
    "stem": "Use your knowledge of factorisation and the ideas in Questions 8 and 9 to simplify these algebraic fractions.",
@@ -184616,6 +185266,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10f",
+   "help": "y9-8h-mixed",
    "label": "10f",
    "section": "Enrichment",
    "stem": "Use your knowledge of factorisation and the ideas in Questions 8 and 9 to simplify these algebraic fractions.",
@@ -184626,6 +185277,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10g",
+   "help": "y9-8h-mixed",
    "label": "10g",
    "section": "Enrichment",
    "stem": "Use your knowledge of factorisation and the ideas in Questions 8 and 9 to simplify these algebraic fractions.",
@@ -184639,6 +185291,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10h",
+   "help": "y9-8h-mixed",
    "label": "10h",
    "section": "Enrichment",
    "stem": "Use your knowledge of factorisation and the ideas in Questions 8 and 9 to simplify these algebraic fractions.",
@@ -184653,6 +185306,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10i",
+   "help": "y9-8h-mixed",
    "label": "10i",
    "section": "Enrichment",
    "stem": "Use your knowledge of factorisation and the ideas in Questions 8 and 9 to simplify these algebraic fractions.",
@@ -184663,6 +185317,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10j",
+   "help": "y9-8h-mixed",
    "label": "10j",
    "section": "Enrichment",
    "stem": "Use your knowledge of factorisation and the ideas in Questions 8 and 9 to simplify these algebraic fractions.",
@@ -184689,6 +185344,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-8i-simple",
    "label": "1a",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -184703,6 +185359,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-8i-simple",
    "label": "1b",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -184713,6 +185370,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-8i-simple",
    "label": "1c",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -184726,6 +185384,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-8i-simple",
    "label": "1d",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -184739,6 +185398,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-8i-simple",
    "label": "1e",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -184749,6 +185409,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-8i-simple",
    "label": "1f",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -184762,6 +185423,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1g",
+   "help": "y9-8i-simple",
    "label": "1g",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -184772,6 +185434,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1h",
+   "help": "y9-8i-simple",
    "label": "1h",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -184782,6 +185445,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1i",
+   "help": "y9-8i-simple",
    "label": "1i",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -184795,6 +185459,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1j",
+   "help": "y9-8i-simple",
    "label": "1j",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -184808,6 +185473,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1k",
+   "help": "y9-8i-simple",
    "label": "1k",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -184821,6 +185487,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1l",
+   "help": "y9-8i-simple",
    "label": "1l",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -184834,6 +185501,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1m",
+   "help": "y9-8i-simple",
    "label": "1m",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -184847,6 +185515,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1n",
+   "help": "y9-8i-simple",
    "label": "1n",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -184860,6 +185529,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1o",
+   "help": "y9-8i-simple",
    "label": "1o",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -184873,6 +185543,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1p",
+   "help": "y9-8i-simple",
    "label": "1p",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -184886,6 +185557,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-8i-binomial",
    "label": "2a",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -184897,6 +185569,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-8i-binomial",
    "label": "2b",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -184910,6 +185583,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-8i-binomial",
    "label": "2c",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -184920,6 +185594,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-8i-binomial",
    "label": "2d",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -184933,6 +185608,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-8i-binomial",
    "label": "2e",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -184943,6 +185619,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-8i-binomial",
    "label": "2f",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -184953,6 +185630,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y9-8i-binomial",
    "label": "2g",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -184966,6 +185644,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y9-8i-binomial",
    "label": "2h",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -184976,6 +185655,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2i",
+   "help": "y9-8i-binomial",
    "label": "2i",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -184986,6 +185666,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2j",
+   "help": "y9-8i-binomial",
    "label": "2j",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -184996,6 +185677,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2k",
+   "help": "y9-8i-binomial",
    "label": "2k",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -185009,6 +185691,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2l",
+   "help": "y9-8i-binomial",
    "label": "2l",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -185019,6 +185702,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-8i-xbottom",
    "label": "3a",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -185030,6 +185714,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-8i-xbottom",
    "label": "3b",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -185040,6 +185725,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-8i-xbottom",
    "label": "3c",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -185050,6 +185736,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-8i-xbottom",
    "label": "3d",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -185060,6 +185747,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-8i-xbottom",
    "label": "3e",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -185070,6 +185758,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-8i-xbottom",
    "label": "3f",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -185080,6 +185769,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3g",
+   "help": "y9-8i-xbottom",
    "label": "3g",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -185090,6 +185780,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3h",
+   "help": "y9-8i-xbottom",
    "label": "3h",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -185100,6 +185791,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-8i-xbottom",
    "label": "4a",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -185114,6 +185806,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-8i-xbottom",
    "label": "4b",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -185127,6 +185820,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-8i-xbottom",
    "label": "4c",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -185140,6 +185834,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-8i-xbottom",
    "label": "4d",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -185153,6 +185848,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y9-8i-xbottom",
    "label": "4e",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -185167,6 +185863,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y9-8i-xbottom",
    "label": "4f",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -185180,6 +185877,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4g",
+   "help": "y9-8i-xbottom",
    "label": "4g",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -185190,6 +185888,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4h",
+   "help": "y9-8i-xbottom",
    "label": "4h",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -185203,6 +185902,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-8i-xbottom",
    "label": "5a",
    "section": "Problem-solving",
    "stem": "Simplify these mixed algebraic fractions.",
@@ -185214,6 +185914,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-8i-xbottom",
    "label": "5b",
    "section": "Problem-solving",
    "stem": "Simplify these mixed algebraic fractions.",
@@ -185224,6 +185925,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-8i-xbottom",
    "label": "5c",
    "section": "Problem-solving",
    "stem": "Simplify these mixed algebraic fractions.",
@@ -185237,6 +185939,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-8i-xbottom",
    "label": "5d",
    "section": "Problem-solving",
    "stem": "Simplify these mixed algebraic fractions.",
@@ -185250,6 +185953,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y9-8i-xbottom",
    "label": "5e",
    "section": "Problem-solving",
    "stem": "Simplify these mixed algebraic fractions.",
@@ -185260,6 +185964,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y9-8i-xbottom",
    "label": "5f",
    "section": "Problem-solving",
    "stem": "Simplify these mixed algebraic fractions.",
@@ -185273,6 +185978,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5g",
+   "help": "y9-8i-xbottom",
    "label": "5g",
    "section": "Problem-solving",
    "stem": "Simplify these mixed algebraic fractions.",
@@ -185283,6 +185989,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5h",
+   "help": "y9-8i-xbottom",
    "label": "5h",
    "section": "Problem-solving",
    "stem": "Simplify these mixed algebraic fractions.",
@@ -185297,6 +186004,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-8i-missing",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "Find the missing algebraic fraction. Give it in simplest form.",
@@ -185308,6 +186016,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-8i-missing",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "Find the missing algebraic fraction. Give it in simplest form.",
@@ -185318,6 +186027,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y9-8i-missing",
    "label": "6c",
    "section": "Problem-solving",
    "stem": "Find the missing algebraic fraction. Give it in simplest form.",
@@ -185328,6 +186038,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y9-8i-missing",
    "label": "6d",
    "section": "Problem-solving",
    "stem": "Find the missing algebraic fraction. Give it in simplest form.",
@@ -185341,6 +186052,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6e",
+   "help": "y9-8i-missing",
    "label": "6e",
    "section": "Problem-solving",
    "stem": "Find the missing algebraic fraction. Give it in simplest form.",
@@ -185354,6 +186066,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6f",
+   "help": "y9-8i-missing",
    "label": "6f",
    "section": "Problem-solving",
    "stem": "Find the missing algebraic fraction. Give it in simplest form.",
@@ -185367,6 +186080,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-8i-story",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "A hiker walks $x$ metres up a hill at $\\frac{4}{3}$ m/s and then walks back down the same path to the start at $2$ m/s.",
@@ -185381,6 +186095,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-8i-story",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "A hiker walks $x$ metres up a hill at $\\frac{4}{3}$ m/s and then walks back down the same path to the start at $2$ m/s.",
@@ -185391,6 +186106,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-8i-binomial",
    "label": "8a",
    "section": "Reasoning",
    "stem": "Each set of working below has an error. Find the correct answer.",
@@ -185404,6 +186120,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-8i-binomial",
    "label": "8b",
    "section": "Reasoning",
    "stem": "Each set of working below has an error. Find the correct answer.",
@@ -185414,6 +186131,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y9-8i-binomial",
    "label": "8c",
    "section": "Reasoning",
    "stem": "Each set of working below has an error. Find the correct answer.",
@@ -185424,6 +186142,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y9-8i-binomial",
    "label": "8d",
    "section": "Reasoning",
    "stem": "Each set of working below has an error. Find the correct answer.",
@@ -185437,6 +186156,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-8i-binomial",
    "label": "9a",
    "section": "Reasoning",
    "stem": "A student thinks that the lowest common denominator to use when simplifying $\\frac{x+3}{2} + \\frac{3x-1}{4}$ is $8$.",
@@ -185448,6 +186168,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-8i-binomial",
    "label": "9b",
    "section": "Reasoning",
    "stem": "A student thinks that the lowest common denominator to use when simplifying $\\frac{x+3}{2} + \\frac{3x-1}{4}$ is $8$.",
@@ -185461,6 +186182,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y9-8i-binomial",
    "label": "9c",
    "section": "Reasoning",
    "stem": "A student thinks that the lowest common denominator to use when simplifying $\\frac{x+3}{2} + \\frac{3x-1}{4}$ is $8$.",
@@ -185474,6 +186196,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y9-8i-three",
    "label": "10a",
    "section": "Enrichment",
    "stem": "Simplify by first finding the lowest common denominator.",
@@ -185488,6 +186211,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y9-8i-three",
    "label": "10b",
    "section": "Enrichment",
    "stem": "Simplify by first finding the lowest common denominator.",
@@ -185501,6 +186225,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y9-8i-three",
    "label": "10c",
    "section": "Enrichment",
    "stem": "Simplify by first finding the lowest common denominator.",
@@ -185514,6 +186239,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10d",
+   "help": "y9-8i-three",
    "label": "10d",
    "section": "Enrichment",
    "stem": "Simplify by first finding the lowest common denominator.",
@@ -185524,6 +186250,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10e",
+   "help": "y9-8i-three",
    "label": "10e",
    "section": "Enrichment",
    "stem": "Simplify by first finding the lowest common denominator.",
@@ -185534,6 +186261,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10f",
+   "help": "y9-8i-three",
    "label": "10f",
    "section": "Enrichment",
    "stem": "Simplify by first finding the lowest common denominator.",
@@ -185547,6 +186275,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10g",
+   "help": "y9-8i-three",
    "label": "10g",
    "section": "Enrichment",
    "stem": "Simplify by first finding the lowest common denominator.",
@@ -185557,6 +186286,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10h",
+   "help": "y9-8i-three",
    "label": "10h",
    "section": "Enrichment",
    "stem": "Simplify by first finding the lowest common denominator.",
@@ -185567,6 +186297,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10i",
+   "help": "y9-8i-three",
    "label": "10i",
    "section": "Enrichment",
    "stem": "Simplify by first finding the lowest common denominator.",
@@ -185577,6 +186308,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10j",
+   "help": "y9-8i-three",
    "label": "10j",
    "section": "Enrichment",
    "stem": "Simplify by first finding the lowest common denominator.",
@@ -185587,6 +186319,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10k",
+   "help": "y9-8i-three",
    "label": "10k",
    "section": "Enrichment",
    "stem": "Simplify by first finding the lowest common denominator.",
@@ -185597,6 +186330,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10l",
+   "help": "y9-8i-three",
    "label": "10l",
    "section": "Enrichment",
    "stem": "Simplify by first finding the lowest common denominator.",
@@ -185611,6 +186345,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10m",
+   "help": "y9-8i-three",
    "label": "10m",
    "section": "Enrichment",
    "stem": "Simplify by first finding the lowest common denominator.",
@@ -185621,6 +186356,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10n",
+   "help": "y9-8i-three",
    "label": "10n",
    "section": "Enrichment",
    "stem": "Simplify by first finding the lowest common denominator.",
@@ -185631,6 +186367,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10o",
+   "help": "y9-8i-three",
    "label": "10o",
    "section": "Enrichment",
    "stem": "Simplify by first finding the lowest common denominator.",
@@ -185653,6 +186390,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-8j-subtract",
    "label": "1a",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -185667,6 +186405,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-8j-subtract",
    "label": "1b",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -185680,6 +186419,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-8j-subtract",
    "label": "1c",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -185690,6 +186430,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-8j-subtract",
    "label": "1d",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -185703,6 +186444,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-8j-subtract",
    "label": "1e",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -185713,6 +186455,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-8j-subtract",
    "label": "1f",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -185723,6 +186466,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1g",
+   "help": "y9-8j-subtract",
    "label": "1g",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -185733,6 +186477,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1h",
+   "help": "y9-8j-subtract",
    "label": "1h",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -185746,6 +186491,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1i",
+   "help": "y9-8j-subtract",
    "label": "1i",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -185756,6 +186502,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-8j-subtract",
    "label": "2a",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -185770,6 +186517,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-8j-subtract",
    "label": "2b",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -185780,6 +186528,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-8j-subtract",
    "label": "2c",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -185790,6 +186539,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-8j-subtract",
    "label": "2d",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -185800,6 +186550,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-8j-subtract",
    "label": "2e",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -185810,6 +186561,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-8j-subtract",
    "label": "2f",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -185823,6 +186575,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y9-8j-subtract",
    "label": "2g",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -185833,6 +186586,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y9-8j-subtract",
    "label": "2h",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -185846,6 +186600,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2i",
+   "help": "y9-8j-subtract",
    "label": "2i",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -185859,6 +186614,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-8j-binbottom",
    "label": "3a",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -185873,6 +186629,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-8j-binbottom",
    "label": "3b",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -185886,6 +186643,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-8j-binbottom",
    "label": "3c",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -185901,6 +186659,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-8j-binbottom",
    "label": "3d",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -185916,6 +186675,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-8j-binbottom",
    "label": "3e",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -185931,6 +186691,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-8j-binbottom",
    "label": "3f",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -185944,6 +186705,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3g",
+   "help": "y9-8j-binbottom",
    "label": "3g",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -185957,6 +186719,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3h",
+   "help": "y9-8j-binbottom",
    "label": "3h",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -185972,6 +186735,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3i",
+   "help": "y9-8j-binbottom",
    "label": "3i",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -185985,6 +186749,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-8j-repeated",
    "label": "4a",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -186002,6 +186767,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-8j-repeated",
    "label": "4b",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -186018,6 +186784,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-8j-repeated",
    "label": "4c",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -186034,6 +186801,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-8j-repeated",
    "label": "4d",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -186050,6 +186818,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y9-8j-repeated",
    "label": "4e",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -186066,6 +186835,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y9-8j-repeated",
    "label": "4f",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -186082,6 +186852,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4g",
+   "help": "y9-8j-repeated",
    "label": "4g",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -186096,6 +186867,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4h",
+   "help": "y9-8j-repeated",
    "label": "4h",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -186112,6 +186884,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4i",
+   "help": "y9-8j-repeated",
    "label": "4i",
    "section": "Fluency",
    "stem": "Simplify:",
@@ -186126,6 +186899,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-8j-mixed",
    "label": "5a",
    "section": "Problem-solving",
    "stem": "Simplify:",
@@ -186141,6 +186915,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-8j-mixed",
    "label": "5b",
    "section": "Problem-solving",
    "stem": "Simplify:",
@@ -186151,6 +186926,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-8j-mixed",
    "label": "5c",
    "section": "Problem-solving",
    "stem": "Simplify:",
@@ -186161,6 +186937,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-8j-mixed",
    "label": "5d",
    "section": "Problem-solving",
    "stem": "Simplify:",
@@ -186176,6 +186953,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y9-8j-mixed",
    "label": "5e",
    "section": "Problem-solving",
    "stem": "Simplify:",
@@ -186191,6 +186969,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y9-8j-mixed",
    "label": "5f",
    "section": "Problem-solving",
    "stem": "Simplify:",
@@ -186205,6 +186984,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5g",
+   "help": "y9-8j-mixed",
    "label": "5g",
    "section": "Problem-solving",
    "stem": "Simplify:",
@@ -186221,6 +187001,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5h",
+   "help": "y9-8j-mixed",
    "label": "5h",
    "section": "Problem-solving",
    "stem": "Simplify:",
@@ -186236,6 +187017,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5i",
+   "help": "y9-8j-mixed",
    "label": "5i",
    "section": "Problem-solving",
    "stem": "Simplify:",
@@ -186252,6 +187034,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-8j-shared",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "Simplify:",
@@ -186266,6 +187049,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-8j-shared",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "Simplify:",
@@ -186281,6 +187065,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y9-8j-shared",
    "label": "6c",
    "section": "Problem-solving",
    "stem": "Simplify:",
@@ -186294,6 +187079,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y9-8j-shared",
    "label": "6d",
    "section": "Problem-solving",
    "stem": "Simplify:",
@@ -186307,6 +187093,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6e",
+   "help": "y9-8j-shared",
    "label": "6e",
    "section": "Problem-solving",
    "stem": "Simplify:",
@@ -186322,6 +187109,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6f",
+   "help": "y9-8j-shared",
    "label": "6f",
    "section": "Problem-solving",
    "stem": "Simplify:",
@@ -186335,6 +187123,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-8j-subtract",
    "label": "7a",
    "section": "Reasoning",
    "stem": "A very common error when subtracting algebraic fractions is hidden in this working: $\\frac{5x}{3} - \\frac{x-4}{2} = \\frac{10x}{6} - \\frac{3(x-4)}{6} = \\frac{10x-3x-12}{6} = \\frac{7x-12}{6}$",
@@ -186350,6 +187139,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-8j-subtract",
    "label": "7b",
    "section": "Reasoning",
    "stem": "A very common error when subtracting algebraic fractions is hidden in this working: $\\frac{5x}{3} - \\frac{x-4}{2} = \\frac{10x}{6} - \\frac{3(x-4)}{6} = \\frac{10x-3x-12}{6} = \\frac{7x-12}{6}$",
@@ -186360,6 +187150,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-8j-swap",
    "label": "8a",
    "section": "Reasoning",
    "stem": "Use the fact that $a - b = -1(b - a)$ to help simplify these.",
@@ -186374,6 +187165,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-8j-swap",
    "label": "8b",
    "section": "Reasoning",
    "stem": "Use the fact that $a - b = -1(b - a)$ to help simplify these.",
@@ -186388,6 +187180,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y9-8j-swap",
    "label": "8c",
    "section": "Reasoning",
    "stem": "Use the fact that $a - b = -1(b - a)$ to help simplify these.",
@@ -186398,6 +187191,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y9-8j-swap",
    "label": "8d",
    "section": "Reasoning",
    "stem": "Use the fact that $a - b = -1(b - a)$ to help simplify these.",
@@ -186408,6 +187202,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8e",
+   "help": "y9-8j-swap",
    "label": "8e",
    "section": "Reasoning",
    "stem": "Use the fact that $a - b = -1(b - a)$ to help simplify these.",
@@ -186418,6 +187213,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8f",
+   "help": "y9-8j-swap",
    "label": "8f",
    "section": "Reasoning",
    "stem": "Use the fact that $a - b = -1(b - a)$ to help simplify these.",
@@ -186428,6 +187224,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-8j-factor",
    "label": "9a",
    "section": "Enrichment",
    "stem": "Simplify these by first factorising the denominators if possible.",
@@ -186442,6 +187239,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-8j-factor",
    "label": "9b",
    "section": "Enrichment",
    "stem": "Simplify these by first factorising the denominators if possible.",
@@ -186456,6 +187254,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y9-8j-factor",
    "label": "9c",
    "section": "Enrichment",
    "stem": "Simplify these by first factorising the denominators if possible.",
@@ -186469,6 +187268,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y9-8j-factor",
    "label": "9d",
    "section": "Enrichment",
    "stem": "Simplify these by first factorising the denominators if possible.",
@@ -186485,6 +187285,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9e",
+   "help": "y9-8j-factor",
    "label": "9e",
    "section": "Enrichment",
    "stem": "Simplify these by first factorising the denominators if possible.",
@@ -186498,6 +187299,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9f",
+   "help": "y9-8j-factor",
    "label": "9f",
    "section": "Enrichment",
    "stem": "Simplify these by first factorising the denominators if possible.",
@@ -186511,6 +187313,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9g",
+   "help": "y9-8j-factor",
    "label": "9g",
    "section": "Enrichment",
    "stem": "Simplify these by first factorising the denominators if possible.",
@@ -186525,6 +187328,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9h",
+   "help": "y9-8j-factor",
    "label": "9h",
    "section": "Enrichment",
    "stem": "Simplify these by first factorising the denominators if possible.",
@@ -186540,6 +187344,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9i",
+   "help": "y9-8j-factor",
    "label": "9i",
    "section": "Enrichment",
    "stem": "Simplify these by first factorising the denominators if possible.",
@@ -186553,6 +187358,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9j",
+   "help": "y9-8j-factor",
    "label": "9j",
    "section": "Enrichment",
    "stem": "Simplify these by first factorising the denominators if possible.",
@@ -186578,6 +187384,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-8k-simple",
    "label": "1a",
    "section": "Fluency",
    "stem": "Solve each of the following equations.",
@@ -186588,6 +187395,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-8k-simple",
    "label": "1b",
    "section": "Fluency",
    "stem": "Solve each of the following equations.",
@@ -186597,6 +187405,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-8k-simple",
    "label": "1c",
    "section": "Fluency",
    "stem": "Solve each of the following equations.",
@@ -186606,6 +187415,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-8k-simple",
    "label": "1d",
    "section": "Fluency",
    "stem": "Solve each of the following equations.",
@@ -186615,6 +187425,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-8k-simple",
    "label": "1e",
    "section": "Fluency",
    "stem": "Solve each of the following equations.",
@@ -186624,6 +187435,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-8k-simple",
    "label": "1f",
    "section": "Fluency",
    "stem": "Solve each of the following equations.",
@@ -186633,6 +187445,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1g",
+   "help": "y9-8k-simple",
    "label": "1g",
    "section": "Fluency",
    "stem": "Solve each of the following equations.",
@@ -186642,6 +187455,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1h",
+   "help": "y9-8k-simple",
    "label": "1h",
    "section": "Fluency",
    "stem": "Solve each of the following equations.",
@@ -186651,6 +187465,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1i",
+   "help": "y9-8k-simple",
    "label": "1i",
    "section": "Fluency",
    "stem": "Solve each of the following equations.",
@@ -186660,6 +187475,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-8k-binomial",
    "label": "2a",
    "section": "Fluency",
    "stem": "Solve each of the following equations.",
@@ -186670,6 +187486,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-8k-binomial",
    "label": "2b",
    "section": "Fluency",
    "stem": "Solve each of the following equations.",
@@ -186679,6 +187496,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-8k-binomial",
    "label": "2c",
    "section": "Fluency",
    "stem": "Solve each of the following equations.",
@@ -186688,6 +187506,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-8k-binomial",
    "label": "2d",
    "section": "Fluency",
    "stem": "Solve each of the following equations.",
@@ -186697,6 +187516,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-8k-binomial",
    "label": "2e",
    "section": "Fluency",
    "stem": "Solve each of the following equations.",
@@ -186706,6 +187526,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-8k-binomial",
    "label": "2f",
    "section": "Fluency",
    "stem": "Solve each of the following equations.",
@@ -186715,6 +187536,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y9-8k-binomial",
    "label": "2g",
    "section": "Fluency",
    "stem": "Solve each of the following equations.",
@@ -186724,6 +187546,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y9-8k-binomial",
    "label": "2h",
    "section": "Fluency",
    "stem": "Solve each of the following equations.",
@@ -186733,6 +187556,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2i",
+   "help": "y9-8k-binomial",
    "label": "2i",
    "section": "Fluency",
    "stem": "Solve each of the following equations.",
@@ -186742,6 +187566,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-8k-cross",
    "label": "3a",
    "section": "Fluency",
    "stem": "Solve each of the following equations.",
@@ -186752,6 +187577,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-8k-cross",
    "label": "3b",
    "section": "Fluency",
    "stem": "Solve each of the following equations.",
@@ -186761,6 +187587,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-8k-cross",
    "label": "3c",
    "section": "Fluency",
    "stem": "Solve each of the following equations.",
@@ -186770,6 +187597,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-8k-cross",
    "label": "3d",
    "section": "Fluency",
    "stem": "Solve each of the following equations.",
@@ -186779,6 +187607,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-8k-cross",
    "label": "3e",
    "section": "Fluency",
    "stem": "Solve each of the following equations.",
@@ -186788,6 +187617,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-8k-cross",
    "label": "3f",
    "section": "Fluency",
    "stem": "Solve each of the following equations.",
@@ -186797,6 +187627,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-8k-xbottom",
    "label": "4a",
    "section": "Fluency",
    "stem": "Solve each of the following equations.",
@@ -186807,6 +187638,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-8k-xbottom",
    "label": "4b",
    "section": "Fluency",
    "stem": "Solve each of the following equations.",
@@ -186816,6 +187648,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-8k-xbottom",
    "label": "4c",
    "section": "Fluency",
    "stem": "Solve each of the following equations.",
@@ -186825,6 +187658,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-8k-xbottom",
    "label": "4d",
    "section": "Fluency",
    "stem": "Solve each of the following equations.",
@@ -186834,6 +187668,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y9-8k-xbottom",
    "label": "4e",
    "section": "Fluency",
    "stem": "Solve each of the following equations.",
@@ -186843,6 +187678,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y9-8k-xbottom",
    "label": "4f",
    "section": "Fluency",
    "stem": "Solve each of the following equations.",
@@ -186852,6 +187688,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4g",
+   "help": "y9-8k-xbottom",
    "label": "4g",
    "section": "Fluency",
    "stem": "Solve each of the following equations.",
@@ -186861,6 +187698,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4h",
+   "help": "y9-8k-xbottom",
    "label": "4h",
    "section": "Fluency",
    "stem": "Solve each of the following equations.",
@@ -186870,6 +187708,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4i",
+   "help": "y9-8k-xbottom",
    "label": "4i",
    "section": "Fluency",
    "stem": "Solve each of the following equations.",
@@ -186879,6 +187718,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-8k-cross",
    "label": "5a",
    "section": "Fluency",
    "stem": "Solve each of the following equations.",
@@ -186889,6 +187729,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-8k-cross",
    "label": "5b",
    "section": "Fluency",
    "stem": "Solve each of the following equations.",
@@ -186898,6 +187739,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-8k-cross",
    "label": "5c",
    "section": "Fluency",
    "stem": "Solve each of the following equations.",
@@ -186907,6 +187749,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-8k-cross",
    "label": "5d",
    "section": "Fluency",
    "stem": "Solve each of the following equations.",
@@ -186916,6 +187759,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y9-8k-cross",
    "label": "5e",
    "section": "Fluency",
    "stem": "Solve each of the following equations.",
@@ -186925,6 +187769,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y9-8k-cross",
    "label": "5f",
    "section": "Fluency",
    "stem": "Solve each of the following equations.",
@@ -186934,6 +187779,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-8k-words",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "One-third of a number ($x$) plus one-quarter of twice the same number is equal to $10$.",
@@ -186944,6 +187790,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-8k-words",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "One-third of a number ($x$) plus one-quarter of twice the same number is equal to $10$.",
@@ -186953,6 +187800,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-8k-words",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "Tom and Ana each have the same number of stickers ($x$ stickers each). Lily has none, so she takes one-half of Tom's stickers and one-fifth of Ana's stickers, which gives her $63$ stickers.",
@@ -186963,6 +187811,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-8k-words",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "Tom and Ana each have the same number of stickers ($x$ stickers each). Lily has none, so she takes one-half of Tom's stickers and one-fifth of Ana's stickers, which gives her $63$ stickers.",
@@ -186972,6 +187821,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-8k-mixed",
    "label": "8a",
    "section": "Problem-solving",
    "stem": "Use all the methods you have learnt to solve these equations with algebraic fractions.",
@@ -186982,6 +187832,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-8k-mixed",
    "label": "8b",
    "section": "Problem-solving",
    "stem": "Use all the methods you have learnt to solve these equations with algebraic fractions.",
@@ -186991,6 +187842,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y9-8k-mixed",
    "label": "8c",
    "section": "Problem-solving",
    "stem": "Use all the methods you have learnt to solve these equations with algebraic fractions.",
@@ -187000,6 +187852,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y9-8k-mixed",
    "label": "8d",
    "section": "Problem-solving",
    "stem": "Use all the methods you have learnt to solve these equations with algebraic fractions.",
@@ -187009,6 +187862,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8e",
+   "help": "y9-8k-mixed",
    "label": "8e",
    "section": "Problem-solving",
    "stem": "Use all the methods you have learnt to solve these equations with algebraic fractions.",
@@ -187018,6 +187872,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8f",
+   "help": "y9-8k-mixed",
    "label": "8f",
    "section": "Problem-solving",
    "stem": "Use all the methods you have learnt to solve these equations with algebraic fractions.",
@@ -187027,6 +187882,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8g",
+   "help": "y9-8k-mixed",
    "label": "8g",
    "section": "Problem-solving",
    "stem": "Use all the methods you have learnt to solve these equations with algebraic fractions.",
@@ -187036,6 +187892,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8h",
+   "help": "y9-8k-mixed",
    "label": "8h",
    "section": "Problem-solving",
    "stem": "Use all the methods you have learnt to solve these equations with algebraic fractions.",
@@ -187045,6 +187902,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8i",
+   "help": "y9-8k-mixed",
    "label": "8i",
    "section": "Problem-solving",
    "stem": "Use all the methods you have learnt to solve these equations with algebraic fractions.",
@@ -187054,6 +187912,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8j",
+   "help": "y9-8k-mixed",
    "label": "8j",
    "section": "Problem-solving",
    "stem": "Use all the methods you have learnt to solve these equations with algebraic fractions.",
@@ -187063,6 +187922,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-8k-words",
    "label": "9a",
    "section": "Problem-solving",
    "stem": "One number is three times another number, and the sum of their reciprocals is $\\frac{4}{9}$. Let the smaller number be $x$.",
@@ -187073,6 +187933,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-8k-words",
    "label": "9b",
    "section": "Problem-solving",
    "stem": "One number is three times another number, and the sum of their reciprocals is $\\frac{4}{9}$. Let the smaller number be $x$.",
@@ -187086,6 +187947,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y9-8k-binomial",
    "label": "10a",
    "section": "Reasoning",
    "stem": "A common error when solving equations with algebraic fractions is made in this working: $\\begin{aligned} \\frac{2x-1}{3} + 3x &= \\frac{x}{2} \\quad (\\text{LCD} = 6) \\\\ \\frac{6(2x-1)}{3} + 3x &= \\frac{6x}{2} \\\\ 2(2x-1) + 3x &= 3x \\\\ 4x - 2 &= 0 \\\\ x &= \\frac{1}{2} \\end{aligned}$",
@@ -187101,6 +187963,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y9-8k-binomial",
    "label": "10b",
    "section": "Reasoning",
    "stem": "A common error when solving equations with algebraic fractions is made in this working: $\\begin{aligned} \\frac{2x-1}{3} + 3x &= \\frac{x}{2} \\quad (\\text{LCD} = 6) \\\\ \\frac{6(2x-1)}{3} + 3x &= \\frac{6x}{2} \\\\ 2(2x-1) + 3x &= 3x \\\\ 4x - 2 &= 0 \\\\ x &= \\frac{1}{2} \\end{aligned}$",
@@ -187111,6 +187974,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y9-8k-binomial",
    "label": "11a",
    "section": "Reasoning",
    "stem": "Another common error is made in this working: $\\begin{aligned} \\frac{x}{3} - \\frac{3x-1}{4} &= 1 \\quad (\\text{LCD} = 12) \\\\ \\frac{12x}{3} - \\frac{12(3x-1)}{4} &= 12 \\\\ 4x - 3(3x-1) &= 12 \\\\ 4x - 9x - 3 &= 12 \\\\ -5x &= 15 \\\\ x &= -3 \\end{aligned}$",
@@ -187126,6 +187990,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y9-8k-binomial",
    "label": "11b",
    "section": "Reasoning",
    "stem": "Another common error is made in this working: $\\begin{aligned} \\frac{x}{3} - \\frac{3x-1}{4} &= 1 \\quad (\\text{LCD} = 12) \\\\ \\frac{12x}{3} - \\frac{12(3x-1)}{4} &= 12 \\\\ 4x - 3(3x-1) &= 12 \\\\ 4x - 9x - 3 &= 12 \\\\ -5x &= 15 \\\\ x &= -3 \\end{aligned}$",
@@ -187136,6 +188001,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y9-8k-decimal",
    "label": "12a",
    "section": "Reasoning",
    "stem": "Some equations with decimals can be solved by first multiplying both sides by a power of 10. For example, $0.6x - 1.3 = 2.9$ becomes $6x - 13 = 29$, so $x = 7$. Solve these decimal equations using the same idea. For parts d to f you will need to multiply by $100$.",
@@ -187146,6 +188012,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y9-8k-decimal",
    "label": "12b",
    "section": "Reasoning",
    "stem": "Some equations with decimals can be solved by first multiplying both sides by a power of 10. For example, $0.6x - 1.3 = 2.9$ becomes $6x - 13 = 29$, so $x = 7$. Solve these decimal equations using the same idea. For parts d to f you will need to multiply by $100$.",
@@ -187155,6 +188022,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y9-8k-decimal",
    "label": "12c",
    "section": "Reasoning",
    "stem": "Some equations with decimals can be solved by first multiplying both sides by a power of 10. For example, $0.6x - 1.3 = 2.9$ becomes $6x - 13 = 29$, so $x = 7$. Solve these decimal equations using the same idea. For parts d to f you will need to multiply by $100$.",
@@ -187164,6 +188032,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12d",
+   "help": "y9-8k-decimal",
    "label": "12d",
    "section": "Reasoning",
    "stem": "Some equations with decimals can be solved by first multiplying both sides by a power of 10. For example, $0.6x - 1.3 = 2.9$ becomes $6x - 13 = 29$, so $x = 7$. Solve these decimal equations using the same idea. For parts d to f you will need to multiply by $100$.",
@@ -187173,6 +188042,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12e",
+   "help": "y9-8k-decimal",
    "label": "12e",
    "section": "Reasoning",
    "stem": "Some equations with decimals can be solved by first multiplying both sides by a power of 10. For example, $0.6x - 1.3 = 2.9$ becomes $6x - 13 = 29$, so $x = 7$. Solve these decimal equations using the same idea. For parts d to f you will need to multiply by $100$.",
@@ -187182,6 +188052,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12f",
+   "help": "y9-8k-decimal",
    "label": "12f",
    "section": "Reasoning",
    "stem": "Some equations with decimals can be solved by first multiplying both sides by a power of 10. For example, $0.6x - 1.3 = 2.9$ becomes $6x - 13 = 29$, so $x = 7$. Solve these decimal equations using the same idea. For parts d to f you will need to multiply by $100$.",
@@ -187191,6 +188062,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y9-8k-literal",
    "label": "13a",
    "section": "Enrichment",
    "stem": "Solve each of the following equations for $x$ in terms of the other pronumerals. (You may need to factorise to make $x$ the subject.)",
@@ -187204,6 +188076,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y9-8k-literal",
    "label": "13b",
    "section": "Enrichment",
    "stem": "Solve each of the following equations for $x$ in terms of the other pronumerals. (You may need to factorise to make $x$ the subject.)",
@@ -187216,6 +188089,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13c",
+   "help": "y9-8k-literal",
    "label": "13c",
    "section": "Enrichment",
    "stem": "Solve each of the following equations for $x$ in terms of the other pronumerals. (You may need to factorise to make $x$ the subject.)",
@@ -187228,6 +188102,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13d",
+   "help": "y9-8k-literal",
    "label": "13d",
    "section": "Enrichment",
    "stem": "Solve each of the following equations for $x$ in terms of the other pronumerals. (You may need to factorise to make $x$ the subject.)",
@@ -187240,6 +188115,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13e",
+   "help": "y9-8k-literal",
    "label": "13e",
    "section": "Enrichment",
    "stem": "Solve each of the following equations for $x$ in terms of the other pronumerals. (You may need to factorise to make $x$ the subject.)",
@@ -187252,6 +188128,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13f",
+   "help": "y9-8k-literal",
    "label": "13f",
    "section": "Enrichment",
    "stem": "Solve each of the following equations for $x$ in terms of the other pronumerals. (You may need to factorise to make $x$ the subject.)",
@@ -187264,6 +188141,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13g",
+   "help": "y9-8k-literal",
    "label": "13g",
    "section": "Enrichment",
    "stem": "Solve each of the following equations for $x$ in terms of the other pronumerals. (You may need to factorise to make $x$ the subject.)",
@@ -187276,6 +188154,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13h",
+   "help": "y9-8k-literal",
    "label": "13h",
    "section": "Enrichment",
    "stem": "Solve each of the following equations for $x$ in terms of the other pronumerals. (You may need to factorise to make $x$ the subject.)",
@@ -187288,6 +188167,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13i",
+   "help": "y9-8k-literal",
    "label": "13i",
    "section": "Enrichment",
    "stem": "Solve each of the following equations for $x$ in terms of the other pronumerals. (You may need to factorise to make $x$ the subject.)",
@@ -187300,6 +188180,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13j",
+   "help": "y9-8k-literal",
    "label": "13j",
    "section": "Enrichment",
    "stem": "Solve each of the following equations for $x$ in terms of the other pronumerals. (You may need to factorise to make $x$ the subject.)",
@@ -187312,6 +188193,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13k",
+   "help": "y9-8k-literal",
    "label": "13k",
    "section": "Enrichment",
    "stem": "Solve each of the following equations for $x$ in terms of the other pronumerals. (You may need to factorise to make $x$ the subject.)",
@@ -187324,6 +188206,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13l",
+   "help": "y9-8k-literal",
    "label": "13l",
    "section": "Enrichment",
    "stem": "Solve each of the following equations for $x$ in terms of the other pronumerals. (You may need to factorise to make $x$ the subject.)",
@@ -187336,6 +188219,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13m",
+   "help": "y9-8k-literal",
    "label": "13m",
    "section": "Enrichment",
    "stem": "Solve each of the following equations for $x$ in terms of the other pronumerals. (You may need to factorise to make $x$ the subject.)",
@@ -187348,6 +188232,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13n",
+   "help": "y9-8k-literal",
    "label": "13n",
    "section": "Enrichment",
    "stem": "Solve each of the following equations for $x$ in terms of the other pronumerals. (You may need to factorise to make $x$ the subject.)",
@@ -187360,6 +188245,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13o",
+   "help": "y9-8k-literal",
    "label": "13o",
    "section": "Enrichment",
    "stem": "Solve each of the following equations for $x$ in terms of the other pronumerals. (You may need to factorise to make $x$ the subject.)",
