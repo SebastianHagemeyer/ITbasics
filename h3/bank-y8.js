@@ -54852,6 +54852,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-4a-convert",
    "label": "1a",
    "section": "Fluency",
    "stem": "Convert these lengths to the units shown.",
@@ -54862,6 +54863,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-4a-convert",
    "label": "1b",
    "section": "Fluency",
    "stem": "Convert these lengths to the units shown.",
@@ -54872,6 +54874,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y8-4a-convert",
    "label": "1c",
    "section": "Fluency",
    "stem": "Convert these lengths to the units shown.",
@@ -54882,6 +54885,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y8-4a-convert",
    "label": "1d",
    "section": "Fluency",
    "stem": "Convert these lengths to the units shown.",
@@ -54892,6 +54896,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-4a-convert",
    "label": "2a",
    "section": "Fluency",
    "stem": "Convert these measurements to the units shown.",
@@ -54902,6 +54907,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-4a-convert",
    "label": "2b",
    "section": "Fluency",
    "stem": "Convert these measurements to the units shown.",
@@ -54912,6 +54918,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-4a-convert",
    "label": "2c",
    "section": "Fluency",
    "stem": "Convert these measurements to the units shown.",
@@ -54922,6 +54929,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y8-4a-convert",
    "label": "2d",
    "section": "Fluency",
    "stem": "Convert these measurements to the units shown.",
@@ -54932,6 +54940,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y8-4a-convert",
    "label": "2e",
    "section": "Fluency",
    "stem": "Convert these measurements to the units shown.",
@@ -54942,6 +54951,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y8-4a-convert",
    "label": "2f",
    "section": "Fluency",
    "stem": "Convert these measurements to the units shown.",
@@ -54952,6 +54962,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y8-4a-convert",
    "label": "2g",
    "section": "Fluency",
    "stem": "Convert these measurements to the units shown.",
@@ -54962,6 +54973,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y8-4a-convert",
    "label": "2h",
    "section": "Fluency",
    "stem": "Convert these measurements to the units shown.",
@@ -54972,6 +54984,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2i",
+   "help": "y8-4a-convert",
    "label": "2i",
    "section": "Fluency",
    "stem": "Convert these measurements to the units shown.",
@@ -54982,6 +54995,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2j",
+   "help": "y8-4a-convert",
    "label": "2j",
    "section": "Fluency",
    "stem": "Convert these measurements to the units shown.",
@@ -54992,6 +55006,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2k",
+   "help": "y8-4a-convert",
    "label": "2k",
    "section": "Fluency",
    "stem": "Convert these measurements to the units shown.",
@@ -55002,6 +55017,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2l",
+   "help": "y8-4a-convert",
    "label": "2l",
    "section": "Fluency",
    "stem": "Convert these measurements to the units shown.",
@@ -55012,6 +55028,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2m",
+   "help": "y8-4a-convert",
    "label": "2m",
    "section": "Fluency",
    "stem": "Convert these measurements to the units shown.",
@@ -55022,6 +55039,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2n",
+   "help": "y8-4a-convert",
    "label": "2n",
    "section": "Fluency",
    "stem": "Convert these measurements to the units shown.",
@@ -55032,6 +55050,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2o",
+   "help": "y8-4a-convert",
    "label": "2o",
    "section": "Fluency",
    "stem": "Convert these measurements to the units shown.",
@@ -55042,6 +55061,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2p",
+   "help": "y8-4a-convert",
    "label": "2p",
    "section": "Fluency",
    "stem": "Convert these measurements to the units shown.",
@@ -55052,6 +55072,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-4a-perimeter",
    "label": "3a",
    "section": "Fluency",
    "stem": "Find the perimeter of each shape. Sides with the same marks are equal.",
@@ -55108,6 +55129,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-4a-perimeter",
    "label": "3b",
    "section": "Fluency",
    "stem": "Find the perimeter of each shape. Sides with the same marks are equal.",
@@ -55236,6 +55258,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-4a-perimeter",
    "label": "3c",
    "section": "Fluency",
    "stem": "Find the perimeter of each shape. Sides with the same marks are equal.",
@@ -55302,6 +55325,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y8-4a-perimeter",
    "label": "3d",
    "section": "Fluency",
    "stem": "Find the perimeter of each shape. Sides with the same marks are equal.",
@@ -55439,6 +55463,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y8-4a-perimeter",
    "label": "3e",
    "section": "Fluency",
    "stem": "Find the perimeter of each shape. Sides with the same marks are equal.",
@@ -55564,6 +55589,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y8-4a-perimeter",
    "label": "3f",
    "section": "Fluency",
    "stem": "Find the perimeter of each shape. Sides with the same marks are equal.",
@@ -55699,6 +55725,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3g",
+   "help": "y8-4a-perimeter",
    "label": "3g",
    "section": "Fluency",
    "stem": "Find the perimeter of each shape. Sides with the same marks are equal.",
@@ -55765,6 +55792,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3h",
+   "help": "y8-4a-perimeter",
    "label": "3h",
    "section": "Fluency",
    "stem": "Find the perimeter of each shape. Sides with the same marks are equal.",
@@ -55897,6 +55925,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3i",
+   "help": "y8-4a-perimeter",
    "label": "3i",
    "section": "Fluency",
    "stem": "Find the perimeter of each shape. Sides with the same marks are equal.",
@@ -55986,6 +56015,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-4a-find-x",
    "label": "4a",
    "section": "Fluency",
    "stem": "Find the value of $x$ in each shape, using the perimeter $P$ given.",
@@ -56052,6 +56082,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-4a-find-x",
    "label": "4b",
    "section": "Fluency",
    "stem": "Find the value of $x$ in each shape, using the perimeter $P$ given.",
@@ -56118,6 +56149,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y8-4a-find-x",
    "label": "4c",
    "section": "Fluency",
    "stem": "Find the value of $x$ in each shape, using the perimeter $P$ given.",
@@ -56246,6 +56278,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y8-4a-find-x",
    "label": "4d",
    "section": "Fluency",
    "stem": "Find the value of $x$ in each shape, using the perimeter $P$ given.",
@@ -56312,6 +56345,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y8-4a-find-x",
    "label": "4e",
    "section": "Fluency",
    "stem": "Find the value of $x$ in each shape, using the perimeter $P$ given.",
@@ -56399,6 +56433,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y8-4a-find-x",
    "label": "4f",
    "section": "Fluency",
    "stem": "Find the value of $x$ in each shape, using the perimeter $P$ given.",
@@ -56520,6 +56555,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y8-4a-units",
    "label": "5a",
    "section": "Fluency",
    "stem": "Choose the most suitable unit for measuring each of these.",
@@ -56534,6 +56570,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y8-4a-units",
    "label": "5b",
    "section": "Fluency",
    "stem": "Choose the most suitable unit for measuring each of these.",
@@ -56548,6 +56585,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y8-4a-units",
    "label": "5c",
    "section": "Fluency",
    "stem": "Choose the most suitable unit for measuring each of these.",
@@ -56562,6 +56600,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y8-4a-units",
    "label": "5d",
    "section": "Fluency",
    "stem": "Choose the most suitable unit for measuring each of these.",
@@ -56576,6 +56615,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y8-4a-units",
    "label": "5e",
    "section": "Fluency",
    "stem": "Choose the most suitable unit for measuring each of these.",
@@ -56590,6 +56630,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y8-4a-units",
    "label": "5f",
    "section": "Fluency",
    "stem": "Choose the most suitable unit for measuring each of these.",
@@ -56604,6 +56645,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6",
+   "help": "y8-4a-find-x",
    "label": "6",
    "section": "Problem-solving",
    "type": "numeric",
@@ -56613,6 +56655,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7",
+   "help": "y8-4a-fence",
    "label": "7",
    "section": "Problem-solving",
    "type": "numeric",
@@ -56622,6 +56665,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y8-4a-mixed",
    "label": "8a",
    "section": "Problem-solving",
    "stem": "Find the perimeter of each shape. Give your answer in centimetres. Angles that look like right angles are $90°$.",
@@ -56743,6 +56787,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y8-4a-mixed",
    "label": "8b",
    "section": "Problem-solving",
    "stem": "Find the perimeter of each shape. Give your answer in centimetres. Angles that look like right angles are $90°$.",
@@ -56878,6 +56923,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y8-4a-mixed",
    "label": "8c",
    "section": "Problem-solving",
    "stem": "Find the perimeter of each shape. Give your answer in centimetres. Angles that look like right angles are $90°$.",
@@ -57123,6 +57169,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y8-4a-mixed",
    "label": "8d",
    "section": "Problem-solving",
    "stem": "Find the perimeter of each shape. Give your answer in centimetres. Angles that look like right angles are $90°$.",
@@ -57251,6 +57298,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8e",
+   "help": "y8-4a-mixed",
    "label": "8e",
    "section": "Problem-solving",
    "stem": "Find the perimeter of each shape. Give your answer in centimetres. Angles that look like right angles are $90°$.",
@@ -57393,6 +57441,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8f",
+   "help": "y8-4a-mixed",
    "label": "8f",
    "section": "Problem-solving",
    "stem": "Find the perimeter of each shape. Give your answer in centimetres. Angles that look like right angles are $90°$.",
@@ -57592,6 +57641,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9",
+   "help": "y8-4a-rate",
    "label": "9",
    "section": "Problem-solving",
    "type": "numeric",
@@ -57601,6 +57651,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10",
+   "help": "y8-4a-fence",
    "label": "10",
    "section": "Problem-solving",
    "type": "numeric",
@@ -57610,6 +57661,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y8-4a-find-x",
    "label": "11a",
    "section": "Problem-solving",
    "stem": "Find the value of $x$ in each diagram. All angles are $90°$ and sides with the same marks are equal.",
@@ -57756,6 +57808,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y8-4a-find-x",
    "label": "11b",
    "section": "Problem-solving",
    "stem": "Find the value of $x$ in each diagram. All angles are $90°$ and sides with the same marks are equal.",
@@ -57929,6 +57982,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y8-4a-find-x",
    "label": "11c",
    "section": "Problem-solving",
    "stem": "Find the value of $x$ in each diagram. All angles are $90°$ and sides with the same marks are equal.",
@@ -58084,6 +58138,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y8-4a-bounds",
    "label": "12a",
    "section": "Reasoning",
    "stem": "A measured length is only as exact as the unit it is rounded to. If a height is given as $171$ cm to the nearest centimetre, the true height could be anywhere from $170.5$ cm to $171.5$ cm. Give the smallest and largest possible true height for each reported height.",
@@ -58097,6 +58152,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y8-4a-bounds",
    "label": "12b",
    "section": "Reasoning",
    "stem": "A measured length is only as exact as the unit it is rounded to. If a height is given as $171$ cm to the nearest centimetre, the true height could be anywhere from $170.5$ cm to $171.5$ cm. Give the smallest and largest possible true height for each reported height.",
@@ -58109,6 +58165,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y8-4a-bounds",
    "label": "12c",
    "section": "Reasoning",
    "stem": "A measured length is only as exact as the unit it is rounded to. If a height is given as $171$ cm to the nearest centimetre, the true height could be anywhere from $170.5$ cm to $171.5$ cm. Give the smallest and largest possible true height for each reported height.",
@@ -58121,6 +58178,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y8-4a-accuracy",
    "label": "13a",
    "section": "Reasoning",
    "stem": "A rectangular classroom is first estimated to be $3$ m wide and $5$ m long. It is then measured to the nearest centimetre as $297$ cm by $512$ cm, and finally to the nearest millimetre as $2968$ mm by $5123$ mm.",
@@ -58135,6 +58193,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y8-4a-accuracy",
    "label": "13b",
    "section": "Reasoning",
    "stem": "A rectangular classroom is first estimated to be $3$ m wide and $5$ m long. It is then measured to the nearest centimetre as $297$ cm by $512$ cm, and finally to the nearest millimetre as $2968$ mm by $5123$ mm.",
@@ -58145,6 +58204,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13c",
+   "help": "y8-4a-accuracy",
    "label": "13c",
    "section": "Reasoning",
    "stem": "A rectangular classroom is first estimated to be $3$ m wide and $5$ m long. It is then measured to the nearest centimetre as $297$ cm by $512$ cm, and finally to the nearest millimetre as $2968$ mm by $5123$ mm.",
@@ -58159,6 +58219,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y8-4a-rule",
    "label": "14a",
    "section": "Reasoning",
    "stem": "Write a rule for the perimeter $P$ of each shape using the letters shown. Sides with the same marks are equal and angles that look like right angles are $90°$.",
@@ -58228,6 +58289,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y8-4a-rule",
    "label": "14b",
    "section": "Reasoning",
    "stem": "Write a rule for the perimeter $P$ of each shape using the letters shown. Sides with the same marks are equal and angles that look like right angles are $90°$.",
@@ -58358,6 +58420,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14c",
+   "help": "y8-4a-rule",
    "label": "14c",
    "section": "Reasoning",
    "stem": "Write a rule for the perimeter $P$ of each shape using the letters shown. Sides with the same marks are equal and angles that look like right angles are $90°$.",
@@ -58470,6 +58533,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14d",
+   "help": "y8-4a-rule",
    "label": "14d",
    "section": "Reasoning",
    "stem": "Write a rule for the perimeter $P$ of each shape using the letters shown. Sides with the same marks are equal and angles that look like right angles are $90°$.",
@@ -58618,6 +58682,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14e",
+   "help": "y8-4a-rule",
    "label": "14e",
    "section": "Reasoning",
    "stem": "Write a rule for the perimeter $P$ of each shape using the letters shown. Sides with the same marks are equal and angles that look like right angles are $90°$.",
@@ -58756,6 +58821,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14f",
+   "help": "y8-4a-rule",
    "label": "14f",
    "section": "Reasoning",
    "stem": "Write a rule for the perimeter $P$ of each shape using the letters shown. Sides with the same marks are equal and angles that look like right angles are $90°$.",
@@ -58869,6 +58935,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15a",
+   "help": "y8-4a-rearrange",
    "label": "15a",
    "section": "Reasoning",
    "stem": "Write a rule for $x$ in terms of the perimeter $P$ of each shape. Sides with the same marks are equal.",
@@ -58928,6 +58995,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15b",
+   "help": "y8-4a-rearrange",
    "label": "15b",
    "section": "Reasoning",
    "stem": "Write a rule for $x$ in terms of the perimeter $P$ of each shape. Sides with the same marks are equal.",
@@ -58996,6 +59064,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15c",
+   "help": "y8-4a-rearrange",
    "label": "15c",
    "section": "Reasoning",
    "stem": "Write a rule for $x$ in terms of the perimeter $P$ of each shape. Sides with the same marks are equal.",
@@ -59065,6 +59134,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15d",
+   "help": "y8-4a-rearrange",
    "label": "15d",
    "section": "Reasoning",
    "stem": "Write a rule for $x$ in terms of the perimeter $P$ of each shape. Sides with the same marks are equal.",
@@ -59195,6 +59265,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15e",
+   "help": "y8-4a-rearrange",
    "label": "15e",
    "section": "Reasoning",
    "stem": "Write a rule for $x$ in terms of the perimeter $P$ of each shape. Sides with the same marks are equal.",
@@ -59318,6 +59389,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15f",
+   "help": "y8-4a-rearrange",
    "label": "15f",
    "section": "Reasoning",
    "stem": "Write a rule for $x$ in terms of the perimeter $P$ of each shape. Sides with the same marks are equal.",
@@ -59427,6 +59499,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16a",
+   "help": "y8-4a-halving",
    "label": "16a",
    "section": "Enrichment",
    "stem": "A square is drawn. A second square is drawn inside it with side length one-half of the first square's side length. A third square has side length one-half of the second square's, and so on.",
@@ -59436,6 +59509,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16b",
+   "help": "y8-4a-halving",
    "label": "16b",
    "section": "Enrichment",
    "stem": "A square is drawn. A second square is drawn inside it with side length one-half of the first square's side length. A third square has side length one-half of the second square's, and so on.",
@@ -59454,6 +59528,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-4b-circ",
    "label": "1a",
    "section": "Fluency",
    "stem": "Find the circumference of each circle, correct to two decimal places. Use the π key on your calculator.",
@@ -59501,6 +59576,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-4b-circ",
    "label": "1b",
    "section": "Fluency",
    "stem": "Find the circumference of each circle, correct to two decimal places. Use the π key on your calculator.",
@@ -59548,6 +59624,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-4b-circ",
    "label": "2a",
    "section": "Fluency",
    "stem": "Find the circumference of each circle, correct to two decimal places. Use the π key on your calculator.",
@@ -59595,6 +59672,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-4b-circ",
    "label": "2b",
    "section": "Fluency",
    "stem": "Find the circumference of each circle, correct to two decimal places. Use the π key on your calculator.",
@@ -59642,6 +59720,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-4b-circ",
    "label": "2c",
    "section": "Fluency",
    "stem": "Find the circumference of each circle, correct to two decimal places. Use the π key on your calculator.",
@@ -59689,6 +59768,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y8-4b-circ",
    "label": "2d",
    "section": "Fluency",
    "stem": "Find the circumference of each circle, correct to two decimal places. Use the π key on your calculator.",
@@ -59736,6 +59816,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-4b-approx",
    "label": "3a",
    "section": "Fluency",
    "stem": "Find the circumference of each circle using the value of π given.",
@@ -59782,6 +59863,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-4b-approx",
    "label": "3b",
    "section": "Fluency",
    "stem": "Find the circumference of each circle using the value of π given.",
@@ -59828,6 +59910,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-4b-approx",
    "label": "3c",
    "section": "Fluency",
    "stem": "Find the circumference of each circle using the value of π given.",
@@ -59874,6 +59957,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y8-4b-approx",
    "label": "3d",
    "section": "Fluency",
    "stem": "Find the circumference of each circle using the value of π given.",
@@ -59920,6 +60004,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y8-4b-approx",
    "label": "3e",
    "section": "Fluency",
    "stem": "Find the circumference of each circle using the value of π given.",
@@ -59966,6 +60051,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y8-4b-approx",
    "label": "3f",
    "section": "Fluency",
    "stem": "Find the circumference of each circle using the value of π given.",
@@ -60012,6 +60098,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-4b-backwards",
    "label": "4a",
    "section": "Fluency",
    "stem": "Use $r = \\frac{C}{2\\pi}$ or $d = \\frac{C}{\\pi}$ to find each of these, correct to one decimal place.",
@@ -60023,6 +60110,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-4b-backwards",
    "label": "4b",
    "section": "Fluency",
    "stem": "Use $r = \\frac{C}{2\\pi}$ or $d = \\frac{C}{\\pi}$ to find each of these, correct to one decimal place.",
@@ -60034,6 +60122,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y8-4b-backwards",
    "label": "4c",
    "section": "Fluency",
    "stem": "Use $r = \\frac{C}{2\\pi}$ or $d = \\frac{C}{\\pi}$ to find each of these, correct to one decimal place.",
@@ -60045,6 +60134,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y8-4b-backwards",
    "label": "4d",
    "section": "Fluency",
    "stem": "Use $r = \\frac{C}{2\\pi}$ or $d = \\frac{C}{\\pi}$ to find each of these, correct to one decimal place.",
@@ -60056,6 +60146,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5",
+   "help": "y8-4b-circ",
    "label": "5",
    "section": "Problem-solving",
    "type": "numeric",
@@ -60066,6 +60157,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6",
+   "help": "y8-4b-laps",
    "label": "6",
    "section": "Problem-solving",
    "type": "numeric",
@@ -60076,6 +60168,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y8-4b-semi",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "These shapes are semicircles. Find the perimeter of each one, including the straight edge, correct to two decimal places.",
@@ -60275,6 +60368,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y8-4b-semi",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "These shapes are semicircles. Find the perimeter of each one, including the straight edge, correct to two decimal places.",
@@ -60475,6 +60569,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y8-4b-semi",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "These shapes are semicircles. Find the perimeter of each one, including the straight edge, correct to two decimal places.",
@@ -60677,6 +60772,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y8-4b-sector",
    "label": "8a",
    "section": "Problem-solving",
    "stem": "Find the perimeter of each shape, correct to two decimal places.",
@@ -60884,6 +60980,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y8-4b-sector",
    "label": "8b",
    "section": "Problem-solving",
    "stem": "Find the perimeter of each shape, correct to two decimal places.",
@@ -61171,6 +61268,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y8-4b-sector",
    "label": "8c",
    "section": "Problem-solving",
    "stem": "Find the perimeter of each shape, correct to two decimal places.",
@@ -61283,6 +61381,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y8-4b-composite",
    "label": "9a",
    "section": "Problem-solving",
    "stem": "Find the perimeter of each shape, correct to two decimal places. The curved parts are semicircles.",
@@ -61864,6 +61963,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y8-4b-composite",
    "label": "9b",
    "section": "Problem-solving",
    "stem": "Find the perimeter of each shape, correct to two decimal places. The curved parts are semicircles.",
@@ -62409,6 +62509,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y8-4b-composite",
    "label": "9c",
    "section": "Problem-solving",
    "stem": "Find the perimeter of each shape, correct to two decimal places. The curved parts are semicircles.",
@@ -62706,6 +62807,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10",
+   "help": "y8-4b-check",
    "label": "10",
    "section": "Problem-solving",
    "type": "list",
@@ -62741,6 +62843,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y8-4b-compare",
    "label": "11a",
    "section": "Reasoning",
    "type": "choice",
@@ -62755,6 +62858,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y8-4b-compare",
    "label": "11b",
    "section": "Reasoning",
    "type": "choice",
@@ -62767,6 +62871,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y8-4b-exact",
    "label": "13a",
    "section": "Reasoning",
    "stem": "Exact answers are written in terms of π, for example $2 \\times \\pi \\times 4 = 8\\pi$. Find the exact circumference of each circle from Question 2.",
@@ -62779,6 +62884,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y8-4b-exact",
    "label": "13b",
    "section": "Reasoning",
    "stem": "Exact answers are written in terms of π, for example $2 \\times \\pi \\times 4 = 8\\pi$. Find the exact circumference of each circle from Question 2.",
@@ -62790,6 +62896,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13c",
+   "help": "y8-4b-exact",
    "label": "13c",
    "section": "Reasoning",
    "stem": "Exact answers are written in terms of π, for example $2 \\times \\pi \\times 4 = 8\\pi$. Find the exact circumference of each circle from Question 2.",
@@ -62801,6 +62908,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13d",
+   "help": "y8-4b-exact",
    "label": "13d",
    "section": "Reasoning",
    "stem": "Exact answers are written in terms of π, for example $2 \\times \\pi \\times 4 = 8\\pi$. Find the exact circumference of each circle from Question 2.",
@@ -62812,6 +62920,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y8-4b-exact",
    "label": "14a",
    "section": "Reasoning",
    "stem": "Find the exact perimeter of each shape from Question 9, in terms of π.",
@@ -62824,6 +62933,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y8-4b-exact",
    "label": "14b",
    "section": "Reasoning",
    "stem": "Find the exact perimeter of each shape from Question 9, in terms of π.",
@@ -62835,6 +62945,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14c",
+   "help": "y8-4b-exact",
    "label": "14c",
    "section": "Reasoning",
    "stem": "Find the exact perimeter of each shape from Question 9, in terms of π.",
@@ -62846,6 +62957,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15a",
+   "help": "y8-4b-rearrange",
    "label": "15a",
    "section": "Reasoning",
    "stem": "We know that $C = 2\\pi r$ and $C = \\pi d$.",
@@ -62859,6 +62971,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15b",
+   "help": "y8-4b-rearrange",
    "label": "15b",
    "section": "Reasoning",
    "stem": "We know that $C = 2\\pi r$ and $C = \\pi d$.",
@@ -62871,6 +62984,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15c",
+   "help": "y8-4b-rearrange",
    "label": "15c",
    "section": "Reasoning",
    "stem": "We know that $C = 2\\pi r$ and $C = \\pi d$.",
@@ -62882,6 +62996,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15d",
+   "help": "y8-4b-rearrange",
    "label": "15d",
    "section": "Reasoning",
    "stem": "We know that $C = 2\\pi r$ and $C = \\pi d$.",
@@ -62902,6 +63017,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-4c-convert",
    "label": "1a",
    "section": "Fluency",
    "stem": "Convert these areas to the units shown.",
@@ -62912,6 +63028,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-4c-convert",
    "label": "1b",
    "section": "Fluency",
    "stem": "Convert these areas to the units shown.",
@@ -62922,6 +63039,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y8-4c-convert",
    "label": "1c",
    "section": "Fluency",
    "stem": "Convert these areas to the units shown.",
@@ -62932,6 +63050,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y8-4c-convert",
    "label": "1d",
    "section": "Fluency",
    "stem": "Convert these areas to the units shown.",
@@ -62942,6 +63061,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y8-4c-convert",
    "label": "1e",
    "section": "Fluency",
    "stem": "Convert these areas to the units shown.",
@@ -62952,6 +63072,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y8-4c-convert",
    "label": "1f",
    "section": "Fluency",
    "stem": "Convert these areas to the units shown.",
@@ -62962,6 +63083,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-4c-convert",
    "label": "2a",
    "section": "Fluency",
    "stem": "Convert these areas to the units shown.",
@@ -62972,6 +63094,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-4c-convert",
    "label": "2b",
    "section": "Fluency",
    "stem": "Convert these areas to the units shown.",
@@ -62982,6 +63105,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-4c-convert",
    "label": "2c",
    "section": "Fluency",
    "stem": "Convert these areas to the units shown.",
@@ -62992,6 +63116,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y8-4c-convert",
    "label": "2d",
    "section": "Fluency",
    "stem": "Convert these areas to the units shown.",
@@ -63002,6 +63127,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y8-4c-convert",
    "label": "2e",
    "section": "Fluency",
    "stem": "Convert these areas to the units shown.",
@@ -63012,6 +63138,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y8-4c-convert",
    "label": "2f",
    "section": "Fluency",
    "stem": "Convert these areas to the units shown.",
@@ -63022,6 +63149,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y8-4c-convert",
    "label": "2g",
    "section": "Fluency",
    "stem": "Convert these areas to the units shown.",
@@ -63032,6 +63160,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y8-4c-convert",
    "label": "2h",
    "section": "Fluency",
    "stem": "Convert these areas to the units shown.",
@@ -63042,6 +63171,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2i",
+   "help": "y8-4c-convert",
    "label": "2i",
    "section": "Fluency",
    "stem": "Convert these areas to the units shown.",
@@ -63052,6 +63182,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2j",
+   "help": "y8-4c-convert",
    "label": "2j",
    "section": "Fluency",
    "stem": "Convert these areas to the units shown.",
@@ -63062,6 +63193,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2k",
+   "help": "y8-4c-convert",
    "label": "2k",
    "section": "Fluency",
    "stem": "Convert these areas to the units shown.",
@@ -63072,6 +63204,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2l",
+   "help": "y8-4c-convert",
    "label": "2l",
    "section": "Fluency",
    "stem": "Convert these areas to the units shown.",
@@ -63082,6 +63215,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2m",
+   "help": "y8-4c-convert",
    "label": "2m",
    "section": "Fluency",
    "stem": "Convert these areas to the units shown.",
@@ -63092,6 +63226,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2n",
+   "help": "y8-4c-convert",
    "label": "2n",
    "section": "Fluency",
    "stem": "Convert these areas to the units shown.",
@@ -63102,6 +63237,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2o",
+   "help": "y8-4c-convert",
    "label": "2o",
    "section": "Fluency",
    "stem": "Convert these areas to the units shown.",
@@ -63112,6 +63248,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2p",
+   "help": "y8-4c-convert",
    "label": "2p",
    "section": "Fluency",
    "stem": "Convert these areas to the units shown.",
@@ -63122,6 +63259,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2q",
+   "help": "y8-4c-convert",
    "label": "2q",
    "section": "Fluency",
    "stem": "Convert these areas to the units shown.",
@@ -63132,6 +63270,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2r",
+   "help": "y8-4c-convert",
    "label": "2r",
    "section": "Fluency",
    "stem": "Convert these areas to the units shown.",
@@ -63142,6 +63281,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-4c-shapes",
    "label": "3a",
    "section": "Fluency",
    "stem": "Find the area of each shape. Sides with the same marks are equal.",
@@ -63263,6 +63403,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-4c-shapes",
    "label": "3b",
    "section": "Fluency",
    "stem": "Find the area of each shape. Sides with the same marks are equal.",
@@ -63352,6 +63493,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-4c-shapes",
    "label": "3c",
    "section": "Fluency",
    "stem": "Find the area of each shape. Sides with the same marks are equal.",
@@ -63419,6 +63561,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y8-4c-shapes",
    "label": "3d",
    "section": "Fluency",
    "stem": "Find the area of each shape. Sides with the same marks are equal.",
@@ -63487,6 +63630,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y8-4c-shapes",
    "label": "3e",
    "section": "Fluency",
    "stem": "Find the area of each shape. Sides with the same marks are equal.",
@@ -63579,6 +63723,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y8-4c-shapes",
    "label": "3f",
    "section": "Fluency",
    "stem": "Find the area of each shape. Sides with the same marks are equal.",
@@ -63660,6 +63805,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3g",
+   "help": "y8-4c-shapes",
    "label": "3g",
    "section": "Fluency",
    "stem": "Find the area of each shape. Sides with the same marks are equal.",
@@ -63767,6 +63913,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3h",
+   "help": "y8-4c-shapes",
    "label": "3h",
    "section": "Fluency",
    "stem": "Find the area of each shape. Sides with the same marks are equal.",
@@ -63874,6 +64021,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3i",
+   "help": "y8-4c-shapes",
    "label": "3i",
    "section": "Fluency",
    "stem": "Find the area of each shape. Sides with the same marks are equal.",
@@ -63981,6 +64129,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3j",
+   "help": "y8-4c-shapes",
    "label": "3j",
    "section": "Fluency",
    "stem": "Find the area of each shape. Sides with the same marks are equal.",
@@ -64039,6 +64188,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3k",
+   "help": "y8-4c-shapes",
    "label": "3k",
    "section": "Fluency",
    "stem": "Find the area of each shape. Sides with the same marks are equal.",
@@ -64115,6 +64265,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3l",
+   "help": "y8-4c-shapes",
    "label": "3l",
    "section": "Fluency",
    "stem": "Find the area of each shape. Sides with the same marks are equal.",
@@ -64199,6 +64350,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-4c-composite",
    "label": "4a",
    "section": "Fluency",
    "stem": "Find the area of each composite shape by adding or subtracting simpler shapes.",
@@ -64311,6 +64463,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-4c-composite",
    "label": "4b",
    "section": "Fluency",
    "stem": "Find the area of each composite shape by adding or subtracting simpler shapes.",
@@ -64446,6 +64599,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y8-4c-composite",
    "label": "4c",
    "section": "Fluency",
    "stem": "Find the area of each composite shape by adding or subtracting simpler shapes.",
@@ -64575,6 +64729,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y8-4c-composite",
    "label": "4d",
    "section": "Fluency",
    "stem": "Find the area of each composite shape by adding or subtracting simpler shapes.",
@@ -64726,6 +64881,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y8-4c-composite",
    "label": "4e",
    "section": "Fluency",
    "stem": "Find the area of each composite shape by adding or subtracting simpler shapes.",
@@ -64812,6 +64968,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y8-4c-composite",
    "label": "4f",
    "section": "Fluency",
    "stem": "Find the area of each composite shape by adding or subtracting simpler shapes.",
@@ -64998,6 +65155,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y8-4c-units",
    "label": "5a",
    "section": "Problem-solving",
    "stem": "Choose the most suitable unit for measuring each of these areas.",
@@ -65012,6 +65170,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y8-4c-units",
    "label": "5b",
    "section": "Problem-solving",
    "stem": "Choose the most suitable unit for measuring each of these areas.",
@@ -65026,6 +65185,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y8-4c-units",
    "label": "5c",
    "section": "Problem-solving",
    "stem": "Choose the most suitable unit for measuring each of these areas.",
@@ -65040,6 +65200,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y8-4c-units",
    "label": "5d",
    "section": "Problem-solving",
    "stem": "Choose the most suitable unit for measuring each of these areas.",
@@ -65054,6 +65215,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y8-4c-units",
    "label": "5e",
    "section": "Problem-solving",
    "stem": "Choose the most suitable unit for measuring each of these areas.",
@@ -65068,6 +65230,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y8-4c-composite",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "Find the area of each shape. You may need to work out some side lengths first. Angles that look like right angles are $90°$.",
@@ -65241,6 +65404,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y8-4c-composite",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "Find the area of each shape. You may need to work out some side lengths first. Angles that look like right angles are $90°$.",
@@ -65312,6 +65476,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y8-4c-composite",
    "label": "6c",
    "section": "Problem-solving",
    "stem": "Find the area of each shape. You may need to work out some side lengths first. Angles that look like right angles are $90°$.",
@@ -65447,6 +65612,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y8-4c-square",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "Find the side length of a square if its area is:",
@@ -65457,6 +65623,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y8-4c-square",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "Find the side length of a square if its area is:",
@@ -65467,6 +65634,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y8-4c-square",
    "label": "8a",
    "section": "Problem-solving",
    "type": "numeric",
@@ -65476,6 +65644,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y8-4c-square",
    "label": "8b",
    "section": "Problem-solving",
    "type": "numeric",
@@ -65485,6 +65654,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y8-4c-missing",
    "label": "10a",
    "section": "Problem-solving",
    "type": "numeric",
@@ -65494,6 +65664,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y8-4c-missing",
    "label": "10b",
    "section": "Problem-solving",
    "type": "numeric",
@@ -65503,6 +65674,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11",
+   "help": "y8-4c-paint",
    "label": "11",
    "section": "Problem-solving",
    "type": "numeric",
@@ -65512,6 +65684,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y8-4c-algebra",
    "label": "13a",
    "section": "Reasoning",
    "stem": "Write an expression for the area of each shape in simplest form. Angles that look like right angles are $90°$ and sides with the same marks are equal.",
@@ -65638,6 +65811,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y8-4c-algebra",
    "label": "13b",
    "section": "Reasoning",
    "stem": "Write an expression for the area of each shape in simplest form. Angles that look like right angles are $90°$ and sides with the same marks are equal.",
@@ -65750,6 +65924,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13c",
+   "help": "y8-4c-algebra",
    "label": "13c",
    "section": "Reasoning",
    "stem": "Write an expression for the area of each shape in simplest form. Angles that look like right angles are $90°$ and sides with the same marks are equal.",
@@ -65857,6 +66032,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y8-4c-accuracy",
    "label": "14a",
    "section": "Reasoning",
    "stem": "A square room is measured three times: first as $5$ m wide, then as $498$ cm, and then as $4976$ mm.",
@@ -65871,6 +66047,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y8-4c-accuracy",
    "label": "14b",
    "section": "Reasoning",
    "stem": "A square room is measured three times: first as $5$ m wide, then as $498$ cm, and then as $4976$ mm.",
@@ -65881,6 +66058,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15a",
+   "help": "y8-4c-missing",
    "label": "15a",
    "section": "Reasoning",
    "stem": "Write a rule for each of these.",
@@ -65894,6 +66072,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15b",
+   "help": "y8-4c-missing",
    "label": "15b",
    "section": "Reasoning",
    "stem": "Write a rule for each of these.",
@@ -65907,6 +66086,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15c",
+   "help": "y8-4c-missing",
    "label": "15c",
    "section": "Reasoning",
    "stem": "Write a rule for each of these.",
@@ -65919,6 +66099,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16a",
+   "help": "y8-4c-imperial",
    "label": "16a",
    "section": "Enrichment",
    "stem": "Use these facts: $1$ square mile $= 640$ acres, $1$ mile $= 1.609344$ km and $1$ hectare $= 10\\,000$ m².",
@@ -65930,6 +66111,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16b",
+   "help": "y8-4c-imperial",
    "label": "16b",
    "section": "Enrichment",
    "stem": "Use these facts: $1$ square mile $= 640$ acres, $1$ mile $= 1.609344$ km and $1$ hectare $= 10\\,000$ m².",
@@ -65941,6 +66123,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16c",
+   "help": "y8-4c-imperial",
    "label": "16c",
    "section": "Enrichment",
    "stem": "Use these facts: $1$ square mile $= 640$ acres, $1$ mile $= 1.609344$ km and $1$ hectare $= 10\\,000$ m².",
@@ -65952,6 +66135,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16d",
+   "help": "y8-4c-imperial",
    "label": "16d",
    "section": "Enrichment",
    "stem": "Use these facts: $1$ square mile $= 640$ acres, $1$ mile $= 1.609344$ km and $1$ hectare $= 10\\,000$ m².",
@@ -65963,6 +66147,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16e",
+   "help": "y8-4c-imperial",
    "label": "16e",
    "section": "Enrichment",
    "stem": "Use these facts: $1$ square mile $= 640$ acres, $1$ mile $= 1.609344$ km and $1$ hectare $= 10\\,000$ m².",
@@ -65974,6 +66159,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16f",
+   "help": "y8-4c-imperial",
    "label": "16f",
    "section": "Enrichment",
    "stem": "Use these facts: $1$ square mile $= 640$ acres, $1$ mile $= 1.609344$ km and $1$ hectare $= 10\\,000$ m².",
@@ -65985,6 +66171,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16g",
+   "help": "y8-4c-imperial",
    "label": "16g",
    "section": "Enrichment",
    "stem": "Use these facts: $1$ square mile $= 640$ acres, $1$ mile $= 1.609344$ km and $1$ hectare $= 10\\,000$ m².",
@@ -65996,6 +66183,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16h",
+   "help": "y8-4c-imperial",
    "label": "16h",
    "section": "Enrichment",
    "stem": "Use these facts: $1$ square mile $= 640$ acres, $1$ mile $= 1.609344$ km and $1$ hectare $= 10\\,000$ m².",
@@ -66016,6 +66204,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-4d-diagonals",
    "label": "1a",
    "section": "Fluency",
    "stem": "Find the area of each rhombus. The dashed lines are its diagonals.",
@@ -66127,6 +66316,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-4d-diagonals",
    "label": "1b",
    "section": "Fluency",
    "stem": "Find the area of each rhombus. The dashed lines are its diagonals.",
@@ -66238,6 +66428,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y8-4d-diagonals",
    "label": "1c",
    "section": "Fluency",
    "stem": "Find the area of each rhombus. The dashed lines are its diagonals.",
@@ -66349,6 +66540,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-4d-which",
    "label": "2a",
    "section": "Fluency",
    "stem": "Find the area of each special quadrilateral. First decide which shape it is: a rhombus, a kite or a trapezium.",
@@ -66460,6 +66652,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-4d-which",
    "label": "2b",
    "section": "Fluency",
    "stem": "Find the area of each special quadrilateral. First decide which shape it is: a rhombus, a kite or a trapezium.",
@@ -66571,6 +66764,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-4d-which",
    "label": "2c",
    "section": "Fluency",
    "stem": "Find the area of each special quadrilateral. First decide which shape it is: a rhombus, a kite or a trapezium.",
@@ -66682,6 +66876,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y8-4d-which",
    "label": "2d",
    "section": "Fluency",
    "stem": "Find the area of each special quadrilateral. First decide which shape it is: a rhombus, a kite or a trapezium.",
@@ -66793,6 +66988,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y8-4d-which",
    "label": "2e",
    "section": "Fluency",
    "stem": "Find the area of each special quadrilateral. First decide which shape it is: a rhombus, a kite or a trapezium.",
@@ -66904,6 +67100,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y8-4d-which",
    "label": "2f",
    "section": "Fluency",
    "stem": "Find the area of each special quadrilateral. First decide which shape it is: a rhombus, a kite or a trapezium.",
@@ -67000,6 +67197,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y8-4d-which",
    "label": "2g",
    "section": "Fluency",
    "stem": "Find the area of each special quadrilateral. First decide which shape it is: a rhombus, a kite or a trapezium.",
@@ -67111,6 +67309,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y8-4d-which",
    "label": "2h",
    "section": "Fluency",
    "stem": "Find the area of each special quadrilateral. First decide which shape it is: a rhombus, a kite or a trapezium.",
@@ -67209,6 +67408,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2i",
+   "help": "y8-4d-which",
    "label": "2i",
    "section": "Fluency",
    "stem": "Find the area of each special quadrilateral. First decide which shape it is: a rhombus, a kite or a trapezium.",
@@ -67305,6 +67505,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-4d-trapezium",
    "label": "3a",
    "section": "Fluency",
    "stem": "These trapeziums have one side at right angles to the two parallel sides. Find the area of each.",
@@ -67402,6 +67603,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-4d-trapezium",
    "label": "3b",
    "section": "Fluency",
    "stem": "These trapeziums have one side at right angles to the two parallel sides. Find the area of each.",
@@ -67501,6 +67703,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-4d-trapezium",
    "label": "3c",
    "section": "Fluency",
    "stem": "These trapeziums have one side at right angles to the two parallel sides. Find the area of each.",
@@ -67599,6 +67802,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4",
+   "help": "y8-4d-diagonals",
    "label": "4",
    "section": "Problem-solving",
    "type": "numeric",
@@ -67701,6 +67905,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y8-4d-composite",
    "label": "5a",
    "section": "Problem-solving",
    "stem": "Find the area of each composite shape.",
@@ -67853,6 +68058,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y8-4d-composite",
    "label": "5b",
    "section": "Problem-solving",
    "stem": "Find the area of each composite shape.",
@@ -67982,6 +68188,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6",
+   "help": "y8-4d-diagonals",
    "label": "6",
    "section": "Problem-solving",
    "type": "numeric",
@@ -67991,6 +68198,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7",
+   "help": "y8-4d-reverse",
    "label": "7",
    "section": "Problem-solving",
    "type": "list",
@@ -68004,6 +68212,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y8-4d-rectangles",
    "label": "8a",
    "section": "Reasoning",
    "stem": "Look at this trapezium.",
@@ -68083,6 +68292,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y8-4d-rectangles",
    "label": "8b",
    "section": "Reasoning",
    "stem": "Look at this trapezium.",
@@ -68093,6 +68303,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y8-4d-rectangles",
    "label": "8c",
    "section": "Reasoning",
    "stem": "Look at this trapezium.",
@@ -68107,6 +68318,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y8-4d-trapezium",
    "label": "9a",
    "section": "Reasoning",
    "stem": "Look at this shape.",
@@ -68208,6 +68420,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y8-4d-trapezium",
    "label": "9b",
    "section": "Reasoning",
    "stem": "Look at this shape.",
@@ -68218,6 +68431,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y8-4d-algebra",
    "label": "10a",
    "section": "Reasoning",
    "stem": "Write an expression for the area of each shape in simplest form.",
@@ -68330,6 +68544,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y8-4d-algebra",
    "label": "10b",
    "section": "Reasoning",
    "stem": "Write an expression for the area of each shape in simplest form.",
@@ -68451,6 +68666,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y8-4d-height",
    "label": "11a",
    "section": "Reasoning",
    "stem": "This rhombus has sides of $12$ cm and a perpendicular height of $9$ cm.",
@@ -68561,6 +68777,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y8-4d-height",
    "label": "11b",
    "section": "Reasoning",
    "stem": "This rhombus has sides of $12$ cm and a perpendicular height of $9$ cm.",
@@ -68571,6 +68788,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y8-4d-algebra",
    "label": "12a",
    "section": "Enrichment",
    "type": "expression",
@@ -68691,6 +68909,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y8-4d-algebra",
    "label": "12b",
    "section": "Enrichment",
    "type": "expression",
@@ -68794,6 +69013,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y8-4d-algebra",
    "label": "12c",
    "section": "Enrichment",
    "type": "expression",
@@ -68918,6 +69138,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1",
+   "help": "y8-4e-area",
    "label": "1",
    "section": "Fluency",
    "type": "numeric",
@@ -68978,6 +69199,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-4e-area",
    "label": "2a",
    "section": "Fluency",
    "stem": "Use a calculator to find the area of these circles, correct to two decimal places.",
@@ -69039,6 +69261,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-4e-area",
    "label": "2b",
    "section": "Fluency",
    "stem": "Use a calculator to find the area of these circles, correct to two decimal places.",
@@ -69100,6 +69323,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-4e-area",
    "label": "2c",
    "section": "Fluency",
    "stem": "Use a calculator to find the area of these circles, correct to two decimal places.",
@@ -69161,6 +69385,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y8-4e-area",
    "label": "2d",
    "section": "Fluency",
    "stem": "Use a calculator to find the area of these circles, correct to two decimal places.",
@@ -69222,6 +69447,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y8-4e-area",
    "label": "2e",
    "section": "Fluency",
    "stem": "Use a calculator to find the area of these circles, correct to two decimal places.",
@@ -69283,6 +69509,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y8-4e-area",
    "label": "2f",
    "section": "Fluency",
    "stem": "Use a calculator to find the area of these circles, correct to two decimal places.",
@@ -69344,6 +69571,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-4e-approx",
    "label": "3a",
    "section": "Fluency",
    "stem": "Find the area of these circles, using the given approximate value of $\\pi$.",
@@ -69404,6 +69632,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-4e-approx",
    "label": "3b",
    "section": "Fluency",
    "stem": "Find the area of these circles, using the given approximate value of $\\pi$.",
@@ -69464,6 +69693,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-4e-approx",
    "label": "3c",
    "section": "Fluency",
    "stem": "Find the area of these circles, using the given approximate value of $\\pi$.",
@@ -69524,6 +69754,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y8-4e-approx",
    "label": "3d",
    "section": "Fluency",
    "stem": "Find the area of these circles, using the given approximate value of $\\pi$.",
@@ -69584,6 +69815,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y8-4e-approx",
    "label": "3e",
    "section": "Fluency",
    "stem": "Find the area of these circles, using the given approximate value of $\\pi$.",
@@ -69644,6 +69876,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y8-4e-approx",
    "label": "3f",
    "section": "Fluency",
    "stem": "Find the area of these circles, using the given approximate value of $\\pi$.",
@@ -69704,6 +69937,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-4e-parts",
    "label": "4a",
    "section": "Fluency",
    "stem": "Find the area of these quadrants and semicircles, correct to two decimal places.",
@@ -69832,6 +70066,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-4e-parts",
    "label": "4b",
    "section": "Fluency",
    "stem": "Find the area of these quadrants and semicircles, correct to two decimal places.",
@@ -69960,6 +70195,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y8-4e-parts",
    "label": "4c",
    "section": "Fluency",
    "stem": "Find the area of these quadrants and semicircles, correct to two decimal places.",
@@ -70088,6 +70324,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y8-4e-parts",
    "label": "4d",
    "section": "Fluency",
    "stem": "Find the area of these quadrants and semicircles, correct to two decimal places.",
@@ -70268,6 +70505,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y8-4e-parts",
    "label": "4e",
    "section": "Fluency",
    "stem": "Find the area of these quadrants and semicircles, correct to two decimal places.",
@@ -70448,6 +70686,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y8-4e-parts",
    "label": "4f",
    "section": "Fluency",
    "stem": "Find the area of these quadrants and semicircles, correct to two decimal places.",
@@ -70628,6 +70867,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y8-4e-reverse",
    "label": "5a",
    "section": "Fluency",
    "stem": "Using the formula $r = \\sqrt{\\frac{A}{\\pi}}$, find the following, correct to one decimal place.",
@@ -70639,6 +70879,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y8-4e-reverse",
    "label": "5b",
    "section": "Fluency",
    "stem": "Using the formula $r = \\sqrt{\\frac{A}{\\pi}}$, find the following, correct to one decimal place.",
@@ -70650,6 +70891,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6",
+   "help": "y8-4e-area",
    "label": "6",
    "section": "Problem-solving",
    "type": "numeric",
@@ -70660,6 +70902,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y8-4e-units",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "A log is sawn through to show a circular end with radius $65$ cm. (Remember $1$ m$^2 = 10\\,000$ cm$^2$.)",
@@ -70673,6 +70916,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y8-4e-units",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "A log is sawn through to show a circular end with radius $65$ cm. (Remember $1$ m$^2 = 10\\,000$ cm$^2$.)",
@@ -70684,6 +70928,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y8-4e-units",
    "label": "8a",
    "section": "Problem-solving",
    "stem": "A round patch of algae on a lake has a diameter of $1.1$ km. A local news site says its area is more than $1$ km$^2$.",
@@ -70695,6 +70940,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y8-4e-units",
    "label": "8b",
    "section": "Problem-solving",
    "stem": "A round patch of algae on a lake has a diameter of $1.1$ km. A local news site says its area is more than $1$ km$^2$.",
@@ -70708,6 +70954,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9",
+   "help": "y8-4e-compare",
    "label": "9",
    "section": "Problem-solving",
    "type": "numeric",
@@ -70718,6 +70965,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10",
+   "help": "y8-4e-compare",
    "label": "10",
    "section": "Problem-solving",
    "type": "choice",
@@ -70731,6 +70979,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11",
+   "help": "y8-4e-hole",
    "label": "11",
    "section": "Problem-solving",
    "type": "numeric",
@@ -70858,6 +71107,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y8-4e-bounds",
    "label": "12a",
    "section": "Reasoning",
    "stem": "In this question you will find an upper and a lower bound for the area of a circle with radius $r$.",
@@ -70962,6 +71212,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y8-4e-bounds",
    "label": "12b",
    "section": "Reasoning",
    "stem": "In this question you will find an upper and a lower bound for the area of a circle with radius $r$.",
@@ -71051,6 +71302,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y8-4e-bounds",
    "label": "12c",
    "section": "Reasoning",
    "stem": "In this question you will find an upper and a lower bound for the area of a circle with radius $r$.",
@@ -71065,6 +71317,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y8-4e-scale",
    "label": "13a",
    "section": "Reasoning",
    "stem": "A circle has radius $3$ cm.",
@@ -71075,6 +71328,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y8-4e-scale",
    "label": "13b",
    "section": "Reasoning",
    "stem": "A circle has radius $3$ cm.",
@@ -71085,6 +71339,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13c",
+   "help": "y8-4e-scale",
    "label": "13c",
    "section": "Reasoning",
    "stem": "A circle has radius $3$ cm.",
@@ -71094,6 +71349,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13d",
+   "help": "y8-4e-scale",
    "label": "13d",
    "section": "Reasoning",
    "stem": "A circle has radius $3$ cm.",
@@ -71103,6 +71359,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13e",
+   "help": "y8-4e-scale",
    "label": "13e",
    "section": "Reasoning",
    "stem": "A circle has radius $3$ cm.",
@@ -71112,6 +71369,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13f",
+   "help": "y8-4e-scale",
    "label": "13f",
    "section": "Reasoning",
    "stem": "A circle has radius $3$ cm.",
@@ -71122,6 +71380,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y8-4e-exact",
    "label": "14a",
    "section": "Reasoning",
    "stem": "The area of a circle with radius $3$ cm can be written exactly as $A = \\pi \\times 3^2 = 9\\pi$ cm$^2$. Write the exact area of these shapes.",
@@ -71184,6 +71443,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y8-4e-exact",
    "label": "14b",
    "section": "Reasoning",
    "stem": "The area of a circle with radius $3$ cm can be written exactly as $A = \\pi \\times 3^2 = 9\\pi$ cm$^2$. Write the exact area of these shapes.",
@@ -71312,6 +71572,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14c",
+   "help": "y8-4e-exact",
    "label": "14c",
    "section": "Reasoning",
    "stem": "The area of a circle with radius $3$ cm can be written exactly as $A = \\pi \\times 3^2 = 9\\pi$ cm$^2$. Write the exact area of these shapes.",
@@ -71492,6 +71753,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15a",
+   "help": "y8-4e-exact",
    "label": "15a",
    "section": "Reasoning",
    "stem": "The diameter $d$ of a circle is twice the radius $r$, so $r = \\frac{1}{2}d$.",
@@ -71505,6 +71767,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15b",
+   "help": "y8-4e-exact",
    "label": "15b",
    "section": "Reasoning",
    "stem": "The diameter $d$ of a circle is twice the radius $r$, so $r = \\frac{1}{2}d$.",
@@ -71517,6 +71780,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16a",
+   "help": "y8-4e-reverse",
    "label": "16a",
    "section": "Enrichment",
    "stem": "Reverse the rule $A = \\pi r^2$ to find the radius in these problems.",
@@ -71527,6 +71791,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16b",
+   "help": "y8-4e-reverse",
    "label": "16b",
    "section": "Enrichment",
    "stem": "Reverse the rule $A = \\pi r^2$ to find the radius in these problems.",
@@ -71538,6 +71803,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16c",
+   "help": "y8-4e-reverse",
    "label": "16c",
    "section": "Enrichment",
    "stem": "Reverse the rule $A = \\pi r^2$ to find the radius in these problems.",
@@ -71549,6 +71815,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16d",
+   "help": "y8-4e-reverse",
    "label": "16d",
    "section": "Enrichment",
    "stem": "Reverse the rule $A = \\pi r^2$ to find the radius in these problems.",
@@ -71560,6 +71827,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16e",
+   "help": "y8-4e-reverse",
    "label": "16e",
    "section": "Enrichment",
    "stem": "Reverse the rule $A = \\pi r^2$ to find the radius in these problems.",
@@ -71582,6 +71850,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-4f-sector",
    "label": "1a",
    "section": "Fluency",
    "stem": "Find the area of these sectors, correct to one decimal place.",
@@ -71707,6 +71976,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-4f-sector",
    "label": "1b",
    "section": "Fluency",
    "stem": "Find the area of these sectors, correct to one decimal place.",
@@ -71864,6 +72134,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-4f-sector",
    "label": "2a",
    "section": "Fluency",
    "stem": "Find the area of these sectors, correct to two decimal places.",
@@ -71961,6 +72232,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-4f-sector",
    "label": "2b",
    "section": "Fluency",
    "stem": "Find the area of these sectors, correct to two decimal places.",
@@ -72050,6 +72322,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-4f-sector",
    "label": "2c",
    "section": "Fluency",
    "stem": "Find the area of these sectors, correct to two decimal places.",
@@ -72175,6 +72448,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y8-4f-sector",
    "label": "2d",
    "section": "Fluency",
    "stem": "Find the area of these sectors, correct to two decimal places.",
@@ -72420,6 +72694,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y8-4f-sector",
    "label": "2e",
    "section": "Fluency",
    "stem": "Find the area of these sectors, correct to two decimal places.",
@@ -72633,6 +72908,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y8-4f-sector",
    "label": "2f",
    "section": "Fluency",
    "stem": "Find the area of these sectors, correct to two decimal places.",
@@ -72898,6 +73174,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-4f-outside",
    "label": "3a",
    "section": "Fluency",
    "stem": "Find the area of these sectors, correct to two decimal places. The angle marked is the angle outside the sector.",
@@ -73035,6 +73312,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-4f-outside",
    "label": "3b",
    "section": "Fluency",
    "stem": "Find the area of these sectors, correct to two decimal places. The angle marked is the angle outside the sector.",
@@ -73292,6 +73570,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-4f-outside",
    "label": "3c",
    "section": "Fluency",
    "stem": "Find the area of these sectors, correct to two decimal places. The angle marked is the angle outside the sector.",
@@ -73513,6 +73792,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-4f-composite",
    "label": "4a",
    "section": "Fluency",
    "stem": "Find the areas of these composite shapes using addition or subtraction. Round the answer to two decimal places.",
@@ -73740,6 +74020,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-4f-composite",
    "label": "4b",
    "section": "Fluency",
    "stem": "Find the areas of these composite shapes using addition or subtraction. Round the answer to two decimal places.",
@@ -73895,6 +74176,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y8-4f-composite",
    "label": "4c",
    "section": "Fluency",
    "stem": "Find the areas of these composite shapes using addition or subtraction. Round the answer to two decimal places.",
@@ -74122,6 +74404,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y8-4f-composite",
    "label": "4d",
    "section": "Fluency",
    "stem": "Find the areas of these composite shapes using addition or subtraction. Round the answer to two decimal places.",
@@ -74286,6 +74569,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y8-4f-composite",
    "label": "4e",
    "section": "Fluency",
    "stem": "Find the areas of these composite shapes using addition or subtraction. Round the answer to two decimal places.",
@@ -74642,6 +74926,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y8-4f-composite",
    "label": "4f",
    "section": "Fluency",
    "stem": "Find the areas of these composite shapes using addition or subtraction. Round the answer to two decimal places.",
@@ -74920,6 +75205,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4g",
+   "help": "y8-4f-composite",
    "label": "4g",
    "section": "Fluency",
    "stem": "Find the areas of these composite shapes using addition or subtraction. Round the answer to two decimal places.",
@@ -75011,6 +75297,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4h",
+   "help": "y8-4f-composite",
    "label": "4h",
    "section": "Fluency",
    "stem": "Find the areas of these composite shapes using addition or subtraction. Round the answer to two decimal places.",
@@ -75102,6 +75389,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4i",
+   "help": "y8-4f-composite",
    "label": "4i",
    "section": "Fluency",
    "stem": "Find the areas of these composite shapes using addition or subtraction. Round the answer to two decimal places.",
@@ -75443,6 +75731,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5",
+   "help": "y8-4f-sector",
    "label": "5",
    "section": "Problem-solving",
    "type": "numeric",
@@ -75587,6 +75876,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y8-4f-sector",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "At Slice Street Pizza you can buy a sector of a pizza with radius $16$ cm and angle $40°$, or a sector of a pizza with radius $12$ cm and angle $70°$.",
@@ -75600,6 +75890,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y8-4f-sector",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "At Slice Street Pizza you can buy a sector of a pizza with radius $16$ cm and angle $40°$, or a sector of a pizza with radius $12$ cm and angle $70°$.",
@@ -75611,6 +75902,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7",
+   "help": "y8-4f-ring",
    "label": "7",
    "section": "Problem-solving",
    "type": "numeric",
@@ -75951,6 +76243,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y8-4f-percent",
    "label": "8a",
    "section": "Problem-solving",
    "stem": "What percentage of the total area is taken up by the shaded region in these diagrams? Round the answer to one decimal place.",
@@ -76145,6 +76438,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y8-4f-percent",
    "label": "8b",
    "section": "Problem-solving",
    "stem": "What percentage of the total area is taken up by the shaded region in these diagrams? Round the answer to one decimal place.",
@@ -76303,6 +76597,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y8-4f-percent",
    "label": "8c",
    "section": "Problem-solving",
    "stem": "What percentage of the total area is taken up by the shaded region in these diagrams? Round the answer to one decimal place.",
@@ -76487,6 +76782,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y8-4f-reason",
    "label": "9a",
    "section": "Reasoning",
    "stem": "Consider the quadrant shown, with radius $12$ cm. The dashed lines show a square and one of its diagonals.",
@@ -76641,6 +76937,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y8-4f-reason",
    "label": "9b",
    "section": "Reasoning",
    "stem": "Consider the quadrant shown, with radius $12$ cm. The dashed lines show a square and one of its diagonals.",
@@ -76651,6 +76948,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y8-4f-reason",
    "label": "9c",
    "section": "Reasoning",
    "stem": "Consider the quadrant shown, with radius $12$ cm. The dashed lines show a square and one of its diagonals.",
@@ -76662,6 +76960,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y8-4f-exact",
    "label": "10a",
    "section": "Reasoning",
    "stem": "An exact area in terms of $\\pi$ looks like $\\pi \\times 3^2 = 9\\pi$. Find the exact area of these shapes in terms of $\\pi$. Simplify your answer.",
@@ -76788,6 +77087,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y8-4f-exact",
    "label": "10b",
    "section": "Reasoning",
    "stem": "An exact area in terms of $\\pi$ looks like $\\pi \\times 3^2 = 9\\pi$. Find the exact area of these shapes in terms of $\\pi$. Simplify your answer.",
@@ -76877,6 +77177,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y8-4f-exact",
    "label": "10c",
    "section": "Reasoning",
    "stem": "An exact area in terms of $\\pi$ looks like $\\pi \\times 3^2 = 9\\pi$. Find the exact area of these shapes in terms of $\\pi$. Simplify your answer.",
@@ -76974,6 +77275,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10d",
+   "help": "y8-4f-exact",
    "label": "10d",
    "section": "Reasoning",
    "stem": "An exact area in terms of $\\pi$ looks like $\\pi \\times 3^2 = 9\\pi$. Find the exact area of these shapes in terms of $\\pi$. Simplify your answer.",
@@ -77315,6 +77617,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10e",
+   "help": "y8-4f-exact",
    "label": "10e",
    "section": "Reasoning",
    "stem": "An exact area in terms of $\\pi$ looks like $\\pi \\times 3^2 = 9\\pi$. Find the exact area of these shapes in terms of $\\pi$. Simplify your answer.",
@@ -77530,6 +77833,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10f",
+   "help": "y8-4f-exact",
    "label": "10f",
    "section": "Reasoning",
    "stem": "An exact area in terms of $\\pi$ looks like $\\pi \\times 3^2 = 9\\pi$. Find the exact area of these shapes in terms of $\\pi$. Simplify your answer.",
@@ -77680,6 +77984,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y8-4f-percent",
    "label": "11a",
    "section": "Reasoning",
    "stem": "A circle sits inside a square and touches all four sides, as shown.",
@@ -77731,6 +78036,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y8-4f-percent",
    "label": "11b",
    "section": "Reasoning",
    "stem": "A circle sits inside a square and touches all four sides, as shown.",
@@ -77742,6 +78048,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y8-4f-sprinkler",
    "label": "12a",
    "section": "Enrichment",
    "stem": "A rectangular lawn has a $180°$ sprinkler at $O$ on one edge. It waters a semicircle of radius $6$ m. The left edge of the lawn is $5.2$ m from $O$ and the semicircle crosses it at $B$, $3$ m above $C$. Angle $AOB$ is $30°$.",
@@ -77982,6 +78289,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y8-4f-sprinkler",
    "label": "12b",
    "section": "Enrichment",
    "stem": "A rectangular lawn has a $180°$ sprinkler at $O$ on one edge. It waters a semicircle of radius $6$ m. The left edge of the lawn is $5.2$ m from $O$ and the semicircle crosses it at $B$, $3$ m above $C$. Angle $AOB$ is $30°$.",
@@ -77996,6 +78304,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y8-4f-sprinkler",
    "label": "12c",
    "section": "Enrichment",
    "stem": "A rectangular lawn has a $180°$ sprinkler at $O$ on one edge. It waters a semicircle of radius $6$ m. The left edge of the lawn is $5.2$ m from $O$ and the semicircle crosses it at $B$, $3$ m above $C$. Angle $AOB$ is $30°$.",
@@ -78016,6 +78325,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1",
+   "help": "y8-4g-rect",
    "label": "1",
    "section": "Fluency",
    "type": "numeric",
@@ -78190,6 +78500,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2",
+   "help": "y8-4g-tri",
    "label": "2",
    "section": "Fluency",
    "type": "numeric",
@@ -78378,6 +78689,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-4g-tri",
    "label": "3a",
    "section": "Fluency",
    "stem": "Find the surface area of these right prisms.",
@@ -78532,6 +78844,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-4g-tri",
    "label": "3b",
    "section": "Fluency",
    "stem": "Find the surface area of these right prisms.",
@@ -78686,6 +78999,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-4g-tri",
    "label": "3c",
    "section": "Fluency",
    "stem": "Find the surface area of these right prisms.",
@@ -78861,6 +79175,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y8-4g-tri",
    "label": "3d",
    "section": "Fluency",
    "stem": "Find the surface area of these right prisms.",
@@ -79036,6 +79351,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y8-4g-tri",
    "label": "3e",
    "section": "Fluency",
    "stem": "Find the surface area of these right prisms.",
@@ -79225,6 +79541,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y8-4g-tri",
    "label": "3f",
    "section": "Fluency",
    "stem": "Find the surface area of these right prisms.",
@@ -79414,6 +79731,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3g",
+   "help": "y8-4g-tri",
    "label": "3g",
    "section": "Fluency",
    "stem": "Find the surface area of these right prisms.",
@@ -79627,6 +79945,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3h",
+   "help": "y8-4g-tri",
    "label": "3h",
    "section": "Fluency",
    "stem": "Find the surface area of these right prisms.",
@@ -79814,6 +80133,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3i",
+   "help": "y8-4g-tri",
    "label": "3i",
    "section": "Fluency",
    "stem": "Find the surface area of these right prisms.",
@@ -79989,6 +80309,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-4g-ends",
    "label": "4a",
    "section": "Fluency",
    "stem": "This prism has two end faces that are parallelograms.",
@@ -80204,6 +80525,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-4g-ends",
    "label": "4b",
    "section": "Fluency",
    "stem": "This prism has two end faces that are parallelograms.",
@@ -80214,6 +80536,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5",
+   "help": "y8-4g-rect",
    "label": "5",
    "section": "Problem-solving",
    "type": "numeric",
@@ -80223,6 +80546,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y8-4g-rect",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "A diary $24$ cm long, $18$ cm wide and $2$ cm thick is covered in plastic film.",
@@ -80233,6 +80557,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y8-4g-rect",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "A diary $24$ cm long, $18$ cm wide and $2$ cm thick is covered in plastic film.",
@@ -80244,6 +80569,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y8-4g-tri",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "Find the surface area of these solids.",
@@ -80477,6 +80803,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y8-4g-tri",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "Find the surface area of these solids.",
@@ -80732,6 +81059,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y8-4g-tri",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "Find the surface area of these solids.",
@@ -80995,6 +81323,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8",
+   "help": "y8-4g-cost",
    "label": "8",
    "section": "Problem-solving",
    "type": "numeric",
@@ -81233,6 +81562,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y8-4g-rule",
    "label": "9a",
    "section": "Reasoning",
    "stem": "Write a rule for the surface area $A$ of these right prisms, in simplest form.",
@@ -81391,6 +81721,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y8-4g-rule",
    "label": "9b",
    "section": "Reasoning",
    "stem": "Write a rule for the surface area $A$ of these right prisms, in simplest form.",
@@ -81569,6 +81900,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y8-4g-rule",
    "label": "9c",
    "section": "Reasoning",
    "stem": "Write a rule for the surface area $A$ of these right prisms, in simplest form.",
@@ -81747,6 +82079,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y8-4g-scale",
    "label": "11a",
    "section": "Reasoning",
    "stem": "A cube of side length $3$ cm has a surface area of $54$ cm$^2$.",
@@ -81756,6 +82089,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y8-4g-scale",
    "label": "11b",
    "section": "Reasoning",
    "stem": "A cube of side length $3$ cm has a surface area of $54$ cm$^2$.",
@@ -81765,6 +82099,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y8-4g-scale",
    "label": "11c",
    "section": "Reasoning",
    "stem": "A cube of side length $3$ cm has a surface area of $54$ cm$^2$.",
@@ -81774,6 +82109,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11d",
+   "help": "y8-4g-scale",
    "label": "11d",
    "section": "Reasoning",
    "stem": "A cube of side length $3$ cm has a surface area of $54$ cm$^2$.",
@@ -81784,6 +82120,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y8-4g-thick",
    "label": "12a",
    "section": "Enrichment",
    "stem": "An open box (no lid) is a cube made of wood $3$ cm thick. Its outside side length is $50$ cm. The surface area includes the outside, the inside (walls and floor) and the top edges of the walls.",
@@ -81932,6 +82269,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y8-4g-thick",
    "label": "12b",
    "section": "Enrichment",
    "stem": "An open box (no lid) is a cube made of wood $3$ cm thick. Its outside side length is $50$ cm. The surface area includes the outside, the inside (walls and floor) and the top edges of the walls.",
@@ -81951,6 +82289,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1",
+   "help": "y8-4h-volume",
    "label": "1",
    "section": "Fluency",
    "type": "numeric",
@@ -82125,6 +82464,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-4h-volume",
    "label": "2a",
    "section": "Fluency",
    "stem": "Find the volume of these rectangular prisms.",
@@ -82300,6 +82640,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-4h-volume",
    "label": "2b",
    "section": "Fluency",
    "stem": "Find the volume of these rectangular prisms.",
@@ -82475,6 +82816,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-4h-volume",
    "label": "2c",
    "section": "Fluency",
    "stem": "Find the volume of these rectangular prisms.",
@@ -82629,6 +82971,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y8-4h-volume",
    "label": "2d",
    "section": "Fluency",
    "stem": "Find the volume of these rectangular prisms.",
@@ -82783,6 +83126,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y8-4h-volume",
    "label": "2e",
    "section": "Fluency",
    "stem": "Find the volume of these rectangular prisms.",
@@ -82970,6 +83314,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y8-4h-volume",
    "label": "2f",
    "section": "Fluency",
    "stem": "Find the volume of these rectangular prisms.",
@@ -83145,6 +83490,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-4h-convert",
    "label": "3a",
    "section": "Fluency",
    "stem": "Convert these measurements to the units shown in the brackets.",
@@ -83155,6 +83501,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-4h-convert",
    "label": "3b",
    "section": "Fluency",
    "stem": "Convert these measurements to the units shown in the brackets.",
@@ -83165,6 +83512,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-4h-convert",
    "label": "3c",
    "section": "Fluency",
    "stem": "Convert these measurements to the units shown in the brackets.",
@@ -83175,6 +83523,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y8-4h-convert",
    "label": "3d",
    "section": "Fluency",
    "stem": "Convert these measurements to the units shown in the brackets.",
@@ -83185,6 +83534,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y8-4h-convert",
    "label": "3e",
    "section": "Fluency",
    "stem": "Convert these measurements to the units shown in the brackets.",
@@ -83195,6 +83545,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y8-4h-convert",
    "label": "3f",
    "section": "Fluency",
    "stem": "Convert these measurements to the units shown in the brackets.",
@@ -83205,6 +83556,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3g",
+   "help": "y8-4h-convert",
    "label": "3g",
    "section": "Fluency",
    "stem": "Convert these measurements to the units shown in the brackets.",
@@ -83215,6 +83567,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3h",
+   "help": "y8-4h-convert",
    "label": "3h",
    "section": "Fluency",
    "stem": "Convert these measurements to the units shown in the brackets.",
@@ -83225,6 +83578,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-4h-capacity",
    "label": "4a",
    "section": "Fluency",
    "stem": "Find the capacity of these containers. Give your answer in litres.",
@@ -83401,6 +83755,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-4h-capacity",
    "label": "4b",
    "section": "Fluency",
    "stem": "Find the capacity of these containers. Give your answer in litres.",
@@ -83576,6 +83931,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y8-4h-capacity",
    "label": "4c",
    "section": "Fluency",
    "stem": "Find the capacity of these containers. Give your answer in litres.",
@@ -83730,6 +84086,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y8-4h-capacity",
    "label": "4d",
    "section": "Fluency",
    "stem": "Find the capacity of these containers. Give your answer in litres.",
@@ -83905,6 +84262,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y8-4h-capacity",
    "label": "4e",
    "section": "Fluency",
    "stem": "Find the capacity of these containers. Give your answer in litres.",
@@ -84080,6 +84438,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y8-4h-capacity",
    "label": "4f",
    "section": "Fluency",
    "stem": "Find the capacity of these containers. Give your answer in litres.",
@@ -84255,6 +84614,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y8-4h-bigunits",
    "label": "5a",
    "section": "Problem-solving",
    "stem": "A cargo ship's fuel tanks hold $80\\,000$ m$^3$ when full.",
@@ -84266,6 +84626,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y8-4h-bigunits",
    "label": "5b",
    "section": "Problem-solving",
    "stem": "A cargo ship's fuel tanks hold $80\\,000$ m$^3$ when full.",
@@ -84276,6 +84637,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y8-4h-bigunits",
    "label": "5c",
    "section": "Problem-solving",
    "stem": "A cargo ship's fuel tanks hold $80\\,000$ m$^3$ when full.",
@@ -84286,6 +84648,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y8-4h-bigunits",
    "label": "5d",
    "section": "Problem-solving",
    "stem": "A cargo ship's fuel tanks hold $80\\,000$ m$^3$ when full.",
@@ -84296,6 +84659,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6",
+   "help": "y8-4h-rate",
    "label": "6",
    "section": "Problem-solving",
    "type": "numeric",
@@ -84305,6 +84669,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y8-4h-bigunits",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "An office tower is a rectangular prism $60$ m long, $45$ m wide and $200$ m high.",
@@ -84315,6 +84680,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y8-4h-bigunits",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "An office tower is a rectangular prism $60$ m long, $45$ m wide and $200$ m high.",
@@ -84326,6 +84692,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8",
+   "help": "y8-4h-capacity",
    "label": "8",
    "section": "Problem-solving",
    "type": "numeric",
@@ -84335,6 +84702,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y8-4h-count",
    "label": "9a",
    "section": "Problem-solving",
    "stem": "Using whole numbers only, how many different rectangular prisms have each volume? (A $1 \\times 2 \\times 6$ prism counts as the same as a $6 \\times 1 \\times 2$ prism.)",
@@ -84344,6 +84712,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y8-4h-count",
    "label": "9b",
    "section": "Problem-solving",
    "stem": "Using whole numbers only, how many different rectangular prisms have each volume? (A $1 \\times 2 \\times 6$ prism counts as the same as a $6 \\times 1 \\times 2$ prism.)",
@@ -84353,6 +84722,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y8-4h-count",
    "label": "9c",
    "section": "Problem-solving",
    "stem": "Using whole numbers only, how many different rectangular prisms have each volume? (A $1 \\times 2 \\times 6$ prism counts as the same as a $6 \\times 1 \\times 2$ prism.)",
@@ -84362,6 +84732,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y8-4h-bigunits",
    "label": "11a",
    "section": "Reasoning",
    "stem": "A cube measures $2$ m $\\times$ $2$ m $\\times$ $2$ m.",
@@ -84373,6 +84744,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y8-4h-bigunits",
    "label": "11b",
    "section": "Reasoning",
    "stem": "A cube measures $2$ m $\\times$ $2$ m $\\times$ $2$ m.",
@@ -84383,6 +84755,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12",
+   "help": "y8-4h-count",
    "label": "12",
    "section": "Reasoning",
    "type": "numeric",
@@ -84392,6 +84765,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y8-4h-volume",
    "label": "13a",
    "section": "Reasoning",
    "stem": "This rectangular prism is built from $1$ cm cubes. It is $6$ cubes long, $3$ cubes wide and $4$ cubes high.",
@@ -84719,6 +85093,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y8-4h-volume",
    "label": "13b",
    "section": "Reasoning",
    "stem": "This rectangular prism is built from $1$ cm cubes. It is $6$ cubes long, $3$ cubes wide and $4$ cubes high.",
@@ -84729,6 +85104,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y8-4h-half",
    "label": "14a",
    "section": "Enrichment",
    "stem": "A rectangular prism $6$ cm long, $4$ cm high and $5$ cm deep is cut in half along a diagonal of its ends, making two identical triangular prisms.",
@@ -84921,6 +85297,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y8-4h-half",
    "label": "14b",
    "section": "Enrichment",
    "stem": "Using a similar idea, find the volume of these prisms.",
@@ -85086,6 +85463,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14c",
+   "help": "y8-4h-half",
    "label": "14c",
    "section": "Enrichment",
    "stem": "Using a similar idea, find the volume of these prisms.",
@@ -85251,6 +85629,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14d",
+   "help": "y8-4h-half",
    "label": "14d",
    "section": "Enrichment",
    "stem": "Using a similar idea, find the volume of these prisms.",
@@ -85414,6 +85793,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14e",
+   "help": "y8-4h-half",
    "label": "14e",
    "section": "Enrichment",
    "stem": "Using a similar idea, find the volume of these prisms.",
@@ -85623,6 +86003,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14f",
+   "help": "y8-4h-half",
    "label": "14f",
    "section": "Enrichment",
    "stem": "Using a similar idea, find the volume of these prisms.",
@@ -85866,6 +86247,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14g",
+   "help": "y8-4h-half",
    "label": "14g",
    "section": "Enrichment",
    "stem": "Using a similar idea, find the volume of these prisms.",
@@ -86130,6 +86512,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-4i-ah",
    "label": "1a",
    "section": "Fluency",
    "stem": "Find the volume of these prisms.",
@@ -86273,6 +86656,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-4i-ah",
    "label": "1b",
    "section": "Fluency",
    "stem": "Find the volume of these prisms.",
@@ -86394,6 +86778,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-4i-ah",
    "label": "2a",
    "section": "Fluency",
    "stem": "Find the volume of these solids using $V = Ah$.",
@@ -86490,6 +86875,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-4i-ah",
    "label": "2b",
    "section": "Fluency",
    "stem": "Find the volume of these solids using $V = Ah$.",
@@ -86989,6 +87375,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-4i-ah",
    "label": "2c",
    "section": "Fluency",
    "stem": "Find the volume of these solids using $V = Ah$.",
@@ -87157,6 +87544,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-4i-prism",
    "label": "3a",
    "section": "Fluency",
    "stem": "Find the volume of these prisms.",
@@ -87280,6 +87668,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-4i-prism",
    "label": "3b",
    "section": "Fluency",
    "stem": "Find the volume of these prisms.",
@@ -87394,6 +87783,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-4i-prism",
    "label": "3c",
    "section": "Fluency",
    "stem": "Find the volume of these prisms.",
@@ -87551,6 +87941,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y8-4i-prism",
    "label": "3d",
    "section": "Fluency",
    "stem": "Find the volume of these prisms.",
@@ -87717,6 +88108,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y8-4i-prism",
    "label": "3e",
    "section": "Fluency",
    "stem": "Find the volume of these prisms.",
@@ -87890,6 +88282,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y8-4i-prism",
    "label": "3f",
    "section": "Fluency",
    "stem": "Find the volume of these prisms.",
@@ -88063,6 +88456,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-4i-cylinder",
    "label": "4a",
    "section": "Fluency",
    "stem": "Find the volume of these cylinders. Round the answer to two decimal places.",
@@ -88670,6 +89064,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-4i-cylinder",
    "label": "4b",
    "section": "Fluency",
    "stem": "Find the volume of these cylinders. Round the answer to two decimal places.",
@@ -89277,6 +89672,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y8-4i-cylinder",
    "label": "4c",
    "section": "Fluency",
    "stem": "Find the volume of these cylinders. Round the answer to two decimal places.",
@@ -89879,6 +90275,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y8-4i-cylinder",
    "label": "4d",
    "section": "Fluency",
    "stem": "Find the volume of these cylinders. Round the answer to two decimal places.",
@@ -90486,6 +90883,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y8-4i-cylinder",
    "label": "4e",
    "section": "Fluency",
    "stem": "Find the volume of these cylinders. Round the answer to two decimal places.",
@@ -91088,6 +91486,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y8-4i-cylinder",
    "label": "4f",
    "section": "Fluency",
    "stem": "Find the volume of these cylinders. Round the answer to two decimal places.",
@@ -91690,6 +92089,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4g",
+   "help": "y8-4i-cylinder",
    "label": "4g",
    "section": "Fluency",
    "stem": "Find the volume of these cylinders. Round the answer to two decimal places.",
@@ -92297,6 +92697,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4h",
+   "help": "y8-4i-cylinder",
    "label": "4h",
    "section": "Fluency",
    "stem": "Find the volume of these cylinders. Round the answer to two decimal places.",
@@ -92899,6 +93300,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4i",
+   "help": "y8-4i-cylinder",
    "label": "4i",
    "section": "Fluency",
    "stem": "Find the volume of these cylinders. Round the answer to two decimal places.",
@@ -93506,6 +93908,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y8-4i-tanks",
    "label": "5a",
    "section": "Problem-solving",
    "stem": "A cylindrical water tank has a diameter of $4$ m and a height of $1.5$ m.",
@@ -93517,6 +93920,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y8-4i-tanks",
    "label": "5b",
    "section": "Problem-solving",
    "stem": "A cylindrical water tank has a diameter of $4$ m and a height of $1.5$ m.",
@@ -93528,6 +93932,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y8-4i-tanks",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "Priya is choosing between a rectangular water tank measuring $2$ m by $1.5$ m by $2$ m and a cylindrical tank with radius $1$ m and height $2.2$ m.",
@@ -93541,6 +93946,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y8-4i-tanks",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "Priya is choosing between a rectangular water tank measuring $2$ m by $1.5$ m by $2$ m and a cylindrical tank with radius $1$ m and height $2.2$ m.",
@@ -93551,6 +93957,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7",
+   "help": "y8-4i-tanks",
    "label": "7",
    "section": "Problem-solving",
    "type": "numeric",
@@ -93559,6 +93966,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8",
+   "help": "y8-4i-tanks",
    "label": "8",
    "section": "Problem-solving",
    "type": "numeric",
@@ -93569,6 +93977,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y8-4i-prism",
    "label": "9a",
    "section": "Problem-solving",
    "stem": "A plunge pool is a prism with the trapezium cross-section shown. It is filled at a rate of $1500$ litres per hour.",
@@ -93742,6 +94151,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y8-4i-prism",
    "label": "9b",
    "section": "Problem-solving",
    "stem": "A plunge pool is a prism with the trapezium cross-section shown. It is filled at a rate of $1500$ litres per hour.",
@@ -93752,6 +94162,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y8-4i-exact",
    "label": "10a",
    "section": "Reasoning",
    "stem": "Using exact values (for example $10\\pi$ cm$^3$), find the volume of cylinders with these measurements.",
@@ -93764,6 +94175,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y8-4i-exact",
    "label": "10b",
    "section": "Reasoning",
    "stem": "Using exact values (for example $10\\pi$ cm$^3$), find the volume of cylinders with these measurements.",
@@ -93775,6 +94187,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y8-4i-exact",
    "label": "10c",
    "section": "Reasoning",
    "stem": "Using exact values (for example $10\\pi$ cm$^3$), find the volume of cylinders with these measurements.",
@@ -93786,6 +94199,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10d",
+   "help": "y8-4i-exact",
    "label": "10d",
    "section": "Reasoning",
    "stem": "Using exact values (for example $10\\pi$ cm$^3$), find the volume of cylinders with these measurements.",
@@ -93797,6 +94211,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11",
+   "help": "y8-4i-height",
    "label": "11",
    "section": "Reasoning",
    "type": "numeric",
@@ -93807,6 +94222,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12",
+   "help": "y8-4i-height",
    "label": "12",
    "section": "Reasoning",
    "type": "expression",
@@ -93819,6 +94235,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y8-4i-composite",
    "label": "13a",
    "section": "Enrichment",
    "stem": "Find the volume of these composite solids. Round the answer to two decimal places where necessary.",
@@ -94554,6 +94971,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y8-4i-composite",
    "label": "13b",
    "section": "Enrichment",
    "stem": "Find the volume of these composite solids. Round the answer to two decimal places where necessary.",
@@ -94922,6 +95340,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13c",
+   "help": "y8-4i-composite",
    "label": "13c",
    "section": "Enrichment",
    "stem": "Find the volume of these composite solids. Round the answer to two decimal places where necessary.",
@@ -95313,6 +95732,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13d",
+   "help": "y8-4i-composite",
    "label": "13d",
    "section": "Enrichment",
    "stem": "Find the volume of these composite solids. Round the answer to two decimal places where necessary.",
@@ -95839,6 +96259,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13e",
+   "help": "y8-4i-composite",
    "label": "13e",
    "section": "Enrichment",
    "stem": "Find the volume of these composite solids. Round the answer to two decimal places where necessary.",
@@ -96029,6 +96450,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13f",
+   "help": "y8-4i-composite",
    "label": "13f",
    "section": "Enrichment",
    "stem": "Find the volume of these composite solids. Round the answer to two decimal places where necessary.",
@@ -96449,6 +96871,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-4j-convert",
    "label": "1a",
    "section": "Fluency",
    "stem": "Convert these times to the units shown in brackets.",
@@ -96459,6 +96882,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-4j-convert",
    "label": "1b",
    "section": "Fluency",
    "stem": "Convert these times to the units shown in brackets.",
@@ -96469,6 +96893,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y8-4j-convert",
    "label": "1c",
    "section": "Fluency",
    "stem": "Convert these times to the units shown in brackets.",
@@ -96479,6 +96904,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y8-4j-convert",
    "label": "1d",
    "section": "Fluency",
    "stem": "Convert these times to the units shown in brackets.",
@@ -96489,6 +96915,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-4j-convert",
    "label": "2a",
    "section": "Fluency",
    "stem": "Convert these times to the units shown in brackets.",
@@ -96499,6 +96926,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-4j-convert",
    "label": "2b",
    "section": "Fluency",
    "stem": "Convert these times to the units shown in brackets.",
@@ -96509,6 +96937,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-4j-convert",
    "label": "2c",
    "section": "Fluency",
    "stem": "Convert these times to the units shown in brackets.",
@@ -96519,6 +96948,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y8-4j-convert",
    "label": "2d",
    "section": "Fluency",
    "stem": "Convert these times to the units shown in brackets.",
@@ -96529,6 +96959,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y8-4j-convert",
    "label": "2e",
    "section": "Fluency",
    "stem": "Convert these times to the units shown in brackets.",
@@ -96539,6 +96970,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y8-4j-convert",
    "label": "2f",
    "section": "Fluency",
    "stem": "Convert these times to the units shown in brackets.",
@@ -96549,6 +96981,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y8-4j-convert",
    "label": "2g",
    "section": "Fluency",
    "stem": "Convert these times to the units shown in brackets.",
@@ -96559,6 +96992,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y8-4j-convert",
    "label": "2h",
    "section": "Fluency",
    "stem": "Convert these times to the units shown in brackets.",
@@ -96569,6 +97003,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2i",
+   "help": "y8-4j-convert",
    "label": "2i",
    "section": "Fluency",
    "stem": "Convert these times to the units shown in brackets.",
@@ -96579,6 +97014,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2j",
+   "help": "y8-4j-convert",
    "label": "2j",
    "section": "Fluency",
    "stem": "Convert these times to the units shown in brackets.",
@@ -96589,6 +97025,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2k",
+   "help": "y8-4j-convert",
    "label": "2k",
    "section": "Fluency",
    "stem": "Convert these times to the units shown in brackets.",
@@ -96599,6 +97036,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2l",
+   "help": "y8-4j-convert",
    "label": "2l",
    "section": "Fluency",
    "stem": "Convert these times to the units shown in brackets.",
@@ -96609,6 +97047,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2m",
+   "help": "y8-4j-convert",
    "label": "2m",
    "section": "Fluency",
    "stem": "Convert these times to the units shown in brackets.",
@@ -96619,6 +97058,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2n",
+   "help": "y8-4j-convert",
    "label": "2n",
    "section": "Fluency",
    "stem": "Convert these times to the units shown in brackets.",
@@ -96629,6 +97069,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2o",
+   "help": "y8-4j-convert",
    "label": "2o",
    "section": "Fluency",
    "stem": "Convert these times to the units shown in brackets.",
@@ -96639,6 +97080,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2p",
+   "help": "y8-4j-convert",
    "label": "2p",
    "section": "Fluency",
    "stem": "Convert these times to the units shown in brackets.",
@@ -96649,6 +97091,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2q",
+   "help": "y8-4j-convert",
    "label": "2q",
    "section": "Fluency",
    "stem": "Convert these times to the units shown in brackets.",
@@ -96659,6 +97102,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2r",
+   "help": "y8-4j-convert",
    "label": "2r",
    "section": "Fluency",
    "stem": "Convert these times to the units shown in brackets.",
@@ -96669,6 +97113,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-4j-clock",
    "label": "3a",
    "section": "Fluency",
    "stem": "Write the time for these descriptions.",
@@ -96694,6 +97139,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-4j-clock",
    "label": "3b",
    "section": "Fluency",
    "stem": "Write the time for these descriptions.",
@@ -96724,6 +97170,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-4j-clock",
    "label": "3c",
    "section": "Fluency",
    "stem": "Write the time for these descriptions.",
@@ -96748,6 +97195,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y8-4j-clock",
    "label": "3d",
    "section": "Fluency",
    "stem": "Write the time for these descriptions.",
@@ -96772,6 +97220,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y8-4j-clock",
    "label": "3e",
    "section": "Fluency",
    "stem": "Write the time for these descriptions.",
@@ -96796,6 +97245,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y8-4j-clock",
    "label": "3f",
    "section": "Fluency",
    "stem": "Write the time for these descriptions.",
@@ -96820,6 +97270,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-4j-24h",
    "label": "4a",
    "section": "Fluency",
    "stem": "Write these times using the system shown in brackets.",
@@ -96837,6 +97288,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-4j-24h",
    "label": "4b",
    "section": "Fluency",
    "stem": "Write these times using the system shown in brackets.",
@@ -96853,6 +97305,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y8-4j-24h",
    "label": "4c",
    "section": "Fluency",
    "stem": "Write these times using the system shown in brackets.",
@@ -96869,6 +97322,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y8-4j-24h",
    "label": "4d",
    "section": "Fluency",
    "stem": "Write these times using the system shown in brackets.",
@@ -96885,6 +97339,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y8-4j-24h",
    "label": "4e",
    "section": "Fluency",
    "stem": "Write these times using the system shown in brackets.",
@@ -96904,6 +97359,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y8-4j-24h",
    "label": "4f",
    "section": "Fluency",
    "stem": "Write these times using the system shown in brackets.",
@@ -96930,6 +97386,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4g",
+   "help": "y8-4j-24h",
    "label": "4g",
    "section": "Fluency",
    "stem": "Write these times using the system shown in brackets.",
@@ -96948,6 +97405,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4h",
+   "help": "y8-4j-24h",
    "label": "4h",
    "section": "Fluency",
    "stem": "Write these times using the system shown in brackets.",
@@ -96966,6 +97424,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4i",
+   "help": "y8-4j-24h",
    "label": "4i",
    "section": "Fluency",
    "stem": "Write these times using the system shown in brackets.",
@@ -96984,6 +97443,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y8-4j-24h",
    "label": "5a",
    "section": "Fluency",
    "stem": "Round these times to the nearest hour.",
@@ -97007,6 +97467,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y8-4j-24h",
    "label": "5b",
    "section": "Fluency",
    "stem": "Round these times to the nearest hour.",
@@ -97029,6 +97490,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y8-4j-24h",
    "label": "5c",
    "section": "Fluency",
    "stem": "Round these times to the nearest hour.",
@@ -97046,6 +97508,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y8-4j-24h",
    "label": "5d",
    "section": "Fluency",
    "stem": "Round these times to the nearest hour.",
@@ -97062,6 +97525,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y8-4j-diff",
    "label": "6a",
    "section": "Fluency",
    "stem": "What is the time difference between these times? Give the hours, then the minutes.",
@@ -97075,6 +97539,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y8-4j-diff",
    "label": "6b",
    "section": "Fluency",
    "stem": "What is the time difference between these times? Give the hours, then the minutes.",
@@ -97087,6 +97552,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y8-4j-diff",
    "label": "6c",
    "section": "Fluency",
    "stem": "What is the time difference between these times? Give the hours, then the minutes.",
@@ -97099,6 +97565,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y8-4j-diff",
    "label": "6d",
    "section": "Fluency",
    "stem": "What is the time difference between these times? Give the hours, then the minutes.",
@@ -97111,6 +97578,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6e",
+   "help": "y8-4j-diff",
    "label": "6e",
    "section": "Fluency",
    "stem": "What is the time difference between these times? Give the hours, then the minutes.",
@@ -97123,6 +97591,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6f",
+   "help": "y8-4j-diff",
    "label": "6f",
    "section": "Fluency",
    "stem": "What is the time difference between these times? Give the hours, then the minutes.",
@@ -97135,6 +97604,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y8-4j-zones",
    "label": "7a",
    "section": "Fluency",
    "stem": "When it is 8 a.m. UTC, what time is it in these places? Use the table of standard time zones (hours ahead of UTC are +, hours behind are -).",
@@ -97247,6 +97717,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y8-4j-zones",
    "label": "7b",
    "section": "Fluency",
    "stem": "When it is 8 a.m. UTC, what time is it in these places? Use the table of standard time zones (hours ahead of UTC are +, hours behind are -).",
@@ -97275,6 +97746,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y8-4j-zones",
    "label": "7c",
    "section": "Fluency",
    "stem": "When it is 8 a.m. UTC, what time is it in these places? Use the table of standard time zones (hours ahead of UTC are +, hours behind are -).",
@@ -97303,6 +97775,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y8-4j-zones",
    "label": "7d",
    "section": "Fluency",
    "stem": "When it is 8 a.m. UTC, what time is it in these places? Use the table of standard time zones (hours ahead of UTC are +, hours behind are -).",
@@ -97327,6 +97800,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7e",
+   "help": "y8-4j-zones",
    "label": "7e",
    "section": "Fluency",
    "stem": "When it is 8 a.m. UTC, what time is it in these places? Use the table of standard time zones (hours ahead of UTC are +, hours behind are -).",
@@ -97357,6 +97831,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7f",
+   "help": "y8-4j-zones",
    "label": "7f",
    "section": "Fluency",
    "stem": "When it is 8 a.m. UTC, what time is it in these places? Use the table of standard time zones (hours ahead of UTC are +, hours behind are -).",
@@ -97387,6 +97862,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7g",
+   "help": "y8-4j-zones",
    "label": "7g",
    "section": "Fluency",
    "stem": "When it is 8 a.m. UTC, what time is it in these places? Use the table of standard time zones (hours ahead of UTC are +, hours behind are -).",
@@ -97415,6 +97891,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7h",
+   "help": "y8-4j-zones",
    "label": "7h",
    "section": "Fluency",
    "stem": "When it is 8 a.m. UTC, what time is it in these places? Use the table of standard time zones (hours ahead of UTC are +, hours behind are -).",
@@ -97445,6 +97922,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y8-4j-zones",
    "label": "8a",
    "section": "Fluency",
    "stem": "When it is 9:15 p.m. in New South Wales, what time is it in these places? Use the table of standard time zones (hours ahead of UTC are +, hours behind are -).",
@@ -97550,6 +98028,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y8-4j-zones",
    "label": "8b",
    "section": "Fluency",
    "stem": "When it is 9:15 p.m. in New South Wales, what time is it in these places? Use the table of standard time zones (hours ahead of UTC are +, hours behind are -).",
@@ -97574,6 +98053,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y8-4j-zones",
    "label": "8c",
    "section": "Fluency",
    "stem": "When it is 9:15 p.m. in New South Wales, what time is it in these places? Use the table of standard time zones (hours ahead of UTC are +, hours behind are -).",
@@ -97598,6 +98078,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y8-4j-zones",
    "label": "8d",
    "section": "Fluency",
    "stem": "When it is 9:15 p.m. in New South Wales, what time is it in these places? Use the table of standard time zones (hours ahead of UTC are +, hours behind are -).",
@@ -97622,6 +98103,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8e",
+   "help": "y8-4j-zones",
    "label": "8e",
    "section": "Fluency",
    "stem": "When it is 9:15 p.m. in New South Wales, what time is it in these places? Use the table of standard time zones (hours ahead of UTC are +, hours behind are -).",
@@ -97646,6 +98128,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8f",
+   "help": "y8-4j-zones",
    "label": "8f",
    "section": "Fluency",
    "stem": "When it is 9:15 p.m. in New South Wales, what time is it in these places? Use the table of standard time zones (hours ahead of UTC are +, hours behind are -).",
@@ -97670,6 +98153,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8g",
+   "help": "y8-4j-zones",
    "label": "8g",
    "section": "Fluency",
    "stem": "When it is 9:15 p.m. in New South Wales, what time is it in these places? Use the table of standard time zones (hours ahead of UTC are +, hours behind are -).",
@@ -97694,6 +98178,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8h",
+   "help": "y8-4j-zones",
    "label": "8h",
    "section": "Fluency",
    "stem": "When it is 9:15 p.m. in New South Wales, what time is it in these places? Use the table of standard time zones (hours ahead of UTC are +, hours behind are -).",
@@ -97718,6 +98203,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y8-4j-zones",
    "label": "9a",
    "section": "Fluency",
    "stem": "What is the time difference, in hours, between these pairs of places? Use the table of standard time zones (hours ahead of UTC are +, hours behind are -).",
@@ -97809,6 +98295,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y8-4j-zones",
    "label": "9b",
    "section": "Fluency",
    "stem": "What is the time difference, in hours, between these pairs of places? Use the table of standard time zones (hours ahead of UTC are +, hours behind are -).",
@@ -97819,6 +98306,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y8-4j-zones",
    "label": "9c",
    "section": "Fluency",
    "stem": "What is the time difference, in hours, between these pairs of places? Use the table of standard time zones (hours ahead of UTC are +, hours behind are -).",
@@ -97829,6 +98317,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y8-4j-zones",
    "label": "9d",
    "section": "Fluency",
    "stem": "What is the time difference, in hours, between these pairs of places? Use the table of standard time zones (hours ahead of UTC are +, hours behind are -).",
@@ -97839,6 +98328,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9e",
+   "help": "y8-4j-zones",
    "label": "9e",
    "section": "Fluency",
    "stem": "What is the time difference, in hours, between these pairs of places? Use the table of standard time zones (hours ahead of UTC are +, hours behind are -).",
@@ -97849,6 +98339,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10",
+   "help": "y8-4j-add",
    "label": "10",
    "section": "Problem-solving",
    "type": "numeric",
@@ -97858,6 +98349,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11",
+   "help": "y8-4j-add",
    "label": "11",
    "section": "Problem-solving",
    "type": "ordered",
@@ -97870,6 +98362,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12",
+   "help": "y8-4j-diff",
    "label": "12",
    "section": "Problem-solving",
    "type": "ordered",
@@ -97882,6 +98375,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y8-4j-zones",
    "label": "13a",
    "section": "Problem-solving",
    "stem": "A company holds a video meeting for staff in Perth (UTC $+8$), London (UTC $0$) and Toronto (UTC $-5$).",
@@ -97913,6 +98407,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y8-4j-zones",
    "label": "13b",
    "section": "Problem-solving",
    "stem": "A company holds a video meeting for staff in Perth (UTC $+8$), London (UTC $0$) and Toronto (UTC $-5$).",
@@ -97941,6 +98436,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13c",
+   "help": "y8-4j-zones",
    "label": "13c",
    "section": "Problem-solving",
    "stem": "A company holds a video meeting for staff in Perth (UTC $+8$), London (UTC $0$) and Toronto (UTC $-5$).",
@@ -97969,6 +98465,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13d",
+   "help": "y8-4j-zones",
    "label": "13d",
    "section": "Problem-solving",
    "stem": "A company holds a video meeting for staff in Perth (UTC $+8$), London (UTC $0$) and Toronto (UTC $-5$).",
@@ -97999,6 +98496,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y8-4j-pay",
    "label": "14a",
    "section": "Problem-solving",
    "stem": "A vet earns $\\$172\\,800$ a year, working $40$ weeks a year, $5$ days a week and $12$ hours a day. How much does the vet earn:",
@@ -98009,6 +98507,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y8-4j-pay",
    "label": "14b",
    "section": "Problem-solving",
    "stem": "A vet earns $\\$172\\,800$ a year, working $40$ weeks a year, $5$ days a week and $12$ hours a day. How much does the vet earn:",
@@ -98019,6 +98518,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14c",
+   "help": "y8-4j-pay",
    "label": "14c",
    "section": "Problem-solving",
    "stem": "A vet earns $\\$172\\,800$ a year, working $40$ weeks a year, $5$ days a week and $12$ hours a day. How much does the vet earn:",
@@ -98029,6 +98529,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14d",
+   "help": "y8-4j-pay",
    "label": "14d",
    "section": "Problem-solving",
    "stem": "A vet earns $\\$172\\,800$ a year, working $40$ weeks a year, $5$ days a week and $12$ hours a day. How much does the vet earn:",
@@ -98039,6 +98540,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15",
+   "help": "y8-4j-travel",
    "label": "15",
    "section": "Problem-solving",
    "type": "text",
@@ -98063,6 +98565,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16a",
+   "help": "y8-4j-travel",
    "label": "16a",
    "section": "Problem-solving",
    "stem": "Kai leaves Sydney (UTC $+10$) on a $22$-hour flight to London (UTC $0$) at 9 p.m. on 3 March.",
@@ -98094,6 +98597,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16b",
+   "help": "y8-4j-travel",
    "label": "16b",
    "section": "Problem-solving",
    "stem": "Kai leaves Sydney (UTC $+10$) on a $22$-hour flight to London (UTC $0$) at 9 p.m. on 3 March.",
@@ -98108,6 +98612,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17a",
+   "help": "y8-4j-travel",
    "label": "17a",
    "section": "Problem-solving",
    "stem": "Amara leaves Nairobi, Kenya (UTC $+3$) on a $10$-hour flight to Perth (UTC $+8$) at 11:20 p.m. on 14 June.",
@@ -98133,6 +98638,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17b",
+   "help": "y8-4j-travel",
    "label": "17b",
    "section": "Problem-solving",
    "stem": "Amara leaves Nairobi, Kenya (UTC $+3$) on a $10$-hour flight to Perth (UTC $+8$) at 11:20 p.m. on 14 June.",
@@ -98147,6 +98653,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q18",
+   "help": "y8-4j-convert",
    "label": "18",
    "section": "Reasoning",
    "type": "numeric",
@@ -98157,6 +98664,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q19a",
+   "help": "y8-4j-convert",
    "label": "19a",
    "section": "Reasoning",
    "stem": "What single number do you multiply or divide by:",
@@ -98166,6 +98674,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q19b",
+   "help": "y8-4j-convert",
    "label": "19b",
    "section": "Reasoning",
    "stem": "What single number do you multiply or divide by:",
@@ -98175,6 +98684,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q19c",
+   "help": "y8-4j-convert",
    "label": "19c",
    "section": "Reasoning",
    "stem": "What single number do you multiply or divide by:",
@@ -98184,6 +98694,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q19d",
+   "help": "y8-4j-convert",
    "label": "19d",
    "section": "Reasoning",
    "stem": "What single number do you multiply or divide by:",
@@ -98193,6 +98704,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q20",
+   "help": "y8-4j-day",
    "label": "20",
    "section": "Reasoning",
    "type": "choice",
@@ -98219,6 +98731,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-4k-triple",
    "label": "1a",
    "section": "Fluency",
    "stem": "Decide if the following are Pythagorean triples.",
@@ -98232,6 +98745,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-4k-triple",
    "label": "1b",
    "section": "Fluency",
    "stem": "Decide if the following are Pythagorean triples.",
@@ -98245,6 +98759,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y8-4k-triple",
    "label": "1c",
    "section": "Fluency",
    "stem": "Decide if the following are Pythagorean triples.",
@@ -98258,6 +98773,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-4k-triple",
    "label": "2a",
    "section": "Fluency",
    "stem": "Decide if the following are Pythagorean triples.",
@@ -98271,6 +98787,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-4k-triple",
    "label": "2b",
    "section": "Fluency",
    "stem": "Decide if the following are Pythagorean triples.",
@@ -98284,6 +98801,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-4k-triple",
    "label": "2c",
    "section": "Fluency",
    "stem": "Decide if the following are Pythagorean triples.",
@@ -98297,6 +98815,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y8-4k-triple",
    "label": "2d",
    "section": "Fluency",
    "stem": "Decide if the following are Pythagorean triples.",
@@ -98310,6 +98829,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y8-4k-triple",
    "label": "2e",
    "section": "Fluency",
    "stem": "Decide if the following are Pythagorean triples.",
@@ -98323,6 +98843,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y8-4k-triple",
    "label": "2f",
    "section": "Fluency",
    "stem": "Decide if the following are Pythagorean triples.",
@@ -98336,6 +98857,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-4k-squares",
    "label": "3a",
    "section": "Fluency",
    "stem": "Check that $a^2 + b^2 = c^2$ for these right-angled triangles. For each one, find the sum of the squares of the two shorter sides. (It should equal the square of the hypotenuse.)",
@@ -98401,6 +98923,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-4k-squares",
    "label": "3b",
    "section": "Fluency",
    "stem": "Check that $a^2 + b^2 = c^2$ for these right-angled triangles. For each one, find the sum of the squares of the two shorter sides. (It should equal the square of the hypotenuse.)",
@@ -98466,6 +98989,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-4k-squares",
    "label": "3c",
    "section": "Fluency",
    "stem": "Check that $a^2 + b^2 = c^2$ for these right-angled triangles. For each one, find the sum of the squares of the two shorter sides. (It should equal the square of the hypotenuse.)",
@@ -98531,6 +99055,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y8-4k-squares",
    "label": "3d",
    "section": "Fluency",
    "stem": "Check that $a^2 + b^2 = c^2$ for these right-angled triangles. For each one, find the sum of the squares of the two shorter sides. (It should equal the square of the hypotenuse.)",
@@ -98597,6 +99122,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y8-4k-squares",
    "label": "3e",
    "section": "Fluency",
    "stem": "Check that $a^2 + b^2 = c^2$ for these right-angled triangles. For each one, find the sum of the squares of the two shorter sides. (It should equal the square of the hypotenuse.)",
@@ -98661,6 +99187,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y8-4k-squares",
    "label": "3f",
    "section": "Fluency",
    "stem": "Check that $a^2 + b^2 = c^2$ for these right-angled triangles. For each one, find the sum of the squares of the two shorter sides. (It should equal the square of the hypotenuse.)",
@@ -98726,6 +99253,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-4k-classify",
    "label": "4a",
    "section": "Fluency",
    "stem": "Classify these triangles as right-angled, acute or obtuse, using their side lengths.",
@@ -98786,6 +99314,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-4k-classify",
    "label": "4b",
    "section": "Fluency",
    "stem": "Classify these triangles as right-angled, acute or obtuse, using their side lengths.",
@@ -98846,6 +99375,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y8-4k-classify",
    "label": "4c",
    "section": "Fluency",
    "stem": "Classify these triangles as right-angled, acute or obtuse, using their side lengths.",
@@ -98906,6 +99436,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y8-4k-classify",
    "label": "4d",
    "section": "Fluency",
    "stem": "Classify these triangles as right-angled, acute or obtuse, using their side lengths.",
@@ -98966,6 +99497,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y8-4k-classify",
    "label": "4e",
    "section": "Fluency",
    "stem": "Classify these triangles as right-angled, acute or obtuse, using their side lengths.",
@@ -99026,6 +99558,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y8-4k-classify",
    "label": "4f",
    "section": "Fluency",
    "stem": "Classify these triangles as right-angled, acute or obtuse, using their side lengths.",
@@ -99086,6 +99619,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y8-4k-equation",
    "label": "5a",
    "section": "Problem-solving",
    "stem": "Write an equation using Pythagoras' theorem and the pronumerals in each diagram.",
@@ -99197,6 +99731,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y8-4k-equation",
    "label": "5b",
    "section": "Problem-solving",
    "stem": "Write an equation using Pythagoras' theorem and the pronumerals in each diagram.",
@@ -99433,6 +99968,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y8-4k-equation",
    "label": "5c",
    "section": "Problem-solving",
    "stem": "Write an equation using Pythagoras' theorem and the pronumerals in each diagram.",
@@ -100053,6 +100589,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y8-4k-triple",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "A wire runs from the top of a $24$ m flagpole to a point on the ground $26$ m from the base of the pole. The wire is $35$ m long.",
@@ -100066,6 +100603,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y8-4k-triple",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "A wire runs from the top of a $24$ m flagpole to a point on the ground $26$ m from the base of the pole. The wire is $35$ m long.",
@@ -100079,6 +100617,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y8-4k-triple",
    "label": "7a",
    "section": "Problem-solving",
    "type": "numeric",
@@ -100087,6 +100626,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y8-4k-triple",
    "label": "7b",
    "section": "Problem-solving",
    "type": "numeric",
@@ -100095,6 +100635,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8",
+   "help": "y8-4k-classify",
    "label": "8",
    "section": "Reasoning",
    "type": "numeric",
@@ -100103,6 +100644,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y8-4k-equation",
    "label": "10a",
    "section": "Reasoning",
    "stem": "If $x^2 + y^2 = z^2$ is true, complete these statements.",
@@ -100114,6 +100656,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y8-4k-equation",
    "label": "10b",
    "section": "Reasoning",
    "stem": "If $x^2 + y^2 = z^2$ is true, complete these statements.",
@@ -100124,6 +100667,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y8-4k-equation",
    "label": "10c",
    "section": "Reasoning",
    "stem": "If $x^2 + y^2 = z^2$ is true, complete these statements.",
@@ -100134,6 +100678,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11",
+   "help": "y8-4k-equation",
    "label": "11",
    "section": "Reasoning",
    "type": "expression",
@@ -100209,6 +100754,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y8-4k-proof",
    "label": "12a",
    "section": "Enrichment",
    "stem": "This diagram proves Pythagoras' theorem. Four copies of a right-angled triangle with shorter sides $a$ and $b$ and hypotenuse $c$ sit inside a large square. The tilted square in the middle has side length $c$, so its area is $c^2$.",
@@ -100399,6 +100945,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y8-4k-proof",
    "label": "12b",
    "section": "Enrichment",
    "stem": "This diagram proves Pythagoras' theorem. Four copies of a right-angled triangle with shorter sides $a$ and $b$ and hypotenuse $c$ sit inside a large square. The tilted square in the middle has side length $c$, so its area is $c^2$.",
@@ -100409,6 +100956,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y8-4k-proof",
    "label": "12c",
    "section": "Enrichment",
    "stem": "This diagram proves Pythagoras' theorem. Four copies of a right-angled triangle with shorter sides $a$ and $b$ and hypotenuse $c$ sit inside a large square. The tilted square in the middle has side length $c$, so its area is $c^2$.",
@@ -100428,6 +100976,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-4l-hyp",
    "label": "1a",
    "section": "Fluency",
    "stem": "Find the length of the hypotenuse for these right-angled triangles.",
@@ -100493,6 +101042,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-4l-hyp",
    "label": "1b",
    "section": "Fluency",
    "stem": "Find the length of the hypotenuse for these right-angled triangles.",
@@ -100558,6 +101108,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-4l-hyp",
    "label": "2a",
    "section": "Fluency",
    "stem": "Find the length of the hypotenuse of these right-angled triangles.",
@@ -100623,6 +101174,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-4l-hyp",
    "label": "2b",
    "section": "Fluency",
    "stem": "Find the length of the hypotenuse of these right-angled triangles.",
@@ -100688,6 +101240,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-4l-hyp",
    "label": "2c",
    "section": "Fluency",
    "stem": "Find the length of the hypotenuse of these right-angled triangles.",
@@ -100753,6 +101306,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y8-4l-hyp",
    "label": "2d",
    "section": "Fluency",
    "stem": "Find the length of the hypotenuse of these right-angled triangles.",
@@ -100818,6 +101372,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y8-4l-hyp",
    "label": "2e",
    "section": "Fluency",
    "stem": "Find the length of the hypotenuse of these right-angled triangles.",
@@ -100884,6 +101439,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y8-4l-hyp",
    "label": "2f",
    "section": "Fluency",
    "stem": "Find the length of the hypotenuse of these right-angled triangles.",
@@ -100949,6 +101505,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-4l-hyp",
    "label": "3a",
    "section": "Fluency",
    "stem": "Find the length of the hypotenuse of these right-angled triangles, correct to two decimal places.",
@@ -101015,6 +101572,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-4l-hyp",
    "label": "3b",
    "section": "Fluency",
    "stem": "Find the length of the hypotenuse of these right-angled triangles, correct to two decimal places.",
@@ -101081,6 +101639,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-4l-hyp",
    "label": "3c",
    "section": "Fluency",
    "stem": "Find the length of the hypotenuse of these right-angled triangles, correct to two decimal places.",
@@ -101147,6 +101706,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y8-4l-hyp",
    "label": "3d",
    "section": "Fluency",
    "stem": "Find the length of the hypotenuse of these right-angled triangles, correct to two decimal places.",
@@ -101213,6 +101773,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y8-4l-hyp",
    "label": "3e",
    "section": "Fluency",
    "stem": "Find the length of the hypotenuse of these right-angled triangles, correct to two decimal places.",
@@ -101280,6 +101841,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y8-4l-hyp",
    "label": "3f",
    "section": "Fluency",
    "stem": "Find the length of the hypotenuse of these right-angled triangles, correct to two decimal places.",
@@ -101347,6 +101909,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4",
+   "help": "y8-4l-problems",
    "label": "4",
    "section": "Problem-solving",
    "type": "numeric",
@@ -101408,6 +101971,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5",
+   "help": "y8-4l-problems",
    "label": "5",
    "section": "Problem-solving",
    "type": "numeric",
@@ -101418,6 +101982,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6",
+   "help": "y8-4l-twostep",
    "label": "6",
    "section": "Problem-solving",
    "type": "numeric",
@@ -101528,6 +102093,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7",
+   "help": "y8-4l-twostep",
    "label": "7",
    "section": "Problem-solving",
    "type": "numeric",
@@ -102137,6 +102703,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y8-4l-errors",
    "label": "8a",
    "section": "Reasoning",
    "stem": "Each piece of working has an error. Find the correct value of $c$, rounding to two decimal places if needed.",
@@ -102147,6 +102714,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y8-4l-errors",
    "label": "8b",
    "section": "Reasoning",
    "stem": "Each piece of working has an error. Find the correct value of $c$, rounding to two decimal places if needed.",
@@ -102156,6 +102724,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y8-4l-errors",
    "label": "8c",
    "section": "Reasoning",
    "stem": "Each piece of working has an error. Find the correct value of $c$, rounding to two decimal places if needed.",
@@ -102166,6 +102735,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y8-4l-isosceles",
    "label": "9a",
    "section": "Reasoning",
    "stem": "An isosceles triangle can be split into two right-angled triangles, so Pythagoras' theorem can be used to find side lengths.",
@@ -102255,6 +102825,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y8-4l-isosceles",
    "label": "9b",
    "section": "Reasoning",
    "stem": "An isosceles triangle can be split into two right-angled triangles, so Pythagoras' theorem can be used to find side lengths.",
@@ -102264,6 +102835,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y8-4l-isosceles",
    "label": "9c",
    "section": "Reasoning",
    "stem": "An isosceles triangle can be split into two right-angled triangles, so Pythagoras' theorem can be used to find side lengths.",
@@ -102356,6 +102928,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y8-4l-notright",
    "label": "10a",
    "section": "Reasoning",
    "stem": "Show that these are not right-angled triangles. For each one, find $c^2$ (the square of the longest side) and then $a^2 + b^2$ (the sum of the squares of the other two sides).",
@@ -102415,6 +102988,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y8-4l-notright",
    "label": "10b",
    "section": "Reasoning",
    "stem": "Show that these are not right-angled triangles. For each one, find $c^2$ (the square of the longest side) and then $a^2 + b^2$ (the sum of the squares of the other two sides).",
@@ -102473,6 +103047,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y8-4l-notright",
    "label": "10c",
    "section": "Reasoning",
    "stem": "Show that these are not right-angled triangles. For each one, find $c^2$ (the square of the longest side) and then $a^2 + b^2$ (the sum of the squares of the other two sides).",
@@ -102531,6 +103106,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y8-4l-perimeter",
    "label": "12a",
    "section": "Enrichment",
    "stem": "Find the perimeter of these shapes, correct to two decimal places.",
@@ -102590,6 +103166,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y8-4l-perimeter",
    "label": "12b",
    "section": "Enrichment",
    "stem": "Find the perimeter of these shapes, correct to two decimal places.",
@@ -102649,6 +103226,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y8-4l-perimeter",
    "label": "12c",
    "section": "Enrichment",
    "stem": "Find the perimeter of these shapes, correct to two decimal places.",
@@ -102744,6 +103322,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12d",
+   "help": "y8-4l-perimeter",
    "label": "12d",
    "section": "Enrichment",
    "stem": "Find the perimeter of these shapes, correct to two decimal places.",
@@ -102831,6 +103410,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12e",
+   "help": "y8-4l-perimeter",
    "label": "12e",
    "section": "Enrichment",
    "stem": "Find the perimeter of these shapes, correct to two decimal places.",
@@ -103031,6 +103611,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12f",
+   "help": "y8-4l-perimeter",
    "label": "12f",
    "section": "Enrichment",
    "stem": "Find the perimeter of these shapes, correct to two decimal places.",
@@ -103360,6 +103941,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-4m-short",
    "label": "1a",
    "section": "Fluency",
    "stem": "Find the length of the unknown side in these right-angled triangles.",
@@ -103425,6 +104007,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-4m-short",
    "label": "1b",
    "section": "Fluency",
    "stem": "Find the length of the unknown side in these right-angled triangles.",
@@ -103490,6 +104073,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-4m-short",
    "label": "2a",
    "section": "Fluency",
    "stem": "Find the length of the unknown side in these right-angled triangles.",
@@ -103554,6 +104138,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-4m-short",
    "label": "2b",
    "section": "Fluency",
    "stem": "Find the length of the unknown side in these right-angled triangles.",
@@ -103620,6 +104205,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-4m-short",
    "label": "2c",
    "section": "Fluency",
    "stem": "Find the length of the unknown side in these right-angled triangles.",
@@ -103685,6 +104271,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y8-4m-short",
    "label": "2d",
    "section": "Fluency",
    "stem": "Find the length of the unknown side in these right-angled triangles.",
@@ -103750,6 +104337,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-4m-short",
    "label": "3a",
    "section": "Fluency",
    "stem": "Find the length of the unknown side in these right-angled triangles, giving the answer correct to two decimal places.",
@@ -103816,6 +104404,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-4m-short",
    "label": "3b",
    "section": "Fluency",
    "stem": "Find the length of the unknown side in these right-angled triangles, giving the answer correct to two decimal places.",
@@ -103882,6 +104471,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-4m-short",
    "label": "3c",
    "section": "Fluency",
    "stem": "Find the length of the unknown side in these right-angled triangles, giving the answer correct to two decimal places.",
@@ -103948,6 +104538,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y8-4m-short",
    "label": "3d",
    "section": "Fluency",
    "stem": "Find the length of the unknown side in these right-angled triangles, giving the answer correct to two decimal places.",
@@ -104014,6 +104605,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y8-4m-short",
    "label": "3e",
    "section": "Fluency",
    "stem": "Find the length of the unknown side in these right-angled triangles, giving the answer correct to two decimal places.",
@@ -104081,6 +104673,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y8-4m-short",
    "label": "3f",
    "section": "Fluency",
    "stem": "Find the length of the unknown side in these right-angled triangles, giving the answer correct to two decimal places.",
@@ -104148,6 +104741,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4",
+   "help": "y8-4m-problems",
    "label": "4",
    "section": "Problem-solving",
    "type": "numeric",
@@ -104221,6 +104815,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5",
+   "help": "y8-4m-problems",
    "label": "5",
    "section": "Problem-solving",
    "type": "numeric",
@@ -104314,6 +104909,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6",
+   "help": "y8-4m-problems",
    "label": "6",
    "section": "Problem-solving",
    "type": "numeric",
@@ -104923,6 +105519,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7",
+   "help": "y8-4m-twostep",
    "label": "7",
    "section": "Problem-solving",
    "type": "numeric",
@@ -105012,6 +105609,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8",
+   "help": "y8-4m-problems",
    "label": "8",
    "section": "Problem-solving",
    "type": "numeric",
@@ -105088,6 +105686,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y8-4m-errors",
    "label": "9a",
    "section": "Reasoning",
    "stem": "The second line of working in each part has a mistake. Find the correct value of $a$ (a positive number), rounding to two decimal places if needed.",
@@ -105098,6 +105697,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y8-4m-errors",
    "label": "9b",
    "section": "Reasoning",
    "stem": "The second line of working in each part has a mistake. Find the correct value of $a$ (a positive number), rounding to two decimal places if needed.",
@@ -105107,6 +105707,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y8-4m-errors",
    "label": "9c",
    "section": "Reasoning",
    "stem": "The second line of working in each part has a mistake. Find the correct value of $a$ (a positive number), rounding to two decimal places if needed.",
@@ -105116,6 +105717,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y8-4m-isosceles",
    "label": "10a",
    "section": "Reasoning",
    "stem": "An isosceles triangle can be split into two right-angled triangles. Use this to answer these questions about the triangle shown.",
@@ -105217,6 +105819,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y8-4m-isosceles",
    "label": "10b",
    "section": "Reasoning",
    "stem": "An isosceles triangle can be split into two right-angled triangles. Use this to answer these questions about the triangle shown.",
@@ -105226,6 +105829,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y8-4m-surd",
    "label": "11a",
    "section": "Reasoning",
    "stem": "A surd such as $\\sqrt{11}$ is an exact value. The exact length of the unknown side of each triangle is $\\sqrt{n}$. Find $n$.",
@@ -105283,6 +105887,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y8-4m-surd",
    "label": "11b",
    "section": "Reasoning",
    "stem": "A surd such as $\\sqrt{11}$ is an exact value. The exact length of the unknown side of each triangle is $\\sqrt{n}$. Find $n$.",
@@ -105340,6 +105945,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y8-4m-surd",
    "label": "11c",
    "section": "Reasoning",
    "stem": "A surd such as $\\sqrt{11}$ is an exact value. The exact length of the unknown side of each triangle is $\\sqrt{n}$. Find $n$.",
@@ -105397,6 +106003,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y8-4m-isoright",
    "label": "12a",
    "section": "Reasoning",
    "stem": "Find the unknown length $x$ in these isosceles right-angled triangles. Round to two decimal places.",
@@ -105473,6 +106080,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y8-4m-isoright",
    "label": "12b",
    "section": "Reasoning",
    "stem": "Find the unknown length $x$ in these isosceles right-angled triangles. Round to two decimal places.",
@@ -105549,6 +106157,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y8-4m-isoright",
    "label": "12c",
    "section": "Reasoning",
    "stem": "Find the unknown length $x$ in these isosceles right-angled triangles. Round to two decimal places.",
@@ -105626,6 +106235,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12d",
+   "help": "y8-4m-isoright",
    "label": "12d",
    "section": "Reasoning",
    "stem": "Find the unknown length $x$ in these isosceles right-angled triangles. Round to two decimal places.",
@@ -105702,6 +106312,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y8-4m-family",
    "label": "13a",
    "section": "Enrichment",
    "stem": "Triples such as $(3, 4, 5)$, $(6, 8, 10)$ and $(9, 12, 15)$ belong to the same family of Pythagorean triples: each one is a whole-number multiple of $(3, 4, 5)$.",
@@ -105716,6 +106327,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y8-4m-family",
    "label": "13b",
    "section": "Enrichment",
    "stem": "Triples such as $(3, 4, 5)$, $(6, 8, 10)$ and $(9, 12, 15)$ belong to the same family of Pythagorean triples: each one is a whole-number multiple of $(3, 4, 5)$.",
