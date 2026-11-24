@@ -353,6 +353,39 @@ const Checker = (() => {
     });
   }
 
+  // Is the answer one fraction top/bottom (no + or - outside brackets) where the number
+  // content of the top and of the bottom share a factor above 1? The content of 6x-15 is 3,
+  // of 4(x+2) is 4, of 9 is 9. Anything it cannot read (decimals, nested brackets) is a no.
+  function fractionCancels(src) {
+    const s = clean(src).toLowerCase().replace(/\s+/g, '').replace(/\*/g, '').replace(/^-/, '');
+    if (/\./.test(s) || topLevelPlusMinus(s)) return false;
+    let depth = 0, cut = -1;
+    for (let i = 0; i < s.length; i++) {
+      const c = s[i];
+      if (c === '(') depth++;
+      else if (c === ')') depth--;
+      else if (c === '/' && depth === 0) { if (cut >= 0) return false; cut = i; }
+    }
+    if (cut < 0) return false;
+    const content = (p) => {
+      let m = p.match(/^\(([^()]+)\)$/);
+      if (m) {
+        const nums = m[1].split(/(?<!\^)(?=[+-])/).map(t => t.replace(/^[+-]/, '')).filter(Boolean)
+          .map(t => { const d = t.match(/^(\d+)/); return d ? +d[1] : 1; });
+        return nums.length ? nums.reduce((a, b) => gcd(a, b)) : null;
+      }
+      m = p.match(/^(\d+)(.*)$/);
+      if (m) {
+        if (/^[a-z^0-9]*$/.test(m[2])) return +m[1];
+        if (/^[a-z^0-9]*\([^()]+\)$/.test(m[2])) { const c = content(m[2].slice(m[2].indexOf('('))); return c ? +m[1] * c : null; }
+        return null;
+      }
+      return /^[a-z^0-9]*(\([^()]+\))?$/.test(p) ? 1 : null;
+    };
+    const top = content(s.slice(0, cut)), bottom = content(s.slice(cut + 1));
+    return !!top && !!bottom && gcd(top, bottom) > 1;
+  }
+
   function expressionMatch(q, studentRaw, expectedRaw) {
     if (!/x/i.test(String(expectedRaw))) studentRaw = String(studentRaw).replace(/[xX]/g, '*');
     let sParts, eParts;
@@ -397,6 +430,9 @@ const Checker = (() => {
           });
         };
         if (loose(String(studentRaw)) && !loose(String(expectedRaw))) return { correct: false, reason: 'not simplified' };
+        // A single fraction whose whole top and whole bottom share a number factor still
+        // cancels: (6x-15)/9 for (2x-5)/3, 4(x+2)/10 for 2(x+2)/5.
+        if (fractionCancels(String(studentRaw)) && !fractionCancels(String(expectedRaw))) return { correct: false, reason: 'not simplified' };
         // "Write as a single fraction": if the key has no + or - outside brackets, a
         // student answer that still has one (a/2 + b/3) is not finished.
         if (!topLevelPlusMinus(String(expectedRaw)) && topLevelPlusMinus(String(studentRaw))) return { correct: false, reason: 'not simplified' };
