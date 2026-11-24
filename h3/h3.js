@@ -451,8 +451,10 @@
         ${(q.options || []).map((o, i) => `<label class="choice"><input type="radio" name="c-${esc(q.id)}" value="${i}" ${saved && String(saved.v) === String(i) ? 'checked' : ''} ${locked ? 'disabled' : ''}><span><b>${'ABCDEFGH'[i]}.</b> ${esc(o)}</span></label>`).join('')}
       </div>`;
     }
-    const pre = q.units && /^[$£€]/.test(q.units) ? `<span class="units">${esc(q.units)}</span>` : '';
-    const post = q.units && !/^[$£€]/.test(q.units) ? `<span class="units">${esc(q.units)}</span>` : '';
+    // A plain currency sign goes in front ($ 12.50); a rate like $/L goes after.
+    const front = q.units && /^[$£€]$/.test(q.units.trim());
+    const pre = front ? `<span class="units">${esc(q.units)}</span>` : '';
+    const post = q.units && !front ? `<span class="units">${esc(q.units)}</span>` : '';
     return `${pre}<input type="text" id="in-${esc(q.id)}" autocomplete="off" autocapitalize="off" spellcheck="false"
       aria-label="Answer to question" placeholder="${esc(PLACEHOLDERS[q.type] || PLACEHOLDERS.numeric)}"
       value="${saved ? esc(saved.v) : ''}" ${locked ? 'readonly' : ''}>${post}`;
