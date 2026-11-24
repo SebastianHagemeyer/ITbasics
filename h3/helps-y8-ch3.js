@@ -927,16 +927,16 @@
 
     // Y8 3J Q11, Q13: why the starting value matters
     'y8-3j-reason': `
-      <p class="hp-tag">Worked example: a price goes from <b>$50</b> to <b>$80</b>, and another goes from <b>$80</b> to <b>$50</b>.</p>
+      <p class="hp-tag">Worked example: a price goes from <b>$30</b> to <b>$60</b>, and another goes from <b>$60</b> to <b>$30</b>.</p>
       ${steps(
         `<p><strong>Going up:</strong></p>
-         ${sum('30/50 × 100 = 60% profit')}`,
+         ${sum('30/30 × 100 = 100% profit')}`,
         `<p><strong>Going down:</strong></p>
-         ${sum('30/80 × 100 = 37.5% loss')}`,
+         ${sum('30/60 × 100 = 50% loss')}`,
         `<p><strong>Same $30 change, different start.</strong> A percentage compares the change with the starting value, so a smaller start gives a bigger percentage.</p>
-         ${ans('60% and 37.5%')}`
+         ${ans('100% and 50%')}`
       )}
-      ${tip('Over several steps, do not add the percentages. 20 to 50 is 150%, and 50 to 80 is 60%, but 20 to 80 overall is 60/20 × 100 = 300%.')}`,
+      ${tip('Over several steps, do not add the percentages. 10 to 30 is 200%, and 30 to 36 is 20%, but 10 to 36 overall is 26/10 × 100 = 260%.')}`,
 
     // Y8 3J Q14: growth year after year
     'y8-3j-growth': `

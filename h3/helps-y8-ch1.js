@@ -580,17 +580,17 @@
 
     // y8-1D Q6: LCM and HCF from prime factors
     'y8-1d-lcm-hcf': `
-      <p class="hp-tag">Worked example: find the LCM and HCF of <b>20</b> and <b>50</b>.</p>
+      <p class="hp-tag">Worked example: find the LCM and HCF of <b>40</b> and <b>50</b>.</p>
       ${steps(
         `<p><strong>Write both in prime factor form.</strong></p>
-         ${sum('20 = 2² × 5<br>50 = 2 × 5²')}`,
+         ${sum('40 = 2³ × 5<br>50 = 2 × 5²')}`,
         `<p><strong>HCF: the primes in both, using the smaller power.</strong></p>
          ${sum('HCF = 2 × 5 = 10')}`,
         `<p><strong>LCM: every prime that appears, using the bigger power.</strong> Type the LCM first, then the HCF.</p>
-         ${sum('LCM = 2² × 5² = 100')}
-         ${ans('100, 10')}`
+         ${sum('LCM = 2³ × 5² = 200')}
+         ${ans('200, 10')}`
       )}
-      ${tip('Check: LCM × HCF = the two numbers multiplied. 100 × 10 = 1000 and 20 × 50 = 1000 ✓.')}`,
+      ${tip('Check: LCM × HCF = the two numbers multiplied. 200 × 10 = 2000 and 40 × 50 = 2000 ✓.')}`,
 
     // y8-1D Q7, Q8: LCM or HCF word problems
     'y8-1d-word': `
@@ -619,14 +619,14 @@
 
     // y8-1D Q10: divisible by two primes
     'y8-1d-two-primes': `
-      <p class="hp-tag">Worked example: a number is divisible by <b>33</b> if it is divisible by which two primes?</p>
+      <p class="hp-tag">Worked example: a number is divisible by <b>39</b> if it is divisible by which two primes?</p>
       ${steps(
         `<p><strong>Write the number as a product of primes.</strong></p>
-         ${sum('33 = 3 × 11')}`,
+         ${sum('39 = 3 × 13')}`,
         `<p><strong>Those are the two primes.</strong> Type them with a comma, smallest first.</p>
-         ${ans('3, 11')}`
+         ${ans('3, 13')}`
       )}
-      ${tip('This works when the two primes are different, like 15 = 3 × 5. It would not work for 9 = 3 × 3.')}`,
+      ${tip('This works when the two primes are different, like 6 = 2 × 3 in the question. It would not work for 4 = 2 × 2: 6 divides by 2, but not by 4.')}`,
 
     // y8-1D Q12: dividing by 11 and the test for 11
     'y8-1d-eleven': `
@@ -786,13 +786,13 @@
 
     // y8-1F Q3, Q4: subtracting a negative number
     'y8-1f-sub-neg': `
-      <p class="hp-tag">Worked example: <b>5 − (−9)</b></p>
+      <p class="hp-tag">Worked example: <b>4 − (−9)</b></p>
       ${steps(
         `<p><strong>Subtracting a negative is the same as adding.</strong> The two minus signs make a plus.</p>
-         ${sum('5 − (−9) = 5 + 9')}`,
+         ${sum('4 − (−9) = 4 + 9')}`,
         `<p><strong>Work it out.</strong></p>
-         ${sum('5 + 9 = 14')}
-         ${ans('14')}`,
+         ${sum('4 + 9 = 13')}
+         ${ans('13')}`,
         `<p><strong>Starting below zero works the same way.</strong></p>
          ${sum('−15 − (−6) = −15 + 6 = −9')}`
       )}
@@ -892,7 +892,7 @@
       ${steps(
         `<p><strong>a − 5:</strong> a is already below 0, and taking away 5 moves further left.</p>
          ${ans('Yes')}`,
-        `<p><strong>a − (−5) is a + 5</strong>, which moves right. Try a = −2: −2 + 5 = 3, which is not below 0.</p>
+        `<p><strong>a − (−5) is a + 5</strong>, which moves right. Try a = −3: −3 + 5 = 2, which is not below 0.</p>
          ${ans('No')}`
       )}
       ${tip('Try a few negative values, like −1 and −10. If the question says a < b, pick numbers that obey that, such as a = −7 and b = −2.')}`,
@@ -964,12 +964,12 @@
 
     // y8-1G Q6: choosing × and ÷ signs
     'y8-1g-signs': `
-      <p class="hp-tag">Worked example: choose the signs. <b>8 □ (−2) □ 4 = −1</b></p>
+      <p class="hp-tag">Worked example: choose the signs. <b>8 □ (−4) □ 2 = −1</b></p>
       ${steps(
         `<p><strong>Try each choice, left to right.</strong></p>
-         ${sum('8 × (−2) × 4 = −64<br>8 × (−2) ÷ 4 = −4<br>8 ÷ (−2) × 4 = −16<br>8 ÷ (−2) ÷ 4 = −1 ✓')}`,
+         ${sum('8 × (−4) × 2 = −64<br>8 × (−4) ÷ 2 = −16<br>8 ÷ (−4) × 2 = −4<br>8 ÷ (−4) ÷ 2 = −1 ✓')}`,
         `<p><strong>Pick the one that works.</strong></p>
-         ${ans('8 ÷ (−2) ÷ 4 = −1')}`
+         ${ans('8 ÷ (−4) ÷ 2 = −1')}`
       )}
       ${tip('A small answer usually needs ÷ signs. A big answer needs × signs.')}`,
 
@@ -1070,17 +1070,17 @@
 
     // y8-1H Q3, Q14: brackets, including brackets inside brackets
     'y8-1h-brackets': `
-      <p class="hp-tag">Worked example: <b>(−8 + 2) × (1 − (−3))</b></p>
+      <p class="hp-tag">Worked example: <b>(−9 + 4) × (1 − (−3))</b></p>
       ${steps(
         `<p><strong>Work out each bracket first.</strong></p>
-         ${sum(`${now('(−8 + 2)')} × ${now('(1 − (−3))')}`)}
-         ${sum('−6 × 4')}`,
+         ${sum(`${now('(−9 + 4)')} × ${now('(1 − (−3))')}`)}
+         ${sum('−5 × 4')}`,
         `<p><strong>Then multiply.</strong></p>
-         ${sum('−6 × 4 = −24')}
-         ${ans('-24')}`
+         ${sum('−5 × 4 = −20')}
+         ${ans('-20')}`
       )}
       <p><strong>Brackets inside brackets?</strong> Start with the innermost pair and work outwards.</p>
-      ${sum(`(3 − ${now('(6 − (−1))')}) × (−2) = (3 − 7) × (−2) = −4 × (−2) = 8`)}
+      ${sum(`(7 − ${now('(9 − (−1))')}) × (−5) = (7 − 10) × (−5) = −3 × (−5) = 15`)}
       ${tip('Inside a bracket, the normal order still applies: × and ÷ before + and −.')}`,
 
     // y8-1H Q4, Q9: powers and roots in a calculation
@@ -1099,15 +1099,15 @@
 
     // y8-1H Q5, Q6, Q8: substituting negative values
     'y8-1h-sub': `
-      <p class="hp-tag">Worked example: evaluate <b>3x − 2y</b> when <b>x = −6</b> and <b>y = 5</b>.</p>
+      <p class="hp-tag">Worked example: evaluate <b>3x − 2y</b> when <b>x = −6</b> and <b>y = 7</b>.</p>
       ${steps(
         `<p><strong>Replace each letter with its value in brackets.</strong> A number next to a letter means multiply.</p>
-         ${sum('3x − 2y = 3 × (−6) − 2 × 5')}`,
+         ${sum('3x − 2y = 3 × (−6) − 2 × 7')}`,
         `<p><strong>Use order of operations.</strong></p>
-         ${sum('−18 − 10 = −28')}
-         ${ans('-28')}`
+         ${sum('−18 − 14 = −32')}
+         ${ans('-32')}`
       )}
-      ${tip('Two letters side by side also multiply: xy = −6 × 5 = −30. Keep the brackets around negatives so you do not lose a sign.')}`,
+      ${tip('Two letters side by side also multiply: xy = −6 × 7 = −42. Keep the brackets around negatives so you do not lose a sign.')}`,
 
     // y8-1H Q7: substituting into powers
     'y8-1h-sub-powers': `
@@ -1172,11 +1172,11 @@
 
     // y8-1H Q16: how many different answers
     'y8-1h-count': `
-      <p class="hp-tag">Worked example: one set of brackets is put into <b>6 + 2 × 5 − 1</b>. How many different answers are possible?</p>
+      <p class="hp-tag">Worked example: one set of brackets is put into <b>9 + 2 × 8 − 3</b>. How many different answers are possible?</p>
       ${steps(
         `<p><strong>List every place the brackets could go</strong>, around two or more numbers next to each other.</p>
-         ${sum('No brackets: 6 + 10 − 1 = 15<br>(6 + 2) × 5 − 1 = 39<br>6 + (2 × 5) − 1 = 15<br>6 + 2 × (5 − 1) = 14<br>(6 + 2 × 5) − 1 = 15<br>6 + (2 × 5 − 1) = 15')}`,
-        `<p><strong>Count the different answers.</strong> 15, 39 and 14.</p>
+         ${sum('No brackets: 9 + 16 − 3 = 22<br>(9 + 2) × 8 − 3 = 85<br>9 + (2 × 8) − 3 = 22<br>9 + 2 × (8 − 3) = 19<br>(9 + 2 × 8) − 3 = 22<br>9 + (2 × 8 − 3) = 22')}`,
+        `<p><strong>Count the different answers.</strong> 22, 85 and 19.</p>
          ${ans('3')}`
       )}
       ${tip('Brackets around the whole thing, or around something already done first, give the same answer as no brackets. Count each answer once.')}`

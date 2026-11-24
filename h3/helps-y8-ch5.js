@@ -434,7 +434,7 @@
          ${sum('(1m × 2n)/(3 × 3) = 2mn/9')}
          ${ans('2mn/9')}`
       )}
-      <p><strong>A whole number is a fraction over 1.</strong> 6 × 5y/8 = 30y/8 = 15y/4. Dividing by a whole number is multiplying by 1 over it: 3y/5 ÷ 2 = 3y/10.</p>
+      <p><strong>A whole number is a fraction over 1.</strong> 6 × 5y/8 = 30y/8 = 15y/4. Dividing by a whole number is multiplying by 1 over it: 5y/6 ÷ 3 = 5y/18.</p>
       ${tip('If a letter ends up on the bottom, type the bottom in brackets, like 3/(4x). Cancelling before you multiply keeps the numbers small.')}`,
 
     // Y8 5F Q4, Q9, Q11: dividing algebraic fractions
