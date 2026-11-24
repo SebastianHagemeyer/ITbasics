@@ -25549,6 +25549,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-3a-hyp",
    "label": "1a",
    "section": "Fluency",
    "stem": "Find the length of the hypotenuse, $c$, in each right-angled triangle.",
@@ -25615,6 +25616,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-3a-hyp",
    "label": "1b",
    "section": "Fluency",
    "stem": "Find the length of the hypotenuse, $c$, in each right-angled triangle.",
@@ -25681,6 +25683,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-3a-hyp",
    "label": "1c",
    "section": "Fluency",
    "stem": "Find the length of the hypotenuse, $c$, in each right-angled triangle.",
@@ -25747,6 +25750,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-3a-hyp",
    "label": "1d",
    "section": "Fluency",
    "stem": "Find the length of the hypotenuse, $c$, in each right-angled triangle.",
@@ -25813,6 +25817,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-3a-hyp",
    "label": "1e",
    "section": "Fluency",
    "stem": "Find the length of the hypotenuse, $c$, in each right-angled triangle.",
@@ -25879,6 +25884,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-3a-hyp",
    "label": "1f",
    "section": "Fluency",
    "stem": "Find the length of the hypotenuse, $c$, in each right-angled triangle.",
@@ -25945,6 +25951,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-3a-hyp",
    "label": "2a",
    "section": "Fluency",
    "stem": "Find the length of the hypotenuse, $c$, correct to two decimal places.",
@@ -26012,6 +26019,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-3a-hyp",
    "label": "2b",
    "section": "Fluency",
    "stem": "Find the length of the hypotenuse, $c$, correct to two decimal places.",
@@ -26079,6 +26087,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-3a-hyp",
    "label": "2c",
    "section": "Fluency",
    "stem": "Find the length of the hypotenuse, $c$, correct to two decimal places.",
@@ -26146,6 +26155,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-3a-hyp",
    "label": "2d",
    "section": "Fluency",
    "stem": "Find the length of the hypotenuse, $c$, correct to two decimal places.",
@@ -26213,6 +26223,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-3a-hyp",
    "label": "2e",
    "section": "Fluency",
    "stem": "Find the length of the hypotenuse, $c$, correct to two decimal places.",
@@ -26290,6 +26301,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-3a-hyp",
    "label": "2f",
    "section": "Fluency",
    "stem": "Find the length of the hypotenuse, $c$, correct to two decimal places.",
@@ -26357,6 +26369,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-3a-surd",
    "label": "3a",
    "section": "Fluency",
    "stem": "Find the length of the hypotenuse, $c$, as an exact value (a surd). Do not round.",
@@ -26425,6 +26438,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-3a-surd",
    "label": "3b",
    "section": "Fluency",
    "stem": "Find the length of the hypotenuse, $c$, as an exact value (a surd). Do not round.",
@@ -26492,6 +26506,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-3a-surd",
    "label": "3c",
    "section": "Fluency",
    "stem": "Find the length of the hypotenuse, $c$, as an exact value (a surd). Do not round.",
@@ -26559,6 +26574,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-3a-surd",
    "label": "3d",
    "section": "Fluency",
    "stem": "Find the length of the hypotenuse, $c$, as an exact value (a surd). Do not round.",
@@ -26626,6 +26642,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-3a-surd",
    "label": "3e",
    "section": "Fluency",
    "stem": "Find the length of the hypotenuse, $c$, as an exact value (a surd). Do not round.",
@@ -26693,6 +26710,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-3a-surd",
    "label": "3f",
    "section": "Fluency",
    "stem": "Find the length of the hypotenuse, $c$, as an exact value (a surd). Do not round.",
@@ -26760,6 +26778,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-3a-units",
    "label": "4a",
    "section": "Fluency",
    "stem": "Find the length of the hypotenuse. First change both lengths into the unit asked for. Round to two decimal places where necessary.",
@@ -26820,6 +26839,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-3a-units",
    "label": "4b",
    "section": "Fluency",
    "stem": "Find the length of the hypotenuse. First change both lengths into the unit asked for. Round to two decimal places where necessary.",
@@ -26880,6 +26900,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-3a-units",
    "label": "4c",
    "section": "Fluency",
    "stem": "Find the length of the hypotenuse. First change both lengths into the unit asked for. Round to two decimal places where necessary.",
@@ -26940,6 +26961,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-3a-units",
    "label": "4d",
    "section": "Fluency",
    "stem": "Find the length of the hypotenuse. First change both lengths into the unit asked for. Round to two decimal places where necessary.",
@@ -27000,6 +27022,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y9-3a-units",
    "label": "4e",
    "section": "Fluency",
    "stem": "Find the length of the hypotenuse. First change both lengths into the unit asked for. Round to two decimal places where necessary.",
@@ -27060,6 +27083,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y9-3a-units",
    "label": "4f",
    "section": "Fluency",
    "stem": "Find the length of the hypotenuse. First change both lengths into the unit asked for. Round to two decimal places where necessary.",
@@ -27120,6 +27144,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-3a-perimeter",
    "label": "5a",
    "section": "Fluency",
    "stem": "Find the length of the hypotenuse, then the perimeter of the triangle, correct to two decimal places.",
@@ -27180,6 +27205,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-3a-perimeter",
    "label": "5b",
    "section": "Fluency",
    "stem": "Find the length of the hypotenuse, then the perimeter of the triangle, correct to two decimal places.",
@@ -27240,6 +27266,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-3a-perimeter",
    "label": "5c",
    "section": "Fluency",
    "stem": "Find the length of the hypotenuse, then the perimeter of the triangle, correct to two decimal places.",
@@ -27300,6 +27327,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-3a-perimeter",
    "label": "5d",
    "section": "Fluency",
    "stem": "Find the length of the hypotenuse, then the perimeter of the triangle, correct to two decimal places.",
@@ -27360,6 +27388,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y9-3a-perimeter",
    "label": "5e",
    "section": "Fluency",
    "stem": "Find the length of the hypotenuse, then the perimeter of the triangle, correct to two decimal places.",
@@ -27430,6 +27459,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y9-3a-perimeter",
    "label": "5f",
    "section": "Fluency",
    "stem": "Find the length of the hypotenuse, then the perimeter of the triangle, correct to two decimal places.",
@@ -27500,6 +27530,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6",
+   "help": "y9-3a-problems",
    "label": "6",
    "section": "Problem-solving",
    "type": "numeric",
@@ -27579,6 +27610,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7",
+   "help": "y9-3a-twostep",
    "label": "7",
    "section": "Problem-solving",
    "type": "numeric",
@@ -27682,6 +27714,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8",
+   "help": "y9-3a-problems",
    "label": "8",
    "section": "Problem-solving",
    "type": "numeric",
@@ -27691,6 +27724,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9",
+   "help": "y9-3a-problems",
    "label": "9",
    "section": "Problem-solving",
    "type": "numeric",
@@ -28267,6 +28301,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10",
+   "help": "y9-3a-problems",
    "label": "10",
    "section": "Problem-solving",
    "type": "numeric",
@@ -28343,6 +28378,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y9-3a-twostep",
    "label": "11a",
    "section": "Problem-solving",
    "stem": "For the shape shown, find the value of:",
@@ -28452,6 +28488,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y9-3a-twostep",
    "label": "11b",
    "section": "Problem-solving",
    "stem": "For the shape shown, find the value of:",
@@ -28464,6 +28501,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12",
+   "help": "y9-3a-problems",
    "label": "12",
    "section": "Reasoning",
    "type": "numeric",
@@ -28474,6 +28512,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y9-3a-test",
    "label": "13a",
    "section": "Reasoning",
    "stem": "Use $c^2 = a^2 + b^2$ to test whether each triangle has a right angle. (The pictures may not be drawn to scale.) Does the triangle have a right angle?",
@@ -28534,6 +28573,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y9-3a-test",
    "label": "13b",
    "section": "Reasoning",
    "stem": "Use $c^2 = a^2 + b^2$ to test whether each triangle has a right angle. (The pictures may not be drawn to scale.) Does the triangle have a right angle?",
@@ -28594,6 +28634,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13c",
+   "help": "y9-3a-test",
    "label": "13c",
    "section": "Reasoning",
    "stem": "Use $c^2 = a^2 + b^2$ to test whether each triangle has a right angle. (The pictures may not be drawn to scale.) Does the triangle have a right angle?",
@@ -28654,6 +28695,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13d",
+   "help": "y9-3a-test",
    "label": "13d",
    "section": "Reasoning",
    "stem": "Use $c^2 = a^2 + b^2$ to test whether each triangle has a right angle. (The pictures may not be drawn to scale.) Does the triangle have a right angle?",
@@ -28732,6 +28774,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13e",
+   "help": "y9-3a-test",
    "label": "13e",
    "section": "Reasoning",
    "stem": "Use $c^2 = a^2 + b^2$ to test whether each triangle has a right angle. (The pictures may not be drawn to scale.) Does the triangle have a right angle?",
@@ -28792,6 +28835,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13f",
+   "help": "y9-3a-test",
    "label": "13f",
    "section": "Reasoning",
    "stem": "Use $c^2 = a^2 + b^2$ to test whether each triangle has a right angle. (The pictures may not be drawn to scale.) Does the triangle have a right angle?",
@@ -28852,6 +28896,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y9-3a-inequality",
    "label": "14a",
    "section": "Reasoning",
    "type": "choice",
@@ -28865,6 +28910,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y9-3a-inequality",
    "label": "14b",
    "section": "Reasoning",
    "stem": "Use the triangle inequality to decide whether a triangle with these side lengths is possible.",
@@ -28878,6 +28924,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14c",
+   "help": "y9-3a-inequality",
    "label": "14c",
    "section": "Reasoning",
    "stem": "Use the triangle inequality to decide whether a triangle with these side lengths is possible.",
@@ -28891,6 +28938,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14d",
+   "help": "y9-3a-inequality",
    "label": "14d",
    "section": "Reasoning",
    "stem": "Use the triangle inequality to decide whether a triangle with these side lengths is possible.",
@@ -28904,6 +28952,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15a",
+   "help": "y9-3a-test",
    "label": "15a",
    "section": "Reasoning",
    "type": "numeric",
@@ -28963,6 +29012,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15b",
+   "help": "y9-3a-test",
    "label": "15b",
    "section": "Reasoning",
    "stem": "Use your answer to part a. A triangle has sides $6$ cm, $9$ cm and a longest side of the length given. Is it acute-angled or obtuse-angled?",
@@ -28976,6 +29026,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15c",
+   "help": "y9-3a-test",
    "label": "15c",
    "section": "Reasoning",
    "stem": "Use your answer to part a. A triangle has sides $6$ cm, $9$ cm and a longest side of the length given. Is it acute-angled or obtuse-angled?",
@@ -28989,6 +29040,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15d",
+   "help": "y9-3a-test",
    "label": "15d",
    "section": "Reasoning",
    "stem": "Complete the rule. ($c$ is the longest side.)",
@@ -29003,6 +29055,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15e",
+   "help": "y9-3a-test",
    "label": "15e",
    "section": "Reasoning",
    "stem": "Complete the rule. ($c$ is the longest side.)",
@@ -29017,6 +29070,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16a",
+   "help": "y9-3a-twostep",
    "label": "16a",
    "section": "Reasoning",
    "stem": "Triangle $ABC$ is a right-angled isosceles triangle and $BD$ is perpendicular to $AC$. $DC = 5$ cm and $BD = 5$ cm.",
@@ -29145,6 +29199,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16b",
+   "help": "y9-3a-twostep",
    "label": "16b",
    "section": "Reasoning",
    "stem": "Triangle $ABC$ is a right-angled isosceles triangle and $BD$ is perpendicular to $AC$. $DC = 5$ cm and $BD = 5$ cm.",
@@ -29156,6 +29211,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16c",
+   "help": "y9-3a-twostep",
    "label": "16c",
    "section": "Reasoning",
    "stem": "Triangle $ABC$ is a right-angled isosceles triangle and $BD$ is perpendicular to $AC$. $DC = 5$ cm and $BD = 5$ cm.",
@@ -29167,6 +29223,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17a",
+   "help": "y9-3a-roof",
    "label": "17a",
    "section": "Enrichment",
    "stem": "A dog kennel has a roof made of two sloping sides, each $60$ cm long, that meet at a right angle. The walls are $0.9$ m high. Give each answer correct to two decimal places.",
@@ -29294,6 +29351,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17b",
+   "help": "y9-3a-roof",
    "label": "17b",
    "section": "Enrichment",
    "stem": "A dog kennel has a roof made of two sloping sides, each $60$ cm long, that meet at a right angle. The walls are $0.9$ m high. Give each answer correct to two decimal places.",
@@ -29305,6 +29363,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17c",
+   "help": "y9-3a-roof",
    "label": "17c",
    "section": "Enrichment",
    "stem": "A dog kennel has a roof made of two sloping sides, each $60$ cm long, that meet at a right angle. The walls are $0.9$ m high. Give each answer correct to two decimal places.",
@@ -29316,6 +29375,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17d",
+   "help": "y9-3a-roof",
    "label": "17d",
    "section": "Enrichment",
    "stem": "A dog kennel has a roof made of two sloping sides, each $60$ cm long, that meet at a right angle. The walls are $0.9$ m high. Give each answer correct to two decimal places.",
@@ -29327,6 +29387,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q18a",
+   "help": "y9-3a-roof",
    "label": "18a",
    "section": "Enrichment",
    "stem": "The frame of a kite is made from six wooden rods. The four outside rods are two $40$ cm rods and two $65$ cm rods, and the top of the kite is a right angle. Find the length of each diagonal rod, correct to two decimal places.",
@@ -29425,6 +29486,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q18b",
+   "help": "y9-3a-roof",
    "label": "18b",
    "section": "Enrichment",
    "stem": "The frame of a kite is made from six wooden rods. The four outside rods are two $40$ cm rods and two $65$ cm rods, and the top of the kite is a right angle. Find the length of each diagonal rod, correct to two decimal places.",
@@ -29445,6 +29507,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-3b-short",
    "label": "1a",
    "section": "Fluency",
    "stem": "Find the value of the pronumeral in each right-angled triangle.",
@@ -29511,6 +29574,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-3b-short",
    "label": "1b",
    "section": "Fluency",
    "stem": "Find the value of the pronumeral in each right-angled triangle.",
@@ -29577,6 +29641,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-3b-short",
    "label": "1c",
    "section": "Fluency",
    "stem": "Find the value of the pronumeral in each right-angled triangle.",
@@ -29643,6 +29708,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-3b-short",
    "label": "1d",
    "section": "Fluency",
    "stem": "Find the value of the pronumeral in each right-angled triangle.",
@@ -29709,6 +29775,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-3b-short",
    "label": "1e",
    "section": "Fluency",
    "stem": "Find the value of the pronumeral in each right-angled triangle.",
@@ -29775,6 +29842,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-3b-short",
    "label": "1f",
    "section": "Fluency",
    "stem": "Find the value of the pronumeral in each right-angled triangle.",
@@ -29841,6 +29909,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-3b-short",
    "label": "2a",
    "section": "Fluency",
    "stem": "Find the value of the pronumeral, correct to two decimal places.",
@@ -29908,6 +29977,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-3b-short",
    "label": "2b",
    "section": "Fluency",
    "stem": "Find the value of the pronumeral, correct to two decimal places.",
@@ -29975,6 +30045,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-3b-short",
    "label": "2c",
    "section": "Fluency",
    "stem": "Find the value of the pronumeral, correct to two decimal places.",
@@ -30042,6 +30113,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-3b-short",
    "label": "2d",
    "section": "Fluency",
    "stem": "Find the value of the pronumeral, correct to two decimal places.",
@@ -30109,6 +30181,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-3b-short",
    "label": "2e",
    "section": "Fluency",
    "stem": "Find the value of the pronumeral, correct to two decimal places.",
@@ -30176,6 +30249,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-3b-short",
    "label": "2f",
    "section": "Fluency",
    "stem": "Find the value of the pronumeral, correct to two decimal places.",
@@ -30243,6 +30317,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-3b-units",
    "label": "3a",
    "section": "Fluency",
    "stem": "Find the length of the unknown side, $x$. First change both lengths into the unit asked for. Round to two decimal places where necessary.",
@@ -30311,6 +30386,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-3b-units",
    "label": "3b",
    "section": "Fluency",
    "stem": "Find the length of the unknown side, $x$. First change both lengths into the unit asked for. Round to two decimal places where necessary.",
@@ -30379,6 +30455,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-3b-units",
    "label": "3c",
    "section": "Fluency",
    "stem": "Find the length of the unknown side, $x$. First change both lengths into the unit asked for. Round to two decimal places where necessary.",
@@ -30447,6 +30524,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-3b-units",
    "label": "3d",
    "section": "Fluency",
    "stem": "Find the length of the unknown side, $x$. First change both lengths into the unit asked for. Round to two decimal places where necessary.",
@@ -30515,6 +30593,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-3b-units",
    "label": "3e",
    "section": "Fluency",
    "stem": "Find the length of the unknown side, $x$. First change both lengths into the unit asked for. Round to two decimal places where necessary.",
@@ -30583,6 +30662,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-3b-units",
    "label": "3f",
    "section": "Fluency",
    "stem": "Find the length of the unknown side, $x$. First change both lengths into the unit asked for. Round to two decimal places where necessary.",
@@ -30651,6 +30731,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-3b-exact",
    "label": "4a",
    "section": "Fluency",
    "stem": "Find the value of $x$ as an exact answer.",
@@ -30729,6 +30810,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-3b-exact",
    "label": "4b",
    "section": "Fluency",
    "stem": "Find the value of $x$ as an exact answer.",
@@ -30806,6 +30888,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-3b-exact",
    "label": "4c",
    "section": "Fluency",
    "stem": "Find the value of $x$ as an exact answer.",
@@ -30883,6 +30966,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5",
+   "help": "y9-3b-problems",
    "label": "5",
    "section": "Problem-solving",
    "type": "numeric",
@@ -30966,6 +31050,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6",
+   "help": "y9-3b-problems",
    "label": "6",
    "section": "Problem-solving",
    "type": "numeric",
@@ -31057,6 +31142,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-3b-twostep",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "Find the value of $x$ in each diagram. Give an exact answer.",
@@ -31170,6 +31256,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-3b-twostep",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "Find the value of $x$ in each diagram. Give an exact answer.",
@@ -31258,6 +31345,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-3b-twostep",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "Find the value of $x$ in each diagram. Give an exact answer.",
@@ -31354,6 +31442,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8",
+   "help": "y9-3b-problems",
    "label": "8",
    "section": "Problem-solving",
    "type": "numeric",
@@ -31363,6 +31452,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9",
+   "help": "y9-3b-problems",
    "label": "9",
    "section": "Problem-solving",
    "type": "numeric",
@@ -31440,6 +31530,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y9-3b-exact",
    "label": "10a",
    "section": "Reasoning",
    "stem": "Remember that $(2x)^2 = 4x^2$ and $(3x)^2 = 9x^2$. Find the value of $x$ as an exact answer.",
@@ -31508,6 +31599,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y9-3b-exact",
    "label": "10b",
    "section": "Reasoning",
    "stem": "Remember that $(2x)^2 = 4x^2$ and $(3x)^2 = 9x^2$. Find the value of $x$ as an exact answer.",
@@ -31575,6 +31667,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y9-3b-exact",
    "label": "10c",
    "section": "Reasoning",
    "stem": "Remember that $(2x)^2 = 4x^2$ and $(3x)^2 = 9x^2$. Find the value of $x$ as an exact answer.",
@@ -31683,6 +31776,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y9-3b-exact",
    "label": "11a",
    "section": "Reasoning",
    "stem": "A right-angled triangle has a hypotenuse of $6$ m. Its two shorter sides are in the ratio given. Find the lengths of the two shorter sides as exact values, separated by a comma.",
@@ -31754,6 +31848,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y9-3b-exact",
    "label": "11b",
    "section": "Reasoning",
    "stem": "A right-angled triangle has a hypotenuse of $6$ m. Its two shorter sides are in the ratio given. Find the lengths of the two shorter sides as exact values, separated by a comma.",
@@ -31767,6 +31862,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y9-3b-exact",
    "label": "11c",
    "section": "Reasoning",
    "stem": "A right-angled triangle has a hypotenuse of $6$ m. Its two shorter sides are in the ratio given. Find the lengths of the two shorter sides as exact values, separated by a comma.",
@@ -31780,6 +31876,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y9-3b-twostep",
    "label": "12a",
    "section": "Enrichment",
    "stem": "Look at this diagram, made from two right-angled triangles.",
@@ -31888,6 +31985,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y9-3b-twostep",
    "label": "12b",
    "section": "Enrichment",
    "stem": "Look at this diagram, made from two right-angled triangles.",
@@ -31899,6 +31997,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y9-3b-twostep",
    "label": "13a",
    "section": "Enrichment",
    "stem": "In the diagram, $OD = 4$ and $AB = BC = CD = 1$.",
@@ -32074,6 +32173,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y9-3b-twostep",
    "label": "13b",
    "section": "Enrichment",
    "stem": "In the diagram, $OD = 4$ and $AB = BC = CD = 1$.",
@@ -32084,6 +32184,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13c",
+   "help": "y9-3b-twostep",
    "label": "13c",
    "section": "Enrichment",
    "stem": "In the diagram, $OD = 4$ and $AB = BC = CD = 1$.",
@@ -32094,6 +32195,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13d",
+   "help": "y9-3b-twostep",
    "label": "13d",
    "section": "Enrichment",
    "stem": "In the diagram, $OD = 4$ and $AB = BC = CD = 1$.",
@@ -32104,6 +32206,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13e",
+   "help": "y9-3b-twostep",
    "label": "13e",
    "section": "Enrichment",
    "stem": "In the diagram, $OD = 4$ and $AB = BC = CD = 1$. Now use your rounded $OA$ from part d to work out the other lengths again, starting with triangle $OAB$. Give each correct to two decimal places.",
@@ -32114,6 +32217,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13f",
+   "help": "y9-3b-twostep",
    "label": "13f",
    "section": "Enrichment",
    "stem": "In the diagram, $OD = 4$ and $AB = BC = CD = 1$. Now use your rounded $OA$ from part d to work out the other lengths again, starting with triangle $OAB$. Give each correct to two decimal places.",
@@ -32124,6 +32228,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13g",
+   "help": "y9-3b-twostep",
    "label": "13g",
    "section": "Enrichment",
    "stem": "In the diagram, $OD = 4$ and $AB = BC = CD = 1$. Now use your rounded $OA$ from part d to work out the other lengths again, starting with triangle $OAB$. Give each correct to two decimal places.",
@@ -32146,6 +32251,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1",
+   "help": "y9-3c-heights",
    "label": "1",
    "section": "Fluency",
    "type": "numeric",
@@ -32258,6 +32364,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2",
+   "help": "y9-3c-heights",
    "label": "2",
    "section": "Fluency",
    "type": "numeric",
@@ -32268,6 +32375,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3",
+   "help": "y9-3c-heights",
    "label": "3",
    "section": "Fluency",
    "type": "numeric",
@@ -32379,6 +32487,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4",
+   "help": "y9-3c-heights",
    "label": "4",
    "section": "Fluency",
    "type": "numeric",
@@ -32388,6 +32497,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-3c-ab",
    "label": "5a",
    "section": "Fluency",
    "stem": "Find the straight-line distance between points $A$ and $B$, correct to one decimal place.",
@@ -32477,6 +32587,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-3c-ab",
    "label": "5b",
    "section": "Fluency",
    "stem": "Find the straight-line distance between points $A$ and $B$, correct to one decimal place.",
@@ -32578,6 +32689,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-3c-ab",
    "label": "5c",
    "section": "Fluency",
    "stem": "Find the straight-line distance between points $A$ and $B$, correct to one decimal place.",
@@ -32724,6 +32836,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-3c-ab",
    "label": "5d",
    "section": "Fluency",
    "stem": "Find the straight-line distance between points $A$ and $B$, correct to one decimal place.",
@@ -32870,6 +32983,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6",
+   "help": "y9-3c-cables",
    "label": "6",
    "section": "Problem-solving",
    "type": "numeric",
@@ -32880,6 +32994,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7",
+   "help": "y9-3c-circle",
    "label": "7",
    "section": "Problem-solving",
    "type": "numeric",
@@ -32970,6 +33085,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-3c-cables",
    "label": "8a",
    "section": "Problem-solving",
    "stem": "A bridge has two vertical pylons, each $23$ m tall. Two straight beams, each $58$ m long, run from the tops of the pylons and meet at point $C$, which is $66$ m above the road and directly above the middle of the bridge.",
@@ -33104,6 +33220,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-3c-cables",
    "label": "8b",
    "section": "Problem-solving",
    "stem": "A bridge has two vertical pylons, each $23$ m tall. Two straight beams, each $58$ m long, run from the tops of the pylons and meet at point $C$, which is $66$ m above the road and directly above the middle of the bridge.",
@@ -33115,6 +33232,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9",
+   "help": "y9-3c-circle",
    "label": "9",
    "section": "Problem-solving",
    "type": "numeric",
@@ -33210,6 +33328,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y9-3c-isosceles",
    "label": "10a",
    "section": "Reasoning",
    "type": "numeric",
@@ -33287,6 +33406,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y9-3c-isosceles",
    "label": "10b",
    "section": "Reasoning",
    "type": "numeric",
@@ -33389,6 +33509,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y9-3c-isosceles",
    "label": "10c",
    "section": "Reasoning",
    "type": "numeric",
@@ -33506,6 +33627,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y9-3c-isosceles",
    "label": "11a",
    "section": "Reasoning",
    "stem": "On an orienteering course, a team walks due south from the start for $3.2$ km to a creek. There they turn $45^\\circ$ to the left and walk south-east for $1.9$ km to a checkpoint. Use the method from Question 10. Answer correct to one decimal place. When the team is at the checkpoint, how far are they:",
@@ -33517,6 +33639,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y9-3c-isosceles",
    "label": "11b",
    "section": "Reasoning",
    "stem": "On an orienteering course, a team walks due south from the start for $3.2$ km to a creek. There they turn $45^\\circ$ to the left and walk south-east for $1.9$ km to a checkpoint. Use the method from Question 10. Answer correct to one decimal place. When the team is at the checkpoint, how far are they:",
@@ -33528,6 +33651,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y9-3c-isosceles",
    "label": "11c",
    "section": "Reasoning",
    "stem": "On an orienteering course, a team walks due south from the start for $3.2$ km to a creek. There they turn $45^\\circ$ to the left and walk south-east for $1.9$ km to a checkpoint. Use the method from Question 10. Answer correct to one decimal place. When the team is at the checkpoint, how far are they:",
@@ -33539,6 +33663,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y9-3c-isosceles",
    "label": "12a",
    "section": "Enrichment",
    "stem": "A square piece of paper $ABCD$ has sides of $24$ cm. It is folded along the diagonal $AC$ to make triangle $ABC$, then folded again to make triangle $ABE$, where $E$ is the middle of $AC$.",
@@ -33642,6 +33767,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y9-3c-isosceles",
    "label": "12b",
    "section": "Enrichment",
    "stem": "A square piece of paper $ABCD$ has sides of $24$ cm. It is folded along the diagonal $AC$ to make triangle $ABC$, then folded again to make triangle $ABE$, where $E$ is the middle of $AC$. Find the perimeter of each shape, correct to one decimal place where necessary.",
@@ -33652,6 +33778,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y9-3c-isosceles",
    "label": "12c",
    "section": "Enrichment",
    "stem": "A square piece of paper $ABCD$ has sides of $24$ cm. It is folded along the diagonal $AC$ to make triangle $ABC$, then folded again to make triangle $ABE$, where $E$ is the middle of $AC$. Find the perimeter of each shape, correct to one decimal place where necessary.",
@@ -33663,6 +33790,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12d",
+   "help": "y9-3c-isosceles",
    "label": "12d",
    "section": "Enrichment",
    "stem": "A square piece of paper $ABCD$ has sides of $24$ cm. It is folded along the diagonal $AC$ to make triangle $ABC$, then folded again to make triangle $ABE$, where $E$ is the middle of $AC$. Find the perimeter of each shape, correct to one decimal place where necessary.",
@@ -33674,6 +33802,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12e",
+   "help": "y9-3c-isosceles",
    "label": "12e",
    "section": "Enrichment",
    "stem": "A square piece of paper $ABCD$ has sides of $24$ cm. It is folded along the diagonal $AC$ to make triangle $ABC$, then folded again to make triangle $ABE$, where $E$ is the middle of $AC$.",
@@ -33694,6 +33823,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1",
+   "help": "y9-3d-prism",
    "label": "1",
    "section": "Fluency",
    "type": "numeric",
@@ -33877,6 +34007,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-3d-prism",
    "label": "2a",
    "section": "Fluency",
    "stem": "Find the distance, $d$ units, from one corner to the opposite corner of each rectangular prism, correct to two decimal places.",
@@ -34079,6 +34210,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-3d-prism",
    "label": "2b",
    "section": "Fluency",
    "stem": "Find the distance, $d$ units, from one corner to the opposite corner of each rectangular prism, correct to two decimal places.",
@@ -34281,6 +34413,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-3d-cone",
    "label": "3a",
    "section": "Fluency",
    "stem": "Find the slant height, $s$ units, of each cone, correct to one decimal place.",
@@ -34510,6 +34643,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-3d-cone",
    "label": "3b",
    "section": "Fluency",
    "stem": "Find the slant height, $s$ units, of each cone, correct to one decimal place.",
@@ -34732,6 +34866,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-3d-cone",
    "label": "3c",
    "section": "Fluency",
    "stem": "Find the slant height, $s$ units, of each cone, correct to one decimal place.",
@@ -34946,6 +35081,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-3d-cylinder",
    "label": "4a",
    "section": "Fluency",
    "stem": "Find the length of the longest rod that will fit inside a cylinder with these measurements. Give each answer to the nearest millimetre.",
@@ -35302,6 +35438,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-3d-cylinder",
    "label": "4b",
    "section": "Fluency",
    "stem": "Find the length of the longest rod that will fit inside a cylinder with these measurements. Give each answer to the nearest millimetre.",
@@ -35312,6 +35449,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-3d-cylinder",
    "label": "4c",
    "section": "Fluency",
    "stem": "Find the length of the longest rod that will fit inside a cylinder with these measurements. Give each answer to the nearest millimetre.",
@@ -35324,6 +35462,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-3d-cube",
    "label": "5a",
    "section": "Fluency",
    "stem": "This cube has sides of $3$ cm.",
@@ -35505,6 +35644,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-3d-cube",
    "label": "5b",
    "section": "Fluency",
    "stem": "This cube has sides of $3$ cm.",
@@ -35516,6 +35656,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-3d-cube",
    "label": "6a",
    "section": "Fluency",
    "stem": "Look at this solid. Angles $ABC$ and $ACD$ are right angles.",
@@ -35712,6 +35853,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-3d-cube",
    "label": "6b",
    "section": "Fluency",
    "stem": "Look at this solid. Angles $ABC$ and $ACD$ are right angles.",
@@ -35723,6 +35865,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7",
+   "help": "y9-3d-cylinder",
    "label": "7",
    "section": "Problem-solving",
    "type": "numeric",
@@ -35732,6 +35875,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8",
+   "help": "y9-3d-cone",
    "label": "8",
    "section": "Problem-solving",
    "type": "numeric",
@@ -35959,6 +36103,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9",
+   "help": "y9-3d-cube",
    "label": "9",
    "section": "Problem-solving",
    "type": "numeric",
@@ -35969,6 +36114,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y9-3d-prism",
    "label": "10a",
    "section": "Reasoning",
    "stem": "This rectangular prism is $7$ by $3$ by $2$ units.",
@@ -36149,6 +36295,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y9-3d-prism",
    "label": "10b",
    "section": "Reasoning",
    "stem": "This rectangular prism is $7$ by $3$ by $2$ units.",
@@ -36159,6 +36306,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y9-3d-prism",
    "label": "10c",
    "section": "Reasoning",
    "stem": "This rectangular prism is $7$ by $3$ by $2$ units.",
@@ -36169,6 +36317,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10d",
+   "help": "y9-3d-prism",
    "label": "10d",
    "section": "Reasoning",
    "stem": "This rectangular prism is $7$ by $3$ by $2$ units.",
@@ -36179,6 +36328,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10e",
+   "help": "y9-3d-prism",
    "label": "10e",
    "section": "Reasoning",
    "stem": "This rectangular prism is $7$ by $3$ by $2$ units.",
@@ -36193,6 +36343,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y9-3d-pyramid",
    "label": "11a",
    "section": "Reasoning",
    "stem": "For each square-based pyramid, find (i) the exact length of the diagonal of the base, using a surd, and (ii) the height of the pyramid, correct to two decimal places.",
@@ -36335,6 +36486,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y9-3d-pyramid",
    "label": "11b",
    "section": "Reasoning",
    "stem": "For each square-based pyramid, find (i) the exact length of the diagonal of the base, using a surd, and (ii) the height of the pyramid, correct to two decimal places.",
@@ -36346,6 +36498,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y9-3d-pyramid",
    "label": "11c",
    "section": "Reasoning",
    "stem": "For each square-based pyramid, find (i) the exact length of the diagonal of the base, using a surd, and (ii) the height of the pyramid, correct to two decimal places.",
@@ -36505,6 +36658,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11d",
+   "help": "y9-3d-pyramid",
    "label": "11d",
    "section": "Reasoning",
    "stem": "For each square-based pyramid, find (i) the exact length of the diagonal of the base, using a surd, and (ii) the height of the pyramid, correct to two decimal places.",
@@ -36516,6 +36670,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y9-3d-spider",
    "label": "12a",
    "section": "Enrichment",
    "stem": "A spider crawls from corner $A$ of the ceiling of a room to the opposite corner $G$ on the floor. The room is a rectangular prism $5.8$ m long, $4.2$ m wide and $3.1$ m high. Give each answer correct to two decimal places.",
@@ -36719,6 +36874,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y9-3d-spider",
    "label": "12b",
    "section": "Enrichment",
    "stem": "A spider crawls from corner $A$ of the ceiling of a room to the opposite corner $G$ on the floor. The room is a rectangular prism $5.8$ m long, $4.2$ m wide and $3.1$ m high. Give each answer correct to two decimal places.",
@@ -36730,6 +36886,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y9-3d-spider",
    "label": "12c",
    "section": "Enrichment",
    "stem": "A spider crawls from corner $A$ of the ceiling of a room to the opposite corner $G$ on the floor. The room is a rectangular prism $5.8$ m long, $4.2$ m wide and $3.1$ m high. Give each answer correct to two decimal places.",
@@ -36741,6 +36898,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12d",
+   "help": "y9-3d-spider",
    "label": "12d",
    "section": "Enrichment",
    "stem": "A spider crawls from corner $A$ of the ceiling of a room to the opposite corner $G$ on the floor. The room is a rectangular prism $5.8$ m long, $4.2$ m wide and $3.1$ m high. Give each answer correct to two decimal places.",
@@ -36752,6 +36910,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12e",
+   "help": "y9-3d-spider",
    "label": "12e",
    "section": "Enrichment",
    "stem": "A spider crawls from corner $A$ of the ceiling of a room to the opposite corner $G$ on the floor. The room is a rectangular prism $5.8$ m long, $4.2$ m wide and $3.1$ m high. Give each answer correct to two decimal places.",
@@ -36773,6 +36932,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-3e-which",
    "label": "1a",
    "section": "Fluency",
    "stem": "Using the two given sides, choose the trigonometric ratio for $\\theta$ that you can write for each triangle. Fractions have been simplified where possible.",
@@ -36855,6 +37015,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-3e-which",
    "label": "1b",
    "section": "Fluency",
    "stem": "Using the two given sides, choose the trigonometric ratio for $\\theta$ that you can write for each triangle. Fractions have been simplified where possible.",
@@ -36936,6 +37097,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-3e-which",
    "label": "1c",
    "section": "Fluency",
    "stem": "Using the two given sides, choose the trigonometric ratio for $\\theta$ that you can write for each triangle. Fractions have been simplified where possible.",
@@ -37017,6 +37179,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-3e-which",
    "label": "1d",
    "section": "Fluency",
    "stem": "Using the two given sides, choose the trigonometric ratio for $\\theta$ that you can write for each triangle. Fractions have been simplified where possible.",
@@ -37099,6 +37262,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-3e-which",
    "label": "1e",
    "section": "Fluency",
    "stem": "Using the two given sides, choose the trigonometric ratio for $\\theta$ that you can write for each triangle. Fractions have been simplified where possible.",
@@ -37177,6 +37341,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-3e-which",
    "label": "1f",
    "section": "Fluency",
    "stem": "Using the two given sides, choose the trigonometric ratio for $\\theta$ that you can write for each triangle. Fractions have been simplified where possible.",
@@ -37259,6 +37424,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1g",
+   "help": "y9-3e-which",
    "label": "1g",
    "section": "Fluency",
    "stem": "Using the two given sides, choose the trigonometric ratio for $\\theta$ that you can write for each triangle. Fractions have been simplified where possible.",
@@ -37341,6 +37507,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1h",
+   "help": "y9-3e-which",
    "label": "1h",
    "section": "Fluency",
    "stem": "Using the two given sides, choose the trigonometric ratio for $\\theta$ that you can write for each triangle. Fractions have been simplified where possible.",
@@ -37422,6 +37589,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1i",
+   "help": "y9-3e-which",
    "label": "1i",
    "section": "Fluency",
    "stem": "Using the two given sides, choose the trigonometric ratio for $\\theta$ that you can write for each triangle. Fractions have been simplified where possible.",
@@ -37504,6 +37672,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-3e-ratios",
    "label": "2a",
    "section": "Fluency",
    "stem": "Triangles A and B are similar. Write each ratio as a fraction, using the side lengths shown.",
@@ -37663,6 +37832,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-3e-ratios",
    "label": "2b",
    "section": "Fluency",
    "stem": "Triangles A and B are similar. Write each ratio as a fraction, using the side lengths shown.",
@@ -37673,6 +37843,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-3e-ratios",
    "label": "2c",
    "section": "Fluency",
    "stem": "Triangles A and B are similar. Write each ratio as a fraction, using the side lengths shown.",
@@ -37687,6 +37858,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-3e-ratios",
    "label": "2d",
    "section": "Fluency",
    "stem": "Triangles A and B are similar. Write each ratio as a fraction, using the side lengths shown.",
@@ -37697,6 +37869,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-3e-ratios",
    "label": "2e",
    "section": "Fluency",
    "stem": "Triangles A and B are similar. Write each ratio as a fraction, using the side lengths shown.",
@@ -37707,6 +37880,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-3e-ratios",
    "label": "2f",
    "section": "Fluency",
    "stem": "Triangles A and B are similar. Write each ratio as a fraction, using the side lengths shown.",
@@ -37721,6 +37895,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y9-3e-ratios",
    "label": "2g",
    "section": "Fluency",
    "stem": "Triangles A and B are similar. Write each ratio as a fraction, using the side lengths shown.",
@@ -37731,6 +37906,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y9-3e-ratios",
    "label": "2h",
    "section": "Fluency",
    "stem": "Triangles A and B are similar. Write each ratio as a fraction, using the side lengths shown.",
@@ -37741,6 +37917,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2i",
+   "help": "y9-3e-ratios",
    "label": "2i",
    "section": "Fluency",
    "stem": "Triangles A and B are similar. Write each ratio as a fraction, using the side lengths shown.",
@@ -37755,6 +37932,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-3e-ratios",
    "label": "3a",
    "section": "Fluency",
    "stem": "For each triangle, write $\\sin \\theta$, $\\cos \\theta$ and $\\tan \\theta$ as fractions in simplest form.",
@@ -37837,6 +38015,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-3e-ratios",
    "label": "3b",
    "section": "Fluency",
    "stem": "For each triangle, write $\\sin \\theta$, $\\cos \\theta$ and $\\tan \\theta$ as fractions in simplest form.",
@@ -37848,6 +38027,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-3e-ratios",
    "label": "3c",
    "section": "Fluency",
    "stem": "For each triangle, write $\\sin \\theta$, $\\cos \\theta$ and $\\tan \\theta$ as fractions in simplest form.",
@@ -37859,6 +38039,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-3e-ratios",
    "label": "3d",
    "section": "Fluency",
    "stem": "For each triangle, write $\\sin \\theta$, $\\cos \\theta$ and $\\tan \\theta$ as fractions in simplest form.",
@@ -37954,6 +38135,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-3e-ratios",
    "label": "3e",
    "section": "Fluency",
    "stem": "For each triangle, write $\\sin \\theta$, $\\cos \\theta$ and $\\tan \\theta$ as fractions in simplest form.",
@@ -37965,6 +38147,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-3e-ratios",
    "label": "3f",
    "section": "Fluency",
    "stem": "For each triangle, write $\\sin \\theta$, $\\cos \\theta$ and $\\tan \\theta$ as fractions in simplest form.",
@@ -37976,6 +38159,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3g",
+   "help": "y9-3e-ratios",
    "label": "3g",
    "section": "Fluency",
    "stem": "For each triangle, write $\\sin \\theta$, $\\cos \\theta$ and $\\tan \\theta$ as fractions in simplest form.",
@@ -38058,6 +38242,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3h",
+   "help": "y9-3e-ratios",
    "label": "3h",
    "section": "Fluency",
    "stem": "For each triangle, write $\\sin \\theta$, $\\cos \\theta$ and $\\tan \\theta$ as fractions in simplest form.",
@@ -38069,6 +38254,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3i",
+   "help": "y9-3e-ratios",
    "label": "3i",
    "section": "Fluency",
    "stem": "For each triangle, write $\\sin \\theta$, $\\cos \\theta$ and $\\tan \\theta$ as fractions in simplest form.",
@@ -38080,6 +38266,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-3e-ratios",
    "label": "4a",
    "section": "Fluency",
    "stem": "For this triangle, write each ratio as a fraction.",
@@ -38178,6 +38365,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-3e-ratios",
    "label": "4b",
    "section": "Fluency",
    "stem": "For this triangle, write each ratio as a fraction.",
@@ -38188,6 +38376,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-3e-ratios",
    "label": "4c",
    "section": "Fluency",
    "stem": "For this triangle, write each ratio as a fraction.",
@@ -38198,6 +38387,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-3e-ratios",
    "label": "4d",
    "section": "Fluency",
    "stem": "For this triangle, write each ratio as a fraction.",
@@ -38208,6 +38398,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y9-3e-ratios",
    "label": "4e",
    "section": "Fluency",
    "stem": "For this triangle, write each ratio as a fraction.",
@@ -38218,6 +38409,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y9-3e-ratios",
    "label": "4f",
    "section": "Fluency",
    "stem": "For this triangle, write each ratio as a fraction.",
@@ -38228,6 +38420,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5",
+   "help": "y9-3e-ratios",
    "label": "5",
    "section": "Problem-solving",
    "type": "numeric",
@@ -38331,6 +38524,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-3e-ratios",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "The triangular front of an old stone temple contains this right-angled triangle, measured in feet (ft). Write each ratio as a fraction.",
@@ -38412,6 +38606,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-3e-ratios",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "The triangular front of an old stone temple contains this right-angled triangle, measured in feet (ft). Write each ratio as a fraction.",
@@ -38422,6 +38617,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y9-3e-ratios",
    "label": "6c",
    "section": "Problem-solving",
    "stem": "The triangular front of an old stone temple contains this right-angled triangle, measured in feet (ft). Write each ratio as a fraction.",
@@ -38432,6 +38628,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-3e-third",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "For each triangle, use Pythagoras' theorem to find the length of the third side, then write $\\sin \\theta$, $\\cos \\theta$ and $\\tan \\theta$ as fractions.",
@@ -38516,6 +38713,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-3e-third",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "For each triangle, use Pythagoras' theorem to find the length of the third side, then write $\\sin \\theta$, $\\cos \\theta$ and $\\tan \\theta$ as fractions.",
@@ -38526,6 +38724,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-3e-third",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "For each triangle, use Pythagoras' theorem to find the length of the third side, then write $\\sin \\theta$, $\\cos \\theta$ and $\\tan \\theta$ as fractions.",
@@ -38536,6 +38735,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y9-3e-third",
    "label": "7d",
    "section": "Problem-solving",
    "stem": "For each triangle, use Pythagoras' theorem to find the length of the third side, then write $\\sin \\theta$, $\\cos \\theta$ and $\\tan \\theta$ as fractions.",
@@ -38546,6 +38746,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7e",
+   "help": "y9-3e-third",
    "label": "7e",
    "section": "Problem-solving",
    "stem": "For each triangle, use Pythagoras' theorem to find the length of the third side, then write $\\sin \\theta$, $\\cos \\theta$ and $\\tan \\theta$ as fractions.",
@@ -38619,6 +38820,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7f",
+   "help": "y9-3e-third",
    "label": "7f",
    "section": "Problem-solving",
    "stem": "For each triangle, use Pythagoras' theorem to find the length of the third side, then write $\\sin \\theta$, $\\cos \\theta$ and $\\tan \\theta$ as fractions.",
@@ -38629,6 +38831,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7g",
+   "help": "y9-3e-third",
    "label": "7g",
    "section": "Problem-solving",
    "stem": "For each triangle, use Pythagoras' theorem to find the length of the third side, then write $\\sin \\theta$, $\\cos \\theta$ and $\\tan \\theta$ as fractions.",
@@ -38639,6 +38842,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7h",
+   "help": "y9-3e-third",
    "label": "7h",
    "section": "Problem-solving",
    "stem": "For each triangle, use Pythagoras' theorem to find the length of the third side, then write $\\sin \\theta$, $\\cos \\theta$ and $\\tan \\theta$ as fractions.",
@@ -38649,6 +38853,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7i",
+   "help": "y9-3e-third",
    "label": "7i",
    "section": "Problem-solving",
    "stem": "For each triangle, use Pythagoras' theorem to find the length of the third side, then write $\\sin \\theta$, $\\cos \\theta$ and $\\tan \\theta$ as fractions.",
@@ -38723,6 +38928,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7j",
+   "help": "y9-3e-third",
    "label": "7j",
    "section": "Problem-solving",
    "stem": "For each triangle, use Pythagoras' theorem to find the length of the third side, then write $\\sin \\theta$, $\\cos \\theta$ and $\\tan \\theta$ as fractions.",
@@ -38733,6 +38939,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7k",
+   "help": "y9-3e-third",
    "label": "7k",
    "section": "Problem-solving",
    "stem": "For each triangle, use Pythagoras' theorem to find the length of the third side, then write $\\sin \\theta$, $\\cos \\theta$ and $\\tan \\theta$ as fractions.",
@@ -38743,6 +38950,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7l",
+   "help": "y9-3e-third",
    "label": "7l",
    "section": "Problem-solving",
    "stem": "For each triangle, use Pythagoras' theorem to find the length of the third side, then write $\\sin \\theta$, $\\cos \\theta$ and $\\tan \\theta$ as fractions.",
@@ -38753,6 +38961,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7m",
+   "help": "y9-3e-third",
    "label": "7m",
    "section": "Problem-solving",
    "stem": "For each triangle, use Pythagoras' theorem to find the length of the third side, then write $\\sin \\theta$, $\\cos \\theta$ and $\\tan \\theta$ as fractions.",
@@ -38827,6 +39036,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7n",
+   "help": "y9-3e-third",
    "label": "7n",
    "section": "Problem-solving",
    "stem": "For each triangle, use Pythagoras' theorem to find the length of the third side, then write $\\sin \\theta$, $\\cos \\theta$ and $\\tan \\theta$ as fractions.",
@@ -38837,6 +39047,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7o",
+   "help": "y9-3e-third",
    "label": "7o",
    "section": "Problem-solving",
    "stem": "For each triangle, use Pythagoras' theorem to find the length of the third side, then write $\\sin \\theta$, $\\cos \\theta$ and $\\tan \\theta$ as fractions.",
@@ -38847,6 +39058,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7p",
+   "help": "y9-3e-third",
    "label": "7p",
    "section": "Problem-solving",
    "stem": "For each triangle, use Pythagoras' theorem to find the length of the third side, then write $\\sin \\theta$, $\\cos \\theta$ and $\\tan \\theta$ as fractions.",
@@ -38857,6 +39069,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-3e-third",
    "label": "8a",
    "section": "Problem-solving",
    "stem": "A right-angled triangle has an angle marked $\\theta$. The side opposite $\\theta$ is $21$ units long and the hypotenuse is $29$ units long.",
@@ -38866,6 +39079,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-3e-third",
    "label": "8b",
    "section": "Problem-solving",
    "stem": "A right-angled triangle has an angle marked $\\theta$. The side opposite $\\theta$ is $21$ units long and the hypotenuse is $29$ units long.",
@@ -38876,6 +39090,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y9-3e-third",
    "label": "8c",
    "section": "Problem-solving",
    "stem": "A right-angled triangle has an angle marked $\\theta$. The side opposite $\\theta$ is $21$ units long and the hypotenuse is $29$ units long.",
@@ -38886,6 +39101,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y9-3e-third",
    "label": "8d",
    "section": "Problem-solving",
    "stem": "A right-angled triangle has an angle marked $\\theta$. The side opposite $\\theta$ is $21$ units long and the hypotenuse is $29$ units long.",
@@ -38896,6 +39112,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-3e-exact",
    "label": "9a",
    "section": "Reasoning",
    "stem": "This triangle has angles $90^\\circ$, $60^\\circ$ and $30^\\circ$, and side lengths $1$, $2$ and $\\sqrt{3}$. Write the exact value of each ratio.",
@@ -38995,6 +39212,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-3e-exact",
    "label": "9b",
    "section": "Reasoning",
    "stem": "This triangle has angles $90^\\circ$, $60^\\circ$ and $30^\\circ$, and side lengths $1$, $2$ and $\\sqrt{3}$. Write the exact value of each ratio.",
@@ -39005,6 +39223,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y9-3e-exact",
    "label": "9c",
    "section": "Reasoning",
    "stem": "This triangle has angles $90^\\circ$, $60^\\circ$ and $30^\\circ$, and side lengths $1$, $2$ and $\\sqrt{3}$. Write the exact value of each ratio.",
@@ -39015,6 +39234,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y9-3e-exact",
    "label": "9d",
    "section": "Reasoning",
    "stem": "This triangle has angles $90^\\circ$, $60^\\circ$ and $30^\\circ$, and side lengths $1$, $2$ and $\\sqrt{3}$. Write the exact value of each ratio.",
@@ -39025,6 +39245,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9e",
+   "help": "y9-3e-exact",
    "label": "9e",
    "section": "Reasoning",
    "stem": "This triangle has angles $90^\\circ$, $60^\\circ$ and $30^\\circ$, and side lengths $1$, $2$ and $\\sqrt{3}$. Write the exact value of each ratio.",
@@ -39035,6 +39256,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9f",
+   "help": "y9-3e-exact",
    "label": "9f",
    "section": "Reasoning",
    "stem": "This triangle has angles $90^\\circ$, $60^\\circ$ and $30^\\circ$, and side lengths $1$, $2$ and $\\sqrt{3}$. Write the exact value of each ratio.",
@@ -39045,6 +39267,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9g",
+   "help": "y9-3e-exact",
    "label": "9g",
    "section": "Reasoning",
    "type": "choice",
@@ -39058,6 +39281,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9h",
+   "help": "y9-3e-exact",
    "label": "9h",
    "section": "Reasoning",
    "type": "choice",
@@ -39071,6 +39295,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y9-3e-measured",
    "label": "10a",
    "section": "Reasoning",
    "stem": "Kai measured the sides of this triangle to the nearest millimetre. Use his measurements to find an approximate value for each ratio, correct to two decimal places.",
@@ -39153,6 +39378,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y9-3e-measured",
    "label": "10b",
    "section": "Reasoning",
    "stem": "Kai measured the sides of this triangle to the nearest millimetre. Use his measurements to find an approximate value for each ratio, correct to two decimal places.",
@@ -39163,6 +39389,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y9-3e-measured",
    "label": "10c",
    "section": "Reasoning",
    "stem": "Kai measured the sides of this triangle to the nearest millimetre. Use his measurements to find an approximate value for each ratio, correct to two decimal places.",
@@ -39173,6 +39400,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10d",
+   "help": "y9-3e-measured",
    "label": "10d",
    "section": "Reasoning",
    "stem": "Kai measured the sides of this triangle to the nearest millimetre. Use his measurements to find an approximate value for each ratio, correct to two decimal places.",
@@ -39183,6 +39411,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10e",
+   "help": "y9-3e-measured",
    "label": "10e",
    "section": "Reasoning",
    "stem": "Kai measured the sides of this triangle to the nearest millimetre. Use his measurements to find an approximate value for each ratio, correct to two decimal places.",
@@ -39193,6 +39422,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10f",
+   "help": "y9-3e-measured",
    "label": "10f",
    "section": "Reasoning",
    "stem": "Kai measured the sides of this triangle to the nearest millimetre. Use his measurements to find an approximate value for each ratio, correct to two decimal places.",
@@ -39203,6 +39433,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10g",
+   "help": "y9-3e-measured",
    "label": "10g",
    "section": "Reasoning",
    "type": "choice",
@@ -39216,6 +39447,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y9-3e-possible",
    "label": "11a",
    "section": "Reasoning",
    "stem": "Is it possible to draw a right-angled triangle where $\\theta$ is one of the two acute angles and:",
@@ -39229,6 +39461,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y9-3e-possible",
    "label": "11b",
    "section": "Reasoning",
    "stem": "Is it possible to draw a right-angled triangle where $\\theta$ is one of the two acute angles and:",
@@ -39242,6 +39475,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y9-3e-possible",
    "label": "11c",
    "section": "Reasoning",
    "stem": "Is it possible to draw a right-angled triangle where $\\theta$ is one of the two acute angles and:",
@@ -39255,6 +39489,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11d",
+   "help": "y9-3e-possible",
    "label": "11d",
    "section": "Reasoning",
    "stem": "Is it possible to draw a right-angled triangle where $\\theta$ is one of the two acute angles and:",
@@ -39268,6 +39503,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y9-3e-third",
    "label": "12a",
    "section": "Enrichment",
    "stem": "$\\theta$ is an acute angle and $\\cos \\theta = \\frac{12}{13}$. Use Pythagoras' theorem to find the other ratios as fractions.",
@@ -39342,6 +39578,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y9-3e-third",
    "label": "12b",
    "section": "Enrichment",
    "stem": "$\\theta$ is an acute angle and $\\cos \\theta = \\frac{12}{13}$. Use Pythagoras' theorem to find the other ratios as fractions.",
@@ -39352,6 +39589,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y9-3e-third",
    "label": "12c",
    "section": "Enrichment",
    "stem": "For each ratio, sketch a right-angled triangle, use Pythagoras' theorem to find the third side, then write the exact values of the other two ratios.",
@@ -39363,6 +39601,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12d",
+   "help": "y9-3e-third",
    "label": "12d",
    "section": "Enrichment",
    "stem": "For each ratio, sketch a right-angled triangle, use Pythagoras' theorem to find the third side, then write the exact values of the other two ratios.",
@@ -39373,6 +39612,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12e",
+   "help": "y9-3e-third",
    "label": "12e",
    "section": "Enrichment",
    "stem": "For each ratio, sketch a right-angled triangle, use Pythagoras' theorem to find the third side, then write the exact values of the other two ratios.",
@@ -39383,6 +39623,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12f",
+   "help": "y9-3e-third",
    "label": "12f",
    "section": "Enrichment",
    "stem": "For each ratio, sketch a right-angled triangle, use Pythagoras' theorem to find the third side, then write the exact values of the other two ratios.",
@@ -39393,6 +39634,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12g",
+   "help": "y9-3e-third",
    "label": "12g",
    "section": "Enrichment",
    "stem": "For each ratio, sketch a right-angled triangle, use Pythagoras' theorem to find the third side, then write the exact values of the other two ratios.",
@@ -39403,6 +39645,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12h",
+   "help": "y9-3e-third",
    "label": "12h",
    "section": "Enrichment",
    "stem": "For each ratio, sketch a right-angled triangle, use Pythagoras' theorem to find the third side, then write the exact values of the other two ratios.",
@@ -39413,6 +39656,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12i",
+   "help": "y9-3e-third",
    "label": "12i",
    "section": "Enrichment",
    "type": "numeric",
@@ -39430,6 +39674,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-3f-calc",
    "label": "1a",
    "section": "Fluency",
    "stem": "Use a calculator to evaluate each of these, correct to two decimal places.",
@@ -39441,6 +39686,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-3f-calc",
    "label": "1b",
    "section": "Fluency",
    "stem": "Use a calculator to evaluate each of these, correct to two decimal places.",
@@ -39451,6 +39697,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-3f-calc",
    "label": "1c",
    "section": "Fluency",
    "stem": "Use a calculator to evaluate each of these, correct to two decimal places.",
@@ -39461,6 +39708,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-3f-calc",
    "label": "1d",
    "section": "Fluency",
    "stem": "Use a calculator to evaluate each of these, correct to two decimal places.",
@@ -39471,6 +39719,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-3f-solve",
    "label": "2a",
    "section": "Fluency",
    "stem": "For each equation, find the value of $x$ correct to two decimal places.",
@@ -39481,6 +39730,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-3f-solve",
    "label": "2b",
    "section": "Fluency",
    "stem": "For each equation, find the value of $x$ correct to two decimal places.",
@@ -39491,6 +39741,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-3f-solve",
    "label": "2c",
    "section": "Fluency",
    "stem": "For each equation, find the value of $x$ correct to two decimal places.",
@@ -39501,6 +39752,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-3f-solve",
    "label": "2d",
    "section": "Fluency",
    "stem": "For each equation, find the value of $x$ correct to two decimal places.",
@@ -39511,6 +39763,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-3f-solve",
    "label": "2e",
    "section": "Fluency",
    "stem": "For each equation, find the value of $x$ correct to two decimal places.",
@@ -39521,6 +39774,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-3f-solve",
    "label": "2f",
    "section": "Fluency",
    "stem": "For each equation, find the value of $x$ correct to two decimal places.",
@@ -39531,6 +39785,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y9-3f-solve",
    "label": "2g",
    "section": "Fluency",
    "stem": "For each equation, find the value of $x$ correct to two decimal places.",
@@ -39541,6 +39796,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y9-3f-solve",
    "label": "2h",
    "section": "Fluency",
    "stem": "For each equation, find the value of $x$ correct to two decimal places.",
@@ -39551,6 +39807,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2i",
+   "help": "y9-3f-solve",
    "label": "2i",
    "section": "Fluency",
    "stem": "For each equation, find the value of $x$ correct to two decimal places.",
@@ -39561,6 +39818,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-3f-triangle",
    "label": "3a",
    "section": "Fluency",
    "stem": "For each triangle, find the value of $x$ correct to two decimal places.",
@@ -39635,6 +39893,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-3f-triangle",
    "label": "3b",
    "section": "Fluency",
    "stem": "For each triangle, find the value of $x$ correct to two decimal places.",
@@ -39710,6 +39969,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-3f-triangle",
    "label": "3c",
    "section": "Fluency",
    "stem": "For each triangle, find the value of $x$ correct to two decimal places.",
@@ -39784,6 +40044,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-3f-triangle",
    "label": "3d",
    "section": "Fluency",
    "stem": "For each triangle, find the value of $x$ correct to two decimal places.",
@@ -39858,6 +40119,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-3f-triangle",
    "label": "3e",
    "section": "Fluency",
    "stem": "For each triangle, find the value of $x$ correct to two decimal places.",
@@ -39932,6 +40194,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-3f-triangle",
    "label": "3f",
    "section": "Fluency",
    "stem": "For each triangle, find the value of $x$ correct to two decimal places.",
@@ -40007,6 +40270,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3g",
+   "help": "y9-3f-triangle",
    "label": "3g",
    "section": "Fluency",
    "stem": "For each triangle, find the value of $x$ correct to two decimal places.",
@@ -40081,6 +40345,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3h",
+   "help": "y9-3f-triangle",
    "label": "3h",
    "section": "Fluency",
    "stem": "For each triangle, find the value of $x$ correct to two decimal places.",
@@ -40156,6 +40421,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3i",
+   "help": "y9-3f-triangle",
    "label": "3i",
    "section": "Fluency",
    "stem": "For each triangle, find the value of $x$ correct to two decimal places.",
@@ -40230,6 +40496,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3j",
+   "help": "y9-3f-triangle",
    "label": "3j",
    "section": "Fluency",
    "stem": "For each triangle, find the value of $x$ correct to two decimal places.",
@@ -40304,6 +40571,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3k",
+   "help": "y9-3f-triangle",
    "label": "3k",
    "section": "Fluency",
    "stem": "For each triangle, find the value of $x$ correct to two decimal places.",
@@ -40378,6 +40646,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3l",
+   "help": "y9-3f-triangle",
    "label": "3l",
    "section": "Fluency",
    "stem": "For each triangle, find the value of $x$ correct to two decimal places.",
@@ -40453,6 +40722,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3m",
+   "help": "y9-3f-triangle",
    "label": "3m",
    "section": "Fluency",
    "stem": "For each triangle, find the value of $x$ correct to two decimal places.",
@@ -40527,6 +40797,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3n",
+   "help": "y9-3f-triangle",
    "label": "3n",
    "section": "Fluency",
    "stem": "For each triangle, find the value of $x$ correct to two decimal places.",
@@ -40602,6 +40873,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3o",
+   "help": "y9-3f-triangle",
    "label": "3o",
    "section": "Fluency",
    "stem": "For each triangle, find the value of $x$ correct to two decimal places.",
@@ -40688,6 +40960,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3p",
+   "help": "y9-3f-triangle",
    "label": "3p",
    "section": "Fluency",
    "stem": "For each triangle, find the value of $x$ correct to two decimal places.",
@@ -40762,6 +41035,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4",
+   "help": "y9-3f-triangle",
    "label": "4",
    "section": "Problem-solving",
    "type": "numeric",
@@ -40836,6 +41110,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5",
+   "help": "y9-3f-triangle",
    "label": "5",
    "section": "Problem-solving",
    "type": "numeric",
@@ -40934,6 +41209,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6",
+   "help": "y9-3f-triangle",
    "label": "6",
    "section": "Problem-solving",
    "type": "numeric",
@@ -41009,6 +41285,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-3f-composite",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "Find the length $AB$ in these diagrams. Round to two decimal places where necessary.",
@@ -41126,6 +41403,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-3f-composite",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "Find the length $AB$ in these diagrams. Round to two decimal places where necessary.",
@@ -41274,6 +41552,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-3f-triangle",
    "label": "8a",
    "section": "Reasoning",
    "stem": "Look at this right-angled triangle.",
@@ -41373,6 +41652,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-3f-triangle",
    "label": "8b",
    "section": "Reasoning",
    "stem": "Look at this right-angled triangle.",
@@ -41383,6 +41663,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y9-3f-triangle",
    "label": "8c",
    "section": "Reasoning",
    "stem": "Look at this right-angled triangle.",
@@ -41393,6 +41674,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y9-3f-triangle",
    "label": "8d",
    "section": "Reasoning",
    "stem": "Look at this right-angled triangle.",
@@ -41407,6 +41689,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-3f-complement",
    "label": "9a",
    "section": "Reasoning",
    "stem": "Complementary angles add to $90^\\circ$. Find the complementary angle to each of these angles.",
@@ -41417,6 +41700,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-3f-complement",
    "label": "9b",
    "section": "Reasoning",
    "stem": "Complementary angles add to $90^\\circ$. Find the complementary angle to each of these angles.",
@@ -41427,6 +41711,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y9-3f-complement",
    "label": "9c",
    "section": "Reasoning",
    "stem": "Complementary angles add to $90^\\circ$. Find the complementary angle to each of these angles.",
@@ -41437,6 +41722,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y9-3f-complement",
    "label": "9d",
    "section": "Reasoning",
    "stem": "Complementary angles add to $90^\\circ$. Find the complementary angle to each of these angles.",
@@ -41447,6 +41733,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9e",
+   "help": "y9-3f-complement",
    "label": "9e",
    "section": "Reasoning",
    "stem": "Evaluate each pair, correct to four decimal places. Type both values, separated by a comma.",
@@ -41459,6 +41746,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9f",
+   "help": "y9-3f-complement",
    "label": "9f",
    "section": "Reasoning",
    "stem": "Evaluate each pair, correct to four decimal places. Type both values, separated by a comma.",
@@ -41471,6 +41759,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9g",
+   "help": "y9-3f-complement",
    "label": "9g",
    "section": "Reasoning",
    "stem": "Evaluate each pair, correct to four decimal places. Type both values, separated by a comma.",
@@ -41483,6 +41772,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9h",
+   "help": "y9-3f-complement",
    "label": "9h",
    "section": "Reasoning",
    "stem": "Evaluate each pair, correct to four decimal places. Type both values, separated by a comma.",
@@ -41495,6 +41785,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9i",
+   "help": "y9-3f-complement",
    "label": "9i",
    "section": "Reasoning",
    "type": "choice",
@@ -41508,6 +41799,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9j",
+   "help": "y9-3f-complement",
    "label": "9j",
    "section": "Reasoning",
    "stem": "Fill in the missing angle.",
@@ -41518,6 +41810,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9k",
+   "help": "y9-3f-complement",
    "label": "9k",
    "section": "Reasoning",
    "stem": "Fill in the missing angle.",
@@ -41528,6 +41821,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9l",
+   "help": "y9-3f-complement",
    "label": "9l",
    "section": "Reasoning",
    "stem": "Fill in the missing angle.",
@@ -41538,6 +41832,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9m",
+   "help": "y9-3f-complement",
    "label": "9m",
    "section": "Reasoning",
    "stem": "Fill in the missing angle.",
@@ -41548,6 +41843,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y9-3f-exact",
    "label": "10a",
    "section": "Enrichment",
    "stem": "Values such as $\\sqrt{2}$, $\\sqrt{3}$ and $\\frac{1}{\\sqrt{2}}$ are called exact values. Look at this triangle.",
@@ -41665,6 +41961,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y9-3f-exact",
    "label": "10b",
    "section": "Enrichment",
    "stem": "Values such as $\\sqrt{2}$, $\\sqrt{3}$ and $\\frac{1}{\\sqrt{2}}$ are called exact values. Look at this triangle.",
@@ -41676,6 +41973,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y9-3f-exact",
    "label": "10c",
    "section": "Enrichment",
    "stem": "Values such as $\\sqrt{2}$, $\\sqrt{3}$ and $\\frac{1}{\\sqrt{2}}$ are called exact values. Look at this triangle.",
@@ -41687,6 +41985,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10d",
+   "help": "y9-3f-exact",
    "label": "10d",
    "section": "Enrichment",
    "stem": "Values such as $\\sqrt{2}$, $\\sqrt{3}$ and $\\frac{1}{\\sqrt{2}}$ are called exact values. Look at this triangle.",
@@ -41696,6 +41995,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10e",
+   "help": "y9-3f-exact",
    "label": "10e",
    "section": "Enrichment",
    "stem": "Now look at this second triangle.",
@@ -41796,6 +42096,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10f",
+   "help": "y9-3f-exact",
    "label": "10f",
    "section": "Enrichment",
    "stem": "Now look at this second triangle.",
@@ -41807,6 +42108,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10g",
+   "help": "y9-3f-exact",
    "label": "10g",
    "section": "Enrichment",
    "stem": "Now look at this second triangle.",
@@ -41817,6 +42119,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10h",
+   "help": "y9-3f-exact",
    "label": "10h",
    "section": "Enrichment",
    "stem": "Now look at this second triangle.",
@@ -41827,6 +42130,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10i",
+   "help": "y9-3f-exact",
    "label": "10i",
    "section": "Enrichment",
    "stem": "Now look at this second triangle.",
@@ -41837,6 +42141,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10j",
+   "help": "y9-3f-exact",
    "label": "10j",
    "section": "Enrichment",
    "stem": "Now look at this second triangle.",
@@ -41847,6 +42152,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10k",
+   "help": "y9-3f-exact",
    "label": "10k",
    "section": "Enrichment",
    "stem": "Now look at this second triangle.",
@@ -41866,6 +42172,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-3g-solve",
    "label": "1a",
    "section": "Fluency",
    "stem": "For each equation, find the value of $x$ correct to two decimal places.",
@@ -41876,6 +42183,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-3g-solve",
    "label": "1b",
    "section": "Fluency",
    "stem": "For each equation, find the value of $x$ correct to two decimal places.",
@@ -41886,6 +42194,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-3g-solve",
    "label": "1c",
    "section": "Fluency",
    "stem": "For each equation, find the value of $x$ correct to two decimal places.",
@@ -41896,6 +42205,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-3g-solve",
    "label": "1d",
    "section": "Fluency",
    "stem": "For each equation, find the value of $x$ correct to two decimal places.",
@@ -41906,6 +42216,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-3g-solve",
    "label": "1e",
    "section": "Fluency",
    "stem": "For each equation, find the value of $x$ correct to two decimal places.",
@@ -41916,6 +42227,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-3g-solve",
    "label": "1f",
    "section": "Fluency",
    "stem": "For each equation, find the value of $x$ correct to two decimal places.",
@@ -41926,6 +42238,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-3g-triangle",
    "label": "2a",
    "section": "Fluency",
    "stem": "Find the value of $x$ correct to two decimal places, using the sine, cosine or tangent ratio.",
@@ -42001,6 +42314,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-3g-triangle",
    "label": "2b",
    "section": "Fluency",
    "stem": "Find the value of $x$ correct to two decimal places, using the sine, cosine or tangent ratio.",
@@ -42076,6 +42390,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-3g-triangle",
    "label": "2c",
    "section": "Fluency",
    "stem": "Find the value of $x$ correct to two decimal places, using the sine, cosine or tangent ratio.",
@@ -42151,6 +42466,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-3g-triangle",
    "label": "2d",
    "section": "Fluency",
    "stem": "Find the value of $x$ correct to two decimal places, using the sine, cosine or tangent ratio.",
@@ -42226,6 +42542,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-3g-triangle",
    "label": "2e",
    "section": "Fluency",
    "stem": "Find the value of $x$ correct to two decimal places, using the sine, cosine or tangent ratio.",
@@ -42300,6 +42617,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-3g-triangle",
    "label": "2f",
    "section": "Fluency",
    "stem": "Find the value of $x$ correct to two decimal places, using the sine, cosine or tangent ratio.",
@@ -42374,6 +42692,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y9-3g-triangle",
    "label": "2g",
    "section": "Fluency",
    "stem": "Find the value of $x$ correct to two decimal places, using the sine, cosine or tangent ratio.",
@@ -42448,6 +42767,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y9-3g-triangle",
    "label": "2h",
    "section": "Fluency",
    "stem": "Find the value of $x$ correct to two decimal places, using the sine, cosine or tangent ratio.",
@@ -42523,6 +42843,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2i",
+   "help": "y9-3g-triangle",
    "label": "2i",
    "section": "Fluency",
    "stem": "Find the value of $x$ correct to two decimal places, using the sine, cosine or tangent ratio.",
@@ -42597,6 +42918,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2j",
+   "help": "y9-3g-triangle",
    "label": "2j",
    "section": "Fluency",
    "stem": "Find the value of $x$ correct to two decimal places, using the sine, cosine or tangent ratio.",
@@ -42682,6 +43004,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2k",
+   "help": "y9-3g-triangle",
    "label": "2k",
    "section": "Fluency",
    "stem": "Find the value of $x$ correct to two decimal places, using the sine, cosine or tangent ratio.",
@@ -42755,6 +43078,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2l",
+   "help": "y9-3g-triangle",
    "label": "2l",
    "section": "Fluency",
    "stem": "Find the value of $x$ correct to two decimal places, using the sine, cosine or tangent ratio.",
@@ -42830,6 +43154,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-3g-both",
    "label": "3a",
    "section": "Fluency",
    "stem": "Find the value of each pronumeral, correct to one decimal place.",
@@ -42912,6 +43237,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-3g-both",
    "label": "3b",
    "section": "Fluency",
    "stem": "Find the value of each pronumeral, correct to one decimal place.",
@@ -42994,6 +43320,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-3g-both",
    "label": "3c",
    "section": "Fluency",
    "stem": "Find the value of each pronumeral, correct to one decimal place.",
@@ -43076,6 +43403,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-3g-both",
    "label": "3d",
    "section": "Fluency",
    "stem": "Find the value of each pronumeral, correct to one decimal place.",
@@ -43158,6 +43486,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-3g-both",
    "label": "3e",
    "section": "Fluency",
    "stem": "Find the value of each pronumeral, correct to one decimal place.",
@@ -43240,6 +43569,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-3g-both",
    "label": "3f",
    "section": "Fluency",
    "stem": "Find the value of each pronumeral, correct to one decimal place.",
@@ -43322,6 +43652,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3g",
+   "help": "y9-3g-both",
    "label": "3g",
    "section": "Fluency",
    "stem": "Find the value of each pronumeral, correct to one decimal place.",
@@ -43404,6 +43735,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3h",
+   "help": "y9-3g-both",
    "label": "3h",
    "section": "Fluency",
    "stem": "Find the value of each pronumeral, correct to one decimal place.",
@@ -43486,6 +43818,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3i",
+   "help": "y9-3g-both",
    "label": "3i",
    "section": "Fluency",
    "stem": "Find the value of each pronumeral, correct to one decimal place.",
@@ -43568,6 +43901,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3j",
+   "help": "y9-3g-both",
    "label": "3j",
    "section": "Fluency",
    "stem": "Find the value of each pronumeral, correct to one decimal place.",
@@ -43650,6 +43984,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3k",
+   "help": "y9-3g-both",
    "label": "3k",
    "section": "Fluency",
    "stem": "Find the value of each pronumeral, correct to one decimal place.",
@@ -43732,6 +44067,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3l",
+   "help": "y9-3g-both",
    "label": "3l",
    "section": "Fluency",
    "stem": "Find the value of each pronumeral, correct to one decimal place.",
@@ -43814,6 +44150,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3m",
+   "help": "y9-3g-both",
    "label": "3m",
    "section": "Fluency",
    "stem": "Find the value of each pronumeral, correct to one decimal place.",
@@ -43908,6 +44245,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3n",
+   "help": "y9-3g-both",
    "label": "3n",
    "section": "Fluency",
    "stem": "Find the value of each pronumeral, correct to one decimal place.",
@@ -44002,6 +44340,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3o",
+   "help": "y9-3g-both",
    "label": "3o",
    "section": "Fluency",
    "stem": "Find the value of each pronumeral, correct to one decimal place.",
@@ -44084,6 +44423,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3p",
+   "help": "y9-3g-both",
    "label": "3p",
    "section": "Fluency",
    "stem": "Find the value of each pronumeral, correct to one decimal place.",
@@ -44166,6 +44506,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4",
+   "help": "y9-3g-triangle",
    "label": "4",
    "section": "Problem-solving",
    "type": "numeric",
@@ -44240,6 +44581,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5",
+   "help": "y9-3g-triangle",
    "label": "5",
    "section": "Problem-solving",
    "type": "numeric",
@@ -44313,6 +44655,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-3g-both",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "Find the perimeter of each triangle, correct to one decimal place.",
@@ -44381,6 +44724,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-3g-both",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "Find the perimeter of each triangle, correct to one decimal place.",
@@ -44474,6 +44818,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-3g-rounding",
    "label": "7a",
    "section": "Reasoning",
    "stem": "Two students find $x$ in this triangle, each correct to two decimal places. Student A rounds $\\sin 34^\\circ$ to $0.56$ first: $x = \\frac{7}{0.56} = 12.50$. Student B works out $x = \\frac{7}{\\sin 34^\\circ} = 12.52$ in one step on the calculator.",
@@ -44553,6 +44898,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-3g-rounding",
    "label": "7b",
    "section": "Reasoning",
    "stem": "For each triangle, find $x$ both ways, each correct to two decimal places: method A (round the trig value to two decimal places first) and method B (no rounding until the end). Then find the difference between the two answers.",
@@ -44629,6 +44975,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-3g-rounding",
    "label": "7c",
    "section": "Reasoning",
    "stem": "For each triangle, find $x$ both ways, each correct to two decimal places: method A (round the trig value to two decimal places first) and method B (no rounding until the end). Then find the difference between the two answers.",
@@ -44705,6 +45052,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-3g-identity",
    "label": "8a",
    "section": "Enrichment",
    "stem": "Look at this right-angled triangle.",
@@ -44797,6 +45145,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-3g-identity",
    "label": "8b",
    "section": "Enrichment",
    "stem": "Look at this right-angled triangle.",
@@ -44808,6 +45157,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y9-3g-identity",
    "label": "8c",
    "section": "Enrichment",
    "stem": "Use a calculator to find each ratio, correct to two decimal places.",
@@ -44818,6 +45168,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y9-3g-identity",
    "label": "8d",
    "section": "Enrichment",
    "stem": "Use a calculator to find each ratio, correct to two decimal places.",
@@ -44828,6 +45179,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8e",
+   "help": "y9-3g-identity",
    "label": "8e",
    "section": "Enrichment",
    "stem": "Use a calculator to find each ratio, correct to two decimal places.",
@@ -44838,6 +45190,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8f",
+   "help": "y9-3g-identity",
    "label": "8f",
    "section": "Enrichment",
    "type": "numeric",
@@ -44847,6 +45200,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8g",
+   "help": "y9-3g-identity",
    "label": "8g",
    "section": "Enrichment",
    "type": "choice",
@@ -44860,6 +45214,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8h",
+   "help": "y9-3g-identity",
    "label": "8h",
    "section": "Enrichment",
    "stem": "This triangle has sides $p$, $q$ and $r$. Write an expression for each ratio.",
@@ -44942,6 +45297,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8i",
+   "help": "y9-3g-identity",
    "label": "8i",
    "section": "Enrichment",
    "stem": "This triangle has sides $p$, $q$ and $r$. Write an expression for each ratio.",
@@ -44951,6 +45307,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8j",
+   "help": "y9-3g-identity",
    "label": "8j",
    "section": "Enrichment",
    "stem": "This triangle has sides $p$, $q$ and $r$. Write an expression for each ratio.",
@@ -44960,6 +45317,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8k",
+   "help": "y9-3g-identity",
    "label": "8k",
    "section": "Enrichment",
    "stem": "This triangle has sides $p$, $q$ and $r$. Write an expression for each ratio.",
@@ -44970,6 +45328,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8l",
+   "help": "y9-3g-identity",
    "label": "8l",
    "section": "Enrichment",
    "stem": "This triangle has sides $p$, $q$ and $r$. Write an expression for each ratio.",
@@ -44993,6 +45352,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-3h-inverse",
    "label": "1a",
    "section": "Fluency",
    "stem": "Find the value of $\\theta$ to the nearest degree.",
@@ -45004,6 +45364,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-3h-inverse",
    "label": "1b",
    "section": "Fluency",
    "stem": "Find the value of $\\theta$ to the nearest degree.",
@@ -45014,6 +45375,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-3h-inverse",
    "label": "1c",
    "section": "Fluency",
    "stem": "Find the value of $\\theta$ to the nearest degree.",
@@ -45024,6 +45386,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-3h-inverse",
    "label": "1d",
    "section": "Fluency",
    "stem": "Find the value of $\\theta$ to the nearest degree.",
@@ -45034,6 +45397,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-3h-inverse",
    "label": "1e",
    "section": "Fluency",
    "stem": "Find the value of $\\theta$ to the nearest degree.",
@@ -45044,6 +45408,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-3h-inverse",
    "label": "1f",
    "section": "Fluency",
    "stem": "Find the value of $\\theta$ to the nearest degree.",
@@ -45054,6 +45419,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-3h-inverse",
    "label": "2a",
    "section": "Fluency",
    "stem": "Find the angle $\\theta$, correct to two decimal places.",
@@ -45065,6 +45431,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-3h-inverse",
    "label": "2b",
    "section": "Fluency",
    "stem": "Find the angle $\\theta$, correct to two decimal places.",
@@ -45076,6 +45443,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-3h-inverse",
    "label": "2c",
    "section": "Fluency",
    "stem": "Find the angle $\\theta$, correct to two decimal places.",
@@ -45087,6 +45455,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-3h-inverse",
    "label": "2d",
    "section": "Fluency",
    "stem": "Find the angle $\\theta$, correct to two decimal places.",
@@ -45098,6 +45467,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-3h-inverse",
    "label": "2e",
    "section": "Fluency",
    "stem": "Find the angle $\\theta$, correct to two decimal places.",
@@ -45109,6 +45479,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-3h-inverse",
    "label": "2f",
    "section": "Fluency",
    "stem": "Find the angle $\\theta$, correct to two decimal places.",
@@ -45120,6 +45491,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y9-3h-inverse",
    "label": "2g",
    "section": "Fluency",
    "stem": "Find the angle $\\theta$, correct to two decimal places.",
@@ -45131,6 +45503,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y9-3h-inverse",
    "label": "2h",
    "section": "Fluency",
    "stem": "Find the angle $\\theta$, correct to two decimal places.",
@@ -45142,6 +45515,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2i",
+   "help": "y9-3h-inverse",
    "label": "2i",
    "section": "Fluency",
    "stem": "Find the angle $\\theta$, correct to two decimal places.",
@@ -45153,6 +45527,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-3h-triangle",
    "label": "3a",
    "section": "Fluency",
    "stem": "Find the value of $\\theta$ to the nearest degree.",
@@ -45227,6 +45602,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-3h-triangle",
    "label": "3b",
    "section": "Fluency",
    "stem": "Find the value of $\\theta$ to the nearest degree.",
@@ -45302,6 +45678,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-3h-triangle",
    "label": "3c",
    "section": "Fluency",
    "stem": "Find the value of $\\theta$ to the nearest degree.",
@@ -45376,6 +45753,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-3h-triangle",
    "label": "3d",
    "section": "Fluency",
    "stem": "Find the value of $\\theta$ to the nearest degree.",
@@ -45461,6 +45839,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-3h-triangle",
    "label": "3e",
    "section": "Fluency",
    "stem": "Find the value of $\\theta$ to the nearest degree.",
@@ -45535,6 +45914,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-3h-triangle",
    "label": "3f",
    "section": "Fluency",
    "stem": "Find the value of $\\theta$ to the nearest degree.",
@@ -45609,6 +45989,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3g",
+   "help": "y9-3h-triangle",
    "label": "3g",
    "section": "Fluency",
    "stem": "Find the value of $\\theta$ to the nearest degree.",
@@ -45683,6 +46064,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3h",
+   "help": "y9-3h-triangle",
    "label": "3h",
    "section": "Fluency",
    "stem": "Find the value of $\\theta$ to the nearest degree.",
@@ -45757,6 +46139,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4",
+   "help": "y9-3h-triangle",
    "label": "4",
    "section": "Problem-solving",
    "type": "numeric",
@@ -45830,6 +46213,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5",
+   "help": "y9-3h-triangle",
    "label": "5",
    "section": "Problem-solving",
    "type": "numeric",
@@ -45905,6 +46289,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6",
+   "help": "y9-3h-triangle",
    "label": "6",
    "section": "Problem-solving",
    "type": "numeric",
@@ -45980,6 +46365,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7",
+   "help": "y9-3h-triangle",
    "label": "7",
    "section": "Problem-solving",
    "type": "numeric",
@@ -45990,6 +46376,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-3h-composite",
    "label": "8a",
    "section": "Problem-solving",
    "stem": "Find the value of $\\theta$, correct to one decimal place.",
@@ -46073,6 +46460,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-3h-composite",
    "label": "8b",
    "section": "Problem-solving",
    "stem": "Find the value of $\\theta$, correct to one decimal place.",
@@ -46156,6 +46544,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y9-3h-composite",
    "label": "8c",
    "section": "Problem-solving",
    "stem": "Find the value of $\\theta$, correct to one decimal place.",
@@ -46258,6 +46647,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-3h-triangle",
    "label": "9a",
    "section": "Reasoning",
    "stem": "Find all three angles, to the nearest degree, in a right-angled triangle with these side lengths. Separate the angles with commas.",
@@ -46271,6 +46661,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-3h-triangle",
    "label": "9b",
    "section": "Reasoning",
    "stem": "Find all three angles, to the nearest degree, in a right-angled triangle with these side lengths. Separate the angles with commas.",
@@ -46284,6 +46675,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y9-3h-triangle",
    "label": "9c",
    "section": "Reasoning",
    "stem": "Find all three angles, to the nearest degree, in a right-angled triangle with these side lengths. Separate the angles with commas.",
@@ -46297,6 +46689,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10",
+   "help": "y9-3h-inverse",
    "label": "10",
    "section": "Reasoning",
    "type": "numeric",
@@ -46306,6 +46699,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y9-3h-composite",
    "label": "11a",
    "section": "Reasoning",
    "stem": "$M$ is the midpoint of $AB$.",
@@ -46413,6 +46807,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y9-3h-composite",
    "label": "11b",
    "section": "Reasoning",
    "stem": "$M$ is the midpoint of $AB$.",
@@ -46424,6 +46819,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y9-3h-composite",
    "label": "11c",
    "section": "Reasoning",
    "stem": "$M$ is the midpoint of $AB$.",
@@ -46437,6 +46833,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y9-3h-viewing",
    "label": "12a",
    "section": "Enrichment",
    "stem": "Mia is looking at a painting that is $1.4$ m tall. Her eye level is the same height as the bottom of the painting, and she stands $x$ m from the wall. Give angles to the nearest degree and lengths correct to two decimal places.",
@@ -46536,6 +46933,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y9-3h-viewing",
    "label": "12b",
    "section": "Enrichment",
    "stem": "Mia is looking at a painting that is $1.4$ m tall. Her eye level is the same height as the bottom of the painting, and she stands $x$ m from the wall. Give angles to the nearest degree and lengths correct to two decimal places.",
@@ -46546,6 +46944,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y9-3h-viewing",
    "label": "12c",
    "section": "Enrichment",
    "stem": "Mia is looking at a painting that is $1.4$ m tall. Her eye level is the same height as the bottom of the painting, and she stands $x$ m from the wall. Give angles to the nearest degree and lengths correct to two decimal places.",
@@ -46556,6 +46955,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12d",
+   "help": "y9-3h-viewing",
    "label": "12d",
    "section": "Enrichment",
    "stem": "Mia is looking at a painting that is $1.4$ m tall. Her eye level is the same height as the bottom of the painting, and she stands $x$ m from the wall. Give angles to the nearest degree and lengths correct to two decimal places.",
@@ -46567,6 +46967,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12e",
+   "help": "y9-3h-viewing",
    "label": "12e",
    "section": "Enrichment",
    "stem": "Mia is looking at a painting that is $1.4$ m tall. Her eye level is the same height as the bottom of the painting, and she stands $x$ m from the wall. Give angles to the nearest degree and lengths correct to two decimal places.",
@@ -46586,6 +46987,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1",
+   "help": "y9-3i-elevation",
    "label": "1",
    "section": "Fluency",
    "type": "numeric",
@@ -46688,6 +47090,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2",
+   "help": "y9-3i-elevation",
    "label": "2",
    "section": "Fluency",
    "type": "numeric",
@@ -46697,6 +47100,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3",
+   "help": "y9-3i-elevation",
    "label": "3",
    "section": "Fluency",
    "type": "numeric",
@@ -46706,6 +47110,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4",
+   "help": "y9-3i-depression",
    "label": "4",
    "section": "Fluency",
    "type": "numeric",
@@ -46787,6 +47192,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5",
+   "help": "y9-3i-depression",
    "label": "5",
    "section": "Fluency",
    "type": "numeric",
@@ -46796,6 +47202,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6",
+   "help": "y9-3i-depression",
    "label": "6",
    "section": "Fluency",
    "type": "numeric",
@@ -46805,6 +47212,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7",
+   "help": "y9-3i-depression",
    "label": "7",
    "section": "Fluency",
    "type": "numeric",
@@ -46814,6 +47222,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8",
+   "help": "y9-3i-roof",
    "label": "8",
    "section": "Fluency",
    "type": "numeric",
@@ -46823,6 +47232,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9",
+   "help": "y9-3i-climb",
    "label": "9",
    "section": "Problem-solving",
    "type": "choice",
@@ -46962,6 +47372,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y9-3i-climb",
    "label": "10a",
    "section": "Problem-solving",
    "stem": "A road rises steadily with a gradient of $1$ in $8$ (it rises $1$ m for every $8$ m horizontally).",
@@ -46972,6 +47383,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y9-3i-climb",
    "label": "10b",
    "section": "Problem-solving",
    "stem": "A road rises steadily with a gradient of $1$ in $8$ (it rises $1$ m for every $8$ m horizontally).",
@@ -46982,6 +47394,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11",
+   "help": "y9-3i-roof",
    "label": "11",
    "section": "Problem-solving",
    "type": "numeric",
@@ -47090,6 +47503,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y9-3i-roof",
    "label": "12a",
    "section": "Problem-solving",
    "stem": "A garage is built with walls $2600$ mm and $1850$ mm high, $3000$ mm apart. The roof is a straight sloping edge, and the eaves stick out $450$ mm past each wall. Give your answers to the nearest unit.",
@@ -47175,6 +47589,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y9-3i-roof",
    "label": "12b",
    "section": "Problem-solving",
    "stem": "A garage is built with walls $2600$ mm and $1850$ mm high, $3000$ mm apart. The roof is a straight sloping edge, and the eaves stick out $450$ mm past each wall. Give your answers to the nearest unit.",
@@ -47185,6 +47600,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13",
+   "help": "y9-3i-roof",
    "label": "13",
    "section": "Problem-solving",
    "type": "numeric",
@@ -47195,6 +47611,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y9-3i-elevation",
    "label": "14a",
    "section": "Reasoning",
    "stem": "A person views a vertical monument $x$ metres away. Their eyes are $h$ metres above the ground, and the top of the monument is $y$ metres above eye level.",
@@ -47326,6 +47743,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y9-3i-elevation",
    "label": "14b",
    "section": "Reasoning",
    "stem": "A person views a vertical monument $x$ metres away. Their eyes are $h$ metres above the ground, and the top of the monument is $y$ metres above eye level.",
@@ -47337,6 +47755,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14c",
+   "help": "y9-3i-elevation",
    "label": "14c",
    "section": "Reasoning",
    "stem": "A person views a vertical monument $x$ metres away. Their eyes are $h$ metres above the ground, and the top of the monument is $y$ metres above eye level.",
@@ -47350,6 +47769,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14d",
+   "help": "y9-3i-elevation",
    "label": "14d",
    "section": "Reasoning",
    "stem": "A person views a vertical monument $x$ metres away. Their eyes are $h$ metres above the ground, and the top of the monument is $y$ metres above eye level.",
@@ -47365,6 +47785,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14e",
+   "help": "y9-3i-elevation",
    "label": "14e",
    "section": "Reasoning",
    "stem": "A person views a vertical monument $x$ metres away. Their eyes are $h$ metres above the ground, and the top of the monument is $y$ metres above eye level.",
@@ -47380,6 +47801,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15",
+   "help": "y9-3i-rules",
    "label": "15",
    "section": "Reasoning",
    "type": "choice",
@@ -47450,6 +47872,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16a",
+   "help": "y9-3i-climb",
    "label": "16a",
    "section": "Enrichment",
    "stem": "A plane takes off and climbs at $22^\\circ$ to the horizontal, flying at $200$ km/h along its flight path for $12$ minutes.",
@@ -47460,6 +47883,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16b",
+   "help": "y9-3i-climb",
    "label": "16b",
    "section": "Enrichment",
    "stem": "A plane takes off and climbs at $22^\\circ$ to the horizontal, flying at $200$ km/h along its flight path for $12$ minutes.",
@@ -47471,6 +47895,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16c",
+   "help": "y9-3i-climb",
    "label": "16c",
    "section": "Enrichment",
    "stem": "A plane takes off and climbs at $22^\\circ$ to the horizontal, flying at $200$ km/h along its flight path for $12$ minutes.",
@@ -47484,6 +47909,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16d",
+   "help": "y9-3i-climb",
    "label": "16d",
    "section": "Enrichment",
    "stem": "A plane takes off and climbs at $22^\\circ$ to the horizontal, flying at $200$ km/h along its flight path for $12$ minutes.",
@@ -47497,6 +47923,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17a",
+   "help": "y9-3i-climb",
    "label": "17a",
    "section": "Enrichment",
    "stem": "The town of Millbrook is $10$ km from an airport. Residents say any plane flying lower than $3$ km over the town disturbs them. Every Sunday the town holds an outdoor concert from 1:00 pm to 3:00 pm.",
@@ -47510,6 +47937,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17b",
+   "help": "y9-3i-climb",
    "label": "17b",
    "section": "Enrichment",
    "stem": "The town of Millbrook is $10$ km from an airport. Residents say any plane flying lower than $3$ km over the town disturbs them. Every Sunday the town holds an outdoor concert from 1:00 pm to 3:00 pm.",
@@ -47520,6 +47948,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17c",
+   "help": "y9-3i-climb",
    "label": "17c",
    "section": "Enrichment",
    "stem": "The town of Millbrook is $10$ km from an airport. Residents say any plane flying lower than $3$ km over the town disturbs them. Every Sunday the town holds an outdoor concert from 1:00 pm to 3:00 pm.",
@@ -47533,6 +47962,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17d",
+   "help": "y9-3i-climb",
    "label": "17d",
    "section": "Enrichment",
    "stem": "The town of Millbrook is $10$ km from an airport. Residents say any plane flying lower than $3$ km over the town disturbs them. Every Sunday the town holds an outdoor concert from 1:00 pm to 3:00 pm.",
@@ -47546,6 +47976,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q18a",
+   "help": "y9-3i-climb",
    "label": "18a",
    "section": "Enrichment",
    "stem": "Nina sees a plane flying directly overhead at a height of $750$ m. $25$ seconds later, the angle of elevation of the plane from Nina is $35^\\circ$. Assume the plane flies horizontally.",
@@ -47556,6 +47987,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q18b",
+   "help": "y9-3i-climb",
    "label": "18b",
    "section": "Enrichment",
    "stem": "Nina sees a plane flying directly overhead at a height of $750$ m. $25$ seconds later, the angle of elevation of the plane from Nina is $35^\\circ$. Assume the plane flies horizontally.",
@@ -47575,6 +48007,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-3j-read",
    "label": "1a",
    "section": "Fluency",
    "stem": "For each diagram, write the true bearing asked for.",
@@ -47702,6 +48135,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-3j-read",
    "label": "1b",
    "section": "Fluency",
    "stem": "For each diagram, write the true bearing asked for.",
@@ -47712,6 +48146,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-3j-read",
    "label": "1c",
    "section": "Fluency",
    "stem": "For each diagram, write the true bearing asked for.",
@@ -47849,6 +48284,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-3j-read",
    "label": "1d",
    "section": "Fluency",
    "stem": "For each diagram, write the true bearing asked for.",
@@ -47859,6 +48295,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-3j-read",
    "label": "1e",
    "section": "Fluency",
    "stem": "For each diagram, write the true bearing asked for.",
@@ -47996,6 +48433,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-3j-read",
    "label": "1f",
    "section": "Fluency",
    "stem": "For each diagram, write the true bearing asked for.",
@@ -48006,6 +48444,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1g",
+   "help": "y9-3j-read",
    "label": "1g",
    "section": "Fluency",
    "stem": "For each diagram, write the true bearing asked for.",
@@ -48143,6 +48582,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1h",
+   "help": "y9-3j-read",
    "label": "1h",
    "section": "Fluency",
    "stem": "For each diagram, write the true bearing asked for.",
@@ -48153,6 +48593,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1i",
+   "help": "y9-3j-read",
    "label": "1i",
    "section": "Fluency",
    "stem": "For each diagram, write the true bearing asked for.",
@@ -48290,6 +48731,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1j",
+   "help": "y9-3j-read",
    "label": "1j",
    "section": "Fluency",
    "stem": "For each diagram, write the true bearing asked for.",
@@ -48300,6 +48742,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1k",
+   "help": "y9-3j-read",
    "label": "1k",
    "section": "Fluency",
    "stem": "For each diagram, write the true bearing asked for.",
@@ -48426,6 +48869,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1l",
+   "help": "y9-3j-read",
    "label": "1l",
    "section": "Fluency",
    "stem": "For each diagram, write the true bearing asked for.",
@@ -48436,6 +48880,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2",
+   "help": "y9-3j-trig",
    "label": "2",
    "section": "Fluency",
    "type": "numeric",
@@ -48564,6 +49009,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3",
+   "help": "y9-3j-trig",
    "label": "3",
    "section": "Fluency",
    "type": "numeric",
@@ -48574,6 +49020,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4",
+   "help": "y9-3j-trig",
    "label": "4",
    "section": "Fluency",
    "type": "numeric",
@@ -48584,6 +49031,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5",
+   "help": "y9-3j-trig",
    "label": "5",
    "section": "Fluency",
    "type": "numeric",
@@ -48593,6 +49041,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-3j-trig",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "A fishing boat sails $70$ km from point $O$ to point $B$, on a true bearing of $130^\\circ$.",
@@ -48721,6 +49170,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-3j-trig",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "A fishing boat sails $70$ km from point $O$ to point $B$, on a true bearing of $130^\\circ$.",
@@ -48732,6 +49182,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-3j-trig",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "Two towns, $A$ and $B$, are $15$ km apart. The true bearing of $B$ from $A$ is $244^\\circ$.",
@@ -48743,6 +49194,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-3j-trig",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "Two towns, $A$ and $B$, are $15$ km apart. The true bearing of $B$ from $A$ is $244^\\circ$.",
@@ -48753,6 +49205,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8",
+   "help": "y9-3j-trig",
    "label": "8",
    "section": "Problem-solving",
    "type": "numeric",
@@ -48762,6 +49215,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9",
+   "help": "y9-3j-triangle",
    "label": "9",
    "section": "Problem-solving",
    "type": "numeric",
@@ -48772,6 +49226,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10",
+   "help": "y9-3j-triangle",
    "label": "10",
    "section": "Problem-solving",
    "type": "numeric",
@@ -48781,6 +49236,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y9-3j-read",
    "label": "11a",
    "section": "Reasoning",
    "stem": "A true bearing is $a^\\circ$. Write an expression for the true bearing of the opposite direction when:",
@@ -48791,6 +49247,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y9-3j-read",
    "label": "11b",
    "section": "Reasoning",
    "stem": "A true bearing is $a^\\circ$. Write an expression for the true bearing of the opposite direction when:",
@@ -48800,6 +49257,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y9-3j-angles",
    "label": "12a",
    "section": "Reasoning",
    "stem": "A hiker walks around a triangular track from $A$ to $B$, then to $C$, then back to $A$. $C$ is due south of $A$. The bearing of $B$ from $A$ is $135^\\circ$ and $\\angle ABC = 70^\\circ$.",
@@ -48905,6 +49363,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y9-3j-angles",
    "label": "12b",
    "section": "Reasoning",
    "stem": "A hiker walks around a triangular track from $A$ to $B$, then to $C$, then back to $A$. $C$ is due south of $A$. The bearing of $B$ from $A$ is $135^\\circ$ and $\\angle ABC = 70^\\circ$.",
@@ -48915,6 +49374,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y9-3j-angles",
    "label": "12c",
    "section": "Reasoning",
    "stem": "A hiker walks around a triangular track from $A$ to $B$, then to $C$, then back to $A$. $C$ is due south of $A$. The bearing of $B$ from $A$ is $135^\\circ$ and $\\angle ABC = 70^\\circ$.",
@@ -48925,6 +49385,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12d",
+   "help": "y9-3j-angles",
    "label": "12d",
    "section": "Reasoning",
    "stem": "A hiker walks around a triangular track from $A$ to $B$, then to $C$, then back to $A$. $C$ is due south of $A$. The bearing of $B$ from $A$ is $135^\\circ$ and $\\angle ABC = 70^\\circ$.",
@@ -48935,6 +49396,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12e",
+   "help": "y9-3j-angles",
    "label": "12e",
    "section": "Reasoning",
    "stem": "A hiker walks around a triangular track from $A$ to $B$, then to $C$, then back to $A$. $C$ is due south of $A$. The bearing of $B$ from $A$ is $135^\\circ$ and $\\angle ABC = 70^\\circ$.",
@@ -48945,6 +49407,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y9-3j-trig",
    "label": "13a",
    "section": "Enrichment",
    "stem": "A plane flies on a true bearing of $162^\\circ$ for $3$ hours at an average speed of $280$ km/h. Give each answer to the nearest kilometre.",
@@ -48955,6 +49418,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y9-3j-trig",
    "label": "13b",
    "section": "Enrichment",
    "stem": "A plane flies on a true bearing of $162^\\circ$ for $3$ hours at an average speed of $280$ km/h. Give each answer to the nearest kilometre.",
@@ -48965,6 +49429,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13c",
+   "help": "y9-3j-trig",
    "label": "13c",
    "section": "Enrichment",
    "stem": "A plane flies on a true bearing of $162^\\circ$ for $3$ hours at an average speed of $280$ km/h. Give each answer to the nearest kilometre.",
@@ -48975,6 +49440,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y9-3j-trig",
    "label": "14a",
    "section": "Enrichment",
    "stem": "A pilot plans to fly to Westvale, which is $260$ km due north of the starting point. The trip usually takes $55$ minutes. Because of a storm, the pilot instead flies to Ridgeton, on a true bearing of $325^\\circ$ for $150$ km, at an average speed of $190$ km/h.",
@@ -48985,6 +49451,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y9-3j-trig",
    "label": "14b",
    "section": "Enrichment",
    "stem": "A pilot plans to fly to Westvale, which is $260$ km due north of the starting point. The trip usually takes $55$ minutes. Because of a storm, the pilot instead flies to Ridgeton, on a true bearing of $325^\\circ$ for $150$ km, at an average speed of $190$ km/h.",
@@ -48995,6 +49462,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14c",
+   "help": "y9-3j-trig",
    "label": "14c",
    "section": "Enrichment",
    "stem": "A pilot plans to fly to Westvale, which is $260$ km due north of the starting point. The trip usually takes $55$ minutes. Because of a storm, the pilot instead flies to Ridgeton, on a true bearing of $325^\\circ$ for $150$ km, at an average speed of $190$ km/h.",
@@ -49005,6 +49473,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14d",
+   "help": "y9-3j-trig",
    "label": "14d",
    "section": "Enrichment",
    "stem": "A pilot plans to fly to Westvale, which is $260$ km due north of the starting point. The trip usually takes $55$ minutes. Because of a storm, the pilot instead flies to Ridgeton, on a true bearing of $325^\\circ$ for $150$ km, at an average speed of $190$ km/h.",
@@ -49015,6 +49484,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14e",
+   "help": "y9-3j-trig",
    "label": "14e",
    "section": "Enrichment",
    "stem": "A pilot plans to fly to Westvale, which is $260$ km due north of the starting point. The trip usually takes $55$ minutes. Because of a storm, the pilot instead flies to Ridgeton, on a true bearing of $325^\\circ$ for $150$ km, at an average speed of $190$ km/h.",
